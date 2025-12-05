@@ -288,13 +288,13 @@ September 2025
 
 # **Preface** (non-normative)
 
-## FPF is a first principle based architecture decisions for transdisciplinary SoTA methods of evolving holons: systems, epistemes, communities.
+# FPF is a first principle based architecture decisions for transdisciplinary SoTA methods of evolving holons: systems, epistemes, communities.
 
 FPF is designed to serve three primary roles: the Engineer, who builds reliable systems; the Researcher, who searches for and grows trustworthy knowledge; the Manager, who organizes the collective thinking process of the Engineers and Researchers. Therefore FPF stands on a deliberately cross‑disciplinary scaffold. What follows traces the ideas that most visibly shaped its kernel, holonic constructive algebra, transdisciplinary thinking methods (architheories) with conceptual standards of publication/presentation results of this thinking.
 
 Format of architecture decisions for transdisciplinary thinking architecture: similar to ADR (architecture decision records). **First Principles Framework (FPF)** proposes: a **pattern language** that is _generative_ rather than prescriptive—a toolkit for constructing thought. Each pattern follows the **Alexanderian quartet** (problem context - problem - solution - checklist - consequences - rationale, plus dependences); Patterns interlock to form an **operating system for thought** that is designed to **evolve** (Open‑Ended Evolution, **A.4**).
 
-## Creativity in Open-Ended Evolution and Assurance*
+# Creativity in Open-Ended Evolution and Assurance*
 
 Most engineering and management standards, methodologies and frameworks pick a side. They either optimise for **assurance** — audits, evidence, safety gates — or they celebrate open-ended evolution/agility based on **creativity** — ideas, leaps, pivots. **First Principles Framework (FPF)** is built to do both at once. It gives you a disciplined way to collectiverly generate and mature novel ideas with trust.
 
@@ -319,7 +319,7 @@ FPF also adopts an explicit **Bitter‑Lesson Preference** and a **Scaling‑Law
 * **Scale‑savvy exploration.** In open‑ended generation, **declare the Scale Variables (S)** that govern improvement (e.g., parameterisation breadth, data exposure, iteration budget, temporal/spatial resolution) and the expected **elasticities**; early exploration **samples along scale‑paths** to estimate diminishing‑returns regimes.
 * **Strategy read‑out.** Portfolios and SoTA packs are **reported as sets** with **scale‑aware fronts** (utility × novelty × constraint‑fit × **scale‑elasticity** classes), not as single winners at frozen budgets; exploitation phases **inherit** the declared scale policy.  *(Formalisation: C.18.1 SLL; C.19.1 BLP.)*
 
-## Navigating Uncertainty: Building Closed Worlds within an Open World *(non-normative)*
+# Navigating Uncertainty: Building Closed Worlds within an Open World *(non-normative)*
 
 A fundamental challenge in any rigorous thinking is how to handle incomplete information. To build reliable systems and make trustworthy claims, we must make decisive judgments based on what we know, while remaining aware of the vast ocean of what we don't. This tension is formally captured by two opposing assumptions about the world: the Open-World Assumption and the Closed-World Assumption. FPF does not force a choice between them; instead, it provides a principled architecture for using both where they are most appropriate.
 
@@ -350,7 +350,7 @@ While the universe is open, engineering requires us to build systems that are sa
 
 In essence, FPF does not attempt the impossible task of transforming the open world into a closed one. It provides the architectural discipline to draw a firm line in the sand, make a reliable decision based on what's inside that line, and always remain aware of the open, unbounded world that lies beyond it.
 
-## FPF as an Evolutionary Architecture for Thought 
+# FPF as an Evolutionary Architecture for Thought 
 
 A method of thinking is itself a system. Like any system, it can be designed with ad-hoc, brittle connections that fail under pressure, or it can be architected for resilience, clarity, and growth. The First Principles Framework is not merely a collection of concepts or a static ontology; it is a formal **architecture for a method of trans-disciplinary thinking**. Its very structure—a collection of interconnected Architectural and Definitional Patterns presented as a series of an architecture/design records — is a deliberate choice that mirrors its function.
 
@@ -362,7 +362,7 @@ The value of this architectural approach lies in its ability to explicitly prote
 
 Part of FPF architecture for open-ended evolution is counterintuitive. E.g., to determine SoTA systems, knowledge, communities, methods, disciplines and other entities, you need to compare them. Therefore FPF has measurement and comparability theory that starts all thinking with designing of a comparability-gauge frame (CG-frame). To discuss dynamics of holon change, FPF talks about holon's characteristics that are measurable within CG-frames and trajectories in characteristic spaces. 
 
-## Architectural Characteristic of Thought
+# Architectural Characteristic of Thought
 
 | Architectural Characteristic of Thought | What it protects / why it matters | The FPF Mechanisms that Preserve It |
 | :--- | :--- | :--- |
@@ -389,7 +389,7 @@ Part of FPF architecture for open-ended evolution is counterintuitive. E.g., to 
 
 Therefore, FPF should be understood not as a passive library of terms, but as an **engineered method for thinking**. Its patterns are the architectural decisions that shape this method. Its ultimate value is not in any single model it can produce, but in the enduring quality of the reasoning process it sustains—a discipline that is auditable, evolvable, and coherent by design.
 
-## Beyond Cognitive Biases: FPF as a Generative Architecture for Thought 
+# Beyond Cognitive Biases: FPF as a Generative Architecture for Thought 
 
 The modern discipline of critical thinking has rightly focused on identifying and mitigating a long list of cognitive biases—the predictable glitches in our intuitive reasoning, from confirmation bias to the availability heuristic. The practice of "bias hunting" is a valuable diagnostic tool for improving our intellectual hygiene. However, it suffers from a fundamental limitation: it is primarily **corrective, not constructive**. It teaches us how to find flaws in existing arguments but offers little guidance on how to build a robust, complex argument from first principles.
 
@@ -411,7 +411,7 @@ FPF does not make a thinker immune to cognitive biases. Rather, it provides a di
 
 In this way, FPF is not a replacement for critical thinking and creative thinking but its **engineering reinforcement**. It provides the architectural integrity, shared vocabulary, and formal discipline necessary to move from merely avoiding mistakes and generate ad hoc ideas to reliably generating trustworthy and auditable insights.
 
-## Thinking Through Writing: The FPF Discipline of Conceptual Work 
+# Thinking Through Writing: The FPF Discipline of Conceptual Work 
 
 A core challenge of any rigorous intellectual effort is that thought itself is intangible. While many frameworks focus on managing data, process, or team activities, FPF uniquely focuses on architecting the *act of reasoning itself*. It achieves this by providing a discipline of "thinking through writing"—a method for giving thought a concrete, shareable, and auditable form. The diverse formats found within the framework—the Cards, Tables, Records, and Specifications—are the instruments for this discipline.
 
@@ -431,7 +431,7 @@ This flexibility is by design. The conceptual Standard of a **Role Description C
 
 Ultimately, the diverse forms within FPF are not bureaucratic artifacts to be produced; they are conceptual instruments to be used. They provide the minimal necessary structure to turn fleeting insights into durable, shareable, and contestable knowledge. They are the grammar that allows a team to write its thoughts, and then, together, to edit them towards truth.
 
-## Descriptive Ontologies vs. A Thinking-Oriented Architecture 
+# Descriptive Ontologies vs. A Thinking-Oriented Architecture 
 
 The First Principles Framework (FPF) shares a goal with classical upper ontologies (e.g., **Basic Formal Ontology (BFO)**, **DOLCE**): to provide a universal, unified language that cuts across disciplinary silos. Yet they pursue this from fundamentally different starting points. Understanding this distinction is key to grasping FPF’s unique purpose.
 
@@ -451,7 +451,7 @@ The following contrasts highlight this shift:
 | **Cross-Disciplinarity** | Challenging: each domain = new branch. | Built-in: patterns span ≥3 domains (C-1 Universality). |
 | **Physical Grounding** | Optional; often abstract. | Mandatory: material Transformer anchor (e.g., in Pattern D.1 Mereology). |
 
-## The "Bitter Lesson" trajectory — compute, data, and freedom over hand‑tuned rules (FPF stance)
+# The "Bitter Lesson" trajectory — compute, data, and freedom over hand‑tuned rules (FPF stance)
 Empirical progress since 2015 supports the “Bitter Lesson” (Sutton, 2019): systems that leverage *more data*, *more compute*, and *more freedom* (less hand‑coded domain procedure) tend to outperform bespoke rule‑engineered solutions. Scaling‑law work (e.g., 2020–2022) shows that broader models benefit from compute/data scaling; instruction‑following and tool‑use methods (2019–2024) let general models adapt across tasks without per‑task re‑engineering (e.g., ReAct‑style tool use, self‑reflection/Reflexion, autonomous open‑world exploration such as Voyager/Auto‑GPT‑class agents).
 
  FPF separates *goals and constraints* from *procedures*. We prefer **Rule‑of‑Constraints (RoC)** — explicit prohibitions, budgets, and safety envelopes — over **Instruction‑of‑Procedure (IoP)** — detailed step‑by‑step scripts. RoC keeps the **design–run separation** intact: designers declare *what must not happen* and *what budgets apply*; agents have freedom of choose *how* to act within those bounds at run‑time. 
@@ -470,7 +470,7 @@ A **Rule‑of‑Constraints (RoC)** is a compact, versioned policy bundle: *(a)*
 
 **Expected outcomes.** Faster iteration (minutes‑to‑change via prompt/policy edits), resilience to model refresh, lower authoring cost, and higher autonomy at comparable risk thanks to budgets + telemetry + CG‑framed comparability.
 
-## From Flat Documents to High-Dimensional Truth: The Multi-View Architecture
+# From Flat Documents to High-Dimensional Truth: The Multi-View Architecture
 
 Classical semiotics gave us the Semantic Triangle: Symbol, Concept, Object. It was a useful approximation for a paper-based world where a blueprint was physically distinct from the machine it described. For contemporary systems engineering, computational discovery, and AI-augmented management, that Triangle is a flatland map for a multidimensional territory. It collapses distinctions we now need to keep sharp: it confuses the view with the viewpoint, the carrier with the content, and the projection with the reality.
 
@@ -491,7 +491,7 @@ This multi-view architecture is designed for the age of the **Bitter Lesson**. M
 
 By treating description as a graph of typed projections rather than a pile of files, FPF gives the Engineer tools to keep views coherent, the Researcher tools to trace provenance across viewpoints, and the Manager justified confidence that dashboards and reports are lawful views of the territory, not parallel worlds.
 
-## The “big storylines” unique to FPF (load‑bearing commitments)
+# The “big storylines” unique to FPF (load‑bearing commitments)
 1. **Holonic kernel with physical anchoring**  —  everything that composes is a `U.Holon`; every change is enacted by an **external transformer** (A.1; A.12).
 2. **Role–Method–Work split with time duality** — prevents the endemic plan/reality conflation; only `U.Work` carries actuals (A.4; A.15.1–.2).
 3. **Assurance as a first‑class calculus** — evidence roles, decay, and weakest‑link composition make “trust” computable and auditable (B.3; A.10).
@@ -505,7 +505,7 @@ By treating description as a graph of typed projections rather than a pile of fi
 **What FPF is**: a **generative, testable architecture for open-ended evolutionary thinking** that any domain can inhabit.
 **What FPF is not**: a repository of domain facts, a rule‑chaining engine, a methodology du jour, or a notation.
 
-## Transdisciplinarity as a Meta‑Theory of Thinking  
+# Transdisciplinarity as a Meta‑Theory of Thinking  
 
 *Modern complexity lives at the junction of silos.*  A climate model borrows genetics to track pathogens; a venture‑capital pitch cites thermodynamic “runway.” Yet each field guards its own mathematics, and translation costs soar.  **FPF answers this tension by treating transdisciplinarity as a meta‑theory of thinking itself** — a language for designing reasoning, not another specialist dialect.
 
@@ -519,7 +519,7 @@ Part F is the framework’s **publication surface for cross‑domain alignment
 
 Part G turns “state‑of‑the‑art” from a moving target into a **governed, selector‑ready portfolio**. It does this by (i) fixing *what may be compared and under which evidence minima*; (ii) generating and harvesting SoTA alternatives across rival traditions; (iii) authoring lawful measurements and calculi; (iv) registering method families and selecting among them **without semantic flattening**; and (v) shipping edition‑aware packs with telemetry so that refresh is principled rather than ad‑hoc. In short: **G formalises SoTA as an auditable, updatable object, not a leaderboard snapshot.**   
 
-## FPF as a Culinary Architecture for Collective Thought: Why We Formalize “Obvious” Ideas
+# FPF as a Culinary Architecture for Collective Thought: Why We Formalize “Obvious” Ideas
 
 A thoughtful reader encountering concepts like *Open-Ended Evolution*, *Minimally Viable Examples*, or the *Explore-Exploit* trade-off within FPF might rightly observe: "These are not new ideas. They are foundational principles in fields from Agile development to strategic management." This observation is not only correct; it is central to understanding FPF's unique value.
 
@@ -559,7 +559,7 @@ FPF's utility begins to scale exponentially when the problem itself crosses a **
 
 An expert's intuition can find a single, excellent point on this multi-dimensional frontier. FPF provides the architectural discipline to navigate the entire frontier. It is the necessary scaffold for building solutions that are not only clever, but also composable, collaborative, evolvable, trustworthy, and perpetually creative at scale.
 
-## Intellect Stack 
+# Intellect Stack 
 
 *Complex problems fail more often from mis‑aligned competencies than from missing facts.* Inside one brain—or one team—model builders, testers, and decision makers can behave like separate departments. The **Intellect Stack** offers a **layered map of cognitive skills**, showing how FPF’s architheories combine into an “operating system for thought.”
 
@@ -583,7 +583,7 @@ A full description of the Intellect Stack and its layers resides in the Pedagogi
 
 *“A stack without mastery is scaffolding; mastery without a stack is improvisation—FPF supplies the ladder that turns skills into intelligence.”*
 
-## Purpose, Scope, and Explicit Non‑Goals 
+# Purpose, Scope, and Explicit Non‑Goals 
 
 *A framework that aims at everything excels at nothing.* To keep **Cognitive Elegance (P‑1)** and **Pragmatic Utility (P‑7)** intact, FPF draws a deliberate line around what it serves—and what it refuses to be.
 
@@ -914,14 +914,14 @@ These streams converge on one point: **make boundaries and composition first‑c
 
 ### Pattern A.1.1 — `U.BoundedContext`: The Semantic Frame \[D]
 
-#### 1 · Term & Definition
+### 1 · Term & Definition
 
 *   **Term:** `U.BoundedContext`
 *   **Definition:** A **`U.BoundedContext`** is a `U.Holon` that serves as an explicit **semantic frame of reference**. It defines a boundary within which a specific set of models, roles, rules, and language is self-consistent and authoritative. It is the FPF's formal mechanism for localizing meaning and managing complexity by partitioning a larger conceptual space into smaller, coherent, and independently governable domains.
 
-#### 2 · Forces
+### 2 · Forces
 
-### 2.1 · Prophylactic clarification — Context vs Domain
+#### 2.1 · Prophylactic clarification — Context vs Domain
 To prevent a common category error, **Domain** and **U.BoundedContext** are **not synonyms** in FPF.
 
 | Characteristic | **Domain** (e.g., Physics, Law, Automotive Engineering) | **U.BoundedContext** (e.g., `AirTrafficControl_2025`, `Theory:QuantumMechanics`) |
@@ -944,7 +944,7 @@ The concept of a `U.BoundedContext`, inspired by Domain-Driven Design (DDD) but 
 
 In short, a `U.BoundedContext` is not just a "scope" or a "namespace." It is a **holon of meaning**, a self-contained universe of discourse with its own local truth.
 
-#### 3 · Core Components & Attributes
+### 3 · Core Components & Attributes
 
 A `U.BoundedContext` is a composite holon defined by the following key components, which collectively constitute its model:
 
@@ -959,7 +959,7 @@ A `U.BoundedContext` is a composite holon defined by the following key component
 *   **`Bridges` (Optional Mappings):** A set of explicit mappings (`U.Alignment`) to other `U.BoundedContext`s. A bridge defines how concepts and terms are translated when information flows from one context to another. This is the formal mechanism for inter-context communication.
     *   **Example Bridge:** A mapping that states, *"The `UserStory` concept in the `AgileDevelopment` context is functionally congruent (CL=1) to the `Requirement` concept in the `FormalEngineering` context."*
 
-#### 4 · Relations to Other FPF Concepts
+### 4 · Relations to Other FPF Concepts
 
 *   **As a `U.Holon`:** A `U.BoundedContext` is itself a holon. It has a **boundary** (the semantic line between what's inside and outside its model), **parts** (its `Glossary`, `Invariants`, etc.), and can be part of a larger whole (a context can be nested within another, more general context).
 
@@ -969,7 +969,7 @@ A `U.BoundedContext` is a composite holon defined by the following key component
 
 *   **As a Target for `U.Transformer`:** A `U.BoundedContext` can be changed. The evolution of a team's process, a scientific theory, or a project's rules is modeled as a `Transformer` acting on the `U.BoundedContext` holon itself (e.g., by adding a new invariant or deprecating a role).
 
-#### 5 · Archetypal Grounding
+### 5 · Archetypal Grounding
 
 The concept of a `U.BoundedContext` is universal and applies to both physical/operational domains and purely abstract/epistemic ones. Understanding these two archetypes clarifies its role as a fundamental FPF primitive.
 
@@ -981,7 +981,7 @@ The concept of a `U.BoundedContext` is universal and applies to both physical/op
 **Key takeaway from grounding:**
 This illustrates that a `U.BoundedContext` is not an abstract container but a **holon with tangible content**. For the engineering team, it's their project's "operating system." For the scientific theory, it's the "intellectual constitution." In both cases, the context defines what is true, what is possible, and what words mean *locally*.
 
-#### 6 · Conformance Checklist
+### 6 · Conformance Checklist
 
 To ensure `U.BoundedContext` is used consistently and rigorously, the following normative checks apply.
 
@@ -993,7 +993,7 @@ To ensure `U.BoundedContext` is used consistently and rigorously, the following 
 | **CC-A1.1.4 (Bridge Explicitness)** | Any interaction or mapping between two `U.BoundedContext`s **MUST** be modeled as an explicit `Bridge` artifact. | Forbids "backdoor" or implicit communication between contexts. Makes all inter-context dependencies visible and auditable. |
 | **CC-A1.1.5 (RoleAssignment Context Anchor)** | Every `U.RoleAssignment` **MUST** reference exactly one `U.BoundedContext` in its `context` field. | Guarantees that every role assignment is unambiguous and its meaning is fully determined by a single, authoritative context. |
 
-#### 7 · Consequences
+### 7 · Consequences
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
@@ -1002,7 +1002,7 @@ To ensure `U.BoundedContext` is used consistently and rigorously, the following 
 | **Makes Rules Explicit:** The `Invariants` component of a context makes the local rules and invariants for a project or theory explicit, documented, and auditable. | - |
 | **Foundation for Scalable Autonomy:** In multi-agent systems, each agent can operate within its own bounded context, communicating with others through well-defined bridges. This is a prerequisite for building robust, decentralized systems. | - |
 
-#### 8 · Rationale
+### 8 · Rationale
 
 **Lineage and fit with Domain‑Driven Design (DDD).**  
 FPF generalizes the proven DDD idea of a **Bounded Context** from software into a universal modeling primitive:
@@ -1025,7 +1025,7 @@ The introduction of `U.BoundedContext` as a first-class holon is a direct implem
 
 In essence, `U.BoundedContext` is the architectural pattern that allows FPF to be both **universal** in its core principles and **specific** and **pluralistic** in its applications. It is the mechanism that tames complexity and makes large-scale, multi-paradigm modeling possible.
 
-#### 9 · Relations
+### 9 · Relations
 
 *   **Constitutes:** The foundational "semantic space" for patterns like `A.2 Role Taxonomy` and `A.13 The Agential Role`.
 *   **Builds on:** `A.1 Holonic Foundation`, as a `U.BoundedContext` is itself a `U.Holon`.
@@ -1066,7 +1066,7 @@ Without an explicit role calculus:
 
 We elevate **Role** to a first‑class, *context‑indexed* concept and make the **binding** between a holon and a role explicit.
 
-#### S‑level definitions (normative)
+### S‑level definitions (normative)
 
 * **`U.Role`** — a **context-bound** capability/obligation schema that a holon **may bear (play)** for a time interval. A role has **no parts** and **no resource deltas** of its own. *(A7 guard)*
 * **`U.RoleAssignment`** — a first-class object recording that a holon **bears (plays)** a role **in** a bounded context, optionally with authority, justification, and provenance:
@@ -1086,7 +1086,7 @@ Short form (readable): `Holon#Role:Context [@Interval]`.
 
 > **Why a first‑class binding?** It keeps identity (holon), function (role), context (semantics), and time (run‑window) separate yet linked, preventing the substance/function conflation identified above. The early `playsRoleOf(Holon, Role, span)` relation in the draft is subsumed by `U.RoleAssignment` and extended with **Context** (and optional governance fields).
 
-#### Temporal & behavioural alignment
+### Temporal & behavioural alignment
 
 * **Method** exists **only while** some **Work** is underway; **MethodDescription** persists as Episteme. A Role **binds** to Method (design‑time), and Work **performs** Method under that Role (run‑time). This preserves the *role ≠ behaviour* split and the *design ↔ run* duality.
 * Only **Work** carries resource deltas (feeds Γ\_work); a Role never does.
@@ -1217,7 +1217,7 @@ A **set** `{Alice, Bob, 3.14}` has no behaviour; a **team** is a **system** with
 * **Reinforces:**
   **A.10 Evidence Graph Referring** (external transformer; SCR/RSCR), **A.12 External Transformer Principle** (agent externalisation). 
   
-  # A.2.1 — U.RoleAssignment: Contextual Role Assignment \[D]
+### A.2.1 — U.RoleAssignment: Contextual Role Assignment \[D]
 
 *with `Role Performance View`, `U.RoleStateGraph (RSG)`, and `Role Characterisation Space (RCS)` hooks*
 
@@ -1228,7 +1228,7 @@ A **set** `{Alice, Bob, 3.14}` has no behaviour; a **team** is a **system** with
 
 ---
 
-## 1 · Intent & scope (what this pattern fixes)
+#### 1 · Intent & scope (what this pattern fixes)
 
 **Intent.** Provide one, universal, **context‑local** way to say *who is being what, where (and when)* without altering what the thing **is**. The same grammar works for people, machines, software, teams, and **also** for knowledge artefacts (epistemes) when they hold **statuses** rather than perform actions.
 
@@ -1243,7 +1243,7 @@ A **set** `{Alice, Bob, 3.14}` has no behaviour; a **team** is a **system** with
 
 ---
 
-## 2 · Problem frame (recurring confusions this removes)
+#### 2 · Problem frame (recurring confusions this removes)
 
 1. **Type explosion.** Baking transient function into rigid types (“CoolingPump”, “AuditDeveloper”) violates parsimony and makes change brittle.
 2. **Context drift.** Labels like *Operator*, *Process Owner*, *Standard* slide in meaning across teams/years when not tied to a **Context**.
@@ -1253,7 +1253,7 @@ A **set** `{Alice, Bob, 3.14}` has no behaviour; a **team** is a **system** with
 
 ---
 
-## 3 · Forces (and how we resolve them)
+#### 3 · Forces (and how we resolve them)
 
 | Force                            | Resolution in this pattern                                                                                                        |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -1265,9 +1265,9 @@ A **set** `{Alice, Bob, 3.14}` has no behaviour; a **team** is a **system** with
 
 ---
 
-## 4 · Solution — the binding and its strict neighbours
+#### 4 · Solution — the binding and its strict neighbours
 
-### 4.1 Canonical definition (notation‑free)
+##### 4.1 Canonical definition (notation‑free)
 
 **`U.RoleAssignment`** is a **context‑local** binding:
 
@@ -1297,7 +1297,7 @@ A RoleAssignment can be:
 (a) Authoritative — issued by an authority or policy in the Context (often via a SpeechAct Work); it can open the Green‑Gate for steps that require explicit authorization.
 (b) Observational — an evidence‑backed classification that the holder occupies a Role in this Context (e.g., “Moon as SatelliteRole:IAU_2006”). Observational assignments never by themselves open operational Green‑Gates; they can gate decisions and analysis.
 
-### 4.2 Role Enactment (distinct from the assignment)
+##### 4.2 Role Enactment (distinct from the assignment)
 
 **`U.RoleEnactment`** captures the *run‑time* fact that **a specific piece of Work** was performed under **a specific Role Assignment**:
 
@@ -1316,7 +1316,7 @@ RoleEnactment ::= 〈work: U.Work, by: U.RoleAssignment〉
 
 Role Enactment is the occurrence of `U.Work` performed by a `holder` while a valid `U.RoleAssignment` for the required Role is in an enactable state of its RoleStateGraph (A.2.5) within the same Context. Enactment is generic: it includes operational work (e.g., actuation) and communicative work (speech acts such as approvals).
 
-### 4.3 Role Characterisation Space (RCS) & Role State Graph (RSG)
+##### 4.3 Role Characterisation Space (RCS) & Role State Graph (RSG)
 
 These are **intensional facets** of a **Role**, not containers “inside” the Role. They are **recorded in** the **RoleDescription** (or **RoleSpec** once harnessed), per E.10.D2.
 
@@ -1330,7 +1330,7 @@ These are **intensional facets** of a **Role**, not containers “inside” the 
 
 ---
 
-### 4.4 Shorthand & reading
+##### 4.4 Shorthand & reading
 
 Use the canonical compact form in prose and diagrams:
 
@@ -1347,21 +1347,21 @@ Examples:
 
 ---
 
-### 4.5 Independence of role families (no chains)
+##### 4.5 Independence of role families (no chains)
 
 Role families (e.g., **Agential**, **Constructor/Transformer**, **Observer/Measurer**, **Status**) are **independent**. A Context may state that *`Surgeon ≤ Clinician`* **within the same family**, but **MUST NOT** model “Transformer is an Agent” by chaining RoleAssignments. When a holder must satisfy **both** an Agential and a Transformer requirement, the **MethodStep** **requires both** roles; the holder **wears two badges**, not a badge‑of‑a‑badge.
 
-## 5 · Eligibility across holon kinds (normative matrix)
+#### 5 · Eligibility across holon kinds (normative matrix)
 
 A Role’s **family** constrains **who can wear its badge**. Eligibility is part of **didactic hygiene** and prevents chains like “Transformer → Agent”.
 
-### 5.1 Holder kinds (recap)
+##### 5.1 Holder kinds (recap)
 
 * **`U.System`** — any acting holon (person, device, software service, team, organization, socio‑technical unit).
 * **`U.Episteme`** — any knowledge unit (document, dataset, model, standard, Standard).
 * **`U.Holon`** — supertype; only **Systems** enact Work; **Epistemes** can only hold **status** roles.
 
-### 5.2 Role‑family × holder matrix
+##### 5.2 Role‑family × holder matrix
 
 | Role family (examples)                                                 | May be held by `U.System` | May be held by `U.Episteme` | Notes (eligibility refinements live in Context)                                                                                |
 | ---------------------------------------------------------------------- | :-----------------------: | :-------------------------: | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -1383,24 +1383,24 @@ A Role’s **family** constrains **who can wear its badge**. Eligibility is part
 
 ---
 
-## 6 · Role algebra **within a single Context** (meaning relations)
+#### 6 · Role algebra **within a single Context** (meaning relations)
 
 Role algebra relates **role types** inside **one** `U.BoundedContext`. It is **not** mereology.
 
-### 6.1 Specialization (narrower assignment)
+##### 6.1 Specialization (narrower assignment)
 
 * **Notation:** `RoleS ≤ RoleG`
 * **Semantics (normative):** For any `U.RoleAssignment` with `role = RoleS` in this Context, the holder **also satisfies** requirements for `RoleG` in this Context.
 * **Use:** Stable expertise ladders, privilege inheritance.
 * **CC‑ALG‑1.** Engines that check `requiredRoles` **MUST** treat `≤` as admissible substitution.
 
-### 6.2 Incompatibility (conceptual role incompatibility)
+##### 6.2 Incompatibility (conceptual role incompatibility)
 
 * **Notation:** `RoleA ⊥ RoleB`
 * **Semantics (normative):** A single holder **MUST NOT** have overlapping `window`s for assignments to both roles in this Context.
 * * **CC‑ALG‑2.** Validation **MUST** reject overlapping assignments that violate `⊥`.
 
-### 6.3 Bundles (conjunctive requirement)
+##### 6.3 Bundles (conjunctive requirement)
 
 * **Notation:** `RoleC := Role1 ⊗ Role2 ⊗ …`
 * **Semantics:** `RoleC` is **satisfied iff** the holder has **simultaneous** valid assignments for each conjunct role (in this Context).
@@ -1412,18 +1412,18 @@ Role algebra relates **role types** inside **one** `U.BoundedContext`. It is **n
 
 ---
 
-## 7 · Time & state transition calculus (windows, RSG, enactability)
+#### 7 · Time & state transition calculus (windows, RSG, enactability)
 
 **Assignments authorize**, **enactments happen** — in time. RSG governs the **role’s** state transitions; `window` governs the **binding’s** validity.
 
-### 7.1 Windows and overlap
+##### 7.1 Windows and overlap
 
 * **Window form:** `@t_start..t_end` (ends may be open).
 * **RE‑2 (temporal fit)** *(restated)*: `work.window` **MUST** lie within (or overlap appropriately with) `assignment.window`.
 * **Handover pattern:** Close `A#Role@..t` and open `B#Role@t..` — never delete history.
 * **CC‑WIN‑1.** Historic assignments **MUST NOT** be erased; close the window instead.
 
-### 7.2 RSG gating of enactment
+##### 7.2 RSG gating of enactment
 
 Each Role’s **RoleDescription/RoleSpec** defines an **RSG** with named states. Some states are **enactable**.
 
@@ -1434,14 +1434,14 @@ Each Role’s **RoleDescription/RoleSpec** defines an **RSG** with named states.
 
 **Practical reading.** *Badge valid* (window) ∧ *state is right* (RSG) ⇒ you may act.
 
-### 7.3 Suspensions, revocations, probation
+##### 7.3 Suspensions, revocations, probation
 
 * **Suspend:** transition to a **non‑enactable** state (e.g., *Suspended*). Keep the assignment’s window open; enactment is blocked by **RE‑5**.
 * **Revoke:** either (a) close the window, or (b) transition to *Revoked* (non‑enactable).
 * **Probation:** a dedicated RSG state with limited enactability (e.g., only under supervision, modelled as an extra required role on Method steps).
 * **CC‑RSG‑1.** RSG transitions **MUST** be explicit; no implicit “back to Active”.
 
-### 7.4 Typical temporal patterns (didactic)
+##### 7.4 Typical temporal patterns (didactic)
 
 * **Shift rotation.** `A#Role@08:00..16:00`, `B#Role@16:00..24:00` — clean handover, no `⊥` issues.
 * **Shadowing.** `Trainee#Role@..` + `Mentor#SupervisorRole@..`; Method steps require **both** roles.
@@ -1449,7 +1449,7 @@ Each Role’s **RoleDescription/RoleSpec** defines an **RSG** with named states.
 
 ---
 
-## 8 · Anti‑patterns (and the fast fix)
+#### 8 · Anti‑patterns (and the fast fix)
 
 | #      | Anti‑pattern          | Symptom                                    | Why it’s harmful                   | FPF fix (conceptual move)                                         |
 | ------ | --------------------- | ------------------------------------------ | ---------------------------------- | ----------------------------------------------------------------- |
@@ -1461,13 +1461,13 @@ Each Role’s **RoleDescription/RoleSpec** defines an **RSG** with named states.
 | **A6** | **Edition blur**      | Context “ITIL” with no version             | Sense slippage                     | Context card must carry **edition** (E.10.D1/F.1)                  |
 | **A7** | **Bridge‑by‑name**    | Equating roles across Contexts by label       | Cross‑context drift                   | Use **F.9 Bridge** with CL & loss notes                           |
 
-## 9 · Archetypal grounding (three disparate arenas)
+#### 9 · Archetypal grounding (three disparate arenas)
 
 **Goal.** Show that the same binding **`Holder#Role:Context@Window`**, plus **RCS** (Role‑Characterisation Space) and **RSG** (Role‑State Graph), works uniformly for **operational systems**, **software/service operations**, and **knowledge governance**.
 
 Natural systems note. Spontaneous physical phenomena (e.g., Moon orbiting Earth) are modeled as `U.Dynamics`, not as `U.Work`. An observational RoleAssignment like `Moon#SatelliteRole:IAU_2006` is valid classification but does not imply enactment of a method.
 
-### 9.1 Industrial operations (welding cell)
+##### 9.1 Industrial operations (welding cell)
 
 **Role (family).** `WelderRole` *(Transformer)*
 \**RCS (illustrative characteristics).*
@@ -1496,7 +1496,7 @@ A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderR
 
 ---
 
-### 9.2 Software & cloud operations (continuous delivery / SRE)
+##### 9.2 Software & cloud operations (continuous delivery / SRE)
 
 **Roles (families).**
 
@@ -1530,7 +1530,7 @@ A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderR
 
 ---
 
-### 9.3 Knowledge governance (standards & requirements)
+##### 9.3 Knowledge governance (standards & requirements)
 
 **Roles (families).**
 
@@ -1559,7 +1559,7 @@ A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderR
 
 ---
 
-## 10 · Everyday pattern snippets (didactic moves)
+#### 10 · Everyday pattern snippets (didactic moves)
 
 > **Use these micro‑moves to think and speak cleanly; no tooling required.**
 
@@ -1591,7 +1591,7 @@ A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderR
 `CAB_Chair#ApproverRole:ChangeControl@2026-05-01T10:05` performs a SpeechAct Work “Approve Change-4711”. Effect: moves ApproverRole’s RSG state from Authorized?→Approved and
 +   opens the Green‑Gate for the operational step “Deploy Change-4711” (performed by a different RoleAssignment).
 
-## 11 · Conformance checklist (SCR) — compact, memorable
+#### 11 · Conformance checklist (SCR) — compact, memorable
 
 > **Pass these and your RoleAssignments are sound.**
 
@@ -1624,7 +1624,7 @@ A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderR
 
 ---
 
-## 12 · Regression harness (RSCR) — what to re‑check when things change
+#### 12 · Regression harness (RSCR) — what to re‑check when things change
 
 > **Run these mental “diff checks” whenever you change roles, contexts, or states.**
 
@@ -1656,11 +1656,11 @@ A `U.Work` entry `W#Seam134` is valid only if `performedBy = Robot_SN789#WelderR
 
 * **RSCR‑NAME‑E01.** If a role label changes, maintain the **role identity**; treat renamed labels as aliases inside the same Context rather than minting a new role unless RCS/RSG changed materially.
 
-## 13 · Integration with A.15 — Role–Method–Work alignment
+#### 13 · Integration with A.15 — Role–Method–Work alignment
 
 > **One line.** A `U.MethodDescription` **names** the roles it needs; a `U.Work` **cites** the concrete `U.RoleAssignment` that enacted the step; the **RSG state + window** gates that enactment.
 
-### 13.1 Design‑time Standard (inside `U.MethodDescription`)
+##### 13.1 Design‑time Standard (inside `U.MethodDescription`)
 
 For every **MethodStep**:
 
@@ -1669,7 +1669,7 @@ For every **MethodStep**:
 * **Role algebra in‑Context** applies: if the Context defines `IncisionOperatorRole ≤ SurgeonRole`, then `requires: [SurgeonRole]` also admits holders of `IncisionOperatorRole`.
 * **Separation of concerns.** Capability checks (does the holder *can*?) belong to `U.Capability` and resource limits; **authorization** belongs to `U.RoleAssignment` + RSG.
 
-### 13.2 Run‑time check (inside `U.Work`)
+##### 13.2 Run‑time check (inside `U.Work`)
 
 A `U.Work` record must carry:
 
@@ -1678,13 +1678,13 @@ A `U.Work` record must carry:
 * **State gate.** At that timestamp, an **enactable** state for the assignment is proven by a **`StateAssertion`** (the checklist verdict for a named RSG state).
 * **Role algebra gate.** The assignment’s `role` is either one of `requiredRoles` or a **specialization (`≤`)** thereof; bundles (`⊗`) expand to conjunctions; incompatibilities (`⊥`) forbid overlaps on the same holder.
 
-### 13.3 Evaluation & acceptance (link to services & deontics)
+##### 13.3 Evaluation & acceptance (link to services & deontics)
 
 * **Observation.** The Work produces `U.Observation`(s).
 * **Evaluation.** A `U.Evaluation` compares Observations with **AcceptanceClause**(s) referenced by a **Service** or a **RequirementRole**.
 * **SoD hook.** If the step or evaluation demands independence (e.g., “not performed by its reviewer”), enforce via `⊥` between `PerformerRole` and `ReviewerRole` **in the same Context**.
 
-### 13.4 Planning & scheduling (design‑time “who will enact”)
+##### 13.4 Planning & scheduling (design‑time “who will enact”)
 
 * **`U.WorkDescription`** (renamed from “WorkPlan”) binds forthcoming steps to **candidate RoleAssignments** and time windows.
 * **Checks before the fact.** Validate windows (no gaps/overlaps where disallowed), enforce `⊥`, ensure expected RSG state will be **enactable** at scheduled time (or flag a pre‑flight checklist).
@@ -1694,18 +1694,18 @@ A `U.Work` record must carry:
 
 ---
 
-## 14 · Cross‑Context bridges in practice (with CL penalties)
+#### 14 · Cross‑Context bridges in practice (with CL penalties)
 
 > **Rule.** **No Cross‑context substitution by name.** If a step in **Context A** needs `Role_A`, and the performer only holds `Role_B` in **Context B**, you must use an explicit **Bridge** (F.9) that says how `Role_B@B` relates to `Role_A@A`, with a **Congruence Level (CL)** and **loss notes**.
 
-### 14.1 Directional substitution
+##### 14.1 Directional substitution
 
 A Bridge may assert, *directionally*:
 
 * **`substitutesFor(Role_B@B → Role_A@A)`** with a CL and a list of **kept** and **lost** RCS characteristics / RSG nuances.
 * The reverse direction **does not** follow unless declared.
 
-### 14.2 CL → gating policy (normative thresholds)
+##### 14.2 CL → gating policy (normative thresholds)
 
 | **CL** | Meaning (intuitive)                     | **Permit** | **Guard**                                                                            | **Block** |
 | :----: | --------------------------------------- | :--------: | ------------------------------------------------------------------------------------ | :-------: |
@@ -1716,7 +1716,7 @@ A Bridge may assert, *directionally*:
 
 *Normative hooks.* The **Trust & Assurance Calculus (B.3)** aggregates CL penalties into confidence scores; **D.2** may mandate CL≥2 for safety‑critical enactments.
 
-### 14.3 Typical bridges (worked patterns)
+##### 14.3 Typical bridges (worked patterns)
 
 * **BPMN Task ↔ PROV Activity.**
   `substitutesFor(Task@BPMN → Activity@PROV)` with **CL=2**; **lost:** BPMN control‑flow guards; **kept:** “bounded occurrence consuming/producing entities.”
@@ -1730,7 +1730,7 @@ A Bridge may assert, *directionally*:
   Typically **CL=1** and **directional** (Administrator\@RBAC → ServiceOwner\@ITIL) **rejected** unless a policy Bridge enumerates compensating controls.
   *Effect.* Prevents “ops admin = service owner” conflations without an explicit waiver.
 
-### 14.4 Bridge invariants
+##### 14.4 Bridge invariants
 
 * **Local first.** Substitution never overrides in‑Context `⊥`, `⊗`, or `≤`.
 * **Evidence trail.** Every Cross‑context enactment relying on a Bridge **shall** reference its Bridge id in the `U.Work` justification.
@@ -1738,7 +1738,7 @@ A Bridge may assert, *directionally*:
 
 ---
 
-## 15 · Consequences (what you can count on)
+#### 15 · Consequences (what you can count on)
 
 **Benefits**
 
@@ -1758,7 +1758,7 @@ A Bridge may assert, *directionally*:
 
 ---
 
-## 16 · Rationale (why this specific design)
+#### 16 · Rationale (why this specific design)
 
 * **Strict Distinction (A.7).** Keeps **identity** (Holon) separate from **assignment** (RoleAssignment), **behaviour** (Method/Work), and **knowledge** (Episteme).
 * **Ontological Parsimony (A.11).** One universal binding, three tiny in‑Context relations (`≤, ⊥, ⊗`), no global role types.
@@ -1774,7 +1774,7 @@ A Bridge may assert, *directionally*:
 
 ---
 
-## 17 · Relations (where this pattern sits)
+#### 17 · Relations (where this pattern sits)
 
 **Builds on / depends on**
 
@@ -1798,7 +1798,7 @@ A Bridge may assert, *directionally*:
 
 ---
 
-## 18 · Teaching distillation (60‑second recap)
+#### 18 · Teaching distillation (60‑second recap)
 
 > “Give every action a **badge with a Context**. The badge is a **`U.RoleAssignment`**: `Holder#Role:Context@Window`.
 > The badge is **valid** in time (window) and **green** in state (RSG + **StateAssertion**).
@@ -1809,9 +1809,9 @@ A Bridge may assert, *directionally*:
 > With this, factories, clouds, and knowledge all speak the same, small grammar.”
 
 
-# A.2.2 — U.Capability  \[D]
+### A.2.2 — U.Capability  \[D]
 
-## 1 · Context (plain‑language motivation)
+#### 1 · Context (plain‑language motivation)
 
 In real projects we must answer two different questions:
 
@@ -1820,7 +1820,7 @@ In real projects we must answer two different questions:
 
 +Teams frequently blur the two, and then further mix them with **how** the work is done (the **Method**) and **what actually happened** (the **Work**). `U.Capability` isolates **ability as a first‑class concept** so that you can plan realistically, staff responsibly, and audit cleanly.
 
-## 2 · Problem (what goes wrong without this concept)
+#### 2 · Problem (what goes wrong without this concept)
 
 1. **Permission ≠ ability.** A Role assignment authorizes execution in a context; it does **not** prove the system can meet the required **WorkScope** and **WorkMeasures**.
 2. **Recipe ≠ ability.** A Method says *how* to do something; it does not guarantee that *this* holder can meet the target outcomes under the required constraints.
@@ -1829,7 +1829,7 @@ In real projects we must answer two different questions:
 
 ---
 
-## 3 · Forces (what we must balance)
+#### 3 · Forces (what we must balance)
 
 | Force                                   | Tension we resolve                                                                                                                   |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1840,9 +1840,9 @@ In real projects we must answer two different questions:
 
 ---
 
-## 4 · Solution — define the ability explicitly
+#### 4 · Solution — define the ability explicitly
 
-### 4.1 Definition
+##### 4.1 Definition
 **`U.Capability`** is a **dispositional property of a `U.System`** that states its **ability to produce a class of outcomes** (i.e., execute a class of Work) **within a declared `U.WorkScope` (conditions/assumptions) and meeting stated `U.WorkMeasures`**. It is **not** an assignment (Role), **not** a recipe (Method), and **not** an execution (Work).
 
 > **One-liner to remember:** *Capability = “can do (within its **WorkScope** and measures)”*, independent of *“is assigned now”* or *“did do at time t”*.
@@ -1855,7 +1855,7 @@ In real projects we must answer two different questions:
 
 **Reminder (measurement & scope).** *WorkScope* is a **set‑valued USM object** (membership, set algebra) and **not** a CHR Characteristic; *WorkMeasures* are **CHR Characteristics** with declared scales/units. **Admission checks these separately** (see § 10.3 WG‑2/WG‑3).
 
-### 4.2 Conceptual descriptors (not a data schema)
+##### 4.2 Conceptual descriptors (not a data schema)
 
 When you describe a capability in a model or a review, anchor it by answering these five didactic prompts:
 
@@ -1873,7 +1873,7 @@ Optional descriptors that improve trust without adding bureaucracy:
 
 > **Didactic guardrail:** Capabilities are stated in **positive, measurable terms** (“can weld seam type W at ±0.2 mm up to 12/min at 18 °C–30 °C”). Avoid role words (“welder”) or recipe detail (step flows) here.
 
-### 4.3 Shorthand for everyday speech
+##### 4.3 Shorthand for everyday speech
 
 To keep discussions terse yet precise, teams often write:
 
@@ -1882,7 +1882,7 @@ To keep discussions terse yet precise, teams often write:
 
 This is not a formal notation—just a consistent way to keep the five prompts in view.
 
-## 5 · Clear distinctions (litmus tests managers can apply)
+#### 5 · Clear distinctions (litmus tests managers can apply)
 
 | If you are talking about…                  | Use                     | Litmus test                                                                                  |
 | ------------------------------------------ | ----------------------- | -------------------------------------------------------------------------------------------- |
@@ -1900,9 +1900,9 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 
 ---
 
-## 6 · Archetypal grounding (parallel structural and organizational examples)
+#### 6 · Archetypal grounding (parallel structural and organizational examples)
 
-### 6.1 Physical system on a line (structural example)
+##### 6.1 Physical system on a line (structural example)
 
 * **Holder:** `RobotArm_A` (`U.System`).
 * **Task family:** seam welding per `Weld_MIG_v3` **MethodDescription**.
@@ -1912,7 +1912,7 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 * **Readable claim:** *RobotArm\_A can execute Weld\_MIG\_v3 within the stated **WorkScope** at the stated measures (AssemblyLine\_2025).*
 * **What this is not:** It is **not** “the welder”—that is a **Role assignment** when assigned on a shift. It is **not** the weld recipe— that is the **MethodDescription**.
 
-### 6.2 Software service in operations (structural, cyber-physical)
+##### 6.2 Software service in operations (structural, cyber-physical)
 
 * **Holder:** `PlannerService_v4` (deployed system).
 * **Task family:** job‑shop schedule generation per `JS_Schedule_v4` MethodDescription.
@@ -1921,7 +1921,7 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 * **Context:** `PlantScheduling_2025`.
 * **Use:** Steps that “require ScheduleGeneration capability ≥ 0.90 optimality” will only pass if the holder’s capability meets or exceeds that bound.
 
-### 6.3 Organizational unit (enterprise sense)
+##### 6.3 Organizational unit (enterprise sense)
 
 * **Holder:** `FinanceDept` (`U.System` as OrgUnit).
 * **Task family:** period close per `CloseBooks_v3` MethodDescription.
@@ -1932,13 +1932,13 @@ This is not a formal notation—just a consistent way to keep the five prompts i
 
 ---
 
-## 7 · Bias‑Annotation (as in cluster‑E patterns)
+#### 7 · Bias‑Annotation (as in cluster‑E patterns)
 
 * **Lenses tested:** `Arch`, `Prag`, `Did`, `Epist`.
 * **Scope declaration:** Universal; holder constrained to `U.System`.
 * **Rationale:** Gives the kernel a clean, reusable **ability concept** so Role (assignment), Method (recipe), Work (execution), and Service (promise) do not collapse into each other. Keeps planning talk truthful and checkable without introducing governance machinery here. **`U.Capability`** is a **dispositional property of a `U.System`** that states its **ability to produce a class of outcomes** (i.e., execute a class of Work) **within a declared `U.WorkScope` (conditions/assumptions) and meeting stated `U.WorkMeasures`**.
 
-## 8 · Conformance Checklist (normative)
+#### 8 · Conformance Checklist (normative)
 
 **CC‑A2.2‑1 (Holder type).**
 A capability **belongs to** a **`U.System`** (physical, cyber, socio‑technical, or organizational). Capabilities are **not** assigned to `U.Episteme`.
@@ -1970,7 +1970,7 @@ Algorithms, standards, and documents provide **evidence** or **recipes**; they *
 **CC-A2.2-10 (`Γ_time` selector in guards).**
 Scope-sensitive guards (including Method–Work gates) **MUST** include an explicit **`Γ_time`** selector indicating the window *W* over which **ScopeCoverage** and **WorkMeasures** are evaluated.
 
-## 9 · Capability thresholds on steps (how A.15 uses this concept)
+#### 9 · Capability thresholds on steps (how A.15 uses this concept)
 
 A step in a **Method** may define **required roles** (assignment) and **capability thresholds** (ability). A Work passes the gate if:
 
@@ -1988,7 +1988,7 @@ A step in a **Method** may define **required roles** (assignment) and **capabili
 
 ---
 
-## 10 · Time and change (calibration, drift, upgrades)
+#### 10 · Time and change (calibration, drift, upgrades)
 
 Capabilities are **stable but not static**. Three simple practices keep reasoning honest:
 
@@ -2000,7 +2000,7 @@ Capabilities are **stable but not static**. Three simple practices keep reasonin
 
 ---
 
-## 11 · Composition and Γ (how assembled systems “can do”)
+#### 11 · Composition and Γ (how assembled systems “can do”)
 
 Γ builds a **new holder** (a composite system). Its capability is not the algebraic sum of parts; it is an **ability of the whole** under its own WorkScope.
 
@@ -2010,7 +2010,7 @@ Capabilities are **stable but not static**. Three simple practices keep reasonin
 
 ---
 
-## 12 · Interaction with Service (external promise)
+#### 12 · Interaction with Service (external promise)
 
 A **Service** is an **external promise**. It relies on capability but is not identical to it.
 
@@ -2022,7 +2022,7 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 
 ---
 
-## 13 · Interaction with Dynamics (laws vs. abilities)
+#### 13 · Interaction with Dynamics (laws vs. abilities)
 
 * **Dynamics** describe **how states evolve** (models, laws, trajectories).
 * **Capability** says **what this system can achieve** within an WorkScope.
@@ -2030,7 +2030,7 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 
 **Physics example:** an “isothermal process” (process here as transformation) is a **Work** instance whose path is explained by a **Dynamics** episteme; a lab rig’s ability to run that path repeatably is its **capability**.
 
-## 14 · Anti‑patterns (and the right move)
+#### 14 · Anti‑patterns (and the right move)
 
 * **Role‑as‑capability.** “Welder role ensures ±0.2 mm.” → Keep **role** as assignment; put **precision** in a **capability** on the holder; put the **threshold** on the **step**.
 * **Recipe‑as‑capability.** “We have the ‘Etch\_Al2O3’ capability.” → Recipe is **Method/MethodDescription**; ability is “can execute Etch\_Al2O3 within WorkScope E at measures M.”
@@ -2041,7 +2041,7 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 
 ---
 
-## 15 · Migration notes (quick wins for existing texts)
+#### 15 · Migration notes (quick wins for existing texts)
 
 1. **Underline WorkScopes.** For every “can do” sentence, add **conditions** and **measures**; otherwise treat it as background color, not a gate.
 2. **Pull thresholds out of roles.** Move “≤ 0.2 mm”, “≥ 0.90 optimality” from role labels into **step requirements**; leave roles clean (assignments).
@@ -2051,7 +2051,7 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 
 ---
 
-## 16 · Consequences
+#### 16 · Consequences
 
 | Benefits                                                                                           | Trade‑offs / mitigations                                                                                                      |
 | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -2062,7 +2062,7 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 
 ---
 
-## 17 · Relations
+#### 17 · Relations
 
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 Role; A.2.1 `U.RoleAssignment`.
 * **Coordinates with:** A.3 (Transformation & role masks); A.15 (Role–Method–Work Alignment).
@@ -2072,15 +2072,15 @@ A **Service** is an **external promise**. It relies on capability but is not ide
 
 ---
 
-## 18 · Didactic quick cards (reuse in specs and slides)
+#### 18 · Didactic quick cards (reuse in specs and slides)
 
 * **Capability = can do (within bounds).** assignment ≠ ability ≠ recipe ≠ execution ≠ promise.
 * **Gate every critical step with two checks:** *badge (Role assignment)* + *bounds (Capability)*.
 * **Write the Context on every claim:** context name, **WorkScope**, measures, **QualificationWindow/valid-through**.
 
-## A.2.3 · `U.Service` \[D]
+### A.2.3 · `U.Service` \[D]
 
-### 1 · Context
+#### 1 · Context
 
 Across domains the word **service** is used for many different things: a server or **provider**, an **API**, a **procedure**, a **run**, a **department**, even a **product bundle**. Such polysemy is productive in everyday speech but toxic in a normative model. FPF needs a **single, minimal, trans‑disciplinary meaning** that stays stable from cloud computing to public administration and manufacturing utilities.
 
@@ -2094,7 +2094,7 @@ The words *service/service‑level/service use/service access* are **ambiguous**
 
 ---
 
-### 2 · Problem
+#### 2 · Problem
 
 Without a first‑class `U.Service`, models drift into five recurring errors:
 
@@ -2106,7 +2106,7 @@ Without a first‑class `U.Service`, models drift into five recurring errors:
 
 ---
 
-### 3 · Forces
+#### 3 · Forces
 
 | Force                                       | Tension                                                                                                       |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -2118,7 +2118,7 @@ Without a first‑class `U.Service`, models drift into five recurring errors:
 
 ---
 
-### 4 · Solution — The unified concept `U.Service`
+#### 4 · Solution — The unified concept `U.Service`
 
 **Definition (normative).**
 Within a `U.BoundedContext`, a **`U.Service`** is an **externally oriented commitment**: a **context‑local promise** that a provider **Role** will make a **specified external effect** available to eligible consumers through a **declared access** and **declared acceptance criteria** (SLO/SLA‑like targets). A `U.Service` does **not** prescribe *how* the provider fulfils it (that is `U.Method/MethodDescription`), nor is it the **execution** (that is `U.Work`).
@@ -2128,7 +2128,7 @@ Within a `U.BoundedContext`, a **`U.Service`** is an **externally oriented commi
 * **Time stance:** design-time concept; judged at run-time by evidence from `U.Work`.
 * **Orientation:** consumer‑facing (“what you can rely on”), as opposed to capability (“what we can do”).
 
-#### 4.1 · Core structure (minimal fields)
+##### 4.1 · Core structure (minimal fields)
 
 ```
 U.Service {
@@ -2151,7 +2151,7 @@ U.Service {
 * `accessSpec` is **how to ask** (eligibility, protocol, counter, desk, API).
 * `realizationSpec` is only informative in the kernel (“typical methods”); providers retain **Method autonomy**.
 
-#### 4.2 · What `U.Service` is **not**
+##### 4.2 · What `U.Service` is **not**
 
 * **Not a provider:** use `System#ServiceProviderRole:Context` `U.RoleAssignment`.
 * **Not a method/recipe:** that is `U.Method/MethodDescription`.
@@ -2160,7 +2160,7 @@ U.Service {
 * **Not a capability:** capability is **provider‑intrinsic ability**; service is **outward promise**. A service may **require** certain capabilities, but it **is not** the capability.
 * **Not a scope label:** do **not** use *applicability*, *envelope*, *generality*, or *validity* as **scope characteristics**; declare **Claim scope (G)** or **Work scope** explicitly where needed (A.2.6).
 
-#### 4.3 · Position in the enactment chain
+##### 4.3 · Position in the enactment chain
 
 * **Design‑time:**
   The context **declares Claim scope (G)** for acceptance (operating conditions, populations, locales) per A.2.6.
@@ -2177,7 +2177,7 @@ U.Service {
 
 ---
 
-### 5 · Archetypal grounding (engineer‑manager friendly)
+#### 5 · Archetypal grounding (engineer‑manager friendly)
 
 | Domain                    | **`U.Service` (promise)**                                 | Provider & Consumer (as Roles)                                   | Access (how to ask)                  | Fulfilment (Work)                        | Typical acceptance targets                  |
 | ------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------ | ---------------------------------------- | ------------------------------------------- |
@@ -2189,7 +2189,7 @@ U.Service {
 
 ---
 
-### 6 · Mapping the common “service” picture to FPF (didactic bridge)
+#### 6 · Mapping the common “service” picture to FPF (didactic bridge)
 
 The popular service diagrams (provider ↔ access ↔ use ↔ capability/activity) map to FPF as follows:
 
@@ -2202,7 +2202,7 @@ The popular service diagrams (provider ↔ access ↔ use ↔ capability/activit
 
 (Where a domain needs richer structures—catalogs, exposure layers, charging, entitlement—model them **in the domain context** and relate them to `U.Service` via `U.RoleAssignment` and alignment bridges.)
 
-## 7 · Conformance Checklist (normative)
+#### 7 · Conformance Checklist (normative)
 
 **CC‑A2.3‑1 (Type).**
 `U.Service` **IS** an `U.Episteme` (a consumer‑facing promise on a carrier). It is **not** a `U.System`, **not** a `U.Method/MethodDescription`, **not** a `U.Work`, and **not** a `U.WorkPlan`.
@@ -2246,11 +2246,11 @@ Deprecated labels *applicability/envelope/generality/validity* **MUST NOT** appe
 **CC-A2.3-14 (Bridges & CL).**
 Cross-context mappings via Bridges keep **F/G** stable; **CL** penalties apply to **R**. A mapping **MAY** recommend **narrowing** the mapped **Claim scope (G)** as best practice (A.2.6/B-line).
 
-## 8 · Evidence relations & operators (Service ⇄ Work)
+#### 8 · Evidence relations & operators (Service ⇄ Work)
 
 To keep the promise → evidence path explicit:
 
-### 8.1 Core relations
+##### 8.1 Core relations
 
 * **`claimsService(Work, Service)`** — the Work instance **intends** to fulfil the Service (pre‑verdict).
 * **`fulfilsService(Work, Service)`** — the Work instance **meets** the Service’s `acceptanceSpec` (post‑verdict: pass).
@@ -2260,7 +2260,7 @@ To keep the promise → evidence path explicit:
 > **Invariant:** `fulfilsService(W,S)` ⇒ `claimsService(W,S)` and `acceptanceVerdict(W)=pass`.
 > **Invariant:** A Work can claim/fulfil **multiple** Services only if the context declares a counting policy (no silent double‑counting).
 
-### 8.2 Service performance operators
+##### 8.2 Service performance operators
 
 Let `W(S, T)` be the set of Work that `claimsService(·,S)` within time window `T`. Let `W✓(S, T)` be those with `fulfilsService`.
 
@@ -2275,7 +2275,7 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 
 ---
 
-## 9 · Anti‑patterns (and the right move)
+#### 9 · Anti‑patterns (and the right move)
 
 * **“The microservice **is** the service.”**
   A microservice binary is a `U.System`. Make it a provider via `System#ServiceProviderRole:Context`; keep the **promise** in `U.Service`.
@@ -2300,7 +2300,7 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 
 ---
 
-## 10 · Migration notes (quick wins)
+#### 10 · Migration notes (quick wins)
 
 1. **Name the promises.** List 5–15 consumer‑facing promises your context lives by; reify each as `U.Service` with `acceptanceSpec` and, if needed, `accessSpec` and `unitOfDelivery`.
 2. **Separate provider from service.** Keep systems/teams as `U.System`; make them providers via `…#ServiceProviderRole:Context`.
@@ -2311,7 +2311,7 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 
 ---
 
-## 11 · Relations
+#### 11 · Relations
 
 * **Builds on:** A.1.1 `U.BoundedContext`; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`; **A.2.6 `U.Scope` / `U.ClaimScope (G)` / `U.WorkScope`**.
 * **Coordinates with:** A.3.1 `U.Method`; A.3.2 `U.MethodDescription`; A.15.1 `U.Work`; A.15.2 `U.WorkPlan`; **B-line Bridges & CL (CL→R; may recommend ΔG narrowing)**.
@@ -2320,7 +2320,7 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 
 ---
 
-## 12 · Didactic quick cards (engineer‑manager ready)
+#### 12 · Didactic quick cards (engineer‑manager ready)
 
 * **Service = Promise.** *What we advertise and are judged by.*
 * **Method/Spec = Recipe.** *How we usually do it (provider‑internal).*
@@ -2329,11 +2329,11 @@ Aggregation across time uses `Γ_time` policies (union vs convex hull) chosen by
 * **Metrics from Work.** *Uptime, lead time, quality are computed from Work, not from the Service object.*
 * **Keep PBS/SBS clean.** *Services are not parts; they are promises.*
 
-## A.2.4 — `U.EvidenceRole` \[D]
+### A.2.4 — `U.EvidenceRole` \[D]
 
 > *This pattern defines how a knowledge artefact (“episteme”) serves as **evidence** for a specific claim or theory **inside a bounded context**. It is a **non‑behavioural** role enacted via `U.RoleAssignment`; the binding **must** declare the **target claim**, the **claim‑scope**, and a **timespan of relevance**. Evidence is a classificatory status of an episteme; it is not an action and it is not an assignment of an actor.*
 
-### 1 · Context and intent
+#### 1 · Context and intent
 
 FPF separates **what exists** (holons and their kinds) from **what acts** (systems under roles performing work) and from **what is known** (epistemes carried on symbols). Roles are contextual masks that holons may wear; role meanings are **local to a `U.BoundedContext`**. In this setting, we need a kernel‑level way to say that *this* episteme **counts as evidence** about *that* claim, **here**, and **for this period**, without confusing evidence with services, methods, or work. 
 
@@ -2343,7 +2343,7 @@ FPF separates **what exists** (holons and their kinds) from **what acts** (syste
 * **Promise** and Standardual language on `U.Service` (not on evidence).
 * **Recipe** and eligibility on `U.Method` / `U.MethodDescription` (not on evidence).
 
-### 2 · Problem
+#### 2 · Problem
 
 1. **Anthropomorphising epistemes.** Models say “the paper proves…”, implicitly treating a document as an actor.
 2. **Citation without scope.** Links exist but lack explicit **target claim**, **applicability scope**, and **time window**.
@@ -2351,7 +2351,7 @@ FPF separates **what exists** (holons and their kinds) from **what acts** (syste
 4. **Staleness and drift.** Empirical evidence ages; without explicit validity windows, stale evidence keeps influencing conclusions.
 5. **Cross‑context leakage.** Evidence is interpreted as “global,” skipping the bridge that is required to move meaning across contexts.
 
-### 3 · Forces
+#### 3 · Forces
 
 | Force                                     | Tension to resolve                                                                                |
 | ----------------------------------------- | ------------------------------------------------------------------------------------------------- |
@@ -2360,7 +2360,7 @@ FPF separates **what exists** (holons and their kinds) from **what acts** (syste
 | **Local meaning versus reuse**            | Meaning is context‑local; reuse must pass through explicit bridges, not tacit “global truth.”     |
 | **Clarity versus brevity**                | Kernel must stay expressive without importing domain governance or tooling procedures.            |
 
-### 4 · Solution — Term and definition
+#### 4 · Solution — Term and definition
 
 **Term.**
 `U.EvidenceRole` — a **non-behavioural role** that a `U.Episteme` may play **inside a `U.BoundedContext`** to serve as **evidence** for a declared target claim (or theory/version).
@@ -2399,7 +2399,7 @@ The **normative properties** of the role (e.g., `claimRef`, `claimScope`, `polar
   `Lemma-12.proof#AxiomaticProofRole:Theory_T`.
 
 
-### 5 · Role family and specialisations
+#### 5 · Role family and specialisations
 
 `U.EvidenceRole` is a **role kind** refined by **specialisation** (no mereology of roles). The recommended, substrate‑neutral specialisations are:
 
@@ -2425,7 +2425,7 @@ The **normative properties** of the role (e.g., `claimRef`, `claimScope`, `polar
 
 > **Specialisation, not stacking.** Do not build chains like “transformer‑agent‑observer role.” A system enacts behavioural roles (e.g., `TransformerRole`) to **perform work**; an episteme enacts `U.EvidenceRole` to **classify** its evidential function. Keep enactment lines separate.
 
-### 6 · Clear distinctions (Strict Distinction, litmus tests)
+#### 6 · Clear distinctions (Strict Distinction, litmus tests)
 
 | If you are talking about…               | Use in FPF                                                    | Why                                                                   |
 | --------------------------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------- |
@@ -2435,7 +2435,7 @@ The **normative properties** of the role (e.g., `claimRef`, `claimScope`, `polar
 | **What counts as evidence for a claim** | `U.Episteme` holding `U.EvidenceRole` via `U.RoleAssignment`     | Evidence is a status of an artefact relative to a claim in a context. |
 | **Moving meaning across contexts**      | An explicit bridge/alignment pattern in the receiving context | Role meanings are context‑local by design.                            |
 
-### 7 · Core invariants (concept level)
+#### 7 · Core invariants (concept level)
 
 1. 1. **Holder type.** `U.EvidenceRole` is held by a **`U.Episteme`** only; never by a system, work, method, or service.  # [M‑0]
 2. **Context anchor.** Every binding **must** name a `U.BoundedContext`; meaning is local and does not propagate implicitly.
@@ -2464,11 +2464,11 @@ Role **definition** in `GraphTheory`:
 **Binding:**  
 `Lemma-12.proof#AxiomaticProofRole:GraphTheory`
 
-### 8 · Facets and semantics (normative)
+#### 8 · Facets and semantics (normative)
 
 This section deepens the definition of `U.EvidenceRole` by specifying **which normative facets** are attached to its definition within a `U.BoundedContext`, **how decay is handled**, **what provenance anchors are required**, and **how the role contributes to assurance computation**.
 
-#### 8.1 Claim-scope schema
+##### 8.1 Claim-scope schema
 
 Every `U.EvidenceRole` definition **within a `U.BoundedContext`** **MUST** declare a claim-scope record. This record ties the role’s meaning to the exact target claim and its claim scope, and aligns with the typed-claim form used in B.3:
 
@@ -2482,7 +2482,7 @@ Every `U.EvidenceRole` definition **within a `U.BoundedContext`** **MUST** decla
 | `resultKind`    | Kind of content on the carrier     | Examples: theorem/proof obligation; dataset; calibration; model-fit result.                         |
 | `notes`         | Additional context                 | Pointers to SCR/RSCR entries; congruence rationale; bridge IDs if imported from another context.    |
 
-#### 8.2 Timespan and decay
+##### 8.2 Timespan and decay
 
 Evidence is perishable unless proven otherwise.
 
@@ -2495,7 +2495,7 @@ When the relevance window closes (`validUntil` reached), the evidence incurs **E
 2. **Deprecate** — role is retired; claim support is reduced or removed.
 3. **Waive** — explicit steward decision to accept the stale evidence temporarily.
 
-#### 8.3 Provenance hooks
+##### 8.3 Provenance hooks
 
 Each `U.EvidenceRole` **MUST** anchor into the **Evidence–Provenance DAG** (A.10):
 
@@ -2505,7 +2505,7 @@ Each `U.EvidenceRole` **MUST** anchor into the **Evidence–Provenance DAG** (A.
 
 **No self-evidence rule**: the producing `U.Work` must have been performed by a system in an **external** role; an episteme cannot “prove itself” without independent generation.
 
-#### 8.4 Contribution to assurance
+##### 8.4 Contribution to assurance
 
 A `U.EvidenceRole` classifies an artefact; its contribution to the target claim’s assurance tuple ⟨F, G, R⟩ is computed in B.3 using:
 
@@ -2531,9 +2531,9 @@ If any element in the support chain is `postulative`, the aggregate `epistemicMo
 * **VA (Verification assurance)** — primarily raises F and the logical component of R.
 * **LA (Validation assurance)** — raises empirical R and constrains G to the validated envelope.
 
-### 9 · Worked examples
+#### 9 · Worked examples
 
-#### 9.1 Formal line — *Proof as evidence for a theorem*
+##### 9.1 Formal line — *Proof as evidence for a theorem*
 
 **Role definition (in `GraphTheory`)**  
 `AxiomaticProofRole`  
@@ -2571,7 +2571,7 @@ High **F** (machine-checked proof), **G** = “finite DAG”, **R** from proof-o
 **Effect on assurance (informative)**  
 **F** from formalised procedure, **G** = measured envelope, **R** from replication and CL on unit mapping; **R** decays after the policy window unless refreshed.
 
-### 10 · Conformance checklist (normative)
+#### 10 · Conformance checklist (normative)
 
 **CC-ER-01 (Type & holder)**
 `U.EvidenceRole` **MUST** be held by a `U.Episteme` via `U.RoleAssignment`. Systems, services, methods, or works **MUST NOT** hold this role.
@@ -2612,7 +2612,7 @@ Use *specialisation* for role refinements; reserve *sub* for mereology of system
 **CC-ER-13 (Lane declaration)**
 Every binding **SHALL** declare `assuranceUse ∈ {TA | VA | LA}` and, for **empirical** (LA) bindings, expose `timespan/valid_until` and `decayPolicy` so that SCR can report lane‑separated contributions and freshness (B.3).
 
-### 11 · Anti-patterns and remedies
+#### 11 · Anti-patterns and remedies
 
 | Anti-pattern                | Symptom                                                | Remedy                                                                  |
 | --------------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------- |
@@ -2626,7 +2626,7 @@ Every binding **SHALL** declare `assuranceUse ∈ {TA | VA | LA}` and, for **emp
 
 ---
 
-### 12 · Operators (conceptual, tooling-agnostic)
+#### 12 · Operators (conceptual, tooling-agnostic)
 
 These operators extend E.6.1 citation graph capabilities for evidence analysis inside a `U.BoundedContext`:
 
@@ -2653,7 +2653,7 @@ These operators extend E.6.1 citation graph capabilities for evidence analysis i
 
 ---
 
-### 13 · Relations
+#### 13 · Relations
 
 **Builds on:**
 A.2 `U.Role`, A.2.1 `U.RoleAssignment` (role as mask, binding as assignment), A.10 Evidence Graph Referring (EPV-DAG), B.3 Trust & Assurance Calculus.
@@ -2666,7 +2666,7 @@ KD-CAL (knowledge dynamics, assurance cases), Norm-CAL (policy claims with evide
 
 ---
 
-### 14 · Migration notes (quick wins)
+#### 14 · Migration notes (quick wins)
 
 1. **Enumerate claims**: For each evidence collection, identify claims and create explicit bindings with polarity.
 2. **Separate work from reports**: Facts stay on `U.Work`; create report epistemes to bind as evidence.
@@ -2674,7 +2674,7 @@ KD-CAL (knowledge dynamics, assurance cases), Norm-CAL (policy claims with evide
 4. **Fence by version/time**: Bindings carry `timespan` and version fences; add decay class if applicable.
 5. **Bridge explicitly**: Cross-context evidence goes through `U.Alignment`, not by fiat.
 
-### 15 · Didactic quick cards (engineer-manager ready)
+#### 15 · Didactic quick cards (engineer-manager ready)
 
 These are short reminders for non-specialist readers to apply `U.EvidenceRole` correctly:
 
@@ -2686,7 +2686,7 @@ These are short reminders for non-specialist readers to apply `U.EvidenceRole` c
 
 ---
 
-### 16 · SCR/RSCR audit stubs (assurance scaffolding)
+#### 16 · SCR/RSCR audit stubs (assurance scaffolding)
 
 These stubs allow concept-level validation of bindings, without implying any specific tooling.
 
@@ -2707,7 +2707,7 @@ Bindings past `timespan.to` or with expired `decayClass` are flagged for review 
 
 ---
 
-### 17 · Minimal binding schema (informative)
+#### 17 · Minimal binding schema (informative)
 
 ```yaml
 +EvidenceRoleAssigning:
@@ -2723,7 +2723,7 @@ Bindings past `timespan.to` or with expired `decayClass` are flagged for review 
 
 ---
 
-### 18 · Memory hooks and acceptance cross-checks (informative)
+#### 18 · Memory hooks and acceptance cross-checks (informative)
 
 **Memory hook:** *“Evidence binds a **document** to a **claim** in a **Context**, for a **time**, with a **trail**.”*
 (document = episteme; claim = scoped thesis; Context = bounded context; time = timespan/decay; trail = provenance)
@@ -2741,9 +2741,9 @@ Bindings past `timespan.to` or with expired `decayClass` are flagged for review 
 9. **Cross-context**: If imported, is `U.Alignment` bridge in place with CL\_min recorded?
 10. **No role-of-role**: Is this role bound directly to an episteme without chaining behavioural roles?
 
-# A.2.5 — U.RoleStateGraph: The Named State Space of a Role \[D]
+### A.2.5 — U.RoleStateGraph: The Named State Space of a Role \[D]
 
-## 1 · Purpose & scope (why this exists)
+#### 1 · Purpose & scope (why this exists)
 
 A **role** is not only a name; it is a *trajectory of admissible states* that governs when, and under which conditions, a holder of that role may **enact** steps of a `U.MethodDescription`. FPF therefore introduces a first‑class intensional object:
 
@@ -2753,7 +2753,7 @@ The RSG is the **gate** between *assignment* (`U.RoleAssignment`) and *action* (
 
 ---
 
-## 2 · Problem frame (what goes wrong without an RSG)
+#### 2 · Problem frame (what goes wrong without an RSG)
 
 1. **Readiness blur.** Teams conflate “has the badge” with “is fit to act now”. Without explicit states (*Ready*, *Calibrated*, *Authorized*, *Suspended*…), enactment checks dissolve into ad‑hoc judgement.
 2. **Checklist drift.** Criteria for “ready/approved” live in scattered documents; there is no single conceptual anchor tying them to the role.
@@ -2765,7 +2765,7 @@ The RSG is the **gate** between *assignment* (`U.RoleAssignment`) and *action* (
 
 ---
 
-## 3 · Core idea (didactic)
+#### 3 · Core idea (didactic)
 
 Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for that mask** inside one context of meaning.
 
@@ -2778,7 +2778,7 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 
 ---
 
-## 4 · Minimal vocabulary (this pattern only)
+#### 4 · Minimal vocabulary (this pattern only)
 
 * **`U.RoleStateGraph` (RSG).** Intensional object *owned by* `(Role, Context)`. Finite set of named **States** and typed **Transitions** with guards.
 * **RSG.State.** Intensional **named place**. Properties:
@@ -2798,7 +2798,7 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 
 ---
 
-## 5 · What an RSG is **not** (guardrails)
+#### 5 · What an RSG is **not** (guardrails)
 
 * **Not a workflow.** RSG transitions do **not** encode task order; they encode **eligibility changes** of the *role*.
 * **Not a capability list.** RSG is **authorization/readiness over time**, distinct from `U.Capability` (ability).
@@ -2808,7 +2808,7 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 
 ---
 
-## 6 · Invariants (preview)
+#### 6 · Invariants (preview)
 
 *(Full formal clauses in Part 2/4; listed here for orientation.)*
 
@@ -2818,7 +2818,7 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 4. **Green‑gate discipline.** A Method step requiring `Role` may proceed **only** if a contemporaneous **StateAssertion** exists for an **enactable** State.
 5. **No silent Cross‑context reuse.** Cross‑Context reuse requires a **Bridge** with CL and loss notes; local `⊥/≤/⊗` always prevail.
 
-## 7 · Formal structure of an RSG (intensional, context‑local)
+#### 7 · Formal structure of an RSG (intensional, context‑local)
 
 > **Definition.** For a given **`U.Role`** in a given **`U.BoundedContext`**, its **`U.RoleStateGraph`** is the tuple
 > `RSG(Role, Context) = ⟨S, S_en, T, Guard, init?⟩`, where:
@@ -2840,11 +2840,11 @@ Think of a **Role** as a **mask**, and the **RSG** as the **traffic lights for t
 
 ---
 
-## 8 · Enactability & Checklist semantics (how a state is *known*, now)
+#### 8 · Enactability & Checklist semantics (how a state is *known*, now)
 
 An RSG **does not** determine history; it determines **what counts as being in a state**, and which states **authorize enactment**.
 
-### 8.1 State Checklists (description, not the state)
+##### 8.1 State Checklists (description, not the state)
 
 For each `s ∈ S`, the **RoleDescription** (A.2.3) includes a **State Checklist** `Checklist(s)` — a **named set of criteria** that can be evaluated at a **Window** to test “**holder is in state `s`**”.
 
@@ -2858,7 +2858,7 @@ For each `s ∈ S`, the **RoleDescription** (A.2.3) includes a **State Checklist
 
 > **Strict distinction.** `Checklist(s)` is a **description**; the **state** `s` is an **intensional place** in the role’s RSG.
 
-### 8.2 From Checklist to **StateAssertion** (verdict of `U.Evaluation`)
+##### 8.2 From Checklist to **StateAssertion** (verdict of `U.Evaluation`)
 
 Evaluating `Checklist(s)` at a **Window** produces an **`U.Evaluation` verdict**:
 
@@ -2872,7 +2872,7 @@ Evaluating `Checklist(s)` at a **Window** produces an **`U.Evaluation` verdict**
 * **RSG‑C4 (Non‑monotonic over time).** A `StateAssertion` is **not** permanent; once the Window ends, a new evaluation is needed unless a **maintenance guard** keeps it valid (see 8.3).
 * **RSG‑C5 (Uniqueness not required).** Multiple states may be asserted for the same Window if their criteria do not conflict (e.g., `Ready` and `Authorized`). **Enactability** is governed by §8.4.
 
-### 8.3 Transitions & guards (admission, maintenance, exit)
+##### 8.3 Transitions & guards (admission, maintenance, exit)
 
 RSG transitions **express how eligibility changes** when guards fire. Guards are **predicates**; the RSG stays **notation‑neutral**.
 
@@ -2886,7 +2886,7 @@ RSG transitions **express how eligibility changes** when guards fire. Guards are
 * **RSG‑G2 (No control‑flow).** Guards may refer to **events** (e.g., “Calibration completed”), but RSG is **not a task graph**; it does not prescribe task order.
 * **RSG‑G3 (Observable basis).** Every guard references **observable** RCS characteristics or recorded events (no hidden timers).
 
-### 8.4 The **Green‑Gate Law** (enactment gating)
+##### 8.4 The **Green‑Gate Law** (enactment gating)
 
 > **Law (RSG‑E1).** A `U.MethodDescription` step that **requires** role `R` **may be enacted** at Window `W` **iff** there exists a `StateAssertion(holder, R, Context, s, W)` with `s ∈ S_en`.
 
@@ -2898,9 +2898,9 @@ Corollaries:
 
 ---
 
-## 9 · Interaction with role algebra (`≤`, `⊥`, `⊗`) and refinement
+#### 9 · Interaction with role algebra (`≤`, `⊥`, `⊗`) and refinement
 
-### 9.1 Specialization (`≤`) — RSG refinement map
+##### 9.1 Specialization (`≤`) — RSG refinement map
 
 When **`R' ≤ R`** (Specialist role refines General role) **in the same Context**, their RSGs **must align** by a **refinement map**.
 
@@ -2915,7 +2915,7 @@ When **`R' ≤ R`** (Specialist role refines General role) **in the same Context
 
 **Design note.** RCS for `R'` may **extend** that of `R`; specialist states can be **stricter** (more criteria) but not **looser** than their general counterparts.
 
-### 9.2 Incompatibility (`⊥`) — state‑aware SoD
+##### 9.2 Incompatibility (`⊥`) — state‑aware SoD
 
 `R_A ⊥ R_B` (within the same Context) states that **a single holder** **must not** have **overlapping, enactable authority** for both roles.
 
@@ -2926,7 +2926,7 @@ When **`R' ≤ R`** (Specialist role refines General role) **in the same Context
 
 **Didactic payoff.** SoD is checked by **states in Windows**, not by static role labels.
 
-### 9.3 Bundles (`⊗`) — conjunction without product explosion
+##### 9.3 Bundles (`⊗`) — conjunction without product explosion
 
 A **bundle role** `R* := R₁ ⊗ … ⊗ Rₙ` expresses “**must wear all these badges at once**”.
 
@@ -2936,14 +2936,14 @@ A **bundle role** `R* := R₁ ⊗ … ⊗ Rₙ` expresses “**must wear all the
 
 **Rationale.** Avoid combinatorial blow‑up by default; allow a composite role **only** when the organization genuinely maintains its **own** readiness graph.
 
-### 9.4 Readiness monotonicity across specialization & bundles
+##### 9.4 Readiness monotonicity across specialization & bundles
 
 * **RSG‑M1 (Specialist suffices).** If a step requires `R`, any `R' ≤ R` whose **lifted state** is enactable **suffices**.
 * **RSG‑M2 (Bundle conjunctivity).** If a step requires `R₁ ⊗ R₂`, the performer must produce **both** gates (two StateAssertions), unless a CompositeRole with RSG exists and is used.
 
 ---
 
-## 10 · Guard design (types and discipline)
+#### 10 · Guard design (types and discipline)
 
 To keep RSGs **operational** but **not procedural**, guards draw on **observable** inputs only.
 
@@ -2971,7 +2971,7 @@ Allowed guard evidences include:
 
 A SpeechAct can change the state (e.g., Prepared→Authorized) but does not by itself satisfy operational steps; it only opens their Green‑Gate.
 
-## 11 · Putting it together (one‑screen mental model)
+#### 11 · Putting it together (one‑screen mental model)
 
 At any **Window**:
 
@@ -2988,7 +2988,7 @@ This yields a **clean separation**:
 
 …and keeps meaning **local**, evidence **observable**, and reasoning **testable**.
 
-## 12 · Archetypal RoleStateGraphs (cross‑domain patterns)
+#### 12 · Archetypal RoleStateGraphs (cross‑domain patterns)
 
 Below are **didactic, reusable** RSG skeletons for the three principal **behavioural** role families and for **epistemic/status** roles. Names and criteria are **context‑local**; treat them as **templates** to specialise inside your `U.BoundedContext` (E.10.D1). For each RSG we list:
 
@@ -2998,7 +2998,7 @@ Below are **didactic, reusable** RSG skeletons for the three principal **behavio
 
 > **Reminder.** Only **enactable** states (**`S_en`**) can open the **Green‑Gate** for `U.Work` (RSG‑E1). Status‑only states **gate decisions** but never execution.
 
-### 12.1 AgentialRole (decision‑capable actor)
+##### 12.1 AgentialRole (decision‑capable actor)
 
 **Context sketch:** `Ops_ChangeManagement_2025`.
 **RCS (characteristics, examples):** *CompetenceLevel, FatigueIndex, IndependenceFlag, AuthorizationValidity, IncidentLoad, RiskClass.*
@@ -3027,7 +3027,7 @@ Below are **didactic, reusable** RSG skeletons for the three principal **behavio
 * Exit `Ready → Suspended`: high‑severity incident assigned OR SoD violation detected.
 * Exit `Authorized → Revoked`: window elapsed or explicit revoke speech‑act.
 
-### 12.2 TransformerRole (non‑agential executor of change)
+##### 12.2 TransformerRole (non‑agential executor of change)
 
 **Context sketch:** `PlantOps_Pipeline_2025`.
 **RCS:** *CalibrationAge, SafetyInterlock, SelfTestPass, EnvRangeOK, DegradationIndex.*
@@ -3056,7 +3056,7 @@ Below are **didactic, reusable** RSG skeletons for the three principal **behavio
 * Transition `Running → Ready`: step completed ∧ cool‑down satisfied.
 * Transition `Ready → Degraded`: `DegradationIndex∈[d₁,d₂]` ∧ derate policy active.
 
-### 12.3 ObserverRole (measurement actor, incl. SOSA/SSN style)
+##### 12.3 ObserverRole (measurement actor, incl. SOSA/SSN style)
 
 **Context sketch:** `Lab_Thermo_2025`.
 **RCS:** *CalibrationAge, TraceabilityChainOK, DriftRate, SyncError, CleanlinessScore.*
@@ -3089,23 +3089,23 @@ Below are **didactic, reusable** RSG skeletons for the three principal **behavio
 
 ---
 
-### 12.4 Epistemic/status roles (no enactment)
+##### 12.4 Epistemic/status roles (no enactment)
 
 These roles are **status‑only**; **`S_en = ∅`**. They **gate decisions** (e.g., can be cited, can constrain), but can never authorize `U.Work`.
 
-#### 12.4.1 NormativeStandardRole
+##### 12.4.1 NormativeStandardRole
 
 **States:** *Draft*, *Candidate*, *Approved*, *Superseded*, *Deprecated*.
 **Checklist gist:** governance decision records; publication identifiers; supersession links.
 **Guards:** *Approved → Superseded* on adoption of newer edition; *Candidate → Approved* after ratification vote.
 
-#### 12.4.2 EvidenceRole
+##### 12.4.2 EvidenceRole
 
 **States:** *Collected*, *Verified*, *Validated*, *Obsolete*, *Contested*.
 **Checklist gist:** verification/validation `U.Evaluation` present; freshness window; reproducibility tag.
 **Guards:** decay to *Obsolete* by age; transition to *Contested* upon counter‑evidence.
 
-#### 12.4.3 RequirementRole
+##### 12.4.3 RequirementRole
 
 **States:** *Proposed*, *Accepted*, *Implemented*, *Verified*, *Waived*.
 **Checklist gist:** acceptance decision; trace links to `U.Work`; verification report; waiver authorization.
@@ -3113,11 +3113,11 @@ These roles are **status‑only**; **`S_en = ∅`**. They **gate decisions** (e.
 
 ---
 
-## 13 · One‑screen authoring templates (didactic cards)
+#### 13 · One‑screen authoring templates (didactic cards)
 
 Keep each RSG **teachable on one screen**. Use the following **notation‑neutral** templates when drafting RoleDescriptions (A.2.3).
 
-### 13.1 RSG card (per Role, per Context)
+##### 13.1 RSG card (per Role, per Context)
 
 ```
 RSG for: <RoleName>   Context: <ContextName/Edition>
@@ -3130,7 +3130,7 @@ Green‑Gate: step requiring <RoleName> is enactable iff holder asserts any ◉ 
 Role algebra hooks: specialization (≤ ...), incompatibility (⊥ ...), bundles (⊗ ...).
 ```
 
-### 13.2 State checklist snippet (per State)
+##### 13.2 State checklist snippet (per State)
 
 ```
 State <StateName> (enactable? yes/no)
@@ -3141,7 +3141,7 @@ Maintenance (optional): <predicate> (e.g., EnvRangeOK)
 Evidence Graph Ref: <Observation/Evaluation ids>
 ```
 
-### 13.3 Specialization refinement map (R' ≤ R)
+##### 13.3 Specialization refinement map (R' ≤ R)
 
 ```
 Refinement map π : S(R') → S(R)
@@ -3152,7 +3152,7 @@ R' state        π(state in R)   entailment note (why Checklist_R' ⇒ Checklist
 ...
 ```
 
-### 13.4 SoD focus (⊥) — enactable pairs
+##### 13.4 SoD focus (⊥) — enactable pairs
 
 ```
 Incompatibility ⊥ (applies when both sides enactable at same Window):
@@ -3165,11 +3165,11 @@ Rationale: <one‑line reason>
 
 ---
 
-## 14 · Cross‑context adjustments (via Bridges, not imports)
+#### 14 · Cross‑context adjustments (via Bridges, not imports)
 
 RSGs are **context‑local**. When similar roles appear in different Contexts, relate them with an **Alignment Bridge** (F.9), never by silently importing state names.
 
-### 14.1 State name correspondence (lossy mapping)
+##### 14.1 State name correspondence (lossy mapping)
 
 **Bridge example:** *Observer readiness* across two contexts:
 
@@ -3187,7 +3187,7 @@ Losses: Metro’s 'Robustness' has no direct Lab counterpart (explicit loss reco
 
 **Rule (RSG‑X1).** A Bridge **MUST** record **losses** and **extra criteria**; it **MUST NOT** assert identity without a stated `CL` (congruence level).
 
-### 14.2 Authorization vocabulary drift (deontic vs operational)
+##### 14.2 Authorization vocabulary drift (deontic vs operational)
 
 **Bridge note:** In some IT change contexts, “**Authorized**” (deontic) overlaps with “**Permitted**” (operational). A Bridge can **explain** the design choice:
 
@@ -3197,7 +3197,7 @@ Losses: Metro’s 'Robustness' has no direct Lab counterpart (explicit loss reco
 
 ---
 
-## 15 · Author conformance (write good RSGs)
+#### 15 · Author conformance (write good RSGs)
 
 When you define or revise an RSG, check these **concept‑level** rules. They are easy to hold in mind; no tooling implied.
 
@@ -3221,11 +3221,11 @@ When you define or revise an RSG, check these **concept‑level** rules. They ar
 
 **CC‑RSG‑10 (Status/behaviour split).** Epistemic/status roles: **`S_en = ∅`**. They gate **decisions**, not **Work**. Behavioural roles require `U.System` holders (A.2.1).
 
-## 16 · Extended grounding across four disciplines
+#### 16 · Extended grounding across four disciplines
 
 Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, **States** (◉ = enactable), **Green‑Gate** condition, and **how a `U.Work` is gated** by a `U.RoleAssignment`+RSG. Names are **context‑local**.
 
-### 16.1 Clinical surgery (medicine)
+##### 16.1 Clinical surgery (medicine)
 
 **Context.** `Hospital.OR_2026`
 **Role.** `SurgeonRole` (AgentialRole)
@@ -3248,7 +3248,7 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 
 ---
 
-### 16.2 Software operations (SRE)
+##### 16.2 Software operations (SRE)
 
 **Context.** `SRE_Prod_Cluster_EU_2026`
 **Role.** `IncidentCommanderRole` (AgentialRole)
@@ -3271,7 +3271,7 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 
 ---
 
-### 16.3 Laboratory metrology
+##### 16.3 Laboratory metrology
 
 **Context.** `Metrology_Thermo_2026`
 **Role.** `ThermometerObserverRole` (ObserverRole)
@@ -3294,7 +3294,7 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 
 ---
 
-### 16.4 Governance / compliance
+##### 16.4 Governance / compliance
 
 **Context.** `Finance_Audit_2026`
 **Role.** `IndependentAuditorRole` (AgentialRole) and `EvidenceRole` (status‑only)
@@ -3310,7 +3310,7 @@ Each vignette shows **(i)** the **Context**, **Role**, **RCS characteristics**, 
 
 ---
 
-## 17 · Acceptance harness (static conformance)
+#### 17 · Acceptance harness (static conformance)
 
 Author‑facing checks; **notation‑free**, **concept‑level**. Use them when drafting or reviewing an RSG.
 
@@ -3327,7 +3327,7 @@ Author‑facing checks; **notation‑free**, **concept‑level**. Use them when 
 
 ---
 
-## 18 · Regression harness (evolution checks)
+#### 18 · Regression harness (evolution checks)
 
 Use when **adding/removing states**, **changing criteria**, or **bridging** across contexts.
 
@@ -3341,7 +3341,7 @@ Use when **adding/removing states**, **changing criteria**, or **bridging** acro
 
 ---
 
-## 19 · Common failure modes (and quick remedies)
+#### 19 · Common failure modes (and quick remedies)
 
 | Failure            | Symptom                               | Why it hurts                       | Quick remedy                                                              |
 | ------------------ | ------------------------------------- | ---------------------------------- | ------------------------------------------------------------------------- |
@@ -3353,7 +3353,7 @@ Use when **adding/removing states**, **changing criteria**, or **bridging** acro
 
 ---
 
-## 20 · Didactic script (90 seconds): how A.2.5 ties to A.2.1 & A.2.3
+#### 20 · Didactic script (90 seconds): how A.2.5 ties to A.2.1 & A.2.3
 
 > \*“A role assignment says **who wears which mask where** (A.2.1). The **RoleStateGraph** says **when that mask is actually wearable**. Each role’s RSG is a **small named state space** with **checklists** for each state. Some states are **enactable** (◉): they open the **Green‑Gate** for `Work`. Others are **status‑only**: they gate decisions, never execution.
 >
@@ -3367,18 +3367,18 @@ Use when **adding/removing states**, **changing criteria**, or **bridging** acro
 
 ---
 
-### 21 · Relations (quick pointers)
+#### 21 · Relations (quick pointers)
 
 * **Builds on:** A.2.1 `U.RoleAssignment` (the binding that can assert states); A.2.3 `U.RoleDescription` (the carrier of RSG); E.10.D1 (Context discipline).
 * **Enables.** A.15 (Role‑Method‑Work Alignment via Green‑Gate); B.3 (Trust penalties when crossing Bridges with lower `CL`).
 * **Interacts with.** D‑cluster deontics (speech‑acts gate **Authorized**‑like states for agential roles); F.9 (state‑level alignment across contexts).
 
 
-# A.2.6 · **Unified Scope Mechanism (USM): Context Slices & Scopes**  \[A] 
+### A.2.6 · **Unified Scope Mechanism (USM): Context Slices & Scopes**  \[A] 
 
 > **One-line summary.** Introduces a single, context-local **scope mechanism** for all holons: **`U.ContextSlice`** (where we reason and measure) and a family of **set-valued scope types** (**USM scope objects, `U.Scope`**), specialized as **`U.ClaimScope`** for epistemes (**G** in **F–G–R**), **`U.WorkScope`** for system capabilities, and **`U.PublicationScope`** for publication carriers; with one algebra (∩ / SpanUnion / translate / widen / narrow / refit) and uniform Cross-context handling (Bridge + CL).
 
-## 0 · Status, Placement & Deprecations
+#### 0 · Status, Placement & Deprecations
 
 **Status.** Normative pattern \[A] in **Part A · Core Holonic Concepts**. Numbered **A.2.6**.
 
@@ -3398,7 +3398,7 @@ Legacy words (*applicability / envelope / generality / capability envelope*) MAY
 — **Part B** (Bridges & CL): Cross‑context transfers **MUST** declare a Bridge with **CL**; CL affects **R**, not **F/G**.
 — **Part E** (Publication discipline; e.g., **E.17 MVPK**): publication views/cards/lanes MAY declare `U.PublicationScope` to bound **where** a publication is admissible; `U.PublicationScope` MUST NOT widen the underlying `U.ClaimScope`/`U.WorkScope`. (USM supplies the scope calculus; Part E supplies publication discipline.)
 
-## 1 · Purpose & Audience
+#### 1 · Purpose & Audience
 
 This pattern gives **engineering managers and assurance architects** one vocabulary, one model, and one set of operations to talk about **where** a claim holds and **under which conditions** a system can deliver a piece of **Work**. It removes the need to remember whether a document said “applicability,” a model said “envelope,” or a safety plan said “capability envelope.” **Scope is scope.** The only distinction that matters is **what carries it**:
 
@@ -3413,9 +3413,9 @@ With USM, teams can:
 
 This pattern **defines** the **scope mechanism** (Context slices, set‑valued scopes, algebra, and guard usage) and the canonical **lexicon** (Claim scope (G), Work scope). It does **not** prescribe which Contexts must widen/narrow scope, nor which assurance levels are required; those are set by context‑local ESG and Method–Work policies, which SHALL reference the mechanisms defined here.
 
-## 2 · Context
+#### 2 · Context
 
-### 2.1 Cross‑disciplinary pressures
+##### 2.1 Cross‑disciplinary pressures
 
 Modern projects couple **formal specs**, **data‑driven models**, **safety cases**, and **operational playbooks**. Each artifact must say **where it is valid**—yet terminology drifts:
 
@@ -3424,11 +3424,11 @@ Modern projects couple **formal specs**, **data‑driven models**, **safety case
 * Safety and performance documents speak about *capability envelope*.
 * Knowledge patterns have used *generality* (G) as if it were “more abstract,” when we actually need “**where the statement holds**.”
 
-### 2.2 context‑local reasoning
+##### 2.2 context‑local reasoning
 
 FPF is context‑local: decisions, checks, and state assertions are **valid inside a bounded context**. Every practical question—*Is this claim usable here? Can this capability deliver that Work now?*—must be answered **on a concrete slice of context** (terminology, versions, environmental parameters, time selector **Γ\_time**). USM provides a first‑class object for such slices and a single scope calculus atop them.
 
-### 2.3 Minimal, composable trust math
+##### 2.3 Minimal, composable trust math
 
 In **F–G–R**:
 
@@ -3440,7 +3440,7 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 
 ---
 
-## 3 · Problem
+#### 3 · Problem
 
 1. **Synonym soup.** *Applicability, envelope, generality, capability envelope*—different labels for the **same mechanism** led to mismatches in gating, review, and reuse.
 2. **Abstraction confusion.** Calling G “generality” invited teams to treat “more abstract wording” as “broader scope,” silently masking unstated assumptions.
@@ -3450,7 +3450,7 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 
 ---
 
-## 4 · Forces
+#### 4 · Forces
 
 | Force                                             | Tension to resolve                                                                                                                                               |
 | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -3462,7 +3462,7 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 
 ---
 
-## 5 · Solution — Overview (preview; full definitions in Part 2)
+#### 5 · Solution — Overview (preview; full definitions in Part 2)
 
 **USM** introduces:
 
@@ -3476,9 +3476,9 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 — In normative text and guards, use **Claim scope (G)**, **Work scope**, and **Publication scope**.  
 — Do **not** name the characteristic “applicability/envelope/generality/capability envelope/**publication applicability**/validity.” Those words are permitted only as explanatory aliases in notes.
 
-## 6 · Normative Definitions
+#### 6 · Normative Definitions
 
-### 6.1 · `U.ContextSlice` — where scope is evaluated
+##### 6.1 · `U.ContextSlice` — where scope is evaluated
 
 **Definition.** `U.ContextSlice` is an addressable, context‑local selection of a bounded context comprising:
 
@@ -3493,7 +3493,7 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 
 **Slice key (minimal).** A `U.ContextSlice` **SHALL** be addressable by a tuple containing at least: `(Context, Standard/version ids (if any), environment selectors, Γ_time)`. Contexts MAY extend this tuple (e.g., vocab/roleset ids).
 
-### 6.2 · `U.Scope` — the abstract set‑valued scope property (USM kind; **not** a CSLC measurement)
+##### 6.2 · `U.Scope` — the abstract set‑valued scope property (USM kind; **not** a CSLC measurement)
 
 **Definition.** `U.Scope ⊆ ContextSliceSet` is a **set‑valued USM property** whose values are sets of `U.ContextSlice` where a given statement, behavior, or capability is **fit‑for‑use**. It is **not** numeric; its internal order is the subset relation `⊆`. There is no “unit”. The primitive judgement is **membership**: `slice ∈ Scope`.  
 
@@ -3509,7 +3509,7 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 
 **Locality.** `U.Scope` values are defined and reasoned about **context‑locally**. Translation between Contexts never occurs implicitly; see §7.4.
 
-### 6.3 · `U.ClaimScope` (nick **G**) — scope of a claim (episteme)
+##### 6.3 · `U.ClaimScope` (nick **G**) — scope of a claim (episteme)
 
 **Carrier.** `U.Episteme` (claims, specifications, theories, policies).
 
@@ -3532,7 +3532,7 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 
 ---
 
-### 6.4 · `U.WorkScope` — scope of doing Work (capability)
+##### 6.4 · `U.WorkScope` — scope of doing Work (capability)
 
 **Carrier.** `U.Capability` (a system’s ability to deliver specified `U.Work`).
 
@@ -3554,7 +3554,7 @@ The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND*
 * **`U.QualificationWindow` (mandatory for operational use).** A time policy (point/window/rolling) stating when the capability is considered qualified; evaluated at `Γ_time`.  
 These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (assurance). They MUST be referenced in Method–Work guards (see §10.3 WG‑2/WG‑3).
 
-### 6.5 · `U.PublicationScope` — scope of a publication (view/surface)
+##### 6.5 · `U.PublicationScope` — scope of a publication (view/surface)
 **Carrier.** Publication carriers (e.g., **PublicationSurface/InteropSurface** views/cards/lanes in Part E; MVPK faces).
 **Meaning.** The set of `U.ContextSlice` where a **publication** (a view/card/lane about some object or morphism) is **admissible for use** without introducing claims beyond its underlying carrier.
 
@@ -3574,9 +3574,9 @@ These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (a
 
 **View refinement (profiles).** When a stricter publication profile/view **refines** another (e.g., a typed card that requires additional pins), its `U.PublicationScope` **MUST NOT** be wider than that of the less formal view.
 
-## 7 · Scope Algebra
+#### 7 · Scope Algebra
 
-### 7.1 · Membership & Coverage
+##### 7.1 · Membership & Coverage
 
 * **Membership judgement.** `slice ∈ Scope` is the primitive check.
 * **Coverage guard.** A guard “Scope **covers** TargetSlice” means either:
@@ -3585,7 +3585,7 @@ These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (a
   * **set:** `TargetSet ⊆ Scope`.
 * **No implicit expansion.** Absent an explicit declaration, guards MUST NOT treat “close” slices as covered; widening requires a ΔG+ change.
 
-### 7.2 · Serial Composition (Intersection)
+##### 7.2 · Serial Composition (Intersection)
 
 **Rule S‑INT (serial).** For an essential dependency chain `C1 → C2 → … → Ck` that supports a claim/capability, the effective scope along that chain is:
 
@@ -3599,7 +3599,7 @@ If `Scope_serial = ∅`, the chain is **inapplicable** and MUST NOT contribute t
 
 ---
 
-### 7.3 · Parallel Support (SpanUnion)
+##### 7.3 · Parallel Support (SpanUnion)
 
 **Rule P‑UNION (parallel).** If there exist **independent** support lines `L₁,…,Lₙ` for the **same** claim/capability, each with serial scope `S_i`, the publisher MAY declare:
 
@@ -3614,7 +3614,7 @@ Scope_published = SpanUnion({S_i})  =  ⋃_{i=1..n} S_i
 * Publishers SHOULD annotate coverage density/heterogeneity (informative) to aid R assessment, but numeric “coverage” is not part of G.
 * **Independence criterion.** Support lines in a **SpanUnion** MUST be partitioned so that each line has a set of **essential components** disjoint from the others’ essential components (no shared weakest link). The partition (or a certificate thereof) SHALL be referenced in the publication.
 
-### 7.4 Why a **G-ladder/levels/scales** is not needed (and **must not** be introduced)
+##### 7.4 Why a **G-ladder/levels/scales** is not needed (and **must not** be introduced)
 
 **1) G is not an ordinal scale; it is set-valued.**
 Under **USM**, `U.ClaimScope` is a **set‑valued** **USM scope object** over `U.ContextSlice`. The only well‑typed primitives are **membership** and **set operations** (`⊆`, `∩`, `⋃`). Imposing ordinal “levels” such as **G0…Gk** violates the type discipline and produces non‑invariant behavior (the **same set** could be “rated” with different numbers under different heuristics). (See also LEX‑CHR‑STRICT.)
@@ -3634,7 +3634,7 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 **Normative directive.**
 `U.ClaimScope (G)` **SHALL** remain a **set‑valued** characteristic; **no ordinal or numeric ladder SHALL be defined** for G. Authoring and gating **SHOULD** use **F thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
 
-### 7.5 · Translation across Contexts (Bridge & CL)
+##### 7.5 · Translation across Contexts (Bridge & CL)
 
 **Rule T‑BRIDGE.** To use a scope in a different bounded context (room), an explicit **Bridge** MUST be declared with:
 
@@ -3646,7 +3646,7 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 
 ---
 
-### 7.5 · Δ‑Operations (Widen, Narrow, Refit)
+##### 7.5 · Δ‑Operations (Widen, Narrow, Refit)
 
 * **ΔG+ (widen).** Monotone expansion: `S ⊂ S′`. Requires new support or stronger bridges.
 * **ΔG− (narrow).** Monotone restriction: `S′ ⊂ S`. Often used to remove areas invalidated by new findings.
@@ -3656,7 +3656,7 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 
 **Edition triggers.** Any change that alters the published set (ΔG±) is a content change and MAY trigger a new edition per Context policy (see A.2.x on editions). Refit is not a content change.
 
-### 7.6 · Invariants
+##### 7.6 · Invariants
 
 * **I‑LOCAL.** All scope evaluation is **context‑local**. Cross‑context usage MUST follow §7.4.
 * **I‑SERIAL.** Serial scope is an **intersection**; it cannot grow by adding dependencies.
@@ -3667,38 +3667,38 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 
 ---
 
-### 7.7 · Empty & Partial Scopes
+##### 7.7 · Empty & Partial Scopes
 
 * **Empty scope (`∅`).** The claim/capability is **currently not usable anywhere** in the Context; guards MUST fail.
 * **Partial scope.** Publishers SHOULD avoid “global” language when actual scope is thin; instead, publish explicit slices and (informatively) coverage hints to guide R assessment.
 
 ---
 
-## 8 · Locality, Time & Version Semantics
+#### 8 · Locality, Time & Version Semantics
 
-### 8.1 · context‑locality
+##### 8.1 · context‑locality
 
 Scopes are **owned and evaluated** within a `U.BoundedContext`. State assertions (ESG/RSG) and Method–Work gates MUST NOT assume that a scope declared in another Context applies verbatim; see §7.4.
 
-### 8.2 · Time selector `Γ_time`
+##### 8.2 · Time selector `Γ_time`
 
 Every scope declaration and every guard MUST specify a **`Γ_time` selector** (point, window, or policy such as “rolling 180 days”) whenever time‑dependent assumptions exist. Implicit “latest” is forbidden. When `Γ_time` differs between contributors, serial intersection resolves the overlap.
 
-### 8.3 · Standards, versions & notations
+##### 8.3 · Standards, versions & notations
 
 Scope predicates SHALL name Standards/interfaces/schemas **by version**. Changing symbols/notations with a faithful mapping does not change **G** (it may change **CL** for the mapping and thus affect **R**).
 
-### 8.4 · Determinism of evaluation
+##### 8.4 · Determinism of evaluation
 
 Given fixed inputs (slice tuple, declared scope), the membership judgement MUST be deterministic. Guards SHALL fail closed (no membership ⇒ no use).
 
-### 8.5 · Interaction with R (freshness & decay)
+##### 8.5 · Interaction with R (freshness & decay)
 
 For empirical claims and operational capabilities, **R** typically binds evidence freshness windows. Scope does not decay with time; **trust in the support** does. Guards MAY combine “Scope covers” with “Evidence freshness holds” as separate predicates.
 
 ---
 
-## 9 · Lexical Discipline (Part E compliance)
+#### 9 · Lexical Discipline (Part E compliance)
 
 **L‑USM‑1 (names).** Use **Claim scope (G)** for epistemes, **Work scope** for capabilities, and **Publication scope** for publication carriers. Use **Scope** only when discussing the abstract mechanism. Avoid naming any **characteristic** as “applicability,” “envelope,” “generality,” “capability envelope,” or “validity”.
 
@@ -3710,9 +3710,9 @@ For empirical claims and operational capabilities, **R** typically binds evidenc
 
 **L‑USM‑5 (First mention).** On first use in a Context, include the parenthetical nick: *“Claim scope (**G**)”* to preserve the F–G–R mapping.
 
-## 10 · Guard Patterns (ESG & Method–Work)
+#### 10 · Guard Patterns (ESG & Method–Work)
 
-### 10.1 · Common guard shape
+##### 10.1 · Common guard shape
 
 A scope‑aware guard has the form:
 
@@ -3731,7 +3731,7 @@ The guard **fails closed** (no membership ⇒ denial), and evaluation is **deter
 
 ---
 
-### 10.2 · ESG guard families (epistemes)
+##### 10.2 · ESG guard families (epistemes)
 
 **EG‑1 · ClaimScopeCoverage (mandatory).**
 The state transition MUST include a predicate:
@@ -3776,7 +3776,7 @@ When the episteme declares a **SpanUnion** across independent lines, the guard M
 
 ---
 
-### 10.3 · Method–Work guard families (capabilities)
+##### 10.3 · Method–Work guard families (capabilities)
 
 **WG‑1 · WorkScopeCoverage (mandatory).**
 A capability can be used to deliver a Work step only if:
@@ -3813,7 +3813,7 @@ When widening Work scope (new operating ranges/platforms), the guard MUST requir
 
 ---
 
-### 10.4 · Bridge‑aware guard macro (reusable)
+##### 10.4 · Bridge‑aware guard macro (reusable)
 
 A reusable macro for Cross‑context guards:
 
@@ -3830,7 +3830,7 @@ AND (Apply CL penalty to R)
 * **Translate(b, Scope).** The partial mapping of a set of source slices to target slices induced by Bridge **b**. If a source slice is unmappable, it is dropped. The result is a set of target slices; **CL penalties apply to R only**.
 * **Penalty to R**: applied per trust calculus; F and G remain as declared.
 
-### 10.5 · Selector policy (Γ\_time)
+##### 10.5 · Selector policy (Γ\_time)
 
 All ESG and Method–Work guards MUST spell out **`Γ_time`**:
 
@@ -3842,7 +3842,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 
 ---
 
-## 11 · Conformance Checklist (USM)
+#### 11 · Conformance Checklist (USM)
 
 | ID                                    | Requirement                                                                                                                                                                                    |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -3860,11 +3860,11 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 | **CC‑USM‑12 (Versioned Standards).**  | Scope predicates **SHALL** name Standards/interfaces by **version**; changes in notations with faithful mapping do not change **G** (may change CL for R).                                     |
 | **CC‑USM‑13 (Min‑info publication).** | Published scopes **SHOULD** enumerate slices or predicate blocks sufficient to re‑evaluate membership without external folklore.                                                               |
 
-## 12 · Worked Examples
+#### 12 · Worked Examples
 
 > Each example declares the Context, the scope, the target slice, and shows the guard outcome. Where relevant, serial intersection, SpanUnion, and Bridge & CL are illustrated.
 
-### 12.1 · Research claim (controlled narrative → predicate)
+##### 12.1 · Research claim (controlled narrative → predicate)
 
 * **Context:** `MaterialsLab@2026`.
 * **Episteme:** claim “Adhesive X retains ≥85 % tensile strength on Al6061 for 2 h at 120–150 °C.”
@@ -3873,7 +3873,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 * **Guard (EG‑1, EG‑2):** `covers(TargetSlice)` **true**; `U.Formality ≥ F4` **true** (predicates in spec).
 * **Outcome:** state transition allowed (freshness checked separately under R).
 
-### 12.2 · Cross‑context use of the research claim
+##### 12.2 · Cross‑context use of the research claim
 
 * **target Context:** `AssemblyFloor@EU‑PLANT‑B`.
 * **Bridge:** declared mapping of rigs and temp measurement correction; **CL=2** (loss: ±2 °C bias).
@@ -3881,7 +3881,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 * **Guard (EG‑4):** Bridge present, `CL≥2` **true**; **R** is penalized per Φ(CL).
 * **Outcome:** allowed; **G** remains the mapped set; **R** lowered.
 
-### 12.3 · Capability: robotic weld Work scope
+##### 12.3 · Capability: robotic weld Work scope
 
 * **Context:** `RobotCell‑Weld@2026`.
 * **Capability:** “Weld seam W at bead width 2.5 ± 0.3 mm, cycle ≤ 12 s.”
@@ -3890,7 +3890,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 * **Guards (WG‑1..3):** coverage **true**; measures satisfied; qualification window **true** (controller certified 60 d ago).
 * **Outcome:** capability admitted for this Work.
 
-### 12.4 · Serial intersection (API + dataset compatibility)
+##### 12.4 · Serial intersection (API + dataset compatibility)
 
 * **Claim A (API Standard):** `v2.3` request schema with constraint “idempotent under retry”.
 * **Claim B (Dataset cohort):** “metrics valid for cohort K with schema `ds‑14`”.
@@ -3898,14 +3898,14 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 * **Target slice:** `{api=v2.3, cohort=K, schema=ds‑14}` → membership **true**.
 * **Any drift (e.g., `ds‑15`)** empties the intersection ⇒ path inapplicable.
 
-### 12.5 · Parallel support (SpanUnion) in a safety case
+##### 12.5 · Parallel support (SpanUnion) in a safety case
 
 * **Line L1:** tests on **dry asphalt** support braking property; scope `S1={surface=dry, speed≤50 km/h}`.
 * **Line L2:** simulations for **wet asphalt**; scope `S2={surface=wet, speed≤40 km/h}`.
 * **Published scope:** `SpanUnion({S1,S2})` = `{(dry, ≤50), (wet, ≤40)}` with independence note (L1 empirical, L2 model‑validated).
 * **Guard:** allowed; union does **not** include `(wet, 45)` because not supported.
 
-### 12.6 · ML model deployment across Contexts
+##### 12.6 · ML model deployment across Contexts
 
 * **Model claim:** “AUC ≥ 0.92 on cohort K, pipeline P, features F, `Γ_time=rolling(180d)`.”
 * **Claim scope:** `{cohort=K, pipeline=P, features=F, Γ_time=rolling(180d)}`.
@@ -3916,9 +3916,9 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 
 ---
 
-## 13 · Playbooks (Informative)
+#### 13 · Playbooks (Informative)
 
-### 13.1 · Manager’s 6‑step adoption checklist
+##### 13.1 · Manager’s 6‑step adoption checklist
 
 1. **Name the TargetSlice.** Write the tuple (Context, versions, environment params, `Γ_time`).
 2. **Check scope coverage.** “Claim/Work scope covers TargetSlice?” If **no**, either **ΔG+** (publish wider scope with support) or **decline**.
@@ -3927,7 +3927,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 5. **Bridge if Cross‑context.** Require declared Bridge, CL, and loss notes; accept **R** penalties.
 6. **Record the decision.** Keep the slice and guard outcomes with the StateAssertion (auditability).
 
-### 13.2 · Architect’s design rubric for scopes
+##### 13.2 · Architect’s design rubric for scopes
 
 * **Prefer predicates over prose.** Name parameters, ranges, Standards by **version**, and `Γ_time`.
 * **Factor common conditions.** Use Refit to normalize units and factor shared predicates; do not widen by stealth.
@@ -3935,7 +3935,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 * **Keep scope thin & honest.** Publish what you can support; add slices as support appears (ΔG+).
 * **Design Bridges early.** When interop is planned, sketch mapping characteristics and **expected CL**; plan **R** penalties.
 
-### 13.3 · Review anti‑patterns & fixes
+##### 13.3 · Review anti‑patterns & fixes
 
 | Anti‑pattern                                    | Why it’s wrong                   | Fix                                                        |
 | ----------------------------------------------- | -------------------------------- | ---------------------------------------------------------- |
@@ -3945,7 +3945,7 @@ Implicit “latest” is not allowed. If multiple contributors declare different
 | Publishing union without independence           | Overstates coverage              | Justify independence or publish serial intersection only   |
 | Cross‑context use without Bridge                   | Silent semantic drift            | Require Bridge + CL; apply **R** penalties                 |
 
-### 13.4 · Minimal DSL snippet for scope blocks (illustrative)
+##### 13.4 · Minimal DSL snippet for scope blocks (illustrative)
 
 ```
 claimScope:
@@ -3962,7 +3962,7 @@ claimScope:
 
 *(Illustrative only; the specification does not mandate a particular syntax.)*
 
-### 13.5 · Profiles as Scope configurations (informative)
+##### 13.5 · Profiles as Scope configurations (informative)
 **Idea.** A **Scope profile** is a **named, editioned configuration** that expands to a concrete `U.Scope` predicate block (over `U.ContextSlice`), used to avoid repetition and to keep declarations consistent across carriers.
 
 **Rules.**
@@ -3976,9 +3976,9 @@ claimScope:
 — An engineering context defines `Ops‑Lab‑v3` as a profile pinning Standards, environment selectors, and a rolling `Γ_time` policy; claims, capabilities, and publications may reference it as a shorthand.  
 — A publication stack defines `TechCard‑Lite@Σ` as a profile that **narrows** `U.PublicationScope` to slices where required pins are available.
 
-## 14 · Governance Hooks & Audits
+#### 14 · Governance Hooks & Audits
 
-### 14.1 · Governance metadata (normative)
+##### 14.1 · Governance metadata (normative)
 
 Contexts that adopt USM SHALL record, per scope‑aware decision:
 
@@ -3988,14 +3988,14 @@ Contexts that adopt USM SHALL record, per scope‑aware decision:
 * **Bridge info (if any).** Mapping summary, **CL**, loss notes, applied R penalty.
 * **ΔG log.** Widen/narrow/refit; edition policy outcome.
 
-### 14.2 · USM compliance levels (informative)
+##### 14.2 · USM compliance levels (informative)
 
 * **USM‑Ready.** Context declares adoption; editors trained; lexicon updated.
 * **USM‑Guarded.** All ESG/Method–Work guards use Claim/Work scope and `Γ_time`.
 * **USM‑Auditable.** Decision records include TargetSlice tuples and Bridge/CL details.
 * **USM‑Composed.** Serial intersection and SpanUnion are implemented in composition tooling.
 
-### 14.3 · Audit checklist (informative)
+##### 14.3 · Audit checklist (informative)
 
 * Does each guard **name** a concrete **TargetSlice**?
 * Is **membership** deterministically recomputable from published predicates?
@@ -4003,7 +4003,7 @@ Contexts that adopt USM SHALL record, per scope‑aware decision:
 * For Cross‑context use: is there a **Bridge** with **CL** and loss notes?
 * For parallel support: is **independence** justified?
 
-### 14.4 · Risk controls (informative)
+##### 14.4 · Risk controls (informative)
 
 * **Silent widening.** Require ΔG+ review; flag any scope increase without new support/Bridge.
 * **Opaque slices.** Disallow “domain” placeholders; enforce addressable selectors.
@@ -4011,37 +4011,37 @@ Contexts that adopt USM SHALL record, per scope‑aware decision:
 
 ---
 
-## 15 · Cross‑Pattern Coordination
+#### 15 · Cross‑Pattern Coordination
 
-### 15.1 · With F–G–R (C.2.2)
+##### 15.1 · With F–G–R (C.2.2)
 
 * **G is Claim scope.** Use set algebra (∩ / SpanUnion).
 * **F** remains the expression rigor (C.2.3); **R** captures evidence freshness and CL penalties.
 * **Weakest‑link.** On dependency paths: **F\_composite = min(F)**, **R\_composite = min(R)**; **G** follows §7.2–§7.3 (set rules).
 
-### 15.2 · With Formality (C.2.3)
+##### 15.2 · With Formality (C.2.3)
 
 * **No conflation.** Raising **F** does not change **G** unless scope predicates change.
 * **Guarding rigor.** ESG may use `U.Formality ≥ F_k` alongside scope coverage.
 
-### 15.3 · With Work & Run (A.15)
+##### 15.3 · With Work & Run (A.15)
 
 * **Work scope** aligns with the **execution context** of `U.Work`.
 * Method–Work gates use **Work scope coverage** plus **measures** and **qualification windows**.
 
-### 15.4 · With Bridges & CL (Part B)
+##### 15.4 · With Bridges & CL (Part B)
 
 * **CL only impacts R.** CL penalties reduce trust; they never rewrite **F** or **G**.
 * **Best practice.** Narrow mapped scopes where mapping losses are material.
 
-### 15.5 · With Capability governance (A.2.2)
+##### 15.5 · With Capability governance (A.2.2)
 
 * Capabilities MUST declare **Work scope**, **measures**, **qualification windows**; gates MUST verify all three.
 * Capability refits that preserve the set (unit changes) are **Refit**, not Δ(WorkScope).
 
 ---
 
-## 16 · Extended FAQ (informative)
+#### 16 · Extended FAQ (informative)
 
 **Q1. Is “Claim scope” the same as “domain”?**
 **No.** “Domain” is descriptive and often fuzzy. **Claim scope** is **addressable**: it names concrete `U.ContextSlice` conditions and a **`Γ_time`** policy. Guards MUST reference slices, not generic “domains”.
@@ -4075,9 +4075,9 @@ It indicates “not usable anywhere (here, now)”. Guards MUST fail. This is co
 
 ---
 
-## 17 · Annexes (informative)
+#### 17 · Annexes (informative)
 
-### 17.1 · Legacy → USM dictionary
+##### 17.1 · Legacy → USM dictionary
 
 | Legacy wording                      | USM term                                                 |
 | ----------------------------------- | -------------------------------------------------------- |
@@ -4091,7 +4091,7 @@ It indicates “not usable anywhere (here, now)”. Guards MUST fail. This is co
 
 *(Use legacy terms only in explanatory notes; not in guards or conformance text.)*
 
-### 17.2 · Minimal data model hints
+##### 17.2 · Minimal data model hints
 
 **ContextSlice tuple (suggested keys):**
 `Context`, `vocabId`, `rolesetId?`, `Standards: [{name, version}]`, `env: {param: range/value}`, `gamma_time: {point|window|policy}`.
@@ -4104,7 +4104,7 @@ It indicates “not usable anywhere (here, now)”. Guards MUST fail. This is co
 
 *(These are informative; the spec does not mandate a concrete serialization.)*
 
-### 18.3 · Pseudocode membership (illustrative)
+##### 18.3 · Pseudocode membership (illustrative)
 
 ```python
 def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
@@ -4113,11 +4113,11 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
     return target.issubset(scope)
 ```
 
-## 17. 4 Rationale · F‑Cluster Unification for A.2.6 (F.17 / F.18)
+#### 17. 4 Rationale · F‑Cluster Unification for A.2.6 (F.17 / F.18)
 
 > **Intent.** This annex applies the **F‑cluster method** to triangulate **USM** terms against a diverse set of post‑2015 sources and communities (“Contexts”), and then fixes the **Unified Tech** and **Plain** names used in A.2.6. Results are ready for downstream lexicon entries (Part E) and guard templates (ESG / Method–Work).
 
-### 17.4.1 · F.17 Unified Term Survey (UTS) — Method & Scope
+##### 17.4.1 · F.17 Unified Term Survey (UTS) — Method & Scope
 
 **Contexts surveyed (SoTA, diverse):**
 
@@ -4138,7 +4138,7 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 
 ---
 
-### 17.4.2 · UTS Table (F.17) — Cross‑context term mapping
+##### 17.4.2 · UTS Table (F.17) — Cross‑context term mapping
 
 |  # | Context / Source      | Local label(s) (native)                                                     | Closest USM concept                                                                      | Notes on fit & deltas                                                                                                                                                                         |
 | -: | ------------------ | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -4159,9 +4159,9 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 
 ---
 
-### 17.4.3 · F.18 Term Selection — Unified Tech & Plain names
+##### 17.4.3 · F.18 Term Selection — Unified Tech & Plain names
 
-#### 17.4.3.1 Selected names (normative)
+##### 17.4.3.1 Selected names (normative)
 
 | Concept in A.2.6                | **Unified Tech** (lexicon)                      | **Unified Plain** (manager‑friendly) | Allowed short form   | Deprecated / avoid                                                    |
 | ------------------------------- | ----------------------------------------------- | ------------------------------------ | -------------------- | --------------------------------------------------------------------- |
@@ -4184,7 +4184,7 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 * **“Context slice”** is the only term that makes the evaluation target **addressable** (Context, versions, params, **Γ\_time**).
 * **“Operation/operating/validity” avoided.** They are **overloaded** in existing FPF lanes (Work/Run, LA) and create policy ambiguities in guards.
 
-#### 17.4.3.2 Phrasebook (for editors, normative)
+##### 17.4.3.2 Phrasebook (for editors, normative)
 
 * Use **“Claim scope (G) covers TargetSlice”** and **“Work scope covers JobSlice”** in guards.
 * Always spell **`Γ_time`**; never say “latest”.
@@ -4192,7 +4192,7 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 * For Cross‑context use, say: **“via Bridge; CL penalties apply to R (trust), not to F/G (content/scope).”**
 * When widening/narrowing, write **“ΔG+ / ΔG−”** and log the support change; use **“Refit”** for unit/param normalization.
 
-#### 17.4.3.3 Rosetta summary (informative, for rationale box)
+##### 17.4.3.3 Rosetta summary (informative, for rationale box)
 
 | local context phrase                          | Use in USM wording                                          |
 | ------------------------------------------ | ----------------------------------------------------------- |
@@ -4207,20 +4207,20 @@ def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
 
 **Outcome.** The UTS shows strong convergence across SoTA Contexts on **addressable context** and **set‑valued applicability**. F.18 therefore fixes: **Context slice**, **Scope**, **Claim scope (G)**, **Work scope**, **Publication scope** with the algebra and guard clauses mandated in A.2.6. This closes synonym drift while remaining readable for engineering managers and precise for assurance tooling.
  
-# A.3 Transformer Constitution (Quartet)  \[A]
+## A.3 Transformer Constitution (Quartet)  \[A]
 
-## 1 · Intent
+### 1 · Intent
 
 Establish a single, substrate‑neutral way to say **who acts**, **under which role**, **according to which description**, **by which capability**, and **what actually happened**—without “self‑magic” and without blurring design‑time and run‑time. The pattern fixes the **Transformer Quartet** so all kernel and Γ‑patterns reuse the *same four anchors*. It builds directly on **Holon‑Role Duality (A.2)** and **Temporal Duality (A.4)** and is guarded by **Strict Distinction (A.7)** and **Evidence Graph Referring (A.10)**.
 
-## 2 · Context
+### 2 · Context
 
 * **Holonic substrate.** FPF separates *what things are* (Holon → {System, Episteme, …}) from *what they are being right now* via **roles**. Only **systems** can bear **behavioural** roles and execute methods/work; epistemes are changed **via their symbol carriers**.
 * **Role as mask; behaviour as method/work.** A role is a **mask**, not behaviour; behaviour is a **Method** (order‑sensitive capability) that may be executed as **Work** (dated occurrence).
 * **Design‑time vs run‑time.** A holon’s states belong to disjoint scopes **Tᴰ** and **Tᴿ**; transitions are physically grounded by a system bearing **TransformerRole**.
 * **Evidence & carriers.** Claims about outcomes must anchor to **carriers** (SCR/RSCR) and to an **external** evidencing transformer.
 
-## 3 · Problem
+### 3 · Problem
 
 Legacy phrasing (“actor / process / blueprint”) causes recurrent failures:
 
@@ -4231,7 +4231,7 @@ Legacy phrasing (“actor / process / blueprint”) causes recurrent failures:
 5. **Scope leak:** design‑time and run‑time mixed; run traces lack carriers/method ties.
    A.2/A.4/A.7/A.10 collectively forbid these, but A.3 must give the **canonical quartet** that authors can apply consistently.
 
-## 4 · Forces
+### 4 · Forces
 
 | Force                       | Tension                                                                                     |
 | --------------------------- | ------------------------------------------------------------------------------------------- |
@@ -4241,11 +4241,11 @@ Legacy phrasing (“actor / process / blueprint”) causes recurrent failures:
 | **Design vs run**           | No overlap of **Tᴰ** and **Tᴿ**; bridges explicit and causal.                               |
 | **Evidence vs mereology**   | Provenance edges (EPV‑DAG) must never turn into part‑whole edges.                           |
 
-## 5 · Solution — The Transformer Quartet
+### 5 · Solution — The Transformer Quartet
 
 A.3 defines four anchors, tied together by **Role Assignment (`U.RoleAssignment`)** and aligned with **Temporal Duality**.
 
-### 5.1 The four anchors (terms & types)
+#### 5.1 The four anchors (terms & types)
 
 1. **Acting side:** a **system bearing TransformerRole** — the only holon kind allowed to enact transformations (behavioural role). *Canonical phrase:* **“system bearing TransformerRole”**. *Local shorthand:* after explicit binding in the **same subsection**, you MAY write **“Transformer”** to denote that same system; re‑bind on context change and **do not** use shorthand where the domain already has a conflicting “transformer” term.
 
@@ -4258,7 +4258,7 @@ A.3 defines four anchors, tied together by **Role Assignment (`U.RoleAssignment`
 > **Safe memory line:** *MethodDescription → (describes) Method → (executed as) Work.*
 > Roles are **masks** (A.2/A.7); methods/work are **behaviour**.
 
-### 5.2 Contextual Role Assignmnent (`U.RoleAssignment`) for transformations
+#### 5.2 Contextual Role Assignmnent (`U.RoleAssignment`) for transformations
 
 Use the universal assignment to state **who plays which role where and when**:
 
@@ -4275,29 +4275,29 @@ U.RoleAssignment(
 * The same system may bear multiple roles **if** the context allows compatibility.
 * For epistemes, the target of change is their **symbol carriers**; the acting side is still a **system**.
 
-### 5.3 Boundary & externality
+#### 5.3 Boundary & externality
 
 Every transformation is modelled with **two sides** and an explicit **U.Interaction** boundary: **acting** (system bearing TransformerRole) and **target** (system being transformed, or the **carrier** of an episteme). There is **no self‑doing**; “self‑like” stories are handled by the **reflexive split** (regulator vs regulated subsystems) or by promoting a meta‑holon and keeping evidence external (A.12).
 
-### 5.4 Temporal alignment (A.4 bridge)
+#### 5.4 Temporal alignment (A.4 bridge)
 
 * **MethodDescription** lives in **Tᴰ**;
 * **Method** is defined at design-time and **executed as `U.Work` at run-time by a `U.System` with a valid `U.RoleAssignment` (window-aligned) and a live **StateAssertion** for an **enactable** RSG state**;
 * **Work** lives in **Tᴿ**;
 * transitions **Tᴰ → Tᴿ** and **Tᴿ → Tᴰ** are **grounded** by executions of appropriate methods by an **external** transformer (e.g., fabrication or observation).
 
-### 5.5 Evidence Graph Referring
+#### 5.5 Evidence Graph Referring
 
 Each Work anchors to **carriers** and to the **MethodDescription** it instantiates; evidencing transformers are **external** (no self‑evidence). This sits in the **EPV‑DAG** and never in mereology.
 
-### 5.6 Didactic dictionary (safe mappings)
+#### 5.6 Didactic dictionary (safe mappings)
 
 * “Process / Workflow / SOP / Algorithm” ⇒ **MethodDescription** (design‑time description).
 * “Operation / Job / Run / Performance” ⇒ **Work** (run‑time occurrence).
 * “Function (equipment spec)” ⇒ **Method** (or MethodDescription if purely textual).
 * “Creator” (legacy) ⇒ **Transformer** (shorthand for **system bearing TransformerRole** after local binding).
 
-## 6 · Illustrative scenarios (substrate‑neutral)
+### 6 · Illustrative scenarios (substrate‑neutral)
 
 **6.1 Physical system — Cooling loop**
 `PumpUnit#3` (**system bearing TransformerRole**) executes `ChannelFluid` (**Method**) as per `centrifugal_pump_curve.ld` (**MethodDescription**), producing `run‑2025‑08‑08‑T14:03` (**Work**, 3.6 kWh; ΔT=6 K). Evidence goes to carriers in SCR; resource spend goes to Γ\_work.
@@ -4421,9 +4421,9 @@ Terms used here (TransformerRole, Work, Method, MethodDescription, PortionOf, Ph
 [11]: https://github.com/OpenLineage/OpenLineage?utm_source=chatgpt.com "GitHub - OpenLineage/OpenLineage: An Open Standard for lineage metadata collection"
 [12]: https://arxiv.org/pdf/2010.02013?utm_source=chatgpt.com "[PDF] A Brief History Of TensorFlow Extended (TFX) - arXiv"
 
-# A.3.1 — U.Method  \[D]
+### A.3.1 — U.Method  \[D]
 
-## 1 · Context (plain‑language motivation)
+#### 1 · Context (plain‑language motivation)
 
 Teams must talk about **how** something is done without entangling:
 
@@ -4439,14 +4439,14 @@ Teams must talk about **how** something is done without entangling:
 
 In FPF, a **system** bearing a **TransformerRole** *enacts* a `U.Method` (producing **Work**) by following a **MethodDescription**—an episteme that describes the method in some representation.
 
-## 2 · Problem (what goes wrong without a clean notion of “method”)
+#### 2 · Problem (what goes wrong without a clean notion of “method”)
 
 1. **Process soup.** “Process” gets used for recipe, execution, schedule, or org area. Planning, staffing, and audit blur together.
 2. **Spec = run fallacy.** A flowchart (or code) is taken as if execution already happened; conversely, logs get mistaken for the recipe.
 3. **Role leakage.** People encode assignments inside the recipe (“this step is the surgeon”), tying **who** to **how** and making reuse impossible.
 4. **Notation lock‑in.** When “method” is defined as “a set of steps,” functional or logical styles become second‑class citizens and cannot be modeled cleanly.
 
-## 3 · Forces (what the definition must balance)
+#### 3 · Forces (what the definition must balance)
 
 | Force                                  | Tension we resolve                                                                                        |
 | -------------------------------------- | --------------------------------------------------------------------------------------------------------- |
@@ -4458,9 +4458,9 @@ In FPF, a **system** bearing a **TransformerRole** *enacts* a `U.Method` (produc
 
 ---
 
-## 4 · Solution — the method as an abstract, paradigm‑agnostic “way of doing”
+#### 4 · Solution — the method as an abstract, paradigm‑agnostic “way of doing”
 
-### 4.1 Definition
+##### 4.1 Definition
 
 **`U.Method`** is a **context‑defined abstract transformation type**—the **semantic “way of doing”** a kind of work.  
 It is:
@@ -4473,7 +4473,7 @@ It is:
 * ***MethodDescription** = *how it is written* (artifact on a carrier).  
 * ***Work** = *how it actually went this time* (dated execution).
 
-### 4.2 Representation‑agnostic stance (specs may be imperative/functional/logical)
+##### 4.2 Representation‑agnostic stance (specs may be imperative/functional/logical)
 
 A `U.Method` does **not** require an imperative step structure. **Representations live in `U.MethodDescription`, not in the Method itself.**  
 Typical **MethodDescription forms** include:
@@ -4486,7 +4486,7 @@ Typical **MethodDescription forms** include:
 **Semantic identity criterion (context‑local).** Two MethodDescriptions **describe the same `U.Method`** in a given `U.BoundedContext` iff, for all admissible inputs and conditions recognized by that context, they entail the **same preconditions**, **guarantee the same postconditions/effects**, and satisfy the **same non‑functional bounds** (allowing permitted non‑determinism). Internal control‑flow/search details may differ.
 
 
-### 4.3 Method vs MethodDescription vs Work (quick litmus)
+##### 4.3 Method vs MethodDescription vs Work (quick litmus)
 
 | You have in your hand…           | In FPF it is…                 | Why                                                                             |
 | -------------------------------- | ----------------------------- | ------------------------------------------------------------------------------- |
@@ -4497,7 +4497,7 @@ Typical **MethodDescription forms** include:
 
 **Didactic rule:** when referencing *the idea* of “how”, say **Method**; when referencing *the document or code*, say **MethodDescription**; when referencing *the run*, say **Work**.
 
-### 4.4 Interface and effect (conceptual descriptors)
+##### 4.4 Interface and effect (conceptual descriptors)
 
 When presenting a `U.Method` in a review, anchor it with these paradigm‑neutral elements (not a data schema):
 
@@ -4508,7 +4508,7 @@ When presenting a `U.Method` in a review, anchor it with these paradigm‑neutra
 5. **Failure modes** — known failure classes and recoverability hints.
 6. **Compositional hooks** — whether this method composes serially/parallel/choice/iteration (see §4.5).
 
-### 4.5 Method mereology (composition without confusing it with runtime)
+##### 4.5 Method mereology (composition without confusing it with runtime)
 
 Methods compose into bigger methods; executions compose into bigger executions—**do not conflate** the two.
 
@@ -4516,7 +4516,7 @@ Methods compose into bigger methods; executions compose into bigger executions�
 **Work composition (run‑time):** the corresponding **Work** may split/merge/overlap differently due to scheduling, failures, or environment, yet it is still **execution of the same Method**.
 **Mapping advice:** avoid naming run‑time artifacts inside the method definition (no “this thread”, “this person”); keep those in **Role**/**Work**.
 
-### 4.6 Constructor‑theoretic reading (why Method ≠ algorithm ≠ spec)
+##### 4.6 Constructor‑theoretic reading (why Method ≠ algorithm ≠ spec)
 
 Constructor Theory views a **constructor** as a physical entity that **effects transformations**. In FPF:
 
@@ -4527,29 +4527,29 @@ Constructor Theory views a **constructor** as a physical entity that **effects t
 
 Thus, welding, milling, reagent mixing, and proof construction are all **Methods**; textbooks/code/derivations are their **MethodDescriptions**; **Work** are the concrete runs.
 
-### 4.7 Context anchoring
+##### 4.7 Context anchoring
 
 `U.Method` is **local to a `U.BoundedContext`**: terminology, admissible pre/postconditions, and non‑functional constraints are interpreted **inside that context**. If two teams or theories use the same name for different “ways of doing,” they are different Methods in different contexts unless bridged explicitly.
 
 ---
 
-## 5 · Archetypal grounding (cross-paradigm examples: imperative / functional / logical)
+#### 5 · Archetypal grounding (cross-paradigm examples: imperative / functional / logical)
 
-### 5.1 Industrial transformation (imperative flavor)
+##### 5.1 Industrial transformation (imperative flavor)
 
 * **Method:** `Etch_Al2O3`.
 * **MethodDescription:** SOP document; a PLC program that controls gas mix and timing.
 * **Enactment:** `Tool_42#TransformerRole:FabLine_A` produces **Work** runs W‑101, W‑102….
 * **Notes:** Step diagram exists, but a later **functional** spec may also exist (composition of gas‑flow functions). Both **specs** describe the **same Method**.
 
-### 5.2 Operational planning (functional/optimization flavor)
+##### 5.2 Operational planning (functional/optimization flavor)
 
 * **Method:** `JS_Schedule_v4` (job‑shop scheduling).
 * **MethodDescription:** a MILP model + solver configuration; documentation of constraints/objective.
 * **Enactment:** `PlannerService_v4#TransformerRole:PlantScheduling_2025` produces **Work** `Run_2025‑W32‑P1`.
 * **Notes:** No “steps” are visible at the method level; the solver’s search is internal. Still a `U.Method`.
 
-### 5.3 Scientific proof (logical flavor)
+##### 5.3 Scientific proof (logical flavor)
 
 * **Method:** `Gauss_Elimination`.
 * **MethodDescription:** formal rules in a proof assistant; textbook chapter as a second spec.
@@ -4558,7 +4558,7 @@ Thus, welding, milling, reagent mixing, and proof construction are all **Methods
 
 ---
 
-## 6 · Didactic quick grammar (for managers)
+#### 6 · Didactic quick grammar (for managers)
 
 * **Who?** `Holder#Role:Context` (**Role assignment**)
 * **Can?** `Capability(holder)` within envelope/measures
@@ -4569,13 +4569,13 @@ Thus, welding, milling, reagent mixing, and proof construction are all **Methods
 
 ---
 
-## 7 · Bias‑Annotation (as in cluster‑E patterns)
+#### 7 · Bias‑Annotation (as in cluster‑E patterns)
 
 * **Lenses tested:** `Arch`, `Prag`, `Did`, `Epist`.
 * **Scope declaration:** Universal; semantics are context‑local via `U.BoundedContext`.
 * **Rationale:** Gives FPF a **paradigm‑neutral** “how” that bridges MethodDescription (knowledge on a carrier) and Work (execution), while staying independent of Role (assignment) and Capability (ability).
 
-## 8 · Conformance Checklist (normative)
+#### 8 · Conformance Checklist (normative)
 
 **CC‑A3.1‑1 (Strict Distinction).**
 `U.Method` is the **semantic “way of doing”**. It is **not** a `U.MethodDescription` (artifact on a carrier), **not** a `U.Work` (dated execution), **not** a `U.Role`/assignment, and **not** a `U.Service`/promise.
@@ -4615,7 +4615,7 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 
 ---
 
-## 9 · Method mereology (composition) — design‑time only
+#### 9 · Method mereology (composition) — design‑time only
 
 **Operators (conceptual, context‑scoped):**
 
@@ -4636,7 +4636,7 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 **Run‑time mapping (do not conflate):**
 `U.Work` instances of `A · B` **may** interleave differently due to scheduling or failure‑handling and still be executions of `A · B`. The mapping is “execution semantics,” not part of Method mereology.
 
-## 10 · How Methods interact with Roles, Capability, Work, Dynamics (manager’s view)
+#### 10 · How Methods interact with Roles, Capability, Work, Dynamics (manager’s view)
 
 * **Roles (assignment).** Steps stipulate **role kinds** (e.g., `IncisionOperatorRole`), not people. At run time, `U.Work` references a **`U.RoleAssignment`** that satisfies the role kind.
 * **Capability (ability).** Steps may require **thresholds** (e.g., “precision ≤ 0.2 mm”). They are checked against the **holder’s `U.Capability`** in the context/envelope.
@@ -4645,7 +4645,7 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 
 ---
 
-## 11 · Anti‑patterns (and the right move)
+#### 11 · Anti‑patterns (and the right move)
 
 * **Spec = Method.** “The BPMN is the Method.” → The BPMN is a **MethodDescription**; the **Method** is the semantic way it denotes.
 * **Run = Method.** “Yesterday’s process is our Method.” → Yesterday’s run is **Work**.
@@ -4657,7 +4657,7 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 
 ---
 
-## 12 · Migration notes (quick wins)
+#### 12 · Migration notes (quick wins)
 
 1. **Rename wisely.** Where texts say “process/method” but mean a diagram or code repo, label it **MethodDescription**; where they mean the abstract “how,” label it **Method**.
 2. **Extract assignments.** Replace named people/units in specs with **role kinds**; enforce assignments via **RoleAssigning** at run time.
@@ -4667,7 +4667,7 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 
 ---
 
-## 13 · Consequences
+#### 13 · Consequences
 
 | Benefits                                                                                                                    | Trade‑offs / mitigations                                                                           |
 | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -4678,7 +4678,7 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 
 ---
 
-## 14 · Relations
+#### 14 · Relations
 
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`.
 * **Coordinates with:** A.3 (role masks for transformers/constructors/observers); A.15 (Role–Method–Work Alignment); B.1 Γ (aggregation) for method families vs assembly of systems.
@@ -4686,7 +4686,7 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 
 ---
 
-## 15 · Didactic quick cards (reuse in specs and onboarding)
+#### 15 · Didactic quick cards (reuse in specs and onboarding)
 
 * **Method / MethodDescription / Work** = *how in principle* / *how it is written* / *how it went this time*.
 * **Four‑slot grammar:** Who? → **RoleAssigning**. Can? → **Capability**. How? → **Method** (via **MethodDescription**). Did? → **Work**.
@@ -4694,10 +4694,10 @@ Algorithm artifacts are `U.MethodDescription` for information‑transforming Met
 * **No steps required:** Functional, logical, and hybrid MethodDescriptions are first‑class.
 * **Keep time and people out:** Schedules → **WorkPlan**; assignees → **RoleAssigning**.
 
-# A.3.2 — U.MethodDescription  \[D]
+### A.3.2 — U.MethodDescription  \[D]
 
 
-## 1 · Context (plain‑language motivation)
+#### 1 · Context (plain‑language motivation)
 
 Projects need a **stable way to express “how it is written”**—the recipe, code, SOP, rule set, or formal proof—**without confusing it** with:
 
@@ -4711,7 +4711,7 @@ Projects need a **stable way to express “how it is written”**—the recipe, 
 
 ---
 
-## 2 · Problem (what breaks without a clear `MethodDescription`)
+#### 2 · Problem (what breaks without a clear `MethodDescription`)
 
 1. **Spec/run conflation.** A flowchart or code is mistaken for the run; audits and SLOs become unreliable.
 2. **Who/time leakage.** People and calendars creep into the recipe; reuse and staffing agility die.
@@ -4722,7 +4722,7 @@ Projects need a **stable way to express “how it is written”**—the recipe, 
 
 ---
 
-## 3 · Forces (what we must balance)
+#### 3 · Forces (what we must balance)
 
 | Force                              | Tension we resolve                                                                                  |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -4734,9 +4734,9 @@ Projects need a **stable way to express “how it is written”**—the recipe, 
 
 ---
 
-## 4 · Solution — the specification as an episteme describing a Method
+#### 4 · Solution — the specification as an episteme describing a Method
 
-### 4.1 Definition
+##### 4.1 Definition
 
 **`U.MethodDescription`** is an **`U.Episteme`** that **describes a `U.Method`** in a concrete representation (text, code, diagram, model). It is **knowledge on a carrier** that can be reviewed and validated; at run-time a **`U.System`** **uses it to execute the `U.Method` as `U.Work` under a `U.RoleAssignment`**.
 
@@ -4745,7 +4745,7 @@ Projects need a **stable way to express “how it is written”**—the recipe, 
 > **MethodDescription** = *how it is written* (artifact/description).
 > **Work** = *how it went this time* (dated execution).
 
-### 4.2 Representation‑agnostic stance (independent of “algorithmic paradigm”)
+##### 4.2 Representation‑agnostic stance (independent of “algorithmic paradigm”)
 
 `U.MethodDescription` **does not privilege any single notation**. Typical forms include (non‑exhaustive):
 
@@ -4758,7 +4758,7 @@ Projects need a **stable way to express “how it is written”**—the recipe, 
 
 **Same Method, different MethodDescriptions.** In a single `U.BoundedContext`, several MethodDescriptions **may describe the same `U.Method`** if they entail the **same preconditions**, **guarantee the same effects**, and meet the **same non‑functional bounds** (cf. A.3.1).
 
-### 4.3 What a good MethodDescription states (paradigm‑neutral content)
+##### 4.3 What a good MethodDescription states (paradigm‑neutral content)
 
 Not a schema—these are **content prompts** for reviewers:
 
@@ -4775,14 +4775,14 @@ Not a schema—these are **content prompts** for reviewers:
 
 > **Didactic guardrail:** A MethodDescription **does not** embed a schedule, assignees, or BoM. Calendars → `U.WorkPlan`; people/units → `U.RoleAssignment`; product structure → PBS/SBS.
 
-### 4.4 Epistemic roles for MethodDescriptions (via `U.RoleAssignment`)
+##### 4.4 Epistemic roles for MethodDescriptions (via `U.RoleAssignment`)
 
 Being an Episteme, a MethodDescription may itself play epistemic roles via `U.RoleAssignment` in a context (classification, not action), e.g.:
 
 * `ApprovedProcedureRole`, `RegulatedProcedureRole`, `SafetyCriticalProcedureRole`, `De‑factoStandardRole`.
 * These **do not** make the spec an actor; they classify its **status** within the context (who may use it, in which settings).
 
-### 4.5 Constructor‑theoretic note (unifying “algorithms” and “physical recipes”)
+##### 4.5 Constructor‑theoretic note (unifying “algorithms” and “physical recipes”)
 
 In the constructor‑theoretic reading used by FPF:
 
@@ -4794,7 +4794,7 @@ This keeps software and “wet lab” on equal footing.
 
 ---
 
-## 5 · Clear distinctions (quick litmus for managers)
+#### 5 · Clear distinctions (quick litmus for managers)
 
 | You are holding…                          | It is…                         | Why                                           |
 | ----------------------------------------- | ------------------------------ | --------------------------------------------- |
@@ -4809,22 +4809,22 @@ This keeps software and “wet lab” on equal footing.
 
 ---
 
-## 6 · Archetypal grounding (parallel cases)
+#### 6 · Archetypal grounding (parallel cases)
 
-### 6.1 Industrial SOP (imperative)
+##### 6.1 Industrial SOP (imperative)
 
 * **Method:** `Etch_Al2O3`.
 * **MethodDescription:** `SOP_Etch_v7.pdf` + PLC ladder file.
 * **Role requirements:** `EtchOperatorRole`; **Capability:** gas‑control precision ≤ threshold.
 * **Execution:** `Tool_42#TransformerRole:Fab_A` enacts the spec → **Work** runs W‑143…W‑155.
 
-### 6.2 Optimization model (logical/constraint)
+##### 6.2 Optimization model (logical/constraint)
 
 * **Method:** `JS_Schedule_v4`.
 * **MethodDescription:** MILP model + solver config; admissible solution definition.
 * **Execution:** `PlannerService_v4#TransformerRole:Plant_2025` produces **Work** `Run_2025‑W32‑P1`.
 
-### 6.3 Clinical guideline (epistemic, status via RoleStateGraph + State Assertion)
+##### 6.3 Clinical guideline (epistemic, status via RoleStateGraph + State Assertion)
 
 * **Method:** `AcuteAppendicitis_Triage`.
 * **MethodDescription:** clinical decision rule set; **Epistemic Role**: `RegulatedProcedureRole:Hospital_Context`.
@@ -4832,13 +4832,13 @@ This keeps software and “wet lab” on equal footing.
 
 ---
 
-## 7 · Bias‑Annotation (as in E‑cluster)
+#### 7 · Bias‑Annotation (as in E‑cluster)
 
 * **Lenses tested:** `Did`, `Prag`, `Arch`, `Epist`.
 * **Scope declaration:** Universal; semantics are **context‑local** via `U.BoundedContext`.
 * **Rationale:** Elevates **all** procedural artifacts—code, SOPs, proofs, models—to a single class, avoiding algorithm‑centrism and step‑only bias. Keeps the strict split among **Method / MethodDescription / Work / Role / Capability**.
 
-## 8 · Conformance Checklist (normative)
+#### 8 · Conformance Checklist (normative)
 
 **CC‑A3.2‑1 (Episteme status).**
 `U.MethodDescription` **IS** an `U.Episteme` (knowledge on a carrier). It is **not** a `U.Method` (semantic way), **not** a `U.Work` (execution), **not** a `U.Role/RoleAssigning` (assignment), **not** a `U.WorkPlan` (schedule), and **not** PBS/SBS content.
@@ -4884,7 +4884,7 @@ If two contexts use different MethodDescriptions for “the same‑named way,”
 
 ---
 
-## 9 · MethodDescription mereology (epistemic composition; not method composition)
+#### 9 · MethodDescription mereology (epistemic composition; not method composition)
 
 Keep two worlds separate:
 
@@ -4902,7 +4902,7 @@ Keep two worlds separate:
 
 ---
 
-## 10 · Parameterization & variability (templates, defaults, configs)
+#### 10 · Parameterization & variability (templates, defaults, configs)
 
 **Templates.** A MethodDescription may serve as a **template** with parameters (e.g., temperature set‑points, solver tolerances, objective weights).
 
@@ -4924,7 +4924,7 @@ Keep two worlds separate:
 
 ---
 
-## 11 · Equivalence & compatibility (across notations and contexts)
+#### 11 · Equivalence & compatibility (across notations and contexts)
 
 **Within one context.**
 
@@ -4942,7 +4942,7 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 
 ---
 
-## 12 · Anti‑patterns (and the right move)
+#### 12 · Anti‑patterns (and the right move)
 
 * **Spec = run.** “Yesterday’s process log is our spec.” → The log is **Work**; write a **MethodDescription** and link runs to it.
 * **Who/time in the spec.** “Step 3 by Alice at 02:00 daily.” → Use **RoleAssigning** at run time; schedule via **WorkPlan**.
@@ -4954,7 +4954,7 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 
 ---
 
-## 13 · Migration notes (quick wins)
+#### 13 · Migration notes (quick wins)
 
 1. **Label the artifacts.** Wherever a repo/diagram/document “is the process,” rename it **MethodDescription** and link it to a named **Method**.
 2. **Extract people and calendars.** Move all assignees to **RoleAssigning** and all schedules to **WorkPlan**.
@@ -4965,7 +4965,7 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 
 ---
 
-## 14 · Consequences
+#### 14 · Consequences
 
 | Benefits                                                                                                          | Trade‑offs / mitigations                                                                           |
 | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -4976,7 +4976,7 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 
 ---
 
-## 15 · Relations
+#### 15 · Relations
 
 * **Builds on:** A.3.1 `U.Method` (the semantic way it describes); A.1.1 `U.BoundedContext`.
 * **Coordinates with:** A.2 `U.Role`, A.2.1 `U.RoleAssignment` (who enacts it); A.2.2 `U.Capability` (ability thresholds); A.15 Role–Method–Work (linking `isExecutionOf` to runs).
@@ -4985,7 +4985,7 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 
 ---
 
-## 16 · Didactic quick cards
+#### 16 · Didactic quick cards
 
 * **Spec ≠ Method ≠ Work.** *Written recipe* ≠ *semantic way* ≠ *dated execution*.
 * **Keep people/time out.** Assignees → **RoleAssigning**; schedules → **WorkPlan**.
@@ -4993,9 +4993,9 @@ Two specs are observationally equivalent for stakeholders **if**, under declared
 * **Same method, different specs.** BPMN/code/solver can be equivalent **if** pre/post/bounds match.
 * **Bridge, do not blur.** Cross‑team/domain differences go through **`U.Alignment`**, not wishful thinking.
   
-## A.3.3 · `U.Dynamics` \[D]
+### A.3.3 · `U.Dynamics` \[D]
 
-### 1 · Context
+#### 1 · Context
 
 Teams need one place to say **how a thing changes**. Physicists call this “dynamics” (equations of motion, state‑transition maps). In IT and enterprise change, we often talk about **evolution of characteristics** (latency, cost, reliability, compliance, architectural fitness) across time. In knowledge work, **KD‑CAL** (knowledge dynamics) reasons about how the **status of claims** shifts as evidence arrives. All these are *the same modeling need*: a context‑local description of **state space** and **allowed transitions**.
 
@@ -5017,7 +5017,7 @@ What is missing without `U.Dynamics` is the **law of change**—the model that t
 
 ---
 
-### 2 · Problem
+#### 2 · Problem
 
 Without a first‑class `U.Dynamics`, models suffer predictable failures:
 
@@ -5028,7 +5028,7 @@ Without a first‑class `U.Dynamics`, models suffer predictable failures:
 
 ---
 
-### 3 · Forces
+#### 3 · Forces
 
 | Force                                  | Tension                                                                                                                 |
 | -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -5040,7 +5040,7 @@ Without a first‑class `U.Dynamics`, models suffer predictable failures:
 
 ---
 
-### 4 · Solution — The unified concept `U.Dynamics`
+#### 4 · Solution — The unified concept `U.Dynamics`
 
 **Definition (normative).**
 Within a `U.BoundedContext`, **`U.Dynamics`** is an **`U.Episteme` that specifies a state space and a state‑transition law** (deterministic or stochastic, continuous/discrete/hybrid) for one or more holons, possibly under exogenous inputs and constraints. It **does not** prescribe what an agent should do (that is `U.Method/MethodDescription`) and **is not** the dated evolution itself (that is `U.Work` evidence).
@@ -5049,7 +5049,7 @@ Within a `U.BoundedContext`, **`U.Dynamics`** is an **`U.Episteme` that specifie
 * **Orientation:** descriptive/predictive about **how states evolve**; can be used by Methods but remains separate from them.
 * **Judged by:** conformance of observed **Work‑derived traces** to the law and invariants.
 
-#### 4.1 · Core structure (minimal fields)
+##### 4.1 · Core structure (minimal fields)
 
 ```
 U.Dynamics {
@@ -5070,7 +5070,7 @@ U.Dynamics {
 * **`transitionLaw`** is paradigm‑agnostic: ODE/PDE, finite‑state relation, Petri net firing, queueing kernel, Bayesian update, etc.
 * **`observation`** separates what exists from what we *measure* (key for monitoring/assurance).
 
-#### 4.2 · What `U.Dynamics` is **not**
+##### 4.2 · What `U.Dynamics` is **not**
 
 * **Not a Method/MethodDescription:** no imperative steps or prescriptions.
 * **Not Work:** no timestamps/resources attached; evidence lives on `U.Work`.
@@ -5079,7 +5079,7 @@ U.Dynamics {
 
 ---
 
-### 5 · Where `U.Dynamics` sits in enactment
+#### 5 · Where `U.Dynamics` sits in enactment
 
 * **Design‑time:**
   Methods may *reference* Dynamics for planning/control (e.g., MPC uses a plant model).
@@ -5092,7 +5092,7 @@ U.Dynamics {
 
 > Memory hook: **Method decides**, **Dynamics predicts**, **Work reveals**.
 
-### Prediction Use In Gating (normative)
+#### Prediction Use In Gating (normative)
 
 When **predicted** coordinates (from a dynamics model) are used for **comparison or gating**, one of the following **MUST** hold:
 1) a **fresh observation** is available for the gate’s window; or
@@ -5100,7 +5100,7 @@ When **predicted** coordinates (from a dynamics model) are used for **comparison
 
 If neither condition is satisfied, using prediction for gating is **forbidden**; the system **MUST** fall back to observation. Any use of `Φ_{Δt}` **SHALL** declare its validity window (range, Δt).
 
-### 6 · Archetypal grounding (engineer‑manager friendly)
+#### 6 · Archetypal grounding (engineer‑manager friendly)
 
 | Domain                        | Holon & State Space                     | Transition Law Example               | Observation                 | Typical Questions                                                 |
 | ----------------------------- | --------------------------------------- | ------------------------------------ | --------------------------- | ----------------------------------------------------------------- |
@@ -5111,7 +5111,7 @@ If neither condition is satisfied, using prediction for gating is **forbidden**;
 
 **Key takeaway:** one kernel object captures **trajectories in a characteristic space**, from thermodynamics to software quality and knowledge confidence.
 
-## 7 · Conformance Checklist (normative)
+#### 7 · Conformance Checklist (normative)
 
 **CC‑A3.3‑1 (Type).**
 `U.Dynamics` **IS** an `U.Episteme` (design‑time model/law on a carrier). It is **not** a `U.Method/MethodDescription`, **not** `U.Work`, and **not** a structural part of any PBS/SBS.
@@ -5152,11 +5152,11 @@ If Service SLOs are derived from a dynamics model, the Service **SHOULD** refere
 
 ---
 
-## 8 · Evidence and operators (traces, prediction, conformance)
+#### 8 · Evidence and operators (traces, prediction, conformance)
 
 Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records produced under `C`. Let `obs_D(·)` be the declared observation map for `D`.
 
-### 8.1 Derived evidence
+##### 8.1 Derived evidence
 
 * **`trace(W, D)` → Sequence\<t, y>:**
   derive an ordered sequence of observed values `y` at times `t` by applying `obs_D` to Work/telemetry associated with `W`. (Not a kernel type; a derived artifact for analysis/assurance.)
@@ -5167,7 +5167,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 * **`initialState(W, D)` → x₀:**
   the assumed/estimated state at trace start (from Work context or a stated estimation rule).
 
-### 8.2 Prediction & simulation
+##### 8.2 Prediction & simulation
 
 * **`predict(D, x₀, inputs?, horizon)` → Trajectory:**
   propagate the law to obtain a predicted trajectory in the declared state space.
@@ -5178,7 +5178,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 * **`reach(D, S₀, S₁, inputs?, horizon)` → bool:**
   reachability: can states in `S₀` evolve into `S₁` under the law.
 
-### 8.3 Conformance & drift
+##### 8.3 Conformance & drift
 
 * **`residuals(D, trace)` → Series:**
   discrepancies between predicted and observed series under a stated alignment (point‑wise, windowed, distributional).
@@ -5189,7 +5189,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 * **`drift(D₁, D₂, domain)` → Measure:**
   divergence between two model versions over a declared operating domain (e.g., max deviation of eigenvalues, KL between predictive distributions).
 
-### 8.4 Invariants
+##### 8.4 Invariants
 
 * `fits(D, trace, tol)=pass` ⇒ every sample lies in `admissible(D,·)` unless the context explicitly permits out‑of‑envelope transients.
 * If two traces are generated under identical `inputs` and initial conditions, recorded differences must be explainable by the declared stochasticity/noise model or flagged as violations.
@@ -5198,7 +5198,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 
 ---
 
-## 9 · Anti‑patterns (and the right move)
+#### 9 · Anti‑patterns (and the right move)
 
 * **“Dynamics = procedure.”**
   Control recipes/step graphs belong to `Method/MethodDescription`. Keep the law in `U.Dynamics`.
@@ -5220,7 +5220,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 
 ---
 
-## 10 · Migration notes (quick path to value)
+#### 10 · Migration notes (quick path to value)
 
 1. **Name the changing things.** Pick 3–7 **characteristics** that matter (physical or architectural). Declare `stateSpace` with units and ranges.
 2. **Write the law you already use.** Even if it is a queueing approximation or a simple ARIMA—put it under `transitionLaw` and state assumptions under `validity`.
@@ -5232,7 +5232,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 
 ---
 
-## 11 · Relations
+#### 11 · Relations
 
 * **Builds on:**
   `A.1.1 U.BoundedContext` (local meaning/units),
@@ -5250,7 +5250,7 @@ Let `D` be a `U.Dynamics` in context `C`. Let `W` be a set of `U.Work` records p
 
 ---
 
-## 12 · Didactic quick cards (engineer‑manager ready)
+#### 12 · Didactic quick cards (engineer‑manager ready)
 
 * **Dynamics = Law of Change.** A design‑time model of how states evolve.
 * **State space = Named characteristics with units.** No vague “axes”.
@@ -5313,7 +5313,7 @@ Tᴰ ∪ Tᴿ = worldline(holon)      (cover full existence)
 version(n+1) created only in Tᴰₙ (monotonic lineage)
 ````
 
-#### Open‑Ended Evolution Principle
+### Open‑Ended Evolution Principle
 
 A holon may repeat the cycle *ad infinitum*:
 
@@ -5525,7 +5525,7 @@ The “hour‑glass” brings two further advantages:
 
 > *“A stable neck sustains an ever‑growing hour‑glass.”*
 
-## A.6.0 — **U.Signature · Universal, law‑governed declaration for a SubjectKind on a BaseType**  \[A]
+### A.6.0 — **U.Signature · Universal, law‑governed declaration for a SubjectKind on a BaseType**  \[A]
 
 **Status.** Architectural pattern \[A], kernel‑level and universal.  
 **Placement.** Part A (Kernel), **before A.6** (“Architheory Signature & Realization”) and **A.6.1** (“U.Mechanism”).  
@@ -5533,7 +5533,7 @@ The “hour‑glass” brings two further advantages:
   
 **Coordinates with.** **A.6** (architheory specialisation of signatures), **A.6.1** (mechanism as law-governed signature), **A.6.5** (`U.RelationSlotDiscipline` for n-ary arguments), **Part F** (Bridges & cross-context transport; naming). Conformance keywords: RFC 2119.
 
-### 1 · Problem frame
+#### 1 · Problem frame
 
 FPF already uses “signatures” to stabilise public promises of **architheories** and, via **A.6.1**, of **mechanisms**. But authors also need stable, minimal declarations for **theories** (LOG), **methods** (operational families), and even **disciplines** (regulated vocabularies). Without **one** universal notion of signature:
 * similar constructs proliferate under incompatible names;
@@ -5544,7 +5544,7 @@ FPF already uses “signatures” to stabilise public promises of **architheorie
 
 E.8 demands a single authoring voice and section order; E.10 demands lexical discipline across strata. A.6.0 provides the common kernel shape these patterns presuppose.
 
-### 2 · Problem
+#### 2 · Problem
 
 If each family (architheories, mechanisms, methods, disciplines) invents its own “signature”:
 
@@ -5555,7 +5555,7 @@ If each family (architheories, mechanisms, methods, disciplines) invents its own
 3. **Scope opacity.** Applicability (where the words mean what) remains implicit, violating D.CTX.
     
 
-### 3 · Forces
+#### 3 · Forces
 
 | Force | Tension |
 | --- | --- |
@@ -5564,7 +5564,7 @@ If each family (architheories, mechanisms, methods, disciplines) invents its own
 | **Simplicity vs. expressivity** | Keep the kernel small while leaving **normalized** slots for specialisations (e.g., Γ‑export in A.6; Transport in A.6.1). |  
 | **Locality vs. transport** | Meaning is context‑local (D.CTX), yet cross‑context use must be explicit and auditable via Bridges without smuggling implementation. |
 
-### 4 · Solution — **Define `U.Signature` once, reuse everywhere**
+#### 4 · Solution — **Define `U.Signature` once, reuse everywhere**
 
 **Definition.** A **`U.Signature`** is a **public, law-governed declaration** for a named **SubjectKind** on a declared **BaseType**. Where quantification depends on context, the Signature **SHALL** expose an explicit **SliceSet** and **ExtentRule**. A Signature (i) introduces a **vocabulary** (types, relations, operators), (ii) states **laws** (axioms/invariants; no operational admissions), and (iii) records **applicability** (where and under which contextual assumptions the declarations hold). Dependencies (**imports**) are governed by specialisations (e.g., A.6) and are **not** part of the universal Block. **Discipline for argument-position typing is delegated to A.6.5 `U.RelationSlotDiscipline`: whenever the Vocabulary declares an n-ary relation or operator, SlotSpecs for its parameter positions SHALL be provided as in §4.1.1 and A.6.5.**
 
@@ -5582,7 +5582,7 @@ where `SubjectBlock = ⟨SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind
 
 A `U.Signature` is **conceptual**: it contains **no implementation, no packaging/CI metadata, and no Γ‑builders**. Γ‑export, if any, is governed by **A.6** and only for architheories with `classification=CAL`.
 
-#### 4.1 · The **Signature Block (universal form)**
+##### 4.1 · The **Signature Block (universal form)**
 
 The **four conceptual rows** (“SubjectBlock / Vocabulary / Laws / Applicability”) give a repeatable, holon‑stable pattern across mathematics → physics → engineering:  
 * **SubjectBlock** = *what it’s about + how quantified* (axiomatics + domain of interpretation),  
@@ -5647,7 +5647,7 @@ An authorial SlotSpec table then reads:
 
 This example illustrates the intended reading: **parameters are typed twice**—once by their **ValueKind** (what sort of thing occupies the position) and once by **refMode** (by‑value or which RefKind). SlotKinds (with `…Slot` suffix) give stable names for substitution laws and describedEntity statements across patterns.
 
-#### 4.2 · Profile specialisations (normative; structure‑preserving)
+##### 4.2 · Profile specialisations (normative; structure‑preserving)
 To enable first‑principles layers without minting new Kernel kinds, apply **profiles** to `U.Signature`:
 
 * **`profile = FormalSubstrate`** — *formal‑deductive layer*  
@@ -5665,11 +5665,11 @@ To enable first‑principles layers without minting new Kernel kinds, apply **pr
 
 **Profile morphism discipline.** See §4.6 for the **structure‑preserving morphism** requirements for profile application.
 
-#### 4.3 · Effect‑discipline vs handler semantics (normative split)
+##### 4.3 · Effect‑discipline vs handler semantics (normative split)
 
 If a Signature’s **Vocabulary** includes an **EffectDiscipline** (operation/effect signatures), the Signature **SHALL NOT** declare **handler semantics** or any **EffectRealization**. Such realizations are authored only under **A.6.1 `U.Mechanism`** and cited by **ref‑id** on faces where needed. This mirrors the modern algebraic‑effects separation between *operation signatures* and *handlers* while keeping A.6.0 purely conceptual.
 
-#### 4.4 · Authoring rules (I/D/S‑aware; lexically disciplined)
+##### 4.4 · Authoring rules (I/D/S‑aware; lexically disciplined)
 
 * **I/D/S separation.** A signature **states intension and laws**; Realizations (if any) carry **specifications**. Do not mix tutorial text or operational recipes into the Block. Do **not** include **AdmissibilityConditions** or run‑time admissions here.
 * **Context discipline.** Bind Applicability to a **`U.BoundedContext`**. If cross‑context use is intended, **name** the crossing and **reference** the Bridge (Part F/B); A.6.0 does **not** prescribe **compatibility/loss tables (CL, including `CL^plane`)** or penalty formulas.
@@ -5680,7 +5680,7 @@ If a Signature’s **Vocabulary** includes an **EffectDiscipline** (operation/ef
 
 *MVPK publication discipline for Signatures (normative).* When publishing a `U.Signature` via MVPK (E.17), faces **SHALL** be typed projections that add **no new claims**; any numeric/comparable statement **MUST** pin unit/scale/reference‑plane/**EditionId** to **CG‑Spec/MM‑CHR** where applicable. For deductive substrates, faces **MUST** carry a **No‑Realization pin** (handlers/realizers absent). For Principle‑level signatures, faces **MUST NOT** introduce units/ReferencePlane/Transport (first mention occurs in UNM).
 
-#### 4.5 · Specialisation knobs (for downstream patterns)
+##### 4.5 · Specialisation knobs (for downstream patterns)
 
 A.6.0 exposes **three** conceptual knobs; specialisations (A.6, A.6.1, method/discipline specs) may **tighten** them:
 
@@ -5690,7 +5690,7 @@ A.6.0 exposes **three** conceptual knobs; specialisations (A.6, A.6.1, method/di
     
 3. **Morphisms.** Families may define `SigMorph` (refinement, conservative extension, equivalence, quotient, product) to relate signatures; **A.6.1** instantiates this for mechanisms. Where such morphisms, or downstream **substitution / retargeting** laws (e.g., **A.6.2–A.6.4**), act on **n‑ary relations or morphisms**, they **SHALL** express their read/write/retargeting discipline in terms of **SlotSpecs**  (SlotKind / ValueKind / RefKind) rather than unnamed parameter indices, using **A.6.5 `U.RelationSlotDiscipline`** as the normative slot calculus.
 
-#### 4.6 · Profile‑specialisation as a structure‑preserving morphism (normative)
+##### 4.6 · Profile‑specialisation as a structure‑preserving morphism (normative)
 Profile application `ι_profile : U.Signature → U.Signature(profile=…)` **SHALL** be a **structure‑preserving morphism**:
 — **SubjectBlock** is preserved up to α‑renaming (SubjectKind/BaseType unchanged; ResultKind? only added when it exists in the universal intent).  
 — **Vocabulary** is **monotone** (adds or refines names/sorts without contradicting existing ones).  
@@ -5699,7 +5699,7 @@ Profile application `ι_profile : U.Signature → U.Signature(profile=…)` **SH
 — No **AdmissibilityConditions**, **operational guards**, or **handler semantics** are introduced by the profile (those live under **A.6.1**).  
 This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in the sense of kernel specialisation and supports SigMorph reasoning (refinement/conservative extension).
    
-### 5 · Archetypal Grounding (Tell–Show–Show)
+#### 5 · Archetypal Grounding (Tell–Show–Show)
 
 | quartet Element | `U.System` Example — **Grammar of Motions** | `U.Episteme` Example — **Normalization Family** |
 | --- | --- | --- |
@@ -5710,7 +5710,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 
 *Why these two?* E.8 requires pairs from **U.System** and **U.Episteme** to demonstrate trans‑disciplinary universality.
 
-### 6 · Bias‑Annotation (lenses & defaults)
+#### 6 · Bias‑Annotation (lenses & defaults)
 
 * **Local‑first meaning.** Laws are **local** to the named Context; cross‑context use must be explicit (Bridge), never implicit.
     
@@ -5718,7 +5718,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
     
 * **Register hygiene.** Keep Tech vs Plain register pairs; avoid tooling/vendor talk in Kernel prose (E.10).
   
-### 7 · Conformance Checklist (normative)
+#### 7 · Conformance Checklist (normative)
 
 | ID | Requirement |
 | --- | --- |
@@ -5740,7 +5740,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 | **CC‑A.6.0‑16 (SlotSpecs for n‑ary relations).** | Any `U.Signature` whose **Vocabulary** declares an **n‑ary relation or morphism** **SHALL** assign to each parameter position a `SlotSpec_i = ⟨SlotKind, ValueKind, refMode⟩` as defined in **A.6.5 `U.RelationSlotDiscipline`**; SlotSpecs live inside the Vocabulary row’s per‑relation parameter block and **MUST NOT** introduce additional rows beyond the four‑row Block. |
 | **CC‑A.6.0‑17 (SlotSpec‑based substitution laws).** | Specialisations of A.6.0 that define **substitution, retargeting, or profile application** over n‑ary relations/morphisms (e.g., **A.6.2–A.6.4**) **SHALL** phrase their rules in terms of **SlotSpecs** (SlotKind / ValueKind / RefKind) rather than unnamed parameter indices and **SHALL** obey the `…Slot` / `…Ref` lexical discipline in **A.6.5** and **F.18**. |
 
-### 8 · Consequences
+#### 8 · Consequences
 
 * **Uniform kernel shape.** Authors can define **architheory**, **mechanism**, **method**, **discipline**, or **theory** signatures without inventing new templates.
     
@@ -5748,7 +5748,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
     
 **Didactic cohesion.** Readers see the same four conceptual rows across the spec, satisfying E.8’s comparability goal.
 
-### 9 · Rationale
+#### 9 · Rationale
 
 **Why “SubjectBlock”?** A.6.1 showed that making the **carrier explicit** (here: *BaseType* — the carrier type) avoids category mistakes when moving between domains (e.g., *set‑algebra on context slices* vs *equivalence‑classes of normalisations*). A.6.0 lifts this to the kernel so every signature can declare **what it is about** before saying **what it provides**.
 **Why one universal Block?** A.6 already proved the value of a compact **Signature Block** (Imports/Derivations/Invariants/Assurance). A.6.0 factors out the **conceptual core**—rephrased as “SubjectBlock / Vocabulary / Laws / Applicability”—so A.6 can **map** its four rows onto this universal frame without changing existing architheories.
@@ -5762,7 +5762,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 — **FormalSubstrate.** Captures *mathematical language + inference kinds + effect signatures* at the **concept plane**, ensuring the calculus stays independent from handler/realization choices; consuming mechanisms (A.6.1) provide **EffectRealization** only by reference.  
 — **PrincipleFrame.** Captures *postulates/invariants + measurability intent (CHR binding)* without committing to **units/planes/Transport**, which are authored centrally in **UNM** so that comparisons remain lawful and edition‑pinned.
 
-### 10 · Relations
+#### 10 · Relations
 
 * **Specialises / is specialised by:** **A.6** (adds Γ‑export policy; imports DAG; architheory layering) and **A.6.1** (adds **OperatorAlgebra/LawSet/AdmissibilityConditions/Transport** for mechanisms).  
 * **Constrained by:** E.10 LEX‑BUNDLE (registers, strata); D.CTX for Context binding; **Part F** (Bridges & cross‑context transport; naming).
@@ -5895,7 +5895,7 @@ Why “Signature”? Familiar to engineers (function/type signatures) and to log
 *Specialises / is specialised by*: **A.6.0 `U.Signature`**, **A.6.1 `U.Mechanism`**.  
 *Constrained by*: LEX‑BUNDLE (registers/strata), D.CTX (Context), Part F (Bridges & cross‑context transport; naming).
 
-## **A.6.1 — U.Mechanism · Law‑governed application to a SubjectKind over a BaseType** \[A]
+### **A.6.1 — U.Mechanism · Law‑governed application to a SubjectKind over a BaseType** \[A]
 
 **One‑line summary.** A `U.Mechanism` is a **Signature with laws** applied to a declared **SubjectKind** over a **BaseType**, with explicit **operations**, **invariants/guards**, and a named **Transport** clause for cross‑context use. Transport is **Bridge‑only** (per **F.9**) with penalties routed to **R**/**R_eff** only (per **B.3**); **F/G** remain invariant; **CL^plane** follows **C.2.1 CHR:ReferencePlane**. Realizations **MAY** be published under **A.6** (Signature→Realization; **one Γ only if `classification=CAL`**; acyclic imports; opacity).
 
@@ -5903,15 +5903,15 @@ Why “Signature”? Familiar to engineers (function/type signatures) and to log
 
 **Placement.** Immediately **after A.6** as **A.6.1**. **USM (A.2.6)** and **UNM (A.19/C.16)** become **instances conforming to A.6.1** (no semantic change to either).
 
-### 1 · Problem frame
+#### 1 · Problem frame
 
 Give FPF **one uniform kernel shape** for things like **USM** (set‑algebra on context slices) and **UNM** (classes of admissible normalizations with ≡_UNM) so authors can **define, compare, refine, compose, and port** mechanisms **without re‑inventing the meta‑language**; all cross‑context use is **Bridge‑only** with **CL penalties to R/R_eff**, never to **F/G**.
 
-### 2 · Problem 
+#### 2 · Problem 
 
 Without a kernel abstraction, scope/normalization/comparison constructs proliferate with incompatible algebras and guard surfaces; cross‑context reuse lacks visible **Bridge/CL routing**; comparability drifts into **illegal scalarisation** (e.g., ordinal means). FPF already curbs this via **A.6** (Signature discipline), **USM** (scope algebra & Γ_time), **UNM** (normalize‑then‑compare), and **CG‑Spec** (lawful comparators/ScoringMethods)—but lacks a **common meta‑slot** for “mechanism.”
 
-### 3 · Forces 
+#### 3 · Forces 
 
 **Locality vs transport.** Semantics are **context‑local**; crossing contexts is **Bridge‑only** (Part F/B.3); penalties hit **R/R_eff**; **F/G** invariant.
 
@@ -5921,9 +5921,9 @@ Without a kernel abstraction, scope/normalization/comparison constructs prolifer
 
 **Signature hygiene.** Obey **A.6** (exactly one Γ from CAL, LOG/CHR export none; imports acyclic; realizations opaque).
 
-### 4 · Solution
+#### 4 · Solution
 
-#### 4.1 **Mechanism Intension** 
+##### 4.1 **Mechanism Intension** 
 
 A `U.Mechanism` **publishes**  
         `U.Mechanism.Intension := ⟨IntensionHeader, Imports,
@@ -5965,7 +5965,7 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
 
 **Compatibility with A.6.** If realized as an **architheory** (CAL/LOG/CHR), obey A.6 (**one Γ for CAL only; acyclic imports; opacity**). Kernel‑level realizations remain notation‑independent and publish the same fields for auditability. LEX discipline applies to all minted tokens.
 
-#### 4.2 U.MechMorph · Refinement, Extension, Equivalence & Composition
+##### 4.2 U.MechMorph · Refinement, Extension, Equivalence & Composition
 
 **Intent.** Provide structure‑preserving **relations & constructors** between mechanisms.  
 **Definitions.**
@@ -5983,21 +5983,21 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
 **Passing example.** `USM′ = USM + “publish named independence‑assumption evidence for SpanUnion”` ⇒ **Refinement** (strengthened law; substitution‑safe).
 **Normalization quotient.** `UNM / ≡_UNM` exposes **compare‑on‑invariants** surfaces for UCPM/USCM (normalize‑then‑compare).
 
-#### 4.3 U.MechAuthoring · Instantiation template
+##### 4.3 U.MechAuthoring · Instantiation template
 
 **MechanismDescription (E.8 Tell–Show–Show; I/D/S‑compliant):**
 `Mechanism: U.<Name>`  *(Kernel conceptual description; no tooling fields)*
 `Imports: <Signatures / U.Types>` · `SubjectBlock: <SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?>` · `ParamKinds: <name→Kind map>` · `OperatorAlgebra: <operators with types>` · `LawSet: <equations/invariants>` · `AdmissibilityConditions: <admission predicates; Γ_time>` · `Transport: <Bridge channels; CL/CL^k/CL^plane named; ReferencePlane(src,tgt)>` · `PlaneRegime: <world|concept|episteme rules>`
 
-#### 4.4 MechFamilyDescription & MechInstanceDescription 
+##### 4.4 MechFamilyDescription & MechInstanceDescription 
 
 * **MechFamilyDescription**: `{Mechanism.Intension, Realizationα, Realizationβ, …}` — each Realization may **tighten** (never relax) Laws (Liskov‑style).
 
 * **MechInstanceDescription**: `{Mechanism.Intension@Context, Windows, named Φ/Ψ/Φ_plane regimes, BridgeIds}` — a **conceptual instance**; operational telemetry/workflows are out of scope.
 
-### 5 · Archetypal Grounding
+#### 5 · Archetypal Grounding
 
-#### 5.1 **U.System (Work) — USM as a U.Mechanism instance** (normative by reference)
+##### 5.1 **U.System (Work) — USM as a U.Mechanism instance** (normative by reference)
 
 * **Imports:** `U.ContextSliceSet`; Part F.9 **Bridge**; **C.2.1 ReferencePlane** (noted for crossings); **C.2.2 F–G–R**; **C.2.3 U.Formality**.
 * **BaseType:** `U.ContextSliceSet`.
@@ -6010,7 +6010,7 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
 * **Γ_timePolicy:** `point | window | policy`; **no implicit “latest.”**
 * **PlaneRegime:** *not applicable to scope sets* (scope is set‑valued over `ContextSlice`, no value‑plane); **CL^plane** N/A.
 
-#### 5.2 **U.Episteme (Knowledge) — UNM as a U.Mechanism instance** (normative by reference)
+##### 5.2 **U.Episteme (Knowledge) — UNM as a U.Mechanism instance** (normative by reference)
 
 * **Imports:** **A.17/A.18 (CSLC)**; **C.16 (MM‑CHR)**; `U.BoundedContext`; Part F.9 **Bridge**; **C.2.1 ReferencePlane**.
 * **BaseType:** chart/`U.CharacteristicSpace` family in a CN‑frame (one `U.BoundedContext`).
@@ -6024,14 +6024,14 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
 
 *(No operational telemetry implied; publication remains conceptual.)*
 
-### 6 · Defaults
+#### 6 · Defaults
 
 * **Local‑first semantics.** All judgments are **context‑local**; crossings are **explicit** and **costed** (CL→R only).
 * **Compliance‑first comparability.** Numeric comparison/aggregation requires **CG‑Spec** (lawful **SCP**, Γ‑fold, MinimalEvidence); **partial orders return sets**; **no ordinal means**.
 * **Tri‑state discipline.** `unknown → {degrade|abstain}`; `sandbox/probe‑only` is a **LOG branch** with a policy‑id (no implicit `unknown→0/false`).
 * **R‑only penalties.** **Φ/Ψ/Φ_plane** are **monotone and bounded**; penalties route to **`R_eff` only**; **F/G invariant**.
 
-### 7 · Conformance Checklist (normative)
+#### 7 · Conformance Checklist (normative)
 
 | ID | Requirement |
 |----|-------------|
@@ -6043,7 +6043,7 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
 | **CC‑UM.6** | **E.8/E.10 compliance:** Tell–Show–Show present under **“Archetypal Grounding”**; twin registers & I‑D‑S respected; any new `U.*` token requires a **DRR** and **LEX.TokenClass** entry; non‑spec surfaces end with **“…Description”**; **no tool/vendor tokens in Core**. |
 | **CC‑UM.7** | **Unknowns tri‑state:** guards define `unknown → {degrade|abstain}`; sandbox/probe branches live in **SoS‑LOG** (not Acceptance).
 
-### 8 · Born‑via‑A.6.1 sketches (informative)
+#### 8 · Born‑via‑A.6.1 sketches (informative)
 
 **CPM — Unified Comparison Mechanism (parity‑grade orders)**  
 **BaseType:** typed traits/charts in a CG‑Frame. **OperatorAlgebra:** lawful orders (≤, ≽, lexicographic) + **set‑returning** dominance (Pareto). **LawSet:** **no ordinal averaging**; **normalize‑then‑compare** when spaces/scales differ (UNM); editions pinned. **AdmissibilityConditions:** **CG‑Spec** bound; **ComparatorSet** explicit. **Transport:** Bridge+CL → **R/R_eff only**.  
@@ -6058,12 +6058,12 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
 
 *Informative SoTA:* telemetry hooks align with post‑2015 quality‑diversity families (CMA‑ME/MAE, DQD/MEGA) and open‑ended methods (POET‑class) when gauged (illumination) rather than scored.
 
-### **9 · SoTA-Echoing (post-2015 practice alignment)** *(informative)*
+#### **9 · SoTA-Echoing (post-2015 practice alignment)** *(informative)*
 
 **Purpose.** To show how the FPF concept of a *Mechanism* (law-governed signature with guards and transport) aligns with, and improves upon, leading research and engineering practices after 2015.  
 All comparisons are *informative*: they serve didactic continuity, not new normative force.
 
-#### 9.1 Contemporary references (post-2015 sources)
+##### 9.1 Contemporary references (post-2015 sources)
 
 1. **Algebraic effects and handlers** (Koka, Effekt, OCaml 5) — formalise “operation + lawful handler” semantics.
     
@@ -6078,7 +6078,7 @@ All comparisons are *informative*: they serve didactic continuity, not new norma
 
 Each source corresponds to a distinct *Tradition*: formal semantics, categorical algebra, compliance automation, protocol safety, and lawful AI.
 
-#### 9.2 Alignment with A.6.1 fields and concepts
+##### 9.2 Alignment with A.6.1 fields and concepts
 
 | External practice | Corresponding A.6.1 field / construct | FPF alignment and improvement |
 | --- | --- | --- |
@@ -6088,7 +6088,7 @@ Each source corresponds to a distinct *Tradition*: formal semantics, categorical
 | Session / Typestate protocols | **AdmissibilityConditions + set-valued USM Scopes** | Deterministic guards preserve state safety; composable across Contexts by Bridges. |
 | Lawful measurement (ML) | **CG-Spec / MM-CHR** binding | Enforces CSLC proofs; forbids ordinal averaging; guarantees unit/scale alignment. |
 
-#### 9.3 Adopt / Adapt / Reject summary
+##### 9.3 Adopt / Adapt / Reject summary
 
 * **Adopt** formal, law-governed signatures (Institutions + Effects); explicit admissibility predicates.
     
@@ -6096,16 +6096,16 @@ Each source corresponds to a distinct *Tradition*: formal semantics, categorical
     
 * **Reject** tool-bound semantics, automatic recency heuristics, or any cross-scale arithmetic without CSLC proof.
 
-#### 9.4 Holonic repeatability
+##### 9.4 Holonic repeatability
 
 The same correspondence holds at **every holonic level**:  
 a part-holon declares its own `OperatorAlgebra/LawSet/AdmissibilityConditions`; a whole-holon merges them via Bridges; a meta-holon re-binds mechanisms under a new Γ-closure. All penalties remain in **R / R_eff**, while **F / G** invariants propagate intact.
 
-### 10 · 60‑second didactic script 
+#### 10 · 60‑second didactic script 
 
 > *“To mint a mechanism, fill a **Mechanism.Intension**: declare **SubjectBlock** (**SubjectKind**, **BaseType**, **SliceSet**, **ExtentRule**, **ResultKind?**) and **ParamKinds**; then **OperatorAlgebra/Laws/AdmissibilityConditions** and **Γ_time**; define **Transport** (Bridge/CL with penalties to R only), and **Audit** (UTS + Path pins). Realize it as CAL/LOG/CHR under **A.6**. USM and UNM are already such mechanisms; the same template births comparison, scoring, and publication mechanisms—safely bound to **CG‑Spec**—without leaving the kernel grammar.”*
 
-### 11 · Quick “builder’s” checklist (author‑facing)
+#### 11 · Quick “builder’s” checklist (author‑facing)
 
 1. Draft **AT0/AT1 charter**: why this Mechanism, which **guard surfaces** and **comparability** are in scope; is a **Γ_m (CAL)** builder needed?
     
@@ -6115,21 +6115,21 @@ a part-holon declares its own `OperatorAlgebra/LawSet/AdmissibilityConditions`; 
     
 Ship **UTS + G.10**; wire **G.11** telemetry (PathSlice‑keyed); ensure penalties **route to `R_eff` only**.
 
-### 12 · Consequences (informative)
+#### 12 · Consequences (informative)
 
 * **Uniform kernel shape.** Scope, normalization, comparison families can be authored and compared without lexical drift.
 * **Auditable reuse.** GateCrossings are UTS‑visible; penalties are transparent (**R only**), with **AH‑1..AH‑4** harness coverage.
 * **Scalarisation avoids illegality.** Partial orders remain set‑valued; cross‑scale arithmetic is blocked by **CG‑Spec/CSLC**.
 
-### 13 · Rationale (informative)
+#### 13 · Rationale (informative)
 
 Anchoring mechanisms in **A.6 Signature→Realization** provides a minimal, typed surface that preserves **USM** set‑algebra and **UNM** “normalize‑then‑compare” quotients while making **Part F (Bridges)** crossings explicit and costed on **R** (never **F/G**).
 
-### 14 · Relations (quick pointers)
+#### 14 · Relations (quick pointers)
 
 Builds on **A.6**; instantiates **A.2.6 USM** (ContextSlice, Γ_time, ∩/SpanUnion/translate) and **A.19/C.16 UNM** (classes, ≡\_UNM, validity windows); uses **Part B** (Bridges, CL/CL^k/CL^plane; **no implicit crossings**); binds **CG‑Spec** for any numeric comparison/aggregation; telemetry/publication via **G.10/G.11**.
 
-## A.6.2 · **`U.EffectFreeEpistemicMorphing` — Effect‑free morphisms of epistemes** [A]
+### A.6.2 · **`U.EffectFreeEpistemicMorphing` — Effect‑free morphisms of epistemes** [A]
 
 **One‑line summary.** `U.EffectFreeEpistemicMorphing` (EFEM) is the universal class of **effect‑free, law‑governed morphisms between epistemes**. An EFEM morphism rewrites episteme components (ClaimGraph, `describedEntityRef`, optional `groundingHolonRef`, `viewpointRef`, `referenceScheme`, and—where C.2.1+ is in use—`representationSchemeRef` and related slots, plus meta) in a **conservative, functorial, reproducible** way, with an explicit mode for what happens to the **DescribedEntitySlot** (`DescribedEntityChangeMode ∈ {preserve, retarget}`) as defined by `C.2.1 U.EpistemeSlotGraph`.
 
@@ -6143,7 +6143,7 @@ A.6.0 `U.Signature` (subject/vocabulary/laws/applicability); A.6.1 `U.Mechanism`
 **Used by.**
 A.6.3 `U.EpistemicViewing`; A.6.4 `U.EpistemicRetargeting`; E.17.0 `U.MultiViewDescribing`; E.17 (MVPK); E.18 (E.TGA StructuralReinterpretation, Transduction graph).
 
-### 1 · Problem frame
+#### 1 · Problem frame
 
 FPF has many operations that **transform knowledge artifacts** without directly doing work in the world:
 
@@ -6160,7 +6160,7 @@ Without a universal pattern for such morphisms:
 * laws about what may change in an episteme (content vs described entity vs grounding holon vs reference plane) fragment across the spec;
 * cross‑family reasoning (e.g. “this E.TGA StructuralReinterpretation is a retargeting, not a view”) becomes brittle and ad‑hoc.
 
-### 2 · Problem
+#### 2 · Problem
 
 Concretely, without EFEM:
 
@@ -6178,7 +6178,7 @@ Concretely, without EFEM:
 
 The result: engineers and tool builders can no longer tell **when they are allowed to transform epistemes without changing what is being claimed about the world**, nor what needs to be witnessed by Bridges and CL‑penalties when describedEntity does change.
 
-### 3 · Forces
+#### 3 · Forces
 
 * **Epistemic purity vs operational power.**
   Effect‑free episteme transforms are attractive precisely because they can be reasoned about algebraically and composed freely. But the more operational power they are given (IO, solver calls, measurements), the less they remain “pure” and the more they belong under `U.Mechanism` / `U.WorkEnactment`.
@@ -6195,9 +6195,9 @@ The result: engineers and tool builders can no longer tell **when they are allow
 * **I/D/S strict distinction.**
   Intension (`I`) is not itself an episteme; `…Description` and `…Spec` are epistemes with a `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`. EFEM must support operations on D/S epistemes while keeping the I/D/S layering intact (A.7, E.10.D2).
 
-### 4 · Solution — define `U.EffectFreeEpistemicMorphing` once
+#### 4 · Solution — define `U.EffectFreeEpistemicMorphing` once
 
-#### 4.1 · Informal definition
+##### 4.1 · Informal definition
 
 > **Definition.** A `U.EffectFreeEpistemicMorphing` (EFEM) is a class of **episteme→episteme morphisms** that:
 >
@@ -6214,7 +6214,7 @@ Specialisations:
 * `U.EpistemicViewing` (A.6.3) — EFEM with `DescribedEntityChangeMode = preserve`.
 * `U.EpistemicRetargeting` (A.6.4) — EFEM with `DescribedEntityChangeMode = retarget`, tied to KindBridges/ReferencePlanes.
 
-#### 4.2 · Signature Block (A.6.0 alignment)
+##### 4.2 · Signature Block (A.6.0 alignment)
 
 As a `U.Signature`, EFEM publishes the following **SubjectBlock** and the standard four‑row block (“SubjectBlock / Vocabulary / Laws / Applicability”) from A.6.0, specialised to episteme→episteme morphisms.
 
@@ -6253,11 +6253,11 @@ Each operator that takes epistemes as arguments obeys **SlotSpec discipline** fr
 
 **Laws row** and **Applicability** are given by P0–P5 and the Scope clause below.
 
-#### 4.3 · Laws P0–P5 (normative)
+##### 4.3 · Laws P0–P5 (normative)
 
 All laws below are **normative**: any morphism advertised as an instance of `U.EffectFreeEpistemicMorphing` SHALL satisfy them.
 
-##### P0 — Typed signature & component profile (C.2.1‑grounded)
+#### P0 — Typed signature & component profile (C.2.1‑grounded)
 
 For any EFEM morphism `f : X→Y`:
 
@@ -6281,7 +6281,7 @@ For any EFEM morphism `f : X→Y`:
 4. **SubjectRef compatibility.**
    For D/S epistemes (`…Description` / `…Spec`), `subjectRef(E)` is a `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩` (E.10.D2). EFEM species SHALL state how `subjectRef` transforms in terms of these components (usually: preserve or explicitly adjust `ViewpointRef` while preserving `DescribedEntityRef` and `BoundedContextRef`).
 
-##### P1 — Purity (no external effects)
+#### P1 — Purity (no external effects)
 
 EFEM morphisms are **pure functions on epistemes**:
 * Applying `f : X→Y` **does not**:
@@ -6292,7 +6292,7 @@ EFEM morphisms are **pure functions on epistemes**:
 
 Any operation that requires **measurements, simulations, solver calls, or tool use with external side‑effects** SHALL be modelled as a `U.Mechanism`/`U.Work` that **produces new epistemes**, which may then be related by EFEM morphisms.
 
-##### P2 — Conservativity (no new intensional commitments)
+#### P2 — Conservativity (no new intensional commitments)
 
 Let `content_X = content(X)`, `content_Y = content(Y)`, with associated `referenceScheme_X`, `referenceScheme_Y`, `describedEntityRef_X`, `describedEntityRef_Y`, `groundingHolonRef_X`, `groundingHolonRef_Y`. Interpret each `content` via its `ReferenceScheme` and slots. Then:
 
@@ -6311,7 +6311,7 @@ Intuitively:
 
 Where `describedEntityChangeMode(f) = retarget`, conservativity is understood **relative to a declared invariant** of the KindBridge (A.6.4): e.g., conservation of energy for a Fourier transform, or preservation of functional behaviour for a structural reinterpretation.
 
-##### P3 — Functoriality (identity, composition, correspondence)
+#### P3 — Functoriality (identity, composition, correspondence)
 
 We work in the category **Ep** whose objects are epistemes (species of `U.Episteme`) and whose arrows are EFEM morphisms satisfying P0–P2, together with the functor
 
@@ -6342,7 +6342,7 @@ and P0–P2 hold for `h`. For example, two `preserve` morphisms compose to `pres
 3. **Correspondence‑aware composition.**
    When EFEM changes `RepresentationScheme` or `ReferenceScheme`, a **CorrespondenceModel** (as in C.2.1 §6 and E.17) may be needed to witness commutativity: composition MUST respect these correspondences up to declared isomorphism/oplax naturality (witness epistemes may be recorded in `meta`).
 
-##### P4 — Idempotence & determinism (on fixed configuration)
+#### P4 — Idempotence & determinism (on fixed configuration)
 
 For any EFEM morphism `f : X→Y` with fixed configuration (episteme kinds, `DescribedEntityChangeMode` characteristic, KindBridge/CorrespondenceModel where needed):
 
@@ -6360,7 +6360,7 @@ For any EFEM morphism `f : X→Y` with fixed configuration (episteme kinds, `Des
 
 Species MAY weaken idempotence to “idempotent after normalisation”; if so, the normalisation step MUST itself be specified as an EFEM morphism and the composite be idempotent.
 
-##### P5 — Applicability, scope & compatibility
+#### P5 — Applicability, scope & compatibility
 
 Each EFEM species **publishes** an Applicability clause:
 
@@ -6380,11 +6380,11 @@ Applying EFEM **outside** its Applicability (e.g., wrong EoIClass, missing groun
 
 Cross‑Context or cross‑plane use (changing `U.BoundedContext` or `ReferencePlane`) is **not part of EFEM**; it is handled by Bridges (Part F) and A.6.1 transport, which then feed new epistemes into EFEM.
 
-### 5 · Archetypal Grounding (Tell–Show–Show)
+#### 5 · Archetypal Grounding (Tell–Show–Show)
 
 The examples below show how EFEM is intended to be used across I/D/S and Viewpoint/MVPK layers.
 
-#### 5.1 · Typed formalisation `Specify_DS : D→S` (species of EFEM)
+##### 5.1 · Typed formalisation `Specify_DS : D→S` (species of EFEM)
 
 *Context.* You have an informal `U.MethodDescription` for a safety check and want a more formal `U.MethodSpec` with test harness obligations, but **about the same method**.
 
@@ -6403,7 +6403,7 @@ The examples below show how EFEM is intended to be used across I/D/S and Viewpoi
 
 This matches A.7/E.10.D2 strict distinction: I→D (`Describe_ID`) is not itself an episteme→episteme morphism, but `Specify_DS` is; EFEM supplies its laws.
 
-#### 5.2 · Internal normalisation of a View (species of EFEM, `describedEntityChangeMode = preserve`)
+##### 5.2 · Internal normalisation of a View (species of EFEM, `describedEntityChangeMode = preserve`)
 
 *Context.* In MVPK you compute a engineering view `V` of a system description; you then normalise the view (sort, factor, put equations into normal form) without changing what it says.
 
@@ -6423,7 +6423,7 @@ The EFEM `NormalizeView : X→Y`:
 
 MVPK can then **assume** functoriality of such normalisations without re‑stating the EFEM laws.
 
-#### 5.3 · Retargeting sketch (bridge‑backed, `describedEntityChangeMode = retarget`)
+##### 5.3 · Retargeting sketch (bridge‑backed, `describedEntityChangeMode = retarget`)
 
 *Context.* E.TGA’s StructuralReinterpretation maps a physical layout view into a functional behaviour view, changing the described entity from “physical module assembly” to “functional graph” along a KindBridge.
 
@@ -6435,7 +6435,7 @@ Inside EFEM, this becomes a species with `describedEntityChangeMode = retarget`:
 
 The details belong to A.6.4/E.TGA; EFEM provides the generic discipline.
 
-#### 5.4 · Worked SlotSpec example (engineering SystemDescription episteme kind)
+##### 5.4 · Worked SlotSpec example (engineering SystemDescription episteme kind)
 *(informative)*
 
 To make the SlotKind/ValueKind/RefKind discipline and EFEM laws concrete, consider a simple engineering `U.EpistemeKind` for system descriptions over `EoIClass ⊑ U.Entity` with `EoIClass = U.System` in a given Context. A minimal SlotSpec table for such a kind could be:
@@ -6463,7 +6463,7 @@ Two typical EFEM species over this kind are:
 
 In later A.6.3/A.6.4/E.17.* patterns, concrete EpistemeKinds (for specific engineering description/specification idioms) are expected to provide SlotSpecs of this general shape and to state explicitly, per CC‑C.2.1‑5 / CC‑EFEM.*, which slots their EFEM species read and write.
 
-### 6 · Bias & Defaults (informative)
+#### 6 · Bias & Defaults (informative)
 
 * **Episteme‑first, world‑second.** EFEM is strictly about **epistemes as objects**; any world contact (measurements, executions) lives in `U.Mechanism`/`U.Work` and produces new epistemes that EFEM may subsequently relate.
 
@@ -6473,7 +6473,7 @@ In later A.6.3/A.6.4/E.17.* patterns, concrete EpistemeKinds (for specific engin
 
 * **I/D/S respect.** EFEM never collapses Intension with Description/Spec: I→D and D→S operations are typed explicitly and either (i) conform to EFEM laws where they are episteme→episteme, or (ii) remain separate morphism classes (A.7) while being described as EFEM‑conformant.
 
-### 7 · Conformance Checklist (normative)
+#### 7 · Conformance Checklist (normative)
 
 | ID                                                  | Requirement                                                                                                                                                                                                                                                                                                                                                                                           |
 | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -6486,7 +6486,7 @@ In later A.6.3/A.6.4/E.17.* patterns, concrete EpistemeKinds (for specific engin
 | **CC‑EFEM.7 (I/D/S & subjectRef discipline).**      | For any episteme that is a `…Description`/`…Spec` (E.10.D2), EFEM laws SHALL be phrased in terms of `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩` and MUST respect the I/D/S discipline **and** DescriptionContext invariants (including IDS‑13 Viewpoint‑locality as defined in E.10.D2/C.2.1): `Describe_ID` lives in A.7; `Specify_DS` MAY be species of EFEM but MUST preserve Intension. |
 | **CC‑EFEM.8 (Slot‑level read/write declaration).**  | Any EFEM species that defines morphisms between epistemes SHALL also satisfy C.2.1 checkpoint CC‑C.2.1‑5: it MUST state whether it is a species of `U.EffectFreeEpistemicMorphing`/`U.EpistemicViewing`/`U.EpistemicRetargeting`, declare its `describedEntityChangeMode`, name which SlotKinds it reads and writes, and state its behaviour on `describedEntityRef`, `groundingHolonRef`, `viewpointRef`, and `referenceScheme`. |
 
-### 8 · SoTA‑Echoing (informative, lineage)
+#### 8 · SoTA‑Echoing (informative, lineage)
 
 EFEM is intentionally “thin”: it provides a **minimal categorical and slot‑based discipline** for episteme→episteme morphisms, making it easy to align with several post‑2015 lines of work:
 
@@ -6504,7 +6504,7 @@ EFEM is intentionally “thin”: it provides a **minimal categorical and slot�
 
 EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent‑space), nor a specific representation (symbolic vs distributed); those choices are captured in `U.ClaimGraph`, `U.RepresentationScheme` and discipline‑level architheories. EFEM only says what it means to transform epistemes **legally** in that chosen substrate.
 
-### 9 · Consequences
+#### 9 · Consequences
 
 * **Single place for episteme‑to‑episteme laws.**
   All effect‑free transforms of knowledge artefacts, across KD‑CAL, MVPK, E.TGA, discipline packs, can now be defined as species of EFEM, instead of each family re‑inventing its own law set.
@@ -6521,7 +6521,7 @@ EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent�
 * **Better didactics.**
   The old “semantic triangle” becomes a didactic projection of EFEM over the EpistemeSlotGraph: EFEM + C.2.1 explain precisely what the triangle was trying to gesture at (symbol, concept, object), while correctly foregrounding operations, viewpoints, grounding holons, and reference schemes.
 
-### 10 · Rationale
+#### 10 · Rationale
 
 **Why a separate EFEM pattern (A.6.2) instead of folding into A.6.1 or C.2.1?**
 
@@ -6542,7 +6542,7 @@ FPF already committed to a single SlotKind/ValueKind/RefKind discipline (A.6.5) 
 * enables later mechanised checks (e.g., that a viewing only touches slots it promised to touch);
 * avoids minting yet another notion of “parameter” or “role in a relation”.
 
-### 11 · Relations
+#### 11 · Relations
 
 * **Specialises / is specialised by.**
 
@@ -6555,7 +6555,7 @@ FPF already committed to a single SlotKind/ValueKind/RefKind discipline (A.6.5) 
 * **Consumed by.**
   E.17.0 `U.MultiViewDescribing` (families of D/S epistemes under Viewpoints); E.17 (MVPK — publication as species of Viewing/EFEM); E.18 (E.TGA StructuralReinterpretation and other transductions over epistemes); KD‑CAL/LOG‑CAL rules that reason about episteme transforms categorically.
 
-## A.6.3 · **`U.EpistemicViewing` — describedEntity‑preserving morphism** \[A]
+### A.6.3 · **`U.EpistemicViewing` — describedEntity‑preserving morphism** \[A]
 
 **One‑line summary.** `U.EpistemicViewing` is the **describedEntity‑preserving** species of `U.EffectFreeEpistemicMorphing`: an effect‑free projection between epistemes that may change content and representation, but **never changes what the episteme is about** (the occupant of `DescribedEntitySlot` in C.2.1).
 
@@ -6568,7 +6568,7 @@ A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.5 `U.RelationSlo
 **Used by.**
 E.17.0 `U.MultiViewDescribing`; E.17 (MVPK — Multi‑View Publication Kit); E.17.1/E.17.2 (Viewpoint bundle libraries, TEVB); B.5.3 (Role‑EpistemicViewing); discipline packs for architecture, safety, and ML/LLM‑based representations.
 
-### 1 · Problem frame
+#### 1 · Problem frame
 
 Engineers and researchers constantly need **views of the same knowledge artefact**:
 * an ISO 42010‑style architectural view for a particular stakeholder group over a shared architecture description;
@@ -6586,7 +6586,7 @@ We need a single, reusable notion of **“epistemic viewing”** that captures t
 * **conservative** (no new intensional commitments about the same entity),
 * and **functorial** (compose cleanly in multi‑step pipelines).
 
-### 2 · Problem
+#### 2 · Problem
 
 Without a dedicated pattern for EpistemicViewing:
 1. **Views vs retargetings blur.**
@@ -6612,7 +6612,7 @@ Without a dedicated pattern for EpistemicViewing:
    * and **correspondence‑based** projections that rely on explicit cross‑episteme links.
      If each family re‑invents its own notion of “view”, consistency and tool support degrade.
 
-### 3 · Forces
+#### 3 · Forces
 
 * **Same entity, different concerns.**
   Stakeholders want different slices of the same description/specification, sometimes under different viewpoints, without re‑identifying the entity (system, method, role, service) being described.
@@ -6633,9 +6633,9 @@ Without a dedicated pattern for EpistemicViewing:
 * **Slot discipline and modularity.**
   With C.2.1 and A.6.5, epistemes now have explicit `SlotKind`/`ValueKind`/`RefKind` triples. Viewing laws must be stated **at the slot level**, not in terms of ad‑hoc “fields”, so they can be reused across engineering, publication, and discipline packs.
 
-### 4 · Solution — `U.EpistemicViewing` as EFEM profile (`describedEntityChangeMode = preserve`)
+#### 4 · Solution — `U.EpistemicViewing` as EFEM profile (`describedEntityChangeMode = preserve`)
 
-#### 4.1 · Informal definition
+##### 4.1 · Informal definition
 
 > **Definition (informal).**
 > `U.EpistemicViewing` is the **describedEntity‑preserving species** of `U.EffectFreeEpistemicMorphing`.
@@ -6649,7 +6649,7 @@ Without a dedicated pattern for EpistemicViewing:
 
 In C.2.1 terms `U.EpistemicViewing` behaves like a **lens/optic over the episteme slot graph**: it focuses on some SlotKinds (typically `ClaimGraphSlot`, `ViewpointSlot`, `RepresentationSchemeSlot`, `ReferenceSchemeSlot`) while preserving `DescribedEntitySlot` (and usually `GroundingHolonSlot`).
 
-#### 4.2 · Signature (A.6.0 / A.6.5 alignment)
+##### 4.2 · Signature (A.6.0 / A.6.5 alignment)
 
 **Signature header.**
 `U.EpistemicViewing` is a **Morphism‑kind** under A.6.0:
@@ -6686,7 +6686,7 @@ Practical species of EpistemicViewing will very often take `X` and `Y` from the 
 * Every `U.EpistemicViewing` is an **EFEM morphism** with `describedEntityChangeMode = preserve` in the sense of A.6.2/C.2.1.
 * It **inherits** P0–P5 from A.6.2, specialised to the case where the occupant of `DescribedEntitySlot` is unchanged.
 
-#### 4.3 · Laws (EV‑0…EV‑6, over C.2.1 components)
+##### 4.3 · Laws (EV‑0…EV‑6, over C.2.1 components)
 
 All laws below are **in addition** to A.6.2’s EFEM laws P0–P5 and SHALL be read directly against C.2.1 components and A.6.5 SlotSpecs.
 
@@ -6797,7 +6797,7 @@ Each species of `U.EpistemicViewing` MUST:
    * never widen `ClaimScope` beyond what EV‑3 permits.
 3. Treat **any change of DescribedEntity** (even if “intuitively minor”, such as moving from subsystem to system) as **out of scope** for A.6.3; such moves belong to A.6.4 `U.EpistemicRetargeting`.
 
-#### 4.4 · Profiles: `U.DirectEpistemicViewing` and `U.CorrespondenceEpistemicViewing`
+##### 4.4 · Profiles: `U.DirectEpistemicViewing` and `U.CorrespondenceEpistemicViewing`
 
 `U.EpistemicViewing` is further structured into two important species; both inherit EV‑0…EV‑6.
 
@@ -6825,9 +6825,9 @@ In both profiles:
 * `CorrespondenceModel` remains an **episteme‑level artefact**, not a new kernel‑type hidden inside A.6.3.
 * `U.EpistemicViewing` stays **view‑like**: it reveals what is already there under the correspondence; it does not perform Γ‑style constructions of new Intensions.
 
-### 5 · Archetypal grounding (Tell–Show–Show)
+#### 5 · Archetypal grounding (Tell–Show–Show)
 
-#### 5.1 · Engineering system description → safety officer view (DirectEpistemicViewing)
+##### 5.1 · Engineering system description → safety officer view (DirectEpistemicViewing)
 
 *Context.*
 A system team maintains a rich `SystemDescription` episteme for a plant holon `S` under an engineering viewpoint from TEVB. A safety officer needs a concise view showing only safety‑critical components, hazards, and mitigations.
@@ -6855,7 +6855,7 @@ A system team maintains a rich `SystemDescription` episteme for a plant holon `S
 
 This is the canonical “engineering view” archetype that later species in E.17.2/TEVB refer back to.
 
-#### 5.2 · MVPK publication view normalisation (DirectEpistemicViewing)
+##### 5.2 · MVPK publication view normalisation (DirectEpistemicViewing)
 
 *Context.*
 MVPK emits a `TechCard` view `V_raw` for an arrow `f` in a morphism class (e.g. an ATS‑checked service). The publication pipeline wants a normalised view `V_norm` where:
@@ -6878,7 +6878,7 @@ MVPK emits a `TechCard` view `V_raw` for an arrow `f` in a morphism class (e.g. 
 
 MVPK can rely on this as an A.6.3‑conformant step without restating EFEM laws.
 
-#### 5.3 · Cross‑model consistency view (CorrespondenceEpistemicViewing)
+##### 5.3 · Cross‑model consistency view (CorrespondenceEpistemicViewing)
 
 *Context.*
 A system has:
@@ -6904,7 +6904,7 @@ both with `describedEntityRef` pointing to the same system holon `S`, but living
 
 This archetype mirrors post‑2015 work on model synchronisation and bidirectional transformations, but anchored in the EpistemeSlotGraph.
 
-### 6 · Consequences
+#### 6 · Consequences
 
 * **Clear separation of viewing vs retargeting.**
   `U.EpistemicViewing` and `U.EpistemicRetargeting` (A.6.4) now **cleanly separate**:
@@ -6929,7 +6929,7 @@ This archetype mirrors post‑2015 work on model synchronisation and bidirection
   * SysML v2 “views‑as‑queries” paradigm, where views are queries over a stable model, not new models;
   * post‑2015 work on **optics** and **displayed categories**, treating views as structured projections over a fibred category of epistemes.
 
-### 7 · Rationale & SoTA‑echoing  *(informative)*
+#### 7 · Rationale & SoTA‑echoing  *(informative)*
 
 * **Optics and displayed categories.**
   In categorical terms, epistemes form a category `Ep` fibred over a category of described entities `Ref` via `α : Ep → Ref`. EpistemicViewing corresponds to **vertical morphisms** that preserve α. Their behaviour closely tracks **profunctor optics**: the DescribedEntitySlot plays the role of the “focus index”, while ClaimGraphs and representation schemes act as the data being transformed. Recent work on optics (2018‑onwards) provides compositional laws that FPF leverages without committing to a specific optic calculus.
@@ -6951,7 +6951,7 @@ This archetype mirrors post‑2015 work on model synchronisation and bidirection
   * latent‑space projections,
   * or hybrids that invoke external mechanisms before applying a pure view, without changing the core laws.
 
-### 8 · Conformance checklist (normative)
+#### 8 · Conformance checklist (normative)
 
 **CC‑A.6.3‑1 · EFEM species and DescribedEntityChangeMode.**
 Any pattern that claims to define `U.EpistemicViewing` **SHALL**:
@@ -6992,7 +6992,7 @@ For each species, authoring SHALL provide:
 * Any species that may change `describedEntityRef` is **not** a conformant EpistemicViewing; it MUST be treated as `U.EpistemicRetargeting` (A.6.4) or as a different pattern.
 * Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`/`U.WorkEnactment` and cannot be an EpistemicViewing.
 
-### 9 · Mini‑checklist (for authors)
+#### 9 · Mini‑checklist (for authors)
 
 When you introduce a new “view” in FPF, check:
 1. **Same described entity?**
@@ -7015,7 +7015,7 @@ When you introduce a new “view” in FPF, check:
 
 If all answers are crisp and the laws EV‑0…EV‑6 are satisfied, the pattern is a good candidate for `U.EpistemicViewing`.
 
-## A.6.4 · **`U.EpistemicRetargeting` — describedEntity‑retargeting morphism** \[A]
+### A.6.4 · **`U.EpistemicRetargeting` — describedEntity‑retargeting morphism** \[A]
 
 **One‑line summary.** `U.EpistemicRetargeting` is the **describedEntity‑retargetning** species of `U.EffectFreeEpistemicMorphing`: an effect‑free episteme→episteme morphism that **intentionally changes what the episteme is about** (the occupant of `DescribedEntitySlot` in C.2.1) under a declared `KindBridge` and invariant, while remaining conservative with respect to that invariant.
 
@@ -7028,7 +7028,7 @@ A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicVi
 **Used by.**
 E.18 (E.TGA StructuralReinterpretation and other reinterpretation nodes); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; future species for architecture and governance reinterpretations. 
 
-### 1 · Problem frame
+#### 1 · Problem frame
 
 Many important operations on descriptions **change the object‑of‑talk** while preserving a structural or behavioural invariant:
 
@@ -7052,7 +7052,7 @@ We need a single, reusable notion of **“epistemic retargeting”** that captur
 * **invariant‑conservative** (no violation of the declared invariant between kinds),
 * and **functorial** (retargetings compose cleanly and align with Bridges).
 
-### 2 · Problem
+#### 2 · Problem
 
 Without a dedicated pattern for EpistemicRetargeting:
 1. **Retargeting is silently confused with viewing.**
@@ -7079,7 +7079,7 @@ Without a dedicated pattern for EpistemicRetargeting:
 5. **I/D/S discipline is left underspecified.**
    For descriptions/specifications (`…Description` / `…Spec`), retargeting **changes `DescribedEntityRef` in `DescriptionContext = ⟨DescribedEntityRef, BoundedContextRef, ViewpointRef⟩`** (E.10.D2), but must say what happens to context and viewpoint. Without an explicit pattern, these decisions get scattered across different E‑patterns instead of being governed centrally. 
 
-### 3 · Forces
+#### 3 · Forces
 
 * **Changing the object‑of‑talk vs constructing something new.**
   Retargeting should express **“talking about a different but bridge‑related entity”**, not arbitrary construction of a new Intension/episteme. The invariant lives **across** the pair of entities, not inside a single episteme.
@@ -7104,9 +7104,9 @@ Without a dedicated pattern for EpistemicRetargeting:
 * **Slot discipline and modularity.**
   C.2.1 and A.6.5 give epistemes a precise `SlotKind`/`ValueKind`/`RefKind` structure, including `DescribedEntitySlot` and `GroundingHolonSlot`. Retargeting laws must be stated **at the slot level**, not on ad‑hoc “fields”, so they can be reused across E.TGA, MVPK, and discipline packs.
 
-### 4 · Solution — `U.EpistemicRetargeting` as EFEM profile (`describedEntityChangeMode = retarget`)
+#### 4 · Solution — `U.EpistemicRetargeting` as EFEM profile (`describedEntityChangeMode = retarget`)
 
-#### 4.1 · Informal definition
+##### 4.1 · Informal definition
 
 > **Definition (informal).**
 > `U.EpistemicRetargeting` is the **describedEntity‑retargeting species** of `U.EffectFreeEpistemicMorphing`.
@@ -7121,7 +7121,7 @@ Without a dedicated pattern for EpistemicRetargeting:
 
 In C.2.1 terms, `U.EpistemicRetargeting` **re‑indexes** an episteme along a base‑level bridge: it moves the `DescribedEntitySlot` (and often the `<DescribedEntitySlot, GroundingHolonSlot>` bundle) along a `KindBridge`, while re‑expressing `content : U.ClaimGraph` and `referenceScheme` so that the declared invariant continues to hold at the new target. 
 
-#### 4.2 · Signature (A.6.0 / A.6.5 alignment)
+##### 4.2 · Signature (A.6.0 / A.6.5 alignment)
 
 **Signature header.**
 `U.EpistemicRetargeting` is a **Morphism‑kind** under A.6.0, specialised from EFEM:
@@ -7163,7 +7163,7 @@ The pattern only requires **SlotSpec compatibility** between domain and codomain
 * It **inherits** EFEM laws P0–P5 and adds retargeting‑specific obligations ER‑0…ER‑6 below.
 * `U.EpistemicViewing` (A.6.3) covers the complementary case `describedEntityChangeMode = preserve`, where the object‑of‑talk does not change.
 
-#### 4.3 · Laws (ER‑0…ER‑6, over C.2.1 components)
+##### 4.3 · Laws (ER‑0…ER‑6, over C.2.1 components)
 
 All laws below are **in addition** to A.6.2’s EFEM laws P0–P5 and SHALL be read directly against C.2.1 components and A.6.5 SlotSpecs. 
 
@@ -7317,7 +7317,7 @@ Any attempt to apply a retargeting outside this Applicability profile is **ill�
    * Retargeting MAY depend on artefacts produced by `U.Mechanism` (e.g., computing a Fourier transform, fitting a model), but those are separate Work/Mechanism steps.
    * `U.EpistemicRetargeting` itself remains **effect‑free**: it rearranges epistemes, slots and ClaimGraphs, but does not perform measurements or actuation.
 
-### 5 · Archetypal grounding (Tell–Show–Show)
+#### 5 · Archetypal grounding (Tell–Show–Show)
 
 **Tell.**
 EpistemicRetargeting captures **“same invariant, different described entity”** moves:
@@ -7346,7 +7346,7 @@ In each case, what remains stable is an **invariant** (behaviour, energy, likeli
 * `KindBridge(S_data, S_model)` encodes the intended data→model relation (e.g. MLE, Bayesian posterior).
 * The invariant is likelihood or predictive performance; the retargeting laws ensure `Y` does not claim more about this invariant than is supported by `X`.
 
-### 6 · Consequences
+#### 6 · Consequences
 
 * **Clear separation of Viewing vs Retargeting.**
   A.6.3 and A.6.4 now jointly distinguish:
@@ -7365,7 +7365,7 @@ In each case, what remains stable is an **invariant** (behaviour, energy, likeli
 * **Better integration with I/D/S.**
   For `…Description`/`…Spec` epistemes, retargeting is the only place where `DescribedEntityRef` in `DescriptionContext` is allowed to change; all other I/D/S‑level operations (Describe/Specify, Viewing) keep it fixed. 
 
-### 7 · Rationale & SoTA‑echoing  *(informative)*
+#### 7 · Rationale & SoTA‑echoing  *(informative)*
 * **Fibrations and base‑change (displayed categories, 2017+).**
   With epistemes forming a category `Ep` fibred over `Ref` via `α : Ep → Ref` (C.2 / A.6.2), EpistemicViewing corresponds to **vertical morphisms** (`α(v) = id`), while EpistemicRetargeting corresponds to **reindexing along base arrows** (`α(r) = b : R₁→R₂`). This lines up with base‑change and transport along fibrations in category theory.
 
@@ -7381,7 +7381,7 @@ In each case, what remains stable is an **invariant** (behaviour, energy, likeli
 * **Consistency management and abstraction.**
   In model‑driven and bidirectional transformation literature, abstraction and refinement transfers information between models with different subject domains. Treating these as retargetings with explicit Bridges and invariants makes their assumptions amenable to CL accounting and KD‑CAL reasoning, instead of hiding them in tooling.
 
-### 8 · Conformance checklist (normative)
+#### 8 · Conformance checklist (normative)
 
 **CC‑A.6.4‑1 · EFEM species and DescribedEntityChangeMode.**
 Any pattern that claims to define `U.EpistemicRetargeting` **SHALL**:
@@ -7419,7 +7419,7 @@ For retargetings over `…Description`/`…Spec` epistemes:
 * Any species that leaves `describedEntityRef` unchanged is **not** a conformant EpistemicRetargeting; it belongs to `U.EpistemicViewing` (A.6.3) or another EFEM species.
 * Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`/`U.WorkEnactment` and cannot be an EpistemicRetargeting.
 
-### 9 · Mini‑checklist (for authors)
+#### 9 · Mini‑checklist (for authors)
 
 When you think you need “retargeting” in FPF, ask:
 
@@ -7438,7 +7438,7 @@ When you think you need “retargeting” in FPF, ask:
 5. **Can the operation be factored as Mechanism + pure retargeting?**
    If the step needs computation (FFT, model fitting), separate the Mechanism from the EpistemicRetargeting.
 
-### 10 · Relations
+#### 10 · Relations
 
 * **Specialises / is specialised by.**
   * Specialises A.6.2 `U.EffectFreeEpistemicMorphing` as the `describedEntityChangeMode = retarget` profile.
@@ -7458,7 +7458,7 @@ When you think you need “retargeting” in FPF, ask:
 
 
 
-## A.6.5 — **U.RelationSlotDiscipline** · SlotKind/ValueKind/RefKind discipline for n‑ary relations  \[A]
+### A.6.5 — **U.RelationSlotDiscipline** · SlotKind/ValueKind/RefKind discipline for n‑ary relations  \[A]
 
 **Plain‑name.** Relation slot discipline.
 
@@ -7476,7 +7476,7 @@ When you think you need “retargeting” in FPF, ask:
 – C.3.* Kind‑CAL (Kinds, KindSignature, KindBridge). 
 – F.18 (name governance; twin‑register discipline). 
 
-### 1 · Problem frame
+#### 1 · Problem frame
 
 FPF relies heavily on **n‑ary relations and morphisms**:
 
@@ -7505,7 +7505,7 @@ This produces subtle bugs:
 
 This pattern makes slot discipline explicit and shareable across **epistemes, roles, methods, services, bridges, guards, and all other `U.Signature`d calculi**: any “parameter list”, “port list”, or “coordinate tuple” for an n-ary relation in FPF **is** a set of SlotSpecs governed by this discipline.
 
-### 2 · Problem (symptoms in FPF)
+#### 2 · Problem (symptoms in FPF)
 
 Typical failure modes the pattern is designed to eliminate:
 
@@ -7554,7 +7554,7 @@ The result: **local convenience, global incoherence** — exactly what A.6.0 and
 
 ---
 
-### 3 · Forces
+#### 3 · Forces
 
 * **F1 · Simplicity vs expressiveness.**
   Engineers need a **small number of concepts** they can hold in mind while reading a signature; yet we must express:
@@ -7596,9 +7596,9 @@ The result: **local convenience, global incoherence** — exactly what A.6.0 and
   * lexically guarded (Tech/Plain split, explicit head‑nouns). 
     Slot discipline must integrate seamlessly with that.
 
-### 4 · Solution — SlotKind / ValueKind / RefKind triple
+#### 4 · Solution — SlotKind / ValueKind / RefKind triple
 
-#### 4.1 · Three layers for every argument position
+##### 4.1 · Three layers for every argument position
 
 `U.RelationSlotDiscipline` extends `U.Signature` with a **three-layer description** for every argument position (whether we call it “parameter”, “slot”, “coordinate”, or “port” in colloquial prose).
 In **normative** text, the canonical word is **slot**, and the canonical carrier is a **SlotSpec** triple (A.6.0).
@@ -7627,7 +7627,7 @@ In **normative** text, the canonical word is **slot**, and the canonical carrier
    * and either a RefKind or an explicit declaration “**by‑value**” (no RefKind; the value is embedded).
 * SlotKind and ValueKind are **intensional**; RefKind is **representational**. This mirrors I/D/S: *slot* describes structure, *value* describes what can sit there, *ref* describes how we point to concrete instances.
 
-#### 4.2 · Naming discipline: `*Slot` and `*Ref`
+##### 4.2 · Naming discipline: `*Slot` and `*Ref`
 
 This pattern introduces the following **lexical constraints**, aligned with E.10:
 1. **`*Slot` reserved for SlotKind.**
@@ -7659,7 +7659,7 @@ This pattern introduces the following **lexical constraints**, aligned with E.10
 
 These rules become part of the **LEX‑BUNDLE guards** and are enforced by F.18 / name‑acceptance harnesses. 
 
-#### 4.3 · Integration with `U.Signature` (A.6.0)
+##### 4.3 · Integration with `U.Signature` (A.6.0)
 
 `U.Signature` already provides a generic pattern for declaring morphism/relationship signatures (SubjectKind, BaseType, Quantification, ResultKind, Vocabulary, Laws). 
 
@@ -7683,7 +7683,7 @@ In practice, a `U.Signature` that follows this pattern:
 * supports **typed substitution**: replacing references within the same SlotKind requires only ValueKind compatibility;
 * aligns with **tool signatures** in implementation languages (row‑typed records, dependently typed parameters, effect‑typed arguments). ([ACM Digital Library][1])
 
-#### 4.4 · Typed substitution discipline
+##### 4.4 · Typed substitution discipline
 
 Given a relation or morphism `R` with signature Σ and SlotSpecs `{SlotSpec_i}`:
 
@@ -7708,11 +7708,11 @@ These rules give a uniform way to say:
 
 > “You may swap component X with Y in this slot, because they share ValueKind and pass the relevant Kind/Bridge constraints.”
 
-### 5 · Archetypal Grounding (Tell‑Show‑Show)
+#### 5 · Archetypal Grounding (Tell‑Show‑Show)
 
 Following E.7, we ground the pattern in a **System** example and an **Episteme** example. 
 
-#### 5.1 · System example — authentication pipeline signature
+##### 5.1 · System example — authentication pipeline signature
 
 Consider an `AuthPipelineSpecKind` (system‑level episteme describing an authentication pipeline for a microservice). Its key slots might be:
 
@@ -7741,7 +7741,7 @@ Substitutions:
   – Different `U.HolonRef` occupant.
   – May require different grounding and assurance episteme, but the slot discipline is identical.
 
-#### 5.2 · Episteme example — model evaluation result
+##### 5.2 · Episteme example — model evaluation result
 
 Consider `ModelEvaluationResultKind` as an episteme kind:
 
@@ -7772,7 +7772,7 @@ Typical moves:
 
 The SlotKind/ValueKind/RefKind discipline makes these substitutions **local and explicit**: the pattern describes which moves are allowed where, and A.6.2–A.6.4 then constrain how episteme morphisms may change ClaimGraphs and references.
 
-#### 5.3 · Didactic micro‑examples — substitution by SlotKind / ValueKind / RefKind  *(informative)*
+##### 5.3 · Didactic micro‑examples — substitution by SlotKind / ValueKind / RefKind  *(informative)*
 
 The following short examples are intended for a didactic guide or for cross‑references from A.6.0/A.6.x/C.2.1. In all of them:
 * **SlotKind** names the **place in the relation** (position/cell in the tuple).
@@ -7782,7 +7782,7 @@ The following short examples are intended for a didactic guide or for cross‑re
 
 Example names like `FurnitureSafetyDescriptionKind`, `AuthPipelineSpecKind`, `ModelEvaluationResultKind`, `IncidentRunbookSpecKind`, `ServiceSLARequirementKind` are **context‑local** kinds, not new kernel tokens.
 
-##### (1) Mechanics — stool on a test rig
+#### (1) Mechanics — stool on a test rig
 
 *EpistemeKind:* `FurnitureSafetyDescriptionKind`.
 
@@ -7798,7 +7798,7 @@ Example names like `FurnitureSafetyDescriptionKind`, `AuthPipelineSpecKind`, `Mo
 
 In all three cases the SlotKinds (and ValueKinds) are stable; only the **Refs that occupy those slots** change. This matches the engineering idiom “drop another module into the same slot”.
 
-##### (2) Microservices — switching the authentication provider
+#### (2) Microservices — switching the authentication provider
 
 *EpistemeKind:* `AuthPipelineSpecKind` (episteme describing an authentication pipeline for a service).
 
@@ -7812,7 +7812,7 @@ In all three cases the SlotKinds (and ValueKinds) are stable; only the **Refs th
 * Episteme `Spec_LDAP`: same `describedEntityRef = UserService#prod`, but `authProviderComponentRef = Auth_LDAP`.
 Here **SlotKind is identical** (`AuthProviderComponentSlot`); ValueKind is “any auth‑provider holon”; the episteme change is purely in the **`U.HolonRef` occupant**. This illustrates substitution of one component holon for another in the same slot, without inventing a separate ontology of “component roles”.
 
-##### (3) Data/ML — swapping dataset or target characteristic
+#### (3) Data/ML — swapping dataset or target characteristic
 
 *EpistemeKind:* `ModelEvaluationResultKind`.
 *SlotKind / ValueKind / RefKind:*
@@ -7827,7 +7827,7 @@ Here **SlotKind is identical** (`AuthProviderComponentSlot`); ValueKind is “an
 * `Eval_3`: same model and dataset, but `targetCharacteristicRef = F1` — **substitute another characteristic in `TargetCharacteristicSlot`** while keeping the rest fixed.
 `TargetCharacteristicSlot` here shows `U.Characteristic` as ValueKind: the episteme changes which characteristic it is “looking at”, without changing the method or the holon; only the `U.CharacteristicRef` occupant changes.
 
-##### (4) Operational practice — the same runbook in different operating centres
+#### (4) Operational practice — the same runbook in different operating centres
 
 *EpistemeKind:* `IncidentRunbookSpecKind` (runbook specification for major incidents).
 *SlotKind / ValueKind / RefKind:*
@@ -7841,7 +7841,7 @@ Here **SlotKind is identical** (`AuthProviderComponentSlot`); ValueKind is “an
 
 Intuitively this is the case “one and the same method is specified and verified in two different operational environments”. SlotKind is the same (`GroundingHolonSlot`), ValueKind is the same (`U.Holon`); only the **`U.HolonRef` occupant** differs — a clean example of substituting one holon‑environment in the same slot, without introducing a special `GroundingHolon` type.
 
-##### (5) SLO/SLA requirements — changing the target characteristic vs changing the threshold
+#### (5) SLO/SLA requirements — changing the target characteristic vs changing the threshold
 
 *EpistemeKind:* `ServiceSLARequirementKind`.
 
@@ -7859,7 +7859,7 @@ This example highlights the difference between:
 * changing the **target characteristic** (substituting another `U.CharacteristicRef` in `TargetCharacteristicSlot` with ValueKind `U.Characteristic`), and
 * changing the **numeric threshold** **inside** `ClaimGraph` (editing literals in a by‑value slot, with no RefKind involvement).
 
-### 6 · Bias‑Annotation
+#### 6 · Bias‑Annotation
 **Lenses tested and scope.** This pattern was read through all five Principle‑Taxonomy lenses (`Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`) and is intended as a **universal** discipline for n‑ary relation and morphism signatures across Parts A/B/C/E. It leans toward the `Arch` and `Onto/Epist` lenses (typed signatures, explicit kinds), but mitigates this by (a) keeping the discipline notation‑agnostic, (b) aligning with existing tooling rather than prescribing any, and (c) grounding the rules in System/Episteme examples with clear didactic intent. No domain‑specific scope limitation is claimed.
 
 * **Typed‑language bias.**
@@ -7875,7 +7875,7 @@ This example highlights the difference between:
   The examples and cross‑references prioritise episteme use‑cases (C.2.1, A.6.2–A.6.4) where describedEntity and retargeting are subtle. System‑only usages (e.g. method signatures) are absolutely allowed but not the driving case; they inherit the same discipline without additional obligations.
 
 
-### 7 · Conformance Checklist (normative)
+#### 7 · Conformance Checklist (normative)
 
 **CC‑A.6.5‑1 · SlotSpec for every parameter.**
 Every `U.Signature` that declares an n‑ary relation or morphism **SHALL** assign to each parameter position a SlotSpec triple: `⟨SlotKind, ValueKind, refMode⟩`.
@@ -7919,7 +7919,7 @@ Contexts adopting this pattern **MUST** maintain a migration table for legacy ty
 **CC‑A.6.5‑10 · Pattern integration.**
 New or revised patterns in Part A/B/C/E that introduce n‑ary relations, morphisms, or signatures **SHALL** reference A.6.5 in their Relations section and attest that they follow SlotKind/ValueKind/RefKind discipline.
 
-### 8 · Consequences
+#### 8 · Consequences
 
 **Benefits**
 
@@ -7946,7 +7946,7 @@ New or revised patterns in Part A/B/C/E that introduce n‑ary relations, morphi
 * **Learning curve.**
   Authors must learn to think “SlotKind/ValueKind/RefKind” before writing `id` or `subject`. Mitigation: Tell‑Show‑Show examples and a didactic micro‑guide on slots and describedEntity referenced from A.6.0/C.2.1/E.17.0.
 
-### 9 · Rationale
+#### 9 · Rationale
 
 **Why a SlotKind/ValueKind/RefKind triple at all.** At architheory level, this pattern makes `U.Signature` behave like a lightweight dependently‑typed record discipline: SlotKind plays the role of an index or label, ValueKind is the family of admissible occupants at that position, and RefKind captures the representation choice (by‑value or via a handle). This mirrors the way post‑2015 work on row‑polymorphic data and effect rows treats labels and field kinds as first‑class, while keeping the Core notation‑neutral.
 
@@ -7956,7 +7956,7 @@ New or revised patterns in Part A/B/C/E that introduce n‑ary relations, morphi
 
 **Why lexical rules (`*Slot`, `*Ref`, no “Role” heads).** The triple only buys safety if authors and tools can see it at a glance. Reserving `*Slot` for SlotKinds and `*Ref` for RefKinds/fields gives a cheap, syntax‑level guard against conflating places, kinds, and handles. Banning “Role” as a SlotKind head prevents clash with `U.Role` and the RoleEnactment calculus, preserving the clean separation between “mask worn by a system” and “position in a relation”.
 
-### 10 · SoTA‑Echoing (post‑2015 practice alignment)
+#### 10 · SoTA‑Echoing (post‑2015 practice alignment)
 
 **Purpose.** To situate SlotKind/ValueKind/RefKind discipline with respect to contemporary typed and relational approaches, without importing any external calculus into the Core. All items are used as conceptual comparators; concrete reuse in a `U.BoundedContext` would happen only via explicit Bridges (F.9) with declared CL penalties.
 
@@ -7983,7 +7983,7 @@ New or revised patterns in Part A/B/C/E that introduce n‑ary relations, morphi
 
 Overall, `U.RelationSlotDiscipline` echoes post‑2015 typed and relational work — *labelled positions, explicit kinds, layered references* — while staying notation‑neutral and tuned to FPF’s holonic and epistemic ontology.
 
-### 11 · Relations (with other patterns)
+#### 11 · Relations (with other patterns)
 
 **Builds on A.6.0 `U.Signature`.**  
 Refines parameter declarations with SlotSpec triples `⟨SlotKind, ValueKind, refMode⟩` while leaving the rest of the signature structure (SubjectKind, BaseType, Quantification, ResultKind, Laws) unchanged. SlotKinds become the canonical labels for argument positions.
@@ -8015,7 +8015,7 @@ Name‑acceptance and migration harnesses in Part F can detect legacy violatio
 [3]: https://iris-project.org/pdfs/2017-popl-effects-final.pdf "A Relational Model of Types-and-Effects in Higher-Order ..."
 [4]: https://arxiv.org/pdf/1809.00738 "Categories of Optics"
 
-## **Cluster A.V · Constitutional Principles of the Kernel**
+#### **Cluster A.V · Constitutional Principles of the Kernel**
 
 ## A.7 — Strict Distinction (Clarity Lattice)  \[A]
 
@@ -8030,7 +8030,7 @@ Provide a **single, didactically clear lattice of distinctions** that keeps mode
 
 It harmonizes A.12 (External Transformer), A.13 (Agential Role & Agency Spectrum), A.14 (Advanced Mereology), and A.15 (Role–Method–Work Alignment).
 
-#### 2 · Problem frame
+### 2 · Problem frame
 
 * **Holons (A.1) and systems.** All holons are part/whole units; **only systems** can enact behaviour.
 * **Externalization (A.12).** Every change is performed by a **system bearing TransformerRole** across a boundary; there is no “self‑magic”.
@@ -8320,13 +8320,13 @@ A.7 establishes the following **pairs and triplets**. Use their **names** and **
 *“A principle that works in only one world is local folklore; a first principle architects every world.”*
 
 
-#### 1 · Context
+### 1 · Context
 
 FPF aspires to be an **operating system for thought** that engineers, biologists, economists, and AI agents can all use without translation layers. That promise rests on the **universality** of its core primitives (`U.Type`s).  History is littered with “upper ontologies” that proclaimed universality yet smuggled in the biases of a single discipline; once deployed beyond their birthplace, they cracked or ballooned.  Rule C‑1 turns “universal” from a marketing word into a measurable criterion: *cross‑domain congruence*.
 
 ---
 
-#### 2 · Problem
+### 2 · Problem
 
 | Pathology                 | Manifestation                                                                                       |
 | ------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -8336,7 +8336,7 @@ FPF aspires to be an **operating system for thought** that engineers, biologists
 
 ---
 
-#### 3 · Forces
+### 3 · Forces
 
 | Force                           | Tension                                                                              |
 | ------------------------------- | ------------------------------------------------------------------------------------ |
@@ -8347,7 +8347,7 @@ FPF aspires to be an **operating system for thought** that engineers, biologists
 
 ---
 
-#### 4 · Solution — *The Three‑Domain Falsification Test*
+### 4 · Solution — *The Three‑Domain Falsification Test*
 
 > **Normative Rule (C‑1)** A `U.Type` **enters the kernel only if** it is shown to play the **same Role** in **at least three foundationally distinct domains**.
 
@@ -8379,7 +8379,7 @@ Implementation steps (Domain Families):
 
 ---
 
-#### 5 · Archetypal Grounding (System / Episteme)
+### 5 · Archetypal Grounding (System / Episteme)
 
 | Universal `U.Type` | **Domain 1 · Physics**                  | **Domain 2 · Life Sci.**            | **Domain 3 · Tech & Soc.**       | Congruent Role                |
 | ------------------ | --------------------------------------- | ----------------------------------- | -------------------------------- | ----------------------------- |
@@ -8389,7 +8389,7 @@ Implementation steps (Domain Families):
 
 These juxtapositions give engineer‑managers an immediate sense of *why* each primitive is worth learning.
 
-#### 6 · Conformance Checklist
+### 6 · Conformance Checklist
 
 | ID          | Requirement                                                                                                                            | Purpose                                                 |
 | ----------- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -8400,7 +8400,7 @@ These juxtapositions give engineer‑managers an immediate sense of *why* each p
 | **CC‑UC 5** | While the U‑Index > 0.05, authors **SHALL** prioritise supplying missing projections over adding new core concepts.                    | Maintains kernel health without procedural bureaucracy. |
 | **CC‑UC‑2‑QD‑triad.** | The three Role‑Projections come from **different domain‑families** AND the triad PUBLISHES: `{FamilyCoverage, MinInterFamilyDistance, Diversity_P, IlluminationSummary}` with `MinInterFamilyDistance ≥ δ_family` (per **F1‑Card** DistanceDef & edition). + Provenance MUST cite `DescriptorMapRef` (incl. `DistanceDef`/edition), `F1‑Card id+edition`, and the grid/binning policy used for `IlluminationSummary`.  | quality diversity of domains
 
-#### 7 · Consequences
+### 7 · Consequences
 
 | Benefit                                                                                                    | Trade‑off                                     | Mitigation                                                 |
 | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------- |
@@ -8410,7 +8410,7 @@ These juxtapositions give engineer‑managers an immediate sense of *why* each p
 
 ---
 
-#### 8 · Rationale
+### 8 · Rationale
 
 Deep research over the last decade shows *structural homologies* across domains:
 
@@ -8421,7 +8421,7 @@ By demanding three independent manifestations, FPF captures these convergences *
 
 ---
 
-#### 9 · Relations
+### 9 · Relations
 
 | Relation             | Linked Pattern                       | Contribution                                                          |
 | -------------------- | ------------------------------------ | --------------------------------------------------------------------- |
@@ -8432,7 +8432,7 @@ By demanding three independent manifestations, FPF captures these convergences *
 
 ---
 
-#### 10 · Known Uses
+### 10 · Known Uses
 
 * **Energy ↔ Budget ↔ Attention** – Engineering teams reused `U.Resource` to reason about battery charge, project funds, and user‑attention minutes with one algebra, cutting integration effort by half (2024 pilot).
 * **Objective unification** – An AI lab mapped *loss functions*, a bio‑lab mapped *Darwinian fitness*, and a factory mapped *scrap‑rate* all to `U.Objective`, enabling shared optimisation tooling.
@@ -8441,7 +8441,7 @@ These cases validated that the Three‑Domain Test is achievable in practice, no
 
 ---
 
-#### 11 · Open Questions
+### 11 · Open Questions
 
 1. **Domain taxonomy stability** – Should the five domain families be versioned as science evolves (e.g., quantum‑bio‑tech)?
 2. **Automated congruence checks** – Can category‑theoretic tooling semi‑automate the functional‑role equivalence test?
@@ -8451,13 +8451,13 @@ These cases validated that the Three‑Domain Test is achievable in practice, no
 
 > *“The logic of a bolt must still be the logic of the bridge.”*
 
-#### 1 · Context
+### 1 · Context
 
 FPF models reality as a **nested holarchy**: parts → assemblies → systems → supra‑systems; axioms → lemmas → theorems → paradigms. Designers and analysts must zoom freely without logical whiplash. Classical mereology and modern renormalisation theory both warn: if rules mutate across scales, predictions and audits collapse. FPF therefore mandates a single, scale‑invariant Standard.
 
 ---
 
-#### 2 · Problem
+### 2 · Problem
 
 | Failure Mode              | Real‑World Symptom                                         |
 | ------------------------- | ---------------------------------------------------------- |
@@ -8469,7 +8469,7 @@ These pathologies derail safety cases and budget decisions across disciplines.
 
 ---
 
-#### 3 · Forces
+### 3 · Forces
 
 | Force                                  | Tension                                                      |
 | -------------------------------------- | ------------------------------------------------------------ |
@@ -8480,9 +8480,9 @@ These pathologies derail safety cases and budget decisions across disciplines.
 
 ---
 
-#### 4 · Solution — Invariant Quintet + Meta‑Holon Transition
+### 4 · Solution — Invariant Quintet + Meta‑Holon Transition
 
-##### 4.1 Invariant Quintet
+#### 4.1 Invariant Quintet
 
 Any aggregation operator `Γ` that claims FPF conformance **MUST** preserve these five invariants :
 
@@ -8499,13 +8499,13 @@ Any aggregation operator `Γ` that claims FPF conformance **MUST** preserve thes
 **Inter‑Layer Standard note**
 When holons are composed as a Layered‑Control stack, each Planner ↔ Regulator pair MUST publish an inter‑layer Standard: {referenceSignal, guaranteedTrackingError, cycleTime}.  Matni 2024 (https://arxiv.org/abs/2401.15185) prove such Standards satisfy COMM + LOC invariants, giving a constructive instance of the Quintet.
 
-##### 4.2 Meta‑Holon Transition (MHT)
+#### 4.2 Meta‑Holon Transition (MHT)
 
 If empirical data show a true violation (e.g., redundancy raises WLNK limit), the modeller **declares an MHT**: the collection becomes a new holon tier, and the quintet applies anew at that scale .
 
 ---
 
-#### 5 · Archetypal Grounding
+### 5 · Archetypal Grounding
 
 | Invariant  | **`U.System` — Pump Skid**                    | **`U.Episteme` — Meta‑Analysis**                |
 | ---------- | --------------------------------------------- | ----------------------------------------------- |
@@ -8579,11 +8579,11 @@ Packaging these insights as one memorisable quintet → **Cognitive Elegance
 4. **Layer depth** — In an LCA (layered control architectures, https://arxiv.org/abs/2401.15185) stack every Planner is external to its Regulator; should FPF limit the number of nested layers, or is indefinite chaining acceptable?
 
 
-###  A.10 — Evidence Graph Referring (C‑4) \[A]
+## A.10 — Evidence Graph Referring (C‑4) \[A]
 
 *“A claim without a chain is only an opinion.”*
 
-#### 1 · Context
+### 1 · Context
 
 FPF is a holonic framework: wholes are built from parts (A.1, A.14), and reasoning travels across scales via Γ‑flavours (B.1). To keep this reasoning honest and reproducible, every **published assertion** must be *anchored* in concrete **symbol carriers** and **well‑typed transformations** performed by an **external TransformerRole** (A.12, A.15). **Publication** itself is the typed projection **I→D→S** (`Publ_ID`, `Formalize_DS`) per A.7 and is **not execution**; any physical/digital release, rendering, or upload is **Work** by an external transformer **on carriers**, cited in SCR.
 
@@ -8597,7 +8597,7 @@ This pattern defines the **Evidence Graph Referring Standard** common to all Γ�
 
 ---
 
-#### 2 · Problem
+### 2 · Problem
 
 Without a uniform anchor, models drift into five failure modes:
 
@@ -8611,7 +8611,7 @@ The business effect is predictable: confidence badges cannot be defended, cross�
 
 ---
 
-#### 3 · Forces
+### 3 · Forces
 
 | Force                           | Tension                                                                                                                                           |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -8623,7 +8623,7 @@ The business effect is predictable: confidence badges cannot be defended, cross�
 
 ---
 
-#### 4 · Solution — The Evidence Graph Referring Standard
+### 4 · Solution — The Evidence Graph Referring Standard
 
 The Standard is a small set of primitives applied uniformly, with **manager‑first clarity** and **formal hooks** for proof obligations.
 
@@ -8663,7 +8663,7 @@ The system that produces or interprets evidence is **external** to the holon und
 
 ---
 
-#### 5 · Archetypal Grounding
+### 5 · Archetypal Grounding
 
 | Aspect                       | `U.System` — Autonomous Brake                                                                       | `U.Episteme` — Meta‑analysis                                                                                             |
 | ---------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -8673,7 +8673,7 @@ The system that produces or interprets evidence is **external** to the holon und
 | **External TransformerRole** | Independent test team / metrology lab.                                                              | Independent synthesis team / statistician.                                                                               |
 | **Temporal**                 | Dated runs; `happenedBefore` between setup → test → teardown.                                       | Publication dates; dataset versions; monotone coverage of included studies.                                              |
 
-#### 6 · Conformance Checklist
+### 6 · Conformance Checklist
 
 | ID                                      | Requirement                                                                                                                                                                                                                             | Purpose (what it prevents)                                 |
 | --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -8694,7 +8694,7 @@ The system that produces or interprets evidence is **external** to the holon und
 
 ---
 
-#### 7 · Consequences
+### 7 · Consequences
 
 | Benefit                           | Why it matters                                                                  | Trade‑off / Mitigation                                                                                                                |
 | --------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -8707,7 +8707,7 @@ The system that produces or interprets evidence is **external** to the holon und
 
 ---
 
-#### 8 · Rationale (SoTA alignment, reader‑friendly)
+### 8 · Rationale (SoTA alignment, reader‑friendly)
 
 * **Metrology & assurance.** The requirement to name quantities, units, uncertainty, calibration carriers reflects long‑standing metrology practice and modern assurance cases: numbers are only comparable when their **measurement models** are stated.
 * **Knowledge provenance.** The EPV‑DAG and SCR/RSCR embody post‑2015 best practices in provenance for knowledge artefacts: keep a complete, machine‑checkable trail from claims to carriers; separate provenance from part‑whole.
@@ -8717,13 +8717,13 @@ The system that produces or interprets evidence is **external** to the holon und
 
 ---
 
-#### 9 · Relations
+### 9 · Relations
 
 * **Builds on:** A.1 Holonic Foundation; A.4 Temporal Duality; **A.12 Transformer Externalization**; **A.14 Advanced Mereology**; **A.15 Role–Method–Work Alignment**.
 * **Constrains / Used by:** B.1 (all Γ‑flavours: `Γ_sys`, `Γ_epist`, `Γ_method`, `Γ\_time`, `Γ_work`); B.1.1 (Dependency Graph & Proofs).
 * **Enables:** **B.3 Trust Calculus** (R/CL inputs, auditability); B.4 Canonical Evolution Loop (clean design/run bridges).
 
-#### 10 · Migration (this draft, practical and brief)
+### 10 · Migration (this draft, practical and brief)
 
 Apply these text edits **only** in the holonic working file:
 
@@ -8751,13 +8751,13 @@ Apply these text edits **only** in the holonic working file:
 *“Add only what you cannot subtract.”*
 
 
-#### 1 · Context
+### 1 · Context
 
 The FPF kernel aspires to remain **small enough to learn in a week** yet **broad enough** to model engines, proofs and budgets alike. Unchecked growth of primitives—well‑known from earlier “enterprise ontologies”—bloats diagrams, stalls tooling and intimidates new adopters. C‑5 therefore demands *minimal‑sufficiency*: a new core concept enters the kernel **only** when all routes of composition, refinement or role‑projection fail to express it without semantic loss.
 
 ---
 
-#### 2 · Problem
+### 2 · Problem
 
 | Pathology         | Real‑world symptom                                                                 |
 | ----------------- | ---------------------------------------------------------------------------------- |
@@ -8769,7 +8769,7 @@ Result: steep learning curves, fragile integrations, eroded trust in “first‑
 
 ---
 
-#### 3 · Forces
+### 3 · Forces
 
 | Force                            | Tension                                                            |
 | -------------------------------- | ------------------------------------------------------------------ |
@@ -8780,7 +8780,7 @@ Result: steep learning curves, fragile integrations, eroded trust in “first‑
 
 ---
 
-#### 4 · Solution — Four‑Gate **Minimal‑Sufficiency Protocol**
+### 4 · Solution — Four‑Gate **Minimal‑Sufficiency Protocol**
 
 A proposal to add a `U.Type` or core relation **MUST** clear **all four gates** before admission and survives under a **Sunset Timer** thereafter.
 
@@ -8798,7 +8798,7 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4
 
 ---
 
-#### 5 · Archetypal Grounding
+### 5 · Archetypal Grounding
 
 | Gate    | **Rejected candidate** (why)                                                                                                                                                                               | **Accepted approach**           |
 | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
@@ -8808,7 +8808,7 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4
 | **G‑4** | `U.SmallPart` – boundary depends on subjective size.                                                                                                                                                       | Reject; fails crisp test.       |
 | —       | **`U.ProvenanceChain`** – required to record immutable evidence lineage; cannot be composed; functionally named; crisp membership rule (*“ordered list of Evidence Graph Ref with forward integrity hash”*). | Accepted, timer started.        |
 
-#### 6 · Conformance Checklist
+### 6 · Conformance Checklist
 
 | ID          | Requirement                                                                                                                                               | Didactic aim                                                 |
 | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
@@ -8820,7 +8820,7 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4
 
 ---
 
-#### 7 · Consequences
+### 7 · Consequences
 
 | Benefit                            | Impact for engineer‑managers                                                   | Trade‑off / Mitigation                                                                   |
 | ---------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
@@ -8831,7 +8831,7 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4
 
 ---
 
-#### 8 · Rationale
+### 8 · Rationale
 
 **Cognitive science** shows working memory tops out around 4 ± 1 unfamiliar chunks (Cowan 2021). Combining that with Gate discipline keeps kernel size tractable (≈ 40 primitives). **Software metrics** from lean DSLs (Rust traits, Kubernetes CRDs) reveal that compositional modelling reduces change propagation cost by \~30 %. The Sunset Timer borrows from Kubernetes feature gate “alpha/beta/GA” progression model — proved effective at pruning half‑baked APIs.
 
@@ -8846,7 +8846,7 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4
 
 ---
 
-### 10 · Illustrative Uses (2022 – 2025)
+### 10 · Illustrative Uses (2022 – 2025)
 
 * **Robotics CAL 2023** – `U.LiDARSensor` rejected (Gate G‑1 passed via role composition), saving three schema migrations.
 * **Green‑Finance CAL 2024** – `U.CarbonCredit` admitted provisionally, but Sunset Review (usage = 0) demoted it to sector plug‑in, avoiding kernel noise.
@@ -8863,7 +8863,7 @@ A cleared type enters the kernel **provisionally** with a timer (default = 4
 
 ### **Pattern A.12 — External Transformer & Reflexive Split \[A]**
 
-#### 1 · Intent & Context
+### 1 · Intent & Context
 
 The principle of causality is the bedrock of engineering and scientific reasoning: every change has a cause. In FPF, this translates to a strict architectural rule: **no "self-magic."** An action cannot happen without an actor. This pattern establishes the formal mechanism for modeling causality, ensuring that every transformation is attributed to an explicit, external agent.
 
@@ -8875,7 +8875,7 @@ The intent of this pattern is twofold:
 1.  To mandate that every transformation is modeled as an interaction between a distinct **Agent** (playing a `TransformerRole`) and a distinct **Target** across a defined **Boundary**.
 2.  To provide a rigorous pattern, the **Reflexive Split**, for modeling systems that appear to act upon themselves (e.g., self-calibration, self-repair) without violating the principle of external causality.
 
-#### 2 · Problem
+### 2 · Problem
 
 Without a strict rule of agent externalization, models become ambiguous and untraceable, leading to critical failures in design and audit:
 
@@ -8883,7 +8883,7 @@ Without a strict rule of agent externalization, models become ambiguous and untr
 2.  **Audit Dead-Ends:** An auditor tracing a change finds that the system is its own justification. There is no external evidence, no log from an independent actor, and therefore, no way to verify the integrity of the transformation. This is a direct violation of **Evidence Graph Referring (A.10)**.
 3.  **Hidden Dependencies:** In a "self-healing" system, the healing mechanism (the regulator) and the operational part (the regulated) are modeled as a single monolithic block. This hides the critical internal dependency between them. A failure in the regulator might go unnoticed until the entire system collapses, because its role was never made explicit.
 
-#### 3 · Forces
+### 3 · Forces
 
 | Force | Tension |
 | :--- | :--- |
@@ -8891,7 +8891,7 @@ Without a strict rule of agent externalization, models become ambiguous and untr
 | **Objectivity vs. Internal States** | The need for an external, objective observer/actor to ground all claims vs. the reality that many systems have internal feedback loops that control their own state. |
 | **Accountability vs. Automation** | In fully automated systems, it can be tempting to say "the system did it," but for assurance and safety, we must always be able to trace an action back to a specific, responsible component. |
 
-#### 4. Solution
+### 4. Solution
 
 The solution is a two-part architectural mandate: **(1)** all transformations must be modeled with an external agent, and **(2)** apparent self-transformation must be modeled using the **Reflexive Split**.
 
@@ -8908,7 +8908,7 @@ Every transformation in FPF is a `U.Work` event that is the result of an **Agent
 
 This simple inequality is the core of the externalization principle. It constitutionally forbids self-magic.
 
-##### 4.1.1 Reflexivity vs cross‑reference (normative note)
+#### 4.1.1 Reflexivity vs cross‑reference (normative note)
 
 FPF distinguishes **reflexive transformation** from **episteme‑level reference**.  
 *Reflexive* cases (e.g., “self‑calibration”) MUST be modeled by the **Reflexive Split** (Regulator→Regulated) and remain within the **world** ReferencePlane.  
@@ -8936,7 +8936,7 @@ Think of the Reflexive Split like a manager who needs to review their own work. 
 
 The Reflexive Split formalizes this. The "Doer" is the **Regulated** subsystem. The "Reviewer" is the **Regulator** subsystem, which plays the `TransformerRole`. By modeling them as two separate entities, we make the internal quality control loop explicit and prevent the logical error of a system magically grading its own homework.
 
-#### 5 · Archetypal Grounding
+### 5 · Archetypal Grounding
 
 The principle of external causality and the Reflexive Split pattern are universal. They apply equally to physical systems, epistemic artifacts, and socio-technical organizations.
 
@@ -8949,7 +8949,7 @@ The principle of external causality and the Reflexive Split pattern are universa
 **Key takeaway from grounding:**
 These examples demonstrate that there is *no such thing as self-action* in a well-formed model. Every action, even an internal one, can and must be decomposed into an external interaction between a distinct agent and a distinct target. This makes the causal chain explicit and auditable in all domains.
 
-#### 6 · Conformance Checklist
+### 6 · Conformance Checklist
 
 To enforce the principles of externalization and causal clarity, all FPF models must adhere to the following normative checks.
 
@@ -8961,7 +8961,7 @@ To enforce the principles of externalization and causal clarity, all FPF models 
 | **CC-A12.4 (Episteme Carrier as Target)** | When a `U.Episteme` is modified, the `Target` of the transformation **MUST** be its **symbol carrier** (`U.System`), not the `U.Episteme` itself. | Reinforces **Strict Distinction (A.7)**. Knowledge doesn't change by magic; a physical agent must act on its physical representation. |
 | **CC-A12.5 (No Self-Evidence)** | The Agent that performs a transformation **cannot** be the sole source of evidence for the success or properties of that transformation. Evidence **MUST** be anchored via an independent `Observer`. | Prevents conflicts of interest in assurance. The `Transformer` does the work; a separate `Observer` (another RoleAssignment) validates it. This aligns with **A.10 (Evidence Graph Referring)**. |
 
-#### 7 · Consequences
+### 7 · Consequences
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
@@ -8970,7 +8970,7 @@ To enforce the principles of externalization and causal clarity, all FPF models 
 | **Enables True Modularity:** By making interfaces explicit, the pattern supports modular design. A `Regulator` subsystem could potentially be swapped out for a different one as long as it respects the same `U.Interaction` Standard. | - |
 | **Unlocks Deeper Analysis:** Once an internal control loop is made explicit, it can be formally analyzed for stability, performance, and failure modes using tools like the Supervisor-Subsystem Feedback Loop pattern (B.2.5). | - |
 
-#### 8 · Rationale
+### 8 · Rationale
 
 The principle of externalization is not an arbitrary rule imposed by FPF; it is a distillation of foundational concepts from multiple rigorous disciplines.
 
@@ -8981,7 +8981,7 @@ The principle of externalization is not an arbitrary rule imposed by FPF; it is 
 
 By mandating externalization, FPF is not adding bureaucratic overhead. It is enforcing a set of first principles that are demonstrably essential for building complex systems that are understandable, auditable, and trustworthy.
 
-#### 9 · Relations
+### 9 · Relations
 
 *   **Directly Implements:** `C-2 Agent Externalization Principle`.
 *   **Builds Upon:**
@@ -9076,7 +9076,7 @@ While the multi-dimensional `Agency-CHR` profile is essential for formal assuran
 
 **Crucial Distinction:** The `Agency-CHR` profile is the **normative evidence**. The Grade is a **pedagogical shortcut**. An artifact cannot claim a grade without having a corresponding, auditable CHR profile to back it up.
 
-#### 5 · Archetypal Grounding
+### 5 · Archetypal Grounding
 
 The universal pattern of agency, defined as a `Contextual Role Assignment` and measured by the `Agency-CHR`, manifests across all domains. The following table demonstrates its application to the FPF's two primary archetypes: a `U.System` and a collective `U.System` (a team), while explicitly showing why a `U.Episteme` cannot be an agent.
 
@@ -9091,7 +9091,7 @@ The universal pattern of agency, defined as a `Contextual Role Assignment` and m
 **Key takeaway from grounding:**
 This table makes the abstract model concrete. It shows that the FPF agency model can precisely differentiate between simple controllers and complex learning systems. It also reinforces the **Strict Distinction** principle: the ISO standard (`U.Episteme`) is a crucial **justification (`justification?`)** for the actions of an agent (like the DevOps team), but it is never an agent itself.
 
-#### 6 · Conformance Checklist
+### 6 · Conformance Checklist
 
 To ensure the agency model is applied rigorously and consistently, all FPF artifacts must adhere to the following normative checks.
 
@@ -9104,7 +9104,7 @@ To ensure the agency model is applied rigorously and consistently, all FPF artif
 | **CC-A13.5 (Collective as System)** | To claim agency for a collective (e.g., a team, a swarm), the collective **MUST** first be modeled as a `U.System` with a defined `U.Boundary` and a coordination `U.Method`. | Prevents the error of assigning agency to a mere set or collection (`MemberOf`). Aligns with **A.1** and **A.14**. |
 | **CC-A13.6 (MHT for Emergent Agency)** | If a collection of systems, previously non-agential or at a lower grade, develops a new supervisory structure and crosses a documented `Agency-CHR` threshold, a **Meta-Holon Transition (MHT, B.2)** **MUST** be declared. | Makes the emergence of collective agency an explicit, auditable event, preventing "magic" emergence. |
 
-#### 7 · Consequences
+### 7 · Consequences
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
@@ -9113,7 +9113,7 @@ To ensure the agency model is applied rigorously and consistently, all FPF artif
 | **Scalable Autonomy Model:** The graded scale provides a sophisticated language for describing and comparing different levels of autonomy, from simple automation to strategic intelligence. | **Risk of Misinterpreting Grades:** The simple 0-4 scale could be misused as a simplistic marketing label. *Mitigation:* The normative requirement (**CC-A13.4**) to always link a grade to its underlying CHR profile acts as a guardrail against this. |
 | **Elegant Handling of Collectives:** The pattern provides a clean way to model the agency of teams, swarms, and organizations without violating ontological principles. | - |
 
-#### 8 · Rationale
+### 8 · Rationale
 
 This pattern's strength comes from its synthesis of contemporary, post-2015 research into a single, operational model.
 
@@ -9123,7 +9123,7 @@ This pattern's strength comes from its synthesis of contemporary, post-2015 rese
 
 In essence, this pattern does not *invent* a new theory of agency. It **distills and operationalizes** the emerging scientific consensus, packaging it into a rigorous, falsifiable, and practical tool for the FPF ecosystem.
 
-#### 9 · Relations
+### 9 · Relations
 
 *   **Builds on:**
     *   `A.1 Holonic Foundation`: Establishes that only `U.System`s can be bearers of behavioral roles.
@@ -9136,10 +9136,10 @@ In essence, this pattern does not *invent* a new theory of agency. It **distills
 *   **Instantiates:**
     *   The `Agency-CHR` (C.9) architheory, which provides the formal definitions for the characteristics (BMC, PH, etc.).
 
-# A.14 — Advanced Mereology: Components, Portions, Aspects & Phases  \[A]
+## A.14 — Advanced Mereology: Components, Portions, Aspects & Phases  \[A]
 
 
-#### 1 · Context — why an advanced mereology?
+### 1 · Context — why an advanced mereology?
 
 FPF’s holonic world is built from **part–whole** relations. Early drafts distinguished structural vs. conceptual parthood (e.g., **ComponentOf**, **ConstituentOf**) but practical modelling kept hitting two recurrent gaps:
 
@@ -9156,7 +9156,7 @@ It also restates guard‑rails that keep **roles** and **recipes** outside mereo
 
 **Publication note (Working‑Model first).** Read A.14 together with **E.14 Human‑Centric Working‑Model** and **B.3.5 CT2R‑LOG**: publish relations on the **Working‑Model** surface; when assurance is sought, **ground downward**. For structural claims that require extensional identity, use the **Constructive** shoulder via **Compose‑CAL Γ_m (sum | set | slice)**; order/time stay outside mereology (Γ_time / Γ_method).
 
-#### 2 · Problem — what breaks without these distinctions?
+### 2 · Problem — what breaks without these distinctions?
 
 If we only have “generic partOf” (plus Component/Constituent), four classes of errors appear:
 
@@ -9170,7 +9170,7 @@ If we only have “generic partOf” (plus Component/Constituent), four classes 
 
 ---
 
-#### 3 · Forces
+### 3 · Forces
 
 | Force                              | Tension                                                                                                         |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------- |
@@ -9179,7 +9179,7 @@ If we only have “generic partOf” (plus Component/Constituent), four classes 
 | **Identity vs. Change**            | Preserve “the same carrier through change” ↔ allow explicit re‑identification when invariants fail.             |
 | **Static structure vs. Histories** | Part trees should be simple ↔ real work requires phased histories and measured slices.                          |
 
-#### 4 · Solution — extend the mereology catalogue, keep it clean
+### 4 · Solution — extend the mereology catalogue, keep it clean
 
 **A.14 defines two additional sub‑relations of `partOf`** and **re‑affirms the firewall** between mereology and the role/recipe layer:
 
@@ -9190,9 +9190,9 @@ If we only have “generic partOf” (plus Component/Constituent), four classes 
 
 The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** (conceptual, logical/epistemic) remain as in the kernel; A.14 only clarifies **how to tell them apart from Portion/Phase** (§ 6).
 
-#### 5 · Formal cores (normative semantics)
+### 5 · Formal cores (normative semantics)
 
-##### 5.1 PortionOf — metrical part of a measurable whole
+#### 5.1 PortionOf — metrical part of a measurable whole
 
 **Intent.** Capture “some of the same stuff/extent”, governed by a measure that adds up.
 
@@ -9216,7 +9216,7 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 ✘ “The Methods section of the paper” — **ConstituentOf**, not PortionOf.
 
 
-##### 5.2 PhaseOf — temporal part of the same carrier
+#### 5.2 PhaseOf — temporal part of the same carrier
 
 **Intent.** Capture “the same holon during a sub‑interval”, preserving identity through change.
 
@@ -9238,13 +9238,13 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 ✔ “Shift 1 of the same batch run” — PhaseOf(Work\_shift1, Work).
 ✘ “Prototype vs. production unit” — likely **different carriers**; use ComponentOf/ConstituentOf or MHT per criteria.
 
-##### 5.3 CT2R‑LOG & Compose‑CAL handshake *(normative link)*
+#### 5.3 CT2R‑LOG & Compose‑CAL handshake *(normative link)*
 
 * **Structural claims** published on the Working-Model surface **SHALL** be justified, when assurance is required, by a **Constructive** grounding narrative using **Γ_m.sum | Γ_m.set | Γ_m.slice** and **linked with `tv:groundedBy`** (see **B.3.5**; **C.13**).  
 * **PhaseOf** is **temporal parthood**; it **SHALL NOT** be grounded via Γ\_m. Its assurance follows identity‑through‑time criteria (CC‑PHA‑1..3) and Γ\_time ordering (B.1.4).  
 * **MemberOf** remains **non‑mereological** (CC‑MEM‑2). When modelling a collection‑as‑whole for assurance purposes, the constructive basis is **Γ\_m.set**; no **ComponentOf** inferences follow from **MemberOf**.
 
-#### 6 · Choosing the right relation (decision table)
+### 6 · Choosing the right relation (decision table)
 
 | You want to say…                                             | Use                  | Why                                                                                |
 | ------------------------------------------------------------ | -------------------- | ---------------------------------------------------------------------------------- |
@@ -9259,7 +9259,7 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 
 ---
 
-#### 7 · Archetypal grounding (System / Episteme)
+### 7 · Archetypal grounding (System / Episteme)
 
 | Relation                       | `U.System` example                                     | `U.Episteme` example                                        |
 | ------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------- |
@@ -9269,9 +9269,9 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 | **PhaseOf**                    | PumpUnit#3 *before*/*after* calibration (same serial). | Spec v1 → v2 (same document lineage).                       |
 | MemberOf (for reference) | “is an element of a collection/collective”; use when a grouping is explicitly treated as a whole set, without implying component integration. Not a building block of the whole; **constructive aggregation** is handled in **C.13 Compose‑CAL** (`Γ_m.set`). If the grouping is expected to **act**, model a **collective system** (A.15). |
 
-#### 8 · Conformance Checklist & type guards (normative)
+### 8 · Conformance Checklist & type guards (normative)
 
-##### **8.1 Global firewall and scope**
+### **8.1 Global firewall and scope**
 
 | ID            | Requirement                                                                                 | Purpose                                                 |
 | ------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -9279,7 +9279,7 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 | **CC‑A14‑0b** | `MemberOf` **MUST NOT** imply, entail, or be auto‑rewritten into any `partOf` sub‑relation. | Separates collections/collectives from parthood.        |
 | **CC‑A14‑0c** | `SerialStepOf` / `ParallelFactorOf` **MUST NOT** appear in any `partOf` chain or table in A.14; model order via **A.15** (**Γ_ctx/Γ_method**). | Prevents the “order‑as‑structure” category error.       |
 
-##### **8.2 PortionOf guards**
+### **8.2 PortionOf guards**
 
 | ID                                 | Requirement                                                                                                                                                               | Purpose                                 |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -9289,7 +9289,7 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 | **CC‑POR‑4 (Boundary)**            | For physical systems, the whole’s boundary encloses the union of portions; cross‑boundary flows are **not** portions.                                                     | Distinguishes stock vs flow.            |
 | **CC‑POR‑5 (Non‑replacement)**     | “Replacing 20% of y by v” **MUST** be modelled as **PortionOf** removal + **Component/Constituent** insertion, not as a single PortionOf rewrite.                         | Avoids silent identity change.          |
 
-##### **8.3 PhaseOf guards**
+### **8.3 PhaseOf guards**
 
 | ID                                    | Requirement                                                                                                                                                      | Purpose                                |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
@@ -9299,7 +9299,7 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 | **CC‑PHA‑4 (Escalation)**             | If identity criteria fail during change, declare a **Meta‑Holon Transition** (B.2) instead of PhaseOf.                                                           | Makes re‑identification explicit.      |
 | **CC‑PHA‑5 (MethodDescription & Work)**      | Versions of **MethodDescription** and slices of **Work** **SHALL** use `PhaseOf` (A.15); PhaseOf never applies to `U.Role`.                                             | Aligns with A.15 bindings.             |
 
-##### **8.4 Anchoring & validation (normative)**
+### **8.4 Anchoring & validation (normative)**
 
 | ID              | Requirement                                                                                                      | Purpose                                           |
 | ----------------| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -9309,7 +9309,7 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 
 *Note.* Property names and trace semantics are defined in the CT2R‑LOG / Compose‑CAL architheories.
 
-##### **8.5 MemberOf minimal semantics (non‑mereological)**
+### **8.5 MemberOf minimal semantics (non‑mereological)**
 
 | ID           | Requirement                                                                                       | Purpose                               |
 | ------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------- |
@@ -9318,14 +9318,14 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 | **CC‑MEM‑3** | **Constructive aggregation of collections** is provided by **C.13 Compose‑CAL** (`Γ_m.set`); **agency of collectives** is specified outside A.14 (see **A.15 Role–Method–Work**). | Keeps A.14 narrow and clean.          |
 
 
-##### **8.5 CT2R‑LOG handshake (Working‑Model → Assurance)**
+### **8.5 CT2R‑LOG handshake (Working‑Model → Assurance)**
 
 | ID                 | Requirement                                                                                                                                                              | Purpose                                                                                 |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | **CC-A14-10**      | For **structural** edges on the Working-Model surface, authors **SHALL** set `validationMode=axiomatic` and attach **`tv:groundedBy → Γ_m.sum|set|slice`**.      | Aligns A.14 with CT2R-LOG (**B.3.5**) and Compose-CAL (**C.13**); ensures extensional identity. |
 | **CC‑A14‑11**      | **PhaseOf** edges **SHALL NOT** use Γ\_m for grounding. Authors **SHALL** provide identity criteria and non‑overlap per **CC‑PHA‑1..3** and reference **Γ\_time** when ordering matters. | Keeps temporal parthood distinct from construction; preserves the plane firewall.       |
 
-#### 9 · Validation patterns (author’s decision procedure)
+### 9 · Validation patterns (author’s decision procedure)
 
 **Step 0 — Firewall check.**
 If your sentence contains *role*, *policy*, *process/workflow/SOP/script*, or *execution/run/job*, you are **not** in mereology; go to **A.15** (Role–Method–Work).
@@ -9353,7 +9353,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 
 ---
 
-#### 10 · Interplay with Γ‑flavours (how these relations behave under aggregation)
+### 10 · Interplay with Γ‑flavours (how these relations behave under aggregation)
 
 | Γ‑flavour                    | Mereological hooks (what A.14 supplies)                                                                                                                | Key effect                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
@@ -9363,7 +9363,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 | **Γ\_method (B.1.5)**          | Recipes are **MethodDescription** graphs (not parthood). When a recipe refers to stuff‑like inputs, those are **PortionOf** statements on resources.          | Separates recipe composition from structure.                                                  |
 | **Γ\_work (B.1.6)**          | Only **Work** carries resource deltas; when logging “consumed 5 kg from Tank A”, model it as **PortionOf** relation to the stock prior to consumption. | Makes Σ‑balance explicit; aligns with CC‑POR‑3/4.                                             |
 
-#### 11 · Consequences
+### 11 · Consequences
 
 **Benefits**
 
@@ -9378,7 +9378,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 * **More relation names.** Two extra sub‑relations increase vocabulary; mitigated by the decision table (§ 6) and spot‑tests (§ 9).
 * **Escalation discipline.** Deciding PhaseOf vs MHT requires judgement; A.14 provides criteria, and B.2 captures true re‑identification.
 
-#### 12 · Pedagogy aids (non‑normative)
+### 12 · Pedagogy aids (non‑normative)
 
 **Two‑minute checklist for reviewers**
 
@@ -9387,7 +9387,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 3. Do phases cover a lifetime without overlap for the same aspect?
 4. Are any roles/recipes appearing as parts? If yes, stop and refactor.
 
-#### 13 · Patch map (where to touch in the working file)
+### 13 · Patch map (where to touch in the working file)
 
 1. **Kernel · Holonic Mereology (§ A.1 → A.14)**
    *Add* sub‑sections “PortionOf” and “PhaseOf” with axioms (POR‑1..5, PHA‑1..5).
@@ -9405,7 +9405,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 
 Each edited heading should carry the badge **“► decided‑by: A.14 Advanced Mereology”**.
 
-#### 14 · Rationale (state‑of‑the‑art alignment, post‑2015)
+### 14 · Rationale (state‑of‑the‑art alignment, post‑2015)
 
 * **Metrical mereology** advances (e.g., recent work on quantity‑based parthood and additivity) motivate **PortionOf** with explicit μ and Σ‑laws, preventing the classic “stuff as components” fallacy.
 * **Temporal parts & identity through change** (renewed treatments in analytic metaphysics and formal ontology) motivate **PhaseOf** with coverage/non‑overlap and escalation when identity criteria fail.
@@ -9413,9 +9413,9 @@ Each edited heading should carry the badge **“► decided‑by: A.14 Advanced 
 * **Knowledge artefact lifecycles** in contemporary MBSE and open‑science workflows use explicit versioning (our PhaseOf) and provenance‑preserving composition (our ConstituentOf).
 * The net effect is a **minimal‑sufficient** catalogue: two added sub‑relations close real modelling gaps while preserving **parsimony**, **didactic clarity**, and **Γ‑compatibility** across domains.
 
-### A.15 Role–Method–Work Alignment (Contextual Enactment)  \[A]
+## A.15 Role–Method–Work Alignment (Contextual Enactment)  \[A]
 
-#### 1 · Intent & Context
+### 1 · Intent & Context
 
 In any complex system, from a software project to a biological cell, there is a fundamental distinction between **what something is** (its structure), **what it is supposed to do** (its role and specified capability), and **what it actually does** (its work). Confusing these layers is a primary source of design flaws, budget overruns, and failed projects. Teams argue about a "process" without clarifying if they mean the documented procedure, the team's ability to execute it, or a specific execution that happened last Tuesday.
 
@@ -9430,7 +9430,7 @@ To keep plan–run separation explicit, this pattern references **A.15.2 `U.Work
 
 **Terminology note (L‑ACT).** The words _action/activity_ are **not normative** in the kernel. When a generic “doing” is needed, we use the didactic term **enactment** (not a type). Normative references must be to **`U.Method` / `U.MethodDescription` / `U.Work` / `U.WorkPlan`**. See lexical rules **L‑PROC / L‑FUNC / L‑SCHED / L‑ACT**
 
-#### 2 · Problem
+### 2 · Problem
 
 Without this formal framework, models suffer from a cascade of category errors:
 
@@ -9440,7 +9440,7 @@ Without this formal framework, models suffer from a cascade of category errors:
 4.  **Work-without-Context:** An instance of work is logged without a clear link back to the role, capability, and specification that governed it, making the work unauditable and its results impossible to reproduce.
 5.  **Ambiguous "Process/Activity":** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication that paralyzes decision-making. Activity/action terms must be resolved via L‑ACT to Method/MethodDescription (recipe), WorkPlan (schedule), or Work (run).
 
-#### 3 · Forces
+### 3 · Forces
 
 | Force | Tension |
 | :--- | :--- |
@@ -9449,7 +9449,7 @@ Without this formal framework, models suffer from a cascade of category errors:
 | **Clarity vs. Jargon** | The need for a precise, formal vocabulary to prevent ambiguity vs. the reality that teams use informal, domain-specific jargon like "process" or "workflow." |
 | **Accountability vs. Complexity** | The need for a complete, end-to-end audit trail for every action vs. the desire to keep models simple and avoid excessive documentation. |
 
-#### 4 · Solution
+### 4 · Solution
 The solution is a stratified alignment that cleanly separates the `design-time` and `run-time` for contextual **enactment**. The bridge between these worlds is the **`U.RoleAssignment`**.
 
 #### 4.1 The Core Entities: A Strict Distinction
@@ -9533,7 +9533,7 @@ _At run time, capability thresholds declared by the context/spec are **checked**
 
 This chain provides complete traceability: a specific instance of `Work` can be traced back through its `Capability` to its `MethodDescription`, and to the `Agent` (`Holder` + `Role` + `Context`) that was authorized and responsible for its execution.
 
-#### 5 · Archetypal Grounding
+### 5 · Archetypal Grounding
 
 The Contextual Action Framework is universal. It applies identically to the modeling of physical engineering processes, knowledge work, and socio-technical systems.
 
@@ -9550,7 +9550,7 @@ The Contextual Action Framework is universal. It applies identically to the mode
 **Key takeaway from grounding:**
 This side-by-side comparison reveals the power of the framework. A seemingly different activity like welding a car chassis and reviewing a scientific paper are shown to have the **exact same underlying causal structure**. Both involve a `Holder` (a system) acting in a `Role` within a `Context`, using a `Capability` described by a `MethodDescription` to produce a specific, auditable instance of `Work`. This universality is what allows FPF to bridge disparate domains.
 
-#### 6 · Conformance Checklist
+### 6 · Conformance Checklist
 
 To ensure the integrity of action modeling, all FPF-compliant models must adhere to the following normative checks.
 
@@ -9568,7 +9568,7 @@ To ensure the integrity of action modeling, all FPF-compliant models must adhere
 | **CC-A15-10 (GateSplit)** | A SpeechAct that changes a Role’s state (e.g., “Approve”, “Authorize”) MUST be modeled as a distinct `U.Work` step (kind=Communicative). It may open the Green‑Gate for a subsequent operational step, but it SHALL NOT be conflated with that step. | |
 | **CC-A15-11 (KindFit)** The `U.Role` named in the `performedBy` assignment SHALL be appropriate for the Work kind (e.g., ApproverRole for Communicative approvals; DeployerRole for Operational deployments). | |
 
-#### 7 · Consequences
+### 7 · Consequences
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
@@ -9577,7 +9577,7 @@ To ensure the integrity of action modeling, all FPF-compliant models must adhere
 | **Enables True Modularity:** By separating capability from execution, the framework allows for easier substitution. A `MethodDescription` can be updated without invalidating past `Work` records. A `Holder` can be replaced with another, as long as it possesses the same `Capability`. | - |
 | **Foundation for Governance:** The model makes it possible to build powerful governance rules. For example: "Only an `Agent` with `AuditorRole` can execute `Work` that instantiates the `ApproveRelease` capability." | - |
 
-#### 8 · Rationale
+### 8 · Rationale
 
 This pattern solves a problem that has plagued systems modeling for decades: the conflation of what a system *is* with what it *does*. Its rigor is not arbitrary but is grounded in several key intellectual traditions.
 
@@ -9587,7 +9587,7 @@ This pattern solves a problem that has plagued systems modeling for decades: the
 
 By creating this clean, stratified alignment for enactment, FPF provides a stable and scalable foundation for all of its more advanced architheories, from resource management (`Resrc-CAL`) and decision theory (`Decsn-CAL`) to ethics (`Norm-CAL`).
 
-#### 9 · Relations
+### 9 · Relations
 
 *   **Directly Implements:** `A.7 Strict Distinction`.
 *   **Builds Upon:** `A.2 (U.Role)`, `A.2.1 (U.RoleAssignment)`, `A.4 (Temporal Duality)`, `A.12 (External Transformer)`.
@@ -9600,15 +9600,15 @@ By creating this clean, stratified alignment for enactment, FPF provides a stabl
 * **Constrains:** Any architheory that models actions or processes must use this framework to be conformant. It serves as the canonical alignment for **contextual enactment** in the FPF ecosystem.
 * **Coordinates with** L‑PROC / L‑FUNC / L‑SCHED (E‑cluster) for lexical disambiguation of _process / workflow / schedule_.
 
-# A.15.1 — U.Work  \[D]
+## A.15.1 — U.Work  \[D]
 
-## 1 · Problem Frame
+### 1 · Problem Frame
 
 After we have agreed **who is assigned** (via **Role assignment**), **what they can do** (via **Capability**), and **how in principle** it should be done (via **Method/MethodDescription**), we still need a precise concept for **what actually happened** in real time and space.
 
 That concept is **`U.Work`**: the **dated run‑time occurrence** of enacting a MethodDescription by a specific performer under a Role assignment, with concrete parameter bindings, resource consumption, and outcomes, **anchored to a domain referent that actually changes** (asset/product/dataset) — **not** merely the manipulation of records about that referent. Managers care about Work because it is the **only place** where cost, time, defects, and evidence are **real**. Architects care because Work ties plans and specs to accountable execution.
 
-## 2 · Problem (what breaks without a clean notion of Work)
+### 2 · Problem (what breaks without a clean notion of Work)
 
 1. **Plan/run confusion.** Schedules and diagrams get mistaken for “the process,” so audits and KPIs become fiction.
 2. **Spec/run conflation.** A method description (code/SOP) is reported as if it were an execution; conversely, logs are treated as recipes.
@@ -9616,7 +9616,7 @@ That concept is **`U.Work`**: the **dated run‑time occurrence** of enacting a 
 4. **Resource dishonesty.** Energy/money/tool wear are booked to methods or roles, not to actual runs; costing and sustainability metrics drift.
 5. **Mereology muddle.** Teams hand‑wave over “sub‑runs,” retries, overlaps, or long‑running episodes; roll‑ups double‑count or miss work.
 
-## 3 · Forces (what the definition must balance)
+### 3 · Forces (what the definition must balance)
 
 | Force                              | Tension we resolve                                                                                    |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -9626,16 +9626,16 @@ That concept is **`U.Work`**: the **dated run‑time occurrence** of enacting a 
 | **Identity vs. retries**           | A failed attempt, a retry, and a resumed episode—what is “the same” work?                             |
 | **Time realism vs. simplicity**    | We need intervals and coverage but cannot bury users in temporal logic notation.                      |
 
-## 4 · Solution — define `U.Work` as the accountable, dated occurrence
+### 4 · Solution — define `U.Work` as the accountable, dated occurrence
 
-### 4.1 Definition
+#### 4.1 Definition
 
 **`U.Work`** is a **4D occurrence holon**: a **dated run‑time enactment** of a `U.MethodDescription` by a performer designated through a `U.RoleAssignment`, **executed within a concrete `U.System/SubSystem`**, inside a `U.BoundedContext`, that binds concrete parameters, consumes/produces resources, and leaves an auditable trace. 
 Each `U.Work` is a **morphism** `Δ` on a declared **state‑plane** (`StatePlaneRef`), mapping ⟨**pre‑state**, **inputs**⟩ to ⟨**post‑state**, **outputs**⟩ for one or more **affected referents**.
 
 > **Memory aid:** *Work = “how it went this time”* (dated, resourced, accountable).
 
-### 4.2 Core anchors (conceptual descriptors; not a data schema)
+#### 4.2 Core anchors (conceptual descriptors; not a data schema)
 
 When you describe a Work instance in a review, answer these prompts:
 
@@ -9652,7 +9652,7 @@ When you describe a Work instance in a review, answer these prompts:
 11. **System** — `executedWithin → U.System` (the operational system/sub‑system accountable for the occurrence; **mandatory**).
 12. **Evidence & Telemetry (optional)** — if the run feeds **G.11** refresh or QD/OEE archives, cite **PathId/PathSliceId** and active **policy‑id** used for illumination; do not elevate gauges into dominance without CAL policy.
 
-### 4.3 Clear distinctions (the four‑slot grammar in action)
+#### 4.3 Clear distinctions (the four‑slot grammar in action)
 
 | You are pointing at…                          | The right FPF concept  | Litmus                                                          |
 | --------------------------------------------- | ---------------------- | --------------------------------------------------------------- |
@@ -9663,7 +9663,7 @@ When you describe a Work instance in a review, answer these prompts:
 | The **dated occurrence** with logs, resources | **Work**               | Did it happen at (t₀, t₁), consume resources, produce outcomes? |
 | The **state change caused this time**         | **Work.Δ**             | Did the referent move from pre→post on the declared state‑plane? |
 
-### 4.4 Publication (MVPK guard‑rails for `U.Work`) — *normative*
+#### 4.4 Publication (MVPK guard‑rails for `U.Work`) — *normative*
 Publication of `U.Work` across MVPK faces **must** be a typed projection that does **not** mutate intensional semantics (A.7; E.17). Concretely:
 1. **No new claims.** Faces (**PlainView / TechCard / InteropCard / AssuranceLane**) **SHALL NOT** introduce properties beyond the `U.Work` intensional arrow; they **project** presence‑pins only (time window, performer, spec, parameter‑binding occurrence, resource ledger presence, acceptance verdict presence). Numeric/comparable content appears **only** with pins (see 4.4‑4.5 below); **“signature”** is banned on faces.
 2. **No Γ‑leakage.** Faces **MUST NOT** smuggle Γ semantics (union/hull/overlap policy, budget algebra) into prose; whenever aggregation is shown, the face **cites** the Γ‑operator and policy‑id used. Compute totals outside the face per B.1; faces carry **references**, not implied Γ rules.
@@ -9673,15 +9673,15 @@ Publication of `U.Work` across MVPK faces **must** be a typed projection that do
 6. **Cross‑tier citations.** Any citation of AT1/AT2 artefacts on a `U.Work` face **MUST** carry **BridgeCard + UTS row** (with plane notes and CL routing).
 7. **No surrogate‑run creation.** Faces **MUST NOT** synthesize “virtual runs” from reconstructed records alone; a face may reference only `U.Work` instances that meet Δ‑anchoring in §4.2/§8.
 
-### 4.5 ATS profile & crossings (tier discipline) — *normative*
+#### 4.5 ATS profile & crossings (tier discipline) — *normative*
 * **Tier.** `U.Work` is **AT0**. Any face that cites AT1/AT2 artefacts (e.g., ComparatorSet, CG‑Spec editions) **MUST** include **BridgeCard + UTS row** and record **Φ(CL)/Φ^plane** policy‑ids; **penalties reduce `R_eff` only**.
 * **Binding discipline.** **Launch values bind only here** (occurrence). Plan‑time proposals remain proposals; do not back‑fill plan faces with run‑time bindings. **Pre/post state anchors bind here** (pre at start; post at completion or at declared checkpoints).
 
-## 5 · Work mereology (how runs form holarchies)
+### 5 · Work mereology (how runs form holarchies)
 
 We adopt a **4D extensional** stance for occurrences: a Work is identified primarily by its **spatiotemporal extent** and its execution anchors (spec used, performer, parameterization). This avoids double‑counting and keeps aggregation sound. FPF adapts insights from BORO/constructive ontologies to Work while staying practical.
 
-### 5.1 Parts and wholes of Work (design‑neutral, run‑time facts)
+#### 5.1 Parts and wholes of Work (design‑neutral, run‑time facts)
 
 * **Temporal‑part (`TemporalPartOf_work`).** A proper **time‑slice** of a Work (e.g., the first 10 minutes of a 2‑hour run). Useful for monitoring and SLAs.
 * **Episode‑part (`EpisodeOf_work`).** A **resumption fragment** after an interruption (same run identity if policy deems it one episode; see 5.5).
@@ -9690,7 +9690,7 @@ We adopt a **4D extensional** stance for occurrences: a Work is identified prima
 
 **Didactic rule:** **Method composition ≠ proof of Work decomposition.** Sub‑runs often map to method factors, but retries, batching, pipelining, and failures make the mapping non‑isomorphic.
 
-### 5.2 Key relations among Work
+#### 5.2 Key relations among Work
 
 * **`precedes/happensBefore`** — strict partial order on Work windows.
 * **`overlaps`** — intervals intersect but neither contains the other.
@@ -9701,7 +9701,7 @@ We adopt a **4D extensional** stance for occurrences: a Work is identified prima
 
 These relations are **run‑time facts**, not design assumptions.
 
-### 5.3 Operators for roll‑ups (Γ\_time and Γ\_work)
+#### 5.3 Operators for roll‑ups (Γ\_time and Γ\_work)
 
 * **Temporal coverage — `Γ_time(S)`**
   For a set `S` of Work parts, returns a **coverage interval set** (union of intervals) or, when required, the **convex hull** `[min t₀, max t₁]`. Use **union** for utilization; use **hull** for lead time.
@@ -9713,7 +9713,7 @@ These relations are **run‑time facts**, not design assumptions.
 
 **Manager’s tip:** Pick the coverage operator that matches your KPI: **union** for machine utilization; **hull** for calendar elapsed; never mix silently.
 
-### 5.4 Identity of a Work (extensional criterion, pragmatically framed)
+#### 5.4 Identity of a Work (extensional criterion, pragmatically framed)
 
 Two Work records refer to the **same Work** iff, in the relevant context:
 
@@ -9724,7 +9724,7 @@ Two Work records refer to the **same Work** iff, in the relevant context:
 
 If any of these differ (or the context declares equivalence absent), they are **distinct** Work instances (e.g., a retry).
 
-### 5.5 Interruptions, retries, resumptions (episode policy)
+#### 5.5 Interruptions, retries, resumptions (episode policy)
 
 * **Retry:** **new Work** with its own window and parameters; link via `retryOf`.
 * **Resumption:** **same Work identity** split into **episodes** if the context’s **episode policy** declares so (e.g., “power loss under 5 minutes keeps identity”).
@@ -9732,13 +9732,13 @@ If any of these differ (or the context declares equivalence absent), they are **
 
 **Why it matters:** plans, costs, and quality stats depend on whether you treat a disruption as **one episode** or **a new run**. Declare the policy **in the bounded context**.
 
-### 5.6 Compositionality of effects (Δ)
+#### 5.6 Compositionality of effects (Δ)
 
 For any Work with parts, the **effect of the whole** must be the **rules‑declared composition** of the effects of its parts plus any declared overheads/residuals. Composition must align with the overlap rules used by `Γ_work` (e.g., no double‑count of shared fixed costs, and consistent attribution of variable deltas).
 
-## 6 · Archetypal grounding (parallel domains)
+### 6 · Archetypal grounding (parallel domains)
 
-### 6.1 Surgical case (overlap and episodes)
+#### 6.1 Surgical case (overlap and episodes)
 
 * **Top run:** `Appendectomy_Case#2025‑08‑10T09:05–11:42`.
 * **Spec:** `Appendectomy_v5` (MethodDescription).
@@ -9748,7 +9748,7 @@ For any Work with parts, the **effect of the whole** must be the **rules‑decla
 * **Γ\_time:** union for OR utilization; hull for patient lead time.
 * **Γ\_work:** totals consumables and staff time once (no double‑count for overlapping sub‑runs).
 
-### 6.2 ETL pipeline (parallelism and retries)
+#### 6.2 ETL pipeline (parallelism and retries)
 
 * **Top run:** `ETL_Nightly_2025‑08‑11T01:00–01:47`.
 * **Spec:** `ETL_v12.bpmn`.
@@ -9758,7 +9758,7 @@ For any Work with parts, the **effect of the whole** must be the **rules‑decla
 * **Γ\_time:** hull for SLA, union for cluster utilization.
 * **Γ\_work:** sum compute minutes; attribute storage I/O once at the parent.
 
-### 6.3 Thermodynamic cycle (work as a path)
+#### 6.3 Thermodynamic cycle (work as a path)
 
 * **Run:** `Carnot_Cycle_Run#2025‑08‑09T13:00–13:06`.
 * **Spec:** `Carnot_Cycle_Spec` (MethodDescription with Dynamics model).
@@ -9768,13 +9768,13 @@ For any Work with parts, the **effect of the whole** must be the **rules‑decla
 
 ---
 
-## 7 · Bias‑Annotation (as in E‑cluster)
+### 7 · Bias‑Annotation (as in E‑cluster)
 
 * **Lenses tested:** `Prag`, `Arch`, `Did`, `Epist`.
 * **Scope declaration:** Universal; temporal semantics and episode policy are **context‑local** via `U.BoundedContext`.
 * **Rationale:** Gives FPF a clean, actionable notion of **occurrence** compatible with `U.RoleAssignment` / **Role Enactment** (A.2.1; A.15) and with 4D extensional thinking, so that costing, quality, and audit rest on **runs**, not on plans or recipes.
 
-## 8 · Conformance Checklist (normative)
+### 8 · Conformance Checklist (normative)
 
 **CC‑A15.1‑1 (Strict distinction).**
 `U.Work` is a **dated run‑time occurrence**. It is **not** a `U.Method` (semantic way), **not** a `U.MethodDescription` (description), **not** a `U.Role/RoleAssigning` (assignment), and **not** a `U.WorkPlan` (plan/schedule).
@@ -9867,9 +9867,9 @@ Logs/telemetry are **evidence** for a Work; they **do not constitute** a Work un
 
 **CC‑A15.1‑29 (Telemetry hooks, when applicable).** If a Work instance feeds **G.11** or QD/OEE portfolios, it **SHALL** include `PathId/PathSliceId` and the active **policy‑id** in its evidence; illumination remains a **gauge** unless CAL explicitly promotes it.
 
-## 9 · Temporal & Aggregation Semantics (normative operators & invariants)
+### 9 · Temporal & Aggregation Semantics (normative operators & invariants)
 
-### 9.1 Temporal coverage `Γ_time`
+#### 9.1 Temporal coverage `Γ_time`
 
 * **Input:** a finite set `S` of Work instances or Work parts.
 * **Output:** either (a) the **union** of their intervals, or (b) the **convex hull** `[min t_start, max t_end]`—**as declared by context** and KPI.
@@ -9884,7 +9884,7 @@ Logs/telemetry are **evidence** for a Work; they **do not constitute** a Work un
   * Use **hull** for **lead/cycle time** (elapsed from first touch to last release).
   * **Manager’s tip:** Write the choice near the KPI; many disputes are just a hidden union‑vs‑hull mismatch.
 
-### 9.2 Resource aggregation `Γ_work`
+#### 9.2 Resource aggregation `Γ_work`
 
 * **Input:** a finite set `S` of Work instances or parts with resource ledgers.
 * **Output:** an **aggregated ledger** (materials, energy, machine‑time, money, tool wear) with explicit **overlap policy**.
@@ -9899,7 +9899,7 @@ Logs/telemetry are **evidence** for a Work; they **do not constitute** a Work un
   * **Pro‑rata by wall‑time:** split overlaps by relative durations.
   * **Driver‑based:** allocate by a declared driver (e.g., CPU share, weight, priority).
 
-## 10 · Cross‑context checks (MethodDescription ↔ RoleAssigning ↔ Work)
+### 10 · Cross‑context checks (MethodDescription ↔ RoleAssigning ↔ Work)
 
 When a Work is recorded, perform these **three quick checks**:
 
@@ -9919,7 +9919,7 @@ When a Work is recorded, perform these **three quick checks**:
 
 ---
 
-## 11 · Anti‑patterns (and the right move)
+### 11 · Anti‑patterns (and the right move)
 
 * **“The log is the process.”** Dumping telemetry without binding (spec, performer, context) → **Not Work**. Create a Work, link the log as evidence.
 * **Record‑only transforms.** ETL/replication of records with no declared affected referent (product/dataset as product) → **Not Work** in this context; either declare the dataset as the product referent or move it to `U.WorkPlan`/operations‑support.
@@ -9932,7 +9932,7 @@ When a Work is recorded, perform these **three quick checks**:
 
 ---
 
-## 12 · Migration notes (quick wins)
+### 12 · Migration notes (quick wins)
 
 1. **Backfill links.** For existing logs, create Work records and attach `isExecutionOf` and `performedBy`.
 2. **Name the context.** Pick the judgement context explicitly; add Bridges if multiple contexts must accept.
@@ -9944,7 +9944,7 @@ When a Work is recorded, perform these **three quick checks**:
 
 ---
 
-## 13 · Consequences
+### 13 · Consequences
 
 | Benefits                                                                                                                 | Trade‑offs / mitigations                                                                   |
 | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
@@ -9955,7 +9955,7 @@ When a Work is recorded, perform these **three quick checks**:
 
 ---
 
-## 14 · Relations
+### 14 · Relations
 
 * **Builds on:** A.1 Holonic Foundation; A.1.1 `U.BoundedContext`; **U.System**; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`; A.3.1 `U.Method`; A.3.2 `U.MethodDescription`.
 * **Coordinates with:** A.15 Role–Method–Work Alignment (the “four‑slot grammar”); B.1 Γ (aggregation) for resource/time operators; E‑cluster lexical rules (L‑PROC/L‑FUNC).
@@ -9963,7 +9963,7 @@ When a Work is recorded, perform these **three quick checks**:
 
 ---
 
-## 15 · Didactic quick cards
+### 15 · Didactic quick cards
 
 * **What is Work?** *How it went this time* → dated, resourced, accountable.
 * **Four‑slot grammar:** Who? **RoleAssigning**. Can? **Capability**. How? **Method/MethodDescription**. Did? **Work**.
@@ -9972,10 +9972,10 @@ When a Work is recorded, perform these **three quick checks**:
 * **Episodes vs retries:** same run split vs new run; write the policy.
 * **Resource honesty:** actuals booked **only** to Work; estimates live in specs.
 
-# A.15.2 — U.WorkPlan  \[D]
+## A.15.2 — U.WorkPlan  \[D]
 
 
-## 1 · Context (plain‑language motivation)
+### 1 · Context (plain‑language motivation)
 
 Operations live on **time**. Even with perfect roles, abilities, and methods, nothing ships unless we **decide when and by whom** concrete runs **should** happen, under what **constraints** and **budgets**. Teams need a first‑class concept for **plans and schedules** that does **not** get confused with:
 
@@ -9988,7 +9988,7 @@ Operations live on **time**. Even with perfect roles, abilities, and methods, no
 
 ---
 
-## 2 · Problem (what breaks without `WorkPlan`)
+### 2 · Problem (what breaks without `WorkPlan`)
 
 1. **“Workflow = schedule” conflation.** Flowcharts or code are used as calendars; resource clashes and SLA misses follow.
 2. **Plan/run blur.** Gantt bars or Kanban tickets are reported as if the work already happened; audits and costing degrade.
@@ -9998,7 +9998,7 @@ Operations live on **time**. Even with perfect roles, abilities, and methods, no
 
 ---
 
-## 3 · Forces (what we must balance)
+### 3 · Forces (what we must balance)
 
 | Force                              | Tension we resolve                                                                                      |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -10010,9 +10010,9 @@ Operations live on **time**. Even with perfect roles, abilities, and methods, no
 
 ---
 
-## 4 · Solution — the `U.WorkPlan` as the time‑bound intention to execute Work
+### 4 · Solution — the `U.WorkPlan` as the time‑bound intention to execute Work
 
-### 4.1 Definition
+#### 4.1 Definition
 
 **`U.WorkPlan`** is an **`U.Episteme`** that **declares intended `U.Work` occurrences** over a horizon, with **planned windows**, **dependencies**, **intended performers** (as **role kinds** or **proposed RoleAssignings**), **resource budgets/reservations**, and **acceptance targets**—**within a `U.BoundedContext`**.
 
@@ -10021,7 +10021,7 @@ Operations live on **time**. Even with perfect roles, abilities, and methods, no
 > **WorkPlan** = *when, by whom in intent, under which constraints*.
 > **Work** = *how it went this time*.
 
-### 4.2 Plan Items (what a `WorkPlan` is made of)
+#### 4.2 Plan Items (what a `WorkPlan` is made of)
 
 A `U.WorkPlan` **contains Plan Items** (think: scheduled tasks/ops), each of which typically states:
 
@@ -10037,7 +10037,7 @@ A `U.WorkPlan` **contains Plan Items** (think: scheduled tasks/ops), each of whi
 
 > **Didactic guardrail:** **No logs or actuals** belong in a WorkPlan; **no step logic** or solver internals either—that’s the Method/Spec.
 
-### 4.3 Clear distinctions (lexical sanity for “schedule/process/workflow”)
+#### 4.3 Clear distinctions (lexical sanity for “schedule/process/workflow”)
 
 | If you say…                                 | In FPF it is…                                        | Why                                               |
 | ------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------- |
@@ -10050,7 +10050,7 @@ A `U.WorkPlan` **contains Plan Items** (think: scheduled tasks/ops), each of whi
 
 > **L‑SCHED (lexical rule).** In this document, words like **schedule**, **calendar**, **rota**, **Gantt**, **plan** point to **`U.WorkPlan`** unless explicitly redefined by a bounded context glossary.
 
-### 4.4 Plan mereology (composition of plans ≠ composition of methods or runs)
+#### 4.4 Plan mereology (composition of plans ≠ composition of methods or runs)
 
 Keep three separations crystal‑clear:
 
@@ -10067,7 +10067,7 @@ Keep three separations crystal‑clear:
 
 **Didactic rule:** A Plan Item **does not force** an identical Work shape; mapping is via **fulfilment** and **variance** (see §6).
 
-### 4.5 How `WorkPlan` meets `Work` (fulfilment & variance)
+#### 4.5 How `WorkPlan` meets `Work` (fulfilment & variance)
 
 When reality happens, each `U.Work` may:
 
@@ -10088,7 +10088,7 @@ When reality happens, each `U.Work` may:
 
 ---
 
-## 5 · What a good `WorkPlan` states (review checklist)
+### 5 · What a good `WorkPlan` states (review checklist)
 
 Use this as a human‑readable checklist (not a rigid schema):
 
@@ -10105,23 +10105,23 @@ Use this as a human‑readable checklist (not a rigid schema):
 
 ---
 
-## 6 · Archetypal grounding (parallel domains)
+### 6 · Archetypal grounding (parallel domains)
 
-### 6.1 Hospital OR day plan (shift rota + cases)
+#### 6.1 Hospital OR day plan (shift rota + cases)
 
 * **WorkPlan:** `OR_DayPlan_2025‑08‑12`.
 * **Plan Items:** `Case#1 Appendectomy`, `Case#2 Hernia`, with windows, Context assignments, and surgeon **role kinds**; anesthetist **intended RoleAssigning** provided.
 * **Budgets:** OR time blocks, consumables envelopes.
 * **Fulfilment:** Each surgery Work links to its Plan Item; variances computed (over‑run time, substitutions).
 
-### 6.2 Fab maintenance weekend (asset reservations)
+#### 6.2 Fab maintenance weekend (asset reservations)
 
 * **WorkPlan:** `Fab_Maintenance_W36`.
 * **Plan Items:** `Tool_42 chamber clean`, `Tool_13 calibration`; **MutuallyExclusive\_pl** with production slots.
 * **Reservations:** nitrogen, DI water, metrology window.
 * **Fulfilment:** Actual clean Work happens earlier; variance logged as **early** with cost underrun.
 
-### 6.3 Data‑center rollout (multi‑context plan)
+#### 6.3 Data‑center rollout (multi‑context plan)
 
 * **WorkPlan:** `DC_Rollout_Phase‑2`.
 * **Bridges:** Ops context ↔ Security Audit context (different acceptance targets).
@@ -10130,7 +10130,7 @@ Use this as a human‑readable checklist (not a rigid schema):
 
 ---
 
-## 7 · Bias‑Annotation (as in E‑cluster)
+### 7 · Bias‑Annotation (as in E‑cluster)
 
 * **Lenses tested:** `Did`, `Prag`, `Arch`, `Epist`.
 * **Scope declaration:** Universal; meanings of windows/budgets/permissions are **context‑local** via `U.BoundedContext`.
@@ -10490,7 +10490,7 @@ FPF’s kernel already standardizes **what** is measured (a **Characteristic**, 
 
 #### 5.1 `U.CharacteristicSpace`
 
-##### 5.1.1 Type signature
+#### 5.1.1 Type signature
 
 Let **I** be a finite index set labeling a collection of **slots**. Each **slot** _i_ (for _i ∈ I_) is defined as a pair:
 
@@ -10508,7 +10508,7 @@ $$\mathbf{CS} = \prod_{i \in I} \mathrm{ValueSet}(\mathrm{slot}_i)\,.$$
 
 In other words, a point (state) in the space consists of one coordinate value for each slot. A **state** _x_ in CS can be seen as a total function _x(i)_ that picks a value from each slot’s **ValueSet** (for every _i ∈ I_, _x(i) ∈ ValueSet(slot\_i)_). By kernel mandate, any `U.Dynamics.stateSpace` **SHALL** be bound to some instance of `CharacteristicSpace`, and all states or trajectories described by that dynamics model **MUST** lie within that space’s **value set**. (The actual dynamic **laws** and time progression are handled in A.3.3; A.19 only defines the state‑space container and its properties.)
 
-##### 5.1.2 Slot discipline (invariants)
+#### 5.1.2 Slot discipline (invariants)
 
 To ensure consistency and comparability, a CharacteristicSpace must obey the following invariants:
 
@@ -10524,7 +10524,7 @@ To ensure consistency and comparability, a CharacteristicSpace must obey the fol
 
  - **A19-CS-6 (Slot meta completeness).** Where applicable, each slot **SHALL** declare `admissible_domain` and **missingness semantics** (e.g., codes for *missing*, *censored*, *not-applicable*), consistent with the Characteristic’s Scale and with MM‑CHR. This prevents silent domain drift and clarifies how absent values participate in predicates and comparisons.
 
-##### 5.1.3 Minimal structure hooks (optional overlays)
+#### 5.1.3 Minimal structure hooks (optional overlays)
 
 By default, a CharacteristicSpace has no assumed ordering or metric structure – it is just a Cartesian product of value sets. However, a space **MAY** declare certain structural attributes _as opt-in metadata_ (i.e. informative annotations that architheories can rely on, but not enforced by the kernel). These optional **overlays** include:
 
@@ -10534,15 +10534,15 @@ _Lexical note:_ Here **“distance metric”** strictly means a mathematical dis
 
 These overlays are entirely **optional** and have no effect on the core meaning of the space – they exist only to support particular needs (like making **dominance**, **continuity**, or **distance** reasoning possible) in models that require them. If needed, they should be added deliberately by an architectural theory rather than assumed. This way, any ordering or metric properties of states are made **explicit** instead of relying on hidden or default arithmetic. _(Rationale:_ The CSLC and MM‑CHR rules already govern what operations are allowed on each scale; A.19’s approach is to let higher-level theories layer on an order, topology, or metric when appropriate, so nothing is taken for granted tacitly in multi-dimensional arithmetic._)_
 
-##### 5.1.4 Dynamics hook (typing only)
+#### 5.1.4 Dynamics hook (typing only)
 
 Any model of change or dynamics in FPF must declare the state space it operates over. Formally, `U.Dynamics.stateSpace` **SHALL** be specified as a reference to a `CharacteristicSpace`. This creates a typing obligation: the dynamic model can only produce states (and trajectories of states) that lie in the given space. All predicates or predictions in such a dynamics model are understood to **quantify over** sequences of points in that CharacteristicSpace (with time semantics governed by A.3.3’s time base and laws). **Note:** A.19 defines only the structure of the state space; it deliberately **does not** fix any time axis or dynamic law. Those remain the responsibility of the dynamics pattern (A.3.3). A.19 simply ensures there is a well-defined space in which states live, so that dynamics are decoupled from any narrative “stage” and instead treat evolution as movement through this space.
 
-##### 5.1.5 Lexical discipline (Normative)
+#### 5.1.5 Lexical discipline (Normative)
 
 In all **normative references, definitions, and identifiers** related to this pattern, the specification uses the canonical measurement terminology: **Characteristic**, **Scale**, **Level**, **Coordinate**, **CharacteristicSpace**, **slot**, **basis**. Legacy terms like “axis”, “dimension”, or “point” are **forbidden** in Technical/Formal registers of the spec (per A.17’s lexical rules). They may appear _at most once_ in explanatory **Plain** language as mapped aliases to aid understanding (and if used, must be explicitly identified as equivalent to the official terms). In this pattern, we consistently use “slot” or “basis element” (never “axis”) to refer to a component of a space, and “Characteristic” (never “dimension”) to refer to the measured aspect. This lexical discipline ensures clarity and consistency across the framework (see A.17 and C.16 L-rules for the formal policy on terminology).
 
-##### 5.1.6 Quotients & NormalizationFix (Normative)
+#### 5.1.6 Quotients & NormalizationFix (Normative)
 
 **Design rule — read invariants, not labels.** Eligibility, comparability and acceptance **SHALL** be decided on **quotients by ≡_UNM** (or on explicitly **Normalization‑fixed** charts), not on raw labels.
 
@@ -10551,7 +10551,7 @@ In all **normative references, definitions, and identifiers** related to this pa
 2) **Declare NormalizationMethod class.** Every normalization used **MUST** name its **NormalizationMethod** class (affine / order‑preserving / LUT with uncertainty) and validity window.
 3) **Join/equality only on invariants.** Equality checks and joins across spaces **MUST** target invariant forms (the **≡_UNM** quotient or a declared **Normalization‑fixed** representation), never raw un‑fixed coordinates.
 
-##### 5.1.7 Metric discipline & calibration (Normative)
+#### 5.1.7 Metric discipline & calibration (Normative)
 
 Use the **weakest safe structure** required by the argument (pre‑order → semi‑metric → metric). 
 * **If a distance overlay is declared**, any acceptance predicate or KPI defined over a CharacteristicSpace **SHALL be non‑expansive** (Lipschitz ≤ 1) w.r.t. the published `d` on the **declared domain** (raw coordinates or NCVs, as specified), or else state an explicit margin that absorbs any expansion.
@@ -10579,7 +10579,7 @@ To make state-space reasoning practical across different contexts and models, th
 
 > **Terminology note:** We often denote a CharacteristicSpace abstractly as **CS**. Formally, one can describe a CS as a tuple `⟨I, basis⟩` where _I_ is the index set of slots and _basis_ is the set (or ordered list) of `slot_i` pairs. When a CharacteristicSpace is attached to a specific **Role** in a specific **Context** (see A.2, A.2.5), we may call it an **RCS** (Role CharacteristicSpace) – essentially the state space for that role’s state machine within that bounded context. Individual **states** of a role live in an RSG (RoleStateGraph, A.2.5), and a **StateAssertion** is a certified claim that at a given time window, the holon’s RCS coordinates satisfy the checklist for a particular state.
 
-##### 5.2.1 · CS Operators (notation-neutral, context-local)
+#### 5.2.1 · CS Operators (notation-neutral, context-local)
 
 To support model composition, we define operations on CharacteristicSpaces in a notation-independent way (so these can be implemented in any tooling or notation). All these operations are assumed to occur **within a single context** (within one `U.BoundedContext`) unless otherwise noted:
 
@@ -10595,11 +10595,11 @@ An **embedding** is a structure-preserving **injection** from one space CS₁ in
 **5.2.1.3 Product –** **Combination** `CS₁ ⊗ CS₂ = CS⊗`.  
 The **product** of two spaces CS₁ and CS₂ is a new space **CS⊗** that effectively contains all slots of CS₁ and all slots of CS₂. If CS₁ has index set _I₁_ and basis slots {slot₁…} and CS₂ has _I₂_, then $CS⊗$ has index set $I\_⊗ = I₁ ⊎ I₂$ (disjoint union) with each slot’s definition carried over from its original space. In practical terms, any state in the product space is a pair _(x₁, x₂)_ where _x₁_ is a state of CS₁ and _x₂_ is a state of CS₂ (assuming the two spaces pertain to possibly different aspects or roles). **Use cases:** Product spaces allow modeling **multi-role scenarios** or bundling an entity’s state with some environmental or contextual state. For example, one might take a space of internal capability metrics and ⊗ with a space of external conditions to form a combined space for “readiness under conditions.” **Note:** When combining scores or coordinates from a product space, one must be mindful of scale incommensurability. Cross‑slot aggregation **SHALL** proceed only via a declared **Γ‑fold** (B.1) and, where needed, explicitly declared **NormalizationMethods**; naïve arithmetic is forbidden. The product operation itself doesn’t perform any aggregation; it only sets the stage.
 
-##### 5.2.2 · Comparability of **States** (two admissible regimes)
+#### 5.2.2 · Comparability of **States** (two admissible regimes)
 
 A **state label** like "Ready", "Authorized", "Degraded", etc., in an RSG is an intensional category (defined by a checklist of conditions – see A.2.5). Determining whether the **states of two holons** are comparable (e.g. whether one is “better” or “worse” than the other in some multi-criteria sense) depends on **where** their state coordinates live and **how** we map those coordinates to a common basis. There are two admissible comparability regimes in FPF:
 
-###### 5.2.2.1 Coordinatewise comparability (`≼_coord`)
+#### 5.2.2.1 Coordinatewise comparability (`≼_coord`)
 
 Two states can be compared **coordinatewise** only under strict conditions. Essentially, we require the states to be expressed in the **same measurement space**, with the **same units and scales**, and using the **same state definitions**. Formally, coordinatewise comparison is allowed **only if all of the following hold**:
 
@@ -10617,7 +10617,7 @@ When these conditions are met, one can define a **coordinatewise preorder** over
     
 By default, **no comparability** is assumed unless proven. If any of the above congruence conditions fails, one must **not** fall back to ad-hoc comparisons (like matching by name or normalizing without declaration). Either switch to a **normalization-based regime** or declare the states **incomparable**.
 
-###### 5.2.2.2 Normalization‑based comparability (`≼_normalization`)
+#### 5.2.2.2 Normalization‑based comparability (`≼_normalization`)
 
 When two state vectors do not meet the strict conditions for coordinatewise comparison (e.g. they come from different spaces, or same conceptual Characteristics but measured on different scales/units, or defined in different contexts), the only sanctioned way to compare them is via a **NormalizationMethod‑based mapping under UNM** into a common space. The idea is: **normalize, then compare**. Specifically:
 
@@ -10631,7 +10631,7 @@ If the normalization crosses context boundaries (i.e., CS₁ and CS₂ are in di
 
 > **Mnemonic:** _“Never compare before you **land** both points in the **same** well-typed space.”_ In other words, always map measurements to a common basis (same CharacteristicSpace and units) before attempting to say one state is ≥ or ≤ another. Directly comparing raw numbers from different scales or contexts is not allowed.
 
-##### 5.2.3 · RSG touch-points — **State certification via CS**
+#### 5.2.3 · RSG touch-points — **State certification via CS**
 
 To connect the abstract concept of a **space of metrics** with the operational concept of **states** (like “Ready” or “Degraded”) in a Role’s lifecycle, we introduce a **certifier** function that evaluates state predicates against coordinates: 
 
@@ -10650,7 +10650,7 @@ This is a conceptual sketch: given a **snapshot** of all relevant coordinates fo
   
 _(In summary, embeddings not only allow numeric comparability, but also allow **state definitions** and **certifications** to be systematically translated between contexts, ensuring consistency in how we interpret “Ready”, “Failed”, etc., across different models.)_
 
-##### 5.2.4 · Cross-context comparability & assurance hooks
+#### 5.2.4 · Cross-context comparability & assurance hooks
 
 When comparing states or metrics **across different bounded contexts** (different “context of meaning”), additional rules apply to maintain semantic integrity:
 
@@ -10660,7 +10660,7 @@ When comparing states or metrics **across different bounded contexts** (differen
     
 -   **5.2.4.3 Declare “incomparable” when appropriate.** If for some critical Characteristic there is **no valid NormalizationMethod** to translate measurements between two contexts (e.g. the scale types are fundamentally different, or the measurement’s meaning doesn’t carry over), then the framework insists that we declare the states or metrics **incomparable** rather than attempting any fudge. No comparison should ever default to “close enough by name” or other heuristics. For instance, if one context measures “User Satisfaction” qualitatively and another quantitatively, and no monotonic mapping can be justified, one must simply say a user satisfaction state in context A cannot be compared to one in context B. Mark it incomparable and avoid any misleading conclusions. This rule guards against the natural temptation to compare things just because they have the same label or general intent, when in fact their measurement basis is different.
 
-##### 5.2.5 Certification pipeline (Minimal, Normative)
+#### 5.2.5 Certification pipeline (Minimal, Normative)
 
 Canonical evaluation chain (notation‑neutral):
 
@@ -10668,7 +10668,7 @@ Canonical evaluation chain (notation‑neutral):
 
 **Strict distinction.** Steps may be **co‑implemented**, but are **logically distinct** and **MUST** be referenceable in assertions (**NormalizationMethod/UNM** name or formula, overlay kind). A gate is **invalid** if any required step lacks a current, valid referent (e.g., expired **NormalizationMethod** edition).
 
-### 5.3 Operator library (notation‑neutral)
+#### 5.3 Operator library (notation‑neutral)
 
 **Spaces:** `Sub` (projection), `Emb` (embedding), `Prod` (product), `Quot` (quotient by declared equivalence), `NormalizationFix` (fix to a named chart/edition).
 
@@ -11112,7 +11112,7 @@ A.19.D1 gives A.19 some **teeth**: a *CN‑Spec* you can put on one page, a **Re
 **Plain‑name.** Flow constraint validity (Eulerian interpretation)
 **Type / Status.** [A] Architectural pattern — **normative** for flows hosted by E.TGA (E.18) under the Eulerian operational interpretation
 
-## 0) Intention
+### 0) Intention
 
 **One‑liner** Defines cross‑cutting **ConstraintValidity** rules for all `U.Flow` instances. `U.TransductionFlow` inherits these rules and may refine **CV class specializations** for transduction‑specific semantics (species‑binding only; genus rules remain unchanged). The CV core is **kind‑agnostic** and assumes an **open‑world** catalogue of node **species**; the enumeration of node **kinds** in E.TGA is a **minimal roles baseline**.
 **Operational interpretation.** **Eulerian** stance: **flow = valuation** over `U.Transfer`; **CV is attached to transformations (steps)** and evaluated **before any GateFit**; edges carry **assurance‑only operations**; no token‑passing semantics are assumed.
@@ -11401,7 +11401,7 @@ Conforms to E.8 heading order and safety subsections (Archetypal Grounding, Conf
   (Enumeration mandated by A.20; GF matters excluded).
 * **ReinterpretationEquivalence (StructuralReinterpretation).** Existence of a correspondence/reversibility witness between source and retarget projections; preservation of `⟨L,P,E⃗,D⟩`; no comparator/plane/unit declaration or translation at CV. The witness is **PathSlice‑local** and supports **idempotence & reversibility** within the addressed slice. The normative record is `ReinterpWitness` (see §4.7).
 
-#### Appendix B — LEX discipline (summary)
+### Appendix B — LEX discipline (summary)
 
 Register token classes (Tech) include: `U.TransductionFlow`, `U.TransductionGraph`, `OperationalGate`, `GateProfile`, `GateCheckKind`, `GateCheckRef`, `DecisionLog`, `FreshnessTicket`, `FinalizeBinding`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `VALATA`; discriminators use `Base__P2W`, `Base__EvaluatingAndRefreshing`; Tech names are ASCII; aliases `GammaTimeRule/Plane`, `CLPlane`, `Phi` follow E.10. A.20 references these tokens; it does not introduce additional LEX classes. **For each surfaced CV check, `GateCheckRef.aspect` is fixed to `ConstraintValidity`.** *MVPK minima for CV faces also include `PathId/PathSliceId` where slice‑local refresh applies (A.22).*
 
@@ -11409,13 +11409,13 @@ Register token classes (Tech) include: `U.TransductionFlow`, `U.TransductionGrap
 
 ## **B .1 · Universal Algebra of Aggregation (Γ)** \[A]
 
-### 1. Context
+## 1. Context
 
 FPF views reality as a **nested holarchy**: parts → assemblies → systems → ecosystems; axioms → lemmas → theories → paradigms (this is only example, exact levels of holarhy as hierarhy of holons is not defined and project-depended). Each level is a **`U.Holon`** that becomes the part of a wider holon one tier up — but only **after** an explicit act of construction has glued the parts together. That act is performed by a physical *Transformer* playing `TransformerRole` executing a method over an explicit **Dependency Graph**. Without a domain‑neutral *law of composition* binding these moves, the logical ladder between scales would break, violating the core rule **Cross‑Scale Consistency**.
 
 ---
 
-### 2. Problem
+## 2. Problem
 
 If each discipline (or project team) invents its own way of “adding things up”, four lethal pathologies appear:
 
@@ -11428,7 +11428,7 @@ All four are witnessed in post‑2015 incidents, from micro‑service outages to
 
 ---
 
-### 3. Forces
+## 3. Forces
 
 | Force                           | Tension                                                                                    |   |
 | ------------------------------- | ------------------------------------------------------------------------------------------ | - |
@@ -11440,11 +11440,11 @@ All four are witnessed in post‑2015 incidents, from micro‑service outages to
 
 ---
 
-### 4. Solution — **The Invariant Quintet Standard**
+## 4. Solution — **The Invariant Quintet Standard**
 
 > *FPF freezes one universal operator, **Γ**, and binds it to five non‑negotiable invariants. Compliance with the quintet is the ticket that lets any calculus, in any future discipline, plug into the holarchy.*
 
-#### 4.1 · The Universal Aggregation Operator
+### 4.1 · The Universal Aggregation Operator
 
 ```
 Γ : (D : DependencyGraph, T : U.TransformerRole) → U.Holon
@@ -11456,7 +11456,7 @@ All four are witnessed in post‑2015 incidents, from micro‑service outages to
 
 Because Γ is *externalised* through `T`, the provenance chain stays intact, satisfying the **Transformer Principle**;
 
-#### 4.2 · The Five Grounding Invariants
+### 4.2 · The Five Grounding Invariants
 
 | Code     | Invariant             | Plain‑English headline                            | Why it matters                               |   |
 | -------- | --------------------- | ------------------------------------------------- | -------------------------------------------- | - |
@@ -11479,7 +11479,7 @@ The Invariant Quintet is not an abstract mathematical construct; it is a formali
 | **WLNK** | The maximum pressure rating of the entire pump skid is limited by the pressure rating of its weakest pump or connector. | The overall reliability of a synthesized theory is capped by the reliability of its least-supported foundational claim. |
 | **MONO** | Replacing a standard motor with a more powerful, efficient one can only improve or maintain the skid's overall performance; it cannot make it worse. | Adding a new, high-quality study to a meta-analysis can only strengthen or maintain the overall confidence in its conclusion, never weaken it (unless it introduces a conflict). |
 
-#### 4.3 · Why only five?  (A didactic sidebar)
+### 4.3 · Why only five?  (A didactic sidebar)
 
 * Post‑2015 physics shows that renormalisation flows stabilise if and **only if** idempotence, locality and monotone bounds hold (Goldenfeld & Ho 2018).
 * Distributed‑data research (Spark 3, Flink 1.19) proves COMM + LOC are prerequisites for deterministic sharding.
@@ -11487,11 +11487,11 @@ The Invariant Quintet is not an abstract mathematical construct; it is a formali
 
 Thus the quintet is simultaneously **empirically vetted**, **mathematically minimal**, and **cognitively teachable**.
 
-#### 4.4 · Emergence Without Cheating
+### 4.4 · Emergence Without Cheating
 
 Real redundancy can push a system above the WLNK ceiling (e.g., RAID 6 survives two disk deaths). FPF treats this not as a rule break but as a **Meta‑Holon Transition (MHT)**: the redundant set is promoted to a fresh holon tier, and the quintet re‑applies there. The algebra stays pure; emergence becomes explicit, auditable design space. Details live in Pattern **B.2 Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes** (next in cluster).;
 
-### 5 · Domain‑Specific “Flavours” of Γ
+## 5 · Domain‑Specific “Flavours” of Γ
 
 The core signature of Γ never changes, but each discipline supplies a **flavour** that instantiates the quintet with domain‑appropriate mathematics and measurement units.
 
@@ -11504,9 +11504,9 @@ The core signature of Γ never changes, but each discipline supplies a **flavour
 
 > **Didactic hint for managers:** choose the flavour whose examples look like your own dashboards; then verify your tooling honours its extra rules.
 
-### 6 · Walkthrough Examples
+## 6 · Walkthrough Examples
 
-#### 6.1 `Γ\_sys` — Offshore Wind Farm (2025 build)
+### 6.1 `Γ\_sys` — Offshore Wind Farm (2025 build)
 
 1. **Parts**: 72 nacelles, 72 towers, 1 export cable set.
 2. **Graph**: acyclic; each nacelle depends on its own tower, all depend on cable.
@@ -11516,7 +11516,7 @@ The core signature of Γ never changes, but each discipline supplies a **flavour
 
 *Result*: farm holon inherits predictable capacity curve; financiers can quote risk‑adjusted yield without bespoke simulation.
 
-#### 6.2 `Γ_epist` — Living Systematic Review on mRNA Therapies (2024–2025)
+### 6.2 `Γ_epist` — Living Systematic Review on mRNA Therapies (2024–2025)
 
 1. **Parts**: 38 peer‑reviewed trials, 12 preprints.
 2. **Graph**: dependency edges encode shared cohorts; no cycles.
@@ -11526,13 +11526,13 @@ The core signature of Γ never changes, but each discipline supplies a **flavour
 
 *Result*: regulators see a transparent promotion of evidence tier rather than a hidden statistical artefact.
 
-#### 6.3 `Γ\_time` — National Grid Frequency Forecast (2025‑2030)
+### 6.3 `Γ\_time` — National Grid Frequency Forecast (2025‑2030)
 
 *COMM* holds only across non‑overlapping windows; *LOC* is waived because regional sensors differ in latency.  Additional TS‑1/TS‑2 rules ensure gaps are filled before aggregation.  Engineers iterate locally yet obtain one coherent five‑year projection.
 
 ---
 
-### 7 · Conformance Checklist (for pattern adopters)
+## 7 · Conformance Checklist (for pattern adopters)
 
 | ID       | Check                                        | How to demonstrate (engineer‑manager view)                      | Typical evidence artefact                   |
 | -------- | -------------------------------------------- | --------------------------------------------------------------- | ------------------------------------------- |
@@ -11546,7 +11546,7 @@ A proposal that skips any line of the checklist **fails** pattern B.1 and must i
 
 ---
 
-### 8 · Consequences
+## 8 · Consequences
 
 | Benefit (managerial)                                     | Pay‑off path          | Trade‑off                       | Mitigation                            |
 | -------------------------------------------------------- | --------------------- | ------------------------------- | ------------------------------------- |
@@ -11557,7 +11557,7 @@ A proposal that skips any line of the checklist **fails** pattern B.1 and must i
 
 ---
 
-### 9 · Rationale
+## 9 · Rationale
 
 The Invariant Quintet is the "renormalisation law" of FPF. It translates deep principles from physics, computer science, and engineering into a universal, algebraic Standard that governs composition in any domain.
 
@@ -11567,7 +11567,7 @@ The Invariant Quintet is the "renormalisation law" of FPF. It translates deep pr
 
 By elevating these cross-disciplinary insights to the level of a mandatory, constitutional Standard, FPF ensures that all composition within the framework is predictable, auditable, and physically plausible. It transforms aggregation from an ad-hoc, domain-specific art into a universal, repeatable science.
  
-### 10 · Anti-Patterns & Conceptual Repairs
+## 10 · Anti-Patterns & Conceptual Repairs
 
 | Anti-Pattern | Symptom | Conceptual Fix |
 | :--- | :--- | :--- |
@@ -11576,7 +11576,7 @@ By elevating these cross-disciplinary insights to the level of a mandatory, cons
 | **Improvement Paradox** | A team replaces a component with a better one, but a system-level KPI gets worse. | Enforce **MONO**. This indicates a hidden, negative coupling. The model must be updated to make this coupling an explicit constraint or interaction. |
 | **Synergy by Narrative** | A claim is made that the whole is greater than the sum of its parts, without a formal mechanism. | This violates **WLNK**. If the synergy is real (e.g., due to redundancy or a new feedback loop), it must be modeled as a **Meta-Holon Transition** (Pattern B.2). |
 
-### 11 · Relations
+## 11 · Relations
 
 * **Builds on:** *Holonic Foundation*, *Transformer Principle*, *Open‑Ended Kernel*.
 * **Enables:** *Meta‑Holon Transition* (B .2), *Calculus of Trust* (B .3), *Holonic Lifecycle Patterns* (Cluster C).
@@ -11585,9 +11585,9 @@ By elevating these cross-disciplinary insights to the level of a mandatory, cons
 
 > **Take‑home maxim:** *“Aggregation is never neutral; Γ makes its politics explicit and testable.”*
 
-## **B.1.1 Dependency Graph & Proofs** **\[D]**
+### **B.1.1 Dependency Graph & Proofs** **\[D]**
 
-### 1) Problem frame
+#### 1) Problem frame
 
 In FPF, every aggregation is a *material act*:
 
@@ -11601,7 +11601,7 @@ This pattern normatively defines `DependencyGraph`, the **mereological vocabular
 
 ---
 
-### 2) Problem
+#### 2) Problem
 
 Without a disciplined `DependencyGraph`, four pathologies recur:
 
@@ -11612,7 +11612,7 @@ Without a disciplined `DependencyGraph`, four pathologies recur:
 
 ---
 
-### 3) Forces
+#### 3) Forces
 
 | Force                              | Tension                                                                                                                             |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
@@ -11623,9 +11623,9 @@ Without a disciplined `DependencyGraph`, four pathologies recur:
 
 ---
 
-### 4) Solution 
+#### 4) Solution 
 
-#### 4.1 The shape: a typed, scoped, acyclic graph
+##### 4.1 The shape: a typed, scoped, acyclic graph
 
 **Definition.**
 
@@ -11648,7 +11648,7 @@ DependencyGraph D = (V, E, scope, notes)
 
 ---
 
-#### 4.2 Normative edge vocabulary `V_rel` (A.14 compliant)
+##### 4.2 Normative edge vocabulary `V_rel` (A.14 compliant)
 
 Only the following **four** **mereological** relations are allowed in `E` (A.14):
 
@@ -11669,7 +11669,7 @@ Only the following **four** **mereological** relations are allowed in `E` (A.14)
 
 ---
 
-#### 4.3 Minimal axioms & type guards per relation
+##### 4.3 Minimal axioms & type guards per relation
 
 | Relation             | Axioms (informal)                                                 | Guards / When to use                                                                                               |
 | -------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -11683,7 +11683,7 @@ Only the following **four** **mereological** relations are allowed in `E` (A.14)
 
 ---
 
-#### 4.4 Selection guide (didactic, normative in spirit)
+##### 4.4 Selection guide (didactic, normative in spirit)
 
 Use this **one‑page decision** to pick the edge correctly:
 
@@ -11714,7 +11714,7 @@ Use this **one‑page decision** to pick the edge correctly:
 > • Using **ConstituentOf** for a module cage or bracket → that is **ComponentOf**.
 > • Treating representation (file ↔ thing) as parthood → keep as value‑level mapping (A.15), not in `D`.
 
-#### 4.5 **Γ_m (Compose‑CAL)** — structural aggregators & trace shape  
+##### 4.5 **Γ_m (Compose‑CAL)** — structural aggregators & trace shape  
 
 **Purpose.** Provide a **minimal constructional generator** for **structural mereology** that keeps the kernel small (C-5), aligns with **A.14** (Portions/Phases/Components discipline), and feeds Working-Model layer publication in LOG without importing tooling or notations. 
 
@@ -11747,7 +11747,7 @@ No `parallel` or `temporalSlice` constructor is introduced here; **sequence/para
 **Internal proof relation.**  
 `U.KernelPartOf` names the **constructional edges inside traces**; it is not part of the public `V_rel` and appears only in the trace/proof narrative (didactic status \[D]).
 
-#### 4.6 Scope and boundary rules (make graphs foldable)
+##### 4.6 Scope and boundary rules (make graphs foldable)
 
 1. **Single temporal scope:** all nodes in `D` share `design` **or** `run`. No mixing (“chimera” graphs are invalid).
 2. **Declared boundary:** every holon in `D` has a `U.Boundary`; any cross‑holon influence must be an explicit `U.Interaction`, not parthood.
@@ -11755,7 +11755,7 @@ No `parallel` or `temporalSlice` constructor is introduced here; **sequence/para
 4. **Order & time routing:** do **not** encode sequence or history with structural edges; route to Γ\_ctx / Γ\_method / Γ\_time explicitly.
 5. **Resource routing:** do **not** encode costs with structural edges; route to Γ\_work (B.1.6) across declared boundaries.
 
-#### 4.7 What “Proofs” mean here (preview of Part 2)
+##### 4.7 What “Proofs” mean here (preview of Part 2)
 
 Each Γ flavour (Γ\_sys / Γ\_epist / Γ\_method / Γ\_time / Γ\_work) **must** attach a small, reusable **Proof Kit** showing the Quintet on the given `D`:
 
@@ -11764,16 +11764,16 @@ Each Γ flavour (Γ\_sys / Γ\_epist / Γ\_method / Γ\_time / Γ\_work) **must*
 * **WLNK**: weakest‑link bound (e.g., critical input caps, weakest claim).
 * **MONO**: explicit monotone characteristics (what “cannot get worse” means here).
 
-### 5) Didactic mini‑examples 
+#### 5) Didactic mini‑examples 
 
 * **System (assembly):** a motor **ComponentOf** a chassis; wiring harness **ComponentOf** the motor; a *crew* **MemberOf** a team holon (the crew is not a component of the chassis).
 * **Episteme (paper):** a lemma **ConstituentOf** a proof; appendices **ConstituentOf** the paper; three datasets **MemberOf** a curated collection; version v2 **PhaseOf** the *same* model.
 
-### 6) The Proof Kit (ready‑made templates for Γ on D)
+#### 6) The Proof Kit (ready‑made templates for Γ on D)
 
 This section provides **small, reusable proof obligations** you attach to a `DependencyGraph D` when invoking any Γ‑flavour. Each obligation is minimal—just enough to guarantee the **Invariant Quintet** for the stated scope and edge set.
 
-#### 6.1 Independence declaration (for COMM/LOC)
+##### 6.1 Independence declaration (for COMM/LOC)
 
 > **Obligation IND‑LOC.**
 > Provide a **partition of D** into subgraphs `{Dᵢ}` such that:
@@ -11784,7 +11784,7 @@ This section provides **small, reusable proof obligations** you attach to a `Dep
 
 **Claim:** Under IND‑LOC, Γ’s fold result is **invariant to local fold order** within and across `{Dᵢ}`.
 
-#### 6.2 Weakest‑link cutset (WLNK)
+##### 6.2 Weakest‑link cutset (WLNK)
 
 > **Obligation WLNK‑CUT.**
 > Enumerate a **critical set** `C ⊆ V ∪ E` (nodes/edges) such that **failure** (or insufficiency) of any element of `C` makes the aggregation invalid or unsafe in the chosen Γ‑flavour.
@@ -11795,7 +11795,7 @@ Examples:
 • Γ\_epist → weakest supported premise in a proof spine;
 • Γ\_work → availability caps for required inputs across the boundary.
 
-#### 6.3 Monotone coordinates (MONO)
+##### 6.3 Monotone coordinates (MONO)
 
 > **Obligation MONO‑AX.**
 > Declare the **monotone characteristics** (attributes whose improvement cannot worsen the whole) **for this call**. Specify *how* “improvement” is recognized.
@@ -11809,14 +11809,14 @@ Examples:
 • Γ\_time → added non‑overlapping coverage;
 • Γ\_work → higher yield η, reduced dissipation.
 
-#### 6.4 Idempotence witness (IDEM)
+##### 6.4 Idempotence witness (IDEM)
 
 > **Obligation IDEM‑WIT.**
 > Provide the **singleton** case: a subgraph `D₁` with one node and no admissible composition edges.
 
 **Claim:** Γ(D₁) returns that node’s property unchanged.
 
-#### 6.5 Scope & boundary attestations
+##### 6.5 Scope & boundary attestations
 
 > **Obligation SCOPE‑1.**
 > Affirm `DesignRunTag(D) ∈ {design, run}` and that all nodes share it.
@@ -11825,7 +11825,7 @@ Examples:
 
 ---
 
-#### 6.6 Flavour‑specific summary table
+##### 6.6 Flavour‑specific summary table
 
 | Γ‑flavour            | Independence (IND‑LOC)                                             | WLNK‑CUT (what is “critical”)                         | MONO‑AX (what cannot make worse)                    | IDEM‑WIT                      | Notes                                                         |
 | -------------------- | ------------------------------------------------------------------ | ----------------------------------------------------- | --------------------------------------------------- | ----------------------------- | ------------------------------------------------------------- |
@@ -11839,11 +11839,11 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 
 ---
 
-### 7) Archetypal grounding (worked micro‑examples)
+#### 7) Archetypal grounding (worked micro‑examples)
 
 > Each row is self‑contained and can be used as a template.
 
-#### 7.1 U.System (assembly & production)
+##### 7.1 U.System (assembly & production)
 
 | Aspect           | Example                                                                                                                                                    |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -11854,7 +11854,7 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 | **IDEM‑WIT**     | Standalone chassis as singleton: Γ\_sys returns chassis unchanged.                                                                                        |
 | **Routing**      | `SerialStepOf` belongs to Γ\_method; Γ\_sys ignores order and composes structure; Γ\_work separately composes energy/material costs through boundary ports. |
 
-#### 7.2 U.Episteme (paper & dataset)
+##### 7.2 U.Episteme (paper & dataset)
 
 | Aspect           | Example                                                                                                                                               |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -11867,7 +11867,7 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 
 ---
 
-### 8) Conformance Checklist (normative checklist)
+#### 8) Conformance Checklist (normative checklist)
 
 | ID             | Requirement                                                                                                                                                | Purpose                             |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
@@ -11886,7 +11886,7 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 
 ---
 
-### 9) Anti‑pattern diagnostics (before → after)
+#### 9) Anti‑pattern diagnostics (before → after)
 
 | Anti‑pattern                     | Symptom                                                        | Replace with                                                                                                                                            |
 | -------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -11899,7 +11899,7 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 
 ---
 
-### 10) Consequences
+#### 10) Consequences
 
 **Benefits**
 
@@ -11917,13 +11917,13 @@ Attach the row(s) you use as the **Proof Kit** to the Γ call record.
 
 ---
 
-### 11) Rationale (informative)
+#### 11) Rationale (informative)
 
 This pattern operationalizes **A.14 (Mereology Extension)** and **A.15 (Strict Distinction)** for the universal algebra of B.1. +… By limiting `E` to **four** well‑formed **mereological** relations, we prevent the three recurrent category errors: **mapping≠parthood**, **order/time≠structure**, **collection≠stock**. The Proof Kit converts the Quintet from abstract slogans into concrete obligations that engineers can check in everyday models. Γ‑flavours then remain simple and domain‑appropriate, while proofs remain small and reusable.
 
 ---
 
-### 12) Relations
+#### 12) Relations
 
 * **Builds on:** A.1 **Holonic Foundation**; A.14 **Mereology Extension**; A.15 **Strict Distinction**; A.12 **Transformer Principle**.
 * **Constrained by:** B.1 **Universal Γ** and the **Invariant Quintet**.
@@ -12090,7 +12090,7 @@ Real‑world convergence across steel, silicon and software shows the rules are 
 
 > **Take‑away for engineering managers:** *“Classify, Standard, fold—then sleep easy knowing the numbers and the interfaces will still match tomorrow.”*
 
-## **B.1.3 Γ\_epist — Knowledge‑Specific Aggregation** \[A]
+### **B.1.3 Γ\_epist — Knowledge‑Specific Aggregation** \[A]
 
 > **► decided‑by: A.14 Advanced Mereology**
 **A.14 compliance —** Use **ConstituentOf** for semantic parts; **PortionOf** only for quantitative splits of texts/data with declared μ (token/byte, etc.); **PhaseOf** for versions/revisions of MethodDescription/documents; no **ComponentOf** here.
@@ -12098,7 +12098,7 @@ Real‑world convergence across steel, silicon and software shows the rules are 
 > **Plain‑English headline.**
 > **Γ\_epist** composes **epistemic holons** (claims, models, datasets, arguments) into a **single episteme** while preserving **provenance**, applying **conservative trust bounds** (B.3 F/G/R), and penalizing **poor conceptual fit** via **congruence levels (CL)**. It is **not** a physical sum; it is a **semantic and evidential fold**.
 
-### 1) Problem frame
+#### 1) Problem frame
 
 * **Holonic foundation.** In the FPF, a `U.Episteme` is a holon whose identity is **knowledge‑bearing** (A.1). It can be a **statement/claim**, a **model**, a **theory**, a **specification**, a **dataset with semantics**, or a **compiled scholarly artifact**.
 * **Strict Distinction (A.15).** We separate:
@@ -12110,7 +12110,7 @@ Real‑world convergence across steel, silicon and software shows the rules are 
 
 ---
 
-### 2) Problem
+#### 2) Problem
 
 Naive aggregation of knowledge holons causes recurring failures:
 
@@ -12123,7 +12123,7 @@ Naive aggregation of knowledge holons causes recurring failures:
 
 ---
 
-### 3) Forces
+#### 3) Forces
 
 | Force                                      | Tension                                                                                                                      |
 | ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------- |
@@ -12135,9 +12135,9 @@ Naive aggregation of knowledge holons causes recurring failures:
 
 ---
 
-### 4) Solution — **Terms, operator family, invariant Standard, core rules**
+#### 4) Solution — **Terms, operator family, invariant Standard, core rules**
 
-#### 4.1 Terms (didactic recap)
+##### 4.1 Terms (didactic recap)
 
 * **U.Episteme** — a knowledge holon. Internally we use a didactic triangle:
   **Object** (what it is about), **Concept** (theory/model/claim structure), **Symbol** (SCR carriers: text, code, figures, datasets).
@@ -12153,7 +12153,7 @@ Naive aggregation of knowledge holons causes recurring failures:
 
 ---
 
-#### 4.2 The operator family (companion flavours)
+##### 4.2 The operator family (companion flavours)
 
 To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours that share the same algebra but serve different moments:
 
@@ -12183,7 +12183,7 @@ If the knowledge fold explicitly depends on **argument order** (e.g., derivation
 
 ---
 
-#### 4.3 Invariant Standard (how the Quintet applies; **math by level**)
+##### 4.3 Invariant Standard (how the Quintet applies; **math by level**)
 
 * **IDEM (Idempotence).** Folding a single episteme returns itself; no accidental “upgrade.”
 * **COMM/LOC (Local commutativity / locality).** For **independent** subgraphs (no logical/evidential dependency), fold order/location is irrelevant; when dependencies exist, **Γ\_ctx** controls order explicitly.
@@ -12196,7 +12196,7 @@ If the knowledge fold explicitly depends on **argument order** (e.g., derivation
    – **\[M‑2/L1]** require numeric Φ table (default in §4.4) and reproducibility tag on empirical edges.  
    – **\[F‑*,L1/L2]** require formal derivability of the fold rules from LOG‑CAL; constructive mode annotates `proof.kind=constructive`.  # [M/F]
 
-#### 4.4 Core rules for epistemic aggregation (design‑time synthesis)
+##### 4.4 Core rules for epistemic aggregation (design‑time synthesis)
 
 When computing **Γ\_epist^synth(D\_know, T)**:
 
@@ -12243,7 +12243,7 @@ The penalty function `Φ` quantifies the loss of reliability due to poor concept
 8. **No costs here.**
    Any compute/collection effort is **Γ\_work**; attach references but do not mix costs into epistemic aggregation.
 
-#### 4.5 Core rules for compilation (run‑time context anchoring)
+##### 4.5 Core rules for compilation (run‑time context anchoring)
 
 When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
@@ -12264,9 +12264,9 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 4. **Order/time hooks.**
    If the compiled artifact includes an internal derivation, carry the **OrderSpec**; if it codifies a specific **time slice** of evolving knowledge, link back to the **Γ\_time** slice used.
 
-### 5) Archetypal grounding (worked, didactic)
+#### 5) Archetypal grounding (worked, didactic)
 
-#### 5.1 Episteme — **Meta‑analysis into a guidance statement**
+##### 5.1 Episteme — **Meta‑analysis into a guidance statement**
 
 * **Inputs (U.Episteme):**
   `E₁` randomized trial (R=0.84, F=3, G=medium), `E₂` observational study (R=0.55, F=2, G=wide), `E₃` mechanistic model (R=0.60, F=3, G=narrow).
@@ -12288,7 +12288,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ---
 
-#### 5.2 Episteme — **Safety case from heterogeneous evidence**
+##### 5.2 Episteme — **Safety case from heterogeneous evidence**
 
 * **Inputs:** requirement spec (F=3, R=0.7), hazard analysis (F=2, R=0.6), test logs (F=1, R=0.8), formal proof of controller property (F=3, R=0.9).
 
@@ -12303,7 +12303,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ---
 
-#### 5.3 Contrast (didactic)
+##### 5.3 Contrast (didactic)
 
 | Aspect          | **Γ\_epist (Knowledge)**                                         | **Γ\_sys (Physical)**                       |
 | --------------- | ---------------------------------------------------------------- | -------------------------------------------- |
@@ -12315,7 +12315,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ---
 
-### 6) Proof obligations (normative)
+#### 6) Proof obligations (normative)
 
 **At synthesis (Γ\_epist^synth):**
 
@@ -12337,7 +12337,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ---
 
-### 7) Conformance Checklist (normative)
+#### 7) Conformance Checklist (normative)
 
 | ID            | Requirement                                                                                                                                                         | Purpose                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
@@ -12350,7 +12350,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 | **CC‑B1.3.7** | If order matters, Γ\_ctx **NC‑1..3** MUST hold; if versions matter, the **Γ\_time** slice MUST be identified.                                                       | Preserve order/time integrity. |
 | **CC‑B1.3.8** | Design‑time **synthesis** and run‑time **compilation** MUST NOT be conflated; use the appropriate flavour.                                                          | Maintain A.15 separation.      |
 
-### 8) Anti‑patterns & repairs
+#### 8) Anti‑patterns & repairs
 
 | Anti‑pattern             | Symptom                                           | Repair                                                                                     |
 | ------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------ |
@@ -12365,7 +12365,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ---
 
-### 9) Consequences
+#### 9) Consequences
 
 **Benefits**
 
@@ -12381,7 +12381,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ---
 
-### 10) Rationale (informative)
+#### 10) Rationale (informative)
 
 * **Epistemic composition is not physical addition.** Reliability must be bounded by the **weakest justified path**, not averaged; conceptual misalignment must **reduce** confidence, not be ignored.
 * **Provenance is part of meaning.** Dropping sources/methods changes what the episteme **is**; Γ\_epist treats provenance and **SCR** as first‑class.
@@ -12390,7 +12390,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ---
 
-### 11) Relations
+#### 11) Relations
 
 * **Builds on:** A.12 (Transformer Role—compilers/editors enact), A.14 (Mereology Extension—ConstituentOf/MemberOf/PhaseOf usage), A.15 (Strict Distinction).
 * **Coordinates with:** B.1.1 (Proof kit), B.1.4 (Γ\_ctx/Γ\_time inside knowledge folds), B.1.6 (Γ\_work for compute/collection spend).
@@ -12400,7 +12400,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 > **One‑sentence takeaway.**
 > **Γ\_epist** preserves provenance, penalizes poor conceptual fit, forbids reliability averaging, and makes context explicit—so that knowledge aggregates are conservative, auditable, and genuinely coherent.
 
-## **B.1.4 Contextual & Temporal Aggregation (Γ\_ctx & Γ\_time)** \[A]
+### **B.1.4 Contextual & Temporal Aggregation (Γ\_ctx & Γ\_time)** \[A]
 
 > **► decided‑by: A.14 Advanced Mereology**
 **A.14 compliance —** **Γ\_ctx** relies on **SerialStepOf/ParallelFactorOf** (order semantics); **Γ\_time** composes **PhaseOf** slices of the *same* carrier with coverage/no‑overlap; **PortionOf** is orthogonal (quantities within steps), mappings are not parthood.
@@ -12409,7 +12409,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 > Use **Γ\_ctx** when *the order of steps changes meaning*.
 > Use **Γ\_time** when *we are aggregating the same carrier across a timeline*.
 
-### 1) Problem frame
+#### 1) Problem frame
 
 The universal algebra **Γ** (B.1) assumes local commutativity and locality for most structures. But many real‑world compositions are **not** order‑indifferent (recipes, proofs that unfold by steps, manufacturing routes), and many composites are **nothing but** a history (asset lifecycle, model revisions, experiment runs). For these cases FPF offers two universal flavours:
 
@@ -12421,7 +12421,7 @@ Both flavours **inherit WLNK and MONO** from the Quintet (B.1) and remain compat
 
 ---
 
-### 2) Problem
+#### 2) Problem
 
 Forcing sequential or temporal phenomena through the default, order‑indifferent Γ leads to recurring failures:
 
@@ -12432,7 +12432,7 @@ Forcing sequential or temporal phenomena through the default, order‑indifferen
 
 ---
 
-### 3) Forces
+#### 3) Forces
 
 | Force                                 | Tension                                                                                                          |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -12443,9 +12443,9 @@ Forcing sequential or temporal phenomena through the default, order‑indifferen
 
 ---
 
-### 4) Solution — **Part 1: What these flavours are, and when to use them**
+#### 4) Solution — **Part 1: What these flavours are, and when to use them**
 
-#### 4.1 Two flavours at a glance (edge discipline)
+##### 4.1 Two flavours at a glance (edge discipline)
 
 | Flavour                                      | You use it when…                                                      | Edge kinds in `D`                                         | Typical carrier                                                            |
 | -------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------------------------- | -------------------------------------------------------------------------- |
@@ -12461,7 +12461,7 @@ Forcing sequential or temporal phenomena through the default, order‑indifferen
 
 ---
 
-#### 4.2 Operator signatures (normative)
+##### 4.2 Operator signatures (normative)
 
 **Γ\_ctx — Contextual / Order‑Sensitive Aggregation**
 
@@ -12487,7 +12487,7 @@ Forcing sequential or temporal phenomena through the default, order‑indifferen
 
 ---
 
-#### 4.3 Adapted invariants (what replaces COMM/LOC)
+##### 4.3 Adapted invariants (what replaces COMM/LOC)
 
 Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by discipline specific to order and time.
 
@@ -12508,7 +12508,7 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 
 ---
 
-#### 4.4 Guards that make the folds provable
+##### 4.4 Guards that make the folds provable
 
 **For Γ\_ctx**
 
@@ -12527,7 +12527,7 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 
 ---
 
-#### 4.5 Selection checklist (didactic quick guide)
+##### 4.5 Selection checklist (didactic quick guide)
 
 * **Does swapping two steps change meaning or safety?** → **Γ\_ctx**.
 * **Is this the same entity evolving over time?** → **Γ\_time**.
@@ -12538,18 +12538,18 @@ Both flavours **keep** IDEM, WLNK, MONO from B.1. They **replace** COMM/LOC by d
 
 ---
 
-#### 4.6 Didactic contrasts (one‑liners)
+##### 4.6 Didactic contrasts (one‑liners)
 
 * **Γ\_sys vs Γ\_ctx:** Γ\_sys composes *what the whole is*; Γ\_ctx composes *how it is done*.
 * **Γ\_ctx vs Γ\_method:** Γ\_method is Γ\_ctx **plus** step‑specific rules (durations, joins, capability typing).
 * **Γ\_time vs Γ\_ctx:** Γ\_time composes *phases of the same carrier*; Γ\_ctx composes *different steps that realise a procedure*.
 * **Γ\_time vs Γ\_work:** Γ\_time composes *history*; Γ\_work accounts *costs across a boundary* for each phase.
 
-### 5) Proof Kit (ready‑to‑reuse obligations for Γ\_ctx / Γ\_time)
+#### 5) Proof Kit (ready‑to‑reuse obligations for Γ\_ctx / Γ\_time)
 
 This Proof Kit instantiates the generic obligations from **B.1.1 §6** for the order/time flavours. Attach these items whenever you call Γ\_ctx or Γ\_time on a `DependencyGraph D`.
 
-#### 5.1 Γ\_ctx obligations
+##### 5.1 Γ\_ctx obligations
 
 * **CTX‑IND (Independence & Joins).**
   Declare **which branches are independent** (no hidden shared state, no side‑effects that leak across branches). For every **join**, state a **join‑soundness condition** (compatible input/output types and pre/postconditions).
@@ -12573,7 +12573,7 @@ This Proof Kit instantiates the generic obligations from **B.1.1 §6** for the o
 * **CTX‑SCOPE/BOUND.**
   Affirm a **single DesignRunTag** (`design` or `run`) and list any **U.Interaction** that crosses a holon boundary (do not recast it as parthood).
 
-#### 5.2 Γ\_time obligations
+##### 5.2 Γ\_time obligations
 
 * **TIME‑CARR (Carrier Identity).**
   State explicitly the **carrier holon** whose history is being reconstructed.
@@ -12600,11 +12600,11 @@ This Proof Kit instantiates the generic obligations from **B.1.1 §6** for the o
 
 ---
 
-### 6) Archetypal grounding (worked micro‑examples)
+#### 6) Archetypal grounding (worked micro‑examples)
 
 Use these as templates; each fits on a page and references the obligations above.
 
-#### 6.1 **Γ\_ctx — U.System (manufacturing route)**
+##### 6.1 **Γ\_ctx — U.System (manufacturing route)**
 
 * **Graph:** `Prep SerialStepOf Weld SerialStepOf Paint`; `QC ParallelFactorOf Paint` with a join; scope=`run`.
 * **CTX‑IND:** `QC` is independent of `Prep/Weld` state; join requires “painted & inspected” flags aligned.
@@ -12613,14 +12613,14 @@ Use these as templates; each fits on a page and references the obligations above
 * **CTX‑MONO:** ↓ duration of `Weld`; ↑ join condition coverage → cannot reduce overall safety.
 * **Routing:** Costs/energy are handled per step with **Γ\_work**; structure of subassemblies remains in **Γ\_sys**.
 
-#### 6.2 **Γ\_ctx — U.Episteme (order‑bound argument)**
+##### 6.2 **Γ\_ctx — U.Episteme (order‑bound argument)**
 
 * **Graph:** `PremiseA SerialStepOf LemmaB SerialStepOf Conclusion`; `Background ParallelFactorOf PremiseA`.
 * **CTX‑IND:** `Background` does not alter `LemmaB` assumptions; join checks entailment preconditions.
 * **CTX‑WLNK:** Weakest premise on the entailment spine caps the argument’s reliability.
 * **SCR:** Γ\_epist on the final `Conclusion` produces a SCR linking every source; Γ\_ctx assures the order.
 
-#### 6.3 **Γ\_time — U.System (asset lifecycle)**
+##### 6.3 **Γ\_time — U.System (asset lifecycle)**
 
 * **Carrier:** *This* turbine T‑17.
 * **Phases:** `Install [t0,t1)`, `Operate v1 [t1,t2)`, `Overhaul [t2,t3)`, `Operate v2 [t3,t4)`.
@@ -12628,7 +12628,7 @@ Use these as templates; each fits on a page and references the obligations above
 * **TIME‑WLNK:** The weakest reliability epoch caps lifetime MTTF claimed for `[t0,t4)`.
 * **Routing:** Work/energy footprints per phase via **Γ\_work**; structural upgrades (new rotor) are Transformers (A.12), not phases, if identity changes.
 
-#### 6.4 **Γ\_time — U.Episteme (paper revisions)**
+##### 6.4 **Γ\_time — U.Episteme (paper revisions)**
 
 * **Carrier:** *This* paper P.
 * **Phases:** `Draft v1`, `Review v2`, `Camera‑ready v3`.
@@ -12638,7 +12638,7 @@ Use these as templates; each fits on a page and references the obligations above
 
 ---
 
-### 7) Conformance Checklist (normative checklist)
+#### 7) Conformance Checklist (normative checklist)
 
 | ID            | Requirement                                                                                                                                                                     | Purpose                                       |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -12653,7 +12653,7 @@ Use these as templates; each fits on a page and references the obligations above
 
 ---
 
-### 8) Anti‑patterns and their fixes
+#### 8) Anti‑patterns and their fixes
 
 | Anti‑pattern                         | Symptom                                                     | Fix                                                                                                                     |
 | ------------------------------------ | ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -12666,7 +12666,7 @@ Use these as templates; each fits on a page and references the obligations above
 
 ---
 
-### 9) Consequences
+#### 9) Consequences
 
 **Benefits**
 
@@ -12684,13 +12684,13 @@ Use these as templates; each fits on a page and references the obligations above
 
 ---
 
-### 10) Rationale (informative)
+#### 10) Rationale (informative)
 
 This pattern implements **A.15’s ordered relations** (`SerialStepOf`, `ParallelFactorOf`) and leverages **A.14’s `PhaseOf`** for timeline; consistent with **Strict Distinction**: order and time are not structure, and costs are not history. The adapted invariants (NC‑1..3 and T‑1..3) give precise replacements for COMM/LOC where these do not hold, while retaining WLNK and MONO. The result is a small, stable interface that matches how engineers and researchers already argue about procedures and histories, without importing domain‑specific notations into the kernel.
 
 ---
 
-### 11) Relations
+#### 11) Relations
 
 * **Builds on:** B.1 (Universal Γ), B.1.1 (Dependency Graph & Proofs), A.12 (Transformer), A.14 (Mereology Extension), A.15 (Strict Distinction).
 * **Specialises into:** **B.1.5 Γ\_method** (adds duration, capability typing, join soundness rules).
@@ -12703,14 +12703,14 @@ This pattern implements **A.15’s ordered relations** (`SerialStepOf`, `Paralle
 > If you are **composing the same carrier across time**, use **Γ\_time** with a **TimeWindow**, coverage, and identity.
 > Keep structure, mapping, and cost in their places, and the invariants will do the rest.
 
-## **B.1.5 Γ\_method — Order‑Sensitive Method Composition & Instantiation** \[D]
+### **B.1.5 Γ\_method — Order‑Sensitive Method Composition & Instantiation** \[D]
 +> **► decided‑by: A.14 Advanced Mereology**
 +**A.14 compliance —** Methods compose over **SerialStepOf/ParallelFactorOf** on **MethodDescription/Method** graphs (order, not parthood); stuff‑like inputs are modelled via **PortionOf** on resources and accounted in **Γ_work**; method/version history uses **PhaseOf**; mapping quality is handled via **CL** (B.3).
  
 > **Plain‑English headline.**
 > **Γ\_method** turns **ordered step‑methods** into a **single composite Method** (run‑time) and, dually, turns **ordered step specifications** into a **single MethodDescription** (design‑time). It reuses **Γ\_ctx** for order, keeps **work/cost in Γ\_work**, and makes **pre/post‑conditions and capability typing** explicit so models stay physically and logically sound.
 
-### 1) Problem frame
+#### 1) Problem frame
 
 * **Strict Distinction (A.15)** separates **what a holon is** (structure), **how steps are ordered** (order), **how it unfolds** (time), **what it spends** (work/resources), and **what it values** (objectives).
 * **Method vs MethodDescription.**
@@ -12722,7 +12722,7 @@ This pattern implements **A.15’s ordered relations** (`SerialStepOf`, `Paralle
 * **B.1.4 (Γ\_ctx/Γ\_time)** already handles **non‑commutativity** (order matters) and **temporal slicing**; **B.1.6 (Γ\_work)** handles **resource spending** and **efficiency**.
   **Γ\_method** sits **between** them: it composes methods **by order and capability** and **delegates** resource accounting to **Γ\_work**.
 
-### 2) Problem
+#### 2) Problem
 
 Without a dedicated, order‑aware method operator:
 
@@ -12732,7 +12732,7 @@ Without a dedicated, order‑aware method operator:
 4. **Work leakage.** Costs and resource flows are **inlined** into method definitions; later models double‑count or violate conservation (Γ\_work was created to prevent this).
 5. **Synergy by arithmetic.** Throughput or quality jumps caused by **proper joins** or **coordination** are misreported as simple sums or averages—violating WLNK and obscuring when a **Meta‑Holon Transition (B.2)** should be declared.
 
-### 3) Forces
+#### 3) Forces
 
 | Force                                    | Tension                                                                                                 |
 | ---------------------------------------- | ------------------------------------------------------------------------------------------------------- |
@@ -12742,9 +12742,9 @@ Without a dedicated, order‑aware method operator:
 | **Parallelism vs. correctness**          | Maximise concurrency on **independent branches** ↔ Guarantee **sound joins** and reproducible outcomes. |
 | **Parsimony vs. separation of concerns** | Keep Γ small ↔ Keep **work** and **assurance** in their own lanes (Γ\_work, B.3).                       |
 
-### 4) Solution
+#### 4) Solution
 
-#### 4.1 Terms (didactic recap)
+##### 4.1 Terms (didactic recap)
 
 * **U.MethodDescription** — a design‑time description: ordered steps, **SerialStepOf/ParallelFactorOf**, step **capability types**, **pre/post‑conditions**, and required **external interactions**.
 * **U.Method** — a run‑time enactment by a **U.TransformerRole** (A.12): the same ordered pattern realised on concrete carriers, satisfying step pre‑conditions and producing post‑conditions.
@@ -12757,7 +12757,7 @@ Without a dedicated, order‑aware method operator:
 
 ---
 
-#### 4.2 The operator family (two companion flavours)
+##### 4.2 The operator family (two companion flavours)
 
 To respect the design/run split, **Γ\_method** is presented as two companion operators sharing the same semantics but acting at different scopes.
 
@@ -12790,7 +12790,7 @@ Both flavours **reuse Γ\_ctx** invariants for order (non‑commutative composit
 
 ---
 
-#### 4.3 Core aggregation rules (design‑time composition)
+##### 4.3 Core aggregation rules (design‑time composition)
 
 When computing **Γ\_method^plan(D\_spec, σ)**:
 
@@ -12815,7 +12815,7 @@ When computing **Γ\_method^plan(D\_spec, σ)**:
 
 ---
 
-#### 4.4 Core aggregation rules (run‑time instantiation)
+##### 4.4 Core aggregation rules (run‑time instantiation)
 
 When executing **Γ\_method^run(M\_spec, T, Bind)**:
 
@@ -12843,7 +12843,7 @@ When executing **Γ\_method^run(M\_spec, T, Bind)**:
 
 ---
 
-#### 4.5 Didactic contrasts (to prevent common confusions)
+##### 4.5 Didactic contrasts (to prevent common confusions)
 
 * **Method vs Work.**
   Method = **what** ordered transformations are enacted; **Work** = **resources spent / yields / dissipation** when enacting them (Γ\_work). Keep them distinct.
@@ -12857,9 +12857,9 @@ When executing **Γ\_method^run(M\_spec, T, Bind)**:
 * **MethodDescription vs Method.**
   Keep **planning** artefacts (MethodDescription) separate from **enactment** (Method). Γ\_method provides operators for both but never fuses them.
 
-### 5) Archetypal grounding (worked, didactic)
+#### 5) Archetypal grounding (worked, didactic)
 
-#### 5.1 System archetype — **Assemble‑Paint‑Test** as one Method
+##### 5.1 System archetype — **Assemble‑Paint‑Test** as one Method
 
 * **Design‑time (Γ\_method^plan).**
   `D_spec` contains `StepSpec`s: `AssembleChassis`, `InstallPowertrain`, `PaintBody`, `RunFunctionalTest`.
@@ -12880,7 +12880,7 @@ When executing **Γ\_method^run(M\_spec, T, Bind)**:
   Cutset steps for WLNK: `InstallPowertrain` (torque tolerances) and `RunFunctionalTest` pass/fail; integration edges carry **CL** for harness mapping and paint/seal specification.
   **Γ\_work** is invoked to compute energy/material spend and dissipation; Γ\_method does not tally costs itself.
 
-#### 5.2 Episteme archetype — **Evidence‑Synthesis‑Publish** as one Method
+##### 5.2 Episteme archetype — **Evidence‑Synthesis‑Publish** as one Method
 
 * **Design‑time (Γ\_method^plan).**
   Steps: `CollectDatasets`, `NormalizeSchemas`, `EstimateModel`, `CrossValidate`, `DraftManuscript`.
@@ -12898,9 +12898,9 @@ When executing **Γ\_method^run(M\_spec, T, Bind)**:
 
 ---
 
-### 6) Method Interface Standard (MIC) — template & examples
+#### 6) Method Interface Standard (MIC) — template & examples
 
-#### 6.1 MIC template (normative content)
+##### 6.1 MIC template (normative content)
 
 ```
 Method Interface Standard (MIC)
@@ -12920,7 +12920,7 @@ Method Interface Standard (MIC)
     - rationale for Promote/Forward/Encapsulate choices
 ```
 
-#### 6.2 MIC excerpts (didactic)
+##### 6.2 MIC excerpts (didactic)
 
 * **Manufacturing method MIC excerpt**
 
@@ -12955,7 +12955,7 @@ Method Interface Standard (MIC)
 
 ---
 
-### 7) Proof obligations (normative)
+#### 7) Proof obligations (normative)
 
 **At planning time (Γ\_method^plan):**
 
@@ -12975,7 +12975,7 @@ Method Interface Standard (MIC)
 
 ---
 
-### 8) Conformance Checklist (normative)
+#### 8) Conformance Checklist (normative)
 
 | ID            | Requirement                                                                                                                                                   | Purpose                             |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
@@ -12989,7 +12989,7 @@ Method Interface Standard (MIC)
 
 ---
 
-### 9) Anti‑patterns & repairs
+#### 9) Anti‑patterns & repairs
 
 | Anti‑pattern           | Symptom                                                       | Repair                                                                             |
 | ---------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -13002,7 +13002,7 @@ Method Interface Standard (MIC)
 
 ---
 
-### 10) Consequences
+#### 10) Consequences
 
 **Benefits**
 
@@ -13018,7 +13018,7 @@ Method Interface Standard (MIC)
 
 ---
 
-### 11) Rationale (informative)
+#### 11) Rationale (informative)
 
 * **Order is semantic.** Many failures stem from pretending that order does not matter; Γ\_method makes **non‑commutativity** explicit (via Γ\_ctx) while keeping the operator set small.
 * **Strict Distinction.** The split between **Method/MethodDescription**, **Γ\_method/Γ\_work**, and **assurance** implements A.15, preventing category errors (behaviour vs spending vs claims).
@@ -13027,7 +13027,7 @@ Method Interface Standard (MIC)
 
 ---
 
-### 12) Relations
+#### 12) Relations
 
 * **Builds on:** A.12 (Transformer Role), A.14 (Mereology Extension), A.15 (Strict Distinction); B.1.1 (Proof Kit), B.1.4 (Γ\_ctx/Γ\_time).
 * **Coordinates with:** B.1.6 (Γ\_work) for resource accounting; B.3 (Assurance) for WLNK cutsets and CL penalties.
@@ -13039,12 +13039,12 @@ Method Interface Standard (MIC)
 
 
 
-## **B.1.6 Γ\_work — Work as Spent Resource** \[D]
+### **B.1.6 Γ\_work — Work as Spent Resource** \[D]
 
 +> **► decided‑by: A.14 Advanced Mereology**
 +**A.14 compliance —** Only **Work** carries resource deltas; quantitative splits/consumption use **PortionOf** against pre‑consumption stocks; run histories use **PhaseOf** on Work; `MemberOf` MUST NOT be used for resource mereology; SCR/RSCR stay outside (use EPV‑DAG anchors).
  
-### Problem frame
+#### Problem frame
 
 FPF distinguishes **what is done** from **what it costs** to do it.
 
@@ -13059,7 +13059,7 @@ This separation makes models auditable and prevents category errors: **Γ\_metho
 
 ---
 
-### Problem
+#### Problem
 
 Without a dedicated algebra for spent resources, models drift into four errors:
 
@@ -13070,7 +13070,7 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 
 ---
 
-### Forces
+#### Forces
 
 | Force                                               | Tension                                                                                                                        |
 | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -13081,7 +13081,7 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 
 ---
 
-### Terminology guard‑rails (A.15 — Strict Distinction)
+#### Terminology guard‑rails (A.15 — Strict Distinction)
 
 > These rules are normative in this pattern; they exist to prevent the recurring confusion noted in prior drafts.
 
@@ -13094,12 +13094,12 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 
 ---
 
-### Solution — The Γ\_work Operator 
+#### Solution — The Γ\_work Operator 
 #### Part 1 — Operator & Basic Definitions
 
 **Intent.** Provide a universal, conservative way to compose resource spending across parts and steps, without talking about control‑flow (that is Γ\_method’s job).
 
-##### 1) Operator signature
+#### 1) Operator signature
 
 ```
 Γ_work : (R : ResourceGraph, M_spec : U.MethodDescription?, T : U.TransformerRole) → W_tot : U.Work
@@ -13115,7 +13115,7 @@ Without a dedicated algebra for spent resources, models drift into four errors:
 
 > **Do not confuse:** Γ\_work neither schedules nor orders steps; it composes **deltas**. If you need order, use Γ\_method and then apply Γ\_work per step and fold the resulting Work vectors (see Relations in Part 2).
 
-##### 2) What counts as “Work”
+#### 2) What counts as “Work”
 
 Work is defined **with respect to a declared boundary** of the holon being transformed or assembled:
 
@@ -13134,7 +13134,7 @@ Work is defined **with respect to a declared boundary** of the holon being trans
 * **Heterogeneous vectors:**
   Γ\_work treats different resource types as a **typed vector space** (no implicit conversion). Equivalences (e.g., joules↔bits via a declared model) are allowed only if **declared in M\_spec** or in a domain CAL; otherwise vectors remain multi‑dimensional.
 
-##### 3) Boundary Ledger (normative output metadata)
+#### 3) Boundary Ledger (normative output metadata)
 
 Every Γ\_work result **MUST** include a **Boundary Ledger**:
 
@@ -13146,7 +13146,7 @@ Every Γ\_work result **MUST** include a **Boundary Ledger**:
 
 This ledger is what makes cross‑model Work totals comparable and auditable (A.10).
 
-##### 4) The invariant quintet instantiated (overview)
+#### 4) The invariant quintet instantiated (overview)
 
 Γ\_work preserves B.1 invariants; the detailed proofs and corner cases are in Part 2.
 
@@ -13155,7 +13155,7 @@ This ledger is what makes cross‑model Work totals comparable and auditable (A.
 * **WLNK (weakest‑link bound):** Effective Work is capped by the scarcest **critical** input on the boundary (no Work can exceed available supply).
 * **MONO (monotonicity):** Increasing an available resource cannot decrease Work (for the same boundary and time window); decreasing dissipation or improving η cannot reduce feasibility.
 
-##### 5) How Γ\_work relates to Methods (and to Γ\_method)
+#### 5) How Γ\_work relates to Methods (and to Γ\_method)
 
 * **Design‑time:** `M_spec` may declare an intended yield **η** and admissible equivalences between resource types (e.g., heat→mechanical), but these are **assumptions** until a Method runs.
 * **Run‑time:** A Method instance (executed by **T**) produces actual deltas. Γ\_work composes those deltas; it does not speculate.
@@ -13163,7 +13163,7 @@ This ledger is what makes cross‑model Work totals comparable and auditable (A.
 
 > **Didactic tip:** Think of **Γ\_method** as the **story of what happened**, and **Γ\_work** as the **receipt of what it cost**, both anchored to the same boundary and time window.
 
-##### 6) Fold rules (how Γ\_work composes)
+#### 6) Fold rules (how Γ\_work composes)
 
 **6.1 Boundary partition (across parts of a whole)**
 Let the system‑level boundary **B** be covered by a finite family of pairwise‑disjoint sub‑boundaries **{Bᵢ}** (ports, surfaces, interfaces) that together exhaust **B**. For any resource type *q* in the basis:
@@ -13209,7 +13209,7 @@ Work_B(q*) ≤ Avail_B(q*),  for all q* ∈ Q*
 
 If any inequality is violated, the fold **must fail** or the modeller must declare a **Meta‑Holon Transition (B.2)** that introduces redundancy/substitution as a new structural capability (changing Q\* or the equivalence map). This is WLNK in resource form.
 
-##### 7) Embodiment and dissipation (reporting scheme)
+#### 7) Embodiment and dissipation (reporting scheme)
 
 Every Work vector **MAY** be split into two projections, both defined on the **same basis** and the **same boundary/time window**:
 
@@ -13226,7 +13226,7 @@ This split is **informative**, not a second algebra: Γ\_work always folds the *
 
 ---
 
-##### 8) Invariants — edge cases and proof sketches
+#### 8) Invariants — edge cases and proof sketches
 
 **8.1 IDEM (idempotence)**
 If `R` has one resource node, no `consumes/produces/transfers` edges, and ΔStock\_inside(q)=0, then
@@ -13564,7 +13564,7 @@ MHT.PromotionRecord
 * **MHT:** **ContextReframe** to `H⁺ = CertifiedProduct`; new **BIC** and regulatory vocabulary become the baseline; earlier lab claims are not silently “ported”.
 
 
-### 6.5 · Certification Interface Example *(Informative)*
+#### 6.5 · Certification Interface Example *(Informative)*
 
 Conceptual signature (notation‑neutral):
 
@@ -13830,7 +13830,7 @@ It ensures that when a claim of "synthesis" or "unification" is made, it is not 
 *   **Is performed by:** An external `Transformer` (A.12) executing an abductive leap (B.5.2).
 *   **Produces:** A new `U.Episteme` whose trust and reliability are then governed by `B.3 Trust & Assurance Calculus`.
 
-### **Pattern B.2.4 — MFT (Meta-Functional Transition) [A]** 
+#### **Pattern B.2.4 — MFT (Meta-Functional Transition) [A]** 
 
 **Context**
 
@@ -14242,7 +14242,7 @@ B.3 remains neutral about *how* improvement happens, but for didactic clarity:
 
 Each of these corresponds to recognizable **Transformer roles** and KD‑CAL moves (design‑time); their **run‑time** counterparts are covered by Γ\_time (phase evidence) and Γ\_work (cost of obtaining assurance).
 
-### 4.8 Prohibition (normative) — F–G–R is not a CharacteristicSpace
+#### 4.8 Prohibition (normative) — F–G–R is not a CharacteristicSpace
 Do not treat `⟨F,G,R⟩` as a `U.CharacteristicSpace` and do not define geometric **trajectories** over it. Use **ESG** for episteme state and the **assurance‑trace** hooks for trends in assurance tuples.
 
 ### 5) Proof obligations (attach these when producing an Assurance tuple)
@@ -14631,12 +14631,12 @@ Knowledge frameworks that ignore time degrade silently. By embedding entropy acc
 *   **Constrains:** The temporal validity of `AssuranceLevel` for all holons.
 *   **Enables:** Proactive maintenance planning within the Canonical Evolution Loop (B.4) and provides a dynamic risk input for ethical and strategic decision-making (Part D).
 
-## B.3.5 · **CT2R‑LOG — Working-Model Relations & Grounding** *(LOG‑use)*
+### B.3.5 · **CT2R‑LOG — Working-Model Relations & Grounding** *(LOG‑use)*
 
 > **One‑line summary.**
 > CT2R‑LOG treats the everyday **Working‑Model relations**— **ut:ComponentOf**, **ut:MemberOf**, **ut:PortionOf**, **ut:AspectOf** —as the **publication surface** for structure, while binding each published edge to a **grounding trace** and a **declared `tv:validationMode`**. Authors keep using a short list of relations; reviewers get reconstructible provenance.
 
-### 1) Intent
+#### 1) Intent
 
 *Provide a single, human‑facing family of **Working‑Model** relations as the **publication surface**, with explicit hooks for (G) grounding and (R) reliability—without exposing constructor jargon or burdening day‑to‑day authors.*
 
@@ -14651,7 +14651,7 @@ Knowledge frameworks that ignore time degrade silently. By embedding entropy acc
 
 This is the **alias‑plus‑grounding** split: **Compose‑CAL** builds the trace; **CT2R‑LOG** declares the alias pattern and links it; **Lang‑CHR** supplies the labels.
 
-### 2) Problem frame & forces (why this pattern exists)
+#### 2) Problem frame & forces (why this pattern exists)
 
 * **Two audiences, one dial.** Project managers want **one relation family** and stable views; ontologists want **generative completeness** and extensional identity.
 * **Parsimony constraint.** The Kernel stays minimal; construction is **outside** the Kernel.
@@ -14659,7 +14659,7 @@ This is the **alias‑plus‑grounding** split: **Compose‑CAL** builds the tra
 
 ---
 
-### 3) Problem
+#### 3) Problem
 
 Declared sub‑relations of `ut:PartOf` (e.g., **ComponentOf**, **MemberOf**) are easy to use but **not self‑justifying**: nothing in their declaration shows *why* a given edge should be trusted, or how to **re‑derive** it if challenged. Conversely, exposing constructor traces everywhere makes the graph unreadable to non‑specialists.
 
@@ -14667,7 +14667,7 @@ Declared sub‑relations of `ut:PartOf` (e.g., **ComponentOf**, **MemberOf**) ar
 
 ---
 
-### 4) Solution (thumbnail)
+#### 4) Solution (thumbnail)
 
 CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
 
@@ -14691,7 +14691,7 @@ CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
 > **G** (its *Grounding*): `:e123 tv:groundedBy :trace_Γm_sum_456`.
 > **R** (declared *Reliability mode*): `tv:validationMode=axiomatic` → inputs B.3.3’s **AssuranceLevel** assessment.
 
-### 5) Vocabulary & notation (normative)
+#### 5) Vocabulary & notation (normative)
 
 * **Working-Model relations (front‑stage).**
  `ut:ComponentOf`, `ut:PortionOf`, `ut:AspectOf` are **publication-grade** sub-properties of `ut:StructPartOf` **(structural)**; `ut:MemberOf` is a sub-property of `ut:EpiPartOf` **(epistemic)**. 
@@ -14708,7 +14708,7 @@ CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
 * **Validation flag.**
  `tv:validationMode ∈ {postulate, inferential, axiomatic}` is **required** on every declared edge or aggregation rule; **for structural edges `postulate` is disallowed**.
 
-### 6) Running example (didactic)
+#### 6) Running example (didactic)
 
 > **Story.** A refinery team publishes `:PumpA ut:ComponentOf :Skid12`.
 
@@ -14726,7 +14726,7 @@ When the same team asserts `:MassFlowRepresentation RepresentationOf :FlowModel`
   
 Result: **one** visible relation for engineers, **two** hidden anchors for assurance.
 
-### 7) Author Standard (at a glance)
+#### 7) Author Standard (at a glance)
 
 When you add or import a relation edge:
 
@@ -14743,17 +14743,17 @@ When you add or import a relation edge:
 
 ---
 
-### 8) Compatibility & cross‑references
+#### 8) Compatibility & cross‑references
 
 * **B.3.2 (LOG‑use).** CT2R‑LOG supplies the **places to hang proofs/evidence** that B.3.2 formalizes.
 * **B.3.3 (Assurance levels).** `validationMode` + presence/quality of `tv:groundedBy` are the **inputs** to compute `AssuranceLevel (L0–L2)`.
 * **B.3.4 (Evidence ageing).** If an edge relies on **postulated evidence**, its confidence **decays** per that pattern until refreshed; **axiomatic** edges from `Γ_m` traces do not age, but their **inputs** (tokens) might.
 
-## 9 · Rule‑set — CT2R‑LOG (conceptual, human‑first)
+#### 9 · Rule‑set — CT2R‑LOG (conceptual, human‑first)
 
 **Intent (one line).** Make **Working‑Model** relations the canonical interface for authors, while providing a **clean, optional bridge** to formal assurance by way of *aliasing* and *grounding* semantics.
 
-### 9.1 Vocabulary & Roles (what the words mean in this pattern)
+##### 9.1 Vocabulary & Roles (what the words mean in this pattern)
 
 * **Working‑Model relation.** A human‑oriented statement an engineer would naturally write, using U.Type relations such as `ut:ComponentOf`, `ut:PortionOf`, `ut:AspectOf`, `ut:MemberOf`. This is the **canonical publication surface** for structure for readers and reviewers in Part B. (Didactic primacy governs this choice.)
 
@@ -14781,7 +14781,7 @@ When you add or import a relation edge:
 
 ---
 
-### 9.2 Normative rules (MUST/SHALL clauses for thinking‑and‑writing)
+##### 9.2 Normative rules (MUST/SHALL clauses for thinking‑and‑writing)
 
 **S‑1 (Working-Model first).**
 Authors **SHALL** publish structural claims in the **Working‑Model** form (`ut:*Of` relations). This is the canonical interface for human readers and cross‑disciplinary teams. Formal reconstructions are **optional** and live in the Assurance Layer.
@@ -14819,7 +14819,7 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 
 ---
 
-### 9.3 Scope & Non‑Goals (to keep the plane clean)
+##### 9.3 Scope & Non‑Goals (to keep the plane clean)
 
 * **In scope.**
   Canonical publication of relations for humans; alias‑to‑principle clarity; conceptual grounding stories; author‑declared *validationMode*; separation of structure vs order/time.
@@ -14832,7 +14832,7 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 
 ---
 
-### 9.4 Author’s working moves (micro‑playbook, notation‑free)
+##### 9.4 Author’s working moves (micro‑playbook, notation‑free)
 
 **M‑1.** State the relation in **Working‑Model** form (e.g., “Impeller `ComponentOf` Pump”).
 **M‑2.** Pick `validationMode`:
@@ -14845,7 +14845,7 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 **M‑4.** Keep *order/time* adjacent, not embedded: if you need “assembled in two parallel lines”, write that as a **method/time** statement next to the structure, not as a part‑of edge.
 **M‑5.** Stop when the *reader can follow without guessing*. This is the stopping rule for Quarter 2: clarity before formality. (Didactic primacy.)
 
-### 10) Bias‑Annotation (auditable, human‑first)
+#### 10) Bias‑Annotation (auditable, human‑first)
 
 The purpose of this section is to make **typical cognitive slips** visible and name the **counter‑moves** an author (or reviewer) should apply **in thought**—not with tools. These biases are generic; the remedies point to earlier FPF guard‑rails and neighbouring patterns.
 
@@ -14863,7 +14863,7 @@ The purpose of this section is to make **typical cognitive slips** visible and n
 
 ---
 
-### 11) Conformance Checklist (normative, author‑facing)
+#### 11) Conformance Checklist (normative, author‑facing)
 
 The following obligations regulate **how to think and write** CT2R content. They are **notation‑agnostic** and purely conceptual.
 
@@ -14881,7 +14881,7 @@ The following obligations regulate **how to think and write** CT2R content. They
 
 ---
 
-### 12) Consequences (benefits, trade‑offs, mitigations)
+#### 12) Consequences (benefits, trade‑offs, mitigations)
 
 **Benefits**
 
@@ -14900,7 +14900,7 @@ The following obligations regulate **how to think and write** CT2R content. They
 > CT2R lets you **talk in natural, domain‑meaningful relations** while preserving a clear, optional path to formal grounding and empirical checking—so confidence can grow deliberately without dragging your model into tooling or syntax.
 
 
-### 13) · Rationale (informative)
+#### 13) · Rationale (informative)
 
 **13.1 Why canonical‑first?**
 CT2R‑LOG treats the **human‑readable, task‑appropriate relation** (e.g., `ut:ComponentOf`) as the **canonical publication form** because that is what engineers and managers actually use to reason, decide, and communicate. The formal layers exist to **support** that form—not to replace it. This is consistent with the authoring Standard in Part E (pattern template and style guide), which privileges **clarity, purpose and didactics** over premature formalism in the body text. Authors write *for people first*, then point to the kind of assurance they are invoking.
@@ -14920,7 +14920,7 @@ Three constructive moves—**sum, set, slice**—are sufficient to narrative‑r
 **13.6 Why mental obligations rather than process mandates?**
 Part E requires that patterns govern **thinking** and **authoring**; enforcement and automation, if any, are external concerns. CT2R‑LOG therefore states obligations as **self‑contained cognitive checks**: declare your mode; tell the constructive story only when you claim *axiomatic* strength; keep order/time in their places. This keeps the core specification **evergreen and tool‑agnostic**, as required.
 
-### 14 · Relations
+#### 14 · Relations
 
 **Builds on**
 • **A.14 Advanced Mereology** — structural catalogue and the firewall that excludes roles/recipes and distinguishes Portion/Phase/Component/Constituent; CT2R‑LOG preserves these distinctions at publication time.
@@ -14943,7 +14943,7 @@ Part E requires that patterns govern **thinking** and **authoring**; enforceme
 **Non‑relations**
 **No introduction of order/time** — CT2R‑LOG does **not** define `SerialStepOf` / `ParallelFactorOf` / temporal **phases**; those belong to **Method‑CAL** and **Sys‑CAL (TemporalPart)** respectively.  
 
-### Pattern B.4 — Canonical Evolution Loop \[A]
+#### Pattern B.4 — Canonical Evolution Loop \[A]
 
 **Context**
 
@@ -15061,7 +15061,7 @@ By making the `Transformer`'s role explicit in every phase, the pattern avoids t
 | B.4.3   | Method instantiation                    | \[A] | Dev‑ops pipeline evolution.                                               |
 | **B.5** | **Reasoning Toolkit**                    | \[A] | Core cognitive cycles; role‑projection.                                   |
 
-### **Pattern B.5 — Canonical Reasoning Cycle [A]** 
+#### **Pattern B.5 — Canonical Reasoning Cycle [A]** 
 
 **Context**
 
@@ -15159,7 +15159,7 @@ This pattern provides the engine that drives an artifact up the ladder of `Assur
 *   **Enables:** The refinement phase of the `B.4 Canonical Evolution Loop`.
 *   **Operationalizes:** The core FPF mission of transforming ideas into reliable, evidence-backed holons.
 
-###  B.5.1 — Explore → Shape → Evidence → Operate \[D]
+### B.5.1 — Explore → Shape → Evidence → Operate \[D]
 
 **Context**
 
@@ -15309,7 +15309,7 @@ It directly implements the **Primacy of Abduction** (from ADR-005) by placing hy
 *   **Produces:** `AssuranceLevel:L0` artifacts, which become the input for deductive analysis and subsequent progression through `B.3.3 Assurance Subtypes & Levels`.
 *   **Is informed by:** The **Role-Projection Bridge** (Pattern B.5.3), which can provide a rich vocabulary of domain-specific concepts to use in generating hypotheses.
 
-# B.5.2.1 — Creative Abduction with NQD (binding) \[A]
+#### B.5.2.1 — Creative Abduction with NQD (binding) \[A]
 
 **Status.** Normative **binding** to **B.5.2 Abductive Loop** that delegates candidate generation to **Γ_nqd.generate** (**C.18 NQD-CAL**) and exploration/exploitation policy to **E/E-LOG (C.19)**; the kernel remains unchanged.
 
@@ -15323,13 +15323,13 @@ It directly implements the **Primacy of Abduction** (from ADR-005) by placing hy
 * **Operational loops:** compatible with **B.4 Canonical Evolution Loop** (ideas generated here flow into Run→Observe→Refine→Deploy) and with **B.5 Canonical Reasoning Cycle** (ADI), preserving abductive primacy. 
 * **Agency note.** Decisions are taken by a **system in role**. **Contexts publish** measurement spaces and admissible policies as **semantic frames**; they do **not** enact choices.
 
-## 1 · Intent & Problem
+##### 1 · Intent & Problem
 
 **Intent.** Turn Step 2 (*generate*) and Step 3 (*filter*) of the Abductive Loop from ad‑hoc brainstorming into a **disciplined, instrumented exploration** that can (i) *produce many* distinct, plausible hypotheses and (ii) *surface the few worth pursuing*—*without* bloating the kernel or forcing a specific creative method.
 
 **Problem.** Unstructured ideation routinely fails on two fronts: it either produces *too little variety* (pet ideas win by seniority) or *too little plausibility* (grand theories with no testable predictions). **B.5.2** names these failure modes; this plug‑in adds a minimal, measurable counter‑mechanism aligned to FPF’s assurance lanes and state machine.
 
-## 2 · The **Creativity‑CHR** (references only; no re‑definitions here)
+##### 2 · The **Creativity‑CHR** (references only; no re‑definitions here)
 
 This binding **references** the context‑local **Creativity‑CHR** (see **C.17**) and **does not** restate measurement templates. The primary coordinates are:
 • **`Novelty@context`** (C.17 §5.1), • **`ΔDiversity_P`** (marginal; C.17 §5.5), and • **`Q` components** (per A.18).  
@@ -15343,7 +15343,7 @@ All listed **Characteristics** are **context‑local** with explicit units/range
 > **D vs I (normative).** **D = ΔDiversity_P** (marginal gain) and is eligible for the primary dominance test. **I** is _portfolio illumination_ (report/visual); it **SHALL NOT** be part of the primary dominance test and is usable **only** as an explicit tie-break per policy.
 > **Measurement invariants.** Distances, grids, and transforms MUST be declared once per run, versioned, and referenced from provenance (§3, §5).
 
-## 3 · Solution — **Binding to Γ_nqd.generate (C.18)**
+##### 3 · Solution — **Binding to Γ_nqd.generate (C.18)**
 
 **Method name (Plain/Unified Tech).** *NQD‑Generate* — a **U.Method** that, given (i) a **HypothesisSpace** and (ii) a **CharacteristicSpace** with a **CoverageGrid**, returns a *finite*, **non‑dominated** set of candidate hypotheses that maximize **Quality** (per‑component) while maintaining **Diversity** and encouraging **Novelty**.
 
@@ -15365,7 +15365,7 @@ All listed **Characteristics** are **context‑local** with explicit units/range
 
 > **No kernel growth.** This is a *Method* (C.4 Method‑CAL) plus a CHR import; **no new Γ‑operator** is added (per **A.11**).
 
-## 4 · Implementation & Binding into **B.5.2** (two injection points)
+##### 4 · Implementation & Binding into **B.5.2** (two injection points)
 
 **Step 2 — Generate candidates.** 
 **Precondition (USM+RSG).** Generation is permitted only when the **Claim/Work Scope** covers the TargetSlice (USM) **and** the performer’s **RoleAssignment** is in an **enactable RSG state** (Green-Gate law). 
@@ -15393,7 +15393,7 @@ Primary dominance test: compute the (ε-)Pareto front over {Q components}. By de
 Note — Status `Surprise` (scope and default role):
 By default in B.5.2.1, `Surprise` functions solely as a secondary tie‑break among candidates that are otherwise Pareto‑equivalent on the Context’s primary characteristics. A Context policy MAY elevate `Surprise` into the dominance set, allowing it to enter the CreativitySpace dominance alongside the primary characteristics.  If no Context policy is specified, the default tie‑break role applies.
 
-## 5 · Conformance Checklist (normative)
+##### 5 · Conformance Checklist (normative)
 
 **CC‑B.5.2.1‑1 (CHR discipline).** If a Context uses this plug‑in, it **SHALL** declare the Creativity‑CHR **Characteristics** with **A.18**‑style templates (type, unit/range, polarity). No new kernel terms are introduced.
 **CC‑B.5.2.1‑2 (Instrumented generation).** Step 2 of **B.5.2** **SHALL** either (a) invoke *NQD‑Generate* or (b) justify a Context‑specific generator of equivalent effect (diversity + quality + novelty with measurable **Characteristics**).
@@ -15408,7 +15408,7 @@ By default in B.5.2.1, `Surprise` functions solely as a secondary tie‑break am
 **CC‑B.5.2.1‑10 (Cell capacity & ε).** If `K>1` or `ε>0` are used, the values MUST be declared and recorded in provenance; any thinning AFTER recording the front SHALL be documented in the DRR.
 **CC‑B.5.2.1‑11 (Dominance set).** By default the dominance set **SHALL be {Q components}**; **N (Novelty@context)** and **ΔDiversity_P** act as **tie‑breakers** unless explicitly promoted by **policy** (record the policy‑id in provenance).
 
-## 6 · Cognitive Load & Kernel Growth Budget
+##### 6 · Cognitive Load & Kernel Growth Budget
 
 **For engineers/managers (user cognitive load).**
 
@@ -15420,11 +15420,11 @@ By default in B.5.2.1, `Surprise` functions solely as a secondary tie‑break am
 
 * *Zero* new primitives; only a CHR import and a **Method**. Passes **A.11** minimal‑sufficiency. 
 
-## 7 · Placement in the Reasoning Cycle (ADI)
+##### 7 · Placement in the Reasoning Cycle (ADI)
 
 This plug‑in **only structures hypothesis exploration** (Abduction) and does not define or imply any **operational** gates. It respects ADI ordering (Abduct → Deduct → Induct) and leaves deployment/readiness concerns to patterns outside this spec.
 
-## 8 · Context‑Level KPIs (optional, informative)
+##### 8 · Context‑Level KPIs (optional, informative)
 
 Contexts *may* monitor these—*not* as gates, but to improve practice:
 
@@ -15434,7 +15434,7 @@ Contexts *may* monitor these—*not* as gates, but to improve practice:
 4. **Exploration Cost Ratio (ECR).** Compute/time spent in NQD‑Generate divided by downstream Shape/Evidence cost saved (tracks whether the plug‑in pays for itself).
 5. **Refutation Learning Yield (RLY).** Among *refuted* candidates, % that added new coverage or raised SurpriseScore—turning “failures” into map‑building.
 
-## 9 · Worked micro‑example (abbreviated)
+##### 9 · Worked micro‑example (abbreviated)
 
 **Framing = Step 1 in B.5.2**
 **Context:** A Context using FPF to evolve FPF itself (meta‑improvement). *Anomaly:* “Users perceive FPF as compliance‑heavy; we need first‑principles creativity surfaced.” 
@@ -15455,14 +15455,14 @@ Contexts *may* monitor these—*not* as gates, but to improve practice:
 * **Scope (USM):** `h₁` scoped to Part B; `TimeWindow = edition 2025‑Q4` → *covers TargetSlice*. `h₃` crosses Contexts (tooling) → requires Bridge; the overhead is accounted for in **R** (not **F/G**). *(This plug‑in does not create or alter Bridges.)*
 * **Select prime:** `h₁` → formalize as L0 episteme (this pattern), move to *Shaping* (define checklist), then *Evidence* (track KPIs).
 
-## 10 · Trade‑offs & mitigations
+##### 10 · Trade‑offs & mitigations
 
 * **Cognitive effort.** Interpreting Pareto sets and coverage maps adds thinking overhead. *Mitigation:* standard “NQD Card” + default grids; keep **Characteristics** small in number (≤ 7). *Manager shortcut:* pick 2–3 **Q** characteristics that reflect the anomaly, then run with defaults.
 * **Locality.** Novelty/diversity are **context‑local**; Cross‑context reuse requires **re‑measurement or an explicit mapping**. This pattern **does not define** Cross‑context operational controls.
 * **Not a magic idea machine.** Abduction remains human/agentic; the plug‑in *structures* search, it does not automate insight. B.5’s abductive primacy stands.
 * **Metric gaming & collinearity.** Avoid making **N** and **S** redundant by policy; when strong collinearity is detected, freeze one as informative only and record rationale in the DRR.
 
-## 11 · Related Patterns
+##### 11 · Related Patterns
 
 * **Extends:** **B.5.2 Abductive Loop** (Step 2/3 operationalization). 
 * **Driven by / feeds:** **B.5 Canonical Reasoning Cycle** (Abduction→Deduction→Induction), **B.4 Evolution Loop** (Observe/Refine). 
@@ -15587,23 +15587,23 @@ This approach is inspired by contemporary practices in both ontology engineering
 | **Cluster C.I – Core CALs / LOGs / CHRs**    |                                    |     |                                                                      |
 | C.1                                          | **Sys‑CAL**                        | CAL | Physical holon composition; conservation invariants; resource hooks. |
 
-# C.2 · **KD‑CAL** — *Epistemic holon composition* \[A]  *(Architheory: CAL)*
+## C.2 · **KD‑CAL** — *Epistemic holon composition* \[A]  *(Architheory: CAL)*
 
 **Scope & exports.** A substrate‑neutral calculus for composing **epistemic holons** (`U.Episteme`) and reasoning about their motion and equivalence. Exports: (i) three **point‑characteristics**—**Formality F**, **ClaimScope G**, **Reliability R**—that locate a single episteme; (ii) a **pairwise ladder** of **Congruence Levels (CL 0…3)**; (iii) four **Δ‑moves** (*Formalise, Generalise/Specialise, Calibrate/Validate, Congrue*); (iv) **composition rules** (Γ_epist) for aggregates; (v) propagation laws for CL through mappings and notation bridges. KD‑CAL sits on the `U.Episteme` *semantic triangle* (Symbol–Concept–Object) and never confuses **notation** with **carrier**. All F–G–R computations are **context‑local**; Cross‑context traversals **require** an explicit **Bridge** with **CL** and apply the **B.3** congruence penalty **Φ(CL)** to **R**.  // Contexts ≡ U.BoundedContext; substitution is plane‑preserving only.
 
 **Formality F** is the rigor characteristic defined **normatively in C.2.3**. All KD‑CAL computations and guards **SHALL** use `U.Formality` (F0…F9) as specified there; **no parallel “mode” ladders** are allowed.
 
-## 1 · Context
+### 1 · Context
 
 FPF fixes two archetypal sub‑holons: **`U.System`** (physical/operational) and **`U.Episteme`** (knowledge holon). KD‑CAL is the **home architheory** of `U.Episteme`, giving engineers a compact, testable way to say (a) how strictly an episteme is written (**F**), (b) how much structure it manages (**G**), (c) how well it is warranted by evidence or severe tests (**R**), and (d) how closely **two** epistemes coincide (**CL**). KD‑CAL is built atop **C.2.1 U.Episteme — Semantic Triangle via Components**, which reifies every episteme as **Concept** (claim‑graph), **Object** (describedEntity & evaluation rules), and **Symbol** (notation)—*not the file itself*; **carriers** and **work/executions** remain outside and are linked via `isCarriedBy` / `producedBy(U.Work)`.
 
-## 2 · Problem
+### 2 · Problem
 
 Teams routinely entangle **programs, specifications, proofs, and datasets**; a “proof” is treated as a tested routine, a “program” is cited as if it entailed a theorem. **Trust decays** because justification and evidence freshness are not explicit. Epistemes are anthropomorphised as actors (“the standard enforces…”), producing **category errors at execution**. Without a shared composition and equivalence calculus, aggregates hide weakest links and analogies harden into overclaims. KD‑CAL must stop these failure modes with a **single constitution and scale‑set**.
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 * **Universality vs domain idioms.** One calculus must host physics theories, legal codes, safety specs, algorithms, and formal proofs without flattening their differences.
 * **Meaning vs materiality.** Meaning must be independent of carrier, yet accountable to it historically.
@@ -15612,9 +15612,9 @@ Teams routinely entangle **programs, specifications, proofs, and datasets**; a �
 
 ---
 
-## 4 · Solution
+### 4 · Solution
 
-### 4.1 · Coordinates and the triangle
+#### 4.1 · Coordinates and the triangle
 
 **KD‑CAL characteristics (single‑episteme, point‑values).**
 
@@ -15627,7 +15627,7 @@ Teams routinely entangle **programs, specifications, proofs, and datasets**; a �
 
 **Triangle link.** The characteristics live on the **Concept↔Object** side: *F* by the internal claim‑graph structure; *G* by the **ClaimScope** (scope & assumptions); *R* by evaluation templates and evidence bindings. The **Symbol** vertex hosts notation; **carriers are outside** the episteme and link via `isCarriedBy`. Multiple notations are allowed under a **single Symbol component**; authors SHOULD register `NotationBridge(n₁,n₂)` with an associated **CL** to make conversion loss explicit.
 
-### 4.2 · Four Δ‑moves (epistemic motion)
+#### 4.2 · Four Δ‑moves (epistemic motion)
 
 * ***ΔF — Formalise.** Rewrite for stricter calculi/grammars; raise proof obligations.
 * ***ΔG — Generalise / Specialise.** Widen or narrow the **claim scope** (assumptions & scope). Changes to decomposition granularity are an **orthogonal view** and do not change **G** unless they alter the envelope.
@@ -15635,7 +15635,7 @@ Teams routinely entangle **programs, specifications, proofs, and datasets**; a �
 * **ΔCL — Congrue.** Establish and record the sameness relation between **two** epistemes (ladder 0→3).
   Moves compose into **paths**; CL along a path is the **minimum** of its links.
 
-### 4.3 · Composition (Γ\_epist) and propagation
+#### 4.3 · Composition (Γ\_epist) and propagation
 
 Let **Γ\_epist** combine epistemes `{Eᵢ}` into a composite episteme **Γ** that makes a joint claim (*AND‑style*) or exposes an interface (*series composition*). KD‑CAL imposes **safe defaults**:
 
@@ -15647,7 +15647,7 @@ Let **Γ\_epist** combine epistemes `{Eᵢ}` into a composite episteme **Γ** th
 
 These rules keep Γ aligned with the **holonic kernel**: Γ is only defined on holons and respects identity/boundary discipline from the core. 
 
-### 4.4 · What **must not** be conflated (normative guards)
+#### 4.4 · What **must not** be conflated (normative guards)
 
 * **Symbol ≠ carrier.** Files, PDFs, or repositories are **carriers** outside the episteme; they never count as parts of `U.Episteme` (**see C.2.1 EP‑1; CC‑EPI‑2/3**).
 * **Epistemes do not act.** Only **systems** perform work; epistemes constrain/evaluate via **Object** and **Concept** (**per Core A.15 / CC‑EPI‑3**).
@@ -15655,7 +15655,7 @@ These rules keep Γ aligned with the **holonic kernel**: Γ is only defined on h
 
 ---
 
-## 5 · ✱ Archetypal Grounding (Tell–Show–Show)
+### 5 · ✱ Archetypal Grounding (Tell–Show–Show)
 
 **Universal rule (tell).** *Compose knowledge by Γ\_epist with weakest‑link R, monotone F, and explicit CL on every bridge; keep Symbol–Concept–Object separate and never turn a carrier into a part.*
 
@@ -15665,7 +15665,7 @@ These rules keep Γ aligned with the **holonic kernel**: Γ is only defined on h
 
 ---
 
-## 6 · Bias‑Annotation
+### 6 · Bias‑Annotation
 
 * **Metric worship.** Treating `[F,G,R]` as ends rather than means; mitigation: require **evidence bindings** and narrative of limits in the Object envelope.
 * **Category slip.** Equating a notation or its carrier with the Concept; mitigation: Symbol–carrier separation and EP‑1 triangle cardinality.
@@ -15673,7 +15673,7 @@ These rules keep Γ aligned with the **holonic kernel**: Γ is only defined on h
 
 ---
 
-## 7 · Conformance Checklist
+### 7 · Conformance Checklist
 
 1. **C2‑1 (Triangle).** Every `U.Episteme` **MUST** occupy exactly one slot per {Symbol, Concept, Object}; carriers link via `isCarriedBy` and are never parts.
 2. **C2‑2 (Coordinates).** Each episteme **SHALL** declare `[F,G,R]` with a brief rationale; **F** is `U.Formality ∈ {F0…F9}` per **C.2.3**, **exactly one episteme‑level F** computed as the **min over essential parts**. CL is declared for **pairs only**. Sub‑anchors: ** Contexts **MAY** mint named sub‑anchors (e.g., `F4[OCL]`, `F7[HOL]`), which **MUST** preserve the global order and **map to their parent anchor** from C.2.3.
@@ -15683,20 +15683,20 @@ These rules keep Γ aligned with the **holonic kernel**: Γ is only defined on h
 
 ---
 
-## 8 · Consequences
+### 8 · Consequences
 
 **Benefits.** A single, compact **map** for all knowledge artefacts; fast detection of weakest‑link **R** in aggregates; disciplined reuse across domains with explicit **CL**; consistent separation of **meaning** from **material carriers**.
 **Trade‑offs.** Authors must learn to declare Γ‑mode and CL explicitly; multi‑notation work requires bridge bookkeeping; *mitigation:* the triangle and ladder keep the discipline brief and repeatable.
 
 ---
 
-## 9 · Rationale
+### 9 · Rationale
 
 KD‑CAL externalises a long‑standing semiotic insight (Sign–Meaning–Referent) into a **holonic composition** where syntax/structure (**F,G**), pragmatics/evidence (**R**), and cross‑mapping strength (**CL**) are visible and composable. The explicit triangle (C.2.1) prevents carrier confusion; the characteristic provide a **manager‑readable** yet **formalisation‑ready** scale (with **G** grounded in **scope/envelope**, not part‑count); the CL ladder replaces overloaded “alignment” with a graded sameness notion.
 
 ---
 
-## 10 · Relations
+### 10 · Relations
 
 * **Depends on:** `U.Episteme — Semantic Triangle via Components` (C.2.1): identity invariants EP‑1, Symbol–Concept–Object definitions, evidence bindings.
 * **Peers:** **Sys‑CAL** (C.1), which composes **systems**; KD‑CAL composes **epistemes** and feeds assurance lenses in Part B.
@@ -15704,7 +15704,7 @@ KD‑CAL externalises a long‑standing semiotic insight (Sign–Meaning–Refer
 
 ---
 
-## 11 · Worked mini‑examples (post‑2015 flavours)
+### 11 · Worked mini‑examples (post‑2015 flavours)
 
 * **Formal lift (ΔF).** Recasting a 2019 **variational free‑energy** narrative into a typed calculus raises **F**, clarifies scope, and enables CL‑2 bridges between biological and ML formulations—*without* claiming empirical gain (**R** unchanged).
 * **Parallel evidence (R, max).** Two independent **hindcast** lines (circa CMIP6, 2019) supporting the same forecast allow `R(Γ)=max(R₁,R₂)`; if one line drifts, the composite is bounded by the stronger line until series constraints apply.
@@ -15712,11 +15712,11 @@ KD‑CAL externalises a long‑standing semiotic insight (Sign–Meaning–Refer
 
 *(No tooling is implied; these are conceptual moves within the calculus.)*
 
-## C.2.1 · **U.Episteme — Epistemes and their slot graph** \[A]
+### C.2.1 · **U.Episteme — Epistemes and their slot graph** \[A]
 
 > **One-line summary.** `U.Episteme` is the holon type for epistemes; its internal ontology is given by `U.EpistemeSlotGraph`, which replaces the legacy **semantic triangle** with a typed graph n-ary relation over `DescribedEntity`, `GroundingHolon`, `ClaimGraph`, `Viewpoint`, `View`, and `ReferenceScheme`, aligned with `U.RelationSlotDiscipline` and ready for both symbolic and distributed representations.
 
-### 1 · Context
+#### 1 · Context
 
 FPF’s kernel recognises two archetypal sub‑holons: **System** and **Episteme**. Systems are operational wholes; **epistemes** are **knowledge holons**—theories, models, specifications, standards, algorithms, proofs—whose reason for being is to **say something defeasible or deductive about something** and to be **held to account** by justification. 
 
@@ -15744,7 +15744,7 @@ In this pattern:+
 * `U.EpistemeSlotGraph` names the **internal ontology graph** of `U.Episteme`: the small, typed n-ary relation over episteme positions (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) on which KD-CAL, A.6.2–A.6.4 and E.17.* rely.
 * Species such as `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` are holonic realisations of `U.Episteme` whose component structure is constrained to be compatible with `U.EpistemeSlotGraph`.
 
-### 2 · Problem
+#### 2 · Problem
 
 Without a shared **episteme constitution**, teams fall into recurring failure modes:
 
@@ -15804,7 +15804,7 @@ Thus we have problems of:
 
 We need a replacement for the triangle that keeps its **didactic clarity** but matches the **graph‑ and morphism‑centric** reality of contemporary epistemic work.
 
-### 3 · Forces
+#### 3 · Forces
 
 | Force                                          | Tension we must resolve                                                                                                                |
 | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
@@ -15815,9 +15815,9 @@ We need a replacement for the triangle that keeps its **didactic clarity** but m
 | **Slot discipline vs. usability**              | A clean `SlotKind`/`ValueKind`/`RefKind` discipline is vital for reasoning, but must not render engineering episteme unreadable.             |
 | **Stability vs. SoTA evolution**               | The core must remain stable while integrating evolving practices: LLM tool‑use, ReAct‑style loops, structured cospans, optics, etc.    |
 
-### 4 · Solution — from outdated semantic triangle to `U.EpistemeSlotGraph`
+#### 4 · Solution — from outdated semantic triangle to `U.EpistemeSlotGraph`
 
-#### 4.0 Overview
+##### 4.0 Overview
 
 For `U.Episteme`, the legacy semantic triangle is replaced by `U.EpistemeSlotGraph` that is a **small, typed ontology graph** and an **n-ary relation view** over the core episteme positions:
 
@@ -15853,7 +15853,7 @@ For `U.Episteme`, the legacy semantic triangle is replaced by `U.EpistemeSlotGra
 
 The rest of this pattern fixes the **minimal core** needed by KD‑CAL, A.6.2–A.6.4 and E.17.*. The representational nodes (`U.RepresentationScheme`, `U.RepresentationToken`, `U.PresentationCarrier`, `U.RepresentationOperation`) are introduced as an **extension C.2.1+**, preserving the interface defined here.
 
-#### 4.1 Minimal epistemic positions (nodes & slots)
+##### 4.1 Minimal epistemic positions (nodes & slots)
 
 This section defines the **minimal node set** for `U.EpistemeSlotGraph` and the associated **SlotKinds**. These are the positions that A.6.2–A.6.4 and E.17.* can rely on.
 
@@ -16039,7 +16039,7 @@ In C.2.1+ carriers remain **structural publication artefacts**, not semantic par
 
 These attached structures are **not extra positions** of `U.EpistemeSlotGraph`; they hang off the `U.ClaimGraph`/`U.ReferenceScheme` pair and are governed by KD-CAL (C.2), A.10 and B.3. C.2.1 only requires that an episteme which participates in KD-CAL exposes them in a way that keeps **ClaimGraph / ReferenceScheme / Evidence / EditionSeries / `ClaimScope`** clearly distinguishable.
 
-#### 4.2 Episteme as n‑ary relation and as holon
+##### 4.2 Episteme as n‑ary relation and as holon
 
 To prevent confusion between **objects‑of‑talk**, their **descriptions**, and the **places they occupy in an episteme**, C.2.1 explicitly treats epistemes both as:
 
@@ -16143,7 +16143,7 @@ C.2.1 adopts **A.6.5 `U.RelationSlotDiscipline`** wholesale. For the two key pos
      There is no kernel type `U.GroundingHolon`; “grounding holon” is a **slot occupant name**.
 Any episteme that previously mixed slot/value/ref concepts (e.g., using `DescribedEntityRef` as if it were a type) **MUST** be migrated to this discipline over time; C.2.1 provides the normative anchor, and F.18 / discipline packs provide the migration guide.
 
-#### 4.3 Minimal epistemic morphisms (informal schema)
+##### 4.3 Minimal epistemic morphisms (informal schema)
 
 > **Note.** The full mathematical treatment (categories Ep and Ref, describedEntity functor `α : Ep → Ref`, and effect‑free morphisms) lives in A.6.2–A.6.4. Here we fix only the **object‑level relations** that C.2.1 expects to exist between its positions.
 
@@ -16181,7 +16181,7 @@ These are **not yet laws**; they are the **hooks** that A.6.2–A.6.4 will forma
 * `U.EpistemicViewing` (describedEntity‑preserving Ep→Ep),
 * `U.EpistemicRetargeting` (describedEntity‑retargeting Ep→Ep).
 
-### 5 · Legacy semantic triangle as didactic view  *(informative)*
+#### 5 · Legacy semantic triangle as didactic view  *(informative)*
 
 **Position.** The classical semiotic or semantic triangle (“Symbol–Concept–Object”, Ogden–Richards/Frege–Carnap style) is **not** the normative ontology for epistemes in FPF. For `U.Episteme`, it is treated as a **didactic projection** of the richer hypergraph `U.EpistemeSlotGraph`:
 * **“Symbol” corner** ≈ {`U.RepresentationToken`, `U.RepresentationScheme`, `U.PresentationCarrier`} when C.2.1+ is in use; in the minimal core this is collapsed into whichever external artefact happens to carry `U.ClaimGraph`.
@@ -16211,11 +16211,11 @@ All **viewpoints, operations, carriers and reference planes** are suppressed in 
 
 The triangle **MUST NOT** be used as a kernel‑level ontology or as a basis for morphism laws. All normative reasoning about epistemes proceeds via the slots and components of `U.EpistemeSlotGraph`.
 
-### 6 · Interaction with I/D/S and DescriptionContext  *(normative)*
+#### 6 · Interaction with I/D/S and DescriptionContext  *(normative)*
 
 C.2.1 is the **episteme‑layer carrier** that I/D/S discipline (A.7, E.10.D2) relies on. The link is made via `DescriptionContext`.
 
-#### 6.1 · DescriptionContext over C.2.1 components
+##### 6.1 · DescriptionContext over C.2.1 components
 
 For any episteme that is a **Description** or a **Specification** in the sense of E.10.D2, the field `subjectRef : U.SubjectRef` is interpreted as a **DescriptionContext triple**:
 ```
@@ -16235,7 +16235,7 @@ For every `…Description` / `…Spec` episteme:
 
 Intensions (I‑layer) such as `U.System`, `U.Method`, `U.Role` **do not** inhabit C.2.1 directly; they are the *targets* of I→D operations (`Describe_ID`) and appear as values of `DescribedEntitySlot` in resulting descriptions/specs.
 
-#### 6.2 · I→D and D→S morphisms over C.2.1
+##### 6.2 · I→D and D→S morphisms over C.2.1
 
 * **Describing (`Describe_ID : I → D`).**
   Produces an episteme whose:
@@ -16258,13 +16258,13 @@ C.2.1 does **not** define I/D/S; it only insists that any `…Description`/`…S
 * implement `U.EpistemeCard` or `U.EpistemeView` **with** `content`, `describedEntityRef`, `groundingHolonRef?`, `viewpointRef?`, and `referenceScheme?` fields, and
 * wire these fields into `subjectRef` as DescriptionContext.
 
-### 7 · Alignment with A.6.2–A.6.4 (episteme morphisms)  *(normative)*
+#### 7 · Alignment with A.6.2–A.6.4 (episteme morphisms)  *(normative)*
 `U.EpistemeSlotGraph` is the **object‑level substrate** for the episteme morphism patterns:
 * A.6.2 `U.EffectFreeEpistemicMorphing`
 * A.6.3 `U.EpistemicViewing`
 * A.6.4 `U.EpistemicRetargeting`
 
-#### 7.1 · Effect‑free episteme morphisms (A.6.2) over C.2.1
+##### 7.1 · Effect‑free episteme morphisms (A.6.2) over C.2.1
 For any `f : X → Y` that is an instance of `U.EffectFreeEpistemicMorphing`:
 * **Typed objects.**
   X and Y are `U.Episteme` instances realised as `U.EpistemeCard` / `U.EpistemeView` with at least the minimal core components:
@@ -16293,7 +16293,7 @@ For any `f : X → Y` that is an instance of `U.EffectFreeEpistemicMorphing`:
 
 Any Ep→Ep pattern that operates on `U.Episteme` **MUST** state which C.2.1 slots it reads and which it may write, in terms of SlotKinds/ValueKinds/RefKinds (A.6.5), and then declare itself a species of A.6.2/3/4 as appropriate.
 
-#### 7.2 · EpistemicViewing (A.6.3) as describedEntity‑preserving projections
+##### 7.2 · EpistemicViewing (A.6.3) as describedEntity‑preserving projections
 
 `U.EpistemicViewing` is the **DescribedEntity-preserving** species of A.6.2. Over C.2.1 this means:
 * `describedEntityRef(Y) = describedEntityRef(X)` — the same value in `DescribedEntitySlot`.
@@ -16310,7 +16310,7 @@ Typical examples:
 
 In terms of SoTA, EpistemicViewing behaves like a **lens** or **optic** over C.2.1: a focus (SlotKinds for content/representation) is manipulated while the DescribedEntity is fixed.
 
-#### 7.3 · EpistemicRetargeting (A.6.4) as DescribedEntity-bundle retargeting on episteme morphisms
+##### 7.3 · EpistemicRetargeting (A.6.4) as DescribedEntity-bundle retargeting on episteme morphisms
 
 `U.EpistemicRetargeting` is the species of A.6.2 where **`describedEntityChangeMode = retarget`**.
 It is always a **morphism between epistemes** (`f : X → Y` in `U.Episteme`), but the adjective “retargeting” refers **not** to the fact that an episteme is mapped to another episteme (this is true for all A.6.2 species), and **not** to a separate describedEntity, but specifically to the **change in the DescribedEntity-bundle** selected by C.2.1:
@@ -16328,7 +16328,7 @@ Over C.2.1 this is used for:
 
 C.2.1 ensures that these retargetings have a **clear source and target** at the DescribedEntitySlot and that any such move is expressed as a morphism over well‑typed slots, not as an unstructured rewrite of “subject” or “object” labels.
 
-### 8 · Alignment with E.17.* (Multi‑View Describing & Publication)  *(normative)*
+#### 8 · Alignment with E.17.* (Multi‑View Describing & Publication)  *(normative)*
 
 `U.EpistemeSlotGraph` underpins the E.17 cluster:
 * E.17.0 `U.MultiViewDescribing`
@@ -16336,7 +16336,7 @@ C.2.1 ensures that these retargetings have a **clear source and target** at the 
 * E.17.2 `TEVB — Typical Engineering Viewpoints Bundle`
 * E.17 `MVPK — Multi‑View Publication Kit`
 
-#### 8.1 · Multi‑View Describing (E.17.0)
+##### 8.1 · Multi‑View Describing (E.17.0)
 
 `U.MultiViewDescribing` organises **families of descriptions/specifications** over a shared entity‑of‑interest:
 * The **EoIClass** parameter of E.17.0 is a species constraint on the ValueKind of `DescribedEntitySlot` (`EoIClass ⊑ U.Entity`).
@@ -16351,7 +16351,7 @@ Within this pattern:
 
 C.2.1 thus supplies the **per‑episteme** structure that E.17.0 rearranges into multi‑view families.
 
-#### 8.2 · Viewpoint bundles (E.17.1/E.17.2)
+##### 8.2 · Viewpoint bundles (E.17.1/E.17.2)
 
 `U.ViewpointBundleLibrary` and TEVB specialise the `U.Viewpoint` node:
 * A ViewpointBundle is a **set of `U.Viewpoint` instances** tailored to a class of DescribedEntities (e.g., holons in engineering contexts).
@@ -16362,7 +16362,7 @@ From the C.2.1 perspective:
 * these bundles populate the ValueKind of `ViewpointSlot`;
 * engineering episteme species that want to be “TEVB‑aligned” must restrict `viewpointRef` to TEVB’s `EngineeringVPId` set, while keeping the same DescribedEntitySlot discipline.
 
-#### 8.3 · MVPK (E.17) as publication over C.2.1 views
+##### 8.3 · MVPK (E.17) as publication over C.2.1 views
 
 MVPK treats `U.View` (i.e. `U.EpistemeView`) as its primary input:
 * it uses `U.EpistemicViewing` species (A.6.3) to generate publication‑oriented views from engineering or logical views;
@@ -16382,7 +16382,7 @@ Any MVPK species that claims to be C.2.1‑conformant **MUST**:
 * document which C.2.1 slots it reads/writes (typically only representation/carrier‑related ones, leaving `DescribedEntitySlot` and `GroundingHolonSlot` untouched),
 * refrain from introducing new claims about the described entity beyond what is in the source `U.View`’s ClaimGraph.
 
-### 9 · Bias‑annotation  *(informative)*
+#### 9 · Bias‑annotation  *(informative)*
 
 **Episteme‑first and pragmatics‑first.**
 The pattern assumes that *nothing is a meaningful episteme* unless it is **about something for someone under some perspective**. This follows the pragmatic turn in semantics: describedEntity and concerns are not afterthoughts but part of the core structure. The graph is therefore built around slots for DescribedEntity, GroundingHolon, Viewpoint and ClaimGraph, not around abstract “propositions in the void”.
@@ -16402,7 +16402,7 @@ The pattern leans on the ISO‑style idea that viewpoints encode **stakeholder c
 **Didactic bias.**
 The pattern is written to be teachable: semantic triangles are kept as didactic projections; examples like stools on lab rigs, services and SLAs, and model‑evaluation epistemes are deliberately simple. This may under‑represent more exotic epistemes (e.g. artistic, legal, or socio‑technical ones), but the intention is that these use the same slots with different species‑level constraints.
 
-### 10 · Conformance checklist  *(normative)*
+#### 10 · Conformance checklist  *(normative)*
 
 **CC‑C.2.1‑1 · Minimal core components for episteme species.**
 Any species of `U.Episteme` that participates in I/D/S discipline or in E.17 multi‑view/publishing **MUST** be representable as `U.EpistemeCard`/`U.EpistemeView` with at least:
@@ -16464,7 +16464,7 @@ C.2.1 **inherits** A.7/A.12’s separation obligations: `U.PresentationCarrier` 
 **CC‑C.2.1‑10 · Reflexive describedEntity guard.**
 When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane = episteme), or about itself (self‑describing or meta‑specification cases), patterns **SHALL** ensure that the resulting JustificationGraph / evaluation chains are **acyclic** along support paths. Reflexive `describe` / citation edges may exist as literature anchors, but they MUST NOT form minimal support cycles for acceptance or KD‑CAL assurance decisions; the trust calculus MUST always bottom out in external evidence (`U.Work` with `U.EvidenceRole`) rather than in purely self‑referential claims.
 
-### 11 · Consequences  *(informative)*
+#### 11 · Consequences  *(informative)*
 
 **Benefits**
 * **Single, extensible episteme core.**
@@ -16516,13 +16516,13 @@ When an episteme uses C.2.1 to speak **about** another episteme (ReferencePlane 
 
 Together, these relations make `U.EpistemeSlotGraph` the **single normative core** for thinking about epistemes, their DescribedEntity mapping, their representations, and their transformations across FPF.
 
-# C.2.3 · **Unified Formality Characteristic F**  \[A]
+### C.2.3 · **Unified Formality Characteristic F**  \[A]
 
 > **One‑line summary.** Defines **Formality (F)** as a single, ordinal **Characteristic** (`U.Formality`) with **polarity “up”**, anchored by a **default ladder F0…F9** from **free prose** to **proof‑grade foundations**. This unifies how rigor is declared and compared across all epistemes and contexts, and supplies the **F‑coordinate** in the F–G–R assurance space.
 
 ---
 
-### 0 · Status & Scope
+#### 0 · Status & Scope
 
 **Status.** Normative pattern in **KD‑CAL / Part C.2**. It **replaces** the legacy “modes/tiers” language and any parallel “formality ladders.” The letter **F** hereafter denotes the **Formality** characteristic in the **F–G–R** triple.
 
@@ -16535,7 +16535,7 @@ Together, these relations make `U.EpistemeSlotGraph` the **single normative core
 
 ---
 
-## 1 · Context
+#### 1 · Context
 
 Transdisciplinary work (physics, software, systems, policy, data) needs a **shared notion of rigor** that travels across context of meaning. A controller invariant stated in a theorem prover, a research hypothesis framed in constrained English, and a managerial decision rule written as acceptance criteria must be **comparable**—not by their domain lore, but by **how strictly they are expressed**.
 
@@ -16548,7 +16548,7 @@ Historically, FPF texts carried **multiple signals of rigor** (narrative “mode
 
 ---
 
-## 2 · Problem
+#### 2 · Problem
 
 Absent a unified **F**:
 
@@ -16559,7 +16559,7 @@ Absent a unified **F**:
 
 ---
 
-## 3 · Forces
+#### 3 · Forces
 
 | Force                                             | Tension to resolve                                                                                                                             |
 | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -16570,9 +16570,9 @@ Absent a unified **F**:
 
 ---
 
-## 4 · Solution — The **Formality Characteristic F**
+#### 4 · Solution — The **Formality Characteristic F**
 
-### 4.1 · Identity and Type (MM‑CHR)
+##### 4.1 · Identity and Type (MM‑CHR)
 
 * **Name:** `U.Formality` (nicknamed **F** in F–G–R).
 * **Type:** `U.Characteristic`.
@@ -16587,7 +16587,7 @@ Absent a unified **F**:
 
 ---
 
-### 4.2 · Relationship to KD‑CAL (F–G–R)
+##### 4.2 · Relationship to KD‑CAL (F–G–R)
 
 * **F in the triple.** F is the **Formality coordinate** in the F–G–R assurance space. It influences trust **indirectly**: higher F reduces ambiguity, enabling stronger evidence and safer composition, but **does not** substitute for evidence (R) or scope (G).
 * **Composition invariant (weakest‑link).** For any composite episteme,
@@ -16597,7 +16597,7 @@ Absent a unified **F**:
 
 ---
 
-### 4.3 · Extensibility and Local Anchors
+##### 4.3 · Extensibility and Local Anchors
 
 FPF provides **default anchors F0…F9** (next subsection). **Contexts MAY**:
 
@@ -16613,7 +16613,7 @@ FPF provides **default anchors F0…F9** (next subsection). **Contexts MAY**:
 
 ---
 
-### 4.4 · Default **F0…F9** Anchors (overview)
+##### 4.4 · Default **F0…F9** Anchors (overview)
 
 > *Full anchor definitions with cross‑disciplinary examples appear in §5 (next part). Below is the overview for orientation.*
 
@@ -16632,7 +16632,7 @@ FPF provides **default anchors F0…F9** (next subsection). **Contexts MAY**:
 
 ---
 
-### 4.5 · Usage Obligations (declaration, not governance)
+##### 4.5 · Usage Obligations (declaration, not governance)
 
 * **Declare F.** Every normative episteme **SHALL** declare its **F** (one value) in its context. There is **no default**.
 * **Use F in reasoning.** Any comparison, composition, or alignment that depends on rigor **SHOULD** reference **F** explicitly rather than implicit labels like “draft/final.”
@@ -16640,7 +16640,7 @@ FPF provides **default anchors F0…F9** (next subsection). **Contexts MAY**:
 
 ---
 
-## 5 · Canonical Anchors **F0…F9** (normative)
+#### 5 · Canonical Anchors **F0…F9** (normative)
 
 > **How to read this section.** Each anchor defines *what is minimally true* of an episteme to be rated at that level — across disciplines. The anchors are **ordinal**: F7 is strictly more formal than F6, etc. Levels are **about expression**, not truth; Reliability (R) and ClaimScope (G) are separate.
 
@@ -16648,7 +16648,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.1 · **F0 — Unstructured Prose**
+##### 5.1 · **F0 — Unstructured Prose**
 
 **Definition.** Free natural language; ambiguous; unstated assumptions; no required sections; meaning depends on reader context.
 **Inclusion criteria.** Narrative exists but lacks stable structure; terms may shift meaning; no explicit acceptance/denial conditions.
@@ -16657,7 +16657,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.2 · **F1 — Scoped Notes**
+##### 5.2 · **F1 — Scoped Notes**
 
 **Definition.** Informal narrative with a **consistent scope** and **stable terms**; some headings; the central claim/problem is bounded.
 **Inclusion criteria.** Key terms are used consistently; scope is named (e.g., “for single‑node scheduling”); still no explicit criteria.
@@ -16666,7 +16666,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.3 · **F2 — Structured Outline**
+##### 5.3 · **F2 — Structured Outline**
 
 **Definition.** A **complete template** (Context/Problem/Forces/Solution/…) is populated; content is coherent end‑to‑end; criteria are mostly placeholders.
 **Inclusion criteria.** All expected sections exist; cross‑references are consistent; open items are marked (e.g., “TBD acceptance”).
@@ -16675,7 +16675,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.4 · **F3 — Controlled Narrative**
+##### 5.4 · **F3 — Controlled Narrative**
 
 **Definition.** Narrative remains human‑readable but uses **constrained phrasing**; each claim has a **clear, singular interpretation**.
 **Inclusion criteria.** Use of controlled NL or disciplined templates (e.g., “shall/if/then”); per‑claim **acceptance statements** exist in prose.
@@ -16684,7 +16684,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.5 · **F4 — First‑Order Constraints**
+##### 5.5 · **F4 — First‑Order Constraints**
 
 **Definition.** Key claims are expressible at **≈ first‑order logic** (FOL) granularity; invariants/constraints are **explicit and checkable in principle**.
 **Inclusion criteria.** Each critical statement can be rendered as a predicate over well‑typed variables; conflict/consistency checks are conceivable.
@@ -16693,7 +16693,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.6 · **F5 — Executable Math / Algorithmics**
+##### 5.6 · **F5 — Executable Math / Algorithmics**
 
 **Definition.** Content has **precise execution semantics**; results can be checked by **running** (simulation or computation).
 **Inclusion criteria.** A model is encoded so that outcomes are deterministic (modulo declared randomness); simulations/tests demonstrate the claims’ executable shape.
@@ -16702,7 +16702,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.7 · **F6 — Hybrid Formalism**
+##### 5.7 · **F6 — Hybrid Formalism**
 
 **Definition.** Combination of **discrete and continuous** reasoning or multiple formal layers; **model‑checking obligations** or equivalent are identified and traceable.
 **Inclusion criteria.** Hybrid claims (e.g., controller + plant) are spelled out with both sides’ formalisms and the glue; property checks are specified.
@@ -16711,7 +16711,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.8 · **F7 — Higher‑Order Verified**
+##### 5.8 · **F7 — Higher‑Order Verified**
 
 **Definition.** Core claims are encoded in a **higher‑order logic (HOL)** or equivalent, and **machine‑checked**; proof scripts or structured proofs exist.
 **Inclusion criteria.** The kernel/tool verifies each inference step; failing changes break proofs.
@@ -16720,7 +16720,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.9 · **F8 — Dependent / Constructive Proofs**
+##### 5.9 · **F8 — Dependent / Constructive Proofs**
 
 **Definition.** **Programs‑as‑proofs** (Curry–Howard) or **dependent type** artifacts; proof terms are part of the artifact; compilation/type‑check is verification.
 **Inclusion criteria.** Types capture the property; changing the property changes the type and breaks the build.
@@ -16729,7 +16729,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.10 · **F9 — Univalent / Higher Foundations**
+##### 5.10 · **F9 — Univalent / Higher Foundations**
 
 **Definition.** Frontier‑grade **higher foundations** (e.g., homotopy type theory / univalence); equality is treated as **structure**; proofs live at that level.
 **Inclusion criteria.** Equivalences are recognized as identities by construction; properties rely on higher equalities.
@@ -16738,7 +16738,7 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-### 5.11 · Cross‑anchor cautions (normative)
+##### 5.11 · Cross‑anchor cautions (normative)
 
 * **Execution ≠ Proof.** Running code/examples (F5) is not a proof (F7+) unless proof obligations are explicitly encoded and checked.
 * **Schema ≠ Semantics.** Parseable schemas (F2) are not logical constraints (F4) without semantic predicates.
@@ -16746,11 +16746,11 @@ For every anchor we state **Definition**, **Inclusion criteria**, **Non‑exampl
 
 ---
 
-## 6 · Assigning **F** in Practice (guidance)
+#### 6 · Assigning **F** in Practice (guidance)
 
 This section is **informative**. It offers practical heuristics so engineers‑managers can triage artifacts quickly and consistently.
 
-### 6.1 · Three questions to place a first guess
+##### 6.1 · Three questions to place a first guess
 
 1. **Can a competent reader misread the claim?**
    If yes, you are likely ≤F2. If no (unique reading by construction), you are ≥F3.
@@ -16759,7 +16759,7 @@ This section is **informative**. It offers practical heuristics so engineers‑m
 3. **Would a tool *reject* an incorrect change?**
    If “only by rerunning examples,” that’s **F5**; if “because the logic kernel/type checker refuses it,” that’s **F7–F8**.
 
-### 6.2 · Decision steps (quick rubric)
+##### 6.2 · Decision steps (quick rubric)
 
 * **Has complete template?** If not, **F0–F1**. If yes →
 * **Are per‑claim acceptances written (even informal)?** If not, **F2**. If yes →
@@ -16767,28 +16767,28 @@ This section is **informative**. It offers practical heuristics so engineers‑m
 * **Is there an executable model with declared semantics?** If yes, **F5–F6** (hybrid if both discrete/continuous).
 * **Are core properties machine‑proved?** If yes, **F7**; if types carry the property, **F8**; if higher equivalence is essential, **F9**.
 
-### 6.3 · Litmus tests (do/don’t)
+##### 6.3 · Litmus tests (do/don’t)
 
 * **Do** point to the **lowest** rigor segment that is essential to the artifact; **F is capped by the weakest required part**.
 * **Do** keep **F** independent from **R** and **G**: a well‑verified but informal hypothesis is **low F, high R**; a formal theorem without empirical content is **high F, R=N/A or VA‑lane only**.
 * **Don’t** “average” levels: a long F8 appendix does not make an F3 body F8; F sticks to the **claim** or the **episteme**, not to page counts.
 * **Don’t** upgrade F just because a tool was used; tooling matters only if the **content** reaches the anchor’s semantics.
 
-### 6.4 · Anti‑patterns
+##### 6.4 · Anti‑patterns
 
 * **Terminology inflation.** Calling acceptance criteria a “specification” without predicates → F3 at most.
 * **Notebook mirage.** Treating an executable notebook with hidden state as formal proof → remains F5 without explicit obligations.
 * **Schema worship.** Equating JSON Schema validity with logical safety → F2/F3, not F4.
 * **Proof‑by‑CI.** “The pipeline is green” is not a logic kernel; without proofs or dependent types, F≤F6.
 
-### 6.5 · Edge cases and how to rate them
+##### 6.5 · Edge cases and how to rate them
 
 * **Generated docs from formal sources.** Rate **by the source**, not the rendered prose. If the source is F7 proofs, the generated PDF remains **F7** as long as it is a faithful view.
 * **Natural‑language with embedded formulas.** If formulas are illustrative only, keep **F3**; if they define obligations and are checkable, move **F4–F6** accordingly.
 * **Standards in code comments.** If they constrain behavior and are enforced (e.g., via runtime/type checks), consider **F4–F5**; otherwise **F3**.
 * **Hybrid ML systems.** The training procedure (executable) suggests **F5**; safety guards as formal constraints can raise parts to **F4/F6**; certified components may reach **F7/F8**.
 
-### 6.6 · Raising **F** (ΔF moves, informative)
+##### 6.6 · Raising **F** (ΔF moves, informative)
 
 Typical **ΔF** steps (see KD‑CAL motion primitives):
 
@@ -16800,138 +16800,138 @@ Typical **ΔF** steps (see KD‑CAL motion primitives):
 
 > **Note.** ΔF does not require changing **G** or **R**. Many projects raise F while holding scope and evidence constant, then tackle R (validation) separately.
 
-## 7 · Conformance (normative)
+#### 7 · Conformance (normative)
 
 This section defines what it means to **use F correctly** in KD‑CAL. All “**SHALL**/**MUST**/**SHOULD**/**MAY**” statements here are normative.
 
-### 7.1 · Declaration & Semantics
+##### 7.1 · Declaration & Semantics
 
 * **CC‑F‑1 (Declaration).** Every normative `U.Episteme` **SHALL** declare exactly one value for `U.Formality` (**F ∈ {F0…F9}**, or a context‑defined sub‑anchor that maps to one of these).
 * **CC‑F‑2 (Ordinality).** F is an **ordinal Characteristic**: implementations **MUST NOT** perform arithmetic on F; only comparisons and thresholds are valid.
 * **CC‑F‑3 (Polarity).** The polarity of F is **up**: a larger F value denotes **strictly greater or equal** expressive rigor than a smaller one.
 * **CC‑F‑4 (No proxies).** Contexts **MUST NOT** introduce alternative “formality modes/tiers” as surrogates for F. If additional labels are desired, they **SHALL** be published as named **sub‑anchors** of F (see §4.3).
 
-### 7.2 · Locality, Extensibility, and Anchors
+##### 7.2 · Locality, Extensibility, and Anchors
 
 * **CC‑F‑5 (Local extensibility).** A bounded context **MAY** introduce intermediate anchors (e.g., F6.5) and domain‑named anchors (e.g., “F4‑OCL”), **provided that** (a) the global F0…F9 order is preserved, and (b) each sub‑anchor is explicitly mapped to a parent anchor.
 * **CC‑F‑6 (Anchor conservation).** Sub‑anchors **SHALL NOT** redefine the global meaning of their parent anchor (e.g., anything under F8 remains **proof‑grade**).
 
-### 7.3 · Composition & Granularity
+##### 7.3 · Composition & Granularity
 
 * **CC‑F‑7 (Weakest‑link fold).** For any composite episteme (theory, spec, model), the effective Formality **F\_composite** along any essential support path **SHALL** be computed as the **minimum** F of its essential parts on that path.
 * **CC‑F‑8 (Granularity rule).** If different parts of an episteme carry different F values, the **episteme‑level F** is the **minimum** over all **essential** parts (non‑essential/illustrative parts are excluded).
 * **CC‑F‑9 (No averaging).** Implementations **MUST NOT** average or otherwise combine F values numerically; the min rule suffices.
 
-### 7.4 · Orthogonality & Non‑Interference
+##### 7.4 · Orthogonality & Non‑Interference
 
 * **CC‑F‑10 (Orthogonality to G/R).** Changes in scope/envelope (G) or evidence (R) **SHALL NOT** alter F unless the **expression form** of the claims changes. Conversely, raising F **SHALL NOT** be interpreted as raising R or broadening G.
 * **CC‑F‑11 (Notation‑agnostic).** Changing notations or carriers (Symbol side) **does not** change F if the claim graph and its formal content are preserved. Any translation loss is accounted for by **CL** penalties in R, not by altering F.
 
-### 7.5 · Bridges & Cross‑Context Use
+##### 7.5 · Bridges & Cross‑Context Use
 
 * **CC‑F‑12 (Bridges keep F stable).** When a claim is used across bounded contexts via a Bridge, the original F value **SHALL** be preserved in attribution. If the receiving context requires a different expression form, it **MUST** produce a **new episteme** (with its own F).
 * **CC‑F‑13 (CL is for trust, not F).** Any mismatch across contexts **SHALL** be handled via Congruence Level (CL) and its effect on R; CL **MUST NOT** be used to down‑rate F.
 
-### 7.6 · Traceability & Change
+##### 7.6 · Traceability & Change
 
 * **CC‑F‑14 (Observable basis).** An assigned F **SHALL** be justifiable by observable content (e.g., presence of predicates/invariants for F4; mechanized proofs for F7+).
 * **CC‑F‑15 (ΔF disclosure).** A **ΔF** move (raising or, if justified by discovered error, lowering F) **SHALL** be recorded as a content change to the episteme. Whether a context versions that change is outside this pattern’s scope.
 
 ---
 
-## 8 · Composition & Interaction (normative + informative notes)
+#### 8 · Composition & Interaction (normative + informative notes)
 
-### 8.1 · Inside one episteme (normative)
+##### 8.1 · Inside one episteme (normative)
 
 * **Essential paths.** Identify essential parts/claims that are required for the episteme’s truth. Apply **min‑F** along each support path; the **episteme‑level F** is the min over essential paths (CC‑F‑7, CC‑F‑8).
 * **Episteme‑about (ReferencePlane=episteme).** Descriptions about other claims/epistemes carry their **own** F and do **not** raise the target’s F; any cross‑plane penalty flows via **CL^plane → R**.
 
 > **Note (informative).** A long formal appendix (F8) attached to a largely narrative body (F3) does **not** make the whole F8; the episteme remains **F3** unless the core claims move into the formal appendix.
 
-### 8.2 · Relation to **G** (scope/envelope) (normative)
+##### 8.2 · Relation to **G** (scope/envelope) (normative)
 
 * F concerns the **expression form** of the claim; G concerns its **claim scope**. Tightening the envelope without changing how the claim is expressed does not change F; re‑expressing the claim in a stricter form (e.g., predicates) can raise F without changing G.
 
 > **Caution (informative).** Raising F often **reveals** hidden assumptions, which may lead to a **ΔG** (narrower envelope). Treat this as a **separate** change: update G explicitly rather than smuggling scope changes under F.
 
-### 8.3 · Relation to **R** (evidence/assurance) (normative)
+##### 8.3 · Relation to **R** (evidence/assurance) (normative)
 
 * **F ≠ R.** Proof‑grade expression (F7+) still requires binding to appropriate assurance lanes (VA/LA/TA) in the trust calculus; empirical claims may have high R with low F if they remain informal.
 * **Decay independence.** F **does not decay** with time; R may decay (empirical freshness) or shift due to CL. Tool assurance (TA) is tracked independently of F.
 
 > **Note (informative).** Higher F typically **enables** stronger R (easier to test or prove), but no automatic relationship is assumed.
 
-### 8.4 · CL & Bridges (normative)
+##### 8.4 · CL & Bridges (normative)
 
 * **CL effects.** Using content across context boundaries requires a Bridge with a CL rating. CL affects **R** (penalties) and **never** changes **F** (CC‑F‑12/13).
 * **Semantic change ⇒ new episteme.** If a cross‑context mapping **alters** the claim (e.g., coarsens predicates, drops obligations), treat it as a **new episteme** with its own F rather than “the same F with lower CL.”
 
-### 8.5 · Motion primitives (informative)
+##### 8.5 · Motion primitives (informative)
 
 * **ΔF** raises or (rarely) lowers the rigor of expression. Plan ΔF moves independently of **ΔG**/**ΔR**: projects often alternate “raise F” (make the claim checkable) with “raise R” (gather proof/validation) at a fixed G.
 * **Cost signals.** Typical costs: authoring overhead (F3→F4), model encoding (F4→F5/6), proof engineering (F6→F7/8). The benefit is reduced ambiguity and safer composition.
 
-### 8.6 · Gaps & thresholds (informative)
+##### 8.6 · Gaps & thresholds (informative)
 
 * **F‑gap** = ordinal difference between two F anchors (no arithmetic). Large gaps signal translation risk: an F8‑level component will not accept informal inputs (F2) except via additional formalization (ΔF) or robust alignment (CL‑guarded).
 
 ---
 
-## 9 · Worked Examples (informative)
+#### 9 · Worked Examples (informative)
 
 > Each mini‑case states the artifact, assigns **F**, and notes interactions with **G/R**. Examples are deliberately cross‑disciplinary to stress transdisciplinary comparability.
 
-### 9.1 · Research hypothesis (physics)
+##### 9.1 · Research hypothesis (physics)
 
 **Artifact.** Short note proposing a new scaling law; clear vocabulary; scope “low‑Reynolds flows in microchannels.”
 **F.** **F3** (controlled narrative with per‑claim acceptance in prose).
 **G/R.** G is a narrow physical envelope; R is initially low (hypothesis).
 **Next ΔF.** Recast acceptance as predicates over variables → **F4**; encode a simple simulation harness → **F5**.
 
-### 9.2 · API specification (software)
+##### 9.2 · API specification (software)
 
 **Artifact.** REST API doc with request/response schemas and explicit pre/postconditions; invariants like “idempotent under retry.”
 **F.** **F4** (first‑order constraints).
 **G/R.** G = stated resource model; R improves via conformance tests (independent).
 **Next ΔF.** Reference implementation and executable test suite with declared Standards → **F5**; model‑check idempotence under failure injection → **F6**.
 
-### 9.3 · Safety controller (cyber‑physical)
+##### 9.3 · Safety controller (cyber‑physical)
 
 **Artifact.** Controller with plant model; safety distance invariant and braking envelope defined and verified in a hybrid model checker.
 **F.** **F6** (hybrid formalism with obligations checked).
 **G/R.** G = operating envelope (speed ranges, road conditions); R increases via track tests and simulation coverage.
 **Next ΔF.** Encode key invariants in HOL and prove monotonicity → **F7**; migrate safety property into dependent types in the control kernel → **F8**.
 
-### 9.4 · Decision policy (management)
+##### 9.4 · Decision policy (management)
 
 **Artifact.** Escalation policy: if risk score ≥ θ and budget slack ≤ β, escalate to committee; otherwise defer.
 **F.** **F3→F4** depending on phrasing. If the thresholds and variables are typed and the rule is predicate‑like, rate **F4**.
 **G/R.** G = organizational scope (which portfolios, time windows); R entails retrospective calibration (did escalations match outcomes?).
 
-### 9.5 · Verified algorithm (theory/software)
+##### 9.5 · Verified algorithm (theory/software)
 
 **Artifact.** Sorting function implemented with a dependent type ensuring output is ordered and a permutation of input; proof included.
 **F.** **F8** (dependent/constructive proof).
 **G/R.** G = data types and preconditions; R (empirical) is irrelevant; VA lane suffices (proof stands).
 
-### 9.6 · ML classifier (data/ML)
+##### 9.6 · ML classifier (data/ML)
 
 **Artifact.** Training pipeline fully specified; metrics defined; OOD detection configured; no formal invariants.
 **F.** **F5** (executable algorithmic semantics).
 **G/R.** G = data distributions and deployment envelope; R grows with validation/monitoring.
 **Next ΔF.** Add formal constraints for safety (e.g., monotonicity in features) → **F4/F6** for those aspects; certified post‑processing may achieve **F7** for a slice.
 
-### 9.7 · Meta‑specification (method description)
+##### 9.7 · Meta‑specification (method description)
 
 **Artifact.** A guideline on how to review specs; it includes checklists and litmus tests.
 **F.** **F3–F4** depending on whether checks are predicates.
 **Interaction.** Its F does **not** lift the F of the reviewed artifacts; it only affects **R** via better CL (clearer alignments and fewer losses).
 
-## 10 · Authoring & Review Guidance (informative)
+#### 10 · Authoring & Review Guidance (informative)
 
 This section helps engineering managers, architects, and researchers **assign F consistently**, plan **ΔF moves**, and **review** claims without slipping into status/process language.
 
-### 10.1 · For authors — placing and raising **F**
+##### 10.1 · For authors — placing and raising **F**
 
 * **Start honest.** If you’re drafting ideas in plain prose, declare **F0–F1**. You are not “behind”; you’re **appropriately early**.
 * **Stabilize vocabulary first.** Move to **F2–F3** by making terms stable and acceptance statements unambiguous (controlled phrasing).
@@ -16942,7 +16942,7 @@ This section helps engineering managers, architects, and researchers **assign F 
 
 **Typical ΔF plan:** *Sketch (F1) → Controlled narrative (F3) → Predicates (F4) → Executable semantics (F5/6) → Machine‑checked core (F7/8).* Scope (G) and evidence (R) can remain fixed while F rises.
 
-### 10.2 · For reviewers — verifying the declared **F**
+##### 10.2 · For reviewers — verifying the declared **F**
 
 Use **observable checks**:
 
@@ -16956,19 +16956,19 @@ Use **observable checks**:
 
 **Failure modes to watch:** “green CI” as proof; schema validation treated as semantics; notebooks without declared semantics; long formal appendix while the main claim stays informal (rate by the **weakest essential part**).
 
-### 10.3 · For integrators & architects — using **F** in composition
+##### 10.3 · For integrators & architects — using **F** in composition
 
 * **Plan around the minimum.** In any composition, **F\_composite = min F\_parts** along essential paths. Identify the **bottleneck F** first; your ΔF effort goes there.
 * **Mind the F‑gaps.** Large ordinal gaps (e.g., F7 vs F2) imply translation risks and alignment costs. Either **raise** the low‑F part or insert **bridges** with explicit scope and confidence impacts (handled in **R** via **CL**).
 * **Don’t upgrade by proximity.** An F8 component does not “elevate” an F3 neighbor. Keep F independent and visible.
 
-### 10.4 · For assurance leads — relating **F** to **G/R** without conflation
+##### 10.4 · For assurance leads — relating **F** to **G/R** without conflation
 
 * **F enables, R assures.** Raising **F** makes evidence easier to formulate and check; it does not **create** evidence. Rate R separately (calibration/validation/monitoring vs proof lanes).
 * **G is separate.** Tightening **G** (scope/envelope) may accompany ΔF (as assumptions become explicit) — treat this as a **ΔG** move, not a side effect.
 * **Use thresholds explicitly.** If a context expects “formalized before use,” write guard conditions as **`F ≥ k`**, not as status labels.
 
-### 10.5 · Common pitfalls & remedies
+##### 10.5 · Common pitfalls & remedies
 
 | Pitfall                                   | Remedy                                                                                          |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -16979,7 +16979,7 @@ Use **observable checks**:
 
 ---
 
-## 11 · Glossary & Notation (normative where noted)
+#### 11 · Glossary & Notation (normative where noted)
 
 **Formality (F).** `U.Formality` — an **ordinal Characteristic** with polarity **up**; default anchors **F0…F9** (§5). *(Normative)*
 
@@ -17004,7 +17004,7 @@ Use **observable checks**:
 
 ---
 
-## 12 · Change Log & Patch Notes (normative migration)
+#### 12 · Change Log & Patch Notes (normative migration)
 
 **12.1 Supersession.**
 This pattern **supersedes** the legacy “modes/tiers” language. Any references to “M‑mode/F‑mode”, “publication tiers”, or parallel “formality ladders” are **deprecated**. From now on, **Formality** is expressed **only** as **F** with default anchors **F0…F9** (and optional sub‑anchors per §4.3).
@@ -17027,13 +17027,13 @@ During editorial refresh, it is acceptable to annotate historical records with b
 **12.5 Versioning & edits.**
 Raising or (exceptionally) lowering **F** constitutes a **content change** (ΔF). Whether such a change triggers a new edition in a given Context is **outside this pattern**; respect the Context’s edition policy while keeping **F** accurate.
 
-# C.3 · **Kind‑CAL — Kinds, Intent/Extent, and Typed Reasoning**  \[A]
+## C.3 · **Kind‑CAL — Kinds, Intent/Extent, and Typed Reasoning**  \[A]
 
 > **One‑line summary.** Establishes **`U.Kind`** as the **minimal, context‑local intensional carrier** of “what a statement is about,” separates **intent** (KindSignature + its own **F**) from **extent** (*which* instances belong to the kind **in a given Context slice**), and situates **typed reasoning** alongside **USM Scope (G)** and **F–G–R** without conflation. Details of the core objects and operations live in **C.3.1–C.3.5**; guard shapes are standardized in **C.3.A**.
 
 ---
 
-## 0 · Status, Placement, Dependencies & Sub‑pattern Map  \[A]
+### 0 · Status, Placement, Dependencies & Sub‑pattern Map  \[A]
 
 **Status.** Normative architheory in **Part C**. Identifier **C.3**. This pattern lays the **architectural invariant** and manager‑level guidance. The **mechanics** are defined by its child patterns.
 
@@ -17061,7 +17061,7 @@ Raising or (exceptionally) lowering **F** constitutes a **content change** (ΔF)
 
 ---
 
-## 1 · Purpose & Rationale  \[A/I]
+### 1 · Purpose & Rationale  \[A/I]
 
 **What you get.**
 
@@ -17079,13 +17079,13 @@ Teams routinely overspend on proofs for **instance‑level** questions and under
 
 ---
 
-## 2 · Context  \[I]
+### 2 · Context  \[I]
 
 Cross‑disciplinary work mixes artifacts that *look like “types”* but behave differently: ontology classes, schema “shapes,” programming types, BORO super/sub categories, ad‑hoc labels. At the same time, **USM** made “scope” precise. What was missing was a *small, neutral* notion of **describedEntity** that (a) **does not** re‑invent a global “type system,” (b) composes with USM and F–G–R, and (c) lets Contexts keep their idioms—**with bridges** when crossing boundaries.
 
 ---
 
-## 3 · Problem  \[I]
+### 3 · Problem  \[I]
 
 1. **Scope–type conflation.** Authors try to widen **G** by “abstracting the wording,” yielding claims that *sound* general but are only supported on a thin slice.
 2. **Silent drift across Contexts.** A “vehicle” here is not the same as a “transport unit” there; reuse proceeds without a declared mapping or risk accounting.
@@ -17094,7 +17094,7 @@ Cross‑disciplinary work mixes artifacts that *look like “types”* but behav
 
 ---
 
-## 4 · Forces  \[I]
+### 4 · Forces  \[I]
 
 | Force                             | Tension to resolve                                                                                 |
 | --------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -17106,7 +17106,7 @@ Cross‑disciplinary work mixes artifacts that *look like “types”* but behav
 
 ---
 
-## 5 · Solution — Architectural Decisions (overview)  \[A]
+### 5 · Solution — Architectural Decisions (overview)  \[A]
 
 **C.3‑D1 — `U.Kind` is intensional and context‑local.**
 Kinds name *what a claim quantifies over*. They form a partial order **`⊑`** (**SubkindOf**). *(See C.3.1.)*
@@ -17137,7 +17137,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 ---
 
-## 6 · Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)  \[I]
+### 6 · Core Concepts (informative summary; authoritative norms live in C.3.1–C.3.5)  \[I]
 
 
 > This section fixes the **Standard** of terms used in C.3 and points to the sub‑patterns for complete mechanics. All “**SHALL/MUST**” statements here are normative.
@@ -17145,7 +17145,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 **Editorial note.** This section is **informative**. It restates manager‑level takeaways and **points to** the canonical, normative rules in **C.3.1–C.3.5**. Where this section summarizes a rule, treat the cited sub‑pattern (and rule ID) as the **source of truth**.
 
 
-### 6.1 · `U.Kind` & `U.SubkindOf (⊑)`  \[A]
+#### 6.1 · `U.Kind` & `U.SubkindOf (⊑)`  \[A]
 
 **Definition.** `U.Kind` is a **context‑local intensional object** naming a “kind of thing” that claims may quantify over.
 **Order.** `U.SubkindOf (⊑)` is a **partial order** (reflexive, transitive, antisymmetric). We write `k₁ ⊑ k₂`.
@@ -17158,7 +17158,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 ---
 
-### 6.2 · **KindSignature** (intent) & **F**  \[A]
+#### 6.2 · **KindSignature** (intent) & **F**  \[A]
 
 **Definition.** `KindSignature(k)` is the **intent**: predicates/invariants/Standards that define the kind in the Context. Its expression rigor has an explicit **`U.Formality`** (C.2.3).
 
@@ -17170,7 +17170,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 ---
 
-### 6.3 · **Extension** & **MemberOf** (extent in a slice)  \[A]
+#### 6.3 · **Extension** & **MemberOf** (extent in a slice)  \[A]
 
 **Definition.** `Extension(k, slice) ⊆ EntitySet(slice)` = set of instances that belong to `k` **in the given `U.ContextSlice`**. `MemberOf(e, k, slice)` is the membership predicate: `e ∈ Extension(k, slice)`.
 
@@ -17184,7 +17184,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 ---
 
-### 6.4 · **KindBridge** & **`CL^k`** (type‑congruence)  \[A]
+#### 6.4 · **KindBridge** & **`CL^k`** (type‑congruence)  \[A]
 
 **Summary of norms** *(authoritative text: **C.3.3 KB‑01–KB‑12**)*.
 — A KindBridge states Contexts/versions, kind mapping/rules, preserved order links, **`CL^k`** anchors, loss notes, and definedness.
@@ -17196,7 +17196,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 ---
 
-### 6.5 · **RoleMask** (adaptation without cloning)  \[A]
+#### 6.5 · **RoleMask** (adaptation without cloning)  \[A]
 
 **Definition.** `U.RoleMask(kind, Context)` is a **named binding** that carries constraints (optional **narrowing** of membership), vocabulary/notation aliases, and intended use for local procedures—**without** creating a new Kind.
 
@@ -17209,7 +17209,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 ---
 
-### 6.6 · **KindAT (K0…K3)** — *informative facet*  \[I]
+#### 6.6 · **KindAT (K0…K3)** — *informative facet*  \[I]
 
 **Status.** A **facet** attached to `U.Kind`, not a Characteristic: no algebra, **never** used in guards or composition.
 
@@ -17222,7 +17222,7 @@ Typed compatibility first (same‑Context **`⊑`** or **KindBridge**), then **S
 
 ---
 
-### 6.7 · Quick examples (two‑characteristic awareness)  \[I]
+#### 6.7 · Quick examples (two‑characteristic awareness)  \[I]
 
 **E‑Sketch 1 — Policy over `Vehicle`.**
 Claim: “For all `x ∈ Vehicle`: brakeDistance(x) ≤ 50 m (dry), ≤ 40 m (wet).”
@@ -17236,11 +17236,11 @@ Producer A emits `Request`; consumer B expects `AuthenticatedRequest`.
 – If `Request ⊑ AuthenticatedRequest` **does not** hold, add an **adapter** or adopt a **subkind**; do **not** force fit by widening **G**.
 – Scope remains independent (API version, Γ\_time policy); evidence/freshness sits in **R**.
 
-## 7 · How to use typed reasoning \[A/I]
+### 7 · How to use typed reasoning \[A/I]
 
-## 7.1 How typed reasoning plugs into **F–G–R & USM**
+#### 7.1 How typed reasoning plugs into **F–G–R & USM**
 
-### 7.1.1 · The basic shape of a typed claim (manager view)  \[I]
+#### 7.1.1 · The basic shape of a typed claim (manager view)  \[I]
 
 A typed claim has two independent parts:
 
@@ -17256,7 +17256,7 @@ A typed claim has two independent parts:
 
 ---
 
-### 7.1.2 · Composition of typed claims  \[A]
+#### 7.1.2 · Composition of typed claims  \[A]
 
 **Rule C‑T‑1 (typed pre‑check).** To compose a **producer claim** with a **consumer claim**, where the producer quantifies over kind **k (source)** and the consumer expects kind **k (expected)**:
 
@@ -17276,7 +17276,7 @@ A typed claim has two independent parts:
 
 ---
 
-### 7.1.3 · F–G–R with typed claims (what changes, what doesn’t)  \[A/I]
+#### 7.1.3 · F–G–R with typed claims (what changes, what doesn’t)  \[A/I]
 
 * **F (Formality).**
   – **Claim‑level F** follows C.2.3 (weakest‑link along the claim’s support paths).
@@ -17298,7 +17298,7 @@ You never add or average **F/G**: you **compose scope** per USM rules and apply 
 
 ---
 
-### 7.1.4 · ESG gating with typed claims  \[A]
+#### 7.1.4 · ESG gating with typed claims  \[A]
 
 * **Gate on F**, if your Context requires rigor before use (e.g., `U.Formality(Claim) ≥ F4`).
 * **Gate on Scope coverage** (USM) and an explicit **time selector** (Γ_time) policy.
@@ -17306,7 +17306,7 @@ You never add or average **F/G**: you **compose scope** per USM rules and apply 
 * **Do not** gate on **AT** (C.3.5); it is an informative facet only.
 * Use **C.3.A guard macros** to keep guards short and auditable.
 
-### 7.2 · How typed reasoning plugs into the CAL chain (Lang‑CHR → Role‑CAL)  \[A/I]
+#### 7.2 · How typed reasoning plugs into the CAL chain (Lang‑CHR → Role‑CAL)  \[A/I]
 
 > **Intent.** Show a clear, end‑to‑end path a manager can follow to take a typed claim from words to safe reuse across Contexts—without any tool or data‑governance assumptions. Each stage says **what it supplies**, **what it needs**, and **what it hands off** to the next stage.
 
@@ -17444,14 +17444,14 @@ plus relations like **has‑attribute** and **part‑kind**, and the minimal inv
 
 > **Takeaway.** If you keep these six hand‑offs in view—words → kinds → structure → composition → logic → roles—you get **predictable reviews**, **clean risk accounting**, and **reusable claims** that travel across Contexts without silent meaning drift.
 
-### 7.3 · Compliance & Regulatory Alignment — profile  \[A/I]
+#### 7.3 · Compliance & Regulatory Alignment — profile  \[A/I]
 
 Treat regulatory categories as **Kinds**, carry their **intent** in `KindSignature` with declared **F**, move them across Contexts with a **KindBridge** (type‑congruence **`CL^k`** + loss notes), and express applicability as **Claim scope** over `U.ContextSlice` (with explicit **Γ_time**). Any Cross‑context uncertainty is routed to **R** via **Ψ(`CL^k`)** (kind) and **Φ(CL)** (scope); **F** and **G** remain unchanged.
 
 > **Authoritative obligations and guard macros** (C‑REG‑1…8, Guard_RegAdopt / Guard_RegChange / Guard_RegXContextUse) and worked scenarios live in **C.3.A, Annex A (Regulatory adoption profile)**.
 
 
-### 7.4 · How typed reasoning plugs into **Assurance Lanes (VA/LA/TA) & Evidence design**  \[A/I]
+#### 7.4 · How typed reasoning plugs into **Assurance Lanes (VA/LA/TA) & Evidence design**  \[A/I]
 
 **Intent (manager’s view).** Typed reasoning turns “prove/test/qualify” into a **repeatable plan** by making *what the rule talks about* explicit (named **Kinds**, their **subkinds**, optional **RoleMasks**) and keeping **Scope (G)** over `U.ContextSlice` separate from **membership** inside the slice. Cross‑context uncertainty (Scope Bridge **CL**, KindBridge **`CL^k`**) always routes to **R** as penalties **Φ/Ψ**; it never changes **F** or **G**.
 
@@ -17465,7 +17465,7 @@ Treat regulatory categories as **Kinds**, carry their **intent** in `KindSignatu
 
 > **Authoritative evidence obligations and guard macros** (planning/attachment, VA/LA/TA duties, anti‑patterns) are in **C.3.A, Annex B**.
 
-### 7.5 · How typed reasoning plugs into **ESG and Method–Work gating**  \[A]
+#### 7.5 · How typed reasoning plugs into **ESG and Method–Work gating**  \[A]
 
 > Intent. Make state changes and work admissions deterministic, auditable, and safe by separating (1) **typed compatibility** (what the statement or capability is about) from (2) **scope coverage** (where it holds or can run). Any Cross‑context uncertainty is routed to **R** (reliability) only—never to **F** (form) or **G** (scope).
 
@@ -17529,9 +17529,9 @@ It reuses:
 
 This subsection is **normative** for guards in ESG and Method–Work that **use kinds**.
 
-## 8 · Cross‑context typed reuse & assurance accounting  \[A/I]
+### 8 · Cross‑context typed reuse & assurance accounting  \[A/I]
 
-### 8.1 · The **two‑bridge rule** (mandatory)  \[A]
+#### 8.1 · The **two‑bridge rule** (mandatory)  \[A]
 
 When any part of the use crosses Contexts:
 
@@ -17542,7 +17542,7 @@ Both bridges carry **loss notes**; neither changes **F** or **G**. See **C.3.A G
 
 ---
 
-### 8.2 · Narrowing after mapping (best practice)  \[I]
+#### 8.2 · Narrowing after mapping (best practice)  \[I]
 
 If a bridge’s loss notes indicate material mismatch (dropped invariants, collapsed subkinds):
 
@@ -17552,7 +17552,7 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 
 ---
 
-### 8.3 · Typical Cross‑context patterns (manager’s catalog)  \[I]
+#### 8.3 · Typical Cross‑context patterns (manager’s catalog)  \[I]
 
 * **Name‑level overlap only (low `CL^k`).**
   Expect significant Ψ penalty. Limit quantification, add local checks, or refuse reuse until the kind mapping is improved.
@@ -17565,7 +17565,7 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 
 ---
 
-### 8.4 · Decision pattern (fast path)  \[I]
+#### 8.4 · Decision pattern (fast path)  \[I]
 
 1. **Typed pre‑check:** `k_A ⊑ k_B` (same Context) **or** `KindBridge(k_A → k′_B)` with acceptable **`CL^k`**.
 2. **Scope coverage:** `translate(Scope_A)` covers `TargetSlice_B`.
@@ -17575,9 +17575,9 @@ If a bridge’s loss notes indicate material mismatch (dropped invariants, colla
 
 ---
 
-## 9 · Authoring guidance (engineers‑managers)  \[I]
+### 9 · Authoring guidance (engineers‑managers)  \[I]
 
-### 9.1 · When to mint a `U.Kind`  \[I]
+#### 9.1 · When to mint a `U.Kind`  \[I]
 
 Create a Kind when:
 
@@ -17590,7 +17590,7 @@ Avoid creating a Kind for **one‑off** instance references—prefer a clear **K
 
 ---
 
-### 9.2 · Writing a **KindSignature** (and picking **F**)  \[I]
+#### 9.2 · Writing a **KindSignature** (and picking **F**)  \[I]
 
 * Start with a concise **intent**: the invariants/constraints that make membership meaningful.
 * Aim for **F4** (predicate‑like) if the kind is intended for reuse; rise to **F7+** only where proof‑grade is justified.
@@ -17604,7 +17604,7 @@ Avoid creating a Kind for **one‑off** instance references—prefer a clear **K
 
 ---
 
-### 9.3 · Setting the **AT** facet (K0…K3)  \[I]
+#### 9.3 · Setting the **AT** facet (K0…K3)  \[I]
 
 Use **AT** to **aim effort**, not to gate:
 
@@ -17617,7 +17617,7 @@ Never treat **AT** as “wider/narrower” **G**.
 
 ---
 
-### 9.4 · Writing a typed claim (with USM blocks)  \[I]
+#### 9.4 · Writing a typed claim (with USM blocks)  \[I]
 
 **Skeleton.**
 
@@ -17630,7 +17630,7 @@ Never treat **AT** as “wider/narrower” **G**.
 
 ---
 
-### 9.5 · Minimal “Kind card” contents (Context catalog)  \[I]
+#### 9.5 · Minimal “Kind card” contents (Context catalog)  \[I]
 
 * **Name** and **intent summary** (KindSignature snippet + **F**).
 * **`⊑` links** (parents/children).
@@ -17641,9 +17641,9 @@ Never treat **AT** as “wider/narrower” **G**.
 
 ---
 
-## 10 · Review & integration guidance  \[I]
+### 10 · Review & integration guidance  \[I]
 
-### 10.1 · Reviewer’s 8‑point checklist
+#### 10.1 · Reviewer’s 8‑point checklist
 
 1. **Named describedEntity.** Does the claim state **what** it quantifies over (`U.Kind`)?
 2. **Scope explicit.** Is **G** declared (no “domain” placeholders, no implicit “latest”)?
@@ -17656,7 +17656,7 @@ Never treat **AT** as “wider/narrower” **G**.
 
 ---
 
-### 10.2 · Integrator’s composition playbook (typed first, then scope)
+#### 10.2 · Integrator’s composition playbook (typed first, then scope)
 
 * **Step 1:** Check `k_A ⊑ k_B` (or KindBridge).
 * **Step 2:** Compute **Scope\_serial** = `Scope(A) ∩ Scope(B)` (USM).
@@ -17666,7 +17666,7 @@ Never treat **AT** as “wider/narrower” **G**.
 
 ---
 
-### 10.3 · Assurance lead: wiring penalties and windows
+#### 10.3 · Assurance lead: wiring penalties and windows
 
 * Identify channels used: **Scope bridge? KindBridge?**
 * Apply **Φ(CL)** and **Ψ(`CL^k`)** to **R** (monotone; higher congruence ⇒ smaller penalty).
@@ -17675,7 +17675,7 @@ Never treat **AT** as “wider/narrower” **G**.
 
 ---
 
-### 10.4 · Red flags (stop‑the‑line)
+#### 10.4 · Red flags (stop‑the‑line)
 
 * “**We widened G because we reworded the type.**” → **Reject**; redo as subkind/bridge or revise Scope honestly.
 * “**Mask equals kind.**” → **Refactor**; register mask properly or promote to subkind.
@@ -17684,11 +17684,11 @@ Never treat **AT** as “wider/narrower” **G**.
 
 ---
 
-## 11 · Worked examples (end‑to‑end)  \[I]
+### 11 · Worked examples (end‑to‑end)  \[I]
 
 +> *Each example shows the typed pre‑check, Scope composition, penalties to **R**, and the managerial decision. Full guard clauses for these scenarios are in **Annex C.3.A**.*
 
-### 11.1 · Cyber‑physical braking policy across labs and plants
+#### 11.1 · Cyber‑physical braking policy across labs and plants
 
 **Claim (Lab Context).**
 “∀ `x ∈ Vehicle`: brakingDistance(x) ≤ 50 m (dry), ≤ 40 m (wet).”
@@ -17707,7 +17707,7 @@ Penalties: apply **Φ(2)** and **Ψ(2)** to **R**; freshness windows checked.
 
 ---
 
-### 11.2 · API decision rule with adapter and subkind promotion
+#### 11.2 · API decision rule with adapter and subkind promotion
 
 **Consumer claim.**
 “∀ `x ∈ AuthenticatedRequest`: deny if riskScore(x) ≥ θ ∧ budgetSlack ≤ β.”
@@ -17730,7 +17730,7 @@ Adopt via Option B; open task: generalize producer to subkind and remove adapte
 
 ---
 
-### 11.3 · Clinical dosage rule across jurisdictions (bridge + mask)
+#### 11.3 · Clinical dosage rule across jurisdictions (bridge + mask)
 
 **Claim (Hospital X).**
 “∀ `x ∈ AdultPatient`: dosage ≤ D per kg for drug M.”
@@ -17749,7 +17749,7 @@ Penalties: **Φ(CL\_scope)** and **Ψ(1)** applied to **R**.
 
 ---
 
-### 11.4 · ML fairness constraint with typed quantification
+#### 11.4 · ML fairness constraint with typed quantification
 
 **Claim (Product Context).**
 “∀ `x ∈ EligiblePerson`: TPR difference ≤ δ across groups `G`.”
@@ -17767,7 +17767,7 @@ Typed pre‑check **OK** via bridges; mapped Scope **covers** the subset where f
 Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; require monitoring freshness.
 **Outcome:** Adopt with reduced **R** and a mitigation note; action items: improve feature mapping and raise KindSignature F.
 
-## 12 · Anti‑patterns & how to fix them  \[I/A]
+### 12 · Anti‑patterns & how to fix them  \[I/A]
 
 > *Use this section as a “red flags” sheet in reviews. Each item links to a concrete remedy that preserves F–G–R & USM discipline (F/G/R separation, USM algebra, typed pre‑checks).*
 
@@ -17786,11 +17786,11 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 
 ---
 
-## 13 · Governance & conformance pull‑ups  \[A]
+### 13 · Governance & conformance pull‑ups  \[A]
 
 > *Contexts adopt Kind‑CAL by meeting the **Context‑level** obligations below. They summarize, not duplicate, the formal requirements in **C.3.1–C.3.5** and **C.3.A**. Use this as an adoption checklist.*
 
-### 13.1 · Context‑level obligations (must‑haves)
+#### 13.1 · Context‑level obligations (must‑haves)
 
 1. **Kinds & order.** Maintain a Context catalog of `U.Kind` with an explicit **partial order** `⊑`.
    – Conformance: **C.3.1** (K‑01/K‑02).
@@ -17813,7 +17813,7 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 
 7. **Decision records.** For each typed state change, record: **TargetSlice tuple**, typed compatibility outcome (`⊑` or KindBridge), **Scope coverage**, applied **Φ/Ψ** penalties to **R**, and **freshness** checks.
 
-### 13.2 · ESG / Method‑Work template inserts (normative snippets)
+#### 13.2 · ESG / Method‑Work template inserts (normative snippets)
 
 * **Kinds used:** list `U.Kind` and any expected **subkinds** or **RoleMasks**.
 * **Claim scope (G):** explicit predicates over `U.ContextSlice` inc. **Γ\_time**.
@@ -17823,7 +17823,7 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 * **Scope bridge lines:** `Bridge(Context_A → Context_B)`, `CL ≥ c_s` *checked*.
 * **Assurance lines:** `Φ(CL)`, `Ψ(CL^k)` applied to **R**; **freshness windows** hold.
 
-### 13.3 · Audits & levels of adoption (informative)
+#### 13.3 · Audits & levels of adoption (informative)
 
 * **USM‑Typed‑Ready.** Catalog exists; `⊑` declared; guard macros installed.
 * **USM‑Typed‑Guarded.** All typed claims use **C.3.A** guard shapes; **Γ\_time** explicit; two‑bridge rule enforced.
@@ -17832,11 +17832,11 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 
 ---
 
-## 14 · Migration & editorial impact  \[A]
+### 14 · Migration & editorial impact  \[A]
 
 > *Apply these edits incrementally; you do not need to stop other work. The aim is to eliminate synonym drift, restore F/G/R separation, and make typed reasoning routine.*
 
-### 14.1 · Inventory & refactor (steps)
+#### 14.1 · Inventory & refactor (steps)
 
 1. **Inventory** claims that implicitly talk about “things” (vehicles, requests, accounts, cohorts…).
 2. **Name kinds** for recurring “describedEntity”; start at **K1**; promote to **K2** as invariants stabilize.
@@ -17845,7 +17845,7 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
 5. **Publish bridges** where reuse is Cross‑context: Scope Bridge (**CL**) and KindBridge (**`CL^k`**) with loss notes; wire penalties **Φ/Ψ** to **R**.
 6. **Normalize masks**: register RoleMasks; if reused, promote to subkinds (`⊑`).
 
-### 14.2 · Edits to other parts (normative redirects, no new math)
+#### 14.2 · Edits to other parts (normative redirects, no new math)
 
 * **A.2.6 (USM).**
   – Add “no Scope on kinds” note.
@@ -17875,42 +17875,42 @@ Apply **Φ(2)** and **Ψ(1)** to **R**; restrict groups to mapped subset; requir
   – Add: `U.Kind`, `U.SubkindOf (⊑)`, `KindSignature`(+F), `Extension`, `MemberOf`, `U.RoleMask`, **KindBridge**, `CL^k`, **AT (kinds, facet)**.
   – Mark as **legacy aliases** (not characteristic names): *generality (as ladder), kind scope, validity (as characteristic), capability envelope*; redirect to **Claim/Work scope** or **Kind** entries.
 
-### 14.3 · Backwards compatibility
+#### 14.3 · Backwards compatibility
 
 * Historical prose may keep legacy words. **Guards, conformance text, and state assertions** MUST use the Kind‑CAL/USM vocabulary and guard shapes.
 * When annotating older records, add a small “typed note” box: **Kinds**, **Scope**, **Bridges (CL/`CL^k`)**, **loss notes**, **penalties to R**.
 
 ---
 
-## 15 · Extended rationale & design notes  \[I]
+### 15 · Extended rationale & design notes  \[I]
 
 > *This section explains the design choices that keep Kind‑CAL compact and interoperable with F–G–R & USM without drifting into tooling or technology stacks.*
 
-### 15.1 · Why **no Scope on kinds**
+#### 15.1 · Why **no Scope on kinds**
 
 Scope answers **“where the claim holds”** (set of Context slices, USM); kinds answer **“what the claim is about”**. Putting Scope on kinds would either (a) duplicate claim Scope, or (b) smuggle applicability into a classifier. We prevent both by: **intent/extent on kinds** (C.3.2), **Scope on claims/capabilities** (USM).
 
-### 15.2 · Why **two bridges** (Scope vs Kind)
+#### 15.2 · Why **two bridges** (Scope vs Kind)
 
 Contexts diverge along **context** (Standards, parameters, time) and **classification** (what counts as a member). A single bridge hides which characteristic is mismatched. Two explicit bridges keep fixes targeted: **ΔG / narrowing** for context misfit; **subkind/adapter** for classification misfit. Both risks land in **R** as separate penalties (**Φ/Ψ**).
 
-### 15.3 · Why **AT is a facet**
+#### 15.3 · Why **AT is a facet**
 
 AT (K0…K3) improves **planning** (ΔF/ΔR, bridge style) and **navigation** without introducing new algebra. Making AT a Characteristic would recreate a “G‑ladder,” blur applicability with abstraction, and invite gating on AT. As a facet, AT remains helpful but **toothless in math**, which is precisely what we want.
 
-### 15.4 · Why **RoleMask** and not “clone a kind”
+#### 15.4 · Why **RoleMask** and not “clone a kind”
 
 Operational tweaks (extra constraints, local aliases) are real but temporary. Cloning kinds creates drift and duplicate bridges. **RoleMask** documents the tweak **without breaking identity**; promotion to subkind occurs when practice stabilizes. This keeps catalogs small and bridges honest.
 
-### 15.5 · Fit with **Compose‑CAL** and **LOG‑CAL**
+#### 15.5 · Fit with **Compose‑CAL** and **LOG‑CAL**
 
 Typed pre‑checks (same‑Context `⊑` or KindBridge) act like **port compatibility** before any Scope arithmetic. LOG‑CAL benefits from explicit quantification `∀ x : Kind` with substitution rules aligned to `⊑`. Neither alters F/G/R algebra; they prevent category mistakes before we do trust math.
 
-### 15.6 · CT2R lens (intuition)
+#### 15.6 · CT2R lens (intuition)
 
 A **KindBridge** behaves like a **functor** that (approximately) preserves structure between Contexts; **`CL^k`** is a practical knob for “how functorial” it is. At **K3** (up‑to‑iso), this is literal: we expect bridges to preserve equivalences, hence higher `CL^k` and smaller Ψ penalties.
 
-## 15bis · Rationale (Part E form)  \[I]
+### 15bis · Rationale (Part E form)  \[I]
 
 **Problem.** (recap)
 — Authors conflate *describedEntity* with *applicability*, widening G by abstract wording.
@@ -17948,9 +17948,9 @@ A **KindBridge** behaves like a **functor** that (approximately) preserves struc
 **Related patterns.**
 A.2.6 (USM), C.2.2 (F–G–R), C.2.3 (F), Part B (Bridges), Role‑CAL, Compose‑CAL, C.3.1–C.3.5, C.3.A.
 
-## 16 · Quick reference for managers  \[I]
+### 16 · Quick reference for managers  \[I]
 
-### 16.1 · 10‑minute start
+#### 16.1 · 10‑minute start
 
 1. Name the **Kind** your claim talks about.
 2. Write **Scope (G)** as slice predicates (with **Γ\_time**).
@@ -17958,7 +17958,7 @@ A.2.6 (USM), C.2.2 (F–G–R), C.2.3 (F), Part B (Bridges), Role‑CAL, Compo
 4. Use the **typed guard macro** (C.3.A).
 5. Route bridge levels to **R** (Φ/Ψ); check freshness.
 
-### 16.2 · 30‑day rollout plan
+#### 16.2 · 30‑day rollout plan
 
 Week 1: Inventory & name Kinds (K1); adopt guard macros.
 Week 2: Draft **KindSignature** for the top 5 Kinds (aim **F4**); register masks.
@@ -17967,7 +17967,7 @@ Week 4: Promote repeated masks to subkinds; publish first **KindBridge** record
 
 ---
 
-## 17 · Local glossary (reading aid)  \[I]
+### 17 · Local glossary (reading aid)  \[I]
 
 > *Canonical definitions live in sub‑patterns; this list is for quick recall while reading C.3.*
 
@@ -17984,13 +17984,13 @@ Week 4: Promote repeated masks to subkinds; publish first **KindBridge** record
 
 > *End of C.3. See **C.3.1–C.3.5** and **C.3.A** for the referenced mechanics and guard macros.*
 
-# C.3.1 · **U.Kind & SubkindOf (Core)**  \[A]
+### C.3.1 · **U.Kind & SubkindOf (Core)**  \[A]
 
 > **One‑line summary.** Defines **`U.Kind`** as a **minimal, context‑local intensional carrier** for “what a claim is about,” and **`U.SubkindOf (⊑)`** as a **partial order** over kinds. **Kinds do not carry Scope.** Scope remains on **claims/capabilities** (USM). This core pattern supplies only identity, locality, and ordering; **intent & membership** (`KindSignature`, `Extension/MemberOf`) are specified in **C.3.2**, bridges & congruence in **C.3.3**, masks in **C.3.4**, and the AT facet in **C.3.5**.
 
 ---
 
-## ## 0 · Status, Placement & Dependencies
+#### ## 0 · Status, Placement & Dependencies
 
 **Status.** Normative architheory in **Part C**. Identifier **C.3.1**.
 **Audience.** Engineering managers, architects, assurance leads.
@@ -18010,7 +18010,7 @@ Week 4: Promote repeated masks to subkinds; publish first **KindBridge** record
 * No role/mask mechanics here (defined in **C.3.4**).
 * No AT facet mechanics here (defined in **C.3.5**).
 
-## 1 · Purpose & Audience
+#### 1 · Purpose & Audience
 
 This pattern gives **one small, stable vocabulary** to say *what* a claim ranges over (its **describedEntity**) without entangling that with *where it applies* (Scope) or *how well it is supported* (R). For managers:
 
@@ -18020,13 +18020,13 @@ This pattern gives **one small, stable vocabulary** to say *what* a claim ranges
 
 ---
 
-## 2 · Context
+#### 2 · Context
 
 across Contexts, “type” means OWL class, SHACL shape, code type, BORO category, etc. A **neutral, minimal** object is needed to name *the kind of entities* a claim quantifies over **without** importing a full type system or altering USM. **`U.Kind`** fills that role; **ordering** between kinds captures “is‑a/refines” relationships a Context relies on.
 
 ---
 
-## 3 · Problem
+#### 3 · Problem
 
 1. **Scope–Type conflation.** Teams broaden G by “abstracting” prose, not by adding supported slices.
 2. **Unsafe composition.** Claims are joined though they talk about different “things.”
@@ -18034,7 +18034,7 @@ across Contexts, “type” means OWL class, SHACL shape, code type, BORO catego
 
 ---
 
-## 4 · Forces
+#### 4 · Forces
 
 | Force                          | Tension to resolve                                                        |
 | ------------------------------ | ------------------------------------------------------------------------- |
@@ -18045,7 +18045,7 @@ across Contexts, “type” means OWL class, SHACL shape, code type, BORO catego
 
 ---
 
-## 5 · Solution — Core Objects (overview)
+#### 5 · Solution — Core Objects (overview)
 
 * **`U.Kind`** — a **context‑local intensional** object naming a “kind of thing” claims may quantify over.
 * **`U.SubkindOf (⊑)`** — a **partial order** on kinds (reflexive, transitive, antisymmetric). `k₁ ⊑ k₂` reads “`k₁` refines `k₂`.”
@@ -18054,7 +18054,7 @@ across Contexts, “type” means OWL class, SHACL shape, code type, BORO catego
 
 ---
 
-## 6 · Norms & Invariants (normative)
+#### 6 · Norms & Invariants (normative)
 
 **C3.1‑K‑01 (Partial order).** `U.SubkindOf (⊑)` **SHALL** be a **partial order** on `U.Kind`: reflexive, transitive, antisymmetric. Editors **SHALL** document any Context‑specific meets/joins if they supply them (optional).
 
@@ -18069,7 +18069,7 @@ across Contexts, “type” means OWL class, SHACL shape, code type, BORO catego
 
 ---
 
-## 7 · Interactions (informative)
+#### 7 · Interactions (informative)
 
 * **With USM (A.2.6).** Guards that quantify over a kind use **two** predicates: “Scope covers TargetSlice” (USM) **and** whatever **membership** predicate is defined for the kind (see **C.3.2**). Kinds themselves carry **no Scope**.
 * **With F–G–R (C.2.2).** This pattern does not alter the triple; typed checks happen **before** scope algebra, preventing invalid compositions.
@@ -18079,7 +18079,7 @@ across Contexts, “type” means OWL class, SHACL shape, code type, BORO catego
 
 ---
 
-## 8 · Authoring & Review (informative)
+#### 8 · Authoring & Review (informative)
 
 **When to mint a kind.**
 Mint a `U.Kind` when claims repeatedly quantify over “the same sort of thing” and you need: (i) safe composition, (ii) clear Cross‑context mapping, (iii) a place to collect invariants (in **C.3.2**).
@@ -18095,7 +18095,7 @@ If a local constraint is temporary or purely procedural, prefer a **RoleMask** (
 
 ---
 
-## 9 · Examples (informative, technology‑neutral)
+#### 9 · Examples (informative, technology‑neutral)
 
 1. **Vehicle/PassengerCar.**
    Mint `Kind Vehicle`. Later add `PassengerCar ⊑ Vehicle`. Claims about **Vehicle** may be reused by narrowing to **PassengerCar** without touching **G**. Scope remains an independent predicate over `U.ContextSlice`.
@@ -18105,7 +18105,7 @@ If a local constraint is temporary or purely procedural, prefer a **RoleMask** (
 
 ---
 
-## 10 · Conformance checklist (normative)
+#### 10 · Conformance checklist (normative)
 
 | ID            | Requirement                                                                                             |
 | ------------- | ------------------------------------------------------------------------------------------------------- |
@@ -18117,7 +18117,7 @@ If a local constraint is temporary or purely procedural, prefer a **RoleMask** (
 
 ---
 
-## 11 · Rationale (informative)
+#### 11 · Rationale (informative)
 
 **Why a tiny core?**
 Contexts differ wildly in “type” practice. A large, prescriptive core would either (a) force one Tradition’s semantics on all, or (b) become an empty label. The **smallest powerful** core—identity + ordering—gives managers and integrators what they need (safe composition, predictable edits) and leaves intent/membership/bridges/masks to focused sub‑patterns.
@@ -18129,13 +18129,13 @@ Contexts differ wildly in “type” practice. A large, prescriptive core would 
 * **Scope**: set of context slices *(A.2.6)*.
 * **Assurance**: evidence & penalties *(C.2.2 / Part B)*.
 
-# C.3.2 · **KindSignature (+F) & Extension/MemberOf**  \[A]
+### C.3.2 · **KindSignature (+F) & Extension/MemberOf**  \[A]
 
 > **One‑line summary.** Specifies the **intent and extent** of kinds: (**i**) a **`KindSignature(k)`** (the intensional definition of kind `k`) that **declares its own Formality F**; (**ii**) an **`Extension(k, slice) ⊆ U.EntitySet(slice)`** and the **membership predicate** `MemberOf(e, k, slice)` that are **deterministic per `U.ContextSlice`**; (**iii**) **monotonicity** of extension under `SubkindOf`; (**iv**) a **definedness policy** that fails **closed** outside its domain. **Kinds still carry no Scope** (that rule lives in C.3.1); Scope stays on **claims/capabilities** (USM). This pattern gives managers and reviewers the **observable basis** to check “what counts as a member here and now” without entangling applicability (G) or assurance (R).
 
 ---
 
-## 0 · Status, Placement & Dependencies
+#### 0 · Status, Placement & Dependencies
 
 **Status.** Normative architheory in **Part C**. Identifier **C.3.2**.
 **Audience.** Engineering managers, architects, assurance leads, editors.
@@ -18153,7 +18153,7 @@ Contexts differ wildly in “type” practice. A large, prescriptive core would 
 * No Scope semantics here (USM); no bridge semantics here (C.3.3).
 * No repository/notation mandates; this is concept‑level, not tooling.
 
-## 1 · Purpose & Audience
+#### 1 · Purpose & Audience
 
 This pattern makes **describedEntity testable** in a Context:
 
@@ -18163,13 +18163,13 @@ This pattern makes **describedEntity testable** in a Context:
 
 **No tooling assumption.** The pattern is **conceptual** and notation‑neutral (no OWL/SHACL/type‑system requirement); it specifies reviewer‑checkable obligations that managers can read in plain language.
 
-## 2 · Context
+#### 2 · Context
 
 Different Contexts encode “type” intent differently (predicates, schemas, ontologies, Standards). Regardless of notation, a team must be able to answer, reproducibly: **who belongs to the kind at this slice?** If this is not stable, claims quantified over the kind are unverifiable, bridges are opaque, and composition becomes unsafe.
 
 ---
 
-## 3 · Problem
+#### 3 · Problem
 
 1. **Ambiguous membership.** Membership depends on tacit “latest” states or unwritten defaults.
 2. **Signature opacity.** A kind’s definition is scattered; no single place to declare rigor (**F**) or assumptions.
@@ -18178,7 +18178,7 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 
 ---
 
-## 4 · Forces
+#### 4 · Forces
 
 | Force                              | Tension to resolve                                                                                   |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -18189,7 +18189,7 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 
 ---
 
-## 5 · Solution — Objects & Standards (overview)
+#### 5 · Solution — Objects & Standards (overview)
 
 * **`KindSignature(k)`** — the **intensional** definition of kind `k` in the Context; it **declares `U.Formality`** per C.2.3.
 * **`U.EntitySet(slice)`** — the set (or well‑defined universe) of **entities addressable in a given `U.ContextSlice`**.
@@ -18204,18 +18204,18 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 
 ---
 
-## 6 · Norms & Invariants (normative)
+#### 6 · Norms & Invariants (normative)
 
 > IDs **C3.2‑K‑03…K‑08** correspond to the rules announced in C.3; additional local rules use **C3.2‑S‑\***.
 
-### 6.1 · Signature & Formality
+##### 6.1 · Signature & Formality
 
 **C3.2‑K‑03 (Signature F).** Every `KindSignature(k)` **SHALL declare `U.Formality`** per C.2.3 (F0…F9).
 — *Note:* Raising signature F **does not** automatically raise claim‑level F; claims follow weakest‑link along their **own** support paths.
 
 **C3.2‑K‑04 (Signature change = content change).** Any change to `KindSignature(k)` that **alters membership** (i.e., would change `Extension(k, slice)` for some `slice`) **SHALL** be recorded as a **content change** (Contexts may version kinds).
 
-### 6.2 · Extension & Membership
+##### 6.2 · Extension & Membership
 
 **C3.2‑K‑05 (Deterministic membership).** For fixed `(k, slice)`, `MemberOf(e, k, slice)` **MUST** be deterministically evaluable **from observable content in `slice`**.
 — Implication: **“latest” is forbidden**; `Γ_time` must be explicit on `slice` (A.2.6).
@@ -18229,14 +18229,14 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 **C3.2‑K‑08 (Separation from G).** Guards **SHALL** keep **Scope coverage** (USM) and **membership** **as separate predicates**:
 “`U.ClaimScope(Claim) covers TargetSlice` **AND** `MemberOf(?, k, TargetSlice)` is defined/used”.
 
-### 6.3 · Entity set & time
+##### 6.3 · Entity set & time
 
 **C3.2‑S‑01 (`U.EntitySet`).** A Context **SHALL** document what counts as `U.EntitySet(slice)` (e.g., “rows in dataset D at version v,” “live objects in service S at build b,” “ontology individuals at vocabulary v”). This documentation **MUST** be stable and addressable via the `slice` tuple.
 **C3.2‑S‑02 (Time).** `slice` **SHALL** specify **`Γ_time`** (point/window/policy). Membership **MUST NOT** rely on implicit recency. 
 
 `U.EntitySet(slice)` **MUST NOT** expand implicitly via external defaults or time; its extent is fixed by the `slice` tuple (see **C3.2‑S‑02**).
 
-## 7 · Interactions & Placement (informative)
+#### 7 · Interactions & Placement (informative)
 
 * **With C.3.1.** Kinds carry identity and `⊑`; **no Scope** on kinds. This pattern adds the **intent/extent** layer under those constraints.
 * **With A.2.6 (USM).** A typed claim’s guard normally evaluates, in the order specified by **Annex C.3.A §5 (E‑01)**: (1) typed compatibility, (2) **Scope coverage** at `TargetSlice`, (3) **`MemberOf(?, k, TargetSlice)`** definedness and any instantiation, followed by penalties to **R** and freshness checks. Use **Guard_TypedClaim** / **Guard_TypedJoin** rather than ad‑hoc shapes.
@@ -18246,23 +18246,23 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 
 ---
 
-## 8 · Authoring & Review Guidance (informative)
+#### 8 · Authoring & Review Guidance (informative)
 
-### 8.1 · Authoring `KindSignature`
+##### 8.1 · Authoring `KindSignature`
 
 * **Be explicit and observable.** Prefer predicate‑like clauses over prose (“has VIN format …”; “axles ≥ 2”).
 * **Bind to versions.** Name Standards/schemas by version; avoid “current.”
 * **Declare F honestly.** F3 for controlled narrative is fine in early phases; aim F4+ for durable kinds; consider F7+ for safety‑critical cores.
 * **Name assumptions.** If membership requires external conditions (e.g., calibrated rig), put them in the signature.
 
-### 8.2 · Authoring membership
+##### 8.2 · Authoring membership
 
 * **Define `U.EntitySet(slice)`.** Write it down once per Context, make it addressable via the `slice` tuple, and reuse.
 * **Determinism first.** No hidden IO, no implicit time; membership must be recomputable from the slice.
 * **Document definedness.** If `MemberOf` is undefined without a Standard, say so; guards will fail closed.
 * **Respect `⊑`.** If you declare `k₁ ⊑ k₂`, verify subset behavior (C3.2‑K‑06).
 
-### 8.3 · Review checklist (10 minutes)
+##### 8.3 · Review checklist (10 minutes)
 
 1. Is **signature F** declared? Is the signature sufficient to evaluate membership?
 2. Is **`U.EntitySet(slice)`** documented and addressable?
@@ -18273,9 +18273,9 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 
 ---
 
-## 9 · Worked Examples (informative)
+#### 9 · Worked Examples (informative)
 
-### 9.1 · Vehicle (signature F4) and membership
+##### 9.1 · Vehicle (signature F4) and membership
 
 **KindSignature(Vehicle)** *(F4)*:
 
@@ -18288,7 +18288,7 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 **`Extension(Vehicle, slice)`**: all records satisfying the predicates **in that `slice`**.
 **Monotonicity:** `PassengerCar ⊑ Vehicle` ⇒ `Extension(PassengerCar, s) ⊆ Extension(Vehicle, s)`.
 
-### 9.2 · AuthenticatedRequest (definedness & fail‑closed)
+##### 9.2 · AuthenticatedRequest (definedness & fail‑closed)
 
 **KindSignature(AuthenticatedRequest)** *(F4)*:
 
@@ -18297,7 +18297,7 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 
 **Definedness:** `MemberOf(–, AuthenticatedRequest, slice)` is **undefined** if `AuthStandard v2.3` is **absent** in `slice` ⇒ guards **fail closed** (C3.2‑K‑07).
 
-### 9.3 · Clinical cohort (low‑F signature; deterministic membership)
+##### 9.3 · Clinical cohort (low‑F signature; deterministic membership)
 
 **KindSignature(AdultPatient)** *(F3→F4 as it hardens)*:
 
@@ -18307,7 +18307,7 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 
 ---
 
-## 10 · Anti‑patterns & Remedies (informative)
+#### 10 · Anti‑patterns & Remedies (informative)
 
 | Anti‑pattern                                         | Why it’s wrong                        | Remedy                                                              |
 | ---------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------- |
@@ -18319,25 +18319,25 @@ Different Contexts encode “type” intent differently (predicates, schemas, on
 
 ---
 
-## 11 · Rationale (informative)
+#### 11 · Rationale (informative)
 
-### 11.1 · Why give **F** to `KindSignature`?
+##### 11.1 · Why give **F** to `KindSignature`?
 
 Because rigor in the **definition of a kind** materially affects how safely teams can quantify over it. A signature at **F4** (predicate‑like) makes membership checkable in principle; **F7+** (machine‑checked) can support proof‑carrying development. Keeping this **separate from claim‑level F** prevents “signature formalization” from inflating unrelated claims.
 
-### 11.2 · Why **Extension** is not **Scope**
+##### 11.2 · Why **Extension** is not **Scope**
 
 * **Extension** answers: *“Which entities count as `k` **in this slice**?”*
 * **Scope (G)** answers: *“In which slices does **this claim** hold?”*
   Blending the two recreates the old failure mode where “more abstract wording” was treated as “wider applicability.” USM already gives the set‑algebra for G; Kind‑CAL supplies the **typed universe** the claim quantifies over.
 
-### 11.3 · Why **determinism** and **fail‑closed**?
+##### 11.3 · Why **determinism** and **fail‑closed**?
 
 Guards must be **reproducible** and **auditable**: same `slice` ⇒ same membership result. If inputs are missing (undefinedness), the safest default is **deny** (fail closed), prompting either a richer slice or a scope/claim change.
 
 ---
 
-## 12 · Conformance checklist (normative)
+#### 12 · Conformance checklist (normative)
 
 | ID            | Requirement                                                                                     |
 | ------------- | ----------------------------------------------------------------------------------------------- |
@@ -18351,13 +18351,13 @@ Guards must be **reproducible** and **auditable**: same `slice` ⇒ same members
 | **C3.2‑S‑02** | `slice` **specifies `Γ_time`**; membership **must not** rely on implicit recency.               |
 
 
-# C.3.3 · **KindBridge & CL^k — Cross‑context Mapping of Kinds**  \[A]
+### C.3.3 · **KindBridge & CL^k — Cross‑context Mapping of Kinds**  \[A]
 
 > **One‑line summary.** Defines **`KindBridge`** as the normative mechanism for moving **kinds** (their **intent** and selected **subkind‑of** links) between bounded contexts (“Contexts”). A bridge declares **how a source kind maps to a target kind**, which parts of the **`⊑`** order are preserved or collapsed, and publishes a **type‑congruence level `CL^k`** with **loss notes** and a **definedness area**. **`CL^k` penalties apply only to Reliability (R)** when a claim depends on Cross‑context classification; **F** (formality) and **G** (Claim scope) remain unchanged. Scope translation continues to use the **USM Bridge + CL** channel; **KindBridge** is a **separate, parallel channel** for describedEntity.
 
 ---
 
-## 0 · Status, Placement, Dependencies 
+#### 0 · Status, Placement, Dependencies 
 
 **Status.** Normative architheory in **Part C**. Identifier **C.3.3**.
 **Audience.** Engineering managers, architects, assurance leads, editors.
@@ -18375,7 +18375,7 @@ Guards must be **reproducible** and **auditable**: same `slice` ⇒ same members
 — No Scope mapping here (that’s USM); **KindBridge** maps **kinds**, not scopes.
 — No new arithmetic on `CL^k`; it reuses the **ordinal anchor semantics** of CL (Part B) but applies to kinds.
 
-## 1 · Purpose & Audience
+#### 1 · Purpose & Audience
 
 Cross‑context reuse fails in two **orthogonal** ways:
 
@@ -18386,13 +18386,13 @@ Cross‑context reuse fails in two **orthogonal** ways:
 
 ---
 
-## 2 · Context
+#### 2 · Context
 
 Contexts use different **classifications**: ontology classes vs shape Standards, regulatory cohorts vs app types, etc. Informal “same‑name” reuse silently mutates describedEntity. USM already made scope moves explicit. **KindBridge** does the same for kinds: **declare the mapping**, rate its **congruence**, and capture known **losses**.
 
 ---
 
-## 3 · Problem
+#### 3 · Problem
 
 1. **Semantic drift.** Moving a claim into a target‑context with a different taxonomy changes “what counts” without anyone noticing.
 2. **Hidden order breaks.** Subkind relationships invert or vanish; downstream proofs/tests are misapplied.
@@ -18401,7 +18401,7 @@ Contexts use different **classifications**: ontology classes vs shape Standards,
 
 ---
 
-## 4 · Forces
+#### 4 · Forces
 
 | Force                                    | Tension to resolve                                                                              |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -18412,7 +18412,7 @@ Contexts use different **classifications**: ontology classes vs shape Standards,
 
 ---
 
-## 5 · Solution — The **KindBridge** object (overview)
+#### 5 · Solution — The **KindBridge** object (overview)
 
 A **KindBridge** connects **source** Context **A** and **target** Context **B** for a set of kinds. It declares:
 
@@ -18427,11 +18427,11 @@ A **KindBridge** connects **source** Context **A** and **target** Context **B** 
 
 ---
 
-## 6 · Norms & Invariants (normative)
+#### 6 · Norms & Invariants (normative)
 
 > The following formalize the **KB‑01…KB‑12** rules announced in C.3.
 
-### 6.1 · Subject & Scope of a KindBridge
+##### 6.1 · Subject & Scope of a KindBridge
 
 **KB‑01 (Subject).** A KindBridge **maps**:
 
@@ -18443,7 +18443,7 @@ A **KindBridge** connects **source** Context **A** and **target** Context **B** 
 **No blended score.** Congruence for Scope (**CL**) and for Kind (**CL^k**) **MUST NOT** be aggregated into a single “interoperability” score in guards; each channel is assessed and penalized **separately**. See **Annex C.3.A §5 (E‑06)**.
 
 
-### 6.2 · Declaration & Shape
+##### 6.2 · Declaration & Shape
 
 **KB‑03 (Declaration).** A KindBridge record **SHALL** include:
 
@@ -18456,28 +18456,28 @@ A **KindBridge** connects **source** Context **A** and **target** Context **B** 
 
 **KB‑04 (Determinism & local evaluation).** Given fixed Context versions and mapping rules, **translateₖ** **MUST** be deterministic (no implicit “latest”). After mapping to `k′`, **membership SHALL be evaluated using the target Context’s own `KindSignature(k′)` and `MemberOf(–, k′, –)`**; source‑context membership results **MUST NOT** be reused as truth in guards (they may be cited as evidence in **R**).
 
-### 6.3 · Order & Monotonicity
+##### 6.3 · Order & Monotonicity
 
 **KB‑05 (Monotone order).** If the bridge claims to **preserve** `k₁ ⊑ k₂`, then in the target Context **`translateₖ(k₁) ⊑′ translateₖ(k₂)`** **MUST** hold.
 **KB‑06 (No inversions).** The bridge **MUST NOT** assert preserved links that **invert** order. If real‑world constraints force reversal, the link **MUST** be marked **not preserved** with a **loss note**.
 **KB‑07 (Collapse semantics).** Marking a link as **collapsed** is allowed (two subkinds mapped to one target kind), but the record **SHALL** list the merged subkinds and any properties thereby lost.
 
-### 6.4 · Congruence & Assurance
+##### 6.4 · Congruence & Assurance
 
 **KB‑08 (Anchor reuse & AT neutrality).** **`CL^k`** reuses the **ordinal anchor semantics** of CL (Part B) but applies **to kinds**. Editors **SHALL** label it explicitly as **kind‑congruence** to avoid confusion with Scope CL. **KindBridge records MUST NOT compute or alter KindAT (C.3.5 AT‑04); AT is editorial and independent of `CL^k`.**
 **KB‑09 (Effect on R only).** When a claim in the target Context depends on `MemberOf(–, translateₖ(k), TargetSlice)`, a **monotone penalty `Ψ(CL^k)`** **SHALL** reduce **R** (alongside any `Φ(CL)` penalty from the Scope Bridge). Implementations **MUST NOT** adjust **F or G** due to `CL^k`.
 **KB‑10 (Chaining).** For a chain of bridges, **effective `CL^k` = min** of the links (weakest‑link).
 
-### 6.5 · Loss Notes & Definedness
+##### 6.5 · Loss Notes & Definedness
 
 **KB‑11 (Loss notes).** Bridges **SHALL** publish human‑readable **loss notes**: which invariants of `KindSignature` are **not preserved**, which subkinds are **collapsed**, and any **higher‑equality** caveats (e.g., up‑to‑iso only).
 **KB‑12 (Definedness & guard use).** The bridge’s **definedness area** **SHALL** be stated. Guards **MUST fail closed** outside it (i.e., if a classification relies on the bridge where it is not defined, the guard denies use).
 
 ---
 
-## 7 · Interactions (informative)
+#### 7 · Interactions (informative)
 
-### 7.1 · With USM Scope bridges (two channels)
+##### 7.1 · With USM Scope bridges (two channels)
 
 When using a claim across Contexts, expect **two concurrent bridges**:
 
@@ -18488,11 +18488,11 @@ When using a claim across Contexts, expect **two concurrent bridges**:
 
  See **Annex C.3.A §5 (E‑01)** for the normative evaluation order in guards.
 
-### 7.2 · With membership (C.3.2)
+##### 7.2 · With membership (C.3.2)
 
 After mapping `k` to `k′ = translateₖ(k)`, the **target Context** evaluates membership **as usual**: `MemberOf(e, k′, TargetSlice)`. If the bridge provides a **signature translation**, that definition becomes the **local** `KindSignature(k′)` (versioned per target Context policy).
 
-### 7.3 · With Role masks (C.3.4)
+##### 7.3 · With Role masks (C.3.4)
 
 If a claim uses a **RoleMask(k)** across Contexts, you need:
 
@@ -18500,7 +18500,7 @@ If a claim uses a **RoleMask(k)** across Contexts, you need:
 * a documented **mask adapter** (how mask constraints translate).
   Penalties still land in **R**. If the mask’s effect is stable and widely reused, consider promoting it to a **subkind** on the target side.
 
-### 7.4 · With guards (Annex C.3.A)
+##### 7.4 · With guards (Annex C.3.A)
 
 Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both bridges** and applies **both penalties** to **R**:
 
@@ -18510,9 +18510,9 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 
 ---
 
-## 8 · Authoring, Review & Rating Guidance (informative)
+#### 8 · Authoring, Review & Rating Guidance (informative)
 
-### 8.1 · Authoring a KindBridge
+##### 8.1 · Authoring a KindBridge
 
 * **Start narrow & honest.** Declare only the kinds and `⊑` links you **actually preserve**; mark the rest **unknown**.
 * **Prefer named targets.** If the target already has a suitable kind, map to it; use **signature translation** only when necessary, and list what’s preserved vs weakened vs dropped.
@@ -18520,7 +18520,7 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 * **Fix the definedness area.** Bind to target Standards/versions and any environment selectors essential to classification.
 * **Assign `CL^k` from exemplars.** Calibrate on concrete counter‑examples and preserved properties; resist optimistic ratings.
 
-### 8.2 · Review playbook (10 minutes)
+##### 8.2 · Review playbook (10 minutes)
 
 1. **Two bridges present?** Scope Bridge **and** KindBridge?
 2. **Order claims honest?** Any `⊑` inversions? Collapses disclosed?
@@ -18529,7 +18529,7 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 5. **Definedness area clear?** Guard will **fail closed** outside it?
 6. **Penalties wired to R?** No hidden tweaks to **F/G**?
 
-### 8.3 · Rating `CL^k` (rules of thumb)
+##### 8.3 · Rating `CL^k` (rules of thumb)
 
 * **High `CL^k`**: signature equivalence or **up‑to‑iso**; `⊑` fragment preserved; only cosmetic losses.
 * **Medium `CL^k`**: some invariants weakened; selected subkinds collapsed; order preserved on critical path.
@@ -18537,9 +18537,9 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 
 ---
 
-## 9 · Worked Examples (informative)
+#### 9 · Worked Examples (informative)
 
-### 9.1 · Vehicle → TransportUnit (manufacturing)
+##### 9.1 · Vehicle → TransportUnit (manufacturing)
 
 **Source kind:** `Vehicle` (K2, signature F4).
 **target Context:** `PlantB`, kind `TransportUnit` exists.
@@ -18552,7 +18552,7 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 **Use:** Claim quantified over `Vehicle` crosses to `PlantB`.
 **Guards:** scope bridge CL=2 (rig bias); kind bridge `CL^k=2`; both penalties reduce **R**. **F/G** unchanged.
 
-### 9.2 · AuthenticatedRequest across services (software)
+##### 9.2 · AuthenticatedRequest across services (software)
 
 **Source kind:** `AuthenticatedRequest` defined by `AuthStandard v2.3`.
 **target Context:** `Frontend` with different auth header scheme.
@@ -18562,7 +18562,7 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 
 **Effect:** Rules quantified over `AuthenticatedRequest` can be reused; **R** penalty small (Ψ(3) near 1). Scope remains independent (API v2.3).
 
-### 9.3 · AdultPatient across jurisdictions (clinical)
+##### 9.3 · AdultPatient across jurisdictions (clinical)
 
 **Source kind:** `AdultPatient` (≥ 18 at `Γ_time`).
 **target Context:** `JurisdictionY` uses ≥ 21.
@@ -18573,7 +18573,7 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 
 ---
 
-## 10 · Anti‑patterns & Remedies (informative)
+#### 10 · Anti‑patterns & Remedies (informative)
 
 | Anti‑pattern                                 | Why it’s wrong                         | Remedy                                                                              |
 | -------------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -18586,7 +18586,7 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 
 ---
 
-## 11 · Conformance Checklist (normative)
+#### 11 · Conformance Checklist (normative)
 
 | ID        | Requirement                                                                                                                                          |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18611,13 +18611,13 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 * **Templates.** ESG/Method templates should expose fields for **Scope Bridge (CL)** and **KindBridge (`CL^k`)** with loss notes & definedness.
 
 
-# C.3.4 · **RoleMask — Contextual Adaptation of Kinds (without cloning)**  \[A]
+### C.3.4 · **RoleMask — Contextual Adaptation of Kinds (without cloning)**  \[A]
 
 > **One‑line summary.** Defines **`U.RoleMask(kind, Context)`** as a **context‑local adaptation** of a `U.Kind` that (a) adds **constraints** and/or **vocabulary bindings**, and (b) may **narrow** membership **deterministically** within a `U.ContextSlice`, **without creating a new kind**. RoleMasks are catalogued, versioned, and guard‑addressable; frequent, stable constraint masks **SHOULD be promoted** to explicit **subkinds**. Cross‑context use of a RoleMask requires a **KindBridge** (for kinds) and, when needed, a **MaskAdapter** (for mask constraints). All penalties route to **R**; **F/G** remain unchanged.
 
 ---
 
-## 0 · Status, Placement, Dependencies 
+#### 0 · Status, Placement, Dependencies 
 
 **Status.** Normative architheory in **Part C**. Identifier **C.3.4**.
 **Audience.** Engineering managers, architects, reviewers, editors.
@@ -18635,7 +18635,7 @@ Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both br
 — RoleMask is **not** a governance tier, data policy, or “mini‑type system.”
 — RoleMask does **not** redefine Scope; context conditions belong to **USM**.
 
-## 1 · Purpose (manager’s view)
+#### 1 · Purpose (manager’s view)
 
 Teams often need a **local projection** of a widely used kind:
 
@@ -18648,13 +18648,13 @@ If each team clones a fresh kind, catalogs fragment and bridges multiply. **Role
 
 ---
 
-## 2 · Context
+#### 2 · Context
 
 Kinds (C.3.1/3.2) name **what** claims quantify over; USM (A.2.6) governs **where** claims hold. In practice, procedures need **local tailoring** of kinds for a role/process (compliance profile, product line, cohort). RoleMask gives that tailoring **without** mutating describedEntity (Kind) or applicability (Scope).
 
 ---
 
-## 3 · Problem
+#### 3 · Problem
 
 1. **Kind sprawl.** Teams mint near‑duplicate kinds (“Account\_PCI”, “Account\_Ledger”), and alignment decays.
 2. **Hidden constraints.** Informal “we only accept …” statements leak into prose; guards can’t check them deterministically.
@@ -18663,7 +18663,7 @@ Kinds (C.3.1/3.2) name **what** claims quantify over; USM (A.2.6) governs **wher
 
 ---
 
-## 4 · Forces
+#### 4 · Forces
 
 | Force                                   | Tension to resolve                                                                                           |
 | --------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -18674,7 +18674,7 @@ Kinds (C.3.1/3.2) name **what** claims quantify over; USM (A.2.6) governs **wher
 
 ---
 
-## 5 · Solution — **RoleMask** (overview)
+#### 5 · Solution — **RoleMask** (overview)
 
 A **RoleMask** is a **named, versioned binding** `U.RoleMask(kind, Context)` that:
 
@@ -18699,11 +18699,11 @@ A **RoleMask** is a **named, versioned binding** `U.RoleMask(kind, Context)` tha
 
 ---
 
-## 6 · Norms & Invariants (normative)
+#### 6 · Norms & Invariants (normative)
 
 > The following formalize and expand **RM‑01…RM‑08** referenced in C.3.
 
-### 6.1 · Definition & Shape
+##### 6.1 · Definition & Shape
 
 **RM‑01 (Definition).** `U.RoleMask(kind, Context)` **SHALL** be a named, versioned record with:
 (a) **intent** (what role/procedure the mask serves),
@@ -18720,7 +18720,7 @@ A **RoleMask** is a **named, versioned binding** `U.RoleMask(kind, Context)` tha
 — **Vocabulary masks** MUST NOT change membership;
 — **Constraint/composite masks** MAY narrow membership **only via entity‑level predicates**.
 
-### 6.2 · Separation of channels
+##### 6.2 · Separation of channels
 
 **RM‑05 (Context vs entity).**
 
@@ -18731,13 +18731,13 @@ A **RoleMask** is a **named, versioned binding** `U.RoleMask(kind, Context)` tha
 
 **RM‑06 (Guard use).** Guards **MAY** reference a RoleMask by name **only** if the mask is **registered, versioned, and its constraints are observable** at guard time. Mask names **MUST NOT** be treated as kind synonyms.
 
-### 6.3 · Promotion & Catalog
+##### 6.3 · Promotion & Catalog
 
 **RM‑07 (Promotion rule).** A constraint mask reused broadly and stably **SHOULD** be promoted to an explicit **subkind** with a `⊑` link; retire the mask or keep it as a vocabulary wrapper. Editors **SHALL** track promotions in the catalog.
 
 **RM‑08 (Catalog).** Contexts **SHALL** catalog masks (name, version, type, intent, constraints, bindings, examples, related subkinds, known bridges/adapters). Redundant masks **SHOULD** be consolidated.
 
-### 6.4 · Cross‑context use
+##### 6.4 · Cross‑context use
 
 **RM‑09 (Bridges & adapters).** If a claim uses `MemberOf(–, RoleMask(k), TargetSlice)` across Contexts, the receiving Context **SHALL** require:
 (a) a **KindBridge** for `k` (`CLᵏ`, loss notes), and
@@ -18748,28 +18748,28 @@ Penalties **MUST** route to **R**: `Ψ(CLᵏ)` for kind, plus any **Φ(CL)** for
 
 ---
 
-## 7 · Invariants & Non‑goals (normative)
+#### 7 · Invariants & Non‑goals (normative)
 
 * **No Scope leakage.** RoleMasks **cannot** widen/narrow **Claim scope (G)**; any context conditions are enforced by USM guards.
 * **Identity preservation.** The carrier kind remains `k`; RoleMask does not change describedEntity.
 * **Weakest‑link unaffected.** RoleMasks do not alter weakest‑link rules on **F/R**; guards **route entity predicates to membership** and **context predicates to USM Scope**.
 
-## 8 · Interactions (informative)
+#### 8 · Interactions (informative)
 
-### 8.1 · With Kinds & Subkinds (C.3.1)
+##### 8.1 · With Kinds & Subkinds (C.3.1)
 
 Use RoleMask for **procedural tailoring**. If the tailoring becomes **conceptual** and stable, **introduce a subkind** with `⊑` and update references.
 
-### 8.2 · With Membership & Signature (C.3.2)
+##### 8.2 · With Membership & Signature (C.3.2)
 
 * **Entity‑level constraints** live in mask membership (deterministic).
 * **Signature F** belongs to the kind; raising F in the signature does not auto‑change masks.
 
-### 8.3 · With KindBridge (C.3.3)
+##### 8.3 · With KindBridge (C.3.3)
 
 A RoleMask crossing Contexts needs **two artifacts**: the KindBridge (`CL^k`, loss notes) and a **MaskAdapter** (how constraints/aliases translate). **R** gets both penalties; **F/G** stay intact. If the adapter systematically narrows membership in the target Context, consider **target‑side subkind**.
 
-### 8.4 · With Guards (Annex C.3.A)
+##### 8.4 · With Guards (Annex C.3.A)
 
 Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 — mask registration & determinism;
@@ -18778,7 +18778,7 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 — **Cross‑context combo.** When masks cross Contexts, use **`Guard_MaskedUse`** together with **`Guard_XContext_Typed`** (Annex **C.3.A §4.5**) so both bridges are checked and both penalties (**Φ(CL)** and **Ψ(CLᵏ)**) land in **R**.
 — **Order of checks.** Follow **Annex C.3.A §5 (E‑01)**: typed compatibility first, then Scope coverage, then penalties to **R** and freshness.
 
-## 9 · Anti‑patterns & Remedies (informative)
+#### 9 · Anti‑patterns & Remedies (informative)
 
 | Anti‑pattern                                      | Why it’s wrong                         | Remedy                                                                                |
 | ------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------- |
@@ -18791,23 +18791,23 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 
 ---
 
-## 10 · Worked Examples (informative)
+#### 10 · Worked Examples (informative)
 
-### 10.1 · `Vehicle@ABSOnly` (constraint mask)
+##### 10.1 · `Vehicle@ABSOnly` (constraint mask)
 
 **Kind.** `Vehicle` (K2, signature F4).
 **Mask.** `Vehicle@ABSOnly` — entity‑level predicate `hasABS(x)=true`; type **constraint**.
 **Guards.** `MemberOf(–, Vehicle@ABSOnly, TargetSlice)` defined & deterministic; **Scope** (surface/speed/rig/Γ\_time) checked separately.
 **Promotion?** If ABS‑only becomes a conceptual category, publish `VehicleWithABS ⊑ Vehicle` and retire the mask.
 
-### 10.2 · `AuthenticatedRequest@Frontend` (vocabulary mask)
+##### 10.2 · `AuthenticatedRequest@Frontend` (vocabulary mask)
 
 **Kind.** `AuthenticatedRequest` defined by `AuthStandard v2.3`.
 **Mask.** `@Frontend` binds `authHeader → X‑Auth` (aliases only); **no** narrowing; type **vocabulary**.
 **Cross‑context.** If reused in another Context, require **KindBridge** for the kind; **no** MaskAdapter needed (aliases are local).
 **R.** Only scope bridge penalties apply (if any).
 
-### 10.3 · `AdultPatient@Clinic` (composite mask) across jurisdictions
+##### 10.3 · `AdultPatient@Clinic` (composite mask) across jurisdictions
 
 **Kind.** `AdultPatient` (≥ 18 at `Γ_time`).
 **Mask.** `@Clinic`: entity constraint “DOB present”; context hint “EHR system = X” (this part routes to Scope). Type **composite**.
@@ -18817,9 +18817,9 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 
 ---
 
-## 11 · Authoring & Review Guidance (informative)
+#### 11 · Authoring & Review Guidance (informative)
 
-### 11.1 · Authoring a RoleMask card
+##### 11.1 · Authoring a RoleMask card
 
 **Fields (suggested).** `name`, `kind`, `type (constraint/vocabulary/composite)`, `intent`, `constraints (entity vs context split)`, `bindings`, `membership definition (if any)`, `definedness`, `examples`, `known bridges/adapters`, `promotion note`.
 **Rules of thumb.**
@@ -18828,7 +18828,7 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 * Put **context** in Scope, not in membership.
 * If ≥ 3 teams reuse the same constraint mask → **promotion** review.
 
-### 11.2 · Reviewer 7‑point checklist
+##### 11.2 · Reviewer 7‑point checklist
 
 1. Mask **registered** and **versioned**?
 2. **Type** declared correctly (constraint/vocabulary/composite)?
@@ -18840,7 +18840,7 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 
 ---
 
-## 12 · Conformance Checklist (normative)
+#### 12 · Conformance Checklist (normative)
 
 | ID        | Requirement                                                                                                                                                |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -18855,13 +18855,13 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 | **RM‑09** | Cross‑context masked use **SHALL** declare a **KindBridge** (`CL^k`) and any **MaskAdapter**; penalties **MUST** reduce **R** only.                            |
 | **RM‑10** | Mask definedness **SHALL** be stated; guards **fail closed** outside the defined area.                                                                     |
 
-# C.3.5 · **KindAT — Intentional Abstraction Facet for Kinds (K0…K3)**  \[I/A]
+### C.3.5 · **KindAT — Intentional Abstraction Facet for Kinds (K0…K3)**  \[I/A]
 
 > **One‑line summary.** Defines **KindAT** as an **informative facet** attached to `U.Kind` that classifies the **intentional abstraction stance** of a kind—**K0 Instance**, **K1 Behavioral Pattern**, **K2 Formal Kind/Class**, **K3 Up‑to‑Iso**—to **guide ΔF/ΔR planning, bridge expectations, catalog/search, and refactoring**. **KindAT is not a Characteristic**: it has **no algebra**, **no thresholds**, and **MUST NOT** appear in guards or composition math. All assurance remains in **F–G–R**; typed semantics remain in **C.3.1–C.3.4**.
 
 ---
 
-## 0 · Status, Placement, Dependencies 
+#### 0 · Status, Placement, Dependencies 
 
 **Status.** Mixed:
 — **Informative** for the anchors, heuristics, examples, and guidance.
@@ -18878,7 +18878,7 @@ Use **`Guard_MaskedUse`** (Annex **C.3.A §4.3**). It requires:
 — No numerical scale, no gating, no composition operators, no “quality” scoring.
 — No effect on **F**, **G**, or **R** besides **planning hints**.
 
-## 1 · Purpose (manager’s view)
+#### 1 · Purpose (manager’s view)
 
 Teams constantly decide **how far to formalize** and **how broadly to validate**:
 
@@ -18890,9 +18890,9 @@ Teams constantly decide **how far to formalize** and **how broadly to validate**
 
 ---
 
-## 2 · Context & Rationale
+#### 2 · Context & Rationale
 
-### 2.1 · The orthogonality we preserve
+##### 2.1 · The orthogonality we preserve
 
 * **G (Claim scope)** is **where** a claim holds (A.2.6).
 * **Kinds** give **what** a claim is about (C.3.1/3.2).
@@ -18901,7 +18901,7 @@ Teams constantly decide **how far to formalize** and **how broadly to validate**
 
 Teams often **conflate abstraction with applicability** (“sounds general ⇒ applies broadly”) or **over‑engineer proofs** where **slice‑checks** suffice. AT separates these concerns.
 
-### 2.2 · Why a facet, not a Characteristic
+##### 2.2 · Why a facet, not a Characteristic
 
 Per **MM‑CHR**, **Characteristics** (e.g., F, G) carry algebra and appear in guards/composition. **KindAT** is only a **tag** on `U.Kind`:
 
@@ -18911,46 +18911,46 @@ Per **MM‑CHR**, **Characteristics** (e.g., F, G) carry algebra and appear in g
 
 This keeps AT **useful** without risking a “second G” or back‑door quality scores.
 
-### 2.3 · Design choice recap (moved from C.3 §15.2)
+##### 2.3 · Design choice recap (moved from C.3 §15.2)
 
 * Making AT a Characteristic would **duplicate** G’s role and encourage gating.
 * As a **facet**, AT remains a **catalog/navigation and planning device**, not an assurance dimension.
 
 ---
 
-## 3 · **Anchors K0…K3** (informative)
+#### 3 · **Anchors K0…K3** (informative)
 
 > **How to read.** Each anchor states the **intentional stance** of the kind, **inclusion cues**, **non‑examples** (to prevent misuse), and **planning hints** (ΔF/ΔR/bridge expectations). Anchors are **context‑local editorial tags** on `U.Kind`.
 
-### 3.1 · **K0 — Instance‑level**
+##### 3.1 · **K0 — Instance‑level**
 
 **Intent.** The kind denotes **exemplars** or a **tightly curated set**; often a named cohort or a concrete template.
 **Cues.** Membership relies on listing or direct identity features; little to no general invariants.
 **Non‑examples.** Any kind with stable, general invariants belongs in **K2**.
 **Planning hints.** Focus **R on TargetSlice** (executable checks, F5/6); avoid premature proof engineering. Bridges are **instance‑maps**; expect **low `CL^k`** outside the Context.
 
-### 3.2 · **K1 — Behavioral Pattern**
+##### 3.2 · **K1 — Behavioral Pattern**
 
 **Intent.** The kind is a **role/behavioral** pattern (“things that act like …”), typically stated via Standards or controlled NL, not a full type.
 **Cues.** “Duck‑typing” flavor; Standards reference behavior/state transitions.
 **Non‑examples.** If you can state global invariants as predicates, consider **K2**.
 **Planning hints.** Invest in **F3→F4** (predicate‑like acceptances); **R** must test **behavioral diversity**; bridges are **pattern maps** with moderate `CL^k`.
 
-### 3.3 · **K2 — Formal Kind/Class**
+##### 3.3 · **K2 — Formal Kind/Class**
 
 **Intent.** A **formal class** with explicit **invariants/relations** (ontology class, type with Standards).
 **Cues.** Predicate‑like signature, subkind lattice, invariants reviewed.
 **Non‑examples.** Pure examples/cohorts (K0); informal roles (K1).
 **Planning hints.** Raise **KindSignature F** to **F4+**, consider **F7** for safety‑critical cores; **R** should cover **subkinds/variants**; bridges are **type‑maps**, `CL^k` often medium/high.
 
-### 3.4 · **K3 — Up‑to‑Iso**
+##### 3.4 · **K3 — Up‑to‑Iso**
 
 **Intent.** Defined **up to isomorphism/equivalence** (category‑theoretic flavor; “equal as structure,” not by identity); equality‑as‑structure matters.
 **Cues.** Statements invariant under isomorphism; reasoning by equivalence classes.
 **Non‑examples.** Classes where identity matters beyond structure.
 **Planning hints.** Expect **up‑to‑iso** bridges; `CL^k` can be high where equivalence is respected. **F7–F9** likely for key properties; **R** focuses on **witnesses of equivalence** at interfaces.
 
-## 4 · Manager Heuristics (informative)
+#### 4 · Manager Heuristics (informative)
 
 | Decision area       | K0                               | K1                          | K2                                         | K3                                      |
 | ------------------- | -------------------------------- | --------------------------- | ------------------------------------------ | --------------------------------------- |
@@ -18962,7 +18962,7 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 ---
 
-## 5 · Misuse & Antidotes (informative)
+#### 5 · Misuse & Antidotes (informative)
 
 * **“Higher AT ⇒ wider G.”** *Wrong.* **G** changes only via **ΔG** (USM). AT does not alter scope.
 * **“Gate on AT.”** *Wrong.* Use **F** thresholds and scope/evidence guards; AT is never a gate.
@@ -18972,7 +18972,7 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 ---
 
-## 6 · **Usage Rules (normative)**
+#### 6 · **Usage Rules (normative)**
 
 > These are the **only** normative constraints in this pattern. Everything else is guidance.
 
@@ -18988,16 +18988,16 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 ---
 
-## 7 · Authoring & Review Guidance (informative)
+#### 7 · Authoring & Review Guidance (informative)
 
-### 7.1 · How to tag (fast rubric)
+##### 7.1 · How to tag (fast rubric)
 
 * If the card lists **concrete items/cohorts**, tag **K0**.
 * If the card defines **behavioral obligations** in prose/templates but few global invariants, tag **K1**.
 * If the card states **predicates/invariants** and participates in a **subkind lattice**, tag **K2**.
 * If the card explicitly reasons **up to isomorphism**, tag **K3**.
 
-### 7.2 · Review checklist (5 minutes)
+##### 7.2 · Review checklist (5 minutes)
 
 1. Is the **carrier** a **`U.Kind`** (not a claim)?
 2. Does the **tag** match the **signature** (intent)?
@@ -19007,7 +19007,7 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 ---
 
-## 8 · Integration Notes (informative)
+#### 8 · Integration Notes (informative)
 
 * **With C.3.1/3.2 (Kinds, Signature, Extension).** AT guides *how* to evolve signature **F** and *what* R coverage is sensible; it **does not** change membership semantics.
 * **With C.3.3 (KindBridge).** AT hints at likely **bridge style** (instance‑map / pattern‑map / type‑map / up‑to‑iso), but **`CL^k`** is still computed from signature/order preservation; penalties route to **R**.
@@ -19017,7 +19017,7 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 ---
 
-## 9 · Worked Mini‑Examples (informative)
+#### 9 · Worked Mini‑Examples (informative)
 
 * **K0 (Instance).** `Account_US_GAAP_2025_Q1_Cohort`. Plan **R** slice checks; avoid type‑maps across Contexts.
 * **K1 (Behavior).** `CacheableRequest` (“idempotent under retry; cache key well‑formed”). Raise **F3→F4**; design **R** for failure‑mode diversity; expect **pattern bridges**.
@@ -19026,7 +19026,7 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 ---
 
-## 10 · Conformance Checklist (normative)
+#### 10 · Conformance Checklist (normative)
 
 | ID        | Requirement                                                                                                   |
 | --------- | ------------------------------------------------------------------------------------------------------------- |
@@ -19037,13 +19037,13 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 | **AT‑05** | If a Context catalogs AT, it **SHOULD** include it in Kind cards with signature **F**, subkinds, masks, bridges. |
 
 
-# C.3.A · **Typed Guard Macros for Kinds + USM (Annex)**  \[A/I]
+### C.3.A · **Typed Guard Macros for Kinds + USM (Annex)**  \[A/I]
 
 > **One‑line summary.** Provides **normative guard macros** that combine **USM Scope** (A.2.6) with **Kind‑CAL** (C.3.x) so authors can gate state changes and compositions that **quantify over kinds** without conflating **describedEntity** (Kinds) with **applicability** (Scope **G**) or **assurance** (**R**). Includes **decision trees, anti‑patterns, and examples** (informative). **AT (KindAT)** is **never** used in guards.
 
 ---
 
-## 0 · Status, Placement, Dependencies 
+#### 0 · Status, Placement, Dependencies 
 
 **Status.** Mixed:
 — **Normative**: guard macro clauses, evaluation order, fail‑closed discipline, conformance checklist.
@@ -19058,7 +19058,7 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 — **C.2.2 F–G–R**: weakest‑link, penalties to **R** only; **C.2.3 F**: F0…F9 (expression rigor).
 — **Part B Bridges & CL**: scope bridge semantics and CL ladder.
 
-## 1 · Purpose & Audience
+#### 1 · Purpose & Audience
 
 **Purpose.** Give Contexts a **single set** of guard shapes to:
 (a) **admit** typed claims safely,
@@ -19070,7 +19070,7 @@ This keeps AT **useful** without risking a “second G” or back‑door quality
 
 ---
 
-## 2 · Context & Problem
+#### 2 · Context & Problem
 
 Projects often:
 
@@ -19087,7 +19087,7 @@ Projects often:
 
 ---
 
-## 3 · Solution Overview (what these guards do)
+#### 3 · Solution Overview (what these guards do)
 
 All guards in this Annex share three invariants:
 
@@ -19100,12 +19100,12 @@ All guards in this Annex share three invariants:
 
 ---
 
-## 4 · Normative Guard Macros
+#### 4 · Normative Guard Macros
 
 > **Notation.** “**SHALL**” clauses are normative obligations. “Notes” are informative reminders. Names like `Guard_TypedClaim` are editorial handles; Contexts may alias them, but **MUST** preserve semantics. Macro names (e.g., `Guard_TypedClaim`) are editorial handles; Contexts may alias them provided the logical obligations are preserved.
 
 
-### 4.1 · **Guard\_TypedClaim** — admit a claim quantified over a kind
+##### 4.1 · **Guard\_TypedClaim** — admit a claim quantified over a kind
 
 **Intent.** Approve a state transition that asserts Claim **C** which quantifies over `U.Kind` **k** at **TargetSlice**.
 
@@ -19127,7 +19127,7 @@ All guards in this Annex share three invariants:
 
 ---
 
-### 4.2 · **Guard\_TypedJoin** — compose two typed claims/specs (A → B)
+##### 4.2 · **Guard\_TypedJoin** — compose two typed claims/specs (A → B)
 
 **Intent.** Permit composition where **A** produces facts over `k_A` and **B** consumes `k_B`.
 
@@ -19145,7 +19145,7 @@ All guards in this Annex share three invariants:
 
 ---
 
-### 4.3 · **Guard\_MaskedUse** — use a RoleMask with a kind
+##### 4.3 · **Guard\_MaskedUse** — use a RoleMask with a kind
 
 **Intent.** Use `U.Kind` **k** under a **RoleMask** **m** in Context **R**.
 
@@ -19164,7 +19164,7 @@ All guards in this Annex share three invariants:
 **Prohibitions.**
 — **Mask ≠ Kind.** Guards **MUST NOT** treat the mask name as a synonym for the Kind. *(RM‑06)*
 
-### 4.4 · **Guard\_SpanUnion\_Typed** — publish parallel coverage across independent support lines
+##### 4.4 · **Guard\_SpanUnion\_Typed** — publish parallel coverage across independent support lines
 
 **Intent.** Publish **SpanUnion** of scopes for **the same typed claim** supported by **independent** lines `L₁…Lₙ`.
 
@@ -19180,7 +19180,7 @@ All guards in this Annex share three invariants:
 
 ---
 
-### 4.5 · **Guard\_XContext\_Typed** — Cross‑context typed reuse (both bridges)
+##### 4.5 · **Guard\_XContext\_Typed** — Cross‑context typed reuse (both bridges)
 
 **Intent.** Reuse **C** quantified over **k** in another Context’s **TargetSlice**.
 
@@ -19199,7 +19199,7 @@ All guards in this Annex share three invariants:
 
 ---
 
-## 5 · Evaluation Semantics & Order (normative)
+#### 5 · Evaluation Semantics & Order (normative)
 
 **E‑01 (Order of checks).** Guards **SHALL** check **typed compatibility first** (same‑Context `⊑` or KindBridge), **then** Scope coverage (USM), **then** apply penalties to **R** and verify freshness.
 
@@ -19216,7 +19216,7 @@ All guards in this Annex share three invariants:
 **Evaluation order.** Apply checks in the order defined in **§5 (E‑01)**: typed compatibility → Scope coverage → penalties to **R** → freshness.
 
 
-## 6 · Conformance Checklist (normative)
+#### 6 · Conformance Checklist (normative)
 
 | ID        | Requirement                                                                                                                              |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -19227,22 +19227,22 @@ All guards in this Annex share three invariants:
 | **GC‑05** | Guards **MUST NOT** reference **AT**; any such reference **MUST** be removed or replaced with ΔF/ΔG/ΔR predicates.                       |
 | **GC‑06** | Scope union **MUST** follow USM **SpanUnion** rules (independence justification); typed union **MUST NOT** change describedEntity.             |
 
-### 6.1 · What counts as “proven‑equivalent” (editorial rule)
+##### 6.1 · What counts as “proven‑equivalent” (editorial rule)
 
 A Context may adopt a different surface phrasing **iff** the Context’s guard contains **all** obligations listed in the relevant macro, in the same logical roles (typed compatibility, Scope coverage, R penalties, freshness).
 
-### 6.2 · Where penalties land (assurance calculus hook)
+##### 6.2 · Where penalties land (assurance calculus hook)
 
 **Norm.** **Φ(CL)** (scope congruence) and **Ψ(`CL^k`)** (kind congruence) are **monotone non‑increasing** functions into **R**. Contexts **SHALL** calibrate them per policy; this Annex does not prescribe numeric forms.
 
-### 6.3 · Minimal conceptual formulas (informative)
+##### 6.3 · Minimal conceptual formulas (informative)
 
 * **R after bridges:** `R_final = R_base × Φ(CL_scope) × Ψ(CL_kind)` (concept only).
 * **No arithmetic on F/G.** F is ordinal (thresholds only); G is set‑valued (membership only).
 
 ---
 
-## 7 · Decision Trees (informative)
+#### 7 · Decision Trees (informative)
 
 **D1 · Admitting a typed claim**
 
@@ -19268,7 +19268,7 @@ A Context may adopt a different surface phrasing **iff** the Context’s guard c
 
 ---
 
-## 8 · Guard Anti‑patterns & Remedies (informative)
+#### 8 · Guard Anti‑patterns & Remedies (informative)
 
 | Anti‑pattern                                     | Why it’s wrong                         | Remedy                                                             |
 | ------------------------------------------------ | -------------------------------------- | ------------------------------------------------------------------ |
@@ -19281,7 +19281,7 @@ A Context may adopt a different surface phrasing **iff** the Context’s guard c
 
 ---
 
-## 9 · Worked Examples (informative, brief)
+#### 9 · Worked Examples (informative, brief)
 
 > Detailed scenarios remain in **C.3 §11**. This Annex sketches how the macros apply; cross‑reference as needed.
 
@@ -19299,20 +19299,20 @@ Use **Guard\_MaskedUse** + **Guard\_XContext\_Typed**: registered mask, determin
 
 ---
 
-## 10 · Rationale (why an Annex) (informative)
+#### 10 · Rationale (why an Annex) (informative)
 
 * **Focus.** Keeps **guard mechanics** together, easing adoption in ESG/Method templates.
 * **Separation.** Prevents leakage of AT/typed flavor into “Scope math”.
 * **Auditability.** Standard shapes let reviewers check determinism, bridges, penalties, and freshness quickly.
 * **Inter‑pattern glue.** Hooks **USM**, **Kind‑CAL**, **Bridges**, and **F–G–R** without inventing new scales.
 
-### Annex A · How typed reasoning plugs into **Compliance & Regulatory Alignment**  \[A/I]
+#### Annex A · How typed reasoning plugs into **Compliance & Regulatory Alignment**  \[A/I]
 
 > **For managers.** This section shows how to make **regulatory adoption and reuse** precise, auditable, and portable using **Kinds**, **KindBridges** (with a kind‑bridge congruence level, noted as **CL^k** for editors), and **USM Scope**. It cleanly separates *what the law is about* from *where and when it applies*, and routes any cross‑jurisdiction uncertainty to **R** (assurance). It never changes **F** (form) or **G** (scope) to hide mismatches.
 
 ---
 
-#### A.1 Purpose & fit
+## A.1 Purpose & fit
 
 **What this solves.** Regulations and standards name classes of things (“**Adult person**,” “**Class II medical device**,” “**Personal data**,” “**Lease**”). In one context they are native; in another they are foreign. Without typed reasoning, teams either (a) hand‑translate terms (silently changing meaning), or (b) reduce everything to Context labels (“domain = EU”), which cannot be checked by guards.
 
@@ -19325,7 +19325,7 @@ Use **Guard\_MaskedUse** + **Guard\_XContext\_Typed**: registered mask, determin
 
 ---
 
-#### A.2 Normative obligations  \[A]
+## A.2 Normative obligations  \[A]
 
 **C‑REG‑1 (Regulatory kinds).** Regulatory categories **SHALL** be represented as `U.Kind` in the authority’s Context (e.g., `AdultPerson@RegY`, `MedicalDeviceClassII@FDA`, `PersonalData@GDPR`, `Lease@IFRS`). Each such kind **SHALL** have a `KindSignature` with a declared **F** level (C.3.2).
 
@@ -19345,7 +19345,7 @@ Use **Guard\_MaskedUse** + **Guard\_XContext\_Typed**: registered mask, determin
 
 ---
 
-#### A.3 Guard macros (ready to use)  \[A]
+## A.3 Guard macros (ready to use)  \[A]
 
 **(a) `Guard_RegAdopt` — adopt a regulatory requirement into a Context (Plain: check scope, map the legal category, and account for penalties)**
 
@@ -19388,7 +19388,7 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 
 ---
 
-#### A.4 Worked examples  \[I]
+## A.4 Worked examples  \[I]
 
 **(1) Healthcare — “Adult” dosage rule across jurisdictions**
 
@@ -19439,7 +19439,7 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 
 ---
 
-#### A.5 Design guidance & pitfalls  \[I]
+## A.5 Design guidance & pitfalls  \[I]
 
 **Do this.**
 
@@ -19458,7 +19458,7 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 
 ---
 
-#### A.6 Migration checklist  \[I]
+## A.6 Migration checklist  \[I]
 
 1. **Inventory** regulatory references in policies/specs.
 2. **Create Kind cards** for referenced legal categories (intent summary, `KindSignature` + **F**, known subkinds, AT tag if helpful).
@@ -19469,7 +19469,7 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 
 ---
 
-#### A.7 Manager’s one‑page pattern  \[I]
+## A.7 Manager’s one‑page pattern  \[I]
 
 * **Question 1 — Where does the rule apply?** → **Scope (G)** over **Context slices** (jurisdiction, plant, Standard, and a **time selector (Γ_time)**).
 * **Question 2 — About what things?** → **Kind** (regulatory category) with a **KindBridge** if foreign.
@@ -19491,7 +19491,7 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 — **Kind membership** is *which things* the claim ranges over inside that slice — checked with `MemberOf(..., kind, slice)`.
 — **Bridge penalties**: the **scope‑bridge penalty** (based on **CL**) and the **kind‑bridge penalty** (based on **CL^k**) both lower **R** (assurance). They never change **F** (form) or **G** (scope).
 
-#### B.1 What you get with typed assurance  \[I]
+## B.1 What you get with typed assurance  \[I]
 
 * **Targeted proofs (VA).** If a policy says “for every **PassengerCar** …” (notation hint: ∀x:PassengerCar), the VA lane now has a clear target. You can prove obligations **once for the kind** (and its subkinds), instead of re‑proving per ad‑hoc label.
 * **Subkind‑aware test plans (LA).** Test matrices are indexed by **subkinds** (and RoleMasks) × **context slices**; coverage stops being accidental.
@@ -19500,7 +19500,7 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 
 ---
 
-#### B.2 Normative obligations for evidence design  \[A]
+## B.2 Normative obligations for evidence design  \[A]
 
 **EA‑1 (Two checks).** Every VA/LA artifact that supports a typed claim **SHALL** bind **both**:
 
@@ -19527,7 +19527,7 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 
 ---
 
-#### B.3 Designing the **evidence matrix**  \[I]
+## B.3 Designing the **evidence matrix**  \[I]
 
 A practical way to plan LA/VA is a **matrix**:
 
@@ -19544,7 +19544,7 @@ A practical way to plan LA/VA is a **matrix**:
 
 ---
 
-#### B.4 VA lane — proofs that match the kind  \[A/I]
+## B.4 VA lane — proofs that match the kind  \[A/I]
 
 **What VA contributes.** Proofs reduce ambiguity and eliminate many LA burdens when they **truly quantify over the intended kind** and **live in the declared Scope**.
 
@@ -19569,7 +19569,7 @@ Policy P: “∀ x: PassengerCar. stoppingDistance(x) ≤ 50 m on dry at s
 
 ---
 
-#### B.5 LA lane — tests & monitoring that cover the right variants  \[A/I]
+## B.5 LA lane — tests & monitoring that cover the right variants  \[A/I]
 
 **What LA contributes.** Empirical assurance for claims with executable semantics or physical interfaces; especially when F ≤ F6 or when stochastic/real‑world effects matter.
 
@@ -19596,7 +19596,7 @@ Claim: “For all `x ∈ Vehicle`: brakeDistance ≤ 50 m on dry, ≤ 40 m o
 
 ---
 
-#### B.6 TA lane — tool qualification where it belongs  \[A/I]
+## B.6 TA lane — tool qualification where it belongs  \[A/I]
 
 **What TA contributes.** Confidence in **provers, checkers, model‑checkers, data classifiers** and pipelines. TA is about the **machinery**, not the **claim** or **kind** semantics.
 
@@ -19613,7 +19613,7 @@ Claim: “For all `x ∈ Vehicle`: brakeDistance ≤ 50 m on dry, ≤ 40 m o
 
 ---
 
-#### B.7 Guard macros for evidence planning & attachment  \[A]
+## B.7 Guard macros for evidence planning & attachment  \[A]
 
 **Guard\_EvidencePlan\_Typed** — approve a plan that is adequate for a typed claim.
 *Plain reading.* The first macro checks that the plan names the rows (kinds or masks) and columns (slices), that scope and membership can be checked for each cell, that any Cross‑context moves declare bridges, and that penalties are budgeted in **R**.
@@ -19644,7 +19644,7 @@ Claim: “For all `x ∈ Vehicle`: brakeDistance ≤ 50 m on dry, ≤ 40 m o
 
 ---
 
-#### B.8 Anti‑patterns & remedies  \[I]
+## B.8 Anti‑patterns & remedies  \[I]
 
 | Anti‑pattern                       | Why it’s risky                                | Remedy                                                              |
 | ---------------------------------- | --------------------------------------------- | ------------------------------------------------------------------- |
@@ -19658,7 +19658,7 @@ Claim: “For all `x ∈ Vehicle`: brakeDistance ≤ 50 m on dry, ≤ 40 m o
 
 ---
 
-#### B.9 End‑to‑end example (manager’s cheat‑sheet)  \[I]
+## B.9 End‑to‑end example (manager’s cheat‑sheet)  \[I]
 
 **Scenario.** You want to publish “∀ x: PassengerCar. brakeDistance ≤ 50 m dry; ≤ 40 m wet” across two plants.
 
@@ -19677,7 +19677,7 @@ Claim: “For all `x ∈ Vehicle`: brakeDistance ≤ 50 m on dry, ≤ 40 m o
 
 **Status note.** This profile restates the guard semantics from **§4** for ESG/Method contexts. It does **not** add obligations; where wording diverges, **§4 controls**.
 
-#### C.1 **ESG** guard obligations (normative)
+## C.1 **ESG** guard obligations (normative)
 
 When a state transition publishes or affirms a claim that quantifies over kinds, the guard **SHALL**:
 
@@ -19714,7 +19714,7 @@ If the Claim’s scope originates in another target‑context, a **Scope Bridge*
 
 ---
 
-#### C.2 · **Method–Work** guard obligations (normative)
+## C.2 · **Method–Work** guard obligations (normative)
 
 To admit a **capability** for a specific **Work** step at **JobSlice**, the guard **SHALL**:
 
@@ -19743,7 +19743,7 @@ To admit a **capability** for a specific **Work** step at **JobSlice**, the guar
 
 ---
 
-#### C.3 · Guard macros (ready‑to‑use)
+## C.3 · Guard macros (ready‑to‑use)
 
 **ESG\_TypedGate(Claim, TargetSlice, Kinds, thresholds)**
 *Manager view:* The following macros are for editors; target‑contexts may automate them if desired. Managers can read the comments on each step; the checks are the same ones described in Plain language above.
@@ -19779,7 +19779,7 @@ To admit a **capability** for a specific **Work** step at **JobSlice**, the guar
 9  if cross-context capability/scope: assert ScopeBridge(...) with congruence ≥ c_scope; apply_scope_bridge_penalty(congruence)
 ```
 
-#### C.4 · Worked examples (manager‑focused)
+## C.4 · Worked examples (manager‑focused)
 
 **(A) ESG — Promote a braking policy to *Effective*.**
 *Claim.* “For all **vehicles**: braking distance is **≤ 50 m** on dry and **≤ 40 m** on wet.”
@@ -19823,7 +19823,7 @@ To admit a **capability** for a specific **Work** step at **JobSlice**, the guar
 
 ---
 
-#### C5 · Anti‑patterns & remedies (normative where noted)
+### C5 · Anti‑patterns & remedies (normative where noted)
 
 | Anti‑pattern                                      | Why it’s wrong                                 | Remedy                                                                              |
 | ------------------------------------------------- | ---------------------------------------------- | ----------------------------------------------------------------------------------- |
@@ -19835,7 +19835,7 @@ To admit a **capability** for a specific **Work** step at **JobSlice**, the guar
 
 ---
 
-# **C.13 — Compose‑CAL (Constructional Mereology)**
+## **C.13 — Compose‑CAL (Constructional Mereology)**
 *(architheory pattern; structural rung of the FPF ladder)*
 **Status.** Normative architheory \[A]; notation‑agnostic; imports Kernel only.
 
@@ -19866,9 +19866,9 @@ Declared lists of part‑of sub‑relations **scale poorly** and **lack identity
 * **Trans‑disciplinary unification.** Every architheory that needs mereology should reuse one *generative* basis.
 * **Green‑field strictness.** With no legacy to break, we can require grounding for new structural edges.
 
-## 4 Solution
+### 4 Solution
 
-### 4.1 Solution sketch
+#### 4.1 Solution sketch
 
 **Compose‑CAL SHALL provide Γₘ with three and only three constructors:**
 1. **`Γₘ.sum(parts:Set[U.Entity])`** — returns a whole *W* such that each *p* in *parts* stands in **KernelPartOf(p, W)**.
@@ -19883,7 +19883,7 @@ Declared lists of part‑of sub‑relations **scale poorly** and **lack identity
 * No extra constructors for “parallelism” or “time slices”; parallelism is modelled via **set** (with order handled in `Γ_method`), and temporal parts live in the appropriate temporal/system calculus. This preserves parsimony.
 * Compose‑CAL does not define user‑visible relation names; those belong to the alias layer.
 
-### 4.2 Normative Standard (high‑level)
+#### 4.2 Normative Standard (high‑level)
 
 * **C13‑N1.** *Extensional identity.* Two Γₘ results are identical iff they have the same parts under the same constructor and facet conditions.
 * **C13-N2.** *Structural grounding stance.* Every **structural** edge **MUST** reference **exactly one** Γₘ trace as its grounding witness **and SHALL declare `validationMode = axiomatic`** (see B.3.5 / E.14). **Structural edges MUST NOT** be published in `postulate` or `inferential` stances.
@@ -19893,7 +19893,7 @@ Declared lists of part‑of sub‑relations **scale poorly** and **lack identity
 * **C13‑N6.** *Member vs component.* `Γₘ.set` yields **collections** whose Working‑Model alias is **MemberOf**; authors **SHALL NOT** infer **ComponentOf** from **MemberOf** without a separate `Γₘ.sum` narrative.
 * **C13‑N7.** *Domain guard.* Do **not** apply Compose‑CAL to roles, methods, or works (see A.12/A.15): these are outside mereology.
 
-### 4.3 Scope, applicability, terms & notation
+#### 4.3 Scope, applicability, terms & notation
 
 +Use Compose-CAL whenever a claim concerns **structural containment** of entities (assemblies, collections, aspects). Compose-CAL is *not* used for epistemic relations between knowledge artefacts; those are **epistemic** relations and may be justified by **Logical/Mapping** and/or **Empirical Validation** with an explicit `validationMode ∈ {inferential, postulate}`. Compose-CAL is neutral with respect to domain (mechanical, biological, software, etc.).
 
@@ -20038,9 +20038,9 @@ Correctness‑by‑sequence and temporal coverage are orthogonal to **parthood**
 * A stable interface with CT2R‑LOG for `tv:groundedBy` links under `validationMode = axiomatic`.
 
 
-# C.16 (MM‑CHR) — Measurement & Metrics Characterization (Architheory)  \[A]
+## C.16 (MM‑CHR) — Measurement & Metrics Characterization (Architheory)  \[A]
 
-## 1 · Intent (Normative)
+### 1 · Intent (Normative)
 
 **Name.** *Measurement & Metrics Characterization (MM‑CHR).* This is user-oriented name: in user‑facing narrative we say ‘metrics’; in Tech register we speak `U.DHCMethodRef`/`U.Measure`.
 **Intent.** Provide a **transdisciplinary substrate for measurement** that any architheory can rely on: a small, stable set of intensional constructs and relations—**`U.DHCMethodRef`**, **`U.Measure`**, **`U.Unit`**, **`U.EvidenceStub`**—disciplined by **CSLC** (*Characteristic / Scale / Level / Coordinate*) so that every recorded value is **interpretable** and **comparable** across CG‑frames (physics lab time‑of‑flight, figure‑skating judging, architectural modularity, etc.). **C.16** does **not** re‑define **Characteristic** (A.17) nor the CSLC kernel Standard (A.18); instead, it **exports** the measurement substrate that *binds* an architheory’s metric notions to **one Characteristic and one Scale** and frames a **conceptual link to evidence**. This characterization is **notation‑neutral**, **tool‑agnostic**, and **open‑ended** (no “lifecycle” narrative; evolution proceeds via **RSG** moves with checklists). 
@@ -20048,7 +20048,7 @@ Correctness‑by‑sequence and temporal coverage are orthogonal to **parthood**
 **Outcomes.**
 (1) A uniform way for architheories to *declare* what is measured and *read* what has been measured; (2) explicit **Characteristic anchoring** and **Scale typing** per CSLC; (3) principled **comparability** and **polarity** (declared at the template level); (4) **traceability** via conceptual evidence stubs; (5) seamless alignment with cross‑domain quantity notions (ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN, Verspoor) through Unification rows (Part F). 
 
-## 2 · Scope & Status (Normative)
+### 2 · Scope & Status (Normative)
 
 **Scope.** **C.16** specifies the **measurement substrate** for FPF architheories: the roles of `U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`; their **CSLC discipline**; the notions of **Scale type**, **polarity**, **comparability**, and **evidence sufficiency** at the level of *conceptual conditions*. It **exports** these constructs for all architheories (KD‑CAL, Arch‑CAL, etc.) without prescribing domain formulae or procedures. 
 
@@ -20058,13 +20058,13 @@ Correctness‑by‑sequence and temporal coverage are orthogonal to **parthood**
 
 ---
 
-## 3 · Problem & Context (Informative)
+### 3 · Problem & Context (Informative)
 
-### 3.1 The problem C.16 solves
+#### 3.1 The problem C.16 solves
 
 Across architheories, people say “score”, “metric”, “rating”, “property”. Without a shared substrate, numbers drift: *42 of what? on which scale? comparable to whom?* C.16 eliminates drift by requiring every metric notion to **bind** to **one** Characteristic and **one** Scale, and by **separating** intensional anchors from descriptions and gauges. The result is **portable meaning**: a measure is always readable as a **Coordinate on a declared Scale of a named Characteristic**, with a principled path to evidence. 
 
-### 3.2 Context and prior art
+#### 3.2 Context and prior art
 
 * **Kernel canon.** A.17 makes **Characteristic** the sole canonical anchor for measurability; A.18 fixes **CSLC** as the minimal sufficiency for interpretability. C.16 relies on both.
 * **Cross‑domain alignment.** The MM‑CHR family already maps FPF U.Types to **ISO 80000‑1 (Quantity)**, **ISO/IEC 25024 (Data‑quality Characteristic)**, **QUDT (QuantityKind/QuantityValue)**, **W3C SOSA/SSN (Observable/Observed/Result)**, and domain “feature/metric” usage (Verspoor, TF Metrics). C.16 uses these rows **as Bridges** (Part F), preserving local senses and documenting losses.  
@@ -20072,7 +20072,7 @@ Across architheories, people say “score”, “metric”, “rating”, “pro
 
 ---
 
-## 4 · Forces (Informative)
+### 4 · Forces (Informative)
 
 **F1 — Interpretability first.** A value detached from its Characteristic/Scale is meaningless; CSLC supplies minimum context.
 **F2 — Transdisciplinarity.** Physics, architecture, curation, sport judging—*one* substrate must cover all while respecting scale types and polarity.
@@ -20083,7 +20083,7 @@ Across architheories, people say “score”, “metric”, “rating”, “pro
 
 ---
 
-## 5 · Solution Outline (Normative)
+### 5 · Solution Outline (Normative)
 
 **S1 — Exported objects.** C.16 **exports** four intensional constructs to be used by any architheory:
 
@@ -20100,7 +20100,7 @@ Across architheories, people say “score”, “metric”, “rating”, “pro
 
 ---
 
-### 5.1 · Lexical Discipline & Registers (Normative)
+#### 5.1 · Lexical Discipline & Registers (Normative)
 
 **L1 — Canon.** Use **Characteristic / Scale / Level / Coordinate / Score / Unit / Gauge** in **Tech** register; their `U.*` counterparts in **Formal**; narrative labels (e.g., *axis*, *points*, *stars*) are **didactic only** at first‑mention mapped to canon (E.10). 
 **L1‑bis — “metric”.** The noun *metric* is **not** a Tech‑register canonical token for measurables; use **Characteristic / Scale / Coordinate / Score / Gauge**. It **may** appear in the architheory title and in the Formal names `U.DHCMethodRef` / `U.Measure`. Do not use *metric* as a synonym for **Characteristic** or **Score** in normative prose.
@@ -20109,19 +20109,19 @@ Across architheories, people say “score”, “metric”, “rating”, “pro
 **L4 — Bridge‑only unification.** Cross‑vocabulary sameness appears only via **F.9 Bridges** with **CL** and **loss notes**; C.16’s lexicon is the *source* side for measurement rows.
 **L5 — “Metric” in registers.** In **Tech/Formal** avoid the noun *metric* as a primitive; use `U.DHCMethodRef` / `U.Measure` / **Score**. In **Plain** register *metric* MAY denote “a Template+Measure family” on first mention, with an explicit pointer to canonical terms.
 
-## 5.2 · Relations (pointers; details later)
+#### 5.2 · Relations (pointers; details later)
 
 **To A.17 / A.18.** C.16 *uses* A.17’s canonical **Characteristic** and A.18’s **CSLC sufficiency**; it neither re‑states nor weakens them.
 **To Part F.** C.16 is the **exporting architheory** behind measurement rows in UTS/Bridges (e.g., **result‑value** ↔ SOSA `Result`, ISO `QuantityValue`).
 **To Arch‑CAL.** Architectural qualities (*Coupling, Cohesion, Evolvability*) become **Characteristics** measured via C.16 templates; architectural dynamics read as trajectories in **CharacteristicSpace** (A.17 context).
 
-## 5.3 · Normative Core Model (types & Standards)
+#### 5.3 · Normative Core Model (types & Standards)
 
 > **Position.** MM‑CHR does **not** redefine kernel terms; it **binds** them to an architheory‑level Standard that every metric must satisfy. Canonical vocabulary and CSLC duties are inherited from **A.17**/**A.18** and referenced here without duplication.
 > 
 > **Source of Truth** A.17/A.18 are the sole sources of truth for Canon and CSLC; C.16 **adopts by reference** and **forbids restatements** of their definitions. C.16 only **exports** `U.*` constructs, comparability stance, evidence semantics, and RSG touch‑points.
 
-### 5.3.1 `U.DHCMethod` — the metric definition (normative)
+#### 5.3.1 `U.DHCMethod` — the metric definition (normative)
 
 **Role.** An intensional **Standard** that fixes *what is measured* and *how values must be read*—without producing any values itself. It is a *Definition*, not a Measure. **References to this template in data use `U.DHCMethodRef`.**
 
@@ -20141,7 +20141,7 @@ Where declared, claims outside that semantics are **inadmissible conceptually** 
  **R‑MT‑7 (MAY):** “`UncertaintyPolicy` — optional conceptual guidance on how uncertainty is expressed/read (e.g., band/CI/quantile), without prescribing methods/tools.
     
 
-### 5.3.2 `U.Measure` — the recorded reading (normative)
+#### 5.3.2 `U.Measure` — the recorded reading (normative)
 
 **Role.** A **claim** that a subject occupies a **Coordinate** (or named **Level**) on the template’s scale, backed by a minimal pointer to its grounds.
 
@@ -20159,7 +20159,7 @@ R‑ME‑6 (MAY):** “`UncertaintyStub` — optional conceptual pointer to the 
 
 > *Informative anchor.* The old Annex B example “Article Completeness” illustrates the split template/measure/evidence; **C.16** keeps the split but forbids storage‑level talk.
 
-### 5.3.3 `U.Unit` — semantics of quantities (normative)
+#### 5.3.3 `U.Unit` — semantics of quantities (normative)
 
 **Role.** A conceptual marker of **quantity kind** and admissible **conversions** within that kind; not every scale requires it.
 
@@ -20171,7 +20171,7 @@ R‑ME‑6 (MAY):** “`UncertaintyStub` — optional conceptual pointer to the 
 
 **R‑UN‑4 (Quantity‑kind bridge).** A Template on an interval/ratio Scale **SHOULD** name the underlying **quantity kind** (e.g., ISO 80000/QUDT category) to enable safe external bridges. This does **not** import external vocabularies; it declares an alignment point.
 
-### 5.3.4 `U.EvidenceStub` — pointer to grounds (normative)
+#### 5.3.4 `U.EvidenceStub` — pointer to grounds (normative)
 
 **Role.** A compact **tie** from a Measure to the grounds sufficient for **reasoned audit** (not a repository prescription).
 
@@ -20181,7 +20181,7 @@ R‑ME‑6 (MAY):** “`UncertaintyStub` — optional conceptual pointer to the 
 
 **R‑EV‑3 (Soundness axiom).** A Measure **is admissible** only if at least one **auditable chain of grounds** can be stated from the bearer to the Characteristic via an appropriate Description (Object–Concept–Symbol triangle in the episteme). (The old text motivates “transparency/trust”; **C.16** states the conceptual admission rule. )
 
-## 5.4 · Polarity, Comparability, and Gauges (normative)
+#### 5.4 · Polarity, Comparability, and Gauges (normative)
 
 > **Notation.** To avoid clashes with the kernel’s global aggregation symbol, this architheory denotes a gauge mapping by **𝒢** (calligraphic 𝒢).
 
@@ -20194,7 +20194,7 @@ R‑ME‑6 (MAY):** “`UncertaintyStub` — optional conceptual pointer to the 
 **R‑G𝒢‑2 (Ordinal respect).** For ordinal inputs, **𝒢** must be **order‑preserving**; interval assumptions **MUST NOT** be smuggled in.
 
 
-## 5.5 · Entity vs Relation bindings (normative clarifications)
+#### 5.5 · Entity vs Relation bindings (normative clarifications)
 
 **R‑ER‑1 (Arity preservation).** If the Characteristic is `U.EntityCharacteristic`, the subject is **one** bearer; if `U.RelationCharacteristic`, the subject is a **k‑tuple** (k ≥ 2). The Measure’s claim text **SHALL** reflect this arity.
 
@@ -20204,7 +20204,7 @@ R‑ME‑6 (MAY):** “`UncertaintyStub` — optional conceptual pointer to the 
 
 ---
 
-## 5.6 · Acceptance (conceptual, RSG‑aware)
+#### 5.6 · Acceptance (conceptual, RSG‑aware)
 
 > Acceptance here is **thought‑level**. It uses the **Reachable‑States Graph (A.2.5)** pattern to organise mental checks—no “lifecycle” narratives.
 
@@ -20218,13 +20218,13 @@ R‑ME‑6 (MAY):** “`UncertaintyStub` — optional conceptual pointer to the 
 
 ---
 
-### 5.7 Cross‑references & anchors
+#### 5.7 Cross‑references & anchors
 
 * **A.17 (CHR‑NORM).** Canonical **Characteristic** and Entity/Relation split; lexical rules and alias sunset.
 * **A.18 (CSLC‑KERNEL).** One Characteristic + one Scale per template; Level optional; operation guard by scale type.
 * **Annex C (old MM‑CHR).** Cross‑domain alignment hints for Characteristics/Observations/Quantities across ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN (used here only as conceptual witnesses).
 
-## 6  Permitted operations by scale type (with anti‑examples)
+### 6  Permitted operations by scale type (with anti‑examples)
 
 | Scale type   | Comparisons    | Location          | Differences        | Ratios                   | Admissible summaries                                  | Typical anti‑patterns (forbidden)                                   |
 | ------------ | -------------- | ----------------- | ------------------ | ------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------- |
@@ -20242,9 +20242,9 @@ G‑5 (Target polarity). If polarity is “targeted”, comparison is via dist
 
 *(These rules line up with the MM‑CHR exposition of CSLC and term discipline; A.17 fixes the lexical side.)* 
 
-## 7 · Evidence Semantics (Normative)
+### 7 · Evidence Semantics (Normative)
 
-### 7.1  What an Evidence Stub is (and is not)
+#### 7.1  What an Evidence Stub is (and is not)
 
 **Definition.** `U.EvidenceStub` is a **conceptual pointer** that ties a **measure** to the **grounds** sufficient for independent checking (observations, arguments, lawful transformations). It is not the run log, not the carrier, and not the intensional characteristic itself. This keeps **intension–description–specification** distinct per E.10.D2 and the Clarity Lattice.
 
@@ -20256,19 +20256,19 @@ G‑5 (Target polarity). If polarity is “targeted”, comparison is via dist
 
 ---
 
-## 8 · Integration with RSG & Dynamics (Normative/Clarifying)
+### 8 · Integration with RSG & Dynamics (Normative/Clarifying)
 
-### 8.1  RSG (Role‑State Graph) touch‑points
+#### 8.1  RSG (Role‑State Graph) touch‑points
 
 MM‑CHR **supplies recognisers** used in **State Checklists**. A checklist criterion **may** refer to a measure (e.g., “Cohesion ≥ T on ordinal ladder”), but the **state itself remains intensional**; the checklist is its **description**, and a **StateAssertion** is an evidence‑backed verdict over a Window. No lifecycle language is implied; RSGs are open‑ended graphs with re‑entry edges.
 
 **Rule RSG‑M1.** When a checklist cites a measure, it **SHALL** do so by **Characteristic + Scale semantics** (and unit if applicable), not by colloquial aliases; Tech/Formal registers apply. **Rule RSG‑M2.** Thresholds in checklists **MUST** respect the scale type (no ratio talk on interval scales; no arithmetic on ordinal ladders).
 
-### 8.2  Dynamics & CharacteristicSpace
+#### 8.2  Dynamics & CharacteristicSpace
 
 `U.Dynamics.stateSpace` is a **CharacteristicSpace**—a named set of Characteristics with units/topology. MM‑CHR provides the **measurement side** of that space; architheories specify the **transition law**. Architectural or epistemic **dynamics** are then *trajectories in the declared CharacteristicSpace*. **No** procedural or storage commitments are implied.
 
-## 9 · Conformance Checklist (Normative)
+### 9 · Conformance Checklist (Normative)
 
 > *Thought‑level acceptance conditions for authors and reviewers; they constrain meaning, not tooling.*
 
@@ -20689,7 +20689,7 @@ Each characteristic is specified per **MM‑CHR (C.16)** with: **name**, **inten
 * **Prefer frontiers.** Shortlist non‑dominated options; let governance decide trade‑offs.
 * **Bridge explicitly.** Cross‑context talk needs CL and loss notes.
 
-## 12 · CSLC recap and the Creativity CharacteristicSpace
+### 12 · CSLC recap and the Creativity CharacteristicSpace
 
 **Purpose.** Ground “creativity” as a **measurable family of characteristics** (CHR) rather than a role, capability, or virtue. Each characteristic is scoped to a **`U.BoundedContext`**, evaluated on **`U.Work`** (episodes), **artifacts** (epistemes, e.g., design sketches, models), or **holders** (systems/teams) via **MM‑CHR** exports (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`), using the **CSLC** discipline (*Characteristic / Scale / Level / Coordinate*).
 
@@ -20698,7 +20698,7 @@ Each characteristic is specified per **MM‑CHR (C.16)** with: **name**, **inten
 > *Creativity is not Work* (no resource deltas). Work **produces** artifacts we later characterise.
 > *Creativity is not a Service* (no external promise). Services are judged from Work; creativity may correlate with value.
 
-### 12.1 · The Creativity CharacteristicSpace (CHR‑SPACE)
+#### 12.1 · The Creativity CharacteristicSpace (CHR‑SPACE)
 
 The core **characteristics** below are **kernel‑portable** names; Contexts **specialise** them (rename if needed, but keep semantics). Each characteristic declares: **what we measure**, **on what carrier**, **typical scale**, and **where it lives** in FPF.
 
@@ -20726,7 +20726,7 @@ The following **context‑local** characteristics remain available but are **not
 
 > **Compatibility note.** This split removes duplicate “core lists” and aligns C.17 with **B.5.2.1 NQD** and **C.16/A.17–A.18**: the **kernel nucleus** captures creativity *qualities*; the items above instrument **process/policy** or **portfolio shaping**.
 
-### 12.3 · Scale choices (CSLC discipline)
+#### 12.3 · Scale choices (CSLC discipline)
 
 For each characteristic, **declare the scale** explicitly (nominal / ordinal / interval / ratio). **Do not** average ordinal scores; fold with medians or distributional summaries. Choose **units** (when applicable) and **coordinate** semantics (e.g., what “distance” means).
 
@@ -20738,13 +20738,13 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
   Ratio = satisfied / declared **must** constraints. Constraints are `Norm‑CAL` rules; **count only declared** ones (no unspoken “norms”).
 
 
-## 12.4 · Metric templates (normative kernels + manager‑ready variants)
+#### 12.4 · Metric templates (normative kernels + manager‑ready variants)
 
  **Template syntax (MM‑CHR):**
 `U.DHCMethod { name, context, carrierKind, definition, unit?, scale, EvidencePin, acceptanceHook? }`
 *Note:* Data instances carry `DHCMethodRef` pointing to this template.
 
-### 12.4.1 · Templates (kernel definitions)
+#### 12.4.1 · Templates (kernel definitions)
 
 1. **`MT.Novelty@context`**
 
@@ -20810,13 +20810,13 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * **scale:** ratio + policy gate (pass/fail).
 * **EvidencePin:** WorkPlan ledger vs `WorkLedger`.
 
-### 12.4.2 · Manager’s quick checks (plain‑language adapters)
+#### 12.4.2 · Manager’s quick checks (plain‑language adapters)
 
 * **Novelty** without a **frozen corpus** is **storytelling**—freeze corpus, fix encoder, then score.
 * **Use‑Value** without a **consumer‑facing acceptance** is a **proxy**—bind to a **Service** or explicit Objective.
 * **Diversity** counts **approach classes**, not color‑swap variants—publish your typology.
 
-## 13 · Novelty & transfer are **context‑local** (Bridges mandatory)
+### 13 · Novelty & transfer are **context‑local** (Bridges mandatory)
 
 **Rule N‑1 (Locality).** `Novelty@context` is defined **only** within its `U.BoundedContext`. **Never** compare scores across Contexts without an **Alignment Bridge** (F.9).
 
@@ -20828,11 +20828,11 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 
 ---
 
-## 14 · Anti‑Goodhart guard (use creativity metrics safely)
+### 14 · Anti‑Goodhart guard (use creativity metrics safely)
 
 > **Goodhart’s Law:** “When a measure becomes a target, it ceases to be a good measure.” — We bake in **guards** so creativity scoring **improves** outcomes instead of gaming them.
 
-### 14.1 · Guard‑rails (normative)
+#### 14.1 · Guard‑rails (normative)
 
 * **G‑1 Paired appraisal.** **Never** assess **Novelty** in isolation; pair it with **Use‑Value** or **ConstraintFit** to avoid proxy myopia
 * **G‑2 Frozen references.** Novelty requires **frozen corpus + encoder**; changes create a **new edition** and **RSCR** rerun. Portfolio/selection heuristics are **policy-level** (see **C.19**); do not “reward” Illumination beyond its role as a report-metric.
@@ -20840,7 +20840,7 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * **G‑4 Exploration budget.** Tie **DiversityOfSearch** to **Risk‑BudgetedExperimentation**; flag overspend.
 * **G‑5 No ordinal averaging.** Do not average **ordinal** scales; use distributions/medians or convert only under declared models.
 
-### 14.2 · Conformance Checklist — **CC‑C17‑M (metrics & guards)**
+#### 14.2 · Conformance Checklist — **CC‑C17‑M (metrics & guards)**
 
 | ID             | Requirement                                                                                                                            | Practical test                                                              |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -20852,7 +20852,7 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 
 ---
 
-## 15 · Worked mini‑cases (engineer‑manager focus)
+### 15 · Worked mini‑cases (engineer‑manager focus)
 
 > **All names are context‑local; bridges and editions are explicit.**
 > We show **(a)** what is measured, **(b)** who acts, **(c)** what is accepted, and **(d)** how evidence flows.
@@ -20907,7 +20907,7 @@ For each characteristic, **declare the scale** explicitly (nominal / ordinal / i
 * **SoD & Evidence.** Observers are **separate** from performers; metrics live on **epistemes** with **frozen hooks**; Work proves fulfillment.
 
 
-## 16. Working examples
+### 16. Working examples
 
 #### 16.1 · Software (algorithmic/architectural ideation)
 
@@ -20947,25 +20947,25 @@ Novelty↑ (institutional), Use‑Value↑ (measurable social/operational effect
 **Context card.**
 * Γ\_bundle: EthicalRisk = max; ConstraintFit = AND (legal & operational); Cost = sum; Evidence = min/SpanUnion; Scope = ClaimScope (A.2.6).
 
-## 17 Consequences & fit (for engineer‑managers)
+### 17 Consequences & fit (for engineer‑managers)
 
 * You can **reason on paper** about creativity: compare with **dominance**, pick along a **frontier**, and steer exploration with a few **policy characteristics**.
 * Changes to the space (**scales, eligibility conditions, operators**) are handled by **RSCR**, so decisions are **explainable over time**.
 * The **Context handbooks** are a **thinking OS**: one screen to start ideating without importing tool stacks or management playbooks.
 
-## 18 Relations
+### 18 Relations
 
 * **Builds on**: B.1 Γ‑algebra (WLNK/COMM/IDEM/MONO), B.3 Trust & Assurance (F–G–R, CL), A.2.6 USM (Claim/Work scopes), A.10 Evidence Graph Referring.
 * **Coordinates with**: A.2 Role suite (Observer/Evidence roles for probes), A.15 (Work & plans for probes), C.16 MM‑CHR (scale polarity & units). **C.18 NQD-CAL** (generation/illumination operators Γ_nqd.*) and **C.19 E/E-LOG** (policies, selection, and portfolio rules). This CHR remains measurement-only.
 * **Defers to**: F.9 Bridges for Cross‑context transfers; D‑cluster for ethical/speech‑act gates.
 
-## 19 Quick reference cards (tear‑out)
+### 19 Quick reference cards (tear‑out)
 
 * **Dominance test**: apply **signs** + **eligibility conditions** + **trust**; then partial order.
 * **Frontier use**: **show frontier** + **name the lens** that picked your choice.
 * **Portfolio policy**: keep `ExploreShare` and `WildBetQuota`; set `BackstopConfidence`; rebalance on cadence.
 
-## 20 · Conformance Checklist (pattern‑level, normative)
+### 20 · Conformance Checklist (pattern‑level, normative)
 
 > *Pass these and your CS modelling remains a thinking architecture, not a team‑management manual.*
 
@@ -21202,7 +21202,7 @@ Post‑2015 Quality‑Diversity (MAP‑Elites & successors) demonstrates illumin
 ### Relations
 Builds on: C.16, C.2. Coordinates with: B.5.2.1 (binding), C.17, C.19, G.5, G.6, G.11.
 
-### C.18.1 — **SLL — Scaling‑Law Lens (binding)** \[A]
+## C.18.1 — **SLL — Scaling‑Law Lens (binding)** \[A]
 
 **One‑screen purpose (manager‑first).**
 Make **generation/selection** scale‑savvy: at the level of **conceptual descriptors**, declare (a) **which monotone knobs** we would scale, (b) the **ScaleWindow** over which we claim behaviour, and (c) the **elasticity class** we observed—**without** imposing numeric fits or vendor tools at Core level. This surfaces knees early and keeps comparisons lawful and fair across families. (Parity is handled by **G.9**; illumination remains a **gauge** unless promoted by policy.)  
@@ -21211,19 +21211,19 @@ Make **generation/selection** scale‑savvy: at the level of **conceptual descri
 **Coordinates with.** C.19 (E/E‑LOG), G.5 (Selector & Registry), G.9 (Parity Harness), G.10 (Shipping), G.11 (Refresh‑Telemetry), C.24 (Agent‑Tools‑CAL).
 **Keywords.** scaling law; **Scale Variables (S)**; ScaleWindow; knee; diminishing returns; **iso‑scale parity**; **gauge mapping**; **scale‑probe**; **DoE** (design‑of‑experiments); segmented regression; knee detection.
 
-#### 1) Problem frame
+### 1) Problem frame
 
 Teams often say a method “**scales**” without disclosing **which resources**, **across what window**, and **how** outcomes respond (convex rise → knee → plateau). Without that, parity is skewed (unequal budgets, unmatched windows), coverage/illumination report-metrics leak into dominance, and “knees” are found late. SLL supplies a notation‑independent **lens** to make scale behaviour explicit and comparable. 
 
-#### 2) Problem
+### 2) Problem
 
 Omitting **Scale Variables** and the comparison window causes: (i) **unfair parity** (compute/data/FoA mismatched), (ii) **illumination/coverage report-metric  creep** into dominance by default, (iii) late detection of knees and budget waste. **G.9** already forbids scalarising mixed scales and mandates equal **FreshnessWindows**/**pinned editions**; SLL complements this with **ScaleWindow** & elasticity. 
 
-#### 3) Forces
+### 3) Forces
 
 Notation independence vs useful scaling heuristics; local context vs cross‑context generality; **gauges vs objectives** (illumination stays a gauge unless policy promotes it); early exploration vs reproducible policy.
 
-#### 4) Solution — *binding lens for generator/selector profiles* (normative)
+### 4) Solution — *binding lens for generator/selector profiles* (normative)
 
 **4.1 Types (aliases; ΔKernel = 0).**
 `SLL.Profile` is an **annotation** on a `MethodFamily/Generator` or a `Selector` profile; **no new U.Types** are minted (LEX discipline). 
@@ -21253,11 +21253,11 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 5) **Record invariants** (pinned knobs, safety envelope) and publish **SLL.Card@Context**.  
 6) **If χ changes** across the window, split the ScaleWindow and re‑classify per segment.
 
-#### 5) Interfaces — minimal I/O (conceptual)
+### 5) Interfaces — minimal I/O (conceptual)
 
 **G.9 Plan/Run Parity** consumes `S`/ScaleWindow to align budgets, **pin editions**, and perform **gauge mapping**; **G.11** carries **policy‑id**, **PathSliceId**, seeds/replicates, CI level, and edition pins per parity CC. 
 
-#### 6) Conformance Checklist (CC‑SLL)
+### 6) Conformance Checklist (CC‑SLL)
 
 1. `S` declared **or** `S = N/A` with rationale.
 2. **Scale‑probe** performed; **χ** recorded with **replicates/CI**; invariants disclosed.
@@ -21265,17 +21265,17 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 4. If used as tie‑breaker, the selector cites **χ** and **lens id** in **E/E‑LOG** provenance.
 5. Knee claims cite the **policy threshold** and CI level used.
 
-#### 7) Anti‑patterns & remedies
+### 7) Anti‑patterns & remedies
 
 Hidden budget mismatches; averaging ordinals across families; **illumination in dominance by default**; unpinned editions; slope claims without **replicates/CI**; training/inference phase mixing → **cure** with **G.9** parity (equal windows/editions; normalize‑then‑compare; return sets), phase‑label the claim, and record slope uncertainty per Scale‑Audit discipline.  
 
-#### 8) Archetypal grounding (post‑2015; informative)
+### 8) Archetypal grounding (post‑2015; informative)
 
 * **LLM scaling.** Kaplan‑style & **Chinchilla‑optimal** regimes; **Mixture‑of‑Experts** and **retrieval‑augmented** families shift effective capacity with different inference budgets; prompt‑policies often transfer better than narrow pipelines.
 * **RL/Planning.** Model‑based optimization & general agents vs hand‑tuned controllers; slopes reported wrt budget/FoA under safety envelopes.
 * **QD/OEE.** MAP‑Elites, **CMA‑ME**, **DQD**, **QDax**; **POET/Enhanced‑POET** families: coverage/illumination as gauges; parity uses fixed grids/spaces and edition pins.  
 
-#### 9) Payload — exports
+### 9) Payload — exports
 
 `SLL.Card@Context` (UTS row; editioned):
 `⟨S{knobs, units, phase}, ScaleWindow, Scale‑Probe{points≥2, design=one‑liner, seeds, CI}, ElasticityClass χ, ParityNotes{iso‑scale?|loss, invariants}, BridgeIds?/Φ/Ψ, PolicyIds? (E/E‑LOG), PathSliceId?⟩`.
@@ -21283,7 +21283,7 @@ Hidden budget mismatches; averaging ordinals across families; **illumination in 
 **UTS row template (conceptual; pencil‑ready).**
 `SLL.Card@Context := S=(COMPUTE|DATA|CAPACITY|FOA; units=…; phase=TRAIN|INFER), ScaleWindow=[LOW…HIGH], Probe=(points=…, design=factorial|LHD, seeds=…, CI=…), χ=rising|knee|flat|declining, ParityNotes=(iso=true|false; invariants=…), Bridge/Φ/Ψ=(…), PolicyIds=(…), PathSliceId=(…)`.
 
-#### 10) Relations
+### 10) Relations
 
 **Builds on:** C.16/17/18. **Coordinates with:** C.19 (lenses/policies), **G.5** (set‑returning selector), **G.9** (parity; **ParetoOnly** default; gauge‑mapping), **G.10** (shipping). 
 
@@ -21390,7 +21390,7 @@ Post‑2015 exploration practice (bandits/BO/RL with QD) shows policies must be 
 ### Relations
 Builds on: Decsn‑CAL, B.3. Coordinates with: C.18, C.17, G.5, G.9.
 
-### C.19.1 — **BLP — Bitter‑Lesson Preference (policy)** \[A]
+## C.19.1 — **BLP — Bitter‑Lesson Preference (policy)** \[A]
 
 **One‑screen purpose (manager‑first).**
 Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable methods**—those that improve with **more data/compute/capacity and greater freedom‑of‑action**—over narrow hand‑crafted heuristics **when safety and legality are equal**. Exceptions require a transparent **Scale‑Audit** under the parity harness. 
@@ -21399,11 +21399,11 @@ Establish, at **governing policy** level, the empirical **Bitter Lesson**: **pre
 **Coordinates with.** G.5 (Selector), G.8 (SoS‑LOG Bundles), G.9 (Parity), G.11 (Refresh‑Telemetry), A.0 (On‑Ramp).
 **Keywords.** general‑method preference; scale‑amenability; **BLP‑waiver**; iso‑scale parity; **Scale‑Audit**; slope vector; **α/δ tolerances**.
 
-#### 1) Problem frame
+### 1) Problem frame
 
 Bespoke heuristics can win locally but **do not scale**; general methods (search/learning/planning) **improve with scale** and transfer across bridges/planes. Without a standing policy, selectors drift toward hand‑craft and single‑winner leaderboards, violating parity and lawful orders. 
 
-#### 2) Policy clauses (normative; synchronized with Core)
+### 2) Policy clauses (normative; synchronized with Core)
 
 **BLP‑1 — Scale‑Audit requirement.**
 Any DRR that selects a **narrower/hand‑engineered** method over a **general/scalable** alternative **MUST** include a **Scale‑Audit**:
@@ -21440,7 +21440,7 @@ BLP is constitutional (instantiates **P‑10/P‑11/P‑7/P‑1**), but **does n
 **BLP‑7 — Publication discipline.**
 Scale‑Audit artefacts **SHALL** be exported to **G.11** with edition pins, CI level, α/δ, ComparatorSet, and **BLP.Policy@Context** reference so downstream selectors can reuse evidence without re‑running audits.
 
-#### 3) Conformance Checklist (CC‑BLP)
+### 3) Conformance Checklist (CC‑BLP)
 
 1. **α/δ tolerances** declared in DRR or via policy profile (and CI level stated).
 2. DRR includes a **Scale‑Audit** (BLP‑1a–g) with slopes, **CI**, edition/policy pins, and Resrc‑CAL.
@@ -21451,18 +21451,18 @@ Scale‑Audit artefacts **SHALL** be exported to **G.11** with edition pins, CI 
 7. **Replicate counts/seeds** and **confidence intervals** recorded for slope estimates; heteroscedasticity handling disclosed.
 8. Audit artefacts exported to **G.11** with **BLP.Policy@Context** id.
 
-#### 4) Anti‑patterns & remedies
+### 4) Anti‑patterns & remedies
 
 Single‑winner leaderboards; hidden budget mixing; promoting illumination into dominance **without policy**; missing edition pins; heuristics without expiry; slope estimates without CI or with aliased designs → **remedy** with G.9 parity + edition pins, explicit **policy‑ids**, DRR publication, **Heuristic‑Debt** entries, and BLP‑1f DoE discipline. 
 
-#### 5) Archetypal grounding (post‑2015; informative)
+### 5) Archetypal grounding (post‑2015; informative)
 
 * **LLMs:** prompt‑programs, **retrieval‑augmented** and **MoE** policies vs narrow task‑specific pipelines; portfolio‑first selection across editions/budgets.
 * **RL & planning:** model‑based optimization/general agents vs hand‑coded controllers (subject to α/δ and safety).
 * **Preference learning:** **RLHF ↔ DPO** families.
 * **QD/OEE:** MAP‑Elites/**CMA‑ME**/**DQD**/**QDax**; **POET/Enhanced‑POET**; illumination remains a **gauge** unless policy promotes it. 
 
-#### 6) Payload — exports
+### 6) Payload — exports
 
 `BLP.Policy@Context` (UTS row; editioned):
 `⟨PreferenceDefault, α/δ tolerances + CI, Scale‑Audit recipe (G.9 link; DoE), WaiverRegister{reason, owner, expiry}, E/E‑LOG lens policy‑ids, ATC.PolicyRef? (agentic), G.11.TelemetryPins⟩`.
@@ -21470,7 +21470,7 @@ Single‑winner leaderboards; hidden budget mixing; promoting illumination into 
 **UTS row template (conceptual; pencil‑ready).**
 `BLP.Policy@Context := PreferenceDefault=(prefer‑general|neutral), α/δ=(α=…, δ=…, CI=…), Scale‑Audit=(parity=G.9; sweep=S={…}; DoE=factorial|LHD; kneeTest=policy‑τ), WaiverRegister=[{reason=…, owner=…, expiry=…}], E/E‑LOG=(policyIds=…), ATC.PolicyRef=(…), TelemetryPins=(edition=…, seeds=…, comparatorSet=…)`.
 
-#### 7) Relations
+### 7) Relations
 
 **Depends on:** **G.5/G.9** (selector/parity), **G.11** (refresh telemetry), **C.5** (Resrc‑CAL), **C.18** (NQD‑CAL), **C.19** (E/E‑LOG), **F.7/F.9** (Bridges, CL/Φ/Ψ). **Constrained by:** **E.5** Guard‑Rails and **E.3** precedence. 
 
@@ -22309,7 +22309,7 @@ A **System in AgentialRole** composes a **Plan** (MethodDescription); upon enact
 
 *Lexical firewall* and *notation independence* apply; no vendor tokens; mixed‑scale characteristics are never averaged; illumination remains a **gauge** unless a policy promotes it into dominance.  
 
-#### Didactic Quick Card (1‑screen crib)
+### Didactic Quick Card (1‑screen crib)
 
 **Agentic Call Plan (public):**
 *Objective · Context(K) · Budget{time/compute/cost/risk} · PolicyRef (E/E‑LOG) · Explore‑share · Steps[ pre/ call /post ] · Stop‑conditions · **BLP tolerances (α,δ)** · BLP‑note (if any) · Assurance⟨F,G,R|K,S⟩ · Provenance ids.*
@@ -22387,7 +22387,7 @@ Provide a **minimal, uniform shape** for engineering “‑ilities” so authors
 | D.4.1   | Fair‑Share Negotiation Operator      | \[D] | Nash‑like but bias‑corrected; imports `Resrc‑CAL` cost functions.              |
 | D.4.2   | Assurance‑Driven Override            | \[D] | When safety evidence overrides utility maximisation.                           |
 
-### **Pattern D.5 — Bias-Audit & Ethical Assurance \[A]
+## **Pattern D.5 — Bias-Audit & Ethical Assurance \[A]
 
 **Context**
 
@@ -22507,17 +22507,17 @@ By integrating this cycle into the core reasoning workflow, FPF moves ethical as
 
 # **Part E · FPF Constitution and Authoring Cluster**
 
-### Section E‑I · The FPF Constitution
+## Section E‑I · The FPF Constitution
 
-#### Pattern E.1 — Vision & Mission: “Operating System for Thought”  \[A]
+## Pattern E.1 — Vision & Mission: “Operating System for Thought”  \[A]
 
-##### Problem frame
+## Problem frame
 Modern engineering, science, and strategy all suffer from **conceptual overload**: dozens of domain tools, drifting vocabularies, and disconnected “best practices” splinter ideas as they travel from napkin sketch to certified deliverable. Stakeholders—*Engineers, Researchers, Learners*—lack a single, evolvable scaffold that can carry an insight across that span.
 
-##### Problem
+## Problem
 Absent such a scaffold, every discipline re‑invents epistemology and systems thinking, spawning silos, steep learning curves, and brittle life‑cycle models. Previous attempts either froze agility in rigid hierarchies or dissolved rigour in tool‑centric jargon.
 
-##### Forces
+## Forces
 
 | Force                           | Tension                                                                 |
 | ------------------------------- | ----------------------------------------------------------------------- |
@@ -22535,7 +22535,7 @@ Absent such a scaffold, every discipline re‑invents epistemology and systems t
 
 > *Reliable reasoning should be as accessible as version control: clone the conceptual kernel, extend it with domain plugins, and commit decisions that remain traceable across time, scale, and discipline.*
 
-##### Solution — *FPF as an Operating System for Thought*
+## Solution — *FPF as an Operating System for Thought*
 FPF delivers a **generative scaffold** realised as:
 
 1. a **micro‑kernel** of non‑derivable, cross‑domain **first principles**;
@@ -22557,12 +22557,12 @@ FPF delivers a **generative scaffold** realised as:
 | **CC‑Vision.3** | Conceptual text **MUST NOT** contain tokens black‑listed by the **DevOps Lexical Firewall** (`yaml`, `docker`, …).                                   | Preserves layer purity and tool‑agnostic core.  |
 | **CC‑Vision.4** | A conformant artefact **MUST** state a measurable benefit for at least one of the three roles (*Engineer, Researcher, Learner*) or justify omission. | Aligns success with stakeholder trajectories.   |
 
-##### Consequences
+## Consequences
 
 *Positive* — Unified language accelerates cross‑disciplinary discovery; regulators can audit claim lineages; learners acquire concepts through the spec itself.
 *Trade‑offs* — Authors face an initial learning curve and must trace every rule to an invariant; disciplined traceability is required to prevent variant sprawl.
 
-##### Relations & Precedence
+## Relations & Precedence
 Pattern E.1 governs **E.2 Eleven Pillars** and the Guard‑Rail set **A.5–A.8**; any later pattern that conflicts with E.1 **MUST** be revised via a DRR before entering the Canon.
 
 *“Purpose without a scaffold is wishful thinking; a scaffold without purpose is cargo‑cult—FPF welds the two into disciplined imagination.”*
@@ -22575,7 +22575,7 @@ Pattern E.1 set the FPF mission as an **operating system for thought**. To tur
 ### Problem
 Frameworks without binding first principles wobble between two extremes: rigid dogmas that kill adaptation and amorphous guidelines that invite cognitive chaos. In either case, reasoning fragments, auditability collapses, and physical impact suffers.
 
-##### Forces
+### Forces
 | Force                          | Tension                                                |
 | ------------------------------ | ------------------------------------------------------ |
 | **Foundational Stability**     | Immutable core ↔ perpetual adaptation to new knowledge |
@@ -22636,7 +22636,7 @@ FPF rests on **eleven non‑negotiable pillars**. Each pillar is a binding const
 
 *Informative SoTA contexts (post‑2015):* portfolio‑first selection across **LLM prompt‑programming vs fine‑tuned task models**; **preference‑learning families (RLHF ↔ DPO)**; **QD archives (MAP‑Elites/CMA‑ME/DQD/QDax)**; **open‑ended environment–method co‑evolution (POET‑class)**; **offline RL vs Decision Transformer parity**; and beyond ML, **optimization/control** (model‑based planning vs hand‑tuned controllers) and **simulation‑based inference** in the sciences. These are **illustrative only**; use the parity harness instead of single‑winner leaderboards.
 
-#### Conformance Checklist — BLP
+### Conformance Checklist — BLP
 
 | ID            | Requirement                                                                                                     | Purpose                                       |
 | ------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
@@ -22648,15 +22648,15 @@ FPF rests on **eleven non‑negotiable pillars**. Each pillar is a binding const
 | **CC‑BLP.6**  | Resource accounts (time/energy/FLOPs) and assurance deltas are reported via **Resrc‑CAL** and B.3.             | Avoids “free heuristic” illusions.            |
 | **CC‑BLP.7**  | **Replicate counts/seeds** and **confidence intervals** for slope estimates are recorded.                      | Prevents spurious slope inferences.           |
 
-#### Relations
+### Relations
 * **Instantiates pillars:** P‑10, P‑11, P‑7, P‑1.  
 * **Depends on:** **G.5/G.9** (admission/comparator/selector & parity harness), **G.11** (refresh telemetry), **C.5** (Resrc‑CAL), **C.18** (NQD‑CAL), **C.19** (E/E‑LOG), **F.7/F.9** (Bridges, CL/Φ/Ψ).  
 * **Constrained by:** **E.5** Guard‑Rails (DevOps Lexical Firewall; Notational Independence; Cross‑Disciplinary Bias Audit) and **E.3** precedence.
 
-#### Definitions
+### Definitions
 **α (budget tolerance)** may be relative or absolute; declare units (e.g., % cost, wall‑time, energy). **δ (assurance tolerance)** is the permissible delta in assurance under **B.3**; declare measure and floor(s).
 
-#### Consequences
+### Consequences
 
 *Positive*
 
@@ -22681,7 +22681,7 @@ The pillars are distilled from systems engineering, philosophy of science, softw
 *These pillars are not a cage but the load‑bearing columns of a workshop where ideas can be safely built, dismantled, and evolved.*
 
 
-## Pattern E.3 — **Principle Taxonomy & Precedence Model** \[A] 
+### Pattern E.3 — **Principle Taxonomy & Precedence Model** \[A] 
 
 ### Problem frame
 Pattern E.2 supplies eleven immutable pillars, yet experience shows that a **flat list of principles invites ambiguity**: reviewers cannot decide which pillar overrules another  and “dead‑letter” rules accumulate. 
@@ -22815,29 +22815,29 @@ This section defines **graduated levels of agent autonomy** (level taxonomy), th
 | **CC‑E3.13** | L1+ executions emit **CallGraphs** with editioned policy/method ids and budget deltas; L3+ include adaptation status. | Ensures replayability & audit. |
 | **CC‑E3.14** | Level changes follow **escalation/de‑escalation** triggers and are recorded with edition pins in the SCR. | Keeps autonomy under control. |
 
-##### Consequences
+### Consequences
 *Positive* — Turns subjective debate into objective, traceable decisions; high‑impact conflicts surface early.
 
-##### Rationale
+### Rationale
 The chosen taxonomy mirrors FPF’s layered dependency: **Governance** rules how change occurs; **Architecture** shapes what can exist; **Epistemology** secures meaning and trust; **Pragmatics** and **Didactics** ensure usefulness and learnability. Explicit override edges supply the flexibility experts need, while the default hierarchy keeps day‑to‑day design deterministic—a “living constitution” that remains both human‑intelligible and machine‑enforceable.
 
-##### Relations
+### Relations
 * **Depends on:** `pat:constitutional/vision`, `pat:constitutional/pillars`
 * **Governs:** All subsequent patterns and DRRs; Guard‑Rail patterns reference CC‑PT.\
 
 > *“A taxonomy sorts principles; precedence gives them order—together they convert debate into design.”*
 
-### **E.4 — FPF Artefact Architecture \[A]**
+## **E.4 — FPF Artefact Architecture \[A]**
 
-##### Problem frame
+### Problem frame
 
 The FPF ecosystem produces a wide range of artifacts, from timeless, normative principles to rapidly evolving pedagogical materials and executable tools. If these different types of artifacts are mingled without a clear architectural separation, the ecosystem becomes difficult to navigate, govern, and maintain. Users cannot easily distinguish binding rules from helpful advice, and the entire framework's release cycle becomes coupled to its most volatile component.
 
-##### Problem
+### Problem
 
 How can we structure the FPF ecosystem to ensure a clean separation of concerns between normative concepts, didactic materials, and executable tooling? A formal architecture is required to maintain conceptual purity, enable independent evolution of components, and provide a clear map for all stakeholders.
 
-##### Forces
+### Forces
 
 | Force | Tension |
 | :--- | :--- |
@@ -22845,7 +22845,7 @@ How can we structure the FPF ecosystem to ensure a clean separation of concerns 
 | **Authority vs. Accessibility** | Users need to know which rules are normative and binding ↔ they also need accessible, non-normative guides to help them learn. |
 | **Modularity vs. Cohesion** | The different artifact families must be able to evolve independently ↔ they must remain part of a single, coherent FPF ecosystem. |
 
-##### Solution
+### Solution
 
 The FPF ecosystem is formally stratified into three canonical **artefact families**. Each family has a distinct purpose and is governed by different rules, ensuring a clear separation of concerns. The interaction between these families is governed by the **Unidirectional Dependency Principle** (see Guard-Rail E.5.3).
 
@@ -22855,7 +22855,7 @@ The FPF ecosystem is formally stratified into three canonical **artefact familie
 
 3.  **The Pedagogical Companion:** This family contains **non-normative, didactic materials** designed to help humans learn and apply FPF. This includes tutorials, worked examples, and playbooks. This family is the "textbook" that explains both the law and the instruments.
 
-##### Archetypal Grounding (System / Episteme)
+### Archetypal Grounding (System / Episteme)
 
 *   **For a `U.System`:**
     *   **Conceptual Core:** Defines the universal pattern `U.System`.
@@ -22867,7 +22867,7 @@ The FPF ecosystem is formally stratified into three canonical **artefact familie
     *   **Tooling Reference:** Provides the reference linting tool to automatically score epistemes.
     *   **Pedagogical Companion:** Provides a case study on how a scientific theory's R-score evolves over time.
 
-##### Conformance Checklist
+### Conformance Checklist
 
 | ID | Requirement |
 | :--- | :--- |
@@ -22875,7 +22875,7 @@ The FPF ecosystem is formally stratified into three canonical **artefact familie
 | **CC-E.4.2** | The content of each artifact **MUST** be consistent with the defined purpose of its family (e.g., no normative rules in the Pedagogical Companion). |
 | **CC‑E.4.3** | Artefacts in the Tooling or Pedagogy families SHALL NOT be imported by artefacts in the Conceptual Core. |
 
-##### Consequences
+### Consequences
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
@@ -22883,11 +22883,11 @@ The FPF ecosystem is formally stratified into three canonical **artefact familie
 | **Decoupled Release Cycles:** The Core can maintain a stable, slow release cadence, while the Tooling and Pedagogy artifact family can evolve rapidly. | - |
 | **Architectural Clarity:** Provides a simple, powerful mental model for navigating the entire FPF ecosystem. | - |
 
-##### Rationale
+### Rationale
 
 This pattern establishes the macro-architecture of the entire FPF ecosystem. By separating the timeless "why" and "what" (the Conceptual Core) from the practical "how" (Tooling) and the educational "how-to-learn" (Pedagogy), it creates a system that is simultaneously stable, agile, and accessible. This layered architecture is a proven pattern in large-scale systems, from the OSI model in networking to the structure of modern operating systems, and it is essential for FPF's long-term health and scalability.
 
-##### Relations
+### Relations
 
 *   **Instantiates:** **P-5 (Plugin Layering)** at a macro-level.
 *   **Is Constrained by:** **E.5.3 (Unidirectional Dependency)**.
@@ -22895,9 +22895,9 @@ This pattern establishes the macro-architecture of the entire FPF ecosystem. By 
 
 > *“A canon without a rationale is scripture; a rationale without a canon is gossip. FPF keeps both, fused in patterns.”*
 
-###  E.5 · Four Guard‑Rails of FPF         \[A]
+## E.5 · Four Guard‑Rails of FPF         \[A]
 
-#### Problem frame  
+### Problem frame  
 FPF positions itself as a **timeless, universal “operating system for
 thought.”**  Collaborative projects of this scope face four predictable
 entropic pulls:
@@ -22910,7 +22910,7 @@ entropic pulls:
 Left unchecked, these forces erode Pillars **P‑1 Cognitive Elegance**,
 **P‑4 Open‑Ended Kernel** and **P‑5 Plug‑in Layering**.
 
-#### Problem  
+### Problem  
 Without explicit, non‑negotiable protectors the Conceptual Core would
 slowly:
 
@@ -22919,7 +22919,7 @@ slowly:
 * devolve into a tightly coupled “big ball of mud”,  
 * betray its trans‑disciplinary promise.
 
-#### Forces  
+### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -22928,7 +22928,7 @@ slowly:
 | **Modularity vs Integration** | Independent layers ↔ temptation to cross‑link for speed. |
 | **Objectivity vs Perspective** | Neutral framework ↔ Transformers’ unavoidable cultural lens. |
 
-#### Solution — the Four Guard‑Rails  
+### Solution — the Four Guard‑Rails  
 FPF establishes **four architecturally enforced guard‑rails** that every Core, Tooling, and Pedagogy artefact must obey.  They function as an “immune system” resisting each entropic pull.
 **Scope note (conceptual, not lint).** These guard‑rails regulate the **architecture of thought**—concepts, claims, and their relations. They **do not** mandate tools, file formats, notations, or workflows; any linting or automation lives outside the Core and is optional, provided it preserves these conceptual constraints.
 
@@ -22942,7 +22942,7 @@ FPF establishes **four architecturally enforced guard‑rails** that every Core,
 
 Concrete rules for each rail live in patterns **E.5.1 – E.5.4**.
 
-#### Archetypal Grounding (System / Episteme)
+### Archetypal Grounding (System / Episteme)
 
 | Guard‑Rail | `U.System` example | `U.Episteme` example |
 |------------|-------------------|----------------------|
@@ -22951,7 +22951,7 @@ Concrete rules for each rail live in patterns **E.5.1 – E.5.4**.
 | GR‑3 | A sizing helper imports Core invariants; Core never imports helper tutorials. | Learning guide cites R‑score; Core never cites guide. |
 | GR‑4 | Bias audit removes thermo‑mechanical jargon from a “universal” pattern. | Audit replaces physics‑centric metaphors in a trust pattern. |
 
-#### Conformance Checklist
+### Conformance Checklist
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
@@ -22962,7 +22962,7 @@ Concrete rules for each rail live in patterns **E.5.1 – E.5.4**.
 | **CC‑GR.5** | Every Core pattern **MUST** anchor its primary subject with a declared **ReferencePlane** (`world | concept | episteme`) at first mention. | Keeps Core about “life” objects (extensional/intensional) rather than their paperwork, and aligns with CHR:ReferencePlane. |
 *All CC‑GR duties are **conceptual**. Any automated checks are **informative only** and live in Tooling/Pedagogy.*
 
-#### Consequences
+### Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
@@ -22970,7 +22970,7 @@ Concrete rules for each rail live in patterns **E.5.1 – E.5.4**.
 | **Stable yet evolvable ecosystem** – Core stays timeless while Tooling & Pedagogy can iterate rapidly. | Early stage contributions may feel constrained; examples in the Pedagogical Companion show compliant paths. |
 | **Trust & auditability** – stakeholders can verify the framework’s purity independently. | Adds overhead to governance; justified by safety and longevity. |
 
-#### Rationale  
+### Rationale  
 A constitution without enforcement degrades into *dead‑letter rules*.  
 The four guard‑rails translate abstract Pillars into **concrete, testable
 constraints**.  Grouping them under one umbrella pattern:
@@ -22983,7 +22983,7 @@ constraints**.  Grouping them under one umbrella pattern:
 They collectively instantiate Pillars **P‑1**, **P‑2**, **P‑4**, **P‑5**
 and reinforce the precedence order defined in **E.3**.
 
-#### Relations
+### Relations
 
 * **Comprises:**  
   * `pat:guard/devops‑firewall` (E.5.1) – GR‑1  
@@ -22995,21 +22995,21 @@ and reinforce the precedence order defined in **E.3**.
   * `pat:constitution/principle‑taxonomy` (E.3)
 * **Constrains:** every Core, Tooling, and Pedagogy artefact; all DRRs.
 
-####  E.5.1 · DevOps Lexical Firewall \[D]
+### E.5.1 · DevOps Lexical Firewall \[D]
 
-##### Problem frame  
+#### Problem frame  
 The FPF Core is meant to remain valid across decades and technology
 generations.  Implementation details—file formats, build pipelines,
 runtime flags—evolve rapidly and differ between domains.  When such
 terms invade normative prose, the Core ages as quickly as the tools it
 mentions.
 
-##### Problem  
+#### Problem  
 *Conceptual erosion*: a rule that cites a transient technology becomes
 obsolete when that technology fades, forcing unnecessary Core revisions
 and fragmenting historical audits.
 
-##### Forces  
+#### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -23017,7 +23017,7 @@ and fragmenting historical audits.
 | **Pedagogic clarity** | Examples need concreteness ↔ too much concreteness hard‑codes technology. |
 | **Cross‑domain reach** | Physical‑system engineers and knowledge‑theorists use different stacks. |
 
-##### Solution  
+#### Solution  
 Establish a **Lexical Firewall** around the **Conceptual Core** *(conceptual constraint; not a build‑time linter)*:
 
 1. **Forbidden lexicon**  
@@ -23034,14 +23034,14 @@ Establish a **Lexical Firewall** around the **Conceptual Core** *(conceptual c
    If an unavoidable technical term appears, it is defined in a *Tooling Glossary* outside the Core and referenced by conceptual alias—not embedded.
 *Non‑normative automation.* Machine checks **MAY** exist in Tooling; they are advisory and **MUST NOT** be imported into the Core.
 
-##### Archetypal Grounding (System / Episteme)
+#### Archetypal Grounding (System / Episteme)
 
 | Scenario | `U.System` example | `U.Episteme` example |
 |----------|-------------------|----------------------|
 | **Normative text** | “A system boundary must expose at least one conserved‑quantity flow.” (No mention of modelling language.) | “An episteme records its F–G–R coordinates.” (No mention of proof syntax.) |
 | **Illustrative link** | A modelling profile resides in the Tooling family; Core cites it as “the reference system‑profile”. | A linting routine lives in Tooling; Core cites it as “the reference episteme‑checker”. |
 
-##### Conformance Checklist
+#### Conformance Checklist
 
 | ID | Requirement |
 |----|-------------|
@@ -23049,39 +23049,39 @@ Establish a **Lexical Firewall** around the **Conceptual Core** *(conceptual c
 | **CC‑LFW.2** | References to executable artefacts **MUST** use conceptual names, not file paths or command strings. |
 | **CC‑LFW.3** | Pedagogical examples inside Core **MAY** describe behaviour, but **MUST NOT** embed code snippets. |
 
-##### Consequences
+#### Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | Core stays evergreen and cross‑domain. | Authors must relocate concrete examples to Tooling or Pedagogy. |
 | Reviewers can machine‑scan for banned tokens. | Requires a small vocabulary allow‑list; maintained in Tooling Guide. |
 
-##### Rationale  
+#### Rationale  
 Language shapes thought.  By firewalling transient jargon, we uphold
 **P‑1 Cognitive Elegance** (clarity), **P‑2 Didactic Primacy** (domain‑neutral
 exposition) and **P‑5 Plug‑in Layering** (clean separation between Core
 and Tooling).  The rule is content‑agnostic and thus itself immune to the
 very decay it prevents.
 
-##### Relations  
+#### Relations  
 * **Parent umbrella:** `pat:constitution/guard‑rails` (E.5)  
 * **Constrains:** every pattern in Conceptual Core  
 * **Instantiates pillars:** P‑1, P‑2, P‑5
   
-  ####  E.5.2 · Notational Independence \[D]
+#### ##  E.5.2 · Notational Independence \[D]
 
-##### Problem frame  
+#### Problem frame  
 FPF concepts must travel across academic disciplines, modelling tools,
 and future notations we cannot yet foresee. If a normative pattern binds
 its *meaning* to one diagram style, file syntax, or markup dialect, the
 concept ages as soon as the notation does.
 
-##### Problem  
+#### Problem  
 *Semantic lock‑in*: when a definition relies on a particular glyph set or
 diagram grammar, alternative communities either translate it—risking
 drift—or ignore FPF altogether.
 
-##### Forces  
+#### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -23089,7 +23089,7 @@ drift—or ignore FPF altogether.
 | **Longevity** | A 20‑year horizon ↔ notation life‑cycles of 3‑5 years. |
 | **Cross‑discipline adoption** | Mathematicians prefer algebraic syntax; engineers prefer schematics. |
 
-##### Solution — Notational Independence Guard‑Rail *(conceptual; semantics over syntax; not a notation mandate)*
+#### Solution — Notational Independence Guard‑Rail *(conceptual; semantics over syntax; not a notation mandate)*
 
 1. **Semantics primacy**  
    Normative content **SHALL** define concepts in linguistic form first
@@ -23111,14 +23111,14 @@ drift—or ignore FPF altogether.
 5. **Cards and other "forms"**
 Cards, tables and other "forms" exist in FPF core only as conceptual model, not as data model, thus no need to data-related notation or notation for lint. Comformance checklist and quards is also conceptual, argumentation like "this will ease machine check" is forbidden, no machine checking is intended in core; machine checks and linters live only in Tooling.
 
-##### Archetypal Grounding (System / Episteme)
+#### Archetypal Grounding (System / Episteme)
 
 | Scenario | `U.System` example | `U.Episteme` example |
 |----------|-------------------|----------------------|
 | Definition | Boundary of a pump is expressed in prose plus set notation; a diagram is illustrative. | F‑G‑R characteristics defined textually; a triple‑store serialisation is illustrative. |
 | Alternate rendering | Same pump semantics rendered in a lattice diagram or a tabular sheet remain valid. | R‑scores plotted in a heatmap or listed in CSV remain equivalent. |
 
-##### Conformance Checklist
+#### Conformance Checklist
 
 | ID | Requirement |
 |----|-------------|
@@ -23127,40 +23127,40 @@ Cards, tables and other "forms" exist in FPF core only as conceptual model, not 
 | **CC‑NI.3** | When multiple official renderings exist, the pattern **MUST** declare the semantic mapping between them. |
 | **CC‑NI.4** | If a **conceptual prefix** appears in Core, its expansion (if shown) **SHALL** be marked *informative* and **MUST NOT** be required to interpret the semantics. |
 
-##### Consequences
+#### Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | Ensures FPF survives notation turnover. | Authors invest time describing mappings; mitigated by reusable mapping templates. |
 | Lowers entry barrier for domains using different diagram traditions. | Excessive illustrations can bloat pages; guidance in Pedagogical Companion limits scope. |
 
-##### Rationale  
+#### Rationale  
 Language and diagrams are tools, not truths. By elevating semantics over
 syntax, FPF maintains **P‑1 Cognitive Elegance** and **P‑2 Didactic
 Primacy** while safeguarding **P‑5 Plug‑in Layering**: tooling layers can
 add new renderers without Core edits.
 
-##### Relations  
+#### Relations  
 * **Parent umbrella:** `pat:constitution/guard‑rails` (E.5)  
 * **Constrains:** every normative Core pattern and official alternate rendering  
 * **Instantiates pillars:** P‑1, P‑2, P‑5
 
-####  E.5.3 · Unidirectional Dependency \[D]
+### E.5.3 · Unidirectional Dependency \[D]
 
-##### Problem frame  
+#### Problem frame  
 FPF separates artefacts into stable **Conceptual Core**, executable
 **Tooling Reference**, and fast‑evolving **Pedagogical Companion** (see
 E.4 Artefact Architecture).  If dependencies can point *both* ways,
 volatile layers will eventually drag the Core into rapid revision
 cycles or introduce domain‑specific bias.
 
-##### Problem  
+#### Problem  
 *Architectural gravity*: a tutorial or helper script adds a new feature,
 Core patterns import it “temporarily,” and within months the supposedly
 timeless layer depends on transient assets—breaking Pillar **P‑5
 Plug‑in Layering**.
 
-##### Forces  
+#### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -23168,7 +23168,7 @@ Plug‑in Layering**.
 | **Reuse vs Isolation** | Authors want to reuse helper concepts ↔ Core cannot depend on volatile code. |
 | **Simplicity** | Rule must be testable and unambiguous ↔ must allow legitimate upward imports. |
 
-##### Solution — One‑Way, Acyclic Imports  
+#### Solution — One‑Way, Acyclic Imports  
 Define a strict **partial order** over artefact families **and guard meaning flow** (see **E.10 V‑1**): imports point only **upward** in stability, and **no Core semantics** may derive from Tooling/Pedagogy. No linters or machine checking in Conceptual Core.
 
 Pedagogical Companion  ⟶  Tooling Reference  ⟶  Conceptual Core
@@ -23185,7 +23185,7 @@ Pedagogical Companion  ⟶  Tooling Reference  ⟶  Conceptual Core
    Any new family is inserted below an existing one or becomes part of
    the Tooling or Pedagogy strata; the ordering extends accordingly.
 
-##### Archetypal Grounding (System / Episteme)
+#### Archetypal Grounding (System / Episteme)
 
 | Layer | `U.System` illustration | `U.Episteme` illustration |
 |-------|------------------------|---------------------------|
@@ -23194,7 +23194,7 @@ Pedagogical Companion  ⟶  Tooling Reference  ⟶  Conceptual Core
 | Pedagogy | Tutorial using the system‑profile to model a pump; *imports* profile and Core term. | Case study explaining R‑score evolution; *imports* scoring routine and Core term. |
 | **Forbidden** | Core pattern importing measurement script. | Core pattern importing R‑score web dashboard. |
 
-##### Conformance Checklist
+#### Conformance Checklist
 
 | ID | Requirement |
 |----|-------------|
@@ -23202,40 +23202,40 @@ Pedagogical Companion  ⟶  Tooling Reference  ⟶  Conceptual Core
 | **CC‑UD.2** | An artefact **SHALL** import only from its own family or any family above it in the order. |
 | **CC‑UD.3** | A DRR that introduces a downward edge **SHALL** be automatically rejected. |
 
-##### Consequences
+#### Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | Core stays free of tool churn and tutorial bias. | Authors must create abstraction layers in Tooling instead of inserting hooks into Core. |
 | Release cadence decoupled: Core (slow), Tooling (medium), Pedagogy (fast). | Slight duplication when multiple tools target same concept; mitigated by shared Core definitions. |
 
-##### Rationale  
+#### Rationale  
 One‑way import graphs are a proven safeguard in operating systems
 (kernel vs user land) and layered protocols. Here the rule operationalises
 Pillars **P‑4 Open‑Ended Kernel** and **P‑5 Plug‑in Layering**, ensuring
 that innovation happens “below” without contaminating the timeless Core.
 
-##### Relations  
+#### Relations  
 * **Parent umbrella:** `pat:constitution/guard‑rails` (E.5)  
 * **References layer definition:** `pat:constitution/artefact‑architecture` (E.4)  
 * **Instantiates pillars:** P‑4, P‑5  
 * **Constrains:** All artefact imports recorded in DRRs or SCRs
 
-#### E.5.4 — Cross‑Disciplinary Bias Audit** \[D]
+### E.5.4 — Cross‑Disciplinary Bias Audit** \[D]
 
-##### Problem frame  
+#### Problem frame  
 FPF calls itself trans‑disciplinary, but every author carries implicit
 metaphors from a home domain. If those metaphors leak into “universal”
 patterns, practitioners from other fields disengage or mis‑interpret the
 rules.
 
-##### Problem  
+#### Problem  
 Unrecognised bias hides in wording, examples, unit choices or principle
 weighting. Once embedded in normative language, such bias is hard to
 remove and contradicts Pillars **P‑2 Didactic Primacy** and **P‑8
 Cross‑Scale Consistency**.
 
-##### Forces  
+#### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -23243,7 +23243,7 @@ Cross‑Scale Consistency**.
 | **Conciseness** | Audit guidance must be brief ↔ must cover multiple bias types. |
 | **Longevity** | Guidance must survive emergence of new domains. |
 
-##### Solution — Principle‑Taxonomy‑Guided Bias Audit  
+#### Solution — Principle‑Taxonomy‑Guided Bias Audit  
 
 1. **Bias‑Lens set**  
    Every normative pattern is assessed through **five lenses** that match the
@@ -23268,14 +23268,14 @@ Cross‑Scale Consistency**.
    which lenses were tested and any scoping statement. No workflow checklists or
    reviewer metadata or other data and data format and data governance tips is stored in the Core.
 
-##### Archetypal Grounding (System / Episteme)
+#### Archetypal Grounding (System / Episteme)
 
 | Bias lens | Example imbalance | Conceptual correction |
 |-----------|------------------|-----------------------|
 | `Arch` vs `Did` | Pump pattern uses abstract category theory terms. | Add plain‑language boundary narrative or move abstraction to appendix. |
 | `Onto/Epist` vs `Prag` | Episteme trust score defined with complex logic but no guidance on empirical cost. | Add pragmatic note on evidence collection burden or scope the pattern. |
 
-##### Conformance Checklist
+#### Conformance Checklist
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
@@ -23284,28 +23284,28 @@ Cross‑Scale Consistency**.
 | **CC‑BA.3** | If scope is declared, the pattern **SHALL** reference the mapping or rationale that enables cross‑domain translation. | Keeps pathways open for other calculi. |
 | **CC‑BA.4 (QD‑triad evidence for “universal”).** | Any pattern that labels itself **“universal”** SHALL cite **A.8 CC‑UC 1 + CC‑UC 2** and attach the **QD evidence** (Diversity_P + IlluminationSummary, with edition and binning) or else **scope** the claim to its home Context. | preserves domain quality diversity |
 
-##### Consequences  
+#### Consequences  
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | Neutral, inclusive language attracts wider adoption. | Authors spend a few extra lines on Bias‑Annotation; mitigated by template snippet. |
 | Bias is surfaced at writing time, not after publication. | — |
 
-##### Rationale  
+#### Rationale  
 Coupling the audit directly to the Principle Taxonomy keeps the guard‑rail
 **concept‑driven**, not workflow‑driven. No mention of review boards,
 CI‑jobs, or checklists appears in the Core; such mechanics belong in the
 Tooling Guide. This guard‑rail therefore satisfies **GR‑1** (Firewall)
 while securing Pillars **P‑2, P‑7 Pragmatic Utility, P‑8**.
 
-##### Relations  
+#### Relations  
 * **Parent umbrella:** `pat:constitution/guard‑rails` (E.5)  
 * **Depends on:** `pat:constitution/principle‑taxonomy` (E.3)  
 * **Constrains:** All normative patterns claiming universality
   
-### E.6 · Didactic Architecture of the Specification \[D]
+## E.6 · Didactic Architecture of the Specification \[D]
 
-#### Problem frame  
+### Problem frame  
 FPF addresses readers from at least two characteristics of diversity:
 
 * **Disciplinary** – systems engineers, knowledge scientists, ethicists.  
@@ -23314,13 +23314,13 @@ FPF addresses readers from at least two characteristics of diversity:
 Past drafts mixed governance mandates with domain examples, producing a
 steep learning curve and repeated “forward‑reference” detours.
 
-#### Problem  
+### Problem  
 If core ideas are buried under formalism or scattered across parts,
 readers either give up or misuse the framework. We need a **fixed
 narrative scaffold** that guides cognitive load from low to high while
 keeping normative sections discoverable.
 
-#### Forces  
+### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -23328,7 +23328,7 @@ keeping normative sections discoverable.
 | **Conceptual Integrity** | Foregoing examples risks abstraction ↔ too many examples delay axioms. |
 | **Uniform Flow** | Single, predictable roadmap ↔ flexibility for future parts. |
 
-#### Solution — “On‑Ramp to Archetypes first, Authoring last” sequence  
+### Solution — “On‑Ramp to Archetypes first, Authoring last” sequence  
 
 The "On-Ramp First" Macro-Structure: The specification is ordered to create a smooth cognitive ramp:
 * It begins with an informal, non-normative Preface (The On-Ramp), which uses storytelling and concrete examples (System and Episteme) to build intuition.
@@ -23360,7 +23360,7 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
 7. **Appendices (Annexes)**  
    Tutorials, tooling guides, and migration scripts live here.
 
-#### Archetypal Grounding (System / Episteme)
+### Archetypal Grounding (System / Episteme)
 
 | Narrative layer | First sight of `U.System` | First sight of `U.Episteme` |
 |-----------------|---------------------------|-----------------------------|
@@ -23368,7 +23368,7 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
 | Part A | Formal definition inherits boundary invariant. | Formal definition inherits F‑G‑R coordinates. |
 | Part B Tell‑Show‑Show | Γ\_sys example: assemble pump. | Γ_epist example: merge study bundle. |
 
-#### Conformance Checklist
+### Conformance Checklist
 
 | ID | Requirement |
 |----|-------------|
@@ -23376,35 +23376,35 @@ The "On-Ramp First" Macro-Structure: The specification is ordered to create a sm
 | **CC‑DA.2** | Every `[A]` pattern **MUST** implement Tell‑Show‑Show: universal rule plus System & Episteme illustrations. |
 | **CC‑DA.3** | Governance patterns (**Part E**) **SHALL NOT** appear before the Kernel in the main document flow. |
 
-#### Consequences
+### Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
 | Smooth learning curve; readers can stop at their needed depth. | Template discipline required; mitigated by authoring guide (E.8). |
 | Reduces forward‑reference clutter; each concept is primed before formal use. | Preface evolves when new archetypes added; handled via On‑Ramp revision DRR. |
 
-#### Rationale  
+### Rationale  
 Educational research shows retention improves when abstract rules are
 immediately paired with contrasting illustrations. By fixing the reading
 order and mandating Tell‑Show‑Show inside every `[A]` pattern, FPF
 embeds pedagogy into its architecture, realising Pillars **P‑2 Didactic
 Primacy** and **P‑1 Cognitive Elegance** without weakening rigour.
 
-#### Relations  
+### Relations  
 * **Depends on:** `pat:constitution/guard‑rails` (GR‑1 ensures example jargon stays outside Core).  
 * **Constrains:** Placement of all Parts, patterns, and appendices.  
 * **Instantiates pillars:** P‑1, P‑2
   
-###  E.7 · Archetypal Grounding Principle \[D]
+## E.7 · Archetypal Grounding Principle \[D]
 
-#### Problem frame  
+### Problem frame  
 Universal rules are powerful only when readers can grasp them. In FPF the
 Conceptual Core speaks in substrate‑agnostic language: `U.Holon`,
 Γ‑aggregation, MHT emergence. Practitioners need to “see” those rules in
 familiar matter—physical hardware or bodies of knowledge—before they can
 reuse them.
 
-#### Problem  
+### Problem  
 A purely abstract statement risks two failures:
 
 1. **Didactic failure** – readers dismiss the pattern as “too meta,”
@@ -23412,7 +23412,7 @@ A purely abstract statement risks two failures:
 2. **Unproven universality** – without cross‑domain instantiation the rule
    remains an untested claim.
 
-#### Forces  
+### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -23420,7 +23420,7 @@ A purely abstract statement risks two failures:
 | **Brevity vs Clarity** | Spec should stay concise ↔ dual examples add length. |
 | **Rigour vs Accessibility** | Formal semantics ↔ intuitive narrative. |
 
-#### Solution — mandatory *Archetypal Grounding* subsection  
+### Solution — mandatory *Archetypal Grounding* subsection  
 
 Every architectural pattern (`[A]`) **SHALL** include a dedicated
 section, titled exactly **“Archetypal Grounding,”** that *shows* how the
@@ -23437,13 +23437,13 @@ This enforces a repeatable **Tell‑Show‑Show** rhythm:
 | **Show #1** | `Archetypal Grounding` – concrete `U.System` example. |
 | **Show #2** | Same section – parallel `U.Episteme` example. |
 
-#### Archetypal Grounding (of this pattern itself)
+### Archetypal Grounding (of this pattern itself)
 
 | Universal rule | `U.System` instantiation | `U.Episteme` instantiation |
 |----------------|--------------------------|----------------------------|
 | “Every `[A]` pattern requires grounding.” | Pattern *D.1 Algebra of Aggregation* illustrates Γ\_sys on assembling a water pump. | The same pattern illustrates Γ_epist on merging a meta‑analysis. |
 
-#### Conformance Checklist
+### Conformance Checklist
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
@@ -23452,7 +23452,7 @@ This enforces a repeatable **Tell‑Show‑Show** rhythm:
 | **CC‑AG.3** | If a rule intentionally applies to only one substrate, the subsection **SHALL** state the scope limitation and justify it against the five Principle‑Taxonomy lenses (`Gov`, `Arch`, `Onto/Epist`, `Prag`, `Did`). | Prevents silent bias; links to Bias‑Audit guard‑rail. |
 | **CC‑AG.4** | Patterns lacking a compliant Archetypal Grounding subsection **MAY NOT** progress to “Accepted” status. | Enforces discipline without referring to workflow mechanics. |
 
-#### Consequences
+### Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
@@ -23461,7 +23461,7 @@ This enforces a repeatable **Tell‑Show‑Show** rhythm:
 | **Narrative cohesion** – recurring System/Episteme protagonists create a memorable storyline. | — |
 |Built-in Proof of Universality: The specification consistently demonstrates its trans-disciplinary claims, building trust and credibility. | — |
 
-#### Rationale  
+### Rationale  
 Tell‑Show‑Show is a proven pedagogical sequence. By making it normative,
 FPF hard‑codes **P‑2 Didactic Primacy** into the fabric of every `[A]`
 pattern while still honouring **P‑1 Cognitive Elegance**—the grounding
@@ -23470,22 +23470,22 @@ example. Linking scope‑justification to the five Principle lenses ties the
 pattern to the **Taxonomy‑Guided Bias Audit** and keeps governance
 language out of the Core.
 
-#### Relations  
+### Relations  
 
 * **Implements macro flow:** `pat:authoring/didactic‑architecture` (E.6)  
 * **References base types:** `pat:kernel/holon` (A.1) (`U.System`, `U.Episteme`)  
 * **Interacts with bias guard‑rail:** `pat:guard/bias‑audit` (E.5.4) via CC‑AG.3  
 * **Constrains:** Authoring template in `pat:authoring/pattern‑template` (E.8)
 
-###  E.8 · FPF Authoring Conventions & Style Guide   \[A]
+## E.8 · FPF Authoring Conventions & Style Guide   \[A]
 
-#### Problem frame  
+### Problem frame  
 FPF grows through the addition of patterns written by authors from many
 disciplines.  Without a shared structure *and* voice the framework would
 fracture, violating Pillars **P‑1 Cognitive Elegance** and
 **P‑2 Didactic Primacy**.
 
-#### Problem  
+### Problem  
 *Structural drift* and *stylistic fragmentation* threaten three qualities:
 
 1. **Comparability** – readers cannot align patterns lacking common
@@ -23495,7 +23495,7 @@ fracture, violating Pillars **P‑1 Cognitive Elegance** and
 3. **Auditability** – missing sections hide safety checks
    (Archetypal Grounding, Bias‑Annotation).
 
-#### Forces  
+### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -23503,9 +23503,9 @@ fracture, violating Pillars **P‑1 Cognitive Elegance** and
 | **Rigor vs Readability** | Formal precision ↔ engaging prose. |
 | **Brevity vs Completeness** | Concise patterns ↔ mandated safety subsections. |
 
-#### Solution — One template, enriched by style principles  
+### Solution — One template, enriched by style principles  
 
-##### 1 · Canonical Pattern Template  
+### 1 · Canonical Pattern Template  
 All patterns **SHALL** follow this section order (headings verbatim).
 Sections marked ✱ are **mandatory for `[A]`**, optional for `[D]`.
 
@@ -23526,7 +23526,7 @@ Sections marked ✱ are **mandatory for `[A]`**, optional for `[D]`.
 *Unification note:* historic A‑ and D‑templates differed only by the Grounding and SoTA Echoing heading; optionality preserves clarity without duplication.
 Problem frame in alexandrian pattern canon historically called "context", FPF do not use this label due to overloading with Context a Plain label of a U.BoundedContext.
 
-##### 2 · Stylistic Principles (S‑0 ... S‑13)
+### 2 · Stylistic Principles (S‑0 ... S‑13)
 
 | # | Principle | Guideline |
 |---|-----------|-----------|
@@ -23564,7 +23564,7 @@ Brief explanations:
 
 Narrative Flow Heuristic also operationalises S‑1 (Density w/o Jargon), S‑2 (Internal Cohesion), S‑4 (Contextualisation), and S‑6 (Quotable Closers).
 
-##### Autonomy authoring stub (mandatory when autonomy is claimed)
+### Autonomy authoring stub (mandatory when autonomy is claimed)
 If a pattern or example claims **autonomy** for any Role/Method/Service:
 1) Add a subsection **“Autonomy (RoC‑E.16)”** that lists:
    * `AutonomyBudgetDeclRef` (id, version, Scope (G), Γ_time),
@@ -23575,7 +23575,7 @@ If a pattern or example claims **autonomy** for any Role/Method/Service:
 2) Include one **Tell‑Show‑Show** vignette that demonstrates **depletion** and **override** handling.
 3) Use **LEX‑BUNDLE** terms (Scope (G), Γ_time, Role/Method/Work). Avoid “validity”, “process”, “actor” unless mapped to kernel types.
 
-#### Archetypal Grounding (System / Episteme)
+### Archetypal Grounding (System / Episteme)
 
 | Template element | `U.System` illustration | `U.Episteme` illustration |
 |------------------|------------------------|---------------------------|
@@ -23583,7 +23583,7 @@ If a pattern or example claims **autonomy** for any Role/Method/Service:
 | S‑1 Density w/o Jargon | “The pump boundary is the sealing plane.” | “An episteme’s F‑score captures falsifiability.” |
 | Hook‑Weave‑Anchor | Opens with field anecdote → links Γ‑core → anchors to motor torque. | Opens with historical paradox → links MHT → anchors to peer‑review data. |
 
-#### SoTA‑Echoing  *(normative; lineage & deltas to contemporary State‑of‑the‑Art)*
+### SoTA‑Echoing  *(normative; lineage & deltas to contemporary State‑of‑the‑Art)*
 
 **Purpose.** Make each pattern’s relationship to contemporary practice explicit and comparable without importing tooling or data governance. This section is prose‑first and notation‑independent.
 
@@ -23599,7 +23599,7 @@ If a pattern or example claims **autonomy** for any Role/Method/Service:
 
 **Format: human‑first.** A small table is allowed, but each row **MUST** be accompanied by 1–2 sentences as above. Vendor/tool tokens, file formats, or data schemas are out of scope.
 
-##### Conformance Checklist  
+### Conformance Checklist  
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
@@ -23614,7 +23614,7 @@ If a pattern or example claims **autonomy** for any Role/Method/Service:
 | **CC‑SG.9 (Lexical hygiene).** | The term **mapping** **SHALL NOT** appear in SoTA‑Echoing except in the precise E.10 sense; use **alignment/Bridge/relation** instead. | Avoids overloading reserved vocabulary. |
 | **CC‑SG.10 (No keyword soup).** | SoTA‑Echoing items **MUST** be written as sentences (not bare noun phrases); bullet lists are acceptable only with complete clauses. | Improves didactic quality and comparability. |
 
-##### Consequences  
+### Consequences  
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
@@ -23622,7 +23622,7 @@ If a pattern or example claims **autonomy** for any Role/Method/Service:
 | **Cohesive voice** – S‑principles give FPF a recognisable style, aiding memorability. | Reviewers must read for style, not only semantics; checklists ease load. |
 | **Embedded pedagogy** – Tell‑Show‑Show and Hook → Close heuristics turn the spec into a self‑teaching text. | Slightly longer patterns; justified by better comprehension and fewer clarifying DRRs. |
 
-##### Rationale  
+### Rationale  
 Structure and style function as FPF’s *grammar*. By unifying what were
 once separate “template” and “style guide” patterns, authors face a
 single reference point that satisfies:
@@ -23637,22 +23637,22 @@ omission via Bias‑Annotation—keeping pedagogy and neutrality explicit.
 
 Conformance checklist often has name conformance criteria in international and industry standards, FPF name it so to easier adopt by engineers and managers.
 
-##### Relations  
+### Relations  
 
 * **Implements:** `pat:authoring/didactic‑architecture` (E 6) & `pat:authoring/archetypal‑grounding` (E 7)  
 * **Constrained by:** Guard‑Rails E 5.1‑E 5.4 (lexical firewall, notation independence, etc.)  
 * **Constrains:** All future `NORM`, `A`, `D`, and `GOV` patterns; DRR template references the same section order.  
 
-###  E.9 · Design‑Rationale Record (DRR) Method \[D]
+## E.9 · Design‑Rationale Record (DRR) Method \[D]
 
-#### Problem frame  
+### Problem frame  
 FPF is engineered for Pillar **P‑10 Open‑Ended Evolution**: its normative
 rules must adapt as new calculi and insights arrive. But change without a
 record of *why* leads to conceptual erosion and undermines auditability.
 Hence FPF requires an explicit **Design‑Rationale Record (DRR)**—a
 durable *conceptual artefact* that precedes every normative change.
 
-#### Problem  
+### Problem  
 Direct edits to the Core, absent a structured rationale, trigger three
 systemic hazards:
 
@@ -23663,7 +23663,7 @@ systemic hazards:
 3. **Conceptual drift** – incremental tweaks slip past the Eleven Pillars
    and Principle Taxonomy lenses, blurring the framework’s foundations.
 
-#### Forces  
+### Forces  
 
 | Force | Tension |
 |-------|---------|
@@ -23671,7 +23671,7 @@ systemic hazards:
 | **Transparency vs Efficiency** | Provide a public argument trail ↔ avoid bureaucratic drag on minor edits. |
 | **Clarity vs Conciseness** | Capture full reasoning ↔ prevent meta‑text from bloating the Core itself. |
 
-#### Solution — the DRR as a structured argument  
+### Solution — the DRR as a structured argument  
 Any proposal to add, modify or deprecate a `NORM`, `A`, `D`, or `GOV`
 rule **MUST** be accompanied by a **Design‑Rationale Record** containing
 exactly four conceptual components:
@@ -23687,14 +23687,14 @@ The DRR lives **outside** the normative Core; only its *Decision* flows
 into the specification upon acceptance, preserving Core brevity while
 storing provenance.
 
-#### Archetypal Grounding (System / Episteme)
+### Archetypal Grounding (System / Episteme)
 
 | Holon flavour | DRR analogue | Four components illustrated |
 |---------------|--------------|-----------------------------|
 | **`U.System`** (physical) | Engineering Change Order for pump motor upgrade. | Context: inefficiency; Decision: switch to brushless DC; Rationale: energy gain vs cost; Consequences: new control schema + supplier change. |
 | **`U.Episteme`** (knowledge) | Foundational theory revision paper. | Context: conflicting data; Decision: introduce new axiom; Rationale: explains legacy & new data, Pillar alignment; Consequences: fresh predictions, update to curricula. |
 
-#### Conformance Checklist
+### Conformance Checklist
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
@@ -23705,7 +23705,7 @@ storing provenance.
 | **CC‑DRR.5** | Minor, non‑substantive edits (e.g., typos) **MAY** follow a lightweight DRR variant containing Context + Decision only, provided they do not alter semantics. | Allows efficiency without eroding rigour. |
 | ^^CC‑DRR.6 (LAT pointer)** | For Δ‑2/Δ‑3 changes to part F or part G patterns, the DRR SHALL include a non‑normative pointer (id/URI) to a published LEX‑AUTH Trace (LAT) archived as U.Work; the LAT is evidence, not normative prose.
 
-#### Consequences
+### Consequences
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
@@ -23713,7 +23713,7 @@ storing provenance.
 | **Higher decision quality** – Pillar & lens check surfaces hidden conflicts early. | Authors must learn taxonomy; template checklist shortens ramp‑up. |
 | **Institutional memory** – prevents re‑litigation of rejected alternatives. | DRR archive grows; index stored in a non‑normative annex. |
 
-#### Rationale  
+### Rationale  
 A legal code evolves by amendments, not by editing the statute in place;
 FPF adopts the same discipline. The DRR embodies **P‑10 Open‑Ended
 Evolution** while protecting **P‑1 Cognitive Elegance**: the Core remains
@@ -23721,14 +23721,14 @@ succinct, yet its evolution is fully transparent. Coupling the argument
 to the Pillars and taxonomy lenses aligns each change with FPF’s
 constitution and Guard‑Rails, without prescribing tooling workflows.
 
-#### Relations  
+### Relations  
 
 * **Instantiates:** P‑10 Open‑Ended Evolution, P‑2 Didactic Primacy  
 * **Template governed by:** `pat:authoring/pattern‑template` (E 8)  
 * **Interacts with:** `pat:guard/bias‑audit` (E 5.4) via lens check  
 * **Complemented by:** `pat:authoring/code‑of‑conduct` (E 12) – etiquette for DRR debate  
 
-# E.10 — LEX‑BUNDLE*: Unified Lexical Rules for FPF (Registers, Naming, and Forbidden Forms) \[A]
+## E.10 — LEX‑BUNDLE*: Unified Lexical Rules for FPF (Registers, Naming, and Forbidden Forms) \[A]
 *Definitional pattern \[D]; normative for all Core/Architheory text and for any Context that claims FPF conformance.*
 
 **Status & placement.** Part E.10 (“Lexical Discipline & Stratification”); complements **E.10.D1 (D.CTX)**, **E.10.D2 (I/D/S)**, and **E.11 (Authoring‑Tier Scheme)**, and is referenced by F‑cluster naming practices (F.4–F.8). This bundle consolidates all lexical constraints in one place so authors can cite **“LEX‑BUNDLE”** instead of listing rules scattered across documents.
@@ -23738,7 +23738,7 @@ constitution and Guard‑Rails, without prescribing tooling workflows.
 
 ---
 
-## 1 · Problem context
+### 1 · Problem context
 
 **Intent.** Provide one **normative** rule‑set that makes FPF language **unambiguous, composable across contexts, and teachable** by design. Authors, reviewers, and tooling can point to **LEX‑BUNDLE** as the single source of truth for:
 
@@ -23754,7 +23754,7 @@ constitution and Guard‑Rails, without prescribing tooling workflows.
 
 ---
 
-## 2 · Problem 
+### 2 · Problem 
 
 1. **Polysemy drift.** *Process, function, service, agent, activity* slide between structure, recipe, execution, and promise.
 2. **Cross‑context collision.** A label (e.g., *Owner*) is assumed “global” though meanings differ per `U.BoundedContext`.
@@ -23764,7 +23764,7 @@ constitution and Guard‑Rails, without prescribing tooling workflows.
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                          | Tension to resolve                                                                         |
 | ------------------------------ | ------------------------------------------------------------------------------------------ |
@@ -23775,7 +23775,7 @@ constitution and Guard‑Rails, without prescribing tooling workflows.
 
 ---
 
-## 4 · Solution — the **LEX‑BUNDLE** rule‑set (overview)
+### 4 · Solution — the **LEX‑BUNDLE** rule‑set (overview)
 
 **LEX‑BUNDLE** aka **ULR (Unified Lexical Rules)** is a compact set of **register, naming, and rewrite** rules with conformance checks.
 
@@ -23788,7 +23788,7 @@ constitution and Guard‑Rails, without prescribing tooling workflows.
 
 Below are the **normative clauses** 
 
-## 5 · Vertical Stratification Ladder (four strata; no cross‑bleed)
+### 5 · Vertical Stratification Ladder (four strata; no cross‑bleed)
 
 > **Rule V‑0 (Strata).** Every lexical item in a conformant text belongs to exactly one **stratum**:
 
@@ -23805,9 +23805,9 @@ Below are the **normative clauses**
 
 **V‑4 (Firewall).** Tooling/Pedagogy idioms shall not leak into Kernel prose (DevOps Lexical Firewall). CI/CD jargon, file formats, or API names **MUST NOT** appear in Core definitions. (Pedagogy may use them **as examples** only, in the **Plain** register, with Tech anchors present.)
 
-## 6 · Ontology Guards 
+### 6 · Ontology Guards 
 
-### 6.1 Tech register ontology guards
+#### 6.1 Tech register ontology guards
 
 > **Purpose.** This section stabilises the Tech register of the kernel lexicon by enforcing head‑anchored naming, explicit *object‑of‑talk*, I/D/S morphology, disciplined treatment of **Role / Holder**, and Domain usage consistent with **D.CTX** and **UTS**. It aligns with **F.4 Role Description (RCS/RSG)**, **F.11 Method Quartet Harmonisation**, and **F.17 UTS**. **Scope:** Guidance is **register‑agnostic** and applies to the whole FPF; examples are illustrative and MUST pass Minimal Generality & Domain Anchoring (MG·DA) and other rules of lexical governance pattern E*. This guidance applies to kernel and non‑kernel components (including Part G and patterns in Part C) and SHOULD be reused across extensions.
 > 
@@ -23887,14 +23887,14 @@ Below are the **normative clauses**
  `Boundary‑Inheritance Standard (BIC)` → `Boundary‑Inheritance Standard (BIS)` *(alias acceptable during transition)*.  
  **Rationale.** Keeps Core prose centred on **intensional objects** and their boundary invariants; reserves deontic obligations for governance contexts and **U.Service**‑like promises. Do **not** misuse “plane”: deontic speech‑acts are analysed via the **Gov** lens, while **ReferencePlane** remains `{world | concept | episteme}`.
 
-## 6.2 Twin‑Register Discipline (Tech / Plain)
+#### 6.2 Twin‑Register Discipline (Tech / Plain)
 
 **Plain twin (LEX).** A registry entry pairing the **authoritative Tech label** with a **display‑only Plain label** for one `U.Type` **in one `U.BoundedContext`**; governed by **PTG (Plain Twin Governance; in the LEX registry)** and referenced by `Twin‑Map ID (LEX)`. *“Plain twin” ≠ the **Plain register** (the register is where twins may be used; the twin is the 1:1 mapping).*
 **Convention.** In this spec, **Plain** (capitalized) names the register; **plain twin** (lowercase) names the 1:1 mapping entry.
 
 > **Rule R‑0 (Registers).** Every Kernel and Architheory concept has a **Tech label** (the testable semantic token) and an optional **Plain label** (didactic synonym). The **Tech label is authoritative**; the Plain label is permitted *only* in expository text and must map 1:1 to the Tech meaning inside the current **Context**.
 
-### 6.2.1 Allowed pairs (normative table; examples)
+#### 6.2.1 Allowed pairs (normative table; examples)
 
 | **Tech (authoritative)** | **Plain (didactic)**                        | **Notes & guards**                                                                           |
 | ------------------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
@@ -23920,7 +23920,7 @@ Domains can mint aliases inside their `U.BoundedContext` glossary; all aliases m
 
 > **Principle:** *Meaning lives in the Tech name; the plain twin may never move meaning.* (Locality is enforced by `U.BoundedContext` and Bridges.)
 
-### 6.2.2 Plain Twin Safety constraints (normative)
+#### 6.2.2 Plain Twin Safety constraints (normative)
 
 **CC‑TWIN‑1 · One‑to‑one & local.**
 Each Tech name has **at most one** plain twin **per `U.BoundedContext`**; the same plain twin **MUST NOT** point at more than one Tech name in the same Context.
@@ -23963,16 +23963,16 @@ Every plain twin **MUST** have a **registry entry** (in the LEX registry) record
 **CC‑TWIN‑11 · Tests.**
  Twin entries **MUST** pass the **Twin Harness** (see F.15): *Head term*, *Kind consistency*, *SenseCell match*, *Stop‑list compliance*, and *First‑use gloss*.
 
-## 7 · Minimal Generality & Domain Anchoring (MG·DA) — names neither parochial nor vacuous
+### 7 · Minimal Generality & Domain Anchoring (MG·DA) — names neither parochial nor vacuous
 
 > **Principle (MG·DA).** A minted name is **as general as necessary and no more**, and its **head noun is anchored to the object‑of‑talk**. First classify the **NameToken (name of a concept: term, lexical unit) itself** using **`LEX.TokenClass`**, then apply the guardrails corresponding to that class: kernel tokens must unify **across domains**; discriminator/context tokens must make the **domain legible** *from the name itself*. Names too general to have obvious domain are **banned**. 
 
-### 7.1 `LEX.TokenClass` (meta‑lexical; not a USM Scope)
+#### 7.1 `LEX.TokenClass` (meta‑lexical; not a USM Scope)
 **Definition.** `LEX.TokenClass : NameToken → {KernelToken | ContextToken | DiscriminatorToken}`.  
 This is a **Characteristic on NameTokens** (symbols), used by the LEX registry and MG·DA lints.
 It is **not** a USM scope and carries **no** truth/validity semantics.
 
-### 7.2 `KernelToken` — Minimal Generality (MG‑K)
+#### 7.2 `KernelToken` — Minimal Generality (MG‑K)
 **MG‑K1 (Tri‑domain witness, MUST).** Maintain a DRR/Glossary note with **≥ 3 heterogeneous arenas** where the invariants hold (e.g., manufacturing, healthcare, cloud ops). If you cannot, narrow to a Context name or move qualifiers into **RCS** (Role Characterisation Space).
 **MG‑K2 (No parochial nouns, MUST).** Kernel names **MUST NOT** contain domain nouns (*Ticket, Microservice, Patient, Developer*). Such nouns belong in **Context** or as **RCS Characteristics**.
 **MG‑K3 (No vacuity, MUST).** Avoid vacuous heads (*Thing, Event, Process, Resource*). Use existing kernel heads (`U.Holon`, `U.Work`, `U.Method`, `U.Resrc`, …).
@@ -23980,7 +23980,7 @@ It is **not** a USM scope and carries **no** truth/validity semantics.
 **MG‑K5 (Notation independence, SHOULD).** The intensional meaning is separable from any one notation/toolchain.
 **MG‑K6 (Refactoring safety, MUST).** If a name fails MG, do **not** mutate it silently. Record a DRR and apply F.13 **Lexical Continuity & Deprecation** (aliases; Bridges for Cross‑context mappings).
 
-### 7.3 `DiscriminatorToken` / `ContextToken` — Domain Anchoring (DA‑D)
+#### 7.3 `DiscriminatorToken` / `ContextToken` — Domain Anchoring (DA‑D)
 **DA‑D1 (Object‑of‑talk anchoring, MUST).** The head noun names the **object being classified** (e.g., *Sense*, *Context*, *Role*, *Bridge*, *Characteristic*). Readers can answer “**X of what?**” without external context.
 **DA‑D2 (Characteristic, not axis, MUST).** Enumerated properties are named as **Characteristic**  within a **CharacteristicSpace** (MM‑CAL). Avoid spatial metaphors (*axis, dimension, plane, lane, tier, layer*) unless the metaphor is a **pattern‑defined primitive** in this spec.
 **DA‑D3 (Enum clarity, MUST).** If the term denotes an enumeration, (a) the value set is **small and closed**, (b) membership criteria are obvious from the definition, (c) the **object‑of‑talk** is explicit in the name (e.g., `SenseFamily`, not bare *Family*, *RowPlane* or overly general *Facet*).
@@ -23989,7 +23989,7 @@ It is **not** a USM scope and carries **no** truth/validity semantics.
 **DA‑D6 (Register discipline, SHOULD).** Keep normative tokens stable; synonyms live in **Plain** register only and must not appear in constraints/tests.
 **DA‑D7 (Ban generic combinators, MUST).** Reject vague composites like *NameUseMode*, *NamingScope*, *RowFacet/RowPlane/RowLane*. Each candidate must pass **DA‑D1** and **DA‑D3** (object‑anchored head and explicit **CharacteristicSpace**).
 
-### 7.4 Global tests (apply after 7.2/7.3)
+#### 7.4 Global tests (apply after 7.2/7.3)
 **MG·DA‑T1 (Three‑arena witness).** If **`LEX.TokenClass`(t)=KernelToken**, you **MUST** provide the tri‑domain witnesses (7.2‑MG‑K1). Otherwise this is **SHOULD** (document at least one contrasting arena).
 **MG·DA‑T2 (Object‑of‑talk).** The head noun uniquely signals the subject area; avoid free‑floating metaphors. **MG·DA‑T3 (Anti‑recipe).** Remove mechanism/implementation words; relocate to Method/Capability/RCS.
 **MG·DA‑T4 (Enum clarity).** For enumerations, list the closed value set and its CharacteristicSpace.
@@ -23997,7 +23997,7 @@ It is **not** a USM scope and carries **no** truth/validity semantics.
 **MG·DA‑T6 (Teaching swap).** In didactic prose (E.10.D2), the term can be swapped in **without caveats**. 
 **MG·DA‑T7 (Intensional ground, MUST).** The definition card states the intensional criterion for membership explicitly; reviewers can check membership without reading external narrative.
 
-### 7.5 Compatibility with USM (how tokens and scopes meet)
+#### 7.5 Compatibility with USM (how tokens and scopes meet)
 **USM applies to acts, not tokens.** Mint/rename/use are **LexicalActs** that carry a USM scope. `LEX.TokenClass` constrains **where** a token may be used via an **AllowedScopes** policy:
 **Conformance rule.** For any usage `u` of a token `t`: `LEX.TokenClass(t)=c  ⇒  USM.Scope(u) ∈ AllowedScopes(c).`
 
@@ -24005,22 +24005,22 @@ The LEX registry defines `AllowedScopes(c)` (e.g., `KernelToken` usage in normat
 
 **Audit.** Violations are flagged as **SCR‑LEX‑Sxx** (see acceptance tests below).
 
-### 7.6 Metaphor guidance (non‑binding heuristics)
+#### 7.6 Metaphor guidance (non‑binding heuristics)
 Prefer **object‑anchored heads** to metaphors. If a metaphor is unavoidable, ensure it is (a) explicitly defined by a pattern here, and (b) unambiguous within the **NameClass**. Example families (use sparingly):
 * **Progression metaphors** (*level, tier, ladder*): only where a **gate/upgrade** is defined by the pattern.  
 * **Separation metaphors** (*lane, track*): only where parallel, non‑interfering flows are enforced by rules.  
 * **Grouping metaphors** (*family, class*): only for **small, closed enumerations** attached to a clearly named object‑of‑talk (e.g., `SenseFamily` rather than bare *Family*).
 
-### 7.7 Short‑form and acronym discipline
+#### 7.7 Short‑form and acronym discipline
 **SF‑1 (First expansion, MUST).** On first use, expand the term; place the short‑form in parentheses (e.g., “Minimal Generality & Domain Anchoring (**MG·DA**)”).  
 **SF‑2 (Uniqueness, MUST).** Register short‑forms in the **Reserved‑Names** list; run the collision check (7.4‑MG·DA‑T5).  
 **SF‑3 (Form, SHOULD).** Prefer typographic separators (**MG·DA**) to fused acronyms (**MGDA**). Use the fused form only in code or identifiers where punctuation is disallowed, and only after registration.
 
-### 7.8 Examples (illustrative, canonical)
+#### 7.8 Examples (illustrative, canonical)
 Prefer **`U.Service`** (promise) over *BusinessService*; **`U.Capability`** over *Function*; **`U.Dynamics`** over *NaturalProcess*; **`U.WorkPlan`** over *ScheduleProcess*.  
 Do **not** mint *ETLService* at kernel level—model ETL as `MethodDescription`; the **Service** is “data delivered under acceptance.”
 
-### 7.9 Acceptance & regression checks (LEX/USM)
+#### 7.9 Acceptance & regression checks (LEX/USM)
 **SCR‑LEX‑S01 (TokenClass declaration).** Every normative token has a declared `LEX.TokenClass`.
 **SCR‑LEX‑S02 (Collision & uniqueness).** Full‑text + Reserved‑Names check passes (no other meaning in FPF).
 **SCR‑LEX‑S03 (Object‑of‑talk anchoring).** Heads name the object classified (DA‑D1).
@@ -24031,13 +24031,13 @@ Do **not** mint *ETLService* at kernel level—model ETL as `MethodDescription`;
 **RSCR‑LEX‑E02 (Metaphor hygiene).** If a metaphor is used, show the pattern that defines it; otherwise rename.
 **RSCR‑LEX‑E03 (Strategy token minting).** Reject new Kernel tokens named **Strategy**/**Policy** as kinds; model them as **lenses/flows/compositions** inside **G.5** or as **…Description/…Spec** in Contexts. (Prevents kernel overloading; aligns with C.22 “no minted Strategy head”.)
 
-## 8 · Morphology & Lexical Form (LEX.Morph)
+### 8 · Morphology & Lexical Form (LEX.Morph)
 
 > **Principle.** Form follows **object‑of‑talk**. A token’s morphology (suffix/prefix/casing) must (a) express **what kind of thing** it names, (b) respect **MG·DA** (Minimal Generality & Domain Anchoring), and (c) pass **LEX.TokenClass** gates:
 > `LEX.TokenClass(token) ∈ {KernelToken | ContextToken | DiscriminatorToken}`.
 > Morphological choices never override **I/D/S layers** or **CHR\:ReferencePlane** semantics.
 
-### 8.0 Casing & basic forms
+#### 8.0 Casing & basic forms
 
 **M‑0 (Casing and categories).**
 Types & role kinds: **UpperCamelCase** (`IncisionOperatorRole`, `MethodDescription`).
@@ -24047,7 +24047,7 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 
 ---
 
-### 8.1 Reserved suffixes (gated by LEX.TokenClass and I/D/S)
+#### 8.1 Reserved suffixes (gated by LEX.TokenClass and I/D/S)
 
 > **Use tables as a whitelist.** Rows indicate **when** a suffix is permitted and **what it means**. “Layer gate” prevents I/D/S confusion; “Examples” are illustrative.
 
@@ -24112,13 +24112,13 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 * **Role** is always **Role Enactment for the `U.Holon`/`U.System` kind** (agentive use).
 * **Param‑slot / relation‑endpoint guard.** Do **not** use the morpheme **`Role`** for **formal parameter positions** in operator algebra declarations (`OperatorAlgebra`) or Signature arguments. Reserve **`Role`** for **agentive kinds** only (A.2/F.4/F.6). Use a **`ParamKinds`** list (name→Kind) or `RelationEndpointKinds` to type formal slots. Same for similar situations (table columns, tuple placements): use MG·DA with domain‑**specific** terminology, never “Role”. 
 
-### 8.2 Forbidden suffixes & the DevOps and Data Governance Lexical Firewall
+#### 8.2 Forbidden suffixes & the DevOps and Data Governance Lexical Firewall
 
 **M‑F (Forbidden in Kernel tokens).** In KernelToken names, do **not** use: *…Function*, *…Process*, *…Task*, *…Activity*. These are ambiguous or vacuous—map using § 6 typing rules (often to `Method`, `MethodDescription`, or `Work`).
 
 **M‑FW (Tool/file markers).** Tooling/file suffixes (*…API*, *…JSON*, *…YAML*, *…CI*, *…Kafka*, *…Postgres*) are **not** part of conceptual names. Place them in **Context** glossaries or operational configs (DevOps Lexical Firewall). Kernel names never carry tool/format/notation marks. It is pure conceptual, no data management and data governance intended.
 
-### 8.3 Prefix discipline
+#### 8.3 Prefix discipline
 
 **M‑P1 (Reserved prefixes).** `U.` reserved for **Kernel types**; `Γ_` for algebraic operators; `CAL/LOG/CHR` for **architheory packages**. Never mint `U.*` inside a Context.
 
@@ -24130,7 +24130,7 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 
 **Property discipline.** When a field pins a referenced artifact’s phase, write it as **`<Thing>Ref.edition`** (dot notation), never as a standalone `…Edition` key. E.g., replace `DHCMethodEdition` with `DHCMethodRef.edition`.
 
-### 8.4 Morphology tests (apply with § 7 MG·DA)
+#### 8.4 Morphology tests (apply with § 7 MG·DA)
 
 **M‑1 (Slot test).** The candidate fits **one** slot in the Strict Distinction lattice (Object ≠ Description ≠ Carrier; Role ≠ Method ≠ Work). If not, **rename** or split.
 
@@ -24148,11 +24148,11 @@ IDs/instances: **flat with delimiters** (context‑defined) but never collide wi
 
 **M‑8 (Collision & uniqueness).** Before merge, run **full‑text** + **Reserved‑Names** checks; the token must not collide with any other meaning anywhere in FPF (cf. § 7 MG·DA‑T5).
 
-### 8.5 Alias hygiene
+#### 8.5 Alias hygiene
 
 Aliases live **only** inside a **Context Glossary** and map to **one** technical label with an **equivalence** note (≡). No global aliases.
 
-### 8.6 Compatibility with USM (acts vs tokens)
+#### 8.6 Compatibility with USM (acts vs tokens)
 
 **LEX applies to tokens; USM applies to acts.** Mint/rename/use are **LexicalActs** that carry a USM scope (e.g., ClaimScope, WorkScope). LEX constrains **where** a token form may appear via **AllowedScopes** policies:
 
@@ -24160,7 +24160,7 @@ Aliases live **only** inside a **Context Glossary** and map to **one** technical
 
 Example: using a `KernelToken` in a Context constraint may require a Bridge/alias; logging `Work` inside a MethodDescription violates M‑4 and the policy.
 
-### 8.7 Acceptance & regression checks (LEX/USM)
+#### 8.7 Acceptance & regression checks (LEX/USM)
 
 * **SCR‑MOR‑S01 (Suffix whitelist).** Every normative token with a reserved suffix matches § 8.1 row semantics and passes Layer gates.
 * **SCR‑MOR‑S02 (Kernel bans).** KernelToken names contain none of the forbidden suffixes (§ 8.2).
@@ -24171,7 +24171,7 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 * **RSCR‑MOR‑E01 (DevOps firewall).** Tool/file suffixes quarantined to Context; none leak into KernelToken names.
 * **RSCR‑MOR‑E02 (USM compliance).** For each LexicalAct, verify `USM.Scope ∈ AllowedScopes(LEX.TokenClass)` (see § 7.5).
 
-### 8.8 Autonomy lexicon (L‑AUTO )
+#### 8.8 Autonomy lexicon (L‑AUTO )
 **Forbidden (Core):** bare “validity”, “actor/agent” (as free‑standing nouns), “kill switch”, “process” for behavior, “envelope” when used **as scope**.
 **Use instead:** *Scope (G)* for epistemic scope; *WorkScope* for capability bounds; *RoleAssignment* for who acts; *SpeechAct* for overrides; *SafeStop* instead of “kill switch”.
 **Named prefixes (policy & registry):**
@@ -24183,7 +24183,7 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 1) Scope‑sensitive guards **must** declare the **Γ_time** window selector used for admission checks.
 2) Proper names of patterns/components that already include “Agent/Agency” (e.g., *Agency‑CHR*, *Agent‑Tools‑CAL*) are permitted as **titled terms**; avoid re‑introducing “agent” as a free‑standing noun in new prose.
 
-### 8.9 · LEX-CHR-STRICT — Reserve *Characteristic* for CSLC-measurable aspects
+#### 8.9 · LEX-CHR-STRICT — Reserve *Characteristic* for CSLC-measurable aspects
 
 **Intent.** Prevent calling **non-measurable** objects (sets, statuses, scopes, policies, bridges, contexts, guards) “characteristics”.
 
@@ -24196,7 +24196,7 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 — **CC-L-CHR-2.** `CharacteristicSpace` near `Scope` — error.  
 — **CC-L-CHR-3.** Canonical rewrite: `F–G–R characteristics` → `F–G–R components`.
 
-### 8.10 LEX‑QA‑1 — Using “‑ility/‑ilities” terms (availability, reliability, …)
+#### 8.10 LEX‑QA‑1 — Using “‑ility/‑ilities” terms (availability, reliability, …)
 
 **Rule.** Tokens ending with **‑ility/‑ilities** or widely used quality names (**Availability, Reliability, Security, Safety, Scalability, Maintainability, Usability**, …) are **Quality‑Family labels**, not automatically CHR **Characteristics**.  
 
@@ -24207,13 +24207,13 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 **Rationale.** Scope is **set‑valued** (USM) and **not** a CHR measurement; mechanisms/statuses are governance artefacts. Keeping them outside the CHR CSLC avoids illegal scalarisation and preserves set‑algebra semantics for scope.  (A.2.6 § 6.2; A.6.1; C.16/A.18). 
 
 
-## 9 · Canonical rewrites for overloaded words (LEX L‑rules; normative)
+### 9 · Canonical rewrites for overloaded words (LEX L‑rules; normative)
 
 > **What this section does.** LEX L‑rules standardise **how we speak** in Core/Context by mapping overloaded everyday words to **canonical FPF concepts**.
 > **What this section does not do.** It does **not** restate naming (see **§ 7 MG·DA**) or morphology/casing/suffix rules (see **§ 8 LEX.Morph**); it **depends** on them.
 > **Guards.** Tokens are classified by **`LEX.TokenClass ∈ {KernelToken, ContextToken, DiscriminatorToken}`** (§ 7.1). Only **CHR:ReferencePlane** may use the bare word *plane*; I/D/S are **layers**; enumerations are **Characteristics** in a **CharacteristicSpace** **only when a CSLC scale is declared; otherwise treat such slots as non-measurable attributes (not Characteristics)**.
 
-### 9.1 Hard bans and canonical rewrites (single table; normative)
+#### 9.1 Hard bans and canonical rewrites (single table; normative)
 
 > **Use this table mechanically.** “Ban” means the weak phrase is **not allowed** in Core prose/identifiers/diagrams unless the **canonical** appears alongside it (or as a registered Context alias). “Layer/Token gates” prevent I/D/S and TokenClass leaks (cf. § 8.1).
 
@@ -24236,7 +24236,7 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 
 ---
 
-### 9.2 Quick, lintable substitutions (mechanical helpers)
+#### 9.2 Quick, lintable substitutions (mechanical helpers)
 
 > Editors may auto‑offer these rewrites; accept only if the transformed sentence passes **§ 7 MG·DA** and **§ 8 LEX.Morph** gates.
 
@@ -24253,7 +24253,7 @@ Example: using a `KernelToken` in a Context constraint may require a Bridge/alia
 
 ---
 
-### 9.3 Acceptance tests (LEX‑AC)
+#### 9.3 Acceptance tests (LEX‑AC)
 
 A text **passes** LEX if all answers are **Green**:
 
@@ -24270,7 +24270,7 @@ A text **passes** LEX if all answers are **Green**:
 
 ---
 
-### 9.4 Coordination map (how LEX plugs into the rest of FPF)
+#### 9.4 Coordination map (how LEX plugs into the rest of FPF)
 
 * **With E.10.D1 D.CTX (Context discipline).**
   ULR–CTX‑1: Every Core meaning that can vary **names its `U.BoundedContext`**.
@@ -24289,7 +24289,7 @@ A text **passes** LEX if all answers are **Green**:
 
 ---
 
-### 9.5 Conformance checklist (LEX‑CC)
+#### 9.5 Conformance checklist (LEX‑CC)
 
 1. **LEX‑CC‑1 (Bans).** Any banned token in Core/Arch fails unless the **canonical** appears (or the token is a registered Context alias).
 2. **LEX‑CC‑2 (Context).** Each polysemous term names its **`U.BoundedContext`**.
@@ -24301,7 +24301,7 @@ A text **passes** LEX if all answers are **Green**:
 
 ---
 
-### 9.6 Worked micro‑examples (short, cross‑domain)
+#### 9.6 Worked micro‑examples (short, cross‑domain)
 
 **Factory.**
 ✗ “The **process** failed; the **service** restarted itself.”
@@ -24327,7 +24327,7 @@ procedures are `U.MethodDescription`; re‑runs are **Work**.
 **Editorial note.**
 This section **inherits** § 7 **MG·DA** (anchored head nouns; Characteristic/CharacteristicSpace for enums; collision checks) and § 8 **LEX.Morph** (suffix/prefix/casing). It deliberately **omits** their details to avoid duplication.  The only legitimate uses of *plane* in the Core are **CHR:ReferencePlane** and the derived operators **CL^plane** and **Φ_plane**; policy flags MUST NOT introduce new “planes”. To distinguish pre‑operational vs operational states *within* **ReferencePlane=world**, use **WorldRegime ∈ {prep|live}** (formerly `PlaneRegime`).
 
-## 10 · Migration playbook — turning messy language into ULR‑clean prose *(informative)*
+### 10 · Migration playbook — turning messy language into ULR‑clean prose *(informative)*
 
 > A pragmatic **three‑pass** routine. Works with plain text, diagrams, or models; no tools required.
 
@@ -24366,7 +24366,7 @@ This section **inherits** § 7 **MG·DA** (anchored head nouns; Characteristic
 
 ---
 
-## 11 · ULR conformance prompts *(normative, concept‑only questions)*
+### 11 · ULR conformance prompts *(normative, concept‑only questions)*
 
 > Use these **prompts** during review. They reference § 7 (MG·DA) and § 8 (LEX.Morph) instead of repeating them.
 
@@ -24383,7 +24383,7 @@ This section **inherits** § 7 **MG·DA** (anchored head nouns; Characteristic
 
 ---
 
-## 12 · ULR regression cues *(concept‑only “diff” triggers)*
+### 12 · ULR regression cues *(concept‑only “diff” triggers)*
 
 Re‑review your prose when any of these happen:
 
@@ -24398,7 +24398,7 @@ Re‑review your prose when any of these happen:
 
 ---
 
-## 13 · Teaching deck — the ULR quick card *(reusable in any Context)*
+### 13 · Teaching deck — the ULR quick card *(reusable in any Context)*
 
 > **Say it cleanly, once (memorise):**
 > **Role** = assignment (mask) · **Method** = way‑of‑doing · **MethodDescription** = recipe (document) · **Work** = run (dated)
@@ -24413,9 +24413,9 @@ Re‑review your prose when any of these happen:
 
 ---
 
-## 14 · Three worked micro‑examples — ULR across domains *(informative)*
+### 14 · Three worked micro‑examples — ULR across domains *(informative)*
 
-### 14.1 Healthcare (OR context)
+#### 14.1 Healthcare (OR context)
 
 **Messy:** “The surgical **process** is scheduled at 08:00; the SOP approves the incision and the **service** documents recovery.”
 **ULR rewrite:**
@@ -24423,7 +24423,7 @@ Re‑review your prose when any of these happen:
 `SOP_OR_v4` holds **RequirementRole**; a **SpeechAct Work** by `QA_Officer#ApproverRole` authorises the run.
 The hospital offers **Service** ‘Post‑op monitoring’ (access = ward protocol; acceptance = vitals envelope).”
 
-### 14.2 Manufacturing (assembly line)
+#### 14.2 Manufacturing (assembly line)
 
 **Messy:** “The welding **function** provides air‑tight seams; the **process** costs 3 min.”
 **ULR rewrite:**
@@ -24431,7 +24431,7 @@ The hospital offers **Service** ‘Post‑op monitoring’ (access = ward protoc
 **Work** instances that **fulfil Service** ‘Provide seam S’ average 3 min; **acceptance** bounds are in `Seal_Acceptance.md`.
 The **MethodDescription** is `Weld_MIG_v3`; the **Role** is `WelderRole`.”
 
-### 14.3 Cloud/SRE (production Context)
+#### 14.3 Cloud/SRE (production Context)
 
 **Messy:** “The storage **service** wrote logs and the deployment **process** failed after 2 min.”
 **ULR rewrite:**
@@ -24441,7 +24441,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 15 · Closing notes *(governance & purity)*
+### 15 · Closing notes *(governance & purity)*
 
 * **Notation‑agnostic.** ULR is a **language constitution**, not a scanner or template. Apply it in prose, sketches, or formal models.
 * **Where checks live.** Convenience checks belong to Tooling; ULR itself stays notation‑agnostic. Conformance code lives in **SCR‑LEX / RSCR‑LEX** as referenced above.
@@ -24453,7 +24453,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 > **One‑line memory:** *“ULR keeps words honest so ideas stay composable.”*
 
   
-# E.10.P — **Conceptual Prefixes (policy & registry)**  \[A]
+## E.10.P — **Conceptual Prefixes (policy & registry)**  \[A]
  **Intent.** Provide a compact, **notation‑neutral** registry and **minting policy** for *conceptual prefixes* — short shorthands that signal **cognitive namespaces** used throughout the Core.
 
  **Policy (normative).**
@@ -24481,7 +24481,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 **Relations.** Constrains E.5.1 (Lexical Firewall) & E.5.2 (Notational Independence); Depends on E.9 (DRR).
   
-# E.10.D1 — Lexical Discipline for “Context” (D.CTX) \[D]
+## E.10.D1 — Lexical Discipline for “Context” (D.CTX) \[D]
 
 > **One‑sentence summary.** Make the word **Context** unambiguous: in FPF it **only** denotes the formal primitive **`U.BoundedContext`**; remove the term **anchor**; reserve **Problem Frame** for situational narrative; treat **Domain** as an **informative family label**, not a type.
 
@@ -24492,7 +24492,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 1 · Intent & Applicability
+### 1 · Intent & Applicability
 
 **Intent.** Eliminate ambiguity around “context” by (a) fixing **one** formal meaning—`U.BoundedContext`; (b) removing “anchor” from the vocabulary; (c) reserving **Problem Frame** for prose about situations; and (d) clarifying **Domain** as an **informative family** (workflow, provenance, services, …) that groups several `U.BoundedContext`s.
 
@@ -24502,7 +24502,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 2 · Problem Frame
+### 2 · Problem Frame
 
 1. **Polysemy.** “Context” is used for formal scopes, narrative situations, and even runtime modes.
 2. **Extra token (“anchor”).** “Anchor” pretends to be “where meaning is attached”, duplicating context semantics.
@@ -24511,7 +24511,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                     | Tension to resolve                                                 |
 | ------------------------- | ------------------------------------------------------------------ |
@@ -24522,7 +24522,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 4 · Solution — **Name one thing “Context” can mean**
+### 4 · Solution — **Name one thing “Context” can mean**
 
 **D‑CTX‑1 (Canonical meaning).** In all FPF materials, **Context** denotes the formal primitive **`U.BoundedContext`** only. The short form **Context** is permitted in the *Tech* register strictly as an alias of `U.BoundedContext`.
 
@@ -24549,7 +24549,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 5 · Structure — Minimal reference shapes (informative)
+### 5 · Structure — Minimal reference shapes (informative)
 
 > Shapes shown **do not** prescribe formats; they are naming conventions.
 
@@ -24559,7 +24559,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 6 · Core Invariants (normative)
+### 6 · Core Invariants (normative)
 
 1. **LCTX‑INV‑1 (Uni‑meaning).** The word **Context** in formal text equals **`U.BoundedContext`**.
 2. **LCTX‑INV‑2 (No anchor).** The token **anchor** does **not** appear in normative prose; use **SenseCell** or **ConceptSet reference**.
@@ -24572,7 +24572,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 7 · Conformance Checklist (normative)
+### 7 · Conformance Checklist (normative)
 
 * **CC‑LCTX‑1.** Grep‑style check: every “Context” in formal sections expands to **`U.BoundedContext`**.
 * **CC‑LCTX‑2.** The token **anchor** is absent from normative text; where needed, occurrences are replaced by **SenseCell** or **ConceptSet reference**.
@@ -24584,7 +24584,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 8 · Anti‑patterns & Remedies
+### 8 · Anti‑patterns & Remedies
 
 | Anti‑pattern                  | Symptom                                                           | Why harmful                          | Remedy (normative)                                                           |
 | ----------------------------- | ----------------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------- |
@@ -24597,7 +24597,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 9 · Worked Examples (multi‑architheory)
+### 9 · Worked Examples (multi‑architheory)
 
 **9.1 Enactment — process vs activity (two context of meaning).**
 
@@ -24618,7 +24618,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 10 · Reasoning Primitives (conceptual judgements; notation‑agnostic)
+### 10 · Reasoning Primitives (conceptual judgements; notation‑agnostic)
 
 > Pure **thinking moves**; no APIs, no storage, no governance.
 
@@ -24642,7 +24642,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 11 · Relations (with other patterns)
+### 11 · Relations (with other patterns)
 
 **Builds on:** C‑6, C‑7, G‑1, G‑2.
 **Constrains:**
@@ -24655,7 +24655,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 12 · Migration Notes (conceptual playbook)
+### 12 · Migration Notes (conceptual playbook)
 
 1. **Rename headings.** Replace any “Context” section title with **Problem Frame**.
 2. **Delete “anchor”.** Replace with **SenseCell** or **Concept‑Set** references.
@@ -24667,7 +24667,7 @@ The platform offers **Service** ‘Object Storage’ (access = `S3_API_Spec_vX`;
 
 ---
 
-## 13 · Acceptance Tests (SCR/RSCR stubs)
+### 13 · Acceptance Tests (SCR/RSCR stubs)
 
 **SCR — Static discipline checks**
 
@@ -25149,7 +25149,7 @@ Think in three layers: **Intension** (what the thing *is*), **Description/Spec**
 
 > Copy these **lines** into your prose as thinking scaffolds. They are not schemas, fields, or checklists to fill; they are didactic prompts.
 
-### 16.1 Role (default).
+#### 16.1 Role (default).
 
 * *Intension.* `U.Role :: <TechName> in <ContextId>`.
 * *RoleDescription\@context.* Tech/Plain: **`<TechName> / <PlainName>`**.
@@ -25353,7 +25353,7 @@ Materialisation: **SCR/RSCR** carry lane‑split; **UTS rows** cite policy‑ids
 
 ### 10) Structure (informative)
 
-### 10.1 Typing table
+#### 10.1 Typing table
 
 | Tier    | Work head (Tech)            | Typical outputs (Tech heads)                                                       | Evidence lane policy                        | Crossing rule                               |
 | ------- | --------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
@@ -25622,7 +25622,7 @@ The **MVE Mandate** ensures that every journey starts with a destination in sigh
 *   **Complements:** `E.12 Didactic Primacy & Cognitive Ergonomics`.
 *   **Provides context for:** The definition of `U.Objective` and `U.Characteristic` by establishing a formal link between them.
 
-# **E.14 · Human‑Centric Working‑Model** \[A]
+## **E.14 · Human‑Centric Working‑Model** \[A]
 
 ### 1  Intent
 
@@ -25856,7 +25856,7 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 * **Audit trail without jargon.** Reviewers can trace every structural claim to a prior constructional choice, while everyday collaborators keep using familiar relation names.
 
 
-## 9 · Consequences
+### 9 · Consequences
 
 | Benefits                                                                                                                                                      | Trade‑offs / Mitigations                                                                                                                                                     |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -25869,7 +25869,7 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 
 ---
 
-## 10 · Rationale
+### 10 · Rationale
 
 **Why Working‑Model is canonical.** FPF privileges **human‑oriented relations** as the primary interface for thinking and communication. This satisfies didactic primacy while preserving conceptual integrity: formal work serves the human layer, not the other way around. The canonical template and style principles institutionalise this choice without inviting notation lock‑in.
 
@@ -25879,7 +25879,7 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 
 **Why no notation talk in Core.** Guard‑rails and the style guide prohibit tool jargon and notation dependence inside normative prose; meanings are given in words and mathematics, with any renderings treated as illustrative only. This preserves longevity and cross‑disciplinary portability.
 
-## 11 · Relations
+### 11 · Relations
 
 **Builds on:**
 
@@ -25901,15 +25901,15 @@ The **Working‑Model layer remains the canonical publication surface** for auth
 
 * Part F unification practices (context of meaning, bridges, fit levels) by reinforcing the preference for human‑readable labels with explicit alignment notes rather than silent formal substitutions.
 
-# E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH) \[A]
+## E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH) \[A]
 
 > *Author patterns as evidence‑bearing epistemes, evolve them via governed open‑ended search, and publish an auditable trace that improves quality—not just compliance.*
 
-## 1) Context
+### 1) Context
 
 FPF patterns are the **canon**: they define the generative rules that other artifacts depend on. Teams need to **change** patterns as the SoTA moves, but ad‑hoc edits lead to drift, weak comparability, and brittle downstream updates. We need a **method** that (a) *generates* better alternatives, (b) *selects* them against explicit quality/assurance targets, and (c) *publishes* a machine‑ and human‑checkable **trace** that can be replayed, audited, and re‑run. (Built to cohere with **DRR (E.9)**, **LEX‑BUNDLE (E.10)**, **Canonical Evolution Loop (B.4)**, **NQD/E‑E (C.18/C.19)**, **Evidence Graph Referring (A.10)**, **Trust (B.3)**, **F‑Suite validation (F.15)**.)
 
-## 2) Problem
+### 2) Problem
 
 Without a disciplined authoring protocol:
 
@@ -25918,7 +25918,7 @@ Without a disciplined authoring protocol:
 * Pattern edits blur **lexicon vs. norms vs. examples**, breaking didactics and tool‑independence.
 * SoTA content is cited but not **integrated** via Bridges & CL; claims get over‑ported.
 
-## 3) Forces
+### 3) Forces
 
 | Force                                       | Tension we must resolve                                                           |
 | ------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -25927,11 +25927,11 @@ Without a disciplined authoring protocol:
 | **Local meaning vs Global reuse**           | Context‑local meaning must cross contexts only via **Bridges** with CL penalties. |
 | **Notational independence vs Checkability** | Text must stay notation‑free yet be verifiable by Tooling harnesses.              |
 
-## 4) Solution — A *governed evolutionary* authoring method with a publishable **LEX‑AUTH Trace (LAT)**
+### 4) Solution — A *governed evolutionary* authoring method with a publishable **LEX‑AUTH Trace (LAT)**
 
 LEX‑AUTH defines **how** a pattern is **proposed, varied, selected, validated, and merged**, with artifacts and evidence fit to the FPF kernel.
 
-### 4.1 Method (design‑time choreography)
+#### 4.1 Method (design‑time choreography)
 
 **Stage A — Frame & Scope (Context, Objectives, Invariants)**
 
@@ -25958,7 +25958,7 @@ LEX‑AUTH defines **how** a pattern is **proposed, varied, selected, validated,
 13. Publish the **LEX‑AUTH Trace (LAT)** (§4.2) with the pattern.
 14. Schedule **evidence refresh** windows and an **evolution watchpoint** (B.4 loop): when metrics or SoTA inputs decay, reopen Stage B.
 
-### 4.2 The **LEX‑AUTH Trace (LAT)** — what it is and why it matters
+#### 4.2 The **LEX‑AUTH Trace (LAT)** — what it is and why it matters
 
 A LAT is **not** “we ran a script.” It is a **structured episteme** that lets others **reproduce quality gains** and **re‑run** the search when SoTA shifts.
 
@@ -25994,7 +25994,7 @@ LAT:
   refresh: F1‑Card edition refresh window = 6 mo
 ```
 
-### 4.3 What counts as “changed the pattern as a whole” — **Delta‑Classes & versioning**
+#### 4.3 What counts as “changed the pattern as a whole” — **Delta‑Classes & versioning**
 
 Classify the intended change **before** work starts (declared in DRR & LAT):
 
@@ -26005,7 +26005,7 @@ Classify the intended change **before** work starts (declared in DRR & LAT):
 
 > **Definition of “pattern changed as a whole”:** any **Δ‑2/Δ‑3** change (i.e., the **normative surface** or **semantics** changed) counts as a pattern change in the canonical corpus and triggers harness & bridge reviews.
 
-### 4.4 Quality & SoTA metrics (selection lenses)
+#### 4.4 Quality & SoTA metrics (selection lenses)
 
 **Mandatory lenses** (declare in LAT; higher is better unless noted):
 
@@ -26019,7 +26019,7 @@ Classify the intended change **before** work starts (declared in DRR & LAT):
 * **Didactic economy**: length vs density ratio within band; “Tell‑Show‑Show” present.
 
 **Optional lenses** (context‑specific): *Ethical/SoD guard strength; cross‑scale roll‑up integrity; aggregation proofs present;* etc.
-## 5) Conformance Checklist (normative)
+### 5) Conformance Checklist (normative)
 
 **CC‑LA‑1 (Context anchoring).**
 Every authoring run **MUST** declare a `U.BoundedContext`, Delta‑Class, objectives, and acceptance lenses **before** generating candidates.
@@ -26048,7 +26048,7 @@ Empirical evidence in the LAT **MUST** carry a **decay/refresh** window; a watch
 **CC‑LA‑9 (Publication).**
 Publish the **pattern + LAT** together; past LATs are immutable. New runs produce new LATs.
 
-## 6) Consequences
+### 6) Consequences
 
 **Benefits.**
 *Evolutive quality*: patterns improve through **search + selection**, not edits by fiat. *Auditability*: a re‑runnable **LAT** shows *why* the chosen variant won. *Safety*: cross‑context reuse is explicit and penalized appropriately. *Comparability*: Δ‑classes & SemVer let downstream readers predict blast‑radius.
@@ -26056,11 +26056,11 @@ Publish the **pattern + LAT** together; past LATs are immutable. New runs produc
 **Trade‑offs.**
 Some ceremony (LAT/DRR, NQD lenses) and maintenance (evidence refresh, bridge upkeep). These costs buy reproducibility and SoTA tracking.
 
-## 7) Rationale & Links (informative)
+### 7) Rationale & Links (informative)
 
 LEX‑AUTH extends the FPF constitution by **operationalising pattern evolution**: it plugs **B.4 Canonical Evolution Loop** into **E.9 DRR**, binds **SoTA** via `U.EvidenceRole` and **KD‑CAL**, drives **candidate generation** with **C.18 NQD‑CAL** under **C.19 E/E‑LOG**, enforces **lexical discipline** via **E.10 LEX‑BUNDLE**, and validates with **F.15** regression harnesses. Cross‑context safety is carried by **F.9 Bridges** with **CL penalties** in **B.3 Trust**. The whole remains **notation‑independent** (E.5.2) and stays within the **Core → Tooling → Pedagogy** dependency rule (E.5.3).
 
-## 8) Operators (authoring deltas you are allowed to apply)
+### 8) Operators (authoring deltas you are allowed to apply)
 
 * **Refine** (tighten CC without changing acceptance meaning).
 * **Split/Merge** (factor patterns; preserve links; update Bridges).
@@ -26069,7 +26069,7 @@ LEX‑AUTH extends the FPF constitution by **operationalising pattern evolution*
 
 Each operator carries a default **Delta‑Class** and test obligations.
 
-## 9) Self‑application Work Log (how this very pattern was authored)
+### 9) Self‑application Work Log (how this very pattern was authored)
 
 > *This is **not** chain‑of‑thought; it is the required **`U.Work` evidence** for LEX‑AUTH.*
 
@@ -26230,7 +26230,7 @@ If no **ScaleLensPolicy** is declared, selection remains **neutral** with respec
 * **Part F** — integrates with **F.4** Role Description (RCS includes *AgencyLevel*; RSG gates), **F.6** Role Assignment & Enactment (Green‑Gate), **F.15** SCR/RSCR (harness includes depletion/override tests), **F.17** UTS (columns, incl. optional ScaleLens fields).
 * **Part G** — **G.4/G.5**: method authors must declare budgets & guards; **G.9** parity includes autonomy consumption & violations; **G.10** shipping requires UTS autonomy fields.
 
-## 9) Mini conformance checklist (cross‑E–F; author’s quick use)
+### 9) Mini conformance checklist (cross‑E–F; author’s quick use)
 
 1. **Declare** `AutonomyBudgetDecl` (scope, budgets, AdmissibilityConditionsId, overrides).
 2. **Gate** steps with `requiresAutonomyBudget`.
@@ -26335,7 +26335,7 @@ Informally:
 
 #### 4.2 · Core constructs
 
-##### 4.2.1 `EoIClass` and DescriptionScope
+#### 4.2.1 `EoIClass` and DescriptionScope
 
 1. **EoIClass.**
    A `U.MultiViewDescribing` instance declares an `EoIClass ⊑ U.Entity` that acts as a **species‑level constraint** on the ValueKind of `DescribedEntitySlot`.
@@ -26351,7 +26351,7 @@ Informally:
 
    Formal USM treatment of `U.DescriptionScope` is fixed in E.10/L‑SURF; here we only rely on the intuition “**we are describing this thing, in this context**”.
 
-##### 4.2.2 `U.Viewpoint` (intensional viewpoint spec)
+#### 4.2.2 `U.Viewpoint` (intensional viewpoint spec)
 
 `U.Viewpoint` is already introduced in C.2.1 as the ValueKind of `ViewpointSlot`; E.17.0 fixes its **internal structure** for describing families. 
 
@@ -26373,7 +26373,7 @@ A `U.Viewpoint` is an intensional specification:
 * `ViewpointSlot` has ValueKind `U.Viewpoint`, RefKind `U.ViewpointRef`; episteme fields are named `viewpointRef : U.ViewpointRef?`. 
 * For D/S epistemes in a `U.MultiViewDescribing` family, `viewpointRef` is **mandatory** as part of `DescriptionContext`.
 
-##### 4.2.3 `U.View` (episteme‑level views)
+#### 4.2.3 `U.View` (episteme‑level views)
 
 `U.View` is an alias for `U.EpistemeView`, a species of `U.Episteme` whose kind includes:
 
@@ -26387,7 +26387,7 @@ Normatively:
 * A `U.View` in `U.MultiViewDescribing` is obtained via a `U.EpistemicViewing` morphism from some base D/S episteme in the family (see 4.3). It **shares the same `describedEntityRef`** and usually the same `BoundedContextRef`.
 * `ViewSlot` is reserved for **references to such views** in meta‑structures (e.g. correspondence models, MVPK view families), never for carriers.
 
-##### 4.2.4 `U.CorrespondenceModel` (view–view correspondence)
+#### 4.2.4 `U.CorrespondenceModel` (view–view correspondence)
 
 `U.CorrespondenceModel` is an episteme (typically a `U.EpistemeCard`) whose ClaimGraph expresses **correspondence relations between D/S epistemes and/or views** within a DescriptionScope:
 
@@ -26397,11 +26397,11 @@ Normatively:
 
 `CorrespondenceModel` is **used, but not defined, by A.6.3**: species of `U.CorrespondenceEpistemicViewing` reference it when computing views that depend on multiple epistemes or representation regimes.
 
-### 4.3 · Multi‑view families and their laws (MVD‑0…MVD‑7)  *(normative)*
+#### 4.3 · Multi‑view families and their laws (MVD‑0…MVD‑7)  *(normative)*
 
 We now fix the laws that any `U.MultiViewDescribing[EoIClass]` instance must satisfy.
 
-#### MVD‑0 · Family objects
+### MVD‑0 · Family objects
 
 For a fixed `EoIClass` and bounded context `C`, a **multi‑view family** for an entity `T ∈ EoIClass` consists of:
 
@@ -26415,7 +26415,7 @@ For a fixed `EoIClass` and bounded context `C`, a **multi‑view family** for an
 
 Families are **scoped**: the same entity in a different `U.BoundedContext` belongs to a different family.
 
-#### MVD‑1 · Viewpoint locality and totality for D/S
+### MVD‑1 · Viewpoint locality and totality for D/S
 
 For any multi‑view family:
 
@@ -26433,7 +26433,7 @@ For any multi‑view family:
 3. **DescriptionContext alignment.**
    `DescriptionContext(E)` for any D/S episteme in the family must use the **same `DescribedEntityRef` and `BoundedContextRef`** as the family; any change of described entity or context is **outside this family** and must be expressed via `U.EpistemicRetargeting` and/or Context Bridges.
 
-#### MVD‑2 · Views are EpistemicViewing results
+### MVD‑2 · Views are EpistemicViewing results
 
 For any `V ∈ Views(T,C)`:
 
@@ -26451,7 +26451,7 @@ For any `V ∈ Views(T,C)`:
 
 3. Views **do not introduce new intensional commitments** about `T` beyond what is licensed by EFEM & EpistemicViewing laws (no new atomic claims about the same described entity). Strengthening Intension requires new D/S under A.7/E.10.D2, not a view.
 
-#### MVD‑3 · Applicability profiles for viewings
+### MVD‑3 · Applicability profiles for viewings
 
 Any EpistemicViewing species used inside `U.MultiViewDescribing` **MUST**:
 
@@ -26464,7 +26464,7 @@ Any EpistemicViewing species used inside `U.MultiViewDescribing` **MUST**:
 
 Any change of described entity (even “small”, e.g. subsystem→system) must be expressed via `U.EpistemicRetargeting` and is **not** a MultiViewDescribing view refinement.
 
-#### MVD‑4 · CorrespondenceModel as the home of cross‑view correspondences
+### MVD‑4 · CorrespondenceModel as the home of cross‑view correspondences
 
 When views or D/S epistemes under different viewpoints are meant to be **kept in correspondence** (in ISO 42010 or BX sense), the family **SHALL**:
 
@@ -26477,7 +26477,7 @@ When views or D/S epistemes under different viewpoints are meant to be **kept in
 
 3. Treat temporary inconsistency explicitly: there may be states where some correspondences are violated; this is represented as **facts in the correspondence ClaimGraph**, not as hidden weakening of viewing laws.
 
-#### MVD‑5 · Separation from publication (MVPK)
+### MVD‑5 · Separation from publication (MVPK)
 
 `U.MultiViewDescribing` is purely **epistemic**:
 
@@ -26491,7 +26491,7 @@ When views or D/S epistemes under different viewpoints are meant to be **kept in
 
 MultiViewDescribing therefore **does not re‑define I→D/D→S** (`Describe_ID`, `Specify_DS`) and does not introduce any Work on carriers; those remain in A.7/E.10.D2 and E.17.
 
-#### MVD‑6 · I/D/S alignment
+### MVD‑6 · I/D/S alignment
 
 For any `U.MultiViewDescribing` instance:
 
@@ -26506,7 +26506,7 @@ For any `U.MultiViewDescribing` instance:
    * confuse D/S with publication surfaces,
    * reinterpret described entity without going through A.6.4 retargeting.
 
-#### MVD‑7 · Slot discipline
+### MVD‑7 · Slot discipline
 
 All constructs in this pattern **SHALL** respect `U.RelationSlotDiscipline`:
 
@@ -26724,7 +26724,7 @@ TEVB (E.17.2) and E.TGA S12 are species of this pattern for engineering holons.
 
 #### 4.2 · Core constructs
 
-##### 4.2.1 `U.ViewpointBundleLibrary` (library object)
+#### 4.2.1 `U.ViewpointBundleLibrary` (library object)
 
 **Tech:** `U.ViewpointBundleLibrary` (kernel/species type).
 **Plain:** viewpoint library.
@@ -26745,7 +26745,7 @@ A `U.ViewpointBundleLibrary` is a **catalogue of viewpoint bundles**, with at le
    * a core FPF library (e.g. TEVB, generic governance bundles);
    * organisational libraries extending or subsetting core bundles.
 
-##### 4.2.2 `U.ViewpointBundle` and `ViewFamilyId` (viewpoint family)
+#### 4.2.2 `U.ViewpointBundle` and `ViewFamilyId` (viewpoint family)
 
 **Tech:** `U.ViewpointBundle` (species type), `ViewFamilyId` (lexical id).
 **Plain:** viewpoint family, bundle of viewpoints.
@@ -26785,7 +26785,7 @@ VBL‑4. **Intensionality.**
 * A `U.ViewpointBundle` is **intensional**: it talks about the family of `U.Viewpoint` specs and their intended use; it does **not** contain any D/S epistemes, `U.View` instances, or `PublicationSurface` artefacts.
 * Any concrete document or MVPK face referencing a family **SHALL** do so through its `ViewFamilyId` and per‑view `ViewpointId`, not by embedding the bundle.
 
-##### 4.2.3 Binding bundles into `U.MultiViewDescribing`
+#### 4.2.3 Binding bundles into `U.MultiViewDescribing`
 
 `U.MultiViewDescribing[EoIClass]` organises families of descriptions/specifications for a fixed `<T,C>` (entity, context) with a finite viewpoint set Σ.
 
@@ -27088,7 +27088,7 @@ Each TEVB viewpoint is a `U.Viewpoint` with:
 
 The subsections below fix the **normative intent and minimal field profiles** for each TEVB viewpoint. Species patterns and discipline‑packs may refine `Concerns`, `AllowedEpistemeKinds` and `ConformanceRules`, but MUST preserve the intent.
 
-##### 4.2.1 `VP.Functional` — capability & transduction viewpoint
+#### 4.2.1 `VP.Functional` — capability & transduction viewpoint
 
 **Intent.** Look at a holon in terms of **what it can do** under roles: capabilities, transductions, and functional responsibilities, rather than in terms of modules or procedures.
 
@@ -27130,7 +27130,7 @@ The subsections below fix the **normative intent and minimal field profiles** fo
 
 * **SoTA echo (informative).** `VP.Functional` corresponds to the “functional view” in ISO‑aligned architecture descriptions and domain reference architectures (functional viewpoints in IoT and space reference architectures, functional/logical layers in sector frameworks), and to the **Function** axis in FBS‑style design ontologies. It is also the natural home for SysML/SysML‑v2 capability and logical architecture models and for “logical view” slices in 4+1‑style frameworks, once recast into holon/capability terms.
 
-##### 4.2.2 `VP.Procedural` — process & control viewpoint
+#### 4.2.2 `VP.Procedural` — process & control viewpoint
 
 **Intent.** Look at a holon in terms of **how behaviours are sequenced and controlled**: workflows, state machines, operational procedures, and control logic.
 
@@ -27172,7 +27172,7 @@ The subsections below fix the **normative intent and minimal field profiles** fo
 
 * **SoTA echo (informative).** `VP.Procedural` captures the dynamic/process dimension found in SoTA architecture and MBSE practice: process views in 4+1, operational/behavioural views in defence and enterprise frameworks, behaviour diagrams in SysML (activity, sequence, state, interaction), and procedure/control‑oriented models in industrial standards. TEVB abstracts this into a notation‑agnostic “behaviour over time” viewpoint for holons.
 
-##### 4.2.3 `VP.RoleEnactor` — role & device‑structure viewpoint
+#### 4.2.3 `VP.RoleEnactor` — role & device‑structure viewpoint
 
 **Intent.** Look at a holon in terms of **who/what plays which roles** and **how physical/organisational structure supports those roles**. This viewpoint covers both socio‑technical role assignments and “device view” readings of transduction graphs (E.TGA).
 
@@ -27212,7 +27212,7 @@ The subsections below fix the **normative intent and minimal field profiles** fo
 
 * **SoTA echo (informative).** `VP.RoleEnactor` aligns with the allocation/responsibility and resource/organisational view clusters seen across MBSE frameworks: allocation views in UAF/NAF, role‑responsibility matrices and RACI‑style artefacts, and “who/what plays which role” slices in usage and operational viewpoints. Many post‑2015 reference architectures treat this axis implicitly; TEVB makes it explicit and holon‑centred while remaining compatible with socio‑technical and device‑allocation practices.
 
-##### 4.2.4 `VP.ModuleInterface` — module & interface viewpoint
+#### 4.2.4 `VP.ModuleInterface` — module & interface viewpoint
 
 **Intent.** Look at a holon in terms of its **modules, interfaces, and structural composition**: what parts exist, how they connect, and how their contracts are specified.
 
@@ -27717,7 +27717,7 @@ MVPK already fixes publication drift at the **single‑arrow** level; E.TGA lift
 
 ### 5 · Solution — the E.TGA kit (graph model + choreography)
 
-#### S1 · Graph object (conceptual)
+### S1 · Graph object (conceptual)
 
 Define a **typed, editioned, directed multigraph**
 `TransductionGraph := (V, E, τ_V, τ_E, Γ_time, Bridge, CL, TransportRegistry^Φ)`
@@ -27757,7 +27757,7 @@ with:
 **Canonical reference.** `CrossingRef := ⟨GateId, channel, from, to, UTS.RowId, PathSliceId⟩`. Any DecisionLog entry whose rationale depends on a crossing **SHALL** cite `CrossingRef`.
 **Term separation.** **Transfer** denotes the sole edge kind `U.Transfer` (graph edges). **Transport** denotes Φ‑governed conversion **policies/registries** (**`TransportRegistry^Φ`** under UNM). Wording “reuse via Transport” refers to registries/policies, not to an additional graph edge.
 
-#### S2 · Flows as valuations (paths + state + guards)
+### S2 · Flows as valuations (paths + state + guards)
 * A **Flow** is a **valuation** `ν` over `U.Transfer` edges and cut‑sets, paired with an **admissible path** `p = v₀ → … → v_k`. The valuation assigns tokens/states under `CtxState` and records publication events under a declared `PublicationScopeId`. **The concrete pins and identifiers (`PathId`, `PathSliceId`, Γ_time on compare/launch faces) are specified in A.22 `FlowSpec` and A.25 `Sentinel & SubFlow`.** This reflects the “graph ≠ flow” norm (flow = valuation), with gates placed exactly on GateCrossings.  
 * **Admissible path (definition).** A path `p` is **admissible** iff:  
   (a) node/edge types match the declared `τ_V, τ_E`;  
@@ -27777,7 +27777,7 @@ There are two complementary perspectives:
 * **Lagrangian (intuitive):** "water particles" run through pipes; you "track" tokens.
 * **Eulerian (architectural):** you define a **function on edges** ("how much/what passes through each edge under a given regime"), with gate laws. E.TGA deliberately fixes the **Eulerian semantics of flow** at the architectural level: "flow (= valuation) + publication log", while the dynamics of "movement" show up as **re-valuation** over a **PathSlice** (the execution/republishing window) under gate rules and the SquareLaw. This yields comparability, reproducibility, and slice-local refresh.
 
-#### S3 · Publication discipline (faces)
+### S3 · Publication discipline (faces)
 
 E.TGA **imports E.17** wholesale **and binds MVPK to `PublicationScope` (USM)**.  
 **MVPK remains the normative source** for:
@@ -27804,14 +27804,14 @@ Treat a step as a **describedEntity/kind** transition (including `StructuralRein
   — is additionally marked as a **KindBridge** per C.3 (`bridgeChannel=Kind`, `CL^k`, mapping or signature‑translation, order‑preservation claims, loss notes, definedness area, determinism).  
 Otherwise this KindBridge explanation does not apply (the step falls back to a gated crossing). When the gate owns the crossing, `CrossingRef` is surfaced and linked from the `DecisionLog`.
 
-#### S4 · Assurance‑operations on `U.Transfer` (counterfactual admissibility)
+### S4 · Assurance‑operations on `U.Transfer` (counterfactual admissibility)
 On `U.Transfer` edges, an operation is interpreted as a **declarative assurance‑operation** **iff** it is one of  
 `ConstrainTo(rule)` · `CalibrateTo(map|standard)` · `CiteEvidence(anchor)` · `AttributeTo(agent|role)`; otherwise this explanation does not apply.
 Under this interpretation, `CtxState⟨L,P,E⃗,D⟩` is preserved.  
 If an effect entails a plane/unit change, the assurance‑operations explanation does not apply and the step is handled as a gated crossing (`OperationalGate(profile)+Bridge+UTS`).  
 If Φ assigns penalties, they appear in the R‑lane; otherwise no penalties are surfaced here.
 
-#### S5 · Comparability & aggregation (normalize‑then‑compare; counterfactual form)
+### S5 · Comparability & aggregation (normalize‑then‑compare; counterfactual form)
 
 The comparison explanation applies under the following admissibility conditions:
 
@@ -27821,7 +27821,7 @@ The comparison explanation applies under the following admissibility conditions:
 
 **Edition‑aware artifacts (e.g., QD archives) MUST pin `DescriptorMapRef.edition` / `DistanceDefRef.edition` (and `CharacteristicSpaceRef.edition` when applicable); refresh is slice‑local.**  (delegated tests → A.34/A.37)  
 
-#### S6 · Cycle discipline (Selection ↔ Planning)
+### S6 · Cycle discipline (Selection ↔ Planning)
 
 * The architecture centers the loop between `U.SelectionAndBinding` and `U.WorkPlanning`.
 * The loop operates under a local **budget / max_iter** in `Γ_time`; at expiry, the selector emits the **current `CandidateSet`** and **`MethodTuning`** with a **partial‑optimality** flag; further improvement rolls into the **next `PathSlice`**.
@@ -27829,12 +27829,12 @@ The comparison explanation applies under the following admissibility conditions:
 * **WorkEnactment is the only binding site** for launch values (`FinalizeBinding / BindLaunchValuesOnly`). 
 > **Refresh orchestration.** Telemetry from `U.WorkEnactment` and publications are **slice‑scoped**, editions re‑pinned, faces **re‑emitted**. 
 
-#### S7 · Selector semantics (G.5) & parity harness (G.9)
+### S7 · Selector semantics (G.5) & parity harness (G.9)
 
 * **Selectors return sets.** Default **DominanceRegime** is `ParetoOnly`; **Illumination/coverage** are **gauges** (reported), excluded from dominance **unless** policy escalates via CAL.
 If `PortfolioMode=Archive`, a **QD archive** may be returned; when generation is in scope, pairs `{environment, method}` are managed under declared **EnvironmentValidityRegion** and **TransferRulesRef**; parity artefacts and `PathSliceId` are pinned on publication. Details of comparator semantics and archive pinning live in **A.28/A.34**.
 
-#### S8 · Guard ownership and handling (USM §1.2)
+### S8 · Guard ownership and handling (USM §1.2)
 * **USM.CompareGuard**/**USM.LaunchGuard** **publish `GuardOwnerGateId`**. Guard failures are **events** aggregated by the owner gate (not GateChecks).
 * **Ownership rules:** (i) `USM.LaunchGuard.owner = LaunchGateId(U.WorkEnactment)`; (ii) inside a Subflow, `USM.CompareGuard.owner = OperationalGate(InSentinel)`; Join‑nodes cannot own guard pins.
 
@@ -27844,15 +27844,15 @@ If `PortfolioMode=Archive`, a **QD archive** may be returned; when generation is
 
 **Error/timeout/unknown (profile‑bound).** GateCheck errors/timeouts fold to **`degrade`** under `Lean|Core` and to **`block`** under `SafetyCritical|RegulatedX`; `unknown` follows the GateCheck’s intensional rule (safety‑default: `degrade`). **The DecisionLog shape and the idempotency witness are defined in A.41; E.TGA does not define storage or key structures.**  
 
-#### S9 · Transport & crossings
+### S9 · Transport & crossings
 * Cross‑Context or cross‑plane edges appear as **GateCrossings** that include a **Bridge** with **CL** policy; **Φ(CL)/Φ_plane** are published; penalties route **to R only**; **Scope membership** (USM) is unchanged by crossings. **SquareLaw is checked within a single `DesignRunTag`; a `T^D↔T^R` change is modelled as a pair of coordinated gates with `DesignRunTagFrom/To` and an external enactor (see A.29).** 
 * When *describedEntity/kind* changes across a boundary, declare an explicit **KindBridge (`CL^k`)** in addition to plane/context CL; cross‑context reuse of UNM **must** go via `Transport`, with any `CL^plane` penalties routed to **R‑lane** only.
 
-#### S10 · Non‑mechanism boundary
+### S10 · Non‑mechanism boundary
 
 * Publication is a **typed projection**, not execution. Any build/render/upload is **Work on carriers**; **no Γ‑semantics** may leak into faces. 
 
-#### S11 · Coordination thread (optional)
+### S11 · Coordination thread (optional)
 Introduce **CoordinationFlow** as a named thread laid over `U.TransductionFlow__P2W`; crossings with production flow go via **Bridge+UTS**; coordination publishes **LexicalView** labels only and adds **no checks** or mechanisms.
 
 ### S12 · Viewpoint families → E.TGA constructs (neutral, holonic)
@@ -28062,7 +28062,7 @@ E.TGA enforces **strict separation of concerns** (carcass‑level only); **speci
 
 This arrangement guarantees **functorial publication** (commuting squares on crossings) and **orthogonality** of inner technical validity (ConstraintValidity) to context fit (GateFit), which in turn makes gate aggregation **order‑independent** and cements the CV⇒GF activation predicate.
 
-## SoTA‑Echoing (post‑2015, multi‑Tradition)
+### SoTA‑Echoing (post‑2015, multi‑Tradition)
 
 > Each item states **Adopt / Adapt / Reject**, and why. Vendor/tool tokens are kept as *informative*, not normative.
 
@@ -28092,7 +28092,7 @@ This arrangement guarantees **functorial publication** (commuting squares on cro
 
 *Cross‑tradition note.* Items 1–3 (category‑theoretic), 4–5 (publication/reproducibility concepts), 6 (controls/robotics), 7 (evolutionary search), and 8 (PL/semantics) jointly anchor E.TGA across multiple traditions, per E.8.
 
-## Bias‑Annotation (per E.8 SG‑bias slot)
+### Bias‑Annotation (per E.8 SG‑bias slot)
 
 * **Acyclic‑bias risk.** Tooling accustomed to DAGs may discourage legal feedback loops; E.TGA explicitly permits loops with budget/sentinel controls (CC‑TGA‑13,‑18).
 * **Scalarization‑bias risk.** Cultural defaults to single‑score rankings can suppress Pareto/QD sets; E.TGA requires lawful orders and return‑sets (CC‑TGA‑10,‑12).
@@ -28142,9 +28142,9 @@ This arrangement guarantees **functorial publication** (commuting squares on cro
 
 # **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 
-# Cluster F.I — context of meaning & Raw Material
+## Cluster F.I — context of meaning & Raw Material
 
-# **F.0.1 — Contextual Lexicon Principles** \[A]
+### **F.0.1 — Contextual Lexicon Principles** \[A]
 
 > **One‑sentence summary.** All meanings in FPF are **local to a `U.BoundedContext`** (“Context of meaning”); terms are **spoken with their Context**, and any relation **across Contexts** exists **only** as an explicit **Alignment Bridge** with stated loss/fit.
 
@@ -28158,7 +28158,7 @@ This arrangement guarantees **functorial publication** (commuting squares on cro
 
 **Terminology guard (normative, Part F).** The **row classifier** is **senseFamily**: {Role | Status | Measurement | Type‑structure | Method | Execution}. **Characteristic** (MM‑CHR) names measurable aspects only (A.17–A.19) and MUST NOT be used for row typing in Part F. Avoid the generic word **facet** in Part F; when unavoidable, reference **C.3.5 KindAT (informative facet)** or **Compose‑CAL `U.Facet`** explicitly. Only **CHR:ReferencePlane** is permitted (no bare “plane”); use **I/D/S layer** for intension/description/specification; use **stance** for design vs run.
 
-## 1 · Problem Frame
+#### 1 · Problem Frame
 
 Trans‑disciplinary modelling fails without an explicit discipline for **where words mean what**.
 
@@ -28171,9 +28171,9 @@ FPF resolves this by **localising** meaning first, then **explicitly translating
 
 ---
 
-## 2 · The Three Principles (normative)
+#### 2 · The Three Principles (normative)
 
-### P‑S · **Source Localisation Principle** — *Speak with the Context.*
+#### P‑S · **Source Localisation Principle** — *Speak with the Context.*
 
 **Rule.** Every term in a normative FPF artefact **MUST** be bound to a **specific `U.BoundedContext`** (its “Context of meaning”). The binding is explicit in text, notation, or table headers (e.g., **process (BPMN 2.0)**).
 
@@ -28191,7 +28191,7 @@ FPF resolves this by **localising** meaning first, then **explicitly translating
 
 ---
 
-### P‑L · **Local Meaning Principle** — *Meaning lives inside the Context.*
+#### P‑L · **Local Meaning Principle** — *Meaning lives inside the Context.*
 
 **Rule.** The **intended sense** of a term is established **inside its Context** as a **SenseCell**: a small, reconstructible unit of local meaning with **Tech/Plain labels** and a concise gloss. SenseCells are **lexical only** (C‑6): no behaviours, no deontics, no equations.
 
@@ -28209,7 +28209,7 @@ FPF resolves this by **localising** meaning first, then **explicitly translating
 
 ---
 
-### P‑B · **Explicit Bridge Principle** — *across Contexts, only with a bridge.*
+#### P‑B · **Explicit Bridge Principle** — *across Contexts, only with a bridge.*
 
 **Rule.** Any relation between terms from **different** Contexts **MUST** be stated as an **Alignment Bridge** (see **F.9**): a named mapping between **SenseCell⟨·⟩** items with a declared **relation kind** (e.g., *overlaps*, *broader‑than*, *near‑equivalent*) and a **Congruence Level (CL)** for trust calculus (B.3).
 
@@ -28227,11 +28227,11 @@ FPF resolves this by **localising** meaning first, then **explicitly translating
 
 ---
 
-## 3 · Minimal Artefacts (conceptual, notationally neutral)
+#### 3 · Minimal Artefacts (conceptual, notationally neutral)
 
 > These artefacts are **thought‑objects**; they specify **what must exist conceptually**, not how it is stored.
 
-### 3.1 **Context Card** (for each `U.BoundedContext`)
+##### 3.1 **Context Card** (for each `U.BoundedContext`)
 
 A terse descriptor used in the **Context Map** (F.1):
 
@@ -28240,7 +28240,7 @@ A terse descriptor used in the **Context Map** (F.1):
 * `timeStance?` (`design` / `run`, if inherent)
 * `trip‑wires` (few lexical caveats that often mislead, e.g., “*process*≠thermo process”)
 
-### 3.2 **SenseCell** (unit of local meaning, inside one context)
+##### 3.2 **SenseCell** (unit of local meaning, inside one context)
 
 * `label.tech` / `label.plain` (two registers)
 * `gloss` (minimal generality, Context‑true)
@@ -28249,7 +28249,7 @@ A terse descriptor used in the **Context Map** (F.1):
 
 > **Where it comes from.** F.2 describes how SenseCells can be *derived* from local term evidence; F.0.1 only **requires** that local meaning be expressible as a SenseCell.
 
-### 3.3 **Alignment Bridge** (between SenseCells from different Contexts)
+##### 3.3 **Alignment Bridge** (between SenseCells from different Contexts)
 
 * `left: SenseCell⟨·@A⟩`, `right: SenseCell⟨·@B⟩`
 * `relation` (e.g., *equivalent‑under‑assumptions*, *overlaps*, *broader‑than*)
@@ -28258,7 +28258,7 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-## 4 · Invariants (normative)
+#### 4 · Invariants (normative)
 
 1. **I‑1 · Context‑qualified usage.** Every normative use of a term is **Context‑qualified** (directly or via table/section headers).
 2. **I‑2 · Local‑only cells.** A SenseCell belongs to **exactly one** Context.
@@ -28269,7 +28269,7 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-## 5 · Reasoning Primitives (judgement schemata; pure, side‑effect‑free)
+#### 5 · Reasoning Primitives (judgement schemata; pure, side‑effect‑free)
 
 *These capture **allowable mental moves**; they do not prescribe storage, APIs, or workflow.*
 
@@ -28291,7 +28291,7 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-## 6 · Didactic Metaphor (informative)
+#### 6 · Didactic Metaphor (informative)
 
 * **Contexts.** Each `U.BoundedContext` is a **Context**; its **Context Card** is a sign on the door (name, edition, time stance, trip‑wires).
 * **Words in a Context.** A **SenseCell** is a dictionary entry pinned to that Context’s wall.
@@ -28301,12 +28301,12 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-## 7 · Placement & Flow
+#### 7 · Placement & Flow
 
 **F.0.1** is the **front door** of Part F. It enables:
 **F.1** (choosing Contexts with Context Cards) → **F.2** (deriving SenseCells inside each Context) → **F.3** (stabilising local senses) → **F.7** (building Concept‑Set rows) → **F.9** (stating Bridges).
 
-## 8 · Anti‑patterns & remedies
+#### 8 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern (what goes wrong)   | Symptom in models                                          | Why harmful (conceptual)                            | Remedy (this pattern’s clause)                                                            |
 | ------- | -------------------------------- | ---------------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------- |
@@ -28323,11 +28323,11 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-## 9 · Compact worked examples (multi‑architheory)
+#### 9 · Compact worked examples (multi‑architheory)
 
 > *Each vignette shows (1) two Context Cards (abridged), (2) SenseCells inside Contexts, (3) the Bridge with relation & CL, and (4) a Concept‑Set hint (if any).*
 
-### 9.1 Enactment × Provenance — *process* vs *activity*
+##### 9.1 Enactment × Provenance — *process* vs *activity*
 
 * **Context A**: `BPMN_2_0` · *Business Process Model and Notation v2.0 (2011)* · *design*
   **SenseCell⟨process\@BPMN⟩**: Tech “process”; Plain “workflow process”; Gloss “graph of flow nodes/events executed by participants.”
@@ -28341,7 +28341,7 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-### 9.2 Control × PLC runtime — *actuation* vs *control output*
+##### 9.2 Control × PLC runtime — *actuation* vs *control output*
 
 * **Context A**: `CTRL_Text_Classic` · *control theory primers* · *design*
   **SenseCell⟨actuation\@CTRL⟩**: Tech “actuation”; Plain “control output”; Gloss “signal applied to plant actuators.”
@@ -28355,7 +28355,7 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-### 9.3 Measurement × Service — *observation* vs *service metric*
+##### 9.3 Measurement × Service — *observation* vs *service metric*
 
 * **Context A**: `SOSA_SSN_2017` · *sensing/observations* · *run*
   **SenseCell⟨observation\@SOSA⟩**: Tech “observation”; Plain “measurement act”.
@@ -28369,7 +28369,7 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-### 9.4 Type reasoning — *subclass‑of* (OWL) vs *is‑a (plain)*
+##### 9.4 Type reasoning — *subclass‑of* (OWL) vs *is‑a (plain)*
 
 * **Context A**: `OWL2_Profiles` · *description logics*
   **SenseCell⟨subclass\@OWL⟩**: Tech “subclass‑of”; Plain “is‑a”.
@@ -28383,7 +28383,7 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-### 9.5 Deontics × Access — *permission* vs *role (RBAC)*
+##### 9.5 Deontics × Access — *permission* vs *role (RBAC)*
 
 * **Context A**: `ODRL_2_2` · *policy/deontics*
   **SenseCell⟨permission\@ODRL⟩**: Tech “permission”; Plain “allowed action”.
@@ -28397,21 +28397,21 @@ A terse descriptor used in the **Context Map** (F.1):
 
 ---
 
-## 10 · Extended reasoning moves (pure judgement schemata)
+#### 10 · Extended reasoning moves (pure judgement schemata)
 
 > *Judgements are conceptual entailments over Contexts, SenseCells, and Bridges. They carry no storage, workflow, or governance semantics.*
 
-### 10.1 Context‑qualified use
+##### 10.1 Context‑qualified use
 
 `Context(C) ∧ mentions(C, s) ⊢ uses(s@C)`
 *If s is used under Context C, we treat it as the local term s\@C.*
 
-### 10.2 Sense formation (local)
+##### 10.2 Sense formation (local)
 
 `uses(t@C) ∧ gloss_C(t) ⊢ SenseCell⟨t@C⟩`
 *A Context‑true gloss yields a SenseCell inside C.*
 
-### 10.3 Admissible Bridge (creation predicate)
+##### 10.3 Admissible Bridge (creation predicate)
 
 `SenseCell⟨x@A⟩ ∧ SenseCell⟨y@B⟩ ∧ A≠B ∧ rel∈R ∧ cl∈{0,1,2} ⊢ Bridge(x@A,y@B,rel,cl)`
 *Only explicit relation `rel` with Congruence Level `cl` constitutes a Bridge.*
@@ -28419,7 +28419,7 @@ A terse descriptor used in the **Context Map** (F.1):
 **Canonical relation set `R` (didactic catalogue):**
 `equivalent‑under‑assumptions` · `near‑equivalent` · `overlaps` · `broader‑than` · `narrower‑than` · `design‑spec‑of` · `run‑trace‑of` · `representation‑of` · `member‑of‑set‑in` · `provides‑value‑for`.
 
-### 10.4 Bridge composition (attenuating)
+##### 10.4 Bridge composition (attenuating)
 
 `Bridge(a,b,rel₁,cl₁) ∧ Bridge(b,c,rel₂,cl₂) ⊢ Bridge*(a,c,rel*,cl*)`
 
@@ -28428,34 +28428,34 @@ A terse descriptor used in the **Context Map** (F.1):
 
 *Reading:* Chained passages degrade to the weakest link.
 
-### 10.5 Non‑identity by stance
+##### 10.5 Non‑identity by stance
 
 `SenseCell⟨x@A(design)⟩ ∧ SenseCell⟨y@B(run)⟩ ∧ ¬declared(Bridge(x,y,near‑equiv,_)) ⊢ ¬same‑row(x,y)`
 *Different time stances forbid same‑row unless an explicit near‑equiv Bridge exists.*
 
-### 10.6 Row viability (Concept‑Set candidacy)
+##### 10.6 Row viability (Concept‑Set candidacy)
 
 `Cells = {c₁…cₙ} ⊢ row‑viable(Cells) ⇔ connected(Cells, Bridges_{rel∈{equiv,near‑equiv}, cl≥k}) ∧ ¬contradiction(Cells)`
 
 *Reading:* A row is viable if its cells form a connected subgraph via sufficiently strong Bridges and contain no mutually exclusive links.
 
-### 10.7 Contradiction sieve
+##### 10.7 Contradiction sieve
 
 `Bridge(a,b,broader) ∧ Bridge(a,b,narrower) ⊢ contradiction(a,b)`
 *Incompatible relations across the same pair flag a contradiction for review (conceptually).*
 
-### 10.8 Non‑bridge implication ban
+##### 10.8 Non‑bridge implication ban
 
 `name(x) = name(y) ∧ A≠B ⊢ ¬Bridge(x@A, y@B, _, _)`
 *String equality across Contexts never implies a Bridge.*
 
 ---
 
-## 11 · SCR/RSCR acceptance checks (conceptual)
+#### 11 · SCR/RSCR acceptance checks (conceptual)
 
 > *These checks are **content‑oriented**; they validate that a manuscript/model respects Part F principles. No process/tool assumptions are implied.*
 
-### 11.1 SCR — Static conformance
+##### 11.1 SCR — Static conformance
 
 * **SCR‑F01 (Context‑qualified).** Every normative term is Context‑qualified (directly, or via a scoped header that unambiguously fixes the Context).
 * **SCR‑F02 (Local cells).** Each SenseCell belongs to **exactly one** Context; no cell aggregates Cross‑context **senses**.
@@ -28465,14 +28465,14 @@ A terse descriptor used in the **Context Map** (F.1):
 * **SCR‑F06 (Time stance fidelity).** Where a Context fixes `design/run`, the SenseCells and any Bridges reflect that stance explicitly.
 * **SCR‑F07 (Row viability).** Any Concept‑Set row shown is supported by a connected subgraph of Bridges with **CL ≥ threshold** and no contradictions.
 
-### 11.2 RSCR — Regression & evolution
+##### 11.2 RSCR — Regression & evolution
 
 * **RSCR‑F01 (Edition split).** When a source edition changes materially, SenseCells tied to the old edition remain; new cells bind to the new Context; Bridges are re‑assessed.
 * **RSCR‑F02 (Bridge stability).** If any Bridge endpoint changes gloss/stance, downgrade or retire the Bridge, documenting the **loss/fit** change.
 * **RSCR‑F03 (Composition guard).** When composing Bridges in a chain, the resulting `CL` never exceeds the minimal link; relation weakens monotonically.
 * **RSCR‑F04 (Heterogeneity + QD guard):** requires ≥3 domain‑families AND MinInterFamilyDistance ≥ δ_family (per the active F1‑Card edition), with QD‑triad evidence (publish Diversity_P and IlluminationSummary on the declared grid/kernel). Near‑alias pairs (per dSig rule) SHALL be flagged and excluded or merged before the guard is evaluated. Record the F1‑Card edition id.
 
-### 11.3 Publish‑ready summary
+##### 11.3 Publish‑ready summary
 
 An artefact is **ready** with respect to F.0.1 when:
 
@@ -28482,7 +28482,7 @@ An artefact is **ready** with respect to F.0.1 when:
 
 ---
 
-## 12 · Quick reference (didactic)
+#### 12 · Quick reference (didactic)
 
 * **Context** = a `U.BoundedContext` with edition, scope, and (if inherent) time stance.
 * **SenseCell** = the minimal, lexical unit of meaning inside a Context (Tech/Plain labels + gloss).
@@ -28492,7 +28492,7 @@ An artefact is **ready** with respect to F.0.1 when:
 > **Mental checklist:** *Name the Context → speak in the Context → connect Contexts only by labelled bridges → build rows from bridged cells.*
 
 
-# F.1 — Domain‑Family Landscape Survey \[A]
+## F.1 — Domain‑Family Landscape Survey \[A]
 
 **“Fix the context of meaning before you name anything.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -28501,7 +28501,7 @@ An artefact is **ready** with respect to F.0.1 when:
 
 **Aliases (informative).** *Contexts‑first survey*; *Context cut*.
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Establish a **finite set of U.BoundedContext** (“**context of meaning**”), each tied to an authoritative source or canon within a **domain family**, so that all later moves (term harvesting, clustering, role naming, cross‑context bridges) operate on **local meanings** rather than on drifting, globalised words.
 
@@ -28509,7 +28509,7 @@ An artefact is **ready** with respect to F.0.1 when:
 
 **Non‑goals.** No tooling, workflow, or editorial roles. No global ontology. No cross‑context equations. This pattern describes **how to think**, not how to store.
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Without explicit context of meaning:
 
@@ -28521,7 +28521,7 @@ Without explicit context of meaning:
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                        | Tension to resolve                                                                |
 | ---------------------------- | --------------------------------------------------------------------------------- |
@@ -28532,14 +28532,14 @@ Without explicit context of meaning:
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 **Think in Contexts, not in words.**
 A *Context of meaning* is a **U.BoundedContext** (per D.CTX) that encloses a coherent vocabulary and its rules from a **specific, citable canon** (standard, BoK, seminal paper, textbook tradition). You **name and reason** *inside the Context*. When you must step between Contexts, you will **declare a bridge later** (F.9) with explicit losses or mismatches.
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **U.BoundedContext** (short: **Context** in Tech register). The formal *Context of meaning*.
 * **Context** (Tech register alias for **U.BoundedContext**). Use **Context** for pedagogy, **U.BoundedContext** for formal references.
@@ -28549,7 +28549,7 @@ A *Context of meaning* is a **U.BoundedContext** (per D.CTX) that encloses a coh
 
 ---
 
-## 6 · Solution — the Contexts‑first survey (conceptual, notation‑free)
+### 6 · Solution — the Contexts‑first survey (conceptual, notation‑free)
 
 **Step 1 — Declare your unification line(s).**
 State which architheory threads are in play (e.g., *Enactment + KD‑CAL sensing + Sys‑CAL execution*). This keeps the cut purposeful.
@@ -28579,7 +28579,7 @@ Small enough to hold in working memory. As a rule of thumb:
 **Step 6 — Postpone bridges.**
 If two Contexts seem “close”, **resist** collapsing. Note the tension and defer to **F.9 Alignment & Bridge**.
 
-## 7 · What to record (conceptual, not clerical)
+### 7 · What to record (conceptual, not clerical)
 
 **7.1 The two‑minute memory.**
 Everything you need to *think correctly later* fits on an eight‑line card. No registries, no workflows, no storage choices.
@@ -28602,7 +28602,7 @@ Everything you need to *think correctly later* fits on an eight‑line card. No 
 F1‑Card (normative artefact): { taxonomyRef, embeddingRef, DistanceDef, δ_family, confidenceBand, calibrationSet, edition, subFamilyDef? }. subFamilyDef (optional): declares the stable partitioning below a domain‑family (e.g., taxonomic sub‑fields or CVT clusters with parent family anchors).  When HET‑FIRST quotas refer to “sub‑family”, they MUST use this declared subFamilyDef.
 Declare **DomainDistance** policy (cosine or transport) and δ_family threshold; version as part of DescriptorMapRef. Publish `confidenceBand` (e.g., CI90%) for the calibrated `δ_family`; treat numbers in examples as illustrative, not normative.
 
-## 8 · Invariants (normative, lightweight)
+### 8 · Invariants (normative, lightweight)
 
 1. **Context ≡ U.BoundedContext.** In this pattern, *Context* always means **U.BoundedContext** (per E.10.D1).
 2. **Locality.** Words are **local to their Context**; no global meaning is implied or imported.
@@ -28616,7 +28616,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 10. **Diversity signature present.** Each Context Card PUBLISHES a `dSig` in the 5‑characteristics form.
 11. **Collision rule.** If any pair of Cards has `dSig` matching on ≥3 characteristics, mark **Near‑Duplicate** and either merge  into one slot or replace one by a Context from a different domain‑family. Record action in SCR.
 
-## 9 · Self‑checks (mental, not procedural)
+### 9 · Self‑checks (mental, not procedural)
 
 * **The mirror test.** Can you explain *why each Context is inside* your cut **in one breath**? If not, you are surveying for comfort, not for meaning.
 * **The homonym ping.** For each frequent word (*process*, *role*, *service*, *model*, *execution*), can you immediately list **the Contexts where it differs**? If not, add the missing Context.
@@ -28625,7 +28625,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 ---
 
-## 10 · Micro‑examples (illustrative only)
+### 10 · Micro‑examples (illustrative only)
 
 *One unification line: Enactment (`U.RoleAssignment` + `U.RoleEnactment`) with sensing and execution.*
 
@@ -28650,7 +28650,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 > With only these Contexts fixed, later steps become almost mechanical: F.2 harvests terms **inside** each Context; F.3 clusters **within** each Context; F.4 names roles/statuses pointing to **SenseCells**; F.9 draws the bridges you refused to draw here.
 
-## 11 · Anti‑patterns & remedies
+### 11 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern               | Symptom in practice                                                                  | Why it harms thinking                                          | Remedy (conceptual move)                                                                                                |
 | ------- | -------------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
@@ -28666,11 +28666,11 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 | **A10** | **Didactic bloat**         | Context Card spills into pages of notes.                                             | Teaching burden overwhelms the core idea.                      | **One‑screen Card**; everything else belongs to later patterns (§7.1–§7.2).                                             |
 | **A11** | **Family‑based inference** | Treating Domain‑family membership as implying similarity/equivalence. | Smuggles semantics via shelf labels; breaks locality. | **Domain family is informative only**; locality and any Cross‑context relation must be explicit (F.9). |
 
-## 12 · Worked examples (multi‑architheory cuts)
+### 12 · Worked examples (multi‑architheory cuts)
 
 > Each example shows **the cut** (the Contexts you keep in view) and the **thinking pay‑off** you get *before* any harvesting, clustering, or bridging.
 
-### 12.1 Enactment (`U.RoleAssignment` + `U.RoleEnactment`) with sensing & execution (service acceptance)
+#### 12.1 Enactment (`U.RoleAssignment` + `U.RoleEnactment`) with sensing & execution (service acceptance)
 
 **Unification line.** Enactment + KD‑CAL (sensing) + Sys‑CAL (execution).
 
@@ -28691,7 +28691,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 ---
 
-### 12.2 Method quartet with types & measurement (model state graph)
+#### 12.2 Method quartet with types & measurement (model state graph)
 
 **Unification line.** Method‑CAL + Kind-CAL + KD‑CAL.
 
@@ -28710,7 +28710,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 ---
 
-### 12.3 Control & actuation with services (operational SLOs in plants)
+#### 12.3 Control & actuation with services (operational SLOs in plants)
 
 **Unification line.** Sys‑CAL + LCA‑CAL (planned) + services/deontics.
 
@@ -28729,7 +28729,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
 
 ---
 
-## 13 · Reasoning primitives (judgement schemas, notation‑free)
+### 13 · Reasoning primitives (judgement schemas, notation‑free)
 
 > These are **mental moves**, not queries. They read “given these thoughts, this conclusion is safe to hold (conceptually).”
 
@@ -28769,7 +28769,7 @@ Declare **DomainDistance** policy (cosine or transport) and δ_family threshold;
    `|Contexts(L)| too large ⊢ reduce until a careful mind can recite them unaided`
    *Reading:* The survey should live in memory, not in a registry.
 
-## F1‑Card example (informative)
+### F1‑Card example (informative)
 ```
 F1-Card v2025‑Q3:
   taxonomyRef: OpenAlex topics/fields (snapshot 2025‑08)
@@ -28779,7 +28779,7 @@ F1-Card v2025‑Q3:
   calibrationSet: 120 labeled pairs (same vs different families)
   edition: 2025‑Q3
 ```
-## 14 · Relations (with other patterns)
+### 14 · Relations (with other patterns)
 
 **Builds on:**
 E.10.D1 **Lexical Discipline for “Context” (D.CTX)** — ensures *Context* ≡ *U.BoundedContext* and reserves “Problem Frame” for narrative use.
@@ -28797,7 +28797,7 @@ Architheories in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CA
 
 ---
 
-## 15 · Migration notes (conceptual)
+### 15 · Migration notes (conceptual)
 
 1. **New edition appears.** Keep the old Card; add a new Card with the new edition. If the sense shifts, treat it as a **new Context**; if it is strictly editorial, mark recency but keep one context.
 2. **New family emerges.** If a missing family explains recurrent confusion in your line, admit it with **one exemplar** Context; remove a less informative Context to keep parsimony.
@@ -28808,9 +28808,9 @@ Architheories in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CA
 
 ---
 
-## 16 · Acceptance tests (SCR/RSCR — concept‑level)
+### 16 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 16.1 Static conformance checks (SCR)
+#### 16.1 Static conformance checks (SCR)
 
 * **SCR‑F1‑S01 (Heterogeneity).** For each unification line, the set of Cards spans **≥ 3 distinct domain families**.
 * **SCR‑F1‑S02 (One‑screen Cards).** Each Card fits on one screen: name+edition; family; scope gist; time stance (if inherent); 1–3 trip‑wires; neighbour Contexts (optional); recency note.
@@ -28822,7 +28822,7 @@ Architheories in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CA
 * **SCR‑F1‑S08 (dSig present).** Every Context Card has a 5‑characteristics `dSig`.
 * **SCR‑F1‑S09 (Collision policy).** Any pair with `dSig` match on ≥3 characteristics is either merged or replaced; SCR records the action.
 
-### 16.2 Regression checks (RSCR)
+#### 16.2 Regression checks (RSCR)
 
 * **RSCR‑F1‑E01 (Edition churn).** When a new edition is added, prior Cards remain; no silent replacement.
 * **RSCR‑F1‑E02 (Family balance).** Adding/removing Cards does not drop any line below **three families**.
@@ -28831,11 +28831,11 @@ Architheories in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CA
 
 ---
 
-## 17 · Didactic distillation (90‑second teaching script)
+### 17 · Didactic distillation (90‑second teaching script)
 
 > “Before you name anything, **fix the context of meaning**. A *Context* is a **U.BoundedContext** tied to a specific canon—*BPMN 2.0*, *PROV‑O*, *ITIL 4*, *SOSA/SSN*, *IEC 61131‑3*, *OWL 2*. Words are **local to Contexts**: *process (BPMN)* is a workflow graph, *activity (PROV)* is a run‑time occurrence, *service (ITIL)* is a promise vocabulary. Cut the landscape so each unification line sees **at least three domain families**, with **one‑screen Cards** per Context (scope gist, time stance, trip‑wires). **Do not bridge** Contexts here—just write down the itch to bridge and defer it. Keep the cut **small enough to remember**. With Contexts fixed, harvesting (F.2), local clustering (F.3), role/status templates (F.4), and explicit Cross‑context bridges (F.9) become straightforward—and you avoid naming ghosts that come from words floating without walls.”
 
-# F.2 — Term Harvesting & Normalisation \[A] 
+## F.2 — Term Harvesting & Normalisation \[A] 
 
 **“Harvest words *inside Contexts*, name them in the Context’s own idiom, and stop there.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -28845,7 +28845,7 @@ Architheories in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CA
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **conceptual** (notation‑free) discipline for turning *Context‑internal usage* into **context‑local lexical units** ready for later reasoning—without Cross‑context merging and without slipping into governance or tooling. The result is a **small, auditable set of context‑local names and glosses** that faithfully reflect how the canon speaks.
 
@@ -28855,7 +28855,7 @@ Architheories in Part C (Sys‑CAL, KD‑CAL, Kind-CAL, Method‑CAL, LCA‑CA
 
 ---
 
-## 2 · Problem Frame
+### 2 · Problem Frame
 
 Even with Contexts fixed (F.1), three mistakes recur:
 
@@ -28867,7 +28867,7 @@ F.2 prevents these by **localising** meaning and **naming** strictly **inside** 
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                      | Tension to resolve                                                               |
 | -------------------------- | -------------------------------------------------------------------------------- |
@@ -28878,14 +28878,14 @@ F.2 prevents these by **localising** meaning and **naming** strictly **inside** 
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 **Harvest *inside* each Context; name *in that Context’s idiom*; do not cross Contexts.**
 For every Context (a **U.BoundedContext** from F.1), you gather **attested phrases** as *thought‑cues*, choose a **Local Normal Form (LNF)** that matches the Context’s idiom, attach a **two‑register label** (Tech/Plain), and write a **one‑sentence gloss**. That’s all. You do **not** claim sameness with any other Context; you do **not** embed behaviour or deontics; you do **not** mint U.Types here. These *local lexical units* will become **Local‑Senses** in F.3 and later addressable **SenseCells** (Context × Local‑Sense).
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **Context** — Tech‑register alias for **U.BoundedContext** (per E.10.D1).
 * **Attested phrase** — A short, verbatim cue from the canon that shows how a word is used **in this Context** (citation idea, not a record format).
@@ -28900,7 +28900,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-## 6 · Solution — three mental moves (notation‑free)
+### 6 · Solution — three mental moves (notation‑free)
 
 ### Move A — **Localise the word**
 
@@ -28933,7 +28933,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-## 7 · Guard‑rails (normative, lightweight)
+### 7 · Guard‑rails (normative, lightweight)
 
 1. **context‑locality.** Every local lexical unit **MUST** cite a Context (U.BoundedContext from F.1).
 2. **Context‑idiom normalisation.** LNF **MUST** respect the Context’s idiom (spelling/hyphenation/casing) and use **minimal edits**.
@@ -28946,7 +28946,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-## 8 · Micro‑examples (illustrative, context‑local)
+### 8 · Micro‑examples (illustrative, context‑local)
 
 > Each line is *one* local lexical unit. No relations are implied across lines.
 
@@ -28976,14 +28976,14 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-## 9 · Didactic heuristics (informative)
+### 9 · Didactic heuristics (informative)
 
 * **Keep the Context prefix in your inner speech.** Say “*process (BPMN)*”, “*activity (PROV)*”.
 * **Prefer head nouns.** If the canon says “service‑level objective”, do not shorten it to “objective”.
 * **Resist elegance that erases signal.** Hyphens and case often carry the Context’s culture; keep them.
 * **Gloss from use, not from opinion.** Quote in your mind, then compress; avoid importing definitions from neighbouring Contexts.
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern                 | Symptom (in thought or prose)                                        | Why harmful                                                  | Remedy (conceptual move)                                                                                |
 | ------- | ---------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
@@ -29004,12 +29004,12 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-## 11 · Worked examples (multi‑architheory, context‑local only)
+### 11 · Worked examples (multi‑architheory, context‑local only)
 
 > Each line is a **local lexical unit** *(Context, LNF, Tech, Plain, Gloss)*.
 > No Cross‑context relation is implied. Later clustering (F.3) and bridges (F.9) may connect them.
 
-### 11.1 Enactment + sensing
+#### 11.1 Enactment + sensing
 
 * **Context:** *BPMN 2.0 (2011)* — **LNF:** `process`
   **Tech:** `process` · **Plain:** `workflow process`
@@ -29031,7 +29031,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-### 11.2 Sys‑CAL / LCA‑CAL + services
+#### 11.2 Sys‑CAL / LCA‑CAL + services
 
 * **Context:** *State‑space control texts* — **LNF:** `actuation`
   **Tech:** `actuation` · **Plain:** `control output`
@@ -29049,7 +29049,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-### 11.3 Kind-CAL + Method‑CAL + KD‑CAL
+#### 11.3 Kind-CAL + Method‑CAL + KD‑CAL
 
 * **Context:** *OWL 2 (profiles)* — **LNF:** `subclass‑of`
   **Tech:** `subclass‑of` · **Plain:** `is‑a (type hierarchy)`
@@ -29071,7 +29071,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-## 12 · Reasoning primitives (judgement schemas, notation‑free)
+### 12 · Reasoning primitives (judgement schemas, notation‑free)
 
 > Read each as a **permitted mental move** over the outcomes of F.2.
 > Symbols: `R` = Context (U.BoundedContext), `u` = local lexical unit, `s` = surface string.
@@ -29114,7 +29114,7 @@ For every Context (a **U.BoundedContext** from F.1), you gather **attested phras
 
 ---
 
-## 13 · Relations
+### 13 · Relations
 
 **Builds on:**
 **F.1** (Contexts fixed; heterogeneity/parsimony in place).
@@ -29131,7 +29131,7 @@ Architheories in Part C when referencing domain idioms (labels stay **context�
 
 ---
 
-## 14 · Migration notes (conceptual)
+### 14 · Migration notes (conceptual)
 
 1. **New edition appears.** Add a Context in F.1; harvest afresh in F.2 using that Context; do not overwrite earlier units.
 2. **Idiomatic update discovered.** If your LNF fought the canon’s idiom, **re‑LNF** within the same context; keep labels/glosses steady unless the canon itself differs.
@@ -29142,9 +29142,9 @@ Architheories in Part C when referencing domain idioms (labels stay **context�
 
 ---
 
-## 15 · Acceptance tests (SCR/RSCR — concept‑level)
+### 15 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 15.1 Static conformance (SCR)
+#### 15.1 Static conformance (SCR)
 
 * **SCR‑F2‑S01 (context‑locality).** Every unit cites a Context from F.1.
 * **SCR‑F2‑S02 (Idiomatic LNF).** Each LNF reflects the Context’s spelling/hyphenation/casing with **minimal edits**.
@@ -29154,7 +29154,7 @@ Architheories in Part C when referencing domain idioms (labels stay **context�
 * **SCR‑F2‑S06 (Minimal generality).** Glosses match the Context’s use; no globalisation.
 * **SCR‑F2‑S07 (Temporal honesty).** For Contexts with fixed DesignRunTag, units and glosses respect it.
 
-### 15.2 Regression (RSCR)
+#### 15.2 Regression (RSCR)
 
 * **RSCR‑F2‑E01 (Edition split).** Introducing a new edition yields new units under a new Context; earlier units persist unchanged.
 * **RSCR‑F2‑E02 (Normaliser stability).** Adjusting an LNF does not silently widen/narrow the gloss.
@@ -29164,11 +29164,11 @@ Architheories in Part C when referencing domain idioms (labels stay **context�
 
 ---
 
-## 16 · Didactic distillation (60‑second script)
+### 16 · Didactic distillation (60‑second script)
 
 > “In F.2 you **harvest inside Contexts**. For each Context, pick the canon’s own phrasing, choose a **Local Normal Form** in that idiom, add **Tech** and **Plain** labels, and write a one‑sentence **Gloss** that matches how that Context talks. Stop there. No bridging, no behaviour, no equations. If the same string appears in another Context, treat it as a **different unit**. These units feed F.3, where you’ll sort senses **within** a Context, and F.9, where you’ll relate Contexts explicitly. This keeps meaning local, names faithful, and later reasoning clean.”
 
-# F.3 — Intra‑Context Sense Clustering \[A] 
+## F.3 — Intra‑Context Sense Clustering \[A] 
 
 **“Within one context, decide what ‘the same sense’ really is—before you ever cross Contexts.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -29178,7 +29178,7 @@ Architheories in Part C when referencing domain idioms (labels stay **context�
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Consolidate the **context‑local lexical units** from F.2 into a **small set of Local‑Senses** that actually operate in that **one context (U.BoundedContext)**. Each Local‑Sense receives a crisp, didactic label pair (Tech/Plain) and a short sense statement. The result is an **addressable basis** for later uses (Role Assignment, tables, bridges) that is **still strictly context‑local**.
 
@@ -29188,7 +29188,7 @@ Architheories in Part C when referencing domain idioms (labels stay **context�
 
 ---
 
-## 2 · Problem Frame
+### 2 · Problem Frame
 
 context‑local units (LNF + labels + gloss) from F.2 often **over‑ or under‑differentiate** meaning:
 
@@ -29201,7 +29201,7 @@ F.3 repairs this **inside the Context** by clustering “same sense” and disti
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                     | Tension to resolve                                                                                               |
 | ------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -29210,7 +29210,7 @@ F.3 repairs this **inside the Context** by clustering “same sense” and disti
 | **Labels vs idiom**       | Tech label must stay in the canon’s idiom; Plain label must help newcomers—without inventing a new sense.        |
 | **Stability vs openness** | Consolidated senses must be stable enough for Role Descriptions and tables, yet revisable when the canon’s use clearly splits. |
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 **Cluster by usage, not by string.**
 Inside one context:
@@ -29222,7 +29222,7 @@ Each Local‑Sense becomes **addressable** when paired with its Context: **Sense
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **Context** — short for `U.BoundedContext` (per D.CTX).
 * **Unit** — a context‑local lexical unit from F.2 (LNF + Tech/Plain + gloss).
@@ -29233,7 +29233,7 @@ Each Local‑Sense becomes **addressable** when paired with its Context: **Sense
 
 ---
 
-## 6 · Solution — how to think the clustering (notation‑free)
+### 6 · Solution — how to think the clustering (notation‑free)
 
 > What follows are **mental moves**, not steps for a team. Use them as probes until the Context’s usage partitions itself naturally.
 
@@ -29260,7 +29260,7 @@ If a fine-grained split has **no downstream consequence** (Role Descriptions, ta
 
 ---
 
-## 7 · Outputs (conceptual, not clerical)
+### 7 · Outputs (conceptual, not clerical)
 
 F.3 yields, **per Context**:
 
@@ -29276,7 +29276,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-## 8 · Invariants (normative, lightweight)
+### 8 · Invariants (normative, lightweight)
 
 1. **context‑locality.** Every Local‑Sense belongs to **exactly one context**. No Cross‑context clustering.
 2. **Parsimony.** Local‑Senses are **few**; prefer the coarsest partition that preserves the canon’s distinctions.
@@ -29289,7 +29289,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-## 9 · Self‑checks (mental probes)
+### 9 · Self‑checks (mental probes)
 
 * **Same‑conclusion test.** Do two candidate senses ever lead to **different conclusions** in the canon? If not, merge.
 * **Argument‑slot probe.** Replace arguments in canonical sentences; do both candidates still read true? If one fails, split.
@@ -29297,7 +29297,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 * **Counter‑example ping.** Can you state a **ten‑word** use that the sense must exclude? If you can, write it; if you cannot, your sense may be too broad.
 * **Memory rule.** Can you recall the Context’s Local‑Senses **without notes**? If not, you split too finely.
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern               | Symptom in thought                                                            | Why it harms                                            | Remedy (conceptual move)                                                                                          |
 | ------- | -------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -29314,7 +29314,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-## 11 · Local‑Sense Cards (one‑glance form)
+### 11 · Local‑Sense Cards (one‑glance form)
 
 > A **Local‑Sense Card** is a **one‑glance** sketch per sense in a Context. It teaches faster than prose lists and keeps senses crisp.
 
@@ -29328,9 +29328,9 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-## 12 · Worked examples (multi‑architheory, all **intra‑Context**)
+### 12 · Worked examples (multi‑architheory, all **intra‑Context**)
 
-### 12.1 BPMN 2.0 (workflow Context)
+#### 12.1 BPMN 2.0 (workflow Context)
 
 **Card A — “process (graph)”**
 
@@ -29350,7 +29350,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-### 12.2 PROV‑O (provenance Context)
+#### 12.2 PROV‑O (provenance Context)
 
 **Card C — “activity (run)”**
 
@@ -29368,7 +29368,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-### 12.3 ITIL 4 (services Context)
+#### 12.3 ITIL 4 (services Context)
 
 **Card E — “service‑level objective”**
 
@@ -29386,7 +29386,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-### 12.4 SOSA/SSN (sensing Context)
+#### 12.4 SOSA/SSN (sensing Context)
 
 **Card G — “observation (act)”**
 
@@ -29397,7 +29397,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-### 12.5 OWL 2 (types Context)
+#### 12.5 OWL 2 (types Context)
 
 **Card H — “subclass‑of”**
 
@@ -29415,7 +29415,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-### 12.6 IEC 61131‑3 (control‑runtime Context)
+#### 12.6 IEC 61131‑3 (control‑runtime Context)
 
 **Card J — “task (runtime)”**
 
@@ -29426,7 +29426,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-## 13 · Reasoning primitives (judgement schemas, notation‑free)
+### 13 · Reasoning primitives (judgement schemas, notation‑free)
 
 > Each schema captures a **safe mental move**. It implies no storage, API, or workflow.
 
@@ -29472,7 +29472,7 @@ These are **thinking reference points** (cognitive only), not records or files. 
 
 ---
 
-## 14 · Relations
+### 14 · Relations
 
 **Builds on:**
 F.1 **Domain‑Family Landscape Survey** (Contexts fixed); F.2 **Term Harvesting** (Units ready); E.10.D1 **D.CTX** (Context discipline); A.7 **Strict Distinction**.
@@ -29489,7 +29489,7 @@ Part C architheories to ground examples and invariants in **Context‑true** l
 
 ---
 
-## 15 · Migration notes (conceptual)
+### 15 · Migration notes (conceptual)
 
 1. **Usage clarifies → merge.** If two Local‑Senses never lead to different conclusions in the Context’s canon, **merge** and keep the narrower sense line.
 2. **Usage diverges → split.** If new reading reveals incompatible roles/entailments, **split** and attach a counter‑example to each side.
@@ -29500,9 +29500,9 @@ Part C architheories to ground examples and invariants in **Context‑true** l
 
 ---
 
-## 16 · Acceptance tests (SCR/RSCR — concept‑level)
+### 16 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 16.1 Static conformance (SCR)
+#### 16.1 Static conformance (SCR)
 
 * **SCR‑F3‑S01 (context‑locality).** Every Local‑Sense is paired with **exactly one context**; no Cross‑context clustering appears.
 * **SCR‑F3‑S02 (Label pair).** Each Local‑Sense has **Tech** (idiomatic) and **Plain** (didactic) labels; neither widens usage beyond the sense line.
@@ -29511,7 +29511,7 @@ Part C architheories to ground examples and invariants in **Context‑true** l
 * **SCR‑F3‑S05 (Counter‑example presence).** For any ambiguous head, at least one **counter‑example** is recorded to guard the boundary.
 * **SCR‑F3‑S06 (Temporal honesty).** Where the Context has a declared stance, sense lines **respect design/run**.
 
-### 16.2 Regression (RSCR)
+#### 16.2 Regression (RSCR)
 
 * **RSCR‑F3‑E01 (Merge soundness).** Every merge is justified by a **failed distinction test** (no selectional or entailment difference).
 * **RSCR‑F3‑E02 (Split necessity).** Every split cites a **role/entailment conflict** or a concrete **counter‑example**.
@@ -29521,7 +29521,7 @@ Part C architheories to ground examples and invariants in **Context‑true** l
 
 ---
 
-## 17 · Didactic close (60‑second recap)
+### 17 · Didactic close (60‑second recap)
 
 > **Within one context,** collect how the canon actually **uses** a head, not how we wish it did. **Merge** aliases that never lead to different conclusions; **split** uses that do. Give each consolidated use a crisp **Tech** label in the Context’s idiom and a faithful **Plain** label. The pair *(Context, Local-Sense)* is your **SenseCell**—the address later cited by Role Descriptions, tables, and bridges. No Cross‑context mergers here; that job belongs to F.9. Keep senses few, boundaries sharp, and labels honest.
 
@@ -29813,7 +29813,7 @@ Let **`stance(T)`** ∈ {**design**, **run**} (from the Context).
 
 **Reading.** Preconditions and evidence **gate** the act of wearing a mask or bearing a badge; once done, **invariants apply**.
 
-### 11.7 Cross‑context embargo (inside F.4)
+#### 11.7 Cross‑context embargo (inside F.4)
 
 **Form.**
 `sense(T₁)=⟨C,−⟩, sense(T₂)=⟨C′,−⟩, C≠C′ ⊢ no‑relation(T₁,T₂) here`
@@ -29874,7 +29874,7 @@ A.15 family (Role–Method–Work alignment) to interpret **System‑in‑Role**
 > Keep cards **one‑screen simple**: enough to decide assignments; nothing procedural; no tools; just clear thought.
 
 
-# F.5 — Naming Discipline for U.Types & Roles \[D] 
+## F.5 — Naming Discipline for U.Types & Roles \[D] 
 
 **Status.** Definitional pattern \[D], architheory‑agnostic.
 **Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **E.10.D2 Intension–Description–Specification (I/D/S)**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting & Normalisation**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description Definition**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**; F.0.1 **context‑local Lexicon Principle (RLP)**.
@@ -29883,7 +29883,7 @@ A.15 family (Role–Method–Work alignment) to interpret **System‑in‑Role**
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **small, normative code of naming** so that **U.Types** (Cross‑context categories) and **Role Descriptions** (context‑local Roles/Statuses) are labelled **clearly, locally faithful, and globally stable**, without importing tooling, workflows, or editorial process. Names are **consequences of meaning** fixed earlier (F.1–F.4), not badges invented to “stabilise” drifting words.
 
@@ -29893,7 +29893,7 @@ A.15 family (Role–Method–Work alignment) to interpret **System‑in‑Role**
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Naming errors cause structural errors:
 
@@ -29907,7 +29907,7 @@ This code resolves these by **Context fidelity**, **senseFamily‑aware morpholo
 
 ---
 
-## 3 · Minimal vocabulary (this pattern only)
+### 3 · Minimal vocabulary (this pattern only)
 
 * **Tech label** — the **Context‑idiomatic** name engineers expect *inside that Context*.
 * **Plain label** — a **teaching gloss** in simple English that does **not broaden** the sense.
@@ -29917,7 +29917,7 @@ This code resolves these by **Context fidelity**, **senseFamily‑aware morpholo
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 > **Name what the invariants already make true.**
 >
@@ -29926,7 +29926,7 @@ This code resolves these by **Context fidelity**, **senseFamily‑aware morpholo
 
 ---
 
-## 5 · Normative rules — Role Descriptions (context‑local labels)
+### 5 · Normative rules — Role Descriptions (context‑local labels)
 
 Let **T** be a Role Description in Context **C** with SenseCell `sense(T)=⟨C,σ⟩`.
 
@@ -29953,7 +29953,7 @@ Let **T** be a Role Description in Context **C** with SenseCell `sense(T)=⟨C,�
 
 ---
 
-## 6 · Normative rules — U.Types (Cross‑context labels)
+### 6 · Normative rules — U.Types (Cross‑context labels)
 
 Let **U** be a U.Type minted from a **Concept‑Set row** (F.7) satisfying A.8 (≥3 domain families) AND MinInterFamilyDistance ≥ δ_family (from F1‑Card).
 
@@ -29978,7 +29978,7 @@ Risky: *Multi‑stage‑workflow‑execution‑record* (compresses a scenario in
 **R‑UT‑9 (No edition/version in name).** Versions live in the Concept‑Set evidence; the name denotes a **time‑robust kind**.
 
 
-## 7 Twin rules
+### 7 Twin rules
 
 **Mandatory Tech name.** Every `U.Type`/Role **MUST** declare a Tech name; plain twin is optional.
 **Role suffix invariant.** Role Tech names **MUST** end with `Role`; plain twin **MUST** keep “(role)” on first use.
@@ -29986,7 +29986,7 @@ Risky: *Multi‑stage‑workflow‑execution‑record* (compresses a scenario in
 **One twin, one context.** At most one plain twin per Context; register in **E.10.P**.
 
 
-## 8 · Invariants (normative, lightweight)
+### 8 · Invariants (normative, lightweight)
 
 **INV-F5-1 (Pair).** Every Role Description card and every U.Type **MUST** carry **Tech** and **Plain** labels; symbol is optional and informative.
 
@@ -30002,7 +30002,7 @@ Risky: *Multi‑stage‑workflow‑execution‑record* (compresses a scenario in
 
 ---
 
-## 9 · Reasoning primitives (judgement schemas, notation‑free)
+### 9 · Reasoning primitives (judgement schemas, notation‑free)
 
 > Pure mental checks; no tools implied.
 
@@ -30034,7 +30034,7 @@ Risky: *Multi‑stage‑workflow‑execution‑record* (compresses a scenario in
 
 ---
 
-## 10 · Micro‑examples (illustrative)
+### 10 · Micro‑examples (illustrative)
 
 **Role Description (BPMN Context).**
 Tech: **Participant** · Plain: *actor in a workflow* · senseFamily: **Role**
@@ -30056,7 +30056,7 @@ Tech: **Result** · Plain: *the produced value or record of a measurement/assess
 Tech: **Type Node** · Plain: *a node in a type hierarchy or lattice*
 (*Neutral across DL and FCA.)*
 
-## 11 · Anti‑patterns & remedies
+### 11 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern                | Symptom in labels                                                  | Why it harms thinking                                              | Remedy (rule‑backref)                                                                                               |
 | ------- | --------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
@@ -30078,11 +30078,11 @@ Tech: **Type Node** · Plain: *a node in a type hierarchy or lattice*
 
 ---
 
-## 12 · Worked examples (multi‑architheory)
+### 12 · Worked examples (multi‑architheory)
 
 > Each example shows the **reasoning move** that leads to the label; no procedures, no tooling.
 
-### 12.1 Role Description labels (context-local)
+#### 12.1 Role Description labels (context-local)
 
 **(a) BPMN Context — behavioural mask vs node word**
 
@@ -30108,7 +30108,7 @@ Tech: **Type Node** · Plain: *a node in a type hierarchy or lattice*
 * **Decision.** For a Role Description **Status** of a run, label **Completed**, **Failed**, **Skipped** (Context idiom); avoid naming the **Work** itself here.
 * **Why.** The *record of work* is a **U.Type** elsewhere (A.15.1); Role Description in this Context carries **badges** of runs. (A.7 stance split; R-RD-3)
 
-### 12.2 U.Type labels (from Concept‑Set rows)
+#### 12.2 U.Type labels (from Concept‑Set rows)
 
 **Row R₁ (measurement‑sense):**
 SOSA: *Observation* • ML practice: *metric reading* • Metrology: *measurement result*
@@ -30133,7 +30133,7 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 
 ---
 
-### 12.3 Mixed scenario (service acceptance over execution traces)
+#### 12.3 Mixed scenario (service acceptance over execution traces)
 
 **Contexts in play.** IEC 61131‑3 (run), SOSA/SSN (sensing), ITIL 4 (services).
 
@@ -30144,7 +30144,7 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 
 ---
 
-## 13 · Migration notes (conceptual)
+### 13 · Migration notes (conceptual)
 
 1. **When a Context changes edition.** Names stay; the **SenseCell** shifts to the new edition. Only change a label if the **sense** has changed; then **split** the card rather than mutate the name. (INV‑F5‑2, R‑RD‑7)
 
@@ -30162,9 +30162,9 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 
 8. **Deprecation path.** If a label must change, publish the **new Tech + Plain**, keep the old as an **alias** in the registry (F.13), and leave the reasoning trail in the Concept‑Set row that forced the rename. (R‑UT‑6, F.13 linkage)
 
-## 14 · Acceptance tests (SCR/RSCR — concept‑level)
+### 14 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 14.1 Static conformance (SCR)
+#### 14.1 Static conformance (SCR)
 
 * **SCR-F5-S01 (Two registers).** Every Role Description card and U.Type **has both** Tech and Plain labels; any symbol is marked **alias**.
 * **SCR-F5-S02 (Context fidelity for Role Descriptions).** For any Role Description `T` in Context `C`, `Tech(T)` appears idiomatic **in C**; `Plain(T)` does **not** broaden `sense(T)`.
@@ -30174,14 +30174,14 @@ ITIL: *incident status* • Safety cert.: *assurance level* • QA: *readiness l
 * **SCR‑F5‑S06 (No Context tags).** No label embeds Context or edition strings.
 * **SCR‑F5‑S07 (Family coherence).** Families that claim parity (e.g., Levels) show **parallel shapes** across members.
 
-### 14.2 Regression checks (RSCR)
+#### 14.2 Regression checks (RSCR)
 
 * **RSCR‑F5‑E01 (Witness drift).** When a Concept‑Set row gains/removes a witness Context, re‑evaluate **neutrality**; if violated, refactor the Tech label to a more neutral head.
 * **RSCR-F5-E02 (Edition churn).** When a Context updates, Role Description labels remain stable unless the **sense** changed; if sense changed, **split** the card and keep aliases in F.13.
 * **RSCR‑F5‑E03 (Collision guard).** If two labels become confusable across **senseFamilies**, either add the **minimal** disambiguator (Role Description only, Context‑idiom) or separate the concepts.
 * **RSCR‑F5‑E04 (Rhetoric creep).** Periodic skim for decorative adjectives; remove them unless they encode formal levels or families.
 
-## 15 · Didactic distillation (60‑second recap)
+### 15 · Didactic distillation (60‑second recap)
 
 > **Name what is already true.**
 > Role Description labels **speak like the Context** (Tech) and **teach without widening** (Plain).
@@ -30249,7 +30249,7 @@ Without disciplined Role Assignment & Enactment reasoning:
 Each move is a **thought you can justify**, expressed as `premises ⊢ conclusion`.
 All moves are **context‑local** and **side‑effect free** (they assert knowledge; they do not modify artefacts).
 
-#### M1 · Locate — *Fix the Context and the Template*
+### M1 · Locate — *Fix the Context and the Template*
 
 **Form.**
 `Template τ anchored at SenseCell σ≡⟨C, ℓ⟩ ⊢ address(τ) = σ`
@@ -30257,7 +30257,7 @@ All moves are **context‑local** and **side‑effect free** (they assert knowle
 **Reading.** Name the Context and the exact SenseCell that gives **local meaning** to the Template.
 **Note.** This forbids “floating” Roles/Statuses and prevents Context drift.
 
-#### M2 · Stance — *Respect DesignRunTag*
+### M2 · Stance — *Respect DesignRunTag*
 
 **Form.**
 `stance(C)=s ∧ stance(τ)∈{s, both} ⊢ compatible_stance(τ,C)`
@@ -30265,7 +30265,7 @@ All moves are **context‑local** and **side‑effect free** (they assert knowle
 **Reading.** The Template’s DesignRunTag is **compatible** with its Context’s stance (design vs run).
 **Note.** Guards against judging a design‑mask by run‑traces or judging a run‑status by design artefacts.
 
-#### M3 · Qualify — *Check Holder eligibility*
+### M3 · Qualify — *Check Holder eligibility*
 
 **Form.**
 `Holder H ∧ eligibility(τ) holds in C ⊢ eligible(H, τ @ C)`
@@ -30273,7 +30273,7 @@ All moves are **context‑local** and **side‑effect free** (they assert knowle
 **Reading.** Given the Template’s eligibility predicates (F.4), the Holder qualifies to be bound/assessed **in this Context**.
 **Note.** Typical predicates: **type membership**, **capability present**, **scope fit**; all context‑local.
 
-#### M4 · Bind/Assert — *Make the Role Assignment / Status claim*
+### M4 · Bind/Assert — *Make the Role Assignment / Status claim*
 
 **Role assignment (behavioural mask).**
 `eligible(H, τ @ C) ∧ window W ⊢ plays_role(H, τ : C) @ W`
@@ -30284,7 +30284,7 @@ All moves are **context‑local** and **side‑effect free** (they assert knowle
 **Reading.** Assert either a **Role** binding or a **Status** about the appropriate subject (system, artefact, service), within a **Window**.
 **Note.** The **subject** of a Status may differ from the Role holder (e.g., a *service* has SLO status; a *team* plays a Role).
 
-#### M5 · Evidence — *Shape what would make it true/false*
+### M5 · Evidence — *Shape what would make it true/false*
 
 **Form.**
 `plays_role/has_status κ in C ⊢ evidence_shape(κ) = Σ(C)`
@@ -30292,7 +30292,7 @@ All moves are **context‑local** and **side‑effect free** (they assert knowle
 **Reading.** From the Context’s semantics, state the **Observation/Result** pattern (KD‑CAL) that would confirm or refute the claim (**what**, **where**, **when**).
 **Note.** This is not an execution plan: it is a **conceptual test** tied to the Context’s vocabulary.
 
-#### M6 · Conclude — *Issue a defensible verdict with confidence*
+### M6 · Conclude — *Issue a defensible verdict with confidence*
 
 **Form.**
 `evidence E fits Σ(C) ∧ invariants(τ) hold ⊢ holds(κ) with confidence γ ∈ [0,1]`
@@ -30300,7 +30300,7 @@ All moves are **context‑local** and **side‑effect free** (they assert knowle
 **Reading.** If observed facts match the expected evidence shape and Template invariants stand, the assignment/status claim **holds** with some confidence (cf. B.3).
 **Note.** Confidence combines measurement adequacy (KD‑CAL) with any Context‑specific uncertainty; no Cross‑context boost is implied.
 
-#### Autonomy admission (Green‑Gate) and ledger
+### Autonomy admission (Green‑Gate) and ledger
 * **Before enactment:** If the Method step lists `requiresAutonomyBudget`, the enacting `U.RoleAssignment` **MUST** pass the **Autonomy Green‑Gate**: (i) active/enactable RSG state, (ii) budget tokens/envelope remain in the declared **Γ_time** window, (iii) all guards `pass`.
 * **On enactment:** Write an **AutonomyLedgerEntry** attached to the `U.Work`, with deltas and guard verdicts.
 * **On depletion:** Block further autonomy‑gated steps; emit a **DepletionNotice** (SpeechAct) and follow the `OverrideProtocolRef`.
@@ -30446,7 +30446,7 @@ Architheories (Part C) to anchor their examples: Sys‑CAL (execution/actuatio
 > **Two iron rules.** Keep it **context‑local**; keep **Role** and **Status** on their senseFamily.
 > **Pay-off.** Assignment/status claims become small, auditable thoughts: easy to teach, easy to check, and easy to relate—later—via explicit Bridges when you truly must step between Contexts.
 
-# F.7 — Concept‑Set Table \[A]
+## F.7 — Concept‑Set Table \[A]
 
 **“Show one thing across Contexts—only where explicit bridges allow it.”**
 
@@ -30457,7 +30457,7 @@ Architheories (Part C) to anchor their examples: Sys‑CAL (execution/actuatio
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **single, didactic page** where each **row** presents **one Concept‑Set**—a *set of SenseCells from different Contexts that we are licensed (by explicit Bridges) to treat as “the same for a stated scope”*. Columns are **Contexts**; cells carry **local labels**. The table **does not invent equivalences**: it **summarises** already declared **F.9 Bridges**, exposing *scope, losses, and counter‑examples* at a glance.
 
@@ -30467,7 +30467,7 @@ Architheories (Part C) to anchor their examples: Sys‑CAL (execution/actuatio
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Without a disciplined Cross‑context view:
 
@@ -30478,7 +30478,7 @@ Without a disciplined Cross‑context view:
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                          | Tension to resolve                                                                                            |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------- |
@@ -30489,7 +30489,7 @@ Without a disciplined Cross‑context view:
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 A **Concept‑Set** is a **finite set of addresses**
 
@@ -30510,7 +30510,7 @@ that FPF **treats as one** *for a declared scope* because there exist **F.9 Brid
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **Context** — shorthand for `U.BoundedContext` (per E.10.D1).
 * **senseFamily** — **referenced from F.0.1**; not redefined here; used to **type** rows and to require **uniformity** within a row.
@@ -30522,7 +30522,7 @@ that FPF **treats as one** *for a declared scope* because there exist **F.9 Brid
 
 ---
 
-## 6 · The table (conceptual layout)
+### 6 · The table (conceptual layout)
 
 > One page. Fixed column order by Context. Each row fits in **five lines** max.
 
@@ -30539,7 +30539,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 **Didactic name rationale** “Giants' table’” that alludes to *standing on the shoulders of giants*: each row explicitly leans on authoritative context of meaning (**U.BoundedContext**) established by prior disciplines and not imagined. It does **not** mean a physically large table; the name signals epistemic humility and traceable reliance on those sources. "We are like dwarfs on the shoulders of giants, so that we can see more than they, and things at a greater distance, not by virtue of any sharpness of sight on our part, or any physical distinction, but because we are carried high and raised up by their giant size." by Bernard of Chartres , d. c.1130, French philosopher.
 
-## 7 · Conceptual construction (thought moves, not workflow)
+### 7 · Conceptual construction (thought moves, not workflow)
 
 > The table is derived from earlier patterns; it **creates nothing new**.
 
@@ -30551,7 +30551,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-## 8 · Invariants (normative)
+### 8 · Invariants (normative)
 
 1. **Context‑loyal cells.** Every non‑empty cell is a **SenseCell** address; no minted paraphrases.
 2. **Bridge sufficiency.** For a *Concept‑Set* row, **every pair** of filled cells is connected by an **F.9 Bridge path** whose **bottleneck CL** ≥ **Row CL(min)** printed for the row.
@@ -30565,7 +30565,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-## 9 · Micro‑illustrations (safe patterns)
+### 9 · Micro‑illustrations (safe patterns)
 
 > Illustrative only; these presume corresponding **F.9 Bridges** exist with stated CL and losses.
 
@@ -30588,7 +30588,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 | **process** (contrast) | —         | —           | *graph of flow nodes* | *time‑bounded activity* | *state‑space trajectory* | Same surface, **different** senses; no licensed sameness. | Any attempt to equate design‑graph with run‑occurrence fails stance compatibility. |
 
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #         | Anti‑pattern                | Symptom in a row                                                               | Why it breaks thinking                                               | Remedy (conceptual move)                                                                                          |
 | --------- | --------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -30605,11 +30605,11 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-## 11 · Worked examples (multi‑architheory)
+### 11 · Worked examples (multi‑architheory)
 
 > Each example gives a **row** (compact), then a **reading** explaining scope and limits. All sameness claims presuppose suitable **F.9 Bridges** with the stated CL.
 
-### 11.1 Behavioural actor across Contexts (naming‑only)
+#### 11.1 Behavioural actor across Contexts (naming‑only)
 
 | FPF Label (Tech / Plain)              | Row Scope   | Row CL(min) | BPMN 2.0        | PROV‑O    | Rationale                                                                               | Counter‑examples                                                                                      |
 | ------------------------------------- | ----------- | ----------- | --------------- | --------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -30619,7 +30619,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 11.2 Execution occurrence (assignment/enactment-eligibility)
+#### 11.2 Execution occurrence (assignment/enactment-eligibility)
 
 | FPF Label                                       | Row Scope       | Row CL(min) | PROV‑O                                                           | IEC 61131‑3                                          | Rationale                                                                       | Counter‑examples                                                   |
 | ----------------------------------------------- | --------------- | ----------- | ---------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
@@ -30629,7 +30629,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 11.3 Result value as KD‑metric (measurement)
+#### 11.3 Result value as KD‑metric (measurement)
 
 | FPF Label                           | Row Scope | Row CL(min) | SOSA/SSN             | ISO 80000‑1                      | ITIL 4           | Rationale                                                                                                | Counter‑examples                                               |
 | ----------------------------------- | --------- | ----------- | -------------------- | -------------------------------- | ---------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
@@ -30639,7 +30639,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 11.4 Subtype relation (type‑structure)
+#### 11.4 Subtype relation (type‑structure)
 
 | FPF Label                   | Row Scope      | Row CL(min) | OWL 2             | Kind-CAL            | Rationale                                     | Counter‑examples                                                                 |
 | --------------------------- | -------------- | ----------- | ----------------- | ------------------- | --------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -30647,7 +30647,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 11.5 Contrast: “role” (access vs behaviour)
+#### 11.5 Contrast: “role” (access vs behaviour)
 
 | FPF Label           | Row Scope | Row CL(min) | NIST RBAC                 | BPMN 2.0                                 | Rationale                                                      | Counter‑examples                                                                   |
 | ------------------- | --------- | ----------- | ------------------------- | ---------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -30657,11 +30657,11 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-## 12 · Reasoning primitives (judgement schemas, notation‑free)
+### 12 · Reasoning primitives (judgement schemas, notation‑free)
 
 > All judgements are **pure** (no side effects). “Contexts” are `U.BoundedContext`. `SC(C)` denotes a SenseCell in Context `C`. `CL(X↔Y)` is the congruence level of the **best** Bridge path (F.9) between SenseCells `X` and `Y` (bottleneck along that path).
 
-### 12.1 Row licensing
+#### 12.1 Row licensing
 
 **Form.**
 `S = {SC(C₁), …, SC(Cₙ)}, Scope = s, τ(s) = requiredCL ⊢ licensable(S,s) ⇔ (∀ i<j: CL(SC(Cᵢ)↔SC(Cⱼ)) ≥ requiredCL ∧ senseFamily (S) is uniform ∧ stance(S) compatible)`
@@ -30670,7 +30670,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 12.2 Bottleneck CL for a row
+#### 12.2 Bottleneck CL for a row
 
 **Form.**
 `RowCL(S) = min_{i<j} CL(SC(Cᵢ)↔SC(Cⱼ))`
@@ -30679,7 +30679,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 12.3 Scope guard
+#### 12.3 Scope guard
 
 **Form.**
 `licensable(S,s) ∧ s ⊑ s' ⊢ licensable(S,s') only if RowCL(S) ≥ τ(s')`
@@ -30688,7 +30688,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 12.4 Contrast decision
+#### 12.4 Contrast decision
 
 **Form.**
 `(∃ i<j: CL(SC(Cᵢ)↔SC(Cⱼ)) < τ(Naming‑only)) ⊢ publish‑contrast(S)`
@@ -30697,7 +30697,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 12.5 Row extension guard
+#### 12.5 Row extension guard
 
 **Form.**
 `licensable(S,s) ∧ add SC(Cₖ) ⊢ licensable(S∪{SC(Cₖ)}, s) iff ∀ i: CL(SC(Cᵢ)↔SC(Cₖ)) ≥ τ(s)`
@@ -30706,7 +30706,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-### 12.6 Loss disclosure obligation
+#### 12.6 Loss disclosure obligation
 
 **Form.**
 `licensable(S,s) ∧ (∃ i<j: lossNote on Bridge(SC(Cᵢ),SC(Cⱼ))) ⊢ row must carry ≥1 counter‑example`
@@ -30715,7 +30715,7 @@ FPF Label (Tech / Plain) | Row Scope | Row CL(min) | [Context A] local label | [
 
 ---
 
-## 13 · Relations (with other patterns)
+### 13 · Relations (with other patterns)
 
 **Builds on:**
 F.1 **Contexts fixed** → defines the column set; F.2 **Harvest** → supplies term material; F.3 **SenseCells** → provide cell addresses; F.5 **Naming Discipline** → provides the two‑register **FPF labels**; F.9 **Bridges** → legally justify each row.
@@ -30729,7 +30729,7 @@ Part C architheories for didactic alignment pages; Part B trust calculus (B.
 
 ---
 
-## 14 · Migration notes (conceptual)
+### 14 · Migration notes (conceptual)
 
 1. **Bridge update.** If any supporting Bridge’s CL changes, recompute **Row CL(min)**. If it drops below the printed value, either **lower Row Scope**, **split** the row, or **retire** it.
 2. **New Context appears.** Do **not** auto‑expand rows. Test with **12.5**; add only if it brings a **distinct necessity**.
@@ -30740,9 +30740,9 @@ Part C architheories for didactic alignment pages; Part B trust calculus (B.
 
 ---
 
-## 15 · Acceptance tests (SCR/RSCR — concept‑level)
+### 15 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 15.1 Static conformance checks (SCR)
+#### 15.1 Static conformance checks (SCR)
 
 * **SCR‑F7‑S01 (Context‑loyal cells).** Every non‑empty cell references an existing **SenseCell** (F.3) in a declared Context (F.1).
 * **SCR‑F7‑S02 (Closure & bottleneck).** For each Concept‑Set row, **every pair** of cells has a Bridge path with CL ≥ **Row CL(min)** printed; **Row CL(min)** equals the **minimum** pairwise CL.
@@ -30751,7 +30751,7 @@ Part C architheories for didactic alignment pages; Part B trust calculus (B.
 * **SCR‑F7‑S05 (Loss disclosure).** If any supporting Bridge has a recorded loss, the row includes **≥1 counter‑example** line.
 * **SCR‑F7‑S06 (Parsimony).** Rows contain **2–4 Contexts** unless a one‑line necessity is stated for each extra Context.
 
-### 15.2 Regression checks (RSCR)
+#### 15.2 Regression checks (RSCR)
 
 * **RSCR‑F7‑E01 (Bridge drift).** After any Bridge change (F.9), recompute **Row CL(min)**; flag rows whose scope is now overstated.
 * **RSCR‑F7‑E02 (Sense split).** After a SenseCell splits (F.3), ensure rows referencing it either pick a child cell or retire.
@@ -30760,11 +30760,11 @@ Part C architheories for didactic alignment pages; Part B trust calculus (B.
 
 ---
 
-## 16 · Didactic distillation (60‑second teaching script)
+### 16 · Didactic distillation (60‑second teaching script)
 
 > “A **Concept-Set row** shows **one idea across Contexts**—but only where explicit **Bridges** license it. Columns are Contexts; cells are **their own labels**. The row prints a **scope** (‘Naming-only’, ‘assignment/enactment-eligibility’, ‘Type-structure’, ‘KD-metric’) and the **weakest CL** that justifies reading across. A **one‑line rationale** says why sameness is safe **here**; a **counter‑example** warns where it breaks. Keep rows small (2–4 Contexts), typed (don’t mix senseFamilies), and temporally honest (design vs run stance). If Bridges don’t suffice, publish a **contrast row** instead. The table doesn’t invent meaning; it **summarises licensed sameness** so readers can cross disciplines without smuggling assumptions.”
 
-# F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias) \[A] 
+## F.8 — Mint or Reuse? (U.Type vs Concept-Set vs Role Description vs Alias) \[A] 
 
 **“Name only what thinking **requires**, and reuse everything else.”**
 
@@ -30775,7 +30775,7 @@ Part C architheories for didactic alignment pages; Part B trust calculus (B.
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **minimal, conceptual decision lattice** that answers, for any modelling need:
 
@@ -30789,7 +30789,7 @@ The lattice enforces **locality of meaning** (Contexts), **senseFamily separatio
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Modellers tend to **mint names** when they actually need **reuse**, **aliasing**, or **explicit Cross‑context reading**. Consequences:
 
@@ -30800,7 +30800,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                       | Tension to resolve                                                                            |
 | --------------------------- | --------------------------------------------------------------------------------------------- |
@@ -30810,7 +30810,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 4 · Minimal vocabulary (used in this pattern only)
+### 4 · Minimal vocabulary (used in this pattern only)
 
 * **Context** — `U.BoundedContext` (per D.CTX).
 * **SenseCell** — address of a **local sense** produced by F.3 (one context × one clustered sense).
@@ -30822,7 +30822,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 5 · The decision lattice (conceptual, notation‑free)
+### 5 · The decision lattice (conceptual, notation‑free)
 
 > Read top‑to‑bottom; the **first satisfied** branch decides. At every step, **state the senseFamily** (Role / Status / Measurement / Type‑structure / Method / Execution) before you proceed.
 
@@ -30874,7 +30874,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 6 · Scope thresholds (default τ) — **how much sameness** you’re allowed to claim
+### 6 · Scope thresholds (default τ) — **how much sameness** you’re allowed to claim
 
 | Row / Use Scope     | What it licenses                                                                              | Default τ (minimum CL) | Typical consumers                         |
 | ------------------- | --------------------------------------------------------------------------------------------- | ---------------------: | ----------------------------------------- |
@@ -30887,9 +30887,9 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 7 · Micro‑examples (didactic triad)
+### 7 · Micro‑examples (didactic triad)
 
-### 7.1 For engineers — “Do we need a new **Execution** label?”
+#### 7.1 For engineers — “Do we need a new **Execution** label?”
 
 * **Need.** “We want to refer to **what actually happened** in both provenance logs and PLC runtime.”
 * **senseFamily.** Execution · **stance.** run.
@@ -30897,7 +30897,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 * **Row?** F.7 has **execution-occurrence** at **assignment/enactment-eligibility**, CL = 2.
 * **Decision.** **Reuse** that row’s label at **Assignment-eligibility**; **no** new U.Type; define Role Descriptions **anchored to each Context** as needed.
 
-### 7.2 For managers — “Can we call them all **actors**?”
+#### 7.2 For managers — “Can we call them all **actors**?”
 
 * **Need.** A single everyday word in the spec to denote “the responsible party”.
 * **senseFamily.** Role (behavioural mask in prose).
@@ -30905,7 +30905,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 * **Row?** **Naming‑only** row “actor”, CL = 2.
 * **Decision.** **Reuse** “actor” **in prose only**; keep Context‑loyal labels in formal sections. No Role Description minted unless tied to one context.
 
-### 7.3 For researchers — “New **U.Type** for ‘Work Scope’?”
+#### 7.3 For researchers — “New **U.Type** for ‘Work Scope’?”
 
 * **Need.** Kernel notion capturing **feasible performance region** across systems.
 * **Test A.8.** Appears in **control** (reachable sets), **services** (operating envelope), **measurement** (confidence bands): **≥ 3 families?**
@@ -30914,7 +30914,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 8 · Invariants (normative, lightweight)
+### 8 · Invariants (normative, lightweight)
 
 1. **Context‑first.** Every decision cites at least one **Context**; no global senses.
 2. **senseFamily purity.** A single decision covers **one senseFamily**. Mixed needs are split.
@@ -30925,7 +30925,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 9 · Quick reference (one‑glance map)
+### 9 · Quick reference (one‑glance map)
 
 | You feel you need…                          | Likely action                  | Why                                              |
 | ------------------------------------------- | ------------------------------ | ------------------------------------------------ |
@@ -30936,7 +30936,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 | A nicer label for the same FPF concept      | **Alias in F.5**               | Style only; zero semantics.                      |
 | A brand‑new primitive concept               | **New U.Type (rare)**          | Only if cross‑family, irreducible, kernel‑level. |
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #         | Anti‑pattern               | Symptom                                                                            | Why it harms thinking                              | Remedy (conceptual move)                                                                                                                         |
 | --------- | -------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -30953,7 +30953,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 11 · Reasoning primitives (judgement schemas, notation‑free)
+### 11 · Reasoning primitives (judgement schemas, notation‑free)
 
 > Each item states a **mental entailment**. No storage, no roles, no workflows. Symbols: `C` = Context, `σ` = SenseCell, `R` = Concept‑Set row, `SF` = senseFamily, `τ` = scope threshold, `CL` = congruence level.
 
@@ -30995,9 +30995,9 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-## 12 · Extended worked examples (multi‑architheory)
+### 12 · Extended worked examples (multi‑architheory)
 
-### 12.1 **Execution, observation, and acceptance** (engineers)
+#### 12.1 **Execution, observation, and acceptance** (engineers)
 
 **Need.** A reusable label for “what actually happened and how it was checked against the promise”.
 **senseFamilies.** Execution (stance: run); Measurement (KD); Status (accept/reject).
@@ -31015,7 +31015,7 @@ Modellers tend to **mint names** when they actually need **reuse**, **aliasing**
 
 ---
 
-### 12.2 **Actor across workflow and provenance** (managers)
+#### 12.2 **Actor across workflow and provenance** (managers)
 
 **Need.** A single everyday label for “the responsible party” in diagrams.
 **senseFamily.** Role (behavioural mask in prose/diagrams).
@@ -31029,7 +31029,7 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 ---
 
-### 12.3 **Accuracy across metrology and data quality** (researchers)
+#### 12.3 **Accuracy across metrology and data quality** (researchers)
 
 **Need.** Treat “accuracy” consistently across ISO 80000 (metrology) and ISO/IEC 25024 (data quality).
 **senseFamily.** Measurement.
@@ -31042,7 +31042,7 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 ---
 
-### 12.4 **Subtype relation across OWL and a curated taxonomy** (formalists)
+#### 12.4 **Subtype relation across OWL and a curated taxonomy** (formalists)
 
 **Need.** Present “is‑a” uniformly across OWL 2 classes and a domain taxonomy.
 **senseFamily.** Type‑structure.
@@ -31055,7 +31055,7 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 ---
 
-## 13 · Relations (with other patterns)
+### 13 · Relations (with other patterns)
 
 * **Builds on:** E.10.D1 (D.CTX) **Context ≡ U.BoundedContext**; F.1 Contexts; F.2 Harvest; F.3 SenseCells.
 * **Constrains:**
@@ -31068,7 +31068,7 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 ---
 
-## 14 · Migration notes (conceptual)
+### 14 · Migration notes (conceptual)
 
 1. **Old “anchor” language.** Replace legacy “anchor” with: **SenseCell** (local sense) + **Role Description** (assignable Standard) + (optionally) **Concept‑Set row** (Cross‑context reading).
 2. **Over-strong rows.** If a row was used for **assignment/enactment-eligibility** or **Type-structure** but **CL drops**, **downgrade row scope** to **Naming-only** in prose; adjust examples.
@@ -31078,9 +31078,9 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 ---
 
-## 15 · Acceptance tests (SCR/RSCR — concept‑level)
+### 15 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 15.1 Static conformance (SCR)
+#### 15.1 Static conformance (SCR)
 
 * **SCR‑F8‑S01 (senseFamily purity).** Every decision record names **one senseFamily**; mixed needs are split.
 * **SCR‑F8‑S02 (Proper anchoring).** Every Role Description cites **one SenseCell**; **no row** is used as a assignment/enactment anchor.
@@ -31088,7 +31088,7 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 * **SCR‑F8‑S04 (Alias modesty).** Aliases introduced in F.5 do **not** claim new semantics or change senseFamily.
 * **SCR‑F8‑S05 (Kernel restraint).** Any new U.Type proposal includes **≥ 3 domain families** of evidence and an **irreducibility** note.
 
-### 15.2 Regression (RSCR)
+#### 15.2 Regression (RSCR)
 
 * **RSCR‑F8‑E01 (CL drift).** If any Bridge’s CL changes, re‑evaluate dependent rows; **downgrade or split** where τ(scope) is no longer met.
 * **RSCR-F8-E02 (Row overuse).** Scan examples: no case uses **Naming-only** rows to justify **Assignment-eligibility** or **Type-structure** claims.
@@ -31097,12 +31097,12 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 ---
 
-## 16 · Didactic distillation (90‑second teaching script)
+### 16 · Didactic distillation (90‑second teaching script)
 
 > “When you feel like coining a new name, pause. **Which senseFamily** are you in—Role, Status, Measurement, Type‑structure, Method, or Execution? If a **single Context’s SenseCell** already says it, **reuse** that label. If you need an assignable Standard, **mint a Role Description** anchored to that SenseCell. If you must read **across Contexts**, reuse a **Concept‑Set row**—but only **at a stated scope** and only if its **CL meets the threshold** (τ). If it’s just a nicer wording, add an **Alias** (style only). Only in the rare case of a cross‑family, **irreducible** notion do you **mint a new U.Type**. Never let Naming‑only rows justify  **Assignment-eligibility** or structural inference, and never let identical strings force equivalence. This is not process—it’s **discipline of thought**: reuse what exists, declare scope when you bridge, and mint new primitives only when the kernel truly needs them.”
 
 
-# F.9 — Alignment & Bridge across Contexts \[A] 
+## F.9 — Alignment & Bridge across Contexts \[A] 
 
 **“Translate across Contexts; never collapse them.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -31111,7 +31111,7 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 **Coordinates with.** B.3 **Trust & Assurance Calculus** (uses CL penalties); **A.6.1 U.Mechanism** (Transport clause for cross‑context use; penalties route to **R/R_eff** only; **F/G** invariant); Part C architheories (apply Bridges in formal claims).
 **Aliases (informative).** *Context‑to‑Context translator*; *Sense bridge*.
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **conceptual discipline** for relating **SenseCells** from **different Contexts (U.BoundedContext)**. A **Bridge** states *what kind* of relationship holds, *how far* it holds (via **CL: Congruence Level**), and *what is lost* during the translation. Bridges **permit carefully scoped reuse** (e.g., a Concept‑Set row) while **forbidding silent equivalence**.
 
@@ -31121,7 +31121,7 @@ If assignable behaviour is needed in a model, **mint Role Description** anchored
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Cross‑context work fails in predictable ways:
 
@@ -31135,7 +31135,7 @@ Bridges cure these by **making relation, direction, loss, and strength explicit*
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                           | Tension to resolve                                                                       |
 | ------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -31146,14 +31146,14 @@ Bridges cure these by **making relation, direction, loss, and strength explicit*
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 **A Bridge is a declared translator between two local senses.**
 It always names **(a)** the two **SenseCells**, **(b)** a **Bridge‑kind** (what relation), **(c)** a **direction** (if non‑symmetric), **(d)** a **CL** (how strong), and **(e)** **Loss Notes** (what fails to carry). Some Bridges **permit substitution** in limited scopes; others **permit only explanation**.
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **Context** — shorthand for **U.BoundedContext** (per E.10.D1).
 * **SenseCell** — the pair *(Context × Local‑Sense)* from F.3.
@@ -31168,11 +31168,11 @@ It always names **(a)** the two **SenseCells**, **(b)** a **Bridge‑kind** (wha
 
 ---
 
-## 6 · Bridge kinds (senseFamily‑aware)
+### 6 · Bridge kinds (senseFamily‑aware)
 
 > **Two families** of Bridges: **Substitution Bridges** (senseFamily‑preserving; can support Concept‑Set rows) and **Interpretation Bridges** (explanatory; **not** for substitution).
 
-### 6.1 Substitution Bridges (sense‑preserving)
+#### 6.1 Substitution Bridges (sense‑preserving)
 
 These relate **SenseCells of the same senseFamily** and may license **limited substitution**:
 
@@ -31192,7 +31192,7 @@ These relate **SenseCells of the same senseFamily** and may license **limited su
    *Use:* For **didactic warnings**; not a reuse license.
    *Loss Notes:* n/a (it asserts incompatibility).
 
-### 6.2 Interpretation Bridges (cross‑senseFamily, explanatory)
+#### 6.2 Interpretation Bridges (cross‑senseFamily, explanatory)
 
 These **do not allow substitution** but **explain connections** across senseFamilies:
 
@@ -31213,7 +31213,7 @@ These **do not allow substitution** but **explain connections** across senseFami
 
 ---
 
-## 7 · CL scale and scope thresholds
+### 7 · CL scale and scope thresholds
 
 CL expresses how safely meaning carries over.
 
@@ -31234,7 +31234,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 8 · The Bridge Card (one‑screen sketch)
+### 8 · The Bridge Card (one‑screen sketch)
 
 > A **thought‑format** (not a form). Every bullet can be said in a sentence.
 
@@ -31252,7 +31252,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 9 · Invariants (normative)
+### 9 · Invariants (normative)
 
 1. **Locality first.** A Bridge relates **SenseCells**, never Contexts or strings.
 2. **senseFamily discipline.** **Substitution Bridges must be senseFamily‑preserving**. **Interpretation Bridges** may cross senseFamilies but **never** license substitution.
@@ -31267,7 +31267,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 10 · Micro‑examples (illustrative, one‑liners)
+### 10 · Micro‑examples (illustrative, one‑liners)
 
 1. **Participant vs Agent (workflow vs provenance)**
    *Cells:* `BPMN:Participant` ↔ `PROV:Agent` • *senseFamily:* Role • *Kind:* ⋂ (overlap) • *CL:* 2 • *Loss:* participation vs attribution scopes differ • *Use:* **Naming‑only** (“actor”).
@@ -31284,7 +31284,7 @@ CL expresses how safely meaning carries over.
 5. **Accuracy (metrology vs data‑quality)**
    *Cells:* `ISO80000:accuracy` ⋂ `ISO25024:accuracy` • *senseFamily:* Measurement • *Kind:* overlap • *CL:* 2 • *Loss:* instrument vs dataset perspective • *Use:* **Naming‑only** row “accuracy”; methods stay context‑local.
 
-## 11 · Anti‑patterns & remedies
+### 11 · Anti‑patterns & remedies
 
 | ID        | Anti‑pattern                     | Symptom                                                                           | Why it breaks thinking                              | Remedy (conceptual move)                                                                                    |
 | --------- | -------------------------------- | --------------------------------------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -31301,9 +31301,9 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 12 · Worked cross‑architheory examples (didactic)
+### 12 · Worked cross‑architheory examples (didactic)
 
-### 12.1 Service acceptance (design) vs executions & observations (run)
+#### 12.1 Service acceptance (design) vs executions & observations (run)
 
 * **Cells & Contexts**
   `ITIL4:SLO` *(Status, design)* ← **→ᴍᴇᵃ** — `SOSA:Observation(availability)` *(Measurement, run)*
@@ -31318,7 +31318,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 12.2 Behavioural role vs access role
+#### 12.2 Behavioural role vs access role
 
 * **Cells & Contexts**
   `BPMN:Participant` *(Role)* ⋂ `NIST‑RBAC:Role` *(Status)*
@@ -31331,7 +31331,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 12.3 Equivalence of subtype notions for structural rows
+#### 12.3 Equivalence of subtype notions for structural rows
 
 * **Cells & Contexts**
   `OWL2:SubClassOf` *(Type‑structure)* ≈ `TaxX:is‑a` *(Type‑structure curated)*
@@ -31342,7 +31342,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 12.4 Accuracy (metrology) vs accuracy (data‑quality)
+#### 12.4 Accuracy (metrology) vs accuracy (data‑quality)
 
 * **Cells & Contexts**
   `ISO80000:measurement‑accuracy` *(Measurement)* ⋂ `ISO25024:data‑accuracy` *(Measurement)*
@@ -31353,7 +31353,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 12.5 Setpoint (control) vs target (service)
+#### 12.5 Setpoint (control) vs target (service)
 
 * **Cells & Contexts**
   `CTRL:text:setpoint` *(Status/Control)* ⊥ `ITIL:target` *(Status/Service)*
@@ -31364,11 +31364,11 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 13 · Reasoning primitives (judgement schemas)
+### 13 · Reasoning primitives (judgement schemas)
 
 > **All judgements are conceptual.** They license or forbid specific *thinking moves*—not API calls, not workflows.
 
-### 13.1 Bridge declaration
+#### 13.1 Bridge declaration
 
 `⊢ Bridge(σA@RA, σB@RB) : ⟨senseFamily, kind, dir, CL, Loss, scope⟩`
 
@@ -31376,7 +31376,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 13.2 Substitution licence (senseFamily‑preserving)
+#### 13.2 Substitution licence (senseFamily‑preserving)
 
 `Bridge(σA,σB): ⟨senseFamily f, kind∈{≈,⊑,⊒}, dir A→B, CL≥2, Loss L⟩ ⊢ A↠B @f (Role Assignment & Enactment-eligible)`
 
@@ -31384,7 +31384,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 13.3 Naming‑only licence
+#### 13.3 Naming‑only licence
 
 `Bridge(σA,σB): ⟨kind∈{≈,⊑,⊒,⋂}, CL≥1⟩ ⊢ A⇝B (Naming‑only)`
 
@@ -31392,7 +31392,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 13.4 Prohibition by kind
+#### 13.4 Prohibition by kind
 
 `Bridge(σA,σB): ⟨kind=⊥⟩ ⊢ ¬(A↠B) ∧ ¬(row(A,B))`
 
@@ -31400,7 +31400,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 13.5 Interpretation embargo
+#### 13.5 Interpretation embargo
 
 `Bridge(σA,σB): ⟨kind∈{⇄ᴅʀ,→ᴍᴇᵃ,→ᴅᵉᵒ}⟩ ⊢ Explanation‑only`
 
@@ -31408,7 +31408,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 13.6 Weakest‑link rule for rows
+#### 13.6 Weakest‑link rule for rows
 
 `row R uses {Bridge_i} ⊢ scope(R) = min_i(scopeAllowed(Bridge_i)) ∧ CL(R)=min_i(CL_i)`
 
@@ -31416,7 +31416,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 13.7 Direction guard
+#### 13.7 Direction guard
 
 `Bridge kind=⊑ with dir A→B ⊢ ¬(B↠A)`
 
@@ -31424,7 +31424,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 13.8 SenseFamily purity
+#### 13.8 SenseFamily purity
 
 `Bridge scope=Role Assignment & Enactment-eligible ⊢ senseFamily(A)=senseFamily(B) ∧ stance(A)=stance(B)`
 
@@ -31432,7 +31432,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-### 13.9 Loss accumulation
+#### 13.9 Loss accumulation
 
 `A↠B with Loss L₁ ∧ B↠C with Loss L₂ ⊢ A↠C allowed only if same senseFamily ∧ CL=min(CL₁,CL₂) ∧ Loss ⊇ (L₁∪L₂)`
 
@@ -31440,7 +31440,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 14 · Relations
+### 14 · Relations
 
 **Builds on:** E.10.D1 (Context discipline: Context ≡ U.BoundedContext); **F.0.1 (senseFamily guard; Bridge‑only crossing)**; F.1 (Contexts fixed); F.2/F.3 (Cells exist); F.7 (rows depend on Bridges); F.8 (thresholds τ).
 
@@ -31453,7 +31453,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 15 · Migration notes (conceptual)
+### 15 · Migration notes (conceptual)
 
 1. **Edition shift in a Context.** Re‑read affected **Cells**; if sense moved, split the Bridge or **lower CL**; keep the older Bridge for historical claims.
 2. **New evidence of mismatch.** Add a **counter‑example**; **decrease CL** or change **kind** (e.g., from ≈ to ⊑ or ⋂).
@@ -31464,9 +31464,9 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 16 · Acceptance tests (SCR/RSCR — concept‑level)
+### 16 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 16.1 Static conformance (SCR)
+#### 16.1 Static conformance (SCR)
 
 * **SCR‑F9‑S01 (Well‑typed).** Every Bridge names **two SenseCells**, each bound to a **Context** from F.1, and states **senseFamily**, **kind**, **dir** (if needed), **CL**, **Loss**, **scope**.
 * **SCR‑F9‑S02 (senseFamily discipline).** Any Bridge that licenses **Role/Enactment-eligible** substitution is **senseFamily‑preserving** and **kind ∈ {≈,⊑,⊒}**.
@@ -31474,7 +31474,7 @@ CL expresses how safely meaning carries over.
 * **SCR‑F9‑S04 (Counter‑example hygiene).** Bridges with **CL≤2** carry at least one **counter‑example**; Bridges with **CL=3** cite **matching invariants**.
 * **SCR‑F9‑S05 (Row compliance).** Every Concept‑Set row shows a **scope** no greater than the **minimum CL** across its supporting Bridges; no row relies on **Interpretation** Bridges.
 
-### 16.2 Regression (RSCR)
+#### 16.2 Regression (RSCR)
 
 * **RSCR‑F9‑E01 (Edition churn).** When a Context’s edition changes, re‑validate all Bridges touching it; **flag CL drift** and update rows’ scopes if needed.
 * **RSCR‑F9‑E02 (Counter‑example drift).** New counter‑examples lower **CL**; deletions do not automatically raise **CL**.
@@ -31483,11 +31483,11 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 17 · Didactic distillation (90‑second script)
+### 17 · Didactic distillation (90‑second script)
 
 > “A **Bridge** translates between **local senses** from different **Contexts**. It always declares **what relation** (≈, ⊑, ⋂, ⊥, or an **interpretation** like design↔run), **how strong** (CL 0–3), **which way** (for ⊑/⊒), and **what is lost**. **Substitution** is allowed only on the **same senseFamily** and only with **CL≥2**; **Type‑structure** needs **CL=3**. **Interpretation Bridges** explain, never substitute. Rows in the Concept‑Set table obey the **weakest‑link**: their scope cannot exceed the lowest CL among their Bridges. When editions change or counter‑examples surface, **lower CL** or change **kind**; if two senses truly converge and invariants match, raise to **CL=3**—rarely, and with reasons. Translate across Contexts; never collapse them.”
 
-# F.10 — Status Families Mapping (Evidence • Standard • Requirement) \[A] 
+## F.10 — Status Families Mapping (Evidence • Standard • Requirement) \[A] 
 
 **“Keep statuses in their native modality; translate between Contexts explicitly.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -31496,7 +31496,7 @@ CL expresses how safely meaning carries over.
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **simple, Context‑first way** to express and compare **status meanings** across disciplines **without collapsing modalities** (*epistemic* vs *deontic*). We focus on three pervasive **status families**:
 
@@ -31512,7 +31512,7 @@ Each status meaning is **local to a Context** (`U.BoundedContext`). Cross‑cont
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Without a modality‑aware mapping of statuses:
 
@@ -31523,7 +31523,7 @@ Without a modality‑aware mapping of statuses:
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                                     | Tension to resolve                                                                             |
 | ----------------------------------------- | ---------------------------------------------------------------------------------------------- |
@@ -31534,14 +31534,14 @@ Without a modality‑aware mapping of statuses:
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 **Three families, two modalities, one habit.**
 Treat every status word as a **SenseCell with a declared StatusModality** and **inside one Context**. When you must relate statuses across Contexts, **declare a Bridge** (F.9) that says *what kind of relation*, *how strong (CL)*, *which way (if narrower/broader)*, and *what is lost*. Prefer **explanation** Bridges; permit **substitution** only when kind/CL allow it.
 
 **Reading an Episteme.** For every `U.Episteme`, read _Object_ (what it is about), _Concept_ (model/postulates), _Symbol_ (carriers). **Statuses classify the Episteme;** enactment remains with `U.System` and `U.Work`. (Formal identity rules: see **KD‑CAL**.)
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **StatusFamily.** Sub‑typing inside **senseFamily=Status**: one of **EvidenceStatus**, **StandardStatus**, **RequirementStatus**.
 * **StatusCell.** A **SenseCell** whose meaning is a status with a declared **StatusModality ∈ {epistemic, deontic}**
@@ -31555,7 +31555,7 @@ Treat every status word as a **SenseCell with a declared StatusModality** and **
 
 ---
 
-## 6 · The spine: three local ladders (Context‑native, small and renameable)
+### 6 · The spine: three local ladders (Context‑native, small and renameable)
 
 > The following ladders are **didactic spines**. Each Context may rename levels or insert thin sub‑levels, but Bridges must state how they align to this spine (kind & CL). Names appear in **Tech** / **Plain** register.
 
@@ -31566,7 +31566,7 @@ Treat every status word as a **SenseCell with a declared StatusModality** and **
 -   **Mereology ≠ Provenance.** Part‑whole edges never justify claims; use EPV‑DAG with carriers.
 
 
-### 6.1 EvidenceStatus (epistemic statusModality)
+#### 6.1 EvidenceStatus (epistemic statusModality)
 
 **Levels (from weaker to stronger):**
 
@@ -31585,7 +31585,7 @@ Treat every status word as a **SenseCell with a declared StatusModality** and **
 
 ---
 
-### 6.2 StandardStatus (deontic/curatorial statusModality)
+#### 6.2 StandardStatus (deontic/curatorial statusModality)
 
 **Levels (design‑time stance):**
 
@@ -31603,7 +31603,7 @@ At most one positive stance at a time **per Context & edition**; **Superseded** 
 
 ---
 
-### 6.3 RequirementStatus (deontic/compliance statusModality)
+#### 6.3 RequirementStatus (deontic/compliance statusModality)
 
 **Levels (run‑aware stance toward an obligation):**
 
@@ -31620,12 +31620,12 @@ At most one positive stance at a time **per Context & edition**; **Superseded** 
 **Invariants:**
 For the **same clause and Window**, **Satisfied** and **Violated** are **mutually exclusive**. **Applicable** is a **precondition** for either; **Waived** switches off the precondition temporarily.
 
-### 6.4 Contextual Citation Operators (pointer)
+#### 6.4 Contextual Citation Operators (pointer)
 
 **Citation operators (context‑scoped).** Authors MAY use the **typed edges** `supports`, `refutes`, `dependsOn`, `supersedes` **inside a single Context** when expressing how an `Evidence`/`Standard` status applies. **Formal semantics live in B.3.2 (Evidence & Validation Logic).** Cross‑Context use requires a declared **Bridge** (F.9) and carries CL/Loss penalties.
 
 
-## 7 · Solution — how meanings connect (conceptual, notation‑free)
+### 7 · Solution — how meanings connect (conceptual, notation‑free)
 
 **S‑1. Anchor status meanings per Context.**
 Every status word (*validated*, *approved*, *compliant*) is treated as a **StatusCell** inside a specific Context. The **ladder position** is determined **locally** (e.g., “validated (metrology)” aligns to **Replicated** with CL stated; “validated (software)” may align to **Corroborated**).
@@ -31645,7 +31645,7 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 
 ---
 
-## 8 · Invariants (normative, lightweight)
+### 8 · Invariants (normative, lightweight)
 
 1. **Modality purity.** A StatusCell’s **StatusModality** is explicit and **must not change** during reasoning; cross‑modality claims require an **Interpretation Bridge** (F.9).
 2. **Target typing.** A status **must name its Target kind** (claim / artefact / clause). Inferences that ignore the Target kind are invalid.
@@ -31657,7 +31657,7 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 8. **Weakest‑link propagation.** When multiple Bridges contribute to a Cross‑context interpretation, the **effective CL** is the **minimum** (cf. F.7/F.9).
 9. **Naming restraint.** Status labels used across Contexts **without** a Bridge are **Naming-only** and **non-operative** for Role Assignment & Enactment decisions.
 
-## 9 · Micro‑illustrations (snapshots, not procedures)
+### 9 · Micro‑illustrations (snapshots, not procedures)
 
 * **Metrology → Service.**
   *Observed uptime (SOSA)* with Window “July” plus Bridge **→ᴍᴇᵃ** to *SLO clause (ITIL)* yields: **we can explain** why “Satisfied” might hold **if** the Service pattern’s evaluation rule says so. F.10 itself **does not** declare “Satisfied”.
@@ -31670,7 +31670,7 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 * **“Approved model” ≠ “Compliant outcome”.**
   **StandardStatus: Approved** for a **MethodDescription** does **not** imply **RequirementStatus: Satisfied** for a production clause. It only permits use; evidence must still speak.
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #         | Anti‑pattern                                 | Symptom                                                                        | Why it harms reasoning                                                               | Remedy (conceptual move)                                                                                                                                                                                                                       |
 | --------- | -------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -31687,11 +31687,11 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 | **AP‑11** | **Bridge‑free roll‑up**                      | Cross‑context dashboards aggregate statuses as if native.                         | Hidden Cross‑context semantics; CL unknown.                                             | Each Cross‑context line **must cite Bridges**; roll‑up shows the **effective CL (min)**.                                                                                                                                                          |
 | **AP‑12** | **Status explosion**                         | New bespoke statuses minted to match every tool state.                         | Pollutes lexicon; blurs statusModalities.                                                      | Map tool states to the **nearest ladder level** in the local context; keep tool terms as **Naming‑only** where needed.                                                                                                                            |
 
-## 11 · Worked examples (multi‑architheory)
+### 11 · Worked examples (multi‑architheory)
 
 > Each example names **Contexts**, shows **StatusCells** on their native ladders, and draws **only the Bridges that F.10 allows**.
 
-### 11.1 Service acceptance from run‑time evidence
+#### 11.1 Service acceptance from run‑time evidence
 
 **Contexts.** *SOSA/SSN (2017)* — sensing; *ITIL 4 (2020)* — services; *ODRL 2.2* — deontics (optional).
 
@@ -31710,7 +31710,7 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 
 ---
 
-### 11.2 Safety controller: design approval vs run‑time duty
+#### 11.2 Safety controller: design approval vs run‑time duty
 
 **Contexts.** *State‑space control texts* — design; *IEC 61131‑3* — run; *Norm‑CAL profile (safety layer)* — deontics.
 
@@ -31728,7 +31728,7 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 
 ---
 
-### 11.3 ML model: validation vs fairness requirement
+#### 11.3 ML model: validation vs fairness requirement
 
 **Contexts.** *ML validation canon* — design/run hybrid; *Policy Context (fairness charter)* — deontics; *SOSA/metrics* — sensing.
 
@@ -31746,7 +31746,7 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 
 ---
 
-### 11.4 Medical device log: refutation
+#### 11.4 Medical device log: refutation
 
 **Contexts.** *SOSA/clinical observations*; *Regulatory profile*.
 
@@ -31762,7 +31762,7 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
 
 ---
 
-## 12 · Reasoning primitives (judgement schemas, notation‑free)
+### 12 · Reasoning primitives (judgement schemas, notation‑free)
 
 > **Premises ⊢ conclusion.** No side effects. All moves are **mental** and **Context‑aware**.
 
@@ -31818,7 +31818,7 @@ If a Bridge cannot reach **CL≥2** on the **same senseFamily**, do **not** subs
    `statusModality=deontic ∧ targetKind=artefact/method ∧ window=W ⊢ doesNotDecide(clause κ @ W)`
    *Reading:* Approval of a method never decides a clause’s satisfaction for a run‑time Window.
 
-## 13 · Relations
+### 13 · Relations
 
 **Builds on:**
 E.10.D1 **D.CTX** (Context discipline); F.1 (Contexts in view); F.2–F.3 (Seeds→Local‑Senses→SenseCells); F.4 (Role Description **Status** template with statusModality/target/window slots); F.7 (Bridge taxonomy & CL semantics); F.9 (Bridge artefact).
@@ -31834,7 +31834,7 @@ Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain confor
 
 ---
 
-## 14 · Migration notes (conceptual)
+### 14 · Migration notes (conceptual)
 
 1. **New status word appears.** Treat it as a **StatusCell** in its Context; place it on the local ladder; only then consider Bridges.
 2. **Edition changes.** If a Context redefines a status, **fork the StatusCell** (new SenseCell) and relate old↔new via a **Bridge** (often ⊑/⊒ with Loss).
@@ -31845,9 +31845,9 @@ Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain confor
 
 ---
 
-## 15 · Acceptance tests (SCR/RSCR — concept‑level)
+### 15 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 15.1 Static conformance (SCR)
+#### 15.1 Static conformance (SCR)
 
 * **SCR‑F10‑S01 (Modality & Target).** Every StatusCell declares **StatusModality** and **target kind**; none cross modalities.
 * **SCR‑F10‑S02 (Windowed polarity).** Every positive/negative StatusCell instance bears a **Window**.
@@ -31856,7 +31856,7 @@ Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain confor
 * **SCR‑F10‑S05 (Substitution guard).** Any substitution claim checks **same StatusModality**, **kind ∈ {≈,⊑,⊒}**, **CL≥θ**, **Windows aligned**.
 * **SCR‑F10‑S06 (Weakest‑link).** Where multiple Bridges feed one conclusion, the displayed **effective CL** is the **minimum**.
 
-### 15.2 Regression (RSCR)
+#### 15.2 Regression (RSCR)
 
 * **RSCR‑F10‑E01 (Edition churn).** Adding a new edition of a Context **does not** retro‑change past status conclusions; only new Windows see new meanings.
 * **RSCR‑F10‑E02 (Threshold change).** If θ changes, re‑evaluate only **substitution** conclusions; **explanations** remain valid.
@@ -31865,7 +31865,7 @@ Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain confor
 
 ---
 
-## 16 · Didactic distillation (90‑second script)
+### 16 · Didactic distillation (90‑second script)
 
 > **Three families, two modalities.** *Evidence* tells us what the world **shows** (Observed→Measured→Corroborated→Replicated; Refuted cancels) — **epistemic**; *Standard* tells us what a canon **sanctions** (Candidate→Draft→Approved→Deprecated→Superseded) — **deontic**; *Requirement* tells us what an obligation is **doing** (Applicable/Inapplicable; Satisfied/Violated; Waived/Pending) — **deontic**.
 > Every status is a **StatusCell inside one Context** with exactly one **StatusModality**, a **Target**, and a **Window**.
@@ -31873,7 +31873,7 @@ Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain confor
 > Keep **design vs run** stance honest: approval is **design‑time**, evidence is **run‑time**, requirements **span both**. With this habit, “validated”, “approved” and “compliant” stop being a muddle of synonyms and become **precise, local meanings** you can compare **safely** and **audibly**.
 
 
-# F.11 — Method Quartet Harmonisation \[A] 
+## F.11 — Method Quartet Harmonisation \[A] 
 
 **“Keep the *how* (Method), the *recipe* (MethodDescription), the *happening* (Work/Execution), and the *control push* (Actuation) in their own Contexts—then relate them explicitly.”**
 
@@ -31884,7 +31884,7 @@ Service Acceptance (F.12), Assurance roll‑ups (B.3), any cross‑domain confor
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **notation‑free, Context‑aware map** that keeps four notions distinct and connectable:
 
@@ -31901,7 +31901,7 @@ The pattern makes the split **usable across architheories** (Role Assignment & E
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 When Method, MethodDescription, Work, and Actuation **collapse into one another**, models drift:
 
@@ -31912,7 +31912,7 @@ When Method, MethodDescription, Work, and Actuation **collapse into one another*
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                        | Tension to resolve                                                                                             |
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------- |
@@ -31923,7 +31923,7 @@ When Method, MethodDescription, Work, and Actuation **collapse into one another*
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 **Four boxes, four arrows, zero leakage.**
 
@@ -31943,7 +31943,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **Context** = `U.BoundedContext` (per D.CTX).
 * **Local‑Sense** → **SenseCell** (F.3): the address *(Context × sense)* for a term like *process*, *task*, *activity*, *command*.
@@ -31953,36 +31953,36 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-## 6 · Solution — the quartet lens (notation‑free)
+### 6 · Solution — the quartet lens (notation‑free)
 
 > *Not steps for a team—**lenses for a thinker**. Use them to sanity‑check any statement about “how”, “script”, “run”, or “signal”.*
 
-### 6.1 The **stance split** (design vs run)
+#### 6.1 The **stance split** (design vs run)
 
 * If the claim is about **what should be done** or **how it is described**, you are on the **design stance** (Method/MethodDescription).
 * If the claim is about **what happened** or **what was emitted**, you are on the **run stance** (Work/Actuation).
 * **Guard rule.** Never let a conclusion cross stances without (a) an explicit Bridge kind (*interpretation* vs *substitution*), and (b) an acceptable CL (F.7/F.9, F.10).
 
-### 6.2 The **recipe/idea split**
+#### 6.2 The **recipe/idea split**
 
 * **Method** is the **idea**; **MethodDescription** is the **recipe** describing that idea.
 * Different recipes may describe the **same** method (profiles, languages, levels of detail); one recipe may encode **several** methods (composite SOP).
 * **Naming guard.** Keep labels distinct: *compressive‑strength test* (Method) vs *ASTM C39‑18* (MethodDescription).
 
-### 6.3 The **happening** (Work) with **signal** (Actuation)
+#### 6.3 The **happening** (Work) with **signal** (Actuation)
 
 * **Work** is the **occurrence** (a PROV *Activity*, an IEC *Task* executing a program, a lab run).
 * **Actuation** is the **control output** (setpoint, PWM command, valve open %) emitted **during** Work.
 * You can have Work **without** Actuation (analysis job), or Actuation **without** a complex Method (manual push). Many scenarios have **both**.
 
-### 6.4 The **Role Assignment & Enactment touch-points**
+#### 6.4 The **Role Assignment & Enactment touch-points**
 
 * **Roles** (F.4) bind **who enacts** the Method at run‑time (behavioural masks), **not** what permissions they hold (RBAC is a different Context).
 * **Statuses** (F.10) bind to the right box: *Approved* → MethodDescription; *Measured/Observed* → Work; *Satisfied/Violated* → Requirement clause about the Work’s outcomes within a **Window**.
 
 ---
 
-## 7 · Harmonisation map (Context‑first)
+### 7 · Harmonisation map (Context‑first)
 
 > Examples of **local SenseCells** and **safe Bridges**. *You may keep the exact Contexts from your F.1 cut.*
 
@@ -32007,7 +32007,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-## 8 · Invariants (normative)
+### 8 · Invariants (normative)
 
 1. **DesignRunTag honesty.** Statements about **Method/MethodDescription** (design) **MUST NOT** be used as if they were statements about **Work/Actuation** (run) without an explicit Bridge and Window.
 2. **Box discipline.** Every claim about “how”, “recipe”, “run”, or “control output” **MUST** point to the correct box in the quartet.
@@ -32019,7 +32019,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-## 9 · Micro‑examples (didactic, cross‑architheory)
+### 9 · Micro‑examples (didactic, cross‑architheory)
 
 1. **Data pipeline deploy (software).**
    *Method*: “Delta‑load transform”. *MethodDescription*: `etl_delta.py@v3`. *Work*: nightly run 2025‑07‑14. *Actuation*: none.
@@ -32033,7 +32033,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
    *Method*: ELISA. *MethodDescription*: Kit IFU v7. *Work*: run batch #B217. *Actuation*: pipetting robot commands.
    *Statuses*: Spec **Approved** ≠ batch **Satisfied** (requires evidence at batch Window).
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern                   | Symptom in prose/models                                               | Why it harms thinking                                                       | Remedy (conceptual move)                                                                                                                                                                                             |
 | ------- | ------------------------------ | --------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -32052,11 +32052,11 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-## 11 · Worked examples (extended, multi‑architheory)
+### 11 · Worked examples (extended, multi‑architheory)
 
 > Each scenario names Contexts (from your F.1 cut), identifies the quartet boxes, and shows safe Cross‑context moves.
 
-### 11.1 ML service rollout (software + services + sensing)
+#### 11.1 ML service rollout (software + services + sensing)
 
 * **Contexts:** *SPEM/ISO 24744* (design), *PROV‑O* (run), *SOSA/SSN* (sensing), *ITIL 4* (services).
 * **Quartet:**
@@ -32072,7 +32072,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-### 11.2 Industrial furnace control (control + sensing + services)
+#### 11.2 Industrial furnace control (control + sensing + services)
 
 * **Contexts:** *State‑space control texts* (design), *IEC 61131‑3* (run), *PROV‑O* (run), *SOSA/SSN* (sensing), *ITIL 4* (services).
 * **Quartet:**
@@ -32088,7 +32088,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-### 11.3 Clinical assay
+#### 11.3 Clinical assay
 
 * **Contexts:** *SPEM/ISO 24744* (design), *Lab assay canon* (design/run split as per discipline), *PROV‑O* (run), *SOSA/SSN* (sensing).
 * **Quartet:**
@@ -32104,7 +32104,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-### 11.4 Incident response (services + enactment)
+#### 11.4 Incident response (services + enactment)
 
 * **Contexts:** *ITIL 4* (services/design), *BPMN 2.0* (design), *PROV‑O* (run).
 * **Quartet:**
@@ -32120,7 +32120,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-## 12 · Reasoning primitives (judgement schemas)
+### 12 · Reasoning primitives (judgement schemas)
 
 > Pure **mental moves**; no storage or workflow is implied.
 
@@ -32174,7 +32174,7 @@ Each box/arrow is **context‑local** (SPEM, PROV‑O, IEC…). **Cross‑contex
 
 ---
 
-## 13 · Relations
+### 13 · Relations
 
 **Builds on:**
 E.10.D1 **D.CTX** (Context ≡ `U.BoundedContext`); A.3/**A.3.1**/**A.3.2**/**A.15** (Method/Spec/Work foundations); Sys‑CAL (Actuation semantics); KD‑CAL (Observation); F.1–F.3 (Contexts → SenseCells); F.10 (Status families & Windows).
@@ -32190,7 +32190,7 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 
 ---
 
-## 14 · Migration notes (conceptual)
+### 14 · Migration notes (conceptual)
 
 1. **Split conflated “process”.** Where a single “process” node stands for both plan and run, refactor into **MethodDescription** (design) and **Work** (run); add a Bridge if the prose relied on identity.
 2. **Re‑home statuses.** Move any *Approval*‑like statuses from Work to MethodDescription; move *Satisfied/Violated* from Spec to clauses about Work within **Windows**.
@@ -32201,9 +32201,9 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 
 ---
 
-## 15 · Acceptance tests (SCR/RSCR — concept level)
+### 15 · Acceptance tests (SCR/RSCR — concept level)
 
-### 15.1 Static conformance checks (SCR)
+#### 15.1 Static conformance checks (SCR)
 
 * **SCR‑F11‑S01 (DesignRunTag honesty).** Every normative claim about outcomes is attached to **Work** (with Window), not to **Method/MethodDescription**.
 * **SCR‑F11‑S02 (Box placement).** Labels and statuses appear on the correct box (e.g., *Approved* on MethodDescription only).
@@ -32211,7 +32211,7 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 * **SCR‑F11‑S04 (Context discipline).** Each quartet term is expressed as a **SenseCell** with its Context; no Cross‑context identity is asserted here.
 * **SCR‑F11‑S05 (Bridge guard).** Any Cross‑context reasoning among quartet terms references an explicit **Bridge** with **kind/CL/Loss**.
 
-### 15.2 Regression checks (RSCR)
+#### 15.2 Regression checks (RSCR)
 
 * **RSCR‑F11‑E01 (Spec update).** When a MethodDescription changes, previous Works remain valid and unchanged; their statuses don’t shift unless re‑evaluated with explicit rationale.
 * **RSCR‑F11‑E02 (Bridge drift).** If a Context updates, revisit Bridges that touch quartet terms; adjust **CL/Loss** only via F.7/F.9.
@@ -32220,7 +32220,7 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 
 ---
 
-## 16 · Didactic distillation (90‑second script)
+### 16 · Didactic distillation (90‑second script)
 
 > “When you talk about *how something is done*, decide which of the **four boxes** you mean.
 > **Method** is the **idea** (the way). **MethodDescription** is the **recipe** (the description). **Work** is the **happening** (what actually occurred). **Actuation** is the **control push** (signals emitted during Work).
@@ -32229,7 +32229,7 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 > For compliance, don’t point at the plan—point at **Work**, show **Observations**, and judge clauses in **F.10**.
 > Hold this quartet in your head and you’ll stop mixing plans with facts, signals with outcomes, and names across Contexts. + Everything else—naming (F.5), `U.RoleDescription` (F.4) and `U.RoleAssignment`/`U.RoleEnactment` (A.2.1/F.6), Bridges (F.7/F.9)—falls into place.
 
-# F.12 — Service Acceptance Binding \[A] 
+## F.12 — Service Acceptance Binding \[A] 
 
 **“Judge promises on what happened, not on what was planned.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -32239,7 +32239,7 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **conceptual binding** that turns a *service promise* (SLO/SLA clause) into a **clear, local, time‑bounded judgement** about **actual Work**, using **Observations** as evidence and **explicit Bridges** where Cross‑context notions must meet. The result is a **Status** (Satisfied/Violated/Inconclusive) that attaches to the **clause‑about‑that‑Work‑in‑that‑Window**.
 
@@ -32247,7 +32247,7 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 1. **Plan ≠ proof.** Diagrams and playbooks are treated as if they demonstrated fulfilment.
 2. **Signal ≠ outcome.** Control signals (Actuation) are mistaken for the service outcome experienced by the consumer.
@@ -32257,7 +32257,7 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                                | Tension to resolve                                                                                        |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -32268,7 +32268,7 @@ Part C architheories (Sys‑CAL, KD‑CAL, Method‑CAL, Kind-CAL, LCA‑CAL) 
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 **Bind promises to runs with measurements in time.**
 Acceptance is a **quadruple of anchors** (all context‑local):
@@ -32283,7 +32283,7 @@ The **Status** (Satisfied/Violated/Inconclusive) attaches to **ClauseCell\@Windo
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **ClauseCell.** A context‑local deontic/Standardual concept (*SLO*, *obligation*, *target*), typically from *services/deontics* Contexts (e.g., **ITIL 4**, **ODRL**).
 * **WorkCell.** A context‑local run‑time occurrence (PROV **Activity**, IEC **Task Execution**, etc.).
@@ -32296,7 +32296,7 @@ The **Status** (Satisfied/Violated/Inconclusive) attaches to **ClauseCell\@Windo
 
 ---
 
-## 6 · The binding, as five mental rules (notation‑free)
+### 6 · The binding, as five mental rules (notation‑free)
 
 **R1 — Locus rule.**
 A service verdict **attaches to the Clause**, scoped by a **Window**, **about a specific Work**:
@@ -32325,7 +32325,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 7 · Clause templates (conceptual schemata)
+### 7 · Clause templates (conceptual schemata)
 
 > These are **shapes of meaning**, not data fields.
 
@@ -32363,7 +32363,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 8 · Invariants (normative)
+### 8 · Invariants (normative)
 
 1. **Design/run split.** Clauses live on the **design stance**; judgements live on the **run stance** about **Work** (F.11).
 2. **Context locality.** All terms are **context‑local**; Cross‑context meaning flows **only** across declared **Bridges**.
@@ -32376,9 +32376,9 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 9 · Micro‑examples (didactic, multi‑domain)
+### 9 · Micro‑examples (didactic, multi‑domain)
 
-### 9.1 SaaS uptime (services + sensing)
+#### 9.1 SaaS uptime (services + sensing)
 
 * **Contexts:** *ITIL 4* (Clause), *PROV‑O* (Work), *SOSA/SSN* (Measure).
 * **ClauseCell:** *availability ≥ 99.9% monthly*.
@@ -32388,7 +32388,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **Bridge:** probe result → user availability (**kind:** proxy; **CL:** 2; **Loss:** regional gaps).
 * **Verdict:** *Satisfied (June)* if the ratio holds; **attaches to Clause\@June about those Works**.
 
-### 9.2 Furnace band (industrial control)
+#### 9.2 Furnace band (industrial control)
 
 * **Contexts:** *quality/deontics canon* (Clause), *IEC 61131‑3/PROV* (Work), *KD‑CAL* (Measure).
 * **ClauseCell:** *product temperature within \[720,740] °C during soak*.
@@ -32398,7 +32398,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **Bridge:** IEC task interval → PROV Activity (**Interpretation**, CL=2).
 * **Verdict:** *Violated* if any measured value exits the band.
 
-### 9.3 Incident MTTR (services + enactment)
+#### 9.3 Incident MTTR (services + enactment)
 
 * **Contexts:** *ITIL 4* (Clause), *PROV‑O* (Work).
 * **ClauseCell:** *MTTR ≤ 60 min per incident*.
@@ -32408,7 +32408,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **Bridge:** BPMN steps → PROV Activity (**Interpretation**, CL=2).
 * **Verdict:** *Satisfied* if the measured interval meets the target.
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern                    | Symptom in practice                                                                          | Why it breaks thinking                          | Remedy (conceptual move)                                                                                                                                 |
 | ------- | ------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -32427,11 +32427,11 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 11 · Extended worked examples (multi‑architheory)
+### 11 · Extended worked examples (multi‑architheory)
 
 > Each example identifies **Contexts**, the **quadruple** ⟨ClauseCell, WorkCell, MeasureCell, Window⟩, any **Bridge(s)**, and the **Predicate**. The verdict attaches to *ClauseCell\@Window about WorkCell*.
 
-### 11.1 CDN latency across regions (services + sensing + types)
+#### 11.1 CDN latency across regions (services + sensing + types)
 
 * **Contexts.** *ITIL 4* (Clause), *PROV‑O* (Work), *SOSA/SSN* (Measure), *OWL 2* (type labels).
 * **ClauseCell.** *p95 end‑user latency ≤ 200 ms per region per month*.
@@ -32442,7 +32442,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **Verdict.** Region‑wise statuses; a global “all‑regions met” is the **logical AND** of region statuses (declare this aggregation explicitly).
 * **Manager cue.** “Green map ≠ one green verdict”; acceptance is **per Clause per Window per Work population**.
 
-### 11.2 Stroke care: door‑to‑needle (method + enactment + status)
+#### 11.2 Stroke care: door‑to‑needle (method + enactment + status)
 
 * **Contexts.** *clinical guideline canon* (Clause), *PROV‑O* (Work), *SOSA/SSN* (Measure), *F.10* (status windows).
 * **ClauseCell.** *90% of ischemic‑stroke episodes achieve door‑to‑needle ≤ 30 min per quarter*.
@@ -32452,7 +32452,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **Bridges.** *EHR event semantics → PROV Activity* (**Interpretation**, **CL** 2; **Loss**: missing triage tags).
 * **Verdict.** If data gaps exceed a declared tolerance, status is **Inconclusive** rather than “Satisfied by assumption”.
 
-### 11.3 Cold‑chain warehouse (control + sensing + deontics)
+#### 11.3 Cold‑chain warehouse (control + sensing + deontics)
 
 * **Contexts.** *quality/deontics canon* (Clause), *IEC 61131‑3/PROV* (Work), *SOSA/SSN + ISO 80000‑1* (Measure).
 * **ClauseCell.** *temperature ∈ \[2,8] °C for ≥ 99.5% of each day*.
@@ -32462,7 +32462,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **Bridges.** *sensor position → product exposure* (**kind**: proxy; **CL** 2; **Loss**: stratification).
 * **Verdict.** *Violated* if any day fails; annotate **Loss** to communicate assurance limits.
 
-### 11.4 SaaS incident MTTR (services + enactment)
+#### 11.4 SaaS incident MTTR (services + enactment)
 
 * **Contexts.** *ITIL 4* (Clause), *PROV‑O* (Work).
 * **ClauseCell.** *MTTR ≤ 60 min per incident*.
@@ -32473,7 +32473,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 12 · Reasoning primitives (judgement schemas, notation‑free)
+### 12 · Reasoning primitives (judgement schemas, notation‑free)
 
 > These are **mental inferences**; they neither read nor write artefacts. Each reads “if these thoughts hold, you may safely conclude …”.
 
@@ -32521,7 +32521,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 13 · Relations (with other patterns)
+### 13 · Relations (with other patterns)
 
 * **Builds on:**
   **F.1** (Contexts): keeps all meanings **local**.
@@ -32541,7 +32541,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 14 · Migration notes (conceptual)
+### 14 · Migration notes (conceptual)
 
 1. **Clause revisions.** Introduce a **new ClauseCell**; keep old verdicts intact (Non‑retroactivity).
 2. **Monitor changes.** Update or replace **Bridges** (kind/CL/Loss). Future verdicts use the new Bridge; past ones are annotated, not rewritten.
@@ -32552,9 +32552,9 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 15 · Acceptance tests (SCR/RSCR — concept‑level)
+### 15 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 15.1 Static conformance (SCR)
+#### 15.1 Static conformance (SCR)
 
 * **SCR‑F12‑S01 (Quadruple present).** Every acceptance statement names **ClauseCell**, **WorkCell**, **MeasureCell**, and **Window**.
 * **SCR‑F12‑S02 (context‑locality).** Each of the three Cells cites a **Context** (U.BoundedContext).
@@ -32565,7 +32565,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 * **SCR‑F12‑S07 (Unit honesty).** MeasureCell specifies **Characteristic, Scale, Unit** (KD‑CAL).
 * **SCR‑F12‑S08 (Temporal honesty).** No verdict is asserted without a **Window**; no clause retroactively changes past verdicts.
 
-### 15.2 Regression checks (RSCR)
+#### 15.2 Regression checks (RSCR)
 
 * **RSCR‑F12‑E01 (Bridge update).** When a **Bridge CL** changes, past verdicts stand; future verdicts **reference the new CL**; reports surface the difference.
 * **RSCR‑F12‑E02 (Edition churn).** When a Context’s canon updates, Cells reference the **edition**; old verdicts remain bound to their original editions.
@@ -32575,12 +32575,12 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-### 15.3 Didactic distillation (60‑second recap)
+#### 15.3 Didactic distillation (60‑second recap)
 
 > **Bind promises to runs with measurements in time.**
 > Name the **Clause**, the **Work** it talks about, the **Measure** of what actually happened, and the **Window**. Evaluate the Clause’s **Predicate** on Observations **about that Work in that Window**. If any concept crosses Contexts, declare a **Bridge** with **kind/CL/Loss**. The verdict (**Satisfied/Violated/Inconclusive**) attaches to **Clause\@Window about Work**, never to a plan or to the abstract service.
 
-# F.13 — Lexical Continuity & Deprecation \[A] 
+## F.13 — Lexical Continuity & Deprecation \[A] 
 
 **“Change names without changing history.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -32590,7 +32590,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **conceptual discipline** for evolving labels (for **SenseCells**, **Concept‑Set rows**, and **Role Description names**) so that:
 
@@ -32602,7 +32602,7 @@ Every verdict is **time‑bounded**. Changing the Window can change the result; 
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Unification efforts rot when names drift faster than senses or, worse, when senses change under a constant name.
 
@@ -32613,7 +32613,7 @@ Unification efforts rot when names drift faster than senses or, worse, when sens
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                          | Tension to resolve                                                                           |
 | ------------------------------ | -------------------------------------------------------------------------------------------- |
@@ -32624,7 +32624,7 @@ Unification efforts rot when names drift faster than senses or, worse, when sens
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 **Treat names as lenses, not objects.**
 The **thing that persists** is the *sense* (a **SenseCell** inside a Context, or the *Cross‑context alignment* embodied by a **Concept‑Set row**, or a **Role Description** that points to such sense). Names are **lenses** we look through. When the lens improves, we **record a continuity relation** between lenses; when the underlying sense changes, we **split/merge the thing**, then name accordingly.
@@ -32634,7 +32634,7 @@ The **thing that persists** is the *sense* (a **SenseCell** inside a Context, or
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **Legacy label** — a previously used label in the same Context (or same Concept‑Set row / Role Description).
 * **Preferred label** — the current **F.5‑conformant** label for that item.
@@ -32644,11 +32644,11 @@ The **thing that persists** is the *sense* (a **SenseCell** inside a Context, or
 
 ---
 
-## 6 · Solution — Continuity, not “registries”
+### 6 · Solution — Continuity, not “registries”
 
 Rather than maintain a tool or workflow, **think with five continuity relations**. Use the *least strong* relation that tells the truth.
 
-### 6.1 Continuity relations (normative meanings)
+#### 6.1 Continuity relations (normative meanings)
 
 1. **`renames(label_old → label_new)`** — *wording improved, sense unchanged*.
    *Use when:* Same **SenseCell** / same **Concept‑Set row** / same **Role Description**; only the surface form changed to satisfy F.5 (morphology, disambiguation, plain/tech harmony).
@@ -32674,7 +32674,7 @@ Rather than maintain a tool or workflow, **think with five continuity relations*
 
 ---
 
-## 7 · Invariants (normative)
+### 7 · Invariants (normative)
 
 1. **Locality of alias.** `aliases(·)` and `renames(·)` operate **within one context** (SenseCell) or **within one Concept‑Set row / Role Description**.
 2. **Truth over comfort.** If the **sense changed**, use `splits`/`merges` (and possibly adjust rows/Bridges), **not** `renames`.
@@ -32686,7 +32686,7 @@ Rather than maintain a tool or workflow, **think with five continuity relations*
 
 ---
 
-## 8 · Self‑checks (mental, not procedural)
+### 8 · Self‑checks (mental, not procedural)
 
 * **Same‑sense test.** Can you point to the **same SenseCell** (or same row) before and after? If yes → `renames`/`aliases`. If no → `splits`/`merges`.
 * **Context test.** Does the change stay **inside one context**? If it needs two Contexts to explain, it’s a **Bridge**, not a rename.
@@ -32696,9 +32696,9 @@ Rather than maintain a tool or workflow, **think with five continuity relations*
 
 ---
 
-## 9 · Micro‑examples (illustrative)
+### 9 · Micro‑examples (illustrative)
 
-### 9.1 Pure rename inside a Context (ITIL → clearer plain label)
+#### 9.1 Pure rename inside a Context (ITIL → clearer plain label)
 
 *Context:* **ITIL 4 (services)**.
 Old: **“SLO” (plain: *service target*)** → New: **“service‑level objective” (plain unchanged)**.
@@ -32706,7 +32706,7 @@ Old: **“SLO” (plain: *service target*)** → New: **“service‑level objec
 **Why:** F.5 morphology & expansion; SenseCell unchanged (same clause semantics).
 **Effect:** Old guidance remains readable; new writing spells out the term.
 
-### 9.2 Alias for a common legacy synonym (Sys‑CAL)
+#### 9.2 Alias for a common legacy synonym (Sys‑CAL)
 
 *Context:* **state‑space control (design)**.
 Preferred: **“actuation”**. Legacy: **“control output”**.
@@ -32714,27 +32714,27 @@ Preferred: **“actuation”**. Legacy: **“control output”**.
 **Why:** Same SenseCell; legacy term appears in older textbooks.
 **Effect:** Readers resolve to the SenseCell; new texts use “actuation”.
 
-### 9.3 Split of a muddled local sense (Enactment)
+#### 9.3 Split of a muddled local sense (Enactment)
 
 *Context:* **BPMN 2.0**.
 Legacy label **“process”** was used to mean both **“collaboration”** and **“executable process”** in a team’s prose.
 **Relation:** `splits("process" ⇒ {"collaboration","executable‑process"})`.
 **Effect:** The single Concept‑Set row becomes two; old label is deprecated with a disambiguation note.
 
-### 9.4 Merge after clustering raised confidence (Kind-CAL row)
+#### 9.4 Merge after clustering raised confidence (Kind-CAL row)
 
 Two Concept‑Set rows **{“DBaaS”, “Database‑Service”}** converge after F.3 within the same context profile and F.9 raised CL.
 **Relation:** `merges({"DBaaS","Database‑Service"} ⇒ "Database‑Service")`.
 **Effect:** “DBaaS” becomes a legacy alias with an epoch note.
 
-### 9.5 Not a rename: Cross‑context temptation (forbidden)
+#### 9.5 Not a rename: Cross‑context temptation (forbidden)
 
 *Contexts:* **BPMN (design graph)** vs **PROV‑O (run activity)**.
 Temptation: “Let’s rename *process* to *activity*.”
 **Diagnosis:** Cross‑context; **different SenseCells**.
 **Action:** **No continuity relation.** Keep labels; if needed, declare a **Bridge** (F.9) explaining design→run mapping with CL/Loss.
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern               | Symptom in texts                                                      | Why it harms thinking                                          | Remedy (conceptual move)                                                                                                         |
 | ------- | -------------------------- | --------------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -32753,9 +32753,9 @@ Temptation: “Let’s rename *process* to *activity*.”
 
 ---
 
-## 11 · Extended examples (multi‑architheory)
+### 11 · Extended examples (multi‑architheory)
 
-### 11.1 KD‑CAL × Services — *metric target* labels over time
+#### 11.1 KD‑CAL × Services — *metric target* labels over time
 
 * **Contexts:** *ITIL 4 (services, design)*; *SOSA/SSN (sensing, run)*.
 * **Before:** Role Description used **“SLO”** (plain “target”) and readers often saw **“service target”**.
@@ -32763,7 +32763,7 @@ Temptation: “Let’s rename *process* to *activity*.”
 * **Why:** Same local sense; clearer morphology for F.5; SOSA/SSN labels untouched.
 * **Pay‑off:** Runtime **Observations** (SOSA) are later compared to **service‑level objective** clauses (ITIL) without Cross‑context aliasing.
 
-### 11.2 Sys‑CAL × LCA‑CAL — separating *execution* vs *actuation*
+#### 11.2 Sys‑CAL × LCA‑CAL — separating *execution* vs *actuation*
 
 * **Contexts:** *IEC 61131‑3 (run)*; *state‑space control texts (design)*.
 * **Temptation:** Rename **“task execution”** to **“actuation”** “to sound control‑ish”.
@@ -32771,7 +32771,7 @@ Temptation: “Let’s rename *process* to *activity*.”
 * **Move:** **No rename.** Keep labels; later add **Bridge** “`execution (IEC)` *produces* signals that realise `actuation (control)`” with CL stating partial coverage.
 * **Pay‑off:** Plant narratives stop calling programs “actuators”; runtime vs control semantics stay crisp.
 
-### 11.3 Kind-CAL × Method‑CAL — false merge avoided
+#### 11.3 Kind-CAL × Method‑CAL — false merge avoided
 
 * **Contexts:** *OWL 2 (types, design)*; *SPEM 2.0 (methods, design)*.
 * **Issue:** A row labeled **“Class”** tried to absorb **“WorkProductKind”** by a `renames`.
@@ -32779,14 +32779,14 @@ Temptation: “Let’s rename *process* to *activity*.”
 * **Move:** **Split the row**: `splits("class" ⇒ {"type‑class","work‑product‑category"})`.
 * **Pay‑off:** Downstream Role Descriptions can point to the correct **SenseCell** without redefining ontological commitments.
 
-### 11.4 Enactment × KD‑CAL — retiring a misleading metaphor
+#### 11.4 Enactment × KD‑CAL — retiring a misleading metaphor
 
 * **Context:** *BPMN 2.0 (design)*.
 * **Legacy:** Team jargon **“heartbeat”** used for a **timer event**. Newcomers confuse it with **sensor heartbeats** (KD‑CAL).
 * **Move:** `retires("heartbeat")` in BPMN Context with note “use **timer event**; ‘heartbeat’ refers to sensor liveness in KD‑CAL”.
 * **Pay‑off:** Two different ecosystems stop colliding on the same catchy word.
 
-### 11.5 Concept‑Set row refactor after rising CL
+#### 11.5 Concept‑Set row refactor after rising CL
 
 * **Rows:** `{“DBaaS”, “Database‑Service”}` representing service notions across several Contexts.
 * **F.3 + F.9 outcome:** High CL; evidence of same Cross‑context alignment.
@@ -32795,65 +32795,65 @@ Temptation: “Let’s rename *process* to *activity*.”
 
 ---
 
-## 12 · Reasoning primitives (judgement schemas, notation‑free)
+### 12 · Reasoning primitives (judgement schemas, notation‑free)
 
 > Each judgement is a **pure thought**: premises ⇒ safe conclusion. No storage, no workflow, no roles.
 
 Let **`ContextOf(ℓ)`** be the Context of label **ℓ** (when ℓ names a SenseCell); **`rowOf(ℓ)`** the Concept‑Set row (when ℓ names a row); **`senseOf(ℓ)`** the SenseCell it denotes (if local); **`pref(thing)`** the current preferred label of a SenseCell / row / Role Description.
 
-### 12.1 Same‑sense & same‑place
+#### 12.1 Same‑sense & same‑place
 
 `ContextOf(ℓ₁)=ContextOf(ℓ₂) ∧ senseOf(ℓ₁)=senseOf(ℓ₂) ⊢ mayRename(ℓ₁→ℓ₂)`
 *Reading:* If two labels denote **the same SenseCell in the same Context**, a rename is legitimate.
 
-### 12.2 Local alias
+#### 12.2 Local alias
 
 `ContextOf(ℓ₁)=ContextOf(ℓ₂) ∧ senseOf(ℓ₁)=senseOf(ℓ₂) ⊢ aliases(ℓ₁↔ℓ₂)`
 *Reading:* Legacy synonym can be kept **as a read‑path**; writing uses `pref`.
 
-### 12.3 Split detection
+#### 12.3 Split detection
 
 `coversMultipleLocalSenses(ℓ) ⊢ splits(ℓ ⇒ {ℓA,ℓB,...})`
 *Reading:* If one label straddles several local senses, declare a split and prefer the new precise labels.
 
-### 12.4 Merge admission
+#### 12.4 Merge admission
 
 `ContextOf(ℓA)=ContextOf(ℓB) ∧ senseOf(ℓA)=senseOf(ℓB) ⊢ merges({ℓA,ℓB} ⇒ ℓN)`
 *Reading:* Once F.3 shows identity of sense **within** a Context, merging labels into one preferred label is safe.
 
-### 12.5 Retirement
+#### 12.5 Retirement
 
 `misleading(ℓ) ∧ ¬∃ℓ' sameSense(ℓ,ℓ') ⊢ retires(ℓ)`
 *Reading:* If a label misleads and has **no single** successor, retire it and point readers to relevant Contexts/rows.
 
-### 12.6 Cross‑context guard
+#### 12.6 Cross‑context guard
 
 `ContextOf(ℓ₁) ≠ ContextOf(ℓ₂) ⊢ ¬mayRename(ℓ₁→ℓ₂)`
 *Reading:* Different Contexts forbid rename/alias; any relation goes to **Bridge** (F.9).
 
-### 12.7 Writing discipline
+#### 12.7 Writing discipline
 
 `thing t ⊢ writeWithPreferred(t) = pref(t)`
 *Reading:* Normative prose uses the **current** preferred label; aliases are for reading.
 
-### 12.8 Reading resolution
+#### 12.8 Reading resolution
 
 `legacyLabel ℓ ⊢ readResolve(ℓ) = ⟨thing, pref(thing), epoch?⟩`
 *Reading:* A reader can mentally resolve a legacy label to the **thing** and its present name, with epoch hint if needed.
 
-### 12.9 Alias budget
+#### 12.9 Alias budget
 
 `aliasesFor(thing, register=r) = A ⊢ |A| ≤ 1`
 *Reading:* Keep at most one legacy alias per register (Tech/Plain) for any one thing.
 
-### 12.10 Row‑level continuity
+#### 12.10 Row‑level continuity
 
 `rowOf(ℓA)=rowOf(ℓB)=R ∧ intension(R) stable ⊢ mayRenameRow(R,ℓB)`
 *Reading:* A row label can change if the **row’s membership/intension** did not change; otherwise refactor rows first (F.7).
 
 ---
 
-## 13 · Relations
+### 13 · Relations
 
 **Builds on:**
 F.1 **context of meaning** (keeps locality), F.2 **Harvesting** (provides attested strings), F.3 **Clustering** (establishes SenseCells), F.5 **Naming Discipline** (supplies preferred labels), F.7 **Concept‑Set rows**, F.8 **Mint‑or‑Reuse**, F.9 **Bridges**, F.10 **Status windows**, F.11 **Method harmonisation**, F.12 **Service acceptance**.
@@ -32869,7 +32869,7 @@ All Part C architheories when editions shift; all examples and tutorials when 
 
 ---
 
-## 14 · Migration notes (conceptual playbook)
+### 14 · Migration notes (conceptual playbook)
 
 1. **Ask the same‑sense question first.** If the underlying **SenseCell/row** is unchanged, prefer `renames`; else reach for `splits/merges`.
 2. **Keep it inside the Context.** If your explanation crosses Contexts, stop—this is **Bridge** territory (F.9), not a rename.
@@ -32882,9 +32882,9 @@ All Part C architheories when editions shift; all examples and tutorials when 
 
 ---
 
-## 15 · Acceptance tests (SCR/RSCR — concept‑level)
+### 15 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 15.1 Static conformance (SCR)
+#### 15.1 Static conformance (SCR)
 
 * **SCR-F13-S01 (context-local continuity).** Every `renames/aliases` relates labels **within the same context** or the **same row/Role Description**; none cross Contexts.
 * **SCR‑F13‑S02 (Truthfulness).** For each `renames`, there exists an unchanged **SenseCell/row**; otherwise the move is rejected.
@@ -32893,7 +32893,7 @@ All Part C architheories when editions shift; all examples and tutorials when 
 * **SCR‑F13‑S05 (Row integrity).** A row rename occurs only when the row’s **intension** is stable; if membership changed, a **row split/merge** is documented (F.7).
 * **SCR‑F13‑S06 (Bridge discipline).** No alias/rename is used to imply Cross‑context sameness; any such relation is deferred to **F.9**.
 
-### 15.2 Regression (RSCR)
+#### 15.2 Regression (RSCR)
 
 * **RSCR‑F13‑E01 (Edition drift audit).** When a canon edition changes, all labels from that Context are checked against definitions; moves are `renames` if senses stable, else `splits/merges`.
 * **RSCR‑F13‑E02 (Alias creep check).** Periodically ensure alias budgets remain within **≤ 1 per register**; surplus aliases are pruned.
@@ -32902,11 +32902,11 @@ All Part C architheories when editions shift; all examples and tutorials when 
 
 ---
 
-## 16 · Didactic distillation (60‑second script)
+### 16 · Didactic distillation (60‑second script)
 
 > **Names are lenses.** The *thing* that persists is the **sense** (a SenseCell in a Context, a Concept‑Set row, a Role Description). When you improve a lens, use **`renames`** or **`aliases`** **inside that same place**. When the *thing* changes, say so with **`splits/merges`**—and adjust rows/Bridges accordingly. **Never rename across Contexts.** Keep at most **one** legacy alias per register. Do **not** rewrite history; give readers **read‑paths** and brief epoch notes. With this discipline, you can clarify language without erasing meaning, and your models keep both **continuity** and **truth**.
 
-# F.14 — Anti‑Explosion Control (Roles & Statuses) \[A] 
+## F.14 — Anti‑Explosion Control (Roles & Statuses) \[A] 
 
 **“Name less, express more.”**
 
@@ -32917,7 +32917,7 @@ All Part C architheories when editions shift; all examples and tutorials when 
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Prevent the uncontrolled growth of **Roles** and **Statuses** by privileging **reuse**, **bundling**, **explicit separation‑of‑duties (SoD)**, and **applicability windows** over minting new names. Keep the vocabulary **small, crisp, and composable** while remaining faithful to local meanings fixed by Contexts (F.1) and SenseCells (F.3).
 
@@ -32927,7 +32927,7 @@ All Part C architheories when editions shift; all examples and tutorials when 
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Left unchecked, Role/Status vocabularies tend to **diverge**:
 
@@ -32941,7 +32941,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                           | Tension to resolve                                                                                     |
 | ------------------------------- | ------------------------------------------------------------------------------------------------------ |
@@ -32952,7 +32952,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-## 4 · Minimal vocabulary (this pattern only)
+### 4 · Minimal vocabulary (this pattern only)
 
 * **Role Description** (F.4): a **Role** (behavioural mask) or **Status** (epistemic/deontic standing) tied to a **SenseCell**.
 * **Concept‑Set row** (F.7): a Cross‑context **intent** (“what we count as one thing”) aligned by SenseCells.
@@ -32962,7 +32962,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-## 5 · Core idea (didactic)
+### 5 · Core idea (didactic)
 
 **Use four levers before minting a name:**
 
@@ -32973,9 +32973,9 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-## 6 · Solution — the control cabinet (conceptual, notation‑free)
+### 6 · Solution — the control cabinet (conceptual, notation‑free)
 
-### 6.1 Reuse by row (first lever)
+#### 6.1 Reuse by row (first lever)
 
 * **Move.** If a proposal matches the **intension** of an existing row (F.7), adopt its Role Description or add a local SenseCell **inside that row**.
 * **Pay‑off.** Names don’t proliferate; Cross‑context tables stay thin.
@@ -32984,7 +32984,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-### 6.2 Bundle instead of hybrid (second lever)
+#### 6.2 Bundle instead of hybrid (second lever)
 
 * **Move.** When practice always pairs two Roles, define a **Bundle** `{RoleA, RoleB}`.
 * **Not a hybrid.** Do **not** coin *RoleAB*; you’ll erase SoD options and obscure responsibilities.
@@ -32993,7 +32993,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-### 6.3 Separate by SoD, don’t evade (third lever)
+#### 6.3 Separate by SoD, don’t evade (third lever)
 
 * **Move.** Record **SoD constraints** where separation matters (“Requester ⟂ Approver in run window”).
 * **Why here.** SoD belongs to **semantics**, not org policy; it protects structure across Contexts and times.
@@ -33002,7 +33002,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-### 6.4 Window the Status (fourth lever)
+#### 6.4 Window the Status (fourth lever)
 
 * **Move.** Keep a single Status and attach **windows** for *grace*, *evaluation*, *active*, *archival*.
 * **Avoid.** *Compliant*, *At‑Risk*, *Grace* as separate Status types.
@@ -33016,7 +33016,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-### 6.5 Factor modifiers as facets, not names
+#### 6.5 Factor modifiers as facets, not names
 
 * **Move.** Treat qualifiers (shift, locality, domain) as **facets** of the same Role/Status or as **windows**, not new types.
 
@@ -33024,7 +33024,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-## 7 · Invariants (normative)
+### 7 · Invariants (normative)
 
 1. **context‑locality.** Each Role Description remains tied to a **SenseCell** in a **single Context** (F.3, F.4).
 2. **Row preference.** New Role Descriptions **SHOULD** map to an existing row; new rows (F.7) require F.8 justification.
@@ -33036,7 +33036,7 @@ Explosion harms didactics and increases alignment cost (F.9).
 
 ---
 
-## 8 · Reasoning primitives (judgement schemas)
+### 8 · Reasoning primitives (judgement schemas)
 
 > Pure mental moves; no tools, no workflows.
 
@@ -33068,39 +33068,39 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 
 ---
 
-## 9 · Micro‑examples (engineer / manager / researcher lenses)
+### 9 · Micro‑examples (engineer / manager / researcher lenses)
 
-### 9.1 Enactment (change control)
+#### 9.1 Enactment (change control)
 
 * **Proposal.** *Requester‑Approver* as a single Role “to move faster.”
 * **Moves.** SoD(`Requester ⟂ Approver`) + **Bundle** `{Requester, Approver}`.
 * **Result.** Same throughput, preserved checks, no hybrid Role.
 
-### 9.2 Services (SLO evaluation)
+#### 9.2 Services (SLO evaluation)
 
 * **Proposal.** New Status *At‑Risk*.
 * **Moves.** Keep **Compliance** Status; add **grace window** and a **forecast facet** (informative) if needed.
 * **Result.** One Status with windows; fewer names, clearer timelines.
 
-### 9.3 KD‑CAL (evidence)
+#### 9.3 KD‑CAL (evidence)
 
 * **Proposal.** *Pre‑validated* between *Verified* and *Validated*.
 * **Moves.** Use **Status chain** within one family: `Verified → Validated`; represent uncertainty as **confidence** (F.10), not another Status.
 * **Result.** Clean ladder; no extra label.
 
-### 9.4 Sys‑CAL (plant ops)
+#### 9.4 Sys‑CAL (plant ops)
 
 * **Proposal.** *Night‑Operator*, *Remote‑Operator*.
 * **Moves.** **Role:** Operator; **facets/windows:** `timeOfDay`, `presenceMode`.
 * **Result.** One Role, portable qualifiers.
 
-### 9.5 Method quartet (reviews)
+#### 9.5 Method quartet (reviews)
 
 * **Proposal.** *Senior‑Reviewer* to bypass `{Author ⟂ Reviewer}`.
 * **Moves.** Keep SoD; if seniority matters, introduce **Assurance Level** facet (F.10) on the **review decision**, not a new Role.
 * **Result.** Separation preserved; trust expressed as a Status property, not a Role type.
 
-## 10 · Anti‑patterns & remedies
+### 10 · Anti‑patterns & remedies
 
 | #       | Anti‑pattern                             | Symptom in models                                                                            | Why it harms thinking                                             | Remedy (conceptual move)                                                                                                          |
 | ------- | ---------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -33121,9 +33121,9 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 
 ---
 
-## 11 · Worked examples (multi‑architheory)
+### 11 · Worked examples (multi‑architheory)
 
-### 11.1 Enactment + Services + KD‑CAL — “SLO compliance without label sprawl”
+#### 11.1 Enactment + Services + KD‑CAL — “SLO compliance without label sprawl”
 
 **Contexts.** ITIL 4 (services), SOSA/SSN (sensing), PROV‑O (run).
 **Intent.** Track SLO compliance with minimal Status vocabulary.
@@ -33132,7 +33132,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 * **Moves (F.14).** Keep **Compliance** as one **Status family**; define **windows**: *evaluation* (prediction against forecast), *active* (actuals vs target), *grace* (tolerated breach). **Waiver** becomes a **deontic Status** in ODRL Context, not part of Compliance.
 * **Outcome.** One Status + windows; observations (SOSA) and provenance (PROV) feed the *active* window; service policy (ITIL/ODRL) defines *grace*.
 
-### 11.2 Method‑CAL + Enactment — “Reviews with SoD and Bundle”
+#### 11.2 Method‑CAL + Enactment — “Reviews with SoD and Bundle”
 
 **Contexts.** SPEM/ISO 24744 (methods), Enactment lexicon.
 **Intent.** Prevent authors reviewing their own work while keeping names lean.
@@ -33141,7 +33141,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 * **Moves.** Roles **Author**, **Reviewer** only; **SoD(Author ⟂ Reviewer)** in the **review window**. If practice needs two reviewers, mint **Bundle** `{Reviewer, Reviewer₂}`; express **seniority** as a **facet** on the *decision* (Assurance Level), not a new Role.
 * **Outcome.** Two Roles, one Bundle, one SoD; no hybrid Role; assurance is visible as a property of the review result.
 
-### 11.3 Sys‑CAL + LCA‑CAL + Services — “Operations without role fragments”
+#### 11.3 Sys‑CAL + LCA‑CAL + Services — “Operations without role fragments”
 
 **Contexts.** IEC 61131‑3 (execution), state‑space control texts (actuation), ITIL 4 (services).
 **Intent.** Staff coverage across shifts and locations without ten operator types.
@@ -33150,7 +33150,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 * **Moves.** **Role** = **Operator**; add **facets/windows**: `timeOfDay`, `presenceMode`, `dutyCycle`. If coordination is distinct, mint **Coordinator** Role; when both occur together, **Bundle** `{Operator, Coordinator}`; keep **SoD** where needed (e.g., `Operator ⟂ Approver` for production change).
 * **Outcome.** One Role + small facet set + Bundle; clean hooks to execution and actuation semantics.
 
-### 11.4 KD‑CAL + Kind-CAL — “Evidence ladder without new labels”
+#### 11.4 KD‑CAL + Kind-CAL — “Evidence ladder without new labels”
 
 **Contexts.** KD‑CAL (evidence), OWL 2/FCA (types).
 **Intent.** Express proof maturity without inflating Status names.
@@ -33161,7 +33161,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 
 ---
 
-## 12 · Relations (with other patterns)
+### 12 · Relations (with other patterns)
 
 * **Builds on:** F.1 (Contexts), F.2 (Harvesting), F.3 (Local Clustering), F.4 (Role Description), F.5 (Naming).
 * **Constrains:**
@@ -33175,7 +33175,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 
 ---
 
-## 13 · Migration notes (conceptual playbook)
+### 13 · Migration notes (conceptual playbook)
 
 1. **Map to rows.** For each existing Role/Status, identify its **Concept‑Set row**; if two names share an intent, **collapse** to one row (keep other names as **aliases**, F.13).
 2. **Extract SoD.** Replace “super‑roles” with **Bundles** plus explicit **SoD**; where conflict exists, SoD is **normative**, not cultural.
@@ -33187,9 +33187,9 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 
 ---
 
-## 14 · Acceptance tests (SCR/RSCR — concept‑level)
+### 14 · Acceptance tests (SCR/RSCR — concept‑level)
 
-### 14.1 SCR — Static conformance
+#### 14.1 SCR — Static conformance
 
 * **SCR‑F14‑S01 (Row reuse).** Every newly proposed Role Description either **references an existing row** or includes a clear **F.8 justification** for a new row.
 * **SCR‑F14‑S02 (No hybrids).** No Role Description’s label or definition **conflates** two Roles that stand in a declared **SoD** relation.
@@ -33198,7 +33198,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 * **SCR‑F14‑S05 (Context locality).** Every Role Description is anchored to **exactly one SenseCell**; no Cross‑context semantics inside a single template.
 * **SCR‑F14‑S06 (Bundles are pure).** Every **Bundle** is a **set of templates** with **no additional semantics** beyond membership and referenced **SoD**.
 
-### 14.2 RSCR — Regression (evolution)
+#### 14.2 RSCR — Regression (evolution)
 
 * **RSCR‑F14‑E01 (Vocabulary slope).** Over a given interval, the count of distinct Role/Status templates **does not increase** unless matched by **row justifications** (F.8).
 * **RSCR‑F14‑E02 (SoD integrity).** Adding templates does not introduce a label that **circumvents** any existing **SoD** relation.
@@ -33207,7 +33207,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 
 ---
 
-## 15 · Didactic distillation (90‑second script)
+### 15 · Didactic distillation (90‑second script)
 
 > **Name less, express more.** Before minting a new Role or Status, try **four levers**:
 > **(1) Reuse the row** — if the intent already exists, adopt it and add your local SenseCell.
@@ -33216,7 +33216,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 > **(4) Window, don’t multiply** — one **Status** can wear different **windows** (evaluation/active/grace); that’s not four Status types.
 > Keep modifiers as **facets**, not names; keep every Role Description **context‑local** via its SenseCell. If your vocabulary no longer fits in a thoughtful mind, you have an **explosion**—return to the levers and reduce.
 
-# F.15 — SCR/RSCR Harness for Unification \[A] 
+## F.15 — SCR/RSCR Harness for Unification \[A] 
 
 **“Prove locality and parsimony first; only then prove composition.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -33225,7 +33225,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **minimal, notation‑free harness of conceptual checks** that tells you whether a unification slice is **sound**: Contexts are fixed and diverse (F.1), terms are harvested and clustered **inside** Contexts (F.2–F.3), Role Descriptions **point to one SenseCell** (F.4), names obey discipline (F.5), rows are reused instead of multiplied (F.7–F.8), bridges are **explicit and penalised** (F.9), statuses vary by **windows** not type proliferation (F.10), and cross‑line bindings (F.11–F.12) respect locality.
 **Applicability.** Use whenever you declare or revise any of: Context cards, Local‑Senses, SenseCells, Concept‑Set rows, Role Descriptions, Bridges, Status windows.
@@ -33233,7 +33233,7 @@ Let **`rowOf(τ)`** be the Concept‑Set row of template **τ**, **`senseOf(τ)`
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Without a unification harness:
 
@@ -33245,7 +33245,7 @@ Without a unification harness:
 
 ---
 
-## 3 · Forces
+### 3 · Forces
 
 | Force                      | Tension to resolve                                                    |
 | -------------------------- | --------------------------------------------------------------------- |
@@ -33256,7 +33256,7 @@ Without a unification harness:
 
 ---
 
-## 4 · Core idea (didactic)
+### 4 · Core idea (didactic)
 
 The harness is a **two‑tier net of assertions**:
 
@@ -33267,7 +33267,7 @@ All checks are expressed as **judgement schemas** (premises ⊢ conclusion). The
 
 ---
 
-## 5 · Minimal vocabulary (this pattern only)
+### 5 · Minimal vocabulary (this pattern only)
 
 * **Unification line (L).** The thematic cut you are pursuing (e.g., Enactment + Sensing + Execution).
 * **Check.** A content‑level assertion about Contexts, senses, rows, Role Descriptions, bridges, or windows.
@@ -33276,7 +33276,7 @@ All checks are expressed as **judgement schemas** (premises ⊢ conclusion). The
 
 ---
 
-## 6 · Objects under check
+### 6 · Objects under check
 
 1. **Contexts** — `U.BoundedContext` cards (F.1).
 2. **Local‑Sense** — clustered sense inside one context (F.3).
@@ -33290,7 +33290,7 @@ All checks are expressed as **judgement schemas** (premises ⊢ conclusion). The
 
 ---
 
-## 7 · Solution overview — the harness as a lattice of checks
+### 7 · Solution overview — the harness as a lattice of checks
 
 The harness arranges checks in three clusters:
 
@@ -33302,7 +33302,7 @@ This Part 1 enumerates **SCR** (S‑Local and S‑Cross). Part 2 covers **RS
 
 ---
 
-## 8 · SCR — Static conformance rules (S‑Local)
+### 8 · SCR — Static conformance rules (S‑Local)
 
 > All S‑Local rules are **Context‑internal** and derive only from F.1–F.5.
 
@@ -33332,7 +33332,7 @@ This Part 1 enumerates **SCR** (S‑Local and S‑Cross). Part 2 covers **RS
 
 ---
 
-## 9 · SCR — Static conformance rules (S‑Cross)
+### 9 · SCR — Static conformance rules (S‑Cross)
 
 > S‑Cross rules tie Contexts, rows, Role Descriptions, bridges, and windows together **without** breaking locality.
 
@@ -33410,7 +33410,7 @@ This Part 1 enumerates **SCR** (S‑Local and S‑Cross). Part 2 covers **RS
 4.  **Register.** Create/update entries in **E.10.P**; link a **DRR** for each change.
 5.  **Lint.** Enable the **Twin Harness** in CI to block new ambiguous twins.
 
-## 10 · Judgement schemas (core moves)
+### 10 · Judgement schemas (core moves)
 
 > Representative mental moves; each “fires” one cluster of SCRs.
 
@@ -33437,7 +33437,7 @@ This Part 1 enumerates **SCR** (S‑Local and S‑Cross). Part 2 covers **RS
 
 ---
 
-## 11 · Micro‑witnesses (illustrative)
+### 11 · Micro‑witnesses (illustrative)
 
 **11.1 Activity vs Task (PROV‑O ↔ IEC 61131‑3).**
 Contexts: `PROV‑O (run)`, `IEC 61131‑3 (run)`.
@@ -33450,13 +33450,13 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 *Fire:* S9 (row spans ≥2 Contexts), S12 (Bridge kind: *measure-for-target*, CL=3, loss: *sampling bias*), S16 (binding coherence), **S-RoleDesc-SingleCell**.
 
 
-## 12 · Relations (with other patterns)
+### 12 · Relations (with other patterns)
 
 **Builds on:** E.10.D1 (Context semantics), F.1–F.14.
 **Constrains:** Any addition to F.1–F.14 is **publish‑ready** only if all relevant **SCR** here evaluate **true** on its slice.
 **Feed:** B.3 may use Bridge CL and loss notes to adjust assurance.
 
-## 13 · RSCR — Regression & Stability Rules (R‑Evo)
+### 13 · RSCR — Regression & Stability Rules (R‑Evo)
 
 > These rules speak about **changes over time**. They are expressed as **judgement schemas** that compare two conceptual snapshots: `@t0` and `@t1`. No storage, no workflows—just content assertions.
 
@@ -33465,7 +33465,7 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 
 ---
 
-### 13.1 Contexts & editions
+#### 13.1 Contexts & editions
 
 **RSCR‑F15‑E1 (No silent replacement).**
 `Context C@t0 : edition e0, C@t1 : edition e1, e1≠e0 ⊢ either newContext(C,e1) ∨ explicitRecency(C,e1)`
@@ -33477,7 +33477,7 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 
 ---
 
-### 13.2 Local‑Senses & SenseCells
+#### 13.2 Local‑Senses & SenseCells
 
 **RSCR‑F15‑E3 (Reconstitutable seeds).**
 `Local‑Sense λ@t0, Δ(occurrences) → λ@t1 ⊢ λ@t1 still reconstructible from attestations@t1`
@@ -33489,7 +33489,7 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 
 ---
 
-### 13.3 Concept‑Set rows
+#### 13.3 Concept‑Set rows
 
 **RSCR‑F15‑E5 (Row identity).**
 `Row ρ@t0 with cells {⟨Cᵢ,λᵢ⟩} → ρ@t1 with {⟨Cᵢ,λᵢ'⟩} ⊢ ρ “same” iff intent(λᵢ')≈intent(λᵢ) ∀i`
@@ -33501,7 +33501,7 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 
 ---
 
-### 13.4 Role Descriptions (Role/Status)
+#### 13.4 Role Descriptions (Role/Status)
 
 **RSCR-F15-E7 (Single-cell continuity).**
 `Role Description τ@t0 → τ@t1 ⊢ anchor(τ@t1)=one SenseCell ∧ (sameCell ∨ justifiedSwitch)`
@@ -33513,7 +33513,7 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 
 ---
 
-### 13.5 Bridges
+#### 13.5 Bridges
 
 **RSCR‑F15‑E9 (Re‑validate on movement).**
 `Bridge β: ⟨⟨C₁,λ₁⟩ ↔ ⟨C₂,λ₂⟩, CL, loss⟩ @t0; any λᵢ mutates @t1 ⊢ β re‑examined; CL may drop; loss updated`
@@ -33525,7 +33525,7 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 
 ---
 
-### 13.6 Status windows & SoD
+#### 13.6 Status windows & SoD
 
 **RSCR‑F15‑E11 (Window stability).**
 `Status family Σ windows@t0 → @t1 ⊢ window set changes only if variance‑of‑meaning is shown`
@@ -33537,7 +33537,7 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 
 ---
 
-## 14 · Anti‑patterns the harness catches (and the fix)
+### 14 · Anti‑patterns the harness catches (and the fix)
 
 | Code   | Anti‑pattern            | Symptom                                  | Why it breaks                         | Harness catch → Fix                                                                              |
 | ------ | ----------------------- | ---------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------ |
@@ -33552,11 +33552,11 @@ Row: **Service‑Availability** with cells ⟨ITIL\:SLO availability⟩, ⟨SOSA
 
 ---
 
-## 15 · Worked “dry‑runs” (composite slices)
+### 15 · Worked “dry‑runs” (composite slices)
 
 > Each dry‑run shows **how the checks fire** when something evolves. These are **thinking rehearsals**, not procedures.
 
-### 15.1 New edition of ITIL (services) arrives
+#### 15.1 New edition of ITIL (services) arrives
 
 **Slice.** Contexts: ITIL 4(2020)@t0 → ITIL 4(2024)@t1; Row: *Service-Availability*; **Role Description**: `AvailabilityStatus`; Bridges: to SOSA/SSN observations.
 
@@ -33570,7 +33570,7 @@ E7 (**single-cell Role Description**): `AvailabilityStatus` still points to exac
 
 ---
 
-### 15.2 Rename a Role Description without changing meaning
+#### 15.2 Rename a Role Description without changing meaning
 
 **Slice.** **Role Description** `IncidentStatus`@t0 → `ServiceIncidentStatus`@t1; same SenseCell.
 
@@ -33582,7 +33582,7 @@ S8 (**name discipline**): new name fits the suffix rules (F.5).
 
 ---
 
-### 15.3 Tighten a Bridge (weak overlap → equivalence)
+#### 15.3 Tighten a Bridge (weak overlap → equivalence)
 
 **Slice.** Bridge β between ⟨OWL\:subclass⟩ and ⟨FCA\:order‑edge⟩ was *overlap, CL=2*. New formal result proves equivalence in the covered fragment.
 
@@ -33594,7 +33594,7 @@ S12 (**bridge explicit**): update β(kind=≡, CL=3) with precise scope/loss (�
 
 ---
 
-### 15.4 Window misuse detected
+#### 15.4 Window misuse detected
 
 **Slice.** Team proposes *PeakHoursAvailabilityStatus* as a new Status type.
 
@@ -33605,7 +33605,7 @@ S14/E11 (**window honesty**): reject new type; define a **window** for *peak hou
 
 ---
 
-## 16 · Migration cues (conceptual)
+### 16 · Migration cues (conceptual)
 
 1. **When in doubt, fork—not overwrite.** New edition? **Add a Context** unless you can argue sense identity in one sentence.
 2. **Name pain → aliases, not merges.** If a label confuses, **rename with an alias**; if meaning changed, **mint new**.
@@ -33617,7 +33617,7 @@ S14/E11 (**window honesty**): reject new type; define a **window** for *peak hou
 
 ---
 
-## 17 · Acceptance summary (“Harness green”)
+### 17 · Acceptance summary (“Harness green”)
 
 A unification slice is **publish‑ready** when:
 
@@ -33628,11 +33628,11 @@ A unification slice is **publish‑ready** when:
 
 ---
 
-## 18 · Didactic distillation (90‑second teaching script)
+### 18 · Didactic distillation (90‑second teaching script)
 
 > “Use the harness to **think like a safety net**. First, the **SCR** threads: everything is **local** to a Context; **Role Descriptions** point to **one** SenseCell; rows actually **cross** Contexts; Bridges are explicit with CL and a loss note; windows capture variation without spawning new types. Then, the **RSCR** knots: never overwrite an edition—**fork the Context** or mark recency; keep rows stable by **retiring and re-rowing**; Bridges get **re-validated** (CL goes down unless you bring proof); renames become **aliases** unless meaning changes; **windows** absorb time/scale shifts; **SoD** stays intact. If you can pass these thoughts on a small slice—and explain each pass in **one breath**—your unification is green. No tooling, no roles, no dashboards. Just clean Contexts, honest rows, cautious bridges, and names that help minds meet.”
 
-# F.16 — Worked‑Example Template (Cross‑Domain) \[A] 
+## F.16 — Worked‑Example Template (Cross‑Domain) \[A] 
 
 **“Show the thought, not the tooling.”**
 **Status.** Architectural pattern \[A], architheory‑agnostic.
@@ -33641,7 +33641,7 @@ A unification slice is **publish‑ready** when:
 
 ---
 
-## 1 · Intent & applicability
+### 1 · Intent & applicability
 
 **Intent.** Provide a **single, didactic page template** for cross‑domain worked examples that makes every claim **local to a Context** (Context), every Cross‑context step **explicit via a Bridge**, and every named role/status **traceably tied** to one **SenseCell**. The template is **notation‑free** and **tool‑agnostic**; it captures **how to think** the example so others can replay it.
 
@@ -33651,7 +33651,7 @@ A unification slice is **publish‑ready** when:
 
 ---
 
-## 2 · Problem frame
+### 2 · Problem frame
 
 Cross‑domain examples often fail in four predictable ways:
 
@@ -33664,7 +33664,7 @@ The template counters these by forcing **Contexts → senses → row → bridges
 
 ---
 
-## 3 · Core idea (didactic)
+### 3 · Core idea (didactic)
 
 A robust worked example is a **compact theatre**:
 
@@ -33679,7 +33679,7 @@ A robust worked example is a **compact theatre**:
 
 ---
 
-## 4 · Minimal vocabulary (this pattern only)
+### 4 · Minimal vocabulary (this pattern only)
 
 * **Context / Context** — always **U.BoundedContext** (E.10.D1).
 * **Local‑Sense** — a sense clustered within one context (F.3).
@@ -33692,7 +33692,7 @@ A robust worked example is a **compact theatre**:
 
 ---
 
-## 5 · The one‑page **Worked‑Example Canvas**
+### 5 · The one‑page **Worked‑Example Canvas**
 
 > Each bullet is a **thought you make visible**, not a form field.
 
@@ -33731,7 +33731,7 @@ A robust worked example is a **compact theatre**:
 
 ---
 
-## 6 · Invariants (normative)
+### 6 · Invariants (normative)
 
 1. **Locality of meaning.** Every term in the narrative appears **with its Context** at first mention (*process (BPMN)*, *activity (PROV)*, …).
 2. **At least one row.** The example **MUST** include ≥ 1 **Concept‑Set row** spanning ≥ 2 Contexts.
@@ -33744,7 +33744,7 @@ A robust worked example is a **compact theatre**:
 
 ---
 
-## 7 · The row panel (how to show it without notation)
+### 7 · The row panel (how to show it without notation)
 
 Show the row as a **compact two‑to‑five‑column list**:
 
@@ -33757,7 +33757,7 @@ Show the row as a **compact two‑to‑five‑column list**:
 
 ---
 
-## 8 · Worked micro‑example (didactic)
+### 8 · Worked micro‑example (didactic)
 
 > **Title.** *Alarms Should Not Satisfy Uptime*
 > **Claim.** An **alarm‑only Execution (IEC)** cannot satisfy the **SLO (ITIL)** because **observation (SOSA)** windows exclude time in “alarm state.”
@@ -33773,7 +33773,7 @@ Show the row as a **compact two‑to‑five‑column list**:
 
 ---
 
-## 9 · Relations (with other patterns)
+### 9 · Relations (with other patterns)
 
 **Builds on:**
 F.1 (Contexts), F.2–F.3 (terms & senses), F.4–F.6 (roles), F.7–F.8 (rows), F.9 (bridges), F.10 (windows), F.14 (SoD), F.15 (harness).
@@ -33783,11 +33783,11 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-## 10 · Didactic distillation (60‑second script)
+### 10 · Didactic distillation (60‑second script)
 
 > “A good cross‑domain example fits on **one page**. First, name the **claim**. Then show the **Contexts** you’re using. List the **SenseCells** you will actually touch. Draw **one row** that makes them the same **for this claim**. Every Cross‑context nuance you can’t justify in that row becomes a **Bridge** with a **kind**, a **CL**, and a **loss** sentence. Point each **Role Description** to **one** cell. If time/scale matters, state the **window**; if duties matter, state **SoD**. Finish with two or three **harness pings** from F.15. That’s it—no tooling, no long procedures. The reader can now replay your thought and agree (or disagree) at the right place.”
 
-## 11 · Anti‑patterns & remedies
+### 11 · Anti‑patterns & remedies
 
 | #         | Anti‑pattern               | Symptom in the page                                            | Why it breaks thinking                                         | Remedy (point to this template & sibling patterns)                        |
 | --------- | -------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -33804,11 +33804,11 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-## 12 · Extended worked micro‑examples
+### 12 · Extended worked micro‑examples
 
 > Each example fits the **one‑page canvas** (§5) and makes the **row** and **bridges** do the work.
 
-### 12.1 Type alignment: OWL class vs FCA concept (design‑time only)
+#### 12.1 Type alignment: OWL class vs FCA concept (design‑time only)
 
 **Title & claim.** *“Two Lenses on *Pump*: OWL class and FCA concept align for catalogue reasoning.”*
 **Unification line.** Kind-CAL (design) + FCA (design).
@@ -33822,7 +33822,7 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-### 12.2 Role vs permission: SoD in enactment vs access control
+#### 12.2 Role vs permission: SoD in enactment vs access control
 
 **Title & claim.** *“Behavioral role (BPMN) is disjoint from access role (RBAC); keep duties separate.”*
 **Unification line.** Role Assignmnent and Enactment (design & run) + access/deontics (design).
@@ -33837,7 +33837,7 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-### 12.3 Method quartet: from MethodDescription to Work with observations
+#### 12.3 Method quartet: from MethodDescription to Work with observations
 
 **Title & claim.** *“Behavioral role (BPMN) is disjoint from access role (RBAC); keep duties separate.”*
 **Unification line.** **Role Assignment & Enactment** (design & run) + access/deontics (design).
@@ -33852,7 +33852,7 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-## 13 · Reasoning primitives (judgement schemas)
+### 13 · Reasoning primitives (judgement schemas)
 
 > These are **mental checks** you can perform on any example page.
 
@@ -33893,9 +33893,9 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-## 14 · Acceptance tests (SCR/RSCR)
+### 14 · Acceptance tests (SCR/RSCR)
 
-### 14.1 Static conformance (SCR)
+#### 14.1 Static conformance (SCR)
 
 * **SCR‑F16‑S01 (Row present).** The page contains **≥ 1** Concept‑Set row spanning **≥ 2 Contexts**.
 * **SCR‑F16‑S02 (Bridge explicit).** Every Cross‑context assertion not justified by a row is shown as a **Bridge** with **kind, CL, loss**.
@@ -33906,7 +33906,7 @@ Any example placed in Part C or Part B **must** render its claim through thi
 * **SCR‑F16‑S07 (SoD).** If duties are named and SoD is relevant, **SoD is stated** and unviolated.
 * **SCR‑F16‑S08 (One‑page parsimony).** The example fits the **one‑page canvas**; if extended, each sub‑page still respects §6 invariants.
 
-### 14.2 Regression (RSCR)
+#### 14.2 Regression (RSCR)
 
 * **RSCR‑F16‑E01 (Edition drift).** When a Context’s edition changes, the example either (a) is unaffected or (b) adds a note adjusting **β** or the **row**; no silent rewrites.
 * **RSCR‑F16‑E02 (Bridge re‑score).** If an upstream **CL** definition changes (B.3), affected Bridges on the page show the new CL and, if needed, an updated **loss** sentence.
@@ -33915,7 +33915,7 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-## 15 · Migration notes (conceptual)
+### 15 · Migration notes (conceptual)
 
 1. **Refactor long tutorials.** Extract the **claim**; pick **3–6 Contexts** (Cards); list the **SenseCells** you actually use; craft **one tight row**; surface any cross‑talk as **Bridges** with loss notes; delete everything else.
 2. **Split crowded rows.** If a row tries to carry more than \~4 cells, split into two rows and write a **one‑line purpose** for each.
@@ -33926,7 +33926,7 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-## 16 · Teaching variants (all obey §6 invariants)
+### 16 · Teaching variants (all obey §6 invariants)
 
 * **Two‑Context equivalence.** Smallest case: 1 row, 2 Contexts, **β (≡, CL=3)** to explain why they’re truly the same *for this claim*.
 * **Triangulation.** 1 row, 3 Contexts; typical for *measurement ↔ service ↔ execution*.
@@ -33935,7 +33935,7 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-## 17 · Didactic checklist (author’s quick scan)
+### 17 · Didactic checklist (author’s quick scan)
 
 * One sentence **claim**?
 * **Contexts** (with editions) visible?
@@ -33949,7 +33949,7 @@ Any example placed in Part C or Part B **must** render its claim through thi
 
 ---
 
-## 18 · Closing distillation (30‑second echo)
+### 18 · Closing distillation (30‑second echo)
 
 > A strong worked example is a **one‑page alignment**: claim → Contexts → cells → **one row** → explicit **bridges** → Role-Description hooks → window/SoD if needed. No tooling, no process charts—just **visible thinking** that any careful reader can replay and critique at the right place.
 
@@ -34180,9 +34180,9 @@ Do not mix **Discipline Columns (DC)** in Layout A. Columns here are only **Bo
 **Layout A — Kernel‑first**
 
 ```
-# | Block | FPF U.Type | Unified Tech name | Unified Plain name | Plain‑Twin Governance (PTG) | Twin‑Map Id (LEX) | FPF Description
-  | BCC‑1 (Context name, edition) | BCC‑2 (Context name, edition) | BCC‑3 (Context name, edition) | … (more BCCs from the F.1 cut)
-  | Bridges (CL/Loss) | Unification Rationale | Notes
+| Block | FPF U.Type | Unified Tech name | Unified Plain name | Plain‑Twin Governance (PTG) | Twin‑Map Id (LEX) | FPF Description
+| BCC‑1 (Context name, edition) | BCC‑2 (Context name, edition) | BCC‑3 (Context name, edition) | … (more BCCs from the F.1 cut)
+| Bridges (CL/Loss) | Unification Rationale | Notes
 ```
 
 **Example headers (illustrative, not canonical):**  
@@ -34193,10 +34193,10 @@ _(Use the actual Contexts from your F.1 cut; always include the edition.)_
 _(Plain twin discipline identical: only one **Unified Plain name (tv:primary)** in the left rail; DCs carry senses, not Plain.)_
 
 ```
-# | Block | Base concept (EN / RU) | Scale‑map (Σ/Π/μ)
-  | Unified Tech name | Unified Plain name | Plain‑Twin Governance (PTG) | Twin‑Map Id (LEX) | Formal U.Type
-  | DisciplineColumn‑1 (discipline) | DisciplineColumn-2 (discipline) | DisciplineColumn‑3 (discipline) | DisciplineColumn‑4 (discipline) | DisciplineColumn‑5 (discipline)
-  | Unification Rationale | Notes
+| Block | Base concept (EN / RU) | Scale‑map (Σ/Π/μ)
+| Unified Tech name | Unified Plain name | Plain‑Twin Governance (PTG) | Twin‑Map Id (LEX) | Formal U.Type
+| DisciplineColumn‑1 (discipline) | DisciplineColumn-2 (discipline) | DisciplineColumn‑3 (discipline) | DisciplineColumn‑4 (discipline) | DisciplineColumn‑5 (discipline)
+| Unification Rationale | Notes
 ```
 
 **Examples of Discipline Columns (illustrative):** Operational Management · IT/Software · Physics · Science/Theory · Mathematics · Literature · Religion.  
@@ -34737,7 +34737,7 @@ Letting a Plain label or alias accumulate extra meanings absent in the underlyin
 * **Merge** (replace with an alignment to an existing name).
 * **Deprecate** (publish successor guidance and sunset plan).
 
-## 15 · Conformance Criteria (normative “CC‑F18”)
+### 15 · Conformance Criteria (normative “CC‑F18”)
 
 > These are **language‑level** obligations for authors and reviewers. They ensure every unified name is **local‑first**, **bridge‑aware**, and **teachable**.
 
@@ -34777,7 +34777,7 @@ The **Unified Tech** and **Plain** labels published on the UTS row for a unified
 **CC-F18-15 (Mode declaration).**  
 Every Name Card **SHALL** declare its `CardMode ∈ {MintNew, DocumentLegacy}`. For Core-surface naming of **U.Types** and other canonical FPF concepts, **MintNew** is the default; **DocumentLegacy** is permitted only when recording pre-existing external names and MUST (i) cite the legacy source, and (ii) either attach an NQD-front over viable FPF variants or record a short rationale why NQD search is out-of-scope.
 
-## 16 · Anti‑patterns & safe rewrites (normative)
+### 16 · Anti‑patterns & safe rewrites (normative)
 
 > Each item names a **speaking error** and a **local‑first repair**. Use this as an author’s lint pass before proposing a unified name.
 
@@ -34793,7 +34793,7 @@ Every Name Card **SHALL** declare its `CardMode ∈ {MintNew, DocumentLegacy}`. 
 
 ---
 
-## 17 · Migration notes (renames, splits, merges, retirements)
+### 17 · Migration notes (renames, splits, merges, retirements)
 
 **M1 — Start from Contexts, not from the old global word.** When inheriting legacy names, first **re‑harvest** terms inside the chosen Contexts (F.2–F.3). Only then decide whether to **reuse** or **mint** (F.8).
 
@@ -34807,7 +34807,7 @@ Every Name Card **SHALL** declare its `CardMode ∈ {MintNew, DocumentLegacy}`. 
 
 ---
 
-## 18 · Worked examples (compact)
+### 18 · Worked examples (compact)
 
 > Each example shows **how the Protocol steers naming** so engineers and managers can communicate without hidden Cross‑context leaks.  
 > **Card hygiene shown explicitly:** each example **states the Kind and the Purpose/use‑domain** and **chooses Tech/Plain labels from a small NQD‑frontier** (seed set diversified by traditions, novelty/familiarity, and lexical form; see Part G (G.18)).
@@ -35172,7 +35172,7 @@ Acceptance depends on (a) presence of SoTAPaletteDescription (G.2) with attached
 | **→ G.4**          | `CG‑Spec`                               | Acceptance templates; evidence gates; Γ‑fold/CL routing Standards        |
 | **→ G.5**          | `CG‑Spec`                               | Eligibility gates; minimum **R_eff** checks; degradation/abstain policies; Illumination hooks (ArchiveRef/U.DescriptorMapRef, InsertionPolicy, Edition), publication of **Φ(CL)/Φ_plane policy‑ids** in SCR |
 | **→ G.6**          | `CG‑Spec`                               | EvidenceGraph guard fields (**Φ(CL)/Φ_plane policy‑ids**, freshness windows, **PathId/PathSliceId**) made citable; selectors/audits reference PathIds (no formats mandated) |
-## 7) Conformance Checklist (normative)
+### 7) Conformance Checklist (normative)
 
 1. **Context declared.** `CG‑Spec` is published **in** a `U.BoundedContext`; no global claims.
 2. **Comparator set explicit.** Every permitted comparison/aggregation is named and typed; anything else **abstains by default**.
@@ -35249,7 +35249,7 @@ RSCR:
 * fail on (USD + Readiness)
 * verify AC_Budget on worked examples
 
-## 10) Relations (wiring)
+### 10) Relations (wiring)
 
 **Builds on:** A.4, A.10; **B.1/B.3/B.4**; **A.17–A.19/C.16**; **C.17–C.19**; **F.1–F.3/F.7–F.9/F.13–F.15/F.17–F.18**; **E.5.1–E.5.3** (no tool lock‑in); **E.10**.
 **Publishes to:** G.1 (generator guards), G.2 (harvesting policy & CL), G.3 (required CHR), G.4 (acceptance/evidence), G.5 (eligibility gates).
@@ -36376,27 +36376,27 @@ Scope: **Universal** within the Conceptual Core; numerical policies (Φ/Ψ table
 
 Each hook below defines: **Trigger → Obligation → Publishes/Consumes → Invariants**.
 
-#### **H1 — UTS Name Card for Evidence Artefacts**
+### **H1 — UTS Name Card for Evidence Artefacts**
 
 * **Trigger.** A new **EvidenceGraph node** is minted (an **A.10 anchor/carrier** classifying evidence for a claim).
 * **Obligation.** Mint a **UTS Name Card** with **twin labels** for the artefact (Tech/Plain), citing the **home `U.BoundedContext`** (per D.CTX) and edition; do **not** borrow a Context‑local Tech label as a “global” name. 
 * **Publishes/Consumes.** **Publishes:** UTS row; **Consumes:** A.10 anchor metadata.
 * **Invariants.** Cross‑Context sameness is **Bridge‑only**; the UTS row lists Bridges with **CL** and a short **loss note**.
 
-#### **H2 — UTS PathCard (PathId/PathSliceId)**
+### **H2 — UTS PathCard (PathId/PathSliceId)**
 
 **Trigger.** A new **PathId** (or **PathSliceId**) is minted for a claim.  
 **Obligation.** Publish a **UTS Name Card** with twin labels for the Path (or PathSlice), listing **Context, ReferencePlane, Γ_time**, and cited **Bridge ids + CL/CL^plane** (with loss notes). **If present, include** `U.DescriptorMapRef.edition` **and** `DistanceDefRef.edition` **ids.**  
 * **Invariants.** **F/G invariants never mutate** due to CL penalties; penalties reduce **R only**. **Illumination/QD signals do not alter dominance unless a selection policy (C.19) explicitly declares it; such policy ids MUST be cited.**
 
-#### **H3 — RSCR Trigger on Evidence‑Impacting Edit (with Bridge Sentinels)**
+### **H3 — RSCR Trigger on Evidence‑Impacting Edit (with Bridge Sentinels)**
 
 * **Trigger.** Any edit in G.6 that can change **gauges, acceptance verdicts, Γ‑fold contributors, or `R_eff`**; examples: freshness/decay change; Bridge **CL/CL^k** or loss update; **Φ/Ψ** policy change; lane tag correction; ReferencePlane correction; **QD/OEE artefact updates** (`U.DescriptorMapRef.edition`/`DistanceDef`, `EmitterPolicyRef`, `InsertionPolicyRef`, archive K‑capacity).
 * **Obligation.** Emit a **typed RSCR trigger**; the corresponding regression test must verify: (i) legality of CHR ops in affected flows, (ii) unit/scale checks, (iii) **CL→`R_eff` routing only**, (iv) presence of Φ policy‑ids in the SCR. 
 * **Publishes/Consumes.** **Publishes:** RSCR test id(s); **Consumes:** CAL.EvidenceProfiles, CAL.Acceptance, Φ‑policies.
 * **Invariants.** **F/G invariants never mutate** due to CL penalties; penalties reduce **R only**.
 
-#### **H4 — SoS‑LOG Path Citation (Selector Explainability)**
+### **H4 — SoS‑LOG Path Citation (Selector Explainability)**
 
 * **Trigger.** A **C.23 SoS‑LOG** rule returns {**Admit | Degrade(mode) | Abstain**} for a `(TaskSignature, MethodFamily)` pair.
 * **Bridge Sentinels.** All **Bridge ids** referenced by live **PathIds/PathSliceIds** are **watch‑listed**; any change to **CL/CL^plane** or **Φ policy id** triggers **path‑local RSCR** on the affected set of Paths/Slices only.
@@ -36404,56 +36404,56 @@ Each hook below defines: **Trigger → Obligation → Publishes/Consumes → Inv
 * **Publishes/Consumes.** **Publishes:** SCR‑visible branch record with `PathId`; **Consumes:** EvidenceGraph API path query.
 * **Invariants.** **No self‑evidence**; cross‑plane penalties **MUST** be monotone, bounded, and table‑backed.
 
-#### **H5 — Maturity Rung Transition Justification**
+### **H5 — Maturity Rung Transition Justification**
 
 * **Trigger.** A `MethodFamily.MaturityCard@Context` rung change is proposed.
 * **Obligation.** The transition **MUST** be justified by one or more **EvidenceGraph paths** and then **published on UTS**; **missing anchors ⇒ no advance**.
 * **Publishes/Consumes.** **Publishes:** updated UTS entry for the MaturityCard; **Consumes:** EvidenceGraph paths and A.10 anchors.
 * **Invariants.** Maturity is an **ordinal poset**, not a global scalar; any gating thresholds live **only** in **AcceptanceClauses** and are cited by id from LOG (no thresholds inside LOG). 
 
-#### **H6 — Bridge/CL Edge Annotation (Gate‑Crossings)**
+### **H6 — Bridge/CL Edge Annotation (Gate‑Crossings)**
 
 * **Trigger.** An EvidenceGraph edge **crosses tiers or Contexts/planes** (ATS GateCrossing).
 * **Obligation.** Record a **`BridgeCard`** and publish a **UTS row** with: SourceTier→TargetTier, Context ids (D.CTX), **Bridge id**, **bridgeChannel**, **CL** (and **CL^k** if KindBridge), **ReferencePlane**(s), and **CL^plane** (if planes differ). **No implicit crossings**.
 * **Publishes/Consumes.** **Publishes:** UTS crossing row; **Consumes:** GateCrossing metadata.
 * **Invariants.** CL/CL^plane penalties **route to R only**; lanes are **explicit**.
 
-#### **H7 — ReferencePlane Penalty Publication**
+### **H7 — ReferencePlane Penalty Publication**
 
 * **Trigger.** A claim/evidence path spans different **ReferencePlanes** `{world|concept|episteme}`.
 * **Obligation.** Compute and publish **Φ\_plane** (policy id + loss note) alongside **Φ(CL)**; both policies are **monotone, bounded, table‑backed**; report in SCR for any affected verdict. **Publish ids, not tables; values live in CAL.Acceptance/Φ‑policy registries.** 
 * **Publishes/Consumes.** **Publishes:** SCR fields with Φ policy‑ids; **Consumes:** CAL.EvidenceProfiles row(s).
 * **Invariants.** Penalties affect **`R_eff`** only; **F/G** remain invariant.
 
-#### **H8 — ATS Harness Exposure (AH‑1..AH‑4)**
+### **H8 — ATS Harness Exposure (AH‑1..AH‑4)**
 
 * **Trigger.** G.6 exports are bundled for release or consumed by selectors.
 * **Obligation.** Provide inputs so that **AH‑1..AH‑4** (TierClassifier, GateCheck, LaneCheck, LexicalCheck) can run against **EvidenceGraph paths and crossings**; FAIL if any cross‑tier/Context reference lacks **UTS+Bridge** or if lane purity is violated. **Expose policy‑ids (Φ(CL), Φ\_plane) and Γ‑fold overrides so harness checks can verify monotonicity/bounds.**
 * **Publishes/Consumes.** **Publishes:** harness‑readable identifiers (no formats mandated); **Consumes:** GateCrossing + lane tags.
 * **Invariants.** LEX hygiene (head‑anchoring, I/D/S) holds for all exported tokens.
 
-#### **H9 — SCR Surface for Assurance**
+### **H9 — SCR Surface for Assurance**
 
 * **Trigger.** Selector reports or acceptance checks reference evidence.
 * **Obligation.** Expose **lane‑split**, freshness windows, **Γ‑fold** contributors, **Φ(CL/plane)** policy‑ids, **IndependenceCertificate ids** (if SpanUnion), and (where present) **ProofLedger** references **as SCR‑visible fields**. 
 * **Publishes/Consumes.** **Publishes:** SCR views; **Consumes:** CAL.Acceptance, CAL.ProofLedger, EvidenceGraph paths.
 * **Invariants.** **WLNK default = weakest‑link** unless proved otherwise; any override cites monotonicity/boundary proofs.
 
-#### **H10 — ProofLedger Linkage (CAL ↔ G.6)**
+### **H10 — ProofLedger Linkage (CAL ↔ G.6)**
 
 * **Trigger.** A formal proof obligation or evidence role is attached to a claim.
 * **Obligation.** Link the EvidenceGraph node/edge to **CAL.ProofLedger** entries and **A.10 carriers** via `verifiedBy/validatedBy` relations; **SCR/RSCR anchors are mandatory** for all carriers. **No self‑evidence**. 
 * **Publishes/Consumes.** **Publishes:** ProofRef ids in the path; **Consumes:** CAL.ProofLedger entries.
 * **Invariants.** **TA/VA/LA** distinctions remain explicit; tool qualification belongs to **TA**.
 
-#### **H11 — Telemetry Ingest (Selector & Probe Outcomes)**
+### **H11 — Telemetry Ingest (Selector & Probe Outcomes)**
 
 * **Trigger.** Run‑time **selector** or **probe** outcomes (E/E‑LOG) return observations that bear on previously asserted claims; **this includes QD/illumination updates and OEE `GeneratorFamily` events** (environment edits/transfers).
 * **Obligation.** Ingest as **external evidence lines** into the EvidenceGraph with proper **lane typing** (LA/VA/TA), **Context slice** and **Γ\_time**; record **edition‑aware fields** when applicable: `U.DescriptorMapRef.edition`, `DistanceDef`, `ArchiveCellRef`, `EmitterPolicyRef`, `InsertionPolicyRef`, the **policy‑id**, and the **lens id** *(per C.19)* used by the selector. For OEE events, capture `EnvironmentValidityRegion` and `TransferRules` references. Opening/closing of refresh windows produces **DRR/RSCR hooks** outside the Core text. *This hook wires G.6 to G.11 Telemetry/Refresh while keeping Core prose tool‑agnostic as required by E.5.*
 * **Publishes/Consumes.** **Publishes:** new EvidenceGraph nodes/edges + UTS rows; **Consumes:** selector/probe attestation (as conceptual carriers) **and (when present) GeneratorFamily attestations**.
 * **Invariants.** Separate **ΔR / ΔF** from **ΔG** in rationale (Assurance calculus discipline). **Illumination increments are logged as editioned deltas; they do not change dominance unless declared by policy (C.19).**
 
-#### Minimal conformance (hooks)
+### Minimal conformance (hooks)
 
 1. **UTS publication (H1)** for every minted evidence artefact; Bridges carry **CL + loss note**.
 2. **RSCR triggers (H3)** on any edit impacting gauges/acceptance/Γ‑fold or Φ penalties.
@@ -37415,13 +37415,13 @@ External indexes publish **claim‑adjacent signals** (citations, disruption, re
 6. **Ship conceptually.** Publish `InteropSurface@Context` and pack via **G.10** (no file formats in Core). 
 7. **Refresh on telemetry.** Emit `IndexTelemetryPin` on edition changes; let **G.11** plan **slice‑scoped** refresh; ensure AH‑1..AH‑4 pass.  
 
-#### Informative SoTA anchors (post‑2015, for orientation)
+### Informative SoTA anchors (post‑2015, for orientation)
 
 * **Quality‑Diversity / Illumination.** MAP‑Elites and its successors (CVT‑MAP‑Elites, CMA‑ME/MAE, Differentiable QD incl. MEGA‑variants, QDax JMLR 2024, SAIL) — portfolio‑first exploration with **Q/D/QD‑score** gauges.
 * **Open‑Ended Evolution.** POET / Enhanced‑POET and **Darwin Gödel Machine**‑class algorithms — `{environment, method}` portfolios with **coverage/regret** as gauges; **`TransferRulesRef.edition`** pinned. 
 
 
-### **Part H – Glossary & Definitional Pattern Index**
+# **Part H – Glossary & Definitional Pattern Index**
 
 | §   | ID & Title                     | Tag  | Concise reminder                                               |
 | --- | ------------------------------ | ---- | -------------------------------------------------------------- |
@@ -37430,7 +37430,7 @@ External indexes publish **claim‑adjacent signals** (citations, disruption, re
 | G.3 | Cross‑Reference Maps           | INF  | Bidirectional links: Part A ↔ Part C ↔ Part B terms.           |
 
 
-### **Part I – Annexes & Extended Tutorials**
+# **Part I – Annexes & Extended Tutorials**
 
 | §   | ID & Title                  | Tag | Concise reminder                                                |
 | --- | --------------------------- | --- | --------------------------------------------------------------- |
@@ -37441,7 +37441,7 @@ External indexes publish **claim‑adjacent signals** (citations, disruption, re
 
 ---
 
-### **Part J – Indexes & Navigation Aids**
+# **Part J – Indexes & Navigation Aids**
 
 | §   | ID & Title               | Tag | Concise reminder                                        |
 | --- | ------------------------ | --- | ------------------------------------------------------- |
@@ -37449,8 +37449,8 @@ External indexes publish **claim‑adjacent signals** (citations, disruption, re
 | H.2 | Pattern‑to‑Example Index | INF | Table listing every archetypal grounding vignette.      |
 | H.3 | Principle‑Trace Index    | INF | Maps each Pillar / C‑rule / P‑rule to concrete clauses. |
 
-### **Part K  – Lexical debt**
-### Mandatory replacement map for measurement terms
+# **Part K  – Lexical debt**
+## Mandatory replacement map for measurement terms
 
 > **Rule:** In all **normative** content (specifications, data schemas, etc.), the deprecated terms **“axis”** and **“dimension”** (and their plural or compound forms) **MUST NOT** be used to denote a measurable aspect. Use **Characteristic** in the Tech register instead. Other colloquial terms should be mapped to canonical terms as listed below. In **Plain** narrative, the legacy words may appear _only on first use_ and only if paired with their canonical equivalent for clarity.
 
@@ -37465,7 +37465,7 @@ External indexes publish **claim‑adjacent signals** (citations, disruption, re
 
 ## Migration debt from A.2.6 (Scope, ClaimScope, WorkScope)
 
-### Deprecations (normative)
+## Deprecations (normative)
 
 The following terms **MUST NOT** name scope characteristics in normative text, guards, or conformance blocks:
 
@@ -37477,7 +37477,7 @@ Use instead:
 * **`U.WorkScope`** (*Work scope*) for capabilities;
 * **`U.Scope`** only when explaining the abstract mechanism (not in guards).
 
-### Affected locations and required edits (normative)
+## Affected locations and required edits (normative)
 
 Editors SHALL apply the following replacements:
 
@@ -37511,7 +37511,7 @@ Editors SHALL apply the following replacements:
    * Replace any “applicability”/“envelope” guard phrasing with **ScopeCoverage** (see §10).
    * Require explicit **`Γ_time`** selectors in all scope‑sensitive guards.
 
-### Migration playbook (informative)
+## Migration playbook (informative)
 
 1. **Inventory** scope‑like phrases across your Context (search: applicability, envelope, generality, capability envelope, valid\*).
 2. **Classify** each occurrence as **Claim scope** (episteme) or **Work scope** (capability); replace any “scope characteristic(s)” with “scope type” or “USM scope object” depending on sentence grammar.
@@ -37519,12 +37519,12 @@ Editors SHALL apply the following replacements:
 4. **Publish** any required **Bridges** with **CL** for Cross‑context usage.
 5. **Document** ΔG changes separately from evidence freshness (R).
 
-### Backwards compatibility (informative)
+## Backwards compatibility (informative)
 
 Legacy artifacts MAY keep their historical phrasing in body prose. All **guards, conformance checklists, and state assertions** MUST be rewritten to the USM terms and semantics.
 
 
-### Change Log (normative migration record)
+## Change Log (normative migration record)
 
 * **A.2.6 introduced.** Defines `U.ContextSlice`, `U.Scope`, `U.ClaimScope (G)`, `U.WorkScope`; sets algebra and guard patterns.
 * **Deprecated labels.** “applicability / envelope / generality / capability envelope / validity” as characteristic names.
