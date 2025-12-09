@@ -2,257 +2,371 @@
  * FPF Documentation Generator
  *
  * Parses FPF-Spec.md and generates a browsable folder structure
- * for easier navigation on GitHub and locally.
+ * following the specification's logical organization.
  *
  * Usage: bun run scripts/generate-docs.ts
  */
 
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync } from "fs";
-import { join, dirname } from "path";
+import { join } from "path";
 
 const SPEC_FILE = "FPF-Spec.md";
 const OUTPUT_DIR = "docs";
 
-interface Section {
-  title: string;
-  slug: string;
-  level: number;
-  lineStart: number;
-  lineEnd: number;
-  content: string;
-  part?: string;
-}
-
-interface Part {
+interface PartConfig {
   id: string;
   title: string;
-  sections: Section[];
+  description: string;
+  linePattern: RegExp;
+  subsections?: {
+    name: string;
+    file: string;
+    patterns: string[]; // Patterns to match section starts
+  }[];
 }
 
-// Clean title for use as filename
-function slugify(text: string): string {
-  return text
-    .replace(/^\*\*|\*\*$/g, "") // Remove bold markers
-    .replace(/[·—–\-:]/g, "-")   // Replace separators with dash
-    .replace(/\[.*?\]/g, "")      // Remove [A], [D], etc.
-    .replace(/\(.*?\)/g, "")      // Remove parenthetical notes
-    .replace(/[^\w\s-]/g, "")     // Remove special chars
-    .trim()
-    .replace(/\s+/g, "-")         // Spaces to dashes
-    .replace(/-+/g, "-")          // Multiple dashes to single
-    .replace(/^-|-$/g, "")        // Trim leading/trailing dashes
-    .toLowerCase()
-    .substring(0, 60);            // Limit length
-}
-
-// Extract part letter from section title (e.g., "A.1" -> "A")
-function extractPartLetter(title: string): string | null {
-  const match = title.match(/^[*\s]*([A-G])\./);
-  return match ? match[1] : null;
-}
-
-// Check if line is a Part header
-function isPartHeader(line: string): { id: string; title: string } | null {
-  // Match patterns like "# Part A –", "# **Part C —"
-  const match = line.match(/^#\s*\*?\*?Part\s+([A-G])\s*[–—-]\s*(.+)/i);
-  if (match) {
-    return { id: match[1].toUpperCase(), title: match[2].replace(/\*\*/g, "").trim() };
+// Configuration matching the README structure
+const PARTS_CONFIG: PartConfig[] = [
+  {
+    id: "A",
+    title: "Kernel Architecture Cluster",
+    description: "The immutable ontological core.",
+    linePattern: /^#\s*\*?\*?Part\s+A\s*[–—-]/i,
+    subsections: [
+      {
+        name: "Ontology",
+        file: "01-Ontology.md",
+        patterns: ["A.0", "A.1", "A.2 Role", "U.Holon", "U.System", "U.Episteme", "BoundedContext"]
+      },
+      {
+        name: "Transformation",
+        file: "02-Transformation.md",
+        patterns: ["A.3", "Transformer", "U.Method", "U.Work", "A.15"]
+      },
+      {
+        name: "State Space",
+        file: "03-State-Space.md",
+        patterns: ["A.17", "A.18", "A.19", "A.20", "Characteristic", "Scale", "Dynamics", "U.Dynamics"]
+      },
+      {
+        name: "Core Principles",
+        file: "04-Core-Principles.md",
+        patterns: ["A.4", "A.5", "A.6", "A.7", "A.8", "A.9", "A.13", "A.14"]
+      }
+    ]
+  },
+  {
+    id: "B",
+    title: "Trans-disciplinary Reasoning Cluster",
+    description: "The logic of composition and trust.",
+    linePattern: /^#\s*\*?\*?Part\s+B\s*[–—-]/i,
+    subsections: [
+      {
+        name: "Γ Algebra",
+        file: "01-Gamma-Algebra.md",
+        patterns: ["B.1", "B.1.", "Γ_sys", "Γ_epist", "Γ_work", "aggregat"]
+      },
+      {
+        name: "Assurance",
+        file: "02-Assurance.md",
+        patterns: ["B.3", "F-G-R", "Trust", "evidence"]
+      },
+      {
+        name: "Evolution",
+        file: "03-Evolution.md",
+        patterns: ["B.2", "B.4", "B.5", "evolution", "transition"]
+      }
+    ]
+  },
+  {
+    id: "C",
+    title: "Architheory Specifications",
+    description: "Pluggable domain-specific calculi (CAL), logics (LOG), and characterizations (CHR).",
+    linePattern: /^#\s*\*?\*?Part\s+C\s*[–—-]/i,
+    subsections: [
+      {
+        name: "KD-CAL (Knowledge Dynamics)",
+        file: "01-KD-CAL.md",
+        patterns: ["C.2", "KD-CAL", "KD‑CAL", "Episteme", "U.Episteme"]
+      },
+      {
+        name: "Kind-CAL (Typed Reasoning)",
+        file: "02-Kind-CAL.md",
+        patterns: ["C.3", "Kind-CAL", "Kind‑CAL", "U.Kind", "KindBridge", "RoleMask"]
+      },
+      {
+        name: "Compose-CAL & Measurement",
+        file: "03-Compose-Measurement.md",
+        patterns: ["C.13", "C.16", "Compose", "MM-CHR", "Measurement"]
+      },
+      {
+        name: "Creativity & NQD-CAL",
+        file: "04-Creativity-NQD.md",
+        patterns: ["C.17", "C.18", "C.19", "NQD", "Creativity", "Novelty"]
+      },
+      {
+        name: "Discipline & Problem CHR",
+        file: "05-Discipline-Problem.md",
+        patterns: ["C.20", "C.21", "C.22", "C.23", "C.24", "C.25", "Discipline", "Problem", "Q-Bundle"]
+      }
+    ]
+  },
+  {
+    id: "D",
+    title: "Multi-scale Ethics & Conflict-Optimisation",
+    description: "Multi-scale ethics (from agent to planetary). Bias audits and trust-aware mediation.",
+    linePattern: /^#\s*\*?\*?Part\s+D\s*[–—-]/i
+  },
+  {
+    id: "E",
+    title: "FPF Constitution and Authoring Cluster",
+    description: "The governance of the framework itself.",
+    linePattern: /^#\s*\*?\*?Part\s+E\s*[–—·-]/i,
+    subsections: [
+      {
+        name: "The 11 Pillars",
+        file: "01-Eleven-Pillars.md",
+        patterns: ["E.2", "E.3", "Pillar", "Principle"]
+      },
+      {
+        name: "Lexical Rules & Guard-Rails",
+        file: "02-Lexical-Rules.md",
+        patterns: ["E.10", "E.11", "LEX", "Lexical", "Guard"]
+      },
+      {
+        name: "Human-Centric Model",
+        file: "03-Human-Centric.md",
+        patterns: ["E.14", "E.15", "E.16", "Human", "Authoring"]
+      },
+      {
+        name: "Multi-View Publication Kit",
+        file: "04-MultiView-Publication.md",
+        patterns: ["E.17", "E.18", "MultiView", "MVPK", "View", "TGA"]
+      }
+    ]
+  },
+  {
+    id: "F",
+    title: "The Unification Suite",
+    description: "Techniques for aligning vocabularies across disciplines using SenseCells, Concept-Sets, and Alignment Bridges.",
+    linePattern: /^#\s*\*?\*?Part\s+F\s*[–—-]/i,
+    subsections: [
+      {
+        name: "Contextual Lexicon & Domain Survey",
+        file: "01-Context-Domain.md",
+        patterns: ["F.0", "F.1", "F.2", "F.3", "Context", "Domain", "Term", "Sense"]
+      },
+      {
+        name: "Naming & Role Discipline",
+        file: "02-Naming-Roles.md",
+        patterns: ["F.4", "F.5", "F.6", "Naming", "Role"]
+      },
+      {
+        name: "Concept-Sets & Alignment",
+        file: "03-Concept-Alignment.md",
+        patterns: ["F.7", "F.8", "F.9", "Concept", "Alignment", "Bridge"]
+      },
+      {
+        name: "Status & Method Harmonisation",
+        file: "04-Status-Method.md",
+        patterns: ["F.10", "F.11", "F.12", "Status", "Method", "Service"]
+      },
+      {
+        name: "Lexical Evolution & Control",
+        file: "05-Lexical-Evolution.md",
+        patterns: ["F.13", "F.14", "F.15", "F.16", "Deprecation", "Continuity", "SCR"]
+      },
+      {
+        name: "UTS Blocks & Name Cards",
+        file: "06-UTS-NameCards.md",
+        patterns: ["F.17", "F.18", "UTS", "Name Card", "Twin"]
+      }
+    ]
+  },
+  {
+    id: "G",
+    title: "Discipline SoTA Architheory Kit",
+    description: "Tools for harvesting \"State of the Art\" (SoTA) knowledge, benchmarking methods, and creating selector-ready portfolios of solutions.",
+    linePattern: /^#\s*\*?\*?Part\s+G\s*[–—-]/i
   }
-  return null;
-}
+];
 
-// Check if this is the Preface section
-function isPrefaceHeader(line: string): boolean {
-  return /^#\s*\*?\*?Preface/i.test(line);
-}
+// Find line numbers for Part boundaries
+function findPartBoundaries(lines: string[]): Map<string, { start: number; end: number }> {
+  const boundaries = new Map<string, { start: number; end: number }>();
+  const partStarts: { id: string; line: number }[] = [];
 
-// Check if this is ToC or title (to skip)
-function isSkippableHeader(line: string): boolean {
-  return /^#\s*(First Principles Framework|Table of Content)/i.test(line);
-}
-
-// Parse the spec file and extract structure
-function parseSpec(content: string): { preface: Section | null; parts: Map<string, Part> } {
-  const lines = content.split("\n");
-  const parts = new Map<string, Part>();
-  let preface: Section | null = null;
-
-  // Initialize parts A-G
-  const partTitles: Record<string, string> = {
-    A: "Kernel Architecture Cluster",
-    B: "Trans-disciplinary Reasoning Cluster",
-    C: "Architheory Specifications",
-    D: "Multi-scale Ethics & Conflict-Optimisation",
-    E: "FPF Constitution and Authoring Cluster",
-    F: "The Unification Suite",
-    G: "Discipline SoTA Architheory Kit"
-  };
-
-  for (const [id, title] of Object.entries(partTitles)) {
-    parts.set(id, { id, title, sections: [] });
-  }
-
-  // First pass: find all H1/H2 heading positions
-  interface Heading {
-    line: number;
-    level: number;
-    text: string;
-    raw: string;
-  }
-
-  const headings: Heading[] = [];
-
+  // Find Preface
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i];
-    const h1Match = line.match(/^#\s+(.+)/);
-    const h2Match = line.match(/^##\s+(.+)/);
-
-    if (h1Match) {
-      headings.push({ line: i, level: 1, text: h1Match[1], raw: line });
-    } else if (h2Match) {
-      headings.push({ line: i, level: 2, text: h2Match[1], raw: line });
+    if (/^#\s*\*?\*?Preface/i.test(lines[i])) {
+      partStarts.push({ id: "Preface", line: i });
+      break;
     }
   }
 
-  // Second pass: assign sections to parts
-  let currentPart: string | null = null;
-  let prefaceStart: number | null = null;
-  let prefaceEnd: number | null = null;
-
-  for (let i = 0; i < headings.length; i++) {
-    const heading = headings[i];
-    const nextHeading = headings[i + 1];
-    const lineEnd = nextHeading ? nextHeading.line - 1 : lines.length - 1;
-
-    // Skip title and ToC
-    if (isSkippableHeader(heading.raw)) {
-      continue;
-    }
-
-    // Check for Preface
-    if (isPrefaceHeader(heading.raw)) {
-      prefaceStart = heading.line;
-      // Find where preface ends (next Part header)
-      for (let j = i + 1; j < headings.length; j++) {
-        if (isPartHeader(headings[j].raw)) {
-          prefaceEnd = headings[j].line - 1;
-          break;
-        }
-      }
-      if (prefaceEnd === null) prefaceEnd = lineEnd;
-
-      preface = {
-        title: "Preface",
-        slug: "preface",
-        level: 1,
-        lineStart: prefaceStart,
-        lineEnd: prefaceEnd,
-        content: lines.slice(prefaceStart, prefaceEnd + 1).join("\n")
-      };
-      continue;
-    }
-
-    // Check for Part header
-    const partInfo = isPartHeader(heading.raw);
-    if (partInfo) {
-      currentPart = partInfo.id;
-      const part = parts.get(currentPart);
-      if (part) {
-        part.title = partInfo.title;
-      }
-      continue;
-    }
-
-    // Try to determine part from section number (e.g., "A.1", "B.2.3")
-    const partLetter = extractPartLetter(heading.text);
-    if (partLetter) {
-      currentPart = partLetter;
-    }
-
-    // If we have a current part, add this section
-    if (currentPart && heading.level <= 2) {
-      const part = parts.get(currentPart);
-      if (part) {
-        const sectionContent = lines.slice(heading.line, lineEnd + 1).join("\n");
-
-        // Only add if it has meaningful content (more than just the heading)
-        if (sectionContent.trim().split("\n").length > 1) {
-          part.sections.push({
-            title: heading.text.replace(/^\*\*|\*\*$/g, "").trim(),
-            slug: slugify(heading.text),
-            level: heading.level,
-            lineStart: heading.line,
-            lineEnd: lineEnd,
-            content: sectionContent,
-            part: currentPart
-          });
-        }
+  // Find all Part starts
+  for (const config of PARTS_CONFIG) {
+    for (let i = 0; i < lines.length; i++) {
+      if (config.linePattern.test(lines[i])) {
+        partStarts.push({ id: config.id, line: i });
+        break;
       }
     }
   }
 
-  return { preface, parts };
+  // Sort by line number
+  partStarts.sort((a, b) => a.line - b.line);
+
+  // Calculate boundaries
+  for (let i = 0; i < partStarts.length; i++) {
+    const current = partStarts[i];
+    const next = partStarts[i + 1];
+    boundaries.set(current.id, {
+      start: current.line,
+      end: next ? next.line - 1 : lines.length - 1
+    });
+  }
+
+  return boundaries;
 }
 
-// Generate the docs folder structure
-function generateDocs(preface: Section | null, parts: Map<string, Part>): void {
-  // Clean and create output directory
+// Extract content for a Part and optionally split into subsections
+function extractPartContent(
+  lines: string[],
+  start: number,
+  end: number,
+  subsections?: PartConfig["subsections"]
+): { main: string; sections: Map<string, string> } {
+  const fullContent = lines.slice(start, end + 1).join("\n");
+  const sections = new Map<string, string>();
+
+  if (!subsections || subsections.length === 0) {
+    return { main: fullContent, sections };
+  }
+
+  // Find H1/H2 section boundaries within this part
+  interface Section {
+    line: number;
+    heading: string;
+    endLine: number;
+  }
+
+  const sectionHeadings: Section[] = [];
+  for (let i = start; i <= end; i++) {
+    const line = lines[i];
+    if (/^#{1,2}\s+/.test(line)) {
+      sectionHeadings.push({ line: i, heading: line, endLine: end });
+    }
+  }
+
+  // Set end lines
+  for (let i = 0; i < sectionHeadings.length - 1; i++) {
+    sectionHeadings[i].endLine = sectionHeadings[i + 1].line - 1;
+  }
+
+  // Assign sections to subsection files
+  for (const subsection of subsections) {
+    const matchedContent: string[] = [];
+
+    for (const section of sectionHeadings) {
+      const headingText = section.heading;
+      const matches = subsection.patterns.some(pattern => {
+        const regex = new RegExp(pattern.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+        return regex.test(headingText);
+      });
+
+      if (matches) {
+        const content = lines.slice(section.line, section.endLine + 1).join("\n");
+        matchedContent.push(content);
+      }
+    }
+
+    if (matchedContent.length > 0) {
+      sections.set(subsection.file, matchedContent.join("\n\n---\n\n"));
+    }
+  }
+
+  return { main: fullContent, sections };
+}
+
+// Generate documentation
+function generateDocs(lines: string[]): void {
+  // Clean output directory
   if (existsSync(OUTPUT_DIR)) {
     rmSync(OUTPUT_DIR, { recursive: true });
   }
   mkdirSync(OUTPUT_DIR, { recursive: true });
 
+  const boundaries = findPartBoundaries(lines);
   const nav: string[] = [];
-  nav.push("# FPF Documentation\n");
-  nav.push("> Generated from FPF-Spec.md - browse the specification by parts\n");
-  nav.push("## Navigation\n");
 
-  // Write preface
-  if (preface) {
+  nav.push("# FPF Documentation\n");
+  nav.push("> Browsable documentation generated from FPF-Spec.md\n");
+  nav.push("## Parts\n");
+
+  // Extract and write Preface
+  const prefaceBounds = boundaries.get("Preface");
+  if (prefaceBounds) {
     const prefaceDir = join(OUTPUT_DIR, "00-Preface");
     mkdirSync(prefaceDir, { recursive: true });
-    writeFileSync(join(prefaceDir, "README.md"), preface.content);
-    nav.push(`- [Preface](./00-Preface/README.md)`);
-    console.log(`  Created: 00-Preface/README.md`);
+    const prefaceContent = lines.slice(prefaceBounds.start, prefaceBounds.end + 1).join("\n");
+    writeFileSync(join(prefaceDir, "README.md"), prefaceContent);
+    nav.push("- [Preface](./00-Preface/README.md)");
+    console.log("  Created: 00-Preface/README.md");
   }
 
-  // Write each part
-  const partOrder = ["A", "B", "C", "D", "E", "F", "G"];
+  // Process each Part
+  for (const config of PARTS_CONFIG) {
+    const bounds = boundaries.get(config.id);
+    if (!bounds) {
+      console.log(`  Warning: Part ${config.id} not found`);
+      continue;
+    }
 
-  for (const partId of partOrder) {
-    const part = parts.get(partId);
-    if (!part || part.sections.length === 0) continue;
-
-    const partDirName = `Part-${partId}`;
+    const partDirName = `Part-${config.id}`;
     const partDir = join(OUTPUT_DIR, partDirName);
     mkdirSync(partDir, { recursive: true });
 
-    // Create part index
-    const partIndex: string[] = [];
-    partIndex.push(`# Part ${partId}: ${part.title}\n`);
-    partIndex.push(`## Sections\n`);
+    const { main, sections } = extractPartContent(
+      lines,
+      bounds.start,
+      bounds.end,
+      config.subsections
+    );
 
-    nav.push(`- **[Part ${partId}: ${part.title}](./${partDirName}/README.md)**`);
+    // Create Part README (full content)
+    writeFileSync(join(partDir, "README.md"), main);
+    console.log(`  Created: ${partDirName}/README.md (${(main.length / 1024).toFixed(0)}KB)`);
 
-    // Write each section
-    for (let i = 0; i < part.sections.length; i++) {
-      const section = part.sections[i];
-      const fileName = `${String(i + 1).padStart(2, "0")}-${section.slug || "section"}.md`;
-      const filePath = join(partDir, fileName);
+    // Create subsection files if configured
+    if (config.subsections && sections.size > 0) {
+      const partIndex: string[] = [];
+      partIndex.push(`# Part ${config.id}: ${config.title}\n`);
+      partIndex.push(`${config.description}\n`);
+      partIndex.push("## Sections\n");
+      partIndex.push("- [Full Part Content](./README.md)\n");
 
-      writeFileSync(filePath, section.content);
-      partIndex.push(`  - [${section.title}](./${fileName})`);
-      console.log(`  Created: ${partDirName}/${fileName}`);
+      for (const subsection of config.subsections) {
+        const content = sections.get(subsection.file);
+        if (content && content.trim().length > 100) {
+          writeFileSync(join(partDir, subsection.file), content);
+          partIndex.push(`- [${subsection.name}](./${subsection.file})`);
+          console.log(`  Created: ${partDirName}/${subsection.file} (${(content.length / 1024).toFixed(0)}KB)`);
+        }
+      }
+
+      // Write index
+      writeFileSync(join(partDir, "INDEX.md"), partIndex.join("\n"));
     }
 
-    // Write part README
-    writeFileSync(join(partDir, "README.md"), partIndex.join("\n"));
-    console.log(`  Created: ${partDirName}/README.md`);
+    nav.push(`- **[Part ${config.id}: ${config.title}](./${partDirName}/README.md)**`);
   }
 
   // Write main navigation
+  nav.push("\n---\n");
+  nav.push("*Generated by `bun run generate-docs`*");
   writeFileSync(join(OUTPUT_DIR, "README.md"), nav.join("\n"));
-  console.log(`\nCreated: ${OUTPUT_DIR}/README.md (main navigation)`);
+  console.log("\nCreated: docs/README.md (main navigation)");
 }
 
 // Main
@@ -268,19 +382,11 @@ async function main() {
   }
 
   const content = readFileSync(specPath, "utf-8");
-  console.log(`  Read ${content.length.toLocaleString()} characters\n`);
+  const lines = content.split("\n");
+  console.log(`  Read ${lines.length.toLocaleString()} lines (${(content.length / 1024 / 1024).toFixed(1)}MB)\n`);
 
-  console.log("Parsing structure...");
-  const { preface, parts } = parseSpec(content);
-
-  let totalSections = preface ? 1 : 0;
-  for (const part of parts.values()) {
-    totalSections += part.sections.length;
-  }
-  console.log(`  Found ${totalSections} sections across ${parts.size} parts\n`);
-
-  console.log("Generating docs folder...");
-  generateDocs(preface, parts);
+  console.log("Generating docs with consolidated structure...\n");
+  generateDocs(lines);
 
   console.log("\nDone! Browse the docs/ folder to read the specification.");
 }
