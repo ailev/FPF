@@ -1,0 +1,26 @@
+# Part B: Trans‑disciplinary Reasoning Cluster
+
+## Sections
+
+  - [B .1 · Universal Algebra of Aggregation (Γ)** \[A]](./01-b-1-universal-algebra-of-aggregation.md)
+  - [B.1.1 Dependency Graph & Proofs** **\[D]](./02-b11-dependency-graph-proofs.md)
+  - [B.1.3 Γ\_epist — Knowledge‑Specific Aggregation** \[A]](./03-b13-_epist-knowledgespecific-aggregation.md)
+  - [B.1.4 Contextual & Temporal Aggregation (Γ\_ctx & Γ\_time)** \[A]](./04-b14-contextual-temporal-aggregation.md)
+  - [B.1.5 Γ\_method — Order‑Sensitive Method Composition & Instantiation** \[D]](./05-b15-_method-ordersensitive-method-composition-instantiation.md)
+  - [B.1.6 Γ\_work — Work as Spent Resource** \[D]](./06-b16-_work-work-as-spent-resource.md)
+  - [B.2 Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes** \[A]](./07-b2-metaholon-transition-recognizing-emergence-and-reidentify.md)
+  - [B.3 Trust & Assurance Calculus (F–G–R with Congruence)** \[A]](./08-b3-trust-assurance-calculus.md)
+  - [B.3.5 · **CT2R‑LOG — Working-Model Relations & Grounding** *(LOG‑use)*](./09-b35-ct2rlog-working-model-relations-grounding.md)
+  - [9 · Rule‑set — CT2R‑LOG (conceptual, human‑first)](./10-9-ruleset-ct2rlog.md)
+  - [B.5.2.1 — Creative Abduction with NQD (binding) \[A]](./11-b521-creative-abduction-with-nqd.md)
+  - [1 · Intent & Problem](./12-1-intent-problem.md)
+  - [2 · The **Creativity‑CHR** (references only; no re‑definitions here)](./13-2-the-creativitychr.md)
+  - [3 · Solution — **Binding to Γ_nqd.generate (C.18)](./14-3-solution-binding-to-_nqdgenerate.md)
+  - [4 · Implementation & Binding into **B.5.2** (two injection points)](./15-4-implementation-binding-into-b52.md)
+  - [5 · Conformance Checklist (normative)](./16-5-conformance-checklist.md)
+  - [6 · Cognitive Load & Kernel Growth Budget](./17-6-cognitive-load-kernel-growth-budget.md)
+  - [7 · Placement in the Reasoning Cycle (ADI)](./18-7-placement-in-the-reasoning-cycle.md)
+  - [8 · Context‑Level KPIs (optional, informative)](./19-8-contextlevel-kpis.md)
+  - [9 · Worked micro‑example (abbreviated)](./20-9-worked-microexample.md)
+  - [10 · Trade‑offs & mitigations](./21-10-tradeoffs-mitigations.md)
+  - [11 · Related Patterns](./22-11-related-patterns.md)

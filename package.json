@@ -1,0 +1,12 @@
+{
+  "name": "fpf",
+  "version": "1.0.0",
+  "description": "First Principles Framework - An Operating System for Thought",
+  "type": "module",
+  "scripts": {
+    "generate-docs": "bun run scripts/generate-docs.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}

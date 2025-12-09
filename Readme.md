@@ -69,7 +69,41 @@ FPF is built on a micro-kernel of non-negotiable principles. If you are new, sta
 
 ## 📂 Repository Structure
 
-The specification is divided into clusters of patterns:
+```
+FPF/
+├── FPF-Spec.md          # The full specification (single file, 3.2MB)
+├── Readme.md            # This file
+├── package.json         # Bun configuration
+├── scripts/
+│   └── generate-docs.ts # Generates browsable docs from spec
+└── docs/                # Generated browsable documentation
+    ├── README.md        # Navigation index
+    ├── 00-Preface/      # Preface section
+    ├── Part-A/          # Kernel Architecture Cluster
+    ├── Part-B/          # Trans-disciplinary Reasoning Cluster
+    ├── Part-C/          # Architheory Specifications
+    ├── Part-D/          # Multi-scale Ethics & Conflict-Optimisation
+    ├── Part-E/          # FPF Constitution and Authoring Cluster
+    ├── Part-F/          # The Unification Suite
+    └── Part-G/          # Discipline SoTA Architheory Kit
+```
+
+### Browsing the Specification
+
+**Option 1: Browse the `docs/` folder** — Each Part is split into readable sections for easy GitHub navigation.
+
+**Option 2: Read the full `FPF-Spec.md`** — Load the complete specification into an LLM or use a markdown viewer.
+
+**Option 3: Regenerate docs** — If the spec is updated, run:
+```bash
+bun run generate-docs
+```
+
+---
+
+## 📑 Specification Structure
+
+The specification (FPF-Spec.md) is divided into clusters of patterns:
 
 ### **Part A: Kernel Architecture Cluster**
 The immutable ontological core.
