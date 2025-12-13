@@ -4408,18 +4408,18 @@ A.3 is executable only because Γ‑operators provide aggregation and invariants
 **Indexing to the glossary.**
 Terms used here (TransformerRole, Work, Method, MethodDescription, PortionOf, PhaseOf, BoundedContext) remain exactly as defined in Annex A; see A.1/A.2/A.14/A.15 entries for lexical registers.
 
-[1]: https://royalsocietypublishing.org/doi/10.1098/rspa.2014.0540?utm_source=chatgpt.com "Constructor theory of information | Proceedings of the Royal Society A"
-[2]: https://arxiv.org/abs/1405.5563?utm_source=chatgpt.com "Constructor Theory of Information"
-[3]: https://www.constructortheory.org/wp-content/uploads/2016/07/THD-ArXiv-Final.pdf?utm_source=chatgpt.com "[PDF] Constructor Theory of Thermodynamics"
-[4]: https://direct.mit.edu/neco/article/29/1/1/8207/Active-Inference-A-Process-Theory?utm_source=chatgpt.com "Active Inference: A Process Theory | Neural Computation | MIT Press"
-[5]: https://pubmed.ncbi.nlm.nih.gov/27870614/?utm_source=chatgpt.com "Active Inference: A Process Theory - PubMed"
-[6]: https://arxiv.org/abs/1906.10184?utm_source=chatgpt.com "A free energy principle for a particular physics"
-[7]: https://www.nature.com/articles/sdata201618?utm_source=chatgpt.com "The FAIR Guiding Principles for scientific data management and ..."
-[8]: https://www.researchobject.org/ro-crate/about_ro_crate?utm_source=chatgpt.com "About RO-Crate - Research Object"
-[9]: https://journals.sagepub.com/doi/10.3233/DS-210053?utm_source=chatgpt.com "Packaging research artefacts with RO-Crate - Sage Journals"
-[10]: https://openlineage.io/docs/?utm_source=chatgpt.com "About OpenLineage | OpenLineage"
-[11]: https://github.com/OpenLineage/OpenLineage?utm_source=chatgpt.com "GitHub - OpenLineage/OpenLineage: An Open Standard for lineage metadata collection"
-[12]: https://arxiv.org/pdf/2010.02013?utm_source=chatgpt.com "[PDF] A Brief History Of TensorFlow Extended (TFX) - arXiv"
+[1]: https://royalsocietypublishing.org/doi/10.1098/rspa.2014.0540 "Constructor theory of information | Proceedings of the Royal Society A"
+[2]: https://arxiv.org/abs/1405.5563 "Constructor Theory of Information"
+[3]: https://www.constructortheory.org/wp-content/uploads/2016/07/THD-ArXiv-Final.pdf "[PDF] Constructor Theory of Thermodynamics"
+[4]: https://direct.mit.edu/neco/article/29/1/1/8207/Active-Inference-A-Process-Theory "Active Inference: A Process Theory | Neural Computation | MIT Press"
+[5]: https://pubmed.ncbi.nlm.nih.gov/27870614/ "Active Inference: A Process Theory - PubMed"
+[6]: https://arxiv.org/abs/1906.10184 "A free energy principle for a particular physics"
+[7]: https://www.nature.com/articles/sdata201618 "The FAIR Guiding Principles for scientific data management and ..."
+[8]: https://www.researchobject.org/ro-crate/about_ro_crate "About RO-Crate - Research Object"
+[9]: https://journals.sagepub.com/doi/10.3233/DS-210053 "Packaging research artefacts with RO-Crate - Sage Journals"
+[10]: https://openlineage.io/docs/ "About OpenLineage | OpenLineage"
+[11]: https://github.com/OpenLineage/OpenLineage "GitHub - OpenLineage/OpenLineage: An Open Standard for lineage metadata collection"
+[12]: https://arxiv.org/pdf/2010.02013 "[PDF] A Brief History Of TensorFlow Extended (TFX) - arXiv"
 
 # A.3.1 — U.Method  \[D]
 
@@ -7681,7 +7681,7 @@ In practice, a `U.Signature` that follows this pattern:
 
 * becomes **self‑documenting**: each parameter has a clear “slot vs value vs ref” story;
 * supports **typed substitution**: replacing references within the same SlotKind requires only ValueKind compatibility;
-* aligns with **tool signatures** in implementation languages (row‑typed records, dependently typed parameters, effect‑typed arguments). ([ACM Digital Library][1])
+* aligns with **tool signatures** in implementation languages (row‑typed records, dependently typed parameters, effect‑typed arguments). ([ACM Digital Library][13])
 
 #### 4.4 · Typed substitution discipline
 
@@ -7933,7 +7933,7 @@ New or revised patterns in Part A/B/C/E that introduce n‑ary relations, morphi
   Misuses of `*Ref`, `*Slot`, “Role”, “Subject”, “Object” in signatures become guard‑detectable; migration strategies can be described as re‑factoring SlotKinds and ValueKinds rather than ad‑hoc renames.
 
 * **Tool alignment.**
-  Implementation languages with **row‑typed records, dependent types, and algebraic effects** map naturally to the SlotKind/ValueKind/RefKind layers, easing code generation and static analysis. ([ACM Digital Library][1])
+  Implementation languages with **row‑typed records, dependent types, and algebraic effects** map naturally to the SlotKind/ValueKind/RefKind layers, easing code generation and static analysis. ([ACM Digital Library][13])
 
 **Trade‑offs / mitigations**
 
@@ -7963,7 +7963,7 @@ New or revised patterns in Part A/B/C/E that introduce n‑ary relations, morphi
 1. **Row‑typed, extensible data / effect rows (adopt/adapt).**  
    Post‑2015 work on row polymorphism and extensible data/effect rows treats records and variants as labelled collections of fields whose presence and type can evolve independently.   
    **Adopted:** the idea that **positions** (labels) are first‑class and carry their own typing discipline.  
-   **Adapted:** instead of row kinds, FPF uses SlotKind/ValueKind/RefKind triples for n‑ary relations and epistemic slots; the pattern is notation‑agnostic and applies equally to episteme structures, role relations, and service signatures. ([1])
+   **Adapted:** instead of row kinds, FPF uses SlotKind/ValueKind/RefKind triples for n‑ary relations and epistemic slots; the pattern is notation‑agnostic and applies equally to episteme structures, role relations, and service signatures. ([13])
 
 2. **Dependent type systems engineered via macros (adopt/adapt).**  
    Macro‑based dependent type systems such as Turnstile+ separate structural indices, value‑level types, and evidence, while allowing them to be related by construction.   
@@ -7973,11 +7973,11 @@ New or revised patterns in Part A/B/C/E that introduce n‑ary relations, morphi
 3. **Relational models of types‑and‑effects (adapt).**  
    Relational models for types‑and‑effects distinguish value positions from effect/resource annotations and track substitution separately across these layers.   
    **Adopted:** the insistence that reasoning about **substitution and equality** must be stratified (values vs additional structure).  
-   **Adapted:** A.6.5 stratifies *slot / value / reference* instead of *value / effect*, and applies the discipline not only to programs but also to epistemes, roles, methods, and services. ([3])
+   **Adapted:** A.6.5 stratifies *slot / value / reference* instead of *value / effect*, and applies the discipline not only to programs but also to epistemes, roles, methods, and services. ([15])
 
 4. **Optics / lenses as disciplined projections (echo).**  
    Profunctor optics formalise get/put pairs where a fixed “focus” position within a larger structure is manipulated under composition laws.   
-   **Echoed:** SlotKind plays the role of the focus coordinate; ValueKind is the focus type; RefKind determines whether the focus is stored by value or via a handle. This perspective informs later use of SlotKind discipline in EpistemicViewing (A.6.3) and multi‑view publication (E.17). ([4])
+   **Echoed:** SlotKind plays the role of the focus coordinate; ValueKind is the focus type; RefKind determines whether the focus is stored by value or via a handle. This perspective informs later use of SlotKind discipline in EpistemicViewing (A.6.3) and multi‑view publication (E.17). ([16])
 
 **Cross‑Context reuse and Bridges.** When a `U.BoundedContext` chooses to adopt a concrete row‑typing discipline, relational logic, or optics library, it **SHALL** do so via explicit Bridges (F.9) with CL and (for plane crossings) `Φ(CL)`/`Φ_plane` policy‑ids, keeping numerical policies and notations Context‑local. A.6.5 only constrains the **slot discipline** that such Bridges must respect.
 
@@ -8010,10 +8010,10 @@ Name‑acceptance and migration harnesses in Part F can detect legacy violatio
 **Used by A.19 `CharacteristicSpace` and measurement patterns.**  
 +Characteristic‑space slots already behave as positions with attached kinds; slot discipline in A.6.5 gives a uniform story for how such slots appear inside relation signatures, episteme cards, and service definitions, and how substitution over those slots is checked.
 
-[1]: https://dl.acm.org/doi/pdf/10.1145/3290325 "Abstracting extensible data types: or, rows by any other name"
-[2]: https://www.williamjbowman.com/resources/wjb2019-depmacros.pdf "Dependent Type Systems as Macros"
-[3]: https://iris-project.org/pdfs/2017-popl-effects-final.pdf "A Relational Model of Types-and-Effects in Higher-Order ..."
-[4]: https://arxiv.org/pdf/1809.00738 "Categories of Optics"
+[13]: https://dl.acm.org/doi/pdf/10.1145/3290325 "Abstracting extensible data types: or, rows by any other name"
+[14]: https://www.williamjbowman.com/resources/wjb2019-depmacros.pdf "Dependent Type Systems as Macros"
+[15]: https://iris-project.org/pdfs/2017-popl-effects-final.pdf "A Relational Model of Types-and-Effects in Higher-Order ..."
+[16]: https://arxiv.org/pdf/1809.00738 "Categories of Optics"
 
 ## **Cluster A.V · Constitutional Principles of the Kernel**
 
@@ -17506,6 +17506,7 @@ It reuses:
 * **Evidence bundle** (if the transition implies trust): references, dates, windows.
 
 ---
+
 #### 7.5.3 · Manager’s 7‑step checklist (operational)
 
 1. **Name the slice.** Write the full `TargetSlice`/`JobSlice` tuple including **`Γ_time`**.
@@ -22119,7 +22120,7 @@ Publish a **`MethodFamily.MaturityCardDescription@Context`** (UTS enum ids; **Sc
 — `Symplectic`: eligible only when `Hamiltonian=true`; here ⇒ `Abstain`.
 *Didactic anchor.* This mirrors C.22’s typed‑signature discipline and CHR legality (no ordinal means; unit alignment for **ratio**).
 
-> Contemporary ecosystem examples of these families (post‑2015) are organised in **DifferentialEquations.jl**, which exposes multiple solver **families** under one call surface—precisely the pattern G.5 expects. ([Journal of Open Research Software][1])
+> Contemporary ecosystem examples of these families (post‑2015) are organised in **DifferentialEquations.jl**, which exposes multiple solver **families** under one call surface—precisely the pattern G.5 expects. ([Journal of Open Research Software][17])
 
 **Show‑2 · Planning/scheduling (MIP task).**
 *S2 excerpt.* `DataShape=MIP; NoiseModel=deterministic; Objective={↓cost@ratio, ↑service_level@ordinal}; Size≈10^5 vars; convex_relaxation=available`.
@@ -22130,11 +22131,11 @@ Publish a **`MethodFamily.MaturityCardDescription@Context`** (UTS enum ids; **Sc
 — `Heuristic meta‑search`: **MaturityCard**=`L1` ⇒ `Degrade(sandbox)` or `Abstain` depending on RSCR parity policy.
 *Didactic anchor.* Selector returns a **Pareto set** (no cross‑ordinal weighting), as required by G.5.
 
-> Contemporary “single call / many solvers” packaging that motivates MethodFamily rows is exemplified by **JuMP** (2017–2022), which cleanly separates **model description** from solver choice. ([Miles Lubin][2])
+> Contemporary “single call / many solvers” packaging that motivates MethodFamily rows is exemplified by **JuMP** (2017–2022), which cleanly separates **model description** from solver choice. ([Miles Lubin][18])
 
-— *DifferentialEquations.jl* illustrates **family‑based** solver packaging (multi‑method under one interface), 2017–2024 ecosystem. ([Journal of Open Research Software][1])
-— *JuMP* illustrates **model/solver separation** and registry‑like selection (2021–2022 papers, site). ([Miles Lubin][2])
-— *Science of Science* review (2018) supports the emphasis on replication/benchmarks in maturity assessment. ([Science][3])
+— *DifferentialEquations.jl* illustrates **family‑based** solver packaging (multi‑method under one interface), 2017–2024 ecosystem. ([Journal of Open Research Software][17])
+— *JuMP* illustrates **model/solver separation** and registry‑like selection (2021–2022 papers, site). ([Miles Lubin][18])
+— *Science of Science* review (2018) supports the emphasis on replication/benchmarks in maturity assessment. ([Science][19])
 
 **Show‑3 · QD archive (policy search).**
 *S2 excerpt.* `PortfolioMode=Archive; CharacteristicSpaceRef(d=2); ArchiveConfig(CVT, res=1k cells, K=1, DistanceDefRef.edition=v2, InsertionPolicyRef=dyn‑elite); EmitterPolicyRef=v3; DominanceRegime=ParetoOnly`.
@@ -22144,9 +22145,9 @@ Publish a **`MethodFamily.MaturityCardDescription@Context`** (UTS enum ids; **Sc
 *S2 excerpt.* `GeneratorIntent{GeneratorFamilyRef=GF‑01, EnvironmentValidityRegion=EVR‑A, TransferRulesRef=TR‑A, CoverageMetric=…}; PortfolioMode=Archive`.
 *Rules.* `Admit` yields portfolios over `{environment, method}`; `Degrade(scope‑narrow)` if `TransferRules`=`unknown`; telemetry publishes **coverage/regret** and **IlluminationSummary** with **edition/policy‑id** on improvements.
 
-[1]: https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151?utm_source=chatgpt.com "DifferentialEquations.jl – A Performant and Feature-Rich ..."
-[2]: https://mlubin.github.io/pdf/jump-sirev.pdf?utm_source=chatgpt.com "JuMP: A Modeling Language for Mathematical Optimization"
-[3]: https://www.science.org/doi/10.1126/science.aao0185?utm_source=chatgpt.com "Science of science"
+[17]: https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151 "DifferentialEquations.jl – A Performant and Feature-Rich ..."
+[18]: https://mlubin.github.io/pdf/jump-sirev.pdf "JuMP: A Modeling Language for Mathematical Optimization"
+[19]: https://www.science.org/doi/10.1126/science.aao0185 "Science of science"
 
 ### 6) Bias‑Annotation
 
@@ -22180,7 +22181,7 @@ Publish a **`MethodFamily.MaturityCardDescription@Context`** (UTS enum ids; **Sc
 
 ### 9) Rationale
 
-The ladder and LOG shells align with FPF’s **Assurance calculus**: **F** (form) is governed by artefact kind, **G** (scope) by USM slices, and **R** (reliability) accumulates via WLNK then **Φ(CL)** penalties. Treating maturity as **evidence‑typed rungs**—rather than a “score”—avoids illegal arithmetic and lets **design/run** remain separate per ATS. This mirrors contemporary **science‑of‑science** insights: replication, benchmarking, and field health indicators are the **currency** of maturity, not anecdote.  ([Science][3])
+The ladder and LOG shells align with FPF’s **Assurance calculus**: **F** (form) is governed by artefact kind, **G** (scope) by USM slices, and **R** (reliability) accumulates via WLNK then **Φ(CL)** penalties. Treating maturity as **evidence‑typed rungs**—rather than a “score”—avoids illegal arithmetic and lets **design/run** remain separate per ATS. This mirrors contemporary **science‑of‑science** insights: replication, benchmarking, and field health indicators are the **currency** of maturity, not anecdote.  ([Science][19])
 
 ### 10) Relations
 
@@ -28164,7 +28165,7 @@ This arrangement guarantees **functorial publication** (commuting squares on cro
 3. **Replay test:** freeze editions; re‑run selection on a PathSlice; observe identical return‑sets; apply a bump; see only affected `PathSlice`s refresh.
 4. **StructuralReinterpretation probe:** construct a minimal reinterpretation step; confirm `CL^k` with `bridgeChannel=Kind` on UTS, a SquareLaw‑retargeting witness on UTS, `PathSliceId` pinned, **CV.ReinterpretationEquivalence=pass**, and absence of hidden scalarization.
 
-[1]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG&utm_source=chatgpt.com "INTERNATIONAL STANDARD ISO 23247-1"
+[20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 
 # **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 
