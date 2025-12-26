@@ -50,10 +50,13 @@ Pattern and headers templates are explained in pattern E.8.
 | ***Cluster A.III - Time & Evolution*** | | | | |
 | A.4 | **Temporal Duality & Open-Ended Evolution Principle** | Stable | *Keywords:* design-time, run-time, evolution, versioning, lifecycle, continuous improvement. *Queries:* "How does FPF handle plan vs. reality?", "How are systems updated?" | **Builds on:** P-10 Open-Ended Evolution. **Prerequisite for:** B.4. |
 | ***Cluster A.IV - Kernel Modularity*** | | | | |
-| A.5 | **Open-Ended Kernel & Architheory Layering** | Stable | *Keywords:* micro-kernel, plug-in, CAL/LOG/CHR, modularity, extensibility. *Queries:* "What is the architecture of FPF?", "How are new domains added?" | **Builds on:** P-4, P-5. **Prerequisite for:** A.6, all Part C. |
-| A.6.0| **U.Signature — Universal, law‑governed declaration** | Stable | *Keywords:* signature, vocabulary, laws, applicability, bounded context. *Queries:* "What is the universal signature block?", "Where do laws vs. implementations live?" | **Placement:** Kernel; **Coordinates:** A.6, A.6.1. |
-| A.6 | **Architheory Signature & Realization** | Stable | *Keywords:* architheory, signature, realization, Γ-export, invariants. *Queries:* "What is an Architheory signature?", "How do I export Γ?", "What belongs in the signature vs realization?" | **Builds on:** A.5, E.10, E.8. **Prerequisite for:** Part C catalogue. |
-| A.6.1 | **U.Mechanism - Law‑governed application to a SubjectKind over a BaseType** | Stable | Keywords: Mechanism, OperationAlgebra, LawSet, AdmissibilityConditions, Transport, Bridge‑only. Queries: "How to define a mechanism like USM/UNM?", "Where do operational guards live?", "How to handle cross‑context transport?" | **Builds on:** A.6, E.10.D1. **Instances:** USM (A.2.6), UNM (A.19). |
+| A.5 | **Open-Ended Kernel & Architheory Layering** | Stable | *Keywords:* micro-kernel, plug-in, CAL/LOG/CHR, modularity, extensibility. *Queries:* "What is the architecture of FPF?", "How are new domains added?" | **Builds on:** P-4, P-5. **Prerequisite for:** A.6.A, all Part C. |
+| ***Cluster A.IV.A - Signature Stack & Boundary Discipline (A.6.*)*** | | | | |
+| A.6 | **Signature Stack & Boundary Discipline** | Draft | *Keywords:* boundary, signature stack, routing, laws, admissibility, deontics, evidence, claim register, MVPK, view/viewpoint, surface. *Queries:* "What is the Signature Stack in FPF?", "How do I route boundary statements (laws vs gates vs duties vs evidence)?", "How to avoid contract-soup drift in boundary descriptions?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Coordinates with:** A.6.A, A.6.5, A.6.6, A.6.7, E.19. |
+| A.6.B | **Boundary Norm Square (Laws / Admissibility / Deontics / Work-Effects)** | Draft | *Keywords:* boundary norm square, atomic claims, L/A/D/E routing, laws vs gates, commitments, evidence carriers, no upward dependencies, claim IDs, triangle decomposition. *Queries:* "What is the Boundary Norm Square in FPF?", "How to decompose a mixed sentence into gate/duty/evidence claims?", "Where do RFC keywords belong in FPF patterns?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2, E.10/L-SURF. **Used by:** A.6 (cluster overview). |
+| A.6.0| **U.Signature — Universal, law‑governed declaration** | Stable | *Keywords:* signature, vocabulary, laws, applicability, bounded context. *Queries:* "What is the universal signature block?", "Where do laws vs. implementations live?" | **Placement:** Kernel; **Coordinates:** A.6.A, A.6.1. |
+| A.6.A | **Architheory Signature & Realization** | Stable | *Keywords:* architheory, signature, realization, Γ-export, invariants. *Queries:* "What is an Architheory signature?", "How do I export Γ?", "What belongs in the signature vs realization?" | **Builds on:** A.5, E.10, E.8. **Prerequisite for:** Part C catalogue. |
+| A.6.1 | **U.Mechanism - Law‑governed application to a SubjectKind over a BaseType** | Stable | Keywords: Mechanism, OperationAlgebra, LawSet, AdmissibilityConditions, Transport, Bridge‑only. Queries: "How to define a mechanism like USM/UNM?", "Where do operational guards live?", "How to handle cross‑context transport?" | **Builds on:** A.6.A, E.10.D1. **Instances:** USM (A.2.6), UNM (A.19). |
 | A.6.2 | **U.EffectFreeEpistemicMorphing — Effect-Free Morphisms of Epistemes** | Stable | *Keywords:* episteme, effect-free, morphism, functoriality, describedEntity, lenses, reproducibility. *Queries:* "How to transform descriptions/specs without mechanisms?", "What are conservative episteme-to-episteme transforms in FPF?", "How do Describe_ID / Specify_DS fit into a general morphism class?" | **Builds on:** A.1 (Holon), A.7 (Strict Distinction, Object≠Description≠Carrier), A.6.0 (U.Signature), A.6.5 (U.RelationSlotDiscipline), E.10.D2 (I/D/S discipline), C.2.1 (U.EpistemeSlotGraph). **Used by:** A.6.3 (U.EpistemicViewing), A.6.4 (U.EpistemicRetargeting), E.17.0 (U.MultiViewDescribing), E.17 (MVPK), E.18 (E.TGA StructuralReinterpretation), KD-CAL mapping rules. |
 | A.6.3 | **U.EpistemicViewing — describedEntity-Preserving Morphism** | Stable | *Keywords:* episteme, view, EpistemicViewing, describedEntity preservation, ClaimGraph, Viewpoint, RepresentationScheme, CorrespondenceModel, Direct vs Correspondence Viewing, optics, displayed fibration. *Queries:* "How to define a view of an artefact without adding new claims?", "What is an EpistemicViewing in FPF terms?", "How do ISO 42010 views and SysML v2 views-as-queries sit in FPF?" | **Builds on:** A.6.0 (U.Signature), A.6.2 (U.EffectFreeEpistemicMorphing), A.6.5 (U.RelationSlotDiscipline), A.7 (Strict Distinction; I/D/S vs Surface), E.10.D2 (I/D/S discipline), C.2.1 (U.EpistemeSlotGraph), C.2 (KD-CAL: describedEntity & ReferencePlane). **Used by:** E.17.0 (U.MultiViewDescribing), E.17 (MVPK), E.17.1/E.17.2 (ViewpointBundleLibrary & TEVB), E.18 (E.TGA viewpoint families), B.5.3 (Role-Projection Bridge), KD-CAL view operators. |
 | A.6.4 | **U.EpistemicRetargeting — describedEntity-Retargeting Morphism** | New | *Keywords:* retargeting, subject retargeting, describedEntity shift, KindBridge, SquareLaw-retargeting, StructuralReinterpretation. *Queries:* "How to change the object-of-talk without losing truth?", "What is StructuralReinterpretation in FPF terms?", "When is a Fourier-like transform a retargeting rather than a new Γ-construction?" | **Builds on:** A.6.2 (effect-free episteme morphisms), A.1 (Holon: System/Episteme split), F.9 (Bridges & CL, including CL^plane and KindBridge), C.2.1 (U.EpistemeSlotGraph; DescribedEntity/GroundingHolon), C.2 (KD-CAL: ReferencePlane & CL propagation), E.18:5.9/E.18:5.12 (E.TGA crossings & StructuralReinterpretation rules). **Used by:** E.18 (StructuralReinterpretation node in E.TGA as species of U.EpistemicRetargeting), KD-CAL/LOG-CAL retargeting rules, Fourier-style transforms and data↔model re-targetings in discipline packs. |
@@ -376,7 +379,7 @@ Part of FPF architecture for open-ended evolution is counterintuitive. E.g., to 
 | **Auditability & Traceability** | The unbreakable chain from a claim back to its evidence. This is the quality of being able to answer "Why is this true?" at any point. | **`Evidence Graph Referring (A.10)`**, the **`Design-Rationale Record (DRR) Method (E.9)`**, and the entire **`Trust & Assurance Calculus (B.3)`**. The architecture makes untraceable claims a modeling violation. |
 | **Evolvability** | The capacity of a model or system to adapt to new information or requirements without losing its conceptual integrity. | The **`Open-Ended Evolution Principle (P-10)`**, the **`Canonical Evolution Loop (B.4)`**, and the **`DRR Process (E.9)`**. Change is not a bug; it is a formally managed, first-class feature of the architecture. |
 | **Creativity (Generative Novelty & Value)** | The ability to reliably generate, select, and mature novel hypotheses/designs that are both *new* and *fit to purpose*—exploration without losing auditability or safety. | **`Creativity‑CHR (C.17)`** for measurable **Novelty / Use‑Value / Surprise / Constraint‑Fit**; **`NQD‑CAL (C.18)`** for open‑ended, illumination‑style search; **`E/E‑LOG (C.19)`** to govern explore↔exploit policies; **`Creative Abduction with NQD (B.5.2.1)`** / **`Abductive Loop (B.5.2)`** to structure hypothesis generation; **`Design‑Rationale Record (E.9)`** to capture decisions so creativity stays auditable. |
-| **Composability & Modularity** | The ability to construct complex, reliable ideas from simpler, independently verifiable components. | The **`Open-Ended Kernel (A.5)`**, **`Architheory Signatures (A.6)`**, **`Universal Γ (B.1)`**, plus **Boundary‑Inheritance Standard (BIC)** and the **Cut‑Stable Boundary Axiom** for safe structural cuts, and the **Method Interface Standard (MIC)** for typed method I/O and conservation constraints. Together they make composition predictable and auditable.  |
+| **Composability & Modularity** | The ability to construct complex, reliable ideas from simpler, independently verifiable components. | The **`Open-Ended Kernel (A.5)`**, **`Architheory Signatures (A.6.A)`**, **`Universal Γ (B.1)`**, plus **Boundary‑Inheritance Standard (BIC)** and the **Cut‑Stable Boundary Axiom** for safe structural cuts, and the **Method Interface Standard (MIC)** for typed method I/O and conservation constraints. Together they make composition predictable and auditable.  |
 | **Falsifiability** | The quality that every claim is structured so it can be rigorously tested and potentially proven false. | **`Conformance Checklists`** embedded in every pattern and the **`Trust & Assurance Calculus (B.3)`**. Every normative artifact must declare success/failure criteria and null tests. |
 | **Cross-Scale Coherence** | The guarantee that the same fundamental logic applies to a single component, an integrated system, and a system‑of‑systems. | **`Cross-Scale Consistency (A.9)`**, **Universal Γ (B.1)** with proof obligations for context/time reasoning (Proof Kit), and declared Γ‑fold policies over WLNK/COMM/LOC/MONO + time policy (no free‑hand averages). These preserve invariants across zoom levels and eras.  |
 | **Design–Run Separation (Temporal Integrity)** | Prevents “design/run chimeras”, keeps assumptions/versioned specs separate from runtime evidence; enables reproducible state over time. | **A.4 design–run split** (used across CHR/creativity), **KD‑CAL CC‑KD‑08** (no episteme mutation in Work), **Γ_time** rules (T‑1..T‑3), **DRR (E.9)** for rationale/versioning, **Canonical Evolution Loop (B.4)** for orderly change.  |
@@ -424,7 +427,7 @@ A core challenge of any rigorous intellectual effort is that thought itself is i
 
 At its heart, FPF requires what might be metaphorically called "pencil and paper." To engage with the framework is to externalize one's reasoning, moving it from the fleeting space of internal cognition to a persistent medium where it can be inspected, challenged, and refined. This "writing" is not a by-product of thinking; it *is* the thinking. The act of filling out a **Role Description Card** or constructing a **Concept-Set Table** is not mere documentation; it is the cognitive work of making distinctions, declaring invariants, and justifying relationships. These forms give shape and persistence to thought.
 
-This discipline is operationalized through a rich vocabulary of conceptual forms, each tailored for a specific cognitive task. *Cards* serve to define and scope individual concepts: a `Context Card` (F.1) fixes the semantic boundaries of a domain, while a `Role Description Card` (F.4) specifies the invariants of a particular behavioral role or status. *Tables* are used to compare and synthesize knowledge across these boundaries, with the `Unified Term Sheet (UTS)` (F.17) providing the canonical, human-readable summary of how concepts align. *Records*, such as the `Design-Rationale Record (DRR)` (E.9), create a durable, auditable history of *why* a decision was made, capturing the context and trade-offs. Finally, *Standards* and *Specifications* make rules explicit, from the high-level `Architheory Signature` (A.6) that governs a plug-in's behavior to the detailed `Conformance Checklists` that conclude every pattern. Each form is a distinct instrument in the FPF toolkit, designed to isolate and clarify a specific aspect of a complex problem.
+This discipline is operationalized through a rich vocabulary of conceptual forms, each tailored for a specific cognitive task. *Cards* serve to define and scope individual concepts: a `Context Card` (F.1) fixes the semantic boundaries of a domain, while a `Role Description Card` (F.4) specifies the invariants of a particular behavioral role or status. *Tables* are used to compare and synthesize knowledge across these boundaries, with the `Unified Term Sheet (UTS)` (F.17) providing the canonical, human-readable summary of how concepts align. *Records*, such as the `Design-Rationale Record (DRR)` (E.9), create a durable, auditable history of *why* a decision was made, capturing the context and trade-offs. Finally, *Standards* and *Specifications* make rules explicit, from the high-level `Architheory Signature` (A.6.A) that governs a plug-in's behavior to the detailed `Conformance Checklists` that conclude every pattern. Each form is a distinct instrument in the FPF toolkit, designed to isolate and clarify a specific aspect of a complex problem.
 
 It is critical, however, to understand the precise nature of this "writing." The FPF constitution is built on a deliberate separation of concerns that grants teams maximum freedom in their operational practices.
 
@@ -504,7 +507,7 @@ By treating description as a graph of typed projections rather than a pile of fi
 3. **Assurance as a first‑class calculus** — evidence roles, decay, and weakest‑link composition make “trust” computable and auditable (B.3; A.10).
 4. **Algebra of aggregation (Γ) with cross‑scale invariants** — conservative composition that generalizes from pumps to proofs (B.1).
 5. **Local meaning, global alignment** — `U.BoundedContext` islands and explicit Bridges with **congruence‑loss** turn “it depends” into a Standard (A.1.1; F.9).
-6. **Micro‑kernel + architheories** — CAL/LOG/CHR plug‑ins extend capability without contaminating the core (A.5–A.6; Part C).
+6. **Micro‑kernel + architheories** — CAL/LOG/CHR plug‑ins extend capability without contaminating the core (A.5–A.6.A; Part C).
 7. **Publication Standard & guard‑rails** — Core ↔ Tooling ↔ Pedagogy split, notational independence, and Lexical Discipline prevent conceptual drift (E.5; E.10).
 8. **Open‑ended evolution by design** — evolve not only solutions but also problem frames; work not only on holons‑of‑interest but also across the diversity of their environments.
 9. ** Creativity with Novelty and Quality Diversity optimisation**  — DRR, evidence refresh, **and explicit creative search (NQD + E/E‑LOG)** keep the system alive without ossification (A.4; B.4; **C.18; C.19;** E.6; E.9; B.3.4).
@@ -5589,14 +5592,14 @@ A *minimal, extensible* design is therefore mandatory.
 
 ### A.5:4 - Solution
 
-FPF adopts a **micro‑kernel hour‑glass** architecture consisting of a *strictly minimal* core plus an **infinite flat namespace of plug‑ins** called *architheories*. (The formal plug‑in Standard is defined in **A.6 Architheory Signature & Realisation**.)
+FPF adopts a **micro‑kernel hour‑glass** architecture consisting of a *strictly minimal* core plus an **infinite flat namespace of plug‑ins** called *architheories*. (The formal plug‑in Standard is defined in **A.6.A Architheory Signature & Realisation**.)
 
 **1. The Open‑Ended Kernel**
 The Kernel’s *normative* content is frozen to three buckets only:
 
 * **Foundational Ontology:** `Entity`, `Holon`, `Boundary`, `Role`, `design‑/run‑time`, etc. (A‑cluster, Part A).
 * **Universal Reasoning Patterns:** Γ‑aggregation, MHT, Trust calculus, Canonical evolution loop, etc. (B‑cluster, Part B).
-* **Ecosystem Standards:** Guard‑Rails (E‑cluster) and the Architheory Signature schema (A.6).
+* **Ecosystem Standards:** Guard‑Rails (E‑cluster) and the Architheory Signature schema (A.6.A).
 
 Everything else—physics, logic operators beyond minimal MODAL, resource semantics, agent decision calculus—is *expelled* to architheories.
 
@@ -5646,7 +5649,7 @@ This table demonstrates the *hour‑glass* architecture in action:
 | ID           | Requirement                                                                                                                                                     | Purpose                                                          |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | **CC‑A.5.1** | The Conceptual Kernel **MUST NOT** declare any `U.Type` that is specific to a single scientific or engineering discipline.                                      | Prevents kernel bloat; enforces **Ontological Parsimony (C‑5)**. |
-| **CC‑A.5.2** | Every architheory **MUST** supply a `U.ArchitheorySignature` (see A.6) that lists all new types, relations, and invariants it introduces.                       | Enables plug‑in discoverability and versioned evolution.         |
+| **CC‑A.5.2** | Every architheory **MUST** supply a `U.ArchitheorySignature` (see A.6.A) that lists all new types, relations, and invariants it introduces.                       | Enables plug‑in discoverability and versioned evolution.         |
 | **CC‑A.5.3** | A normative pattern or invariant defined in one architheory **MUST NOT** override a Kernel pattern, but **MAY** *refine* it by additional constraints.          | Preserves Kernel immutability while supporting specialisation.   |
 | **CC‑A.5.4** | Dependency edges between architheories **MUST** point *toward the Kernel* (acyclic, upward) as required by the **Unidirectional Dependency Guard‑Rail (E .5)**. | Prevents cyclic coupling and “middle‑layer” choke‑points.        |
 | **CC‑A.5.5** | Every architheory **MUST** declare its `classification` as one of `CAL`, `LOG`, or `CHR`. Only a `CAL` may export a `Γ_*` operator. | Enforces a clear separation of concerns between constructing, reasoning, and describing. |
@@ -5658,7 +5661,6 @@ This table demonstrates the *hour‑glass* architecture in action:
 | **Kernel stability for decades:** small, conceptually elegant nucleus rarely changes; archival citations remain valid.             | **Extra discipline for authors:** every domain team must package work as a CAL/LOG/CHR plug‑in. *Mitigation:* E.8 style‑guide and pattern templates automate most boiler‑plate. |
 | **Unlimited, parallel innovation:** biology, economics, quantum computing can all add CALs without waiting on a central committee. | **Potential overlap of CALs:** two teams might publish competing resource calculi. *Mitigation:* coexistence is allowed; the Trust layer lets users choose.                     |
 | **Clear “API” boundary:** tool builders know the exact, minimal surface they must support – boosting interoperability.             | —                                                                                                                                                                               |
-
 
 ### A.5:8 - Rationale
 
@@ -5675,7 +5677,6 @@ The “hour‑glass” brings two further advantages:
 1. **Pluralism with auditability** – rival CALs can coexist; the Kernel’s Trust pipeline (B.3) quantifies their evidence base.
 2. **Future‑proofing** – if a genuinely new substrate (e.g., quantum knowledge objects) emerges, it plugs in at the bottom layer without touching Part A.
 
-
 ### A.5:9 - Relations
 
 * **Instantiates:** P‑4, P‑5, and relies on Guard‑Rails E.5 (especially Unidirectional Dependency).
@@ -5686,13 +5687,819 @@ The “hour‑glass” brings two further advantages:
 
 ### A.5:End
 
+# **Cluster A.IV.A - Signature Stack & Boundary Discipline (A.6.\*)**
+
+## A.6 - Signature Stack & Boundary Discipline
+
+> **Type:** Architectural (A)
+> **Status:** Draft
+> **Normativity:** Mixed (normative only where explicitly marked; routing semantics live normatively in A.6.B)
+> **Placement:** Part A → A.6.\* (cluster overview; coordinates A.6.0 / A.6.1 / A.6.3 / A.6.B / A.6.A / A.6.5 / A.6.6 / A.6.7)
+> **Builds on:** E.8 (authoring template), A.6.B (Boundary Norm Square — quadrant semantics & link discipline), A.6.0 (U.Signature), A.6.1 (U.Mechanism), A.6.3 (U.EpistemicViewing — views as episteme-level projections under viewpoints), E.17.0 (U.MultiViewDescribing), E.17 (MVPK — fixed face kinds & “no new semantics” publication), A.7 (Object≠Description≠Carrier), F.18 (promise/utterance/commitment), E.10.D2 (I/D/S vs Surface), E.10/L‑SURF (Surface token discipline)
+> **Purpose (one line):** Keep boundary claims evolvable by routing each statement to the right layer of the Signature Stack and the right quadrant of the Boundary Norm Square (A.6.B).
+>
+> **Mint/reuse (terminology):** Mints “Signature Stack”, “Boundary Discipline Matrix”, and “Claim Register” as local authoring aids; reuses existing FPF meanings of `U.View`/`U.Viewpoint` (E.17.0/A.6.3) and reserves “Surface” for PublicationSurface/InteropSurface (L‑SURF). The labels **L/A/D/E** used below are *routing labels for statements*, not MVPK face kinds and not pattern IDs.
+>
+**Canonical companion.** The square itself (quadrant definitions, form constraints, and cross‑quadrant dependency discipline) is specified normatively in **A.6.B — Boundary Norm Square**. This overview only (i) maps quadrants onto the Signature Stack, and (ii) explains how MVPK faces project the canonical routed claim set. If anything in this overview conflicts with A.6.B, **A.6.B is authoritative**.
+
+**Conventions:** The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, **MAY**, and **SHALL** are to be interpreted as in RFC 2119/8174. Lower‑case “must/may/should” in explanatory prose is descriptive, not normative.
+
+**Statement identifiers (recommended):** Adopt the quadrant‑prefixed ID scheme from **A.6.B:0** for routable statements:
+`L-*` (law/definition), `A-*` (admissibility gate), `D-*` (deontic/commitment), `E-*` (effect/evidence).
+Other sections and faces **SHOULD** refer to these IDs instead of restating the same constraint in new words.
+IDs are intended to be “lintable” anchors (and are especially useful when D‑duties enforce A‑gates or E‑claims). Consider pairing IDs with a lightweight Claim Register (A.6.B:7) to reduce paraphrase drift across faces.
+**Non-collision note (informative):** The `A-*` prefix here is “Admissibility”, not Part‑A numbering and not MVPK’s `AssuranceLane` face kind. If this is a readability hazard in your program, prefer an explicit `G-*` (“Gate”) local convention while keeping the quadrant name “Admissibility”.
+
+**Claim Register (informative, recommended).** Use the Claim Register mini‑artifact in **A.6.B:7**. In this cluster the register is additionally used to record stack placement (Signature/Mechanism/Norms/Evidence) and the MVPK faces that cite each claim (`viewRef`/`viewpointRef`), so “no paraphrase drift” can be audited mechanically.
+
+### A.6:1 - Problem frame
+
+Boundaries are where architecture lives: at the edge of a theory, an API, a protocol, a hardware connector, an organisational interface, or a published model. FPF already has the core building blocks to describe such edges:
+
+* `U.Signature` as a *public, law‑governed declaration* (with Vocabulary, Laws, Applicability).
+* `U.Mechanism` as a specialization that introduces operational “entry gates” (AdmissibilityConditions) and additional operational blocks (Transport, Audit, etc.).
+* Multi‑view publication discipline via `U.MultiViewDescribing` (views + viewpoints).
+* Strict separation of **Object vs Description vs Carrier** so we do not accidentally attribute agency or work to an episteme (or treat a file as “the thing”).
+
+Yet boundary descriptions in practice fail in a predictable way: authors blend several fundamentally different kinds of claims into one “contract soup”. The result is brittle architecture: signatures become entangled with runtime gates, deontic language is mixed into mathematical invariants, and “effects” are asserted without any disciplined carrier/evidence story.
+
+This cluster overview makes one disciplined move:
+
+1. Treat a boundary as a **stack of boundary layers** (Signature → Mechanism → Work/Evidence carriers) plus publication views/faces, and
+2. Provide a **boundary discipline matrix** (2×2) that routes statements to the correct layer, so evolution remains controlled and substitutions are possible.
+
+*Terminology note (informative):* In this pattern:
+* **Layer** names a stratum in the boundary stack (Signature → Mechanism → Work/Evidence carriers → Publication).
+* **View** (`U.View`) is an episteme‑level projection, not a file/document.
+* **Viewpoint** (`U.Viewpoint`) is an intensional accountability spec that constrains views.
+* **Face** (MVPK sense) is a named publication view kind (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) whose rendering lives on a `PublicationSurface` (carrier). Do not coin “signature/mechanism …Surface” terms; “Surface” is reserved for publication surfaces (L‑SURF).
+
+### A.6:2 - Problem
+
+When boundaries are described without a routing discipline, four confusions dominate:
+
+1. **Laws vs admissibility.** Authors encode runtime gate predicates as “laws”, or write invariants using RFC‑style deontic verbs, blurring “what is true/defined” with “what is allowed to be applied”. FPF explicitly separates these: operational guard predicates belong to mechanisms (A.6.1), not signatures (A.6.0).
+   *Common mistake #0 — Applicability ≠ Admissibility (informative):* Signature `Applicability` scopes intended use/bounded context; it is not a runtime entry gate. Runtime entry checks and permission predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If an agent is obligated to satisfy/enforce such a gate, express that as a `D-*` duty that references the `A-*` claim ID (per A.6.B), not by rewriting the gate as “X MUST …”.
+
+2. **Admissibility vs deontics.** “MUST/SHOULD/MAY” is used both for agent obligations and for world‑state admissibility predicates. E.8 already demands keeping deontics distinct from admissibility/definitions and recommends predicate‑style constraints for admissibility rather than RFC keywords.
+
+3. **Contract talk category errors.** “The interface promises…” is a metaphor. A promise (and a contract) is an *agent‑level* phenomenon; an episteme is an utterance; a running service is the delivered work. FPF provides an ontological anchor for this via promise/utterance/commitment distinctions (F.18).
+
+4. **Effects without evidence or carriers.** Effects happen only in work; therefore, “effect claims” must be anchored to observation and carriers. Without A.7’s Object≠Description≠Carrier discipline, writers conflate the published description with runtime traces or treat a file as the system itself.
+
+These confusions destroy evolvability: you cannot swap implementations behind a stable signature if the signature already smuggles mechanism‑gates, audit logistics, or agent commitments into “laws”.
+
+### A.6:3 - Forces
+
+| Force                                        | Tension                                                                                                                                                            |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Modularity vs expressiveness**             | A stable boundary must be abstract, but users want operational detail “in the same doc”.                                                                           |
+| **Truth vs governance**                      | Definitions/invariants (“is”, “iff”, “∀”) vs permissions/obligations (“MUST/SHOULD/MAY”).                                                                          |
+| **Design‑time clarity vs run‑time evidence** | What can be checked statically vs what requires executing work and observing traces.                                                                               |
+| **View vs viewpoint discipline**             | Views are projections; viewpoints are accountable stances. Dropping viewpoint loses architecture accountability (ISO‑style discipline is already encoded in MVPK). |
+| **Local meaning vs cross‑context reuse**     | Boundaries should be local to a bounded context; reuse must be explicit (Bridges/CL), not hidden.                                                                  |
+| **Evolvability vs auditability**             | Evolving interfaces requires change; auditors require stable evidence trails.                                                                                      |
+| **Human readability vs formal precision**    | Plain explanations vs tech‑register constraints; both must remain aligned.                                                                                         |
+
+### A.6:4 - Solution — A stack + a routing matrix
+
+#### A.6:4.1 - Why “stack”: what is stacked, and what “higher/lower” means
+
+This pattern uses **stack** in the same pragmatic sense as other FPF stacks (e.g., the holonic import stack and other layered disciplines): an ordered set of layers where **higher layers are more stable commitments**, and **lower layers are more volatile realizations/evidence**. “Higher” and “lower” are not metaphysical claims; they are **engineering guidance for evolvability**:
+
+* **Higher in the stack** = closer to *public, reusable intent* (conceptual contract).
+* **Lower in the stack** = closer to *execution, implementation, and evidence* (what is actually done and observed).
+
+This is consistent with existing “stack discipline” uses in FPF (e.g., import layering over holonic strata).
+
+The **Signature Stack** (as used in this cluster) is the ordered family of **canonical claim layers** for a boundary package. Each layer is a stable “landing zone” for one quadrant of statements (L/A/D/E), with a canonical home in the boundary’s artefacts/sections:
+
+1. **Signature layer (L: laws/definitions).** `U.Signature` provides the stable declarative boundary: Vocabulary + Laws + Applicability, without runtime gate predicates.
+
+2. **Mechanism layer (A: admissibility/gates).** `U.Mechanism` specializes the signature and adds **AdmissibilityConditions** (the entry gate) plus operational blocks (e.g., Transport, Audit/Observability). These blocks specify runtime gates and observability *interfaces*; they are still **descriptions**. The evidence itself exists only as carriers produced in work.
+
+   *Audit vs AssuranceLane (avoid duplication):* the Mechanism’s **Audit/Observability** block defines the required semantics of an observability/evidence interface (carrier classes and required fields, correlation keys, exposure interface). **Retention/access/enforcement are D‑claims** (agent duties) that reference the same carrier classes by ID. An MVPK **AssuranceLane** is a projection for auditors that explains how to read/check the evidence interface. This is a special case of CC‑A.6.6: the lane references the Mechanism section and the relevant claim IDs rather than restating semantics.
+
+3. **Norms & commitments layer (D: duties/commitments).** Deontic statements are anchored to accountable agents/roles (authors, implementers, operators, providers, reviewers). Canonical placement is a Norms/Commitments section in the boundary package (typically rendered inside `TechCard`), and those statements reference `L-*`/`A-*`/`E-*` by ID rather than duplicating predicates.
+
+4. **Evidence bindings layer (E: effects/evidence).** `E-*` claims bind observed behaviour to **carrier classes** and measurement conditions. Canonical placement is an Evidence/Carriers section in the boundary package (typically rendered in `AssuranceLane`), and adjudication happens against carriers produced in work.
+
+5. **Work & realizations (outside the description stack).** Realizations (substitutable implementations) are exercised by doing work; actual executions produce state changes, traces, and measurements. Effects exist only in work. A.6.A already frames realizations as substitutable behind signatures and warns against smuggling bridge mechanics into the signature layer.
+
+6. **Publication faces (MVPK views rendered on PublicationSurfaces).** MVPK yields audience‑specific `U.View` instances (faces) that are **typed projections** over the canonical claim layers above and carry viewpoint accountability (`viewRef` + `viewpointRef`). Physical documents/files live on carriers (`PublicationSurface`), not in the `U.View` itself.
+
+*Observability compatibility note (informative):* When specifying evidence carriers and correlation rules, it is often convenient to describe the carrier layer in terms familiar from contemporary observability practice (post‑2015): traces/spans, logs/log records, and metrics time‑series, with explicit correlation identifiers. Treat these as example *carrier schemas and join keys*, not as mandatory technology choices. (Concrete schema/exchange mapping remains outside Part E; keep Part E conceptual.)
+
+##### A.6:4.1.1 - AssuranceLane skeleton (informative)
+
+An MVPK **AssuranceLane** is a view that teaches a specific audience how to adjudicate `E-*` claims against carriers produced in work. It references (not restate) the Mechanism’s Audit/Observability semantics.
+
+Minimal content (suggested):
+- **Scope:** boundaryRef, version, viewRef, viewpointRef.
+- **Carrier inventory:** carrier class/schema refs (A.7 Carrier) + where to obtain them.
+- **E‑claim map:** a table keyed by `E-*` ID with: measurement conditions, carrierRef(s), join/correlation keys, and a reference to the canonical `E-*` text that defines pass/fail criteria.
+- **Operational policies:** references to relevant `D-*` duties (retention, access control, exposure), without redefining them.
+- **Limitations:** sampling, redaction, missing signals, expected false negatives/positives.
+
+**No new semantics reminder.** The lane may include *procedural* adjudication guidance (queries, joins, dashboards) as informative text. Any normative thresholds/criteria that would change the boundary’s commitments **MUST** be authored as `E-*` claims in the canonical Evidence/Carriers section and cited by ID, rather than being introduced only inside the lane text.
+
+Example (conceptual, no tools):
+
+```
+AssuranceLane:
+  viewRef: <ViewId>
+  viewpointRef: <ViewpointId>
+  boundaryRef: <BoundaryId>
+  version: <SemVer or revision>
+  evidence:
+    - E: E-OBS-1
+      carrierRefs: [Carrier.AuthorizationRecord, Carrier.AuditLogEntry]
+      measurement:
+        conditions: "on every rejection due to A-AC-1"
+        vantage: "Operator/Auditor pipeline"
+        correlation: ["traceId", "requestId"]
+      adjudication:
+        check: "query audit stream for code=NotAdmissible and join to traceId"
+        criteriaRef: "E-OBS-1 (pass/fail lives canonically in the E-claim)"
+      references: [A-AC-1, D-RET-1, Mechanism.AuditObservability]
+```
+
+Default landing zones (quadrant → stack layer / section):
+
+* **L →** Signature.Laws (and, where appropriate, mechanism‑local semantic laws; never runtime gates)
+* **A →** Mechanism.AdmissibilityConditions
+* **D →** Norms/Commitments (agent/role duties; publication/accountability duties)
+* **E →** Evidence/Carriers (claims adjudicated against work via carriers; the publication face for these is typically `AssuranceLane`)
+
+ A stack is useful because the intended direction of change is clear:
+
+* Lower layers (realizations, audit formats, transport mechanisms) are expected to change more frequently and can often evolve without forcing higher‑layer changes, provided higher‑layer commitments remain satisfied.
+* Changes to higher layers are contract evolution and typically require explicit compatibility reasoning (and therefore explicit versioning and communication).
+
+#### A.6:4.2 - Boundary Discipline Matrix: route by A.6.B (the Boundary Norm Square)
+
+**Normative source.** The canonical 2×2 square (axes, quadrant semantics, form constraints, and cross‑quadrant reference rules) is defined in **A.6.B**. This section provides a short operational summary and worked rewrites only.
+
+A “four‑part list” is not strong enough, because real sentences reuse the same surface words (“must”, “guarantees”, “valid”) across different logical roles. A **2×2 matrix** is stronger because it arises from crossing **two independent distinctions**:
+
+* **Modality family:** truth‑conditional vs governance (permissions/obligations/commitments).
+* **Adjudication substrate:** in‑description vs in‑work (whether satisfaction is decided from the description alone or requires observing executed work/carriers).
+
+Operational summary (quadrant → canonical home in the stack):
+* **L** (Laws & Definitions) → `Signature.Laws` (truth‑conditional semantics, in‑description)
+* **A** (Admissibility & Gates) → `Mechanism.AdmissibilityConditions` (runtime entry predicates / permission checks)
+* **D** (Deontics & Commitments) → Norms/Commitments (agent/role duties and commitments; may be audited via `E-*`)
+* **E** (Work‑Effects & Evidence) → Evidence/Carriers (work‑adjudicated effects tied to carriers and measurement conditions)
+
+Atomicity rule:
+
+If a sentence mixes roles (e.g., “MUST” + a gate predicate + an effect claim), it is **not routable** as a single statement. Per **A.6.B**, split it into **atomic** claims so each one has exactly one quadrant (and, ideally, an identifier you can reference).
+
+Micro‑template: **Atomize → Route → Place → Anchor (A.7) → Register**
+
+1. **Split** the sentence into atomic claims (one logical role each).
+2. **Assign** each claim to exactly one quadrant (L/A/D/E) using the matrix.
+3. **Place** each claim into its correct section/artefact (stack layer + section).
+4. **Anchor A.7:** for each claim, name the primary A.7 layer it is *about* (one of `{Object, Description, Carrier}`) and ensure the grammatical subject matches (agents/roles for `D-*`, carriers for `E-*`).
+5. **Register:** add the atomic claim to the Claim Register (if used) and ensure every downstream face references the claim by ID rather than paraphrasing.
+
+> **Informative example.** Example rewrite (mixed → atomic):
+
+*Before (mixed, not routeable):* “Clients **MUST** include header `X`; otherwise the request is invalid and the system logs `NotAdmissible`.”
+
+*After (routeable + lintable):*
+* `A-AC-1` (Quadrant A, Mechanism.AdmissibilityConditions): `admissible(req) iff hasHeader(req, "X")`.
+* `D-CL-1` (Quadrant D, Norms/Commitments): “Client implementers **MUST** satisfy `A-AC-1`.”
+* `E-OBS-1` (Quadrant E, Evidence/Carriers): “When a request is rejected due to `A-AC-1`, an `AuditLogEntry{code="NotAdmissible"}` carrier is produced and can be observed in the audit stream.”
+
+> **Informative example.** Example rewrite (guarantee + SLA + measurement + enforcement):
+>
+> *Before (mixed, contract soup):* “The service **guarantees** 99.9% availability per calendar month and **MUST** keep p95 latency under 200ms; breaches are penalized; operators **SHALL** alert on violations.”
+>
+> *After (routeable + adjudicable):*
+> * `D-SLA-1` (Quadrant D, Commitments/SLA): “Provider **SHALL** meet `E-SLA-AVAIL-1` and `E-SLA-LAT-1` under the stated exclusions.”
+> * `E-SLA-AVAIL-1` (Quadrant E, Evidence/Carriers): “`availability ≥ 0.999` over calendar month `T`, measured by carrier `UptimeProbeSeries` from viewpoint `VP.ExternalMonitor`.”
+> * `E-SLA-LAT-1` (Quadrant E, Evidence/Carriers): “`latency_p95 ≤ 200ms` under workload `W`, measured by carrier `LatencyMetricSeries` from viewpoint `VP.Client`.”
+> * `D-OPS-ALERT-1` (Quadrant D, Ops duty): “Operators **MUST** page on breach of `E-SLA-AVAIL-1` or `E-SLA-LAT-1` within 5 minutes (policy).”
+> * `E-ALERT-1` (Quadrant E, Evidence/Carriers): “Pages are evidenced by carrier `AlertEvent{ruleId,firedAt,target}` and can be joined via `incidentId`.”
+
+See **A.6.B:4–A.6.B:6** for the normative square, quadrant form constraints, and explicit cross‑quadrant link patterns (notably: **D→A**, **E→A**, **D→E**, and **A/E→L**).
+
+#### A.6:4.3 - Viewpoint is not optional: projections live under accountable viewpoints
+
+“Projection” language is useful (a view is a projection), but FPF does not drop **viewpoint**. `U.MultiViewDescribing` makes viewpoints explicit and treats views as epistemes; MVPK specialises this for publication and fixes a closed set of face kinds (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) under Surface token discipline (L‑SURF).
+
+A disciplined stack therefore requires:
+
+* Every published face is a **Description** (A.7) that is *about* an Object and is carried by some Carrier; do not conflate these layers.
+* Each face must declare the viewpoint that justifies its projection (ISO/42010 discipline operationalised by MVPK).
+* Per **E.17** (“no new semantics”), a face **MUST NOT** introduce new semantic commitments beyond the boundary’s **canonical routed claim set** (the authoritative `L-* / A-* / D-* / E-*` statements at their canonical locations). A face **MAY** add informative explanation, examples, and cross‑references, provided they are clearly marked as informative. Where possible, faces **SHOULD** cite routed statements by ID instead of re‑stating them.
+* Per **E.17 / L‑SURF** (face‑kind closure), a publication package that claims MVPK alignment **MUST NOT** mint additional MVPK face kinds (e.g., “EvidenceCard”, “NormsCard”) as if they were first‑class kinds; if you need local headings, keep them as sections within the canonical face kinds.
+
+#### A.6:4.4 - “Contract” unpacking: avoid assigning agency to epistemes
+
+When practitioners say “the API contract”, they usually compress three different things into one word:
+
+* **Service**: what is actually done (work).
+* **Speech act / utterance**: what is said/published (a description).
+* **Commitment**: what an agent is bound to (a normative relation).
+
+In A.6 terms:
+
+* The **signature** is the *utterance substrate* for a contract; it is not itself the promiser.
+* **Deontics** belong to agents (or role‑enactors), even if expressed in a spec.
+* **Effects/evidence** belong to work and carriers, not to the text.
+
+This resolves the chronic misplacement of “guarantees”: a “guarantee” is either (a) a truth‑conditional law in the model, or (b) a commitment by an agent, or (c) a measured property evidenced by traces. The routing matrix forces you to decide which one you mean.
+
+#### A.6:4.5 - Where statements go (routing examples)
+
+> **Informative.** Routing examples for learning the discipline; they do not add requirements beyond A.6:7.
+
+The table below intentionally uses near‑everyday spec phrases. The same surface words appear in different quadrants depending on what they *do*.
+
+| ID | Example statement (typical wording) | Matrix quadrant | Put it under… | A.7 primary layer |
+| --- | --- | ---: | --- | --- |
+| `L-1` | “`op f` is **defined iff** `P(x)` holds.” | L | Signature → **Laws** (`Definition:`) | Description |
+| `L-2` | “For all requests, `idempotencyKey` is **unique** per subject.” | L | Signature → **Laws** (`Invariant:`) | Description |
+| `A-1` | “The mechanism may be applied only if `tokenValid`.” *(rewrite as predicate: `admissible(req) iff tokenValid(req)`)* | A | Mechanism → **AdmissibilityConditions** (entry gate) | Description |
+| `A-2` | “A request is admissible only if header `X` is present.” | A | Mechanism → **AdmissibilityConditions** | Description |
+| `D-1` | “Client implementers **MUST** satisfy `A-2`.” | D | Norms/Commitments (role duty; reference gate ID) | Object |
+| `D-2` | “Authors **MUST** publish a versioned MVPK face for this boundary.” | D | Conformance Checklist / publication norms (authoring plane) | Object |
+| `D-3` | “Operators **SHOULD** rotate keys every 90 days.” | D | Norms (agent obligation; link to Role/Method where applicable) | Object |
+| `D-4` | “Implementers **MUST** expose audit‑log carriers via endpoint `/audit`.” | D | Norms/Commitments (exposure duty) *about carriers* | Carrier |
+| `D-5` | “The vendor commits to `99.9%` availability over window `T` (SLA).” | D | Commitments/SLA (identify committing agent, window, exclusions) | Object |
+| `E-1` | “When a state change occurs, an `AuditRecord` carrier is produced and can be observed in the audit stream.” | E | Evidence/observability: expected trace semantics; bind to carriers + conditions | Carrier |
+| `D-6` | “Operators **MUST** retain audit‑log carriers for 30 days.” | D | Retention policy (deontic) *about carriers* | Carrier |
+| `E-2` | “`latency_p95 ≤ 200ms` under workload `W` as measured by carrier `LatencyMetricSeries` from collector `C`.” | E | Evidence claim with measurement conditions | Carrier |
+
+Notes:
+
+* The routing is not just about modal verbs. “Shall” can be D (a duty) or A (a gate behavior). “Guarantees” can be D (a commitment) or E (a measured property). The matrix forces disambiguation.
+* If a sentence reads like “X **MUST** … if … then …”, it almost always bundles multiple quadrants. Split into (A) a gate predicate (`A-*`), (D) an enforcement duty on an agent/role (`D-*` referencing the gate ID), and (E) an evidence claim (`E-*`) if observability matters.
+* When something needs to be enforceable but is mathematical, prefer predicate blocks rather than deontic language in the L/A blocks, per E.8’s deontics vs admissibility guidance.
+
+#### A.6:4.6 - Routing sanity rules (informative, concept-level)
+
+These are *writing diagnostics*, not tool requirements. They exist to keep the mental model crisp.
+
+- **RFC keyword inside Definition/Invariant/Admissibility predicate** → routing error (rephrase as predicate; move obligation to `D-*`).
+- **`E-*` without (carrier + measurement conditions + viewpointRef)** → incomplete evidence claim (cannot be adjudicated).
+- **`D-*` that re-states an `A-*`/`L-*` predicate instead of referencing its ID** → drift risk (prefer “MUST satisfy `A-…`”).
+- **A face introduces new L/A/D/E content not present in underlying Signature/Mechanism** → view-fork (make it informative only, or move the commitment to the underlying artefact).
+- **“The system/service SHALL …” where no accountable agent is named** → likely misrouted deontic (rewrite as `E-*` behavior + `D-*` duty on implementers/operators).
+
+### A.6:5 - Archetypal Grounding (Tell–Show–Show; System / Episteme)
+
+> **Informative.** Worked examples for learning the routing discipline; they do not add requirements beyond A.6:7.
+
+#### Tell (universal rule)
+
+A boundary description is evolvable iff its claims are separated across the signature stack and each statement is routed by the boundary discipline matrix to its proper layer (Laws, Admissibility, Deontics/Commitments, Effects/Evidence), while preserving Object≠Description≠Carrier separation.
+
+#### Show #1 (`U.System`): effectful API boundary (algebraic effects intuition)
+
+**System:** A “Payment Authorize” service.
+
+* **Signature layer (A.6.0).**
+
+  * Vocabulary: `PaymentRequest`, `AuthDecision`, `MerchantId`, `Money`, etc.
+  * Laws: e.g., “If decision is APPROVED then reservedAmount = requestedAmount” (truth‑conditional).
+  * Applicability: bounded context “Payments/Authorization”.
+
+* **Mechanism layer (A.6.1).**
+
+  * Admissibility gate: request is admissible iff `tokenValid ∧ merchantActive ∧ amountWithinLimit`.
+  * Transport: HTTP headers, idempotency key transport, canonical currency conversions.
+  * Audit/Observability: specifies required evidence carriers (e.g., `AuthorizationRecord` event, log entry) and their semantics (fields, correlation IDs, retention class).
+
+* **Realization/work layer.**
+
+  * Actual side effects: reservation entry in ledger, emission of event, timers, retries.
+  * Evidence: traces, logs, metrics.
+
+* **Publication faces (MVPK).**
+
+  * PlainView: narrative for stakeholders (what the service promise is, in plain terms).
+  * TechCard: signature/mechanism details (types, error codes, version policy, admissibility predicate refs).
+  * InteropCard: machine‑exchange oriented boundary details (canonical field names, schema refs, transport bindings).
+  * AssuranceLane: evidence bindings (which carriers exist, how to adjudicate `E-*` claims, retention/access duties by reference).
+
+**SoTA tie‑in:** This boundary is naturally understood using *algebraic effects & handlers*: the signature is the “operation interface” (effect signature), while the mechanism/realization provides handlers (semantics). The stack keeps the abstract operation surface stable while allowing multiple handlers/realizations to evolve.
+
+**Routing example:**
+
+* “Defined iff tokenValid” belongs in Quadrant A (admissibility gate).
+* “Clients MUST include Idempotency‑Key” belongs in Quadrant D (agent obligation) but should reference the same gate semantics to avoid divergence.
+* “System emits AuthorizationRecord” belongs in Quadrant E (evidence via carriers).
+
+#### Show #2 (`U.Episteme`): published evaluation protocol boundary (multi‑view + evidence)
+
+**Episteme:** A published “Model Evaluation Protocol” for a safety‑critical classifier.
+
+* **Signature layer:** defines operations like `Evaluate(model, dataset) → Report` and truth‑conditional definitions of metrics (AUROC, calibration error) as Laws.
+
+* **Mechanism layer:** admissibility gate encodes when evaluation is permitted: dataset version must match declared license; measurement environment must meet constraints; seeds pinned.
+
+* **Deontics/commitments:** reviewers MUST use dataset vX.Y; authors SHALL publish MVPK faces and cite the measurement environment; an organisation commits to a review SLA (explicitly an agent commitment).
+
+* **Effects/evidence:** the produced report file, logs of evaluation runs, cryptographic hashes, and trace IDs are carriers. A.7 discipline prevents calling the report “the evaluation” (object) and prevents treating the file as the model.
+
+* **Multi‑view (MVPK canonical face kinds only):**
+
+  * PlainView for decision makers: what this protocol means for assurance.
+  * TechCard for engineers: exact metric definitions, admissibility predicates, and a clearly marked **Norms/Commitments** section (D‑claims) for governance.
+  * InteropCard for exchange-oriented consumers: conceptual field names/anchors and schema references (concrete format mapping lives outside Part E).
+  * AssuranceLane for auditors: evidence map (which carriers prove what happened) and adjudication steps keyed by `E-*` IDs.
+
+This episteme is a boundary because it mediates between theory (“metric definitions”) and work (“a run produced a report”). The signature stack provides the stable interface for that mediation.
+
+### A.6:6 - Bias‑Annotation
+
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions in A.6.\*.
+
+* **Arch bias:** Strongly biases toward separation of concerns and explicit layering; mitigated by allowing multiple faces (views) so audiences are not forced into the same detail level.
+* **Onto/Epist bias:** Treats signatures/mechanisms as epistemes that must not be conflated with work; mitigated by explicit evidence surfaces and carriers.
+* **Gov bias:** Prefers auditable responsibility (viewpoint accountability and commitment unpacking); mitigated by keeping the stack conceptual and tool‑agnostic.
+
+### A.6:7 - Conformance Checklist
+
+| ID                                       | Requirement                                                                                                                                                                                                                                                                                    | Purpose                                                             |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| **CC‑A.6.1 (Stack declaration).**        | A conforming boundary description **SHALL** identify its stack layers (Signature, Mechanism, Realization/Work evidence, Publication faces) and state which artefacts belong to which layer.                                                                                                    | Prevents “one doc contains everything” ambiguity.                   |
+| **CC‑A.6.2 (Square discipline).**        | A conforming boundary description **SHALL** conform to **A.6.B** (Boundary Norm Square), including atomicity, quadrant routing, and explicit cross‑quadrant references by claim ID.                                                                                                           | Makes the stack operational; prevents “contract soup” drift. |
+| **CC‑A.6.5 (A.7 separation).**           | A conforming boundary description **SHALL** respect Object≠Description≠Carrier; statements about logs/metrics **SHALL** be written as carrier‑anchored evidence claims/policies, not as properties of the text itself. | Prevents category errors and improves auditability.                 |
+| **CC‑A.6.6 (Viewpoint accountability).** | Every published MVPK face (`U.View`) **SHALL** specify `viewRef` and `viewpointRef`, and faces **MUST NOT** introduce new semantic commitments beyond the underlying signature/mechanism (per **E.17** “no new semantics”). | Preserves viewpoint discipline and prevents view‑forking.    |
+| **CC‑A.6.6a (MVPK face‑kind discipline).**  | A publication that claims MVPK alignment **MUST** conform to **E.17 / L‑SURF** face‑kind closure (i.e., use only `{PlainView, TechCard, InteropCard, AssuranceLane}` and **MUST NOT** mint additional face kinds). Local “cards” may exist only as headings/sections inside those face kinds. | Aligns with MVPK/L‑SURF; prevents new‑face drift.            |
+| **CC‑A.6.7 (Contract unpacking).**       | When using “contract/guarantee/promise” language, a conforming text **SHOULD** disambiguate whether it refers to service (work), utterance (published description), or commitment (agent obligation), consistent with F.18.                                                                    | Stops agency attribution errors; clarifies responsibility.          |
+
+
+### A.6:8 - Common Anti‑Patterns and How to Avoid Them
+
+| Anti‑pattern                   | Symptom                                                         | Why it fails                                                                     | How to avoid / repair                                                                        |
+| ------------------------------ | --------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| **Gate‑as‑law**                | Preconditions written as “laws” in the signature                | Breaks substitution; violates A.6.0’s separation of signature vs mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. |
+| **RFC‑keywords in invariants** | “MUST” appears inside `Definition:` blocks                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicate IDs from CC when needed.               |
+| **Paraphrase drift**           | Same constraint restated in multiple faces with new wording      | Creates hidden divergence; breaks routing discipline and evidence accountability | Use `…-*` IDs + Claim Register; faces reference IDs rather than restating text.              |
+| **Interface‑as‑promiser**      | “The interface promises…” without identifying an agent          | Ontological category error; contracts are agent commitments                      | Apply F.18 unpacking: who commits, via which published utterance, to what service.           |
+| **Evidence‑free guarantees**   | “Guaranteed latency” without measurement/evidence story         | Effects exist only in work; without carriers it’s non‑testable                   | Bind to carriers (metrics/traces) and specify the evidence surface (what gets logged).       |
+| **View without viewpoint**     | A “view” is published but no viewpoint accountability is stated | Readers cannot interpret omissions; multi‑view discipline collapses              | Require `viewpointRef` with every face; treat view as projection under viewpoint.            |
+| **System‑as‑agent deontics**   | “The system/service SHALL …” used where no accountable role is named | Blurs behavior semantics with enforcement; hides responsibility                   | Rewrite as (`E-*`) behavior/evidence semantics + (`D-*`) duty on implementers/operators.     |
+| **One‑doc monoculture**        | Same document mixes laws, gates, duties, and evidence           | Evolvability collapses; updates become all‑or‑nothing                            | Use the stack: separate Signature/Mechanism/Norms/Evidence faces; route by matrix.           |
+
+### A.6:9 - Consequences
+
+| Benefits                                                                                                           | Trade‑offs / Mitigations                                                                        |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| **Evolvable boundaries.** Implementations can change while signatures remain stable.                               | More upfront structure; mitigated by MVPK faces that present only relevant slices per audience. |
+| **Reduced category mistakes.** Object/description/carrier confusion becomes detectable.                            | Requires discipline in writing; mitigated by the “Where statements go” routing examples.        |
+| **Auditability and reproducibility.** Effect claims are tied to evidence carriers; commitments are tied to agents. | Requires evidence surfaces to be designed; mitigated by making `AssuranceLane` (evidence bindings) a standard face.    |
+| **Clearer cross‑disciplinary communication.** Legal/compliance deontics no longer compete with math invariants.    | Teams must align on viewpoint responsibilities; mitigated by explicit viewpointRef in MVPK.     |
+
+### A.6:10 - Rationale
+
+A boundary is simultaneously:
+
+* a **mathematical object** (signature: operations over vocabulary, governed by laws),
+* an **engineering contract surface** (stable intent, evolvable implementations),
+* a **governance object** (commitments, responsibilities, deontics), and
+* an **operational phenomenon** (effects happen only by doing work and observing traces).
+
+If these are mixed, evolution becomes impossible to reason about: every change becomes “semantic”, and every claim becomes unfalsifiable.
+
+The stack creates a default **direction of dependence**: higher layers constrain lower layers, not vice versa. The matrix creates a default **routing** that is not reliant on word choice alone and therefore survives natural‑language variation (“must”, “guarantee”, “valid”, “allowed”).
+
+### A.6:11 - SoTA‑Echoing (post‑2015 practice alignment)
+
+> **Informative.** Alignment notes; not normative requirements.
+
+* **Adopt — algebraic effects & handlers / effect systems.** Modern effect systems separate the *signature of operations* from handler semantics (e.g., Koka’s effect typing; mainstream effect handlers in OCaml 5 era). A.6 aligns by keeping the contract surface in `U.Signature` and placing execution semantics in `U.Mechanism`/Realizations, preserving substitution and evolvability.
+
+* **Adopt — session/behavioural types for protocol boundaries.** Post‑2015 practice in behavioural typing treats boundaries as typed interaction protocols with progress/safety properties. A.6’s routing matrix makes “protocol laws” (Quadrant L) explicit and separates entry gates (Quadrant A) from agent duties (Quadrant D) and runtime evidence (Quadrant E), reducing ambiguity.
+
+* **Adapt — categorical optics / lenses / bidirectional transformations.** Contemporary lenses treat boundaries as paired transformations with coherence laws; this mirrors the signature/mechanism split plus cross‑context view morphisms. In FPF, the “projection faces” (views) remain governed by viewpoints, and any cross‑context reuse must remain explicit (Bridge/CL discipline).
+
+* **Adapt — ISO/IEC/IEEE 42010 viewpoint discipline and views‑as‑queries (SysML v2 motif).** A.6 explicitly preserves viewpoint as a first‑class accountability handle: MVPK requires `viewRef` and `viewpointRef`, turning “views” into disciplined projections rather than informal screenshots.
+
+* **Adapt — DDD bounded contexts / microservice contracts.** Modern architecture practice keeps meaning local and makes crossings explicit. A.6’s stack and routing discipline provide a precise placement scheme for what is “inside the context contract” vs “at the entry gate” vs “governance duties” vs “observability evidence”.
+
+* **Adapt — observability as evidence discipline.** Post‑2015 observability practice treats traces/logs/metrics as first‑class evidence surfaces. A.6 places such claims in Quadrant E and ties them to carriers (A.7), preventing “guarantees without telemetry”.
+
+* **Adapt — Markov blankets / active inference as probabilistic boundary views.** Markov‑blanket thinking can help pick observables and diagnose “boundary leaks”, but it does not replace deontics, invariants, or admissibility gates; therefore it is a complementary *view* under a viewpoint, not the primary contract object.
+
+### A.6:12 - Relations
+
+* **Implements authoring discipline:** Follows canonical section order and style expectations from E.8.
+* **Constrains signature writing:** Reinforces A.6.0 separation of Laws vs operational gates (AdmissibilityConditions live in mechanisms).
+* **Constrains mechanism writing:** Aligns with A.6.1 structure (Signature block plus mechanism‑only blocks such as AdmissibilityConditions, Transport, Audit).
+* **Requires Object≠Description≠Carrier discipline:** Uses A.7 to prevent category mistakes; ties evidence to carriers and publication faces to descriptions.
+* **Operationalises view/viewpoint accountability:** Uses MVPK / `U.MultiViewDescribing` (E.17.0) so each face is a projection under a viewpoint, not a viewpoint‑free snapshot.
+* **Unpacks “contract” talk:** Reuses F.18’s promise/utterance/commitment separation to keep agency and responsibility explicit.
+* **Connects to signature engineering patterns:** A.6.5 (slot discipline) and A.6.6 (anchor/base discipline) can be read as “constructor/enabling” operations that help *build* well‑formed signatures by disciplined unpacking and grounding (they belong in the same stack discipline because they govern boundary construction).
+
+### A.6:End
+
+## A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)
+
+> **Type:** Architectural (A)
+> **Status:** Draft
+> **Normativity:** Normative (unless explicitly marked informative)
+> **Placement:** Part A → A.6.B (matrix module; referenced by A.6 cluster overview)
+> **Builds on:** E.8 (authoring template), A.6.0 (`U.Signature`), A.6.1 (`U.Mechanism`), A.6.3 (`U.EpistemicViewing`), E.17.0/E.17 (MVPK + “no new semantics” faces), A.7 (Object≠Description≠Carrier), F.18 (promise/utterance/commitment), E.10.D2 (I/D/S vs Surface), E.10/L‑SURF (Surface token discipline)
+> **Purpose (one line):** Provide a canonical 2×2 norm square that classifies boundary statements (L/A/D/E), constrains how each quadrant is written, and defines explicit cross‑quadrant reference rules so boundaries remain evolvable and audit‑ready.
+
+### A.6.B:0 — Conventions
+
+**Keywords.** The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, **MAY**, and **SHALL** are to be interpreted as in RFC 2119/8174. Lower‑case “must/may/should” in explanatory prose is descriptive, not normative.
+
+**Quadrant labels.** This pattern uses the routing labels **L / A / D / E** as *statement quadrants*:
+
+* **L** — Laws & Definitions
+* **A** — Admissibility & Gates
+* **D** — Deontics & Commitments
+* **E** — Work‑Effects & Evidence
+
+These labels are **routing labels for statements**, not MVPK face kinds and not pattern identifiers.
+
+**Statement identifiers (recommended).** Routable statements **SHOULD** be given stable IDs with a quadrant prefix: `L-*`, `A-*`, `D-*`, `E-*`. Other sections and views **SHOULD** reference these IDs rather than restating the same constraint in new words.
+
+**Non-collision note (informative).** The `A-*` prefix here is “Admissibility”, not Part‑A numbering and not MVPK’s `AssuranceLane` face kind. If this is a readability hazard in your program, prefer an explicit `G-*` (“Gate”) local convention while keeping the quadrant name “Admissibility”. Also avoid introducing single‑letter mnemonics for MVPK face kinds inside this cluster (MVPK has a legacy L,P,D,E mnemonic); spell face kinds in full to reduce collisions.
+
+**Atomic claim.** An **atomic claim** is a sentence (or bullet) that performs exactly one logical role and is routable to exactly one quadrant. If a sentence mixes roles, it is **not atomic** and **MUST** be split before it can be routed.
+
+**Adjudication substrate (for routing).** For the purposes of this square, an atomic claim is classified by the primary substrate that decides its satisfaction:
+
+* **In‑description / in‑theory**: satisfaction is decided from the description alone (e.g., proof/type validation), or the claim is itself a governance utterance whose content is fully determined by the text.
+* **In‑work / in‑execution**: deciding satisfaction requires observing executed work and/or inspecting carriers produced in work.
+
+**Note (important).** `D-*` claims are authored and interpreted in the description; whether they are met is typically established indirectly via referenced `E-*` claims (or other governance procedures). This does not move `D-*` into quadrant E; it clarifies the routing axis.
+
+**Modality family.** A claim is either:
+
+* **Truth‑conditional**: definitions, invariants, typing rules (“is”, “iff”, “∀”).
+* **Governance**: permissions, prohibitions, obligations, commitments (“MUST/SHOULD/MAY”, “is permitted”, “is forbidden”, “commits to”).
+
+### A.6.B:1 — Problem frame
+
+Boundary descriptions routinely collapse four distinct claim families into “contract soup”: definitions are written as obligations, runtime gates are hidden inside laws, governance talk is assigned to “the interface”, and “guarantees” are asserted without any evidence story. The resulting boundary is brittle: substitution becomes unclear, and auditability becomes performative rather than adjudicable.
+
+FPF already separates the necessary strata (Signature vs Mechanism, Object≠Description≠Carrier, views under viewpoints). What is still needed is a **single, reusable routing primitive** that any boundary text can apply consistently and that other patterns can cite as a stable authoring module.
+
+### A.6.B:2 — Problem
+
+When authors cannot reliably answer two questions—
+
+1. “Is this a truth‑conditional statement or a governance statement?”
+2. “Is it adjudicated by reading the description or by observing work?”
+
+—then boundary statements drift across layers, faces fork semantics, and “compliance” becomes a matter of interpretation rather than a property that can be checked.
+
+A boundary needs a minimal, stable classification that:
+
+* routes every **atomic** statement to a unique quadrant, and
+* forces any cross‑quadrant dependencies to be **explicitly referenced**, not smuggled by paraphrase.
+
+### A.6.B:3 — Forces
+
+| Force                              | Tension                                                                                        |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------- |
+| **Precision vs readability**       | Predicate‑style constraints reduce ambiguity; narrative helps adoption.                        |
+| **Evolvability vs enforceability** | Stable laws should not embed volatile runtime gates; governance still needs enforcement hooks. |
+| **Auditability vs simplicity**     | Evidence makes claims adjudicable; evidence also introduces operational design obligations.    |
+| **Local meaning vs reuse**         | Boundaries must be local; reuse must be explicit via IDs and references, not duplicated prose. |
+
+### A.6.B:4 - Solution — the Boundary Norm Square
+
+#### A.6.B:4.1 - Two independent distinctions
+
+The **Boundary Norm Square** is the cross product of two independent distinctions:
+
+1. **Modality family:** Truth‑conditional vs Governance
+2. **Adjudication locus:** In‑description vs In‑work
+
+The square yields four quadrants that are *mutually exclusive for atomic claims*.
+
+#### A.6.B:4.2 — The square
+
+|                                | **Truth‑conditional** (definitions & invariants) | **Governance** (permissions & obligations) |
+| ------------------------------ | ------------------------------------------------ | ------------------------------------------ |
+| **In‑description / in‑theory** | **L — Laws & Definitions**                       | **D — Deontics & Commitments**             |
+| **In‑work / in‑execution**     | **E — Work‑Effects & Evidence**                  | **A — Admissibility & Gates**              |
+
+**Clarification (do not conflate).** The Governance column includes two different “normative” roles:
+* **D** is **agent/role governance** (duties, commitments, prohibitions).
+* **A** is **mechanism governance** (permission/admission predicates: what the mechanism admits at application time).
+`A-*` is not an obligation on an actor; obligations belong in `D-*` and may reference `A-*`.
+
+**Normative rule (single quadrant).** Each **atomic** claim **MUST** be routable to exactly one quadrant **L/A/D/E**.
+
+**Normative rule (no mixed sentences).** A conforming boundary text **SHALL** decompose any sentence that bundles multiple quadrants (typical form: “MUST … if … then … and it is logged …”) into multiple atomic claims before those claims are treated as normative.
+
+#### A.6.B:4.3 — Canonical landing zones in the Signature Stack
+
+The quadrants have canonical “homes” in the boundary stack:
+
+* **L → Signature layer:** `U.Signature.Laws` (and mechanism‑local semantic laws if present).
+* **A → Mechanism layer:** `U.Mechanism.AdmissibilityConditions` (entry gates / runtime permission predicates).
+* **D → Norms & commitments layer:** role‑anchored duties, commitments, publication/accountability duties (often rendered inside MVPK `TechCard`).
+* **E → Evidence bindings layer:** work‑adjudicated effects tied to carriers and measurement conditions (authored canonically in an Evidence/Carriers section; commonly rendered inside MVPK `AssuranceLane` as a projection).
+
+A published view **MUST NOT** introduce new semantic claims outside this routed claim set. **E.17 (MVPK)** is a specialization that enforces this rule for a fixed set of publication face kinds.
+
+### A.6.B:5 — Quadrant specifications
+
+This section is the normative “API” of the square: what each quadrant is for, how it is written, and what it must not contain.
+
+#### A.6.B:5.1 — Quadrant L: Laws & Definitions
+
+**Intent.** State truth‑conditional content: definitions, invariants, typing/well‑formedness constraints, equational laws.
+
+**Adjudication.** In‑description: can be checked by inspection, proof, type validation, or model reasoning.
+
+**Canonical form.** `Definition:` / `Invariant:` / predicate‑style constraints using “is / iff / for all”.
+
+**Prohibitions.**
+
+* An `L-*` statement **MUST NOT** contain RFC deontic keywords (**MUST/SHALL/SHOULD/MAY**) as operators inside the law/definition itself.
+* An `L-*` statement **MUST NOT** encode runtime gate predicates (those are `A-*`).
+* An `L-*` statement **MUST NOT** assert evidence availability or measurement outcomes (those are `E-*`).
+
+**A.7 anchoring.** `L-*` claims are **Descriptions**: they specify semantics of the signature/mechanism description, not work.
+
+**Typical dependence.** `A-*` and `E-*` claims may reference `L-*` IDs for vocabulary, metric definitions, and invariants needed for interpretation.
+
+#### A.6.B:5.2 — Quadrant A: Admissibility & Gates
+
+**Intent.** Specify when a mechanism application is permitted/admissible: runtime entry predicates, authorization gates, validity gates, applicability checks that require context or execution environment.
+
+**Common mistake #0 — Applicability ≠ Admissibility (informative).** Signature `Applicability` scopes *intended use/bounded context*; it is not a runtime entry gate. Runtime entry checks and permission predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If your prose reads like “clients must satisfy the applicability”, you almost certainly want a `D-*` duty + an `A-*` gate (linked by ID) instead.
+
+**Adjudication.** In‑work: evaluated at mechanism entry (or operationally at the point the mechanism is applied).
+
+**Canonical form.** Predicate style, e.g.:
+
+* “A request is admissible iff …”
+* `admissible(x) iff P(x)` (conceptual form; no particular syntax is required)
+
+**Prohibitions.**
+
+* An `A-*` statement **MUST NOT** be placed in `U.Signature.Laws`.
+* An `A-*` statement **MUST NOT** use RFC deontic keywords as if it were an agent obligation. (It is a gate predicate, not a duty.)
+* An `A-*` statement **MUST NOT** claim that evidence exists (that is `E-*`) or that someone must enforce the gate (that is `D-*`).
+
+**A.7 anchoring.** `A-*` claims are **Descriptions** of a mechanism gate. They are not “what a client must do”; they are “what the mechanism admits”.
+
+**Required references (explicit).** If an `A-*` predicate relies on defined terms or invariants, it **SHOULD** reference the relevant `L-*` IDs (or at minimum the signature that defines them).
+
+#### A.6.B:5.3 — Quadrant D: Deontics & Commitments
+
+**Intent.** State governance: obligations, permissions, prohibitions, commitments, publication duties, operational duties, contractual commitments—always with accountable agents/roles.
+
+**Adjudication.** In‑description (governance is stated in the spec); compliance may be audited via `E-*`.
+
+**Canonical form.** A deontic statement **MUST** have an accountable subject (agent/role), e.g.:
+
+* “Client implementers **MUST** satisfy `A-…`.”
+* “Operators **SHALL** retain carriers …”
+* “Provider **SHALL** meet `E-…` under exclusions …”
+
+**Prohibitions.**
+
+* A `D-*` statement **MUST NOT** use “the system/service/interface” as the grammatical subject unless an accountable role is explicitly identified (per F.18 unpacking).
+* A `D-*` statement **MUST NOT** restate `L-*` or `A-*` predicates in new words when an ID exists; it **SHOULD** reference the ID.
+* A `D-*` statement **MUST NOT** pretend that commitments are laws. A commitment is an agent relation, not a truth‑conditional invariant.
+
+**A.7 anchoring.** `D-*` claims are primarily **about Objects** (roles/agents and their duties) or **about Carriers** (retention/exposure duties), but they are still written as **Descriptions**.
+
+**Required references (explicit).**
+
+* If a `D-*` statement imposes compliance with a gate, it **MUST** reference the relevant `A-*` ID(s).
+* If a `D-*` statement is meant to be auditable, it **SHOULD** reference the `E-*` claim(s) that provide evidence and the carrier classes involved.
+
+#### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
+
+**Intent.** State what happens in work and how it can be evidenced: observed effects, emitted events, traces/logs/metrics, produced reports, measurement outcomes.
+
+**Adjudication.** In‑work: checked by running/operating and inspecting carriers produced in work.
+
+**Canonical form.** An `E-*` statement **SHOULD** include the minimum fields needed for adjudication:
+
+1. **Observation/measurement conditions** (when/where/how observed; workload/window; triggers)
+2. **Carrier class/schema reference** (A.7 Carrier) that bears the evidence
+3. **Viewpoint/consumer** (who uses this evidence and why; ties to `viewpointRef` discipline)
+
+**Prohibitions.**
+
+* `E-*` statements **SHOULD NOT** use RFC deontic keywords (they are not obligations; they describe adjudicable effects/evidence).
+* An `E-*` statement **MUST NOT** hide a gate predicate; gate predicates are `A-*`.
+* An `E-*` statement **MUST NOT** assign agency (“the interface guarantees …”); if enforceability/commitment is intended, express it as `D-*` referencing the `E-*`.
+
+**A.7 anchoring.** `E-*` claims are primarily **Carrier‑anchored**: they assert what carriers exist and how they relate to observed work.
+
+**Required references (explicit).**
+
+* If the effect/evidence is conditioned on a gate decision, the `E-*` statement **SHOULD** reference the relevant `A-*` ID(s).
+* If the evidence is interpreted using metric definitions or invariants, the `E-*` statement **SHOULD** reference relevant `L-*` ID(s).
+
+### A.6.B:6 — Cross‑quadrant link discipline
+
+The square is not just classification; it is a **dependency discipline**. Claims often depend on each other; such dependencies **MUST** be explicit (by claim ID) rather than duplicated prose.
+
+#### A.6.B:6.1 — Explicit reference rule
+
+If a claim’s meaning materially depends on another routed claim, that dependency **MUST** be represented as an explicit reference to the other claim’s ID (or to the canonical location where it lives), rather than by restating it.
+
+**Guideline (informative).** Treat this as “import hygiene” for prose: reuse by reference, not by copy.
+
+#### A.6.B:6.2 — Canonical cross‑quadrant dependency patterns
+
+These patterns are allowed (and common). The square becomes operational when these links are used systematically.
+
+##### A.6.B:6.2.1 - (D → A) Duty-to-gate linkage
+
+When governance requires someone to comply with a gate:
+
+* `D-*`: “Role **MUST** satisfy/enforce `A-*`.”
+
+This separates **what is admissible** (A) from **who is responsible** (D).
+
+##### A.6.B:6.2.2 - (E → A) Evidence-for-gate linkage
+
+When gate decisions must be observable:
+
+* `E-*`: “On rejection/acceptance due to `A-*`, carrier `C` is produced/observable under conditions …”
+
+This separates **gate semantics** (A) from **evidence semantics** (E).
+
+##### A.6.B:6.2.3 - (D → E) Duty-to-evidence linkage
+
+When governance requires evidence production/retention/exposure or commits to measured properties:
+
+* `D-*`: “Role **MUST** retain/expose carrier class `C` used by `E-*` …”
+* `D-*`: “Provider **SHALL** meet `E-*` under exclusions …”
+
+This separates **obligation/commitment** (D) from **adjudication** (E).
+
+##### A.6.B:6.2.4 - (A/E → L) Semantic grounding linkage
+
+When a gate predicate or measurement relies on definitions/invariants:
+
+* `A-*` / `E-*` references `L-*` that define terms/metrics.
+
+This prevents “metric drift” and “definition drift” across views.
+
+##### A.6.B:6.2.5 - (D → L) Governance-to-definition linkage
+
+When an obligation/commitment relies on precise term or metric meanings:
+
+* `D-*` references `L-*` that define the terms/metrics it uses.
+
+This keeps governance text from accidentally redefining semantics in prose.
+#### A.6.B:6.3 — The “triangle decomposition” for mixed sentences
+
+**Normative rule (decomposition).** A conforming boundary text **SHALL** decompose any mixed sentence that expresses (i) an entry condition, (ii) an obligation to satisfy/enforce it, and (iii) an observability expectation into the three quadrants:
+
+* **A:** admissibility predicate (`A-*`)
+* **D:** duty/commitment referencing the gate (`D-* → A-*`)
+* **E:** evidence binding referencing the gate (and carriers) (`E-* → A-*`)
+
+This is the canonical repair for “contract soup” around validity, authorization, compliance, audit, and security boundaries.
+
+#### A.6.B:6.4 — Dependency direction (no “upward” imports)
+
+The square is intended to preserve **layered modularity**: semantics should not depend on governance text, and evidence semantics should not depend on duties.
+
+**Normative rule (no upward dependencies).**
+
+* `L-*` claims **MUST NOT** depend on or reference `A-*`, `D-*`, or `E-*` claims (except for purely informative notes explicitly marked informative).
+* `A-*` claims **MUST NOT** depend on or reference `D-*` claims. (`A-*` may reference `L-*` for defined terms/invariants.)
+* `E-*` claims **MUST NOT** depend on or reference `D-*` claims. (`E-*` may reference `A-*` for conditioning and `L-*` for metric/term meanings.)
+* `D-*` claims **MAY** reference `L-*`, `A-*`, and/or `E-*` claims as needed, and **SHOULD** do so by ID rather than restating content.
+
+**Rationale (informative).** This keeps foundational meaning stable (L), keeps runtime gates independent of governance prose (A), and keeps evidence semantics independent of enforcement policy (E). Governance (D) is the place where “who must do what, using which gates and which evidence” is assembled.
+
+### A.6.B:7 — Mini‑artifact: Claim Register (informative, recommended)
+
+A Claim Register is a drift‑control device that lists every routable statement verbatim with routing metadata. It is not a new semantic layer.
+
+| ID | Quadrant | Statement (verbatim) | Canonical location (section/artefact) | Stack layer | A.7 primary layer | viewRef | viewpointRef | References | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+Guidance (informative):
+* The **Statement** cell should contain the normative text as authored (copy/paste), not a paraphrase.
+* **Canonical location** should point to the one place the statement “lives” (e.g., `Signature.Laws`, `Mechanism.AdmissibilityConditions`, `TechCard.NormsCommitments`, `Evidence.Carriers`), so other faces can cite it by ID.
+* **Stack layer** should be one of `{Signature, Mechanism, Norms/Commitments, Evidence/Carriers}` to make routing auditable.
+* **A.7 primary layer** is the claim’s *primary referent* (`Object`, `Description`, or `Carrier`), even though the claim is always written as a Description.
+* Use **References** for explicit cross‑quadrant links (e.g., which `D-*` enforces which `A-*`, which `E-*` adjudicates which commitments, which `L-*` defines a metric used by `E-*`) and for external standards/policies where applicable.
+
+### A.6.B:8 - Archetypal Grounding (Tell–Show–Show)
+
+> **Informative.** Examples for learning the square; they do not add requirements beyond A.6.B:10.
+
+#### A.6.B:8.1 - Tell (universal rule)
+
+A boundary remains evolvable and auditable when every normative statement is decomposed into atomic claims, each claim is routed to exactly one quadrant of the Boundary Norm Square, and cross‑quadrant dependencies are expressed by explicit claim‑ID references rather than paraphrase.
+
+#### A.6.B:8.2 - Show #1: Effect signature vs handler (post‑2015 effect systems)
+
+A service boundary naturally mirrors **algebraic effects & handlers** practice (popularized broadly in the post‑2015 era, with mainstream effect handlers becoming especially prominent around OCaml 5):
+
+* **L:** defines the operation vocabulary and laws (effect signature semantics).
+* **A:** defines when the operation is admissible (runtime guard predicates).
+* **D:** states who must enforce guards and what the provider commits to (operator/implementer duties; SLAs).
+* **E:** ties “what happened” to observable carriers (traces/logs/metrics/events) so commitments can be adjudicated.
+
+The square prevents accidentally writing handler obligations as laws or treating observability as a definition.
+
+#### A.6.B:8.3 - Show #2: ML evaluation protocol boundary (reproducibility discipline)
+
+A published “evaluation protocol” boundary (common in modern ML governance) benefits from strict routing:
+
+* **L:** metric definitions and invariants (e.g., what counts as AUROC; data partition invariants).
+* **A:** admissibility gates (dataset license constraints; pinned environment constraints; seed policy).
+* **D:** reviewer and author duties (publish required faces; use declared dataset version; retention duties for run artifacts).
+* **E:** evidence carriers (run logs, hashes, reports, trace IDs) and adjudication conditions (which viewpoint measures, what windows).
+
+The square keeps “must use dataset vX” (D) separate from “evaluation is admissible iff dataset license matches” (A), and both separate from “a run produced report carrier R with hash h” (E).
+
+### A.6.B:9 — Bias‑Annotation
+
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions.
+
+* **Arch bias:** favors explicit separation and explicit references; mitigated by allowing narrative faces while keeping commitments routed and referenced by ID.
+* **Gov bias:** makes accountability explicit (D) and auditability explicit (E); mitigated by keeping evidence conceptual and carrier‑anchored rather than tool‑specific.
+* **Onto/Epist bias:** insists on Object≠Description≠Carrier and on work‑adjudicated effects; mitigated by providing clear cross‑quadrant link patterns so authors can still express real‑world governance needs.
+
+### A.6.B:10 — Conformance Checklist
+
+| ID                                       | Requirement                                                                                                                                                                                                      | Purpose                                                  |
+| ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| **CC‑A.6.B.1 (Atomicity).**              | A conforming boundary text **SHALL** decompose mixed sentences into **atomic claims** such that each atomic claim routes to exactly one quadrant **L/A/D/E**.                                                    | Makes routing unambiguous; prevents contract soup.       |
+| **CC‑A.6.B.2 (Quadrant routing).**       | Each atomic claim **MUST** be classified by the Boundary Norm Square and placed in its canonical landing zone (L→Signature.Laws; A→Mechanism.AdmissibilityConditions; D→Norms/Commitments; E→Evidence/Carriers). | Preserves stack modularity and evolvability.             |
+| **CC‑A.6.B.3 (Form constraints).**       | `L-*` and `A-*` claims **MUST NOT** contain RFC deontic keywords as operators; `D-*` claims **MUST** name an accountable agent/role; `E-*` claims **SHOULD NOT** use RFC deontic keywords.                       | Keeps modalities separated and audit‑ready.              |
+| **CC‑A.6.B.4 (Explicit references).**    | Where a claim depends on another routed claim, that dependency **MUST** be expressed by explicit ID reference rather than restating the other claim in new words.                                                | Prevents paraphrase drift across layers/faces.           |
+| **CC‑A.6.B.5 (E‑claim adjudicability).** | Each `E-*` claim **SHOULD** include (a) observation conditions, (b) carrier class/schema reference, and (c) viewpoint/consumer.                                                                                  | Makes work‑effects adjudicable rather than aspirational. |
+| **CC‑A.6.B.6 (No gate smuggling).**      | Operational admissibility predicates **MUST NOT** appear as `L-*` laws in the signature layer; they **MUST** be `A-*` claims in the mechanism layer.                                                             | Preserves substitution and signature stability.          |
+| **CC‑A.6.B.7 (No upward dependencies).** | `L-*` claims **MUST NOT** reference `A-*`, `D-*`, or `E-*`; `A-*` and `E-*` claims **MUST NOT** reference `D-*`.                                                                                                   | Preserves layering and prevents hidden coupling.         |
+
+### A.6.B:11 - Common Anti‑Patterns and How to Avoid Them
+
+| Anti‑pattern                 | Symptom                                            | Why it fails                                                | Repair (square‑consistent)                                                                  |
+| ---------------------------- | -------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| **Gate‑as‑law**              | Preconditions written as “laws”                    | Collapses signature/mechanism boundary; breaks substitution | Move to `A-*` in Mechanism.AdmissibilityConditions; reference `L-*` terms.                  |
+| **Deontics in predicates**   | “MUST” inside definitions or gates                 | Confuses governance with truth/admissibility                | Rewrite as `L-*`/`A-*` predicate; add `D-*` duty referencing it.                            |
+| **Interface‑as‑promiser**    | “The API promises/guarantees …”                    | Category error (F.18): epistemes don’t promise              | Identify committing role (`D-*`), measured property (`E-*`), and metric definition (`L-*`). |
+| **Evidence‑free guarantees** | “Guaranteed p95 latency” with no measurement story | Unadjudicable; turns into marketing                         | Create `E-*` with carriers + conditions; link commitment as `D-* → E-*`.                    |
+| **Paraphrase drift**         | Same rule restated across faces                    | Divergence becomes invisible                                | Use IDs; faces cite IDs; optional Claim Register.                                           |
+| **View‑fork semantics**      | A face introduces new L/A/D/E content              | Violates “no new semantics” publication discipline          | Move new claim into canonical layer (L/A/D/E) or mark as informative only.                  |
+
+### A.6.B:12 — Consequences
+
+| Benefits                                                                                                     | Trade‑offs / mitigations                                                                         |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| **Stable modular boundaries.** Laws don’t accidentally become gates; governance doesn’t masquerade as truth. | Requires writers to split sentences; mitigated by the triangle decomposition pattern.            |
+| **Auditability by construction.** Commitments can be linked to adjudicable evidence carriers.                | Requires evidence to be designed; mitigated by keeping evidence conceptual and carrier‑anchored. |
+| **Reduced semantic drift across faces.** IDs + explicit references prevent accidental divergence.            | More cross‑references; mitigated by a Claim Register (optional but recommended).                 |
+
+### A.6.B:13 — Rationale
+
+The square is the smallest authoring primitive that forces an explicit choice along two axes that are otherwise routinely conflated:
+
+* **Truth vs governance** (what is the case vs what is required/committed), and
+* **Description vs work** (what can be decided by reading vs what must be decided by observing execution).
+
+By requiring atomicity and explicit cross‑quadrant references, the square converts “contract talk” into a set of routed, evolvable claims with clear adjudication semantics.
+
+### A.6.B:14 — SoTA‑Echoing (post‑2015 practice alignment)
+
+> **Informative.** Alignment notes; not normative requirements.
+
+**Representative sources (post‑2015; illustrative).** See also A.6:11 for a fuller list.
+* ISO/IEC/IEEE 42010:2022 (view/viewpoint discipline).
+* Leijen (2017) / Hillerström & Lindley (2018) (effects & handlers).
+* OpenTelemetry Specification (v1.0+, 2021–) (evidence carriers as traces/logs/metrics).
+
+* **Effect systems & handlers:** clear separation between operation signature (L) and handler/runtime behavior (A/E), with governance duties (D) attached to accountable operators/implementers.
+* **Behavioural/session typing:** protocol laws (L) and admissibility (A) remain distinct from commitments (D) and runtime traces (E), improving interpretability of “progress/safety” style boundary guarantees.
+* **SRE/observability discipline:** treating traces/logs/metrics as evidence carriers (E) and separating evidence semantics from retention/exposure duties (D) mirrors contemporary operational practice while staying tool‑agnostic.
+
+### A.6.B:15 — Relations
+
+* **Used by A.6:** supplies the canonical matrix and cross‑quadrant link discipline that A.6 references as “Boundary Discipline Matrix”.
+* **Constrains A.6.0 (`U.Signature`):** enforces that `L-*` laws are truth‑conditional and do not include admissibility predicates.
+* **Constrains A.6.1 (`U.Mechanism`):** enforces that admissibility lives in `AdmissibilityConditions` (`A-*`) and that evidence semantics are routed as `E-*` with carrier anchors.
+* **Requires A.7:** anchors quadrants to Object/Description/Carrier so agency and evidence are not misattributed.
+* **Interacts with MVPK/E.17:** faces are projections that cite routed claims; faces must not mint new semantic commitments.
+
+### A.6.B:End
+
 ## A.6.0 - U.Signature - Universal, law‑governed declaration for a SubjectKind on a BaseType
 
 **Status.** Architectural pattern, kernel‑level and universal.  
-**Placement.** Part A (Kernel), **before A.6** (“Architheory Signature & Realization”) and **A.6.1** (“U.Mechanism”).  
+**Placement.** Part A (Kernel), **before A.6.A** (“Architheory Signature & Realization”) and **A.6.1** (“U.Mechanism”).  
 **Builds on.** **A.2.6** (USM: context slices & scopes), **E.8** (authoring order), **E.10** LEX-BUNDLE (registers, naming, stratification), **E.10.D1** D.CTX (Context discipline).
   
-**Coordinates with.** **A.6** (architheory specialisation of signatures), **A.6.1** (mechanism as law-governed signature), **A.6.5** (`U.RelationSlotDiscipline` for n-ary arguments), **Part F** (Bridges & cross-context transport; naming). Conformance keywords: RFC 2119.
+**Coordinates with.** **A.6.A** (architheory specialisation of signatures), **A.6.1** (mechanism as law-governed signature), **A.6.5** (`U.RelationSlotDiscipline` for n-ary arguments), **Part F** (Bridges & cross-context transport; naming). Conformance keywords: RFC 2119.
 
 ### A.6.0:1 - Problem frame
 
@@ -5720,12 +6527,12 @@ If each family (architheories, mechanisms, methods, disciplines) invents its own
 | --- | --- |
 | **Universality vs. fitness** | One shape must fit **architheories**, **mechanisms**, **theories**, **methods**, **disciplines**, without over‑committing to any one of them. |
 | **Intension vs. specification (I/D/S)** | Signatures declare **what** and **the laws** (intension), not recipes or test harnesses (specification). |
-| **Simplicity vs. expressivity** | Keep the kernel small while leaving **normalized** slots for specialisations (e.g., Γ‑export in A.6; Transport in A.6.1). |  
+| **Simplicity vs. expressivity** | Keep the kernel small while leaving **normalized** slots for specialisations (e.g., Γ‑export in A.6.A; Transport in A.6.1). |  
 | **Locality vs. transport** | Meaning is context‑local (D.CTX), yet cross‑context use must be explicit and auditable via Bridges without smuggling implementation. |
 
 ### A.6.0:4 - Solution — **Define `U.Signature` once, reuse everywhere**
 
-**Definition.** A **`U.Signature`** is a **public, law-governed declaration** for a named **SubjectKind** on a declared **BaseType**. Where quantification depends on context, the Signature **SHALL** expose an explicit **SliceSet** and **ExtentRule**. A Signature (i) introduces a **vocabulary** (types, relations, operators), (ii) states **laws** (axioms/invariants; no operational admissions), and (iii) records **applicability** (where and under which contextual assumptions the declarations hold). Dependencies (**imports**) are governed by specialisations (e.g., A.6) and are **not** part of the universal Block. **Discipline for argument-position typing is delegated to A.6.5 `U.RelationSlotDiscipline`: whenever the Vocabulary declares an n-ary relation or operator, SlotSpecs for its parameter positions SHALL be provided as in §4.1.1 and A.6.5.**
+**Definition.** A **`U.Signature`** is a **public, law-governed declaration** for a named **SubjectKind** on a declared **BaseType**. Where quantification depends on context, the Signature **SHALL** expose an explicit **SliceSet** and **ExtentRule**. A Signature (i) introduces a **vocabulary** (types, relations, operators), (ii) states **laws** (axioms/invariants; no operational admissions), and (iii) records **applicability** (where and under which contextual assumptions the declarations hold). Dependencies (**imports**) are governed by specialisations (e.g., A.6.A) and are **not** part of the universal Block. **Discipline for argument-position typing is delegated to A.6.5 `U.RelationSlotDiscipline`: whenever the Vocabulary declares an n-ary relation or operator, SlotSpecs for its parameter positions SHALL be provided as in §4.1.1 and A.6.5.**
 
 Where the **Vocabulary** introduces an **n‑ary relation or morphism**, the Signature **SHALL**, for each parameter position `i`, declare a `SlotSpec_i = ⟨SlotKind_i, ValueKind_i, refMode_i⟩` as defined in **A.6.5 `U.RelationSlotDiscipline`**. SlotSpecs live inside the per‑relation parameter block of the **Vocabulary** row and **MUST NOT** introduce additional rows beyond the four‑row Signature Block.
 
@@ -5739,7 +6546,7 @@ where `SubjectBlock = ⟨SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind
 
 **Naming discipline.** The `Subject` **MUST** be a **single‑sense** noun phrase; avoid synonyms/aliases within the same Signature.
 
-A `U.Signature` is **conceptual**: it contains **no implementation, no packaging/CI metadata, and no Γ‑builders**. Γ‑export, if any, is governed by **A.6** and only for architheories with `classification=CAL`.
+A `U.Signature` is **conceptual**: it contains **no implementation, no packaging/CI metadata, and no Γ‑builders**. Γ‑export, if any, is governed by **A.6.A** and only for architheories with `classification=CAL`.
 
 #### A.6.0:4.1 - The **Signature Block (universal form)**
 
@@ -5769,7 +6576,7 @@ Every `U.Signature` **SHALL** present a **four‑row conceptual block** (names a
     
 *Mapping to existing families (normative aliases).*  
 — **A.6.1 (Mechanism).** *SubjectBlock* ↔ **SubjectKind/BaseType/…**; *Vocabulary* ↔ **OperationAlgebra**; *Laws* ↔ **LawSet**; *Applicability* remains contextual; **AdmissibilityConditions** — separate field of mechanism (not in the `U.Signature`).  
-— **A.6 (Architheory).** A.6 **adds** an adjacent **Architheory View** preserving **Imports / Derivations / Invariants / BelongsToAssurance**. The **universal Block remains the source-of-truth**; the view is a projection and **MUST NOT** introduce fields not derivable from the Block.  
+— **A.6.A (Architheory).** A.6.A **adds** an adjacent **Architheory View** preserving **Imports / Derivations / Invariants / BelongsToAssurance**. The **universal Block remains the source-of-truth**; the view is a projection and **MUST NOT** introduce fields not derivable from the Block.  
 — **Task/Problem/Discipline signatures (C.22, G-cluster).** These **SHALL** be introduced as **species of `U.Signature`** that reuse the same four-row Block (SubjectBlock / Vocabulary / Laws / Applicability); any extra per-family views are projections only (no new conceptual rows).
 
 ##### A.6.0:4.1.1 - SlotSpec for argument positions (normative; see A.6.5)
@@ -5833,7 +6640,7 @@ If a Signature’s **Vocabulary** includes an **EffectDiscipline** (operation/ef
 * **I/D/S separation.** A signature **states intension and laws**; Realizations (if any) carry **specifications**. Do not mix tutorial text or operational recipes into the Block. Do **not** include **AdmissibilityConditions** or run‑time admissions here.
 * **Context discipline.** Bind Applicability to a **`U.BoundedContext`**. If cross‑context use is intended, **name** the crossing and **reference** the Bridge (Part F/B); A.6.0 does **not** prescribe **compatibility/loss tables (CL, including `CL^plane`)** or penalty formulas.
 * **Stratification.** Use LEX‑BUNDLE registers and strata; do not redefine Kernel names in lower strata (no cross‑bleed).  
-* **Imports location.** If your family requires an explicit **imports** list (e.g., A.6 Architheory), place it in the **Signature header** or the **family‑specific view**, not inside the universal four‑row Block.
+* **Imports location.** If your family requires an explicit **imports** list (e.g., A.6.A Architheory), place it in the **Signature header** or the **family‑specific view**, not inside the universal four‑row Block.
 
 * **Token hygiene.** Do **not** mint new `U.*` tokens inside a Signature without a **DRR**; prefer referencing existing Kernel/Architheory `U.Type`s. 
 
@@ -5841,9 +6648,9 @@ If a Signature’s **Vocabulary** includes an **EffectDiscipline** (operation/ef
 
 #### A.6.0:4.5 - Specialisation knobs (for downstream patterns)
 
-A.6.0 exposes **three** conceptual knobs; specialisations (A.6, A.6.1, method/discipline specs) may **tighten** them:
+A.6.0 exposes **three** conceptual knobs; specialisations (A.6.A, A.6.1, method/discipline specs) may **tighten** them:
 
-1. **Builder policy.** Whether a signature may commit to a builder `Γ_*` is not decided here; **A.6** governs this for architheories (`classification=CAL` only).
+1. **Builder policy.** Whether a signature may commit to a builder `Γ_*` is not decided here; **A.6.A** governs this for architheories (`classification=CAL` only).
     
 2. **Transport clause.** If cross‑context/plane use is part of the design, the signature **may declare** a conceptual Transport clause; **A.6.1** gives a concrete schema (Bridge, **CL/CL^k/CL^plane**—Bridges per **F.9**, penalties per **B.3**, **CL^plane** per **C.2.1**), but A.6.0 remains agnostic about penalty shapes.
     
@@ -5863,7 +6670,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 | quartet Element | `U.System` Example — **Grammar of Motions** | `U.Episteme` Example — **Normalization Family** |
 | --- | --- | --- |
 | **SubjectBlock** | **Subject:** SubjectKind=`MotionGrammar`; BaseType=`U.System:TrajectorySpace`. **Quantification:** SliceSet=`U.ContextSliceSet`; ExtentRule=`admissible motion words per slice (kinematics & domain restrictions)`; ResultKind?=`Language[Segment]`. | **Subject:** SubjectKind=`NormalizationMethod‑Class`; BaseType=`U.Episteme:ChartFamily` (one `U.BoundedContext`). **Quantification:** SliceSet=`U.ContextSliceSet`; ExtentRule=`admissible method instances per slice (edition+validity)`; ResultKind?=`NormalizedChart`. |
-| **Vocabulary** | Types: `Pose`, `Segment`; Operators: `concat`, `reverse`, `sample` (any Γ‑builder is governed by A.6). | Operators: `apply(method)`, `compose`, `quotient(≡)`. |
+| **Vocabulary** | Types: `Pose`, `Segment`; Operators: `concat`, `reverse`, `sample` (any Γ‑builder is governed by A.6.A). | Operators: `apply(method)`, `compose`, `quotient(≡)`. |
 | **Laws (Invariants/Constraints)** | Closure of `concat`; associativity; time‑monotone sampling; **`reverse` is declared only for holonomic arms (domain restriction)**. | Ratio→positive‑scalar; Interval→affine; Ordinal→monotone; Nominal→categorical; LUT(+uncertainty). |
 | **Applicability (Scope & Context)** | Context: *industrial robotics*; stance: design; time notion: discrete ticks. Cross‑context transport not declared. | Context: *clinical metrics*; stance: analysis; validity windows declared; cross‑context transport via Bridge (concept only; details per A.6.1). Numeric comparability bound to CHR/CG‑Spec. |
 
@@ -5885,7 +6692,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 | **CC‑A.6.0‑2** | The Block is **conceptual only** (no packaging/CI metadata, no machine schemas, **no Γ**). |
 | **CC‑A.6.0‑3** | Applicability **binds** a `U.BoundedContext`; if cross‑context use is intended, a **Transport clause** is *named* (Bridge reference) without re‑stating Part F/B.3 details (including any **CL^plane**). |
 | **CC‑A.6.0‑4** | Where numeric comparability is implied, Applicability **binds** to **CG‑Spec/MM‑CHR** legality (normalize‑then‑compare; scale/unit alignment). |
-| **CC‑A.6.0‑5** | Families that specialise A.6.0 (e.g., **A.6**, **A.6.1**) **MAY** add constraints (e.g., Γ‑export policy; penalty routing) and **MAY** add a family‑specific view (e.g., the Architheory View) but **MUST NOT** contradict A.6.0’s separation of intension vs specification. |
+| **CC‑A.6.0‑5** | Families that specialise A.6.0 (e.g., **A.6.A**, **A.6.1**) **MAY** add constraints (e.g., Γ‑export policy; penalty routing) and **MAY** add a family‑specific view (e.g., the Architheory View) but **MUST NOT** contradict A.6.0’s separation of intension vs specification. |
 | **CC‑A.6.0‑6** | Under E.10/E.8, tokens respect strata/registers; Kernel names are not redefined in Architheory/Context prose (Part F naming discipline applies). |
 | **CC‑A.6.0‑7** | The **Laws** row contains **axioms/invariants** only; **AdmissibilityConditions** and operational admissions **MUST** appear only in **A.6.1 Mechanisms** that consume this Signature. |
 | **CC‑A.6.0‑8 (No‑Realization on Signatures with EffectDiscipline).** | If **EffectDiscipline** appears in **Vocabulary**, faces **MUST** carry a **`No‑Realization` pin** and **MUST NOT** publish handler semantics; any **EffectRealization** is referenced (A.6.1) by id only. |
@@ -5903,14 +6710,14 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 
 * **Uniform kernel shape.** Authors can define **architheory**, **mechanism**, **method**, **discipline**, or **theory** signatures without inventing new templates.
     
-* **Hard decoupling.** A.6 can continue to guarantee substitutable Realizations behind a stable Signature; A.6.1 can continue to guarantee law‑governed operations with explicit guard surfaces.
+* **Hard decoupling.** A.6.A can continue to guarantee substitutable Realizations behind a stable Signature; A.6.1 can continue to guarantee law‑governed operations with explicit guard surfaces.
     
 **Didactic cohesion.** Readers see the same four conceptual rows across the spec, satisfying E.8’s comparability goal.
 
 ### A.6.0:9 - Rationale
 
 **Why “SubjectBlock”?** A.6.1 showed that making the **carrier explicit** (here: *BaseType* — the carrier type) avoids category mistakes when moving between domains (e.g., *set‑algebra on context slices* vs *equivalence‑classes of normalisations*). A.6.0 lifts this to the kernel so every signature can declare **what it is about** before saying **what it provides**.
-**Why one universal Block?** A.6 already proved the value of a compact **Signature Block** (Imports/Derivations/Invariants/Assurance). A.6.0 factors out the **conceptual core**—rephrased as “SubjectBlock / Vocabulary / Laws / Applicability”—so A.6 can **map** its four rows onto this universal frame without changing existing architheories.
+**Why one universal Block?** A.6.A already proved the value of a compact **Signature Block** (Imports/Derivations/Invariants/Assurance). A.6.0 factors out the **conceptual core**—rephrased as “SubjectBlock / Vocabulary / Laws / Applicability”—so A.6.A can **map** its four rows onto this universal frame without changing existing architheories.
 
 **Informative echoes (post‑2015 SoTA).**  
 — **Algebraic effects & handlers** (OCaml 5, Koka, Effekt, Links): *operation signatures + handler laws* mirror **Vocabulary + Laws** while keeping implementations separate.  
@@ -5923,7 +6730,7 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
 
 ### A.6.0:10 - Relations
 
-* **Specialises / is specialised by:** **A.6** (adds Γ‑export policy; imports DAG; architheory layering) and **A.6.1** (adds **OperationAlgebra/LawSet/AdmissibilityConditions/Transport** for mechanisms).  
+* **Specialises / is specialised by:** **A.6.A** (adds Γ‑export policy; imports DAG; architheory layering) and **A.6.1** (adds **OperationAlgebra/LawSet/AdmissibilityConditions/Transport** for mechanisms).  
 * **Constrained by:** E.10 LEX‑BUNDLE (registers, strata); D.CTX for Context binding; **Part F** (Bridges & cross‑context transport; naming).
 * **Consumed by (profiles):** **`U.FormalSubstrate`** and **`U.PrincipleFrame`** specialisations of `U.Signature` on the principled path; **UNM** (Context Normalization) remains the **single source of truth** for **CG‑Spec/ComparatorSet/Transport** editions that Signature consumers pin on faces.
 
@@ -5931,19 +6738,19 @@ This makes `profile=FormalSubstrate` and `profile=PrincipleFrame` *morphisms* in
   
 ### A.6.0:End
 
-## A.6 - Architheory Signature & Realization
+## A.6.A - Architheory Signature & Realization
 
-### A.6:1 - Problem frame
+### A.6.A:1 - Problem frame
 
 FPF’s architecture is a modular ecosystem of **architheories** (CAL/LOG/CHR) that extend a slim Kernel. To keep composition stable and comparable, each architheory **publishes a public Signature** (the Standard) and provides one or more **Realizations** (private implementations).  
-**A.6 as a specialisation.** This pattern is the **architheory‑specific specialisation** of **A.6.0 `U.Signature`** and coordinates cross‑context use with **A.6.1 `U.Mechanism`** (Bridge/CL per **F.9**; penalties route to **R/R_eff** only per **B.3**; **F/G** invariant; **CL^plane** per **C.2.1 CHR:ReferencePlane**).
+**A.6.A as a specialisation.** This pattern is the **architheory‑specific specialisation** of **A.6.0 `U.Signature`** and coordinates cross‑context use with **A.6.1 `U.Mechanism`** (Bridge/CL per **F.9**; penalties route to **R/R_eff** only per **B.3**; **F/G** invariant; **CL^plane** per **C.2.1 CHR:ReferencePlane**).
 
 
-### A.6:2 - Problem
+### A.6.A:2 - Problem
 
 When Signatures (interface) leak implementation, the ecosystem becomes brittle: (1) substitutability breaks, (2) imports entangle, (3) cross‑context use becomes implicit and unauditable.
 
-### A.6:3 - Forces
+### A.6.A:3 - Forces
 | Force | Tension |
 | --- | --- |
 | **Stability vs. evolution** | Keep public promises stable while allowing private Realizations to evolve. |
@@ -5951,24 +6758,24 @@ When Signatures (interface) leak implementation, the ecosystem becomes brittle: 
 | **Intension vs. specification** | Signatures state *what & laws*; Realizations carry *how/tests*. |
 | **Locality vs. transport** | Context‑local semantics vs explicit, auditable Bridge‑only crossings (R‑only penalties). |
  
-### A.6:4 - Solution
+### A.6.A:4 - Solution
 
-#### A.6:4.1 - `U.ArchitheorySignature` — *the public Standard*
+#### A.6.A:4.1 - `U.ArchitheorySignature` — *the public Standard*
 
 A **Signature** states **what** an architheory offers—its vocabulary, laws, and applicability—**without** embedding implementation or build metadata. It is the stable unit that other architheories import.
 
-#### A.6:4.2 - `U.ArchitheoryRealization` — *the private implementation*
+#### A.6.A:4.2 - `U.ArchitheoryRealization` — *the private implementation*
 
 A **Realization** satisfies the Signature while remaining opaque. Multiple Realizations may co‑exist; they **may tighten** (never relax) the Signature’s laws (Liskov‑style substitutability).
 
-#### A.6:4.3 - Signature Block — **A.6.0 alignment** and **Architheory View**
+#### A.6.A:4.3 - Signature Block — **A.6.0 alignment** and **Architheory View**
 
 Every architheory **SHALL** publish **two adjacent views** of its public contract:
 1) the **universal** A.6.0 `U.Signature` Block (*SubjectBlock; Vocabulary; Laws; Applicability*), and  
 2) an **Architheory View** that preserves the pass interface used across Part C: **Imports / Derivations / Invariants / BelongsToAssurance**.
 This ensures both cross‑family uniformity **and** compatibility with existing architheory architecture. The **universal Block remains the source‑of‑truth**; the **Architheory View is a projection** that MUST NOT introduce fields not derivable from the Block (e.g., no hidden AdmissibilityConditions; no Γ in LOG/CHR).
 
-| `U.Signature` row (A.6.0)          | A.6 alias / where to author it                                           |
+| `U.Signature` row (A.6.0)          | A.6.A alias / where to author it                                           |
 |------------------------------------|---------------------------------------------------------------------------|
 | **SubjectBlock**            | One‑line declaration above the block (**SubjectKind + BaseType**; may be visually split into **Subject/Quantification**; avoid “governed” wording) |
 | **Vocabulary**                     | **Derivations** (public types/relations/operators that the theory contributes) |
@@ -5983,31 +6790,31 @@ This ensures both cross‑family uniformity **and** compatibility with existing 
  
 *Prohibition.* The Signature block is **conceptual**: no packaging/CI/tooling metadata (LEX firewall), no Γ‑builders (except as permitted below for CAL).
 
-#### A.6:4.4 - Γ‑export policy and layering
+#### A.6.A:4.4 - Γ‑export policy and layering
 
 * A **CAL** architheory **SHALL** export **exactly one** aggregation/builder `Γ`. The **`Γ` identifier MUST be namespaced** under the architheory `id` (e.g., `ArchitheoryId.Γ`) to avoid collisions.
 * **LOG** and **CHR** architheories **SHALL NOT** export `Γ`.  
 * Import layering **SHALL** respect the holonic stack: **LOG/CHR may import CAL; CAL may import CAL**; import graphs are **acyclic** and respect **LEX‑BUNDLE** strata (Kernel → Architheory → Context → Instance); no cross‑bleed.
 
-#### A.6:4.5 - Signature header
+#### A.6.A:4.5 - Signature header
 
 Each Signature begins with:  
 `id` (PascalCase), `version` (SemVer), `status` (draft/review/stable/deprecated), `classification` (CAL/LOG/CHR), `imports` (list), `provides` (list, including Γ if CAL).  
 If **SubjectBlock** are non‑trivial, add a one‑liner in the header (or immediately above the block).
 
-### A.6:5 - Transport & Cross‑Context Use (coordination with A.6.1)
+### A.6.A:5 - Transport & Cross‑Context Use (coordination with A.6.1)
 
 Signatures **SHALL NOT** restate Bridge/CL mechanics. If cross‑context/plane use is intended, the Signature **names** the Bridge conceptually. Semantics are governed by **A.6.1 `U.Mechanism`**; **Bridges** are specified in **F.9**; **CL/CL^k** and **Φ/Ψ** penalty calculus live in **B.3**; **CL^plane** follows **C.2.1 CHR:ReferencePlane**. No implicit “latest”; time‑sensitive guards require an explicit **Γ_time** policy in the consuming mechanism.
 
-### A.6:6 - Normative Relations
+### A.6.A:6 - Normative Relations
 
 `implements(Realization, Signature)` (mandatory, one‑way) - `imports(Signatureᵢ, Signatureⱼ)` (DAG) - `provides(Signature, U.Type ∪ Operator)` (public namespace).
 
-### A.6:7 - Archetypal Grounding
+### A.6.A:7 - Archetypal Grounding
 
 Provide a brief pair of examples (Work/System; Knowledge/Episteme) that name SubjectBlock, show Vocabulary and Laws, and state Applicability/Context. Keep proofs out of the Signature.
 
-### A.6:8 - Conformance Checklist
+### A.6.A:8 - Conformance Checklist
 
 | ID | Requirement |
 |----|-------------|
@@ -6031,13 +6838,13 @@ Provide a brief pair of examples (Work/System; Knowledge/Episteme) that name Sub
 * [ ] Any referenced artefacts are anchored by SCR/RSCR identifiers (A.10).  
 * [ ] An **A.6.0 alignment note** is provided (table or one‑liners as above).
 
-### A.6:9 - Consequences
+### A.6.A:9 - Consequences
 
 * **Hard decoupling** — Kernel stability is preserved; swapping a Realization never breaks dependents.  
 * **In‑framework competition** — Alternative logics, physics, economic models can co‑exist under the same interface.  
 * **Machine‑checkable composition** — Because imports form a DAG and `provides` are explicit, automated loaders can detect conflicts early.
 
-### A.6:10 - Didactic Addendum — Benefits & Trade‑offs (informative)
+### A.6.A:10 - Didactic Addendum — Benefits & Trade‑offs (informative)
 
 | Benefit | What you get | Trade‑off / Guard |
 | --- | --- | --- |
@@ -6047,24 +6854,24 @@ Provide a brief pair of examples (Work/System; Knowledge/Episteme) that name Sub
 | **Numeric comparability sanity** | **normalize‑then‑compare** via **CG‑Spec/MM‑CHR**; explicit unit/scale alignment. | **Partial orders return sets**; illegal scalarisation (e.g., ordinal means) is blocked. |
 | **Layering predictability** | Exactly **one Γ** for **CAL**; **LOG/CHR** export none; **imports acyclic; no cross‑bleed across strata**. | Some constructs belong as **Mechanisms (A.6.1)**, not as architheories. |
 
-### A.6:11 - Rationale
+### A.6.A:11 - Rationale
 
 Why “Signature”? Familiar to engineers (function/type signatures) and to logicians (algebraic signatures). It is concise, neutral, and keeps the Kernel slim while enabling competing world‑views to co‑exist behind the same interface.
 
-### A.6:12 - Relations
+### A.6.A:12 - Relations
 
 *Specialises / is specialised by*: **A.6.0 `U.Signature`**, **A.6.1 `U.Mechanism`**.  
 *Constrained by*: LEX‑BUNDLE (registers/strata), D.CTX (Context), Part F (Bridges & cross‑context transport; naming).
 
-### A.6:End
+### A.6.A:End
 
 ## A.6.1 - U.Mechanism - Law‑governed application to a SubjectKind over a BaseType
 
-**One‑line summary.** A `U.Mechanism` is a specialisation of `U.Signature` (A.6.0): its **Vocabulary** is an explicit **OperationAlgebra** whose operators publish **SlotSpecs** (A.6.5), its **Laws** are a **LawSet**, and it adds **AdmissibilityConditions** (operational guards) plus a named **Transport** clause for cross‑context use. Transport is **Bridge‑only** (per **F.9**) with penalties routed to the **Reliability** channel only (**R**, or **R_eff** when distinguished) (per **B.3**); **F/G** remain invariant; **CL^plane** follows **C.2.1 CHR:ReferencePlane**. Realizations **MAY** be published under **A.6** (Signature→Realization; **one Γ only if `classification=CAL`**; acyclic imports; opacity).
+**One‑line summary.** A `U.Mechanism` is a specialisation of `U.Signature` (A.6.0): its **Vocabulary** is an explicit **OperationAlgebra** whose operators publish **SlotSpecs** (A.6.5), its **Laws** are a **LawSet**, and it adds **AdmissibilityConditions** (operational guards) plus a named **Transport** clause for cross‑context use. Transport is **Bridge‑only** (per **F.9**) with penalties routed to the **Reliability** channel only (**R**, or **R_eff** when distinguished) (per **B.3**); **F/G** remain invariant; **CL^plane** follows **C.2.1 CHR:ReferencePlane**. Realizations **MAY** be published under **A.6.A** (Signature→Realization; **one Γ only if `classification=CAL`**; acyclic imports; opacity).
 
 **Status.** Normative \[A\] in **Part A (Kernel)**.  
 
-**Placement.** Immediately **after A.6** as **A.6.1**. **USM (A.2.6)** and **UNM (A.19/C.16)** become **instances conforming to A.6.1** (no semantic change to either).
+**Placement.** Immediately **after A.6.A** as **A.6.1**. **USM (A.2.6)** and **UNM (A.19/C.16)** become **instances conforming to A.6.1** (no semantic change to either).
 
 **Mint vs reuse.** This pattern mints the Kernel lexemes `U.Mechanism`, `U.MechMorph`, and `U.MechAuthoring`, plus the descriptive record names `MechanismDescription`, `MechFamilyDescription`, and `MechInstanceDescription`. It reuses `U.Signature` (A.6.0), `U.Type`, `U.BoundedContext`, and Part F Bridge/CL/ReferencePlane terms without changing them; it does **not** mint new `U.Type` core types.
 
@@ -6084,7 +6891,7 @@ Give FPF **one uniform kernel shape** for things like **USM** (set‑algebra on 
 
 ### A.6.1:2 - Problem
 
-Without a kernel abstraction, scope/normalization/comparison constructs proliferate with incompatible algebras and guard surfaces; cross‑context reuse lacks visible **Bridge/CL routing**; comparability drifts into **illegal scalarisation** (e.g., ordinal means). FPF already curbs this via **A.6** (Signature discipline), **USM** (scope algebra & Γ_time), **UNM** (normalize‑then‑compare), and **CG‑Spec** (lawful comparators/ScoringMethods)—but lacks a **common meta‑slot** for “mechanism.”
+Without a kernel abstraction, scope/normalization/comparison constructs proliferate with incompatible algebras and guard surfaces; cross‑context reuse lacks visible **Bridge/CL routing**; comparability drifts into **illegal scalarisation** (e.g., ordinal means). FPF already curbs this via **A.6.A** (Signature discipline), **USM** (scope algebra & Γ_time), **UNM** (normalize‑then‑compare), and **CG‑Spec** (lawful comparators/ScoringMethods)—but lacks a **common meta‑slot** for “mechanism.”
 
 ### A.6.1:3 - Forces
 
@@ -6096,7 +6903,7 @@ Without a kernel abstraction, scope/normalization/comparison constructs prolifer
 
 **Slot clarity vs specialisation depth.** Multi‑level specialisations require explicit **SlotSpecs** (A.6.5) and monotone refinement of **ValueKinds**; SlotKinds are stable across levels (no implicit positional parameters).
 
-**Signature hygiene.** Obey **A.6** (exactly one Γ from CAL, LOG/CHR export none; imports acyclic; realizations opaque).
+**Signature hygiene.** Obey **A.6.A** (exactly one Γ from CAL, LOG/CHR export none; imports acyclic; realizations opaque).
 
 ### A.6.1:4 - Solution
 
@@ -6118,9 +6925,9 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
   Mechanism‑only additions are `AdmissibilityConditions`, `Transport`, `Γ_timePolicy`, `PlaneRegime`, and `Audit`; they extend the Signature without contradicting its intension/specification split (A.6.0; CC‑A.6.0‑5).
 
 * **IntensionHeader.** `id` (PascalCase), `version` (SemVer), `status` (draft/review/stable/deprecated).  
-  If realized as an **Architheory**, add the **A.6** header with `classification ∈ {CAL|LOG|CHR}` and `imports/provides`; **only CAL may export exactly one Γ**; **LOG/CHR export none**. For **Kernel‑level** realizations, do **not** mint an A.6 header.
+  If realized as an **Architheory**, add the **A.6.A** header with `classification ∈ {CAL|LOG|CHR}` and `imports/provides`; **only CAL may export exactly one Γ**; **LOG/CHR export none**. For **Kernel‑level** realizations, do **not** mint an A.6.A header.
 
-* **Imports.** Architheory Signatures / `U.Types` this mechanism requires (notation‑independent; **acyclic**). When realized as an Architheory, **LOG/CHR may import CAL; CAL may import CAL** (A.6 layering).
+* **Imports.** Architheory Signatures / `U.Types` this mechanism requires (notation‑independent; **acyclic**). When realized as an Architheory, **LOG/CHR may import CAL; CAL may import CAL** (A.6.A layering).
 * **BaseType.** A `U.Type` the mechanism ranges over. CHR spaces (e.g., a `U.CharacteristicSpace`/chart family) appear here **as types**; outside CHR, use set‑typed `U.Type`s. A conformant `U.Mechanism` publication **MUST NOT** mint a new core type here; it **MUST** reference existing `U.Type`s. If planes differ, state the **ReferencePlane** policy (see *PlaneRegime*).
 * **SubjectKind / SliceSet / ExtentRule / ResultKind? / SlotIndex.**
   • **SubjectKind.** The intensional kind acted upon (C.3.1/3.2), separate from quantification.
@@ -6149,9 +6956,9 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
 * **PlaneRegime.** Declare `ReferencePlane` on values/paths; when planes differ, name **CL^plane** and apply a **Φ_plane** policy (Part F/B.3). Plane penalties **do not** change CL; route to **R/R_eff** only; **F/G** stay invariant.
 
 * **Audit.** Conceptual audit surface only (no data/telemetry workflows): crossings are publishable on **UTS**; surface **policy‑ids** rather than tables. Edition pins and regression hooks (if any) are referenced by id; operational details remain out of scope.
-* **SignatureBlock alignment (A.6).** When realized as an **Architheory**, map `U.Mechanism.Intension` to the **A.6 Signature Block** — `Imports`, **Derivations**, **Invariants**, **BelongsToAssurance** — and include the **A.6 header** with `classification/provides`. **CAL** Realizations MAY **provide exactly one Γ**; **LOG/CHR provide none**; **imports form a DAG**; internals **opaque**. SlotKinds and SlotSpecs in `SlotIndex` remain part of the **Vocabulary** row (A.6.0) and **MUST** obey A.6.5 in all Architheory renderings.
+* **SignatureBlock alignment (A.6.A).** When realized as an **Architheory**, map `U.Mechanism.Intension` to the **A.6.A Signature Block** — `Imports`, **Derivations**, **Invariants**, **BelongsToAssurance** — and include the **A.6.A header** with `classification/provides`. **CAL** Realizations MAY **provide exactly one Γ**; **LOG/CHR provide none**; **imports form a DAG**; internals **opaque**. SlotKinds and SlotSpecs in `SlotIndex` remain part of the **Vocabulary** row (A.6.0) and **MUST** obey A.6.5 in all Architheory renderings.
 
-**Compatibility with A.6.** If realized as an **architheory** (CAL/LOG/CHR), obey A.6 (**one Γ for CAL only; acyclic imports; opacity**). Kernel‑level realizations remain notation‑independent and publish the same fields for auditability. LEX discipline applies to all minted tokens.
+**Compatibility with A.6.** If realized as an **architheory** (CAL/LOG/CHR), obey A.6.A (**one Γ for CAL only; acyclic imports; opacity**). Kernel‑level realizations remain notation‑independent and publish the same fields for auditability. LEX discipline applies to all minted tokens.
 
 #### A.6.1:4.2 - U.MechMorph - Refinement, Extension, Equivalence & Composition
 
@@ -6166,12 +6973,11 @@ and admits Realizations (kernel‑level or architheory‑level) that respect it.
 
 * **Product** `M×N`: independent **BaseTypes**; ops are component‑wise; ensures **no illegal cross‑ops** (e.g., set‑algebra discipline for `SpanUnion`). Where independence is claimed, **name and justify** the assumption (do not mint new Kernel types here).
 
-
 ##### A.6.1:4.2.1 - Multi-level specialisation ladders (normative)
 
 Many families need a **generic** mechanism at the top (e.g., “select anything”) and progressively **specialised** mechanisms below (e.g., “select a method by decision theory”, “select a telemetry pack”). To keep such ladders **modular** and to prevent cross‑level leakage:
 
-1. **Explicit parent + morphism kind.** Any mechanism that specialises another **MUST** name its parent and declare whether the step is a **Refinement** (`⊑`) or an **Extension** (`⊑⁺`). A specialisation family **MUST** be acyclic (a DAG), mirroring A.6 import discipline.
+1. **Explicit parent + morphism kind.** Any mechanism that specialises another **MUST** name its parent and declare whether the step is a **Refinement** (`⊑`) or an **Extension** (`⊑⁺`). A specialisation family **MUST** be acyclic (a DAG), mirroring A.6.A import discipline.
 
 2. **SlotKind invariance across levels.** For every inherited operation/guard predicate, SlotKinds are invariant (A.6.5). A specialisation step **MUST NOT** rename an inherited SlotKind, change its documented semantics, or rely on positional re‑ordering instead of SlotKind identity.
 
@@ -6224,7 +7030,7 @@ Many families need a **generic** mechanism at the top (e.g., “select anything�
 
 #### A.6.1:4.7 - 60‑second didactic script
 
-> *“To mint a mechanism, fill a **Mechanism.Intension**: declare **SubjectBlock** (**SubjectKind**, **BaseType**, **SliceSet**, **ExtentRule**, **ResultKind?**) and **SlotSpecs**; then **OperationAlgebra/Laws/AdmissibilityConditions** and **Γ_time**; define **Transport** (Bridge/CL with penalties to R only), and **Audit** (UTS + Path pins). Realize it as CAL/LOG/CHR under **A.6**. USM and UNM are already such mechanisms; the same template births comparison, scoring, and publication mechanisms—safely bound to **CG‑Spec**—without leaving the kernel grammar.”*
+> *“To mint a mechanism, fill a **Mechanism.Intension**: declare **SubjectBlock** (**SubjectKind**, **BaseType**, **SliceSet**, **ExtentRule**, **ResultKind?**) and **SlotSpecs**; then **OperationAlgebra/Laws/AdmissibilityConditions** and **Γ_time**; define **Transport** (Bridge/CL with penalties to R only), and **Audit** (UTS + Path pins). Realize it as CAL/LOG/CHR under **A.6.A**. USM and UNM are already such mechanisms; the same template births comparison, scoring, and publication mechanisms—safely bound to **CG‑Spec**—without leaving the kernel grammar.”*
 
 #### A.6.1:4.8 - Quick “builder’s” checklist (author‑facing)
 
@@ -6281,7 +7087,7 @@ This pattern intentionally biases Mechanism authoring toward explicit contracts,
 |----|-------------|
 | **CC‑UM.0** | **A.6.0 alignment:** a conformant `U.Mechanism` publication **MUST** include the four‑row `U.Signature` Block (A.6.0). `OperationAlgebra` (including inline SlotSpecs per A.6.0:4.1.1/A.6.5) is the **Vocabulary** row, `LawSet` the **Laws** row, and `Applicability` the **Applicability** row; the universal block remains the comparability contract. Any `SlotIndex` is an index/projection and **MUST NOT** be treated as a fifth Signature row. |
 | **CC‑UM.1** | **Complete Mechanism.Intension:** a conformant `U.Mechanism` publication **MUST** publish: `IntensionHeader(id, version, status); Imports; SubjectBlock (SubjectKind, BaseType, SliceSet, ExtentRule, ResultKind?); SlotIndex (A.6.5); OperationAlgebra; LawSet; AdmissibilityConditions; Applicability; Transport (Bridge named; ReferencePlane); Γ_timePolicy; PlaneRegime; Audit`. `IntensionHeader.id` **MUST** be PascalCase; `version` **MUST** follow SemVer; `status ∈ {draft|review|stable|deprecated}`. Eligibility/admission tests **MUST** be expressed as `AdmissibilityConditions`, not as `LawSet`. |
-| **CC‑UM.2** | **A.6 alignment (Realizations):** if realized as an Architheory (CAL/LOG/CHR), the Realization artifact **MUST** use the A.6 header and obey A.6: it **MUST** `provide` exactly one Γ iff `classification=CAL`, it **MUST NOT** provide any Γ if `classification ∈ {LOG|CHR}`, and its imports **MUST** be acyclic. Realization internals **MUST** remain opaque. Realizations **MAY** tighten but **MUST NOT** relax `LawSet` or `AdmissibilityConditions`. Kernel‑level publications **MUST NOT** mint an A.6 header. |
+| **CC‑UM.2** | **A.6.A alignment (Realizations):** if realized as an Architheory (CAL/LOG/CHR), the Realization artifact **MUST** use the A.6.A header and obey A.6.A: it **MUST** `provide` exactly one Γ iff `classification=CAL`, it **MUST NOT** provide any Γ if `classification ∈ {LOG|CHR}`, and its imports **MUST** be acyclic. Realization internals **MUST** remain opaque. Realizations **MAY** tighten but **MUST NOT** relax `LawSet` or `AdmissibilityConditions`. Kernel‑level publications **MUST NOT** mint an A.6.A header. |
 | **CC‑UM.3** | **Bridge‑only transport:** for any cross‑context/plane use, `Transport` **MUST** name the BridgeId and channel (F.9) and **MUST** record `ReferencePlane(src,tgt)` (C.2.1); when planes differ it **MUST** name `CL^plane`. Implicit crossings **MUST NOT** occur. When typed reuse is involved, the two‑bridge rule **MUST** apply (scope CL and kind `CL^k` penalties routed separately to **R**/**R_eff**). `Transport` is a declarative policy surface and **MUST NOT** be used to introduce a `U.Transfer` edge (E.18 term separation). It **MUST NOT** restate CL ladders or Φ/Ψ/Φ_plane tables; it **MUST** reference policy ids / registries. |
 | **CC‑UM.4** | **R‑only routing:** any CL / `CL^k` / `CL^plane` penalties declared or incurred by `Transport` **MUST** reduce the Reliability channel only (**R**, or **R_eff** when distinguished) per **B.3**; they **MUST NOT** mutate **F/G**. |
 | **CC‑UM.5** | **CG‑Spec binding:** if the Mechanism defines or induces any numeric comparison or aggregation, it **MUST** bind to **CG‑Spec/MM‑CHR** (lawful **SCP**, Γ‑fold, MinimalEvidence; normalize‑then‑compare) and obey CHR legality: partial orders **MUST** return sets; ordinal means **MUST NOT** be computed; interval/ratio arithmetic **MUST** occur only with unit alignment (CSLC‑proven). |
@@ -6311,7 +7117,7 @@ This pattern intentionally biases Mechanism authoring toward explicit contracts,
 
 ### A.6.1:10 - Rationale (informative)
 
-Anchoring mechanisms in **A.6 Signature→Realization** provides a minimal, typed surface that preserves **USM** set‑algebra and **UNM** “normalize‑then‑compare” quotients while making **Part F (Bridges)** crossings explicit and costed on **R** (never **F/G**).
+Anchoring mechanisms in **A.6.A Signature→Realization** provides a minimal, typed surface that preserves **USM** set‑algebra and **UNM** “normalize‑then‑compare” quotients while making **Part F (Bridges)** crossings explicit and costed on **R** (never **F/G**).
 
 ### A.6.1:11 - SoTA-Echoing (post-2015 practice alignment) *(informative)*
 
@@ -6361,7 +7167,7 @@ a part-holon declares its own `OperationAlgebra/LawSet/AdmissibilityConditions`;
 
 ### A.6.1:12 - Relations (quick pointers)
 
-Builds on **A.6**; instantiates **A.2.6 USM** (ContextSlice, Γ_time, ∩/SpanUnion/translate) and **A.19/C.16 UNM** (classes, ≡\_UNM, validity windows); uses **Part B** (Bridges, CL/CL^k/CL^plane; **no implicit crossings**); binds **CG‑Spec** for any numeric comparison/aggregation; telemetry/publication via **G.10/G.11**.
+Builds on **A.6.A**; instantiates **A.2.6 USM** (ContextSlice, Γ_time, ∩/SpanUnion/translate) and **A.19/C.16 UNM** (classes, ≡\_UNM, validity windows); uses **Part B** (Bridges, CL/CL^k/CL^plane; **no implicit crossings**); binds **CG‑Spec** for any numeric comparison/aggregation; telemetry/publication via **G.10/G.11**.
 
 ### A.6.1:End
 
@@ -8976,7 +9782,7 @@ Umbrella metaphors are disallowed as substitutes for baseRelation tokens; prose 
 **One-line summary.** A `MechSuiteDescription` is a Kernel **Description** token that names a **set of distinct** `U.Mechanism.Intension` (different mechanisms, not realizations of one mechanism) and declares **suite-level obligations**, **required contract pins**, and **allowed usage protocols**, without conflating this with `MechFamilyDescription` or with publication `Pack`s.
 
 **Plain-name.** mechanism suite description; mechanism suite passport.
-**Placement.** Part A → cluster A.IV (A.6), immediately after A.6.5.
+**Placement.** Part A → cluster A.IV (A.6.A), immediately after A.6.5.
 
 **Builds on.** E.8 (pattern template discipline), A.6.1 (`U.Mechanism.Intension` canonical form), A.6.5 (slot/ref discipline), E.10 (lexical + ontological rules; strict distinction; minimal specificity; kind suffixes), E.19 (conformance checks), E.18 (TGA / P2W graph discipline; crossing visibility), A.21 (OperationalGate(profile) and gate-level decisions).
 
@@ -9114,7 +9920,7 @@ MechSuiteDescription := ⟨
   A suite MUST NOT be encoded as a `MechFamilyDescription`.
   If desired, a suite MAY additionally **cite** `MechFamilyDescription` / `MechInstanceDescription` for particular members (e.g., “preferred realization for this context”), but such citations do not redefine membership.
 
-* **Implementation citation discipline (A.6-level export hygiene).**
+* **Implementation citation discipline (A.6.A-level export hygiene).**
   If a suite cites realizations/implementations (e.g., CAL/LOG/CHR realizations of a member mechanism), such citations MUST remain referential and MUST preserve the underlying mechanism’s export/import discipline:
   LOG/CHR realizations MUST NOT export Γ; CAL realizations MUST export exactly one Γ; and realization imports MUST remain acyclic.
 
@@ -9196,7 +10002,7 @@ SuiteObligations := {
    Well-formedness constraint: `FinalizeLaunchValues` (and any witness of actual launch values) occurs only in `U.WorkEnactment`; neither the suite nor any planned-baseline artifact is a place for launch values.
 
 12. **`implementation_export_discipline_when_cited`.**
-* Well-formedness constraint: if a suite cites realizations/implementations, citations preserve the A.6 export/import discipline (LOG/CHR: no Γ export; CAL: exactly one Γ; imports acyclic). This constrains citations; it does not redefine mechanism membership.
+* Well-formedness constraint: if a suite cites realizations/implementations, citations preserve the A.6.A export/import discipline (LOG/CHR: no Γ export; CAL: exactly one Γ; imports acyclic). This constrains citations; it does not redefine mechanism membership.
 
 #### A.6.7:4.3 SuiteContractPins
 
@@ -17455,7 +18261,7 @@ FPF therefore needs a **more modular, graph‑shaped ontology** for epistemes wh
 * and demotes the old non-SoTA **semanit triangle** to a **didactic projection**, not the normative ontology.
 
 In this pattern:+
-* `U.Episteme` is the **holon genus** for epistemes (C.2), with components and identity governed by A.1/A.6/A.7.
+* `U.Episteme` is the **holon genus** for epistemes (C.2), with components and identity governed by A.1/A.6.A/A.7.
 * `U.EpistemeSlotGraph` names the **internal ontology graph** of `U.Episteme`: the small, typed n-ary relation over episteme positions (`DescribedEntitySlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) on which KD-CAL, A.6.2–A.6.4 and E.17.* rely.
 * Species such as `U.EpistemeCard`, `U.EpistemeView`, `U.EpistemePublication` are holonic realisations of `U.Episteme` whose component structure is constrained to be compatible with `U.EpistemeSlotGraph`.
 
@@ -21026,7 +21832,7 @@ Guard_RegXContextUse(P, k_reg@R_auth, S_local@R_local):
 * **Widening G to compensate for type gaps.** If kinds don’t line up, introduce a **subkind**, add a **mask/adapter**, or **narrow**; don’t “make the scope bigger”.
 
 
-##### C.3.A:A.6 Migration checklist  \[I]
+##### C.3.A:A.6.A Migration checklist  \[I]
 
 1. **Inventory** regulatory references in policies/specs.
 2. **Create Kind cards** for referenced legal categories (intent summary, `KindSignature` + **F**, known subkinds, AT tag if helpful).
@@ -25245,7 +26051,7 @@ This guidance biases toward **Did** (readability, narrative flow) and **Arch** (
 **CC style (canonical).**
 Conformance Checklist items are obligations/conditions in the **authoring plane**: they constrain artefacts that claim conformance (and the reviewers/validators that accept them). A CC clause of the form “X SHALL …” is to be read as “In a conforming artefact, X SHALL …”, not as a deontic statement about the modeled world.
 
-**Preferred wording for new or edited CC items:** start with an explicit conformance subject (e.g., “Authors …”, “Reviewers …”, “A conforming implementation …”, “A validator …”). If a CC item is enforcing an admissibility predicate, it **SHOULD** cite the predicate’s identifier (from a `Definition:` / `Invariant:` / `Well‑formedness constraint:` block) rather than restating the predicate as “X MUST …”.
+**Preferred wording for new or edited CC items:** start with an explicit conformance subject (e.g., “Authors …”, “Reviewers …”, “A conforming implementation …”, “A validator …”). If a CC item is enforcing an admissibility predicate, it **SHOULD** cite the predicate’s identifier (from a `Definition:` / `Invariant:` / `Well‑formedness constraint:` block) rather than restating the predicate as “X MUST …”. For boundary/interface/protocol/contract patterns, prefer A.6.B‑routed claim IDs (L/A/D/E) or cite an existing Claim Register (A.6.B:7) instead of restating mixed prose.
 
 | ID | Requirement | Purpose |
 |----|-------------|---------|
@@ -25261,6 +26067,7 @@ Conformance Checklist items are obligations/conditions in the **authoring plane*
 | **CC‑SG.9 (Lexical hygiene).** | The term **mapping** **SHALL NOT** appear in SoTA‑Echoing except in the precise E.10 sense; use **alignment/Bridge/relation** instead. | Avoids overloading reserved vocabulary. |
 | **CC‑SG.10 (No keyword soup).** | SoTA‑Echoing items **MUST** be written as sentences (not bare noun phrases); bullet lists are acceptable only with complete clauses. | Improves didactic quality and comparability. |
 | **CC‑SG.11 (Anti‑patterns).** | Every pattern **SHALL** include a **Common Anti‑Patterns and How to Avoid Them** section. It **MAY** be `Not applicable` only with a one‑paragraph justification. | Makes misuse paths explicit and reduces review churn. |
+| **CC‑SG.12 (Boundary routing).** | If a pattern’s subject is a boundary/interface/protocol/contract (API boundary, protocol, connector, “contract” description, or a published boundary surface), it **MUST** either (a) provide an **A.6.B**‑routed atomic claim set (`L-*`/`A-*`/`D-*`/`E-*`, with stable IDs), or (b) explicitly cite an existing **A.6.B Claim Register** / routed claim set that it reuses. | Pulls A.6.B into the authoring contour; prevents “contract soup” and makes review lintable. |
 
 ### E.8:8 - Common Anti‑Patterns and How to Avoid Them
 
@@ -29458,7 +30265,7 @@ Publish a UTS block named `ViewpointMap` that ties engineering viewpoints (from 
 | ID | Requirement | Practical test |
 |----|-------------|----------------|
 | **CC‑TGA‑01 — Single edge kind** | The graph uses exactly one edge kind `U.Transfer`; all plane/Context/edition transitions occur only at nodes via `OperationalGate(profile)`. | Model lint finds no auxiliary edge kinds for unit/plane changes; crossings sit on declared gates. |
-| **CC‑TGA‑02 — Nodes are morphisms** | Nodes are intensional `U.Transduction(kind∈{Signature,Mechanism,Work,Check,StructuralReinterpretation})`. This enumeration is a **minimal roles baseline**. **Domain‑specific species are open‑world** and non‑exhaustive; they bind to one of these kinds. Adding a **new kind** requires an explicit E.TGA update. `StructuralReinterpretation` nodes are **projection‑preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and carry CV/GF obligations per A.20/A.21/A.45. **Mapping to A.\*** (normative): the enumeration is **not** a TGA‑local taxonomy; each `kind` is identified 1‑to‑1 with its A.\* anchor: `Signature→A.6.0`, `Mechanism→A.6.1`, `Work→A.15`, `Check→OperationalGate` (until a dedicated A.\* pattern is published). **Disambiguation:** `Signature (kind)` ≠ `KindSignature` (C.3.2) and ≠ `A.6 Architheory Signature` view. | Type registry shows at least the listed kinds; additional species map to one of them; checks realized as `OperationalGate` (see CC‑TGA‑06‑EX/11). **Lint:** registry/table exposes `{species → {kind, KindDefinition}}`; missing or mismatched `KindDefinition` fails. |
+| **CC‑TGA‑02 — Nodes are morphisms** | Nodes are intensional `U.Transduction(kind∈{Signature,Mechanism,Work,Check,StructuralReinterpretation})`. This enumeration is a **minimal roles baseline**. **Domain‑specific species are open‑world** and non‑exhaustive; they bind to one of these kinds. Adding a **new kind** requires an explicit E.TGA update. `StructuralReinterpretation` nodes are **projection‑preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and carry CV/GF obligations per A.20/A.21/A.45. **Mapping to A.\*** (normative): the enumeration is **not** a TGA‑local taxonomy; each `kind` is identified 1‑to‑1 with its A.\* anchor: `Signature→A.6.0`, `Mechanism→A.6.1`, `Work→A.15`, `Check→OperationalGate` (until a dedicated A.\* pattern is published). **Disambiguation:** `Signature (kind)` ≠ `KindSignature` (C.3.2) and ≠ `A.6.A Architheory Signature` view. | Type registry shows at least the listed kinds; additional species map to one of them; checks realized as `OperationalGate` (see CC‑TGA‑06‑EX/11). **Lint:** registry/table exposes `{species → {kind, KindDefinition}}`; missing or mismatched `KindDefinition` fails. |
 | **CC‑TGA‑03 — Identity, composition, functorial faces** | Identities exist; path composition associative; publication is functorial: `Emit_s(t₂∘t₁)=Emit_s(t₂)∘Emit_s(t₁)`. | Pick two‑step path; MVPK faces commute (Square witness). |
 | **CC‑TGA‑04 — Graph spec** | Spec declares `τ_V, τ_E`, `Γ_time`, Transport/Bridge registries. | Spec file shows typed registries and Γ policy. |
 | **CC‑TGA‑05 — CtxState pins** | `CtxState=⟨L,P,E⃗,D⟩` is pinned on ports/tokens; raw `U.Transfer` does **not** write/update it. | Along a raw transfer, ⟨L,P,E⃗,D⟩ is preserved. |
@@ -29493,7 +30300,7 @@ Publish a UTS block named `ViewpointMap` that ties engineering viewpoints (from 
 **Glossary (additions)**  
 * *Open‑world species* — non‑exhaustive domain‑level specializations of `U.Transduction` that map to the minimal kind set.  
 * *Signature (TGA kind)* — `U.Transduction(kind=Signature)`; **identical to** **A.6.0** `U.Signature` (universal block). **Not** a `C.3.2 KindSignature`.  
-* *Architheory Signature (A.6)* — family‑specific **view** and discipline that **specialises** A.6.0 for architheories; the universal A.6.0 block remains the source of truth.  
+* *Architheory Signature (A.6.A)* — family‑specific **view** and discipline that **specialises** A.6.0 for architheories; the universal A.6.0 block remains the source of truth.  
 * *KindSignature (C.3.2)* — intensional definition of a `U.Kind` (intent/extent, F); **unrelated** to TGA kinds; never a `genus`.  
 * *Species (domain‑level)* — typed specialisations `speciesOf(kind=…)` that **MUST** declare `KindDefinition=A.*` id (e.g., `kind=Mechanism; KindDefinition=A.6.1`).  
 * *KindBridge (`CL^k`)* — a compatibility surface on UTS for describedEntity/kind transitions; required by CC‑TGA‑06‑EX and crossings (CC‑TGA‑11).
