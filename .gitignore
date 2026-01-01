@@ -1,0 +1,21 @@
+# Add below lines to exclude OS settings and caches
+.DS_Store
+Thumbs.db
+.trash/
+
+# Virtual environments (python development)
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.envrc
