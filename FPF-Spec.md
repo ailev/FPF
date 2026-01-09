@@ -1,6 +1,6 @@
 # First Principles Framework (FPF) — Core Conceptual Specification
 by Anatoly Levenchuk and assortment of LLMs.
-December 2025
+January 2026
 
 Pattern and headers templates are explained in pattern E.8.
 
@@ -20,6 +20,8 @@ Pattern and headers templates are explained in pattern E.8.
 | Descriptive Ontologies vs. A Thinking-Oriented Architecture                                                                                  | full text | Differentiates FPF's goal of orchestrating reasoning from classical ontologies' goal of cataloging existence, emphasizing FPF's focus on objectives, trust, and dynamics.                                                             |
 | The "Bitter Lesson" trajectory — compute, data, and freedom over hand‑tuned rules (FPF stance)                                               | full text | How FPF operationalizes the contemporary trend: prefer general models + data + compute + minimal constraints; autonomy budgets; rule‑of‑constraints vs instruction‑of‑procedure; continuous adaptation.                               |
 | From Flat Documents to High-Dimensional Truth: The Multi-View Architecture                                                                   | full text | Shows how FPF replaces flat documents with a multi-view architecture: epistemes as slot graphs, engineering views as projections, and MVPK as typed publication surfaces that keep dashboards lawfully tethered to work and evidence. |
+| Boundary Statements: Where Language Becomes a System Boundary                                                                          | full text | Introduces the A.6 boundary cluster: why certain sentences behave like contracts, and how routing (laws vs gates vs duties vs evidence) keeps them evolvable and multi-view safe. |
+| Raising Semantic Precision: From Triggers to Math‑Backed Ontics                                                                        | full text | Describes the precision-upgrade workflow behind A.6.P: detect umbrella words, unpack the local ontology, choose a stable mathematical substrate, refactor the model, and mint precise lexemes + guardrails (Tech/Plain twins). |
 | The “big storylines” unique to FPF (load‑bearing commitments)                                                                                | full text | Lists the nine core, load-bearing commitments that define FPF's unique architectural and philosophical stance, from its holonic kernel to its explicit treatment of creativity and assurance.                                         |
 | Transdisciplinarity as a Meta‑Theory of Thinking                                                                                             | full text | Explains how FPF treats transdisciplinarity as a meta-theory for designing reasoning, using FPF patterns as generative scaffolds grounded in physical reality to bridge disciplinary silos.                                          |
 | FPF as a Culinary Architecture for Collective Thought: Why We Formalize “Obvious” Ideas                                                      | full text | Uses the 'culinary architecture' analogy to explain FPF's role in synthesizing 'obvious' ideas into a robust framework for complex, generative problems.                                                                              |
@@ -509,6 +511,53 @@ This multi-view architecture is designed for the age of the **Bitter Lesson**. M
 
 By treating description as a graph of typed projections rather than a pile of files, FPF gives the Engineer tools to keep views coherent, the Researcher tools to trace provenance across viewpoints, and the Manager justified confidence that dashboards and reports are lawful views of the territory, not parallel worlds.
 
+## Boundary Statements: Where Language Becomes a System Boundary
+
+Most of the time we can think in fast, compressed speech. Teams say “it’s the same”, “we synced it”, “the service guarantees”, “this is compliant”, and everyone roughly knows what is meant. Nothing explodes—until that sentence crosses a boundary: it lands in an interface, a safety case, an evaluation protocol, a contract, or a dashboard used for a go/no‑go decision.
+
+At the boundary, prose stops being “just communication” and starts behaving like a mechanism. Ambiguity becomes a latent defect: it forks viewpoints, hides obligations, and later gets “patched” by politics rather than evidence.
+
+In post‑2015 engineering practice, boundary text is everywhere:
+
+- API contracts (OpenAPI/Protobuf/gRPC), schema evolution, and data contracts;
+- SLO/SLA language in SRE, incident retrospectives, and operational gating;
+- ML governance artefacts: evaluation protocols, model cards, dataset sheets, reproducibility checklists;
+- regulatory and safety assurance: “what is guaranteed”, “what is admissible”, “what evidence counts”.
+
+FPF treats such boundary sentences as first‑class architectural objects. The **A.6 cluster** (*Signature Stack & Boundary Discipline*) is the place in the spec that deals with the edge‑cases of meaning: the situations where “normal prose” is too lossy, but a full formal spec is not yet available (or not yet worth the cost).
+
+The key idea is simple: do not let one sentence do four jobs. When the same line simultaneously tries to define meaning, declare a runtime gate, assign a duty, and claim evidence, it becomes uncheckable. A.6 gives a lightweight routing discipline—captured as the **Boundary Norm Square** (A.6.B)—that keeps these roles separate:
+
+- **L — laws & definitions** (truth‑conditional content you can inspect or reason over),
+- **A — admissibility & gates** (what a mechanism admits at application time),
+- **D — deontics & commitments** (who owes what, to whom, and under which scope),
+- **E — work‑effects & evidence** (what must be observable on carriers so adjudication is possible).
+
+Once boundary talk is routable, it becomes evolvable: different views can publish the *same* underlying boundary without creating parallel contracts, and changes can be narrated without silently rewriting meaning.
+
+## Raising Semantic Precision: From Triggers to Math‑Backed Ontics
+
+FPF does not assume people will speak in fully‑typed relational algebra on day one. Early thought is sketchy, and that is healthy. What matters is having a repeatable upgrade path—a way to go from “useful but ambiguous” to “auditable and reusable” when a statement starts carrying load.
+
+That upgrade is often called “formalization” in everyday speech, but in FPF it is a **semantic precision upgrade**: a small workflow that turns compressed language into structure you can reason about. “Formalization” is only one internal step: choosing a stable mathematical substrate so the reasoning cannot collapse back into vibes.
+
+A good precision upgrade tends to follow five moves:
+
+1. **Notice the triggers.** Umbrella verbs (“sync/align/ground/depends”), pronouns (“it/this”), and metonymic endpoints (“the service”, “production”) are not sins; they are alarms that a richer ontic fragment is hiding underneath.
+2. **Unpack the ontic fragment.** Make the local mini‑ontology explicit: which kinds, roles, scopes, viewpoints, time selections, and evidence objects are actually in play.
+3. **Put a stable mathematical object under it.** Choose a structure with known behaviour—record types with named slots, typed n‑ary relations / hyperedges, partial orders, lattices, graphs, effect signatures—so future edits become well‑posed transformations rather than rewrites of prose.
+4. **Refactor the ontology to fit the substrate.** Split bundled notions, make participant positions explicit, declare invariants, and introduce named change classes for “what changed?” (retarget vs revise vs rescope, etc.).
+5. **Mint precise lexemes and guardrails.** Give the refined concepts specific names and keep them paired across registers (Tech/Plain twins via **LEX‑BUNDLE**, E.10). Add lexical firewalls so the umbrella words don’t silently re‑enter and collapse distinctions again.
+
+In the spec this precision‑upgrade move is captured as a family recipe (**A.6.P**, Relational Precision Restoration) and then specialised for recurring boundary pain points (slot discipline, basedness declarations, service polysemy, cross‑context “same”, contract unpacking). The point is not to ban natural language; the point is to make natural language *upgradeable*.
+
+A tiny example illustrates the intent:
+
+Before (fast speech): “We synced the model with production.”  
+After (precision‑restored): declare *which* relation kind holds between *which* endpoints, under *which* scope/time/viewpoint, with *which* admissible change classes—and publish a Plain gloss that maps back to the Tech token.
+
+Once the relation has a kind, slots, qualifiers, and a change lexicon, you can do what modern SoTA engineering expects: evolve it safely, compare editions, automate checks, and still keep the story readable for humans.
+
 ## The “big storylines” unique to FPF (load‑bearing commitments)
 1. **Holonic kernel with physical anchoring**  —  everything that composes is a `U.Holon`; every change is enacted by an **external transformer** (A.1; A.12).
 2. **Role–Method–Work split with time duality** — prevents the endemic plan/reality conflation; only `U.Work` carries actuals (A.4; A.15.1–.2).
@@ -517,7 +566,8 @@ By treating description as a graph of typed projections rather than a pile of fi
 5. **Local meaning, global alignment** — `U.BoundedContext` islands and explicit Bridges with **congruence‑loss** turn “it depends” into a Standard (A.1.1; F.9).
 6. **Publication Standard & guard‑rails** — Core ↔ Tooling ↔ Pedagogy split, notational independence, and Lexical Discipline prevent conceptual drift (E.5; E.10).
 7. **Open‑ended evolution by design** — evolve not only solutions but also problem frames; work not only on holons‑of‑interest but also across the diversity of their environments.
-8. ** Creativity with Novelty and Quality Diversity optimisation**  — DRR, evidence refresh, **and explicit creative search (NQD + E/E‑LOG)** keep the system alive without ossification (A.4; B.4; **C.18; C.19;** E.6; E.9; B.3.4).
+8. **Creativity with Novelty and Quality Diversity optimisation** — DRR, evidence refresh, **and explicit creative search (NQD + E/E‑LOG)** keep the system alive without ossification (A.4; B.4; **C.18; C.19;** E.6; E.9; B.3.4).
+9. **Semantic precision of boundary statements** — five moves (lexical, ontological, mathematical, adjusted ontological, ajusted lexical) to unpack precision on the statements "on the boundary" with multiple viewpoints (cluster A.6 and especially A.6.P and its specializations).
 
 **What FPF is**: a **generative, testable architecture for open-ended evolutionary thinking** that any domain can inhabit.
 **What FPF is not**: a repository of domain facts, a rule‑chaining engine, a methodology du jour, or a notation.
