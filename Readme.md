@@ -10,6 +10,8 @@ FPF helps when a project has outgrown one clever conversation. It is useful when
 
 Use FPF as a reference model and pattern language, not as a linear textbook. Start from the working question you bring from your project. Bring in internal FPF terms only after they help you keep the work precise.
 
+This readme is a thin first-entry rendering of FPF for engineers, researchers, managers, reviewers, and AI-assisted project workers deciding where FPF can help. It foregrounds the project questions most likely to pay off first and deliberately coarsens, omits, or defers the full pattern language, source history, and relation structure. When a claim becomes important, return to the Preface, Table of Content, and governing pattern body rather than treating this readme as the specification.
+
 The plain starting move is: name the project thing at stake. FPF often calls it a holon when the thing is being treated as a whole with parts: a machine, product, organization, method, body of knowledge, publication system, AI-agent arrangement, or local framework. Once the thing is named, FPF asks what structure, claim, decision, evidence, description, work, or improvement question is actually live.
 
 ## Decide Whether FPF Fits
@@ -52,6 +54,7 @@ Core ideas in plain language:
 - say what "better" means before optimizing or scoring;
 - make trust depend on evidence, freshness, scope, and intended use;
 - publish different views for different readers without changing the underlying claim;
+- when source structure must become an explanation, route, or narrative for a reader, state what structure is preserved, deliberately coarsened, abstracted, omitted, or lost, and where source return happens;
 - use mathematics or formal models when they clarify what structure is preserved, what is lost, and what can be checked;
 - build domain or local FPF-grounded frameworks as dependents of FPF Core, not as silent rewrites of the Core.
 
@@ -195,13 +198,13 @@ First inspect: `G.0`, `G.1`, `G.2`, `G.5`, `G.10`, `G.11`, `C.18`, `C.19`, `A.19
 
 Use this when a team needs its own FPF-grounded guide for a domain, organization, role context, or local practice, such as a hydroponic-cucumber framework, neural-network architecture framework, enterprise architecture-review framework, or Codex-process framework.
 
-FPF helps you keep the FPF Core, domain principle framework, local practice framework, source pack, selected pattern set, relation records, edition dependencies, publication units, quality loop, and refresh route from collapsing into one local monolith or one useful checklist. This is the normal adoption path when a group wants FPF for its own field without turning local policy into a Core rule.
+FPF helps you keep the FPF Core, domain principle framework, local practice framework, source pack, selected pattern set, relation records, edition dependencies, publication/access carriers, quality loop, and refresh route from collapsing into one all-in-one carrier, one callable route, or one useful checklist. This is the normal adoption path when a group wants FPF for its own field without turning local policy into a Core rule.
 
 Typical first result: a family-and-structure map or principle-framework architecture decision that names the framework edition, bounded context, FPF Core dependency, selected first patterns, relation and publication carriers, source pack, quality route, and refresh route.
 
 In the first hour, write the context note, source-pack stub, first PFAD question, provisional name route, one to three pattern candidates, relation rows, first-entry carrier, quality route, and refresh trigger. Then open `E.4.DPF` for the full authoring spine.
 
-First inspect: `E.4`, `E.4.PFAD`, `E.4.DPF`, `E.4.PFR`, `G.2`, `E.8`, `E.11`, `E.17`, `F.18`, and `G.11`.
+First inspect: `E.4`, `E.4.FPF` when the form of FPF itself is live, `E.4.PFAD`, `E.4.DPF`, `E.4.DPF.DA`, `E.4.PFR`, `G.2`, `E.8`, `E.11`, `E.17`, `F.18`, and `G.11`.
 
 ## One-Minute Example
 
