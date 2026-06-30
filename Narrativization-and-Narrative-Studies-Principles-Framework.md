@@ -8,7 +8,7 @@ Use this package as a small FPF-style Domain Principle Framework publication car
 
 # Table of Contents
 
-Use the Table of Contents when you already know the DPF pattern or support carrier you need. Use the readme when you are deciding whether narrativization work is the right entry. Use the Preface when you need the cross-cutting ideas that make the pattern set cohere. Pattern bodies carry the action-guiding text.
+Use the Table of Contents when you already know the DPF pattern or support section you need. Use the readme when you are deciding whether narrativization work is the right entry. Use the Preface when you need the cross-cutting ideas that make the pattern set cohere. Pattern bodies contain the action-guiding text.
 
 How maps are reached during work: do not read support maps front-to-back unless you are designing or refreshing the package. During ordinary narrative work, enter a map only when a pattern relation, a low-value repair action, source-return condition, or boundary question points there.
 
@@ -24,7 +24,7 @@ How maps are reached during work: do not read support maps front-to-back unless 
 | --- | --- | --- | --- |
 | Readme | First practical entries | Informative | Choose the first DPF entry from the working problem. |
 | Preface | Cross-cutting ideas and principles | Informative | Understand narrativization as source-structure-to-sequence work rather than style polish. |
-| Package self-rendering note | What this DPF carrier tells, for whom, captured structure, deliberately coarsened or deferred structure, and source-return boundary | Framework-level use note | Check what part of narrative-studies structure this package renders before treating it as domain coverage. |
+| Package carrier structure-account note | What this DPF publication carrier exposes, for whom, captured structure, deliberately coarsened or deferred structure, and source-return boundary | Framework-level use note | Check what part of narrative-studies structure this package exposes before treating it as domain coverage. |
 | Framework context | Package boundary and owner routing | Normative package frame | See dependency, owner, and reliance limits. |
 | `NSTD.1` | Source-Structure Intake and Narrative Purpose | DPF pattern | Start from source structures and declared use before message or theme. |
 | `NSTD.2` | Structure-to-Sequence Ordering | DPF pattern | Declare the ordering rule that turns structure into narrative sequence. |
@@ -33,11 +33,11 @@ How maps are reached during work: do not read support maps front-to-back unless 
 | `NSTD.5` | Engagement, Attention, and Motivation | DPF pattern | Use engagement without turning attention into truth, permission, or authority. |
 | `NSTD.6` | Declared-Use Narrative Rendering Quality Evaluation | DPF evaluation pattern | Evaluate one narrative rendering version for one declared use. |
 | `NSTD.7` | Automated Narrativization and Story Planning | DPF pattern | Split generated-carrier, source, method, admission, evaluation, evidence, and responsibility. |
-| `NSTD.8` | Learning-Route Narrative Carrier and Reconstruction Return | DPF pattern | Design and evaluate a learning route without moving teaching material into pattern bodies. |
-| Acceptance cases | FPF seminar, franchise continuation, homotopy explanation, live event commentary | Use-test carrier | Test the pattern set across heterogeneous narrative work. |
+| `NSTD.8` | Learning-Route Narrative Rendering and Reconstruction Return | DPF pattern | Design and evaluate a learning route without moving teaching material into pattern bodies. |
+| Acceptance cases | FPF seminar, franchise continuation, homotopy explanation, live event commentary | Use-test support section | Test the pattern set across heterogeneous narrative work. |
 | Support maps | Architecture bridge, semiotic bridge, source use, precision map, naming and edition route | Reference | Use only when a pattern relation, low-value repair action, source-return condition, or owner-routing doubt points to one of the maps. |
-| PFR records | DPF relation and edition records | Relation carrier | State specialization, source reuse, evaluation, generated-carrier, teaching-carrier, and ethics routing relations. |
-| Refresh route | Source, evaluation, and edition refresh | Refresh carrier | State what must return to `G.2`, `E.22`, `E.23`, and `G.11`. |
+| PFR records | DPF relation and edition records | Relation-record section | State specialization, source reuse, evaluation, generated-carrier, teaching publication-carrier, and ethics routing relations. |
+| Refresh route | Source, evaluation, and edition refresh | Refresh-route section | State what must return to `G.2`, `E.22`, `E.23`, and `G.11`. |
 
 # Readme - First Practical Entries
 
@@ -98,7 +98,7 @@ Narrative work has temporal postures. A historical reconstruction, reverse-engin
 
 Narrativization has two route families. In the direct source-structure route, a situation, event stream, proof field, canon, evidence set, or source pack is rendered into narrative without making architecture work the central owner. In the architecture-mediated route, actual or possible holon structure is first understood through architecture work, architecture descriptions, views, viewpoints, architecture decisions, candidate structures, or telemetry, and then narrated for a declared reader or listener use. The route family decides when `C.33`, `C.34`, and architecture owners stay live.
 
-Direct source-structure work is still structured work. The pattern set must not pretend that a writer's intuition or LLM generation magically selected the needed structures. If selection, reader-use hypothesis, ordering, and loss accounting stay implicit, the result is a candidate narrative carrier, not a checked narrative rendering. Improvement then starts by reconstructing the hidden selection record before changing style, drama, or prompt wording.
+Direct source-structure work is still structured work. The pattern set must not pretend that a writer's intuition or LLM generation magically selected the needed structures. If selection, reader-use hypothesis, ordering, and loss accounting stay implicit, the result is a candidate carrier or candidate prose, not a checked narrative rendering. Improvement then starts by reconstructing the hidden selection record before changing style, drama, or prompt wording.
 
 Narrative work is role work. The narrator, writer, teacher, commentator, designer, or tool-mediated rendering worker chooses sequence, viewpoint, loss profile, and engagement devices. The intended reader or listener role constrains those choices. A narrative worker cannot ignore reader-role interests, but reader interest also does not create evidence, assurance, ethics, publication permission, or source authority.
 
@@ -106,7 +106,7 @@ Narrativization is similar to serialization in one important way: a non-linear o
 
 Narrative studies is the broad domain label here. Narratology is one source tradition inside it, not the whole domain and not Core ontology. Storycraft, science communication, teaching design, cognitive narrative research, NLG, story planning, and qualitative narrative analysis all supply useful distinctions. The DPF uses those distinctions only after mapping them to FPF owners.
 
-Core boundary decision: this package depends on FPF Core; FPF Core must not depend back on this package. The Core admission from this campaign is the general `A.6.3.NAR` relation: selected source structure is rendered into a sequential narrative carrier for declared use with preservation, loss, admissibility, and source return visible. The `NSTD.*` patterns stay DPF material because they use narrative-studies, narratology, storycraft, learning-design, NLG, and narrative-evaluation solution moves for narrative-work problems. If a later framework finds one of those moves recurring outside narrative work, it should return through a separate FPF amendment instead of silently treating this DPF as Core.
+Core boundary decision: this package depends on FPF Core; FPF Core must not depend back on this package. The Core admission from this campaign is the general `A.6.3.NAR` relation: selected source structure is rendered into a sequential narrative rendering for declared use with preservation, loss, admissibility, and source return visible; that rendering may then be carried by a publication or access carrier. The `NSTD.*` patterns stay DPF material because they use narrative-studies, narratology, storycraft, learning-design, NLG, and narrative-evaluation solution moves for narrative-work problems. If a later framework finds one of those moves recurring outside narrative work, it should return through a separate FPF amendment instead of silently treating this DPF as Core.
 
 The first discipline is source return. A good narrative can foreground one route through the source, but it must say when the reader needs the source again. This matters in architecture explanation, mathematical teaching, science communication, generated story planning, and franchise-continuation storycraft.
 
@@ -114,15 +114,15 @@ The second discipline is owner routing. Engagement is not truth. Viewpoint is no
 
 The third discipline is evaluation before improvement. `NSTD.6` does not ask whether a narrative is beautiful in general. It evaluates one admitted narrative rendering version for one declared use under `NarrativeRenderingEpiplexity`, ordering recoverability, source-return readiness, bounded engagement, owner-routed claims, values, evidence basis, missingness rules, repair actions, and reopen conditions.
 
-## Package Self-Rendering Note
+## Package Carrier Structure-Account Note
 
-This package is itself a DPF publication carrier: a sequential explanatory route through selected narrativization and narrative-studies problem-and-solution structures for FPF users who need to design, evaluate, repair, or govern narrative renderings. It is not the domain itself, not the source pack, not a proof that every narrative will work, and not a replacement for the FPF Core patterns it depends on.
+This all-in-one package file is a DPF publication carrier: its readme, preface, pattern bodies, and support sections publish a sequential explanatory route through selected narrativization and narrative-studies problem-and-solution structures for FPF users who need to design, evaluate, repair, or govern narrative renderings. The carrier is not a narrative by type, not the domain itself, not the source pack, not a proof that every narrative will work, and not a replacement for the FPF Core patterns it depends on.
 
-The carrier is written mainly for FPF authors, teachers, technical communicators, architects, researchers, AI-tool builders, and reviewers who must turn source structures into reader-usable narratives without losing source return. It foregrounds the architecture of recurring narrative-work problems and solution moves: source-structure selection before theme, temporal-posture errors, route-family choice, ordering-rule failure, event or mechanism reconstruction, viewpoint and agency distortion, engagement overclaim, declared-use quality, generated-output admission, learning-route design, precision repair, ethics routing, and refresh.
+This publication carrier is written mainly for FPF authors, teachers, technical communicators, architects, researchers, AI-tool builders, and reviewers who must turn source structures into reader-usable narratives without losing source return. It foregrounds the architecture of recurring narrative-work problems and solution moves: source-structure selection before theme, temporal-posture errors, route-family choice, ordering-rule failure, event or mechanism reconstruction, viewpoint and agency distortion, engagement overclaim, declared-use quality, generated-output admission, learning-route design, precision repair, ethics routing, and refresh.
 
-The package deliberately coarsens, abstracts, omits, or defers other structures. This is not merely shortening one text into another. A narrative-studies source may first be understood through architecture-like structure selection, views, models, source packs, or examples, and this DPF carrier then renders that selected structure again for use. In architecture-mediated cases, the return chain is `narrative or carrier -> architecture description or view -> architecture as selected structures in context -> wider source structures`; each arrow can lose structure. The carrier does not carry a full history of narratology, a genre-specific storycraft course, a complete learning-sciences curriculum, a full NLG or story-planning survey, legal publication advice, a replacement ethics theory, or all source-pack rows. Those return to the source-use map, upstream FPF patterns, local teaching material, domain sources, or a stronger DPF when the declared use needs them.
+The package deliberately coarsens, abstracts, omits, or defers other structures. This is not merely shortening one text into another. A narrative-studies source may first be understood through architecture-like structure selection, views, models, source packs, or examples, and this all-in-one DPF publication carrier then makes that selected structure available again for use. In architecture-mediated narrative-rendering cases, the return chain is `narrative rendering carried by this publication carrier -> architecture description or view -> architecture as selected structures in context -> wider source structures`; when no narrative rendering is present, the first step is `DPF publication carrier -> selected source structures`. Each arrow can lose structure. The carrier does not carry a full history of narratology, a genre-specific storycraft course, a complete learning-sciences curriculum, a full NLG or story-planning survey, legal publication advice, a replacement ethics theory, or all source-pack rows. Those return to the source-use map, upstream FPF patterns, local teaching material, domain sources, or a stronger DPF when the declared use needs them.
 
-For this carrier, the structure-capture question is qualitative rather than a universal score for narrativity:
+For this all-in-one publication carrier, the structure-capture question is qualitative rather than a universal score for narrativity:
 
 ```text
 FrameworkCarrierStructureCapture@NarrativizationAndNarrativeStudiesPrinciplesFramework:
@@ -132,11 +132,11 @@ FrameworkCarrierStructureCapture@NarrativizationAndNarrativeStudiesPrinciplesFra
   foregroundedStructure: recurring narrative-work problem situations, solution moves, source selection, route family, ordering, event and mechanism reconstruction, viewpoint and agency, engagement, quality evaluation, generated-output admission, learning-route design, precision repair, source return, and refresh
   intentionallyCoarsenedAbstractedOmittedOrDeferredStructure: full domain history, genre craft, full pedagogy, full NLG algorithms, legal permissions, complete source pack, and formal metric calibration
   qualitativeCarrierEpiplexityForDeclaredUse: 4
-  whyNot5: heterogeneous probes show transfer across teaching, franchise continuation, mathematical explanation, and live-event narration, but field use, stronger source-pack discharge, and better accounting of source-to-architecture-to-carrier coarsening would be needed before claiming near-complete domain capture
+  whyNot5: heterogeneous probes show transfer across teaching, franchise continuation, mathematical explanation, and live-event narration, but field use, stronger source-pack discharge, and better accounting of source-to-architecture-to-publication/access coarsening would be needed before claiming near-complete domain capture
   sourceReturnCondition: return to pattern bodies, FPF owners, source-use map, and local domain material whenever a narrative claim becomes evidence, assurance, ethics, legal permission, pedagogy, generation-method, or domain-expert authority
 ```
 
-Read that `4` narrowly. It means this DPF carrier captures enough selected structure for its declared authoring and evaluation use. It does not mean the package exhausts narrative studies, guarantees reader impact, or replaces domain expertise. A `5` would require stronger evidence that the package's selected structures are both sufficient and non-dominated for the declared reader families and acceptance cases, including evidence that important architecture-level or source-level structure was not silently lost in the carrier route.
+Read that `4` narrowly. It means this DPF publication carrier makes enough selected structure available for its declared authoring and evaluation use. It does not mean the package exhausts narrative studies, guarantees reader impact, or replaces domain expertise. A `5` would require stronger evidence that the package's selected structures are both sufficient and non-dominated for the declared reader families and acceptance cases, including evidence that important architecture-level or source-level structure was not silently lost in the publication/access route.
 
 ## Package Boundary And Owner Routing
 
@@ -147,7 +147,7 @@ The package does not redefine FPF Core. `A.6.3.NAR` remains the Core owner for t
 
 Intended readers are FPF authors, teachers, technical communicators, architects, researchers, and tool builders who must make narrative renderings useful without turning narrative fluency into source authority.
 
-Non-use boundary: this package is not FPF Core, not a style guide, not a seminar script, not a storycraft course, not an ethics authority, and not evidence or assurance for generated narratives. Actual seminar outlines, slides, exercises, scripts, session notes, generated outputs, and field-test carriers belong in separate files and may be evaluated by this package.
+Non-use boundary: this package is not FPF Core, not a style guide, not a seminar script, not a storycraft course, not an ethics authority, and not evidence or assurance for generated narratives. Actual seminar outlines, slides, exercises, scripts, session notes, generated outputs, and field-test evidence or publication carriers belong in separate files and may be evaluated by this package.
 
 ## Pattern Index
 
@@ -160,7 +160,7 @@ Non-use boundary: this package is not FPF Core, not a style guide, not a seminar
 | `NSTD.5` | Engagement, Attention, and Motivation | Use engagement without turning attention into truth, permission, or authority. |
 | `NSTD.6` | Declared-Use Narrative Rendering Quality Evaluation | Evaluate one narrative rendering version for one declared use. |
 | `NSTD.7` | Automated Narrativization and Story Planning | Keep generated narrative output grounded, constrained, admitted, evaluated, and repairable. |
-| `NSTD.8` | Learning-Route Narrative Carrier and Reconstruction Return | Design and evaluate a learning route without placing teaching material inside patterns. |
+| `NSTD.8` | Learning-Route Narrative Rendering and Reconstruction Return | Design and evaluate a learning route without placing teaching material inside patterns. |
 
 ## NSTD.1 - Source-Structure Intake and Narrative Purpose
 
@@ -235,7 +235,7 @@ Use the intake in four passes, not as one form-filling gesture.
 | Route pass | Is the work direct source-structure rendering, architecture-mediated rendering, or mixed? What temporal posture changes source obligations? | Route family, temporal posture, architecture mediation refs, and live telemetry or source-return refs. |
 | Authority pass | Which claims are tempting but not granted by the narrative purpose? | Blocked purpose overread plus evidence, assurance, ethics, policy, work, and decision owner exits. |
 
-The intake is good enough to compose only when the selected source structures can be stated without looking at the current prose version. If the only answer is "the important bits are the bits I happened to write about", selection is still hidden. Return to the source material, name candidate structures, and choose by reader use. If the reader use is also vague, stop at an orientation cue or source-pack note; do not present the carrier as an admitted narrative rendering.
+The intake is good enough to compose only when the selected source structures can be stated without looking at the current prose version. If the only answer is "the important bits are the bits I happened to write about", selection is still hidden. Return to the source material, name candidate structures, and choose by reader use. If the reader use is also vague, stop at an orientation cue or source-pack note; do not present the carrier-borne content as an admitted narrative rendering.
 
 Use contrast cases before drafting:
 
@@ -273,7 +273,7 @@ NarrativePurposeIntake@FPFLearningRoute:
   intendedReaderOrListenerUse: reconstruct one pattern-use route and apply it to a new case
   narrativePurpose: orient attention and sequence learning tasks around source-returnable pattern use
   blockedPurposeOverread: lesson is not evidence that FPF is correct and not replacement for pattern bodies
-  sourceReturnOwner: FPF source patterns and teaching carrier relation
+  sourceReturnOwner: FPF source patterns and teaching publication-carrier relation
   refreshCondition: FPF edition, learner telemetry, or route evaluation changes
 ```
 
@@ -359,7 +359,7 @@ NarrativePurposeIntake@FPFSeminarOrientation:
   refreshCondition: FPF edition or selected-source pattern changes; learner reconstruction test fails
 ```
 
-Now the narrative worker can compose. The first paragraph may be memorable, but every memorable move has a source return. "A pattern is not a recipe" returns to source conditions, forces, and neighboring exits. "Start with the thing being changed" returns to `EntityOfConcern`. "Do not optimize the visible proxy indicator" returns to quality and proxy-risk owners. The seminar carrier can be engaging, but the intake prevents it from becoming a local mythology about FPF.
+Now the narrative worker can compose. The first paragraph may be memorable, but every memorable move has a source return. "A pattern is not a recipe" returns to source conditions, forces, and neighboring exits. "Start with the thing being changed" returns to `EntityOfConcern`. "Do not optimize the visible proxy indicator" returns to quality and proxy-risk owners. The seminar publication carrier can be engaging, but the intake prevents it from becoming a local mythology about FPF.
 
 Evaluation through `NSTD.6` later asks whether learners can rebuild the route: identify the source structure, say why the selected order was didactic, name what the story intentionally omitted, and return to the pattern body when they need authority. If learners only repeat the slogan "patterns are not recipes", `NSTD.1` did not select enough source structure for the declared use.
 
@@ -411,7 +411,7 @@ A bad intake says: "Write a surprising sequel that feels epic." A repaired intak
 
 `NSTD.1` is often the first place where a narrative worker learns why FPF separates source, description, evidence, assurance, ethics, publication, and improvement. The pattern does not ask for more paperwork. It asks the worker to stop one very common collapse: "I have a purpose, therefore I know what the story should say." In FPF terms, a purpose is a relation to an `EntityOfConcern`, a role use, and selected source structures. It is not the source, not the authority, and not the quality result.
 
-An FPF seminar route wants learners to understand why pattern use is condition-based rather than recipe following. The selected source structures are `EntityOfConcern`, problem frame, forces, solution, consequences, and neighboring-pattern exits. The purpose is orientation for later reconstruction tasks. It is not permission to replace pattern bodies with seminar slogans. Source return points to the FPF patterns and the seminar carrier stays outside this DPF body.
+An FPF seminar route wants learners to understand why pattern use is condition-based rather than recipe following. The selected source structures are `EntityOfConcern`, problem frame, forces, solution, consequences, and neighboring-pattern exits. The purpose is orientation for later reconstruction tasks. It is not permission to replace pattern bodies with seminar slogans. Source return points to the FPF patterns and the seminar publication carrier stays outside this DPF body.
 
 A homotopy explanation starts differently. The source material is a mathematical corpus: definitions, examples, maps, equivalences, proof-status boundaries, and formal sources. The intended reader is not "any curious person"; it might be an undergraduate who must later distinguish intuitive pictures from formal definitions. The purpose can be "make paths, deformations, and invariants followable", but the blocked overread says that the narrative does not prove the theorem, replace formal notation, or license analogy as definition. The intake therefore protects formal return before any metaphor is selected.
 
@@ -668,7 +668,7 @@ This pattern blocks natural-sequence drift: a chronological, didactic, dramatic,
 | --- | --- | --- |
 | Natural-order assumption | The order is not named because it feels obvious. | Write the rule and one preserved or lost relation. |
 | Tension as dependency | Reveal order is read as prerequisite order. | Split dramatic order from dependency order and add source return. |
-| Slide order as source structure | A teaching sequence is treated as the corpus architecture. | Route the teaching carrier through `NSTD.8` and keep source structure separate. |
+| Slide order as source structure | A teaching sequence is treated as the corpus architecture. | Route the teaching publication carrier through `NSTD.8` and keep source structure separate. |
 
 ### NSTD.2:9 - Consequences
 
@@ -831,7 +831,7 @@ This repair blocks a common beginner and stale-practice failure: plot events occ
 
 #### FPF owner teaching
 
-`NSTD.3` is where narrative workers learn that "because" is not one relation. It may carry chronology, cause, mechanism, evidence, proof dependency, motivation, trade-off, or analogy. FPF already has owners for evidence, assurance, relation precision, and architecture structure. This DPF pattern teaches how those owners become visible when the carrier is a story.
+`NSTD.3` is where narrative workers learn that "because" is not one relation. It may carry chronology, cause, mechanism, evidence, proof dependency, motivation, trade-off, or analogy. FPF already has owners for evidence, assurance, relation precision, and architecture structure. This DPF pattern teaches how those owners become visible when the publication expression is a story.
 
 An architecture explanation tells why a modular split reduced coordination cost but increased interface exceptions. The narrative event is "the split happened"; the source mechanism is coupling, interface grammar, evidence-reuse loss, and residual repair. The story must let the reader reconstruct the architecture trade-off, not only the before-and-after drama.
 
@@ -1595,7 +1595,7 @@ NarrativeRenderingImprovementLoopInput@Context:
   stopContinueSwitchOrHoldCondition:
 ```
 
-`E.23` may claim improvement only after the changed object version is re-evaluated through `NSTD.6` or through a declared stronger evaluation. If the loop changes the source pack, source-currentness, generated-carrier admission, learning carrier, publication face, ethics claim, evidence claim, assurance claim, or evaluation characteristic space, the loop must name that neighboring owner and either keep it as the allowed change slice or open separate work. Style edits, prompt retries, or additional drama are admissible loop operations only when their expected movement under `NSTD.6` is stated and protected trade-offs are checked. `B.4` is relevant only when the narrative episteme or learning route is claimed to evolve across use and renewed operation; `G.11` handles refresh when source currentness, reader telemetry, teaching-test evidence, generated-narrative practice, or FPF edition changes.
+`E.23` may claim improvement only after the changed object version is re-evaluated through `NSTD.6` or through a declared stronger evaluation. If the loop changes the source pack, source-currentness, generated-carrier admission, learning publication carrier, publication face, ethics claim, evidence claim, assurance claim, or evaluation characteristic space, the loop must name that neighboring owner and either keep it as the allowed change slice or open separate work. Style edits, prompt retries, or additional drama are admissible loop operations only when their expected movement under `NSTD.6` is stated and protected trade-offs are checked. `B.4` is relevant only when the narrative episteme or learning route is claimed to evolve across use and renewed operation; `G.11` handles refresh when source currentness, reader telemetry, teaching-test evidence, generated-narrative practice, or FPF edition changes.
 
 Before assigning values, require construction-route evidence. The evaluator must be able to point to the records or source passages that played the role of `NSTD.1` source selection, `NSTD.2` ordering, `NSTD.3` event or mechanism support when live, `NSTD.4` viewpoint and agency discipline when live, `NSTD.5` engagement boundary when live, `NSTD.7` generated-carrier admission when live, and `NSTD.8` learning-route design when live. If those records were not written before drafting, they may be reconstructed from source and carrier, but the reconstruction must be explicit. Do not allow "the narrative already looks good" to substitute for the missing construction route.
 
@@ -1871,7 +1871,7 @@ Pipeline steps:
 1. Source plan: select nodes, relations, losses, and source-return refs.
 2. Discourse plan: choose ordering rule through `NSTD.2`.
 3. Realization: generate wording.
-4. Admission: decide whether the carrier can be evaluated as a narrative rendering through `C.35`.
+4. Admission: decide whether the carrier-borne output can be admitted and evaluated as a narrative rendering through `C.35`.
 5. Evaluation: evaluate through `NSTD.6`.
 6. Repair: use `E.23` only after object version and changed slice are explicit.
 
@@ -1895,7 +1895,7 @@ Failure: source plan, admission, reconstruction task, and evaluation route are m
 
 After:
 
-> The generated outline is a candidate teaching carrier. Its source plan selects `EntityOfConcern`, forces, solution, relation exits, and improvement loop. Its discourse plan uses didactic prerequisite order. It is not a DPF pattern and not a public teaching route until `C.35` admits the carrier and `NSTD.8`/`NSTD.6` show that learners can reconstruct the source spine.
+> The generated outline is a candidate teaching publication carrier. Its source plan selects `EntityOfConcern`, forces, solution, relation exits, and improvement loop. Its discourse plan uses didactic prerequisite order. It is not a DPF pattern and not a public teaching route until `C.35` admits the carrier and `NSTD.8`/`NSTD.6` show that learners can reconstruct the source spine.
 
 #### Mature generated-storycraft boundary
 
@@ -1936,7 +1936,7 @@ Use admission and rejection examples.
 | A fluent summary from a prompt with no source refs. | No. | Source material and selected structure are not recoverable. |
 | A graph-to-text candidate with source event ids, ordering rule, and explicit lost relations. | Candidate after `C.35`. | It can proceed to `NSTD.6`, but source recovery and relation strength still need value assignment. |
 | A schema-valid RPG scene that ignores a required canon constraint. | No for source-faithful use. | Schema compliance does not establish correspondence. |
-| A generated FPF seminar outline with source-spine refs and reconstruction tasks. | Candidate teaching carrier. | It remains outside DPF pattern bodies and needs `NSTD.8`/`NSTD.6`. |
+| A generated FPF seminar outline with source-spine refs and reconstruction tasks. | Candidate teaching publication carrier. | It remains outside DPF pattern bodies and needs `NSTD.8`/`NSTD.6`. |
 | A generated metaphor for homotopy that helps intuition but lacks proof boundary. | Orientation cue only. | It may feed `A.16.1` or `NSTD.1`, not admitted rendering quality yet. |
 
 When automated repair is used, preserve version identity. "Regenerate until better" destroys improvement evidence. Record the previous carrier, changed prompt or method, selected changed slice, expected value movement, protected trade-offs, and re-evaluation route. A generated variant can be more fluent and still worse on epiplexity, source return, or agency discipline.
@@ -2012,11 +2012,11 @@ Uses `G.2`, `C.35`, `A.6.3.NAR`, `C.33` for architecture-relevant structural-inf
 
 ### NSTD.7:End
 
-## NSTD.8 - Learning-Route Narrative Carrier and Reconstruction Return
+## NSTD.8 - Learning-Route Narrative Rendering and Reconstruction Return
 
 > **Type:** DPF pattern body
 
-> **Primary EntityOfConcern:** `LearningNarrativeRoute@Context`, a teaching or learning carrier design and evaluation relation for one source-returnable learning route.
+> **Primary EntityOfConcern:** `LearningNarrativeRoute@Context`, a source-returnable learning route plus its teaching or learning publication-carrier relation and evaluation route.
 
 ### NSTD.8:1 - Problem frame
 
@@ -2028,11 +2028,11 @@ Architecture warning: the source corpus may have a good reference architecture a
 
 What goes wrong if missed: the explanation is engaging and memorable, but learners retain examples, slogans, analogies, and mood while losing architecture, relation records, proof obligations, pattern-use routes, source-return conditions, or improvement cycles.
 
-What this buys: the learning carrier becomes a narrative route over source structures, not hidden replacement for the source corpus.
+What this buys: the learning publication carrier instantiates a declared narrative route over source structures, rather than becoming a hidden replacement for the source corpus.
 
 ### NSTD.8:2 - Problem
 
-Teaching and learning carriers need sequence, examples, repetition, analogy, and motivation. But those choices can obscure source structure and make learners think the learning route is the framework, proof, or method itself. A DPF pattern should not contain the lesson, seminar script, or explainer text. It should govern how such a carrier is designed, tested, and repaired.
+Teaching and learning routes expressed through publication carriers need sequence, examples, repetition, analogy, and motivation. But those choices can obscure source structure and make learners think the learning route is the framework, proof, or method itself. A DPF pattern should not contain the lesson, seminar script, or explainer text. It should govern how such a carrier is designed, tested, and repaired.
 
 A common engineering failure is the reference-manual course. The course follows the module architecture of the source: first all of topic A, then all of topic B, then all of topic C, each with concentrated examples. Learners can follow each block locally, but later fail to choose the right pattern, distinguish nearby structures, remember earlier conditions, or transfer across domains. The repair is not to destroy the source architecture. Keep the source architecture as source return, then design a different learning-route architecture with deliberate interleaving, spaced retrieval, recurring anchors, and transfer tasks.
 
@@ -2068,7 +2068,7 @@ LearningNarrativeRoute@Context:
   engagementBoundaryRef?:
   narrativeRenderingQualityEvaluationRef:
   improvementLoopInputRef?:
-  learningCarrierRefs:
+  learningPublicationCarrierRefs:
   blockedTopicOverread?:
   nonAdmissibleUse:
   refreshCondition:
@@ -2105,7 +2105,7 @@ The learning route may deliberately use examples, stories, rhythm, repetition, a
 
 Telemetry does not have to be heavy. For a small route, it can be a short learner task result, a failed reconstruction note, or an observed confusion pattern. For a reliance-bearing or repeated course, telemetry should include route version, learner role, source spine covered, task result, repair action, and refresh condition. Do not describe this as evolution unless the route is treated as a holon across repeated operation and `B.4` is actually live.
 
-If the route is improved across runs, first evaluate the concrete route version through `NSTD.6`. Use `E.22` when learner value, floor, protected trade-offs, evidence, or result form are still underframed; use `E.23` to repair a declared changed slice such as source spine, learning-step order, reconstruction tasks, learning carrier, engagement boundary, or evaluation characteristic space. Use `G.11` when source currentness, learner telemetry, teaching-test evidence, generated practice, or FPF edition changes; use `B.4` only when making an evolution claim about the learning route as a holon across repeated operation.
+If the route is improved across runs, first evaluate the concrete route version through `NSTD.6`. Use `E.22` when learner value, floor, protected trade-offs, evidence, or result form are still underframed; use `E.23` to repair a declared changed slice such as source spine, learning-step order, reconstruction tasks, learning publication carrier, engagement boundary, or evaluation characteristic space. Use `G.11` when source currentness, learner telemetry, teaching-test evidence, generated practice, or FPF edition changes; use `B.4` only when making an evolution claim about the learning route as a holon across repeated operation.
 
 ### NSTD.8:5 - Archetypal Grounding
 
@@ -2150,7 +2150,7 @@ LearningNarrativeRoute@FPFOnboarding:
   improvementLoopInputRef: `E.23` only after low-value rows exist
 ```
 
-An actual seminar file can contain jokes, slides, timing, exercises, and examples. The DPF pattern body does not. It tells the route designer what must survive in any carrier: source spine, ordering rule, reconstruction tasks, source returns, engagement boundary, evaluation, and repair.
+An actual seminar file can contain jokes, slides, timing, exercises, and examples. The DPF pattern body does not. It tells the route designer what must survive in any carrier-borne teaching material: source spine, ordering rule, reconstruction tasks, source returns, engagement boundary, evaluation, and repair.
 
 #### Mature learning-route case: repair a blocked engineering course
 
@@ -2250,11 +2250,11 @@ Before:
 
 > This pattern should include a full seminar script so readers can immediately teach narrativization.
 
-Failure: teaching carrier and DPF pattern body are collapsed. The carrier will age, distract, and hide the general route.
+Failure: teaching-material carrier and DPF pattern body are collapsed. The carrier-borne material will age, distract, and hide the general route.
 
 After:
 
-> This pattern defines the learning route. Seminar scripts, slides, exercises, examples, recordings, and session notes stay in teaching carriers. The route records learner use, source spine, ordering rule, reconstruction tasks, evaluation, and refresh condition. A seminar carrier may instantiate it, and `NSTD.6` can evaluate the route version.
+> This pattern defines the learning route. Seminar scripts, slides, exercises, examples, recordings, and session notes stay in teaching publication carriers. The route records learner use, source spine, ordering rule, reconstruction tasks, evaluation, and refresh condition. A seminar publication carrier may instantiate it, and `NSTD.6` can evaluate the route version.
 
 #### Calibration for learning routes
 
@@ -2275,7 +2275,7 @@ A homotopy mini-course may start with pictures and deformation stories, but the 
 
 A DPF onboarding route may teach narrative rendering through three cases: FPF seminar, franchise storycraft, and live commentary. The route is successful only if learners can reconstruct why all three open `NSTD.1`, why different patterns become live later, and why `NSTD.6` evaluates a declared rendering version rather than a general story. The test is transfer across cases, not recall of the case names.
 
-A generated teaching route must pass through `NSTD.7` before it is trusted. Slides or examples produced by an LLM remain carriers until the source spine, ordering rule, admission status, and reconstruction tasks are explicit. The learning route may use generated material, but the DPF pattern body does not absorb the generated lesson.
+A generated teaching route must pass through `NSTD.7` before it is trusted. Slides or examples produced by an LLM remain candidate carrier-borne material until the source spine, ordering rule, admission status, and reconstruction tasks are explicit. The learning route may use generated material, but the DPF pattern body does not absorb the generated lesson.
 
 Use route versioning when teaching is repeated.
 
@@ -2306,7 +2306,7 @@ Use a two-column lesson plan before writing materials.
 | Relations | Neighboring-pattern exit exercise. | Interleave adjacent exits so the learner must discriminate them. |
 | Quality and improvement | Low-value row and repair exercise. | Revisit an old low-value row after new material and require a changed-slice repair. |
 
-The left column is the source spine and must remain source-returnable. The middle column is the immediate carrier design. The right column is the learning-route architecture: how the route crosses topic boundaries and returns over time. If the middle column becomes the only remembered structure, the route has failed even if the lesson was popular. If the right column is empty in a multi-session course, the route is probably a reference manual wearing course clothes.
+The left column is the source spine and must remain source-returnable. The middle column is the immediate publication-carrier design. The right column is the learning-route architecture: how the route crosses topic boundaries and returns over time. If the middle column becomes the only remembered structure, the route has failed even if the lesson was popular. If the right column is empty in a multi-session course, the route is probably a reference manual wearing course clothes.
 
 Learning-route recipes:
 
@@ -2315,7 +2315,7 @@ Learning-route recipes:
 | FPF onboarding route | Pattern entry, EoC, forces, solution, relations, checks, improvement loop. | Practitioner story, failed-use contrast, recurring source-return prompt. | Learner selects correct owner and reconstructs one pattern-use route. |
 | Mathematical explanation route | Definitions, examples, theorem prerequisites, proof-status boundaries. | Analogy, diagram story, dependency sequence, counterexample. | Learner marks where analogy stops and returns to formal statement. |
 | Architecture explanation route | Candidate structures, characteristics, decisions, trade-offs, telemetry. | Trade-off story, viewpoint over stakeholder role, decision-memory path. | Learner separates architecture description, decision, realized structure, and telemetry. |
-| Generated teaching route | Source spine plus generated carrier admission route. | Generated examples or slides after `C.35` and source recovery. | Learner tasks plus admission and evaluation record show the carrier did not replace source. |
+| Generated teaching route | Source spine plus generated carrier admission route. | Generated examples or slides after `C.35` and source recovery. | Learner tasks plus admission and evaluation record show the carrier-borne material did not replace source. |
 | Live debrief route | Event record, provisional interpretation, official correction, source return. | Recap story, tension order, role viewpoint. | Learner distinguishes observation, inference, prediction, and official update. |
 
 For a short one-off teaching note, the route can be tiny: one source-spine item, one ordering rule, one reconstruction question, one source-return link. For a repeated seminar or course, the route should have versioned carriers, task results, and low-value repairs. The size changes; the source-return discipline does not.
@@ -2324,7 +2324,7 @@ Do not use popularity as learning evidence. Attendance, satisfaction, applause, 
 
 ### NSTD.8:6 - Bias-Annotation
 
-This pattern blocks learning-route-as-framework drift: a lesson sequence, seminar sequence, slide deck, story arc, exercise set, analogy chain, or memorable teaching case is treated as the source framework. Repair by naming learner use, source-structure spine, learning-step ordering rule, reconstruction tasks, source-return links, learning carrier refs, engagement boundary, and evaluation route. Scope: DPF-local for learning narrative routes; it does not admit teaching material into pattern bodies.
+This pattern blocks learning-route-as-framework drift: a lesson sequence, seminar sequence, slide deck, story arc, exercise set, analogy chain, or memorable teaching case is treated as the source framework. Repair by naming learner use, source-structure spine, learning-step ordering rule, reconstruction tasks, source-return links, learning publication-carrier refs, engagement boundary, and evaluation route. Scope: DPF-local for learning narrative routes; it does not admit teaching material into pattern bodies.
 
 It also blocks blocked-topic architecture drift: the source corpus is modular, so the course is made modular in the same way. Repair by separating source architecture from learning-route architecture. Keep the source modules for source return, then add interleaving and spacing when the learner must later discriminate, retrieve, or transfer structures across topic boundaries.
 
@@ -2346,17 +2346,17 @@ It also blocks blocked-topic architecture drift: the source corpus is modular, s
 | Learning route as source structure | Lesson sequence, seminar order, analogy chain, or explainer order is treated as framework architecture, proof order, or source structure. | Declare learning-step ordering rule and source-return links. |
 | Reference manual as course | The source topic map is copied into lessons one topic at a time. | Keep the topic map as source architecture; design a learning-route architecture with interleaved and spaced retrieval. |
 | Blocked practice fluency | Learners perform well inside each topic block because the block label gives away the owner. | Add mixed owner-choice cases and delayed no-label retrieval before claiming transfer. |
-| Materials inside pattern body | Slides or exercises are inserted into DPF patterns. | Move them to teaching carrier files and reference only the carrier relation. |
+| Materials inside pattern body | Slides or exercises are inserted into DPF patterns. | Move them to teaching publication-carrier files and reference only the carrier relation. |
 | Recall as reconstruction | Learners remember examples but cannot use patterns. | Add reconstruction and application tasks; evaluate through `NSTD.6`. |
 | Teaching tweak as evolution | A revised slide, example, or prompt is described as evolved route quality without telemetry and re-evaluation. | Treat the tweak as an `E.23` changed slice after `NSTD.6`; use `G.11` for refresh and reserve `B.4` for actual evolution claims over the route across operation. |
 
 ### NSTD.8:9 - Consequences
 
-The benefit is a teachable path that stays source-returnable and can be improved without confusing entertainment with understanding. The cost is maintaining separate teaching carriers and evaluation evidence.
+The benefit is a teachable path that stays source-returnable and can be improved without confusing entertainment with understanding. The cost is maintaining separate teaching publication carriers and evaluation evidence.
 
 ### NSTD.8:10 - Rationale
 
-Didactic primacy requires examples, analogies, routes, interleaving, and spaced returns. Ontological discipline requires that learning carriers do not become the source framework. This pattern holds both: the route is designed, tested, and refreshed without entering pattern bodies as teaching content.
+Didactic primacy requires examples, analogies, routes, interleaving, and spaced returns. Ontological discipline requires that learning publication carriers do not become the source framework. This pattern holds both: the route is designed, tested, and refreshed without entering pattern bodies as teaching content.
 
 The architectural lesson is counterintuitive for engineers. In a source corpus, strong modularity often helps: each pattern or topic has its own boundary, internal coherence, and relation exits. In a learning route, copying that modularity can hurt. Learners need to meet similar structures under varied cues, return to earlier distinctions after delay, and practice choosing the right owner when the block label is gone. Therefore the course architecture is a transformation over the source architecture, not a mirror of it.
 
@@ -2375,7 +2375,7 @@ Operational payload:
 - From scientific storytelling, unresolved tension can be taught honestly. The route can preserve open questions instead of pretending closure.
 - From FPF improvement-loop patterns, teaching improvement needs route versions, low-value findings, changed slices, and re-evaluation.
 
-The practical consequence is that `NSTD.8` is not a course-design doctrine. It is a source-return and learning-route architecture discipline for narrative learning carriers. It tells when a teaching story still serves the source framework, when it has become its own misleading object, and when a tidy blocked course should be repaired into interleaved and spaced learning.
+The practical consequence is that `NSTD.8` is not a course-design doctrine. It is a source-return and learning-route architecture discipline for narrative learning routes and their publication carriers. It tells when a teaching story still serves the source framework, when it has become its own misleading object, and when a tidy blocked course should be repaired into interleaved and spaced learning.
 
 ### NSTD.8:12 - Relations
 
@@ -2391,7 +2391,7 @@ Each case below must have a construction route before `NSTD.6` evaluation. A pas
 
 ### Case A - FPF Learning Route Probe With Seminar Carrier
 
-Use: multi-session or slide-deck teaching carrier for FPF. Actual slides, scripts, exercises, and session notes stay in separate teaching files.
+Use: multi-session or slide-deck teaching publication carrier for FPF. Actual slides, scripts, exercises, and session notes stay in separate teaching files.
 
 Patterns opened: `NSTD.1`, `NSTD.2`, `NSTD.3`, `NSTD.5`, `NSTD.6`, `NSTD.8`.
 
@@ -2412,7 +2412,7 @@ Construction route:
 
 Intentionally lost or deferred: full monolith detail, all neighboring patterns, all source-pack rows, and advanced formal variants. These return through source links.
 
-Owner routing: teaching carrier and audience-unit claims to `E.17` and `E.17.AUD`; evaluation to `NSTD.6`; source claims to `G.2`; evidence to `A.10`; refresh to `G.11`.
+Owner routing: teaching publication-carrier and audience-unit claims to `E.17` and `E.17.AUD`; evaluation to `NSTD.6`; source claims to `G.2`; evidence to `A.10`; refresh to `G.11`.
 
 Low `NSTD.6` repair: if learners enjoy sessions but cannot reconstruct pattern use, repair `NSTD.2`, `NSTD.3`, and `NSTD.8` before changing only style.
 
@@ -2513,7 +2513,7 @@ Use this bridge when narrative-language work is doing architecture-like structur
 | architecture-relevant problem pressure in `C.32.P2S` | narrative problem, communicative pressure, audience confusion, motivation gap, future-scenario need, story problem | Use `NSTD.1` to name reader or listener use and source-structure selection rationale; use `C.32.P2S` only when the pressure is genuinely about holon architecture carry-through. |
 | selected structure or unknown structure | source material, storyworld, event field, canon constraint, mechanism, proof dependency, thematic relation, situation structure | Name selected source structures explicitly; use `A.22`, `C.30`, or domain owners when structure claims become load-bearing. |
 | architecture structural view and viewpoint in `C.30.ASV` | focalization, narrative viewpoint, perspective, lens, whose path through the material, what the reader is allowed to see | Use `NSTD.4` for voice or focalization wording; cite `C.30.ASV` when the viewpoint is over architecture-relevant selected structures. |
-| architecture description in `C.30.AD` | synopsis, outline, story bible, explanatory account, learning route, narrative rendering carrier | Use `A.6.3.NAR` for structure-to-sequence rendering and `E.17` for publication; use `C.30.AD` only when the source or target is an architecture description. |
+| architecture description in `C.30.AD` | synopsis, outline, story bible, explanatory account, learning route, narrative-rendering publication carrier | Use `A.6.3.NAR` for structure-to-sequence rendering and `E.17` for publication; use `C.30.AD` only when the source or target is an architecture description. |
 | candidate structure set and trade-off in `C.32` | alternative plots, possible story plans, scenario branches, competing explanation routes, narrative design alternatives | Keep alternatives visible before picking the route; use `NSTD.2` for ordering and `NSTD.6` for declared-use quality. Use `C.32` only for architecture candidate synthesis. |
 | project architecture decision in `C.32.PAD` | chosen narrative route, selected plot or order, editorial commitment, scenario commitment | Treat the chosen narrative route as DPF-local unless it is also an architecture decision. Do not let narrative commitment authorize work, evidence, ethics, or architecture decisions. |
 | developer or transformer role receiving architecture work | writer, narrator, teacher, commentator, story designer, tool operator, performer, generator controller | Name the narrating or rendering worker in `NSTD.1`; use A.15-family owners only when method, work, readiness, or performed-work claims become live. |
@@ -2590,7 +2590,7 @@ These terms are local working vocabulary unless a source owner and naming owner 
 | schema constraint | Method or generation constraint; `NSTD.7`, `C.35` | Formal or informal constraint on generation | Not assurance or evidence sufficiency |
 | generation method | Method or method-description claim; direct method owners plus `C.35` | Procedure used to produce a carrier | Not admission of its output |
 | repair loop | Improvement method; `E.22` when the question needs framing and `E.23` after values exist | Repeated repair of a narrative rendering version or DPF scale set under re-evaluation | Not evaluation itself, not prompt retry, and not proof of quality movement without re-evaluation |
-| learning narrative route | Teaching or learning carrier design governed by `NSTD.8`, `E.17`, `E.17.AUD` | Narrative route over source structures for learner reconstruction or application | Not the pattern body and not the teaching material itself |
+| learning narrative route | Teaching or learning route design plus publication-carrier relation governed by `NSTD.8`, `E.17`, `E.17.AUD` | Narrative route over source structures for learner reconstruction or application | Not the pattern body and not the teaching material itself |
 | learner reconstruction task | Teaching work item or evaluation evidence; `NSTD.8`, `A.15`, `NSTD.6` | Task that tests whether learners can recover selected source structure and source-return boundaries | Not proof of general understanding without evidence and scale |
 | narrative rendering epiplexity | DPF-local quality characteristic specializing the general epiplexity move; `NSTD.6`, `A.19.ECS`, `C.16`, with `C.33` when architecture-relevant structural-information capture is current | How much selected source structure is pulled into one narrative rendering for one declared use and observer boundary | Not a universal narrative value, not proof, not evidence, not assurance, and not a new U-kind |
 | narrative rendering quality characteristic | Evaluation characteristic; `A.19.ECS`, `C.16`, `NSTD.6` | Characteristic used to evaluate one narrative rendering version for declared use and source-return obligations | Not an eval program, evidence record, assurance claim, or gate |
@@ -2698,7 +2698,7 @@ PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
 ```text
 PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
   relationId: PFR-NSTD-GENCARRIER-001
-  sourceRef: generated or discovered narrative carrier
+  sourceRef: generated or discovered carrier that may carry a candidate narrative rendering
   targetRef: NSTD.7
   relationFunction: Produced-carrier admission
   governedUse: admit or reject generated narrative output before it is evaluated as narrative rendering or used in teaching
@@ -2712,13 +2712,13 @@ PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
 ```text
 PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
   relationId: PFR-NSTD-TEACHING-CARRIER-001
-  sourceRef: external FPF seminar or teaching test-run carrier
+  sourceRef: external FPF seminar or teaching test-run publication carrier
   targetRef: NSTD.8
-  relationFunction: Publication or teaching-carrier relation
+  relationFunction: Publication or teaching publication-carrier relation
   governedUse: teaching files expose or test a learning narrative route without entering DPF pattern bodies
   directGoverningPatternRef: E.17
   preservationOrAdmissionRef: LearningNarrativeRoute@Context
-  blockedStrongerReading: teaching carrier is not the DPF pattern body, not FPF source authority, and not a narrative rendering quality result
+  blockedStrongerReading: teaching publication carrier is not the DPF pattern body, not FPF source authority, and not a narrative rendering quality result
   sourceReturnCondition: return to source patterns when teaching examples lose selected source structure
   refreshOrSupersessionCondition: refresh when learner telemetry, session sequence, source structure spine, or carrier publication condition changes
 ```
@@ -2726,7 +2726,7 @@ PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
 ```text
 PatternFrameworkRelationRecord@NarrativizationAndNarrativeStudiesDPF:
   relationId: PFR-NSTD-TEACHING-EVAL-001
-  sourceRef: external FPF seminar or teaching test-run carrier
+  sourceRef: external FPF seminar or teaching test-run publication carrier
   targetRef: NSTD.8 and NSTD.6
   relationFunction: Narrative-route evaluation and improvement relation
   governedUse: evaluate learner reconstruction and source-return readiness for the learning route, then feed repair to E.23 when values exist
@@ -2759,4 +2759,4 @@ Use this route when the package is already being applied and one of its source, 
 3. Use `E.22` when the improvement question is underframed: purpose, floor, protected trade-offs, expected evidence, result form, or cost and risk are not explicit.
 4. Use `E.23` only for an exact changed narrative rendering version or declared changed slice with `NSTD.6` re-evaluation planned.
 5. Use `G.11` refresh when FPF Core edition, generated-narrative practice, reader telemetry, teaching-test evidence, source pack, or the `NSTD.6` evaluation characteristic space changes.
-6. Keep test-run carriers outside pattern bodies; use them as evidence or examples only through the direct owner named by the claim.
+6. Keep test-run publication carriers outside pattern bodies; use them as evidence or examples only through the direct owner named by the claim.
