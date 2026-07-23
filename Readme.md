@@ -12,6 +12,10 @@ Use FPF as a reference model and pattern language, not as a linear textbook. Sta
 
 This readme is a thin public practical-use rendering of FPF for engineers, researchers, managers, reviewers, and AI-assisted project workers deciding what FPF can help them do now. It foregrounds the project questions most likely to pay off and deliberately coarsens, omits, or defers the full pattern language, source publications, source-use history, and relation structure. When a claim becomes important, return to the Preface, Table of Contents, and governing pattern body rather than treating this readme as the specification.
 
+Returning readers can start with the [FPF Change History](CHANGELOG.md). It
+separates owner-backed accepted edition notes from provisional comparisons over
+pinned public sources; neither lane replaces the governing pattern body.
+
 Begin with the project object at stake and the current question about it. FPF often calls an object a holon when it is being treated as a whole with parts: a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework admitted under part-whole treatment. Roles use their own role ontology. Once the object and question are named, ask which structure, claim, decision, evidence, description, work, or improvement relation is current.
 
 ## Decide Whether FPF Fits
