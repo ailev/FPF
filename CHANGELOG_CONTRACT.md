@@ -7,7 +7,7 @@ replace a DRR, LAT, landing review, or governing pattern.
 
 `FPF-Spec.md` remains authoritative for current FPF semantics. A changelog
 entry helps a returning reader find an accepted change or a bounded
-public-source observation and decide what to inspect next.
+public-source reconstruction and decide what to inspect next.
 
 ## 1. Scope
 
@@ -58,11 +58,14 @@ kinds.
 | Posture | Admissible changelog use |
 | --- | --- |
 | `AcceptedInGoverningResult` | Project semantic, prior-use, and migration values from an exact accepted result and cite it. |
-| `SourceDirect` | Report only facts directly inspectable in pinned public sources. Leave semantic effect, compatibility, prior-use, and migration unknown unless their owners are also available. |
+| `SourceReconstruction` | Reconstruct a bounded semantic effect and review migration from exact pinned before/after sources. Declare the observation profile, receiving use, evidence, and remaining scope. |
+| `SourceDirect` | Report only facts directly inspectable in pinned public sources when a useful bounded reconstruction cannot yet be made. |
 | `CandidateInference` | Keep a reviewable draft under `Unreleased`. Do not present it as settled history. |
 
-A citation does not promote `CandidateInference` to
-`AcceptedInGoverningResult`.
+A citation does not promote `CandidateInference` to `SourceReconstruction` or
+`AcceptedInGoverningResult`. A merged `SourceReconstruction` accepts that
+bounded changelog reading as publication content; it does not create an FPF
+Core claim, compatibility relation, or per-pattern Delta-Class.
 
 ## 4. Reader-facing order
 
@@ -75,8 +78,10 @@ Within a section, render entries in this order:
 5. `Unresolved impact`
 
 The first four headings require the corresponding accepted migration or
-carrier-only result. Put a source-only reconstruction under `Unresolved impact`
-until its user impact has an accepted owner.
+carrier-only result, except that `Review your prior use` may contain a
+`SourceReconstruction` with a bounded `ReviewRequired` migration. Put raw
+`SourceDirect` facts and reconstructions without an exact receiving use under
+`Unresolved impact`.
 
 ## 5. Semantic entry
 
@@ -85,18 +90,19 @@ Use this form for a material FPF change:
 ```markdown
 #### <DeltaID> - <short title>
 
-- **Posture:** <AcceptedInGoverningResult | SourceDirect | CandidateInference>
+- **Posture:** <AcceptedInGoverningResult | SourceReconstruction | SourceDirect | CandidateInference>
 - **Basis:** <exact from/to edition or source-snapshot refs>
 - **Affected loci:** <PatternIDs, relation refs, and stable source anchors>
+- **Observation profile:** <the exact readings or receiving uses in scope>
 - **Operation:** <one or more bounded operation labels>
 - **Per-pattern Delta-Class:** <owner-result refs and projected values, or Not established>
-- **Semantic effect:** <bounded accepted effect, or Unknown>
+- **Semantic effect:** <bounded accepted or source-reconstructed effect, or Unknown>
 - **Before:** <accepted earlier claim or bounded source-direct observation>
 - **Now:** <accepted current claim or bounded source-direct observation>
-- **Preserved:** <accepted invariant, or Not established>
-- **Prior-use disposition:** <owner-result ref and projected value, or Not established>
-- **Migration:** <disposition, detection, action, and verification, or Unknown>
-- **Compatibility:** <exact E.4.PFR relation record ref, or Not established>
+- **Preserved:** <accepted or source-reconstructed invariant, or Not established>
+- **Prior-use disposition:** <accepted or explicitly source-reconstructed value, or Not established>
+- **Migration:** <disposition plus Detect, Action, Verify, and Automation boundary, or Unknown>
+- **Compatibility:** <exact E.4.PFR relation record ref, or No compatibility claim>
 - **Sources:** <governing result refs and immutable public source refs>
 - **Unknowns:** <unexamined scope and the result needed to close it>
 ```
@@ -140,7 +146,8 @@ or compatibility.
 
 ### Semantic effect
 
-When an accepted result supplies one, project a bounded effect such as:
+Project a bounded effect from an accepted result or an exact
+`SourceReconstruction`:
 
 `interpretation-preserving`, `ambiguity-resolving`,
 `admissibility-strengthened`, `admissibility-weakened`,
@@ -149,14 +156,28 @@ When an accepted result supplies one, project a bounded effect such as:
 `interpretation-preserving` is always relative to a declared observation
 profile. It never means universal equivalence of natural-language editions.
 
+A `SourceReconstruction` must bind the effect to:
+
+- immutable before and after sources;
+- exact affected loci;
+- a declared observation profile;
+- source-supported `Before`, `Now`, and `Preserved` claims;
+- the weakest link and unexamined scope.
+
+It may not generalise from the named profile to all downstream FPF uses.
+
 ### Prior-use disposition
 
-Project the exact `E.19` value only when its governing result exists:
+Use the `E.19` vocabulary:
 
 `preserved`, `improved`, `transferred`, `intentionally retired`, or
 `regressed`.
 
-Missing basis and unexamined scope are not a sixth disposition.
+An `AcceptedInGoverningResult` entry projects the exact governing value. A
+`SourceReconstruction` may use one of these values only for a named prior use
+whose old and new handling are both inspectable; prefix the claim with
+`Source reconstruction`. Missing basis and unexamined scope are not a sixth
+disposition.
 
 ### Compatibility
 
@@ -174,7 +195,9 @@ an action, and include:
 - how to verify the result;
 - what automation can and cannot decide.
 
-Use `Unknown` when the receiving-use result has not been established.
+Use `Unknown` when no exact receiving use can be named. A
+`SourceReconstruction` may publish `ReviewRequired` with the four fields above;
+it may not publish `ActionRequired` or `NoAction` without an accepted owner.
 
 ## 7. Update rule
 
@@ -183,15 +206,19 @@ Use `Unknown` when the receiving-use result has not been established.
 2. A contributor or deterministic tool compares sources and emits structural
    candidates by PatternID, section, relation, and stable reference. That
    comparison does not decide meaning.
-3. The contributor reconciles intended and observed changes. Every in-scope
-   structural candidate receives a semantic, carrier-only, reverted, or
-   unresolved disposition.
-4. A reviewer checks exact old and new sources, owner-result references,
-   affected loci, and unexamined scope.
-5. A semantic entry becomes `AcceptedInGoverningResult` only through the exact
-   accepted FPF result that owns its claims.
-6. The publisher binds immutable source refs and renders the human changelog
-   from the same accepted content.
+3. The contributor reconciles intended and observed changes. For a
+   `SourceReconstruction`, the contributor names the observation profile and
+   writes a falsifiable `Before` / `Now` / `Preserved` account plus
+   `Detect` / `Action` / `Verify` migration guidance.
+4. Every in-scope structural candidate receives a semantic, carrier-only,
+   reverted, or unresolved disposition.
+5. A reviewer checks exact old and new sources, affected loci, reconstruction
+   bounds, owner-result references when present, and unexamined scope.
+6. A semantic entry becomes `AcceptedInGoverningResult` only through the exact
+   accepted FPF result that owns its claims. Otherwise it remains visibly
+   `SourceReconstruction` after publication.
+7. The publisher binds immutable source refs and renders the human changelog
+   from the same reviewed content.
 
 Git hooks and AI agents may inventory, draft, reconcile, validate, and render.
 They may not accept semantic claims, establish compatibility, or perform the
@@ -225,11 +252,14 @@ A changelog change is ready for publication when:
 
 - the basis is immutable and labelled as `Edition` or `SourceSnapshot`;
 - each material claim has the correct posture and owner;
+- each `SourceReconstruction` declares a bounded observation profile and
+  weakest link;
 - every affected PatternID has its own Delta-Class projection or
   `Not established`;
 - operation, semantic effect, prior-use, compatibility, and migration are not
   collapsed into one label;
-- every named receiving use has one migration disposition or `Unknown`;
+- every named receiving use has one migration disposition with detection,
+  action, verification, and automation boundary, or `Unknown`;
 - public source anchors resolve;
 - coverage and unexamined scope are explicit;
 - generated prose adds no FPF requirement absent from its sources.
