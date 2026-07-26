@@ -46,7 +46,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | A.0 | **Onboarding Glossary (NQD & E/E‑LOG)** | Stable | *Keywords:* novelty, quality-diversity (NQD), explore/exploit (E/E-LOG), declared set result, typed portfolio publication, SearchSpaceRef, OutcomeSpaceRef, DeclaredSubstrateInterpretiveView, TypedSetViews, ParetoOnly default, scale-probe, BLP. *Queries:* "What terms must I publish when generating, selecting, or shipping a set result?", "How do I explain search-side vs outcome-side spaces and interpretive views on first use?", "How does FPF avoid single-winner bias in creative search?" | **Builds on:** E.2, A.5, C.17-C.19. **Coordinates with:** E.7, E.8, E.10, F.17, A.19.SOURCE-SET-SPACE-SUBSTRATE, A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW, G.5, G.9-G.12. **Constrains:** any pattern/UTS row that describes a generator, selector, declared set result, typed portfolio publication, or set-return publication. |
 | ***Cluster A.I - Foundational Ontology*** | | | | |
 | A.1 | **Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)** | Stable | Constructive recognition of one exact `U.Entity` under an already admitted holon kind: six world-side components, kind-specific `U.System` and `U.Episteme` conditions, and strict separation from evaluation, assertion, evidence, currentness, reliance, whole reidentification, selected structure, delimitation, and boundary-crossing claims. | **Builds on:** E.24.UK, A.14, C.13. **Coordinates with:** B.3.5, A.15.1, A.6.1, C.2.1, A.10, B.3, G.11, B.2, A.1.1, A.22, C.30, A.3.4, C.20, E.10.ARCH. |
-| A.1.1 | **U.BoundedContext Semantic Frame** | Stable | Semantic-frame ontology for local meaning, local vocabulary, invariant set, local role taxonomy, bridge relations, and non-container context boundary. | **Builds on:** A.1, E.10.D1. **Coordinates with:** F.0.1, F.9, F.18, E.24. |
+| A.1.1 | **Bounded Model-Use Structure and DDD Bounded-Context Recovery** | Stable | Use when a present engineering decision depends on the organization of where one exact model applies, how it is actually used in assigned Work, and whether a concrete expression still agrees with the model's fixed content. Recover the direct relations first; select `BoundedModelUseStructure` only when their joint organization changes the decision. A proposed crossing stays outside until a compatible direct governor makes it obtain. Keeps the DDD plain name “bounded context” while separating the selected `U.Structure` from systems, Work, epistemes, descriptions, views, representations, and publications. *Queries:* "Which exact applicability, actual-use, and fixed-content coherence facts matter here?", "Do their governed occurrences form one decision-relevant structure?", "Which context object or unsupported crossing must I not invent?" | **Builds on:** A.1, A.22, C.2.1, A.2.6, A.6.REL. **Coordinates with:** A.2, A.2.1, A.3.1, A.3.4, A.14, A.15.1, A.15.PROD, F.9, E.17.0, C.29, E.24.PUB, C.2.P, A.6.0, A.6.5, F.17, F.18. |
 | A.2 | **Role Taxonomy** | Stable | *Keywords:* role, assignment, holder, context, function vs identity, responsibility, U.RoleAssignment. *Queries:* "How to model responsibilities?", "What is the difference between what a thing *is* and what it *does*?" | **Builds on:** A.1, A.1.1. **Prerequisite for:** A.2.1-A.2.6, A.13, A.15. |
 | A.2.1 | **`U.RoleAssignment` - System Role Assignment** | Stable | *Keywords:* assignment occurrence, holder System, role value, role-taxonomy episteme, effective ReferenceScheme, AssignmentInterval, performedUnderAssignment. *Queries:* "Which System holds this role under which taxonomy and scheme?", "Are these two assignment episodes the same occurrence?", "Which assignment covers this performed Work?" | **Builds on:** A.2, A.6.REL, A.6.5, C.2.1. **Coordinates with:** A.2.2, A.2.5, A.15.1, F.6. |
 | A.2.2 | **`U.Capability`: System Ability Envelope and Measures** | Stable | *Keywords:* holder-dependent capability instance, ability envelope, measure set, qualification window, currentness, capability-fit condition. *Queries:* "What is a capability in FPF?", "How do I separate capability from capability statements, evidence, dashboards, and fit predicates?" | **Builds on:** A.2, E.24.UK. **Informs:** A.15, A.2.3. |
@@ -95,7 +95,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | A.6.6 | **Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)** | Stable | *Keywords:* base declaration, basedness, baseRelation, SWBD, witnesses, scope, Γ_time, anchoring, support-as-basedness, rebase, retime, rescope. *Queries:* "What is base-declaration discipline?", "How to model base-dependence without anchoring?", "When is support really base-dependence?", "What is a ScopedWitnessedBaseDeclaration (SWBD)?" | **Builds on:** A.6.0, A.6.5, A.2.6, A.2.4, A.7, E.8, E.10. **Coordinates with:** A.10, A.14, C.2.1, A.6.3-A.6.4, C.3.3, E.18, F.9, F.15, F.18. **Used by:** base-relative admissibility/calibration/attribution patterns; anchor* and support-as-basedness rewrites into explicit `baseRelation(dependent, base)`. |
 | A.6.7 | **`MechSuiteDescription` — Description of a set of distinct mechanisms** | Stable | *Keywords:* mechanism suite, distinct mechanisms, suite obligations, spec pins, CN-Spec, CG-Spec, P2W, planned baseline, crossing visibility. *Queries:* "What is a MechSuiteDescription?", "How to describe a bundle of distinct mechanisms without using MechFamilyDescription?", "How do suite obligations differ from gate decisions?" | **Builds on:** E.8, A.6.1, A.6.5, E.10, E.19. **Coordinates with:** E.18, A.21. **Used by:** Part G universalization; CHR mechanism stacks. |
 | A.6.8 | **Service Polysemy Unpacking (RPR-SERV)** | Stable | *Keywords:* service polysemy, service situation, interface semantics, promise content, provider principal, service/cell analogy, boundary exchange, viability envelope, API read/export. *Queries:* "How do I unpack service talk in FPF?", "When is an API read interface semantics rather than state evidence?", "When does service viability apply C.26.3?" | **Builds on:** A.6.P, A.6.B, A.6.5, A.2.3, A.2.8, A.2.9, A.15, E.10, F.17, F.18. **Coordinates with:** A.6.C, A.7, C.26.1, C.26.3, F.8, E.15. |
-| A.6.9 | **Cross-Context Sameness Disambiguation - Repairing cross-context "same / equivalent / align" via explicit Bridges (RPR-XCTX)** | Stable | *Keywords:* cross-context sameness, bridge, alignment, mapping, direction, substitution licence, loss notes, CL, SenseCells, weakest-link. *Queries:* "How to disambiguate 'same' across contexts?", "How to avoid silent inversion in mappings?", "Naming-only vs substitution bridge". | **Builds on:** A.6.P, F.9, E.10.D1, A.7. **Coordinates with:** E.17, C.3.3, A.6.6, F.7/F.8. |
+| A.6.9 | **Cross-Context Sameness Disambiguation - Repairing cross-context "same / equivalent / align" via explicit Bridges (RPR-XCTX)** | Stable | *Keywords:* ambiguous sameness, direct-owner dispatch, exact F.17 `SchemeSenseCell` endpoints, different `<ReferenceScheme, LocalSenseClaim>` projections, relation-only F.9 Bridge, separate C.2.1 bounded-use claim, A.10/B.3 reliance, actual receiving object, explicit stop. *Queries:* "Do these words name one directly governed value or two exact local senses?", "Do the endpoint projections differ, and does this Bridge actually obtain?", "Which separate claim, reliance basis, authorization owner, and actual receiving object govern this use?" A true Bridge by itself selects, authorizes, and performs no use. | **Builds on:** A.6.P, F.17, F.18, F.9, C.2.1, F.0.1, F.7, F.8. **Coordinates with:** A.10, B.3, A.7, A.6.6, A.2.6, E.17, C.29, A.6.3.RT, C.3.3, A.22, A.2.1, F.6, A.15.1. |
 | A.6.S | **U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature** | Stable | *Keywords:* signature engineering, TargetSignature, ConstructorSignature, two-signature arrangement, EFEM, editioning, retargeting, slot/base change lexicon, MVPK views (no new semantics), claim register, no epistemic agency. *Queries:* "What is U.SignatureEngineeringPair in FPF?", "How do I model TargetSignature vs ConstructorSignature (and keep Work out of edits)?", "How do slot/base change verbs compose into a reproducible signature evolution account?" | **Builds on:** A.6.0, A.6.2, A.6.3, A.6.4, A.6.5, A.6.6, A.6.B, A.3, A.7, A.12, C.2.1, E.17, E.10. **Coordinates with:** E.18, E.19. |
 | A.6.H | **Wholeness Language Unpacking (RPR-WHOLE)** | Stable | *Keywords:* wholeness, integrity, part-of, boundary, environment, mereology, completeness, order/time, publication-carrier and EntityOfConcern/Description distinction, role-method-work. *Queries:* "How to unpack 'whole/part/integrity' in FPF?", "RPR-WHOLE trigger words", "ComponentOf vs ConstituentOf vs PortionOf vs MemberOf vs PhaseOf", "How to separate order/time from mereology?" | **Builds on:** A.6.P, A.6.5, A.7. **Coordinates with:** A.14, B.1.1, B.1.4, A.15. |
 | ***Cluster A.V - Constitutional Principles of the Kernel*** | | | | |
@@ -331,7 +331,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | E.24 | **U.Ontic and Ontic Introduction Discipline** | Stable | Decides whether a selected ontology need warrants one durable connected ontic, a bounded local episteme coordinating already governed claims, direct use of existing governing patterns, or an unresolved stop. The independent source-use status remains not-current, quote-only, reduced, or one selected stronger use and never substitutes for the ontology disposition. | **Builds on:** A.6.REL, A.6.0, A.6.5, C.2.1. **Coordinates with:** E.8, E.10, E.10.ARCH, F.18, E.24.CD, E.24.UK, E.24.PUB, E.17.0, C.29. |
 | E.24.CD | **Ontic Candidate Detection and First-Use Disposition** | Stable | Use when `process`, `source`, `quality`, `architecture`, `problem`, `view`, `role`, `function`, `mechanism`, or `method`—or a recurring card, table, schema, diagram, record, draft pattern row, or field bundle—looks like a new FPF subject. State the blocked action and subject, ignore the wrapper, then take the first truthful next use: a direct governing pattern, C.2.1 episteme constitution, C.3 local typed classification, description, publication, or C.29 representation handling, bounded wording repair or F.18 naming, E.24 admission with a separate E.24.UK kind decision when needed, or a precise unresolved stop. Visible form and repetition create neither an ontic, a public `U.*` kind, nor a candidate registry. | **Builds on:** E.24, E.24.UK, C.2.1, C.3, C.3.1, C.3.2, E.24.PUB, C.29, C.2.P.DR, A.6.5, A.6.RSIR, A.6.F, A.6.P, E.10, E.10.ARCH, F.18. **Coordinates with:** A.6.RCD, E.17.0, A.1, B.1, B.2, A.14, C.13, A.3.4, A.15.1, the temporal patterns, C.28, A.6.0, C.22.PFR, C.22.2, E.18.1, E.23, A.19, A.19.ECS. |
 | E.24.PUB | **Ontic Description and Publication Discipline** | Stable | Keeps an ontic, its description episteme, its publication, and the publication form distinct; prevents cards, records, tables, schemas, diagrams, views, pattern hosts, or source packets from becoming the ontic by appearance. | **Builds on:** E.24, C.2.1, E.17, E.8, E.10, F.19. **Coordinates with:** E.24.CD, C.30.AD, E.21, E.9.DA. |
-| E.24.UK | **U-kind Admission and Ontic Settlement** | Stable | Applies explicit root or dependent-kind admission tests and returns one accepted result: reuse an admitted durable kind, declare a bounded C.3 local kind, admit a genuinely needed durable kind, or recover a non-kind object under its direct owner. For an already identified `U.Structure`, the `BoundedModelUseStructure` and `CrossContextRelationStructure` rows test dependent membership without letting context, view, publication, representation, or use create the base structure. | **Specializes:** E.24. **Uses:** A.6.REL, A.6.0, A.6.5, C.2.1, F.18, C.29. **Coordinates with:** A.22, A.1.1, A.2.6, C.3.2, E.24.CD, E.24.PUB, E.17.0, A.8, A.11, E.10. |
+| E.24.UK | **U-kind Admission and Ontic Settlement** | Stable | Applies explicit root or dependent-kind admission tests and returns one accepted result: reuse an admitted durable kind, declare a bounded C.3 local kind, admit a genuinely needed durable kind, or recover a non-kind object under its direct owner. For an already identified `U.Structure`, it records current `BoundedModelUseStructure` membership and only the conditional A.22 crossing-analysis rule. Until an independent direct crossing governor supplies exact obtaining occurrences and all four A.22 discriminators, there is no positive crossing member and no public crossing-specialization term; a context, view, publication, representation, or selected use creates neither the base structure nor specialization membership. | **Specializes:** E.24. **Uses:** A.6.REL, A.6.0, A.6.5, C.2.1, F.18, C.29. **Coordinates with:** A.22, A.1.1, A.2.6, C.3.2, E.24.CD, E.24.PUB, E.17.0, A.8, A.11, E.10. |
 
 **Part F — The Unification Suite (U‑Suite): Concept‑Sets, SenseCells & Contextual Role Assignment**
 
@@ -349,7 +349,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | F.7 | **Concept‑Set Table Construction** | Stable | *Keywords:* concept-set, table, row, columns, differences, comparisons. *Queries:* "How do I create a concept-set table?", "How do I compare concepts across contexts?". | **Builds on:** F.3, F.9. **Coordinates with:** A.6.9. **Prerequisite for:** F.8. |
 | F.8 | **Mint-or-Reuse Decision** | Stable | *Keywords:* decision lattice, type explosion, reuse, minting new U-kinds, parsimony. *Queries:* "When should I create a new U-kind or reuse an existing governed value?", "How do I avoid creating too many roles or kinds?", "Decision guide for new concepts." | **Builds on:** F.4, F.7, E.24.UK, A.11. |
 | **Cluster F.III — Cross‑Context Alignment & Applied Bindings** | | | | |
-| F.9 | **Alignment and Bridge across Contexts** | Stable | *Keywords:* bridge, cross-context alignment, CL, direction, loss notes, Bridge-supported use, bridge reading, weakest-link scope, state export. *Queries:* "How do I bridge concepts across contexts?", "How do I express alignment safely in FPF?", "When is an orientation note not enough for a bridge card?" | **Builds on:** E.10.D1, F.0.1, F.1, F.2/F.3, F.7, F.8. **Coordinates with:** C.26, C.26.1, A.6.3.CSC, A.6.9, E.17.ID.CR, F.9.1. **Prerequisite for:** F.7, F.10. |
+| F.9 | **Alignment and Bridge across Contexts** | Stable | *Keywords:* exact F.17 `SchemeSenseCell` endpoints, different `<ReferenceScheme, LocalSenseClaim>` projections, relation-semantic profile, obtaining Bridge, optional `CL` evidence-strength shorthand, separate C.2.1 bounded-use claim, A.10/B.3 reliance, inverse/composition checks, quantum/coarsening exit, optional card. *Queries:* "Do the endpoint projections differ?", "Does this exact Bridge obtain?", "For which action, direction, rule, and tolerance is it separately claimed suitable, and what authorizes or performs the receiving use?" Relation truth, suitability for one use, reliance, authorization, performance, and packaging remain separate. | **Builds on:** F.17, F.18, C.2.1, F.0.1, F.7, F.8. **Coordinates with:** A.10, B.3, A.6.9, A.6.3.CSC, C.26.1, C.26.2, E.17.ID.CR, F.9.1, C.29. **Prerequisite for:** F.7, F.10. |
 | F.9.1 | **Bridge Stance Overlay** | Stable | *Keywords:* bridge stance, stance overlay, interpretive gloss, projection note, rename note, language-state comparisons, overlay annotation. *Queries:* "How do I add a stance gloss to a bridge card without changing bridge semantics?", "What is the Bridge Stance Overlay?", "When does a stance label still depend on the underlying F.9 bridge card?" | **Builds on:** F.9, C.2.2a, A.16.0. **Coordinates with:** A.6.3.CSC, E.17.ID.CR, E.17.1, C.16.Q, A.6.A. |
 | F.10 | **Status Families Mapping (Evidence • Standard • Requirement)** | Stable | *Keywords:* status, evidence, standard, requirement, polarity, applicability windows. *Queries:* "How to map different types of status like 'evidence' and 'requirement'?", "How does FPF handle compliance?". | **Builds on:** F.9, B.3. |
 | F.11 | **Method Quartet Harmonisation** | Stable | *Keywords:* Method, MethodDescription, Work, Actuation, Role–Method–Work alignment. *Queries:* "How to align the concepts of 'method' and 'work' across domains?", "What is the method quartet?". | **Builds on:** F.9, A.15. |
@@ -359,8 +359,8 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | F.14 | **Anti‑Explosion Control (Roles & Statuses)** | Stable | *Keywords:* vocabulary growth, guard-rails, separation-of-duties, bundles, reuse. *Queries:* "How to prevent having too many roles and statuses?", "What are the strategies for controlling vocabulary size?". | **Builds on:** F.4, F.8. |
 | F.15 | **Static and Regression Conformance Harness for Unification** | Stable | *Keywords:* static checks, regression tests, acceptance tests, validation, SenseCell testing. *Queries:* "How is the unification process validated?", "What are SCR/RSCR tests in FPF?". | **Builds on:** All of F.1-F.14. |
 | F.16 | **Worked‑Example Template (Cross‑Domain)** | Stable | *Keywords:* didactic template, example, pedagogy, cross-domain illustration. *Queries:* "What is the standard format for a worked example in FPF?", "How to show a concept applied across different fields?". | **Builds on:** All of F.1-F.12. |
-| F.17 | **Unified Term Sheet** | Stable | Publishes one governed value and kind with direct pattern, NameCard, SenseCell refs, local-sense basis relations, directional Bridges, admitted use, blocked use, and currentness. Includes bounded rows for `demonstrative walkthrough`, seminar `mantra`, and seminar `mantra move`; ordinary local mantras need no UTS row. | **Builds on:** F.1-F.12, F.18, F.9. **Coordinates with:** A.22.CGUS, E.10.MOVE, E.11. |
-| F.18 | **Local-First Unification Naming Protocol** | Stable | Local-first durable naming for one exact already-governed value: a `C.2.1` NameCard episteme records the selected Tech and Plain designations, exact local sense, candidate coverage and rejections, lineage, and reopen condition under an effective by-value `U.ReferenceScheme`; an F.17 public row is optional and fail-closed, while E.24.PUB separately governs actual availability. Predicate definition, relation kind, obtaining occurrence, representation element, designator, and performed-work occurrence remain distinct; WMR non-assertability authorizes no durable name; and F.9 governs only exact cross-context sense correspondence and admitted use. | **Builds on:** F.0.1, F.1-F.17, C.2.1, E.24.PUB, E.10, E.10.ARCH, A.6.P, A.6.P.WMR, A.6.RCD, A.6.REL, A.15.1. **Coordinates with:** F.9, A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW, G.2, G.6, G.10. |
+| F.17 | **Unified Term Sheet** | Stable | Publishes one already-governed value and exact kind with its direct pattern, F.18 NameCard, one-expression scheme-based `SchemeSenseCell` coordinates, local-sense basis relations, an obtaining relation-only F.9 Bridge when different `<ReferenceScheme, LocalSenseClaim>` projections are related, the separate C.2.1 row-use claim and A.10/B.3 reliance, blocked use, and currentness. Includes the four bounded-model-use rows `BoundedModelUseStructure`, `ModelApplicabilityRelation`, `ModelUseRelation`, and `ModelExpressionCoherenceRelation`, plus `demonstrative walkthrough`, seminar `mantra`, and seminar `mantra move`; a row creates no kind, relation, occurrence, authorization, or performed use. | **Builds on:** F.2/F.3 for discovery only, C.2.1, F.5, F.7, F.8, F.9, F.15, F.18, and A.1.1 for the four bounded-model-use values. **Coordinates with:** A.10, B.3, A.22.CGUS, E.10.MOVE, E.11. |
+| F.18 | **Local-First Unification Naming Protocol** | Stable | Names one exact already-governed value: a one-off claim stays in plain local wording, while a durable `C.2.1` NameCard records the selected Tech and Plain designations, one exact local sense, candidate coverage and rejections, lineage, and reopen condition under an effective by-value `U.ReferenceScheme`. For a named use between different `<ReferenceScheme, LocalSenseClaim>` projections, F.9 supplies relation truth only, C.2.1 carries the naming-use claim, and A.10/B.3 supplies reliance; F.17 may consume those objects without absorbing them into the NameCard. No Bridge, claim, reliance disposition, row, or card authorizes or performs the use, and E.24.PUB separately governs actual availability. | **Builds on:** F.0.1, F.2, F.3, F.5, F.8, F.9, F.13, F.14, F.15, C.2.1, E.24.PUB. **Coordinates with:** F.17, A.10, B.3, E.10, E.10.ARCH, A.6.P, A.6.P.WMR, A.6.RCD, A.6.REL, A.15.1, A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW, G.2, G.6, G.10. |
 | F.19 | **Ontology-First Plain Technical Rewriting** | Stable | Ontology-first plain rewriting; phrase-level boilerplate; negative catalogue; pattern-application drift; kind-preserving plain technical prose. | **Builds on:** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`. **Coordinates with:** `E.19`, `E.22`, `E.23`, `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P`, `E.11`, `I.2`. |
 
 
@@ -1738,284 +1738,439 @@ Treat a stronger source as current only when it changes the root split among `U.
 
 ### A.1:End
 
-## A.1.1 - U.BoundedContext Semantic Frame
+## A.1.1 - Bounded Model-Use Structure and DDD Bounded-Context Recovery
 
 > **Type:** Part A architectural ontology pattern
 > **Status:** Stable
-> **Normativity:** Normative unless a section is explicitly informative
+> **Normativity:** Normative unless marked informative
 
-### A.1.1:0 - Use This When
+### A.1.1:0 - Practitioner entry
 
-Use this pattern when a term, role, rule, invariant, unit, status, or admissible inference is meaningful only inside a named semantic frame.
+**Working reader and current decision.** This pattern is for a domain architect, systems engineer, or service owner deciding whether several facts about one model must be treated together for the next engineering move. The reader starts from that decision—change scope, release scope, ownership boundary, integration boundary, or whether two uses belong together—not from a team name, repository, diagram, or the word *context*.
 
-Typical moments:
+**Governed object in plain language.** A.1.1 governs the selected organization of where one exact model applies, how it is actually used in assigned Work, and whether concrete expressions still agree with it. The Tech name is `BoundedModelUseStructure`; the familiar Plain retrieval name is **bounded context**. It is a `U.Structure`, not a container for systems, teams, Work, documents, or publications.
 
-- the same word means different things in engineering, finance, legal, scientific, or operations work;
-- a role assignment needs the context that defines the role and its incompatibilities;
-- an invariant is local to one standard, team, theory, regulation, product line, or edition;
-- two contexts need a bridge relation rather than an assumed global equivalence;
-- a "domain" label is too broad to decide local vocabulary or rules.
+**First useful move — take the smallest branch.**
 
-**First useful move.** Name the `U.BoundedContext` that governs the current meaning, then state the local vocabulary, local invariants, role taxonomy when role assignments are current, episteme-use/status relations when epistemic-use or status claims are current, and bridge relations that matter for the claim.
+1. Name one exact model edition and one exact place or thing about which it is used.
+2. Ask what the present decision needs. If applicability alone answers it, recover `ModelApplicabilityRelation` and stop. If actual use is current, recover the exact role assignment, performed Work, and `ModelUseRelation` and stop. If maintained expression content is current, recover the fixed model content, fixed expression content, declared coherence predicate, and comparison scheme, then decide `ModelExpressionCoherenceRelation` and stop.
+3. Recover the remaining direct relations only when their joint organization changes the decision. Select `BoundedModelUseStructure` only then.
+4. Keep every boundary crossing separate. A proposed source, target, direction, required fit, permitted loss, and claim scope is useful planning content, but it is not an occurrence and cannot identify either endpoint structure.
 
-**What goes wrong if missed.** "Owner", "ticket", "service", "evidence", "role", "done", and "valid" become global labels. Integration work then appears to be about matching words, while the real problem is unspoken semantic frames.
+**First-minute success case.** A press-control team must decide whether a controller-code change may be handled as a local code edit or must enter the independently governed release review together with model applicability and operating use.
 
-**What this buys.** FPF can keep plural meanings without contradiction: each meaning is local, and cross-context use becomes an explicit bridge relation with stated fit and loss.
+1. `PressControlModel-5` is the exact claim-bearing model edition, `Press-3` is the use locus, and the model applies within `SafetyControlClaimScope`; this is one `ModelApplicabilityRelation` occurrence.
+2. Exact F.6 `performedUnderAssignment(PressOperationWork-91, OperatorAssignment-8)` obtains. The assignment holder actually uses `PressControlModel-5` during that Work concerning `Press-3`; this is one `ModelUseRelation` occurrence.
+3. `ControllerImplementsControlModelPredicate` checks the fixed contents of `PressControlModel-5` and `PressControllerCode-17` under `PlantControlReferenceScheme`. It returns true, so one `ModelExpressionCoherenceRelation` occurrence obtains. The predicate is the test value, not the occurrence or an evaluation procedure.
+4. The third discriminator contains three exact C.2.1 constraint claims used by this selection: `PressSafetyScopeUseConstraintClaim` states that every controller-change slice used in the release judgment satisfies A.2.6 `member(targetSlice, SafetyControlClaimScope)`; `PressCommandFeedbackConstraintClaim` states that the change must preserve the model's command-versus-feedback distinction; and `PlantJointReviewConstraintClaim` states that, under independently governed `PlantReleaseRule-3`, all three selected occurrences are required inputs to the release review when each is material. `SafetyControlClaimScope`, any one membership outcome, its displayed boundary, and the epistemes carrying these propositions are not themselves applied constraints.
 
-**Not this pattern when.**
+| Named selection-use frame | Exact question | Admissible action | Nearest non-admissible overread |
+|---|---|---|---|
+| `PressControlReleaseFrame` | Must this change be considered as code alone, or together with current applicability, operating use, and fixed-content coherence? | Give the three exact occurrences and applied constraints as the joint subject matter of the independently governed release review. | Neither A.1.1, the selected structure, nor the engineer gains authority to require review or authorize release. |
 
-- If the question is only naming a durable term, use `F.18`.
-- If the question is role-method-work alignment after the context is known, use `A.15`.
-- If the question is episteme description context, use `C.2.1` with `BoundedContextRef`.
-- If the question is a broad field such as healthcare, physics, finance, or architecture, treat it as an informative domain family unless a specific bounded context is named.
+This exact frame completes the fourth A.22 identity discriminator. If the decision asked only whether the model applies to `Press-3`, stop after step 1; if the independent release rule were absent, the structure would grant no review obligation. No crossing is asserted.
 
-### A.1.1:1 - Problem Frame
+**Three quick recognition situations.**
 
-Meaning is local. The same expression can be coherent in one bounded context and misleading in another. "Service" in software, service operations, military organization, and contract law is not one global object by spelling. "Evidence" in a courtroom, a scientific review, a machine-learning benchmark, and a gate review is not one global role by spelling.
+| Situation | First direct result | When the structure becomes current |
+|---|---|---|
+| Industrial control | Applicability, assigned-Work use, or fixed-content coherence for one control model and machine. | Their exact three-relation organization, exact applied constraint claims, and a filled selection-use frame change an engineering decision. |
+| Clinical and billing terminology | Separate F.6 attributions, A.1.1 use occurrences, and A.2.6 scopes for diagnosis and billing Work. | Each positive structure has its own complete three-relation organization, applied constraints, and selection-use frame; a shared model does not merge them. |
+| Published classification model | Actual assigned-Work use of one published model concerning an organization. | Applicability, use, coherence, constraints, and one classification-use frame jointly change the classification decision; publication alone is insufficient. |
 
-`U.BoundedContext` is the FPF ontic for this locality of meaning. It is a `U.Holon` that holds one semantic frame: local vocabulary, local invariants, local role taxonomy when role-assignment claims are current, local episteme-use/status relations when epistemic-use or status claims are current, and bridge relations to other contexts.
+**Short glosses.** A **model episteme** is one exact claim-bearing model edition. A **model-use holon** is one already admitted system or other concrete whole about which the model applies or is used; it is not a context container. **Work** (`U.Work`) is one exact dated doing, not its method, plan, or result. A **claim scope** (`U.ClaimScope`) is the set-valued boundary of context slices for one claim. A **relation occurrence** is a world-side relation actually obtaining under its predicate; an assertion, name, or diagram does not create it. A **reference scheme** is the interpretation basis for claim content. A **structure** here is a selected organization of already governed constituents, obtaining relations, applied constraints, and one exact selection-use frame; it is not another whole.
 
-A bounded context is not an enclosing object for all work in a domain. It is the semantic frame in which a term, rule, role assignment, or inference is interpreted.
+**Adoption test.** After applying A.1.1, name the exact organization that changes the present decision and the nearest overread that remains unavailable. If either is missing, stop at the direct relation or direct owner.
+
+**Names for retrieval.** The Plain label is **bounded context** and the Tech label is `BoundedModelUseStructure`. F.18 and F.17 own their designation history, public row, lineage, and refresh evidence; A.1.1 keeps only the names needed to apply this pattern. Authors **MUST NOT** publish `U.BoundedContext` as a U-kind. The retained labels create neither a structure individual nor any applicability, use, coherence, or crossing occurrence.
+
+### A.1.1:1 - Problem frame
+
+**Use this when.** Use this pattern when a current decision depends on the organization of three distinguishable facts about one exact model edition: where it applies, how it is actually used in assigned Work, and whether maintained expression content remains coherent with it. Physical location, team ownership, a document title, or the word *context* is not enough.
+
+**First useful move.** State the decision, model, and use locus; recover only the direct relation that answers the question and stop when it suffices. Select the wider structure only when several already governed relations, applied constraints, and one exact selection-use frame together change the decision.
+
+**What goes wrong if missed.** Systems, Work, epistemes, and publications are merged into a context-shaped proxy. One subsystem under two models is treated as one context by location, while one model used coherently across several loci is split by an implementation boundary. Local vocabulary, rules, units, status, or evidence use is also forced into a context object even when a direct semantic-locality owner answers the question.
+
+**What this buys.** Actual participants retain their identities. Applicability, use, and fixed-content coherence remain inspectable direct relations; their decision-relevant organization can be selected as `U.Structure`; and ordinary semantic locality is returned to its exact value, relation, and governing pattern.
+
+**Not this pattern when.** If only a term sense, role value, rule or invariant, admissible inference, unit or measurement basis, status, evidence use, claim scope, description, publication, or direct relation is current, use the A.1.1:4.4 triage and stop at that direct result. Do not select `BoundedModelUseStructure` unless the relation organization itself changes the decision.
 
 ### A.1.1:2 - Problem
 
-Without `U.BoundedContext`:
+DDD bounded-context practice couples several real concerns: a model is defined and applicable within a boundary; actual systems in assigned roles use it; code and descriptions contain expressions of it; integration and maintenance work aims to keep those expressions consistent; and maps describe relationships among model uses. These are practical prompts to recover exact FPF claims, not evidence that maintenance caused coherence or that a described crossing obtains. Their objects are related, but they are not parts of one additional whole by that fact.
 
-1. **Semantic drift hides in shared words.** Teams keep the same label while changing the object, role, rule, or allowed inference.
-2. **Local rules leak globally.** A policy, status, role, or invariant valid in one context is applied in another without a bridge relation.
-3. **Pluralism looks like contradiction.** Two contexts can each be coherent, but absent context they look mutually inconsistent.
-4. **Role assignments lose their footing.** A `U.Role` is used as a global label rather than a value defined in a local role taxonomy.
-5. **Domain labels pretend to govern.** "Healthcare", "AI", "architecture", or "physics" is used where a specific semantic frame is required.
+FPF needs this joint model-use relation organization selectable as `U.Structure` so it can serve as EntityOfConcern for comparison and maintenance work without becoming a heterogeneous holon, a description, or one universal semantic-locality reference.
 
 ### A.1.1:3 - Forces
 
 | Force | Tension |
-| --- | --- |
-| Local coherence vs cross-context work | A context must be internally coherent; real projects still exchange meanings across contexts. |
-| Pluralism vs one-truth pressure | Several valid frames may coexist; readers often want one global meaning. |
-| Explicitness vs overhead | Naming contexts and bridges costs effort; hidden context costs more when integration or review fails. |
-| Role locality vs organizational habit | Roles are defined by local rules; organizations often reuse titles as if they were global roles. |
-| Domain convenience vs semantic precision | Domain family labels help orientation; bounded contexts decide meaning. |
+|---|---|
+| Actual loci vs selected organization | Systems, work, teams, and epistemes keep direct identities, while their model-use relations may need treatment as one structure. |
+| Model applicability vs semantic locality | A model-use boundary can change the next engineering move; ordinary local meaning often needs only a reference scheme, scope, or governing episteme. |
+| One subsystem vs several models | Physical or organizational location does not distinguish two competing model organizations over the same subsystem. |
+| One model vs several loci | A coherent model use can span several actual loci when one applicability, actual-use, and model-expression-coherence organization relates them. |
+| Structure vs holon | A selected relation organization is useful without claiming that its substrates are parts of another whole or pass a meta-holon transition. |
+| World-side use vs description | A boundary description can be stale or absent while actual applicability, use, and model-expression-coherence relations continue. |
+| Source vocabulary vs FPF kinds | DDD uses context, mapping, and map as practice terms; FPF must recover method, structure, view, publication, and actual participants separately. |
 
 ### A.1.1:4 - Solution
 
-Model `U.BoundedContext` as a semantic-frame holon.
+Recover the Plain **bounded context** as one `BoundedModelUseStructure`, governed as a `U.Structure`. Identify it from one exact model episteme, exact already-admitted model-use holons, the selected organization of obtaining model-applicability, actual model-use, and fixed-content model-expression-coherence occurrences, exact applied constraint claims used by the selection judgment, and one exact selection-use frame. Each `U.ClaimScope` remains only a participant of its selected `ModelApplicabilityRelation`; a separate applied constraint claim may refer to that scope or its A.2.6 membership predicate. A bare scope, slice, membership outcome, boundary display, or carrier enters no A.22 discriminator. No boundary crossing participates in this identity. A later model edition has another C.2.1 episteme identity; continuity across it additionally requires exact `EpistemeEditionRelation(earlierModelEpisteme, laterModelEpisteme)` and the A.1.1 continuity rule.
+
+#### A.1.1:4.1 - Select structure, not another holon
+
+Use the four A.22 identity discriminators. The following sketch is a description of the selected organization, not the structure itself and not a relation signature:
 
 ```text
-BoundedContextSlotRelation:
-  contextIdentity:
-  contextBoundary:
-  localVocabulary:
-  localInvariantSet:
-  localRoleTaxonomy?:
-  localEpistemeUseAndStatusRelationSet?:
-  bridgeRelationSet?:
-  stewardingSystemOrCommunityRef?:
-  editionOrWindowRef?:
+BoundedModelUseStructure : U.Structure
+  exact constituents:
+    one selected model episteme
+    exact admitted model-use holons
+  exact selected obtaining relations:
+    ModelApplicabilityRelation occurrences
+    ModelUseRelation occurrences
+    ModelExpressionCoherenceRelation occurrences
+  exact applied constraint claims used by the selection judgment:
+    one exact C.2.1 constraint proposition may refer to a U.ClaimScope or its A.2.6 membership predicate
+    other exact applicability, coherence, release, or use-rule constraint propositions applied here
+    no bare scope, slice, membership outcome, boundary display, or carrier episteme
+  one named selection-use frame:
+    exact question
+    admissible action or stop
+    nearest non-admissible overread
 ```
 
-The context is the `EntityOfConcern` when the claim is about semantic locality itself. It may also fill `BoundedContextRef` in role assignments, episteme descriptions, characteristic spaces, architecture descriptions, and other patterns.
+A selection-use frame is this exact three-part plain value; it is not a new kind, card, or record. A phrase such as *current use*, *appropriate structure*, or *bounded-model-use frame* does not fill it. Changing the question, admissible action, or nearest overread changes that identity discriminator.
 
-#### A.1.1:4.1 - Context Identity
+The structure depends on its constituents and selected relation organization. It is not a holon whose parts are the substrate systems, Work, methods, or epistemes. Their identities, direct part relations, and any construction or whole-reidentification questions remain separately governed.
 
-`contextIdentity` names the semantic frame, not a territory, department, document, storage place, team, or domain family.
+#### A.1.1:4.2 - Recover the direct relations
 
-Good context names are specific enough to decide meaning:
+A.1.1 states each direct predicate and its occurrence-identity rule. An obtaining occurrence is an instance of a relation kind already admitted under `U.Relation`; its existence does not depend on a project deciding to expose it. A named receiving use may justify explicit individuation and reference under `A.6.REL`. A reusable `RelationSignature` episteme declares the participant SlotSpecs. An assertion or occurrence description may designate the actual participants by value or reference. Each table below is a readable presentation of one signature declaration. Its rows and cells are neither relation participants nor occurrences; they make neither the relation predicate true nor a relation occurrence obtain.
 
-- `Hospital.OR_2025`
-- `BPMN_2_0`
-- `Theory.SpecialRelativity.SelectedEdition`
-- `FactoryLineB.MaintenanceRules.2026`
-- `FPF.PatternQuality.E21`
+The two named temporal-extent ValueKinds below are local to A.1.1, not U-kinds. They can type a temporal extent stated in an assertion or occurrence description; they are not participant ValueKinds in either RelationSignature. For `ModelApplicabilityRelation` and `ModelUseRelation`, the direct obtaining history determines the maximal continuous extent used by the occurrence-identity rule. A filled assertion may state an open or closed extent, but that epistemic statement makes neither the relation predicate true nor a relation occurrence obtain and supplies no additional world-side participant.
 
-Broad labels such as "healthcare", "physics", "software", "workflow", or "architecture" are informative domain families unless they are narrowed into a bounded context with local vocabulary, invariants, the relevant role taxonomy or episteme-use/status relation set, and bridge relations.
+| Local ValueKind | Boundary and continuity semantics |
+|---|---|
+| `ModelApplicabilityInterval` | The maximal interval during which one fixed model episteme remains applicable to one fixed holon under one fixed claim scope, interpreted by that model episteme's own effective reference scheme. |
+| `ModelUseInterval` | The maximal interval within one fixed work occurrence for which exact F.6 `performedUnderAssignment(work, assignment)` obtains, during which that assignment's holder actually uses one fixed model concerning one fixed use-locus holon. |
 
-#### A.1.1:4.2 - Context Boundary
+For these two temporally varying relation kinds, continued obtaining extends the same open occurrence; a demonstrated gap ends it, and later resumption begins another occurrence. `ModelExpressionCoherenceRelation` instead has the participant-determined identity declared below: it has no temporal-extent discriminator. Revising an assertion changes the episteme, not any world-side occurrence.
 
-`contextBoundary` says where local meaning holds. It can be bounded by edition, standard, organization, product line, theory, practice, regulation, contract, operating mode, or another governed boundary.
+**`ModelApplicabilityRelation`.** Its participants are one model episteme, one exact holon, and one declared claim scope. Its predicate asks whether that model applies to that holon over the exact `U.ContextSlice` values delimited by that scope. The model episteme's C.2.1 effective reference scheme supplies the interpretation basis; it is not a fourth participant.
 
-The boundary is not a document boundary by default. A document may publish a context description. The context is the semantic frame that the document describes.
+| SlotKind | ValueKind | refMode | Participant meaning |
+|---|---|---|---|
+| `ApplicableModelEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | The model episteme whose distinctions and predicates are applied. |
+| `ModelApplicabilityHolonSlot` | `U.Holon` | `U.HolonRef` | The exact holon about which the model is applicable. |
+| `ApplicabilityClaimScopeSlot` | `U.ClaimScope` | `ByValue` | The scope whose A.2.6 `member(slice, scope)` predicate delimits the claim. |
 
-#### A.1.1:4.3 - Local Vocabulary
+**Well-formedness constraint `WF-A1.1-APP`.** `ModelApplicabilityRelation(M,H,S)` obtains exactly when `S` is the model-declared applicability scope or `scopeSubset(S, modelDeclaredScope(M))`, both scope expressions are interpreted under `effectiveReferenceScheme(M)`, and the model's declared applicability conditions hold for `H` over every slice `x` for which `member(x,S)` is true. `coversSet(S,T)` applies only when `T` is an exact finite `ContextSliceSet`.
 
-`localVocabulary` gives local senses for terms. It does not create global meanings.
+When `S` imports a local sense from another semantic setting, the interpretation branch exists exactly when the source and receiving F.17 `SchemeSenseCell` values are resolved and an F.9 `Bridge` obtains in the source-to-model orientation. Different schemes, shared spelling, or a Bridge Card does not establish that branch.
 
-When a word crosses contexts, do not infer sameness from spelling. Use a bridge relation with direction, relation kind, fit, loss, and scope.
+**Well-formedness constraint `WF-A1.1-APP-USE`.** A positive applicability assertion or structure selection that relies on the imported branch is admissible only when a separate current C.2.1 claim affirmatively states that the Bridge is suitable for this named scope-comparison use, direction, rule, and loss tolerance. For a use below the B.3 material-reliance threshold that makes no assurance claim, the same use must have an exact A.10 evidence-provenance graph relation with `RelianceDisposition=pass`. If an assurance claim is made or the threshold is met, a current positive B.3 assurance claim must carry the same bounded use and have a sufficient minimum reliance safety assurance record.
 
-Example: `ticket` in an airline context may denote a travel authorization; `ticket` in an IT service context may denote a work item. Those are different local meanings unless a bridge relation is declared for a specific use.
+**Use guidance.** If the Bridge, bounded-use claim, or selected reliance branch is missing, return respectively `missing claim-scope interpretation bridge`, `missing claim-scope interpretation use claim`, or `missing claim-scope interpretation reliance`. These stops block the receiving assertion or selection; they do not make an otherwise obtaining Bridge false. Any membership judgment, operation application, assertion, or Work remains under A.2.6, A.6.1, C.2.1, or A.15.1.
 
-#### A.1.1:4.4 - Local Invariant Set
+The occurrence is reidentified from the actual identities of the model episteme, holon, and claim scope together with the derived maximal continuous `ModelApplicabilityInterval`. Repeating the model's effective scheme adds no independent discriminator.
+**`ModelUseRelation`.** Its participants are one exact role-assignment occurrence, one model episteme, one performed Work occurrence, and one exact use-locus holon. Its predicate is actual use of that model content by the assignment holder while that system performs the same Work concerning that holon.
 
-`localInvariantSet` names rules that hold inside the context.
+| SlotKind | ValueKind | refMode | Participant meaning |
+|---|---|---|---|
+| `ModelUserRoleAssignmentSlot` | `U.RoleAssignment` | `U.EntityRef` | The role-assignment occurrence paired with the Work by exact F.6 `performedUnderAssignment`. |
+| `UsedModelEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | The model episteme whose content is actually used. |
+| `ModelUseWorkSlot` | `U.Work` | `U.WorkRef` | The performed Work in which use occurs. |
+| `ModelUseLocusHolonSlot` | `U.Holon` | `U.HolonRef` | The exact holon concerning which the model is used. |
 
-Examples:
+**Well-formedness constraint `WF-A1.1-USE`.** `ModelUseRelation(A,M,W,H)` obtains exactly when F.6 `performedUnderAssignment(W,A)` obtains and `HolderSystem(A)` actually uses the content of `M` while performing `W` concerning `H`. The holder system is derived, not copied as a fifth participant. A method, if current, remains related to `W` under A.3.1.
 
-- in a hospital operating-room context, one person cannot fill surgeon and independent auditor roles for the same case;
-- in a workflow-standard context, one work item cannot move from `InProgress` to `Done` without an accepted review transition;
-- in a theory context, selected postulates constrain admissible derivations.
+The occurrence is reidentified from the four participant identities and the derived maximal continuous `ModelUseInterval`. A useful probe holds those participants fixed and asks whether a relevant model-content change can change how the Work is performed; availability or mention alone is not actual use.
+Scope delimitation is not another direct relation kind here. The `U.ClaimScope` participating in `ModelApplicabilityRelation` is a set-valued scope over `U.ContextSlice`; A.2.6 governs its primitive membership predicate. A membership assertion or an evaluation result is an episteme about that predicate. Neither creates a separate delimitation occurrence.
 
-An invariant does not become global because it is well written. Cross-context reuse requires a bridge relation or a new local declaration.
+**Local predicate-value declaration.** `ModelExpressionCoherencePredicate` is an A.1.1-local `ValueKind`, not a U-kind and not an evaluation procedure. A by-value candidate belongs to this kind only when it declares (1) the ordered model-content and expression-content input meanings, (2) the exact comparison domain and local senses, (3) a Boolean truth condition, (4) the treatment of required congruence and permitted loss, and (5) every dependency whose absence makes application stop rather than return `false`. Two predicate values are identical exactly when those five by-value components are identical. A changed input meaning, domain, truth condition, congruence or loss rule, or dependency identifies another predicate value; a changed label, evaluator, evidence set, result episteme, representation, or publication does not. A label or procedure lacking the complete five-part declaration is not a member.
 
-#### A.1.1:4.5 - Local Role Taxonomy
+**`ModelExpressionCoherenceRelation`.** Its participants are one exact model episteme, one exact expression episteme, one by-value criterion admitted as `ModelExpressionCoherencePredicate`, and one exact `U.ReferenceScheme` used as the comparison basis.
 
-`localRoleTaxonomy` defines `U.Role` values valid in the context when system-role assignments are current. A `U.RoleAssignment` uses one context:
+| SlotKind | ValueKind | refMode | Participant meaning |
+|---|---|---|---|
+| `CoherenceModelEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | The model episteme whose fixed claims supply one side. |
+| `CoherentExpressionEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | The expression episteme assessed against that model. |
+| `ModelExpressionCoherencePredicateSlot` | `ModelExpressionCoherencePredicate` | `ByValue` | The admitted five-part criterion value; its label, evaluator, result, or evidence cannot substitute for it. |
+| `ModelExpressionCoherenceReferenceSchemeSlot` | `U.ReferenceScheme` | `ByValue` | The shared scheme or the receiving comparison basis used by the admitted bridged branch. |
 
-```text
-RoleAssignment:
-  holderRef:
-  roleRef:
-  boundedContextRef:
-  windowRef?:
-```
+**Well-formedness constraint `WF-A1.1-COH`.** `ModelExpressionCoherenceRelation(M,E,P,R)` obtains exactly when either (a) `R` equals the C.2.1 effective schemes of both epistemes, or (b) `P` resolves every differing source and receiving F.17 `SchemeSenseCell` pair and names an obtaining F.9 `Bridge` for each required correspondence; and, after that semantic branch is established, the fixed predicate value `P` returns true for the fixed claim contents of `M` and `E` under `R`. An unresolved cell, missing Bridge, shared spelling, common label, Bridge Card, or mere interpretability establishes no bridged branch.
 
-The same holder may have different role assignments in different contexts. The same role name may denote different roles in different contexts. A "global role" is not a valid shortcut; it is either a role value defined in a selected context or a wording problem to repair.
+The Bridge profile carries relation semantics only. Comparison direction, use-specific rule, permitted loss, and reliance belong to the separate bounded-use claim and reliance path.
 
-Do not put postulate, evidence, derived-claim, publication, or status distinctions into `localRoleTaxonomy` merely because ordinary language calls them "roles". When the context governs epistemic use or status, record those distinctions in `localEpistemeUseAndStatusRelationSet` and apply the direct evidence-use, source-use, status-use, claim, publication, or gate pattern.
+**Well-formedness constraint `WF-A1.1-COH-USE`.** A receiving assertion or structure selection that relies on a bridged coherence occurrence is admissible only when a separate current C.2.1 claim affirmatively states that the Bridge is suitable for this fixed-content comparison use, direction, rule, and loss tolerance compatible with `P`. For a use below the B.3 material-reliance threshold that makes no assurance claim, the same use must have an exact A.10 evidence-provenance graph relation with `RelianceDisposition=pass`. If an assurance claim is made or the threshold is met, a current positive B.3 assurance claim must carry the same bounded use and have a sufficient minimum reliance safety assurance record.
 
-#### A.1.1:4.6 - Bridge Relation Set
+**Use guidance.** Return `missing model-expression interpretation bridge`, `missing model-expression interpretation use claim`, or `missing model-expression interpretation reliance` for the corresponding missing condition. A use stop does not make the Bridge or predicate false and does not erase or reidentify an otherwise obtaining coherence occurrence. Comparison Work, an assertion episteme, and an A.22 selection use remain separate.
 
-`bridgeRelationSet` records cross-context relations. A bridge is not a hidden merge. It states how a meaning, role, rule, unit, status, or claim in one context relates to one in another context.
+One occurrence is participant-determined by `<M,E,P,R>`; it has no temporal-extent discriminator and no later recurrence for the same tuple. Changed claim content identifies another episteme and tuple. Changed predicate value or comparison scheme likewise changes the tuple. Changed evidence, bounded-use claim, reliance result, card, publication, evaluator, or timestamp does not.
+Maintenance remains one separate dated Work individual admitted under `U.Work`, performed by an admitted system under an exact obtaining `U.RoleAssignment`. Its affected-referent, resource, parameter, premise, method-enactment, and operation-application facts use their direct relations or A.6.1 bindings. C.2.1 identifies any report or repaired episteme separately; only an exact A.15.PROD entity-inception claim may relate that episteme's first existence to the performed maintenance. An admitted system under an exact obtaining role assignment may separately perform evaluation Work. C.2.1 identifies any result episteme asserting whether the coherence predicate holds, and only its exact A.15.PROD inception basis may relate its first existence to that performed Work. Neither that result episteme nor its provenance is the coherence occurrence. Failed maintenance work remains actual work even when the changed episteme tuple has no obtaining coherence occurrence.
 
-A bridge relation should state:
+`BoundedModelUseStructure` selects obtaining participant-determined `ModelExpressionCoherenceRelation` occurrences. Maintenance methods and Work remain separate objects even when they change the receiving decision; if their organization must itself be selected, that is a distinct A.22 structure and does not enter this bounded-model-use identity.
 
-```text
-BridgeRelation:
-  sourceContextRef:
-  targetContextRef:
-  sourceValueRef:
-  targetValueRef:
-  relationKind:
-  direction:
-  fit:
-  loss:
-  scope:
-```
+**Coherence-work stress cases.** Coherence can obtain before any selected maintenance episode. Successful maintenance that leaves both episteme identities fixed leaves the same participant tuple; maintenance that changes expression claim content gives another C.2.1 episteme and a different tuple to evaluate. Failed maintenance may leave a changed expression episteme and a separately identified evaluation result while the new tuple has no obtaining coherence occurrence. Automated integration work and non-software maintenance use the same separation among fixed-content correspondence, work, result, evaluation, evidence, and provenance.
 
-If a bridge cannot be stated, the cross-context use remains unsupported for that claim.
+**Occurrence-identity stress case.** Exact F.6 `performedUnderAssignment(InspectionWork-42, InspectorAssignment-17)` obtains, and its holder `Robot-7` uses `DefectModel-3` concerning `Pump-6` during that work. An observation at 10:00 supports continued obtaining of the same occurrence whose `ModelUseInterval` began at 09:00 and remains open; it does not create another occurrence. If model use demonstrably stops at 10:15 and resumes at 10:30 during the same work occurrence and assignment attribution, the resumption begins a second model-use occurrence. Correcting an assertion's timestamp without evidence of a world-side gap changes only that assertion.
 
-#### A.1.1:4.7 - Non-Enclosing Boundary
+**Use guidance — unsupported crossing.** First identify both endpoint `BoundedModelUseStructure` values without the crossing and state source, target, direction, required fit, permitted loss, and claim scope. **Well-formedness constraint `WF-A1.1-CROSS`.** A positive cross-structure member exists only when a current direct pattern supplies compatible endpoint SlotKinds, an obtaining crossing predicate, an occurrence-identity rule, and all four A.22 discriminators; the proposal, F.9 sense Bridge, label, diagram, or card supplies none of them. Otherwise preserve the six-part proposal, omit it from both endpoint identities and every positive cross-structure member, and return `missing CROSS-LOCALITY-BRIDGE governor`.
 
-Do not use bounded context as an enclosing object for everything nearby. A bounded context localizes meaning; it does not automatically contain every system, document, team, work plan, source, or architecture that mentions its vocabulary.
+A.1.1 is the direct governing pattern for these three relation kinds. `A.6.0` governs their RelationSignature epistemes, `A.6.5` governs the SlotSpecs inside those declarations, and `A.6.REL` governs progressive explicit individuation. A.2.6 separately governs claim-scope membership. `BoundedModelUseStructure` is the selected organization of the resulting occurrences under those scope values; no context record copies their participants.
 
-Objects can be governed by, described under, interpreted inside, or bridged across a context without being parts of the context holon. Use the relevant slot relation for each claim.
+#### A.1.1:4.2a - Use the settled public relation names
+
+The direct definitions, SlotSpecs, obtaining constraints, and occurrence-identity rules above govern the three relation kinds. A.1.1 uses only the settled Tech labels and their shortest Plain relation sentences:
+
+| Tech label | Plain relation sentence | Nearest non-use |
+|---|---|---|
+| `ModelApplicabilityRelation` | this model applies to this holon within this claim scope | not scope membership, an applicability assertion, or the derived interval |
+| `ModelUseRelation` | this assignment's holder uses this model during this Work concerning this holon | not availability, method application, Work, assignment, or a use record |
+| `ModelExpressionCoherenceRelation` | this model content and this expression content satisfy this declared coherence criterion under this comparison scheme | not maintenance, implementation, evaluation, evidence, or the predicate value itself |
+
+F.18 and F.17 carry candidate-name history, public-row state, lineage, and refresh evidence. Those naming epistemes create neither a relation kind nor an obtaining occurrence, assertion, Work, interval, or structure. `ModelExpressionCoherencePredicate` remains an A.1.1-local five-part criterion ValueKind; it has no public F.17 row unless a later durable naming use independently reopens F.18.
+
+#### A.1.1:4.3 - Identify continuity through model use
+
+At one observation time, the structure has the four A.22 discriminators:
+
+1. exact independently identified constituents—the selected model episteme and admitted model-use holons;
+2. exact selected obtaining applicability, use, and coherence occurrences;
+3. exact applied constraint claims used by this selection, each with a recoverable proposition and C.2.1 identity; a claim may refer to one `U.ClaimScope` or its membership predicate, but the bare scope, membership outcome, boundary display, or carrier is not this discriminator; and
+4. one exact named selection-use frame containing its question, admissible action or stop, and nearest non-admissible overread.
+
+No crossing or proposed six-part crossing record enters those discriminators.
+
+At a later observation time, reidentify the same structure only when every continuing constituent is reidentified under its direct rule; any replacement model is connected by exact C.2.1 `EpistemeEditionRelation` and admitted by the declared continuity rule; every continuing relation occurrence retains its direct identity; every replacement occurrence is explicitly admitted; and all four A.22 discriminators remain the same under that rule.
+
+The continuity rule therefore compares the exact constituents, selected occurrence organization, exact applied constraint claims, and the complete selection-use frame. A changed constraint proposition reopens the third discriminator; changing only a membership assertion, boundary rendering, carrier, or evidence about an unchanged constraint claim does not. A changed question/action/overread frame reopens structure identity even when every substrate and relation occurrence remains unchanged. A changed page, wording, rendering, carrier, description edition, or publication does not. File history, edition labels, publication order, a shared name, or membership in an edition collection establishes neither `EpistemeEditionRelation` nor bounded-model-use continuity; A.14 governs any separately selected collection of editions.
+
+Missing evidence creates uncertainty about a continuity claim; it does not by itself end a world-side relation or structure. Any selected substrate holon may separately participate in a larger whole under A.14 and C.13; that is not parthood of `BoundedModelUseStructure`.
+
+#### A.1.1:4.4 - Resolve semantic locality through direct values and relations
+
+When the question is local meaning rather than joint model-use organization, recover the smallest direct result and stop:
+
+| Exact practitioner question | Direct governed result | Governing pattern | Stop or nearest overread |
+|---|---|---|---|
+| What does this term or predicate mean here? | one exact claim-bearing episteme, its C.2.1 effective `U.ReferenceScheme`, and the needed F.17 `SchemeSenseCell` values | C.2.1 and F.17 | spelling or a broad domain label supplies no sense |
+| Over which slices is this claim made, and which slices belong? | one `U.ClaimScope` and its A.2.6 `member(slice, scope)` facts | A.2.6 | do not replace scope with a context or structure |
+| Which role value is assigned, to whom, and when? | First recover one obtaining `U.RoleAssignment`: its holder system, exact `U.Role` value, role-taxonomy episteme, and effective reference scheme. If the question also needs a reportable time, recover a separate assignment assertion or occurrence-description episteme whose content states the currently known `AssignmentInterval`. | A.2 and A.2.1; A.2.7 only for an independently current role-relation question | the interval is not a fifth participant, does not make the assignment obtain, and does not replace uninterrupted-obtaining occurrence identity; an organizational title supplies no assignment |
+| Which rule, policy, invariant, or inference is local? | one C.2.1 episteme with the exact ClaimGraph and effective scheme, the A.2.6 claim scope, and the truth or admissibility predicate owned by the direct subject pattern | C.2.1, A.2.6, and that direct subject or predicate pattern | if no direct predicate owner can state when the rule or inference holds, preserve the claim and stop; do not globalize it |
+| Which unit or measurement reading is local? | one C.16 measurement basis naming bearer, characteristic, scale, coordinate or level, `U.Unit` when applicable, polarity, and evidence stub | C.16 | a unit label or dashboard value alone is not a comparable measure |
+| How is an episteme used as evidence, or how is a status consumed? | the exact episteme or status bearer, target claim, scope, polarity or status value, relevance window, provenance constraint, and intended use | A.2.4 and A.10 for evidence use; F.10 for status family and status use; B.3 only for assurance | a badge, report, status word, or publication supplies no permission, gate passage, or assurance |
+| Can a field, department, technology, or shared spelling choose the local semantics? | no; restate the live question and recover its exact model-use structure, scheme and sense cells, role value or assignment, rule or status, or Bridge from the corresponding row above | the direct owner selected by that question | the broad label selects none of those values or relations and supplies no authority to reuse them |
+| Which admitted holon grounds a description's empirical claims? | one exact C.2.1 `EpistemeEmpiricalGroundingRelation` | C.2.1 | a reference field or selected structure supplies no grounding occurrence |
+| Does one joint model-use organization change this decision? | an independently selected `BoundedModelUseStructure` with all four A.22 discriminators | A.1.1 and A.22 | omit `modelUseStructureRef` when one direct value or relation answers the question |
+
+For movement between local meanings, resolve the exact source and receiving F.17 sense cells and then apply F.9. An obtaining Bridge states correspondence between those readings; the separate bounded-use claim states direction, rule, and tolerance, and A.10 or B.3 governs reliance. The Bridge is not the rule, unit, status use, inference, or receiving action.
+
+If a direct owner still asks for a generic `U.BoundedContext` or `BoundedContextRef` instead of the exact values above, do not fabricate that participant. Preserve the exact value or relation already recovered and stop at the owner's unresolved interface. The transfer is not complete merely because A.1.1 names a destination.
+
+##### A.1.1:4.4.1 - Heterogeneous semantic-locality replays
+
+**Hospital operating-room replay.** No context holon is created.
+
+| Distinction | Direct move and first result |
+|---|---|
+| Local vocabulary | C.2.1 identifies the operating-room policy episteme and its effective scheme; F.17 resolves the local senses of *case*, *time-out*, and *independent auditor*. |
+| Local rule and inference | A C.2.1 claim episteme states the surgeon/auditor incompatibility rule within the exact surgical-case claim scope. A.2.1 supplies the actual `SurgeonAssignment-12` and candidate `IndependentAuditorAssignment-13`; exact F.6 `performedUnderAssignment(SurgicalCaseWork-42, SurgeonAssignment-12)` establishes the current Work attribution. When the same-holder incompatibility predicate holds, A.2.7 recovers the obtaining `RoleIncompatibilityRelation` but performs no check and rejects nothing. `SurgicalAdmissionService-4 : U.System` applies `IndependentAuditorAdmissionMethod-3 : U.Method` to those assignment occurrences in dated `AuditorAdmissionCheckWork-43 : U.Work`; the receiving admission method's result episteme `AuditorAdmissionCheckResult-43` records `reject`. The rule is not global. |
+| Evidence and status use | A sterility-audit episteme is used for one named claim only through A.2.4/A.10 with scope, polarity, window, and provenance. A `Ready` status is separately typed by F.10 for its exact target and use; neither item grants release permission or assurance. |
+| Cross-setting approximation | First ask whether the local meanings correspond at all. `OperatingRoomCaseSenseCell` means one surgical episode governed by the operating-room policy; `BillingCaseSenseCell` means one billable service record. In this replay, `OperatingRoomCaseBillingBridge` obtains under F.9 as an exact `Partial-overlap` relation between those cells, independently of any coding use. Separate C.2.1 claim `HospitalCaseCodingUseClaim` proposes coding the named surgical episode as one billable service record; its content names the operating-room-to-billing direction, a rule requiring the same patient, encounter, performed procedure, and date, a tolerance that permits omission of internal time-out and auditor-assignment detail from the billing record but no patient or procedure change, affirmative polarity, and `HospitalCodingScheme-2026` as the effective scheme. A.10 or B.3 states separately whether current reliance on that proposition passes. If a later claim says coding occurred, recover the exact coding Work and resulting billing assertion, publication, or operation application under their direct owners. A different operating-room-to-staffing sense pair needs its own Bridge profile and use claim. Changing only either use claim leaves the Bridge identity unchanged; neither the Bridge nor passing reliance performs or authorizes the action. |
+
+This replay selects no `BoundedModelUseStructure` unless one exact model's applicability, assigned-Work use, fixed-content coherence, applied constraints, and selection-use frame also become current.
+
+**Two further retained uses.**
+
+| Prior use | Direct replay without a context holon | Stop |
+|---|---|---|
+| Special relativity | C.2.1 and F.17 identify the selected theory-edition episteme, effective scheme, postulate and inference senses; a later theory edition has another C.2.1 episteme identity and needs exact `EpistemeEditionRelation` for a continuity claim; A.2.6 scopes the claim; C.16 carries units and measurement readings; A.2.4/A.10 carries evidence use; F.10 carries any current status use. F.9 identifies only the exact low-speed semantic correspondence between the selected relativistic-reading and Newtonian-reading sense cells. A separate C.2.1 bounded-use claim proposes interpreting specified relativistic low-speed readings with the named Newtonian approximation rule, in the relativistic-to-Newtonian direction, within a stated velocity and error tolerance, with explicit polarity and effective scheme; A.10 or B.3 states only whether current reliance on that proposition passes. If a later claim says the approximation occurred, recover its exact inference or operation application, any comparison Work, and the result claim episteme under their direct owners; absent those objects, no approximation has happened. | No theory truth, edition continuity, global equivalence, inference permission, or approximation use follows from the label *relativity*, the Bridge, the bounded-use claim, or passing reliance alone. |
+| FPF pattern quality | Start with the bearer and evaluation frame under C.16.Q. For example, *first-use affordability* of this exact pattern edition for a named practitioner and task is the E.21 `UseAffordabilityAndApparatusProportionality` coordinate, not a free quality label. C.2.1 identifies the pattern edition and any separately authored `PatternQualityEvaluation` result episteme; E.21 governs that evaluation record, its coordinates, and declared use; A.2.4/A.10 governs evidence use and F.10 any status use. If bare *quality* is still ambiguous, C.16.Q first distinguishes pattern quality from a product-reliability characteristic or C.25 bundle, a C.16 manufacturing-yield characteristic and measurement, B.3 safety assurance, a service-satisfaction characteristic or bundle, and ordinary praise. Resolve exact senses before any F.17/F.9 cross-scheme relation; a Bridge, bounded-use claim, and reliance path neither compare nor reuse the evaluation by themselves. | The word *quality* supplies neither a bearer, evaluation frame, shared characteristic, evaluation result, assurance claim, manufacturing-yield reading, nor cross-setting substitution. |
+
+#### A.1.1:4.5 - Keep descriptions and publications separate
+
+A bounded-context description is a `U.Episteme`. Under its C.2.1 declaration, the description's `entityOfConcernRef` designates the exact EntityOfConcern named by the description's claims. `EntityOfConcernSlot` is the SlotKind in that declaration; it does not itself point to the world-side object. A meta-description designates that description episteme through ordinary C.2.1 recursion.
+
+When a description claim needs empirical grounding, recover one exact C.2.1 `EpistemeEmpiricalGroundingRelation` between the description episteme and the admitted grounding holon. `GroundingHolonSlot` is only the signature-local participant meaning in that relation's declaration; a `groundingHolonRef` in a card or description merely designates the participant and does not make the relation obtain. The selected structure cannot fill that participant because it is not a holon. Viewpoint, claim scope, effective reference scheme, publication use, rendering, and presentation carrier remain separately governed.
+
+A stale description has another episteme edition or an obsolete currentness claim. Neither condition by itself changes the model-use structure or its world-side relations.
+
+#### A.1.1:4.6 - Recover DDD context mapping by direct object
+
+Start with three questions: what reusable way of mapping was used, what work actually happened, and what claim-bearing product resulted? Identify that product under C.2.1. Call the same episteme a view only after it passes one exact E.17.0 viewpoint-conformance test. Keep the relation structure it describes and every diagram, page, or publication separate.
+
+| DDD source term or use | FPF object |
+|---|---|
+| `Bounded Context` when the joint model-use organization changes an engineering move | `BoundedModelUseStructure`, governed as a `U.Structure` |
+| subsystem at the boundary | the exact existing `U.System` under its direct pattern |
+| work performed by a team system at the boundary | one exact dated Work individual admitted under `U.Work`, the performer `U.System`, its exact obtaining `U.RoleAssignment`, and the F.6 `performedUnderAssignment` attribution |
+| code base or database schema at the boundary | first classify the exact referent: claim-bearing code or schema content is a C.2.1 episteme; a repository, file, publication form, or carrier stays under its direct representation, publication, or carrier pattern; a deployed database or software organization stays a `U.System` or selected `U.Structure` under its direct owner; the source phrase supplies no common kind |
+| bounded-context boundary description | `U.Episteme` whose C.2.1 EntityOfConcern reference designates the exact referent named by its claims |
+| `Context Mapping` as a reusable way of doing | `U.Method`; any work plan, performed mapping work, evaluation work, and evaluation result remain separate |
+| relations among several bounded contexts | conditional A.22 membership for one already identified `U.Structure`, available only after independently governed exact obtaining crossings are selected among several bounded model-use structures and all four A.22 base discriminators are established; A.22 retains a local pending label for this rule but F.17 publishes no public cross-structure term |
+| candidate product called `Context Map` | one independently identified C.2.1 episteme whose EntityOfConcern is the proposed or described crossing organization while a direct crossing governor or A.22 base identity is missing; only after both are established may a corresponding episteme designate the exact structure admitted by A.22's conditional cross-structure rule; either episteme has dependent `U.View` membership only when exact E.17.0 `EpistemeViewpointConformanceRelation` obtains |
+| visual or interactive expression and availability of an already admitted Context Map view | any C.29 representation and correspondence, rendering work, publication occurrence, publication form, and `U.PresentationCarrier` remain separate under their direct patterns |
+
+**Code/schema split.** Start from the exact claim, not the source phrase. Claim-bearing source-code or schema content such as `PressControllerCode-18` is a C.2.1 episteme with an exact EntityOfConcern and effective scheme. A repository, file, publication form, or presentation carrier that bears that content remains under its direct representation/publication/carrier pattern. A deployed controller, database, or software organization remains an actual system or selected structure under its direct owner. The phrase *code base or database schema* grants none of those identities and never supplies one universal kind.
+
+Positive case: the fixed claims expressed by `PressControllerCode-18` participate as the expression episteme in `ModelExpressionCoherenceRelation`. Near misses: `PressControllerRepository-2` is only the repository or carrier being referred to, and `DeployedPressDatabase-4` is the deployed database system or structure. Neither near miss may fill an episteme participant merely because source practice calls it a code base or schema.
+
+This dispatch table is a reading aid for selecting the governing FPF object and pattern. Only that direct pattern supplies object identity, relation obtaining, or dependent-kind membership. If a separately current claim says that the candidate episteme first existed through the performed mapping Work, apply A.15.PROD only to that exact local inception claim. If an earlier episteme participates as source, use C.2.P to recover the exact source expression and route the source-use relation to its direct governor. Evaluation Work and any result episteme remain separate. None of those facts, and no product name, representation, rendering, publication occurrence, form, or carrier, grants `U.View` membership.
+
+FPF `Map` remains the mapping-method head for mapping subjects to coordinates in a declared Space. The quoted DDD product name stays a retrieval cue; by itself it grants neither dependent `U.View` membership, the FPF `Map` reading, nor identity with the structure.
+
+`BoundedModelUseStructure` and A.22's conditional cross-structure rule concern different structures. First identify every bounded model-use structure from its own model, admitted holons, three direct relation families—including each applicability occurrence's exact `U.ClaimScope` participant—exact applied constraint claims, and named frame. A scope or membership result is not copied into the constraint discriminator. Only then may a distinct A.22 structure select several such endpoints and independently governed obtaining crossings among them. Until those crossing occurrences and all four A.22 base discriminators exist, no member of that conditional specialization is asserted and its A.22-local label remains pending. Maintenance Work remains separate from both structures. A candidate context-mapping episteme may carry claims about a proposed crossing organization without designating an exact structure. Once the direct crossing and A.22 identity exist, a corresponding C.2.1 episteme may designate that exact cross-structure and its participants without becoming any of them. Only an explicit C.29 representation may show the structure or proposal; the episteme is a `U.View` only after exact E.17.0 conformance obtains.
+
+#### A.1.1:4.7 - Preserve the lightweight path
+
+Most local claims need no bounded model-use structure declaration. Name the exact current participant, semantic-locality value, role-assignment occurrence, or direct relation occurrence under its governing pattern and stop.
+
+Select and expose `BoundedModelUseStructure` only when the joint organization of independently governed model applicability, actual model use, fixed-content model-expression coherence, exact applied constraint claims, and the named frame changes the next engineering move. Keep each claim scope solely in its applicability occurrence unless a distinct applied constraint proposition refers to it. If a crossing matters, open the separate A.22 cross-structure question only after its direct governor makes that exact crossing obtain between already identified endpoint structures; never add it to either endpoint identity. Recognize an episteme as `U.View` only after exact E.17.0 conformance. Publish that already recognized view under E.24.PUB only when a declared audience and use need it.
 
 ### A.1.1:5 - Archetypal Grounding
 
-#### A.1.1:5.1 - Hospital Operating Room Context
+#### A.1.1:5.1 - Full control-model assurance replay
 
-`Hospital.OR_2025` is a bounded context for operating-room work in a named hospital edition.
+The first-minute case in section 0 is enough for ordinary entry. This longer replay checks the ontology and stop conditions without turning them into the first-use path.
 
-```text
-BoundedContextSlotRelation:
-  contextIdentity: Hospital.OR_2025
-  contextBoundary: operating-room policy and procedure edition for 2025
-  localVocabulary: case, sterile field, time-out, circulating nurse, independent auditor
-  localInvariantSet: time-out required before incision; surgeon and independent auditor roles incompatible for one case
-  localRoleTaxonomy: SurgeonRole, ScrubNurseRole, CirculatingNurseRole, IndependentAuditorRole
-  bridgeRelationSet: billing-code bridge, hospital-wide staffing bridge
-```
+1. **Applicability decision.** `ModelApplicabilityRelation` obtains among model episteme `PressControlModel-5`, system `Press-3`, and claim scope `SafetyControlClaimScope`. C.2.1 fixes `PlantControlReferenceScheme` as the model episteme's effective scheme, so it supplies the interpretation basis without becoming a fourth participant. The derived `ModelApplicabilityInterval` remains open while the model's declared applicability conditions hold for `Press-3` over the exact `U.ContextSlice` values admitted by `member(slice, SafetyControlClaimScope)` under that scheme.
+2. **Actual-use decision.** Exact F.6 `performedUnderAssignment(PressOperationWork-91, OperatorAssignment-8)` obtains. The assignment holder is `Operator-12 : U.System`; that system actually uses `PressControlModel-5` concerning `Press-3` during the same `PressOperationWork-91 : U.Work`. Those four relation participants plus the derived maximal continuous `ModelUseInterval` reidentify one `ModelUseRelation` occurrence.
+3. **Scope boundary.** Under the A.2.6 membership predicate, `EmergencyStopContextSlice` belongs to `SafetyControlClaimScope`. This membership claim explains part of the applicability boundary; it is not another relation occurrence selected into the structure.
+4. **Fixed-content coherence decision.** `ControllerImplementsControlModelPredicate` is an admitted local predicate value. Its ordered inputs are the fixed claim contents of `PressControlModel-5` and `PressControllerCode-17`; it returns true exactly when the code expresses every controller-command and feedback distinction required by the model, and false when a required distinction is missing. Both epistemes have `PlantControlReferenceScheme` as their C.2.1 effective scheme, so the relation-side comparison scheme is that same value and no Bridge is inferred. The predicate returns true for these participants, so their participant-determined `ModelExpressionCoherenceRelation` occurrence obtains before any selected maintenance episode.
+5. **Maintenance and change stay separate.**
+   - **Work:** `Engineer-4 : U.System` performs `ControllerCoherenceWork-22 : U.Work` under exact obtaining `ControllerEngineerAssignment-7 : U.RoleAssignment`; exact `performedUnderAssignment(ControllerCoherenceWork-22, ControllerEngineerAssignment-7)` and `enactsMethod(ControllerCoherenceWork-22, ControllerAlignmentMethod-2)` obtain.
+   - **Transformation and later episteme:** A.3.4 independently identifies `PressControllerCodeCarrierChange-24 : U.Transformation` as the bounded change of continuing `PressControllerCodeCarrier-6 : U.PresentationCarrier`, using the exact edit boundary, before-and-after code-expression facts, and the carrier-continuity rule. Changed claim content identifies later episteme `PressControllerCode-18` under C.2.1.
+   - **Stop:** No current FPF relation says that `ControllerCoherenceWork-22` caused or realized `PressControllerCodeCarrierChange-24`, so return `missing work-to-change governor`; temporal overlap and a shared code referent do not supply it. A.15.PROD remains closed for a claim that the Work first constituted `PressControllerCode-18` until its exact entity-inception basis, including that missing link, is governed.
+6. **Evaluation and result stay separate.**
+   - **Evaluation Work:** `Evaluator-2 : U.System` performs `CoherenceEvaluationWork-23 : U.Work` under exact obtaining `CoherenceEvaluatorAssignment-5 : U.RoleAssignment`; exact `performedUnderAssignment(CoherenceEvaluationWork-23, CoherenceEvaluatorAssignment-5)` and `enactsMethod(CoherenceEvaluationWork-23, CoherenceEvaluationMethod-4)` obtain. State any needed operation application through its exact A.6.1 binding.
+   - **Result:** C.2.1 separately identifies result episteme `CoherenceEvaluation-23`, which asserts whether the coherence predicate holds; only an exact A.15.PROD inception basis may relate that episteme's first existence to the evaluation Work. The result's assertion, evidence-use relation, and provenance remain distinct.
+   - **Next tuple:** Because `PressControllerCode-18` has different claim content, it forms another participant tuple with `PressControlModel-5`; predicate truth for that tuple decides whether another coherence occurrence obtains. Maintenance, method enactment, changed referent, evaluation, result, evidence, and provenance neither substitute for that truth nor enter the relation's participant set or identity.
+7. **Crossing stop.** If a diagnostics crossing matters, first retain the independently identified source and target structures, then record direction, required fit, permitted loss, and claim scope. Current F.9 cannot turn that record into a relation over those structures. Omit it from any positive cross-structure member and return `missing CROSS-LOCALITY-BRIDGE governor`. The already governed endpoint relations remain available for their own selections.
 
-The context does not perform surgery. Systems in roles perform work. The context defines the local meanings and constraints under which those role assignments and work claims are interpreted.
+**Filled A.22 basis for the press-control structure.** Its exact constituents are model episteme `PressControlModel-5`, use-locus system `Press-3`, and expression episteme `PressControllerCode-17`. Its selected occurrences are `ModelApplicabilityRelation(PressControlModel-5, Press-3, SafetyControlClaimScope)`, `ModelUseRelation(OperatorAssignment-8, PressControlModel-5, PressOperationWork-91, Press-3)`, and `ModelExpressionCoherenceRelation(PressControlModel-5, PressControllerCode-17, ControllerImplementsControlModelPredicate, PlantControlReferenceScheme)` as established in steps 1–4. `OperatorAssignment-8` and `PressOperationWork-91` remain actual participants used to establish the selected `ModelUseRelation`; they are not copied into the constituent plurality. Its exact applied constraint claims are `PressSafetyScopeUseConstraintClaim`, whose proposition says that every target slice used in the release judgment satisfies `member(targetSlice, SafetyControlClaimScope)`; `PressCommandFeedbackConstraintClaim`, whose proposition says that the change preserves the model's command-versus-feedback distinction; and `PlantJointReviewConstraintClaim`, whose proposition says that, under independently governed `PlantReleaseRule-3`, all three selected occurrences are required inputs to the release review when each is material. `SafetyControlClaimScope`, any membership outcome, boundary rendering, and the claim carriers enter no discriminator by themselves. Its fourth discriminator is `PressControlReleaseFrame` from section 0: ask whether the change is code-only or jointly model/use/coherence-relevant; provide that joint subject matter to the release review; do not infer review or release authority from the structure. Missing any discriminator leaves the direct relations in place but blocks this structure selection.
 
-#### A.1.1:5.2 - Special Relativity Context
+The relation sentences above assert direct world-side occurrences; the scope sentence states an A.2.6 membership claim. Publishing either episteme does not create an occurrence or change scope membership. If the question is only whether the model applies to the press, stop at `ModelApplicabilityRelation`. Select `BoundedModelUseStructure` only when the selected applicability, operating-use, and expression-coherence occurrences plus the exact applied constraint claims and frame change the decision or Work plan.
 
-`Theory.SpecialRelativity.SelectedEdition` is a bounded context for a selected episteme tradition.
+**One subsystem, one model.** The press-control replay above is the filled case. The machine keeps its `U.System` identity; the selected structure uses the exact constituents, three obtaining relations, applied constraints, and `PressControlReleaseFrame`. Without that complete basis, stop at the direct relations. A diagram or later crossing is unnecessary for the positive selection.
 
-```text
-BoundedContextSlotRelation:
-  contextIdentity: Theory.SpecialRelativity.SelectedEdition
-  contextBoundary: selected postulates, vocabulary, reference schemes, and admissible derivations
-  localVocabulary: inertial frame, proper time, Lorentz transformation
-  localInvariantSet: constant light speed postulate; covariance constraints
-  localRoleTaxonomy: not current for theory claims
-  localEpistemeUseAndStatusRelationSet: postulate-status relation; evidence-use relation; derived-claim status relation
-  bridgeRelationSet: bridge to Newtonian mechanics under low-speed approximation; bridge to general relativity under selected assumptions
-```
+**One subsystem, two competing models.** `DeviceSubsystem-2` remains one system. Two structures are available only because each organization is independently complete:
 
-The context frames meaning. It does not make the theory true by itself and does not act. Systems in roles publish, teach, test, or revise epistemes that use this context.
+| Selected structure | Exact constituents, relation occurrences, and applied constraints | Named selection-use frame |
+|---|---|---|
+| `DeviceMaintenanceModelUseStructure` | constituents `DeviceStateModel-4`, `DeviceSubsystem-2`, and `MaintenanceProcedureEpisteme-9`; applicability of `DeviceStateModel-4` to `DeviceSubsystem-2` within `MaintenanceClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(DeviceMaintenanceWork-31, MaintenanceAssignment-12)` plus actual use during that Work; coherence of `DeviceStateModel-4` and `MaintenanceProcedureEpisteme-9` under `DeviceStateMaintenanceCoherencePredicate` and `DeviceStateReferenceScheme`; applied claim `MaintenanceScopeUseConstraintClaim` says every equipment-state slice used in the maintenance diagnosis satisfies `member(slice, MaintenanceClaimScope)`, and `MaintenanceStateDistinctionConstraintClaim` says the diagnosis preserves the model's available/degraded/failed distinctions | `MaintenanceDiagnosisFrame`: ask which current device-state distinctions govern diagnosis; use this organization for the maintenance diagnosis; do not use it to decide redesign capability or infer authority over redesign Work. |
+| `DeviceCapabilityModelUseStructure` | constituents `CapabilityModel-6`, `DeviceSubsystem-2`, and `CapabilityDesignExpression-12`; applicability of `CapabilityModel-6` to `DeviceSubsystem-2` within `RedesignClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(CapabilityRedesignWork-44, RedesignAssignment-15)` plus actual use during that Work; coherence of `CapabilityModel-6` and `CapabilityDesignExpression-12` under `CapabilityDesignCoherencePredicate` and `CapabilityDesignReferenceScheme`; applied claim `RedesignScopeUseConstraintClaim` says every design slice used in the redesign analysis satisfies `member(slice, RedesignClaimScope)`, and `CapabilityDistinctionConstraintClaim` says the analysis preserves current-versus-proposed capability distinctions | `CapabilityRedesignFrame`: ask which capability distinctions govern the proposed redesign; use this organization for redesign analysis; do not replace the maintenance diagnosis or infer that the two models are editions of one another. |
 
-#### A.1.1:5.3 - FPF Pattern Quality Context
+An exact C.2.1 `EpistemeEditionRelation` may separately establish historical continuation; it does not merge simultaneous organizations. Near miss: if either side lacks its coherence occurrence, an applied constraint, or its complete frame, that side has useful applicability and use facts but no selected `BoundedModelUseStructure` yet.
 
-`FPF.PatternQuality.E21` is a bounded context for evaluating FPF pattern quality. Terms such as "recognition text", "assurance text", "semio-bias resistance", and "first-use affordability" have local meanings. A different context may use "quality" for product reliability, manufacturing yield, safety assurance, or service satisfaction.
+**One model, two use loci.** `ClinicalTerminologyModel-7` participates in two independently complete non-software structures:
 
-Cross-context reuse of a quality term requires a bridge relation. Spelling alone does not carry the meaning.
+| Selected structure | Exact constituents, relation occurrences, and applied constraints | Named selection-use frame |
+|---|---|---|
+| `DiagnosisTerminologyModelUseStructure` | constituents `ClinicalTerminologyModel-7`, `PatientEncounter-42`, and `DiagnosisExpression-11`; applicability within `DiagnosisClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(DiagnosisWork-7, DiagnosticianAssignment-4)` plus actual use concerning `PatientEncounter-42`; coherence of the model and `DiagnosisExpression-11` under `DiagnosisTerminologyCoherencePredicate` and `ClinicalTerminologyReferenceScheme`; applied claim `DiagnosisScopeUseConstraintClaim` says every encounter slice used in the diagnosis claim satisfies `member(slice, DiagnosisClaimScope)`, and `ClinicalMeaningConstraintClaim` says a clinical finding is not inferred from a billing code | `DiagnosisUseFrame`: ask which terminology distinctions govern this diagnosis; use the selected organization for the diagnosis claim; do not carry billing meaning or billing authority into that claim. |
+| `BillingTerminologyModelUseStructure` | constituents `ClinicalTerminologyModel-7`, `ReimbursementClaim-42`, and `BillingExpression-14`; applicability within `BillingClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(BillingWork-9, BillingAssignment-9)` plus actual use concerning `ReimbursementClaim-42`; coherence of the model and `BillingExpression-14` under `BillingTerminologyCoherencePredicate` and `ClinicalTerminologyReferenceScheme`; applied claim `BillingScopeUseConstraintClaim` says every reimbursement slice used in the coding claim satisfies `member(slice, BillingClaimScope)`, and `CodingMeaningConstraintClaim` says the selected reimbursement code does not assert a clinical diagnosis | `BillingUseFrame`: ask which terminology distinctions govern this coding claim; use the selected organization for the coding claim; do not carry clinical inference or diagnosis authority into that claim. |
+
+Across these five filled structures, each assignment occurrence and dated Work stays only in its selected `ModelUseRelation` and in the evidence establishing that occurrence. Changing either one reopens that relation and therefore the selected-occurrence discriminator; it is not also an independent constituent replacement. One spanning structure is available only when one exact constituent plurality, relation-occurrence organization, applied-constraint set, and selection-use frame genuinely spans both uses. Shared model identity alone neither merges nor splits them. Near miss: exact diagnosis and billing Work plus a shared model, without one side's coherence occurrence or filled frame, supports only the direct facts on that side.
+
+**Published classification model.** A NAICS publication remains an episteme. Exact F.6 `performedUnderAssignment(ClassificationWork-4, ClassificationAssignment-3)` and actual use of that model content concerning an organization supply the use branch. A positive `NAICSClassificationModelUseStructure` additionally needs exact applicability with `ClassificationClaimScope` as that relation's scope participant, fixed-content coherence with the classification expression, exact applied constraint claims stating which edition and classification distinctions the judgment must preserve, and `NAICSClassificationFrame`: ask which NAICS edition and distinctions govern this classification; use the complete organization for the classification claim; do not infer that publication makes the model used, that a *Conformist* label creates a crossing, or that NAICS is a system part. The bare scope or one membership result is not an applied constraint. Without the complete basis, stop at publication availability or the direct relation that actually obtains.
+
+When a proposed directional dependency is called *Conformist*, retain its source, target, direction, required fit, permitted loss, and claim scope. Return `missing CROSS-LOCALITY-BRIDGE governor` until a compatible direct relation exists; the label does not create or identify the crossing.
+**Stale description.** An already recognized Context Map view is six months old while the same already governed applicability, actual-use, and model-expression-coherence relations continue. Its currentness claim can become obsolete; revising the `U.View` episteme or publishing another rendering changes those epistemic and publication objects only. The structures remain until their direct relation organization changes.
+
+**Context-mapping assurance case.** This case tests the heavier method, product, view, and publication boundaries after the ordinary entry path has succeeded.
+
+1. **Method and Work.** Exact F.6 `performedUnderAssignment(ContextMappingWork-14, ArchitectureAssignment-6)` obtains, and the assignment holder is `Architect-9 : U.System`. Exact `enactsMethod(ContextMappingWork-14, ContextMappingMethod-3)` obtains for `ContextMappingMethod-3 : U.Method`. The repeatable method and this dated `ContextMappingWork-14 : U.Work` remain different objects.
+2. **Candidate product.** C.2.1 independently identifies episteme `ContextRelationsAnalysis-8`. Its EntityOfConcern is the six-part proposed crossing organization: source, target, direction, required fit, permitted loss, and claim scope. The episteme is not the proposed organization.
+3. **Current stop.** No independent direct governor currently makes the proposed crossing obtain. A.22 therefore lacks the relation-occurrence discriminator needed for base identity, and the candidate episteme does not designate an exact member of the conditional crossing-analysis specialization. Stop at the proposed organization.
+4. **Later positive route.** Only if a future direct governor admits that exact crossing and all four A.22 discriminators are recovered may a corresponding C.2.1 episteme designate the resulting exact structure. Changing the EntityOfConcern remains subject to C.2.1 episteme identity.
+5. **Source use and inception.** If a current claim says `ContextRelationsAnalysis-8` first existed through the mapping Work, A.15.PROD governs only that exact local inception claim. If source episteme `ContextNotes-7` participates, C.2.P recovers its exact source expression and routes the source-use relation to its direct governor.
+6. **View evaluation.** `Reviewer-6 : U.System` separately performs `ContextViewConformanceEvaluationWork-15 : U.Work` under exact obtaining `ContextViewReviewerAssignment-10 : U.RoleAssignment`; exact `performedUnderAssignment(ContextViewConformanceEvaluationWork-15, ContextViewReviewerAssignment-10)` and `enactsMethod(ContextViewConformanceEvaluationWork-15, ContextViewConformanceEvaluationMethod-5)` obtain. Any result episteme and any A.15.PROD inception claim about that result remain separate. `ContextRelationsAnalysis-8` becomes a `U.View` only when exact `EpistemeViewpointConformanceRelation(ContextRelationsAnalysis-8, ContextMappingViewpoint-4)` obtains under E.17.0.
+7. **Representation and publication stop.** The product name, mapping method, performed Work, source use, evaluation result, representation, rendering, publication occurrence, form, and carrier grant neither crossing-structure identity nor `U.View` membership and remain under their direct patterns.
 
 ### A.1.1:6 - Bias-Annotation
 
-Lenses tested: **Onto**, **Epist**, **Prag**, **Gov**, **Arch**, **Did**.
+This pattern has a DDD lineage bias because bounded context is the source term. Outside software, use A.1.1 only when the domain has one claim-bearing model edition, explicit applicability, actual use in assigned Work, fixed-content expression coherence, and a present decision changed by their joint organization. Industrial control, clinical or billing terminology, and published classifications can meet that test through different direct governors; a familiar context label cannot.
 
-This pattern intentionally resists:
+It has a structure-selection bias. The lightweight stop rule prevents mere local terminology, model mention, or implementation and organizational partition from becoming a structure without the required model-use relation organization.
 
-- **global-language bias:** one spelling is treated as one meaning everywhere;
-- **domain-family bias:** a broad field label is treated as if it governed local meaning;
-- **enclosing-object bias:** the context is treated as a storage place or enclosing object for all related work;
-- **role-globalization bias:** a role name is used without the context that defines it;
-- **bridge-erasure bias:** cross-context fit and loss are hidden behind "same", "equivalent", or "mapped" language.
+It also has a model-coherence bias. Actual systems, work, methods, transformations, epistemes, and role assignments keep their own identities and can remain the referents designated by receiving epistemes when the joint relation organization is not the subject of the receiving use.
 
 ### A.1.1:7 - Conformance Checklist
 
-| Check | Requirement |
-| --- | --- |
-| `CC-A1.1-1` | A bounded-context claim names the `U.BoundedContext` by value; broad domain-family labels do not govern local meaning. |
-| `CC-A1.1-2` | The context has a boundary, local vocabulary, local invariant set, local role taxonomy when role-assignment claims are current, and local episteme-use/status relation set when epistemic-use/status claims are current. |
-| `CC-A1.1-3` | Role assignments name exactly one bounded context for interpretation. |
-| `CC-A1.1-4` | Cross-context use is expressed through bridge relations with direction, relation kind, fit, loss, and scope. |
-| `CC-A1.1-5` | No context-to-context containment or inheritance is inferred without an explicit bridge or governing relation. |
-| `CC-A1.1-6` | Publication forms that describe a context are not treated as the context itself. |
-| `CC-A1.1-7` | Time, edition, and currentness qualifiers refine the context boundary or publication, but they do not create a new context unless local meaning changes. |
-| `CC-A1.1-8` | Objects interpreted inside a context are not automatically parts of the context holon. |
+1. A positive `BoundedModelUseStructure` exposes all four A.22 discriminators: exact constituents, exact selected obtaining applicability/use/coherence occurrences, exact applied constraints, and one named question/action/overread selection-use frame.
+2. The three direct relation declarations satisfy `WF-A1.1-APP`, `WF-A1.1-USE`, and `WF-A1.1-COH`; any imported-sense receiving use additionally satisfies `WF-A1.1-APP-USE` or `WF-A1.1-COH-USE`. Missing conditions return the named stop rather than a positive assertion.
+3. Every `ModelExpressionCoherencePredicate` **value** satisfies the local five-part membership and value-identity rule. Every `ModelExpressionCoherenceRelation` **occurrence** is participant-determined by `<model episteme, expression episteme, predicate value, comparison scheme>` and has no interval discriminator.
+4. `BoundedModelUseStructure` is governed as `U.Structure`; no context holon, context parthood, meta-holon transition, crossing, description, or publication enters its identity.
+5. Reidentification compares all four discriminators and then applies A.1.1:4.3. A changed applied constraint or changed question/action/overread frame reopens identity even when constituents and relation occurrences are unchanged; a changed page, graph, rendering, or publication does not.
+6. Semantic locality follows the direct-value triage in A.1.1:4.4. A local rule, inference, unit, evidence use, or status use remains at its exact direct owner; a broad label or unrepaired generic-context field cannot manufacture the missing participant.
+7. A description episteme designates its exact EntityOfConcern under C.2.1. Empirical grounding requires one exact `EpistemeEmpiricalGroundingRelation`; a reference field, structure, view, or publication does not make it obtain.
+8. DDD Context Mapping is recovered as method, dated Work, claim-bearing product, proposed or obtaining crossing organization, view conformance, representation, and publication under their separate owners. `WF-A1.1-CROSS` blocks a positive cross-structure member while the direct crossing governor or an A.22 discriminator is missing.
+9. A code/schema cue is classified from the exact claim as claim-bearing episteme content, repository/file/form/carrier, or deployed system/structure; the cue itself supplies no common kind.
+10. Two model uses over one subsystem yield two structures only when each independently supplies all three obtaining relation families, applied constraints, and its exact selection-use frame. Missing coherence or another discriminator leaves that side at its direct relations.
+11. The structure is omitted when its joint organization changes no receiving decision. The reader can name both the admissible action and the nearest overread; otherwise the reader stops at the direct relation or direct owner.
 
 ### A.1.1:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Symptom | Repair |
-| --- | --- | --- |
-| Domain as context | "Healthcare" or "physics" is used where local meaning must be decided. | Name a specific bounded context or keep the broad label informative. |
-| Same spelling as sameness | A word used in two contexts is treated as equivalent. | Write a bridge relation or keep the meanings separate. |
-| Context as storage place | Everything mentioned in one context is treated as part of that context. | Use the appropriate slot relation: interpreted-in, governed-by, described-under, bridged-to, or part-of. |
-| Global role | "Owner", "operator", or "reviewer" is used without a context. | Name the role value and the bounded context that defines it. |
-| Time as context by reflex | Design-time and run-time become separate contexts even when meaning is unchanged. | Use temporal patterns or window patterns unless the local vocabulary or invariants actually change. |
+| Anti-pattern | Failure | Repair |
+|---|---|---|
+| Context holon | Nearby systems, Work, and epistemes become parts of one extra whole. | Keep their direct identities; select only the decision-relevant relation organization as `U.Structure`. |
+| Subsystem shortcut | Location or team ownership identifies the bounded context. | Recover all four A.22 discriminators. One subsystem can support several model-use structures. |
+| One-relation or missing-frame shortcut | Applicability or actual use alone is expected to carry coherence, constraints, or the selection decision. | Stop at the direct relation until all three relation families, applied constraints, and one exact frame are current. |
+| Description or publication substitution | A map, code repository, schema file, view, or publication is treated as the model-use organization or an occurrence. | Classify the exact content, carrier, system, structure, and publication claims under their direct owners. |
+| Locality inflation | A term, rule, unit, evidence use, or status use gets a context or structure proxy. | Apply the A.1.1:4.4 triage and keep the direct governed value or relation. |
+| Crossing by label | *Mapped*, *Conformist*, or shared wording is treated as an obtaining structure crossing. | Preserve the proposal and apply `WF-A1.1-CROSS`; stop until the direct crossing governor exists. |
 
 ### A.1.1:9 - Consequences
 
-Positive consequences:
+**Benefits.** Teams can compare model-use boundaries without inventing an enclosing whole. Competing models over one subsystem and one model across several loci become expressible through complete structure bases. Local vocabulary, rules, inferences, units, evidence use, and status use remain recoverable through direct owners rather than a context proxy.
 
-- Polysemy becomes governable: meaning is local and bridgeable rather than globally guessed.
-- Role assignments become inspectable because the role taxonomy is named by context.
-- Local invariants stop leaking into other contexts.
-- Domain-family labels remain useful for orientation without becoming false kernel objects.
+**Costs.** A load-bearing structure claim must recover three direct relation families, exact applied constraints, and one question/action/overread frame. Semantic transfer sometimes stops at a direct owner that still cannot express the claim without a generic context field; that stop is preferable to inventing a participant or claiming false parity.
 
-Costs:
-
-- Authors must name a context when they use polysemous terms.
-- Cross-context claims need bridge relations instead of "obvious" equivalence.
-- Some old context hierarchies need repair into explicit bridges or domain-family metadata.
+**Limits.** A.1.1 does not decide model truth, role assignment, rule validity, measurement, status, evidence, claim-scope membership, reference-scheme construction, system parthood, Work performance, release authority, or publication currentness. It selects only the bounded model-use organization after those direct claims are available.
 
 ### A.1.1:10 - Rationale
 
-`U.BoundedContext` is the semantic companion to `U.Holon`. A holon boundary says what counts as inside or outside the whole for a claim. A bounded-context boundary says where vocabulary, invariant, role taxonomy, episteme-use/status relation set, and inference rule are locally coherent when those claims are current.
+The selected object must survive two decisive tests. One subsystem under two models needs two bounded contexts without duplicating the subsystem. One model coherently used across several loci may need one bounded context without pretending those loci are parts of another whole. A dependent `U.Structure` over exact relations passes both tests.
 
-The pattern is generalized from domain-driven design but is not software-only. Scientific theories, legal standards, hospital procedures, manufacturing cells, model cards, research programs, and FPF evaluation contexts all need local meaning. FPF makes that locality an ontic rather than leaving it as "it depends."
-
-This also protects role and episteme ontology. A `U.Role` is not global; it is valid inside a bounded context. A `U.Episteme` is meaningful only when its EntityOfConcern, viewpoint, reference scheme, and bounded context are known. Bridges then make cross-context correspondence explicit instead of letting spelling decide.
+The practical DDD lesson retained here is that boundaries matter because model applicability, actual use, expression consistency, and relationships can change engineering decisions. FPF does not copy that sentence as one ontology: it separates participant-determined fixed-content coherence from maintenance Work, identifies each bounded model-use structure without crossings, and routes any independently governed crossing into a distinct A.22 structure over already identified endpoints.
 
 ### A.1.1:11 - SoTA-Echoing
 
-| Source family | Current lesson for A.1.1 | FPF decision |
-| --- | --- | --- |
-| Domain-driven design bounded-context practice. | Large models scale when meanings are local and context crossings are explicit. | Generalize bounded context beyond software into a `U.Holon` semantic frame. |
-| Team-topology and socio-technical boundary practice. | Team boundaries and cognitive limits shape which meanings can remain coherent locally. | Treat stewarding systems or communities as references for a context, but do not reduce the context to the team. |
-| Data mesh and interoperability practice. | Cross-domain data products need explicit interoperability relations rather than one enterprise meaning. | Use bridge relations for cross-context fit and loss. |
-| FAIR, provenance, and research-object practice. | Reuse depends on explicit metadata, provenance, and interpretation context. | Keep local vocabulary and invariants explicit; publication forms do not become the context. |
+The source line is not one settled ontology. The 2015 reference defines a bounded context as a **description of a boundary**. The January 2026 worked case also uses the term for an **actual system part** and for use of the **published NAICS model**. FPF keeps those three readings distinct instead of choosing one of them as a universal context object.
 
-Source use and currentness: domain-driven bounded-context practice is the selected practice lineage generalized beyond software; team-topology and socio-technical boundary practice are current context for stewarding-system and cognitive-boundary caution; data-mesh and interoperability practice motivate explicit bridge relations; FAIR, provenance, and research-object practice motivate interpretation context and publication-boundary discipline. Reopen A.1.1 when current practice or accepted FPF work changes the criteria for semantic locality, cross-context bridge fit and loss, local role taxonomy, local episteme-use/status relation set, or context-publication separation; do not reopen it for a new domain label, team structure, metadata format, or data product style that leaves those criteria unchanged.
+| Source line and currentness | What the source says | Practical problem changed | Exact FPF adaptation | Limit, rejected overread, and reopen condition |
+|---|---|---|---|---|
+| Eric Evans, [Domain-Driven Design Reference](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), 2015 — historical lineage | A bounded context is a description of a boundary, typically a subsystem or one team's work, within which one model is defined and applicable. The pattern then asks practitioners to set actual boundaries in team organization, application use, code bases, and database schemas and to keep model concepts and terms consistent. | A boundary description cannot stand in for the systems, Work, model edition, expressions, or applicability facts that an engineering decision depends on. Several models at one locus must not be mixed merely because one description names the locus. | Keep the boundary description as a C.2.1 episteme. Recover actual participants under their direct patterns and use A.1.1 only when the organization of independently governed applicability, actual-use, and fixed-content coherence occurrences changes the decision. A source mention of relationships does not create a structure crossing. | This historical source neither supplies `BoundedModelUseStructure` nor declares A.1.1's three relation kinds. A newer DDD case does not rewrite what the 2015 text said. Reopen only this lineage reading if a better primary edition or correction changes the cited passage. |
+| Evans, [Context Mapping with an AI-based Component](https://www.domainlanguage.com/articles/context-mapping-an-ai-based-component/), 6 January 2026 — current AI-component worked case | In this case a bounded context corresponds to an actual part of the system; NAICS is treated as a distinct bounded context and a Published Language; and an honest context map must show the system as built rather than a wished-for design. | The same practice term reaches both a concrete system part and use of a published model. A map can also describe a proposed arrangement that the actual system does not yet realize. Treating all three as one kind would hide the difference between world-side use, model publication, and a claim-bearing description. | Keep the actual system part as its own `U.System`; keep NAICS as a published model episteme whose actual use must be shown separately; identify a mapping product as an episteme about the described or proposed organization. Require E.17.0 conformance before calling it a `U.View`. A proposed crossing remains the six-part unsupported-use record until a compatible direct governor makes that exact crossing obtain and A.22 can identify the resulting structure. | This one worked AI-integration case does not establish a universal identity rule for every bounded context, an A.1.1 relation signature, or an obtaining crossing. Reopen only this row's adoption if the article is materially revised or later current DDD work changes the system-part, published-language, or honest-map claim. |
+| Florio and Linnebo, [Introduction to Constructional Ontology](https://www.utwente.nl/en/eemcs/fois2024/resources/papers/florio-linnebo-introduction-to-constructional-ontology.pdf), 2024; Borgo and Righetti, [Towards Applied Constructional Ontology](https://doi.org/10.3233/FAIA250480), 2025 — current but exploratory constructional line | The 2024 line separates constructors, admissible inputs, constructional process, and output identity. The 2025 study makes a first exploratory comparison with BFO, DOLCE, and UFO and says that successful application to current foundational ontologies still needs further investigation. | Co-occurring model-use participants and relations do not by themselves warrant another constructed whole. A claimed context holon must show its constructor, admitted inputs, construction, and identity rather than borrow them from a label or diagram. | Use constructional ontology only as a stress test for a **construction claim**. Failure to supply that construction basis blocks admission of a new context holon; it leaves the already governed participants and relation occurrences available for an A.22 structure-selection question. | The sources do not prove that the selected object is `U.Structure`, do not declare A.1.1's three relations, and do not prove a general negative conclusion about every possible context whole. Reopen only this construction-claim stress test when applied constructional work supplies materially stronger reconstruction and identity criteria. |
+| Current FPF `A.22` selected-structure discipline | A structure is a selected relation organization over a declared substrate, exact applied constraint claims, invariants, and a decision-facing use. It is not a holon, view, or representation by form. | Practitioners need to reason about a useful organization without duplicating the actual systems, Work, and epistemes as parts of another whole. | Test whether the already governed A.1.1 relation occurrences and exact applied constraint propositions form one decision-relevant `BoundedModelUseStructure`; keep each `U.ClaimScope` only in its applicability occurrence unless a separate constraint claim refers to it, and preserve every substrate and occurrence identity. | `BoundedModelUseStructure` and the exact three-relation architecture are the scoped FPF synthesis stated below, not an entailment of the external sources. Reopen this adaptation if A.22's membership, identity, or admissible-use rule changes. |
+| Current FPF `C.2.1`, `A.2.6`, `A.10`, `B.3`, `E.17.0`, `E.24.PUB`, `C.29`, and `F.9` | C.2.1 governs episteme identity and effective reference scheme; A.2.6 governs claim scope and slice membership; A.10 governs bounded evidence reliance; B.3 governs assurance and its material-reliance threshold; E.17.0 governs conformance-dependent `U.View` membership; E.24.PUB governs publication occurrence and bounded availability; C.29 governs representation correspondence; F.9 governs Bridges between `SenseCell` values. | A model, its scope, a use claim, evidence reliance, assurance, a view, a representation, a publication, and an interpretation Bridge can otherwise be collapsed into one “context” or used as proxies for world-side relation occurrences. | Route each object and claim to its exact owner. For an A.1.1 comparison across schemes, first require the obtaining F.9 Bridge, then the separate affirmative C.2.1 claim about the exact comparison use and its current A.10 or B.3 reliance basis; recover any comparison Work, assertion, publication, direct relation, or operation application only from its own governor. For a proposed structure crossing, preserve source, target, direction, required fit, permitted loss, and claim scope, then stop at `missing CROSS-LOCALITY-BRIDGE governor` until a compatible direct relation kind exists. | None of these neighbours creates an A.1.1 relation occurrence or structure by reference. Reopen only the affected adoption when that exact neighbour interface changes; a publication or representation change alone does not reopen the world-side structure claim. |
+
+**Scoped FPF synthesis hypothesis and defeaters.** This edition hypothesizes that, for the bounded uses declared here, the decision-relevant organization is one `BoundedModelUseStructure` over exactly the three direct relation kinds `ModelApplicabilityRelation`, `ModelUseRelation`, and `ModelExpressionCoherenceRelation`, its exact model-use substrate, exact applied constraint claims, and named frame. Each claim scope remains only the applicability-relation participant unless a distinct applied constraint proposition refers to it. Crossings belong only to a distinct A.22 structure over already identified bounded model-use structures. The hypothesis is usable only while each direct relation has coherent participant meanings, an obtaining rule, and an occurrence-identity rule, each applied constraint proposition is recoverable, and selecting their joint organization changes a concrete practitioner decision.
+
+Fail this edition for the affected case, or reopen only the affected part of the synthesis, when:
+
+1. any one of the three direct relations lacks coherent participant meanings, a coherent obtaining rule, or a coherent occurrence-identity rule;
+2. a DDD case needs a materially different relation organization rather than this three-relation organization; or
+3. selecting the joint organization changes no practitioner decision compared with stopping at the direct relations.
+
+The external sources therefore change recognition and the tests applied to the working problem. Current FPF direct governors and the scoped, defeasible synthesis above supply the normative Solution. Constructional ontology tests a construction claim; it neither chooses the FPF kind nor proves the no-holon conclusion by citation.
 
 ### A.1.1:12 - Relations
 
-- **Builds on:** `A.1` for `U.Holon`, `E.24` for ontic discipline, and `A.6.5` for slot relation discipline.
-- **Coordinates with:** `A.15` for role-method-work alignment, `C.2.1` for episteme slot relations, `F.9` for bridge relations, `E.10` and `E.10.ARCH` for context-word repair, and `E.24.PUB` for bounded-context description and publication boundary.
-- **Used by:** role assignments, episteme descriptions, characteristic spaces, architecture descriptions, method descriptions, source interpretations, and any FPF claim whose terms depend on local meaning.
-
-### A.1.1:13 - Footer Marker
+- `A.1` governs constructive recognition of exact candidates under already admitted holon kinds and its locally declared `U.System`/`U.Episteme` distinctions. Direct identity patterns govern candidate identity; `E.24.UK` governs public-kind admission; A.14 and direct part-relation patterns govern parthood; C.13 governs constructive assembly. A.1 does not supply those decisions by itself.
+- `A.22` governs base `U.Structure` identity through exact constituents, selected obtaining relations, applied constraints, and one named selection-use frame. It also governs the conditional cross-structure question after a direct crossing governor exists.
+- `C.2.1` governs model, expression, rule, inference, and description episteme identity, effective reference schemes, exact EntityOfConcern and ClaimGraph content, `EpistemeEditionRelation`, and empirical grounding. It also identifies the separate bounded-use claim about an F.9 Bridge.
+- `A.2.6` governs `U.ClaimScope`, `U.ContextSlice`, and membership. `C.16` governs measurement bases, readings, scales, units, and direct comparability. `A.2.4` and A.10 govern evidence use; F.10 governs status family and status use; B.3 governs assurance.
+- `A.2`, `A.2.1`, and `A.2.7` govern role taxonomy, role assignment, and role-relation structure in model-use loci.
+- `A.3.1`, `A.15.1`, and `E.18` govern Context Mapping method, performed mapping Work, and transformation-flow structures. A.15.PROD enters only for a separately needed local entity-inception claim.
+- `F.17` and `F.18` govern sense cells, durable public labels, candidate-name history, public rows, lineage, and name refresh. A.1.1 consumes the settled names without copying their dossiers.
+- `F.9` governs an obtaining Bridge between exact F.17 `SchemeSenseCell` values. A Bridge carries relation semantics, not a receiving-use decision or a structure-to-structure crossing. A separate C.2.1 claim states bounded suitability; A.10 or B.3 governs reliance.
+- `E.17.0`, `E.24.PUB`, and `C.29` separately govern view conformance, publication occurrence and availability, representation, rendering, form, and carrier.
+- `C.2.P` recovers an exact source expression and routes any source-use relation to its direct governor.
+- `A.6.0` and `A.6.5` govern the `RelationSignature` and SlotSpecs declared here; `A.6.REL` governs progressive explicit individuation after the direct relation kind, obtaining condition, and occurrence-identity rule exist.
 
 ### A.1.1:End
 
@@ -4162,7 +4317,7 @@ The state-machine lens is useful because finite named states, guarded change, an
 
 **Use this pattern when** a receiving action needs to decide whether a claim, capability, or publication use covers one exact combination of standards, environment, local sense, platform, cohort, or time selectors.
 
-**First useful move.** Name the exact claim, its exact `U.ClaimScope`, and the target `U.ContextSlice`; evaluate membership. Stop on `false`. On `unknown`, obtain the missing evaluation input, narrow the attempted use, or abstain. Add a result episteme or table only when the receiving use needs one; add a Bridge only for exact local-sense translation.
+**First useful move.** Name the exact claim, its exact `U.ClaimScope`, and the target `U.ContextSlice`; evaluate membership. Stop on `false`. On `unknown`, obtain the missing evaluation input, narrow the attempted use, or abstain. Add a result episteme or table only when the receiving use needs one. If exact local senses must be translated, first name the obtaining F.9 Bridge, then state the separate affirmative C.2.1 claim for this translation's direction, rule, and tolerance. Before using the translated scope, establish evidence-based reliance through A.10 or assurance-based reliance through B.3.
 
 **What goes wrong if missed.** Teams infer coverage from a document, table, “current context” label, or selected structure; treat an unevaluated slice as excluded; or mint `ScopeDelimitationRelation` occurrences for included and excluded slices. Those moves collapse predicate truth, evaluation, representation, and structure.
 
@@ -4180,7 +4335,7 @@ Source words such as *applicability*, *envelope*, *generality*, and *capability 
 **Cross‑references.**
 — **C.2.3** (Unified Formality **F**) and **C.2.2** (F–G–R): this pattern **defines G** as `U.ClaimScope`.
 — **A.2.2** (Capabilities): capability gating now **SHALL** use `U.WorkScope`.
-— **F.9** (Bridges and CL): use an exact obtaining Bridge occurrence only when membership content must be translated across exact local senses; a different label or reference scheme alone does not trigger translation. Congruence and loss qualify the receiving reliance claim, not membership truth.
+— **F.9** (Bridges): use an exact obtaining Bridge only when membership content must be translated across exact local senses; a different label or reference scheme alone does not trigger translation. F.9 supplies the direct semantic relation only. The separate C.2.1 claim states the exact translation use, direction, rule, tolerance, and polarity; A.10 or B.3 governs reliance on that claim.
 — **Part E** (Publication discipline; e.g., **E.17 MVPK**): publication views, cards, and lanes MAY declare `U.PublicationScope` to bound **where** a publication is admissible; `U.PublicationScope` MUST NOT widen the underlying `U.ClaimScope`/`U.WorkScope`. (USM supplies the scope calculus; Part E supplies publication discipline.)
 
 ### A.2.6:1 - Problem frame - Purpose and Audience
@@ -4194,7 +4349,7 @@ With USM, a practitioner can:
 * declare exact slice selectors and an exact scope predicate;
 * evaluate membership as true, false, or currently unknown;
 * combine exact scopes by intersection or independently supported union;
-* translate only when exact local senses require an obtaining F.9 Bridge occurrence; and
+* translate only when exact local senses require an obtaining F.9 Bridge, a separate affirmative C.2.1 claim about this translation, and the current A.10 or B.3 reliance branch; and
 * stop without inventing a relation occurrence, context object, or selected structure.
 
 A.2.6 defines the scope values, membership predicate, mathematical scope algebra, exact reusable A.6.1 operation declarations, and use boundaries. It does not decide a gate, perform evaluation work, establish evidence, identify an A.22 structure, or prescribe which claim should widen.
@@ -4222,7 +4377,7 @@ In **F–G–R**:
 
 * **F** (formality) is “how strictly a claim is expressed” (C.2.3).
 * **G** must be “**where it holds**,” not “how abstract it sounds.”
-* **R** measures evidence and decays/penalties (freshness, CL).
+* **R** carries evidence and reliance currentness. Observed semantic mismatch or loss may be evidence about a proposed translation, while the permitted-loss tolerance belongs to the separate C.2.1 claim about that use.
 
 When **G** is a **set‑valued scope**, composition becomes precise: serial dependencies **intersect** scopes; parallel, independently supported lines can publish a **SpanUnion**—but only where each line is supported.
 
@@ -4239,14 +4394,14 @@ When **G** is a **set‑valued scope**, composition becomes precise: serial depe
 | Force                                             | Tension to resolve                                                                                                                                               |
 | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **One mechanism vs two worlds**                   | We must serve both **knowledge about the world** (claims) and **doing work in the world** (capabilities) **without** duplicating concepts.                       |
-| **Exact local interpretation vs interoperability** | Scope membership must be checkable under an effective reference scheme, while exact local-sense translation uses an obtaining F.9 Bridge occurrence without redefining predicate truth. |
+| **Exact local interpretation vs interoperability** | Scope membership must stay checkable under its effective reference scheme. Cross-scheme translation needs an obtaining F.9 Bridge for the direct semantic relation, a separate C.2.1 claim for the proposed translation, and current A.10 or B.3 reliance, without redefining membership truth. |
 | **Expressivity vs minimal vocabulary**            | Teams need to capture rich conditions (time windows, environment, versions) but not explode the lexicon into variants such as “envelope”, “applicability”, or “generality”.                |
 | **Static content vs operational change**          | Claims may hold broadly while current operations are narrow (or vice versa). The mechanism must keep “what is true” and “what can be done” aligned yet distinct. |
 | **Open‑world exploration vs closed‑world gating** | Exploration benefits from permissive drafts; **gates** require crisp, observable checks. The same scope object must support both.                                |
 
 ### A.2.6:5 - Solution - Overview
 
-USM keeps four things distinct:
+USM keeps the following things distinct:
 
 * **`U.ContextSlice`** - one addressable value identified independently of the predicate that later inspects it;
 * **`ContextSliceSet`** - the mathematical ValueKind `Set[U.ContextSlice]`, used for scope extensions and finite target sets;
@@ -4254,7 +4409,7 @@ USM keeps four things distinct:
 * **`U.ClaimScope`**, **`U.WorkScope`**, and **`U.PublicationScope`** - C.3 specializations for claim, capability, and publication uses;
 * **membership semantics, mathematical scope algebra, and reusable operations** - three separate layers: the bivalent predicate, its C.29 set representations, and the exact A.6.1 declarations used only when a receiving use needs an actual application and binding. None is a field or relation occurrence stored on the object being checked.
 
-The primitive claim-scope question is `member(x, S)` for exact slice `x` and exact scope `S`. Intersection handles serial dependence. `spanUnion` is allowed only for independently supported areas. `widen` and `narrow` change the extension; `refit` preserves it while changing only a scope expression or parameterization. `translate` is used only when exact local-sense content must cross an obtaining F.9 Bridge occurrence; a different label or reference scheme alone does not select translation.
+The primitive claim-scope question is `member(x, S)` for exact slice `x` and exact scope `S`. Intersection handles serial dependence. `spanUnion` is allowed only for independently supported areas. `widen` and `narrow` change the extension; `refit` preserves it while changing only a scope expression or parameterization. `translate` is used only when exact local-sense content must cross an obtaining F.9 Bridge and a separate affirmative C.2.1 claim names this translation's direction, rule, and tolerance. A receiving guard relies on that claim only through the current passing A.10 branch or positive B.3 branch; a different label or reference scheme alone selects none of these.
 
 One exact `U.ClaimScope` may participate in a `ModelApplicabilityRelation`. That relation, its actual obtaining extent, a selected A.22 structure, a membership evaluation, and a table displaying members remain separate.
 
@@ -4273,18 +4428,18 @@ Keep three layers explicit:
 **Mathematical semantics.**
 
 ```text
-member(x, S)                  : Bool
-scopeSubset(S1, S2)           := for every x, member(x,S1) implies member(x,S2)
-coversSet(S, T)               := for every x in T, member(x,S)
-extension(intersect(F))       := intersection of extension(S) for S in F
-extension(SpanUnion(F))       := union of extension(S) for S in F
-extension(translate(B,S,RS))  := the target-slice image of extension(S) admitted by Bridge occurrence B under RS
-widen(S0,S1)                  := extension(S0) proper-subset extension(S1)
-narrow(S0,S1)                 := extension(S1) proper-subset extension(S0)
-refit(E0,E1,S)                := expressions E0 and E1 both designate exact scope S
+member(x, S)                        : Bool
+scopeSubset(S1, S2)                 := for every x, member(x,S1) implies member(x,S2)
+coversSet(S, T)                     := for every x in T, member(x,S)
+extension(intersect(F))             := intersection of extension(S) for S in F
+extension(SpanUnion(F))             := union of extension(S) for S in F
+extension(translate(B,C_use,S,RS))  := the target-slice image of extension(S) selected by C_use's rule and tolerance over Bridge B under RS
+widen(S0,S1)                        := extension(S0) proper-subset extension(S1)
+narrow(S0,S1)                       := extension(S1) proper-subset extension(S0)
+refit(E0,E1,S)                      := expressions E0 and E1 both designate exact scope S
 ```
 
-Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finite scope family, `B` is an exact obtaining F.9 Bridge occurrence, and `RS` is the exact target reference scheme. `scopeSubset`, `coversSet`, `widen`, `narrow`, and `refit` are mathematical predicates or comparison classifications, not actual A.6.1 operations in this edition. Work that authors or compares scope declarations remains separately governed.
+Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finite scope family, `B` is an exact obtaining F.9 Bridge, `C_use` is the exact current C.2.1 claim with `B` as EntityOfConcern and affirmative polarity for this named scope-translation use, and `RS` is the exact target reference scheme. The claim's content names the direction, scope-correspondence rule, and permitted-loss tolerance used to select the target image; its effective ReferenceScheme makes those designations interpretable. `scopeSubset`, `coversSet`, `widen`, `narrow`, and `refit` are mathematical predicates or comparison classifications, not actual A.6.1 operations in this edition. The formula represents the claim's proposed mapping but proves neither the claim nor reliance on it and declares no operation application. Work that authors or compares scope declarations remains separately governed.
 
 **A.6.1 declaration A — `ScopeMembershipEvaluationMechanism`.**
 
@@ -4338,11 +4493,12 @@ Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finit
 |  | argument `independenceBasis` | exact episteme stating the support lines and their required independence | `U.Episteme` | `ByGovernedReference` | the reference resolves to the exact basis actually used by this application | exactly 1 |
 |  | result `derivedScope` | exact extensional scope returned for `SpanUnion(scopeFamily)` | `U.Scope` | `ByValue` | the application actually returns this independently identifiable scope value | exactly 1 |
 | `deriveTranslatedScope` | argument `sourceScope` | exact source scope whose extension is mapped | `U.Scope` | `ByValue` | the application actually maps this exact scope value | exactly 1 |
-|  | argument `bridgeOccurrence` | exact obtaining F.9 Bridge occurrence whose mapping is used | `U.Relation` | `ByGovernedReference` | the reference resolves to the exact obtaining occurrence actually used by this application | exactly 1 |
+|  | argument `bridgeOccurrence` | exact obtaining F.9 Bridge whose direct semantic relation is used | `U.Relation` | `ByGovernedReference` | the reference resolves to the exact obtaining occurrence actually used by this application; it carries no use-specific rule, tolerance, or reliance | exactly 1 |
+|  | argument `scopeTranslationClaim` | exact current C.2.1 claim that says the bound Bridge is suitable for this named scope translation | `U.Episteme` | `ByGovernedReference` | the reference resolves to the exact affirmative claim whose EntityOfConcern is the bound Bridge and whose content names this use, direction, rule, and tolerance | exactly 1 |
 |  | argument `targetReferenceScheme` | exact scheme under which target slices and their local senses are interpreted | `U.ReferenceScheme` | `ByValue` | the application actually interprets the returned target-slice extension under this scheme | exactly 1 |
-|  | result `derivedScope` | exact extensional scope returned for the supported target-slice image | `U.Scope` | `ByValue` | the application actually returns this independently identifiable scope value | exactly 1 |
+|  | result `derivedScope` | exact extensional scope returned for the target image selected by the claim's rule and tolerance | `U.Scope` | `ByValue` | the application actually returns this independently identifiable scope value | exactly 1 |
 
-**ApplicationPredicate rules.** `deriveIntersectionScope` returns the scope represented under C.29 by `intersection of extension(S) for S in scopeFamily`. `deriveSpanUnionScope` implements the already established `SpanUnion`: it is admitted only when `independenceBasis` establishes the section 7.3 independence condition and returns the scope represented by `SpanUnion(scopeFamily)`. `deriveTranslatedScope` is admitted only when the bound Bridge occurrence obtains and returns the scope represented by `translate(bridgeOccurrence, sourceScope, targetReferenceScheme)`. The formulae alone declare no application or binding.
+**ApplicationPredicate rules.** `deriveIntersectionScope` returns the scope represented under C.29 by `intersection of extension(S) for S in scopeFamily`. `deriveSpanUnionScope` implements the already established `SpanUnion`: it is admitted only when `independenceBasis` establishes the section 7.3 independence condition and returns the scope represented by `SpanUnion(scopeFamily)`. `deriveTranslatedScope` is admitted only when the bound Bridge obtains and the bound C.2.1 claim has that Bridge as EntityOfConcern, affirmative polarity, and content naming this scope-translation use, its direction, rule, and tolerance. The application applies that rule within that tolerance and returns the scope represented by `translate(bridgeOccurrence, scopeTranslationClaim, sourceScope, targetReferenceScheme)`. The formulae and claim alone declare no application or result binding.
 
 For every governed-reference argument, record presence, citation, or a compatible token is insufficient: the reference must resolve to the exact value actually used. For every result row, the result binding obtains only when that exact application returns the independently identifiable extensional scope. The application and formula do not constitute that scope or make any membership predicate true.
 
@@ -4350,15 +4506,17 @@ For every governed-reference argument, record presence, citation, or a compatibl
 
 `ApplicationExtentRule`: the application begins after every required argument is bound for that invocation and ends when the derived-scope value is returned or the invocation stops without a result. A result-binding extent cannot begin before that scope value is returned.
 
-**`ScopeDerivationMechanism` LawSet.** Serial composition uses intersection. Parallel publication uses the one established `SpanUnion` and preserves only slices supplied by independently supported lines. Translation returns only the exact target-slice image admitted by the bound obtaining F.9 Bridge occurrence. No derivation operation widens support by itself.
+**`ScopeDerivationMechanism` LawSet.** Serial composition uses intersection. Parallel publication uses the one established `SpanUnion` and preserves only slices supplied by independently supported lines. Translation returns only the target-slice image selected by the bound claim's rule and tolerance over the bound obtaining F.9 Bridge. No derivation operation widens support by itself.
 
-**`ScopeDerivationMechanism` AdmissibilityConditions.** Intersection and `SpanUnion` require at least two exact scopes. `deriveSpanUnionScope` additionally requires the bound independence basis to meet section 7.3. `deriveTranslatedScope` requires an exact obtaining Bridge occurrence whose mapping covers the claimed target image. A missing condition blocks that derivation application rather than creating a guessed scope.
+**`ScopeDerivationMechanism` AdmissibilityConditions.** Intersection and `SpanUnion` require at least two exact scopes. `deriveSpanUnionScope` additionally requires the bound independence basis to meet section 7.3. `deriveTranslatedScope` requires both an exact obtaining Bridge and the exact affirmative C.2.1 claim whose named rule and tolerance select the claimed target image. A missing or non-obtaining Bridge or a missing or non-affirmative claim blocks that positive derivation application rather than creating a guessed scope; the latter does not negate an otherwise obtaining Bridge.
 
-**`ScopeDerivationMechanism` Applicability.** Name the exact source scopes and reference schemes required by the selected derivation. The receiving use names its exact `U.ClaimScope`, selected time when current, selected `CHR:ReferencePlane` only when plane-dependent, and derivation-specific conditions. `GammaTimePolicy` enters only when time changes membership; `ReferencePlane` is absent from ordinary set algebra.
+**`ScopeDerivationMechanism` Applicability.** Name the exact source scopes and reference schemes required by the selected derivation. For translation, also name the bound Bridge and separate C.2.1 claim. Before a receiving guard, assertion, publication, or structure selection relies on the returned scope, require either the exact A.10 evidence-provenance graph relation plus `RelianceDisposition=pass` for this bounded use, or a current positive B.3 assurance claim that carries this bounded assurance use and has its sufficient minimum reliance safety assurance record. Enter B.3 when an assurance claim is being made or its material-reliance threshold is met, and decide first whether a current assurance claim exists. The threshold requires the minimum record but does not create a positive claim.
 
-**`ScopeDerivationMechanism` SignatureManifest (optional).** When dependency replay needs it, name the actual imported or provided declarations for `U.Scope` and, for translation, the exact F.9 Bridge declaration. The independence basis and particular Bridge occurrence are application arguments, not declaration-manifest entries by adjacency.
+A missing or non-affirmative use claim, a non-passing A.10 disposition, or a B.3 no-assurance-claim, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked disposition stops or narrows the receiving use without changing membership truth or the Bridge. An A.10 pass or positive B.3 assurance claim supports reliance only for its named use; neither is legal, policy, or deontic authorization, and neither proves that a derivation application or another receiving object occurred. Any required authorization remains under its direct governor. The receiving use also names its exact `U.ClaimScope`, selected time when current, selected `CHR:ReferencePlane` only when plane-dependent, and derivation-specific conditions. `GammaTimePolicy` enters only when time changes membership; `ReferencePlane` is absent from ordinary set algebra.
 
-**`ScopeDerivationMechanism` neighboring objects.** A derivation can occur within dated calculation work governed by A.15.1. Its bound independence-basis episteme and Bridge occurrence retain their own identities and direct governors. The returned `U.Scope` is independently identified by its extension; neither the application nor its C.29 formula constitutes it. Evidence, publication, gate, and assurance claims remain with their direct owners. None of those objects, nor another derivation invocation, reidentifies this mechanism unless it reveals changed declaration content.
+**`ScopeDerivationMechanism` SignatureManifest (optional).** When dependency replay needs it, name the actual imported or provided declarations for `U.Scope` and, for translation, the exact F.9 Bridge declaration and C.2.1 claim identity rules. The independence basis, particular Bridge, and particular scope-translation claim are application arguments, not declaration-manifest entries by adjacency. `scopeTranslationClaim` is only this declaration's argument label; it names no public claim kind. A.10 and B.3 reliance objects remain under their direct owners rather than becoming a common mechanism signature.
+
+**`ScopeDerivationMechanism` neighboring objects.** A derivation can occur within dated calculation work governed by A.15.1. Its bound independence-basis episteme, Bridge, and C.2.1 scope-translation claim retain their own identities and direct governors. The exact A.10 relation and disposition or B.3 claim and record govern reliance on the use claim; they are neither mechanism arguments nor results. The returned `U.Scope` is independently identified by its extension; neither the application nor its C.29 formula constitutes it. Evidence, publication, gate, assurance, and any downstream Work, assertion, relation, or publication occurrence remain with their direct owners. None of those objects, nor another derivation invocation, reidentifies this mechanism unless it reveals changed declaration content.
 
 **`ScopeDerivationMechanism` refinement or conservative extension.** A refinement preserves the inherited derivation operations, argument and result meanings, binding rules, application predicates, identity and extent, and the intersection, `SpanUnion`, and translation semantics while stating every strengthened law or admission condition. A conservative extension adds exact optional arguments, results, or operations without changing those inherited meanings or admitted uses.
 
@@ -4425,7 +4583,7 @@ A `BoundedModelUseStructure` may be selected over exact model-applicability and 
 
 **Expression.** State a Claim scope as an exact predicate or condition block over slice selectors: assumptions, parameter ranges, cohorts, platform or standard editions, exact local senses when current, and time conditions only when they change membership.
 
-**Algebra.** Serial dependencies use intersection. Independently supported areas may use `spanUnion` with the independence basis stated. `widen` and `narrow` change the declared set; `refit` preserves it. `translate` uses the exact F.9 branch below.
+**Algebra.** Serial dependencies use intersection. Independently supported areas may use `spanUnion` with the independence basis stated. `widen` and `narrow` change the declared set; `refit` preserves it. `translate` uses the section 7.5 Bridge-plus-use-claim branch and keeps reliance separate.
 
 #### A.2.6:6.4 - `U.WorkScope` — scope of doing Work (capability)
 
@@ -4440,7 +4598,7 @@ The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND*
 
 **Method–Work gating.** A Work step’s guard MUST check that the target slice is **covered** by the capability’s Work scope **and** that required measures and qualification windows are satisfied.
 
-**Composition and Delta-moves.** Work scope uses the same algebra as Claim scope (intersection / `spanUnion` / `translate` / `widen` / `narrow` / `refit`). Section 7.5 selects `translate` only for exact local-sense translation through an obtaining F.9 Bridge occurrence.
+**Composition and Delta-moves.** Work scope uses the same algebra as Claim scope (intersection / `spanUnion` / `translate` / `widen` / `narrow` / `refit`). Section 7.5 selects `translate` only for exact local-sense translation through an obtaining F.9 Bridge plus the separate affirmative C.2.1 claim and its current reliance branch.
 
 **Separation from knowledge.** A Work scope is a set-valued scope, not an assertion. The capability declaration uses it to delimit where a deliverability claim is evaluated. Measurements and monitoring may support that claim through separately governed evidence and reliance judgments; they do not make a slice a member.
 
@@ -4458,7 +4616,7 @@ These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (a
   `PublicationScope(view_E) ⊆ ClaimScope(E)`.
 * If the publication is **about a capability `C`**:
   `PublicationScope(view_C) ⊆ WorkScope(C)`.
-* If the publication is **about a composition**, its scope is a subset of the intersection of the exact contributing scopes. When exact local senses require translation, translate each affected source scope through its exact obtaining F.9 Bridge occurrence before intersection; congruence and loss qualify R only.
+* If the publication is **about a composition**, its scope is a subset of the intersection of the exact contributing scopes. When exact local senses require translation, use section 7.5 for each affected source scope: obtaining F.9 Bridge, separate affirmative C.2.1 use claim, and current A.10 or B.3 reliance before the returned scopes are intersected.
 
 **Expression.** Declare `U.PublicationScope` as an exact predicate over only the `U.ContextSlice` selectors that restrict publication use: for example versioned standards, environment, audience, interface availability, exact local senses, or `gammaTime` when time changes membership. It may be narrower than the underlying scope but must not be wider.
 
@@ -4521,25 +4679,30 @@ USM already fixes composition: along a **dependent path** use **intersection**; 
 Early “G ladders” effectively encoded **abstraction/typing** (instances -> patterns -> formal classes/types -> up-to-iso). That is valuable **didactics**, but **not applicability**. We have already separated these concerns: **abstraction** is captured, if needed, by **`AbstractionTier (AT)`** as an optional facet; **applicability** is **`U.ClaimScope (G)`**.
 
 **4) A G ladder breaks locality and Bridge semantics.**
-When exact local senses require translation, an obtaining F.9 Bridge occurrence maps a scope set and its congruence or loss qualifies the receiving reliance assessment. There is no canonical way to translate an ordinal G level: the mapped area may be narrower or differently factored. USM translates exact sets only in that branch and keeps the reliance penalty in R rather than rewriting G.
+When exact local senses require translation, an obtaining F.9 Bridge establishes their direct semantic relation while a separate C.2.1 claim states the proposed mapping rule and tolerated loss. There is no canonical way to translate an ordinal G level: the mapped area may be narrower or differently factored. USM translates exact sets only through that bounded claim and keeps A.10 or B.3 reliance separate rather than rewriting G.
 
 **5) A G ladder duplicates ESG guards without adding decision power.**
 What teams often want to “compress into a G number” is actually (a) the quality of expression and (b) the completeness of the declared scope. The first is an F threshold; the second is handled by explicit guards: `Scope covers TargetSlice`, `gammaTime is explicit` only when membership varies with time, and a separate freshness-window check when current. A ladder for G adds confusion but no decision power.
 
 **Normative directive.**
-`U.ClaimScope (G)` **SHALL** remain a **set‑valued USM scope object**; **no ordinal or numeric ladder SHALL be defined** for G. If a profile needs scalar reporting, it MAY publish an explicit **report‑only** proxy **`CoverageMetric(G)`**, but **`CoverageMetric(G)` MUST NOT substitute for `G`** in norms, gates, bridge semantics, or CL routing. Authoring and gating **SHOULD** use **F thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
+`U.ClaimScope (G)` **SHALL** remain a **set‑valued USM scope object**; **no ordinal or numeric ladder SHALL be defined** for G. If a profile needs scalar reporting, it MAY publish an explicit **report‑only** proxy **`CoverageMetric(G)`**, but **`CoverageMetric(G)` MUST NOT substitute for `G`** in norms, gates, Bridge semantics, bounded-use claims, or reliance decisions. Authoring and gating **SHOULD** use **F thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
 
 #### A.2.6:7.5 - Translation across exact local senses
 
-Use the mathematical representation `translate(bridgeOccurrence, sourceScope, targetReferenceScheme)` only when the target membership predicate must express source conditions through exact local senses and an exact obtaining F.9 Bridge occurrence relates those senses. When a receiving use needs the actual calculation and its returned scope, use `deriveTranslatedScope` with those exact three arguments.
+Use translation only when ordinary designation resolution cannot settle the exact local senses needed by the target membership predicate. Then proceed in this order:
 
-Name the exact bridge participants, obtaining occurrence, congruence level, and loss. The translated value is another scope over target slices. A reference-scheme difference, different project label, or different slice designator alone establishes neither translation nor Bridge use.
+1. resolve the source and receiving F.17 `SchemeSenseCell` values and name the exact obtaining F.9 Bridge that relates them;
+2. state the proposed scope translation separately: name the source scope, target scheme, source-to-receiving direction, scope-correspondence rule, and tolerated loss, then cite the exact current C.2.1 claim with that Bridge as EntityOfConcern and affirmative polarity for this use;
+3. before a guard relies on the claim, require the exact A.10 evidence-provenance graph relation plus `RelianceDisposition=pass` for this bounded use; when an assurance claim is made or B.3's material-reliance threshold is met, first decide whether a current assurance claim exists, then require a current positive claim carrying this use with its sufficient minimum record, or stop or narrow the use under the exact non-positive B.3 disposition; and
+4. use `translate(Bridge, UseClaim, SourceScope, TargetReferenceScheme)` as the C.29 mathematical representation, or invoke `deriveTranslatedScope` with those same four values when one actual calculation and returned scope are needed.
 
-Any congruence penalty changes the separately governed reliance or evidence assessment. It does not make an included slice excluded, rewrite F or G, or become a scope member. Where known mapping loss changes the supported area, declare the narrower translated scope explicitly.
+The Bridge establishes the direct semantic correspondence. The separate claim selects this translation's direction, rule, and tolerance. A Bridge profile, Bridge Card, reference-scheme difference, project label, or slice designator cannot supply that claim or its reliance basis. A missing or non-obtaining Bridge blocks the semantic branch. A missing or non-affirmative use claim, a non-passing A.10 disposition, or a non-positive B.3 branch blocks reliance on the translation without making an otherwise obtaining Bridge false.
+
+Meeting B.3's threshold creates the minimum-record obligation, not a positive claim. A passing A.10 classification or positive B.3 assurance claim supports reliance only for the named use; neither authorizes it. Observed mismatch, calibration error, and counterexamples are evidence about the use claim. The permitted loss is the tolerance inside that claim. If the rule and tolerance support only a proper subset of the source area, return that explicitly narrower target scope. Neither the Bridge nor the claim supplies direct support for adding a slice, and neither makes membership true. The exact `deriveTranslatedScope` application remains an A.6.1 operation application; the claim and reliance basis do not prove that it occurred.
 
 #### A.2.6:7.6 - Δ‑Operations (Widen, Narrow, Refit)
 
-* **Delta-G+ (widen).** Monotone expansion: `S subsetOf S-prime`. Every added slice requires direct support under the receiving use; a Bridge occurrence by itself supplies translation, not support.
+* **Δ‑G+ (widen).** Monotone expansion: `S subsetOf S-prime`. Every added slice requires direct support under the receiving use; a Bridge and affirmative translation-use claim can define a mapping but supply no such support by themselves.
 * **ΔG− (narrow).** Monotone restriction: `S′ ⊂ S`. Often used to remove areas invalidated by new findings.
 * **Refit.** A different expression or parameterization designates the same extensional scope after normalization (for example, changing units or factoring common predicates). Refit MUST NOT alter membership and does not create another scope value.
 
@@ -4551,7 +4714,7 @@ Any congruence penalty changes the separately governed reliance or evidence asse
 
 #### A.2.6:7.7 - Invariants
 
-* **I-LOCAL.** Interpret membership under the effective reference scheme and exact local senses current to the declaration. Translate only through an obtaining F.9 Bridge occurrence when those senses differ.
+* **I-LOCAL.** Interpret membership under the effective reference scheme and exact local senses current to the declaration. Translate only through an obtaining F.9 Bridge plus the separate affirmative C.2.1 claim for that translation; keep A.10 or B.3 reliance outside membership truth.
 * **I‑SERIAL.** Serial scope is an **intersection**; it cannot grow by adding dependencies.
 * **I‑PARALLEL.** Parallel scope MAY grow by union, but only where **independently supported**.
 * **I‑WLNK.** Weakest‑link applies to **F** and **R** on dependency paths; **G** follows set rules (∩ / ⋃).
@@ -4569,7 +4732,7 @@ Any congruence penalty changes the separately governed reliance or evidence asse
 
 A scope is not owned by a `U.BoundedContext`. Interpret its predicate under the effective reference scheme and exact local senses named by the claim or scope declaration. Evaluate it against exact `U.ContextSlice` values.
 
-Do not assume that a similarly named selector elsewhere has the same sense. Use ordinary designation resolution when it suffices. Use `translate` only when exact local senses must be related through an obtaining F.9 Bridge occurrence.
+Do not assume that a similarly named selector elsewhere has the same sense. Use ordinary designation resolution when it suffices. Use `translate` only when exact local senses need an obtaining F.9 Bridge and a separate affirmative C.2.1 claim states the proposed translation's direction, rule, and tolerance; establish the current A.10 or B.3 reliance branch before acting on the returned scope.
 
 #### A.2.6:8.2 - Time selector `Γ_time`
 
@@ -4577,7 +4740,7 @@ When membership depends on time, the scope predicate and target slice name an ex
 
 #### A.2.6:8.3 - Standards, versions & notations
 
-When a standard, interface, or schema edition affects membership, name the exact edition. A notation change with faithful designation resolution does not change G. If exact local senses instead require an F.9 Bridge occurrence, its congruence and loss may affect R without redefining membership truth.
+When a standard, interface, or schema edition affects membership, name the exact edition. A notation change with faithful designation resolution does not change G. If exact local senses require translation, the F.9 Bridge establishes their relation, the separate C.2.1 claim states this translation's rule and tolerance, and A.10 or B.3 governs reliance; none redefines membership truth.
 
 #### A.2.6:8.4 - Determinism of evaluation
 
@@ -4611,7 +4774,7 @@ membershipResult := evaluateMembership(TargetSlice, ClaimScope, InterpretationBa
 
 Admit the scope condition only when the result is `true`. Stop on `false`. On `unknown`, abstain, obtain the missing input, narrow the attempted use, or apply a separately governed reliance policy. Evidence freshness, formality, time currentness, decision, and assurance remain separate predicates.
 
-Add a Bridge branch only when the membership predicate uses exact local senses that require translation. A different reference scheme or location label alone is not such a trigger.
+Add a translation branch only when the membership predicate uses exact local senses that ordinary designation resolution cannot align. Require the obtaining F.9 Bridge and the separate affirmative C.2.1 claim for this translation before deriving a scope, then require the current A.10 or B.3 reliance branch before the receiving guard relies on it. A different reference scheme or location label alone is not such a trigger.
 
 #### A.2.6:10.2 - Claim-scope guard family
 
@@ -4627,7 +4790,7 @@ Name the exact claim-bearing episteme, exact `U.ClaimScope`, and exact target sl
 
 **EG-3 - Unknown evaluation.** When a required selector, designation resolution, or translation input is unavailable, return `unknown` as the result binding of the exact `evaluateMembership` application, or as the result of the directly governed evaluation when no reusable application is current. Abstain or follow the exact receiving reliance policy; do not assert `member = false`. Add a C.2.1 result episteme only when a named receiving use needs the conclusion to persist. Use A.15.PROD only when the current claim is that dated work first constituted that episteme.
 
-**EG-4 - Translation.** When exact local senses differ and an obtaining F.9 Bridge occurrence relates them, derive the translated scope with `deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, TargetReferenceScheme)`, then use that returned scope in `evaluateMembership`. Name congruence and loss separately. Scheme difference alone does not select this branch.
+**EG-4 - Translation.** When exact local senses differ, require the obtaining F.9 Bridge and the separate affirmative C.2.1 claim naming this scope translation's direction, rule, and tolerance. After the exact A.10 or B.3 branch supports reliance for that use, derive the scope with `deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, ExactUseClaim, TargetReferenceScheme)`, then use that returned scope in `evaluateMembership`. Scheme difference alone does not select this branch.
 
 **EG-5 - Scope-value versus declaration change.** Widen or narrow only when the extension gains or loses at least one independently identified slice; that extension change identifies another `U.ClaimScope`. A changed predicate expression with the same exact extension is a refit: it preserves the exact scope value and may require another scope declaration or claim-bearing episteme edition under its direct governor. A result-record, table, or selected-structure change alone changes neither the scope value nor its declaration.
 
@@ -4656,22 +4819,23 @@ qualificationWindowHolds(capability, qualificationWindowPolicy, evaluationTime) 
 
 **WG-4 - Translation branch for capability use.**
 
-Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice and an obtaining F.9 Bridge occurrence relates those senses. Name the exact bridge, congruence, and loss. A capability object and job slice carry no hidden `.Context` field that automatically selects this branch.
+Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice. Require the obtaining F.9 Bridge and a separate affirmative C.2.1 claim naming this Work-scope translation's direction, rule, and tolerance; establish the exact A.10 or B.3 reliance branch before the capability guard uses the result. A capability object and job slice carry no hidden `.Context` field that automatically selects this branch.
 
-Known mapping loss may require an explicitly narrower translated Work scope. Any confidence penalty belongs to the separately governed reliance or evidence assessment, not to membership truth.
+Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. When the claim's rule and tolerance support only a subset, return an explicitly narrower Work scope. Neither fact changes membership truth by itself.
+
 **WG‑5 - Δ(WorkScope).**
 When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). Refit (e.g., new units/parametrization) requires no new evidence.
 
 #### A.2.6:10.4 - Translation guard
 
-Use this branch only after an exact local-sense translation need and exact F.9 Bridge occurrence are current:
+Use this branch only after the exact local-sense translation need, the obtaining F.9 Bridge, and the separate affirmative C.2.1 claim for this translation are current. The claim names the source-to-receiving direction, scope-correspondence rule, and tolerated loss. Before the receiving guard relies on it, require the exact passing A.10 branch or a current positive B.3 assurance claim that carries this use with its sufficient required record.
 
 ```text
-translatedScope := deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, TargetReferenceScheme)
+translatedScope := deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, ExactUseClaim, TargetReferenceScheme)
 membershipResult := evaluateMembership(TargetSlice, translatedScope, InterpretationBasis)
 ```
 
-The source claim-bearing episteme designates `SourceScope`; it does not own that value as a hidden context field. The bridge occurrence relates exact local senses under F.9. Its congruence and loss qualify the receiving reliance claim. An unmapped slice yields `unknown` for the attempted evaluation unless the translated scope explicitly excludes it; it is not silently dropped and reported as false.
+The source claim-bearing episteme designates `SourceScope`; it does not own that value as a hidden context field. The Bridge relates exact local senses under F.9. The C.2.1 claim supplies this translation's rule and tolerance, and A.10 or B.3 supplies the separate reliance basis. None of them makes the A.6.1 operation application occur. An unmapped slice yields `unknown` for the attempted evaluation unless the returned scope explicitly excludes it; it is not silently dropped and reported as false.
 
 #### A.2.6:10.5 - Time selector
 
@@ -4695,9 +4859,17 @@ The same `G_adhesive` may participate in two independently governed model-applic
 
 #### A.2.6:11.2 - Translation only when local senses require it
 
-An assembly use expresses temperature through an exact local calibration sense different from the laboratory sense used in `G_adhesive`. An obtaining F.9 Bridge occurrence relates those two senses and declares a ±2 °C loss. `deriveTranslatedScope(G_adhesive, bridgeOccurrence, AssemblyReferenceScheme)` returns the explicitly narrowed receiving scope `[122,148]°C`; the receiving membership evaluation uses that scope.
+An assembly use expresses temperature through an exact local calibration sense different from the laboratory sense used in `G_adhesive`. F.9 Bridge `B-lab-assembly-temp` obtains between those two cells under its calibration-correspondence profile; the profile contains no translation-use rule or loss tolerance.
 
-If the receiving use merely uses another designation for the same sense under an ordinary resolvable reference scheme, no Bridge and no translation are introduced.
+Separate C.2.1 claim `C-adhesive-scope-translation` has that Bridge as EntityOfConcern and affirmative polarity. Its content names use `translate G_adhesive for the assembly membership check`, direction laboratory-to-assembly, the calibration rule for mapping the source interval, and tolerance `no selector-meaning loss and at most 2 °C boundary uncertainty`.
+
+Use that translation only while exact A.10 relation `EP-adhesive-scope-translation` connects the claim and that bounded use to evidence record `CalibrationComparisonRecord.Calib-v3-to-AssemblyCalibration-v5.2026-07-25`. Provenance edge `CalibrationComparisonRecord.Calib-v3-to-AssemblyCalibration-v5.2026-07-25 --carriedBy--> CalibrationComparisonRegister.Calib-v3-to-AssemblyCalibration-v5.2026-07-25.csv` names its carrier. The window runs from `2026-07-25` through `2026-10-23` and closes earlier if either calibration edition, the mapping rule, or the 2 °C tolerance changes.
+
+The path supports neither reverse translation, a mapping outside the named rule or tolerance, nor a claim that the A.6.1 application or membership evaluation occurred. This fixture asserts no evidence-producing or evidence-interpreting Work, current role assignment, or method trace. If the record, carrier, or provenance edge is missing or stale, or the window closes, stop before translation and set `RelianceDisposition=reopen`; otherwise `RelianceDisposition=pass` applies only to this bounded use. No assurance claim is made and the use does not meet B.3's material-reliance threshold.
+
+The actual A.6.1 application `deriveTranslatedScope(G_adhesive, B-lab-assembly-temp, C-adhesive-scope-translation, AssemblyReferenceScheme)` applies the named rule and tolerance and returns the explicitly narrowed receiving scope `[122,148]°C`. The receiving membership evaluation uses that scope. The Bridge and claim alone do not prove that this calculation occurred or that any target slice is a member.
+
+If the receiving use merely uses another designation for the same sense under an ordinary resolvable reference scheme, introduce no Bridge, use claim, or translation.
 
 #### A.2.6:11.3 - Capability: robotic weld Work scope
 
@@ -4731,10 +4903,15 @@ Controller certificate age does not change Work-scope membership in this case. W
 * **Model claim:** “AUC >= 0.92 on cohort K, pipeline P, feature sense `Training.F`.”
 * **Claim scope:** `{cohort=K, pipeline=P, exactLocalSense=Training.F}`. No `gammaTime` selector is present because this example does not claim that model applicability changes with the slice time.
 * **Target slice:** product `On-Device@v7`, pipeline `P-prime`, feature sense `Device.F-prime`.
-* **Translation trigger:** ordinary designation resolution fails because `Training.F` and `Device.F-prime` have different declared semantics, not merely different labels. An exact obtaining F.9 Bridge occurrence relates those senses and records a lossy subset mapping with `CL=1`.
-* **Evidence-freshness guard:** at evaluation time `2026-07-25`, require the A.10 evidence-provenance path for `TrainingEvaluationEvidence` to satisfy its declared 180-day relevance window; this does not enter Claim scope.
-* **Guard:** bind `translatedScope := deriveTranslatedScope(G, ExactBridgeOccurrence, ProductReferenceScheme)`, then evaluate `evaluateMembership(TargetSlice, translatedScope, InterpretationBasis)`; separately require the chosen formality and evidence-freshness predicates. The translated scope covers only the supported subset, and the low congruence reduces R rather than changing membership truth.
-* **Outcome:** admit only a target slice in the translated subset; otherwise return false or unknown according to the available translation input.
+* **Translation trigger:** ordinary designation resolution fails because `Training.F` and `Device.F-prime` have different declared semantics, not merely different labels. Exact F.9 Bridge `B-training-device-feature` obtains between those cells under a lossy-subset correspondence profile; the profile carries no device-use rule or tolerance.
+* **Bounded translation claim:** exact current C.2.1 claim `C-device-feature-scope-translation` has that Bridge as EntityOfConcern and affirmative polarity. It names use `translate the training claim scope for the On-Device@v7 membership check`, direction training-to-device, the subset-mapping rule, and tolerance `no feature-kind substitution and no target slice outside the tested mapped subset`.
+* **Evidence and reliance:** Before translating, verify that exact A.10 relation `EP-device-feature-scope-translation` connects claim `C-device-feature-scope-translation` and this bounded use to both records below.
+  * **Mapping evidence:** `MappingTestRecord.TrainingF-to-DeviceFprime.OnDevice-v7.2026-07-25`, with exact carrier edge `MappingTestRecord.TrainingF-to-DeviceFprime.OnDevice-v7.2026-07-25 --carriedBy--> MappingTestReport.TrainingF-to-DeviceFprime.OnDevice-v7.2026-07-25.json`.
+  * **Training evidence:** `TrainingEvaluationEvidence.K-P-TrainingF.2026-07-25`, with exact carrier edge `TrainingEvaluationEvidence.K-P-TrainingF.2026-07-25 --carriedBy--> TrainingEvaluationReport.K-P-TrainingF.2026-07-25.json`.
+  * **Window and stop:** the 180-day window runs from `2026-07-25` through `2027-01-21` and closes earlier if pipeline `P` or `P-prime`, either feature-sense edition, or the tested mapped subset changes. If a record, carrier, or edge is missing or stale, the window closes, or a named dependency changes, stop before translation and set `RelianceDisposition=reopen`; otherwise `RelianceDisposition=pass` applies only to this bounded use.
+  * **Boundary:** the path supports neither feature-kind substitution, a target outside the tested subset, material release or assurance, nor a claim that deployment occurred. This fixture asserts no evidence-producing or evidence-interpreting Work, current role assignment, or method trace. No assurance claim is made and the B.3 material-reliance threshold is not met; a material release or assurance use must instead enter B.3.
+* **Guard:** bind `translatedScope := deriveTranslatedScope(G, B-training-device-feature, C-device-feature-scope-translation, ProductReferenceScheme)`, then evaluate `evaluateMembership(TargetSlice, translatedScope, InterpretationBasis)`; separately require the chosen formality predicate. The translated scope covers only the tested mapped subset. Neither the claim nor its passing reliance makes the derivation application or deployment occur.
+* **Outcome:** admit only a target slice in the returned subset; otherwise return false or unknown according to the exact returned scope and available evaluation input.
 
 ### A.2.6:12 - Bias-Annotation
 
@@ -4752,10 +4929,10 @@ USM counters three recurring biases. First, scope wording can hide a claim that 
 | **CC-USM-6 Structure separation.** | A bare scope, slice, membership outcome, or displayed boundary never enters A.22 identity. An exact `U.ClaimScope` remains a participant of its independently governed `ModelApplicabilityRelation`; selecting that exact occurrence contributes through the relation-occurrence discriminator. Separately, an exact applied constraint claim may refer to that scope and contribute through the applied-constraint discriminator. Neither path makes the scope a constituent, a membership occurrence, or a second delimiter. |
 | **CC-USM-7 Applicability interval.** | One exact `U.ClaimScope` participates in `ModelApplicabilityRelation`; a declared interval stays in assertion or occurrence-description content, while the actual occurrence extent is derived from maximal continuous obtaining. |
 | **CC-USM-8 Set algebra.** | Intersection, independently supported `spanUnion`, widen, narrow, and refit operate on exact scope values; refit preserves membership. |
-| **CC-USM-9 Translation trigger.** | `translate` is used only with an exact obtaining F.9 Bridge occurrence between exact local senses. A reference-scheme or label difference alone does not trigger it. |
+| **CC-USM-9 Translation boundary.** | `translate` uses an exact obtaining F.9 Bridge plus a separate affirmative C.2.1 claim naming the use, direction, rule, and tolerance. A receiving guard requires the passing A.10 or positive B.3 branch for that use; scheme or label difference, a profile, or a card alone supplies none of these. |
 | **CC-USM-10 Representation boundary.** | A set expression, query, table, graph, or diagram is a C.29 representation and neither identifies the scope nor makes membership true. |
 | **CC-USM-11 Time only when material.** | Name `gammaTime` when time changes membership; never use implicit “latest,” and do not add a fictitious time selector to a time-invariant predicate. |
-| **CC-USM-12 Separate reliance.** | Formality, evidence freshness, assurance, gate, and decision predicates remain outside membership; unknown is handled by the receiving guard without rewriting the scope. |
+| **CC-USM-12 Separate reliance.** | Formality, evidence freshness, assurance, gate, and decision predicates remain outside membership. A.10 or B.3 governs reliance on any cross-scheme translation claim; a passing A.10 disposition or positive B.3 assurance claim supports reliance only for its named use and neither authorizes that use, makes membership true, nor proves a derivation application occurred. A B.3 threshold alone supplies no positive claim. Unknown remains a receiving-guard result, not a rewritten scope. |
 | **CC-USM-13 Publication and capability specializations.** | `U.WorkScope` and `U.PublicationScope` reuse the same value and membership boundary; their measures, qualification, publication, and carrier relations remain separately governed. |
 
 ### A.2.6:14 - Common Anti-Patterns and How to Avoid Them
@@ -4770,13 +4947,13 @@ USM counters three recurring biases. First, scope wording can hide a claim that 
 | Table-created obtaining | A row, edge, query result, or diagram is treated as membership or scope identity. | Treat it as a C.29 representation of an independently declared scope or evaluation result. |
 | Scope-as-structure | A bare scope, slice, membership outcome, or displayed boundary is treated as an A.22 constituent or identity discriminator. | Keep the exact `U.ClaimScope` as a participant of its independently governed `ModelApplicabilityRelation`: only a selected exact occurrence contributes through the relation-occurrence discriminator. If an exact applied constraint claim refers to that scope, the claim contributes separately through the applied-constraint discriminator. The bare scope contributes through neither path and is never copied as a second delimiter. |
 | Interval-as-participant | A declared applicability interval is copied into the direct relation signature. | Keep it in assertion or description content and derive actual extent from continuous obtaining. |
-| Silent translation | A different scheme, label, or location automatically invokes a Bridge. | Translate only across exact local senses through an obtaining F.9 Bridge occurrence. |
+| Silent translation | A different scheme, label, or location automatically invokes a Bridge or lets the Bridge define the receiving use. | Translate only after naming exact local senses, an obtaining F.9 Bridge, a separate affirmative C.2.1 claim for the direction, rule, and tolerance, and the current A.10 or B.3 reliance branch. |
 | Implicit “latest” | A time-dependent predicate cannot be reproduced. | Name the exact temporal selector; omit it when time is irrelevant. |
 | Unsupported union | `spanUnion` claims areas not supported by independent lines. | State the independence basis or use intersection/narrower supported scope. |
 
 ### A.2.6:15 - Consequences
 
-A correct USM use makes scope checks reproducible: every judgment names an exact scope and slice, and true, false, and unknown evaluation results have different actions. Translation appears only for exact local senses through an obtaining F.9 Bridge occurrence. The cost is naming the selectors that actually affect membership and keeping evaluation work, result epistemes, representations, model applicability, and structure separate.
+A correct USM use makes scope checks reproducible: every judgment names an exact scope and slice, and true, false, and unknown evaluation results have different actions. Translation appears only for exact local senses after an obtaining F.9 Bridge, a separate affirmative C.2.1 claim about the proposed translation, and its current A.10 or B.3 reliance branch are distinguished. The cost is naming the selectors, mapping rule, tolerated loss, and evidence that actually affect the receiving use while keeping membership truth, operation application, result epistemes, representations, model applicability, and structure separate.
 
 ### A.2.6:16 - Playbooks (Informative)
 
@@ -4786,7 +4963,7 @@ A correct USM use makes scope checks reproducible: every judgment names an exact
 2. **Name the target slice.** Designate the independently identified slice; bind only the declared selector projection that this membership evaluation needs.
 3. **Evaluate membership.** True admits the scope condition; false stops it; unknown requires abstention, a missing input, or a narrower attempted use.
 4. **Keep other checks separate.** Formality, evidence freshness, capability measures, qualification, gate, and decision have their own predicates.
-5. **Translate only when needed.** Use an exact F.9 Bridge occurrence only for exact local-sense translation; record congruence and loss separately.
+5. **Translate only when needed.** Name the exact local senses and obtaining F.9 Bridge; then state the separate affirmative C.2.1 claim for this translation's direction, rule, and tolerance and establish its A.10 or B.3 reliance branch before using the returned scope.
 6. **Persist only what the use needs.** A C.2.1 result episteme may record the judgment when a named receiving use needs it to persist; a C.29 table may display it. Neither changes membership. Use A.15.PROD only when the current claim is that the work first constituted that episteme.
 
 #### A.2.6:16.2 - Architect’s design rubric for scopes
@@ -4795,7 +4972,7 @@ A correct USM use makes scope checks reproducible: every judgment names an exact
 * **Factor common conditions.** Use Refit to normalize units and factor shared predicates; do not widen by stealth.
 * **Partition support lines.** If you plan a **SpanUnion**, document independence up front.
 * **Keep scope thin & honest.** Publish what you can support; add slices as support appears (ΔG+).
-* **Design Bridges early.** When interop is planned, sketch mapping characteristics and **expected CL**; plan **R** penalties.
+* **Design translations early.** Test the direct F.9 Bridge first, then state each proposed translation use separately with its direction, mapping rule, tolerated loss, and evidence plan; do not turn an expected loss score into permission to use the mapping.
 
 #### A.2.6:16.3 - Minimal DSL snippet for scope blocks (illustrative)
 
@@ -4823,7 +5000,7 @@ receivingGuards:
 * **P1 (Expansion).** Profiles are macros: guards **MUST** expand them to explicit predicates before evaluating `Scope covers TargetSlice`.
 * **P2 (Edition).** Profiles are editioned. A changed predicate expression is a content change for a carrier that references the profile even when the exact scope extension is preserved; a changed extension additionally identifies another scope value.
 * **P3 (No stealth widen).** A profile update MUST NOT implicitly widen a carrier’s published scope; ΔG+ must be explicit in that carrier.
-* **P4 (Translation awareness).** If a profile uses exact local senses that require translation, name the obtaining F.9 Bridge occurrence and its congruence and loss; a different label or scheme alone is insufficient.
+* **P4 (Translation awareness).** If a profile expands to predicates whose exact local senses require translation, name the obtaining F.9 Bridge and the separate affirmative C.2.1 claim for that translation's direction, rule, and tolerance. The receiving guard must recover the current A.10 or B.3 reliance branch; a different label, scheme, profile, or Bridge Card alone is insufficient.
 * **P5 (No hidden owner).** A profile expands to predicates; it is not a context object, scope owner, or additional scope kind.
 
 **Examples (illustrative).**
@@ -4841,7 +5018,7 @@ When a scope-aware decision needs durable audit evidence, its C.2.1 result epist
 * **Exact target slice.** Designate the independently identified slice with its complete declared selector schema and values. An evaluation may bind only the projection its scope predicate inspects; that projection does not replace slice identity. Include `gammaTime` in the schema only when that temporal selector is part of the exact slice being evaluated.
 * **Evaluation outcome.** Record `true`, `false`, or `unknown`, plus the evaluation method or work occurrence when replay needs it.
 * **Separate guard outcomes.** Record work measures, qualification windows, formality, or freshness only when the receiving use checks them; none is membership.
-* **Translation evidence, only when triggered.** If exact local senses required translation, name the exact obtaining F.9 Bridge occurrence, congruence, loss, and any separate reliance effect.
+* **Translation evidence, only when triggered.** Name the exact obtaining F.9 Bridge, the separate C.2.1 claim with its polarity, use, direction, rule, and tolerance, and the exact A.10 or B.3 reliance branch. Record any observed loss as evidence rather than a Bridge identity field.
 * **Scope change.** Say whether the declared set widened, narrowed, or remained identical under refit.
 
 Recording these facts does not make membership true, identify the scope, or create a membership-relation occurrence.
@@ -4850,7 +5027,7 @@ Recording these facts does not make membership true, identify the scope, or crea
 
 * **USM-Ready.** Exact scope and slice values are declared; editors can distinguish membership from evaluation, evidence, representation, and structure.
 * **USM-Guarded.** Guards evaluate exact Claim scope or Work scope membership and keep measures, qualification, freshness, and `gammaTime` when material as separate checks.
-* **USM-Auditable.** Durable result epistemes identify the exact scope, slice, and evaluation result, plus the exact F.9 Bridge occurrence details only when translation was triggered.
+* **USM-Auditable.** Durable result epistemes identify the exact scope, slice, and evaluation result. When translation was triggered, they cite the obtaining F.9 Bridge, separate bounded-use claim, and current A.10 or B.3 reliance without treating those citations as membership truth.
 * **USM‑Composed.** Serial intersection and SpanUnion are implemented in composition tooling.
 
 #### A.2.6:17.3 - Audit checklist (informative)
@@ -4858,7 +5035,7 @@ Recording these facts does not make membership true, identify the scope, or crea
 * Does each guard **name** a concrete **TargetSlice**?
 * Is **membership** reproducibly evaluable from the exact declared predicate and required inputs?
 * Are **freshness** and **coverage** separate predicates?
-* When exact local-sense translation was required, is the exact obtaining F.9 Bridge occurrence named with congruence and loss?
+* When exact local-sense translation was required, are the obtaining F.9 Bridge, separate C.2.1 use claim, direction, rule, tolerance, polarity, and current A.10 or B.3 reliance branch named?
 * For parallel support: is **independence** justified?
 
 #### A.2.6:17.4 - Risk controls (informative)
@@ -4888,7 +5065,7 @@ Not normatively. G is set‑valued. You MAY attach an **informative**, explicitl
 First decide what “latest” is doing. If it means that evidence or data must be no older than 90 days, do not put it in Claim scope: require the A.10 evidence-provenance path to satisfy its exact 90-day relevance or currentness window at the receiving use time. Put `gammaTime` in the scope only when claim applicability itself changes with the slice time, and state the membership boundary—for example, slices whose observation time falls outside the declared interval are non-members. The word “latest” alone supplies neither boundary.
 
 **Q7. How do we use a scope with differently named slice selectors?**
-First resolve whether the designations refer to the same values under the effective reference scheme. If exact local senses differ and membership must be expressed across them, use an obtaining F.9 Bridge occurrence, declare congruence and loss, and evaluate the explicitly translated scope. A different project, place, label, or reference scheme alone does not move or translate the scope.
+First resolve whether the designations refer to the same values under the effective reference scheme. If exact local senses differ and membership must be expressed across them, name the obtaining F.9 Bridge. Then state the separate affirmative C.2.1 claim for the proposed translation's direction, mapping rule, and tolerated loss, establish the exact A.10 or B.3 reliance branch, and evaluate the scope returned by `deriveTranslatedScope`. A different project, place, label, reference scheme, profile, or card alone does not move or translate the scope.
 **Q8. What about abstraction level or detail?**
 Keep **AT (AbstractionTier)** and **D (Detail and Resolution)** as orthogonal, optional annotations. They never substitute for **Claim scope** or **Work scope**.
 
@@ -4946,7 +5123,7 @@ def evaluate_membership(scope, target_slice, available_inputs):
 
 ### A.2.6:20 - Rationale
 
-A.2.6 needs a scope mechanism because scope is neither evidence freshness nor expression rigor: it is the set-valued condition under which a claim, work capability, or publication surface may be used. USM makes those membership conditions addressable, composable, and reopenable while preserving the F/G/R separation and using an exact F.9 Bridge occurrence only when exact local senses require translation.
+A.2.6 needs a scope mechanism because scope is neither evidence freshness nor expression rigor: it is the set-valued condition under which a claim, work capability, or publication surface may be used. USM makes those membership conditions addressable, composable, and reopenable while preserving the F/G/R separation. When exact local senses require translation, F.9 supplies the Bridge, C.2.1 supplies the separate claim about this use, and A.10 or B.3 supplies reliance; A.2.6 alone governs the scope calculation and membership question.
 
 #### A.2.6:20.1 - SoTA-Echoing - F-Cluster Unification for A.2.6 (F.17 and F.18)
 
@@ -4969,7 +5146,7 @@ A.2.6 needs a scope mechanism because scope is neither evidence freshness nor ex
 11. **ACM Artifact Review & Badging v1.1** (reproducibility signals)
 12. **MLOps/Cloud SLO practice (SRE / platform)** (operational guardrails)
 
-**Survey focus (terms we align):** `U.ContextSlice`, generic **Scope** and set algebra, **Claim scope (G)**, **Work scope**, **Bridge and CL**, **Γ\_time**, **widen**, **narrow**, **refit**, **translate**, **SpanUnion**, **serial intersection**, separation from **F** and **R**, and avoidance of overloaded **validity** and **operation** terms.
+**Survey focus (terms we align):** `U.ContextSlice`, generic **Scope** and set algebra, **Claim scope (G)**, **Work scope**, **Bridge plus a separate bounded-use claim and reliance basis**, **Γ\_time**, **widen**, **narrow**, **refit**, **translate**, **SpanUnion**, **serial intersection**, separation from **F** and **R**, and avoidance of overloaded **validity** and **operation** terms.
 
 ##### A.2.6:20.1.2 - UTS Table (F.17) — Cross‑context term mapping
 
@@ -5001,7 +5178,7 @@ A.2.6 needs a scope mechanism because scope is neither evidence freshness nor ex
 | Episteme applicability          | **`U.ClaimScope`** (*nick **G**)               | **Claim scope**                      | **G**                | “generality”, “applicability/envelope (of claim)”                     |
 | Capability applicability        | **`U.WorkScope`**                               | **Work scope**                       | —                    | “capability envelope”, “operational applicability”, “operation scope” |
 | Time selector                   | **`Γ_time`**                                    | **Time selector**                    | —                    | implicit “latest”                                                     |
-| Exact local-sense translation     | **Exact F.9 Bridge occurrence + CL**                    | **Bridge + congruence level**        | **CL**               | automatic Bridge use for a different label, project, or scheme        |
+| Exact local-sense translation | **Obtaining F.9 Bridge + separate affirmative C.2.1 use claim + current A.10 or B.3 reliance** | **Bridge, translation rule and tolerance, checked reliance** | — | automatic Bridge use or treating a loss score as permission |
 | Parallel coverage               | **SpanUnion**                                   | **Union of supported areas**         | —                    | unqualified “union” without independence                              |
 | Serial dependency               | **Intersection**                                | **Intersection of scopes**           | —                    | ordinal “more/less general” language                                  |
 | Scope edits                     | **ΔG+ (widen), ΔG− (narrow), Refit, Translate** | **Widen, narrow, refit, translate**  | —                    | stealth widening (“it’s obvious”)                                     |
@@ -5020,7 +5197,7 @@ A.2.6 needs a scope mechanism because scope is neither evidence freshness nor ex
 * Use **“Claim scope (G) covers TargetSlice”** and **“Work scope covers JobSlice”** in guards.
 * When time changes membership, name exact **`gammaTime`**; never say “latest.” Omit it when time is irrelevant.
 * To compose, say: **“intersection along dependency paths; SpanUnion across independent support lines.”**
-* When exact local-sense translation is current, say: **“through exact F.9 Bridge occurrence; congruence and loss qualify R, while membership is evaluated on the explicitly translated scope.”**
+* When exact local-sense translation is current, say: **“through an obtaining F.9 Bridge and a separate affirmative C.2.1 claim for this direction, rule, and tolerance; rely on it only through the current A.10 or B.3 branch, then evaluate membership on the returned scope.”**
 * When widening/narrowing, write **“ΔG+ / ΔG−”** and log the support change; use **“Refit”** for unit/param normalization.
 
 ###### A.2.6:20.1.3.3 - Rosetta summary (informative, for rationale box)
@@ -5041,7 +5218,7 @@ A.2.6 needs a scope mechanism because scope is neither evidence freshness nor ex
 #### A.2.6:21.1 - With F–G–R (C.2.2)
 
 * **G is Claim scope.** Use set algebra (∩ / SpanUnion).
-* **F** remains the expression rigor (C.2.3); **R** captures evidence freshness and CL penalties.
+* **F** remains the expression rigor (C.2.3); **R** captures evidence currentness and bounded reliance. Observed loss may bear on the translation-use claim; its permitted-loss tolerance remains in that claim rather than in G or the Bridge profile.
 * **Weakest‑link.** On dependency paths: **F\_composite = min(F)**, **R\_composite = min(R)**; **G** follows §7.2–§7.3 (set rules).
 
 #### A.2.6:21.2 - With Formality (C.2.3)
@@ -5056,8 +5233,8 @@ A.2.6 needs a scope mechanism because scope is neither evidence freshness nor ex
 
 #### A.2.6:21.4 - With exact F.9 Bridge occurrences
 
-* **Translation trigger.** Use an exact F.9 Bridge occurrence only for exact local-sense translation. Its congruence and loss qualify R and never make membership true or false by themselves.
-* **Best practice.** Narrow mapped scopes where mapping losses are material.
+* **Translation boundary.** Use an exact F.9 Bridge only for exact local-sense translation. State the translation's direction, rule, tolerated loss, and polarity in a separate C.2.1 claim, then recover the exact passing A.10 or positive B.3 reliance branch before the receiving use proceeds; none makes membership true or false by itself.
+* **Best practice.** Return an explicitly narrower scope when the bounded-use claim's rule and tolerance support only a proper subset; do not turn observed mapping loss into a Bridge identity field or a generic R penalty.
 
 #### A.2.6:21.5 - With Capability governance (A.2.2)
 
@@ -20000,434 +20177,330 @@ Useful outputs:
 > **Type:** Relational precision-restoration pattern
 > **Status:** Stable
 
-**Use this pattern when** a document, table row, boundary statement, or publication claim says “same”, “equivalent”, “aligned”, “mapped”, or “corresponding” across contexts, reference planes, A.7 lanes, or SenseCells.
+**Use this pattern when** a document, table row, boundary statement, or publication claim uses *same*, *equivalent*, *aligned*, *mapped*, or *corresponding* in a way that may hide ordinary designation, a non-semantic lane or id claim, or a real relation between exact local senses.
 
-**What goes wrong if missed.** A label match, explanation, ID mapping, or partial correspondence becomes global identity or substitution license; direction, loss, scope, edition, and admissible use disappear.
+**What goes wrong if missed.** A label match, explanation, ID mapping, or partial correspondence becomes global identity or a licence for an unspecified use. Direction, use rule, tolerated loss, evidence, and the actual downstream act disappear inside one umbrella word.
 
-**What this buys.** The sameness claim becomes an explicit Bridge claim with direction, BridgeKind, CL, loss, scope, time basis, witness refs, and a boundary between interpretation and substitution.
+**What this buys.** The sentence becomes one concrete result: a same-context designation, a claim routed to its direct owner, an obtaining F.9 Bridge plus a separately stated bounded use, or an explicit stop. A card is added only when the claims must travel.
 
 ### E.24.UK settlement
 
-A.6.9 does not admit `U.CrossContextSamenessDisambiguation` as a durable U-kind. The pattern governs cross-context sameness disambiguation as a relational precision-restoration pattern. The durable values it uses are Bridge, BridgeKind, direction, congruence level, loss, scope, EntityOfConcern, Description episteme, carrier, and direct C.3/F.9/E.17 values when current; A.6.9-specific bridge-card qualifiers such as `Γ_time` and `facetSpan` are annotation slots, not new relation kinds.
+A.6.9 admits neither `U.CrossContextSamenessDisambiguation` nor a semantic-context entity as a durable U-kind. It reuses exact F.17 `SchemeSenseCell` values, the direct F.9 `Bridge` relation, ordinary C.2.1 claims, and the existing A.10 or B.3 reliance branch. It introduces no public use-claim kind, universal use relation, shared assessment object, permission kind, or receiving-use occurrence.
 
 > **Type:** Architectural (A) — A.6.P specialisation (RPR)
 > **Status:** Stable
 > **Normativity:** Normative
 > **Placement:** A.6 cluster; immediately after A.6.8
-> **Builds on:** A.6.P (RPR); F.0.1:2.3 (Explicit Bridge Principle); E.10.D1 (Context discipline); E.10.U9 (Alignment and Bridge lexical discipline); F.9 (Bridge discipline + reasoning primitives); F.7 and F.8 (Concept‑Set rows and weakest‑link); F.5 (labels); A.7 (Strict Distinction: lanes and stance hygiene); E.19 (normative precision)
-> **Coordinates with:** E.17 (Viewpoints, Views, and Correspondences, when the prose is really about views, projections, or correspondences); C.3.3 (KindBridge, when the claim is about kind or classification transfer); A.6.6 (Identification and indexing, when the umbrella is really about IDs); Concept‑Set row scope rules; E.10 lexical SD (umbrella tokens); B.3 penalty conversion (if used)
+> **Builds on:** A.6.P for relational prose repair; F.17 for exact scheme-based SenseCells; F.18 for designation; F.9 for the direct Bridge relation, profile, bounded-use boundary, and card boundary; C.2.1 for claim and description identity; F.0.1, F.7, and F.8 for sense-family and downstream naming discipline; A.7 and A.6.6 for lane and identifier dispatch; E.19 for normative precision
+> **Coordinates with:** A.10 for evidence-provenance relations and local reliance dispositions; B.3 for assurance; E.17 for views and publication; C.3.3 for kind or classification transfer; A.2.6 for scope operations; A.6.3.RT for representation transition; A.22 for structure; A.2.1, F.6, and A.15.1 for role and Work claims
 
-Use this pattern for any document, table row, or boundary statement that asserts cross-context sameness, compatibility, alignment, mapping, or correspondence between SenseCells, or collapses A.7 lanes or `CHR:ReferencePlane`s under umbrella wording such as "same", "equivalent", or "aligned".
+Use this pattern when umbrella sameness wording could hide which exact local senses, designation, lane, identifier, scope operation, representation transition, structure relation, or proposed use is current. The trigger starts a dispatch; it does not oblige the author to assert a Bridge or complete a card.
 
-This pattern reuses `Bridge`, `BridgeKind`, `dir`, `CL`, `Loss`, and `scope`. A.6.9-specific bridge-card qualifiers such as `Γ_time` and `facetSpan` are annotation slots that make the bridge judgement reviewable; they do not alter the governed Bridge predicate and do not mint new relation kinds.
-
-When a bridge scope is broader than Naming-only, or when an edit broadens the scope or increases the declared `CL`, provide `witnessRefs` such as a review note, evaluation suite, decision excerpt, or other evidence named by the relying context.
+When the remaining question is semantic, recover the obtaining Bridge first. Then state the proposed use separately in ordinary language: what someone will do, in which direction, by which correspondence rule, and how much semantic loss that use tolerates. Give that C.2.1 claim affirmative or negative polarity. F.9, A.10, and B.3 supply the exact follow-through; A.6.9 teaches the reader how to recover it from ambiguous prose.
 
 ### A.6.9:1 - Problem frame
 
-Cross‑Context prose routinely uses umbrella predicates (“same”, “equivalent”, “align”, “map”, “matches”, “corresponds”) to compress a multi‑dimensional claim into a single adjective.
+Cross-context prose routinely compresses a multi-part claim into one adjective: *same*, *equivalent*, *align*, *map*, *matches*, or *corresponds*.
 
-In FPF terms, this is almost never a single claim. It is a *Bridge situation* that typically contains, at minimum:
+First decide whether this is a Bridge situation at all. A positive F.9 case has two exact F.17 `SchemeSenseCell` endpoints whose `<ReferenceScheme, LocalSenseClaim>` projections differ, plus an applicable relation-semantic profile whose predicate is true for those cells. A label, id, system, mapping implementation, selected structure, card, or publication cannot substitute for those objects.
 
-* two (or more) **Contexts** (`U.BoundedContext`; each with its own idiom);
-* a potentially hidden **direction** (A→B is not B→A);
-* a hidden **degree of fit** (≈ vs ⊑/⊒ vs ⋂ vs ⊥, or interpretation‑only);
-* near‑inevitable **loss/distortion** on transfer;
-* a (usually implicit) **edition or time-slice basis** for both endpoints and the correspondence judgement (`Γ_time`);
-* a usually implicit **facet span** (`facetSpan`; “which aspects are being aligned?”) — the correspondence is often a *partial lens*, not whole‑cell sameness;
-* a critical ambiguity between **lexical synonymy or translation** (“same word or label”), **shared EntityOfConcern reference** (“same EntityOfConcern under different IDs”), and **value‑level normalization** (“equivalent after φ-normalization or unit conversion”).
-* a critical ambiguity between **explaining** a correspondence and **licensing substitution**.
+If a Bridge obtains, several questions still remain independent:
 
-A.6.9 is the RPR specialisation that makes this structure explicit and prevents accidental “global identity” claims when the author’s intent is merely naming convenience or interpretive help.
+* what concrete comparison, substitution, translation, explanation, publication, or other use is proposed;
+* the direction of that use;
+* the use-specific correspondence rule;
+* the semantic-loss tolerance for that use;
+* whether the C.2.1 claim about that use is affirmative or negative;
+* whether current A.10 evidence or B.3 assurance supports relying on that claim;
+* whether separate authorization is required; and
+* whether any Work, assertion, publication, relation, operation application, or other receiving object actually occurred.
+
+A.6.9 makes that dispatch visible. It prevents an explanation, mapping witness, score, or polished card from becoming global identity, authorization, or proof of performance.
 
 ### A.6.9:2 - Problem
 
-When an umbrella predicate is used as if it were a single relation, readers (and downstream editors) silently choose defaults:
+When an umbrella predicate is used as if it were a complete answer, readers silently choose defaults:
 
-* **Symmetry hallucination:** “equivalent” is read as symmetric even when the intended relation is ⊑/⊒ (directional).
-* **Scope creep:** “align/map” is read as substitution‑eligible, leaking into Role Assignment & Enactment or Concept‑Set row scopes.
-* **Loss erasure:** “same” implies lossless transfer even when units, granularity, preconditions, or stance differ.
-* **License confusion:** “explain X using Y” is mistaken for “Y can stand in for X”.
-* **Implicit inversion:** later prose uses the inverse direction without an explicit redeclaration, breaking the “no silent inversion” rule.
+* **Symmetry hallucination:** “equivalent” is read as symmetric even when the intended relation is narrower or broader.
+* **Relation-to-use jump:** a true correspondence is treated as sufficient for the requested comparison or substitution.
+* **Loss erasure:** “same” implies lossless transfer although units, granularity, preconditions, or stance differ.
+* **Permission confusion:** “A is suitable for this comparison” is read as permission or authorization to perform it.
+* **Implicit inversion:** relation symmetry is treated as two safe use directions, or endpoint order is mistaken for the safe inclusion direction.
+* **Occurrence smuggling:** a named “publication use” or “mapping use” is treated as an actual publication or mapping operation.
+* **Temporal incoherence:** an unpinned claim silently combines different glossary, schema, code-list, ontology, or model editions.
 
-The result is not merely imprecise wording: it changes what inferences are considered safe, and it pollutes Concept‑Set row scopes via unnoticed weakest‑link violations.
-
-It also breaks **temporal coherence**: if the underlying canons (glossaries, schemas, code lists, ontologies) evolve, an un‑pinned “equivalent” claim silently becomes a claim about *two different editions at once*.
+These are ontology and inference defects, not merely word-choice defects.
 
 ### A.6.9:3 - Forces
 
-| Force                      | Pull                                            | Push                                                                      |
-| -------------------------- | ----------------------------------------------- | ------------------------------------------------------------------------- |
-| Brevity                    | One word (“same”) is fast.                      | Fast words hide multi‑slot claims and create accidental licences.         |
-| Practical interoperability | Teams want one label across publications, records, and carriers.        | Shared labels are not structural sameness; they require scope discipline. |
-| Direction sensitivity      | Many correspondences are one‑way.               | Natural language defaults to symmetry (“equivalent”).                     |
-| Partial overlap is common  | Real systems rarely coincide perfectly.         | “Same” collapses overlap vs inclusion vs disjointness.                    |
-| Evidence evolves           | Fit changes as counter‑examples are discovered. | Without change classes, people “re‑align” without recording what changed. |
-| Version drift              | Canons/models are versioned and revised.        | Without `Γ_time` pinning, “equivalent” becomes temporally incoherent.     |
-| Safety of reuse            | Substitution can reduce work.                   | Substitution without explicit `CL`/Loss is a latent defect.               |
+| Force | Pull | Push |
+| --- | --- | --- |
+| Brevity | One word such as “same” is fast. | It hides the object, action, direction, rule, tolerance, and stop. |
+| Practical interoperability | Teams want shared labels and reusable mappings. | Shared labels and running code are not semantic identity or proof of a safe use. |
+| Relation versus use | One semantic relation can remain fixed. | Different uses of it can have opposite polarity or different evidence. |
+| Direction | A relation may be symmetric or oriented. | Every proposed use still has its own source-to-receiving direction. |
+| Evidence evolves | Counterexamples and warrants change. | Evidence change should reopen reliance without silently reidentifying the Bridge. |
+| Version drift | Canons and models change by edition. | The relation profile needs an applicability and as-of basis. |
+| Practical safety | Cross-context reuse can save work. | Suitability, reliance, authorization, and actual performance must not collapse. |
 
 ### A.6.9:4 - Solution
 
-Treat every cross‑Context umbrella‑sameness statement as an **RPR trigger** that must be rewritten into an explicit **Bridge claim** (F.9) with declared attributes.
+Treat an umbrella sameness sentence as a **dispatch trigger**, not as an automatic Bridge and not as a demand for a card. Recover the concrete subject and action first. Then choose the smallest truthful branch:
 
-This specialisation follows the A.6.P RPR envelope: it (i) defines a **trigger rule**, (ii) fixes the **stable lens** (Bridge Card), (iii) fixes a **minimal claim skeleton**, (iv) provides a **disambiguation guide**, and (v) standardises **change narration** for this class of ambiguity.
+1. **Ordinary designation inside one semantic context.** If both expressions resolve under the same `<ReferenceScheme, LocalSenseClaim>` projection and the current action needs only the governed designation, rewrite with that designation and stop. No F.9 Bridge is current.
+2. **Lane or reference-plane repair.** If the sentence confuses Object, Description, Carrier, or `CHR:ReferencePlane`, restore the exact kinds under A.7 or the governing plane rule.
+3. **Identification or indexing.** If the sentence means same id, key, code, or index target, use A.6.6. Identifier equality does not establish meaning correspondence.
+4. **Claim-scope operation.** Use A.2.6 `widen`, `narrow`, or `refit` inside one semantic context. A `translate` operation may consume an independently obtaining Bridge and a separate affirmative claim for that translation.
+5. **Representation transition.** Route an actual source-to-receiving representation change to A.6.3.RT. A Bridge neither performs the Work nor creates the transition.
+6. **Structure comparison or crossing.** Recover each exact A.22 structure and its organizing relations. A sense Bridge between names does not relate the structures by itself.
+7. **Cross-local semantic relation.** Resolve two exact F.17 cells, declare the F.9 relation-semantic profile, and cite a Bridge only when its predicate obtains.
+8. **Proposed use of an obtaining Bridge.** In a second sentence, name action `u`, direction `d`, use-specific rule `r`, tolerated loss `t`, and claim polarity under C.2.1. Recover A.10 or B.3 reliance for that same use.
+9. **Explanation or unresolved proposal.** Say plainly what remains unestablished. A candidate or negative card carries no positive occurrence reference.
+10. **Claim that the use happened.** Name the actual receiving object and open its direct governor; the use role inside the C.2.1 claim is not that object.
 
-#### A.6.9:4.0 - Trigger rule (normative)
+For A.6.9, **semantic context** is Plain shorthand for the bounded interpretation basis derived from one exact cell's `<ReferenceScheme, LocalSenseClaim>` projection. It is not a `U.BoundedContext`, entity, ref, project, scope, selected model-use structure, viewpoint, description, designator, or publication.
 
-An occurrence SHALL be treated as an A.6.9 trigger when **either** (i) `CtxA ≠ CtxB`, **or** (ii) the statement collapses **A.7 lanes** (`Object | Description | Carrier`) or `CHR:ReferencePlane`s under an umbrella sameness predicate, and the prose (or a table row comment) uses any of the following as if they were a single relation:
+#### A.6.9:4.0 - Trigger and endpoint recovery
 
-* **Umbrella predicates**: “same”, “identical”, “equivalent”, “align”, “map”, “match”, “correspond(s)”, and close variants.
-* **Reuse-intent shorthands** that often smuggle licences: "treat as", "reuse", "share", "unify", "canonical source", "synced", "normalized", "one-to-one", "same ID", "mirrors".
-* **Endpoint umbrellas** in the presence of a cross‑context sameness claim (e.g., “the system/service/model/table/class”) — this is simultaneously an endpoint‑identity problem and a Bridge problem.
+Open the dispatch when **same**, **identical**, **equivalent**, **align**, **map**, **match**, **correspond**, *treat as*, *reuse*, *share*, *unify*, *canonical source*, *synced*, *normalized*, *one-to-one*, *same ID*, or *mirrors* could hide the current object or action. Apply equivalent triggers in any language.
 
-**ID/reference caveat.** Tokens like “same ID”, “same key”, “one-to-one”, “synced”, or “mirrors” often denote an **identification or indexing** claim or an **operational mapping witness** rather than a sense-level correspondence. If an ID claim is being used as a proxy for meaning (“same ID ⇒ same sense or role”), split it into (i) an explicit identification or indexing claim (A.6.6) and (ii) any Bridge claim about meaning (this pattern). Keep code or ETL facts as `witnessRefs`; they do not determine `kind`, `CL`, `Loss`, or `scope` by themselves.
+Resolve the actual endpoints before choosing the semantic branch. Each candidate endpoint must be a `SenseCellAddressRef` resolving one exact F.17 `SchemeSenseCell`; a string, system, table, class name, file, context label, card, or id cannot stand in for it. If a token is metonymic — *the system*, *the model*, *the service*, *that table* — enumerate the plausible governed objects and recover the intended local expression and claim. If either endpoint remains unresolved, keep the sentence explanatory and return `unresolved SenseCell endpoint`.
 
-**Multilingual caveat.** In non‑English prose, treat local‑language equivalents of the umbrella tokens as the same trigger class (e.g., Russian “эквивалентно”, “соответствует”, “это одно и то же”).
+Pin the endpoint reference-scheme and local-sense-claim editions, or an exact as-of basis, when the correspondence can change with a canon or model edition. `Γ_time` may be used as a compact card label for that basis. It is not a participant. It contributes to profile identity only when it states the profile's exact applicability or as-of basis.
 
-**Lane-only or plane-only caveat.** If `CtxA = CtxB` and the trigger is solely a lane or plane collapse, repair lane and plane typing first (A.7 or declared `Φ_plane`). You MAY satisfy this pattern by re‑typing endpoints and adding an explicit non‑licensing marker; do not invent a Bridge unless you actually need an auditable cross‑Context licence record.
+Before testing a Bridge, check ontological strata. Kind or classification transfer remains with C.3.3; value normalization with the measurement owner; role assignment with A.2.1; performed-Work attribution with F.6; publication with E.17; representation transition with A.6.3.RT. F.9 can supply a semantic premise needed by one of those claims but cannot make that neighboring object obtain.
 
-When triggered, the author SHALL do exactly one of:
+#### A.6.9:4.1 - Stable lens: relation, use claim, reliance, and receiving object
 
-1. **Rewrite into an explicit Bridge** (BridgeId or inline Bridge Card) with the required slots (`kind`, `dir`, `CL`, `Loss`, and `scope` at minimum), or
-2. **Rewrite into an Explanation‑only form**: either declare an **Explanation‑only Bridge** (`scope=Explanation‑only`) or keep the statement as Plain explanatory prose with an explicit **non‑licensing marker** (“no Bridge licence; do not substitute; do not justify rows”). In either form, it MUST NOT be used to justify Concept‑Set rows, cross‑Context reuse, or substitution.
+Keep these objects distinct:
 
-The repair has three moves:
+1. **Bridge occurrence.** The direct relation has exactly two F.17 cell participants and obtains under one exact F.9 profile.
+2. **BridgePredicateProfile.** It contains only Bridge kind, kind-defined symmetry or orientation, endpoint-sense readings, relation-specific correspondence or difference condition, applicability and as-of basis, Boolean truth condition, and stop dependencies.
+3. **Bounded-use claim.** An ordinary C.2.1 claim says whether the exact obtaining Bridge is suitable for `<u,d,r,t>`. Its EntityOfConcern is the Bridge; its ClaimGraph designates the use, direction, rule, tolerance, and polarity; its effective scheme interprets them.
+4. **Optional Bridge Card.** It packages claims and evidence when durable reuse pays. It neither creates the relation nor grants the use.
+5. **Separately governed receiving object.** If the use happened, its Work, assertion, publication, direct relation, operation application, or other object keeps its own participants, obtaining or performance condition, and identity.
 
-**Terminology discipline (Tech register).**
-* In this spec, **Context** means `U.BoundedContext` (E.10.D1 and D.CTX).
-* Use **lane** for the A.7 split (**Object | Description | Carrier**).
-* **CHR:ReferencePlane** is reserved for world, concept, and episteme crossings; do **not** use it as a synonym for lane.
-
-0. **Resolve endpoints as SenseCells (and pin editions where relevant).** If the prose wording uses pronominal/metonymic bundles (“the system”, “the model”, “it”, “this class”, “that table”, “the service”), treat this as an endpoint‑identity problem first: enumerate candidates and select the intended `σ@Ctx` endpoints (Candidate‑Set Note, A.6.P:4.0b). Also check **lane** and **stance/time tags**: ensure each candidate sits on the intended A.7 lane (**Object | Description | Carrier**) and record any time-stance tags on the relevant carriers or source publications (e.g., `DesignRunTag = design | run`) that affect substitution safety. Do not treat `DesignRunTag` as a separate Context; it is a time tag on carriers, source publications, or source epistemes as applicable. If the only crossing is design↔run, express it as an Interpretation Bridge (`kind=⇄ᴅʀ`, `scope=Explanation‑only`) unless you have a separately justified substitution Bridge within a fixed lane. If the triggering token is an identifier/key/code, repair it as a Carrier‑lane identification/indexing claim first (A.6.6), and only then decide whether there is also a sense‑level Bridge claim. If the ambiguity is actually a **CHR:ReferencePlane** mix (e.g., “a database column” vs “a real‑world attribute”), treat that as a ReferencePlane issue: restate endpoints on a single `CHR:ReferencePlane`, or handle the crossing through a declared `Φ_plane` policy before attempting any substitution licence. In decision/publication lanes, endpoint ambiguity is fail‑closed: if the intended endpoints cannot be resolved from local cues and `witnessRefs`, keep the sentence as Plain explanatory prose (or an Explanation‑only Bridge) and do not use it to justify cross‑Context reuse, Concept‑Set rows, or substitution.
-   * **Modularity note:** if the endpoint token itself is a known umbrella term (e.g., “service”), apply the relevant endpoint‑disambiguation RPR first (e.g., A.6.8 for “service”), then return here for the cross‑context sameness predicate.
-   * **View and projection note:** if the prose is primarily about **views, projections, or correspondences** rather than sameness licences, coordinate with E.17 (multi‑view describing). You may still need a Bridge for naming or substitution licences, but do not let “is a view of” silently become “is the same as”.
-   * **Edition and canon pinning (Γ_time).** If either endpoint’s meaning is fixed by a versioned canon (glossary, schema, code list, ontology, model release), record the specific editions (or “as‑of” date) used to make the correspondence judgement, and carry that as `Γ_time` on the Bridge Card. If you cannot state `Γ_time` in decision or publication lanes, fail‑closed: keep the prose Explanation‑only and do not justify rows or substitution.
-   * **Ontology category sanity (Kinds vs instances vs values).** Before declaring `kind`, `dir`, `CL`, or `scope`, check that the endpoints live at compatible ontological strata, for example *Kind or classification* versus *instance* versus *measurement value*. If the “equivalence” is really a kind or classification transfer, coordinate with **C.3.3 KindBridge**; if it is a value-normalization claim, treat it as a Measurement-family bridge and make the normalization channel explicit in `Loss`, with `witnessRefs` when current.
-
-1. **Replace the umbrella predicate with a Bridge reference** (or an inline Bridge Card).
-2. **Choose the Bridge’s kind, direction, licence scope, `CL`, and Loss notes explicitly**, instead of letting readers infer them.
-3. **Separate “interpretation” from “licence”** by using the Bridge scope rules: Explanation‑only vs Naming‑only vs Substitution‑eligible.
-
-This is a pattern specialisation of A.6.P: it provides the stable lens, claim skeleton, change‑class lexicon, and a disambiguation guide tailored to cross‑Context “sameness”.
-
-#### A.6.9:4.1 - Stable lens
-
-**Stable lens (QRR):** the **Bridge Card** (F.9) used as a qualified relation record for cross‑Context sameness claims.
-
-A conforming cross‑Context claim is expressed as a Bridge declaration:
-
-```
-⊢ Bridge(σA@CtxA, σB@CtxB) : ⟨senseFamily, kind, dir, CL, Loss, scope⟩
+```text
+Bridge(SourceSenseCell, ReceivingSenseCell; BridgePredicateProfile)
 ```
 
-**A.6.9 qualifiers (pattern‑level; Bridge‑Card annotations).** A.6.9 additionally requires:
-* `Γ_time` — edition/as‑of basis for the correspondence judgement (MUST in decision/publication lanes),
-* `facetSpan` — the facet‑preservation span when the correspondence is not whole‑cell.
-These live on the Bridge Card as qualifiers; they do **not** change the kernel Bridge predicate signature.
+Use that notation only after the F.9 predicate passes. For a proposal, write `candidate Bridge(...)` or use a candidate card with no positive occurrence reference.
 
-This record is a **conceptual judgement and licensed‑use record** (a thought‑format), not an ETL pipeline, API guarantee, or a “mapping implementation”. Operational mapping witnesses (aligner models, lookup tables, transformation code) belong in `witnessRefs` and do not erase `Loss` or relax `scope` by themselves.
-
-**Non‑inheritance note.** A Bridge relates two local senses; it does **not** make `CtxA` a sub‑Context of `CtxB` (or vice versa), and it does not create “global identity” between Contexts.
-
-**Kernel restraint reminder.** Bridges translate between local senses; they do **not** justify admitting a new U-kind by sameness. If the desired outcome is a new shared kind, apply the U-kind admission discipline through E.24.UK and A.11, and keep Bridges as translators.
-
-**Direction note (avoid a common misread).** `dir = A↔B` expresses *symmetry of the correspondence* (e.g., for `kind∈{≈,⋂,⊥}` or for `kind=⇄ᴅʀ`), not “two substitution licences for free”. **Role Assignment & Enactment substitution is always directional** and must be stated as such (A→B). `scope=Type‑structure` is structural reuse, not substitution.
-
-**Memory hook:** if the Bridge Card does not fit on one screen, you are describing the Contexts, not the Bridge.
+Changing `u`, `d`, `r`, or `t` changes the bounded-use claim, not the Bridge. Changing evidence, an A.10 relation or local `RelianceDisposition`, or a B.3 claim, record, or disposition reopens reliance without reidentifying either fixed object. A changed endpoint or relation-semantic profile identifies another Bridge candidate.
 
 #### A.6.9:4.2 - Explicit claim skeleton
 
-A.6.9 fixes the minimal slot set that must be made explicit whenever a cross‑Context, cross-lane, or cross-plane “same/equivalent/align/map/…” assertion appears.
-| Slot                 |               Required | Meaning and constraints                                                                                                                  |
-| -------------------- | ---------------------: | -------------------------------------------------------------------------------------------------------------------------------------- |
-| `BridgeId`           |          Yes (if cited) | Required whenever the Bridge is referenced from multiple places, used to justify row scope, or used as a licence in decision or publication lanes. Inline cards MAY omit an id for a single-use didactic gloss. **When present, the id is a registry reference** (per the F.9 registry-reference note): check existence and edition pinning, not signature export. |
-| `σA@CtxA`, `σB@CtxB` |                    Yes | Endpoints are **SenseCells** (not strings, not “the systems”).                                                                         |
-| `senseFamily`        |                    Yes | Use a named family (F.9). For substitution-capable Bridges, this MUST be a single family (Role, Status, Measurement, Type-structure, ...). If the correspondence crosses families, use an **Interpretation** kind (`⇄ᴅʀ`, `→ᴍᴇᵃ`, or `→ᴅᵉᵒ`) and record the channel explicitly, for example `Method ⇄ᴅʀ Execution`, `Measurement →ᴍᴇᵃ Requirement or Clause`, or `Deontic →ᴅᵉᵒ Execution`, keeping `scope=Explanation-only`. |
-| `kind`               |                    Yes | One of the F.9 kinds: `≈ / ⊑ / ⊒ / ⋂ / ⊥ / ⇄ᴅʀ / →ᴍᴇᵃ / →ᴅᵉᵒ`. Use `⊑/⊒` only for defensible inclusion. If you can name a counter‑case that violates inclusion for these endpoints, you do **not** have `⊑/⊒` — use `⋂` or refine endpoints (SenseCell split). |
-| `dir`                |                    Yes | Always explicit (F.9). Use `A→B` for any **substitution** claim (Role Assignment & Enactment‑eligible), even when `kind=≈`. Use `A↔B` only to express a symmetric correspondence (or Type‑structure reuse); it does **not** imply bidirectional substitution. **No implicit inversion.** **Inclusion sanity:** when `kind∈{⊑,⊒}`, ensure `dir` matches the intended safe reading (substitution, when allowed, goes **from narrower to broader**); if needed, swap endpoints or declare the inverse Bridge explicitly rather than relying on prose. |
-| `Γ_time`             | Yes in decision or publication lanes; otherwise Should | **Edition or time-slice basis** for the Bridge judgement. Pin or reference the editions of the canons that fix the endpoints’ meanings: glossary, schema, code list, ontology, or model release. Alternatively, state an “as-of” date for both sides. If endpoint notation already pins editions unambiguously, you MAY set `Γ_time = =endpointPins`. If the correspondence is intentionally *rolling*, say so explicitly and attach an update policy plus witnesses; rolling claims MUST NOT justify substitution unless a specific edition pair is pinned for the decision being justified. |
-| `CL`                 |                    Yes | Integer `0–3` with label (`0 Opposed`, `1 Comparable`, `2 Translatable`, `3 Near‑identity`) and a one‑line “why”. For `CL=3`, the “why” MUST cite matched invariants (see below). |
-| `Loss`               |                    Yes | **Non‑empty Loss Notes** stating what fails to carry (units, scope, granularity, preconditions, stance). `Loss: none` is permitted **only** when `CL=3` and matched invariants are cited; for `kind=⊥`, use `Loss: n/a (incompatibility claim)` (F.9). |
-| `facetSpan`          | Yes (if not whole-cell); otherwise May | The **facet span** of the correspondence: what is being aligned or preserved, for example `{label}`, `{identifier semantics}`, `{membership}`, `{value after unit normalization}`, `{role qualifiers}`, or `{status lattice}`. If the bridge is facet-limited, either (a) refine endpoints into facet SenseCells (preferred), or (b) declare `facetSpan` explicitly and keep `scope` capped appropriately. |
-| `counterExample`     |           Yes (if CL≤2) | The crispest case where the next higher-licence reading would mislead (substitution, row scope, or type reuse). For `CL=3`, state “no known counterexamples under invariants” (and cite the invariant set). |
-| `invariants`         |           Yes (if CL=3) | A short list of the invariants that justify `CL=3` (domain + measurement + stance constraints as applicable), with pointers (`witnessRefs`) to where they are checked or argued. |
-| `scope`              |                    Yes | Allowed use (F.9): `Explanation-only`, `Naming-only`, `Role Assignment & Enactment-eligible`, or `Type-structure`. This is a **maximum licence** for how the Bridge may be used in reasoning and tables. Do not confuse it with **Claim scope (G)** from USM (A.2.6), and do not encode “sometimes substitution” by mixing scopes: narrow endpoints instead. |
-| `witnessRefs`        | Should (MUST in decision/publication lanes for any Bridge used beyond Explanation‑only) | Evidence carriers or witness set (rules, tests, audits, empirical evaluations, review notes, alignment reports). `witnessRefs` are how readers distinguish “declared” from “demonstrated”. |
-| `didacticHook`       |                    May | A single sentence that teaches the safe reading.                                                                                       |
+| Item | When required | Meaning and stop |
+| --- | ---: | --- |
+| `SourceSenseCellRef`, `ReceivingSenseCellRef` | every Bridge candidate | Exact F.17 addresses; unresolved endpoints stop the semantic branch. |
+| semantic-context projections | every Bridge candidate | Derived `<ReferenceScheme, LocalSenseClaim>` pairs; they must differ for F.9. |
+| `BridgePredicateProfile` | every Bridge candidate | Exact by-value relation semantics only; a label or id is insufficient. |
+| `BridgeKind` and relation orientation | profile and readable explanation | What semantic correspondence or difference is claimed; not a use licence. |
+| applicability / `Γ_time`, truth condition, dependencies | profile | When and how the direct predicate is tested; missing dependencies stop without inventing an occurrence. |
+| action `u` | every proposed use | What the reader proposes to compare, substitute, translate, publish, or otherwise do. |
+| direction `d` | every proposed use | Exact use-source to use-receiving order; relation symmetry supplies no direction by implication. |
+| rule `r` | every proposed use | The correspondence rule the action will follow. |
+| tolerance `t` | every proposed use | Which semantic loss is acceptable for this action; observed loss remains evidence. |
+| polarity and effective ReferenceScheme | every bounded-use claim | Whether the claim is affirmative or negative and how its designations are interpreted. |
+| A.10 or B.3 branch | when someone will rely on the claim | The exact evidence-provenance relation plus local disposition, or the B.3 claim or explicit disposition selected by its trigger. |
+| authorization claim | only when permission is required | Separate policy or deontic governor; semantic suitability and assurance are insufficient. |
+| receiving-object ref | only when the use is said to have happened | Exact Work, assertion, publication, relation, application, or other object under its owner. |
+| `ClaimMode` and card EntityOfConcern | only when a card pays | Actual card concerns the obtaining Bridge; candidate or negative card concerns the admitted F.9 Bridge relation kind and carries proposed endpoints and profile in its ClaimGraph. |
 
-**Hard separation:** “shared label” is `Naming‑only`; “can replace in decisions/enactment” is `Role Assignment & Enactment‑eligible` and requires the substitution conditions; “can be treated as the same class/type for structural inference” is `Type‑structure` and requires near‑identity under invariants.
+Only the two endpoint cells fill the direct relation's participant slots. Use content is ClaimGraph content, not another relation participant or profile component.
 
-**Two “scopes” warning.** `scope` is a **licence scope** (how the Bridge may be used). The *facet span* of the correspondence (“which aspects are aligned?”) MUST be carried either by endpoint refinement (preferred) or by an explicit `span` + consistent `Loss`. Do not overload `scope` to mean facet span.
-**Naming note.** Use `facetSpan` for facet limitation to avoid confusion with other “span” operators/vocabulary elsewhere in the spec.
+#### A.6.9:4.3 - Judgement and change
 
-**Kind/scope admissibility (concept‑level; non‑deontic).**
+Choose the least-committing truthful Bridge kind: `Equivalence`, `Narrower-than`, `Broader-than`, `Partial-overlap`, `Disjoint`, or one declared cross-family relation kind. The kind settles relation semantics only.
 
-The following constraints are stated as *admissibility conditions* (E.19): they define when a Bridge Card is well‑formed for a claimed licence.
+Then judge the proposed use:
 
-* **INV‑XCTX‑KS‑0 (Kind/CL sanity).** If `kind=⊥`, then `CL=0`. If `CL=3`, then `kind=≈` and `invariants` are stated.
-* **INV‑XCTX‑KS‑1 (Overlap caps scope).** If `kind=⋂`, then `scope ∈ {Explanation‑only, Naming‑only}`.
-* **INV‑XCTX‑KS‑2 (Disjoint embargo).** If `kind=⊥`, then `scope = Explanation‑only`, and the Bridge cannot support Concept‑Set rows or substitution (F.9:13.4).
-* **INV‑XCTX‑KS‑3 (Interpretation embargo).** If `kind∈{⇄ᴅʀ, →ᴍᴇᵃ, →ᴅᵉᵒ}`, then `scope = Explanation‑only`, and the Bridge cannot support Concept‑Set rows or substitution (F.9:13.5).
-* **INV‑XCTX‑KS‑4 (Role Assignment & Enactment substitution).** If `scope = Role Assignment & Enactment‑eligible`, then `kind∈{≈,⊑,⊒}`, `dir = A→B`, `CL≥2`, the Bridge is senseFamily‑preserving, endpoints are stance‑compatible, Loss notes are non‑empty, and a counter‑example is stated (F.9:13.2, F.9:13.8, F.9:16.1).
-* **INV‑XCTX‑KS‑5 (Type‑structure reuse).** If `scope = Type‑structure`, then `senseFamily = Type‑structure`, `kind=≈`, `dir=A↔B`, `CL=3`, and matched invariants are stated (Type‑structure is only supported by near‑identity; see F.9:6.1 and F.9:16.1).
-* **INV‑XCTX‑KS‑6 (Inclusion honesty).** `kind∈{⊑,⊒}` implies: the Bridge does not cite any membership counter‑case that violates inclusion for the stated endpoints. If such a counter‑case exists, then (for these endpoints) `kind=⋂`, or the endpoints are refined (SenseCell split) before any inclusion kind is stated.
+* `Partial-overlap` can support an affirmative label-use claim when its exact rule preserves the named differences; the Bridge does not grant that use automatically.
+* `Disjoint` can support a contrastive explanation; a proposed substitution receives negative polarity.
+* `Equivalence` is symmetric, but `A -> B` and `B -> A` are different use claims.
+* `Narrower-than` and `Broader-than` orient the semantic relation. Narrower-to-broader is usually easier to warrant, but every use direction still needs its own rule, tolerance, polarity, and reliance.
+* A broader-to-narrower proposal normally requires refined cells and a separately tested Bridge. Another profile over the same broad endpoints cannot make an unsafe use safe by declaration.
+* Type-structure reuse requires a separate claim naming the structural rule and loss tolerance. Matched invariants can support that claim; no `CL` number grants it.
 
-**No “conditional scope” in one Bridge.** Authors SHALL NOT encode two licences in one Bridge (e.g., “Naming‑only generally; substitution in workflow X”). Instead, refine endpoints into the guarded subset SenseCells (SenseCell split) and declare a **separate** Bridge for the refined endpoints (new id or new edition), keeping the broad Bridge at the narrower scope.
+`CL` may remain optional evidence shorthand: `0` contradicted, `1` weakly comparable, `2` bounded support with counterexamples, `3` matched stated invariants with no current material counterexample. It is neither profile identity nor a suitability threshold.
 
-#### A.6.9:4.3 - Change‑class lexicon
+Narrate changes by the object that changed:
 
-A.6.9 forbids “re-align”, “re-map”, or “now equivalent” as a change description. Changes are narrated using the **A.6.P change classes**; the Bridge-specific verbs below are narrative shorthands that map to A.6.P:4.4 (`declareRelation`, `withdrawRelation`, `retargetParticipant`, `reviseByValue`, `rescope`, `retime`, `refreshWitnesses`).
-Authors SHALL NOT use umbrella verbs (“re‑align”, “re‑map”, “now equivalent”, …) as change narration. Narrate changes using the change‑class lexicon below (mapped to A.6.P:4.4).
+1. `retargetEndpoint` for another source or receiving cell;
+2. `replaceBridgeProfile` for changed relation-semantic content;
+3. `reviseBoundedUseClaim` for changed `u`, `d`, `r`, `t`, effective scheme, or polarity;
+4. `retestObtaining` for changed endpoint facts or dependencies under the fixed profile;
+5. `reopenReliance` for changed evidence, currentness, A.10 relation or disposition, or B.3 claim, record, or disposition;
+6. `reviseBridgeCard` for changed package content;
+7. `publishBridgeCardEdition` for a publication occurrence; and
+8. `recoverReceivingObject` when the use is claimed to have happened.
 
-1. `declareBridge(BridgeId, σA@CtxA, σB@CtxB, …slots…)`
-2. `withdrawBridge(BridgeId)`
-3. `retargetEndpoint(BridgeId, σA→σA', σB→σB')` (edition pinning or SenseCell split/merge)
-4. `retime(BridgeId, Γ_time→Γ_time')` (maps to A.6.P `retime(newΓ_time)`; semantic; edition‑fenced in decision/publication lanes)
-5. `changeBridgeKind(BridgeId, kind→kind')` (maps to A.6.P `changeRelationKind`)
-6. `adjustCL(BridgeId, CL→CL')` (raise/lower, with at least one new invariant or counter‑example)
-7. `rescope(BridgeId, scope→scope')` (Naming-only → Role Assignment & Enactment-eligible or Type-structure is a strengthening; requires DRR and MUST be unconditional for the same endpoints)
-8. `reviseLossNotes(BridgeId, Loss→Loss')`
-9. `reviseFacetSpan(BridgeId, facetSpan→facetSpan')` (maps to A.6.P `reviseByValue`; semantic; edition‑fenced in decision/publication lanes)
-10. `refreshWitnesses(BridgeId, witnessRefs→witnessRefs')` (adding one witness is a special case: set‑union + re‑publish)
+An inverse asymmetric relation and any direct A-to-C relation require their own profiles and tests. Two chained Bridges do not entail a third.
 
-**Edition fence (decision/publication lanes).** Any semantic edit to a Bridge’s slots (endpoints, kind, dir, CL, scope, invariants) SHALL be published as a **new Bridge edition** (with an explicit supersedes/withdraws note) rather than rewriting a prior edition in place. This preserves auditability and prevents “silent strengthening” through edits.
+#### A.6.9:4.4 - Lexical guardrails
 
-Semantic edits include changes to `Γ_time` or declared `facetSpan` (because they change what editions/aspects the correspondence judgement is about).
+In normative or decision-carrying prose, replace the umbrella word with a sentence that exposes the action and stop:
 
-**Guard-scoped licence increase is not a plain `rescope`.** If the higher licence holds only after filtering or guards (e.g., “human users only”), represent that by **refining endpoints** (SenseCell split) and declaring a Bridge for the refined endpoints (new id or new edition), rather than upgrading the broad Bridge’s scope.
+| Intended meaning | Plain action | Exact follow-through |
+| --- | --- | --- |
+| ordinary same-context designation | “Both expressions designate this local sense.” | Cite the common projection and naming owner; no Bridge. |
+| interpretation | “Use A to explain B; do not substitute it.” | Test the cross-family Bridge; state a separate affirmative explanation-use claim and its nearest non-use. |
+| naming convenience | “Use the label ‘actor’ in this comparison; keep account and customer eligibility distinct.” | Obtaining Bridge plus a C.2.1 claim naming direction, label rule, and zero tolerance for eligibility transfer. |
+| directional substitution | “For calculation X, read A as B by rule R within tolerance T; do not reverse it.” | Obtaining Bridge, affirmative claim for `<X,A->B,R,T>`, and current A.10 or B.3 reliance. |
+| type-structure reuse | “Reuse this subtype row only while invariants I remain true and loss stays within T.” | Obtaining Bridge plus a separately warranted structural-use claim. |
+| contrast | “These senses differ in this stated way; do not substitute them.” | Obtaining `Disjoint` or `Partial-overlap` Bridge plus negative substitution-use polarity. |
+| unresolved proposal | “The mapping is available, but the semantic relation is not established.” | Candidate card or plain stop naming the missing endpoint, predicate fact, or dependency. |
 
-**Direction inversion is not an edit.** If the inverse relation is needed, declare a *new* Bridge (new `BridgeId`) with its own `dir`, `kind`, `CL`, and Loss; optionally withdraw the prior one.
+Plain teaching prose may retain *same*, *align*, or *map* only when the local sentence also tells the reader what to do, what not to infer, and what result would reopen the claim.
 
-#### A.6.9:4.4 - Lexical guardrails and name selection
+#### A.6.9:4.5 - Disambiguation guide
 
-**Umbrella tokens (red‑flag triggers):** “same”, “identical”, “equivalent”, “align”, “map”, “match”, “correspond(s)”, and close variants.
+| Trigger | First question | Default route | Stop |
+| --- | --- | --- | --- |
+| “A is the same as B” | Same local sense or relation between distinct senses? | designation first; otherwise least-committing F.9 kind | no exact cells or predicate -> explanatory only |
+| “Align A and B” | Shared label, comparison, substitution, or structure use? | name the proposed action before selecting a Bridge | mapping score alone establishes neither relation nor use |
+| “Map A to B” | Semantic reading or operational transformation? | keep code or ETL as witness; test semantics separately | code direction is not use suitability |
+| “Same ID/key/one-to-one” | Identifier relation or meaning relation? | A.6.6 first | collision-free ids do not establish sense identity |
+| “B is a view/projection of A” | View membership, representation, or sense reuse? | E.17, C.29, or representation owner first | dropped constraints block stronger use claims |
+| “Equivalent” | What relation, action, direction, rule, and tolerance? | test overlap or inclusion before equivalence | symmetry alone grants no use |
 
-These are only in‑scope here when used as **cross‑Context predicates** (`CtxA ≠ CtxB`) or when the prose collapses **A.7 lanes** / `CHR:ReferencePlane`s under an umbrella sameness predicate. For that case:
-* In **Tech register** (normative or decision-carrying prose), authors SHALL NOT use umbrella tokens as standalone cross‑Context predicates. Use a Bridge reference and a licence-revealing verb instead (“share a label”, “substitutes for”, “explain in terms of”).
-* In **Plain didactic** or quoted older prose, umbrella tokens MAY appear, but only if the paragraph also includes an explicit Bridge reference (BridgeId or inline Bridge Card) so readers are not forced to infer `kind/dir/CL/Loss/scope`.
+#### A.6.9:4.6 - Mapping witnesses are not Bridges
 
-Instead, choose a phrase that reveals the intended licence:
+A lookup table, aligner model, transformation function, API, or ETL step is an implementation or evidence object. It may support the claim that a Bridge obtains or that one bounded use is suitable. It does not determine either claim by itself. Code may run `A -> B` while the semantic Bridge is symmetric, oriented the other way, or absent; and even an obtaining Bridge may be unsuitable for that operation's rule or tolerance.
 
-| Intended meaning                | Use this (canonical)                                                               | Avoid                                             |
-| ------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------- |
-| Interpretation only             | “Explain σB in terms of σA under an *Interpretation Bridge* (kind∈{⇄ᴅʀ,→ᴍᴇᵃ,→ᴅᵉᵒ}, scope=Explanation‑only).” | “σA is the same as σB.” |
-| Naming convenience              | “Share a label under a *Naming‑only* Bridge (scope=Naming‑only; kind∈{⋂,⊑,⊒} (and **≈ only when you state why substitution is still forbidden); CL≥1; Loss + counterexample).” | “σA corresponds to σB (so we can treat them as…)” |
-| Safe substitution (directional) | “Licence substitution A↠B under a *Substitution Bridge* (kind∈{≈,⊑,⊒}, dir A→B, CL≥2, same senseFamily + stance; Loss + counterexample; scope=Role Assignment & Enactment‑eligible).” | “σA and σB are equivalent.” |
-| Type‑structure reuse (strong)   | “Declare a *Type‑structure* Bridge (senseFamily=Type‑structure; kind=≈; dir A↔B; CL=3; invariants; scope=Type‑structure).” | “They are literally the same class everywhere.” |
-| Disjoint or contrast             | “Declare kind=⊥ with scope=Explanation-only (contrast only).”                       | “Almost the same” or “basically equivalent”        |
+Keep the witness in the A.10 evidence path or optional card. Test the F.9 predicate first, state the C.2.1 bounded-use claim second, and recover reliance third.
 
-**Name selection rule:** if the author wants “the same name”, choose *Naming‑only* and keep the verb “share a label”; if the author wants “can be substituted”, use *Substitution* and keep the verb “substitutes for” with explicit direction.
+#### A.6.9:4.7 - Coordination boundaries
 
-#### A.6.9:4.5 - RPR Disambiguation Guide (XCTX)
-
-Use this table when you encounter umbrella‑sameness wording.
-
-| Trigger in text                    | Candidate Bridges (default first)                                                                 | Discriminating questions or tests                                                                 | Canonical rewrite                                                                 | Routing hooks                                              |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| “A is the same as B” (CtxA ≠ CtxB) | Explanation‑only (interpretation) → Naming‑only (⋂/⊑/⊒/≈) → Substitution (≈/⊑/⊒, CL≥2)            | Is this a licence or a teaching gloss? What direction is safe? What is lost? What is the counter‑example? | `Bridge(σA@CtxA, σB@CtxB): ⟨kind=?, dir=?, CL=?, Loss=?, scope=?⟩`                | E (witness), D (naming), A (admissibility if substitution) |
-| “Align A and B”                    | Naming‑only with overlap (⋂)                                                                        | Do we only need a shared label, or do we need safe substitution/type reuse?                       | `Bridge(σA,σB): kind=⋂, dir=A↔B, CL=1, Loss + counterExample, scope=Naming‑only`   | D (labeling), E (counterexample)                           |
-| “Map A to B”                       | (i) semantic Bridge (this pattern) vs (ii) operational mapping witness (ETL, transform, or lookup)             | Is “map” about a thinking move (licence) or about code/execution? What is the substitution direction (if any) vs code direction? | `Bridge(σA,σB): dir A→B, kind chosen for that direction, Loss bullets + counterExample` | E (witness), A (if substitution proposed)                 |
-| “Same ID”, “same key”, or “1-to-1”      | Identification or indexing claim (A.6.6) ± semantic Bridge                                              | Is the claim about **Carrier-lane equality** (identifier scheme), or about **sense or meaning**? What is the reference scheme? Are collisions or aliases possible? | First: repair as an identification or indexing relation (A.6.6). Then, only if needed, declare a Bridge for meaning with explicit `kind`, `dir`, `CL`, `Loss`, and `scope`. | A.6.6 (Carrier), E (reference scheme), A.6.9 (meaning)     |
-| “B is a view or projection of A”      | Explanation‑only or Naming‑only by default; substitution only after explicit guards/refined endpoints | Is this a `U.View` statement, a correspondence statement (E.17), or a reuse licence? Does projection drop constraints, fields, or stance? | `Bridge(σA,σB): kind=⊑ (if A is narrower), dir A→B (if substitution is intended), Loss states dropped structure/constraints, scope capped unless proven` | E.17 (views), E (witness), A (if substitution proposed)   |
-| “A matches B” or “corresponds to”   | Naming-only overlap (⋂)                                                                             | Is it overlap (⋂) or inclusion (⊑ or ⊒)? What breaks under substitution?                              | `kind=⋂, scope=Naming-only, CL=1 (or CL=2 if translatable), Loss + counterExample` | D, E                                                       |
-| “Equivalent”                       | ≈ only under explicit invariants; otherwise overlap/inclusion                                       | Equivalent in what **senseFamily** and under what invariants? Any counter‑examples?               | Prefer `⋂ + Naming‑only`, or specify `≈` with invariants & CL                       | L (invariant claim), E                                     |
-
-Updates:
-
-* For “Align A and B”, default to `kind=⋂`, `scope=Naming‑only`, `dir=A↔B`, `CL=1`, with explicit Loss + counterexample. Use `kind=≈` only when you can state the equivalence criterion; invariants are mandatory for `CL=3` (and recommended whenever you use `≈`). Use `scope=Type‑structure` only when `kind=≈` and `CL=3` with matched invariants (INV‑XCTX‑KS‑5).
-* For “Map A to B”, first decide whether “map” denotes (i) a semantic Bridge claim (this pattern) or (ii) an operational transformation witness (ETL, id translation, schema mapping). If (ii), keep the witness in `witnessRefs` and still declare the Bridge `kind`, `dir`, and `Loss` separately; do not let “there exists a map” collapse into substitution.
-
-**Default safety rule (normative):** authors SHALL NOT assign `CL≥1` (nor claim Naming‑only or substitution) unless they can state `Loss` notes and (for `CL≤2`) a `counterExample`. Otherwise, keep the statement as Explanation‑only (didactic gloss) or postpone the cross‑Context claim until evidence exists.
-If the stable intent is **anti‑conflation** (“do not treat them as the same”), make that explicit as `kind=⊥` with `scope=Explanation‑only` (contrast), or—when the contrast is stable and repeatedly needed—publish a contrast row per the Concept‑Set discipline instead of relying on “not the same” prose.
-
-When endpoint meanings are versioned, the same rule applies to `Γ_time`: if you cannot state the edition/as‑of basis, keep the claim Explanation‑only and do not justify rows or substitution.
-
-#### A.6.9:4.6 - Mapping witnesses are not Bridges (normative clarification)
-
-Many projects use “map” to mean an implementation witness: a lookup table, aligner model, transformation function, or ETL step. A.6.9 treats those implementation witnesses as **witnesses**, not as semantics. The Bridge is where you record:
-
-* what correspondence is claimed (`kind`, `dir`, and `senseFamily`);
-* which `CL` value is declared, with invariants for `CL=3`;
-* what breaks (`Loss`, counterexample);
-* what it licenses (`scope`).
-
-**Direction reminder.** A transformation witness may be written `f:A→B` while the safe semantic substitution (if any) is `B↠A` (or none at all). Treat `dir` as the direction of the licensed **reading/substitution move**, not the direction of code execution.
-
-If the witness changes, narrate the update as `refreshWitness`, `reviseLossNotes`, or `adjustCL` (editioned), not as “re-mapped”.
-
-#### A.6.9:4.7 - Coordination notes (keep A.6.9 modular)
-
-* **Views, projections, and correspondences:** if the core intent is multi-view description (“this diagram is a view of that system”, “these views correspond”), apply **E.17** to the multi-view description claim and keep A.6.9 focused on preventing umbrella-token licence smuggling. A.6.9 may still be used to declare any naming or substitution licence between view elements, but it MUST NOT replace E.17’s correspondence discipline.
-* **Kinds and classifications:** if the cross-context claim is about **kind transfer** (“Class X in A is the same kind as Class Y in B” as a classification move), consider recording the classification channel using **C.3.3 KindBridge**. Do not conflate Bridge-CL with kind-mapping CL^k.
+- **Naming:** F.18 selects designations; F.17 publishes exact scheme-based cells and rows. Neither creates a Bridge.
+- **Evidence and assurance:** A.10 owns evidence provenance and local reliance; B.3 owns assurance claims, records, and explicit dispositions.
+- **Scopes:** A.2.6 owns `widen`, `narrow`, `refit`, and `translate`; translation consumes an obtaining Bridge only together with an affirmative claim for its exact direction, rule, and tolerance.
+- **Views, representations, and publications:** E.17, C.29, and A.6.3.RT own their objects and occurrences.
+- **Kinds and classifications:** C.3.3 owns classification transfer; F.9 supplies only local-sense correspondence needed by that use.
+- **Structures:** A.22 and direct relation owners identify structures and crossings. A sense Bridge cannot substitute for that architecture.
+- **Work and roles:** A.2.1, F.6, and A.15.1 own assignments and performed Work; a semantic relation or use claim has no enactment effect.
+- **Authorization:** the exact policy or deontic governor owns permission. Neither semantic suitability nor assurance grants it.
 
 ### A.6.9:5 - Archetypal Grounding
 
-#### A.6.9:5.1 - System archetype: identity “sameness” across products
+#### A.6.9:5.1 - System archetype: IAM User and CRM Customer
 
-**Tell (ambiguous):**
-“An IAM *User* is the same as a CRM *Customer*.”
+The ambiguous sentence is: “An IAM User is the same as a CRM Customer.”
 
-**Show A (Bridge Card repair):**
+Resolve exact endpoints:
 
-```
-BridgeId: β-IAM→CRM-UserCustomer (edition-pinned)
-Cells: “User”@IAM ↔ “Customer”@CRM
-senseFamily: Role
-kind: ⋂
-dir: IAM↔CRM
-CL: 2 (Translatable) — high overlap; service accounts and leads/prospects are counterexamples
-Loss:
-  - CRM “Customer” includes leads/prospects with no IAM account
-  - IAM “User” includes service accounts and disabled identities not treated as customers
-Counter-example: “svc-billing@” is a User@IAM but not a Customer@CRM
-scope: Naming-only
-Didactic hook: “Overlap only: share labels; do not substitute without guards/refinement.”
-```
+- `SenseCell(IAMRoleReferenceScheme-v3, User-human-or-service-account-role)`;
+- `SenseCell(CRMRoleReferenceScheme-v5, Customer-commercial-party-role)`.
 
-**Effect:** dashboards and prose may share labels (Naming‑only). Workflow substitution is *not* implied globally; it is gated by scope and guards.
+Current meanings share some human participants, while service accounts and prospects provide counterexamples. Profile `P-IAM-CRM-OVERLAP-v2` states only the symmetric `Partial-overlap` relation, exact endpoint readings, overlap and difference conditions, edition basis, truth condition, and required membership evidence. Those facts make Bridge `b-iam-crm` obtain.
 
-**Show B (change narration, later evidence):**
-After hard constraints are added (e.g., “human‑verified email”, “not a service account”), a team wants higher-licence reuse in the ticketing integration.
+Now state the use separately. Dashboard team proposes `u-actor-label`: render IAM users as “actors” in a CRM-oriented comparison. Direction `d-iam-crm` is IAM-to-CRM dashboard reading. Rule `r-actor` keeps account eligibility and customer eligibility visible as separate columns. Tolerance `t-actor` allows the shared label but no eligibility, assignment, workflow, or Work inference. A C.2.1 claim about `b-iam-crm` is affirmative for `<u-actor-label,d-iam-crm,r-actor,t-actor>`.
 
-*Do not write:* “Now they are equivalent” or “now the mapping is fixed.”
-*Write:*
+The exact A.10 evidence-provenance relation and `RelianceDisposition=pass` support that claim only for the named dashboard comparison. They do not authorize data processing, assign a role, or prove that a dashboard publication occurred. Reverse label reuse is another bounded-use claim even though the Bridge relation is symmetric.
 
-0. Keep the broad Bridge **as‑is** (Naming‑only, overlap): it remains the correct “shared label” relation for the unguarded endpoints.
-1. `refreshWitnesses(β-IAM→CRM-UserCustomer, witnessRefs→witnessRefs ∪ {TicketingIntegrationTestSuite_v3})`
-2. `declareBridge(β-IAM→CRM-HumanVerifiedUser→VerifiedCustomer, HumanVerifiedUser@IAM, VerifiedCustomer@CRM, …slots…)` (new Bridge id or new edition family)
-3. In that new Bridge: state `kind=⊑` (if inclusion is now true for the refined endpoints), `dir=IAM→CRM`, keep `CL=2`, restate Loss (remaining exclusions), and provide a crisp counter‑example for where substitution would still break.
-4. `rescope(β-IAM→CRM-HumanVerifiedUser→VerifiedCustomer, Naming‑only → Role Assignment & Enactment‑eligible)` with DRR explaining why `CL=2` suffices for the refined endpoints.
+An optional actual card may package the Bridge claim, this bounded-use claim, observed counterexamples, the A.10 path and disposition, currentness, and nearest non-use. Its EntityOfConcern is `b-iam-crm`; the card neither creates the relation nor performs the dashboard work.
 
-Direction remains IAM→CRM; if the inverse is required, declare a separate Bridge with its own loss/counterexamples.
+If a later workflow isolates `HumanVerifiedUser` and `VerifiedCustomer`, refine both cells and test another Bridge. A stronger use claim over the broad cells cannot repair a false or unsuitable predicate.
 
-#### A.6.9:5.2 - Episteme archetype: schema/ontology alignment between knowledge graphs (class-level)
+#### A.6.9:5.2 - Episteme archetype: Person in two knowledge-graph schemes
 
-**Tell (ambiguous):**
-“`Person` in KG‑A is equivalent to `Person` in KG‑B.”
+The sentence is: “Person in KG-A is equivalent to Person in KG-B.” The exact cells are `Person-including-fictional` under KG-A v4 and `Person-real-with-external-id` under KG-B v7. Sherlock Holmes and the external-id rule show `Partial-overlap`, not equivalence. The exact overlap Bridge obtains under the least-committing profile.
 
-**Show A (Bridge Card repair):**
-
-```
-BridgeId: β-KGA↔KGB-Person (edition-pinned)
-Cells: Person@KG-A ↔ Person@KG-B
-senseFamily: Type-structure
-kind: ⋂
-dir: A↔B
-CL: 2 (Translatable) — overlap is high but invariants differ
-Loss:
-  - KG-A “Person” includes fictional characters; KG-B excludes them
-  - KG-B requires a stable external identifier; KG-A does not
-Counter-example: “Sherlock Holmes” ∈ Person@KG-A but ∉ Person@KG-B
-scope: Naming-only
-Didactic hook: “Shared label does not grant type-structure or substitution; the sets only overlap until invariants and membership rules are aligned.”
-```
-
-**Show B (strengthening attempt and rejection):**
-A reviewer proposes Type‑structure reuse (“treat them as the same class across graphs”). Under A.6.9, this triggers a required invariant check:
-
-* Since Type‑structure reuse requires CL=3 and matched invariants, the proposal is rejected unless the invariants are aligned and the counterexample class is eliminated (e.g., by refining `Person@KG-A` into `FictionalPerson` vs `RealPerson`).
-* The correct change narrative is: `changeBridgeKind` (if kind changes), `adjustCL` only if the counterexample disappears and invariants are shown, else keep CL=2 and Naming‑only scope.
+Two proposed uses then receive separate claims. A glossary comparison that labels both rows “Person” while displaying the fiction and external-id differences can receive affirmative polarity with a warranted A.10 path. A type-structure merge receives negative polarity because its correspondence rule cannot preserve membership and its tolerance permits no such loss. Both claims concern the same Bridge; neither changes its identity. Refining KG-A into `RealPerson` and `FictionalPerson` changes an endpoint and opens a new Bridge test.
 
 ### A.6.9:6 - Bias-Annotation
 
 This pattern is biased toward:
 
-* **Explicitness over fluency.** It intentionally slows down prose that would otherwise smuggle licences.
-* **Safety in substitution.** It treats substitution as a high‑risk claim requiring declared direction, `CL`, and Loss notes.
-* **Locality of meaning.** It assumes meanings are Context‑local unless bridged explicitly; it rejects label‑driven identity.
-* **Ordinal confidence.** `CL` is treated as an ordinal safety ladder, not a probability; it is deliberately coarse.
+* **Explicit action over fluent ambiguity.** It slows only sentences that would otherwise hide what someone will do.
+* **Relation-use separation.** One Bridge can support several independently tested uses without becoming a licence.
+* **Locality of meaning.** Exact scheme and local-sense claims provide the interpretation basis without a reified context bearer.
+* **Evidence humility.** Scores, counterexamples, and invariants inform claims and reliance but do not manufacture relation truth or permission.
 
-Consequently, A.6.9 may feel “heavy” in early drafts, but it prevents latent cross‑Context defects that are costly to discover later.
+The dispatch stays cheap: same-context designation and direct-owner cases stop before F.9. The heavier path is reserved for a cross-local relation that a named use will actually consume.
 
 ### A.6.9:7 - Conformance Checklist
 
-A document or boundary statement conforms to A.6.9 iff:
+A repaired sentence or boundary statement conforms iff:
 
-* **CC‑A.6.9‑0 (UTS/LEX trigger coverage).** The local lexicon treats umbrella‑sameness tokens as RPR triggers and points authors to Bridge‑explicit rewrites.
-* **CC‑A.6.9‑1 (No standalone umbrella predicate).** Cross‑Context umbrella tokens SHALL NOT be used as standalone cross‑Context predicates unless either:
-  * (a) the paragraph includes an explicit Bridge reference (BridgeId or inline Bridge Card), or
-  * (b) the statement is explicitly marked as non‑licensing explanatory prose (“no Bridge licence; do not substitute; do not justify rows”).
-* **CC‑A.6.9‑2 (SenseCell endpoints).** Every such claim names endpoints as `σ@Context` (edition‑pinned where relevant), not as strings or system names.
-* **CC‑A.6.9‑3 (Direction explicitness).** `dir` is stated on every Bridge. If `kind` is non‑symmetric, any inverse use without redeclaration is non‑conformant.
-* **CC‑A.6.9‑4 (Licence separation).** If the intent is explanation only, authors SHALL either (a) declare `scope = Explanation‑only` on a Bridge, or (b) use explicit non‑licensing prose (no Bridge licence). If the intent is naming compatibility, authors SHALL declare a Bridge with `scope = Naming‑only`. In all cases, the text SHALL NOT invite substitution unless a substitution‑eligible Bridge exists.
-* **CC‑A.6.9‑5 (Substitution thresholds).** Any statement that implies substitution MUST be backed by a substitution‑eligible Bridge (`kind∈{≈,⊑,⊒}`, `CL≥2`, same `senseFamily`, stance‑compatible), with Loss notes and a counter‑example discipline.
-* **CC‑A.6.9‑6 (Weakest‑link respect).** Any Concept‑Set row or composed claim that depends on multiple Bridges MUST bound its scope and `CL` by the weakest participating Bridge.
-* **CC‑A.6.9‑7 (Loss visibility).** Loss notes are present and **non‑empty**. `Loss: none` is permitted only for `CL=3` with cited invariants; `Loss: n/a` is permitted for `kind=⊥`. Loss must be consistent with the allowed scope.
-* **CC‑A.6.9‑8 (Change narration).** Changes to cross‑Context fit are narrated using the change‑class lexicon (`declare`, `withdraw`, `adjustCL`, `rescope`, and related verbs) rather than umbrella verbs.
-* **CC‑A.6.9‑9 (Kind and scope admissibility).** Any Bridge used to justify cross‑Context sameness satisfies the admissibility constraints INV‑XCTX‑KS‑1 … INV‑XCTX‑KS‑5: no overlap-to-substitution, no disjoint or interpretation rows, substitution is directional, and Type-structure only under `≈` + `CL=3` + invariants.
-* **CC‑A.6.9‑10 (Registry reference hygiene).** If a BridgeId or policy or edition id is cited, it is treated as a **registry reference** (existence and edition pinning), not as a semantic symbol exported by signatures.
-* **CC‑A.6.9‑11 (Edition basis).** In decision or publication lanes, any Bridge used to justify Naming-only, substitution, or Type-structure SHALL state `Γ_time` (edition pins or “as-of” basis). If `Γ_time` cannot be stated, the claim MUST remain Explanation-only and MUST NOT justify rows or substitution.
-* **CC‑A.6.9‑12 (Facet honesty).** If the correspondence holds only on a subset of facets, the author SHALL either (a) refine endpoints into the facet SenseCells (preferred) or (b) declare `facetSpan` explicitly, with `Loss` consistent with that facet span. Whole‑cell Bridges MUST NOT be used to smuggle facet‑only correspondences.
+1. **Concrete action.** The reader can say what object, comparison, substitution, translation, publication, or other action is at issue.
+2. **Dispatch before Bridge.** Designation, lane, id, scope, representation, structure, role, and Work claims go to their direct owners first.
+3. **Exact endpoints.** Every Bridge candidate uses two F.17 cell addresses resolving exact values.
+4. **No context object.** Semantic context is derived from endpoint content and introduces no extra participant.
+5. **Direct Bridge truth.** A positive occurrence appears only after the exact profile applies, its predicate is true, and dependencies are present.
+6. **Profile boundary.** Profile identity contains relation semantics only, with no use, tolerance, polarity, reliance, authorization, or receiving object.
+7. **Separate use claim.** Every proposed use names `u`, `d`, `r`, `t`, polarity, and effective scheme in a C.2.1 claim about the exact Bridge.
+8. **Evidence honesty.** Observed loss and mapping witnesses stay in evidence; permitted loss stays in the bounded-use claim; `CL` grants nothing.
+9. **Reliance branch.** Current reliance follows A.10 or B.3 for the same use and does not become authorization.
+10. **Receiving-object boundary.** Any claim that the use happened recovers the actual object under its direct owner.
+11. **Card boundary.** Actual, candidate, and negative cards use the correct EntityOfConcern and never create a Bridge or receiving occurrence.
+12. **Change honesty.** Endpoint, profile, use claim, reliance, card, publication, and receiving-object changes remain distinct.
+13. **No inverse or composition.** An asymmetric inverse, opposite use direction, or direct A-to-C Bridge gets its own exact judgement.
+14. **Practical result.** The final sentence tells the reader what to do, what not to infer, and what condition would stop or reopen the result.
 
 ### A.6.9:8 - Common Anti-Patterns and How to Avoid Them
 
-| ID            | Anti‑pattern           | Example                                              | Why it breaks                                           | Remedy                                                               |
-| ------------- | ---------------------- | ---------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
-| **AP‑XCTX‑1** | Bridge‑by‑adjective    | “A is the same as B (across contexts).”              | Smuggles scope + direction + loss as implicit defaults. | Replace with Bridge Card + explicit `scope`.                         |
-| **AP‑XCTX‑3** | Stealth substitution   | “We’ll just treat A like B for now.”                 | Introduces implicit licence without CL and Loss gates.      | Publish Bridge Card; if CL<2, keep `Naming-only`.                    |
-| **AP‑XCTX‑2** | Symmetry hallucination | Treating `⊑/⊒` as symmetric “equivalence”.           | Causes unsafe inverse substitution.                     | Record `kind` and `dir`. Only symmetric kinds (`≈`, `⋂`, `⊥`, `⇄ᴅʀ`) may be written as `A↔B`; inclusion kinds require direction; substitution is always directional. |
-| **AP‑XCTX‑4** | Lossless fantasy       | “Equivalent” with no loss note.                      | Loss is almost always present; hiding it misleads decisions.       | State Loss notes (even if “none”), add a counter-example (CL≤2) or invariants (CL=3); adjust CL and scope accordingly. |
-| **AP‑XCTX‑5** | Silent inversion       | Later prose uses B→A without redeclaration.          | Violates direction guard; breaks auditability.          | Declare inverse Bridge (new id) or withdraw+replace.                 |
-| **AP‑XCTX‑6** | Confidence laundering  | Raising CL or scope without new invariants or evidence. | Inflates trust; expands row scopes illegitimately.      | Use `adjustCL` or `rescope` with witnessRefs and DRR.                     |
-| **AP‑XCTX‑7** | Chain upgrade          | Treating A↠B and B↠C as “therefore A≈C”.             | Violates weakest‑link and loss accumulation.            | Use min‑CL and accumulated Loss; avoid chaining unless justified.    |
-| **AP‑XCTX‑8** | Conditional scope smuggling | “Naming‑only generally; substitution in workflow X.” | Encodes two licences in one record; leaks into row scope and downstream reasoning. | Refine endpoints (SenseCell split) and declare a separate Bridge for the guarded subset; keep broad Bridge Naming‑only. |
-| **AP‑XCTX‑9** | Artefact⇒equivalence fallacy | “There is a mapping table, so they are the same.” | Confuses operational transformation with semantic licence; hides Loss and direction. | Record the witness in `witnessRefs`, keep Bridge `kind`, `dir`, and `Loss` explicit, and keep scope capped until CL plus counterexamples justify promotion. |
-| **AP‑XCTX‑10** | Two-way substitution by symmetry | “The Bridge is A↔B, so we can substitute both ways.” | `A↔B` expresses correspondence symmetry, not two substitution licences; substitution is directional and must be stated (F.9:13.2). | Declare both substitution directions explicitly, as two licences, two Bridges, or two editions, each with Loss plus counter-examples. |
-| **AP‑XCTX‑11** | Kind and direction mismatch | `kind=⊒` but `dir=A→B` is used as if it licensed substitution. | Inverts narrower and broader; encourages unsafe “narrowing substitution” and silent information loss. | Swap endpoints (so the intended safe direction is written as `A→B` with `kind=⊑`), or declare an explicit inverse Bridge; keep scope ≤ Naming-only until the direction is justified. |
-| **AP‑XCTX‑12** | Kernel promotion by Bridge | “Since A≈B, we can admit a unified global kind and treat both as instances.” | Bridges translate local senses; they do not admit new U-kinds. | If you need a new shared kind, follow E.24.UK and A.11; keep Bridges as translators between Context-local senses. |
-| **AP‑XCTX‑13** | Edition drift or timeless equivalence | “A is equivalent to B” with no edition or as-of basis. | Makes the claim temporally incoherent as canons evolve; readers silently compare different revisions. | Pin editions via `Γ_time`; publish Bridge edits as new editions; fail-closed to Explanation-only when `Γ_time` cannot be stated. |
-| **AP‑XCTX‑14** | Facet‑only alignment masquerading as whole‑cell sameness | “Customer corresponds to User” (but only `email` or an external ID aligns). | Collapses a partial lens into global sameness; invites unsafe substitution and row scope creep. | Refine endpoints to the facet SenseCells, or declare `facetSpan` explicitly and keep `scope` capped (usually Naming‑only). |
-| **AP‑XCTX‑15** | Lexical translation ⇒ semantic identity | “Term A is the same as term B” as a translation or synonym. | Confuses labels with referents; erases loss and context. | Use `scope=Naming-only` with explicit `Loss`, including language and canon notes, and a counter-example; do not imply substitution. |
+| ID | Anti-pattern | Failure | Repair |
+| --- | --- | --- | --- |
+| `AP-XCTX-1` | Bridge by adjective | *Same* or *aligned* hides relation and action. | Name the action; dispatch it; test F.9 only if semantic correspondence remains. |
+| `AP-XCTX-2` | Scheme difference becomes relation | Two schemes differ, so a Bridge is presumed. | Treat difference as a trigger only; establish the direct predicate. |
+| `AP-XCTX-3` | Profile as use licence | Direction, rule, or tolerated loss is embedded in profile identity. | Move it to the separate C.2.1 bounded-use claim. |
+| `AP-XCTX-4` | Bridge-alone substitution | An obtaining Bridge is cited as sufficient for a use. | Require the affirmative bounded-use claim and current A.10 or B.3 reliance. |
+| `AP-XCTX-5` | Mapping witness becomes semantics | A lookup, score, or ETL path proves the relation or use. | Keep it as evidence and test both propositions explicitly. |
+| `AP-XCTX-6` | String or id becomes endpoint | A word, file, id, or system fills a SenseCell slot. | Resolve the exact F.17 cell; route ids to A.6.6. |
+| `AP-XCTX-7` | Symmetry grants two use directions | One symmetric occurrence is read as two licences. | State each direction in its own use claim. |
+| `AP-XCTX-8` | Loss note becomes tolerance | An observed difference is assumed acceptable. | Keep it in evidence and name accepted loss as `t`. |
+| `AP-XCTX-9` | Confidence laundering | Higher `CL` or reviewer approval grants a use. | Treat `CL` as evidence shorthand and recover claim polarity plus reliance. |
+| `AP-XCTX-10` | Suitability becomes permission | An affirmative semantic claim is read as authorization. | Open the exact policy or deontic governor, or state no authorization. |
+| `AP-XCTX-11` | Named use becomes occurrence | “Publication use” is treated as a publication. | Recover the exact receiving object under E.17 or its actual owner. |
+| `AP-XCTX-12` | Chain upgrade | A-to-B and B-to-C become direct A-to-C equivalence. | Test a direct A-to-C Bridge and composite use independently. |
+| `AP-XCTX-13` | Timeless or facetless claim | Edition or compared facet stays hidden. | State applicability and refine endpoint readings. |
+| `AP-XCTX-14` | Kernel promotion | A strong Bridge is used to admit one global U-kind. | Apply E.24.UK and A.11 independently. |
 
 ### A.6.9:9 - Consequences
 
 * **Pros**
 
-  * Removes ambiguity between explanation, naming compatibility, and substitution.
-  * Makes directionality explicit; prevents accidental inverse reasoning.
-  * Forces Loss disclosure early; reduces later integration surprises.
-  * Provides disciplined change classes when evidence changes.
+  * Turns ambiguous sameness into a visible relation question and a visible action question.
+  * Lets one Bridge remain stable while use direction, tolerance, evidence, and polarity change.
+  * Prevents scores, cards, assurance, and publications from becoming hidden permission or occurrence.
+  * Gives authors exact local stops instead of a vague “not equivalent”.
 
 * **Cons**
 
-  * Adds visible structure to prose; authors must choose `kind/dir/CL/scope` explicitly.
-  * Requires reviewers to engage with counter‑examples and loss notes.
-  * Can surface uncomfortable truth: many “same” claims are only Naming‑only.
+  * A positive use normally needs two sentences instead of one adjective.
+  * Reviewers must inspect the correspondence rule, tolerated loss, and evidence for the named action.
+  * Many attractive “same” claims become only an explanatory comparison or a negative use claim.
 
-**Adoption test (PRAG).** Take any cross‑Context sentence that uses an umbrella predicate (“same/equivalent/align/map/…”). If the team cannot (a) name the two SenseCell endpoints, (b) state `dir`, (c) write at least one Loss bullet, and (d) give a crisp counter‑example (for CL≤2), then the claim is not ready to be treated as Naming‑only or substitution‑eligible. Keep it as Explanation‑only (or explicit non‑licensing prose) until evidence exists.
-
-If the endpoints’ canons are versioned and the team cannot state `Γ_time` (edition/as‑of basis), treat that as the same kind of “evidence missing”: keep the claim Explanation‑only.
+**Adoption test (PRAG).** Take one sentence containing *same*, *equivalent*, *align*, or *map*. A practitioner passes when they can name the concrete action, route non-semantic branches, identify the two exact cells, say whether the Bridge obtains, state the separate bounded-use claim and reliance branch, and name any authorization or receiving occurrence still missing. Otherwise keep the sentence explanatory and return the exact missing fact.
 
 ### A.6.9:10 - Rationale
 
-Cross‑Context “sameness” is a *family of relations*, not a single predicate. Making the Bridge explicit:
+Cross-context sameness wording is not one predicate. A.6.9 first restores the actual question and routes designation, lane, id, scope, representation, structure, role, and Work claims to their owners. Only the remaining cross-local semantic question reaches F.9.
 
-* preserves the locality of meaning (SenseCells are context‑bound);
-* prevents licence creep (Naming‑only does not silently become substitution);
-* supports auditability (BridgeId + slots, not adjectives);
-* aligns prose with the formal reasoning primitives that govern safe substitution and row scopes.
+For that branch, exact cells and a relation-only profile make correspondence falsifiable. A separate C.2.1 claim makes the proposed use equally explicit without reidentifying the Bridge. A.10 or B.3 can reopen reliance without changing either object. Authorization and the actual receiving object remain visible rather than hiding inside *suitable*, *aligned*, or *mapped*.
 
-A.6.9 turns a dangerous linguistic convenience into an explicit, reviewable, evolvable claim.
+The repair sequence is therefore: **name the action; route the object; test the relation; state the use; check reliance; recover permission or performance only when claimed.**
 
 ### A.6.9:11 - SoTA-Echoing
 
-(informative; post‑2015 alignment)
+(informative; post-2015 alignment)
 
-| SoTA practice                                                            | Primary source (post‑2015)                                              | What A.6.9 echoes                                                   | What A.6.9 adds                                                                                               | Stance                   |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| Correspondences between viewpoints in architecture descriptions          | ISO/IEC/IEEE 42010:2022                                                 | Correspondences are not identity; they have intent and constraints. | Forces direction/degree/loss to be explicit via Bridge Card slots.                                            | **Adopt + specialise**   |
-| Declarative constraint systems and validation shapes                     | W3C SHACL (Recommendation, 2017)                                        | Make implicit semantics checkable by explicit structure.            | Uses Bridge Cards as “shape of correspondence”: explicit slots + counterexample discipline.                   | **Adapt**                |
-| Entity alignment as scored correspondences with errors (embedding‑based) | BootEA (Sun et al., 2018) and related post‑2015 KG alignment literature | Alignment is graded, not binary; error analysis matters.            | Replaces raw scores with a coarse, auditable ordinal (`CL`) + explicit Loss notes and scope licences.         | **Adapt**                |
-| Entity alignment using textual encoders (transformer‑based)              | BERT‑INT (Tang et al., IJCAI 2020); Ditto (Li et al., PVLDB 2021)        | Modern matchers output scored/conditional correspondences.          | Turns “score” into an auditable licence (`CL/scope`) plus explicit error modes (`Loss` + counterexamples).    | **Adopt (conceptually)** |
-| Deep learning for schema matching as a family of match types             | SMAT (Zhang et al., 2021) and post‑2020 neural/LLM schema matching lines | “Matches” are heterogeneous and directional in practice.            | Makes match type explicit as Bridge kind + direction + licence scope (separating semantics from implementation witnesses).   | **Adapt**                |
-| Human‑in‑the‑loop entity matching (thresholding + error analysis)        | “Deep Learning for Entity Matching: A Design Space Exploration” (Mudgal et al., SIGMOD 2018) and follow‑on work | Scores are not licences; practice needs thresholds, abstention, and curated error cases. | Mirrors the “explain vs name vs substitute” split: scores stay in `witnessRefs`; promotion requires Loss + counter‑examples and an explicit scope upgrade. | **Adapt** |
+| SoTA practice | Primary source | What A.6.9 echoes | What A.6.9 adds | Stance |
+| --- | --- | --- | --- | --- |
+| Correspondences between viewpoints | ISO/IEC/IEEE 42010:2022 | Correspondence is not identity and retains intent and constraints. | Separates the direct semantic relation from each proposed use and actual publication or view object. | **Adopt + specialise** |
+| Declarative validation shapes | W3C SHACL (2017) | Make implicit conditions testable. | Uses a profile for relation truth, a claim for bounded-use suitability, and a card only for packaging. | **Adapt** |
+| Scored entity alignment with error analysis | BootEA (Sun et al., 2018) and later KG-alignment literature | Alignment evidence is graded and fallible. | Keeps scores and counterexamples as evidence rather than relation identity or a use licence. | **Adapt** |
+| Textual entity matching | BERT-INT (Tang et al., 2020); Ditto (Li et al., 2021) | Matchers yield conditional, error-prone correspondences. | Requires exact endpoint readings, a falsifiable Bridge predicate, and a separate action-specific claim. | **Adopt conceptually** |
+| Heterogeneous schema matching | SMAT (Zhang et al., 2021) and later neural or LLM matching work | “Match” covers several relation types. | Distinguishes relation kind, relation orientation, proposed-use direction, rule, and tolerance. | **Adapt** |
+| Human-in-the-loop matching | Mudgal et al. (SIGMOD 2018) and follow-on work | Scores require abstention and curated error cases. | Routes evidence through A.10 or B.3 and preserves explicit negative or blocked outcomes. | **Adapt** |
 
 ### A.6.9:12 - Relations
 
-* **Specialises:** A.6.P (Relational Prose Repair) by fixing the relation skeleton for cross‑Context sameness claims.
-* **Uses:** F.9 Bridge discipline (Bridge Card, `BridgeKind`, `dir`, `CL`, Loss notes, scope licences, weakest‑link).
-* **Coordinates with:** E.10 lexical discipline (umbrella tokens) and F.5 label discipline (Tech/Plain labels do not imply bridges).
-* **Constrains:** Any cross‑Context Concept‑Set row scope claims via weakest‑link and substitution thresholds.
+* **Specialises:** A.6.P by restoring the concrete object and action hidden by cross-context sameness wording.
+* **Uses:** F.17 exact `SchemeSenseCell` identity; F.9 Bridge participants, relation-only profile, obtaining, occurrence identity, bounded-use boundary, and card boundary; C.2.1 claim identity and polarity; A.10 or B.3 for reliance.
+* **Coordinates with:** F.18 and F.5 for designation; A.7 and A.6.6 for lane and id repair; A.2.6 for scope operations; E.17, C.29, and A.6.3.RT for view, mathematical representation, publication, and transition; C.3.3 for classification transfer; A.22 for structures; direct policy or deontic patterns for authorization.
+* **Constrains:** every dependent use to cite an obtaining Bridge, state a separate C.2.1 claim for its exact direction, rule, tolerance, and polarity, recover current reliance, and keep any actual receiving object under its direct owner.
 
 ### A.6.9:End
 
@@ -33788,11 +33861,11 @@ Open `A.22.CGUS` only when the candidate has several loci and cross-locus constr
 
 #### A.22:4.1c - Bounded And Cross-Context Model-Use Structure Specializations
 
-`BoundedModelUseStructure` is a `U.Structure` selected over one exact model episteme, exact admitted model-use holons, and obtaining model-applicability, actual model-use, model-expression-coherence, and boundary-crossing relation occurrences governed by `A.1.1`. Participating claim-scope values and their `A.2.6` membership semantics constrain that organization without creating a duplicate scope-delimitation relation. Its A.22 identity uses those exact constituents, selected occurrences, applied constraints, and the named bounded-model-use frame; continuity across model editions additionally requires the exact `C.2.1` episteme-edition relation and the declared `A.1.1` continuity rule. It is not a holon, description, or view.
+`BoundedModelUseStructure` is a `U.Structure` selected over one exact model episteme, exact admitted model-use holons, the obtaining model-applicability, actual model-use, and model-expression-coherence occurrences governed by A.1.1, exact applied constraint claims used by the selection judgment, and one named bounded-model-use frame. Its A.22 identity uses exactly those constituents, selected occurrences, exact constraint claims, and frame. A claim scope, membership outcome, boundary display, or carrier is not an applied constraint by itself; a constraint claim may instead state a proposition about that scope or its A.2.6 membership predicate. No boundary crossing participates in that identity. Continuity across model editions additionally requires the exact C.2.1 episteme-edition relation and declared A.1.1 continuity rule. It is not a holon, description, view, or endpoint manufactured by a later crossing.
 
-`CrossContextRelationStructure` is a different `U.Structure`, identified from exact crossing relation occurrences selected among several bounded model-use structures under applied constraints for one named crossing-analysis use. The selecting system and its work remain separate. Sharing a participant does not merge the structures, and overlap does not prove parthood.
+`CrossContextRelationStructure` is a conditional specialization of a different already identified `U.Structure`. Membership requires exact independently governed obtaining crossing occurrences selected among several bounded model-use structures, applied constraints, and one named crossing-analysis use, with all four A.22 base discriminators established. Until a compatible direct crossing governor supplies those occurrences, a Context Map can describe only a proposed crossing organization and no positive `CrossContextRelationStructure` member is asserted. The selecting system and its work remain separate. Sharing a participant does not merge structures, and overlap does not prove parthood.
 
-**Public name settlement.** The following F.18 NameCard names this selected cross-structure organization. It does not create the structures, crossing relations, mapping method, or view.
+**Pending local name settlement.** The following F.18 NameCard is local to A.22 while the positive crossing-occurrence basis is unavailable. It does not create the structures, crossing relations, mapping method, or view.
 
 ```text
 NameCard:
@@ -33800,18 +33873,20 @@ NameCard:
   GovernedValueRef: U.Structure selected over several BoundedModelUseStructure values and their exact crossing relations
   GoverningPatternRef: A.22
   ReferenceScheme: FPFCoreReferenceScheme
-  LocalSenseRef: selected relations among several bounded model-use structures, used as the EntityOfConcern of a DDD context-mapping U.View
+  LocalSenseRef: conditional selected organization of independently governed obtaining crossings among several bounded model-use structures under all four A.22 base discriminators; a Context Map may describe only a proposed organization until that exact positive basis exists
   TechLabel: CrossContextRelationStructure
   PlainLabel: relations among bounded contexts
   CandidateSet: CrossContextRelationStructure; BoundedContextRelationStructure; ContextRelationStructure; ContextMapStructure
   RejectedCandidates: BoundedContextRelationStructure hides plurality; ContextRelationStructure leaves the endpoint kind unresolved; ContextMapStructure confuses the structure with the DDD view and FPF Map
-  SelectionRationale: name the selected cross-structure organization without retyping its view, diagram, or publication as that structure
+  SelectionRationale: reserve one local retrieval label for the conditional cross-structure rule without retyping its proposed description, view, diagram, or publication as an admitted structure
   PublicRowStatus: pending
   LineageEntries: replaces broad context-map and bounded-context-relation wording
-  RefreshCondition: reopen if the selected EntityOfConcern is one model-use structure or if the view no longer concerns crossings among several structures
+  RefreshCondition: reopen when an independent direct governor supplies an exact obtaining crossing and one positive A.22 membership witness; only then rerun F.18/F.17 for public reuse
 ```
 
-DDD `Context Mapping` names a repeatable `U.Method`. Intended mapping work and performed mapping work remain with the A.15 family. The product called a `Context Map` is a `U.View` whose EntityOfConcern is `CrossContextRelationStructure`; its rendering and publication carrier remain with E.17. Thus method, work, selected structures, view, and publication stay distinct while the external source terms remain retrievable.
+This pending card has no `UnifiedTermRowRef`. Until its refresh condition is met, `CrossContextRelationStructure` is an A.22-local provisional designator only; other Core hosts must cite the descriptive A.22 conditional cross-structure rule rather than consume that label as public vocabulary.
+
+DDD `Context Mapping` names a repeatable `U.Method`. A.15.2 governs intended mapping work; A.15.1 identifies each exact dated mapping Work individual admitted under `U.Work`, the performer system and obtaining role assignment, and the exact `enactsMethod` relation. C.2.1 independently identifies the candidate episteme called a `Context Map`. While exact independently governed crossing occurrences or the four A.22 base discriminators are missing, its EntityOfConcern is the proposed or described crossing organization, not an exact `CrossContextRelationStructure`. Only after both conditions are met may a corresponding C.2.1 episteme designate the exact structure. Either episteme is additionally a `U.View` only when exact `EpistemeViewpointConformanceRelation(E, P)` obtains under E.17.0. Any C.29 representation, rendering, publication occurrence, form, and carrier remain separate under their direct patterns. Thus method, work, proposal, selected structure, candidate episteme, dependent view membership, representation, and publication stay distinct while the external source terms remain retrievable.
 
 #### A.22:4.2 - Structure claim reliance relation selection
 
@@ -34065,7 +34140,7 @@ The reason to keep C.30 separate is architectural clarity. Architecture is selec
 | Exact practice or source anchor | FPF adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
 | FPF `C.2.1`, `A.6.3`, and `E.17` description and view discipline | Current FPF separates exact EntityOfConcern, effective reference scheme, viewpoint, grounding holon, view, publication, rendering, and carrier. | A.22 structural descriptions and views reuse those direct relations rather than inventing a local display ontology or mandatory context field. | A description or view does not become the selected structure and supplies no evidence, assurance, gate, or decision authority by form. |
-| Evans, [Context Mapping with an AI-based Component](https://www.domainlanguage.com/articles/context-mapping-an-ai-based-component/), 2026 | Current DDD practice distinguishes actual bounded model-use loci from the view used to inspect relations among them. | A.22 admits `BoundedModelUseStructure` and `CrossContextRelationStructure`, while the context-mapping product remains `U.View` and mapping activity remains `U.Method`. | The DDD terms do not turn a system part, method, structure, view, and diagram into one object. |
+| Evans, [Context Mapping with an AI-based Component](https://www.domainlanguage.com/articles/context-mapping-an-ai-based-component/), 2026 | Current DDD practice distinguishes actual bounded model-use loci from the view used to inspect relations among them. | A.22 admits the `BoundedModelUseStructure` membership condition and the conditional `CrossContextRelationStructure` membership condition; the latter has no positive member until independently governed crossing occurrences and all four base discriminators exist. The reusable mapping way of doing remains `U.Method`, actual mapping is dated Work, and the product remains a C.2.1 episteme concerning a proposed organization until an exact structure can be designated; it becomes `U.View` only under exact E.17.0 conformance. | The DDD terms do not turn a system part, method, proposal, structure, view, and diagram into one object. |
 | OMG SysML v2 view practice | Adapt views-as-queries and model-view discipline as a source for treating views as selected renderings over model content. | A structural view states selected, hidden, or lost structure when the selection changes action. | A view is not the structure and not a proof of the described holon. |
 | C.29 mathematical-lens discipline | Adopt preserved structure, lost structure, lens-use admissibility, and stop-condition discipline when a mathematical lens is used for a structure claim. | Cite C.29 output through C.29 lens-use result, preserved structure, lost structure, stop condition, and structure-use return discipline. | Lens output is not structure, evidence, assurance, causal-use relation, or decision. |
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-probing practice | Adapt partial-observability, typed-relation, uncertainty, and structure-use return pressure for extracted structural views. | Use extracted structural-view records with validation boundaries and an observation value selected from `observed`, `inferred`, or `unknown` where needed, plus structure-use return conditions. | Do not mint `U.CodeSpace` and do not treat probe output, probe JSON, or benchmark output as structure adequacy, assurance, release evidence, or assurance evidence. |
@@ -34366,16 +34441,18 @@ This pattern governs only the narrower case in which a local mantra presents adm
 
 In public FPF explanation, call the admitted slice a `demonstrative walkthrough`. In the bounded seminar context recorded below, `mantra` is the shorter repeatable name for that same demonstrative episteme. One `mantra move` is a `DemonstratedPatternUseRow@Context`: it names the direct pattern, its Solution, the expected result, and the condition for continuing. Outside this admitted CGUS-demonstrative use, interpret a local mantra from the pattern's own Solution and context rather than forcing it into `DemonstrativeUnfoldingSlice@Context`.
 
-##### Naming assurance
+##### Naming settlement and bounded reuse
 
-The following F.18 cards and directional Bridge preserve the lexical and contextual decisions behind those Plain labels. The separate `LocalSenseBasisRelation@Context` values identify which public pattern episteme or seminar publication episteme supports each local sense. NameCards support naming review; the basis relations support the bounded sense lines. Neither adds a step to CGUS application.
+The F.18 cards below record the selected names for the governed A.22.CGUS values. The separate `LocalSenseBasisRelation@Context` values support the exact local-sense claims. The F.9 Bridge states only the semantic relation between the two exact F.17 cells. A separate ordinary C.2.1 assertion says whether that Bridge is suitable for the named seminar-to-public naming use, and A.10 separately governs reliance on that assertion. The cards carry none of the use direction, correspondence rule, loss tolerance, polarity, reliance, permission, or publication occurrence. `PublicRowStatus=current` and each `UnifiedTermRowRef` cite a separate current F.17 row; neither the card nor its inputs create that row. None adds a step to CGUS application.
 
 ```text
 NameCardId: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
 GovernedValueRef: DemonstrativeUnfoldingSlice@Context
 GoverningPatternRef: A.22.CGUS
-BoundedContextRef: FPF English public publication, edition 2026-07-11
-LocalSenseRef: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
+ReferenceScheme: FPFCoreReferenceScheme
+ClaimContent: NameCard.DemonstrativeUnfoldingSlice.FPFPublic.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
+LocalSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
+LocalSenseBasisRelationRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
 TechLabel: DemonstrativeUnfoldingSlice@Context
 PlainLabel: demonstrative walkthrough
 CandidateSet: [demonstrative walkthrough, mantra, mnemonic walkthrough, solution-story refrain, repeated explanatory walkthrough, pattern-use refrain]
@@ -34386,7 +34463,8 @@ RejectedCandidates:
   repeated explanatory walkthrough -> is too long to serve as the public label
   pattern-use refrain -> narrows the value although a CGUS slice may demonstrate wider structure
 SelectionRationale: the phrase identifies a presented explanatory episteme for a cold reader while the Tech value restores represented structure
-BridgeRefs: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+BridgeRefs: [Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11]
+PublicRowStatus: current
 UnifiedTermRowRef: UTS.DemonstrativeUnfoldingSlice.FPFPublic
 LineageEntries: demonstrative slice -> cold-reader public Plain label
 RefreshCondition: readers treat the phrase as actual traversal, fixed work order, or teaching medium rather than the governed episteme
@@ -34396,8 +34474,10 @@ RefreshCondition: readers treat the phrase as actual traversal, fixed work order
 NameCardId: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
 GovernedValueRef: DemonstrativeUnfoldingSlice@Context
 GoverningPatternRef: A.22.CGUS
-BoundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
-LocalSenseRef: a short repeatable explanatory walkthrough that helps a participant hold the whole solution structure in mind without prescribing performed-work order
+ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
+ClaimContent: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
+LocalSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
+LocalSenseBasisRelationRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
 TechLabel: DemonstrativeUnfoldingSlice@Context
 PlainLabel: mantra
 CandidateSet: [mantra, demonstrative walkthrough, mnemonic walkthrough, solution-story refrain, repeated explanatory walkthrough, pattern-use refrain]
@@ -34407,8 +34487,9 @@ RejectedCandidates:
   solution-story refrain -> overstates narrative form
   repeated explanatory walkthrough -> is too long for the repeated teaching alias
   pattern-use refrain -> narrows demonstrations to pattern use and loses wider CGUS cases
-SelectionRationale: repeated-formula and watchword senses support remembered repetition; the Sanskrit analysis instrument of thought supplies the attentional rationale; bounded context excludes ritual, slogan, method, plan, and work senses
-BridgeRefs: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+SelectionRationale: repeated-formula and watchword senses support remembered repetition; the Sanskrit analysis instrument of thought supplies the attentional rationale; the seminar-teaching scheme excludes ritual, slogan, method, plan, and work senses
+BridgeRefs: [Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11]
+PublicRowStatus: current
 UnifiedTermRowRef: UTS.DemonstrativeUnfoldingSlice.SeminarTeaching
 LineageEntries: seminar teaching concept -> English lexical comparison -> bounded teaching alias over the same governed value
 RefreshCondition: readers infer ritual authority, slogan, rote formula, method, WorkPlan, Work, teaching medium, or cannot recover the demonstrated structure
@@ -34418,8 +34499,10 @@ RefreshCondition: readers infer ritual authority, slogan, rote formula, method, 
 NameCardId: NameCard.DemonstratedPatternUseRow.SeminarTeaching
 GovernedValueRef: DemonstratedPatternUseRow@Context
 GoverningPatternRef: A.22.CGUS
-BoundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
-LocalSenseRef: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
+ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
+ClaimContent: NameCard.DemonstratedPatternUseRow.SeminarTeaching.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
+LocalSenseCellRef: SenseCell.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
+LocalSenseBasisRelationRef: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
 TechLabel: DemonstratedPatternUseRow@Context
 PlainLabel: mantra move
 CandidateSet: [mantra move, mantra row, demonstrated pattern-use row, walkthrough continuation, mnemonic step, solution-story move]
@@ -34430,82 +34513,160 @@ RejectedCandidates:
   mnemonic step -> suggests a fixed serial step and memory technique
   solution-story move -> overstates narrative form and can be read as movement
 SelectionRationale: the phrase keeps the bounded mnemonic relation and names one continuation; row fields restore direct pattern, Solution, result, and condition
-BridgeRefs: none; expression and governed row are local to one seminar context
+BridgeRefs: none; expression and governed-row use are interpreted under the same seminar-teaching scheme
+PublicRowStatus: current
 UnifiedTermRowRef: UTS.DemonstratedPatternUseRow.SeminarTeaching
 LineageEntries: bounded mantra alias plus local move wording -> typed demonstrated-pattern-use row
 RefreshCondition: readers infer universal Move, physical movement, operation, fixed serial step, PlanItem, Work, or a row detached from its slice
 ```
 
+The two expressions for the demonstrative slice and the local expression for its demonstrated row resolve through exact F.17 coordinates:
+
 ```text
 SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
-  Context: FPF English public publication, edition 2026-07-11
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: DemonstrativeUnfoldingSlice-public
   LocalExpression: demonstrative walkthrough
-  LocalSense: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
+  LocalSenseClaim: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
   senseFamily: DemonstrativeExplanation
   NameCardRef: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
   LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
 
 SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
-  Context: English-language FPF seminar teaching, edition 2026-07-11
+  ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
+  LocalSenseId: DemonstrativeUnfoldingSlice-mantra
   LocalExpression: mantra
-  LocalSense: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
+  LocalSenseClaim: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
   senseFamily: DemonstrativeExplanation
   NameCardRef: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
   LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
 
+SenseCell.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
+  ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
+  LocalSenseId: DemonstratedPatternUseRow-mantra-move
+  LocalExpression: mantra move
+  LocalSenseClaim: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
+  senseFamily: DemonstratedPatternUseContinuation
+  NameCardRef: NameCard.DemonstratedPatternUseRow.SeminarTeaching
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
+
 LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
-  localSenseCellRef: SenseCell(FPF-English-Public-2026-07-11, DemonstrativeUnfoldingSlice-public)
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, DemonstrativeUnfoldingSlice-public)
   basisEpistemeRef: A.22.CGUS
-  basisEpistemeKindRef: U.MethodDescription
   basisPublicationUnitRef: A.22.CGUS:4.3.3-Ordinary-bounded-use
-  boundedContextRef: FPF English public publication, edition 2026-07-11
 
 LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
   entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
   entityOfConcernKindRef: LocalSenseBasisRelation@Context
-  boundedContextRef: FPF English public publication, edition 2026-07-11
   viewpointRef: FPFPublicReaderViewpoint
-  subjectRef: <LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11, FPF English public publication 2026-07-11, FPFPublicReaderViewpoint>
   claimGraph:
     supportedSenseClaim: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
-    admittedUseClaim: support the public local-sense line for this SenseCell
+    admittedUseClaim: support the public local-sense line for this scheme-based coordinate
     nonAdmittedUseClaim: no evidence, authority, work-order, or naming decision follows from this relation
-  referenceScheme: F.3 SenseCell and F.17 local-sense-basis interpretation
+  referenceScheme: FPFCoreReferenceScheme
   editionId: 2026-07-11
 
 LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
-  localSenseCellRef: SenseCell(FPF-Seminar-Teaching-2026-07-11, DemonstrativeUnfoldingSlice-mantra)
+  localSenseCellRef: SenseCell(FPFSeminarTeachingReferenceScheme-2026-07-11, DemonstrativeUnfoldingSlice-mantra)
   basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
-  basisEpistemeKindRef: U.EpistemePublication
   basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10
-  boundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
 
 LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
   entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
   entityOfConcernKindRef: LocalSenseBasisRelation@Context
-  boundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
   viewpointRef: FPF Seminar Participant Viewpoint
-  subjectRef: <LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11, English-language FPF seminar teaching 2026-07-11, FPF Seminar Participant Viewpoint>
   claimGraph:
     supportedSenseClaim: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
     admittedUseClaim: support the bounded teaching sense from the seminar expression
     nonAdmittedUseClaim: the slide carrier does not become the sense, naming settlement, method, plan, or work
-  referenceScheme: F.3 SenseCell and F.17 local-sense-basis interpretation
+  referenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
   editionId: 2026-07-11
-BridgeCardId: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
-BridgeKind: Narrower-than
-Direction: seminar CellB to public CellA only
-CL: 2
-LossNotes: the public sense omits repeated speech, remembered replay, and seminar attentional function
-CounterExampleOrInvariantEvidence: a public walkthrough may be read once without mnemonic repetition
-AdmittedUse: Naming-only from seminar mantra to public demonstrative walkthrough and the same governed value
-NonAdmittedUse: no reverse substitution and no inference of method, plan, order, authority, work, or teaching-medium identity
-RevisionTrigger: context edition, observed loss, local label, or governed value changes
+
+LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
+  localSenseCellRef: SenseCell(FPFSeminarTeachingReferenceScheme-2026-07-11, DemonstratedPatternUseRow-mantra-move)
+  basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
+  basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides61-62
+
+LocalSenseBasisRelationDescription.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
+  entityOfConcernRef: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
+  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  viewpointRef: FPF Seminar Participant Viewpoint
+  claimGraph:
+    supportedSenseClaim: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
+    admittedUseClaim: support the bounded teaching sense of mantra move
+    nonAdmittedUseClaim: the slide carrier does not become the row, pattern use, plan, or performed work
+  referenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
+  editionId: 2026-07-11
 ```
 
-The local relation species and its SlotKind, ValueKind, RefKind, direction, dependence, and identity are declared in `F.17:5.1`. `SeminarExpression.FPFPracticalUse.2026-07-11` is the seminar content as a `U.EpistemePublication`; the `.pptx` and extracted Markdown are separate carriers or renderings.
+`F.17:5.1` governs these scheme-based cells and basis relations, including their SlotKinds, value and reference kinds, direction, dependence, obtaining condition, and identity. The retained `@Context` suffix names lineage-compatible bounded local use; it introduces no context participant or `U.BoundedContext` slot.
 
-The bridge is directional; shared reference to one governed value does not erase the sense difference. It governs only the two senses of this CGUS-demonstrative value and does not govern every local pattern mantra. The seminar publication expression supplies the teaching problem and the local-sense basis; its carriers do not. Dictionaries supply English lexical and etymological evidence, while F.18 plus reader-use tests decide the bounded names. A changed NameCard therefore reopens naming without silently changing the public or teaching sense. A changed SenseCell address, basis-episteme edition, bounded context, or cited publication unit reopens the corresponding `LocalSenseBasisRelation@Context`; a changed supported-sense claim or use boundary opens a new `LocalSenseBasisRelationDescription@Context` edition. F.18 remains the naming procedure.
+`SeminarExpression.FPFPracticalUse.2026-07-11` names the seminar-content episteme. The publication occurrence that makes one edition available and the `.pptx` and extracted Markdown carriers remain separate. The public basis relation instead uses the current A.22.CGUS pattern episteme as its basis and narrows that basis to the ordinary-use publication unit.
+
+The cross-scheme relation and the row's named use are different objects:
+
+```text
+BridgeOccurrence:
+  BridgeOccurrenceRef: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+  SourceSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
+  ReceivingSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
+  BridgePredicateProfile:
+    BridgeKind: Narrower-than
+    RelationOrientation: source SeminarTeaching sense is narrower than receiving FPFPublic sense
+    EndpointSenseReadings: both are DemonstrativeExplanation senses of the governed A.22.CGUS value; the seminar sense additionally requires repetition and attentional use
+    RelationSpecificCondition: every demonstrative episteme classified by the seminar sense is also classified by the public walkthrough sense, while some public walkthroughs are not seminar mantras
+    ApplicabilityOrAsOfBasis: FPFCoreReferenceScheme and FPFSeminarTeachingReferenceScheme-2026-07-11 at the named sense editions
+    BooleanTruthCondition: true only while the proper-specialization condition holds for those endpoint editions
+    RequiredDependencies: both F.17 SchemeSenseCells resolve, their cited local-sense basis claims hold, and the A.22.CGUS governed-value identity remains unchanged
+
+C.2.1 claim about this named use:
+  ClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+  EntityOfConcern: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+  EffectiveReferenceScheme: FPFCoreReferenceScheme
+  ClaimGraph:
+    ProposedUse: a seminar use of "mantra" points to the public demonstrative-walkthrough term and its governed value
+    Direction: SeminarTeaching sense -> FPFPublic sense
+    CorrespondenceRule: preserve reference to the same governed A.22.CGUS value and do not infer that every public walkthrough is a mantra
+    PermittedLossTolerance: repetition, remembered replay, and attentional function may be omitted; no method, plan, order, authority, Work, or teaching-medium claim may be carried
+    Polarity: affirmative
+
+A.10 evidence reliance for this claim:
+  EvidenceProvenanceRelationRef: EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+  TargetClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+  BoundedEvidenceUse: use the seminar word "mantra" to point to the public demonstrative-walkthrough term and the same governed A.22.CGUS value
+  EvidencePaths:
+    PublicSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11 --basisEpistemeRef--> A.22.CGUS --basisPublicationUnitRef--> A.22.CGUS:4.3.3-Ordinary-bounded-use --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
+    SeminarSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11 --basisEpistemeRef--> SeminarExpression.FPFPracticalUse.2026-07-11 --basisPublicationUnitRef--> SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10 --carriedBy--> FPF_first_seminar_reworked_slidement.pptx@sha256:325B50C5D062479434ECCABFF0B8B3E316825CAA5E1646A61D25183B90B9CA89 (Git blob e990847d37ddca59d15a9cc434fad15381a2122d) and fpf_first_seminar_slides.content.md@sha256:B38C6F5FBC85CAF9986D2141095C90DAFFAB6F3FEA607ACE7FA6CE60EB18228D (Git blob 34fd989b646aa4dc9f2879cab40d2e6dde989b1b)
+    NameSettlementRecord: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
+    DictionaryEvidenceRecord-MW: Merriam-Webster "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.merriam-webster.com/dictionary/mantra
+    DictionaryEvidenceRecord-OALD: Oxford Advanced Learner's Dictionary "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.oxfordlearnersdictionaries.com/definition/english/mantra
+    ReaderCueEvidenceRecord: Zhu, Reinecke, and Mitra, Language Scent, arXiv:2604.03604 (2026) --derivedFrom--> https://arxiv.org/abs/2604.03604; supports contextual cues, not equivalence or fitness for every reader
+  EvidenceProducingOrInterpretingWork: absent from this fixture; no Work occurrence is used as a premise
+  CurrentRoleAssignment: absent from this fixture
+  MethodTrace: absent from this fixture
+  CurrentnessAndWindow: applies to the named 2026-07-11 sense as evidenced by the exact current seminar carrier editions above; both Git blobs must resolve, both carrier paths must retain the cited raw-SHA-256 bytes, and the cited NameCard and A.22.CGUS governed value must remain current
+  UnsupportedAttemptedUse: reverse substitution, structural inference, or any method, plan, authority, Work, teaching-medium identity, publication occurrence, or other receiving occurrence
+  ReopenOrStop: stop this naming use and reopen its A.10 classification if either cited Git blob does not resolve, either carrier path no longer contains its cited raw-SHA-256 bytes, any other cited item or provenance edge is missing or stale, either sense, NameCard, or governed value changes, or reader evidence shows that "mantra" obscures rather than locates the public value
+  RelianceDisposition: pass only for the named bounded naming use while every path and currentness condition above holds
+  B.3 branch: no assurance claim is made and this reversible naming use does not meet the material-reliance threshold
+BridgeCard:
+  EntityOfConcern: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+  EffectiveReferenceScheme: FPFCoreReferenceScheme
+  ClaimGraph:
+    ClaimMode: actual
+    BridgeClaim: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11 obtains under the BridgePredicateProfile above
+    BoundedUseClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+    EvidenceProvenanceRelationRef: EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+    RelianceDispositionClaim: pass only for the named SeminarTeaching-to-FPFPublic naming use
+    ObservedLossClaim: the broader public sense does not require repeated speech, remembered replay, or the seminar attentional function
+    CounterExampleClaim: a public demonstrative walkthrough may be read once and understood without being repeated or used as a mnemonic
+    CurrentnessClaim: use this card only while the named Bridge, bounded-use claim, evidence-provenance relation, local reliance disposition, 2026-07-11 sense editions, and current A.22.CGUS governed value remain current
+    NearestNonUseClaim: do not use it for FPFPublic-to-SeminarTeaching substitution or to infer a method, plan, order, authority, Work, teaching-medium identity, publication occurrence, or other receiving occurrence
+```
+
+The Bridge is `Narrower-than` because the seminar sense adds repetition and attentional use. That relation orientation grants no use. The separate affirmative claim states the exact SeminarTeaching-to-FPFPublic naming use, direction, rule, and tolerance; the A.10 relation and `RelianceDisposition=pass` support reliance only on that claim. The B.3 branch is absent because no assurance claim is made and this bounded reversible naming use stays below its material-reliance threshold; a later threshold would require B.3's first-claim decision and would not create a positive claim. Neither the NameCards, Bridge, claim, card, nor passing disposition authorizes publication, makes an E.17/E.24.PUB publication occurrence obtain, or proves that publication Work occurred.
+
+The Bridge governs only these two senses of the CGUS-demonstrative value, not every local pattern mantra, and it does not establish the independently governed value identity. The seminar-content episteme supplies the teaching problem and local-sense basis; its publication occurrence and carriers do not. Current English dictionary evidence bears on the lexical choice but does not establish the Bridge or the bounded-use claim by itself. F.18 and reader-use evidence decide the names. A changed NameCard reopens naming without silently changing either sense. A changed SenseCell address, basis-episteme edition, or cited publication unit reopens the corresponding `LocalSenseBasisRelation@Context`; a changed supported-sense claim or use boundary opens another `LocalSenseBasisRelationDescription@Context` edition. A changed Bridge endpoint or profile reopens the relation, while a changed proposed use, rule, tolerance, evidence, or reliance reopens only its separately governed claim or reliance object.
 
 #### A.22.CGUS:4.4 - Direct Governing Pattern Exits
 
@@ -34533,6 +34694,8 @@ Some CGUS uses need dependent records that keep adjacent method, work, evidence,
 For method and work linkage, use `MethodWorkUnfoldingLinkage@Context`, governed by A.15, only when a named receiving use relies on that relation remaining inspectable across method, method description, role assignment, capability-fit condition, work plan, readiness, performed work, evidence, assurance, or gate positions. If only one method, work-plan, readiness, performed-work, evidence, assurance, or gate claim is current, use that direct governing record instead.
 
 For architecture use, use the C.32.P2S-owned `ArchitectureUnfoldingStructureUse@Project` only when a named unfolding structure is being used as architecture-relevant structure in problem-to-structure architecturing. If the current claim is only grounded architecture, structural view, architecture description, decision, ADR-like projection, measurement, eval, or performed realization work, use the direct pattern for that claim.
+
+In `ArchitectureUnfoldingStructureUse@Project` and `ArchitectureDecisionRelation@Project`, `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, or parthood. When the current use is genuinely local to one actual project, C.32.P2S or C.32.PAD must name the exact composite `U.Work` and the direct relation that connects the unfolding-structure use or architecture decision to that work. A.22.CGUS neither infers nor owns that project-work relation.
 
 This keeps A.22.CGUS thin: it governs the constraint-governed unfolding structure and its safe next-use boundary, while A.15, C.30, C.32, evidence, gate, publication, and domain patterns govern the adjacent records that carry stronger claims.
 
@@ -40484,6 +40647,7 @@ Open a row below only when its first column names the reader's next sentence or 
 | A reader must trace how this episteme was constructed from an earlier source episteme. | the exact source and receiving epistemes plus the governed viewing relation; view membership remains a separate conformance judgment | `A.6.3` for construction and `E.17.0` for membership |
 | A claim must be restricted to one declared part of the situation under study. | one exact `U.ClaimScope` and its membership relation over `U.ContextSlice` | `A.2.6` |
 | A calculation or interpretation must use one selected organization of model use. | one exact `BoundedModelUseStructure` and the relation through which the receiving assertion or use selects it | `A.1.1` and the direct receiving-use pattern |
+| A reader proposes to compare, substitute, translate, publish, or otherwise use an obtaining cross-context Bridge. | one ordinary C.2.1 assertion episteme whose EntityOfConcern is that exact Bridge and whose ClaimGraph states the proposed use, direction, correspondence rule, loss tolerance, and polarity; recover reliance and any use that actually happened separately | C.2.1:4.2.3 for claim identity; `F.9` for the Bridge; `A.10` or `B.3` for reliance; the direct receiver pattern for any actual use |
 | A decision or inference must cite support links among the claims. | the exact `JustificationGraph` content that carries those dependencies | C.2.1:4.4; use `A.10` or `B.3` only when an evidence-use or assurance-evidence relation is current |
 | A decision or evaluation will accept, reject, or withhold reliance because of evidence. | the exact evidence-use relation; evidence storage alone is insufficient | `A.10` or `B.3`, according to the evidence use |
 | Reviewers must inspect or revise a classification judgment as an independent claim-bearing object. | one classification assertion episteme about the exact candidate, plus the exact governing criterion | C.2.1:4.2.3 with `A.1` or `C.3.2`; `E.24.UK` only for public U-kind admission |
@@ -40557,6 +40721,10 @@ The assertion does not create the candidate, admit a U-kind, or make the candida
 
 A card that calls a listed collection a holon is still only a classification assertion episteme. Its assertion polarity is affirmative, but the card alone leaves reliance unresolved for any use that requires `A.1` to recover the exact constituents and grounded part relations, their constructive assembly, the whole's reidentification rule, actual compatibility with a governed larger-assembly construction, a composition-grounded whole-level characteristic, and the already admitted holon kind with its kind-specific criterion. The card form supplies none of those facts and does not make the classification predicate true.
 
+The same constitution rule applies when a reader proposes to use an obtaining F.9 Bridge. Say first in ordinary words what the reader proposes to compare, substitute, translate, publish, or otherwise do; name the direction `d`, use-specific correspondence rule `r`, tolerated semantic loss `t`, and affirmative or negative polarity for named use `u`. Identify that statement as one ordinary C.2.1 assertion episteme: the exact Bridge `b` is its EntityOfConcern, its ClaimGraph designates `<u,d,r,t>` and polarity, and its effective ReferenceScheme makes those designations, the rule, and the tolerance interpretable. The exact `<ClaimGraph, b, effective ReferenceScheme>` triple identifies the assertion. Changing `u`, `d`, `r`, `t`, or polarity changes the claim content and therefore the assertion episteme, not fixed Bridge `b`. Keep this local claim form in ordinary wording: it introduces no public U-kind, universal use relation, or durable CamelCase claim name. Reopen F.18 only if an independent later use actually needs a reusable name.
+
+An affirmative bounded-use assertion is one premise for that use; it is neither permission nor proof that the use occurred. A negative assertion leaves an otherwise obtaining Bridge in place. For ordinary bounded reliance below B.3's material-reliance threshold and with no assurance claim, A.10 separately governs the exact evidence-provenance graph relation and local `RelianceDisposition`: only `pass` supports this exact use, `degrade` supports only its named narrower use, and any other non-passing result supplies no support or routes the case to B.3 exactly as A.10 declares. When an assurance claim is made or the threshold is met, B.3 first decides whether a current assurance claim exists: the threshold requires the minimum reliance safety assurance record but creates no positive claim; use either a positive claim carrying the named use with its sufficient record or an exact no-assurance-claim or insufficient-record disposition that stops or narrows it. Neither branch authorizes the use. If the use actually happened, recover the actual Work under A.15.1, assertion episteme under C.2.1, publication occurrence under E.17, direct relation under its domain pattern, operation application under A.6.1, or another receiving object under its current owner.
+
 #### C.2.1:4.3 - Add empirical grounding through its own relation
 
 **Tech name:** `EpistemeEmpiricalGroundingRelation`.
@@ -40592,7 +40760,7 @@ The grounding holon need not be identical to the EntityOfConcern. One method-des
 | view | the same episteme individual recognized as `U.View` when an exact `EpistemeViewpointConformanceRelation` to at least one exact viewpoint episteme obtains | conformance, source-to-receiving construction, current-use selection, publication, form, and carrier remain different relations or objects |
 | bounded model use | optional relation to one `BoundedModelUseStructure : U.Structure` under A.1.1 | model-use organization can qualify interpretation without becoming a universal identity component |
 | justification structure | exact `JustificationGraph` content | a justification structure organizes inferential dependencies without becoming claim content |
-| evidence use | the evidence relation governed by A.10 or B.3 that the current claim uses | evidence may support or qualify an assertion about claim truth or grounding; storage, availability, or loss of evidence or a work log neither makes nor unmakes the world-side grounding relation |
+| evidence use or assurance for a claim | for ordinary bounded reliance, the exact A.10 evidence-provenance graph relation plus its local `RelianceDisposition`; when an assurance claim is made or B.3's material-reliance threshold is met, the current B.3 assurance claim, required minimum reliance safety assurance record, or explicit non-positive disposition | evidence and reliance can support, narrow, or stop use of an assertion without changing its C.2.1 identity or making its EntityOfConcern obtain; the B.3 threshold alone creates no positive claim |
 | publication | exact publication occurrence and publication form under E.17 and E.24.PUB | making an edition available does not constitute or reidentify it |
 | presentation carrier | any exact `U.PresentationCarrier` under E.17 and E.24.PUB | bearing a publication form or rendered expression does not constitute or reidentify the episteme |
 | representation and admissible operations | representation scheme currently used for the exact represented episteme, its selected elements, and the C.29 correspondence or transition relations | a change of scheme or admitted operations can change the available work without becoming the represented ontology |
@@ -40666,7 +40834,7 @@ Description and specification use remain distinct. A Description episteme is adm
 
 **Shared identity-inception boundary.** Work or transformation can explain how an entity came about, but C.2.1 by itself establishes neither when that entity first existed nor that the work caused its inception. Open this boundary only when a current receiving claim asks whether a new entity began. Then use the subject's direct inception governor: that pattern defines the predicate and identity rule, and current case facts must satisfy it. If no such governor exists, return one `missing-governor` blocker naming the entity, work and change facts, required inception predicate, and receiving use. When the current question is only changed episteme identity, form, representation, view, or publication, do not open this boundary.
 
-A.6.2-A.6.4 govern episteme-to-episteme morphing, source-to-receiving viewing construction, and retargeting. Identify every source and receiving episteme independently under C.2.1 before testing the exact transformation relation. Each transformation pattern states which identity discriminator is preserved or changed and names the exact correspondence, reinterpretation, or retargeting relation on which it relies. When local senses cross contexts, `F.9` additionally governs Bridge direction, congruence, loss, and admitted use. Categorical function, mapping, or tuple notation creates no direct relation occurrence.
+A.6.2-A.6.4 govern episteme-to-episteme morphing, source-to-receiving viewing construction, and retargeting. Identify every source and receiving episteme independently under C.2.1 before testing the exact transformation relation. Each transformation pattern states which identity discriminator is preserved or changed and names the exact correspondence, reinterpretation, or retargeting relation on which it relies. When local senses cross contexts, `F.9` separately governs whether an exact Bridge obtains. If the morphism relies on that Bridge for a proposed use, state a separate C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity in its ClaimGraph, then recover current A.10 or B.3 reliance; none of those facts makes the morphism application occur. Categorical function, mapping, or tuple notation creates no direct relation occurrence.
 
 For an A.6.3 source-to-receiving viewing construction, the two identified epistemes may retain the same EntityOfConcern while claim content or effective scheme is restricted. `E.17.0` alone judges whether the receiving episteme conforms to an exact viewpoint and therefore has dependent `U.View` membership. Direct authoring or query generation can yield a candidate episteme without an A.6.3 construction, and neither route creates a multi-view family. For retargeting, the EntityOfConcern changes under an explicit bridge or correspondence. For a representation transition, the represented episteme may remain unchanged while the C.29 representation scheme and admitted operations change.
 
@@ -40753,7 +40921,7 @@ Empirical grounding continues only while every mapped direct relation required b
 
 #### C.2.1:7.3 - Epistemic retargeting
 
-`U.EpistemicRetargeting` is an effect-free morphism relating epistemes with different exact EntitiesOfConcern. `A.6.4` governs the exact correspondence, reinterpretation, or retargeting relation that states what is preserved across the change. When the move also crosses context-local senses, `F.9` supplies the Bridge direction, congruence level, loss notes, and admitted use; it does not replace the subject-side relation. A system may perform exact retargeting work; identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted entity, and actual change facts separately. The retargeting morphism itself performs no work, and no bare A.6.1 `result`, generic work result, or universal production relation is inferred.
+`U.EpistemicRetargeting` is an effect-free morphism relating epistemes with different exact EntitiesOfConcern. `A.6.4` governs the exact correspondence, reinterpretation, or retargeting relation that states what is preserved across the change. When the move also crosses context-local senses, `F.9` governs the exact Bridge occurrence and does not replace the subject-side retargeting relation. A separate C.2.1 assertion says whether that Bridge is suitable for the retargeting use in direction `d`, under rule `r`, within tolerance `t`, with explicit polarity; A.10 or B.3 separately governs reliance. A system may perform exact retargeting work; identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted entity, and actual change facts separately. The retargeting morphism itself performs no work, and no bare A.6.1 `result`, generic work result, or universal production relation is inferred.
 
 Examples include retargeting from a module to a function it realizes, from observations to a learned model, or from one holon to a meta-holon or subholon with a different EntityOfConcern. A Fourier representation change is not automatically retargeting: use C.29 first to decide whether the signal remains the EntityOfConcern and only its representation changes. This test prevents mathematical notation from deciding ontology.
 
@@ -40837,7 +41005,7 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 10. **Agency, work-result, and identity-inception boundary.** Only systems perform authoring, evaluation, revision, publication, viewing, query, redrawing, and use work. `A.6.1` declares typed argument and result positions; neither a position nor its binding says when the bound entity first existed. When a current claim asks that question, the subject's direct inception pattern must define the predicate and identity rule, and the exact work and change facts must satisfy them. If no such governor exists, return one `missing-governor` blocker naming the entity, facts, required predicate, and receiving use. Otherwise do not open the inception boundary. No morphism, heading, representation, form, bare A.6.1 `result`, generic work result, or universal production relation supplies that fact.
 11. **Publication boundary.** Episteme, publication occurrence, publication form, view, and carrier keep separate identities. Plain `published episteme` names a contingent relation use, not another durable kind.
 12. **Representation boundary.** Tuple components, graph elements, schema fields, and notation tokens remain representation elements. An explicit correspondence may relate one to an independently recovered object without identifying the two or changing the represented direct relation's participants.
-13. **Transformation boundary.** A morphing, viewing, or retargeting declaration states which C.2.1 identity discriminators are preserved or changed and names the exact correspondence or retargeting relation used. Cross-context sense use additionally states the `F.9` Bridge direction, congruence, loss, and admitted use; the mathematical morphism performs no work.
+13. **Transformation and Bridge-use boundary.** A morphing, viewing, or retargeting declaration states which C.2.1 identity discriminators are preserved or changed and names the exact correspondence or retargeting relation used. For cross-context sense use, F.9 separately establishes the exact Bridge; one C.2.1 assertion about that Bridge carries `<u,d,r,t>` and polarity; A.10 or B.3 separately governs reliance; and the direct receiver governs any actual Work, assertion, publication, relation, or operation application. The mathematical morphism performs no work, and none of these objects authorizes another.
 14. **Recursive assurance.** Self-reference and meta-description do not form a minimal justification cycle; assurance terminates in independently governed evidence, observation, or formal derivation.
 15. **Minimum current object.** Readable prose adds no object beyond the current use's dependency and states the direct relation to an already recoverable object.
 
@@ -40855,6 +41023,7 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 | Edition by filename | `v2` or a later timestamp is taken as epistemic succession. | Recover the two episteme identities, then test edition continuity through identified revision work, source-to-revision use, enacted-method semantics, and actual change facts. A first-existence premise, when genuinely consumed, follows the shared 4.9 boundary rather than the filename. |
 | Published-episteme kind | Temporary participation in publication is treated as a second durable episteme kind. | Keep the episteme identity and state the exact publication occurrence; use Plain `published episteme` only for that contingent use. |
 | View as formatting, generation, or publication | A filtered table, diagram, query result, or published face is called a view because of appearance, construction history, or carrier, and a heading or edge is treated as cross-view correspondence. | Identify the receiving episteme under C.2.1 and apply `E.17.0` conformance for `U.View` membership. Add A.6.3 only for an actual source-to-receiving construction. Apply the exact direct subject-relation governor to correspondence; if none is recoverable, return an exact blocker naming the participants, required predicate and use, and missing governor. |
+| Bridge as use verdict | An obtaining Bridge, its predicate profile, or a card is treated as proving that one comparison, translation, publication, or other use is suitable, authorized, or already performed. | Keep the Bridge under F.9. State the proposed use in a separate ordinary C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity; recover A.10 or B.3 reliance and any actual receiving object under their direct owners. |
 | Mathematical identity leak | A tuple key or graph node identity becomes episteme identity. | Keep C.29 representation identity separate and use the C.2.1 identity triple. |
 
 ### C.2.1:13 - Consequences  *(informative)*
@@ -40892,7 +41061,7 @@ These sources discipline different parts of the same working problem; they do no
 ### C.2.1:15 - Relations  *(overview)*
 
 - **Builds on:** `A.1` for holon recognition, `A.6.REL` for direct relation occurrences, `A.6.0` for independent same-individual `U.Signature` membership and relation-facing `RelationSignature` use, `A.6.5` for declaration-local SlotSpecs and participant designations, `A.7` for entity-description distinction, and `C.29` for mathematical representation.
-- **Coordinates with:** `A.3.2` for `U.MethodDescription` membership without a second episteme identity; `C.3.2` for local-kind membership judgments; `E.24.UK` for ontology-level U-kind admission; `E.10.D2` for Description and specification-use discipline, including selection that creates neither conformance nor membership; `A.6.1` for typed operation positions and exact current application bindings; `A.6.2`, `A.6.3`, and `A.6.4` for morphing, source-to-receiving viewing construction, and retargeting; `A.6.3.RT` for representation transitions; `E.17.0` for fixed E/P conformance and `U.View` membership; `C.13` and `A.22` for separately current multi-view collections and structures; the exact direct subject-relation pattern, or an exact missing-relation blocker naming the participants, required predicate and use, and missing governor; `F.9` when transformations cross context-local senses; `E.13` when a visible representation-quality proxy is used as practical epistemic value; `A.2.6` for claim scope; `A.1.1` for bounded model-use structure; `A.10` and `B.3` for evidence and assurance; `A.14` only when a phase or separately selected edition collection is current; `C.2.P`, `A.3.1`, and `A.3.4` when source use, revision method, or actual change is current in edition-continuity evaluation; C.2.1:4.9 only when a local claim separately asks when a new entity began; `E.17` for multi-view publication forms and uses; `E.24.PUB` for publication occurrences, forms, and carriers; and `G.11` for currentness.
+- **Coordinates with:** `A.3.2` for `U.MethodDescription` membership without a second episteme identity; `C.3.2` for local-kind membership judgments; `E.24.UK` for ontology-level U-kind admission; `E.10.D2` for Description and specification-use discipline, including selection that creates neither conformance nor membership; `A.6.1` for typed operation positions and exact current application bindings; `A.6.2`, `A.6.3`, and `A.6.4` for morphing, source-to-receiving viewing construction, and retargeting; `A.6.3.RT` for representation transitions; `E.17.0` for fixed E/P conformance and `U.View` membership; `C.13` and `A.22` for separately current multi-view collections and structures; the exact direct subject-relation pattern, or an exact missing-relation blocker naming the participants, required predicate and use, and missing governor; `F.9` for exact Bridge semantics when a claim concerns a bounded cross-context use; `E.13` when a visible representation-quality proxy is used as practical epistemic value; `A.2.6` for claim scope; `A.1.1` for bounded model-use structure; `A.10` and `B.3` for evidence and assurance; `A.14` only when a phase or separately selected edition collection is current; `C.2.P`, `A.3.1`, and `A.3.4` when source use, revision method, or actual change is current in edition-continuity evaluation; C.2.1:4.9 only when a local claim separately asks when a new entity began; `E.17` for multi-view publication forms and uses; `E.24.PUB` for publication occurrences, forms, and carriers; and `G.11` for currentness.
 - **Used by:** every pattern that identifies, describes, classifies through an explicit assertion, compares, grounds, transforms, views, publishes, or refers to a `U.Episteme`.
 
 ### C.2.1:End
@@ -41702,7 +41871,7 @@ This invariant is why KD‑CAL guard macros and crossing bundles can be simple: 
 
 **Notation/plane transports.** NotationBridge and plane transports contribute to the relevant `CL*_min(P)` bottlenecks for the path; they do not “lower F” by penalty. If an author actually rewrites a claim into a different formality level, that is a new episteme (ΔF), not “transport”.
 
-#### C.2.2:4.4.A - Worked micro-example: `translate(G)` + penalty (A.2.6:12.2)
+#### C.2.2:4.4.A - Worked micro-example: `translate(G)` + penalty (A.2.6:11.2)
 
 **Source context:** `MaterialsLab@2026`. Claim:
 
@@ -86234,7 +86403,10 @@ The current capability candidate still stops at the exact missing-governor resul
 
 `U.Structure` follows the accepted A.22 architecture instead. A.22 identifies one context-independent selected organization from four and only four discriminators: exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame. `E24UK-AR-USTRUCTURE-R12-01` records the root admission. A bounded-context label, system, team, subsystem, model, method, work occurrence, result episteme, description, view, graph, table, representation, publication, or use does not supply that identity.
 
-`BoundedModelUseStructure` and `CrossContextRelationStructure` are same-individual dependent specializations of an already identified `U.Structure`. The same structure individual keeps its A.22 identity; satisfying the A.22:4.1c bounded-model-use or crossing-analysis membership condition adds the corresponding specialization and implies `U.Structure` membership. It adds no second structure individual, root identity, ambient-context discriminator, holonhood, agency, description identity, or view identity. An A.2.6 claim-scope value or membership fact affects the selection only when an exact applied constraint refers to it; that applied constraint, not the bare scope or membership outcome, occupies the third discriminator. A scope, context, label, view, publication, representation, or selected use alone creates neither the base structure nor specialization membership.
+`BoundedModelUseStructure` and A.22's conditional crossing-analysis specialization are same-individual dependent predicates over already identified `U.Structure` values. The same structure individual keeps its A.22 identity; satisfying the corresponding A.22:4.1c condition adds the specialization and implies `U.Structure` membership. The bounded-model-use name has a current F.17 row. The crossing-analysis condition is strictly conditional on independently governed exact obtaining crossing occurrences plus all four A.22 base discriminators; because no positive member exists, its NameCard label remains local and pending and is not consumed here as public vocabulary. Neither condition adds a second structure individual, root identity, ambient-context discriminator, holonhood, agency, description identity, or view identity. An A.2.6 claim-scope value or membership fact affects the selection only when an exact applied constraint refers to it; that applied constraint, not the bare scope or membership outcome, occupies the third discriminator. A scope, context, label, view, publication, representation, or selected use alone creates neither the base structure nor specialization membership.
+
+The three A.1.1 relation-kind designations consumed by the bounded-model-use test are current through `UTS.ModelApplicabilityRelation.FPFCore.2026-07-25`, `UTS.ModelUseRelation.FPFCore.2026-07-25`, and `UTS.ModelExpressionCoherenceRelation.FPFCore.2026-07-25`. Those F.17 rows publish only the names. A.1.1 remains the direct owner of each predicate, participant set, obtaining condition, and occurrence-identity rule; a row, NameCard, matching token, or appearance in this registry makes no occurrence obtain and grants no `BoundedModelUseStructure` membership.
+
 
 A project that also needs bounded quantification may declare a C.3.2 local kind whose criterion cites the already governed durable predicate. That projection neither admits the durable kind nor creates an automatic `U.SubkindOf` edge.
 
@@ -86261,7 +86433,7 @@ Each `E24UK-AR-*` reference identifies one accepted C.2.1 decision episteme; the
 | `E24UK-AR-URELATION-R11-01` | `U.Relation`; `root`, reconstructed | `A.6.REL:4` plus the direct relation pattern; obtaining occurrence with identity rule | occurrence-bearing epistemes and relations; predicate, assertion, designator, tuple, or edge is not the occurrence |
 | `E24UK-AR-USTRUCTURE-R12-01` | `U.Structure`; `root`, R1.2 | `A.22:4.1`; one selected organization identified only by exact constituents, selected obtaining relation occurrences, applied constraints, and one named selection-use frame | selected-structure and specialization uses; context, label, system, team, subsystem, method, work, result, description, view, representation, publication, or use alone is not the structure |
 | `E24UK-AR-BMUS-R12-01` | `BoundedModelUseStructure`; `same-individual-dependent` under `U.Structure`, R1.2 | `A.22:4.1c` with `A.1.1` and `A.2.6`; the same already identified structure is selected over one exact model episteme, exact admitted model-use holons, and the required obtaining A.1.1 relation occurrences under applied constraints for the named bounded-model-use frame | bounded model-use reasoning; a bounded-context or model-use label, model episteme, team, subsystem, scope, description, view, graph, table, or publication alone grants no membership |
-| `E24UK-AR-CCRS-R12-01` | `CrossContextRelationStructure`; `same-individual-dependent` under `U.Structure`, R1.2 | `A.22:4.1c`; the same already identified structure has several bounded model-use structures as exact constituents and the exact selected obtaining crossing occurrences among them under applied constraints for one named crossing-analysis use | crossing analysis and context-mapping views; a context-map label, mapping method or work, view, diagram, publication, shared participant, or selected use alone grants no membership or merger |
+| `E24UK-AR-A22-CROSSING-RULE-R12-01` | A.22 conditional crossing-analysis specialization; `same-individual-dependent` rule under `U.Structure`, R1.2; public term pending | `A.22:4.1c`; the same already identified structure must have several bounded model-use structures as exact constituents and exact selected obtaining crossing occurrences among them under applied constraints for one named crossing-analysis use | the rule may support future crossing analysis; no current member, context-map label, mapping method or work, view, diagram, publication, shared participant, or selected use grants membership or a public specialization name |
 
 | `E24UK-AR-UWORKPLAN-RG-01` | `U.WorkPlan`; `same-individual-dependent` under `U.Episteme`, RG | `A.15.2:4`; intended-work membership plus root inclusion | planning and readiness; a calendar image, possible work, method description, or performed Work is not a WorkPlan |
 | `E24UK-AR-UROLEASSIGNMENT-RG-01` | `U.RoleAssignment`; `same-individual-dependent` under `U.Relation`, RG | `A.2.1:4`; obtaining assignment occurrence plus root inclusion | attribution and responsibility; a holder-role pair, window, or assertion record is not the occurrence |
@@ -86387,13 +86559,13 @@ In each closed replay, the `E24UK-*` result reference identifies the exact C.2.1
 4. **Eight tests and settlement.** Identified epistemes, C.2.1 identity, the A.15.2 membership witness, planning use, non-duplication, A.15.2 as direct locus, `E24UK-AR-UWORKPLAN-RG-01#settlement`, and by-value A.15 reliance are present. A.11 selects a same-individual dependent kind rather than a second root or plan object; no new A.8 universal root is claimed.
 5. **Result and flip.** `E24UK-AR-UWORKPLAN-RG-01` records `same-individual-dependent`; the existing Tech label `U.WorkPlan` is retained and this replay mints no new name. Reopen when C.2.1 identity, A.15.2 membership, the planning use, or settlement law changes. If only one bounded project needs the distinction and one exact C.3.2 declaration suffices, the disposition changes to `local-kind`.
 
-**Same-individual structure specializations — `BoundedModelUseStructure` and `CrossContextRelationStructure`.**
+**Same-individual structure specializations — `BoundedModelUseStructure` and the A.22 conditional crossing-analysis rule.**
 
 1. **Subject and use.** The decision subjects are the A.22 source constructs for base `U.Structure` and its two model-use specializations. A.1.1 and crossing-analysis consumers need durable membership without turning a context, team, subsystem, description, or view into another structure individual.
 2. **Coverage.** `U.Structure` supplies the one base identity. The two specialization conditions add stable action-facing membership to that same individual; neither needs an independent root or an identity-dependence relation to a context-like bearer.
-3. **Membership and near-misses.** A.22 first identifies `PressControlUse_S` from exact constituents `PressControlModel-5`, `Press-3`, and `PressControllerCode-17`; selected obtaining `ModelApplicabilityRelation`, `ModelUseRelation`, and `ModelExpressionCoherenceRelation` occurrences; an applied safety-control scope constraint; and the named use “decide whether operating use and controller-code maintenance belong to one bounded model-use organization.” Only then may the same `PressControlUse_S` satisfy `BoundedModelUseStructure`. A.22 separately identifies `SupplierBillingCrossing_S` from exact constituent structures `SupplierUse_S` and `BillingUse_S`, selected obtaining crossing occurrence `SupplierToBillingTranslation_R`, an applied translation-loss constraint, and the named use “choose translation checks before release”; only then may that same individual satisfy `CrossContextRelationStructure`. `PressControlTeam`, a `BillingContext` label, `ContextMap_v3` as a `U.View`, its diagram, and its publication occurrence identify none of those structures and grant no specialization membership.
-4. **Eight tests and settlement.** Governed structure individuals, A.22 identity, A.22:4.1c membership witnesses, action-facing model-use and crossing-analysis needs, non-duplication, A.22 as direct locus, `E24UK-AR-USTRUCTURE-R12-01#settlement`, `E24UK-AR-BMUS-R12-01#settlement`, `E24UK-AR-CCRS-R12-01#settlement`, and by-value reliance are present. A.2.6 contributes only when an applied constraint refers to an exact claim scope. That constraint, not the bare scope, membership outcome, or its representation, occupies the third discriminator.
-5. **Result and flip.** `E24UK-AR-USTRUCTURE-R12-01` records `root`; `E24UK-AR-BMUS-R12-01` and `E24UK-AR-CCRS-R12-01` record `same-individual-dependent` and each implies membership in `U.Structure` for the same individual. If the four base discriminators cannot be recovered, stop at the exact description or representation. If base identity is established but one specialization condition fails, retain only the base `U.Structure`; do not repair the failure with a context label, another structure identity, holonhood, or view typing. Reopen only when the A.22 identity or specialization condition, the A.2.6 applied-scope interface, the named reliance, or the shared settlement law changes.
+3. **Membership and near-misses.** A.22 first identifies `PressControlUse_S` from exact constituents `PressControlModel-5`, `Press-3`, and `PressControllerCode-17`; selected obtaining `ModelApplicabilityRelation`, `ModelUseRelation`, and `ModelExpressionCoherenceRelation` occurrences; an exact applied safety-control constraint claim whose proposition refers to the claim scope used by that selection; and the named use “decide whether operating use and controller-code maintenance belong to one bounded model-use organization.” That claim may state a proposition about the scope or its A.2.6 membership predicate; neither the bare scope nor the membership outcome is the constraint claim. Only then may the same `PressControlUse_S` satisfy `BoundedModelUseStructure`. The supplier-to-billing material currently supplies only a proposed six-part crossing organization—source `SupplierUse_S`, target `BillingUse_S`, direction, required fit, permitted loss, and claim scope. `SupplierToBillingTranslation_R` and `SupplierBillingCrossing_S` are not asserted: no compatible direct governor makes the crossing obtain, so the A.22 relation-occurrence discriminator and base identity are unavailable. Only after a future direct owner admits that occurrence and all four A.22 discriminators are established may the same identified structure satisfy the conditional crossing-analysis specialization. `PressControlTeam`, a `BillingContext` label, `ContextMap_v3` as a `U.View`, its diagram, and its publication occurrence identify none of those structures and grant no specialization membership.
+4. **Eight tests and settlement.** Governed base-structure and bounded-model-use individuals, A.22 identity and positive bounded-model-use membership witnesses, action-facing model-use needs, non-duplication, A.22 as direct locus, the relevant settlements, and by-value reliance are present. For the conditional crossing-analysis specialization, this replay settles only the same-individual-dependent membership rule and its action-facing need; it has no positive witness and no public F.17 row while the direct crossing governor is absent. A.2.6 contributes only when an applied constraint refers to an exact claim scope. That constraint, not the bare scope, membership outcome, or its representation, occupies the third discriminator.
+5. **Result and flip.** `E24UK-AR-USTRUCTURE-R12-01` records `root`; `E24UK-AR-BMUS-R12-01` records the current named `same-individual-dependent` specialization; `E24UK-AR-A22-CROSSING-RULE-R12-01` records only the conditional `same-individual-dependent` crossing-analysis rule without asserting a current member or public term. Each specialization implies `U.Structure` membership only for the same individual that satisfies its exact A.22 condition. If the four base discriminators cannot be recovered, stop at the exact description or representation. If base identity is established but one specialization condition fails, retain only the base `U.Structure`; do not repair the failure with a context label, another structure identity, holonhood, or view typing. Reopen only when the A.22 identity or specialization condition, the A.2.6 applied-scope interface, the named reliance, or the shared settlement law changes.
 
 **Identity-dependent candidate — stopped at the current owner.**
 
@@ -86443,7 +86615,7 @@ This pattern blocks punctuation-bias and taxonomy-bias. A `U.*` spelling, title,
 | `CC-E24UK-4c` | Every retained public example resolves through one exact `E24UK-AR-*` admission-result reference whose row names the disposition, direct owner, named reliance, non-use boundary, and reopen condition. The row is a projection of the decision episteme, not the decision, kind, or evidence. |
 | `CC-E24UK-4d` | Under the effective reference scheme, `ViewpointId i` designates exact viewpoint episteme P and resolving `U.ViewpointRef r` that uses i yields P; i, r, and P remain distinct, neither designation nor resolution grants membership, E.17.0 owns membership, and `DescriptionContext` remains a separate one-viewpoint use qualification. |
 | `CC-E24UK-4e` | Bootstrap co-decision `E24-CO-UONTIC-BOOT-01` returns distinct outputs `E24-OS-UONTIC-BOOT-01` and `E24UK-AR-UONTIC-BOOT-01` without presupposing an admitted `U.Ontic` or making the schema, pattern, decision episteme, or kind an ontology-unit instance. Any prerequisite kind without a resolvable accepted result remains in the open table. |
-| `CC-E24UK-4f` | Base `U.Structure` identity is context-independent and comes only from the four A.22 discriminators. `BoundedModelUseStructure` and `CrossContextRelationStructure` are same-individual dependent specializations of an already identified structure and add no second root identity. An A.2.6 scope or membership outcome affects identity only through an exact applied constraint that refers to it; the bare value or outcome is not a discriminator. A context, system, team, subsystem, label, scope, method, work, result, description, view, representation, publication, or use alone creates neither the base structure nor specialization membership. |
+| `CC-E24UK-4f` | Base `U.Structure` identity is context-independent and comes only from the four A.22 discriminators. `BoundedModelUseStructure` and A.22's conditional crossing-analysis specialization are same-individual dependent predicates over an already identified structure and add no second root identity. Only the bounded-model-use name currently has an F.17 public row. An A.2.6 scope or membership outcome affects identity only through an exact applied constraint that refers to it; the bare value or outcome is not a discriminator. A context, system, team, subsystem, label, scope, method, work, result, description, view, representation, publication, or use alone creates neither the base structure nor specialization membership. |
 
 | `CC-E24UK-5` | Structural locations retain `U.*` only with settlement evidence or direct reference to an already admitted U-kind. |
 | `CC-E24UK-6` | A world-side relation participant retains its independently governed kind, while the direct relation pattern states its participant meaning. |
@@ -86462,7 +86634,7 @@ This pattern blocks punctuation-bias and taxonomy-bias. A `U.*` spelling, title,
 | **Source type import.** A BFO, ISO, OWL, database, or programming-language type is copied as an FPF U-kind. | Source ontology and FPF ontic admission rules become mixed. | Use the source conversion guide and name the FPF governed object. |
 | **Searchable title wins.** A memorable heading remains public even though the body governs a record, publication form, relation structure, or local frame. | Discoverability replaces ontology. | Keep the searchable phrase in entry or retrieval material if useful, and put the governed object in the public pattern name. |
 | **Dependent kind promoted.** A dependent distinction is admitted as an independent root U-kind, or a root reference is treated as proof of dependence. | FPF grows duplicate roots, hides the root-inclusion law, or claims an unidentified dependence. | For the same individual, state the dependent membership predicate and its implication to root membership. For a distinct individual, cite an already governed exact dependence relation and its discriminators; otherwise stop admission at the missing governor. |
-| **Structure specialization re-rooted.** A context, system, team, subsystem, model-use label, scope, method, work result, view, diagram, publication, or named use is treated as if it created a base structure or one of its specializations. | The A.22 four-discriminator identity is bypassed, and description, representation, or use is mistaken for structure membership. | Identify the exact `U.Structure` under A.22 first. Add `BoundedModelUseStructure` or `CrossContextRelationStructure` only to that same individual when the corresponding A.22:4.1c condition holds; otherwise retain the actual context-like, epistemic, representational, publication, or use object under its direct owner. |
+| **Structure specialization re-rooted.** A context, system, team, subsystem, model-use label, scope, method, work result, view, diagram, publication, or named use is treated as if it created a base structure or one of its specializations. | The A.22 four-discriminator identity is bypassed, and description, representation, use, or a pending label is mistaken for structure membership. | Identify the exact `U.Structure` under A.22 first. Add `BoundedModelUseStructure` only when its A.22:4.1c condition holds; apply the conditional crossing-analysis rule only after independently governed crossings and all four base discriminators exist. Otherwise retain the actual context-like, epistemic, representational, publication, or use object under its direct owner. |
 
 | **Contingent qualification promoted.** Temporary participation in a publication or another direct relation is given a durable U-kind. | The same individual appears to change kind merely because a relation starts or ends. | Keep the exact relation occurrence and use Plain relation-defined wording; for publication use Plain `published episteme` and E.24.PUB. |
 
@@ -86527,7 +86699,7 @@ Reopen this source basis when a cited edition changes, a stronger current source
 - **Shares settlement with:** `E.24` through the one `E24FamilySettlementDecision` schema in `E.24:4.0a`. E.24.UK owns the `UKindAdmissionResult`; E.24 owns the `OnticSettlementResult`. An existing result may be reused, while a case needing both new outputs is one atomic co-decision with neither output used as prior evidence.
 - **Uses for relation admission:** `A.6.REL` supplies the common occurrence discipline; each direct relation pattern supplies participant meanings, obtaining, applicability, and occurrence identity; and `A.6.RCD` may return a residual claim or a derived-or-primitive candidate with its proposed direct subject settlement. Local-claim and predicate-definition results remain claim content and do not admit a relation kind.
 - **Uses for neighboring objects:** `A.6.0` and `A.6.5` govern reusable declarations; `C.2.1` governs admission-decision, assertion, and description epistemes; `F.18` governs the selected Tech label and designators; `C.29` governs mathematical and data-model representations.
-- **Coordinates with:** `A.22` for context-independent base `U.Structure` identity and the `BoundedModelUseStructure` and `CrossContextRelationStructure` membership conditions; `A.1.1` for the bounded model-use participants and exact obtaining relations; `A.2.6` for claim-scope membership used by exact applied constraints; `C.3`, `C.3.1`, and `C.3.2` for local typed reasoning and membership judgments; `E.24.CD` for candidate detection before an E.24 ontic decision, with any resulting U-kind spelling or admission pressure returning here without either pattern selecting the other's disposition; `E.24.PUB` for `EpistemePublicationRelation`, publication form, and carrier distinctions; `A.3.2` for `U.MethodDescription` membership; `E.17.0` for `U.Viewpoint`, `EpistemeViewpointConformanceRelation`, and `U.View` membership; `A.6.3` only for an optional viewing construction; `A.8` and `A.11` for kernel parsimony; and `E.10` for source wording that still hides the governed object.
+- **Coordinates with:** `A.22` for context-independent base `U.Structure` identity, the `BoundedModelUseStructure` membership condition, and the still-local conditional crossing-analysis rule; `A.1.1` for the bounded model-use participants and exact obtaining relations; `A.2.6` for claim-scope membership used by exact applied constraints; `C.3`, `C.3.1`, and `C.3.2` for local typed reasoning and membership judgments; `E.24.CD` for candidate detection before an E.24 ontic decision, with any resulting U-kind spelling or admission pressure returning here without either pattern selecting the other's disposition; `E.24.PUB` for `EpistemePublicationRelation`, publication form, and carrier distinctions; `A.3.2` for `U.MethodDescription` membership; `E.17.0` for `U.Viewpoint`, `EpistemeViewpointConformanceRelation`, and `U.View` membership; `A.6.3` only for an optional viewing construction; `A.8` and `A.11` for kernel parsimony; and `E.10` for source wording that still hides the governed object.
 - **Does not replace:** the direct pattern that governs the classified individuals, their identity or membership, their intended extent, and their action-facing use.
 
 ### E.24.UK:End
@@ -89397,576 +89569,558 @@ Do not ask for a better name first. Ask what the expression is trying to name, w
 **Type:** Architectural pattern.
 **Status:** Stable.
 **Normativity:** Normative.
-**Builds on:** E.10.D1 (context discipline: Context = `U.BoundedContext`); F.0.1 (`senseFamily` and status-modality guard; bridge-only crossing); F.1 (contexts fixed); F.2 and F.3 (SenseCells exist); F.7 (Concept-Set rows depend on bridges); F.8 (mint-or-reuse decision consumes bridge results without strengthening them).
+**Builds on:** F.17 for exact scheme-based `SchemeSenseCell` identity and `SenseCellAddressRef`; F.18 for designation selection; C.2.1 for assertion and description-episteme identity; F.0.1 for `senseFamily` and bridge-only crossing discipline; F.7 and F.8 for downstream naming and reuse decisions.
 
-**Coordinates with:** A.2, A.2.1, F.4, F.5, F.6, and A.15.1 for work-facing role, role-description, role-assignment, and performed-work claims; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; B.3 for assurance penalties; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
+**Coordinates with:** A.10 for evidence-provenance relations and local reliance dispositions; B.3 for assurance claims and minimum assurance records; A.2, A.2.1, F.4, F.5, F.6, and A.15.1 for work-facing role and performed-work claims; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
 
 **Plain entry cues (informative).** Context-to-context translator; sense bridge.
 
 ### F.9:1 - Intent and applicability
 
-**Intent.** Provide a conceptual discipline for relating `SenseCells` from different `U.BoundedContext`s. A Bridge states what relation holds, which direction matters, how much congruence is admitted by `CL`, what is lost, and which cross-context use remains admissible.
+**Intent.** Govern one actual semantic `Bridge` relation between two exact F.17 `SchemeSenseCell` values from different semantic contexts. Keep that relation separate from a claim that it suits a proposed use, the evidence or assurance on which a reader relies, an optional Bridge Card, and any object created when the proposed use is actually performed.
 
-**Applicability.** Use this pattern when an author needs to compare local senses across contexts, reuse a familiar label, connect design-time and run-time senses, compare two standards' terms, or justify a row in the Concept-Set table.
+**Applicability.** Use this pattern when an author needs to compare local senses across contexts, reuse a familiar label, connect design-time and run-time senses, compare two standards' terms, or justify a cross-context row. A shared word or available mapping is only a reason to ask whether a Bridge obtains.
 
-**Primary EntityOfConcern in plain terms.** One Bridge Card relating two `SenseCells` across different `U.BoundedContext`s. The EoC is not a transport chain, not a work process, not a role assignment, and not one global meaning layer.
+**Primary EntityOfConcern in plain terms.** One actual correspondence or difference between two exact local senses. The governed object is the direct `Bridge` occurrence, not a card, context, transport chain, work process, role assignment, evidence item, or global meaning layer.
 
-**Admissible move in plain terms.** Declare bridge kind, direction, `CL`, loss, and admitted use so cross-context sense use stays inspectable without collapsing local meanings into silent equivalence.
+**Admissible move in plain terms.** First resolve the two local senses. Then state what semantic correspondence or difference holds between them and test that relation. If it obtains, identify the Bridge. Only after that, state the proposed use separately: what the reader will do, in which direction, by which correspondence rule, and how much semantic loss that use tolerates. A current affirmative C.2.1 claim answers whether this Bridge is suitable for that bounded use. Check the evidence for relying on that claim under A.10, or use B.3 when an assurance claim is made or its material-reliance threshold is met. If the use actually happened, recover the resulting Work, assertion, publication, relation, operation application, or other object under its direct owner. Add a Bridge Card only when a reusable package is worth maintaining.
 
-**Primary working reader.** An author, checker, or practitioner preparing one bridge card, comparative bridge note, or concept-set row that depends on cross-context sense use.
+**Primary working reader.** An author, checker, or practitioner deciding first whether a cross-local semantic relation actually obtains and then whether it supports one named use.
 
-**Use this when.** Use F.9 when the same term, role name, quality label, status label, measurement label, method label, or structural label appears in more than one context and the team is about to treat that overlap as if it were already equivalence or safe substitution.
+**Use this when.** Use F.9 when a receiving claim needs an exact semantic relation between two local senses whose `<ReferenceScheme, LocalSenseClaim>` interpretation bases differ. Different schemes, identical spelling, a mapping implementation, or a request for comparison does not establish that relation.
 
-**What goes wrong if missed.** Teams fall back to shared labels, string-equals shortcuts, or informal analogies, then quietly smuggle equivalence, substitution, structural inference, or role assignment across contexts without stating kind, direction, `CL`, or loss.
+**What goes wrong if missed.** Teams turn shared labels and convenient mappings into silent equivalence, substitution, structural inference, status transfer, or role assignment. They also mistake evidence about a proposed use, or a polished card, for the relation itself.
 
-**What this buys.** One explicit bridge discipline that lets a team compare contexts and reuse names while keeping direction, loss, and the limits of admissible substitution visible.
+**What this buys.** A reader can see which relation is true, which proposed use is being judged, what evidence supports reliance on that judgement, and whether any downstream act actually happened. Those facts can change independently without silently merging local meanings.
 
-**Not this pattern when.** Not F.9 when the case is still only one local context, when the needed claim is a role assignment, performed-work attribution, evidence use, status use, source use, publication use, assurance claim, gate claim, decision claim, or mathematical-lens use. Use the direct governing pattern first; cite F.9 only when cross-context sense alignment itself is live.
+**Not this pattern when.** Not F.9 when the case is still inside one semantic context, or when the live question is role assignment, performed-work attribution, evidence use, status use, source use, publication, assurance, authorization, a gate, a decision, or a mathematical-lens operation. Use the direct governing pattern for that object; cite F.9 only when cross-context semantic correspondence is also needed.
 
-**Recognition versus assurance note.** Intent, applicability, this boundary, and the first worked case are the recognition block. Bridge kinds, `CL`, conformance, and relation sections are assurance blocks; they tighten the same Bridge Card claim instead of widening F.9 into role assignment, work execution, governance, or one global meaning layer.
+**Recognition versus assurance note.** Resolving the endpoint senses and testing the direct Bridge predicate recognizes the semantic relation. A separate C.2.1 claim judges one bounded use. A.10 or B.3 governs whether a reader may rely on that claim for the named use. None of those steps supplies legal, policy, or deontic authorization.
 
 ### F.9:2 - Problem frame
 
 Cross-context work fails in predictable ways:
 
 1. **String-equals fallacy.** Identical spellings such as "process", "role", "accuracy", or "ready" are taken as identical meaning.
-2. **Scope creep.** A naming convenience is stretched into role assignment, status transfer, work attribution, evidence use, or structural inference.
+2. **Relation-to-use jump.** A true semantic correspondence is treated as sufficient for whatever comparison, substitution, translation, or publication is wanted next.
 3. **Design-run jumping.** Design artefacts are substituted for run-time occurrences, or run-time occurrences are treated as design definitions.
-4. **Direction amnesia.** Narrower and broader relations are treated as symmetric.
-5. **Loss blindness.** Differences in unit, granularity, precondition, time stance, enforcement locus, or viewpoint are left unstated.
+4. **Direction amnesia.** A symmetric relation is read as two use licences, or narrower and broader senses are used in the unsafe direction.
+5. **Loss blindness.** The proposed use does not name which differences it tolerates.
+6. **Evidence and permission collapse.** A score, card, or assurance record is treated as the semantic relation, authorization, or proof that the use occurred.
 
-F.9 answers these failures by making relation, direction, loss, `CL`, and admitted use explicit.
+F.9 answers these failures by separating the direct relation, the bounded-use proposition, reliance on that proposition, optional packaging, authorization, and any actual receiving object.
 
 ### F.9:2.1 - Problem
 
-A shared label across contexts can look like identity, substitution permission, status transfer, evidence authority, role assignment, work attribution, or structural equivalence before any bridge relation is declared. The problem is to preserve useful cross-context comparison while stating the local senses, bridge kind, direction, confidence level, losses, and admitted use so the bridge does not silently become another governed claim.
+A shared label across contexts can look like identity or permission before any semantic relation is tested. Even after a Bridge obtains, its truth does not answer whether one particular comparison or substitution is suitable. The problem is to preserve useful cross-context work while keeping the relation, the proposed use, its evidence, and the downstream act individually testable.
 
 ### F.9:3 - Forces
 
 | Force | Tension to resolve |
 | --- | --- |
 | Locality versus reuse | Senses are context-local, yet people need common labels and comparison points across contexts. |
-| Simplicity versus fidelity | Few bridge kinds are teachable; too few hide material mismatches. |
-| Admissibility versus usefulness | Cross-context reuse should be possible, but only at the use level the bridge actually admits. |
-| `senseFamily` purity versus explanation | Substitution must preserve `senseFamily`; explanation may cross `senseFamily` boundaries without implying sameness. |
-| Bridge discipline versus direct governing patterns | F.9 can bound cross-context sense alignment, but it must not create role assignments, work records, evidence relations, or status relations by itself. |
+| Simplicity versus fidelity | Few Bridge kinds are teachable; too few hide material semantic differences. |
+| Relation truth versus practical use | A correspondence can obtain while a proposed direction, rule, or tolerance is unsuitable. |
+| `senseFamily` continuity versus explanation | Some relations compare senses within one family; others explain a cross-family connection without making them substitutable. |
+| Evidence versus authorization | Evidence or assurance may support reliance on a bounded-use claim but does not grant legal, policy, or deontic permission. |
+| Bridge discipline versus direct governing patterns | F.9 governs semantic correspondence; it must not create role assignments, work, evidence relations, publications, or status occurrences. |
 
 ### F.9:4 - Solution
 
-A Bridge is a declared correspondence between two local senses. It always names:
+Start with the two exact local senses, not with a context object, mapping table, or card. Resolve each endpoint as an F.17 `SchemeSenseCell` coordinate:
 
-1. the two `SenseCells`,
-2. bridge kind,
-3. direction if direction matters,
-4. `CL`,
-5. Loss Notes,
-6. counter-example or invariant evidence,
-7. admitted use.
+```text
+<ReferenceScheme by value, LocalExpression, LocalSenseClaim>
+```
 
-Some Bridges admit naming or bounded substitution of sense. Interpretation Bridges admit explanation only. A Bridge never creates a `U.RoleAssignment`, never attributes performed work, never turns an episteme into evidence by itself, and never admits a durable U-kind.
+For F.9, **semantic context** is Plain shorthand for the bounded interpretation basis recovered from one cell's `<ReferenceScheme, LocalSenseClaim>` projection. It is not a `U.Entity`, `U.BoundedContext`, selected model-use structure, project, scope, viewpoint, description, designator, or reference. Two expressions under the same projection are a designation question first. Different projections make a Bridge question possible but do not make a Bridge obtain.
+
+When the two cells are from different semantic contexts, declare one relation-semantic `BridgePredicateProfile` and test it against their current meanings. Shared spelling, different schemes, a mapping implementation, a card, a registry entry, evidence, an assessment score, or publication establishes none of those facts by itself.
+
+#### F.9:4.1 - Direct Bridge relation
+
+`Bridge` is a direct species of `U.Relation`. Its reusable `RelationSignature` has exactly two participant meanings:
+
+| SlotKind | ValueKind | refMode | Participant meaning |
+| --- | --- | --- | --- |
+| `SourceSenseCellSlot` | F.17 `SchemeSenseCell` coordinate | `SenseCellAddressRef` | The exact source local sense, resolving its by-value reference scheme, local expression, and local-sense claim. |
+| `ReceivingSenseCellSlot` | F.17 `SchemeSenseCell` coordinate | `SenseCellAddressRef` | The exact receiving local sense used by the claimed semantic relation. |
+
+No context, proposed use, use direction, correspondence rule for that use, permitted-loss tolerance, assertion, evidence item, policy, time value, card, publication, registry id, or carrier is a third participant.
+
+An F.9-local `BridgePredicateProfile` is a by-value predicate declaration, not a U-kind, participant, card, claim, or evaluation result. Its identity-bearing content is only:
+
+1. the `BridgeKind` and its kind-defined symmetry or endpoint orientation;
+2. the exact source and receiving endpoint-sense readings, including their `senseFamily` readings where material;
+3. the relation-kind-specific correspondence or difference condition;
+4. the applicability and as-of basis for testing that condition;
+5. the Boolean truth condition; and
+6. every stop dependency whose absence prevents a truthful result.
+
+The profile contains no receiving-use role, use direction, use-specific correspondence rule, permitted-loss tolerance, bounded-use proposition, assertion polarity, evidence-reliance classification, assurance claim, authorization, or receiving object.
+
+`Bridge(SourceSenseCell, ReceivingSenseCell; BridgePredicateProfile)` obtains exactly when:
+
+- both endpoint references resolve to exact F.17 `SchemeSenseCell` values;
+- their semantic-context projections differ;
+- the profile applies to those endpoint readings at its stated as-of basis;
+- the current endpoint meanings satisfy its kind-specific correspondence or difference condition and Boolean truth condition; and
+- every required dependency is present.
+
+If an endpoint is unresolved, the projections are the same, a dependency is missing, or the predicate is false or unresolved, assert no positive occurrence and state the exact exit: ordinary designation, `unresolved SenseCell endpoint`, `same semantic context`, `missing Bridge dependency`, `Bridge predicate false`, or `Bridge predicate unresolved`.
+
+The occurrence is identified by the exact endpoint cells together with the exact profile. For an asymmetric kind, the ordered source-to-receiving relation tuple is identity-bearing and an inverse claim requires another profile and occurrence. For a symmetric kind, swapping only the readable presentation of the same canonical endpoint pair does not create another occurrence. A changed endpoint or changed relation-semantic profile identifies another occurrence candidate. A changed proposed use, use direction, rule, tolerance, evidence path, reliance disposition, assurance claim, card, registry entry, publication, form, or carrier does not reidentify the fixed Bridge.
+
+#### F.9:4.2 - Judge a bounded use separately
+
+Once exact Bridge `b` obtains, state the proposed use in ordinary language before introducing FPF terms. Name:
+
+- `u`: what the reader proposes to compare, substitute, translate, publish, or otherwise do;
+- `d`: the exact source-to-receiving direction for that use;
+- `r`: the use-specific correspondence rule;
+- `t`: the semantic-loss tolerance for that use; and
+- whether the claim is affirmative or negative.
+
+The resulting C.2.1 claim asks whether `b` is suitable for `<u,d,r,t>`. Its exact EntityOfConcern is `b`; its ClaimGraph designates `u`, `d`, `r`, `t`, and polarity; its effective ReferenceScheme makes those designations interpretable. That C.2.1 triple identifies the claim episteme. Changing `u`, `d`, `r`, or `t` changes the claim, not the Bridge.
+
+An affirmative claim is one premise for the proposed use. It is not a permission, authorization, evidence-provenance relation, reliance classification, assurance claim, decision, or occurrence of that use. A negative claim says that the Bridge is not suitable for the named use; it does not make the Bridge cease to obtain.
+
+For ordinary evidence reliance below B.3's material-reliance threshold and with no assurance claim, recover the exact A.10 evidence-provenance graph relation by value and state its local `RelianceDisposition` for the same bounded use. Only `RelianceDisposition=pass` supports reliance on the affirmative claim for that exact use; `degrade` supports only its named narrower use, while `abstain`, `reopen`, `evidence-needed`, `blocked-current-use`, or `safety-case-required` supplies no passing classification for the attempted use.
+
+Enter B.3 when the receiver makes an assurance claim or the proposed use meets B.3's material-reliance threshold. Decide first whether a current assurance claim exists. A met threshold requires the minimum reliance safety assurance record and contest boundary but creates no positive claim. Use a positive current B.3 assurance claim only when it exists, its record is sufficient, and it carries the same bounded assurance use. Otherwise state the exact no-assurance, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked disposition and stop or narrow the use accordingly.
+
+Neither an A.10 passing disposition nor a positive B.3 assurance claim is legal, policy, or deontic authorization. If authorization is needed, recover it under its direct governor. If a later claim says the use happened, recover the actual Work, assertion episteme, publication occurrence, direct relation, operation application, or other object under its own pattern; the role `u` in the bounded-use claim is not that occurrence.
 
 ### F.9:5 - Minimal vocabulary
 
-* **Context** - shorthand for `U.BoundedContext` per E.10.D1.
-* **SenseCell** - the pair `(Context, Local-Sense)` from F.3.
-* **Bridge** - a declared relation between two `SenseCells` with kind, direction, `CL`, Loss Notes, and admitted use.
-* **CL (Congruence Level)** - ordinal congruence class `0..3` for one Bridge.
-* **Admitted use** - what the Bridge lets a downstream claim do without overclaim.
-* **Naming-only** - cross-context prose label or Concept-Set row label only.
-* **Role-description naming** - a row or label may inform a `RoleDescription` name for one local `U.Role`; it does not assign that role and does not attribute performed work.
-* **Type-structure** - structural inference across contexts; admissible only at `CL = 3` with named invariants.
-* **Explanation-only** - interpretation relation across sense families; no row substitution and no direct role, status, work, evidence, gate, or decision effect.
-* **senseFamily** - the local meaning family used by Part F, such as Role, Status, Measurement, Type-structure, Method, Work occurrence, Evidence-use, or Policy-use. A `senseFamily` label is not a durable U-kind by itself.
+* **Semantic context** - Plain shorthand for the interpretation basis `<ReferenceScheme, LocalSenseClaim>` recovered from an exact F.17 cell; it is not a separate entity or participant.
+* **SchemeSenseCell** - the exact F.17 local composite value `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`.
+* **SenseCellAddressRef** - an address that resolves one exact `SchemeSenseCell`; the address is not the cell.
+* **Bridge** - an obtaining direct semantic relation between two exact `SchemeSenseCell` values from different semantic contexts under one exact profile.
+* **BridgePredicateProfile** - the F.9-local by-value declaration of the direct relation's kind, symmetry or orientation, endpoint readings, correspondence or difference condition, applicability and as-of basis, Boolean truth condition, and stop dependencies.
+* **Bounded-use claim** - an ordinary C.2.1 claim that says whether one exact obtaining Bridge is suitable for one named use, direction, use-specific rule, and loss tolerance. This phrase is descriptive, not a new public kind name.
+* **Relation orientation** - how the Bridge kind orders or symmetrically relates its endpoint slots; it is not a use licence.
+* **Use direction** - the ordered `<UseSourceSenseCell, UseReceivingSenseCell>` designated inside one bounded-use claim.
+* **Observed semantic loss** - a difference or counterexample found in evidence. It can bear on a bounded-use claim but is not the use's permitted-loss tolerance.
+* **Permitted-loss tolerance** - the maximum named loss accepted by one proposed use; it is content of that use's C.2.1 claim.
+* **Bridge Card** - an optional C.2.1 claim-bearing episteme about an actual Bridge or a proposed relation candidate; it is not the relation.
+* **CL (Congruence Level)** - optional F.9-local shorthand for the strength of evidence about a stated correspondence. It is neither a participant nor a use threshold and never grants a use.
+* **senseFamily** - the local meaning family used by Part F. A `senseFamily` label is not a durable U-kind.
 
 ### F.9:6 - Bridge kinds
 
-F.9 distinguishes substitution bridges from interpretation bridges.
+A Bridge kind classifies the direct semantic relation tested by a profile. It says what correspondence or difference obtains; it does not settle any proposed use.
 
-#### F.9:6.1 - Substitution bridges
+#### F.9:6.1 - Same-family relation kinds
 
-These relate `SenseCells` in the same `senseFamily` and may admit bounded substitution of sense.
+1. **Equivalence** - the endpoint senses have the same extension and relevant intension under the stated relation condition. The relation is symmetric and should be rare. A later use still names its direction, rule, and tolerance.
+2. **Narrower-than** - the source sense is properly included in the receiving sense. The relation is asymmetric.
+3. **Broader-than** - the source sense properly includes the receiving sense. The relation is asymmetric.
+4. **Partial-overlap** - the senses have a non-empty intersection, while each has cases excluded by the other. The relation is symmetric.
+5. **Disjoint** - the senses have no common admissible case under the stated readings. The relation is symmetric.
 
-1. **Equivalence** - near-identity of sense. Symmetric and rare.
-   Use: may admit Type-structure rows only when `CL = 3` and invariants match.
-   Loss Notes: none or profile-level differences, with the invariant evidence stated.
+For inclusion, a narrower-to-broader proposed use is usually easier to justify than the reverse, but neither direction follows from the relation alone. A broader-to-narrower proposal normally needs refined endpoint cells and a separately tested Bridge plus a separately warranted bounded-use claim.
 
-2. **Narrower-than and Broader-than** - proper inclusion of sense. Directional.
-   Use: narrower-to-broader may admit Naming-only and, at `CL >= 2`, role-description naming or other same-family name reuse. Broader-to-narrower is not admitted unless a separate Bridge states it.
-   Loss Notes: special cases, enforcement conditions, or local constraints that fail to carry.
+#### F.9:6.2 - Cross-family relation kinds
 
-3. **Partial-overlap** - non-empty intersection where neither sense includes the other.
-   Use: Naming-only at best. It never admits role assignment, performed-work attribution, or Type-structure inference.
-   Loss Notes: A-only sense and B-only sense.
+These kinds state semantic correspondence across different `senseFamily` readings. They explain a connection; they do not create substitution, evidence authority, policy force, or a receiving occurrence.
 
-4. **Disjoint** - explicit contrast.
-   Use: contrastive explanation only.
-   Loss Notes: not applicable; the claim is incompatibility.
+6. **Design-spec-to-run-occurrence** - a design sense corresponds to a run-time occurrence sense while remaining different in temporal and realization status.
+7. **Measurement-evidence-for** - a measurement sense corresponds to the measured aspect of another sense. The kind is semantic; actual evidential support remains with A.10 or B.3.
+8. **Policy-constraint-on** - a policy or deontic sense corresponds to a constrained behavioral sense. Actual obligation, permission, or authority remains with the policy or deontic governor.
+9. **Viewpoint-correspondence** - a sense used in one view corresponds to a sense used in another view over an EntityOfConcern. View, description, publication, and source-use claims keep their direct owners.
 
-#### F.9:6.2 - Interpretation bridges
+### F.9:7 - Evidence about relation and use
 
-These explain connections across `senseFamily` boundaries. They do not admit substitution or Concept-Set rows beyond local explanation.
+Evidence must answer the question it actually bears on:
 
-5. **Design-spec-to-run-occurrence** - a design sense relates to a run-time occurrence sense.
-   Example: `BPMN:Process` to `PROV:Activity`.
-   Use: explain design-to-run correspondence.
-   Loss Notes: process model versus occurrence, control structure versus temporal extent.
+| Evidence question | What the evidence may support | What it cannot establish |
+| --- | --- | --- |
+| Do the endpoint meanings satisfy the fixed profile? | the claim that the Bridge obtains, is false, or remains unresolved | suitability for an unnamed use |
+| Does the Bridge suit `<u,d,r,t>`? | affirmative or negative polarity of the exact C.2.1 bounded-use claim | authorization or performance of the use |
+| May the reader rely on that claim now? | an A.10 local `RelianceDisposition`, or the B.3 claim or disposition selected for the same bounded use | the Bridge occurrence, legal permission, or a receiving occurrence |
 
-6. **Measurement-evidence-for** - a measurement sense evidences or quantifies another sense.
-   Example: `SOSA:Observation` to `ITIL:SLO fulfilment`.
-   Use: explain evaluation; direct evidence-use remains with A.10, B.3, E.17, F.10, or the local status pattern.
+`CL` may summarize evidence strength for a stated correspondence: `0` contradicted, `1` weakly comparable, `2` bounded support with explicit counterexamples, and `3` matched stated invariants with no current material counterexample. It is optional and never serves as a use threshold. A `CL=3` label does not make a type-structure use suitable; the separate claim must still name the rule and tolerance, and reliance must still pass under A.10 or B.3.
 
-7. **Policy-constraint-on** - a policy or deontic sense constrains another sense.
-   Example: `ODRL:Duty` to service behavior.
-   Use: explain a constraint relation; direct policy, gate, or authority claims remain with the governing pattern.
+Observed losses, unit differences, counterexamples, and invariant checks belong in the evidence path or card. The proposed use's permitted-loss tolerance belongs in its ClaimGraph. A loss observation can change without reidentifying either the fixed Bridge or the bounded-use claim; it may instead reopen the claim's polarity or the current reliance disposition.
 
-8. **Viewpoint-correspondence** - one view, report, model, dashboard, or viewpoint-bound episteme corresponds to another view over an EntityOfConcern.
-   Use: explain cross-view comparison; direct architecture-description, episteme, publication, or source-use claims remain with their governing patterns.
+### F.9:8 - Bridge occurrence and Bridge Card
 
-### F.9:7 - CL scale and admitted-use thresholds
-
-| CL | Name | Intuition | Typical loss | Admitted use |
-| --- | --- | --- | --- | --- |
-| 0 | Opposed | Intentionally contrastive or disjoint | incompatibility | contrastive explanation only |
-| 1 | Comparable | Shared label can orient readers, but senses differ materially | material sense divergence | Naming-only |
-| 2 | Translatable | Bounded loss with examples and counter-examples | stated losses | Naming-only; role-description naming or other same-family name reuse; no direct assignment or work attribution |
-| 3 | Near-identity | Invariants match; no material counter-example | profile-level only | Type-structure rows and other invariant-preserving same-family uses |
-
-Thresholds:
-
-* A Naming-only row requires `CL >= 1`.
-* A Role-description naming row requires `CL >= 2`, the same Role `senseFamily`, and stated local-role losses. It still does not create a `U.RoleAssignment`.
-* A Type-structure row requires `CL = 3` and matched invariants such as acyclicity, anti-symmetry, unit transform, cardinality, or signature-preserving relation shape.
-* Interpretation Bridges remain Explanation-only regardless of `CL`.
-
-B.3 may convert `CL` into an assurance penalty when a cross-context claim uses a Bridge.
-
-### F.9:8 - Bridge Card
-
-Use this compact record when a Bridge claim matters:
+Recover the direct relation before describing it. A Bridge may obtain without any card. Use a card only when durable reuse, delayed handoff, evidence review, audit, publication, or costly reversal makes a reusable claim package worthwhile.
 
 ```text
 BridgeCard:
-  CellA:
-  CellB:
-  senseFamilyA:
-  senseFamilyB:
-  BridgeKind:
-  Direction:
-  CL:
-  LossNotes:
-  CounterExampleOrInvariantEvidence:
-  AdmittedUse:
-  NonAdmittedUse:
-  DirectGoverningPatternIfNotF9:
-  RevisionTrigger:
+  ClaimMode: actual | candidate | negative
+  BridgeOccurrenceRef?: exact ref, actual mode only
+  EntityOfConcern: exact obtaining Bridge, or admitted F.9 Bridge relation kind for candidate or negative mode
+  ProposedSourceSenseCellRef?: SenseCellAddressRef
+  ProposedReceivingSenseCellRef?: SenseCellAddressRef
+  ProposedBridgePredicateProfile?: by-value profile
+  BoundedUseClaims?: each with u, d, r, t, polarity, and effective ReferenceScheme
+  A10EvidenceUse?: exact evidence-provenance relation plus local RelianceDisposition
+  B3Use?: positive assurance claim plus sufficient record, or exact non-positive disposition
+  ObservedLossAndCounterexamples?:
+  EvidenceWarrantAndCurrentness?:
+  NearestNonUse?:
+  CardReferenceScheme:
 ```
 
-`AdmittedUse` states the strongest use the Bridge permits. `NonAdmittedUse` names the tempting overclaim, such as role assignment, work attribution, structural inference, source authority, or evidence use. `DirectGoverningPatternIfNotF9` points to the pattern that must govern that overclaim before it may become a claim.
+For `ClaimMode: actual`, the card's exact EntityOfConcern is the already individuated Bridge occurrence. The card may package the Bridge claim, one or more bounded-use propositions, their evidence and polarity, the exact A.10 relation and local disposition or the selected B.3 branch, currentness, and nearest non-use.
 
-`BridgeId` and policy or edition identifiers cited by a Bridge Card are registry references, not semantic symbols exported by signatures. Do not demand them through `SignatureManifest.provides`; validate that referenced registry entries exist and are edition-pinned when required.
+For `ClaimMode: candidate` or `negative`, no positive occurrence reference exists. The card's EntityOfConcern is the admitted F.9 direct `Bridge` relation kind. Its ClaimGraph designates the proposed endpoints and profile. `candidate` states that the proposed Bridge may obtain; `negative` states that its predicate does not obtain. Any bounded-use proposition in the same graph keeps its own polarity. Completing, approving, registering, or publishing this card creates no Bridge.
+
+The exact `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>` triple identifies the card episteme. A changed card edition, evidence path, reliance disposition, assurance claim or disposition, registry record, publication occurrence, form, carrier, or layout does not reidentify a fixed Bridge.
 
 ### F.9:9 - Boundary to coarsening and quantum-like export
 
-Use F.9 first when meaning, label, relation, field, record, model output, report, or representation crosses a bounded context or publication context. A bridge does not become quantum-like because it is lossy, approximate, contextual, or hard to translate. It becomes quantum-like only when the bridge or export claim still depends on order sensitivity, incompatible frames, a probe that changes represented state, or no faithful-enough export for the intended use.
+Open F.9 when a receiving use needs an actual semantic relation between exact local senses. A lossy or approximate export is not thereby a Bridge, and an actual Bridge is not thereby a quantum-like state transition.
 
-Boundary sequence:
+Use this order:
 
-1. Build the ordinary Bridge Card first: cells, sense families, kind, direction, `CL`, loss, counter-example or invariant evidence, and admitted use.
-2. State which state, relation, evidence, metric, option, or viability claim is said to survive the crossing.
-3. State what the crossing omits, coarsens, re-keys, reframes, makes incomparable, or makes unsafe for the intended downstream use.
-4. If the bridge or export claims to preserve action, intervention, manipulation, explanation, or cross-scale structure, state the causal-abstraction or approximate-causal-abstraction mapping before treating the coarsened bridge as a C.26 issue.
-5. If asking, measuring, exporting, rendering, or bridging changes the represented state itself, coordinate with C.26.1.
-6. If coordinated work or live state is not exported faithfully enough for the intended use by any one report or bridge, coordinate with C.26.2.
-7. If the crossing is a state representation with declared source-loss mode or reduced recoverability, coordinate with A.6.3.CSC, A.6.3.RT, and C.26.
+1. resolve the exact F.17 cells, state the relation-semantic profile, and test whether the Bridge obtains;
+2. state the proposed use separately as `<u,d,r,t>` and give the C.2.1 claim its polarity;
+3. recover the exact A.10 evidence-provenance relation and local disposition, or the B.3 claim or disposition selected for that use;
+4. if the use happened, identify the actual governed object and apply its direct owner;
+5. add a Bridge Card only if durable packaging pays;
+6. open A.6.3.CSC, C.26.1, or C.26.2 only when coarsening, probe effects, or failure of any faithful-enough report is the live question.
 
-When the bridge result will be reused for decision, comparison, assurance, release, audit, or cross-context action, add a state-export line to the Bridge Card:
-
-| Field | Ask |
-| --- | --- |
-| Surviving reading | Which state, relation, evidence, metric, option, or viability reading is claimed to survive the crossing? |
-| Loss or change | What is omitted, coarsened, re-keyed, reframed, made incomparable, or no longer decision-safe? |
-| Probe or frame condition | Does asking, measuring, exporting, rendering, or bridging change the represented state? |
-| Admitted use | Which decision, explanation, triage, comparison, or orientation use remains supported? |
-| Non-admitted use and return condition | Which stronger use still needs more support, and when must the source context, evidence carrier, or fuller representation be reopened? |
-
-A lighter cross-context note may orient readers, but it is not a Bridge Card. Before any equivalence, substitution, Naming-only row, interoperability, release, audit, assurance, or action use, reopen the source-bearing episteme or source publication needed for the Bridge Card and publish the actual Bridge Card.
+When a state, metric, option, causal reading, or viability claim crosses the semantic boundary, its direct owner states what survives and what is lost. The Bridge supplies only the semantic-correspondence premise; the bounded-use claim supplies only the named suitability proposition.
 
 ### F.9:10 - Invariants
 
-1. **Locality first.** A Bridge relates `SenseCells`, never contexts as wholes and never strings alone.
-2. **senseFamily discipline.** Substitution Bridges preserve `senseFamily`. Interpretation Bridges may cross `senseFamily` boundaries but remain Explanation-only.
-3. **Direction clarity.** Directional kinds state direction explicitly.
-4. **CL honesty.** `CL <= 2` needs at least one counter-example or boundary case. `CL = 3` needs invariant evidence.
-5. **Loss visibility.** Every Bridge carries Loss Notes, even when the note is "none" at `CL = 3`.
-6. **Weakest-link row discipline.** A Concept-Set row's admitted use is bounded by the weakest participating Bridge.
-7. **No role-assignment by bridge.** A Bridge may inform RoleDescription naming or comparison; `U.RoleAssignment`, required-role satisfaction, and performed-work attribution remain with A.2.1, F.6, and A.15.1.
-8. **No interpretation bridge substitution.** Interpretation Bridges cannot justify substitution rows.
-9. **Design-run honesty.** If a context fixes a design-run distinction, the Bridge respects it or explicitly uses a design-spec-to-run-occurrence interpretation bridge.
-10. **Kernel restraint.** Bridges do not promote ad hoc sameness into a durable U-kind; E.24.UK, A.11, and F.8 govern that decision.
-11. **Non-inheritance of contexts.** Bridges do not imply is-a relations between contexts.
+1. **Exact endpoints first.** A Bridge has exactly two F.17 `SchemeSenseCell` participants.
+2. **No context object.** Semantic context is recovered from endpoint content and is not a relation participant.
+3. **Different context is not enough.** Different projections trigger the question but do not establish the relation.
+4. **Profile contains relation semantics only.** Receiving use, direction, use rule, loss tolerance, polarity, reliance, authorization, and receiving objects are absent from profile identity.
+5. **Obtaining before occurrence reference.** A positive Bridge reference appears only after the fixed predicate is true and its dependencies are present.
+6. **Use claim is separate.** Every proposed use names `u`, `d`, `r`, `t`, and polarity in a C.2.1 claim about the exact Bridge.
+7. **Reliance is separate.** A.10 or B.3, not F.9 or the card, says whether current evidence or assurance supports relying on that claim.
+8. **Role is not occurrence.** The named receiving-use role is ClaimGraph content; any actual Work, assertion, publication, relation, or operation application keeps its own identity and owner.
+9. **Card separation.** Card identity, completion, approval, registration, and publication neither make the relation obtain nor make the use happen.
+10. **Loss separation.** Observed semantic loss is evidence; permitted loss is tolerance inside the bounded-use claim.
+11. **No authorization by implication.** Semantic suitability, evidence reliance, and assurance are not legal, policy, or deontic permission.
+12. **No silent inverse or composition.** An inverse asymmetric relation and any direct A-to-C relation are tested independently.
 
 ### F.9:11 - Micro-examples
 
-1. **Participant versus Agent.**
-   Cells: `BPMN:Participant` and `PROV:Agent`.
-   Bridge: Partial-overlap, `CL = 2`.
-   Loss: participation scope versus attribution scope.
-   Admitted use: Naming-only label "actor"; no role assignment.
+The labels below are readable aliases. An actual case resolves exact F.17 cells and tests one profile before stating a proposed use.
 
-2. **Process design versus Activity occurrence.**
-   Cells: `BPMN:Process` and `PROV:Activity`.
-   Bridge: Design-spec-to-run-occurrence, `CL = 2`.
-   Loss: model structure versus temporal occurrence.
-   Admitted use: Explanation-only.
-
-3. **Observation versus SLO fulfilment.**
-   Cells: `SOSA:Observation` and `ITIL:SLO fulfilment`.
-   Bridge: Measurement-evidence-for, `CL = 2`.
-   Loss: sampling window and target definition.
-   Admitted use: Explanation-only; direct evidence or status claim goes to A.10, B.3, F.10, or the local status pattern.
-
-4. **Subtype across OWL and curated taxonomy.**
-   Cells: `OWL:SubClassOf` and `TaxonomyX:is-a`.
-   Bridge: Equivalence, `CL = 3` only when acyclicity, anti-symmetry, and class-level reasoning match.
-   Admitted use: Type-structure row.
-
-5. **Accuracy in metrology versus data quality.**
-   Cells: `ISO80000:accuracy` and `ISO25024:accuracy`.
-   Bridge: Partial-overlap, `CL = 2`.
-   Loss: instrument perspective versus dataset perspective.
-   Admitted use: Naming-only row "accuracy"; methods and measurements stay context-local.
+1. **Participant versus Agent.** A `Partial-overlap` Bridge may obtain between the exact BPMN and PROV senses. A separate claim may affirm use of the label "actor" in one orientation table under a rule that preserves the stated participation distinction. That claim creates no role assignment.
+2. **Process design versus Activity occurrence.** A `Design-spec-to-run-occurrence` Bridge may explain the semantic connection. A separate claim can bound an explanatory use; it does not identify a run occurrence from a design artefact.
+3. **Observation versus SLO fulfilment.** A `Measurement-evidence-for` Bridge can relate the exact senses. A separate claim asks whether the observation sense is suitable for interpreting one named SLO comparison; A.10 or B.3 governs reliance on the evidence.
+4. **Subtype across OWL and a curated taxonomy.** An `Equivalence` Bridge obtains only under a profile whose relation condition includes the required class-level invariants. A separate claim asks whether one exact type-structure row may use that Bridge under its stated rule and zero material-loss tolerance.
+5. **Accuracy in metrology versus data quality.** A `Partial-overlap` Bridge can make the shared word intelligible. A bounded-use claim may affirm that the label is suitable in one explanatory table while rejecting transfer of measurement methods or values.
 
 ### F.9:12 - Worked examples
 
-#### F.9:12.1 - Service acceptance, executions, and observations
+#### F.9:12.1 - Service target and monitoring observation
 
-A service team uses an SLO, runtime observations, and an automation-process model.
+A service team resolves two exact cells: the ITIL sense of an availability target and the SOSA sense of an availability observation. Profile `P-SLO-OBS-v2` states a `Measurement-evidence-for` semantic relation: the observation sense concerns a measured availability quantity relevant to the target sense, while observation and target remain different kinds of claim. The profile names the endpoint readings, direction of the semantic relation, applicability to the cited editions, Boolean condition, and required quantity-definition dependency. Current meanings satisfy it, so Bridge `b-slo-obs` obtains.
 
-Bridge Cards:
+The team next proposes use `u-slo-check`: compare one observation result with the target. Direction `d-slo` is observation-to-target; rule `r-slo` requires the same quantity kind, aligned windows, and the stated unit conversion; tolerance `t-slo` permits the named rounding loss but no quantity-kind change. A C.2.1 claim with EntityOfConcern `b-slo-obs` states affirmative polarity for `<u-slo-check,d-slo,r-slo,t-slo>`.
 
-```text
-BridgeCard:
-  CellA: ITIL4:SLO@service-design
-  CellB: SOSA:Observation(availability)@monitoring-run
-  senseFamilyA: Status
-  senseFamilyB: Measurement
-  BridgeKind: Measurement-evidence-for
-  Direction: CellB evidences CellA
-  CL: 2
-  LossNotes: sampling window; clock skew; target definition
-  CounterExampleOrInvariantEvidence: an observation can be true while the service status claim remains under review
-  AdmittedUse: Explanation-only
-  NonAdmittedUse: do not treat the observation as the SLO status itself
-  DirectGoverningPatternIfNotF9: F.10 or B.3 for status or assurance use
-  RevisionTrigger: monitoring window or SLO definition changes
-```
+Because this is an ordinary bounded evidence use below the B.3 threshold and no assurance claim is made, the team recovers the exact A.10 evidence-provenance graph relation for the observation record and states `RelianceDisposition=pass` only for `u-slo-check`. That supports relying on the claim within its boundary. It does not make the SLO fulfilled, authorize acceptance, or prove that comparison Work occurred. Those claims remain with their direct owners.
 
-The same team may publish a Naming-only row for "availability" if each participating Bridge reaches `CL >= 1`, but no observation becomes the status target and no process design becomes a performed work occurrence by that row.
+#### F.9:12.2 - Behavioral participant and access role
 
-#### F.9:12.2 - Behavioral role versus access role
+An exact `Partial-overlap` Bridge obtains between a BPMN participant sense and a named RBAC role sense when the profile's overlap and difference conditions are satisfied. A separate bounded-use claim proposes the label "actor" for one glossary row, in the stated direction, under a rule that preserves assignment moment, enforcement locus, multiplicity, and accountability differences, with zero tolerance for reading the label as a role assignment. Current evidence can support that label use under A.10.
 
-A process model has `BPMN:Participant`; an access-control catalogue has `NIST-RBAC:Role`.
+If a project later says an RBAC role counts for a work step, it must recover an exact `U.RoleAssignment` under A.2.1 or F.6. The Bridge, affirmative label-use claim, and passing evidence disposition establish no assignment and no performed-work attribution.
 
-Bridge Card result:
+#### F.9:12.3 - Subtype notions in one structural row
 
-* Bridge kind: Partial-overlap.
-* `CL`: 2.
-* Loss Notes: assignment moment, enforcement locus, multiplicity, accountability boundary.
-* Admitted use: Naming-only label "actor" and, if a local `U.Role` is separately recovered, role-description naming.
-* Non-admitted use: no `U.RoleAssignment`, no required-role satisfaction, no performed-work attribution.
+The endpoint senses are `OWL2:SubClassOf` under a cited OWL profile and curated-taxonomy `is-a` under one named taxonomy edition. The Bridge profile states `Equivalence` and makes its direct relation predicate true only when both endpoint meanings use compatible class-level reasoning and satisfy the stated acyclicity and anti-symmetry conditions. When those facts and dependencies are current, the exact Bridge obtains.
 
-If a project wants an RBAC role to count for a work step, it must open A.2.1 or F.6 and recover a local `U.RoleAssignment`; F.9 supplies only the cross-context sense relation and the stated losses.
-
-#### F.9:12.3 - Equivalence of subtype notions for structural rows
-
-`OWL2:SubClassOf` and a curated taxonomy `is-a` relation can admit a Type-structure row only when the curated taxonomy is acyclic, anti-symmetric, and uses class-level reasoning compatible with the OWL profile being cited. If those invariants are absent, the Bridge is demoted to `CL = 2` and the admitted use falls to Naming-only or explanation.
+A second premise is still required. The C.2.1 claim names the proposed type-structure row, its source-to-receiving direction, the rule that preserves the three invariants, and zero material-loss tolerance. Only an affirmative current claim with passing A.10 reliance, or the positive B.3 assurance branch when that pattern is triggered, supports relying on the row. A contradicted relation invariant makes the Bridge predicate false; a use-specific tolerance failure can instead make the bounded-use claim negative while the Bridge remains unchanged.
 
 #### F.9:12.4 - Setpoint versus service target
 
-`CTRL:setpoint` and `ITIL:target` may look close because both are called targets. F.9 keeps them apart:
-
-* `CTRL:setpoint` is a physical reference value in a control context.
-* `ITIL:target` is a service objective or requirement-like status claim.
-* Bridge kind is usually Disjoint or Partial-overlap, not Equivalence.
-
-The result is didactic contrast or Naming-only orientation, not substitution in control or service calculations.
-
-### F.9:19 - Archetypal Grounding
-
-#### F.9:19.1 - Tell
-
-A Bridge is not a synonym claim and not an enactment edge. It is a context-bounded correspondence record that tells a reader what may be named, compared, or inferred, and what is lost when a sense crosses context.
-
-#### F.9:19.2 - Show: service lane
-
-A service team may reuse the word `availability` across monitoring, SLO review, and architecture discussion. F.9 requires Bridge Cards that separate observation, status target, and architectural concern rather than treating the shared label as silent sameness. The practical gain is that naming convenience survives while substitution rights stay bounded by `senseFamily`, `CL`, and Loss Notes.
-
-#### F.9:19.3 - Show: role lane
-
-A process team and an access-control team both use `operator`. F.9 can admit a Naming-only row and may admit RoleDescription naming when the local `U.Role` remains clear. It cannot assign the access-control role to a work occurrence. That claim requires A.2.1 and F.6.
-
-#### F.9:19.4 - Show: episteme lane
-
-A comparative bundle may say that two traditions both discuss `readiness`. Under F.9, that statement remains explanatory until the author publishes the cells, bridge kind, direction, `CL`, Loss Notes, and counter-example. The Bridge then becomes auditable correspondence rather than rhetorical shortcut.
-
-### F.9:20 - Bias-Annotation
-
-Lenses tested: governance, architecture, ontology and episteme, pragmatics, didactics. Scope: universal for cross-context correspondence and reuse.
-
-* **Governance bias.** F.9 raises the declaration bar by requiring explicit Bridge Cards. Mitigation: keep the card compact and use weakest-link discipline as the default review heuristic.
-* **Architecture bias.** The pattern prefers typed bridge declarations over friendly synonym prose. Mitigation: allow Naming-only and Explanation-only cases so useful comparisons are not blocked.
-* **Ontology and episteme bias.** F.9 is local-first and resists global meaning claims. Mitigation: reuse remains possible through explicit correspondence, direction, and Loss Notes.
-* **Pragmatic bias.** Conservative `CL` assignment may feel slower than informal reuse. Mitigation: F.9 permits bounded use when the Bridge earns it; it blocks only silent overreach.
-* **Didactic bias.** The short script can make Bridge Cards look simpler than they are. Mitigation: conformance tests, counter-examples, and weakest-link rules keep the teaching explanation tied to constraints.
-
-### F.9:21 - Conformance Checklist
-
-A Bridge publication conforms to F.9 iff:
-
-1. **CC-F.9-1 - Well-typed Bridge declaration.** Every Bridge names two `SenseCells` bound to declared contexts and publishes kind, direction when needed, `CL`, Loss Notes, and admitted use.
-2. **CC-F.9-2 - Substitution discipline.** Same-family substitution comes only from a substitution Bridge on the same `senseFamily`; Type-structure use requires `CL = 3` plus matched invariants.
-3. **CC-F.9-3 - Interpretation embargo.** Interpretation Bridges remain Explanation-only and are not used to justify substitution or Concept-Set rows.
-4. **CC-F.9-4 - CL honesty and loss visibility.** `CL <= 2` needs a counter-example or boundary case; `CL = 3` needs invariants; every Bridge has Loss Notes.
-5. **CC-F.9-5 - Weakest-link row discipline.** Cross-context rows never claim a broader use or higher row-level `CL` than their Bridges admit.
-6. **CC-F.9-6 - Role-boundary discipline.** Role-facing Bridges may inform RoleDescription naming or comparison, but actual `U.RoleAssignment`, required-role satisfaction, and performed-work attribution stay with A.2.1, F.6, and A.15.1.
-7. **CC-F.9-7 - Registry-reference discipline.** `BridgeId` and cited policy pins are registry references, not signature-exported semantic symbols.
-8. **CC-F.9-8 - Coarsened-note boundary.** A lighter note, summary, or comparison aid is not treated as a Bridge Card until the source-bearing episteme or publication needed for the Bridge Card is reopened and the Bridge is published.
+`CTRL:setpoint` and `ITIL:target` share a familiar word but usually have only `Partial-overlap` or are `Disjoint` under the exact readings. A proposed substitution in a control calculation receives a negative bounded-use claim because its rule and tolerance cannot preserve the physical-reference meaning. A didactic comparison may receive a different affirmative claim. Neither claim changes which Bridge obtains.
 
 ### F.9:13 - Common Anti-Patterns and How to Avoid Them
 
-| ID | Anti-pattern | Symptom | Why it breaks thinking | Repair |
-| --- | --- | --- | --- | --- |
-| AP-1 | String-equals becomes sense-equals | Same spelling used across contexts with silent identity claims. | Violates locality and invites false substitution. | State a Bridge kind; if unsure, default to Partial-overlap with Naming-only admitted use. |
-| AP-2 | Stealth substitution | "Treat A like B for now." | Hidden policy with unknown loss; bridge result is used as role assignment, status transfer, or work attribution. | Publish a Bridge Card; then open the direct governing pattern for the non-F9 claim. |
-| AP-3 | Stance jump by wording | "Activity is a Process." | Design sense and run occurrence are collapsed. | Use a design-spec-to-run-occurrence interpretation bridge and keep Explanation-only admitted use. |
-| AP-4 | Symmetry hallucination | Directional bridges are treated as symmetric. | Narrower becomes broader or broader becomes narrower. | Record direction; only Equivalence is symmetric. |
-| AP-5 | Disjoint but reused | `Disjoint` is declared, then a label or RoleDescription constraint is borrowed. | Declaration and use conflict. | Retract Disjoint, or stop reuse; if a thin comparison remains, mark contrastive explanation. |
-| AP-6 | CL without counter-example | "These are CL=3" with no invariant check. | Inflates row scope. | For `CL = 3`, cite invariants; otherwise demote and add a counter-example. |
-| AP-7 | Bridge inflation | Many near-duplicate Bridges between the same contexts. | Noise hides material alignments. | Prefer one Bridge per pair of cells per relevant `senseFamily`; fold variants into Loss Notes. |
-| AP-8 | Row outruns Bridge | A Concept-Set row claims stronger use than the weakest participating Bridge admits. | Row scope exceeds the stated evidence. | Apply weakest-link discipline: row admitted use is no stronger than the weakest Bridge. |
-| AP-9 | Bridge as durable U-kind | A Bridge is used to justify a new universal kind. | Re-globalizes meaning. | Keep kinds context-local unless E.24.UK, A.11, and F.8 admit a durable U-kind candidate. |
-| AP-10 | Silent unit or scale mismatch | Measurements cross contexts without unit and scale notes. | Hidden dimensional error. | Put units and scales in Loss Notes; if they cannot be related, use Disjoint or Partial-overlap. |
-| AP-11 | Coarsened note treated as Bridge Card | A summary or redacted comparison is used as if it made substitution admissible. | A bridge claim is smuggled through a lighter rendering. | Reopen the source-bearing episteme or publication and write the Bridge Card before bridge-bearing use. |
+| ID | Anti-pattern | Symptom | Repair |
+| --- | --- | --- | --- |
+| AP-1 | String-equals becomes sense-equals | Same spelling is used as proof of identity. | Resolve the exact cells and test the least-committing relation profile. |
+| AP-2 | Profile as use licence | Direction, use rule, or tolerated loss is placed inside profile identity. | Keep only relation semantics in the profile; state `<u,d,r,t>` in a separate C.2.1 claim. |
+| AP-3 | Bridge-alone substitution | “A corresponds to B, therefore use A as B.” | Require both the obtaining Bridge and an affirmative bounded-use claim, then check A.10 or B.3 reliance. |
+| AP-4 | Symmetry grants two directions | An `Equivalence` Bridge is treated as two approved substitutions. | State and test each proposed use direction separately. |
+| AP-5 | Inclusion grants the reverse use | A broader sense is silently substituted for a narrower one. | Refine the endpoint senses and test the reverse relation and bounded use independently. |
+| AP-6 | Assessment score grants use | `CL=3` is cited instead of the exact rule, tolerance, and reliance path. | Treat the score as optional evidence shorthand; write and warrant the bounded-use claim. |
+| AP-7 | Loss note becomes tolerance | An observed difference is treated as automatically acceptable. | Put observed loss in evidence and the accepted maximum in the claim's `t`. |
+| AP-8 | Card creates relation or permission | An approved or published card is cited as obtaining or authorization. | Test the Bridge independently and recover authorization under its direct governor. |
+| AP-9 | Named role becomes actual use | The claim says “publication use” or “comparison use”, so a publication or comparison is presumed. | Recover the actual receiving object and its identity under E.17, A.15.1, C.2.1, A.6.1, or the domain relation pattern. |
+| AP-10 | Evidence failure erases the Bridge | A stale evidence path is said to make the semantic relation disappear. | Reopen reliance or the use claim; change the obtaining claim only when endpoint facts or the profile predicate changed. |
+| AP-11 | Bridge as durable U-kind | A local correspondence is used to globalize meaning. | Keep kinds context-local unless the exact admission patterns independently admit a U-kind. |
+| AP-12 | Silent relation composition | A-to-B and B-to-C are used as an A-to-C occurrence. | Test and individuate the direct A-to-C Bridge separately. |
 
 ### F.9:14 - Reasoning primitives
 
-All judgements here are conceptual. They admit or reject specific cross-context sense-use moves; they are not work-enactment records.
+These are conceptual judgements, not work-enactment, card-completion, registry, publication, permission, or authorization rules.
 
-#### F.9:14.1 - Bridge declaration
-
-```text
-Bridge(A@ContextA, B@ContextB) :
-  senseFamilyA,
-  senseFamilyB,
-  kind,
-  direction,
-  CL,
-  LossNotes,
-  admittedUse
-```
-
-Interpretation: there is a declared Bridge between two local senses with stated attributes.
-
-#### F.9:14.2 - Naming-only scope
+#### F.9:14.1 - Direct Bridge occurrence
 
 ```text
-Bridge(A,B) with kind in {Equivalence, Narrower-than, Broader-than, Partial-overlap}
-and CL >= 1
-=> A and B may share a label in prose or a Naming-only Concept-Set row.
+P = <kind, symmetry-or-orientation, endpoint-readings,
+     relation-condition, applicability-and-as-of,
+     Boolean-truth-condition, stop-dependencies>
+
+Bridge(A, B; P) obtains
+iff
+  A and B resolve to exact F.17 SchemeSenseCell values,
+  semanticContext(A) != semanticContext(B),
+  applicable(P, A, B, asOfBasis),
+  bridgePredicate(P, A, B) = true,
+  and requiredDependencies(P) are present.
 ```
 
-Interpretation: the shared label remains a label; it carries no structural, role-assignment, status, evidence, or work effect.
+No proposed use, direction, use-specific rule, loss tolerance, claim polarity, reliance result, or card is a component of `P`.
 
-#### F.9:14.3 - Same-family substitution of sense
+#### F.9:14.2 - Bounded-use proposition
 
 ```text
-Bridge(A,B) with same senseFamily,
-kind in {Equivalence, Narrower-than, Broader-than},
-declared direction A -> B,
-CL >= 2,
-and stated LossNotes
-=> A may stand in for B only for the admitted same-family sense use.
+Bridge(A,B;P) obtains as b
+and C is a C.2.1 claim with
+  EntityOfConcern = b,
+  ClaimGraph designating <u,d,r,t,polarity>,
+  and an effective ReferenceScheme interpreting those designations
+=> C says whether b is suitable for exactly <u,d,r,t>.
 ```
 
-Interpretation: same-family substitution is bounded by direction, `CL`, loss, and admitted use. For role material, this reaches RoleDescription naming or comparison only; role assignment itself remains with A.2.1 and F.6.
+Changing `u`, `d`, `r`, or `t` changes `C`; it does not change `b`. Affirmative polarity is not evidence reliance, assurance, authorization, or occurrence.
 
-#### F.9:14.4 - Type-structure scope
+#### F.9:14.3 - Ordinary A.10 reliance
 
 ```text
-Bridge(A,B) with same Type-structure senseFamily,
-kind = Equivalence,
-CL = 3,
-and matched invariants
-=> A and B may participate in a Type-structure row.
+C is current and affirmative for <u,d,r,t>
+and EP is the exact A.10 evidence-provenance graph relation for C and u
+and RelianceDisposition(EP,u,d,r,t) = pass
+=> the reader may rely on C only for that bounded evidence use.
 ```
 
-Interpretation: Type-structure use is the strongest F.9 row use and requires invariant evidence.
+A non-passing or narrower disposition supplies no support for the attempted use. The disposition is a local A.10 classification statement, not a new result kind.
 
-#### F.9:14.5 - Interpretation embargo
+#### F.9:14.4 - B.3 assurance branch
 
 ```text
-Bridge(A,B) with interpretation kind
-=> Explanation-only.
+C is current and affirmative for <u,d,r,t>
+and B.3 is triggered
+and a current positive assurance claim exists
+and its minimum record is sufficient
+and it carries the same bounded assurance use
+=> positive assurance supports that bounded use.
 ```
 
-Interpretation: design-spec-to-run-occurrence, measurement-evidence-for, policy-constraint-on, and viewpoint-correspondence Bridges explain relations across sense families but do not admit substitution.
+A met threshold alone creates no positive claim. A no-assurance, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked disposition stops or narrows the use as B.3 specifies.
 
-#### F.9:14.6 - Weakest-link rule
+#### F.9:14.5 - Receiving occurrence stays separate
 
 ```text
-Row R uses {Bridge_i}
-=> admittedUse(R) <= min_i(admittedUse(Bridge_i))
-and CL(R) <= min_i(CL(Bridge_i)).
+Bridge b obtains
+and C is affirmative for proposed use u
+and current reliance supports C for u
+=> no Work, assertion, publication, relation, or operation application follows.
 ```
 
-Interpretation: a row is never stronger than its weakest Bridge.
+An actual receiving object exists only when its direct owner supplies its participants or arguments, obtaining or performance facts, and identity.
 
-#### F.9:14.7 - Direction guard
+#### F.9:14.6 - Direction guard
+
+Relation symmetry or orientation does not select `d`. Each proposed direction receives its own bounded-use claim. For an inclusion relation, a broader-to-narrower proposal normally requires refined endpoint senses and a separately tested Bridge; it cannot borrow safety from the inverse reading.
+
+#### F.9:14.7 - Chained-use guard
 
 ```text
-Bridge kind = Narrower-than with direction A -> B
-=> not(B may stand in for A).
+Bridge(A,B;P1) obtains
+and Bridge(B,C;P2) obtains
+=> no Bridge(A,C;P3) follows.
 ```
 
-Interpretation: narrower-to-broader does not invert.
+A composite proposed use must cite each obtaining Bridge, state one exact composite rule and accumulated tolerance in its own claim, and recover current reliance for that claim. If a direct A-to-C correspondence is needed, test it independently.
 
-#### F.9:14.8 - Loss accumulation
+#### F.9:14.8 - Candidate-card guard
 
 ```text
-A -> B with Loss L1
-B -> C with Loss L2
-=> A -> C only if the same senseFamily is preserved;
-   CL becomes min(CL1, CL2);
-   Loss accumulates as L1 plus L2.
+candidate or negative Bridge Card exists
+=> no positive Bridge occurrence follows.
 ```
 
-Interpretation: chained cross-context substitution is rare. If used, loss and `CL` degrade rather than disappear.
+The card concerns the admitted direct Bridge relation kind and places proposed endpoints, profile, ClaimMode, and polarity in its ClaimGraph. It creates neither relation nor receiving occurrence.
+
+### F.9:15 - Relations
+
+**Builds on:** F.17, F.18, C.2.1, F.0.1, F.7, and F.8.
+
+**Coordinates with:**
+
+* **A.10.** Owns the exact evidence-provenance graph relation and local `RelianceDisposition` for ordinary bounded evidence use.
+* **B.3.** Owns the first decision about whether an assurance claim exists, the minimum reliance safety assurance record, a positive assurance claim when current, and explicit non-positive dispositions.
+* **F.4, F.5, A.2.1, F.6, and A.15.1.** Naming, role assignment, required-role satisfaction, and performed-work attribution remain direct work-role claims.
+* **F.8.** A mint-or-reuse decision may consume an obtaining Bridge plus a separately warranted bounded-use claim; it does not strengthen either.
+* **A.2.6.** Scope translation may use an obtaining Bridge only together with an affirmative claim naming the exact direction, scope-correspondence rule, and loss tolerance. A.2.6 owns the translated scope and membership.
+* **A.6.1.** Owns any actual operation application. A proposed use role in a Bridge claim is not an application binding.
+* **A.6.5.** Relation-position labels and SlotSpec claims remain governed by slot discipline.
+* **C.29.** Mathematical-lens use may cite a Bridge and bounded-use claim; C.29 still governs its mathematical object, preserved and lost structure, and actual lens use.
+* **C.34.** Structural correspondence or morphism adequacy may cite an obtaining Bridge and a bounded-use claim but states its own preserved and lost architecture structure.
+* **E.17.** Owns any actual publication occurrence. Publishing a card or claim does not make a receiving use occur.
+* **A.6.3.CSC, C.26.1, and C.26.2.** Govern coarsening, probe effects, and no-faithful-enough-report cases when those questions are live.
 
 ### F.9:16 - Revision law
 
-1. **Edition shift in a context.** Re-evaluate affected cells; if sense moved, split the Bridge or lower `CL`.
-2. **New mismatch evidence.** Add a counter-example; decrease `CL` or change kind.
-3. **Convergence.** Raise `CL` only when invariants demonstrably match and counter-examples no longer apply.
-4. **senseFamily correction.** If a cell's `senseFamily` was mistyped, fix the cell first in F.3, then revisit Bridges.
-5. **Row overreach.** If a row's use exceeds the weakest Bridge, split the row or lower its admitted use.
-6. **Bridge sprawl.** Consolidate near-duplicates into one Bridge with richer Loss Notes.
+1. **Endpoint change.** A changed by-value scheme, local expression, or local-sense claim identifies another F.17 cell and requires another Bridge test.
+2. **Profile change.** A changed kind, symmetry or orientation, endpoint reading, relation-specific correspondence or difference condition, applicability or as-of basis, Boolean truth condition, or stop dependency identifies another profile and occurrence candidate.
+3. **Use-content change.** A changed receiving-use role, direction, use-specific rule, or permitted-loss tolerance identifies another C.2.1 claim while the fixed Bridge remains unchanged.
+4. **Polarity change.** Affirmative versus negative is changed claim content; it is not a changed reliance disposition.
+5. **Evidence or reliance change.** A changed evidence item, path, currentness window, A.10 relation, local `RelianceDisposition`, B.3 claim, record, or disposition reopens reliance without reidentifying the fixed Bridge or fixed C.2.1 claim.
+6. **Obtaining change.** New endpoint facts may establish, refute, or leave unresolved the predicate for a fixed occurrence candidate without silently changing its identity.
+7. **Card or publication change.** Apply C.2.1 to card identity and E.17 to publication identity; neither creates or removes the Bridge.
+8. **Receiving occurrence change.** Reidentify or revise the Work, assertion, publication, relation, application, or other receiving object under its direct owner.
 
 ### F.9:17 - Acceptance tests
 
 #### F.9:17.1 - Static conformance
 
-* **SCR-F9-S01 (Well-typed).** Every Bridge names two `SenseCells`, each bound to a context from F.1, and states `senseFamily`, kind, direction when needed, `CL`, Loss Notes, and admitted use.
-* **SCR-F9-S02 (senseFamily discipline).** Any substitution Bridge preserves `senseFamily` and uses Equivalence, Narrower-than, or Broader-than.
-* **SCR-F9-S03 (Loss visibility).** Every Bridge has non-empty Loss Notes. "None" is valid only with `CL = 3` and stated invariants.
-* **SCR-F9-S04 (Counter-example hygiene).** Bridges with `CL <= 2` carry at least one counter-example or boundary case; Bridges with `CL = 3` cite invariants.
-* **SCR-F9-S05 (Row compliance).** Every Concept-Set row shows an admitted use no greater than the weakest participating Bridge.
-* **SCR-F9-S06 (Role boundary).** Any role-facing Bridge states that role assignment and performed-work attribution remain with A.2.1, F.6, and A.15.1.
+* **SCR-F9-S01 (Well-typed direct relation).** Each actual Bridge has exactly two resolved F.17 `SchemeSenseCell` endpoints and one exact relation-semantic profile.
+* **SCR-F9-S02 (Different semantic contexts).** The endpoint `<ReferenceScheme, LocalSenseClaim>` projections differ; same-context aliases stay with designation resolution.
+* **SCR-F9-S03 (Profile boundary).** The profile contains only kind, symmetry or orientation, endpoint readings, relation condition, applicability and as-of basis, Boolean truth condition, and stop dependencies.
+* **SCR-F9-S04 (Obtaining).** Current endpoint facts satisfy the exact profile and all required dependencies are present. Scheme difference, spelling, implementation, evidence score, card, registry, or publication alone fails this test.
+* **SCR-F9-S05 (Separate bounded use).** Every use claim identifies exact Bridge `b`, names `u`, `d`, `r`, `t`, polarity, and an effective ReferenceScheme under C.2.1.
+* **SCR-F9-S06 (Reliance branch).** The same bounded use has either the exact A.10 relation plus a passing local disposition, or the exact B.3 positive-claim or non-positive branch required by its trigger.
+* **SCR-F9-S07 (No authorization overread).** Semantic fit, A.10 reliance, and B.3 assurance are not described as legal, policy, or deontic permission.
+* **SCR-F9-S08 (Receiving-object boundary).** A named use role is never treated as performed Work, assertion, publication, relation, or operation application.
+* **SCR-F9-S09 (Card truthfulness).** An actual card concerns an already individuated occurrence; a candidate or negative card concerns the admitted relation kind and has no positive occurrence ref.
+* **SCR-F9-S10 (Plain action).** A practitioner can tell what relation to test, what use is proposed, what would stop reliance, and which downstream object still needs its own owner.
 
 #### F.9:17.2 - Regression checks
 
-* **RSCR-F9-E01 (Edition churn).** When a context edition changes, revalidate all Bridges touching it.
-* **RSCR-F9-E02 (Counter-example drift).** New counter-examples lower `CL`; deleting examples does not automatically raise it.
-* **RSCR-F9-E03 (senseFamily drift).** If a cell's `senseFamily` changes, all Bridges crossing that cell are retyped.
-* **RSCR-F9-E04 (Weakest-link enforcement).** Adding a lower-CL Bridge to a row lowers the row's admitted use or forces a split.
-* **RSCR-F9-E05 (Role-boundary preservation).** No Bridge revision creates a `U.RoleAssignment` or performed-work attribution without the direct governing pattern.
+* **RSCR-F9-E01 (Same Bridge, changed use).** Reversing direction, changing the use rule, or changing tolerance reidentifies the C.2.1 claim, not the Bridge.
+* **RSCR-F9-E02 (Same claim, changed evidence).** Stale or stronger evidence changes the A.10 relation or disposition, or the B.3 branch, without reidentifying the fixed claim.
+* **RSCR-F9-E03 (Threshold without positive assurance).** Meeting the B.3 threshold can yield a required record and explicit no-assurance or insufficient-record disposition; it does not manufacture a positive assurance claim.
+* **RSCR-F9-E04 (Profile change).** A changed relation condition or endpoint reading identifies another profile and occurrence candidate.
+* **RSCR-F9-E05 (Packaging change).** A changed card, registry entry, publication, form, or carrier leaves the Bridge and fixed bounded-use claim unchanged unless their own discriminators changed.
+* **RSCR-F9-E06 (Positive proposal versus occurrence).** An affirmative claim with passing reliance proves no comparison Work, assertion, publication, direct relation, or operation application.
+* **RSCR-F9-E07 (Polarity versus reliance).** Negative claim polarity and a non-passing reliance disposition remain different facts.
+* **RSCR-F9-E08 (Reliance versus authorization).** Passing A.10 reliance or positive B.3 assurance does not imply permission.
+* **RSCR-F9-E09 (No inverse or composition).** Neither an asymmetric inverse nor a direct A-to-C Bridge follows without its own profile and obtaining test.
 
 ### F.9:18 - Didactic distillation
 
-A Bridge translates between local senses from different contexts. It declares relation kind, direction, `CL`, loss, and admitted use. Substitution of sense requires the same `senseFamily` and enough `CL`; Type-structure use needs `CL = 3` with invariants; interpretation Bridges explain but do not substitute. Rows obey the weakest Bridge. Role-description naming is not role assignment. Translate across contexts; never collapse them.
+Use this five-part script:
+
+1. Find the two exact local senses.
+2. Say what semantic relation holds and test whether that Bridge obtains.
+3. State the proposed use separately: action, direction, rule, tolerated loss, and polarity.
+4. Check whether current evidence or assurance supports relying on that claim; recover authorization separately if needed.
+5. If the use happened, identify the actual object under its owner. Make a card only when reuse is worth the maintenance.
+
+The short memory aid is: **relation first, use second, reliance third, receiving occurrence last; packaging is optional.**
+
+### F.9:19 - Archetypal Grounding
+
+#### F.9:19.1 - Tell
+
+A Bridge is an actual semantic relation, not a synonym claim or enactment edge. Its profile says what correspondence holds. A separate claim says whether that relation suits one proposed use. Evidence, authorization, packaging, and actual performance remain separate.
+
+#### F.9:19.2 - Show: service lane
+
+The observation sense can bear a semantic relation to the target sense without being the target status. The team then states and warrants one comparison use; status and acceptance remain with their owners.
+
+#### F.9:19.3 - Show: role lane
+
+A process team and an access-control team both use `operator`. An obtaining overlap Bridge plus an affirmative, warranted label-use claim can support one glossary row. It cannot assign the access-control role to a work occurrence.
+
+#### F.9:19.4 - Show: episteme lane
+
+An actual card can package the relation claim, bounded-use claim, evidence path, and reliance disposition. It remains an episteme about the Bridge and creates neither the relation nor the receiving act.
+
+### F.9:20 - Bias-Annotation
+
+Lenses tested: governance, architecture, ontology and episteme, pragmatics, didactics. Scope: universal for cross-context correspondence and reuse.
+
+* **Governance bias.** The pattern adds a separate use claim and reliance check. Mitigation: keep them in ordinary sentences when durable packaging has no payoff.
+* **Architecture bias.** Typed relation profiles can look heavier than synonym prose. Mitigation: the five-part script begins with the practical action and introduces exact terms only where they stop a real overread.
+* **Ontology and episteme bias.** F.9 resists global meaning claims and keeps claims separate from their subject. Mitigation: explicit Bridges still permit practical cross-context comparison.
+* **Pragmatic bias.** Conservative separation can feel slower than reusing a mapping table. Mitigation: a fixed Bridge can support many independently stated uses without being reidentified.
+* **Didactic bias.** The four-object split can become bureaucratic if written only in internal nouns. Mitigation: every use starts by saying what a person will do, what rule they will follow, and what result would make them stop.
+
+### F.9:21 - Conformance Checklist
+
+An F.9 use conforms iff:
+
+1. both endpoints resolve to exact F.17 `SchemeSenseCell` values;
+2. their semantic-context projections differ;
+3. the Bridge has exactly two participants and one relation-semantic profile;
+4. the profile contains no receiving-use or reliance content;
+5. the profile applies, its Boolean predicate is true, and its dependencies are present before a positive occurrence is cited;
+6. every proposed use is a separate C.2.1 claim naming `u`, `d`, `r`, `t`, polarity, and effective scheme;
+7. observed loss stays in evidence while permitted loss stays in the bounded-use claim;
+8. current reliance uses the exact A.10 or B.3 branch for the same bounded use;
+9. no reliance or assurance statement is read as authorization;
+10. any actual receiving object is recovered under its direct owner;
+11. card, registry, publication, form, and carrier remain distinct from Bridge occurrence and use occurrence; and
+12. inverse and composed relations are tested independently.
 
 ### F.9:22 - Consequences
 
-**Benefits.** F.9 lets FPF compare, translate, and partially reuse ideas across contexts without collapsing them into one vocabulary. It gives downstream rows, claims, and assurance reasoning an explicit Bridge Card instead of relying on prose similarity.
+**Benefits.** F.9 permits comparison, translation, and bounded reuse without collapsing local senses. One stable Bridge can support several differently directed or differently tolerant use claims, and evidence can change without silently changing relation identity.
 
-**Costs.** The pattern adds explicit bridge declaration and can feel heavier than informal comparison. Mitigation: use Naming-only or Explanation-only when that is enough, and reserve higher-scope uses for Bridges that carry the required `CL`, invariants, and direct-pattern boundaries.
+**Costs.** A reader must state two premises instead of one: the semantic relation and the bounded-use proposition. Material reliance can also require A.10 or B.3 work. This cost is paid only when a real cross-context use is proposed; a card remains optional.
 
-**Failure mode avoided.** A Bridge can no longer be used as a quiet substitute for role assignment, status transfer, evidence authority, publication authority, or performed-work attribution.
+**Failure mode avoided.** A Bridge, score, or card can no longer act as a quiet substitute for role assignment, status transfer, evidence authority, authorization, publication, or performed-work attribution.
 
 ### F.9:23 - Rationale
 
-The core move of F.9 is simple: cross-context work is unavoidable, but silent sameness is unacceptable. A Bridge therefore does two jobs at once:
+Cross-context comparison is unavoidable, but the truth of a semantic relation and the suitability of one action are different claims. Putting direction, a use rule, and tolerated loss into `BridgePredicateProfile` would reidentify the relation whenever the proposed use changed. Putting them in a separate C.2.1 claim lets one Bridge remain fixed while several uses are affirmed, rejected, narrowed, or reopened independently.
 
-* it preserves practical comparison and bounded reuse where the relation is genuinely available,
-* it keeps non-identity visible through direction, Loss Notes, `CL`, and weakest-link use.
-
-Without that discipline, every shared label becomes a hidden ontology merger. With it, cross-context comparison stays teachable, auditable, and compatible with direct governing patterns.
+The same separation keeps evidence honest. A.10 or B.3 can reopen reliance without erasing the relation. A card can travel without becoming the relation. A proposed use can be warranted without being authorized or performed. These boundaries preserve practical reuse and make each failure local and repairable.
 
 ### F.9:24 - SoTA-Echoing
 
-**SoTA note.** This section does not create a second bridge rule track. It stays truthful only when Bridge kinds, `CL`, Loss Notes, weakest-link use, the A.6.3.CSC boundary, and the review matrix below still tell the same story about admissible cross-context sense use.
-
 | Claim need | SoTA practice | Primary source | Alignment with F.9 | Adoption status |
 | --- | --- | --- | --- | --- |
-| Shared labels across contexts are not enough for cross-context reuse. | Terminology and ontology practice distinguishes objects, concepts, definitions, designations, and typed relations instead of treating a shared string as identity. | ISO 704:2022; ISO 1087:2019; ISO/IEC 21838-2:2021 (BFO). | F.9 requires typed `SenseCells`, bridge kind, direction where needed, `CL`, and Loss Notes rather than string-equals identity. | Adopt and adapt explicit term, concept, and relation discipline into Bridge Cards. |
-| Viewpoint and context boundaries must stay explicit when descriptions are reused. | Architecture-description practice distinguishes entity of interest, architecture description, viewpoint, view, model kind, concern, and correspondence. | ISO/IEC/IEEE 42010:2022. | F.9 binds every Bridge to declared contexts and forces rows to obey weakest-link use instead of outrunning correspondences. | Adopt boundary-explicit correspondence discipline. |
-| Data, catalog, and validation practice separates metadata, validation conditions, and exchange from substitution authority. | Web-data and semantic-web standards make metadata, provenance, structural constraints, validation, and catalog federation explicit without turning metadata into the data itself. | W3C Data on the Web Best Practices (2017); W3C SHACL (2017); W3C DCAT v3 (2024). | F.9 separates explanatory bridges from substitution bridges and keeps Bridge publication distinct from coarsened notes or catalog-style discovery aids. | Adapt explicit metadata and validation practice; reject discovery or gloss as substitution authority. |
-| Model-based engineering uses traceable model elements and formal semantics, but interoperability is not semantic identity. | Current MBSE practice improves precision, traceability, and interoperability through explicit model elements, libraries, APIs, and formal semantics. | OMG SysML v2.0 Language Specification (2025); OMG KerML v1.0 Specification (2025). | F.9 uses Bridge Cards as reviewable relations whose `CL` and loss fields remain narrower than any tool interchange claim. | Adapt traceable relation discipline; reject interchange success as proof of same meaning. |
+| Shared labels across contexts are not enough. | Terminology and ontology practice distinguishes objects, concepts, definitions, designations, and typed relations. | ISO 704:2022; ISO 1087:2019; ISO/IEC 21838-2:2021 (BFO). | F.9 resolves exact local senses and tests a direct relation instead of using string equality. | Adopt typed term, concept, and relation discipline. |
+| Viewpoint boundaries remain explicit during reuse. | Architecture-description practice distinguishes entity of interest, description, viewpoint, view, model kind, concern, and correspondence. | ISO/IEC/IEEE 42010:2022. | F.9 keeps relation, use claim, card, view, and publication separate. | Adopt boundary-explicit correspondence. |
+| Metadata and validation do not create use authority. | Web-data practice separates metadata, provenance, constraints, validation, and exchange from the governed data and act. | W3C Data on the Web Best Practices (2017); W3C SHACL (2017); W3C DCAT v3 (2024). | Evidence and packaging can support a bounded-use claim but do not make a Bridge obtain or grant permission. | Adapt provenance and validation discipline. |
+| Interoperability is not semantic identity. | Model-based engineering improves traceability and formal semantics through explicit model elements and mappings. | OMG SysML v2.0 Language Specification (2025); OMG KerML v1.0 Specification (2025). | F.9 tests exact relation semantics and then judges each proposed use separately. | Adapt traceable mapping; reject interchange success as proof of identity or suitability. |
 
 ### F.9:25 - Bridge Card publication discipline
 
-#### F.9:25.1 - Minimal declaration
+#### F.9:25.1 - Minimal truthful card
 
-A usable Bridge Card makes visible:
+A reusable card states its mode and exact C.2.1 identity. An actual card names its already obtaining Bridge. A candidate or negative card instead names the admitted direct Bridge relation kind and places proposed endpoints, profile, mode, and polarity in its ClaimGraph. When the card packages a proposed use, it states `u`, `d`, `r`, `t`, polarity, observed loss, evidence, currentness, nearest non-use, and the exact A.10 or B.3 branch. Missing relation facts are never repaired by filling more fields.
 
-* the two typed `SenseCells`,
-* bridge kind,
-* direction when direction matters,
-* declared `senseFamily` for each cell,
-* `CL`,
-* Loss Notes,
-* counter-example or invariant evidence,
-* admitted use and non-admitted use.
+#### F.9:25.2 - One occurrence, several claims and descriptions
 
-If any of these fields is absent, readers are forced back into inference by prose similarity, which F.9 blocks.
+Several bounded-use claims, cards, reviews, or publications may concern the same actual Bridge. Their C.2.1 identities differ when their ClaimGraph, EntityOfConcern, or effective scheme differs; the Bridge identity does not. Prefer one primary current card only when it reduces navigation cost.
 
-#### F.9:25.2 - One-pair default rule
+#### F.9:25.3 - Revision without silent ontology change
 
-The default declaration discipline is one primary Bridge per cell pair per relevant `senseFamily`, with richer Loss Notes rather than many near-duplicate cards. Local exceptions are admissible only when the cards genuinely differ in bridge kind, direction, `CL`, or admitted use.
-
-#### F.9:25.3 - Revision over silent drift
-
-If evidence changes bridge `CL`, direction, loss, or admitted use, revise the Bridge Card explicitly. Do not leave the Bridge in place while surrounding prose quietly changes its practical scope.
+If evidence, observed loss, reliance, assurance, wording, or publication changes while endpoints and profile remain fixed, revise the corresponding claim, evidence relation, disposition, card, or publication. Test another Bridge only when an endpoint or relation-semantic profile component changes.
 
 ### F.9:26 - Bundle and endpoint interaction
 
-Viewpoint bundles, quality bundles, dashboards, reports, and endpoint bundles may cite Bridges, but they do not absorb bridge semantics. F.9 remains the pattern for cross-context alignment, while the citing bundle keeps its own ontology.
+Viewpoint bundles, quality bundles, dashboards, reports, and endpoint bundles may cite Bridges and bounded-use claims, but they do not absorb their semantics. Each bundle keeps its own ontology and direct use rule.
 
-When a quality-family claim crosses contexts, bridge loss and `CL` affect what may be compared or reused, but they do not retype the quality family itself. Any resulting assurance penalty feeds B.3 rather than changing the ontology of the quality bundle.
-
-A `F.9.1` stance overlay may help readers interpret a Bridge, but the Bridge Card remains primary. If the overlay overstates bridge kind, direction, `CL`, Loss Notes, or admitted use, narrow or remove the overlay.
+When a quality-family claim crosses contexts, observed loss may bear on its bounded-use claim and on B.3 assurance, but neither fact retypes the quality family. An F.9.1 stance overlay may help readers interpret the claim; it remains a separate episteme and cannot widen the relation, proposed use, reliance, authorization, or occurrence.
 
 ### F.9:27 - C.29 mathematical-lens use relation
 
-When meaning, substitution, sense cells, direction, `CL`, or admitted use crosses context, write the F.9 Bridge Card first. Add the applicable C.29 output only for mathematical-lens use: candidate mathematical object, `LensMappingMode`, preserved and lost structure, exposed invariants or distinctions, lens-use admissibility value, admissible and non-admissible use, and stop condition. Do not duplicate Bridge semantics inside MathLensUse. A Bridge may make a mathematical lens interpretable across contexts without making it substitution-safe.
+When a mathematical-lens use relies on cross-local meaning, first recover an actual F.9 Bridge. Then state the exact bounded-use claim for the lens direction, correspondence rule, and tolerated loss, and recover current reliance. C.29 owns the mathematical object, `LensMappingMode`, preserved and lost structure, lens-use judgement, and actual lens use. A Bridge can make a lens interpretable without making any lens use occur.
 
 ### F.9:28 - Review matrix
 
-A reader can test bridge integrity with seven questions:
+A reader can test bridge integrity with eight questions:
 
-1. Are the two cells and contexts explicit?
-2. Is the bridge kind the least-committing truthful kind rather than the friendliest one?
-3. Does `CL` match the published counter-example or invariant evidence?
-4. Are Loss Notes specific enough that the admitted use is really bounded?
-5. If a row or bundle cites the Bridge, does it stay within the Bridge's admitted use?
-6. If a stance overlay exists, does it stay within the Bridge Card's kind, direction, `CL`, Loss Notes, and admitted use?
-7. If a role, status, evidence, source, publication, assurance, gate, decision, method, work, or mathematical-lens claim appears, has the direct governing pattern been opened instead of letting F.9 carry that claim?
+1. Do both endpoint refs resolve exact F.17 `SchemeSenseCell` values from different semantic contexts?
+2. Does the profile say only which semantic relation holds, with its endpoint readings, condition, applicability, truth rule, and stop dependencies?
+3. Is the Bridge claimed only after that fixed predicate is true?
+4. Does each proposed use separately name the action, direction, correspondence rule, tolerated loss, and polarity?
+5. Does the same use have the correct current A.10 evidence-provenance relation and local disposition, or the B.3 claim or disposition selected by its trigger?
+6. Are semantic suitability, reliance, assurance, and authorization kept distinct?
+7. If someone says the use happened, is the actual Work, assertion, publication, relation, operation application, or other object recovered under its own pattern?
+8. Does any card remain optional packaging rather than the source of relation truth, permission, or occurrence?
 
-Repair from same, equivalent, align, and map prose should therefore recover the Bridge Card first, then any row use, then any optional stance overlay. Doing it in the opposite order recreates silent equivalence under new vocabulary.
-
-### F.9:15 - Relations
-
-**Builds on:** E.10.D1, F.0.1, F.1, F.2, F.3, F.7, and F.8.
-
-**Coordinates with:**
-
-* **F.4 and F.5.** RoleDescription labels and durable names may cite F.9, but only after the local `U.Role` remains clear.
-* **A.2.1, F.6, and A.15.1.** Role assignment, required-role satisfaction, and performed-work attribution are direct work-role claims, not bridge results.
-* **F.8.** Mint-or-reuse decisions consume Bridge Cards and choose local phrase, alias, row, RoleDescription label, policy id, direct-pattern name, or block-or-lower decision without strengthening the Bridge.
-* **A.6.5.** Relation-position labels and SlotSpec claims are governed by slot discipline, not by F.9.
-* **C.29.** Mathematical-lens use may cite F.9 when the lens crosses contexts; C.29 still governs the mathematical object, preserved structure, lost structure, and lens-use admissibility.
-* **C.34.** Structural correspondence, equivalence, or morphism adequacy may cite F.9 when the preservation claim crosses bounded contexts, source traditions, or local sense families. C.34 states preserved and lost architecture structure for the declared use; F.9 governs the Bridge Card, bridge kind, local sense loss, and cross-context admissibility.
-* **B.3.** Assurance may apply `CL` penalties to cross-context claims.
-* **A.6.3.CSC, C.26.1, and C.26.2.** Coarsened renderings and quantum-like state export need these patterns when export loss, probe effects, or no faithful-enough report becomes the live concern.
+Repair *same*, *equivalent*, *align*, and *map* prose in that order: recover the exact senses; test the Bridge; state the bounded-use claim; check reliance; recover authorization or the actual receiving object only when those questions are live. Do not start from a polished card or a score.
 
 ### F.9:End
 
@@ -92430,7 +92584,7 @@ Any example placed in Part C or Part B **must** render its claim through this ca
 
 Use this when a term decision is to become reader-facing, durable, public, Core-facing, or cross-context. Use it when a role name, status name, relation name, slot name, FPF kind name, local concept name, or bridgeable term set has outgrown one local repair and publication as one reviewed term row is current.
 
-First useful move: identify the governed term decision, not the wording alone. Name the bounded context, the governed value and its kind, the local senses, the bridge claim if cross-context use is present, and the current direct pattern that owns the underlying value. Then publish only the term-row facts that are already governed there.
+First useful move: identify the governed term decision, not the wording alone. Name the governed value and its kind, the effective `U.ReferenceScheme` carried by value, the exact local-sense coordinate, and the current direct pattern that owns the underlying value. When the row will compare local senses, compare their semantic-context projections: the `<ReferenceScheme, LocalSenseClaim>` pairs recovered from the exact cells. If those pairs differ, test an F.9 Bridge and, for a proposed row use, state the separate C.2.1 claim and its A.10 or B.3 reliance. A cross-scheme case is only the subset in which the `ReferenceScheme` values differ. Then publish only the term-row facts already governed there. A locality label or selected model-use structure enters only when it changes the naming use; neither is a mandatory sense coordinate.
 
 Primary EntityOfConcern: one durable reader-facing term decision published by one `UnifiedTermRow` in one bounded unification thread. The role, status value, relation, slot kind, local concept, demonstrated row, or other underlying governed value remains the EntityOfConcern of its direct pattern; F.17 publishes its term decision and does not reconstitute that value.
 
@@ -92442,14 +92596,14 @@ Do not use this pattern for one sentence repair, one private glossary note, one 
 
 ### F.17:1 - Intent and applicability
 
-`UnifiedTermSheet` is a reader-facing term publication for one bounded unification thread. It gives a careful reader one compact table of reviewed term rows: the chosen Tech and Plain names, the governed value and its kind, the local senses, the bridge relation when cross-context use is claimed, and the small rationale that makes the naming decision reviewable.
+`UnifiedTermSheet` is a reader-facing term publication for one bounded unification thread. It gives a careful reader one compact table of reviewed term rows: the chosen Tech and Plain names, the governed value and its kind, the local senses, the Bridge relation when the exact local-sense projections differ and a correspondence use is current, and the small rationale that makes the naming decision reviewable.
 
 The pattern is useful when a team has already done enough local sense work that a name can be reused without redoing the whole unification argument each time. It is especially useful for:
 
-- public or cross-context role names;
+- public role names and role names reused under more than one interpretation scheme;
 - status-family names and status-window labels;
 - durable relation, slot, interface, or signature names;
-- FPF kind names and local concept names that appear in more than one bounded context;
+- FPF kind names and local concept names that appear under more than one effective reference scheme or reader-facing use;
 - term rows cited by examples, training material, project standards, or tool interfaces;
 - Part G, architecture, transformation, and evaluation vocabulary whose row ids remain stable across editions.
 
@@ -92457,28 +92611,28 @@ The pattern is useful when a team has already done enough local sense work that 
 
 ### F.17:2 - Problem frame
 
-Unification work often succeeds locally and then fails in reuse. A term looks stable in one section, but another reader cannot see which bounded context, local sense, bridge, name-card decision, or direct governing pattern was used. Teams then invent new labels, import a local tradition as if it were universal, or treat a teaching block as if it were an ontology.
+Unification work often succeeds locally and then fails in reuse. A term looks stable in one section, but another reader cannot see which governed value, effective reference scheme, local-sense claim, Bridge, NameCard decision, or direct governing pattern was used. Teams then invent new labels, import one local interpretation as if it were universal, or treat a teaching block as if it were an ontology.
 
 The damage is practical:
 
 - local meanings become global slogans;
 - one row silently mixes a role, a role description, a status value, a capability claim, and a work assignment;
 - public names drift because no row id, edition, or name-card reference stays stable;
-- cross-context sameness is asserted by spelling rather than by an `F.9` bridge;
+- sameness across different semantic-context projections is asserted by spelling instead of by two separate premises: an actual F.9 Bridge that obtains under its relation-semantic profile, and an affirmative C.2.1 claim that says the Bridge is suitable for the row's exact direction, correspondence rule, and loss tolerance, with current A.10 or B.3 reliance;
 - examples in other patterns cite a term but not the term decision that makes the example portable.
 
 `F.17` fixes this by making the term row itself reviewable. Each row says what kind of thing is being named, where the local senses came from, what bridge is claimed, which name was selected, and which direct pattern owns the underlying object.
 
 ### F.17:2.1 - Problem
 
-A public term row can make a local word look reusable while hiding the governed object, bounded context, bridge, direct pattern, admissible use, currentness condition, or blocked overread. The problem is to publish a compact term decision that travels across examples, training material, interfaces, and projects without turning the sheet itself into an ontology or authority source.
+A public term row can make a local word look reusable while hiding the governed object, effective scheme, exact local-sense claim, obtaining Bridge, separate claim about the row's use, reliance basis, direct pattern, currentness condition, or blocked overread. The problem is to publish a compact term decision that travels across examples, training material, interfaces, and projects without turning the sheet itself into an ontology, evidence source, permission, or proof that the named use occurred.
 
 ### F.17:3 - Forces
 
 | Force | F.17 settlement |
 | --- | --- |
 | Reader memory vs full provenance | Keep one compact row for use, with enough references to reopen the sense, bridge, and name decision. |
-| Local meaning vs cross-context reuse | Sense cells stay bounded-context local; bridge claims are explicit and governed by `F.9`. |
+| Local meaning vs reuse across different semantic-context projections | Local senses are exact coordinates under by-value reference schemes; every correspondence or substitution claim is explicit and governed by F.9. A changed scheme is only one way the projections can differ; a changed `LocalSenseClaim` under the same scheme also opens the F.9 question. |
 | Naming neutrality vs recognizability | `F.18` and `F.5` choose names that readers can use without smuggling one context's commitments into the row. |
 | Didactic grouping vs ontology | Blocks help memory; blocks do not create subtypes, roles, statuses, or families. |
 | Row stability vs edition change | Row ids survive reblocking and wording updates; edition-sensitive fields show what changed. |
@@ -92491,11 +92645,11 @@ A Unified Term Sheet is a table of term rows for one bounded unification thread.
 Publish one term decision through this sequence:
 
 1. Confirm that the direct pattern already governs the underlying value and its admissible use. If the kind, relation, slot position, or use is unsettled, return there before term publication.
-2. Decide whether the name now needs durable reader-facing reuse: public publication, cross-context reuse, stable citation, training use, interface use, or editioned maintenance. Otherwise keep the wording local and stop.
-3. Recover the bounded local senses and their context editions. Do not infer sameness from spelling.
+2. Decide whether the name now needs durable reader-facing reuse: public publication, reuse across different semantic-context projections, stable citation, training use, interface use, or editioned maintenance. Otherwise keep the wording local and stop.
+3. Recover each exact local sense under one effective `U.ReferenceScheme` carried by value. Cite a `SenseCellAddressRef` that resolves to the F.17 scheme-based coordinate `<reference scheme by value, local expression, local-sense claim>`; do not require or infer a `U.BoundedContext`.
 4. Use F.18 and F.5 to select the Tech and Plain names for the governed value, and cite the resulting NameCard. If no NameCard decision is current, the term is not ready for F.17 publication.
-5. When the row relates senses across contexts, cite the exact F.9 bridge, direction, congruence or loss, admitted use, and blocked reverse or stronger use. When no cross-context claim is made, add no bridge.
-6. Publish one `UnifiedTermRow` with one governed term decision, direct pattern, selected names, senses, row rationale, admissible and blocked use, edition, and currentness condition. Split unlike governed values into separate rows.
+5. When the row proposes correspondence between local senses whose `<ReferenceScheme, LocalSenseClaim>` projections differ, cite two premises in order. The projections may differ because the `LocalSenseClaim` differs even when the `ReferenceScheme` is the same; different schemes are only a common subset and do not establish a Bridge. First cite an actual F.9 Bridge for the named endpoint cells and editions and show that its relation-semantic profile applies, its Boolean predicate is true, and its required dependencies are present. Second cite an exact current C.2.1 claim with that Bridge as EntityOfConcern and affirmative polarity for the row's named use, direction, use-specific correspondence rule, and permitted-loss tolerance. Recover current reliance through the exact A.10 evidence-provenance relation plus local `RelianceDisposition=pass`, or the positive B.3 assurance branch when B.3 is triggered. A negative claim or non-passing reliance rejects or weakens the row use without negating or reidentifying an otherwise obtaining Bridge. When the projections are the same, route a different expression to F.18 designation and add no Bridge. When no semantic-correspondence use is current, add no Bridge or Bridge-use claim regardless of how many schemes are present.
+6. Publish one `UnifiedTermRow` with one governed term decision, direct pattern, selected names, scheme-based sense coordinates, row rationale, admissible and blocked use, edition, and currentness condition. Split unlike governed values into separate rows.
 7. Apply the static and regression checks, then stop at term publication. Any later object, evidence, authority, work, or subject-use claim returns to its direct pattern.
 
 Each row has one primary term decision:
@@ -92511,8 +92665,8 @@ UnifiedTermRow:
   UnifiedTechName
   UnifiedPlainName
   NameCardRef: U.EntityRef, referencing one F.18 NameCard
-  SenseCellRefs[]: SenseCellAddressRef, each resolving one F.3 SenseCell(ContextId, Local-SenseId) coordinate
-  BridgeRefs[]: U.EntityRef, referencing F.9 Bridges
+  SenseCellRefs[]: SenseCellAddressRef, each resolving one F.17 SchemeSenseCell(ReferenceScheme, LocalExpression, LocalSenseClaim) coordinate
+  BridgeRefs[]: U.EntityRef, referencing actual F.9 Bridges only; any AdmissibleUse between different semantic-context projections separately cites its exact C.2.1 claim and A.10 or B.3 reliance basis in the row rationale or notes
   RowRationale
   AdmissibleUse
   BlockedUse
@@ -92521,74 +92675,78 @@ UnifiedTermRow:
   Notes?
 ```
 
-The row may cite several local senses and several bridges, but it does not fuse their underlying objects. If a source phrase points toward multiple typed FPF values, split the row or cite the direct pattern that keeps the values distinct.
+The row may cite several local senses and several Bridges, but it does not fuse their underlying objects. If a source phrase points toward multiple typed FPF values, split the row or cite the direct pattern that keeps the values distinct.
 
 ### F.17:5 - Minimal vocabulary
 
-#### F.17:5.1 - Local-sense basis relation
+#### F.17:5.1 - Scheme-based local-sense coordinate and basis relation
 
-A local sense is not grounded merely because its expression has an accepted name. When a `SenseCell` relies on a public pattern, publication expression, seminar expression, or another episteme, use the following local relation species. It is a relation about support for one bounded local-sense line, not evidence that the governed subject claim is true.
+A local sense is not grounded merely because its expression has an accepted name. F.17 therefore separates the scheme-based local-sense coordinate, the naming settlement, and any episteme used as the basis for the sense claim.
 
 ```text
+SchemeSenseCell:
+  ValueKind: F.17-local composite coordinate; not a root U-kind
+  ReferenceScheme: U.ReferenceScheme carried by value
+  LocalSenseId: address designator only
+  LocalExpression
+  LocalSenseClaim
+  Identity: <ReferenceScheme by value, LocalExpression, LocalSenseClaim>
+
 LocalSenseBasisRelation@Context <: U.Relation
 SlotSpecs:
   LocalSenseCellSlot:
-    ValueKind: F.3 SenseCell coordinate = (U.BoundedContext, Local-Sense); this is a direct governed coordinate value, not a U-kind
-    RefKind: SenseCellAddressRef, the F.17-local reference form resolving either SenseCell(ContextId, Local-SenseId) or ContextId:LocalLabel under E.10.D1
+    ValueKind: F.17 SchemeSenseCell coordinate
+    RefKind: SenseCellAddressRef, resolving SenseCell(ReferenceSchemeId, LocalSenseId) to the exact scheme, expression, and local-sense claim
     Field: localSenseCellRef
   BasisEpistemeSlot:
     ValueKind: U.Episteme
     RefKind: U.EpistemeRef
     Field: basisEpistemeRef
-  BasisEpistemeKindSlot:
-    ValueKind: U.Kind
-    RefKind: U.KindRef
-    Field: basisEpistemeKindRef
-    Constraint: resolves to the exact kind of basisEpistemeRef
+    Constraint: the reference resolves to the exact basis-episteme kind; that kind is derived, not copied as another participant
   BasisPublicationUnitSlot?:
     ValueKind: PublicationUnit under E.17.AUD
     RefKind: PublicationUnitRef
     Field: basisPublicationUnitRef
-  BoundedContextSlot:
-    ValueKind: U.BoundedContext
-    RefKind: U.BoundedContextRef
-    Field: boundedContextRef
 RelationRefKind: U.EntityRef constrained to LocalSenseBasisRelation@Context
 Direction: basisEpistemeRef -> localSenseCellRef
-Dependence: the relation depends on the named bounded-context edition, the current basis-episteme edition, and the cited PublicationUnit when present
-Identity: <localSenseCellRef, basisEpistemeRef, basis episteme edition, boundedContextRef, basisPublicationUnitRef if present>
+Obtaining: the exact current basis-episteme edition, at the cited PublicationUnit when present, supports the coordinate's exact LocalSenseClaim under the coordinate's by-value ReferenceScheme for the stated admitted use
+NonObtaining: shared spelling, a NameCard, a file or carrier, publication availability, or an uncited source title does not make this relation obtain
+Identity: <localSenseCellRef, basisEpistemeRef, basisPublicationUnitRef if present>; the scheme, expression, and sense claim are already identity-bearing inside localSenseCellRef, and the episteme edition is already identity-bearing inside basisEpistemeRef
+OccurrenceIdentity: participant-determined; changed coordinate, basis-episteme edition, or cited publication unit identifies another occurrence
 
 LocalSenseBasisRelationDescription@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing one LocalSenseBasisRelation@Context
   entityOfConcernKindRef: U.KindRef, referencing LocalSenseBasisRelation@Context
-  boundedContextRef: U.BoundedContextRef
-  viewpointRef: U.ViewpointRef
-  subjectRef: U.SubjectRef, decoding to <entityOfConcernRef, boundedContextRef, viewpointRef>
-  groundingHolonRef?: U.HolonRef
+  viewpointRef?: U.ViewpointRef
+  subjectRef?: U.SubjectRef, only when independently governed and without adding a context participant
   claimGraph: U.ClaimGraph by value, carrying the supported-sense claim, admitted-use claim, and non-admitted-use claim
-  referenceScheme: U.ReferenceScheme by value
+  referenceScheme: U.ReferenceScheme by value; exactly the scheme in localSenseCellRef
   editionId
 ```
 
-`SenseCellAddressRef` addresses the F.3 coordinate without minting a SenseCell U-kind; resolving it yields the exact `(U.BoundedContext, Local-Sense)` pair and context edition. `basisPublicationUnitRef` has RefKind `PublicationUnitRef` and narrows a relied-on pattern or publication to the exact bounded unit when that precision matters. It does not turn a file, slide carrier, or rendering into the supporting episteme.
+`SenseCellAddressRef` is the F.17 reference form for `SchemeSenseCell`. Its readable `SenseCell(...)` spelling is an address, not a claim that a SenseCell is a U-kind or that a context holon exists. A legacy F.3 address of the form `SenseCell(ContextId, LocalSenseId)` may be consumed only when an explicit adapter resolves `ContextId` to one exact effective reference scheme and the same local expression and sense claim. If that resolution is absent or lossy, stop the row; do not reconstruct `U.BoundedContext`.
 
-The relation says only that the named basis episteme, optionally at one publication unit, is the basis for the named SenseCell coordinate in the bounded context. `LocalSenseBasisRelationDescription@Context` says which local-sense claim is supported and which uses are admitted or blocked. Changing only the NameCard reopens the selected expression. Changing the SenseCell address, basis episteme edition, bounded context, or cited publication unit reopens the relation. Changing only the supported-sense claim or use boundary creates a new relation-description edition while preserving the relation when its identity tuple remains unchanged.
+The retained `@Context` suffix on `LocalSenseBasisRelation@Context` is lineage-compatible vocabulary for bounded local use, not a participant declaration. New occurrences have no `U.BoundedContext` slot. A legacy record may retain `boundedContextRef` only as non-participant address metadata when it resolves to the same exact scheme-based coordinate; otherwise that record is not current for an F.17 row.
+
+`basisPublicationUnitRef` narrows a relied-on pattern or publication episteme to the exact bounded unit when that precision matters. It does not turn a file, slide carrier, rendering, or publication occurrence into the supporting episteme.
+
+The basis relation says only that the named episteme supports the named local-sense claim for the stated use. Its description says which claim is supported and which uses are admitted or blocked. A changed NameCard reopens the selected expression. A changed scheme, local expression, local-sense claim, basis-episteme edition, or cited publication unit identifies or selects another basis occurrence. A changed supported-use boundary creates another relation-description edition without silently changing the basis relation.
 
 `UnifiedTermSheet` is the whole reader-facing term table for one bounded unification thread.
 
 `UnifiedTermRow` is one local F.17 publication-row form in that sheet. It publishes one reviewed term decision and is not a root U-kind or the underlying governed value.
 
-`UnificationThreadId` identifies the bounded naming thread that groups this row with related term decisions. It is a sheet-local identifier, not a `U.BoundedContext`; bounded contexts and their editions remain explicit in `SenseCellRefs`, while `RowEdition` identifies the row edition.
+`UnificationThreadId` identifies the bounded naming thread that groups this row with related term decisions. It is a sheet-local identifier, not an ontological locality bearer; `RowEdition` identifies the row edition.
 
 `GovernedValueRef` references the exact value being named. `GovernedValueKindRef` separately references its kind. When the term names a kind token, such as `DemonstrativeUnfoldingSlice@Context`, the governed value is that token and its kind is `U.Kind`; the direct subject pattern states which kinds of instances the token admits. When the term names a role value, relation value, status value, slot kind, or local concept, the two positions reference that value and its exact governed kind. No union field or generic kind container substitutes for this pair.
 
 `DirectGoverningPatternRef` names the pattern that owns the underlying value or claim. `F.17` owns the term-row publication, not that value.
 
-`SenseCell` is a bounded-context local sense coordinate from `F.3`. It names the context, edition, local expression, and local sense. `SenseCellAddressRef` is the F.17-local RefKind for that coordinate; it does not mint a SenseCell U-kind. A `NameCardRef` may accompany the cell when its local expression relies on an `F.18` naming settlement. A separate `LocalSenseBasisRelationRef` relates the SenseCell coordinate to the episteme that supports it; the relation description carries the supported-sense and use-boundary claims, and the NameCard fills neither position.
+`SchemeSenseCell` is the exact F.17 local-sense coordinate. It binds one local expression and sense claim to one effective `U.ReferenceScheme` carried by value. A `NameCardRef` may accompany it when F.18 selected the expression. A separate `LocalSenseBasisRelationRef` relates the coordinate to a supporting episteme; the relation description carries the supported-sense and use-boundary claims, and the NameCard fills neither position.
 
-`BridgeRef` cites an `F.9` bridge when one row uses senses from more than one bounded context or when sameness, near-identity, retargeting, or loss matters.
+`BridgeRef` cites an actual F.9 Bridge only when it obtains for the exact scheme-based endpoints under a relation-semantic profile that applies, has a true Boolean predicate, and has every required dependency present. The reference carries no row-use direction, rule, tolerance, polarity, reliance, or permission. An `AdmissibleUse` between different `<ReferenceScheme, LocalSenseClaim>` projections separately cites the exact affirmative C.2.1 claim about that Bridge and names its current A.10 or B.3 reliance basis. A scheme difference alone supplies neither premise.
 
-`UnifiedTechName` and `UnifiedPlainName` are the selected names governed by `F.5` and `F.18`. Extra aliases belong in the name-card or local lexicon material, not as rival unified names in the row.
+`UnifiedTechName` and `UnifiedPlainName` are the selected names governed by F.5 and F.18. Extra aliases belong in the NameCard or local lexicon material, not as rival unified names in the row.
 
 `BlockPlan` is the didactic grouping of rows. A block is a memory and teaching device, not an ontological parent.
 
@@ -92596,10 +92754,10 @@ The relation says only that the named basis episteme, optionally at one publicat
 
 Create or update a UTS row when at least one condition is present:
 
-- the name will be public, Core-facing, or reused across bounded contexts;
+- the name will be public, Core-facing, or reused under more than one effective reference scheme;
 - a row id is needed for later examples, checks, dashboards, training material, or tool interface labels;
 - a role name, status-family name, slot name, relation name, or local concept name is being reused outside the immediate local repair;
-- a bridge claim is being used for cross-context term reuse;
+- an obtaining F.9 Bridge and a separately warranted affirmative C.2.1 claim are being used for one exact term-row use between different semantic-context projections;
 - a name-card decision from `F.18` needs a compact reader-facing term row;
 - a direct pattern changes the governed object in a way that changes the name, local sense, bridge, or admissible use.
 
@@ -92612,24 +92770,24 @@ Use these columns unless the sheet has a justified specialization.
 | Column | Presence condition | Meaning |
 | --- | --- | --- |
 | `UTSRowId` | yes | Stable row id. It survives relocation of the row between blocks. |
-| `Unification thread` | yes | Sheet-local identifier of the bounded naming thread; it does not replace any SenseCell bounded context. |
+| `Unification thread` | yes | Sheet-local identifier of the bounded naming thread; it is not an ontological locality bearer. |
 | `Block` | yes | Didactic block name. It has no subtype force. |
 | `Governed value` | yes | Exact value being named, including a kind token when the name is for that token. |
 | `Governed value kind` | yes | Exact kind of the governed value; use `U.Kind` when the governed value is itself a kind token. |
 | `Direct pattern` | yes | Pattern that governs the underlying object or claim. |
-| `Unified Tech name` | yes | Technical name selected under `F.5` and `F.18`. |
-| `Unified Plain name` | yes | Plain-language twin selected under `F.5` and `F.18`. |
-| `NameCardRef` | yes | Link to the `F.18` NameCard that selected or documented the published names. |
-| `SenseCellRefs` | yes | References to local senses by bounded context and edition. |
-| `BridgeRefs` | when cross-context use is current | `F.9` bridge ids with congruence level and loss note. |
-| `Row rationale` | yes | One sentence explaining why this row is one term decision. |
-| `Admissible use` | yes | What this row may be cited for. |
+| `Unified Tech name` | yes | Technical name selected under F.5 and F.18. |
+| `Unified Plain name` | yes | Plain-language twin selected under F.5 and F.18. |
+| `NameCardRef` | yes | Link to the F.18 NameCard that selected or documented the published names. |
+| `SenseCellRefs` | yes | References to exact F.17 scheme-based local-sense coordinates. |
+| `BridgeRefs` | when the row makes a correspondence claim between different semantic-context projections | Refs to actual F.9 Bridge occurrences only, with their kind-defined symmetry or orientation and exact endpoint editions. Use direction, rule, tolerance, polarity, and reliance do not live in this field. |
+| `Row rationale` | yes | One sentence explaining why this row is one term decision. For reuse between different semantic-context projections, name the exact C.2.1 claim and its A.10 or B.3 reliance basis here or in `Notes`. |
+| `Admissible use` | yes | What this row may be cited for. A use between different semantic-context projections states the action, direction, correspondence rule, tolerated loss, and affirmative claim ref; it does not imply authorization or occurrence. |
 | `Not this use` | yes | The most tempting blocked use or misuse that this row does not permit. |
 | `Row edition` | yes | Edition of the row. |
-| `Currentness condition` | yes | Which direct-pattern or source change opens row review. |
+| `Currentness condition` | yes | Which direct-pattern, scheme, sense, name, Bridge, or source change opens row review. |
 | `Notes` | optional | Short teaching or homonym warning only. |
 
-For `SenseCellRefs`, cite the bounded context and edition. If the local expression relies on a naming settlement, cite its `NameCardRef`. If the local sense relies on a publication or another episteme, cite a `LocalSenseBasisRelation@Context` with an exact `U.EpistemeRef` and, when needed, the exact publication-unit ref. Do not let a source title, file name, or NameCard substitute for the local sense or its basis relation.
+For `SenseCellRefs`, cite the exact by-value reference scheme, local expression, and local-sense claim. If the local expression relies on a naming settlement, cite its `NameCardRef`. If the local-sense claim relies on a publication or another episteme, cite a `LocalSenseBasisRelation@Context` with an exact `U.EpistemeRef` and, when needed, the exact publication-unit ref. The retained suffix is a lineage-compatible name, not a context participant. Do not let a source title, file name, carrier, context label, selected structure, or NameCard substitute for the coordinate or its basis relation.
 
 ### F.17:8 - Block plan
 
@@ -92651,19 +92809,19 @@ This example does not define an ontology. It is a didactic grouping. The sheet m
 
 F.17 admits two common layouts.
 
-Layout A, context-first: keep the left rail fixed and add one bounded-context column per selected context. Use this when the reader's current comparison concerns local senses across named contexts.
+Layout A, scheme-first: keep the left rail fixed and add one exact reference-scheme column per selected interpretation basis. Use this when the reader's comparison concerns local senses under named schemes.
 
 ```text
 UTSRowId | Unification thread | Block | Governed value | Governed value kind | Direct pattern
 Unified Tech name | Unified Plain name | NameCardRef
-Context A, edition | Context B, edition | Context C, edition
+Reference scheme A | Reference scheme B | Reference scheme C
 BridgeRefs | Row rationale | Admissible use | Not this use
 Row edition | Currentness condition | Notes
 ```
 
-Layout B, comparison-column: keep context and edition inside `SenseCellRefs` and use a smaller set of comparison columns such as tradition, discipline, language, or project family. Use this for teaching when the direct bounded-context cells would be too wide. The comparison columns are presentation aids; they have context authority only when each cell still cites the bounded context and edition.
+Layout B, comparison-column: keep the scheme, local expression, and sense claim inside `SenseCellRefs` and use a smaller set of presentation columns such as tradition, discipline, language, publication family, or project family. These columns are teaching aids; they have interpretation authority only when each cell still resolves to its exact by-value scheme and local-sense claim.
 
-Never mix a context column and a discipline column as if they had the same kind. A bounded context is a meaning scope; a discipline column is a didactic comparison view.
+Never mix a scheme column and a discipline or project-family column as if they had the same kind. A `U.ReferenceScheme` is an interpretation basis carried by value; a comparison column is a didactic view.
 
 ### F.17:10 - Static conformance rules for a UTS
 
@@ -92671,31 +92829,31 @@ Use these checks before citing a UTS row outside its local sheet.
 
 | Rule | Check |
 | --- | --- |
-| UTS-SCR-01 | Every row has row id, unification-thread id, block, governed value, governed value kind, direct pattern, Tech name, Plain name, sense-cell refs, row rationale, admissible use, blocked use, row edition, and currentness condition. |
+| UTS-SCR-01 | Every row has row id, unification-thread id, block, governed value, governed value kind, direct pattern, Tech name, Plain name, scheme-based sense-cell refs, row rationale, admissible use, blocked use, row edition, and currentness condition. |
 | UTS-SCR-02 | A row names one governed term decision. If the wording hides multiple typed values, split the row or cite the direct pattern that keeps them distinct. |
-| UTS-SCR-03 | Every local sense is scoped to bounded context and edition. |
-| UTS-SCR-04 | Every cross-context sameness, near-identity, retargeting, or loss claim cites `F.9`. |
-| UTS-SCR-05 | The Tech and Plain names satisfy `F.5` and `F.18`; they are not lifted from one local context unless the bridge and rationale justify that choice. |
+| UTS-SCR-03 | Every local sense resolves to one exact by-value reference scheme, local expression, and local-sense claim; no context holon is required or inferred. |
+| UTS-SCR-04 | A row that proposes use between different semantic-context projections cites an obtaining F.9 Bridge for the exact endpoint cells and editions, then separately cites an affirmative C.2.1 claim for the row's exact use, direction, correspondence rule, and loss tolerance; current reliance follows the exact A.10 or B.3 branch. Apply four probes: same scheme plus same `LocalSenseClaim` plus a different expression routes to designation and no Bridge; same scheme plus a different `LocalSenseClaim` opens the F.9 question and, for a named row use, the separate claim-and-reliance branch; a different scheme opens only the Bridge question and never establishes one; no current correspondence use creates no Bridge or use claim regardless of scheme count. A negative bounded-use claim rejects the exact named row use; a non-passing reliance result stops or narrows the current use according to its exact A.10 or B.3 disposition; neither changes whether the Bridge obtains or how it is identified. |
+| UTS-SCR-05 | The Tech and Plain names satisfy F.5 and F.18; spelling or a familiar context label supplies neither local-sense identity nor a Bridge. |
 | UTS-SCR-06 | A role row names `U.Role` or a governed role value; it does not treat RoleDescription, RoleAssignment, capability, method, or work as the same value. |
-| UTS-SCR-07 | A status row names the status-family or status-window value governed by `F.10` or `A.19.SPR`; it does not create a role. |
-| UTS-SCR-08 | Evidence, assurance, source, publication, and description-use rows cite their direct patterns and do not become generic "evidence roles". |
+| UTS-SCR-07 | A status row names the status-family or status-window value governed by F.10 or A.19.SPR; it does not create a role. |
+| UTS-SCR-08 | Evidence, assurance, source, publication, and description-use rows cite their direct patterns and do not become generic evidence roles. |
 | UTS-SCR-09 | Blocks remain didactic. No subtype, part-of, role, status, or priority claim follows from block placement. |
-| UTS-SCR-10 | The sheet as a whole shows enough context breadth for its claim. If breadth is narrow, the sheet says so. |
+| UTS-SCR-10 | The sheet states the scheme and reader breadth actually tested. A narrow row does not claim universal or corpus-wide reuse. |
 
 Passing the row schema is not the value criterion. A row succeeds only when its intended readers can recover the correct governed value and direct pattern for the declared use and avoid the blocked use. Row count, filled-cell count, label uniformity, block neatness, and stable identifiers are maintenance aids, not evidence that the term decision is useful or semantically adequate.
 
 ### F.17:11 - Regression and stability rules
 
-Recheck only the rows affected by the changed object, name, bridge, or source.
+Recheck only the rows affected by the changed object, name, scheme, sense, Bridge, basis, or source.
 
 | Rule | Trigger | Response when triggered |
 | --- | --- | --- |
-| UTS-RSCR-01 | Bounded context edition changes | Keep old sense cells addressable and add or revise cells for the new edition. |
+| UTS-RSCR-01 | Reference-scheme value, local expression, or local-sense claim changes | Preserve the old coordinate when it is still cited and create or cite the new exact coordinate; do not silently reuse the old address. |
 | UTS-RSCR-02 | Direct governing pattern changes the underlying value kind or admissible use | Recheck governed value, governed value kind, direct pattern, admissible use, and blocked use. |
-| UTS-RSCR-03 | `F.18` changes the selected name or name-card decision | Recheck Tech name, Plain name, NameCardRef, aliases, and rationale. |
-| UTS-RSCR-04 | `F.9` changes bridge kind, congruence level, loss, or direction | Recheck BridgeRefs, row rationale, and cross-context use. |
+| UTS-RSCR-03 | F.18 changes the selected name or NameCard decision | Recheck Tech name, Plain name, NameCardRef, aliases, coordinate expression, and rationale. |
+| UTS-RSCR-04 | F.9 changes a Bridge endpoint or relation-semantic profile, or C.2.1/A.10/B.3 changes the bounded-use claim or reliance basis | Recheck the changed object only: BridgeRefs for endpoint or profile change; row use, rationale, and notes for changed direction, rule, tolerance, polarity, evidence, reliance, or assurance. |
 | UTS-RSCR-05 | Row relocation between blocks | Keep the row id stable and state that relocation between blocks has no ontological force. |
-| UTS-RSCR-06 | A role, status, evidence, source, publication, or description row is reused in another context | Recheck the direct governing pattern and the bridge before reuse. |
+| UTS-RSCR-06 | A role, status, evidence, source, publication, or description row is reused under another semantic-context projection or by another reader group | Recheck the direct governing pattern, exact sense coordinate, and any required Bridge before reuse. |
 
 ### F.17:12 - Archetypal Grounding - worked cases
 
@@ -92703,7 +92861,7 @@ Recheck only the rows affected by the changed object, name, bridge, or source.
 
 A project has `ReviewerRole@DesignReview` and `ReviewerRole@ExternalAudit`. The local expressions both say "reviewer", but one concerns a system-in-role performing design review work and the other concerns an assurance actor producing an audit report.
 
-The UTS row does not declare one universal reviewer. It either creates two rows or one row with an explicit `F.9` bridge and loss note. Each row cites the direct role pattern, the RoleDescription when current, and the `F.18` NameCardRef. If evidence or assurance is current, `A.10` or `B.3` governs that separate row or note.
+The UTS row does not declare one universal reviewer. It either creates two rows or, when one naming use between different semantic-context projections is genuinely needed, cites an obtaining F.9 Bridge plus an affirmative C.2.1 claim that names the use direction, label rule, and tolerated loss. Each row cites the direct role pattern, the RoleDescription when current, and the `F.18` NameCardRef. A.10 or B.3 governs reliance on the use claim; no row or card creates a role assignment or review Work.
 
 #### F.17:12.2 - Status label looks like a role name
 
@@ -92719,7 +92877,7 @@ A sheet has a row labelled `Evidence role`. F.17 repairs the row by recovering t
 
 #### F.17:12.4a - Manufacturing batch across material and planning contexts
 
-A furnace team uses `batch` for one physically handled set of shafts that shares a heat-treatment run and traceability basis. A planning dashboard uses `batch` for a grouping of intended PlanItems. Spelling does not make these one governed value. Recover the physical batch under the direct material or production DPF pattern, including its identity and part-whole treatment when current; recover the planning grouping under A.15.2 and its direct planning relation. Publish separate rows unless an F.9 Bridge states a narrower comparison or traceability relation with direction and loss. A `batch` row cannot turn a PlanItem grouping into a physical holon or make the physical batch a WorkPlan.
+A furnace team uses `batch` for one physically handled set of shafts that shares a heat-treatment run and traceability basis. A planning dashboard uses `batch` for a grouping of intended PlanItems. Spelling does not make these one governed value. Recover the physical batch under the direct material or production DPF pattern, including its identity and part-whole treatment when the proposed comparison relies on either; recover the planning grouping under A.15.2 and its direct planning relation. Publish separate rows unless an obtaining F.9 Bridge states the exact semantic relation and a separate affirmative C.2.1 claim names the proposed comparison direction, correspondence rule, and tolerated loss with current A.10 or B.3 reliance. A `batch` row cannot turn a PlanItem grouping into a physical holon or make the physical batch a WorkPlan.
 
 #### F.17:12.4b - Clinical discharge wording
 
@@ -92740,12 +92898,13 @@ UnifiedTechName: DemonstrativeUnfoldingSlice@Context
 UnifiedPlainName: demonstrative walkthrough
 NameCardRef: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
 SenseCellRefs: SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
-BridgeRefs: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11, CL=2, CellB-to-CellA only
+BridgeRefs: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11; relation=Narrower-than with SeminarTeaching source narrower than FPFPublic receiving
 RowRationale: this row names one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure for a cold public reader
-AdmissibleUse: public naming of the governed demonstrative episteme
+AdmissibleUse: public naming of the governed demonstrative episteme under affirmative claim Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
 BlockedUse: actual traversal, method order, work order, performed work, or teaching-medium identity
+Notes: reliance basis is EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11 with RelianceDisposition=pass for this naming use only
 RowEdition: 2026-07-11
-CurrentnessCondition: review when the governed value, public bounded context, NameCard, local-sense basis relation, bridge loss, or reader evidence changes
+CurrentnessCondition: review when the governed value, FPFCoreReferenceScheme, NameCard, local-sense basis relation, Bridge endpoint or profile, bounded-use claim, A.10 reliance basis, or reader evidence changes
 
 UTSRowId: UTS.DemonstrativeUnfoldingSlice.SeminarTeaching
 UnificationThreadId: DemonstrativeExplanationTerminology.2026-07-11
@@ -92757,12 +92916,13 @@ UnifiedTechName: DemonstrativeUnfoldingSlice@Context
 UnifiedPlainName: mantra
 NameCardRef: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
 SenseCellRefs: SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
-BridgeRefs: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11, CL=2, CellB-to-CellA only
+BridgeRefs: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11; relation=Narrower-than with SeminarTeaching source narrower than FPFPublic receiving
 RowRationale: the bounded teaching alias adds repeated speech and attentional use while naming the same governed demonstrative episteme
-AdmissibleUse: repeated English-language FPF seminar speech that helps participants hold the demonstrated solution structure in attention
+AdmissibleUse: repeated English-language FPF seminar speech that points to the public term under affirmative claim Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
 BlockedUse: ritual authority, slogan, method, plan, work, fixed order, or reverse substitution from every public walkthrough
+Notes: reliance basis is EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11 with RelianceDisposition=pass for this naming use only
 RowEdition: 2026-07-11
-CurrentnessCondition: review when the seminar context, governed value, NameCard, local-sense basis relation, bridge loss, dictionary evidence, or reader evidence changes
+CurrentnessCondition: review when FPFSeminarTeachingReferenceScheme-2026-07-11, the governed value, NameCard, local-sense basis relation, Bridge endpoint or profile, bounded-use claim, A.10 reliance basis, dictionary evidence, or reader evidence changes
 
 UTSRowId: UTS.DemonstratedPatternUseRow.SeminarTeaching
 UnificationThreadId: DemonstrativeExplanationTerminology.2026-07-11
@@ -92774,154 +92934,375 @@ UnifiedTechName: DemonstratedPatternUseRow@Context
 UnifiedPlainName: mantra move
 NameCardRef: NameCard.DemonstratedPatternUseRow.SeminarTeaching
 SenseCellRefs: SenseCell.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
-BridgeRefs: none; expression and governed-row use are local to the same bounded seminar context
+BridgeRefs: none; expression and governed-row use are interpreted under the same seminar-teaching scheme
 RowRationale: this row names one shown conditional pattern use with its Solution, expected result, and current condition inside a mantra
 AdmissibleUse: bounded seminar reference to one demonstrated result-bearing continuation
 BlockedUse: root Move, physical movement, operation, fixed serial step, PlanItem, performed Work, or continuation detached from its slice
 RowEdition: 2026-07-11
-CurrentnessCondition: review when the demonstrated-row schema, NameCard, local-sense basis relation, seminar context, or reader interpretation changes
+CurrentnessCondition: review when the demonstrated-row schema, NameCard, local-sense basis relation, seminar-teaching scheme, or reader interpretation changes
 ```
 
 The two senses of the same demonstrative value remain distinct:
 
 ```text
 SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
-  Context: FPF English public publication, edition 2026-07-11
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: DemonstrativeUnfoldingSlice-public
   LocalExpression: demonstrative walkthrough
-  LocalSense: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
+  LocalSenseClaim: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
   senseFamily: DemonstrativeExplanation
   NameCardRef: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
   LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
 
 SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
-  Context: English-language FPF seminar teaching, edition 2026-07-11
+  ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
+  LocalSenseId: DemonstrativeUnfoldingSlice-mantra
   LocalExpression: mantra
-  LocalSense: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
+  LocalSenseClaim: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
   senseFamily: DemonstrativeExplanation
   NameCardRef: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
   LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
 
 SenseCell.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
-  Context: English-language FPF seminar teaching, edition 2026-07-11
+  ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
+  LocalSenseId: DemonstratedPatternUseRow-mantra-move
   LocalExpression: mantra move
-  LocalSense: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
+  LocalSenseClaim: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
   senseFamily: DemonstratedPatternUseContinuation
   NameCardRef: NameCard.DemonstratedPatternUseRow.SeminarTeaching
   LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
 
 LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
-  localSenseCellRef: SenseCell(FPF-English-Public-2026-07-11, DemonstrativeUnfoldingSlice-public)
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, DemonstrativeUnfoldingSlice-public)
   basisEpistemeRef: A.22.CGUS
-  basisEpistemeKindRef: U.MethodDescription
   basisPublicationUnitRef: A.22.CGUS:4.3.3-Ordinary-bounded-use
-  boundedContextRef: FPF English public publication, edition 2026-07-11
 
 LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
   entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
   entityOfConcernKindRef: LocalSenseBasisRelation@Context
-  boundedContextRef: FPF English public publication, edition 2026-07-11
   viewpointRef: FPFPublicReaderViewpoint
-  subjectRef: <LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11, FPF English public publication 2026-07-11, FPFPublicReaderViewpoint>
   claimGraph:
     supportedSenseClaim: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
-    admittedUseClaim: support the public local-sense line for this SenseCell
+    admittedUseClaim: support the public local-sense line for this scheme-based coordinate
     nonAdmittedUseClaim: no evidence, authority, work-order, or naming decision follows from this relation
-  referenceScheme: F.3 SenseCell and F.17 local-sense-basis interpretation
+  referenceScheme: FPFCoreReferenceScheme
   editionId: 2026-07-11
 
 LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
-  localSenseCellRef: SenseCell(FPF-Seminar-Teaching-2026-07-11, DemonstrativeUnfoldingSlice-mantra)
+  localSenseCellRef: SenseCell(FPFSeminarTeachingReferenceScheme-2026-07-11, DemonstrativeUnfoldingSlice-mantra)
   basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
-  basisEpistemeKindRef: U.EpistemePublication
   basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10
-  boundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
 
 LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
   entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
   entityOfConcernKindRef: LocalSenseBasisRelation@Context
-  boundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
   viewpointRef: FPF Seminar Participant Viewpoint
-  subjectRef: <LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11, English-language FPF seminar teaching 2026-07-11, FPF Seminar Participant Viewpoint>
   claimGraph:
     supportedSenseClaim: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
     admittedUseClaim: support the bounded teaching sense from the seminar expression
     nonAdmittedUseClaim: the slide carrier does not become the sense, naming settlement, method, plan, or work
-  referenceScheme: F.3 SenseCell and F.17 local-sense-basis interpretation
+  referenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
   editionId: 2026-07-11
 
 LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
-  localSenseCellRef: SenseCell(FPF-Seminar-Teaching-2026-07-11, DemonstratedPatternUseRow-mantra-move)
+  localSenseCellRef: SenseCell(FPFSeminarTeachingReferenceScheme-2026-07-11, DemonstratedPatternUseRow-mantra-move)
   basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
-  basisEpistemeKindRef: U.EpistemePublication
   basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides61-62
-  boundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
 
 LocalSenseBasisRelationDescription.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
   entityOfConcernRef: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
   entityOfConcernKindRef: LocalSenseBasisRelation@Context
-  boundedContextRef: English-language FPF seminar teaching, edition 2026-07-11
   viewpointRef: FPF Seminar Participant Viewpoint
-  subjectRef: <LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11, English-language FPF seminar teaching 2026-07-11, FPF Seminar Participant Viewpoint>
   claimGraph:
     supportedSenseClaim: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
     admittedUseClaim: support the bounded teaching sense of mantra move
     nonAdmittedUseClaim: the slide carrier does not become the row, pattern use, plan, or performed work
-  referenceScheme: F.3 SenseCell and F.17 local-sense-basis interpretation
+  referenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
   editionId: 2026-07-11
 ```
 
-`SeminarExpression.FPFPracticalUse.2026-07-11` names the published seminar content as a `U.EpistemePublication`; the `.pptx` and extracted Markdown are separate carriers or renderings. The public relation instead relies on the current `A.22.CGUS` pattern episteme and narrows that reliance to the ordinary-use publication unit.
-The cross-context relation is complete by value. `DemonstrativeExplanation` is an F.9 local `senseFamily` label, not a U-kind.
+`SeminarExpression.FPFPracticalUse.2026-07-11` names the seminar-content episteme; the publication occurrence that makes an edition available and the `.pptx` and extracted Markdown carriers remain separate. The public basis relation instead relies on the current A.22.CGUS pattern episteme and narrows that reliance to the ordinary-use publication unit.
+
+This worked case is cross-scheme because its endpoint `ReferenceScheme` values differ. The obtaining relation and the row's named use are recorded separately:
 
 ```text
-BridgeCardId: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+BridgeOccurrence:
+  BridgeOccurrenceRef: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+  SourceSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
+  ReceivingSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
+  BridgePredicateProfile:
+    BridgeKind: Narrower-than
+    RelationOrientation: source SeminarTeaching sense is narrower than receiving FPFPublic sense
+    EndpointSenseReadings: both are DemonstrativeExplanation senses of the governed A.22.CGUS value; the seminar sense additionally requires repetition and attentional use
+    RelationSpecificCondition: every demonstrative episteme classified by the seminar sense is also classified by the public walkthrough sense, while some public walkthroughs are not seminar mantras
+    ApplicabilityOrAsOfBasis: FPFCoreReferenceScheme and FPFSeminarTeachingReferenceScheme-2026-07-11 at the named sense editions
+    BooleanTruthCondition: true only while the proper-specialization condition holds for those endpoint editions
+    RequiredDependencies: both F.17 SchemeSenseCells resolve, their cited local-sense basis claims hold, and the A.22.CGUS governed-value identity remains unchanged
+
+C.2.1 claim about this named use:
+  ClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+  EntityOfConcern: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+  EffectiveReferenceScheme: FPFCoreReferenceScheme
+  ClaimGraph:
+    ProposedUse: a seminar use of "mantra" points to the public demonstrative-walkthrough term and its governed value
+    Direction: SeminarTeaching sense -> FPFPublic sense
+    CorrespondenceRule: preserve reference to the same governed A.22.CGUS value and do not infer that every public walkthrough is a mantra
+    PermittedLossTolerance: repetition, remembered replay, and attentional function may be omitted; no method, plan, order, authority, Work, or teaching-medium claim may be carried
+    Polarity: affirmative
+
+A.10 evidence reliance for this claim:
+  EvidenceProvenanceRelationRef: EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+  TargetClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+  BoundedEvidenceUse: use the seminar word "mantra" to point to the public demonstrative-walkthrough term and the same governed A.22.CGUS value
+  EvidencePaths:
+    PublicSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11 --basisEpistemeRef--> A.22.CGUS --basisPublicationUnitRef--> A.22.CGUS:4.3.3-Ordinary-bounded-use --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
+    SeminarSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11 --basisEpistemeRef--> SeminarExpression.FPFPracticalUse.2026-07-11 --basisPublicationUnitRef--> SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10 --carriedBy--> FPF_first_seminar_reworked_slidement.pptx@sha256:325B50C5D062479434ECCABFF0B8B3E316825CAA5E1646A61D25183B90B9CA89 (Git blob e990847d37ddca59d15a9cc434fad15381a2122d) and fpf_first_seminar_slides.content.md@sha256:B38C6F5FBC85CAF9986D2141095C90DAFFAB6F3FEA607ACE7FA6CE60EB18228D (Git blob 34fd989b646aa4dc9f2879cab40d2e6dde989b1b)
+    NameSettlementRecord: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
+    DictionaryEvidenceRecord-MW: Merriam-Webster "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.merriam-webster.com/dictionary/mantra
+    DictionaryEvidenceRecord-OALD: Oxford Advanced Learner's Dictionary "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.oxfordlearnersdictionaries.com/definition/english/mantra
+    ReaderCueEvidenceRecord: Zhu, Reinecke, and Mitra, Language Scent, arXiv:2604.03604 (2026) --derivedFrom--> https://arxiv.org/abs/2604.03604; supports contextual cues, not equivalence or fitness for every reader
+  EvidenceProducingOrInterpretingWork: absent from this fixture; no Work occurrence is used as a premise
+  CurrentRoleAssignment: absent from this fixture
+  MethodTrace: absent from this fixture
+  CurrentnessAndWindow: applies to the named 2026-07-11 sense as evidenced by the exact current seminar carrier editions above; both Git blobs must resolve, both carrier paths must retain the cited raw-SHA-256 bytes, and the cited NameCard and A.22.CGUS governed value must remain current
+  UnsupportedAttemptedUse: reverse substitution, structural inference, or any method, plan, authority, Work, teaching-medium identity, publication occurrence, or other receiving occurrence
+  ReopenOrStop: stop this naming use and reopen its A.10 classification if either cited Git blob does not resolve, either carrier path no longer contains its cited raw-SHA-256 bytes, any other cited item or provenance edge is missing or stale, either sense, NameCard, or governed value changes, or reader evidence shows that "mantra" obscures rather than locates the public value
+  RelianceDisposition: pass only for the named bounded naming use while every path and currentness condition above holds
+  B.3 branch: no assurance claim is made and this reversible naming use does not meet the material-reliance threshold
 BridgeCard:
-  CellA: SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
-  CellB: SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
-  senseFamilyA: DemonstrativeExplanation
-  senseFamilyB: DemonstrativeExplanation
-  BridgeKind: Narrower-than
-  Direction: CellB is narrower than CellA; only CellB-to-CellA use is admitted
-  CL: 2
-  LossNotes: the broader public sense does not include repeated speech, remembered replay, or the seminar attentional function
-  CounterExampleOrInvariantEvidence: a public demonstrative walkthrough may be read once and understood without being repeated or used as a mnemonic
-  AdmittedUse: naming-only; a seminar use of mantra may point to the public demonstrative-walkthrough term and its governed value
-  NonAdmittedUse: no CellA-to-CellB substitution; no claim that every public walkthrough is a mantra; no inference of method, plan, order, authority, work, or teaching-medium identity
-  DirectGoverningPatternIfNotF9: none; F.9 governs this substitution Bridge
-  RevisionTrigger: either bounded-context edition changes, reader tests change the observed loss, or the selected local label or governed value changes
+  EntityOfConcern: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
+  EffectiveReferenceScheme: FPFCoreReferenceScheme
+  ClaimGraph:
+    ClaimMode: actual
+    BridgeClaim: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11 obtains under the BridgePredicateProfile above
+    BoundedUseClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+    EvidenceProvenanceRelationRef: EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
+    RelianceDispositionClaim: pass only for the named SeminarTeaching-to-FPFPublic naming use
+    ObservedLossClaim: the broader public sense does not require repeated speech, remembered replay, or the seminar attentional function
+    CounterExampleClaim: a public demonstrative walkthrough may be read once and understood without being repeated or used as a mnemonic
+    CurrentnessClaim: use this card only while the named Bridge, bounded-use claim, evidence-provenance relation, local reliance disposition, 2026-07-11 sense editions, and current A.22.CGUS governed value remain current
+    NearestNonUseClaim: do not use it for FPFPublic-to-SeminarTeaching substitution or to infer a method, plan, order, authority, Work, teaching-medium identity, publication occurrence, or other receiving occurrence
 ```
 
-The bridge is directional because the seminar sense adds repetition and attentional use. Shared reference to one governed value does not erase that sense difference. `CL=2` is admitted only with the explicit counterexample; it does not admit reverse substitution or structural inference.
+The Bridge is `Narrower-than` because the seminar sense adds repetition and attentional use. That relation orientation does not grant a use. The separate affirmative claim states the exact SeminarTeaching-to-FPFPublic naming use, rule, and tolerance; the A.10 relation and `RelianceDisposition=pass` support reliance only on that claim. Changing reader evidence may reopen the claim or reliance while leaving the Bridge fixed. Neither the card nor the passing disposition authorizes publication or proves that publication Work occurred.
 
-The seminar deck and its textual extraction establish the teaching problem and observed concept use. They do not establish English lexical admissibility by themselves. Current English dictionary evidence supports the repeated-formula and watchword senses of `mantra`, while its Sanskrit analysis as an instrument of thought supplies the attentional rationale. F.18 and reader-use evidence decide whether that English candidate fits this bounded FPF context. This row does not claim that every local pattern mantra is a `DemonstrativeUnfoldingSlice@Context`; a pattern-local formula is interpreted from that pattern's Solution unless a stronger governed value is claimed. This row makes no cross-language sameness claim; a term published in another language needs its own bounded NameCard, evidence, and F.17 sense relation.
+The seminar deck and its textual extraction establish the teaching problem and observed concept use. They do not establish English lexical suitability by themselves. Current English dictionary evidence supports the repeated-formula and watchword senses of `mantra`, while its Sanskrit analysis as an instrument of thought supplies the attentional rationale. F.18 and reader-use evidence decide whether that English candidate fits this bounded FPF use. This row does not claim that every local pattern mantra is a `DemonstrativeUnfoldingSlice@Context`; a pattern-local formula is interpreted from that pattern's Solution unless a stronger governed value is claimed. This row makes no cross-language sameness claim. If the term is independently published under another semantic-context projection—including the same scheme with a different `LocalSenseClaim` or another scheme—that publication needs its own F.18 NameCard, exact F.17 SenseCell, and naming evidence. Only when a named current use relates the two projections must that use also cite an obtaining F.9 Bridge, a separate affirmative C.2.1 bounded-use claim for its exact action, direction, rule, and tolerance, and the claim's current A.10 or B.3 reliance. Without that use, publication alone adds no Bridge or use claim.
 
 No F.17 row is published for `working product`. The phrase has no single governed value across physical entities, changed states, capabilities, relations, and epistemes. Technical text uses the exact subject-governed result name; ordinary explanation may say `result produced by work`, or `first useful result` when firstness and receiving-use value have been established.
+
+#### F.17:12.4d - Bounded model-use structure public row
+
+This row publishes the already selected A.1.1/F.18 naming decision for the dependent `U.Structure` specialization. It does not make A.1.1 Stable, create a structure individual, or make any relation obtain.
+
+```text
+UTSRowId: UTS.BoundedModelUseStructure.FPFCore.2026-07-25
+UnificationThreadId: R1.2-BoundedModelUse-Naming
+Block: Architecture and model use
+GovernedValueRef: BoundedModelUseStructure
+GovernedValueKindRef: U.Kind
+DirectGoverningPatternRef: A.1.1
+UnifiedTechName: BoundedModelUseStructure
+UnifiedPlainName: bounded context
+NameCardRef: NC-BOUNDED-MODEL-USE-STRUCTURE
+SenseCellRefs: SenseCell.BoundedModelUseStructure.FPFCore.2026-07-25
+BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
+RowRationale: the governed value is the A.1.1 kind token; its admitted members are exactly the U.Structure individuals that satisfy the A.1.1/A.22 membership condition, and the selected names designate that organization of one model edition's governed applicability, actual use, and fixed-content expression coherence over exact admitted model-use holons, exact applied constraint claims, and the named frame; a claim scope or membership outcome is not an applied constraint by itself
+AdmissibleUse: Core-facing designation of the A.1.1 dependent structure specialization and retrieval of the DDD plain term
+BlockedUse: no U.BoundedContext holon, no identity for a subsystem, team, claim scope, model episteme, description, or view, no relation occurrence, and no positive crossing-structure membership
+RowEdition: 2026-07-25
+CurrentnessCondition: reopen when the A.1.1/A.22 membership or continuity rule, one of the three direct relation kinds, FPFCoreReferenceScheme, the NameCard, an exact applied constraint proposition or its use in selection, or the named bounded-model-use frame changes
+
+SenseCell.BoundedModelUseStructure.FPFCore.2026-07-25:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: BoundedModelUseStructure-core
+  LocalExpression: BoundedModelUseStructure
+  LocalSenseClaim: the dependent U.Structure specialization selected over one exact model episteme, exact admitted model-use holons, obtaining applicability, actual-use, and fixed-content expression-coherence relations, exact applied constraint claims used by the selection judgment, and the named bounded-model-use frame; a claim scope participates only in its applicability relation unless a distinct constraint proposition refers to that scope or its membership predicate, and crossings belong only to a distinct A.22 structure over already identified bounded model-use structures
+  senseFamily: BoundedModelUse
+  NameCardRef: NC-BOUNDED-MODEL-USE-STRUCTURE
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.BoundedModelUseStructure.FPFCore.2026-07-25
+
+LocalSenseBasisRelation.BoundedModelUseStructure.FPFCore.2026-07-25:
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, BoundedModelUseStructure-core)
+  basisEpistemeRef: A.1.1
+
+LocalSenseBasisRelationDescription.BoundedModelUseStructure.FPFCore.2026-07-25:
+  entityOfConcernRef: LocalSenseBasisRelation.BoundedModelUseStructure.FPFCore.2026-07-25
+  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  viewpointRef: FPFCoreReaderViewpoint
+  claimGraph:
+    supportedSenseClaim: BoundedModelUseStructure names the exact A.1.1/A.22 dependent structure specialization, with bounded context retained only as its Plain retrieval name
+    admittedUseClaim: Core-facing designation and citation of that governed specialization
+    nonAdmittedUseClaim: the name or row creates no structure, holon, context bearer, direct relation occurrence, crossing occurrence, view, representation, or publication event
+  referenceScheme: FPFCoreReferenceScheme
+  editionId: 2026-07-25
+```
+
+This row makes only `BoundedModelUseStructure` current for public reuse. A.22's separate cross-structure NameCard remains local and pending: without an independently governed obtaining crossing and an exact positive membership basis, F.17 returns no public row for that label.
+
+#### F.17:12.4e - Three bounded-model-use direct relation-kind rows
+
+These rows publish the three already governed A.1.1 relation-kind names used by E.24.UK. Each row publishes a designation only. A.1.1 still decides whether one of those relation occurrences obtains and how it is reidentified. The naming objects and the separately governed local-sense basis occurrences make none of the three A.1.1 relations obtain, and they create no assertion, temporal extent, Work, or structure.
+
+```text
+UTSRowId: UTS.ModelApplicabilityRelation.FPFCore.2026-07-25
+UnificationThreadId: R1.2-BoundedModelUse-Naming
+Block: Architecture and model use
+GovernedValueRef: ModelApplicabilityRelation
+GovernedValueKindRef: U.Kind
+DirectGoverningPatternRef: A.1.1
+UnifiedTechName: ModelApplicabilityRelation
+UnifiedPlainName: this model applies to this holon within this claim scope
+NameCardRef: NC-MODEL-APPLICABILITY-RELATION
+SenseCellRefs: SenseCell.ModelApplicabilityRelation.FPFCore.2026-07-25
+BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
+RowRationale: the governed value is the A.1.1 relation-kind token; its admitted instances are exactly the obtaining U.Relation occurrences that satisfy the A.1.1 applicability predicate and identity rule, and the selected names expose that relation while keeping A.2.6 scope membership, the derived interval, assertions, and the selected structure separate
+AdmissibleUse: Core-facing designation of the A.1.1 relation kind, including A.2.6 claim-scope coordination and the E.24.UK bounded-model-use membership test
+BlockedUse: no applicability occurrence from a name, model mention, shared label, scope row, assertion, interval, publication, or structure membership
+RowEdition: 2026-07-25
+CurrentnessCondition: reopen when A.1.1 changes the participant kinds, predicate, scope alignment, model-scheme interpretation, temporal identity, NameCard, or named Core use
+
+SenseCell.ModelApplicabilityRelation.FPFCore.2026-07-25:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: ModelApplicabilityRelation-core
+  LocalExpression: ModelApplicabilityRelation
+  LocalSenseClaim: the direct relation kind over one model episteme, one exact holon, and one participating claim scope; one exact relation occurrence obtains only when the A.1.1 applicability predicate is true and all other governing conditions hold
+  senseFamily: ModelApplicability
+  NameCardRef: NC-MODEL-APPLICABILITY-RELATION
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.ModelApplicabilityRelation.FPFCore.2026-07-25
+
+LocalSenseBasisRelation.ModelApplicabilityRelation.FPFCore.2026-07-25:
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, ModelApplicabilityRelation-core)
+  basisEpistemeRef: A.1.1
+  basisPublicationUnitRef: A.1.1:4.2 ModelApplicabilityRelation
+
+LocalSenseBasisRelationDescription.ModelApplicabilityRelation.FPFCore.2026-07-25:
+  entityOfConcernRef: LocalSenseBasisRelation.ModelApplicabilityRelation.FPFCore.2026-07-25
+  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  viewpointRef: FPFCoreReaderViewpoint
+  claimGraph:
+    supportedSenseClaim: ModelApplicabilityRelation names the exact A.1.1 relation kind rather than a scope-membership predicate, claim, record, or interval
+    admittedUseClaim: Core-facing designation and citation of that governed relation kind
+    nonAdmittedUseClaim: the name or row makes no applicability occurrence obtain and grants no selected-structure membership
+  referenceScheme: FPFCoreReferenceScheme
+  editionId: 2026-07-25
+```
+
+```text
+UTSRowId: UTS.ModelUseRelation.FPFCore.2026-07-25
+UnificationThreadId: R1.2-BoundedModelUse-Naming
+Block: Architecture and model use
+GovernedValueRef: ModelUseRelation
+GovernedValueKindRef: U.Kind
+DirectGoverningPatternRef: A.1.1
+UnifiedTechName: ModelUseRelation
+UnifiedPlainName: this assignment's holder uses this model during this work concerning this holon
+NameCardRef: NC-MODEL-USE-RELATION
+SenseCellRefs: SenseCell.ModelUseRelation.FPFCore.2026-07-25
+BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
+RowRationale: the governed value is the A.1.1 relation-kind token; its admitted instances are exactly the obtaining U.Relation occurrences that satisfy the A.1.1 actual-use predicate and identity rule, and the selected names expose that relation while keeping applicability, role assignment, performed Work, method application, claims, and records separate
+AdmissibleUse: Core-facing designation of the A.1.1 relation kind and its use in the E.24.UK bounded-model-use membership test
+BlockedUse: no use occurrence from availability, access, mention, assignment alone, Work alone, method application, assertion, publication, or structure membership
+RowEdition: 2026-07-25
+CurrentnessCondition: reopen when A.1.1 changes the participant kinds, F.6 prerequisite, actual-use predicate, actor derivation, maximal-continuous-use identity, NameCard, or named Core use
+
+SenseCell.ModelUseRelation.FPFCore.2026-07-25:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: ModelUseRelation-core
+  LocalExpression: ModelUseRelation
+  LocalSenseClaim: the direct relation kind over one exact role-assignment occurrence, model episteme, performed Work occurrence, and use-locus holon; one exact relation occurrence obtains only when the A.1.1 actual-use predicate is true and all other governing conditions hold
+  senseFamily: ModelUse
+  NameCardRef: NC-MODEL-USE-RELATION
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.ModelUseRelation.FPFCore.2026-07-25
+
+LocalSenseBasisRelation.ModelUseRelation.FPFCore.2026-07-25:
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, ModelUseRelation-core)
+  basisEpistemeRef: A.1.1
+  basisPublicationUnitRef: A.1.1:4.2 ModelUseRelation
+
+LocalSenseBasisRelationDescription.ModelUseRelation.FPFCore.2026-07-25:
+  entityOfConcernRef: LocalSenseBasisRelation.ModelUseRelation.FPFCore.2026-07-25
+  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  viewpointRef: FPFCoreReaderViewpoint
+  claimGraph:
+    supportedSenseClaim: ModelUseRelation names the exact A.1.1 actual-use relation kind rather than applicability, availability, Work, assignment, method application, claim, or record
+    admittedUseClaim: Core-facing designation and citation of that governed relation kind
+    nonAdmittedUseClaim: the name or row makes no model-use occurrence obtain and grants no selected-structure membership
+  referenceScheme: FPFCoreReferenceScheme
+  editionId: 2026-07-25
+```
+
+```text
+UTSRowId: UTS.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
+UnificationThreadId: R1.2-BoundedModelUse-Naming
+Block: Architecture and model use
+GovernedValueRef: ModelExpressionCoherenceRelation
+GovernedValueKindRef: U.Kind
+DirectGoverningPatternRef: A.1.1
+UnifiedTechName: ModelExpressionCoherenceRelation
+UnifiedPlainName: this model content and this expression content satisfy this declared coherence criterion under this comparison scheme
+NameCardRef: NC-MODEL-EXPRESSION-COHERENCE-RELATION
+SenseCellRefs: SenseCell.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
+BridgeRefs: none; this designation makes no semantic-correspondence claim, and any Bridge needed for a particular coherence occurrence is a separately obtaining prerequisite named by that occurrence's predicate declaration
+RowRationale: the governed value is the A.1.1 relation-kind token; its admitted instances are exactly the obtaining U.Relation occurrences that satisfy the A.1.1 coherence predicate and participant-determined identity rule, and the selected names expose fixed-content semantic coherence while keeping the local predicate value, maintenance, transformation, evaluation, result, evidence, and assertion separate
+AdmissibleUse: Core-facing designation of the A.1.1 relation kind and its use in the E.24.UK bounded-model-use membership test
+BlockedUse: no coherence occurrence from a label, predicate label, equal spelling, maintenance or evaluation Work, changed carrier, result episteme, evidence, assertion, publication, or structure membership
+RowEdition: 2026-07-25
+CurrentnessCondition: reopen when A.1.1 changes the participant kinds, five-part predicate-value rule, interpretation branch, permitted loss, participant-determined identity, NameCard, or named Core use
+
+SenseCell.ModelExpressionCoherenceRelation.FPFCore.2026-07-25:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: ModelExpressionCoherenceRelation-core
+  LocalExpression: ModelExpressionCoherenceRelation
+  LocalSenseClaim: the participant-determined direct relation kind over one model episteme, expression episteme, admitted five-part predicate value, and comparison scheme when an admissible interpretation branch exists and that predicate is true
+  senseFamily: ModelExpressionCoherence
+  NameCardRef: NC-MODEL-EXPRESSION-COHERENCE-RELATION
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
+
+LocalSenseBasisRelation.ModelExpressionCoherenceRelation.FPFCore.2026-07-25:
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, ModelExpressionCoherenceRelation-core)
+  basisEpistemeRef: A.1.1
+  basisPublicationUnitRef: A.1.1:4.2 ModelExpressionCoherenceRelation
+
+LocalSenseBasisRelationDescription.ModelExpressionCoherenceRelation.FPFCore.2026-07-25:
+  entityOfConcernRef: LocalSenseBasisRelation.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
+  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  viewpointRef: FPFCoreReaderViewpoint
+  claimGraph:
+    supportedSenseClaim: ModelExpressionCoherenceRelation names the exact A.1.1 relation kind rather than its predicate value, maintenance, transformation, evaluation, result, evidence, or assertion
+    admittedUseClaim: Core-facing designation and citation of that governed relation kind
+    nonAdmittedUseClaim: the name or row makes no coherence occurrence obtain, publishes no predicate-value name, and grants no selected-structure membership
+  referenceScheme: FPFCoreReferenceScheme
+  editionId: 2026-07-25
+```
+
+No public F.17 row is returned for `ModelExpressionCoherencePredicate`: that label remains local to A.1.1 and names the five-part criterion ValueKind rather than any of the three relation kinds.
 
 ### F.17:12.5 - Bias-Annotation
 
 
-F.17 blocks table-bias: a row does not make the named object real, global, reusable, equivalent, or authoritative. It also blocks label-bias: the public name is a designation for a governed value, relation, slot, or local concept, not a substitute for the direct pattern, bounded-context sense, bridge, admissible-use statement, or currentness condition.
+
+F.17 blocks table-bias: a row does not make the named object real, global, reusable, equivalent, or authoritative. It also blocks label-bias: the public name is a designation for a governed value, relation, slot, or local concept, not a substitute for the direct pattern, scheme-based local-sense coordinate, Bridge, admissible-use statement, or currentness condition.
 
 ### F.17:13.5 - Conformance Checklist
 
 | Check | Passing condition |
 | --- | --- |
 | `CC-F17-1` | The row names the governed value, its exact kind, and the direct governing pattern before naming choices are published. |
-| `CC-F17-2` | Local senses are bounded-context and edition scoped; cross-context use names the bridge and loss. |
+| `CC-F17-2` | Every local sense resolves to one exact by-value reference scheme, one local expression, and one local-sense claim. When the endpoint `<ReferenceScheme, LocalSenseClaim>` projections differ, the row cites an obtaining F.9 Bridge first, then an affirmative C.2.1 claim for the exact row use, direction, rule, and tolerance, plus its current A.10 or B.3 reliance basis. Same projection plus another expression stays a designation question; scheme difference alone proves no Bridge; no current correspondence use creates no Bridge or use claim. A negative bounded-use claim rejects the exact named row use; a non-passing reliance result stops or narrows the current use according to its exact A.10 or B.3 disposition; neither changes whether the Bridge obtains or how it is identified. |
 | `CC-F17-3` | Tech and Plain names are selected under naming patterns after the governed value is stable. |
 | `CC-F17-4` | Admissible use, blocked use, row edition, and currentness condition are present. |
 | `CC-F17-5` | Role, status, evidence, source, publication, description, method, work, relation, slot, interface, and characteristic claims remain under direct patterns. |
-| `CC-F17-6` | A SenseCell uses `NameCardRef` only for its naming settlement and separately cites every relied-on local-sense basis through `LocalSenseBasisRelation@Context` with exact value-kind and ref-kind pairs. |
+| `CC-F17-6` | A scheme-based SenseCell uses `NameCardRef` only for its naming settlement and separately cites every relied-on local-sense basis through `LocalSenseBasisRelation@Context` with exact value-kind and ref-kind pairs; the suffix adds no context participant. |
 
 ### F.17:13 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
-| Global glossary row | Removes bounded-context meaning. | Add context and edition to each sense cell. |
+| Global glossary row | Removes the exact interpretation basis and local-sense claim. | Add the by-value reference scheme, local expression, and local-sense claim to each scheme-based SenseCell. |
 | One row for role and status | Fuses work-capable role with a state-family value. | Split into role row and status row; cite `F.10` or `A.19.SPR` for status. |
 | Evidence role bucket | Turns evidence use, source use, assurance, and work into one pseudo-kind. | Recover each claim and cite `A.10`, `B.3`, `E.17`, `E.10.D2`, or role-work patterns. |
 | Block as ontology | Treats didactic placement as subtype or part-of claim. | Keep block names as memory aids only. |
-| Borrowed context name as Tech name | Imports one tradition's commitments into the unified row. | Use `F.18` and bridge rationale before selecting the unified name. |
+| Borrowed locality label as Tech name | Imports one tradition's commitments into the unified row. | Recover the governed value and scheme-based local sense; use F.18 and an actual Bridge rationale before selecting the unified name. |
 | Row without direct pattern | Lets F.17 govern the object instead of the term-row publication. | Add direct pattern or mark the row not ready for public reuse. |
 
 ### F.17:14 - Closure conditions
@@ -92931,40 +93312,40 @@ A UTS row is ready for ordinary reuse only when:
 - the governed value and its exact kind are explicit;
 - the direct pattern is named;
 - Tech and Plain names are selected under `F.5` and `F.18`;
-- local senses are bounded-context and edition scoped;
-- each relied-on local-sense basis is separate from its naming settlement and is cited through `LocalSenseBasisRelation@Context`;
-- cross-context claims cite `F.9`;
+- every local sense resolves to one exact by-value reference scheme, local expression, and local-sense claim;
+- each relied-on local-sense basis is separate from its naming settlement and is cited through `LocalSenseBasisRelation@Context`; the retained suffix adds no context participant;
+- every row that claims use between different `<ReferenceScheme, LocalSenseClaim>` projections cites an obtaining F.9 Bridge for the exact endpoint cells, then separately cites an affirmative C.2.1 claim for the row's action, direction, rule, and tolerance with current A.10 or B.3 reliance; same-projection designation and no-current-correspondence-use cases add no Bridge or use claim, while scheme difference alone opens only the Bridge question;
 - the row names admissible use and blocked use;
 - currentness conditions are stated;
 - any role, status, evidence, source, publication, description, method, work, relation, slot, interface, or characteristic claim remains under its direct pattern.
 
 ### F.17:14.1 - Consequences
 
-**Benefits.** A UTS row gives readers a stable place to recover a term decision without treating a table as an ontology. It supports public reuse, examples, training material, interface labels, and cross-context comparison while preserving local senses and direct pattern authority.
+**Benefits.** A UTS row gives readers a stable place to recover a term decision without treating a table as an ontology. It supports public reuse, examples, training material, interface labels, and comparison across different semantic-context projections while preserving exact local-sense claims and direct-pattern authority.
 
-**Costs.** A tempting public label may wait until local sense, bridge, naming, admissible use, and currentness conditions are settled.
+**Costs.** A tempting public label may wait until the governed value, effective scheme, exact local-sense claim, any needed Bridge, separate bounded-use claim and reliance basis, naming settlement, and currentness condition are settled.
 
 **Failure avoided.** F.17 prevents global glossary drift, row-shaped ontology claims, block-as-subtype mistakes, label-based sameness, and evidence or role authority smuggled through a public term.
 
 ### F.17:14.2 - Rationale
 
-Terms travel farther than the reasoning that produced them. F.17 keeps that travel safe by making the term-row publication carry the minimum reopening hooks: governed object, direct pattern, local senses, bridge, names, admitted use, blocked use, and currentness. The row is compact because the direct patterns still own the underlying objects.
+Terms travel farther than the reasoning that produced them. F.17 keeps that travel safe by carrying the minimum reopening hooks: governed object, direct pattern, local senses, obtaining Bridge when needed, separate bounded-use claim and reliance basis, names, admitted and blocked row use, and currentness. The row stays compact because F.9, C.2.1, A.10, B.3, and the direct subject patterns still own those objects.
 
 ### F.17:16 - SoTA-Echoing
 
 | Current source and status | Adopted or adapted move | Effect in F.17 | Limitation and reopen condition |
 | --- | --- | --- | --- |
-| Current FPF naming and unification set dated 2026-07-11: `F.18`, `F.9`, `F.15`, `F.10`, `E.10`, and the direct subject patterns | Start from a governed value and kind; select names through a NameCard; use directional Bridges with loss for cross-context reuse; keep static and regression checks local; separate status and role claims; return stronger use to the direct pattern. | Determines the seven-step Solution, mandatory NameCardRef, value-kind pair, SenseCellRefs, BridgeRefs, admitted and blocked use, stable row id, local regressions, and direct-pattern boundary. | This is the current governing basis, not external proof that a proposed row works for readers. Reopen the affected row when one of these patterns changes its kind settlement, naming decision, Bridge use, status boundary, or regression rule. |
-| Zhu, Reinecke, and Mitra, ["Language Scent: Exploring Cross-Language Information Navigation"](https://arxiv.org/abs/2604.03604), arXiv:2604.03604, 2026 preprint | Treat recognizability of a label as context-sensitive navigation support rather than evidence of cross-context equivalence. Preserve in-situ cues while keeping their governed value and sense boundary recoverable. | Changes the local-sense, reader-use, and blocked-substitution checks for Plain names such as `mantra`; supports contextual labels and explicit F.9 Bridges rather than one global label. | The study is small and cross-language. It neither establishes FPF ontology nor proves one label works in every context. Reopen when stronger reader evidence changes the observed cue value or loss. |
-| W3C, [*SKOS Simple Knowledge Organization System Reference*](https://www.w3.org/TR/skos-reference/), W3C Recommendation 2009, current stable reference accessed 2026-07-11 | Keep concepts, lexical labels, documentation notes, collections, and typed mapping relations distinct; do not infer transitivity or equivalence from a generic related or matching label. | Supplies a stable external reference for separating labels, notes, collections, and mappings. F.17 strengthens it with direct FPF value kinds, F.9 direction and loss, NameCards, admissible and blocked use, and row currentness. | SKOS is a stable web vocabulary model, not current best-known FPF authoring methodology and not a source of FPF kinds. Reopen this adaptation if W3C supersedes the Recommendation or a newer mapping practice changes the selected distinction. |
+| Current FPF naming and unification set, amended 2026-07-25: `F.18`, `F.9`, `F.15`, `F.10`, `E.10`, A.1.1, and the direct subject patterns | Start from a governed value and kind; carry the effective reference scheme by value; select names through a NameCard; for reuse between different `<ReferenceScheme, LocalSenseClaim>` projections cite an obtaining F.9 Bridge, then an affirmative C.2.1 claim for the exact row use and its A.10 or B.3 reliance basis; keep static and regression checks local; separate status and role claims. | Determines the Solution, mandatory NameCardRef, value-kind pair, scheme-based SenseCellRefs, relation-only BridgeRefs, admitted and blocked row use, stable row id, local regressions, and direct-pattern boundary. Adds the current `BoundedModelUseStructure` row without creating `U.BoundedContext` or a positive crossing-structure name. | This is the current governing basis, not external proof that a proposed row works for readers. Reopen the affected row when one of these patterns changes its kind settlement, reference scheme, naming decision, Bridge, bounded-use claim, reliance, status boundary, or regression rule. |
+| Zhu, Reinecke, and Mitra, ["Language Scent: Exploring Cross-Language Information Navigation"](https://arxiv.org/abs/2604.03604), arXiv:2604.03604, 2026 preprint | Treat recognizability of a label as scheme- and situation-sensitive navigation support rather than evidence of equivalence. Preserve in-situ cues while keeping their governed value and sense boundary recoverable. | Changes the local-sense, reader-use, and blocked-substitution checks for Plain names such as `mantra`; supports contextual labels and explicit F.9 Bridges rather than one global label. | The study is small and cross-language. It neither establishes FPF ontology nor proves one label works under every scheme or for every reader. Reopen when stronger reader evidence changes the observed cue value or loss. |
+| W3C, [*SKOS Simple Knowledge Organization System Reference*](https://www.w3.org/TR/skos-reference/), W3C Recommendation 2009, current stable reference accessed 2026-07-11 | Keep concepts, lexical labels, documentation notes, collections, and typed mapping relations distinct; do not infer transitivity or equivalence from a generic related or matching label. | Supplies a stable external reference for separating labels, notes, collections, and mappings. F.17 strengthens it with direct FPF value kinds, relation-only F.9 Bridges, separate action-specific C.2.1 claims, NameCards, admitted and blocked row use, and currentness. | SKOS is a stable web vocabulary model, not current best-known FPF authoring methodology and not a source of FPF kinds. Reopen this adaptation if W3C supersedes the Recommendation or a newer mapping practice changes the selected distinction. |
 
-The current best problem-solving line for F.17 is the current FPF naming, bridge, status, and regression architecture. The 2026 language-scent study changes contextual cue handling subject to its evidence limits. SKOS remains a stable reference model for label and mapping separation; its age and stability do not make it the method that governs FPF term decisions.
+The current best problem-solving line for F.17 is the current FPF value, reference-scheme, naming, Bridge, status, and regression architecture. The 2026 language-scent study changes contextual cue handling subject to its evidence limits. SKOS remains a stable reference model for label and mapping separation; its age and stability do not make it the method that governs FPF term decisions.
 
-Currentness rule: when `F.5`, `F.8`, `F.9`, `F.10`, `F.15`, `F.18`, `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.10`, `B.3`, `E.17`, or `E.10.D2` changes the governed value, admissible use, bridge, source-use boundary, status-family boundary, role boundary, or naming decision, recheck only the affected UTS rows and examples.
+Currentness rule: when `F.5`, `F.8`, `F.9`, `F.10`, `F.15`, `F.18`, `A.1.1`, `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.10`, `B.3`, `E.17`, or `E.10.D2` changes the governed value, effective reference scheme, local-sense claim, Bridge, bounded-use claim, reliance basis, source-use boundary, status-family boundary, role boundary, or naming decision, recheck only the affected UTS rows and examples.
 
 ### F.17:15 - Relations
 
-Builds on: `F.1`, `F.2`, `F.3`, `F.5`, `F.7`, `F.8`, `F.9`, `F.15`, and `F.18`.
+Builds on: `F.2` and `F.3` for local-sense discovery probes; `C.2.1` for the exact episteme and effective by-value reference scheme; and `F.5`, `F.7`, `F.8`, `F.9`, `F.15`, and `F.18` for naming, Bridge, and conformance decisions. F.17 does not inherit F.3's retired `U.BoundedContext` reading.
 
 Coordinates with: `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.6.P`, `A.10`, `A.15.1`, `A.19.SPR`, `B.3`, `C.2.P`, `E.10`, `E.10.D2`, `E.17`, `F.4`, `F.6`, `F.10`, `F.14`, and `G.11`. Row-local review after a changed value, name, sense, Bridge, or edition remains with the direct pattern, F.18, F.9, F.15, and these F.17 regression rules. Use G.11 only when an actual refresh plan, edition orchestration, telemetry, freshness, or decay claim is current.
 
@@ -92972,7 +93353,7 @@ Constrains: any public, Core-facing, durable, or cross-context term sheet row th
 
 ### F.17:17 - Didactic distillation
 
-A Unified Term Sheet is not the ontology and not the object. It is the table that lets people reuse the naming decision without guessing. Each row says: what kind of thing is named, which direct pattern governs it, which local senses were used, which bridge is claimed, which Tech and Plain names were selected, and what use the row permits.
+A Unified Term Sheet is not the ontology and not the object. It lets people reuse a naming decision without guessing. Each row says what is named, which pattern governs it, which local senses were used, whether an exact Bridge obtains between different semantic-context projections, which separate claim supports that row use, which names were selected, and what the row may and may not be cited for. The row, card, and reliance record neither authorize the use nor prove that it happened.
 
 ### F.17:End
 
@@ -92991,19 +93372,19 @@ Use `F.18` when a name must become stable, public, Core-facing, reusable across 
 
 First useful move: recover the exact governed object or governed value before choosing the name. When relation-facing wording is current, distinguish a predicate-definition episteme, an admitted relation kind, an obtaining relation occurrence, a representation element, and a designator or reference; for a residual relation claim, cite the `A.6.RCD` settlement before naming. Other candidates—such as a role, method, work, characteristic, status value, architecture element, or claim-bearing episteme—stay under their direct owners rather than being forced into that relation-facing list. Then ask: under which effective by-value `U.ReferenceScheme`, by which governing pattern, for which use, and with which exact local sense is this object named? Only then decide whether a local expression is enough or a `NameCard` is needed. A public row is a later step: create one only when public, Core-facing, durable-across-context, or cross-context reuse is current and the `F.17` entry/result gate in section 4 passes.
 
-Do not use `F.18` for one-off wording repair. If the phrase is local and not becoming a reusable name, use `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the governing pattern for the object being named.
+Do not use `F.18` for one-off wording repair. If the phrase is local and not becoming a reusable name, use `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the governing pattern for the object being named. In particular, say in ordinary words whether one exact Bridge is suitable for one named use; do not create a `NameCard`, public claim kind, or durable CamelCase head merely to abbreviate that C.2.1 claim. Reopen F.18 for that claim only when an independent later use actually needs a reusable name beyond the local statement.
 
 ### F.18:1 - Context
 
 Names are handles for use, not creators of ontology. A good name lets people talk about a governed value without smuggling in extra role, capability, method, work, status, evidence, interface, or cross-context claims.
 
-`FPFCoreReferenceScheme` is the by-value `U.ReferenceScheme` used to interpret current FPF Core Tech labels and relation names. A NameCard that uses it carries that reference-scheme value by value, consistent with `C.2.1`; F.18 does not introduce `U.ReferenceSchemeRef`. A name interpreted under another reference scheme carries that scheme by value. When a naming use must align two local senses, first identify each sense under its by-value reference scheme; name a `BoundedModelUseStructure` only when that selected structure changes the sense or the admitted use. Use `F.9` only if its current entry can take those two senses as endpoints and its result states the naming use that survives. Until then, keep the names local or record the unresolved alignment. A reference-scheme or model-use-structure difference alone supplies neither a Bridge nor governed-value identity, and it does not create `U.BoundedContext`.
+`FPFCoreReferenceScheme` is the by-value `U.ReferenceScheme` used to interpret current FPF Core Tech labels and relation names. A NameCard that uses it carries that reference-scheme value by value, consistent with `C.2.1`; F.18 does not introduce `U.ReferenceSchemeRef`. A name interpreted under another reference scheme carries that scheme by value. When a naming use must align two exact local senses, compare their `<ReferenceScheme, LocalSenseClaim>` projections. The same projection plus another expression is a designation question and gets no Bridge. Different projections—including the same scheme with different `LocalSenseClaim` values—open the F.9 question; a different scheme is only one such case and proves no Bridge. Test the exact F.17 cells and cite a Bridge only when its predicate actually obtains. State the proposed naming use separately in an exact current C.2.1 claim with that Bridge as EntityOfConcern and affirmative polarity; name the direction, correspondence rule, and tolerated loss. For ordinary bounded reliance below B.3's threshold and with no assurance claim, require the exact A.10 evidence-provenance graph relation plus `RelianceDisposition=pass` for that use. When an assurance claim is made or the threshold is met, follow B.3's first-claim decision and require either a current positive claim carrying that use with its sufficient record or an exact disposition that stops or narrows it; the threshold alone creates no positive claim. The named use is still claim content. Neither reliance route authorizes it or proves that it occurred. If it did occur, recover the actual Work under A.15.1, assertion episteme under C.2.1, publication occurrence under E.17, direct relation under its domain pattern, operation application under A.6.1, or another receiving object under its current owner. Name a `BoundedModelUseStructure` only when that selected structure changes the sense or naming use. Until the Bridge, separate claim, and required reliance are current, keep the names local or record the unresolved alignment. When no semantic-correspondence use is current, create no Bridge or use claim regardless of scheme count. A reference-scheme or model-use-structure difference alone supplies neither premise, governed-value identity, nor `U.BoundedContext`.
 
 `F.18` supplies the naming discipline for Part F and for any FPF pattern that needs a durable public term. It coordinates with:
 
 - `F.5` for type-name and role-description label form;
 - `F.8` for the prior decision that an expression should become a durable name rather than remain local, reused, or aliased;
-- `F.9` for an actual cross-context sense Bridge;
+- `F.9` for an actual sense Bridge between different `<ReferenceScheme, LocalSenseClaim>` projections;
 - `F.13` for renames, aliases, splits, and merges;
 - `F.14` for anti-explosion control;
 - `F.17` only as a later public-row consumer whose current entry and result must accept the exact F.18 objects named below;
@@ -93017,7 +93398,7 @@ Its complete claim graph records the selected designation expressions, exact loc
 
 FPF texts fail when names are treated as if they carried ontology by themselves.
 
-1. A short label appears in another context and gets treated as the same value, although no bridge says what survives.
+1. A short label appears in another context and gets treated as the same value although no obtaining Bridge establishes the exact sense relation, no separate claim says that Bridge suits this reuse, and no current reliance supports that claim.
 2. A role-looking name quietly bundles role value, holder assignment, capability, method fit, work evidence, or authorization.
 3. A status-like or evidence-like phrase becomes a fake role or fake type because the row says "evidence role", "status role", or similar wording.
 4. A relation, declaration-local slot, interface, port, or signature name hides the exact governed object, relation-participant meaning, or direct pattern that should own the claim.
@@ -93030,7 +93411,7 @@ The repair is not to choose prettier words. Recover the governed value, then rec
 
 | Force | Naming tension |
 | --- | --- |
-| Local sense and cross-scheme reuse | A name must be interpretable under one effective by-value `U.ReferenceScheme` while remaining bridgeable under another without spelling-based identity. |
+| Local sense and reuse across different semantic-context projections | A name must be interpretable under one effective by-value `U.ReferenceScheme` while remaining bridgeable to a different `<ReferenceScheme, LocalSenseClaim>` projection without spelling-based identity. The projections can differ under one scheme. |
 | Brevity and ontology recovery | A short label helps conversation, but the `NameCard` must keep governed kind, effective reference scheme, local sense, governing pattern, and intended use recoverable. |
 | Continuity and correction | Readers need stable public names, while authors must be able to rename, split, merge, or retire names without erasing earlier uses. |
 | Familiarity and precision | Familiar words are easier to adopt, but some familiar words import wrong prototypes from another discipline. |
@@ -93045,8 +93426,8 @@ Use a local-first naming protocol:
 3. For a durable name, constitute one `NameCard` episteme under `C.2.1`; keep the value, its kind, the card, selected designations, exact local sense, and any basis or Bridge relation distinct.
 4. Choose the Tech and Plain labels from the smallest candidate set that covers the live head-term families and plausible neighbouring objects.
 5. Record the covered alternatives, rejected candidates, selection reason, lineage, and the smallest condition that reopens the settlement.
-6. Only for public, Core-facing, durable-across-context, or cross-context reuse, test whether the then-current `F.17` entry accepts the exact governed value and kind, NameCard episteme, by-value scheme, local sense, and any actual Bridge, and whether its result supplies the required public row. If either test fails, retain the durable name and NameCard locally, mark the public row pending, and stop.
-7. Keep Bridge, publication, currentness, status, evidence, slot, role, method, work, and interface claims in their own governing patterns.
+6. Only for public, Core-facing, durable-across-context, or cross-context reuse, test the then-current `F.17` entry. It must accept the exact governed value and kind, NameCard episteme, by-value scheme, local sense, and any actual Bridge. Public or durable reuse alone creates no Bridge. When the named use relates different `<ReferenceScheme, LocalSenseClaim>` projections, F.17 must also accept the separate affirmative C.2.1 claim and current A.10 or B.3 reliance through the row rationale or notes rather than treating either as NameCard content. Its result must supply the required public row. If any required input or result is absent, retain the durable name and NameCard locally, mark the public row pending, and stop.
+7. Keep the Bridge, the separate claim about its named use, A.10 or B.3 reliance, authorization, and any actual Work, assertion episteme, publication occurrence, direct relation, operation application, status, evidence, slot, role, method, or interface object under their own governing patterns. F.18 decides only the naming settlement.
 
 #### F.18:4.1 - Naming Invariants
 
@@ -93057,15 +93438,15 @@ Every durable name must satisfy these invariants.
 | Governed value first | Name the governed value or value family before naming the label. |
 | Governing pattern visible | Cite the pattern that owns the value: for example `A.2` for role value, `A.2.1` for role assignment, `A.6.5` for relation slot discipline, `F.10` or `A.19.SPR` for status value use, `A.10` for evidence use. |
 | Reference scheme visible | The NameCard carries the effective `U.ReferenceScheme` by value; a model-use structure, claim scope, project work, or other locality relation remains separate and appears only when the naming use needs it. |
-| Local sense visible | Every card states one exact local-sense claim under the effective scheme. A progressive-minimum card may state it directly as `LocalSenseRef`; an expanded card uses `LocalSenseCellRef` when a separately recoverable `SenseCell` is current. Any basis episteme and local-sense basis relation remain separate. |
+| Local sense visible | Every card states one exact local-sense claim under the effective scheme. A progressive-minimum card may state it directly as `LocalSenseRef`; an expanded card uses `LocalSenseCellRef` only when it resolves to the current F.17 scheme-based coordinate. Any basis episteme and local-sense basis relation remain separate. |
 | Two labels when reusable | The Tech label is precise; the Plain label helps ordinary readers. Both point to the same governed value. |
 | Candidate comparison visible | At least two plausible head families are considered unless a cited external standard fixes the label. |
-| Bridge only for cross-context sense alignment | A spelling match, shared reference scheme, or `F.9` Bridge does not establish governed-value identity; F.9 states only its exact sense correspondence and admitted use. |
+| Bridge only between different semantic-context projections | Compare the exact `<ReferenceScheme, LocalSenseClaim>` pairs. Same scheme plus same claim plus another expression routes to designation and no Bridge. Same scheme plus another claim opens F.9 and, for a named use, the separate claim-and-reliance branch. Different scheme opens only the Bridge question. No current correspondence use creates no Bridge or use claim regardless of scheme count. An obtaining Bridge establishes only the exact sense relation; it establishes neither governed-value identity nor authorization. |
 | Lineage visible | Rename, split, merge, retirement, and alias decisions are recorded. |
 
 #### F.18:4.2 - `NameCard` Fields
 
-A NameCard is complete when its exact C.2.1 identity-bearing `U.ClaimGraph` is recoverable; completeness is not a field count. The accepted D11 cards `NC-U-RELATION`, `NC-BOUNDED-MODEL-USE-STRUCTURE`, `NC-CROSS-CONTEXT-RELATION-STRUCTURE`, `NC-PROBLEM-CRITERION-APPLICABILITY-RELATION`, and `NC-PROBLEMATIC-FOR-RELATION` remain conforming progressive-minimum cards. Each already states the governed value and direct owner, effective scheme and local-sense claim, one selected Tech/Plain pair, candidate set, rejections, rationale, lineage, and reopen condition. Its direct owner makes the governed kind unambiguous. These filled claims together constitute the card's complete claim graph; an omitted expanded field contributes no hidden claim.
+A NameCard is complete when its exact C.2.1 identity-bearing `U.ClaimGraph` is recoverable; completeness is not a field count. The accepted D11 progressive-minimum cards `NC-U-RELATION`, `NC-CROSS-CONTEXT-RELATION-STRUCTURE`, `NC-PROBLEM-CRITERION-APPLICABILITY-RELATION`, and `NC-PROBLEMATIC-FOR-RELATION` remain conforming. Each already states the governed value and direct owner, effective scheme and local-sense claim, one selected Tech/Plain pair, candidate set, rejections, rationale, lineage, and reopen condition. Its direct owner makes the governed kind unambiguous. These filled claims together constitute the card's complete claim graph; an omitted expanded field contributes no hidden claim. Section 4.2a carries the four current expanded bounded-model-use cards.
 
 Use the expanded form only when the current naming use needs the additional position:
 
@@ -93077,7 +93458,7 @@ NameCard:
   GoverningPatternRef:
   ReferenceScheme:
   ClaimContent: [reference to the complete U.ClaimGraph constituted by all identity-bearing naming-settlement claims]
-  LocalSenseCellRef: [add when a separately recoverable SenseCell is current; otherwise LocalSenseRef carries the direct local-sense claim]
+  LocalSenseCellRef: [add when a separately recoverable F.17 scheme-based SenseCell is current; otherwise LocalSenseRef carries the direct local-sense claim]
   LocalSenseBasisRelationRef: [add only for an actual separately governed basis relation]
   TechLabel:
   PlainLabel:
@@ -93085,7 +93466,7 @@ NameCard:
   CandidateCoverage: [add when family coverage, an open alternative, or a forced exception must be explicit]
   RejectedCandidates:
   SelectionRationale:
-  BridgeRefs: [add only for actual F.9 Bridge occurrences admitted for this use]
+  BridgeRefs: [add only for actual F.9 Bridge occurrences used to align exact local senses; no use direction, rule, tolerance, polarity, or reliance lives here]
   PublicRowStatus: [add when public-row use is current]
   UnifiedTermRowRef: [add only for a current row returned by section 4.4]
   LineageEntries:
@@ -93099,17 +93480,110 @@ Field discipline:
 - `NameCardId` designates the card episteme. It is not another identity discriminator and does not create a card kind.
 - `GovernedValueRef` resolves to the exact already-governed object or value being named. `GovernedValueKindRef` is added when the kind is not already unambiguous from that value and its direct owner, or when a receiving use needs the exact kind reference. For relation-facing wording the value reference resolves to exactly one of the objects distinguished in section 5.6; a field label, card, table row, or local phrase is not a proxy for that object.
 - `GoverningPatternRef` names the direct pattern that decides the value. `F.18` governs only the naming settlement recorded in the card; a pattern that merely presents or teaches the name governs neither the value nor this settlement.
-- `LocalSenseRef` in a progressive-minimum card states the exact local-sense claim directly. `LocalSenseCellRef` in an expanded card resolves to a separately recoverable local sense under the effective scheme. `LocalSenseBasisRelationRef` is present only when a separately governed relation to a basis episteme is current; a source title, card field, or publication is not that relation.
+- `LocalSenseRef` in a progressive-minimum card states the exact local-sense claim directly under the card's by-value scheme. `LocalSenseCellRef` in an expanded card resolves to the current F.17 coordinate `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>` and does not require a context holon. `LocalSenseBasisRelationRef` is present only when a separately governed relation to a basis episteme is current; a source title, card field, or publication is not that relation.
 - `CandidateSet` records the plausible labels considered by head-term family. When family coverage or an exception is not already recoverable from the set, rejections, and rationale, add `CandidateCoverage` to state which live families and neighbouring-object readings were tested and whether any plausible alternative remains open.
 - `RejectedCandidates` records why tempting names were not selected. A usable alias is recorded in lineage as an alias, not left as a second selected Plain label.
-- `BridgeRefs` contains only actual `F.9` Bridge occurrences whose current result admits this naming use; omit it when the settlement makes no Bridge claim.
+- `BridgeRefs` contains only actual F.9 Bridge occurrences whose relation-semantic profiles obtain for the exact endpoint senses. It carries no naming-use direction, use-specific rule, tolerated loss, polarity, reliance, or permission. When naming across different semantic-context projections relies on a Bridge, recover the separate C.2.1 claim and its current A.10 or B.3 reliance outside the NameCard; omit `BridgeRefs` when the settlement makes no Bridge claim.
 - `PublicRowStatus` is exactly one of `localOnly`, `pending`, or `current` when public-row use is current. `UnifiedTermRowRef` separately resolves to the exact row and is present only when status is `current` after the section 4.4 `F.17` entry/result gate passes. Omission in an accepted progressive-minimum card claims no row. A pending public use does not imply that a row already exists.
 - `RefreshCondition` names the smallest value, kind, scheme, local-sense, Bridge, governing-pattern, use, or repeated-reader-error change that reopens this exact settlement.
 
 Names such as "foundational principle pattern set", "FPF Core", "domain principle framework", and "local practice framework" require ordinary `NameCard` work before public stabilization under an effective reference scheme. Source aliases such as `ZPF`, `SPF`, `TPF`, or broad `xPF` labels remain intake aliases until `F.18` has settled the governed value and kind, by-value reference scheme, exact local sense, rejected candidates, and admissible short form.
 
-#### F.18:4.3 - Candidate Selection
+#### F.18:4.2a - Current Bounded-Model-Use NameCards
 
+The four expanded cards below are the current `FPFCoreReferenceScheme` naming settlements consumed by F.17:12.4d-12.4e. Each resolves to one exact current scheme-based F.17 cell and its separately governed local-sense basis relation. They publish designations for already governed values; they create no kind, structure, relation occurrence, assertion, Work, Bridge, use, reliance, row-availability occurrence, or other receiving action.
+
+```text
+NameCard:
+  NameCardId: NC-BOUNDED-MODEL-USE-STRUCTURE
+  GovernedValueRef: BoundedModelUseStructure
+  GovernedValueKindRef: U.Kind
+  GoverningPatternRef: A.1.1
+  ReferenceScheme: FPFCoreReferenceScheme
+  ClaimContent: NC-BOUNDED-MODEL-USE-STRUCTURE.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
+  LocalSenseCellRef: SenseCell.BoundedModelUseStructure.FPFCore.2026-07-25
+  LocalSenseBasisRelationRef: LocalSenseBasisRelation.BoundedModelUseStructure.FPFCore.2026-07-25
+  TechLabel: BoundedModelUseStructure
+  PlainLabel: bounded context
+  CandidateSet: BoundedModelUseStructure; ModelApplicabilityStructure; ModelUseRelationStructure; BoundedContextStructure; U.BoundedContext
+  CandidateCoverage: exact dependent-structure head; applicability-only neighbour; use-only neighbour; DDD retrieval head; false holon-kind neighbour; no plausible live head family remains untested
+  RejectedCandidates: ModelApplicabilityStructure omits actual use and fixed-content expression coherence; ModelUseRelationStructure collapses the wider organization into one relation family; BoundedContextStructure hides what is bounded and invites a container reading; U.BoundedContext falsely claims another holon kind
+  SelectionRationale: the Tech label names the A.1.1 dependent U.Structure specialization selected from one exact model edition, admitted model-use holons, obtaining applicability, actual-use, and fixed-content expression-coherence occurrences, exact applied constraint claims, and one named frame; the Plain label retains DDD retrieval without adding a context bearer or any crossing to that identity
+  PublicRowStatus: current
+  UnifiedTermRowRef: UTS.BoundedModelUseStructure.FPFCore.2026-07-25
+  LineageEntries: DDD bounded-context wording retained as the Plain retrieval label; U.BoundedContext holon, boundary-container, semantic-frame-bundle, and crossing-bearing readings retired; any crossing belongs only to a distinct A.22 structure over already identified bounded model-use structures
+  RefreshCondition: reopen when the A.1.1/A.22 membership or continuity rule, one of the three direct relation kinds, the exact constituent, selected-occurrence, applied-constraint, or frame discriminator, FPFCoreReferenceScheme, the current F.17 cell or row, or repeated container or crossing overreading changes
+```
+
+```text
+NameCard:
+  NameCardId: NC-MODEL-APPLICABILITY-RELATION
+  GovernedValueRef: ModelApplicabilityRelation
+  GovernedValueKindRef: U.Kind
+  GoverningPatternRef: A.1.1
+  ReferenceScheme: FPFCoreReferenceScheme
+  ClaimContent: NC-MODEL-APPLICABILITY-RELATION.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
+  LocalSenseCellRef: SenseCell.ModelApplicabilityRelation.FPFCore.2026-07-25
+  LocalSenseBasisRelationRef: LocalSenseBasisRelation.ModelApplicabilityRelation.FPFCore.2026-07-25
+  TechLabel: ModelApplicabilityRelation
+  PlainLabel: this model applies to this holon within this claim scope
+  CandidateSet: relation-kind heads {ModelApplicabilityRelation, ModelAppliesToRelation, ModelScopeRelation}; claim-or-predicate heads {ModelApplicabilityClaim, ModelApplicabilityPredicate}; temporal head {ModelApplicabilityInterval}
+  CandidateCoverage: direct ternary relation kind; readable predicate direction; claim or predicate neighbour; scope-membership neighbour; derived temporal-extent neighbour; no plausible live head family remains untested
+  RejectedCandidates: ModelAppliesToRelation suggests a binary relation and hides the participating claim scope; ModelScopeRelation mistakes A.2.6 scope membership for model applicability; ModelApplicabilityClaim and ModelApplicabilityPredicate name epistemic or semantic content; ModelApplicabilityInterval names the derived maximal continuous extent
+  SelectionRationale: the Tech label names the direct relation kind over one model episteme, exact holon, and participating claim scope; the Plain sentence exposes the predicate while A.1.1 alone decides whether its applicability condition holds and reidentifies the maximal continuous occurrence, leaving scope membership, assertion, interval, and structure separate
+  PublicRowStatus: current
+  UnifiedTermRowRef: UTS.ModelApplicabilityRelation.FPFCore.2026-07-25
+  LineageEntries: retains the A.1.1 relation-kind label; earlier broad applicable-model and context-boundary wording is not an alias; ModelApplicabilityInterval remains a local derived extent
+  RefreshCondition: reopen when A.1.1 changes the participant kinds, applicability predicate, scope-alignment or model-scheme interpretation rule, temporal occurrence identity, FPFCoreReferenceScheme, the current F.17 cell or row, or the public receiving use
+```
+
+```text
+NameCard:
+  NameCardId: NC-MODEL-USE-RELATION
+  GovernedValueRef: ModelUseRelation
+  GovernedValueKindRef: U.Kind
+  GoverningPatternRef: A.1.1
+  ReferenceScheme: FPFCoreReferenceScheme
+  ClaimContent: NC-MODEL-USE-RELATION.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
+  LocalSenseCellRef: SenseCell.ModelUseRelation.FPFCore.2026-07-25
+  LocalSenseBasisRelationRef: LocalSenseBasisRelation.ModelUseRelation.FPFCore.2026-07-25
+  TechLabel: ModelUseRelation
+  PlainLabel: this assignment's holder uses this model during this work concerning this holon
+  CandidateSet: relation-kind heads {ModelUseRelation, ModelUsageRelation, ModelApplicationRelation}; work-or-assignment heads {ModelUseWork, ModelUserRoleAssignment}; claim-or-record heads {ModelUseClaim, ModelUseRecord}
+  CandidateCoverage: direct actual-use relation; availability-or-usage neighbour; applicability neighbour; Work neighbour; assignment neighbour; claim or record neighbour; no plausible live head family remains untested
+  RejectedCandidates: ModelUsageRelation invites availability, access-count, or generic usage readings; ModelApplicationRelation collides with applicability and can suggest applying a method; ModelUseWork and ModelUserRoleAssignment name participants; ModelUseClaim and ModelUseRecord name epistemes about use
+  SelectionRationale: the Tech label names the direct relation kind over one role-assignment occurrence, model episteme, performed Work occurrence, and use-locus holon; the Plain sentence exposes actual use by the derived assignment holder without adding that system as a fifth participant, while A.1.1 keeps applicability, assignment, Work, method application, claim, and record distinct
+  PublicRowStatus: current
+  UnifiedTermRowRef: UTS.ModelUseRelation.FPFCore.2026-07-25
+  LineageEntries: retains the A.1.1 relation-kind label; availability, mention, method application, performed Work, role assignment, and use-claim readings remain separate and are not aliases
+  RefreshCondition: reopen when A.1.1 changes the participant kinds, F.6 performed-under-assignment prerequisite, actual-use predicate, actor derivation, maximal-continuous-use identity, FPFCoreReferenceScheme, the current F.17 cell or row, or the public receiving use
+```
+
+```text
+NameCard:
+  NameCardId: NC-MODEL-EXPRESSION-COHERENCE-RELATION
+  GovernedValueRef: ModelExpressionCoherenceRelation
+  GovernedValueKindRef: U.Kind
+  GoverningPatternRef: A.1.1
+  ReferenceScheme: FPFCoreReferenceScheme
+  ClaimContent: NC-MODEL-EXPRESSION-COHERENCE-RELATION.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
+  LocalSenseCellRef: SenseCell.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
+  LocalSenseBasisRelationRef: LocalSenseBasisRelation.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
+  TechLabel: ModelExpressionCoherenceRelation
+  PlainLabel: this model content and this expression content satisfy this declared coherence criterion under this comparison scheme
+  CandidateSet: relation-kind heads {ModelExpressionCoherenceRelation, ModelConformanceRelation, ModelImplementationRelation, ModelExpressionAlignmentRelation}; predicate-or-assessment heads {ModelExpressionCoherencePredicate, ModelExpressionCoherenceAssessment}
+  CandidateCoverage: direct fixed-content relation; conformance neighbour; implementation or realization neighbour; weaker alignment neighbour; local predicate-value neighbour; evaluation or result neighbour; no plausible live head family remains untested
+  RejectedCandidates: ModelConformanceRelation invites compliance or status readings and hides the declared criterion and permitted loss; ModelImplementationRelation suggests realization, production, or causation; ModelExpressionAlignmentRelation is weaker than the declared Boolean condition; ModelExpressionCoherencePredicate names the five-part criterion participant; ModelExpressionCoherenceAssessment names evaluation Work or a result episteme
+  SelectionRationale: the Tech label names the participant-determined direct relation over one model episteme, expression episteme, admitted five-part predicate value, and comparison scheme; the Plain sentence exposes the truth test after either the same-scheme branch or the predicate-declared bridged branch is established, while maintenance, transformation, evaluation, result, evidence, and assertion remain separate
+  PublicRowStatus: current
+  UnifiedTermRowRef: UTS.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
+  LineageEntries: retains the A.1.1 relation-kind label; earlier maintenance-alignment and implementation wording is narrowed to separate Work, transformation, evaluation, result, evidence, and assertion objects
+  RefreshCondition: reopen when A.1.1 changes the participant kinds, five-part predicate-value membership, same-scheme or bridged-comparison branch, permitted-loss rule, participant-determined identity, FPFCoreReferenceScheme, the current F.17 cell or row, or the public receiving use
+```
+
+All four current cards use one `FPFCoreReferenceScheme` cell apiece and therefore add no Bridge or use claim. If a named current use relates different `<ReferenceScheme, LocalSenseClaim>` projections, F.9 separately governs the obtaining Bridge, C.2.1 separately identifies the affirmative bounded-use claim, and A.10 or B.3 separately governs reliance; without that use, no Bridge or use claim is added. For `ModelExpressionCoherenceRelation`, an A.1.1 predicate may name an obtaining Bridge as a prerequisite of its bridged interpretation branch; a receiving assertion or structure selection that relies on that occurrence still needs its own bounded-use claim and reliance path. None of those objects becomes part of a NameCard or public row.
+
+#### F.18:4.3 - Candidate Selection
 Do not pick a durable label in one stroke or work toward a fixed candidate count. Build the smallest set that covers at least two live head-term families and every plausible neighbouring-object reading that could change the decision. Stop when each live family has a representative and no untested plausible alternative could overturn the selection. If a deadline forces closure while a plausible family or alternative remains untested, record that exception in `CandidateCoverage` and make it part of `RefreshCondition`.
 
 Judge candidates on:
@@ -93125,7 +93599,7 @@ One candidate can win even when it is not perfect, but the `SelectionRationale` 
 
 #### F.18:4.4 - Public Term Rows
 
-A durable local name needs no row. When public, Core-facing, durable-across-context, or cross-context reuse is current, test the then-current `F.17` entry with the exact objects already recovered here. The entry must accept separate references to the governed value and its kind, direct pattern, NameCard episteme, selected Tech and Plain designations, effective by-value reference scheme, exact local `SenseCell`, any separate local-sense basis relation, and any actual `F.9` Bridge. Its result must return one row for one naming decision with the admitted and blocked use visible. If it cannot, keep the durable name and NameCard local and mark the public row pending. Do not repair or emulate the missing row inside F.18.
+A durable local name needs no row. When public, Core-facing, durable-across-context, or cross-context reuse is current, test the then-current F.17 entry with the exact objects already recovered here. Public or durable reuse alone creates no Bridge. The entry must accept separate references to the governed value and its kind, direct pattern, NameCard episteme, selected Tech and Plain designations, effective by-value reference scheme, exact F.17 scheme-based SenseCell, any separate local-sense basis relation, and any actual F.9 Bridge. When the row use relates different `<ReferenceScheme, LocalSenseClaim>` projections, its rationale or notes must separately cite the affirmative C.2.1 claim for the row's exact action, direction, rule, and tolerance and that claim's current A.10 or B.3 reliance. Its result must return one row for one naming decision with the supported and blocked citation uses visible. If it cannot, keep the durable name and NameCard local and mark the public row pending. Do not repair or emulate the missing row inside F.18.
 
 When that gate passes, keep these positions distinct:
 
@@ -93135,7 +93609,8 @@ When that gate passes, keep these positions distinct:
 - NameCard episteme and selected designation expressions;
 - exact local-sense and basis-relation references;
 - any actual Bridge occurrence;
-- the row or row episteme, its edition, admitted use, blocked use, and currentness condition.
+- for reuse between different semantic-context projections, the separate affirmative C.2.1 claim about that Bridge and its current A.10 or B.3 reliance, cited in the row rationale or notes rather than absorbed into the NameCard;
+- the row or row episteme, its edition, supported citation use, blocked use, and currentness condition.
 
 The row is neither the governed value nor an agent of publication. When availability is needed, an `E.24.PUB` `EpistemePublicationRelation` occurrence makes the exact row-episteme edition available to a declared audience for a bounded use through a distinct publication form and presentation carrier. The form does not publish itself, and the row's currentness claim or relation remains separate from the availability occurrence.
 
@@ -93208,7 +93683,7 @@ First recover what the name is for:
 | method-like phrase derived from a role label | method, method family, method description, work plan, or work occurrence | Name under `A.3.1`, `A.3.2`, or `A.15`; cite the role relation separately when it constrains who may use or perform the method. |
 | algebraic, graph, matrix, embedding, distributed, or neural representation of roles | mathematical or representation description of selected role relation structure | Name the lens only when the representation itself is the governed value; otherwise name the recovered role relation, role expression, method, or work. |
 | method algebra, method graph, method matrix, process calculus, selector calculus, or method embedding | mathematical or representation description of selected `MethodRelationStructure@BoundedContext` | Name the lens only when the representation itself is the governed value; otherwise name the selected method relation structure, method family, method description, work plan, work occurrence, or neighboring relation. |
-Ordinary speech can omit `Role` and `Method` suffixes when the governed kind, named role-taxonomy episteme where a role is current, effective reference scheme, exact local sense, and direct claim keep the distinction recoverable. Formal suffixes are useful when the name becomes cross-scheme, public, or easy to confuse with a method, capability, work occurrence, status, publication, or policy term.
+Ordinary speech can omit `Role` and `Method` suffixes when the governed kind, named role-taxonomy episteme where a role is current, effective reference scheme, exact local sense, and direct claim keep the distinction recoverable. Formal suffixes are useful when the name is reused across different semantic-context projections, becomes public, or is easy to confuse with a method, capability, work occurrence, status, publication, or policy term.
 
 #### F.18:5.5 - Status, Evidence, Source, and Publication Names
 
@@ -93291,7 +93766,7 @@ Recovered values:
 
 Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10/11:35` names performed work only when the current record recovers its obtaining performer assignment, enacted method, temporal extent, containing system, affected hull referent, material bindings and resource-use facts, plus an applicable continuity policy when disambiguation is current. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately governed and separately named value.
 
-F.18 settlement:
+F.18 settlement: no separately recoverable F.17 coordinate is current for this local-only case, so the card states one direct `LocalSenseRef` using the expression `shipbuilder role`; the other candidates remain comparison alternatives, not extra sense coordinates.
 
 ```text
 NameCard:
@@ -93301,7 +93776,7 @@ NameCard:
   GoverningPatternRef: A.2
   ReferenceScheme: Shipyard-Production-Scheme
   ClaimContent: NameCard.ShipbuilderRole.ShipyardProduction.2026.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
-  LocalSenseCellRef: SenseCell.ShipbuilderRole.ShipyardProductionRoles-2026 — local expression `shipbuilder role`; sense: the ShipbuilderRole value interpreted by ShipyardProductionRoles-2026 under Shipyard-Production-Scheme
+  LocalSenseRef: local expression `shipbuilder role`; sense claim: the ShipbuilderRole value interpreted under Shipyard-Production-Scheme
   LocalSenseBasisRelationRef: absent; no independently admitted local-sense basis relation is current for this case
   TechLabel: ShipbuilderRole
   PlainLabel: shipbuilder role
@@ -93309,7 +93784,7 @@ NameCard:
   CandidateCoverage: role head; capability head; holder-or-work head; certification-or-status head; no plausible live head family remains untested
   RejectedCandidates: ShipbuildingCapability; HullAssemblyWorker; CertifiedShipbuilder
   SelectionRationale: selected label names the role value without claiming capability, holder assignment, performed work, or certification
-  BridgeRefs: absent; this local settlement claims no cross-context correspondence
+  BridgeRefs: absent; this local settlement makes no semantic-correspondence claim
   PublicRowStatus: localOnly; change to pending only if public or cross-context reuse opens and section 4.4 does not yet pass
   UnifiedTermRowRef: absent
   LineageEntries: initial durable settlement; source word "shipbuilder" split from capability, holder-or-worker, performed-work, and certification readings
@@ -93332,7 +93807,7 @@ Recovered values:
 - robot-engineering method or work, music-performance work, and robot-music-teaching method or work under method and work patterns;
 - an optional role-algebra, graph, matrix, embedding, or neural representation only if the project actually uses such a lens to describe the selected role relation structure.
 
-If a durable qualified role value has been admitted, its naming settlement can be:
+If a durable qualified role value has been admitted, no separately recoverable F.17 coordinate is current for this local-only case, so the card states one direct `LocalSenseRef` using `engineer-roboticist`; `robotics engineer` remains a NameCard lineage alias and does not identify a second sense coordinate. Its naming settlement can be:
 
 ```text
 NameCard:
@@ -93342,7 +93817,7 @@ NameCard:
   GoverningPatternRef: A.2
   ReferenceScheme: MusicalRobotLab-Scheme
   ClaimContent: NameCard.RoboticsEngineerRole.MusicalRobotLab.2026.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
-  LocalSenseCellRef: SenseCell.RoboticsEngineerRole.MusicalRobotLabRoles-2026 — local expressions `engineer-roboticist` and `robotics engineer`; sense: the admitted engineering role qualified by the robotics work field under MusicalRobotLab-Scheme
+  LocalSenseRef: local expression `engineer-roboticist`; sense claim: the admitted engineering role qualified by the robotics work field under MusicalRobotLab-Scheme
   LocalSenseBasisRelationRef: absent; no separate source-bearing basis relation is current for this use
   TechLabel: RoboticsEngineerRole
   PlainLabel: engineer-roboticist
@@ -93350,7 +93825,7 @@ NameCard:
   CandidateCoverage: Tech role head; two ordinary role-expression forms; method neighbour; compressed multi-role neighbour; no plausible live head family remains untested
   RejectedCandidates: engineer and roboticist; engineer-roboticist-musician; RobotEngineeringMethod
   SelectionRationale: Tech `RoboticsEngineerRole` and Plain `engineer-roboticist` are selected for this source-preserving lab use; robotics remains a qualification of engineering, musician remains a separate role assignment, and method or work names do not become role names
-  BridgeRefs: absent; the card claims no cross-context correspondence
+  BridgeRefs: absent; the card makes no semantic-correspondence claim
   PublicRowStatus: localOnly; change to pending only if public or cross-context reuse opens and section 4.4 does not yet pass
   UnifiedTermRowRef: absent
   LineageEntries: initial durable qualified-role settlement; `robotics engineer` retained as a Plain alias for the same value, scheme, sense, and declared use, not as a second selected PlainLabel; earlier local wording retained when no durable role value is admitted
@@ -93413,13 +93888,13 @@ Recovered values:
 - deployable module under module-interface patterns;
 - management unit under organizational patterns.
 
-F.18 settlement: choose a Tech label only for the governed value under the declared by-value reference scheme and exact local sense. Use `F.9` only when its current entry accepts the exact `SenseCell` endpoints and its result supplies the correspondence needed by this naming use; a changed reference scheme by itself establishes neither a Bridge nor governed-value identity. If public or cross-context reuse is needed, apply the section 4.4 `F.17` gate. If that gate fails, keep the name and card local and mark the public row pending; if no public use is current, stop with the local settlement.
+F.18 settlement: first keep the three recovered values and their local labels separate. If only local speech is needed, stop there; do not name a claim merely because one team wants to explain the difference. If a public term use is proposed between different `<ReferenceScheme, LocalSenseClaim>` projections, identify the exact source and receiving F.17 cells and test the F.9 Bridge predicate between them. The same scheme with different `LocalSenseClaim` values qualifies; a different scheme only opens the question and never establishes the relation. When the Bridge obtains, state in ordinary C.2.1 wording whether it is suitable for this naming use, naming the direction, label-correspondence rule, tolerated loss, and polarity, and establish the current A.10 or B.3 reliance required by section 1. The Bridge does not choose the Tech label, the claim does not identify the governed value, and neither authorizes or performs publication. Only after those objects are current does section 4.4 send the naming settlement to F.17. If the F.17 gate fails, keep the name and card local and mark the row pending; if no correspondence use is current, stop with the local settlement and create no Bridge or use claim regardless of scheme count.
 
 ### F.18:8 - Anti-Patterns And Repairs
 
 | Anti-pattern | Ontological failure | Repair |
 | --- | --- | --- |
-| "Same spelling means same value." | Treats string identity or a sense bridge as governed-value identity. | Use `F.9` only to state exact cross-context sense correspondence and admitted use; apply the direct object owner for any identity claim, or keep the values separate. |
+| "Same spelling means same value." | Treats string identity or a sense Bridge as governed-value identity and lets the Bridge silently license reuse. | Compare the exact `<ReferenceScheme, LocalSenseClaim>` projections. Same projection plus another expression stays with designation. Different projections open the F.9 question; only an obtaining Bridge can then support a separate C.2.1 naming-use claim with current A.10 or B.3 reliance. Apply the direct object owner for any governed-value identity claim, or keep the values separate. |
 | "Evidence role" for a report, source, or standard. | Turns an episteme or source-use relation into a work-facing role. | Recover evidence-use, source-use, status-use, publication-use, or assurance-use relation. |
 | "Night operator role" when only schedule differs. | Bakes temporal admission into role identity. | Keep role value; put time window in assignment, status, or work plan. |
 | "Certified engineer role" when certification is evidence or admission. | Bakes capability evidence or admission into role name. | Keep `EngineerRole`; record capability evidence, admission, or status relation separately. |
@@ -93442,14 +93917,15 @@ Use these checks before a durable name is reused in a pattern. If an F.17 row is
 | Role boundary | Role, role assignment, holder, capability, method, work, evidence, and status claims are not collapsed. |
 | Relation-object boundary | Predicate-definition episteme, admitted relation kind, obtaining occurrence, representation element, and designator are named only after their separate governing settlements; relation slot, interface, port, and signature names cite direct governing patterns. |
 | Public row | A durable local card is enough unless public, Core-facing, durable-across-context, or cross-context reuse is current. The section 4.4 gate passes before any F.17 row is cited; the row is neither the value nor the publication occurrence. |
-| Bridge | `F.9` governs exact cross-context sense correspondence and admitted use, not governed-value identity; cross-scheme interpretation alone does not create an F.9 Bridge. |
+| Bridge and bounded use | `F.9` governs an exact sense relation only between different `<ReferenceScheme, LocalSenseClaim>` projections. Same projection plus another expression is designation; same scheme plus another claim can open F.9; scheme difference opens only the question; no current correspondence use creates no Bridge or use claim. A separate C.2.1 claim says whether an obtaining Bridge suits the named naming use, and A.10 or B.3 governs reliance. None authorizes or proves that reuse occurred. |
+| Local-plain non-use | A one-off claim about whether an exact Bridge suits a named use stays in ordinary wording. No `NameCard`, public claim kind, or durable CamelCase name is created unless an independent later reuse need reopens F.18. |
 | Lineage and reopen | Rename, alias, split, merge, and retirement history is recorded under `F.13`, and the card names the smallest value, scheme, sense, owner, use, or reader-error change that reopens this settlement. |
 | Reader use | A practitioner can tell what to say, what not to infer, and where to go if the name is not enough. |
 | Work-name boundary | An action nominal remains a morphology cue: a hidden claim-bearing function-like use goes through `A.6.F`, while an already recovered method, method description, required-transformation or required-effect claim, actual `U.Transformation`, `TransformationFlowStructure` locus, functional-view record, plan content, or other value is named only under its direct pattern. A WBS/Work Package label remains plan- or assignment-episteme content, and a performed-work name is accepted only for one occurrence grounded under `A.15.1`; neighboring production claims, measurement results, evaluation results, decisions, delivery occurrences, and acceptance verdicts stay under their direct governors. |
 
 Regression checks:
 
-- When the effective reference-scheme edition changes, re-check local sense and bridge claims.
+- When either the effective reference-scheme edition or the `LocalSenseClaim` changes, compare the resulting semantic-context projections. Re-check any obtaining Bridge, the separate claim about the named use between different projections, and that claim's current reliance; same-projection expression changes stay with designation, and no current correspondence use creates no Bridge or use claim.
 - When a role description changes, re-check role name and any holder-assignment name.
 - When a method, capability, work, evidence, or status pattern changes, re-check any name that borrowed morphology from that area.
 - When repeated reader errors occur, reopen candidate comparison instead of adding aliases indefinitely.
@@ -93465,7 +93941,7 @@ Source use was checked on 2026-07-23. F.18 uses only the following decision-gove
 | Zhu, Reinecke, and Mitra, [*Language Scent: Exploring Cross-Language Information Navigation*](https://arxiv.org/abs/2604.03604), arXiv:2604.03604, 2026 preprint | Adapt contextual cues and in-situ recognizability as evidence for reader ergonomics; reject any inference from recognizability to cross-context equivalence. | Changes the reader-ergonomics probe in 4.3 and supports the conditional local labels in 7.2 and 7.5 while leaving exact value, local sense, and Bridge recovery mandatory. | The study is small, cross-language, and navigation-focused. Reopen only those probes and examples if stronger reader evidence reverses the observed value of contextual cues or exposes a new loss. |
 | Current FPF `C.18` front and archive discipline | Keep non-dominated candidates, archive members, and selection reasons distinct; expose dimensions and dominance when those methods are actually used. | Governs the optional ordinal-comparison sentence in 4.3; it does not require QD apparatus for an ordinary four-candidate naming decision. | This is comparison discipline, not proof that a label is ontologically correct. Reopen only 4.3 if the FPF front, dominance, or protected-dimension rule changes. |
 
-Currentness rule: when a direct value owner, `C.2.1`, `F.9`, or `E.24.PUB` changes the value/card/sense/Bridge/publication boundary, reopen only the affected invariant, field, case, or check. A future F.17 edition is consumed only through section 4.4; its change does not reopen local NameCards unless their admitted public use or object references change.
+Currentness rule: when a direct value owner, `C.2.1`, `F.9`, `A.10`, `B.3`, or `E.24.PUB` changes the value, card, sense, Bridge, bounded-use claim, reliance, or publication boundary, reopen only the affected invariant, field, case, or check. A future F.17 edition is consumed only through section 4.4; its change does not reopen local NameCards unless their supported public citation use or object references change.
 
 ### F.18:11 - Relations
 
@@ -93478,14 +93954,14 @@ Coordinates with:
 - `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `A.6.REL`, `A.6.5`, `A.6.RSIR`, `A.6.0`, `A.6.M`, `A.6.F`, and `A.6.C` for relation-claim settlement, work/method-boundary relation recovery, relation-kind and occurrence boundaries, slot, signature, interface, port, and protocol names;
 - `A.10`, `B.3`, `F.10`, `E.10.D2`, and `C.2.1` for evidence-use, assurance-use, status-use, source-use, and description-episteme names;
 - `E.17` for multi-view publication-face and publication-form use;
-- `F.17` only after its current entry accepts the exact F.18 value/kind/card/sense/Bridge result and its result supplies the required public row; otherwise the local NameCard remains sufficient and the public row stays pending;
+- `F.17` only after its current entry accepts the exact F.18 value, kind, card, and sense result and, for reuse between different semantic-context projections, the separate obtaining Bridge, affirmative C.2.1 use claim, and current A.10 or B.3 reliance; otherwise the local NameCard remains sufficient and the public row stays pending;
 - `E.24.PUB` for the separate occurrence, form, carrier, audience, bounded-use, and currentness objects needed when an exact row-episteme edition is actually made available;
 - `C.16`, `C.18`, and Part G search patterns when candidate comparison uses Pareto or quality-diversity vocabulary.
 
 Constrained non-use:
 
 - `F.18` admits no new U-kind and creates none of the governed role, assignment, status, method, work, relation, signature, slot, interface, or other subject values it names. A `NameCard` is a separately constituted `U.Episteme` under `C.2.1`, not a kind minted by F.18.
-- `F.18` does not decide whether two values are the same across contexts; it requires the bridge or direct pattern that decides that claim.
+- `F.18` does not decide whether two values are the same across contexts. F.9 can establish an exact relation only between local senses whose `<ReferenceScheme, LocalSenseClaim>` projections differ; a separate C.2.1 claim and A.10 or B.3 reliance govern one proposed naming use between those projections; the direct value owner still governs any identity claim.
 - `F.18` does not turn a publication row, card, table, or glossary entry into the thing being named.
 
 ### F.18:End
