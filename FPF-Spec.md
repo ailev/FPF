@@ -138,8 +138,8 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | A.19.SelectorMechanism | **Unified Selection Kernel (SelectorMechanism)** | Stable | *Keywords:* selection kernel, set-returning selection, selected set, `SelectEligibility`, tri-state guard (`pass|degrade|abstain`), no hidden thresholds, no hidden scalarization, `CriteriaSlot`, `ComparisonResultSlot`, `TaskSignatureSlot`, evidence gating, `CG-Spec.MinimalEvidence`, CHR suite stage `select`, Bridge+CL/ReferencePlane transport, penalties→`R_eff` only. *Queries:* "What is SelectorMechanism in FPF?", "Why does selection return a selected set by default?", "How does SelectEligibility handle unknown or insufficient evidence?", "How does FPF prevent hidden thresholds and scalarization in selection?" | **Builds on:** A.6.1, A.6.5, A.19.CHR, A.19.CN, G.0, G.5, C.22. **Used by:** A.19.CHR, G.5, E.18. **Coordinates with:** A.19.USCM, A.19.ULSAM, CPM (comparison stage). |
 | A.20 | **Flow Constraint Validity — Eulerian** | Stable | *Keywords:* flow, ConstraintValidity, Eulerian, TransformationFlowStructure, GateFit, MVPK, SquareLaw, Sentinel, PathSlice. *Queries:* "What is ConstraintValidity in FPF?", "What is the Eulerian stance in FPF flows?", "How does E.18 relate to flows?" | **Builds on:** E.18. **Coordinates with:** A.21, E.17, F.9, F.17, A.19.SelectorMechanism, C.18, C.19, G.5, G.6, G.11. |
 | A.21 | **GateProfilization: `OperationalGate(profile)` (GateFit core)** | Stable | *Keywords:* OperationalGate, GateFit, GateProfile, GateChecks, join-semilattice, `GateDecision`, `DecisionLog`, EquivalenceWitness, LaunchGate, CV⇒GF. *Queries:* "What is GateProfilization in FPF?", "How does OperationalGate aggregate GateChecks?", "What is the CV⇒GF activation predicate?" | **Builds on:** E.18, E.17 (MVPK), A.7. **Coordinates with:** A.20, A.2.6, F.9, F.17, G.6, G.11, A.19, G.0, G.5, C.18, C.19, G.9. |
-| A.22 | **Structure and Structural Views (STRUCT-CAL)** | Stable | Guides a practitioner to select one exact non-agentive organization among independently identified constituents and obtaining relations under applied constraints for a named use. Keeps that structure distinct from the selecting system or practitioner, descriptions, views, graphs, decisions, and mathematical representations. *Queries:* "Which organization is selected for this named use?", "Which exact constituents, obtaining relations, and applied constraints identify it?", "What remains outside the structure, and when must the use stop?" | **Builds on:** A.1, C.13, C.2.1, A.6.REL, A.6.0, A.6.5, A.3.1, A.6.1, A.15.1, A.6.P, A.7, A.6.3, A.14, C.16, C.29, E.10, E.17.0, E.24. **Coordinates with:** A.1.1, A.2.6, A.22.CGUS, C.30, C.30.ASV, E.18, C.33, C.34, C.35. |
-| A.22.CGUS | **Constraint-Governed Unfolding Structure** | Stable | A.22 specialization for graph-shaped or partially ordered structures over typed positions, exact referenced relations, cross-position constraints, preserved structures, C.33 adequacy notes, and admissible next-form kinds. Separates provisional demonstrations, post-admission whole-structure descriptions, and post-admission demonstrative slices over selected traversals. *Queries:* "When is a readable chain only a provisional demonstration?", "How do I preserve branches, joins, cycles, and alternatives behind one walkthrough?" | **Specializes:** A.22. **Coordinates with:** E.18.3, E.18.1, E.23, C.32.P2S, E.11, F.17, C.33, C.35. |
+| A.22 | **Structure and Structural Views (STRUCT-CAL)** | Stable | Guides a practitioner to select one exact non-agentive organization among independently identified constituents and obtaining relations under applied constraints for a named use. Keeps that structure distinct from the selecting system or practitioner, descriptions, views, graphs, decisions, and mathematical representations. *Queries:* "Which organization is selected for this named use?", "Which exact constituents, obtaining relations, and applied constraints identify it?", "What remains outside the structure, and when must the use stop?" | **Builds on:** A.1, C.13, C.2.1, A.6.REL, A.6.0, A.6.5, A.3.1, A.6.1, A.15.1, A.6.P, A.7, A.6.3, A.14, C.16, C.29, E.10, E.17.0, E.24. **Coordinates with:** A.1.1, A.2.6, A.22.CGUS, C.30, C.30.ASV, E.18, E.18.NET, C.33, C.34, C.35. |
+| A.22.CGUS | **Constraint-Governed Unfolding Structure** | Stable | A.22 specialization for graph-shaped or partially ordered structures over typed positions, exact referenced relations, cross-position constraints, preserved structures, C.33 adequacy notes, and admissible next-form kinds. Separates provisional demonstrations, post-admission whole-structure descriptions, and post-admission demonstrative slices; a selected E.18.NET network uses one mutually exclusive owner-defined network locator family while member-local TFS bindings remain nested. *Queries:* "When is a readable chain only a provisional demonstration?", "How do I preserve branches, joins, cycles, alternatives, and nested network positions behind one walkthrough?" | **Specializes:** A.22. **Coordinates with:** E.18.NET, E.18.3, E.18.1, E.23, C.32.P2S, E.11, F.17, C.33, C.35. |
 
 **Part B — Trans-disciplinary Reasoning Cluster**
 
@@ -239,7 +239,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | C.30.ASV | **Architecture Structural View Adequacy (ASV)** | Stable | *Keywords:* architecture structural view, ArchitectureStructureKindRef, VF.ARCH.STRUCTURE, viewpoint bundle, structure kind, hidden or lost structure, correspondence, source return. *Queries:* "Which structure kind does this architecture view describe?", "How do viewpoint and structure kind stay distinct?", "When does a view hide or lose structure?" | **Builds on:** C.30, A.22, A.6.3, E.17.0, E.17.1, E.17.2, E.17, E.10.D2. **Coordinates with:** A.6.F, C.30.TFS-REL, C.30.LCA, C.30.ILC, E.18, C.29. |
 | C.30.LCA | **Control Structure View Adequacy (LCA)** | Stable | *Keywords:* control-structure view, layered control architecture, supervisor loop, controller and plant, rate band, control layer, proof overread. *Queries:* "When is LCA a control-structure view rather than proof?", "How do layer, level, stack, and rate labels recover fields named by value?", "Where do stability, safety, evidence, and gate claims go?" | **Builds on:** C.30, C.30.ASV, B.2.5, A.22. **Coordinates with:** A.3.3, C.27, C.28, A.10, G.6, B.3, A.20, A.21, C.29. |
 | C.30.ILC | **Cross-Scope Architecture Residual Triage** | Stable | *Keywords:* cross-scope residual, interlevel conflict, frustration, declared scope, structure kind, local repair, residual-bearing locus, first architecture move. *Queries:* "What is the first architecture move when a local fix creates a residual elsewhere?", "When does residual-reducing synthesis go to C.32.MLAO and C.32?", "When should the case exit to measurement, scale, evidence, decision, or selected-set publication?" | **Builds on:** C.30, C.30.ASV, A.22. **Coordinates with:** C.32.MLAO, C.32, C.32.PAD, C.31.ASAP, C.16, C.29, G.5, C.11, C.28, A.10, B.3, G.6, D.3, D.4. |
-| C.30.TFS-REL | **Architecture Transformation-Flow Structure Relation** | Stable | *Keywords:* architecture-to-transformation-flow relation, transformation-flow structure, functional behavior, selected structure, architecture structural view, candidate architecture input. *Queries:* "When can a transformation-flow structure inform a grounded architecture or structural view?", "How do architecture, function, and transformation flow stay distinct?", "When do transformation-flow variants become C.32 candidate inputs?" | **Builds on:** C.30, C.30.ASV, E.18, A.22. **Coordinates with:** C.32, A.6.F, E.18.2, C.29, C.16, C.28, A.10, B.3, A.20, A.21, A.15. |
+| C.30.TFS-REL | **Architecture Transformation-Flow Structure Relation** | Stable | Relates one named architecture locus to one selected E.18 TFS or E.18.NET network for a bounded architecture use. Keeps architecture, function or functional view, transformation-flow structure, graph or mathematical description, and candidate synthesis distinct. A network use chooses a named-containing-holon or explicit-inter-holon branch and keeps architecture bearers, member-local paths or valuations, and exact network-row locators distinct. *Queries:* "Which architecture claim uses this selected TFS or network?", "How do architecture, function or functional view, and transformation flow stay distinct, and when do selected TFS variants become C.32 candidate inputs?", "Does one named containing holon or an explicit inter-holon use supply the architecture side, and which stronger architecture, Work, evidence, gate, or decision claim must return to its owner?" | **Builds on:** C.30, C.30.ASV, E.18, E.18.NET, A.22. **Coordinates with:** C.32, C.32.CONWAY, A.6.F, E.18.2, E.18.3, C.29, C.16, C.28, A.10, B.3, A.20, A.21, A.15. |
 | C.31 | **Modularity and Reusable Structure Characteristics** | Stable | *Keywords:* modularity characteristics, reusable-structure characteristics, coupling, cohesion, substitutability, interface variation, evidence reuse, bespoke residue, ModularityVectorLite. *Queries:* "Which modularity characteristic is under evaluation?", "When is a modularity score report-only?", "How do I keep module, interface, reuse, and evidence-reuse claims distinct?" | **Builds on:** C.16, A.17, A.18, A.19, C.25, C.30, C.30.ASV. **Coordinates with:** A.6.M, C.31.RSA, C.31.ASAP, C.32, C.29, A.10, B.3, G.5, C.11. |
 | C.31.RSA | **Reusable Structure Accounting** | Stable | *Keywords:* reusable-structure accounting, reusable share, bespoke residue, accounting basis, report-only share, source return, refactoring opportunity. *Queries:* "Where is reusable structure located?", "When is a reusable share only report-only?", "What gets worse when we increase reuse?" | **Builds on:** C.31, C.30, C.30.ASV, C.16, A.19. **Coordinates with:** A.6.M, C.31.ASAP, C.29, A.10, B.3, G.6, C.27, C.28, G.5, C.11. |
 | C.31.ASAP | **Architecture Scale-Amenability Preference** | Stable | *Keywords:* architecture scale preference, scale amenability, ScaleClaimTriage, scale variable, scale window, architecture alternatives, source-return condition, coarse-graining, RG, platform scale claim, waiver reason. *Queries:* "When does modularity or platform wording carry an architecture scale-preference claim?", "How can scale preference inform C.32 candidate generation without selecting the architecture?", "When is coarse-graining or RG-like language only a mathematical lens?" | **Builds on:** C.31, C.31.RSA, C.16, A.17, A.18, A.19, C.18.1, C.19.1, C.29. **Coordinates with:** C.32, C.32.PAD, A.6.M, C.30, C.30.ASV, C.30.LCA, C.30.ILC, A.10, B.3, G.6, G.5, G.9, C.11. |
@@ -248,7 +248,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | C.32.HCS | **Architecture-Bearing Family Characteristic Starter Packs** | Stable | *Keywords:* architecture-bearing family characteristic starter pack, architecture characteristic heads, source catalogue narrowing, first criteria questions, characteristic transfer. *Queries:* "Which few architecture-characteristic heads should we inspect first?", "How do software-quality catalogues transfer to systems, methods, roles, cultures, AI workflows, or evidence practices without admitting those source labels as holon kinds?", "When does starter work hand off to ACS?" | **Builds on:** C.32, C.25, C.16, E.13. **Coordinates with:** C.32.ACS, C.32.ACE, C.30, C.31, A.19, G.5, C.11, C.32.PAD. |
 | C.32.ACS | **Architecture Characteristic Criteria Set for Improvement Cycles** | Stable | *Keywords:* architecture characteristic criteria set, criteria row, Q-Bundle, improvement cycle, proxy risk, protected counter-characteristic, anti-Goodhart guard. *Queries:* "How do I turn broad -ility names into project criteria rows?", "Which three to five characteristics enter optimization and which remain guardrails?", "How does the criteria set feed eval and candidate synthesis?" | **Builds on:** C.32.HCS, C.25, C.16, E.13. **Coordinates with:** C.32, C.32.ACE, C.32.PAD, E.22, E.23, A.19.CPM, G.5, C.11, A.10, B.3. |
 | C.32.ACE | **Architecture Characteristic Eval Programs** | Stable | *Keywords:* architecture-characteristic eval program, eval result, measurement boundary, parity frame, missing-data policy, proxy risk, comparison input. *Queries:* "How do I evaluate architecture candidates against criteria rows?", "Why is eval not the characteristic itself?", "When does an eval result feed comparison, publication, or decision without replacing them?" | **Builds on:** C.32.ACS, C.16, C.25, E.13. **Coordinates with:** C.32, C.32.MLAO, C.32.PAD, A.19.CPM, G.5, C.11, A.10, B.3. |
-| C.32.CONWAY | **Transformer and Transformed Architecture Correspondence** | Stable | *Keywords:* Conway correspondence, inverse Conway maneuver, transformer holon, transformed holon, changing relation, selected-structure correspondence, coordination cost. *Queries:* "When must the architecture of the transforming holon and transformed holon be synthesized together?", "Which selected structures correspond across the changing relation?", "When is mirroring only a source cue rather than architecture adequacy?" | **Builds on:** C.32, A.3.4, E.18, A.15, C.29. **Coordinates with:** C.32.MLAO, C.32.FAIL, C.32.PAD, A.19.CPM, G.5, C.11, A.10, B.3. |
+| C.32.CONWAY | **Architecture-Influence and Transformed-Architecture Correspondence** | Stable | Prepares candidate changes from one separately typed influence-source architecture and one transformed architecture without treating an architecture, structure, network, or correspondence record as an actor. Keeps changed referent, current acting and Work facts, influence source and direct relation, one local synthesis frame, and any exact pair episteme separate; a network may cite a pair row only as a qualified reading. Formerly indexed as **Transformer and Transformed Architecture Correspondence**; that phrase remains search lineage, not an acting-architecture ontology. *Queries:* "Which architecture influences the candidate and which architecture is being changed?", "Are actor, role, Work, and direct influence facts current or only provisional pressure?", "Which few governed characteristic rows or Q-Bundle slots make the trade-off real?", "When is mirroring only a source cue rather than evidence of architecture adequacy?" | **Builds on:** C.32, A.3.4, A.12, A.15.1, A.22, C.30, C.32.ACS, C.25. **Coordinates with:** E.18.NET, C.30.TFS-REL, C.32.MLAO, C.32.FAIL, C.32.PAD, A.19.CPM, G.5, C.11, A.10, B.3. |
 | C.32.MLAO | **Multilevel Architecture Residual Optimization** | Stable | *Keywords:* multilevel architecture residual optimization, residual-reducing candidate frame, declared level, declared scope, Pareto front, stepping stone, ideality pressure, scale amenability. *Queries:* "How do I prepare candidate architecture changes after cross-scope residual triage?", "How do residuals, fronts, archives, and stepping stones inform synthesis without deciding?", "When does the case return to C.30.ILC, C.29, C.31.ASAP, C.32, G.5, C.11, or C.32.PAD?" | **Builds on:** C.30.ILC, C.32, C.32.ACS, C.32.ACE, C.29, C.31.ASAP. **Coordinates with:** C.32.CONWAY, C.32.FAIL, C.32.PAD, C.18, C.19, G.5, C.11, A.10, B.3. |
 | C.32.FAIL | **Architecture Failure Recognition and Repair** | Stable | *Keywords:* architecture failure cue, architecture repair cue, stressed architecture object, selected-structure relation, candidate repair, repair-entry family, source overread. *Queries:* "How do I turn an architecture warning into the smallest repair action?", "Which governing pattern owns the repair?", "When should evidence, assurance, comparison, selection, publication, choice, or decision claims leave the repair cue?" | **Builds on:** C.32, C.30.P, A.6.F, A.6.M, C.31, C.29, E.10. **Coordinates with:** C.32.MLAO, C.32.CONWAY, C.32.PAD, C.30, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, E.17, E.24.PUB, A.10, B.3, A.20, A.21. |
 | C.32.PAD | **Project Architecture Decision After Candidate Synthesis** | Stable | *Keywords:* project architecture decision, ArchitectureDecisionRelation@Project, selected architecture option, affected selected structure, architecture-characteristic trade-off, accepted loss, method-use instruction, architect-developer split, reopen condition. *Queries:* "How do I turn candidate architecture configurations into a project decision?", "Which selected structures and accepted losses does the architecture decision commit?", "How does an architecture decision guide developer methods without becoming an ADR or work plan?" | **Builds on:** C.32, C.32.MLAO, C.32.CONWAY, C.32.FAIL, A.19.CPM, A.19.SelectorMechanism, C.11, G.5, C.30, C.30.AD, C.30.ASV. **Coordinates with:** C.32.ADR, C.32.ADA, C.32.ACS, C.32.ACE, C.16, C.25, C.29, A.15, E.8, E.11.PUR, E.17, E.24.PUB, A.10, B.3, A.21, B.2, B.2.P. |
@@ -303,7 +303,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | E.10.D1 | **Lexical Discipline for “Context” (D.CTX)** | Stable | *Keywords:* context, U.BoundedContext, anchor, domain, frame. *Queries:* "What is the formal meaning of 'Context' in FPF?". | **Builds on:** A.7, A.4. **Coordinates with:** F.1, F.2, F.3, F.7, F.9. |
 | E.10.D2 | **EntityOfConcern, Description Episteme, and Specification-Use Discipline** | Stable | *Keywords:* EntityOfConcern, Description episteme, specification use, DescriptionContext, testable, verifiable. *Queries:* "Difference between a description and a specification in FPF?". | **Builds on:** A.7, E.10.D1, C.2.1, C.2.3. **Constrains:** F.4, F.5, F.8, F.9, F.15. |
 | E.11 | **Practical-Use Guidance and Pattern Discovery** | Stable | Fifteen context-free public practical-use cards with recognizable situations, current questions, exact first-result templates, direct Solution refs, stop and return boundaries, and one ordinary or CGUS-demonstrative walkthrough. Ordinary comparison stays conversational; addressable shortlist history appears only under named reliance. | **Builds on:** E.8, E.17.AUD, F.17, F.18. **Leads to:** E.11.PUA and E.11.PUR. **Coordinates with:** A.22.CGUS, E.18, G.11. |
-| E.11.PUA | **Pattern Use in a Working Situation and First Useful Result** | Stable | Applies one inspected direct pattern to a current working situation. Keeps ordinary use light, materializes support only under named reliance, returns the exact direct-pattern result and receiving use, and distinguishes selection, application, and downstream-work flows. | **Builds on:** E.11, E.8. **Coordinates with:** E.11.PUR, E.18, E.18.1, E.18.3, A.15, and every selected direct pattern. |
+| E.11.PUA | **Pattern Use in a Working Situation and First Useful Result** | Stable | Applies one inspected direct pattern to a current working situation. Keeps ordinary use light, materializes support only under named reliance, returns the exact direct-pattern result and receiving use, and distinguishes selection, application, and downstream-work flows. For cross-flow carry-through it preserves plain input, tool, context, and constraint cues while resolving exact source and receiving positions plus the directly governed relation status; the carried result keeps its kind. | **Builds on:** E.11, E.8. **Coordinates with:** E.11.PUR, E.18, E.18.NET, E.18.1, E.18.3, A.15, and every selected direct pattern. |
 | E.11.PUR | **Pattern-Use Applicability, Recommendation, and Coordination** | Stable | Governs reliance-bearing applicability findings, one pattern-use recommendation, and coordination among candidate pattern uses. Pairwise order exists only for prerequisite result, method precondition, or shared-constraint resolution; presentation order is not workflow or WorkPlan order. | **Builds on:** E.11, E.11.PUA, E.10.MOVE. **Coordinates with:** E.18.1, A.15, A.21, C.24, C.30, and direct decision patterns. |
 | E.12 | **Didactic Primacy & Cognitive Ergonomics** | Stable | *Keywords:* didactic, cognitive load, ergonomics, usability, Rationale Mandate, HF-Loop. *Queries:* "How does FPF ensure it's understandable?", "What is the 'So What?' test in FPF?". | **Builds on:** E.2 (P-2). **Complements:** E.13. |
 | E.13 | **Pragmatic Utility and Value Alignment** | Stable | *Keywords:* pragmatic utility, proxy-to-value alignment, Goodhart, Campbell, surrogation, minimally viable value slice. *Queries:* "How does FPF keep measures from replacing value?", "What got worse when the score improved?". | **Builds on:** E.2 (P-7). **Complements:** E.12 and E.14; coordinates with E.8, E.19, E.21, E.22, E.23, E.9.DA, and E.2.DA. |
@@ -319,10 +319,11 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | E.17.AUD | **PublicationUnit Stability Discipline** | Stable | One bounded publication unit as a readable unit; primary EntityOfConcern or subject named by value, carried publication move, and outside boundary to work, decision, gate, or reliance claim; choose local head restoration, whole-unit stabilization, bounded comparison, or neighboring pattern. | `C.2.2a`, `A.16.0`, `A.7`, `E.10`, `F.18`, `E.14`, `E.19`; coordinates with `E.17.AUD.LHR`, `E.17.AUD.OOTD`, `E.17.ID.CR`, `E.17.EFP` |
 | E.17.AUD.LHR | **PublicationUnit Stability Discipline and Local Head Restoration** | Stable | Repair one overloaded local lexical head inside one publication unit before the whole publication unit inherits ambiguity; recover local head kind, active local reading, local head kind, carried action or question under repair, and outside-work boundary. | `A.6.P`, `A.7`, `E.10`, `C.2.P`, `F.18`, `E.14`; coordinates with `E.17.AUD`, `E.17.AUD.OOTD`, `E.17.ID.CR`, `E.17.EFP` |
 | E.17.AUD.OOTD | **PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline** | Stable | Keep one publication unit explicit about one primary EntityOfConcern or subject named by value, one carried move over that entity, and one outside-work boundary; stop quiet shifts into another primary EntityOfConcern, concern, or wider process. | `A.6.P`, `A.7`, `E.10`, `F.18`, `E.14`, `E.19`, `C.2.2a`, `A.16.0`; coordinates with `E.17.AUD.LHR`, `E.17.ID.CR`, `E.17.EFP` |
-| E.18 | **Transformation Flow Structure** | Stable | *Keywords:* selected transformation-flow structure, independently grounded actual transformations, adjacent governed loci, U.Transfer, flow valuation, crossings, no-automatic-composition boundary, P2W support. *Queries:* "How do I position independently grounded actual transformations and adjacent governed values in one selected flow structure without inferring transformation composition?", "When is a graph/path a selected structure, a mathematical description, or a publication?" | **Builds on:** A.3.4, E.17, E.8, E.10, A.7. **Coordinates with:** A.15.1, A.15.PROD, A.6.RCD, E.18.1, E.18.2, C.29, A.20, A.21, A.2.6, F.9, F.17, G.5, G.9, G.11, C.30.TFS-REL. |
+| E.18 | **Transformation Flow Structure** | Stable | Selects one exact transformation-flow structure whose loci may bind independently grounded transformations and adjacent governed values, with internal `U.Transfer`, local valuations, paths, crossings, and parent-relative `SubflowRef` portions. Selected adjacency and internal `U.Transfer` occurrences do not by themselves establish composition of the transformations. Several valuations or one internal subflow do not create a network; independently identified TFS values connected across their boundaries return to E.18.NET. *Queries:* "Is this one TFS, one internal subflow, or independently identified members?", "Which state remains local to this TFS position?", "When is the visible graph a mathematical description or publication rather than the selected structure?" | **Builds on:** A.3.4, E.17, E.8, E.10, A.7. **Coordinates with:** E.18.NET, A.15.1, A.15.PROD, A.6.RCD, E.18.1, E.18.2, C.29, A.20, A.21, A.2.6, F.9, F.17, G.5, G.9, G.11, C.30.TFS-REL. |
 | E.18.1 | **P2W Problem-to-Work Carry-Through** | Stable | Carries one accepted `ProblemCard@Context` claim into one named receiving use by selecting the exact direct governor and accepting only its returned value or honest stop; splits independently governed claims and returns locally after a relied-on value changes. Reliance notes and explicit E.18.3 structure are conditional, not a P2W relation species or project-work order. | **Builds on:** E.18, C.22.2, A.6.REL. **Coordinates with:** E.11.PUA, E.11.PUR, E.18.3, A.15, A.6.P.WMR, A.15.PROD, G.2, G.11, and every continuing direct pattern. |
-| E.18.2 | **Transformation Flow Mathematical Description** | Stable | *Keywords:* mathematical description, transformation-flow math, graph expression, path expression, algebraic description, C.29 boundary. *Queries:* "When is a transformation-flow graph a mathematical description rather than the project structure?", "How do I use math for transformation flow without granting work, gate, evidence, or architecture authority?" | **Builds on:** E.18, C.29, A.3.4, E.17. **Coordinates with:** A.6.0, A.10, B.3, A.20, A.21, C.30.TFS-REL, E.18.1. |
-| E.18.3 | **Constraint-Governed Transformation-Flow Unfolding Structure** | Stable | Transformation-flow specialization of A.22.CGUS with typed transformation positions, exact dependency, transfer, crossing, and guard references, governed-position connections, preserved structures, C.33 notes, and separate E.18 slice-local refresh and G.11 currentness. | **Builds on:** E.18, A.22.CGUS, A.3.4. **Coordinates with:** E.18.1, C.32.P2S, C.30.TFS-REL, E.23, C.18, C.19, G.5, A.15, G.11. |
+| E.18.2 | **Transformation Flow Mathematical Description** | Stable | Records how one graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes exactly one selected E.18 TFS or E.18.NET network: what it represents, preserves, loses, and may be used for. Keeps the mathematical description distinct from the selected structure, C.29 lens-use claim, and E.17 publication face. *Queries:* "Which exact TFS or network does this expression describe?", "What structure does the expression preserve or lose?", "Which stronger work, evidence, gate, architecture, or decision claim must return to its owner?" | **Builds on:** E.18, E.18.NET, C.29, C.2.1, A.3.4, E.17. **Coordinates with:** A.6.0, A.10, B.3, A.20, A.21, C.30.TFS-REL, E.18.1, E.18.3. |
+| E.18.3 | **Constraint-Governed Transformation-Flow Unfolding Structure** | Stable | Transformation-flow specialization of A.22.CGUS with typed transformation positions; exact dependency, transfer, crossing, and guard relation references; connections to separately governed positions; preserved structures and C.33 adequacy notes; mutually exclusive one-TFS and network locator families; and separate E.18 slice-local refresh and G.11 currentness. A network slice consumes E.18.NET member paths and exact current row locators without turning the network, an obtaining occurrence, or a relation-reference episteme into one another. | **Builds on:** E.18, E.18.NET, A.22.CGUS, A.3.4. **Coordinates with:** E.18.1, C.32.P2S, C.30.TFS-REL, E.23, C.18, C.19, G.5, A.15, G.11. |
+| E.18.NET | **Network of Transformation-Flow Structures** | Stable | Selects one recursive non-agentive `U.Structure` specialization from at least two independently identified TFS or nested-network members, exact obtaining cross-flow relation occurrences, applied network constraints, and one concrete use frame. Keeps member identity and leaf-local valuation or `DesignRunTag` state distinct from the network, its descriptive record, graph, demonstration, architecture reading, Work, and publication. *Queries:* "Is this one TFS with several valuations, one internal subflow, or a network of independent TFS values?", "Which exact obtaining relations cross member boundaries?", "What missing discriminator or relation status stops network selection?" | **Builds on:** A.22, E.18, A.6.REL, A.6.RCD. **Coordinates with:** E.18.2, A.22.CGUS, E.18.3, C.30.TFS-REL, C.32.CONWAY, E.11.PUA, E.17, C.29. |
 | E.19 | **Pattern Quality Gates: Review and Refresh Profiles** | Stable | Reviews one new, materially revised, or aging FPF pattern for practical use and return-for-repair decisions. Its stable-candidate replay checks distinct prior and candidate-only uses, every materially changed normative wording group for extension, modal force, valid and alien boundary cases, and interpretation burden, plus positive Solution and triggered enumerations; bounded edits stay bounded and no per-keystroke ledger or positive recital is created. | **Builds on:** E.8, E.9, E.10. **Coordinates with:** E.21, E.22, E.23, E.9.DA, E.2.DA, F.18, F.19, A.6.P, A.15.1. |
 | E.20 | **Mechanism Introduction Protocol (MIP)** | Stable | *Keywords:* mechanism introduction, authoring protocol, governing-definition assignment, MIP-run manifest, canonical card-first, no dangling `…IntensionRef`, suite boundary hygiene, P2W seam, SlotKind lexicon discipline, alias docking, typed RSCR triggers, regression envelope, PQG profiles. *Queries:* "How to introduce a new mechanism in FPF?", "How to avoid dangling IntensionRefs in suites?", "How to assign mechanism changes to their governing definitions?", "How to evolve mechanism suites without drift?" | **Builds on:** E.8, E.9, E.10, E.15, E.19. **Coordinates with:** A.6.1, A.6.7, A.15.3, F.18, E.18, G.Core, G.2, `G.x:Ext.*`. **Constrains:** Any change-set that introduces or revises mechanisms, suites, planned baselines, wiring modules, or citeable tokens. |
 | E.21 | **FPF Pattern-Quality Evaluation CharacteristicSpace** | Stable | Evaluates one FPF pattern version for a declared reader, use, and scope with one required coordinate set, ordinal values with short rationales, protected trade-offs, precision-restoration profile, status, and stop or reopen conditions. | **Builds on:** E.8, E.19, C.25, C.16, A.17-A.19, F.18, A.19.ECS. **Coordinates with:** E.22, E.23, E.9.DA, E.2.DA, E.10, F.19, A.6.P, C.2.P, E.11, I.2. |
@@ -455,6 +456,13 @@ Core ideas in plain language:
 - use mathematics or formal models when they clarify what structure is preserved, what is lost, and what can be checked;
 - build domain or local FPF-grounded frameworks as dependents of FPF Core, not as silent rewrites of the Core.
 
+## When Several Transformation Flows Form One Network
+
+Inspect `E.18.NET` when the current question joins independently identified transformation-flow structures through exact direct relation occurrences. Several stages, several paths, or several valuations of one flow do not make a network.
+
+- **Build the builder.** A compiler-source-change flow, a bootstrap-compiler build flow, an application build flow, and a deployment-and-operation flow keep their own changes, work, positions, and local state. Recover the project's exact relation that says which executable compiler is used for the application build and its exact delivery relation to deployment. A selected tool-build network can itself be a member of a selected release network; follow a finite member path rather than inventing “level 2” and “level 3” kinds. Inspect `E.18.NET`; if the case is only one flow with several stages or valuations, stay in `E.18`.
+- **Change a product and its production system.** Product-development Work changes and verifies the product definition; production-system-change Work redesigns, retools, and qualifies equipment; production Work makes units; operation supplies observations that may inform later product-development Work. Treat their transformation-flow structures as separately identified selected structures: the structures organize positions and exact relations but do not perform the Work. Keep the product and production system distinct, and recover the exact release, readiness, production, and observation relations needed by the current case. A selected product-development network and a selected production-system-change network can be members of a larger selected network without becoming one giant flow. Inspect `E.18.NET`; if only one architecture correspondence is current, use its direct architecture pattern instead.
+
 ## Practical-Use Cards
 
 Start with the current project question, not an ordinal route through FPF. The fifteen semantic keys below are stable identifiers, not steps. When several cards seem plausible, compare their situations, first-result differences, and stop or return conditions in the conversation. Then inspect the direct pattern's Problem frame, Problem, Forces, Solution, Consequences, and ordinary boundary. Materialize comparison or candidate records only when a named receiving use relies on them.
@@ -580,17 +588,17 @@ The cards are domain-neutral. A first useful result may be a physical or clinica
 
 - **Situation and question.** An exact already-governed object or value needs a stable Tech or Plain label under an effective by-value reference scheme and local sense. Ask: which name lets readers recover that object without changing its kind, scope, or direct owner?
 - **Optional obstacle.** Candidate labels carry conflicting senses, hidden kinds, or misleading morphology.
-- **Template A.** `F.18 Solution -> NameCard`. Local basis adds governed object or value, governing pattern, by-value reference scheme, local sense, intended use, candidate set, rejected candidates, rationale, any exact cross-context sense bridge, lineage, and refresh condition.
-- **Boundaries.** Stop at a complete NameCard when no public term publication is current. Return when the governed object, effective reference scheme, local sense, intended use, candidate evidence, or exact F.9 sense bridge changes. A model-use structure, claim scope, project-work relation, or other locality object remains separately governed, and F.9 supplies no governed-value identity. Wrong-turn recovery restores the governed object before selecting a label. F.17 becomes the stronger neighbor only when actual term-row publication is current.
+- **Template A.** `F.18 Solution -> C.2.1 NameCard episteme`. First recover the exact thing or value being named and its direct governing pattern. Then constitute one NameCard whose complete claim graph records the effective by-value reference scheme, exact local sense and intended use, selected Tech and Plain designations, the smallest candidate set covering the live head-term families and plausible neighbouring objects, rejected candidates and selection reason, lineage, and the smallest condition that reopens this settlement. Completeness is recoverable naming content, not a field count.
+- **Boundaries.** Stop with the local NameCard when no public-row use is current; no public row is implied. When public, Core-facing, durable-across-context, or cross-context reuse becomes current, apply the F.17 entry/result gate to the exact governed value, card, scheme, sense, and any actual F.9 Bridge. `pending` means that gate has not returned the row; `current` requires the exact returned row. E.24.PUB separately governs making that exact row-episteme edition available to a declared audience through a publication form and carrier. Return when the governed value, scheme, local sense, intended use, candidate evidence, actual Bridge, or reader error changes. A label, NameCard, row, Bridge, or publication occurrence neither creates the governed value or kind nor makes a relation obtain.
 - **Public coarsening.** "Naming card" restores to `NameCard`.
 
 ### WORDING - Repair wording without changing the kind by accident
 
-- **Situation and question.** A sentence sounds fluent but hides which object, relation, slot, use position, or claim kind is active. Ask: what was the pre-repair kind and which invariant is preserved after rewriting?
+- **Situation and question.** A sentence sounds fluent but leaves the reader unable to tell what it says about the project. Ask: what ordinary sentence should the reader understand, and is it a world fact, a reusable relation declaration, somebody's relation claim or report, a representation with correspondence, another governed object, or ordinary wording?
 - **Optional obstacle.** A trigger word has been replaced while ontology, admissible use, or scope drifted.
-- **Template A.** `E.10 Solution -> KindRestorationCheck`. Local basis adds the exact span, pre-repair kind, relation, position, use, and scope, post-repair settlement, governing-pattern ref, and disposition.
-- **Conditional relation-claim continuation.** When the hidden object is a method/work-boundary relation-bearing claim, use `A.6.P` first to isolate it, then use `A.6.P.WMR` only while the exact entity or related object, direct governor, one of four claim dimensions, or truthful result remains hidden. A positive or governed-negative direct subject-relation claim, exact `A.6.1` binding, or local `A.15.PROD`/`A.6.RCD` claim closes through its direct owner; `factually unsupported` and `missing-information` stop under a known governor, and only `missing-governor` names a future owner. A governed negative claim requires its owner's explicit negative or non-obtaining basis and individuates no relation occurrence. For other relation-bearing claims, inspect `A.6.RCD` only when exact participants are known and no current direct relation closes the named use.
-- **Boundaries.** Stop when the repaired wording preserves or explicitly changes the kind by accepted decision and remains understandable under MG-DA. Return when the sentence's EntityOfConcern, use, or scope changes. Wrong-turn recovery rejects lexical substitution without semantic check. Stronger neighbors are F.19 for phrase-level prose repair, F.18 for durable naming, or the direct domain pattern for ontology repair.
+- **Template A.** `E.10 Solution -> changed sentence plus local KindRestorationCheck`. Quote the sentence and say why it matters to the reader; write the intended ordinary sentence; record the before/after governed object or claim, direct owner, admissible use, and scope; then give the accepted wording, direct governing-pattern result, or exact blocker, the nearby case that must not be inferred, and the stop back to the domain task.
+- **Relation-like continuation.** Write the ordinary sentence first and choose one branch only: a world fact names the things and the direct relation that obtains under its predicate owner; a reusable relation declaration names its participant meanings and, when that declaration is current, one `RelationSignature` with A.6.5 `SlotSpec` values; a relation claim or report names one C.2.1 claim-bearing episteme and participant designations; a field, table, graph, or formula names the representation element, represented object, and explicit correspondence under C.29 or its direct owner. Use A.6.P only while the predicate or a participant is unclear, A.6.RCD only when the participants are exact but no current direct relation closes the use, and A.6.P.WMR only while a method/work-boundary relation remains hidden. Treat `support` the same way: select the direct subject relation or a concrete common alternative such as evidence use, bounded reader help, or structural bearing; do not mint `SupportRelation`. If no branch fits, keep ordinary or quoted wording, name the other governed object and owner, or state an explicit blocker.
+- **Boundaries.** Stop when the changed sentence and its selected result let the reader return to the domain task. Return when the sentence's EntityOfConcern, use, or scope changes. A fluent replacement does not pass if it swaps one umbrella word for another, makes a declaration or representation shape establish a world fact, or leaves the reader unable to choose the passing case, near miss, and next action. Stronger neighbours are F.19 for phrase-level prose repair, F.18 for durable naming, and the direct domain pattern when the defect is no longer lexical.
 - **Public coarsening.** "Wording repair" restores to `KindRestorationCheck` plus the changed sentence.
 
 ### MATHEMATICAL-MODELING - Use a mathematical lens when it changes the next action
@@ -759,7 +767,9 @@ Ordinary bounded use does not begin by filling a shortlist, candidate form, five
 
 The first useful result is governed by the selected direct pattern. It may be a changed physical or clinical state, a capability, an episteme, a relation, dated `U.Work`, or another exact subject-governed value. A note, measurement, dashboard, or card is the result only when producing that episteme was the intended result. `Working product` is not a durable FPF term because it does not identify one governed value across these cases.
 
-Keep three coupled flows distinct. Pattern-selection work may produce a fit finding, recommendation, or selected candidate. Applying the selected pattern produces its own directly governed result. That result may later become an input, tool, context, or constraint for downstream subject work without becoming the result of that later flow. Across these flows, an acting `U.System` under a `U.RoleAssignment` may select, construct, or refine a `U.Method`, plan dated work when preparation is current, and perform `U.Work` that affects the real EntityOfConcern. Public and project epistemes can guide that line without becoming the acting system, method, plan, work, or subject result. When a receiving use relies on durable cross-flow provenance, E.18 keeps the flow position, `PathSliceId`, and `DesignRunTag` recoverable. Otherwise that apparatus stays absent. A plan or selection episteme does not become machining, treatment, organizational change, learning, or another downstream subject result.
+Keep three coupled flows distinct. Pattern-selection work may produce a fit finding, recommendation, or selected candidate. Applying the selected pattern produces its own directly governed result. That result may later be used as an input, tool, context, constraint, or other governed participant in downstream subject work without becoming the result of that later flow. Treat those role words as ordinary cues, not relation kinds: name the exact source position, exact receiving position, and directly governed relation occurrence. With no direct relation kind or predicate, return `missing-governor`; with undecided facts, keep the relation open; with a false predicate, assert no occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding`. Across these flows, an acting `U.System` under a `U.RoleAssignment` may select, construct, or refine a `U.Method`, plan dated work when preparation is current, and perform `U.Work` that affects the real EntityOfConcern. Public and project epistemes can guide that line without becoming the acting system, method, plan, work, or subject result. Use E.18 to recover each TFS-local position; use E.18.NET only when independently identified TFS values must be treated together as a network. Otherwise that apparatus stays absent. A plan or selection episteme does not become machining, treatment, organizational change, learning, or another downstream subject result.
+
+A quick three-way test is: **same TFS, different valuation; one parent-relative internal portion, subflow; independently identified TFSs, network**. A valuation gives different state, path, or run values over the same exact `TransformationFlowStructure`. A subflow keeps every selected position and already obtaining internal `U.Transfer` occurrence inside one exact parent TFS. A `TransformationFlowStructureNetwork` selects independently identified TFS or nested-network members together with exact obtaining relation occurrences whose participants are bound across their positions. `DesignRunTag` stays local to one exact position binding in one TFS; it is never a network-wide phase label. Use E.18 for a valuation or subflow, and E.18.NET for a network.
 
 FPF can repeat this use as the project changes: ask the current question, compare when needed, inspect a direct pattern, apply its Solution, obtain the first useful result, and return when a stronger claim or unresolved relation becomes current. A pattern may give this use a local `mantra`: a short repeatable formulation that keeps its Solution in attention. For example, A.6.P's local mantra recalls the order of relation repair without creating a new method or unfolding structure. When a local mantra instead presents admissible conditional continuations through a wider constraint-governed unfolding structure, A.22.CGUS can admit it as a `DemonstrativeUnfoldingSlice@Context`; in that narrower case `demonstrative walkthrough` names the public episteme and `mantra move` names one conditional `DemonstratedPatternUseRow@Context`. Repetition alone creates no method order, work order, authority, plan, or performed work.
 
@@ -34031,6 +34041,12 @@ This pending card has no `UnifiedTermRowRef`. Until its refresh condition is met
 
 DDD `Context Mapping` names a repeatable `U.Method`. A.15.2 governs intended mapping work; A.15.1 identifies each exact dated mapping Work individual admitted under `U.Work`, the performer system and obtaining role assignment, and the exact `enactsMethod` relation. C.2.1 independently identifies the candidate episteme called a `Context Map`. While exact independently governed crossing occurrences or the four A.22 base discriminators are missing, its EntityOfConcern is the proposed or described crossing organization, not an exact `CrossContextRelationStructure`. Only after both conditions are met may a corresponding C.2.1 episteme designate the exact structure. Either episteme is additionally a `U.View` only when exact `EpistemeViewpointConformanceRelation(E, P)` obtains under E.17.0. Any C.29 representation, rendering, publication occurrence, form, and carrier remain separate under their direct patterns. Thus method, work, proposal, selected structure, candidate episteme, dependent view membership, representation, and publication stay distinct while the external source terms remain retrievable.
 
+#### A.22:4.1d - Transformation-flow structure network profile
+
+Use `E.18.NET` when one engineering use selects two or more independently identified transformation-flow structures, or nested networks of them, together with exact obtaining relations across their boundaries. Apply the four A.22 discriminators directly: the exact TFS or nested-network members are the constituents; the exact cross-member relation occurrences retain their direct governors; the exact applied endpoint, boundary-exposure, and acyclic direct-member constraints are selected under E.18.NET; and the named network-use frame states the practical question or action and the forbidden overread. Record the return condition separately; it reopens selection when a member, relation, constraint, or use-frame value changes and is not a fifth identity discriminator. The result is one dependent, non-agentive `U.Structure` specialization. E.18.NET owns the network's detailed identity, reference, recursion, local-state, and conformance rules; A.22 does not copy those fields.
+
+Selecting a constituent in the first discriminator does not create a separately re-identifiable membership occurrence. A member row, graph edge, containment picture, or shared label proves neither membership nor another relation. If a receiving use genuinely needs a world-side membership relation, recover its participants, obtaining and identity under a direct relation governor; otherwise use the exact constituent discriminator and do not mint a generic membership edge.
+
 #### A.22:4.2 - Structure claim reliance relation selection
 
 
@@ -34156,7 +34172,7 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 | --- | --- |
 | The reliance relation is treated as the structure. | Recover the exact constituents, selected obtaining relation occurrences, applied constraints, and named use frame. When a neighboring source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance claim is current, name that exact relation and governor separately. |
 | The diagram, graph, table, dashboard, or publication form is the structure. | Treat it as publication, description, view, publication form, source-description relation, base-dependence relation, grounding relation, evidence relation, lens relation, simulation relation, extraction relation, or representation relation only when its relation is explicit. |
-| A transformation-flow graph expression is the structure in every sense. | Use `E.18` for graph, path, crossing, and flow valuation; use A.22 only for the selected structure claim; use `C.30.TFS-REL` when an architecture-to-transformation-flow relation claim is being made. |
+| A transformation-flow graph expression is the structure in every sense. | Use `E.18` for one selected TFS and its internal paths, crossings, and valuations; use `E.18.NET` for a selected network of independently identified TFS members and exact cross-member relations; use `E.18.2` and `C.29` for the graph expression. A.22 supplies only the selected-structure identity, and `C.30.TFS-REL` governs an architecture-to-transformation-flow relation claim. |
 | A mathematical lens output is the structure. | Use `C.29` for lens-use result and admissibility, and cite `MathLensUseOutputRef` only through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
 | A structure proves evidence, assurance, safety, causality, or gate passage. | Assign those claims to `A.10`, `G.6`, `B.3`, `C.28`, `A.20`, or `A.21`. |
 | A structure is a decision or work record. | Use `C.11`, `A.20`, `A.21`, `A.15`, or the project-side decision pattern that governs the claim being made. |
@@ -34239,6 +34255,7 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 | **CC-A22-1a Independent grounding.** | Every constituent and selected relation occurrence keeps its direct identity; a collection, constraint episteme, graph, table, description, view, or publication neither creates them nor makes a relation obtain. | Apply the constituent and direct relation patterns first; treat the visible artifact as a C.29 representation or C.2.1 episteme only when that is what is present. |
 | **CC-A22-1b Selection work and result separation.** | When a load-bearing selection claim is current, an exact system performs method-governed dated work through exact participation relations or A.6.1 bindings. Any durable result is a separate C.2.1 episteme, and any accountable choice remains under its decision governor. | Name the acting system, method, work, bindings, and result or decision separately; remove them from structure identity. |
 | **CC-A22-1c Reidentification.** | A changed designator, method, work, result episteme, graph, description, or publication leaves the structure unchanged when all four identity discriminators remain unchanged; a changed discriminator reopens identity. | Compare the four discriminators and apply each selected relation occurrence's direct identity rule before reapplying A.22. |
+| **CC-A22-1d Transformation-flow network profile.** | An E.18.NET value applies all four A.22 discriminators to exact TFS or nested-network constituents, exact governed cross-member relation occurrences, the E.18.NET constraints as applied, and one named network-use frame. A constituent row supplies no generic membership occurrence, and A.22 carries no duplicate network fields. | Recover any missing member or direct relation governor, then apply E.18.NET. If a separate membership relation is actually needed, route it to its direct relation owner rather than inferring it from the constituent list or graph. |
 | **CC-A22-2 Non-agentive structure.** | Structure wording does not make the structure, pattern, constraint, graph, or result act, select, optimize, prove, decide, warrant, sense, plan, or adapt. | Name the exact acting system and its work or apply the governing proof, decision, or work pattern; keep A.22 to selected organization. |
 | **CC-A22-3 Structure-claim reliance relation boundary.** | When source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is claimed, the governing A.6.6 relation ontology, source-description ontology, evidence ontology, lens ontology, assurance ontology, causal ontology, gate ontology, decision ontology, or publication ontology is named. | Add the governing pattern, relation kind where the relation is being claimed, validation boundary, admissible use, and non-admissible use, or mark the reliance phrase as carrying no admissible reliance. |
 | **CC-A22-4 Description and view separation.** | A structural description, structural view, extracted view, diagram, table, graph, dashboard, or publication face is not treated as the structure itself. | Treat the visible form as description, view, source-description relation, A.6.6 base declaration, publication form, or publication and name the selected structure separately only if selected organization is being claimed. |
@@ -34294,7 +34311,7 @@ The reason to keep C.30 separate is architectural clarity. Architecture is selec
 
 Builds on: `A.1`, `C.13`, `C.2.1`, `A.6.REL`, `A.6.0`, `A.6.5`, `A.3.1`, `A.6.1`, `A.15.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, `E.24`, `E.24.PUB`, and `F.18`.
 
-Coordinates with: `A.1.1`, `A.2.6`, `A.22.CGUS`, `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `E.18.3`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, `C.33`, `C.34`, and `C.35` when architecture-specific structure-capture, preservation, or discovery adequacy claim kinds are being made.
+Coordinates with: `A.1.1`, `A.2.6`, `A.22.CGUS`, `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `E.18.NET`, `E.18.3`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, `C.33`, `C.34`, and `C.35` when architecture-specific structure-capture, preservation, or discovery adequacy claim kinds are being made.
 
 Queue `7b` relation note: `C.33`, `C.34`, and `C.35` govern architecture-specific capture, preservation, and discovery adequacy over selected structures. A.22 keeps the general selected-structure portion; it does not decide architecture use, candidate admission, measurement, evidence, assurance, or decision authority for those adequacy claims.
 
@@ -34466,7 +34483,7 @@ ProvisionalUnfoldingDemonstrationDescription@Context <: U.Episteme:
   admissionTransitionConditionDescriptionRef: U.EpistemeRef
 ```
 
-This local declaration form is an episteme, not a structure slice and not a new root kind. Its C.2.1 identity comes from its exact EntityOfConcern, DescriptionContext, optional grounding holon, ClaimGraph, reference scheme, and edition. `entityOfConcernRef` names the subject that the explanation is currently about; it may not point to a not-yet-admitted CGUS. Candidate positions and relations are claims to investigate, not admitted `ConstraintGovernedUnfoldingPosition@Context` or relation instances. At least one unresolved admission coordinate remains present while the description is provisional.
+This local declaration form is an episteme, not a structure slice and not a new root kind. Its C.2.1 identity comes from its exact EntityOfConcern, DescriptionContext, optional grounding holon, ClaimGraph, reference scheme, and edition. `entityOfConcernRef` names the subject that the explanation is currently about; it may not point to a not-yet-admitted CGUS. Candidate positions and relation descriptions are claims to investigate, not admitted `ConstraintGovernedUnfoldingPosition@Context` values or relation-reference epistemes, and they make no world-side relation instance obtain. At least one unresolved admission coordinate remains present while the description is provisional.
 
 Once every coordinate in `4.2` is recoverable and the wider `ConstraintGovernedUnfoldingStructure@Context` is admitted, describe that structure without selecting a traversal through it by creating this C.2.1-conformant episteme:
 
@@ -34503,6 +34520,22 @@ DemonstrativeUnfoldingSlice@Context <: U.Episteme:
   transformationFlowStructureRef?: U.EntityRef, referencing one E.18 TransformationFlowStructure
   pathSliceId?: E.18 PathSliceId
   designRunTag?: E.18 DesignRunTag
+  networkDemonstrationLocator?:
+    transformationFlowStructureNetworkRef: exact selected E.18.NET-conforming TransformationFlowStructureNetwork ref
+    selectedNetworkPositionMappingRows[]:
+      networkPositionRef: FlowPositionRef | ExposedFlowPositionRef
+      memberPath[]: finite ordered path of exact direct-member refs
+      admittedIncludedPositionRef: exact ConstraintGovernedUnfoldingPosition@Context ref
+    selectedCrossFlowRelationReferenceRows[]?:
+      networkCrossFlowRelationRowRef: E.18.NET NetworkCrossFlowRelationRowRef
+      admittedTransformationFlowRelationReferenceRef: exact TransformationFlowRelationReference@Context ref
+    memberLocalFlowLocatorRows[]?:
+      memberPath[]: finite ordered path to one leaf TFS
+      transformationFlowStructureRef: that exact leaf TFS ref
+      pathSliceId: E.18 PathSliceId local to that TFS
+      designRunTag: E.18 DesignRunTag local to that exact position binding
+      leafFlowPositionRef: FlowPositionRef in that TFS
+      positionBindingRef: already governed E.18 position/valuation binding
   demonstratedPatternUseRowRefs[]: U.EpistemeRef, each referencing one DemonstratedPatternUseRow@Context
   includedStructurePositionRefs[]: U.EntityRef, each referencing one ConstraintGovernedUnfoldingPosition@Context
   omittedStructureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context under C.33
@@ -34519,7 +34552,15 @@ The transition does not retype the provisional episteme or any subject-domain re
 
 The local mode and presentation-form values are enumerations, not CharacteristicSpaces or U-kinds. Presentation form says how the episteme is rendered; it is not a carrier kind. Add an E.17 publication relation only when publication is current.
 
-The E.18 triple is all present or all absent. When present, it locates this post-admission demonstration in one flow valuation and relates pattern-selection, selected-pattern-application, and downstream-subject-work slices without merging their structures, rows, work occurrences, or results.
+The top-level transformation-flow locator families are mutually exclusive. For a one-TFS demonstration, `transformationFlowStructureRef`, `pathSliceId`, and `designRunTag` are all present and `networkDemonstrationLocator` is absent; their existing meaning is unchanged. For a network demonstration, all three top-level one-TFS fields are absent and one `networkDemonstrationLocator` is present. A generic CGUS slice that asserts no transformation-flow provenance may leave both families absent. No slice may mix a partial one-TFS triple with either family.
+
+The network locator does not admit new structure. Its `transformationFlowStructureNetworkRef` resolves to one independently identified, selected E.18.NET-conforming network. Every member path resolves through that network's exact direct members and ends in the TFS named by its leaf position. When `networkPositionRef` is a `FlowPositionRef`, the row's final member is the TFS named by that ref. When it is an `ExposedFlowPositionRef`, that ref's network, complete member path, and leaf position must equal this locator's network, this row's member path, and the resolved leaf position. A mismatch leaves the mapping out of the slice. Every `admittedIncludedPositionRef` is the same exact position already present both in this slice's `includedStructurePositionRefs[]` and in the admitted E.18.3 structure's `transformationPositionRefs[]`. The mapping rows locate that admitted list; they do not create a second raw or unadmitted position list.
+
+Every selected cross-flow mapping preserves one already obtaining relation. First resolve `networkCrossFlowRelationRowRef` by value and require its named current E.18.NET record edition to describe this locator's exact `transformationFlowStructureNetworkRef`; then require exactly one row to match the occurrence and complete ordered endpoint-binding identity. A different network, zero matches, or several matches leaves the mapping out of the slice. Then resolve the cited `TransformationFlowRelationReference@Context` separately. The row and that episteme must agree on exact occurrence, relation kind, direct governor, signature, endpoint order, and endpoint position bindings. The relation-reference episteme must already occur in an applicable admitted E.18.3 relation-reference field. A raw occurrence ref, diagram edge, unresolved locator, or network-record row alone is not admitted into the slice.
+
+The complete one-TFS triple may recur only inside `memberLocalFlowLocatorRows[]`, where it locates one exact leaf-TFS position binding. It never becomes the network slice's top-level locator. A network slice has no network-global `FlowValuation`, `pathSliceId`, or `DesignRunTag`; each path slice and tag remains recoverable from one exact member-local row.
+
+**Positive case.** A four-level build-the-builder demonstration follows a finite member path to one already admitted leaf position, maps it to the same included CGUS/E.18.3 position, cites an admitted exact cross-flow relation reference, and keeps the leaf path slice and tag in one member-local row. **Near miss.** A graph that supplies only raw positions or an edge label, mixes the top-level triple with the network locator, duplicates the included-position list, or assigns one tag to the network remains provisional or returns the exact admission blocker.
 
 #### A.22.CGUS:4.3.1 - Demonstrated pattern-use rows
 
@@ -34921,6 +34962,8 @@ The same visible chain helps planning because each position asks for a slot. It 
 | **CC-CGUS-1 Structure kind.** | The object is `ConstraintGovernedUnfoldingStructure@Context <: U.Structure` or a named narrower `U.Structure` specialization. | Lower to note, seed, description, route card, method description, or governing-pattern record. |
 | **CC-CGUS-2 Typed positions and cross-position constraints.** | More than one SlotSpec-grounded position is named, and exact relations or constraints among those positions affect admissible continuations. | Add typed positions and their exact relation references, or stop using CGUS. |
 | **CC-CGUS-3 Description separation.** | A pre-admission presentation remains a `ProvisionalUnfoldingDemonstrationDescription@Context`; after admission, a whole-structure account is a `ConstraintGovernedUnfoldingStructureDescription@Context`, while one selected traversal is a `DemonstrativeUnfoldingSlice@Context` whose EntityOfConcern is the admitted CGUS. | Keep the presentation provisional until CGUS admission. After admission, choose the description species by whether the episteme describes the admitted topology or selects one traversal through it. |
+| **CC-CGUS-3a Transformation-flow locator exclusivity.** | A one-TFS slice has the complete top-level E.18 triple and no network locator; a network slice has one network locator and none of the three top-level E.18 fields; a generic slice may have neither family. No partial or mixed family is present. | Restore one complete family, or remove transformation-flow provenance and keep the slice generic. |
+| **CC-CGUS-3b Network locator admission reuse.** | Every position ref agrees with the locator's exact network, member path, and leaf position and maps to the same exact position already included in the slice and admitted E.18.3 structure. Every selected cross-flow row comes from a current record of that same network and cites an exact relation-reference episteme already admitted by E.18.3. Member-local TFS triples remain nested, with no duplicate raw-position list or network-global valuation, path slice, or tag. | Return the mismatched network, path, leaf, record, admitted position, or relation reference. Remove copied position lists and global state; keep leaf-local bindings inside member-local rows. |
 | **CC-CGUS-4 Direct governing patterns.** | Method, work, evidence, gate, decision, architecture, publication, refresh, and mathematical claims point to direct governing patterns. | Add governing-pattern exits or narrow the claim. |
 | **CC-CGUS-5 Non-workflow boundary.** | The structure does not prescribe performed-work order by itself. | Move work-order claims to a work plan or method description if justified. |
 | **CC-CGUS-6 Admissible next form.** | At least one admissible next-form kind is named for the admitted structure. | Keep the artifact as a provisional description until a next use and next-form kind are recoverable. |
@@ -34932,6 +34975,7 @@ The same visible chain helps planning because each position asks for a slot. It 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | **Pretty route as ontology** | A graph, table, route card, or slide deck is treated as the structure, or its declared use is treated as sufficient CGUS admission. | Keep the artifact as a provisional description while any admission coordinate is unresolved. After admission, describe the whole admitted structure with `ConstraintGovernedUnfoldingStructureDescription@Context`, or create a separate `DemonstrativeUnfoldingSlice@Context` only for one selected traversal. |
+| **Network locator as admission shortcut** | A network graph supplies raw positions, edge labels, a duplicated position list, or one global tag and is treated as an admitted slice. | Select and verify the E.18.NET-conforming network first, then admit the E.18.3 positions and relation-reference epistemes. Then map to those exact values through the mutually exclusive network locator; otherwise keep the graph provisional. |
 | **Universal P2W parent** | P2W is used as the parent for architecture, narrative, abduction, grounding, and refresh. | Use P2W as a rich transformation-flow family; use CGUS for the shared constraint-governed unfolding structure and direct governing patterns for each family. |
 | **Loop word as improvement** | A retry loop or prompt loop is called improvement. | Open `E.22` and `E.23`; improvement-loop admission depends on an object version, evaluation frame, exact candidate proposal rows, scale-qualified expected evaluation-result changes, one loop-decision value, and re-evaluation. |
 | **README route authority** | A public practical-use card is treated as a fixed FPF procedure. | Return to its `E.11` card expansion and express each continuation through its condition, direct pattern, exact first result, and stop or return boundary. If the explanation claims one wider conditional structure, keep it as `ProvisionalUnfoldingDemonstrationDescription@Context` until A.22.CGUS admission; only then may a separate `DemonstrativeUnfoldingSlice@Context` show one traversal. |
@@ -34971,9 +35015,9 @@ As of 2026-07-11, OCPQ supplies the current research comparator for typed multi-
 
 Specializes: the `A.22` use of `U.Structure` when the selected structure is `ConstraintGovernedUnfoldingStructure@Context` and its typed positions, exact referenced relations, cross-position constraints, preserved structures, C.33 adequacy notes, admissible next-form kinds, and direct governing-pattern exits are current.
 
-Specialized by: `E.18.3` for transformation-flow unfolding structures, and by local blocks in `E.18.1`, `C.32.P2S`, `B.5.2`, `A.6.3.NAR`, `E.23`, `C.13`, `B.3.5`, and `C.3` when their admission tests pass.
+Specialized by: `E.18.3` for transformation-flow unfolding structures, including admitted positions and relation-reference epistemes cited by a network demonstration locator; and by local blocks in `E.18.1`, `C.32.P2S`, `B.5.2`, `A.6.3.NAR`, `E.23`, `C.13`, `B.3.5`, and `C.3` when their admission tests pass.
 
-Coordinates with: `E.11` for public practical-use card expansions, ordinary walkthroughs, and admitted CGUS-demonstrative walkthroughs, `E.10.MOVE` and `C.2.P.DR` for lexical and declarative-representation repair, `C.18`, `C.19`, and `G.5` for archive, front, live-pool, and selected-set claims, `G.11` for currentness and refresh claims, and `E.17` for publication of provisional descriptions or admitted demonstrative slices.
+Coordinates with: `E.18` for the complete one-TFS locator triple, `E.18.NET` for one selected E.18.NET-conforming TFS network and member paths, `E.11` for public practical-use card expansions, ordinary walkthroughs, and admitted CGUS-demonstrative walkthroughs, `E.10.MOVE` and `C.2.P.DR` for lexical and declarative-representation repair, `C.18`, `C.19`, and `G.5` for archive, front, live-pool, and selected-set claims, `G.11` for currentness and refresh claims, and `E.17` for publication of provisional descriptions or admitted demonstrative slices.
 
 Does not replace: `A.3.1`, `A.3.2`, `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, `C.30`, `C.32.PAD`, `C.32.ADR`, `C.29`, `G.11`, or any direct governing pattern for stronger claims.
 
@@ -39469,7 +39513,7 @@ For early language-state routing, `Observe` does not have to jump directly into 
 ## B.4.1 - Observe -> Notice -> Stabilize -> Route
 
 > **Type:** Architectural (A)
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Observe-to-route seam.
@@ -61863,13 +61907,13 @@ Neighboring claims stay with their governing patterns: `C.30` for grounded archi
 > **Normativity:** Normative unless explicitly marked informative
 > **Tech-name:** `ArchitectureTransformationFlowStructureRelation` (relation record)
 > **Plain-name:** architecture transformation-flow structure relation
-> **Governed object:** the architecture-side relation from `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional architecture-description use to one selected `TransformationFlowStructure` under `E.18`.
+> **Governed object:** the architecture-side relation from `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional architecture-description use to one selected `TransformationFlowStructure` under `E.18` or one selected `TransformationFlowStructureNetwork` under `E.18.NET`.
 
 ### C.30.TFS-REL:1 - Problem frame
 
-Use this pattern when an architecture discussion depends on a selected `TransformationFlowStructure`, its path, path slice, crossing, flow valuation, edition pin, plane pin, context pin, no-hidden-scalarization claim, or mathematical description.
+Use this pattern when an architecture discussion depends on a selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, path slice, crossing, flow valuation, edition pin, plane pin, context pin, no-hidden-scalarization claim, or mathematical description of the selected flow structure.
 
-The first useful move is small. `ArchitectureTransformationFlowStructureRelation@Context` is a C.30-side relation record for a relation being used between `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use and the E.18 selected transformation-flow structure being used for architecture work. It names the architecture locus, selected structure or view reference when used in the relation, conditional description reference when durable description use is being made, any functional structure view, view-local functional element record, functional behavior, transformer-side filler, candidate bearer, input condition, output condition, functional port, E.18 selected structure, mathematical description, math-lens use, correspondence, publication or edition used by an extracted or generated graph when current, extraction or probe locus, relation observation class, unexplored region, hidden relation-structure return condition, and admissible architecture use that changes the relation.
+The first useful move is small. `ArchitectureTransformationFlowStructureRelation@Context` relates one named architecture locus to the selected E.18 TFS or E.18.NET network used in the architecture question. It names the architecture claim, selected structure or view, conditional description use, relevant functional and flow refs, mathematical or publication source when current, correspondence, hidden-structure return, admissible use, and—when a network is selected—whether one named containing holon or several explicitly named holons supply the architecture side.
 
 ```text
 ArchitectureTransformationFlowStructureRelation@Context:
@@ -61887,6 +61931,12 @@ outputConditionRefs?:
 functionalPortRefs?:
 transformationFlowStructureViewRef?:
 transformationFlowStructureRef?:
+transformationFlowStructureNetworkRef?:
+networkCrossFlowRelationRowRefs[]?: E.18.NET NetworkCrossFlowRelationRowRef
+networkArchitectureUseBranch?: namedContainingHolon | explicitInterHolon
+containingArchitectureClaimRef?:
+participatingArchitectureClaimRefs[]?:
+noArchitectureOfNetworkBearerAsserted?:
 transformationFlowUnfoldingStructureRef?:
 selectedPathOrSliceRefs?:
 crossingBundleRefs?:
@@ -61903,36 +61953,36 @@ admissibleUse:
 nonAdmissibleUse:
 ```
 
-Ordinary minimum: name at least one architecture-side reference (`architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, or `architectureDescriptionRef` when durable description use is being made), at least one E.18-side reference (`transformationFlowStructureRef`, `transformationFlowUnfoldingStructureRef`, `selectedPathOrSliceRefs`, `crossingBundleRefs`, or `flowValuationRefs`), one blocked overread, and stop or governing-pattern application. Use functional-structure, functional-element, functional-behavior, transformer-side filler, candidate-bearer, input-condition, output-condition, functional-port, transformation-flow-structure, transformation-flow unfolding structure, mathematical-description, math-lens-use, crossing, flow-valuation, correspondence, publication-or-edition, extraction-or-probe, observation-class, unexplored-region, and hidden-relation return fields only when they change the next architecture move. All other fields are conditional and may be `not used`.
+Ordinary minimum: name at least one architecture-side reference (`architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, `architectureDescriptionRef` when durable description use is being made, `containingArchitectureClaimRef`, or `participatingArchitectureClaimRefs[]`), at least one flow-structure reference (`transformationFlowStructureRef`, `transformationFlowStructureNetworkRef`, `transformationFlowUnfoldingStructureRef`, `selectedPathOrSliceRefs`, `crossingBundleRefs`, or `flowValuationRefs`), one blocked overread, and stop or governing-pattern application. A network use also selects exactly one network architecture-use branch and supplies its required architecture claim refs. Use the remaining conditional fields only when they change the next architecture move; otherwise mark them `not used`.
 
-Use this relation only when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, functional-architecture view, transformation-flow-structure claim, or conditional architecture-description use depends on an E.18 selected structure, path, crossing, or valuation relation. Stop when the architecture-to-transformation-flow relation and non-admissible uses are clear. If another claim is being made, that claim is governed by its governing pattern and this relation remains only the architecture-to-transformation-flow relation.
+Use this relation only when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, functional-architecture view, transformation-flow-structure claim, or conditional architecture-description use depends on an E.18 TFS, an E.18.NET network, or one of the selected TFS's paths, crossings, or valuations. Stop when that architecture-to-flow-structure relation and its non-admissible uses are clear. If another claim is being made, apply its governing pattern and keep this record to the architecture relation.
 
 What goes wrong if this pattern is missed: a transformation-flow diagram, graph-shaped mathematical description, path slice, or flow valuation becomes functional architecture, whole architecture ontology, performed-work occurrence, work-result record, evidence, gate passage, or project decision by appearance.
 
-What this buys in practice: the practitioner can use E.18 for selected transformation-flow structure while C.30 remains the grounded architecture and selected-structure adequacy locus and C.30.ASV remains the architecture-structural-view locus.
+What this buys in practice: the practitioner can use E.18 for one TFS or E.18.NET for one network while C.30 remains the grounded architecture and selected-structure adequacy locus and C.30.ASV remains the architecture-structural-view locus.
 
-Not this pattern when the question under repair is a selected transformation-flow structure, mathematical description, path, crossing, or flow valuation without a relation being used for grounded architecture adequacy, conditional architecture-description use, or an architecture structural view. Use E.18 directly for the selected structure. Use E.18.2 when the mathematical-description claim is current and C.29 when the math-lens-use claim is current. If the question under repair is an architecture claim or durable architecture description without a transformation-flow-structure relation, use C.30. If it is a functional view without transformation-flow relation, use C.30.ASV and A.6.F. If another claim being made is present, use the governing pattern and keep C.30.TFS-REL only to the architecture-to-transformation-flow relation.
+Not this pattern when the question is only the TFS or network, a mathematical description, path, crossing, or flow valuation and no architecture relation is being claimed. Use E.18 for one TFS, E.18.NET for one network, E.18.2 for its mathematical description, and C.29 when mathematical-lens use is current. Use C.30 for an architecture claim or durable architecture description without this flow-structure relation; use C.30.ASV and A.6.F for a functional view without it. Apply any other claim's governing pattern and keep C.30.TFS-REL only to the architecture relation.
 
 ### C.30.TFS-REL:2 - Problem
 
-Grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions often need E.18 objects when they discuss transformation-flow structure, functional dependencies, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
+Grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions often need E.18 TFS objects or one E.18.NET network when they discuss transformation-flow structure, functional dependencies, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
 
-C.30.TFS-REL prevents collapse by requiring the selected architecture-side reference, such as `ArchitectureOf@Context`, structure ref, structural view, or conditional description use, before any E.18-governed selected transformation-flow structure, path, slice, crossing, or valuation gets architecture use.
+C.30.TFS-REL prevents collapse by requiring the selected architecture-side reference before any E.18 TFS, E.18.NET network, path, slice, crossing, or valuation receives architecture use. A network additionally needs the containing-holon or explicit inter-holon branch; its graph or record cannot supply that branch.
 
 ### C.30.TFS-REL:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Transformation-flow relation vs architecture takeover | E.18 selected transformation-flow structure, path, or crossing relation can be essential, but it does not become all architecture ontology. |
+| Transformation-flow relation vs architecture takeover | One E.18 TFS, one E.18.NET network, or a selected path or crossing can be essential, but none becomes all architecture ontology or an unnamed characteristic bearer. |
 | Functional view vs transformation-flow view | A functional structure view may need a transformation-flow relation, but a path, crossing, valuation, or mathematical description is not a functional element by itself. |
 | Structure precision vs work overread | E.18 gives selected structure, path, and flow-valuation objects; work occurrence and work results remain outside this relation unless their own pattern governs the claim being made. |
 | No-hidden-scalarization vs architecture scoring | E.18 set-return and no-hidden-scalarization discipline can inform architecture reasoning, but it does not become a general architecture score. |
 | Small relation vs unneeded non-architecture apparatus | A project often needs one relation record, not a full C.29 lens card, evidence relation, assurance case, or decision record. |
-| E.18 stability vs C.30 integration | An architecture claim, selected transformation-flow structure, architecture structural view, or conditional architecture-description use needs a relation to E.18 without rewriting E.18 as generic architecture adequacy theory. |
+| Flow-structure-owner stability vs C.30 integration | An architecture claim, selected flow structure, architecture structural view, or conditional architecture-description use needs a relation to E.18 for one TFS or E.18.NET for one network without rewriting either owner as generic architecture adequacy theory. |
 
 ### C.30.TFS-REL:4 - Solution
 
-C.30.TFS-REL is the C.30 entry relation to E.18 when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, or conditional architecture description uses selected `TransformationFlowStructure`, path, crossing, or flow-valuation objects as an architecture-relevant transformation-flow relation.
+C.30.TFS-REL is the C.30 entry relation to E.18 and E.18.NET when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, or conditional architecture description uses one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, crossing, or flow valuation as an architecture-relevant transformation-flow relation.
 
 It supplies only the architecture-to-transformation-flow relation:
 
@@ -61952,6 +62002,12 @@ ArchitectureTransformationFlowStructureRelation@Context ::= {
   functionalPortRefs?,
   transformationFlowStructureViewRef?,
   transformationFlowStructureRef?,
+  transformationFlowStructureNetworkRef?,
+  networkCrossFlowRelationRowRefs[]?: E.18.NET NetworkCrossFlowRelationRowRef,
+  networkArchitectureUseBranch?,
+  containingArchitectureClaimRef?,
+  participatingArchitectureClaimRefs[]?,
+  noArchitectureOfNetworkBearerAsserted?,
   transformationFlowUnfoldingStructureRef?,
   selectedPathOrSliceRefs?,
   crossingBundleRefs?,
@@ -61969,13 +62025,14 @@ ArchitectureTransformationFlowStructureRelation@Context ::= {
 }
 ```
 
-At least one architecture-side field and at least one E.18-side field must be named by value. Optional fields stay `not used` unless they change inspection, correspondence, hidden relation-structure return, governing-pattern application, or stop.
+At least one architecture-side field and at least one E.18 or E.18.NET field must be named by value. Network branch fields obey `C.30.TFS-REL:4.4a`; other optional fields stay `not used` unless they change inspection, correspondence, hidden relation-structure return, governing-pattern application, or stop.
 
 #### C.30.TFS-REL:4.1 - Use trigger
 
-Use this pattern only when a `ArchitectureOf@Context` claim being made, selected architecture-relevant structure, architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription@Context` use depends on one or more E.18 objects:
+Use this pattern only when an `ArchitectureOf@Context` claim being made, selected architecture-relevant structure, architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription@Context` use depends on one or more E.18 or E.18.NET objects:
 
 - `TransformationFlowStructureRef`;
+- `TransformationFlowStructureNetworkRef`, when architecture use selects an E.18.NET-conforming network;
 - `PathId` or `PathSliceId`;
 - `CrossingBundleRef`;
 - flow valuation over the `U.Transfer` relation;
@@ -61984,7 +62041,7 @@ Use this pattern only when a `ArchitectureOf@Context` claim being made, selected
 - correspondence between functional structure and transformation-flow structure;
 - generated or extracted relation graph used as candidate input for the architecture-to-transformation-flow relation.
 
-If the sentence only says that work occurred, use A.15 or the governing work pattern. If the sentence only says that a selected transformation-flow structure exists, use E.18. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
+If the sentence only says that Work occurred, use A.15 or the governing Work pattern. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
 
 Use `transformationFlowUnfoldingStructureRef?` only when the architecture relation depends on an `E.18.3` transformation-flow unfolding structure: the selected E.18 structure is being unfolded toward next architecture, decision, work, feedback, narrative, or refresh uses under constraints and direct exits. Generic architecture use of a constraint-governed unfolding structure belongs in `C.32.P2S` or the direct C.30 architecture governing pattern; this pattern keeps only the architecture-to-transformation-flow relation.
 
@@ -62022,6 +62079,8 @@ nonAdmissibleUse:
 
 Use this note when the practitioner needs to see whether the function-to-transformation-flow relation changes inspection, split, relation-making, downgrade, claim-governance assignment named by value, candidate generation, or stop. Use C.30.ASV for the functional structure view, A.6.F for function-like wording recovery, A.3.4 for bounded transformation and transformer slots, A.6.M for module-allocation claims and module-correspondence claims, and E.18 for selected transformation-flow structure.
 
+`FunctionTransformationFlowRelationNote` is the one-TFS form. When architecture use selects a network, use the top-level `ArchitectureTransformationFlowStructureRelation@Context` and the branch in `C.30.TFS-REL:4.4a`. Name a member TFS in this note only when the function correspondence is actually to that member; membership in the selected network alone does not create a function correspondence.
+
 When several transformation-flow variants are kept or compared as candidate architecture inputs, keep each selected transformation-flow structure, path, crossing, valuation, graph-shaped expression, or mathematical description under `E.18`, `E.18.2`, and this relation. Apply `C.32` only to the architecture candidate palette that uses those selected structures. The graph, path, and flow description does not become architecture adequacy, evidence, assurance, gate passage, selected-set publication, or decision by serving as a candidate input.
 
 #### C.30.TFS-REL:4.3 - Claim-kind applications named by value
@@ -62048,6 +62107,27 @@ For an E.18-governed selected `TransformationFlowStructure` used by `Architectur
 Grounded architecture adequacy and conditional architecture-description use are governed by C.30. E.18 supplies selected transformation-flow structure objects and relations; it does not define all architecture structure kinds.
 
 This is the named E.18 selected-structure boundary statement for this relation. It is not a second E.18 source of truth and does not depend on a section number staying stable.
+
+#### C.30.TFS-REL:4.4a - Architecture use of a transformation-flow structure network
+
+First ask whether one exact `ArchitectureOf@Context` claim for a named holon includes the selected network in `structureRefs`. If it does not, ask whether the architecture question relies on claims for several named holons while no containing holon has been grounded. Select exactly one branch; a connected diagram does not answer either question.
+
+1. **Named containing-holon use.** Set `networkArchitectureUseBranch=namedContainingHolon`. Name exactly one `containingArchitectureClaimRef: ArchitectureOf@Context` whose `describedHolonRef` identifies the containing holon and whose `structureRefs` include the same exact `transformationFlowStructureNetworkRef`; keep `participatingArchitectureClaimRefs[]` and `noArchitectureOfNetworkBearerAsserted` absent. Member TFS values and their Work, valuations, boundaries, and direct relations remain independently governed.
+2. **Explicit inter-holon use.** Set `networkArchitectureUseBranch=explicitInterHolon`. Put at least two exact `ArchitectureOf@Context` claims with distinct `describedHolonRef` values in `participatingArchitectureClaimRefs[]`. Include exactly the claims whose selected structures or architecture characteristics this inter-holon question relies on; a network member whose architecture is not used by the question stays outside this array. Keep `containingArchitectureClaimRef` absent and set `noArchitectureOfNetworkBearerAsserted=true`. This states an architecture relation question spanning the named holons; it does not invent a holon or an `ArchitectureOf@Context` claim whose bearer is the network.
+
+Every other populated architecture-side reference must agree with the selected branch. In `namedContainingHolon`, `architectureClaimRef` when present equals `containingArchitectureClaimRef`, each value in `selectedArchitectureStructureRefs` is selected by that claim, and each architecture structural view, architecture description, or functional structure view used by this relation points through that claim. In `explicitInterHolon`, each such reference points through one named participating claim; a singular reference names only that participant and does not imply a containing architecture. If a reference depends on another architecture claim, add that claim as a participant only when the current question actually relies on it, or use a separate relation record.
+
+The branches are mutually exclusive. When `transformationFlowStructureNetworkRef` is absent, `networkCrossFlowRelationRowRefs[]` and all network branch fields are absent. A network ref without one complete branch is not ready for architecture use. When the record also names a path, slice, crossing, or valuation, bind it to the exact member TFS and the local positions or bindings that own it. When it names a network-aware unfolding, that E.18.3 locator must select the same exact network and preserve its admitted position mappings. The network ref does not lift member-local values into network-global state.
+
+Use `networkCrossFlowRelationRowRefs[]` only for E.18.NET-owned composite locators. Each locator's current containing record must describe the same exact selected network, and the occurrence plus complete ordered endpoint-binding identity must resolve exactly one nested row. Zero matches, several matches, or a record for a different network stop this architecture use. The locator identifies the row; it neither creates the relation occurrence nor changes its direct governor.
+
+For every maintainability, capability, responsibility, production, safety, or other architecture-characteristic claim made or used by this relation, name the exact holon, `ArchitectureOf@Context` claim, selected structure, view, relation, or other bearer governed by C.30. A network may have selected structural facts, such as its members, relations, recursion, or exposed positions; those facts do not make an unnamed network the bearer of holon characteristics, agency, Work, or production.
+
+A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord@Context` is neither branch and does not enter architecture identity. It may describe the selected network only under its description or publication pattern.
+
+**Named containing-holon case.** `ArchitectureOf@ManufacturingPlatform` names the manufacturing platform as `describedHolonRef` and includes one product-development/production-system-change network in `structureRefs`. C.30.TFS-REL may use that network to localize an architecture change while each member TFS and production relation keeps its own owner.
+
+**Explicit inter-holon case.** A supplier architecture claim and a plant architecture claim use one selected E.18.NET-conforming supply-linked TFS network to inspect a cross-company dependency. Both claims appear in `participatingArchitectureClaimRefs[]`; no containing supply-chain holon has been grounded, so `noArchitectureOfNetworkBearerAsserted=true`. The network is not called the architecture of an unnamed enterprise.
 
 #### C.30.TFS-REL:4.5 - Worked slices
 
@@ -62120,27 +62200,29 @@ Near miss: if the selected transformation-flow structure has no C.30-side archit
 
 Lower, narrow, or reopen the relation at the smallest changed locus when:
 
-- E.18 selected structure, path, crossing, or flow-valuation semantics change;
+- E.18 one-TFS structure, path, crossing, or flow-valuation semantics change;
+- E.18.NET network identity, direct membership, exposed positions, exact cross-member relations, or nested-row locator resolution changes;
+- the selected network architecture branch or any containing or participating architecture claim used by that branch changes;
 - edition, plane, context pin, set-return, or no-hidden-scalarization discipline changes;
 - source publication or graph edition, path slice, relation observation class, edition or context pin, unexplored region, or hidden relation-structure return condition changes;
 - the C.30 architecture locus, selected architecture-relevant structure, architecture structural view, conditional architecture description, or C.30.ASV relation changes;
 - functional-to-transformation-flow correspondence changes;
 - a non-flow claim is being made and is governed by `C.30.TFS-REL:4.3` rather than by this relation;
-- C.29, C.16, C.28, A.10, G.6, B.3, A.20, A.21, A.15, C.30, C.30.ASV, A.6.F, C.30.STRAT, or E.18 changes the governing boundary used by the relation.
+- C.29, C.16, C.28, A.10, G.6, B.3, A.20, A.21, A.15, C.30, C.30.ASV, A.6.F, C.30.STRAT, E.18, or E.18.NET changes the governing boundary used by the relation.
 
-Admissible repair results are: update the affected reference, add or change correspondence, add or change the hidden relation-structure return condition, narrow admissible use, keep the selected-structure claim inside E.18, keep the mathematical-description claim inside E.18.2, keep the math-lens-use claim inside C.29, apply the governing pattern to a non-flow claim, lower to quote-only or reduced-use cue, or block the architecture-to-transformation-flow use.
+Admissible repair results are: update the affected TFS or network reference, network branch, or row locator; add or change correspondence or the hidden relation-structure return condition; narrow admissible use; keep the one-TFS claim inside E.18 and the network claim inside E.18.NET; keep the mathematical-description claim inside E.18.2; keep the math-lens-use claim inside C.29; apply the governing pattern to a non-flow claim; lower to quote-only or reduced-use cue; or block the architecture-to-transformation-flow use.
 
 ### C.30.TFS-REL:5 - Archetypal Grounding
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner sees a flow diagram, path, or graph-shaped expression and wants to use it for a grounded architecture claim, selected architecture-relevant structure, architecture structural view, or conditional architecture description. C.30.TFS-REL asks whether a selected E.18 transformation-flow relation is current for the selected architecture locus, and names its non-admissible uses. |
+| Tell | A practitioner sees one TFS or several connected TFSs and wants to use that flow structure in an architecture question. C.30.TFS-REL makes them name the exact TFS or network and the architecture locus; for a network, they choose one containing claim or the exact participating claims. The result is one usable architecture relation or an exact stop, not an architecture claim inferred from the diagram. |
 | Show: `U.System` | A software system, plant, AI agent, neural network, vehicle, or supply chain may have transformation-flow structure. A diagram or mathematical description can inform architecture reasoning about that structure without carrying the non-flow claims named in `C.30.TFS-REL:4.3`. |
-| Show: `U.Episteme` | A mathematical graph description, generated relation graph, code-agent probe, neural-network diagram, dashboard, or architecture note is an episteme, view, or publication. It can publish or substantiate the transformation-flow relation only when its E.18 object, context pins, correspondence, hidden relation-structure return condition, and admissible use are recoverable. |
+| Show: `U.Episteme` | A mathematical graph description, generated relation graph, code-agent probe, neural-network diagram, dashboard, or architecture note is an episteme, view, or publication. It can publish or substantiate the transformation-flow relation only when the exact E.18 TFS or E.18.NET network, the selected network architecture branch when applicable, context pins, correspondence, any relied-on row locator, hidden relation-structure return condition, and admissible use are recoverable. |
 
 ### C.30.TFS-REL:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-to-transformation-flow relations using E.18 objects.
+Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-to-transformation-flow relations using E.18 TFS or E.18.NET network objects.
 
 | Bias risk | Mitigation |
 | --- | --- |
@@ -62156,23 +62238,27 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
-| **CC-C30TFR-1 E.18 object.** | The relation names the E.18 selected transformation-flow structure, path, slice, crossing, or flow valuation object it uses. | Add the E.18 object reference named by value or use C.30 or C.30.ASV without this relation. |
-| **CC-C30TFR-2 Architecture locus.** | The relation names `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use it relates to. | Add `architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, or `architectureDescriptionRef` when durable description use is being made; otherwise keep the selected-structure claim inside E.18, the mathematical-description claim inside E.18.2, or the math-lens-use claim inside C.29. |
+| **CC-C30TFR-1 Flow-structure object.** | The relation names the exact E.18 TFS, E.18.NET network, path, slice, crossing, or flow valuation object it uses. | Add the exact E.18 or E.18.NET reference named by value, or use C.30 or C.30.ASV without this relation. |
+| **CC-C30TFR-2 Architecture locus.** | The relation names `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use it relates to. | Add `architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, `architectureDescriptionRef`, `containingArchitectureClaimRef`, or `participatingArchitectureClaimRefs[]` as the selected use requires; otherwise keep the TFS or network claim with E.18 or E.18.NET, the mathematical-description claim with E.18.2, or the math-lens-use claim with C.29. |
 | **CC-C30TFR-3 Functional and flow separation.** | Functional structure and transformation-flow structure remain separate unless correspondence or positive selected-structure co-reference is declared. | Add `FunctionTransformationFlowRelationNote`, add the co-reference check, or remove the functional-architecture claim from the flow sentence. |
-| **CC-C30TFR-4 No architecture takeover.** | The selected transformation-flow structure or its mathematical description is not treated as generic architecture ontology or all architecture structure kinds. | Assign grounded architecture claims, selected architecture-relevant structures, or conditional architecture-description use to C.30 and keep this pattern to the architecture-to-transformation-flow relation. |
-| **CC-C30TFR-5 No work overread.** | A selected structure, path, or slice is not treated as work occurrence or work result. | Assign the work claim to A.15 or the governing work-result pattern. |
+| **CC-C30TFR-4 No architecture takeover.** | The selected transformation-flow structure, network, or mathematical description is not treated as generic architecture ontology or all architecture structure kinds. | Assign grounded architecture claims, selected architecture-relevant structures, or conditional architecture-description use to C.30 and keep this pattern to the architecture-to-transformation-flow relation. |
+| **CC-C30TFR-4a Network architecture branch.** | A network use selects exactly one branch. The containing branch has one `ArchitectureOf@Context` claim whose `structureRefs` include the exact network, and every other architecture-side ref agrees with that claim. The inter-holon branch has every architecture claim this question actually relies on, no containing claim, and `noArchitectureOfNetworkBearerAsserted=true`; a singular participant ref never implies a containing architecture. | Complete one branch, remove or reroute a conflicting architecture-side ref, add a participating claim only when the current question relies on it, or keep the network claim under E.18.NET without architecture use. |
+| **CC-C30TFR-4b Named characteristic bearer and representation boundary.** | Every architecture characteristic claimed or used by this relation remains on an exact named bearer, and no graph, mathematical description, publication, or network record becomes the architecture claim or its bearer. | Name the holon, architecture claim, selected structure, view, relation, or other C.30-governed bearer; demote the representation to its description or publication use. |
+| **CC-C30TFR-4c Member-local, unfolding, and row-reference boundary.** | Every path, slice, crossing, or valuation named with a network remains bound to its exact owning member TFS and local positions or bindings; a network-aware unfolding selects that same network through its E.18.3 locator; and every `NetworkCrossFlowRelationRowRef` resolves exactly one row in a current record for that network without replacing the obtaining relation occurrence. | Restore the member-local binding or network-locator match; repair or remove a row locator that resolves zero or several rows or points to another network; keep occurrence truth with its direct governor. |
+| **CC-C30TFR-5 No work overread.** | A selected TFS, network, path, or slice is not treated as work occurrence or work result. | Assign the work claim to A.15 or the governing work-result pattern. |
 | **CC-C30TFR-6 No evidence, assurance, or gate overread.** | The relation is not used as evidence sufficiency, assurance claim, gate decision, or release permission without evidence named by value, assurance, gate, or release pattern application. | Assign the claim being made to A.10, G.6, B.3, A.20, A.21, or the release locus named by value when a release claim is being made. |
 | **CC-C30TFR-7 Causal and mathematical boundaries.** | Causal or intervention claims and mathematical-lens claims are assigned to C.28 and C.29. | Apply those governing patterns or narrow the relation's admissible use. |
 | **CC-C30TFR-8 Pin and scalarization boundary.** | Edition, context, and plane pins plus no-hidden-scalarization claims remain E.18-governed. | Add E.18 pin and set-return references or remove the comparison or selection claim. |
 | **CC-C30TFR-9 Hidden relation return.** | Extracted, generated, coarsened, or partial relation graphs or flow diagrams state the source publication or edition, extraction or probe locus, relation observation class, unexplored regions, and hidden relation-structure return condition when hidden distinctions affect action. | Add the missing relation-structure fields or narrow the admissible use. |
-| **CC-C30TFR-10 Useful action.** | The repair leaves a remaining use: name selected structure, path, or crossing relation; add correspondence; return to source; assign the claim being made to a governing pattern; or stop. | Restore that use, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
-| **CC-C30TFR-11 Lowering and currentness.** | The relation states the smallest changed locus when E.18 semantics or pins, relation observation class, architecture locus, correspondence, hidden relation-structure return, or related governing boundary changes. | Update the affected reference, narrow admissible use, keep the selected-structure claim inside E.18, keep the mathematical-description claim inside E.18.2, keep math-lens use inside C.29, apply the governing pattern to the non-flow claim, lower the relation, or block architecture-to-transformation-flow use. |
+| **CC-C30TFR-10 Useful action.** | The repair leaves a remaining use: name the selected TFS, path, or crossing; choose the containing or inter-holon branch for a selected network; add correspondence; return to source; assign the claim being made to a governing pattern; or stop. | Restore that use, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+| **CC-C30TFR-11 Lowering and currentness.** | The relation states the smallest changed locus when E.18 TFS semantics or pins, E.18.NET network identity or relations, the selected network branch or architecture claims, a relied-on row locator, relation observation class, architecture locus, correspondence, hidden relation-structure return, or related governing boundary changes. | Update the affected TFS or network reference, branch, architecture claim, or row locator; narrow admissible use; keep the TFS or network claim inside E.18 or E.18.NET; keep the mathematical-description claim inside E.18.2; keep math-lens use inside C.29; apply the governing pattern to the non-flow claim; lower the relation; or block architecture-to-transformation-flow use. |
 
 ### C.30.TFS-REL:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | **Structure-as-architecture** | The E.18 selected transformation-flow structure is called the whole architecture. | Use C.30 for the grounded architecture claim, selected architecture-relevant structure, or conditional architecture description, and keep this relation only for the transformation-flow relation. |
+| **Unnamed network as architecture bearer** | A connected network or its graph is assigned maintainability, capability, responsibility, agency, or production without one containing holon or explicit participating architecture claims. | Select the named-containing-holon branch or the explicit inter-holon branch, restore every characteristic to a named bearer, and keep the graph or record outside architecture identity. |
 | **Graph-description-as-functional-architecture** | A graph-shaped mathematical description or diagram is treated as the functional architecture itself. | Split functional structure, selected transformation-flow structure, mathematical description, and publication face; add correspondence when needed. |
 | **Flow-as-work-log** | Path or slice wording is treated as work occurrence. | Assign occurrence or result claims to A.15 or P2W and keep E.18 to selected structure, path, slice, or valuation. |
 | **Crossing-as-gate-result** | A crossing relation is treated as gate passage. | Assign gate-decision claims to A.21 and keep crossing relation under E.18. |
@@ -62184,14 +62270,14 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| E.18 selected structure, path, crossing, and flow-valuation discipline becomes usable for grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions. | A conforming use names the C.30 architecture record, selected structure ref, C.30.ASV structural-view reference, or conditional architecture-description ref that uses the transformation-flow relation. |
+| E.18 TFS paths, crossings, and valuations and E.18.NET network structure become usable across grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions without merging their owners. | Every use names the exact C.30 architecture claim or relation record, selected architecture-relevant structure, C.30.ASV structural-view ref, or conditional architecture-description ref. A network use also names either one containing architecture claim or all participating architecture claims and keeps every characteristic on a named bearer. |
 | Functional structure and transformation-flow structure stay separable unless positive co-reference is declared. | Concise "the diagram is the architecture" prose is repaired before it is used for an FPF claim kind or admissible-use boundary. |
 | Non-flow claim kinds are assigned to their governing patterns. | More governing patterns are named when practitioners try to overuse the diagram, mathematical expression, or selected structure. |
 | The E.18 selected-structure boundary statement stays narrow. | Generic architecture adequacy remains outside E.18. |
 
 ### C.30.TFS-REL:10 - Rationale
 
-E.18 is the governing FPF pattern for selected transformation-flow structures, paths, crossings, flow valuations, and related pins. Architecture needs to use that work without letting it become generic architecture ontology. The smallest stable relation is therefore a C.30-side record that points to E.18 objects and states admissible and non-admissible architecture use.
+E.18 governs one selected TFS, its paths, crossings, valuations, and pins; E.18.NET governs one selected network and its exact cross-member relations. Architecture needs to use either object without taking over its ontology or inventing an unnamed architecture bearer. The smallest stable result is therefore one C.30-side relation record that points to those objects and states the containing-holon or inter-holon architecture use when a network is selected.
 
 This pattern also protects functional architecture. A functional structure view may correspond to a transformation-flow structure, and in some cases both may refer to the same selected `U.StructureRef`; that identity is not automatic. The relation is useful precisely because it preserves the difference while allowing correspondence or positive co-reference.
 
@@ -62199,21 +62285,21 @@ This pattern also protects functional architecture. A functional structure view 
 
 | Practice or reference line | C.30.TFS-REL adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
-| E.18 transformation-flow structure, path, crossing, and flow-valuation discipline | Adopt E.18 as the governing source for selected structure, path, crossing, and valuation objects. | The pattern names E.18 references rather than redefining flow semantics. | E.18 does not become generic architecture ontology or architecture-description ontology. |
+| E.18 one-TFS discipline and E.18.NET network discipline | Adopt E.18 as the owner of one TFS, its paths, crossings, and valuations; adopt E.18.NET as the owner of one selected network, member-local references, and exact cross-member relations. | The pattern names the exact TFS or network, then adds only the C.30 architecture locus and selected network branch. | Neither flow-structure owner becomes generic architecture ontology or architecture-description ontology. |
 | ISO/IEC/IEEE 42010:2022 and multi-view architecture practice | Adapt view and correspondence discipline to architecture-to-transformation-flow reliance. | Transformation-flow views relate to grounded architecture claims, selected architecture-relevant structures, architecture structural views, or conditional architecture descriptions through C.30, C.30.ASV, and correspondence refs. | Architecture views do not become proof, evidence, gates, or decisions. |
 | MBSE and SysML v2 view and relation practice | Adapt model-derived flow views and path views as description-episteme relations derived from a model publication or model edition. | A model-derived flow view states model edition, selected structure, hidden or lost structure, and admissible use. | Tool models do not override FPF E.18 or C.30 relations. |
 | Neural-network dataflow and GonzoML architecture-operation corpus | Adopt practitioner flow-structure recognition for block replacement, path-selection, memory and cache placement, MoE expert-selection, pruning, distillation, ablation, and compute, memory, and latency tradeoffs. | Keep block, cache, expert, router, gate, and similar words as `C.30.STRAT` source labels until the transformation-flow structure is recovered; C.30.TFS-REL applies only when that recovered structure changes the architecture move. | Benchmarks, ablations, pruning masks, or architecture-search outputs do not become evidence sufficiency, assurance, gate passage, or architecture decision by themselves. |
 | Theory of Code Space and arXiv:2603.00601 code-agent relation graph probing | Adapt relation graphs with relation observation class selected from {observed, inferred, unknown} and partial-observability warnings. | Generated code relation graphs can be used for a transformation-flow relation only with typed relation semantics, source publication or codebase edition pins, extraction or probe locus, unexplored regions, and hidden relation-structure return condition. | Do not mint `U.CodeSpace`; do not treat probe output as internal belief proof, architecture adequacy, assurance, or release evidence or release claim. |
 
-**Currentness boundary.** The inputs to the currentness judgment are E.18 object semantics and pins, C.30 and C.30.ASV architecture-side relation rules, the relation observation class, and the non-flow governing patterns named in `C.30.TFS-REL:4.3`. When one changes, the relation changes only at the affected reference, correspondence, hidden relation-structure return condition, admissible-use boundary, or governing-pattern assignment.
+**Currentness boundary.** The inputs to the currentness judgment are E.18 TFS semantics and pins; E.18.NET network identity, cross-member relations, and row-locator resolution when selected; the chosen network architecture branch and its exact containing or participating claims; C.30 and C.30.ASV architecture-side relation rules; the relation observation class; and the non-flow governing patterns named in `C.30.TFS-REL:4.3`. When one changes, the relation changes only at the affected reference, branch or architecture claim, row locator, correspondence, hidden relation-structure return condition, admissible-use boundary, or governing-pattern assignment.
 
 ### C.30.TFS-REL:12 - Relations
 
-Builds on: `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `E.18`, `E.17`, `E.17.0`, `A.7`, `E.10`, `C.2.P`, and `F.18`.
+Builds on: `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `E.18` for one TFS, `E.18.NET` for one selected conforming network and its exact obtaining cross-member relations, `E.17`, `E.17.0`, `A.7`, `E.10`, `C.2.P`, and `F.18`.
 
 Coordinates with: `C.30.STRAT`, `C.32.P2S` when architecture-to-transformation-flow grounding is one stage of problem-to-structure architecturing, `C.32` when selected transformation-flow variants become candidate architecture inputs, `C.33` when transformation-flow relation descriptions capture or lose selected architecture structure, `C.34` when transformation-flow relation claims must be preserved across a mapping, model, generated output, or realization, `C.35` when a generated or discovered transformation-flow carrier may seed synthesis, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governing patterns when those claims are being made, `A.6.M` module-and-interface repair, `A.6.5` slot discipline, and `A.6.0` when a signature declaration is being made.
 
-Related claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair, `E.18` for selected transformation-flow structure, path, crossing, and flow-valuation discipline, `E.18.2` and `C.29` for mathematical descriptions and lens-use claims, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `C.32.P2S` for connected problem-to-structure carry-through, `A.6.F` for function-use repair, and the non-flow governing patterns named in `C.30.TFS-REL:4.3`. `C.30.TFS-REL` governs only the architecture-to-transformation-flow-structure relation being claimed.
+Related claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair, `E.18` for one selected transformation-flow structure, path, crossing, and flow-valuation discipline, `E.18.NET` for network identity and exact cross-member relations, `E.18.2` and `C.29` for mathematical descriptions and lens-use claims, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `C.32.P2S` for connected problem-to-structure carry-through, `A.6.F` for function-use repair, and the non-flow governing patterns named in `C.30.TFS-REL:4.3`. `C.30.TFS-REL` governs only the architecture use of the selected TFS or TFS network.
 
 ### C.30.TFS-REL:End
 
@@ -63268,7 +63354,7 @@ The pattern adapts BLP-style scale-amenability to architecture: prefer the alter
 ## C.32 - Architecture Candidate Synthesis
 
 > **Type:** Architectural pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32:1 - Problem frame
@@ -63905,7 +63991,7 @@ These rows document transfers from source practice into C.32.P2S. Software-syste
 ## C.32.HCS - Architecture-Bearing Family Characteristic Starter Packs
 
 > **Type:** Architectural characterization subpattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.HCS:1 - Problem frame
@@ -64106,7 +64192,7 @@ C.32.HCS closes when the practitioner can name an architecture-bearing starter p
 ## C.32.ACS - Architecture Characteristic Criteria Set for Improvement Cycles
 
 > **Type:** Architecture characterization pattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.ACS:1 - Problem frame
@@ -64371,7 +64457,7 @@ C.32.ACS closes when the project can name the starter-pack row or source-catalog
 ## C.32.ACE - Architecture Characteristic Eval Programs
 
 > **Type:** Architecture eval-support subpattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.ACE:1 - Problem frame
@@ -64569,262 +64655,404 @@ C.32.ACE closes when the eval program names evaluated criteria, evaluated candid
 
 ### C.32.ACE:End
 
-## C.32.CONWAY - Transformer and Transformed Architecture Correspondence
+## C.32.CONWAY - Architecture-Influence and Transformed-Architecture Correspondence
 
 > **Type:** Architectural subpattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
+> **Tech-name:** `Architecture-Influence and Transformed-Architecture Correspondence`
+> **Plain cue:** compare an architecture that influences the change with the architecture being changed
+> **Lineage and search cue only:** Transformer and Transformed Architecture Correspondence
 
 ### C.32.CONWAY:1 - Problem frame
 
-Use this pattern when a practitioner is synthesizing an architecture for a holon that changes another holon, and the architecture of the changing holon constrains, enables, or degrades the architecture of the holon being changed.
+Use this pattern when one architecture, selected structure, Work arrangement, communication structure, constraint, or candidate-synthesis result influences the candidate architecture of a changed referent, and the practitioner must decide what to change on either side without mistaking influence for action.
 
-Primary working reader: an architect or architecture-responsible practitioner who must co-synthesize selected structures of the changing holon and the changed holon under one changing relation.
+Plain cue: **compare an architecture that influences the change with the architecture being changed**.
 
-Typical entry phrases:
+Primary working reader: an architect or architecture-responsible practitioner who must compare one independently typed influence source with the architecture of the changed referent and prepare candidate changes without turning either architecture into an actor.
 
-```text
-"The product architecture we want cannot be built by the existing manufacturing line."
-"The service boundaries we chose still require every team to coordinate every release."
-"The method family changes documents, but its review roles do not match the evidence structure it must create."
-"The AI-agent toolchain changes project work products, but its control and evidence boundaries do not match the transformed work-product architecture."
-"We need an inverse Conway candidate alternative, not another diagram of the desired transformed-holon architecture."
-```
+Typical entry situations include:
 
-**First-minute use slice.** A product-family team wants independently replaceable field modules. The existing manufacturing and certification organization is built around one batch line and one shared evidence responsibility. Using C.32.CONWAY, the practitioner names the two holons in the changing relation: the manufacturing and certification holon as transformer, and the product family as transformed holon. The C.32 candidate palette now includes three architecture configurations: change the manufacturing cell and evidence roles to match module variation, change the product-family module split to fit the fixed line, or keep a bounded mismatch with a clear exception cost and reopen trigger.
+- a desired product architecture cannot be produced and verified by the current manufacturing and certification arrangements;
+- chosen service boundaries still force every delivery team to coordinate every release;
+- a method family is proposed for changing documents, but the assigned review roles and evidence structure do not fit what the project must produce;
+- an AI-agent toolchain is intended for Work on project products, but its control and evidence boundaries do not fit the changed product architecture; or
+- the project needs a source-side, transformed-side, joint, or bounded-mismatch inverse-Conway candidate rather than another diagram of the desired target.
 
-The primary `EntityOfConcern` is a local correspondence frame inside architecture candidate synthesis. The frame relates selected structures of the changing holon and selected structures of the changed holon under one changing relation. Organization-design decisions, organization-design authority relations, module-interface repair, structural-equivalence claims, and architecture decisions belong to their governing patterns when those claims are being made; C.32.CONWAY may use them only as constraints, costs, or candidate-change inputs.
+A clean-looking target architecture can still be unbuildable or unproducible, untestable, hard to maintain or evolve, or hard to certify. Existing production, communication, approval, control, evidence, and operating arrangements can constrain the candidate and shift coordination into shared releases, approvals, evidence reconciliation, or exception handling. Treat each such arrangement as an independently typed influence source and recover its direct influence relation when that relation is asserted; the source architecture does not act, and mirroring alone does not establish architecture adequacy.
 
-What goes wrong if C.32.CONWAY is missed: the team either treats the existing organization, toolchain, manufacturing line, method family, or communication structure as if it already settled the transformed-holon architecture, or it draws a desired transformed-holon architecture that the changing holon cannot actually produce, test, maintain, evolve, or certify.
 
-What C.32.CONWAY buys in practice: the practitioner can turn Conway pressure and inverse Conway maneuvers into candidate alternatives inside the C.32 palette. An alternative may change the transformer side, the transformed side, both sides, or a bounded mismatch; each variant names gains, losses, affected architecture characteristics, and the receiving pattern.
+Start with the domain action: a manufacturing system builds a product, a compiler compiles a program, a service team changes a service, a clinical team treats a patient, or an instructional system teaches a learner. Identify the changed referent first. Only then name an acting system, role assignment, and dated Work when those facts are current. Separately name the architecture or other source that influences the candidate and the exact relation by which it does so.
 
-Ordinary working move: name the changing holon, the changed holon, the changing relation, and the selected structures on both sides; then prepare alternatives that change the transformer side, the transformed side, both sides, or keep a bounded mismatch.
+**First-minute use slice.** A product-family team wants independently replaceable field modules. It identifies the changed referent as the product-family module boundary, the source as one `ArchitectureOf@ManufacturingAndCertification` with a batch line and shared evidence responsibility, and the transformed side as `ArchitectureOf@ProductFamily` with its current field-module boundary structure. No direct architecture-influence kind or predicate has yet been recovered, so the team keeps the pairing as a provisional independent-change pressure with `missing-governor`. It prepares source-side, transformed-side, joint, and bounded-mismatch candidates without naming an actor, role, or Work occurrence. Those facts are added separately only if a later claim needs them.
 
-Adoption test: after using C.32.CONWAY, the recorded candidate palette states whether each alternative changes the transformer side, the transformed side, both sides, or a bounded mismatch, and what gain, loss, affected characteristic, and stop condition follow.
+The primary working object is a local candidate-synthesis frame. When one exact architecture-influence or correspondence relation already obtains, C.32.CONWAY also owns one reusable `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` episteme about that exact occurrence. The frame, row, changing system, Work, changed referent, architecture claims, candidate palette, and any network that later cites the row remain different objects.
 
-Not this pattern when the current work is only module-interface repair, bounded-transformation identification, work or role assignment without architecture synthesis, mathematical structural similarity, local choice, or project architecture decision.
+What goes wrong if this pattern is missed: an architecture, organization chart, method family, toolchain, communication structure, or network record is called the transformer and silently receives agency, role, Work, or participation in the change. Or the reverse happens: real performer and Work facts disappear behind a vague claim that one architecture shaped another.
+
+What this buys in practice: the practitioner can prepare architecture candidates while preserving four independent questions—what changed, who acted or performed Work, which sources influenced the candidate, and which exact architecture pair the current correspondence row concerns.
+
+Ordinary working move:
+
+1. name the changed referent and exact changing relation when one is being claimed;
+2. name exact acting and performance facts only when current;
+3. name each influence source with its kind and direct influence relation;
+4. select one pair consisting of an influence-source architecture and a transformed architecture;
+5. prepare source-side change, transformed-side change, joint change, or bounded mismatch candidates.
+
+Adoption test: a reader can tell which exact case passes, which does not, what the practitioner changes next, and whether the result is only local synthesis material or a reusable exact pair row.
+
+Not this pattern when the current work is only bounded-change identification, role or Work attribution, module-interface repair, mathematical structural similarity, local choice, or an architecture decision. Use the direct governing pattern and return here only when one pair of an influence-source architecture and a transformed architecture changes candidate synthesis.
 
 Common exits by claim kind:
 
+- `A.3.4` or `A.3.4.P` for the bounded change and changed referent.
+- `A.12`, `A.15.1`, and direct role-relation and Work-relation owners for acting system, role assignment, dated Work, and work-to-change facts.
 - `A.6.M` for module-interface repair.
-- `A.3.4` or `A.3.4.P` for bounded transformation.
-- The A.15 family, `A.2`, or the direct role pattern for work and responsibility.
+- `C.32.ACS` for current architecture-characteristic criteria rows and `C.25` for any composite Q-Bundle and exact slot used by the trade-off.
 - `C.29` and the project-selected structural-equivalence pattern for structural similarity.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
 - `G.5` for selected-set publication; `C.18` and `C.19` for archive, front, or pool-treatment policy.
-- `C.11` for fixed local choice and `C.32.PAD` for project decision.
+- `C.11` for fixed local choice and `C.32.PAD` for a project architecture decision.
 
-The first useful output is `TransformerTransformedArchitectureCorrespondenceFrame@Project`. The frame is the project working record for the correspondence question. It records candidate co-synthesis pressure; it does not make a C.29 structural-equivalence claim, organization-design decision, or new correspondence ontology:
+The first useful output is `ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project`. It is a working record for candidate synthesis, not an acting entity, exact relation occurrence, architecture decision, or structural-equivalence claim.
 
-For a first pass, fill only the bounded context, synthesis question, changing relation, transformer holon, transformed holon, the selected-structure pair that changes the candidate frame, affected architecture characteristics, candidate configurations, and next governing pattern. Add full correspondence claims, C.29 refs, detailed source-return fields, and extra structure pairs only when a receiving comparison, structural-similarity, publication, choice, or decision claim needs them.
+For a first pass, fill only the bounded context, synthesis question, independently identified changed referent, source and transformed architecture refs, one selected structure on each side, either the current governed characteristic refs or plain provisional characteristic heads, the applicable candidate-form heads, and the next governing pattern. Assert an influence row only when its direct relation is current; otherwise keep one explicit provisional pressure in `provisionalArchitectureCharacteristicHeads[]` and its exact return. The first-minute case above can be filled as follows:
 
 ```text
-TransformerTransformedArchitectureCorrespondenceFrame@Project:
+ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
+  boundedContextRef: ProductFamilyModuleChange@2026Q3
+  synthesisQuestion: which source-side, product-side, joint, or bounded-mismatch change can support independently replaceable field modules?
+  changedReferentRef: ProductFamilyFieldModuleBoundary@2026Q3
+  influenceSourceSelectedStructureMap[]:
+    - influenceSourceArchitectureRef: ArchitectureOf@ManufacturingAndCertification
+      structureKindRef: BatchAndEvidenceResponsibilityStructure
+      selectedStructureRef: BatchLineSharedEvidenceStructure@Current
+      contributionToCandidatePressure: may prevent independent field-module replacement
+      architectureCharacteristicPressure: provisional independent-change pressure
+      governingPatternRef: A.22
+      sourceReturnCondition: missing-governor — recover the direct architecture-influence kind and predicate
+  transformedArchitectureRef: ArchitectureOf@ProductFamily
+  transformedHolonRef: ProductFamily@Current
+  transformedSelectedStructureMap[]:
+    - structureKindRef: ModuleBoundaryStructure
+      selectedStructureRef: FieldModuleBoundaryStructure@Current
+      requiredArchitectureRole: permit independent field-module replacement
+      architectureCharacteristicPressure: provisional independent-change pressure
+      governingPatternRef: A.22
+  correspondenceClaims[]:
+    - correspondenceId: BatchEvidence-to-FieldModulePressure
+      influenceSourceArchitectureRef: ArchitectureOf@ManufacturingAndCertification
+      transformedArchitectureRef: ArchitectureOf@ProductFamily
+      influenceSourceSelectedStructureRef: BatchLineSharedEvidenceStructure@Current
+      transformedSelectedStructureRef: FieldModuleBoundaryStructure@Current
+      correspondenceUse: prepare candidates; no exact pair row asserted
+      pressureDirection: batch and evidence arrangements may constrain module independence
+      provisionalArchitectureCharacteristicHeads[]: independent change for field modules
+      receivingPatternRef: C.32.ACS
+      sourceReturnCondition: missing-governor — recover the direct influence kind and predicate
+  candidateArchitectureConfigurations[]:
+    - candidateRef: SourceSideChange@CellAndEvidenceRoles
+    - candidateRef: TransformedSideChange@FieldModuleBoundary
+    - candidateRef: JointChange@CellEvidenceAndModuleBoundary
+    - candidateRef: BoundedMismatch@ExplicitExceptionCost
+  evolutionWindowRef: ProductFamilyModuleChange@2026Q3
+  nextGoverningPatternRef: C.32.ACS
+```
+
+This sparse frame asserts no influence occurrence and no exact pair row. The four candidate refs are first-pass heads, not comparison-ready configurations. Add acting-system, role-assignment, dated-Work, exact-pair-row, C.29, network, publication, comparison-ready gain/loss/preservation, and any additional source-return fields only when the corresponding claim becomes current; adding them refines this frame without changing its changed referent, architecture pair, or provisional pressure. The complete extension schema is:
+
+```text
+ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureCorrespondenceFrameProjectUseRelationRef?: U.RelationRef governed by the exact synthesis-use or work-use pattern
   boundedContextRef:
   synthesisQuestion:
-  changingRelationRef:
-  transformerHolonRef:
-  transformedHolonRef:
-  transformerArchitectureRef?:
-  transformedArchitectureRef?:
-  transformerSelectedStructureMap:
-    - structureKindRef:
-      selectedStructureRef?:
-      contributionToChangingRelation:
-      architectureCharacteristicPressure:
-      governingPatternRef:
-      sourceReturnCondition?:
-  transformedSelectedStructureMap:
-    - structureKindRef:
-      selectedStructureRef?:
-      requiredArchitectureRole:
-      architectureCharacteristicPressure:
-      governingPatternRef:
-      sourceReturnCondition?:
-  correspondenceClaims:
-    - correspondenceId:
-      transformerStructureRef:
-      transformedStructureRef:
-      correspondenceUse:
-      pressureDirection:
-      affectedArchitectureCharacteristicRefs:
-      expectedArchitectureGain:
-      knownArchitectureLoss:
-      preservedStructure:
-      lostOrHiddenStructure:
-      receivingPatternRef:
-      sourceReturnCondition:
-  candidateArchitectureConfigurations:
-    - candidateRef:
-      transformerSideChange:
-      transformedSideChange:
-      coordinationChange:
-      expectedArchitectureGain:
-      knownArchitectureLoss:
-      stopOrEscalationCondition:
+  changedReferentRef:
+  exactChangingRelationRef?: separately governed U.RelationRef
+  performerRows[]?:
+    actingSystemRef: U.SystemRef
+    roleAssignmentRef?: U.RoleAssignmentRef, required when a role is claimed
+    workOccurrenceRef?: U.WorkRef, required when performance is claimed
+    performedUnderAssignmentRelationRef?: U.RelationRef, required with workOccurrenceRef
+    actorSideOrWorkToChangeRelationRefs[]: exact U.RelationRef values required by the current claim
+  influenceSourceRows[]?: asserted influence facts only
+    influenceSourceRef:
+    influenceSourceKindRef:
+    exactInfluenceRelationRef: U.RelationRef
+    influenceGoverningPatternRef:
+  influenceSourceSelectedStructureMap[]?:
+    influenceSourceArchitectureRef?: ArchitectureOf@Context
+    structureKindRef:
+    selectedStructureRef:
+    contributionToCandidatePressure:
+    architectureCharacteristicPressure:
+    governingPatternRef:
+    sourceReturnCondition?:
+  transformedArchitectureRef: ArchitectureOf@Context
+  transformedHolonRef: transformedArchitectureRef.describedHolonRef
+  transformedSelectedStructureMap[]:
+    structureKindRef:
+    selectedStructureRef?:
+    requiredArchitectureRole:
+    architectureCharacteristicPressure:
+    governingPatternRef:
+    sourceReturnCondition?:
+  evolutionWindowRef:
+  architecturePairRowRefs[]?: ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context refs
+  correspondenceClaims[]?: synthesis-local compound claims that have not yet met the exact-row assertion threshold
+    correspondenceId:
+    influenceSourceArchitectureRef?:
+    transformedArchitectureRef:
+    influenceSourceSelectedStructureRef?:
+    transformedSelectedStructureRef:
+    correspondenceUse:
+    pressureDirection:
+    affectedArchitectureCharacteristicRefs[]?: current C.32.ACS criteria-row refs; exact C.25 Q-Bundle slot refs when composite
+    provisionalArchitectureCharacteristicHeads[]?: plain discovery cues pending C.32.ACS/C.25; never criteria refs
+    expectedArchitectureGain?:
+    knownArchitectureLoss?:
+    preservedStructure?:
+    lostOrHiddenStructure?:
+    receivingPatternRef:
+    sourceReturnCondition:
+  candidateArchitectureConfigurations[]:
+    candidateRef:
+    influenceSourceSideChange?:
+    transformedArchitectureChange?:
+    coordinationChange?:
+    expectedArchitectureGain?:
+    knownArchitectureLoss?:
+    evolutionWindowRef?:
+    receivingPatternRef?:
+    sourceReturnCondition?:
+    stopOrEscalationCondition?:
   c29LensOrStructuralEquivalenceRef?:
   nextGoverningPatternRef:
 ```
 
+The two project-use fields are unchanged. `@Project` remains a compatibility and retrieval cue only. If the frame is used in one actual project, `projectWorkOccurrenceRef` names the exact composite `U.Work` and `architectureCorrespondenceFrameProjectUseRelationRef` names the direct relation by which that Work uses the frame. The frame, synthesis Work, candidates, architecture claims, and project Work remain distinct.
+
+`TransformerTransformedArchitectureCorrespondenceFrame@Project` and the former title “Transformer and Transformed Architecture Correspondence” are lineage and search cues only. They do not name the current Tech object, make any named value an actor, or establish an actor, role, Work, or participation fact.
+
 ### C.32.CONWAY:2 - Problem
 
-Architecture synthesis often crosses a changing relation. A manufacturing system changes a product. A design organization changes a system design. A method family changes documents and work products. An AI-agent toolchain changes project work. A school changes student capabilities. A hospital triage organization changes patient-flow states. In each case, the architecture of the changing holon can make some transformed-holon architectures cheap, slow, brittle, feasible, infeasible, evolvable, or hard to certify.
+Architecture influence and action often occur in the same story but are not the same fact. A manufacturing architecture can constrain a product candidate while a manufacturing system performs production Work. A communication structure can influence service boundaries while people or teams perform change Work only through their admitted exact `U.System` identities. A method description can influence a work-product architecture without being a worker. A toolchain architecture can constrain project-task candidates while an admitted execution system acts.
 
-Conway's law and the mirroring hypothesis make this pressure visible, but they do not replace architecture synthesis. The recurring engineering failure is that a desired transformed-holon architecture is synthesized without recovering whether the changing holon's work, communication, toolchain, manufacturing, certification, operational, or evidence structures can produce and evolve it. The result is predictable: the candidate looks architecturally clean, then independent change, deployability, testability, certification, or maintenance collapses into cross-team and cross-structure coordination work.
+The old transformer/transformed wording hid these differences. It could leave the changed referent implicit, treat an architecture bearer as the performer, omit role assignment and dated Work, or call a source influential without a direct relation. It could also stretch one local architecture pair into a whole recursive transformation-flow network.
 
-The inverse Conway maneuver is also an architecture candidate change, not a slogan. It means deliberately changing selected structures of the changing holon so that the desired changed-holon architecture becomes feasible and maintainable. Sometimes the stronger candidate changes the transformed-holon architecture instead. Often the honest candidate changes both and records the new burden.
-
-C.32.CONWAY makes the correspondence explicit enough to prepare comparison inputs without collapsing the two sides.
+C.32.CONWAY repairs the problem by keeping the changed referent, actor and performance facts, influence-source facts, and one exact architecture pair separately recoverable. Conway and inverse-Conway practice then supplies candidate pressure, not a universal relation and not evidence that any source acted.
 
 ### C.32.CONWAY:3 - Forces
 
 | Force | Tension |
 |---|---|
-| Existing transformer architecture | Current work, communication, tool, method, placement, and evidence structures shape what can be changed. |
-| Desired transformed architecture | The changed holon may need module, functional, control, evidence, placement, or variation structure that the transformer cannot yet sustain. |
-| Inverse change cost | Changing the transformer may be more expensive than changing the transformed architecture, or vice versa. |
-| Structural similarity temptation | Mirroring language can be used to treat correspondence as architecture adequacy. |
-| Evolution window | A correspondence that works now can fail after transformer-side or transformed-side structures evolve; those changed structures then constrain the next candidate frame. |
+| Domain action vs architecture influence | A system can act while its architecture or another selected structure influences the candidate; neither fact entails the other. |
+| Performance detail vs candidate synthesis | Role assignment and dated Work matter when performance is claimed, but candidate architecture work must not invent them from an influence diagram. |
+| Exact influence vs useful local frame | A local compound correspondence can guide candidate synthesis before a reusable episteme about an obtaining exact relation can be asserted. |
+| One pair vs recursive network | One architecture pair can qualify a network reading, but the pair is neither the network nor a cross-flow relation by citation. |
+| Desired transformed architecture vs source-side constraint | The transformed architecture may need a structure the current influence-side arrangement cannot sustain. |
+| Evolution window | A correspondence that works now can fail when either selected architecture, the direct relation, or the changed referent changes. |
 
 ### C.32.CONWAY:4 - Solution
 
-Build a correspondence frame before treating Conway or inverse Conway as guidance.
+Build the local synthesis frame first. Admit a relation kind only through its relation-kind admission owner and direct settlement. Use that owner's predicate and applicability to test the current pair. If current facts or constituting history satisfy the predicate affirmatively, one world-side occurrence obtains and the row may cite its exact identity. If the predicate is false, no exact pair row is asserted. If the current facts do not decide it, keep the correspondence synthesis-local and name the missing grounding or information-sufficiency boundary. Use `missing-governor` only when no direct relation kind and predicate govern the intended pair and use.
 
-Work in eight steps:
+#### C.32.CONWAY:4.1 - Keep acting, influence, and correspondence facts separate
 
-1. Name the changing relation. Use `A.3.4` when one bounded transformation is being claimed, `E.18` when a transformation-flow structure is being claimed, or the direct work and method patterns when the claim is work or method use.
-2. Name the transformer holon and the transformed holon. Keep their architectures distinct even when they belong to one larger holon.
-3. Map only the selected structures that carry the constraint or option shaping the candidate frame. On the transformer side, name the actual structure that makes one transformed-holon architecture feasible or infeasible. On the transformed side, name the actual structure that must carry the desired function or architecture characteristic. Stop at the smallest pair that can change the candidate frame or the later comparison input.
-4. State only the architecture characteristics that can change the comparison. Use the local q-bundle when possible; otherwise name the few characteristics under pressure, such as independent change, substitutability, evidence reuse, latency, coupling, cohesion, coordination load, or source-return cost.
-5. State the correspondence claim. Say which transformer-side selected structure constrains or enables which transformed-side selected structure, what is preserved, what is hidden or lost, and which receiving pattern governs the next claim.
-6. Generate candidate architecture configurations:
-   - change the transformer-side structure so the desired transformed architecture becomes feasible;
-   - change the transformed-side architecture to fit a transformer constraint that is not worth changing now;
-   - change both sides as one co-synthesis candidate;
-   - keep a bounded mismatch with exception cost, source-return condition, and reopen trigger.
-7. Use `C.29` only when the correspondence is claimed as structural similarity, homomorphism-like mapping, equivalence, or formal preservation. Otherwise keep it as architecture synthesis material.
-8. Stop when the C.32 candidate palette contains the fields required by `A.19.CPM` explicit comparison, `C.32.MLAO` residual reduction, `C.32.FAIL` repair, publication of a selected set under `G.5`, `C.11` choice, or `C.32.PAD`.
+1. **Name the domain action and changed referent.** Identify `changedReferentRef` independently. Add `exactChangingRelationRef` only under its direct governor; architecture influence does not identify the change.
+2. **Add acting and performance facts only when claimed.** Every actor or performer is one exact `U.System`. A claimed role requires an obtaining `U.RoleAssignment`. Claimed performance requires one exact dated `U.Work`, `performedUnderAssignment(W, RA)`, and `S = RA.HolderSystemSlot`, plus the exact actor-side or work-to-change relation needed by the claim. Use A.15.1 multiple-performer forms when several systems perform.
+3. **Name every influence source by kind.** Architecture, selected structure, Work, communication, constraint, and candidate-synthesis results retain their kinds and direct influence relations. Influence alone supplies no system identity, role, Work, performer status, changed-referent identity, or transformation participation.
+4. **Select one architecture pair.** Name one exact influence-source `ArchitectureOf@Context` and one exact transformed-holon `ArchitectureOf@Context`. Their described holons may differ from every acting system. Record equality only when independent actor and architecture-bearer facts establish it.
+5. **Map only structures and characteristics that change the candidate.** Name the source-side selected structure, transformed-side selected structure, expected gain, known loss, evolution window, receiving pattern, and source-return condition. For each affected characteristic, reference only the few current `C.32.ACS` criteria rows and any declared `C.25` Q-Bundle slots that make this trade-off real.
+6. **Prepare four candidate forms.** Change the influence-source side, change the transformed architecture, change both, or keep a bounded mismatch with an explicit cost and reopen trigger.
+7. **Use C.29 only for structural-similarity claims.** A correspondence row does not establish homomorphism, equivalence, or architecture adequacy.
+8. **Stop at the next governed claim.** Send comparison, selection, publication, choice, decision, evidence, assurance, gate, Work, or organization-governance claims to their direct patterns.
 
-Correspondence repair rows are local C.32.CONWAY entries. They do not create new FPF kinds.
+#### C.32.CONWAY:4.2 - Exact reusable architecture-pair row
+
+```text
+ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context <: U.Episteme:
+  entityOfConcernRef: exactArchitectureInfluenceOrCorrespondenceRelationOccurrenceRef
+  entityOfConcernKindRef: exactArchitectureInfluenceOrCorrespondenceRelationKindRef
+  governingPatternRef: direct owner of that exact relation kind and occurrence
+  influenceSourceArchitectureRef: one exact ArchitectureOf@Context
+  influenceSourceHolonRef: describedHolonRef of influenceSourceArchitectureRef
+  transformedArchitectureRef: one exact ArchitectureOf@Context
+  transformedHolonRef: describedHolonRef of transformedArchitectureRef
+  influenceSourceSelectedStructureRef: U.StructureRef
+  transformedSelectedStructureRef: U.StructureRef
+  changedReferentRef: exact independently identified referent of the current change
+  exactChangingRelationRef?: U.RelationRef, separately governed
+  performerRows[]?:
+    actingSystemRef: U.SystemRef
+    roleAssignmentRef?: U.RoleAssignmentRef, required when a role is claimed
+    workOccurrenceRef?: U.WorkRef, required when performance is claimed
+    performedUnderAssignmentRelationRef?: U.RelationRef, required with workOccurrenceRef
+    actorSideOrWorkToChangeRelationRefs[]: U.RelationRef
+  additionalInfluenceSourceRows[]?:
+    influenceSourceRef
+    influenceSourceKindRef
+    exactInfluenceRelationRef: U.RelationRef
+    influenceGoverningPatternRef
+  affectedArchitectureCharacteristicRefs[]: current C.32.ACS criteria-row refs; exact C.25 Q-Bundle slot refs when composite
+  evolutionWindowRef
+  correspondenceUse
+  expectedArchitectureGain
+  knownArchitectureLoss
+  receivingPatternRef
+  sourceReturnCondition
+  networkCrossFlowRelationRowRef?: E.18.NET NetworkCrossFlowRelationRowRef
+```
+
+The row is a `U.Episteme` about one already obtaining relation. It neither creates that occurrence nor mints a universal Conway relation. The occurrence keeps its identity under its direct relation owner and A.6.REL; this row only describes it for the current correspondence use. `entityOfConcernRef`, its kind, its governor, both architectures, their selected structures, and the changed referent are required. If the practitioner has only a useful local compound correspondence claim, keep it in the frame for candidate synthesis. Assert the row only after the admitted relation kind's direct predicate is applicable and current facts satisfy it affirmatively. If the predicate is false, assert no row; if facts are unresolved, keep the frame and name that boundary; if the kind/predicate is absent, return `missing-governor`. None of these branches permits inferring a relation from two architectures.
+
+#### C.32.CONWAY:4.3 - Qualified network reading
+
+The same exact pair row may appear in `architectureCorrespondenceRowRefs[]` of several `TransformationFlowStructureNetworkRecord@Context` values while its pair, relation occurrence, evolution window, correspondence use, and claim scope remain current. Each citation contributes only one qualified architecture reading. The row's optional singular `networkCrossFlowRelationRowRef`, when present, qualifies only the exact current record edition named by that locator; it does not qualify the row's citations from other records. No citation makes the pair row the network, adds a member, or satisfies the network's exact cross-flow-relation discriminator.
+
+Set `networkCrossFlowRelationRowRef` only when the row's exact relation participants are independently grounded in member-flow positions and its `transformationFlowStructureNetworkRecordRef` names the same exact current record whose `architectureCorrespondenceRowRefs[]` citation this mapping is intended to qualify. Resolve that record first, then require exactly one `crossFlowRelationRow` to match the occurrence and complete ordered endpoint-binding identity. That row must preserve the same kind, governor, participant order, endpoints, and bindings as this correspondence row. Zero or several matches, a different record, or a stale record edition leaves the locator unresolved. Do not reuse one locator to qualify another record's citation. A record citation alone infers none of those facts. Actor, role, Work, changing relation, influence relation, and network cross-flow relation remain separately governed even when one case cites all of them.
+
+#### C.32.CONWAY:4.4 - Candidate moves and repair rows
+
+Plain text begins with the domain action—builds, assembles, repairs, configures, treats, teaches, compiles, or evaluates. It then names the acting system and Work only when those facts are current. In a separate sentence it says which architecture or other source influences which candidate through which exact relation. `Creator`, `creation`, `producer`, `transformer architecture`, and `uses` remain ordinary cues, not universal technical labels.
+
+Choose only pressures that change the candidate or protect against a concrete loss. Every `affectedArchitectureCharacteristicRefs[]` value in an exact pair row or comparison-ready candidate must resolve to a current `C.32.ACS` criteria row; when the pressure is one slot of a composite quality family, also resolve the declared `C.25` Q-Bundle and that exact slot. If those governed objects do not yet exist, put plain heads such as independent change, substitutability, evidence reuse, latency, coupling or cohesion, coordination load, and source-return cost only in the local frame's `provisionalArchitectureCharacteristicHeads[]`; never place them in `affectedArchitectureCharacteristicRefs[]`. These heads are discovery cues, not a universal catalogue and not criteria refs. Return to `C.32.ACS` or `C.25` before making a stronger comparison, selection, or decision claim.
 
 | Correspondence repair row | Use | Minimum repair against overread |
 |---|---|---|
-| `changingRelationRecovery` | The case names a designer, team, line, tool, method, or organization before the changed object and change relation are clear. | Recover the bounded transformation, work, method-use, or transformation-flow relation before making an architecture claim. |
-| `transformerStructureMapping` | A selected structure of the changing holon makes one transformed architecture feasible or infeasible. | Keep the selected transformer structure distinct from the transformed-holon architecture. |
-| `transformedStructureMapping` | A selected structure of the changed holon must carry the desired function or architecture characteristic. | Name the selected transformed structure and the architecture characteristic it must support. |
-| `inverseConwayRetargeting` | The desired transformed architecture is sound, but the changing holon cannot produce or sustain it. | Change transformer-side selected structures and record migration cost, new burden, and stop condition. |
-| `transformedArchitectureRetargeting` | The transformer-side structure is fixed or expensive to change in the declared evolution window. | Change the transformed architecture candidate and record the lost desired property or exception. |
-| `jointCorrespondenceSynthesis` | Neither side alone can carry the architecture characteristic. | Create a candidate that changes both sides and records preserved structure, lost structure, and coordination burden. |
+| `changedReferentRecovery` | The story names a team, line, tool, method, or organization but not what changes. | Identify the changed referent and direct changing relation before making actor or architecture claims. |
+| `performerRecovery` | A source is said to build, design, repair, or operate. | Name the exact system, role assignment when claimed, dated Work when performance is claimed, `performedUnderAssignment`, and direct actor-side or work-to-change relations. |
+| `influenceSourceRecovery` | An architecture or structure is said to shape a candidate. | Name its exact kind and direct influence relation; otherwise keep it as a candidate cue. |
+| `architecturePairRecovery` | Two architectures are compared or linked. | Apply the direct relation owner. With no kind/predicate, return `missing-governor`; with unresolved facts, keep the pair synthesis-local and name the missing grounding; with a false predicate, assert no occurrence; with a satisfied predicate, name the exact obtaining occurrence and pair. |
+| `inverseConwayRetargeting` | The desired transformed architecture is sound, but the current source-side arrangement cannot sustain it. | Change selected influence-source structures and record migration cost, new burden, and stop condition. |
+| `transformedArchitectureRetargeting` | The source-side arrangement is fixed or too expensive to change in the current window. | Change the transformed architecture candidate and record the lost desired property or exception. |
+| `jointCorrespondenceSynthesis` | Neither side alone can carry the architecture characteristic. | Change both sides and record preserved structure, lost structure, and coordination burden. |
 | `boundedCorrespondenceMismatch` | A mismatch is tolerable for now. | State exception cost, bounded-use limit, source-return condition, and reopen trigger. |
 
-**Didactic mini-slices.**
+**Stop condition.** A first-pass frame may stop when it names the changed referent, separately typed source and transformed architectures, one selected structure on each side, either governed affected-characteristic refs or visibly provisional heads with their exact return, the applicable candidate-form heads, and the next governing pattern. Every acting, performance, or influence fact that is asserted must already have its direct basis. Before a candidate enters comparison or reliance, complete its source-side change, transformed-side change, expected gain, known loss, evolution window, receiving pattern, source-return condition, and stop. An exact pair row additionally requires its direct relation predicate to be satisfied and its obtaining occurrence to be identified. A provisional pressure stays in `correspondenceClaims[]` with the exact reason visible: missing governor, unresolved grounding or information sufficiency, or a false predicate.
 
-| Situation | C.32.CONWAY repair row | Candidate repair |
-|---|---|---|
-| A field-device family wants replaceable modules, but the manufacturing line and certification evidence are organized by full-product batches. | Name manufacturing and certification as transformer-side selected structures; name module-interface and evidence-scope structures on the transformed side. | Either change cells and evidence roles, change module split, or keep a bounded batch exception with certification cost. |
-| A software group wants independently deployable services, but every release still crosses a shared test environment and shared approval role. | Treat team, work, test, and approval structures as transformer-side constraints; treat service and deployment structures as transformed-side structures. | Use inverse Conway retargeting for team and test responsibility, or choose a less independent service architecture for this evolution window. |
-| A reusable review method changes authored specifications, but no role carries exception evidence after automated checks. | Treat the review method and exception role as transformer-side selected structures; treat authored-section and evidence-scope structures as transformed-side structures. | Add an exception role and evidence scope, change the method step, or reject the automation candidate. |
-| An AI-agent toolchain changes project tasks, but policy control and evidence refresh remain outside the tool boundary. | Treat toolchain module, control, and evidence-refresh structures as transformer-side structures; treat task architecture and policy-conformance evidence as transformed-side structures. | Add supervisor relation and evidence refresh, change task decomposition, or keep bounded autonomy with source-return trigger. |
-
-**Stop condition.** Stop when the frame names both holons, the changing relation, selected structures on both sides, architecture characteristics under pressure, candidate changes, known losses, receiving patterns, and source-return conditions.
-
-**Lowering condition.** Keep a correspondence claim as C.32.CONWAY synthesis material only while the changing relation, both holons, both selected structures, affected architecture characteristics, preserved structure, lost or hidden structure, evolution window, and receiving pattern remain current. Lower the claim to diagnostic pressure when one of those values is unknown, stale, or outside the current synthesis question. Retire a candidate configuration when its transformer-side change, transformed-side change, bounded mismatch, or known loss no longer belongs to the declared evolution window. Return to `A.3.4` or `E.18` when the changing relation is not recovered, to work or organization-governance patterns when no transformed-holon architecture characteristic is under pressure, and to `C.29` when the current claim is structural similarity, preservation, mapping, or equivalence.
+**Lowering condition.** Lower an exact row to synthesis-local correspondence material when its relation occurrence, architecture pair, selected structures, changed referent, evolution window, or receiving use is missing or stale. Retire a candidate when its source-side change, transformed-side change, bounded mismatch, or known loss no longer belongs to the declared evolution window. Return to A.3.4 or E.18 when the changed referent or flow relation is not recovered, to A.12 and A.15.1 when the issue is actor or Work attribution, and to C.29 when the current claim is structural similarity or preservation.
 
 ### C.32.CONWAY:5 - Worked Correspondence Cases
 
-| Grounded working case | Correspondence question | Candidate work | Stop condition |
-|---|---|---|---|
-| Product family and manufacturing system | Which manufacturing, evidence, and station structures must correspond to product module and evidence-scope structures? | Prepare manufacturing-cell change, product-split change, and bounded mismatch as candidate alternatives or comparison inputs. | Stop before product decision, factory work authorization, or certification assurance unless those claims are being made. |
-| Organization that designs and operates a service platform | Which work, communication, deployment, and service-interface structures must be co-synthesized for independent change? | Prepare inverse Conway team-boundary change, service-boundary change, and platform mediation as candidate alternatives or comparison inputs. | Stop before organization-redesign decision, organization-redesign authority relation, G.5 publication of a selected set, or architecture decision. |
-| Method family that changes authored work products | Which method, role, and evidence structures must fit the authored-section architecture being created? | Prepare method-step split, role retargeting, evidence-scope change, and bounded exception as candidate alternatives or comparison inputs. | Stop before method governance or publication-face use unless that claim is being made. |
-| School or training system changing a declared learner-capability structure | Which teaching role, curriculum, feedback, and evidence structures must fit that declared learner-capability structure? | Prepare curriculum architecture, feedback-role change, evidence scope, and bounded cohort exception as candidate alternatives or comparison inputs. | Stop before educational policy, evidence sufficiency, or ethical mediation claims. |
-| AI-agent toolchain changing project work | Which toolchain, control, evidence, and work-method structures must fit the transformed work-product architecture? | Prepare supervisor relation, task decomposition, evidence-refresh boundary, and bounded autonomy as candidate alternatives or comparison inputs. | Stop before safety, release, or assurance claims unless those claims are being made. |
+| Grounded working case | Acting and performance facts | Influence-source and architecture-pair facts | Candidate work | Stop or return |
+|---|---|---|---|---|
+| Product family and manufacturing system | The product referent and bounded change are identified independently. The admitted manufacturing system performs exact dated production Work under its role assignment; production and work-to-change relations state its participation without creating the referent or change. | `ArchitectureOf@ManufacturingAndCertification` and its batch/evidence structures influence `ArchitectureOf@ProductFamily` through one direct project predicate satisfied by current facts and its exact obtaining occurrence. The architecture bearer is not inferred to be the performer. | Prepare manufacturing-cell change, product-module split, joint change, and bounded batch exception. | Stop at candidate preparation. Route product choice or architecture decision to `C.11` or `C.32.PAD`; factory Work authorization to its direct Work/governance owner or an `A.20`/`A.21` gate; and certification evidence or assurance to `A.10` or `B.3`. |
+| Organization designing and operating a service platform | Each acting team or organization is used only through its admitted exact `U.System` identity; dated design or operations Work and role assignments are named only for the actions claimed. | Communication, deployment, test, and approval structures influence one service-platform architecture pair through their direct relations. | Prepare team-responsibility change, test-responsibility change, service-boundary change, platform mediation, or bounded coordination cost. | Stop before an organization-redesign decision or authority claim; return it to the direct organization-governance owner. Route selected-set publication to `G.5` and an architecture decision to `C.32.PAD`. |
+| Review method influencing authored work products | The method description does not act. When review is performed, name the reviewer system, role assignment, dated Work, and exact work-to-change relation. | The review-method or evidence structure influences the authored-section architecture through its exact method-use, evidence-scope, or project influence relation. | Add an exception role and evidence scope, change the method step, change the work-product structure, or reject the automation candidate. | Stop before method governance or publication-face use; return to the direct method-governance pattern and to `E.17` or `G.5` when publication is current. |
+| Instructional system changing learner capability | Each instructor or instructional organization is used as an actor only through an admitted exact `U.System` identity; dated teaching Work and role assignment are named when performance is claimed. | Curriculum, feedback, and evidence structures influence the architecture claim about the changed learner-capability referent; they do not become the learner or the performer by influence. | Prepare curriculum, feedback-role, evidence-scope, or bounded-cohort candidates. | Stop before educational policy, evidence-sufficiency, or ethical-mediation claims; return them to the direct policy owner, `A.10`, or `D.4` respectively. |
+| AI-agent toolchain changing project work products | An admitted execution system and exact tool-call or authoring Work carry any action claim. | Toolchain control and evidence-refresh structures influence the transformed work-product architecture through exact relations; the toolchain architecture itself does not act. | Add supervision and refresh, change task decomposition, or keep bounded autonomy with source return. | Stop before safety, gate or release, or assurance claims; return them to the direct safety owner, `A.20`/`A.21`, or `B.3` respectively. |
+**Network-qualified reading.** A product-development TFS and a production-system-change TFS participate in one selected E.18.NET-conforming network. A current architecture pair row about manufacturing-architecture influence may be cited by the network record alongside a separately grounded obtaining production or project occurrence. If the pair row also carries `networkCrossFlowRelationRowRef`, that locator names this same exact current record edition and resolves exactly one matching row; it qualifies no citation from another record. The pair row remains one reading of one exact architecture pair. It is neither the network nor proof that the architecture-influence occurrence is the cross-flow occurrence.
+
+**Near miss.** A diagram places a factory architecture beside a product architecture and labels the arrow “shapes”. No direct relation kind and predicate govern that pair and use. The frame may retain the pair as synthesis-local pressure, but the exact row and network cross-flow mapping remain absent with `missing-governor`; the diagram does not create an occurrence.
 
 ### C.32.CONWAY:6 - Correspondence Failure Modes
 
 | Failure mode | C.32.CONWAY repair action |
 |---|---|
-| **Transformer architecture omitted** | The transformed-holon architecture assumes independent change, testing, deployment, certification, or maintenance, but the changing holon's existing structures force shared queues, shared approval, shared evidence, or shared rework. Add transformer-side candidates before the transformed-holon architecture enters comparison, selection, local choice, or decision work. |
-| **Transformed-only inverse Conway** | The text asks for inverse Conway while changing only the changed-holon modules, services, product variants, or evidence scopes. Name the transformer-side structure to change and record expected gain, loss, migration burden, and stop condition. |
-| **Transformer-only reorganization** | The organization, method, toolchain, line, or platform is changed without a transformed-holon architecture characteristic under pressure. Return to work or organization design unless a selected transformed structure and architecture characteristic are named. |
-| **Mirroring treated as adequacy** | A mirroring claim is used without asking what is preserved, what is lost, and where exceptions are acceptable. Keep it as correspondence pressure, or use `C.29` when a structural-similarity lens is being claimed. |
-| **One-sided optimization** | Changing only the transformer or only the transformed holon creates a new residual in another scope. Prepare transformer-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs. |
-| **Software delivery overfit** | DORA or Team Topologies gives the source pattern, but the transformed side is a product family, manufacturing system, school, hospital, or other non-software admitted holon, or the pressure concerns a method-side structure around an admitted holon rather than a software service. Transfer the selected-structure correspondence and architecture characteristics, not the software ontology, and do not admit a method family as a holon by label. |
-| **Static correspondence** | A good correspondence is treated as durable after the evolution window changes. Add source-return and reopen conditions. |
+| **Architecture-as-actor** | Replace the acting architecture with the exact `U.System`, role assignment, dated Work, and actor-side or work-to-change relation; keep architecture as a separately related influence source. |
+| **Influence-as-performance** | Remove role, Work, performer, or transformation-participation inferences that came only from influence. Establish those facts independently or leave them absent. |
+| **Changed referent omitted** | Identify the exact referent and changing relation before deciding which architecture is transformed. |
+| **Performer without Work basis** | When performance is claimed, add exact dated Work, `performedUnderAssignment(W, RA)`, holder-system equality, and required direct relations; use A.15.1 multiple-performer forms when needed. |
+| **Influence source without governor** | Apply the direct relation owner. With no kind/predicate, keep the correspondence synthesis-local and return `missing-governor`; with unresolved facts, name the grounding boundary; with a false predicate, remove the influence occurrence. |
+| **Architecture-bearer equality with an actor inferred** | Keep the influence-source holon and acting system unequal unless independent actor and architecture-bearer facts establish equality. |
+| **Transformed-side-only inverse Conway** | If the text says inverse Conway but changes only the transformed architecture, name the exact influence-source selected structure that must change or stop using the inverse-Conway claim. |
+| **Source-side change without transformed pressure** | If an organization, method, line, or toolchain is reorganized without one transformed architecture and characteristic under pressure, return to the direct Work or organization-design use. |
+| **One-sided optimization** | Prepare source-side change, transformed-side change, joint change, and bounded mismatch candidates before claiming the correspondence has been constructively handled. |
+| **Pair treated as network** | Keep the exact pair row as one qualified reading; use E.18.NET for network identity, members, and exact cross-flow relations. |
+| **Network citation treated as relation admission** | Ground the exact relation participants in member-flow positions and make the E.18.NET composite locator name that same citing current record and exactly one cross-flow row; otherwise remove `networkCrossFlowRelationRowRef`. A locator for one record does not qualify another record's citation. |
+| **Mirroring treated as adequacy** | Keep the statement as candidate pressure or use C.29 when structural similarity or preservation is claimed. |
+| **Software-practice overfit** | When the changed referent is a product family, manufacturing system, school, hospital, or another admitted non-software holon, transfer only the selected-structure correspondence and affected characteristics; do not import software-service or team ontology. A method-family or method-description label alone does not make the named object a `U.Holon`; if the case uses a method-related holon, identify that exact holon and admit it independently under its direct kind owner. |
+| **Static correspondence** | Reopen when either architecture, selected structure, relation occurrence, changed referent, or evolution window changes. |
 
 ### C.32.CONWAY:7 - Conformance Checklist
 
-| ID | Requirement | Purpose |
+| ID | Requirement | Failed-check repair |
 |---|---|---|
-| `CC-C32.CONWAY-1` | The changing relation is named through `A.3.4`, `E.18`, work, method, or the direct governing pattern. | Prevents actor names or source phrases from standing in for the change relation. |
-| `CC-C32.CONWAY-2` | Transformer holon and transformed holon are named separately. | Prevents architecture collapse. |
-| `CC-C32.CONWAY-3` | Selected structures on both sides are named with governing patterns. | Keeps organization, work, module, method, tool, and transformed architecture distinct. |
-| `CC-C32.CONWAY-4` | Architecture characteristics under pressure are named. | Makes the correspondence architecturally relevant. |
-| `CC-C32.CONWAY-5` | Each candidate states transformer-side change, transformed-side change, expected gain, known loss, and stop condition. | Makes Conway pressure constructive. |
-| `CC-C32.CONWAY-6` | Structural similarity claims use `C.29` or the structural-equivalence pattern when that claim is being made. | Blocks treating mirroring as architecture adequacy. |
-| `CC-C32.CONWAY-7` | Source-return and evolution-window conditions are present. | Keeps correspondence from becoming timeless. |
+| `CC-C32.CONWAY-1` | `changedReferentRef` is independently identified; any changing relation has its direct governor. | Recover the referent and relation or keep the change description provisional. |
+| `CC-C32.CONWAY-2` | Every claimed actor is one exact `U.System`; every claimed role has an obtaining role assignment. | Add the System and assignment or remove actor or role wording. |
+| `CC-C32.CONWAY-3` | Claimed performance has exact dated Work, `performedUnderAssignment(W, RA)`, `S = RA.HolderSystemSlot`, and direct actor-side or work-to-change relations; several performers use A.15.1 forms. | Restore the Work basis and relations or remove the performance claim. |
+| `CC-C32.CONWAY-4` | Every influence source retains its exact kind and direct obtaining occurrence; influence entails no actor, role, Work, changed-referent, or transformation-participation fact. | Apply the direct predicate: missing kind/predicate returns `missing-governor`, unresolved facts stay provisional, and a false predicate removes the occurrence; delete inferred acting facts. |
+| `CC-C32.CONWAY-5` | One exact pair row names one influence-source architecture, one transformed architecture, selected structures, changed referent, exact obtaining occurrence, admitted relation kind, direct predicate/governor, and a satisfied affirmative case. | Complete the satisfied case; otherwise keep only the synthesis-local frame and state `missing-governor`, unresolved grounding, or false predicate exactly. |
+| `CC-C32.CONWAY-6` | Equality between an architecture bearer and an actor is recorded only from independent facts. | Separate the refs and remove equality inference. |
+| `CC-C32.CONWAY-7` | The two project-use fields retain their exact Work identity and direct use-relation meaning. | Add both facts when project use is claimed or keep `@Project` retrieval-only. |
+| `CC-C32.CONWAY-8` | Each comparison-ready candidate states source-side change, transformed-side change, expected gain, known loss, evolution window, receiving pattern, source-return condition, and stop; a first-pass candidate head is visibly outside comparison. | Complete the candidate before comparison or keep only its `candidateRef` as a first-pass head. |
+| `CC-C32.CONWAY-8a` | Every `affectedArchitectureCharacteristicRefs[]` value resolves to a current C.32.ACS criteria row and, when composite, the exact C.25 Q-Bundle slot; a local discovery cue appears only in `provisionalArchitectureCharacteristicHeads[]` and supports no comparison, selection, or decision. | Resolve the governed ref, move the cue to the provisional-head field and return to C.32.ACS/C.25, or remove the stronger claim. |
+| `CC-C32.CONWAY-9` | Structural-similarity claims use C.29 or the selected structural-equivalence pattern. | Remove similarity entailment or apply the direct pattern. |
+| `CC-C32.CONWAY-10` | A network record cites the pair only as a qualified reading; any `networkCrossFlowRelationRowRef` names that same exact current citing record, resolves exactly one row there, and its independently grounded occurrence and endpoint bindings agree with this pair. The singular locator qualifies no other record citation. | Remove the network link or repair the citing record, occurrence, and ordered endpoint-binding locator. |
+| `CC-C32.CONWAY-11` | Source-return and evolution-window conditions are present. | Add the changed values and reopen trigger. |
 
 ### C.32.CONWAY:8 - Common Repair Cues
 
 | Repair cue | Symptom | First repair |
 |---|---|---|
-| `TransformerArchitectureOmitted` | The transformed-holon candidate requires independent change, testing, deployment, certification, or maintenance that the declared changing holon cannot support. | Add transformer-side candidates, transformed-side retargeting candidates, joint candidates, and bounded-mismatch candidates before the palette enters comparison, selection, local choice, or decision work. |
-| `TransformedArchitectureNoTransformerFit` | The desired transformed-holon architecture cannot be produced or sustained by the declared changing holon. | Open inverse Conway retargeting or transformed architecture retargeting as candidate alternatives. |
-| `InverseConwayNoTransformerChange` | The text says inverse Conway but names no transformer-side selected structure change. | Name the transformer-side selected structure changed, affected architecture characteristic, loss, migration burden, and receiving pattern. |
-| `CoordinationCostHidden` | A candidate reduces visible coupling in the changed holon while shifting coordination cost into shared work, test, approval, evidence, manufacturing, or operational structures. | Name the transformer-side structure carrying the cost and prepare candidate alternatives that change it, change the transformed architecture, or keep a bounded mismatch. |
-| `MirroringNoExceptionTest` | A mirroring claim is used without stating preserved structure, lost structure, exception condition, or evolution window. | Keep it as diagnostic pressure, or use `C.29` for a declared structural-similarity lens. |
-| `TransformerTransformedCollapse` | The changing holon architecture and changed holon architecture are written as one architecture. | Name the two architecture refs, selected structures on each side, and the changing relation between them. |
-| `BoundedMismatchHidden` | A known mismatch is kept without cost or trigger. | Record exception cost, bounded-use limit, source-return condition, and reopen trigger. |
+| `ArchitectureActs` | An architecture, method, toolchain, organization chart, or episteme builds, decides, repairs, or performs. | Start with the domain action; name the exact system and Work when current, then state architecture influence separately. |
+| `InfluenceSourceUntyped` | A source “shapes” the candidate without kind or relation. | Apply the direct owner: recover kind/predicate or return `missing-governor`; if facts are unresolved, keep a candidate cue; if false, remove the occurrence; if satisfied, name the obtaining occurrence. |
+| `ChangedReferentHidden` | The pair is named but the object of change is not. | Identify the changed referent and changing relation independently. |
+| `PerformerBasisMissing` | A performer is named without assignment or dated Work. | Apply A.12 and A.15.1 and restore the exact performer basis. |
+| `TransformedArchitectureNoSourceFit` | The desired architecture cannot be sustained by the current influence-side structures. | Open source-side retargeting, transformed-architecture retargeting, joint change, and bounded mismatch as alternatives. |
+| `InverseConwayNoSourceChange` | The text says inverse Conway but names no selected influence-source structure change. | Name that exact structure, affected characteristic, migration burden, loss, and receiving pattern or drop the inverse-Conway claim. |
+| `SourceChangeNoTransformedPressure` | A source-side organization, method, line, or toolchain change has no transformed architecture characteristic under pressure. | Route the change to its direct Work or organization-governance pattern until the architecture pair is current. |
+| `CoordinationCostHidden` | Visible coupling falls while Work, evidence, approval, manufacturing, or operational coordination rises elsewhere. | Name the exact influence source and relation carrying that pressure; add candidates that expose the shifted cost. |
+| `MirroringNoExceptionTest` | Mirroring is used without preserved or lost structure, an exception, or an evolution window. | Keep it as diagnostic pressure or use C.29 for the declared lens. |
+| `PairFlattenedIntoNetwork` | One architecture pair is called the entire transformation-flow network. | Restore E.18.NET identity and keep the pair as one optional qualified reading. |
+| `BoundedMismatchHidden` | A known mismatch is kept without cost or trigger. | Record bounded use, exception cost, source return, and reopen trigger. |
 
 ### C.32.CONWAY:9 - Consequences
 
 | Positive consequence | Cost or trade-off |
 |---|---|
-| Conway pressure is handled as architecture synthesis work rather than as a metaphor. | The practitioner must map two sides and the changing relation. |
-| Inverse Conway work supplies candidate architecture changes with gains and losses. | Changing the transformer side can be organizationally or technically expensive. |
-| Desired transformed-holon architectures are checked against transformer-side production, maintenance, evidence, and evolution structures. | Some attractive transformed-holon architectures are rejected as unfit for the declared evolution window. |
-| Organization, work, method, tool, and module structures stay distinct. | More receiving-pattern exits may be needed before comparison. |
-| Structural-similarity claims are not smuggled into architecture adequacy. | Formal correspondence may require C.29 or later structural-equivalence work. |
+| Architecture influence can guide synthesis without granting agency. | Actor, Work, changing, and influence relations must be grounded separately. |
+| Exact pair rows can be reused across current network records. | Each reuse must preserve pair, relation occurrence, qualification window, and claim scope. |
+| Inverse-Conway work produces explicit candidate changes and bounded mismatches. | Some familiar “transformer architecture” shorthand must be expanded into several facts. |
+| Changed referent and transformed architecture stay recoverable. | A useful local frame may remain below exact-row assertion when the governor is missing or case facts remain unresolved. |
+| Network recursion remains with E.18.NET. | One pair row cannot stand in for the whole network or its cross-flow relations. |
+| Candidate architectures are checked against source-side production, testing, maintenance, evidence, and evolution arrangements. | Changing the influence-source side can be expensive; an attractive transformed-side candidate may therefore be rejected for the current evolution window. |
+| Organization, Work, method, tool, and module claims are routed to their direct owners instead of being hidden in an architecture-pair result. | This separation may require the practitioner to follow several separately governed exits before comparison. Mirroring supplies candidate pressure, not architecture adequacy; use C.29 when the claim is structural similarity or preservation. |
 
 ### C.32.CONWAY:10 - Rationale
 
-Conway and inverse Conway are important because architecture work is not done by an abstract architect outside the world. The holon that changes another holon has its own architecture. That architecture can shape feasible candidate architectures for the changed holon.
+Architectures do not act. Systems act in roles, and dated Work is performed under assignments when performance is claimed. Architectures, selected structures, Work arrangements, communication structures, constraints, and candidate-synthesis results can nevertheless influence which transformed architecture is feasible. C.32.CONWAY is useful precisely because it relates those facts without merging them.
 
-The nontrivial work is to make both sides visible as selected structures in a candidate synthesis frame. Then the practitioner can prepare four alternatives that the next comparison, selection, choice, or decision step can actually use: change the transformer, change the transformed architecture, change both, or keep a bounded mismatch. This is architecture synthesis; similarity-based adequacy, organization-design decisions, organization-design authority relations, and publication discipline belong to their governing patterns when those claims are being made.
+The exact pair row gives one obtaining architecture-influence or correspondence occurrence a reusable episteme. The larger frame remains useful when a project has enough information to prepare candidates but not enough to assert that exact row. This preserves practical forward motion while keeping the exact relation status visible: missing governor, unresolved grounding, false predicate, or satisfied affirmative case.
+
+The four candidate forms remain: change the influence-source side, change the transformed architecture, change both, or keep a bounded mismatch. The split between actor facts and influence facts changes their grounding, not their constructive purpose.
 
 ### C.32.CONWAY:11 - SoTA-Echoing
 
-These rows document transfers from source practice into C.32.CONWAY. Each row states which field, repair row, or boundary the draft sets or revises from the source. The source family is used as architecture practice support, not as an ontology import.
+These rows document transfers from source practice into C.32.CONWAY. Each row states which field, repair row, or boundary the draft sets or revises from the source. The source family supports architecture practice; it does not decide actor identity or make a relation obtain.
 
 | Source to inspect | Why this source is load-bearing here | Transfer into C.32.CONWAY | Concrete C.32.CONWAY mutation | Blocked overread |
 |---|---|---|---|---|
-| Melvin Conway, `How Do Committees Invent?` (`https://www.melconway.com/Home/Committees_Paper.html`) | Original mature source for the relation between a design organization and the structure of the designed system. It also states the graph-like correspondence idea that later practice uses as Conway's law. | Treat communication and design organization as pressure on architecture candidates. | The frame requires `transformerHolonRef`, `transformedHolonRef`, selected structures on both sides, architecture characteristics under pressure, and `correspondenceClaims`. | The correspondence claim must say which transformer structures constrain which transformed structures, and what candidate change or bounded exception follows. |
-| MacCormack, Rusnak, and Baldwin 2012 mirroring hypothesis (`https://doi.org/10.1016/j.respol.2012.04.011`) and Colfer and Baldwin 2016 exceptions survey (`https://www.hbs.edu/ris/Publication%20Files/16-124_7ae90679-0ce6-4d72-9e9d-828872c7af49.pdf`) | Empirical and theory line for product and organization architecture mirroring, including exceptions. It keeps the pattern from treating mirroring as adequacy. | Use correspondence as a hypothesis evaluated across selected structures and exceptions. | Failure-mode rows add mirror-as-adequacy and static-correspondence guards; conformance requires source-return and C.29 use for structural similarity claims. | A mirrored structure must still be evaluated against architecture characteristics, exception cost, and a receiving claim pattern before it can guide a candidate. |
-| DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`) | Current practitioner line tying architecture, team independence, testing, deployment, coordination load, and inverse Conway. It is load-bearing because it gives observable architecture characteristics, not only terminology. | Treat independent change, testability, deployability, and coordination load as architecture characteristics under pressure when transformer-side structures constrain transformed-holon change. | Solution and checklist require affected architecture characteristics; repair cue `TransformedArchitectureNoTransformerFit` opens inverse-Conway or transformed-architecture retargeting as the candidate-change question. | Evidence about microservices, team autonomy, or work-transfer count must be mapped to selected structures and architecture characteristics before it guides a candidate. |
-| Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current organization-design pattern family for fast flow, team interaction modes, cognitive load, platform teams, and evolving team boundaries toward a desired transformed architecture. | Team types and interaction modes are transformer-side selected structures or candidate-change inputs when they shape architecture synthesis. | Row `inverseConwayRetargeting` and worked cases require migration cost, interaction burden, and evolution window. | Team-topology vocabulary must be converted into selected transformer structures, interaction burden, and candidate-change cost before module-interface, work-authorization, or decision claims are handled by their receiving patterns. |
-| Current FPF `A.3.4`, `A.3.4.P`, `E.18`, `A.15`, `A.6.M`, `C.29`, `C.32`, `C.32.MLAO`, and `C.32.FAIL` | Governing local ontology for bounded transformation, transformation-flow structure, work and role claims, module-interface repair, mathematical-lens use, candidate synthesis, residual reduction, and failure repair. | Recover the changing relation and selected structures before using Conway wording. | Relations and conformance rows assign stronger claims to exact receiving patterns and keep C.32.CONWAY inside candidate synthesis. | No new `U.Conway`, no new `U.Correspondence`, no local adequacy kind, and no bypass around architecture-decision work. |
+| Melvin Conway, `How Do Committees Invent?` (`https://www.melconway.com/Home/Committees_Paper.html`) | Original source for pressure between communication arrangements and the structure of designed systems. | Treat communication and organization architecture as influence on candidates. | `influenceSourceRows[]` and the exact pair row name the source architecture, transformed architecture, selected structures, relation occurrence, and changed referent. | The organization or its architecture is not inferred to be the acting system; candidate pressure is not a universal Conway relation. |
+| MacCormack, Rusnak, and Baldwin 2012 mirroring hypothesis (`https://doi.org/10.1016/j.respol.2012.04.011`) and Colfer and Baldwin 2016 exceptions survey (`https://www.hbs.edu/ris/Publication%20Files/16-124_7ae90679-0ce6-4d72-9e9d-828872c7af49.pdf`) | Empirical and theory line for product-architecture and organization-architecture mirroring and exceptions. | Use mirroring as a correspondence hypothesis over selected structures and an evolution window. | Failure and conformance rows require affected characteristics, exceptions, source return, and C.29 for structural-similarity claims. | Mirroring does not establish adequacy, actor equality, relation occurrence, or an entire network. |
+| DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`) | Practitioner line tying architecture, team independence, testing, deployment, and coordination load. | Treat those arrangements as typed influence sources when they constrain a service architecture candidate. | Candidate forms expose source-side retargeting, transformed-side retargeting, joint change, and bounded mismatch. | Team autonomy or work-transfer counts do not identify actors, Work, or an architecture-influence occurrence without their direct facts. |
+| Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Organization-design family for fast flow, interaction modes, cognitive load, platform teams, and evolving boundaries. | Use team types and interaction modes as candidate influence sources, not acting kinds. | Influence-source rows retain exact source kind and relation; candidate rows retain migration cost, burden, and evolution window. | Team-topology vocabulary does not create role assignment, Work, module relation, authority, or decision claims. |
+| Current FPF `A.12`, `A.15.1`, `A.3.4`, `A.3.4.P`, `E.18`, `E.18.NET`, `A.6.M`, `C.29`, `C.30`, `C.32`, `C.32.MLAO`, and `C.32.FAIL` | Governing ontology for acting systems, role assignment, Work, bounded change, flow structures and networks, module repair, lens use, architecture claims, candidate synthesis, residual reduction, and failure repair. | Recover participants and direct relations before using Conway wording. | Performer rows, influence rows, exact pair assertion, network-qualified reading, and receiving-pattern exits are separately checkable. | No root Conway kind, universal correspondence relation, acting architecture, or bypass around decision, Work, evidence, or network selection. |
 
-**Source-currentness boundary.** Use each source row only for the C.32.CONWAY field, repair row, or boundary named in that row. Recheck the row when the project's transformer structures, transformed structures, evolution window, source practice, or named receiving FPF pattern changes. If the source row no longer supports the local selected-structure correspondence, lower it to background lineage and keep the candidate frame only when the local architecture-characteristic pressure remains recoverable.
+**Source-currentness boundary.** Recheck a row when the changed referent, acting and performance facts, influence source or relation, architecture pair, selected structures, evolution window, source practice, or receiving pattern changes. If the source no longer supports the selected local pressure, lower it to background lineage; do not preserve a technical claim by name alone.
 
 ### C.32.CONWAY:12 - Relations
 
-- **Builds on:** `C.32` for candidate architecture synthesis, `A.3.4` and `A.3.4.P` for bounded change recovery, `E.18` for transformation-flow structure, `A.15` and role patterns for work and responsibility, `A.6.M` for module-interface relation repair, and `C.30` for grounded architecture over selected structures.
-- **Uses:** `C.32.MLAO` when the correspondence problem is a cross-scope or interlevel residual; `C.32.FAIL` when a Conway or inverse-Conway cue first appears as a repair failure; `C.29` when structural similarity, preservation, homomorphism-like mapping, or equivalence is being claimed.
-- **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, `C.32.PAD` for project architecture decisions, `A.10` for evidence sufficiency, `B.3` for assurance, `A.20` or `A.21` for gate or release claims when those claims are being made, and method, work, or organization-governance patterns when those claims are being made.
-- **P2S docking:** `C.32.P2S` uses C.32.CONWAY when a problem-to-structure flow must co-synthesize selected structures of the transformer holon and the transformed holon under one changing relation.
-- **Boundary:** C.32.CONWAY governs correspondence framing inside architecture candidate synthesis. It does not govern organization-redesign decisions, organization-redesign authority relations, work authorization, evidence sufficiency, assurance, gate passage, release, structural-equivalence theory, or final architecture decision.
+- **Builds on:** `C.32` for candidate architecture synthesis; `C.30` for `ArchitectureOf@Context`; `A.3.4` and `A.3.4.P` for the changed referent and bounded change; `A.12` and `A.15.1` for acting system, role assignment, dated Work, performed-under-assignment, and multiple-performer forms; direct subject relation owners for acting, Work-to-change, and influence occurrences; `A.6.REL` when this episteme consumes occurrence identity; `E.18` for one TFS; and `E.18.NET` for network identity and exact cross-member relations.
+- **Uses:** `C.32.ACS` for current architecture-characteristic criteria rows; `C.25` for composite Q-Bundles and their declared slots; `C.32.MLAO` for a cross-scope residual; `C.32.FAIL` for a correspondence repair failure; `C.29` when structural similarity, preservation, mapping, or equivalence is claimed; and `A.6.P.WMR` and `A.6.RCD` when a required direct relation cannot be recovered.
+- **Receiving patterns:** `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set publication, `C.18` and `C.19` for archive, front, or pool treatment, `C.11` for fixed local choice, `C.32.PAD` for architecture decisions, `A.10` for evidence, `B.3` for assurance, `A.20` or `A.21` for gate or release claims, and direct method, Work, or organization-governance patterns when those claims are current.
+- **Network boundary:** an `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` may be cited as one qualified reading in `architectureCorrespondenceRowRefs[]`; it is not the network and does not satisfy an E.18.NET cross-flow relation without the separately grounded obtaining occurrence and endpoint bindings. Its optional singular row locator qualifies only the exact current citing record it names.
+- **P2S docking:** `C.32.P2S` may use C.32.CONWAY when a problem-to-structure flow needs one exact architecture-influence/transformed-architecture pair. It does not infer performer or influence facts from the flow card.
+- **Boundary:** C.32.CONWAY governs correspondence framing and one exact reusable architecture-pair episteme inside candidate synthesis. It does not govern actor identity, Work occurrence, organization redesign, authority, evidence sufficiency, assurance, gate passage, release, structural-equivalence theory, final architecture decision, or transformation-flow-network identity.
 
 ### C.32.CONWAY:13 - Footer marker
 
-`C.32.CONWAY` governs architecture candidate synthesis where selected structures of a changing holon and selected structures of the changed holon must be co-synthesized under Conway, mirroring, or inverse-Conway pressure.
+`C.32.CONWAY` governs candidate synthesis where one exact architecture or other typed source influences a transformed-architecture candidate through a governed relation. It keeps the changed referent, acting and performance facts, influence-source facts, one architecture pair, and any larger network separately recoverable.
 
 ### C.32.CONWAY:End
 
 ## C.32.MLAO - Multilevel Architecture Residual Optimization
 
 > **Type:** Architectural subpattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.MLAO:1 - Problem frame
@@ -65093,7 +65321,7 @@ These rows document transfers from source practice into C.32.MLAO. Each row stat
 ## C.32.FAIL - Architecture Failure Recognition and Repair
 
 > **Type:** Architectural subpattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.FAIL:1 - Problem frame
@@ -65329,7 +65557,7 @@ These rows document transfers from source practice into C.32.FAIL. Each row stat
 ## C.32.PAD - Project Architecture Decision After Candidate Synthesis
 
 > **Type:** Architecture decision pattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.PAD:1 - Problem frame
@@ -65631,7 +65859,7 @@ C.32.PAD closes when `ArchitectureDecisionRelation@Project` names the decision s
 ## C.32.ADR - Architecture Decision Record Projection
 
 > **Type:** Architecture publication pattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.ADR:1 - Problem frame
@@ -65855,7 +66083,7 @@ C.32.ADR closes when `ArchitectureDecisionRecordProjection@Project` cites the de
 ## C.32.ADA - Architecture Decision Adequacy Scales
 
 > **Type:** Architecture evaluation pattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.ADA:1 - Problem frame
@@ -75516,7 +75744,7 @@ The opposite failure is also common: every bounded use is burdened with a shortl
 | Light ordinary use | A reversible question with fast feedback should be handled in conversation or a short note. |
 | Durable reliance | Transfer, audit, automation, delayed feedback, expensive feedback, or hard reversal can rely on addressable distinctions. |
 | Result honesty | A generated description or plan does not establish a physical change, clinical outcome, learned capability, organizational change, or performed work. |
-| Flow locality | Pattern selection, selected-pattern application, and downstream subject work can have different results even when one result later supports another flow. |
+| Flow locality | Pattern selection, selected-pattern application, and downstream subject work can have different results. When one result later participates in another TFS, name both exact positions and the direct relation. |
 | Recoverable return | A wrong pattern, missing basis, stronger neighbor, or changed question is represented by a named return rather than silent improvisation. |
 
 ### E.11.PUA:4 - Solution
@@ -75530,7 +75758,8 @@ The acting `U.System` works under a `U.RoleAssignment`: it selects, constructs, 
 Use this conceptual dependency structure. It states semantic dependencies and possible results, not a workflow, form, interface, serialization, or instruction to materialize every position:
 
 ```text
-current EntityOfConcern + bounded context + practical question
+current EntityOfConcern + effective ReferenceScheme + practical question
+  -> exact ClaimScope, project-work relation, or model-use structure only when current
   -> optional accepted problem-side material when current
   -> public-template or direct-pattern inspection
   -> selected or rejected direct pattern under a fit reason
@@ -75569,11 +75798,13 @@ When one named later use needs a compact replay carrier but not the fuller candi
 
 ```text
 CompactPatternUseTrace@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
   referenceSchemeRef: U.ReferenceSchemeRef
+  claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
+  modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
+  projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   practicalQuestionDescriptionRef: U.EpistemeRef
   consideredDirectPatternRef: U.EntityRef, referencing one U.MethodDescription
@@ -75590,7 +75821,7 @@ CompactPatternUseTrace@Context <: U.Episteme:
   conditionalReceivingPatternRef?: U.EntityRef, referencing one U.MethodDescription
 ```
 
-The trace is absent from ordinary conversational use. When materialized for a named reliance, the expected-result signature is present exactly when the expected kind admits a relation. A selected pattern may have an obtained result; a rejected pattern leaves obtained-result positions absent. A return names its receiving pattern; a stop does not.
+The trace is absent from ordinary conversational use. When materialized for a named reliance, C.2.1 identifies it through claim content, exact EntityOfConcern, and effective reference scheme. `claimScopeRef`, `modelUseStructureRef`, and `projectWorkRef` are present only when the exact neighboring relation changes the pattern use; they are not additional episteme-identity fields, and the reference alone does not make that relation obtain. The expected-result signature is present exactly when the expected kind admits a relation. A selected pattern may have an obtained result; a rejected pattern leaves obtained-result positions absent. A return names its receiving pattern; a stop does not.
 
 #### E.11.PUA:4.2.1 - Admitted support species and governing patterns
 
@@ -75606,17 +75837,21 @@ CandidatePatternUse@Context <: U.Episteme
 PatternUseApplicabilityFinding@Context <: U.Episteme
 ```
 
+`@Context` in these legacy support-species names is a compatibility and retrieval suffix. It names no `U.BoundedContext`, universal situation, project container, relation, or identity field. Every support episteme follows C.2.1 identity. Claim scope, bounded model use, project work, qualification window, and other working conditions enter only through the exact neighboring object and direct relation needed by the receiving use.
+
 PUA governs the practical question, optional compact trace, candidate basis, candidate support episteme, candidate rationale, and actual-result closure. `E.11` governs public card comparison rationale. `E.11.PUR` governs fit, applicability, recommendation, coordination rationale, coordination, and ordering. These relations consume A.6.5 SlotSpec discipline; A.6.5 does not govern their identity.
 
 #### E.11.PUA:4.3 - Question, boundary, and expectation
 
 ```text
 PracticalUseQuestion@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
   referenceSchemeRef: U.ReferenceSchemeRef
+  claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
+  modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
+  projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   questionDescriptionRef: U.EpistemeRef
 
@@ -75651,14 +75886,13 @@ The expectation never proves that the result exists. `return`, `wrongTurnRecover
 
 #### E.11.PUA:4.4 - Candidate basis under named reliance
 
-Construct a durable candidate only after inspecting the direct pattern's Problem frame, Problem, Forces, Solution, Consequences, and ordinary boundary. A public README template can supply a reusable starting point, but current project values come from the bounded context.
+Construct a durable candidate only after inspecting the direct pattern's Problem frame, Problem, Forces, Solution, Consequences, and ordinary boundary. A public README template can supply a reusable starting point, but current project values come from the exact EntityOfConcern, practical question, effective reference scheme, and any current claim-scope, project-work, model-use, qualification-window, or other direct relation named by value.
 
 ```text
 CandidatePatternUseBasisRelation@Context <: U.Relation:
   publicTemplateRef?: U.EpistemeRef, referencing one PublicCandidatePatternUseTemplate@FPFReadme
   directPatternRef: U.EntityRef, referencing one U.MethodDescription
   directSolutionSectionRef: U.EntityRef, referencing the E.17 PublicationUnit containing the direct pattern's Solution
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
@@ -75668,8 +75902,8 @@ CandidatePatternUseBasisRelation@Context <: U.Relation:
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
   RelationRefKind: U.EntityRef
   Direction: <entityOfConcernRef, practicalUseQuestionRef, directPatternRef> -> candidatePatternUseRef
-  Dependence: bounded-context local to the direct pattern, question, expectation, and candidate editions
-  Identity: <boundedContextRef, entityOfConcernRef, practicalUseQuestionRef, directPatternRef, directSolutionSectionRef, resultExpectationRef, candidatePatternUseRef>
+  Dependence: local to the exact direct pattern, question, expectation, candidate editions, and any additional basis relation named below
+  Identity: <entityOfConcernRef, practicalUseQuestionRef, directPatternRef, directSolutionSectionRef, resultExpectationRef, candidatePatternUseRef>
 
 CandidatePatternUseAdditionalBasisRelation@Context <: U.Relation:
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
@@ -75680,15 +75914,17 @@ CandidatePatternUseAdditionalBasisRelation@Context <: U.Relation:
   basisUseDescriptionRef: U.EpistemeRef
   RelationRefKind: U.EntityRef
   Direction: basisValueRef -> candidatePatternUseRef for basisUseDescriptionRef
-  Dependence: bounded-context local to the candidate and basis value editions
+  Dependence: local to the candidate, basis value, exact governing relation, and their current editions
   Identity: <candidatePatternUseRef, basisValueRef, basisValueKindRef, basisRelationSignatureRef if present, basisUseDescriptionRef>
 
 CandidatePatternUse@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
   referenceSchemeRef: U.ReferenceSchemeRef
+  claimScopeRef?: U.EntityRef, referencing one U.ClaimScope
+  modelUseStructureRef?: U.EntityRef, referencing one BoundedModelUseStructure
+  projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
   problemCardRef?: U.EpistemeRef, referencing one ProblemCard@Context
@@ -75747,7 +75983,7 @@ PatternUseActualResultReceivingUseDispositionRelation@Context <: U.Relation:
   Identity: <candidatePatternUseRef, resultExpectationRef, actualResultRef, resultFlowPosition, receivingUseRealizationState, realizedReceivingUseRelationRef if present, intendedReceivingUseDescriptionRef if present>
 ```
 
-Candidate, expectation, actual result kind, conditional relation signature, and flow position agree. Path slice and `DesignRunTag` are both present when cross-flow provenance is asserted and both absent otherwise. A result from one flow may become an input, tool, context, or constraint in another flow without changing kind; E.18 carries its new relation position, transfer or crossing relation, and the current `DesignRunTag` boundary.
+Candidate, expectation, actual result kind, conditional relation signature, and flow position agree. Path slice and `DesignRunTag` are both present only when the exact result-producing position and its one TFS are already recoverable under E.18; otherwise both are absent. These fields are local provenance cues, not identifiers for another TFS, a network, or a cross-flow relation. When ordinary language says that a result from one TFS is used as an input, tool, context, or constraint in another, treat those words only as cues. Name the exact position that holds the result and the exact receiving position—one `FlowPositionRef` for each—plus the directly governed relation occurrence connecting their participants, and keep the result's kind unchanged. With no direct relation kind or predicate, return `missing-governor`; with a governor but undecided facts, leave the relation open and name the grounding boundary; with a false predicate, assert no occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. Use E.18 for each TFS-local position and its local `DesignRunTag`; use E.18.NET only when the independently identified TFS values must be treated together as a network. No input, tool, context, constraint, or adjacency label supplies the direct relation.
 
 In the `realized` state, the exact receiving-use relation, kind, and signature are present, while intended-use description and realization condition are absent. In `intendedNotYetRealized`, the intended-use description and realization condition are present, while realized relation positions are absent.
 
@@ -75837,7 +76073,7 @@ The continuable-work description says what project work can proceed from this st
 
 For immediate `ordinaryBounded` use, recover from the conversation the working subject and question, the direct pattern inspected, the useful result produced or grounded, and the stop or return. Do not reconstruct a candidate dossier merely to replay a cheap local use.
 
-When a named later use relies on fuller replay, recover the exact concern, bounded context, practical question, selected direct pattern and edition-pinned Solution, expected result kind and conditional relation signature when applicable, flow position, grounded actual or honest interim result, receiving-use disposition, and stop or return boundary from the support relations materialized for that reliance.
+When a named later use relies on fuller replay, recover the exact EntityOfConcern, effective reference scheme, practical question, selected direct pattern and edition-pinned Solution, expected result kind and conditional relation signature when applicable, flow position, grounded actual or honest interim result, receiving-use disposition, and stop or return boundary from the support relations materialized for that reliance. Add claim scope, project work, model-use structure, qualification window, or another working condition only through its exact neighboring relation when that relation changes the replayed use.
 
 Recheck the smallest affected claim or relation when the concern, candidate basis, direct Solution, expected result, result grounding, flow position, receiving-use condition, or boundary changes. Reopen pattern selection only when that change alters candidate fit; a new measurement of the same result does not by itself select another pattern. `G.11` governs edition, telemetry, currentness-window, and decay orchestration; PUA supplies the use-specific values and change conditions that orchestration inspects.
 
@@ -75855,7 +76091,9 @@ An architecture team already has a bounded comparison question but no accepted `
 
 #### E.11.PUA:5.1b - A selection result can support later planning
 
-Pattern-selection work under E.11.PUR produces a `PatternUseRecommendation@Context`. That recommendation is a `patternSelectionFlowResult`. A later PUA use applies the recommended planning pattern and produces a `U.WorkPlan` as a separate `selectedPatternApplicationFlowResult`. E.18 may relate the recommendation to the later use through an explicit crossing, but neither the recommendation nor the plan becomes the machined component expected from downstream subject work.
+Pattern-selection work under E.11.PUR produces a `PatternUseRecommendation@Context`. That recommendation is a `patternSelectionFlowResult`. A later PUA use applies the recommended planning pattern and produces a `U.WorkPlan` as a separate `selectedPatternApplicationFlowResult`. If the recommendation participates in the later TFS, name its exact source position, exact receiving position, and directly governed use-relation occurrence. If that occurrence cannot be established, keep the recommendation and later use separate and state the exact `missing-governor`, unresolved-grounding, false-predicate, or missing-endpoint-binding boundary. Neither the recommendation nor the plan becomes the machined component expected from downstream subject work.
+
+**Build-the-builder recognition case.** An executable compiler edition occupies one exact result position (`FlowPositionRef`) in a compiler-build TFS and is used at one exact compiler-use position (`FlowPositionRef`) in a separately identified program-compilation TFS through a directly governed compiler-use relation occurrence. The compiler edition keeps its kind. Return to E.18 when either TFS-local position is unresolved; return to E.18.NET when the question is how the separately identified build and compilation TFS values form a network, including a recursive one. With no compiler-use kind or predicate, return `missing-governor`; with undecided case facts, keep the relation open; with a false predicate, assert no compiler-use occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. None of these branches permits calling the compiler edition the second flow's input by label alone.
 
 #### E.11.PUA:5.1c - AI-assisted ordinary use returns the subject result
 
@@ -75930,13 +76168,13 @@ The trace measure improved while subject progress worsened. Keep completeness as
 | Fill the candidate record first | The record freezes a choice before the Solution and boundary are understood. | Inspect first; materialize the candidate only for a named reliance. |
 | Report generated text as the result | Text can describe a physical, clinical, organizational, or learned result without producing it. | Name the exact interim episteme and leave the subject expectation open. |
 | Treat a support record as proof | A well-formed record proves only that fields were written. | Ground inspection, work, result, evidence, and receiving-use relations through their direct patterns. |
-| Copy a result between flows | The same entity may occupy a new relation position, but its kind and provenance do not change by narration. | Use E.18 transfer or crossing relations and keep each flow-local result position. |
+| Call one result the next flow's input | The same entity may participate in another TFS as an input, tool, context, constraint, or other governed participant without changing kind, but those labels and adjacency do not identify its relation. | Name the exact source and receiving positions—one `FlowPositionRef` for each—and the directly governed relation occurrence. If it does not obtain, keep the positions separate and state the exact `missing-governor`, unresolved-grounding, false-predicate, or missing-endpoint-binding boundary. Use E.18 for each TFS-local position and E.18.NET only for the network of independently identified TFS values. |
 
 ### E.11.PUA:9 - Consequences
 
 **Benefits.** A cold reader can apply one pattern and reach a useful result without learning a meta-workflow. Ordinary use remains light, while high-reliance use can preserve basis, expectation, result, and receiving-use distinctions. Physical, clinical, learned, organizational, work, and epistemic results receive the same kind discipline without being forced into one product family.
 
-**Costs.** A success claim is complete only after the result kind and stop condition are named. Reliance-bearing use adds addressable epistemes and relations. Cross-flow uses are represented through explicit E.18 positions instead of one narrative chain.
+**Costs.** A success claim is complete only after the result kind and stop condition are named. Reliance-bearing use adds addressable epistemes and relations. Cross-flow participation requires both exact TFS-local positions and the directly governed relation; E.18.NET is added only when independently identified TFS values must be treated together as a network.
 
 ### E.11.PUA:10 - Rationale
 
@@ -75952,7 +76190,7 @@ The first result boundary prevents proxy completion. A plan, note, simulation, o
 | --- | --- | --- |
 | Pattern-language practice: situation recognition, conditional solution, consequences, and neighboring-pattern composition | Begin with direct inspection of the full pattern rather than title matching, then apply one conditional Solution to a bounded result. | Adopt the conditional-use logic. Reject recipe following and pattern-ID matching as sufficient application. |
 | Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759 (2026) | Make bounded inspection, wrong-turn recognition, and explicit return part of the ordinary use rather than assuming one perfect first selection. | Adapt the navigation result to pattern use. The preprint does not decide FPF ontology, shortlist size, or whether records are needed. |
-| Current FPF `A.10`, `B.3`, `E.18`, `C.2.1`, and `G.11` evidence, assurance, flow, support-episteme, and currentness practices | Keep basis, result kind, receiving use, and flow provenance addressable when another participant or system will rely on them later. | Adapt conditionally through `relianceBearing`; reject universal trace production for cheap reversible use and keep evidence, assurance, and currentness claims with their governing patterns. |
+| Current FPF `A.10`, `B.3`, `E.18`, `E.18.NET`, `C.2.1`, and `G.11` evidence, assurance, TFS-local position, network, support-episteme, and currentness practices | Keep basis, result kind, receiving use, exact local positions, direct relation, and any current network reading addressable when another participant or system will rely on them later. | Adapt conditionally through `relianceBearing`; reject universal trace production and universal cross-flow edges, and keep evidence, assurance, direct-relation, network, and currentness claims with their governing patterns. |
 | Current FPF `E.11`, `E.11.PUR`, and A.15 | Separate public discovery, one selected-pattern use, recommendation or coordination, intended work, and performed work. | Adopt as the governing ontology for those boundaries. PUA adds only the user-side use method and its dependent relations. |
 
 The practical implication is direct: inspect enough to detect a wrong turn, record only what a named later use needs, and never infer a subject result from the existence of its trace.
@@ -75963,7 +76201,7 @@ The 2026 navigation study is a current preprint anchor rather than settled conse
 
 ### E.11.PUA:12 - Relations
 
-- **Builds on:** `E.11` for public practical-use guidance, `E.8` for action-guiding pattern form, `E.18` for coupled-flow positions, `A.15` for planning and work, `C.2.1` for support epistemes, and `A.6.5` for slot discipline.
+- **Builds on:** `E.11` for public practical-use guidance, `E.8` for action-guiding pattern form, `E.18` for each TFS-local position and local `DesignRunTag`, `E.18.NET` when independently identified TFS values form a network, direct subject owners for every cross-flow relation occurrence, `A.6.P.WMR` and `A.6.RCD` when its governor or direct claim cannot be recovered, `A.15` for planning and work, `C.2.1` for support epistemes, and `A.6.5` for slot discipline.
 - **Coordinates with:** `E.11.PUR` for applicability, recommendation, and coordination; `E.18.1` for accepted problem-to-work carry-through; `E.22` and `E.23` for evaluation and repeated improvement; `G.11` for currentness orchestration; and each direct pattern that governs the selected result.
 - **Returns to:** `E.11` when no direct pattern is yet selected, `E.11.PUR` when recommendation or ordering among several candidate uses is current, and the exact subject pattern when the result or work claim leaves PUA's boundary.
 
@@ -81308,7 +81546,7 @@ Heavier declaration comes only after the ordinary card already holds.
 
 Provide a notation-independent pattern for `TransformationFlowStructure`: a selected compound structure whose loci may bind independently identified actual `U.Transformation` values and transformation-adjacent governed values. The EntityOfConcern is the selected structure itself: loci for those transformations and adjacent governed values, one typed `U.Transfer` relation, and Eulerian or declarative valuations over paths or path slices inside the same selected structure. A locus may designate or bind an actual `U.Transformation` only after `A.3.4` independently grounds the exact occurrence from its changed referent, temporal extent or formal ordering boundary, boundary conditions, actual change facts, and continuity or reidentification rule; neither the locus nor the use admits that occurrence. A locus may express, constrain, or locate that bounded transformation, or it may bind a signature, mechanism, work plan, performed work, check, structural reinterpretation, publication, evidence, result, or refresh value that participates in or constrains transformations without becoming the transformation. The selected structure, a flow arrow, adjacency, shared work, a selected or desired structure, a method, `MethodDescription`, `WorkPlan`, model, description, evaluation result, publication, transfer, or common affected referent establishes neither an actual transformation nor transformation composition. Crossings appear at gates; publication faces appear through MVPK; comparable claims pin editions, reference planes, Bridge and CL notes, and refresh scope. Mathematical descriptions of this selected structure, including graph, algebra, category, tuple, path, slice, morphism, quotient, fold, refinement, factorization, or wiring expressions, are governed by `E.18.2` and `C.29` when lens adequacy matters.
 
-**Use this when.** Use E.18 when project work needs one selected transformation-flow structure, path, path slice, crossing, gate, flow valuation, or refresh locus over `U.Transfer`; use the named governing pattern when the current EntityOfConcern is a work plan, performed work, method semantics, publication face, mathematical description, or wording-use cue rather than the selected structure.
+**Use this when.** Use E.18 when project work needs one exact selected transformation-flow structure, an internal position or portion of it, a path or path slice, a crossing or gate, a flow valuation, or a refresh locus over its internal `U.Transfer` occurrences. Several valuations belong here only when they resolve to that same TFS; a detailed portion belongs here as a `SubflowRef` only while all of its positions and transfers resolve inside one exact parent TFS. If the case needs two independently identified TFS values, or nested networks of them, plus an exact relation across their boundaries, use `E.18.NET`. Use the named governing pattern when the current EntityOfConcern is a work plan, performed work, method semantics, publication face, mathematical description, or wording-use cue rather than the selected structure.
 
 **First useful structure use.** Name the selected transformation-flow structure, the locus kinds, the single `U.Transfer` relation, and the crossing, path, or path slice whose pins are required. For the ordinary case, this is enough: `TransformationFlowStructure`, current `PathId` or `PathSliceId` when a path or slice is the EntityOfConcern, locus kinds, one `U.Transfer`, and only the crossings or pins required by that application.
 
@@ -81338,7 +81576,9 @@ This slice names the selected structure and its governed loci first. If dated `L
 | transformation locus | an E.18 locus, path, path slice, substructure, or valuation used to express, constrain, or locate one independently identified actual bounded `U.Transformation` | actual only after the `A.3.4` occurrence basis is grounded; placement, adjacency, shared work, or a common affected referent establishes neither actuality nor composition |
 | functional behavior in a flow | a required-behavior claim positioned in the selected structure, or an actual functioning claim whose bounded change is independently grounded as one `U.Transformation`, with any selected flow position, path, slice, crossing, or valuation named by value | required behavior is not actual change; neither claim is identical with `FunctionalElement@Context`, the transformer system, a module allocation, a method occurrence, or a work occurrence |
 | slot-filler locus | a structure-positioned signature, mechanism, work plan, performed work, check, structural reinterpretation, publication, evidence, result, refresh, or other governed value | not a transformation merely by structure membership |
-| flow valuation | an Eulerian or declarative valuation over a path, path slice, state, guard, comparator, or budget over the selected structure | not a flowing object, imperative action sequence, second structure kind, or performed work |
+| flow valuation | an Eulerian or declarative valuation over a path, path slice, state, guard, comparator, or budget over one exact selected structure | not a flowing object, imperative action sequence, second structure kind, performed work, or evidence that two named flows share one TFS identity |
+| `FlowPositionRef` | the pair `<transformationFlowStructureRef, localFlowPositionId>` locating one structural position in one exact TFS | a valuation, path, slice, filling, `DesignRunTag`, value kind, or reference mode may bind a use of the position but does not enter its identity |
+| `SubflowRef` | one parent-relative internal portion selected by exact parent-TFS, included-position, included-parent-transfer, and boundary-position refs | not a new U-kind, standalone structure, second TFS, valuation, graph, view, or generic containment relation |
 | crossing or gate | a context, plane, edition, launch, or work-boundary change | not internal step validity or gate-decision publication by itself |
 | MVPK face | publication of selected structure, path, or crossing material | not the structure semantics and not evidence by itself |
 | refresh locus | the smallest path slice, crossing, edition pin, or publication face affected by change | not a whole-flow rewrite unless the whole flow is the changed locus |
@@ -81441,8 +81681,9 @@ with:
 **Term separation.** **Transfer** denotes the sole relation kind `U.Transfer` in the selected structure. **Transport** denotes Phi-governed conversion **policies and registries** (**`TransportRegistry^Phi`** under UNM). Wording "reuse via Transport" refers to registries and policies, not to an additional transfer relation.
 
 #### E.18:5.2 - S2 - Flows as valuations (paths, state, and guards)
-* A **Flow** is a **valuation** `nu` over `U.Transfer` relations and cut-sets, paired with an **admissible path** `p = v0 -> ... -> vk` in the selected structure. The valuation maps transfer relations or cut-sets to token and state values under `CtxState` and links publication-event records to a declared `PublicationScopeId`; it is not itself the performed work. The concrete pins and identifiers (`PathId`, `PathSliceId`, Gamma_time on compare and launch faces) are governed here as path and slice publication obligations and by `A.20` when CV witnesses are current; use `G.6` for evidence-provenance path visibility and `G.11` for refresh wiring. This reflects the "selected structure != flow" norm (flow = valuation), with gates placed exactly on GateCrossings.
-* **Multiple coupled flows.** One `TransformationFlowStructure` may contain several coupled flow valuations: a development-flow valuation over work that creates or repairs a specification, pattern, process description, mechanism description, method set, tool, or work plan; an application-flow valuation over use of that product for another `EntityOfConcern`; and an evaluation or refresh-flow valuation over evidence that identifies a problem and a repair return to the smallest affected development or application locus. The selected structure relates those flow valuations through `U.Transfer`, `PathSlice`, edition-change, refresh, return, or feedback relations, but it does not merge their governed objects, records, launch values, evidence, gates, or performed work. The same product may be a run result of one flow and a design-side input, tool, or contextual object for another flow; that flow-local relation-position change is recorded by the current flow relation and any current `DesignRunTag` crossing, not by silently changing the object kind.
+* A **Flow** is a **valuation** `nu` over internal `U.Transfer` occurrences and cut-sets of one exact selected TFS, paired with an **admissible path** `p = v0 -> ... -> vk` in that structure. The valuation maps transfer occurrences or cut-sets to token and state values under `CtxState` and links publication-event records to a declared `PublicationScopeId`; it is not itself the performed work. The concrete pins and identifiers (`PathId`, `PathSliceId`, Gamma_time on compare and launch faces) are governed here as path and slice publication obligations and by `A.20` when CV witnesses are current; use `G.6` for evidence-provenance path visibility and `G.11` for refresh wiring. This reflects the "selected structure != flow" norm (flow = valuation), with gates placed exactly on GateCrossings.
+* **Several valuations of one TFS.** One `TransformationFlowStructure` may carry several flow valuations only after the use identifies the same exact TFS and its structural boundary for every valuation. For example, nominal-load and emergency-load valuations may differ in state values, paths, slices, or local `DesignRunTag` bindings while still using the same cooling-loop structure and the same internal transfer occurrences. Labels such as development, application, evaluation, refresh, or feedback do not establish that shared identity.
+* **Leave E.18 at a member boundary.** `U.Transfer` relates positions only inside that one selected TFS. When candidate flows have independently identified TFS boundaries, separate governed objects or Work occurrences, and a relation across their positions, keep each TFS and its valuations local and use `E.18.NET` with the exact direct relation governor. Do not turn `U.Transfer`, adjacency, a carried product, or a feedback arrow into a universal cross-flow relation.
 * **Admissible path (definition).** A path `p` is **admissible** iff:
   (a) locus kinds and transfer relation kinds match the declared `tau_L, tau_Transfer`;
   (b) any write or update to any member of `⟨L,P,E⃗,D⟩` (or kind‑retargeting under `StructuralReinterpretation`) appears at **exactly one** `OperationalGate(profile)`;
@@ -81468,6 +81709,36 @@ Use split and join only as selected-structure relations inside one `Transformati
 Minimum split-and-join use names the selected `TransformationFlowStructure`, the split or join predicate or policy when membership changes, the set-return kind when a set is returned, the publication relation when a result is published, and the smallest refresh scope when currentness changes. Comparator, selector, archive, pool, publication, gate, and refresh authority remains with `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `A.21`, and `G.11` when those relations are current.
 
 For evolutionary-engineering work, the same selected structure may contain loci for variant generation, retention, archive or front treatment, comparison, selected-set publication, architecture-candidate movement, planning, performed work, effect measurement, residual triage, and refresh. E.18 governs only the structure, loci, `U.Transfer`, crossings, valuations, pins, and slice-local refresh. `C.18`, `C.19`, `G.5`, `C.11`, `C.30`, the A.15 family, and `G.11` govern the corresponding claims when they are current.
+
+#### E.18:5.2b - Position and parent-relative subflow references
+
+Use a `FlowPositionRef` to point to one structural position inside one exact TFS:
+
+```text
+FlowPositionRef := <
+  transformationFlowStructureRef,
+  localFlowPositionId
+>
+```
+
+The pair is the complete position-reference identity. If the TFS is reidentified, the same local id resolves to a different position. A `FlowValuation`, `PathId`, `PathSliceId`, actual filling, `DesignRunTag`, value kind, and reference mode may qualify or bind a use of that position; none of them enters its identity.
+
+Use a `SubflowRef` when the practitioner needs to select and revisit a detailed internal portion of one exact parent TFS without pretending that the portion is another structure:
+
+```text
+SubflowRef := <
+  parentTransformationFlowStructureRef,
+  exactIncludedFlowPositionRefs[],
+  exactIncludedInternalTransferOccurrenceRefs[],
+  exactBoundaryFlowPositionRefs[]
+>
+```
+
+Every included and boundary position must resolve through `FlowPositionRef` to the same exact parent. Every included transfer must already obtain as an internal `U.Transfer` occurrence in that parent. A boundary position remains a position of the parent; an internal transfer crossing from an included to an excluded parent position marks the return to the parent. This resolution supplies the parent/subflow connection. It does not introduce parthood, containment, embedding, or membership as another world-side relation.
+
+The tuple is the complete `SubflowRef` identity. Replacing the parent, an included position, an included internal transfer occurrence, or a boundary position gives another reference; reidentifying the parent invalidates the old resolution. Changing only a valuation, path or slice, tag, actual filling, graph, mathematical description, publication, or demonstrative view leaves the reference unchanged while the tuple still resolves. Branching, joining, or cycling inside the portion does not make it a network.
+
+**Quick discriminator.** Grinding, dosing, and wetting may be shown as a coffee-preparation subflow while their positions, internal transfers, entry, and exit all remain in one coffee-brewing TFS. If heating instead has its own TFS identity and boundary and an exact relation connects it to preparation, stop using `SubflowRef` and apply `E.18.NET`.
 
 #### E.18:5.3 - S3 - Publication discipline (faces)
 
@@ -81659,13 +81930,13 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 
 *Show-B (Neural-net functional).* Loci: `U.Signature(profile=FormalSubstrate)` declaration (typed tensor-operation declaration) -> mechanism (combinator algebra) -> UNM (dataset normalization; **TransportRegistry^Phi**) -> selection (architecture and hyperparameter set; Pareto set over accuracy@ratio and FLOPs@ratio) <-> planning (compute budget horizon) -> Work (exact training-run occurrences admitted under `U.Work`; any Delta is stated in a separate record) -> refresh (parity inserts; slice-scoped). Faces pin **DescriptorMapRef.edition** and **DistanceDefRef.edition** when QD telemetry values are shown; illumination remains **report-only telemetry** by default.
 
-*Show-C (Developed product, then application).* One flow valuation represents development work that produces a specification, pattern, process description, mechanism description, method set, or tool through drafting, checks, projection, build, or publication. A later flow valuation represents use of that product in project work or analysis. A further flow valuation may represent another use of the result: a tool is made, then used to make a chair, then a person sits on the chair while writing a text. The selected structure can relate all these valuations through transfers and feedback, while each flow keeps its own governed object, `DesignRunTag`, flow-local relation position for the carried object, work occurrence, evidence, and reopened slice.
+*Show-C (Developed product, then application - network case).* Development, later application, and further use keep separately identified TFS values when they have their own governed objects, Work occurrences, local position bindings, `DesignRunTag` boundaries, and change boundaries. A tool may be made, then used to make a chair, then the chair may be used while a person writes a text. Apply `E.18.NET` to select those TFS members and cite each exact production, use, participation, or other cross-member relation under its direct governor. Do not join them with `U.Transfer`; if a required relation has no governor, return `missing-governor`.
 
-*Show-D (FPF pattern development and use).* A development-flow valuation represents pattern development work: creation, evaluation, projection, publication, and later repair of a pattern. A use-flow valuation represents application of that pattern to its own `EntityOfConcern`. An evaluation or use-found defect can select the smallest development slice for repair. E.18 keeps the common selected structure visible while separating the developed pattern, the use of the pattern, the evidence found during use, and the edition or slice that is reopened.
+*Show-D (FPF pattern development and use - network case).* Pattern development, application to an `EntityOfConcern`, and use-found evaluation keep separately identified TFS values when each has its own governed object, Work, positions, and local state. Apply `E.18.NET` and cite the exact use, evaluation, evidence-return, or repair-trigger relation that connects their positions under its direct owner; if that relation has no governor, return `missing-governor`. E.18 still governs each member's internal structure and smallest reopened `PathSlice`; a role label or feedback arrow alone neither makes the members one TFS nor supplies the cross-member relation.
 
 **Cross-pattern boundary slice (QD archive).** A QD selector returns an archive. Under `E.18`, this is one `PathSlice` in one `TransformationFlowStructure`; selection returns a set or archive, not a hidden scalar. Under `A.20`, the archive insertion or update step has a current CV class, `CV.Status`, and witness or refusal; no acceptance is inferred. Under `A.21`, a comparability gate or `LaunchGate` can publish a `GateDecision` only when that gate relation is current and consumes the relevant CV result. Under `E.20`, if a new selector mechanism-governing definition is introduced, the mechanism-governing definition is the locus for the meaning while suites and wiring only cite or bind it. These are four governed loci, not one prescribed work order.
 
-> *Post-2015 SoTA echoes (illustrative):* **TAMP and MPC**, **MAP-Elites and QD (incl. CMA-ME)**, **refinement-typed stacks**, **profunctor optics**. Worked examples and Tell-Show-Show vignettes for P2W, comparator and archive, coupled development and application flows, and refresh specializations stay outside this selected-structure core unless a current pattern explicitly selects them.
+> *Post-2015 SoTA echoes (illustrative):* **TAMP and MPC**, **MAP-Elites and QD (incl. CMA-ME)**, **refinement-typed stacks**, **profunctor optics**. Worked examples and Tell-Show-Show vignettes for P2W, comparator and archive, network cases over separately identified development and application TFS members, and one-TFS refresh specializations stay outside this selected-structure core unless a current pattern explicitly selects them.
 
 ### E.18:13 - Bias-Annotation (per E.8 SG-bias slot)
 
@@ -81704,7 +81975,8 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 | **CC-E18‑16 — Guard aggregation assignment and semantics** | `USM.CompareGuard` and `USM.LaunchGuard` publish the gate assigned to aggregate guard failures; guards are **events**, not GateChecks; failures are aggregated by that gate per profile. | Guard pins show the assigned gate; GuardFail recorded in that gate's DecisionLog. |
 | **CC-E18‑17 — Assurance ops on Transfer** | On `U.Transfer` only `ConstrainTo`, `CalibrateTo`, `CiteEvidence`, and `AttributeTo`; none write or update `⟨L,P,E⃗,D⟩`. | Edge audit shows ops; CtxState unchanged across the edge. |
 | **CC-E18-17a — Assurance operation specifications (normative)** | **ConstrainTo(region or policy)**: tightens declared region or policy; **pre**: region subset current; **post**: `CtxState` unchanged; **idem.** and **monotone** under composition. **CalibrateTo(calibrationReference)**: attaches an **editioned** calibration reference, such as a map or standard, with Phi-policy id; admissible per cited `CG-Spec`; **post**: `CtxState` unchanged; **idem.** on same edition; penalties appear **in R only**. **CiteEvidence(evidenceRef)**: binds evidence references via **SCR and RSCR**; adds no numeric claims; **idem.**; missing carriers => **abstain**. **AttributeTo(provenanceReference)**: provenance only; decision algebra unaffected; **idem.** Hidden GateChecks, plane or unit changes, or edition writes on transfer relations are **forbidden**. | Operation specifications visible on transfer-relation audit; violations fail lint. |
-| **CC-E18-18 — Flow = valuation, coupled-flow unity and separation, and slice-local refresh** | Each flow declares valuation `nu` over `U.Transfer` plus `PublicationScopeId` and `PathSliceId`; when several flows are coupled in one selected structure, development, application, evaluation, refresh, and repair flow valuations are related by transfer, feedback, return, or edition-change relations while keeping separate governed objects, records, evidence, gates, work occurrences, flow-local relation positions for carried objects, and `DesignRunTag` boundaries; refresh is bounded to the addressed slice; affected faces are re-emitted on edition change or selected refresh rule. | Flow publication shows `nu`; a coupled-flow case names which flow is being valued, which flow-local relation position the carried object fills, and which slice is reopened; refresh trigger causes slice-local recompute. |
+| **CC-E18-18 - Flow = valuation, one-TFS unity, and slice-local refresh** | Each flow declares valuation `nu` over internal `U.Transfer` occurrences plus `PublicationScopeId` and `PathSliceId`. Several valuations may share this E.18 structure only when they resolve to the same exact TFS and its structural boundary; valuation, path, slice, state, role label, or `DesignRunTag` differences do not reidentify it. Refresh stays bounded to the addressed slice and affected faces are re-emitted on edition change or the selected refresh rule. Independently identified TFS values and their cross-boundary relation leave this case for `E.18.NET`. | Confirm that every valuation names the same exact TFS and only its internal transfer occurrences. If member identities or a cross-boundary relation are required, preserve the member TFS values and cite the direct relation governor through `E.18.NET`; do not use `U.Transfer` as the edge. |
+| **CC-E18-18a - Position and subflow reference identity** | Every `FlowPositionRef` is `<TFS ref, local position id>`. Every `SubflowRef` names one exact parent, included positions, already obtaining parent-internal transfer occurrences, and boundary positions, all resolving in that parent. Valuation, slice, tag, filling, graph, description, publication, and view stay outside both reference identities; the tuple introduces no generic containment or membership relation. | Resolve each ref back to one parent TFS. A coffee-preparation portion remains a subflow while all positions and transfers resolve there; a separately identified heating TFS plus an exact relation must route to `E.18.NET`. |
 | **CC-E18‑19 — Γ_time on compare and launch** | All compare and launch faces pin `Γ_time`; no implicit *latest*. | Face audit shows Γ pins; LaunchGate blocks on stale. |
 | **CC-E18‑19a — Γ_time pin shape (normative)** | The `Γ_time` pin is one of: `snapshot(t)`, `interval[t1,t2]` (closed), or `policy(Γ_timeRuleId)` that resolves to either; CV computations record the **resolved time reference** in `DecisionLog` and do not widen Γ at publication time. | DecisionLog shows the resolved reference; linter rejects missing or implicit Γ. |
 | **CC-E18‑20 — Lean publish‑mode ≠ weaken** | `AssuranceLane‑Lite` changes publication faces only; required GateChecks for the active profile remain intact. | Gate in Lean or Core shows minimal pins; GateChecks list unchanged. |
@@ -81769,7 +82041,7 @@ This table is a selected-structure coverage table for E.18 crossings and path sl
 **Recommended defaults (non-normative, tie-in to `A.21` and `G.11`).** Profiles inherit along a `PathSlice`; local overrides only **add** GateChecks; weakening uses a new `PathSlice` and refresh wiring through the current `G.11` locus when refresh wiring is current.
 
 ### E.18:9 - E.18 LEX Discipline (registration)
-Register Tech tokens (ASCII) used by this pattern with twin-labels: `TransformationFlowStructure`, `TransformationFlowValuation`, `StructuralReinterpretation`, `OperationalGate`, `GateProfile`, `GateCheckRef`, **`GateCheckKind`**, `DecisionLog`, `USM.CompareGuard`, `USM.LaunchGuard`, `KindBridge`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `FinalizeLaunchValues`, `VALATA`. Register ASCII spelling **`CLKind`** for Plain display `CL^k` (cf. `CLPlane` for `CL^plane`). Reference MVPK E.17 naming for faces.
+Register Tech tokens (ASCII) used by this pattern with twin-labels: `TransformationFlowStructure`, `TransformationFlowValuation`, `StructuralReinterpretation`, `OperationalGate`, `GateProfile`, `GateCheckRef`, **`GateCheckKind`**, `DecisionLog`, `USM.CompareGuard`, `USM.LaunchGuard`, `KindBridge`, `FlowPositionRef`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `FinalizeLaunchValues`, `VALATA`. Register ASCII spelling **`CLKind`** for Plain display `CL^k` (cf. `CLPlane` for `CL^plane`). Reference MVPK E.17 naming for faces.
 **CtxState Extension Registry.** Register any extra CtxState slot beyond ⟨L,P,E⃗,D⟩ with: slot id, informal intent, partial‑order rule (with neutral or absorbing), SquareLaw compatibility note, and the Gate profile or profiles allowed to change it. Absence of registration ⇒ **non‑conformant**.
 
 ### E.18:10 - Consequences
@@ -81847,6 +82119,7 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 
 **Structure and reuse**
 * **E.18 -> provides selected-structure base for transformation-flow families.** Flow patterns such as P2W and EvaluatingAndRefreshing use E.18 for selected structure, valuation, crossings, guards, MVPK faces, and slice-local refresh. The current ontology is: `A.3.4` governs each independently identified actual bounded `U.Transformation`; E.18 governs the selected compound structure over transformations and adjacent governed loci without asserting transformation composition; and the named governing patterns govern method, work, mechanism, work-to-change, production, evidence, publication, gate, decision, and refresh claims when those claims are current.
+* **E.18 -> coordinates with -> E.18.NET Network of Transformation-Flow Structures.** E.18 owns one exact TFS, its `FlowPositionRef`, parent-relative `SubflowRef`, valuations, paths, slices, local state, and internal `U.Transfer`. E.18.NET starts only when independently identified TFS or nested-network members are selected with exact cross-member relation occurrences; it does not replace a detailed internal portion or several valuations of one TFS.
 * **E.18 -> coordinates with -> architecture transformation-flow relation patterns.** When a selected transformation-flow structure is used in an architecture-flow relation, the architecture transformation-flow relation pattern records the relation between `TransformationFlowStructure` and `ArchitectureOf@Context`; E.18 keeps selected structure, crossing, and flow-valuation discipline.
 * **E.18 -> publishes_on -> E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) for every transfer or locus where publication occurs; Lean mode applies only as per profile.
 
@@ -82487,29 +82760,31 @@ As of 2026-07-21, the Jiao article, QD survey, manufacturing digital-thread pape
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part E -> E.18 child pattern
-> **Builds on:** `E.18` Transformation Flow Structure, `C.29` Mathematical Lens Use, `C.2.1` `U.Episteme`, `E.17` publication machinery, `A.3.4` `U.Transformation`, `A.6.0` `U.Signature`, `A.6.5` slot discipline, `A.15` work family, `A.20`, `A.21`, and `C.30` architecture family.
-> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes a selected `TransformationFlowStructure`: what it represents, what it preserves, what it loses, which declared use it serves, and which governing relation carries any stronger project claim.
+> **Builds on:** `E.18` Transformation Flow Structure, `E.18.NET` Network of Transformation-Flow Structures, `C.29` Mathematical Lens Use, `C.2.1` `U.Episteme`, `E.17` publication machinery, `A.3.4` `U.Transformation`, `A.6.0` `U.Signature`, `A.6.5` slot discipline, `A.15` work family, `A.20`, `A.21`, and `C.30` architecture family.
+> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes exactly one selected `TransformationFlowStructure` or `TransformationFlowStructureNetwork@Context`: what it represents, what it preserves, what it loses, which declared use it serves, and which governing relation carries any stronger project claim.
 
 ### E.18.2:1 - Problem frame
 
-Use this pattern when the current EntityOfConcern is a mathematical description of a selected transformation-flow structure, path, path slice, flow valuation, crossing, or compound transformation arrangement. The description may be a graph, hypergraph, category-theory object, algebra, tuple, matrix, network expression, wiring diagram, morphism family, quotient, fold, refinement, factorization, path relation, slice relation, or another formal expression.
+Use this pattern when the current EntityOfConcern is a mathematical description of exactly one selected transformation-flow structure, one selected network of such structures, or a governed part of that subject. The description may be a graph, hypergraph, category-theory object, algebra, tuple, matrix, network expression, wiring diagram, morphism family, quotient, fold, refinement, factorization, path relation, slice relation, or another formal expression.
 
-The primary EntityOfConcern is `TransformationFlowMathematicalDescription@Context`: a `C.2.1 U.Episteme` specialization whose described entity is a selected `TransformationFlowStructure` or one selected part of it. E.18.2 does not invent a second local description format. In C.2.1 slot terms, `DescribedTransformationFlowStructureRef` fills the entity-of-concern slot, `CandidateMathObject`, `ExpressionKind`, `MappingMode`, `PreservedStructure`, `LostStructure`, and `DeclaredUse` fill the claim or description-content slots, and `PublicationFaceRef?` stays a publication relation through `E.17`. E.18.2 keeps three values distinct:
+The primary EntityOfConcern is `TransformationFlowMathematicalDescription@Context`: a `C.2.1 U.Episteme` specialization whose described ontic subject is exactly one selected `TransformationFlowStructure` under E.18 or one selected `TransformationFlowStructureNetwork@Context` under E.18.NET. E.18.2 does not invent a second local description format. The one-TFS and network reference branches are mutually exclusive; `CandidateMathObject`, `ExpressionKind`, `MappingMode`, `PreservedStructure`, `LostStructure`, and `DeclaredUse` fill claim or description-content slots, while `PublicationFaceRef?` remains a separate publication relation through E.17. E.18.2 keeps five values distinct:
 
 | Value under concern | Governing pattern | Boundary |
 |---|---|---|
-| selected compound structure of transformations and adjacent loci | `E.18` | not a mathematical expression merely because it can be described by a graph or algebra |
-| mathematical description of that selected structure | `E.18.2` | records represented structure, expression kind, mapping mode, preserved/lost structure, declared use, and the boundary to stronger project claims |
-| declared mathematical-lens use and its adequacy | `C.29` | not a local E.18.2 invention; use C.29 fields when adequacy, preserved/lost structure, payoff, or stop condition is claim-bearing |
+| one selected compound structure of transformations and adjacent loci | `E.18` | not a mathematical expression merely because a graph or algebra describes it |
+| one selected network of independently identified TFS or nested-network members and exact cross-member relations | `E.18.NET` | not a graph, record, view, or publication, and not several valuations or one internal subflow |
+| mathematical description of exactly one selected TFS or network | `E.18.2` | records represented subject, expression kind, mapping mode, preserved/lost structure, declared use, and the boundary to stronger project claims |
+| declared mathematical-lens use and its adequacy | `C.29` | not a local E.18.2 invention; use C.29 when adequacy, payoff, preserved/lost structure, or stop condition is claim-bearing |
+| rendered graph, table, equation, diagram, or other publication face | `E.17` and the governing view or architecture-description pattern | may publish the mathematical description but neither becomes it nor reidentifies the selected TFS or network |
 
 When the described selected structure is an `E.18.3` transformation-flow unfolding structure, E.18.2 still governs only the mathematical description. A graph, path expression, category object, algebra, tuple, or matrix may describe transformation loci, guards, crossings, preserved structure, lost structure, and direct exits, but the expression remains `TransformationFlowMathematicalDescription@Context` or a C.29 lens-use claim. It does not become the constraint-governed unfolding structure and does not carry method, work, evidence, architecture, publication, or refresh authority.
 
 #### E.18.2:1.1 - Use this when
 
-- a selected `TransformationFlowStructure`, path, slice, crossing, or flow valuation needs a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, or network expression;
-- a diagram or equation set helps compare composition, decomposition, coarser/finer partitioning, transfer, crossing, refresh, or coupled-flow relations, but the mathematical expression itself must not authorize work;
-- a source says "graph", "network", "path", "morphism", "algebra", "category", "workflow", "pipeline", "dataflow", or "functional diagram" and the claim being made is the mathematical description of a selected transformation-flow structure;
-- a reader needs to know whether the mathematical expression is only a publication face, a C.29 lens-use claim, an E.18 selected structure claim, or an E.18.2 description claim.
+- one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork@Context`, or a governed part of that subject needs a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, or network expression;
+- a diagram or equation set helps compare composition, decomposition, coarser/finer partitioning, internal transfer, crossing, or refresh inside one TFS, or exact cross-member relations in one selected network, but the mathematical expression itself must not authorize work;
+- a source says "graph", "network", "path", "morphism", "algebra", "category", "workflow", "pipeline", "dataflow", or "functional diagram" and the claim being made is the mathematical description of one already selected TFS or TFS network;
+- a reader needs to decide whether the visible object is one E.18 TFS, one E.18.NET network, an E.18.2 mathematical description, a C.29 lens-use claim, or only an E.17 publication face.
 
 #### E.18.2:1.2 - What goes wrong if missed
 
@@ -82517,11 +82792,12 @@ A project source expression, source publication, or diagram can make a graph-sha
 
 #### E.18.2:1.3 - What this buys
 
-The practitioner can use mathematical structure without overclaiming it. The record names the represented `TransformationFlowStructure`, the expression used, what the expression preserves, what it loses, the declared use, and the governing relation for any stronger claim.
+The practitioner can use mathematical structure without overclaiming it. The record names exactly one represented E.18 TFS or E.18.NET network, the expression used, what the expression preserves, what it loses, the declared use, and the governing relation for any stronger claim.
 
 #### E.18.2:1.4 - Not this pattern when
 
-- the selected compound structure itself is the EntityOfConcern; use `E.18`;
+- one selected transformation-flow structure itself is the EntityOfConcern; use `E.18`;
+- one selected network of independently identified TFS or nested-network members is the EntityOfConcern; use `E.18.NET`;
 - the selected transformation-flow unfolding structure itself is the EntityOfConcern; use `E.18.3`;
 - one bounded transformation is the EntityOfConcern; use `A.3.4`;
 - the claim is general mathematical-lens adequacy outside transformation-flow structures; use `C.29`;
@@ -82534,21 +82810,21 @@ Transformation-flow structures are often easiest to inspect through mathematics.
 
 Those expressions are useful because they preserve selected structure while ignoring other structure. That same usefulness creates risk. If the expression is treated as the structure itself, the project may believe that a path in a graph proves a possible performed-work order, that a commutative square proves a real bridge, that a fold proves safe aggregation, or that a wiring diagram proves integration readiness.
 
-E.18.2 solves the description problem: it records a mathematical expression over a selected E.18 structure and says what that expression may be used for. It does not decide the world-side structure, the atomic transformation, the work occurrence, the gate, the evidence case, or the architecture claim.
+E.18.2 solves the description problem: it records a mathematical expression over one already selected E.18 TFS or E.18.NET network and says what that expression may be used for. It does not select or reidentify that world-side subject, decide an atomic transformation, establish a work occurrence, pass a gate, settle an evidence case, or establish an architecture claim.
 
 ### E.18.2:3 - Forces
 
 | Force | What must be preserved | Pressure to manage |
 |---|---|---|
 | Mathematical usefulness | Graphs, categories, tuples, algebra, morphisms, paths, slices, quotients, folds, refinements, factorizations, and wiring can expose structure that prose misses. | Mathematical form can look stronger than the claim it can carry. |
-| EoC separation | The selected structure, its mathematical description, its publication, and its C.29 lens-use adequacy are different values. | One source expression or publication face may present all of them at once. |
-| Composition and decomposition | Compound transformations need reviewable composition, factorization, slice, fold, and refinement claims. | The expression can hide which selected E.18 structure or slice is being described. |
+| EoC separation | The selected E.18 TFS or E.18.NET network, its E.18.2 mathematical description, its E.17 publication, and its C.29 lens-use adequacy are different values. | One visible source or publication face may present all of them at once. |
+| Composition and decomposition | One TFS and recursive TFS networks need reviewable composition, factorization, slice, fold, and refinement claims. | The expression can hide which exact E.18 TFS, E.18.NET network, or governed part is being described. |
 | Publication usability | Readers need diagrams, tables, equations, and views. | A publication face can be mistaken for evidence, gate passage, or performed work. |
 | Related-claim economy | C.29, E.18, A.3.4, E.17, A.20, A.21, A.15, and C.30 already govern related claims. | Repeating their boundary doctrine inside E.18.2 creates fanout. |
 
 ### E.18.2:4 - Solution
 
-Write a `TransformationFlowMathematicalDescription@Context` only when the mathematical expression changes the current transformation-flow description move. Keep the selected structure reference and the expression relation separate. Then decide whether the C.29 lens-use card is needed for adequacy, payoff, preserved/lost structure, or boundary.
+Write a `TransformationFlowMathematicalDescription@Context` only when the mathematical expression changes the current transformation-flow description move. Name exactly one described ontic subject: one E.18 TFS or one E.18.NET network. Keep that subject reference, the mathematical description, any C.29 lens-use judgment, and any E.17 publication face separate. Then decide whether the C.29 lens-use card is needed for adequacy, payoff, preserved/lost structure, or boundary.
 
 #### E.18.2:4.1 - First-use record
 
@@ -82556,7 +82832,9 @@ Use this compact record for ordinary cases:
 
 ```text
 TransformationFlowMathematicalDescription@Context:
-  DescribedTransformationFlowStructureRef:
+  # exactly one described ontic subject branch is present:
+  DescribedTransformationFlowStructureRef?:
+  DescribedTransformationFlowStructureNetworkRef?:
   DescribedSliceOrLocusRef?:
   CandidateMathObject:
   ExpressionKind:
@@ -82570,13 +82848,13 @@ TransformationFlowMathematicalDescription@Context:
   RelatedGovernedClaimRef?:
 ```
 
-`DescribedTransformationFlowStructureRef` points to the selected E.18 structure. `DescribedSliceOrLocusRef?` names a path, slice, crossing, flow valuation, transformation locus, signature locus, mechanism locus, work-plan locus, work locus, evidence locus, result locus, or refresh locus when the expression describes only part of the structure. `CandidateMathObject` and `ExpressionKind` name the graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, network, or related mathematical object. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `RelatedGovernedClaimRef?` points to the separate relation record only when a stronger claim is being made; it is not a local authority slot.
+Exactly one of `DescribedTransformationFlowStructureRef?` and `DescribedTransformationFlowStructureNetworkRef?` is present. The first points to one E.18 TFS; the second points to one already selected E.18.NET network. `DescribedSliceOrLocusRef?` may cite an existing path, slice, `FlowPositionRef`, `ExposedFlowPositionRef`, member path, E.18.NET `NetworkCrossFlowRelationRowRef`, or other governed part without copying its owner's fields. `CandidateMathObject` and `ExpressionKind` name the graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, network expression, or related mathematical object. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `PublicationFaceRef?` points to a separate E.17 publication; `RelatedGovernedClaimRef?` points to a separate relation record only when a stronger claim is current. Neither is a local authority slot.
 
 #### E.18.2:4.2 - Expression families
 
 | Expression family | Use when it describes | Required boundary |
 |---|---|---|
-| graph, hypergraph, network, DSM, DMM, MDM, or matrix | dependency, transfer, adjacency, interface placement, clustering, or change propagation inside a selected transformation-flow structure | not the selected structure unless E.18 says so; not work occurrence, gate passage, or evidence |
+| graph, hypergraph, network expression, DSM, DMM, MDM, or matrix | dependency, internal transfer, exact cross-member relation, adjacency, interface placement, clustering, or change propagation inside one selected TFS or across one selected TFS network | not the selected TFS or network; E.18 and E.18.NET own those ontic subjects, while E.18.2 owns this description; not work occurrence, gate passage, or evidence |
 | mathematical path or path slice | reachability, carried relation, currentness slice, refresh locality, or crossing-local replay | not a project procedure or performed sequence |
 | tuple, record, slot relation, or typed relation expression | slot positions, relation arity, locus typing, and value placement | not a new U-kind and not a replacement for A.6.5 slot discipline |
 | morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | not proof that the represented work can be performed or that interfaces are semantically compatible |
@@ -82584,20 +82862,21 @@ TransformationFlowMathematicalDescription@Context:
 | algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | not a mechanism, formal substrate, or empirical law unless `A.6.0` governs the formal substrate, `A.6.1` governs the postulate or principle frame, and the relevant evidence pattern is current |
 | learned representation, embedding, simulation object, or differentiable surrogate | approximate structure, optimization, similarity, or predictive proxy over transformation-flow structure | not architecture adequacy, OOD guarantee, causal proof, or release readiness by itself |
 
-These families are prompts for recovery, not a taxonomy of new FPF kinds. A local expression may combine several families; the record still names one selected structure, one current described slice or locus when relevant, and the declared use.
+These families are prompts for recovery, not a taxonomy of new FPF kinds. A local expression may combine several families; the record still names exactly one selected TFS or network subject, one current described part when relevant, and the declared use.
 
-#### E.18.2:4.3 - Four-way discriminator
+#### E.18.2:4.3 - Five-way subject, description, lens, and publication discriminator
 
 Use this discriminator before writing or accepting a mathematical description:
 
 ```text
-If the claim selects or audits the compound structure in the project, use E.18.
-If the claim describes that selected structure with mathematics, use E.18.2.
-If the claim evaluates the mathematical lens use, use C.29 with an E.18.2 reference.
-If the claim publishes a view, diagram, card, table, or equation face, use E.17 and the governing view or architecture-description pattern.
+If the claim selects one TFS or its internal flow structure, use E.18.
+If the claim selects independently identified TFS or nested-network members plus exact cross-member relations, use E.18.NET.
+If the claim describes exactly one selected TFS or network with mathematics, use E.18.2.
+If the claim evaluates that mathematical lens use, use C.29 with the E.18.2 description reference.
+If the claim publishes a graph, table, equation, diagram, card, or other face, use E.17 and the governing view or architecture-description pattern.
 ```
 
-The same source expression or publication may require several records. A refrigerator principle scheme may include a publication face, a functional-architecture view, a selected `TransformationFlowStructure`, a thermodynamic mechanism claim, and a mathematical graph or equation description. E.18.2 writes only the mathematical-description relation. If the same expression is also used as a mathematical lens for world-side adequacy, C.29 governs the lens-use adequacy; if it is only a published face, E.17 governs publication use.
+The same visible source may require several records, but each E.18.2 description chooses one described ontic subject branch. A refrigerator principle scheme may include an E.17 publication face, a functional-architecture view, one selected E.18 TFS, a thermodynamic mechanism claim, and an E.18.2 graph or equation description. A network diagram may similarly publish an E.18.2 description of one already selected E.18.NET network. If the expression is evaluated as a lens, C.29 governs adequacy; if it is rendered or published, E.17 governs that publication. Neither record reidentifies the TFS or network.
 
 
 #### E.18.2:4.4 - Related governed claims
@@ -82607,7 +82886,8 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 | Current claim | Use |
 |---|---|
 | one bounded change under conditions | `A.3.4` |
-| selected compound structure, flow valuation, path, slice, crossing, or refresh locus | `E.18` |
+| one selected transformation-flow structure, flow valuation, path, slice, crossing, or refresh locus | `E.18` |
+| one selected network of independently identified TFS or nested-network members and exact cross-member relations | `E.18.NET` |
 | selected transformation-flow unfolding structure with constraints, guards, preserved/lost structure, and direct exits | `E.18.3` |
 | mathematical-lens adequacy, preserved/lost structure, payoff, or stop condition | `C.29` |
 | method, method description, mechanism, signature, work plan, or performed work | `A.3.1`, `A.3.2`, `A.6.1`, `A.6.0`, `A.15.2`, or `A.15.1` |
@@ -82619,9 +82899,11 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 
 **Refrigerator principle scheme.** A vapor-compression diagram can be a publication face. The cooling cycle can be a selected `TransformationFlowStructure`. The thermodynamic laws are mechanism or formal-substrate claims. The graph or equation set that describes the cycle is an E.18.2 mathematical description. It may preserve transformation order, heat-transfer constraints, and cycle closure while losing maintenance work, sensor uncertainty, and installation context. It does not prove the refrigerator works or authorize a repair.
 
+**Two descriptions of one build-the-builder network.** A nested wiring description can preserve finite member paths and exposed positions while hiding an n-ary relation's qualification. A hypergraph description of the same exact E.18.NET value can preserve relation arity and endpoints while flattening recursive member boundaries. Both E.18.2 records cite the same network ref and state different preserved and lost structure; neither graph creates or reidentifies the network. A rendered diagram is a further E.17 publication value.
+
 **P2W carry-through.** A P2W source expression or publication may draw a graph-shaped path from formal substrate to principle frame, mechanism position, method selection, work planning, work, and evaluation. The graph-shaped expression can be an E.18.2 description of the selected carry-through structure. The P2W move itself remains `E.18.1`; work planning remains A.15; dated work remains `U.Work`.
 
-**Neural-network dataflow.** A transformer architecture diagram may describe layers, attention blocks, residual connections, and graph-like connection structure. If the current claim is the compound transformation organization, use E.18 or C.30 when it is an architecture claim. If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes that organization, use E.18.2. Benchmark superiority, training work, evidence, release, and causal claims require their governing patterns.
+**Neural-network dataflow.** A transformer architecture diagram may describe layers, attention blocks, residual connections, and graph-like connection structure. If the current claim selects one TFS, use E.18; if it selects independently identified TFS or nested-network members plus exact cross-member relation occurrences, use E.18.NET; if it is an architecture claim, use C.30. If the current claim is the mathematical graph, tensor-shape relation, or wiring expression that describes one such already selected subject, use E.18.2. Benchmark superiority, training work, evidence, release, and causal claims require their governing patterns.
 
 **Circuit and algorithm.** A logic-circuit schematic can describe a transformation-flow structure realizing a Boolean relation. The netlist, wiring graph, algebraic normal form, and truth table are different mathematical or formal descriptions. They do not by themselves decide whether the selected method exists, whether the CMOS mechanism is valid under voltage and timing conditions, or whether a dated powered run occurred.
 
@@ -82629,7 +82911,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 
 | Bias | How E.18.2 prevents it |
 | --- | --- |
-| Graph-as-world bias | The selected structure stays with `E.18`; a graph or algebraic object is only the mathematical description unless another governing pattern says otherwise. |
+| Graph-as-world bias | One selected TFS stays with `E.18`, one selected network stays with `E.18.NET`, and a graph or algebraic object remains the E.18.2 mathematical description unless another governing pattern makes a different claim current. |
 | Path-as-procedure bias | A mathematical path or path slice can express reachability or locality; method and work-plan claims stay with method and work-plan patterns. |
 | Diagram-as-architecture bias | Architecture adequacy stays with `C.30`, `C.30.ASV`, and related architecture patterns; E.18.2 records only the mathematical-description relation. |
 | Math-as-authority bias | No mathematical expression authorizes work, passes a gate, settles evidence, grants release, or proves assurance by itself. |
@@ -82637,54 +82919,55 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 
 ### E.18.2:5 - Conformance checklist
 
-- `CC-E18.2-1` The current EntityOfConcern is `TransformationFlowMathematicalDescription@Context`, not the selected `TransformationFlowStructure` itself.
-- `CC-E18.2-2` The described selected structure or slice is named by `DescribedTransformationFlowStructureRef` and, when needed, `DescribedSliceOrLocusRef`.
+- `CC-E18.2-1` The current EntityOfConcern is `TransformationFlowMathematicalDescription@Context`, not the selected E.18 TFS or E.18.NET network itself.
+- `CC-E18.2-2` Exactly one described ontic subject branch is present: `DescribedTransformationFlowStructureRef?` or `DescribedTransformationFlowStructureNetworkRef?`. The optional `DescribedSliceOrLocusRef?` resolves through that subject's owner and does not duplicate its fields.
 - `CC-E18.2-3` The mathematical expression family is named without minting a new U-kind.
 - `CC-E18.2-4` Preserved structure, lost structure, declared use, and boundary stop are named when the expression is claim-bearing.
 - `CC-E18.2-5` C.29 is used when mathematical-lens adequacy, payoff, obstruction, preserved/lost structure, or stop condition is being evaluated beyond the local description relation.
-- `CC-E18.2-6` Graph, path, slice, morphism, algebra, category, tuple, quotient, fold, refinement, factorization, and wiring language stays mathematical-description language unless another governing pattern explicitly makes the selected structure current.
+- `CC-E18.2-6` Graph, path, slice, morphism, algebra, category, tuple, quotient, fold, refinement, factorization, wiring, and network-expression language stays mathematical-description language unless E.18 or E.18.NET independently establishes the selected ontic subject.
 - `CC-E18.2-7` No mathematical expression proves work occurrence, authorizes action, passes a gate, settles evidence, or establishes architecture adequacy by itself.
-- `CC-E18.2-8` Publication faces are separated from mathematical description and handled through `E.17` when publication is current.
-- `CC-E18.2-9` When work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the direct pattern governing that claim. E.18.2 records only the mathematical-description relation for the selected transformation-flow structure.
+- `CC-E18.2-8` A rendered graph, table, equation, diagram, or other publication face remains separate from the mathematical description and is handled through `E.17`; changing it alone reidentifies neither the description nor its selected TFS or network subject.
+- `CC-E18.2-9` When selected TFS, selected network, work, method, mechanism, signature, evidence, gate, decision, architecture, function, module-interface, or reusable-structure claims are current, apply the direct pattern governing that claim. E.18.2 records only the mathematical-description relation for one already selected ontic subject.
 - `CC-E18.2-10` A source expression or publication face that carries several claims is split into records by current EntityOfConcern and relation position, not by the expression's or publication's name.
 
 ### E.18.2:6 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Repair |
 |---|---|
-| **Graph-as-world.** A graph-shaped expression is treated as the project-world structure because it is visually convincing. | Name whether the current EoC is E.18 selected structure, E.18.2 mathematical description, E.17 publication, or C.29 lens-use adequacy. |
+| **Graph-as-world.** A graph-shaped expression is treated as the project-world structure because it is visually convincing. | Name whether the current EoC is one E.18 TFS, one E.18.NET network, an E.18.2 mathematical description, a C.29 lens-use judgment, or an E.17 publication face. |
 | **Path-as-procedure.** A mathematical path or path slice is read as a required project procedure. | Keep it as a mathematical relation over a selected structure; use method or work-plan patterns for procedures. |
 | **Algebra-as-mechanism.** An operation law or equation system is treated as a realized mechanism. | Use A.6.0 for formal substrate and A.6.1 for mechanism claims; keep E.18.2 to the expression relation. |
 | **Fold-as-identity.** A quotient, fold, or coarsening erases detail and is then used as if nothing was lost. | State preserved structure, lost structure, and lost-structure return condition; use C.29 when the adequacy of the fold matters. |
-| **Diagram-as-architecture adequacy.** A clean diagram is treated as proof that the architecture is good. | Use `C.30` for the architecture claim, `C.30.ASV` for architecture structural-view adequacy, and `C.31` for reusable-structure characteristics; `E.18.2` only describes selected structure mathematically. |
+| **Diagram-as-architecture adequacy.** A clean diagram is treated as proof that the architecture is good. | Use `C.30` for the architecture claim, `C.30.ASV` for architecture structural-view adequacy, and `C.31` for reusable-structure characteristics; `E.18.2` only describes one already selected TFS or network mathematically. |
 
 ### E.18.2:7 - Consequences
 
 | Consequence | Benefit | Cost or mitigation |
 |---|---|---|
 | Mathematical descriptions get their own local record. | Graphs, paths, slices, quotients, and wiring can be used without becoming hidden ontology. | One source expression or publication face may need several records. |
-| E.18 stays about selected structure. | Compound transformation organization remains inspectable in the project world. | Readers must choose E.18 or E.18.2 by current EoC. |
+| E.18 and E.18.NET stay about selected ontic structures. | One TFS and one network of independently identified TFS members remain inspectable without becoming their mathematical descriptions. | Readers must choose E.18, E.18.NET, or E.18.2 by the current EntityOfConcern. |
 | C.29 remains general. | E.18.2 does not duplicate the whole mathematical-lens pattern. | Claim-bearing adequacy needs a C.29 reference. |
 | Boundary to work, gates, evidence, and architecture is explicit. | Mathematical prestige does not replace project checks. | Stronger claims require the direct governing pattern. |
 
 ### E.18.2:8 - Rationale
 
-Graph-shaped or morphism-shaped source labels do not carry current ontology by themselves here. They remain useful only when the current EntityOfConcern is named: E.18 keeps selected compound structure, A.3.4 keeps bounded transformation, E.18.1 keeps P2W carry-through, and E.18.2 keeps mathematical descriptions of selected transformation-flow structures.
+Graph-shaped or morphism-shaped source labels do not carry current ontology by themselves here. They remain useful only when the current EntityOfConcern is named: E.18 keeps one selected TFS, E.18.NET keeps one selected network, A.3.4 keeps bounded transformation, E.18.1 keeps P2W carry-through, and E.18.2 keeps one mathematical description of exactly one selected TFS or network.
 
-The pattern is intentionally narrower than C.29. C.29 answers the general question "is this mathematical lens use adequate for this declared purpose?" E.18.2 answers the local question "what mathematical expression describes this selected transformation-flow structure, and which declared use does that expression serve here?" This prevents shadow math-lens doctrine while preserving the practical value of graph, path, category, tuple, and algebraic expression in transformation-flow work.
+The pattern is intentionally narrower than C.29. C.29 answers the general question "is this mathematical lens use adequate for this declared purpose?" E.18.2 answers the local question "what mathematical expression describes this one selected TFS or network, and which declared use does that expression serve here?" This prevents shadow math-lens doctrine while preserving the practical value of graph, path, category, tuple, and algebraic expression in transformation-flow work.
 
 ### E.18.2:9 - SoTA-Echoing
 
 | Practice tradition | Distinction kept for E.18.2 | E.18.2 invariant | Practitioner implication | Return if |
 |---|---|---|---|---|
-| Model-based systems and architecture-description practice (ISO/IEC/IEEE 42010:2022, [`iso.org/standard/74393`](https://www.iso.org/standard/74393.html); SysML v2 current specification lineage). | A diagram or model can describe a selected structure without becoming the structure or evidence. | Mathematical description names described structure, expression, preserved/lost structure, declared use, and boundary stop. | A clean model can guide inspection without authorizing action. | The selected E.18 structure, publication face, evidence relation, or architecture claim changes. |
+| Model-based systems and architecture-description practice (ISO/IEC/IEEE 42010:2022, [`iso.org/standard/74393`](https://www.iso.org/standard/74393.html); SysML v2 current specification lineage). | A diagram or model can describe one selected TFS or network without becoming that structure or evidence. | The mathematical description names exactly one subject branch, expression, preserved/lost structure, declared use, and boundary stop. | A clean model can guide inspection without authorizing action. | The selected E.18 TFS or E.18.NET network, publication face, evidence relation, or architecture claim changes. |
 | Applied category theory, wiring diagrams, and graph rewriting (Fong & Spivak, arXiv [`1803.05316`](https://arxiv.org/abs/1803.05316); Spivak, arXiv [`1305.0297`](https://arxiv.org/abs/1305.0297); Baez & Fong, arXiv [`1504.05625`](https://arxiv.org/abs/1504.05625); Bonchi et al., arXiv [`1602.06771`](https://arxiv.org/abs/1602.06771); Patterson/Spivak/Vagner, arXiv [`2101.12046`](https://arxiv.org/abs/2101.12046)). | Formal expression is useful because it preserves some structure and drops other structure. | Quotient, fold, refinement, factorization, and wiring claims name what survives and what is lost. | Coarser and finer descriptions can be compared without pretending they are identical. | The preserved/lost structure, mapping mode, or C.29 lens-use adequacy changes. |
-| Digital-thread, research-object, and source-reference practice (RO-Crate paper, arXiv [`2108.06503`](https://arxiv.org/abs/2108.06503); Di Cosmo/Gruenpeter/Zacchiroli, arXiv [`2001.08647`](https://arxiv.org/abs/2001.08647); ISO 23247 digital-twin lineage). | Replay works only when record kinds remain distinct. | E.18.2 descriptions cite E.18 structures and related governed records rather than absorbing work, evidence, gate, and publication claims. | A trace graph can remain useful without becoming proof, plan, or performed work. | Source-currentness relation, work-family law, evidence, gate, or publication-use relation changes. |
+| Digital-thread, research-object, and source-reference practice (RO-Crate paper, arXiv [`2108.06503`](https://arxiv.org/abs/2108.06503); Di Cosmo/Gruenpeter/Zacchiroli, arXiv [`2001.08647`](https://arxiv.org/abs/2001.08647); ISO 23247 digital-twin lineage). | Replay works only when record kinds remain distinct. | E.18.2 descriptions cite one E.18 TFS or E.18.NET network and related governed records rather than absorbing work, evidence, gate, and publication claims. | A trace graph can remain useful without becoming proof, plan, or performed work. | Source-currentness relation, work-family law, evidence, gate, or publication-use relation changes. |
 | Engineering architecture practice uses functional, dataflow, and interface diagrams under explicit view, viewpoint, and correspondence discipline. | A diagram may describe architecture, transformation-flow structure, method, mechanism, or publication face according to the current EoC. | E.18.2 keeps only the mathematical-description relation; architecture adequacy remains under `C.30`, architecture structural-view adequacy remains under `C.30.ASV`, and reusable-structure characteristics remain under `C.31`. | Functional and dataflow diagrams can be used without semio-bias or architecture overclaim. | The architecture selected structure, viewpoint, or correspondence relation changes. |
 
 ### E.18.2:10 - Relations
 
-- `E.18` governs selected `TransformationFlowStructure`, flow valuation, path, slice, crossing, transfer annotations, and refresh locality.
+- `E.18` governs one selected `TransformationFlowStructure`, flow valuation, path, slice, crossing, transfer annotations, and refresh locality.
+- `E.18.NET` governs one selected network of independently identified TFS or nested-network members and exact cross-member relation occurrences.
 - `A.3.4` governs atomic `U.Transformation` identity and slots.
 - `C.29` governs mathematical-lens use adequacy, preserved/lost structure, payoff, obstruction, and stop condition when these claims are current.
 - `C.2.1` and `E.17` govern description episteme and publication faces.
@@ -82767,7 +83050,7 @@ The transformed entity and its kind are both present. A flow position points to 
 
 Paths and demonstrations remain different. `pathIds[]` and `pathSliceIds[]` identify E.18 flow structure. `demonstrativeSliceRefs[]` identify post-admission A.22.CGUS epistemes whose EntityOfConcern is the already-admitted wider structure. A pre-admission flow card, worked example, or explanation remains a separate `ProvisionalUnfoldingDemonstrationDescription@Context` and does not fill `demonstrativeSliceRefs[]`. An admitted demonstrative slice can be linear while the current flow structure branches, joins, cycles, or keeps alternatives live.
 
-A pattern-selection flow, selected-pattern-application flow, and downstream-subject-work flow keep different EntitiesOfConcern, changes, work occurrences, results, direct governing patterns, constraints, and returns. One flow's result may fill an input, tool, context, or constraint position in another flow without changing kind. E.18 relates those positions without turning the flows into one workflow. When a `DemonstrativeUnfoldingSlice@Context` asserts this cross-flow provenance, its `transformationFlowStructureRef`, `pathSliceId`, and `designRunTag` are all present; otherwise all three are absent. Those fields locate the demonstration in one flow valuation. They do not merge the demonstrated structures, rows, work occurrences, or result claims. A nested pattern-selection slice is present only when selection provenance is current; it returns a candidate, fit finding, or recommendation to the enclosing demonstrated-pattern-use row rather than borrowing that row's application result.
+A pattern-selection flow, selected-pattern-application flow, and downstream-subject-work flow keep different EntitiesOfConcern, changes, Work occurrences, results, direct governing patterns, constraints, and returns. If a demonstration stays inside one exact TFS, the complete A.22.CGUS top-level one-TFS locator triple identifies that TFS, its current path slice, and its local `DesignRunTag`. If the case instead uses independently identified TFS or nested-network members plus exact obtaining cross-member relation occurrences, E.18.NET governs the network and the mutually exclusive `networkDemonstrationLocator` applies; the top-level one-TFS triple is absent. A result, tool, context, constraint, shared label, or displayed arrow neither merges those members nor supplies their relation. A nested pattern-selection slice is present only while its selection provenance is current for the declared demonstration use; stale or unresolved provenance omits that nested slice or returns the currentness question to G.11. The enclosing slice, a shared label, and separation of result kinds do not establish currentness. When present, the nested slice returns its own candidate, fit finding, or recommendation to the enclosing demonstrated-pattern-use row rather than borrowing that row's application result.
 
 
 Preserved transformation structure is carried by exact `U.Structure` refs. Captured, expected-but-uncaptured, lost, and hidden structure for a declared use is carried by C.33 `StructuralInformationAdequacyNote@Context`. E.18.3 does not mint parallel free-text loss fields. Stop and governing-pattern return are different boundary relations. Source currentness and decay remain with G.11; E.18 slice-local flow refresh remains with E.18.
@@ -82780,7 +83063,7 @@ Preserved transformation structure is carried by exact `U.Structure` refs. Captu
 2. Name the transformed entity and kind, then the typed transformation positions that matter to the current use.
 3. Reference the exact transfer, dependency, crossing, or guard relations. Add a subject-use classifier only when the same relation supports a separately governed evidence, assurance, architecture, narrative, or publication use.
 4. Connect every neighboring governed position through its exact kind, ref, governing pattern, connection kind, rationale, and supporting relation when that connection kind needs one.
-5. Name paths and path slices as transformation-flow structure; name demonstrative slices separately as presentation epistemes. Add the E.18 flow locator triple only when cross-flow demonstration provenance is current.
+5. Name paths and path slices under their exact TFS owners and name demonstrative slices separately as presentation epistemes. After admission, choose exactly one A.22.CGUS locator family: the complete top-level E.18 triple for one-TFS provenance, or the network locator for a selected E.18.NET-conforming network; keep both absent for a generic slice.
 6. Name preserved transformation structures and use C.33 for omitted or hidden structure needed by the declared use.
 7. Add a stop boundary and separate returns to the direct patterns governing stronger claims. If the transformation substrate, exact relation, or typed connection is absent, keep the artifact as a `ProvisionalUnfoldingDemonstrationDescription@Context`, route card, graph description, or broader A.22.CGUS admission question; do not fill `demonstrativeSliceRefs[]`.
 
@@ -82801,11 +83084,20 @@ TransformationFlowRelationReference@Context <: U.Episteme:
   SubjectUseSlot? = <SubjectUseSlot, TransformationFlowSubjectUseValue, by-value>
   RelationSignatureSlot = <RelationSignatureSlot, U.Signature, U.EntityRef>
   DirectGoverningPatternSlot = <DirectGoverningPatternSlot, U.MethodDescription, U.EntityRef>
+  NetworkEndpointBindingSets[]?: required for each selected network cross-flow row paired with this episteme
+    networkCrossFlowRelationRowRef: E.18.NET NetworkCrossFlowRelationRowRef
+    endpointRows[]:
+      relationParticipantPositionRef: U.EntityRef, referencing one exact participant position in RelationSignatureSlot
+      endpointMemberRef: U.EntityRef, referencing one exact TFS or nested-network member
+      endpointFlowPositionRef: U.EntityRef, referencing one FlowPositionRef or ExposedFlowPositionRef
+      endpointPositionBindingRef: U.EntityRef, referencing the already governed leaf-position binding
 ```
 
 `TransformationFlowStructuralFunctionValue` is `transfer | dependency | crossing | guard`. It states what the referenced relation does inside the flow structure. `TransformationFlowSubjectUseValue` is `evidence | assurance | architecture | narrative | publication`. It states which separately governed subject use the same relation supports. At least one classifier is present; both may be present when both claims are true. Neither classifier changes the exact relation signature, value kind, value ref, or direct governing pattern.
 
 For example, one crossing relation can also support evidence use. It remains one exact relation with `structuralFunction=crossing` and `subjectUse=evidence`; the two classifiers do not create two relations or let E.18.3 own the evidence claim.
+
+For each selected network mapping that pairs an E.18.NET `NetworkCrossFlowRelationRowRef` with this episteme, one `NetworkEndpointBindingSets[]` entry is required. Resolve the locator to exactly one row in its named current record edition, then require that row and this relation-reference episteme to agree on exact occurrence, relation kind, direct governor, signature and participant order, endpoint members, endpoint flow positions, and position bindings. The set adds no relation and makes none obtain; it preserves how the already obtaining occurrence reaches the admitted transformation positions.
 
 #### E.18.3:4.1 - Connections to positions governed elsewhere
 
@@ -82831,7 +83123,7 @@ This connection relation keeps the neighboring pattern visible without importing
 
 #### E.18.3:4.2 - Provisional flow demonstration and admitted slice
 
-Before a `ConstraintGovernedTransformationFlowUnfoldingStructure@Context` passes admission, a path fragment, flow card, worked example, replay, or first-use explanation remains a `ProvisionalUnfoldingDemonstrationDescription@Context`. Its subject is the transformed entity, current flow question, or proposed continuation set. Candidate positions and relation descriptions may guide discovery, but they are not admitted transformation positions or relation instances.
+Before a `ConstraintGovernedTransformationFlowUnfoldingStructure@Context` passes admission, a path fragment, flow card, worked example, replay, or first-use explanation remains a `ProvisionalUnfoldingDemonstrationDescription@Context`. Its subject is the transformed entity, current flow question, or proposed continuation set. Candidate positions and relation descriptions may guide discovery, but they are not admitted transformation positions or relation-reference epistemes, and they make no world-side relation instance obtain.
 
 After the generic CGUS and this transformation-flow specialization are admitted, a separate `DemonstrativeUnfoldingSlice@Context` may teach or demonstrate one admissible traversal. It names the admitted CGUS as EntityOfConcern and states included typed positions, C.33 notes for relevant omitted structure, loop-compression rule, presentation-ordering rule, alternatives, and return boundary when those affect use. It may cite the provisional description as derivation basis; it does not retype that description or the transformed entity.
 
@@ -82839,13 +83131,23 @@ Do not infer that demonstrated order is project work order. If work order is cur
 
 A pre-admission flow card can still help slot discovery. Each visible candidate position states the subject-domain object or question it concerns and the exact admission coordinate still unresolved. Once the transformed entity, typed positions, exact crossing or guard relations, valuation, preserved structures, C.33 notes, governing-pattern connections, and boundaries are recoverable, admit the structure first and create the slice second. This preserves the practical aid without circularly using a supposed slice as evidence for its own whole.
 
+#### E.18.3:4.2a - Admit network-aware demonstration mappings
+
+A network-aware `DemonstrativeUnfoldingSlice@Context` is post-admission only. First select and verify one E.18.NET-conforming network; then admit this E.18.3 structure, its `transformationPositionRefs[]`, and every required `TransformationFlowRelationReference@Context`. Then apply A.22.CGUS `networkDemonstrationLocator`; the locator cannot supply missing members, positions, relations, or admission.
+
+For each `selectedNetworkPositionMappingRows[]` entry, resolve the finite member path through exact direct members to its leaf TFS. A `FlowPositionRef` must name that final TFS. An `ExposedFlowPositionRef` must name this slice's selected network and repeat the same complete member path and leaf position; a different network, path, or leaf leaves the mapping out of the slice. Its `admittedIncludedPositionRef` must be the same exact `ConstraintGovernedUnfoldingPosition@Context` already present in this structure's `transformationPositionRefs[]` and the slice's `includedStructurePositionRefs[]`. The position ref locates that admitted position; it does not create a parallel position list.
+
+For each `selectedCrossFlowRelationReferenceRows[]` entry, require its E.18.NET `NetworkCrossFlowRelationRowRef` to name a current record edition whose `entityOfConcernRef` is this slice's selected network, then resolve exactly one row by occurrence and complete ordered endpoint-binding identity. Pair that resolved row with one `TransformationFlowRelationReference@Context` already present in an applicable transfer, dependency, crossing, guard, or subject-use reference field of this admitted E.18.3 structure and with its matching `NetworkEndpointBindingSets[]` entry. Verify occurrence, kind, direct governor, signature, participant order, endpoint members, flow positions, and position bindings by value. If the record describes another network, the locator resolves zero or several rows, any field differs, or the relation reference is not already admitted, keep the mapping out of the slice and return the exact missing or ambiguous network, row, position, relation, or governor.
+
+A network locator consumes only those admitted position and relation-reference epistemes. `transformationFlowValuationRef?`, `pathIds[]`, and `pathSliceIds[]` remain one-TFS fields; they do not qualify the network. Network demonstration valuations, path slices, and `DesignRunTag` values stay inside member-local locator rows bound to one exact leaf position.
+
 #### E.18.3:4.3 - Boundary
 
 This `U.Structure` specialization is not a second transformation ontology, workflow, method, work plan, performed work, mathematical graph, publication, evidence relation, gate decision, architecture decision, or architecture description. It is a transformation-flow structure over typed transformation positions and exact relation references, together with explicit connections and returns to the patterns governing stronger claims.
 
 #### E.18.3:4.4 - Replay and change localization
 
-Replay one use from the reciprocal CGUS specialization refs, transformed entity and kind, typed transformation positions, exact relation signatures and values, structural-function and subject-use classifiers, governed-position connections, path and slice ids, optional valuation, preserved structures, C.33 adequacy notes, and stop and return boundaries. For each continuation, recover the exact relation or guard that admits it and the pattern governing any stronger claim.
+Replay one use from the reciprocal CGUS specialization refs, transformed entity and kind, typed transformation positions, exact relation signatures and values, structural-function and subject-use classifiers, governed-position connections, one-TFS path and valuation refs when current, any post-admission network position and relation mappings, preserved structures, C.33 adequacy notes, and stop and return boundaries. For each continuation, recover the exact relation or guard that admits it and the pattern governing any stronger claim.
 
 Localize changes by the relation they affect. A changed relation value reopens its classifiers, dependent guards, and continuations. A changed neighbor value or kind reopens that governed-position connection and its supporting relation. A changed path or valuation reopens only the dependent path slices and demonstrations. Changed omitted structure reopens the C.33 note. Source edition, freshness, telemetry, and decay remain G.11 changes; E.18 owns only slice-local flow refresh. Reconstruct the wider specialization only when the transformed entity, transformation-position set, relation topology, preserved structure, or declared use boundary changes.
 
@@ -82854,6 +83156,8 @@ Localize changes by the relation they affect. A changed relation value reopens i
 **Minimal first use.** In the candidate-set repair situation, name `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition`, `ComparisonRecalculationPosition`, and the proposed dependency `ComparisonDependsOnAdmittedEdition`. Keep the result as a `ProvisionalUnfoldingDemonstrationDescription@Context` with return descriptions pointing to G.11 and A.19. This already prevents a stale-edition comparison from looking current without asserting typed positions or a relation instance prematurely. Admit the full E.18.3 structure only when the exact dependency and every required admission coordinate are recoverable.
 
 **P2W carry-through.** Accepted problem-side records may name distinctions, constraints, and unresolved relation positions that jointly guide later method selection, planning, work, interpretation, and return. `E.18.3` can relate those positions to candidate governing-pattern positions through exact connection kinds and supporting relations. It does not authorize launch or performed work, and it does not replace E.18.1 carry-through.
+
+**Recursive build-the-builder demonstration.** After a four-level network is selected and verified under E.18.NET and its relevant E.18.3 positions and relation-reference epistemes are admitted, a demonstrative slice follows one finite member path to an already admitted leaf position. The network mapping points to the same included position, and every cross-member row cites an already admitted relation-reference episteme with matching participant positions and bindings. The leaf path slice and tag stay in its member-local row. Before those admissions, the same graph remains a provisional description rather than a network-aware slice.
 
 **Transformation-flow mini-example.** A team has a flow card "admitted reference-publication edition changes -> recalculate comparison -> update candidate set -> decide whether to repair." E.18.3 admits only the transformation-flow slice:
 
@@ -82903,7 +83207,9 @@ Before those typed positions, exact relation references, C.33 omission note, and
 | ID | Passing condition | Failed-check repair |
 | --- | --- | --- |
 | **CC-E18.3-1 Transformation substrate.** | Bounded transformations, transformed entity and kind, and typed transformation positions are named. | Use `A.22.CGUS` or another direct pattern instead of E.18.3. |
-| **CC-E18.3-2 Flow structure.** | Exact transfer, dependency, crossing, and guard relation refs; path and path-slice refs; demonstrations; and optional valuation are recoverable without union fields. | Lower to a route card, graph description, or ordinary explanation. |
+| **CC-E18.3-2 Flow structure.** | Exact transfer, dependency, crossing, and guard relation refs; one-TFS path and path-slice refs; demonstrations; and optional one-TFS valuation are recoverable without union fields. | Lower to a route card, graph description, or ordinary explanation. |
+| **CC-E18.3-2a Network position admission.** | Every position ref agrees with the selected network, complete member path, and leaf TFS position and maps to the same exact position already present in both `transformationPositionRefs[]` and the demonstrative slice's `includedStructurePositionRefs[]`; no parallel raw-position list is created. | Return the mismatched network, path, or leaf; admit the missing typed position or remove the network mapping and keep the graph provisional. |
+| **CC-E18.3-2b Network relation and local-state admission.** | Every selected network relation row comes from a current record of that same network and is paired with a relation-reference episteme already present in an applicable E.18.3 reference field, with occurrence, kind, governor, signature, participant order, endpoints, and bindings equal. Valuations, path slices, and tags remain leaf-local and are absent as network-global fields. | Return the exact network, record, relation, endpoint, binding, or governor blocker; remove global state and consume only admitted refs in the post-admission slice. |
 | **CC-E18.3-3 Governing-position connections.** | Every neighboring position has exact kind, ref, governing pattern, connection kind, and rationale. Every connection except `comparisonPeer` has an exact supporting relation; for `comparisonPeer`, this connection relation itself states the exact pair and rationale. | Add the typed connection or remove the neighboring-position claim. |
 | **CC-E18.3-4 Preserved and omitted structure.** | Preserved transformation structures are exact refs; relevant loss and hiddenness are C.33 adequacy notes for the declared use. | Add the exact structures and C.33 notes before relying on the slice. |
 | **CC-E18.3-5 Stop and return.** | Stop boundary and returns to exact governing patterns are separate; E.18 slice-local refresh and G.11 currentness remain distinct. | Add exact boundaries or keep the slice as a one-use example. |
@@ -82915,6 +83221,7 @@ Before those typed positions, exact relation references, C.33 omission note, and
 | --- | --- | --- |
 | **P2W as launch permission** | A carry-through note is used to begin work. | Add method, work-plan, work-entry, or gate record under the direct pattern before work is authorized. |
 | **Flow card as architecture decision** | A P2S flow card is treated as the decision or ADR. | Keep flow structure in E.18.3 or C.32.P2S; use `C.32.PAD` and `C.32.ADR` for decision and ADR projection. |
+| **Network graph as admitted slice** | Raw member paths, edge labels, copied positions, or one global tag are inserted into a demonstrative slice. | Select and verify the E.18.NET-conforming network first, then admit typed E.18.3 positions and exact relation-reference epistemes; then map to those same values through A.22.CGUS, or keep the graph provisional. |
 | **Evidence path as evidence** | A path through evidence-looking boxes is treated as sufficient evidence. | Open `A.10`, `B.3`, or `G.6`; name the evidence relation and admissible use. |
 | **Loop as improvement** | A retry loop in the flow is called quality improvement. | Use `E.23` only when object version, evaluation frame, repair, and re-evaluation are current. |
 
@@ -82946,13 +83253,399 @@ As of 2026-07-11, OCPQ is the current research comparator for typed multi-object
 
 Specializes: the `A.22.CGUS` use of `ConstraintGovernedUnfoldingStructure@Context` when the substrate is bounded transformation-flow structure with typed transformation positions, exact relation refs, crossings, guards, valuations, preserved structures, C.33 adequacy notes, and governing-position connections.
 
-Builds on: `E.18`, `A.3.4`, `A.22`, and `E.17` for transformation-flow structure and publication discipline.
+Builds on: `E.18` for one-TFS positions and local flow state, `E.18.NET` for selected network members, finite member paths, and exact obtaining cross-member relations, `A.22.CGUS` for mutually exclusive post-admission locator families, `A.3.4`, `A.22`, and `E.17` for transformation, structure, and publication discipline.
 
-Coordinates with: `E.18.1`, `C.32.P2S`, `C.30.TFS-REL`, `E.23`, `C.18`, `C.19`, `G.5`, `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, `A.6.3.NAR`, and `G.11`.
+Coordinates with: `E.18.1`, `C.32.P2S`, `C.30.TFS-REL`, `E.23`, `C.18`, `C.19`, `G.5`, `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, `A.6.3.NAR`, and `G.11`; a network demonstration consumes only already admitted E.18.3 position and relation-reference values.
 
 Does not replace: direct method, work, evidence, gate, architecture, decision, publication, mathematical-lens, E.18 slice-local refresh, or G.11 currentness patterns.
 
 ### E.18.3:End
+
+## E.18.NET - Network of Transformation-Flow Structures
+
+> **Tech-name:** **TransformationFlowStructureNetwork**
+> **Plain-name:** Network of transformation-flow structures
+> **Type:** Structural pattern for ontic relations (E)
+> **Status:** Stable
+> **Normativity:** Normative unless explicitly marked informative
+
+### E.18.NET:1 - Problem frame — intent and first useful result
+
+Use this pattern when one engineering question depends on two or more independently identified transformation-flow structures, or on nested networks of them, and at least one exact relation connects positions across their boundaries. Typical situations include a toolchain that builds another tool, a production system related to the product it helps produce, or an operating flow whose observation returns to a separate development flow.
+
+Start with the practical choice, not with a graph:
+
+1. decide whether the case is several valuations of one flow structure, an internal portion of one flow structure, or a network of independent flow structures;
+2. identify each candidate member independently;
+3. name the exact obtaining relation occurrences that connect positions in different members;
+4. select only the members, relations, boundary exposures, and constraints needed for the current question; and
+5. return one exact network reference, or stop at the proposed description and name the absent identity discriminator or exact relation-status result.
+
+The first useful result is therefore small. It is either:
+
+```text
+selectedNetworkRef: one exact TransformationFlowStructureNetwork
+directMemberRefs[]: at least two refs to independently identified TransformationFlowStructure or E.18.NET-conforming TransformationFlowStructureNetwork values
+selectedCrossFlowRelationOccurrenceRefs[]: exact selected obtaining relations under their direct patterns
+selectedNetworkConstraintRefs[]: exact applied endpoint, boundary-exposure, and acyclic direct-member constraints
+networkUseFrame:
+  questionOrAction: the concrete question answered or action enabled
+  forbiddenOverread: what this selection does not establish
+returnCondition: the first member, relation, constraint, or use-frame change that reopens selection
+```
+
+or an exact stop such as:
+
+```text
+proposedNetworkDescriptionRef: current diagram or record
+blockedClaim: "the compiler-building flow produces the compiler-use flow input"
+directRelationStatus:
+  missing-governor: no direct relation kind/predicate governs these participants and use
+  unresolved-grounding: a governor exists but current facts do not decide its predicate
+  false-predicate: current facts fail the predicate, so no occurrence fills the network
+  missing-endpoint-binding: an occurrence obtains but one required position binding is absent
+result: exactly one applicable status above
+```
+
+If any `directMemberRefs[]`, `selectedCrossFlowRelationOccurrenceRefs[]`, `selectedNetworkConstraintRefs[]`, or `networkUseFrame` value is absent or unresolved, keep `proposedNetworkDescriptionRef` and name that exact missing discriminator. Use `directRelationStatus` only for the relation branch shown above; a missing member, applied constraint, or use frame keeps its own stop. Do not assert `selectedNetworkRef` until all four discriminators are recoverable.
+
+Do not use E.18.NET merely because one flow branches, contains a detailed portion, has several valuations, or is drawn as a network. Use E.18 for one selected `TransformationFlowStructure`, its valuations and internal `U.Transfer` relations; use E.18's `SubflowRef` for one parent-relative internal portion. Use E.18.2 when the current object is a graph, wiring diagram, tuple, category-theory expression, or another mathematical description. Use A.22.CGUS and E.18.3 when the current object is an admitted demonstrative traversal rather than the network itself.
+
+### E.18.NET:2 - Problem
+
+Teams routinely connect flows that have different governed objects, Work occurrences, architecture boundaries, valuation state, and change cadence. A development flow produces or changes a tool; another flow uses the tool; another evaluates the use; feedback returns to development. A manufacturing system is changed through one flow while products are made through another. A compiler is built by one toolchain and then participates in a later build.
+
+A single picture can hide three different ontic answers:
+
+| Working situation | What is actually selected | What to do |
+| --- | --- | --- |
+| Several valuations, paths, or slices share one exact TFS identity | one `TransformationFlowStructure` | stay in E.18; do not mint another structure |
+| A detailed portion resolves through positions and internal `U.Transfer` occurrences of one exact parent TFS | one parent-relative `SubflowRef` | stay in E.18; return through the parent's boundary positions |
+| Independently identified TFS or nested-network values are connected by exact obtaining relations across their boundaries | one `TransformationFlowStructureNetwork` | apply this pattern |
+
+When the third case is treated as one giant TFS, local state appears global, an internal `U.Transfer` is asked to mean production, use, evaluation, feedback, correspondence, and dependency, and a change in one member appears to reidentify everything. When the first or second case is over-split into a network, the model invents members and relations that the engineering situation does not need.
+
+### E.18.NET:3 - Forces
+
+| Force | Tension to hold |
+| --- | --- |
+| Local autonomy vs one engineering question | Members keep their identity and state while a selected structure makes their exact coordination inspectable. |
+| Recursive reuse vs fixed levels | A member may itself be a network, but membership paths must remain finite and acyclic. |
+| Plain diagrams vs exact relations | A readable edge helps recognition, but only a directly governed obtaining relation contributes to identity. |
+| Boundary exposure vs flattening | A parent can use a nested boundary position without copying the nested member's internal structure. |
+| Useful local state vs false global state | Valuation, path slice, and `DesignRunTag` remain local to one leaf TFS position binding. |
+| Stable selection vs evolving members | Reidentify only when an A.22 discriminator changes; records, renderings, and selection Work remain separate. |
+
+### E.18.NET:4 - Solution
+
+#### E.18.NET:4.1 - Select a dependent non-agentive structure
+
+`TransformationFlowStructureNetwork@Context` is a dependent, non-agentive specialization of `U.Structure` owned by E.18.NET and selected through the A.22 identity law. It is not a root U-kind, acting system, holon, workflow, graph, record, publication, `FlowValuation`, WorkPlan, or performed Work. The `@Context` suffix qualifies retrieval and use; it adds no identity discriminator.
+
+For `N : TransformationFlowStructureNetwork`, recover exactly:
+
+```text
+StructureIdentity(N) = <
+  directMemberRefs[],
+  selectedCrossFlowRelationOccurrenceRefs[],
+  selectedNetworkConstraintRefs[],
+  networkUseFrame
+>
+```
+
+The four field names have the same meanings as in the first-use result: exact direct members, exact selected obtaining cross-flow occurrence refs, exact applied network constraints, and one concrete use frame. `returnCondition` is not a fifth identity discriminator; it records when the current use must return and reselect.
+
+The direct-member set contains at least two exact values. Each member is one independently identified `TransformationFlowStructure` or one independently identified E.18.NET-conforming `TransformationFlowStructureNetwork`. At least one selected relation occurrence binds positions in different direct members or in different leaf TFS members reached through them. The use frame says what the practitioner will decide or do with this selected organization and names the forbidden overread. “Current use”, “appropriate network”, and the title of a diagram are not use frames.
+
+A row in a record does not create a member or make membership obtain. This profile needs no generic `networkMemberOf` relation. If a future receiver needs a separately re-identifiable world-side membership occurrence, reopen that relation question under A.6.RCD; do not infer it from the member list.
+
+#### E.18.NET:4.2 - Reidentification and change locality
+
+Replacing a direct member, selected relation occurrence, applied endpoint or exposure constraint, acyclicity constraint, or named selection-use frame identifies another selected network. Reidentifying a nested member reopens every parent network that selects that exact member.
+
+Changing only a name, reference designator, record edition, graph layout, mathematical description, publication, selecting system, selection Work, evidence item, `FlowValuation`, `PathSliceId`, or local `DesignRunTag` leaves the network unchanged when the four A.22 discriminators still resolve to the same values.
+
+#### E.18.NET:4.3 - Recurse through finite member paths
+
+The selected direct-member nesting is acyclic. No direct or transitive member path from a network resolves back to that network, and every member path used by a reference is finite. This permits build-the-builder and supply-network recursion without inventing level-1, level-2, or level-3 network kinds.
+
+Cycles among selected cross-flow relation occurrences remain possible when their direct governing patterns permit them. Feedback from operation or evaluation to development is therefore compatible with acyclic membership: the cycle is in the subject relations, not in network containment.
+
+`E.18` owns the complete `FlowPositionRef` identity. Import that tuple unchanged; E.18.NET owns only the `ExposedFlowPositionRef` extension needed for a boundary position reached through one finite member path:
+
+```text
+FlowPositionRef := <
+  transformationFlowStructureRef,
+  localFlowPositionId
+>
+
+ExposedFlowPositionRef := <
+  networkStructureRef,
+  memberPath[],
+  leafFlowPositionRef
+>
+```
+
+Every hop in `memberPath[]` resolves through the preceding network's direct members. Its final member is the TFS named by `leafFlowPositionRef`. When the path crosses a nested network, the leaf position must be one of the boundary positions that nested network exposes for the current higher-level use. Two different paths to the same leaf TFS position are two different exposures.
+
+The parent network may compose the finite path and use the exposed boundary. It may not copy or silently flatten the nested member's internal structure. `FlowValuation`, `PathSliceId`, actual fillings, and `DesignRunTag` qualify use of a position; they are not part of `FlowPositionRef` or `ExposedFlowPositionRef` identity.
+
+#### E.18.NET:4.4 - Keep valuation and design/run state leaf-local
+
+Each `positionBindingRef` cites an already governed E.18 position/valuation binding or a declaration-local binding whose direct pattern supplies participant meanings, value kind, and reference mode. A network introduces no universal cross-flow value kind.
+
+`DesignRunTag` belongs to one exact position binding inside one exact leaf TFS. A network has no network-level `FlowValuation`, global design/run ladder, or automatic crossing that changes the carried entity's kind. If the same episteme fills a run-side position in a development TFS and a design-side position in a target-system-change TFS, record two local bindings and the exact relation between them.
+
+#### E.18.NET:4.5 - Preserve the direct cross-flow relations
+
+For every relation used by the network, recover:
+
+- the exact obtaining occurrence;
+- the exact relation kind;
+- the direct governing pattern;
+- the complete signature and participant order;
+- the endpoint member and position binding for every participant; and
+- direction only when the direct relation has direction.
+
+An n-ary relation remains n-ary. Do not decompose it into invented binary arrows. A row, edge label, shared entity, temporal adjacency, operation result, plan row, or graph connection never makes the relation obtain.
+
+`U.Transfer` remains E.18's internal relation kind for one TFS. It is not a universal relation between network members. For any production, use, participation, evaluation, correspondence, feedback, dependency, supply, or other cross-flow relation, first apply its direct owner: the relation kind must have passed relation-kind admission, that owner must supply the direct predicate and applicability, and current case facts or constituting history must satisfy the predicate affirmatively. Only then does one world-side occurrence obtain. Its identity remains under the direct relation owner and A.6.REL when a receiver consumes occurrence identity. The network selects only the exact already-obtaining occurrence ref.
+
+If no direct relation kind and predicate govern the intended participants and use, return `missing-governor`. If the governor exists but current facts do not decide the predicate, keep a proposed network description and return the exact missing facts or information-sufficiency boundary. If the predicate is false, no occurrence fills the network. If the occurrence obtains but an endpoint position binding is missing, return that missing binding. A row, graph edge, or episteme neither admits the kind nor creates the occurrence. In none of these branches substitute `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff`, or `transfer` as a generic edge.
+
+#### E.18.NET:4.6 - Record the network without replacing it
+
+When the selected answer must survive beyond the immediate work, describe it with a separate C.2.1 episteme:
+
+```text
+TransformationFlowStructureNetworkRecord@Context <: U.Episteme:
+  entityOfConcernRef: one exact TransformationFlowStructureNetwork ref
+  entityOfConcernKindRef: TransformationFlowStructureNetwork
+  claimScope?: U.ClaimScope
+  effectiveReferenceScheme: U.ReferenceScheme
+  directMemberRows[]:
+    memberRef: TransformationFlowStructureRef | TransformationFlowStructureNetworkRef
+  exposedFlowPositionRows[]:
+    exposedFlowPositionRef: ExposedFlowPositionRef
+    memberPath[]
+    leafTransformationFlowStructureRef
+    leafFlowPositionRef
+  crossFlowRelationRows[]:
+    exactRelationOccurrenceRef: U.RelationRef
+    exactRelationKindRef: U.KindRef
+    governingPatternRef: U.MethodDescriptionRef
+    endpointRows[]:
+      relationParticipantPositionRef
+      memberRef
+      flowPositionRef: FlowPositionRef | ExposedFlowPositionRef
+      positionBindingRef
+  architectureCorrespondenceRowRefs[]?: C.32.CONWAY episteme refs
+  selectedNetworkConstraintRefs[]
+  networkUseFrame
+  preservedNetworkStructure
+  lostOrHiddenNetworkStructure
+  returnCondition
+```
+
+The record describes the network; it is not the network. Its member and relation rows cite objects that already exist and occurrences that already obtain. An architecture-correspondence row is a qualified reading only. It contributes no member or selected cross-flow relation unless an exact separately grounded relation occurrence and endpoint bindings also satisfy the network identity.
+
+E.18.NET owns this composite locator for one nested cross-flow row:
+
+```text
+NetworkCrossFlowRelationRowRef := <
+  transformationFlowStructureNetworkRecordRef: U.EpistemeRef, referencing one exact current TransformationFlowStructureNetworkRecord@Context edition,
+  exactRelationOccurrenceRef: U.RelationRef,
+  orderedEndpointBindingIdentity[]: <
+    relationParticipantPositionRef,
+    memberRef,
+    flowPositionRef: FlowPositionRef | ExposedFlowPositionRef,
+    positionBindingRef
+  >
+>
+```
+
+Resolve the record ref first, then match `crossFlowRelationRows[]` by the exact occurrence ref and the complete ordered endpoint-binding identity. Exactly one row must match. Zero matches or several matches leave the locator unresolved and stop that consumer; never fall back to the containing record, the occurrence alone, or a prose pointer. `NetworkCrossFlowRelationRowRef` is a reference shape, not a U-kind, episteme, or relation occurrence. Its `U.EpistemeRef` targets the containing record, never the nested row.
+
+#### E.18.NET:4.7 - Keep descriptions, demonstrations, architecture, and Work outside identity
+
+Use E.18.2 for a graph, hypergraph, network expression, wiring diagram, category-theory object, tuple, fold, or other mathematical description of the selected network. State what that description preserves and loses. A rendered graph or publication face remains under E.17 and C.29 as applicable.
+
+Use A.22.CGUS and E.18.3 for an admitted network-aware `DemonstrativeUnfoldingSlice@Context`. Its finite paths must map to already admitted included positions, its cross-flow relations must cite admitted exact relation-reference epistemes, and its tags remain in leaf-local bindings. The slice demonstrates one traversal; it is neither the network nor an actual trajectory, WorkPlan, or Work occurrence.
+
+Use C.30.TFS-REL when architecture uses the selected network. Name one exact containing holon whose `ArchitectureOf@Context` selects the network, or explicitly state the inter-holon use and its participating architecture claims without inventing a bearer. Use C.32.CONWAY only for its one-pair architecture-influence reading; the pair neither acts nor becomes the network.
+
+Only admitted systems perform Work. Selecting a network, writing its record, or drawing its graph is not performance by the network. Selection method, selecting system, dated selection Work, result episteme, and accountable decision remain under A.3, A.12, A.15, C.2.1, and C.11 as applicable.
+
+### E.18.NET:5 - Archetypal Grounding — worked cases
+
+#### E.18.NET:5.1 - Same surface vocabulary, different ontic answers
+
+**Several valuations of one TFS.** A cooling-loop review compares nominal-load and emergency-load valuations of the same exact cooling-loop `TransformationFlowStructure`. Both valuations use the same structure positions and internal `U.Transfer` occurrences. The load value, path slice, and local tags differ; the TFS identity does not. E.18.NET is not used.
+
+**Internal coffee subflow.** A coffee-brewing TFS exposes a preparation portion containing grinding, dosing, and wetting positions plus their parent-internal `U.Transfer` occurrences. Its entry and exit remain positions of the brewing TFS. The practitioner uses E.18's `SubflowRef`; no second TFS or network is created.
+
+**Independent network.** A roastery-production TFS and a café-brewing TFS have separate governed objects, Work occurrences, valuation boundaries, and architecture change cadence. The direct supply owner has an admitted relation kind, supplies the predicate and applicability, and the current delivery-and-acceptance facts satisfy that predicate for a dispatch position in the first and an accepted-stock position in the second. For ordinary first use, fill the selected network directly:
+
+```text
+selectedNetworkRef: RoasteryCafeSupplyNetwork@CoffeeService
+directMemberRefs[]:
+  - RoasteryProductionTFS@Dispatch
+  - CafeBrewingTFS@AcceptedStock
+selectedCrossFlowRelationOccurrenceRefs[]:
+  - SupplyOccurrence@Lot24Dispatch-to-CafeAcceptance
+selectedNetworkConstraintRefs[]:
+  - SupplyEndpointConstraint@Dispatch-to-AcceptedStock
+  - SelectedExposureConstraint@RoasteryDispatch-and-CafeAcceptedStock
+  - AcyclicDirectMemberConstraint@RoasteryCafe
+networkUseFrame:
+  questionOrAction: decide which accepted stock can enter the coffee-service brewing flow
+  forbiddenOverread: shared coffee does not make both members one TFS or make supply a generic edge
+returnCondition: either member, the supply occurrence, an endpoint or exposure, acyclicity, or the coffee-service question changes
+```
+
+This filled basis is enough for the immediate selection; it is not a `TransformationFlowStructureNetworkRecord@Context`. Create that separate descriptive record only when the result must survive the current work. With no direct supply kind or predicate, the same diagram remains a proposed description with `missing-governor`. With an applicable governor but undecided facts, it remains proposed with the missing grounding or information-sufficiency boundary. With a false predicate, no supply occurrence fills the network. With a satisfied predicate but a missing endpoint binding, it remains proposed with that binding named.
+
+#### E.18.NET:5.2 - Recursive build-the-builder
+
+A project distinguishes five independently identified flow structures:
+
+1. a compiler-source-change TFS;
+2. a bootstrap-compiler build TFS;
+3. an application-build TFS using the admitted compiler artifact through a directly governed project relation;
+4. a release-assurance TFS that evaluates the built application through its own direct relation; and
+5. a deployment-and-operation TFS whose exact software-use relation is governed separately.
+
+It then selects four nested networks. `CompilerBuildNetwork` has members 1 and 2. `ApplicationCompilerUseNetwork` has that independently identified network and member 3. `ReleaseAssuranceNetwork` has `ApplicationCompilerUseNetwork` and member 4. `DeliveryOperationNetwork` has `ReleaseAssuranceNetwork` and member 5. Every selection has at least two direct members and its own exact obtaining cross-member relation occurrence and endpoint bindings.
+
+The bootstrap compiler result is exposed from the outer delivery network through this exact finite path:
+
+```text
+ExposedFlowPositionRef:
+  networkStructureRef: DeliveryOperationNetwork
+  memberPath[]:
+    - ReleaseAssuranceNetwork
+    - ApplicationCompilerUseNetwork
+    - CompilerBuildNetwork
+    - BootstrapCompilerBuildTFS
+  leafFlowPositionRef:
+    transformationFlowStructureRef: BootstrapCompilerBuildTFS
+    localFlowPositionId: ExecutableCompilerResult
+```
+
+Each path entry is a direct member of the preceding network, the final entry is the TFS named by `leafFlowPositionRef`, and no network repeats. This is one four-entry member path, not four numbered network kinds. “Builds”, “uses”, “evaluates”, and “delivers” remain ordinary cues until every selected cross-member link resolves to its exact direct relation kind, participants, obtaining occurrence, and endpoint bindings.
+
+#### E.18.NET:5.3 - N-ary relation and feedback cycle
+
+A manufacturing release relation has three participants under one direct domain pattern: one product-definition position in a development TFS, one equipment-readiness position in a production-system-change TFS, and one release-condition position in an assurance TFS. Its network row keeps the three participants and their order. It is not replaced by three unlabeled arrows.
+
+Later, an exact use-observation relation connects an operating TFS position back to a development TFS position. The relation occurrences form a feedback cycle, while the selected direct-member nesting remains acyclic. The feedback does not make the operating TFS a member of itself and does not turn observation into development Work.
+
+#### E.18.NET:5.4 - Architecture and demonstrative reading
+
+For one containing product-development holon, a current `ArchitectureOf@Context` claim may select the network among its structures. If the selected members belong to separately named holons and no containing bearer is grounded, record the use as inter-holon and name the participating architecture claims. Do not invent one system that contains them merely to fill the architecture field.
+
+A teaching mantra may show a finite admitted dependency slice through the network. The slice uses only the network locator family, cites admitted positions and exact relation-reference epistemes, and keeps omissions and return visible. It does not prescribe project work order and does not make the displayed path the whole network.
+
+### E.18.NET:6 - Bias-Annotation
+
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for uses of this pattern.
+
+| Bias risk | Mitigation in this pattern |
+| --- | --- |
+| **Gov:** demanding a fully reusable relation occurrence can hide the cheaper local decision. | The first result permits a proposed description and one truthful missing-discriminator or relation-status stop; it does not invent a generic relation. |
+| **Arch:** a network-shaped case can tempt the reader to invent one containing holon. | C.30.TFS-REL keeps named-containing-holon and explicit inter-holon uses separate. |
+| **Onto/Epist:** a graph, record, or demonstrative slice can be mistaken for the selected network. | The four A.22 identity discriminators precede every description, record, rendering, architecture reading, and demonstration. |
+| **Prag:** exact member, relation, endpoint, and constraint apparatus can crowd out first use. | The practitioner first produces one small network result or one exact stop; the durable record remains optional. |
+| **Did:** the coffee and build-the-builder cases can be over-read as a closed domain ontology or a universal edge vocabulary. | The cases demonstrate boundary choices only; each cross-flow relation still returns to its direct owner and exact participants. |
+
+### E.18.NET:7 - Conformance Checklist
+
+| ID | Requirement | Failed-check repair |
+| --- | --- | --- |
+| **CC-E18-NET-01 Three-way discriminator** | The case is explicitly distinguished from several valuations of one exact TFS and from one E.18 `SubflowRef`. | Return to member identity and relation basis; do not decide from diagram shape, team labels, or stage names. |
+| **CC-E18-NET-02 A.22 identity** | Exact direct members, selected obtaining cross-flow occurrences, applied constraints, and one concrete selection-use frame are recoverable. | Recover the missing discriminator or stop at a proposed description. |
+| **CC-E18-NET-03 Independent members** | Every member keeps its own TFS or independently identified E.18.NET-conforming network identity, transformations, Work, valuations, boundaries, and local state. | Split any merged object and reapply its direct governing patterns. |
+| **CC-E18-NET-04 Finite acyclic membership** | Every member path is finite and no member path returns to the same network. | Repair the selected member set or return the cyclic-membership blocker; do not add level kinds. |
+| **CC-E18-NET-05 Exposed position** | Every `ExposedFlowPositionRef` resolves hop by hop to an exposed leaf TFS position. | Recover the missing member hop or boundary exposure; do not flatten the nested network. |
+| **CC-E18-NET-06 Leaf-local state** | Every valuation, path slice, and `DesignRunTag` remains attached to one exact leaf-TFS binding. | Remove the network-global state field and restore the local bindings. |
+| **CC-E18-NET-07 Direct relations** | Every cross-flow relation has an admitted kind, applicable direct predicate, satisfied affirmative case, exact obtaining occurrence, direct governor, full signature, and grounded endpoint bindings. | Apply the direct owner: return `missing-governor` only for a missing kind/predicate; otherwise name unresolved grounding, false predicate, or missing endpoint binding exactly. |
+| **CC-E18-NET-08 N-ary preservation** | Participant count, order, kinds, positions, and direction match the direct relation. | Restore the direct signature and remove invented binary decompositions. |
+| **CC-E18-NET-09 Record and row-locator separation** | Member rows and relation rows describe already identified objects and occurrences; the record does not create them, and every `NetworkCrossFlowRelationRowRef` resolves exactly one nested row by record, occurrence, and ordered endpoint-binding identity. | Separate the C.2.1 episteme from the selected `U.Structure`; repair or remove any locator that resolves zero or several rows. |
+| **CC-E18-NET-10 Non-agentivity** | The network, record, graph, pattern, architecture reading, and demonstrative slice do not act, build, decide, warrant, or perform Work. | Name the exact system, role, Work, and direct relation that supports the claim. |
+| **CC-E18-NET-11 Representation boundary** | Mathematical descriptions, graphs, views, publications, and demonstrations are identified separately and state preserved/lost structure when relied on. | Apply E.18.2, C.29, E.17, A.22.CGUS, or E.18.3 as appropriate. |
+| **CC-E18-NET-12 Useful result or stop** | The practitioner receives one exact network ref and return condition, or one exact proposed description with the reason selection cannot close: an absent member, applied constraint, or use frame; a missing relation kind or predicate; unresolved facts; a false predicate; or a missing endpoint binding. | Restore the action and visible result or one of those truthful stops; do not end with only a taxonomy or warning list. |
+
+### E.18.NET:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Symptom | Repair |
+| --- | --- | --- |
+| One giant flow | Development, use, evaluation, and refresh are called valuations solely because they are coupled. | Test shared TFS identity; when independent members and a direct relation are needed, select a network. |
+| Detail becomes a member | A zoomed diagram, team boundary, or named stage becomes another TFS. | Use E.18 `SubflowRef` while every position and internal transfer still resolves in one parent. |
+| Universal cross-flow edge | `creates`, `produces`, `uses`, `input`, `result`, `handoff`, or `transfer` labels stand in for several relations. | Apply each direct owner: missing kind/predicate returns `missing-governor`; unresolved or false predicates and missing endpoint bindings retain their own stop results. |
+| Record makes the world | Filling `memberRows` or drawing edges is treated as establishing members and relations. | Ground members and relation occurrences first; keep the record descriptive. |
+| Recursive flattening | A parent copies all nested positions and state into one global graph. | Keep finite member paths and expose only the boundary positions needed by the parent use. |
+| Global design/run ladder | One `DesignRunTag` is assigned to the network. | Restore one tag per exact leaf position binding. |
+| Network as actor or workflow | The network builds, evaluates, repairs, schedules, or authorizes. | Name the acting system and Work, or the exact decision/gate/assurance owner; keep the network non-agentive. |
+| Pretty graph as network | A connected diagram is accepted without exact members, relations, constraints, and use frame. | Keep it as an E.18.2 or provisional description until all four A.22 discriminators are recoverable. |
+
+### E.18.NET:9 - Consequences
+
+| Gain | Cost or trade-off |
+| --- | --- |
+| Independent flows can be coordinated without losing their identity or local change boundary. | Members and cross-flow relations must be grounded before the network can be claimed. |
+| Recursive networks scale without numbered levels. | Exposed positions require finite path resolution and explicit boundary selection. |
+| Subject relations keep their participant meanings and n-ary signatures. | A missing direct governor remains visible instead of being hidden by a convenient generic edge. |
+| Local valuations and tags remain usable without becoming global state. | A network record carries more explicit member and endpoint references than a simple graph. |
+| Graphs and mantras remain useful descriptions. | Description, demonstration, architecture use, Work, and selected structure require separate governing patterns. |
+
+Adoption test: use E.18.NET only when the current question needs independently identified members and at least one exact relation across their boundaries. If one TFS or one parent-relative `SubflowRef` answers the question, the added network, endpoint, and member-path apparatus buys nothing and stays absent.
+
+### E.18.NET:10 - Rationale and naming
+
+The selected head preserves the established `TransformationFlowStructure` name, says that the members are structures rather than valuations, and supports recursion without fixed levels. The shorter English cue “transformation-flow network” and Russian cue “сеть потоков преобразований” are retrieval wording only after the governed value is clear.
+
+Mint vs reuse: E.18.NET mints the durable names `TransformationFlowStructureNetwork`, `TransformationFlowStructureNetworkRecord@Context`, `ExposedFlowPositionRef`, and `NetworkCrossFlowRelationRowRef` for the governed value family, separate description episteme, and two pattern-owned reference shapes defined here. It reuses `U.Structure`, `U.Episteme`, `TransformationFlowStructure`, `FlowPositionRef`, relation kinds, and relation occurrences without changing their meanings; labels, records, and references create none of those values.
+
+```text
+NameCard:
+  NameCardId: NC-TRANSFORMATION-FLOW-STRUCTURE-NETWORK
+  GovernedValueRef: TransformationFlowStructureNetwork@Context <: U.Structure
+  GoverningPatternRef: E.18.NET
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseRef: recursive selected organization over independently identified TransformationFlowStructure or TransformationFlowStructureNetwork values and exact cross-flow relation occurrences, with member boundaries and locally exposed positions preserved
+  TechLabel: TransformationFlowStructureNetwork
+  PlainLabel: network of transformation-flow structures
+  CandidateSet: TransformationFlowStructureNetwork; TransformationFlowNetwork; CrossFlowRelationStructure; TransformationFlowDependencyStructure; CoupledTransformationFlowStructure; FlowOfFlows; CreatorGraph; CreationStructure
+  RejectedCandidates: TransformationFlowNetwork can mean one network-shaped TFS; CrossFlowRelationStructure hides the transformation-flow use; TransformationFlowDependencyStructure narrows to one projection; CoupledTransformationFlowStructure suggests one merged TFS; FlowOfFlows conflicts with FlowValuation; CreatorGraph confuses the ontic structure with a graph and narrows change to creation; CreationStructure excludes operation, repair, modification, and reuse
+  SelectionRationale: preserve the established TransformationFlowStructure head, make structures rather than valuations the members, and permit recursive membership without numbered levels
+  LineageEntries: flow-of-flows and creator-graph examples remain retrieval lineage for the stress cases; fixed two-level and one-giant-flow ontic readings are retired
+  RefreshCondition: reopen if repeated use cannot distinguish one TFS with several valuations, one subflow, and a recursive network of independently identified TFS values
+```
+
+### E.18.NET:11 - SoTA-Echoing
+
+Each line below is inherited only while the cited current owner keeps both the named body decision and the named source-use row for its declared use. E.18.NET relies on that owner's currentness decision; it does not independently turn the cited literature or tool practice into current authority. When one owner row changes, reopen only the affected line here.
+
+For the working reader, these lines support the boundary already exercised in the worked cases in sections 5.1–5.4: select a network only from independently identified members and exact relations, keep positions and state local to their leaf TFS, treat graphs as descriptions, and let a demonstrative path cite only already admitted positions and relation references.
+
+| Current owner and exact source-use locus | E.18.NET disposition | Concrete mutation in E.18.NET | Qualification and smallest reopen |
+| --- | --- | --- | --- |
+| `A.22:4.1` and the `A.22:11` row “FPF `C.2.1`, `A.6.3`, and `E.17` description and view discipline” | **Adopt** the four selected-structure discriminators and the separation of structure from its description, view, record, selecting system, and selection Work. | Network identity is the exact `directMemberRefs[]`, selected obtaining `selectedCrossFlowRelationOccurrenceRefs[]`, exact `selectedNetworkConstraintRefs[]`, and one `networkUseFrame`; the descriptive record and selection activity remain separate and non-agentive. | Applies while A.22 keeps those four discriminator meanings and that description/view boundary. Reopen this line if A.22 changes a discriminator or allows a description, view, record, or selection activity to identify or authorize the structure. |
+| `E.18:5.1` through `E.18:5.3` and the `E.18:12` rows `Applied category theory and compositional open systems`, `Operads, wiring diagrams, and hypergraph categories`, and `Open-graph and string-diagram rewriting` | **Adapt** one-TFS typed positions, valuation locality, exact internal `U.Transfer`, interface exposure, and replay-local rewrite discipline to recursively selected members. | A network keeps leaf-TFS position and valuation identity, resolves each exposed position through a finite member path, and leaves `U.Transfer` inside its owning TFS; cross-flow relations remain independently governed world-side occurrences. | Applies while E.18 keeps those position, valuation, `U.Transfer`, crossing, and replay-locality decisions. Reopen this line if E.18 changes any of them or its named source-use rows no longer support typed interfaces and localized rewrites. |
+| `E.18.2:4.1` through `E.18.2:4.3` and the `E.18.2:9` rows `Model-based systems and architecture-description practice` and `Applied category theory, wiring diagrams, and graph rewriting` | **Adopt** the subject/description/lens separation and **adapt** the permitted expressions to member paths, n-ary relation views, quotients, and folds. | A mathematical description may expose or compare network structure only after naming its network subject, declared use, preserved structure, lost structure, and stop; it neither creates nor reidentifies the network or its relation occurrences. | Applies while E.18.2 keeps the five-way discriminator and the named rows' preserved/lost-structure and C.29 lens-use boundary. Reopen this line if the selected subject branch, preserved/lost account, mapping mode, or C.29 return condition changes. |
+| `A.22.CGUS:4.3`, `E.18.3:4.2a`, and `E.18.3:4.4`; plus the `A.22.CGUS:11` and `E.18.3:11` rows `OCPQ: Object-Centric Process Querying & Constraints`, `Modelica Language Specification 3.7 (2026); JuliaHub Dyad documentation 3.1.0 (2026-06-10)`, and `ModelingToolkit: A Composable Graph Transformation System For Equation-Based Modeling; Composing Modeling and Simulation with Machine Learning in Julia; Functional Mock-up Interface standard` | **Adapt** typed object-and-relation structure, relation-first model separation, and post-admission demonstration discipline to a network locator. | A network-aware demonstration consumes already admitted positions and exact relation-reference epistemes, keeps member-local state, branches, omissions, and return visible, and never turns the displayed path into the network, model, analysis, WorkPlan, or performed Work. | Applies while those source-use rows remain the owners' current comparators and CGUS and E.18.3 keep post-admission slices and exact locator admission. Reopen this line if the comparator rows change object-relation or model-analysis separation, or if either owner changes the admission or locator decision. |
+
+The F.18 NameCard entries `flow-of-flows` and `creator-graph` remain naming and stress-example lineage only; they authorize no current ontology or practice claim. A new need for cyclic member identity, a separately re-identifiable membership occurrence, or cross-flow semantics that cannot preserve the direct relation and its endpoints reopens the E.18.NET architecture decision itself, not the source-currentness status of every row above.
+
+### E.18.NET:12 - Relations
+
+Builds on: `A.22` for selected-structure identity and non-agentivity; `E.18` for one TFS, internal `U.Transfer`, `FlowPositionRef`, valuations, paths, slices, and local state; `A.6.REL`, `A.6.RCD`, and `A.6.P.WMR` for exact relation recovery and `missing-governor`; `C.2.1` for the optional descriptive record; and `F.18` for the stable local name.
+
+Coordinates with: `E.18.2` and `C.29` for mathematical descriptions; `A.22.CGUS` and `E.18.3` for admitted demonstrative slices; `C.30.TFS-REL` for architecture use; `C.32.CONWAY` for one qualified architecture-influence pair; `A.3.4`, `A.12`, and the A.15 family for actual transformation, acting systems, Work, production, and work-to-change claims; `E.17` for publication; and `E.11.PUA` for first-entry recognition.
+
+Does not replace: the direct pattern that governs any selected production, use, participation, evaluation, feedback, dependency, correspondence, supply, evidence, assurance, gate, decision, causal, or work relation. E.18.NET selects already obtaining occurrences for one network use; it does not mint their kinds or make them obtain.
+
+### E.18.NET:End
 
 ## E.19 - Pattern Quality Gates: Review and Refresh Profiles
 
@@ -83702,7 +84395,7 @@ Action result from the pattern-review and validation practice grounding: an `E.1
 ## E.20 - Mechanism Introduction Protocol
 
 > **Type:** Architectural pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative
 
 ### E.20:1 - Problem frame
