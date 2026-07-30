@@ -47,10 +47,11 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | ***Cluster A.I - Foundational Ontology*** | | | | |
 | A.1 | **Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)** | Stable | Constructive recognition of one exact `U.Entity` under an already admitted holon kind: six world-side components, kind-specific `U.System` and `U.Episteme` conditions, and strict separation from evaluation, assertion, evidence, currentness, reliance, whole reidentification, selected structure, delimitation, and boundary-crossing claims. | **Builds on:** E.24.UK, A.14, C.13. **Coordinates with:** B.3.5, A.15.1, A.6.1, C.2.1, A.10, B.3, G.11, B.2, A.1.1, A.22, C.30, A.3.4, C.20, E.10.ARCH. |
 | A.1.1 | **Bounded Model-Use Structure and DDD Bounded-Context Recovery** | Stable | Use when a present engineering decision depends on the organization of where one exact model applies, how it is actually used in assigned Work, and whether a concrete expression still agrees with the model's fixed content. Recover the direct relations first; select `BoundedModelUseStructure` only when their joint organization changes the decision. A proposed crossing stays outside until a compatible direct governor makes it obtain. Keeps the DDD plain name “bounded context” while separating the selected `U.Structure` from systems, Work, epistemes, descriptions, views, representations, and publications. *Queries:* "Which exact applicability, actual-use, and fixed-content coherence facts matter here?", "Do their governed occurrences form one decision-relevant structure?", "Which context object or unsupported crossing must I not invent?" | **Builds on:** A.1, A.22, C.2.1, A.2.6, A.6.REL. **Coordinates with:** A.2, A.2.1, A.3.1, A.3.4, A.14, A.15.1, A.15.PROD, F.9, E.17.0, C.29, E.24.PUB, C.2.P, A.6.0, A.6.5, F.17, F.18. |
+| A.1.SCR | **Finding the Acting or Changed System** | Stable | Use when a current engineering decision depends on which exact system acts, is intended to change, carries a capability, persists, or is explicitly designated as a project target, and the subject is unclear. First name the claim and decision; leave through the direct owner when Work, Method, capability, transformation, episteme, structure, or a direct relation already answers it; apply the complete A.1 criterion only while systemhood remains load-bearing. *Query:* “Which exact system acts or is intended to change here, and what decision depends on treating it as a system?” Service/access ambiguity starts independently at A.6.P §4.11a. | **Builds on:** A.1. **Coordinates with:** A.6.P §4.11a, A.15.6, E.10, F.18, and the direct owner selected by the claim. |
 | A.2 | **Role Taxonomy** | Stable | *Keywords:* role, assignment, holder, context, function vs identity, responsibility, U.RoleAssignment. *Queries:* "How to model responsibilities?", "What is the difference between what a thing *is* and what it *does*?" | **Builds on:** A.1, A.1.1. **Prerequisite for:** A.2.1-A.2.6, A.13, A.15. |
 | A.2.1 | **`U.RoleAssignment` - System Role Assignment** | Stable | *Keywords:* assignment occurrence, holder System, role value, role-taxonomy episteme, effective ReferenceScheme, AssignmentInterval, performedUnderAssignment. *Queries:* "Which System holds this role under which taxonomy and scheme?", "Are these two assignment episodes the same occurrence?", "Which assignment covers this performed Work?" | **Builds on:** A.2, A.6.REL, A.6.5, C.2.1. **Coordinates with:** A.2.2, A.2.5, A.15.1, F.6. |
 | A.2.2 | **`U.Capability`: System Ability Envelope and Measures** | Stable | *Keywords:* holder-dependent capability instance, ability envelope, measure set, qualification window, currentness, capability-fit condition. *Queries:* "What is a capability in FPF?", "How do I separate capability from capability statements, evidence, dashboards, and fit predicates?" | **Builds on:** A.2, E.24.UK. **Informs:** A.15, A.2.3. |
-| A.2.3 | **`U.PromiseContent` (Promise Content)** | Stable | *Keywords:* promise content, promise content, accessSpec, acceptanceSpec, SLO, SLA, claim scope (G), Work evidence, provider/consumer roles. *Queries:* "What is a promise content in FPF?", "Promise content vs Work vs MethodDescription", "How do access and acceptance differ?", "How is SLO/SLA adjudicated from Work evidence?" | **Builds on:** A.2.2. **Prerequisite for:** F.12. **Used by:** A.2.8, A.6.C, A.6.8. |
+| A.2.3 | **`U.PromiseContent` (Promise Content)** | Stable | *Keywords:* promise content, promise content, accessSpec, acceptanceSpec, SLO, SLA, claim scope (G), Work evidence, provider/consumer roles. *Queries:* "What is a promise content in FPF?", "Promise content vs Work vs MethodDescription", "How do access and acceptance differ?", "How is SLO/SLA adjudicated from Work evidence?" | **Builds on:** A.2.2. **Prerequisite for:** F.12. **Used by:** A.2.8, A.6.C, A.6.P §4.11a. |
 | A.2.4 | **Episteme Evidence-Use and Status-Use Relations** | Stable | *Keywords:* evidence-use, status-use, source-use, episteme, claim, provenance. *Queries:* "How is an episteme used as evidence?", "How do I keep evidence use from becoming a role?", "How do I model status use around an episteme?" | **Builds on:** A.2. **Informs:** A.10, B.3. |
 | A.2.5 | **RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission** | Stable | *Keywords:* state machine, RSG, role state, enactability, role-state evolution. *Queries:* "How to model the state of a role?", "What is a Role State Graph?" | **Builds on:** A.2.1. **Prerequisite for:** A.15. |
 | A.2.6 | **Unified Scope Mechanism (USM): Context Slices & Scopes** | Stable | Tests one exact `U.ContextSlice` against one exact set-valued `U.Scope` and gives the receiving action one evaluation result: `true`, `false`, or `unknown`. Keeps claim, work, and publication scopes distinct from evaluation work, result epistemes, representations, model-applicability occurrences, and selected structures. *Queries:* "Does this exact slice belong to this exact scope?", "What follows from true, false, or unknown?", "When does local-sense translation require an exact F.9 Bridge occurrence?" | **Builds on:** C.3, A.6.0, A.6.1, C.2.1, A.7. **Coordinates with:** C.2.2, C.2.3, A.2.2, A.15.1, F.9, A.22, A.1.1, E.24.UK, C.29. |
@@ -73,7 +74,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | A.6 | **Signature Stack & Boundary Discipline** | Stable | *Keywords:* signature and mechanism declarations, actual occurrence, publication face, atomic L/A/D/E claims, six-way authority-word branch, Work versus non-Work effect, separate result, delivery, acceptance, and evidence. *Queries:* "What exact boundary claim is this?", "Does authority-looking wording mean source, norm or grant, gate, exercise, evaluation or conflict?", "Which actual occurrence and separately governed consequence are current?" | **Builds on:** E.8, A.6.0, A.6.1, A.6.3, E.17.0, E.17, A.7, F.18, E.10.D2. **Coordinates with:** A.6.B, A.6.C, A.6.P, C.26, F.9, A.10, A.15, B.3, E.19. |
 | A.6.RSIG | **Recognition Signatures for Descriptions** | Stable | description-recognition signature; encountered carrier vs defining `U.Episteme`; API/access description not promise; method applicability note; false neighboring description | `A.6`, `A.6.P`, `F.18`, `E.10` |
 | A.6.B | **Boundary Norm Square (Laws / Admissibility / Deontics / Work-Effects)** | Stable | *Keywords:* atomic L/A/D/E claims, laws, entry predicates, accountable norms and grants, actual exercise, evaluated findings, conflict claims, observable effects and evidence, direct obtaining conditions. *Queries:* "What exact claim does this boundary sentence make?", "Is authority-looking wording a norm or grant, a gate, actual exercise, evaluation, conflict, or source claim?", "How do I keep description from creating the world-side object it describes?" | **Builds on:** E.8, A.6.0, A.6.1, E.17, A.7, A.2.8, A.2.8.PER, A.2.9. **Coordinates with:** A.6, A.6.C, A.10, B.3. |
-| A.6.C | **Contract Unpacking for Boundaries** | Stable | *Keywords:* four-question contract lens, promise content, speech-act Work, description and publication, commitment or grant, gate, dated Work, separate result and evidence, atomic L/A/D/E rows, obtaining versus representation, MVPK no-new-semantics. *Queries:* "What was promised? What was said, published, or instituted? Which governance claim exists? What happened, what followed, and what supports reliance?", "Which exact direct object and owner belongs to each atomic claim?", "Does a system act under an assignment, or is a document being mistaken for the actor or institutional fact?" | **Builds on:** A.6, A.6.B, A.6.8, A.7, A.2.3, A.2.8, A.2.8.PER, A.2.9, A.15.1, A.10, E.17. **Coordinates with:** F.12, F.18. |
+| A.6.C | **Contract Unpacking for Boundaries** | Stable | *Keywords:* four-question contract lens, promise content, speech-act Work, description and publication, commitment or grant, gate, dated Work, separate result and evidence, atomic L/A/D/E rows, obtaining versus representation, MVPK no-new-semantics. *Queries:* "What was promised? What was said, published, or instituted? Which governance claim exists? What happened, what followed, and what supports reliance?", "Which exact direct object and owner belongs to each atomic claim?", "Does a system act under an assignment, or is a document being mistaken for the actor or institutional fact?" | **Builds on:** A.6, A.6.B, A.6.P §4.11a, A.7, A.2.3, A.2.8, A.2.8.PER, A.2.9, A.15.1, A.10, E.17. **Coordinates with:** F.12, F.18. |
 | A.6.REL | **Relation Obtaining and Individuated Relation Occurrences** | Stable | Governs when a direct relation obtains, when a named receiving use needs one obtaining occurrence explicitly distinguished, and how assertions, descriptions, designations, references, publication occurrences, and representations remain distinct from the world-side occurrence. | **Builds on:** direct relation patterns for participant meanings, obtaining predicates, and occurrence-identity rules. **Coordinates with:** A.6.0, A.6.5, C.2.1, E.24, E.24.UK, F.18, C.29. |
 | A.6.0 | **U.Signature - Reusable Law-Governed Declaration Episteme** | Stable | Identifies one reusable declaration episteme by its claim content, exact EntityOfConcern, and effective ReferenceScheme; governs vocabulary, laws, applicability, relation-facing RelationSignature use, and only the specialized typed declarations needed by receiving uses. | **Builds on:** A.7, C.2.1, C.3, A.2.6, A.6.5. **Coordinates with:** A.6.REL, A.6.1, A.3.1, A.15.1, C.29, E.24.UK, E.24.PUB. |
 | A.6.1 | **U.Mechanism - Reusable Law-Governed Operation Declaration** | Stable | Keywords: U.Mechanism, operation declaration, OperationAlgebra, operation application, application binding, LawSet, AdmissibilityConditions, realization. Queries: "How do I declare a reusable operation family?", "When does one exact operation application or binding obtain?", "How do I separate declaration, realization, method, Work, evidence, and publication?" | **Builds on:** A.6.0, C.2.1, A.2.6. **Coordinates with:** A.6.REL for occurrence identity; A.6.5 only for contrasting RelationSignature SlotSpecs; A.3.1/A.15.1 for method and dated Work; F.9 only for exact cross-context SenseCell correspondence; CHR and A.1.1/A.22 for selected plane and model-use structure. |
@@ -84,17 +85,16 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | A.6.3.RT | **Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition** | Stable | Representation-scheme or reasoning-medium transition that preserves `entityOfConcernRef`, makes recoverability and loss visible, and blocks geometry, notation, carrier work, decode work, or transformation-flow language from becoming hidden ontology or action force. | **Builds on:** A.6.3, A.6.2, A.7, E.10.D2, C.2.7, E.17.0, E.17, F.9, F.18. **Coordinates with:** A.6.3.CSC, A.6.3.NAR, C.26, A.6.3.CR, E.17.EFP, E.17.ID.CR, A.6.4, A.15, A.20, A.21. |
 | A.6.3.NAR | **Structure-to-Narrative Rendering** | Stable | EntityOfConcern-preserving rendering of selected source structure into a sequential narrative path for a declared reader or listener use, with source temporal posture, route family, narrator/reader roles, preserved/foregrounded/coarsened/lost structure, admissible use, and source return explicit. | **Builds on:** A.6.3, A.6.3.CSC, A.6.3.RT, A.22, C.33, C.34, E.17, E.10. **Coordinates with:** C.35, A.16.1, C.30, C.30.AD, C.30.ASV, C.32.P2S, E.4.DPF, E.4.DPF.DA. |
 | A.6.4 | **`U.EpistemicRetargeting` — EntityOfConcern retargeting morphism** | Stable | Effect-free episteme-to-episteme morphism that intentionally changes `entityOfConcernRef` under a declared KindBridge, invariant, loss boundary, and admissible use while preserving only the commitments that the bridge makes reviewable. | **Builds on:** A.6.2, A.6.3, A.6.5, A.7, C.2.1, C.2, C.3, F.9, E.10.D2, E.18. **Used by:** E.18 StructuralReinterpretation, KD-CAL/LOG-CAL retargeting rules, Fourier-style and data-model retargetings. |
-| A.6.P | **Relational Precision Restoration — Recovering Direct Relations from Under-Specified Claims** | Stable | *Keywords:* under-specified relation-bearing claim, direct relation, actual participants, participant meanings, obtaining condition, receiving-use gate, RelationSignature, SlotSpec, occurrence identity, designation, representation, changed-object routing, missing-governor. *Queries:* "What direct relation or comparison does this phrase assert, and who actually participates?", "Which declaration, occurrence identity, designation, or representation does the next named reader or task actually need?", "Which object changed, and which pattern governs that change?", "When must an unresolved claim remain informative and block decision, gate, publication, assurance, reliance, or cross-context reuse?" | **Builds on:** A.6.REL, A.6.RCD, A.6.0, A.6.5, C.2.1, E.10, E.10.ARCH. **Coordinates with:** A.6.P.WMR, A.6.RSIR, A.6.B, A.3.4, A.10, C.29, E.17.0, E.24.PUB, F.9, F.18. **Specialised by:** A.6.P.WMR and A.6.6; use A.6.8, A.6.9, or A.6.H only after its current entry accepts the recovered objects and its result returns the direct predicate and participants or an explicit blocker. |
+| A.6.P | **Relational Precision Restoration — Recovering Direct Relations from Under-Specified Claims** | Stable | *Keywords:* under-specified relation-bearing claim, direct relation, actual participants, participant meanings, obtaining condition, receiving-use gate, RelationSignature, SlotSpec, occurrence identity, designation, representation, changed-object routing, missing-governor. *Queries:* "What direct relation or comparison does this phrase assert, and who actually participates?", "Which declaration, occurrence identity, designation, or representation does the next named reader or task actually need?", "Which object changed, and which pattern governs that change?", "When must an unresolved claim remain informative and block decision, gate, publication, assurance, reliance, or cross-context reuse?", "Service or access wording hides what the project is talking about—what concrete referent or relation must I name first?" | **Builds on:** A.6.REL, A.6.RCD, A.6.0, A.6.5, C.2.1, E.10, E.10.ARCH. **Coordinates with:** A.1.SCR, A.6.P.WMR, A.6.RSIR, A.6.B, A.3.4, A.10, C.29, E.17.0, E.24.PUB, F.9, F.18. **Specialised by:** A.6.P.WMR and A.6.6; service/access wording stays in A.6.P §4.11a and exits to its exact direct owner; an exact bearer enters A.1.SCR only when the repaired claim makes systemhood load-bearing; use A.6.9 or A.6.H only after its current entry accepts the recovered objects and its result returns the direct predicate and participants or an explicit blocker. |
 | A.6.P.WMR | **Exact Relation Recovery for Method and Work Claims** | Stable | Start with one boundary-word sentence about an input, raw material, source data, source material, output, result, outcome, deliverable, or handoff. Name the exact thing, what it is related to, and the direct verb that can safely be said now—or return `factually unsupported`, `missing-information`, or `missing-governor`. Use formal claim dimensions only when they change or check that answer; keep planning, Work, production, delivery, acceptance, transfer, and receiving use separate. | **Specializes:** A.6.P. **Coordinates with:** A.3.1, A.3.2, A.6.1, A.15.1-A.15.3, A.3.4, A.15.PROD, A.6.RCD, C.2.P, E.10, E.10.ARCH, E.18.1, F.18. |
 | A.6.RCD | **Needed Relation Claim Derivation and Relation-Kind Admission** | Stable | Starts from one blocked relation-bearing claim with exact participants and selects the lightest truthful result: an existing direct claim, a local compound claim, reusable predicate-definition content, a derived relation-kind candidate only when occurrence semantics are needed, or an irreducible primitive candidate. Unknown facts remain an information, support, or reliance question rather than a third direct-claim polarity. | **Entered from:** A.6.P after direct-relation recovery. **Builds on:** A.6.REL, A.6.5, C.2.1. **Coordinates with:** A.6.0, A.11, E.24, E.24.UK, C.29, F.18. |
 | A.6.RSIR | **Relation, Signature, Interface, Role, and Slot Precision Restoration** | Stable | *Keywords:* relation-signature-interface-role-slot recovery, direct relation participant, participant meaning, actual participant, RelationSignature, SlotSpec, assertion or description designation, operation argument or result declaration, exact operation application and binding, representation position and correspondence, role, role assignment, interface, port, API, reduced-use source label, shadow ontology. *Queries:* "Does this role, slot, field, parameter, argument, or endpoint name an actual participant, a declaration-local SlotSpec, an assertion-side designation, an operation declaration or exact binding, or a representation position?", "When does interface wording mean a module relation, functional port, signature, API publication, service-access claim, or representation?", "When may the source label remain local without making the stronger FPF claim?" | **Builds on:** E.10, E.10.ARCH, A.6.P, A.6.REL, A.6.0, A.6.1, A.6.5, C.2.1, A.2, A.2.1, A.15, C.29. **Coordinates with:** A.6.M, A.6.F, A.6.A, A.3.4.P, C.2.P, C.2.P.DR, E.17, A.10, F.10, G.6, F.18, F.19. |
 | A.6.A | **Action-Invitation Precision Restoration (ACT-INV)** | Stable | *Keywords:* affordance, action invitation, action-first language, post-threshold classification, A.15 docking, language-state seam. *Queries:* "How do I repair overloaded affordance language in FPF?", "When does action-guiding language become an action invitation?", "How does A.6.A differ from early cue routing?" | **Builds on:** A.6.P, A.15, C.2.2a, A.16, B.4.1, F.9. **Coordinates with:** C.16.Q, B.5.2.0. |
-| A.6.F | **Function and Functional Precision Restoration (RPR-FUNCTION)** | Stable | *Keywords:* function wording, functional architecture, FunctionalStructure, required behavior or effect, actual transformation, method-description membership, capability, work, module allocation, mathematical function, episteme/publication boundary. *Queries:* "Which exact governed object or relation does this function-like phrase name?", "Does this procedure, code, solver, recipe, protocol, or algorithm identify one C.2.1 episteme about one admitted method with a substantive way-of-doing claim, or only a representation/publication form?", "Is this required or desired behavior/effect still claim content, or is there an independently grounded actual U.Transformation?", "When is functional architecture one selected FunctionalStructure rather than a separate ontology, module, capability, method, work, or mathematical mapping?" | **Builds on:** A.6.P, A.6.5, A.7, C.30, C.30.ASV, C.29, A.3.1, A.3.2, C.2.1, A.3.4, A.15.1, A.15.2. **Coordinates with:** A.6.M, A.15, C.16.Q, A.6.0, A.6.B, A.6.C, A.6.8, E.18, C.30.TFS-REL, A.10, G.6, E.24.PUB. |
+| A.6.F | **Function and Functional Precision Restoration (RPR-FUNCTION)** | Stable | *Keywords:* function wording, functional architecture, FunctionalStructure, required behavior or effect, actual transformation, method-description membership, capability, work, module allocation, mathematical function, episteme/publication boundary. *Queries:* "Which exact governed object or relation does this function-like phrase name?", "Does this procedure, code, solver, recipe, protocol, or algorithm identify one C.2.1 episteme about one admitted method with a substantive way-of-doing claim, or only a representation/publication form?", "Is this required or desired behavior/effect still claim content, or is there an independently grounded actual U.Transformation?", "When is functional architecture one selected FunctionalStructure rather than a separate ontology, module, capability, method, work, or mathematical mapping?" | **Builds on:** A.6.P, A.6.5, A.7, C.30, C.30.ASV, C.29, A.3.1, A.3.2, C.2.1, A.3.4, A.15.1, A.15.2. **Coordinates with:** A.6.M, A.15, C.16.Q, A.6.0, A.6.B, A.6.C, E.18, C.30.TFS-REL, A.10, G.6, E.24.PUB. |
 | A.6.M | **Module Relation Repair** | Stable | *Keywords:* module relation, component, interface, port, platform, layer, stack, open architecture, substitutability, interface specification. *Queries:* "When is a module relation being claimed?", "How do I keep functional links, signatures, ports, and implemented interfaces distinct?", "When does open architecture require module-interface repair?" | **Builds on:** A.6.P, A.6.5, A.6.B, C.30, C.30.ASV, A.6.F. **Coordinates with:** C.31, C.31.RSA, E.18, C.30.TFS-REL, A.10, B.3, A.20, A.21, C.28, E.20, G.5, C.11. |
 | A.6.5 | **Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline** | Stable | Types reusable direct-relation participant meanings as exact SlotSpecs inside one RelationSignature while keeping declaration-local SlotKinds, world-side participants, receiving-episteme and A.15.3 planned designations, A.6.1 operation declarations, references, and obtaining occurrences distinct. | **Builds on:** A.6.0 and direct relation patterns. **Coordinates with:** A.6.REL, A.6.P, A.6.RSIR, A.6.1, A.15.3, C.2.1, C.3, C.29, E.24.UK. |
 | A.6.6 | **Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)** | Stable | *Keywords:* base declaration, basedness, baseRelation, SWBD, witnesses, scope, Γ_time, anchoring, support-as-basedness, rebase, retime, rescope. *Queries:* "What is base-declaration discipline?", "How to model base-dependence without anchoring?", "When is support really base-dependence?", "What is a ScopedWitnessedBaseDeclaration (SWBD)?" | **Builds on:** A.6.0, A.6.5, A.2.6, A.2.4, A.7, E.8, E.10. **Coordinates with:** A.10, A.14, C.2.1, A.6.3-A.6.4, C.3.3, E.18, F.9, F.15, F.18. **Used by:** base-relative admissibility/calibration/attribution patterns; anchor* and support-as-basedness rewrites into explicit `baseRelation(dependent, base)`. |
 | A.6.7 | **`MechSuiteDescription` — Description of a set of distinct mechanisms** | Stable | *Keywords:* mechanism suite, distinct mechanisms, suite obligations, spec pins, CN-Spec, CG-Spec, P2W, planned baseline, crossing visibility. *Queries:* "What is a MechSuiteDescription?", "How to describe a bundle of distinct mechanisms without using MechFamilyDescription?", "How do suite obligations differ from gate decisions?" | **Builds on:** E.8, A.6.1, A.6.5, E.10, E.19. **Coordinates with:** E.18, A.21. **Used by:** Part G universalization; CHR mechanism stacks. |
-| A.6.8 | **Service Polysemy Unpacking (RPR-SERV)** | Stable | *Keywords:* service polysemy, service situation, interface semantics, promise content, provider principal, service/cell analogy, boundary exchange, viability envelope, API read/export. *Queries:* "How do I unpack service talk in FPF?", "When is an API read interface semantics rather than state evidence?", "When does service viability apply C.26.3?" | **Builds on:** A.6.P, A.6.B, A.6.5, A.2.3, A.2.8, A.2.9, A.15, E.10, F.17, F.18. **Coordinates with:** A.6.C, A.7, C.26.1, C.26.3, F.8, E.15. |
 | A.6.9 | **Cross-Context Sameness Disambiguation - Repairing cross-context "same / equivalent / align" via explicit Bridges (RPR-XCTX)** | Stable | *Keywords:* ambiguous sameness, direct-owner dispatch, exact F.17 `SchemeSenseCell` endpoints, different `<ReferenceScheme, LocalSenseClaim>` projections, relation-only F.9 Bridge, separate C.2.1 bounded-use claim, A.10/B.3 reliance, actual receiving object, explicit stop. *Queries:* "Do these words name one directly governed value or two exact local senses?", "Do the endpoint projections differ, and does this Bridge actually obtain?", "Which separate claim, reliance basis, authorization owner, and actual receiving object govern this use?" A true Bridge by itself selects, authorizes, and performs no use. | **Builds on:** A.6.P, F.17, F.18, F.9, C.2.1, F.0.1, F.7, F.8. **Coordinates with:** A.10, B.3, A.7, A.6.6, A.2.6, E.17, C.29, A.6.3.RT, C.3.3, A.22, A.2.1, F.6, A.15.1. |
 | A.6.S | **U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature** | Stable | *Keywords:* signature engineering, TargetSignature, ConstructorSignature, two-signature arrangement, EFEM, editioning, retargeting, slot/base change lexicon, MVPK views (no new semantics), claim register, no epistemic agency. *Queries:* "What is U.SignatureEngineeringPair in FPF?", "How do I model TargetSignature vs ConstructorSignature (and keep Work out of edits)?", "How do slot/base change verbs compose into a reproducible signature evolution account?" | **Builds on:** A.6.0, A.6.2, A.6.3, A.6.4, A.6.5, A.6.6, A.6.B, A.3, A.7, A.12, C.2.1, E.17, E.10. **Coordinates with:** E.18, E.19. |
 | A.6.H | **Wholeness Language Unpacking (RPR-WHOLE)** | Stable | *Keywords:* wholeness, integrity, part-of, boundary, environment, mereology, completeness, order/time, publication-carrier and EntityOfConcern/Description distinction, role-method-work. *Queries:* "How to unpack 'whole/part/integrity' in FPF?", "RPR-WHOLE trigger words", "ComponentOf vs ConstituentOf vs PortionOf vs MemberOf vs PhaseOf", "How to separate order/time from mereology?" | **Builds on:** A.6.P, A.6.5, A.7. **Coordinates with:** A.14, B.1.1, B.1.4, A.15. |
@@ -225,7 +225,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | C.24 | **Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)** | Stable | Call-route and call-plan discipline for tool-using agents: plan/work separation, checkpoint return, tool-call budget, stop or replan condition, and overread boundaries. | **Builds on:** A.15, B.3, C.5, C.18, C.19. **Coordinates with:** E.23, C.11, C.28, G.5, G.6, G.9. |
 | C.25 | **Q-Bundle: Authoring "-ilities" as Structured Quality Bundles** | Stable | *Keywords:* quality bundle, -ility, quality family, characteristic plus scope, mechanism/status slots, endpoint classification, viability envelope, proxy metric, admissible quality-family use, failure mode. *Queries:* "What is a Q-Bundle in FPF?", "When is an -ility one characteristic and when is it a bundle?", "When does a viability claim need C.26.3 rather than one metric?" | **Builds on:** A.2.6, A.6.1, C.16, B.3. **Coordinates with:** C.16.Q, A.15, C.26.3. |
 | C.26 | **Quantum-Like Modeling Lens** | Stable | *Keywords:* quantum-like, QL-lite, QL-NQ, probe frame, order effect, incompatible probes, instrument update, state export, source-loss coarsening, minimal admissible output. *Queries:* "When is quantum-like useful as a mathematical lens in FPF?", "What representational mistake does QL-lite prevent?", "How do I use QL without making a physical quantum claim?" | **Builds on:** C.11, C.16, A.6, A.10, B.3, F.9, A.6.3.CSC, A.6.3.RT. **Constrains:** C.26.1-C.26.3. **Coordinates with:** A.15, C.25, C.18, C.19. |
-| C.26.1 | **Probe-Coupled Boundary Interaction** | Stable | *Keywords:* probe-coupled boundary, passive read, dashboard as instrument, workshop as state-changing interaction, API read, survey, bridge result, export loss, evidence window. *Queries:* "When does a dashboard, workshop, metric, or API read change what it reports?", "How do I stop treating a boundary interaction as a passive read?", "When should a probe-coupled case apply evidence or assurance patterns?" | **Builds on:** C.26, A.6, A.6.B, A.10, B.3, C.16, F.9, A.15. **Coordinates with:** C.26.2, C.26.3, A.6.8. |
+| C.26.1 | **Probe-Coupled Boundary Interaction** | Stable | *Keywords:* probe-coupled boundary, passive read, dashboard as instrument, workshop as state-changing interaction, API read, survey, bridge result, export loss, evidence window. *Queries:* "When does a dashboard, workshop, metric, or API read change what it reports?", "How do I stop treating a boundary interaction as a passive read?", "When should a probe-coupled case apply evidence or assurance patterns?" | **Builds on:** C.26, A.6, A.6.B, A.10, B.3, C.16, F.9, A.15. **Coordinates with:** C.26.2, C.26.3, A.6.P §4.11a. |
 | C.26.2 | **Enacted Distributed State Evidence** | Stable | *Keywords:* distributed-state evidence, coordinated work, enacted state, minimal state reading, evidence carrier, window, rival explanation, no group mind, report/export loss. *Queries:* "When does coordinated work evidence a state no participant report carries?", "How do I bound a distributed-state reading?", "When is a survey or dashboard thinner than the enacted state?" | **Builds on:** C.26, A.15, A.10, B.3, F.9, C.16. **Coordinates with:** C.26.1, C.26.3. |
 | C.26.3 | **Viability-Envelope Boundary Regulation** | Stable | *Keywords:* viability envelope, homeostasis, allostasis, boundary regulation, sensor/probe/actuator split, metric-induced distortion, service viability, quality bundle, failure mode. *Queries:* "When is viability more than one green metric?", "How do boundary probes or metrics change a viability envelope?", "When does a service split or support load need envelope regulation?" | **Builds on:** C.26, C.25, U.Dynamics, A.6, A.15, C.16, A.10, B.3, A.3, A.19, C.18, C.19. **Coordinates with:** C.26.1, C.26.2. |
 | C.27 | **Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change** | Stable | *Keywords:* temporal claim adequacy, temporal claim, state reading, rate reading, temporal trend, rate-change, intervention-sensitive temporal change, effort window, resistance/inertia, rhythm/cadence, throughput, recovery, braking, coasting, stabilization, dynamic benchmark. *Queries:* "When does a speed, rhythm, throughput, or recovery claim need temporal adequacy?", "How do I separate state, rate, and intervention-sensitive rate-change?", "When is faster improvement not enough for benchmark, quality, viability, or QL claims?" | **Builds on:** C.16, A.3.3, B.1.4, B.1.6. **Coordinates with:** C.27.TA, A.3.4, C.18.1, C.19, C.22.1, C.24, C.25, C.26, C.26.3, G.9, A.10, B.3. |
@@ -1441,6 +1441,8 @@ Typical moments:
 
 **First useful move.** Name the exact `U.Entity` under concern. Then test whether its actual construction satisfies the A.1 holon-recognition criterion under an already admitted public holon kind. `E.24.UK` admits the public kind once at ontology level; A.1 does not repeat that decision for each candidate.
 
+When the next engineering decision depends on which exact system acts, is intended to change, carries a capability, persists, or is explicitly designated as a project target, use `A.1.SCR` to find that proposed subject. A.1.SCR first permits a direct-owner exit; it applies this complete criterion only while the decision still depends on systemhood.
+
 **What goes wrong if missed.** A document edits itself, a theory gets ports, a list becomes an organization, a lathe becomes the super-holon of the workpiece it changes, and architecture is discussed without naming the holon whose structure is selected.
 
 **What this buys.** FPF gets one compact part-whole foundation without turning every whole into a physical system: identity starts at `U.Entity`; part-whole treatment starts at `U.Holon`; acting work attaches to `U.System`; claim-bearing knowledge is carried by `U.Episteme`; method holonhood is governed by `U.Method`; other admitted holon kinds keep their own governing patterns.
@@ -1763,7 +1765,9 @@ Treat a stronger source as current only when it changes the root split among `U.
 
 - **Builds on:** `E.24.UK` for one-time public U-kind admission, `A.14` and `C.13` for exact part relations and constructive assembly, and `B.3.5` when Working-Model assurance grounding is current.
 - **Coordinates with:** `A.15.1` for dated classification work; `A.6.1` for a current typed evaluation operation and actual bindings; `C.2.1` for classification-assertion or evaluation-result episteme identity; `A.10` and `B.3` for evidence and warrant; `G.11` for assertion-edition currentness; `B.2` for the separate whole-reidentification question; `A.1.1` for bounded model-use structure; `A.22` for selected structure; `C.30` for architecture; `A.3.4` for transformation; `C.20` for discipline; and `E.10.ARCH` for wording-use restoration.
+- **Applied by:** `A.1.SCR` when a practitioner must find the exact acting or changed system for a decision that depends on systemhood; direct Work, Method, capability, structure, episteme, and relation questions leave through their owners before this complete criterion is invoked.
 - **Used by:** patterns that need an exact recognized holon, an already admitted holon kind, an acting system, a non-agentive episteme, a grounded part-whole claim, a collection-versus-collective distinction, a delimitation relation, or a boundary-crossing relation.
+
 
 ### A.1:End
 
@@ -2202,6 +2206,237 @@ The external sources therefore change recognition and the tests applied to the w
 - `A.6.0` and `A.6.5` govern the `RelationSignature` and SlotSpecs declared here; `A.6.REL` governs progressive explicit individuation after the direct relation kind, obtaining condition, and occurrence-identity rule exist.
 
 ### A.1.1:End
+
+## A.1.SCR - Finding the Acting or Changed System
+
+> **Type:** Part A practitioner application pattern
+> **Status:** Draft
+> **Normativity:** Normative unless marked informative
+
+**Plain name.** Find the system that acts or is intended to change.
+
+**Mint or reuse.** This pattern introduces no U-kind, relation kind, result kind, or application-record kind. `A.1.SCR` is a PatternID. It tests one exact `U.Entity` under the already admitted `U.System` kind only when a current engineering decision depends on systemhood.
+
+### A.1.SCR:0 - Practitioner entry
+
+**Use this when.** Use this pattern when a decision depends on which exact system acts, is intended to change, carries a capability, persists through a lifecycle, or is explicitly designated as a project target—and the proposed subject is still unclear. Ask: **Which exact system acts or is intended to change here, and what decision depends on treating it as a system?**
+
+**First useful move.** State the claim, the proposed actor or change bearer, and what you will decide differently if it is or is not a system. If the phrase already names Work, a Method, capability, transformation, episteme, structure, or a direct relation and your decision does not depend on systemhood, name that object and leave through its direct owner. Apply the complete A.1 criterion only in the system-dependent branch.
+
+**First-minute recognized case.** A maintenance decision asks whether `Pump-37` or the larger pumping assembly must be isolated before repair. The exact pump has identified constituents, obtaining part relations and assembly, a reidentification rule across seal replacement, a composition-grounded pumping characteristic, and governed boundary/interface facts. Its organization can causally participate in pumping and maintenance Work while preserving identity. The first result is: **`Pump-37` is the acting `U.System` whose boundary controls this isolation decision.**
+
+**Direct-owner exit.** “We develop the surgeon's mastery” may already have a clear person whose `U.Capability` is being trained. If no live decision disputes which system bears the capability or is intended to change, name the surgeon, capability, and any current training Work under their owners; do not perform a systemhood examination merely because *mastery* sounded system-like in an old example.
+
+**Near-identical non-system case.** `PumpKit-37` contains parts of the same types and carries the same product label, but its constituents are not assembled by the required part relations, it has no composition-grounded pumping characteristic, and it cannot participate in the plant installation while preserving pump identity. The first result is: **the kit is not the pump system; the current subjects are the material collection and its description.**
+
+**Honest unknown case.** `WorkshopController-9` is an exact boxed device, but the team cannot recover its internal assembly, reidentification rule, or operating boundary. The evaluation is **unknown** and names those missing inputs; the decision that assumes an acting controller remains blocked. The entity itself satisfies or fails the criterion independently of current knowledge.
+
+**What this buys.** A real actor, change bearer, lifecycle subject, capability holder, or target-system decision gets a tested identity and boundary. A direct Work, Method, capability, structure, episteme, or relation question leaves immediately without irrelevant A.1 work.
+
+**Not this pattern when.** If the subject and its admitted kind are already clear, use the direct owner of the claim. If service or access wording hides a promise, participant, bearer, permission, Work occurrence, status, evidence, or direct relation, begin with A.6.P §4.11a. Enter A.1.SCR from that route only when the repaired claim itself depends on whether one exact bearer is a system. If only a name for an already recoverable object is unclear, use F.18.
+
+### A.1.SCR:1 - Problem frame
+
+Familiar nouns can pull attention toward the wrong system. *Mastery* may draw attention away from the person or organisation whose capability changes. *Session* may be Work rather than a system. *Hairstyle* may concern the structure and characteristics of a client's hair. *Program* may mean code, a Method, an intended designator, a deployed realization, or a run. The engineering cost is a wrong actor, identity boundary, change bearer, capability holder, or project target.
+
+A.1 owns constructive recognition under admitted holon kinds. This child does not relax or duplicate that criterion. It tells the practitioner when the complete test is worth doing, permits an immediate direct-owner exit when it is not, and returns one result tied to a concrete decision.
+
+### A.1.SCR:2 - Problem
+
+Without this conditional route, practitioners commonly:
+
+1. classify every unusual noun before asking what the decision needs;
+2. treat wording, physical embodiment, a role, or a record as proof of systemhood;
+3. stop at a list of PatternIDs without naming the actor or change bearer;
+4. infer project-target status from recognition or from being affected by Work; or
+5. reject a system reading without naming the actual Work, Method, capability, structure, episteme, or relation that remains useful.
+
+### A.1.SCR:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Useful entry vs classification ritual | A.1 is rigorous, but many direct-owner questions do not depend on systemhood. |
+| Familiar wording vs exact identity | A noun can retrieve a case but cannot identify an entity, boundary, or kind. |
+| Physical grounding vs kind collapse | Embodiment helps locate a subject but does not identify it with its role, capability, Work, or description. |
+| Project intent vs actual existence | A designator or selection among alternatives is not yet an acting system. |
+| Positive action vs honest uncertainty | Missing construction facts must block the affected decision without creating a third ontic state. |
+| Reusable cases vs taxonomy | The examples teach one move but do not form a common kind. |
+
+### A.1.SCR:4 - Solution
+
+#### A.1.SCR:4.1 - State the system-dependent decision
+
+Start with four plain statements:
+
+1. the claim you are trying to use;
+2. the exact entity proposed as actor, change bearer, capability holder, persistent subject, or designated project target;
+3. the decision or action that would differ if this entity were or were not a system; and
+4. the observation, boundary fact, or construction fact that would settle that difference.
+
+Do not use bare *system candidate* as a working noun. In an explanation say *the proposed system reading* or *the exact `U.Entity` being tested under `U.System`*. Use *candidate target systems* only when an exact project decision is choosing among alternatives.
+
+#### A.1.SCR:4.2 - Take the direct-owner exit first
+
+Before testing systemhood, ask whether the current decision already concerns one of these objects:
+
+| Current object | Direct owner or exit |
+| --- | --- |
+| Holder-dependent capability | A.2.2 |
+| Role value or obtaining role assignment | A.2 and A.2.1 |
+| Reusable way of doing or its description | A.3.1 and A.3.2 |
+| Intended work | A.15.2 `U.WorkPlan` |
+| Dated performed occurrence | A.15.1 `U.Work` |
+| Actual bounded change | A.3.4 and the exact transformation owner |
+| Claim-bearing model, rule, report, code, or other episteme | C.2.1 |
+| Selected structure or transformation-flow structure | A.22 or E.18 |
+| Promise, commitment, speech act, or permission result | A.2.3, A.2.8, A.2.9, or A.2.8.PER |
+| Service/access referent, status, evidence, evaluation, delivery, acceptance, or other relation | A.6.P §4.11a and then the exact direct owner |
+
+If this result answers the decision, stop here. Name the object, its governing pattern, and what you can now do. Do not apply A.1 as a recurring project ritual.
+
+If a needed relation has no current governor, state the exact participants and blocked receiving use, return `missing-governor[...]`, and continue under A.6.RCD. Do not substitute `relatedTo`, a graph edge, or a local bundle.
+
+#### A.1.SCR:4.3 - Apply A.1 only when systemhood remains load-bearing
+
+When the decision still depends on systemhood, recover all six A.1 constructive components. A.1 remains the criterion owner.
+
+| A.1 component | Practical recovery question |
+| --- | --- |
+| Exact entity | Which one entity is being tested, and what identity rule distinguishes it from its name, description, parts, environment, and successor? |
+| Exact constituents | Which entities actually constitute it rather than merely being nearby, listed, sampled, or described with it? |
+| Constructive part relations and assembly | Which obtaining part relations and assembly make these constituents this whole? |
+| Reidentification rule | Which changes preserve it, and which replacement, disassembly, completion, or termination ends it? |
+| Composition-grounded whole-level characteristic | Which characteristic follows from the actual assembly rather than from a label, plan, measurement, or one constituent? |
+| Possible participation in a larger constructive assembly | Which boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicable governed construction rule? |
+
+Then apply the already admitted `U.System` condition: the whole has an actual physical or operational organization through which it can causally participate in Work or transformation while preserving identity. A role assignment, capability, Work occurrence, plan, codebase, or description may provide evidence but does not create the system.
+
+#### A.1.SCR:4.4 - Return one decision-bearing result
+
+| Disposition | Required first result |
+| --- | --- |
+| Direct-owner exit | Exact non-system object or relation, its owner, and the action now possible; no A.1 test. |
+| System recognized | Exact system, identity and boundary, decisive construction facts, acting-eligibility basis, and the system-dependent next use. |
+| Proposed system reading rejected | Exact non-system subject or relation, its direct owner, and the action that remains possible. |
+| Evaluation unresolved | Exact `U.Entity`, missing A.1 component or kind-specific condition, needed information, and the decision that stays blocked. |
+
+These are response forms, not a schema. Persist a classification assertion or evaluation-result episteme only when another use must inspect or cite it; C.2.1 then owns that episteme. `true | false | unknown` describes an evaluation and changes no kind extent.
+
+#### A.1.SCR:4.5 - Add only the neighbors used now
+
+After the first result, add only claims consumed by the decision. Shared extent, one carrier, a common label, or co-occurrence establishes none of their identities or relations. The system does not become its role assignment, capability, Work, transformation, Method, plan, evidence, or description.
+
+#### A.1.SCR:4.6 - Keep service/access recovery independent
+
+When service/access wording is the unresolved phrase, start in A.6.P §4.11a. A.6.P names the exact service-provision Work, Method, PromiseContent, role assignment, bearer, permission, status, or direct relation. Return to A.1.SCR only if the repaired sentence makes a separate system-dependent assertion about an exact bearer.
+
+“My service stopped” does not by itself say that a system stopped. Service-provision Work may have ceased, an exact deployed or physical bearer may have stopped or become unavailable, or promised availability/fulfilment may have failed. A.1.SCR owns only the second reading when its system boundary matters to the decision.
+
+#### A.1.SCR:4.7 - Preserve the exact project-target bridge
+
+Target-system status exists only when a plan or decision designates it. When that fact is current, continue through A.15.6:
+
+1. identify the exact actual system, or keep a merely intended future system as a designator in plan, decision, or description content;
+2. name the plan or decision that designates it and the intended change or use;
+3. admit composite project Work only after A.15.1 and A.15.6 qualifications hold;
+4. state each actual work-to-referent, transformation, production, evaluation, delivery, acceptance, or later-use fact under its own governor;
+5. infer no target status from system recognition, being affected by Work, familiar wording, or shared realization; and
+6. use candidate-target language only for an exact selection among alternatives.
+
+If the decision needs the unsupported compound project-selection truth, preserve `missing-substrate[project-selection-conjunction]` until an exact constructor substrate and edition define that claim.
+
+#### A.1.SCR:4.8 - Use physical grounding without cross-kind identity
+
+Ask what physically or operationally exists, where its boundary lies, and what preserves or ends its identity. This pressure helps test a proposed system reading and reject description-only substitutes. It does not identify a system with its role, assignment, capability, Work, transformation, Method, plan, evidence, or description. Do not import BORO categories, unrestricted composition, or a new 4D record.
+
+### A.1.SCR:5 - Archetypal Grounding — Seven Heterogeneous Worked Cases
+
+Each row states whether the A.1.SCR trigger actually fires. The rows are examples, not members of a kind or values of an enumeration.
+
+| Source phrase | First useful result and route | Next move and governed additions | Near miss or stop |
+| --- | --- | --- | --- |
+| “We develop the surgeon's mastery.” | Name the surgeon as capability holder and the exact `U.Capability`. Use A.1.SCR only if the decision depends on which exact acting or changed system the surgeon is. | Add training Work, enacted Method, evidence/evaluation, and actual capability-relevant change only when used. | Curriculum, badge, report, role, and capability are not the surgeon or a mastery system. |
+| “We release a game session.” | The session is ordinarily composite dated Work, not a system. Use A.1.SCR only for a disputed participant or changed-system boundary. | Admit one composite Work only with the full A.15.1 basis and exact work-part relations; keep player systems, deployed installation, rule episteme, interval, activities, and records separate. | A label, actuality, shared interval, lobby record, or rules document establishes neither systemhood, Work, parthood, nor `U.Session`. |
+| “We sell internet access.” | Start in A.6.P with the promise content or other commercial claim and separately current participation. Use A.1.SCR only if a repaired claim depends on an access-point or delivery bearer being a system. | Add Method/description, WorkPlan, permission, provisioning Work, commitment, status, evidence, evaluation, fulfilment, and exact relations only when current. | No `U.Access` or `AccessRelation`; credentials, roles, endpoints, promises, plans, evidence, and connections remain different. |
+| “We develop a program.” | Distinguish code/episteme, computational Method, intended designator, deployed realization, and run. Use A.1.SCR only when a decision depends on the deployed realization acting, persisting, or changing as a system. | Add MethodDescription, planned/actual Work, transformations, and an explicitly designated project target system. | Code, algorithm, deployed system, run, and project-target choice are not one object. |
+| “The salon creates a hairstyle.” | Name the client whose hair is affected and the selected hair structure/characteristics. Use A.1.SCR only if the client-as-changed-system boundary matters. | Add hairdressing Method, description, dated Work, transformation, affected-referent facts, and acceptance when current. | Hairstyle creates no system, result kind, or target-system status. |
+| “The surface needs a grind.” | Name the workpiece or containing holon and the surface state, structure, and characteristics. Usually leave through those owners without A.1.SCR. | Add grinding Method, treatment Work, transformation, measurement, and acceptance when current. | A finish label is not an independent system, Work, or transformation. |
+| “The batch moves through the flow.” | Name the material batch under its collection or holon rule and separately the selected `TransformationFlowStructure` or `FlowValuation`. Use A.1.SCR only if a decision asserts that the batch acts as a system. | Add movement/treatment Work, transformations, transfer relations, path/valuation, and evidence under their owners. | A list, diagram, structure membership, or moving wording does not create an acting collective system or make the TFS perform Work. |
+
+**Enumeration-integrity rule.** The seven rows have different subjects, kinds, relations, entry decisions, and exits. They define no superclass, closed enum, membership predicate, or exhaustive list. Add a later example by showing its exact decision, subject, owner, route, and stop.
+
+### A.1.SCR:6 - Bias-Annotation
+
+| Bias pressure | Misreading | Correction |
+| --- | --- | --- |
+| Noun-induced systemhood | *Session*, *service*, *program*, or another familiar noun is treated as proof of a system. | State the decision and proposed subject; use the direct-owner exit or apply A.1 only when systemhood matters. |
+| Classification ritual | Every unfamiliar phrase receives the complete A.1 test. | Stop after an exact Work, Method, capability, structure, episteme, or relation answers the decision. |
+| Temporary reading becomes ontology | Repeated testing creates a candidate kind or third ontic state. | Keep one exact `U.Entity`; evaluation does not create kind membership. |
+| Physical-realization identity | Shared material or extent identifies system, role, capability, Work, transformation, Method, plan, evidence, or description. | Apply each object's direct identity rule. |
+| Project-target overread | Recognized or affected systems are automatically called target systems. | Require an exact plan or decision designation; reserve candidate-target language for explicit selection. |
+| Example-taxonomy pressure | The seven rows are read as one kind. | Read each through its own decision, subject, route, and stop. |
+
+### A.1.SCR:7 - Conformance Checklist — Practical Checks
+
+| ID | Check |
+| --- | --- |
+| `CC-A1-SCR-1` | The current claim, proposed actor/change bearer, and system-dependent decision are named before any A.1 test. |
+| `CC-A1-SCR-2` | A direct Work, Method, capability, transformation, episteme, structure, or relation result exits immediately when it answers the decision. |
+| `CC-A1-SCR-3` | The complete six-component A.1 criterion and acting eligibility are applied only when systemhood remains load-bearing. |
+| `CC-A1-SCR-4` | The first result names the direct object, recognized system, rejected reading, or unresolved evaluation and a concrete next move or stop. |
+| `CC-A1-SCR-5` | `unknown` remains epistemic and changes no world-side kind membership. |
+| `CC-A1-SCR-6` | Neighboring claims are added only under direct owners when the current use needs them. |
+| `CC-A1-SCR-7` | Service/access ambiguity begins in A.6.P §4.11a and returns here only for a separate system-dependent bearer claim. |
+| `CC-A1-SCR-8` | A missing relation returns exact participants, receiving use, and `missing-governor[...]` through A.6.RCD. |
+| `CC-A1-SCR-9` | Target-system status follows an exact plan/decision designation; candidate-target wording follows an exact selection. |
+| `CC-A1-SCR-10` | Physical grounding creates no cross-kind identity or unrestricted composition. |
+| `CC-A1-SCR-11` | All seven cases state whether this pattern is triggered and form no kind or closed enumeration. |
+| `CC-A1-SCR-12` | No new candidate, session, access, mastery, situation, relation, restoration-record, or bundle ontology is introduced. |
+
+### A.1.SCR:8 - Common Anti-Patterns and Exact Repairs
+
+| Anti-pattern | Why it fails | Repair |
+| --- | --- | --- |
+| Complete A.1 test before the decision is known | Classification work may change nothing. | State what depends on systemhood; take the direct-owner exit when it does not. |
+| Pattern list without an actor/change bearer | The reader still cannot act. | Name the exact subject and concrete decision. |
+| Temporary reading treated as a kind | Evaluation position becomes ontology. | Keep one exact `U.Entity` under an admitted kind test. |
+| Unknown as a third ontic state | Missing information becomes world-side indeterminacy. | Name the missing input and blocked decision. |
+| Neighbor bundle | Different identity laws disappear. | Return the subject first, then separately governed claims needed now. |
+| Physical-realization identity | Co-location or one embodiment merges kinds. | Apply each identity rule and relation governor. |
+| Target status inferred | Recognition or affectedness is mistaken for project designation. | Name the plan/decision and any explicit candidate-target selection. |
+| Software *service* treated as system | Source-domain metonymy silently chooses a bearer. | Begin in A.6.P, name the exact referent, and enter here only for a system-dependent claim. |
+
+### A.1.SCR:9 - Consequences
+
+The pattern makes full system recognition more useful by applying it only where identity and boundary change an engineering decision. It also makes non-system results productive: Work, Method, capability, structure, episteme, and relations can close their own questions. The cost is that the practitioner must state the decision and may need to stop when construction facts or a relation governor are missing.
+
+### A.1.SCR:10 - Rationale
+
+The smallest reusable repair is a conditional application pattern, not a new kind or universal router. A.1 remains the recognition owner. A.1.SCR contributes a working situation, direct-owner exit, complete-test branch, decision-bearing results, project guard, and migration cases. This prevents ontology work from becoming a ritual and prevents a familiar noun from selecting an actor or target by itself.
+
+Extent-sensitive identity remains useful because it forces the practitioner to state what exists and survives change. Unrestricted composition and category import remain rejected. The seven cases demonstrate transfer across domains without asserting a common kind.
+
+### A.1.SCR:11 - SoTA-Echoing
+
+> **Informative.** These sources provide bounded pressure; current FPF patterns remain authoritative for kinds and relations.
+
+| Source | Useful pressure | FPF disposition |
+| --- | --- | --- |
+| Florio and Linnebo, [*Introduction to Constructional Ontology*](https://philarchive.org/rec/FLOITC-3), 2024 | Construction choices affect identity and require constructors, inputs, and construction-sensitive distinctions. | **Adapt.** Apply A.1's constituents, obtaining relations, assembly, reidentification, and whole-level characteristic only when systemhood matters. |
+| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012 | Possible transformations depend on substrate attributes and constructor conditions, not on a written task alone. | **Adapt.** Use governed larger-assembly applicability in A.1; infer neither possibility nor assembly from a plan. |
+| Partridge, [*BORO Ontology*](https://borosolutions.net/boro-ontology), C-FORS 2025 | Four-dimensional identity pressure asks what exists through change and across extent. | **Reject wholesale; retain the test.** State entity, boundary, reidentification, and construction facts; import neither categories nor unrestricted composition. |
+
+### A.1.SCR:12 - Relations
+
+- **Builds on:** A.1 for the complete constructive criterion, admitted holon kinds, acting eligibility, and `true | false | unknown` evaluation discipline.
+- **Leaves directly through:** A.2.2, A.3.1, A.3.2, A.3.4, A.15.1, A.15.2, A.22, C.2.1, E.18, and the exact relation owner when systemhood is not load-bearing.
+- **Routes service/access wording to:** A.6.P §4.11a; returns only for an exact bearer claim whose decision depends on systemhood.
+- **Uses for projects:** A.15.6, including the actual/intended boundary, explicit designation, candidate-target selection guard, and `missing-substrate[project-selection-conjunction]` stop.
+- **Uses for missing relations:** A.6.RCD with exact participants, receiving use, and `missing-governor[...]`.
+- **Coordinates with:** E.10 for two independent lexical triggers; E.10 classifies no world-side subject.
+- **Does not replace:** A.1, direct kind patterns, relation owners, A.6.P, or F.18 designation recovery.
+
+### A.1.SCR:End
 
 ## A.2 - Role Taxonomy
 
@@ -3234,21 +3469,21 @@ Typical moments:
 
 **What this buys.** One consumer-facing promise-content episteme with direct exits to commitment, role assignment, access, `PromiseContentUse`, performed delivery work, affected entities and states, evaluation-operation results, optional verdict epistemes, evidence, acceptance, and publication patterns. Each neighboring claim keeps its named `EntityOfConcern` and direct relation instead of being collapsed into one undifferentiated service referent.
 
-**Not this pattern when.** If the current EntityOfConcern is the accountable deontic relation, use `A.2.8`; if it is the performed delivery work, use `A.15.1`; if it is the access point or delivery system, use system and architecture patterns plus A.6.8 service wording repair; if the current move is Contract Bundle unpacking, use `A.6.C`.
+**Not this pattern when.** If the current EntityOfConcern is the accountable deontic relation, use `A.2.8`; if it is performed delivery Work, use `A.15.1`; if service/access wording hides an exact software or physical bearer, start with A.6.P:4.11a and use A.1/A.1.SCR only when the repaired claim depends on systemhood; if the current move is Contract Bundle unpacking, use `A.6.C`.
 
 ### A.2.3:1 - Problem frame
 
 Across domains the word **service** is used for many different things: a server or **provider**, an **API**, a **procedure**, a **run**, a **department**, even a **product bundle**. Such polysemy is productive in everyday speech but toxic in a normative model.
 
-FPF therefore reserves **`U.PromiseContent`** for one kernel meaning: a consumer-facing **promise content** clause. When "service" denotes something else, recover the current referent: a provider or access point as `U.System`, provider participation as `U.RoleAssignment`, an access description as `U.MethodDescription`, performed delivery as `U.Work`, or the named direct relation governed by its own pattern. Normative prose uses an explicit facet head phrase per **A.6.8 (RPR-SERV)**.
+FPF therefore reserves **`U.PromiseContent`** for one kernel meaning: a consumer-facing **promise content** clause. When *service* denotes something else, use **A.6.P:4.11a** to recover the exact service-provision Work, Method, provider participation, software or physical bearer, permission, status, or direct relation. Bare *service* has no default system reading. Apply A.1/A.1.SCR to a recovered bearer only when the repaired claim depends on systemhood; normative prose then names the exact referent or relation and its direct owner.
 
 This keeps the kernel minimal while keeping the prose readable to non‑mathematicians: the canonical symbol is `U.PromiseContent`, and the head kind in normative text is always *promise content*.
 
-**Modularity note.** A.2.3 defines the promise-content episteme and `PromiseContentUse`. Role assignment, access specification, delivery work, actual operation application and result binding, result-episteme identity, affected-subject change, A.10 evidence relations, evaluation, commitment, delivery, acceptance, speech act, and publication remain with their direct governing patterns. A.6.8 restores which service facet the wording denotes; it does not replace the named participants and their direct relations with a locally minted service-situation relation. A.6.C governs the Contract Bundle lens when contract, SLA, or guarantee wording must be unpacked.
+**Modularity note.** A.2.3 defines the promise-content episteme and `PromiseContentUse`. Role assignment, access specification, delivery work, actual operation application and result binding, result-episteme identity, affected-subject change, A.10 evidence relations, evaluation, commitment, delivery, acceptance, speech act, and publication remain with their direct governing patterns. A.6.P:4.11a recovers which concrete service/access referent or relation the wording denotes; it does not replace the named participants and their direct relations with a locally minted service-situation relation. A.6.C governs the Contract Bundle lens when contract, SLA, or guarantee wording must be unpacked.
 
 **Plain reading.** Promise content says what a consumer may rely on. A system holding the provider role through a named `U.RoleAssignment` occurrence performs delivery work by enacting a `U.Method`; a `U.MethodDescription` describes that method. `PromiseContentUse` obtains between the delivery-work occurrence and the selected promise-content edition during the named interval. Exact work-participation, affected-referent, actual-change, delivery, and acceptance relations state what happened. A separately performed evaluation applies the declared operation or method; its actual result binding states the evaluation value. If another use needs a verdict episteme, C.2.1 governs that episteme and A.15.PROD governs any current entity-identity-inception claim. Evidence relations support the relied-on assertions. No universal work-result relation is presumed.
 
-**Lexical note (L-SERV and RPR-SERV).** Bare *service* does not determine one FPF referent. When that word carries a relied-on claim, use A.6.8 to select the service facet: for example, a promise-content episteme and an access-point system have different kinds and participate in different relations. E.10 `L-SERV` triggers that recovery; after the facet is known, its direct governing pattern applies.
+**Lexical note (L-SERV and A.6.P:4.11a).** Bare *service* does not determine one FPF referent. When that word carries a relied-on claim, use A.6.P:4.11a to recover the concrete referent or relation: for example, a promise-content episteme and an access-point system have different kinds and participate in different relations. E.10 `L-SERV` triggers that recovery; after the referent or relation is known, its direct governing pattern applies.
 
 ### A.2.3:2 - Problem
 
@@ -3277,7 +3512,7 @@ A **`U.PromiseContent`** is an externally oriented promise-content episteme. Its
 
 `U.PromiseContent` is not a deontic commitment relation. One or more explicit `U.Commitment` occurrences under A.2.8 may have the promise content in their referents position; the promise-content episteme does not obligate an actor by itself.
 
-In normative prose, the head phrase is **promise content**. **Service offering clause** and **service promise clause** are admissible Plain twins under A.6.8; bare *service* does not identify a promise-content episteme.
+In normative prose, the head phrase is **promise content**. **Service offering clause** and **service promise clause** are admissible Plain twins for that promise-content use; bare *service* does not identify a promise-content episteme.
 
 Species-level identity follows C.2.1:
 
@@ -3409,7 +3644,7 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 
 * **Not a provider:** use a named provider `U.RoleAssignment` occurrence whose holder is the provider `U.System`.
 * **Not a deontic commitment:** that is `U.Commitment` (A.2.8) whose `referents` include the promise content when that accountable relation is current.
-* **Not an access point:** addressable "services", servers, desks, or endpoints are `U.System` (see A.6.8: *service access point* and *service delivery system*).
+* **Not an access point or bearer:** addressable *service*, server, desk, endpoint, process, component, application, host, or cluster wording first goes to A.6.P:4.11a. Name the exact software or physical referent, then apply A.1/A.1.SCR only if the repaired claim depends on systemhood.
 * **Not a method or method description:** the semantic way of doing is `U.Method`; a recipe or other episteme describing that way is `U.MethodDescription`.
 * **Not delivery work or its description:** performed delivery is `U.Work`; a ticket, case description, or incident description is a separately governed episteme about planned or performed work.
 * **Not a schedule:** that is `U.WorkPlan`.
@@ -3460,19 +3695,21 @@ flowchart LR
 * The **promise content** is the consumer-facing outcome and acceptance statement.
 * In the A.2.8 **commitment relation**, the accountable-subject position is filled directly and the referents position contains the promise-content clause.
 * The **provider role assignment** identifies the holder system, provider role, role-taxonomy episteme, effective reference scheme, and assignment window. The holder system acts under that assignment.
-* A.6.8 recovers the selected facet denoted by "service" wording. It adds no service-situation participant: provider assignment, access description, access-point system, delivery system, delivery method, promise content, and work occurrence retain their direct kinds and governing patterns; A.10 separately governs the evidence relations.
+* A.6.P:4.11a recovers the concrete referent or relation denoted by *service* wording. It adds no service-situation participant: provider assignment, access description, access-point system, delivery system, delivery method, promise content, and work occurrence retain their direct kinds and governing patterns; A.10 separately governs the evidence relations.
 * **Delivery work** is what happened. Evidence relations support claims about selected facts concerning that occurrence and any post-work state expressed by its selected effect Delta. A system performing evaluation work enacts the declared evaluation method over those facts and states; the actual evaluation operation has its own result binding, and a separately constituted evaluation-result episteme may carry the verdict assertion.
 
 **Litmus rule (addressability).**
-If the current claim is about invocation, connection, visitation, restart, or scaling, its EntityOfConcern is an actual `U.System`, not the promised-outcome statement. Use a **service access point** when the interaction boundary is current and a **service delivery system** when the realization system is current.
+If the current claim is about invocation, connection, visitation, restart, or scaling, first use A.6.P:4.11a to recover the exact process, deployed component, endpoint, application, host, cluster, desk, or other bearer. That cue establishes neither `U.System` nor a whole delivery-system boundary. Apply A.1/A.1.SCR only when the repaired claim depends on systemhood; after recognition, call the entity a **service access point** or **service delivery system** only when that exact boundary claim is current. Otherwise keep the exact bearer and keep promise content separate.
 
 ### A.2.3:5 - Archetypal grounding (engineer‑manager friendly)
 
+**Worked-case premise.** `E.24.UK` has already admitted the public `U.System` kind. Every exact entity named as a system in the rows below independently satisfies the complete A.1 criterion, including acting eligibility. If that premise cannot be established, keep the exact entity without system membership and stop only the provider-assignment, access-point, delivery-system, or Work-attribution claim that depends on it; other direct claims may continue under their owners.
+
 | Domain | Promise-content episteme | Provider and consumer assignments | Access specification | Delivery work | Evidence and evaluation |
 | --- | --- | --- | --- | --- | --- |
-| Cloud storage | Store and retrieve blobs up to 5 TB under declared criteria—for example, 99.9% availability and 11x9 durability; these values illustrate targets and are not defaults. | `CloudStoragePlatformSystem` holds `StorageProviderRole`; `BackupControllerSystem` holds `StorageConsumerRole`, each through a named A.2.1 assignment occurrence. | `S3ApiDescription-vX`, a `U.MethodDescription`; the endpoint remains a separate `U.System`. | Dated PUT, GET, replication, and integrity-check work occurrences participating in `PromiseContentUse`. | Request and integrity observations enter direct evidence relations; actual evaluation applications bind availability or durability results, and separately constituted verdict epistemes state the judgments. |
-| Manufacturing utility | Deliver compressed air at 8 bar in Zone B under stated pressure, flow, and purity criteria. | `CompressedAirPlantSystem` holds `UtilityProviderRole`; `LineBSystem` holds `UtilityConsumerRole`. | `ZoneBManifoldAccessDescription`, a `U.MethodDescription`; the manifold remains a separate `U.System`. | Dated compression and delivery work occurrences. | Pressure, flow, and purity observations support delivery claims; an actual evaluation application binds the comparison result under the declared scale and window, and a verdict episteme states the judgment. |
-| Public passport service | Issue an admissible passport within 20 days under declared defect and eligibility criteria—for example, a ≤ 1% defect target; this value is illustrative, not a default. | `IssuingAgencySystem` holds `PassportIssuerRole`; `ApplicantPersonSystem` holds `PassportApplicantRole`. | `PassportApplicationAccessDescription`, a `U.MethodDescription`; portal and service desk remain access-point `U.System` values. | Dated application-handling and passport-issuance work occurrences. | Submission, issuance, elapsed-time, and defect observations support claims; actual evaluation applications bind lead-time or defect results, and separately constituted verdict epistemes state the judgments. |
+| Cloud storage | Store and retrieve blobs up to 5 TB under declared criteria—for example, 99.9% availability and 11x9 durability; these values illustrate targets and are not defaults. | `CloudStoragePlatformSystem` holds `StorageProviderRole`; `BackupControllerSystem` holds `StorageConsumerRole`, each through a named A.2.1 assignment occurrence. | `S3ApiDescription-vX`, a `U.MethodDescription`; the endpoint is a separate bearer and is called a `U.System` here only as a worked-case premise independently satisfying A.1. | Dated PUT, GET, replication, and integrity-check Work occurrences participating in `PromiseContentUse`. | Request and integrity observations enter direct evidence relations; actual evaluation applications bind availability or durability results, and separately constituted verdict epistemes state the judgments. |
+| Manufacturing utility | Deliver compressed air at 8 bar in Zone B under stated pressure, flow, and purity criteria. | `CompressedAirPlantSystem` holds `UtilityProviderRole`; `LineBSystem` holds `UtilityConsumerRole`. | `ZoneBManifoldAccessDescription`, a `U.MethodDescription`; the manifold is a separate bearer and is called a `U.System` here only as a worked-case premise independently satisfying A.1. | Dated compression and delivery Work occurrences. | Pressure, flow, and purity observations support delivery claims; an actual evaluation application binds the comparison result under the declared scale and window, and a verdict episteme states the judgment. |
+| Public passport service | Issue an admissible passport within 20 days under declared defect and eligibility criteria—for example, a ≤ 1% defect target; this value is illustrative, not a default. | `IssuingAgencySystem` holds `PassportIssuerRole`; `ApplicantPersonSystem` holds `PassportApplicantRole`. | `PassportApplicationAccessDescription`, a `U.MethodDescription`; portal and service-desk bearers count as access-point `U.System` values only where this worked case independently assumes the A.1 criterion and that boundary claim is current. | Dated application-handling and passport-issuance Work occurrences. | Submission, issuance, elapsed-time, and defect observations support claims; actual evaluation applications bind lead-time or defect results, and separately constituted verdict epistemes state the judgments. |
 
 **Key takeaway.** The same pattern yields one promise-content episteme in each domain without treating the promise as the provider, access point, method, work occurrence, evidence, operation-result binding, or verdict episteme. Direct role-assignment, `PromiseContentUse`, evaluation-operation, evidence, acceptance, and publication relations retain their own participants and governors; evaluation remains separately performed `U.Work`.
 
@@ -3493,7 +3730,7 @@ A common service diagram is a representation. Recover the represented systems, e
 * **Operating conditions** -> the named `U.ClaimScope` under A.2.6. The acceptance specification may cite that scope; it does not replace it.
 * **Promised subject** -> resolve `promisedOutcomeSpecRef`, then use the resulting `OutcomeSpec.resultSpec.entityOfConcernRef` together with the exact affected referent, post-work state, and any direct delivery or acceptance relation current for the claim.
 * **Customer material—“ours versus theirs.”** -> If the current claim depends on who owns or has custody of data, an asset, or a case, name the exact governed role assignment or ownership/custody relation and its actual participants. Do not make ownership or custody a kernel-global property of `U.PromiseContent`.
-* **Access** -> `accessSpec : U.MethodDescription` describes the method enacted when an eligible consumer holder system requests access. Actual endpoints, desks, and manifolds remain access-point `U.System` values.
+* **Access** -> `accessSpec : U.MethodDescription` describes the Method enacted when an eligible consumer holder requests access. Recover the endpoint, desk, manifold, or other exact bearer through A.6.P:4.11a. Its label and addressability establish no `U.System` membership. Apply A.1/A.1.SCR only when a current access-point, delivery-system, performer, or assignment claim depends on systemhood; otherwise keep the bearer claim separate.
 * **One `PromiseContentUse` occurrence** -> consumer request work and provider delivery work remain separate occurrences, each attributed through its own `performedUnderAssignment(W, RA)` relation to a named assignment whose holder system actually performs the work. When request work follows `accessSpec`, its A.15.1 `methodDescriptionRef` resolves to that same `U.MethodDescription`; following the description does not by itself introduce a second relation occurrence. `PromiseContentUse` obtains between selected delivery work and the selected promise-content edition during `PromiseUseIntervalSlot`.
 * **Consumer-side changed entity or relation** -> recover the exact affected-referent and actual-transformation facts, plus any local entity-identity-inception, delivery, acceptance, or receiving-use claim that the current promise evaluation needs. If the changed entity is a holder system and its post-work state calls for a new or revised `U.Capability` instance, use A.2.2 for that capability instance and its currentness relations.
 * **Service-enabled consumer-side capability or activity** -> If the question is about ability, identify the consumer holder's `U.Capability` instance and state its A.2.2 qualification and currentness claim. If the question is about activity, identify the consumer-side dated `U.Work` under A.15.1. If the claim also says that delivery changed the consumer or was used by that Work, state only the exact actual-change or receiving-use relation that currently obtains; otherwise keep the objects separate. Do not create another U-kind or a generic capability-use relation.
@@ -3502,7 +3739,7 @@ When a domain claim concerns catalog entries, exposure relations, charging relat
 ### A.2.3:7 - Conformance Checklist (normative)
 
 **CC‑A2.3‑0 (Prose head phrase).**
-In normative prose, an instance of `U.PromiseContent` SHALL be referred to as a **promise content** (or **service offering clause** or **service promise clause**) and SHALL NOT be referenced by the bare head noun *service*. Unqualified *service* usage (and the co-moving cluster *service provider* or *server*) SHALL be unpacked per A.6.8 (RPR-SERV).
+In normative prose, an instance of `U.PromiseContent` SHALL be referred to as a **promise content** (or **service offering clause** or **service promise clause**) and SHALL NOT be referenced by the bare head noun *service*. Separately, apply E.10 `L-SERV` and A.6.P:4.11a when *service* or access-like wording occurs in a relied-on FPF claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next route. Quoted, historical, illustrative, and harmless ordinary wording remains outside this recovery rule.
 
 **CC‑A2.3‑1 (Type).**
 `U.PromiseContent` **IS** a consumer-facing promise-content `U.Episteme`. One or more `U.EpistemePublication` values may be related to `U.PresentationCarrier` values through `isCarriedBy` without changing the promise-content episteme identity; no presentation carrier is the promise content. `U.PromiseContent` is not a `U.System`, `U.Method`, `U.MethodDescription`, `U.Work`, or `U.WorkPlan`.
@@ -3517,7 +3754,7 @@ Every promise content names its effective `U.ReferenceScheme`, `promisedOutcomeS
 If the acceptance criteria mention measurable characteristics such as availability, latency, accuracy, cost, or safety, each characteristic MUST be introduced through C.16 and C.25 with its scale, unit when applicable, `U.DHCMethod` measurement template, and direct evidence relation. If the reading depends on a particular way of measuring, cite the `U.MethodDescription` that describes that measurement method. The characteristic is referenced by its exact identifier rather than by an unqualified KPI label.
 
 **CC‑A2.3‑5 (Access).**
-When the promised use relies on a request-facing access method, `accessSpec` **MUST** identify the A.3.2-admitted `U.MethodDescription` that describes that method. The endpoint, desk, manifold, or other access point remains a separate `U.System`. If no access-method description is current because access is ambient, `accessSpec` may be omitted. In either branch, keep an eligibility predicate in the promise content when eligibility is part of the promise; when eligibility depends on a separately obtaining admission relation, refer to that relation under its direct governing pattern.
+When the promised use relies on a request-facing access Method, `accessSpec` **MUST** identify the A.3.2-admitted `U.MethodDescription` that describes it. Separately recover the endpoint, desk, manifold, or other exact bearer through A.6.P:4.11a. Apply A.1/A.1.SCR only when a current claim depends on that bearer being an access-point `U.System`; otherwise keep the bearer without the stronger claim. If no access-method description is current because access is ambient, `accessSpec` may be omitted. In either branch, keep an eligibility predicate in the promise content when eligibility is promised; when eligibility depends on a separately obtaining admission relation, refer to that relation under its direct owner.
 
 **CC‑A2.3‑6 (Unit of delivery + counting rule).**
 When fulfilment work is counted, declare `unitOfDelivery` (for example, one request, kWh, or case). The resulting count may fill a declared quantity position in a separately governed charging relation; that charging relation does not determine the unit-of-delivery specification.
@@ -3532,10 +3769,10 @@ When delivery depends on provider ability, use the A.2.2 `U.Capability` instance
 A change to `content`, `promisedOutcomeSpecRef`, or `effectiveReferenceScheme` creates a new promise-content episteme edition under the C.2.1 identity rule. Each `PromiseContentUse` occurrence has one promise-content edition and one delivery-work occurrence as participants and `PromiseUseIntervalSlot` as its temporal qualifier; an untyped `version` or `timespan` entry fills none of those positions.
 
 **CC‑A2.3‑10 (Lexical rule).**
-Unqualified head-noun uses of *service* (and the co-moving cluster *service provider* or *server*) in normative prose **MUST** be disambiguated per **A.6.8 (RPR-SERV)** and its lexical trigger **L-SERV** (E.10).
+Apply E.10 **L-SERV** and **A.6.P:4.11a** only when *service* or access-like wording occurs in a relied-on FPF claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next route. The author **MUST** name that hidden choice or stop the relied-on use; quoted, historical, illustrative, and harmless ordinary wording is outside this rule.
 
 **CC‑A2.3‑11 (No mereology).**
-Do **not** place a promise content clause in PBS or SBS, or treat it as a part or component. Structural assemblies live in PBS and SBS; the promise clause is an episteme (A.2.3) and "service" talk must be facet-unpacked (A.6.8).
+Do **not** place a promise content clause in PBS or SBS, or treat it as a part or component. Structural assemblies live in PBS and SBS; the promise clause is an episteme (A.2.3), and *service* talk must be resolved to its concrete referent or relation through A.6.P:4.11a.
 
 **CC-A2.3-12 (Plan, work, and evidence stay distinct).**
 Windows and calendars belong to `U.WorkPlan` (A.15.2). Performed delivery belongs to `U.Work` (A.15.1). Evidence epistemes and evidence relations support claims about selected facts concerning that work and any post-work state expressed by its selected effect Delta; they are not slots or parts of the work occurrence.
@@ -3630,22 +3867,22 @@ Aggregation across time uses the `Gamma_time` policy referenced by the named C.1
 
 ### A.2.3:9 - Common misclassification repairs
 
-* **A microservice label is being used for the whole service claim.** Ground the current referent. The deployed software is normally a delivery-system or access-point `U.System`; the consumer-facing outcome and acceptance claims remain in `U.PromiseContent`.
-* **An API label is being used for the whole service claim.** When the referent is the interface specification, use `U.MethodDescription`; when it is the addressable endpoint, use `U.System`. Neither referent is the promise-content episteme.
+* **A microservice label is being used for the whole service claim.** Use A.6.P:4.11a to recover whether the source word denotes service-provision Work, a Method, PromiseContent, provider participation, or an exact deployed process, component, endpoint, application, host, or cluster. Apply A.1/A.1.SCR only when a repaired bearer claim depends on systemhood. Deployment and the label establish neither membership nor a delivery-system/access-point boundary; the consumer-facing outcome and acceptance claims remain in `U.PromiseContent`.
+* **An API label is being used for the whole service claim.** If the referent is an interface specification, use the exact episteme and `U.MethodDescription` only when A.3.2 admits it. If it is an addressable endpoint, recover that bearer through A.6.P:4.11a and apply A.1/A.1.SCR only when a current claim depends on systemhood. Neither the API label nor addressability establishes membership, and neither referent is the promise-content episteme.
 * **A process or procedure label is being used for the whole service claim.** Recover the semantic way of doing as `U.Method`, its description as `U.MethodDescription`, planned work as `U.WorkPlan`, and performed occurrences as `U.Work`. Keep the promised outcome and acceptance claims in `U.PromiseContent`.
 * **A ticket or case record is being used for the whole service claim.** Recover its claim-bearing content as a ticket or case-description `U.Episteme`; keep the publication form and `U.PresentationCarrier` separate. Relate that episteme to the named `U.WorkPlan` or `U.Work` occurrence it describes.
 * **Cost or elapsed time is attached to the promise content.** Keep resource and time actuals on the performed `U.Work` occurrence. Derive a measure over work occurrences participating in `PromiseContentUse` only through its declared characteristic, C.16 measurement template, named A.10 evidence relations, aggregation rule, and `Gamma_time` policy; cite a `U.MethodDescription` when a particular measurement method affects the reading.
 * **Promise content is placed in a product or system breakdown.** Keep the promise content as an episteme. The access and delivery systems may have parts and selected structures under A.22 and C.30; the promise-content episteme is not one of those parts.
-* **A person or organization name is stored as the provider role.** State the `U.Role` value and role-taxonomy scheme in the promise content, then use a named `U.RoleAssignment` occurrence for the provider holder system and assignment window.
+* **A person or organization name is stored as the provider role.** State the `U.Role` value and role-taxonomy scheme in the promise content. If an actual provider-assignment claim is current, identify the exact person or organization and apply A.1 because A.2.1 requires an admitted holder `U.System`; otherwise do not create the assignment. Then state the named `U.RoleAssignment` occurrence and explicit assignment window.
 
 ### A.2.3:10 - Existing promise-description repair applications
 
 1. **Name the promises.** As an informative first pass, list roughly 5–15 consumer-facing promises used by the project; the range is a prompt, not an admission threshold. Represent each as `U.PromiseContent` with effective reference scheme, promised outcome specification, acceptance specification, and claim scope, plus access specification and unit of delivery when current.
-2. **Separate provider from promise content.** Keep people, organizations, machines, and software delivery systems as admitted `U.System` values; connect the provider holder through a named A.2.1 role-assignment occurrence.
+2. **Separate provider from promise content.** Recover each exact provider, access-point, or delivery bearer through A.6.P:4.11a. Apply A.1/A.1.SCR only where a current provider-assignment, access-point, delivery-system, performer, or other claim depends on systemhood. Then connect a recognized provider holder through a named A.2.1 role assignment only when that participation fact is current.
 3. **Relate promise content to delivery and evidence.** Add `PromiseContentUse` for every delivery-work occurrence evaluated under the promise. Establish `PromisedOutcomeDeliveryRelation` only after exact work facts, affected or delivered entities, post-work states, and any direct delivery relation required by the resolved `OutcomeSpec` satisfy it; establish `PromiseContentFulfilmentRelation` only after those facts and states satisfy the declared acceptance criteria. Record the actual evaluation-operation result binding, any evaluation-result episteme, the evidence epistemes it cites, and the A.10 evidence relations separately.
 4. **Define evaluation characteristics.** As an informative first pass, select roughly 2–4 characteristics for each promise content; the range is a prompt, not a conformance limit. Use a recognizable §8.2 formula family—availability over a named window, lead time as a declared delta plus aggregation, rejection rate `1 − |W✓| / |W|`, or cost-to-serve as summed Work resource use—or state an exact declared alternative. For each characteristic, name its scale, unit when applicable, C.16 measurement template, `Gamma_time` policy, direct evidence relations, and exact formula; cite a `U.MethodDescription` when a particular measurement method affects the reading. Do not let a KPI label stand in for this declaration.
-5. **Bridge domain schemes.** If a domain ontology already distinguishes business, technical, or internal service kinds and relations, retain its own reference scheme and name the F.9 bridge occurrence used for each selected domain referent and its FPF counterpart.
-6. **Tidy language.** Apply **A.6.8 (RPR-SERV)** and **L-SERV**. When "service" denotes a provider or access-point `U.System`, an access `U.MethodDescription`, planned `U.WorkPlan`, performed `U.Work`, or a ticket or case-description episteme, use that full kind name and reserve `U.PromiseContent` for the consumer-facing promise content.
+5. **Bridge domain schemes.** If a domain ontology distinguishes business, technical, or internal service kinds and relations, retain its reference scheme and name the F.9 bridge occurrence for each selected domain referent and FPF counterpart; source classes confer no FPF systemhood.
+6. **Tidy language.** Apply **A.6.P:4.11a** and **L-SERV**. Bare *service* has no default system reading. Recover the exact service-provision Work, Method, PromiseContent, participation, software or physical bearer, permission, status, or relation; use A.1/A.1.SCR only when a repaired bearer claim depends on systemhood. Use the full governed kind or relation name and reserve `U.PromiseContent` for the consumer-facing promise content.
 
 ### A.2.3:10.1 - Consequences
 
@@ -3657,7 +3894,7 @@ Aggregation across time uses the `Gamma_time` policy referenced by the named C.1
 
 ### A.2.3:10.2 - Rationale
 
-Everyday "service" language is useful because one label can denote promise content, provider systems, access points, commitments, methods, work occurrences, and evidence epistemes. When those claims guide evaluation or work, FPF distinguishes the referents and states their direct relations. `U.PromiseContent` gives the promised-outcome side one stable episteme, A.6.8 recovers the referent intended by the service wording, and each named direct relation remains governed by its direct pattern.
+Everyday "service" language is useful because one label can denote promise content, provider systems, access points, commitments, methods, work occurrences, and evidence epistemes. When those claims guide evaluation or work, FPF distinguishes the referents and states their direct relations. `U.PromiseContent` gives the promised-outcome side one stable episteme, A.6.P:4.11a recovers the referent intended by the service wording, and each named direct relation remains governed by its direct pattern.
 
 The pattern keeps promise content in the episteme family because it is a clause or description whose outcome and acceptance predicates state conditions on delivery work, affected referents, and post-work states. A fulfilment assertion and the evidence relations supporting it remain distinct from those referents and from the world-side relations whose obtaining the assertion describes. The episteme never becomes an obligation: the referents position of an A.2.8 commitment relation may contain it, an A.2.9 speech-act occurrence may communicate or institute that commitment, and A.6.C may unpack contract or SLA wording carried by a publication, while gate and policy relations remain separate.
 
@@ -3670,7 +3907,7 @@ Contract and SLA practice distinguishes promised content from obligation-bearing
 ### A.2.3:11 - Relations
 
 * **Builds on:** C.2.1 `U.Episteme` identity and reference scheme; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`; and A.2.6 `U.ClaimScope` and `U.WorkScope`. A.1.1 is used only when an independently selected `BoundedModelUseStructure` changes interpretation.
-* **Coordinates with:** A.3.1 `U.Method`; A.3.2 `U.MethodDescription`; A.15.1 `U.Work`; A.6.1 for actual operation application and result binding; A.15.PROD for current entity-identity-inception claims; A.15.2 `U.WorkPlan`; direct affected-subject, delivery, acceptance, and evaluation patterns; A.10 for evidence relations; A.2.8 for commitment; A.2.9 for speech act; A.6.8 for service-wording restoration; F.9 for cross-scheme or cross-scope bridges; and A.7 plus the direct publication pattern when specification use or publication is current.
+* **Coordinates with:** A.3.1 `U.Method`; A.3.2 `U.MethodDescription`; A.15.1 `U.Work`; A.6.1 for actual operation application and result binding; A.15.PROD for current entity-identity-inception claims; A.15.2 `U.WorkPlan`; direct affected-subject, delivery, acceptance, and evaluation patterns; A.10 for evidence relations; A.2.8 for commitment; A.2.9 for speech act; A.6.P:4.11a for service-wording restoration; F.9 for cross-scheme or cross-scope bridges; and A.7 plus the direct publication pattern when specification use or publication is current.
 * **Constrained by lexical rules:** **E.10 L‑SERV** (service disambiguation); also **L‑FUNC**, **L‑PROC**, **L‑SCHED**, **L‑ACT**.
 * **Informs:** reporting and assurance patterns for measures over work occurrences participating in `PromiseContentUse`, plus directly governed catalog entries, exposure relations, charging relations, and entitlement relations when those claims are current.
 
@@ -10501,7 +10738,7 @@ Do not write "the boundary is quantum-like" as one unL/A/D/E-classified claim. T
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → **A.6 Signature Stack & Boundary Discipline**
-> **Builds on:** A.6 (stack + classification intent), **A.6.B** (L/A/D/E), **A.6.8 (RPR‑SERV)** (service‑cluster polysemy unpacking), **A.7** (EntityOfConcern, Description episteme, and carrier separation), **A.2.3** (`U.PromiseContent`), **A.2.8** (`U.Commitment`), **A.2.8.PER** (strong/weak permission, exercise, and conflict), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), **A.10** and **B.3** (evidence and assurance use), E.10 (`L-SERV` and `LEX-BUNDLE`), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance and evidence discipline)
+> **Builds on:** A.6 (stack + classification intent), **A.6.B** (L/A/D/E), **A.6.P:4.11a** (service/access direct-owner recovery), **A.7** (EntityOfConcern, Description episteme, and carrier separation), **A.2.3** (`U.PromiseContent`), **A.2.8** (`U.Commitment`), **A.2.8.PER** (strong/weak permission, exercise, and conflict), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), **A.10** and **B.3** (evidence and assurance use), E.10 (`L-SERV` and `LEX-BUNDLE`), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance and evidence discipline)
 > **Naming boundary:** **F.18** may provide durable names for recovered terms when naming is current; it does not govern the promise-content, speech-act, commitment, permission, work, evidence, or boundary ontology.
 > **Mint or reuse (terminology):** Reuses “contract”, “SLA”, and “guarantee” as Plain-level boundary shorthand; mints **Contract Bundle** only as a four-question unpacking lens, not an entity kind or register-part taxonomy. The existing A.6.B Claim Register may add `bundleId`, optional `questionRef`, `directObjectRef`, `ownerPatternRef`, and `faceRefs`; it remains the one atomic-claim record.
 > **Purpose (one line):** Prevent “contract soup” by asking four plain questions, then recording each resulting atomic claim with its direct object, owner, quadrant, and evidence path when current.
@@ -10517,7 +10754,7 @@ Boundary descriptions frequently use “contract” as shorthand for “the thin
 
 When these questions are answered with one undifferentiated object or row, authors accidentally assign agency to epistemes (“the interface guarantees…”), encode runtime gates as if they were internal laws, or treat observability as a property of text rather than of carriers and work. A.6 and A.6.B already provide an L/A/D/E claim-classification discipline for boundary claims, but “contract” language remains a recurring entry point for category mistakes.
 
-**Service-cluster note (modularity + lexicon).** When contract talk co-moves with *service*, *service provider*, *server*, *SLA*, *SLO*, or *service-level*, disambiguate those referents through **A.6.8 (RPR-SERV)** while asking the four questions below. `U.PromiseContent` is written as **promise content**, never as bare “service”.
+**Service-cluster note (modularity + lexicon).** When contract talk co-moves with *service*, *service provider*, *server*, *SLA*, *SLO*, or *service-level*, recover those concrete referents and relations through **A.6.P:4.11a** while asking the four questions below. `U.PromiseContent` is written as **promise content**, never as bare “service”.
 
 A.6.C makes contract-language usable inside the A.6 stack by providing a canonical unpacking that can be applied to APIs, hardware interfaces, protocols, and socio-technical boundaries.
 
@@ -10559,7 +10796,7 @@ Whenever a text uses “contract”, “guarantee”, “promise”, “SLA”, 
 
    * The promised value or effect (the promise *content*) in the intended scope.
  * In FPF terms (A.2.3), **`U.PromiseContent` is promise content**—a **promise content**, not an execution event (`U.Work`) and not (by itself) an accountable deontic binding (`U.Commitment`).
- * **Prose head rule (normative).** When referring to `U.PromiseContent` in normative prose, authors SHALL use the head phrase **promise content** (or **service offering clause** or **service promise clause**) and SHALL NOT rely on the bare head noun *service*. If the surrounding text also talks about endpoints, systems, and operations, apply **A.6.8** to select facet‑typed phrases (service access point, service delivery system, service delivery work, and so on) rather than collapsing them into “service”.
+ * **Prose head rule (normative).** When referring to `U.PromiseContent` in normative prose, authors SHALL use the head phrase **promise content** (or **service offering clause** or **service promise clause**) and SHALL NOT rely on the bare head noun *service*. If the surrounding text also talks about endpoints, systems, and operations, apply **A.6.P:4.11a** to recover the concrete referents and relations—such as service access point, service delivery system, or service-delivery Work occurrence—rather than collapsing them into “service”.
    * **Recommendation:** give the promise-content a stable local ID (e.g., `SVC-*`) so it can be cited from commitments, gates, evidence, and MVPK faces without paraphrase drift.
  * **Claim-classification discipline:** keep the semantics and definitions of the promised behavior in **L**; express *who is accountable for satisfying the promise* as a **D** claim (`U.Commitment`) that **references** the `U.PromiseContent` (plus any `A-*` and `E-*` claims as needed).
 
@@ -10769,7 +11006,7 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
 
 4. **CC‑A.6.C‑4 (Promise content ≠ Work discipline).**
    A performed-work statement **SHALL** name the exact A.15.1 dated Work occurrence. A result, production, change, delivery/transfer, evidence, or acceptance statement **SHALL** use its own direct object and shall not be inferred from Work. Promise-content language remains about `U.PromiseContent`, not execution or consequence.
-   Unqualified head‑noun *service* (and the co‑moving cluster *service provider* and *server*) in normative boundary prose SHALL be unpacked per **A.6.8 (RPR‑SERV)**.
+   When *service* or access-like wording occurs in a relied-on boundary claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next route, the text **SHALL** recover that hidden choice through E.10 **L-SERV**, **A.6.P:4.11a**, and the resulting direct owner. Quoted, historical, illustrative, and harmless ordinary wording remains outside this recovery rule; an actual `U.PromiseContent` referent still uses the head phrase **promise content**, not bare *service*.
 
 5. **CC‑A.6.C‑5 (Evidence hook for operational guarantees).**
    If a “guarantee” is operational (requires reality to decide), the text **SHALL** include an **E** claim that states what evidence would adjudicate it, with the evidence carrier or evidence claim named when current.
@@ -15561,12 +15798,7 @@ Only `missing-governor` is an ontology blocker, and it names the affected receiv
 |---|---|---|
 | interface, port, signature, participant, field, parameter, or representation-position wording | Name the actual interface-side object and the direct claim needed next; keep any schema field or representation position separate from that object. | `A.6.RSIR`, then the exact direct owner |
 | basedness or dependence on an explicit base | Name the dependent, base, direct base relation, scope, applicable time, witnesses, allowed use, and blocked stronger use. | `A.6.6` |
-| service, server, provider, delivery, or access wording — first question | Do not choose from a closed service-facet list. Ask what concrete object the sentence is about and what the next reader must decide or do. The common branches immediately below are examples, not a `Service` kind or complete taxonomy; an unlisted but already recoverable object goes straight to its direct owner. If the referent is still unclear, return to 4.1. | `E.10` for the wording trigger, then the exact direct owner |
-| service promise | Ask what outcome the consumer may rely on. Write that promise clause and its acceptance content without assigning an accountable duty or claiming that delivery work occurred. | `A.2.3`; use `A.6.C` when contract, SLA, or guarantee wording must be unpacked |
-| service commitment or instituting act | Ask who is accountable for what, under which modality, scope, and time. If the question is instead whether an approval, notice, declaration, or revocation instituted or ended the commitment, identify that performed communicative act separately. A document or interface performs neither act. | `A.2.8`; `A.2.9` for the distinct speech act; `A.6.C` when contract language carries both |
-| service access point or interface | Point to the endpoint, port, interface, providing system, and receiving participant needed by the sentence, then write the direct access or interface claim. Use `A.6.RSIR` only to recover which of those objects the wording names; the exact interface or access owner must supply the predicate. An API description is not the interface or access relation. | `A.6.RSIR`, then the exact direct interface or access owner; otherwise `A.6.RCD` after the objects and needed predicate are exact |
-| service or API description and publication | Ask which claim-bearing episteme describes which promise, method, interface, or access object. If a selected edition was made available, state publication separately. Description or publication neither promises the outcome nor provides access by itself. | `C.2.1`; `E.17` and `E.24.PUB` when publication is current |
-| other recovered service facet | Name the providing or receiving system, role assignment, method, planned or performed Work, production, delivery, acceptance, or evidence claim actually meant. Neither `service`, a `serviceSituation`, nor a bundle closes that claim. | `A.1`, `A.2`/`A.2.1`, `A.3.1`, `A.15.1`, `A.6.P.WMR`, or `A.10` as selected by the sentence; `A.6.RCD` only after an exact missing predicate is shown |
+| service, server, provider, SLA, API, delivery, connection, entitlement, or access wording | State the decision, explanation, design choice, or action that depends on the phrase, then use A.6.P:4.11a to name each concrete subject or relation in a readable sentence. The branch is a recovery route, not a service kind or case record. | `A.6.P:4.11a`, then the exact direct owner |
 | sameness, correspondence, export, alignment, mapping, or substitution across contexts | Name what each endpoint means in its own context and write the Bridge sentence the next task needs. Shared spelling, a mapping artefact, or a Card is not evidence that the Bridge obtains. | the direct Bridge pattern for predicate and occurrence identity; `C.2.1` and `F.9` only for a separate description or Card; otherwise `A.6.RCD` after both endpoints and the needed sentence are exact |
 | `integrity` wording — first question | Ask what the sentence lets the next reader do. Does it make a whole, part, structure, or coverage claim; characterize or measure something; or use evidence to support an assurance claim? The word `integrity` selects none of these branches by itself. | choose one of the three direct branches below; if evidence does not discriminate them, keep the alternatives explicit and block the named use |
 | `integrity` as a characteristic or measurement | Identify the bearer and integrity characteristic. If a value is reported, also name the scale, coordinate or level, unit when needed, measurement method, result, and evidence pointer. For example, `structural integrity is measured at X` takes this branch without inventing a candidate whole or parthood claim. | `C.16.P` until characteristic and scale construction are clear, then `C.16` and the exact measurement owner |
@@ -15583,6 +15815,48 @@ Only `missing-governor` is an ontology blocker, and it names the affected receiv
 | quantum-like relation or probe wording | First recover the ordinary direct relation; only then state the remaining probe, frame, order, export, or state-representation claim. | the ordinary direct owner first; `C.26` only for the residual quantum-like claim |
 | mathematical tuple, graph, arrow, function, or other representation | Name the representation elements, represented objects or claim content, explicit correspondences, declared use, and blocked overread; keep any Bridge separate. | `C.29`; `F.9` separately for a Bridge description or Card |
 | designation after ontology is settled | Recover the object and relation first, then state why one durable designation is needed. | `F.18` |
+
+##### A.6.P:4.11a - Recover service/access claims through direct owners
+
+Start with the decision, not a facet list. Ask what the reader must choose, do, accept, explain, restart, or stop. Then write one plain sentence naming the concrete subject or relation. If the source sentence carries several claims, write several sentences and send each to its own owner. The first useful result names the referent or relation, its current governing pattern, and the next action.
+
+**Source-domain guard.** Bare *service* has no default system reading. In ordinary business and physical-world talk it may name a dated occurrence of service provision, a reusable way of providing it, offered outcome or eligibility content, provider participation, or another direct claim. In software talk it may be metonymic wording for an exact process, deployed component, endpoint, application, host, or cluster. Name the referent before choosing Work, Method, `U.PromiseContent`, `U.RoleAssignment`, `U.System`, or a relation. Never rewrite *service* automatically as *server* or as a system.
+
+The table below is one recovery aid inside A.6.P. It is not a second router, a record schema, a common kind, or evidence that several rows obtain together.
+
+| Current claim behind service/access wording | Plain action first | Direct owner and blocked overread |
+| --- | --- | --- |
+| What a consumer may rely on | State the promised outcome, eligibility, access description, and acceptance content that the present decision uses. | Use one `U.PromiseContent` episteme under A.2.3. Promise content is not provider, endpoint, delivery bearer, Work, permission, evidence, acceptance result, or commitment. |
+| Provider or consumer participation | Name the position, the admitted holder that actually fills it, and the participation fact needed now. | Use one A.2 `U.Role` value and, only when actual participation is current, one obtaining A.2.1 `U.RoleAssignment`. A label, organization name, endpoint, or capability establishes neither assignment nor action by the assignment. |
+| Accountable duty, recommendation-as-duty, or prohibition | State who is accountable for what, under which modality, scope, and time. | Use one A.2.8 `U.Commitment`. SLA text, policy carrier, promise wording, and status displays do not create it. |
+| Offer, grant, approval, revocation, or another instituting communication | Name the actual communicative occurrence, acting system, participants, and relevant assignment. | Use A.2.9 `U.SpeechAct`. The act is not the enduring grant, commitment, or performed delivery Work. |
+| Permission, non-prohibition, exercise, non-violation, or conflict | State which permission-side question is current and name its participants and context. | Use the exact A.2.8.PER result. Credential, role label, capability, gate, status, or silence in an incomplete frame proves none of them. |
+| Exact software or physical bearer, access point, or delivery/realization entity | Name the process, deployed component, endpoint, host, application, cluster, front desk, equipment, or other exact referent and state the claim made about it. | Use A.1/A.1.SCR only when the repaired claim depends on whether that entity is a `U.System`. Software slang, addressability, deployment, or restart wording establishes neither systemhood nor whole-delivery-system identity. |
+| Reusable way of requesting, connecting, repairing, providing, or delivering | State the reusable way of doing. | Use one `U.Method` under A.3.1. A runbook, API document, actual connection, or dated provision is not the Method. |
+| API, interface, access procedure, runbook, or other description | Name the claim-bearing description and what it describes. | Use C.2.1; use `U.MethodDescription` only after A.3.2's same-individual membership test. File, code, schema, and publication form establish neither membership nor specification use. |
+| Intended delivery, connection, repair, or provisioning | State the intended Work and its intended fillings. | Use one `U.WorkPlan` under A.15.2. A schedule, ticket, or planned value is not performed Work. |
+| Actual service provision, request handling, connection, provisioning, repair, or delivery | Name one dated performed occurrence, its performer, assignment, Method, extent, and containing system. | Use A.15.1 `U.Work` and only direct work relations that obtain. Ticket, trace, session label, promise, permission, or MethodDescription is not the Work. |
+| Capability to provide or sustain service/access | Name the holder and the capability whose currentness matters. | Use one holder-dependent `U.Capability` under A.2.2. Provider role, past Work, and promise content do not establish capability. |
+| Ticket, case, log, measurement, evidence, or evaluation | State the particular claim carried or supported and the decision that relies on it. | Use C.2.1 for the episteme and only the measurement, evaluation-operation, result-binding, or A.10 evidence relations needed now. A record or dashboard is not a promise, grant, system, Work, actual state, or fulfilment relation. |
+| Promise use, outcome delivery, fulfilment, or acceptance | State which relation is claimed and its exact participants. | Use A.2.3 relations when their conditions hold, plus separately governed evaluation, result, delivery, or acceptance relations actually used. Work, a positive value, evidence, or a passing dashboard proves none by itself. |
+| Current status, connectivity, entitlement, delivery, acceptance, exposure, or another subject relation | Name the bearer and direct relation or characteristic asserted now. | Use A.19.SPR only while state wording remains unresolved; otherwise use the exact direct owner. Add Work only when a dated performed occurrence is itself current. Do not mint generic `Status`, `Connectivity`, `Entitlement`, `Delivery`, `AccessRelation`, or a router-local predicate. |
+| No current direct relation states the needed claim | Preserve the participants, write the sentence the next task needs, and name the decision that cannot proceed. | Return `missing-governor[...]` through A.6.RCD. Do not fill the gap with `relatedTo`, an access bundle, a graph edge, or a local convenience record. |
+
+**Four language probes.** Use these to select the question; do not treat them as templates whose rows all obtain.
+
+- **“My service stopped.”** Ask what stopped. Service-provision Work may have ceased; an exact deployed software or physical bearer may have stopped or become unavailable; or promised availability or fulfilment may have failed. The sentence alone selects none. State, Work, promise, evidence, and fulfilment remain separate. Enter A.1.SCR only if the repaired bearer claim itself depends on systemhood.
+- **“Which services do we provide?”** Name the offerings or promise contents being compared and any separately current provider assignments. Do not infer performed Work, a provider system, or fulfilment from the catalogue wording.
+- **“How is this service provided?”** A reusable way of providing it selects a Method; a procedure or API text selects an episteme and perhaps MethodDescription; a dated provision selects Work. The wording alone selects none.
+- **“Restart the service.”** Name the exact process, deployed component, endpoint, host, application, cluster, or other bearer to restart and the action's governor. Do not silently rewrite *service* as *server*, `U.System`, or service-provision Work.
+
+**Addressability is an aid, not a classification rule.** If the sentence says call, visit, connect to, route to, restart, deploy, or scale, use it to ask which exact access point, delivery bearer, or other entity the claim concerns. Apply A.1 only when the repaired claim depends on systemhood. Actual Work still passes A.15.1 and every relation passes its direct governor. An endpoint may be an access point without being the whole delivery system.
+
+**Internet-access case.** “We sell internet access” first becomes a sentence about the current commercial claim: `Customer-18 may rely on PromiseContent-IA-18 for the named connectivity outcome and acceptance content.` If actual participation matters, state provider and consumer role assignments separately. Name `ProviderGateway-2` and `HomeRouter-18` as distinct bearers only when those claims are current; apply A.1 to either only for a system-dependent decision. Keep the connection Method and API or procedure description separate. `ProvisionConnectionPlan-18` is intended Work; `ConnectionEstablishmentWork-42` is one dated occurrence. A real grant uses A.2.8.PER and is not inferred from a credential. Connectivity status, measurement, evidence, evaluation, delivery, fulfilment, and acceptance each need their own claim. Nothing creates `U.Access`, `AccessRelation`, or one service bundle.
+
+**Physical repair-shop case.** “The repair service is delayed” is not yet one subject. If the blocked decision is where to leave the machine, name the front desk or intake point and test systemhood only if that decision needs it. If the decision is what physically performs the repair, name the workshop, equipment, or other exact bearer. If it is who is responsible, name an admitted holder and obtaining provider assignment only when current. What the customer was promised is promise content; an accountable deadline or duty is a commitment; how repair is done is a Method; the procedure card is a separate description; the repair that happened is dated Work. No phrase establishes all of these, and fulfilment or acceptance still requires its own relation.
+
+**No duplication boundary.** A.6.P owns only this recovery move. It owns none of the routed objects or relations and creates no `serviceSituation`, QRR, facet bundle, universal situation, access kind, status kind, or compatibility record. A.1.SCR receives only an exact bearer claim whose engineering decision depends on systemhood; the direct owners decide everything else.
+
 The word that triggered the repair does not govern the result. The exact direct pattern does.
 
 #### A.6.P:4.12 - Lexical guardrails
@@ -15747,7 +16021,21 @@ These sources do not decide what exists. They test whether a representation can 
 | [TypeDB 3.x `links` statement](https://typedb.com/docs/typeql-reference/statements/links/) and current relation model | A query can select an explicit relation variable with named source-language role players, while shorthand remains available when no reference to the represented item is needed. | **Test progressive explicitness, not ontology.** A.6.P makes explicit occurrence identity conditional on a named receiver. TypeDB demonstrates one implementable representation; it does not establish the FPF relation kind, actual participation, obtaining condition, or identity rule. |
 | [RDF 1.2 Concepts](https://www.w3.org/TR/rdf12-concepts/), Candidate Recommendation Snapshot, 7 April 2026 | RDF distinguishes proposition expressed by a triple term, assertion of a triple, and reifiers used for further statements. | **Test proposition, assertion, and reifier separation.** A statement term or graph edge can represent claim content but cannot establish that the direct relation obtains. |
 
-The first table governs the ontological moves. The second checks representability only after those moves have been selected. The physical, clinical, episteme, work, and formal cases test that the resulting method is not specialized to information systems.
+#### Service and access separation pressure
+
+These sources constrain the recovery of service or access wording; they do not define a service ontology for FPF.
+
+| Source line | Separation pressure | FPF adoption, adaptation, and rejection |
+|---|---|---|
+| [S-OPL: Service Ontology Pattern Language, specification v1.7](https://nemo.inf.ufes.br/en/projetos/patterns-and-pattern-languages/) | Offering, agreement, participants, and delivery are related but different modeling problems. | **Adopt** the separation; **adapt** it as exits to the existing promise-content, commitment, speech-act, role-assignment, Work, evidence, and evaluation owners. **Reject** the imported process ontology and service ontology, participant taxonomy, and any common service-situation carrier or service bundle. |
+| [NIST SP 800-207, Zero Trust Architecture](https://csrc.nist.gov/pubs/sp/800/207/final) | Requester, resource, policy decision, and enforcement functions must remain distinguishable in an access decision. | **Adopt** the demand to name the exact requester, requested use, resource, policy or grant, and enforcement facts; **adapt** grants through A.2.8.PER and performed enforcement through a system, assignment, and dated Work when those facts are current. **Reject** the component diagram as FPF ontology and infer neither `U.Access` nor `AccessRelation`. |
+| [The Open Group ArchiMate 3.2 specification](https://pubs.opengroup.org/architecture/archimate32-doc/) | Service, interface or point of access, and realization system are not interchangeable. | **Retain as a comparison only.** Distinguish a service provision, access description or Method, exact access point, and realization bearer; invoke A.1 only for a separate system-dependent claim. **Reject** imported ArchiMate elements and relations, source-word-induced systemhood, and addressability as a classification rule. |
+
+Earlier public service lineage also cited ITIL 4, ISO 24617-2 speech-act practice, and SRE literature. They remain bounded examples rather than ontological governors: ITIL offer and service-level wording can cue A.2.3 or A.6.C; a communicative act is separated from its content and any enduring binding by A.2.9, A.2.3, and A.2.8; SRE interface, SLO, deployment, telemetry, and incident distinctions can help name separate claims. None licenses an always-unpack word rule, a mandatory facet family, every deontic phrase becoming a commitment, every performative phrase becoming a speech act, or actuals becoming Work and evidence automatically.
+
+Across these sources, FPF adopts separation pressure and adapts it to the direct-owner routes in 4.11a. It explicitly rejects `U.Access`, `AccessRelation`, a service bundle, word-induced systemhood, and blanket actuals-to-Work.
+
+The first table governs the general ontological moves. The second checks representability only after those moves have been selected. The service-and-access table constrains one recurring recovery branch without importing a service ontology. The physical, clinical, episteme, work, and formal cases test that the resulting method is not specialized to information systems.
 
 **Reopen the smallest affected passage.** Start with the one claim, case, exit, or source row that uses the changed fact. Reopen it when its governing pattern changes who participates, when the relation obtains, or how an occurrence is reidentified; when newer source evidence overturns or narrows the construction or reification distinction used there; or when an actual use can no longer reach the practical result or stopping boundary promised by that passage. Do not reopen the whole pattern unless the same change reaches several passages. If an exit no longer matches its owner's entry and result, stop using that exit until it is repaired.
 
@@ -15757,7 +16045,7 @@ The first table governs the ontological moves. The second checks representabilit
 - `A.6.0` governs `U.Signature` and compatible `RelationSignature` declarations; `A.6.5` governs declaration-local `SlotSpec`, `SlotKind`, participant `ValueKind`, and receiving-episteme designation mode.
 - `A.6.RSIR` selects among direct participation, declaration, operation, assertion or description, and representation when interface, role, slot, field, parameter, or endpoint wording is the entry cue.
 - `A.6.B` separates L, A, D, and E claims after the direct relation is recovered. When the next task explicitly needs an operation on an episteme or representation, identify its input and output independently under `C.2.1`; use `A.6.3` only for an exact compatible viewing or construction result, and `A.15.1` for actual authoring, materialisation, checking, or publication Work. Current `A.6.2` and `A.6.4` are not exits from this edition because their slot/write profiles fail that compatibility test; keep them as named future owners for the explicit morphing or retargeting stop. Assert an edition or successor relation only after its own predicate is satisfied. Ordinary A.6.P repair stops before these objects.
-- `A.6.6` provides specialized recovery for basedness. Service, cross-context, and whole-part wording use the object tests and owner exits in 4.11. Before routing to `A.6.8`, `A.6.9`, or `A.6.H`, check that its entry accepts the objects named in 4.11 and that its result returns the direct predicate and participants or an explicit blocker. If either check fails, do not use that specialization; stay with the 4.11 exit and its current direct owner. A situation record, Card, or bundle does not replace the direct relation, claim-bearing episteme, or representation.
+- `A.6.6` provides specialized recovery for basedness. Service/access wording stays in A.6.P:4.11a and exits to its exact direct owner. It reaches A.1.SCR only after one exact bearer claim has been recovered and the engineering decision depends on systemhood. Cross-context and whole-part wording may use `A.6.9` or `A.6.H` only when that pattern's entry accepts the objects named in 4.11 and its result returns the direct predicate and participants or an explicit blocker. If either check fails, stay with the 4.11 exit and its current direct owner. A situation record, Card, or bundle does not replace the direct relation, claim-bearing episteme, or representation.
 - `A.6.P.WMR` governs its method, work, result, production, delivery, acceptance, transfer, and receiving-use boundary and returns one of the four results listed in 4.11.
 - Use `A.6.RCD` after the reader can name the participants and the sentence the next task needs, but no current pattern supplies its predicate. Broad wording alone is not a `missing-governor` result.
 - `C.2.1` governs assertions and descriptions. A.6.P identifies one candidate episteme `E`, one viewpoint episteme `P`, and the conformance question; `E.17.0` tests `EpistemeViewpointConformanceRelation(E,P)`. If the next task also asks whether `E` is a `U.View`, `E.17.0` handles that recognition separately. Viewpoint selection, evaluation, construction, representation, and publication do not establish conformance; `A.10` governs reliance, while `E.17` and `E.24.PUB` govern publication.
@@ -16704,7 +16992,7 @@ Use Tech `position` only for a place in a selected representation, such as a tup
 | module interface or architecture interface | `A.6.M` for module-interface claims; `C.30`, `C.30.ASV`, `C.30.AD`, or `C.30.TFS-REL` for architecture-of, structural-view, architecture-description, or transformation-flow-structure claims; `A.6.0` plus `A.6.5` only for a reusable `RelationSignature` and its complete `SlotSpec`s; `C.29` or the exact representation owner for interface diagrams or schema positions and their correspondence | Do not create generic `U.Interface`. |
 | Markov blanket, Markov border, computational boundary, boundary leak, or active-inference boundary | Recover the current claim before choosing a pattern: accepted local Markov dynamics (`A.3.3`), mathematical or probabilistic lens (`C.29`, sometimes `C.26`), viability or measure-model-act envelope (`C.26.3`), holon delimitation or boundary crossing (`A.1` plus the direct governing relation pattern), relation precision (`A.6.P` after a relation-bearing case is recovered), reusable `RelationSignature` and `SlotSpec` declaration (`A.6.0`, `A.6.5`) or representation position and correspondence (`C.29` or the exact representation owner), module-interface or interface-specification claim (`A.6.M`), functional port or functional element (`A.6.F`), physical component (`A.14`, `C.13`, `B.3.5`), boundary description or publication (`C.30.AD`, `E.17`), agency-threshold claim (`A.13`, `A.19`, `C.16`), or boundary-package statement classification (`A.6.B`) only when L, A, D, or E classification is the recovered object. | Do not create `U.MarkovBlanket`, generic `U.Boundary`, generic `U.Interface`, or binary `U.Agent`; do not treat a statistical separation, interface, interface module, physical component, description, and boundary-package classification as the same object. |
 | functional port or functional structure | `A.6.F`, `A.3.4`, `E.18`, `C.30.TFS-REL` | Do not equate port, function, module interface, and signature by vocabulary alone. |
-| API, protocol, connector, service-access wording | Recover the governed object first: `E.17` for API or interface-description publication; `A.6.0` and `A.6.5` for a reusable `RelationSignature` and its `SlotSpec`s; `C.29` or the exact API-description owner for schema or representation positions and explicit correspondence; `A.6.M` for module-interface claims; `A.6.C` or `A.6.8` for agreement-like, protocol, SLA, service, or service-access cases; `A.6.B` only for L, A, D, or E statement classification inside a boundary package. | API may be description, protocol, service relation, signature, publication, module interface, representation, or boundary-package statement classification. |
+| API, protocol, connector, service-access wording | Recover the governed object first: `E.17` for API or interface-description publication; `A.6.0` and `A.6.5` for a reusable `RelationSignature` and its `SlotSpec`s; `C.29` or the exact API-description owner for schema or representation positions and explicit correspondence; `A.6.M` for module-interface claims; `A.6.C` for agreement-like, protocol, or SLA claims; `A.6.P:4.11a` for service or service-access wording that still hides its concrete subject or relation; `A.6.B` only for L, A, D, or E statement classification inside a boundary package. | API may be description, protocol, service relation, signature, publication, module interface, representation, or boundary-package statement classification. |
 | capability | `A.2.2`; method, work, evaluation, or gate patterns only when they use an explicit capability criterion | Role labels and interface labels do not establish or demonstrate capability. |
 | affordance or action invitation | `A.6.A` | Do not rename affordance as role, interface, or capability until the direct pattern admits it. |
 | method, method description, work plan, or dated work | `A.3.1`, `A.3.2`, `A.15`, `A.15.1`, `A.15.2` | Method, description, plan, and work are distinct even when source wording says process. |
@@ -16758,7 +17046,7 @@ Reopen RSIR when the selected pattern shows that the source phrase carried more 
 
 **System case: module interface claim.** A team says "the cooling module exposes the heat-exchanger interface." RSIR first asks what claim is current. If the claim is substitutability or separate change, use `A.6.M`. If a reusable relation declaration for exchanged-medium and boundary-condition participant meanings is current, use `A.6.0` plus `A.6.5` for the `RelationSignature` and complete `SlotSpec`s. If the current use is a diagram, API schema, or other representation, keep its positions under `C.29` or the exact representation owner and state explicit correspondence. If the claim is a functional port in a transformation-flow structure, use `A.6.F`, `A.3.4`, and `E.18`. RSIR does not create `U.Interface`.
 
-**Role case: API provider role.** A source says "the API role is provider." RSIR first recovers what participates in work. If `provider` is a work-facing role, use `A.2.1` to name the holder system, `ProviderRole`, role-taxonomy episteme, effective reference scheme, and assignment window. Add a model-use structure only when an independently selected DDD-style organization changes interpretation. If the API is a publication or protocol description, use `E.17` for publication and `A.6.8` or `A.6.C` for service, protocol, SLA, or agreement-like boundary wording. If a provider or consumer commitment is current, use `A.2.3` or `A.6.C`; if module-interface semantics are current, use `A.6.M`; if boundary-package statement classification is current, use `A.6.B`. Do not assign a work role to the API description.
+**Role case: API provider role.** A source says "the API role is provider." RSIR first recovers what participates in work. If `provider` is a work-facing role, use `A.2.1` to name the holder system, `ProviderRole`, role-taxonomy episteme, effective reference scheme, and assignment window. Add a model-use structure only when an independently selected DDD-style organization changes interpretation. If the API is a publication or protocol description, use `E.17` for publication; use `A.6.P:4.11a` when service or service-access wording hides the concrete subject or relation. Send promise content to `A.2.3` and an accountable provider or consumer commitment to `A.2.8`. For protocol, contract, SLA, or agreement-like boundary wording that bundles several claims, use `A.6.C` to unpack them before sending each recovered object to its direct owner; if module-interface semantics are current, use `A.6.M`; if boundary-package statement classification is current, use `A.6.B`. Do not assign a work role to the API description.
 
 **Evidence case: reviewer evidence role.** A report says "reviewer evidence role approved the gate." RSIR blocks the composite. `ReviewerRole` may be assigned to an admitted `U.System` under `A.2` and `A.2.1`. A report episteme may be used in an evidence-use relation under `A.10`, `B.3`, `F.10`, or `E.17`. A gate approval may be a gate decision under `A.21` or a speech-act case under `A.2.9`. No episteme gets a work role by being evidence.
 
@@ -16768,8 +17056,8 @@ Reopen RSIR when the selected pattern shows that the source phrase carried more 
 
 | Source phrase | Positive recovery | Near miss to reject |
 |---|---|---|
-| "API role is provider" | `ProviderRole` and `U.RoleAssignment` when an admitted `U.System` participates in work; `E.17`, `A.6.8`, or `A.6.C` when the API phrase names a publication, protocol, SLA, service-access, or agreement-like claim. | Do not assign a work-facing role to the API description or protocol itself. |
-| "endpoint parameter source" | Use the direct relation owner when the phrase hides a participant meaning or actual participant; use `A.6.5` only for a complete `SlotSpec` in a current reusable `RelationSignature`; use `A.6.1` when it names an operation `ArgumentDeclaration`, `ResultDeclaration`, or an actual binding in one independently identified exact application; use `C.29`, `E.17`, or `A.6.8` when it is a representation position, API description, or service-documentation label, with explicit correspondence when the FPF claim consumes it. | Do not create an endpoint kind, a work-facing role from the word "source", a parameter ontology, a public application kind, a universal input/output relation, or a world-side participant or binding from representation shape. |
+| "API role is provider" | `ProviderRole` and `U.RoleAssignment` when an admitted `U.System` participates in work; `E.17` when the API phrase names a publication; `A.6.P:4.11a` when service or service-access wording hides the concrete subject or relation; `A.6.C` for protocol, SLA, or agreement-like claims. | Do not assign a work-facing role to the API description or protocol itself. |
+| "endpoint parameter source" | Use the direct relation owner when the phrase hides a participant meaning or actual participant; use `A.6.5` only for a complete `SlotSpec` in a current reusable `RelationSignature`; use `A.6.1` when it names an operation `ArgumentDeclaration`, `ResultDeclaration`, or an actual binding in one independently identified exact application; use `C.29` or `E.17` when it is a representation position or API description, and `A.6.P:4.11a` when a service-documentation label hides the concrete subject or relation; state explicit correspondence whenever the FPF claim consumes the representation. | Do not create an endpoint kind, a work-facing role from the word "source", a parameter ontology, a public application kind, a universal input/output relation, or a world-side participant or binding from representation shape. |
 | "`Engineer-7#Verifier:Lab-A`" | Recover `Engineer-7` as the holder `U.System`, `VerifierRole` as the role value, and name the role-taxonomy episteme, effective reference scheme, and assignment window under `A.2.1`. In this case `Lab-A` is the actual facility system in which verification work occurs; state that work relation separately when it is current. | Do not put `Lab-A` into role-assignment identity or keep `Holder#Role:Context` as normative ontology. |
 | "function of the pump" | `A.6.F`, `A.3.4`, `E.18`, or `C.30.TFS-REL` when the phrase names functional structure; `A.2.2` when it names a system capability. | Do not treat "function" as the recovered kind before the current claim is known. |
 | "standard evidence role" | `A.10`, `B.3`, `F.10`, or `E.17` when a standard episteme is used as evidence, source, status, or publication. | Do not keep `U.EvidenceRole` or put the standard episteme into `U.RoleAssignment`. |
@@ -16801,7 +17089,7 @@ It resists semio-bias by keeping descriptions, publications, records, reports, s
 | Anti-pattern | Why it fails | Repair |
 |---|---|---|
 | Rename `role` to `position` everywhere | It loses real `U.Role` cases and can create a new umbrella. | Recover whether the current use is a `U.Role`, direct relation-participant meaning, actual participant, declaration-local `SlotSpec`, representation position and correspondence, evidence-use relation, status assertion, or ordinary prose. |
-| Treat interface as one root kind | It merges module, functional, protocol, API, signature, publication, representation, architecture, and boundary-package claims. | Recover the governing object first; then apply `A.6.M` for module-interface, `A.6.F` for functional port or functional structure, `A.6.0` plus `A.6.5` for a reusable `RelationSignature` and its `SlotSpec`s, `C.29` or the exact representation owner for positions and explicit correspondence, `E.17` for publication or API-description cases, `A.6.C` or `A.6.8` for agreement-like, protocol, SLA, service, or service-access cases, `A.6.B` only for L, A, D, or E statement classification inside a boundary package, or `C.30`, `C.30.ASV`, `C.30.AD`, or `C.30.TFS-REL` for architecture claims. |
+| Treat interface as one root kind | It merges module, functional, protocol, API, signature, publication, representation, architecture, and boundary-package claims. | Recover the governing object first; then apply `A.6.M` for module-interface, `A.6.F` for functional port or functional structure, `A.6.0` plus `A.6.5` for a reusable `RelationSignature` and its `SlotSpec`s, `C.29` or the exact representation owner for positions and explicit correspondence, `E.17` for publication or API-description cases, `A.6.C` for agreement-like, protocol, or SLA claims, `A.6.P:4.11a` for service or service-access wording with a hidden concrete subject or relation, `A.6.B` only for L, A, D, or E statement classification inside a boundary package, or `C.30`, `C.30.ASV`, `C.30.AD`, or `C.30.TFS-REL` for architecture claims. |
 | Put evidence and status into RoleAssignment | It gives epistemes a work-facing role assignment they do not have. | Use evidence-use, source-use, status-use, assurance-use, or publication-use relations under `A.10`, `B.3`, `F.10`, `E.17`, `C.2.1`, or `C.28` when those relations are current. |
 | Use `A.6.5` as relation identity | Slot discipline does not say which relation is being asserted. | Apply `A.6.P` or the relation-specific pattern for relation identity; use `A.6.5` only for SlotSpecs. |
 | Treat function as the recovered kind | Function-like wording may point to capability, method, work, architecture, mathematical function, quality, or module allocation. | Apply `A.6.F` after RSIR selects function-like recovery. |
@@ -17797,7 +18085,7 @@ When a function-like phrase is claim-bearing, recover the exact object or claim 
 | mathematical function or relation | C.29 mathematical-lens use with domain, codomain or relation domain, preserved and lost structure, lens-use admissibility value, and stop condition | Does not become architecture, evidence, causal proof, assurance, or decision claim by itself. |
 | quality or fitness expression | `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, or an admitted characteristic or measurement governing pattern according to the claim being made | Does not let "functionality" carry a quality claim without bearer and governing pattern. |
 | module allocation | `FunctionalStructureView@Context` plus declared correspondence, allocation, retargeting, or `A.6.M` module-relation repair when a module-interface claim is being made | Does not make function and module one FPF kind; allow one module to realize many functional elements, many modules to realize one functional element, abstract functional elements before allocation, and modules with no current functional behavior in a view. |
-| interface relation, module-interface relation, or signature relation | Use `A.6.RSIR` first when bare interface, API, port, protocol, or service-access wording could point to several direct EoCs; then use module-interface boundary note governed by `A.6.M` and signature discipline governed by `A.6.0` and `A.6.5`, with `A.6.B`, `A.6.C`, or `A.6.8` only when that boundary, contract, API, protocol, service, promise, or duty claim is being made | Does not turn a functional link, port label, API name, or signature into implemented compatibility. |
+| interface relation, module-interface relation, or signature relation | Use `A.6.RSIR` first when bare interface, API, port, protocol, or service-access wording could point to several direct EoCs; then use the module-interface boundary note governed by `A.6.M` and signature discipline governed by `A.6.0` and `A.6.5`, with `A.6.B`, `A.6.C`, or `A.6.P:4.11a` only when that boundary, contract, API, protocol, service, promise, or duty claim is being made | Does not turn a functional link, port label, API name, or signature into implemented compatibility. |
 | evidence, result, assurance, gate, decision, or publication claim | the direct evidence, result, assurance, gate, decision, publication, or source pattern named by value | Function wording can point to these claims, but it does not authorize or prove them by itself. |
 | functional architecture | `ArchitectureOf@Context` whose `structureKindRefs` includes `FunctionalStructure`, with `FunctionalStructureView@Context` under C.30.ASV when that selected view changes action | Not a peer architecture ontology, selected transformation-flow structure, or mathematical graph description by itself. |
 
@@ -17996,7 +18284,7 @@ The pattern keeps ordinary language usable. A phrase can remain Plain when it ca
 
 ### A.6.F:12 - Relations
 
-Builds on: `A.6.P`, `A.6.RSIR`, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `A.6.9`, `A.7`, `E.10`, `E.10.ARCH`, `C.2.P`, `F.18`, and `E.8`.
+Builds on: `A.6.P`, `A.6.RSIR`, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.9`, `A.7`, `E.10`, `E.10.ARCH`, `C.2.P`, `F.18`, and `E.8`.
 
 Coordinates with: `C.2.1` when the task must preserve an assertion about the direct predicate; `A.6.REL` only when the task must distinguish one obtaining occurrence; `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `E.18`, `A.15`, `A.2`, `C.29`, `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.11`, `A.6.RSIR`, and `A.6.M` when a module or interface claim is being made.
 
@@ -18336,7 +18624,7 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `E.16` | Governs autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those description or view uses are being made; A.6.M keeps only the module-interface relation, boundary, interface specification, and substitution or change-policy slice. |
 | `A.14` | Component and part-whole wording uses A.14 first unless a module-interface relation is being claimed. |
 | `A.6.0` and `A.6.5` | Signatures, slots, ports, endpoints, and field structure remain governed by signature and slot discipline. |
-| `A.6.B`, `A.6.C`, and `A.6.8` | Boundary, interface-specification, API, protocol, service, promise, and duty wording uses A.6.M only when the claim is module-interface relation, interface specification, substitutability, change policy, platform grammar, or open-architecture module-interface claim. |
+| `A.6.B`, `A.6.C`, and `A.6.P:4.11a` | Boundary, interface-specification, API, protocol, service, promise, and duty wording uses A.6.M only when the claim is module-interface relation, interface specification, substitutability, change policy, platform grammar, or open-architecture module-interface claim. |
 | `C.30` and `C.30.ASV` | Architecture claims and module-interface structural views stay architecture-governed. |
 | `C.33`, `C.34`, and `C.35` | Use these only when a module carrier, interface carrier, view, source label, generated map, or discovered structure needs architecture-specific captured-structure adequacy, lost-structure adequacy, preservation adequacy, or generated-carrier admission support. A.6.M keeps module-interface relation, interface specification, substitutability, change policy, and platform grammar ownership. |
 | `A.6.F` | Function and functional wording stays distinct from module allocation. |
@@ -19730,526 +20018,6 @@ In modern multi-step evaluation pipelines (e.g., calibrated scoring, uncertainty
 
 ### A.6.7:End
 
-## A.6.8 - Service Polysemy Unpacking (RPR‑SERV)
-
-**Plain-name.** Service situation unpacking.
-**One-liner:** “service” ⇒ clause | promised work-kind | provider principal or system | access point | access spec | commitment | promise act | delivery method or delivered work
-
-> **Type:** Architectural (A) — A.6.P specialisation (RPR)
-> **Status:** Stable
-> **Normativity:** Normative
-> **Placement:** Part A → A.6 (Precision restoration / stack discipline)
-> **Builds on:** A.6.P (RPR recipe), A.6.5 (slot discipline), A.6.B (L/A/D/E claim classification), A.2.3 (`U.PromiseContent`), A.2.8 (`U.Commitment`), A.2.9 (`U.SpeechAct`), A.15 (`U.Work`), E.10 (LEX, incl. L‑SERV, LEX‑BUNDLE & PTG stances), F.17 (UTS — Unified Term Sheet), F.18 (Name Cards / NQD‑front; promise ≠ utterance ≠ commitment).
-> **Coordinates with:** A.6.C (agreement/specification/contract shorthand unpacking into promise content, commitment, work/evidence, and interface/boundary claims), A.7 (EntityOfConcern / Description episteme / carrier), G.* evidence discipline (EvidenceGraph / SCR), Context/Bridge policy for cross‑Context reuse, F.8 (Mint/Reuse), E.15 (LEX‑AUTH when refactoring existing prose at scale).
-> **Delta-Class:** Δ‑3 (normative service-cluster unpacking pattern; corpus-wide lexical refactor applies where the service cluster is load-bearing)
-> **Impact radius:** Any normative prose that uses the “service” cluster (`service`, `service provider`, `server`); LEX rules (L‑SERV / LEX‑BUNDLE); UTS blocks (F.17); boundary/agreement/specification patterns that already talk about services (esp. A.6.C); any automated repair/lint pipeline used for bulk refactors (E.15 / LEX‑AUTH).
- **Mint vs reuse:** Mints the `serviceSituation(…)` QRR lens id and the facet headphrase set defined in §4.3. Reuses `U.PromiseContent`, `U.Commitment`, `U.SpeechAct`, `U.System`, `U.Work`, `U.MethodDescription`, and the A.6.P/QRR recipe.
-
-**Intent.** Prevent category errors and metonymic drift caused by the borderline word “service” by forcing every normative mention to name the **facet** (promise content vs promised work‑kind/effect vs accountable principal vs realization system vs access object vs interface vs binding vs act vs run‑time work/evidence) and by providing a stable “service situation” lens that keeps those facets related without collapsing them.
-
-**Non‑goal (modularity guard).** This pattern does **not** redefine the semantics or field structure of the promise‑content object (the **promise content**). That kernel meaning is defined in **A.2.3 (`U.PromiseContent`)**. A.6.8 is a precision‑restoration + lexicon discipline that (i) forces facet‑typed head phrases and (ii) provides an optional QRR lens to bind already‑defined kinds without collapsing them. Agreement/specification/contract shorthand unpacking is handled by **A.6.C**, which applies this pattern when that shorthand contains the service cluster.
-
-### A.6.8:1 - Problem frame
-
-In real engineering language, *service* can denote (and routinely collapses) multiple **facets** that admit different predicates and different governance rules:
-
-* a **promise content** (`U.PromiseContent`),
-* a **promised work kind or effect kind** (“what is to be delivered”, as a kind/template),
-* a **service provider role** (role kind in the clause),
-* a **service provider principal** (role‑enactor accountable for delivery and capable of holding commitments),
-* a **service access point** (an addressable system/facility/desk/endpoint host),
-* a **service access spec** (API surface, endpoint set, or SOP visible to consumers),
-* a **service delivery / realization system** (the socio‑technical system that actually performs fulfillment work),
-* a **service delivery method** (workflow, runbook, or procedure used to fulfill),
-* a **service commitment** (deontic binding, e.g., SLA/SLO as obligation),
-* a **service promise act** (promissory speech act: offer/promise/accept/agree/publish),
-* a **service delivery work** episode (run/incident/fulfillment work + evidence).
-
-FPF’s kernel uses `U.PromiseContent` as **promise content**, which is SoTA‑consistent for contracts and decision lanes, but clashes with the everyday addressability-centric use of “service”. This makes “service” a high‑risk metonymy attractor: authors start using the same word for (a) the clause, (b) the provider system, and (c) the delivery work, and readers cannot reliably recover which is meant.
-
-In addition, lived “service talk” is rarely isolated to the token *service*: it co‑moves with **server** and **service provider** (and with “API service”, “service desk”, “service team”). Treating only the word *service* as ambiguous is an underfit to the domain.
-
-Critically, everyday “service” often conflates **three different participants** that are frequently *not identical*:
-
-1. the **provider principal** (accountable role‑enactor: a team/org/vendor),
-2. the **delivery / realization system** (the socio‑technical system that does the work),
-3. the **access point** (the addressable entrypoint/gateway/front desk/endpoint host).
-
-This pattern forces those participants apart, because different predicates and different governance rules apply to each.
-
-This pattern makes “service” an **always‑unpack token** in normative prose: you may use it only as part of a **qualified head phrase** that states which facet is meant.
-
-### A.6.8:2 - Problem
-
-Unqualified “service” in normative prose causes **referent ambiguity** that cannot be repaired by reader intuition, because the ambiguity is structural:
-
-1. **Addressability mismatch:** you can *call/visit* an access point, but you cannot call a clause.
-2. **Type mismatch:** work/telemetry/incidents are properties of **work + carriers**, not of promise content.
-3. **Deontic mismatch:** “must/shall/guarantee” binds **actors/roles** via commitments, not abstract clauses.
-4. **Speech‑act mismatch:** “promise/offer/accept” are **events/acts**, not the promise content itself.
-5. **Evolution mismatch:** changing an API endpoint or deployment is not “changing the service” unless you declare which facet changed and narrate that change with stable change classes.
-
-Result: readers can’t apply A.6.B routing, and engineers are incentivized to preserve ambiguity (“service” as a convenient metonym) because it avoids committing to a model.
-
-### A.6.8:3 - Forces
-
-| Force                                   | Tension                                                                                                 |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Precision vs readability                | Always‑unpacking improves auditability, but increases wordiness.                                        |
-| Kernel minimality vs safety             | Avoid introducing new core primitives; still prevent category errors.                                   |
-| Everyday language vs normative contract | Teams naturally say “service is down”; normative text must point to *what* is down.                     |
-| Cross‑domain applicability              | Must work for microservices, human services, public services, and physical services.                    |
-| Evolution vs continuity                 | Service facets evolve at different rates; prose must narrate changes without silently shifting meaning. |
-
-### A.6.8:4 - Solution
-
-#### A.6.8:4.0 — UTS + LEX preparation (mandatory for authoring/repair)
-
-“Service” is a **polysemy cluster**, not a single token. Therefore, before applying the rewrite rules below to normative prose, the author/editor SHALL create or update a **thread‑local UTS block** (F.17) and its paired **LEX‑BUNDLE entries** (E.10) for the **service cluster** (Tech/Plain twins and PTG stance).
-
-**Required cluster coverage (minimum).** The UTS block MUST cover, at minimum, the co‑moving lexical forms:
-
-* `service` / `services`
-* `service provider` (and the corresponding provider term in the domain: team/shop/department/vendor, etc.)
-* `server` (including “daemon”, “host”, “endpoint host” where those appear)
-* `microservice` / `microservices` (and spelling variants such as “micro-service”) **when they appear in the source prose** as a stand‑in for the addressable system facet (“the thing you can call/deploy”) or as a collapsed bundle token
-* “API service” / “service interface” / “service access” (when present in the source prose)
-* “SLA/SLO/service level” language (when present)
-
-**Context selection (universality guard).** The UTS block MUST cite **ContextName@Edition** in each SenseCell (F.17), and the cited contexts SHOULD span at least **three** distinct “service traditions” reflected in this pattern’s SoTA‑Echoing set (e.g., ITSM/service management, EA/modelling, speech‑act/coordination, microservices/SRE practice). This prevents a “FPF‑only” meaning loop and keeps facet names portable.
-
-**Headphrase governance (no ad‑hoc synonyms).**
-
-* Each facet head phrase used by this pattern (e.g., “promise content”, “service access point”) SHALL appear as a **UTS twin** (Tech/Plain) in the local UTS block, not as an author‑invented one‑off.
-* Both the **Tech** and **Plain** twin for a facet head phrase SHALL carry an explicit **head kind word** that signals the facet category (**clause, role, principal, system, access point, spec, method, commitment, act, or work**). Plain synonyms are valid only if they preserve the head kind (e.g., “endpoint” as an access‑point head kind; “API spec” as an access‑spec head kind). This is the readability guard that prevents “mathematician renamings”.
-* A conforming **normative Tech** text SHALL treat the bare word **service** (unqualified) as **PTG=Guarded** (E.10): it is valid only under this pattern’s rewrite rules and only as part of a qualified head phrase.
-* If a new facet head phrase must be introduced, it SHALL be treated as a **LexicalAct** with an explicit **Mint/Reuse** decision (F.8), and its **CandidateSet + rationale** SHOULD be recorded via a Name Card (F.18 / NQD‑front) to avoid “clever” but unstable vocabulary.
-
-This preparation step is intentionally “linguistic”: it binds the pattern to how engineers actually write (service/provider/server), rather than to an isolated kernel token.
-
-**SoTA binding (informative audit anchor).** The major disambiguation rules in §4.4–§4.7 are aligned with the SoTA‑Echoing rows in §11:
-* “offering / promise content” vs “delivery operations” split → ITIL 4 + EA modeling,
-* “interface/access” vs “realization/implementation” split → ArchiMate + SRE practice,
-* “promissory act” vs “promise content” split → ISO 24617‑2 dialogue acts,
-* “offering/commitment” vs “delivery event” split → service ontologies (e.g., S‑OPL / UFO),
-* “actuals/telemetry” vs “targets/obligations” split → SRE evidence discipline,
-* “roles + context” emphasis when discussing “service quality” → service science / service‑dominant logic.
-(These anchors are informative; they do not assert cross‑Context identity and require Bridges when imported as terms.)
-
-#### A.6.8:4.1 — Trigger rule
-
-This pattern applies whenever **“service”** appears in **Tech/normative prose** as a head noun (including compounds like “X service”, “the service”, “our service”, “this service”), **even when the intended referent is `U.PromiseContent`**.
-
-It also applies to the adjacent cluster terms **“service provider”** and **“server”** when they are used as stand‑ins for the same collapsed bundle (clause/access/provider/work). The rewrite outcome for those terms is facet‑typed (see §4.3 and §4.9).
-
-**Carve‑out (informative, narrow):** quotations of external material may retain “service”, but SHALL be followed immediately by an unpacking rewrite in the surrounding normative text.
-
-#### A.6.8:4.2 — Stable lens: the Service Situation Bundle
-
-Define a stable, kind‑labelled qualified record (hyperedge lens) that makes the bundle explicit **without introducing a new core entity kind**. This record binds already‑defined referents so prose can talk about multiple facets without collapsing them:
-
-**`serviceSituation(…)` — Qualified Relation Record (QRR) lens id**
-
-Participant slots (principal facets). The slot names are intentionally *prose-facing* (engineer-readable): they are meant to make it hard to “silently collapse” clause/principal/system/access/work.
-
-* `promiseContentRef : PromiseContentRef`
-  *Promise content* — the `U.PromiseContent` referent (A.2.3). **Plain head:** *promise content* / *service offering clause* / *service promise clause*.
-* `promisedOutcomeSpecRef? : OutcomeSpecRef`
-  The **promised outcome template** described by the clause (`U.OutcomeSpec`, A.7:5.10). It may constrain:
-  - **delivery work** (work‑only: “do X for ≥5 minutes”),
-  - **delivered result state** (result‑only: “a hole of depth ≥1 m exists”),
-  - or **both** (composite).
-  This is **not** a concrete `U.Work` run and **not** the delivered-result referent; it is the spec used to judge delivery work and evidence.
-**Invariant: SERV‑INV‑1 (OutcomeSpecness).**
-  `promisedOutcomeSpecRef` MUST denote a `U.OutcomeSpec` (kind‑labelled episteme), not a `U.Work` episode and not an extensional delivered-result referent.
-* `providerRoleRef : RoleRef`
-  The provider **role kind** named by the clause (typically `clauseRef.providerRole`).
-* `providerAssignmentRef? : RoleAssignmentRef`
-  The concrete **role enactor assignment** that holds `providerRoleRef` in the relevant Context/window (E.10 / A.2.1). This is what everyday talk calls “the service provider” (team/shop/vendor/system).
-* `providerPrincipalRef? : EntityRef`
-  Convenience alias: the **accountable principal** extracted from `providerAssignmentRef` (when you need to name the accountable party explicitly).
-  - Normative default: commitments attach here (or to the relevant role assignment), not to the access point.
-* `consumerRoleRef? : RoleRef`
-  The consumer **role kind** named by the clause (typically `clauseRef.consumerRole`, if present).
-* `consumerAssignmentRef? : RoleAssignmentRef`
-  The concrete **role enactor** of `consumerRoleRef` (when needed for accountability/evidence narratives).
-* `accessSpecRef? : MethodDescriptionRef`
-  The **service access spec**, a request-facing interface description (API signature, OpenAPI, endpoint interface description, intake SOP, desk procedure). This is typically `promiseContentRef.accessSpec` (A.2.3) and is a `U.MethodDescription`.
-* `accessPointRef? : SystemRef`
-  The **service access point** — an addressable system/facility/desk/endpoint host through which requests arrive. In lived language this is often called “the service” or “the server”.
-* `deliverySystemRef? : SystemRef`
-  The **service delivery / realization system** that actually performs the delivery work. In software, this is usually the deployed application + dependencies (and may be behind gateways); in human services, this is the socio‑technical organisation + tooling that does the work.
-* `deliveryMethodRef? : MethodDescriptionRef`
-  The **service delivery method**, an internal procedure, runbook, or workflow used to fulfil the clause. This is distinct from `accessSpecRef` (request‑facing access).
-* `commitmentRef? : CommitmentRef`
-  Deontic binding to deliver the clause (required when the prose uses must/shall/guarantee/SLA force).
-* `promiseActRef? : SpeechActRef`
-  The instituting/promissory act (offer/promise/accept/agree/publish) when relevant.
-
-  **Invariant: SERV‑INV‑2 (Responsibility alignment).**
-  When the surrounding passage is normative about responsibility (D‑quadrant language), the promissory actor/authorizer of `promiseActRef` aligns with `providerPrincipalRef` (or the corresponding `providerAssignmentRef`), rather than being silently shifted to `accessPointRef`.
-* `deliveryWorkRef? : WorkRef`
-  The delivery / fulfillment work episode(s) (including incidents, runs, requests) when relevant.
-
-  **Invariant: SERV‑INV‑3 (Outcome anchoring).**
-  If both `deliveryWorkRef` and `promisedOutcomeSpecRef` are present, then the cited Work instance(s) either:
-  (i) explicitly assert `deliversPromisedOutcome(deliveryWorkRef, promisedOutcomeSpecRef)` (A.2.3:8.1), or
-  (ii) provide sufficient I/O/Δ evidence anchors for that relation to be derived in the Context.
-
-  **Invariant: SERV‑INV‑4 (Unit-of-delivery measurability).**
-  If `promiseContentRef.unitOfDelivery` is present, then its `countingRule` is stated (per A.7:5.10.3, with A.7 defaults available) and the cited Work carries the measurements required by that rule (duration, quantity, cases, kWh, etc).
-* `adjudication? : AdjudicationHooks`
-  Evidence anchors (e.g., `evidenceRefs`, `carrierRefs`) used for acceptance/breach evaluation when the passage asserts actuals.
-
-Qualifier slots (as needed per A.6.P/A.6.B):
-
-* `scope? : ClaimScope`
-* `Γ_time?` (explicit Γ_time selector per A.2.6; time windows are explicit when the surrounding passage is time‑sensitive)
-* `viewpoint? : ViewpointRef`
-* `referenceScheme? / representationScheme?` (only when needed)
-
-**Guidance (didactic).** In normative prose, prefer facet‑explicit predicates: if a predicate targets a specific facet (addressability, deontic force, actuals, mechanism), apply it to the corresponding slot rather than to an untyped “service” noun phrase. (Enforced by CC‑A.6.8‑3/4/6/9.)
-
-**Agency + grounding clarifications (normative).**
-
-* The **promise content** (`promiseContentRef`) is *promise content*; it does not act, deploy, crash, or guarantee. It can be **published** (via a carrier) and **used as payload** of a commitment.
-* The **promisor / commitment‑holder** is the **provider principal** (or its role assignment) unless the Context explicitly models a system as an agent with standing. *(See CC‑A.6.8‑8.)*
-* The **access point** and **delivery system** are typically *instruments/realizers*. The linkage to the accountable principal is expressed via an explicit relation kind (e.g., operated‑by / owned‑by / authorized‑by / fronts / routes‑to). *(See SERV‑WF‑1.)*
-
-**Well‑formedness constraint: SERV‑WF‑1 (Explicit relation typing in bundles).**
-When a `serviceSituation(…)` binds a principal/role assignment to systems (access point / delivery system), the relation kinds are explicit (prefer A.6.6 base relations when available). **Implicit “system implies provider” readings are invalid.**
-* Mechanism/process claims target `deliverySystemRef` and/or `deliveryMethodRef` (and sometimes `accessSpecRef` if the claim is strictly about interface signature), not `promiseContentRef`. *(See CC‑A.6.8‑9.)*
-
-**Well‑formedness constraint: SERV‑WF‑2 (Accountable subject present when binding is asserted).**
-If `serviceSituation(…)` includes `commitmentRef` and/or `promiseActRef`, then it also includes an accountable subject slot:
-`(commitmentRef ∨ promiseActRef) ⇒ (providerAssignmentRef ∨ providerPrincipalRef)`.
-This prevents “floating” commitments/acts that can’t be routed to a holder/authorizer.
-
-**Facet→Kind map (didactic, normative).** The bundle exists precisely because these facets are **different kinds** and therefore admit different predicates:
-
-| Facet (slot) | Canonical FPF kind or EntityOfConcern | A.7/E.10.D2 lane or exact FPF kind family | Typical predicates that *belong* here |
-| --- | --- | --- | --- |
-| `promiseContentRef` | `U.PromiseContent` | **Episteme** (promise content) | states preconditions/outcomes; defines acceptance criteria; constrains what counts as fulfilment |
-| `promisedOutcomeSpecRef` | `U.OutcomeSpec` | **Description episteme admitted for specification use** (outcome template) | constrains delivery work, delivered state, or both; supplies the outcome target for acceptance; can be decomposed into work clauses and result clauses |
-| `providerAssignmentRef` | `U.RoleAssignment` | **Role assignment** (who is accountable) | is accountable; is the provider; bears duty; is authorized to promise |
-| `providerPrincipalRef` | (derived from role assignment) | **Agent / principal** (responsible party) | holds commitments; is liable; delegates; authorizes carriers/systems |
-| `deliverySystemRef` | `U.System` | **System** (realizer) | implements/realizes; contains components; has failure modes; produces operational evidence |
-| `accessPointRef` (“server”) | `U.System` | **System** (addressable) | call/invoke/restart/down/latency |
-| `accessSpecRef` | `U.MethodDescription` | **Description episteme admitted for specification use** (access interface description) | versioned; published; compatible; constrained by the exact specification-use gate when live |
-| `deliveryMethodRef` | `U.MethodDescription` | **Description episteme** (delivery method; specification-use only when an exact gate is live) | steps and controls; escalation; timing model; safety constraints |
-| `commitmentRef` | `U.Commitment` | **Deontic object** (binding) | must/shall/obligated; breachable; has holder and counterparty |
-| `promiseActRef` | `U.SpeechAct` | **Work event** (communicative) | promised/accepted/announced |
-| `deliveryWorkRef` | `U.Work` | **Work event** (operational) | executed; incident occurred; evidence produced |
-#### A.6.8:4.3 — Facet headwords (mandatory lexical rule)
-
-In normative prose, **replace the head word “service”** with one of the following facet head phrases:
-
-1. **promise content** (or **service offering clause** or **service promise clause**) — promise content (`promiseContentRef : PromiseContentRef`, i.e., `U.PromiseContent`)
-2. **promised outcome spec** (or **promised deliverable spec**) — what is promised as an outcome template: work-only, result-only, or composite (`promisedOutcomeSpecRef`)
-3. **service provider role** — the provider role kind (`providerRoleRef : RoleRef`) when the text is about role structure (not about actuals)
-4. **service provider principal** (or **service provider (role enactor)**) — the accountable provider that can hold commitments (`providerAssignmentRef` / `providerPrincipalRef`)
-5. **service delivery system** (or **service realization system**) — the system that performs/realizes delivery (`deliverySystemRef : SystemRef`)
-6. **service access point** (or **service endpoint**) — addressable entrypoint (`accessPointRef : SystemRef`); this is the “thing you can call/visit”
-7. **service access spec** (or **service interface spec**) — request‑facing interface/method description (`accessSpecRef : MethodDescriptionRef`)
-8. **service delivery method** (or **service method**, **service runbook**, or **procedure**) — internal procedure for fulfilment (`deliveryMethodRef : MethodDescriptionRef`)
-9. **service commitment** — deontic binding (`commitmentRef : CommitmentRef`)
-10. **service promise act** (or **promissory speech act**) — speech act (`promiseActRef : SpeechActRef`)
-11. **service delivery work** (or **service run / fulfillment work**) — execution episode (`deliveryWorkRef : WorkRef`)
-
-**SERV‑LEX‑3 (Family‑name modifier + shorthand, normative).**
-The facet head phrases above are **canonical** for RPR‑SERV. In normative prose, authors SHALL use these phrases (including the family‑name modifier **service**) as the primary lexical forms for the facets.
-The modifier **service** inside these phrases is not an “unqualified service” use and does not itself trigger further unpacking.
-For readability, a local shorthand MAY be introduced by parenthetical declaration immediately after the canonical phrase, and then used consistently within that declared scope (for example: “service delivery system (delivery system)”). A conforming text SHALL NOT introduce multiple shorthands for the same facet, and SHALL NOT reuse a shorthand for a different facet.
-In code identifiers, slot names (e.g., `deliverySystemRef` in `serviceSituation(…)`), and diagrams/tables, the modifier MAY be omitted without an explicit shorthand declaration, because the surrounding construct already binds the facet.
-
-**Cluster note (server/provider) — heuristics (informative).**
-* If the draft uses **server** as a synonym for “the service”, it usually denotes the **service access point** (or host system), unless the domain’s “server” is explicitly a person (e.g., restaurant).
-* If the draft uses **service provider** but then predicates deployment/restart/latency, it usually denotes a **service delivery system** or **service access point**, not an accountable principal.
-* If the draft uses **service provider** but then predicates “guarantees / obligated”, it usually denotes the **service provider principal** plus an explicit **service commitment**.
-* If a passage attributes promissory agency to a machine (“the server promises”), treat the machine as a carrier/witness unless the Context explicitly grants it standing as an agent.
-
-(Normative enforcement is via CC‑A.6.8‑1 and CC‑A.6.8‑8.)
-
-#### A.6.8:4.4 — Addressability rule (the “can you call it?” test)
-
-If the draft sentence implies *addressability* (verbs like **call/invoke/request/visit/go to/connect to/route to/deploy/restart/scale**), then the referent MUST be a **service access point** (`accessPointRef : SystemRef`) or a **work episode** (`deliveryWorkRef`), never the promise content.
-
-#### A.6.8:4.4b — Method/mechanism rule (the “how does it work?” test)
-
-If the draft sentence asserts or explains *how the service works* (verbs like **implement/realize/work by/uses/consists of/pipeline/algorithm/workflow/runbook/process steps**) then the referent MUST be a **service delivery system** (`deliverySystemRef`) or, when the sentence names the governing recipe, a **service delivery method** (`deliveryMethodRef`).
-
-If the draft uses *service* as the name of a **promised work method** (common in plain language: “cleaning”, “repair”, “haircutting”), treat that as part of the promise by constraining the `U.OutcomeSpec.workSpec.methodConstraintRef` (what is promised). Keep `deliveryMethodRef` for the provider-internal runbook or procedure that realizes the promise (how it is executed).
-
-If the draft sentence is specifically about the **externally visible signature/shape** (endpoints, request/response schema, SOP steps visible to consumers), route it to **service access spec** (`accessSpecRef`).
-
-A conforming text **SHALL NOT** attach mechanism/process predicates to the **promise content**; the clause may constrain outcomes or acceptance criteria, but mechanism claims belong to design descriptions or method descriptions. *(See CC‑A.6.8‑9.)*
-
-#### A.6.8:4.5 — Deontic rule (the “must/shall” test)
-
-If the sentence contains deontic force (**must/shall/guarantee/obligated/SLA**), the referent MUST include a **service commitment** slot, and the deontic language MUST attach to the commitment/holder, not to the clause or to the access point.
-
-When the prose needs a subject, prefer: **“the service provider principal SHALL … under commitment C”** rather than “the service SHALL …”.
-
-**No hidden agency rule (normative):** A conforming text **SHALL NOT** use an access object (e.g., endpoint/access point) as the grammatical subject of an RFC‑keyword sentence. It **SHALL** use the accountable principal (or role assignment) as subject and then state the operational condition on the access point as a predicate/evidence claim. *(See CC‑A.6.8‑4 and CC‑A.6.8‑8.)*
-
-#### A.6.8:4.6 — Speech‑act rule (the performative verb test)
-
-If the sentence uses performatives (**promise/offer/accept/agree/commit/announce/publish**), the referent MUST include a **service promise act** (`promiseActRef`) and must not collapse the act into the clause.
-
-If a server/webpage/API response is involved, a conforming text **SHALL** treat it as a **carrier/witness** of the promise act unless the Context explicitly grants it standing as an agent. A conforming text **SHALL** keep the promissory actor/authorizer aligned with the provider principal.
-
-#### A.6.8:4.7 — Runtime/telemetry rule (the “actuals” test)
-
-If the sentence asserts actuals (**down/slow/99.9% last week/latency is X/incident occurred**), the claim MUST be routed to **work + carriers/evidence** (deliveryWorkRef + witnesses), not to the clause.
-
-If an actual is used in a conformance block, KPI, or acceptance argument, it MUST cite the underlying `U.Characteristic` and measurement procedure and evidence carrier (C.16/C.25), with pinned `{UnitType, ScaleKind, ReferencePlane, EditionId}`; otherwise it is prose only and MUST NOT be treated as a verified SLO/SLA measurement.
-
-When needed, also name whether the actual is about the **access point** (entrypoint symptoms) or the **delivery system** (realizer symptoms). “Down” can be about the gateway even when the backend is fine; the pattern treats that collapse as an unsupported reading.
-
-#### A.6.8:4.8 — Change‑class lexicon (service‑specific narrations)
-
-When the draft describes “service changes”, narrate changes using stable change classes (A.6.P), specialized to the serviceSituation lens:
-
-* `declareRelation(serviceSituation(…))` (introduce the bundle)
-* `withdrawRelation(serviceSituation@ed=k)` (retire the bundle)
-* `retargetParticipant(accessPointRef := …)` (move the access point / endpoint host)
-* `retargetParticipant(deliverySystemRef := …)` (change the realizing delivery system; e.g., re‑platforming)
-* `retargetParticipant(providerAssignmentRef := …)` (change provider role‑enactor; outsourcing / org change)
-* `reviseByValue(accessSpecRef := …)` (edit interface description content)
-* `reviseByValue(deliveryMethodRef := …)` (edit runbook, workflow, or procedure)
-* `reviseByValue(promiseContentRef := …)` (edit promise content; typically new edition)
-* `changeRelationKind` is not applicable here unless splitting the family (rare)
-* `rescope`, `retime(Γ_time)`, `refreshWitnesses(witnesses := …)` as required
-
-#### A.6.8:4.9 — Disambiguation guide (rewrite/selection)
-
-If the draft says:
-
-* “**the service** is deployed/restarted/scaled/called” → rewrite as **service access point** (system) or **service delivery work** (deployment work), and (optionally) attach it to a `serviceSituation`.
-* “**the service** promises/guarantees X” → rewrite as **promise content** (promise content), and if “guarantees” is deontic, also introduce **service commitment** held by the **service provider principal**.
-* “**the service** is down/slow/has 5xx” → rewrite as **service access point** (down) and/or **service delivery work** (incident/run), with evidence.
-* “we **promised** the service” / “we **agreed** the service” → rewrite as **service promise act** + **promise content** (+ commitment if binding).
-* “**the service provider** guarantees X” → rewrite as **service provider (role enactor)** + **service commitment** (+ promise content as payload).
-* “**the server** is down / slow / restarted” → rewrite as **service access point** (server/host system) and/or delivery work, not as clause.
-* “**the service** is implemented by / realized by / works by doing Y” → rewrite as **service delivery system** and/or **service delivery method** (and keep the clause separate as the outcome constraint).
-* “**the service** API signature / endpoint schema / request format is …” → rewrite as **service access spec**.
-* “the service ticket / service request” → rewrite as **ticket** / **request work item**; “service” is adjectival legacy and must be eliminated or mapped via LEX.
-
-### A.6.8:5 - Archetypal grounding
-
-**Tell.** A “service” is not a single thing. In normative prose you MUST name which facet you mean, and (when needed) tie facets together via a `serviceSituation(…)` record so readers can follow accountability, access, deontics, and evidence without guessing.
-
-#### Show 1 — System archetype (microservices + SRE)
-
-**Draft (ambiguous):**
-“Payments service is down; the service guarantees 99.9% uptime; we will restart the service.”
-
-**Unpacked (facet‑explicit):**
-
-* “The **Payments service access point** (the Payments API ingress/endpoint host) is down.”
-* “The **Payments service delivery system** (the Payments backend realizer) is degraded (symptom attribution is explicit).”
-* “The **Payments service access spec** (e.g., OpenAPI/endpoint interface description) defines the request/response interface.”
-* “The **Payments promise content** states target availability `SLO=99.9%` over `Γ_time=30d` (promise content).”
-* “The **service commitment** held by the **service provider principal** binds them to that clause.”
-* “The **service delivery work** `Incident#2025‑…` records outage evidence and the restart action; the runbook used is the **service delivery method**.”
-
-**Optional `serviceSituation` bundle (sketch):**
-
-* `serviceSituation( promiseContentRef=PaymentsAvailabilityClause, providerRoleRef=PaymentsPlatform#ServiceProviderRole, providerPrincipalRef=PaymentsPlatformTeam, accessSpecRef=PaymentsAPIv2, accessPointRef=PaymentsAPIIngressProd, deliverySystemRef=PaymentsBackendProd, deliveryMethodRef=PaymentsIncidentRunbook@ed=…, commitmentRef=AvailabilityCommitment@ed=…, deliveryWorkRef=Incident#…, Γ_time=Rolling30d, witnesses={SLOReport#…, IncidentLog#…} )`
-
-#### Show 2 — Episteme archetype (physical/human service)
-
-**Draft (ambiguous):**
-“The auto service accepts walk‑ins and promises repair in 2 days.”
-
-**Unpacked (facet‑explicit):**
-
-* “The **service access point** is the *Auto Repair Shop front desk* (an addressable facility).”
-* “The **service access spec** is the *intake procedure* (how to request/submit a car).”
-* “The **promise content** promises ‘repair completed within 2 business days’ given stated preconditions.”
-* “The **service delivery method** is the *shop workflow* (inspection → parts ordering → repair → QA → handover).”
-* “The **service provider principal** is the shop entity that can hold a commitment (not the front desk as an access point).”
-* “If advertised as binding, introduce a **service commitment** held by the shop’s provider role.”
-* “Each repair job is **service delivery work** with evidence (work order, timestamps, acceptance record).”
-
-### A.6.8:6 - Bias-Annotation
-
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**.
-
-* **Gov bias:** favors explicit accountability (provider role plus commitment) and audit surfaces (witnesses); increases enforceability but raises authoring workload.
-* **Arch bias:** encourages bundle/record lenses and explicit interfaces; may feel heavyweight for informal notes.
-* **Onto/Epist bias:** keeps strict separation between clause, system, work, and deontic claim; prevents category errors but reduces metaphor-friendly storytelling.
-* **Prag bias:** optimizes for cross-team readability and reduced rework; may require refactoring existing prose at scale.
-* **Did bias:** enforces teachable tests (“can you call it?”, “is it deontic?”, “is it actuals?”); can appear prescriptive but improves onboarding.
-
-### A.6.8:7 - Conformance Checklist (CC‑A.6.8)
-
-0. **CC‑A.6.8‑0 — UTS/LEX block exists for the service cluster.**
-   Any document that applies this pattern (or that introduces normative “service” language) SHALL publish:
-   (a) a local **UTS block** (F.17), and
-   (b) paired **LEX‑BUNDLE entries** (E.10) for the Tech/Plain twins and PTG stances used here.
-   +   Minimum cluster coverage SHALL include: `service`/`services`, `service provider`, `server`, `microservice`/`microservices` **when present in the source prose**, plus the chosen facet head phrases. If the document uses “API service / service interface / service access” or SLA/SLO/service‑level language, the local UTS/LEX block SHALL include those lexical forms as well.
-   Each SenseCell SHALL cite ContextName@Edition; cited contexts SHOULD not be “FPF only”.
-   Any newly introduced facet head phrase SHALL have an explicit Mint/Reuse decision (F.8) and SHOULD have a Name Card rationale (F.18).
-
-1. **CC‑A.6.8‑1 — Unqualified “service” (and cluster stand-ins) is unsupported in normative prose.**
-   A conforming boundary/spec text SHALL NOT use **service** as an unqualified head noun, and SHALL NOT use **server** or bare **service provider** as untyped stand‑ins for the same collapsed bundle.
-   Every such occurrence SHALL be rewritten to a facet head phrase (promise content, promised work-kind, service provider role or principal, service delivery system, service access point, service access spec, service commitment, service promise act, or service delivery work) or replaced with the correct underlying EntityOfConcern or project-side FPF kind (team, ticket, workflow, system, etc.).
-   The facet head phrases in §4.3 are **canonical**; using **service** as the family-name modifier inside those phrases is valid and does not itself trigger further unpacking. Any local shorthand that drops the modifier is valid only under SERV-LEX-3.
-   *Exception:* direct quotations may retain the original lexical form, but the surrounding normative prose SHALL immediately provide an unpacking rewrite.
-
-2. **CC‑A.6.8‑2 — `U.PromiseContent` is referred to as a “promise content” in prose.**
-   When the intended referent is `U.PromiseContent`, authors SHALL use “promise content” (or “service promise clause”) as the head phrase and SHALL NOT rely on the bare word “service”.
-
-3. **CC‑A.6.8‑3 — Addressability implies `accessPointRef` (system), not clause.**
-   Any statement implying invocation/connection/deployment/restart SHALL target a service access point (`SystemRef`) and/or delivery work, never a promise content (`U.PromiseContent`).
-
-4. **CC‑A.6.8‑4 — Deontic language requires a commitment.**
-   Any normative “must/shall/guarantee/SLA” statement about service delivery SHALL introduce (or reference) a `U.Commitment` and attach the deontic force to that commitment/holder.
-   In addition, a conforming text SHALL NOT use a service access point / server as the grammatical subject of an RFC‑keyword sentence; the subject is the accountable provider principal (or role assignment), with access‑point conditions stated as predicates/evidence.
-
-5. **CC‑A.6.8‑5 — Performative verbs require a speech act.**
-   Any statement using “promise/offer/accept/agree/announce/publish” about the service SHALL reference a `U.SpeechAct` (promise act) and SHALL NOT collapse it into the clause.
-
-6. **CC‑A.6.8‑6 — Actuals require work + evidence.**
-   Any claim about runtime state, telemetry, or incidents SHALL be stated as `U.Work` plus carrier/evidence references; it SHALL NOT be stated as a property of the promise content.
-
-7. **CC‑A.6.8‑7 — Bundle lens is used when multiple facets are in play.**
-   When a passage simultaneously discusses two or more facets (e.g., clause + endpoint + SLA + incident), the author SHOULD provide a `serviceSituation(…)` record (or equivalent explicit slot binding) so readers can track the linkage without guesswork.
-   When a `serviceSituation(…)` record is provided, it SHALL satisfy SERV‑INV‑1, SERV‑INV‑2, and SERV‑WF‑1 from §4.2.
-   When a `serviceSituation(…)` record is provided and it includes `commitmentRef` and/or `promiseActRef`, it SHALL also satisfy SERV‑WF‑2.
-
-8. **CC‑A.6.8‑8 — Commitments and promises have an accountable principal.**
-   Any statement that introduces a **service commitment** or **service promise act** SHALL name (directly or via role assignment) the **service provider principal** who is the holder/authorizer. A conforming text SHALL NOT attribute commitments/promises to a bare access point/server unless the Context explicitly models it as an agent with standing (and that modelling is declared).
-
-9. **CC‑A.6.8‑9 — “How it works” claims belong under method or system, not under the clause.**
-   Any statement about implementation, mechanism, workflow, runbook, or process SHALL name **service delivery system**, **service delivery method**, or **access spec** as applicable. It SHALL NOT be stated as a property of the promise content.
-
-### A.6.8:8 - Common Anti-Patterns and How to Avoid Them
-
-* **Anti‑pattern:** “The service is deployed on Kubernetes.”
-  **Fix:** “The **service access point** (deployment) is deployed on Kubernetes.”
-
-* **Anti‑pattern:** “The service guarantees X.”
-  **Fix:** “The **promise content** states target X; the **service commitment** guarantees X.”
-
-* **Anti‑pattern:** “The service provider guarantees X.”
-  **Fix:** “The **service provider (role enactor)** holds a **service commitment** that guarantees X; the **promise content** is the promise content.”
-
-* **Anti‑pattern:** “The server provides the service (as if server=promise).”
-  **Fix:** “The **service access point** (server/host system) provides access; the **promise content** is promise content; any ‘must/shall’ binds via **service commitment**.”
-
-* **Anti‑pattern:** “The service works by doing Y or is implemented with Z.”
-  **Fix:** “The **service delivery system** works by doing Y or is implemented with Z; the **service delivery method** (runbook or workflow) is …; the **promise content** constrains outcomes/acceptance.”
-
-* **Anti‑pattern:** “We promised the service.”
-  **Fix:** “We performed a **service promise act** that published the **promise content** (and instituted a commitment if binding).”
-
-* **Anti‑pattern:** “Service is down (therefore the obligation is breached).”
-  **Fix:** “The **service access point** is down (actual). Breach or non-compliance evaluation is a separate claim comparing actuals (work/evidence) to promise content, criteria, and commitment.”
-
-* **Anti‑pattern:** “Service and API are used interchangeably.”
-  **Fix:** Use **service access spec** for the API description; use **service access point** for the addressable system; use **promise content** for promise content.
-
-### A.6.8:9 - Consequences
-
-* **Pros:**
-
-  * Removes the incentive to keep “service” conveniently vague.
-  * Enables A.6.B routing: clause (L), commitment (D), acts/work/evidence (E), mechanisms/interfaces (A/L depending on placement).
-  * Makes incident/SLO/SLA discourse structurally sound and reviewable.
-
-* **Cons:**
-
-  * Increases verbosity and requires refactoring existing prose.
-  * Requires authors to learn (and consistently apply) facet headwords.
-
-**Adoption test (1 minute).**
-After refactoring any normative section that contains ≥ 10 occurrences of the “service” cluster, you can answer “yes” to all of:
-1) Unqualified head‑noun “service” occurrences in normative prose are **0** (CC‑A.6.8‑1).
-2) Every deontic (“must/shall/guarantee/SLA”) sentence about service delivery references a **service commitment** / `U.Commitment` (CC‑A.6.8‑4).
-3) Every runtime/telemetry “service is down/slow/…” claim is routed to **work + evidence** and, when relevant, distinguishes access‑point symptoms from delivery‑system symptoms (CC‑A.6.8‑6 + §4.7).
-
-### A.6.8:10 - Rationale
-
-The ambiguity here is not a simple synonym problem; it is a **bundle‑collapse problem**. “Service” routinely stands in for different ontological categories (episteme content, system, event, deontic binding). Since the word is too entrenched to ban entirely, the least‑surprising stable repair is:
-
-* keep “service” only as a *family name* in informal discussion, but
-* in normative prose always name the **facet** and, when needed, explicitly bind facets via a stable bundle lens.
-
-This aligns with A.6.P’s requirement to replace umbrella tokens with explicit kind+slots forms and to provide rewrite guides and guardrails.
-
-### A.6.8:11 - SoTA-Echoing
-
-> **Informative.** Alignment notes; not normative requirements. This section is written to satisfy the SoTA‑Echo obligations for Architectural patterns (post‑2015, multi‑Tradition; adopt/adapt/reject with reasons).
-
-**Bridge hygiene note.** This section makes **no cross‑Context identity claims** (no implicit “same sense across traditions”). If a later edit wants cross‑Context reuse of terms or structures from external traditions, it must be mediated by explicit Bridges with declared CL (and plane policy where relevant), per the general SoTA/Bridge discipline.
-
-| Tradition (Context) | What this pattern uses | Stance | Primary sources (post‑2015) | Notes / divergence |
-|---|---|---|---|---|
-| IT service management (ITSM) | Separates promise/value proposition (“offering”) from delivery/operations talk; motivates forcing facet headwords instead of letting “service” float. | Adapt | ITIL 4 Foundation (AXELOS, 2019) | FPF diverges by treating bare “service” as an always‑unpack token in **normative** prose, because ITSM vocabulary is intentionally managerial and polysemous. |
-| Enterprise architecture modeling | Distinguishes “service” from “interface” and from “realization/implementation”; motivates the access‑spec vs access‑point vs delivery‑system split. | Adopt/Adapt | The Open Group ArchiMate® 3.1 Specification (2019) | FPF adapts the split by making **promise content** (`U.PromiseContent`) explicit and by making “addressability” a first‑class disambiguation test. |
-| Ontology‑driven conceptual modeling (service ontologies) | Distinguishes service offering/commitment from service delivery events; motivates the “PromiseContent + Commitment + Work+Evidence” separation and prevents metonymy between SLA text, promissory act, and delivered outcome. | Adopt/Adapt | *S‑OPL: An Ontology Pattern Language for Service Modeling* (Falbo et al., 2016); *Unified Foundational Ontology (UFO): A Multi‑layered Ontology for Conceptual Modeling* (Guizzardi et al., 2022) | FPF uses this as a semantic anchor for precision restoration, but stays neutral on any single foundational ontology by treating `U.OutcomeSpec` / `U.Commitment` / `U.Work` as minimal cross‑domain pivots. |
-| Service‑dominant logic / service science | Treats service as applied capability for another actor’s benefit and emphasizes co‑creation and context; motivates being explicit about roles (provider/customer/beneficiary) and claim scope when “service quality” is discussed. | Adapt | Vargo & Lusch (2016); Vargo & Lusch (2017); *The SAGE Handbook of Service‑Dominant Logic* (Vargo & Lusch, eds., 2018) | FPF does not bake “value co‑creation” into U-kinds; it supports it via role modeling + claimScope + explicit commitments rather than via the bare token “service”. |
-| Dialogue‑act / speech‑act operationalization | Treats promissory moves as explicit act types; motivates separating promise‑act from promise‑content. | Adopt | ISO 24617‑2:2020 (Dialogue Act Annotation) | FPF diverges by requiring that binding effects are represented as explicit `U.Commitment` objects rather than being inferred from the act alone. |
-| SRE / modern operations practice | Keeps interface specs, SLO targets, deployments/endpoints, and incident evidence as separate publication or record families; motivates the “actuals → work+evidence” rule and the “access point vs delivery system” split. | Adopt/Adapt | *Site Reliability Engineering* (Beyer et al., 2016); *The Site Reliability Workbook* (Beyer et al., 2018) | FPF adapts SRE practice by classifying deontics as commitments (D) and keeping telemetry/incidents as evidence (E), rather than letting “SLO/SLA” prose collapse into the word “service”. |
-
-**Source posture.** The service-polysemy cluster uses cited practice anchors only to support facet unpacking. Source citations do not replace the live governing-pattern assignment: promise content, commitment, access point or system, work or evidence, and interface or boundary claims must still be separated by value.
-
-### A.6.8:12 - Relations
-
-* **Specialises:** A.6.P (RPR) for the lexical/semantic ambiguity cluster around “service”.
-* **Operationalises + extends:** the lexical disambiguation intent of L‑SERV by making “service” **always‑unpack** in normative prose (and by expanding the cluster to include *service provider* and *server* as co‑moving stand‑ins).
-* **Requires (authoring discipline):** a local UTS block (F.17) and published Tech/Plain twins (E.10) for the service/provider/server cluster; this is the “anti‑FPF‑only loop” guard.
-* **Coordinates with:** A.6.C (agreement/specification/contract shorthand unpacking). When that shorthand includes *service* tokens, apply RPR‑SERV first to select **promise content** vs **commitment** vs **access point/system** vs **work/evidence**, then unpack the resulting atomic statements with A.6.C and classify them with A.6.B (L/A/D/E).
-
-### A.6.8:12a - Service/cell analogy correction and quantum-like route
-
-This subsection corrects an invalid reading, not a word-choice preference. A service, microservice, provider, server, access point, delivery system, agreement, specification, or legacy contract shorthand does not become a `cell-like` architecture object, obligation-bearing source, or quantum-like model by vocabulary alone.
-
-#### A.6.8:12a.1 - Service/cell analogy correction
-
-Keep a cell-like analogy only when it changes one of the working decisions: boundary design, exchange control, protected invariant, repair and state-continuity, resource regulation, viability envelope, or coupling protocol. In that case the analogy is a practical comparison to unpack, not a new kind of service object.
-
-Before cell-like analogy is admitted, unpack the service facets into facet head phrases:
-
-| Facet | Ask |
-| --- | --- |
-| Promise content | What is promised or expected by the recipient? |
-| Provider / consumer roles | Who provides and who uses the service in this claim? |
-| Access specification / access point | What interface, endpoint, protocol, or path is being used? |
-| Delivery system / delivery work | What actually performs the work? |
-| Commitment | Which role or agent carries commitment, if any? |
-| Evidence carriers | Which logs, traces, reports, observations, or work results support the claim? |
-| Viability / quality claim | Which envelope, quality bundle, or admissible use is being asserted? |
-
-Cell-analogy action path:
-
-1. Stop at the service word and unpack the service facets before using analogy wording.
-2. Name which facet carries the claim: promise content, provider principal, consumer role, access specification, access point, delivery system, delivery method, delivery work, commitment, evidence carrier, time window, viability claim, or quality claim.
-3. Ask what action the analogy would change: boundary design, access design, routing, staffing, evidence, viability envelope, bridge note, or work alignment.
-4. If no action changes, drop the analogy and use the ordinary service facet.
-
-#### A.6.8:12a.2 - QL route after service-facet unpacking
-
-Use QL wording only after the service facets have been unpacked and an ordinary A.6, A.6.B, F.9, A.15, C.16, or C.25 governing pattern still leaves a residual probe, export, coarsening, or viability-envelope support load.
-
-QL route action path:
-
-1. If an API read/export is later used as passive state reading while it changes or thins the state, route that remainder through `C.26.1`.
-2. If a service situation is being kept viable by boundary/exchange/adaptation work, route that remainder through `C.26.3`.
-3. If a coarsened representation of the service state is used, route admissible use and non-admissible downstream use through CSC/RT and the `C.26` coarsening support section only when a QL cue remains.
-
-Useful outputs:
-
-- a service-facet rewrite when ordinary service language was overloaded;
-- a retained cell-like analogy when it changes boundary design, exchange control, protected invariants, repair and state-continuity, resource regulation, viability envelope, or coupling protocol;
-- an A.6/A.6.B/F.9/A.15 route when the issue is boundary, bridge, commitment, or work;
-- a C.26.1 note only for passive-read or export mistakes caused by the service interaction;
-- a C.26.3 note only when service viability is the actual envelope-regulation problem.
-
-### A.6.8:End
-
 ## A.6.9 - Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", and "align" via explicit Bridges (RPR-XCTX)
 > **Type:** Relational precision-restoration pattern
 > **Status:** Stable
@@ -20267,7 +20035,7 @@ A.6.9 admits neither `U.CrossContextSamenessDisambiguation` nor a semantic-conte
 > **Type:** Architectural (A) — A.6.P specialisation (RPR)
 > **Status:** Stable
 > **Normativity:** Normative
-> **Placement:** A.6 cluster; immediately after A.6.8
+> **Placement:** A.6 cluster; follows the A.6.P relation-precision route for cross-context wording.
 > **Builds on:** A.6.P for relational prose repair; F.17 for exact scheme-based SenseCells; F.18 for designation; F.9 for the direct Bridge relation, profile, bounded-use boundary, and card boundary; C.2.1 for claim and description identity; F.0.1, F.7, and F.8 for sense-family and downstream naming discipline; A.7 and A.6.6 for lane and identifier dispatch; E.19 for normative precision
 > **Coordinates with:** A.10 for evidence-provenance relations and local reliance dispositions; B.3 for assurance; E.17 for views and publication; C.3.3 for kind or classification transfer; A.2.6 for scope operations; A.6.3.RT for representation transition; A.22 for structure; A.2.1, F.6, and A.15.1 for role and Work claims
 
@@ -34509,7 +34277,7 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 | A structure proves evidence, assurance, safety, causality, or gate passage. | Assign those claims to `A.10`, `G.6`, `B.3`, `C.28`, `A.20`, or `A.21`. |
 | A structure is a decision or work record. | Use `C.11`, `A.20`, `A.21`, `A.15`, or the project-side decision pattern that governs the claim being made. |
 | Architecture is a root kind beside structure. | Use `C.30`: architecture is selected structure for a described holon through `ArchitectureOf@Context`. |
-| Function, module, interface, platform, layer, stack, block, expert, cache, router, or gate becomes a root kind by appearing in structure prose. | Use `C.30.STRAT` for source-label recovery, then `A.6.F`, `A.6.M` module-relation repair when a module-interface claim is being made, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `E.18`, `C.30.ASV`, and governing patterns as triggered. |
+| Function, module, interface, platform, layer, stack, block, expert, cache, router, or gate becomes a root kind by appearing in structure prose. | Use `C.30.STRAT` for source-label recovery, then `A.6.F`, `A.6.M` module-relation repair when a module-interface claim is being made, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.P:4.11a`, `E.18`, `C.30.ASV`, and governing patterns as triggered. |
 
 #### A.22:4.8 - Worked slices
 
@@ -53511,7 +53279,7 @@ Use this as a diagnostic sequence before retaining QL wording. DDD, microservice
 1. Measurement, metric, scale, method, evidence, or assurance load goes first to measurement and evidence patterns: `C.16`, `A.10`, or `B.3`.
 2. Bridge, translation, publication, rendering, or exported-loss question goes first to bridge and publication patterns: `F.9`, `E.17`, or `E.17.EFP`.
 3. Causal intervention, command, work enactment, role alignment, or routine question goes first to work and authority patterns: `A.15` and the relevant neighboring pattern.
-4. Boundary or interface wording, service-interface typing, bridge endpoint, relation precision, or lexeme-collision question goes first to the direct owner: `A.1` for holon delimitation or boundary crossing, `A.6.P`, `A.6.0`, or `A.6.5` for relation, signature, or slot claims, `A.6.M` for module-interface claims, `A.6.F` for functional ports or elements, `A.6.C` or `A.6.8` for service, protocol, or agreement-like claims, `A.6.B` only for L, A, D, or E statement classification inside a boundary package, and `A.7`, `E.10`, or `F.18` for wording-use repair.
+4. Boundary or interface wording, service-interface typing, bridge endpoint, relation precision, or lexeme-collision question goes first to the direct owner: `A.1` for holon delimitation or boundary crossing, `A.6.P` for relation precision or service/access recovery, `A.6.0` or `A.6.5` for signature or slot claims, `A.6.M` for module-interface claims, `A.6.F` for functional ports or elements, `A.6.C` for contract, SLA, protocol, or agreement-like claims, `A.6.B` only for L, A, D, or E statement classification inside a boundary package, and `A.7`, `E.10`, or `F.18` for wording-use repair.
 5. Quality, viability, feedback, or control-tuning question goes first to quality, dynamics, and measurement patterns: `C.25`, `U.Dynamics`, and `C.16`.
 6. Suspect option menu, unknown alternative, local plateau, basin movement, or candidate-generation question goes first to search and regime patterns: `B.5.2`, `C.18`, `C.19`, or `A.19`.
 7. Retain QL only for the remaining declared state, probe, export, frame, open-information-system, or coarsening cue.
@@ -53521,7 +53289,7 @@ C.26 does not choose among options, generate missing alternatives, or settle `C.
 | If the question under repair is mainly... | First FPF pattern | Add QL only when... |
 | --- | --- | --- |
 | Choice, comparison, or question order | `C.11` | incompatible probes, order effects, non-shared comparison frames, or no declared admissible joint comparison route change the choice-state reading. |
-| Boundary interaction or interface reading | `A.1`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.F`, `A.6.C`, `A.6.8`, or `A.6.B` only for L/A/D/E boundary-package classification | the probe or interaction changes the represented state, export validity, or viability decision. |
+| Boundary interaction or interface reading | `A.1`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.F`, `A.6.C`, or `A.6.B` only for L/A/D/E boundary-package classification | the probe or interaction changes the represented state, export validity, or viability decision. |
 | Cross-context bridge or publication export | `F.9`, `E.17`, `E.17.EFP` | the exported state is not faithful under the current probe and bridge conditions. |
 | Work enactment or coordinated behavior | `A.15`, with `A.10` / `B.3` for evidence | coordinated work evidences a low-recoverability distributed-state reading not faithfully exportable as one representation. |
 | Measurement, metric, score, or dashboard | `C.16`, `A.10`, `B.3` | the measurement regime, publication act, or operational use functions as a probe interaction that updates the represented state. |
@@ -54515,7 +54283,7 @@ Most envelope work covered by this pattern is ordinary control, quality, SRE, ca
 Plain glosses:
 - `viability bearer`: the `U.System`, collective system, delivery system, role configuration, organism-as-system, or explicitly modelled market slice whose viable range is being regulated.
 - `protected promise / function`: the `U.PromiseContent`, stakeholder value, function, operating regime, commitment payload, or delivery promise the bearer is trying to keep viable.
-- `service situation`: an `A.6.8` facet-binding lens that identifies access point, delivery system, provider principal, promise content, commitment, delivery work, and evidence; it is not itself a new root bearer unless the relevant system facet is declared.
+- `service` or market wording: the wording does not itself name a viability bearer. First identify one independently admitted bearer—such as an exact `U.System`, collective system, delivery system, role configuration, organism-as-system, or explicitly modelled market slice—and keep promise content, access points, assignments, commitments, Work occurrences, evidence, and direct relations as separately governed claims. If no exact bearer can be named, stop; do not turn the phrase into a situation kind or bundle.
 - `viability envelope`: the region where the bearer can still keep the relevant promise or function, across several dimensions.
 - `envelope variable`: one characteristic that must stay within bounds, such as latency, reliability, support load, compliance exposure, safety margin, energy, or operator attention.
 - `actuator`: a work action that can change the situation, such as cache policy, throttle, staffing, routing, bridge rewrite, protocol, access, escalation, or measurement design.
@@ -54562,7 +54330,7 @@ Full envelope-regulation record:
 | --- | --- |
 | Viability bearer | Which `U.System`, collective system, delivery system, role configuration, organism-as-system, or explicitly declared bearer is being kept viable? |
 | Protected promise / function | Which `U.PromiseContent`, stakeholder value, function, operating regime, commitment payload, or delivery promise is protected? |
-| Service situation facets, if used | Which `A.6.8` facets are involved: access point, delivery system, provider principal, promise content, commitment, delivery work, and evidence? |
+| Current service/access claims, if any | Which independently governed service/access claims are current, and what exact subjects, relations, and direct owners do they name? |
 | Envelope variables | Which characteristics or quality-bundle dimensions define viability? |
 | Viable region / bounds | What counts as inside, near edge, degraded, or outside the envelope for this use? |
 | QL cue or formal cue if retained | Which probe, order, export, coarsening, incompatible-frame, open-information-system update law, probe-frame relation, export admissibility, or measurement-changing-state cue remains after ordinary viability patterns are active? |
@@ -54623,7 +54391,7 @@ The first useful move is to turn a one-scalar stability story into an inspectabl
 
 Envelope-regulation sequence:
 
-1. Name the viability bearer and the promise or function being preserved; if service or market language is used, declare whether the bearer is a collective `U.System`, delivery system, trace population, evidence set, or relevant `A.6.8` facet-binding before treating the situation as a bearer.
+1. Name the exact viability bearer and the promise or function being preserved. If service or market language is used, select the bearer first; only then add each current promise content, system, role assignment, commitment, Work occurrence, or evidence claim under its direct owner. If no bearer is established, stop instead of treating the wording as a bearer.
 2. Name the envelope variables and the viable range or qualitative boundary for each.
 3. Name the disturbance or regime change.
 4. Name sensors/probes and say whether they only report, also frame, or also change behavior.
@@ -54662,7 +54430,7 @@ The record is not `U.ViabilityEnvelopeRegulation`, not a new U-kind, and not a u
 Well-formedness constraints:
 
 - the bearer is a declared `U.System`, collective system, delivery system, role configuration, organism-as-system, explicitly modelled market slice, or other explicitly bounded bearer of viability;
-- service-situation language identifies its `A.6.8` facets rather than treating the situation label as a root bearer by itself;
+- service/access wording names each current object and relation separately—viability bearer, promise content, system, role assignment, commitment, Work occurrence, evidence, or another direct relation—under its direct owner; the wording creates neither a root bearer nor a bundle;
 - at least two envelope dimensions are visible when the claim says "viability" rather than one ordinary metric;
 - at least one actuator is named when the text proposes regulation rather than only diagnosis;
 - the actuator has an authority and latency story, otherwise the recommendation is only a wish;
@@ -54730,7 +54498,7 @@ This translation keeps the pattern practical for architects. The reader should b
 
 Tell: A platform team tries to preserve checkout latency during a traffic spike. The first move is to increase cache aggressiveness. Latency improves, but support load rises because stale payment-failure status causes confused customer contacts.
 
-Show, System side: the viability bearer is the checkout/payment service situation. Envelope variables include latency, payment correctness, support load, customer-promise reliability, and operator attention. Actuators include cache policy, retry policy, routing, dashboard query, escalation promises, and context bridge changes.
+Show, System side: take `CheckoutSystem-1` as a case premise: it has already been independently recognized under A.1 as the deployed `U.System` whose viability envelope the team regulates. If that recognition is unavailable, stop; *checkout*, *payment*, and *service* wording do not establish the bearer. Keep the protected promise separate: `CheckoutPromiseContent-1` is the `U.PromiseContent` stating the checkout outcome and reliability on which the customer may rely. For this envelope decision, latency and payment-correctness measurements support claims about selected behaviour and results of `CheckoutSystem-1`; support-load measurement concerns the team's dated support Work; operator-attention measurement concerns the people doing that Work; and customer-promise reliability is tested by a separate evaluation of whether `CheckoutPromiseContent-1` is fulfilled. The decision uses these claims as distinct constraints; it does not turn them into facets of one bearer. Candidate interventions are proposed cache-policy, retry-policy, or routing changes. If the team plans one as intended Work, place that intention in a `U.WorkPlan`; the proposal is not `U.Work`. Use `U.Work` only for one independently identified dated occurrence that satisfies A.15.1's performer-system, covering-assignment, enacted-Method, temporal-extent, and containing-system basis, and state the cache-setting or routing change separately. This case asserts only the observed cache-setting change, not a Work individual. A dashboard query remains a probe unless the case separately names a behaviour-changing occurrence. Changing escalation terms or a context Bridge keeps the resulting promise content, commitment, Bridge occurrence, or Bridge description separate from any dated Work and change occurrence that produces or revises it. Here the observed cache-setting change improves latency while stale payment-failure status increases support load, so optimizing one declared dimension damages another.
 
 Show, Episteme side: the supported claim is not "latency is the viability state." It is an envelope-regulation claim: latency was preserved by an actuator that damaged another envelope dimension. The repair is to state the trade-off, adaptation cost, actuator authority, and failure mode.
 
@@ -72713,9 +72481,9 @@ Classification is not closure. A conforming result ends in one of these by-value
 | Move-like wording such as first move, working move, next move, pattern move, project move, architecture move, local move, or readiness move whose governed text span, claim being made, object under wording repair, direct FPF target, and remaining reader use are hidden | Apply `E.10.MOVE` first unless a local governing pattern has already recovered the exact local object, such as A.16 language-state move, C.24 `nextPlannedAction`, or C.30 architecture candidate use. | Recovered governed text span, claim being made, object under wording repair, source wording class when source wording is being classified, and direct FPF target such as `PatternUseRecommendation@Context`; `PatternUseSequence@Context` only as the `totalOrder` specialization of one named `PatternUseCoordination@Context`; P2W carry-through; WorkPlan; `WorkEntryReadiness@Context`; GateDecision; an actual Work occurrence admitted under `U.Work`; A.16 local move; C.24 next action; C.30 architecture candidate use; ordinary prose; quote-only wording; or blocker. Do not mint root `U.Move`. |
 | Declarative representation wording overread as imperative action, method, work, deontic permission, work authorization, release authorization, evidence, or pattern dispatch: graph path, path slice, flow valuation, evidence-path wording, state predicate, SQL-like query, checklist predicate, table, dashboard, publication face, mathematical representation, method-description representation, source-chain relation, file path, or FPF pattern relation | Apply `C.2.P.DR` unless the direct governing pattern already closes the repair. Accepted direct cases include `E.18` graph path or `PathSlice`, `A.10 evidence relation or evidence-provenance relation for a claim, effect, or use`, `A.19.SPR` state predicate or value, `E.17` publication face, `C.29` mathematical-lens use, `A.3.1` method, `A.3.2` method description, `A.15.2` work plan, `A.15.1` work occurrence, carrier file path, source-chain relation, and declarative pattern relation under `E.8` or `F.19`. | Visible expression or artifact; exact current direct object, claim, or relation; exact representation use or explicit correspondence, or `none`; and the stronger action or inference that stays blocked. When current, also name the source or publication relation, direct governing pattern, retained use, non-admissible overread, and stop or reopen trigger. A visible artifact is not classified as a representation merely by its form. |
 | Architecture or structure wording with hidden selected structure, `ArchitectureOf@Context` relation, architecture-description use, structural-view use, source-return condition, or named C.30 subcase | Apply `C.30.P`. If `A.22`, `C.30`, `C.30.ASV`, or a named C.30 subpattern is already recoverable, use it directly. | Recovered selected structure, `ArchitectureOf@Context`, architecture description, structural view, source-return condition, governing-pattern result, or stop. |
-| Holon, system, episteme-as-holon, collection, part-whole, multilevel, interlevel, boundary, interaction, functioning, capability, emergence, BOSC, MHT, MET, MFT, `post`-like, or promotion-like wording whose object kind, part-whole relation, boundary-crossing relation, transformation relation, architecture relation, ethical conflict relation, or admissible-use boundary is hidden | Recover the object kind and relation first. Use `B.2.P` only for emergence-family, MHT-family, MET-family, MFT-family, synergy, metric-mirage, whole-reidentification, and collection wording entangled with those ambiguities. After recovery use the direct governing pattern: `A.1` for the holon or system claim, `C.2.1` or the publication pattern named by value for episteme and publication claims, the part-whole or collection governing pattern named by value, `B.2` for whole reidentification, `B.2.2` for result-system MHT, `B.2.3` for result-episteme MHT, `B.2.4` for capability or functioning whole reidentification, `B.2.5` for supervisor-subholon feedback relation, `A.3.4.P` for transformation wording, `A.6.F` for functioning or capability-like wording, `C.30`, `C.30.ASV`, `C.30.LCA`, `C.30.ILC`, `C.30.STRAT`, `D.2`, `D.3`, `D.4`, or another governing pattern named by value. | Recovered holon, system, episteme, collection, part-whole relation, boundary-crossing relation, transformation relation, architecture relation, supervisor-subholon feedback relation, interlevel ethical conflict, mediation use, source-label repair, admissible use, non-admissible overread, and stop. Do not mint `U.Level`, `U.SystemLevel`, `U.HolonLevel`, `U.Frustration`, `U.Emergence`, or treat governing-pattern selection as procedural control flow. |
+| Holon, system, episteme-as-holon, collection, part-whole, multilevel, interlevel, boundary, interaction, functioning, capability, emergence, BOSC, MHT, MET, MFT, `post`-like, or promotion-like wording whose object kind, part-whole relation, boundary-crossing relation, transformation relation, architecture relation, ethical conflict relation, or admissible-use boundary is hidden | Recover the direct object and current decision first. Route to `A.1.SCR` only when the relied-on claim depends on which exact system acts, is intended to change, carries a capability, persists, or is explicitly designated as a project target and that proposed subject remains hidden. `A.1.SCR` first permits a direct-owner exit and applies the complete `A.1` criterion only while systemhood remains load-bearing; `E.24.UK` owns one-time public-kind admission. Service/access wording follows the independent `L-SERV` row and does not trigger A.1.SCR merely because an exact bearer may later be recovered. Otherwise use the direct governing pattern. Use `B.2.P` only for emergence-family, MHT-family, MET-family, MFT-family, synergy, metric-mirage, whole-reidentification, and collection wording entangled with those ambiguities. After recovery use `A.1` for a holon/system claim, `C.2.1` or the named publication pattern for episteme/publication claims, the direct part-whole or collection owner, `B.2` for whole reidentification, `B.2.2` for result-system MHT, `B.2.3` for result-episteme MHT, `B.2.4` for capability/functioning-whole reidentification, `B.2.5` for supervisor-subholon feedback, `A.3.4.P` for transformation wording, `A.6.F` for functioning/capability wording, `C.30`, `C.30.ASV`, `C.30.LCA`, `C.30.ILC`, `C.30.STRAT`, `D.2`, `D.3`, `D.4`, or another owner named by value. | Direct Work, Method, capability, transformation, episteme, structure, or relation result when that closes the decision; otherwise the exact A.1.SCR acting/changed-system result, recovered holon/system, collection, part-whole relation, boundary-crossing relation, architecture relation, supervisor-subholon feedback relation, interlevel ethical conflict, mediation use, source-label repair, admissible use, non-admissible overread, or stop. Do not mint `U.Level`, `U.SystemLevel`, `U.HolonLevel`, `U.Frustration`, `U.Emergence`, a candidate kind, or procedural control flow from governing-pattern selection. |
 | Culture, cultural evolution, style, tradition, genre, scene, technique, practice, platform, regime, measurement regime, attractor, developmental machinery, or close cultural-evolution wording whose current object is hidden | Immediate disposition: recover the current object first: method family, work family, role assignment, discipline, canon or memory episteme, recognition or selection regime, mediation system or architecture, measurement or visibility relation, publication label, variant set, dynamics or mathematical-lens claim, bounded context, development-loop relation, or cultural-evolution case. Use the method-like row above when `practice` or `technique` is just the ordinary word for a way of doing; use `C.36` when a collective-holon or discipline-facing cultural-evolution case is current; use `C.36.P` for repeated wording-use recovery; use `F.17`, `F.18`, and `F.9` for durable terms and bridges; use `A.3.1`, `A.3.2`, `A.15`, `C.20`, `C.23`, `A.3.3`, `C.27`, `C.29`, `C.18`, `C.19`, `G.5`, `G.11`, `E.18.1`, `C.22.2`, `C.16`, `A.19`, or `C.11` according to the recovered object. | One root cultural ontology by source word, root `U.Culture`, `U.Style`, `U.Tradition`, `U.Practice`, `U.Platform`, `U.PlatformRegime`, `U.MeasurementRegime`, `U.DevelopmentalMachine`, loose style-as-attractor ontology, or one umbrella replacement word. |
-| External holon-class or Holon Graph Architecture (HGA) graph-expression wording such as `AgentHolon`, `OrganisationHolon`, `DataHolon`, `ProcessHolon`, `Portal`, `Projection`, event envelope, provenance, target holon, projection envelope, projected content, envelope, payload, RDF graph, node, edge, traversal, or boundary-governed payload whose FPF object is hidden | Recover the claim before importing the source label. Use `A.1` for admitted system or holon claims; `C.2.1`, `E.17`, architecture-description, publication, source-relation, or evidence governing patterns for data, document, projected content, description, publication, view, or evidence claims; `A.10`, source-relation, evidence-relation, dated-work, or publication governing patterns for event and provenance claims; `A.3.4.P`, method governing patterns, work-plan governing patterns, or work governing patterns for process-like wording; `A.6.RSIR`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.C`, `A.6.8`, or policy governing patterns for portal, access, traversal, boundary-crossing, signature, module-interface, service-access, protocol, agreement-like, or evidence-relation claims; `C.29`, `A.22`, `C.30.ASV`, `C.30.AD`, `E.17`, source-relation, or publication governing patterns for graph, RDF, node, edge, or traversal expression claims; use `A.6.B` only for L, A, D, or E statement classification inside a boundary package. | W3C Community Group Holon Graph Architecture (HGA) vocabulary is retained as a serious source-finding cue or comparison term only after the recovered FPF object is named and differences from FPF are explicit. Do not mint source-class U-kinds such as `U.AgentHolon`, `U.DataHolon`, `U.ProcessHolon`, `U.Portal`, `U.Projection`, `U.Envelope`, or `U.Payload`; do not turn semantic-web class names or graph-expression vocabulary into FPF ontology. |
+| External holon-class or Holon Graph Architecture (HGA) graph-expression wording such as `AgentHolon`, `OrganisationHolon`, `DataHolon`, `ProcessHolon`, `Portal`, `Projection`, event envelope, provenance, target holon, projection envelope, projected content, envelope, payload, RDF graph, node, edge, traversal, or boundary-governed payload whose FPF object is hidden | Recover the claim before importing the source label. Use `A.1` for admitted system or holon claims; `C.2.1`, `E.17`, architecture-description, publication, source-relation, or evidence governing patterns for data, document, projected content, description, publication, view, or evidence claims; `A.10`, source-relation, evidence-relation, dated-work, or publication governing patterns for event and provenance claims; `A.3.4.P`, method governing patterns, work-plan governing patterns, or work governing patterns for process-like wording; `A.6.RSIR`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.C`, `A.6.P:4.11a`, or policy governing patterns for portal, access, traversal, boundary-crossing, signature, module-interface, service-access, protocol, agreement-like, or evidence-relation claims; `C.29`, `A.22`, `C.30.ASV`, `C.30.AD`, `E.17`, source-relation, or publication governing patterns for graph, RDF, node, edge, or traversal expression claims; use `A.6.B` only for L, A, D, or E statement classification inside a boundary package. | W3C Community Group Holon Graph Architecture (HGA) vocabulary is retained as a serious source-finding cue or comparison term only after the recovered FPF object is named and differences from FPF are explicit. Do not mint source-class U-kinds such as `U.AgentHolon`, `U.DataHolon`, `U.ProcessHolon`, `U.Portal`, `U.Projection`, `U.Envelope`, or `U.Payload`; do not turn semantic-web class names or graph-expression vocabulary into FPF ontology. |
 | Markov blanket, Markov border, computational boundary, boundary leak, or active-inference boundary wording whose object kind or claim kind is hidden | Recover whether the source-bearing external phrase names accepted local Markov dynamics, a mathematical or probabilistic lens, holon delimitation, boundary-crossing relation, relation precision, signature or slot declaration, interface, interface module, functional element, physical component, boundary description or publication, boundary-package statement classification, or agency-threshold claim. | Use `A.3.3`, `C.29`, `C.26`, `C.26.3`, `A.1`, the direct relation-governing pattern, `A.6.RSIR`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.F`, `A.14`, `C.13`, `B.3.5`, `C.30.AD`, `E.17`, `A.13`, `A.19`, or `C.16` according to recovered claim; use `A.6.B` only for L, A, D, or E statement classification inside a boundary package. Do not mint `U.MarkovBlanket`, generic `U.Boundary`, generic `U.Interface`, or binary `U.Agent`; do not collapse statistical separation, physical boundary, interface module, description, boundary-package classification, and agency threshold. |
 | Stratification or structure-source-label wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` when the FPF kind under repair, relation, claim-use, or source-use disposition is not yet recovered | Apply `C.30.STRAT` first. If a control-layer relation, module-interface relation, architecture-to-`TransformationFlowStructure` relation, mathematical scale relation, coarse-graining relation, publication relation set, gate relation, or other governed use named by value is already recovered, use that governing pattern directly. | Recovered FPF kind, relation, claim-use, source-use disposition, and governing pattern; `StratificationSourceLabelRepairNote`; ordinary source label; quote-only, reduced-use, or blocked-use disposition; or stop. |
 | Characteristic, scale, score, coordinate, metric, indicator, threshold, comparison, or scalar-quality wording with hidden construction | Apply `C.16.P`. If `A.17`, `A.18`, `C.16`, `A.19`, `C.25`, `C.29`, `E.21`, or a governing pattern is already recoverable, use it directly. | Recovered `Characteristic`, `Scale`, `Coordinate`, `Value`, `Score`, unit, scoring method, comparison basis, indicator role, governing-pattern result, or stop. |
@@ -73716,7 +73484,7 @@ If an EntityOfConcern-side item is currently named `… Standard`, rename it to 
 
 | **Tech (authoritative)** | **Plain (didactic)**                        | **Notes and guards**                                                                           |
 | ------------------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`; treat it as an **always‑unpack** token (L‑SERV, A.6.8). Avoid “service‑instance”; prefer “system instance”, “service access point”, or “service offering” depending on facet. |
+| `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`. Apply L-SERV only when a relied-on use hides the concrete subject or next route, then use `A.6.P:4.11a`; quoted, historical, illustrative, and harmless ordinary wording stays outside. Avoid “service-instance”; after recovery use “system instance”, “service access point”, “service offering”, or another exact head phrase owned by the governing pattern. |
 | `U.Episteme`             | body of knowledge, document, dataset, model | The pair preserves the **Carrier and Content** distinction (A.7).                                              |
 | `U.Method`               | how‑to, procedure (abstract)                | Do **not** call this “process” (L‑PROC).                                                     |
 | `U.MethodDescription`    | account of how one identified method is done | `recipe`, `SOP`, `playbook`, `code`, and `spec-text` are recognition cues, not automatic twins. Use this pair only after the claim-bearing episteme has one admitted `U.Method` as its exact EntityOfConcern and passes A.3.2's substantive-description threshold; call out **Spec** separately only after the E.10.D2 gate. |
@@ -74104,7 +73872,7 @@ Example: use of a `KernelToken` in a Context constraint can be admitted through 
 | ------------ | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | **L-PROC** | *process*, *practice*, *procedure*, *workflow*, *activity*, process-like function step, method-algebra, method-graph, or selector-calculus wording | Recover the current family before choosing the value: `A.3.4.P` for change-situation wording; `U.Method` for one semantic way of doing; `MethodRelationStructure@BoundedContext` for exact method-side composition, substitution, iteration, fallback, selector, or method-family relation; `U.MethodDescription` only for one claim-bearing episteme whose exact EntityOfConcern is one admitted `U.Method` and whose claims meet the A.3.2 substantive-description threshold; a separately governed episteme when a method relation structure or another subject is described; a planning cue, schedule representation, or `PlanItem` content while only a planned window is recoverable, and `U.WorkPlan` only when the containing episteme passes A.15.2's present-EntityOfConcern, horizon, `PlanItem`, and substantive-coordination predicate; one dated Work occurrence admitted under `U.Work` for actual performance; a separate episteme for a work record; role assignment or role relation when the phrase says who holds what work-facing position; bounded context when the phrase names local norms, vocabulary, or admissible moves; discipline or `C.36.P` when practice is a field, tradition, canon, or cultural-evolution label; `U.Transformation` or `TransformationFlowStructure` only when that claim is named by value; `C.29` when algebraic or graph notation is the selected lens. | EntityOfConcern side for `Method`, method relation structure, `U.Transformation`, `TransformationFlowStructure`, and Work occurrence; one-method Description episteme for `MethodDescription`; separately governed episteme for other described subjects; planning cue or representation until A.15.2 membership, then a WorkPlan episteme; separate work-record episteme; role-assignment relation; bounded context; discipline or source label; lens use for notation | Kernel for admitted kinds; Context for occurrences and records; lens or register when representation is current | "Industrial process" as **line role** -> model system plus `...Role`; chemistry enters `U.Transformation`, `U.Dynamics`, or `Method` only after the claim is recovered; "practice" is not a root kind, and procedural, planning, or document form establishes neither `U.Method`, `U.MethodDescription`, nor `U.WorkPlan`. |
 | **L-FUNC** | *function*, *functional*, *functionality*, *effect* | Apply `A.6.F` first when kind or relation is hidden. Possible recovered values include `U.Capability`, `U.PromiseContent`, `U.Method`, one dated Work occurrence admitted under `U.Work`, mathematical function or operator under `C.29`, and functional-architecture or architecture-to-`TransformationFlowStructure` relation under `C.30`, `C.30.ASV`, or `C.30.TFS-REL`. | EntityOfConcern side for Capability, PromiseContent, Method, Work occurrence, mathematical object, architecture relation, or transformation-flow relation; any record about Work remains a separate Description episteme | Kernel or Context | Never use *function* as a Core kind name or as default architecture meaning. |
-| **L-SERV** | *service* used for team, system, API, ticket, or process | Always unpack to the facet: `U.PromiseContent` (service offering or promise clause), `U.Commitment` (SLA obligation), `U.SpeechAct` (promise or offer act), service access specification, service access point, service delivery system, service delivery method (`U.Method`), or an exact service-delivery Work occurrence admitted under `U.Work` when A.15.1 holds. An access or API episteme is `U.MethodDescription` only when its exact EntityOfConcern is one admitted access method and it makes at least one substantive claim about that method; it becomes a Spec only after a named specification-use gate. A ticket or case record is a separate episteme and is never Work merely by label. | EntityOfConcern side for PromiseContent, Commitment, method, systems, and Work occurrence; one-method Description episteme only after the A.3.2 membership test; separate publication, specification-use, ticket, case-record, and other record objects under their direct owners | Kernel, Context, or Discriminator, per facet | "API = service", "service delivery method = MethodDescription", and "ticket = Work" are inadmissible; name the facet head phrase and direct owner (A.6.8). |
+| **L-SERV** | *service* or access-like wording used for provision, a team, software process, deployed component, endpoint, application, host, cluster, access point, offering, ticket, case, Method, or Work | Apply this row only when the wording occurs in a relied-on FPF claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next route. Bare *service* has no default system reading: ordinary wording may name service-provision Work, a Method, PromiseContent, participation, or another direct claim, while software wording may be metonymic for an exact process, deployed component, endpoint, application, host, or cluster. E.10 routes the hidden choice to `A.6.P:4.11a`; A.6.P and the resulting owner decide it. Quoted, historical, illustrative, or harmless prose remains outside. | Carry the original wording and relied-on use to `A.6.P:4.11a`. The recovered owner supplies the EntityOfConcern/Description-episteme boundary and any specification-use gate. Enter `A.1.SCR` only after A.6.P has named an exact bearer claim and the decision depends on systemhood; E.10 supplies neither classification nor a new kind. | Keep the source token's current register and class until the direct owner recovers the claim; no TokenClass choice admits a kind. | Ask what *stopped*, what is *provided*, *how* it is provided, or which exact bearer must be *restarted*. Do not normalize *service* to server/system, Method, Work, PromiseContent, permission, or fulfilment. If the concrete subject, relation, or receiving use still cannot be named, stop the relied-on use. Return `missing-governor[...]` through A.6.RCD only after exact participants, the needed predicate sentence, and receiving use are named but no current pattern supplies the predicate. |
 | **L-SLA** | *SLA* or *service level agreement* used for SLO, contract, or document | Unpack: (i) SLOs or acceptance thresholds -> `U.PromiseContent.acceptanceSpec`; (ii) accountable obligation or penalty -> `U.Commitment`; (iii) packaged "the SLA" -> Contract Bundle (A.6.C); (iv) published terms -> `U.SpeechAct` plus clause carrier (`U.Episteme`). Any Work occurrence, measurement, evidence, or acceptance verdict remains separately governed. | EntityOfConcern side for PromiseContent, Commitment, and any actual Work occurrence; Description episteme for clause carriers, specs, measurements, evidence, records, and verdicts | Kernel, Context, or Discriminator | Treat "SLA" as polysemic shorthand; never store it as a single kind name or as a Work record. |
 | **L-SCHED** | *schedule*, *plan*, or *calendar* as execution | Keep a schedule, planned window, or calendar as source wording, a planning cue, or a representation until one exact episteme passes A.15.2's present-EntityOfConcern, horizon, `PlanItem`, and substantive-coordination predicate; only then use `U.WorkPlan`. For actual performance, identify one Work individual independently under A.15.1; telemetry, actuals assertions, and run records remain separate epistemes about obtaining facts. | Source or representation until the gate; Description episteme for an admitted WorkPlan and for records versus world-side Work occurrence | Context | Never infer `U.WorkPlan` from an intent window or schedule label, attach actuals to a plan, treat telemetry as Work, or store actual relations as occurrence fields. |
 | **L-ACT** | *activity*, *action*, *task*, or *step* as type | Recover the governed object before choosing the value: one Work occurrence admitted under `U.Work` for dated execution; a separate work-record episteme when only a record is current; `U.Method` only when the step is independently recovered as a submethod of an admitted composite method; a C.29 representation element or claim-content constituent when the step appears only in code, a diagram, recipe, or procedure; `U.MethodDescription` only when the containing claim-bearing episteme has one admitted `U.Method` as exact EntityOfConcern and passes A.3.2; a planned item remains a planning cue or `PlanItem` content, and its containing episteme is `U.WorkPlan` only after the full A.15.2 membership predicate; `MethodRelationStructure@BoundedContext` when only order, fallback, substitution, or dispatch relation is current. | World-side Work occurrence, separate record episteme, method value, representation or claim-content constituent, one-method Description episteme, planning cue or `PlanItem` inside an admitted WorkPlan, or selected method relation structure | Context | Reserve verbs: *assign* for role assignment, *admit* for role-state relation, *perform* for a Work occurrence, *actuate* for System, and *approve* for the exact speech-act relation; a verb, visible step, or planned-item label defines neither a Work subkind, a MethodDescription, nor a WorkPlan. |
@@ -74126,8 +73894,8 @@ Use these rows as compact diagnostics for common ontology recoveries, not as a r
 | ------------------------------- | --------------------------------------------------------------------------------------- |
 | “the process owner approves” | `ApprovalAssignment_17 : U.RoleAssignment` obtains with `ApprovalSystem : U.System` as holder, `ApproverRole`, `ApprovalRoles-v1`, and `Approval-Scheme-A`. `ApprovalWork_17 : U.Work` is one exact dated approval occurrence, and `ApprovalSystem performed ApprovalWork_17 under ApprovalAssignment_17` (`performedUnderAssignment(ApprovalWork_17, ApprovalAssignment_17)`). Recover any source `Context` value separately. |
 | "the document enforces policy" | `Policy_vN` is a policy or specification-use episteme used in the exact gate, constraint, commitment, or evidence relation named by the direct pattern. If enforcement work is current, `PolicyEnforcementAssignment_17 : U.RoleAssignment` obtains with `EnforcementSystem : U.System` as holder, `PolicyEnforcementRole`, `EnforcementRoles-v1`, and `Enforcement-Scheme-A`; `PolicyEnforcementWork_17 : U.Work` is one exact dated occurrence, and `EnforcementSystem performed PolicyEnforcementWork_17 under PolicyEnforcementAssignment_17` through F.6. The cited observations separately support the evaluation. |
-| “our service runs nightly jobs” | `NightOpsAssignment_17 : U.RoleAssignment` obtains with `SchedulerSystem : U.System` as holder, `OperatorRole`, `NightOpsRoles-v1`, and `NightOps-Scheme-A`; `NightlyBatchWork_17 : U.Work` is one exact dated occurrence, and `SchedulerSystem performed NightlyBatchWork_17 under NightOpsAssignment_17` through F.6. `BatchProcessingPromiseContent` separately states the promised result and acceptance condition. |
-| "the API is the service" | `API_Access_Method : U.Method` names the exact access method. `API_Access_Description` is `U.MethodDescription` only when its exact EntityOfConcern is that method and its claim content substantively describes it; any API publication form and carrier remain separate. The subject-owned **promise content** states what service result is promised and how it is accepted. |
+| “our service runs nightly jobs” | Apply `L-SERV` and A.6.P:4.11a first. If the sentence means one dated service-provision occurrence, recover that `U.Work`. If it instead asserts that an exact scheduler bearer performs the jobs, use `SchedulerSystem : U.System` only after independent A.1 recognition; add `NightOpsAssignment_17 : U.RoleAssignment` only when its holder, role, taxonomy, scheme, and window are current, then state `NightlyBatchWork_17` and `performedUnderAssignment(...)`. `BatchProcessingPromiseContent` separately states any promised result and acceptance condition. The word *service* establishes none of these branches. |
+| "the API is the service" | Apply `L-SERV` and A.6.P:4.11a. A reusable way of access may be `API_Access_Method : U.Method`; a claim-bearing interface specification is an episteme and becomes `U.MethodDescription` only under A.3.2; an addressable endpoint is a separate bearer and enters A.1.SCR only for a system-dependent claim. Any API publication form/carrier remains separate, and **promise content** states the promised result and acceptance criteria. The source wording chooses none of these by itself. |
 | “capability assigned to team Y” | `TeamYAssignment_17 : U.RoleAssignment` obtains with `TeamY : U.System` as holder, `NamedRole`, `TeamYRoles-v1`, and `TeamY-RoleScheme-A`; recover source `ContextY` separately. `TeamY` separately has Capability C within envelope E; neither the role nor the assignment is the capability. |
 | “process health green”          | Apply `A.19.SPR`: name the bearer, state frame, value `green`, criteria or evidence, admissible use, and change condition; the color alone does not establish health or acceptance. |
 | “function of component A fails” | Apply `A.6.F`. If the recovered claim is performed behavior, `ComponentAServiceAssignment_17 : U.RoleAssignment` obtains with `ComponentAServiceSystem : U.System` as holder, `ServiceOperatorRole`, `ComponentAServiceRoles-v1`, and `ComponentA-ServiceScheme-A`; `ComponentAServiceWork_17 : U.Work` is one exact dated occurrence, and `ComponentAServiceSystem performed ComponentAServiceWork_17 under ComponentAServiceAssignment_17` through F.6. The evaluation result separately records failed acceptance on the cited observations. |
