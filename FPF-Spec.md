@@ -106,7 +106,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | A.7.CP | **Constructive-Premise Compact and Reasoning-Basis Use** | Stable | *Keywords:* constructive-premise claim, dated reasoning Work, exact receiving claim or result, adopted premise or conditional assumption, ClaimUsedAsReasoningBasisRelation@Context, selective reopen. *Queries:* "Which exact compact claim did this actual reasoning Work use for this exact result?", "Which other result from the same Work remains unaffected if that premise changes?" | **Support owner consumed by:** A.7.1, A.7.2. Not a parent method, performer, work plan, catalogue-reading episode, public prerequisite, or twelve-kind taxonomy. |
 | A.8 | **Universal Core Principle** | Stable | *Keywords:* universality, transdisciplinary, domain-agnostic, kernel-level U-kind admission. *Queries:* "How does FPF test whether a U-kind belongs in the universal core?" | **Builds on:** E.24.UK, A.11, C.3, F.8, F.18. **Constrains:** kernel-level durable U-kind candidates. |
 | A.9 | **Cross-Scale Consistency (C-3)** | Stable | *Keywords:* composition, aggregation, holarchy, invariants, roll-up. *Queries:* "How do rules compose across different scales?", "How to aggregate metrics safely?" | **Builds on:** A.1, A.8. **Prerequisite for:** B.1. |
-| A.10 | **Evidence Graph Referring (C-4)** | Stable | *Keywords:* evidence, traceability, provenance, evidence carrier, claim support, authority-reliance evidence path, status register, register excerpt, generated-explanation source support, exact authority reference, evidence for permission result versus commitment or issuing act, probe/distributed/export/causal evidence, SCR/RSCR. *Queries:* "How are claims supported by evidence?", "When does a generated explanation become source-backed evidence rather than approval or authorization?", "How do I keep evidence carriers separate from the state or deontic result they report?", "When is a credential, pass, badge, or status display only an excerpt of a governing register entry or source `U.EpistemePublication`?" | **Builds on:** A.1. **Coordinates with:** A.6, A.15, A.2.8, A.2.8.PER, A.2.9, B.3, E.17.EFP, A.20, A.21, C.16, F.9, C.26.1, C.26.2, C.26.3, C.28. |
+| A.10 | **Evidence Graph Referring (C-4)** | Stable | *Keywords:* relied-on claim, bounded use, claim/result episteme, source publication, carrier, dated work, direct relation, evidence-provenance path, currentness, rival explanation, `RelianceDisposition`, unsupported overread, actual-use relation. *Queries:* "What exact claim and bounded use does this source, carrier, credential, dashboard, generated explanation, or review note support?", "How do I recover sources, carriers, work, local result, result episteme, provenance, currentness, bounded reliance, and actual use without letting a path edge create facts?", "When should first-use classification stay in A.2.4, representation go to C.29, or assurance go to B.3?" | **Builds on:** C.2.1, E.17, A.15.1, A.6.1; A.15.PROD when inception is current. **Coordinates with:** A.2.4, G.11, C.29, B.3, C.16, C.28, A.19, G.4, C.11, A.21. |
 | A.11 | **Ontological Parsimony** | Stable | *Keywords:* parsimony, composition, non-redundancy, kernel growth, U-kind admission. *Queries:* "How does FPF avoid adding redundant core concepts?", "When should a candidate be expressed by slots, relations, records, forms, lenses, or an existing root?" | **Builds on:** E.24.UK, A.8, F.8, F.18. **Constrains:** new core-concept and durable U-kind proposals. |
 | A.12 | **Acting-Side Externalization and Reflexive Split** | Stable | Separate one exact continuing changed subject from one exact entity proposed for the acting side. Keep A.1 recognition, same-entity systemhood, causal or interaction participation, Work-facing role assignment, A.3.4 transformation, Method, Work, evidence, boundary crossing, and parthood under their direct owners. For a self-action claim, identify two exact entity parts or subsystems of one containing holon; for a document case, choose carrier change, episteme edition, or relation-occurrence change before filling singular positions. *Queries:* "Which exact referent continues as the changed subject?", "Which exact entity occupies the acting side, and has A.1 recognized it as a system?", "Which participation, assignment, transformation, Work, evidence, crossing, or part relation independently obtains?", "Does a qualifier change episteme identity, claim scope, bounded model use, or another directly governed fact?" | **Builds on:** A.1, A.2.1, A.2.7, A.3.4. **Coordinates with:** A.1.1, A.2.6, A.6.RCD, A.7, A.10, A.14, C.13, A.15, A.15.1, F.6, C.2.1, E.17, E.24.PUB, and B.2.5. |
 | A.13 | **The Agential Role & Agency Spectrum** | Stable | *Keywords:* agency as role, agency spectrum, contextual role assignment, autonomy grading, substrate-neutral autonomy. *Queries:* "How does FPF model agency without minting a root agent kind?", "How do I grade autonomy on an evidence-backed spectrum?" | **Builds on:** A.2, A.2.1, A.12. **Informs:** C.9 Agency Characteristic Profile, E.16. |
@@ -153,7 +153,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | B.1.3 | **Γ_epist — Knowledge-Specific Aggregation** | Stable | *Keywords:* knowledge aggregation, epistemic, provenance, trust, KD-CAL. *Queries:* "How to combine epistemes?", "How does trust propagate in FPF?" | **Builds on:** B.1, A.1, C.2. |
 | B.1.4 | **Contextual and Temporal Aggregation** | Stable | Aggregates bounded-context slices, temporal slices, phases, windows, and context-local whole claims without treating context, time, or process wording as generic interaction ontology. | **Builds on:** B.1, A.1.1, A.14, C.27.TA. **Coordinates with:** A.15.1, A.3.4, C.29. |
 | B.1.5 | **Gamma_method - Order-Sensitive Method Composition and Work Enactment** | Stable | *Keywords:* method composition, `methodPartOf`, submethod, order-sensitive method, method relation structure, composite-Method boundary account, typed join, A.6.RCD claim disposition, capability continuity, work enactment, method/work granularity, assurance hooks. *Queries:* "How do I combine methods?", "When is a step a submethod rather than a work part, plan item, or description node?", "Which part Methods stand in `methodPartOf`, and how do other whole-forming claims stop at A.6.RCD's lightest sufficient disposition?", "How do the composite-Method boundary account, typed joins, Gamma_ctx, Gamma_work, and B.3 assurance hooks stay distinct?" | **Builds on:** B.1, B.1.4, A.3.1, A.6.RCD. **Coordinates with:** A.15.1, B.1.6, B.3. |
-| B.1.6 | **Work-Resource Aggregation** | Stable | Aggregates dated work-resource use and work occurrence holarchy while keeping method structure, work plans, resource ledgers, evidence, and mathematical notation with direct owners. | **Builds on:** B.1, A.15.1, A.14. **Coordinates with:** A.3.4, A.15.2, C.29, B.2. |
+| B.1.6 | **Work-Resource Aggregation** | Stable | *Keywords:* work-resource aggregation, resource Characteristic, C.16 measurement work/result episteme, typed input, Scale/Unit, dated work set, work parthood/phase/overlap, edition-pinned aggregation policy, allocation/deduplication, aggregation work, typed aggregation result, uncertainty, provenance. *Queries:* "How do I aggregate measured resource use over an exact dated work set without double counting shared stocks, people, meters, tools, data, or time?", "Which measurement results, work/overlap relations, policy edition, actual aggregation work, typed result, result episteme, and provenance must remain separately recoverable?", "When is a ledger, plan, phase label, method, or dashboard not an obtained work-resource aggregation?" | **Builds on:** A.15.1, A.6.1, C.2.1, C.16. **Coordinates with:** A.3.1, A.3.2, A.15.2, A.15.5, B.1.4, C.27, A.1, B.1, A.14, C.13, A.3.4, A.10, G.6, G.11, C.29, E.17, and the direct comparison, assurance, transformation, reidentification, or decision owner. |
 | B.2 | **Meta-Holon Transition — Whole Reidentification** | Stable | Decide whether the exact existing whole still carries the current subject claim or one exact new whole must be identified. Recover the trigger profile, direct facts that challenge the existing explanation, the proposed new whole, its already admitted public kind, complete A.1 and kind-specific basis, whole-reidentification claim, evidence, currentness, reliance, and blocked overread without treating a record, metric, transformation, or interaction as the new whole. *Queries:* "Which exact existing whole currently explains the claim?", "Which separately governed facts defeat that explanation?", "What exact new whole and admitted kind are proposed?", "Does the complete recognition and reidentification basis pass, fail, or remain unknown?" | **Builds on:** A.1, A.14, B.1, C.13. **Coordinates with:** B.1.2, B.2.P, B.2.2, B.2.3, B.2.4, B.2.5, A.12, A.3.4, A.15.1, C.16, C.29, C.30.ILC, C.2.1, and E.24.UK. |
 | B.2.P | **Emergence and MHT Precision Restoration** | Stable | Repairs emergence, synergy, higher-level property, MHT, MET, MFT, metric mirage, and collection words entangled with whole-reidentification by recovering the claim kind first. | **Builds on:** E.10, E.10.ARCH, B.2, A.14, C.13, B.3.5. **Coordinates with:** B.2.2, B.2.3, B.2.4, C.16, A.2.2, A.6.F, A.3.4, C.30.ILC. |
 | B.2.2 | **Meta-System Transition — System Specialization of MHT** | Stable | Specialize B.2 when its one exact proposed new whole must be recognized under the already admitted U.System kind. Apply the complete A.1 construction test and direct system criterion to that same individual; keep delimitation, objective, coordination, capability, role, Method, Work, transformation, functioning, architecture, evidence, assurance, and time claims under their direct owners, and re-base component evidence rather than transferring it by label. *Queries:* "Which exact new whole did B.2 identify?", "Does that same individual pass complete A.1 and the direct U.System criterion?", "Which additional result-system claims independently obtain?", "Which component evidence remains applicable to the recognized result system?" | **Builds on:** B.2, A.1, B.1.2, A.14, C.13. **Coordinates with:** A.12, A.3.4, A.15, A.15.1, A.2.1, A.2.2, A.6.F, A.10, B.3, B.3.5, B.2.4, B.2.5, C.16, C.27, C.30, A.22, and E.24.UK. |
@@ -207,7 +207,7 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | C.13 | **Constructional Mereology (Compose‑CAL)** | Stable | *Keywords:* mereology, part-whole, composition, sum, set, slice, construction account. *Queries:* "How can I show, without creating it by notation, how already identified constituents and relations assemble a whole, form a collection, or distinguish an aspect?", "What is Compose-CAL?". | **Builds on:** A.14 and direct part-relation patterns. **Coordinates with:** C.2.1. **Is used by:** A.1, B.3.5, and subject patterns needing a compact construction account. |
 | **Cluster C.IV – Composite & Macro‑Scale** | | | | |
 | C.14 | **System-of-Systems and Infrastructure Calculus (M-Sys-CAL)** | Planned | *Keywords:* system-of-systems, infrastructure, inter-system dependency, service network, infrastructure boundary, operational coupling. *Queries:* "How to model a complex infrastructure such as a power grid?", "Which cross-system dependency changes the claim?", "When is this a system-of-systems rather than one system?" | **Builds on:** C.1, B.2.2, A.22, C.30, B.1.6. **Coordinates with:** C.30.ILC, C.5, D.2, G.6, B.3. |
-| C.16 | **Measurement & Metrics Characterization (MM‑CHR)** | Stable | *Keywords:* measurement, measurement template, `U.DHCMethod(Ref)`, `U.Measure`, `U.Unit`, `U.EvidenceStub`, polarity, direct comparability, scoring method disclosure, probe-changing-state, shared-frame check, CSLC. *Queries:* "How do I define a measurement template in FPF?", "When is a metric a passive read and when does it change the state?", "How do EvidenceStubs support measurement claims?" | **Builds on:** A.17, A.18. **Coordinates with:** A.10, B.3, C.26, C.26.1. **Is a prerequisite for:** All CHR patterns and any pattern that issues typed measures/scores. |
+| C.16 | **Measurement & Metrics Characterization (MM‑CHR)** | Stable | *Keywords:* measurand, measurement subject, Characteristic, Scale, Level/Coordinate, Unit, polarity, method, model, calibration, dated measurement work, actual bindings, input/output quantities, uncertainty, measurement result, C.2.1 result episteme, comparability, provenance, bounded later use. *Queries:* "How do I recover a complete measurement chain from a reading, score, rating, sensor indication, dashboard value, or claimed comparison?", "How do I distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision?", "When should ambiguous measurement wording go first to C.16.P, comparison or selection go to A.19, and provenance go to A.10/G.6?" | **Builds on:** A.17, A.18; uses A.15.1/A.6.1 for dated work and actual bindings and C.2.1 for the result episteme. **Coordinates with:** C.16.P, A.19, C.28, A.10, G.6, G.11, B.3, G.4, C.11, C.29. **Used by:** patterns that consume typed measurement-result epistemes, including G.4 and B.1.6. |
 | C.16.P | **Characteristic and Scale Precision Restoration** | Stable | Repairs overloaded characteristic, scale, coordinate, metric, score, indicator, threshold, comparison, and scalar-quality wording before C.16/A.17-A.19/C.25/C.29/E.21 or another governing pattern is applied. | **Builds on:** E.10, E.10.ARCH, A.17, A.18, C.16, A.19, C.25, C.29, E.21, F.18, A.6.P. **Coordinates with:** C.16.Q, A.19.ECS, evidence, assurance, gate, decision, causal-use, benchmark, and publication patterns governing those claims. |
 | C.16.Q | **Quality-Term Precision Restoration** | Stable | Repairs overloaded quality and evaluative-characterization wording by selecting an endpoint-governed evaluative form or a bounded transitional quality-term repair form with declared bearer, evaluation frame, sense family, admissible normal form, and governing pattern. | **Builds on:** E.10, E.10.ARCH, C.16.P, C.16, C.25, E.21, A.17, A.18, A.19, A.7, C.2.1, E.8, F.9, F.18. **Coordinates with:** A.6.P, A.6.A, A.16, B.4.1, B.5.2.0, A.10, B.3, F.9.1. |
 | C.17 | **Creativity‑CHR — Characterising Generative Novelty & Value** | Stable | *Keywords:* Creativity-CHR, Novelty@context, Use-Value and ValueGain, Surprise, ConstraintFit, Diversity_P, Originality, ResourceEfficiency, MM-CHR measurement templates, ReferenceBase, evidence, portfolio composition. *Queries:* "How do I make a creativity claim measurable and evidence-bound?", "Which characteristics distinguish novelty, value, surprise, constraint fit, diversity, originality, and resource efficiency?", "How do creative outputs compose from individuals to portfolios?" | **Builds on:** C.16, A.17, A.18, A.19. **Coordinates with:** B.5.2.1, C.18, C.19, C.9, B.3, B.4, F.5/F.18. |
@@ -376,9 +376,9 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | G.1 | **CG-Frame-Ready Generator** | Stable | *Keywords:* generator chassis, generator, selector, and set-result scaffold, six-card kit (M1-M6), `CGKitId` manifest, `SoTA_SetId`, `VariantPoolId`, `ShortlistId`, `CGFrameLibraryId`, `RefreshReadinessCardId`, set-return selection, set-result outcome, UTS/Name Cards, RSCR linkage surfaces, edition pins, shipping and refresh boundaries. *Queries:* "How do I author a reusable CG-Frame generator kit?", "What belongs in the six-card chassis M1-M6?", "How do G.2 harvesting, G.5 set-return selection, G.10 shipping, and G.11 refresh connect without becoming one method spec?" | **Builds on:** G.Core, E.8, E.10, E.19. **Uses:** A.10, A.15.3, A.19 (CN-Spec), G.0 (CG-Spec), G.2, G.3, G.4, G.5, G.10, G.11; (via Extensions) C.17, C.18, C.19. **Produces:** `CGKitId` plus reusable CG-Frame kit or chassis, set-result scaffold, and linkage surfaces (UTS and RSCR ready). |
 | G.2 | **SoTA Harvester & Synthesis** | Stable | *Keywords:* SoTA harvest, synthesis, SoTA Synthesis Pack@CG-Frame, SoTAPaletteDescription, Tradition, TraditionAtlasView, DeclaredSubstrateAtlasView, TypedSetViews, BridgeMatrix, GammaEpistSynthId, FlowRecord, palette-first. *Queries:* "How does FPF harvest and synthesize SoTA for a CG-Frame?", "When is TraditionAtlasView lawful and when is palette-first or thinner interpretation enough?", "How do competing Traditions stay plural while bridgeable and refreshable?" | **Builds on:** G.Core, E.8, E.10, E.19, A.10, B.3, F.9, F.17, G.0. **Used by:** G.1, G.3-G.5, G.10, G.11. **Coordinates with:** A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW, A.6.P, G.13. |
 | G.3 | **CHR Authoring: Characteristics - Scales - Levels - Coordinates** | Stable | *Keywords:* CHR authoring, characteristics, scales, levels, coordinates, CSLC lawfulness, typed measurement, CHR Pack@CG-Frame, ReferencePlane, Φ/CL policy pins, edition pins, RSCRTriggerKindId. *Queries:* "How do I author CHR packs (typed characteristics and scales) for a CG-Frame?", "How to keep measurement lawful (CSLC) and refreshable (RSCR)?" | **Builds on:** G.Core, G.2, G.0, A.17–A.19, A.18 (CSLC), C.16 (MM-CHR), A.19.CHR, A.15.3, G.6, F.17. **Prerequisite for:** G.4. **Used by:** G.4, G.5, G.10, G.11. |
-| G.4 | **CAL Authoring: Calculi - Acceptance - Evidence** | Stable | *Keywords:* CAL authoring, operators, acceptance clauses, evidence profiles, tri-state admissibility, Γ-fold hooks, Φ/Ψ/Φ_plane policy pins, admissibility gates, edition pins, RSCRTriggerKindId. *Queries:* "How to author CAL operators and acceptance clauses for CG-Frames?", "How to keep acceptance/evidence wiring auditable and refreshable?" | **Builds on:** G.Core, G.3, G.0, B.3 (Trust), A.18 (CSLC), G.6. **Prerequisite for:** G.5. **Used by:** G.5, G.8–G.10, G.11. |
+| G.4 | **CAL Authoring: Calculi - Acceptance - Evidence** | Stable | *Keywords:* CAL Pack@CG-Frame, Context charter, typed operator card, acceptance clause, legal flow, `pass \| fail \| unknown`, evidence/currentness profile, proof-or-gap row, TaskMap, declaration/runtime boundary, dated `EvaluationWork`, actual A.6.1 bindings, verdict episteme. *Queries:* "How do I author the smallest reusable CAL pack before any candidate is evaluated?", "How do I keep a stored operator, clause, flow, manifest, proof row, or evidence ref separate from dated evaluation work and its verdict?", "Which optional extension governor, entry condition, and stop condition are required before extra method wiring enters?" | **Builds on:** G.Core and E.8. **Uses:** G.1, G.2, G.3, G.0, A.19, A.18, A.6.1, A.15.1, C.2.1, A.10, G.11, B.3, C.11. **Uses conditionally:** G.6 only through `G.4:Ext.EvidenceGraphWiring`; C.18/C.19/C.23 only through their governed extensions. **Used by:** G.5, G.8, G.9, G.10, G.11. |
 | G.5 | **Multi‑Method Dispatcher & MethodFamily Registry** | Stable | *Keywords:* method-family registry, generator-family registry, dispatcher, SelectorOutcomeKind, selected-set publication, set-result outcome, `Shortlist`, `RankedShortlist`, `ShortlistId`, `SpecialistHandoff`, abstain/escalation result, basis pins, no hidden scalar winner. *Queries:* "How does FPF dispatch among rival method families without hidden scalarization?", "How do I publish a Shortlist or RankedShortlist honestly?", "When does G.5 begin after C.11 choice, C.19 pool policy, or C.24 planning?" | **Builds on:** G.Core, G.0, G.2-G.4, G.6. **Coordinates with:** C.11, C.19, C.24, G.9-G.11. |
-| G.6 | **Evidence Graph & Provenance Ledger** | Stable | *Keywords:* EvidenceGraph, provenance, PathId, PathSliceId, lane tags (TA/VA/LA), SCR/RSCR, GateCrossing, CrossingBundle, UTS PathCard, TriggerAliasMap, Γ-fold pinning. *Queries:* "How does FPF trace claims to evidence?", "What is an EvidenceGraph?", "How do PathId/PathSliceId support audit and refresh?" | **Builds on:** G.Core, A.10, B.3, G.4, F.9, F.15, F.17, E.18, A.21, E.10, E.5.2. **Used by:** G.5, G.8, G.9, G.10, G.11. |
+| G.6 | **Evidence Graph & Provenance Ledger** | Stable | *Keywords:* `EvidenceGraph`, `PathId`, `PathSliceId`, `PathCitationRecord`, provenance ledger, exact represented objects, exact direct relations, direct governors, obtaining claims, unresolved gaps, `NotCarried`, source/currentness, representation correspondence, downstream work, actual-use relation, local refresh. *Queries:* "When do several downstream consumers need one shared addressable provenance path rather than a local A.10 account?", "How do I cite exact objects and already obtaining direct relations without letting graph nodes, edges, or ledger rows create facts?", "Which smallest path, slice, node projection, or relation-edge projection reopens when a source, relation, edition, window, bridge, currentness result, or reliance boundary changes?" | **Builds on:** A.10, A.2.4, C.2.1, C.29. **Coordinates with:** A.15.1, A.2.1, A.6.1, A.15.PROD, C.16, G.4, B.1.6, C.28, F.10, F.9, E.18/E.18.2, G.11, B.3, E.17, and every exact result or later-use governor cited by a path. **Used by:** G.5, G.9, G.11 and other selector, benchmark, replication, audit, refresh, assurance, maturity, or release patterns needing stable provenance-path citation. |
 | G.7 | **Cross-Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)** | Stable | *Keywords:* bridge calibration, BridgeCard, BridgeCalibrationTable (BCT), RegressionSet, SentinelSet, BridgeSentinel, Congruence Level (CL/CL^k/CL^plane), loss notes, waivers, ReferencePlane, Φ(CL)/Ψ(CL^k)/Φ_plane policy pins, PathSliceId, GateCrossing, UTS, RSCRTriggerKindId. *Queries:* "How to calibrate cross-Tradition bridges in Part G?", "What is BCT and how is it used?", "How do Bridge Sentinels trigger RSCR?" | **Builds on:** G.Core, G.2, F.9, F.3, F.7, B.3, G.6, E.18, A.21, E.10, C.21. **Prerequisite for:** G.5. **Used by:** G.9–G.11, G.10, G.12. |
 | G.8 | **SoS-LOG Bundles & Maturity Ladders** | Stable | *Keywords:* SoS-LOG, rule ids, admissibility ledger, tri-state `{pass|degrade|abstain}`, maturity ladder (poset/ordinal), selector-facing bundle, evidence path pins (`PathId/PathSliceId`), Bridge/CL/Φ policy pins, set-result/archive telemetry, RSCRTriggerKindId. *Queries:* "How to package SoS-LOG rules for the selector?", "How to publish a maturity ladder as a citable card?", "How to keep thresholds out of LOG and pin evidence paths?" | **Builds on:** G.Core, C.23, G.4, G.6, G.5, C.22. **Coordinates with:** G.7, G.10, G.11, F.8, F.9, E.18, E.10, E.5.2. |
 | G.9 | **Parity / Benchmark Harness** | Stable | *Keywords:* parity harness, benchmark plan, adaptation parity, freshness windows, comparator pins, selected-set outcomes. *Queries:* "How does FPF run reproducible parity with explicit pins and windows?", "How do adaptation-speed and specialization claims become lawful parity questions?" | **Builds on:** G.Core, G.5, G.6, G.4, F.15. **Uses:** G.0, A.19, C.22.1. **Coordinates with:** C.27 when parity compares rate-change, rhythm change, recovery speed, intervention effect, effort budget, or dynamic outcome. |
@@ -4160,13 +4160,13 @@ Use it when the working question is:
 
 **Primary EntityOfConcern.** The `EntityOfConcern` is the evidence-use relation or status-use relation around an episteme. It is not `U.Role`, not `U.RoleAssignment`, and not a system performing work.
 
-**First useful move.** Name the episteme, the bounded context, the claim or status being addressed, and the direct governing pattern that owns the use: usually `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, `E.10.D2`, or a direct gate, source, requirement, definition, explanation, or publication-use pattern.
+**First useful move.** Name the exact episteme and the claim or governed status for which it is being used. Then point outward, when current, to the dated producing/evaluating work and actual bindings, domain-local result and direct governor, C.2.1 result episteme, A.10/G.6 provenance, G.11 currentness, receiving work and direct use relation, local `RelianceDisposition`, and B.3 assurance boundary.
 
 **What goes wrong if missed.** A document starts acting like an agent, a dataset is treated as if it held a work-facing role, a dashboard status becomes permission, a proof becomes global evidence without a theory fence, or a simulation-only counterfactual output is relabelled as realized causal evidence.
 
-**What this buys.** The project can use epistemes as evidence, status bearers, sources, standards, requirements, definitions, explanations, publications, or assurance inputs without creating a second role ontology for epistemes and without losing claim scope, polarity, freshness, provenance, or assurance-use distinctions.
+**What this buys.** A cheap first-use classification that keeps evidence-use and status-use available without turning the episteme into a role holder or letting the classification absorb performed work, a domain result, provenance, currentness, assurance, or receiving reliance.
 
-**Not this pattern when.** If the current claim is a system or acting holon holding a work-facing role, use `A.2` and `A.2.1`. If the current claim is performed work, use `A.15.1`. If the current claim is the full evidence-provenance graph relation, use `A.10`. If the current claim is assurance, use `B.3`. If the current claim is causal use, use `C.28`. If the current claim is a status family or status mapping, use `F.10`. If the current claim is publication-use or source-use, use `E.17` and `E.10.D2` as needed.
+**Not this pattern when.** Use A.15.1/A.6.1 for performed work and actual bindings; the exact formal, measurement, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, role, or decision pattern for its local result; C.2.1 for the result episteme; A.10/G.6 for provenance and bounded reliance; G.11 for currentness; B.3 for assurance; F.10 or another direct status pattern for status; and E.17 for publication. A.2.4 classifies only the episteme's first evidence-use or status-use.
 
 ### A.2.4:2 - Problem
 
@@ -4202,12 +4202,16 @@ Use direct relation patterns instead:
 | Current claim | Use |
 | --- | --- |
 | one episteme is used as evidence for one claim, effect, or bounded reliance use | `A.10`, with the A.2.4 evidence-use SlotKinds below |
-| evidence use contributes to assurance, trust, readiness, compliance, safety, release confidence, `F`, `G`, `R`, or `CL` | `B.3`, consuming A.10 evidence-use relations |
+| evidence use contributes to assurance, trust, readiness, compliance, safety, release confidence, `F`, `G`, `R`, or `CL` | `B.3`, after A.10 source/provenance recovery and bounded-reliance classification; A.2.4 supplies only the first-use classification |
 | the episteme itself is being identified, versioned, or distinguished from publication faces and publication carriers | `C.2.1` |
-| the use is causal, counterfactual, intervention-facing, or simulation-only | `C.28`, with A.10 evidence-provenance graph relation and the A.2.4 evidence-use relation as input |
+| the use is causal, counterfactual, intervention-facing, or simulation-only | `C.28`, with the A.10 descriptive source/provenance path and the A.2.4 first-use classification as inputs |
 | the source says "status", "approved", "current", "valid", "stale", "ready", or another status-like value | `F.10`, A.10, B.3, a gate pattern, or a direct status pattern |
 | the source is a publication face, view, description, source citation, standard, requirement, explanation, or specification-use case | `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, `E.10.D2`, or the direct source-use pattern |
 | a system, person, team, organization, or acting holon holds a role and performs or prepares work | `A.2`, `A.2.1`, `A.15`, `A.15.1`, or `A.15.2` |
+
+#### A.2.4:4.0 - First-use split
+
+An A.2.4 assertion answers only: which episteme is classified for which evidence-use or status-use, in which bounded context, with which scope, polarity or status value, and window. When source production, evaluation, a local result, result episteme, provenance, currentness, receiving work, reliance, or assurance matters, the assertion names the direct object and governor; it does not re-express them as slots of a generic evidence result.
 
 #### A.2.4:4.1 - Evidence-Use Relation Slots
 
@@ -4215,15 +4219,15 @@ An evidence-use relation is a relation around an episteme and a claim or effect.
 
 | SlotKind | ValueKind | Identity and currentness discipline |
 | --- | --- | --- |
-| `EvidenceEpistemeSlot` | `U.Episteme` used as evidence | Identity slot for the evidence-use relation. |
+| `EvidenceEpistemeSlot` | exact `U.Episteme` classified for evidence use | Identity of the classified episteme; not an evidence kind, domain result, or work occurrence. |
 | `EvidenceTargetClaimSlot` | claim or theory statement | Identity slot whenever the relation is claim-bound; a missing value blocks claim-bound evidence use. |
 | `EvidenceClaimGroundingHolonSlot` | `U.Holon` grounding the target claim, mirroring C.2.1 `GroundingHolonSlot` | Identity or currentness-required when changing the grounding holon changes the evidence relation or the claim being evidenced. |
 | `EvidenceClaimScopeSlot` | claim-scope value governed by `B.3`, `A.10`, `C.28`, or a direct evidence pattern | Identity qualifier when changing scope changes the relation; currentness-required when scope changes admissible use. |
 | `EvidencePolaritySlot` | evidential polarity value such as supports, refutes, constrains, or neutral when that value set is current | Identity qualifier when changing polarity changes which evidence-use relation is asserted. |
 | `EvidenceRelevanceWindowSlot` | temporal relevance window, theory-version fence, freshness policy, or decay policy | Identity or currentness-required when time, version, or freshness changes the evidence use; consideration slot for formal uses where the theory-version fence already carries the boundary. |
-| `EvidenceAssuranceUseSlot` | typing, verification, validation, reliance, gate, release, or another assurance-use value governed by `B.3`, `A.10`, or a direct pattern | Identity qualifier only when changing assurance use changes the relation; currentness-required for reliance-bearing use. |
+| `EvidenceAssuranceUseSlot` | the named bounded reliance or assurance-facing use | Records the intended receiving use only; A.10 owns the local disposition and B.3 owns any assurance result. |
 | `EvidenceWeightModelSlot` | weight, confidence, reliability, likelihood, or scoring model reference | Consideration slot; currentness-required when weighted evidence is claimed. |
-| `EvidenceProvenanceConstraintSlot` | provenance constraints over external work, source, publication, method description, proof check, measurement, publication carrier, or evidence-provenance graph relation | Currentness-required when provenance decides admissible use or a rival explanation. |
+| `EvidenceProvenanceConstraintSlot` | refs to the exact A.10/G.6 source and provenance account | Currentness-required when provenance or a rival explanation decides admissible use; the slot does not establish source work, result, or use. |
 
 These SlotKinds are evidence-use relation positions. They are not work-role qualifier slots, not `U.Role` names, and not new U-kinds by themselves.
 
@@ -4234,40 +4238,37 @@ A status-use relation is a relation around a bearer, status value, scope, window
 | SlotKind | ValueKind | Use |
 | --- | --- | --- |
 | `StatusBearerSlot` | episteme, claim, method description, publication, role assignment, work occurrence, clause, gate record, or another governed bearer admitted by the direct pattern | The value whose status is being asserted or read. |
-| `StatusTargetSlot` | claim, method, episteme, publication, work result, clause, bearer, or another governed status target | Required when the status is not simply about the bearer itself. |
+| `StatusTargetSlot` | claim, method, episteme, publication, exact domain result or result episteme, clause, bearer, or another governed status target | Required when the status is not simply about the bearer itself; the direct status/result pattern retains ownership. |
 | `StatusScopeSlot` | bounded-context scope, claim scope, admission scope, requirement scope, or use scope | Currentness-required when scope changes the status assertion. |
 | `StatusValueSlot` | status value governed by `F.10` or a direct pattern | Required for a status assertion. |
-| `StatusWindowSlot` | temporal validity window, freshness policy, status-currentness relation, or source-currentness relation | Currentness-required for time-sensitive status. |
-| `StatusUseSlot` | gate use, assurance use, admission use, source-currentness use, work-plan readiness use, or another direct use | Required when the status is consumed for that use. |
+| `StatusWindowSlot` | temporal validity window, freshness policy, or source/status window | Required for time-sensitive use; G.11 owns an edition-currentness result when currentness is being judged. |
+| `StatusUseSlot` | gate, assurance, admission, source-currentness, work-plan readiness, or another exact receiving use | Identifies the intended use; its receiving work, direct relation, and result remain with their governors. |
 | `StatusProvenanceConstraintSlot` | source order, authority source, publication, proof, verification, register, or provenance constraint | Currentness-required when provenance decides status use. |
 
 These names do not create a generic status ontic. They are repair vocabulary for status-use relations in the current role and relation-slot settlement. Durable status families remain governed by `F.10` or a direct status pattern.
 
 #### A.2.4:4.3 - Minimal Evidence-Use Statement
 
-For ordinary use, write only the fields needed for the current reliance question:
+Write only fields that decide this first use:
 
 ```text
 Episteme evidence-use statement:
   EvidenceEpisteme:
   BoundedContext:
   EvidenceTargetClaim:
-  EvidenceClaimGroundingHolon:
-  EvidenceClaimScope:
-  EvidencePolarity:
-  EvidenceRelevanceWindow:
-  EvidenceAssuranceUse:
-  EvidenceWeightModel:
-  EvidenceProvenanceConstraint:
-  DirectGoverningPattern:
+  ClaimScopeAndPolarity:
+  RelevanceWindow:
+  DirectClaimOrResultGovernor:
+  ProducingOrEvaluatingWorkRef:        # when current
+  DomainLocalResultAndEpistemeRef:     # when current
+  ProvenancePathRef:                   # A.10/G.6 when current
+  CurrentnessRef:                      # G.11 when current
+  ReceivingWorkAndUseRelationRef:      # when actual use is claimed
+  RelianceDispositionRef:              # A.10 when reliance is judged
   UnsupportedOverread:
 ```
 
-`UnsupportedOverread` names the stronger claim not carried by this relation, such as approval, permission, gate passage, performed work, assurance, causal identification, release confidence, or global truth.
-
 #### A.2.4:4.4 - Minimal Status-Use Statement
-
-For status-like cases, write the smallest relation that keeps status from becoming role assignment, gate passage, or assurance by display alone:
 
 ```text
 Episteme status-use statement:
@@ -4276,105 +4277,68 @@ Episteme status-use statement:
   StatusScope:
   StatusValue:
   StatusWindow:
-  StatusUse:
-  StatusProvenanceConstraint:
-  DirectGoverningPattern:
+  DirectStatusGovernor:
+  SourceAndProvenanceRef:
+  CurrentnessRef:                      # G.11 when current
+  ReceivingWorkAndUseRelationRef:      # when actual use is claimed
+  RelianceDispositionRef:              # A.10 when reliance is judged
   UnsupportedOverread:
 ```
 
-If the status is used for a gate, release, work-plan readiness, assurance, or admission decision, apply the direct governing pattern for that use. A.2.4 only keeps the status-use relation typed and prevents role-holder grammar from returning where an episteme-use relation is needed.
+A.2.4 does not fill a missing direct governor with a generic status, evidence, work-result, or evaluation-result relation.
 
-#### A.2.4:4.5 - Formal, Empirical, and Causal Evidence Uses
+#### A.2.4:4.5 - Formal, empirical, causal, and status first uses
 
-Source labels such as `AxiomaticProofRole`, `ObservationEvidenceRole`, `MeasurementEvidenceRole`, `ModelFitEvidenceRole`, `ReplicationEvidenceRole`, `CalibrationEvidenceRole`, and `BenchmarkEvidenceRole` become evidence-use classifications or local evidence-use labels, not `U.Role` values.
+Source labels such as `AxiomaticProofRole`, `ObservationEvidenceRole`, `MeasurementEvidenceRole`, `ModelFitEvidenceRole`, `CalibrationEvidenceRole`, and `BenchmarkEvidenceRole` are first-use classifications, not `U.Role` values or result kinds.
 
-Formal line:
+**Formal line.** Classify the exact proof, derivation, counterexample, theory note, or proof-result episteme against the named theorem and theory-version fence. The formal pattern owns entailment, refutation, malformed-proof, timeout, or checker-failure results; C.2.1 owns the episteme that states the result. Proof-checking work is dated `U.Work` with exact method and bindings. A.2.4 states only how the episteme is used.
 
-* the evidence episteme is a proof, derivation, counterexample, theory note, proof-check result, or formal publication;
-* `EvidenceTargetClaimSlot` names the theorem or theory statement;
-* `EvidenceClaimScopeSlot` names the theory domain or declared scope;
-* `EvidenceRelevanceWindowSlot` usually names a theory-version fence rather than an empirical expiry date;
-* `EvidenceProvenanceConstraintSlot` names proof checks, source publications, theory version, and dependency conditions when current.
+**Empirical and measurement line.** Classify the exact dataset, observation episteme, C.16 measurement-result episteme, replication result, calibration result, benchmark result, or model-fit result episteme against one named claim. The producing or evaluating occurrence remains dated `U.Work` under A.15.1 with direct relations or A.6.1 bindings; each local result remains with C.16 or its exact domain governor; A.10/G.6 retain provenance; G.11 retains currentness.
 
-Empirical line:
+**Causal line.** C.28 owns the causal-use question, estimand, support basis, identification, realizability, verdict, supported use, and unsupported use. A.2.4 may classify the exact C.2.1 episteme used at first contact; evidence wording cannot turn simulation-only output into interventional or realized-counterfactual evidence.
 
-* the evidence episteme is a dataset, observation record, measurement report, replication report, calibration result, benchmark result, model-fit report, or similar episteme;
-* `EvidenceClaimScopeSlot`, `EvidenceRelevanceWindowSlot`, `EvidenceWeightModelSlot`, and `EvidenceProvenanceConstraintSlot` usually decide whether the use is admissible;
-* the producing work remains `U.Work` under `A.15.1`, performed by a system or acting holon under `U.RoleAssignment` where that trace is current.
+**Status line.** A visible status carrier is classified separately from the governed status assertion. F.10 or the exact status pattern owns the status value, G.11 owns edition currentness, and a gate, permission, commitment, role, work, assurance, or decision pattern owns its own result. Display presence establishes none of them.
 
-Causal-use line:
+#### A.2.4:4.6 - Work, result, provenance, and receiving-use boundary
 
-* the causal-use question belongs to `C.28`;
-* A.2.4 keeps the evidence-use relation typed so the episteme is not relabelled by vocabulary alone;
-* exact `C.28` values such as `observationalAssociationSupportBasis`, `interventionalActionSupportBasis`, `realizedCounterfactualSampleSupportBasis`, `identifiedCounterfactualEstimateSupportBasis`, and `simulationOnlyCounterfactualOutputBasis` remain `C.28` values, not role names.
+Keep these objects separately recoverable whenever they are current:
 
-#### A.2.4:4.6 - Work, Source, and Publication Boundary
+1. the classified episteme and the exact claim or status for which it is used;
+2. the dated source-producing or evaluating work, performer, method, resources, and actual direct/A.6.1 bindings;
+3. the domain-local result and its direct governor;
+4. the distinct C.2.1 episteme that states that result;
+5. the A.10/G.6 source and provenance path;
+6. the G.11 currentness result when currentness affects use;
+7. the receiving dated work and exact premise, reference, decision-use, operation-argument, or other direct use relation; and
+8. the local A.10 `RelianceDisposition`, with B.3 entered only for an assurance claim or material reliance.
 
-The producing work and the later evidence use are different relations.
+A.2.4 owns only the evidence-use or status-use classification around the episteme. A publication face, carrier, graph edge, MethodDescription, plan, compatible signature, result field, or stored reference does not establish work, participation, a domain result, actual use, currentness, or assurance.
 
-* A lab run, proof-checking session, calibration run, benchmark run, review, model evaluation, or data extraction can be `U.Work`.
-* The report, proof file, dataset, benchmark table, or publication produced by that work can be a `U.Episteme`.
-* A later project can use that episteme as evidence through an evidence-use relation.
-* A publication face, view, source citation, credential view, dashboard display, or generated explanation can cue evidence or status use, but it does not become the evidence-use relation by itself.
+When episteme inception through work matters, A.15.PROD supplies the local entity-identity inception claim. A.2.4 introduces no generic work-to-episteme or evidence-use result.
 
-When the source-currentness, publication-use, view, explanation, or specification-use question is current, use `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, `E.10.D2`, `A.10`, or the direct source-use pattern before relying on the evidence-use or status-use relation.
+#### A.2.4:4.7 - Shortcut cost and reopen condition
 
-#### A.2.4:4.7 - Shortcut Cost and Reopen Condition
+A.2.4 is the inexpensive first-use classifier. It may identify the episteme, target claim/status, bounded context, scope, polarity/value, window, intended use, direct governor, and unsupported overread. It does not decide the source work, local result, provenance, currentness, assurance, causal support, gate passage, permission, commitment, publication interpretation, or receiving action.
 
-The baseline is the direct governing pattern: full `A.10` for evidence-provenance graph relations, full `B.3` for assurance, full `C.28` for causal use, full `F.10` for status families, full `E.17` or `E.10.D2` for publication-use and description-use cases, and full `A.15.1` when the producing work is current.
-
-A.2.4 is the weaker first-use representation. It saves effort by writing only the relation positions needed to stop role-like source wording from collapsing evidence, status, work, assurance, source, and publication claims. The loss budget is narrow: A.2.4 may name the evidence-use or status-use relation, preserve the named direct governing pattern, and state unsupported overread. It may not decide assurance value, gate passage, causal identification, source-currentness order, publication interpretation, or performed-work truth.
-
-Open the direct governing pattern when the attempted use depends on assurance, safety, release, compliance, causal effect, gate decision, permission, performed work, source freshness, publication use, status currentness, or a contested provenance relation.
+Open only the direct pattern whose fact decides the use: A.15.1/A.6.1 for performed work and bindings, the domain result owner plus C.2.1 for result content, A.10/G.6 for provenance and bounded reliance, G.11 for currentness, B.3 for assurance, C.28 for causal use, F.10 for a status family, or E.17 for publication. Reopen the A.2.4 classification when the episteme, target claim/status, scope, polarity/value, window, or intended use changes.
 
 ### A.2.4:5 - Archetypal Grounding
 
-#### A.2.4:5.1 - Proof Used as Evidence
+#### A.2.4:5.1 - Proof result used as evidence
 
-`Lemma-12.proof` is an episteme used as evidence for `Theorem-12` in `GraphTheory_v3.1`.
+`ProofResult-12` is a C.2.1 episteme stating an entailment under `GraphTheory_v3.1`. Dated checker work, its method, theory and proof bindings, and the formal entailment result are recovered under their direct owners. A.2.4 classifies the episteme as supporting `Theorem-12` inside the theory-version fence. A.10 records source/provenance; later review work uses the episteme through an exact premise relation. Timeout or checker failure would remain distinct from refutation.
 
-The evidence-use relation names:
+#### A.2.4:5.2 - Measurement result used in acceptance
 
-* `EvidenceEpistemeSlot = Lemma-12.proof`;
-* `EvidenceTargetClaimSlot = Theorem-12`;
-* `EvidenceClaimScopeSlot = finite DAGs inside GraphTheory_v3.1`;
-* `EvidencePolaritySlot = supports` or an entailment-specific polarity when the local value set declares one;
-* `EvidenceRelevanceWindowSlot = theory-version fence GraphTheory_v3.1`;
-* `EvidenceAssuranceUseSlot = verification use`;
-* `EvidenceProvenanceConstraintSlot = proof publication, proof-check result, dependency list, and theory version`.
+`PressureResult-E` is the C.16 measurement-result episteme for gas pressure at port P. It states the measurand, Characteristic, Scale, value, uncertainty, model, calibration basis, time stance, and dated measurement work. A.2.4 classifies it as evidence used for the exact pressure-limit claim. Separate evaluation work applies the G.4 clause through A.6.1 bindings and obtains `unknown`; a different C.2.1 episteme states that verdict. A.10/G.6 preserve provenance, G.11 currentness, and later C.11 decision work relies on the verdict episteme. Raw detector output, indication, pressure state, measurement result, verdict, and decision remain distinct.
 
-No episteme holds `AxiomaticProofRole`. The proof episteme is used in a claim-bound evidence-use relation.
+#### A.2.4:5.3 - Dashboard status cell
 
-#### A.2.4:5.2 - Calibration Dataset Used as Evidence
+A release dashboard displays `Ready`. A.2.4 may classify the cell as a status-use carrier for one named status assertion. The source register, scope, window, status value, G.11 currentness, and provenance must be recoverable. A.21 still owns any gate decision, C.11 any release decision, A.2.8.PER any permission, A.15.1 any performed work, and B.3 any assurance claim. A copied or stale cell establishes none of them.
 
-`Trial-R3.csv` is an episteme used as evidence for `Sensor S accuracy +/-0.3 C in [0,70] C under lab conditions L`.
+#### A.2.4:5.4 - Simulation-only output
 
-The evidence-use relation names the claim scope, polarity, relevance window, weight model, producing work runs, method description, measurement traceability, and freshness policy. If a later assurance claim is made, `B.3` consumes this relation. If the calibration run itself is being discussed, use `A.15.1` for the work occurrence.
-
-#### A.2.4:5.3 - Dashboard Status Cell
-
-A release dashboard shows `Ready`.
-
-That visible cell can be:
-
-* a status cue;
-* a status assertion if the source, status value, scope, window, and provenance constraints are recoverable;
-* evidence for a gate or release claim only when `A.10` and the gate pattern recover the source relation;
-* no evidence-use relation if it is stale, copied, unauthenticated, or disconnected from the decision source.
-
-It is not a status role held by the dashboard episteme.
-
-#### A.2.4:5.4 - Standard Used as Requirement or Evidence
-
-An ISO/IEC/IEEE standard clause can be an episteme used as a requirement source, definition source, status source, or evidence source depending on the current claim.
-
-Do not write "the standard has a normative role" as live FPF ontology. Recover the relation governed by the current claim: standard-use, requirement-use, definition-use, source-use, evidence-use, status-use, or assurance-use.
-
-#### A.2.4:5.5 - Simulation-Only Counterfactual Output
-
-A simulation output mentions a counterfactual. That output may be an episteme used in an evidence-use relation. The causal-use class still belongs to `C.28`.
-
-If the current `C.28` value is `simulationOnlyCounterfactualOutputBasis`, the evidence-use relation cannot be relabelled as `realizedCounterfactualSampleSupportBasis` or `interventionalActionSupportBasis` by evidence wording, validation wording, or role wording alone.
+A simulation-output episteme is classified for one bounded C.28 claim. C.28 retains `simulationOnlyCounterfactualOutputBasis`, model assumptions, validation basis, causal-use verdict, supported use, and unsupported use. A.2.4 cannot relabel the episteme as realized-counterfactual or interventional evidence; producing simulation work, local simulator result, result episteme, provenance, and later reliance remain separate.
 
 ### A.2.4:6 - Bias-Annotation
 
@@ -4393,18 +4357,18 @@ The repair is to recover the episteme first, then recover the evidence-use, stat
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-A2.4-1` Episteme boundary | The evidence or status bearer is identified as `U.Episteme`, publication face, claim, status bearer, or another direct-pattern bearer; no episteme is placed in `U.RoleAssignment` merely because it is used. |
-| `CC-A2.4-2` Target relation | Evidence use names the target claim or effect when claim-bound; status use names the status bearer, status value, and target when needed. |
-| `CC-A2.4-3` Grounding and scope | Claim grounding holon, claim scope, status scope, or use scope is named when changing it would change the relation or admissible use. |
-| `CC-A2.4-4` Polarity and value | Evidence polarity or status value is explicit when the use depends on it. |
-| `CC-A2.4-5` Time and freshness | Relevance window, theory-version fence, freshness policy, status window, or source-currentness relation is explicit when the use is time-sensitive. |
-| `CC-A2.4-6` Provenance | External producing work, source, publication, proof check, measurement, method description, register, or evidence-provenance relation is named when it decides admissible use. |
-| `CC-A2.4-7` Assurance boundary | Assurance, readiness, safety, compliance, release confidence, trust, `F`, `G`, `R`, or `CL` claims go to `B.3`; A.2.4 only supplies typed evidence-use or status-use relation positions. |
-| `CC-A2.4-8` Causal boundary | Causal-use and counterfactual claims go to `C.28`; A.2.4 does not mint causal evidence kinds. |
-| `CC-A2.4-9` Work boundary | The producing work remains `U.Work`; the episteme use remains evidence-use or status-use. |
-| `CC-A2.4-10` Publication boundary | Publication face, source citation, generated explanation, credential view, or dashboard display is not treated as evidence-use or status-use until the relation is recoverable. |
-| `CC-A2.4-11` No evidence/status role ontology drift | Live prose does not teach `U.EvidenceRole`, status role for epistemes, episteme role holder, or evidence-role assignment through `U.RoleAssignment`. |
-| `CC-A2.4-12` Direct governing pattern | The statement names the direct pattern that owns the current use: `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, `E.10.D2`, or another governing pattern named by value. |
+| `CC-A2.4-1` First-use object | One exact episteme and one target claim or governed status assertion are named. |
+| `CC-A2.4-2` Admitted job | The statement is only an evidence-use or status-use classification; no `U.EvidenceRole`, episteme role-holder, or generic result kind is created. |
+| `CC-A2.4-3` Scope | Bounded context, grounding holon, claim/status scope, polarity or value, and relevance/status window are explicit when they change the use. |
+| `CC-A2.4-4` Work | Any source-producing, measurement, proof-checking, evaluation, transformation, or receiving work is dated `U.Work` with role assignment, method, and direct/A.6.1 bindings. |
+| `CC-A2.4-5` Local result | The domain-local result points to its exact formal, measurement, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, role, or decision governor. |
+| `CC-A2.4-6` Result episteme | The C.2.1 episteme that states the local result remains distinct from that result, carrier, and work. |
+| `CC-A2.4-7` Provenance/currentness | A.10/G.6 own source recovery and provenance; G.11 owns currentness when it affects use. |
+| `CC-A2.4-8` Receiving use | The later dated work and exact premise/reference/decision-use/operation-argument relation are named; citation or availability does not establish actual use. |
+| `CC-A2.4-9` Reliance/assurance | A.10 owns the bounded `RelianceDisposition`; B.3 opens only for an assurance claim or material reliance. |
+| `CC-A2.4-10` Publication/display | Publication face, generated explanation, credential view, evidence profile, ledger edge, or dashboard cell does not establish status, result, work, gate, permission, or decision by presence. |
+| `CC-A2.4-11` Causal boundary | C.28 owns causal-support classes and verdicts; source wording cannot promote simulation-only or observational evidence. |
+| `CC-A2.4-12` Unsupported overread | The stronger claim not carried by this first-use classification and its reopen condition are stated. |
 
 ### A.2.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -4415,7 +4379,7 @@ The repair is to recover the episteme first, then recover the evidence-use, stat
 | "The standard has normative role." | Role word hides standard-use, requirement-use, source-use, or publication-use. | Recover the relation governed by the current claim and apply `E.10.D2`, `E.17`, `F.10`, or the direct requirement pattern. |
 | "The badge is current, so release is allowed." | Status display becomes gate passage or permission. | Use status-use relation plus gate or release governing pattern; dashboard display alone is not a decision. |
 | "Simulation output is counterfactual evidence." | Simulation-only output is promoted to realized or interventional causal evidence. | Use `C.28`; keep `simulationOnlyCounterfactualOutputBasis` distinct unless the causal-use pattern admits another value. |
-| "The work run is the evidence role." | Work occurrence and evidence-use relation are collapsed. | Use `A.15.1` for the work occurrence, `C.2.1` for the produced episteme, and `A.10` plus A.2.4 slots for later evidence use. |
+| "The work run is the evidence role." | Work occurrence, local result, result episteme, and later evidence-use are collapsed. | Use A.15.1/A.6.1 for dated work and bindings, the domain pattern for the local result, C.2.1 for its episteme, A.10/G.6 for provenance, and A.2.4 only for first-use classification. |
 
 ### A.2.4:9 - Consequences
 
@@ -4427,31 +4391,33 @@ The payoff is that one episteme can be reused honestly across many claims. Each 
 
 ### A.2.4:10 - Rationale
 
-Evidence-use and status-use are kept as relation positions because an episteme can support, constrain, display, attest, or refresh different claims without becoming a work-facing role holder. This avoids multiplying role kinds for every publication, credential, dataset, proof, status display, source, and explanation use.
+Evidence-use and status-use remain admitted first-use relation positions because one episteme can be classified for different claims or governed statuses without becoming a work-facing role holder. The classification points outward to, and never replaces, performed work, the domain-local result, the C.2.1 result episteme, provenance, currentness, receiving reliance, or assurance.
 
 ### A.2.4:10.1 - SoTA-Echoing
 
-| SoTA line | Adopted or adapted move | FPF consequence |
-| --- | --- | --- |
-| Current digital provenance, content-credential, verifiable-credential, and attestation practice, including C2PA 2.4, W3C Verifiable Credentials 2.0, SLSA Provenance 1.2, and in-toto Statement v1. | Adopt the separation of subject, issuer or producing work, proof or status check, time, verifier or relying context, and claim. Adapt it to FPF `U.Episteme`, `U.Work`, role-assignment, source-currentness, and publication-use distinctions. | A.2.4 uses evidence-use and status-use relation slots instead of an episteme role assignment; credential or provenance display does not become truth, permission, gate passage, or assurance by itself. |
-| Assurance-case and trust-calculus practice separates evidence presence from assurance, safety, readiness, compliance, and release confidence. | Adopt the separation between evidence-use and assurance-use. | A.2.4 supplies relation positions; `B.3` computes or states assurance and names limits, scope, decay, and reopen conditions. |
-| Current causal-inference, target-trial, counterfactual, and simulation-evaluation practice separates observational, interventional, realized-counterfactual, identified-estimate, and simulation-only evidence classes. | Adopt the separation of causal evidence classes; use exact value names from `C.28`. | Causal evidence-use wording cannot relabel simulation-only output as realized or interventional evidence. |
-| Foundational-ontology and relation-slot practice, including gUFO, UFO, and OntoUML role, relator, situation, and high-order type work, separates role-assignment holders, relation positions, status assertions, and object use. | Adopt the anti-collapse principle: a value may fill a relation position without becoming a new kind or role-assignment holder. | `U.RoleAssignment` stays work-facing, while episteme evidence, status, source, publication, requirement, definition, explanation, and assurance uses stay in direct relations. |
+Source qualification was checked against the publishers' current surfaces on 2026-07-30. It remains qualified through 2027-07-30 unless a Recommendation, specification/tag, assurance standard, online causal edition, or adopted foundational-ontology account changes earlier. Only sources that change A.2.4's first-use classifier are decision-governing; other lineage examples remain non-governing.
 
-Refresh this pattern's source use when those provenance, credential, attestation, assurance, causal-use, or foundational-ontology practices change the separation between evidence presence, status display, assurance, provenance, causal class, and role assignment.
+| Exact source and source-use decision | Visible A.2.4 mutation | Rejected overread | Smallest source-change replay |
+| --- | --- | --- | --- |
+| [C2PA Content Credentials 2.4, April 2026](https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html), [W3C Verifiable Credentials Data Model 2.0, Recommendation 15 May 2025](https://www.w3.org/TR/vc-data-model-2.0/), [SLSA 1.2](https://slsa.dev/spec/v1.2/), and [in-toto Attestation Framework 1.2 with `Statement/v1`](https://github.com/in-toto/attestation/blob/main/spec/README.md) — **adapt** their subject, issuer/producer, verifier, proof/status, time, input, and relying-context separations. | `EvidenceProvenanceConstraintSlot`, `StatusProvenanceConstraintSlot`, the dashboard-status case, and `CC-A2.4-7/10` require the exact source/status/proof relation while keeping first-use classification separate from provenance and currentness. | A valid credential, manifest, signature, attestation, SLSA level, or displayed status does not become truth, permission, gate passage, work, result, or assurance. | Reopen only those two provenance-constraint SlotKinds, the dashboard-status case, and `CC-A2.4-7/10` when one adopted source changes subject, status, proof, verifier, or version semantics. |
+| [ISO/IEC/IEEE 15026-2:2022, *Systems and software assurance — Part 2: Assurance case*](https://www.iso.org/standard/80625.html) — **adapt** the separation between cited evidence and the structure/maintenance of an assurance case. | `EvidenceAssuranceUseSlot`, §4.6 object 8, and `CC-A2.4-9` route assurance outward to B.3 after A.10 provenance/reliance recovery. | Evidence presence, a confidence label, or an A.2.4 classification is not an assurance claim, safety result, readiness result, compliance result, or release confidence. | Reopen only `EvidenceAssuranceUseSlot`, §4.6 item 8, the measurement-use case's assurance exit, and `CC-A2.4-9` if the adopted assurance-case structure or maintenance boundary changes. |
+| Hernán and Robins, [*Causal Inference: What If*, 2020 book, online 26 April 2024 edition](https://www.hsph.harvard.edu/miguel-hernan/wp-content/uploads/sites/1268/2024/04/hernanrobins_WhatIf_26apr24.pdf) — **adapt** the explicit separation of observational data, interventions, target-trial questions, counterfactual outcomes/estimands, identification assumptions, and realized results; C.28 retains the actual value set and verdict. | §4.5's causal line, the simulation-only case, and `CC-A2.4-11` prevent first-use wording from promoting observational association or simulation output into interventional or realized-counterfactual evidence. | A causal label, model, target-trial analogy, or simulated counterfactual does not establish intervention, identification, realized outcome, or a causal-use verdict. | Reopen only §4.5's causal line, the simulation-only case, and `CC-A2.4-11` if the adopted evidence-class or target-trial boundary changes. |
+| Guizzardi et al., [*UFO: Unified Foundational Ontology*, Applied Ontology 17(1), 2022](https://doi.org/10.3233/AO-210256) — **adapt** only its distinctions among kinds/types, roles, relators/relations, events, and situations as an anti-collapse comparator. The [gUFO usage specification](https://nemo-ufes.github.io/gufo/overview.html) and Almeida et al., [*gUFO: A Gentle Foundational Ontology for Semantic Web Knowledge Graphs*, 2026 preprint](https://arxiv.org/abs/2603.20948), are watch-only implementation evidence, not additional A.2.4 authority. | §4.0, §4.1/4.2 SlotKind boundaries, and `CC-A2.4-2` keep an episteme in a relation position without making it a new U-kind or a work-facing `U.RoleAssignment` holder. | External `Role`, `Relator`, `Situation`, or OWL class vocabulary does not import a new FPF kind, replace an obtaining direct relation, or authorize episteme role assignment. | Reopen only the §4.0 anti-collapse sentence, the affected SlotKind boundary, the proof-result first-use case, and `CC-A2.4-2` if the adopted role/relation-position distinction changes. |
+
+Source refresh is local: replay the row's named SlotKind or rule, one case, and checklist locus before widening. A changed source cannot by itself alter the domain-local result, work, provenance, currentness, assurance, causal verdict, or role assignment owned by a neighbouring pattern.
 
 ### A.2.4:11 - Relations
 
 * **Builds on:** `A.2` for `U.Role`, `A.2.1` for `U.RoleAssignment`, `A.6.5` for SlotSpec discipline, and `C.2.1` for episteme slot relation and episteme identity.
-* **Coordinates with:** `A.10` for evidence-provenance graph relation; `B.3` for assurance; `C.28` for causal-use evidence classes; `F.10` for status families; `G.6` for evidence graph and provenance ledgers; `E.17`, `E.17.0`, `E.17.2`, and `E.17.EFP` for publication, view, and explanation-use cases; `E.10.D2` for EntityOfConcern, description episteme, and specification-use discipline.
-* **Separates from:** `A.15.1` for producing work; `A.15.2` for planned work; gate patterns for gate passage; `A.2.8` and `A.2.9` for commitments and speech acts; source-currentness patterns for source freshness and source order.
+* **Coordinates with:** `A.10` and `G.6` for descriptive source/provenance paths; `G.11` for currentness; `B.3` for assurance; `C.28` for causal-use results; `F.10` for status families; `C.2.1` for result epistemes; exact domain patterns for local results; and `E.17`/`E.10.D2` for publication, view, explanation, and description-use cases.
+* **Separates from:** `A.15.1`/`A.6.1` for performed work and actual bindings; A.15.PROD for episteme inception when current; gate, permission, commitment, role, measurement, formal, diagnostic, conformance, comparison, selection, acceptance, causal, and decision patterns for their local results; and receiving-work patterns for actual later use.
 * **Precision-restoration owners:** When source wording says "evidence role", "status role", "standard role", or another role-shaped phrase around an episteme, use `A.6.RSIR` for relation-slot or role-like slot recovery and `E.10.ARCH` for ontology-first repair architecture.
 
 ### A.2.4:12 - Lowering, Repair, and Refresh
 
 Lower an attempted A.2.4 use when the episteme is known but the target claim, scope, polarity, status value, time window, or provenance constraints are not recoverable. The lowered result may be source-finding, orientation, an evidence-needed note, a status-source request, or a narrowed reliance use.
 
-Repair the use when a neighboring relation is actually current: performed work, assurance, causal use, gate passage, permission, commitment, publication-use, source-currentness, requirement-use, definition-use, or explanation-use.
+Repair the use when a neighboring object is current: dated work and actual bindings, a domain-local result, its C.2.1 episteme, source/provenance, G.11 currentness, receiving work and direct use, A.10 reliance, B.3 assurance, gate passage, permission, commitment, publication, requirement, definition, or explanation.
 
 Refresh the use when the episteme edition, target claim, grounding holon, claim scope, theory version, relevance window, source-currentness relation, status source, proof check, measurement trace, method description, or assurance-use relation changes.
 
@@ -22621,90 +22587,99 @@ Packaging these insights as one memorisable quintet → **Cognitive Elegance** w
 
 ### A.10:1 - Problem frame
 
-Use this pattern when a claim, metric, model result, dashboard tile, confidence badge, review note, credential, provenance label, quantum-like statement, causal-use statement, or generated explanation starts acting as evidence while the evidence carrier, evidence-producing work, method trace, time window, source-currentness relation, or rival explanation is still implicit.
+Use this pattern when a source, carrier, result episteme, credential, dashboard, provenance label, generated explanation, model card, or review note is being relied on for a named claim or bounded action and the source-to-use account is still implicit.
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is the claim-bound evidence-provenance graph relation: the path in the evidence-provenance graph that links one named claim or effect to concrete carriers, evidence-producing or evidence-interpreting work occurrences, role assignment when current, method trace or work trace, time stance, and admissible evidence use.
+**Primary EntityOfConcern.** The live object is the exact relied-on claim and bounded use. A.10 builds a descriptive evidence-provenance path that represents the already governed sources, carriers, work, result epistemes, provenance relations, currentness, and later-use relations needed to judge that use. The path is not a new world-side relation and its edges establish none of the facts they cite.
 
-**First useful move.** Write the smallest because-graph that can answer: which claim or effect, which carriers, which evidence-producing or evidence-interpreting work occurrence and role assignment when current, which method or work trace, which time window, which evidence relation, and which bounded use?
+**First useful move.** Write: “Work `W_use` relies on claim episteme `E` as a premise for use `U`; `E` states local result `R`; the cited source publications, carriers, work, and direct relations are `S`; currentness is `T`; the bounded A.10 disposition is `D`.” If a field lacks a direct governor, mark that exact gap.
 
-**What goes wrong if missed.** Claims become weightless, dashboards become authority, provenance becomes truth, credentials become permission, generated explanations become evidence, method descriptions get mixed with work traces, and part-whole structure is mistaken for evidence.
+**What goes wrong if missed.** Carrier presence becomes truth, provenance becomes approval, a result record becomes performed work, MethodDescription becomes a run trace, a graph edge becomes an obtaining relation, and a currentness or assurance decision is inferred from display styling.
 
-**What this buys.** One bounded evidence relation that can be replayed, contested, refreshed, narrowed, or used by a neighboring governing pattern without making evidence pretend to be approval, permission, gate passage, performed work, assurance, causal authority, or part-whole structure.
+**What this buys.** A source-to-use account that can be replayed, contested, refreshed, narrowed, or handed to a neighboring governor while keeping the claim, carrier, performed work, local result, result episteme, provenance, currentness, reliance, assurance, and action distinct.
 
-**Ordinary use.** For routine source-finding, orientation, bounded reversible probes, and low-stakes evidence use, keep the evidence relation small: claim, carrier, producer or source-maintenance role assignment, method trace or work trace when relevant, time window, bounded evidence use, unsupported attempted use, and reopen trigger.
+**Not this pattern when.** A.10 does not own measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, work, or decision results. It does not establish representation correspondences. Use each direct pattern for its result, A.15.1/A.6.1 for performed work and actual bindings, C.2.1 for the result episteme, G.11 for currentness, C.29 for representation, and B.3 when an assurance claim or material-reliance threshold is current.
 
-**Reliance-facing use.** Expand the evidence relation only when consequence severity, reuse, contestability, cross-context movement, source-currentness risk, credential reliance, provenance reliance, gate use, release use, assurance use, work use, causal-use claim, or privacy boundary makes the extra field decide the current claim.
+Use A.2.4 first when only the first evidence-use or status-use classification of an episteme is at issue. Enter A.10 when carrier identity, source recovery, provenance, currentness, rival explanations, or bounded reliance must remain replayable.
 
-**Not this pattern when.** Not this pattern when the current claim is authorization, commitment, performed work, gate decision, assurance, causal identification, measurement construction, representation-scheme transition, explanation faithfulness, or source publication use itself. In those cases, use the neighboring governing pattern and let A.10 supply only the evidence-provenance graph relation it needs.
-
-Use `A.2.4` first when the immediate question is only whether an episteme is being used as evidence or status for a claim, before a full evidence-provenance graph relation is needed. A.2.4 keeps episteme evidence-use and status-use relation slots distinct from `U.RoleAssignment`; A.10 then owns the full claim-bound evidence-provenance graph relation when the carrier, producer, method trace, work trace, time window, and provenance relation must be replayable.
-
-Here `path` means a path in the evidence-provenance graph, not a route for actions to follow.
-
+Here `path` means a path in a descriptive evidence/provenance graph, never a route of action or a universal evidence relation.
 
 ### A.10:2 - Problem
 
-Without a uniform evidence-provenance path, models drift into five failure modes:
+Source-backed reasoning fails in recurring ways:
 
-1. **Weightless claims.** Metrics or arguments appear in the model with no link to their **symbol carriers** (files, datasets, lab notebooks, figures).
-2. **Collapsed scopes.** Design-time method specs are silently mixed with run-time traces; results cannot be reproduced because "what was planned" and "what work occurred" are conflated.
-3. **Self-justifying loops.** A claim is used as evidence for itself, or the same work occurrence both produces the target claim and supplies its evidence without a separated evidence-producing or interpreting work occurrence, provenance relation, source-maintenance role assignment, or relying context.
-4. **Source loss during aggregation.** As `Γ` combines parts, some sources fall out; subsequent audit cannot reconstruct why a compound claim was accepted.
-5. **Temporal ambiguity.** Time-series are aggregated without interval coverage or dating source; gaps and overlaps invalidate comparisons and trend claims.
+1. the relied-on claim is not named;
+2. a carrier or publication face is substituted for the claim it represents;
+3. a method description, plan, signature, or stored reference is substituted for actual work and bindings;
+4. a local domain result is replaced by a generic evidence or result field;
+5. provenance, currentness, reliance, assurance, and authorization are collapsed; or
+6. a graph edge is asserted before the direct source, work, production, representation, participation, or use relation is known to obtain.
 
-The business effect is predictable: confidence badges cannot be defended, cross‑scale consistency (A.9) is broken, and iteration slows because every review re‑litigates “where did this come from?”.
+The practical effect is false authority and unreplayable decisions: a badge looks like permission, a dashboard looks like a gate decision, or a model output looks like an accepted conclusion.
 
 ### A.10:3 - Forces
 
-| Force                           | Tension                                                                                                                                           |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Universality vs. evidence-relation cost** | One Standard must fit systems and epistemes ↔ Evidence producers and maintainers need proportionate evidence records.                                                           |
-| **Independent provenance vs. reflexivity** | Evidence needs a separated producer, interpreter, carrier/provenance relation, or source-maintenance role assignment for the target claim ↔ Some systems observe or adapt themselves, so the model must separate the target claim from the evidence-producing work and relying context without pretending that reflexivity is automatically evidence. |
-| **Atemporal vs. temporal**      | Many claims are state‑like ↔ Many others are histories; evidence must respect order and coverage (Γ\_time).                                       |
-| **Rigor vs. cadence**              | Formal proofs and controlled tests raise confidence ↔ Engineering cadence needs lightweight, incremental evidence relations.                                 |
-| **Mereology vs. provenance**    | Part‑whole edges build holarchies ↔ Evidence edges never do; the two graphs must interlock without leaking semantics.                             |
+- **Minimality vs consequence.** Orientation needs a small path; material reliance needs the exact fields that change the decision.
+- **Carrier identity vs claim content.** The same content can appear in several carriers and editions; a carrier can be authentic while the claim is false or stale.
+- **Reusable method vs performed work.** A method describes a repeatable way; actual use requires dated work and exact bindings.
+- **Provenance vs result ownership.** A.10 must make a result traceable without becoming the result's governor.
+- **Graph convenience vs ontic discipline.** A graph can represent many relations compactly but cannot make them obtain.
+- **Contestability vs confidentiality.** Reliance must be challengeable while sensitive carriers may require scoped, redacted, hashed, or role-mediated access.
 
-### A.10:4 - Solution — The Evidence Graph Referring Standard
+### A.10:4 - Solution — recover exact objects before drawing the path
 
-The Standard is a small set of primitives applied uniformly, with **practitioner-first clarity** and **formal connection points** for proof obligations. Its primary EntityOfConcern is the evidence-provenance path for a claim or use: an evidence episteme or evidence record, target claim or target use, publication or carrier relation, provenance relation, evidence-producing or evidence-interpreting work occurrence, producer or source-maintenance role assignment when current, method trace when relevant, time stance, scope, polarity, relevance window, and assurance use. Authority-looking reliance and causal-use evidence are specialized uses of that same evidence-provenance path; they do not redefine `A.10` as a pattern about labels, dashboard wording, or source rhetoric.
+#### A.10:4.1 - Start with the relied-on claim and direct owner
 
-#### A.10:4.1 - Evidence-provenance graph relation
-A **typed, acyclic** evidence-provenance graph relation stays disjoint from mereology. Its nodes and references are typed by their current FPF kind: claim or target use, evidence episteme or evidence record, publication or carrier reference, provenance relation, evidence-producing or evidence-interpreting `U.Work`, `U.RoleAssignment` for producer, interpreter, verifier, or source-maintenance holder when that assignment is current, `U.MethodDescription` or method trace when the evidence depends on method, observation or evaluation record, and relevance window. Edge vocabulary is small and normative: `evidences`, `derivedFrom`, `measuredBy`, `interpretedBy`, `usedCarrier`, `producedByWork`, `maintainedByRoleAssignment`, `happenedBefore` (temporal), etc.
-*Practitioner view:* it is the *“because-graph”*: every claim answers “because of these evidence items and carriers, produced or interpreted by this work under this assignment, using that method where relevant, within this time window.”
+Name the exact C.2.1 episteme whose content is being relied on. Its ClaimGraph states one local result or proposition, subject, interpretation basis, polarity or status when current, and uncertainty or qualification when relevant. The local result remains with its direct governor: C.16 for measurement, C.28 for causal support, A.19 for comparison or selection, G.4 for an acceptance-clause application, A.21 for a gate decision, C.11 for a decision, and the exact formal, diagnostic, conformance, identity, permission, commitment, or role pattern for those results.
 
-#### A.10:4.2 - Evidence relations (two relations, two flavours)
+A carrier, citation, provenance entry, or A.10 classification does not constitute the result episteme or the domain result. When their identity or inception is live, use C.2.1 and A.15.PROD respectively.
 
-* `verifiedBy` — links a claim to **formal** evidence (proof obligations, static guarantees, model‑checking records).
-* `validatedBy` — links a claim to **empirical** evidence (tests, measurements, trials, observations).
-  Both evidence relations terminate in the evidence-provenance graph relation, not in the mereology graph.
+#### A.10:4.2 - Ground source, carrier, publication, and representation
 
-#### A.10:4.3 - Evidence-provenance entries with carrier identity and currentness fields
-When an episteme composition, publication, compilation, dashboard, generated explanation, or assurance use substantively relies on a carrier-backed source episteme publication, evidence carrier, dashboard row, generated explanation, or assurance record, the evidence-provenance path **SHALL** keep an evidence-provenance entry with carrier identity fields and source-currentness relation fields: carrier ref, source `U.Episteme` ref or source `U.EpistemePublication` ref when a source publication carries the claim, evidence episteme ref or evidence record ref when the evidence is project-side, carrier kind, version or edition when relevant, date or relevance window, source-currentness relation or currentness window, provenance relation, and optional part-carrier relation for sub-carriers.
-When a bounded context needs publication-grade reuse, the record is adapted to that context with vocabulary, unit, identifier, and hash discipline while preserving carrier identity and carrier integrity.
-*Why this matters:* it prevents “lost sources” during composition and underwrites reproducibility without mandating any specific tool or preserving one older register name as the governing ontology.
+Recover the exact source episteme or source publication, the carrier or publication face that exposes it, edition/version, bounded claim content, and any copy, extraction, transformation, or publication occurrence between source and use. E.17 governs publication; C.29 governs representation correspondences. The descriptive graph points outward to those independently governed objects and relations.
 
-#### A.10:4.4 - Scope alignment across Role-Method-Work
+Carrier authenticity, integrity, or provenance may support only its named origin, history, build, or transformation claim. It does not imply truth, safety, approval, release, permission, assurance, or work occurrence.
 
-* **Design-time**: **MethodDescription** is the design-time episteme describing U.Method; evidence relations reference what *would* constitute proof or test for that method.
-* **Run-time**: dated U.Work occurrences belong here; traces reference which U.Method they enact and cite the methodDescriptionRef used to identify or constrain it and record happenedBefore.
-  Bridging edges are explicit (“this run trace enacts that method under this method-description source”), so scopes never silently mix.
+#### A.10:4.3 - Separate method, work, participants, and local result
 
-#### A.10:4.5 - Evidence-producing work and relying context
-The work occurrence that produces, measures, interprets, verifies, publishes, or maintains evidence is modelled separately from the target claim or target use that relies on that evidence. If the same system participates on both sides, the evidence-provenance path must still name the distinct work occurrence, role assignment, carrier/provenance relation, relying context, and reopen condition. Reflexive monitoring is admissible only when those relations are explicit; it is not evidence by self-label.
+`U.MethodDescription` is an episteme about one exact `U.Method`. It may state generic participants, parameters, effects, and operating conditions. It has no actual-participant slots and no intrinsic design-time intention, proof criterion, test criterion, or claim that work occurred.
 
-#### A.10:4.6 - Gamma-flavour evidence connection points
+Performed source production, measurement, verification, interpretation, transformation, query, review, publication, or later reliance is one or more dated `U.Work` occurrences. Each occurrence has an occurrence designator, temporal extent, performer through `U.RoleAssignment`, `enactsMethod`, affected or evaluated referent, resources, and actual participants through direct subject relations or A.6.1 operation-application bindings. A compatible signature, plan, description, log schema, or graph node establishes none of those bindings.
 
-* **Γ\_sys (formerly Γ\_core)**: physical properties are evidenced by measurement models, boundary conditions, calibration carriers, and dated observations.
-* **Episteme composition and publication use**: every evidence-provenance node resolves to an evidence-provenance entry with carrier identity and source-currentness fields or to an explicitly named evidence episteme, provenance relation, or source-maintenance relation.
-* **Γ\_method**: order-sensitive composition; at design-time a **Method Instantiation Card (MIC)** states Precedes, Choice, Join, and guards; at run-time traces record `happenedBefore` and point to the `U.Method` they enact and the `methodDescriptionRef` they used.
-* **Γ\_time**: temporal claims state interval coverage; **Monotone Coverage** with no unexplained gaps and no unexplained overlaps is required.
-* **Γ\_work**: resource spending and yield are evidenced by instrumented carriers (meters, logs) and their `methodRef` plus `methodDescriptionRef`; keep **resource rosters** separate from evidence-provenance entries used for carrier identity or source-currentness.
+For every cited result, name its direct governor and its C.2.1 result episteme separately. The provenance path may represent the exact work, participants, produced entities, subject results, result epistemes, and outcomes only after their direct relations are established.
 
-> **Practitioner shortcut:** If you can answer *what carriers, which system, which method, when*, the evidence relation is likely sufficient; if any of the four is missing, it is not.
+#### A.10:4.4 - Build a descriptive evidence-provenance path
+
+The minimum A.10 path records only what the bounded use needs:
+
+| Field | Required content |
+| --- | --- |
+| Relied-on claim | Exact C.2.1 episteme and the local result or proposition it states |
+| Bounded use | Exact later work/action and its premise, reference, decision-use, operation-argument, or other direct use relation |
+| Sources and carriers | Source epistemes/publications, carrier identities, editions, transformations, and direct provenance/citation relations |
+| Work and bindings | Dated producing/interpreting/transforming work, performers, methods, resources, and actual direct/A.6.1 bindings |
+| Result ownership | Each local result's direct governor and its distinct result episteme |
+| Time/currentness | Source and result windows plus G.11 currentness when currentness affects use |
+| Challenge | Principal rival explanation, unsupported attempted use, contest/redress path, and reopen trigger |
+
+Graph nodes retain their admitted kinds. Each edge cites one independently established direct relation; no generic `evidences`, `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, or criterion-participant relation is minted as a fallback. A project may label display edges for navigation, but the label has no ontic force.
+
+#### A.10:4.5 - Classify bounded reliance
+
+The canonical local `RelianceDisposition` member set is exactly: `pass`, `degrade`, `abstain`, `reopen`, `evidence-needed`, `safety-case-required`, and `blocked-current-use`. For ordinary reliance below B.3's material-reliance threshold, use one of the first five or `blocked-current-use` for one named use. `pass` supports only the exact bounded use; `degrade` supports only the named narrower or reversible use. `safety-case-required` only records that the B.3 material-reliance threshold was crossed and routes the user to B.3; it is not an A.10 assurance result. No disposition is claim truth, `CV.Status`, gate decision, selector outcome, approval, permission, release, assurance, or work authorization.
+
+When an assurance claim is made or the material-reliance threshold is met, enter B.3 with the minimum reliance safety assurance record. A.10 continues to supply the exact source and provenance paths but does not issue the assurance result.
+
+#### A.10:4.6 - Currentness, actual use, and graph limits
+
+Source availability and source currentness are distinct. Record issue/effective windows, supersession, revocation, source-order rules, and the G.11 currentness result when a use depends on them.
+
+Actual use requires another dated work occurrence and one exact premise, reference, decision-use, operation-argument, or other direct relation to the result episteme. Storage, indexing, citation, graph membership, visibility, or co-location does not establish performed use.
+
+Part-whole, temporal, production, publication, representation, provenance, participation, and reliance relations remain independently governed. The A.10 graph may cite them together for replay but never substitutes one for another.
 
 #### A.10:4.6a - Authority-reliance use of ordinary A.10 evidence-provenance paths
 
-Use this subsection when an authority-looking case is being used as evidence for a reliance claim. The `A.10` evidence-provenance path is claim-bound: it evidences one named claim or effect for one named work occurrence or reliance use, not "authority" in general. This subsection does not change the A.10 `EntityOfConcern`; it applies the same evidence-provenance graph relation to source-sensitive cases where displays, credentials, copied text, generated text, dashboards, provenance labels, or attestations are being overread. If the work occurrence, gate decision, speech act, commitment, or evidence relation is already recorded in a project-side FPF source, recover and cite that source named by value directly instead of analyzing nearby wording first.
+Use this subsection when an authority-looking carrier is being relied on. The A.10 path represents one named claim, its exact sources and direct relations, and one bounded use; it is not an authority relation. If the work occurrence, gate decision, speech act, commitment, permission, role assignment, status assertion, or other governing relation already exists in a project-side source, recover that object by value and let the graph cite it.
 
 A10-lite is enough for source-finding, orientation, learning, and bounded reversible probes:
 
@@ -22732,7 +22707,7 @@ Expanded fields are collected only insofar as they decide the current reliance q
 
 **Adversarial misuse guard.** Do not let carrier authenticity, provenance, copied approval, generated summary, stale screenshot, credential status view, or dashboard export convert into claim truth or currentness. Treat each as a rival explanation to test against issuer or source-maintenance role assignment, method trace or work trace, time window, and relying context.
 
-**Data-minimization and privacy boundary.** Preserve minimum sufficient evidence relation for the intended reliance use. Use redacted, hashed, scoped, or role-mediated carrier refs when raw evidence would expose personal identity, access tokens, cryptographic proof payloads, tenant identifiers, security logs, incident details, internal release metadata, audit trails, privileged review-role names, sensitive model provenance, or sensitive data provenance. Redaction does not create source relation; it must preserve enough recoverability for the relying context.
+**Data-minimization and privacy boundary.** Preserve the minimum source, provenance, and direct-relation account sufficient for the intended use. Use redacted, hashed, scoped, or role-mediated carrier refs when raw material would expose personal identity, access tokens, cryptographic proof payloads, tenant identifiers, security logs, incident details, internal release metadata, audit trails, privileged review-role names, sensitive model provenance, or sensitive data provenance. Redaction creates no source relation; it must preserve enough recoverability for the relying context.
 
 | Expanded field | When it is needed |
 | --- | --- |
@@ -22764,7 +22739,7 @@ Case repairs:
 | Sensitive evidence-provenance path | Use redacted, hashed, scoped, or role-mediated carrier refs when raw carriers expose secrets, personal data, security-sensitive traces, security-sensitive data, privileged logs, tenant identifiers, or unnecessary identities. Redaction does not create source relation; it must preserve enough recoverability for the relying context. |
 | Pointer or proof-status evidence-provenance path | Use a hash, proof verification result, status verification result, source `U.EpistemePublication` ref, source relation ref, source-currentness relation ref, scoped pointer, disclosure receipt, or role-mediated view instead of copying raw sensitive carriers or payloads when that pointer preserves enough recoverability for the relied-on claim or effect. Do not copy raw secrets, tokens, privileged logs, personal identities, or tenant details merely to make the evidence-provenance path look fuller. |
 
-If the evidence-provenance path is incomplete, A.10 reports evidence-provenance completeness state and source-currentness status, not work or reliance evidence relation for the attempted claim or effect. Possible dispositions include source-finding only, reopen original carrier, request issuer or status verification, refresh dashboard query or API query, mark stale or contested, narrow the attempted P2W class or reliance claim, proceed only with a reversible local probe under an explicit work plan when a work change is being attempted, or block the unsupported work claim or reliance claim.
+If the evidence-provenance path is incomplete, A.10 reports the exact missing source, carrier, work, result-owner, direct relation, or G.11 currentness fact and narrows or blocks only the attempted use. Possible dispositions include source-finding only, reopen original carrier, request issuer or status verification, refresh the source query, mark stale or contested, narrow the attempted P2W class or reliance claim, proceed only with a reversible local probe under an explicit work plan, or block the unsupported use.
 
 **Missing source-relation repair assignment.** If the relying actor cannot recover or verify the source relation, assign the repair to the accountable project-side responsibility assignment: issuer or performer, verifier assignment, status-source relation, evidence-producing work assignment or evidence-producing system, gate-decision source relation, role-assignment source relation, status register entry, boundary claim relation, or source-currentness relation. The A.10 result should name the missing source relation or missing source-bearing record and blocked use rather than making the relying actor reconstruct a relation they cannot issue or verify.
 
@@ -22785,18 +22760,15 @@ Incident-learning fields for evidence and currentness overread: visible carrier 
 
 Contestability and redress relation: when an evidence-provenance path or source-currentness relation affects person or team status, access, responsibility, a compliance relation, or a release decision, the A.10 result should name the disputed claim, evidence carrier, source-maintenance role assignment, verifier assignment, status relation maintainer, freshness relation, revocation relation, privacy-minimized evidence ref, safe interim disposition, and review or redress relation. A disputed display remains contested until the source-order relation or currentness relation is resolved.
 
-**Positive repaired evidence-use statement.** When the source relation is complete, write the smallest source-backed evidence-use statement: named claim or effect, evidence carrier and source-maintenance role assignment, method trace or work trace, time window, currentness, evidence relation, and the named work use or reliance use for which the evidence relation is bounded. The downstream use stays inside that scope, without treating evidence relation as approval, permission, gate passage, work occurrence, or assurance.
+**Positive repaired evidence-use statement.** When the source account is complete, write the smallest bounded statement: named relied-on claim, carrier/source and accountable role assignment, producing or interpreting dated work, method and actual bindings when relevant, direct provenance/citation/currentness relations, exact later work and use relation, `RelianceDisposition`, unsupported attempted use, and reopen condition.
 
-What this does not authorize: `A.10` does not approve, authorize work or reliance, pass a gate, release, create permission, create a commitment, assign a role, record a work occurrence, or raise assurance. It supplies the evidence-provenance path and evidence-use classification that `A.15`, `A.6`, `B.3`, `A.21` gate-decision source relations, `A.20` constraint-validity source relations, `A.2.9` speech-act source relations, `A.2.8` commitment source relations, `A.15.1` work-occurrence source relations, or another `governingPatternRef` or `authoritySourceRef` named by value may consume.
+What this does not authorize: A.10 does not approve, authorize, pass a gate, release, create permission or commitment, assign a role, record work, establish a domain result, assert a representation correspondence, or raise assurance. It supplies source recovery, provenance, and bounded reliance for the exact neighboring objects named by value.
 
 #### A.10:4.6b - Local evidence-use classifier and `RelianceDisposition` for source-bearing carrier or display reliance
 
-Use this subsection when a visible carrier, publication face, source `U.EpistemePublication` ref, source relation ref, or display is being treated as evidence for a claim, act, work occurrence, gate, release, review claim, assurance use, or problem-side P2W use. The first A.10 action is to recover the evidence kind and the bounded evidence use. Broad source words such as `source`, `metric`, `confidence`, `conformant`, `safe`, `ready`, `certified`, `approval`, or `permission` are only recovery prompts; they do not name the evidence relation by themselves.
+Use this subsection when a visible carrier, publication face, source `U.EpistemePublication` ref, source relation ref, or display is being relied on for a named claim or act. First recover the claim kind, its direct governor, the source/provenance path, and the bounded use. Broad words such as `source`, `metric`, `confidence`, `conformant`, `safe`, `ready`, `certified`, `approval`, or `permission` are recovery prompts, not relation names.
 
-This subsection uses a local reliance-use classifier, not a Core evidence-kind ontology. Its practical gain is a smaller next action: recover the evidence relation, name the bounded evidence use and unsupported attempted use, then either stay inside A.10 or apply the governing pattern for the stronger claim being made. It is not a required project review step and does not ask the practitioner to inspect every carrier or display that merely appears source-bearing.
-
-Section role: the first table is an A.10 recognition aid, the `RelianceDisposition` table is a minimum local record aid, and the worked source-overread slices are regression slices and review slices. They are not project checklists, a required sequence, a new evidence ontology, or a general source classifier. Use only the row that answers the attempted evidence use, then stop when the bounded evidence relation, unsupported attempted use, and reopen condition are clear. This local section keeps the attempted use inside the A.10 evidence relation; it does not create an extra SEMIO authority or cross-pattern relation vocabulary.
-
+This is a local reliance-use classifier, not a Core evidence-kind ontology. Use only the row that decides the attempted use. The path represents exact direct relations and the `RelianceDisposition` records one bounded A.10 judgment; neither becomes a general evidence or authority relation.
 Affordability card: orientation or source-finding remains a cue and stops here; bounded reliance states one bounded evidence use, unsupported attempted use, window, and reopen condition; threshold reliance applies the minimum governing pattern only when the B.3 material-reliance threshold is met: behavior, safety, release, compliance, public or protocol behavior, access, resource allocation, people status, team status, operational action, or controlled-object regulation would materially change. Plain wording remains ordinary unless it changes bounded use, source relation, evidence, gate, assurance, work, decision, or neighboring governing-pattern claim.
 
 Cheap stop: if a bounded claim, current carrier, evidence-provenance path, window, bounded evidence use, unsupported attempted use, and reopen trigger are present, and there is no assurance claim, gate relation, work relation, control-bearing relation, release relation, or met B.3 material-reliance threshold, stay in `A.10`. Do not open `B.3`, `A.21`, `B.2.5`, or a broad evidence pack merely because the carrier or display looks official, quantitative, generated, credentialed, or safety-related.
@@ -22887,143 +22859,98 @@ Evidence-provenance path micro-examples:
 | `identifiedCounterfactualEstimateSupportBasis` | causal assumptions, graph proof, calculus proof, available-data regime set, and bound refs -> `CausalIdentificationProfile` -> estimated or bounded counterfactual use with bounded use and unsupported attempted use. |
 | `simulationOnlyCounterfactualOutputBasis` | simulator output -> counterfactual model assumptions -> simulation validation ref -> bounded simulator-output use; validation remains validation and does not convert the path into direct sample evidence or intervention-effect evidence. |
 
-What changes in practice: an evidence-provenance path can show that a carrier evidences a causal-use claim, but it must also show the causal evidence relation value and the relevant `C.28` references when the claim changes from observation to intervention or from intervention to counterfactual comparison.
+What changes in practice: an A.10 path may cite a C.28 causal-support result and its sources, but C.28 still owns the causal-use question, estimand, identification, realizability, and verdict. The path does not create a causal evidence relation by carrying the reference.
 
-What this does not authorize: `A.10` does not identify causal effects, create an estimand, certify target-trial emulation, or decide counterfactual sampling realizability; it stores and makes recoverable the evidence graph path and the `C.28` causal-evidence refs needed by `C.28` and `B.3`.
+What this does not authorize: A.10 does not identify causal effects, create an estimand, certify target-trial emulation, or decide counterfactual sampling realizability. It makes the C.28 result episteme, cited sources, provenance, currentness, bounded reliance, and later-use relation recoverable.
 
 ### A.10:5 - Archetypal Grounding
 
-| Aspect | System claim — Autonomous Brake | Episteme claim — Meta-analysis |
-| --- | --- | --- |
-| **Claim**                    | “Stop within 50 m from 100 km/h.”                                                                   | “Drug A outperforms control on endpoint E.”                                                                              |
-| **Evidence relation**                   | `verifiedBy`: static‑analysis proof of no overflow; `validatedBy`: instrumented track tests.        | `verifiedBy`: power‑analysis proof of sample size; `validatedBy`: pooled effect sizes with bias checks.                  |
-| **Carrier and source-currentness records** | Scale logs, calibration certificates, test track telemetry; context reuse adds unit, identifier, hash, and relevance-window discipline. | PDFs of studies, data tables, analysis code; context reuse adapts vocabularies and units while preserving carrier identity and carrier integrity. |
-| **Evidence-producing or interpreting work** | Independent test run, calibration work, or interpretation work by a metrology team under a named role assignment. | Synthesis work or statistical interpretation work by a named team or statistician under a named role assignment. |
-| **Temporal**                 | Dated runs; `happenedBefore` between setup → test → teardown.                                       | Publication dates; dataset versions; monotone coverage of included studies.                                              |
+**Runtime acceptance from a measurement result.** C.16 dated measurement work obtains a pressure measurement result with uncertainty under a named model and calibration; a distinct C.2.1 episteme states it. If inception of that episteme through work is current, A.15.PROD governs the exact production relation. Separate evaluation work applies the declared G.4 pressure clause through A.6.1 bindings and obtains `unknown`; another C.2.1 episteme states that verdict. A.10 records the source publications, calibration and measurement work, result episteme, evaluation work, clause declaration, exact bindings, provenance, currentness, and rival explanation. Later C.11 decision work uses the verdict episteme as a premise and defers. No ledger edge establishes measurement, verdict, decision, or use.
+
+**Meta-analysis.** Source study publications, datasets, analysis code, inclusion work, statistical method, and synthesis work are recovered by their direct relations. The pooled estimate and uncertainty remain with their statistical governor; its C.2.1 episteme is the relied-on claim. A.10 records source identity, transformations, coverage, provenance, currentness, and the bounded clinical or policy use, not a generic `validatedBy` relation.
+
+**Credential display.** The current pre-existing case repair remains decisive: a credential view can support credential-currentness only under its issuer/trust root, holder binding, verifier, status source, revocation and window. Permission, commitment, role assignment, status assertion, entry predicate, and gate passage remain with A.2.8.PER, A.2.8, A.2.9, A.2.1, A.6.B, and A.21 as applicable. Display presence creates none of them.
 
 ### A.10:6.1 - Bias-Annotation
 
-A.10 corrects evidence-presentation bias: a visible carrier, dashboard tile, credential view, model card, generated explanation, provenance mark, or attestation can look like evidence, approval, permission, assurance, or work authority before the claim-bound evidence relation is actually present. The repair is not to collect more impressive paperwork. Recover the bounded evidence-provenance graph relation for the named claim or effect: carrier or source, evidence-producing or evidence-interpreting work occurrence, role assignment when current, method trace or work trace when relevant, time window, currentness relation, rival explanation, and bounded evidence use.
-
-The second bias is graph-kind drift. A path in the evidence-provenance graph is a mathematical relation inside the evidence description; it is not a route of action, a part-whole edge, a method sequence, a gate passage, or a permission trail. When the current claim is about those neighboring relations, A.10 supplies evidence for them and returns authority to the governing pattern.
+A.10 corrects carrier-authority bias and graph-authority bias. A polished badge, attestation, dashboard, generated explanation, or provenance mark can make an unsupported claim look settled; a tidy graph can make an ungrounded edge look like an obtaining relation. The repair is to recover the exact claim, source, carrier, work, local result and owner, result episteme, direct relations, currentness, bounded use, rival explanation, and disposition. More impressive paperwork is not a substitute.
 
 ### A.10:6 - Conformance Checklist
 
-| ID                                      | Requirement                                                                                                                                                                                                                             | Purpose (what it prevents)                                 |
-| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| **CC‑A10.1 (Evidence-provenance path presence)**         | Every published claim or reliance use MUST have an evidence-provenance path to concrete carrier refs, source `U.EpistemePublication` refs, source relation refs, evidence epistemes or records, and the evidence-producing or interpreting `U.Work` plus role assignment when that assignment is current.                                | Stops “weightless claims” and self-justifying text.        |
-| **CC‑A10.2 (Evidence-provenance entry currentness)**                      | Any episteme composition, publication, compilation, dashboard, generated explanation, or assurance use that relies on source publications or evidence carriers SHALL record the substantively used carrier refs, source `U.Episteme` refs, source `U.EpistemePublication` refs, evidence episteme refs, or evidence record refs by id; carrier kind; version or edition when relevant; date or relevance window; source-currentness relation or currentness window; and provenance relation. | Prevents source loss during aggregation.                   |
-| **CC-A10.3 (Context adaptation)** | Any context-adapted evidence-provenance entry SHALL preserve carrier identity and carrier integrity while adding bounded-context vocabulary, unit, identifier, and hash discipline. | Keeps releases auditable and context-consistent. |
-| **CC-A10.4 (Resolution)** | Every evidence-provenance node in the dependency graph MUST be resolvable to an evidence-provenance entry, evidence episteme, provenance relation, work occurrence, role assignment, or direct source relation named by value. Unresolved links invalidate the claim. | Eliminates dangling references and unverifiable citations. |
-| **CC‑A10.5 (Scope Separation)**         | One evidence-provenance graph relation SHALL NOT mix design-time method-description source nodes with run-time `U.Work` traces unless the bridge relation is explicit. Bridges (“this run trace enacts that method under this method-description source”) MUST be explicit. | Avoids conflating intent and execution.                    |
-| **CC‑A10.6 (Producer and reliance separation)**              | The evidence-producing or interpreting work, producer or source-maintenance role assignment, target claim, and relying context MUST be distinguishable. Reflexive monitoring is admissible only when those relations are explicit and the evidence-provenance path states the reopen condition. | Prevents self-creation and self-evidence paradoxes.            |
-| **CC-A10.7 (Temporal Coverage)** | For `Γ_time` claims, interval coverage MUST be monotone and fully specified; gaps and overlaps require explicit justification or rejection. | Stops invalid time-series aggregation. |
-| **CC-A10.8 (Integrity and immutability)** | Published evidence-provenance entries with carrier identity fields MUST include version or edition when relevant, date or relevance window, and checksums when the carrier form allows them. Updates create a new revision id with a pointer to the prior one. | Guards against silent drift and tampering. |
-| **CC‑A10.9 (Holarchy Firewall)**        | The evidence-provenance graph relation MUST use provenance edges only; mereological edges (`ComponentOf`, `MemberOf`, `PortionOf`, `PhaseOf`, etc.) MUST NOT appear in that relation; conversely, provenance edges MUST NOT be used to build holarchies. | Keeps part‑whole and evidence semantics disjoint.          |
-| **CC‑A10.10 (Γ\_sys Evidence relations)**          | Physical claims aggregated by `Γ_sys` MUST reference measurement models (quantity, unit, uncertainty), boundary conditions, and calibration carriers.                                                                                   | Ensures physical plausibility and comparability.           |
-| **CC‑A10.11 (Γ\_method Evidence relations)**       | For order-sensitive composition, design-time MUST include a **Method Instantiation Card (MIC)** with Precedes, Choice, Join, guards, and exceptions; run-time traces MUST record `happenedBefore`, reference the `U.Method` they enact, and cite the `methodDescriptionRef` used. | Preserves order semantics and reproducibility.             |
-| **CC-A10.12 (Γ_work Evidence relations)** | Resource-spending claims and yield claims MUST be evidenced by instrumented carriers (meters, logs) and their `methodRef` plus `methodDescriptionRef`; resource **rosters** MUST NOT be conflated with evidence-provenance entries. | Distinguishes cost accounting from knowledge carriers. |
-| **CC-A10.13 (Causal evidence-value path)** | If an evidence-provenance path is used for a causal-use claim, it **MUST** carry `CausalEvidenceSupportBasis` from `C.28` and any relevant `CausalIdentificationProfile`, `CounterfactualSamplingRealizabilityProfile`, or `CausalUseEvidenceDesignRecord` refs; A.10 **MUST NOT** identify causal effects or create a second causal-evidence value set. | Keeps evidence graph path recoverable without moving causal authority out of `C.28`. |
-| **CC-A10.14 (Authority-reliance use of ordinary evidence-provenance paths)** | When a carrier is used for approval, permission, gate passage, role or status currentness, work occurrence, provenance, authenticity, copied source relation, generated source relation, assurance input, or another authority-reliance claim or effect, the evidence-provenance path SHALL name the evidenced claim or effect, carrier, issuer, performer, source-maintenance role assignment or trust root, affected work target or claim target and relying context, time window, freshness or revocation stance, evidence-producing work occurrence or method trace, evidence relation, and most relevant rival explanation. Expanded fields SHALL be named only when they decide the current reliance question: method trace or work trace, evidence-carrier integrity, identity or holder binding, verifier context, relying-party context, acceptance rule, proof result, cryptographic-signature result, status verification result, policy or gate version, decision-log reference, source-to-use transform notes, source-order relation, supersession rule, and minimum disclosure boundary. | Prevents badges, dashboards, copied text, generated explanations, credentials, provenance labels, and composed paths from supplying false evidence relation, without turning source-finding into a full dossier. |
-| **CC-A10.15 (Evidence-kind and reliance disposition)** | When a source-bearing carrier or display is used for reliance, A.10 SHALL recover the evidence kind before stating evidence-use classification, then state the local `RelianceDisposition`, bounded evidence use, unsupported attempted use, currentness and window when relevant, contest or redress relation when relevant, and reopen trigger. `RelianceDisposition` SHALL NOT be treated as `CV.Status`, `GateDecision`, selector outcome, problem-card state, assurance approval, or release permission. | Keeps the evidence relation available for bounded evidence use and reliance use while preventing confidence, conformance, provenance, score, dashboard, generated explanation, or redress wording from becoming hidden authority. |
-
-**Practitioner’s audit (non‑normative, quick):** For any claim, ask **What carriers? Which system? Which method? When?** If any answer is missing, A.10 is not satisfied.
+1. **Claim:** the exact relied-on C.2.1 episteme and proposition/local result are named.
+2. **Direct owner:** every measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, role, or decision result points to its own governor.
+3. **Carrier/source:** source episteme/publication, carrier, edition, publication/copy/transform chain, and direct provenance or citation relations are recoverable.
+4. **Work:** each producing, interpreting, transforming, evaluating, or relying occurrence is dated `U.Work` with role assignment, method, actual direct/A.6.1 bindings, and resources.
+5. **MethodDescription boundary:** the description contains only generic method claims; it supplies no actual participants, occurrence, use, proof/test event, or result.
+6. **Result boundary:** domain result, result episteme, carrier, provenance entry, outcome, and later action remain distinct.
+7. **Graph boundary:** every asserted edge names an independently governed direct relation; no edge establishes work, participation, production, result, currentness, reliance, or representation by graph membership.
+8. **Time/currentness:** edition, window, supersession, revocation, source order, and G.11 result are explicit when they affect use.
+9. **Reliance:** bounded use, unsupported attempted use, local `RelianceDisposition`, rival explanation, and reopen trigger are present; B.3 opens only at its own threshold.
+10. **Contest/privacy:** the affected party can challenge the claim and disposition, while sensitive carrier access is minimized without erasing recoverability.
 
 ### A.10:6.2 - Common Anti-Patterns and How to Avoid Them
 
-* **Carrier as truth.** A cited document, dashboard cell, credential display, generated answer, or provenance label is treated as the claim being true without the evidence relation and currentness window.
-* **Evidence as permission.** A strong evidence-provenance path is overread as authorization, gate passage, commitment, release, or performed work.
-* **Provenance as part-whole.** Provenance edges are used to build holarchies, or part-whole edges are used as evidence.
-* **Method description as work trace.** The method episteme says what would count as good work, but the actual work occurrence, carrier relation, or source relation is absent.
-* **Self-evidence.** The target claim, its display, or its producing work is allowed to evidence itself without a separated evidence-producing or evidence-interpreting work occurrence and relying context.
-* **Full dossier by default.** A source-finding or low-stakes reliance case is expanded into every possible evidence field instead of the minimum field set that decides the current bounded use.
+- **Carrier as truth.** Recover the claim and direct source relation; authenticity or availability is not truth.
+- **MethodDescription as intent or trace.** Recover generic method claims separately from the dated work and actual bindings.
+- **Generic result field.** Name the domain result, direct governor, and distinct C.2.1 episteme.
+- **Edge as fact.** Establish the direct relation first; then let the graph represent or cite it.
+- **Provenance as assurance or permission.** Enter B.3, A.2.8.PER, A.21, or another exact governor only when that claim is live.
+- **Citation as actual use.** Ground the later work and exact premise/reference/argument relation.
+- **Full dossier by default.** Collect only fields that decide the bounded use, consequence, contestability, and reopen condition.
 
 ### A.10:7 - Consequences
 
-| Benefit                           | Why it matters                                                                  | Trade‑off / Mitigation                                                                                                                |
-| --------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| **Cross-scale reproducibility** | Any composite metric or argument can be walked back to its carriers and method. | **Overhead** of maintaining evidence-provenance entries with carrier identity and currentness fields. *Mitigation:* keep entries minimal but complete; use checklists from the pedagogical companion. |
-| **DesignRunTag clarity**            | Intent (MethodDescription) is cleanly separated from execution (Work traces).          | **Discipline** needed at boundaries. *Mitigation:* MIC templates; explicit “instantiates” bridges.                                    |
-| **Objective evidence**            | Separated evidence-producing work, role assignment, carrier/provenance relation, target claim, and relying context eliminate self-evidence loops. | **Reflexive systems** require explicit work and provenance separation. *Mitigation:* provide reflexive-monitoring examples with reopen triggers. |
-| **Comparable numbers over time**  | Temporal coverage invariants prevent “trend” claims built on gaps.              | **Extra dating work** for older data. *Mitigation:* allow provisional labels until dating is completed.                              |
-| **Safe composition of knowledge** | Evidence-provenance entries keep source publications, evidence carriers, currentness relations, and provenance relations intact as epistemes are composed, published, compiled, or used for assurance. | **Initial friction** in teams new to carrier thinking. *Mitigation:* start with the ten most important carriers per claim, then expand as needed. |
-| **Feeds B.3 typed assurance claims** | Evidence relations provide evidence inputs such as `R` and `CL` only for a named typed assurance claim. | B.3 is not a generic trust or assurance score; cite the claim named by value and relying context. |
+**Benefits.** Reliance becomes replayable without turning A.10 into an authority over the results it cites. The same path can expose stale sources, hidden transformations, ungrounded work, incompatible currentness, or an unsupported lift from provenance to action.
+
+**Trade-offs.** Direct-owner recovery takes more effort than a single evidence edge. The gain is that later users can challenge exactly the claim, work fact, source relation, currentness result, or reliance boundary that failed.
+
+**Failure containment.** Missing source, work, direct binding, result owner, currentness, or use relation blocks or narrows only the affected reliance use. It does not authorize a universal evidence or result relation.
 
 ### A.10:8 - Rationale
 
-Evidence use becomes reviewable only when the relied-on claim, evidence carrier, source `U.EpistemePublication` ref or source relation, evidence-producing or evidence-interpreting work, source-currentness relation, time window, rival explanation, and bounded relying context are separate. A.10 therefore makes the evidence relation available to assurance, gate, role, status, work, publication, causal-use, and source-use patterns without letting the evidence relation itself become approval, permission, work occurrence, or truth.
+Evidence use is a relation-specific claim about why one later use may rely on one episteme. Provenance records make the source history recoverable; they do not create the source facts, local result, truth, work, or use. Keeping the descriptive graph outward-facing preserves direct ownership while still making complex source chains inspectable.
 
 ### A.10:8.1 - SoTA-Echoing
 
-* **Metrology & assurance.** The requirement to name quantities, units, uncertainty, calibration carriers reflects long‑standing metrology practice and modern assurance cases: numbers are only comparable when their **measurement models** are stated.
-* **Knowledge provenance.** The evidence-provenance graph relation and evidence-provenance entry with carrier identity and source-currentness fields embody post-2015 best practices in provenance for epistemes and their carriers: keep a complete, machine-checkable trail from claims to carriers; separate provenance from part-whole.
-* **Temporal reasoning.** Monotone coverage with no unexplained gaps and no unexplained overlaps aligns with temporal knowledge graph practice and avoids impossible histories.
-* **Holonic parsimony.** By drawing a firewall between **mereology** (A.14) and **provenance**, A.10 prevents semantic leakage and keeps the holarchy well‑typed.
-* **Role–Method–Work clarity.** Evidence relationing explicitly rides on A.15: **roles** act via **methods** specified at design‑time and produce **work** observed at run‑time. This keeps agency, policy, and execution disentangled yet connected.
-* **Credential, provenance, attestation, status-register, and generated-source currentness.** Verifiable-credential and digital-identity practice separates issuer or trust root, holder binding, proof result, status result, revocation, effective window, audience, and relying context. Some bounded contexts also treat a register entry or status register entry as the authoritative record or relation that creates or changes role assignment, status assertion, permission, duty, or gate state; a credential view, pass, badge, dashboard cell, API response, screenshot, or certificate excerpt is then a publication of that record or relation, not automatically the governing record or relation itself. C2PA content provenance plus SLSA and in-toto attestations separate bounded origin, history, build, and process claims from truth, approval, release, safety, gate passage, permission, or assurance; their consumer-side verifier or policy acceptance rule is part of the relying context, not implied by source-carrier presence. LLM citation and generated-explanation practice requires claim-bound attribution alignment before operative claims are relied on. A.10 adopts issuer, holder, verifier, status, currentness recoverability, status-register recoverability, and claim-bound attribution as evidence-provenance-path invariants, adapts credential practice, provenance practice, attestation practice, model documentation, data documentation, register-backed status display, and generated-explanation practice as FPF inputs for role-assignment or status-related source relations and carrier relations, and rejects visual display, copied text, generated text, provenance mark, credential display, register excerpt, or attestation form as evidence of an operative action invitation, gate, role assignment, status assertion, work occurrence, assurance, or bounded work effect without the source relation named by value.
+Source qualification was checked against the publishers' current surfaces on 2026-07-30. It remains qualified through 2027-07-30 unless a latest specification, Recommendation, tagged framework release, status mechanism, or adopted documentation baseline changes earlier. Each source changes only the bounded A.10 locus named below; lineage and popular comparators not listed here are non-governing.
 
-Practical result from that cited practice: provenance, attestation, credential, status-register, and generated-source practice rejects the shortcut that provenance means truth, safety, release, permission, or assurance. The local A.10 result is bounded origin, history, build, holder or status currentness, generated-claim source mapping, bounded evidence use, unsupported attempted use, and reopen when the verifier, trust model, status or currentness rule, source mapping, or source-order relation changes.
+| Exact source and source-use decision | Visible A.10 mutation | Rejected overread | Smallest source-change replay |
+| --- | --- | --- | --- |
+| [W3C PROV-O, Recommendation 30 April 2013](https://www.w3.org/TR/prov-o/) — **adapt** qualified provenance descriptions and stable source/activity/agent references to A.10's exact FPF objects and direct relations. | §4.4 requires each path edge to cite an independently governed relation; checklist items 3 and 7 require source/copy/transform identity and reject graph membership as fact creation. | A PROV-shaped graph, `wasGeneratedBy` label, or qualified relation does not establish FPF work, participation, result, truth, currentness, or later use. | Reopen only §4.4's edge rule, the affected path in one worked case, and checklist items 3 and 7 if PROV-O's qualified-relation contract changes. |
+| [W3C Verifiable Credentials Data Model v2.0, Recommendation 15 May 2025](https://www.w3.org/TR/vc-data-model-2.0/) — **adapt** issuer, subject/holder, verifier, validity/status, proof, and relying-context separation. | §4.6b's credential/status row, the credential-display case, and checklist items 8–9 require the exact verifier rule, status source, window/currentness, bounded use, and local disposition. | A conforming or cryptographically verifiable credential does not by itself create transitive trust, permission, role assignment, gate passage, assurance, or truth of every represented claim. | Reopen only the credential/status classifier row, the credential-display case, and checklist items 8–9 when the VC data model or its adopted status contract changes. |
+| [SLSA specification v1.2](https://slsa.dev/spec/v1.2/) together with [in-toto Attestation Framework v1.2, `Statement/v1`](https://github.com/in-toto/attestation/blob/main/spec/README.md) — **adapt** artifact subject, predicate type, producing context, inputs, authenticated envelope, verifier expectation, and versioned attestation separation. | The §4.6b supply-chain row and software-attestation slice require a bounded build/source claim, producing work or system, verifier rule, source inputs, holder, window, and unsupported attempted use; checklist items 3 and 9 retain provenance and reliance separately. | A signed attestation, SLSA level, or verification summary is not runtime safety, release approval, gate passage, assurance, or proof that an uncited work/result relation obtains. | Reopen only that classifier row, the software-attestation slice, and checklist items 3 and 9 when SLSA's adopted provenance/verification contract or in-toto `Statement/v1` semantics change. |
+| [C2PA Content Credentials Technical Specification 2.4, April 2026](https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html) — **adapt** asset/manifest identity, claim generator, assertions, ingredients/actions, signature validation, trust policy, and specification version for claim-bound content attribution. | §4.6b's provenance/authenticity row, generated-content boundary, credential-display case, and checklist items 3 and 8 require the exact carrier, manifest/assertion, transformation, verifier/trust regime, edition, and currentness window. | A valid manifest, repository receipt, authenticity mark, or visible Content Credential does not establish truth of the represented world state, authorship beyond its exact assertion, permission, safety, or adequacy. | Reopen only the content-provenance classifier row, the credential-display case, and checklist items 3 and 8 when C2PA changes manifest/assertion identity, validation, trust, or versioning rules. |
+| Mitchell et al., [*Model Cards for Model Reporting*, FAT* 2019](https://doi.org/10.1145/3287560.3287596), and Gebru et al., [*Datasheets for Datasets*, CACM 64(12), 2021](https://doi.org/10.1145/3458723) — **adapt** intended use, evaluation conditions, performance/limitation, motivation, composition, collection, and maintenance disclosures as source-finding inputs. | §4.6b's generated-explanation/documentation row and checklist items 1, 3, and 6 require every relied-on operative claim to return to its exact source, work, local result, carrier, and bounded use rather than relying on the document's presence. | A model card, datasheet, polished summary, or disclosed limitation is not evidence for an unstated claim, performed evaluation, assurance, approval, or deployment permission. | Reopen only the documentation classifier row, the one model/data-document path that uses it, and checklist items 1, 3, and 6 when the adopted disclosure fields or their claim boundary change. |
+
+The current source decisions deliberately do not import a credential, attestation, documentation, or provenance ontology as A.10 authority. Source refresh replays the named rule, case, and checklist rows first and widens only if that local replay exposes a direct contradiction.
 
 ### A.10:9 - Relations
 
-* **Builds on:** A.1 Holonic Foundation; A.3.4 Transformation; A.10 evidence-use and provenance relation discipline; **A.14 Advanced Mereology**; **A.15 Role–Method–Work Alignment**; `A.2` and `A.2.1` for role values and role-assignment relations; `C.2.1` and `E.17` for episteme, publication, carrier, and view separation.
-* **Constrains / used by:** current composition, transformation, method, temporal, and work operators only when the governing pattern for that operator is named by value; B.1.1 Dependency Structure and Relation Grounding where current dependency-structure claims remain active.
-* **Enables:** **B.3 Trust Calculus** (R inputs, CL inputs, auditability); B.4 Canonical Evolution Loop (clean DesignRunTag bridges).
-* **Coordinates with:** `C.28` when an evidence-provenance path is used for a causal-use relation; A.10 carries the evidence-provenance path, while `C.28` governs the causal-use question, `CausalEvidenceSupportBasis` value, identification, realizability, bounded use, and unsupported attempted use.
-* **Coordinates with:** `A.2.4` when evidence-role or status-role source wording around an episteme needs first-use evidence-use or status-use relation slots before the full A.10 evidence-provenance graph relation is written.
-* **Coordinates with:** `A.15` for work or reliance disposition, `A.6` for mixed boundary wording, `B.3` for assurance, `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`, `A.20` for `ConstraintValidity` status or witness, `A.2.9` for speech-act refs, `A.2.8` for commitments, and `A.15.1` for work occurrences. `A.10` supplies evidence-provenance paths for the source relations or governing pattern refs consumed by those neighboring patterns; it does not create their gate decision, commitment, role effect, status effect, work-occurrence, assurance, bounded work effect, or bounded reliance effect.
+- **Builds on:** C.2.1 for claim/result epistemes; E.17 for publication and carriers; A.15.1 and A.6.1 for work, roles, declarations, and actual bindings; A.15.PROD when episteme inception is live.
+- **Coordinates with:** A.2.4 for first-use evidence/status classification; G.11 for currentness; C.29 for representation; B.3 for assurance; C.16 for measurement; C.28 for causal use; A.19 for comparison/selection; G.4 for acceptance declarations and applications; C.11 and A.21 for decision/gate results.
+- **Constrains:** provenance and reliance descriptions only. A.10 does not create another pattern's result, occurrence, participation, representation, currentness, assurance, permission, commitment, gate, or decision.
 
 ### A.10:10 - Older source text interpretation and neighboring-pattern notes
 
-Older source texts may use names such as `manifest`, `release manifest`, `creator`, `observer`, `symbol register`, `SCR`, `RSCR`, `MIC`, or evidence `path` without the current FPF distinctions. Treat those names as recovery prompts, not as live vocabulary to copy unchanged.
+Treat legacy names such as `manifest`, `creator`, `observer`, `symbol register`, `SCR`, `RSCR`, `MIC`, `verifiedBy`, `validatedBy`, or evidence `path` as recovery prompts, not current relation names.
 
-Use these recoveries:
+- A manifest or source register is a carrier/publication or provenance description; recover the exact source, edition, claim, and direct relations it represents.
+- A `creator`, `observer`, producer, verifier, or maintainer participates only through dated work, `U.RoleAssignment`, and exact direct/A.6.1 bindings.
+- A method-instantiation note is not work. Recover the exact `U.Method`, generic MethodDescription claims, dated occurrence, enactment, ordering, participants, and result separately.
+- A `work result`, `measurement result`, `validation result`, or `verification result` label routes to the exact domain result and C.2.1 episteme; the legacy field name establishes neither.
+- Resource rosters remain separate from carriers and provenance records.
 
-- a source register used for evidence carriers becomes an evidence-provenance entry with carrier identity and source-currentness fields;
-- a release-context source register becomes a context-adapted evidence-provenance entry when the bounded context, identifiers, and hashes matter for publication or release use;
-- an internal `creator` or `observer` used as evidencer becomes evidence-producing work, evidence-interpreting work, source-maintenance role assignment, verifier assignment, or quote-only source wording according to the claim being made;
-- a method instantiation note is a method relation or work relation only when it states the `U.Method`, the `U.MethodDescription` ref or method-description source publication ref, ordering relation when relevant, and work-trace relation;
-- resource rosters in `Γ_work` remain separate from evidence-carrier registers; cite meter, log, or observation carriers through the evidence-provenance graph.
-
-When an older source text also claims approval, permission, gate passage, assurance, causal authority, measured comparability, representation shift, or publication-face effect, keep A.10 to the evidence-provenance graph relation and apply the neighboring governing pattern for that extra claim.
+When older text also claims approval, permission, gate passage, assurance, causality, comparability, representation, publication effect, or decision, apply the neighboring direct governor and let A.10 retain only source recovery, provenance, bounded reliance, and contestability.
 
 ### A.10:10a - Evidence carriers for quantum-like statements
 
-Use A.10 when a quantum-like statement needs evidence rather than only a local modeling note. The practical question is not "is this quantum-like source impressive?" but "which carrier evidences which minimal claim, under which time window and method?"
+Use A.10 when a quantum-like statement is being relied on. Name the minimal claim, source episteme/publication, carrier, producing or interpreting dated work, method, actual bindings, time/currentness, rival explanation, bounded use, unsupported attempted use, and `RelianceDisposition`. Route ordinary measurement to C.16, probe/frame effects to the relevant C.26 pattern, Bridge loss to F.9, representation to C.29, and material assurance to B.3.
 
-Evidence-relation checks:
-
-1. State the minimal state, probe, export, or viability claim being evidenced.
-2. Pin the concrete carriers: source, trace, dashboard export, report, observation, metric, work result, model output, interview, survey, or incident record.
-3. State the evidence-producing role and method: who or what produced the carrier, by which method, probe, measurement, or work act.
-4. State the time window, decay condition, and reopen condition.
-5. State what the carrier does not show, including the most relevant rival explanation that remains plausible.
-6. Choose the next pattern: stay in A.10 for carrier evidence relation, apply `B.3` for assurance claims, apply `C.16` for measurement admissibility, apply `F.9` for bridge or export loss, or apply a `C.26.*` pattern for the remaining probe, state, or envelope question.
-
-For probe-coupled, distributed-state, bridge-loss, measurement-frame, or viability-envelope statements, include at least:
-
-| Field | Required content |
-| --- | --- |
-| Claim | The minimal state, probe, export, or viability claim being evidenced |
-| Evidence carrier | The concrete evidence carrier or carrier class |
-| Evidence source or carrier kind | Source publication, witness statement, measurement result, report publication, trace record, dashboard display, work-result record, or human-statement carrier |
-| Method or probe | The measurement, work act, survey, dashboard query, API query, workshop, model, or trace query that produced the carrier |
-| Time window | When the evidence was produced and how long it remains fit for the intended inference |
-| Confidence bounds and limits | What the carrier does not show, and what rival explanation remains plausible |
-| Reopen trigger | When decision, assurance, audit, work use, or reliance use requires additional evidence |
-
-Useful outputs:
-
-- a local evidence note when the claim only guides discussion;
-- an evidence-provenance entry or context-adapted evidence-provenance entry when the claim enters a published assertion;
-- a B.3 assurance tuple when the claim will feed readiness, audit, release, compliance, or comparative assurance;
-- a neighboring-pattern note when the carrier shows only ordinary measurement, bridge loss, or work enactment.
-
-Do not let the label `quantum-like` carry evidence weight by itself. The evidence graph carries the claim; the math lens only explains what representational mistake the evidence is being used to avoid.
+The `quantum-like` label has no evidence weight. A descriptive graph may represent the exact source and use relations only after their direct governors establish them.
 
 ### A.10:10b - C.29 mathematical-lens use relation
 
-> If a mathematical lens needs evidence relation, write the evidence-provenance path, source currentness, provenance, and any model-card or datasheet evidence use in `A.10`. A `C.29` output may state only the C.29-local lens-use value for the mathematical-lens use claim; it is not an evidence-provenance path, currentness proof, provenance record, or evidence-carrier substitute. Assurance or release confidence goes to `B.3`; measurement construction or comparability goes to `C.16`.
+When a mathematical lens is used in the evidence account, C.29 governs the representation correspondence and lens-use admissibility claim. A.10 may cite that C.29 episteme and record its provenance, currentness, bounded reliance, and later use; an A.10 graph edge does not establish the correspondence. Measurement construction stays with C.16 and assurance with B.3.
 
 ### A.10:End
 
@@ -37018,7 +36945,7 @@ These rows answer the B.1.5 practice question: how to decide and expose order-se
 
 **What goes wrong if missed.** Resource, effort, time, energy, or cost totals are read from methods, plans, dashboards, or phase labels without a dated work occurrence, resource ledger, and overlap policy.
 
-**What this buys.** The practitioner can aggregate resources over performed work while avoiding double counting and returning method, plan, transformation, evidence, and MHT claims to their direct owners.
+**What this buys.** A replayable chain that keeps the resource Characteristic, measurement work/result episteme, aggregation work/result, exact policy, work parthood/overlap, and provenance separately recoverable while preventing double counting.
 
 ### B.1.6:1 - Problem Frame
 
@@ -37040,141 +36967,157 @@ Work-resource totals are often borrowed from plans, method descriptions, dashboa
 | Additivity vs. shared stocks | Disjoint partitions can be added; shared meters, tools, people, inventories, data, or ports need overlap and deduplication policy. |
 | Efficiency vs. whole reidentification | Apparent free gain may be measurement, changed accounting basis, substitution, or a new whole; B.1.6 cannot decide that by resource wording alone. |
 
-### B.1.6:2 - Solution
+### B.1.6:2 - Solution — separate measurement from aggregation
 
-Recover a `WorkResourceAggregation@Context`:
+Start with one direct sentence:
+
+> Dated aggregation work `W_agg` applied policy `P` to the exact C.16 resource-result epistemes for work set `W_set`, under declared work-part/overlap relations and accounting boundary `B`, and obtained aggregation result `R_agg`; C.2.1 episteme `E_agg` states that result and A.10/G.6 record its provenance.
+
+If any referenced resource value lacks its resource Characteristic, measurement work, result episteme, Scale/Unit, uncertainty when current, or provenance, it is not repaired by adding a ledger row.
+
+`WorkResourceAggregation@Context` is a descriptive account for one aggregation claim:
 
 ```text
 WorkResourceAggregation@Context:
   aggregationConcernRef
-  parentWorkOccurrenceRef?
-  workOccurrenceRefs
   boundedContextRef
-  transformedOrAffectedEntityRef?
-  holonDelimitationRefs
-  boundaryCrossingRelationRefs?
-  timeWindowRef
-  phaseRelationRefs?
-  resourceBasisRefs
-  resourceMeasureRefs
-  resourceLedgerRefs
-  overlapOrDeduplicationPolicyRef?
-  methodRefs?
-  methodDescriptionRefs?
-  workPlanRefs?
-  evidenceOrMeasurementRefs
-  aggregationRuleRef
-  aggregatedResourceValueRef
+  accountingBoundaryAndTimeWindowRefs
+  aggregatedWorkOccurrenceRefs
+  workPartPhaseOrOverlapRelationRefs
+  resourceCharacteristicRefs
+  measurementWorkRefs
+  measurementResultEpistemeRefs
+  aggregationMethodRef
+  aggregationOperationDeclarationRef?
+  aggregationPolicyRef
+  conversionOrNormalizationRefs?
+  aggregationWorkRef
+  aggregationResultRef
+  aggregationResultEpistemeRef
+  provenancePathRefs
   admissibleUse
   nonAdmissibleOverread
-  strongerSourceReturnCondition
 ```
 
-The record is a resource-aggregation relation over work evidence. It is not a method, not a method description, not proof that planned work happened, not a new holon level, and not a whole reidentification claim.
+These are separately governed objects, not fields that create one another:
 
-Resource readiness is a neighboring claim, not a measured aggregation result. Planned capacity, reserved inventory, staffing availability, or a full-kit-looking label may be cited as a work-plan, source, or readiness reference, but `A.15.5` governs whether intended work is ready to enter performed-work execution. `B.1.6` governs only the resource-accounting basis, ledger, evidence, aggregation rule, and aggregated value for dated work occurrences or explicitly narrowed planned estimates.
+- a **resource Characteristic** says which quantity or property is accounted for;
+- **measurement work** and a **C.16 measurement-result episteme** supply each attributed resource value, Scale, Unit, uncertainty, model, calibration, and time stance;
+- the **aggregation policy** declares inclusion, conversion, weighting, missing-value, partition, overlap, and deduplication rules;
+- **aggregation work** is dated `U.Work` with performer, method, actual inputs through direct relations or A.6.1 bindings, resources, and temporal extent;
+- the **B.1.6 aggregation result** is the typed total, vector, interval, or bounded estimate obtained under that policy and work set;
+- a distinct **C.2.1 aggregation-result episteme** states the result, work set, policy, boundary, time window, qualifications, and uncertainty; and
+- **A.10/G.6 provenance** makes the measurement sources, transformations, aggregation work, and result episteme replayable.
+
+A ledger, dashboard, policy, profile, clause, citation, or graph edge may represent or cite this chain. None establishes work occurrence, actual participation, measurement, aggregation, or result identity by presence.
 
 #### B.1.6:2.1 - Direct Owner Map
 
 | Current claim | Direct owner |
 | --- | --- |
-| Semantic way of doing | `A.3.1` |
-| Description of the way of doing, including algorithm text or SOP | `A.3.2` |
-| Planned work window or planned assignment | `A.15.2` |
-| Work-entry readiness, full-kit condition, or resource readiness before work entry | `A.15.5` |
-| Dated performed work occurrence and occurrence evidence | `A.15.1` |
-| Work-resource aggregation over dated work occurrences | `B.1.6` |
-| Holon delimitation, ports, interfaces, or part-whole boundary used for accounting | `A.1`, `B.1`, `A.14`, `C.13`, or the direct relation owner named by value |
-| Boundary-crossing change under conditions | `A.3.4` |
-| Phase relation or temporal coverage | `B.1.4` and `A.14`; use `C.27` when temporal claim adequacy is current |
-| Measurement construction, units, scales, thresholds, or comparability | `C.16`, `C.16.P`, or `C.29` |
-| Evidence provenance, source currentness, or source-use relation | Use `A.10` for evidence-use relations. Use `E.17` for publication and publication-use relations. Use the direct publication or source owner when a more specific source-use claim is being made. |
-| Apparent free efficiency, synergy, or whole reidentification | `B.2.P`, then B.2-family owner only if recovered |
+| Resource Characteristic, Scale, Unit, measurement model/calibration, measurement work and result | `C.16` plus A.15.1/A.6.1 for work and bindings |
+| Dated aggregation work, performer, method enactment, and actual inputs | `A.15.1` and `A.6.1` |
+| Work parthood, phase, partition, or temporal coverage | `A.14`, `B.1.4`, and the exact work/phase relation owner |
+| Overlap, shared-stock, boundary, and deduplication facts | exact stock, resource-use, boundary, work-overlap, or accounting relation owner |
+| Aggregation policy and typed aggregation result | `B.1.6` |
+| Measurement-result and aggregation-result epistemes | `C.2.1`; A.15.PROD only when their inception through work matters |
+| Source recovery and provenance | `A.10` and `G.6`; `E.17` for publication |
+| Edition currentness | `G.11` |
+| Planned work or resource readiness | `A.15.2` or `A.15.5`, never a measured aggregation result |
+| Transformation, whole reidentification, assurance, comparison, or decision | its direct A.3.4, B.2, B.3, A.19, C.11, or other exact governor |
 
 ### B.1.6:3 - Optional `Gamma_work` Notation
 
 `Gamma_work` is optional notation for a recovered `WorkResourceAggregation@Context`.
 
 ```text
-Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationRule)
-  -> aggregated resource value plus ledger
+Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationPolicy)
+  -> aggregationResultRef, aggregationResultEpistemeRef
 ```
 
-The notation applies only after the work occurrence refs, resource-accounting basis, time window, holon delimitation, and evidence or measurement refs have been named. It does not order method steps, certify the method, create work evidence, or declare emergence.
+The notation applies only after the resource Characteristics, C.16 measurement work/result epistemes, dated work set, exact part/phase/overlap relations, accounting boundary and time window, aggregation policy, and dated aggregation work have been named. It does not create those objects, order method steps, certify a method, or declare emergence.
 
 ### B.1.6:4 - Ledger Discipline
 
-A conforming `WorkResourceAggregation@Context` includes a work-resource ledger with:
+The ledger is a replay surface, not the aggregation's ontic owner. For every resource component it records:
 
-- work occurrence refs or parent and child work occurrence refs;
-- resource-accounting basis and unit refs;
-- time window and phase refs when time slicing is used;
-- holon delimitation refs and any boundary-crossing relation refs used for accounting;
-- method, method-description, and work-plan refs only when those objects are actually used;
-- evidence, measurement, or source refs for the resource values;
-- overlap or deduplication policy when work occurrences share resources, time windows, ports, stocks, people, tools, or data;
-- admissible use and non-admissible overread.
+- resource Characteristic, Scale, Unit, polarity when relevant, and accounting boundary;
+- exact measured or estimated subject, time window, and work occurrence to which the value applies;
+- C.16 measurement work and measurement-result episteme, including model, calibration, uncertainty, and provenance refs when current;
+- work-parthood, phase, partition, or overlap relations independently established by their direct owners;
+- shared resource, meter, person, tool, stock, data, port, or time-window overlap and the exact deduplication rule;
+- conversions, normalizations, imputations, and their declared method/policy refs;
+- the aggregation policy edition and actual aggregation work occurrence;
+- aggregation result and distinct C.2.1 result episteme; and
+- A.10/G.6 source and provenance refs, G.11 currentness when current, admissible use, unsupported overread, and reopen condition.
 
-For any resource type in the selected resource-accounting basis, the ledger should say whether the value is measured, estimated, normalized, or converted. If the value is measured, it names the measurement or evidence relation. If the value is planned, it stays marked as expected work-resource use and does not become performed-work evidence.
+Measured, estimated, normalized, converted, allocated, and planned values remain visibly different. A planned value does not become a measurement result or performed-work resource use. A citation to a meter or invoice does not establish the measurement work; a ledger row does not establish work parthood or overlap.
 
-When the aggregation divides a stock or resource amount, use `PortionOf` or the direct quantitative relation owner. When the aggregation slices one work occurrence or one carrier over time, use `PhaseOf` or the direct phase owner. Do not use `MemberOf` for resource stock, resource portion, or time-slice composition.
+Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact temporal/work phase, and the direct work-parthood or work-overlap relation for work occurrences. `MemberOf`, common timestamps, shared identifiers, or co-listing in the ledger do not establish any of those relations.
 
 ### B.1.6:5 - Aggregation Rules
 
-**Resource vectors stay typed.** Add joules to joules, hours to hours, kilograms to kilograms, and bytes to bytes. A conversion or equivalence relation needs its governing measurement, model, or mathematical-lens owner.
+**Typed resource basis.** Aggregate only values whose resource Characteristic, Scale, Unit, subject, and accounting boundary are compatible under the declared policy. Joules, hours, kilograms, currency, bytes, and attention do not become one scalar by co-location.
 
-**Partition additivity requires declared partitions.** Resource values may be added across disjoint boundary partitions only after the boundary and stock relation are named. Shared stock, shared meters, shared people, shared tools, or overlapping time windows require an overlap or deduplication policy.
+**Measurement before aggregation.** Each measured input points to exact C.16 measurement work and one measurement-result episteme. Raw meter output, indication, resource stock, attributed value, aggregation input, and later efficiency verdict remain distinct.
 
-**Time slicing requires temporal coverage.** A resource roll-up over phases uses non-overlapping phase refs and a time window. If a missing phase matters, the admissible use is narrowed or `B.1.4`/`C.27` supplies the temporal owner.
+**Exact work set.** Name every dated work occurrence included. Parent/child, phase, partition, and overlap relations must already obtain under their direct owners. A method, plan, epoch label, invoice period, or dashboard grouping does not establish the work set.
 
-**Plan and result stay separate.** A method description or work plan may provide expected yield, expected duration, or expected resource use. Measured work-resource aggregation uses dated work occurrence evidence. Do not overwrite one with the other.
+**Exact policy.** The aggregation policy states inclusion/exclusion, conversion, normalization, weighting, missing-value treatment, boundary allocation, uncertainty treatment, overlap/deduplication, and output kind. A policy declaration is not aggregation work or a result.
 
-**B.1 invariant carry-through.** `B.1.6` keeps B.1 invariants only for recovered work-resource ledgers. A singleton zero-resource occurrence is idempotent for the selected resource-accounting basis. Addition is commutative only for independent partitions, non-overlapping slices, or explicitly deduplicated overlaps. Weakest-link claims must name the critical resource, availability, or threshold; monotonicity claims must name the resource characteristic being improved. Apparent "free" gains remain measurement, equivalence, or whole-reidentification questions until their direct owner is recovered.
+**Overlap and shared stocks.** Addition is admissible only for disjoint partitions or after an exact policy handles overlap. Shared people, tools, meters, inventories, datasets, ports, and time windows require the direct shared-use/overlap fact and a justified allocation or deduplication rule.
 
-**Proof-sketch obligations.** For idempotence, show the zero-resource or singleton ledger under the selected resource-accounting basis. For commutativity or locality, show disjoint boundary partitions, disjoint time slices, or the declared deduplication relation. For weakest-link, name the critical resource and availability condition. For monotonicity, name the exact resource characteristic that cannot get worse under the selected improvement. These are user-facing obligations for the aggregation claim, not a separate proof package.
+**Aggregation work and result.** Ground dated aggregation work with performer, method, actual bindings, resources, and time. State the B.1.6 result as a typed total, vector, interval, or bounded estimate under the named policy and work set; then state it in a distinct C.2.1 episteme.
+
+**Uncertainty and provenance.** Propagate measurement uncertainty and model/conversion uncertainty according to the exact aggregation policy. Provenance lists do not perform uncertainty propagation. A.10/G.6 paths cite the established work, measurements, policy application, transformations, result, and sources without creating them.
+
+**Plan/result separation.** Expected use from a method description or work plan remains planned. Resource readiness remains A.15.5. Neither proves performed work or a measured aggregation result.
+
+**Efficiency and yield.** A ratio or yield claim names its input resource results, exact output/domain result, measurement bases, aggregation work, and comparison policy. It does not use a generic output-result relation. Apparent free gain remains a measurement, accounting-boundary, substitution, or whole-reidentification question until its direct owner is recovered.
 
 #### B.1.6:5.1 - Compact Obligation Rows
 
-| Obligation | What must be named | Why it matters |
-| --- | --- | --- |
-| Typed resource vector | Resource-accounting basis, unit, measure, evidence refs, and source refs for each component. | Prevents hours, energy, material, cost, and data volume from becoming one undifferentiated total. |
-| Disjoint partition | Boundary partition, stock relation, time window, and work occurrence refs. | Allows addition only where the partitions are actually disjoint for the selected resource-accounting basis. |
-| Shared-stock handling | Shared meter, shared tool, shared person, shared data, shared inventory, or overlap policy. | Prevents double counting and false savings. |
-| Critical resource cap | The capacity, availability, threshold, or bottleneck resource whose limit governs the claim. | Makes weakest-link and capacity claims inspectable. |
-| Yield relation | Input resource refs, output result refs, loss refs, and measurement basis. | Keeps efficiency from being asserted without a result relation. |
-| Embodied and dissipated split | Which resource remains embodied in the changed entity and which is dissipated, consumed, wasted, or externalized. | Keeps conservation, loss, and waste claims from being collapsed into one spent-resource label. |
-| Loss monotonicity | The exact loss, waste, delay, cost, risk, or degradation characteristic being bounded or reduced. | Allows monotone improvement claims only for a named characteristic. |
-| Plan-result separation | Expected resource use from method description or work plan versus measured resource use from dated work evidence. | Prevents a plan or algorithm from proving performed-work resource use. |
+| Obligation | What must be named |
+| --- | --- |
+| Resource input | Resource Characteristic, Scale/Unit, subject, C.16 measurement work/result episteme, uncertainty, time, and provenance |
+| Work set | Dated occurrences and exact part/phase/partition/overlap relations |
+| Policy | Edition, inclusion, conversions, weights, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind |
+| Aggregation execution | Dated `U.Work`, performer, method, resources, and actual direct/A.6.1 bindings |
+| Aggregation result | Typed result, work set, policy, boundary, window, qualifications, and distinct C.2.1 episteme |
+| Provenance/currentness | A.10/G.6 paths and G.11 result when currentness affects use |
+| Later use | Exact receiving work and direct premise/reference/argument/decision-use relation |
 
-### B.1.6:6 - Archetypal Grounding (Worked Slices)
+### B.1.6:6 - Archetypal Grounding
 
-**Manufacturing cell.** A frame is welded and painted in two dated work occurrences. `B.1.6` records electricity, gas, consumables, and labor-hour ledgers with their time windows and meters. The step order belongs to `B.1.4` or the method owner; the state change of the frame belongs to `A.3.4`.
+**Engine test programme.** C.16 measurement work attributes fuel mass, electrical energy, operator time, and emissions values to exact subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its own result episteme. Exact test-run and phase relations define the included work set; shared warm-up energy is recorded as overlap. Dated aggregation work applies `ProgrammeResourcePolicy-v3`, which allocates warm-up energy once and propagates input uncertainty. The B.1.6 result is a typed resource vector plus qualifications; a C.2.1 episteme states it. A later emissions verdict remains separate evaluation work and result.
 
-**Model training.** A model-training run has epochs as dated work slices. `B.1.6` aggregates compute energy, storage reads, and operator time from work evidence. The algorithm text is `A.3.2`; the trained model publication and source-use claims use episteme and publication owners; fairness or ethical assurance uses D-patterns when current.
+**Manufacturing cell.** Welding and painting are two dated work occurrences. Electricity, gas, consumables, and labor time are separate resource Characteristics with measurement-result epistemes. A shared extraction fan and overlapping operator time require direct shared-use facts and an allocation policy. The resource ledger represents those facts; it does not create the work, parts, overlap, measurements, aggregation, or frame transformation.
 
-**Architecture documentation effort.** A team records work spent building a multi-view architecture description. `B.1.6` can aggregate the work-resource ledger. The architecture description itself remains `C.30.AD`; the usefulness or adequacy of a view remains `C.30.ASV` or its direct owner.
+**Model training.** Epoch labels alone do not establish work parts. Ground the training work and exact slices, then recover C.16 measurements for compute energy, storage traffic, and operator time. Aggregation work applies an edition-pinned policy to those result epistemes. The algorithm remains a method description; trained-model identity, fairness result, provenance, assurance, and deployment decision stay with their direct owners.
 
 ### B.1.6:6.1 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Plan becomes evidence | Expected yield or expected resource use is read as performed work. | Keep planned and measured values separate and name the work occurrence evidence. |
-| Boundary word carries accounting | A port, interface, team, device, or phase label is used without a holon delimitation or boundary-crossing relation. | Name the delimitation, stock, time window, and measurement relation before aggregating. |
+| Plan becomes measurement or aggregation | Expected resource use is presented as performed work or an obtained total. | Keep the plan, dated work, C.16 measurement result, aggregation work, and B.1.6 result distinct. |
+| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as work parthood, overlap, or accounting boundary. | Establish the exact delimitation, part/phase/overlap relation, stock, window, and policy before aggregation. |
 | Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until a measurement, model, or mathematical-lens owner admits conversion. |
 | Shared stock is double-counted | The same person, tool, inventory, meter, dataset, or port appears in multiple work slices. | Declare overlap and deduplication policy, or narrow admissible use. |
 | Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence owners first; return to `B.2.P` only when whole reidentification remains current. |
 
 ### B.1.6:7 - Conformance Checklist
 
-| ID | Requirement | Purpose |
-| --- | --- | --- |
-| CC-B1.6-1 | The aggregation names dated work occurrence refs or explicitly narrows use to planned estimates. | Prevents plans and method descriptions from masquerading as performed work. |
-| CC-B1.6-2 | Resource-accounting basis, units, measurement refs, evidence refs, and source refs are named. | Keeps resource values comparable and reviewable. |
-| CC-B1.6-3 | Holon delimitation and any boundary-crossing relation used for accounting are named by value. | Prevents an unexplained boundary word from carrying the claim. |
-| CC-B1.6-4 | Time windows, phase refs, and overlap and deduplication policy are present when slices or shared resources are aggregated. | Prevents double counting and missing epochs. |
-| CC-B1.6-5 | Method, method-description, work-plan, transformation, and whole-reidentification claims use their direct owners. | Keeps work-resource aggregation from absorbing neighboring objects. |
-| CC-B1.6-5a | Work-entry readiness, full-kit condition, and resource readiness before work entry use `A.15.5`; B.1.6 cites such refs only as neighboring inputs when a resource aggregation claim also exists. | Keeps planned or reserved resource availability from becoming measured performed-work aggregation. |
-| CC-B1.6-6 | `Gamma_work` is used only as notation over a recovered aggregation record. | Keeps algebraic notation from becoming ontology by spelling. |
+| ID | Requirement |
+| --- | --- |
+| CC-B1.6-1 | Every resource component names its Characteristic, Scale/Unit, subject, time stance, C.16 measurement work/result episteme, and uncertainty/provenance when current. |
+| CC-B1.6-2 | The included dated work occurrences and every work-part, phase, partition, overlap, or shared-stock relation are independently grounded. |
+| CC-B1.6-3 | The aggregation policy names inclusion, conversion, weighting, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind. |
+| CC-B1.6-4 | Dated aggregation work has a performer, method, actual direct/A.6.1 bindings, resources, and temporal extent. |
+| CC-B1.6-5 | The B.1.6 aggregation result and the distinct C.2.1 result episteme are recoverable; neither is a ledger row or generic result field. |
+| CC-B1.6-6 | A.10/G.6 provenance and G.11 currentness remain separate from measurement and aggregation results. |
+| CC-B1.6-7 | Planned values and A.15.5 resource readiness are not presented as measured performed-work aggregation. |
+| CC-B1.6-8 | A ledger, policy, profile, clause, citation, dashboard, or graph edge establishes none of work, participation, measurement, part/overlap, aggregation, or result identity. |
+| CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification, or decision claim names its exact direct owner. |
 
 ### B.1.6:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -37184,38 +37127,42 @@ When the aggregation divides a stock or resource amount, use `PortionOf` or the 
 | A work plan is treated as measured work. | Use `A.15.2` for the plan and `A.15.1` for performed work evidence. |
 | A phase label or timeline is treated as a resource ledger. | Use `B.1.4` for phase aggregation and add `B.1.6` only when resource values are being aggregated. |
 | A resource gain is treated as emergence. | Use measurement and evidence owners first; use `B.2.P` only if whole reidentification remains current. |
-| A dashboard or report total is treated as proof. | Recover publication-use, source-use, and evidence relations before using the total. |
+| A ledger, dashboard, or report total is treated as the aggregation result. | Recover the source publications, C.16 measurements, work set and relations, policy, dated aggregation work, B.1.6 result, C.2.1 episteme, and A.10/G.6 provenance. |
 
 ### B.1.6:9 - Consequences
 
-This pattern gives FPF a conservative place for work-resource aggregation without turning it into a general method algebra. It makes resource claims usable across levels, phases, and contexts while keeping performed work evidence, measurement, temporal coverage, and transformation separate.
+This pattern gives FPF a conservative owner for a typed resource-aggregation result while keeping each input measurement, performed work occurrence, aggregation policy/application, result episteme, work relation, and provenance path distinct.
 
 The cost is explicit accounting discipline. The gain is that resource roll-ups become comparable without claiming more than the evidence and boundary relation allow.
 
 ### B.1.6:9.1 - Rationale
 
-`B.1.6` exists because work-resource accounting is easy to confuse with method, plan, phase, transformation, evidence, and whole reidentification. The governed object is the resource aggregation claim over dated work occurrences or explicitly narrowed estimates. That claim needs a ledger discipline: typed resource-accounting basis, holon delimitation, time window, stock and boundary-crossing relation, measurement or evidence relation, and overlap policy.
+`B.1.6` exists because a convenient total can hide several ontically different chains. Its result is obtained only after exact resource measurement, work-set and overlap grounding, an edition-pinned aggregation policy, and dated aggregation work; the ledger represents that account but does not establish it.
 
 The pattern keeps the useful old `Gamma_work` notation, but only as notation over a recovered aggregation record. It also preserves the old planned-versus-measured warning: a method description or work plan can declare expected yield or expected resource use, but measured aggregation depends on dated work evidence.
 
 ### B.1.6:9.2 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Conservation and engineering accounting practice | Resource roll-ups need a selected resource-accounting basis, boundary, stock relation, and time window before addition is meaningful. |
-| Constructive mereology and phase discipline | Resource portions, work phases, and collection membership are different relations; `PortionOf`, `PhaseOf`, and `MemberOf` cannot substitute for one another. |
-| Measurement and mathematical-lens discipline | Unit conversion, normalization, efficiency, and typed vectors need their measurement, model, or mathematical-lens owner. |
-| Work and method distinction in FPF | A method, method description, or work plan can guide expected resource use, but performed-work aggregation requires dated work occurrence evidence. |
+Source qualification was checked against the publishers' current surfaces on 2026-07-30. Because ISO and GHG Protocol announced active joint development of an updated product-accounting standard in 2026, these decisions remain qualified only through 2027-01-30 unless a new draft, amendment, confirmation status, or published replacement appears earlier. Internal FPF neighbour authority stays in Relations; it is not presented as an external source decision.
+
+| Exact source and source-use decision | Visible B.1.6 mutation | Rejected overread | Smallest source-change replay |
+| --- | --- | --- | --- |
+| [ISO 14040:2006 with Amendment 1:2020, confirmed current in 2022](https://www.iso.org/standard/37456.html), and [ISO 14044:2006 with Amendments 1:2017 and 2:2020, confirmed current in 2022](https://www.iso.org/standard/38498.html) — **adapt** goal/scope, system-boundary, inventory, allocation, reporting, and intended-use discipline to one exact work-resource aggregation. | `Exact policy`, `Overlap and shared stocks`, the engine-programme case, and `CC-B1.6-2/3` require boundary, work set, allocation, overlap/deduplication, output kind, and intended use before a total is admitted. | An LCA boundary, inventory table, category, or reported total does not establish FPF work parthood, measurement, aggregation work, result identity, or admissibility for every later use. | Reopen only `Exact policy`, `Overlap and shared stocks`, the engine-programme allocation paragraph, and `CC-B1.6-2/3` if ISO changes boundary or allocation requirements. |
+| [GHG Protocol *Product Life Cycle Accounting and Reporting Standard*, 2011](https://ghgprotocol.org/product-standard), including its allocation and double-counting requirements — **adapt** process subdivision/system expansion before allocation, physical or other justified allocation, and explicit double-count control for shared processes/stocks. | The ledger's shared-resource row, `Overlap and shared stocks`, the manufacturing-cell case, and `CC-B1.6-2/3` require an independently grounded overlap/shared-use fact and one edition-pinned allocation or deduplication rule. | Co-listing, a common meter, corporate/category membership, or a convenient allocation key does not prove disjointness, work structure, or a universal resource share. | Reopen only the shared-resource ledger row, `Overlap and shared stocks`, the manufacturing-cell case, and `CC-B1.6-2/3` when the joint ISO/GHG replacement changes shared-process allocation or double-count rules. |
+| [JCGM GUM-6:2020, *Developing and using measurement models*](https://doi.org/10.59161/JCGMGUM-6-2020) — **adapt** input-quantity, model-adequacy, covariance, and uncertainty-propagation discipline to the edition-pinned aggregation policy. | `Uncertainty and provenance`, the engine-programme case, and `CC-B1.6-1/3` require the input measurement uncertainties, correlations/conversions, propagation method, and qualified output uncertainty to remain distinct from provenance. | Adding source refs, estimates, or point totals does not propagate uncertainty; aggregation does not make incompatible models or quantities commensurable. | Reopen only `Uncertainty and provenance`, the engine-programme uncertainty sentence, and `CC-B1.6-1/3` if GUM changes model or propagation requirements. |
+| [ISO 80000-1:2022, *Quantities and units — Part 1: General*](https://www.iso.org/standard/76921.html) — **adapt** quantity-kind, unit, quantity-value, dimension, and coherent-unit discipline only for typed aggregation inputs and outputs. | `Typed resource basis`, the model-training case, and `CC-B1.6-1/3` keep joules, hours, mass, currency, bytes, and attention distinct unless an exact conversion/normalization and output kind are declared. | A shared numeral, unit label, normalized score, or vector slot does not authorize cross-kind addition, scalarization, efficiency, or comparability. | Reopen only `Typed resource basis`, the affected typed component in the model-training case, and `CC-B1.6-1/3` if ISO 80000 changes the mapped quantity/unit distinction. |
+
+Source refresh is local: replay the row's named rule, case, and checklist rows first. Widen only when that replay contradicts another current B.1.6 locus; a changed accounting source cannot by itself create work, overlap, measurement, result episteme, provenance, or a downstream verdict.
 
 ### B.1.6:10 - Relations
 
-- Builds on `A.15.1` for dated work occurrence and on `A.15` for role-method-work alignment.
+- Builds on `A.15.1` and `A.6.1` for dated measurement/aggregation work, role assignment, declarations, and actual bindings; C.2.1 for measurement-result and aggregation-result epistemes.
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `B.1.4` and `C.27` for phase and temporal-claim adequacy.
 - Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, phase, and constructive grounding.
 - Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern governs the recovered claim.
-- Coordinates with `C.16`, `C.29`, and `A.10` for measurement, mathematical lens, and evidence relations; source-use and publication-use relations remain with `E.17` or the direct source owner.
+- Coordinates with `C.16` for resource Characteristics and measurement results; `A.10`/`G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.14/B.1.4 for part/phase structure; E.17 for publication; and the direct comparison, assurance, transformation, reidentification, or decision owner when those uses are current.
 
 ### B.1.6:End
 
@@ -47221,228 +47168,124 @@ Model-based engineering likewise separates a readable structural model from the 
 > **Status:** Stable
 > **Type:** Pattern
 
-**Use this pattern when.** Use C.16 when a value, score, rating, metric label, QL probe output, dashboard reading, or comparison is being treated as meaningful without a visible characteristic, scale, unit, polarity, comparability basis, or evidence pointer.
+**Use this pattern when.** Use C.16 when a value, sensor indication, score, rating, dashboard reading, or comparison is being treated as a measurement without a recoverable measurand, Characteristic, Scale, method, model, calibration basis, dated work, attributed value, uncertainty, time stance, or comparability basis.
 
-**What goes wrong if missed.** Convenient numbers become free-floating facts: dashboards imply unsupported comparison, scores hide scale changes, ordinal labels are averaged as interval quantities, and measurement outputs are reused as causal, assurance, or admission claims without the pattern that governs those uses.
+**What goes wrong if missed.** Raw output, indication, actual subject state, measurement result, diagnosis, and criterion verdict collapse into one number; model and calibration assumptions disappear; uncertainty is laundered away; and a dashboard or evidence link is mistaken for work, result, assurance, or decision authority.
 
-**What this buys.** A measurement reading that a reader can interpret, compare, and reuse only within its declared measurement basis: subject, characteristic, scale, coordinate or level, unit, polarity, evidence stub, and any governing comparability or scoring basis.
+**What this buys.** One executable measurement account: exact measurand or subject, Characteristic and Scale, Unit and polarity when current, method, model, calibration, input and output quantities, uncertainty propagation, dated work with actual bindings, one measurement result, one C.2.1 result episteme, and bounded provenance and later use.
 
 ### C.16:1 - Intent (Normative)
 
-**Name.** *Measurement & Metrics Characterization (MM‑CHR).* This is a user‑oriented name: in user‑facing narrative we may say *metrics*; in **Tech** register we speak **Characteristic, Scale, Level, Coordinate, Value, Score, Unit, and ScoringMethod**; in **Formal** register we use `U.DHCMethod(Ref)`, `U.Measure`, `U.Unit`, and `U.EvidenceStub`.
-**Intent.** Provide a **transdisciplinary substrate for measurement** that any FPF pattern can rely on: a small, stable set of measurement-definition constructs and relations—**`U.DHCMethodRef`**, **`U.Measure`**, **`U.Unit`**, **`U.EvidenceStub`**—disciplined by **CSLC** (*Characteristic, Scale, Level, Coordinate*) so that every recorded value is **interpretable**, and any claim of “comparability” is **auditable** (physics lab time‑of‑flight, figure‑skating judging, architectural modularity, etc.). **C.16** does **not** re‑define **Characteristic** (A.17) nor the CSLC kernel Standard (A.18); instead, it **exports** the measurement substrate that *binds* an FPF pattern’s measurable notions to **one Characteristic and one Scale** and frames a **conceptual link to evidence**. This characterization is **notation‑neutral**, **tool‑agnostic**, and **open‑ended** (no “lifecycle” narrative; state admission and refresh proceed through `RoleStateRelation@BoundedContext` checklists when a role state is current).
+**Name.** *Measurement & Metrics Characterization (MM‑CHR).*
 
-**E.24.UK settlement.** C.16 retains a small measurement-value family, not four independent root ontics. `U.DHCMethod` is the durable measurement-template value for a declared Characteristic and Scale reading. `U.Measure` is a dependent durable reading claim that references one `U.DHCMethodRef`. `U.Unit` is a dependent scale or quantity-kind value used when the declared Scale requires unit semantics. `U.EvidenceStub` is a dependent measurement-ground locator attached to a Measure when the template requires grounds. None of these names admits a free-standing `U.Metric`, score-table, dashboard, evidence carrier, storage record, or comparison mechanism; broader scoring, normalization, selection, causal, evidence, assurance, or gate uses stay with their governing patterns.
+**Use this when.** Use C.16 when a reading, score, rating, sensor indication, dashboard value, or claimed comparison must be made interpretable as a measurement. The working question is: what exact subject or measurand was measured, for which Characteristic and Scale, by which method and model, under which calibration and time stance, with what attributed value and uncertainty?
 
-**One‑minute mental model (didactic; non‑normative).**
-* **Template** (`U.DHCMethod`) says what a value *means*: the **Characteristic**, **Scale** (and **Unit** when applicable), plus **polarity** and applicability.
-* **Measure claim** (`U.Measure`) says what was claimed about a **subject**: a value on that Scale, with a **time stance** and (when required) an **EvidenceStub**.
-* **Direct comparability** is conservative: *same template*; everything else requires a **named and cited** comparability basis governed by the relevant FPF pattern, Bridge, method description, or specification record.
+**What changes in practice.** Instead of carrying a number and a source link, the practitioner recovers a complete measurement chain: reusable specification, exact measurand, method, model, calibration basis, input and output quantities, dated measurement work, direct bindings, measurement result, one result episteme, and provenance. A reader can then tell what the reading supports and what still requires a diagnostic, criterion, assurance, causal, acceptance, or decision pattern.
 
-**Boundary to neighboring governing patterns and specification records.** C.16 governs measurement templates, readings, score meanings, scale admissibility, direct comparability, and evidence-stub adequacy. It does **not** govern (i) characterization mechanisms such as normalization, indicatorization, scoring, comparison, or selection, (ii) normalization and equivalence notions such as method tokens, invariant-value notions, or equivalence relations, (iii) claim-use policies such as comparability modes and admission gates, or (iv) suite protocol obligations. Those meanings are governed by their FPF patterns or specification records, such as CN-Spec, CG-Spec, and the CHR mechanism-governing patterns. C.16 may **cite** those patterns or records when motivating evidence or interpretability, but MUST NOT introduce or restate their terminology or laws.
+**Not this pattern when.** Use A.17 for the Characteristic, A.18 for scale-operation legality, C.16.P while measurement wording is still ambiguous, A.19 for comparison or selection, C.28 for causal use, A.10/G.6 for provenance, B.3 for assurance, G.4 for an acceptance declaration, G.11 for currentness, and C.11 for a decision result. C.16 supplies none of those results by implication.
 
-**Use this when.** Use this pattern when a value, score, rating, metric label, QL probe output, dashboard reading, or comparison is being treated as meaningful without a visible characteristic, scale, unit, polarity, comparability basis, or evidence pointer. The action is to rebuild the measurement claim as a typed reading: name the subject, bind one characteristic to one scale, state the coordinate or level, declare unit and polarity when they matter, attach the evidence stub, and keep comparison or scoring claims with broader scope, higher evidence requirement, or release or admission use with the governing pattern or specification record that governs that comparison or scoring claim.
+**Local designators.** `MeasurementSpecification`, `MeasurementMethod`, `MeasurementModel`, `MeasurementWork`, `MeasurementResult`, and `MeasurementResultEpisteme` name exact objects in one case; they are not new public U-kinds or universal relation types. `MeasurementMethod` is one exact `U.Method`; `MeasurementWork` is one dated `U.Work`; `MeasurementResultEpisteme` is one C.2.1 episteme.
 
-**What goes wrong if missed.** Convenient numbers become free-floating facts: dashboards imply unsupported comparison, scores hide scale changes, ordinal labels are averaged as interval quantities, and measurement outputs are reused as causal, assurance, or admission claims without the pattern that governs those uses.
+**Compatibility with the retained measurement family.** `U.DHCMethod` remains the durable measurement-definition value that fixes the Characteristic, Scale, unit and polarity and cites the exact method and model. `U.Measure` remains the durable reading claim: when persisted, it is the C.2.1 result episteme that states the C.16 measurement result. `U.Unit` carries quantity-kind and conversion semantics when the Scale requires them. `U.EvidenceStub` is only a compact locator into A.10/G.6 provenance; it is not the measurement result, an evidence carrier, a work record, or a relation that establishes measurement.
 
-**What this buys.** A measurement reading that a reader can interpret, compare, and reuse only within its declared measurement basis: subject, characteristic, scale, coordinate or level, unit, polarity, evidence stub, and any governing comparability or scoring basis.
+### C.16:2 - Scope and result boundary (Normative)
 
-**Not this pattern when.** Not this pattern when the live question is naming a characteristic (`A.17`), scale operations (`A.18`), measurement wording repair before the measurement object is recoverable (`C.16.P`), causal use (`C.28`), assurance (`B.3`), or mathematical-lens adequacy (`C.29`).
+C.16 governs the measurement-specific result algebra:
 
-Thin precision-restoration pointer: if the current issue is still whether wording such as *metric*, *measure*, *score*, *axis*, *dimension*, *level*, *coordinate*, *quality*, or *stronger/weaker value* names a characteristic, scale, coordinate, score, unit, scoring method, quality-term repair, or application of the pattern governing the recovered claim, use `C.16.P` first. Do not copy the `C.16.P` trigger table here; C.16 resumes after the measurement or characteristic construction is recoverable.
-Useful output: a measurement claim that a reader can interpret and compare only within its declared measurement basis, without turning a convenient number into a free-floating fact.
+- one measurand or otherwise exact measurement subject;
+- one Characteristic and one Scale, with Level or Coordinate and Unit when applicable;
+- the reusable measurement specification, exact `U.Method`, measurement model, calibration requirements, and uncertainty treatment;
+- dated measurement work with performer, actual bindings, resources, and time stance;
+- the value or set of values attributed to the measurand together with relevant information, including uncertainty and interpretation basis; and
+- direct comparability within the declared basis.
 
-Metric admissibility does not make causal use admissible. If a measured value, score, dashboard reading, or metric disparity reaches `CausalUseActivation` by being used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, or causal method superiority, keep the measurement repair in `C.16` and carry the causal-use question, causal-ladder rung, estimand, support basis, support verdict, admissible causal use, and inadmissible causal use in `C.28`.
+C.16 does not turn an instrument message, file, dashboard tile, ledger row, or evidence citation into a measurement result. It does not own the actual subject state, diagnosis, criterion verdict, acceptance action, assurance claim, causal conclusion, or decision. It introduces no universal measurement-result, work-result, evidence-use, common-scale, or criterion-participant relation.
 
-**Outcomes.**
-(1) A uniform way for FPF patterns to *declare* what is measured and *read* what has been measured; (2) explicit **Characteristic binding** and **Scale typing** per CSLC; (3) principled **comparability** and **polarity** (declared at the template level); (4) **traceability** via conceptual evidence stubs; (5) seamless alignment with cross‑domain quantity notions (ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN, Verspoor) through Unification rows (Part F).
+### C.16:3 - Problem Frame
 
-### C.16:2 - Scope & Status (Normative)
+A measurement is often compressed to `subject → value`. That abbreviation hides the measurand, the quantity or characteristic intended to be measured, the model relating inputs to an output quantity, the calibration basis, the work occurrence, and the uncertainty carried into later use. It also makes raw instrument output, a displayed indication, an attributed measurement result, a diagnostic interpretation, and a criterion verdict look like one object.
 
-**Scope.** **C.16** specifies the **measurement substrate** for FPF patterns: the roles of `U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`; their **CSLC discipline** (by reference to A.17 and A.18); and **evidence linkage semantics** at the level of *conceptual conditions*. It defines **direct interpretability** and **direct comparability** (same template), and it equips other patterns to state—and audit—comparability claims beyond direct comparability by **citing** the governing FPF pattern, method description, Bridge, or specification record. It **exports** these constructs for all FPF patterns (KD‑CAL, Arch‑CAL, etc.) without prescribing domain formulae, procedures, or any CHR mechanism semantics.
+The failure becomes visible when two readings are compared, when a detector output is treated as the state of the subject, or when a dashboard value is reused as evidence, assurance, acceptance, or decision authority. C.16 restores the measurement-specific objects before any receiving use is judged.
 
-**Status.** **Normative** C.16 **depends on** A.17 (canonical **Characteristic**) and A.18 (minimal **CSLC** in Kernel). Where C.16 cites external CG‑frames, the stance is through **Part F** rows and **Bridges** (with CL and loss notes), not by vocabulary import.
+### C.16:4 - Forces
 
-**Out of scope.** No computational recipes, no work-procedure prescriptions, no governance or process guidance. No definitions of normalization, indicatorization, scoring, comparison, or selection mechanisms, no comparability policy specifications, and no admission gate specifications. C.16 concerns **measurement-definition constructs** and their **validity conditions** for measurement claims, not records or tooling. (Implementation guidance, if any, belongs outside Part C.)
+- **Interpretability vs convenience.** A compact value is easy to carry; a usable result needs its measurand, Characteristic, Scale, model, calibration, uncertainty, and time stance.
+- **Model dependence vs objectivity rhetoric.** Measurement may use corrections, calibration coefficients, influence quantities, and inference. Hiding them does not make the result more direct.
+- **Cross-domain reuse vs scale coercion.** Physics, software quality, architecture, survey, and judging cases need common discipline without one common scale.
+- **Repeatability vs occurrence identity.** A reusable method and operation declaration do not establish that measurement work occurred or that actual participants were bound.
+- **Result vs later interpretation.** A value attributed to a measurand is not by itself a diagnosis, conformance verdict, causal conclusion, assurance claim, or decision.
 
-### C.16:3 - Problem Frame - Context (Informative)
+### C.16:5 - Solution — recover one complete measurement chain (Normative)
 
-FPF needs measurement language that can travel across patterns without turning every number into its own local ontology. The recurring context is any pattern that relies on a value, score, rating, scale position, or characteristic comparison and therefore needs the reader to know what is being measured, on what scale, and under what comparability condition.
+Start with one ordinary direct sentence:
 
-### C.16:3.1 - Problem
+> Dated measurement work `W` applied method `M` to measurand `x`, using model `f`, calibration basis `K`, and actual input bindings `X`, and obtained output quantity value `y` with stated uncertainty `u`; episteme `E` states that measurement result under its declared Characteristic, Scale, unit, time stance, and interpretation basis.
 
-Across FPF patterns, people say “score”, “metric”, “rating”, “property”. Without a shared substrate, numbers drift: *42 of what? on which scale? comparable to whom?* C.16 eliminates drift by requiring every metric notion to **bind** to **one** Characteristic and **one** Scale, and by **separating** Characteristic/template bindings from descriptions and ScoringMethods. The result is **portable meaning**: a measure is always readable as a **Coordinate on a declared Scale of a named Characteristic**, with a principled path to evidence.
+If any noun in that sentence cannot be grounded, return that exact gap rather than filling it with a generic result or evidence relation.
 
-### C.16:3.2 - Context and prior art
+#### C.16:5.1 - Name the measurand and measurement subject
 
-* **Kernel canon.** A.17 makes **Characteristic** the sole canonical head for measurability; A.18 fixes **CSLC** as the minimal sufficiency for interpretability. C.16 relies on both.
-* **Cross‑domain alignment.** The MM‑CHR family maps admitted FPF measurement values and C.3-governed kind values to **ISO 80000‑1 (Quantity)**, **ISO/IEC 25024 (Data‑quality Characteristic)**, **QUDT (QuantityKind and QuantityValue)**, **W3C SOSA/SSN (Observable, Observed, and Result)**, and domain “feature/metric” usage (Verspoor, TF Metrics). C.16 uses these rows **as Bridges** (Part F), preserving local senses and documenting losses.
-* **Open‑ended evolution.** FPF replaces “lifecycle” with `RoleStateRelation@BoundedContext` state checklists (A.2.5): movement is admitted through **certified states** with checklists; re-entry is valid when distinctions change. C.16 uses this device only to frame **readiness** and **revision** of metric notions conceptually (no processes implied).
+**M‑SUB‑1.** Name the measurand: the quantity or characteristic intended to be measured. When FPF uses a non-quantity Characteristic, name the exact subject and the Characteristic whose Scale position is being attributed.
 
-### C.16:4 - Forces (Informative)
+**M‑SUB‑2.** Preserve arity. An entity Characteristic has one subject; a relation Characteristic has the exact ordered or unordered tuple required by A.17. A relation reading is not silently rewritten as a unary property of one participant.
 
-**F1 — Interpretability first.** A value detached from its Characteristic and Scale is meaningless; CSLC supplies minimum context.
-**F2 — Transdisciplinarity.** Physics, architecture, curation, sport judging—*one* substrate must cover all while respecting scale types and polarity.
-**F3 — Characteristic/template vs description.** Confusing the **`U.Characteristic`** or measurement template with its rubric or exemplar text (descriptions) corrupts claims; C.16 keeps them distinct.
-**F4 — Comparability without coercion.** Ordinal ≠ interval; ratio admits unit change, ordinal does not; polarity matters for “better/worse”. C.16 encodes these **as conceptual constraints**, not formulas.
-**F5 — Evidence sufficiency.** A measure should be *checkable in principle*; evidence is a **conceptual link** (not storage advice).
-**F6 — Lexical discipline.** One canon in normative register; narrative labels are didactic only (Part E). C.16 reuses E.10’s **register mapping**.
+**M‑SUB‑3.** Distinguish the measurand from the actual subject state. A measurement result attributes values under a method and model; it does not make the physical, social, architectural, or epistemic state identical to the result episteme.
 
-### C.16:5 - Solution - Outline (Normative)
+#### C.16:5.2 - Fix Characteristic, Scale, unit, polarity, and time stance
 
-**S1 — Exported objects.** C.16 **exports** four measurement constructs to be used by any FPF pattern:
+**M‑CSLC‑1.** One `U.DHCMethod` binds exactly one Characteristic to exactly one Scale. A discrete reading names its Level; another reading names its Coordinate or value on that Scale.
 
-1. **`U.DHCMethod`** — a *measurement template* (a Definition) that binds **one `U.Characteristic`** to **one Scale form**, with declared **polarity** and (optionally) a **citation point** to the governing FPF pattern, method description, Bridge, or specification record for any non-trivial equivalence or comparability claim that is relied upon elsewhere. **References** to this template use `U.DHCMethodRef`. It is a *measurement-definition specification*, not a record layout.
-2. **`U.Measure`** — an *assertion* that a **subject** occupies a **Coordinate** (or **Level**, if discrete) on that Scale; the measure **references** its template and carries a **conceptual pointer to evidence** (`U.EvidenceStub`).
-3. **`U.Unit`** — the *unit kind* associated with the Scale where applicable (physical quantities, normalized “points”, “stars”, “%”); unit coherence is part of comparability conditions.
-4. **`U.EvidenceStub`** — a *conceptual locator* of grounds for the asserted value (type, identifier, brief summary, optional integrity notion); sufficiency criteria are **conceptual** (see §9 below).
+**M‑CSLC‑2.** When units apply, name the quantity kind and presentation Unit. Conversions are admissible only when they preserve the quantity kind and the Scale supports the operation. Nominal and ordinal labels do not acquire interval or ratio arithmetic by being encoded as numbers.
 
-**S2 — Comparability stance (boundary‑aware).** C.16 states only the **direct** comparability condition for measurement claims: *same template* (hence, same Characteristic, Scale, and Unit semantics by reference to A.17 and A.18). Any comparability claim that relies on transformations (normalization, scoring, aggregation, cross‑context transport, bridge losses, admission gating) MUST cite the governing CN-Spec record, CG-Spec record, or relevant mechanism pattern. C.16 does not define those transformations or their laws. (Details: §7–§8 below.)
+**M‑CSLC‑3.** An ordered Scale declares polarity: higher-is-better, lower-is-better, or target-is-best. Polarity guides later interpretation; it is not an acceptance criterion or decision rule.
 
-**S3 — Evidence stance.** A measure that, by its template, **requires** evidence, is **inadmissible** without a meaningful `U.EvidenceStub`. C.16 defines **what it means conceptually** for evidence to “connect” the subject, the Characteristic, and its symbolic description; mechanisms are out of scope. (Details: §9 below.)
+**M‑CSLC‑4.** State the time stance: instantaneous or as-observed at `T`, aggregated over window `W`, or another exact temporal basis. A later value does not silently replace an earlier result.
 
-**S4 — Role-state-relation framing (open‑endedness).** Readiness, calibration, and revision of metric notions are expressed as role-state-relation assertions and checklist-governed state changes (e.g., “characteristic bound”, “Scale typed”, “Unit coherent”, “ScoringMethod declared”), allowing **re‑entry** when distinctions change; there is no terminal “lifecycle”. (Details: §10 below.)
+#### C.16:5.3 - Separate method, description, model, calibration, and work
 
-#### C.16:5.1 - Lexical Discipline & Registers (Normative)
+**M‑METH‑1.** `MeasurementMethod` is one exact `U.Method`. Its `U.MethodDescription` may state generic participants, parameters, effects, and measurement conditions; it contains no actual-participant slots and does not claim that measurement occurred.
 
-**L1 — Canon.** Use **Characteristic, Scale, Level, Coordinate, Value, Score, Unit, and ScoringMethod** in **Tech** register; their `U.*` counterparts in **Formal**. Narrative labels (e.g., *axis*, *points*, *stars*) are **didactic only**, and are mapped at first mention to the Tech canon (E.10).
-**L1‑bis — “metric”.** The noun *metric* is **not** a Tech‑register canonical token for measurables; use **Characteristic, Scale, Coordinate, Score, and ScoringMethod**. It **may** appear in the pattern title and in the Formal names `U.DHCMethodRef` and `U.Measure`. Do not use *metric* as a synonym for **Characteristic** or **Score** in normative prose.
-**L2 — Characteristic/template vs Description.** Keep C.16 measurement-definition objects (`U.DHCMethodRef`, `U.Characteristic`) distinct from **descriptions** (rubrics, exemplars) and from **claims** (`U.Measure`). No collapsing of names across these positions.
-**L3 — No synonym sprawl.** In normative clauses do **not** substitute *dimension*, *axis*, *property*, or *feature* for **Characteristic**; A.17 governs canonicalization. (C.16 inherits A.17’s rename policy.)
-**L4 — Bridge‑only unification.** Cross‑vocabulary sameness appears only via **F.9 Bridges** with **CL** and **loss notes**; C.16’s lexicon is the *source* side for measurement rows.
-**L5 — Plain‑register shorthand.** In **Plain** register *metric* MAY be used as shorthand for “template + readings”, but on first use it MUST be mapped to **`U.DHCMethod` (template)** and **`U.Measure` (reading)**, and to the Tech canon terms that matter for meaning.
-**L6 — No local CHR-mechanism terminology canon.** Tokens and laws governed by characterization mechanisms (e.g., normalization method tokens, invariant-value notions, indicatorization policy terms) MUST be introduced only by their governing FPF patterns. C.16 may mention them only as **cited** external terms, never as locally defined canon.
+**M‑MODEL‑1.** `MeasurementModel` states how input quantities and influence quantities determine or constrain the output quantity. It names the model edition, assumptions, corrections, and domain of validity. A formula, software function, or signature is only a representation or declaration of that model until its exact governed object is recovered.
 
-#### C.16:5.2 - Relations (pointers; details below)
+**M‑CAL‑1.** Name the calibration basis required for the use: reference standard or comparison basis, dated calibration work and result when current, calibration coefficients or corrections, applicable interval, and uncertainty contribution. A calibration certificate or ledger row cites these facts; it does not establish them by being stored.
 
-**To A.17 and A.18.** C.16 *uses* A.17’s canonical **Characteristic** and A.18’s **CSLC sufficiency**; it neither re‑states nor weakens them.
-**To Part F.** C.16 is the **exporting pattern** behind measurement rows in UTS rows and Bridges (e.g., **result‑value** ↔ SOSA `Result`, ISO `QuantityValue`).
-**To Arch‑CAL.** Architectural qualities (*Coupling, Cohesion, Evolvability*) become **Characteristics** measured via C.16 templates; architectural dynamics read as trajectories in **CharacteristicSpace** (A.17 context).
+**M‑WORK‑1.** `MeasurementWork` is one exact dated `U.Work` with an occurrence designator, temporal extent, performer through `U.RoleAssignment`, `enactsMethod`, exact measurand or affected referent, actual resources, and concrete participants through direct subject relations or A.6.1 operation-application bindings. A plan, compatible signature, method description, instrument type, or retained reference establishes none of those actual bindings.
 
-#### C.16:5.3 - Normative Core Model (types & Standards)
+#### C.16:5.4 - Recover input quantities, output quantity, and uncertainty
 
-> **Position.** MM‑CHR does **not** redefine kernel terms; it **binds** them to an FPF‑level Standard that every metric must satisfy. Canonical vocabulary and CSLC duties are inherited from **A.17** and **A.18** and referenced here without duplication.
->
-> **Governing references.** A.17 and A.18 govern Canon and CSLC; C.16 **adopts by reference** and keeps restatements of their definitions out of scope. C.16 only **exports** `U.*` constructs, comparability stance, evidence semantics, and role-state-relation touch-points.
->
-> **CHR boundary reminder.** Any notion that belongs to characterization mechanisms (normalization, indicatorization, scoring, aggregation, comparison, selection) appears in C.16 only as a **pointer** to its governing FPF pattern or specification record. C.16 MUST NOT become a shadow governing pattern for any such terminology or laws.
+**M‑IO‑1.** Name each actual input quantity used by the model, including indications, repeated observations, environmental or other influence quantities, reference values, calibration coefficients, and applied corrections when current. Name the exact output quantity whose value is attributed to the measurand. These are measurement-model roles, not a universal work input-output ontology.
 
-##### C.16:5.3.1 - `U.DHCMethod` — the measurement template (normative)
+**M‑UNC‑1.** State the uncertainty associated with the attributed value or values whenever it affects interpretation or use. Identify the contributing input uncertainties, correlations or covariance when relevant, propagation method, coverage or interval interpretation, and significant model inadequacy. An uncertainty number without its interpretation is not complete.
 
-**Function.** A measurement-template **Standard** that fixes *what is measured* and *how values must be read*—without producing any values itself. It is a *Definition*, not a Measure. **References** to this template use `U.DHCMethodRef`. *(Didactic: think “the meaning declaration for a reading”.)*
+**M‑UNC‑2.** Propagation follows the declared measurement model. Linearized propagation, sampling, interval, set-valued, or another method is admissible only under its own assumptions. Combining provenance pointers is not uncertainty propagation, and more cited grounds do not monotonically guarantee lower uncertainty.
 
-**R-MT-1 (CSLC binding).** A DHCMethod **SHALL** bind to **exactly one** `U.Characteristic` and **exactly one** **Scale‑form** admissible for that Characteristic (cf. A.18). Level is **optional** (used when the scale is enumerated); otherwise values are given directly as Coordinates.
+#### C.16:5.5 - State one measurement result and one result episteme
 
-**R‑MT‑2 (Unit).** If the scale carries units (interval or ratio), the template **SHALL** designate a **Unit** of presentation. For ordinal or nominal scales, unit may be absent or a nominal label (e.g., “stars”). (Old MM‑CHR Annex A already listed these structural elements; here we fix the conceptual obligation. )
+**M‑RES‑1.** `MeasurementResult` is the value or set of values attributed to the measurand together with relevant information needed to interpret them. At minimum, recover the measurand, Characteristic, Scale, attributed value or values, Unit when relevant, uncertainty, method, model, calibration basis, time stance, and exact measurement work.
 
-**R‑MT‑3 (Polarity).** For any ordered scale, the template **SHALL** declare polarity (*higher-is-better*, *lower-is-better*, or *target-is-best*), as a semantic reading aid and as an input to consuming patterns. If polarity is *target-is-best*, the template **SHALL** name the target value (or target set) and MAY cite by reference the governing method description, scoring pattern, normalization pattern, selection pattern, or policy publication that carries any tolerance or fall-off convention used by downstream mechanisms or methods. C.16 does **not** standardize tolerance or fall-off semantics.
+**M‑RES‑2.** `MeasurementResultEpisteme` is one exact C.2.1 episteme. Its ClaimGraph states the C.16 result, subject, interpretation basis, polarity or domain status when current, and uncertainty. `U.Measure` may designate this retained reading claim. The episteme is not the measurand, actual subject state, raw output, indication, diagnosis, or criterion verdict.
 
-**R‑MT‑4 (Applicability).** A template **SHALL** state the **applicability frame** (what kinds of subjects it meaningfully applies to) in conceptual terms; this is a property of the definition, not of any measure.
+**M‑RES‑3.** When exact work and governed actual changes first establish the episteme's identity and that inception matters, A.15.PROD supplies the local entity-identity inception claim. C.16 does not introduce a work-to-result relation.
 
-**R‑MT‑5 (Template vs description).** The template is a **measurement template**. Any rubric, checklist, or prose that explains it is a **Description**; they are related but not identical (E.10 discipline).
+#### C.16:5.6 - Keep comparability and scoring bounded
 
-**R‑MT‑6 (Cardinality hint).** A Template **MAY** declare its intended **cardinality semantics** for a subject within a **time stance** (e.g., *latest‑only*, *at‑most‑one‑per‑day*, *time series*).
-Where declared, claims outside that semantics are **inadmissible conceptually** (they must be reframed or versioned). *Purpose:* prevent silent duplicates and mixed regimes without imposing storage logic.
+**M‑CMP‑1.** Direct comparability is conservative: two readings cite the same `U.DHCMethodRef`, Characteristic, Scale and Unit semantics, compatible model and calibration regime, and a compatible time or population basis. Similar labels or units are insufficient.
 
-**R‑MT‑7 (MAY).** `UncertaintyPolicy` — optional conceptual guidance on how uncertainty is expressed or read (e.g., band, confidence interval, or quantile), without prescribing methods/tools.
-*(Informative examples: calibrated probability with a confidence band; a prediction interval; a set‑valued reading such as a prediction set.)*
+**M‑CMP‑2.** Cross-template conversion, normalization, scoring, aggregation, comparison, selection, or cross-context transport names its exact governing pattern, method, declaration, Bridge, and loss or uncertainty consequence. C.16 does not mint a common scale or corpus-wide migration relation.
 
-##### C.16:5.3.2 - `U.Measure` — the recorded reading (normative)
+**M‑SCORE‑1.** A Score is another declared Scale reading. Its scoring method and actual application remain under their direct method, work, and operation-binding owners. A score does not overwrite its source measurement results.
 
-**Function.** A **claim** that a subject occupies a **Coordinate** (or named **Level**) on the template’s scale, backed by a minimal pointer to its grounds.
+#### C.16:5.7 - Route provenance and later use outward
 
-**R‑ME‑1 (Template binding).** Every Measure **SHALL** reference exactly one DHCMethodRef; its **Value or Coordinate** must be **valid** for that template’s scale (type, range, category).
+`U.EvidenceStub` may carry a type-of-ground and identifier that lead to the exact A.10/G.6 provenance path. The path can cite the method description, model, calibration, work, inputs, output, result episteme, source publications, and transformations. Neither the stub nor a graph edge establishes those objects or their obtaining relations.
 
-**R‑ME‑2 (Subject).** A Measure **SHALL** identify its **subject‑of‑measurement** (the bearer) unambiguously in the same Context of meaning as the template’s applicability frame.
+A later comparison, diagnosis, criterion evaluation, acceptance action, or decision is separate dated work. It uses the result episteme through an exact premise, reference, operation-argument, decision-use, or other direct relation. Currentness belongs to G.11; bounded reliance to A.10 or B.3 under their entry conditions.
 
-**R‑ME‑3 (Evidence stub).** Where the template requires it, a Measure **SHALL** include an **EvidenceStub**—a conceptual pointer sufficient to support independent reasoning about the claim’s origin. Use only the conceptual grounding role here; storage-level traceability and provenance mechanisms are governed elsewhere.
+#### C.16:5.8 - Lexical and neighboring-pattern discipline
 
-**R‑ME‑4 (Time stance).** A Measure **SHALL** carry a **time stance** (e.g., “as‑observed at T”, or “as‑aggregated over W”), expressed conceptually; it disambiguates the reading’s intended window without prescribing formats.
+Use **measurand**, **measurement subject**, **Characteristic**, **Scale**, **Level**, **Coordinate**, **value**, **Unit**, **measurement method**, **measurement model**, **calibration**, **uncertainty**, **measurement work**, and **measurement-result episteme** for their exact jobs. Plain-register *metric*, *reading*, *score*, and *output* are acceptable after first-use mapping. Do not use *measurement result*, *evidence*, *validation*, or *verification* as umbrella terms for several governed objects.
 
-**R‑ME‑5 (Entity vs relation).** If the Characteristic is **relational**, the subject is a **tuple** (pair, k‑tuple); the wording of the claim reflects that arity and the template’s relation topology (cf. A.17).
-
-**R‑ME‑6 (MAY).** `UncertaintyStub` — optional conceptual pointer to the adopted uncertainty estimation for this Measure, **if** required by the template.
-
-> *Informative source reference.* The “Article Completeness” example illustrates the split template/measure/evidence; **C.16** keeps the split but keeps storage-level talk out of scope.
-
-##### C.16:5.3.3 - `U.Unit` — semantics of quantities (normative)
-
-**Function.** A conceptual marker of **quantity kind** and admissible **conversions** within that kind; not every scale requires it.
-
-**R‑UN‑1 (Quantity kind).** Where units apply, the template **SHALL** indicate the **quantity kind** (e.g., Time, Length, Dimensionless‑Score). Units are meaningful only **within** one kind.
-
-**R‑UN‑2 (Convertibility).** Comparisons across different units are valid **iff** they are **convertible** by kind-preserving transformation (ratio or interval scales); for ordinal or nominal scales, no numeric conversions exist.
-
-**R‑UN‑3 (Canonical labels).** `%` denotes “fraction×100”; “points” denotes dimensionless magnitudes used for scores; “stars” denotes discrete ordinal marks. These are **labels** of representation, not new characteristics.
-
-**R-UN-4 (Quantity-kind bridge).** A Template on an interval or ratio Scale **SHOULD** name the underlying **quantity kind** (e.g., ISO 80000/QUDT category) to enable safe external bridges. This does **not** import external vocabularies; it declares an alignment point.
-
-##### C.16:5.3.4 - `U.EvidenceStub` — pointer to grounds (normative)
-
-**Function.** A compact **tie** from a Measure to the grounds sufficient for **reasoned audit** (not a repository prescription).
-
-**R‑EV‑1 (Minimal sufficiency).** An EvidenceStub **SHALL** carry, at minimum, a **type‑of‑ground** and an **identifier** sufficient to retrieve or reconstruct the grounds in the appropriate Context of meaning.
-
-**R‑EV‑2 (Compositionality).** Multiple grounds may be **composed** as a finite set; composition is **commutative, associative, and idempotent** at the level of stubs, enabling conceptual merge of corroborations.
-
-**R‑EV‑3 (Soundness axiom).** A Measure is **MM‑CHR‑admissible** only if at least one **auditable chain of grounds** can be stated from the bearer to the Characteristic via an appropriate description episteme that carries the measured subject, characteristic, and evidence relation. *(Note:* mechanism‑level admissibility gates (e.g., admission thresholds or evidence thresholds in CG‑frames or CHR mechanisms) are governed by their FPF patterns or specification records; C.16 defines only the conceptual “has grounds” link.)
-**R‑EV‑3 (Soundness axiom).** A Measure is **MM‑CHR‑admissible** only if at least one **auditable chain of grounds** can be stated that connects:
-`bearer (subject) -> grounds -> Characteristic -> Coordinate or Level on the declared Scale`,
-in the appropriate Context of meaning. *(Informative: this is the measurement-claim binding chain.)*
-*(Boundary note:* mechanism‑level admissibility gates (e.g., admission thresholds or evidence thresholds in CG‑frames or CHR mechanisms) are governed by their FPF patterns or specification records; C.16 defines only the conceptual “has grounds” link.)
-
-#### C.16:5.4 - Polarity, Comparability, and ScoringMethods (normative)
-
-> **Notation.** To avoid clashes with the kernel’s global aggregation symbol, this FPF pattern denotes a **ScoringMethod** (score‑level mapping) by **𝒢** (calligraphic 𝒢).
-
-**R‑POL‑1 (Declared polarity).** Every ordered scale **SHALL** declare polarity at the **template**. Any disclosed scoring method **𝒢** that issues a **Score** for that template **SHALL** be order‑compatible with the declared polarity semantics (monotone for ↑/↓ polarity; target‑aware only when the target semantics is explicitly declared and cited where it depends on external conventions).
-
-**R‑CMP‑1 (Direct comparability).** Two readings are **directly comparable** only when they reference the **same `U.DHCMethodRef`** (hence share Characteristic, Scale, and Unit semantics by reference to A.17 and A.18). “Same‑template” is the only comparability relation defined by C.16.
-*(Clarification:* sharing a name, unit label, or scale type across distinct templates is **not** sufficient for comparability in MM‑CHR; cross‑template comparability must be established via **R‑CMP‑2**.)*
-
-**R‑CMP‑2 (Transformed comparability is cited, not defined).** If a comparison relies on any transformation or supporting step (e.g., normalization, indicatorization, scoring, aggregation, cross‑context transport, bridge conversions, admission gates), that step **SHALL** be **named and cited** via its governing FPF pattern or specification record. C.16 does not define such transformations, their law sets, or their admissibility conditions.
-
-**R‑G𝒢‑1 (ScoringMethod disclosure).** If a pattern issues a **Score** (a value on a score scale), its scoring method **𝒢 : Coordinate -> Score** **SHALL** be identified **by reference** to its governing method-description episteme or FPF pattern, and SHALL disclose:
-(i) a **bounded codomain** and score range, and
-(ii) an explicit **order‑compatibility statement** (e.g., monotonicity) consistent with the template’s declared polarity.
-When reproducibility matters, the reference SHOULD be edition-pinned according to that episteme or pattern's authoring discipline.
-C.16 does not define scoring methods; it only requires that a score be interpretable as a reading on a declared scale.
-
-**R‑G𝒢‑2 (Ordinal respect).** For ordinal inputs, any cited scoring method must be **order‑preserving**; interval assumptions **MUST NOT** be smuggled in. *(Normative source for scale admissibility remains A.18; C.16 only enforces “no silent semantics upgrade”.)*
-
-#### C.16:5.5 - Entity vs Relation bindings (normative clarifications)
-
-**R‑ER‑1 (Arity preservation).** If the Characteristic is `U.EntityCharacteristic`, the subject is **one** bearer; if `U.RelationCharacteristic`, the subject is a **k‑tuple** (k ≥ 2). The Measure’s claim text **SHALL** reflect this arity.
-
-**R‑ER‑2 (Relation scale).** Relation‑valued scales **SHALL** fix their symmetry/antisymmetry and directionality (e.g., distance symmetric; influence directional), at the **template** level.
-
-**R‑ER‑3 (Bridge to CG‑frames).** In architectural CG‑frames, **Coupling/Cohesion** are Characteristics over **modules** (structure) or **roles** (function). Their measures are relational (**Coupling**) or unary (**Cohesion** within an element), but both live in the same MM‑CHR substrate.
-
-#### C.16:5.6 - Acceptance (conceptual, role-state-relation aware)
-
-> Acceptance here is **thought‑level**. It uses the `RoleStateRelation@BoundedContext` (A.2.5) pattern to organise mental checks—no “lifecycle” narratives.
-
-**SCR‑C16‑A (Template sufficiency).** You can check—without invoking tooling—that the template has:
-(i) a fixed **Characteristic** (A.17),
-(ii) a typed **Scale form** (A.18), and
-(iii) coherent **Unit** semantics where applicable (plus declared polarity for ordered scales).
-
-**SCR‑C16‑B (Reading sufficiency).** For a given subject, you can check that the reading:
-(i) cites the template,
-(ii) states a value valid for the Scale (Coordinate/Level),
-(iii) states a time stance,
-(iv) names **𝒢** when a Score is issued, and
-(v) provides EvidenceStub(s) where the template requires them.
-
-**SCR‑C16‑C (Comparability).** When two readings are placed side‑by‑side, you can state in one breath whether they are **comparable as‑is** or only **after 𝒢**, and **why**.
-
-**SCR‑C16‑D (Evidence adequacy).** For any required EvidenceStub, you can sketch at least one **auditable chain of grounds** from the subject to the Characteristic via a Description in the right Context.
-
-#### C.16:5.7 Cross-references & source references
-
-* **A.17 (CHR‑NORM).** Canonical **Characteristic** and Entity/Relation split; lexical rules and alias sunset.
-* **A.18 (CSLC‑KERNEL).** One Characteristic + one Scale per template; Level optional; operation guard by scale type.
-* **MM-CHR source examples.** Cross-domain alignment hints for Characteristics, Observations, and Quantities across ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN are used here only as conceptual witnesses.
+**Key relations.** C.16 uses A.17 and A.18 for Characteristic and Scale legality; A.6.1 and A.15.1 for declarations, bindings, work, and roles; C.2.1 for the result episteme; A.10/G.6 for provenance; G.11 for currentness; B.3 for assurance; and the exact receiving pattern for diagnosis, acceptance, causality, comparison, selection, or decision.
 
 ### C.16:6 - Scale-type admissibility quick reference (Informative)
 
@@ -47465,208 +47308,154 @@ G‑5 (Target polarity). If polarity is targeted, comparisons use distance‑fro
 
 *(These rules line up with the MM‑CHR exposition of CSLC and term discipline; A.17 fixes the lexical side.)*
 
-### C.16:7 - Evidence Semantics (Normative)
+### C.16:7 - Provenance and use semantics (Normative)
 
-#### C.16:7.1 - What an Evidence Stub is (and is not)
+#### C.16:7.1 - What an EvidenceStub is and is not
 
-**Definition.** `U.EvidenceStub` is a **conceptual pointer** that ties a **measure** to the **grounds** sufficient for independent checking (observations, arguments, admissible transformations). It is not the run log, not the evidence carrier, and not the characteristic itself. This keeps **EntityOfConcern and Description-episteme boundary and specification use** distinct per E.10.D2 and the Clarity Lattice.
+`U.EvidenceStub` is an optional compact locator from the reading claim to an exact provenance path. It may identify a source publication, calibration record, instrument output, model edition, work occurrence, transformation, or other ground, but A.10/G.6 govern the path and its citations.
 
-**Rule Σ‑1.** Whether evidence is **required** is a **property of the metric template**; if required, each `U.Measure` **SHALL** include an `U.EvidenceStub`.
-**Rule Σ‑2.** Evidence composition is **commutative, associative, idempotent** at the concept level (sets/multisets of grounds); combining grounds can never *reduce* what is knowable about the measure’s warrant.
-**Rule Σ‑3.** *Soundness minimum:* there exists a conceptual chain linking **bearer → Characteristic → Scale and Unit → admissible method or episteme**. (No “free‑floating numbers”.)
-**Rule Σ‑4.** Any declared *agreement* construct used as evidence (e.g., dual readings, panels) **SHALL** respect the template’s scale type (per A.18) (e.g., order‑based concordance for ordinal; tolerance‑based agreement for interval or ratio).
-**Note (boundary).** CG‑frame evidence thresholds (e.g., “minimal evidence” gates used by selection, scoring, or comparison mechanisms) are governed by their FPF patterns or specification records. C.16 defines only the EvidenceStub semantics that such gates may cite.
-*Source references:* MM‑CHR units and evidence notion; Strict Distinction and the separation of objects from their descriptions and specifications.
+- The stub is not evidence in the abstract, a result, an instrument output, a work record, an assurance claim, or a provenance-as-result object.
+- Several stubs form a list of locators, not a measurement algebra. Their union is not uncertainty propagation and does not guarantee stronger warrant.
+- A provenance edge may be asserted only after its direct source relation, work fact, participation, production, representation, or citation relation is independently established.
+- A later user states the exact relied-on claim and local `RelianceDisposition`; material reliance or an assurance claim enters B.3. Mere availability, citation, or graph membership does not establish actual use.
 
-### C.16:8 - Integration with Role-State Relation and Dynamics (Normative and Clarifying)
+### C.16:8 - Measurement-result boundaries (Normative)
 
-#### C.16:8.1 - `RoleStateRelation@BoundedContext` touch-points
+Keep the following objects distinct even when one carrier displays several of them:
 
-MM‑CHR **supplies recognisers** used in **State Checklists**. A checklist criterion **may** refer to a measure (e.g., “Cohesion ≥ T on ordinal ladder”), but the **state itself remains the EntityOfConcern of the checklist**; the checklist is its **description**, and a **StateAssertion** is an evidence‑backed verdict over a Window. No lifecycle language is implied. When a graph or state-machine lens is used, it describes the role-state relation; it is not the relation in life.
+| Object | Governing question |
+| --- | --- |
+| Raw instrument output | What signal, bytes, count, image, trace, or other emitted entity exists? |
+| Indication | What displayed or decoded value did the instrument provide under its indication semantics? |
+| Actual subject state | What obtains for the physical, social, architectural, or epistemic subject independently of the record? |
+| Measurement result | What value or values are attributed to the measurand, with relevant method, model, calibration, uncertainty, and time information? |
+| Measurement-result episteme | What durable C.2.1 claim states that result and its interpretation basis? |
+| Diagnosis or causal conclusion | What later domain interpretation is supported under its own method and result algebra? |
+| Criterion or acceptance verdict | Did the exact criterion application return pass, fail, or unknown? |
+| Decision result | What did separate C.11 decision work decide? |
 
-**Rule RSR‑M1.** When a checklist cites a measure, it **SHALL** do so by **Characteristic + Scale semantics** (and unit if applicable), not by colloquial aliases; Tech and Formal registers apply. **Rule RSR‑M2.** Thresholds in checklists **MUST** respect the scale type (no ratio talk on interval scales; no arithmetic on ordinal ladders).
+The carrier, dashboard, ledger, criterion clause, and evidence path may represent or cite several rows. None collapses their identities or establishes another row by presence alone.
 
-#### C.16:8.2 - Dynamics & CharacteristicSpace
+### C.16:8.3 - Archetypal Grounding
 
-`U.Dynamics.stateSpace` is a **CharacteristicSpace**—a named set of Characteristics with units and topology. MM‑CHR provides the **measurement side** of that space; patterns specify the **transition law**. Architectural or epistemic **dynamics** are then *trajectories in the declared CharacteristicSpace*. **No** procedural or storage commitments are implied.
+**Calibrated detector receiver.** The detector emits raw counts. Its processing yields an indication of `41.8 kPa`. The measurand is gas pressure at port P over the stated sampling window; Characteristic is Pressure; Scale is a ratio quantity scale; Unit is kPa. Measurement model `PressureModel-4` uses counts, reference offset, temperature, and calibration coefficients as inputs and pressure as output. Dated measurement work names its performer, detector, port, resources, bindings, calibration basis, and uncertainty propagation. The C.16 result attributes `41.8 kPa ± 0.6 kPa` to the measurand under that basis; one C.2.1 episteme states it. The raw counts, displayed indication, actual pressure, result episteme, a later leak diagnosis, and a pressure-limit verdict remain different objects.
 
-### C.16:8.3 - Archetypal Grounding - Cross-Domain Vignettes *(Informative, transdisciplinary)*
+**Internal-combustion-engine test bench.** One dated test-bench work occurrence binds the engine, dynamometer, fuel batch, ambient conditions, method, model, and calibration records. Torque, exhaust temperature, and emissions are three Characteristics with separate Scales and result epistemes; their input quantities, output quantities, covariance where relevant, and uncertainties remain separately recoverable. Aggregation work may later construct a declared performance summary, and evaluation work may apply an emissions criterion. Neither the summary nor the pass/fail verdict is the torque or emissions measurement result.
 
-> *Each vignette shows an CSLC‑conformant template → measure, without duplicating the A.17 and A.18 glossaries.*
-
-**V‑A (Architecture — relational property).**
-Characteristic: **Coupling** (relational) between modules; Scale: ordinal {Low, Med, High}; Unit: level‑labels; Polarity: ↓ better.
-Reading: subsystem pair ⟨M₁, M₂⟩ gets **Med**; **ScoringMethod** (optional) maps levels monotonically to a bounded Score for comparative dashboards.
-
-**V-B (Physics — interval or ratio).**
-Characteristic: **ResponseTime**; Scale: ratio with non‑negative reals; Unit: seconds; Polarity: ↓ better.
-Reading: subject S has **0.237 s**; direct comparability holds with readings on the **same template**; cross‑template comparability requires an explicitly cited equivalence relation, Bridge, or transformation relation with its governing FPF pattern or specification record named.
-
-**V‑C (Performing arts — ordinal).**
-Characteristic: **EdgeControlQuality**; Scale: ordinal levels 1…5; Unit: level‑labels; Polarity: ↑ better.
-Reading: performance P gets **4**; any aggregation remains order‑respecting. If a numeric dashboard score is needed, cite a scoring method **𝒢** that maps levels monotonically to a bounded Score.
-
-**V‑D (AI ethics — ratio).**
-Characteristic: **ParityGap** (difference of positive rates); Scale: interval with symmetric bounds; Unit: percentage points; Polarity: ↓ better (0 is target).
-Reading: model M on cohort C shows **3.2 pp**; evidence points conceptually to the derivation rationale (inputs, reference cohorts).
+**Architecture coupling.** The measurand is the exact ordered module pair under a declared dependency census window, not either module alone. The Characteristic is Coupling on an ordinal Scale. The method description defines generic dependency classes; dated work binds the actual codebase edition and pair. The result episteme states the Level and basis. A later release decision may rely on it, but the dashboard tile and decision record do not establish the census work.
 
 ### C.16:9 - Bias-Annotation
 
 | Bias | Symptom | Correction |
 | --- | --- | --- |
-| Number-as-fact bias | A displayed value is treated as meaningful without subject, characteristic, scale, unit, polarity, and evidence basis. | Rebuild the value as a `U.Measure` against one `U.DHCMethodRef`. |
-| Scale-upgrade bias | Ordinal labels, ranks, or ratings are averaged or ratio-compared as if they were interval or ratio values. | Return to A.18 scale admissibility and declare a scoring method only when the governing pattern admits it. |
-| Dashboard authority bias | A dashboard tile, benchmark, or score is reused as assurance, causal support, or admission basis. | Keep the measurement in C.16 and cite `B.3`, `C.28`, `A.21`, or the governing pattern for the wider use. |
+| Number-as-fact | A displayed value lacks measurand, Characteristic, Scale, model, calibration, uncertainty, or time stance. | Rebuild the complete C.16 chain. |
+| Instrument realism | Raw output or indication is asserted as the actual subject state. | Separate output, indication, attributed result, and subject state. |
+| Uncertainty laundering | A point estimate is carried forward while model and calibration uncertainty disappear. | Recover input uncertainties, correlations, propagation, and interpretation. |
+| Dashboard authority | A tile or score is reused as diagnosis, assurance, acceptance, or decision authority. | Route the later use to its exact work, result, provenance, currentness, and reliance owners. |
+| Common-scale pressure | Distinct scales are normalized merely because comparison is desired. | Require an exact transformation and receiving comparison owner; otherwise preserve incomparability. |
 
 ### C.16:10 - Conformance Checklist (Normative)
 
-> *Thought‑level acceptance conditions for authors and assessors; they constrain meaning, not tooling.*
+1. **Subject:** one exact measurand or measurement subject is named, with correct entity or relation arity.
+2. **CSLC:** Characteristic, Scale, Level or Coordinate, Unit when current, polarity, and time stance are explicit.
+3. **Method/model:** the exact `U.Method`, MethodDescription boundary, measurement model edition, inputs, output quantity, assumptions, and validity domain are recoverable.
+4. **Calibration:** applicable calibration work/result, reference basis, coefficients or corrections, validity interval, and uncertainty contribution are cited when required.
+5. **Work:** dated `U.Work`, performer `U.RoleAssignment`, `enactsMethod`, resources, measurand, and actual direct or A.6.1 bindings are present.
+6. **Result:** one C.16 measurement result attributes value or values to the measurand with uncertainty and relevant information; one C.2.1 episteme states it.
+7. **Separation:** raw output, indication, actual subject state, result, result episteme, diagnosis, verdict, and decision are not collapsed.
+8. **Comparability:** direct or transformed comparison names its exact basis and does not upgrade the Scale or mint a common scale.
+9. **Provenance/use:** A.10/G.6 provenance, G.11 currentness, bounded reliance, assurance, and later work remain under their direct owners.
+10. **Boundary:** no method description, plan, signature, carrier, ledger row, evidence edge, or stored reference is used to infer actual participation, work, or result identity.
 
-**CC-MCHR-1 - CSLC binding.** Each `U.DHCMethodRef` binds **exactly one** `U.Characteristic` and **exactly one** scale; each `U.Measure` carries a value valid for that scale (cf. A.18).
-**CC‑MCHR‑2 - Polarity declared.** Every **ordered** scale in a template declares **polarity**; any **Score** via 𝒢 is monotone w.r.t. that polarity.
-**CC‑MCHR‑3 - Unit coherence.** Claims that compare or combine values are **grounded in unit coherence** (or declared conversions for interval or ratio).
-**CC‑MCHR‑4 - Comparability honesty.** Ordered comparisons are asserted **only** when **R‑CMP‑1** holds (same‑template direct comparability) or when a **named and cited** transformation basis is provided per **R‑CMP‑2**; otherwise authors use qualitative/set‑level language.
-**CC‑MCHR‑5 - Evidence sufficiency.** Where evidence is required by the template, the measure’s grounds are **conceptually sufficient** to retrace the claim; composition respects **Σ‑1…Σ‑4**.
-**CC‑MCHR‑6 - Role-state-relation alignment.** If a measure gates a **state** in `RoleStateRelation@BoundedContext`, the checklist criteria **respect scale semantics** and the **EntityOfConcern vs Description-episteme** split. No lifecycle phrasing; use state assertions and checklist-governed state changes.
-**CC‑MCHR‑7 - Dynamics awareness.** Where discussions involve change, the **CharacteristicSpace** is **named** (characteristics, units, topology) and separated from the **transition law**.
-**CC‑MCHR‑8 - Lexical guard‑rails.** Tech identifiers and headings use **Characteristic, Scale, Level, Value, Score, Unit, and ScoringMethod**; aliases (axis, dimension, points, or stars) appear **only** in explanatory Plain register with a first‑mention mapping to the Tech canon.
-**CC‑MCHR‑9 - Causal-use metric boundary.** A measurement, metric disparity, score, dashboard reading, or benchmark value that reaches `CausalUseActivation` SHALL keep measurement construction, scale admissibility, comparability, and evidence-stub repair in `C.16`, and SHALL carry causal-use question, causal-ladder rung, causal estimand, support basis, support verdict, admissible causal use, and inadmissible causal use in `C.28`.
+### C.16:11 - Common Anti-Patterns and How to Avoid Them
 
-### C.16:11 - Common Anti-Patterns and How to Avoid Them *(Normative unless marked “Informative”)*
-
-#### C.16:11.1 - Invariants (N‑rules)
-
-**N‑1 — One Characteristic + one Scale per template.**
-Every `U.DHCMethodRef` binds *exactly one* **Characteristic** and *exactly one* **Scale** (its type + admissible range or level‑set). This is the CSLC sufficiency condition for interpretability.
-
-**N‑2 — Value validity.**
-A `U.Measure` holds a **Value** that is *admissible* for the template’s Scale (numeric range, categorical level); when a **Level** is used, it is among the named levels declared for that Scale.
-
-**N‑3 — Polarity is declared at the template.**
-For ordered Scales, the template states the comparison direction (↑ better, ↓ better, or target-is-best). Any **ScoringMethod mapping** to **Score** preserves that monotonic ordering. *(Note: we use “ScoringMethod mapping” instead of the Greek letter used elsewhere in FPF to avoid symbol conflicts.)*
-For ordered Scales, the template states the comparison direction (↑ better, ↓ better, or target-is-best). Any scoring method **𝒢** that issues a **Score** is order‑compatible with that declared polarity semantics.
-
-**N‑4 — Unit coherence.**
-Within one template there is one *primary* **Unit** of expression (or an explicit level‑set for non‑numeric Scales). Conversions are conceptually valid only where the Scale supports meaningful arithmetic (interval or ratio); nominal/ordinal Scales are not subject to numeric conversions.
-
-**N‑5 — Comparability guard.**
-Two Measures are comparable *iff* they share the same template (hence, the same Characteristic, Scale, and Unit) **or** stand in an explicit comparability relation whose governing FPF pattern or specification record is cited (e.g., an F‑cluster Bridge, or a cited characterization mechanism’s declared equivalence). Otherwise, comparability is not presumed.
-
-**N-6 - Evidence as conceptual relation.**
-If a template requires it, each Measure includes an **EvidenceStub** that conceptually links the Value to its grounds; absence where required makes the Measure inadmissible for use. *(This is a conceptual obligation; no process mechanics are implied.)*
-
-**N‑7 — Arity clarity.**
-If the Characteristic is relational (applies to a pair or tuple), the subject of measurement is the relation itself; the reading must not be re‑described as a unary property of either participant.
-
-**N‑8 — Open‑ended evolution; role-state relation, not lifecycle.**
-When MM‑CHR is used in change reasoning, movement happens in a **CharacteristicSpace** and is admitted by current `RoleStateRelation@BoundedContext` state assertions and checklists. There is no lifecycle terminal; revisions may re‑enter earlier framing states as per A.17. *(Conceptual control structure only.)*
-
-#### C.16:11.2 - Anti‑Patterns (A‑rules) — with cures
-
-**A‑1 — Scale drift under the same template.**
-*Smell:* the Scale meaning (bounds, categories) shifts while the template ID remains.
-*Cure:* version the template; declare the relation in the Unification suite.
-
-**A‑2 — Arithmetic on ordinal.**
-*Smell:* averaging “stars” or ranking labels as if they were intervals.
-*Cure:* either keep order‑respecting operations only, or introduce a **ScoringMethod** that defines a proper Score range.
-
-**A‑3 — Unit soup.**
-*Smell:* mixing milliseconds and seconds for the same template, or “%” and “points” for one Scale.
-*Cure:* one primary Unit per template; conversions (when meaningful) are declared conceptually, not ad‑hoc.
-
-**A‑4 — Alias leakage.**
-*Smell:* “axis”, “dimension”, “point”, or “ladder” in normative identifiers or headings.
-*Cure:* use only canonical tokens in normative prose; narrative labels are valid *solely* in Plain register with first‑mention mapping (A.17).
-
-**A‑5 — Multi‑Characteristic stuffing.**
-*Smell:* one template tries to carry a vector of Values for several Characteristics.
-*Cure:* separate templates (one Characteristic each) and compose coordinates explicitly when needed.
-
-**A‑6 — Evidence afterthought.**
-*Smell:* Measures required to have grounds are introduced without an intelligible EvidenceStub.
-*Cure:* treat the EvidenceStub as part of the measurement claim itself, not an accessory.
-
-**A‑7 — Template mutation after Measures exist.**
-*Smell:* retro-editing Characteristic, Scale, and Unit of an active template.
-*Cure:* immutability of that triad post‑use; publish a successor template if the concept changes.
-
-**A‑8 — Score‑of‑everything.**
-*Smell:* collapsing heterogeneous Values into a single “points” Score without declared ScoringMethod and SCP.
-*Cure:* retain the Value on its Scale; add an explicit scoring method by reference to its governing method-description episteme or FPF pattern and an explicit admissibility profile governed by the relevant FPF pattern or specification record only when there is a justified need for a Score.
+- **Template as occurrence.** A reusable `U.DHCMethod`, model, signature, or calibration procedure is treated as proof that work occurred. Ground dated work and actual bindings.
+- **Generic result field.** A record has `result=...` without saying whether it is output, indication, measurement result, diagnosis, verdict, or decision. Name the direct result kind and governor.
+- **Evidence algebra.** Evidence locators are unioned as though idempotence or count determined uncertainty or warrant. Use measurement-model uncertainty propagation and exact A.10/B.3 reliance separately.
+- **Scale drift.** A template id survives changed Scale, model, unit, or calibration semantics. Publish a successor and state the relation; do not mutate historical readings.
+- **Arithmetic on ordinal.** Encoded levels are averaged or ratio-compared. Stay with order-preserving operations or introduce a separately governed scoring method and Scale.
+- **Multi-Characteristic stuffing.** One reading carries a vector while pretending to be one measurement. Create separate results and declare any later aggregation.
+- **Result-to-verdict shortcut.** A value inside a tolerance is called accepted without performed criterion evaluation. Ground the separate evaluation work, exact clause application, verdict episteme, and later decision.
 
 ### C.16:13 - Consequences
 
-**Benefits.** C.16 makes readings portable across domains because every value has a bearer, characteristic, scale, coordinate or level, unit semantics where needed, polarity, and evidence stub. It also keeps dashboards, scores, benchmarks, and QL probe outputs from turning into comparison, causal-use, assurance, or admission claims without the neighboring pattern that governs that use.
+**Benefits.** Measurement results become interpretable and reusable without pretending to be raw reality or later judgment. A practitioner can inspect the measurand, Scale, method, model, calibration, work, uncertainty, episteme, and provenance, then enter the smallest receiving pattern for comparison, diagnosis, acceptance, assurance, causality, or decision.
 
-**Trade-offs.** Measurement claims take a little more setup work: the template must be named, scale type must be respected, and comparability cannot be assumed from similar-looking numbers. The gain is that downstream decisions, assurance records, causal-use claims, and mathematical-lens uses can cite a reading without guessing what it means.
+**Trade-offs.** The chain is longer than a dashboard field. Model assumptions, calibration status, and uncertainty can make a formerly crisp number conditional or set-valued. That cost is the information needed to avoid false precision and hidden result substitution.
 
-**Failure containment.** When the measurement basis is incomplete, the correct result is a narrower measurement claim, a return to `C.16.P`, or a neighboring-pattern use with a higher evidence requirement. The number itself does not carry that wider use.
+**Failure containment.** Missing model validity, stale calibration, ungrounded work, absent actual bindings, or unreported uncertainty narrows or blocks the measurement claim. It does not authorize a generic evidence, result, or acceptance relation as fallback.
 
 ### C.16:14 - Rationale
 
-Measurement practice across physics, engineering quality, data quality, semantic sensor vocabularies, and quantity ontologies separates the measured characteristic, scale, unit, observed or asserted value, and evidence basis. C.16 echoes that mature separation while preserving FPF's own ontology: the `U.Measure` reading is a claim about a subject on a declared characteristic and scale, not a free-standing fact or a dashboard artifact.
+Measurement is not merely reading a carrier. It is performed work under a method and model that attributes one or more values to a measurand and supplies the information required to interpret those values. That architecture explains why indication, actual subject state, measurement result, result episteme, diagnosis, and verdict must remain distinct.
 
 ### C.16:14.1 - SoTA-Echoing
 
-The pattern therefore treats ISO 80000, ISO/IEC 25024, QUDT, SOSA/SSN, and domain metric traditions as alignment sources through bridges, not as vocabulary imports. This keeps SoTA measurement discipline available while preventing the common shortcut where a familiar external label overrides the local characteristic, scale, unit, comparability, and evidence requirements.
+Source qualification was checked against the publishers' current surfaces on 2026-07-30. It remains qualified through 2027-07-30 unless an edition, amendment, correction, Recommendation status, or normative definition changes earlier. External terms guide the bounded C.16 rules named below; no source imports its ontology wholesale or establishes a measurement, work occurrence, result, episteme, calibration fact, or later-use relation.
+
+| Exact source and source-use decision | Visible C.16 mutation | Rejected overread | Smallest source-change replay |
+| --- | --- | --- | --- |
+| [JCGM 200:2012, VIM3, online entry 2.9 `measurement result`](https://jcgm.bipm.org/vim/en/2.9.html), including the online corrections/annotations current at the qualification date — **adopt** the attributed-values-plus-relevant-information boundary. | `M-RES-1`, `M-RES-2`, the calibrated-detector case, and checklist items 6–7 keep measurand, attributed values, uncertainty/relevant information, and result episteme distinct. | A displayed indication, raw output, actual subject state, diagnosis, verdict, or decision is not the measurement result. | Reopen only `M-RES-1/2`, the calibrated-detector result paragraph, and checklist items 6–7 if VIM changes the result/measurand boundary. |
+| [JCGM GUM-6:2020, *Developing and using measurement models*](https://doi.org/10.59161/JCGMGUM-6-2020) — **adapt** its model/input/output/model-adequacy and uncertainty discipline to the C.16 measurement chain. | `M-MODEL-1`, `M-IO-1`, `M-UNC-1/2`, the engine-test case, and checklist items 3–4 make model edition, actual inputs, output quantity, assumptions, calibration, covariance, propagation, and validity domain recoverable. | Model input/output roles are not universal work relations; more provenance pointers do not reduce uncertainty; a formula or function does not prove that measurement work occurred. | Reopen only `M-MODEL-1`, `M-IO-1`, `M-UNC-1/2`, the engine-test uncertainty paragraph, and checklist items 3–4 if GUM changes model construction, adequacy, or propagation requirements. |
+| [ISO 80000-1:2022, *Quantities and units — Part 1: General*](https://www.iso.org/standard/76921.html) and [ISO/IEC 25024:2015, confirmed current in 2022](https://www.iso.org/standard/35749.html) — **Bridge-only** for quantity/unit names and data-quality-measure alignment. | They may populate a Concept-Set/Bridge used by `M-CSLC-2` or a receiving data-quality measure; they do not change C.16's Characteristic/Scale and result-owner split. | Standard quantity, unit, or quality-measure labels do not authorize arithmetic, comparability, acceptance, or a C.16 result. | Reopen only the affected Bridge row plus `M-CSLC-2` and checklist item 2; reopen no measurement case unless the mapped term was load-bearing there. |
+| [QUDT Schema 3.4.0, June 2026 catalogue](https://www.qudt.org/catalog/qudt-catalog.html) — **Bridge-only** for citable quantity-kind, unit, dimension, and datatype identifiers. | A C.16 record may cite a QUDT identifier after the F-pattern Bridge establishes the correspondence; `M-CSLC-2` still governs admissible C.16 use. | A shared URI does not prove same measurand, Scale, model, calibration regime, or direct comparability. | Reopen only the cited Bridge mapping, `M-CSLC-2`, and checklist items 2 and 8 when the mapped QUDT graph or identifier changes. |
+| [W3C/OGC SOSA/SSN Recommendation 19 October 2017](https://www.w3.org/TR/vocab-ssn/) — **Bridge-only** for sensor, observation, procedure, feature-of-interest, and observed-property terms. The [2023 Edition First Public Working Draft of 16 September 2025](https://www.w3.org/TR/vocab-ssn-2023/) is watch-only until it reaches a governing publication status. | A Bridge may align an external observation/procedure record with C.16's measurand, method, work, indication, and result boundaries; it never replaces `M-WORK-1` or `M-RES-1/2`. | An SOSA/SSN observation graph does not by itself establish FPF work identity, actual bindings, measurement result, result episteme, or later use. | Reopen only the affected SOSA/SSN Bridge, `M-WORK-1`, the external-record case that uses it, and checklist items 5–7 when the Recommendation changes or the 2023 Edition advances with a conflicting normative separation. |
+
+Lineage and domain examples not listed here are informative comparators, not decision-governing sources. A source refresh is local: replay the row's named rule, case, and checklist items, then widen only if that replay reveals a contradiction elsewhere.
 
 ### C.16:15 - Relations - Placement *(Informative)*
 **Architecture measurement boundary.** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.16 readings only after the characteristic, bearer, scale, coordinate, value, unit when relevant, and admissible use are declared. C.16 readings do not become architecture characteristics, decision criteria, eval programs, evidence, gates, or decision authority by themselves.
 
 **Structural-information measurement boundary.** `C.33`, `C.34`, and `C.35` may name captured structure, lost structure, similarity, preservation, entropy, epiplexity estimate, compression, generated-carrier adequacy, or search-output context. When any of those become a value, score, coordinate, threshold, dashboard reading, or eval result, C.16 and the receiving eval or criteria pattern govern measurement construction and admissible use.
 
-**Precision-restoration relation.** `C.16.P` is the first-stage wording-use restoration pattern for characteristic, scale, coordinate, score, metric, axis, dimension, and related characterization wording when the measurement or characteristic object is not yet recoverable. C.16 keeps the measurement substrate and resumes after the bearer, characteristic, scale, coordinate/value, unit, evidence stub, or exact non-C.16 governing pattern has been recovered.
+**Precision-restoration relation.** `C.16.P` is the first-stage wording-use restoration pattern for characteristic, scale, coordinate, score, metric, axis, dimension, and related characterization wording when the measurement object is not yet recoverable. C.16 resumes after the measurand or subject, Characteristic, Scale, value, method, model, calibration, work, uncertainty, result episteme, or exact non-C.16 governor has been recovered.
 **C.27 temporal-claim relation.**
 
 - C.27 may flag: a rate/rate-change reading whose admissible use depends on admissible measurement construction, evidence, sampling window, or finite-difference method.
-- This pattern keeps: measurement construction, comparability, units, sampling windows, evidence, and admissible metric use.
+- This pattern keeps: measurand and measurement-subject identity, method, model, calibration, input/output quantities, uncertainty, dated work, measurement result, result episteme, comparability basis, units, sampling window, and provenance routing.
 - Non-admissible use: a rate-change label is not a measurement template, and temporal words such as velocity, acceleration, throughput, cadence, or recovery speed are not admissible measures by themselves.
 - Neighboring-pattern use: when load-bearing, the claim cites `baseCharacteristicRef`, the relevant measure reference, sampling window, construction method such as `DHCMethodRef`, and `C16RouteRef`; C.27 keeps only the temporal-claim adequacy question.
 
-**C.28 causal-use relation.** C.16 governs measurement templates, readings, score meanings, scale admissibility, direct comparability, and evidence-stub adequacy. C.28 governs the causal-use relation when the same reading is used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, off-policy causal evaluation, causal-RL evaluation, or causal method superiority. A C.16-admissible measure is therefore not by itself admissible for causal use under C.28.
+**C.28 causal-use relation.** C.16 governs measurement construction, result interpretation, uncertainty, and direct comparability. C.28 governs the causal-use relation when the same result episteme is used to claim effect, intervention success, causal fairness, policy optimality, counterfactual comparison, off-policy causal evaluation, causal-RL evaluation, or causal method superiority. A C.16-admissible measurement result is therefore not by itself admissible for causal use under C.28.
+
+**Evidence, currentness, and assurance.** A.10/G.6 govern source recovery and provenance for the exact method, model, calibration, work, inputs, result episteme, and later use. G.11 governs currentness; B.3 governs assurance when its threshold is met. None owns or establishes the C.16 measurement result.
 
 **Kernel.** MM‑CHR *imports* the canonical Characteristic vocabulary and the CSLC discipline fixed by A.17 and A.18; it does not redefine them. CharacteristicSpace reasoning (for change) lives in the patterns that consume MM‑CHR readings.
 
-**Using patterns.** KD‑CAL, Arch‑CAL and others *instantiate* templates and produce measures; MM‑CHR remains a neutral measurement substrate. Trade‑off analyses and architectural trajectories operate over coordinates that MM‑CHR makes available, not inside MM‑CHR.
+**Using patterns.** KD‑CAL, Arch‑CAL, G.4, and other consumers cite C.16 measurement-result epistemes and then ground their own comparison, evaluation, acceptance, aggregation, or decision work. They do not produce a measurement merely by naming a template, score field, criterion, or evidence profile.
 
 **Unification (F‑cluster).** External standards (e.g., ISO 80000 quantity types; W3C SOSA/SSN observable properties; QUDT units/quantity kinds) are related via Concept‑Set rows and Bridges; MM‑CHR treats those alignments as context supplied by F‑patterns, not as local re‑definitions.
 
 ### C.16:15a - Measurement and probe note for quantum-like readings
 
-Use C.16 first when the current question concerns a measure, metric, score, survey, dashboard, sensor, coordinate, scale, or characteristic. A metric is not quantum-like because it is noisy, probabilistic, discrete, gamed, or difficult to interpret. Metric gaming is not QL; a metric-caused state update may be QL only when the publication, probe, order, frame, or export changes what the result can admissibly support.
+Use C.16 first when the live object is a sensor reading, survey response, dashboard value, score, probe result, or state coordinate. Noise, probability, discreteness, gaming, or difficult interpretation does not by itself make a case quantum-like.
 
-Measurement/probe check sequence:
+Recover the ordinary measurement chain first:
 
-1. Name the Characteristic, Scale, Coordinate or Value, Unit when relevant, and EvidenceStub.
-2. Separate the observable, probe method, measurement scheme, emitted output or result record, state update, and evidence carrier.
-3. Ask whether the measurement frame or probe frame changes the represented state, whether probe order changes the admissible reading, whether frames cannot share one sample space, or whether exporting the measured state loses the structure needed for intended use.
-4. If no, stay in C.16 and ordinary evidence or engineering-justification patterns.
-5. If yes, add a C.26 reading only for that remaining passive-read, shared-frame, or lossless-export mistake.
-6. State the local stop condition: which decision, audit, release, comparison, or work use with a higher evidence requirement the measurement does not support.
+1. name the exact measurand or subject, Characteristic, Scale, value or Level, Unit, polarity, and time stance;
+2. separate reusable method and model from dated work and actual bindings;
+3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
+4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and
+5. attach provenance through A.10/G.6 and state the exact supported and unsupported later uses.
 
-Minimum measurement and probe note:
+Only after that repair ask whether the probe order, frame, publication, or export changes the state or the inferences that remain admissible. If it does, C.26 may govern that residual contextual or probe-order question. If it does not, remain in C.16 and the ordinary evidence, assurance, or receiving-use patterns.
+
+Minimum probe note:
 
 | Field | Required content |
 | --- | --- |
-| Characteristic or state coordinate | What is being measured or represented |
-| Instrument or probe | Survey, dashboard, API read, sensor, interview, workshop, metric, body or sensor placement, or other access act |
-| Before and after reading | What was expected before the probe and what is observed or inferred after |
-| Scale/frame admissibility | Which scale, coordinate, frame, option menu, or sample-space assumption is active |
-| Evidence carrier | What carrier holds the measurement result and under which conditions |
-| Admissible use | Which reading, comparison, triage, decision, or pattern-handoff move the result can carry |
-| Non-admissible use | Which inference with a higher evidence requirement the measurement does not support without more evidence |
-
-Useful outputs:
-
-- a C.16 measure/template repair when the issue is metric admissibility;
-- an A.10 or B.3 application when the issue is evidence or assurance;
-- a C.26.1 application when the probe changes the state it reports;
-- no QL wording when noise, uncertainty, discreteness, or metric gaming is the whole issue.
+| Measurand and Characteristic | What exact subject quantity or characteristic is intended to be measured? |
+| Scale and time stance | On what Scale and Unit, at what time or window, is the value attributed? |
+| Method, model, calibration | What reusable method/model and applicable calibration basis govern the reading? |
+| Work and bindings | Which dated work, performer, resources, and actual arguments participated? |
+| Inputs, output, uncertainty | Which model inputs determine the output quantity, and how is uncertainty propagated? |
+| Result episteme | Which C.2.1 episteme states the attributed value and interpretation basis? |
+| Boundary | Which raw output, indication, subject state, diagnosis, verdict, or decision remains separate? |
+| Use | Which exact later use is supported, degraded, deferred, or unsupported? |
 
 ### C.16:15b - C.29 mathematical-lens use relation
 
-> If a mathematical lens depends on measurement construction, scale, unit, polarity, direct comparability, or evidence-stub adequacy, write that measurement-dependent relation in `C.16` before treating the lens as usable for those measurement-dependent claims. A `C.29` output may state only the measurement-dependent `LensUseAdmissibilityValue` for the mathematical-lens use claim; it does not construct the measure, make values comparable, or supply an evidence stub. Evidence relations remain `A.10`; assurance remains `B.3`.
+If a mathematical lens depends on a measurement, recover the C.16 measurand, Scale, model, calibration, work, uncertainty, result episteme, and comparability basis first. C.29 may then state the lens-use admissibility claim; it does not construct the measurement, make values comparable, or provide provenance. A.10/G.6 retain provenance and B.3 retains assurance.
 
 ### C.16:End
 
@@ -97774,19 +97563,15 @@ This pattern aligns with post‑2015 best practice by:
 
 ## G.4 - CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring
 
-**Tag.** Architectural pattern (publishes `CAL Pack@CG-Frame`; consumes `CHR Pack@CG-Frame`; constrains selector/dispatcher usage; binds GateCrossing discipline; exposes `ReferencePlane` and penalty/guard policy pins to `SCR`)
+**Use this when.** A team has typed characteristics and now needs to publish reusable operators, acceptance clauses, and legal compositions before any candidate is actually evaluated. The working object is one design-time `CAL Pack@CG-Frame`, not an evaluation run, verdict, selector outcome, assurance case, or decision.
 
-**Stage.** design‑time (authoring & publication; enables lawful run‑time evaluation)
+**First move.** Write one plain acceptance sentence for one task: “For subject `x` in Context `C`, apply declared operator `O` to named C.16 result episteme `E`; return `pass | fail | unknown` under clause `A`, threshold/policy `P`, and stated currentness window.” Then turn only the nouns needed by that sentence into stable CAL declarations.
 
-**Primary output.** A notation‑independent `CAL Pack@CG-Frame` containing:
-`CAL.Charter@Context`, `CAL.Operator[]`, `CAL.Acceptance[]`, `CAL.Flow[]`,
-`CAL.EvidenceProfiles`, `CAL.ProofLedger`, **optional** `CAL.NQD[]` (when declared),
-UTS entries (Name Cards with twin labels and public-id continuity notes, including deprecations and lexical-continuity notes),
-RSCR tests, Worked‑Examples, and a `TaskMap@Context` (`TaskMap`; handoff record consumed by `G.5`).
+**Smallest viable CAL pack.** Publish one Context charter, one typed operator card, one acceptance clause with unknown/failure behavior, one legal flow, one evidence/currentness profile, one proof-or-gap row, one worked declaration example, and a minimal `TaskMap` that cites their ids. Stop there when this pack answers the task; method-family extensions, archive surfaces, crossing records, and additional policy pins enter only when the case actually needs them.
 
-**Primary hooks.** `G.Core` (Part‑G invariants + RSCR trigger catalogue + Default Governing Definition Index), `G.1` (CG‑FrameContext), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec), `A.18` (CSLC), `A.10` (provenance anchors), `B.3` (trust / freshness / decay), `E.18` + `A.21` + `F.9`/`F.17`/`E.17` (GateCrossing / CrossingBundle harnesses), `G.6` (EvidenceGraph / PathId / PathSliceId; wired via Extensions), `G.5` (Selector & Dispatch), `G.10` (shipping), `G.11` (refresh orchestration), plus Contexts/UTS/LEX disciplines already fixed elsewhere in the spec.
+**What changes in practice.** Thresholds and failure behavior stop hiding in code, illegal arithmetic becomes an authoring defect, and runtime workers can cite stable declarations without pretending that a card, flow, manifest, proof row, or stored evidence ref performed an evaluation.
 
-**Non‑duplication note.** Universal Part‑G invariants (no shadow specs, crossing visibility, tri‑state guard, penalties→`R_eff`‑only, set‑return semantics, P2W split, typed RSCR causes, Default Governing Definition Index, shipping boundary) are governed in `G.Core` and are pulled into `G.4` only through the `G.Core linkage` manifest in **G.4:4.1** (and via explicit delegations in CC).
+**Not this pattern.** Use C.16 for the measurement result, A.19 for comparison/selection, A.15.1 and A.6.1 for dated evaluation work and actual bindings, C.2.1 for the verdict episteme, A.10/G.6 for provenance, G.11 for currentness, B.3 for assurance, and C.11 for a decision. If the immediate question is whether a declared clause actually ran and what result obtained, go directly to the declaration-to-runtime boundary in §4.4a.
 
 ### G.4:1 - Problem frame
 
@@ -97822,7 +97607,23 @@ Teams repeatedly face drift and ambiguity in the CAL Pack that sits between “t
 * **Exploration vs assurance.** CAL must support exploratory regimes (probing, novelty, open‑ended search) without letting un‑assured outputs silently become dominance claims.
 * **Locality vs portability.** CAL must be Context‑local by default but prepared for explicit reuse via Bridges and published crossing bundles.
 
-### G.4:4 - Solution — CAL authoring kit and publication surface
+### G.4:4 - Solution — author the smallest lawful CAL pack
+
+#### G.4:4.0 - Practitioner authoring path C1–C9
+
+Complete these actions in order; widen a step only when its stated input is needed by the current task.
+
+1. **C1 — Charter the scope.** Name `CG-FrameContext`, the exact `entityOfConcern`, `ReferencePlane`, task, and the editions of the governance and legality records being relied on. State the assumption envelope in ordinary language.
+2. **C2 — Declare one typed operator.** Give it a stable id, CHR-typed signature, preconditions, result kind, and failure behavior. This is an `A.6.1` operation declaration, not evidence of an application.
+3. **C3 — Declare one acceptance clause.** Bind the exact Characteristic/result episteme, threshold or predicate, Context, unknown handling, and stop/degrade/abstain behavior. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling/exchangeability or shift assumptions, and the exact policy that owns the guarantee.
+4. **C4 — Compose only a legal flow.** Cite the operators and gating clauses, preserve the lawful result kind, and keep a selected set when no lawful scalarization exists. A declared DAG is possible composition, not performed work.
+5. **C5 — Name the minimum evidence/currentness need.** Cite the exact A.10 source/provenance anchors and G.11 window needed to judge the clause. Do not turn an evidence profile, citation, or graph membership into a verdict or actual reliance.
+6. **C6 — Add an extension only when the task needs one.** Select its current governing pattern first, then pin only the descriptor, distance, insertion, exploration, branch, or path records that change the present CAL action. Otherwise omit the extension.
+7. **C7 — Record proof or an explicit gap.** For every operator, flow, or clause, cite the legality/monotonicity/boundedness justification actually required; when it is missing, publish the gap and the consequent degrade/abstain behavior.
+8. **C8 — Exercise declaration behavior.** Provide one worked authoring example and focused conformance tests for illegal operations, `pass | fail | unknown`, freshness, and failure behavior. The example and test remain declarations/test records unless separately grounded dated work is named.
+9. **C9 — Publish and hand off.** Mint stable ids and continuity notes, then emit the smallest `TaskMap` from the task to eligible operator/flow ids, gating clause ids, and required evidence/currentness refs. Send change refs to G.11; do not make G.4 the refresh or runtime owner.
+
+The authoring path is complete when a cold reader can reconstruct the plain acceptance sentence from the published ids and can also say what still has to happen at runtime. The owner-facing manifests, schemas, interfaces, and optional extension blocks below make the same pack machine-citable; they do not add another practitioner sequence.
 
 #### G.4:4.1 - G.Core linkage (normative)
 
@@ -97877,16 +97678,16 @@ Notes (normative intent, delegated semantics):
   * cites the governance card and legality gate (`CNSpecRef`, `CGSpecRef`) by edition pins,
   * records the “assumption envelope” that acceptance predicates rely on (without minting a new governance card or legality gate).
   * emits `TaskMap@Context` (`TaskMap`) as the canonical handoff record to `G.5` (task→gates/flows/evidence pins).
-* `CAL.Operator[]` — typed operator cards (UTS‑published):
+* `CAL.Operator[]` — UTS‑published typed operation declarations governed by `A.6.1`; a card declares possible arguments, result kinds, and conditions but does not assert that an operation ran:
 
   * explicit signature over CHR types,
   * explicit preconditions/postconditions (incl. legality guard macros references),
   * explicit provenance/evidence hooks (by ids/pins, not by tool behavior).
-* `CAL.Acceptance[]` — typed predicates with Context‑local thresholds:
+* `CAL.Acceptance[]` — typed predicate declarations with Context‑local thresholds; a clause declares how an actual application is judged but is not itself a verdict:
 
   * binds to CHR characteristic ids (and, when inducing numeric comparison/aggregation, to `CG‑Spec.characteristic` ids),
   * exposes unknown handling and failure behavior via policy pins.
-* `CAL.Flow[]` — legality‑checked compositions of operator cards:
+* `CAL.Flow[]` — legality‑checked declarations of possible operator composition; a declared DAG is not performed work:
 
   * declares result kind (scalar only when lawful; selected-set / set-result when partial orders remain partial orders),
   * records which acceptance clauses gate which flows.
@@ -97940,97 +97741,6 @@ CAL.EvidenceProfile :=
     freshnessPolicyPins[]?, penaltyPolicyPins[]?, ΓFoldRef.edition? ⟩
 ```
 
-#### G.4:4.3 - CAL authoring chassis C1–C9 (kit governed by this pattern)
-
-**C1 — CAL Charter (scope anchor).**
-Authors declare a `CAL.Charter@Context` that:
-
-* anchors CAL to the CG‑Frame scope (`CG-FrameContext`, `entityOfConcern`, `ReferencePlane`),
-* pins the relevant governance card and legality gate refs (`CNSpecRef.edition`, `CGSpecRef.edition`),
-* records the local assumption envelope used by acceptance predicates (as explicit statements to be audited, not as hidden algorithmic assumptions),
-* declares which CAL artifacts are intended to be cited downstream (UTS ids).
-* emits a `TaskMap@Context` (`TaskMap`) that binds each declared `TaskSignature` (or task family) to:
-  * eligible `CAL.FlowId[]` / `CAL.OperatorId[]`,
-  * gating `AcceptanceClauseId[]` (ids of `CAL.Acceptance` clauses),
-  * required `CAL.EvidenceProfileId[]`,
-  * and any required policy pins/edition pins for reproducibility.
-  This is the canonical “handoff manifest” consumed by `G.5` (thresholds remain only inside `CAL.Acceptance`).
-
-**C2 — Operator Cards (typed & lawful).**
-Each `CAL.Operator` is a UTS‑published, typed unit with:
-
-* `OperatorId (UTS)`,
-* `Signature` over CHR types,
-* `Preconditions` (including references to CHR guard macros where applicable),
-* `Postconditions / invariants`,
-* `EvidenceProfileRef[]` (or an explicit “none”),
-* `FailureBehaviorRef` (policy‑bound) for safe degradations and non‑catastrophic fallbacks.
-
-**C3 — Acceptance Clauses (typed predicates; thresholds live here).**
-Each `CAL.Acceptance` is a UTS‑published predicate with:
-
-* stable `ClauseId (UTS)` for citation,
-* explicit `CharacteristicRefs` (CHR ids) used by the predicate,
-* `CGSpecRefs?` required iff the clause induces numeric comparison/aggregation,
-* `EvidenceProfileRefs?` identifying evidence consulted (so `SCR` can surface the relevant pins),
-* explicit **freshness envelope** (freshness window + decay/Γ_time selector refs/pins) when evidence recency is part of admissibility,
-* `UnknownHandling` as a tri‑state choice (via `G.Core` semantics),
-* `FailureBehaviorRef` (policy‑bound) for degrade/abstain behavior.
-* `GateCrossingId[]` / `CrossingBundleId[]` **iff** the clause relies on cross-context, cross-plane, or cross-edition imports (no “silent reuse”).
-  Missing required crossing artefacts is a conformance failure and blocks publication of the affected clause/flow (GateCrossing harness: `E.18`/`A.21`/`F.9`/`F.17`/`E.17`; crossing invariants: `G.Core`).
-
-**C4 — Aggregation & comparison flows (safe by construction).**
-`CAL.Flow` composes operators into legality‑checked DAGs and declares:
-
-* which acceptance clauses gate the flow,
-* which operator outputs are decision‑relevant vs report‑only,
-* what the **result kind** is (scalar only where lawful; otherwise selected-set / set-result).
-* any thinning/decision‑aid policy (e.g., ε‑front selection) as an explicit policy pin that **does not** silently replace the declared result kind.
-
-**C5 — Evidence wiring surface.**
-`CAL.EvidenceProfile` makes evidence hooks explicit:
-
-* provenance anchor references (A.10‑style carriers/anchors, cited by id),
-* lane tags (`F/G/R`) for each evidence contribution (no implicit lane mixing; penalties route only to `R_eff` as governed by `G.Core`),
-* pinned policy ids for penalty routing and freshness/decay handling (incl. freshness window + decay/Γ_time selector pins; and `Φ(CL)`/`Ψ(CL^k)`/`Φ_plane` policy ids when used),
-* declared inputs needed for `SCR` fields at run‑time (without embedding run‑time “gate decisions” into design‑time artifacts).
-
-**C6 — NQD/OEE surface (optional; method‑specific semantics delegated).**
-If the CG‑Frame declares QD/OEE‑style regimes, CAL may publish `CAL.NQD[]` as a **surface** that:
-
-* declares descriptor space and distance/insertion artifacts by ids and edition pins,
-* records archive/illumination intent and “report‑only vs dominance” gating as explicit policy pins,
-* **does not** redefine QD/OEE semantics (those remain governed by method‑specific patterns such as `C.18` / `C.19` and are wired via `Extensions`).
-
-**C7 — ProofLedger (soundness & legality obligations).**
-`CAL.ProofLedger` links each operator/flow/clause to:
-
-* legality proof refs (incl. CSLC refs when numeric comparison/aggregation is induced),
-* monotonicity/boundedness/stability proof refs for penalty/aggregation policies where relevant,
-  * in particular: if an explicit `ΓFoldRef` is pinned (override), ProofLedger includes monotonicity + boundedness/boundary behavior proof refs for that fold.
-* explicit statements of degradation conditions (what must happen when assumptions fail).
-
-**C8 — Publication + RSCR + Bridges.**
-CAL publication emits:
-
-* UTS entries (Name Cards + twin labels) for all CAL ids,
-* Worked‑Examples that exercise legality and acceptance claims,
-* RSCR tests ensuring:
-
-  * illegality is detected (e.g., forbidden ordinal arithmetic),
-  * guard macro use is coherent,
-  * flow legality checks are exercised,
-  * acceptance clauses behave as authored on examples.
-
-Any cross-context, cross-plane, or cross-edition import required by CAL publication is handled through GateCrossing/CrossingBundle discipline (as governed by `G.Core`), and CAL publication is blocked if required crossing artifacts are missing.
-
-**C9 — Packaging & refresh readiness (without governing orchestration).**
-CAL pack versions:
-
-* record changes as edition‑pinned updates,
-* publish deprecation notices and public-id continuity notes for public ids,
-* emit RSCR‑relevant trigger payload pins (editions/policies/UTS ids/paths) for refresh orchestration (governing definition: `G.11`).
-
 #### G.4:4.4 - Interfaces (minimal I/O surface)
 
 | Interface                 | Consumes                                            | Produces                                                                                  |
@@ -98042,6 +97752,20 @@ CAL pack versions:
 | `G.4-5 NQD Surface`       | Task intent + policy pins + (optional) QD/OEE inputs | `CAL.NQD[]` (descriptor/distance/insertion refs + edition pins; optional)  |
 | `G.4-6 Publish`           | All above + proofs + examples  | Versioned `CAL Pack@CG-Frame`, UTS entries, RSCR tests, Worked‑Examples, public-id continuity notes |
 
+#### G.4:4.4a - Declaration-to-runtime evaluation boundary (normative)
+
+A CAL pack is a reusable design-time declaration. A stored operator card, clause, flow, `TaskMap`, proof-ledger row, test, or evidence-profile reference establishes neither an actual participant nor performed evaluation. When a CAL declaration is applied, recover the runtime chain explicitly:
+
+1. Name one exact `EvaluationMethod` (`U.Method`). Its `U.MethodDescription` may state generic participants, parameters, effects, and evaluation conditions, but it carries no actual-participant slots and no intrinsic claim that a test, proof, or acceptance event occurred.
+2. Cite the exact `CAL.Operator`, `CAL.Flow`, and `CAL.Acceptance` declarations as `A.6.1` operation semantics. If the runtime application needs argument and result bindings, use the exact `A.6.1` declaration and application bindings; do not infer them from a compatible signature, `TaskMap`, or stored reference.
+3. Ground one dated `EvaluationWork` as `U.Work`: give it an occurrence designator, temporal extent, performer through `U.RoleAssignment`, `enactsMethod`, the evaluated or affected referent, actual resources, and every concrete participant through its direct subject relation or an `A.6.1` application binding.
+4. State the local result under its direct governor. A `CAL.Acceptance` application yields its exact `pass | fail | unknown` acceptance verdict; A.19 owns comparison and selection results, C.16 owns measurement results, and C.11 owns a decision result. No generic evaluation-result or work-result field substitutes for these objects.
+5. When a durable assertion is needed, constitute one `C.2.1` result episteme whose ClaimGraph states that local result, evaluated subject, interpretation basis, polarity or domain status, and uncertainty when current. The episteme is not the domain result and does not create it.
+6. Attach source recovery and provenance through A.10/G.6 and currentness through G.11. For an ordinary bounded use below B.3's material-reliance threshold, state the exact A.10 evidence-provenance path and local `RelianceDisposition`; enter B.3 only for an assurance claim or material reliance. A citation, ledger edge, evidence profile, disposition, or assurance record does not establish the work, participant, application, or local result it describes.
+7. A later selector, acceptance action, or decision is another governed occurrence. It relies on the result episteme through an exact premise, reference, decision-use, or operation-argument relation; mere storage, citation, or graph membership does not establish actual use.
+
+This chain keeps declaration, execution, local result, result episteme, provenance, bounded reliance, currentness, acceptance, and decision independently recoverable.
+
 #### G.4:4.5 - Extensions (pattern‑scoped; non‑core)
 
 `G.4` supports method‑family and discipline‑specific calculus variations exclusively via pattern‑scoped extensions.
@@ -98051,6 +97775,8 @@ CAL pack versions:
 - **GPatternExtensionId:** `EvidenceGraphWiring`
 - **GPatternExtensionKind:** `InteropSpecific`
 - **GoverningPatternId:** `G.6`
+- **Entry:** use only when this CAL pack must cite a shared, addressable G.6 path or slice across more than one downstream consumer.
+- **Stop:** omit the block when a local A.10 source-to-use account is sufficient; remove it when no current clause, proof, or example cites the path.
 - **Uses:** `{G.6}`
 - **⊑/⊑⁺:** `∅`
 - **RequiredPins/EditionPins/PolicyPins (minimum):**
@@ -98066,6 +97792,8 @@ CAL pack versions:
 - **GPatternExtensionId:** `NQD`
 - **GPatternExtensionKind:** `MethodSpecific`
 - **GoverningPatternId:** `C.18`
+- **Entry:** use only when the current task applies a C.18 quality-diversity/archive method and its descriptor, distance, insertion, or archive policy must be pinned for CAL use.
+- **Stop:** omit or retire the block when the task has no current archive/QD clause or when those refs no longer change a CAL action.
 - **Uses:** `{C.18}`
 - **⊑/⊑⁺:** `∅`
 - **RequiredPins/EditionPins/PolicyPins (minimum):**
@@ -98083,6 +97811,8 @@ CAL pack versions:
 - **GPatternExtensionId:** `EELog`
 - **GPatternExtensionKind:** `MethodSpecific`
 - **GoverningPatternId:** `C.19`
+- **Entry:** use only when the current task has a C.19-governed exploration/exploitation budget or probe-accounting rule that changes a CAL clause or failure branch.
+- **Stop:** omit or retire the block when no current CAL action consumes those C.19 refs.
 - **Uses:** `{C.19}`
 - **⊑/⊑⁺:** `∅`
 - **RequiredPins/EditionPins/PolicyPins (minimum):**
@@ -98097,6 +97827,8 @@ CAL pack versions:
 - **GPatternExtensionId:** `SoSLogBranches`
 - **GPatternExtensionKind:** `MethodSpecific`
 - **GoverningPatternId:** `C.23`
+- **Entry:** use only when C.23-governed SoS-LOG branches currently explain a CAL degrade/abstain path.
+- **Stop:** omit or retire the block when those branch/rule ids no longer change a current CAL clause, flow, or explanation.
 - **Uses:** `{C.23}`
 - **⊑/⊑⁺:** `∅`
 - **RequiredPins/EditionPins/PolicyPins (minimum):**
@@ -98107,24 +97839,9 @@ CAL pack versions:
 - **RSCRTriggerKindIds:** `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.MaturityRungChange, RSCRTriggerKindId.TelemetryDelta}`
 - **Notes (wiring‑only):** This block only pins branch/rule ids for degrade/abstain explanation; it does not redefine rule semantics.
 
-**GPatternExtension block: `G.4:Ext.AcceptanceRiskControl`** *(Phase‑3 seed)*
-- **PatternScopeId:** `G.4:Ext.AcceptanceRiskControl`
-- **GPatternExtensionId:** `AcceptanceRiskControl`
-- **GPatternExtensionKind:** `Phase3Seed`
-- **GoverningPatternId:** `governing pattern not yet selected`
-- **Uses:** `∅`
-- **⊑/⊑⁺:** `∅`
-- **RequiredPins/EditionPins/PolicyPins (minimum):**
-  - `RiskControlPolicyRef`
-  - `CalibrationWindowRef?`
-  - `CoverageTargetRef?`
-- **RSCRTriggerSetIds:** `∅`
-- **RSCRTriggerKindIds:** `{RSCRTriggerKindId.PolicyPinChange, RSCRTriggerKindId.TelemetryDelta, RSCRTriggerKindId.FreshnessOrDecayEvent}`
-- **Notes (non‑normative seed):** Intended for post‑2015 acceptance families such as conformal risk control / set‑valued selective prediction, distributionally‑robust acceptance envelopes, and calibrated abstention policies; semantics must be governed elsewhere before becoming normative.
-
 ### G.4:5 - Archetypal Grounding
 
-**Tell.** A CG‑Frame must choose and justify a set of candidate methods (possibly a selected set or archive) under explicit legality, evidence, and scope constraints. CHR provides the typed measurement basis; CAL turns it into executable, auditable predicates and flows.
+**Tell.** A CG‑Frame must choose and justify a set of candidate methods (possibly a selected set or archive) under explicit legality, evidence, and scope constraints. CHR provides the typed measurement basis; CAL declares auditable predicates and flows that separately grounded runtime work may apply.
 
 **Show 1 (in‑context CAL pack skeleton).**
 Context: R&D selected-set choice. CHR defines `SafetyClass(ord↑)`, `CostUSD_2026(ratio↓)`, `Readiness(nominal)`.
@@ -98142,6 +97859,10 @@ Downstream, `G.5` consumes only the handoff manifest: clause ids, operator ids, 
 
 **Show 2 (explicit cross‑context import).**
 A `SafetyClass` value is imported from a different Context or plane. CAL may still author an acceptance clause using that value, but only after the reuse is made explicit as a published crossing bundle and the CAL artifacts cite the relevant ids/pins. The CAL pack remains Context‑local; portability is achieved through explicit crossings and citations, not by silently widening scope.
+
+**Show 3 (one performed acceptance evaluation).**
+
+A dated work occurrence `EvalWork-2026-07-30-17` has a performer through `U.RoleAssignment`, enacts `SafetyAcceptanceMethod`, and binds candidate `C-17` plus the current C.16 measurement-result episteme to `AC_SafetyGate` through the declared `A.6.1` operation application. The C.16 episteme states the measured safety characteristic, scale, attributed value, uncertainty, model, calibration, and measurement work; it is neither the raw detector output nor the acceptance verdict. The clause application obtains `unknown` because the uncertainty interval crosses the threshold. A separate C.2.1 episteme asserts that exact verdict and cites its A.10/G.6 provenance; G.11 supplies currentness. Later C.11 decision work binds that episteme as a premise and records defer. The clause card, proof-ledger row, evidence edge, and decision record do not retroactively establish the measurement work or the evaluation occurrence.
 
 ### G.4:6 - Bias-Annotation
 
@@ -98162,7 +97883,7 @@ The pattern mitigates these by requiring typed acceptance clauses, explicit poli
 | **CC‑G4‑01**      | `CAL Pack@CG-Frame` is published as a notation-independent object with stable UTS ids (Name Cards with twin labels) for `CAL.Charter`, `TaskMap`, all operator, acceptance, flow, and evidence carriers, Worked-Examples, and public-id continuity notes, including deprecations and lexical-continuity notes. Tooling/vendor details remain non-normative. |
 | **CC‑G4‑02**      | `CAL.Charter@Context` pins `CG-FrameContext`, `entityOfConcern` (incl. `ReferencePlane`), and the relevant governing spec references by edition pins (`CNSpecRef.edition`, `CGSpecRef.edition`).                                                                                                                     |
 | **CC‑G4‑03**      | Every `CAL.Operator` has an explicit CHR‑typed signature and explicit preconditions; any legality guard macros referenced are cited by id (no “implicit legality”).                                                                                                                                             |
-| **CC‑G4‑04**      | Every `CAL.Acceptance` binds to CHR ids (`CharacteristicRefs`) and declares unknown handling and failure behavior via pins/refs; thresholds and cutoffs appear only here (not inside CHR artifacts and not inside operator prose). If the clause depends on cross-context, cross-plane, or cross-edition imports, it cites `GateCrossingId[]/CrossingBundleId[]`. |
+| **CC‑G4‑04** | Every `CAL.Acceptance` binds exact CHR/result-episteme refs and declares Context, predicate or threshold, unknown handling, and failure behavior. A statistically risk-controlled clause also names its loss, target, calibration population/window, sampling or exchangeability assumptions, declared shift treatment, and owning policy. Cross-context, cross-plane, or cross-edition inputs cite their required crossing records. None of these declarations establishes performed evaluation or a verdict. |
 | **CC‑G4‑05**      | If an acceptance clause, operator, or flow induces numeric comparison/aggregation, it cites the relevant `CG‑Spec.characteristic` ids and links to legality proof refs (CSLC) in the ProofLedger; otherwise it must be authored so that downstream can degrade/abstain rather than perform illegal operations. |
 | **CC‑G4‑06**      | Every `CAL.Flow` declares its result kind and the set of gating acceptance clauses; any thinning/selection‑aid policies (e.g., ε‑front selection) are explicitly policy‑bound and do not silently replace the underlying result kind.                                                                      |
 | **CC‑G4‑07**      | Every `CAL.EvidenceProfile` declares: provenance anchors (A.10), evidence lanes (`F/G/R`), freshness/decay pins (incl. freshness window + decay/Γ_time selector refs), and any penalty routing policy pins (`Φ(CL)`, `Ψ(CL^k)`, `Φ_plane`) needed for run‑time `SCR` surfacing. It either pins an explicit `ΓFoldRef.edition` override or (if absent) cites `DefaultId.GammaFoldForR_eff` (via `G.Core.DefaultGoverningDefinitionIndex`). Penalty policies affect `R_eff` only and do not define dominance. Any referenced penalty policy family is justified in the ProofLedger (monotone + bounded).  |
@@ -98172,7 +97893,9 @@ The pattern mitigates these by requiring typed acceptance clauses, explicit poli
 | **CC‑G4‑11**      | Any method/discipline specifics are placed under `G.4:4.5 Extensions` as `GPatternExtension` blocks (stable `PatternScopeId`, explicit governing definition, pins, and RSCR triggers); no extension introduces competing defaults or replaces `G.Core` invariants. |
 | **CC‑G4‑12**      | `CAL Pack@CG-Frame` includes public-id continuity records for public ids: deprecations, edition bumps, and lexical-continuity notes. It exposes refresh payload pins, including editions, policies, UTS ids, and, when present, `PathId` and `PathSliceId`, sufficient for `G.11` to plan RSCR without inferring semantics from prose. |
 | **CC‑G4‑13**      | When `G.4:Ext.NQD` is present, `CAL.NQD[]` is present and is wired only via the declared governing pattern (`C.18`): at minimum it pins `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `InsertionPolicyRef`, and it treats archive/illumination summaries as report‑only unless explicitly promoted by a CAL acceptance clause/policy. |
-| **CC‑G4‑14** | CAL does not mint new universal types to encode “strategy/policy”. Strategy is expressed as authored flows + acceptance clauses + policy/task pins (and downstream registry/composition in `G.5`); any specialization is introduced only via `GPatternExtension` wiring blocks or cited governing patterns.  |
+| **CC‑G4‑14** | CAL does not mint new universal types to encode “strategy/policy”. Strategy is expressed as authored flows + acceptance clauses + policy/task pins (and downstream registry/composition in `G.5`); any specialization is introduced only via `GPatternExtension` wiring blocks or cited governing patterns. |
+| **CC‑G4‑15** | Every runtime example keeps the reusable method, MethodDescription, A.6.1 declaration, dated `U.Work`, performer `U.RoleAssignment`, actual bindings/direct participants, local result, and C.2.1 result episteme distinct. A declaration, plan, compatible signature, stored ref, ledger row, or evidence edge establishes none of the occurrence facts. |
+| **CC‑G4‑16** | Each performed acceptance or decision path names its direct result owner and exact later-use relation. Provenance stays with A.10/G.6, currentness with G.11, assurance with B.3, and decisions with C.11; no universal evaluation-result, work-result, evidence-use, or criterion-participant relation is introduced. |
 
 ### G.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -98196,6 +97919,10 @@ The pattern mitigates these by requiring typed acceptance clauses, explicit poli
   Avoid: letting probe/illumination telemetry quietly become a dispatch criterion.
   Prefer: keep it report‑only unless an explicit policy‑bound acceptance clause authorizes promotion.
 
+* **Declaration mistaken for execution.**
+  Avoid: treating a CAL card, `TaskMap`, proof-ledger row, worked example, or evidence edge as proof that an operator ran or a verdict obtained.
+  Prefer: ground dated work, role assignment, method enactment, actual direct bindings, the domain-local result, and any result episteme separately.
+
 ### G.4:9 - Consequences
 
 * CAL becomes a stable, citable CAL Pack: operator/acceptance semantics are explicit artifacts, not tacit code behavior.
@@ -98218,21 +97945,25 @@ This yields modularity (one governing definition per invariant or default), audi
 
 ### G.4:11 - SoTA-Echoing
 
-CAL authoring is compatible with post‑2015 best practice families without confusing “popular” with “best‑available”:
+Source qualification was checked on 2026-07-30. The source identities below are immutable publications; the G.4 adoption decisions remain qualified through 2027-07-30 unless a governing neighbour adopts a successor earlier or a new result contradicts the named assumption boundary.
 
-* **Risk‑controlled acceptance**: modern conformal / selective / set‑valued prediction families where “abstain” is a first‑class, audited outcome (fits tri‑state gating + explicit calibration pins).
-* **Robust acceptance envelopes**: distribution‑shift‑aware and distributionally‑robust acceptance styles, expressed as policy‑pinned predicates rather than hidden heuristics.
-* **Modern multi‑objective practice**: preference‑aware, interactive, and set‑returning multi‑objective decision families that preserve partial orders and selected sets.
-* **Quality‑Diversity after 2015**: archive‑based search families (e.g., CMA‑ME‑class) attach as wiring via edition‑pinned descriptor/distance/insertion artifacts.
-* **Open‑ended exploration after 2015**: environment‑method co‑evolution families (e.g., POET‑class) attach through explicit generator family wiring and policy‑bound acceptance branches.
+| Exact source and source-use decision | Visible G.4 mutation | Rejected overread | Smallest source-change replay |
+| --- | --- | --- | --- |
+| Angelopoulos, Bates, Fisch, Lei, and Schuster, [*Conformal Risk Control*, ICLR 2024](https://proceedings.iclr.cc/paper_files/paper/2024/hash/f3549ef9b5ff520a7e41ff3cc306ab2b-Abstract-Conference.html) — **adapt** bounded monotone-loss risk control only for a CAL clause whose statistical assumptions are explicit. | C3 and `CC-G4-04` require loss, risk/coverage target, calibration population/window, exchangeability or declared shift treatment, and failure/abstain behavior before such a clause is published. The ordinary §4.4a chain still owns any performed application and verdict. | “Conformal”, a calibration set, or a coverage target does not make a universal acceptance guarantee, authorize deployment, or establish that evaluation occurred. | Reopen only C3, `CC-G4-04`, and the one worked clause/test that claims this guarantee when its assumptions or guarantee change. |
+| Fontaine, Togelius, Nikolaidis, and Hoover, [*Covariance Matrix Adaptation for the Rapid Illumination of Behavior Space*, GECCO 2020](https://doi.org/10.1145/3377930.3390232) — **adapt** only the need to pin descriptor, distance, insertion, archive, and reporting policy when `G.4:Ext.NQD` is actually used. | C6, `G.4:Ext.NQD`, and `CC-G4-13` keep QD method semantics in C.18 while making the CAL wiring reproducible. | Archive occupancy, coverage, QD-score, or the presence of CMA-ME wiring is not dominance, acceptance, selection, or a runtime result. | Reopen only C6, `G.4:Ext.NQD`, `CC-G4-13`, and its one NQD example/test if the adopted descriptor/archive contract changes. |
+| Wang et al., [*Enhanced POET: Open-ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions*, ICML/PMLR 119 (2020)](https://proceedings.mlr.press/v119/wang20l.html) — **reject as a source of G.4 core or acceptance semantics**; retain it only as an exact lineage reference for optional exploration wiring owned elsewhere. | C6 and `CC-G4-11` require an exact current governor and present-task entry/stop condition before any exploration extension is admitted; no POET-specific rule enters the CAL core. | Open-ended generation, transfer, or progress telemetry does not become a CAL acceptance rule, task authority, or selected governor by citation. | Reopen only C6, `CC-G4-11`, and the exact C.19/C.23 extension block if its governing pattern explicitly adopts a changed POET-family contract. |
 
-All of these remain method‑specific semantics and therefore belong in `Extensions` blocks (or their governing patterns), while `G.4` keeps the calculus kit stable and auditable.
+Distributionally robust and broad multi-objective families are discovery leads, not G.4 decision sources. Current comparison, partial-order, and selected-set law stays with A.18/A.19; a future external source enters this table only after it changes a present C1–C9 action, worked case, or conformance row. Source refresh is local to the row's named rule, example, and check.
+
+#### G.4:11.1 - Owner-facing architecture and publication inventory
+
+G.4 is a design-time authoring pattern. It publishes a notation-independent `CAL Pack@CG-Frame` with charter, stable operator/clause/flow ids, evidence/currentness refs, proof-or-gap records, worked examples/tests, continuity notes, and a minimal `TaskMap`. It uses G.Core/G.0/G.1–G.3 for Part-G, Context, SoTA, CHR, and legality disciplines; A.6.1/A.15.1/C.2.1 for the declaration/runtime/result-episteme split; and A.10/G.11/B.3/C.11 for provenance, currentness, assurance, and decisions. G.6 is used only when `G.4:Ext.EvidenceGraphWiring` is present. Method-specific semantics remain with the exact extension governor. The detailed manifests, schemas, and interfaces above are owner-facing citation surfaces for this one practitioner path, not a second workflow.
 
 ### G.4:12 - Relations
 
 **Builds on:** `G.Core` (and the pattern template discipline in `E.8`).
 
-**Uses:** `G.1` (CG‑FrameContext), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec), `A.18` (CSLC), `A.10` (provenance anchors), `B.3` (trust/freshness/decay), `E.18` + `A.21` + `F.9`/`F.17`/`E.17` (GateCrossing harness).
+**Uses:** `G.1` (CG‑FrameContext), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec plus direct comparison/selection owners), `A.18` (CSLC), `A.6.1` (declarations and actual bindings), `A.15.1` (dated work and roles), `C.2.1` (result epistemes), `C.11` (decision results), `A.10` (provenance and bounded reliance), `B.3` (assurance), `G.11` (currentness), `E.18` + `A.21` + `F.9`/`F.17`/`E.17` (GateCrossing harness).
 
 **Uses (via Extensions):** `G.6` (EvidenceGraph/Path citation; when `G.4:Ext.EvidenceGraphWiring` is present), `C.18` (NQD), `C.19` (E/E‑LOG), `C.23` (SoS‑LOG).
 
@@ -98929,267 +98660,273 @@ Architecture discovery boundary: when a generated or discovered structure-bearin
 
 ### G.6:1 - Problem Frame
 
-Use this pattern when a claim, admission result, assurance result, selector result, maturity transition, benchmark result, or refresh decision needs a citable evidence-provenance path rather than a local evidence-use statement.
+Use this pattern when a later user must cite, replay, audit, or refresh a path through several already established objects and relations rather than repeat their complete source account.
 
 Use it when the working question is:
 
-* which evidence-use relations, source records, work occurrences, method descriptions, proof checks, measurements, status-use relations, or causal-use references make the claim traceable;
-* that the evidence relation is a graph path in a declared provenance graph, while actual work and transformation-flow claims remain governed by `A.15.1` and `E.18`;
-* which time window, bounded context, reference plane, bridge, edition, policy, or source-currentness relation changes the admissible use;
-* which downstream selector record, assurance record, release package, benchmark record, audit record, or refresh record may cite the evidence-provenance path without copying the whole evidence table;
-* what stronger downstream use is not carried by the evidence-provenance path and which direct pattern governs that use.
+* which dated work occurrences, role assignments, actual participants or bindings, produced entities, domain results, result epistemes, outcomes, source publications, carriers, and provenance relations must remain addressable;
+* which exact direct relations connect those objects, which pattern governs each relation, and whether each relation is already established as obtaining;
+* which bounded context, reference plane, time window, bridge, edition, policy, source-currentness result, or reliance boundary limits the cited path;
+* which downstream work and exact use relation may cite the path; and
+* what stronger conclusion, assurance, permission, acceptance, gate passage, or decision the path does not carry.
 
-**Primary EntityOfConcern.** The primary `EntityOfConcern` is addressable evidence provenance: an `EvidenceGraph`, its graph-path addresses `PathId` and `PathSliceId`, and the provenance ledger entries that make those paths replayable. The pattern governs addressable provenance. It does not create `U.EvidenceRole`, does not make an episteme hold a work-facing role, and does not replace `A.10`, `A.2.4`, `B.3`, `C.28`, or `F.10`.
+**Primary EntityOfConcern.** The primary `EntityOfConcern` is an addressable provenance representation: one `EvidenceGraph`, its `PathId` or `PathSliceId`, and any ledger entry that makes the path replayable. G.6 governs path identity, slicing, citation, and local refresh. It does not create the represented work, participation, production, result, episteme, outcome, source, currentness, reliance, or representation correspondence.
 
-**First useful move.** Write the smallest `PathCitationRecord`: claim or use, `EvidenceGraphRef`, graph path, bounded context, downstream citation use or evidence-use relation, time window, source or provenance constraints, bridge or edition refs when current, and `NotCarried`.
+**First useful move.** Name the relied-on claim or bounded use, then list the exact object refs and direct relation refs needed to replay it. For every relation record its direct governor and obtaining claim. Only then draw the path. Keep an unresolved relation as a gap; do not turn it into a graph edge asserted as obtaining.
 
-**What goes wrong if missed.** Evidence is summarized as a story, badge, confidence phrase, benchmark score, proof label, or dashboard tile; downstream users cannot find which sources and checks carried the claim; context crossings are hidden; refresh becomes a global rerun instead of a local path update.
+**What goes wrong if missed.** A tidy graph makes an unperformed method look like work, a co-listed actor look like a participant, a carrier look like a produced result, a measurement or verdict look like generic evidence, or a provenance edge look like the world-side relation itself.
 
-**What this buys.** A selector, auditor, assurance user, benchmark consumer, or refresh record can cite one stable path and later replay exactly the sources, relations, windows, and constraints that made the claim admissible.
+**What this buys.** Downstream work can cite one stable path while a reviewer can still recover the exact work, participants, products, subject results, result epistemes, sources, direct relations, currentness, and bounded use that the path represents.
 
-**Not this pattern when.** If only one episteme is being used as evidence or status before a full path is needed, use `A.2.4`. If the current question is ordinary evidence relation and source-currentness without Part-G path addressing, use `A.10`. If the claim is assurance, use `B.3`. If the claim is causal use, use `C.28`. If the question is status-family mapping, use `F.10`. If the question is publication, view, source-use, explanation-use, or specification-use, use `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, or `E.10.D2`. If the question is performed work, use `A.15.1`.
+**Not this pattern when.** Use `A.2.4` for the first evidence-use or status-use classification, `A.10` for source recovery and bounded reliance, `A.15.1` and `A.6.1` for performed work and actual bindings, `A.15.PROD` when production or inception is current, the exact domain pattern for its local result, `C.2.1` for the result episteme, `G.11` for currentness, `C.29` for representation correspondence, and `B.3` for assurance. If only one local source-to-use statement is needed, stay in A.10.
+
+Here `path` means a path in a descriptive provenance graph. It is not an action route, method, workflow, transformation flow, universal evidence relation, or generic work-result relation.
 
 ### G.6:2 - Problem
 
-Large projects need to rely on evidence that is distributed across proofs, measurements, work traces, source publications, credentials, model cards, benchmarks, bridge records, and status sources. A compact evidence-use statement is often enough for a local claim, but it is not enough when downstream work must cite, replay, compare, refresh, or audit the whole provenance line.
+Large projects often need to cite a chain that crosses measurement, evaluation, aggregation, production, publication, and later use. The chain becomes unsafe when the graph is allowed to supply facts missing from the governed objects.
 
 The common failures are:
 
-1. **Narrative provenance.** A report says "because the evidence carries the claim" but does not expose the graph path from claim to evidence relations, sources, checks, and work occurrences.
-2. **Hidden crossing.** Evidence accepted in one bounded context, reference plane, edition, or status window is reused in another as if no bridge or currentness relation were needed.
-3. **Role drift.** A proof, dataset, status cell, report, or benchmark result is treated as if it held an evidence role, instead of being a value in an evidence-use, status-use, source-use, or provenance relation.
-4. **Path metaphor drift.** A graph path is read as an action route or workflow. The pattern then starts teaching work planning or performed work, rather than how a provenance graph is addressed.
-5. **Ledger process drift.** A provenance ledger is confused with work-progress, review-comment, or process evidence. The pattern then records development status instead of citable evidence-provenance facts.
-6. **Refresh fanout.** A source edit, edition change, decay event, bridge change, or policy change forces a broad "rerun everything" because the affected evidence-provenance paths were never addressable.
+1. **Edge-to-fact inversion.** A drawn edge is treated as proof that work, participation, production, measurement, evaluation, or use occurred.
+2. **Generic relation fallback.** Labels such as `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, or `evidences` replace the exact direct relation and its governor.
+3. **Result collapse.** Subject result, result episteme, carrier, outcome, assurance, and later decision become one generic result node.
+4. **Declaration-to-runtime collapse.** A `MethodDescription`, operation signature, policy, clause, or plan is read as an actual run and its bindings.
+5. **Hidden crossing.** A path silently crosses context, reference plane, edition, source order, or currentness window.
+6. **Refresh fanout.** One changed source or relation forces a global rerun because the smallest affected path slice cannot be found.
 
 ### G.6:3 - Forces
 
 | Force | Tension this pattern resolves |
 | --- | --- |
-| Citable provenance versus local evidence use | `A.10` and `A.2.4` can state evidence use; G.6 adds stable path identity only when downstream citation or refresh needs it. |
-| Graph path and work claims stay distinct | A graph path is a declarative relation in an evidence-provenance DAG; actual work and transformation-flow claims stay with `A.15.1` and `E.18`. |
-| Detail versus affordability | A path needs enough nodes, edges, windows, and constraints to replay reliance, but not every neighboring pattern boundary repeated in prose. |
-| Typed downstream use versus one citation | The downstream citation may be one `PathId`, while verification, validation, lineage, assurance, status, causal-use, and source-currentness relations remain typed. |
-| Bridge visibility versus reuse convenience | Cross-context or cross-plane reuse needs explicit bridge/currentness refs; label equality is not enough. |
-| Refresh locality versus stale evidence | Path-level addresses let one changed source, bridge, edition, or policy reopen only the affected evidence-provenance paths. |
+| Compact citation versus direct ownership | One path is easy to cite, but each represented fact and relation must remain with its exact governor. |
+| Graph readability versus ontic force | Nodes and edges make a chain legible; their presence cannot make any represented relation obtain. |
+| Result continuity versus result collapse | A path may connect measurement, evaluation, aggregation, and decision while preserving every local result and result episteme. |
+| Reusable declaration versus performed occurrence | Methods, descriptions, policies, and clauses may be cited, but dated work and actual bindings remain separate. |
+| Cross-context reuse versus hidden loss | Bridges, editions, time windows, source order, and currentness remain visible at the path slice that depends on them. |
+| Refresh locality versus stale reliance | Stable addresses let one changed object or direct relation reopen only the affected path or slice. |
 
-### G.6:4 - Solution
+### G.6:4 - Solution — cite independently governed objects and relations
 
-Create a citable `EvidenceGraph` and `PathCitationRecord` set when a local evidence-use statement is too small for the reliance being claimed. Keep the graph declarative and typed: nodes and edges carry provenance relations; `PathId` and `PathSliceId` cite graph paths; a provenance ledger records replayable path entries.
+Create an `EvidenceGraph` only after the relied-on claim or bounded use and its supporting objects have been recovered. The graph is a declarative, addressable representation. Each node record cites one independently governed object; each asserted edge record cites one independently established direct relation. `PathId`, `PathSliceId`, and the provenance ledger add citation and refresh locality, not world-side facts.
 
-#### G.6:4.1 - Boundary to Neighboring Patterns
+#### G.6:4.1 - Direct-owner map
 
-`G.6` is a path-addressing pattern over evidence provenance. It consumes or cites the following values without redefining them:
-
-| Current value or relation | Governing pattern |
+| Represented claim or object | Direct owner before G.6 represents it |
 | --- | --- |
-| compact episteme evidence-use or status-use relation | `A.2.4` |
-| evidence carrier, source-currentness, evidence-producing work relation, evidence relation, and evidence-provenance addressing basics | `A.10` |
-| assurance, trust, safety, compliance, readiness, or release-confidence claim | `B.3` |
-| causal-use support basis, identification profile, causal-use verdict, or realizability profile | `C.28` |
-| status family, status cell, status-use statement, or cross-context status mapping | `F.10` |
-| bridge, congruence level, loss, or context-transfer relation | `F.9` |
-| transformation-flow structure, gate crossing, or work occurrence used as evidence source | `E.18`, `A.21`, or `A.15.1` as applicable |
-| publication, view, explanation, source-use, or specification-use relation | `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, or `E.10.D2` |
+| Reusable method, generic participants, parameters, effects, and conditions | exact `U.Method`; `A.3.2` for its `U.MethodDescription` |
+| Dated work, role assignment, enactment, resources, and actual participants or bindings | `A.15.1`, `A.2.1`, exact subject relations, and `A.6.1` when operation-application bindings are used |
+| Production or inception of an entity or episteme | the exact production relation and `A.15.PROD` when its entry condition is met |
+| Measurement result and its measurement-specific basis | `C.16` |
+| Acceptance-clause application or other runtime evaluation result | `G.4` or the exact formal, conformance, diagnostic, causal, comparison, selection, gate, or decision governor |
+| Work-resource aggregation result | `B.1.6` |
+| Durable episteme that states a local result | `C.2.1`; it remains distinct from the domain result |
+| Outcome, later action, acceptance, gate passage, permission, or decision | its exact work and domain governor, including `C.11` or `A.21` when applicable |
+| Source publication, carrier, copy, extraction, or publication occurrence | `E.17` family and the exact source relation owner |
+| Representation correspondence | `C.29` |
+| Bridge, congruence, loss, or cross-context transfer | `F.9` |
+| Transformation-flow structure distinct from performed work | `E.18` and `E.18.2` |
+| First evidence/status use, provenance and bounded reliance, currentness, or assurance | `A.2.4`, `A.10`, `G.11`, or `B.3` respectively |
 
-Do not add a local `EvidenceRole` value set. Source labels such as "proof role", "measurement role", "benchmark role", or "status role" are repair prompts. Recover the direct evidence-use, status-use, source-use, causal-use, assurance, work, or publication-use relation first.
+G.6 does not substitute for any row. If the direct owner or relation cannot be recovered, the path records an unresolved gap and cannot present that edge as obtaining.
 
-#### G.6:4.2 - EvidenceGraph
+Do not add a local `U.EvidenceRole` or turn proof, measurement, benchmark, source, or status labels into roles. A producer, verifier, laboratory, issuer, or maintainer participates only through an independently established work-facing role assignment and exact work relation.
 
-An `EvidenceGraph` is a typed directed acyclic graph used for evidence-provenance citation. It is a graph because path identity, path slicing, and path-local refresh depend on graph structure. The graph is not a holarchy, not a transformation-flow structure, not a work plan, and not a method.
+#### G.6:4.2 - EvidenceGraph as a representation
+
+An `EvidenceGraph` is a typed directed graph used for provenance citation and replay. It may project a dependency-closed slice of independently governed objects and relations. It is not a holarchy, work plan, method, transformation flow, result algebra, or proof that its contents obtain.
 
 Minimal graph fields:
 
 ```text
 EvidenceGraph:
-  EvidenceGraphId:
-  BoundedContext:
-  ClaimFamilyOrUse:
-  ReferencePlane:
-  GraphNodeSet:
-  GraphEdgeSet:
-  TimePolicyOrWindow:
-  SourceCurrentnessPolicy:
-  BridgeOrTransferRefs:
-  EditionOrPolicyRefs:
-  GraphPathAddressingRule:
+  EvidenceGraphId
+  ReliedOnClaimOrBoundedUseRef
+  BoundedContext
+  ReferencePlane
+  RepresentedNodeRecords
+  RepresentedRelationEdgeRecords
+  TimeWindowOrPolicy
+  SourceCurrentnessRefs
+  BridgeOrLossRefs
+  EditionOrPolicyRefs
+  GraphPathAddressingRule
+  C29RepresentationRefs
 ```
 
-Minimal node kinds:
+A node record is a projection, not a new universal object kind:
 
-| Node kind | Value governed by | Use in G.6 |
-| --- | --- | --- |
-| `EvidenceUseRelationNode` | `A.2.4` or `A.10` | Names one episteme, carrier, source, proof, observation, or record being used as evidence for a claim or use. |
-| `EvidenceCarrierNode` | `A.10` | References the concrete carrier or carrier class when material recoverability matters. |
-| `SourcePublicationNode` | `E.17` and `A.10` | References a publication, source record, view, explanation, standard, model card, data card, or generated source relation. |
-| `EvidenceProducingWorkNode` | `A.15.1` and `A.10` | References work occurrences, measurements, checks, tests, runs, audits, or observations that produced evidence. |
-| `MethodDescriptionNode` | `A.3.2` and `A.10` | References the method description or formal substrate used to produce or interpret evidence. |
-| `ExternalProducerRoleAssignmentNode` | `A.2.1` and `A.10` | References the work-facing role assignment of the producer, verifier, lab, issuer, or source-maintenance actor when externality decides the evidence relation. |
-| `StatusUseRelationNode` | `A.2.4` and `F.10` | References a status-use statement when the path relies on validity, currentness, approval-looking status, or requirement status. |
-| `CausalUseReferenceNode` | `C.28` | References causal-use support basis, identification, realizability, or verdict when the path is used for causal claims. |
+```text
+RepresentedNodeRecord:
+  GraphNodeId
+  RepresentedObjectRef
+  ObjectKindAsGoverned
+  DirectGovernorRef
+  ContextEditionOrTimeQualification?
+  RepresentationRef
+```
 
-Minimal edge kinds:
+The node set may cite exact work occurrences, role assignments, actual bindings, produced entities, measurement or other subject results, evaluation or aggregation results, C.2.1 result epistemes, outcomes, source publications, carriers, currentness results, reliance dispositions, and later work. Co-listing creates no relation among them.
 
-| Edge kind | Meaning |
-| --- | --- |
-| `verifiedBy` | Formal or proof-like evidence relation. |
-| `validatedBy` | Empirical, observational, experimental, or run-time evidence relation. |
-| `producedByWork` | Evidence was produced by a named work occurrence, measurement, check, run, or audit. |
-| `usesMethodDescription` | Evidence production or interpretation used a named method description, formal substrate, or model description. |
-| `derivedFrom` | One evidence node or source record is derived from another through a declared transformation, extraction, copy, representation shift, summary, or publication-use relation. |
-| `happenedBefore` | A temporal ordering relation needed for the evidence claim. |
-| `citesSource` | The path depends on a source publication, source record, status source, or source-currentness relation. |
-| `crossesViaBridge` | The path crosses bounded context, reference plane, edition, or other bridge-relevant boundary through an explicit bridge or loss relation. |
-| `hasStatusUse` | The path depends on a status-use statement rather than a display label. |
-| `hasCausalUseRef` | The path depends on causal-use content governed by `C.28`. |
+An asserted edge is also a projection:
 
-Extra graph annotations may exist for diagrams or tools, but conformance depends only on typed nodes, typed edges, path addresses, windows, constraints, and governing-pattern refs.
+```text
+RepresentedRelationEdgeRecord:
+  GraphEdgeId
+  DirectRelationRef
+  DirectRelationKindRef
+  ActualParticipantRefs
+  DirectGovernorRef
+  ObtainingClaimRef
+  ContextEditionOrTimeQualification?
+  RepresentationRef
+```
+
+Before the edge enters a relied-on path, the exact direct relation must already be established under its governor. The participant refs in the edge must match that relation; adjacency, direction, shared identifiers, timestamps, source order, or visual layout cannot supply them. `RepresentationRef` points outward to the applicable C.29 correspondence when that correspondence is current.
+
+G.6 defines no fallback core edge vocabulary. Legacy or display labels such as `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, `derivedFrom`, `usesMethodDescription`, `citesSource`, or `evidences` are navigation prompts only. Replace each with the exact formal, measurement, work, production, publication, representation, provenance, temporal, status-use, premise, reference, argument, or other direct relation before asserting the edge as obtaining.
 
 #### G.6:4.3 - PathId and PathSliceId
 
-A `PathId` is a stable identifier for one claim-local graph path inside an `EvidenceGraph`. A `PathSliceId` is a stable identifier for the same path under a declared slice: time window, reference plane, bounded context, edition, bridge, policy, or selected evidence subset.
-
-Here `path` means a path in the evidence-provenance graph. It is not an imperative route, work sequence, workflow, or transformation-flow path.
+A `PathId` identifies one claim-local path inside an `EvidenceGraph`. A `PathSliceId` identifies the same path under a declared time window, reference plane, bounded context, edition, bridge, policy, or selected object/relation subset.
 
 Use this compact record:
 
 ```text
 PathCitationRecord:
-  ClaimOrUseRef:
-  EvidenceGraphRef:
-  PathId:
-  PathSliceId:
-  BoundedContext:
-  ReferencePlane:
-  EvidenceUseRefs:
-  PathNodeRefs:
-  PathEdgeRefs:
-  TimeWindowOrFreshnessPolicy:
-  SourceCurrentnessRefs:
-  BridgeOrLossRefs:
-  EditionOrPolicyRefs:
-  DownstreamCitationUse:
-  NotCarried:
-  ReopenTrigger:
+  ReliedOnClaimOrBoundedUseRef
+  EvidenceGraphRef
+  PathId
+  PathSliceId
+  BoundedContext
+  ReferencePlane
+  RepresentedObjectRefs
+  RepresentedDirectRelationRefs
+  DirectGovernorRefs
+  SourcePublicationAndCarrierRefs
+  C29RepresentationRefs
+  TimeWindowOrFreshnessPolicy
+  SourceCurrentnessRefs
+  BridgeOrLossRefs
+  EditionOrPolicyRefs
+  DownstreamWorkRef?
+  ExactDownstreamUseRelationRef?
+  A10RelianceDispositionRef?
+  NotCarried
+  UnresolvedRelationGaps
+  ReopenTrigger
 ```
 
-`NotCarried` names the stronger claim not carried by this graph path: approval, permission, gate passage, release, performed work, assurance, causal identification, status assertion, compliance, benchmark superiority, or truth outside the declared claim and scope.
+`NotCarried` names every stronger use that the path does not establish: work occurrence, participation, production, claim truth, assurance, approval, permission, gate passage, release, causal identification, benchmark superiority, acceptance, or decision. Actual downstream use requires dated work and one exact premise, reference, operation-argument, decision-use, or other direct relation; path availability or citation is not actual use.
 
-#### G.6:4.4 - Provenance Ledger
+#### G.6:4.4 - Provenance ledger
 
-A `ProvenanceLedger` is a citable record over `PathCitationRecord` entries. It is not a work-progress log, review-comment log, or process-status log.
-
-Minimal fields:
+A `ProvenanceLedger` is a citable replay index over `PathCitationRecord` entries. It is not a work-progress log, result registry, review-comment log, process-status log, or ontic source.
 
 ```text
 ProvenanceLedger:
-  LedgerId:
-  EvidenceGraphRef:
-  PathCitationRecords:
-  SourceOrderPolicy:
-  CurrentnessPolicy:
-  PrivacyOrDisclosureBoundary:
-  RefreshScopeRule:
+  LedgerId
+  EvidenceGraphRef
+  PathCitationRecords
+  RepresentedObjectIndex
+  RepresentedDirectRelationIndex
+  SourceOrderPolicy
+  CurrentnessPolicy
+  PrivacyOrDisclosureBoundary
+  RefreshScopeRule
 ```
 
-Use a provenance ledger when several downstream records need the same path family: selector records, benchmark harnesses, assurance cases, release packages, maturity transitions, refresh records, or safety reviews. Do not create a ledger merely because one local evidence-use statement is easy to write in prose.
+The ledger may cite work, participants, produced entities, domain results, result epistemes, outcomes, sources, transformations, representation correspondences, provenance, and later uses. A row establishes none of them. Use a ledger when several downstream consumers need the same path family; do not create one merely because a local A.10 account is easy to write.
 
-#### G.6:4.5 - Refresh and Source Return
+#### G.6:4.5 - Refresh and source return
 
-Reopen the smallest affected path when one of these changes:
+Reopen the smallest affected `PathId`, `PathSliceId`, node projection, or relation-edge projection when any cited object, direct relation, governor, source, bridge, representation correspondence, edition, policy, time window, currentness result, or reliance boundary changes.
 
-* evidence carrier identity, integrity, access, or hash;
-* source publication, source order, supersession, or currentness window;
-* work occurrence, measurement run, method description, proof check, or observation record;
-* bridge, congruence level, loss statement, reference plane, or bounded context;
-* causal-use profile, status-use statement, assurance-use requirement, or gate relation consumed downstream;
-* edition, policy, threshold, verifier rule, relying-party context, or minimum disclosure boundary.
+If the direct relation no longer obtains or its proof becomes unavailable, remove it from the relied-on path or mark the exact unresolved gap. Do not preserve the edge from graph history, infer a replacement relation, rerun unrelated paths, or certify a new downstream result through refresh alone.
 
-The reopen result is local to `PathId`, `PathSliceId`, or the smallest graph subpath that carries the changed relation. It does not rewrite the whole project and does not certify a new downstream decision by itself.
+#### G.6:4.6 - Declarative representation discipline
 
-#### G.6:4.6 - Declarative Representation Discipline
+`EvidenceGraph`, `PathId`, `PathSliceId`, and `ProvenanceLedger` tell a reader which already governed account is being cited. They do not tell a worker what to do and they do not reconstruct missing world-side facts.
 
-`EvidenceGraph`, `PathId`, and `PathSliceId` are declarative representation values. They tell a reader what provenance relation is being cited. They do not tell a worker what to do next.
-
-When a source phrase says "evidence path", "provenance route", "audit trail", "lineage flow", "data pipeline", or "workflow", recover the kind before copying the word:
-
-| Source phrase is about | Governed by |
+| Current phrase or artifact | Required recovery before G.6 representation |
 | --- | --- |
-| graph path from claim to evidence and source refs | `G.6` and `A.10` |
-| actual work that produced evidence | `A.15.1` |
-| method or procedure for producing evidence | `A.3.1` and `A.3.2` |
-| transformation-flow structure or graph | `E.18` and `E.18.2` |
-| publication view, source form, explanation, or exported report | `E.17`, `E.17.0`, `E.17.2`, or `E.17.EFP` |
-| assurance, gate, release, or permission use | `B.3`, `A.21`, or the direct governing boundary pattern |
+| method, protocol, algorithm, clause, or policy | exact reusable declaration; dated work and actual bindings only when independently established |
+| work trace, run, test, audit, measurement, or evaluation | dated work, role assignment, method enactment, resources, and actual direct/A.6.1 bindings |
+| produced carrier, model, report, or episteme | exact produced entity and production/inception relation |
+| reading, score, verdict, estimate, aggregate, diagnosis, or outcome | exact domain result and direct governor; distinct C.2.1 episteme when durably stated |
+| publication, view, export, or graph rendering | exact source/publication relation and C.29 representation correspondence when current |
+| evidence, provenance, currentness, reliance, or assurance | A.2.4/A.10, G.11, and B.3 under their separate entry conditions |
+| later acceptance, gate, release, or decision | separate dated work, local result, and exact later-use relation |
 
-#### G.6:4.7 - Extension Wiring Without Core Drift
+#### G.6:4.7 - Extension wiring without core drift
 
-Method-family, benchmark, selector, parity, or telemetry patterns may add required pins to a `PathCitationRecord`. They do not add new core node kinds unless the governing pattern explicitly changes G.6.
+Selector, benchmark, assurance, refresh, or telemetry patterns may require additional pins in `PathCitationRecord`. They may cite `PathId` or `PathSliceId`, but they do not mint a universal edge, result, evidence, or criterion-participant relation. Any added graph record still names the exact represented object or direct relation and its governor.
 
-Examples:
-
-* `G.5` may cite a `PathId` for selector explainability or admissibility.
-* `G.9` may cite a `PathSliceId` for benchmark parity or replication lineage.
-* `G.11` may consume reopen triggers and affected path slices for refresh.
-* A causal-use pattern may add `C.28` refs to a path, but the causal-use relation remains governed by `C.28`.
-* An assurance pattern may consume a path, but the assurance tuple remains governed by `B.3`.
+`G.5` may cite a path for selector explanation, `G.9` for benchmark replication, `G.11` for local refresh, and B.3 for an assurance input. Their selection, benchmark, currentness, and assurance results remain their own.
 
 ### G.6:5 - Archetypal Grounding
 
-#### G.6:5.1 - Brake Envelope Claim
+#### G.6:5.1 - Measurement, acceptance, and decision
 
-A braking-system claim says the vehicle stops within a declared distance under declared conditions. `A.10` identifies telemetry files, calibration certificates, test runs, and external lab work. `G.6` mints a `PathId` that cites the graph path from the claim to proof checks, instrumented tests, calibration records, work occurrences, and time windows. `NotCarried` names stronger downstream uses; `B.3` and gate patterns govern assurance and release uses.
+C.16 dated measurement work binds the pressure measurand, detector, calibration, model, input quantities, and uncertainty propagation and obtains a pressure measurement result. A distinct C.2.1 episteme states that result. Later G.4 `EvaluationWork` applies one declared acceptance clause through exact A.6.1 bindings and obtains `unknown`; another C.2.1 episteme states that verdict. Later C.11 decision work uses the verdict episteme through an exact premise relation and defers.
 
-#### G.6:5.2 - Benchmark Parity Claim
+G.6 may give this chain one `PathId` only after the measurement, work, binding, result, episteme, clause-application, premise, and decision relations are independently established. Its nodes keep raw detector output, indication, actual pressure, measurement result, verdict, and decision distinct. Its edges cite the exact relations; none produces the work, verdict, or decision.
 
-A model-family report says a method reaches parity on a benchmark. `G.6` cites the path through dataset version, evaluation protocol, result record, source publication, method description, and replication work. If the dataset edition, metric policy, or source-currentness relation changes, the affected `PathSliceId` reopens without rerunning unrelated evidence-provenance paths.
+#### G.6:5.2 - Resource aggregation
 
-#### G.6:5.3 - Dashboard Status Cue
+An engine programme has several C.16 resource measurements, dated test-run work occurrences, exact phase and overlap relations, and a shared warm-up allocation rule. B.1.6 dated aggregation work applies `ProgrammeResourcePolicy-v3` and obtains a typed resource vector with propagated uncertainty; a distinct C.2.1 episteme states it.
 
-A dashboard cell shows `Ready`. `F.10` governs status-family mapping and status-use. `A.10` governs the evidence relation to the governing register or source. `G.6` is used only when a downstream release package, selector, assurance record, or audit needs a stable evidence-provenance path from the visible cue to source, status-use relation, query time, window, issuer, and currentness policy.
+The G.6 path cites every measurement result and episteme, the work-set and overlap relations, the edition-pinned policy, aggregation work, aggregation result, sources, and representation refs. The ledger does not make epoch labels into work parts, allocate the warm-up energy, perform uncertainty propagation, or turn the aggregate into an emissions verdict.
 
-#### G.6:5.4 - Causal Policy Result
+#### G.6:5.3 - Produced model and benchmark use
 
-A policy report says an intervention caused improvement. `C.28` governs causal-use support basis, identification, and realizability. `A.10` records evidence relation. `G.6` only gives a citable evidence-provenance path from the policy claim to the causal-use refs, data sources, assumptions, work occurrences, time window, and bridge refs needed for later audit.
+Dated training work has exact actual bindings and, when the production claim is current, an A.15.PROD-governed relation to one produced model edition. Separate benchmark-evaluation work applies its declared method and dataset edition and obtains a result under the benchmark's direct governor; a C.2.1 episteme states that result. A source publication and model card expose selected claims under E.17/C.29 relations. G.11 supplies currentness when later use depends on edition or freshness.
+
+A G.6 `PathSliceId` may cite that dependency chain for replication. The graph does not infer training from the model's presence, participation from a roster, evaluation from the protocol, superiority from the score, or deployment permission from the model card.
+
+#### G.6:5.4 - Dashboard status cue
+
+A dashboard cell shows `Ready`. F.10 governs the status-use classification; A.10 recovers the source, query work, provenance, currentness, bounded reliance, and rival explanation. G.6 is entered only when a downstream audit or release package needs a stable path through those already established relations. The visible cue, graph path, and ledger row establish neither gate passage nor release.
 
 ### G.6:6 - Bias-Annotation
 
-Biases guarded here:
-
 | Bias | Guard |
 | --- | --- |
-| Role ontology drift | No `U.EvidenceRole`; evidence/status/source use is relation-slot work. |
-| Semio-bias | The path addresses evidence provenance for a claim; publication faces and displays are only source nodes or cues unless direct patterns admit stronger use. |
-| Imperative metaphor drift | `PathId` cites declared provenance graph structure; actual work and transformation-flow claims are governed by `A.15.1` and `E.18`. |
-| Ledger process drift | Provenance ledger is content evidence, not work-progress state. |
-| Proxy-for-value substitution | Badges, dashboards, scores, confidence phrases, and provenance labels do not become assurance, release, or truth. |
-| Fanout by repetition | Neighbor boundaries are named once in the path record and direct-pattern table, not repeated as boilerplate in every example. |
+| Graph-authority bias | A node or edge represents an object or direct relation only after its governor establishes it. |
+| Generic-edge bias | Reject fallback `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, and `evidences` relations; recover the exact direct relation. |
+| Result-node bias | Keep subject result, result episteme, carrier, outcome, assurance, and later action distinct. |
+| Declaration-runtime bias | A method, description, policy, clause, signature, or plan establishes no occurrence or actual binding. |
+| Provenance-as-truth bias | Origin and history support only their named bounded claim; provenance is not truth, safety, approval, or assurance. |
+| Path-as-workflow bias | Graph path identity supports citation and refresh; actual work and transformation flow retain their direct owners. |
+| Ledger-process bias | The ledger contains replayable provenance records, not campaign status, review proof, or work-progress notes. |
 
 ### G.6:7 - Conformance Checklist
 
 | ID | Check | Repair if missing |
 | --- | --- | --- |
-| `CC-G6-01` Primary EoC | Is the current evidence-provenance concern an `EvidenceGraph`, `PathId`, `PathSliceId`, or provenance ledger entry, with any role, work, or assurance claim kept under its own governing pattern? | Return to `A.2.4`, `A.10`, `B.3`, `C.28`, `F.10`, `A.15.1`, or `E.17` as appropriate. |
-| `CC-G6-02` Graph path identity | Does each `PathId` resolve to a graph path in a named `EvidenceGraph`? | Mint or repair `EvidenceGraphRef`, node refs, edge refs, and path addressing rule. |
-| `CC-G6-03` Node typing | Are node kinds explicit and governed by neighboring patterns? | Replace role-shaped or label-shaped nodes with evidence-use, status-use, source, work, method-description, carrier, or causal-use refs. |
-| `CC-G6-04` Edge typing | Are provenance edges typed and minimal? | Replace narrative "because" text with verified, validated, produced-by-work, uses-method-description, source, bridge, time, status, or causal-use edges. |
-| `CC-G6-05` Context and time | Are bounded context, reference plane, time window, freshness, currentness, edition, or policy refs stated when they decide use? | Add the missing refs or lower the path to source-finding or local evidence orientation. |
-| `CC-G6-06` Bridge visibility | Are cross-context, cross-plane, cross-edition, or source-order crossings explicit? | Add bridge, loss, currentness, or source-order refs; otherwise block downstream reuse. |
-| `CC-G6-07` Not carried | Does the path say what stronger downstream use it does not carry? | Add `NotCarried` for the stronger use and cite the governing pattern. |
-| `CC-G6-08` Downstream use | Is the downstream citation use named? | Name selector, assurance, benchmark, release, maturity, refresh, audit, or local claim use, or stay in `A.10`. |
-| `CC-G6-09` Refresh locality | Does a changed source, bridge, policy, edition, status, causal-use, or time relation reopen the smallest path slice? | Add `PathSliceId` and reopen trigger; avoid broad rerun language. |
-| `CC-G6-10` No process leakage | Is the provenance ledger free of work-progress notes, review comments, release proof, or quality proof? | Move process evidence to the current process carrier; keep G.6 to evidence-provenance facts. |
+| `CC-G6-01` Exact use | Is one relied-on claim or bounded downstream use named? | Name it, or stay in local A.10 source recovery. |
+| `CC-G6-02` Object projection | Does every node cite an exact independently governed object, kind, governor, qualification, and representation ref? | Recover the object or record an unresolved gap; do not mint a graph-only world object. |
+| `CC-G6-03` Relation prerequisite | Does every asserted edge cite one exact direct relation, its actual participants, governor, obtaining claim, and context? | Establish the direct relation first or remove the edge from the relied-on path. |
+| `CC-G6-04` No fallback edge | Are legacy or display labels prevented from acting as universal relations? | Replace each with the exact formal, measurement, work, production, publication, representation, provenance, temporal, status-use, or later-use relation. |
+| `CC-G6-05` Work boundary | Are reusable Method/MethodDescription, dated work, role assignment, resources, and actual direct/A.6.1 bindings distinct? | Return the occurrence account to A.15.1/A.6.1 and the exact participant owners. |
+| `CC-G6-06` Result boundary | Are produced entity, subject result, result episteme, carrier, outcome, assurance, and later action distinct and directly governed? | Route each to A.15.PROD, the domain result pattern, C.2.1, E.17/C.29, B.3, or the exact later-action owner. |
+| `CC-G6-07` Source and representation | Are source publication, carrier, copy/transform chain, and C.29 correspondence explicit when current? | Recover those relations before treating the graph rendering as source truth. |
+| `CC-G6-08` Time and crossing | Are bounded context, plane, window, bridge/loss, edition, policy, source order, and G.11 currentness visible where they limit use? | Add the exact refs or narrow/block the path slice. |
+| `CC-G6-09` Provenance and use | Are A.2.4/A.10 evidence/status use, A.10 provenance/reliance, downstream work, and exact use relation separate? | Recover the direct use; path citation or membership is not actual reliance. |
+| `CC-G6-10` Ledger boundary | Does the ledger merely index already established objects and relations, with `NotCarried`, gaps, and local reopen triggers? | Remove process status, generic result fields, and fact-creating language. |
 
 ### G.6:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
-| Narrative-only provenance | The reader cannot replay which evidence carried the claim. | Write `PathCitationRecord` with nodes, edges, windows, and `NotCarried`. |
-| Evidence role node | Recreates old `U.EvidenceRole` ontology. | Use evidence-use relation nodes and work-facing role assignment refs only when producer externality matters. |
-| Workflow overread | Treats declarative graph structure as work instruction. | `PathId` cites declared provenance graph structure; if actual work is current, use `A.15.1`; if transformation-flow structure is current, use `E.18`. |
-| Dashboard-to-decision shortcut | A visible cell is treated as a downstream decision basis by itself. | Use `F.10` for status-use, `A.10` for source evidence, and the direct governing pattern for the stronger downstream use. |
-| Provenance means truth | Origin, history, or attestation is treated as truth, safety, or adequacy. | Keep provenance as evidence for a named claim and use; apply direct patterns for truth-claim adequacy or assurance. |
-| Global refresh | One source change triggers an undifferentiated rewrite of every record. | Reopen only affected `PathId`, `PathSliceId`, or graph subpath. |
+| Edge as fact | Drawing or storing an edge is mistaken for an obtaining relation. | Establish the exact direct relation under its governor, then cite it through a representation record. |
+| Universal evidence edge | `verifiedBy`, `validatedBy`, `measuredBy`, `producedByWork`, or `evidences` absorbs several relation families. | Replace the label with the exact formal, measurement, work, production, source, use, or other direct relation. |
+| MethodDescription as run trace | Generic declarations acquire actual participants, time, or results by graph membership. | Ground dated work, role assignment, enactment, resources, and actual direct/A.6.1 bindings separately. |
+| Generic result node | Measurement, evaluation, aggregation, episteme, outcome, and decision collapse. | Keep each local result under its domain governor and each durable assertion under C.2.1. |
+| Provenance as result or assurance | A path or ledger row is read as truth, currentness, safety, permission, or acceptance. | Use A.10/G.11/B.3 and the exact result owner under their own entry conditions. |
+| Citation as actual use | A downstream record cites a path and is assumed to have used it. | Ground dated downstream work and one exact premise, reference, argument, or decision-use relation. |
+| Workflow overread | A declarative path becomes a method or action route. | Return work and transformation flow to A.15.1 and E.18; keep G.6 to representation and citation. |
+| Global refresh | One changed source or relation reopens every graph. | Reopen only the affected path, slice, node projection, or relation-edge projection. |
 
 ### G.6:9 - Consequences
 
@@ -99208,31 +98945,33 @@ Costs:
 
 ### G.6:10 - Rationale
 
-`A.10` already gives the evidence-provenance graph relation for claims. `G.6` adds the Part-G need that local A.10 records do not fully satisfy: stable citation and path-local refresh for selectors, benchmarks, maturity transitions, assurance records, and release packages.
+A.10 recovers one relied-on claim, its source/provenance account, and bounded reliance. G.6 adds stable graph-path identity, slicing, shared citation, and path-local refresh when several downstream consumers need the same dependency-closed representation.
 
-The pattern uses a graph mathematical lens because the useful mathematical object is a path through typed nodes and edges. It does not use graph language to claim that work "flows" through the path. When actual transformation structure matters, `E.18` governs it. When actual work matters, `A.15.1` governs it.
+That representational gain does not justify a second ontology of evidence edges. Work, participants, products, subject results, result epistemes, outcomes, sources, provenance, currentness, and later uses already have direct governors. G.6 therefore projects their exact refs and direct relations, and C.29 governs the representation correspondence when current. This makes a complex chain readable without allowing graph topology to create facts.
 
-The pattern uses ledger language only for a provenance record. It does not invite process logs into pattern prose.
+The ledger is likewise an index over established provenance, not a result store or process log. Missing relation evidence remains a visible gap; it is never repaired by drawing a more persuasive path.
 
 ### G.6:11 - SoTA-Echoing
 
-| Source family | G.6 adoption | Practitioner implication |
-| --- | --- | --- |
-| Verifiable-credential, content-provenance, and supply-chain attestation practice | Keep subject, issuer or producer, verifier or relying context, proof or signature check, status/currentness relation, policy, time, and input evidence or attestation refs separate. A summary attestation may be useful only when the underlying path or input attestations remain recoverable. | A provenance credential, content credential, or verification summary can feed a `PathId`; stronger downstream uses still need their governing patterns. |
-| Current provenance, attestation, credential, and content-authenticity practice | Separate subject, issuer or producer, proof check, status check, time window, verifier or relying context, and source-currentness relation. | A provenance mark or credential view may evidence bounded origin or status; stronger downstream uses are not created by display. |
-| Reproducible research, data lineage, model-card, datasheet, and benchmark governance practice | Keep dataset, metric, method description, evaluation condition, version, limitation, and run evidence addressable. | A benchmark or model report can be replayed and refreshed by path slice instead of becoming a frozen story. |
-| Assurance-case and safety-case practice | Keep evidence-provenance paths citable by assurance claims without letting evidence presence equal assurance. | `B.3` can consume a `PathId`, but still needs its own assurance tuple, limitations, decay, and reopen relation. |
-| Temporal and source-currentness practice | Treat windows, expiry, supersession, and source-order changes as path-local reopen events. | Stale or contested evidence lowers or reopens the path; it does not silently continue to carry reliance. |
-| Declarative graph and provenance-graph practice | Use graph paths for addressability and replay, while keeping work execution and transformation-flow structures separate. | A path can be checked without telling a worker to follow it as a route. |
+Source qualification was checked against the publishers' current surfaces on 2026-07-30. These decisions remain qualified through 2027-07-30 unless a new Recommendation, specification edition, maintenance status, or replacement changes the adopted contract earlier. Internal FPF neighbour authority stays in Relations; it is not presented as an external source decision.
 
-Refresh the source use behind this pattern when current provenance, credential, attestation, benchmark, lineage, assurance-case, or source-currentness practice changes the separation between provenance presence, evidence use, assurance, status use, and role assignment.
+| Exact source and source-use decision | Visible G.6 mutation | Rejected overread | Smallest source-change replay |
+| --- | --- | --- | --- |
+| [W3C PROV-O, Recommendation 30 April 2013](https://www.w3.org/TR/prov-o/) — **adapt** qualified provenance descriptions and stable entity/activity/agent references only as a representation discipline for exact FPF objects and direct relations. | `RepresentedNodeRecord`, `RepresentedRelationEdgeRecord`, the measurement-to-decision case, and `CC-G6-02/03` require every node and edge to cite an independently governed object or obtaining relation with its governor and qualification. | A PROV-shaped class, activity, agent, qualified association, or derivation does not establish FPF work, participation, production, result, truth, currentness, or later use. | Reopen only §4.2's node/edge rules, the measurement-to-decision path, and `CC-G6-02/03` if PROV-O's qualified-relation contract changes. |
+| [C2PA Content Credentials Technical Specification 2.4, April 2026](https://spec.c2pa.org/specifications/specifications/2.4/specs/C2PA_Specification.html) — **adapt** asset/manifest identity, claim generator, assertions, ingredients/actions, signature validation, trust policy, and specification version for claim-bound content provenance. | `PathCitationRecord` carries source publication/carrier, C.29 representation, edition/policy, currentness, and `NotCarried`; the produced-model case and `CC-G6-07/08` retain the exact content carrier, transform chain, trust regime, and version. | A valid manifest, visible Content Credential, ingredient chain, or authenticity mark does not establish truth of the represented world state, authorship beyond its exact assertion, work, safety, permission, or adequacy. | Reopen only those `PathCitationRecord` source/version fields, the produced-model carrier slice, and `CC-G6-07/08` when C2PA changes manifest/assertion identity, validation, trust, or version semantics. |
+| [SLSA specification v1.2](https://slsa.dev/spec/v1.2/) with [in-toto Attestation Framework v1.2 and `Statement/v1`](https://github.com/in-toto/attestation/blob/main/spec/README.md) — **adapt** artifact subject, predicate type, producing context, inputs, authenticated envelope, verifier expectation, and versioned attestation separation. | The produced-model/benchmark path names training work, produced model edition, dataset/method edition, benchmark work/result, source inputs, publication/carrier, verifier context, and currentness; `CC-G6-07/08` keep those refs replayable without one generic attestation edge. | A signed statement, provenance predicate, SLSA level, or verification summary does not prove an uncited build/work/result relation, benchmark superiority, runtime safety, release approval, gate passage, or assurance. | Reopen only the attestation-bearing fields of that path slice, the produced-model/benchmark case, and `CC-G6-07/08` when the adopted SLSA provenance/verification contract or in-toto `Statement/v1` semantics change. |
+| [W3C Verifiable Credentials Data Model 2.0, Recommendation 15 May 2025](https://www.w3.org/TR/vc-data-model-2.0/) — **adapt** credential subject, issuer, holder, verifier, status, context, and validity separation for a path that cites an independently governed credential/status use. | `PathCitationRecord` separates source/carrier/currentness refs, downstream work, exact use relation, A.10 reliance disposition, and `NotCarried`; the dashboard-status case and `CC-G6-09` require the status cue, query/use work, verifier or relying context, and actual reliance to remain distinct. | A valid credential, successful proof check, holder presentation, status value, or graph membership does not become claim truth, authorization, permission, gate passage, release, actual reliance, or assurance. | Reopen only those credential/status/use fields, the dashboard-status path, and `CC-G6-09` if VC 2.0 or its adopted status/validity contract changes. |
+| Pineau et al., [*Improving Reproducibility in Machine Learning Research*, JMLR 22(164), 2021](https://jmlr.org/papers/v22/20-303.html), and Mitchell et al., [*Model Cards for Model Reporting*, FAT* 2019](https://doi.org/10.1145/3287560.3287596) — **adapt** exact method, dataset, metric, evaluation condition, version, limitation, and run-evidence disclosure as inputs to a replayable benchmark path. | The produced-model/benchmark case, dependency-closed `PathSliceId`, and `CC-G6-02/07/08` keep model edition, training/evaluation work, dataset and method editions, local result, result episteme, source carrier, limitations, and currentness separately addressable. | A reproducibility checklist, model card, disclosed score, or limitation does not establish that training or evaluation occurred, that the reported result is current, that one model is superior, or that deployment is permitted. | Reopen only the model/benchmark slice fields, that worked case, and `CC-G6-02/07/08` if the adopted reproducibility or reporting contract changes. |
+| [ISO/IEC/IEEE 15026-2:2022, *Systems and software assurance — Part 2: Assurance case*](https://www.iso.org/standard/80625.html) — **adapt** the separation between cited evidence and the structure, maintenance, and evaluation of an assurance case. | `NotCarried` names assurance explicitly, the direct-owner map and §4.7 route assurance to B.3, and `CC-G6-10` permits the ledger to index evidence paths without becoming an assurance result. | A complete-looking evidence path, ledger entry, confidence label, or signed carrier is not an assurance claim, safety result, readiness result, compliance result, or release confidence. | Reopen only `NotCarried`, the B.3 extension boundary, one assurance-input path, and `CC-G6-10` if the adopted assurance-case evidence or maintenance boundary changes. |
+
+Source refresh is local: replay the changed row's named record fields, rule or case, and checklist rows first. Widen only when that replay contradicts another current G.6 locus; a changed source cannot by itself create a represented object, obtaining relation, work occurrence, result, currentness, reliance, assurance, permission, or decision.
 
 ### G.6:12 - Relations
 
-* **Builds on:** `A.10` for evidence-provenance graph relation, evidence relation, and source-currentness basics; `A.2.4` for compact evidence-use and status-use relation slots; `A.6.5` and `A.6.RSIR` for relation-slot discipline; `C.2.1` for episteme slot relation; `E.24` for ontic and slot-relation concept discipline.
-* **Coordinates with:** `B.3` for assurance; `C.28` for causal-use evidence content; `F.10` for status-family mapping; `F.9` for bridge and loss; `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, and `E.10.D2` for publication, view, explanation, and specification-use; `A.15.1` for work occurrences; `E.18` and `E.18.2` for transformation-flow structures and their mathematical descriptions; `A.21` for gate decisions when those are the downstream use.
-* **Used by:** selector, benchmark, parity, refresh, assurance, maturity, and release patterns that need stable evidence-provenance path citation, including `G.5`, `G.9`, and `G.11`.
-* **Does not govern:** stronger downstream uses named in `NotCarried`, work occurrence, source publication identity, or transformation-flow structure; those remain with their direct governing patterns.
+* **Builds on:** `A.10` for source recovery, provenance, bounded reliance, and graph-edge discipline; `A.2.4` for first-use evidence/status classification; `C.2.1` for claim and result epistemes; `C.29` for representation correspondence.
+* **Coordinates with:** `A.15.1`, `A.2.1`, and `A.6.1` for dated work, role assignment, and actual bindings; `A.15.PROD` for production/inception when current; `C.16` for measurement results; `G.4` for runtime evaluation results; `B.1.6` for work-resource aggregation results; `C.28` for causal use; `F.10` for status use; `F.9` for bridge and loss; `E.18`/`E.18.2` for transformation-flow structure; `G.11` for currentness; `B.3` for assurance; `E.17` for publication; and every exact formal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, or decision owner cited by a path.
+* **Used by:** selector, benchmark, replication, audit, refresh, assurance, maturity, and release patterns that need stable provenance-path citation, including `G.5`, `G.9`, and `G.11`.
+* **Does not govern:** any represented work occurrence, participation, production, local result, result episteme, outcome, source publication, representation correspondence, currentness result, assurance, later use, or stronger conclusion named in `NotCarried`.
 
 ### G.6:End
 
