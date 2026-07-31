@@ -18483,32 +18483,36 @@ Does not replace: C.30 grounded architecture and selected-structure adequacy, C.
 
 ### A.6.M:1 - Problem frame
 
-Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a stratification or architecture-operation source label covered by `C.30.STRAT` is doing the work, apply `C.30.STRAT` first; use A.6.M only when that repair recovers a module-interface relation. Use A.6.M when the question under repair is whether one holon is being treated as a replaceable, reusable, or separately changed structural unit of a larger holon under a declared module-interface viewpoint.
+Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a stratification or architecture-operation source label covered by `C.30.STRAT` is doing the work, apply `C.30.STRAT` first; use A.6.M only when that repair recovers module-interface claim content. Use A.6.M when the question under repair is whether one holon is being claimed as a replaceable, reusable, or separately changed structural unit of a larger holon under the exact `VP.ModuleInterface` viewpoint episteme. The note or claim does not make a direct module relation obtain.
 
-The first useful output is `ModuleRelationRepairNote`:
+The first useful output is `ModuleRelationRepairNote`, a claim-repair note rather than a relation occurrence:
 
 ```text
 ModuleRelationRepairNote:
   wholeHolonRef:
   candidateModuleHolonRef:
-  boundedContextRef:
-  moduleInterfaceViewpointRef: VP.ModuleInterface
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  claimScope?: U.ClaimScope, byValue
+  modelUseStructureRef?: only when one selected model-use structure changes module meaning
+  moduleInterfaceViewpointRef?: VP.ModuleInterface
+  selectedDependencyStructureRef?: U.StructureRef
   boundaryRef:
   interfaceSpecificationRef or interfaceSpecificationGap:
   admissibilityConditions:
   substitutabilityPolicyRef?:
   changePolicyRef?:
+  directModuleRelationDisposition:
+    claimOnly | admittedDirectOwnerAndOccurrenceRef | directOwnerStillNeeded
   claimBoundary:
   notAModuleBecause:
   governedNonModuleClaimPatternRefs:
   stopCondition:
 ```
-
-Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitutability policy, change policy, blocked false interpretation, and neighboring work, procedural, role, or enactor governing pattern choice are clear enough to choose the next architecture move. Use the fuller `moduleIn(...)` relation record only when the claim being made involves substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination.
+Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitutability policy, change policy, blocked false interpretation, relation disposition, and neighboring work, procedural, role, or enactor governing-pattern choice are clear enough to choose the next architecture move. Use the fuller `moduleIn(...)` claim record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination requires durable claim content.
 
 What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a stratification or architecture-operation source label bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with separate module change policy; and a module diagram starts being used for claims governed elsewhere.
 
-What A.6.M buys in practice: the practitioner can repair one module or interface phrase into a module-relation record, see which FPF pattern governs any remaining non-module claim, and stop before full measurement, evidence, or mechanism-suite records are needed.
+What A.6.M buys in practice: the practitioner can repair one module or interface phrase into usable claim content, distinguish it from an independently admitted direct relation occurrence, see which FPF pattern governs any remaining non-module claim, and stop before full measurement, evidence, or mechanism-suite records are needed.
 
 Not this pattern when the question under repair is the general architecture claim, selected architecture structure kind, structural view, stratification wording or source-label recovery, function wording, procedural or work-package wording, role or enactor wording, autonomous operation, independent acting, unsupervised decision or action, measurement, modularity characterization, or reusable-structure residue. Use `C.30`, `C.30.ASV`, `C.30.STRAT`, `A.6.F`, `A.15`, `A.2`, `E.16`, `C.31`, `C.16`, or `C.31.RSA` as appropriate. For any other claim being made, apply the governing FPF pattern and keep A.6.M only for the module-relation and interface-specification portion.
 
@@ -18527,7 +18531,7 @@ Engineering teams use module language for several different things:
 - a control relation, deployment scope, or stratification or architecture-operation source label that still needs `C.30.STRAT` recovery;
 - an open-architecture claim.
 
-These are useful ordinary words, but they do not establish the same FPF claim. A module claim is not created by a label. A conforming module-interface claim states how a candidate `U.Holon` relates to a larger `U.Holon` under `VP.ModuleInterface`: boundary, interface specification, admissibility conditions, substitutability policy when replacement is claimed, change policy when separate change is claimed, and any evidence, conformance, or admissible-use expectation being claimed.
+These are useful ordinary words, but they do not establish the same FPF claim. A module claim is not created by a label. A conforming module-interface claim names the candidate `U.Holon`, larger `U.Holon`, exact `VP.ModuleInterface` viewpoint episteme when needed, boundary, interface specification, admissibility conditions, substitutability policy when replacement is claimed, change policy when separate change is claimed, and any exact evidence, conformance, or admissible-use claim being made. It remains claim content unless a separate direct relation owner has admitted a module relation and its obtaining predicate is satisfied.
 
 The practical question is: does this phrase name a module relation, a component relation, a functional allocation, a procedural or work-package relation, a role-assignment or responsibility relation, a deployment or placement structure, an interface specification, a signature declaration, a port or endpoint slot, a transformation-flow crossing, a mechanism realization, a platform grammar, a control relation, an autonomy-like operation claim, a source label governed first by `C.30.STRAT`, or only plain source wording?
 
@@ -18535,8 +18539,8 @@ The practical question is: does this phrase name a module relation, a component 
 
 | Force | Tension |
 | --- | --- |
-| Engineering convenience vs relation precision | Practitioners need short words such as module and interface, but claim-bearing use must recover relation kind, slots, boundary, and admissible use. |
-| Module relation position vs root kind | A module is often a holon in a module-interface relation position; minting `U.Module` would hide context, viewpoint, and relation conditions. |
+| Engineering convenience vs relation precision | Practitioners need short words such as module and interface, but claim-bearing use must recover both holons, the boundary, interface specification, admissible use, and whether an independently admitted direct relation is actually current. |
+| Module claim vs root or relation kind | A candidate module keeps its direct holon kind. Neither the source word nor `moduleIn(...)` admits `U.Module` or a general direct module relation; a reusable relation needs its own A.6.RCD settlement. |
 | Interface label vs interface specification | An API name, port label, connector label, or signature may substantiate an interface claim, but it is not by itself substitutability or conformance. |
 | Function-flow-module proximity vs false identity | Functions, E.18 flow relations, control relations, mechanisms, and module interfaces often meet at the same artifact, but each has a different governing pattern. |
 | Open architecture payoff vs open label overread | MOSA and open-system practice make open interfaces useful only with standards, conformance expectations, replacement or change policy, and data or access constraints when those conditions are part of the claim being made. |
@@ -18546,39 +18550,52 @@ The practical question is: does this phrase name a module relation, a component 
 
 ### A.6.M:4 - Solution
 
-A.6.M specializes `A.6.P` for module, component, interface, platform, and open-architecture wording when the recovered result is a module-interface relation, interface specification, platform grammar, substitutability relation, or open-architecture module-interface claim. Stratification or architecture-operation source labels covered by `C.30.STRAT` are governed by `C.30.STRAT` until that repair recovers a module-interface relation; A.6.M applies only to that recovered module-interface result. A.6.M does not mint root kinds from those source labels.
+A.6.M specializes `A.6.P` for module, component, interface, platform, and open-architecture wording when the recovered result is module-interface claim content, an interface specification, platform grammar, substitutability claim, or open-architecture module-interface claim. Stratification or architecture-operation source labels covered by `C.30.STRAT` are governed by `C.30.STRAT` until that repair recovers this module-interface content. A.6.M neither mints root kinds from those labels nor admits a direct module relation from record syntax.
 
-A module is a `U.Holon` viewed in a declared bounded context as a replaceable, reusable, or separately changed structural unit of a larger `U.Holon` under `VP.ModuleInterface`, with explicit boundary, interface specification, admissibility conditions, substitutability policy when replaceability is claimed, and change policy when separate change is claimed. A functional element is different: `FunctionalElement@Context` is a view-local functional-structure record inside `FunctionalStructureView@Context`, not a root kind and not a module-interface value. It binds required behavior to bearer, capability, functional ports, and allocation when those claims are current. The relation between functional element and module is allocation or correspondence by default, not identity. One module can realize many functional elements; many modules can realize one functional element; a functional element can be abstract before allocation; and a module can be present in a module-interface view with no current functional behavior in the functional view.
+A candidate module is an exact `U.Holon` used in a claim that treats it as a replaceable, reusable, or separately changed structural unit of a larger `U.Holon`, ordinarily under the exact `VP.ModuleInterface` viewpoint episteme. The claim names its boundary, interface specification, admissibility conditions, substitutability policy when replaceability is claimed, and change policy when separate change is claimed. Effective `U.ReferenceScheme` and `U.ClaimScope` qualify the claim; an optional selected model-use structure appears only when its organization changes module meaning. None replaces the two holons or makes a module relation obtain. A `FunctionalElementClaim` is different: it is view-local claim content inside a functional structural-view episteme, not a root kind and not a module relation. It binds required behaviour or effect to bearer or candidate bearer, capability, functional ports, and allocation claims when those claims are current; required or desired content is not an actual `U.Transformation`. The relation between functional and module claims is separately governed allocation or correspondence, not identity. One module candidate can correspond to many functional elements; many module candidates can correspond to one functional element; a functional element can remain unallocated; and a module candidate can be present in a module-interface view with no current functional behaviour in the functional view.
 
 Functional ports and module interfaces may both use `U.Signature` discipline, but they govern different claims. A functional port constrains input condition, output condition, accepted-state, and produced-state slots for a functional behavior or transformation. A module interface constrains boundary, substitutability, compatibility, protocol references, schema references, version policy, change policy, and conformance expectations for a module relation. Do not move a functional-port claim into module-interface structure unless a module-interface or substitution claim is actually being made.
 
-For modular synthesis, A.6.M supplies only the module-interface slice. A synthesis action may align required functions or functional-service claims under `VP.Functional`, transformation-flow topology under `E.18` and `C.30.TFS-REL`, control structure under `C.30.LCA`, procedures and work packages under `VP.Procedural`, allocation and responsibility claims under `VP.AllocationResponsibility`, and modules or interfaces under `VP.ModuleInterface`; A.6.M repairs the module-interface relation, while non-module candidate generation, evidence, assurance, decision, work, and characteristic claims are governed by the patterns named in `A.6.M:12` when those claims are being made.
+For modular synthesis, A.6.M supplies only the module-interface claim slice. A synthesis action may align required functional claims under `VP.Functional`, transformation-flow topology under `E.18` and `C.30.TFS-REL`, control structure under `C.30.LCA`, procedures and work packages under `VP.Procedural`, allocation and responsibility claims under `VP.AllocationResponsibility`, and module/interface claims under `VP.ModuleInterface`; A.6.M repairs the latter claim content, while non-module candidate generation, evidence, assurance, decision, work, and characteristic claims remain with their direct patterns.
 
-#### A.6.M:4.1 - `moduleIn(...)` relation record
-Use `moduleIn(...)` only when the light repair note is not enough:
+#### A.6.M:4.1 - `moduleIn(...)` claim record
+
+Use `moduleIn(...)` only when the light repair note is not enough and a durable claim about module use is needed:
 
 ```text
 moduleIn(
+  claimEpistemeRef: U.EpistemeRef,
+  entityOfConcernRef:
+    moduleHolonRef | selectedDependencyStructureRef |
+    admittedDirectModuleRelationOccurrenceRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+  claimScope?: U.ClaimScope, byValue,
+  modelUseStructureRef?: U.StructureRef,
   moduleHolonRef: U.HolonRef,
   wholeHolonRef: U.HolonRef,
-  boundedContextRef: U.BoundedContextRef,
-  viewpointRef: U.ViewpointRef = VP.ModuleInterface,
+  viewpointRef?: U.ViewpointRef = VP.ModuleInterface,
+  selectedDependencyStructureRef?: U.StructureRef,
   boundaryRef: BoundaryRef,
   interfaceSpecRef: InterfaceSpecificationRef,
-  functionalCorrespondenceRefs?: FinSet(CorrespondenceRef | KindBridgeRef),
-  transformationFlowRelationRefs?: FinSet(PathSliceId | TransferRef | CrossingRef),
-  mechanismRefs?: FinSet(MechanismRef),
-  dependencyRefs?: FinSet(QualifiedRelationRecordRef),
-  substitutabilityPolicyRef?: EpistemeRef,
-  changePolicyRef?: EpistemeRef,
-  variabilitySlotRefs?: FinSet(SlotRef),
-  evidenceOrSourceRelianceRefs?: FinSet(EvidenceRef | SourceRelationRef | RelianceRelationRef),
+  functionalCorrespondenceRelationRefs?: FinSet(U.RelationRef),
+  transformationFlowStructureRefs?: FinSet(U.StructureRef),
+  transformationFlowRelationOccurrenceRefs?: FinSet(U.RelationRef),
+  mechanismRefs?: FinSet(U.EntityRef constrained by the selected mechanism pattern),
+  dependencyRelationOccurrenceRefs?: FinSet(U.RelationRef),
+  substitutabilityPolicyRef?: U.EpistemeRef,
+  changePolicyRef?: U.EpistemeRef,
+  variabilitySlotRefs?: FinSet(SlotSpecRef),
+  evidenceOrSourceRelianceRelationRefs?: FinSet(U.RelationRef),
   admissibleUse,
   nonAdmissibleUse
 )
 ```
 
-Well-formedness: the relation names both holons, one bounded context, one module-interface viewpoint, one boundary, and an interface specification or explicit interface-specification gap. Optional evidence, mechanism, and policy fields are used only when the corresponding evidence, mechanism, policy, conformance, or reliance claim is being made.
+This form is claim content in one C.2.1 episteme. Its identity uses that content, the one exact `entityOfConcernRef`, and the effective `U.ReferenceScheme`. `claimScope` qualifies the claim when its coverage matters. `modelUseStructureRef` is present only when one independently selected model-use structure changes the meaning of *module* for this claim; it is not a module participant, whole, boundary, or source of relation obtaining. `VP.ModuleInterface` is a reference to the exact viewpoint episteme when viewpoint use matters; citing it does not make this claim a `U.View`.
+
+`moduleIn(...)` syntax, a package path, file boundary, graph edge, list position, common name, or publication does not make a world-side module relation obtain. Current A.6.M admits no general direct `moduleIn` relation kind. If repeated engineering use genuinely needs one direct module relation occurrence, first use the subject pattern and `A.6.RCD` to recover the exact module and whole participant meanings, obtaining predicate, applicability, recurrence rule, and occurrence-identity rule. Use `A.6.REL` only after the resulting direct owner has admitted that relation and a later use must distinguish one obtaining occurrence from another. A separately constituted `RelationSignature` may then declare reusable SlotSpecs; neither the signature nor this claim creates the occurrence.
+
+Well-formedness: the claim names both holons, one exact EntityOfConcern, an effective reference scheme, one boundary, and an interface specification or explicit interface-specification gap. Optional structure, relation, evidence, mechanism, policy, conformance, source, and reliance references are used only when those exact objects and claims are current under their direct governors.
 
 #### A.6.M:4.2 - Interface specification is not a label
 
@@ -18607,18 +18624,18 @@ A signature declares vocabulary, laws, and applicability. A slot or endpoint rec
 | Source wording | Governing repair application |
 | --- | --- |
 | `component` | First recover an `A.14` relation such as `ComponentOf`, `ConstituentOf`, `PortionOf`, `MemberOf`, or `PhaseOf`. Apply A.6.M only when a module-interface relation is being claimed. |
-| `module` | Recover `moduleIn(...)` or `ModuleRelationRepairNote` over `U.Holon` refs under `VP.ModuleInterface`. |
-| `functional element` | Keep as `FunctionalElement@Context` inside `FunctionalStructureView@Context`; use `A.6.F` to repair wording and connect to module-interface structure only through correspondence or allocation. Allow many-to-many allocation: one module may realize many functional elements, many modules may realize one functional element, a functional element may be abstract before allocation, and a module may have no current functional behavior in the view. |
+| `module` | Recover a `moduleIn(...)` claim or `ModuleRelationRepairNote` over exact `U.Holon` refs under the exact `VP.ModuleInterface` viewpoint episteme when needed. Do not infer a direct relation occurrence; use the admitted direct owner only when one exists and its predicate obtains. |
+| `functional element` | Keep it as `FunctionalElementClaim` inside a functional structural-view episteme; use `A.6.F` to repair wording and connect it to module-interface structure only through an exact allocation or correspondence relation. Keep required or desired behaviour as claim content. Cite an actual `U.Transformation` only when A.3.4 independently supplies its changed referent, boundary, conditions, actual before/during/after facts, and continuity basis. |
 | `work package`, `delivery unit`, or `team boundary` | Keep work, method, work-plan, role-assignment, role, and responsibility claims with `A.15`, `A.2`, `VP.Procedural`, or `VP.AllocationResponsibility` when the wording asserts those claim kinds. Relate them to module-interface structure only through declared correspondence, allocation, or boundary relation. |
 | `deployment scope` or `placement` | Recover a deployment or placement structure under `C.30` or `C.30.ASV` when that deployment or placement structure is being claimed. Relate it to module-interface structure only through declared correspondence or boundary relation. |
 | `interface` | Recover `InterfaceSpecificationRef`, not a wire, API label, port label, E.18 transformation-flow relation, or function by itself. |
 | `signature` | Keep as A.6.0 declaration. It is not an implemented interface, mechanism, gate, evidence row, or substitution policy. |
 | `port` or `endpoint` | Recover `SlotSpec`, endpoint field, or interface-specification field when the claim is being made. It is not a module, graph edge, transformation-flow crossing, or proof of integration. |
-| `functional link` | Keep under `VP.Functional` or `FunctionalStructureView@Context`; relate to modules only through declared correspondence, allocation, or retargeting. |
+| `functional link` | Keep it as claim content in a functional structural-view episteme; relate it to module claims only through an exact correspondence, allocation, or retargeting relation. |
 | `E.18 transformation-flow relation` or `path` | Keep under `E.18` and `C.30.TFS-REL`; it may inform an architecture-to-transformation-flow relation, but it is not an interface specification. |
 | `platform` | Recover `PlatformGrammarRef`: extension rules, variability slots, interface specifications, substitution policy, and conformance expectations when platform extension, variation, substitution, or conformance use is being claimed. |
 | stratification or architecture-operation source label | Apply `C.30.STRAT` first. Use A.6.M only when the recovered result is a module-interface relation, interface specification, platform grammar, substitutability policy, change policy, or open-architecture module-interface claim. Otherwise apply `C.30.LCA`, `C.30.ASV`, `A.6.F`, `E.18`, `C.16.P`, `C.29`, `C.2.P`, or use ordinary source-label disposition when no FPF-governed claim remains. |
-| `open architecture` | Recover `OpenArchitectureClaim@Context`: published interface specifications, substitution rules, change policy, data-rights or access constraints when those constraints are part of the open-architecture claim, and conformance expectations or evidence, source, or reliance relations when reliance is being claimed. |
+| `open architecture` | Recover an `OpenArchitectureClaim` episteme: published interface specifications, substitution rules, change policy, data-rights or access constraints when those constraints are part of the claim, and exact conformance, evidence, source, or reliance relations only when that stronger reliance claim is being made. |
 
 #### A.6.M:4.4 - First repair sequence
 
@@ -18628,7 +18645,7 @@ A signature declares vocabulary, laws, and applicability. A slot or endpoint rec
 4. State the boundary and the declared interface specification or explicit interface-specification gap.
 5. State the admissibility conditions, substitutability policy, and change policy, or mark any of those fields not established by the repair.
 6. State the governing pattern for any non-module claim being made: `C.30`, `C.30.ASV`, `A.6.F`, `A.15`, `A.2`, `E.18`, `C.30.TFS-REL`, `C.31`, `C.31.RSA`, `C.16`, `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `E.20`, `G.5`, or `C.11`.
-7. Stop when the relation and next use are explicit.
+7. Stop when the claim, direct-relation disposition, and next use are explicit. Do not open A.6.RCD or A.6.REL unless a named receiving use genuinely needs a reusable direct relation or distinguishable obtaining occurrence.
 
 #### A.6.M:4.5 - Worked slices
 
@@ -18641,7 +18658,9 @@ Phrase:
 ModuleRelationRepairNote:
   wholeHolonRef: VehicleControlSystem
   candidateModuleHolonRef: BrakeControllerPackage
-  boundedContextRef: Release-2026Q2
+  effectiveReferenceScheme: VehicleControlInterfaceScheme-2026Q2
+  claimScope: BrakeControllerReleaseUse-2026Q2
+  directModuleRelationDisposition: claimOnly; no admitted direct owner or obtaining occurrence asserted
   boundaryRef: BrakeControlBoundary
   interfaceSpecificationRef or gap: endpoint names present; protocol and semantic conditions missing
   admissibilityConditions: not yet declared
@@ -18659,7 +18678,7 @@ ModuleRelationRepairNote:
 Phrase:
   "This is an open platform."
 
-OpenArchitectureClaim@Context:
+OpenArchitectureClaim:
   architectureClaimRef:
   platformGrammarRef:
   interfaceSpecificationRefs:
@@ -18685,7 +18704,9 @@ Phrase:
 ModuleRelationRepairNote:
   wholeHolonRef: PaymentsPlatform
   candidateModuleHolonRef: SettlementService
-  boundedContextRef: ProductLine-2026Q2
+  effectiveReferenceScheme: PaymentsPlatformInterfaceScheme-2026Q2
+  claimScope: SettlementServiceProductLineUse-2026Q2
+  directModuleRelationDisposition: claimOnly; team/module correspondence remains diagnostic
   boundaryRef: SettlementServiceBoundary
   interfaceSpecificationRef or gap: service API exists; semantic versioning, data schema, and semantic-constraint conditions incomplete
   admissibilityConditions: team delivery responsibility and on-call responsibility declared; substitutability not established
@@ -18713,11 +18734,11 @@ If the reopened material is no longer a module-interface relation, A.6.M keeps o
 
 **Tell.** A module is not a little box. It is a holon related to a larger holon under a declared boundary, interface specification, admissibility conditions, substitutability policy, and change policy.
 
-**Show.** A software package, neural-network block, chiplet, power converter, document template, or organizational unit can become module-like in a project only when the relation record says what whole it belongs to, what boundary it offers, what interface specification governs use, what substitutability policy makes replacement admissible, and what change policy governs separate change.
+**Show.** A software package, neural-network block, chiplet, power converter, document template, or organizational unit can be treated as module-like only when the claim says what whole is at issue, what boundary it offers, what interface specification governs use, what substitutability policy makes replacement admissible, and what change policy governs separate change. That claim still does not make a direct module relation obtain.
 
 **Show.** A port label, API endpoint label, source-local route label, flow edge, or function name may be a useful clue. It can substantiate a module-interface claim only after the relevant signature, slot, protocol, semantic condition, correspondence, mechanism, evidence relation, conformance expectation, source relation, or reliance relation named by value is declared.
 
-Holon and episteme: the candidate module and whole are described holons under a module relation; they may be admitted systems, organizations-as-systems, epistemes, work occurrences, bounded contexts, disciplines, or other admitted holon kinds. Publication-family material enters through episteme and publication owners; method descriptions enter as epistemes; method values enter through their method owner and relation slots. The module relation, interface specification, platform grammar, and open-architecture claim are Description epistemes, specification-use descriptions, or relation records about those holons. Stratification and architecture-operation labels named by `C.30.STRAT` remain source labels unless `C.30.STRAT` recovers a module-interface relation that A.6.M can use.
+Holon, relation, and episteme: the candidate module and whole retain their admitted holon kinds. A `moduleIn(...)` record is a C.2.1 claim episteme whose content may concern the module holon, one selected dependency structure, or an independently admitted direct module relation occurrence; it is not that relation. Framework and module-description epistemes, authoring Work, publication occurrence, publication form, carrier, effective reference scheme, ClaimScope, and optional model-use structure retain separate identities and direct relations. Method descriptions enter as epistemes; method values enter through their method owner. Stratification and architecture-operation labels named by `C.30.STRAT` remain source labels unless `C.30.STRAT` recovers module-interface claim content that A.6.M can repair.
 
 ### A.6.M:6 - Bias-Annotation
 
@@ -18735,9 +18756,9 @@ Holon and episteme: the candidate module and whole are described holons under a 
 
 | ID | Check |
 | --- | --- |
-| `CC-A6M-1` | The text names the whole holon, candidate module holon, bounded context, and module-interface viewpoint, or explicitly stops at ordinary non-claim-bearing wording. |
+| `CC-A6M-1` | The text names the whole holon, candidate module holon, effective reference scheme, claim coverage when it matters, and exact module-interface viewpoint episteme when used, or explicitly stops at ordinary non-claim-bearing wording. No context suffix or optional model-use structure supplies those objects. |
 | `CC-A6M-2` | The repair states whether the phrase is a module relation, component relation, function allocation, procedural or work-package relation, role-assignment or responsibility relation, deployment or placement structure, interface specification, signature, port or endpoint, transformation-flow crossing, mechanism realization, platform grammar, control relation, autonomy-like operation claim, `C.30.STRAT` source-label case, or open-architecture claim. |
-| `CC-A6M-3` | No new root kind is minted for module, interface, platform, or open architecture; stratification or architecture-operation source labels use `C.30.STRAT` unless a module-interface relation has already been recovered. |
+| `CC-A6M-3` | No root kind is minted for module, interface, platform, or open architecture, and `moduleIn(...)` is not treated as an independently admitted direct relation. A needed reusable relation returns to its subject pattern and `A.6.RCD`; occurrence identity uses `A.6.REL` only after that relation is admitted and obtains. |
 | `CC-A6M-4` | `InterfaceSpecificationRef` is recoverable when interface compatibility, substitutability, or conformance is being claimed. |
 | `CC-A6M-5` | Substitution or change policy is declared when replaceability, alternate supplier, upgrade, or platform extension is being claimed. Substitutability not established by the repair is marked as not established, not implied by wording. |
 | `CC-A6M-6` | Function, transformation-flow, control, work, evidence, assurance, gate, decision, causal, and mechanism claims use their governing patterns. |
@@ -18750,7 +18771,7 @@ Holon and episteme: the candidate module and whole are described holons under a 
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| `BoxIsModule` | A diagram box is treated as a module. | Recover `moduleIn(...)` fields or downgrade the box to a publication face or structural view element. |
+| `BoxIsModule` | A diagram box, package, or file boundary is treated as a module or as proof that a module relation obtains. | Recover the two holons, claim content, boundary, and interface specification; keep the box as representation/publication material and use a direct relation occurrence only after its governing predicate obtains. |
 | `SignatureAsInterface` | A signature declaration is treated as implemented compatibility. | Keep signature under A.6.0 and add interface-specification fields only when interface compatibility is being claimed. |
 | `PortAsProof` | Matching port or endpoint names are treated as integration proof. | Recover slot specs, protocol or schema, semantic conditions, and evidence, conformance, source relation, or reliance relation named by value. |
 | `FunctionalLinkAsInterface` | A functional relation is treated as module boundary. | Keep `VP.Functional` and add correspondence or allocation only when module allocation or correspondence is being claimed. |
@@ -18777,9 +18798,9 @@ Costs:
 
 ### A.6.M:10 - Rationale
 
-The central decision is to treat module as a context-sensitive and viewpoint-sensitive module-relation use of `U.Holon`, not as a new root kind. This keeps FPF compatible with many engineering contexts where the same admitted system, organization-as-system, episteme, work occurrence, bounded context, discipline, or other admitted holon can be a component under one declared relation, a module under another, or a bearer or candidate bearer recorded inside a functional-element record under another. Method descriptions and publication-family material enter through episteme and publication owners; method values enter through their method owner and relation slots.
+The central decision is to treat *module* as relation-sensitive claim language over exact admitted holons, not as a root kind and not as a relation admitted by notation. The same system, organization-as-system, episteme, Work occurrence, discipline, or other admitted holon may be claimed as a component under one direct relation, as a module candidate under one interface-and-change claim, or as a bearer/candidate bearer in functional claim content. `effectiveReferenceScheme` and `ClaimScope` make the claim interpretable and bounded. An independently selected model-use structure may qualify model-local meaning, but it neither becomes a holon nor supplies module membership. Method descriptions and publication-family material enter through their episteme and publication owners; authoring, description edition, publication occurrence, form, and carrier remain distinct.
 
-A.6.M follows `A.6.P`: overloaded relation language is repaired by reconstructing kind, slots, qualifiers, admissible use, and witnesses. It also follows the architecture relation discipline: boundary notes catch the first confusion, while A.6.M supplies the full repair body for module relation, interface specification, substitutability, change policy, and open-architecture conformance and admissible-use claims.
+A.6.M follows `A.6.P`: overloaded relation language is repaired by recovering the actual subjects, claim content, direct-relation disposition, qualifiers, admissible use, and sources. A.6.M owns the module/interface claim repair. A direct module relation, if later needed, is admitted only by its subject pattern with A.6.RCD's participant, obtaining, applicability, and identity discipline; A.6.REL then handles distinguishable obtaining occurrences.
 
 The pattern deliberately keeps measurement out of the first move. A module relation can be repaired before anyone knows whether external coupling density, interface standardization share, evidence reuse, or reusable-structure accounting will be needed. When those claims are being made, A.6.M applies `C.31`, `C.31.RSA`, and `C.16`.
 
@@ -18800,9 +18821,10 @@ Older or local sources may serve as lineage or worked examples only when the row
 
 | Pattern | Relation |
 | --- | --- |
-| `A.6.P` | A.6.M is an RPR specialization for module-relation and interface-specification language. |
-| `A.6.RSIR` | Bare interface-like wording is recovered with A.6.RSIR before A.6.M is applied; A.6.M governs only the recovered module-interface relation, interface specification, platform grammar, substitutability policy, change policy, or open-architecture module-interface slice. |
-
+| `A.6.P` | A.6.M is an RPR specialization for module-interface claim and interface-specification language; its record forms do not create a direct relation occurrence. |
+| `A.6.RSIR` | Bare interface-like wording is recovered before A.6.M is applied; A.6.M governs only recovered module-interface claim content, interface specification, platform grammar, substitutability policy, change policy, or open-architecture slice. |
+| `A.6.RCD` and `A.6.REL` | A needed reusable direct module relation returns to its subject pattern and A.6.RCD for participants, obtaining, applicability, recurrence, and identity. A.6.REL applies only after the direct relation is admitted and a later use must distinguish obtaining occurrences. |
+| `C.2.1`, `A.2.6`, and `A.22` | Govern the `moduleIn(...)` claim episteme, effective reference scheme, ClaimScope, and any independently selected dependency or model-use structure. None creates a module relation. |
 | `C.30.STRAT` | Recovers stratification and architecture-operation source labels before A.6.M governs only recovered module-interface relation cases. |
 | `E.16` | Governs autonomy-budget, autonomous operation, independent acting, unsupervised decision or action, and freedom-of-action claims when those description or view uses are being made; A.6.M keeps only the module-interface relation, boundary, interface specification, and substitution or change-policy slice. |
 | `A.14` | Component and part-whole wording uses A.14 first unless a module-interface relation is being claimed. |
@@ -59146,19 +59168,31 @@ Use this recognition menu only to identify a possible lens family and likely nei
 
 ### C.30:1 - Problem frame
 
-Use this pattern when the current question is an `ArchitectureOf@Context` claim: which selected `U.Structure` refs matter for one described `U.Holon` in one `U.BoundedContext`, and what next architecture move follows.
+Use this pattern when the current question concerns the architecture of one exact `U.Holon`: which actual subject relations obtain, which exact `U.Structure` is selected from them, whether the direct `ArchitectureRelation` obtains, what one C.2.1 claim says about that holon, relation, or structure, under which concern and admissible-use frame, and what next architecture move follows.
 
 The first useful architecture move is small:
 
 ```text
 ArchitectureQuestionCard@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureQuestionProjectUseRelationRef?: U.RelationRef
+  architectureClaimRef?: ArchitectureClaimRef
   describedHolonRef:
-  boundedContextRef:
+  architectureRelationDisposition:
+    actualRelationNamed | actualRelationStillToRecover |
+    candidateOrExpectedOnly | nonArchitectureQuestion
+  architectureRelationRefs?: FinSet(U.RelationRef)
+  claimScope?:
+  effectiveReferenceScheme?:
+  modelUseStructureRef?: only when one selected bounded model-use structure changes this architecture use
   architectureConcernCue:
+  architectureConcernClaimRefs?: FinSet(U.EpistemeRef)
   sourcePhrase?, if useful:
   questionDisposition:
     concernCueOnly | problemCardReady | architectureClaimReady | nonArchitectureClaimReady
-  selectedStructureRefs or selectedStructureKindRefs:
+  selectedStructureRefs?: FinSet(U.StructureRef)
+  candidateOrExpectedStructureRefs?: FinSet(U.StructureRef)
+  selectedStructureKindRefs or candidateStructureKindRefs:
   inspectedMaterialRole, if current:
   firstArchitectureMove:
   architectureDescriptionBridge, if durable description use is current:
@@ -59166,19 +59200,22 @@ ArchitectureQuestionCard@Project:
   non-admissible overread:
 ```
 
-`architectureConcernCue` is recognition wording only until it helps choose one selected structure kind and one architecture move. When a controlled cue is useful, use `changeLocalization`, `substitutionOrReplacement`, `flowBottleneck`, `controlOrRateMismatch`, `dataCustodyOrStateResidence`, `physicalSeparationOrPlacement`, `evidenceReuseOrAssuranceReuse`, `scaleWindowOrCoarseningLoss`, `runtimeFailureMode`, `crossScopeResidual`, `descriptionViewLoss`, or `otherDeclared`. Local phrases such as change localization failure, hidden crossing, source return, generated-view loss, or state-residence uncertainty may remain in `sourcePhrase?` or Plain prose. If the described holon, bounded context, selected structure, and first architecture move cannot yet be named, set `questionDisposition` to `concernCueOnly` or `problemCardReady` rather than promoting it to `ArchitectureOf@Context` by wording alone.
+The card can stop before a durable claim. An `actualRelationNamed` result requires exact obtaining `ArchitectureRelation` occurrences and their A.22 structure participants. A candidate, planned, required, desired, expected, modeled, or diagrammed structure remains in `candidateOrExpectedStructureRefs` and makes no subject relation obtain.
+`architectureConcernCue` is recognition wording only until it helps choose one selected structure kind and one architecture move. When a controlled cue is useful, use `changeLocalization`, `substitutionOrReplacement`, `flowBottleneck`, `controlOrRateMismatch`, `dataCustodyOrStateResidence`, `physicalSeparationOrPlacement`, `evidenceReuseOrAssuranceReuse`, `scaleWindowOrCoarseningLoss`, `runtimeFailureMode`, `crossScopeResidual`, `descriptionViewLoss`, or `otherDeclared`. Local phrases such as change localization failure, hidden crossing, source return, generated-view loss, or state-residence uncertainty may remain in `sourcePhrase?` or Plain prose. If the described holon, actual/candidate structure distinction, architecture concern, and first move cannot yet be named, set `questionDisposition` to `concernCueOnly` or `problemCardReady`; wording alone promotes neither a claim nor an obtaining relation.
 
-`ArchitectureQuestionCard@Project` is a project-side triage aid for choosing one architecture move. `questionDisposition` records the card's current result: keep it as a concern cue, prepare a `ProblemCard@Context`, form an `ArchitectureOf@Context` claim, or name the non-architecture governing pattern. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-use authority claim. When those claims are being made, name the governing FPF pattern and keep C.30 to the architecture-claim portion; later sections cite this boundary rather than repeating the full non-use catalogue.
+`ArchitectureQuestionCard@Project` is a triage aid for choosing one architecture move. `questionDisposition` records whether to keep a concern cue, prepare a separately governed ProblemCard, constitute an `ArchitectureClaim`, or name a non-architecture owner. `architectureRelationDisposition` separately records whether an actual direct relation has been recovered or the content is candidate/expected only. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-use authority claim.
 
-Use a conditional `ArchitectureDescription@Context` bridge only when durable architecture-description use is current: cross-team reuse, regulated or safety use, reusable design, comparison, source or lens reuse, or another named full-mode architecture-description use. Ordinary use stops at `ArchitectureQuestionCard@Project` when it makes one next architecture move clear. If the architecture description itself becomes the `EntityOfConcern` under repair, use `C.30.AD`.
+Across C.30, `@Project` in a record name is a compatibility and retrieval cue only. It identifies neither a project entity nor a composite project `U.Work`, and it establishes no context, authority, viewpoint, or parthood. When the card is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` recovered under A.15.6 and `architectureQuestionProjectUseRelationRef` identifies the exact obtaining relation by which this card use concerns that Work. Description publication and other project-local uses likewise name their own exact Work and project-use relation. A described holon, architecture claim, or architecture relation does not become project Work by retrieval suffix.
+
+Use a conditional `ArchitectureDescription` bridge only when durable architecture-description use is current: cross-team reuse, regulated or safety use, reusable design, comparison, source or lens reuse, or another named full-mode description use. Ordinary use stops at `ArchitectureQuestionCard@Project` when it makes one next architecture move clear. If the architecture description itself becomes the EntityOfConcern under repair, use `C.30.AD`.
 
 What goes wrong if C.30 is missed: the practitioner reasons from a document, module diagram, transformation-flow graph description, mathematical lens, benchmark, maturity score, or decision record instead of recovering the described holon, selected structures, first architecture move, and non-architecture claim kind.
 
-What C.30 buys in practice: a practitioner can separate architecture claim, selected structure, architecture description, view, publication form, source relation, and non-architecture claim kind, then choose one small next architecture move.
+What C.30 buys in practice: a practitioner can separate actual subject relations, selected structure, direct architecture relation, claim episteme, description, view, representation, publication occurrence/form/carrier, source relation, and non-architecture claim kind, then choose one small next architecture move.
 
 Not this pattern when the `EntityOfConcern` under repair is not an architecture claim, selected architecture-relevant structure, source relation, description relation, view relation, publication-role recovery for an architecture claim, or the thin architecture-description bridge needed for one architecture move. Use the direct governing pattern named by the recovered relation, and keep C.30 only for the architecture-claim portion if that portion is being claimed. Common non-architecture claim boundaries are summarized in `C.30:12`.
 
-Thin precision-restoration pointer: if the issue under repair is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *source material*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, publication form, source relation, structure, or non-architecture governing-pattern application, use `C.30.P` or `C.30.STRAT` as triggered before applying C.30 to the recovered architecture portion. If the recovered issue is mathematical-lens use, apply `C.29`; when no mathematical-lens use changes the architecture work, keep ordinary prose or use `NoMathLensUseNeededNote` under C.29 rather than creating a C.30-local lens result. Keep the trigger tables in those patterns; C.30 is applied only after `ArchitectureOf@Context`, selected architecture-relevant structure, conditional `ArchitectureDescription@Context` bridge use, `C.30.AD` application, or the non-architecture application named by value is recoverable.
+Thin precision-restoration pointer: if the issue under repair is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *source material*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, representation, publication form, source relation, structure, or non-architecture governing-pattern application, use `C.30.P` or `C.30.STRAT` as triggered before applying C.30 to the recovered architecture portion. If the recovered issue is mathematical-lens use, apply `C.29`; when no mathematical-lens use changes the architecture work, keep ordinary prose or use `NoMathLensUseNeededNote` under C.29 rather than creating a C.30-local lens result. Keep trigger tables in those patterns; C.30 is applied only after `ArchitectureClaim`, exact selected architecture-relevant structure, conditional `ArchitectureDescription` bridge use, `C.30.AD` application, or the non-architecture application named by value is recoverable.
 
 ### C.30:2 - Problem
 
@@ -59192,9 +59229,9 @@ Engineering teams use "architecture" for several different things:
 - an ADR-like publication;
 - a project-side claim carried by another governing FPF pattern.
 
-These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: the architecture-relevant selected structure, the architecture claim over that structure, the Description episteme or view of that claim, the publication of that description or view, and the project decision about changing architecture are different records.
+These uses are all useful in ordinary engineering speech, but they cannot carry the same FPF claim. The core distinction is the one already used across FPF: actual subject-relation occurrences; the exact A.22 structure selected from them; the direct `ArchitectureRelation` that may obtain between that structure and one holon; a C.2.1 claim about the holon, relation, or structure; the Description episteme or view; the representation and publication objects; and any project decision about changing architecture are different objects.
 
-The first-minute practitioner can ask: Are we choosing an architecture, or just naming a module layout? Which structure is being described: function, flow, control, module structure, interface relation, work, role relation, enactor structure, evidence relation, assurance relation, information structure, data structure, placement structure, deployment structure, scale structure, or declared logical structure? What is the inspected material being used as: architecture claim, description, view, publication form, decision, source relation, or mathematical lens?
+The first-minute practitioner can ask: Are we recovering an actual architecture relation, considering a candidate structure, or only reading a representation? Which subject relations actually obtain, and which exact A.22 structure is selected from them? Which structure kind is in view: function, flow, control, module structure, interface relation, work, role relation, enactor structure, evidence relation, assurance relation, information structure, data structure, placement structure, deployment structure, scale structure, or declared logical structure? What is the inspected material being used as: claim content, description, view, representation, publication form, decision, source relation, or mathematical lens?
 
 How can FPF describe architecture without:
 
@@ -59208,47 +59245,70 @@ How can FPF describe architecture without:
 
 | Force | Tension |
 | --- | --- |
-| Everyday architecture speech vs FPF kind precision | Engineers need familiar phrases such as functional architecture, physical architecture, and control architecture; FPF-governed use recovers described holon, bounded context, selected structure, structure kind, source, description, view, or publication role, and admissible use. |
-| Architecture claim vs architecture description | A useful architecture description can be mistaken for the architecture claim or for the selected structure. |
+| Everyday architecture speech vs FPF kind precision | Engineers need familiar phrases such as functional architecture, physical architecture, and control architecture; FPF-governed use recovers described holon, selected structure, structure kind, architecture concern, admissible-use frame, source, description, view, or publication role. |
+| Direct architecture relation vs claim vs description | An obtaining `ArchitectureRelation`, a C.2.1 claim about it or about candidate/expected structure, and a useful architecture description are easy to collapse into one word even though only the direct relation is subject-side architecture. |
 | Multi-view adequacy vs module reduction | Architecture includes functional, flow, control, module structure, interface relation, work, role relation, evidence relation, information structure, placement structure, scale, and declared logical structures; module diagrams are only one structure kind. |
 | Small first architecture move vs full record | The practitioner often needs one architecture question card, not a complete architecture description record set. |
-| SoTA architecture-description discipline vs tool lock-in | ISO 42010-style view, viewpoint, and correspondence discipline is useful, and FPF adapts it to holons, epistemes, views, publications, source return, and governing-pattern applications. |
+| Multi-view architecture discipline vs tool lock-in | Current FPF separates holons, selected structures, descriptions, viewpoints, views, correspondences, publications, source return, and governing-pattern applications without importing a tool-specific lifecycle. |
 | Structure source relation vs overread | A structure, graph, lens, measurement, or model can supply a source relation for an architecture description without proving evidence, assurance, causality, gate passage, or release. |
 
 ### C.30:4 - Solution
 
-C.30 starts from one architecture move over one described `U.Holon` in one `U.BoundedContext`: recover the `ArchitectureOf@Context` claim record when it is being claimed, selected `U.Structure` references, structure kind refs, the source, description, view, or publication role of the inspected material, and first admissible architecture move. Use a conditional architecture-description bridge when durable, reusable, multi-view, regulated, comparison, or reliance-bearing description is being made. If `ArchitectureQuestionCard@Project` gives one usable next architecture candidate use, stop there.
+C.30 starts from one architecture move over one exact `U.Holon`. Recover separately: any actual subject-relation occurrences; the exact A.22 structures selected from them; any obtaining `ArchitectureRelation`; the claim episteme that states an affirmative, negative, unresolved, candidate, or expected architecture claim; the concern and admissible-use frame; and the source, description, view, representation, or publication role of the inspected material. Use a conditional architecture-description bridge when durable, reusable, multi-view, regulated, comparison, or reliance-bearing description is being made. If `ArchitectureQuestionCard@Project` gives one usable next architecture candidate use, stop there.
 
-In C.30, the EntityOfConcern for this use is the architecture claim, one of its selected structures, or the relation record or claim record named by value for the architecture use being made. The description is not the architecture itself, and description hygiene is not the center of C.30.
+In C.30, the EntityOfConcern is one exact described holon, one exact `ArchitectureRelation` occurrence, one exact selected structure, or another exact subject object selected by the current claim. A claim episteme, description, diagram, or publication is not a proxy EntityOfConcern for a world-side relation or structure. Description hygiene supports this boundary but is not the center of C.30.
 
-Architecture-description material in C.30 is deliberately minimal. C.30 itself is not the full architecture-description mechanism. It binds `ArchitectureDescription@Context` to `ArchitectureOf@Context`, selected structures, structural views, correspondence, source return, and admissible use only when durable description use is being made. `C.30.AD` carries the full general architecture-description EntityOfConcern: multi-view description sets, viewpoint-based views, correspondences, source return, freshness, specification use, and publication boundary over `ArchitectureOf@Context`. `C.30.AD.BA` carries built-asset architecture-description, asset-information, digital-twin, and reference-designation specialization. Generic Description, view, viewpoint, publication-face, and publication-form machinery still remains in A.7, E.17.0, E.17.1, E.17.2, and E.17. C.30.ASV carries the selected-structure-kind-to-view relation; C.30.TFS-REL, C.30.LCA, and other named subpatterns carry named structure relations.
+Architecture-description material in C.30 is deliberately minimal. C.30 itself is not the full architecture-description mechanism. It gives a thin bridge from the exact holon, architecture relation, or selected structure to a separately constituted architecture-description episteme only when durable description use changes the architecture move. `C.30.AD` carries the full general architecture-description EntityOfConcern: multi-view description sets, viewpoint-based views, correspondences, source return, freshness, specification use, and publication boundary. `C.30.AD.BA` carries built-asset architecture-description, asset-information, digital-twin, and reference-designation specialization. Generic episteme, view, viewpoint, publication, form, representation, and carrier machinery remains with C.2.1, E.17.0, E.17.1, E.17.2, E.17, E.24.PUB, and C.29. C.30.ASV carries the selected-structure-to-view branch; C.30.TFS-REL, C.30.LCA, and other named subpatterns carry their direct structure relations and claims.
 
-C.30 does not mint `U.Architecture` and does not redefine `U.Viewpoint`. It specializes A.22 structure records and `U.MultiViewDescribing` only for architecture descriptions whose DescriptionContext `EntityOfConcernRef` is the `ArchitectureOf@Context` claim record for a holon, while preserving the EntityOfConcern and Description-episteme and specification-use distinction between architecture and its descriptions. Use A.1 for `U.Holon`, A.22 for selected `U.Structure`, and E.24.PUB when the problem is a confusion among ontic, ontic-description episteme, and publication form.
+C.30 does not mint `U.Architecture` and does not redefine `U.Viewpoint`. It directly governs `ArchitectureRelation`, the architecture claim form, `ArchitectureQuestionCard@Project`, selected architecture-relevant structures, structure-kind recovery, architecture concern and admissible-use framing, source/description/view/publication-role recovery, first architecture-question assignment, characteristic-claim assignment, small boundary notes, and the thin description bridge. It does not make descriptions or views conform merely by form and does not govern all architecture structure-kind views. Generic guards about publication, deontic permission, promise, evidence sufficiency, assurance, decision, gate passage, work authorization, or release authorization stay in their direct patterns.
 
-C.30 governs grounded architecture adequacy for one `ArchitectureOf@Context` claim record over selected `U.Structure` references for one described holon in one bounded context. It governs `ArchitectureOf@Context`, `ArchitectureQuestionCard@Project`, selected architecture-relevant structures, architecture structure-kind recovery, source, description, view, or publication-role recovery, first architecture-question assignment, characteristic assignment, small boundary notes, and the thin `ArchitectureDescription@Context` bridge when durable description use is being made. It does not mint `U.Architecture` and does not govern all architecture structure-kind views; `C.30.ASV` governs architecture structural views, and `C.30.AD` governs the full architecture-description mechanism. Generic guards about publication, deontic permission, promise, evidence sufficiency, gate passage, work authorization, decision claim, or release authorization stay in the publication-use boundary or in governing patterns.
+#### C.30:4.1 - Direct architecture relation and architecture claim
 
-#### C.30:4.1 - Architecture claim record
+C.30 keeps one subject-side relation and one claim-bearing episteme distinct.
+
+**Direct relation kind.** `ArchitectureRelation` is a C.30-governed direct dependent `U.Relation` between exactly two actual participants:
+
+1. `architectureBearingHolonRef` — the exact `U.Holon` whose realized organization is at issue; and
+2. `selectedArchitectureStructureRef` — one exact `U.Structure` selected under A.22 from declared constituents, obtaining subject-relation occurrences, applied constraints and invariants, and an admissible-use frame.
+
+The relation is applicable only when the structure's exact constituents and selected subject-relation occurrences are recoverable for that holon or its admitted constituents and the structure is being used as architecture-relevant organization of that holon. Its obtaining predicate is satisfied only when the selected structure is actually constituted under A.22, every selected subject relation required by that structure obtains under its direct owner, and those constituents and relations organize the exact holon in the declared way. A planned, required, desired, expected, modeled, diagrammed, listed, or merely published structure does not satisfy this predicate.
+
+Occurrence identity is the exact participant pair over one maximal continuous interval during which that predicate remains satisfied. A different holon, a differently identified A.22 structure, or cessation followed by later renewed obtaining yields another occurrence. A changed concern, claim scope, effective reference scheme, description, viewpoint, view, representation, publication, or carrier does not by itself reidentify or create the relation. Ordinary prose may state the readable relation and stop; use A.6.REL only when a later receiver must distinguish this occurrence from another one.
+
+**Architecture claim episteme.** `ArchitectureClaim` is an ordinary C.2.1 `U.Episteme`, not the direct relation and not a new architecture kind:
 
 ```text
-ArchitectureOf@Context ::= {
-  describedHolonRef: U.HolonRef,
-  boundedContextRef: U.BoundedContextRef,
-  structureRefs: FinSet(U.StructureRef),
-  structureKindRefs: FinSet(ArchitectureStructureKindRef),
-  architectureConcernCue?,
-  governingArchitectureConcernRefs?,
-  architectureConcernNotes?,
-  structuralRelationRecordRefs?,
-  admissibleUse,
-  nonAdmissibleUse
+ArchitectureClaim ::= {
+  claimEpistemeRef: U.EpistemeRef,
+  entityOfConcernRef:
+    describedHolonRef | architectureRelationRef | selectedStructureRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+  claimScope?: U.ClaimScope, byValue,
+  content: {
+    describedHolonRef: U.HolonRef,
+    architectureRelationAssertion:
+      obtains | doesNotObtain | unresolved | candidateOrExpectedOnly,
+    architectureRelationRefs?: FinSet(U.RelationRef),
+    selectedStructureRefs?: FinSet(U.StructureRef),
+    candidateOrExpectedStructureRefs?: FinSet(U.StructureRef),
+    structureKindRefs: FinSet(ArchitectureStructureKindRef),
+    architectureConcernClaimRefs?: FinSet(U.EpistemeRef),
+    architectureConcernCue?: Plain recognition wording,
+    admissibleUse,
+    nonAdmissibleUse
+  },
+  modelUseStructureRef?: U.StructureRef,
+  empiricalGroundingRelationRef?: U.RelationRef
 }
 ```
 
-`ArchitectureOf@Context` is a project-side architecture claim record over selected structures. It is not the selected structure itself, not a Description episteme, not a view, not a diagram, not a publication face, not a decision, and not a new root `U.*` kind.
+The C.2.1 identity basis is the exact content, one exact `entityOfConcernRef`, and effective `U.ReferenceScheme`. `claimScope` qualifies what the claim covers. `modelUseStructureRef` appears only when one independently selected bounded-model-use structure changes structure interpretation or selection for this receiving use. `empiricalGroundingRelationRef` names a separately obtaining grounding relation; neither grounding nor the optional model-use structure is an `ArchitectureRelation` participant.
 
-`ArchitectureOf@ContextRef` is admissible as a `DescriptionContext.EntityOfConcernRef` for architecture Description epistemes and views. The holon whose architecture is claimed remains `ArchitectureOf@Context.describedHolonRef`; it is not the DescriptionContext `EntityOfConcernRef` for those architecture descriptions unless a separate direct holon description is being made.
+For an affirmative actual claim, every `architectureRelationRef` resolves to an obtaining occurrence governed by the direct settlement above and every `selectedStructureRef` is the exact structure participant of one of those occurrences. A negative, unresolved, candidate, required, desired, or expected claim can remain truthful claim content without an obtaining occurrence; it uses no invented positive reference. A description, diagram, graph, file, list, architecture decision, authoring act, or publication may state or carry the claim, but creates neither its truth nor the subject-side relation or structure.
 
-**EntityOfConcern bridge.** In C.30, the primary `EntityOfConcern` is the `ArchitectureOf@Context` claim record, one of its selected structures, or a related relation record or claim record selected by the use under repair. Selected architecture structure is dependent, non-agentive, and claim-bearing through episteme or view records, but it is not a second EntityOfConcern family beside `EntityOfConcern`. Publication faces, forms, units, and renderings publish descriptions or views; they do not become the architecture claim or the selected structure.
+Earlier consumers may still say “open the `ArchitectureOf@Context` form in the current C.30 edition.” In this edition that legacy retrieval instruction resolves to the `ArchitectureClaim` form plus the separate `ArchitectureRelation` settlement above. The suffix supplies no field, participant, scope, scheme, grounding, project identity, or relation fact, and new records use the current names.
+
+**EntityOfConcern bridge.** C.30 may make the described holon, one exact `ArchitectureRelation` occurrence, or one exact selected structure the EntityOfConcern of a claim. A later architecture description independently chooses the exact holon, relation occurrence, or structure it describes under C.2.1; it does not use a claim record as a world-side proxy. Publication occurrences, forms, representations, and carriers remain separate.
 
 #### C.30:4.1a - Holonic architecture modes
 
@@ -59256,63 +59316,71 @@ Recover which holonic architecture mode is current before applying MHT, structur
 
 | Mode | Current EntityOfConcern | Admissible C.30 use | Boundary |
 | --- | --- | --- | --- |
-| Direct holonic architecture mode | `ArchitectureOf@Context` over selected structures of one described holon in one bounded context. | Name selected structures, structure kinds, architecture concern, and first architecture move. | Do not apply MHT merely because the architecture has levels, scopes, parts, modules, or views. |
-| Architecture-bound holon mode | An architecture residual raises a whole-reidentification question for a candidate result holon. | Use C.30 only for the architecture residual and selected-structure claim; use `B.2` or `B.2.P` when whole reidentification is current. | `MHTTriggerProfile` is not a general architecture heuristic. |
+| Direct holonic architecture mode | One exact `ArchitectureRelation` between a described holon and an actual selected structure, plus any C.2.1 claim about it. | Recover the actual subject relations, selected structure, architecture relation, structure kind, concern, admissible-use frame, and first move. | Do not apply MHT merely because the architecture has levels, scopes, parts, modules, or views. |
+| Architecture-bound holon mode | An architecture residual raises a whole-reidentification question for a candidate result holon. | Use C.30 only for the actual-relation or modal-claim architecture residual; use `B.2` or `B.2.P` when whole reidentification is current. | `MHTTriggerProfile` is not a general architecture heuristic. |
 | Non-holonic description, record, or mathematical mode | A description, view, diagram, dashboard, model, source relation, publication form, or mathematical-lens result is under repair. | Assign the claim to `C.30.AD`, `C.30.AD.BA`, `C.30.ASV`, `E.17`, `A.10`, `C.29`, or another direct governing pattern. | Do not treat the representation as the architecture or as MHT evidence by label. |
 
 #### C.30:4.1b - Evolutionary-engineering architecture candidate bridge
 
-Use this bridge when an open-ended search, quality-diversity archive, current pool, front, or selected set contains possible architecture moves. The archive or front is not yet an architecture claim. It becomes C.30 material only when the current claim names `ArchitectureOf@Context`, the selected structure or structure kind, the affected architecture characteristic, and the next architecture move.
+Use this bridge when an open-ended search, quality-diversity archive, current pool, front, or selected set contains possible architecture moves. The archive or front is not yet an actual architecture relation. It becomes C.30 material only when the current claim names the described holon, the existing or candidate structure and structure kind, the affected architecture characteristic, and the next architecture move.
 
 ```text
-ArchitectureCandidateMove@Context:
-  CandidateSetOrArchiveRef:
-  ArchitectureOfRef:
-  SelectedStructureOrStructureKindRef:
-  AffectedArchitectureCharacteristicRef:
-  CandidateMoveClaim:
-  SelectedSetPublicationRef?:
-  LocalChoiceRef?:
-  PatternUseRecommendationRef?:
-  WorkPlanRef?:
-  WorkEntryReadinessRef?:
-  GateDecisionRef?:
-  PerformedWorkRef?:
-  StopCondition:
+ArchitectureCandidateMove:
+  candidateMoveClaimEpistemeRef: U.EpistemeRef
+  architectureClaimRef?: ArchitectureClaimRef
+  describedHolonRef:
+  currentArchitectureRelationRefs?: FinSet(U.RelationRef)
+  currentSelectedStructureRefs?: FinSet(U.StructureRef)
+  candidateStructureRefs: FinSet(U.StructureRef)
+  candidateStructureKindRefs:
+  affectedArchitectureCharacteristicRef:
+  candidateMoveClaim:
+  candidateSetOrArchiveRef:
+  selectedSetPublicationRef?:
+  localChoiceRef?:
+  patternUseRecommendationRef?:
+  workPlanRef?:
+  workEntryReadinessRef?:
+  gateDecisionRef?:
+  performedWorkRef?:
+  stopCondition:
 ```
 
-`ArchitectureCandidateMove@Context` is a thin architecture-candidate use record over an `ArchitectureOf@Context` claim. It records why a generated, retained, front-member, or selected-set variant can be considered as architecture material; it is not a work plan, local choice result, selected-set publication, or new kind.
+`ArchitectureCandidateMove` is a thin claim note about a possible structural change. It records why a generated, retained, front-member, or selected-set variant can be considered as architecture material; it is not an obtaining `ArchitectureRelation`, work plan, local choice result, selected-set publication, decision, performed Work, or new kind. Candidate structure content remains modal until the exact structure is constituted and the direct architecture predicate obtains.
 
-If the current work is archive generation, front maintenance, current-pool treatment, selected-set publication, or local choice, use `C.18`, `C.19`, `G.5`, or `C.11` before C.30 relies on it. If the selected architecture move is a recommended FPF pattern use, cite `E.11.PUR`. If it is ready to enter planning, work-entry readiness, gate decision, or performed work, use `A.15.2`, `A.15.5`, `A.21`, or `A.15.1` respectively. C.30 keeps only the architecture claim: which architecture of which entity in which context, which selected structure matters, which characteristic changes, and which architecture candidate use is admissible next.
+If the current work is archive generation, front maintenance, current-pool treatment, selected-set publication, or local choice, use `C.18`, `C.19`, `G.5`, or `C.11` before C.30 relies on it. If the selected architecture move is a recommended FPF pattern use, cite `E.11.PUR`. If it is ready to enter planning, work-entry readiness, gate decision, or performed work, use `A.15.2`, `A.15.5`, `A.21`, or `A.15.1` respectively. C.30 keeps only the architecture claim: which exact holon and current relation are at issue, which candidate structure matters, which characteristic may change, and which next use is admissible.
 
-In C.30, architecture-move wording is practitioner shorthand for an architecture-candidate use over an `ArchitectureOf@Context` claim. It does not create a root `U.Move`, WorkPlan, readiness relation, gate decision, performed work, decision, or source-use claim by itself. When source wording uses "move" outside this architecture-candidate use, restore the concern through `E.10.MOVE` and name the direct governing pattern.
+Architecture-move wording creates no root `U.Move`, structure, relation, WorkPlan, readiness relation, gate decision, performed work, decision, or source-use claim by itself. When source wording uses “move” outside this architecture-candidate use, restore the concern through `E.10.MOVE` and name the direct governing pattern.
 
-When the useful next work is synthesizing candidate architecture variants rather than judging or repairing one grounded architecture claim, stop the C.30 question card after the described holon, bounded context, selected structure or structure kind, architecture concern, and admissible next use are named.
-Apply `C.32` only to build the candidate architecture palette.
-If the next claim is comparison, selector-policy use, selected-set publication, final local choice, project architecture decision, evidence, assurance, gate, release, or performed work, send the palette or candidate reference to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, `C.32.PAD`, `A.10`, `B.3`, `A.20`, `A.21`, or `A.15` when that claim is current.
+When the useful next work is synthesizing candidate architecture variants rather than judging or repairing one grounded actual relation, stop the C.30 question card after the described holon, current/candidate structure distinction, structure kind, concern, admissible-use frame, and admissible next use are named. Apply `C.32` only to build the candidate architecture palette. If the next claim is comparison, selector-policy use, selected-set publication, final local choice, project architecture decision, evidence, assurance, gate, release, or performed work, send the palette or candidate reference to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, `C.32.PAD`, `A.10`, `B.3`, `A.20`, `A.21`, or `A.15` when that claim is current.
 
 #### C.30:4.2 - Conditional architecture-description bridge
 
-
-
-C.30 does not define a second local `ArchitectureDescription@Context` record shape. The canonical `ArchitectureDescription@Context` record is governed by `C.30.AD:4.1`. C.30 admits only a thin bridge to that record when durable architecture-description use changes the first architecture move.
+C.30 does not define a second local `ArchitectureDescription` record shape. The canonical C.2.1 episteme and its architecture-use specialization are governed by `C.30.AD:4.1`. C.30 admits only a thin bridge when durable description use changes the first architecture move.
 
 The minimum bridge recoverable in C.30 is:
 
 ```text
 C30ArchitectureDescriptionBridge minimum:
-  architectureClaimRef: ArchitectureOf@ContextRef
+  architectureDescriptionRef: exact U.EpistemeRef
+  entityOfConcernRef: exactly one described holon,
+    obtaining ArchitectureRelation occurrence, or selected U.Structure
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  architectureClaimRefs?: bounded claim content or trace
   selectedStructureRefs or structureKindRefs:
-  architectureStructuralViewRefs? only when a structural view is being used
+  architectureStructuralViewRefs?: only for exact description epistemes
+    with independently obtaining E.17.0 viewpoint conformance
+  viewpointConformanceRelationRefs?:
   admissibleUse:
   nonAdmissibleUse:
-  correspondenceRefs or sourceReturnCondition? when reuse, cross-view use, or source return is needed
-  freshnessCueRefs? when currentness bounds the admissible use
+  correspondenceClaimOrRelationRefs or sourceReturnCondition?:
+    only when reuse, cross-view use, or source return is needed
+  freshnessClaimRefs?: only when currentness bounds admissible use
 ```
 
-This bridge does not mint another `ArchitectureDescription@Context` definition, does not add local fields to the canonical record, and does not collect non-architecture claim kinds as architecture-description ontology. It lets the C.30 reader say why a description matters for the next architecture move, then applies `C.30.AD` whenever the architecture description itself becomes the `EntityOfConcern` under repair or the full mechanism is needed: multi-view composition, correspondence, source return, freshness, specification-use boundary, publication-use boundary, or reusable architecture-description use.
+This bridge does not mint another description definition, local view-membership relation, subject-side architecture relation, selected structure, or truth fact. It lets the C.30 reader say why an exact description episteme matters for the next architecture move, then applies `C.30.AD` whenever the description itself becomes the EntityOfConcern under repair or the full mechanism is needed: multi-view description-set use, exact viewpoint conformance, correspondence, source return, freshness, specification-use boundary, representation/publication boundary, or reusable architecture-description use.
 
-An architecture-description freshness cue is also canonical in `C.30.AD:4.4`. C.30 may point to that cue only to bound the admissible use of the first architecture move; the cue is not evidence sufficiency and not assurance.
+An architecture-description freshness claim is canonical in `C.30.AD:4.4`. C.30 may point to it only to bound admissible use of the first architecture move; it is not empirical grounding, publication currentness, evidence sufficiency, or assurance.
 
 #### C.30:4.3 - Publication-use boundary
 
@@ -59323,7 +59391,9 @@ ArchitectureDescriptionPublication@Project ::= {
   sourceEpistemeRef | sourceViewRef,
   publicationViewpointRef?,
   publicationScopeId,
-  boundedContextRef,
+  claimScope?,
+  effectiveReferenceScheme?,
+  modelUseStructureRef?,
   mvpkFaceRef,
   publicationFormRef,
   sourcePinSetRef,
@@ -59335,7 +59405,7 @@ ArchitectureDescriptionPublication@Project ::= {
 
 `ArchitectureDescriptionPublication@Project` is subordinate to E.17 and MVPK machinery. It publishes one source episteme or episteme-lane view reference. `publicationViewpointRef?` names the publication-side viewpoint only when MVPK needs one; it is not an architecture viewpoint and not a TEVB viewpoint. `mvpkFaceRef` is a publication-lane face reference, not an alternative source episteme, source view, or source relation. Publication does not establish non-publication claims; apply `C.30:4.3` and the governing pattern when evidence, gate, work, assurance, decision, or release claims are current.
 
-Model cards, system cards, and evaluation harness reports enter C.30 through the same publication boundary or source-relation boundary. They may describe a model, deployed AI system, architecture claim, evaluation harness, or policy, but the architecture move still needs `ArchitectureOf@Context`, selected structures, and any proof, release, or gate claim assigned to its governing pattern.
+Model cards, system cards, and evaluation harness reports enter C.30 through the same publication boundary or source-relation boundary. They may describe a model, deployed AI system, architecture claim, evaluation harness, or policy, but the architecture move still needs the actual/candidate structure distinction, an obtaining `ArchitectureRelation` only when its predicate is satisfied, a bounded `ArchitectureClaim` when claim content is needed, and any proof, release, or gate claim assigned to its governing pattern.
 
 ```text
 ModelCardOrSystemCardBoundaryNote@Project ::= {
@@ -59347,7 +59417,7 @@ ModelCardOrSystemCardBoundaryNote@Project ::= {
   architectureStructureKindRefs?,
   intendedUseScope,
   evaluationScopeAndKnownLoss?,
-  deploymentContextMismatch?,
+  deploymentInterpretationOrUseMismatch?,
   evidenceOrAssuranceGoverningPatternRef?,
   nonAdmissibleUse:
     notArchitectureAdequacy | notSafetyProof |
@@ -59359,27 +59429,30 @@ If the card or harness is used beyond transparency, recover the architecture str
 
 #### C.30:4.4 - Architecture name formation
 
-The word `architecture` is shorthand only after the described holon, bounded context, selected structures, structure kind, and source, description, view, or publication role are recoverable. Without those qualifiers, it is a recovery trigger, not a stable FPF term.
+The word `architecture` is shorthand only after the described holon, selected structures, structure kind, architecture concern and admissible-use frame, and source, description, view, or publication role are recoverable. Without those qualifiers, it is a recovery trigger, not a stable FPF term.
 
 ```text
 ArchitectureNameFormationRule:
 
 If a text says "<X> architecture", then the FPF-governed use is conforming only with:
   describedHolonRef,
-  boundedContextRef,
-  structureKindRef = <X>StructureKind or declared local relation,
-  structureRefs,
-  ArchitectureStructuralViewRefs if this is a description or view claim,
+  actual subject relation occurrences or an explicit candidate/expected stop,
+  architectureRelationRefs only when those exact relations obtain,
+  claimScope? when claim coverage changes use,
+  effectiveReferenceScheme for any claim episteme,
+  modelUseStructureRef? only when that structure changes interpretation or selection,
+  structureKindRef = <X>StructureKind or a declared local classifier,
+  actual selectedStructureRefs or separately named candidateOrExpectedStructureRefs,
+  architectureStructuralViewRefs only when a conforming view episteme is being used,
   admissibleUse,
   nonAdmissibleUse.
-
 If <X> is not a declared structure kind, the phrase is plain recognition wording only.
 ```
 
 | Phrase | Required recovery |
 | --- | --- |
 | functional architecture | `structureKindRef = FunctionalStructure`; functions, effects, capabilities, and functional dependencies named as structure content; transformation-flow structures, paths, and flow valuations are assigned to `TransformationFlowStructure` or `C.30.TFS-REL`. |
-| modular architecture | `structureKindRef = ModuleInterfaceStructure`; module relation records, interface specifications, substitutability rule, and change policy. Full module-and-interface repair applies the module-and-interface repair pattern when that claim kind is being made. |
+| modular architecture | `structureKindRef = ModuleInterfaceStructure`; module claim content, selected dependency structure, interface specifications, substitutability rule, and change policy. Cite a direct module relation only after its direct owner admits it and its predicate obtains; current A.6.M `moduleIn(...)` syntax is claim content. |
 | logical architecture | `structureKindRef = DeclaredLogicalStructure`; local definition says whether `logical` means information relation, functional relation, runtime relation, responsibility relation, allocation relation, or another relation class. |
 | physical architecture | `structureKindRef` in `{MaterialSpatialStructure, PlacementDeploymentStructure}` or a locally declared physical structure kind. |
 | control architecture | `structureKindRef = ControlStructure`; an LCA record may describe the control structure, but proof claims are assigned to dynamics, temporal, causal, evidence, safety, or assurance patterns as triggered. |
@@ -59388,53 +59461,72 @@ If <X> is not a declared structure kind, the phrase is plain recognition wording
 
 #### C.30:4.5 - Architecture characteristic assignment
 
-C.30 uses three bearers before any `quality`, `fitness`, `measure`, `metric`, `score`, `modularity`, or `ility` wording carries an architecture-adequacy claim. Those words are triggers for bearer recovery, not stable architecture adequacy by themselves.
+C.30 recovers the exact bearer before any `quality`, `fitness`, `measure`, `metric`, `score`, `modularity`, or `ility` wording carries an architecture-adequacy claim. Those words are triggers, not stable architecture adequacy by themselves.
 
 ```text
 ArchitectureCharacteristicAssignment:
 
 A. SystemQualityAffectedByArchitecture
-   Bearer: described U.Holon, named product holon, or named system holon
+   Bearer: exact described U.Holon, named product holon, or named system holon
    Governing pattern: C.25 Q-Bundle or C.16
    Examples: maintainability, evolvability, resilience, availability, safety, observability
 
 B. ArchitectureStructuralCharacteristic
-   Bearer: `ArchitectureOf@Context` claim, architecture structural view, declared structural relation or constraint, module relation, or interface relation
-      Governing pattern: selected from C.16, A.17-A.19, C.25, or the characteristic-space or Q-bundle pattern governing the characteristic claim
-   Examples: coupling, cohesion, interface alphabet, substitutability, hidden coupling, reusable-structure share
+   Bearer: one exact selected U.Structure, obtaining ArchitectureRelation,
+           actual subject relation or constraint, or separately admitted
+           module/interface relation
+   Governing pattern: C.16, A.17-A.19, C.25, or the direct
+                      characteristic-space/Q-bundle owner
+   Examples: coupling, cohesion, interface alphabet, substitutability,
+             hidden coupling, reusable-structure share
 
-C. ArchitectureAdequacyBearer
-   Bearer: one selected architecture adequacy bearer: `ArchitectureOf@Context`, selected architecture-relevant structure, `ArchitectureDescription@Context` when durable description use is being made, architecture structural view, or correspondence model
-   Governing pattern: selected from C.30 for grounded architecture and selected-structure adequacy, E.17 for publication-face and view discipline, C.16.Q for quality-term precision, or C.16 for measurement and characterization
-   Examples: viewpoint coverage, correspondence adequacy, source-return adequacy, description modularity
+C. ArchitectureDescriptionOrViewAdequacy
+   Bearer: one exact architecture-description episteme, one exact view episteme,
+           one exact correspondence model, or one exact publication-use object
+   Governing pattern: C.30.AD, C.30.ASV, E.17.0, E.17, C.16.Q, or C.16
+   Examples: viewpoint coverage, correspondence adequacy,
+             source-return adequacy, description modularity
 ```
 
-C.30 keeps only a thin bridge from structural characteristics to Q-Bundle relevance. If the claim says architecture causes an outcome improvement, assign the causal-use claim to `C.28` before causal use. If a structural characteristic is used as a mechanism, constraint, predictor, proxy, evidence relation, or causal hypothesis for a Q-Bundle slot, start with `ArchitectureStructuralCharacteristicQBundleRelationLine` rather than a formula such as `low coupling = maintainability`; assign measurement, modularity scoring, reusable-structure accounting, bespoke-residue accounting, evidence, assurance, gate, causal, and scale-audit claims to their governing patterns.
+An `ArchitectureClaim` may state a characteristic claim, but the claim episteme is not automatically the characteristic bearer when its content names the holon, direct architecture relation, or selected structure. Select the exact bearer under the characteristic's direct owner. Likewise, a diagram or publication cannot inherit the subject's quality by describing it.
 
-`ArchitectureStructuralCharacteristicQBundleRelationLine` is the only ordinary first-contact relation shape C.30 introduces for this case. Do not add a second generic characteristic relation record in C.30. Use the line when the useful move is to show why one structural characteristic may matter without opening the full relation record. Do not use this line as a measurement record, modularity score, evidence sufficiency statement, assurance verdict, or causal proof:
+C.30 keeps only a thin bridge from structural characteristics to Q-Bundle relevance. If the claim says architecture causes an outcome improvement, assign causal use to `C.28`. If a structural characteristic is used as a mechanism, constraint, predictor, proxy, evidence relation, or causal hypothesis for a Q-Bundle slot, start with `ArchitectureStructuralCharacteristicQBundleClaimLine` rather than a formula such as `low coupling = maintainability`.
+
+`ArchitectureStructuralCharacteristicQBundleClaimLine` is claim content for first contact, not a `U.Relation` occurrence or reusable relation declaration:
 
 ```text
-ArchitectureStructuralCharacteristicQBundleRelationLine ::= {
-  architectureClaimRef: ArchitectureOf@ContextRef,
-  architectureStructuralViewRef?: ArchitectureStructuralView@ContextRef,
+ArchitectureStructuralCharacteristicQBundleClaimLine ::= {
+  architectureClaimRef?: ArchitectureClaimRef,
+  entityOfConcernRef:
+    architectureBearingHolonRef | architectureRelationRef |
+    selectedStructureRef | directStructuralRelationRef |
+    structuralCharacteristicRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+  claimScope?: U.ClaimScope, byValue,
   structuralCharacteristicCueOrRef,
   affectedQBundleSlotRef,
-  qBundleRelationKind:
+  relationClaimKind:
     structuralCharacteristicRelevantToQBundleSlot |
     structuralCharacteristicConstrainsQBundleSlot |
     structuralCharacteristicPredictsQBundleSlot |
     structuralCharacteristicProxiesQBundleSlot |
     structuralCharacteristicCausalHypothesisForQBundleSlot |
-    structuralCharacteristicEvidenceRelationForQBundleSlot(A.10-governed evidence relation only when evidence provenance is the claim being made),
+    structuralCharacteristicEvidenceRelationForQBundleSlot,
   relationGroundingKind:
     modelBased | empirical | causalModelBased | expertJudgement |
     sourceLineageOnly | SoTAActionLineage | reportOnly,
+  directRelationDisposition:
+    noDirectRelationClaimed | exactDirectOwnerAndOccurrenceRefs |
+    directOwnerStillNeeded,
+  directRelationOccurrenceRefs?: FinSet(U.RelationRef),
   evidenceOrCausalGoverningPatternRef?,
   nonAdmissibleUse
 }
 ```
 
-Minimal structural-characteristic relation-line examples:
+The line supports an inspectable next question without claiming measurement, modularity score, evidence sufficiency, assurance, gate passage, or causal proof. `exactDirectOwnerAndOccurrenceRefs` is available only when the direct characteristic, evidence, or causal pattern supplies its participant meanings, obtaining predicate, applicability, and occurrence identity and the referenced occurrences actually obtain. If no direct owner exists for a needed reusable relation, use A.6.RCD; neither a local token nor this line admits one.
+
+Minimal structural-characteristic claim-line examples:
 
 | Structure kind | Structural characteristic cue or relation | Affected Q-Bundle slot | Relation grounding note | Non-admissible use |
 | --- | --- | --- | --- | --- |
@@ -59448,36 +59540,45 @@ Minimal structural-characteristic relation-line examples:
 | `EvidenceAssuranceStructure` | Evidence package reused across variants. | Assurance maintainability or release readiness. | Explicit affected-structure and source-return boundary. | Evidence-structure view as assurance verdict. |
 | `WorkMethodStructure` | Method description, work plan, or work enactment relation with explicit exception path. | Operability, auditability, or maintainability. | Bounded repeatability and recoverable exception handling. | Work-method diagram as work authorization or evidence sufficiency. |
 
-`ArchitectureCharacteristicQBundleRelationRecord` is a triggered full-mode record, not the ordinary first-contact shape. Use the full record only when publication, comparison, causal use, evidence reliance, assurance, gate, decision, or reusable cross-case relation reliance is being claimed and the thin line cannot keep the relation inspectable, reusable, or bounded. This preserves the protection against causal or quality overread without turning C.30 into a measurement-first pattern.
-
-Relation kinds in this record are C.30-local relation tokens. They must remain recoverable as A.6.P-style relation specifications: polarity, participant slots, qualifiers, witness expectations, admissible semantic change classes, and bridge or loss boundary where those boundary conditions are being claimed.
-ISO/IEC 25010-like quality models may be used as quality vocabulary or comparison lineage for product qualities such as reliability, security, maintainability, usability, efficiency, compatibility, or portability. C.30 does not inherit them as architecture theory. Architecture relates to qualities through Q-Bundle slots, mechanism slots, relation class or admissible-use value, evidence or causal governing patterns, or report-only use.
+`ArchitectureCharacteristicQBundleClaim` is the triggered full claim episteme. Use it only when publication, comparison, causal use, evidence reliance, assurance, gate, decision, or reusable cross-case reliance needs a durable bounded claim and the thin line cannot keep the content inspectable.
 
 ```text
-ArchitectureCharacteristicQBundleRelationRecord ::= {
-  architectureClaimRef: ArchitectureOf@Context,
+ArchitectureCharacteristicQBundleClaim ::= {
+  claimEpistemeRef: U.EpistemeRef,
+  entityOfConcernRef:
+    architectureBearingHolonRef | architectureRelationRef |
+    selectedStructureRef | directStructuralRelationRef |
+    structuralCharacteristicRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+  claimScope?: U.ClaimScope, byValue,
+  architectureClaimRef?: ArchitectureClaimRef,
   architectureStructuralViewRef?,
   architectureDescriptionRef?,
   structuralCHRRefs,
   affectedQBundleRefs,
-  relationKind:
+  assertedParticipantRefs: {
+    structuralCharacteristicRef,
+    qBundleSlotRef
+  },
+  relationClaimPolarity:
+    positive | negative | unresolved | candidateOnly,
+  relationClaimKind:
     structuralCharacteristicRelevantToQBundleSlot |
     structuralCharacteristicConstrainsQBundleSlot |
     structuralCharacteristicPredictsQBundleSlot |
     structuralCharacteristicProxiesQBundleSlot |
     structuralCharacteristicCausalHypothesisForQBundleSlot |
-    structuralCharacteristicEvidenceRelationForQBundleSlot(A.10-governed evidence relation only when evidence provenance is the claim being made),
-  participantSlots:
-    structuralCharacteristicRef,
-    qBundleSlotRef,
-    architectureClaimRef,
-    scopeOrScaleWindow?,
-    viewpointRef?,
-  qualifiers?,
-  witnessExpectations?,
+    structuralCharacteristicEvidenceRelationForQBundleSlot,
   relationGroundingKind:
     modelBased | empirical | expertJudgement |
     sourceLineageOnly | SoTAActionLineage | causalModelBased | reportOnly,
+  directRelationDisposition,
+  directRelationOccurrenceRefs?: FinSet(U.RelationRef),
+  scopeOrScaleWindow?,
+  viewpointRef?,
+  qualifiers?,
+  witnessExpectations?,
+  admissibleSemanticChangeClasses?,
   bridgeOrLossBoundary?,
   admissibleUse,
   nonAdmissibleUse,
@@ -59485,9 +59586,13 @@ ArchitectureCharacteristicQBundleRelationRecord ::= {
 }
 ```
 
+The full claim preserves the older branch's inspectable proposal detail: assertion polarity, the exact structural-characteristic and Q-Bundle-slot referents, scope or scale window, viewpoint when it changes interpretation, qualifiers, witness expectations, admissible semantic change classes, and bridge or loss boundary. These are claim-content fields. They neither declare a reusable relation kind nor make an occurrence obtain; a direct relation still needs its own owner, participants, obtaining predicate, applicability, and occurrence identity.
+
+Reusable product-quality vocabularies may supply candidate characteristic names, but they do not become architecture theory. The claim content may connect exact bearers and Q-Bundle slots; only the direct owner makes a relation obtain. Measurement, modularity scoring, reusable-structure accounting, bespoke-residue accounting, evidence, assurance, gate, causal, and scale-audit claims stay with their governing patterns.
+
 #### C.30:4.6 - Relation to structural views
 
-`C.30.ASV` governs `ArchitectureStructuralView@Context`. C.30 governs the `ArchitectureOf@Context` claim and, only when durable description use is being made, how its thin `ArchitectureDescription@Context` bridge uses structural views, with hidden or lost structure, correspondence, source or reliance relation, and source-return boundaries recoverable when those boundaries affect action. `C.30.AD` governs the full architecture-description mechanism.
+`C.30.ASV` governs structural-view adequacy for an exact architecture-description episteme about one selected structure; E.17.0 alone admits that same episteme as `U.View` through independently obtaining conformance to an exact viewpoint. C.30 governs direct `ArchitectureRelation` occurrences and bounded `ArchitectureClaim` content and, only when durable description use is being made, how its thin `ArchitectureDescription` bridge cites exact structural views. Hidden/lost structure, correspondence, source or reliance relations, and source-return boundaries stay explicit when they affect action. `C.30.AD` governs the full description mechanism.
 
 A diagram, model, table, selected transformation-flow diagram, mathematical graph description, LCA diagram, C.29 lens output, ADR, dashboard, generated explanation, or other publication face may carry an architecture description or an architecture structural view. It does not become the architecture, and it does not become a conforming view only because it looks like a view.
 
@@ -59510,7 +59615,7 @@ This note only names affected architecture structure for the next architecture u
 
 Use these notes when a common architecture phrase is close to a governing pattern but the full governing-pattern application is not yet needed for an asserted claim.
 
-Use the thinnest relation form that preserves the next architecture move. Use a fuller governing relation record only when the relation being used cannot be inspected, compared, refreshed, or bounded without it. Typical thin forms are `ArchitectureMathLensUseBoundary` before C.29 Mini or Full, `AffectedArchitectureStructureNote` before an architecture decision record, and `ArchitectureStructuralCharacteristicQBundleRelationLine` before full measurement records, causal records, or evidence records.
+Use the thinnest claim or boundary form that preserves the next architecture move. Use a fuller governing claim or relation record only when the content or independently admitted relation being used cannot be inspected, compared, refreshed, or bounded without it. Typical thin forms are `ArchitectureMathLensUseBoundary` before C.29 Mini or Full, `AffectedArchitectureStructureNote` before an architecture decision record, and `ArchitectureStructuralCharacteristicQBundleClaimLine` before full measurement, causal, evidence, or reusable direct-relation records.
 
 ```text
 InterfaceSignatureBoundaryNote ::= {
@@ -59587,8 +59692,8 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 
 | Tempting collapse | C.30 repair |
 | --- | --- |
-| Bare architecture as free-floating selected claim | Recover `ArchitectureOf@Context`, `describedHolonRef`, `boundedContextRef`, selected `structureRefs`, selected `structureKindRef`, source, description, view, or publication role for inspected material, `admissibleUse`, and `nonAdmissibleUse`. |
-| Architecture description as architecture | Keep `ArchitectureDescription@Context` as Description episteme or specification-use case over `ArchitectureOf@Context`. |
+| Bare architecture as free-floating selected claim | Recover the actual subject-relation occurrences and exact A.22 structure, then either identify the obtaining `ArchitectureRelation` or keep candidate, expected, negative, or unresolved content in `ArchitectureClaim`. Also recover the exact described holon, structure kind, concern and admissible-use frame, effective reference scheme and ClaimScope when applicable, and the source, description, view, representation, or publication role of inspected material. |
+| Architecture description as architecture | Keep `ArchitectureDescription` as a C.2.1 episteme about one exact holon, obtaining `ArchitectureRelation`, or selected structure; keep specification use, representation, and publication separate. |
 | Diagram, model, table, dashboard, or generated relation graph as architecture | Treat it as publication form, description, view, source relation, or source-finding aid only when that relation is explicit. |
 | Module diagram as all architecture | Use `C.30.ASV` to recover structure kind; module structure and interface relation are only one structure family. |
 | Transformation-flow structure or graph description as architecture | Use E.18 for selected transformation-flow structure, path, and crossing records; use E.18.2 and C.29 for mathematical graph descriptions; use C.30.TFS-REL for the architecture-to-transformation-flow relation. |
@@ -59597,19 +59702,23 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 | ADR as architecture decision | Use the project-side architecture decision pattern when a decision claim is being made; ADR is a publication form, not the decision. |
 | Quality, score, or measurement term as architecture adequacy | Recover the bearer through ArchitectureCharacteristicAssignment; assign the claim being made to C.25, C.16, A.17-A.19, the characteristic-space or Q-bundle pattern governing the characteristic claim, or C.30 grounded architecture, selected-structure, or conditional description-use scope. |
 | Architecture record as evidence, assurance, gate, work, or release | Assign evidence, assurance, gate, work, or release claims to A.10, G.6, B.3, A.20, A.21, A.15, or the release locus named by value when a release claim is being made. |
-| Architecture as agent, worker, controller, gate, or proof | Recover the mechanism, control relation, role and enactor relation, gate, work, evidence, or assurance record that carries enforce, decide, optimize, adapt, prove, or guarantee wording; keep `ArchitectureOf@Context` as a selected-structure claim, not an acting entity. |
+| Architecture as agent, worker, controller, gate, or proof | Recover the mechanism, control relation, role and enactor relation, gate, work, evidence, or assurance record that carries enforce, decide, optimize, adapt, prove, or guarantee wording. Neither an `ArchitectureRelation`, its selected structure, nor `ArchitectureClaim` is an acting entity by that wording. |
+
+**Currentness and smallest reopen.** When a decisive input changes, reopen only the C.30 object and use conclusion that depend on it. A changed holon or obtaining subject relation reopens the affected selected structure and, if asserted, the direct `ArchitectureRelation` predicate; a changed selected structure or predicate result reopens that relation occurrence and any affirmative `ArchitectureClaim` reference; a changed claim scheme or `ClaimScope` reopens only that claim; and a changed description, view, or source edition, admissible-use boundary, or direct governor reopens its exact reference and dependent `ArchitectureQuestionCard@Project` disposition. Admissible results are to update the affected reference or claim mode, narrow use, re-run the direct predicate, or reopen the card when its next architecture move is no longer supported; unrelated structures, descriptions, and claims stay closed.
 
 #### C.30:4.10 - Worked slices
 
-**"We have the architecture in this diagram."** The diagram is a publication face unless it explicitly publishes an `ArchitectureDescription@Context` or `ArchitectureStructuralView@Context`.
+**"We have the architecture in this diagram."** The diagram is a representation or publication form. It creates neither architecture nor `U.View`; recover an exact `ArchitectureDescription` episteme and, when view use is claimed, its independently obtaining E.17.0 conformance relation.
 
 ```text
 ArchitectureQuestionCard@Project:
   describedHolonRef: payment system
-  boundedContextRef: checkout platform context
+  claimScope: checkout-platform architecture use
+  effectiveReferenceScheme: checkout-platform architecture terms
   architectureConcernCue: descriptionViewLoss or flowBottleneck
   sourcePhrase?: "architecture in this diagram"; unclear dependency between payment orchestration and fraud scoring
   questionDisposition: architectureClaimReady
+  architectureRelationDisposition: actualRelationStillToRecover
   inspectedMaterialRole: diagram as publication face carrying possible architecture structural-view material
   selectedStructureKindRefs: FunctionalStructure, ModuleInterfaceStructure, TransformationFlowStructure
   firstArchitectureMove: recover the diagram as a publication face and create a minimal architecture structural-view note
@@ -59617,22 +59726,24 @@ ArchitectureQuestionCard@Project:
   non-admissible overread: treating the diagram as architecture itself, evidence, assurance, gate passage, or decision
 ```
 
-**"Low coupling gives maintainability."** C.30 does not allow that formula to carry the claim by itself. The ordinary repair starts with the thin relation line:
+**"Low coupling gives maintainability."** C.30 does not allow that formula to carry the claim by itself. The ordinary repair starts with the thin claim line:
 
 ```text
-ArchitectureStructuralCharacteristicQBundleRelationLine:
-  architectureClaimRef: ArchitectureOf@ContextRef
-  structuralCharacteristicCueOrRef: coupling under module relation or interface relation
+ArchitectureStructuralCharacteristicQBundleClaimLine:
+  architectureClaimRef: ArchitectureClaimRef
+  entityOfConcernRef: selected module-interface structure or its exact structural-characteristic referent
+  effectiveReferenceScheme: module-interface and maintainability terms used by this claim
+  structuralCharacteristicCueOrRef: coupling under module claim, admitted direct module relation, or interface relation as actually grounded
   affectedQBundleSlotRef: maintainability Q-Bundle slot
-  qBundleRelationKind: structuralCharacteristicRelevantToQBundleSlot
+  relationClaimKind: structuralCharacteristicRelevantToQBundleSlot
   relationGroundingKind: sourceLineageOnly | SoTAActionLineage | modelBased, as actually grounded
+  directRelationDisposition: noDirectRelationClaimed | exactDirectOwnerAndOccurrenceRefs | directOwnerStillNeeded
   evidenceOrCausalGoverningPatternRef?: one selected governing pattern reference: C.28, B.3, A.10, or G.6 when evidence sufficiency, causal-use, assurance, or safety-case claim is being made
-  nonAdmissibleUse: causal proof or assurance by slogan
+  nonAdmissibleUse: causal proof, assurance, or direct relation by slogan
 ```
+Use `ArchitectureCharacteristicQBundleClaim` only when publication, comparison, causal use, evidence reliance, assurance, gate, decision, or reusable cross-case claim reliance needs the fuller bounded claim. If repeated use needs an independently admitted direct characteristic, evidence, or causal relation, its direct owner must first supply the participants, obtaining predicate, applicability, and occurrence identity; the useful move is not to accept the slogan as architecture truth.
 
-Use `ArchitectureCharacteristicQBundleRelationRecord` only when publication, comparison, causal use, evidence reliance, assurance, gate, decision, or reusable cross-case relation reliance needs the fuller record. The useful move is to decide whether a structural characteristic has a bounded relation to a maintainability slot, not to accept the slogan as architecture truth.
-
-**"The backup-pump architecture is safe because the loop is redundant."** C.30 starts with the plant holon, bounded operating context, and selected structures: control loop, material-flow structure, placement structure, module-interface relation, and maintenance-work relation. The redundancy phrase may motivate an architecture move, but safety proof, causal proof, evidence sufficiency, gate passage, and work authorization go to their governing patterns. The C.30 output is the selected structure and next architecture move, not a safety case by slogan.
+**"The backup-pump architecture is safe because the loop is redundant."** C.30 starts with the plant holon, operating claim scope, effective reference scheme when local terms need it, and selected structures: control loop, material-flow structure, placement structure, module-interface relation, and maintenance-work relation. The redundancy phrase may motivate an architecture move, but safety proof, causal proof, evidence sufficiency, gate passage, and work authorization go to their governing patterns. The C.30 output is the selected structure and next architecture move, not a safety case by slogan.
 
 **"We replaced the neural-network block, so the architecture improved."** Treat `block` first as a source label and apply `C.30.STRAT` unless the changed value is already recovered. The phrase is admissible architecture recognition only after the changed structure kind, transformation-flow relation, module or interface claim kind, preserved and lost structure, changed characteristic, source relation, and decision or evidence governing patterns are named. A block label, benchmark result, ablation, pruning mask, or distillation result is not an architecture decision, evidence sufficiency, gate passage, assurance, or architecture adequacy by itself.
 
@@ -59640,9 +59751,9 @@ Use `ArchitectureCharacteristicQBundleRelationRecord` only when publication, com
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A project team says "architecture" while looking at a diagram, model, generated relation graph, ADR, or module list. C.30 asks what holon is being described, what structure is selected, what source, description, view, or publication role the source material has, and what architecture move remains admissible. |
-| Show: `U.System` | A payment system, plant, vehicle, product platform, AI-agent system, or neural-network model has selected structures: function, flow, control, module structure, interface relation, information structure, placement structure, scale structure, work structure, evidence relation, or declared logical structure. The architecture claim is over selected structures of that holon; the publication is not the holon and not the architecture claim. |
-| Show: `U.Episteme` | An architecture description, model, view, generated relation graph, ADR-like note, safety-case view, or dashboard is an episteme or view publication. It can describe an architecture claim or serve as a source relation for it, but it does not become the architecture, evidence sufficiency, gate result, assurance case, or project decision. |
+| Tell | A project team says "architecture" while looking at a diagram, model, generated relation graph, ADR, or module list. C.30 asks which subject relations actually obtain, which A.22 structure is selected, whether the direct architecture relation obtains or the content is candidate/expected only, what role the inspected material has, and what architecture move remains admissible. |
+| Show: `U.System` | A payment system, plant, vehicle, product platform, AI-agent system, or neural-network model has actual subject relations from which functional, flow, control, module-interface, information, placement, scale, work, evidence, or declared logical structures can be selected. When the C.30 predicate is satisfied, the exact selected structure stands in an `ArchitectureRelation` to that holon; a claim or publication about it is not the relation. |
+| Show: `U.Episteme` | An `ArchitectureClaim`, architecture description, model, view, generated relation graph, ADR-like note, safety-case view, or dashboard is an episteme or publication-side object. It can state or describe actual, negative, unresolved, candidate, or expected content and can participate in source or grounding relations, but it does not create the selected structure, `ArchitectureRelation`, evidence sufficiency, gate result, assurance case, or project decision. |
 
 ### C.30:6 - Bias-Annotation
 
@@ -59662,11 +59773,11 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
-| **CC-C30-1 Grounded architecture name.** | An FPF-governed architecture claim names the described holon, bounded context, selected structures, structure kinds, source, description, view, or publication role, admissible use, and non-admissible use. | Rewrite the phrase through `ArchitectureQuestionCard@Project` or demote it to Plain recognition wording. |
-| **CC-C30-2 No `U.Architecture`.** | The pattern use does not mint or rely on a root `U.Architecture`. | Use `ArchitectureOf@Context` over selected A.22 structures, or assign the claim to another existing kind. |
-| **CC-C30-3 EntityOfConcern and Description-episteme boundary plus specification-use separation.** | Architecture claim, structure, description, view, publication face, decision, evidence, and work stay distinct. | Downgrade the source material to its description, specification-use, or publication role and name the claim or non-architecture claim kind separately. |
-| **CC-C30-4 ArchitectureOf record.** | Architecture descriptions and views point through `ArchitectureOf@Context`; the described holon is recovered through `architectureClaimRef.describedHolonRef`. | Add `ArchitectureOf@Context` or split direct holon description from architecture-claim description. |
-| **CC-C30-5 DescriptionContext reuse.** | `ArchitectureDescription@Context` reuses `DescriptionContext` and existing DescriptionContext machinery; it does not redefine viewpoint or publication ontology. | Replace local fields with imported DescriptionContext fields, apply `C.30.AD` when the full architecture-description mechanism is being used, or assign the publication or view claim to E.17, A.6.3, or E.17.0. |
+| **CC-C30-1 Grounded architecture name.** | An FPF-governed use distinguishes actual subject relations and selected A.22 structure from candidate/expected content, identifies an obtaining `ArchitectureRelation` only when its predicate is satisfied, and gives every `ArchitectureClaim` one exact EntityOfConcern and effective reference scheme. It also names concern, admissible-use frame, and the source, description, view, representation, or publication role of inspected material. | Rewrite through `ArchitectureQuestionCard@Project`; recover the direct relation, retain modal content only in the claim, or demote the phrase to Plain recognition wording. |
+| **CC-C30-2 No `U.Architecture`.** | The pattern use does not mint or rely on a root `U.Architecture`. | Recover exact A.22 structure and the direct `ArchitectureRelation`, or keep candidate/expected content in a claim and assign any other claim to its owner. |
+| **CC-C30-3 EntityOfConcern and Description-episteme boundary plus specification-use separation.** | Actual subject relation, selected structure, `ArchitectureRelation`, claim, description, view, representation, publication occurrence/form/carrier, decision, evidence, and Work stay distinct. | Recover the exact object doing each job; a description, specification use, diagram, list, file, or publication creates no subject-side architecture fact. |
+| **CC-C30-4 Exact description subject.** | Every architecture description has one exact C.2.1 EntityOfConcern—holon, obtaining `ArchitectureRelation`, or selected structure—and effective `U.ReferenceScheme`; architecture-claim refs remain optional content or trace. | Recover the exact subject and scheme, or split the description from the bounded architecture claim. |
+| **CC-C30-5 View and publication boundary.** | The same description episteme is `U.View` only through an independently obtaining E.17.0 conformance relation to one exact viewpoint; representation, publication occurrence, form, carrier, and publication currentness remain separate. | Apply `C.30.AD`, `E.17.0`, C.29, and E.24.PUB to the exact objects; remove any view membership inferred from authoring, query, bundle, diagram, file, rendering, or publication. |
 | **CC-C30-6 Small output before heavy record.** | Ordinary use may stop at `ArchitectureQuestionCard@Project` when one next architecture move and governing-pattern application is clear. | Remove needless full-record expansion or explain which full-mode trigger is present. |
 | **CC-C30-7 Structure-kind boundary.** | Structural-view claims apply `C.30.ASV`; module, function, flow, control, work, evidence, scale, and decision claims do not collapse into C.30. | Name the structure kind, state the structural view if needed, or assign the claim to the governing pattern. |
 | **CC-C30-8 Characteristic assignment.** | Quality, measure, score, metric, modularity, and `ility` wording recovers its bearer and governing pattern before use. | Add `ArchitectureCharacteristicAssignment`, or narrow the sentence to ordinary non-FPF-governed recognition. |
@@ -59677,14 +59788,14 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Architecture-as-document** | The document, diagram, table, generated relation graph, or dashboard is called the architecture. | Recover publication form, description, view relation, or source relation and name `ArchitectureOf@Context` only when selected structure is being claimed. |
-| **Publication-unit architecture drift** | One publication unit mixes architecture description, evidence claim, gate decision state, decision note, and work authorization under one architecture heading. | Name the source architecture description or view, keep the publication face subordinate to E.17 and MVPK, and assign evidence, gate, decision, and work claims to the patterns governing those claims. Architecture remains the selected-structure claim, not the publication heading. |
+| **Architecture-as-document** | A document, diagram, table, generated relation graph, or dashboard is treated as the architecture or as what makes `ArchitectureRelation` obtain. | Recover the representation/publication objects, exact claim episteme, selected structure, and actual direct relation separately; a carrier creates none of their subject-side facts. |
+| **Publication-unit architecture drift** | One publication unit mixes architecture description, evidence claim, gate decision state, decision note, and work authorization under one architecture heading. | Name the exact `ArchitectureRelation` or modal `ArchitectureClaim` content, keep description/view and publication objects separate, and assign evidence, gate, decision, and work claims to their direct patterns. The publication heading creates no selected structure or subject-side relation. |
 | **Module-diagram takeover** | Architecture is reduced to module structure or interface relation. | Recover structure kind and use `C.30.ASV`; assign full module repair to the module-and-interface repair pattern when that claim kind is being made. |
 | **Tool-model lock-in** | A notation or tool model becomes the source of architecture truth. | Recover FPF architecture claim, structures, views, correspondence, and source-return condition. |
 | **Evidence laundering** | A published architecture description is used as evidence sufficiency. | Assign the evidence relation or evidence claim to `A.10` or `G.6`; C.30 keeps only the architecture claim, selected-structure, and conditional architecture-description-use boundary; the evidence relation stays with the evidence pattern. |
 | **Assurance or safety overread** | Architecture description or LCA diagram is used as assurance or safety case. | Assign the claim being made to `B.3`, `A.10`, `G.6`, `C.30.LCA`, or the safety-case or gate pattern governing the claim when that claim kind is being made. |
 | **Risk color as architecture decision** | A red, yellow, or green risk cell, risk matrix, or maturity score decides the architecture move or resource-allocation priority. | Recover the structure kind under consideration, affected scope, loss, hazard, or threat path, source relation or grounding relation, characteristic scale, comparator, and gate pattern; architecture adequacy, evidence sufficiency, causal proof, assurance proof, resource-allocation reason, and gate-passage claims stay with their governing patterns. |
-| **Causal slogan** | Architecture property is said to cause a quality without a declared relation grounding. | Start with ArchitectureStructuralCharacteristicQBundleRelationLine; apply C.28, evidence, causal-use, or assurance pattern, or use ArchitectureCharacteristicQBundleRelationRecord only when evidence sufficiency, causal-use, assurance, or full relation-record use is being claimed. |
+| **Causal slogan** | Architecture property is said to cause a quality without a bounded claim or independently admitted relation grounding. | Start with `ArchitectureStructuralCharacteristicQBundleClaimLine`; apply C.28, evidence, causal-use, or assurance pattern, or use `ArchitectureCharacteristicQBundleClaim` when a durable bounded claim is needed. A direct relation appears only under its direct owner and only when it actually obtains. |
 | **Architecture-operation overread** | Replacing a block, module, layer, protocol, cache, memory path, or flow relation is treated as improvement by label alone. | Apply `C.30.STRAT` to source labels, then recover changed structure kind, preserved structure, lost structure, source relation, affected characteristic, and decision or evidence governing pattern. |
 | **Sterile compliance rewrite** | The text becomes well typed but no longer helps the practitioner act. | Restore `ArchitectureQuestionCard@Project`, a concrete next architecture move, or a named governing-pattern application. |
 
@@ -59692,26 +59803,26 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| Architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use names described holon, context, selected structure, and source, description, view, or publication role when the use has FPF-governed use. |
+| Actual architecture relations and modal architecture claims become separable from diagrams, publications, generated relation graphs, ADRs, module lists, and decisions. | A conforming use recovers actual subject relations, selected A.22 structure, direct-relation disposition, exact claim EntityOfConcern and effective reference scheme, and the source, description, view, representation, or publication role when relevant. |
 | The pattern enables first-principles architecture reasoning without forcing full measurement, synthesis, assurance, or decision machinery. | Some familiar architecture phrases become triggers for quick recovery rather than accepted claims. |
 | Functional, flow, control, module structure, interface relation, information structure, placement structure, scale structure, work structure, evidence relation, and declared logical structures can coexist without one structure kind swallowing the rest. | Structural-view adequacy is governed by `C.30.ASV`, so practitioners can require an explicit view application. |
 | C.29, E.18, LCA, module-and-interface repair, evidence, assurance, and gate patterns can supply source or reliance relations for architecture work without becoming architecture ontology. | Governing pattern applications are named by value whenever a source or reliance relation is used beyond C.30 architecture claim, selected-structure, or conditional description-use scope. |
 
 ### C.30:10 - Rationale
 
-Architecture is most useful in FPF when it stays close to selected structure over a holon and far away from document-as-architecture, graph-as-architecture, model-as-architecture, and decision-as-architecture collapses. The `ArchitectureOf@Context` record gives the selected structure a project-side claim handle without minting `U.Architecture`.
+Architecture is most useful in FPF when it stays close to actual selected structure over a holon and far away from document-as-architecture, graph-as-architecture, model-as-architecture, and decision-as-architecture collapses. The direct `ArchitectureRelation` keeps the exact holon and actual selected structure together without minting `U.Architecture`; an `ArchitectureClaim` gives practitioners a claim-bearing handle for affirmative, negative, unresolved, candidate, or expected content without substituting that episteme for the relation.
 
-C.30 and C.30.ASV establish an FPF architecture kernel: architecture as selected `EntityOfConcern` structure for a described holon, with Description epistemes and structural views, structure-kind discipline, correspondence and source-return boundaries, and characteristic-relation applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
+C.30 and C.30.ASV establish an FPF architecture kernel: actual subject relations first; exact selected A.22 structure; direct `ArchitectureRelation` to the described holon; separately constituted claim, description, viewpoint, and view epistemes; structure-kind discipline; correspondence and source-return boundaries; and characteristic-claim applications. They do not by themselves provide full measurement, synthesis, decision, causal proof, safety proof, or assurance.
 
 The small first card is deliberate. Architecture discussions often need one immediate architecture move: name the holon, choose the structure kind under consideration, recover a source, description, view, or publication role, assign an evidence or assurance claim to its governing pattern, or stop. A full architecture description is useful only when durable publication, cross-team use, comparison, regulated use, source reuse, or reliance-relation reuse is being made.
 
-The DescriptionContext structure also preserves plurality. The same architecture claim may have several descriptions and views; several publications may render one description; several source records may be source relations for a view with different validation boundaries. C.30 keeps those variants usable without turning any one publication form into the architecture.
+Exact episteme identity and direct view conformance also preserve plurality. The same holon, architecture-relation occurrence, or selected structure may be described by several independently identified epistemes; one episteme may conform to several exact viewpoints through distinct occurrences; several publications may render one description. C.30 keeps those variants usable without turning any publication form into architecture or any bundle/list into view membership.
 
 ### C.30:11 - SoTA-Echoing
 
 | Practice or source line | C.30 adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
-| ISO/IEC/IEEE 42010:2022 view, viewpoint, concern, and correspondence discipline | Adopt view, viewpoint, and correspondence discipline for architecture descriptions. | Ask for architecture claim, `DescriptionContext`, viewpoint or correspondence relation, and next architecture move before notation-specific records. | Reject tool, notation, or method-description lock-in; FPF holon, episteme, view, and publication split stays governing. |
+| FPF `C.2.1`, `A.22`, `C.30.AD`, and `C.30.ASV` multi-view architecture discipline | Current FPF separates actual subject relations, exact selected A.22 structure, direct `ArchitectureRelation`, bounded claim content, Description episteme, viewpoint, structural view, representation, publication, correspondence, grounding, and source return. | Ask whether the actual relation obtains or the content is modal, then choose the next architecture move before opening heavier description and view records. | A tool, notation, model-use structure, view, description, file, list, or publication creates none of the subject-side relation, structure, or truth facts by form. |
 | OMG SysML v2 and current MBSE traceability and model-consistency practice | Adapt model-view consistency and traceability as source-return and relation pressure when architecture description or traceability wording has FPF-governed use. | Use correspondence, source pins, description-reliance relations, and source-return conditions. | Reject model-as-architecture overread and tool dependence. |
 | SEI views-and-beyond lineage plus current multi-view practice | Keep module, component-and-connector, runtime interaction, allocation, and placement as separate view pressures. | Do not reduce architecture to module structure or interface relation; assign structural-view claims to `C.30.ASV`. | View taxonomies are lineage and comparison support, not a second FPF ontology. |
 | arXiv:2603.00601 code-space architecture relation-graph work and related code-agent architecture probing benchmarks | Adapt partial-observability probing, typed edge rules, component-boundary rules, invariant-field semantics, uncertainty or unexplored-region reporting, and probe-as-intervention warning. | A generated code relation graph can supply a source relation for an architecture description or structural view only with claim, source, uncertainty, relation semantics, and source return. | Do not mint `U.CodeSpace`; do not treat probe or benchmark output as architecture adequacy, evidence sufficiency, assurance, or release. |
@@ -59726,7 +59837,7 @@ Builds on: `A.1`, `A.22`, `E.24.PUB`, `C.30.P`, `C.2.1`, `A.6.3`, `A.7`, `E.10.D
 
 Coordinates with: `C.30.STRAT`, `C.30.ASV`, `A.6.F`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `E.17`, `C.32.P2S`, `C.32`, `C.32.PAD`, `C.32.ADR`, `C.32.ADA`, `C.33`, `C.34`, and `C.35` when problem-to-structure carry-through, candidate-set, architecture-decision, ADR-projection, decision-adequacy, structure-capture, preservation, or discovery-adequacy claim kinds are being made.
 
-Other claims stay with their governing patterns: `A.1` for the described holon, `A.22` for selected-structure EntityOfConcern, `E.24.PUB` for ontic-description and publication-form boundary, `C.30.STRAT` for stratification-wording and source-label repair, `C.30.ASV` for structural-view adequacy, `C.33` for captured and lost selected-structure adequacy plus source return, `C.34` for preservation or correspondence adequacy, `C.35` for generated or discovered carrier adequacy before C.32 admission, `E.18` for selected transformation-flow structure, path, and crossing discipline, `E.18.2` and `C.29` for mathematical graph descriptions and mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15.2` for WorkPlan, `A.15.5` for work-entry readiness, `A.15.1` for performed work, `C.11` for decisions, `E.11.PUR` for pattern-use recommendation, `E.10.MOVE` for move-like wording outside C.30 architecture-candidate use, `C.32.P2S` for the connected problem-to-structure architecturing flow, and `E.17` for publication. `C.30` governs the grounded architecture claim, selected structures, and the next admissible architecture candidate use.
+Other claims stay with their governing patterns: `A.1` for the described holon, `A.22` for selected-structure EntityOfConcern, `E.24.PUB` for ontic-description and publication-form boundary, `C.30.STRAT` for stratification-wording and source-label repair, `C.30.ASV` for structural-view adequacy, `C.33` for captured and lost selected-structure adequacy plus source return, `C.34` for preservation or correspondence adequacy, `C.35` for generated or discovered carrier adequacy before C.32 admission, `E.18` for selected transformation-flow structure, path, and crossing discipline, `E.18.2` and `C.29` for mathematical graph descriptions and mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15.2` for WorkPlan, `A.15.5` for work-entry readiness, `A.15.1` for performed work, `C.11` for decisions, `E.11.PUR` for pattern-use recommendation, `E.10.MOVE` for move-like wording outside C.30 architecture-candidate use, `C.32.P2S` for the connected problem-to-structure architecturing flow, and `E.17` for publication. `C.30` governs actual `ArchitectureRelation` occurrences, bounded `ArchitectureClaim` content, selected structures, and the next admissible architecture candidate use.
 
 ### C.30:End
 
@@ -59747,119 +59858,155 @@ Keep an architecture description useful without letting the description, view, d
 
 ### C.30.AD:0 - Use this when
 
-Use this pattern when an architecture description is the current EntityOfConcern: a durable description, multi-view description set, architecture documentation set, model set, generated architecture relation graph, view set, or specification-use record over one `ArchitectureOf@Context`.
+Use this pattern when current work must create, inspect, compare, reuse, or rely on a durable architecture-description episteme, a multi-view description set, a generated architecture-relation view, or a specification-use record. Open it only after the practitioner can name the exact described object: one holon, one obtaining `ArchitectureRelation` occurrence, or one exact selected `U.Structure`.
 
 Use `C.30.AD` when the practitioner needs to know:
 
-- which `ArchitectureOf@Context` claim the description is about;
+- which exact holon, architecture-relation occurrence, or selected structure each description episteme is about;
+- which architecture claim is being carried or inspected, without substituting that claim for the description's EntityOfConcern;
 - which selected structures or architecture structure kinds are described;
-- which views are used under which viewpoints;
-- which correspondences, source returns, freshness boundaries, or specification-use boundaries make the description usable;
+- which descriptions qualify as `U.View` under which exact `U.Viewpoint` epistemes and independently obtaining `EpistemeViewpointConformanceRelation` occurrences;
+- which cross-view correspondence claims, source-to-use paths, source-return conditions for stronger use, freshness boundaries, and specification-use boundaries make the description usable;
 - what the description can guide and which uses are non-admissible.
 
-**What goes wrong if missed.** A diagram, documentation set, generated relation graph, model card, ADR publication set, or architecture model starts acting as architecture, proof, gate, assurance, decision, work authorization, or release authorization by presentation alone.
+**What goes wrong if missed.** A diagram, documentation set, generated relation graph, model card, ADR publication set, file, or architecture model starts acting as architecture, selected structure, `U.View`, proof, gate, assurance, decision, work authorization, or release authorization by presentation alone.
 
-**What this buys.** The practitioner can keep one architecture description inspectable across views, viewpoints, selected structures, correspondences, publications, source returns, and direct governing-pattern applications.
+**What this buys.** The practitioner can keep architecture descriptions inspectable across exact subjects, views, viewpoints, selected structures, cross-view correspondence claims or separately governed relations, source-to-use paths, applicable source-return conditions, representations, publications, and direct governing-pattern applications.
 
 **First useful description-use output.** Write one `ArchitectureDescriptionUseCard@Project`:
 
 ```text
 ArchitectureDescriptionUseCard@Project:
-  architectureClaimRef:
-  describedHolonRef:
-  boundedContextRef:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureDescriptionProjectUseRelationRef?: U.RelationRef governed by the exact description-use or work-use pattern
+  architectureDescriptionRef?: U.EpistemeRef constrained to ArchitectureDescription
+  entityOfConcernRef: exactly one of (
+    describedHolonRef | architectureRelationOccurrenceRef | selectedStructureRef
+  )
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  architectureClaimRefs?: FinSet(U.EpistemeRef constrained to ArchitectureClaim)
+  claimScope?: U.ClaimScope, byValue
+  concernRefs?: FinSet(U.EntityRef)
+  modelUseStructureRef?: U.StructureRef
+  empiricalGroundingRelationRefs?: FinSet(U.RelationRef)
   descriptionPurpose:
-  selectedStructureRefs:
-  structureKindRefs:
-  viewpointRefs:
-  architectureStructuralViewRefs:
-  correspondenceRefs:
+  selectedStructureRefs: FinSet(U.StructureRef)
+  structureKindRefs: FinSet(ArchitectureStructureKindRef)
+  viewpointRefs?: FinSet(U.EpistemeRef constrained to U.Viewpoint)
+  architectureStructuralViewRefs?: FinSet(U.EpistemeRef constrained to ArchitectureStructuralView)
+  viewpointConformanceRelationRefs?: FinSet(EpistemeViewpointConformanceRelationRef)
+  correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef)
+  sourceToUsePathRefs?: FinSet(U.RelationRef)
   sourceReturnCondition?:
+  representationRefs?: FinSet(U.EntityRef)
+  publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef)
+  publicationFormRefs?: FinSet(U.EntityRef)
+  carrierRefs?: FinSet(U.EntityRef constrained to U.PresentationCarrier)
   specificationUseBoundary?:
   admissibleUse:
   nonAdmissibleUse:
   firstGoverningPatternApplication?:
 ```
 
-`@Project` guard: in this card name, `@Project` marks a project-side use card for first-pass triage or specification-use control. It is not `U.Project`, not a bounded context, not project authority, and not a part-whole relation. If one of those claims is current, use the governing project, context, authority, or part-whole pattern named by value.
+`@Project` is a compatibility and retrieval cue for a project-side use card. The suffix supplies no project identity, authority, context, viewpoint, parthood, or work occurrence. When one actual project matters, `projectWorkOccurrenceRef` identifies the composite `U.Work` recovered under `A.15.6`, and `architectureDescriptionProjectUseRelationRef` identifies the exact obtaining relation by which this description use concerns that work. Name that relation's direct governing pattern; the reference to work alone does not establish project locality.
 
-The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, viewpoint refs being used, admissible use, non-admissible use, and one remaining architecture candidate use or direct governing-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is being made.
+The card is a controlled first-pass slice, not an identity constructor. It can close ordinary use only when it names one exact EntityOfConcern, the effective `U.ReferenceScheme`, one usable description purpose, the selected structures and their structure-kind classifications, admissible use, non-admissible use, and one remaining architecture candidate use or direct governing-pattern application. If it calls the description a `U.View`, it also names the exact viewpoint episteme and the separately obtaining conformance relation. Expand to the fuller `ArchitectureDescription` record when cross-view correspondence, source use, a stronger-use source-return condition, freshness, specification use, regulated use, comparison, publication, representation, or project-side authority use is current.
 
 **Not this pattern when.**
 
-- If the current use is a grounded architecture claim or one first architecture question, use `C.30`.
+- If the current use is a grounded architecture claim, an obtaining `ArchitectureRelation`, or one first architecture question, use `C.30`.
 - If the current use is a selected structure or structural description outside architecture, use `A.22`.
-- If the current use is one architecture structural view, use `C.30.ASV`.
+- If the current use is one architecture structural view and its viewpoint-conformance test, use `C.30.ASV`.
 - If the current use is built-asset architecture-description, BIM, IFC, asset-information, digital-twin, or reference-designation specialization, use `C.30.AD.BA`.
 - If architecture or structure wording is still ambiguous, use `C.30.P`.
-- If the current use is only a publication face, publication form, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
+- If the current use is only a representation, publication occurrence, publication face, publication form, report, dashboard, file, carrier, source-expression relation, or publication-currentness relation, use `C.2.P`, `E.17`, `E.24.PUB`, or the direct representation, publication, or source-use pattern governing the claim.
 - If the description is being used as pattern-use recommendation, work-entry readiness, evidence, assurance, gate passage, decision, work authorization, causal-use claim, release authorization, deontic permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the direct pattern governing that claim to the claim being made.
 
 ### C.30.AD:1 - Problem frame
 
 Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, architecture transformation-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions are useful because they let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns; A.15 allocation-responsibility semantics apply only when a project role relation itself is being governed.
 
-The difficulty is that the description is not the architecture. The same architecture can have several descriptions. The same description set can contain several views. Each view is written from one viewpoint or concern-framed practice and can hide, lose, coarsen, or emphasize different structure. A view can describe functional structure, flow or transformation-flow structure, control structure, module or interface structure, placement structure, information custody, evidence-reuse relation, assurance relation, scale or coarsening relation, or another declared architecture-relevant structure.
+The difficulty is that a description is not the architecture, an obtaining architecture relation, or its selected structure. The same holon and architecture-relation occurrence can have several descriptions. A description set can contain several separately identified epistemes. One such episteme is a `U.View` only while an exact `EpistemeViewpointConformanceRelation` obtains between that same episteme and one exact viewpoint episteme. Each view can hide, lose, coarsen, or emphasize different structure. A view can describe functional structure, flow or transformation-flow structure, control structure, module or interface structure, placement structure, information custody, evidence-reuse relation, assurance relation, scale or coarsening relation, or another declared architecture-relevant structure.
 
 The first-minute practitioner can ask:
 
-- What `ArchitectureOf@Context` is this description about?
-- Which selected structures or structure kinds does this view describe?
-- Which viewpoint makes this view useful?
-- What correspondence connects this view to the architecture claim and other views?
-- When does source return to a source episteme, source view, or direct governing pattern for that claim become necessary?
+- What exact holon, obtaining `ArchitectureRelation` occurrence, or selected structure is this description episteme about?
+- What exact claim graph, one EntityOfConcern, and effective `U.ReferenceScheme` keep that episteme identifiable?
+- Which selected structures or structure kinds does this description carry?
+- Which exact viewpoint episteme and conformance relation, if any, make this same episteme a `U.View`?
+- What correspondence connects this description to architecture claims and other view epistemes without inventing a subject relation?
+- Which source episteme, source view, representation, or publication enters this use through which source-to-use path, and what stronger use would activate a source-return condition?
 - What admissible architecture move remains after the description has been used?
 
 ### C.30.AD:2 - Problem
 
 How can FPF govern architecture descriptions without:
 
-- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication, publication form, or rendering as the architecture itself;
-- treating all architecture documentation as one generic description with no selected-structure recovery;
-- losing the link between a viewpoint and the architecture structure kind being described;
+- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication occurrence, publication form, carrier, or rendering as the architecture, an obtaining relation, or a selected structure;
+- treating all architecture documentation as one generic description with no exact EntityOfConcern or selected-structure recovery;
+- granting `U.View` membership because an episteme was authored, constructed, queried, selected, bundled, diagrammed, or published;
+- losing the link between one exact viewpoint episteme, the five-part conformance predicate, and the architecture structure kind being described;
 - letting one attractive view hide lost structure, stale source, or missing correspondence;
-- letting publication quality become evidence sufficiency, assurance, gate passage, decision claim, work completion, or release authorization;
+- letting publication quality become empirical grounding, evidence sufficiency, assurance, gate passage, decision claim, work completion, or release authorization;
 - making ordinary architecture triage too heavy for a first useful architecture move.
 
 ### C.30.AD:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Useful description vs architecture overread | A good description guides architecture work, but it is not the architecture, selected structure, decision claim, proof, or release authorization. |
-| Multi-view richness vs selected-structure recovery | Several views can be needed, but each view names the architecture claim, viewpoint, selected structure or structure kind, and admissible use before it is relied on. |
-| Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints help a role or practice inspect an architecture; they do not choose the structure kind unless `C.30.ASV` or another governing structural-view pattern names the structure-kind relation by value. |
-| Reuse vs freshness | A reused architecture description needs source edition, structure edition, or source-return boundaries when its admissible use depends on currentness. |
-| Specification-use vs publication form | A description can be used as a specification, but specification use is a use boundary over a Description episteme or its publication form, not the architecture itself. |
-| Thin C.30 bridge vs full description mechanism | C.30 keeps the architecture move central; this pattern carries the heavier architecture-description mechanism when durable description use is being made. |
+| Useful description vs architecture overread | A good description guides architecture work, but it is not the architecture, an obtaining `ArchitectureRelation`, selected structure, decision claim, proof, or release authorization. |
+| Multi-view richness vs exact episteme identity | Several descriptions can be needed, but each keeps its exact claim graph, one EntityOfConcern, and effective `U.ReferenceScheme`; a description set does not blur those identities. |
+| Viewpoint utility vs automatic view membership | A viewpoint helps a role or practice inspect an architecture, but only the independently obtaining E.17.0 conformance relation makes the same episteme a `U.View`; a viewpoint label or bundle does not. |
+| Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints do not choose the selected structure kind; `C.30.ASV` or another governing structural-view pattern keeps viewpoint conformance and structure-kind recovery separate. |
+| Reuse vs freshness | A reused architecture description names its source-to-use path and applicable source or structure edition. A source-return condition is added only when stronger use must return to a named source or governing pattern. |
+| Specification-use vs representation and publication | A description can be used as a specification, but specification use is a bounded use of an episteme or publication; it is not the diagram, publication occurrence, publication form, carrier, architecture, or project Work. |
+| Thin C.30 bridge vs full description mechanism | C.30 keeps the obtaining architecture relation and selected structure central; this pattern carries the heavier description mechanism when durable description use is being made. |
 
 ### C.30.AD:4 - Solution
 
-Use `ArchitectureDescription@Context` when the current EntityOfConcern is the description episteme or specification-use record over one `ArchitectureOf@Context`. The described holon is recovered through `ArchitectureOf@Context.describedHolonRef`; the `DescriptionContext.EntityOfConcernRef` for the architecture description points to the architecture claim record.
+Use `ArchitectureDescription` when current work must create, inspect, or rely on a C.2.1 `U.Episteme` about exactly one architecture-side EntityOfConcern: one holon, one obtaining `ArchitectureRelation` occurrence, or one exact selected `U.Structure`. The episteme keeps the C.2.1 identity triple `<exact ClaimGraph, one exact EntityOfConcern, effective U.ReferenceScheme>`. An `ArchitectureClaim` can be cited as carried claim content or trace, but the claim record is not automatically the description's EntityOfConcern and does not replace the described subject.
 
-`C.30.AD` does not mint `U.Architecture`, does not redefine `U.Viewpoint`, and does not replace generic Description, view, publication, or publication-form machinery. It specializes those records for architecture descriptions whose views remain tied to selected architecture-relevant structures.
+Keep `ClaimScope`, empirical grounding, concern, viewpoint, view membership, selected model-use structure, representation, publication occurrence, publication form, carrier, project Work, and project-use relation outside that identity triple. Add each only when it independently applies. `modelUseStructureRef` is optional and appears only when an actually selected DDD model-use structure changes interpretation or selection.
+
+`C.30.AD` does not mint `U.Architecture`, does not redefine `U.Viewpoint`, and does not replace generic Description, view, representation, publication, or publication-form machinery. It specializes those objects for architecture-description use while keeping every selected architecture-relevant structure directly recoverable.
 
 Built-asset architecture-description, BIM, IFC, asset-information, digital-twin, and ISO/IEC 81346 reference-designation detail is governed by `C.30.AD.BA`. C.30.AD keeps the general architecture-description bridge and does not absorb that built-asset specialization.
 
 #### C.30.AD:4.1 - Architecture-description record
 
 ```text
-ArchitectureDescription@Context ::= {
-  architectureDescriptionId: ArchitectureDescriptionId,
-  architectureClaimRef: ArchitectureOf@ContextRef,
-  descriptionContext: DescriptionContext(
-    EntityOfConcernRef = architectureClaimRef,
-    BoundedContextRef = ArchitectureOf@Context.boundedContextRef,
-    ViewpointRef = primaryViewpointRef?
+ArchitectureDescription ::= U.Episteme & {
+  architectureDescriptionRef: U.EpistemeRef,
+  claimGraph: exactly one C.2.1 ClaimGraph,
+  entityOfConcernRef: exactly one of (
+    describedHolonRef | architectureRelationOccurrenceRef | selectedStructureRef
   ),
-  describedHolonRef: U.HolonRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+
+  architectureClaimRefs?: FinSet(U.EpistemeRef constrained to ArchitectureClaim),
   selectedStructureRefs: FinSet(U.StructureRef),
   structureKindRefs: FinSet(ArchitectureStructureKindRef),
-  architectureStructuralViewRefs: FinSet(ArchitectureStructuralViewRef),
-  correspondenceRefs: FinSet(CorrespondenceRef),
+
+  claimScope?: U.ClaimScope, byValue,
+  concernRefs?: FinSet(U.EntityRef),
+  modelUseStructureRef?: U.StructureRef,
+  empiricalGroundingRelationRefs?: FinSet(U.RelationRef),
+
+  architectureStructuralViewRefs?: FinSet(U.EpistemeRef constrained to ArchitectureStructuralView),
+  viewpointConformanceRelationRefs?: FinSet(EpistemeViewpointConformanceRelationRef),
+  descriptionSetUseClaimRefs?: FinSet(U.EpistemeRef),
+  correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef),
+
   sourceEpistemeRefs?: FinSet(U.EpistemeRef),
   sourceViewRefs?: FinSet(U.ViewRef),
+  sourceToUsePathRefs?: FinSet(U.RelationRef),
   sourceReturnCondition?,
-  freshnessCueRefs?: FinSet(ArchitectureDescriptionFreshnessCueRef),
+  freshnessClaimRefs?: FinSet(U.EpistemeRef),
+
+  representationRefs?: FinSet(U.EntityRef),
+  publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef),
+  publicationFormRefs?: FinSet(U.EntityRef),
+  carrierRefs?: FinSet(U.EntityRef constrained to U.PresentationCarrier),
   specificationUseBoundary?,
   publicationUseBoundary?,
   admissibleUse,
@@ -59867,61 +60014,68 @@ ArchitectureDescription@Context ::= {
 }
 ```
 
-`describedHolonRef` is a recoverable field copied from the referenced `ArchitectureOf@Context`; it is not the architecture description's `DescriptionContext.EntityOfConcernRef`.
+The record identifies one episteme, not a document container. Its one `entityOfConcernRef` is supplied directly and is never derived merely from an architecture-claim field. When the EntityOfConcern is an architecture-relation occurrence or selected structure, participant traces can still recover its holon without changing episteme identity. `architectureClaimRefs` carries relevant claim content or trace only. `selectedStructureRefs` names the architecture-relevant structures described by the claim graph, while `structureKindRefs` classifies those structures.
 
 Minimum conformance for the record:
 
-- `architectureClaimRef` names one `ArchitectureOf@Context`;
-- `selectedStructureRefs` or `structureKindRefs` name the architecture-relevant structures being described;
-- every architecture structural view names its viewpoint and selected structure or structure kind;
-- `correspondenceRefs` or a source-return condition is present when cross-view or source reuse is being made;
+- the exact claim graph, one exact EntityOfConcern, and effective `U.ReferenceScheme` are all present;
+- actual architecture-relation references identify independently obtaining `ArchitectureRelation` occurrences; required, desired, expected, candidate, unresolved, or negative architecture content stays claim content;
+- `selectedStructureRefs` names the architecture-relevant structures being described, and `structureKindRefs` classifies those selected structures;
+- any cited `ArchitectureStructuralView` is the same description episteme admitted as `U.View` only by a separately obtaining E.17.0 conformance relation to one exact viewpoint episteme;
+- cross-view composition uses explicit description-set use claims, correspondence claims, or separately governed obtaining relations; source use names source-to-use paths; a source-return condition appears only when stronger use requires return to a named source or governing pattern;
+- representation and publication fields identify their own objects and occurrences; they do not establish the description, architecture, selected structure, view membership, empirical grounding, or truth;
 - `admissibleUse` and `nonAdmissibleUse` say what the description can and cannot carry.
 
 #### C.30.AD:4.1a - Traceable architecture multi-view description chain
 
-A full architecture description is traceable only when the reader can recover the chain that makes a view useful without turning the view into the architecture. The chain is a trace requirement, not a prescribed method or work plan:
+A full architecture description is traceable only when the reader can recover the chain that makes a view useful without turning the view into the architecture or letting a list create view membership. The chain is a trace requirement, not a prescribed method or work plan:
 
 ```text
 workingConcernRef
-  or A15AllocationResponsibilityFamilyRef when A.15 allocation-responsibility semantics apply
--> viewpointRef
--> selectedStructureRef or structureKindRef
--> ArchitectureOf@ContextRef
--> ArchitectureStructuralView@ContextRef governed by C.30.ASV
--> ArchitectureDescription@ContextRef governed by C.30.AD
--> sourceEpistemeRef or sourceViewRef when source use is being made
--> PublicationUnitRef, publication face, or publication form only when published
--> correspondenceRef or sourceReturnCondition when cross-view or source reuse is being made
+-> exact viewpoint episteme
+-> independently obtaining EpistemeViewpointConformanceRelation
+-> the same ArchitectureDescription episteme admitted as U.View
+-> exact entityOfConcernRef
+-> selectedStructureRef and, when actual, ArchitectureRelationOccurrenceRef
+-> optional ArchitectureClaimRef
+-> ArchitectureDescriptionUseCard or multi-view description-set use claim
 -> admissibleArchitectureMove or governing-pattern application
 ```
 
-`E.17.0` carries the generic multi-view Description machinery. `C.30.ASV` carries the selected-structure-kind-to-view relation and view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which architecture claim the description is about, which structural views it uses, what correspondence or source return keeps the use honest, and which architecture move or governing pattern remains admissible.
+When allocation-responsibility semantics are current, the direct A.15 relation joins the working concern. When a source episteme or source view is used, a source-to-use path joins it to the view or description. Representation adds its own representation relation or object. Publication adds a publication occurrence with its form and carrier kept distinct. Cross-view use adds a correspondence claim or a direct correspondence relation only under its own admitted owner. A source-return condition is added only when a stronger use must return from a derivative or reused expression to a named source or governing pattern.
 
-If any link in the chain is absent, do not fill it with a documentation label. Either add the missing reference, reduce the admissible use, or apply the governing pattern that can recover the missing relation.
+`E.17.0` carries the generic viewpoint-conformance test and the rule that the same episteme is a `U.View` iff the direct relation obtains. `C.30.ASV` carries selected-structure and architecture-view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which exact objects each description is about, which structural views it uses, which correspondence claims or relations connect them, which source-to-use paths support source use, which stronger uses activate a source-return condition, and which architecture move or governing-pattern application remains admissible.
+
+If any link in the chain is absent, do not fill it with a documentation label, query result, bundle membership, diagram, file, or publication. Either add the missing exact reference or independently obtaining relation, reduce the admissible use, or apply the governing pattern that can recover it.
 
 #### C.30.AD:4.2 - View membership, viewpoint, and structure-kind binding
 
-Architecture descriptions can contain several `ArchitectureStructuralView@Context` records. Each such view remains governed by `C.30.ASV`; C.30.AD does not mint a second structural-view record and does not decide whether the view has the right structure kind, viewpoint, hidden or lost structure note, correspondence, or source return.
+An architecture description episteme is not a `U.View` because it is put in a multi-view set, authored under a viewpoint label, constructed by A.6.3, returned by a query, selected, bundled, diagrammed, rendered, or published. First identify the candidate episteme by its C.2.1 identity. Then identify one exact viewpoint episteme and test the fixed five-part E.17.0 predicate. Only a separately obtaining `EpistemeViewpointConformanceRelation(candidateEpisteme, exactViewpoint)` admits that same episteme as `U.View`.
 
-C.30.AD records only membership or use of an already recoverable architecture structural view inside one architecture description:
+When a receiving use needs one multi-view description set, recover an exact collection of independently identified description epistemes under `C.13`; set membership is ordinary collection membership. A shared file, bundle, heading, graph, publication, or query result neither identifies that collection nor grants `U.View` membership. The collection keeps no second episteme identity for its members.
+
+`C.30.AD` can record use of already recoverable architecture structural views inside one description set without minting a local relation kind:
 
 ```text
-ArchitectureDescriptionViewMembership@Context ::= {
-  architectureDescriptionRef: ArchitectureDescriptionRef,
-  architectureStructuralViewRef: ArchitectureStructuralViewRef,
-  architectureClaimRef: ArchitectureOf@ContextRef,
-  membershipPurpose:
-    orientation | comparison | implementationGuidance |
-    assuranceInput | sourceReturn | declaredOther,
-  correspondenceRefs?: FinSet(CorrespondenceRef),
-  sourceReturnCondition?,
-  admissibleUse:
-  nonAdmissibleUse:
+ArchitectureDescriptionViewUseClaim ::= U.Episteme & {
+  claimGraph: {
+    architectureDescriptionSetRef,
+    usedArchitectureStructuralViewRef,
+    usePurpose:
+      orientation | comparison | implementationGuidance |
+      assuranceInput | sourceUse | strongerUseReturn | declaredOther,
+    correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef),
+    sourceToUsePathRefs?: FinSet(U.RelationRef),
+    sourceReturnCondition?,
+    admissibleUse,
+    nonAdmissibleUse
+  },
+  entityOfConcernRef: exactly one architectureDescriptionSetRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
 }
 ```
 
-Use `C.30.ASV` when the current question is whether the view has the right structure kind, viewpoint, hidden or lost structure note, correspondence, or source return. Use `A.22` when the current question is structure as such. Use `C.30` when the current question is the grounded architecture claim. Use `C.30.AD` only for the description's membership, composition, correspondence, source-return, freshness, specification-use, publication-use, or remaining architecture candidate-use boundary.
-
+The use claim does not grant `U.View` membership and does not make its view, set, viewpoint, or selected structure obtain. Each `usedArchitectureStructuralViewRef` must already identify the same description episteme whose exact E.17.0 conformance relation obtains. Use `C.30.ASV` when the current question is whether the episteme has the right selected structure, structure kind, exact viewpoint, conformance relation, hidden or lost structure note, source-to-use path, or source-return condition activated by stronger use. Use `A.22` when the current question is structure as such. Use `C.30` when the current question is an obtaining architecture relation or grounded architecture claim. Use `C.30.AD` only for description identity, description-set use, cross-view correspondence, source use, an applicable source-return condition, freshness, specification use, publication use, or the remaining architecture candidate-use boundary.
 Common architecture-description views:
 
 | View use | Required FPF application |
@@ -59931,78 +60085,97 @@ Common architecture-description views:
 | Control or LCA view | `C.30.LCA` when a control structure view is being used. |
 | Module or interface view | `A.6.M`, signature or interface patterns, and `C.30.ASV` when module-interface structure is being used. |
 | Mathematical-lens view | `C.29` for lens-use result and preserved and lost structure; `C.30.AD` only for the architecture-description use of the lens result. |
-| Boundary, interface, or Markov-blanket view | `A.1`, `A.6.RSIR`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.F`, `C.26`, `C.26.3`, and `C.29` according to the recovered claim; `A.6.B` only when the recovered object is L, A, D, or E statement classification inside a boundary package; `C.30.AD` records only the architecture-description membership, use boundary, correspondence, source return, freshness, or publication use. |
+| Boundary, interface, or Markov-blanket view | `A.1`, `A.6.RSIR`, `A.6.P`, `A.6.0`, `A.6.5`, `A.6.M`, `A.6.F`, `C.26`, `C.26.3`, and `C.29` according to the recovered claim; `A.6.B` only when the recovered object is L, A, D, or E statement classification inside a boundary package. `C.30.AD` records only exact description identity, description-set use, cross-view correspondence, source-to-use path when a source is used, an applicable stronger-use return condition, freshness, representation, or publication use. |
 | Evidence or assurance reuse view | `A.10`, `B.3`, or assurance or evidence pattern governing the claim for the non-architecture claim. |
-| Architecture residual view | `C.30.ILC` when the view is about a cross-scope or interlevel architecture residual. If the view uses conflict wording or frustration wording, C.30.AD records only membership, correspondence, and source return; C.30.ILC governs the residual. |
+| Architecture residual view | `C.30.ILC` governs a cross-scope or interlevel architecture residual. C.30.AD records only the residual view's exact episteme identity, conformance, description-set use, correspondence to other views, and declared use boundary; source-use relations are added only when such a source is actually used. |
 | Multilevel-learning or frustration mathematical-lens view | `C.29` when the view contains a recoverable level mapping or scale mapping and preserved structure and lost structure; `C.30.AD` records only the architecture-description use of that lens result. |
-| Residual-reducing candidate or optimization view | `C.32.MLAO` for the residual-reducing multilevel candidate frame; `C.32` for the candidate architecture palette; `A.19.CPM` or `A.19.SelectorMechanism` for comparison or selector-policy use; `C.18` and `C.19` for archive, front, or current-pool treatment; `G.5` only for selected-set publication; `C.11` only for final local choice. C.30.AD records only description membership, correspondence, source return, freshness, publication use, or specification use. |
+| Residual-reducing candidate or optimization view | `C.32.MLAO` governs the residual-reducing multilevel candidate frame; `C.32` governs the candidate architecture palette; `A.19.CPM` or `A.19.SelectorMechanism` governs comparison or selector-policy use; `C.18` and `C.19` govern archive, front, or current-pool treatment; `G.5` governs selected-set publication; `C.11` governs final local choice. C.30.AD records only exact description identity, description-set use, cross-view correspondence, source-to-use path when used, an applicable source-return condition, freshness, representation, publication use, or specification use. |
 
-#### C.30.AD:4.3 - Correspondence and source return
+#### C.30.AD:4.3 - Cross-view correspondence, source use, and return conditions
 
-Architecture descriptions become risky when a reader cannot tell whether two views describe the same architecture claim, the same selected structure, related structures, or different entities of concern. Use correspondence records or source-return conditions when the description is reused across viewpoints, source editions, tool outputs, generated views, or regulated use.
+Architecture descriptions become risky when a reader cannot tell whether two view epistemes concern the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different EntitiesOfConcern. A description set therefore carries explicit correspondence claims or references an independently admitted direct correspondence relation. Merely placing two views in one file, model, list, or publication creates neither correspondence nor shared identity. Use source-to-use paths when source epistemes, views, generated outputs, representations, or publications enter current use. Add a source-return condition only when stronger use requires return from a derivative or reused description to a named source or governing pattern.
 
 ```text
-ArchitectureDescriptionCorrespondence@Context ::= {
-  architectureDescriptionRef:
-  architectureClaimRef:
-  fromViewRef:
-  toViewRef:
-  correspondenceKind:
-    sameArchitectureClaim | sameSelectedStructure |
-    refinement | abstraction | projection |
-    sourceDerived | conflict | declaredOther,
-  preservedStructureRefs?:
-  lostStructureRefs?:
-  sourceReturnCondition?:
-  admissibleUse:
-  nonAdmissibleUse:
+ArchitectureDescriptionCorrespondenceClaim ::= U.Episteme & {
+  claimGraph: {
+    architectureDescriptionSetRef,
+    fromViewRef,
+    toViewRef,
+    correspondenceKind:
+      sameDescribedHolon | sameArchitectureRelationOccurrence |
+      sameSelectedStructure | refinement | abstraction | projection |
+      sourceDerived | conflict | declaredOther,
+    preservedStructureRefs?,
+    lostStructureRefs?,
+    directCorrespondenceRelationRefs?: FinSet(U.RelationRef),
+    sourceToUsePathRefs?: FinSet(U.RelationRef),
+    sourceReturnCondition?,
+    admissibleUse,
+    nonAdmissibleUse
+  },
+  entityOfConcernRef: exactly one architectureDescriptionSetRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
 }
 ```
 
-Correspondence is not proof, assurance, or gate passage. It is a relation that lets a reader use more than one architecture view without silently changing the EntityOfConcern.
+This local record is claim content and does not itself instantiate a world-side correspondence relation. A `directCorrespondenceRelationRef` is affirmative only when that relation's own governing pattern admits it and the occurrence independently obtains. Correspondence is not proof, empirical grounding, assurance, gate passage, shared EntityOfConcern, or architecture identity; it lets a reader use more than one view without silently changing what each episteme is about.
 
 #### C.30.AD:4.4 - Freshness and currentness boundary
 
-Use a freshness cue only when the architecture description's admissible use depends on source edition, structure edition, model version, deployment context, or external condition.
+Use a freshness claim only when the architecture description's admissible use depends on source edition, structure edition, model version, deployment state, or an external condition. Keep this bounded claim distinct from any publication-currentness relation:
 
 ```text
-ArchitectureDescriptionFreshnessCue:
-  sourceEditionRefs:
-  structureEditionRefs?:
-  modelOrToolEditionRefs?:
-  knownRefreshTrigger:
-    sourceChange | deploymentChange | interfaceChange |
-    controlRateChange | modelEditionChange | evidenceDecay |
-    toolApiChange | regulatoryChange |
-    incidentFinding | declaredOther | unknown,
-  admissibleUseUntil?:
-  sourceReturnCondition:
+ArchitectureDescriptionFreshnessClaim ::= U.Episteme & {
+  claimGraph: {
+    sourceEditionRefs,
+    structureEditionRefs?,
+    modelOrToolEditionRefs?,
+    knownRefreshTrigger:
+      sourceChange | deploymentChange | interfaceChange |
+      controlRateChange | modelEditionChange | evidenceDecay |
+      toolApiChange | regulatoryChange |
+      incidentFinding | declaredOther | unknown,
+    admissibleUseUntil?,
+    sourceReturnCondition?
+  },
+  entityOfConcernRef: exactly one ArchitectureDescriptionRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
+}
 ```
 
-Freshness does not make the description evidence-sufficient. It only bounds the use of the description.
+A freshness claim carries a source-return condition only when a stronger use must return to a named source or governing pattern. It does not make the description empirically grounded, evidence-sufficient, true, or publication-current; it only bounds current use of the exact description episteme under the stated scheme.
 
 #### C.30.AD:4.5 - Specification-use and publication boundary
 
-An architecture description can be used as a specification only when that use is declared. Specification use is not a new architecture kind; it is a use boundary over a Description episteme or its publication.
+An architecture description can be used as a specification only when that use is declared. Specification use is not a new architecture kind; it is a bounded use of an exact description episteme or of one of its publications.
 
 ```text
 ArchitectureDescriptionSpecificationUse@Project ::= {
-  architectureDescriptionRef:
-  sourceEpistemeRef | sourceViewRef,
-  publicationUnitRef?:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work,
+  architectureDescriptionProjectUseRelationRef?: U.RelationRef governed by the exact specification-use or work-use pattern,
+  architectureDescriptionRef: U.EpistemeRef constrained to ArchitectureDescription,
+  sourceEpistemeRef?: U.EpistemeRef,
+  sourceViewRef?: U.ViewRef,
+  sourceToUsePathRefs?: FinSet(U.RelationRef),
+  representationRef?: U.EntityRef,
+  publicationOccurrenceRef?: EpistemePublicationRelationRef,
+  publicationFormRef?: U.EntityRef,
+  carrierRef?: U.EntityRef constrained to U.PresentationCarrier,
   governedUse:
     coordination | implementationGuidance | procurement |
     verificationPlanning | assuranceInput | releaseInput |
     declaredOther,
-  selectedNeighborPatternRef?:
+  directGoverningPatternRef?: U.EntityRef, referencing one U.MethodDescription,
   admissibleUse:
   nonAdmissibleUse:
 }
 ```
 
-If the specification use becomes pattern-use recommendation, work-entry readiness, evidence, assurance, gate passage, performed work, work authorization, decision claim, causal-use claim, or release authorization, apply the direct pattern governing that claim to the claim being made. The architecture description remains the description boundary, not the governing claim.
+The two project fields preserve the ordinary boundary: `projectWorkOccurrenceRef` identifies an actual composite `U.Work`; `architectureDescriptionProjectUseRelationRef` identifies a separately obtaining project-use relation under its direct owner. Neither a project label nor this use record creates that Work or relation.
 
-Publication forms, diagrams, model faces, files, cards, dashboards, and generated relation graphs remain publications, views, faces, source-current records, or renderings unless the source episteme and use boundary are explicit.
+If specification use becomes pattern-use recommendation, work-entry readiness, evidence, assurance, gate passage, performed work, work authorization, decision claim, causal-use claim, or release authorization, apply the direct pattern governing that claim to the claim being made. The architecture description remains the description boundary, not the governing claim.
+
+Keep the description episteme, its possible `U.View` membership, diagram or other representation, publication occurrence, publication form, and carrier distinct. Authoring, construction, querying, selection, bundling, rendering, filing, or publication creates none of the subject-side architecture relation, selected structure, description truth, empirical grounding, project Work, or project-use relation by itself.
 
 #### C.30.AD:4.6 - Direct governing-pattern applications
 
@@ -60026,108 +60199,109 @@ Publication forms, diagrams, model faces, files, cards, dashboards, and generate
 | Evidence, assurance, gate, work planning, performed work, local choice, project architecture decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15.2`, `A.15.1`, `C.11`, `C.32.PAD`, `C.28`, release or admissibility pattern, or governing pattern |
 
 #### C.30.AD:4.6a - Candidate, front, and selected-set description boundary
-Architecture-description material can also describe a project architecture decision or the source structure used by an ADR-like projection. Use `C.32.PAD` when the claim is the project architecture decision relation. Use `C.32.ADR` when the claim is publication projection of an architecture-decision description. Use `C.32.ADA` when the claim is adequacy of that decision for a declared use. C.30.AD keeps only architecture-description membership, correspondence, source return, freshness, publication use, and specification use.
 
-An architecture description may describe an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, pattern-use recommendation, work-entry readiness relation, work authorization, or deontic permission. Use `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32` for candidate architecture palettes, `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` only for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, `E.11.PUR` for recommended pattern use, `A.15.5` for work-entry readiness, and the A.15 family for planning or performed work.
+An architecture description can also carry claims about a project architecture decision or selected structures cited by an ADR-like publication. Use `C.32.PAD` for the project architecture decision relation, `C.32.ADR` for publication projection of an architecture-decision description, and `C.32.ADA` for adequacy of that decision for a declared use. C.30.AD keeps only the exact description identity, possible E.17.0 view conformance, description-set use claims, cross-view correspondence claims or governed relations, source-to-use paths when sources are used, applicable source-return conditions, freshness, representation, publication use, and specification use.
 
-For an architecture-description claim, record only description membership, view membership, viewpoint, correspondence, source return, freshness, publication use, and specification use. If the source claim only grounds a first architecture move, return to `C.30`. If it synthesizes alternatives, use `C.32` or `C.32.MLAO` according to the residual frame. If it changes which variants are archived, kept in a pool, compared, selected, published, locally chosen, or decided, return to the pattern that owns that relation.
+An architecture description may carry claim content about an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, pattern-use recommendation, work-entry readiness relation, work authorization, or deontic permission. Use `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32` for candidate architecture palettes, `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` only for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, `E.11.PUR` for recommended pattern use, `A.15.5` for work-entry readiness, and the A.15 family for planning or performed work.
+
+For an architecture-description claim, record exact episteme identity plus only the view conformance, description-set use, viewpoint, cross-view correspondence, source-to-use path, applicable stronger-use return condition, freshness, representation, publication use, and specification use that actually apply. If the current source claim only grounds a first architecture move, return to `C.30`. If it synthesizes alternatives, use `C.32` or `C.32.MLAO` according to the residual frame. If it changes which variants are archived, kept in a pool, compared, selected, published, locally chosen, or decided, return to the pattern that governs that relation.
 
 ### C.30.AD:5 - Archetypal Grounding (Worked Cases)
 
-
-
 | Case | C.30.AD treatment |
 | --- | --- |
-| "The architecture is documented in this view set." | The view set is an architecture description or publication set only if it names one `ArchitectureOf@Context`, selected structures, viewpoints, view refs, and admissible use. It is not the architecture itself. |
-| A transformation-flow graph expression is included in an architecture document. | Use `E.18` for graph, path, and crossing semantics and `C.30.TFS-REL` when the graph is used by architecture. `C.30.AD` records only the architecture-description use and source-return boundary. |
-| A model card claims deployment safety. | Use `C.30.AD` only if the card describes an architecture claim or structure view. Safety assurance uses `B.3`; evidence uses `A.10`; release uses `A.21`. |
-| A generated code-agent relation graph shows modules and calls. | Treat the graph as a generated view or source publication. Recover observed, inferred, and unknown relations; use `C.30.ASV` or `C.30.TFS-REL` only when an architecture structural view or flow relation is being used. |
-| A multi-view description set has functional, deployment, control, and evidence-reuse views. | Each view has an `ArchitectureDescriptionViewMembership@Context` line and a referenced `C.30.ASV` view record. Evidence-reuse claims do not stay inside C.30.AD. |
-| A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records the architecture-description chain and correspondence among views. `C.30.LCA` governs the control view; `A.10`, `G.6`, or `B.3` governs evidence or assurance; `A.15` is used only if allocation-responsibility semantics apply. |
-| A product-line platform document reuses module-interface, variability, and deployment views across products. | `C.30.AD` records which architecture claim and structural views the document uses, plus source-return conditions for product variation. `A.6.M` normalizes module-interface relations; `C.31.RSA` accounts reusable structure or bespoke residue only after structure refs and accounting frame are declared. |
-| A multi-view architecture description says local optimization at one declared holon level creates frustration in another. | `C.30.AD` records the description membership, correspondence, and source-return boundary. `C.30.ILC` governs the residual; `C.29` is used only if the description contains a recoverable level mapping or scale mapping with preserved structure and lost structure. |
-| An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the description or publication use of that comparison. Residual-reducing frames use `C.32.MLAO`; candidate palettes use `C.32`; comparison and selector-policy use `A.19.CPM` or `A.19.SelectorMechanism`; archives and fronts use `C.18` or `C.19`; selected-set publication uses `G.5`; final local choice uses `C.11`; measurement claims use their governing patterns. |
-| A review note, dashboard, or generated report describes gaps in an architecture description rather than the architecture itself. | The architecture description can be the EntityOfConcern for that second-description use; the second description is handled as a Description, view, source relation, publication face, review record, or evaluation record over that EoC. `C.30.AD` keeps the chain to the underlying `ArchitectureOf@Context` visible without treating the second description as the architecture, the residual, the decision, or the proof. |
+| "The architecture is documented in this view set." | Treat the set as a package of separately identified architecture-description epistemes only if each has an exact claim graph, one EntityOfConcern, and effective `U.ReferenceScheme`. A member is a `U.View` only with its exact viewpoint episteme and independently obtaining E.17.0 conformance relation. The set is not the architecture, relation occurrence, or selected structure. |
+| A transformation-flow graph expression is included in an architecture document. | Use `E.18` for graph, path, and crossing semantics and `C.30.TFS-REL` when the graph is used by architecture. `C.30.AD` records the exact description and its path from the source expression into that use; add a source-return condition only if a stronger use must return to the named source or governing pattern. The graph expression or rendering creates no actual transformation. |
+| A model card claims deployment safety. | Use `C.30.AD` only if the card publishes or represents a description episteme about an exact architecture-side object. Safety assurance uses `B.3`; evidence uses `A.10`; release uses `A.21`. |
+| A generated code-agent relation graph shows modules and calls. | Treat the graph as a generated representation or source publication. Recover observed, inferred, and unknown relations; use `C.30.ASV` or `C.30.TFS-REL` only when an exact architecture structural view or flow relation is being used. Generation and display establish neither relation occurrence nor view membership. |
+| A multi-view description set has functional, deployment, control, and evidence-reuse views. | Identify every description episteme separately, including its EntityOfConcern and scheme. Each cited view also names its exact viewpoint and obtaining conformance relation; an `ArchitectureDescriptionViewUseClaim` records set use without minting membership. Evidence-reuse claims do not stay inside C.30.AD. |
+| A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records exact description identities, view conformance, description-set use, and correspondence among views. `C.30.LCA` governs the control view; `A.10`, `G.6`, or `B.3` governs evidence or assurance; `A.15` is used only if allocation-responsibility semantics apply. |
+| A product-line platform document reuses module-interface, variability, and deployment views across products. | `C.30.AD` records exact description epistemes, architecture claims carried as content, structural views, and source-to-use paths for reused views. A source-return condition is added only when a product-specific use exceeds the declared reuse boundary. `A.6.M` normalizes module-interface claims and routes any proposed direct relation; `C.31.RSA` accounts reusable structure or bespoke residue only after structure refs and accounting frame are declared. |
+| A multi-view architecture description says local optimization at one declared holon level creates frustration in another. | `C.30.AD` records description-set use, correspondence, and each view's declared use boundary. `C.30.ILC` governs the residual; `C.29` is used only if the description contains a recoverable level mapping or scale mapping with preserved structure and lost structure. |
+| An architecture document compares residual-reducing candidate decompositions or optimization moves. | `C.30.AD` records only the exact description or publication use of that comparison. Residual-reducing frames use `C.32.MLAO`; candidate palettes use `C.32`; comparison and selector-policy use `A.19.CPM` or `A.19.SelectorMechanism`; archives and fronts use `C.18` or `C.19`; selected-set publication uses `G.5`; final local choice uses `C.11`; measurement claims use their governing patterns. |
+| A review note, dashboard, or generated report describes gaps in an architecture description rather than the architecture itself. | The exact architecture-description episteme can be the one EntityOfConcern for that second-description use. Govern the second description as its own `U.Episteme` and name any source-to-use, representation, publication, review, or evaluation relation directly. Keep the chain to the first description's exact EntityOfConcern visible without treating either description as architecture, residual, decision, or proof. |
 
 ### C.30.AD:5.1 - Bias-Annotation
 
 | Bias | How C.30.AD prevents it |
 | --- | --- |
-| Description-as-architecture bias | `ArchitectureDescription@Context` points to one `ArchitectureOf@Context`; the description does not become the architecture, selected structure, or described holon. |
-| View-as-structure bias | Every architecture structural view remains bound to `C.30.ASV` or another structure-governing pattern; C.30.AD records membership, correspondence, source return, and use boundary. |
-| Publication-as-authority bias | Publication form, dashboard polish, model-card form, or report label does not establish evidence, assurance, gate, decision, work-authorization, or release-authorization claims. |
-| Freshness-as-evidence bias | A freshness cue bounds admissible use; it does not make the description evidence-sufficient. |
-| Semio-bias in architecture work | C.30 remains centered on architecture as EntityOfConcern; C.30.AD opens only when the architecture description itself is the current EntityOfConcern. |
+| Description-as-architecture bias | `ArchitectureDescription` is a C.2.1 episteme about one exact holon, architecture-relation occurrence, or selected structure; it does not become that object or create it. |
+| View-as-structure bias | The same description episteme is a `U.View` only through an independently obtaining E.17.0 conformance relation to one exact viewpoint. `C.30.ASV` governs selected-structure adequacy; C.30.AD records description-set use and correspondence without minting membership. |
+| Publication-as-authority bias | Representation, publication occurrence, publication form, carrier, dashboard polish, model-card form, or report label does not establish description truth, empirical grounding, evidence, assurance, gate, decision, work authorization, or release authorization. |
+| Freshness-as-evidence bias | A freshness claim bounds admissible use; it does not make the description evidence-sufficient or publication-current. |
+| Semio-bias in architecture work | `C.30` governs obtaining architecture relations, exact selected structures, and architecture claims. `C.30.AD` opens when work must create, inspect, or rely on an exact description episteme with its own ClaimGraph, one EntityOfConcern, and effective `U.ReferenceScheme`. |
 
 ### C.30.AD:6 - Conformance checklist
 
-| Check | Requirement | Repair if failed |
+| Check | Condition to establish | Repair if failed |
 | --- | --- | --- |
-| **CC-C30AD-1 EntityOfConcern.** | The architecture description's `DescriptionContext.EntityOfConcernRef` points to one `ArchitectureOf@Context` claim record. | Add `architectureClaimRef` or use `C.30` until the architecture claim is recoverable. |
-| **CC-C30AD-2 Described holon recovery.** | The described holon is recovered through `ArchitectureOf@Context.describedHolonRef`, not by replacing the description EntityOfConcern with the holon. | Restore the strict description boundary and copy only the recoverable holon ref. |
-| **CC-C30AD-2a Traceable multi-view chain.** | The description use recovers the chain from working concern or A.15 allocation-responsibility family being used through viewpoint, selected structure or structure kind, architecture claim, ASV view, architecture description, source or publication use when source or publication use is being made, correspondence when used or source return when needed, and remaining admissible architecture move. | Add the missing reference, reduce the admissible use, or apply the governing pattern that can recover the missing relation. |
-| **CC-C30AD-3 Viewpoint and structure kind.** | Every architecture structural view names viewpoint and selected structure or structure kind. | Use `C.30.ASV` before relying on the view. |
-| **CC-C30AD-4 Correspondence and source return.** | Cross-view, generated-view, source-derived, reused, regulated, or comparison use names correspondence or source-return condition. | Add correspondence and source-return fields or reduce the admissible use. |
-| **CC-C30AD-5 Publication boundary.** | Publication face, publication form, diagram, dashboard, card, file, or rendering is not treated as architecture, decision claim, evidence, assurance, gate passage, performed work, work authorization, or release authorization. | Assign publication or source use to `C.2.P` or `E.17` and the non-architecture claim to the direct pattern governing that claim. |
-| **CC-C30AD-6 Specification-use boundary.** | Specification use is declared as use over a Description episteme or publication, with direct governing-pattern applications when it carries a non-description claim. | Add `ArchitectureDescriptionSpecificationUse@Project` or demote to ordinary description. |
-| **CC-C30AD-7 Remaining architecture candidate use.** | The bounded description still tells the practitioner what architecture move, view normalization, source return, or governing-pattern application remains. | Add the remaining architecture candidate use or reduce the text to source or publication use. |
+| **CC-C30AD-1 Episteme identity.** | Every architecture description has one exact claim graph, one exact EntityOfConcern—holon, obtaining `ArchitectureRelation` occurrence, or selected structure—and an effective `U.ReferenceScheme`. | Add the missing C.2.1 identity component or use `C.30`/`A.22` until the subject-side object is recoverable. |
+| **CC-C30AD-2 Subject and holon recovery.** | The one EntityOfConcern is supplied directly. If it is an architecture-relation occurrence or selected structure, its participant trace recovers the exact holon without copying that holon into description identity; architecture-claim refs remain optional content or trace. | Restore the exact EntityOfConcern and participant trace; remove derived identity from an optional architecture-claim field. |
+| **CC-C30AD-2a Traceable multi-view chain.** | The description use recovers working concern, exact viewpoint episteme, obtaining conformance relation, same episteme as `U.View`, one EntityOfConcern, selected structure, optional actual architecture relation, description-set use, and remaining admissible architecture move. When allocation responsibility, source use, representation, publication, cross-view correspondence, project use, or a source-return condition activated by stronger use is current, its direct object or relation is added separately. | Add the missing exact object or direct relation, reduce admissible use, or apply the governing pattern that can recover it. |
+| **CC-C30AD-3 Viewpoint and structure kind.** | Every asserted architecture structural view identifies the candidate episteme, exact viewpoint episteme, independently obtaining five-part E.17.0 conformance relation, selected structure, and structure kind. | Use `E.17.0` and `C.30.ASV` before relying on the view; a label, query, bundle, diagram, or publication is insufficient. |
+| **CC-C30AD-4 Correspondence and source use.** | Cross-view use names a correspondence claim or independently governed obtaining relation; source-derived or reused use names its source-to-use path; a source-return condition is present only when stronger use opens return to the named source or governing pattern. | Add the missing claim or direct relation, or narrow the admissible use. |
+| **CC-C30AD-5 Representation and publication boundary.** | Diagram, rendering, publication occurrence, publication form, dashboard, card, file, or carrier is not treated as architecture, selected structure, `U.View`, description truth, decision claim, evidence, assurance, gate passage, performed work, work authorization, or release authorization. | Assign representation, publication, or source use to `C.2.P`, `E.17`, `E.24.PUB`, or its direct owner and assign every non-description claim to its governing pattern. |
+| **CC-C30AD-6 Specification-use boundary.** | Specification use identifies the exact description episteme or publication. Actual project locality additionally names one composite `U.Work` and a separately obtaining project-use relation; direct governing-pattern applications remain explicit for non-description claims. | Add the exact description, Work, and direct use relation as applicable, or demote to ordinary description use. |
+| **CC-C30AD-7 Remaining architecture candidate use.** | The description under its declared use boundary still identifies the next architecture move, view normalization, source-to-use repair, applicable source-return condition, or governing-pattern application. | Add the remaining architecture candidate use or reduce the record to source, representation, or publication use. |
 
 ### C.30.AD:7 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Description-as-architecture | A document, diagram, model, graph, view set, or card is said to be the architecture. | Recover `ArchitectureOf@Context` and keep the source material as description, view, publication form, or source relation. |
-| Viewpoint-as-structure-kind | A stakeholder, role, concern, or viewpoint label is used as if it named the selected structure. | Use `C.30.ASV` to recover structure kind and viewpoint separately. |
-| Multi-view fog | Many views are listed, but no one can tell which selected structures they describe or how they correspond. | Add architecture claim ref, selected structure refs, viewpoint refs, correspondence refs, and source-return conditions. |
+| Description-as-architecture | A document, diagram, model, graph, view set, or card is said to be the architecture or to create an obtaining architecture relation. | Recover the exact holon, `ArchitectureRelation` occurrence, or selected structure; keep the episteme, representation, publication, and source-to-use relation distinct. |
+| Viewpoint-as-structure-kind or view constructor | A stakeholder, role, concern, viewpoint label, authoring template, query, or bundle is used as if it named the selected structure or granted `U.View` membership. | Use `E.17.0` for exact viewpoint conformance and `C.30.ASV` for selected structure and kind. |
+| Multi-view fog | Many views are listed, but no one can tell their separate C.2.1 identities, conformance relations, selected structures, or correspondence. | Add exact description and viewpoint refs, conformance refs, selected-structure refs, and correspondence claims or governed relations. |
 | Specification-as-authority | A specification-looking architecture description is used as performed work, gate passage, decision claim, assurance, evidence, work authorization, or release authorization. | Declare specification use and apply the direct pattern governing that claim to the claim being made. |
-| Freshness laundering | A recently generated diagram is treated as adequate because it is current. | Record source edition and refresh trigger; do not treat currentness as adequacy, evidence, or assurance. |
-| Architecture-documentation takeover | The pattern spends most of its practitioner guidance on diagrams, publications, and wording guards instead of architecture claim, selected structures, and views. | Keep C.30 centered on architecture and use C.30.AD only when the description itself is the EntityOfConcern. |
+| Freshness laundering | A recently generated diagram is treated as adequate because it is current. | Record the bounded freshness claim, source edition, and refresh trigger; do not treat currentness as adequacy, evidence, grounding, or assurance. |
+| Architecture-documentation takeover | The pattern spends most of its practitioner guidance on diagrams, publications, and wording guards instead of the architecture relation, selected structures, descriptions, and views. | Keep `C.30` centered on architecture and `C.30.AD` on exact description epistemes and their use; route representation and publication to their direct owners. |
 
 ### C.30.AD:8 - Consequences
 
 Positive consequences:
 
-- Architecture descriptions become reusable without pretending to be the architecture itself.
-- Multi-view work can keep viewpoints, views, selected structures, correspondences, source return, freshness, and specification use inspectable.
-- Description, publication, evidence, assurance, gate, decision, work, release, and mathematical-lens claims stay with separate governing patterns.
+- Architecture descriptions become reusable without pretending to be the architecture, an obtaining relation, or selected structure.
+- Multi-view work can keep each episteme identity, exact viewpoint conformance, selected structures, cross-view correspondence, source-to-use paths, applicable source-return conditions, freshness, representation, publication, and specification use inspectable.
+- Description, view membership, representation, publication, empirical grounding, evidence, assurance, gate, decision, Work, project use, release, and mathematical-lens claims stay distinct and return to their governing patterns.
 - C.30 can stay focused on architecture while C.30.AD carries the heavier description machinery.
 
 Costs:
 
-- A useful architecture document needs explicit links to `ArchitectureOf@Context`, selected structures, viewpoints, and admissible use.
-- Reused or regulated descriptions may need correspondence, source-return, and freshness fields before they can be relied on.
-- Familiar document forms lose implicit authority; evidence, assurance, gate, decision, and release claims must be established by their own patterns.
+- A useful architecture document needs explicit links to exact description epistemes, EntitiesOfConcern, effective schemes, selected structures, and admissible use.
+- A claimed view additionally needs the exact viewpoint episteme and independently obtaining E.17.0 conformance relation.
+- Reused or regulated descriptions may need correspondence refs, source-to-use paths, source and structure editions, applicable source-return conditions, and freshness claims before they can be relied on.
+- Familiar diagrams, files, and publication forms lose implicit authority; grounding, evidence, assurance, gate, decision, and release claims must be established by their own patterns.
 
 ### C.30.AD:9 - Rationale
 
-Architecture work needs descriptions, but architecture-description adequacy is not architecture adequacy. A description can guide architecture work only when its relation to the described architecture claim, selected structures, viewpoints, views, source material, publication form, and admissible use is recoverable.
+Architecture work needs descriptions, but architecture-description adequacy is not architecture adequacy. A description can guide architecture work only when its own C.2.1 identity and its relation to exact subject-side objects, selected structures, architecture claims, exact viewpoint conformance, other descriptions, source epistemes or views actually used, source-to-use paths, representation, publication, and admissible use are recoverable.
 
-The pattern therefore specializes generic Description and publication machinery for architecture use. It does not mint a new architecture kind, does not replace `C.30`, and does not let diagrams or documentation formats establish non-description claims by presentation alone.
+The pattern therefore specializes generic Description and publication machinery for architecture use. It does not mint a new architecture kind, direct subject relation, local view-membership relation, or second meaning of `U.View`; it does not replace `C.30`; and it does not let diagrams or documentation formats establish non-description claims by presentation alone.
 
 ### C.30.AD:10 - SoTA-Echoing
 
 | Practice or source line | Source-use relation and currentness | C.30.AD adoption | Action consequence | Boundary |
 | --- | --- | --- | --- | --- |
-| ISO/IEC/IEEE 42010:2022 architecture-description practice separates architecture description, concern, viewpoint, view, model kind, correspondence, and conformance. | Current international standard and reference source for architecture-description and viewpoint separation. | Adopt the separation of architecture claim, description, viewpoint, view, correspondence, and conformance-to-use; translate it into FPF `EntityOfConcern`, DescriptionContext, view, publication, and direct governing-pattern applications. | Disciplines `C.30.AD:4.1`, `C.30.AD:4.1a`, `C.30.AD:4.2`, `CC-C30AD-1`, `CC-C30AD-3`, and `CC-C30AD-4`: every architecture description names the architecture claim, selected structures, viewpoints and views, correspondence when used or source return when needed, and admissible use. | ISO terminology does not override FPF ontology and does not turn a view or publication into architecture, proof, decision claim, or release authorization. |
-| Views-and-Beyond and related architecture documentation practice treats views as stakeholder-relevant projections over architecture. | Mature reference and lineage source for view-based architecture documentation; not used as a mandatory current catalog. | Adopt view usefulness while requiring structure-kind recovery through `C.30.ASV` and description membership through `ArchitectureDescriptionViewMembership@Context`. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.2`, and the multi-view worked case: a view remains useful for a working concern without becoming the selected structure by label. | No mandatory view catalog is imported, and view adequacy remains in `C.30.ASV`. |
-| `E.17.0` and MVPK publication machinery in current FPF. | Current internal FPF governing machinery for multi-view Description epistemes, views, viewpoints, publication faces, and publication-form separation. | Reuse generic multi-view and publication machinery instead of minting architecture-local copies. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.5`, `CC-C30AD-5`, and `CC-C30AD-6`: architecture description composition remains separate from publication form, face, and source-current relation. | C.30.AD specializes architecture-description use; it does not replace E.17.0, E.17.1, E.17.2, E.17, or C.2.P. |
-| C4, arc42, ADR, model-card, and system-card practice makes architecture communication practical. | Current practitioner-source family for familiar architecture publication and documentation forms. | Admit these as possible source publications, view publications, decision-description publications, transparency publications, or specification-use records. | Disciplines `C.30.AD:4.5`, worked cases, and anti-patterns: practitioners can use familiar publication forms while keeping source, publication, description, architecture claim, evidence, gate, decision, work-authorization, release-authorization, and other non-description claims separate. | Template, card, graph, or diagram quality is not architecture adequacy by itself. |
-| Tool-generated architecture relation graphs and code-agent architecture probing expose useful but partial structure. | Current emerging practice and source-intake concern for generated relation views. | Treat generated graphs as source-derived views with observed, inferred, and unknown relation boundaries. | Disciplines `C.30.AD:4.3`, `C.30.AD:5`, and `CC-C30AD-4`: a generated view can guide structure recovery, source return, and next architecture moves. | Generated relation coverage does not become proof, gate passage, safety assurance, or complete architecture. |
+| FPF `C.2.1`, `A.22`, `E.17.0`, `C.30`, and `C.30.ASV` separate episteme identity, selected structures, direct architecture relations, architecture claims, and structural-view adequacy. | Current internal governing line for the exact objects used by this pattern. | Reuse these objects instead of importing a second architecture-description ontology. | Disciplines `C.30.AD:4.1`, `C.30.AD:4.1a`, `C.30.AD:4.2`, `CC-C30AD-1`, `CC-C30AD-3`, and `CC-C30AD-4`: every description has one exact EntityOfConcern and scheme; every asserted view has exact viewpoint conformance; correspondence and source use are explicit. | A description or view remains an episteme and does not become architecture, proof, decision, or release authority. |
+| Views-and-Beyond and related architecture documentation practice treats views as stakeholder-relevant projections over architecture. | Mature reference and lineage source for view-based architecture documentation; not used as a mandatory current catalog. | Adopt view usefulness while requiring exact E.17.0 viewpoint conformance and structure-kind recovery through `C.30.ASV`; description-set use remains claim content or a separately governed relation. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.2`, and the multi-view worked case: a view remains useful for a working concern without becoming the selected structure or a `U.View` by label. | No mandatory view catalog or local membership relation is imported, and view adequacy remains in `E.17.0` and `C.30.ASV`. |
+| `E.17.0` and MVPK publication machinery in current FPF. | Current internal FPF governing machinery for views, viewpoints, publication occurrences, forms, carriers, and publication separation. | Reuse generic view and publication machinery instead of minting architecture-local copies. | Disciplines `C.30.AD:4.1a`, `C.30.AD:4.5`, `CC-C30AD-5`, and `CC-C30AD-6`: architecture-description identity and composition remain separate from representation, publication occurrence, form, carrier, and publication-currentness. | C.30.AD specializes architecture-description use; it does not replace E.17.0, E.17.1, E.17.2, E.17, E.24.PUB, or C.2.P. |
+| C4, arc42, ADR, model-card, and system-card practice makes architecture communication practical. | Current practitioner-source family for familiar architecture publication and documentation forms. | Admit these as possible source publications, view publications, decision-description publications, transparency publications, or specification-use records. | Disciplines `C.30.AD:4.5`, worked cases, and anti-patterns: practitioners can use familiar forms while keeping source, representation, publication, description, architecture, evidence, gate, decision, work authorization, release authorization, and other non-description claims separate. | Template, card, graph, or diagram quality is not architecture adequacy by itself. |
+| Tool-generated architecture relation graphs and code-agent architecture probing expose useful but partial structure. | Emerging practitioner practice for recovering architecture-relevant relations from code, models, and generated analyses; currentness depends on the analyzed edition and tool run. | Treat generated graphs as representations or source-derived descriptions with observed, inferred, and unknown relation boundaries. | Disciplines `C.30.AD:4.3`, `C.30.AD:5`, and `CC-C30AD-4`: a generated output can guide structure recovery and next architecture moves only through a named source-to-use path; stronger use activates the declared source-return condition. | Generated relation coverage does not become an obtaining subject relation, `U.View`, proof, gate passage, safety assurance, or complete architecture. |
 
 ### C.30.AD:11 - Relations
 
-- `C.30` governs grounded architecture and selected-structure adequacy.
+- `C.2.1` governs the exact identity of every architecture-description episteme.
+- `C.30` governs obtaining architecture relations, selected-structure adequacy, and bounded architecture claims.
 - `C.30.P` normalizes overloaded architecture or structure wording before this pattern is used.
-- `C.30.ASV` governs architecture structural views and structure-kind and viewpoint separation.
+- `C.30.ASV` governs architecture structural-view adequacy, while `E.17.0` alone admits the same episteme as `U.View` through exact viewpoint conformance.
 - `C.33` governs capture and loss of selected structure when an architecture description, generated relation graph, ADR-like record, or view set carries only part of the architecture content for a declared use.
 - `C.34` governs preservation or correspondence adequacy when the architecture description is being compared with another view, source model, generated output, candidate, or realized structure.
-- `A.6.3.NAR` governs a reader-facing narrative rendering made from an architecture description, description set, view set, or architecture-decision route. C.30.AD remains the owner for architecture-description adequacy; NAR owns only the structure-to-sequence relation, selected-source carry-through, lost structure, reader-use boundary, and source return.
+- `A.6.3.NAR` governs a reader-facing narrative rendering made from an architecture description, description set, view set, or architecture-decision route. `C.30.AD` governs architecture-description adequacy; `A.6.3.NAR` governs only the structure-to-sequence relation, selected-source carry-through, lost structure, reader-use boundary, and applicable source-return condition.
 - `C.30.TFS-REL`, `C.30.LCA`, and `C.30.ILC` govern architecture structure-relation subcases named by value.
-- `C.32.P2S` governs the connected architecturing flow when the description carries only part of selected structure, decision handoff, method expectation, source-return, or actual-structure feedback.
-- `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, and `E.17` govern generic EntityOfConcern, Description, view, viewpoint, publication, and MVPK machinery.
-- `C.2.P` normalizes source-current and publication-form relation-set overreads.
+- `C.32.P2S` governs the connected architecturing flow when the description carries only part of selected structure, decision handoff, method expectation, source-to-use continuity, an applicable source-return condition, or actual-structure feedback.
+- `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, and `E.24.PUB` govern generic EntityOfConcern, view, viewpoint, representation, publication occurrence, form, carrier, and MVPK machinery.
+- `C.2.P` normalizes source-expression, source-to-use, publication-form, and publication-currentness relation-set overreads.
 - `E.11.PUR` governs recommended FPF pattern use after an architecture description has been read; C.30.AD only records the description-use boundary.
-- `A.15.5` governs work-entry readiness and full-kit condition for intended architecture work; C.30.AD only records description, view, correspondence, source-return, freshness, publication-use, and specification-use relations.
+- `A.15.5` governs work-entry readiness and full-kit condition for intended architecture work; the A.15 family governs Work and project-use relations. C.30.AD records only exact descriptions and their view conformance, description-set use, correspondence, source-to-use paths, applicable source-return conditions, freshness, representation, publication use, and specification use.
 - `E.10.MOVE` restores move-like wording when source prose about an architecture description does not mean a C.30 architecture move or a C.30.AD remaining architecture candidate use.
 
 ### C.30.AD:End
@@ -60136,196 +60310,261 @@ The pattern therefore specializes generic Description and publication machinery 
 
 > **Type:** Architecture-description subpattern under `C.30.AD`
 > **Status:** Stable
-> **Normativity:** Normative for built-asset architecture-description, asset-information, digital-twin, and reference-designation use.
+> **Normativity:** Normative for built-asset architecture-description, reference-designation, model-exchange, and digital-twin use
 
-**Builds on.** `C.30`, `C.30.AD`, `C.30.ASV`, `A.1`, `A.22`, `E.17`, `E.17.0`, `E.17.1`, `E.17.2`, `E.24.PUB`, and `A.7`.
+**Builds on.** `C.30`, `C.30.AD`, `C.30.ASV`, `A.1`, `A.22`, `C.2.1`, `E.17.0`, `E.17`, `E.24.PUB`, and `A.7`.
 
-**Coordinates with.** `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.29`, `C.16`, `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.28`, `C.27`, and `F.18`.
+**Coordinates with.** `A.6.P`, `A.6.RCD`, `A.6.REL`, `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.29`, `C.16`, `C.27`, `C.27.TA`, `C.28`, `A.3.4`, `A.10`, `G.11`, `A.15`, `A.15.1`, `A.15.5`, `A.21`, `A.2.8.PER`, `A.2.9`, `B.3`, and `F.18`.
 
-**Use this when.** Use this pattern when a BIM model, IFC exchange, asset register, dashboard, digital-twin view, handover table, maintenance information set, cost or energy view, or ISO/IEC 81346-style reference designation is used as an architecture description for a built asset.
+**Use this when.** Use this pattern when a BIM or IFC publication, asset-information description, reference designation, cost, schedule, operation, maintenance, sustainability, or energy view, or digital-twin description is being used to say something about the architecture of one exact built asset.
 
-**Not this pattern when.** If the current question is the architecture claim itself, use `C.30`. If the current question is the general architecture-description mechanism, use `C.30.AD`. If the current question is one structural view, use `C.30.ASV`. If the current question is selected structure as such, use `A.22`. If the current claim is evidence, assurance, decision, causal use, work, or gate passage, keep this pattern only for the built-asset description boundary and use the direct governing pattern.
+**What goes wrong if missed.** A rich model is treated as the asset or its architecture; a file or multi-view bundle is allowed to select structure or grant `U.View` membership; or a designation and a live data feed are asked to carry identity, occurrence, truth, and currentness claims that their direct relations do not establish.
 
-**What goes wrong if missed.** A BIM model, asset register, dashboard, digital-twin view, or reference designation starts acting as the built asset, architecture, evidence, assurance, gate, work, or decision.
+**What this buys.** An engineer can use current built-asset information systems while keeping the physical asset, actual subject relations, exact selected structures, any obtaining `ArchitectureRelation`, bounded architecture claims, each description episteme, exact viewpoint conformance, each representation and publication object, each designation or reference relation, and each currentness claim inspectably connected but distinct.
 
-**What this buys.** Built-asset descriptions remain usable while the asset, architecture claim, views, designations, publications, source relations, and currentness boundaries stay separate.
+**Not this pattern when.** Use `C.30` when the current object is the direct architecture relation or bounded architecture claim, `C.30.AD` when no built-asset specialization is needed, and `C.30.ASV` when one structural view is under repair. Use the direct designation/reference, evidence, currentness, Work, decision, transformation, or causal-use pattern when that relation rather than built-asset architecture-description use is current. When auxiliary-view, telemetry, simulation, maintenance, or digital-twin material is used to claim that an intervention caused an effect, route that causal use to `C.28`; `C.27` remains the owner of temporal-claim adequacy. When a twin, dashboard, exchange result, or release screen looks like gate passage, use `A.21` only if a current `OperationalGate(profile)` consumes declared `GateCheckRef`s and publishes `GateDecision` plus `DecisionLogRef`; otherwise keep the display as a cue and return its evidence, work-entry readiness, assurance, Work, or other claim to its own governor. Do not collapse release into gate passage: route a release action or other performed Work to the exact `A.15.1` `U.Work` occurrence, work-entry readiness to `A.15.5`, a permission result or exercise to `A.2.8.PER`, an instituting or revoking grant act to `A.2.9`, and a claim that a subject was released to its named subject predicate and participants; if that predicate cannot be recovered, return `A.6.RCD missing-governor`. An authorization-looking label does not choose among these claims.
 
 ### C.30.AD.BA:1 - Problem Frame
 
-Built-asset practice uses many useful descriptions: BIM models, IFC exchanges, asset-information models, COBie-like handover tables, reference-designation systems, dashboards, digital-twin views, maintenance records, energy views, cost views, and sensor feeds. These descriptions help engineers operate across design, construction, operation, maintenance, repair, refurbishment, and end-of-life use.
+Built-asset work joins descriptions made for design, fabrication, construction, commissioning, operation, maintenance, adaptation, and decommissioning. A hospital, bridge, plant, railway corridor, or campus can therefore have a geometry model, spatial decomposition, functional and flow descriptions, product and equipment structures, cost and schedule descriptions, operation and maintenance records, sustainability and energy views, asset registers, live telemetry, inspection histories, and several reference-designation schemes.
 
-The danger is semio-bias. The description starts acting like the built asset, the architecture, the evidence, the assurance, the gate record, the work, or the decision because it is detailed, current, standardized, or tool-readable. `C.30.AD.BA` keeps the built asset, its architecture claim, its architecture description, its views, its reference designations, its publications, and its source relations separate.
+These are not interchangeable descriptions of one undifferentiated object. They select different structures of the same built asset, or sometimes describe different entities related to that asset. The architect needs to recover which exact EntityOfConcern each description has, which A.22 structure each claimed view describes, how the views correspond, which designation or reference relation makes an entity retrievable, and what currentness boundary permits the description to guide the next architecture move.
 
 ### C.30.AD.BA:1.0 - Problem
 
-Built-asset descriptions often carry enough structure to look like the built asset, enough designation discipline to look like identity, enough current data to look like evidence, and enough lifecycle coverage to look like authority. The problem is to admit BIM, IFC, asset-information, reference-designation, digital-twin, telemetry, maintenance, and handover material only after the described holon, architecture claim, selected structures, views, sources, publications, and admissible uses are explicit.
+How can an engineer assemble a usable built-asset architecture description from model exchanges, designation systems, and operational information without making the exchange schema, designation code, dashboard, or digital-twin system stand in for the built asset, an obtaining architecture relation, a selected structure, or a conforming view?
 
 ### C.30.AD.BA:1.1 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Tool-readable model vs built asset | BIM, IFC, asset registers, and digital twins can be detailed and current, but they remain descriptions or source relations. |
-| Reference designation vs identity proof | Designation codes coordinate aspect-sensitive descriptions; they do not prove parthood, function, identity, evidence sufficiency, or assurance. |
-| Lifecycle richness vs selected-structure recovery | Built-asset information crosses design, construction, operation, maintenance, refurbishment, and end-of-life use; each view still needs selected structure, source, and admissible-use boundaries. |
-| Design material vs run material | Digital-twin and sensor-linked views can join design-side and run-side descriptions; the physical asset, work occurrence, telemetry, and description stay distinct. |
-| Standards usefulness vs ontology import | Standards make exchange and designation practical; FPF adopts the relation discipline without importing a code-list ontology as FPF ontology. |
+| Long asset life vs changing descriptions | The built asset can retain identity while descriptions, model editions, sensor systems, representations, publications, and information uses change. |
+| Many useful structures vs exact description identity | Spatial, functional, flow, module, interface, placement, control, and information structures can all matter, but every description still has one exact C.2.1 EntityOfConcern and every selected structure keeps its own A.22 identity. |
+| Exchange interoperability vs FPF relation meaning | IFC and related exchange formats carry explicit object and relation data, but exchange content is source description until actual subject relations and selected structures are recovered under their direct owners. |
+| Designation stability vs aspect dependence | A reference designation can make an object retrievable across descriptions while still depending on a declared structuring aspect, designation scheme, exact referent, and qualification window. |
+| Auxiliary-view usefulness vs direct claim ownership | Cost, schedule, operation, maintenance, sustainability, and energy views can guide architecture work; their characteristic measurement, Work, temporal-claim adequacy, causal use, evidence, assurance, and currentness claims still require `C.16`, `A.15`, `C.27`, `C.28`, `A.10`, `B.3`, and `G.11`. |
+| Live coupling vs currentness | Telemetry and simulations can update a digital-twin description rapidly; freshness and fidelity still bound each claim made from it and do not create physical change. |
 
 ### C.30.AD.BA:2 - Solution
 
-Use a `BuiltAssetArchitectureDescriptionUseCard@Project` for the first controlled slice:
+Start with one intended architecture use, not with the available tool outputs. Name the exact built asset and recover the actual subject-relation occurrences and exact selected A.22 structures that matter. Cite an obtaining `ArchitectureRelation` only when its C.30 predicate holds; otherwise keep required, desired, expected, candidate, negative, or unresolved content in a bounded `ArchitectureClaim`.
+
+Constitute each architecture description under C.2.1 about exactly one EntityOfConcern: the built asset, one obtaining `ArchitectureRelation` occurrence, or one exact selected structure. Keep its exact ClaimGraph and effective `U.ReferenceScheme` recoverable. The same episteme is a `U.View` only while a separately identified E.17.0 conformance relation to one exact viewpoint episteme obtains. Then recover reference designation, model exchange, source use, representation, publication, and currentness through their own objects and relations.
+
+For a first controlled use, record only the references needed to make the next architecture move:
 
 ```text
-BuiltAssetArchitectureDescriptionUseCard@Project:
-  architectureClaimRef: ArchitectureOf@ContextRef
-  describedHolonRef:
-  boundedContextRef:
-  builtAssetKindCue:
-    facility | plant | bridge | campusBuilding |
-    infrastructureAsset | productAsset | otherDeclared
-  selectedStructureRefs:
-  structureKindRefs:
-  architectureStructuralViewRefs:
-  referenceDesignationRefs?
-  assetInformationRefs?
-  digitalTwinViewRefs?
-  publicationOrExchangeRefs?
-  correspondenceRefs?
-  sourceReturnCondition?
-  DesignRunTagRefs?
-  admissibleUse:
-  nonAdmissibleUse:
-  firstNeighborPatternApplication?
-```
-
-`@Project` guard: in this card name, `@Project` marks a project-side use card for first-pass built-asset architecture-description triage. It is not `U.Project`, not a bounded context, not project authority, and not a part-whole relation. If one of those claims is current, use the governing project, context, authority, or part-whole pattern named by value.
-
-Expand to `BuiltAssetArchitectureDescription@Context` only when durable description use is current:
-
-```text
-BuiltAssetArchitectureDescription@Context:
-  architectureDescriptionRef: ArchitectureDescription@ContextRef
-  architectureClaimRef: ArchitectureOf@ContextRef
-  describedBuiltAssetRef: U.HolonRef
-  boundedContextRef: U.BoundedContextRef
-  viewSetRefs:
-  referenceDesignationSchemeRefs:
-  assetInformationModelRefs:
-  digitalTwinDescriptionRefs:
-  exchangeOrPublicationRefs:
-  sourceEpistemeRefs:
-  correspondenceRefs:
-  sourceReturnCondition:
-  currentnessOrEditionBoundary:
-  admissibleUse:
-  nonAdmissibleUse:
-```
-
-`BuiltAssetArchitectureDescription@Context` is a specialization of `ArchitectureDescription@Context`. It is a Description episteme about `ArchitectureOf@Context`; it is not the built asset and not the architecture itself.
-
-### C.30.AD.BA:3 - View and Relation Discipline
-
-| Built-asset description material | Recover as | Neighboring owner |
-| --- | --- | --- |
-| BIM model or IFC exchange | Architecture-description publication or exchange over selected structures. | `C.30.AD`, `E.17`, `A.10` when source or evidence is claimed |
-| Asset register or handover table | Asset-information description and source relation. | `C.30.AD.BA`, `E.17`, `A.10` |
-| Reference designation | Aspect-sensitive designation relation over object identity and selected structure use. | `C.30.AD.BA`, `A.22`, `C.30.ASV` |
-| Functional or MEP view | Functional structure or transformation-flow structure view. | `A.6.F`, `C.30.ASV`, `C.30.TFS-REL` |
-| Module, equipment, or product structure view | Component, module, interface, or allocation relation. | `A.14`, `C.13`, `A.6.M`, `C.30.ASV` |
-| Cost, schedule, operation, maintenance, sustainability, or energy view | Description view, characteristic view, or work-related source relation depending on the claim. | `C.16`, `A.10`, `A.15`, `C.27`, or `B.3` according to the recovered claim |
-| Digital-twin view | Description or source relation connected to the physical asset and its current state claims. | `C.30.AD.BA`, `A.10`, `C.27`, `B.3` |
-
-### C.30.AD.BA:4 - Reference Designation Boundary
-
-A reference designation helps identify an object across aspect-sensitive descriptions. It does not prove that the functional object, product object, location object, property object, and activity-side object are one FPF entity in all uses. Recover the designation relation first:
-
-```text
-BuiltAssetReferenceDesignationUse@Context:
-  designationRef:
-  designationSchemeRef:
-  designatedEntityRef:
-  aspectOrViewRef:
-  architectureClaimRef:
-  selectedStructureRef?:
-  correspondenceRefs?:
+BuiltAssetArchitectureDescriptionUse@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  builtAssetDescriptionProjectUseRelationRef?: U.RelationRef governed by the exact description-use or work-use pattern
+  architectureDescriptionRef: U.EpistemeRef constrained to ArchitectureDescription
+  descriptionClaimGraphRef: U.ClaimGraphRef
+  descriptionEntityOfConcernRef:
+    exactly one builtAssetRef |
+      ArchitectureRelation occurrence ref |
+      selected U.Structure ref
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  builtAssetRef: U.HolonRef
+  architectureRelationOccurrenceRefs?: FinSet(U.RelationRef)
+  architectureClaimRefs?: FinSet(U.EpistemeRef)
+  selectedStructureRefs: FinSet(U.StructureRef)
+  architectureStructuralViewRefs?: FinSet(U.EpistemeRef constrained to ArchitectureStructuralView)
+  viewpointConformanceRelationRefs?: FinSet(EpistemeViewpointConformanceRelationRef)
+  claimScope?: U.ClaimScope, byValue
+  architectureConcernRefs?: FinSet(U.EpistemeRef)
+  modelUseStructureRef?: U.StructureRef
+  empiricalGroundingRelationRefs?: FinSet(U.RelationRef)
+  referenceDesignationRelationRefs?: FinSet(U.RelationRef)
+  assetInformationDescriptionRefs?: FinSet(U.EpistemeRef)
+  digitalTwinDescriptionRefs?: FinSet(U.EpistemeRef)
+  designRunSeparationUse?: BuiltAssetDesignRunSeparationUse, byValue
+  sourceToUsePathRefs?: FinSet(U.RelationRef)
   sourceReturnCondition?:
+  representationRefs?: FinSet(U.EntityRef)
+  publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef)
+  publicationFormRefs?: FinSet(U.EntityRef)
+  carrierRefs?: FinSet(U.EntityRef)
+  descriptionFreshnessClaimRefs?: FinSet(U.EpistemeRef)
+  publicationCurrentnessRelationRefs?: FinSet(U.RelationRef)
+  admissibleUse:
+  nextGoverningPatternApplicationRef:
+  nonAdmissibleUse:
+```
+
+This is a project-side use record, not a description identity constructor or a new root kind. `@Project` is a compatibility and retrieval cue and establishes no project entity, Work occurrence, authority, context, viewpoint, parthood, or use relation. When the use is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, and `builtAssetDescriptionProjectUseRelationRef` identifies the separately governed obtaining relation by which this description use concerns that Work. Otherwise both remain absent.
+
+`architectureDescriptionRef` resolves to one exact C.2.1 episteme whose identity is the cited ClaimGraph, one exact `descriptionEntityOfConcernRef`, and effective reference scheme. If that EntityOfConcern is the built asset, it is exactly `builtAssetRef`. If it is an architecture-relation occurrence or selected structure, its exact participants or selection trace recover `builtAssetRef` without deriving identity from an optional architecture claim. `architectureClaimRefs` carry bounded claim content or trace only.
+
+Every value in `architectureStructuralViewRefs` identifies an exact description episteme admitted as `U.View` only through an independently obtaining `EpistemeViewpointConformanceRelation` to one exact viewpoint. It can be the same episteme as `architectureDescriptionRef` only when that description's one EntityOfConcern is the selected structure required by C.30.ASV; otherwise it is a separately identified description episteme connected through an explicit description-set use or correspondence claim or independently obtaining relation. A multi-view use can cite several such description/view epistemes; the use record, collection, file, bundle, list order, or publication creates neither their identities nor their conformance.
+
+`claimScope`, architecture concern, empirical grounding, and `modelUseStructureRef` remain neighboring qualifiers or relations. A DDD-style bounded-model-use structure appears only when that independently selected structure changes interpretation or selection for this use. It replaces none of the asset, relation, structure, description, scheme, scope, grounding, viewpoint, Work, or project-use objects and is absent from base identity.
+
+Use `sourceToUsePathRefs` when a model publication, exchange, measurement description, or other named expression enters the present architecture use. Use a source-return condition only when stronger use of a derivative or reused description must return to that named source or governing pattern. Keep a diagram or model as representation, and keep publication occurrence, form, and carrier separate. Use `G.11` when description freshness, publication currentness, edition, telemetry freshness, model decay, or synchronization currentness is the claim; none establishes architecture adequacy or empirical grounding by itself.
+
+When ISO 19650 discipline is invoked, cite the exact published part and edition rather than an unversioned series label. At the `2026-07-31` source check, ISO lists `ISO 19650-1:2018`, Edition 1, and `ISO 19650-3:2020`, Edition 1, as published editions last confirmed in 2024 and now to be revised, with draft successors under development. The current transfer is therefore exact and bounded: Part 1 contributes whole-life information-management discipline for exchanging, recording, versioning, and organizing information; Part 3 contributes the operational-phase management process and information exchanges. Record the exact standard source and edition in the source-to-use path, the used model or information edition, the reference date and validity window through the currentness loci, the refresh or source-return condition, and `admissibleUse` and `nonAdmissibleUse`. A draft or later edition does not silently replace the cited source. ISO 19650 practice contributes information-management discipline, not FPF ontology, subject-relation truth, architecture adequacy, evidence sufficiency, assurance, Work occurrence, or authority.
+
+#### C.30.AD.BA:2.1 - Recover the selected structures before combining views
+
+For every included view, state the exact candidate description episteme, its selected-structure EntityOfConcern, the architecture concern for which it is used, the exact viewpoint episteme, and the obtaining E.17.0 conformance occurrence. A geometry or coordination model can expose several structures, but the file boundary does not select one structure or grant view membership on the engineer's behalf.
+
+| Encountered description | First recover | Architecture-description use |
+| --- | --- | --- |
+| Spatial model | Spatial containment, placement, access, or separation structure under its direct relation pattern. | Cite the exact description episteme, selected structure, viewpoint, and conformance occurrence for the exact built asset. |
+| Functional or flow model | Required or desired effect claims, functional structure, selected transformation-flow structure, ports, and interfaces under `A.6.F`, `E.18`, or `C.30.TFS-REL`; an actual transformation only under A.3.4. | Keep required content, selected flow organization, actual change, and the description/view use distinct; record correspondence or positive co-reference only when its direct predicate obtains. |
+| Product or equipment model | Module claim or admitted module relation, component, interface, allocation, or placement relations under `A.6.M` and their direct governing patterns. | Keep the physical asset parts distinct from the description elements, representations, and publications that refer to them. |
+| Control or operational model | Exact selected control structure under `C.30.LCA`, together with direct control, measurement, Work, and currentness relations. | Cite the control description/view without treating live values, a dashboard, or the LCA diagram as architecture adequacy or proof. |
+| Cost, schedule, operation, maintenance, sustainability, or energy view | The exact description episteme and selected structure; then any measurement-result episteme for a claimed Characteristic under `C.16`, operation or maintenance Work under `A.15`, positive temporal aspect under `C.27.TA` or action-guiding temporal claim under `C.27`, causal use of an intervention, maintenance action, simulation, telemetry change, or claimed effect under `C.28`, and evidence, reliance, or assurance under `A.10` or `B.3`. | Keep the description or view, measured Characteristic, Work, temporal aspect or claim, causal-use question and verdict, currentness boundary, evidence, and assurance distinct; cite its source-to-use path and `G.11` validity or reopen condition. |
+
+This last row is a distinct recognition-and-routing branch, not a new auxiliary-view kind and not a claim that every such description is an architecture structural view. Admit one as `U.View` only through the same exact selected-structure EntityOfConcern, viewpoint, and independently obtaining E.17.0 conformance required of every other view; return each embedded claim to the owner named in the row.
+
+A single IFC publication may carry source descriptions for several rows. Conversely, one selected structure may be the EntityOfConcern of several descriptions and may be represented or published several times. `C.30.AD.BA` therefore keys each use to exact description identity, selected structure, view conformance, built-asset trace, and declared use rather than to a file, platform, package, or view count.
+
+#### C.30.AD.BA:2.2 - Recover a reference designation as a relation
+
+A reference designation is useful because it makes information about an entity retrievable under an explicit structuring and designation scheme. First recover the exact designation or reference relation through its direct representation/reference/naming owner. `C.30.AD.BA` records only its built-asset architecture-description use; a code, field, repeated string, list row, or the record below neither admits a relation kind nor makes an occurrence obtain. If no current direct owner supplies the needed relation, keep the designation use as bounded C.2.1 claim content; apply `A.6.RCD` only when a named repeated receiving use genuinely needs a reusable predicate definition or admitted direct relation.
+
+```text
+BuiltAssetReferenceDesignationUse:
+  designationValue: local designation value, byValue
+  referenceDesignationScheme: U.ReferenceScheme, byValue
+  designatedEntityRef: U.EntityRef
+  selectedAspectStructureRef: U.StructureRef
+  designationOrReferenceRelationRef?: U.RelationRef
+  qualificationWindow:
+  correspondingEntityRef?: U.EntityRef
+  correspondenceClaimOrRelationRef?: U.EpistemeRef | U.RelationRef
   admissibleUse:
   nonAdmissibleUse:
 ```
 
-Use the designation to coordinate descriptions. Do not use the designation code as part-whole proof, function proof, evidence sufficiency, assurance, gate passage, or decision authority by appearance.
+`selectedAspectStructureRef` names the exact structure in which the designation is interpreted, such as a functional, product, location, or declared local structure. It is not a free aspect label. `designatedEntityRef` names the entity designated in that structure. The direct relation ref is affirmative only when its own owner admits that kind and the occurrence independently obtains. If a design object and a realized component both need to be retrieved, name the two entities and a bounded correspondence claim or independently obtaining correspondence relation rather than letting one code silently collapse them.
 
-### C.30.AD.BA:5 - Digital Twin and Design-Run Boundary
+The designation use permits retrieval and cross-description coordination. Part-whole, function, location, identity across aspects, and evidence claims still come from their direct relations or claim owners. Repeated appearance of the same designation expression is insufficient to merge referents when the scheme, selected structure, local sense, or qualification window differs.
 
-A digital twin can describe, monitor, simulate, or forecast a built asset. It does not become the built asset by being connected to sensors or operations data.
+#### C.30.AD.BA:2.3 - Keep exchange checking distinct from architecture evaluation
 
-Use `DesignRunTagRefs` when a description crosses design-side and run-side material. A design model, built asset, sensor relation, operation record, maintenance work, and physical transformation remain different objects unless a direct governing pattern relates them.
+An IFC exchange or another machine-readable model is a representation and publication of one or more epistemes. Its schema relations can preserve valuable source structure. Before using it as architecture-description content:
 
-Example boundary: a lathe can transform a workpiece without becoming the workpiece's super-holon. Likewise, a building-management system can change equipment state without becoming part of that equipment merely because the dashboard shows both in one operational view. Use `HolonBoundaryCrossingRelation@Context`, `U.Transformation`, `U.Work`, evidence, source, and architecture-description relations before any MHT or part-whole claim is admitted.
+1. identify every source episteme used, its representation, and the publication occurrence, form, and carrier;
+2. recover the exact actual subject-relation occurrences and A.22 selected structures represented by the relation data being used;
+3. record the source-to-use path into the exact architecture description or view episteme;
+4. state the admissible architecture use and any lost, inferred, unknown, stale, or unavailable relation content.
 
-### C.30.AD.BA:6 - Archetypal Grounding (Worked Slice)
+A computer-interpretable exchange specification can evaluate whether declared information is present and shaped as specified. That evaluation concerns the exchange description or publication. It does not make schema relation data obtain in the built asset, constitute a selected structure, grant `U.View` membership, establish description truth, or show that the selected architecture is adequate for the asset's functions, constraints, or architectural characteristics. Apply the architecture, characteristic-evaluation, evidence, and assurance patterns for those claims.
 
-A hospital facility has a BIM model, IFC exchange, asset register, fire-safety dashboard, energy view, maintenance records, and reference designations for rooms, systems, and equipment.
+#### C.30.AD.BA:2.4 - Keep a digital-twin description coupled without merging its objects
 
-`C.30.AD.BA` records the built asset as described holon, the `ArchitectureOf@Context` claim, the selected structures being described, and the view set. The fire-safety view may involve control structure and evidence; the energy view may involve characteristics and current sensor claims; the asset register may carry source-return conditions; the reference designation coordinates object identity across aspect-sensitive views. None of these descriptions is treated as the hospital, the architecture, a safety proof, a gate record, or a work occurrence by appearance.
+The phrase *digital twin* can cover a model episteme, software system, sensor systems, telemetry epistemes, simulation methods, operational Work, interfaces, representations, and publications. Recover each current object by its direct kind and relation. `C.30.AD.BA` uses only the exact descriptions and views that contribute to the built asset's architecture-description use.
 
-### C.30.AD.BA:6.1 - Bias-Annotation
+When one declared architecture-description use crosses design-side and run-side material, fill the optional local carrier named by `designRunSeparationUse`:
 
-| Bias | How C.30.AD.BA prevents it |
-| --- | --- |
-| Model-as-asset bias | The BIM model, IFC exchange, dashboard, or digital twin remains an architecture-description, source, publication, or view object, not the physical built asset. |
-| Designation-as-identity bias | ISO/IEC 81346-style designation is treated as a designation relation with aspect and admissible-use boundaries, not as universal identity proof. |
-| Currentness-as-assurance bias | Sensor freshness or model edition bounds use; evidence, assurance, gate, decision, and release claims keep their direct owners. |
-| Design-run collapse | `DesignRunTagRefs` keep design-side model material, run-side telemetry, operation records, maintenance work, and physical transformations distinct. |
-| Standard-as-ontology bias | Built-asset standards inform source and exchange discipline without importing their classifications as FPF U-kinds. |
+```text
+BuiltAssetDesignRunSeparationUse:
+  designSideDescriptionRefs: FinSet(U.EpistemeRef)
+  runSideDescriptionRefs: FinSet(U.EpistemeRef)
+  designSideWorkOccurrenceRefs?: FinSet(U.EntityRef constrained to U.Work)
+  runSideWorkOccurrenceRefs?: FinSet(U.EntityRef constrained to U.Work)
+  telemetryEpistemeRefs?: FinSet(U.EpistemeRef)
+  sourceToUsePathRefs: FinSet(U.RelationRef)
+  descriptionFreshnessClaimRefs?: FinSet(U.EpistemeRef)
+  publicationCurrentnessRelationRefs?: FinSet(U.RelationRef)
+  designToRealizationCorrespondenceClaimOrRelationRefs?:
+    FinSet(U.EpistemeRef | U.RelationRef)
+  directCouplingRelationRefs?: FinSet(U.RelationRef)
+  actualTransformationRefs?: FinSet(U.EntityRef constrained to U.Transformation)
+  classificationBasis:
+  admissibleCrossLifecycleUse:
+  blockedMerge:
+```
 
-### C.30.AD.BA:8 - Conformance Checklist
+This is a by-value classifier for one built-asset description use, not a new FPF kind, a generic tag, or a relation constructor. `designSideDescriptionRefs` cite exact epistemes used for intended, required, proposed, or design-state material; `runSideDescriptionRefs` cite exact as-built, observed, operating, inspection, or maintenance-state epistemes. The classification is local to the declared use, not intrinsic to an episteme. If one publication carries both, identify the exact description or ClaimGraph loci before classifying them; the publication boundary does not perform the split.
 
-| ID | Check | Why it matters |
+Every referenced object and relation keeps its direct owner. C.2.1 governs description identity; `A.15` governs each exact `U.Work`; `G.11` governs freshness, currentness, and decay; the exact source-use owner governs each source path; the direct correspondence or coupling owner governs an affirmative relation; and `A.10` or `B.3` governs reliance or assurance. `C.28` governs a causal use of telemetry, simulation, maintenance, or a claimed physical or energy change; `C.27` continues to govern the temporal adequacy of the change statement. A.3.4 governs an actual physical transformation only when the exact changed referent, boundary, conditions, before/during/after facts, and continuity or reidentification basis are complete. A required or desired effect, live value, simulation result, control-view row, or local design/run classification is not that actual transformation. The local carrier owns only which already identified references participate on each side of this one cross-lifecycle use. Its nested source and currentness refs must resolve to the same exact refs cited by the enclosing use record, not duplicate or replace them. When an exact side, source path, Work occurrence, currentness boundary, or required direct relation cannot be recovered, state that gap in `blockedMerge` and narrow or block the cross-lifecycle use.
+
+| Local anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| CC-BA-1 | The built asset or facility is named as `describedHolonRef`, and the architecture claim is named as `architectureClaimRef`. | Prevents description-as-asset and description-as-architecture collapse. |
-| CC-BA-2 | Selected structures or structure kinds are named for each used view. | Prevents BIM or dashboard labels from replacing structure recovery. |
-| CC-BA-3 | Reference designations name their scheme, designated entity, aspect or view, correspondence, and admissible use. | Prevents designation codes from becoming identity or parthood proof. |
-| CC-BA-4 | Digital-twin, sensor, operation, and maintenance material carries source, currentness, and `DesignRunTag` boundaries when used across design and run material. | Prevents design-side and run-side objects from being silently merged. |
-| CC-BA-5 | Evidence, assurance, gate, decision, work, and causal claims are returned to their governing patterns. | Keeps built-asset description useful without overclaiming authority. |
+| Design/run collapse | A design description, realized asset description, telemetry episteme, operation or maintenance Work, and physical change are treated as one because a platform links or displays them together. | Fill `BuiltAssetDesignRunSeparationUse` with the exact side-specific descriptions, Work, sources, and currentness refs; cite correspondence, coupling, or transformation only under its direct owner, or block the merged use. |
+| Lifecycle view merge | Original design, as-built model, operation record, maintenance Work, and an alleged transformation are merged because one dashboard presents them as one lifecycle view. | Keep each existing object and relation reference explicit; actual change enters only through A.3.4, and identity, parthood, evidence, assurance, or architecture adequacy is never inferred from co-display. |
 
-### C.30.AD.BA:8.1 - Common Anti-Patterns and How to Avoid Them
+The twin's coupling to the asset establishes neither parthood nor identity between the digital and physical objects. Connection, synchronization, rendering, bundling, and publication also establish neither architecture relation, selected structure, description truth, empirical grounding, view membership, evidence sufficiency, assurance, gate passage, Work, nor project-use relation.
 
-| Anti-pattern | Symptom | Correction |
+A green twin, dashboard, exchange result, or release screen is therefore a cue, not gate passage. `A.21` becomes current only when an actual `OperationalGate(profile)` consumes declared `GateCheckRef`s and publishes `GateDecision` plus `DecisionLogRef`; if that relation is absent, keep the display as a cue and route any evidence, work-entry readiness, assurance, Work, or neighboring claim to `A.10`, `A.15.5`, `B.3`, `A.15.1`, or its exact direct governor. Even `GateDecision=pass` establishes neither release, readiness, permission, authorization, nor performed Work.
+
+Recover the release-looking claim before routing it. An actual release action is one exact `A.15.1` `U.Work` occurrence; work-entry readiness is `A.15.5`; a non-prohibition, granted permission, permission exercise, non-violation, or permission conflict is `A.2.8.PER`; an instituting or revoking grant act is `A.2.9`. A further claim that a subject was released needs its named subject predicate and participants; if they cannot be recovered, keep the display as a cue and return `A.6.RCD missing-governor`. No current model, source, gate result, dashboard, or the word *authorized* supplies one of these relations by appearance.
+
+**Currentness and smallest reopen.** When a decisive input changes, reopen only the built-asset description-use locus and conclusion that depend on it. A changed asset or selected structure reopens the dependent description identity, built-asset trace, or structural-view use; changed view conformance reopens that one view admission; a changed designation scheme, referent, or qualification window reopens only its `BuiltAssetReferenceDesignationUse`; a changed source, model, publication, or telemetry edition or freshness/fidelity boundary reopens its exact source-to-use or currentness locus; changed design/run classification, cited Work, source/currentness ref, correspondence, coupling, or transformation reopens only the affected `BuiltAssetDesignRunSeparationUse` and dependent admissible cross-lifecycle use; and a changed project-use relation or direct governor reopens only that exact relation reference and dependent admissible-use conclusion. Update the affected description, designation, design/run, or currentness locus; when the required input cannot be recovered, narrow or block only that use while unrelated views, descriptions, designations, and uses stay closed.
+
+### C.30.AD.BA:3 - Worked Cases
+
+#### C.30.AD.BA:3.1 - Hospital ventilation and fire compartmentation
+
+A hospital renovation uses an IFC publication, a fire-compartment view, a ventilation flow view, an equipment register, an energy-use view, and live air-handling telemetry. The immediate architecture concern is whether the changed ventilation arrangement preserves smoke-control functions across compartment boundaries. A second intended use is a bounded comparison of air-handling energy consumption; it does not share the smoke-control verdict.
+
+The engineer names the hospital facility as `builtAssetRef`, recovers the actual subject relations and exact fire-compartment, ventilation-flow, equipment-module, and control structures, and cites an obtaining `ArchitectureRelation` only if its C.30 predicate holds. Required or proposed content remains in a bounded architecture claim. Each used architecture description has its exact ClaimGraph, one EntityOfConcern, and effective reference scheme; each claimed structural view additionally has an exact viewpoint and independently obtaining E.17.0 conformance relation.
+
+The IFC publication supplies a source-to-use path for the spatial and equipment descriptions while its representation, publication occurrence, form, and carrier stay separate. The telemetry episteme has a currentness boundary and can support separately governed operating-state claims; it is not itself the control structure, an architecture relation, an actual physical transformation, or architecture evaluation.
+
+For the energy use, one current `C.16` measurement-result episteme attributes `112 kWh ± 4 kWh` electrical-energy consumption to air-handling unit `AHU-3` over a declared 24-hour commissioning window. It names the exact measurand, Characteristic, Scale and unit, method and model, calibration basis, dated measurement Work, time stance, and uncertainty. Its source-to-use path cites the meter telemetry and source edition; its `G.11` currentness condition limits use to the named sensor, calibration, model editions, and validity window and reopens that use when one changes. If the engineer claims that the control revision will reduce the daily consumption rate, the action-guiding temporal claim enters `C.27` with the intervention, window, resistance or cost, evidence or assumption relation, supported use, unsupported use, and reopen condition. If that same statement is used to say that the control revision causes the reduction, and causal support makes publication, choice, deployment, assurance, audit, benchmark, or support treatment admissible, `C.28` additionally governs the causal-use class, support basis, supported use, unsupported use, and verdict. `C.27` temporal adequacy does not establish a causal intervention effect, and `C.28` does not replace the `C.16` measurement result, `C.27` temporal claim, or `G.11` currentness boundary. `A.10` and `B.3` still govern material reliance and assurance. Neither the energy view nor the recent reading proves sustainability, smoke-control adequacy, or architecture adequacy.
+
+An air-handling unit has a product-aspect designation and a location-aspect designation. Each designation use names its scheme, selected structure, designated entity, qualification window, and exact direct relation when one obtains. A bounded correspondence claim or obtaining correspondence relation lets the maintenance team retrieve both descriptions without making the product structure identical to the location structure.
+
+The next architecture move is then concrete: evaluate the proposed flow and control structures against the smoke-control concern and carry the bounded energy-use comparison through its own characteristic and temporal owners. It is not “approve the BIM model.”
+
+#### C.30.AD.BA:3.2 - Bridge inspection twin
+
+A bridge operator combines an as-maintained geometry model, structural-member view, inspection history, strain telemetry, and a simulation view. The bridge remains the built asset across model editions. The structural-member and sensor-placement structures are selected explicitly; each description keeps exact C.2.1 identity and each claimed view exact E.17.0 conformance. Inspection and telemetry claims retain their evidence, grounding, source-use, and currentness relations. A revised simulation model remains another episteme edition unless its claim graph, EntityOfConcern, and effective scheme are unchanged under C.2.1 and its declared lineage or continuity claims support the intended reuse.
+
+When the operator compares an original design description with the as-maintained geometry, inspection history, and live telemetry, `designRunSeparationUse` cites the exact design-side description and design Work, the exact run-side descriptions and inspection or maintenance Work, their source-to-use and currentness refs, and any separately governed design-to-realization correspondence. `actualTransformationRefs` remains absent unless an exact repair or other physical change satisfies A.3.4. The architecture description can therefore support a decision to inspect or redesign a connection while retaining the route back to the geometry publication, measurement descriptions, and selected structures. It cannot treat a successful data-exchange check, recent sensor sample, simulation result, polished dashboard, or local design/run classification as proof that the bridge architecture is adequate or that design and realized objects are identical.
+
+### C.30.AD.BA:4 - Conformance Checklist
+
+| ID | Check | Repair when absent |
 | --- | --- | --- |
-| BIM is the asset | A model or IFC exchange is treated as the building, plant, or facility itself. | Name the physical built asset as `describedHolonRef` and keep the model as description or publication material. |
-| Designation code proves parthood | A designation prefix or aspect label is used as proof that one object is a part, function, product, or location of another. | Recover designation scheme, aspect or view, selected structure, correspondence, and admissible use. |
-| Digital twin grants authority | Sensor-connected twin material is treated as evidence sufficiency, assurance, gate passage, or work completion. | Keep source/currentness boundaries and apply `A.10`, `B.3`, `A.21`, or work patterns for the authority claim. |
-| Lifecycle view merge | Design model, as-built model, operation record, maintenance work, and physical transformation are merged because one dashboard shows them together. | Use `DesignRunTagRefs`, source relations, work refs, and transformation refs before admitting any identity, parthood, or MHT claim. |
+| `BA-1` | The exact built asset is recoverable, and every used architecture description has one exact ClaimGraph, one EntityOfConcern—built asset, obtaining `ArchitectureRelation`, or selected structure—and effective `U.ReferenceScheme`. | Recover the asset under `A.1`, subject relations and architecture relation under `C.30`, selected structure under `A.22`, and description identity under C.2.1; do not derive the subject from an optional architecture-claim field. |
+| `BA-2` | Every asserted architecture structural view is the same exact description episteme whose selected-structure EntityOfConcern, structure kind, exact viewpoint, and independently obtaining E.17.0 conformance relation are named. | Apply `A.22`, `E.17.0`, and `C.30.ASV`; do not use the file, bundle, dashboard, representation, publication, or current use as the structure or view constructor. |
+| `BA-3` | Every relied-on designation names its scheme, designated entity, selected aspect structure, qualification window, and exact designation/reference relation when one is claimed; design/realization correspondence remains a separate claim or relation. | Recover the direct designation/reference owner and occurrence, or keep a bounded designation-use claim; never use repeated spelling as entity identity or parthood proof. |
+| `BA-4` | Exchange checking and architecture evaluation have different evaluated objects and governors; source episteme, representation, publication occurrence, form, carrier, actual subject relations, selected structures, and descriptions remain distinct. | Keep description conformance with the exchange use; return relation truth, architecture adequacy, evidence, and assurance to their direct patterns. |
+| `BA-5` | Reused or live descriptions name source-to-use, source-return when stronger use needs it, description freshness, and publication-currentness objects appropriate to the exact claim. | Apply `G.11`; do not turn freshness, synchronization, recent publication, or live data into grounding, truth, evidence sufficiency, or architecture adequacy. |
+| `BA-6` | Digital and physical objects retain direct kinds, identities, coupling relations, Work, and transformations; actual change is cited only with the full A.3.4 basis. Project-local use additionally names both exact composite Work and the obtaining project-use relation. | Recover model, systems, epistemes, the exact composite `U.Work`, interfaces, coupling, actual changed referent and facts, and `builtAssetDescriptionProjectUseRelationRef` as the separately governed obtaining relation by which this description use concerns that Work before making identity, parthood, transformation, or project-locality claims. |
+| `BA-7` | Every used cost, schedule, operation, maintenance, sustainability, or energy view names exact description identity and, when asserted as a structural view, selected structure, viewpoint, and conformance; its characteristic, Work, temporal, causal-use, evidence, assurance, and currentness claims keep exact direct owners. | Use `C.16` for the measurement result, `A.15` for Work, `C.27.TA` or `C.27` for the exact temporal use, `C.28` only when the view, telemetry, simulation, maintenance action, or claimed change is used causally, `A.10` or `B.3` for reliance or assurance, and `G.11` for currentness; do not let the auxiliary view itself establish a causal effect, sustainability, acceptance, evidence, assurance, or architecture adequacy. |
+| `BA-8` | Every ISO 19650-based use names the exact part and edition, exact source-to-use path, used information or model edition, source-status reference date, validity window, refresh or source-return condition, and admissible and non-admissible use. | Pin the exact published edition used; reopen this source-use locus when ISO status, the cited edition, information edition, or intended use changes. Do not silently substitute a draft or successor edition or import standard terminology as FPF ontology or authority. |
+| `BA-9` | Every declared use that crosses design-side and run-side material fills one `BuiltAssetDesignRunSeparationUse` with exact side-specific descriptions, Work when current, source and currentness refs, classification basis, admissible cross-lifecycle use, and blocked merge; correspondence, coupling, and transformation refs appear only when their direct predicates obtain. | Fill the local carrier from already governed refs, or narrow or block the cross-lifecycle use. Do not restore a generic tag, infer identity or parthood from co-display, or treat telemetry, Work, correspondence, coupling, or a proposed effect as actual A.3.4 change. |
+| `BA-10` | A green twin, dashboard, exchange result, or release screen remains a cue unless an actual `A.21` gate-decision relation is current; gate decision, release action, work-entry readiness, permission or grant act, performed Work, and a subject-release predicate remain distinct claims. | Recover `OperationalGate(profile)`, declared `GateCheckRef`s, `GateDecision`, and `DecisionLogRef` only for the actual gate relation. Route a release action or other performed Work to its exact `A.15.1` occurrence, readiness to `A.15.5`, a permission result or exercise to `A.2.8.PER`, an instituting or revoking grant act to `A.2.9`, and a subject-release claim to its named predicate and participants or `A.6.RCD missing-governor`; none is entailed by freshness, evidence, assurance, the display, or `GateDecision=pass`. |
 
-### C.30.AD.BA:9 - Consequences
+### C.30.AD.BA:5 - Consequences
 
-The gain is a practical bridge between FPF architecture-description discipline and current built-asset practice. Engineers can use BIM, IFC, asset-information, reference-designation, and digital-twin material without treating descriptions as the asset or as automatic proof.
+The pattern makes multi-view built-asset descriptions more work to assemble because a tool container no longer supplies ontology by appearance. That cost is local and reviewable: each description gains exact C.2.1 identity; each asserted view gains an exact selected structure, viewpoint, and conformance relation; each designation use gains an exact referent, scheme, aspect structure, qualification window, and direct-relation disposition; and each live description gains an explicit currentness boundary.
 
-The cost is extra relation recovery. The description must say which asset, architecture claim, selected structures, views, designations, sources, and admissible uses are live before it can guide architecture work.
+The gain is stronger reuse. A changed model edition, replacement sensor system, revised designation scheme, new representation, or new publication can be incorporated without changing the built asset's identity, inventing an architecture occurrence, or silently reidentifying a description. Architecture evaluation can use the description while remaining distinct from exchange checking, information currentness, evidence sufficiency, assurance, Work, and project locality.
 
-### C.30.AD.BA:10 - Rationale
+### C.30.AD.BA:6 - Rationale
 
-Built-asset engineering already relies on rich description systems. Their practical value comes from disciplined relation use: which asset is described, which architecture claim is current, which structures or views are being used, which source edition or run-side state is current, and which authority claim is actually being made.
+Built-asset practice is unusually exposed to semio-bias because one information environment often spans geometry, equipment, Work, sensor state, and maintenance history. The strongest repair is not a warning against models. It is a constructive chain from the physical asset and independently obtaining subject relations to exact selected A.22 structures, any actual `ArchitectureRelation`, bounded architecture claims, exact C.2.1 description epistemes, independently conforming views, and the source, representation, publication, designation, grounding, currentness, Work, and project-use relations that make those descriptions usable.
 
-The pattern specializes `C.30.AD` for built assets because BIM, IFC, asset-information, reference-designation, and digital-twin practice make the description/asset boundary especially easy to overread. It keeps standards and tools useful while preserving the FPF distinction between holon, architecture claim, description episteme, publication, source relation, evidence, work, and authority.
+Reference designation demonstrates why this chain matters. Its engineering value is retrieval across heterogeneous descriptions. That value depends on the scheme, selected aspect structure, referent, qualification window, and exact direct-relation disposition being explicit. Treating the code as universal identity would remove precisely the aspect discipline that makes the designation useful.
 
-### C.30.AD.BA:10.1 - SoTA-Echoing
+### C.30.AD.BA:7 - SoTA-Echoing
 
-| Source family | What it contributes | FPF adoption stance | Practitioner implication |
+| Source line | Contribution used here | Mutation of the pattern | Practitioner implication |
 | --- | --- | --- | --- |
-| ISO/IEC/IEEE 42010 architecture-description practice | Separates architecture of an entity from architecture description, views, viewpoints, and correspondence. | Adopt through `C.30.AD` and specialize here for built assets. | Keep built asset, architecture claim, description, view, and publication separate. |
-| ISO 19650 information management for built assets | Treats information management across built-asset life as a serious engineering concern. | Adopt as practice discipline, not as FPF ontology. | Asset information needs source, edition, currentness, and admissible-use boundaries. |
-| IFC / ISO 16739 and openBIM practice | Provides standardized digital descriptions of built assets, properties, and relations. | Use as exchange and description discipline. | Tool-readable structure is not evidence, assurance, gate passage, or architecture adequacy by itself. |
-| ISO/IEC 81346 reference designation | Provides aspect-sensitive reference designation across object descriptions. | Adopt as designation discipline, not as a code-list ontology import. | A designation coordinates views; it does not prove parthood, function, or identity across every use. |
-| Digital-twin practice for buildings and manufacturing | Connects BIM, asset metadata, sensors, maintenance, and operations descriptions. | Adopt as source and description discipline with `DesignRunTag` boundaries. | A digital twin may guide action, but the physical asset, description, telemetry, work, and evidence remain distinct. |
+| [ISO 19650-1:2018, Part 1: Concepts and principles](https://www.iso.org/standard/68078.html) and [ISO 19650-3:2020, Part 3: Operational phase of the assets](https://www.iso.org/standard/75109.html), official status checked `2026-07-31` | ISO 19650-1 contributes information-management concepts and principles for exchanging, recording, versioning, and organizing information across the whole built-asset life; ISO 19650-3 specifies information-management process and exchanges in the operational phase. Both cited editions are published, were last confirmed in 2024, and are marked by ISO as to be revised with draft successors under development. | Adopt the exact whole-life and operational information-management discipline through source-to-use, edition, currentness, refresh, and admissible-use boundaries; do not import ISO terms as FPF U-kinds, relation truth, architecture adequacy, or authority. | Cite the exact part and edition, used information or model edition, reference date, validity window, source-return or refresh condition, and admissible and non-admissible use; a draft or later edition never updates an existing use silently. |
+| [buildingSMART IFC 4.3.2 official documentation](https://standards.buildingsmart.org/IFC/RELEASE/IFC4_3/) | Current IFC exposes explicit object identities, relationship entities, decomposition, systems, processes, products, and aspect-specific schemas. | IFC content enters through exact source epistemes, representations, publication objects, and source-to-use paths; relation data must be checked against actual subject relations before selecting FPF structures. | Preserve useful machine-readable relation content without making an exchange schema, file, representation, or publication the built asset, relation truth, or FPF ontology. |
+| [buildingSMART IDS 1.0](https://www.buildingsmart.org/standards/bsi-standards/information-delivery-specification-ids/) | A current computer-interpretable specification can state and check expected IFC information. | `C.30.AD.BA:2.3` separates exchange-description checking from architecture evaluation and world-side relation truth. | Passing an IDS check shows that declared information was delivered; it does not show that the architecture is adequate or that described relations obtain. |
+| [IEC 81346-1:2022](https://webstore.iec.ch/en/publication/64021) | Current reference-designation practice connects unambiguous retrieval to system structuring, aspects, objects, corresponding components, and relations between objects. | The pattern uses an explicit scheme-expression-entity-structure use record, an exact direct designation/reference relation when one obtains, and a separate correspondence claim or relation when design object and realized component both matter. | A stable code remains useful across descriptions without becoming universal identity, parthood proof, or an occurrence constructor. |
+| [Digital Twin Consortium AECO work](https://www.digitaltwinconsortium.org/working-groups/aeco/) and its current interoperability line | Current digital-twin practice emphasizes model fidelity, interoperability, physical and digital components, lifecycle use, and synchronization. | `C.30.AD.BA:2.4` assigns model, system, telemetry, simulation, Work, transformation, representation, publication, and currentness to their direct governors; when one use crosses design and run, `BuiltAssetDesignRunSeparationUse` classifies only exact existing refs on the two sides. | Select the fidelity and freshness needed for the architecture use, fill the local design/run carrier only when the boundary is current, and never treat connection, co-display, or the local classification as architecture adequacy, identity, parthood, or actual change. |
+| FPF `A.1`, `A.22`, `C.30`, `C.30.AD`, `E.17.0`, and `C.30.ASV` | Holon identity, selected structure, direct architecture relation, bounded claim, description episteme, viewpoint, and structural-view conformance already have separate governing patterns. | This pattern specializes their use for built assets rather than importing a built-environment upper ontology or a second description/view identity. | The same method works for a building, plant, bridge, transport asset, or another engineered built holon. |
 
-### C.30.AD.BA:11 - Relations
+### C.30.AD.BA:8 - Relations
 
 - **Specializes:** `C.30.AD` for built-asset architecture-description use.
-- **Uses architecture and structure owners:** `C.30`, `C.30.ASV`, `A.1`, and `A.22`.
-- **Uses description and publication owners:** `E.17`, `E.17.0`, `E.17.1`, `E.17.2`, `E.24.PUB`, and `A.7`.
-- **Coordinates built-asset views with:** `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.29`, `C.16`, `C.27`, and `F.18`.
-- **Returns authority claims to:** `A.10`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, and `C.28`.
+- **Uses architecture and structure patterns:** `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `A.6.M`, `C.30.TFS-REL`, and `C.30.LCA`.
+- **Uses description, view, representation, and publication patterns:** `C.2.1`, `A.7`, `E.17.0`, `E.17`, `E.24.PUB`, and `C.29`.
+- **Uses relation, naming, and currentness patterns:** the exact direct designation/reference owner; `A.6.P` for precision repair; `A.6.RCD` only for a demonstrated missing reusable governor; `A.6.REL` only after a direct owner admits a relation and occurrence identity matters; `F.18`; and `G.11`.
+- **Uses lifecycle information-management source discipline from:** exact published `ISO 19650-1:2018` and `ISO 19650-3:2020` editions through source-to-use, edition, currentness, source-return, and admissible-use boundaries, without ontology or authority import.
+- **Lowers design/run separation through:** one local `BuiltAssetDesignRunSeparationUse` over exact C.2.1 descriptions, `A.15` Work, source-use paths, `G.11` currentness, directly governed correspondence or coupling, and A.3.4 transformation refs; the local classification admits no kind or relation.
+- **Routes auxiliary-view claims to:** `C.16` for characteristic measurement, `A.15` for operation or maintenance Work, `C.27.TA` for positive temporal aspects, `C.27` for action-guiding temporal-claim adequacy, `C.28` when an intervention, maintenance action, simulation, telemetry change, or claimed effect is used causally, `A.10` for evidence or material reliance, `B.3` for assurance, and `G.11` for currentness and reopen conditions.
+- **Routes gate- and release-looking uses to:** `A.21` only for an actual gate-decision relation; otherwise the display remains a cue. Route a release action or other performed Work to `A.15.1`, work-entry readiness to `A.15.5`, a permission result or exercise to `A.2.8.PER`, an instituting or revoking grant act to `A.2.9`, and a subject-release claim to its named predicate and participants or `A.6.RCD missing-governor`; none of these claims entails another.
+- **Returns other claims to:** `A.3.4` and the direct transformation, evaluation, evidence, assurance, Work, decision, acceptance, or project-use pattern named by the claim.
 
 ### C.30.AD.BA:End
 
@@ -60855,117 +61094,149 @@ Neighboring claims stay with their governing patterns: `A.22` for selected-struc
 
 ### C.30.ASV:1 - Problem frame
 
-Use this pattern when an architecture discussion needs a view over selected architecture-relevant `U.Structure` refs in an `ArchitectureOf@Context` claim.
+Use this pattern when an architecture discussion needs a structural description of one exact selected architecture-relevant `U.Structure`, and the receiving use must decide whether that description is also a `U.View` under one exact viewpoint.
 
-The first useful move is `ArchitectureStructureKindTriage@Project`: name the architecture claim or pre-claim described holon and bounded context, the smallest useful `ArchitectureStructureKindRef` set, the selected structure or structure-kind under consideration, and the next admissible architecture move.
+The first useful move is `ArchitectureStructureKindTriage@Project`: name the exact described holon or actual `ArchitectureRelation` occurrence when known, the smallest useful `ArchitectureStructureKindRef` set, the selected structure under consideration, the use qualifiers that actually change interpretation, and the next admissible architecture move.
 
 ```text
 ArchitectureStructureKindTriage@Project:
-  architectureClaimRef?:
-  describedHolonRef?:
-  boundedContextRef?:
-  candidateStructureKindRefs:
-  smallestUsefulStructureKindRefs:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureStructuralViewProjectUseRelationRef?: U.RelationRef governed by the exact triage-use or view-use pattern
+  architectureClaimRef?: U.EpistemeRef constrained to ArchitectureClaim
+  architectureRelationOccurrenceRef?: ArchitectureRelationRef
+  describedHolonRef?: U.HolonRef
+  candidateViewEpistemeRef?: U.EpistemeRef
+  exactViewpointRef?: U.ViewpointRef
+  viewpointConformanceRelationRef?: EpistemeViewpointConformanceRelationRef
+  claimScope?: U.ClaimScope, byValue
+  effectiveReferenceScheme?: U.ReferenceScheme, byValue
+  modelUseStructureRef?: U.StructureRef
+  candidateStructureKindRefs: FinSet(ArchitectureStructureKindRef)
+  smallestUsefulStructureKindRefs: FinSet(ArchitectureStructureKindRef)
+  selectedStructureRefs?: FinSet(U.StructureRef)
   primaryGoverningPatternApplicationRef:
   admissibleArchitectureMove:
   stopCondition:
 ```
 
-`@Project` guard: in this triage name, `@Project` marks a project-side use card for first-pass architecture-structure triage. It is not `U.Project`, not a bounded context, not project authority, and not a part-whole relation. If one of those claims is current, use the governing project, context, authority, or part-whole pattern named by value.
+`@Project` is a compatibility and retrieval cue for a project-side use record. It supplies no project identity, authority, context, viewpoint, parthood, or Work occurrence. When one actual project matters to this triage, `projectWorkOccurrenceRef` identifies the composite `U.Work` recovered under `A.15.6`, and `architectureStructuralViewProjectUseRelationRef` identifies the exact obtaining relation by which the triage or structural-view use concerns that work. A Work reference without that direct relation does not establish project locality.
 
-Start with `C.30` when the architecture claim itself is unclear. Use C.30.ASV only when a structural view over selected architecture-relevant structure changes the next architecture use. Use a full `ArchitectureStructuralView@Context` only when the view changes action, selected reliance relation, correspondence, source return, publication, comparison, or another governing-pattern use.
+Start with `C.30` when the actual architecture relation, exact selected structure, or architecture claim is unclear. Use C.30.ASV only when a structural description over selected architecture-relevant structure changes the next architecture use. Use the full `ArchitectureStructuralView` record only when one exact description episteme passes E.17.0 conformance to an exact viewpoint and the view changes action, selected reliance relation, correspondence, source return, publication, comparison, or another governing-pattern use.
 
-What goes wrong if C.30.ASV is missed: one favored diagram, module view, TEVB viewpoint, generated relation graph, control sketch, or neural-network block diagram is treated as the architecture view or proof without naming the selected structure kind, hidden or lost structure, correspondence, and next architecture use.
+What goes wrong if C.30.ASV is missed: one favored diagram, module view, TEVB viewpoint, generated relation graph, control sketch, or neural-network block diagram is treated as the architecture, selected structure, `U.View`, or proof without naming the exact description episteme, selected structure kind, viewpoint-conformance occurrence, hidden or lost structure, correspondence, and next architecture use.
 
-What C.30.ASV buys in practice: the practitioner can bind selected structure kind to view record, viewpoint, construction mode, selected relations, hidden or lost structure, correspondence, source-return condition, and admissible use before relying on that view.
+What C.30.ASV buys in practice: the practitioner can keep description identity, selected structure kind, exact viewpoint conformance, construction history, selected relations, hidden or lost structure, correspondence, source-return condition, representation, publication, and admissible use separately inspectable before relying on the view.
 
-Not this pattern when the question under repair is only the general architecture claim, structure as such, selected transformation-flow relation, mathematical graph description, transformation-flow path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, `E.18.2`, `C.29`, or `C.30.TFS-REL` as appropriate. If the view is used for another claim being made, use the governing pattern and keep C.30.ASV only to the view portion.
+Not this pattern when the question under repair is only the general architecture claim, subject-side `ArchitectureRelation`, structure as such, selected transformation-flow relation, mathematical graph description, transformation-flow path relation, or crossing relation. Use `C.30`, `A.22`, `E.18`, `E.18.2`, `C.29`, or `C.30.TFS-REL` as appropriate. If the view is used for another claim being made, use the governing pattern and keep C.30.ASV only to the view portion.
 
-Thin precision-restoration pointer: if the issue under repair is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural view, an architecture description, a publication face, a publication form, a source relation, or another governed claim or relation named by value, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; apply C.30.ASV only after the architecture structural-view claim or non-ASV claim named by value is recoverable.
+Thin precision-restoration pointer: if the issue under repair is still whether *view*, *architecture view*, *architecture structural view*, *diagram*, *model*, *graph*, *layer*, or *functional architecture* names a structural description, a `U.View`, an architecture description, a representation, a publication occurrence, a publication form, a source relation, or another governed claim or relation named by value, use `C.30.P` first. Do not copy the `C.30.P` trigger table here; apply C.30.ASV only after the architecture structural-view claim or non-ASV claim named by value is recoverable.
 
 ### C.30.ASV:2 - Problem
 
-An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is under consideration, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view claim is being made, only to record that selected-structure move. Publication faces, forms, units, and renderings may publish the view; they are not the view and do not become the selected structure.
+Architecture structural-view work is selected-structure triage: which architecture-relevant structure is described, which structure kind is under consideration, which exact viewpoint's fixed rules the description satisfies, and what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source-to-use path or work-reliance relation, and source-return condition changes the next architecture move. The candidate is first one C.2.1 description episteme. That same episteme is a `U.View` only while an exact `EpistemeViewpointConformanceRelation` to an independently identified `U.Viewpoint` episteme obtains. Diagram, representation, publication occurrence, form, carrier, and rendering remain separate.
 
 Without this pattern:
 
 - a module-interface view is treated as all architecture;
 - a selected transformation-flow structure, mathematical graph description, or control diagram is treated as proof;
 - a structure kind is treated as a `U.Viewpoint`;
+- a viewpoint label, query, authoring route, bundle membership, diagram, or publication is treated as enough for `U.View`;
 - a TEVB viewpoint bundle is mutated to carry architecture-specific structure kinds;
-- a diagram, table, dashboard, generated relation graph, or ADR is treated as the view itself;
+- a diagram, table, dashboard, generated relation graph, or ADR is treated as the view episteme itself;
 - functional architecture is treated as a peer ontology rather than a structure-kind interpretation under C.30;
-- cross-view consistency is asserted by prose instead of correspondence records;
+- cross-view consistency is asserted by prose instead of correspondence claims or governed direct relations;
 - omitted structure is relied on in subsequent work without a source-return condition.
 
 ### C.30.ASV:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| View usefulness vs view overread | Views make architecture discussable, but a useful publication form or source material can be mistaken for the architecture claim, selected structure, publication, proof, or decision. |
-| Structure kind vs viewpoint | A structure kind classifies selected structure; a viewpoint names a way of viewing. They often appear together but are not the same kind. |
-| TEVB reuse vs TEVB mutation | TEVB gives useful engineering viewpoints over holons; architecture needs more structure kinds without expanding the TEVB core by implication. |
-| Small triage vs full view record | Many cases need only the structure kind under consideration and next architecture use; full view records are justified only when they change action. |
+| View usefulness vs view overread | Views make architecture discussable, but a useful description episteme, diagram, or publication form can be mistaken for architecture, selected structure, view membership, proof, or decision. |
+| Structure kind vs viewpoint | A structure kind classifies selected structure; one exact viewpoint episteme states the rules under which the same candidate episteme is a view. They often appear together but are not the same object. |
+| TEVB reuse vs TEVB mutation | TEVB gives useful engineering viewpoints over holons; architecture needs more structure kinds without expanding the TEVB core or deriving view membership from bundle inclusion. |
+| Small triage vs full view record | Many cases need only the structure kind under consideration and next architecture use; the full description-plus-conformance record is justified only when it changes action. |
 | Multi-view correspondence vs single-view shortcut | Architecture work often needs relations among functional, flow, control, module, information, work, evidence, scale, and placement views; one favored diagram cannot carry all claims. |
 | Hidden structure vs practical compression | A useful view omits something; omitted structure becomes a problem only when subsequent action relies on it. |
 
 ### C.30.ASV:4 - Solution
 
-Govern architecture structural views by first naming the selected architecture-relevant structure, structure kind, view construction, correspondence, hidden or lost structure, source or reliance relation, source-return condition, admissible use, and next architecture move. Use `ArchitectureStructuralView@Context` as the record form when that view must be durable, reusable, comparable, or reliance-bearing.
+Govern architecture structural views by first identifying one candidate description episteme, its exact selected `U.Structure` EntityOfConcern, effective `U.ReferenceScheme`, structure kind, exact viewpoint episteme, and the direct conformance occurrence. Then add construction history, correspondence, hidden or lost structure, source-to-use path or work-reliance relation when current, source-return condition when needed, admissible use, and next architecture move. Use `ArchitectureStructuralView` only for the same episteme whose E.17.0 conformance actually obtains.
 
-A conforming `ArchitectureStructuralView@Context` record is a Description or view over selected `U.Structure` references in one `ArchitectureOf@Context` claim record, under one declared `ArchitectureStructureKindRef` and one `DescriptionContext.ViewpointRef`. The description and view machinery makes the selected-structure move inspectable; it does not replace that move.
+A conforming `ArchitectureStructuralView` is not a second individual beside its description. The candidate retains one C.2.1 identity `<exact ClaimGraph, one exact selected-structure EntityOfConcern, effective U.ReferenceScheme>`. The exact viewpoint and `EpistemeViewpointConformanceRelation` qualify that same episteme as `U.View`; they do not enter its C.2.1 identity.
 
-C.30.ASV is the selected-structure-kind-to-view relation pattern for architecture work. It explains how different selected structure kinds become views under declared viewpoints and concerns. It is not a complete architecture-description pattern; a durable `ArchitectureDescription@Context` composes one or more structural-view records through C.30 and E.17.0 only when description use is being made.
+C.30.ASV is the selected-structure structural-view adequacy pattern for architecture work. It explains how descriptions of different selected structure kinds may satisfy declared viewpoints and concerns. It is not a complete architecture-description pattern; `C.30.AD` composes separately identified descriptions, view-use claims, and correspondence only when that broader description use is being made.
 
-C.30.ASV does not extend the TEVB core viewpoint set by implication. It defines architecture structure kinds and architecture-specific structure-kind and view-record bindings. TEVB viewpoints are reused when the structure-kind view uses one of the TEVB core viewpoints; other structure-kind views use `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, a governing FPF pattern, or a source or reliance record.
+C.30.ASV does not extend the TEVB core viewpoint set by implication. It defines architecture structure kinds and architecture-specific bindings to exact viewpoint epistemes. TEVB viewpoints are reused when their fixed E.17.0 rules fit; other structure descriptions use exact viewpoints from `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, or a governing FPF pattern. Source-to-use, work-reliance, project-use, representation, and publication relations remain separate from viewpoint conformance.
 
 #### C.30.ASV:4.1 - Architecture structural view record
-`StructuralAspectDescription@Context` describes one selected structural aspect under A.22. It is not an `ArchitectureStructureKindRef` by itself. `ArchitectureStructuralView@Context` is a C.30.ASV view over structures selected by `ArchitectureOf@Context` and typed by `ArchitectureStructureKindRef`.
+
+`StructuralAspectDescription` describes one selected structural aspect under A.22. It is not an `ArchitectureStructureKindRef` or `U.View` by itself. `ArchitectureStructuralView` names the same architecture-description episteme only after exact E.17.0 conformance obtains.
 
 ```text
-ArchitectureStructuralView@Context ::= {
-  viewId,
-  architectureClaimRef: ArchitectureOf@ContextRef,
-  descriptionContext: DescriptionContext(
-    EntityOfConcernRef = selectedStructureEntityOfConcernRef,
-    BoundedContextRef = ArchitectureOf@Context.boundedContextRef,
-    ViewpointRef = viewpointRef
-  ),
-  selectedStructureEntityOfConcernRef: U.StructureRef | FinSet(U.StructureRef) (= structureRefs),
-  viewpointRef: U.ViewpointRef (= descriptionContext.ViewpointRef),
-  structureRefs: FinSet(U.StructureRef),
+ArchitectureStructuralView ::= ArchitectureDescription & U.View & {
+  viewEpistemeRef: U.EpistemeRef,
+  claimGraph: exactly one C.2.1 ClaimGraph,
+  entityOfConcernRef: selectedStructureRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+
+  selectedStructureRef: U.StructureRef,
+  relatedStructureRefs?: FinSet(U.StructureRef),
   structureKindRef: ArchitectureStructureKindRef,
+
+  viewpointRef: U.ViewpointRef,
+  viewpointConformanceRelationRef: EpistemeViewpointConformanceRelationRef,
+  concernRefs?: FinSet(U.EntityRef),
+
+  describedHolonRef?: U.HolonRef,
+  architectureRelationOccurrenceRefs?: FinSet(ArchitectureRelationRef),
+  architectureClaimRefs?: FinSet(U.EpistemeRef constrained to ArchitectureClaim),
+  claimScope?: U.ClaimScope, byValue,
+  modelUseStructureRef?: U.StructureRef,
+  empiricalGroundingRelationRefs?: FinSet(EpistemeEmpiricalGroundingRelationRef),
+
   recordGoverningPatternRef,
-  selectedRelationKinds,
+  selectedRelationKindRefs?,
   selectedConstraintRefs?,
   selectedInvariantRefs?,
-  selectedOperationOrDynamicsDescriptionRefs?,
+  selectedOperationDescriptionRefs?,
+  selectedDynamicsDescriptionRefs?,
   viewConstruction:
     directDescription | projection | query | extraction |
     coarsening | correspondenceSlice | sourceReturnSlice,
-  structuralAspectDescriptionRef?,
+  structuralAspectDescriptionRef?: U.EpistemeRef,
   hiddenOrLostStructure,
   structureKnowledgeState?:
     declared | observed | inferred | generated | simulated |
     extracted | hypothesized | unknownRegionPresent,
-  correspondenceModelRefs?,
-  sourceOrRelianceRelationRefs?,
+  correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef),
+  sourceToUsePathRefs?: FinSet(U.RelationRef),
+  workRelianceRelationRefs?: FinSet(U.RelationRef),
   sourceReturnCondition?,
+
+  representationRefs?: FinSet(U.EntityRef),
+  publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef),
+  publicationFormRefs?: FinSet(U.EntityRef),
+  carrierRefs?: FinSet(U.EntityRef constrained to U.PresentationCarrier),
   admissibleUse,
   nonAdmissibleUse
 }
 ```
 
-`DescriptionContext.EntityOfConcernRef` names the selected structure or selected structure set represented by `structureRefs`. `architectureClaimRef` names the enclosing `ArchitectureOf@Context` claim, and the described holon and bounded context are recovered through that claim record.
+The selected `U.Structure` is the one EntityOfConcern. Before that field can be filled, A.22 identifies the structure from exact constituents, selected independently obtaining relation occurrences, applied constraint claims, and one exact receiving-use frame. A description, query, diagram, bundle, file, representation, or publication creates none of those discriminators. `relatedStructureRefs` may name structures needed to interpret correspondence, allocation, or crossing, but they do not create a union-valued EntityOfConcern. When another selected structure becomes primary, identify another description episteme or use exact C.2.1 edition/retargeting semantics; do not overwrite identity through a view field.
 
-**EntityOfConcern discipline.** C.30.ASV treats selected structure as the EntityOfConcern for this view use when the view concerns dependent, non-agentive organization rather than one publication form or source material. This does not add a parallel EntityOfConcern head: `DescriptionContext.EntityOfConcernRef`, `selectedStructureEntityOfConcernRef`, and `structureRefs` must converge on the same selected structure or structure set, while `architectureClaimRef` remains the enclosing architecture-claim context.
-`viewpointRef` is a recovery label for `descriptionContext.ViewpointRef`, not a second independent viewpoint slot. If the implementation stores only `DescriptionContext`, the viewpoint remains recoverable there.
+The direct conformance occurrence has exactly two participants: `viewEpistemeRef` as candidate E and `viewpointRef` as exact P. Its fixed E.17.0 predicate requires: (1) independently identified E and admitted P; (2) exact `EntityOfConcern(E)` recovered; (3) P's fixed EntityOfConcern-kind criterion succeeds for that exact object; (4) E has an independently governed episteme kind admitted by P without circular `U.View` use; and (5) E's fixed claim content under its effective scheme satisfies P's concern-coverage, semantic-form, completeness, and admitted-omission rules. The occurrence is participant-determined by `<E,P>`.
 
-`structureKnowledgeState?` states how the selected structure is known when partial knowledge matters: declared, observed, inferred, generated, simulated, extracted, hypothesized, or with an unknown region present. Unknown or inferred structure may guide inspection or source return; it cannot by itself supply assurance, gate, release, causal proof, or architecture decision.
+An architecture claim can carry positive, negative, unresolved, required, desired, expected, or candidate content. `architectureRelationOccurrenceRefs` is affirmative only for independently obtaining direct `ArchitectureRelation` occurrences. `describedHolonRef` and participant traces keep the subject recoverable; neither an optional claim nor a diagram derives the subject-side occurrence.
+
+`ClaimScope`, concern, model-use structure, and empirical grounding remain optional neighboring qualifiers or relations. `modelUseStructureRef` appears only when an independently selected DDD-style bounded-model-use structure changes interpretation or selection for this use. None enters base episteme or selected-structure identity.
+
+`viewConstruction` records provenance only. Direct authoring, A.6.3 construction, projection, query, extraction, selection, bundle inclusion, diagramming, rendering, publication, evaluation, or current use neither satisfies the conformance predicate nor creates selected structure. Representation, publication occurrence, form, and carrier likewise retain their own identities.
+
+`structureKnowledgeState?` states how the selected structure is known when partial knowledge matters: declared, observed, inferred, generated, simulated, extracted, hypothesized, or with an unknown region present. Unknown or inferred structure may guide inspection or source return; it cannot by itself supply architecture truth, assurance, gate, release, causal proof, or architecture decision.
 
 #### C.30.ASV:4.2 - Architecture structure-kind classifier
 
-`ArchitectureStructureKindRef` is a C.30-local `DiscriminatorToken` enumeration over architecture-relevant `U.Structure` references selected by `ArchitectureOf@Context`. It is not `U.Kind`, `U.Viewpoint`, `U.ViewpointBundle`, `StructuralAspectDescription`, `StructuralView@Context`, or a root `U.*` kind. `ArchitectureStructuralView@Context` uses `structureKindRef` to say which selected structure kind is being viewed.
+`ArchitectureStructureKindRef` is a C.30-local `DiscriminatorToken` enumeration over exact architecture-relevant `U.Structure` references selected under A.22 and used by C.30. It is not `U.Kind`, `U.Viewpoint`, `U.ViewpointBundle`, `StructuralAspectDescription`, `ArchitectureStructuralView`, or a root `U.*` kind. An `ArchitectureStructuralView` uses `structureKindRef` to state which kind of selected structure its claim graph describes; that token neither identifies the structure nor grants `U.View` membership.
 
 ```text
 ArchitectureStructureKindRef ::= one of {
@@ -60990,6 +61261,7 @@ ArchitectureStructureKindRef ::= one of {
 ```
 
 The first group is the seed classifier set for ordinary architecture structural-view use. `SecurityTrustBoundaryStructure`, `WorkMethodStructure`, `AllocationResponsibilityStructure`, `EvidenceAssuranceStructure`, and `ScaleEvolutionStructure` are classifier values over selected `U.Structure` references, not new root kinds. ASV may use them to name the selected architecture-relevant structure, but their full semantics stay in the named security, work and method, allocation-responsibility, evidence and assurance, scale, characterization, or mathematical-lens patterns.
+
 Do not enumerate structure kinds by default. Choose the smallest useful structure-kind set that changes the next architecture move. If no structure kind changes action, keep the phrase as ordinary recognition wording or a source note. This does not weaken kind discipline; it prevents `ArchitectureStructureKindRef` from becoming an audit checklist.
 
 Inside C.30.ASV, `OtherDeclaredStructureKind` is always an architecture-structure-kind classifier value over `U.Structure`; it does not mint a general FPF root kind.
@@ -61001,9 +61273,9 @@ Inside C.30.ASV, `OtherDeclaredStructureKind` is always an architecture-structur
 - allowed relation families;
 - locally triggered overreads;
 - governing-pattern applications;
-- `boundedContextRef`.
+- a selected-structure admission test, plus the effective `U.ReferenceScheme` when the local classifier name depends on one.
 
-Each structure kind needs a short definition, allowed relation families, locally triggered overreads, typical governing-pattern applications, and example architecture structural view records. This is not a new root-kind set; it is a controlled classifier set over `U.Structure`.
+Each structure kind needs a short definition, allowed relation families, locally triggered overreads, typical governing-pattern applications, and example architecture structural-view records. This is not a new root-kind set; it is a controlled classifier set over exact `U.Structure` values.
 
 #### C.30.ASV:4.3 - Small triage output
 
@@ -61011,14 +61283,23 @@ Use `ArchitectureStructureKindTriage@Project` before a full view record when the
 
 ```text
 ArchitectureStructureKindTriage@Project ::= {
-  architectureClaimRef?: ArchitectureOf@ContextRef,
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work,
+  architectureStructuralViewProjectUseRelationRef?: U.RelationRef governed by the exact triage-use or view-use pattern,
+  architectureClaimRef?: U.EpistemeRef constrained to ArchitectureClaim,
+  architectureRelationOccurrenceRef?: ArchitectureRelationRef,
   describedHolonRef?: U.HolonRef,
-  boundedContextRef?: U.BoundedContextRef,
+  candidateViewEpistemeRef?: U.EpistemeRef,
+  exactViewpointRef?: U.ViewpointRef,
+  viewpointConformanceRelationRef?: EpistemeViewpointConformanceRelationRef,
+  claimScope?: U.ClaimScope, byValue,
+  effectiveReferenceScheme?: U.ReferenceScheme, byValue,
+  modelUseStructureRef?: U.StructureRef,
   architectureConcernCue?,
-  sourceMaterialRef?,
+  sourcePhrase?,
+  inspectedDescriptionOrViewRef?: U.EpistemeRef,
   candidateStructureKindRefs: FinSet(ArchitectureStructureKindRef),
   smallestUsefulStructureKindRefs: FinSet(ArchitectureStructureKindRef),
-  selectedStructureRefs?,
+  selectedStructureRefs?: FinSet(U.StructureRef),
   hiddenOrLostStructureCueRefs?,
   primaryGoverningPatternApplicationRef?,
   admissibleArchitectureMove:
@@ -61030,9 +61311,10 @@ ArchitectureStructureKindTriage@Project ::= {
 }
 ```
 
-`architectureConcernCue?` and `sourceMaterialRef?` are recognition and source-reference positions; they do not create `ArchitectureStructureKindRef` values. `primaryGoverningPatternApplicationRef?` names the one direct governing pattern that carries the next non-ASV claim kind when such a claim is current. `nonAdmissibleOverread?` names only the overread that would change this triage. Candidate generation, evidence, assurance, gate, publication, decision, or work claims are named through `governingPatternApplicationRefs?` and stay with their governing patterns rather than becoming ASV fields.
+`architectureConcernCue?` and `sourcePhrase?` are recognition wording. `inspectedDescriptionOrViewRef?` and `candidateViewEpistemeRef?` name actual epistemes only when identified under C.2.1. None creates an `ArchitectureStructureKindRef`, selected structure, architecture relation, or `U.View`. Fill `exactViewpointRef` and `viewpointConformanceRelationRef` only when the same candidate episteme actually qualifies as a view.
 
-When `architectureClaimRef` is absent, `describedHolonRef` and `boundedContextRef` are required for triage. This pre-claim form does not create a new kind and does not publish an `ArchitectureOf@Context` claim by itself; it only lets the practitioner identify the structure kind under consideration before forming a full architecture claim. A full `ArchitectureStructuralView@Context` still requires `architectureClaimRef`; do not promote triage to a full view record until that architecture claim is available.
+When `architectureClaimRef` is absent, `describedHolonRef`, `architectureRelationOccurrenceRef`, or at least one exact candidate selected structure must keep the subject recoverable for the intended triage. `claimScope`, `effectiveReferenceScheme`, and `modelUseStructureRef` are present only when they change this use. The card publishes no architecture claim and creates no subject relation. A full `ArchitectureStructuralView` requires the candidate episteme's exact C.2.1 identity plus obtaining E.17.0 conformance; it does not require an architecture-claim record when the exact selected-structure EntityOfConcern and subject trace are otherwise recoverable.
+
 Practitioner prompt labels are first-entry cues, not `ArchitectureStructureKindRef` values. FPF-governed records use the Tech values below:
 
 ```text
@@ -61045,55 +61327,55 @@ Role -> AllocationResponsibilityStructure
 Evidence -> EvidenceAssuranceStructure
 Scale -> ScaleEvolutionStructure
 Security -> SecurityTrustBoundaryStructure
-
 ```
 
 #### C.30.ASV:4.3a - Evolutionary-engineering candidate structural view
 
-Use this view when a retained variant, front member, selected set, or architecture-candidate palette needs structural-view triage. The ASV claim is not "this archive is architecture"; it is "this candidate makes a selected structure or structure kind current for an `ArchitectureOf@Context` claim."
+Use this branch when a retained variant, front member, selected set, or architecture-candidate palette needs structural-description triage. The claim is not "this archive is architecture" and not "this record is already a `U.View`." It is "this candidate makes an exact selected structure or structure kind current for an architecture claim or possible architecture move."
 
 ```text
-ArchitectureCandidateStructuralView@Context:
+ArchitectureCandidateStructuralDescription:
   CandidateSetOrArchiveRef:
   CandidateRef:
-  ArchitectureOfRef:
+  DescribedHolonOrArchitectureRelationRef:
   SelectedStructureOrStructureKindRef:
-  StructuralViewRef:
+  CandidateDescriptionEpistemeRef:
+  ExactViewpointRef?:
+  ViewpointConformanceRelationRef?:
   AffectedCharacteristicRef:
   CorrespondenceOrLossRef?:
   NextGoverningPatternRef:
 ```
 
-If the candidate cannot name a selected structure or structure kind, keep it in `C.18`, `C.19`, or `G.5`. If the view only publishes, compares, or explains the candidate, use `C.30.AD`, the comparison pattern, or the publication-use pattern named by value. ASV admits the candidate only for selected-structure triage.
+If the candidate cannot name an exact selected structure or structure kind, keep it in `C.18`, `C.19`, or `G.5`. If the description only publishes, compares, or explains the candidate, use `C.30.AD`, the comparison pattern, or the publication-use pattern named by value. It is an `ArchitectureStructuralView` only when the same candidate description episteme independently conforms to the exact viewpoint under E.17.0.
 
 #### C.30.ASV:4.4 - Architecture viewpoint bundle and binding rows
 
+Architecture structural views can reuse exact viewpoint epistemes collected in `VF.ARCH.STRUCTURE` without turning structure kinds into viewpoints. The bundle is separate from `VF.TEVB.ENG`: it may import TEVB, but it does not expand the TEVB core engineering viewpoint set.
 
-
-Architecture structural views use `VF.ARCH.STRUCTURE` without turning structure kinds into viewpoints. The bundle is separate from `VF.TEVB.ENG`: it may import TEVB, but it does not expand the TEVB core engineering viewpoint set.
-
-Declaration source: `VF.ARCH.STRUCTURE` is an `E.17.1` and `F.18` declared viewpoint bundle for architecture structural-view records. Its `VP.Architecture*` ids are viewpoint ids only. They do not add TEVB viewpoints, name structure kinds, define publication faces, or carry decision, evidence, gate, or assurance authority.
+Declaration source: `VF.ARCH.STRUCTURE` is an `E.17.1` and `F.18` declared viewpoint bundle. Its `VP.Architecture*` ids resolve to exact `U.Viewpoint` epistemes. They do not add TEVB viewpoints, name structure kinds, define publication faces, or carry architecture, decision, evidence, gate, or assurance authority.
 
 #### C.30.ASV:4.4a - Structural-view publication-use boundary
 
-This subsection is the C.30.ASV structural-view publication-use boundary. C.30.ASV governs architecture structural-view adequacy: selected architecture-relevant structure, structure kind, view construction, correspondence, hidden structure and lost structure, source return, and next architecture move. When a view, diagram, graph, card, benchmark, probe output, model publication, or architecture note is used for evidence sufficiency, safety assurance, gate passage, release permission, work record, or decision authority, apply the pattern governing that claim; keep only the structural-view record and the next architecture move in C.30.ASV.
+This subsection is the C.30.ASV structural-view publication-use boundary. C.30.ASV governs exact description identity, selected architecture-relevant structure, structure kind, E.17.0 viewpoint conformance, construction history, correspondence, hidden structure and lost structure, source return, and next architecture move. When a view, diagram, graph, card, benchmark, probe output, model publication, or architecture note is used for evidence sufficiency, safety assurance, gate passage, release permission, work record, or decision authority, apply the pattern governing that claim; keep only the structural-view record and next architecture move in C.30.ASV.
 
 ```text
 VF.TEVB.ENG core stays:
   { VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface }
 ```
 
-TEVB is the small engineering viewpoint bundle over holons. The architecture problem is broader than TEVB, but the broader coverage is not solved by placing record sets inside a `U.ViewpointBundle`. The `U.ViewpointBundle` carries viewpoints; a separate architecture-local description binds structure kinds, view record sets, construction modes, correspondence requirements, and governing-pattern applications.
+TEVB is the small engineering viewpoint bundle over holons. The architecture problem is broader than TEVB, but the broader coverage is not solved by putting record sets in a `U.ViewpointBundle`. A bundle carries exact viewpoint epistemes. A separate architecture-local description binds structure-kind classifiers, candidate record sets, construction modes, correspondence expectations, and governing-pattern applications.
 
 ```text
 VF.ARCH.STRUCTURE : U.ViewpointBundle {
   viewFamilyId = VF.ARCH.STRUCTURE,
   imports = { VF.TEVB.ENG },
   EntityOfConcernClassSpec = {
-    a : ArchitectureOf@Context |
-    a.describedHolonRef and a.boundedContextRef are recoverable
+    e : U.Episteme |
+    C.2.1 identity of e is recoverable and
+    EntityOfConcern(e) is one exact selected U.Structure
   },
-  viewpoints = {
+  viewpointRefs = {
     VP.ArchitectureStructure,
     VP.ArchitectureCorrespondence,
     VP.ArchitectureSourceReturn,
@@ -61104,15 +61386,16 @@ VF.ARCH.STRUCTURE : U.ViewpointBundle {
 ArchitectureStructureKindViewRecordBinding ::= {
   structureKindRef: ArchitectureStructureKindRef,
   allowableViewpointRefs: FinSet(U.ViewpointRef),
-  viewRecordSetRef,
+  candidateViewRecordSetRef,
   allowedViewConstructionModes,
-  requiredCorrespondenceRefs?,
+  requiredConformanceRuleRefs,
+  requiredCorrespondenceClaimOrRelationRefs?,
   sourceReturnRequirement?,
   governingPatternApplicationRefs
 }
 ```
 
-`viewRecordSetRef` names the allowed Description-episteme or specification-use record set for one structure-kind binding. It is not a package grouping, not a `U.ViewpointBundle`, not a `ViewFamilyId`, and not a new TEVB viewpoint.
+`candidateViewRecordSetRef` names an exact collection of permitted description or specification-use record forms for one structure-kind binding. The binding and bundle may help resolve candidate E and exact P, but neither makes the five-part E.17.0 predicate true, identifies an `EpistemeViewpointConformanceRelation` occurrence, grants `U.View` membership, or creates the selected structure. It is not a publication face, package grouping, `ViewFamilyId`, or new TEVB viewpoint.
 
 #### C.30.ASV:4.5 - Initial architecture structure kinds and view records
 
@@ -61120,17 +61403,17 @@ The initial set is a seed for first architecture moves, not an atlas. Use the ta
 
 | Seed structure kind | Structural view | Minimum record fields beyond common ASV fields | First boundary |
 | --- | --- | --- | --- |
-| `FunctionalStructure` | `FunctionalStructureView@Context` | `functionalBehaviorRefs`, `functionalElementRefs?`, `transformerSideFillerRefs?`, `candidateBearerRefs?`, input-condition refs, output-condition refs, functional-port refs, capability refs, dependency refs, allocation refs, correspondence refs | Use `A.6.F`, `A.3.4`, capability, work, module-allocation, or requirement patterns when those claims are being made. |
-| `TransformationFlowStructure` | `TransformationFlowStructureView@Context` | `transformationFlowStructureRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs`, `mathematicalDescriptionRefs?` | Use `E.18` and `C.30.TFS-REL` for selected transformation-flow structure, transformation-flow path, or crossing input; use `E.18.2` and `C.29` for mathematical graph descriptions; use `C.28` for causal claims. |
-| `RuntimeInteractionStructure` | `RuntimeInteractionStructureView@Context` | runtime elements, connectors and protocols, event topology and message topology, failure boundaries and latency boundaries | Use temporal, failure, evidence, or assurance patterns when runtime claims exceed structure. |
-| `ModuleInterfaceStructure` | `ModuleInterfaceStructureView@Context` | module relation refs, interface specs, admissibility conditions, substitutability policy or change policy | Use `A.6.M` module-relation repair and conformance evidence when those claims are being made. |
-| PlacementDeploymentStructure | PlacementDeploymentStructureView@Context | allocation-to-site refs or environment refs, network locality or physical locality, jurisdiction constraints or safety constraints | Use temporal, evidence, law-domain, regulatory, or safety patterns when claims of those non-placement kinds are being made. |
-| `InformationDataStructure` | `InformationDataStructureView@Context` | state bearer and residence refs, schema refs, semantic refs, persistence locus, provenance relation, custody relation, source-return conditions, privacy constraints | Use evidence, privacy, or source-return patterns when those claims are being made. |
-| `SecurityTrustBoundaryStructure` | `SecurityTrustBoundaryStructureView@Context` | protected asset or effect refs, trust boundary refs, untrusted input refs, privilege or authority refs, data-flow and control-flow refs, attack exposure refs, abuse or misuse path refs, secure-default or hardening boundary, supply-chain or update-channel refs, detection-response boundary refs when the corresponding claim is being made | Gives a first security-architecture move before evidence, assurance, gate, risk-score, or compliance proof. |
-| `ControlStructure` | `ControlStructureView@Context` | control role refs, declared control-rate refs, observer, estimator, controller, planner, and supervisor relations, feedback refs | Use `C.30.LCA`, dynamics, temporal, causal, evidence, and assurance patterns when those claims are being made. |
-| `ConstraintRequirementStructure` | `ConstraintRequirementStructureView@Context` | requirement refs, constraint refs, and invariant refs, affected structure refs, admissibility conditions | Requirements shape structures; requirement, gate, evidence, causal, or decision claims apply their governing patterns. |
-| `MaterialSpatialStructure` | `MaterialSpatialStructureView@Context` | geometry, adjacency, containment, energy flow or material flow, safety separation | Physical separation is not safety proof; safety, evidence, dynamics, or causal claims apply their governing patterns. |
-| `DeclaredLogicalStructure` | `LogicalStructureView@Context` | local logical relation class, relation constraints, correspondence to functional structures, module structures, runtime structures, and data structures | Covers `logical architecture` without making `logical` a universal ontology token. |
+| `FunctionalStructure` | `FunctionalStructureView` | `functionalBehaviorClaimRefs`, `requiredOrDesiredEffectClaimRefs?`, `actualTransformationRefs?`, `selectedTransformationFlowStructureRefs?`, `functionalElementClaimRefs?`, `transformerSideFillerRefs?`, `candidateBearerRefs?`, input-condition refs, output-condition refs, functional-port refs, capability refs, dependency refs, allocation refs, correspondence refs | Required/desired content stays a claim; use `A.3.4` only for independently actual transformations, and use capability, work, module-allocation, or requirement patterns when those claims are being made. |
+| `TransformationFlowStructure` | `TransformationFlowStructureView` | `transformationFlowStructureRef`, `pathSliceRefs`, `crossingRefs`, `valuationRefs`, `mathematicalDescriptionRefs?` | Use `E.18` and `C.30.TFS-REL` for selected transformation-flow structure, transformation-flow path, or crossing input; use `E.18.2` and `C.29` for mathematical graph descriptions; use `C.28` for causal claims. |
+| `RuntimeInteractionStructure` | `RuntimeInteractionStructureView` | runtime elements, connectors and protocols, event topology and message topology, failure boundaries and latency boundaries | Use temporal, failure, evidence, or assurance patterns when runtime claims exceed structure. |
+| `ModuleInterfaceStructure` | `ModuleInterfaceStructureView` | module claim or admitted relation refs, interface specs, admissibility conditions, substitutability policy or change policy | Use `A.6.M` module-claim repair and the direct interface or relation owner when those claims are being made. |
+| PlacementDeploymentStructure | PlacementDeploymentStructureView | allocation-to-site refs or environment refs, network locality or physical locality, jurisdiction constraints or safety constraints | Use temporal, evidence, law-domain, regulatory, or safety patterns when claims of those non-placement kinds are being made. |
+| `InformationDataStructure` | `InformationDataStructureView` | state bearer and residence refs, schema refs, semantic refs, persistence locus, provenance relation, custody relation, source-return conditions, privacy constraints | Use evidence, privacy, or source-return patterns when those claims are being made. |
+| `SecurityTrustBoundaryStructure` | `SecurityTrustBoundaryStructureView` | protected asset or effect refs, trust boundary refs, untrusted input refs, privilege or authority refs, data-flow and control-flow refs, attack exposure refs, abuse or misuse path refs, secure-default or hardening boundary, supply-chain or update-channel refs, detection-response boundary refs when the corresponding claim is being made | Gives a first security-architecture move before evidence, assurance, gate, risk-score, or compliance proof. |
+| `ControlStructure` | `ControlStructureView` | control role refs, declared control-rate refs, observer, estimator, controller, planner, and supervisor relations, feedback refs | Use `C.30.LCA`, dynamics, temporal, causal, evidence, and assurance patterns when those claims are being made. |
+| `ConstraintRequirementStructure` | `ConstraintRequirementStructureView` | requirement refs, constraint refs, and invariant refs, affected structure refs, admissibility conditions | Requirements shape structures; requirement, gate, evidence, causal, or decision claims apply their governing patterns. |
+| `MaterialSpatialStructure` | `MaterialSpatialStructureView` | geometry, adjacency, containment, energy flow or material flow, safety separation | Physical separation is not safety proof; safety, evidence, dynamics, or causal claims apply their governing patterns. |
+| `DeclaredLogicalStructure` | `LogicalStructureView` | local logical relation class, relation constraints, correspondence to functional structures, module structures, runtime structures, and data structures | Covers `logical architecture` without making `logical` a universal ontology token. |
 
 Externally governed classifier values remain admissible when they are the architecture-relevant structure under consideration, but C.30.ASV does not define their full record families:
 
@@ -61140,13 +61423,13 @@ Externally governed classifier values remain admissible when they are the archit
 | `AllocationResponsibilityStructure` | Responsibility or enactor allocation changes the architecture move. | Use role, enactor, organization, work, and stakeholder patterns when those claim kinds are being made; do not treat an org chart as architecture truth. |
 | `EvidenceAssuranceStructure` | Evidence reuse or assurance arrangement changes affected structure or source return. | Use `A.10`, `G.6`, or `B.3` for evidence sufficiency or assurance verdict; ASV only names the structure and loss boundary. |
 | `ScaleEvolutionStructure` | Scale window, replacement or change policy, trajectory reference, or coarse-graining changes the architecture move. | Use `C.29`, `C.16`, temporal, source-return, or decision patterns for scale, characterization, or selection claims. |
-| `OtherDeclaredStructureKind` | A local structure kind is declared because none of the seed or externally governed values fits. | Name definition, relation families, false interpretations, governing patterns, and context; do not mint a root kind by label alone. |
+| `OtherDeclaredStructureKind` | A local structure kind is declared because none of the seed or externally governed values fits. | Name its definition, selected-structure admission test, relation families, governing patterns, and effective reference scheme when local meaning depends on one; do not mint a root kind by label alone. |
 
 Minimum useful seed examples:
 
 | Structure kind | Minimal example | False interpretation | First governing pattern |
 | --- | --- | --- | --- |
-| `FunctionalStructure` | Capability, effect, or transformation allocation. | Purpose truth or requirement satisfaction. | `A.6.F`, capability, work, or requirement pattern when that claim kind is being made. |
+| `FunctionalStructure` | Capability, required or desired effect claim, or separately actual transformation allocation. | Purpose truth, requirement satisfaction, or a required effect treated as actual change. | `A.6.F`, `A.3.4` only for actual transformation, capability, work, or requirement pattern when that claim kind is being made. |
 | `TransformationFlowStructure` | Transformation-flow path, crossing, valuation, or selected transformation slice. | Whole architecture or causal proof. | `E.18`, `C.30.TFS-REL`, `E.18.2`, C.29, or C.28 when selected structure, graph description, transformation-flow path, crossing, mathematical-lens, or causal-use claim kind is being made. |
 | `ControlStructure` | Controller, observer, plant, feedback, or rate relation. | Stability, safety, or assurance proof. | `C.30.LCA`, temporal, dynamics, causal, evidence, or assurance pattern when that claim kind is being made. |
 | `ModuleInterfaceStructure` | Module relation, interface spec, or substitutability boundary. | Module tree as all architecture. | `A.6.M` module-relation repair, conformance evidence, or decision pattern when that claim kind is being made. |
@@ -61154,10 +61437,10 @@ Minimum useful seed examples:
 | `SecurityTrustBoundaryStructure` | Trust boundary, untrusted input, privilege path, or attack exposure. | Security proof, risk score, or compliance label. | Evidence, assurance, gate, `C.24` agentic tool-use relation or call-planning relation, C.16, C.25, or C.30.LCA when that security, evidence, assurance, gate, tool-use, measurement, quality, or control claim kind is being made. |
 | `MaterialSpatialStructure` | Separation, adjacency, containment, or energy path or material path. | Safety proof or geometry as architecture truth. | Safety, evidence, dynamics, or causal pattern when that claim kind is being made. |
 | `DeclaredLogicalStructure` | Local logical relation class with correspondence to other structures. | Universal logical architecture ontology. | Correspondence, function, module, runtime, data, or governing pattern when that relation is being claimed or a claim of that kind is being made. |
-Minimal `SecurityTrustBoundaryStructureView@Context` fields:
+Minimal `SecurityTrustBoundaryStructureView` fields:
 
 ```text
-SecurityTrustBoundaryStructureView@Context ::= {
+SecurityTrustBoundaryStructureView ::= {
   architectureStructuralViewRef:
   protectedAssetOrEffectRefs:
   trustBoundaryRefs:
@@ -61211,24 +61494,34 @@ The note gives a positive first architecture move: find the loss-control structu
 
 #### C.30.ASV:4.6 - Functional structure view boundary
 
-`FunctionalStructureView@Context` under C.30.ASV does not mint `U.Function`. It may publish `FunctionalElement@Context` as a view-local functional-structure record when the view selects a bounded context, a functional behavior, and a bearer or candidate-bearer locus. The functional element is not identical with the behavior: the behavior is grounded as `U.Transformation` for one bounded required change or required effect, or as `TransformationFlowStructure` for compound behavior, while the functional element is the view-local record that binds that behavior to bearer, capability, ports, and allocation claims when those claims are current.
+A `FunctionalStructureView` under C.30.ASV does not mint `U.Function`, `U.Transformation`, or a bearer relation. It is the same `ArchitectureStructuralView` episteme whose EntityOfConcern is one selected functional `U.Structure` and whose exact viewpoint conformance obtains. It may carry `FunctionalElementClaim` epistemes when the claim graph relates that selected functional structure to required or desired behavior/effect content and to a bearer or candidate-bearer locus. The claim is not identical with any actual behavior occurrence, bearer, capability, port, allocation, or relation.
 
-Identity for `FunctionalElement@Context` is:
+Keep three branches explicit:
 
-- selected `FunctionalStructureView@Context`;
-- bounded context;
-- functional behavior reference: `U.Transformation` or `TransformationFlowStructure`;
-- bearer or candidate-bearer locus: normally `U.System` or candidate system bearing `TransformerRole@Context`, or an explicit not-yet-allocated gap.
+- **required or desired behavior/effect:** a C.2.1 claim under its requirement, architecture, capability, method, functional-view, or other direct owner;
+- **actual transformation:** an independently identified `U.Transformation` only after A.3.4 recovers the changed referent, extent or boundary, boundary conditions, actual before/during/after facts, and continuity or reidentification basis;
+- **compound flow organization:** an exact selected `TransformationFlowStructure` under E.18, whose constituents and selected obtaining relations are independently identified; the structure is not itself an actual transformation.
 
-If no bearer or candidate allocation is current, do not claim a full functional element. Record a required transformation gap, required effect gap, capability gap, functional behavior slot, or candidate allocation question. This preserves the practical architecture move without pretending that a module, component, diagram row, or function word has already supplied the bearer.
+`FunctionalElementClaim` has ordinary C.2.1 identity `<exact ClaimGraph, one exact EntityOfConcern, effective U.ReferenceScheme>`. For this use its EntityOfConcern is the selected functional structure. Its claim content may name:
+
+- one or more required or desired behavior/effect claim refs;
+- actual transformation refs only when the complete A.3.4 basis independently obtains;
+- selected transformation-flow structure refs for compound flow organization;
+- a bearer or candidate-bearer locus, normally a `U.System` or candidate system for a separately governed transformer-role claim;
+- capability, input/output condition, functional-port, dependency, allocation, and correspondence refs only under their direct owners.
+
+If no bearer or candidate allocation is current, do not claim a filled functional element. Record a required-behavior gap, required-effect gap, capability gap, functional-behavior slot, or candidate allocation question. This preserves the practical architecture move without pretending that a module, component, diagram row, function word, requirement, or selected flow structure has already supplied the bearer or actual change.
 
 ```text
-FunctionalStructureView@Context ::= {
-  architectureStructuralViewRef: ArchitectureStructuralView@ContextRef,
-  functionalElementRefs?: FunctionalElement@Context refs,
+FunctionalStructureViewUse ::= {
+  architectureStructuralViewRef: U.EpistemeRef constrained to ArchitectureStructuralView,
+  functionalElementClaimRefs?: FinSet(U.EpistemeRef),
   sourceFunctionWordingRefs?,
-  functionalBehaviorRefs?: U.Transformation refs; TransformationFlowStructure refs,
-  transformerSideFillerRefs?: U.System bearing TransformerRole@Context,
+  functionalBehaviorClaimRefs?: FinSet(U.EpistemeRef),
+  requiredOrDesiredEffectClaimRefs?: FinSet(U.EpistemeRef),
+  actualTransformationRefs?: FinSet(U.TransformationRef),
+  selectedTransformationFlowStructureRefs?: FinSet(U.StructureRef constrained to TransformationFlowStructure),
+  transformerSideFillerRefs?: FinSet(U.SystemRef),
   candidateBearerRefs?: candidate system refs; explicit gap refs,
   capabilityRefs?,
   inputConditionRefs?,
@@ -61236,16 +61529,18 @@ FunctionalStructureView@Context ::= {
   functionalPortRefs?,
   functionalDependencyRefs?,
   allocationRefs?,
-  correspondenceRefs?,
+  correspondenceClaimOrRelationRefs?,
   nonFunctionClaimNotes?,
   flowRelationRefs?,
-  moduleInterfaceRelationRefs?,
+  moduleInterfaceClaimOrRelationRefs?,
   admissibleUse,
   nonAdmissibleUse
 }
 ```
 
-A selected transformation-flow structure, mathematical graph description, transformation-flow path slice, crossing, or flow valuation is not a functional element by default. When a transformation-flow relation is being used, connect the functional view to `TransformationFlowStructure` through `C.30.TFS-REL`. When a mathematical graph description is being used, connect it through `E.18.2`; when math-lens use is being claimed, connect it through `C.29`. When module allocation is being claimed, connect the functional view to `A.6.M` module-relation repair rather than treating function and module as one kind. Functional ports and module interfaces can both use `U.Signature` discipline, but functional ports govern behavior input and output slots while module interfaces govern substitution, compatibility, boundary, and change-policy claims.
+**Required-cooling-effect / later-actual-cooling countercase.** Requirement episteme `RequiredCoolingEffect-1` says that Rack 7 should be brought below 30 °C during declared operation. Before the rack or cooling loop has changed, that is required effect claim content: there is no actual `U.Transformation`, even if a functional-view row, flow diagram, or selected `TransformationFlowStructure` cites it. Later, `Rack7CoolingTransformation-42` may be identified under A.3.4 when the exact changed referent and boundary are fixed, operating and ambient boundary conditions are stated, actual before facts show 38 °C, actual during facts recover heat removal, actual after facts show 27 °C, and continuity or reidentification keeps the same referent recoverable. A separate satisfaction or realization predicate is still needed before claiming that the later transformation satisfies `RequiredCoolingEffect-1`; temporal succession or matching labels alone is insufficient.
+
+A selected transformation-flow structure, mathematical graph description, transformation-flow path slice, crossing, or flow valuation is not a functional element or actual transformation by default. When a transformation-flow relation is being used, connect the functional view to the exact `TransformationFlowStructure` through `C.30.TFS-REL`. When a mathematical graph description is being used, connect it through `E.18.2`; when math-lens use is being claimed, connect it through `C.29`. When module allocation is being claimed, connect the functional view to `A.6.M` module-claim repair and the admitted direct allocation/interface owner rather than treating function and module as one kind. Functional ports and module interfaces can both use `U.Signature` discipline, but functional ports govern behavior input and output slots while module interfaces govern substitution, compatibility, boundary, and change-policy claims.
 
 Composability and quality compositionality are separate claims. If the view says parts can be assembled, keep that as a structure claim or use claim. If it says a quality of the whole follows from parts, assign the quality-composition claim to `C.25` and C.16-backed measurement or quality claim.
 
@@ -61260,7 +61555,7 @@ Non-admissible:
   successful assembly is not quality propagation
 ```
 
-Compositional formalisms may express explicit composition structures and view relations and model relations. They do not make safety, latency, reliability, or another quality propagate automatically.
+Compositional formalisms may express explicit composition structures, view relations, and model relations. They do not make required behavior actual, create transformations, or make safety, latency, reliability, or another quality propagate automatically.
 
 #### C.30.ASV:4.7 - Correspondence and source return
 
@@ -61303,6 +61598,8 @@ SourceReturnAction:
 Do not make source return mandatory for ordinary local recognition when no hidden distinction is being used for action. Do not omit source return when a hidden distinction carries a selected reliance relation, assurance, law-domain, comparison, causal, gate, or decision commitment. The condition is needed only when the repaired text still relies on the hidden source-side distinction.
 
 Model cards, system cards, and evaluation harness reports may publish or substantiate an architecture structural view only when the structural-view claim is recoverable. The view must name the relevant structure kind, such as `RuntimeInteractionStructure`, `InformationDataStructure`, `SecurityTrustBoundaryStructure`, `EvidenceAssuranceStructure`, `ModuleInterfaceStructure`, or another declared structure kind; it must also state intended-use scope, evaluation scope and known loss when evaluation is used, deployment-context mismatch when that mismatch is being claimed, and the evidence or assurance governing pattern when the publication is used beyond transparency. A card or harness is not architecture adequacy, safety proof, or release claim or gate claim by publication alone.
+
+**Currentness and smallest reopen.** When a decisive input changes, reopen only the `ArchitectureStructuralView` locus and use conclusion that depend on it. A changed selected structure or structure kind reopens its exact structure fields and, when another structure becomes the EntityOfConcern, requires a separately identified description episteme; a changed description identity reopens only that episteme's view admission; a changed viewpoint or conformance occurrence reopens only the E.17.0 predicate; changed construction or knowledge state, correspondence, source edition or lost structure reopens the matching provenance, correspondence, source-to-use, hidden/lost-structure, or source-return locus; and a changed admissible-use boundary or direct governor reopens only its dependent use or governed claim. Update that locus, demote the episteme to a structural description or `ArchitectureStructureKindTriage@Project`, narrow use, return to the named source, or stop; unrelated structures, views, and claims stay closed.
 
 #### C.30.ASV:4.8 - Worked slices
 
@@ -61475,9 +61772,9 @@ Structural AI-agent security is architecture structure when these structure kind
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner looks at an architecture "view" and asks whether it is functional, flow, control, module-interface, information or data, placement, scale, work, evidence, or declared logical structure. C.30.ASV turns that question into structure-kind triage or a full structural view record. |
-| Show: `U.System` | A plant, vehicle, software system, product platform, AI-agent system, or neural-network model can require several structural views over the same architecture claim. One module view does not exhaust the system architecture, and one flow graph does not prove work, evidence, safety, or release. |
-| Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram is an episteme, view, or publication face. It can publish an architecture structural view only when the architecture claim, structure refs, structure kind, viewpoint, hidden structure and lost structure, correspondence, source or reliance relation, and admissible use are recoverable. |
+| Tell | A practitioner looks at an architecture "view" and asks whether it is functional, flow, control, module-interface, information or data, placement, scale, work, evidence, or declared logical structure. C.30.ASV turns that question into structure-kind triage or a full description-plus-conformance record. |
+| Show: `U.System` | A plant, vehicle, software system, product platform, AI-agent system, or neural-network model can require several structural descriptions over the same exact subject-side architecture. One module view does not exhaust the system architecture, and one flow graph does not prove work, evidence, safety, or release. |
+| Show: `U.Episteme` | A diagram, model, generated relation graph, ADR, dashboard, SysML view, or C4 diagram may express or publish a description episteme. That same episteme is an architecture structural view only when exact C.2.1 identity, selected structure, structure kind, exact viewpoint, obtaining E.17.0 conformance relation, hidden and lost structure, correspondence, source or reliance relation, and admissible use are recoverable. |
 
 ### C.30.ASV:6 - Bias-Annotation
 
@@ -61486,39 +61783,39 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 | Bias risk | Mitigation |
 | --- | --- |
 | Module-view bias | Make module-interface one structure kind, not the default meaning of architecture. |
-| Viewpoint-kind conflation | Keep structure kind, viewpoint, view record, and viewpoint bundle separate. |
-| TEVB mutation bias | Import TEVB where useful; do not expand `VF.TEVB.ENG` by implication. |
+| Viewpoint-kind conflation | Keep selected structure kind, exact viewpoint episteme, candidate description episteme, conformance relation, and viewpoint bundle separate. |
+| TEVB mutation bias | Import TEVB where useful; do not expand `VF.TEVB.ENG` or infer view membership by implication. |
 | Check-only bias | Every failed conformance check gives a repair action or governing-pattern application. |
 | Didactic-thinning risk | The pattern starts with triage and action, not taxonomy alone. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, description, direct conformance relation, or repair guidance above.
 
 ### C.30.ASV:7 - Conformance Checklist
 
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
-| **CC-ASV-1 Structure target.** | Every architecture structural view names `structureRefs` or a recoverable selected-structure reference. | Name the selected structure reference, or downgrade the source material to an architecture question, diagram, note, or publication that does not claim to be a structural view. |
+| **CC-ASV-1 Structure target.** | Every architecture structural view has one exact selected `U.Structure` as its C.2.1 EntityOfConcern. | Name and constitute the selected structure under A.22, or keep the inspected episteme or publication as an architecture question input that does not yet claim to be a structural view. |
 | **CC-ASV-2 Structure kind.** | Every architecture structural view names `structureKindRef`. | Use `ArchitectureStructureKindTriage@Project`; if no structure kind changes action, keep the text as ordinary prose or a source note. |
-| **CC-ASV-3 Same selected architecture claim.** | The view preserves `architectureClaimRef`, `DescriptionContext`, and the claim record's `describedHolonRef` and `boundedContextRef` unless explicit retargeting or a bridge is declared. | Restore the same claim record and bounded context, or add an explicit retargeting or bridge note before using the view. |
-| **CC-ASV-4 Viewpoint discipline.** | The view is under `VF.ARCH.STRUCTURE` or another declared architecture-specific bundle, rather than an ad-hoc tag. | Assign the view to `VF.ARCH.STRUCTURE`, a declared local viewpoint bundle, or a governing pattern; otherwise keep the label as Plain recognition wording. |
+| **CC-ASV-3 Exact episteme and subject trace.** | The view preserves one exact claim graph, one selected-structure EntityOfConcern, effective `U.ReferenceScheme`, and the subject trace to the exact holon and any obtaining `ArchitectureRelation`; optional architecture claim, ClaimScope, empirical grounding, and model-use structure remain separate. | Restore the exact episteme identity and subject trace, or identify a new description before relying on it; do not derive identity from an architecture-claim field or context bundle. |
+| **CC-ASV-4 Viewpoint conformance.** | The candidate episteme and exact viewpoint episteme satisfy the fixed five-part E.17.0 predicate, and `viewpointConformanceRelationRef` names the participant-determined obtaining occurrence. A bundle or viewpoint label is only discovery support. | Apply E.17.0. If the predicate does not obtain, keep a structural description or triage result and do not call it `U.View`. |
 | **CC-ASV-5 Lost structure.** | The view names hidden or lost structure, especially for query, extraction, coarsening, or publication uses. | Add a one-line hidden-structure note or lost-structure note, or narrow the admissible use so omitted structure is not relied on. |
-| **CC-ASV-6 Correspondence.** | Cross-view relations are carried by `correspondenceModelRefs` or correspondence records, not by prose alone. | Add a correspondence note or stop at a single-view statement without cross-view consistency claim. |
-| **CC-ASV-7 No publication collapse.** | A diagram, model, table, dashboard, generated relation graph, or ADR is kept as publication form, record, or source relation, not the architecture structural view itself. | Keep the source material as publication form or source relation and name the source episteme or view; do not require a full architecture view unless it changes the next architecture use. |
-| **CC-ASV-8 No single-view architecture.** | If a decision uses an architecture view as decision claim, it names the affected structures and views, not only one favored diagram. | Add affected structure and view refs, or narrow the statement to the single view's admissible use. |
-| **CC-ASV-9 No proof overread.** | The view does not act as evidence, safety proof, causal proof, gate decision, or work record without a named governing pattern. | Assign the claim being made to `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, or mark the proof, evidence, gate, or assurance use unsupported; do not add more C.30.ASV fields as a substitute. |
-| **CC-ASV-10 Relation or correspondence record named by value.** | Every cross-reference names the kind named by value, relation, or record: selected structure, structure kind, viewpoint, correspondence record, allocation record, bridge record, evidence relation, publication relation when a publication claim is being made, interface specification, or governing record named by value. | Replace the ambiguous reference with the kind, relation, or record that actually carries the claim, or split the sentence into separate records. |
+| **CC-ASV-6 Correspondence.** | Cross-view claims are carried by exact correspondence claims or independently governed obtaining relations, not by prose, shared packaging, or graph adjacency alone. | Add a correspondence claim or governed direct relation, or stop at a single-view statement without a cross-view consistency claim. |
+| **CC-ASV-7 No representation/publication collapse.** | A diagram, model, table, dashboard, generated relation graph, ADR, publication occurrence, form, or carrier is kept separate from the view episteme and selected structure. | Name the exact description episteme, any C.29 representation, and the E.24.PUB occurrence/form/carrier separately; claim `U.View` only when E.17.0 conformance obtains. |
+| **CC-ASV-8 No single-view architecture.** | If a decision uses an architecture view, it names the affected structures and views, not only one favored diagram. | Add affected structure and view refs, or narrow the decision to the single view's admissible use. |
+| **CC-ASV-9 No proof overread.** | The view does not act as empirical grounding, evidence, safety proof, causal proof, gate decision, or work record without a named governing pattern and direct relation. | Assign the claim being made to `EpistemeEmpiricalGroundingRelation`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, or mark it unsupported; do not add more ASV fields as a substitute. |
+| **CC-ASV-10 Relation or correspondence record named by value.** | Every cross-reference names the exact kind, claim, relation, or record: selected structure, structure kind, viewpoint, conformance occurrence, correspondence claim or relation, allocation record, bridge record, evidence relation, publication relation when publication is current, interface specification, or governing record named by value. | Replace the ambiguous reference with the object that actually carries the claim, or split the sentence into separate objects. |
 | **CC-ASV-11 Source return.** | When compression, extraction, coarsening, evidence reuse, publication, or many-to-many allocation hides distinctions, `SourceReturnCondition` is present. | Add one source-return trigger, or narrow the view's admissible use so omitted distinctions are not used for action, assurance, causal use, law-domain review, regulatory review, or reopening. |
-| **CC-ASV-12 Architecture-name recovery.** | Every `<X>Architecture` phrase recovers `<X>StructureKind` or a declared local relation. | Rewrite the phrase through `ArchitectureStructureKindTriage@Project`; if no relation is being claimed, keep the name as Plain prose and do not let it carry ontology. |
-| **CC-ASV-13 Useful action.** | The repair leaves a surviving admissible architecture move: inspect, split, relate, downgrade, assign to a governing pattern, generate candidates, stop, state a structural view, add correspondence, add source return, or apply the governing pattern. | Restore one move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
+| **CC-ASV-12 Architecture-name recovery.** | Every `<X>Architecture` phrase recovers exact selected structure, `<X>StructureKind`, or a declared local relation or claim. | Rewrite the phrase through `ArchitectureStructureKindTriage@Project`; if no relation is being claimed, keep the name as Plain prose and do not let it carry ontology. |
+| **CC-ASV-13 Useful action.** | The repair leaves a surviving admissible architecture move: inspect, split, relate, downgrade, assign to a governing pattern, generate candidates, stop, state a structural description or view, add correspondence, add source return, or apply the governing pattern. | Restore one move, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
 
 ### C.30.ASV:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Module diagram as architecture view** | One module-interface diagram is treated as the whole architecture. | Use structure-kind triage; keep module-interface as one structure kind and add other views only when they change action. |
-| **Viewpoint as structure kind** | `VP.Functional`, `VP.ModuleInterface`, or another viewpoint is used as if it were the selected structure kind. | Recover `ArchitectureStructureKindRef` and bind it to a viewpoint through `ArchitectureStructureKindViewRecordBinding` when needed. |
-| **Structure kind as viewpoint** | `FunctionalStructure` or `ControlStructure` is added to TEVB as a new viewpoint. | Keep TEVB core unchanged; use `VF.ARCH.STRUCTURE` and binding rows. |
-| **Publication-face collapse** | A diagram, model, table, dashboard, generated relation graph, ADR, or C4 view is treated as the ASV record. | Recover source episteme or source view and publication relation; use an ASV record only if the view changes action. |
+| **Module diagram as architecture view** | One module-interface diagram is treated as the whole architecture or as a `U.View` by appearance. | Use structure-kind triage; keep module-interface as one structure kind and apply exact E.17.0 conformance only when view membership matters. |
+| **Viewpoint as structure kind** | `VP.Functional`, `VP.ModuleInterface`, or another viewpoint is used as if it were the selected structure kind. | Recover `ArchitectureStructureKindRef`; keep its binding to an exact viewpoint episteme separate. |
+| **Structure kind as viewpoint** | `FunctionalStructure` or `ControlStructure` is added to TEVB as a new viewpoint. | Keep TEVB core unchanged; use exact viewpoint epistemes in `VF.ARCH.STRUCTURE` and binding rows. |
+| **Publication-face collapse** | A diagram, model, table, dashboard, generated relation graph, ADR, or C4 view is treated as the view episteme. | Recover description episteme, representation, and E.24.PUB occurrence/form/carrier separately; use `ArchitectureStructuralView` only if exact conformance obtains and the view changes action. |
 | **Single-view decision** | A decision uses one architecture view as if it covered all affected structures. | Name affected structures and view refs, or narrow the decision to the single view's admissible use. |
 | **Lost-structure silence** | Extracted, generated, coarsened, or compressed views hide distinctions but still justify action. | Add hidden structure and lost structure and source-return condition, or narrow admissible use. |
 | **Proof overread** | The structural view is used as evidence sufficiency, safety proof, causal proof, gate decision, or work record. | Assign the claim being made to the governing pattern and keep ASV only to view adequacy. |
@@ -61529,37 +61826,37 @@ This checklist verifies the preceding guidance after the practitioner has chosen
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| Architecture views become Description epistemes and specification-use cases over selected structures, not diagrams by appearance. | A conforming use states architecture claim, structure refs, structure kind, viewpoint, and use when the view has FPF-governed use. |
-| TEVB remains stable while architecture gets broader structure-kind coverage. | Structure-kind bindings add one explicit record when architecture-specific coverage matters. |
+| Architecture views become exact description epistemes over selected structures, not diagrams by appearance. | A conforming use states C.2.1 identity, selected structure, structure kind, exact viewpoint, obtaining conformance relation, and admissible use. |
+| TEVB remains stable while architecture gets broader structure-kind coverage. | Structure-kind bindings add one explicit record when architecture-specific coverage matters, but the bundle does not grant view membership. |
 | Functional, flow, control, module-interface, placement, information, runtime, work, evidence, scale, material, and logical structures can be separated. | Some familiar names require triage before they can carry FPF claim kinds. |
 | Failed checks produce repair actions rather than only classification objections. | The checklist is longer than a pure taxonomy, but it is more useful for action. |
 
 ### C.30.ASV:10 - Rationale
 
-C.30.ASV exists because architecture descriptions are multi-view by nature, but FPF cannot let "view" absorb every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is being described; a viewpoint says how an episteme or view is oriented toward a concern. They may be bound, but they are not interchangeable.
+C.30.ASV exists because architecture descriptions are commonly multi-view, but FPF cannot let "view" absorb every architecture claim. A structure kind and a viewpoint are different. A structure kind says what kind of selected structure is described; a viewpoint is one exact episteme whose fixed rules the candidate description must satisfy. The direct conformance occurrence, not a label or bundle, makes the same episteme a `U.View`.
 
-The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the structure kind under consideration and the next admissible architecture move, no full view record is needed. The full record is used when a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
+The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the structure kind under consideration and the next admissible architecture move, no full view record is needed. The full record is used when exact conformance obtains and a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
 
-The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and view-record bindings are defined beside TEVB rather than mutating TEVB.
+The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and candidate-record bindings are defined beside TEVB rather than mutating TEVB or treating bundle membership as conformance.
 
 ### C.30.ASV:11 - SoTA-Echoing
 
 | Practice or source line | C.30.ASV adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
-| ISO/IEC/IEEE 42010:2022 architecture-description discipline | Adopt explicit concern, viewpoint, view, correspondence, and source-side `EntityOfConcernRef` discipline, mapped here to `DescriptionContext.EntityOfConcernRef`. | ASV records require architecture claim, `DescriptionContext`, viewpoint, structure kind, correspondence when used, and admissible use. | ISO terminology does not override FPF EntityOfConcern and Description-episteme boundary and specification-use and refinement discipline and does not make a view the architecture itself. |
-| OMG SysML v2 view-as-query and MBSE traceability practice | Adapt model-view discipline and traceability to FPF Description or views. | Generated, queried, or model-derived views state `viewConstruction`, selected structure, hidden and lost structure, and source-return condition when action relies on the selection. | Tool models and queries do not become source episteme, source or reliance relation, evidence sufficiency, gate passage, or assurance. |
-| UAF, ArchiMate, C4, and multi-view architecture practice | Adapt viewpoint-library and lightweight diagram communication pressure. C4 contributes communication and zoom pressure only. | C4-like, UAF-like, and ArchiMate-like diagrams can publish ASV records only when Description-episteme or specification-use content, DescriptionContext EntityOfConcern, structure refs, structure kind, viewpoint, and publication relation are explicit. | Do not import their layer, viewpoint, enterprise taxonomies, structure-kind adequacy, evidence sufficiency, or architecture decision claim without a recoverable C.30 or C.30.ASV source view. |
-| Systems security engineering, secure-by-design, SSDF, and CSF-style practice | Adopt security as architecture-side structure when trust boundaries, authority, untrusted input, secure defaults, hardening, update channels, and detection boundaries and response boundaries change action. | Use `SecurityTrustBoundaryStructure` before evidence, assurance, gate, risk score, or compliance proof. | A security framework, checklist, risk color, or control catalog is not security architecture adequacy, evidence sufficiency, assurance, or gate passage by itself. |
-| Theory of Code Space, arXiv:2603.00601 and related code-agent architecture relation-graph probing | Adopt partial-observability, typed relation discovery, invariant discovery, uncertainty reporting, and externalized architecture relation graphs as ASV practice source. | Treat an externalized code-agent relation graph as a diagnostic architecture-description or ASV publication only with observed, inferred, or unknown observation value, evidence pointers, unexplored regions, typed relation semantics, and source-return conditions. | Do not mint `U.CodeSpace`; do not treat probe JSON, cognitive-model publication, dependency-F1 result, or diagnostic relation graph as architecture adequacy, internal belief proof, agent authority, safe-code-change authority, assurance, or release authority. |
+| FPF `C.2.1`, `A.22`, `E.17.0`, `C.30`, and `C.30.AD` | Use exact episteme identity, selected-structure discipline, direct viewpoint conformance, architecture relation, and architecture-description boundaries together. | ASV records require one primary selected structure as EntityOfConcern, effective scheme, structure kind, exact viewpoint, obtaining conformance relation, correspondence when used, and admissible use. | A view remains the same episteme about selected structure; no context field, authoring route, or suffix creates it. |
+| OMG SysML v2 view-as-query and MBSE traceability practice | Adapt model-view discipline and traceability to FPF descriptions and views. | Generated, queried, or model-derived descriptions state `viewConstruction`, selected structure, hidden and lost structure, and source-return condition when action relies on the selection. | Tool models and queries do not create the source episteme, conformance relation, selected structure, evidence sufficiency, gate passage, or assurance. |
+| UAF, ArchiMate, C4, and multi-view architecture practice | Adapt viewpoint-library and lightweight diagram communication pressure. C4 contributes communication and zoom pressure only. | C4-like, UAF-like, and ArchiMate-like diagrams can represent or publish ASV epistemes only when exact description identity, EntityOfConcern, structure refs, structure kind, viewpoint conformance, and publication relations are explicit. | Do not import their layer, viewpoint, enterprise taxonomies, structure-kind adequacy, evidence sufficiency, or architecture decision claim without recoverable FPF objects and relations. |
+| Systems security engineering, secure-by-design, SSDF, and CSF-style practice | Adopt security as architecture-side structure when trust boundaries, authority, untrusted input, secure defaults, hardening, update channels, and detection and response boundaries change action. | Use `SecurityTrustBoundaryStructure` before evidence, assurance, gate, risk score, or compliance proof. | A security framework, checklist, risk color, or control catalog is not security architecture adequacy, evidence sufficiency, assurance, or gate passage by itself. |
+| Theory of Code Space, arXiv:2603.00601 and related code-agent architecture relation-graph probing | Adopt partial-observability, typed relation discovery, invariant discovery, uncertainty reporting, and externalized architecture relation graphs as ASV practice source. | Treat an externalized code-agent relation graph as a diagnostic description, representation, or ASV publication only with observed, inferred, or unknown observation value, evidence pointers, unexplored regions, typed relation semantics, and source-return conditions. | Do not mint `U.CodeSpace`; do not treat probe JSON, cognitive-model publication, dependency-F1 result, or diagnostic relation graph as architecture adequacy, internal belief proof, agent authority, safe-code-change authority, assurance, or release authority. |
 | GonzoML neural-network architecture discussions | Adopt practitioner operation language for architecture views: block substitution, relation retargeting, dataflow changes, memory placement or cache placement, path-selection or gating, MoE expert-selection, pruning, distillation, NAS, ablation, and compute, memory, or latency tradeoffs. | Use those phrases as recognition cues for changed structure kind, flow relation, module-interface claim kind, security or trust boundary, data-custody relation, preserved and lost structure, affected characteristic, source relation, and decision or evidence governing pattern. | Neural-network labels, benchmarks, ablations, pruning masks, block, layer, router, cache, or state labels, or search outputs do not become FPF ontology, architecture decisions, evidence sufficiency, gate passage, assurance, or architecture adequacy by themselves. |
 
 ### C.30.ASV:12 - Relations
 
-Builds on: `C.30.P`, `C.30`, `A.1`, `A.22`, `E.24.PUB`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `C.2.P`, and `F.18`.
+Builds on: `C.30.P`, `C.30`, `A.1`, `A.22`, `C.2.1`, `E.24.PUB`, `A.6.3`, `E.17.0`, `E.17.1`, `E.17.2`, `A.7`, `E.10.D2`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.32.P2S`, `C.32`, `C.32.PAD`, `C.32.ADR`, `C.32.ADA`, `C.33`, `C.34`, and `C.35` when problem-to-structure carry-through, candidate-set, architecture-decision, ADR-projection, decision-adequacy, capture, preservation, or generated-carrier claim kinds are being made. Use `A.6.M` when the module-interface claim kind is being made.
+Coordinates with: `A.6.F`, `A.6.M`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `E.18`, `C.29`, `C.16`, `C.25`, `C.28`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `A.15`, `C.11`, `C.32.P2S`, `C.32`, `C.32.PAD`, `C.32.ADR`, `C.32.ADA`, `C.33`, `C.34`, and `C.35` when problem-to-structure carry-through, candidate-set, architecture-decision, ADR-projection, decision-adequacy, capture, preservation, or generated-carrier claim kinds are being made. Use `A.6.M` when a module-interface claim is being made; an admitted direct module or allocation relation still comes from its exact subject owner.
 
-Other claims stay with their governing patterns: `C.30` for grounded architecture and selected-structure adequacy, `A.1` for the described holon recovered through `ArchitectureOf@Context`, `A.22` for selected-structure EntityOfConcern, `E.24.PUB` for ontic-description and publication-form boundary, `C.33` for captured and lost selected structure in a view, `C.34` for preservation or correspondence between a view and another structure-bearing object, `C.35` for generated or discovered carriers before candidate admission, `E.18` for selected transformation-flow structure, transformation-flow path, and crossing discipline, `E.18.2` and `C.29` for mathematical graph descriptions and mathematical-lens use, `C.16` for characterization, `C.25` for Q-Bundles, `C.28` for causal use, `A.10` and `G.6` for evidence, `B.3` for assurance, `A.20` and `A.21` for gate or release records, `A.15` for work, `C.11` for decisions, `C.32.P2S` for problem-to-structure carry-through when the view is one captured or lost-structure stage, and `E.17` for publication. `C.30.ASV` governs architecture structural-view adequacy for the selected structure being viewed.
+Other claims stay with their governing patterns: `C.30` for direct architecture relations, bounded architecture claims, and selected-structure adequacy; `A.1` for the exact described holon; `A.22` for selected-structure identity; `C.2.1` for description episteme identity; `E.17.0` for exact Viewpoint/View conformance; `E.24.PUB` for publication occurrence, form, and carrier; `C.29` for representation and mathematical-lens use; `C.33` for captured and lost selected structure in a view; `C.34` for preservation or correspondence between a view and another structure-bearing object; `C.35` for generated or discovered carriers before candidate admission; `E.18` for selected transformation-flow structure, transformation-flow path, and crossing discipline; `E.18.2` for mathematical graph descriptions; `C.16` for characterization; `C.25` for Q-Bundles; `C.28` for causal use; `A.10` and `G.6` for evidence; `B.3` for assurance; `A.20` and `A.21` for gate or release records; `A.15` for Work and project-use relations; `C.11` for decisions; and `C.32.P2S` for problem-to-structure carry-through when the view is one captured or lost-structure stage. `C.30.ASV` governs structural-view adequacy for the exact selected structure being viewed.
 
 ### C.30.ASV:End
 
@@ -61573,134 +61870,163 @@ Other claims stay with their governing patterns: `C.30` for grounded architectur
 
 Use this pattern when a selected control structure or control-structure relation changes the next architecture move: a controller regulates a plant, an observer or estimator changes what can be known, a planner provides references to lower-rate control, a supervisor constrains a subsystem, a policy loop changes allowed behavior, or an LCA cue makes roles, rates, observation boundaries, actuation boundaries, feedback, or externalities architecture-relevant.
 
-The first-minute working situation is ordinary engineering talk: a diagram says the supervisor watches a subsystem, a controller regulates a plant, an observer estimates state, a planner gives references to a lower-rate controller, or a policy relation or control relation changes allowed controller behavior. The useful first move is to recover a `ControlStructureView@Context`: which architecture claim is being described, which control roles and relations are present, which rate bands or recovered control-layer relations are being claimed, which feedback or externality boundaries are named, and which governing pattern carries any additional claim being made. If the source only says `layer`, `level`, `tier`, or `stack` without a control-specific relation, use `C.30.STRAT` first.
+The first-minute working situation is ordinary engineering talk: a diagram says the supervisor watches a subsystem, a controller regulates a plant, an observer estimates state, a planner gives references to a lower-rate controller, or a policy or control relation changes allowed controller behavior. The useful first move is to recover a `ControlStructureViewNote`: which exact holon, actual architecture relation or bounded architecture claim is current; which exact selected control structure, control roles, and independently obtaining relations are present; which rate bands or recovered control-layer relations are claimed; which feedback or externality boundaries are named; and which governing pattern carries each additional claim. If the source only says `layer`, `level`, `tier`, or `stack` without a control-specific relation, use `C.30.STRAT` first.
 
-What goes wrong if C.30.LCA is missed: a control diagram becomes proof; stratification labels bypass `C.30.STRAT` and start carrying undeclared scope; and `B.2.5`, `E.18` transformation-flow-structure prose, or Layered Control Architecture (LCA) prose is overread as control adequacy.
+What goes wrong if C.30.LCA is missed: a control diagram becomes the control structure, `U.View`, or proof; stratification labels bypass `C.30.STRAT` and carry undeclared scope; and `B.2.5`, E.18 transformation-flow prose, or Layered Control Architecture prose is overread as control adequacy.
 
-What C.30.LCA buys in practice: the practitioner can keep useful controller, plant, observer, regulator, supervisor, feedback, rate, and control-layer language while recovering the control-structure view and the governing pattern that carries any proof or claim named by value.
+What C.30.LCA buys in practice: the practitioner can keep useful controller, plant, observer, regulator, supervisor, feedback, rate, and control-layer language while recovering an exact selected control structure, one description episteme, its possible E.17.0 view conformance, and the governing pattern that carries any proof or claim named by value.
 
-Not this pattern when the issue under repair is generic stratification or source-label repair, only an `E.18` transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the assurance or evidence pattern governing the claim as appropriate.
+Not this pattern when the issue under repair is generic stratification or source-label repair, only an E.18 transformation-flow path slice, function description, module boundary, measurement head, causal intervention, or safety case. Use `C.30.STRAT`, `C.30.TFS-REL`, `A.6.F`, `A.6.M`, `C.16`, `C.28`, or the assurance/evidence pattern governing the claim as appropriate.
 
-The primary `EntityOfConcern` for this pattern use is the selected control structure or control-structure relation set under an `ArchitectureOf@Context`. The `ControlStructureView@Context` is a describing episteme for that selected structure; proof, safety, evidence, gate, and architecture-as-whole claims remain claim named by value refs governed by their governing patterns. Ordinary use may stop with a typed control-structure view note:
+The primary EntityOfConcern for a full C.30.LCA description or view is one exact selected control `U.Structure`. The description, selected structure, controlled holon, actual architecture relation, bounded architecture claim, exact viewpoint, conformance occurrence, control-role assignments, direct control relations, diagram, representation, proof claims, and publication remain separate. Ordinary use may stop with a typed note:
 
 ```text
 ControlStructureViewNote ordinary minimum:
-  architecture claim or described holon plus context:
-  one control relation:
-  loop state: closed | one-way | unclear:
-  control-layer or rate label recovered?: yes | no | C.30.STRAT needed:
-  governing pattern for proof, evidence, causal, gate, or assurance claim, if that claim is being made:
-  stop condition:
+  architectureRelationOccurrenceRef?: ArchitectureRelationRef
+  architectureClaimRef?: U.EpistemeRef constrained to ArchitectureClaim
+  describedHolonRef?: U.HolonRef
+  selectedControlStructureRef?:
+  controlledHolonRef:
+  candidateViewEpistemeRef?: U.EpistemeRef
+  exactViewpointRef?: U.ViewpointRef
+  viewpointConformanceRelationRef?: EpistemeViewpointConformanceRelationRef
+  controllerRoleAssignmentRef?:
+  selectedControlRelationRef:
+  feedbackClosureState: closed | oneWay | unclear
+  controlLayerRelationRef?:
+  rateBandRef?:
+  stratificationRepairRef?:
+  nextGoverningPatternApplicationRef?:
+  stopCondition:
 ```
 
-The full `ControlStructureView@Context` is used when the control claim being made needs declared roles, relations, rates, recovered control-layer labels, boundary refs, or explicit governing-pattern applications beyond that note.
+The ordinary note requires an exact described or controlled holon plus one selected control structure or honest structure gap and at least one direct control relation when a positive relation claim is made. `architectureRelationOccurrenceRef` is filled only when that direct C.30 occurrence obtains; `architectureClaimRef` remains optional claim content or trace. The note does not become a C.2.1 episteme or `U.View` by its field names.
+
+Use full `ControlStructureView` only when an independently identified architecture-description episteme about the exact selected control structure satisfies the fixed E.17.0 predicate for one exact viewpoint. Full use is justified when roles, relations, rates, recovered control-layer labels, boundary refs, source return, representation/publication, or explicit governing-pattern applications matter beyond the note.
 
 ### C.30.LCA:2 - Problem
 
-Control diagrams are persuasive because they look operational: arrows imply feedback, boxes imply responsibility, and recovered control-layer labels imply separation. In practice that is often enough for orientation, but not enough to make the architecture claim admissible. A control-stack description can quietly overclaim that stability, safety, evidence sufficiency, gate validity, assurance, or causality has already been established; a non-control `layer`, `level`, `tier`, or `stack` label belongs first to `C.30.STRAT`, not to C.30.LCA.
+Control diagrams are persuasive because they look operational: arrows imply feedback, boxes imply responsibility, and recovered control-layer labels imply separation. In practice that is often enough for orientation, but not enough to identify selected structure, make direct relations obtain, admit the description as `U.View`, or establish architecture adequacy. A control-stack description can quietly overclaim stability, safety, evidence sufficiency, gate validity, assurance, or causality; a non-control `layer`, `level`, `tier`, or `stack` label belongs first to `C.30.STRAT`.
 
-FPF needs a pattern that preserves the useful recognition of control architecture without letting the recognition cue become a proof. The control roles, feedback relations, externality boundaries, and rate separations belong in an architecture structural view. Claims about dynamics, temporal aspects, authored temporal-claim adequacy, causal use, evidence, assurance, gates, or mathematical lens transfer belong in the governing pattern that governs that claim kind.
+FPF needs a pattern that preserves useful recognition without letting the cue become structure, relation, or proof. Control roles, feedback relations, externality boundaries, and rate separations can enter an architecture structural description. The same episteme is a view only through exact viewpoint conformance. Dynamics, temporal aspects, authored temporal-claim adequacy, causal use, evidence, assurance, gates, and mathematical-lens transfer stay with their direct owners.
 
 ### C.30.LCA:3 - Forces
 
 * Control talk is useful and current engineering practice uses it, so deleting it would make architecture prose less usable.
-* The same source labels can name different things. C.30.LCA applies only to recovered control-layer, rate-band, control-relation, bounded-context, and `B.2.5` supervisor-subholon uses; other `layer`, `level`, `tier`, or `stack` uses are recovered with `C.30.STRAT` and then governed by their governing patterns when those claims are being made.
-* Layered and multi-rate control descriptions often need timing and dynamics claim before they can carry stability or safety claims.
-* `B.2.5` already gives FPF a supervisor-subholon feedback relation, but it does not turn every feedback or loop diagram into proof.
-* `E.18` `TransformationFlowStructure` values and their mathematical graph descriptions can describe flow, path, crossing, or transformation-flow relations that participate in control, but the transformation-flow description or graph expression is still a description or view, not the control structure itself.
-* Practitioners need one small first output; dynamics, C.29, evidence, assurance, and gate records are used only when the question under repair calls for that governing pattern use.
+* The same source labels can name different things. C.30.LCA applies only after an actual control-role assignment, direct control relation, rate-band relation, control-layer relation, or `B.2.5` supervisor-subholon relation is recovered. A model-use structure is cited only when that independently selected structure changes interpretation.
+* Layered and multi-rate control descriptions often need timing and dynamics claims before they can carry stability or safety claims.
+* `B.2.5` already gives FPF a supervisor-subholon feedback relation, but it does not turn every feedback or loop diagram into that occurrence, selected structure, or proof.
+* E.18 `TransformationFlowStructure` values and their mathematical graph descriptions can describe flow, path, crossing, or transformation-flow relations that participate in control, but the selected flow structure, graph expression, and control structure remain distinct.
+* Practitioners need one small first output; exact viewpoint conformance, dynamics, C.29, evidence, assurance, and gate records are used only when the question calls for them.
 
 ### C.30.LCA:4 - Solution
 
-Treat LCA-like material as a control-structure view under `C.30`. Recover the described architecture claim, the selected control structure or control-structure relation set, the control roles, the control relations, the relevant rate bands or recovered control-layer labels, and the boundary refs that make the view checkable. If the source label is not yet control-specific, apply `C.30.STRAT` before applying C.30.LCA to the case. Then state the admissible use and the non-admissible overread.
+Treat LCA-like source descriptions as possible inputs to a control-structure description under C.30. Recover one exact described holon, any actual architecture relation, one selected control structure, the exact controlled holon, actual control-role assignments, independently obtaining observation, actuation, reference, supervision, and feedback relations, and any rate or control-layer relation that changes the next architecture move. A.22 identifies the selected structure from exact constituents, selected obtaining relation occurrences, applied constraint claims, and the receiving-use frame; a note, diagram, list, or description creates none of them. If a source label is not yet control-specific, apply `C.30.STRAT` first. Then state admissible use and the next governing-pattern application.
 
 The ordinary minimum may stop with a compact `ControlStructureViewNote`:
 
 ```text
 ControlStructureViewNote:
-  architecture claim or described holon plus context:
-  selected control structure or relation:
-  one control relation:
-  loop state: closed | one-way | unclear:
-  control-layer or rate label recovered?: yes | no | C.30.STRAT needed:
-  boundary refs used?: observation | actuation | feedback | externality | not used:
-  governing pattern for proof, evidence, causal, gate, or assurance claim, if that claim is being made:
+  architectureRelationOccurrenceRef?: ArchitectureRelationRef
+  architectureClaimRef?: U.EpistemeRef constrained to ArchitectureClaim
+  describedHolonRef?: U.HolonRef
+  selectedControlStructureRef?:
+  controlledHolonRef:
+  selectedControlRelationRef:
+  feedbackClosureState: closed | oneWay | unclear
+  controlLayerRelationRef?:
+  rateBandRef?:
+  observationBoundaryRef?:
+  actuationBoundaryRef?:
+  feedbackBoundaryRef?:
+  externalityBoundaryRef?:
+  stratificationRepairRef?:
+  nextGoverningPatternApplicationRef?:
   admissibleUse:
   nonAdmissibleUse:
-  stop condition:
+  stopCondition:
 ```
 
-Use `rateBandRefs?`, `controlLayerRefs?`, and `externalityBoundaryRefs?` only when rate, recovered control-layer, or externality wording carries a control-structure claim being made. Otherwise the ordinary note may stop after one control relation, loop state, and the proof-governing pattern application named by value if that claim is being made. Generic stratification labels stay with `C.30.STRAT` until recovered.
+Use `rateBandRef?`, `controlLayerRelationRef?`, and `externalityBoundaryRef?` only when that object or relation changes the control-structure use. Otherwise the note may stop after one actual control relation, feedback-closure state, and next governing-pattern application. Generic stratification labels stay with `C.30.STRAT` until a control-specific relation is recovered.
 
-When a recovered control-layer relation is used to justify decomposition, substitution, or design reliance, recover the inter-layer assumption-guarantee relation or mark the control-layer relation as orientation only. `interLayerControlRelationRefs?` is used only when the relation is already control-specific and is used for decomposition, substitution, design reliance, safety, or stability claim kinds.
+When a recovered control-layer relation is used to justify decomposition, substitution, or design reliance, recover the inter-layer assumption-guarantee relation or mark the control-layer relation as orientation only. `interLayerControlRelationRefs?` is used only when the relation is already control-specific and is used for decomposition, substitution, design reliance, safety, or stability claims.
 
 ```text
 InterLayerControlRelationNote:
   upperLayerAssumptionRefs:
   lowerLayerGuaranteeRefs:
-  observationRequirementRefs:
+  observationConditionRefs:
   actuationAuthorityRefs:
-  latencyOrRateEnvelopeRefs:
+  latencyBoundRefs?:
+  rateEnvelopeRefs?:
   violationFallbackRefs:
   admissibleUse:
   nonAdmissibleUse:
 ```
 
-Use this note only when a recovered control-layer relation is used for decomposition, substitution, safety or stability claim, or architecture decision claim. It is not proof. Otherwise keep C.30.LCA at the small note or ordinary view form, or return the source label to `C.30.STRAT`.
+Use this note only when a recovered control-layer relation is used for decomposition, substitution, safety or stability claim, or architecture decision claim. It is not proof and does not make the relation obtain. Otherwise keep C.30.LCA at the small note or ordinary description form, or return the source label to `C.30.STRAT`.
 
 ```text
-ControlStructureView@Context ::= {
-  architectureClaimRef : ArchitectureOf@ContextRef,
-  descriptionContext   : DescriptionContext(
-    EntityOfConcernRef = selectedControlStructureEntityOfConcernRef,
-    BoundedContextRef = ArchitectureOf@Context.boundedContextRef,
-    ViewpointRef = viewpointRef
-  ),
-  selectedControlStructureEntityOfConcernRef :
-    U.StructureRef | FinSet(QualifiedRelationRecordRef),
-  viewpointRef (= descriptionContext.ViewpointRef),
+ControlStructureView ::= ArchitectureDescription & U.View & {
+  viewEpistemeRef: U.EpistemeRef,
+  claimGraph: exactly one C.2.1 ClaimGraph,
+  entityOfConcernRef: selectedControlStructureRef,
+  effectiveReferenceScheme: U.ReferenceScheme, byValue,
+  selectedControlStructureRef: U.StructureRef,
   structureKindRef = ControlStructure,
 
-  controlRoleRefs : FinSet(PlannerRef | RegulatorRef | ControllerRef |
-                           ObserverEstimatorRef | PlantProcessRef | SupervisorRef),
-  controlRelationRefs       : FinSet(QualifiedRelationRecordRef),
-  controlLayerRefs?         : FinSet(ControlLayerRef),
-  rateBandRefs?             : FinSet(RateBandRef),
-  interLayerControlRelationRefs? : FinSet(InterLayerControlRelationRef(
-    assumptionRefs,
-    guaranteeRefs,
-    allowedControlActionRefs,
-    observationRequirementRefs,
-    actuationAuthorityRefs,
-    latencyOrRateEnvelopeRefs,
-    violationFallbackRefs
-  )),
-  stratificationRepairRefs? : FinSet(C30STRATRepairRef),
-  supervisorSubholonRelationRefs? : FinSet(B25SupervisorSubholonRelationRef),
-  feedbackRelationRefs      : FinSet(QualifiedRelationRecordRef),
-  observationBoundaryRefs?  : FinSet(BoundaryRef),
-  actuationBoundaryRefs?    : FinSet(BoundaryRef),
-  externalityBoundaryRefs?  : FinSet(BoundaryRef),
-  controlledHolonRefs?     : FinSet(U.HolonRef),
+  viewpointRef: U.ViewpointRef,
+  viewpointConformanceRelationRef: EpistemeViewpointConformanceRelationRef,
+  concernRefs?: FinSet(U.EntityRef),
 
-  rateSeparationClaimRefs? : FinSet(C27TemporalClaimRef | TemporalAdequacyClaimRef),
-  dynamicsClaimRefs?       : FinSet(A3_3DynamicsRef),
-  gateDecisionRefs?          : FinSet(A20ConstraintValidityRef | A21GateDecisionRef),
-  transformationFlowPathSliceRefs? : FinSet(PathSliceId),
-  stabilityClaimRefs?    : FinSet(DynamicsRef | StabilityEvidenceRef),
-  evidenceClaimRefs?     : FinSet(A10EvidenceGraphRef | G6EvidenceRef),
-  assuranceClaimRefs?    : FinSet(B3AssuranceRef),
-  causalUseClaimRefs?    : FinSet(C28ApplicationRef),
-  scaleAuditRef?           : ArchitectureScaleAuditRecordRef,
-  MathLensUseOutputRefs?           : FinSet(MathLensUseOutputRef),
+  describedHolonRef?: U.HolonRef,
+  architectureRelationOccurrenceRefs?: FinSet(ArchitectureRelationRef),
+  architectureClaimRefs?: FinSet(U.EpistemeRef constrained to ArchitectureClaim),
+  claimScope?: U.ClaimScope, byValue,
+  modelUseStructureRef?: U.StructureRef,
+  empiricalGroundingRelationRefs?: FinSet(EpistemeEmpiricalGroundingRelationRef),
+  controlledHolonRef: U.HolonRef,
 
+  plannerRoleAssignmentRefs?: FinSet(U.RoleAssignmentRef),
+  controllerRoleAssignmentRefs?: FinSet(U.RoleAssignmentRef),
+  observerRoleAssignmentRefs?: FinSet(U.RoleAssignmentRef),
+  supervisorRoleAssignmentRefs?: FinSet(U.RoleAssignmentRef),
+  controlMethodRefs?: FinSet(U.MethodRef),
+
+  selectedControlRelationRefs: FinSet(U.RelationRef),
+  observationRelationRefs?: FinSet(U.RelationRef),
+  actuationRelationRefs?: FinSet(U.RelationRef),
+  referenceProvisionRelationRefs?: FinSet(U.RelationRef),
+  feedbackRelationRefs?: FinSet(U.RelationRef),
+  controlLayerRelationRefs?: FinSet(U.RelationRef),
+  rateBandRefs?: FinSet(RateBandRef),
+  interLayerControlRelationRefs?: FinSet(U.RelationRef),
+  supervisorSubholonRelationRefs?: FinSet(U.RelationRef),
+
+  observationBoundaryRefs?: FinSet(BoundaryRef),
+  actuationBoundaryRefs?: FinSet(BoundaryRef),
+  feedbackBoundaryRefs?: FinSet(BoundaryRef),
+  externalityBoundaryRefs?: FinSet(BoundaryRef),
+  transformationFlowPathSliceRefs?: FinSet(PathSliceId),
+
+  stratificationRepairRefs?: FinSet(C30STRATRepairRef),
+  sourceToUsePathRefs?: FinSet(U.RelationRef),
+  downstreamGoverningPatternApplicationRefs?,
+  representationRefs?: FinSet(U.EntityRef),
+  publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef),
+  publicationFormRefs?: FinSet(U.EntityRef),
+  carrierRefs?: FinSet(U.EntityRef constrained to U.PresentationCarrier),
   admissibleUse,
   nonAdmissibleUse,
-  sourceReturnCondition
+  sourceReturnCondition?
 }
 ```
 
-`DescriptionContext.EntityOfConcernRef` names the selected control structure or control-structure relation set represented by `selectedControlStructureEntityOfConcernRef`. `architectureClaimRef` names the enclosing architecture claim and supplies the bounded context and described holon; it is not the EntityOfConcern of the control-structure view itself.
+The full view is the same C.2.1 episteme identified by its exact claim graph, selected-control-structure EntityOfConcern, and effective scheme. Its direct E.17.0 conformance occurrence has exactly that candidate episteme and one exact viewpoint episteme as participants; the fixed five-part predicate and participant-determined identity govern it. Authoring, A.6.3 construction, a `viewpointRef`, query, selection, bundle membership, diagramming, rendering, publication, or current use does not make it obtain.
+
+`controlledHolonRef` names the holon whose state is observed or changed by independently obtaining control relations and may be the described holon or one of its exact parts. Architecture claims, `ClaimScope`, model-use structure, concern, and empirical grounding remain optional neighboring objects or relations. `modelUseStructureRef` appears only when an independently selected DDD-style bounded-model-use structure changes interpretation or selection.
+
+Every positive control-role assignment and control-relation reference identifies an actual occurrence admitted by its direct pattern. The description, control note, view record, or diagram neither creates those occurrences nor acts. Representation, publication occurrence, form, and carrier likewise remain separate from the selected structure and view episteme.
 
 #### C.30.LCA:4.0a - Safety-loss control-structure note
 
@@ -61741,13 +62067,13 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 | Observer or estimator | Acting system in an observer or estimator role; the enacted method may structure state estimates, observations, or evidence-facing readouts. |
 | Supervisor | Acting system in a supervisor role; the enacted method or policy may structure work that constrains subordinate holons, gates, policy changes, or control-mode changes. |
 
-**Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a control-specific item: `controlLayerRef`, `controlRoleRef`, `controlRelationRef`, `interLayerControlRelationRef`, `rateBandRef`, bounded context, and, where the supervisor-subholon relation is being claimed, `B.2.5` supervisor-subholon relation. Generic system level, aggregation scope, organization level, work or evidence scope, scale window, coarse-graining, deployment tier, and publication section do not stay in C.30.LCA. A layer label is not a control structure, not a system level, not a rate band, and not evidence of separation by itself.
+**Control-specific stratification gate.** `Layer`, `level`, `tier`, and `stack` enter C.30.LCA only after `C.30.STRAT` or the local sentence recovers a control-role assignment, direct control relation, inter-layer control relation, rate band, or `B.2.5` supervisor-subholon relation. A label by itself does not establish control structure or separation.
 
-**B.2.5 boundary.** `B.2.5` remains the owner for the supervisor-subholon feedback relation. `C.30.LCA` can cite a `B.2.5` relation when a supervisor-subholon relation is part of the control view. Loop wording stays in C.30.LCA only when the current control view explicitly recovers a control-loop or dynamics claim under its direct owner. `C.30.LCA` does not use `B.2.5` prose as proof of stability, safety, causality, evidence sufficiency, gate validity, or assurance. If an episteme appears in a control example, name the acting system in the relevant role, the A.3.4 transformer-position only when a transformation claim is current, and any publication, review record, publication relation, source relation, or reliance relation. An episteme does not sense, judge, plan, adapt, or act as an agent.
+**B.2.5 boundary.** `B.2.5` governs the supervisor-subholon feedback relation. `C.30.LCA` may cite such a relation as part of the selected control structure, but stability, safety, causality, evidence, gate, and assurance claims still use their direct governing patterns. If an episteme appears in a control example, name the acting system, its role assignment, enacted method when current, and any publication, source-to-use, or work-reliance relation. An episteme does not sense, decide, plan, adapt, or act as an agent.
 
 **Transformation-flow boundary.** An `E.18` transformation-flow path slice may supply flow-structure, path, crossing, or transformation-flow-structure input to the control view when that relation is being used. The transformation-flow graph expression remains a mathematical description or view of transformation-flow structure. It does not become the functional architecture, the control structure, or proof of control adequacy.
 
-**C.29 boundary.** LCA may be an accepted local control-theory description in one context and a transferable mathematical lens in another. When transfer, prediction, assurance input, or reusable cross-domain explanation is being claimed, use `MathLensUse.FullCard` or at least `MathLensUse.MiniCard`. Dynamics, temporal aspects or rate bands, authored temporal-claim adequacy, and causal claims are still assigned to `A.3.3`, `C.27.TA`, `C.27`, and `C.28`.
+**C.29 boundary.** An LCA can be a model used for one selected control structure, or it can be used as a transferable mathematical lens. Open `C.29` only when transfer, prediction, reusable cross-domain explanation, or mathematical-lens use is being claimed. Dynamics, rate bands, authored temporal-claim adequacy, and causal claims remain with `A.3.3`, `C.27.TA`, `C.27`, and `C.28`.
 
 **Nesting and scale rule.** If a control-structure view nests without a local depth limit, the record uses `scaleAuditRef?` when the nesting affects latency, stability, observability, accountability, or assurance.
 
@@ -61757,78 +62083,80 @@ The note gives a positive safety-triggered architecture move: find the loss-cont
 
 **Worked slice C - supervisor-subholon loop.** A subsystem is supervised by an external controller that changes allowed modes. `C.30.LCA` records the supervisor-subholon relation and may reference `B.2.5`. If the text claims that this loop authorizes work, passes a gate, or proves a policy constraint, the claim uses `A.15`, `A.20`, or `A.21`.
 
+**Currentness and smallest reopen.** When a decisive input changes, reopen only the control-structure locus and use conclusion that depend on it. A changed selected control structure or controlled holon reopens the affected `ControlStructureViewNote` or full description/view; a changed role assignment or direct relation reopens that exact assignment or occurrence and its dependent structure selection; changed feedback, rate, or control-layer relations reopen only their matching relation or boundary fields; changed view conformance reopens only the E.17.0 admission; and a changed source edition reopens its source-to-use and source-return locus. A changed safety or proof claim, or a changed direct governor, reopens only that neighboring claim or governor-owned relation unless a control-structure input also changed. Update the affected locus, demote full view use to a note or orientation, narrow use, or reopen the control-structure question; unrelated structures and claims stay closed.
+
 ### C.30.LCA:5 - Archetypal Grounding
 
 | Archetype | Without C.30.LCA | With C.30.LCA |
 |---|---|---|
-| System | A plant, controller, or supervisor diagram is treated as if the drawing itself established the controlled system's behavior. | The controlled system, controller, observer, planner, supervisor, boundaries, and rate bands are recorded as a view of control structure. |
-| Episteme | A control-description publication is read as proof because it uses familiar control labels. | The publication is treated as a description or view; proof-like claim kinds are governed by the pattern for that claim kind. |
+| System | A plant, controller, or supervisor diagram is treated as if the drawing itself established the controlled system's behavior. | The controlled system, controller, observer, planner, supervisor, boundaries, rate bands, actual control relations, and selected control structure remain separately recoverable. |
+| Episteme | A control-description publication is read as structure, `U.View`, or proof because it uses familiar control labels. | The exact description episteme has one selected-structure EntityOfConcern; it is a view only through exact E.17.0 conformance. Representation, publication, and proof-like claims stay separate. |
 
 ### C.30.LCA:6 - Bias-Annotation
 
-* **Diagram authority bias.** A neat feedback diagram can look more persuasive than the source relation, reliance relation, or claim pattern it actually uses. Repair by naming that relation named by value and the governing pattern that carries the claim kind being made.
-* **Stratification-label bias.** A `layer`, `level`, `tier`, or `stack` label can hide whether it names a control relation, rate band, aggregation, scale, organization, work scope or evidence scope, deployment, or publication section. Repair with `C.30.STRAT`; C.30.LCA applies only to the recovered control-specific case.
-* **Supervisor anthropomorphism.** A supervisor label can make an episteme, policy, or dashboard sound agentive. Repair by naming the acting system in role, the method it enacts when current, and the work or review practice when current.
-* **Transformation-flow and LCA conflation.** A transformation-flow graph expression and a control view can inform each other, but neither replaces the other. Repair by naming the description context and structure kind for each view.
+* **Diagram authority bias.** A neat feedback diagram can look more persuasive than the exact structure, source-to-use path, work-reliance relation, or claim it actually supports. Repair by naming each direct object/relation and governing pattern.
+* **Stratification-label bias.** A `layer`, `level`, `tier`, or `stack` label can hide whether it names a control relation, rate band, aggregation, scale, organization, Work scope, evidence scope, deployment, or publication section. Repair with `C.30.STRAT`; C.30.LCA applies only to the recovered control-specific case.
+* **Supervisor anthropomorphism.** A supervisor label can make an episteme, policy, or dashboard sound agentive. Repair by naming the acting system in role, the method it enacts when current, and the Work or review practice when current.
+* **Transformation-flow and LCA conflation.** A transformation-flow graph expression and a control description/view can inform each other, but neither replaces the other. Repair by naming the exact EntityOfConcern, structure kind, and direct relations for each.
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the note, description episteme, conformance occurrence, direct control relation, or repair guidance above.
 
 ### C.30.LCA:7 - Conformance Checklist
 
 | ID | Check | Why it matters |
 |---|---|---|
-| CC-LCA-1 | A conforming use names the `ArchitectureOf@Context` or recoverable described holon and bounded context whose control structure is being viewed. | Prevents free-floating control diagrams. |
-| CC-LCA-2 | A conforming use records control roles and relations: planner, regulator or controller, observer or estimator, plant or controlled system, supervisor, or the local subset actually present. | Keeps the view action-guiding. |
-| CC-LCA-3 | A conforming use recovers `layer`, `level`, `tier`, or `stack` wording with `C.30.STRAT` unless the text already recovers a control-specific `controlLayerRef`, `controlRelationRef`, `interLayerControlRelationRef`, `rateBandRef`, bounded context, or `B.2.5` supervisor-subholon relation. | Prevents pseudo-level or pseudo-layer overread inside C.30.LCA. |
-| CC-LCA-4 | A conforming use records observation, actuation, feedback, and externality boundaries when they are used in the view. | Makes the control relation inspectable. |
-| CC-LCA-5 | Stability, safety, dynamics, temporal-aspect or rate-band structure, authored temporal-claim adequacy, causal use, evidence, gate, and assurance claims are assigned to their governing patterns. | Prevents LCA-as-proof. |
-| CC-LCA-6 | `B.2.5` is used only as a supervisor-subholon feedback relation, not as proof of stability, safety, evidence, gate validity, or assurance. Loop claims use the control or dynamics owner named by value. | Keeps existing FPF control relation bounded. |
-| CC-LCA-7 | An `E.18` transformation-flow path slice used by the control view remains a transformation-flow description or relation governed by E.18, not the control structure itself. | Keeps transformation-flow and LCA relations distinct. |
-| CC-LCA-8 | A C.29 or mathematical-lens use is opened when LCA is transferred across domains or used for prediction, reusable explanation, or assurance input. | Preserves mathematical-lens use. |
-| CC-LCA-9 | The record states admissible use, non-admissible use, and source-return condition. | Prevents narrowed recognition from becoming unchecked reliance. |
+| CC-LCA-1 | A conforming full description/view has one exact C.2.1 identity whose EntityOfConcern is one exact selected control structure; the described and controlled holons and any actual `ArchitectureRelation` remain separately recoverable. | Prevents a free-floating diagram, claim, or unspecified relation set from becoming structure or episteme identity. |
+| CC-LCA-2 | A conforming use records the actual control-role assignments and direct relations present: planner, regulator/controller, observer/estimator, plant/controlled system, supervisor, or the local subset. | Keeps the view action-guiding without making the description act. |
+| CC-LCA-3 | `Layer`, `level`, `tier`, or `stack` wording enters only with a recovered control-role assignment, direct control relation, inter-layer relation, rate band, or `B.2.5` supervisor-subholon relation. | Prevents generic stratification wording from standing in for control structure. |
+| CC-LCA-4 | A claimed `U.View` names the exact viewpoint episteme and independently obtaining `EpistemeViewpointConformanceRelation`; bundle membership, viewpoint label, authoring, query, diagram, and publication are insufficient. | Keeps structural description and view membership distinct. |
+| CC-LCA-5 | Stability, safety, dynamics, temporal-aspect or rate-band structure, authored temporal-claim adequacy, causal use, empirical grounding, evidence, gate, and assurance claims are assigned to their governing patterns. | Prevents LCA-as-proof. |
+| CC-LCA-6 | `B.2.5` is used only for the supervisor-subholon feedback relation it governs. | Keeps a cited feedback relation distinct from stability, safety, evidence, gate, and assurance claims. |
+| CC-LCA-7 | An E.18 transformation-flow path slice used by the control view remains an exact selected transformation-flow object governed by E.18, not the control structure or actual transformation itself. | Keeps transformation-flow and LCA relations distinct. |
+| CC-LCA-8 | C.29 or mathematical-lens use is opened when LCA is transferred across domains or used for prediction, reusable explanation, or assurance input. | Preserves mathematical-lens use and representation boundaries. |
+| CC-LCA-9 | The record states admissible use, non-admissible use, and source-return condition; representation and E.24.PUB occurrence/form/carrier remain separate. | Prevents narrowed recognition or publication from becoming unchecked reliance. |
 
 ### C.30.LCA:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
-| LCA-as-proof | The text says the control stack proves safety, stability, or gate readiness. | Keep the control view and assign proof or claim named by values to dynamics, evidence, assurance, gate, or safety patterns. |
-| Control-layer-as-generic-level | `Layer`, `level`, `tier`, or `stack` is used without a recovered control role, relation, rate band, bounded context, or `B.2.5` supervisor-subholon relation. | Apply `C.30.STRAT`; return to C.30.LCA only for a recovered control-layer or control-relation case. |
-| Agentive episteme | A policy, model, dashboard, or architecture note is said to watch, decide, plan, or adapt. | Name the acting system in role, the method it enacts when current, the work or review practice when current, and any publication relation, source relation, or reliance relation. |
-| Transformation-flow and LCA substitution | A transformation-flow graph expression is treated as the control architecture, or an LCA diagram is treated as the transformation-flow graph expression. | Use `DescriptionContext` and structure kind fields to keep views distinct. |
+| LCA-as-proof | The text says the control stack proves safety, stability, or gate readiness. | Keep the control view and assign proof or claim named by value to dynamics, evidence, assurance, gate, or safety patterns. |
+| Control-layer-as-generic-level | `Layer`, `level`, `tier`, or `stack` is used without a control-role assignment, direct control relation, inter-layer relation, rate band, or `B.2.5` supervisor-subholon relation. | Apply `C.30.STRAT`; return to C.30.LCA only after a control-specific relation is recovered. |
+| Agentive episteme | A policy, model, dashboard, or architecture note is said to watch, decide, plan, or adapt. | Name the acting system, actual role assignment, enacted method when current, Work occurrence when current, and any publication, source-to-use, or work-reliance relation. |
+| Transformation-flow and LCA substitution | A transformation-flow graph expression is treated as control architecture, or an LCA diagram is treated as the transformation-flow graph expression. | Recover both exact selected structures and description epistemes separately; use E.17.0 only for actual viewpoint conformance. |
 | Hidden rate claim | Multi-rate control is named, but rate adequacy is not checked. | Add `rateSeparationClaimRefs?`; assign temporal-aspect or rate-band claims to `C.27.TA` and authored temporal-claim adequacy to `C.27`. |
 
 ### C.30.LCA:9 - Consequences
 
-The gain is a small, usable control-structure output that preserves common architecture language while blocking proof overread. Practitioners can still say `controller`, `plant`, `supervisor`, `feedback`, and `control layer`, but the record shows what those words carry; generic stratification labels use `C.30.STRAT` before they are allowed to enter this pattern.
+The gain is a small, usable control-structure output that preserves common architecture language while blocking structure, view, and proof overread. Practitioners can still say `controller`, `plant`, `supervisor`, `feedback`, and `control layer`, but the record shows the exact selected structure, description/view boundary, and direct relations those words carry; generic stratification labels use `C.30.STRAT` first.
 
-The cost is an extra relation note before downstream reliance. When the claim being made is only recognition, that cost is small. When the claim being made is safety, stability, evidence, assurance, or gate passage, the cost is appropriate because those claims were never carried by the diagram alone.
+The cost is an extra relation or conformance note before downstream reliance. When the claim is only recognition, that cost is small. When it is view membership, safety, stability, evidence, assurance, or gate passage, the cost is appropriate because none was carried by the diagram alone.
 
 ### C.30.LCA:10 - Rationale
 
-Control architecture is too important to leave to diagram authority and too useful to remove from architecture language. The FPF move is to keep the practice cue and recover the control-structure content first: controlled holon or architecture claim, control roles, control relations, recovered rate or control-layer labels, observation and actuation boundaries, externality boundaries, and the next admissible control-architecture move. The record may be a Description episteme or episteme-lane view, possibly admitted for specification use, but that is the record lane for the control-structure move, not the center of the pattern. It can cite `C.30.STRAT`, `B.2.5`, `E.18` transformation-flow structure, dynamics, `C.27.TA`, `C.27`, `C.28`, evidence, assurance, gates, and `C.29`, but it does not absorb their claim kinds.
+Control architecture is too important to leave to diagram authority and too useful to remove from architecture language. The FPF move is to keep the practice cue and recover control-structure content first: exact selected structure, controlled holon, actual architecture relation when current, control roles, direct control relations, recovered rate/control-layer labels, observation and actuation boundaries, externality boundaries, and next admissible move. The full record is one description episteme and, only through exact E.17.0 conformance, the same episteme as `U.View`. It can cite `C.30.STRAT`, `B.2.5`, E.18 transformation-flow structure, dynamics, `C.27.TA`, `C.27`, `C.28`, evidence, assurance, gates, and C.29, but does not absorb their claim kinds.
 
-This also protects the architecture ontology's EntityOfConcern and Description-episteme boundary plus specification-use discipline. The architecture-relevant EntityOfConcern is the selected control structure under `ArchitectureOf@Context`; the LCA diagram or control note is an architecture description or view when description or view use is being made. Several descriptions may describe the same control structure, and one description may be published without becoming the structure it describes.
+This protects subject, structure, episteme, View, representation, and publication boundaries. Several descriptions may have the same selected control structure as EntityOfConcern, and one description may be published repeatedly without changing identity, creating the structure, granting view membership, or making direct relations obtain.
 
 ### C.30.LCA:11 - SoTA-Echoing
 
 | SoTA and practice source | What it contributes | FPF adoption stance | Practitioner implication |
 | --- | --- | --- | --- |
-| Anderson, Doyle, Low, and Matni, "System Level Synthesis" (Annual Reviews in Control, 2019). | Structured controller-synthesis practice treats closed-loop responses, constraints, locality, and distributed implementation as explicit synthesis variables and implementation relations rather than as a box-and-arrow guarantee. | Adopt and adapt: use SLS as current control-structure pressure for explicit role, relation, locality, rate, and implementation-boundary fields; do not import SLS proof claims into C.30.LCA. | A distributed-control diagram can start a control-structure view; stability or robust-performance claims are governed by dynamics or control proof patterns. |
-| Ames, Coogan, Egerstedt, Notomista, Sreenath, and Tabuada, "Control Barrier Functions: Theory and Applications" (ECC, 2019). | Safety-critical control separates a controller structure from a safety property and the mathematical certificate or enforcement method used for that property. | Adopt and adapt: keep safety wording visible as a neighboring safety or proof claim, not as control-view adequacy. | When the sentence says the supervisor or controller makes the plant safe, keep the control view and assign the safety claim to the safety named by value, dynamics, evidence, or assurance pattern. |
-| Rawlings, Mayne, and Diehl, *Model Predictive Control: Theory, Computation, and Design*, 2nd ed. (2017). | Planner or regulator, receding-horizon, constraint, update-period, and model-boundary distinctions are common current MPC structure cues. | Adopt as control vocabulary: recover roles, rates, model boundaries, and constraints; assign temporal-aspect or rate-band claims to `C.27.TA`, authored temporal-claim adequacy to `C.27`, and dynamics claims to `A.3.3` when those claims are being made. | A multi-rate or MPC-style note should name rate bands and model boundaries before it claims adequacy. |
-| Leveson and Thomas, *STPA Handbook* (2018), as systems-theoretic safety-control practice. | Safety analysis treats unsafe control actions, feedback, process models, constraints, and losses as control-structure-relevant distinctions. | Adopt and adapt: allow safety-loss control-structure notes, while keeping safety-case verdicts and evidence sufficiency outside C.30.LCA. | A loss-control diagram can organize the view; it does not close the safety case. |
-| ISO/IEC/IEEE 42010:2022 architecture-description practice. | Architecture descriptions use concerns, viewpoints, views, and correspondences, and several views may describe one architecture. | Adopt and adapt: bind `ControlStructureView@Context` to `DescriptionContext` and `ArchitectureOf@Context`. | A control view is a view under a declared concern, not the architecture itself. |
+| Anderson, Doyle, Low, and Matni, "System Level Synthesis" (Annual Reviews in Control, 2019). | Structured controller-synthesis practice treats closed-loop responses, constraints, locality, and distributed implementation as explicit synthesis variables and implementation relations rather than as a box-and-arrow guarantee. | Adopt and adapt: use SLS as current control-structure pressure for explicit role, relation, locality, rate, and implementation-boundary fields; do not import SLS proof claims into C.30.LCA. | A distributed-control diagram can start a control-structure description; stability or robust-performance claims are governed by dynamics or control-proof patterns. |
+| Ames, Coogan, Egerstedt, Notomista, Sreenath, and Tabuada, "Control Barrier Functions: Theory and Applications" (ECC, 2019). | Safety-critical control separates a controller structure from a safety property and the mathematical certificate or enforcement method used for that property. | Adopt and adapt: keep safety wording visible as a neighboring safety or proof claim, not as control-view adequacy. | When a sentence says the supervisor/controller makes the plant safe, keep the control description and assign safety to the direct safety, dynamics, evidence, or assurance pattern. |
+| Rawlings, Mayne, and Diehl, *Model Predictive Control: Theory, Computation, and Design*, 2nd ed. (2017). | Planner/regulator, receding horizon, constraint, update period, and model-boundary distinctions are current MPC structure cues. | Adopt as control vocabulary: recover roles, rates, model boundaries, and constraints; route temporal/rate claims to `C.27.TA`, authored temporal adequacy to `C.27`, and dynamics to `A.3.3`. | A multi-rate or MPC-style note names rate bands and model boundaries before claiming adequacy. |
+| Leveson and Thomas, *STPA Handbook* (2018), as systems-theoretic safety-control practice. | Safety analysis treats unsafe control actions, feedback, process models, constraints, and losses as control-structure-relevant distinctions. | Adopt and adapt: allow safety-loss control-structure notes, while keeping safety-case verdicts and evidence sufficiency outside C.30.LCA. | A loss-control diagram can organize the description; it does not close the safety case. |
+| FPF `C.2.1`, `A.22`, `C.30`, `C.30.AD`, `E.17.0`, and `C.30.ASV`. | These patterns separate exact selected control structure, architecture relation/claim, description episteme, viewpoint episteme, conformance occurrence, and described/controlled holon. | Bind `ControlStructureView` to one selected `U.Structure` and exact viewpoint conformance; recover every control relation through its direct pattern. | A control view can coordinate several relations without becoming the architecture, relation occurrence, or proof. |
 
 ### C.30.LCA:12 - Relations
 
-* Builds on `C.30` for grounded architecture and selected-structure adequacy and `C.30.ASV` for structural-view adequacy.
-* Uses `A.22` for structure and structural-view kind discipline.
-* Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before any control-specific use enters C.30.LCA.
+* Builds on `C.30` for direct architecture relation and selected-structure adequacy, `C.30.AD` for description identity/use, `E.17.0` for direct viewpoint conformance, and `C.30.ASV` for structural-view adequacy.
+* Uses `A.22` for exact structure identity and structure-kind discipline.
+* Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before control-specific use.
 * Coordinates with `B.2.5` for supervisor-subholon feedback relation recognition.
-* Coordinates with `E.18` and `C.30.TFS-REL` when transformation-flow path slices supply structure input to the control view.
-* Applies `A.3.3` for dynamics and stability claims, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal-use claims, `A.10` or `G.6` for evidence claim, `B.3` for assurance, `A.20` or `A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` when LCA is used as a transferable mathematical lens.
+* Coordinates with E.18 and C.30.TFS-REL when transformation-flow path slices supply structure input to the control view.
+* Applies `A.3.3` for dynamics/stability, `C.27.TA` for temporal-aspect/rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, A.10/G.6 for evidence, B.3 for assurance, A.20/A.21 for constraint validity/gates, A.15 for Work/project use, E.24.PUB for publication, and C.29 for representation or transferable mathematical-lens use.
 
-Neighboring claims stay with their governing patterns: `C.30.STRAT` for stratification and source-label precision restoration, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `B.2.5` for supervisor-subholon feedback relation, `E.18` for graph, path, and crossing discipline, `A.3.3` for dynamics claims, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, `A.10` or `G.6` for evidence, `B.3` for assurance, `A.20` or `A.21` for gate and constraint-validity records, `A.15` for work, and `C.29` for mathematical-lens use. `C.30.LCA` governs only the control-structure view relation being claimed.
+Neighboring claims stay with their governing patterns: C.30.STRAT for stratification/source-label repair; C.30 for actual architecture relations and selected structures; C.30.AD for description; E.17.0/C.30.ASV for view conformance and adequacy; B.2.5 for supervisor-subholon feedback; E.18 for graph/path/crossing structure; A.3.3 for dynamics; C.27.TA/C.27 for temporal claims; C.28 for causal use; A.10/G.6 for evidence; B.3 for assurance; A.20/A.21 for gate and constraint-validity records; A.15 for Work; E.24.PUB for publication; and C.29 for representation/lens use. C.30.LCA governs only the exact control-structure description/view adequacy at issue.
 
 ### C.30.LCA:End
 
@@ -62091,44 +62419,63 @@ Neighboring claims stay with their governing patterns: `C.30` for grounded archi
 > **Normativity:** Normative unless explicitly marked informative
 > **Tech-name:** `ArchitectureTransformationFlowStructureRelation` (relation record)
 > **Plain-name:** architecture transformation-flow structure relation
-> **Governed object:** the architecture-side relation from `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional architecture-description use to one selected `TransformationFlowStructure` under `E.18` or one selected `TransformationFlowStructureNetwork` under `E.18.NET`.
+> **Governed object:** the bounded architecture-use record connecting an actual `ArchitectureRelation`, exact selected architecture structure, exact structural-view or description episteme, or bounded architecture claim to one selected `TransformationFlowStructure` under `E.18` or one selected `TransformationFlowStructureNetwork` under `E.18.NET`; the record does not itself instantiate a direct relation.
 
 ### C.30.TFS-REL:1 - Problem frame
 
-Use this pattern when an architecture discussion depends on a selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, path slice, crossing, flow valuation, edition pin, plane pin, context pin, no-hidden-scalarization claim, or mathematical description of the selected flow structure.
+Use this pattern when an architecture discussion depends on one exact selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, path slice, crossing, flow valuation, edition pin, plane pin, context pin, no-hidden-scalarization claim, or mathematical description of the selected flow structure.
 
-The first useful move is small. `ArchitectureTransformationFlowStructureRelation@Context` relates one named architecture locus to the selected E.18 TFS or E.18.NET network used in the architecture question. It names the architecture claim, selected structure or view, conditional description use, relevant functional and flow refs, mathematical or publication source when current, correspondence, hidden-structure return, admissible use, and—when a network is selected—whether one named containing holon or several explicitly named holons supply the architecture side.
+The first useful move is small. `ArchitectureTransformationFlowStructureRelation` is a bounded architecture-use record connecting one exact architecture locus to the selected E.18 TFS or E.18.NET network used in the question. The locus can be an actual `ArchitectureRelation` occurrence, exact selected architecture structure, exact architecture-description or structural-view episteme, or bounded architecture claim. When a network is selected, the record also says whether one named containing holon or several explicitly named holons supply the architecture side.
 
 ```text
-ArchitectureTransformationFlowStructureRelation@Context:
-architectureClaimRef?:
+ArchitectureTransformationFlowStructureRelation:
+architectureRelationOccurrenceRefs?:
+architectureClaimRefs?:
 selectedArchitectureStructureRefs?:
-architectureStructuralViewRef?:
-architectureDescriptionRef?:
-functionalStructureViewRef?:
-functionalElementRefs?:
-functionalBehaviorRefs?:
+architectureStructuralViewRefs?:
+architectureDescriptionRefs?:
+architectureUseConcernRefs?:
+claimScope?: U.ClaimScope, byValue
+effectiveReferenceScheme?: U.ReferenceScheme, byValue
+modelUseStructureRef?: U.StructureRef
+empiricalGroundingRelationRefs?:
+
+functionalStructureViewRefs?:
+functionalElementClaimRefs?:
+functionalBehaviorClaimRefs?:
+requiredOrDesiredEffectClaimRefs?:
+actualTransformationRefs?:
 transformerSideFillerRefs?:
 candidateBearerRefs?:
 inputConditionRefs?:
 outputConditionRefs?:
 functionalPortRefs?:
-transformationFlowStructureViewRef?:
+
+transformationFlowStructureViewRefs?:
 transformationFlowStructureRef?:
 transformationFlowStructureNetworkRef?:
 networkCrossFlowRelationRowRefs[]?: E.18.NET NetworkCrossFlowRelationRowRef
 networkArchitectureUseBranch?: namedContainingHolon | explicitInterHolon
+containingHolonRef?:
+containingArchitectureRelationRef?:
 containingArchitectureClaimRef?:
+participatingHolonRefs[]?:
+participatingArchitectureRelationRefs[]?:
 participatingArchitectureClaimRefs[]?:
-noArchitectureOfNetworkBearerAsserted?:
+noNetworkBearerHolonAsserted?:
 transformationFlowUnfoldingStructureRef?:
 selectedPathOrSliceRefs?:
 crossingBundleRefs?:
 flowValuationRefs?:
+
 mathematicalDescriptionRefs?:
 mathLensUseRefs?:
-correspondenceRefs?:
+correspondenceClaimOrRelationRefs?:
 sourcePublicationOrEditionRef?:
+representationRefs?:
+publicationOccurrenceRefs?:
+publicationFormRefs?:
+carrierRefs?:
 extractionOrProbeLocusRef?:
 relationObservationClassRef?:
 unexploredRegionRefs?:
@@ -62137,83 +62484,60 @@ admissibleUse:
 nonAdmissibleUse:
 ```
 
-Ordinary minimum: name at least one architecture-side reference (`architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, `architectureDescriptionRef` when durable description use is being made, `containingArchitectureClaimRef`, or `participatingArchitectureClaimRefs[]`), at least one flow-structure reference (`transformationFlowStructureRef`, `transformationFlowStructureNetworkRef`, `transformationFlowUnfoldingStructureRef`, `selectedPathOrSliceRefs`, `crossingBundleRefs`, or `flowValuationRefs`), one blocked overread, and stop or governing-pattern application. A network use also selects exactly one network architecture-use branch and supplies its required architecture claim refs. Use the remaining conditional fields only when they change the next architecture move; otherwise mark them `not used`.
+This is a use/trace record, not a universal direct `U.Relation` declaration and not an obtaining-condition shortcut. Each positive `architectureRelationOccurrenceRef`, flow relation, cross-member relation, correspondence relation, empirical-grounding relation, publication occurrence, or project/work relation is admitted and made actual only by its direct owner. The record, diagram, description, or list creates none of them.
 
-Use this relation only when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, functional-architecture view, transformation-flow-structure claim, or conditional architecture-description use depends on an E.18 TFS, an E.18.NET network, or one of the selected TFS's paths, crossings, or valuations. Stop when that architecture-to-flow-structure relation and its non-admissible uses are clear. If another claim is being made, apply its governing pattern and keep this record to the architecture relation.
+Ordinary minimum: name at least one exact architecture-side reference (`architectureRelationOccurrenceRefs`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRefs`, `architectureDescriptionRefs`, or a bounded `architectureClaimRefs` entry) and at least one flow-structure reference (`transformationFlowStructureRef`, `transformationFlowStructureNetworkRef`, `transformationFlowUnfoldingStructureRef`, `selectedPathOrSliceRefs`, `crossingBundleRefs`, or `flowValuationRefs`), one blocked overread, and one stop or governing-pattern application. A network use also selects exactly one network architecture-use branch and supplies its required exact holon and relation/claim refs. Use the remaining fields only when they change the next architecture move; otherwise mark them `not used`.
 
-What goes wrong if this pattern is missed: a transformation-flow diagram, graph-shaped mathematical description, path slice, or flow valuation becomes functional architecture, whole architecture ontology, performed-work occurrence, work-result record, evidence, gate passage, or project decision by appearance.
+Use this record only when an actual architecture relation, selected architecture-relevant structure, exact structural-view episteme, functional-structure view, transformation-flow-structure claim, or conditional architecture-description use depends on an E.18 TFS, an E.18.NET network, or one of the selected TFS's paths, crossings, or valuations. Stop when that architecture-to-flow-structure use and its non-admissible overreads are clear. If another claim is being made, apply its governing pattern and keep this record to the architecture/flow boundary.
 
-What this buys in practice: the practitioner can use E.18 for one TFS or E.18.NET for one network while C.30 remains the grounded architecture and selected-structure adequacy locus and C.30.ASV remains the architecture-structural-view locus.
+What goes wrong if this pattern is missed: a transformation-flow diagram, graph-shaped mathematical description, path slice, flow valuation, requirement, or functional-view row becomes functional architecture, whole architecture ontology, actual `U.Transformation`, performed Work, work-result record, evidence, gate passage, or project decision by appearance.
 
-Not this pattern when the question is only the TFS or network, a mathematical description, path, crossing, or flow valuation and no architecture relation is being claimed. Use E.18 for one TFS, E.18.NET for one network, E.18.2 for its mathematical description, and C.29 when mathematical-lens use is current. Use C.30 for an architecture claim or durable architecture description without this flow-structure relation; use C.30.ASV and A.6.F for a functional view without it. Apply any other claim's governing pattern and keep C.30.TFS-REL only to the architecture relation.
+What this buys in practice: the practitioner can use E.18 for one TFS or E.18.NET for one network while C.30 remains the direct architecture-relation and selected-structure adequacy locus and C.30.ASV remains the architecture-structural-view locus.
+
+Not this pattern when the question is only the TFS or network, a mathematical description, path, crossing, or flow valuation and no architecture use is being made. Use E.18 for one TFS, E.18.NET for one network, E.18.2 for its mathematical description, and C.29 when mathematical-lens use is current. Use C.30 for a direct architecture relation or architecture claim without this flow-structure use; use C.30.AD for a durable architecture description and C.30.ASV/A.6.F for a functional view without it. Apply any other claim's governing pattern and keep C.30.TFS-REL only to the architecture/flow relation.
 
 ### C.30.TFS-REL:2 - Problem
 
-Grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions often need E.18 TFS objects or one E.18.NET network when they discuss transformation-flow structure, functional dependencies, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
+Actual architecture relations, selected architecture-relevant structures, exact architecture structural views, and conditional architecture descriptions often need E.18 TFS objects or one E.18.NET network when they discuss transformation-flow structure, required functional dependencies, actual change, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
 
-C.30.TFS-REL prevents collapse by requiring the selected architecture-side reference before any E.18 TFS, E.18.NET network, path, slice, crossing, or valuation receives architecture use. A network additionally needs the containing-holon or explicit inter-holon branch; its graph or record cannot supply that branch.
+C.30.TFS-REL prevents collapse by requiring the exact architecture-side reference before any E.18 TFS, E.18.NET network, path, slice, crossing, or valuation receives architecture use. It also keeps required or desired behavior/effect claims distinct from actual A.3.4 transformations. A network additionally needs the named containing-holon or explicit inter-holon branch; its graph, description, publication, or record cannot supply that branch.
 
 ### C.30.TFS-REL:3 - Forces
 
 | Force | Tension |
 | --- | --- |
 | Transformation-flow relation vs architecture takeover | One E.18 TFS, one E.18.NET network, or a selected path or crossing can be essential, but none becomes all architecture ontology or an unnamed characteristic bearer. |
-| Functional view vs transformation-flow view | A functional structure view may need a transformation-flow relation, but a path, crossing, valuation, or mathematical description is not a functional element by itself. |
-| Structure precision vs work overread | E.18 gives selected structure, path, and flow-valuation objects; work occurrence and work results remain outside this relation unless their own pattern governs the claim being made. |
+| Functional view vs transformation-flow view | A functional structure view may need a transformation-flow relation, but a required effect, path, crossing, valuation, or mathematical description is not a functional element or actual transformation by itself. |
+| Structure precision vs work/change overread | E.18 gives selected structure, path, and flow-valuation objects; actual transformation, Work occurrence, and work results remain outside this record unless their own patterns admit those claims. |
 | No-hidden-scalarization vs architecture scoring | E.18 set-return and no-hidden-scalarization discipline can inform architecture reasoning, but it does not become a general architecture score. |
-| Small relation vs unneeded non-architecture apparatus | A project often needs one relation record, not a full C.29 lens card, evidence relation, assurance case, or decision record. |
-| Flow-structure-owner stability vs C.30 integration | An architecture claim, selected flow structure, architecture structural view, or conditional architecture-description use needs a relation to E.18 for one TFS or E.18.NET for one network without rewriting either owner as generic architecture adequacy theory. |
+| Small relation vs unneeded non-architecture apparatus | A project often needs one use record, not a full C.29 lens card, evidence relation, assurance case, or decision record. |
+| Flow-structure-owner stability vs C.30 integration | An actual architecture relation, selected structure, structural view, or conditional architecture-description use needs a trace to E.18 for one TFS or E.18.NET for one network without rewriting either owner as generic architecture adequacy theory. |
 
 ### C.30.TFS-REL:4 - Solution
 
-C.30.TFS-REL is the C.30 entry relation to E.18 and E.18.NET when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, or conditional architecture description uses one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, crossing, or flow valuation as an architecture-relevant transformation-flow relation.
+C.30.TFS-REL is the C.30 entry record to E.18 and E.18.NET when an actual architecture relation, selected architecture-relevant structure, exact architecture structural view, or conditional architecture description uses one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, crossing, or flow valuation.
 
-It supplies only the architecture-to-transformation-flow relation:
+It supplies only the architecture-to-transformation-flow use boundary. Use the full field set shown in section 1; no filled field makes a direct relation obtain.
 
 ```text
-ArchitectureTransformationFlowStructureRelation@Context ::= {
-  architectureClaimRef?,
-  selectedArchitectureStructureRefs?,
-  architectureStructuralViewRef?,
-  architectureDescriptionRef?,
-  functionalStructureViewRef?,
-  functionalElementRefs?,
-  functionalBehaviorRefs?,
-  transformerSideFillerRefs?,
-  candidateBearerRefs?,
-  inputConditionRefs?,
-  outputConditionRefs?,
-  functionalPortRefs?,
-  transformationFlowStructureViewRef?,
-  transformationFlowStructureRef?,
-  transformationFlowStructureNetworkRef?,
-  networkCrossFlowRelationRowRefs[]?: E.18.NET NetworkCrossFlowRelationRowRef,
-  networkArchitectureUseBranch?,
-  containingArchitectureClaimRef?,
-  participatingArchitectureClaimRefs[]?,
-  noArchitectureOfNetworkBearerAsserted?,
-  transformationFlowUnfoldingStructureRef?,
-  selectedPathOrSliceRefs?,
-  crossingBundleRefs?,
-  flowValuationRefs?,
-  mathematicalDescriptionRefs?,
-  mathLensUseRefs?,
-  correspondenceRefs?,
-  sourcePublicationOrEditionRef?,
-  extractionOrProbeLocusRef?,
-  relationObservationClassRef?,
-  unexploredRegionRefs?,
-  hiddenRelationStructureReturnCondition?,
-  admissibleUse,
-  nonAdmissibleUse
-}
+ArchitectureTransformationFlowStructureRelation minimum:
+  architectureLocusRef: exactly one actual ArchitectureRelation,
+    selected architecture U.Structure, exact description/view episteme,
+    or bounded ArchitectureClaim used by this question
+  flowLocusRef: exactly one E.18 TFS, E.18.NET network,
+    unfolding, member-local path/slice/crossing, or valuation
+  requiredOrDesiredEffectClaimRefs?: claim content only
+  actualTransformationRefs?: only with complete A.3.4 basis
+  networkArchitectureUseBranch?: one complete branch from section 4.4a
+  admissibleUse:
+  nonAdmissibleUse:
 ```
 
 At least one architecture-side field and at least one E.18 or E.18.NET field must be named by value. Network branch fields obey `C.30.TFS-REL:4.4a`; other optional fields stay `not used` unless they change inspection, correspondence, hidden relation-structure return, governing-pattern application, or stop.
 
 #### C.30.TFS-REL:4.1 - Use trigger
 
-Use this pattern only when an `ArchitectureOf@Context` claim being made, selected architecture-relevant structure, architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription@Context` use depends on one or more E.18 or E.18.NET objects:
+Use this pattern only when an actual `ArchitectureRelation` occurrence, selected architecture-relevant structure, exact architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription` use depends on one or more E.18 or E.18.NET objects:
 
 - `TransformationFlowStructureRef`;
 - `TransformationFlowStructureNetworkRef`, when architecture use selects an E.18.NET-conforming network;
@@ -62222,34 +62546,43 @@ Use this pattern only when an `ArchitectureOf@Context` claim being made, selecte
 - flow valuation over the `U.Transfer` relation;
 - edition, plane, or context pin;
 - no-hidden-scalarization or set-return discipline;
-- correspondence between functional structure and transformation-flow structure;
-- generated or extracted relation graph used as candidate input for the architecture-to-transformation-flow relation.
+- a correspondence claim or independently governed relation between functional structure and transformation-flow structure;
+- a generated or extracted relation graph used as candidate input for the architecture-to-transformation-flow use.
 
-If the sentence only says that Work occurred, use A.15 or the governing Work pattern. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
+If the sentence only says that Work occurred, use A.15 or the governing Work pattern. If it says that an actual referent changed, use A.3.4 before citing a `U.Transformation`. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
 
-Use `transformationFlowUnfoldingStructureRef?` only when the architecture relation depends on an `E.18.3` transformation-flow unfolding structure: the selected E.18 structure is being unfolded toward next architecture, decision, work, feedback, narrative, or refresh uses under constraints and direct exits. Generic architecture use of a constraint-governed unfolding structure belongs in `C.32.P2S` or the direct C.30 architecture governing pattern; this pattern keeps only the architecture-to-transformation-flow relation.
+Use `transformationFlowUnfoldingStructureRef?` only when the architecture use depends on an `E.18.3` transformation-flow unfolding structure: the selected E.18 structure is being unfolded toward next architecture, decision, work, feedback, narrative, or refresh uses under constraints and direct exits. Generic architecture use of a constraint-governed unfolding structure belongs in `C.32.P2S` or the direct C.30 architecture governing pattern; this pattern keeps only the architecture-to-transformation-flow trace.
 
 #### C.30.TFS-REL:4.2 - Relation to functional structure
 
-`FunctionalStructureView@Context` under C.30.ASV may cite `ArchitectureTransformationFlowStructureRelation@Context` when a transformation-flow relation is being used. That relation does not make the selected E.18 structure a functional element and does not make a functional element identical with the system, module, method, or flow. It says that a functional structure view, functional behavior, or selected functional element corresponds to, is declared relative to, or positively co-refers with one E.18 selected structure, path, crossing, or valuation relation under a named context.
+A `FunctionalStructureView` under C.30.ASV may cite `ArchitectureTransformationFlowStructureRelation` when a transformation-flow use is current. That record does not make the selected E.18 structure a functional element or actual transformation, and does not make a functional-element claim identical with the system, module, method, bearer, or flow. It states a bounded claim or trace that exact functional-view content corresponds to, is declared relative to, or positively co-refers with one exact E.18 selected structure, member-local path, crossing, or valuation.
 
-`FunctionalElement@Context` is a view-local functional-structure record governed by C.30.ASV, not a new root kind. It is current only when C.30.ASV has a selected functional structure view, bounded context, functional behavior, and bearer or candidate-bearer locus. Its functional behavior may be a bounded `U.Transformation` or a compound `TransformationFlowStructure`; its transformer-side filler is recovered through A.3.4 when a transformer claim is current; its module relation is allocation or correspondence through A.6.M. A graph-shaped expression, path, valuation, or flow packet is therefore not the functional element by default.
+Keep the same three branches used by C.30.ASV:
+
+- `functionalBehaviorClaimRefs` and `requiredOrDesiredEffectClaimRefs` remain C.2.1 claim content under their requirement, architecture, capability, method, functional-view, or other direct owner;
+- `actualTransformationRefs` cite only independently identified A.3.4 occurrences with exact changed referent, boundary or extent, boundary conditions, actual before/during/after facts, and continuity or reidentification basis;
+- `selectedTransformationFlowStructureRefs` cite exact E.18 structures, which may organize several independently identified transformations and transfers but are not themselves required effects or actual transformations.
+
+A `FunctionalElementClaim` is a bounded C.2.1 claim about one exact selected functional structure. Its bearer or candidate-bearer locus, capability, port, allocation, transformation, and correspondence refs retain their direct owners. A graph-shaped expression, path, valuation, required-effect statement, or flow packet is therefore not the functional element by default.
 
 ```text
 FunctionTransformationFlowRelationNote:
 functionalStructureViewRef:
-functionalElementRef?:
-functionalBehaviorRef?: U.Transformation | TransformationFlowStructure
+functionalElementClaimRef?:
+functionalBehaviorClaimRefs?:
+requiredOrDesiredEffectClaimRefs?:
+actualTransformationRefs?:
+selectedTransformationFlowStructureRefs?:
 transformerSideFillerRef?:
 candidateBearerRef?:
 inputConditionRefs?:
 outputConditionRefs?:
 functionalPortRefs?:
-transformationFlowStructureViewRef:
+transformationFlowStructureViewRef?:
 architectureTransformationFlowStructureRelationRef:
-pathOrSliceRef:
-crossingBundleRef:
-correspondenceOrCoReferenceClaim:
+pathOrSliceRef?:
+crossingBundleRef?:
+correspondenceClaimOrRelationRefs?:
 preservedStructure:
 lostOrHiddenStructure:
 sourcePublicationOrEditionRef?:
@@ -62261,11 +62594,13 @@ admissibleUse:
 nonAdmissibleUse:
 ```
 
-Use this note when the practitioner needs to see whether the function-to-transformation-flow relation changes inspection, split, relation-making, downgrade, claim-governance assignment named by value, candidate generation, or stop. Use C.30.ASV for the functional structure view, A.6.F for function-like wording recovery, A.3.4 for bounded transformation and transformer slots, A.6.M for module-allocation claims and module-correspondence claims, and E.18 for selected transformation-flow structure.
+**Required-cooling-effect / later-actual-cooling countercase.** `RequiredCoolingEffect-1` can require exact Rack 7 to be below 30 °C and can correspond to a selected cooling-flow structure before any change occurs. In that first use, fill `requiredOrDesiredEffectClaimRefs` and the selected TFS fields; leave `actualTransformationRefs` empty. A later `Rack7CoolingTransformation-42` is actual only when A.3.4 fixes Rack 7 as the changed referent, its thermal boundary and operating/ambient conditions, actual 38 °C before facts, actual heat-removal during facts, actual 27 °C after facts, and continuity or reidentification of Rack 7. Even then, a separate satisfaction or realization predicate is needed before claiming that the actual transformation satisfies the earlier requirement.
 
-`FunctionTransformationFlowRelationNote` is the one-TFS form. When architecture use selects a network, use the top-level `ArchitectureTransformationFlowStructureRelation@Context` and the branch in `C.30.TFS-REL:4.4a`. Name a member TFS in this note only when the function correspondence is actually to that member; membership in the selected network alone does not create a function correspondence.
+Use this note when the practitioner needs to see whether the function-to-transformation-flow relation changes inspection, split, relation-making, downgrade, claim-governance assignment named by value, candidate generation, or stop. Use C.30.ASV for the functional structure view, A.6.F for function-like wording recovery, A.3.4 for an actual transformation, A.6.M for module-claim repair and the direct allocation/interface owner, and E.18 for selected transformation-flow structure.
 
-When several transformation-flow variants are kept or compared as candidate architecture inputs, keep each selected transformation-flow structure, path, crossing, valuation, graph-shaped expression, or mathematical description under `E.18`, `E.18.2`, and this relation. Apply `C.32` only to the architecture candidate palette that uses those selected structures. The graph, path, and flow description does not become architecture adequacy, evidence, assurance, gate passage, selected-set publication, or decision by serving as a candidate input.
+`FunctionTransformationFlowRelationNote` is the one-TFS form. When architecture use selects a network, use the top-level `ArchitectureTransformationFlowStructureRelation` and the branch in `C.30.TFS-REL:4.4a`. Name a member TFS in this note only when the function correspondence is actually to that member; membership in the selected network alone does not create a function correspondence.
+
+When several transformation-flow variants are kept or compared as candidate architecture inputs, keep each selected transformation-flow structure, path, crossing, valuation, graph-shaped expression, or mathematical description under `E.18`, `E.18.2`, and this record. Apply `C.32` only to the architecture candidate palette that uses those selected structures. The graph, path, and flow description does not become architecture adequacy, evidence, assurance, gate passage, selected-set publication, or decision by serving as a candidate input.
 
 #### C.30.TFS-REL:4.3 - Claim-kind applications named by value
 
@@ -62286,99 +62621,109 @@ This table is the single boundary for generic non-flow claims. Elsewhere in this
 
 #### C.30.TFS-REL:4.4 - E.18 selected-structure boundary statement
 
-For an E.18-governed selected `TransformationFlowStructure` used by `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context`, an architecture-to-transformation-flow relation may cite the selected E.18 structure over the described holon plus MVPK faces and correspondences.
+For an E.18-governed selected `TransformationFlowStructure` used by an actual `ArchitectureRelation` occurrence, exact selected architecture structure, `ArchitectureStructuralView` episteme, or conditional `ArchitectureDescription` episteme, the architecture-use record may cite that exact E.18 structure plus MVPK faces and correspondence claims or independently governed relations.
 
-Grounded architecture adequacy and conditional architecture-description use are governed by C.30. E.18 supplies selected transformation-flow structure objects and relations; it does not define all architecture structure kinds.
+Grounded architecture adequacy and bounded architecture claims are governed by C.30; description identity by C.30.AD; view conformance by E.17.0 and C.30.ASV. E.18 supplies selected transformation-flow structures and relations; it does not define all architecture structure kinds, create an architecture relation, or turn required flow content into actual change.
 
-This is the named E.18 selected-structure boundary statement for this relation. It is not a second E.18 source of truth and does not depend on a section number staying stable.
+This is the named E.18 selected-structure boundary statement for this pattern. It is not a second E.18 source of truth and does not depend on a section number staying stable.
 
 #### C.30.TFS-REL:4.4a - Architecture use of a transformation-flow structure network
 
-First ask whether one exact `ArchitectureOf@Context` claim for a named holon includes the selected network in `structureRefs`. If it does not, ask whether the architecture question relies on claims for several named holons while no containing holon has been grounded. Select exactly one branch; a connected diagram does not answer either question.
+First ask whether one exact named containing holon has an independently obtaining `ArchitectureRelation` whose exact selected structure is the same `transformationFlowStructureNetworkRef`. If not, ask whether the architecture question instead spans several exact named holons while no containing holon has been grounded. Select exactly one branch; a connected diagram, network record, list, or common claim label does not answer either question.
 
-1. **Named containing-holon use.** Set `networkArchitectureUseBranch=namedContainingHolon`. Name exactly one `containingArchitectureClaimRef: ArchitectureOf@Context` whose `describedHolonRef` identifies the containing holon and whose `structureRefs` include the same exact `transformationFlowStructureNetworkRef`; keep `participatingArchitectureClaimRefs[]` and `noArchitectureOfNetworkBearerAsserted` absent. Member TFS values and their Work, valuations, boundaries, and direct relations remain independently governed.
-2. **Explicit inter-holon use.** Set `networkArchitectureUseBranch=explicitInterHolon`. Put at least two exact `ArchitectureOf@Context` claims with distinct `describedHolonRef` values in `participatingArchitectureClaimRefs[]`. Include exactly the claims whose selected structures or architecture characteristics this inter-holon question relies on; a network member whose architecture is not used by the question stays outside this array. Keep `containingArchitectureClaimRef` absent and set `noArchitectureOfNetworkBearerAsserted=true`. This states an architecture relation question spanning the named holons; it does not invent a holon or an `ArchitectureOf@Context` claim whose bearer is the network.
+1. **Named containing-holon use.** Set `networkArchitectureUseBranch=namedContainingHolon`. Name exactly one `containingHolonRef` and one actual `containingArchitectureRelationRef` whose selected structure is the same exact network. `containingArchitectureClaimRef` is optional claim/trace content. Keep all participating arrays and `noNetworkBearerHolonAsserted` absent. Member TFS values and their Work, valuations, boundaries, actual transformations, and direct relations remain independently governed.
+2. **Explicit inter-holon use.** Set `networkArchitectureUseBranch=explicitInterHolon`. Put at least two exact distinct holons in `participatingHolonRefs[]`. Add exactly the actual `participatingArchitectureRelationRefs[]` and bounded `participatingArchitectureClaimRefs[]` on which this question relies; a network member whose architecture is not used by the question stays outside those arrays. Keep all containing fields absent and set `noNetworkBearerHolonAsserted=true`. This states one architecture-use question spanning named holons; it does not invent a containing holon, architecture relation, or characteristic bearer whose identity is the network.
 
-Every other populated architecture-side reference must agree with the selected branch. In `namedContainingHolon`, `architectureClaimRef` when present equals `containingArchitectureClaimRef`, each value in `selectedArchitectureStructureRefs` is selected by that claim, and each architecture structural view, architecture description, or functional structure view used by this relation points through that claim. In `explicitInterHolon`, each such reference points through one named participating claim; a singular reference names only that participant and does not imply a containing architecture. If a reference depends on another architecture claim, add that claim as a participant only when the current question actually relies on it, or use a separate relation record.
+Every other populated architecture-side reference must agree with the selected branch. In `namedContainingHolon`, each value in `selectedArchitectureStructureRefs` belongs to the containing architecture relation's selected structure route, and each structural view, architecture description, functional structure view, or architecture claim used by this record traces to the same exact containing holon and relation. In `explicitInterHolon`, each such reference traces to one named participating holon and, when actual, its exact architecture relation; a singular reference names only that participant and does not imply a containing architecture. If a reference depends on another holon or architecture relation, add it only when the current question actually relies on it, or use a separate record.
 
-The branches are mutually exclusive. When `transformationFlowStructureNetworkRef` is absent, `networkCrossFlowRelationRowRefs[]` and all network branch fields are absent. A network ref without one complete branch is not ready for architecture use. When the record also names a path, slice, crossing, or valuation, bind it to the exact member TFS and the local positions or bindings that own it. When it names a network-aware unfolding, that E.18.3 locator must select the same exact network and preserve its admitted position mappings. The network ref does not lift member-local values into network-global state.
+The branches are mutually exclusive. When `transformationFlowStructureNetworkRef` is absent, `networkCrossFlowRelationRowRefs[]` and all network branch fields are absent. A network ref without one complete branch is not ready for architecture use. When the record also names a path, slice, crossing, valuation, required effect, or actual transformation, bind it to the exact member TFS and the local positions, participants, or bindings that own it. When it names a network-aware unfolding, that E.18.3 locator must select the same exact network and preserve its admitted position mappings. The network ref does not lift member-local values into network-global state.
 
-Use `networkCrossFlowRelationRowRefs[]` only for E.18.NET-owned composite locators. Each locator's current containing record must describe the same exact selected network, and the occurrence plus complete ordered endpoint-binding identity must resolve exactly one nested row. Zero matches, several matches, or a record for a different network stop this architecture use. The locator identifies the row; it neither creates the relation occurrence nor changes its direct governor.
+Use `networkCrossFlowRelationRowRefs[]` only for E.18.NET-owned composite locators. Each locator's current containing record must describe the same exact selected network, and the direct occurrence plus complete ordered endpoint-binding identity must resolve exactly one nested row. Zero matches, several matches, or a record for a different network stop this architecture use. The locator identifies the row; it neither creates the relation occurrence nor changes its direct governor.
 
-For every maintainability, capability, responsibility, production, safety, or other architecture-characteristic claim made or used by this relation, name the exact holon, `ArchitectureOf@Context` claim, selected structure, view, relation, or other bearer governed by C.30. A network may have selected structural facts, such as its members, relations, recursion, or exposed positions; those facts do not make an unnamed network the bearer of holon characteristics, agency, Work, or production.
+For every maintainability, capability, responsibility, production, safety, or other architecture-characteristic claim made or used by this record, name the exact holon, actual architecture relation, selected structure, description/view episteme, bounded claim, or other bearer governed by C.30 or the characteristic's direct owner. A network may have selected structural facts—members, relations, recursion, or exposed positions—but those facts do not make an unnamed network the bearer of holon characteristics, agency, Work, production, required effects, or actual transformations.
 
-A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord@Context` is neither branch and does not enter architecture identity. It may describe the selected network only under its description or publication pattern.
+A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord` is neither branch and does not enter architecture identity. It may represent, describe, or publish the selected network only under its direct representation, description, or publication pattern.
 
-**Named containing-holon case.** `ArchitectureOf@ManufacturingPlatform` names the manufacturing platform as `describedHolonRef` and includes one product-development/production-system-change network in `structureRefs`. C.30.TFS-REL may use that network to localize an architecture change while each member TFS and production relation keeps its own owner.
+**Named containing-holon case.** Exact holon `ManufacturingPlatform-7` has one obtaining architecture relation whose selected structure includes the product-development/production-system-change network. C.30.TFS-REL may use that network to localize an architecture change while each member TFS, production relation, Work occurrence, and actual transformation keeps its own owner.
 
-**Explicit inter-holon case.** A supplier architecture claim and a plant architecture claim use one selected E.18.NET-conforming supply-linked TFS network to inspect a cross-company dependency. Both claims appear in `participatingArchitectureClaimRefs[]`; no containing supply-chain holon has been grounded, so `noArchitectureOfNetworkBearerAsserted=true`. The network is not called the architecture of an unnamed enterprise.
+**Explicit inter-holon case.** Exact supplier holon and exact plant holon use one selected E.18.NET-conforming supply-linked TFS network to inspect a cross-company dependency. Both appear in `participatingHolonRefs[]`, with only the actual architecture relations and claims the question uses in their corresponding arrays. No containing supply-chain holon has been grounded, so `noNetworkBearerHolonAsserted=true`. The network is not called the architecture of an unnamed enterprise.
 
 #### C.30.TFS-REL:4.5 - Worked slices
 
 **Functional architecture with a transformation-flow relation being claimed.** A team says, "The functional architecture is this flow diagram." The repair is:
 
 ```text
-functionalStructureViewRef: required effects and dependencies
-functionalElementRefs?: not used; no selected `FunctionalElement@Context` is being claimed
-functionalBehaviorRefs?: required effect `authorize payment`
+functionalStructureViewRef: exact view episteme about required effects and dependencies
+functionalElementClaimRefs?: not used; no filled functional-element claim is current
+functionalBehaviorClaimRefs?: required-effect claim `authorize payment`
+requiredOrDesiredEffectClaimRefs?: required-effect claim `authorize payment`
+actualTransformationRefs?: not used; no A.3.4 actual change is claimed
+selectedTransformationFlowStructureRefs: exact selected payment-authorization TFS
 transformerSideFillerRefs?: not used
 candidateBearerRefs?: not used
 inputConditionRefs?: not used
 outputConditionRefs?: not used
 functionalPortRefs?: not used
-transformationFlowStructureViewRef: selected E.18 transformation-flow structure, path structure, crossing structure, or flow-valuation structure
+transformationFlowStructureViewRef: exact description/view episteme about the selected E.18 structure, path, crossing, or flow valuation
 transformationFlowStructureRef: TransformationFlowStructure@PaymentAuthorization
 selectedPathOrSliceRefs: path slices used for the architecture claim
-correspondenceRefs: functional effect to flow path relation
+correspondenceClaimOrRelationRefs: bounded claim that the required effect corresponds to the flow path
 nonAdmissibleUse:
+  required effect as actual U.Transformation,
   flow diagram as functional architecture itself,
-  selected transformation-flow structure as work occurrence,
+  selected transformation-flow structure as Work occurrence,
   mathematical graph description as evidence sufficiency,
   crossing as gate result,
   flow relation as project decision
 ```
 
-Filled relation record:
+Filled use record:
 
 ```text
-ArchitectureTransformationFlowStructureRelation@Context:
-architectureClaimRef: ArchitectureOf@CheckoutServiceContext
-selectedArchitectureStructureRefs: selected request-handling and payment-authorization flow structure
-architectureStructuralViewRef: ArchitectureStructuralView@CheckoutRuntimeFlow
-architectureDescriptionRef: not used; the durable architecture description is not being evaluated here
-functionalStructureViewRef: FunctionalStructureView@CheckoutRequiredEffects
-functionalElementRefs: not used
-functionalBehaviorRefs: required effect `authorize payment`
+ArchitectureTransformationFlowStructureRelation:
+architectureRelationOccurrenceRefs: exact obtaining CheckoutService architecture relation
+architectureClaimRefs: bounded CheckoutService architecture claim when current
+selectedArchitectureStructureRefs: exact selected request-handling and payment-authorization structure
+architectureStructuralViewRefs: exact CheckoutRuntimeFlow view episteme
+architectureDescriptionRefs: not used; durable description adequacy is not being evaluated here
+functionalStructureViewRefs: exact CheckoutRequiredEffects view episteme
+functionalElementClaimRefs: not used
+functionalBehaviorClaimRefs: required-effect claim `authorize payment`
+requiredOrDesiredEffectClaimRefs: required-effect claim `authorize payment`
+actualTransformationRefs: not used
+selectedTransformationFlowStructureRefs: TransformationFlowStructure@Checkout-v3
 transformerSideFillerRefs: not used
 candidateBearerRefs: not used
 inputConditionRefs: not used
 outputConditionRefs: not used
 functionalPortRefs: not used
-transformationFlowStructureViewRef: TransformationFlowStructureView@PaymentAuthorizationPath
+transformationFlowStructureViewRefs: exact PaymentAuthorizationPath description/view episteme
 transformationFlowStructureRef: TransformationFlowStructure@Checkout-v3
 selectedPathOrSliceRefs: PathSlice@request-to-payment-authorization
 crossingBundleRefs: not used
 flowValuationRefs: not used
 mathematicalDescriptionRefs: not used
-correspondenceRefs: required effect `authorize payment` corresponds to the E.18 path slice; this is correspondence, not identity
-sourcePublicationOrEditionRef: model or generated graph edition when the flow relation was extracted from one
+correspondenceClaimOrRelationRefs: claim that required effect `authorize payment` corresponds to the E.18 path slice; this is correspondence, not identity or actual change
+sourcePublicationOrEditionRef: model or generated-graph edition when the flow relation was extracted from one
 extractionOrProbeLocusRef: path-slice extraction or code-agent probe locus when current
 relationObservationClassRef: observed, inferred, or unknown relation class when current
 unexploredRegionRefs: not used
 hiddenRelationStructureReturnCondition: reopen if mathematical-description edition, path slice, relation observation class, or required-effect declaration changes
-admissibleUse: inspect whether the functional structure view depends on the E.18 path slice being used and whether an architecture split or correspondence note is needed
-nonAdmissibleUse: flow diagram as functional architecture itself; selected transformation-flow structure as work occurrence; mathematical graph description as evidence sufficiency; crossing as gate result; flow relation as project decision
+admissibleUse: inspect whether the functional structure view depends on the E.18 path slice and whether an architecture split or correspondence claim is needed
+nonAdmissibleUse: required effect as actual transformation; flow diagram as functional architecture itself; selected transformation-flow structure as Work occurrence; mathematical graph description as evidence sufficiency; crossing as gate result; flow relation as project decision
 ```
 
-Near miss: if the selected transformation-flow structure has no C.30-side architecture reference named by value, the case stays in `E.18`. If the same sentence is a mathematical description, use `E.18.2`; if it is a math-lens-use claim, use `C.29`. If it is a work log, evidence claim, gate decision, or benchmark result, that non-flow claim is governed by its governing pattern and this relation keeps only the architecture-to-transformation-flow relation.
+Cooling countercase: a selected cooling-flow TFS and `RequiredCoolingEffect-1` may fill the required-effect and correspondence fields while `actualTransformationRefs` stays empty. Only a later A.3.4 occurrence with Rack 7 as exact changed referent, fixed thermal boundary and conditions, actual 38 °C before / heat-removal during / 27 °C after facts, and Rack 7 continuity can fill that field. A separate realization predicate is still needed to relate the actual cooling to the requirement.
 
-**Pump-station flow relation.** A plant team says, "the safety architecture is the bypass flow." C.30.TFS-REL applies only if the plant `ArchitectureOf@Context`, selected control or material-flow structure, and E.18 selected bypass-flow structure are named. The bypass path may be architecture-relevant, but it is not safety proof, performed maintenance work, gate passage, or release permission. The relation record names the plant architecture locus, selected E.18 path or crossing, hidden relation-structure return condition, and the one architecture move changed by the bypass relation.
+Near miss: if the selected transformation-flow structure has no exact C.30-side architecture reference named by value, the case stays in `E.18`. If the same sentence is a mathematical description, use `E.18.2`; if it is a math-lens-use claim, use `C.29`. If it is a Work log, evidence claim, gate decision, or benchmark result, that non-flow claim is governed by its governing pattern and this record keeps only the architecture-to-transformation-flow use.
 
-**Supply-chain transformation-flow relation.** A logistics architecture view may use an E.18 selected flow structure for supplier handoff, transport crossing, freshness window, and valuation. The architecture claim remains about selected supply-chain structure; work occurrences, contractual commitments, evidence, and gate decisions stay with their governing patterns.
+**Pump-station flow relation.** A plant team says, "the safety architecture is the bypass flow." C.30.TFS-REL applies only if the exact plant holon, its actual architecture relation or bounded architecture claim as current, selected control or material-flow structure, and E.18 selected bypass-flow structure are named. The bypass path may be architecture-relevant, but it is not an actual cooling/pumping transformation, safety proof, performed maintenance Work, gate passage, or release permission. The record names the plant architecture locus, selected E.18 path or crossing, hidden relation-structure return condition, and the one architecture move changed by the bypass relation.
 
-**Neural-network dataflow change.** Source labels such as attention block, SSM block, convolution block, memory mechanism, cache mechanism, and MoE expert-selection go through `C.30.STRAT` unless the changed value is already recovered. C.30.TFS-REL applies only when the changed structure kind and transformation-flow relation are named. A benchmark, ablation, or pruning result may bear on a non-architecture claim named by value, but it does not make the flow relation an architecture decision or evidence sufficiency by itself.
+**Supply-chain transformation-flow relation.** A logistics architecture view may use an E.18 selected flow structure for supplier handoff, transport crossing, freshness window, and valuation. The exact subject holons, actual architecture relations when claimed, and selected supply-chain structures remain named; Work occurrences, contractual commitments, evidence, and gate decisions stay with their governing patterns.
 
-**Code-agent relation graph.** A code-agent relation graph with `IMPORTS`, `CALLS_API`, `REGISTRY_WIRES`, or `DATA_FLOWS_TO` edges can be used for an architecture-to-transformation-flow relation only with the source publication or codebase edition, extraction or probe locus, relation observation class selected from {observed, inferred, unknown}, typed relation semantics, unexplored regions, and hidden relation-structure return condition when subsequent action relies on hidden distinctions.
+**Neural-network dataflow change.** Source labels such as attention block, SSM block, convolution block, memory mechanism, cache mechanism, and MoE expert-selection go through `C.30.STRAT` unless the changed value is already recovered. C.30.TFS-REL applies only when the exact changed structure kind and transformation-flow relation are named. A benchmark, ablation, or pruning result may bear on a non-architecture claim named by value, but it does not make the flow relation an architecture decision, actual transformation, or evidence sufficiency by itself.
+
+**Code-agent relation graph.** A code-agent relation graph with `IMPORTS`, `CALLS_API`, `REGISTRY_WIRES`, or `DATA_FLOWS_TO` edges can be used for an architecture-to-transformation-flow relation only with the source publication or codebase edition, extraction or probe locus, relation observation class selected from {observed, inferred, unknown}, typed relation semantics, unexplored regions, and hidden relation-structure return condition when subsequent action relies on hidden distinctions. The graph, representation, file, and publication occurrence remain distinct from both the selected TFS and every direct relation occurrence.
 
 #### C.30.TFS-REL:4.6 - Lowering and currentness conditions
 
@@ -62400,90 +62745,90 @@ Admissible repair results are: update the affected TFS or network reference, net
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A practitioner sees one TFS or several connected TFSs and wants to use that flow structure in an architecture question. C.30.TFS-REL makes them name the exact TFS or network and the architecture locus; for a network, they choose one containing claim or the exact participating claims. The result is one usable architecture relation or an exact stop, not an architecture claim inferred from the diagram. |
-| Show: `U.System` | A software system, plant, AI agent, neural network, vehicle, or supply chain may have transformation-flow structure. A diagram or mathematical description can inform architecture reasoning about that structure without carrying the non-flow claims named in `C.30.TFS-REL:4.3`. |
-| Show: `U.Episteme` | A mathematical graph description, generated relation graph, code-agent probe, neural-network diagram, dashboard, or architecture note is an episteme, view, or publication. It can publish or substantiate the transformation-flow relation only when the exact E.18 TFS or E.18.NET network, the selected network architecture branch when applicable, context pins, correspondence, any relied-on row locator, hidden relation-structure return condition, and admissible use are recoverable. |
+| Tell | A practitioner sees one TFS or several connected TFSs and wants to use that flow structure in an architecture question. C.30.TFS-REL makes them name the exact TFS or network and exact architecture locus; for a network, they choose one containing holon/relation or the exact participating holons and relations/claims. The result is one usable trace or an exact stop, not an architecture relation inferred from the diagram. |
+| Show: `U.System` | A software system, plant, AI agent, neural network, vehicle, or supply chain may have transformation-flow structure. A diagram or mathematical description can inform architecture reasoning about that structure without carrying the required-effect, actual-transformation, or other non-flow claims named in `C.30.TFS-REL:4.3`. |
+| Show: `U.Episteme` | A mathematical graph description, generated relation graph, code-agent probe, neural-network diagram, dashboard, or architecture note is an episteme, representation, view, or publication. It can support the transformation-flow use only when exact E.18 TFS or E.18.NET network, the selected network architecture branch when applicable, edition/plane/context pins, correspondence, any relied-on row locator, hidden relation-structure return condition, and admissible use are recoverable. |
 
 ### C.30.TFS-REL:6 - Bias-Annotation
 
-Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-to-transformation-flow relations using E.18 TFS or E.18.NET network objects.
+Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope: architecture-to-transformation-flow uses of E.18 TFS or E.18.NET network objects.
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Structure-or-description-as-architecture bias | The pattern states that grounded architecture adequacy and conditional architecture-description use stay with C.30, mathematical descriptions stay with E.18.2, math-lens uses stay with C.29, and structural views stay with C.30.ASV. |
-| Function-flow collapse | Functional structure and transformation-flow structure are related, not identical by default. Identity requires a positive selected-structure co-reference check. |
+| Structure-or-description-as-architecture bias | Direct architecture relations and bounded claims stay with C.30, descriptions with C.30.AD, representations with C.29, mathematical descriptions with E.18.2, math-lens uses with C.29, and structural views with C.30.ASV/E.17.0. |
+| Function-flow/change collapse | Required functional content, selected transformation-flow structure, and actual A.3.4 transformation remain separate. Functional and flow structures are related, not identical by default. |
 | Non-flow claim overread | The relation table assigns non-flow claim kinds to their governing patterns. |
 | Mathematical overread | Mathematical-lens use of a graph or valuation is governed by C.29. |
 | Check-only bias | Conformance checks include repair actions and stop conditions. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, relation, or repair guidance above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, use record, direct relations, or repair guidance above.
 
 ### C.30.TFS-REL:7 - Conformance Checklist
 
 | ID | Requirement | Failed-check repair |
 | --- | --- | --- |
-| **CC-C30TFR-1 Flow-structure object.** | The relation names the exact E.18 TFS, E.18.NET network, path, slice, crossing, or flow valuation object it uses. | Add the exact E.18 or E.18.NET reference named by value, or use C.30 or C.30.ASV without this relation. |
-| **CC-C30TFR-2 Architecture locus.** | The relation names `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use it relates to. | Add `architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, `architectureDescriptionRef`, `containingArchitectureClaimRef`, or `participatingArchitectureClaimRefs[]` as the selected use requires; otherwise keep the TFS or network claim with E.18 or E.18.NET, the mathematical-description claim with E.18.2, or the math-lens-use claim with C.29. |
-| **CC-C30TFR-3 Functional and flow separation.** | Functional structure and transformation-flow structure remain separate unless correspondence or positive selected-structure co-reference is declared. | Add `FunctionTransformationFlowRelationNote`, add the co-reference check, or remove the functional-architecture claim from the flow sentence. |
-| **CC-C30TFR-4 No architecture takeover.** | The selected transformation-flow structure, network, or mathematical description is not treated as generic architecture ontology or all architecture structure kinds. | Assign grounded architecture claims, selected architecture-relevant structures, or conditional architecture-description use to C.30 and keep this pattern to the architecture-to-transformation-flow relation. |
-| **CC-C30TFR-4a Network architecture branch.** | A network use selects exactly one branch. The containing branch has one `ArchitectureOf@Context` claim whose `structureRefs` include the exact network, and every other architecture-side ref agrees with that claim. The inter-holon branch has every architecture claim this question actually relies on, no containing claim, and `noArchitectureOfNetworkBearerAsserted=true`; a singular participant ref never implies a containing architecture. | Complete one branch, remove or reroute a conflicting architecture-side ref, add a participating claim only when the current question relies on it, or keep the network claim under E.18.NET without architecture use. |
-| **CC-C30TFR-4b Named characteristic bearer and representation boundary.** | Every architecture characteristic claimed or used by this relation remains on an exact named bearer, and no graph, mathematical description, publication, or network record becomes the architecture claim or its bearer. | Name the holon, architecture claim, selected structure, view, relation, or other C.30-governed bearer; demote the representation to its description or publication use. |
-| **CC-C30TFR-4c Member-local, unfolding, and row-reference boundary.** | Every path, slice, crossing, or valuation named with a network remains bound to its exact owning member TFS and local positions or bindings; a network-aware unfolding selects that same network through its E.18.3 locator; and every `NetworkCrossFlowRelationRowRef` resolves exactly one row in a current record for that network without replacing the obtaining relation occurrence. | Restore the member-local binding or network-locator match; repair or remove a row locator that resolves zero or several rows or points to another network; keep occurrence truth with its direct governor. |
-| **CC-C30TFR-5 No work overread.** | A selected TFS, network, path, or slice is not treated as work occurrence or work result. | Assign the work claim to A.15 or the governing work-result pattern. |
-| **CC-C30TFR-6 No evidence, assurance, or gate overread.** | The relation is not used as evidence sufficiency, assurance claim, gate decision, or release permission without evidence named by value, assurance, gate, or release pattern application. | Assign the claim being made to A.10, G.6, B.3, A.20, A.21, or the release locus named by value when a release claim is being made. |
-| **CC-C30TFR-7 Causal and mathematical boundaries.** | Causal or intervention claims and mathematical-lens claims are assigned to C.28 and C.29. | Apply those governing patterns or narrow the relation's admissible use. |
+| **CC-C30TFR-1 Flow-structure object.** | The record names the exact E.18 TFS, E.18.NET network, path, slice, crossing, or flow valuation object it uses. | Add the exact E.18 or E.18.NET reference named by value, or use C.30 or C.30.ASV without this record. |
+| **CC-C30TFR-2 Architecture locus.** | The record names an actual `ArchitectureRelation`, exact selected architecture structure, exact `ArchitectureStructuralView` or `ArchitectureDescription` episteme, or bounded `ArchitectureClaim`. | Add the exact architecture relation/structure/episteme/claim as the selected use requires; otherwise keep the TFS or network claim with E.18 or E.18.NET, the mathematical-description claim with E.18.2, or the math-lens-use claim with C.29. |
+| **CC-C30TFR-3 Functional, required, flow, and actual-change separation.** | Required/desired behavior and effect remain claim content; selected TFS remains structure; an `actualTransformationRef` appears only with the complete A.3.4 changed-referent, boundary, conditions, before/during/after, and continuity/reidentification basis. Functional and flow structure co-reference is explicit rather than assumed. | Repair through `FunctionTransformationFlowRelationNote`; split the required claim, selected structure, and actual transformation; add correspondence or positive selected-structure co-reference only when its predicate is governed. |
+| **CC-C30TFR-4 No architecture takeover.** | The selected transformation-flow structure, network, mathematical description, or use record is not treated as generic architecture ontology or all architecture structure kinds. | Assign actual architecture relations, selected architecture-relevant structures, bounded claims, or description use to C.30/C.30.AD and keep this pattern to the architecture-to-transformation-flow trace. |
+| **CC-C30TFR-4a Network architecture branch.** | A network use selects exactly one branch. The containing branch has one exact holon and actual architecture relation whose selected structure is the exact network. The inter-holon branch has at least two exact holons, exactly the actual architecture relations and bounded claims this question uses, no containing fields, and `noNetworkBearerHolonAsserted=true`; a singular participant ref never implies a containing architecture. | Complete one branch, remove or reroute a conflicting architecture-side ref, add a participant only when the current question relies on it, or keep the network claim under E.18.NET without architecture use. |
+| **CC-C30TFR-4b Named characteristic bearer and representation boundary.** | Every architecture characteristic claimed or used remains on an exact named holon, actual architecture relation, selected structure, view/description episteme, bounded claim, or other governed bearer; no graph, representation, mathematical description, publication, or network record becomes that bearer. | Name the exact bearer under C.30 or its direct owner; demote the visible object to representation, description, or publication use. |
+| **CC-C30TFR-4c Member-local, unfolding, and row-reference boundary.** | Every path, slice, crossing, valuation, required effect, or actual transformation named with a network remains bound to its exact owning member TFS and local positions, participants, or bindings; a network-aware unfolding selects the same network through its E.18.3 locator; every `NetworkCrossFlowRelationRowRef` resolves exactly one row in a current record for that network without replacing the obtaining relation occurrence. | Restore the member-local binding or network-locator match; repair or remove a row locator that resolves zero or several rows or points to another network; keep occurrence truth with its direct governor. |
+| **CC-C30TFR-5 No Work overread.** | A selected TFS, network, path, or slice is not treated as Work occurrence or work result. | Assign the Work claim to A.15 or the governing work-result pattern. |
+| **CC-C30TFR-6 No evidence, assurance, or gate overread.** | The record is not used as evidence sufficiency, assurance claim, gate decision, or release permission without the direct governing application. | Assign the claim being made to A.10, G.6, B.3, A.20, A.21, or the release locus named by value. |
+| **CC-C30TFR-7 Causal and mathematical boundaries.** | Causal or intervention claims and mathematical-lens claims are assigned to C.28 and C.29. | Apply those governing patterns or narrow the record's admissible use. |
 | **CC-C30TFR-8 Pin and scalarization boundary.** | Edition, context, and plane pins plus no-hidden-scalarization claims remain E.18-governed. | Add E.18 pin and set-return references or remove the comparison or selection claim. |
 | **CC-C30TFR-9 Hidden relation return.** | Extracted, generated, coarsened, or partial relation graphs or flow diagrams state the source publication or edition, extraction or probe locus, relation observation class, unexplored regions, and hidden relation-structure return condition when hidden distinctions affect action. | Add the missing relation-structure fields or narrow the admissible use. |
 | **CC-C30TFR-10 Useful action.** | The repair leaves a remaining use: name the selected TFS, path, or crossing; choose the containing or inter-holon branch for a selected network; add correspondence; return to source; assign the claim being made to a governing pattern; or stop. | Restore that use, or classify the phrase as reduced-use cue, quote-only wording, blocked transfer, or incomplete rewrite. |
-| **CC-C30TFR-11 Lowering and currentness.** | The relation states the smallest changed locus when E.18 TFS semantics or pins, E.18.NET network identity or relations, the selected network branch or architecture claims, a relied-on row locator, relation observation class, architecture locus, correspondence, hidden relation-structure return, or related governing boundary changes. | Update the affected TFS or network reference, branch, architecture claim, or row locator; narrow admissible use; keep the TFS or network claim inside E.18 or E.18.NET; keep the mathematical-description claim inside E.18.2; keep math-lens use inside C.29; apply the governing pattern to the non-flow claim; lower the relation; or block architecture-to-transformation-flow use. |
+| **CC-C30TFR-11 Lowering and currentness.** | The record states the smallest changed locus when E.18 TFS semantics or pins, E.18.NET network identity or relations, selected network branch or architecture loci, a relied-on row locator, relation observation class, correspondence, hidden relation-structure return, or related governing boundary changes. | Update the affected TFS/network reference, branch, architecture locus, or row locator; narrow admissible use; keep subject claims with their direct owners; lower the record; or block architecture-to-transformation-flow use. |
 
 ### C.30.TFS-REL:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Structure-as-architecture** | The E.18 selected transformation-flow structure is called the whole architecture. | Use C.30 for the grounded architecture claim, selected architecture-relevant structure, or conditional architecture description, and keep this relation only for the transformation-flow relation. |
-| **Unnamed network as architecture bearer** | A connected network or its graph is assigned maintainability, capability, responsibility, agency, or production without one containing holon or explicit participating architecture claims. | Select the named-containing-holon branch or the explicit inter-holon branch, restore every characteristic to a named bearer, and keep the graph or record outside architecture identity. |
-| **Graph-description-as-functional-architecture** | A graph-shaped mathematical description or diagram is treated as the functional architecture itself. | Split functional structure, selected transformation-flow structure, mathematical description, and publication face; add correspondence when needed. |
-| **Flow-as-work-log** | Path or slice wording is treated as work occurrence. | Assign occurrence or result claims to A.15 or P2W and keep E.18 to selected structure, path, slice, or valuation. |
+| **Structure-as-architecture** | The E.18 selected transformation-flow structure is called the whole architecture. | Use C.30 for the actual architecture relation, selected structure, or bounded claim; C.30.AD for description; keep this record only for the transformation-flow use. |
+| **Unnamed network as architecture bearer** | A connected network or its graph is assigned maintainability, capability, responsibility, agency, production, required effect, or actual transformation without one containing holon/relation or explicit participating holons. | Select the named-containing-holon or explicit inter-holon branch, restore every characteristic to a named bearer, and keep graph/record outside architecture identity. |
+| **Graph-description-as-functional-architecture** | A graph-shaped mathematical description or diagram is treated as functional architecture, functional element, or actual change. | Split functional claim, selected TFS, actual transformation, mathematical description, representation, and publication; add correspondence when needed. |
+| **Flow-as-work-log** | Path or slice wording is treated as Work occurrence. | Assign occurrence or result claims to A.15 or P2W and keep E.18 to selected structure, path, slice, or valuation. |
 | **Crossing-as-gate-result** | A crossing relation is treated as gate passage. | Assign gate-decision claims to A.21 and keep crossing relation under E.18. |
-| **Valuation-as-score** | A flow valuation is used as a generic architecture score. | State E.18 valuation and set-return discipline; assign measurement, characterization, selection, or candidate-set claims to `C.16` or an admitted governing pattern when those claims are being made. |
-| **Generated relation-graph proof** | A code-agent relation graph or probe output is used as proof of architecture understanding or safety. | Recover the source publication or codebase edition, extraction or probe locus, relation observation class selected from {observed, inferred, unknown}, hidden structure, and evidence or assurance pattern governing the claim applications. |
-| **Prompt-data-tool flow as authority proof** | A prompt, data, or tool-flow diagram is treated as permission for tool action or proof that authority is safe. | Keep the diagram as a transformation-flow relation or E.18.2 mathematical description. A path from untrusted content to tool action is governed by `SecurityTrustBoundaryStructure`, C.24, E.16, A.20, or A.21 when those claim kinds are being made. |
+| **Valuation-as-score** | A flow valuation is used as a generic architecture score. | State E.18 valuation and set-return discipline; assign measurement, characterization, selection, or candidate-set claims to `C.16` or an admitted governing pattern. |
+| **Generated relation-graph proof** | A code-agent relation graph or probe output is used as proof of architecture understanding or safety. | Recover source publication/codebase edition, extraction/probe locus, observation class from {observed, inferred, unknown}, unexplored regions, hidden structure, and direct evidence or assurance application. |
+| **Prompt-data-tool flow as authority proof** | A prompt, data, or tool-flow diagram is treated as permission for tool action or proof that authority is safe. | Keep it as a transformation-flow use or E.18.2 mathematical description. Route a selected `SecurityTrustBoundaryStructure` view through C.30.ASV; route agentic tool-use and call planning to `C.24`, autonomy-budget enforcement to `E.16`, and gate or release claims to `A.20` or `A.21` when those exact claim kinds are being made. |
 
 ### C.30.TFS-REL:9 - Consequences
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| E.18 TFS paths, crossings, and valuations and E.18.NET network structure become usable across grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions without merging their owners. | Every use names the exact C.30 architecture claim or relation record, selected architecture-relevant structure, C.30.ASV structural-view ref, or conditional architecture-description ref. A network use also names either one containing architecture claim or all participating architecture claims and keeps every characteristic on a named bearer. |
-| Functional structure and transformation-flow structure stay separable unless positive co-reference is declared. | Concise "the diagram is the architecture" prose is repaired before it is used for an FPF claim kind or admissible-use boundary. |
+| E.18 TFS paths, crossings, valuations, and E.18.NET network structure become usable across actual architecture relations, selected architecture structures, exact structural views, and conditional descriptions without merging owners. | Every use names the exact architecture locus. A network use also names either one containing holon/relation or all exact participating holons and needed relations/claims, and keeps every characteristic on a named bearer. |
+| Required functional content, transformation-flow structure, and actual transformation stay separable. | Concise "the diagram is the architecture/change" prose is repaired before it carries an FPF claim. |
 | Non-flow claim kinds are assigned to their governing patterns. | More governing patterns are named when practitioners try to overuse the diagram, mathematical expression, or selected structure. |
-| The E.18 selected-structure boundary statement stays narrow. | Generic architecture adequacy remains outside E.18. |
+| The E.18 selected-structure boundary stays narrow. | Generic architecture adequacy remains outside E.18. |
 
 ### C.30.TFS-REL:10 - Rationale
 
-E.18 governs one selected TFS, its paths, crossings, valuations, and pins; E.18.NET governs one selected network and its exact cross-member relations. Architecture needs to use either object without taking over its ontology or inventing an unnamed architecture bearer. The smallest stable result is therefore one C.30-side relation record that points to those objects and states the containing-holon or inter-holon architecture use when a network is selected.
+E.18 governs one selected TFS, its paths, crossings, valuations, and pins; E.18.NET governs one selected network and its exact cross-member relations. Architecture needs to use either object without taking over its ontology or inventing an unnamed architecture bearer. The smallest stable result is therefore one C.30-side use record pointing to exact objects and stating the named-containing-holon or explicit inter-holon branch when a network is selected.
 
-This pattern also protects functional architecture. A functional structure view may correspond to a transformation-flow structure, and in some cases both may refer to the same selected `U.StructureRef`; that identity is not automatic. The relation is useful precisely because it preserves the difference while allowing correspondence or positive co-reference.
+This pattern also protects functional architecture and actual-change semantics. A functional structure may correspond to a transformation-flow structure, and in some cases both views may designate the same selected `U.Structure`; that identity is not automatic. Required or desired effect remains claim content, while an actual `U.Transformation` requires the independent A.3.4 basis.
 
 ### C.30.TFS-REL:11 - SoTA-Echoing
 
 | Practice or reference line | C.30.TFS-REL adoption | Action consequence | Boundary |
 | --- | --- | --- | --- |
-| E.18 one-TFS discipline and E.18.NET network discipline | Adopt E.18 as the owner of one TFS, its paths, crossings, and valuations; adopt E.18.NET as the owner of one selected network, member-local references, and exact cross-member relations. | The pattern names the exact TFS or network, then adds only the C.30 architecture locus and selected network branch. | Neither flow-structure owner becomes generic architecture ontology or architecture-description ontology. |
-| ISO/IEC/IEEE 42010:2022 and multi-view architecture practice | Adapt view and correspondence discipline to architecture-to-transformation-flow reliance. | Transformation-flow views relate to grounded architecture claims, selected architecture-relevant structures, architecture structural views, or conditional architecture descriptions through C.30, C.30.ASV, and correspondence refs. | Architecture views do not become proof, evidence, gates, or decisions. |
-| MBSE and SysML v2 view and relation practice | Adapt model-derived flow views and path views as description-episteme relations derived from a model publication or model edition. | A model-derived flow view states model edition, selected structure, hidden or lost structure, and admissible use. | Tool models do not override FPF E.18 or C.30 relations. |
-| Neural-network dataflow and GonzoML architecture-operation corpus | Adopt practitioner flow-structure recognition for block replacement, path-selection, memory and cache placement, MoE expert-selection, pruning, distillation, ablation, and compute, memory, and latency tradeoffs. | Keep block, cache, expert, router, gate, and similar words as `C.30.STRAT` source labels until the transformation-flow structure is recovered; C.30.TFS-REL applies only when that recovered structure changes the architecture move. | Benchmarks, ablations, pruning masks, or architecture-search outputs do not become evidence sufficiency, assurance, gate passage, or architecture decision by themselves. |
-| Theory of Code Space and arXiv:2603.00601 code-agent relation graph probing | Adapt relation graphs with relation observation class selected from {observed, inferred, unknown} and partial-observability warnings. | Generated code relation graphs can be used for a transformation-flow relation only with typed relation semantics, source publication or codebase edition pins, extraction or probe locus, unexplored regions, and hidden relation-structure return condition. | Do not mint `U.CodeSpace`; do not treat probe output as internal belief proof, architecture adequacy, assurance, or release evidence or release claim. |
+| E.18 one-TFS discipline and E.18.NET network discipline | Adopt E.18 as owner of one TFS, paths, crossings, and valuations; E.18.NET as owner of one selected network, member-local references, and exact cross-member relations. | Name the exact TFS or network, then add only the exact C.30 architecture locus and selected network branch. | Neither flow-structure owner becomes generic architecture or architecture-description ontology. |
+| ISO/IEC/IEEE 42010:2022 and multi-view architecture practice | Adapt view and correspondence discipline to architecture-to-transformation-flow reliance. | Transformation-flow views relate to actual architecture relations, selected structures, exact structural views, or conditional descriptions through C.30, C.30.AD, C.30.ASV, and correspondence claims/relations. | Architecture views do not become proof, evidence, gates, decisions, required-effect realization, or actual transformation. |
+| MBSE and SysML v2 view and relation practice | Adapt model-derived flow views and path views as descriptions derived from a model publication or edition. | A model-derived flow description states model edition, selected structure, hidden/lost structure, and admissible use. | Tool models and queries do not override FPF E.18, C.30, A.3.4, or E.17.0 relations. |
+| Neural-network dataflow and GonzoML architecture-operation corpus | Adopt practitioner recognition for block replacement, path selection, memory/cache placement, MoE expert selection, pruning, distillation, ablation, and compute/memory/latency tradeoffs. | Keep source labels with `C.30.STRAT` until exact values are recovered; C.30.TFS-REL applies only when recovered flow structure changes the architecture move. | Benchmarks, ablations, pruning masks, or search outputs do not become evidence, assurance, gate passage, actual transformation, or architecture decision by themselves. |
+| Theory of Code Space and arXiv:2603.00601 code-agent relation graph probing | Adapt relation graphs with observation class from {observed, inferred, unknown} and partial-observability warnings. | Generated code relation graphs can be used only with typed relation semantics, source/codebase edition, extraction/probe locus, unexplored regions, and hidden-relation return condition. | Do not mint `U.CodeSpace`; probe output is not internal belief proof, architecture adequacy, assurance, or release evidence/claim. |
 
-**Currentness boundary.** The inputs to the currentness judgment are E.18 TFS semantics and pins; E.18.NET network identity, cross-member relations, and row-locator resolution when selected; the chosen network architecture branch and its exact containing or participating claims; C.30 and C.30.ASV architecture-side relation rules; the relation observation class; and the non-flow governing patterns named in `C.30.TFS-REL:4.3`. When one changes, the relation changes only at the affected reference, branch or architecture claim, row locator, correspondence, hidden relation-structure return condition, admissible-use boundary, or governing-pattern assignment.
+**Currentness boundary.** Inputs are E.18 TFS semantics and pins; E.18.NET network identity, cross-member relations, and row-locator resolution when selected; the chosen network architecture branch and exact containing or participating holons/relations/claims; C.30/C.30.AD/C.30.ASV architecture-side rules; observation class; required-versus-actual status; and non-flow governors named in `C.30.TFS-REL:4.3`. When one changes, the record changes only at the affected reference, branch, row locator, correspondence, hidden relation-structure return condition, admissible-use boundary, or governing-pattern assignment.
 
 ### C.30.TFS-REL:12 - Relations
 
-Builds on: `C.30`, `C.30.ASV`, `A.22`, `A.6.F`, `E.18` for one TFS, `E.18.NET` for one selected conforming network and its exact obtaining cross-member relations, `E.17`, `E.17.0`, `A.7`, `E.10`, `C.2.P`, and `F.18`.
+Builds on: `C.30`, `C.30.AD`, `C.30.ASV`, `A.22`, `A.6.F`, `A.3.4`, `E.18` for one TFS, `E.18.NET` for one selected conforming network and exact obtaining cross-member relations, `E.17.0`, `E.24.PUB`, `A.7`, `E.10`, `C.2.P`, and `F.18`.
 
-Coordinates with: `C.30.STRAT`, `C.32.P2S` when architecture-to-transformation-flow grounding is one stage of problem-to-structure architecturing, `C.32` when selected transformation-flow variants become candidate architecture inputs, `C.33` when transformation-flow relation descriptions capture or lose selected architecture structure, `C.34` when transformation-flow relation claims must be preserved across a mapping, model, generated output, or realization, `C.35` when a generated or discovered transformation-flow carrier may seed synthesis, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governing patterns when those claims are being made, `A.6.M` module-and-interface repair, `A.6.5` slot discipline, and `A.6.0` when a signature declaration is being made.
+Coordinates with: `C.30.STRAT`, `C.32.P2S` when architecture-to-transformation-flow grounding is one stage of problem-to-structure architecturing, `C.32` when selected transformation-flow variants become candidate architecture inputs, `C.33` when transformation-flow relation descriptions capture or lose selected architecture structure, `C.34` when transformation-flow claims must be preserved across a mapping, model, generated output, or realization, `C.35` when a generated or discovered carrier may seed synthesis, `A.15`, `A.20`, `A.21`, `A.10`, `G.6`, `B.3`, `C.28`, `C.29`, `C.16`, admitted measurement, selection, or candidate-set governors, `A.6.M` module-claim repair and direct interface owner, `A.6.5` slot discipline, and `A.6.0` when a signature declaration is being made.
 
-Related claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair, `E.18` for one selected transformation-flow structure, path, crossing, and flow-valuation discipline, `E.18.NET` for network identity and exact cross-member relations, `E.18.2` and `C.29` for mathematical descriptions and lens-use claims, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `C.32.P2S` for connected problem-to-structure carry-through, `A.6.F` for function-use repair, and the non-flow governing patterns named in `C.30.TFS-REL:4.3`. `C.30.TFS-REL` governs only the architecture use of the selected TFS or TFS network.
+Related claims stay with their governing patterns: `C.30.STRAT` for stratification wording and source-label repair; E.18 for one selected TFS, path, crossing, and flow valuation; E.18.NET for network identity and exact cross-member relations; E.18.2/C.29 for mathematical descriptions, representations, and lens use; C.30 for direct architecture relations and selected-structure adequacy; C.30.AD for description identity/use; E.17.0/C.30.ASV for structural-view conformance and adequacy; A.3.4 for actual transformations; C.32.P2S for connected problem-to-structure carry-through; A.6.F for function-use repair; and the non-flow governors named in section 4.3. C.30.TFS-REL governs only the bounded architecture use of the selected TFS or TFS network.
 
 ### C.30.TFS-REL:End
 
@@ -63250,6 +63595,10 @@ The first useful move is `ScaleClaimTriage`:
 ```text
 ScaleClaimTriage:
   architectureAlternativeSetRef:
+  describedHolonRef:
+  claimScopeRef:
+  selectedContextSliceRefs:
+  modelUseStructureRef?:
   scaleVariableRef:
   scaleWindowRef:
   claimedPreferenceUnderScale:
@@ -63261,7 +63610,7 @@ ScaleClaimTriage:
   stopCondition:
 ```
 
-Ordinary use starts by naming the alternatives, the scale variable, the scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception growth risk. Use `ArchitectureScaleAuditRecord@Project` only when the scale preference is being used to affect a comparison, selected set, publication, assurance input, or architecture decision.
+Ordinary use starts by naming the alternatives and described holon, the exact `U.ClaimScope` and relevant A.2.6 `U.ContextSlice` membership, the scale variable and scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception-growth risk. Name `modelUseStructureRef` only when one independently selected `BoundedModelUseStructure` changes this receiving interpretation; it never replaces the claim scope. Use `ArchitectureScaleAuditRecord@Project` only when the scale preference is being used to affect a comparison, selected set, publication, assurance input, or architecture decision.
 
 What goes wrong if C.31.ASAP is missed: "modular", "platform", "product line", "reusable", "general", "open", "coarse-grained", or "RG-like" becomes a shortcut for a scale-preference claim; a locally hand-engineered solution is called debt even when safety, law-domain, or mission constraints justify it; exception growth is hidden until the architecture is already expensive to change; and coarse descriptions keep losing lower-scope safety or semantic distinctions without a source-return condition.
 
@@ -63296,7 +63645,7 @@ C.31.ASAP specializes scale-amenability preference for architecture alternatives
 
 C.31.ASAP applies only when all of the following are present:
 
-1. a declared architecture alternative set;
+1. a declared architecture alternative set, described holon, exact `U.ClaimScope`, and relevant A.2.6 `U.ContextSlice` membership;
 2. a declared scale variable or scale window;
 3. a claimed preference under scale;
 4. slope evidence, scale-probe evidence, or a no-probe reason;
@@ -63312,7 +63661,9 @@ Use `ScaleClaimTriage` before any heavier scale audit:
 ScaleClaimTriage:
   architectureAlternativeSetRef:
   describedHolonRef:
-  boundedContextRef:
+  claimScopeRef:
+  selectedContextSliceRefs:
+  modelUseStructureRef?:
   architectureClaimRef?:
   scaleVariableRef:
   scaleWindowRef:
@@ -63331,13 +63682,17 @@ ScaleClaimTriage:
 
 The triage is complete enough when it states the next admissible architecture move and the nearest blocked overread. It may stop at local guidance when no comparison, publication, assurance, selected-set, or decision use is being made.
 
+`claimScopeRef` designates one exact `U.ClaimScope`; `selectedContextSliceRefs` records the A.2.6 membership relevant to this use. A scale window is the range of the scale variable for which the preference is claimed, not a substitute for either scope object. `modelUseStructureRef` is optional and is filled only when an independently selected A.1.1 `BoundedModelUseStructure` changes the interpretation of this exact preference use. A generic bounded-context label creates none of those values or relations.
+
 #### C.31.ASAP:4.3 - Architecture scale-preference rule
 
 When architecture alternatives satisfy the same safety boundary, law-domain boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
 
 This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision is being claimed, use `G.5`, `G.9`, `C.11`, `A.21`, or the governing pattern. C.31.ASAP governs only the scale-preference claim and its boundary.
 
-A scale-preference claim may inform `C.32` candidate generation or comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition for candidate alternatives. It does not select, publish, authorize, or prove an architecture. `C.32` carries the candidate architecture palette; `G.5` governs selected-set publication, `C.11` governs final local choice, `C.32.PAD` governs project architecture decision, and evidence, assurance, gate, and release patterns govern those claims when current.
+A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition for candidate alternatives. It does not itself compare, select, publish, authorize, or prove an architecture. `C.32` carries the candidate architecture palette; `A.19.CPM` governs explicit comparison, `G.5` governs selected-set publication, `C.11` governs final local choice, `C.32.PAD` governs project architecture decision, and evidence, assurance, gate, and release patterns govern those claims when current.
+
+When the same scale-sensitive pressure must also become a project criterion, `C.32.ACS` creates a separate row for the exact characteristic or Q-Bundle slot, bearer, scale form, and use class. That row may supply declared input to an ASAP preference, but it does not assert that one alternative is preferable under the scale window; conversely, an ASAP preference record is not an ACS row and does not classify the row as an optimization indicator, guardrail, or context-only row.
 
 #### C.31.ASAP:4.4 - Scale variables
 
@@ -63365,7 +63720,12 @@ Use the heavier audit only when the scale preference changes comparison, publica
 
 ```text
 ArchitectureScaleAuditRecord@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureScaleAuditProjectUseRelationRef?: U.RelationRef governed by the exact audit-use or work-use pattern
   architectureAlternativeSetRef:
+  claimScopeRef:
+  selectedContextSliceRefs:
+  modelUseStructureRef?:
   scaleVariableRefs:
   scaleWindowRef:
   ArchitectureSlopeVector:
@@ -63379,6 +63739,8 @@ ArchitectureScaleAuditRecord@Project:
   relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
+
+For `ArchitectureScaleAuditRecord@Project` and `BespokeResidueRegister@Project`, `@Project` is a compatibility and retrieval cue only; it establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. An audit local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct audit-use relation in `architectureScaleAuditProjectUseRelationRef`; either field alone is insufficient. `BespokeResidueRegister@Project` remains retrieval-only in this edition: `BespokeResidueRegisterRef` may cite the register episteme, but neither that reference nor the audit-use relation asserts the register's own project locality. Assert such locality only after a direct register-to-work relation is governed and cite that exact occurrence; do not borrow the audit relation. Otherwise no audit or residue-register project locality is asserted.
 
 | Output | Meaning |
 | --- | --- |
@@ -63440,6 +63802,10 @@ For architecture use, the C.29 output should name `MLU.Description@RGArchitectur
 ```text
 ScaleClaimTriage:
   architectureAlternativeSetRef: product-line platform alternative vs bespoke customer-specific variants
+  describedHolonRef: the regulated deployment platform and its site-specific variants
+  claimScopeRef: preference claim for 5 to 40 named regulated deployment sites inside the current qualification boundary
+  selectedContextSliceRefs: the named site, jurisdiction, and qualification-window slices admitted by that claim scope
+  modelUseStructureRef?: absent; no independently selected bounded-model-use structure changes this use
   scaleVariableRef: N_sites
   scaleWindowRef: 5 to 40 regulated deployment sites inside the current qualification window
   claimedPreferenceUnderScale: platform alternative is preferred if interface variants and approval exceptions grow slower than bespoke variants
@@ -63480,7 +63846,7 @@ Stop C.31.ASAP use when the scale window, probe evidence or no-probe reason, com
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| `CC-C31.ASAP-1` | A C.31.ASAP use being made names architecture alternative set, scale variable or scale window, and claimed preference under scale. | Prevents generic "scales better" wording. |
+| `CC-C31.ASAP-1` | A C.31.ASAP use being made names the architecture alternative set, described holon, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, scale variable or scale window, and claimed preference under scale. | Prevents generic "scales better" and generic-context wording. |
 | `CC-C31.ASAP-2` | `ScaleClaimTriage` names slope evidence, scale-probe evidence, or a no-probe reason. | Prevents preference claims without declared evidence or no-probe reason. |
 | `CC-C31.ASAP-3` | Expected stable or improving structure and exception-growth risk are stated. | Keeps the pattern about architecture structure rather than scale vocabulary. |
 | `CC-C31.ASAP-4` | Source-return condition is present when any compressed, coarse, extracted, indexed, or accounting representation drops source-side distinctions. | Prevents unsafe coarse descriptions. |
@@ -63490,6 +63856,8 @@ Stop C.31.ASAP use when the scale window, probe evidence or no-probe reason, com
 | `CC-C31.ASAP-8` | Mathematical-lens claims name C.29 output fields; C.31.ASAP governs only the architecture scale-preference side. | Keeps C.29 and C.31.ASAP distinct. |
 | `CC-C31.ASAP-9` | Comparison, selected-set, local choice, evidence, assurance, gate, work, or release claims name the governing pattern. | Prevents scale preference from becoming selection or assurance. |
 | `CC-C31.ASAP-10` | SoTA rows mutate at least one solution line, checklist item, boundary, relation, or worked slice. | Keeps source use non-decorative. |
+| `CC-C31.ASAP-11` | Project-local audit use names both `projectWorkOccurrenceRef` and `architectureScaleAuditProjectUseRelationRef`; a residue register remains retrieval-only unless its own governed direct relation to the exact composite Work is cited. | Prevents an `@Project` suffix, work reference, or borrowed audit relation from fabricating locality. |
+| `CC-C31.ASAP-12` | When an ACS criterion row and an ASAP preference are both current, each is separately referenced and neither substitutes for the other. | Keeps criterion admission and alternative preference distinct. |
 
 ### C.31.ASAP:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -63528,9 +63896,9 @@ The pattern adapts BLP-style scale-amenability to architecture: prefer the alter
 
 ### C.31.ASAP:12 - Relations
 
-- **Builds on:** `C.31`, `C.31.RSA`, `C.16`, `A.17`, `A.18`, `A.19`, `C.18.1`, `C.19.1`, and `C.29`.
-- **Coordinates with:** `A.6.M` for module-interface relation repair; `C.30`, `C.30.ASV`, `C.30.LCA`, and `C.30.ILC` for architecture and selected-structure questions; `C.33`, `C.34`, and `C.35` when scale-amenability material needs captured-structure adequacy, lost-structure adequacy, preservation adequacy, correspondence adequacy, or generated-carrier adequacy before candidate use; `C.32.P2S` when scale-amenability pressure must continue through problem-to-structure architecturing; `C.32` when scale preference informs candidate architecture generation or comparison; `A.10`, `B.3`, and `G.6` for evidence and assurance reliance; `G.5`, `G.9`, and `C.11` for selected-set, parity, and choice claims.
-- **Boundary:** `C.31.ASAP` governs architecture scale-preference claims. `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, `G.9`, and `C.11` govern modularity-characteristic, reusable-structure accounting, mathematical-lens, scale-law, general method preference, selected-set, parity, and local-choice claims when those claims are being made.
+- **Builds on:** `C.31`, `C.31.RSA`, `C.16`, `A.2.6`, `A.17`, `A.18`, `A.19`, `C.18.1`, `C.19.1`, and `C.29`; uses A.1.1 only when a selected `BoundedModelUseStructure` changes the receiving interpretation.
+- **Coordinates with:** `A.6.M` for module-interface relation repair; `C.30`, `C.30.ASV`, `C.30.LCA`, and `C.30.ILC` for architecture and selected-structure questions; `C.33`, `C.34`, and `C.35` when scale-amenability material needs captured-structure adequacy, lost-structure adequacy, preservation adequacy, correspondence adequacy, or generated-carrier adequacy before candidate use; `C.32.P2S` when scale-amenability pressure must continue through problem-to-structure architecturing; `C.32.ACS` when the pressure is represented as a distinct project criteria row; `C.32` when scale preference informs candidate architecture generation; `A.19.CPM` when it supplies one input to explicit comparison; `A.10`, `B.3`, and `G.6` for evidence and assurance reliance; `G.5`, `G.9`, and `C.11` for selected-set, parity, and choice claims.
+- **Boundary:** `C.31.ASAP` governs architecture scale-preference claims. `C.32.ACS` governs criteria-set and criteria-row construction; `A.19.CPM` governs explicit comparison. `C.31`, `C.31.RSA`, `C.29`, `C.18.1`, `C.19.1`, `G.5`, `G.9`, and `C.11` govern modularity-characteristic, reusable-structure accounting, mathematical-lens, scale-law, general method preference, selected-set, parity, and local-choice claims when those claims are being made.
 - **Precision-restoration relation:** source wording recovered by `E.10`, `E.10.ARCH`, or `C.30.STRAT` is governed by C.31.ASAP only when the recovered claim being made is architecture scale preference over a declared alternative set, scale variable, and scale window.
 
 ### C.31.ASAP:End
@@ -63543,7 +63911,7 @@ The pattern adapts BLP-style scale-amenability to architecture: prefer the alter
 
 ### C.32:1 - Problem frame
 
-Use this pattern when a practitioner has a grounded `ArchitectureOf@Context` question and needs to synthesize several candidate architecture configurations across selected structures before comparison, archive or front-policy work, publication of a selected set, or decision.
+Use this pattern when a practitioner has a C.30-grounded architecture question for one exact described holon and needs to synthesize several candidate architecture configurations across selected structures before comparison, archive or front-policy work, publication of a selected set, or decision. Keep any obtaining C.30 `ArchitectureRelation` occurrences, the selected `U.Structure` values they relate to the holon, and any candidate, required, desired, or expected structures named only in an `ArchitectureClaim` distinct throughout the synthesis.
 
 Primary working reader: an architect or architecture-responsible practitioner preparing alternatives for one described holon before comparison, selection, publication of a selected set, local choice, or project decision.
 
@@ -63557,9 +63925,9 @@ Typical entry phrases:
 "The architecture of the team or tool that changes the target holon no longer fits the target architecture."
 ```
 
-**First-minute use slice.** A regulated product-family team has a grounded `ArchitectureOf@Context` for a field device family. The work question is synthesis: how should required functions, constructive modules, field placement, control responsibility, and certification evidence be coordinated so maintainability, substitutability, latency, and evidence reuse stay acceptable? Using C.32, the practitioner first builds a synthesis structure map, then records three candidate configurations: one shared module grammar with tighter evidence scope, one product-family split with lower interface burden, and one bounded exception that keeps the existing module split but changes evidence responsibility and reopen trigger. The team now has candidate architecture configurations under declared characteristics, not one attractive platform proposal.
+**First-minute use slice.** A regulated product-family team has a C.30-grounded architecture question for one exact field-device-family holon. The question names its current obtaining `ArchitectureRelation` occurrences and their selected structures separately from candidate or expected structures stated only in the current `ArchitectureClaim`. The work question is synthesis: how should required functions, constructive modules, field placement, control responsibility, and certification evidence be coordinated so maintainability, substitutability, latency, and evidence reuse stay acceptable? Using C.32, the practitioner first builds a synthesis structure map, then records three candidate configurations: one shared module grammar with tighter evidence scope, one product-family split with lower interface burden, and one bounded exception that keeps the existing module split but changes evidence responsibility and reopen trigger. The team now has candidate architecture configurations under declared characteristics, not one attractive platform proposal and not new obtaining architecture relations by candidate wording.
 
-The primary `EntityOfConcern` is the local candidate architecture palette for one synthesis question over `ArchitectureOf@Context`. The described holon can be a system, product family, organization-as-system, discipline, AI-agent setup, built asset, episteme, work occurrence, or another admitted holon kind when the governing FPF pattern admits that use. Source labels such as practice, culture, tradition, style, method, or role enter C.32 only after they are restored into admitted holons, method-side structures, role-side structures, work structures, epistemes, bounded contexts, or C.36 cultural-evolution relations by their governing patterns. Architecture pressure may concern method-family or role-side structures, but then C.32 treats them as selected structures or adjacent governed values around a described holon or bounded context, not as admitted holon kinds by label. C.32 is not software-system architecture by default; software-system sources are one source family and one domain example.
+The primary `EntityOfConcern` is the local candidate architecture palette for one C.30-grounded synthesis question. Its architecture-side inputs are one exact described holon, any obtaining `ArchitectureRelation` occurrences and their selected `U.Structure` participants, and any separately identified candidate, required, desired, or expected structures carried only in a truthful `ArchitectureClaim`. The described holon can be a system, product family, organization-as-system, discipline, AI-agent setup, built asset, episteme, work occurrence, or another admitted holon kind when the governing FPF pattern admits that use. Source labels such as practice, culture, tradition, style, method, or role enter C.32 only after they are restored into admitted holons, method-side structures, role-side structures, work structures, epistemes, bounded contexts, or C.36 cultural-evolution relations by their governing patterns. Architecture pressure may concern method-family or role-side structures, but then C.32 treats them as selected structures or adjacent governed values around a described holon or bounded context, not as admitted holon kinds by label. C.32 is not software-system architecture by default; software-system sources are one source family and one domain example.
 
 What goes wrong if C.32 is missed: the team optimizes one visible structure, such as modules, placement, team responsibility, control relation, or evidence package, and then treats that local improvement as architecture synthesis. The competing structures, architecture characteristics, losses, and alternatives disappear before they can be compared.
 
@@ -63569,13 +63937,13 @@ Ordinary working move: name the selected structures that really change, name the
 
 Adoption test: after using C.32, another practitioner can see at least two structurally different candidate configurations, the selected-structure changes, the architecture characteristics under pressure, each gain and loss, the source-return condition, and the next receiving use.
 
-Use C.32 only for candidate palette construction. Do not use it to ground the architecture claim, recover one structure, build characteristic criteria rows, design eval programs, handle transformer correspondence, run archive or front-policy work, publish a selected set, choose locally, or decide the project architecture.
+Use C.32 only for candidate palette construction. Do not use it to ground the architecture claim, recover one structure, build characteristic criteria rows, design eval programs, handle architecture-influence correspondence, run archive or front-policy work, publish a selected set, choose locally, or decide the project architecture.
 
 Common exits by claim kind:
 
-- `C.30` grounds the architecture claim; `C.30.ASV`, `A.6.F`, and `A.6.M` recover structural views, function wording, and module-interface relations.
+- `C.30` grounds the described holon, any obtaining `ArchitectureRelation`, its selected `U.Structure`, and any separate `ArchitectureClaim`; `C.30.ASV`, `A.6.F`, and `A.6.M` recover structural views, function wording, and module-interface relations.
 - `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.31.ASAP`, and `C.16` govern starter heads, project criteria rows, eval programs, Q-Bundles, modularity or scale-preference claims, and measurement.
-- `C.32.MLAO`, `C.32.CONWAY`, `C.32.FAIL`, and `C.29` govern residual-reducing frames, transformer-transformed correspondence, candidate repair, and mathematical-lens use.
+- `C.32.MLAO`, `C.32.CONWAY`, `C.32.FAIL`, and `C.29` govern residual-reducing frames, architecture-influence and transformed-architecture correspondence, candidate repair, and mathematical-lens use.
 - `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `C.11`, and `C.32.PAD` govern comparison, selection, archive, front, publication of a selected set, local choice, and decision work.
 - `C.30.AD`, `E.17`, `E.24.PUB`, `A.10`, and `B.3` govern architecture-description, publication-face, evidence, and assurance claims.
 
@@ -63585,7 +63953,13 @@ For a first pass, fill only the described holon, bounded context, synthesis ques
 
 ```text
 CandidateArchitecturePalette@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureSynthesisProjectUseRelationRef?: U.RelationRef governed by the exact synthesis-use or work-use pattern
+  architectureQuestionCardRef?: C.30 ArchitectureQuestionCard@Project ref when that exact card is the intake
   describedHolonRef:
+  architectureClaimRef?: C.30 ArchitectureClaimRef when a durable actual, candidate, required, desired, or expected claim is current
+  currentArchitectureRelationRefs[]?: exact obtaining C.30 ArchitectureRelation refs only
+  currentSelectedStructureRefs[]?: the U.Structure participants of those obtaining relations
   boundedContextRef:
   synthesisQuestion:
   architectureSynthesisFrameRef?:
@@ -63626,9 +64000,11 @@ CandidateArchitecturePalette@Project:
       nextUse:
   tradeoffFrontOrArchiveRef?:
   evolutionWindowRef:
-  transformerTransformedCorrespondenceRef?:
+  architectureInfluenceCorrespondenceRef?: C.32.CONWAY frame or exact pair-row ref
   paletteStopCondition:
 ```
+
+Across C.32, `@Project` is a compatibility and retrieval cue, not a project kind or relation assertion. `CandidateArchitecturePalette@Project`, `ArchitectureSynthesisFrame@Project`, and `ArchitectureCharacteristicImprovementLoop@Project` establish no composite project work, context, authority, viewpoint, or parthood by name. When one of these records is genuinely local to one actual project, identify the exact composite `U.Work` and the direct relation by which synthesis framing, palette construction, or improvement feedback concerns that work. Otherwise no project-work relation is implied. A cited `ArchitectureQuestionCard@Project` transfers neither project locality nor architecture truth: each affirmative `currentArchitectureRelationRef` must already resolve to one obtaining C.30 occurrence, while candidate, required, desired, or expected structure remains claim content until the C.30 predicate is independently satisfied.
 
 ### C.32:2 - Problem
 
@@ -63685,6 +64061,8 @@ An eval result that cohesion improved, evidence reuse decayed, coupling changed,
 
 ```text
 ArchitectureCharacteristicImprovementLoop@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureSynthesisProjectUseRelationRef?: U.RelationRef governed by the exact synthesis-feedback or work-use pattern
   describedHolonRef:
   currentArchitectureCharacteristicPressureRefs:
   architectureCharacteristicCriteriaSetRef?:
@@ -63716,7 +64094,7 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 | `functionBearerConsolidation` | Transfer a required function onto an existing selected structure, remove a support bearer, or propose one more general bearer for several functions. | State the functions transferred, the bearer removed or generalized, the affected architecture characteristics, the lost options, and the BLP scale window or waiver when scale advantage is claimed. |
 | `structuralSubstitution` | Replace one selected structure with another candidate structure. | State what is preserved and what is lost. |
 | `relationRetargeting` | Change an affected relation endpoint, responsibility relation, role relation, dependency relation, admissible-use boundary, or source-return relation. | Name the relation kind or boundary before using the change in a candidate. |
-| `transformerTransformedCorrespondenceSynthesis` | Coordinate candidate structures when a holon that changes another holon constrains the changed holon's architecture. | Open `C.32.CONWAY`; name the changing relation, transformer-side selected structure, transformed-side selected structure, affected architecture characteristics, expected gain, known loss, and receiving pattern. |
+| `architectureInfluenceCorrespondenceSynthesis` | Coordinate candidate structures when an independently typed architecture or other source constrains transformed-side architecture content for a changed referent. | Open `C.32.CONWAY`; name the changed referent and any independently grounded A.3.4 transformation separately; name each typed influence source by kind and its exact direct relation when an influence occurrence is asserted, otherwise keep the pressure synthesis-local with its `missing-governor`, unresolved-grounding, or false-predicate disposition; for each actual architecture side keep the exact C.30 holon, obtaining `ArchitectureRelation`, and selected `U.Structure` visible, and keep modal content in `ArchitectureClaim`; then prepare influence-source-side, transformed-side, joint, or bounded-mismatch candidates with affected architecture characteristics, expected gain, known loss, source-return condition, and receiving pattern. |
 | `decompositionOrAllocationChange` | Reallocate module, role, work, evidence responsibility, data custody, control responsibility, or variation slot across structures. | State the new boundary and migration burden. |
 | `placementOrDeploymentChange` | Change locality, deployment, material placement, installation, or maintenance access. | Name the affected structure and the latency, access, source-return, or environment burden. |
 | `flowOrControlVariant` | Change transformation flow, control depth, rate band, feedback boundary, or mediator relation. | State the timing, control, observability, or accountability burden created by the change. |
@@ -63732,9 +64110,9 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 | An ML functional graph includes retrieval, planning, and action, but no module-interface relation or role relation carries evidence-refresh responsibility or admissible-use control. | Treat the graph as functional structure and recover module-interface, evidence, and control structures. | Add a retrieval service with explicit evidence-refresh responsibility, add a supervisor relation, narrow model-interface behavior, or reject the candidate. |
 | A method family says the review function is automated, but no role assignment names which role-holding system carries exception responsibility. | Recover method structure, role-assignment structure, role-enactor structure, and evidence structure separately. | Add an exception role assignment, split the method step, change evidence scope, or keep the automation as source cue only. |
 
-When the architecture being synthesized belongs to a holon that changes another holon, use `C.32.CONWAY` before using Conway, mirroring, or inverse-Conway language in candidate synthesis. The practitioner names the changing relation, the transformer holon, the transformed holon, selected structures on both sides, architecture characteristics under pressure, candidate changes, expected gains, known losses, and source-return conditions.
+When one independently typed architecture-side or other source constrains transformed-side architecture content for a changed referent, use `C.32.CONWAY` before using Conway, mirroring, or inverse-Conway language in candidate synthesis. The practitioner names the changed referent and any actual A.3.4 transformation separately, each influence source by exact kind and its direct relation only when that occurrence is asserted, and, for each actual architecture side, the exact C.30 described holon, obtaining `ArchitectureRelation`, and selected `U.Structure`; modal architecture content stays in an exact `ArchitectureClaim`. Without an admitted and satisfied direct influence predicate, the pressure stays synthesis-local in the C.32.CONWAY frame with its `missing-governor`, unresolved-grounding, or false-predicate disposition and no exact pair row. Candidate work then names influence-source-side, transformed-side, joint, or bounded-mismatch changes, architecture characteristics under pressure, expected gains, known losses, and source-return conditions.
 
-The C.32 side keeps the candidate palette. `C.32.CONWAY` carries the correspondence frame. Transformation, work, transformation-flow, and module-interface claims belong to `A.3.4`, `E.18`, `A.15`, `C.30.TFS-REL`, or `A.6.M` when current. Structural-similarity or preservation claims belong to `C.29` when they are current.
+The C.32 side keeps the candidate palette. `C.32.CONWAY` carries the architecture-influence correspondence frame or one exact reusable pair-row episteme. Influence alone supplies no acting System, role, Work, changed-referent identity, or transformation participation. Transformation, acting and Work attribution, exact influence, transformation-flow, and module-interface claims belong to `A.3.4`, `A.12`, `A.2.1`, `A.15.1`, `F.6`, the direct influence owner, `E.18`, `C.30.TFS-REL`, or `A.6.M` when current. Structural-similarity or preservation claims belong to `C.29` when they are current.
 
 A richer dossier is optional. Open it only when one candidate must carry source views, relation notes, measurements, C.29 lens outputs, evidence notes, or failure repairs that affect the next architecture use. Ordinary C.32 use should remain one row per candidate configuration.
 
@@ -63765,7 +64143,7 @@ A richer dossier is optional. Open it only when one candidate must carry source 
 | **Description artifact stands in for candidate content** | A diagram, ADR, view, dashboard, benchmark output, or digital-twin view is the visible work product, but the selected structures and architecture-characteristic trade-off are still missing. Keep the visible work product under description-use, C.29 mathematical-lens use, benchmark, publication, or source-use governance and recover candidate content before C.32 use. |
 | **Front member treated as durable optimum** | A front member, local winner, or benchmark leader is used as if the evolution window will stay fixed. Record evolution window, source-return condition, and retained alternatives through C.18 or C.19; use G.5 only when publishing a selected set after the receiving pattern has made that set available. |
 | **Software-source overfit** | A software architecture source supplies a useful architecture-change idea, but the described holon is not a software system. Translate only the change over selected structures and characteristics; do not import the software ontology. |
-| **Transformer-side architecture omitted** | The candidate architecture for a changed holon cannot be built, tested, deployed, certified, or evolved by the declared changing holon. Open `C.32.CONWAY` and prepare transformer-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs. |
+| **Architecture-influence source omitted** | The candidate architecture for a changed referent cannot be built, tested, deployed, certified, or evolved under the current architecture, Work, communication, method, tool, deployment, evidence, selected-structure, or other source, but that source's exact kind and influence status are hidden. | Open `C.32.CONWAY`; recover the source kind and either its exact obtaining direct relation or the precise provisional disposition, keep acting System, role, Work, changed referent, and any actual transformation separately governed, and prepare influence-source-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs. |
 | **Method-defined dimensions lose their semantics** | A BIM, digital-twin, or view-method dimension already carries method-defined structure, constraint, cost, schedule, use-phase, or maintenance semantics, but the synthesis text keeps only the dimension name or dimension count. Preserve the method semantics and map them to selected structures, constraints, characteristics, and source-return conditions. |
 | **Ideality shortcut** | Fewer bearers, fewer modules, or one universal module is only a candidate direction until functions, architecture characteristics, scale window, safety, admissibility, and losses are named. |
 
@@ -63780,7 +64158,7 @@ A richer dossier is optional. Open it only when one candidate must carry source 
 | `CC-C32-5` | Compressed, generated, or view-derived candidates carry a source-return condition. | Keeps later source-use or decision-use claims tied to recoverable sources. |
 | `CC-C32-6` | Archive, front, pool-treatment, G.5 publication, local choice, and decision uses have named receiving patterns. | Keeps synthesis separate from downstream receiving claims. |
 | `CC-C32-7` | Worked slices show what changes in practice across multiple selected structures. | Keeps the pattern constructive. |
-| `CC-C32-8` | If a changing holon constrains the changed holon's architecture, `C.32.CONWAY` is opened before Conway, mirroring, or inverse-Conway language is used as guidance. | Keeps transformer-side and transformed-side architectures distinct while making correspondence synthesis constructive. |
+| `CC-C32-8` | If an independently typed source constrains transformed-side architecture content for a changed referent, `C.32.CONWAY` is opened before Conway, mirroring, or inverse-Conway language is used as guidance; the source kind, its exact obtaining direct relation or precise provisional disposition, and both exact C.30 architecture sides or modal claims are named without inferring acting, Work, or transformation facts. | Keeps influence-source and transformed-side content distinct while making correspondence synthesis constructive. |
 
 ### C.32:8 - Common Repair Cues
 
@@ -63792,7 +64170,7 @@ A richer dossier is optional. Open it only when one candidate must carry source 
 | `DescriptionFormAsArchitecture` | An architecture-description artifact is treated as the architecture because it is the most visible representation. | Keep the visible work product under `C.30.AD`, `C.30.ASV`, `E.17`, `E.24.PUB`, `C.29`, or source-use governance as applicable; recover described holon, selected structures, candidate architecture change, and characteristic bundle before admitting any C.32 candidate. |
 | `BenchmarkWinnerAsArchitecture` | A comparison result is treated as architecture selection. | Treat the result as comparison input or as source material for an A.10 evidence relation when that claim is current; admit a C.32 candidate only after selected structure, architecture-change kind, gain, loss, and receiving pattern are recovered. |
 | `MethodDimensionSemanticsLost` | A BIM, digital-twin, or architecture-view method supplies dimensions, but C.32 use keeps only the dimension name or dimension count and loses the method's structure, constraint, schedule, cost, use-phase, or maintenance semantics. | Preserve the source method semantics, then map each method-declared dimension to selected structures, constraints, preserved and lost structure, architecture characteristics, and source-return condition. |
-| `TransformerTransformedMismatch` | The architecture of the holon doing the changing cannot produce, test, maintain, evolve, or certify the architecture desired for the changed holon. | Open `C.32.CONWAY`; recover the changing relation through `A.3.4`, `E.18`, work, or method patterns; generate candidates that change the transformer side, the transformed side, both sides, or a bounded mismatch. Use `C.29` only if structural similarity is claimed. |
+| `ArchitectureInfluenceMismatch` | One independently typed source is incompatible with transformed-side architecture content needed for the changed referent, or the source's influence status is still provisional. | Open `C.32.CONWAY`; recover the changed referent, each source's exact kind and obtaining relation or precise provisional disposition, both exact C.30 architecture sides or modal claims, and any separately grounded acting, Work, method-side or direct method-use relation, A.3.4 transformation, or E.18 flow facts through their governing patterns; generate candidates that change the influence-source side, the transformed side, both sides, or a bounded mismatch. Use `C.29` only if structural similarity is claimed. |
 | `ShortlistByName` | A set is called shortlist before the fields required by `G.5` publication exist. | Keep it as a local palette or open `G.5`. |
 | `UniversalBearerAsArchitecture` | A universal module, general substrate, or existing resource is treated as better architecture by name. | Create a C.32 candidate that names functions transferred to the bearer, bearer count change, coupling change, evidence burden, control burden, safety and admissibility boundary, and BLP scale window or waiver if scale advantage is claimed. |
 | `SourceCompressionNoReturn` | A candidate hides source distinctions. | Add a source-return condition or demote the item to a source cue. |
@@ -63826,24 +64204,24 @@ These rows document transfers from source practice into C.32. Each row states wh
 
 | Source to inspect | Why this source is load-bearing here | Transfer into C.32 | Concrete C.32 mutation | Blocked overread |
 |---|---|---|---|---|
-| Architecture synthesis and quality-attribute optimization: Di Pompeo and Tucci 2023 (`https://arxiv.org/abs/2301.07516`), ATRAF 2025 (`https://arxiv.org/abs/2505.00688`), and current FPF `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.16` | Current architecture optimization line: quality attributes and architecture characteristics compete, and multi-objective treatment gives the architect a trade-off view instead of one scalar winner. | Make candidate configurations name ACS criteria rows and Q-Bundle slots before comparison, and use ACE eval results as feedback for the next synthesis question only through the receiving pattern. | `CandidateArchitecturePalette@Project` now includes `architectureCharacteristicCriteriaSetRef?`, `architectureCharacteristicCriteriaRowRefs`, `qBundleRefs?`, `affectedCriteriaRowRefs?`, `architectureCharacteristicEvalResultRefs?`, `constraintFit`, and `tradeoffFrontOrArchiveRef?`; Problem separates functional demand from architecture characteristics. | A user function, metric, benchmark, scalarized score, eval result, or apparent improvement is not architecture synthesis, comparison, project architecture decision, or improvement-cycle closure. |
+| Architecture synthesis and quality-attribute optimization: Di Pompeo and Tucci 2023 (`https://arxiv.org/abs/2301.07516`), ATRAF 2025 (`https://arxiv.org/abs/2505.00688`), and current FPF `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.16` | Current architecture optimization line: quality attributes and architecture characteristics compete, and multi-objective treatment gives the architect a trade-off view instead of one scalar winner. | Make candidate configurations name ACS criteria rows and Q-Bundle slots before comparison, and use ACE eval results as feedback for the next synthesis question only through the receiving pattern. | `CandidateArchitecturePalette@Project` includes `architectureCharacteristicCriteriaSetRef?`, `architectureCharacteristicCriteriaRowRefs`, `qBundleRefs?`, `affectedCriteriaRowRefs?`, `architectureCharacteristicEvalResultRefs?`, `constraintFit`, and `tradeoffFrontOrArchiveRef?`; Problem separates functional demand from architecture characteristics. | A user function, metric, benchmark, scalarized score, eval result, or apparent improvement is not architecture synthesis, comparison, project architecture decision, or improvement-cycle closure. |
 | DSM, multiple-domain matrix, and current DSM modularization research, including Jiang and Luo 2026 (`https://arxiv.org/abs/2604.28018`) | DSM modularization remains a strong engineering-design line. Current LLM-based DSM work also shows a concrete semantic-alignment risk: functional priors and structural modularization objectives can diverge. | Use DSM or clustering as one candidate-generation and inspection source; recover selected structures, structural objective, and engineering semantics before treating the result as architecture-synthesis material. | Solution adds `synthesisStructureMap`; candidate work coordinates functional, constructive, placement, control, work, information, and evidence structures rather than accepting a cluster as architecture. | A cohesive cluster, graph partition, or generated modularization is not architecture adequacy by itself. |
-| Current FPF architecture kernel: `A.22`, `C.30`, `C.30.ASV`, `C.30.ILC`, `C.31`, `C.31.ASAP`; architecture source section 15.3 | This is the current local architecture law for holonic architecture: selected structures of a described holon in a bounded context remain primary. | Use SoTA and domain sources only after recovering described holon, synthesis structure map, architecture criteria rows, selected structure changes, gain, loss, and receiving pattern. | `CandidateArchitecturePalette@Project` now requires `synthesisStructureMap`, architecture-characteristic criteria rows, selected structure changes, `constraintFit`, preserved and lost structure, source-return condition, and `nextUse`; worked cases cover heterogeneous holon kinds. | Diagrams, source expressions, software-system templates, and platform proposals remain source cues until the described holon, selected structures, architecture criteria, gain, loss, and receiving pattern are recovered. |
+| Current FPF architecture kernel: `A.22`, `C.30`, `C.30.ASV`, `C.30.ILC`, `C.31`, `C.31.ASAP`; architecture source section 15.3 | This is the current local architecture law for holonic architecture: selected structures of a described holon in a bounded context remain primary. | Use SoTA and domain sources only after recovering described holon, synthesis structure map, architecture criteria rows, selected structure changes, gain, loss, and receiving pattern. | `CandidateArchitecturePalette@Project` requires `synthesisStructureMap`, architecture-characteristic criteria rows, selected structure changes, `constraintFit`, preserved and lost structure, source-return condition, and `nextUse`; worked cases cover heterogeneous holon kinds. | Diagrams, source expressions, software-system templates, and platform proposals remain source cues until the described holon, selected structures, architecture criteria, gain, loss, and receiving pattern are recovered. |
 | ISO 42010:2022 architecture-description standard (`https://www.iso.org/standard/74393.html`) | Current architecture-description standard. It is load-bearing because C.32 must not confuse architecture, description, view, viewpoint, concern, correspondence, or model kind. ISO also states that architecture itself is outside the AD standard's subject. | Treat architecture-description artifacts as source cues or architecture-description material until a candidate selected-structure change is recovered. | C.32 fields distinguish source cues, source-side referents, selected structures, and architecture characteristics; the Relations section names `C.30.AD` or `C.30.ASV` for description or view repair, and `E.17` or `E.24.PUB` for publication-face use, when current. | An architecture-description artifact or publication face is not a candidate architecture by itself. |
-| Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed.; overview at `https://evolutionaryarchitecture.com/` and O'Reilly page `https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/` | Best current practitioner line for architecture as guided incremental change over declared architecture characteristics, affected selected structures, and feedback from source-side fitness functions. | Add evolutionary candidate discipline: reversible first step where useful, affected criteria row, ACE eval result, source-return trigger, next synthesis question, and no source-term takeover. | Solution and SoTA rows now say source-side fitness-function practice is restored through `C.32.ACE` as eval programs over ACS rows; candidate rows can name `affectedCriteriaRowRefs?`, `architectureCharacteristicEvalResultRefs?`, next synthesis question, and source-return condition; measurement claims belong to C.16. | Eval results need a receiving comparison, local choice, or governance pattern before they affect preference or start the next synthesis iteration. |
+| Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed.; overview at `https://evolutionaryarchitecture.com/` and O'Reilly page `https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/` | Best current practitioner line for architecture as guided incremental change over declared architecture characteristics, affected selected structures, and feedback from source-side fitness functions. | Add evolutionary candidate discipline: reversible first step where useful, affected criteria row, ACE eval result, source-return trigger, next synthesis question, and no source-term takeover. | Solution and SoTA rows state that source-side fitness-function practice is restored through `C.32.ACE` as eval programs over ACS rows; candidate rows can name `affectedCriteriaRowRefs?`, `architectureCharacteristicEvalResultRefs?`, next synthesis question, and source-return condition; measurement claims belong to C.16. | Eval results need a receiving comparison, local choice, or governance pattern before they affect preference or start the next synthesis iteration. |
 | Shaw and Petre, `Design Spaces and How Software Designers Use Them` (`https://arxiv.org/abs/2407.18502`); Cortellessa, Diaz-Pace, Di Pompeo, Tucci, `Towards Assessing Spread in Sets of Software Architecture Designs` (`https://arxiv.org/abs/2402.19171`) | Current research line for design alternatives and architecture-space diversity. It repairs the common error of judging only objective-space scores while losing architectural differences. | Preserve a candidate palette when one scalar winner would hide structurally different alternatives; distinguish objective-space signals from selected-structure differences. | C.32 keeps candidate plurality until `G.5`, `C.11`, or a `C.32.PAD` project architecture decision relation is current; each candidate must name selected structure, architecture-change kind, gain, loss, and hidden or preserved structure. | A Pareto front, score, spread indicator, or generated set does not select the architecture and does not replace architecture-space inspection. |
 | MOSA and open-system engineering from `C.31.RSA` (`https://www.cto.mil/sea/mosa/`; `https://www.cto.mil/wp-content/uploads/2025/03/MOSA-Implementation-Guidebook-27Feb2025-Cleared.pdf`); product-line variability and product-platform practice from `C.31.RSA` and `C.31.ASAP` (`https://www.sei.cmu.edu/library/variability-in-software-product-lines/`; `https://arxiv.org/abs/2605.21353`; `https://link.springer.com/article/10.1007/s00163-023-00427-1`; `https://arxiv.org/abs/2510.11089`); information-hiding lineage carried by `C.31.RSA` | Current source families for modular interface conformance, substitution policy, variability slots, extension rules, exception curves, and assembly or realization constraints. Information hiding is lineage for hidden-change and implicit-dependency repair. | Use them as candidate-generation prompts: change the interface grammar, change substitution policy, move a variation slot, split evidence scope, admit a bounded exception, or consolidate a bearer. | C.32 adds `interfaceGrammarChange`, `declaredScopeOrHolonLevelChange`, and `boundedException` as architecture-change kinds; the product-family worked case prepares interface-grammar change, evidence-scope split, and bounded exception as candidate alternatives. | Before a candidate is preferred, send reusable-structure accounting to `C.31.RSA`, scale preference to `C.31.ASAP`, interface grammar to `A.6.M`, comparison to `C.16` or `A.19`, and selected-set or local-decision use to `G.5` or `C.11`. |
 | TRIZ ideality, Ideal Final Result, technical-system evolution regularities, and current FPF `C.19.1` BLP | Older heuristic lineage for increasing useful function while reducing cost, harm, and unnecessary parts; BLP supplies current FPF discipline for preferring more general scale-amenable bearers when safety and admissibility are comparable. | Use idealization only to generate candidates: transfer function to an existing bearer, remove support bearers, use available resources, or try a more general bearer as a candidate. | C.32 adds `architectureIdealityPressureRef?`, `scaleAmenabilityPolicyRef?`, and `functionBearerConsolidation`; repair cues require function-bearing, affected architecture characteristics, losses, scale window, and BLP scale window or waiver when scale advantage is claimed. | An ideal-final-result slogan, fewer modules, or one universal module is not architecture adequacy, scale adequacy, or project architecture decision. |
 | NAS survey line: Elsken, Metzen, and Hutter 2019 (`https://www.jmlr.org/papers/v20/18-598.html`); multi-objective differentiable NAS 2025 (`https://arxiv.org/abs/2402.18213`); hardware-aware NAS 2024 (`https://arxiv.org/abs/2404.12403`); Sutton's Bitter Lesson (`https://www.incompleteideas.net/IncIdeas/BitterLesson.html`) and scaling-law practice | Current ML architecture line for functional graph search under multi-objective performance, resource, hardware, and transfer constraints. It is load-bearing as a transferable synthesis technique, not as an IT ontology. | Treat functional architecture as one selected structure and require bearer feasibility across module, deployment, resource, control, information, and evidence structures before comparison. | C.32 adds `functionBearerFeasibilityRef?`, `functionBearerFeasibilityRepair`, and didactic slices where a functional graph or method step fails because no bearer can carry it under current constraints. | A neural cell graph, function graph, benchmark winner, or scale curve is not holonic architecture adequacy unless selected structures and bearers are recovered. |
-| Conway's law, mirroring, DORA loosely coupled teams (`https://dora.dev/capabilities/loosely-coupled-teams/`), and Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current socio-technical architecture practice for co-synthesizing the changing holon and the changed holon under independent change, test, deployment, evidence, and coordination constraints. | Treat team, work, responsibility, method, toolchain, deployment, and communication structures as transformer-side selected structures when they constrain transformed-holon architecture. Use inverse Conway only as a candidate architecture change that changes selected transformer structures. | C.32 adds `transformerTransformedCorrespondenceSynthesis`, names `C.32.CONWAY` as the correspondence-frame governing pattern, and keeps role, work, module-interface, evidence, and mathematical-lens claims with their governing patterns. | Keep transformer-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs; explicit comparison, module-interface, evidence, decision, and G.5 publication claims exit to their own patterns. |
-| MAAD 2025 (`https://arxiv.org/abs/2507.21382`) and LLM-assisted ADD 2025 (`https://arxiv.org/abs/2506.22688`) | Current AI-assisted architecture design research. It is load-bearing because generated alternatives are now practical, but the research itself stresses knowledge intensity, trade-offs, evaluation, and human oversight. | Use AI outputs to widen candidate space, then recover source-side referent, selected structure, architecture-change kind, gain, loss, source-return condition, and receiving pattern before palette admission. | C.32 problem and Solution now treat generated outputs as source cues; `sourceCueRefs?` and `sourceSideReferent?` prevent generated text from carrying an architecture-adequacy authority relation. | A generated blueprint, evaluation report, benchmark, or agent consensus is not an authority relation for architecture adequacy, evidence sufficiency, assurance, gate passage, or decision. |
+| Conway's law, mirroring, DORA loosely coupled teams (`https://dora.dev/capabilities/loosely-coupled-teams/`), and Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current socio-technical architecture practice for co-synthesizing independently typed influence-source and transformed-side architecture content under independent-change, test, deployment, evidence, and coordination constraints. | Treat team, Work, responsibility, method, toolchain, deployment, communication, evidence, selected-structure, and architecture-side sources through their exact kinds; assert a direct influence relation only when its admitted predicate is satisfied, otherwise retain the precise provisional disposition. Use inverse Conway only as candidate work that changes selected influence-source structures; do not infer an acting System, Work, or actual transformation from architecture influence. | C.32 adds `architectureInfluenceCorrespondenceRef?` and `architectureInfluenceCorrespondenceSynthesis`, names `C.32.CONWAY` as the synthesis-local frame or exact pair-row owner, and keeps exact C.30 architecture sides or modal claims, changed referent, role, Work, module-interface, evidence, and mathematical-lens claims with their governing patterns. | Keep influence-source-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs; explicit comparison, module-interface, evidence, decision, and G.5 publication claims exit to their own patterns. |
+| MAAD 2025 (`https://arxiv.org/abs/2507.21382`) and LLM-assisted ADD 2025 (`https://arxiv.org/abs/2506.22688`) | Current AI-assisted architecture design research. It is load-bearing because generated alternatives are now practical, but the research itself stresses knowledge intensity, trade-offs, evaluation, and human oversight. | Use AI outputs to widen candidate space, then recover source-side referent, selected structure, architecture-change kind, gain, loss, source-return condition, and receiving pattern before palette admission. | C.32 Problem and Solution treat generated outputs as source cues; `sourceCueRefs?` and `sourceSideReferent?` prevent generated text from carrying an architecture-adequacy authority relation. | A generated blueprint, evaluation report, benchmark, or agent consensus is not an authority relation for architecture adequacy, evidence sufficiency, assurance, gate passage, or decision. |
 
 **Source-currentness boundary.** Use each source row only for the C.32 candidate-generation move that the row transfers. If a named standard, guide, book edition, survey, or research line changes that move, recheck the row before using it again. If a receiving FPF pattern named in the row changes how it handles the source family, recheck the row before using it again. If the project needs comparison, selection, publication of a selected set, local choice, decision, evidence, or assurance, leave C.32 and open the receiving pattern. Rows named as lineage, such as TRIZ ideality, information hiding, or mature DSM lineage, stay lineage until a current source relation is recovered.
 
 ### C.32:12 - Relations
 
-- **Builds on:** `C.30`, `C.30.P`, `C.30.ASV`, `A.22`, `A.6.F`, `A.6.M`, `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.31.ASAP`, `C.16`, `C.16.P`, `E.22`, `E.23`, `C.19.1`, `C.30.LCA`, `C.30.TFS-REL`, `E.18`, `A.3.4`, `A.15`, and local patterns for recovering source-side architecture referents.
-- **Uses:** `C.30.ILC` when a residual starts the candidate work; `C.32.MLAO` when residual-reducing multilevel framing is being used; `C.32.CONWAY` when transformer and transformed architectures must be co-synthesized; `C.32.FAIL` when a candidate needs repair before explicit comparison, selection, local choice, or decision; `C.32.ACE` when candidate eval results are needed before later comparison or selection; `C.33` when a source, description, view, decision record, eval report, handoff, or realized observation captures only part of selected structure; `C.34` when candidate or source structures need preservation adequacy or correspondence adequacy; `C.35` when generated or discovered carriers need admission support before candidate palette use; `C.29` when mathematical-lens use is being claimed.
+- **Builds on:** `C.30` for the exact described holon, obtaining `ArchitectureRelation` occurrences, their selected `U.Structure` participants, and separately identified `ArchitectureClaim` content; `C.30.P`, `C.30.ASV`, `A.22`, `A.6.F`, `A.6.M`, `C.32.HCS`, `C.32.ACS`, `C.32.ACE`, `C.25`, `C.31`, `C.31.ASAP`, `C.16`, `C.16.P`, `E.22`, `E.23`, `C.19.1`, `C.30.LCA`, `C.30.TFS-REL`, `E.18`, `A.3.4`, `A.15`, and local patterns for recovering source-side architecture referents.
+- **Uses:** `C.30.ILC` when a residual starts the candidate work; `C.32.MLAO` when residual-reducing multilevel framing is being used; `C.32.CONWAY` when exact influence-source and transformed-side architecture content must be co-synthesized without inferring acting, Work, or transformation facts; `C.32.FAIL` when a candidate needs repair before explicit comparison, selection, local choice, or decision; `C.32.ACE` when candidate eval results are needed before later comparison or selection; `C.33` when a source, description, view, decision record, eval report, handoff, or realized observation captures only part of selected structure; `C.34` when candidate or source structures need preservation adequacy or correspondence adequacy; `C.35` when generated or discovered carriers need admission support before candidate palette use; `C.29` when mathematical-lens use is being claimed.
 - **Receiving patterns:** `A.19.CPM` for explicit comparison claims, `A.19.SelectorMechanism` for set-returning selection claims, `G.5` for claims about publishing a selected set, `C.18` and `C.19` for archive, front, or pool-treatment policy, `C.11` for fixed local choice, `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work, and `C.32.PAD` for project architecture decisions.
 - **P2S docking:** `C.32.P2S` uses C.32 for the candidate-synthesis stages after problem pressure, selected structures, architecture characteristics, and structural uncertainty have been recovered; C.32 remains the candidate-palette owner.
 - **Boundary:** C.32 governs candidate architecture palette construction for one grounded architecture question over selected structures of a described holon. C.35 may feed C.32 with generated or discovered carrier adequacy, but C.35 does not select candidates, publish sets, or decide the project architecture. Evidence, assurance, gate, release, work authorization, method governance, ethical mediation, and causal claims use their own patterns when those claims are being made.
@@ -63864,9 +64242,9 @@ These rows document transfers from source practice into C.32. Each row states wh
 
 Use this pattern when an architect or architecture-responsible practitioner has a stated external-use hypothesis for one project system-of-interest and must carry the resulting architecture pressure through selected structures, candidate synthesis, project architecture decision, realization Work, actual-structure feedback, and the next governed action. If the expected change outside the system, beneficiary or relying use, project designation, boundary hypothesis, or required functioning is not yet intelligible, stop before internal architecture and recover that missing basis through its direct owner.
 
-The common first moment is practical: a required function has no recoverable bearer; an architecture characteristic is failing; a cross-scope residual survives local repair; a modularity, reuse, interface, scale, or description-loss problem blocks action; a transformer holon cannot yet produce the desired transformed holon; or operation shows that expected structures and actual structures diverge.
+The common first moment is practical: a required function has no recoverable bearer; an architecture characteristic is failing; a cross-scope residual survives local repair; a modularity, reuse, interface, scale, or description-loss problem blocks action; one typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source cannot yet sustain the transformed-side architecture content needed for the changed referent; or operation shows that expected structures and actual structures diverge.
 
-The first useful output is `ProblemToStructureArchitecturingFlowCard@Project`. The card is a working record of one architecturing flow. It is not a new `U` kind, not an architecture claim, not an architecture decision, not a work plan, not an eval result, and not a publication format. It keeps the connected flow reviewable while each local object remains governed by the pattern that governs the current claim.
+The first useful output is `ProblemToStructureArchitecturingFlowCard@Project`. The card is a working `U.Episteme` about one project-local P2S architecturing transformation flow, not the flow itself, the P2S method, a `U.MethodDescription`, or any planned or performed `U.Work`. It is not a new `U` kind, not an architecture claim, not an architecture decision, not a work plan, not an eval result, and not a publication format. It keeps the connected flow reviewable while each local object remains governed by the pattern that governs the current claim.
 
 For the first pass, fill only the fields that prevent the next wrong move: described holon, bounded context, problem pressure, first governing pattern, one unknown or selected structure slot, and governing pattern for the next claim. Add decision, work, eval, publication, and feedback refs only when the flow reaches the pattern that governs them.
 
@@ -63877,15 +64255,24 @@ ProblemToStructureArchitecturingFlowCard@Project:
   flowId:
   describedHolonRef:
   boundedContextRef:
-  architectingHolonOrRoleRef?:
+  architectingSystemRef?: U.EntityRef constrained to U.System
+  architectingRoleAssignmentRef?: U.EntityRef constrained to U.RoleAssignment, required when an architecting-role claim is current
+
   firstGoverningPatternRef:
   problemPressure:
+    acceptedProblemCardRef?: U.EpistemeRef resolving to one exact C.22.2 ProblemCard
+    actualProblematicForRelationRef?: U.RelationRef resolving to one exact C.22.PFR occurrence, only when an actual Problem is independently current
+
     pressureKind:
     problemPressureSignalRefs?:
     sourceUseRecordRefs?:
     architectureConcernRefs?:
     currentStopOrReturnReason?:
   architectureContent:
+    architectureQuestionCardRef?: U.EpistemeRef resolving to one exact C.30 ArchitectureQuestionCard@Project
+    architectureClaimRefs[]?: exact C.30 ArchitectureClaimRefs
+    currentArchitectureRelationRefs[]?: exact obtaining C.30 ArchitectureRelation refs
+
     candidateStructureKindRefs:
     selectedStructureRefs?:
     expectedStructureRefs?:
@@ -63913,18 +64300,31 @@ ProblemToStructureArchitecturingFlowCard@Project:
     workPlanRefs?:
     readinessRefs?:
     performedWorkRefs?:
+    performedUnderAssignmentRelationRefs?: exact F.6 relation refs when performance attribution is current
+
     actualTransformationRefs?:
     directWorkToChangeGovernorRefs?:
     productionWorkClaimRefs?:
     entityIdentityInceptionClaimRefs?:
     productionCompletionClaimRefs?:
-  transformerTransformed?:
-    changingRelationRef:
-    transformerHolonRef:
+  architectureInfluenceCorrespondence?:
+    changedReferentRef:
+    actualTransformationRef?: U.EntityRef constrained to U.Transformation, only when independently grounded under A.3.4
+    influenceSourceRows[]?: asserted influence facts only
+      influenceSourceRef:
+      influenceSourceKindRef:
+      exactInfluenceRelationRef: U.RelationRef under its direct governor
+      influenceGoverningPatternRef:
+    influenceSourceArchitectureMaps[]?:
+      influenceSourceHolonRef:
+      influenceSourceArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
+      influenceSourceArchitectureClaimRef?: exact C.30 ArchitectureClaimRef for modal content
+      influenceSourceSelectedStructureRefs:
     transformedHolonRef:
-    transformerSelectedStructureRefs:
+    transformedArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
+    transformedArchitectureClaimRef?: exact C.30 ArchitectureClaimRef for modal content
     transformedSelectedStructureRefs:
-    correspondenceFrameRef:
+    correspondenceFrameOrPairRowRef: C.32.CONWAY synthesis-local frame or exact pair-row ref
   feedback:
     evalProgramRefs?:
     evalResultRefs?:
@@ -63944,9 +64344,9 @@ ProblemToStructureArchitecturingFlowCard@Project:
   governingPatternForNextClaim:
 ```
 
-For `ProblemToStructureArchitecturingFlowCard@Project`, `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the card is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite Work occurrence admitted under `U.Work` and `architecturingFlowCardProjectUseRelationRef` identifies the direct relation by which architecturing work uses the card. The card, the architecturing work it helps coordinate, and the larger project work remain distinct.
+For `ProblemToStructureArchitecturingFlowCard@Project`, `flowId` designates the exact project-local P2S architecturing transformation flow that is the card's C.2.1 EntityOfConcern. The claims carried by the filled card and the effective `U.ReferenceScheme` for its designations remain recoverable; changed claim content, changed flow EntityOfConcern, or changed effective reference scheme identifies another card episteme. `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the card is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite Work occurrence admitted under `U.Work` and `architecturingFlowCardProjectUseRelationRef` identifies the direct relation by which architecturing work uses the card. The card, the architecturing work it helps coordinate, and the larger project work remain distinct.
 
-The realization refs are pointers to independently governed objects, not P2S relation kinds. `actualTransformationRefs` resolve only to actual bounded changes independently grounded and identified under `A.3.4`; `directWorkToChangeGovernorRefs` resolve to exact direct subject relations or local claims selected under `A.6.RCD` disposition 2. The three production refs resolve to separate local `A.15.PROD` claims and remain absent when their particular question is not current. `actualStructureRefs` name subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from directly governed facts that actually obtain; they introduce neither an `ActualStructure` kind nor an actualization relation. `C.30` governs only the corresponding `ArchitectureOf@Context` claim over selected structure refs. `actualStructureDescriptionRefs` name later descriptions of those structures and do not make them actual.
+The problem, architecting-side, realization, and architecture refs are pointers to independently governed objects, not P2S relation kinds. `acceptedProblemCardRef` resolves to one C.22.2 C.2.1 episteme; the nested signal and pressure fields neither constitute that card nor make an actual Problem obtain. `actualProblematicForRelationRef` is present only for an independently obtaining C.22.PFR occurrence. `architectingSystemRef` and any A.2.1 `architectingRoleAssignmentRef` remain distinct; when performance is current, `performedWorkRefs` and exact F.6 `performedUnderAssignment` refs retain the actual performer projection and assignment coverage. `actualTransformationRefs` resolve only to actual bounded changes independently grounded and identified under `A.3.4`; `directWorkToChangeGovernorRefs` resolve to exact direct subject relations or local claims selected under `A.6.RCD` disposition 2. The three production refs resolve to separate local `A.15.PROD` claims and remain absent when their particular question is not current. `actualStructureRefs` name subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from directly governed facts that actually obtain; they introduce neither an `ActualStructure` kind nor an actualization relation. C.30 keeps the exact described holon, obtaining `ArchitectureRelation` occurrences, selected structures, and any affirmative, negative, unresolved, candidate, required, desired, or expected `ArchitectureClaim` content separate. `actualStructureDescriptionRefs` name later descriptions of those structures and do not make them actual.
 
 Not this pattern when the current work is only a problem card, only a grounded architecture claim, only a structural view, only a candidate palette, only a project architecture decision, only an ADR-like publication, only work planning, only performed work, only measurement, only a mathematical lens, or only `G.11` currentness, freshness, telemetry, edition, or decay orchestration. Use the pattern named in `Relations` for that narrower claim.
 
@@ -63969,19 +64369,19 @@ Second, the flow starts inside the boundary or disappears into relation rows. An
 | Characteristic trade-off | Architecture characteristics compete; optimizing one can damage another or hide Goodhart pressure behind a metric. |
 | Candidate plurality | Useful architecture work keeps structurally different alternatives alive until a comparison, selected-set, local choice, or architecture decision pattern is current. |
 | Realization gap | Selected and expected structures do not become actual structures by decision, model, description, or matching labels. Domain work, independently grounded actual changes, exact work-to-change facts, and separately governed subject-side structure facts are needed before an actual structure is claimed. |
-| Transformer constraint | The holon that changes another holon has its own work, method, role, tool, communication, evidence, and placement structures that can enable or block the desired transformed architecture. |
+| Architecture-influence constraint | One typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source can enable or block the transformed-side architecture content needed for the changed referent without thereby becoming an actor or transformation participant. |
 | Description loss | Views, descriptions, decision records, method descriptions, and eval reports capture only part of the structural content needed for later use. |
 | Evolution and feedback | Operation, use, telemetry, inspection, eval, decay, and new sources can return the work to the pattern that governs the next claim: `C.32` synthesis, `C.32.PAD` or `C.32.ADA` repair or supersession, `E.23` improvement, `G.11` currentness refresh, `E.18` transformation-flow slice-local refresh, `C.18` or `C.19` archive, front, and pool update, or `C.30.AD` or `C.30.ASV` repair for architecture-description or structural-view loss. |
 
 ### C.32.P2S:4 - Solution
 
-Create or update one `ProblemToStructureArchitecturingFlowCard@Project` and move through the smallest useful spine below. Stop at the first pattern that fully governs the claim; continue the P2S card only while the connected architecture flow remains the object being reviewed.
+Create or update one `ProblemToStructureArchitecturingFlowCard@Project` and apply the P2S method through only the smallest useful part of the Plain action sequence below. The numbered presentation guides attention; it is not by itself a claim about the order, identity, or occurrence of project Work or actual transformations. Stop at the first pattern that fully governs the claim; continue the P2S card only while the connected project-local P2S architecturing transformation flow remains the object being reviewed.
 
 Before selecting internal structure, state four things in ordinary language: the expected change outside the system, the beneficiary or relying use, the actual or intended project system-of-interest and its boundary, and the functioning hypothesis by which that system could support the use. A merely intended system stays in plan or description content. A.1/A.1.SCR owns actual-system recognition; A.15.6 owns project designation; A.1.STM can locate the first unsupported long-map answer. If one of the four statements is missing or contested, return there and do not justify architecture from the inside alone.
 
-Use the analogy with `E.18.1` P2W narrowly. P2W carries an accepted problem-side record or accepted `ProblemCard@Context` plus the carried distinction into a next governed FPF use. C.32.P2S carries architecture-relevant pressure and structural uncertainty into candidate structures, selected structures, project architecture decision, realization work, actual-structure feedback, and governing-pattern-specific next actions. The analogy ends when the current claim is method, work, telemetry, publication, or improvement-loop governance; then use the receiving governing pattern rather than stretching P2S into generic process management.
+Use the analogy with `E.18.1` P2W narrowly. P2W carries an accepted problem-side record or exact accepted C.22.2 `ProblemCard` episteme plus the carried distinction into a next governed FPF use. C.32.P2S carries architecture-relevant pressure and structural uncertainty into candidate structures, selected structures, project architecture decision, realization work, actual-structure feedback, and governing-pattern-specific next actions. The analogy ends when the current claim is method, work, telemetry, publication, or improvement-loop governance; then use the receiving governing pattern rather than stretching P2S into generic process management.
 
-1. Recover the problem pressure or architecture concern together with its outside-use basis. Name the expected environmental or relying-use change, beneficiary or user, project system-of-interest designation and boundary hypothesis, required functioning, pressure signals, source-use records, affected holon, and first governing pattern. If the pressure is still only a cue, use C.22.2; if the outside-use or system basis is absent, return to its owner before P2S continues.
+1. Recover the problem pressure or architecture concern together with its outside-use basis. Name the expected environmental or relying-use change, beneficiary or user, project system-of-interest designation and boundary hypothesis, required functioning, pressure signals, source-use records, affected holon, and first governing pattern. If the pressure is still only a cue, use C.22.2 and cite the resulting exact `ProblemCard` episteme when it becomes the accepted input. If an actual Problem is claimed, cite an independently obtaining C.22.PFR `ProblematicForRelation`; the card and its fields create no such occurrence. If the outside-use or system basis is absent, return to its owner before P2S continues.
 2. Recover the described holon and bounded context only after the outside-use and boundary hypotheses are visible. Then recover candidate or selected structure kinds, selected structures when available, and architecture characteristics. Use C.30 for the grounded architecture claim, C.32.HCS for starter characteristic heads, C.32.ACS for project criteria rows, and C.25 when a composite quality family is current.
 3. Represent future-structure uncertainty. State unknown structure kinds, unknown internal composition, candidate bearers, interfaces, allocations, variation points, constraints, expected structures, and the condition that returns the work to stronger inspection of the selected or expected structure. Record what is captured, handed off, latent, hidden, or lost.
 4. Generate architecture ideas, principles, constraints, and candidate structure changes. Use an admitted problem-side record, source-pack cue, architecture pressure note, or candidate-generation input only after the affected selected structure, architecture characteristic, expected gain, accepted loss, and receiving governing pattern are recoverable.
@@ -63989,22 +64389,22 @@ Use the analogy with `E.18.1` P2W narrowly. P2W carries an accepted problem-side
 6. Compare, retain, publish, or return alternatives through the pattern that governs the set relation. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.18` and `C.19` for archive, front, and pool policy, `G.5` for publication of a selected set, and `C.11` for a fixed local choice.
 7. Make a project architecture decision through `C.32.PAD` when implementation commitment is current. The decision relation names the selected architecture option, affected structures, trade-off, accepted losses, method and work consequences, accepted lost-structure return, and decision repair or supersession condition.
 8. Publish descriptions, views, ADR-like records, narrative renderings, or other records only as descriptions, structure-to-narrative renderings, or publication forms of structures, decision relations, method expectations, description or view loss repair, and reader use. Use `C.30.AD`, `C.30.ASV`, `C.32.ADR`, `A.6.3.NAR`, `E.17`, and `E.24.PUB` as applicable.
-9. Hand transformer roles the method descriptions, constraints, readiness expectations, work expectations, and structure-use return conditions needed to realize selected structures. Use `A.15`, `A.15.2`, and `A.15.5` for method, work-plan, and readiness claims.
+9. Hand the exact architecting or realizing `U.System` holders the method descriptions, constraints, readiness expectations, work expectations, and structure-use return conditions needed to realize selected structures. Name an exact A.2.1 `U.RoleAssignment` when a role claim is current; when performance is claimed, name exact dated `U.Work`, the F.6 attribution, and its actual performer separately. Use `A.15`, `A.15.2`, and `A.15.5` for method, work-plan, and readiness claims.
 10. Realize selected structures in the transformed holon through domain work without treating the selected or expected structure, decision, method, `MethodDescription`, `WorkPlan`, model, description, evaluation result, publication, or transfer as the actual structure or as an actual transformation. Use `A.15.1` for each exact dated work occurrence. Use `A.3.4` for each independently identified actual bounded change, and cite the exact direct work-to-change governor or a local claim selected under `A.6.RCD` disposition 2 whenever exact work is asserted to cause or realize that change. Use separate local `A.15.PROD` claims only when production-work participation, entity-identity inception, or historically indexed production completion is current. The P2S card records refs; it performs none of the work and derives none of those claims.
-11. Observe, inspect, measure, and evaluate subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from directly governed facts that actually obtain, together with architecture-characteristic results and functional-characteristic or capability implications in operation or use. Ask whether those actual structures enable or block the functions and effects they were meant to bear, and ask what selected structure, accepted loss, counter-characteristic, or functional implication got worse when a visible metric improved. A description, measurement, evaluation result, publication, or resemblance to the selected structure does not itself make a structure actual or establish conformance. Use `C.30` only for the corresponding subject-side `ArchitectureOf@Context` claim, `C.30.AD` or `C.30.ASV` for actual-structure descriptions or views, `C.32.ACE` for eval programs and eval results, `C.16` for measurement, and `C.25` for Q-bundles. Use `E.23` when repeated improvement method is current, `G.11` when currentness, telemetry, edition, freshness, or decay orchestration is current, `E.18` for transformation-flow slice-local refresh, `C.18` or `C.19` for archive, front, and pool updates, `C.32.PAD` or `C.32.ADA` for decision repair or supersession, `C.32` for new synthesis, and `C.30.AD` or `C.30.ASV` for architecture-description or structural-view loss repair. Feed actual-structure divergence, eval results, functional implications, freshness loss, description or view loss, and new constraints into the return or repair action governed by the receiving pattern.
+11. Observe, inspect, measure, and evaluate subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from directly governed facts that actually obtain, together with architecture-characteristic results and functional-characteristic or capability implications in operation or use. Ask whether those actual structures enable or block the functions and effects they were meant to bear, and ask what selected structure, accepted loss, counter-characteristic, or functional implication got worse when a visible metric improved. A description, measurement, evaluation result, publication, or resemblance to the selected structure does not itself make a structure actual or establish conformance. Use `C.30` to name an obtaining `ArchitectureRelation` only when its exact holon, selected-structure participant, and predicate are satisfied; keep candidate, required, desired, expected, negative, or unresolved architecture content in an exact `ArchitectureClaim`. Use `C.30.AD` or `C.30.ASV` for actual-structure descriptions or views, `C.32.ACE` for eval programs and eval results, `C.16` for measurement, and `C.25` for Q-bundles. Use `E.23` when repeated improvement method is current, `G.11` when currentness, telemetry, edition, freshness, or decay orchestration is current, `E.18` for transformation-flow slice-local refresh, `C.18` or `C.19` for archive, front, and pool updates, `C.32.PAD` or `C.32.ADA` for decision repair or supersession, `C.32` for new synthesis, and `C.30.AD` or `C.30.ASV` for architecture-description or structural-view loss repair. Feed actual-structure divergence, eval results, functional implications, freshness loss, description or view loss, and new constraints into the return or repair action governed by the receiving pattern.
 
 At the realization boundary, keep selected structure, expected structure, actual subject-side structure, exact dated work, independently identified actual transformations, local production claims, actual-structure description, and evaluation result as different objects. Shared assembly work, temporal adjacency, common affected referents, one flow, or one selected configuration establishes neither one composite transformation nor absence of finer transformation parts. If a receiving claim requires transformation composition, return the exact missing-governor blocker; do not use that blocker to stop independent work, inception, completion, actual-structure, description, evaluation, or return claims.
 
-When one holon changes another holon, add the transformer/transformed branch before candidate synthesis becomes narrow. Name the changing relation, the transformer holon, the transformed holon, and selected structures on both sides when they constrain the candidate set. Use `C.32.CONWAY` to frame candidate families: change transformer-side structures, change transformed-side structures, change both, or declare a bounded mismatch with the named correspondence or decision-repair return condition.
+When architecture-influence correspondence constrains the candidate set, add the C.32.CONWAY branch before synthesis becomes narrow. Name the changed referent and any independently grounded A.3.4 transformation separately. Name every influence source by exact kind. Put only asserted influence facts with an exact obtaining direct relation in `influenceSourceRows[]`; otherwise keep the pressure synthesis-local in the C.32.CONWAY frame with its `missing-governor`, unresolved-grounding, or false-predicate disposition. For each actual architecture side, name the exact C.30 holon, obtaining `ArchitectureRelation`, and selected `U.Structure`; keep modal content in an exact `ArchitectureClaim`. Then frame candidate families that change the influence-source side, the transformed side, both, or declare a bounded mismatch with the named correspondence or decision-repair return condition.
 
 #### C.32.P2S:4.1 - P2S Unfolding Structure Block
 
-When the P2S card must remain reusable across decision, description, work, and feedback governing patterns, add this local block. `P2SUnfoldingStructureBlock` is an architecture-facing local `A.22.CGUS` `U.Structure` specialization block governed here for problem-to-structure architecturing use. It is not a root U-kind, not an architecture decision, not an ADR, not an architecture description, and not a work plan by itself.
+When the P2S card must remain reusable across decision, description, work, and feedback governing patterns, add this local block. `P2SUnfoldingStructureBlock` is an architecture-facing local `A.22.CGUS` `U.Structure` specialization block governed here for problem-to-structure architecturing use. That `U.Structure`, the project-local P2S architecturing transformation flow, the P2S method, and the flow-card episteme remain distinct. A pre-admission `ProvisionalUnfoldingDemonstrationDescription` or post-admission `DemonstrativeUnfoldingSlice` is a separate episteme whose displayed order is not the CGUS, flow, method, or Work. The block is not a root U-kind, not an architecture decision, not an ADR, not an architecture description, and not a work plan by itself.
 
 ```text
 P2SUnfoldingStructureBlock:
   unfoldingStructureRef: current architecture-facing ConstraintGovernedUnfoldingStructure record
-  problemPressureRef:
+  problemPressureRef: U.EpistemeRef resolving to an exact C.22.2 ProblemCard or another directly governed architecture-pressure episteme
   selectedOrUnknownStructureRefs[]:
   architectureContentLoci[]:
   structuralUncertaintyLoci[]:
@@ -64033,9 +64433,11 @@ Use `ArchitectureUnfoldingStructureUse@Project` when a named constraint-governed
 ```text
 ArchitectureUnfoldingStructureUse@Project:
   kind: dependent architecture-use relation record under C.32.P2S, C.30, and adjacent architecture governing patterns
-  projectWorkOccurrenceRef?: U.EntityRef constrained to an individual admitted under U.Work
-  architectureQuestionRef:
-  architectureOfRef:
+  projectWorkOccurrenceRef: U.EntityRef constrained to the exact composite U.Work that is an explicit participant in this use relation
+  architectureQuestionCardRef?: U.EpistemeRef resolving to one exact C.30 ArchitectureQuestionCard@Project
+  architectureBearingHolonRef: U.EntityRef resolving to the exact described holon
+  architectureRelationRefs[]?: exact obtaining C.30 ArchitectureRelation refs
+  architectureClaimRefs[]?: exact C.30 ArchitectureClaimRefs for affirmative, negative, unresolved, candidate, required, desired, or expected content
   unfoldingStructureRef:
   architectureStructureUseKind:
     transformationFlow |
@@ -64056,7 +64458,7 @@ ArchitectureUnfoldingStructureUse@Project:
   repairOrSupersessionCondition:
 ```
 
-For `ArchitectureUnfoldingStructureUse@Project`, the suffix again remains only a compatibility and retrieval cue. When `projectWorkOccurrenceRef` is filled, it designates the exact composite Work occurrence admitted under `U.Work` that is an explicit participant in this architecture-use relation; when it is absent, no project locality is asserted. `architectureQuestionRef` and `architectureOfRef` name the architecture question and described holon in bounded context. `unfoldingStructureRef` names the CGUS or local block being used. `affectedSelectedStructures[]`, `architectureCharacteristicRefs[]`, and `acceptedLosses[]` state why the unfolding structure matters for architecture rather than for a generic route. Method and work refs point to the A.15 family only as realization or feedback linkage. Decisions, descriptions, ADR-like projections, measurements, evals, evidence, gates, publication, and performed work still exit to their direct governing patterns.
+For `ArchitectureUnfoldingStructureUse@Project`, the suffix remains a compatibility and retrieval cue until an exact use is asserted. Every asserted occurrence includes `projectWorkOccurrenceRef` as the exact composite `U.Work` participant; without that Work, keep only the retrieval cue and do not assert the relation record. `architectureQuestionCardRef` may cite the exact C.30 triage episteme, while `architectureBearingHolonRef` names its independently identified subject. `architectureRelationRefs[]` contain only independently obtaining C.30 occurrences; modal architecture content stays in `architectureClaimRefs[]`. `unfoldingStructureRef` names the admitted CGUS or local block being used. `affectedSelectedStructures[]`, `architectureCharacteristicRefs[]`, and `acceptedLosses[]` state why the unfolding structure matters for architecture rather than for a generic route. Method and work refs point to the A.15 family only as realization or feedback linkage. Decisions, descriptions, ADR-like projections, measurements, evals, evidence, gates, publication, and performed work still exit to their direct governing patterns.
 
 Stop conditions:
 
@@ -64080,7 +64482,7 @@ Stop conditions:
 
 **Show B - organization and role/method structures.** Inspection work catches ontological errors late. The source may call the object a review practice, but P2S first restores the claim: the described holon is the review organization-as-system or bounded review-work context; the adjacent governed structures include role relation structure, method relation structure, method descriptions, evidence handoffs, decision records, and live attention cues. Architecture characteristics include error containment, learnability, throughput, evidence reuse, and repair locality. Candidate synthesis compares a single checker role assignment, a split intake and ontology-checking role relation structure, and a live-beat microstep method relation structure. The project architecture decision binds those selected structures to method descriptions and readiness checks. Later inspection work and telemetry show whether errors are caught earlier or whether the selected method-side or role-side structures need repair.
 
-**Show C - transformer and transformed co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence workflow only support one tightly coupled build. P2S uses `C.32.CONWAY`: transformer-side structures and transformed-side product structures are both candidate variables. Candidate families include changing the product modules only, changing the team and toolchain only, changing both, or accepting a bounded mismatch while retaining a named correspondence-frame return condition. The decision states which side changes now, what architecture characteristics are protected, what work realizes the change, and what operation or delivery feedback can return to the `C.32.CONWAY` correspondence frame or to decision repair.
+**Show C - architecture-influence and transformed-side co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence workflow only support one tightly coupled build. P2S uses `C.32.CONWAY`: those typed influence sources and their direct relations remain separate from both exact C.30 architecture sides, the changed referent, any actual transformation, acting Systems, assignments, and Work. Candidate families include changing the product modules only, changing the influence-source structures only, changing both, or accepting a bounded mismatch while retaining a named correspondence-frame return condition. The decision states which side changes now, what architecture characteristics are protected, what Work and exact work-to-change relations realize the change, and what operation or delivery feedback can return to the `C.32.CONWAY` correspondence frame or to decision repair.
 
 **Show D - PumpSkid 7 realization and return.** Architecture pressure calls for a modular pump-skid with selected module and placement structures; `C.32.PAD` governs the project architecture decision. Exact assembly work `W-PS7-ASSEMBLY` and later commissioning work `W-PS7-COMMISSION` are separate Work occurrences admitted under `U.Work` by `A.15.1`. Mounting change `T-PS7-MOUNT`, wiring change `T-PS7-WIRE`, fluid-connection change `T-PS7-CONNECT`, and commissioning-related change `T-PS7-COMMISSION` are each independently identified under `A.3.4`, with exact work-to-change governors where the assembly or commissioning work is asserted to cause them. Shared work, temporal adjacency, and one selected pump-skid configuration do not establish one composite transformation. The local `A.15.PROD` entity-identity-inception claim uses the applicable PumpSkid 7 identity-specification edition, its direct applicability basis, exact work-to-change and change-to-identity facts, and `inceptionBoundary`; it need not assert a composite transformation. Later commissioning can remain production work until exact subject-state facts at `completionBoundary` satisfy the applicable production-completion-criterion edition; only then can a separate historically indexed completion claim be written. A later `C.30.AD` or `C.30.ASV` record describes the actual structure; `C.32.ACE` evaluates service-access coupling. When coupling is worse than the selected expectation, the eval result returns to decision repair or new synthesis. Neither the description, evaluation, identity-inception claim, completion claim, nor shared assembly work proves conformance to the selected architecture or transformation composition.
 
@@ -64093,7 +64495,7 @@ Use these rows as repair cues for problem pressure, source-practice transfer, or
 | Description-first pressure cue | A view, model, diagram, ADR-like record, dashboard, or memo starts to carry architecture, decision, and work authority at once. | Recover selected structures and current use. Send description adequacy to `C.30.AD` or `C.30.ASV`, decision to `C.32.PAD`, projection to `C.32.ADR`, and work claims to A.15-family patterns. |
 | Single-winner pressure cue | A score, workshop favorite, generated candidate, or apparent best alternative hides structurally different candidates. | Restore candidate plurality through `C.32`; keep archive, front, pool, selected-set, comparison, local-choice, or decision use with its governing pattern. |
 | Eval-shaped practice row or signal | A metric, benchmark, source-practice fitness-function term, eval result, or telemetry event is treated as the characteristic or the decision. | Recover characteristic, bearer, scale, eval program, measurement, and receiving use. Use `C.32.ACE`, `C.16`, `C.25`, and then the comparison, selected-set, local-choice, or decision governing pattern. |
-| Transformer-hidden pressure cue | Desired transformed-holon architecture is stated without asking whether the changing holon can produce it. | Open `C.32.CONWAY`; name changing relation, transformer, transformed holon, selected structures on both sides, affected characteristics, candidate changes, and bounded mismatch condition. |
+| Architecture-influence basis hidden | Desired transformed-side architecture content is stated without asking which typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source constrains it. | Open `C.32.CONWAY`; keep the changed referent and any actual transformation separate, recover both exact C.30 architecture sides or their modal claims, name every influence source by kind and either its exact obtaining direct relation or precise provisional disposition, and prepare influence-source-side, transformed-side, joint, and bounded-mismatch candidates. |
 | Work-shaped pressure cue | A schedule, task list, method recipe, performed-work record, shared assembly occurrence, or completion label is treated as the architecturing flow, an actual transformation, a composite transformation, or proof that selected structure is actual. | Keep work governing patterns intact. P2S cites exact Work occurrences, independently grounded changes, direct work-to-change governors, separate local `A.15.PROD` claims, and actual-structure facts only when they obtain; common work or chronology supplies none of the stronger claims. |
 
 ### C.32.P2S:7 - Conformance Checklist
@@ -64101,14 +64503,14 @@ Use these rows as repair cues for problem pressure, source-practice transfer, or
 | Check | Pass condition |
 |---|---|
 | `CC-C32P2S-1` | The card names described holon, bounded context, problem pressure, first governing pattern, and at least one architecture-relevant structure or unknown-structure slot. |
-| `CC-C32P2S-2` | The architecture claim, when made, is grounded through `C.30` over selected structures of the described holon; no description or publication record carries the architecture by itself. |
+| `CC-C32P2S-2` | Each architecture use keeps the exact described holon, obtaining C.30 `ArchitectureRelation` occurrences and their selected-structure participants, and any affirmative, negative, unresolved, candidate, required, desired, or expected `ArchitectureClaim` content separate; no description or publication record carries the architecture by itself. |
 | `CC-C32P2S-3` | Architecture characteristics are separate from functional demands, measurements, eval programs, eval results, Q-bundles, comparison rules, and decisions. |
 | `CC-C32P2S-4` | The structural-information slots in the P2S card record unknown, selected, expected, actual, captured, handed-off, latent or hidden, lost, and returned structure when those slots are live. |
 | `CC-C32P2S-5` | Candidate synthesis exits to `C.32`, comparison and selection claims exit to their governing patterns, and the P2S card does not choose a winner by score or prose preference. |
 | `CC-C32P2S-6` | A project architecture decision, when current, exits to `C.32.PAD`; ADR-like publication exits to `C.32.ADR` and publication governing patterns. |
 | `CC-C32P2S-7` | Method, `MethodDescription`, work-plan, readiness, and performed-work claims exit to A.15-family governing patterns. Every actual transformation is independently grounded under `A.3.4`; every claimed work-to-change link resolves through its exact direct governor or a local claim selected under `A.6.RCD` disposition 2; production-work, entity-identity-inception, and production-completion refs point to separate local `A.15.PROD` claims. The P2S card carries refs and expected structure effects only. |
 | `CC-C32P2S-8` | Measurement, Q-bundle, mathematical-lens, eval, improvement, `G.11` currentness refresh, and `E.18` transformation-flow slice-local refresh claims exit to `C.16`, `C.25`, `C.29`, `C.32.ACE`, `E.23`, `G.11`, or `E.18`. |
-| `CC-C32P2S-9` | Transformer/transformed cases name the changing relation, both holons, selected structures on both sides when load-bearing, and the `C.32.CONWAY` correspondence frame. |
+| `CC-C32P2S-9` | Architecture-influence cases keep the changed referent, any actual A.3.4 transformation, both exact C.30 architecture sides or modal claims, every influence source's exact kind and obtaining direct relation or precise provisional disposition, and the `C.32.CONWAY` synthesis-local frame or exact pair row separately recoverable. |
 | `CC-C32P2S-10` | The pattern use covers at least one actual-structure feedback route that checks subject-side `U.Structure` values recovered under `A.22` from directly governed obtaining facts, architecture-characteristic results, and relevant functional-characteristic or capability implications through operation, use, inspection, measurement, eval result, telemetry, decay, stronger-structure inspection return, or decision-repair trigger. |
 | `CC-C32P2S-11` | Selected and expected structures, methods, plans, models, decisions, descriptions, evaluation results, publications, and transfers remain distinct from actual structures and actual transformations. Resemblance does not establish conformance. Shared work, adjacency, common referents, or one flow establishes neither transformation composition nor partlessness. |
 | `CC-C32P2S-12` | The PumpSkid 7 replay independently identifies mounting, wiring, connection, and commissioning-related changes; cites exact assembly and commissioning work plus work-to-change governors; separates entity-identity inception from later historically indexed production completion; and routes actual-structure description, architecture-characteristic evaluation, and return without fabricating conformance or one composite transformation. |
@@ -64118,12 +64520,12 @@ Use these rows as repair cues for problem pressure, source-practice transfer, or
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
 | Description stop | The project stops after producing a view set, diagram, ADR-like record, or architecture description even though no candidate structure, decision, realization, or feedback path is recoverable. | Return to step 2 or 5. Name selected or unknown structures, architecture characteristics, and the next governing pattern: `C.30`, `C.30.ASV`, `C.32`, or `C.32.PAD`. |
-| Relation index P2S | The P2S artifact lists neighboring patterns but does not tell the architect what to do from pressure to subject-side actual structures recovered from directly governed obtaining facts. | Write the positive action spine in the card: pressure, structural uncertainty, candidates, retention or selection, decision, descriptions, method and work handoff, exact work, actual changes, subject-side actual structures, feedback, and governing-pattern-specific return. |
+| Relation index P2S | The P2S artifact lists neighboring patterns but does not tell the architect what to do from pressure to subject-side actual structures recovered from directly governed obtaining facts. | Write the P2S method's positive Plain action sequence in the card: pressure, structural uncertainty, candidates, retention or selection, decision, descriptions, method and work handoff, exact work, actual changes, subject-side actual structures, feedback, and governing-pattern-specific return. |
 | Eval-as-decision | An eval result, score, metric, telemetry event, or dashboard value selects the architecture. | Route the eval to `C.32.ACE`, measurement to `C.16`, and composite quality to `C.25`; ask what selected structure, accepted loss, counter-characteristic, or functional implication worsened; then use comparison, selected-set, local-choice, or `C.32.PAD` if selection or decision is current. |
-| Hidden transformer | The transformed holon is designed as if the changing holon has no architecture. | Open the transformer/transformed branch and `C.32.CONWAY`; add candidate families that change transformer-side structures, transformed-side structures, both, or a bounded mismatch. |
+| Hidden architecture-influence basis | The transformed-side candidate is designed as if no typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source constrains it. | Open the architecture-influence branch and `C.32.CONWAY`; recover every source's exact kind and obtaining direct relation or precise provisional disposition, then add candidate families that change the influence-source side, transformed side, both, or a bounded mismatch while keeping actor, Work, changed-referent, and transformation facts separate. |
 | Lost structure left silent | The description, decision, method handoff, or eval report compresses away distinctions needed for later work. | Fill the P2S structural-information slots: what is captured, handed off, latent or hidden, lost, and what stronger-structure inspection return condition restores the selected or expected structure needed by the next claim. |
 | Work governing-pattern takeover | P2S prose starts authorizing Work occurrences or replacing method, readiness, WorkPlan, or separate assertion/record epistemes about performed work. | Keep P2S as architecture carry-through. Send method and work claims to A.15-family patterns and keep in the P2S card only references plus expected selected-structure effects. |
-| Selected structure treated as actual | A decision, model, description, view, evaluation result, or matching label is used as proof that the selected structure obtains. | Recover the exact subject-side `U.Structure` under `A.22` from its declared substrate and directly governed obtaining relation, constraint, invariant, or other selected-organization facts; use `C.30` only for the corresponding `ArchitectureOf@Context` claim. Keep description and evaluation separately governed and test conformance only through its direct owner. |
+| Selected structure treated as actual | A decision, model, description, view, evaluation result, or matching label is used as proof that the selected structure obtains. | Recover the exact subject-side `U.Structure` under `A.22` from its declared substrate and directly governed obtaining relation, constraint, invariant, or other selected-organization facts. Use C.30 `ArchitectureRelation` only when its exact holon and selected-structure participants satisfy the obtaining predicate; keep modal content in `ArchitectureClaim`. Keep description and evaluation separately governed and test conformance only through its direct owner. |
 | Common work treated as one composite transformation | Mounting, wiring, connection, or commissioning changes are merged because one assembly work occurrence, selected configuration, or time interval contains them. | Identify every actual transformation independently under `A.3.4`; cite direct work-to-change facts; return the exact missing-governor blocker if the receiving claim needs transformation composition. |
 
 ### C.32.P2S:9 - Consequences
@@ -64132,7 +64534,7 @@ The project gains one replayable architecturing flow from pressure to actual-str
 
 The cost is disciplined record work: the card preserves structural uncertainty, candidate plurality, accepted losses, handoffs, and stronger-structure inspection return. If that cost is not justified because the question is already governed by one narrower pattern, use that pattern directly and do not open P2S.
 
-The pattern improves cross-holon and adjacent-governed-structure reuse. The same spine works for admitted holons such as systems, built assets, product families, organizations-as-systems, epistemes, AI-agent setups, disciplines, and C.36-recovered cultural-evolution cases. When architecture pressure concerns roles, methods, practices, cultures, traditions, or styles, the described holon and bounded context are named separately, while role values, role relation structures, method values, method relation structures, method descriptions, work claims, canon or memory epistemes, recognition and selection regimes, and mediation-system claims stay with their direct governing patterns.
+The pattern improves cross-holon and adjacent-governed-structure reuse. Distinct project-local P2S architecturing transformation flows may use the same P2S method and Plain action sequence for admitted holons such as systems, built assets, product families, organizations-as-systems, epistemes, AI-agent setups, disciplines, and C.36-recovered cultural-evolution cases; sharing that guidance does not give those flows one cross-holon identity or turn the displayed list into performed-work order. When architecture pressure concerns roles, methods, practices, cultures, traditions, or styles, the described holon and bounded context are named separately, while role values, role relation structures, method values, method relation structures, method descriptions, work claims, canon or memory epistemes, recognition and selection regimes, and mediation-system claims stay with their direct governing patterns.
 
 The pattern does not guarantee adequacy. It makes the architecturing flow inspectable. Candidate quality, decision adequacy, evidence, assurance, gate passage, release, measurement validity, and `G.11` currentness refresh still require their governing patterns.
 
@@ -64142,7 +64544,7 @@ C.32.P2S belongs under C.32 because its central architecturing concern is archit
 
 It cannot be only a C.22 pattern because a problem card does not carry architecture synthesis, decision, realization, and feedback. It cannot be only a C.30 pattern because grounded architecture and structural-view adequacy do not themselves construct candidate palettes or govern downstream work. It cannot be only a C.32 pattern because the palette is only one stage of the larger architecturing flow. It cannot be only C.32.PAD or C.32.ADR because decisions and records do not create the candidate space and do not realize structures. It cannot be only A.15 or E.18.1 because method and work carry-through and P2W do not govern architecture candidate synthesis or selected-structure decision content.
 
-The P2S structural-information slots are selected now because otherwise P2S cannot explain what changes. Architecturing refines uncertainty about future structures into candidate, selected, expected, and actual structures, while descriptions, decisions, methods, Work occurrences, separate records about them, and eval reports capture only part of that content. The practitioner records which structural content is captured by descriptions, decisions, method handoffs, references to Work occurrences, separate work-record epistemes, evals, and measurements; which structure remains latent, hidden, or lost; and which stronger-structure inspection return condition returns the work to stronger structure inspection, description or view loss repair, decision repair, or a `C.29` lens use such as epiplexity, DSM, graph, coarse-graining, equivalence, or morphism.
+The P2S structural-information slots are necessary because otherwise P2S cannot explain what changes. Architecturing refines uncertainty about future structures into candidate, selected, expected, and actual structures, while descriptions, decisions, methods, Work occurrences, separate records about them, and eval reports capture only part of that content. The practitioner records which structural content is captured by descriptions, decisions, method handoffs, references to Work occurrences, separate work-record epistemes, evals, and measurements; which structure remains latent, hidden, or lost; and which stronger-structure inspection return condition returns the work to stronger structure inspection, description or view loss repair, decision repair, or a `C.29` lens use such as epiplexity, DSM, graph, coarse-graining, equivalence, or morphism.
 
 ### C.32.P2S:11 - SoTA-Echoing
 
@@ -64155,18 +64557,18 @@ These rows document transfers from source practice into C.32.P2S. Software-syste
 | Richards and Ford, `Fundamentals of Software Architecture`, 2nd ed. (`https://www.oreilly.com/library/view/fundamentals-of-software/9781098175504/`) and Ford et al., `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`) | Current practitioner sources for architecture characteristics, trade-offs, risk, coupling, cohesion, and difficult architecture decisions. | Adopt characteristic and trade-off discipline; adapt software-system examples to holons and selected structures; reject software-only module reduction. | P2S steps 2, 7, and 11 plus `CC-C32P2S-3` separate functional demand from architecture characteristics, require accepted-loss visibility, and feed realized functional implications back without confusing kinds. | A list of qualities, trade-off discussion, or rationale text is not candidate synthesis or decision adequacy by itself. |
 | Architecture synthesis and multi-objective quality-attribute optimization, including Di Pompeo and Tucci 2023 (`https://arxiv.org/abs/2301.07516`) and ATRAF 2025 (`https://arxiv.org/abs/2505.00688`) | Current research line for competing quality attributes, multi-objective trade-offs, and architecture candidate evaluation. | Adopt candidate plurality and trade-off front inspection; adapt selection to FPF comparison, selected-set, local-choice, and decision governing patterns; reject scalar or generated-winner authority. | P2S steps 5 and 6, the single-winner pressure-cue row, and `CC-C32P2S-5` keep candidate plurality and send comparison, selection, selected-set publication, local choice, and decision claims to their governing patterns after C.32 candidate synthesis. | A Pareto front, scalar score, optimization run, or generated winner does not select the architecture. |
 | DSM, multiple-domain matrix, modularization, and dependency-structure practice; inherited C.32 source-anchor row for Jiang and Luo 2026 (`https://arxiv.org/abs/2604.28018`), epiplexity structural-information line (`https://arxiv.org/abs/2601.03220`), and `C.31.RSA` structure-accounting rows | Strong engineering-design line for inspecting dependency, coupling, modularity, learnable structural content, and structural loss; the inherited C.32 row also warns that functional priors and structural modularization objectives can diverge. | Adopt DSM, MDM, and epiplexity as structure-inspection lenses; adapt them through `C.29` lens refs and structural-information slots; reject matrix, cluster, compression, or epiplexity result as architecture adequacy. | P2S steps 3 and 5 and `CC-C32P2S-4` let the card cite DSM, MDM, graph, epiplexity, coarse-graining, equivalence, or morphism claims while recording preserved and lost structure. | A cluster, matrix, graph, compression, or epiplexity result is not architecture adequacy or a decision without recovered selected structures and governing-pattern exits. |
-| Conway correspondence, mirroring, DORA loosely coupled teams (`https://dora.dev/capabilities/loosely-coupled-teams/`), and Team Topologies (`https://teamtopologies.com/key-concepts`) | Current socio-technical architecture practice shows that transformer structures can enable or block transformed-holon architecture and independent change. | Adopt co-synthesis of transformer and transformed structures; adapt through `C.32.CONWAY`; reject organization labels or communication diagrams as direct transformed-architecture claims. | P2S transformer branch, Show C, and `CC-C32P2S-9` require `C.32.CONWAY` when team, method, toolchain, communication, evidence, deployment, or work structures constrain the changed holon. | Organization labels, team diagrams, or communication patterns do not settle transformed-holon architecture; they become selected transformer structures only when mapped by value. |
+| Conway correspondence, mirroring, DORA loosely coupled teams (`https://dora.dev/capabilities/loosely-coupled-teams/`), and Team Topologies (`https://teamtopologies.com/key-concepts`) | Current socio-technical architecture practice shows that typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side sources can enable or block transformed-side architecture content and independent change. | Adopt co-synthesis of the influence-source and transformed sides; adapt through `C.32.CONWAY`; reject organization labels, communication diagrams, architecture relations, claims, or structures as acting Systems or direct transformation participants. | The P2S architecture-influence branch, Show C, and `CC-C32P2S-9` require exact C.30 architecture sides or modal claims, an independently typed influence source and direct relation, the changed referent, and any actual A.3.4 transformation as separate objects. | Organization labels, team diagrams, or communication patterns do not settle transformed-side architecture content, acting identity, Work attribution, or transformation participation; they enter only through their exact kinds and direct relations. |
 | NASA Systems Engineering Handbook decision and trade-study practice (`https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf`), Michael Nygard's ADR practice (`https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions`), MADR 4.x (`https://adr.github.io/madr/`), and `C.32.ADR` source-anchor rows | Non-software domains often publish architecture choices as trade studies, engineering memos, review records, or certification rationale rather than Markdown ADR files; ADR practice supplies compact status, context, decision, options, consequences, links, and update conditions. | Adopt record-function discipline; adapt carrier form to project domain through `C.32.ADR`, `E.17`, and `E.24.PUB`; reject ADR file form as mandatory or authoritative by itself. | P2S step 8 and the Relations boundary treat decision records by section function and reader use, routing project architecture decisions to `C.32.PAD` and record projection to `C.32.ADR`. | ADR file form is not mandatory and does not create a second decision authority. |
 | FPF `C.18`, `C.19`, `E.23`, and `G.11` with NQD, OEE, improvement, telemetry, freshness, and decay practice | Modern architecturing happens under evolution; retained alternatives, stepping stones, feedback, and decay affect the next synthesis question. | Adopt archive, front, pool, improvement, telemetry, freshness, and decay distinctions; adapt them as receiving-governing-pattern exits; reject `G.11` refresh state or archive state as architecture choice. | P2S steps 6 and 11 record archive, front, and pool refs, improvement-loop refs, telemetry, actual-structure observations, decay, stronger-structure inspection return, and governing-pattern-specific return or repair refs without merging their governing-pattern semantics. | Archive membership, improvement-loop status, telemetry, or freshness signal does not decide architecture by itself. |
 
-**SoTA-anchor currentness boundary.** Use each SoTA source-anchor row only for the P2S field, spine step, boundary, or repair named in the row. Recheck the row when the source-practice anchor, FPF governing pattern, described holon, structure kinds, architecture characteristics, transformer relation, eval mode, or project use changes.
+**SoTA-anchor currentness boundary.** Use each SoTA source-anchor row only for the exact P2S card field, P2S method or architecturing-transformation-flow step, boundary, or repair named in the row. Recheck the row when the source-practice anchor, FPF governing pattern, described holon, structure kinds, architecture characteristics, architecture-influence relation, eval mode, or project use changes.
 
 ### C.32.P2S:12 - Relations
 
 - **Builds on:** `A.1` and `A.1.SCR` for an existing system boundary, `A.15.6` for project system-of-interest designation and intended-system separation, `A.1.STM` when the missing outside-to-inside dependency must be located, `C.22.2` for problem-side recovery, `C.30`, `C.30.AD`, and `C.30.ASV` for grounded architecture, architecture-description adequacy, and structural-view adequacy, `C.33`, `C.34`, and `C.35` for structural-information capture, preservation, and generated or discovered carrier adequacy inside the flow, `C.32` for candidate architecture synthesis, `C.32.HCS`, `C.32.ACS`, and `C.32.ACE` for characteristic starter heads, project criteria rows, and eval programs, `C.25` for Q-bundles, `C.31` family patterns for modularity, reusable structure, and scale preference, `C.29` for mathematical-lens use when claimed, and `E.17` and `E.24.PUB` for publication-face and publication-use claims.
-- **Uses:** `A.22.CGUS` for the P2S unfolding-structure block when problem pressure, structure uncertainty, candidate synthesis, decision linkage, work linkage, and actual-structure feedback must remain inspectable as one constraint-governed unfolding structure; `E.18.3`, `C.30.TFS-REL`, `E.18`, and `A.3.4` when architecture pressure concerns transformation-flow or bounded change; `C.30.ILC`, `C.32.MLAO`, and `B.2` family patterns when cross-scope, interlevel, interlayer, meta-holon, emergence, or reidentification pressure changes the candidate frame; `C.32.CONWAY` when co-synthesis of transformer and transformed architectures is current; `C.32.FAIL` when a recognizable architecture-synthesis failure becomes a repair action.
+- **Uses:** `A.22.CGUS` for the P2S unfolding-structure block when problem pressure, structure uncertainty, candidate synthesis, decision linkage, work linkage, and actual-structure feedback must remain inspectable as one constraint-governed unfolding structure; `E.18.3`, `C.30.TFS-REL`, `E.18`, and `A.3.4` when architecture pressure concerns transformation-flow or bounded change; `C.30.ILC`, `C.32.MLAO`, and `B.2` family patterns when cross-scope, interlevel, interlayer, meta-holon, emergence, or reidentification pressure changes the candidate frame; `C.32.CONWAY` when co-synthesis of exact influence-source and transformed-side architecture content is current; `C.32.FAIL` when a recognizable architecture-synthesis failure becomes a repair action.
 - **Receiving patterns:** `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, and `C.11` for comparison, selection, archive, front, pool policy, publication of a selected set, and local choice; `C.32.PAD`, `C.32.ADR`, and `C.32.ADA` for project architecture decision, ADR-like projection, and decision adequacy; `C.30.AD`, `A.6.3.NAR`, `E.17`, and `E.24.PUB` for architecture descriptions, architecture-mediated narrative renderings, publication faces, and publication-use claims; `A.15`, `A.15.1`, `A.15.2`, and `A.15.5` for method, performed work, work plan, and readiness; `A.3.4` for each actual bounded change; direct subject patterns or `A.6.RCD` for exact work-to-change governors and blockers; `A.15.PROD` for separate local production-work, entity-identity-inception, and production-completion claims; `C.16`, `C.25`, `C.29`, `C.32.ACE`, `E.23`, `G.11`, and `E.18` for measurement, Q-bundle, mathematical lens, eval, improvement, `G.11` currentness refresh, and `E.18` transformation-flow slice-local refresh.
-- **Boundary:** C.32.P2S governs the connected architecturing flow from architecture-relevant pressure to subject-side actual structures recovered under `A.22` from directly governed obtaining facts and to feedback. `C.33`, `C.34`, and `C.35` deepen the structural-information slot group already present in P2S; they do not move the whole architecturing spine out of P2S. C.32.P2S does not replace any governing pattern for architecture claim, architecture description, structural view, candidate palette, comparison, selected-set publication, decision, ADR-like publication, publication form, publication-use claim, method, work, measurement, eval, evidence, assurance, gate, release, improvement, `G.11` currentness refresh, or formal structural-information theory.
+- **Boundary:** C.32.P2S governs the connected project-local P2S architecturing transformation flow from architecture-relevant pressure to subject-side actual structures recovered under `A.22` from directly governed obtaining facts and to feedback. `C.33`, `C.34`, and `C.35` deepen the structural-information slot group already present in P2S; they do not move that whole connected flow out of P2S. C.32.P2S does not replace any governing pattern for architecture claim, architecture description, structural view, candidate palette, comparison, selected-set publication, decision, ADR-like publication, publication form, publication-use claim, method, work, measurement, eval, evidence, assurance, gate, release, improvement, `G.11` currentness refresh, or formal structural-information theory.
 
 ### C.32.P2S:13 - Footer marker
 
@@ -64395,20 +64797,21 @@ Typical entry phrases:
 "A method, role, AI workflow, or built asset has trustworthiness or teachability pressure; which Q-Bundle slot or ACS row is current?"
 ```
 
-**First-minute use slice.** A product-family architect has HCS starter heads and source catalogue names for maintainability, substitutability, evidence reuse, safety, availability, latency, and scale amenability. Using C.32.ACS, the practitioner builds project rows, marks maintainability, substitutability, and evidence reuse as optimization indicators, keeps safety and availability as monitored guardrails, and records bearers, scale form, proxy risk, protected losses, and source-return condition. C.32 can now synthesize candidates against declared criteria instead of against a loose list of quality words.
+**First-minute use slice.** A product-family architect has HCS starter heads and source catalogue names for maintainability, substitutability, evidence reuse, safety, availability, latency, and scale amenability. Using C.32.ACS, the practitioner builds project rows and gives each row its bearer, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, qualification or evaluation window, scale form, proxy risk, protected losses, and source-return condition. Maintainability, substitutability, and evidence reuse become optimization indicators; safety and availability remain monitored guardrails. The source phrase "scale amenability" remains only a starter cue until ACS admits a concrete characteristic row, such as exception growth or interface-grammar variation, with its bearer and scale form; a claim that one alternative is preferable under a declared scale window remains a separate `C.31.ASAP` object. C.32 can now synthesize candidates against declared criteria instead of a loose list of quality words.
 
-The primary `EntityOfConcern` is one project architecture-characteristic criteria set for improvement cycles. It prepares rows for C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later receiving patterns. Starter packs, Q-Bundles, measurement methods, eval programs, candidate palettes, comparison rules, selection results, G.5 publications, local choices, and architecture decisions remain separate objects.
+The primary governed object is one project architecture-characteristic criteria-set record for improvement cycles. It prepares rows for C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later receiving patterns. The set and its rows are C.32.ACS-local record forms, not new `U.*` kinds; starter packs, `U.Characteristic` values, Q-Bundles, measurement methods and results, eval programs and results, candidate palettes, comparison rules, selection results, G.5 publications, local choices, and architecture decisions remain separate objects.
 
 Ordinary working move: make one row per project architecture characteristic, bind its bearer and scale, mark whether it drives optimization, guards against loss, or only gives context, and record what eval reading can reopen synthesis.
 
 The first useful output is `ArchitectureCharacteristicCriteriaSet@Project`:
 
-For a first pass, fill only the described holon, bounded context, architecture use, three to five draft row names, bearer or selected structure, use class, protected losses, receiving use, and reopen condition. Add readings, target bands, and eval-program references only when the current receiving use needs them.
+For a first pass, fill the described holon, architecture use, three to five draft row names, and for every row the bearer or selected structure, exact claim scope and selected context slices, reference scheme and plane, qualification or evaluation window, scale form, use class, protected losses, receiving use, and reopen condition. Add readings, target bands, and eval-program references only when the current receiving use needs them; add a selected `BoundedModelUseStructure` only when it independently changes interpretation of the row use.
 
 ```text
 ArchitectureCharacteristicCriteriaSet@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureCriteriaProjectUseRelationRef?: U.RelationRef governed by the exact criteria-use or work-use pattern
   describedHolonRef:
-  boundedContextRef:
   architectureUseRef:
   holonFamilyStarterPackRef?:
   sourceCatalogueRefs?:
@@ -64416,6 +64819,12 @@ ArchitectureCharacteristicCriteriaSet@Project:
     - architectureCharacteristicRef:
       sourceHeadOrStarterPackRef?:
       bearerOrSelectedStructureRefs:
+      rowClaimScopeRef: U.EntityRef referencing one U.ClaimScope
+      selectedContextSliceRefs:
+      modelUseStructureRef?:
+      effectiveReferenceScheme:
+      referencePlane?:
+      qualificationOrEvaluationWindow:
       endpointShape: singleCharacteristic | qBundle | qBundleSlot | sourceVocabularyOnly
       qBundleRef?:
       architectureQuestion:
@@ -64437,6 +64846,8 @@ ArchitectureCharacteristicCriteriaSet@Project:
   reopenCondition:
 ```
 
+For `ArchitectureCharacteristicCriteriaSet@Project` and `ArchitectureCharacteristicImprovementRow@Project`, `@Project` is a compatibility and retrieval cue only; it establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. A criteria set or improvement row local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct use relation for that exact record in `architectureCriteriaProjectUseRelationRef`; either field alone is insufficient, and a relation occurrence about the set is not silently reused for a distinct row. Otherwise the record remains retrieval-only and no project locality is asserted.
+
 `draftProjectCriteriaRows` are draft project criteria rows. They are not candidate architectures, selected architectures, or a selected set returned by `A.19.SelectorMechanism`.
 
 What goes wrong if C.32.ACS is missed: the team says that the architecture should be more maintainable, scalable, modular, safe, or evolvable, but no one can say which selected structures carry the characteristic, which few rows are criteria for the next optimization, which rows only guard against loss, which C.25 Q-Bundle is involved, or which eval result can reopen synthesis.
@@ -64452,7 +64863,7 @@ Common exits by claim kind:
 - `C.32.HCS` for holon-family starter packs.
 - `C.25` for Q-Bundles and composite quality families.
 - `C.16` for measurement templates, readings, units, thresholds, or comparability claims.
-- `C.32.ACE` for eval programs and eval results over declared rows.
+- `C.32.ACE` for eval-program framing and typed-result dispatch over declared rows; the selected direct owner governs each actual result.
 - `E.13` when an indicator, score, or dashboard starts replacing the declared architecture concern.
 - `E.22` and `E.23` for improvement-question framing and repeated improvement method.
 - `C.32` for candidate synthesis and `C.32.MLAO` for residual-reducing candidates.
@@ -64462,7 +64873,7 @@ Common exits by claim kind:
 
 ### C.32.ACS:2 - Problem
 
-Architecture synthesis needs criteria. A multi-criteria or multilevel optimization phrase is empty until the criteria are named. In C.32-family work, those criteria are admitted architecture-characteristic rows or declared C.25 Q-Bundle slots of the described holon under the current bounded context.
+Architecture synthesis needs criteria. A multi-criteria or multilevel optimization phrase is empty until the criteria are named. In C.32-family work, those criteria are admitted architecture-characteristic rows or declared C.25 Q-Bundle slots of the described holon, each bound to its exact bearer, `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, qualification or evaluation window, and receiving use. A broad domain or bounded-context label supplies none of those bindings.
 
 Architecture characteristics are not the same as user functions. Functional demand says what the holon must do. An architecture characteristic says whether the selected structures make that demand maintainable, controllable, replaceable, observable, evolvable, scalable, affordable, safe enough, or otherwise acceptable.
 
@@ -64487,15 +64898,15 @@ Build an `ArchitectureCharacteristicCriteriaSet@Project` from starter heads, sou
 
 #### C.32.ACS:4.1 - Kind settlement
 
-`ArchitectureCharacteristicCriteriaSet@Project` is a project working record: it holds criteria rows for improvement work. It does not create a new `U.*` kind and does not replace a Q-Bundle, measurement result, eval program, comparison rule, or decision record.
+`ArchitectureCharacteristicCriteriaSet@Project` is a C.32.ACS-local project working record: it holds criteria-row references and use classifications for improvement work. Each `draftProjectCriteriaRows` entry is another local record form, not the referenced `U.Characteristic`, Q-Bundle slot, scale, predicate, measurement result, eval program, or eval result. The set and rows create no new `U.*` kind and replace none of those direct objects.
 
-An architecture characteristic is the property or quality-like head under discussion. A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. An architecture-characteristic eval program belongs to `C.32.ACE`; it evaluates one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes.
+An architecture characteristic is the property or quality-like head under discussion. A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. A row whose scale form exposes exception growth, interface variation, or another scale-sensitive characteristic remains a criterion row; a preference between architecture alternatives over a declared scale window is a separate `C.31.ASAP` claim. An architecture-characteristic eval program belongs to `C.32.ACE`; it frames evaluation of one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes while each actual typed result remains with its direct owner.
 
 #### C.32.ACS:4.2 - Criteria-set construction
 
 Work in this order:
 
-1. Name the described holon, bounded context, architecture use, and improvement cycle or one-pass eval use.
+1. Name the described holon, architecture use, and improvement cycle or one-pass eval use. For every proposed row, bind the exact claim scope and selected context slices, effective reference scheme and plane, and qualification or evaluation window. Designate a selected A.1.1 `BoundedModelUseStructure` only when it independently changes that row's interpretation.
 2. Start from a `C.32.HCS` starter pack when the project has no draft criteria rows yet. Use source catalogues only as input, not as the criteria set.
 3. Build draft project criteria rows. There may be dozens of draft rows when broad scanning is needed, but each row must have a possible bearer, use reason, and receiving pattern.
 4. For each source or starter head, decide whether it is one architecture characteristic, one C.25 Q-Bundle, one Q-Bundle slot, or only source vocabulary.
@@ -64523,7 +64934,15 @@ When a row is used inside an improvement cycle, add:
 
 ```text
 ArchitectureCharacteristicImprovementRow@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureCriteriaProjectUseRelationRef?: U.RelationRef governed by the exact improvement-row-use or work-use pattern
   criteriaRowRef:
+  rowClaimScopeRef: U.EntityRef referencing one U.ClaimScope
+  selectedContextSliceRefs:
+  modelUseStructureRef?:
+  effectiveReferenceScheme:
+  referencePlane?:
+  qualificationOrEvaluationWindow:
   useClass:
   currentArchitectureReadingRefOrQualitativeState:
   evalResultRefs?:
@@ -64566,7 +64985,7 @@ C.32.ACS governs project criteria-set construction for architecture improvement.
 
 | Requirement | Required result |
 |---|---|
-| `CC-ACS-1` | The criteria set names the described holon, bounded context, architecture use, and receiving use. |
+| `CC-ACS-1` | The criteria set names the described holon, architecture use, and receiving use; every row names its exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, and qualification or evaluation window. |
 | `CC-ACS-2` | Source catalogue, HCS starter pack, draft project criteria rows, optimization indicators, monitored guardrails, and context-only rows remain distinct. |
 | `CC-ACS-3` | The ordinary optimization core is three to five rows, or the text states why more are needed. |
 | `CC-ACS-4` | Each row names a bearer or selected structure. A characteristic without a bearer is not admitted as an architecture criteria row. |
@@ -64575,6 +64994,10 @@ C.32.ACS governs project criteria-set construction for architecture improvement.
 | `CC-ACS-7` | Each optimization row names proxy risk and protected counter-characteristics before it is used in C.32, C.32.MLAO, C.32.ACE, or E.23. |
 | `CC-ACS-8` | Eval-program construction belongs to `C.32.ACE` and is not used as criteria rows. |
 | `CC-ACS-9` | The criteria set does not compare, select, publish, decide, certify, or carry an architecture-adequacy claim by itself. |
+| `CC-ACS-10` | A project-local criteria set or improvement row names both `projectWorkOccurrenceRef` and the obtaining `architectureCriteriaProjectUseRelationRef` for that exact record; the suffix or either reference alone asserts no locality. |
+| `CC-ACS-11` | A criteria row remains distinct from its referenced characteristic or Q-Bundle slot, scale, predicate, measurement result, eval program, eval result, and receiving decision object. |
+| `CC-ACS-12` | `modelUseStructureRef` appears only when an independently selected `BoundedModelUseStructure` changes the row interpretation; it never replaces row claim scope or context-slice membership. |
+| `CC-ACS-13` | A scale-sensitive ACS row names the exact characteristic or Q-Bundle slot, bearer, scale form, and use class; any preference between alternatives over a scale window is separately governed by `C.31.ASAP`. |
 
 ### C.32.ACS:8 - Common failures and repairs
 
@@ -64588,6 +65011,7 @@ C.32.ACS governs project criteria-set construction for architecture improvement.
 | `HolonLevelCarryoverWithoutRebinding` | An engineered-system row is copied to a method, role, or culture without changing bearer, scale, or admissible use. | Return to HCS and ACS; rebind the row to the new holon family and selected structures. |
 | `LocalGainHidesCounterLoss` | A candidate improves one row while worsening evidence burden, control burden, source-return cost, or functional adequacy. | Add monitored guardrail rows and open `E.13` when proxy-to-value drift appears before comparison or next synthesis. |
 | `ReadingAsDecision` | A better reading is treated as the selected architecture. | Keep the reading as feedback; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to `C.32.PAD`. |
+| `ContextLabelAsRowScope` | A domain, team, project, or bounded-context label is used as if it delimited every criterion row. | Bind each row's exact `U.ClaimScope`, selected A.2.6 context slices, scheme and plane, and window; add a selected model-use structure only when it changes interpretation. |
 
 ### C.32.ACS:9 - Consequences
 
@@ -64623,11 +65047,12 @@ These rows document transfers from source practice into C.32.ACS. Keep a source 
 
 ### C.32.ACS:12 - Relations
 
-- **Builds on:** `C.32.HCS`, `A.17`, `A.18`, `C.16`, `C.16.P`, `C.25`, `C.30`, `C.30.P`, `C.31`, `C.31.ASAP`, `E.13`, `E.22`, and `E.23`.
+- **Builds on:** `C.32.HCS`, `A.17`, `A.18`, `A.2.6`, `A.19`, `C.16`, `C.16.P`, `C.25`, `C.30`, `C.30.P`, `C.31`, `C.31.ASAP`, `E.13`, `E.22`, and `E.23`; uses A.1.1 only when a selected `BoundedModelUseStructure` changes one row's interpretation.
 - **Receiving uses:** `C.32.P2S` problem-to-structure architecturing flow, `C.32` candidate synthesis, `C.32.MLAO` multilevel residual work, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair cues, `C.32.ACE` eval programs, `A.19.CPM` comparison inputs, `A.19.SelectorMechanism` selection inputs, `C.11` local choice inputs, inputs for publishing a selected set under `G.5`, and architecture-decision inputs for `C.32.PAD`.
 - **Starter-pack boundary:** Use `C.32.HCS` when the project needs a holon-family starting set before criteria rows exist.
 - **Q-Bundle boundary:** Use `C.25` when the architecture characteristic is really a composite quality family with several measures, scope slots, mechanisms, statuses, qualification windows, or evidence.
-- **Eval boundary:** Use `C.32.ACE` when a project wants an eval program over declared rows, Q-Bundle slots, candidates, or selected-structure changes.
+- **Scale-preference boundary:** Use `C.31.ASAP` when a project claims that one architecture alternative is preferable over another under a declared scale window; the ACS row supplies a criterion, not that preference.
+- **Eval boundary:** Use `C.32.ACE` when a project wants eval-program framing over declared rows, Q-Bundle slots, candidates, or selected-structure changes; the selected direct owner governs each actual typed result.
 - **Measurement boundary:** Use `C.16` when a reading, coordinate, unit, threshold, score, or cross-case comparability claim is made.
 - **Structural-information boundary:** Use `C.33` or `C.34` when the issue is captured structure, lost structure, or preservation adequacy before a criterion row exists. Use C.32.ACS only when that structural-information or preservation concern becomes a declared architecture-characteristic criterion row. Use `C.35` only as generated-carrier admission support or discovered-carrier admission support before C.32 or ACS receives a criteria-bearing claim.
 - **Proxy boundary:** Use `E.13` when an optimization indicator, score, eval result, or dashboard state begins to replace the declared architecture concern.
@@ -64636,7 +65061,7 @@ These rows document transfers from source practice into C.32.ACS. Keep a source 
 
 ### C.32.ACS:13 - Footer marker
 
-C.32.ACS closes when the project can name the starter-pack row or source-catalogue line, draft project criteria rows, optimization indicators, monitored guardrails, context-only rows, bearers, scale forms, current reading or no-reading reason, protected counter-characteristics, receiving uses, and source-return conditions. The next architecture work then belongs to the receiving pattern.
+C.32.ACS closes when the project can name the starter-pack row or source-catalogue line, draft project criteria rows, optimization indicators, monitored guardrails, context-only rows, bearers, exact row claim scopes and selected context slices, reference schemes and planes, qualification or evaluation windows, scale forms, current reading or no-reading reason, protected counter-characteristics, receiving uses, and source-return conditions. The next architecture work then belongs to the receiving pattern.
 
 ### C.32.ACS:End
 
@@ -64660,18 +65085,26 @@ Typical entry phrases:
 "Two methods, roles, system variants, or AI workflows need fair comparison against the same architecture characteristics."
 ```
 
-**First-minute use slice.** A product-family team has ACS rows for substitutability, evidence reuse, and latency, plus safety as a monitored guardrail. Two candidate architectures look plausible. Using C.32.ACE, the practitioner defines one eval program with the same parity frame, evaluates both candidates against the declared rows, records latency readings, evidence-scope findings, and protected safety loss, and records the result as input for `A.19.CPM` comparison or the next C.32 synthesis pass. The eval result informs the architecture work; it cannot define the criterion or decide the architecture.
+**First-minute use slice.** A product-family team has ACS rows for substitutability, evidence reuse, and latency, plus safety as a monitored guardrail. Two candidate architectures look plausible. The practitioner writes one ACE program record with the same claim scope, selected context slices, reference scheme and plane, evaluation window, parity frame, and input projections for both candidates. `EvalService-7`, the admitted System holding `EvaluatorAssignment-3`, separately performs dated `CandidateEvalWork-42` over both candidates under that assignment; its exact Method enactment or operation application is separately governed. `CandidateLatencyReading-42` and `CandidateEvidenceScopeFinding-42` are separately governed typed results, and any observed protected-safety loss remains explicit rather than being absorbed into one score. Those results can become inputs for `A.19.CPM` comparison or the next C.32 synthesis pass; neither the program record, Work, nor a result defines the criterion or decides the architecture.
 
-The primary `EntityOfConcern` is one architecture-characteristic eval program over declared criteria rows, Q-Bundle slots, candidates, bearers, or selected structures under a parity frame. Measurement validity, comparison policy, selection results, G.5 publications, and architecture decisions remain with their receiving patterns.
+The primary governed object is one architecture-characteristic eval-program record over declared criteria rows, Q-Bundle slots, candidates, bearers, or selected structures under a parity frame. It is a C.32.ACE-local record form, not a new `U.*` kind and not, by its `program` label, a `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, or evaluation result. Measurement validity, comparison policy, selection results, G.5 publications, and architecture decisions remain with their receiving patterns.
 
-Ordinary working move: choose the declared criteria rows to read, hold one parity frame for the variants being evaluated, run the eval operation, and return readings or front information as feedback for comparison or the next synthesis pass.
+Ordinary working move: choose the declared criteria rows, bind the exact claim scope, relevant context slices, reference scheme and plane, evaluation window, and input projections, and hold one parity frame for all variants. When evaluation actually occurs, identify the admitted System and role assignment performing the dated Work plus any exact Method enactment or operation application, then return the separately governed typed results as feedback for comparison or the next synthesis pass.
 
-The first useful output is an `ArchitectureCharacteristicEvalProgram@Project`. The eval program is the project working record for evaluation over declared criteria. It reads characteristics through rows, slots, candidates, or structures; it is not the characteristic itself, the scale row, the measurement-validity claim, the comparison policy, or the decision:
+The first useful output is an `ArchitectureCharacteristicEvalProgram@Project`. This C.32.ACE-local working record states how one bounded architecture evaluation is to be framed over declared criteria. When a reusable way of evaluating is current, identify that separate `U.Method` under A.3.1; when a claim-bearing episteme describes that exact Method, test the same episteme for `U.MethodDescription` under A.3.2. A planned evaluation belongs to A.15.2, an actual dated evaluation to A.15.1, and each result to its direct measurement, comparison, evaluation, or assertion owner. The record reads characteristics through rows, slots, candidates, or structures; it is not any of those neighboring objects:
 
-For a first pass, fill only the evaluated rows or Q-Bundle slots, evaluated candidates or structures, parity frame, eval purpose, eval operation, result form, receiving use, and refresh or retire condition. Add trigger modes, method references, uncertainty policy, and comparison policy only when the current receiving use needs them.
+For a first pass, fill the exact claim scope and selected context slices, reference scheme and plane, evaluation window and input projections, evaluated rows or Q-Bundle slots, evaluated candidates or structures, parity frame, eval purpose, intended eval operation, result form, receiving use, and refresh or retire condition. Add project-use refs only for a claimed project-local program; add Method, MethodDescription, actual evaluation Work, operation-application, and typed-result refs only when those separate objects are current.
 
 ```text
 ArchitectureCharacteristicEvalProgram@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureEvalProgramProjectUseRelationRef?: U.RelationRef governed by the exact eval-program-use or work-use pattern
+  claimScopeRef: U.EntityRef referencing one U.ClaimScope
+  selectedContextSliceRefs:
+  effectiveReferenceScheme:
+  referencePlane?:
+  evaluationWindow:
+  inputProjectionRefs:
   evaluatedCriteriaSetRef:
   evaluatedCriteriaRowRefs:
   evaluatedQBundleSlotRefs?:
@@ -64686,7 +65119,10 @@ ArchitectureCharacteristicEvalProgram@Project:
   resultForm: reading | band | rank | dominanceRelation | tradeoffFront | qualitativeState | evidenceFinding
   runContext: designTime | laboratory | pipeline | production | workReview | decisionPrep
   measurementOrObservationMethodRefs:
-  resultRef?:
+  methodDescriptionRefs?:
+  evaluationWorkOccurrenceRefs?: U.EntityRef constrained to U.Work
+  evaluationOperationApplicationRefs?: direct-owner relation or A.6.1 application references
+  evaluationResultRefs?: typed result references governed by the selected direct owner
   uncertaintyAndMissingDataPolicy:
   proxyRisk:
   protectedCounterCharacteristicRefs:
@@ -64694,6 +65130,8 @@ ArchitectureCharacteristicEvalProgram@Project:
   receivingUseRef:
   refreshOrRetireCondition:
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. It supplies no project entity, composite-work identity, context, authority, viewpoint, or parthood. A program local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct program-use relation in `architectureEvalProgramProjectUseRelationRef`; either field alone is insufficient. `evalOperation` states the intended operation family in the program record, not an actual run or application. Each value in `evaluationWorkOccurrenceRefs` denotes a separate dated `U.Work`; its admitted performer System, exact `U.RoleAssignment`, F.6 attribution, any enacted Method or actual direct-owner/A.6.1 application binding, and each typed result remain under their direct owners. A program, Method, MethodDescription, Work occurrence, operation application, and result never substitute for one another.
 
 What goes wrong if C.32.ACE is missed: a project has architecture-characteristic rows but treats a test, monitor, dashboard, or source-side "fitness function" as the criterion or as the decision. The team may then reject useful losing variants as errors, optimize one indicator, or choose a candidate without fair comparison.
 
@@ -64742,9 +65180,9 @@ Work in this order:
 1. Reference the evaluated ACS criteria set, evaluated rows, and any Q-Bundle slots.
 2. State the eval purpose: current characterization, candidate comparison, portfolio-frontier work, post-change impact measurement, monitoring, or trigger for the next synthesis pass.
 3. Name the candidates, bearers, and selected structures being evaluated.
-4. Establish the parity frame: context, resource budget, time window, units, admissible observation or evidence inputs, and policy for missing or unknown readings.
+4. Establish one exact `U.ClaimScope`, the relevant A.2.6 `U.ContextSlice` membership, effective `U.ReferenceScheme` and reference plane, evaluation window, input projections, resource budget, units, admissible observation or evidence inputs, and missing-or-unknown policy. Record their parity requirement in `parityFrameRef`; the parity-frame record does not replace those bindings.
 5. Choose eval scope: one criterion, coupled criteria, one Q-Bundle slice, a candidate portfolio, or a holistic use slice.
-6. Choose eval operations. Use measurement, simulation, benchmark, scenario walkthrough, monitor, review, or evidence audit according to the claim. Use `test` only when the eval operation is actually checking an expectation or hard constraint.
+6. Choose eval operations. Use measurement, simulation, benchmark, scenario walkthrough, monitor, review, or evidence audit according to the claim. Use `test` only when the intended operation checks an expectation or hard constraint. When evaluation actually occurs, identify the dated `U.Work`, any enacted Method or actual direct-owner/A.6.1 application binding, and the typed result separately; the program record itself does not run.
 7. Declare the result form: reading, band, rank, dominance relation, trade-off front, qualitative state, or evidence finding.
 8. Name proxy risk and protected counter-characteristics before the eval result can drive work. Optimize only the cycle's chosen indicators; keep the remaining protected characteristics visible as guardrails or risk signals.
 9. State the receiving use: `C.32` synthesis input, `C.32.MLAO` residual input, `E.23` improvement feedback, `A.19.CPM` comparison input, `A.19.SelectorMechanism` selection input, `C.11` choice input, input for publishing a selected set under `G.5`, or architecture-decision input for `C.32.PAD`.
@@ -64768,7 +65206,7 @@ Work in this order:
 
 ### C.32.ACE:6 - Kind and Receiving-Claim Boundary
 
-C.32.ACE governs architecture-characteristic eval-program construction and the kind boundary between criterion, eval operation, eval result, comparison input, selection input, and decision input. It does not govern starter characteristic selection, ACS scale-row construction, measurement validity, Q-Bundle normal form, candidate synthesis, comparison-policy design, final selection, local choice, publishing a selected set under `G.5`, or architecture decisions. Use `C.32.HCS`, `C.32.ACS`, `C.16`, `C.25`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or `C.32.PAD` when those claims are being made.
+C.32.ACE governs construction of the local architecture-characteristic eval-program record and the boundary among criterion, reusable evaluation Method, MethodDescription episteme, intended operation family, planned evaluation, actual dated evaluation Work, actual operation application, typed result, comparison input, selection input, and decision input. The local record admits no new U-kind. Use A.3.1, A.3.2, A.15.2, A.15.1, A.6.1, and the direct result owner when those neighboring claims are current. C.32.ACE does not govern starter characteristic selection, ACS scale-row construction, measurement validity, Q-Bundle normal form, candidate synthesis, comparison-policy design, final selection, local choice, publishing a selected set under `G.5`, or architecture decisions. Use `C.32.HCS`, `C.32.ACS`, `C.16`, `C.25`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, or `C.32.PAD` when those claims are being made.
 
 ### C.32.ACE:7 - Conformance requirements
 
@@ -64782,6 +65220,9 @@ C.32.ACE governs architecture-characteristic eval-program construction and the k
 | `CC-ACE-6` | Source-side "fitness function" wording is not used as the FPF object name in the record. |
 | `CC-ACE-7` | A check or test is admitted only as one eval operation when an expectation or hard constraint is being inspected. |
 | `CC-ACE-8` | The eval result does not select, decide, certify, or carry an architecture-adequacy claim by itself. |
+| `CC-ACE-9` | A project-local program names both `projectWorkOccurrenceRef` and `architectureEvalProgramProjectUseRelationRef`; the suffix or either reference alone asserts no locality. |
+| `CC-ACE-10` | The record separately identifies any reusable Method, MethodDescription, planned evaluation, dated evaluation Work, actual operation application, and typed result that the use needs; `evalOperation` or `resultForm` supplies none of those occurrences or identities. |
+| `CC-ACE-11` | Every actual evaluation use binds one exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, evaluation window, and input projections; `evalScope`, `runContext`, and `parityFrameRef` do not replace them. |
 
 ### C.32.ACE:8 - Common failures and repairs
 
@@ -64794,6 +65235,7 @@ C.32.ACE governs architecture-characteristic eval-program construction and the k
 | `ResultAsDecision` | A rank, score, pass, or dashboard reading selects the architecture. | Treat the result as source material for an A.10 evidence relation when an evidence claim is current, or as comparison input when comparison is current; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to `C.32.PAD`. |
 | `SingleIndicatorGoodhart` | Work improves one optimized indicator while an unmeasured architecture concern worsens. | Limit optimized indicators, add protected counter-characteristics, and open `E.13` when proxy-to-value drift appears. |
 | `LosingVariantAsError` | A candidate that lost a planned eval is recorded as a mistake. | Record it as a variant result unless an expectation caused unplanned rework; keep useful learning in the variant archive. |
+| `ProgramAsRunOrResult` | The ACE record is said to execute, measure, evaluate, or produce the result, or one generic `resultRef` hides the result kind. | Identify the actual system-performed dated Work, Method or operation application when current, and typed result under their direct owners; keep the ACE record as the evaluation framing record. |
 
 ### C.32.ACE:9 - Consequences
 
@@ -64821,23 +65263,23 @@ These rows document transfers from source practice into C.32.ACE. Keep a source 
 | `Software Architecture Metrics` (`https://www.oreilly.com/library/view/software-architecture-metrics/9781098112226/`) | Current practitioner source for metric categories and governance practice after quality goals are named. | Carry metric-cadence distinctions as eval-program fields, not as criteria rows. | ACE distinguishes scope, trigger mode, result form, run context, method refs, and refresh or retire condition. | A metric, dashboard, rank, or score is not a project criterion, selected architecture, or architecture decision. |
 | Ford, Richards, Sadalage, and Dehghani, `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`) | Mature practitioner source for objective definitions, trade-off analysis, and least-worst choices under competing characteristics. | Require declared criteria rows and protected counter-characteristics before synthesis, comparison, or selection uses eval results. | ACE rows carry proxy risk, protected counter-characteristics, and receiving use before result-driven action. | A better reading or rank does not authorize comparison, selection, choice, G.5 publication of a selected set, or decision by itself. |
 | Goodhart and proxy-risk line, plus current FPF `E.13` | Optimized proxies can detach from the declared architecture concern. | Keep proxy repair in E.13 while ACE records the risk before result use. | ACE requires proxy risk and protected counter-characteristics; proxy drift exits to `E.13`. | An eval result cannot replace the declared architecture concern. |
-| Current FPF `C.16`, `C.25`, `E.23`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, and `C.11` | Existing receiving patterns for measurement, Q-Bundles, repeated improvement, comparison, selection, publication of selected sets, and local choice. | Keep ACE as eval-program and eval-result boundary. | The relation table names C.16 for measurement validity, C.25 for composite quality, E.23 for improvement feedback, A.19.CPM for comparison, A.19.SelectorMechanism for set-returning selection, G.5 for publication of selected sets, and C.11 for local choice. | ACE does not validate measurement, define Q-Bundles, compare, select, publish a selected set under G.5, choose, or decide. |
+| Current FPF `C.16`, `C.25`, `E.23`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, and `C.11` | Existing receiving patterns for measurement, Q-Bundles, repeated improvement, comparison, selection, publication of selected sets, and local choice. | Keep ACE as the eval-program framing and typed-result dispatch boundary. | The relation table names C.16 for measurement validity and readings, C.25 for composite quality, E.23 for improvement feedback, A.19.CPM for comparison, A.19.SelectorMechanism for set-returning selection, G.5 for publication of selected sets, and C.11 for local choice; each actual typed result stays with its selected direct owner. | ACE does not validate measurement, own every eval result, define Q-Bundles, compare, select, publish a selected set under G.5, choose, or decide. |
 
 **Source-currentness boundary.** Use each source row only for the ACE eval-program field, result-use boundary, or refresh condition named in that row. Recheck the row when a named book edition, source presentation, FPF receiving pattern, metric practice, or evolutionary-architecture practice changes the transferred move. If the project wants criteria-row admission, measurement validity, Q-Bundle structure, explicit comparison, selection, publication of a selected set, local choice, evidence, assurance, or decision use, leave ACE and open the receiving pattern.
 
 ### C.32.ACE:12 - Relations
 
-- **Builds on:** `C.32.HCS`, `C.32.ACS`, `C.16`, `C.16.P`, `C.25`, `E.13`, `E.22`, `E.23`, and `A.19.CPM`.
+- **Builds on:** `C.32.HCS`, `C.32.ACS`, `C.16`, `C.16.P`, `C.25`, `A.2.6`, `A.19`, `E.13`, `E.22`, `E.23`, and `A.19.CPM`; coordinates with A.3.1, A.3.2, A.15.2, A.15.1, and A.6.1 only for separately current Method, MethodDescription, planned Work, dated Work, or operation-application claims.
 - **Receiving uses:** `C.32.P2S` actual-structure feedback and next-synthesis repair, `C.32` candidate synthesis, `C.32.MLAO` residual optimization, `C.32.CONWAY` correspondence frames, `C.32.FAIL` repair, `A.19.CPM` comparison, `A.19.SelectorMechanism` selection, `C.11` local choice, publication of a selected set under `G.5`, and architecture-decision work for `C.32.PAD`.
 - **Measurement boundary:** Use `C.16` when a reading, coordinate, unit, threshold, score, uncertainty, or cross-case comparability claim is made.
-- **Structural-information boundary:** `C.33`, `C.34`, and `C.35` can supply captured structure, lost structure, preservation adequacy, generated-carrier context, or discovered-carrier context for an eval only after `C.32.ACS`, `C.16`, or `C.25` has declared what is being evaluated. ACE remains eval-program and eval-result owner; `C.33`, `C.34`, and `C.35` do not define eval programs.
+- **Structural-information boundary:** `C.33`, `C.34`, and `C.35` can supply captured structure, lost structure, preservation adequacy, generated-carrier context, or discovered-carrier context for an eval only after `C.32.ACS`, `C.16`, or `C.25` has declared what is being evaluated. ACE owns the eval-program framing and dispatches each actual typed result to its direct measurement, comparison, evaluation, or assertion owner; `C.33`, `C.34`, and `C.35` do not define eval programs.
 - **Q-Bundle boundary:** Use `C.25` when the evaluated item is a composite quality family.
 - **Test boundary:** Use `test` only as an eval operation for a declared expectation or hard constraint. Error recognition and architecture-synthesis repair use `C.32.FAIL`; non-architecture defects use the local defect-governing pattern.
-- **Decision boundary:** ACE can produce readings, ranks, dominance relations, trade-off-front descriptions, and source material for an A.10 evidence relation when an evidence claim is current. Explicit comparison, set-returning selection, local choice, publication of a selected set, and project architecture decision belong to `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, and `C.32.PAD`.
+- **Decision boundary:** An evaluation framed by an ACE record may reference separately governed readings, ranks, dominance relations, trade-off-front descriptions, and other typed results. When such a result is current, separately identify the admitted System, dated evaluation Work, applicable operation application, and selected direct measurement, comparison, evaluation, or assertion owner for that exact result. A separately governed result may serve as source material for an A.10 evidence relation when an evidence claim is current. Explicit comparison, set-returning selection, local choice, publication of a selected set, and project architecture decision belong to `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, and `C.32.PAD`.
 
 ### C.32.ACE:13 - Footer marker
 
-C.32.ACE closes when the eval program names evaluated criteria, evaluated candidates or structures, parity frame, eval purpose, scope, eval operation, trigger mode, result form, method refs, proxy risks, protected counter-characteristics, receiving use, and refresh or retire condition.
+C.32.ACE closes when the eval program names evaluated criteria, evaluated candidates or structures, exact claim scope and selected context slices, effective reference scheme and plane, evaluation window and input projections, parity frame, eval purpose, scope, intended eval operation, trigger mode, result form, method refs, proxy risks, protected counter-characteristics, receiving use, and refresh or retire condition; when actual evaluation is claimed, its dated Work, direct method or operation-application binding, and typed result remain separately identified.
 
 ### C.32.ACE:End
 
@@ -64852,11 +65294,11 @@ C.32.ACE closes when the eval program names evaluated criteria, evaluated candid
 
 ### C.32.CONWAY:1 - Problem frame
 
-Use this pattern when one architecture, selected structure, Work arrangement, communication structure, constraint, or candidate-synthesis result influences the candidate architecture of a changed referent, and the practitioner must decide what to change on either side without mistaking influence for action.
+Use this pattern when one architecture-side source — recovered as an exact described holon, selected `U.Structure`, and either an obtaining C.30 `ArchitectureRelation` or truthful modal `ArchitectureClaim` — or another independently typed Work arrangement, communication structure, constraint, or candidate-synthesis result influences the candidate architecture of a changed referent, and the practitioner must decide what to change on either side without mistaking influence for action.
 
 Plain cue: **compare an architecture that influences the change with the architecture being changed**.
 
-Primary working reader: an architect or architecture-responsible practitioner who must compare one independently typed influence source with the architecture of the changed referent and prepare candidate changes without turning either architecture into an actor.
+Primary working reader: an architect or architecture-responsible practitioner who must compare one independently typed influence source with the current or modal architecture content of the changed referent and prepare candidate changes without turning an `ArchitectureRelation`, selected structure, claim, or architecture-bearing holon into an actor.
 
 Typical entry situations include:
 
@@ -64871,9 +65313,9 @@ A clean-looking target architecture can still be unbuildable or unproducible, un
 
 Start with the domain action: a manufacturing system builds a product, a compiler compiles a program, a service team changes a service, a clinical team treats a patient, or an instructional system teaches a learner. Identify the changed referent first. Only then name an acting system, role assignment, and dated Work when those facts are current. Separately name the architecture or other source that influences the candidate and the exact relation by which it does so.
 
-**First-minute use slice.** A product-family team wants independently replaceable field modules. It identifies the changed referent as the product-family module boundary, the source as one `ArchitectureOf@ManufacturingAndCertification` with a batch line and shared evidence responsibility, and the transformed side as `ArchitectureOf@ProductFamily` with its current field-module boundary structure. No direct architecture-influence kind or predicate has yet been recovered, so the team keeps the pairing as a provisional independent-change pressure with `missing-governor`. It prepares source-side, transformed-side, joint, and bounded-mismatch candidates without naming an actor, role, or Work occurrence. Those facts are added separately only if a later claim needs them.
+**First-minute use slice.** A product-family team wants independently replaceable field modules. It identifies the changed referent as `ProductFamilyFieldModuleBoundary@2026Q3`. The influence side is the obtaining C.30 `ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)`; the transformed side is the obtaining C.30 `ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)`. The exact holons and selected `U.Structure` participants remain visible, and any desired replacement structure stays only in a separate `ArchitectureClaim`. No direct architecture-influence kind or predicate has yet been recovered, so the team keeps the pairing as a provisional independent-change pressure with `missing-governor`. It prepares source-side, transformed-side, joint, and bounded-mismatch candidates without naming an actor, role, Work occurrence, or actual transformation. Those facts are added separately only if a later claim needs them.
 
-The primary working object is a local candidate-synthesis frame. When one exact architecture-influence or correspondence relation already obtains, C.32.CONWAY also owns one reusable `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` episteme about that exact occurrence. The frame, row, changing system, Work, changed referent, architecture claims, candidate palette, and any network that later cites the row remain different objects.
+The primary working object is a local candidate-synthesis frame. It can pair actual architecture sides through exact obtaining C.30 `ArchitectureRelation` refs or carry candidate, required, desired, or expected structure only through separately identified `ArchitectureClaim` refs. When one exact architecture-influence or correspondence relation already obtains between two actual architecture sides, C.32.CONWAY also owns one reusable `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` episteme about that exact occurrence. The frame, row, architecture relations, claims, selected structures, changing system, Work, actual transformation, changed referent, candidate palette, and any network that later cites the row remain different objects.
 
 What goes wrong if this pattern is missed: an architecture, organization chart, method family, toolchain, communication structure, or network record is called the transformer and silently receives agency, role, Work, or participation in the change. Or the reverse happens: real performer and Work facts disappear behind a vague claim that one architecture shaped another.
 
@@ -64881,10 +65323,10 @@ What this buys in practice: the practitioner can prepare architecture candidates
 
 Ordinary working move:
 
-1. name the changed referent and exact changing relation when one is being claimed;
+1. name the changed referent and, only when actual change is claimed, the independently admitted `U.Transformation`; keep every actor-side or Work-to-change relation separate;
 2. name exact acting and performance facts only when current;
 3. name each influence source with its kind and direct influence relation;
-4. select one pair consisting of an influence-source architecture and a transformed architecture;
+4. for an exact reusable row, select one pair of obtaining C.30 `ArchitectureRelation` occurrences and keep each holon and selected-structure participant visible; when either side is only candidate, required, desired, or expected, keep the pair in the frame with its exact `ArchitectureClaim` instead;
 5. prepare source-side change, transformed-side change, joint change, or bounded mismatch candidates.
 
 Adoption test: a reader can tell which exact case passes, which does not, what the practitioner changes next, and whether the result is only local synthesis material or a reusable exact pair row.
@@ -64894,7 +65336,7 @@ Not this pattern when the current work is only bounded-change identification, ro
 Common exits by claim kind:
 
 - `A.3.4` or `A.3.4.P` for the bounded change and changed referent.
-- `A.12`, `A.15.1`, and direct role-relation and Work-relation owners for acting system, role assignment, dated Work, and work-to-change facts.
+- `A.12` for acting-side externalization, `A.2.1` for the exact role-assignment occurrence, `A.15.1` for dated Work and distributed performers, `F.6` for `performedUnderAssignment(W, RA)` and its actual-performer projection, and direct actor-side or Work-to-change owners for the relation needed by the current use.
 - `A.6.M` for module-interface repair.
 - `C.32.ACS` for current architecture-characteristic criteria rows and `C.25` for any composite Q-Bundle and exact slot used by the trade-off.
 - `C.29` and the project-selected structural-equivalence pattern for structural similarity.
@@ -64904,7 +65346,7 @@ Common exits by claim kind:
 
 The first useful output is `ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project`. It is a working record for candidate synthesis, not an acting entity, exact relation occurrence, architecture decision, or structural-equivalence claim.
 
-For a first pass, fill only the bounded context, synthesis question, independently identified changed referent, source and transformed architecture refs, one selected structure on each side, either the current governed characteristic refs or plain provisional characteristic heads, the applicable candidate-form heads, and the next governing pattern. Assert an influence row only when its direct relation is current; otherwise keep one explicit provisional pressure in `provisionalArchitectureCharacteristicHeads[]` and its exact return. The first-minute case above can be filled as follows:
+For a first pass, fill only the bounded context, synthesis question, independently identified changed referent, source-side and transformed-side exact holon and selected-structure refs, and either an obtaining C.30 `ArchitectureRelation` ref or a truthful modal `ArchitectureClaim` ref for each side, together with governed characteristic refs or plain provisional heads, applicable candidate-form heads, and the next governing pattern. Assert an influence row only when its direct relation is current and both architecture sides are obtaining C.30 occurrences; otherwise keep one explicit provisional pressure in `provisionalArchitectureCharacteristicHeads[]` and its exact return. The first-minute case above can be filled as follows:
 
 ```text
 ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
@@ -64912,25 +65354,28 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   synthesisQuestion: which source-side, product-side, joint, or bounded-mismatch change can support independently replaceable field modules?
   changedReferentRef: ProductFamilyFieldModuleBoundary@2026Q3
   influenceSourceSelectedStructureMap[]:
-    - influenceSourceArchitectureRef: ArchitectureOf@ManufacturingAndCertification
+    - influenceSourceHolonRef: ManufacturingCertificationSystem@Plant-A
+      influenceSourceArchitectureRelationRef: C.30 ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)
+      influenceSourceArchitectureClaimRef?: omitted — the obtaining relation and current structure are enough for this use
       structureKindRef: BatchAndEvidenceResponsibilityStructure
       selectedStructureRef: BatchLineSharedEvidenceStructure@Current
       contributionToCandidatePressure: may prevent independent field-module replacement
       architectureCharacteristicPressure: provisional independent-change pressure
-      governingPatternRef: A.22
+      governingPatternRef: C.30 plus A.22
       sourceReturnCondition: missing-governor — recover the direct architecture-influence kind and predicate
-  transformedArchitectureRef: ArchitectureOf@ProductFamily
   transformedHolonRef: ProductFamily@Current
+  transformedArchitectureRelationRef: C.30 ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)
+  transformedArchitectureClaimRef?: omitted — the obtaining relation and current structure are enough for this use
   transformedSelectedStructureMap[]:
     - structureKindRef: ModuleBoundaryStructure
       selectedStructureRef: FieldModuleBoundaryStructure@Current
       requiredArchitectureRole: permit independent field-module replacement
       architectureCharacteristicPressure: provisional independent-change pressure
-      governingPatternRef: A.22
+      governingPatternRef: C.30 plus A.22
   correspondenceClaims[]:
     - correspondenceId: BatchEvidence-to-FieldModulePressure
-      influenceSourceArchitectureRef: ArchitectureOf@ManufacturingAndCertification
-      transformedArchitectureRef: ArchitectureOf@ProductFamily
+      influenceSourceArchitectureRelationRef: C.30 ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)
+      transformedArchitectureRelationRef: C.30 ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)
       influenceSourceSelectedStructureRef: BatchLineSharedEvidenceStructure@Current
       transformedSelectedStructureRef: FieldModuleBoundaryStructure@Current
       correspondenceUse: prepare candidates; no exact pair row asserted
@@ -64956,12 +65401,12 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   boundedContextRef:
   synthesisQuestion:
   changedReferentRef:
-  exactChangingRelationRef?: separately governed U.RelationRef
+  actualTransformationRef?: U.EntityRef constrained to U.Transformation, only when A.3.4 independently admits the bounded change of changedReferentRef
   performerRows[]?:
-    actingSystemRef: U.SystemRef
-    roleAssignmentRef?: U.RoleAssignmentRef, required when a role is claimed
-    workOccurrenceRef?: U.WorkRef, required when performance is claimed
-    performedUnderAssignmentRelationRef?: U.RelationRef, required with workOccurrenceRef
+    actingSystemRef: U.EntityRef constrained to U.System; for performance, this must equal roleAssignmentRef.HolderSystemSlot
+    roleAssignmentRef?: U.EntityRef constrained to U.RoleAssignment, required when a role is claimed and whenever performance is attributed under assignment
+    workOccurrenceRef?: U.EntityRef constrained to U.Work, required when performance is claimed
+    performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, required with workOccurrenceRef
     actorSideOrWorkToChangeRelationRefs[]: exact U.RelationRef values required by the current claim
   influenceSourceRows[]?: asserted influence facts only
     influenceSourceRef:
@@ -64969,15 +65414,18 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     exactInfluenceRelationRef: U.RelationRef
     influenceGoverningPatternRef:
   influenceSourceSelectedStructureMap[]?:
-    influenceSourceArchitectureRef?: ArchitectureOf@Context
+    influenceSourceHolonRef:
+    influenceSourceArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
+    influenceSourceArchitectureClaimRef?: exact C.30 ArchitectureClaimRef for actual, candidate, required, desired, or expected content not carried by an obtaining relation
     structureKindRef:
     selectedStructureRef:
     contributionToCandidatePressure:
     architectureCharacteristicPressure:
     governingPatternRef:
     sourceReturnCondition?:
-  transformedArchitectureRef: ArchitectureOf@Context
-  transformedHolonRef: transformedArchitectureRef.describedHolonRef
+  transformedHolonRef:
+  transformedArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
+  transformedArchitectureClaimRef?: exact C.30 ArchitectureClaimRef for actual, candidate, required, desired, or expected content not carried by an obtaining relation
   transformedSelectedStructureMap[]:
     structureKindRef:
     selectedStructureRef?:
@@ -64989,8 +65437,10 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   architecturePairRowRefs[]?: ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context refs
   correspondenceClaims[]?: synthesis-local compound claims that have not yet met the exact-row assertion threshold
     correspondenceId:
-    influenceSourceArchitectureRef?:
-    transformedArchitectureRef:
+    influenceSourceArchitectureRelationRef?:
+    influenceSourceArchitectureClaimRef?:
+    transformedArchitectureRelationRef?:
+    transformedArchitectureClaimRef?:
     influenceSourceSelectedStructureRef?:
     transformedSelectedStructureRef:
     correspondenceUse:
@@ -65018,7 +65468,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   nextGoverningPatternRef:
 ```
 
-The two project-use fields are unchanged. `@Project` remains a compatibility and retrieval cue only. If the frame is used in one actual project, `projectWorkOccurrenceRef` names the exact composite `U.Work` and `architectureCorrespondenceFrameProjectUseRelationRef` names the direct relation by which that Work uses the frame. The frame, synthesis Work, candidates, architecture claims, and project Work remain distinct.
+Project-local use keeps two separate fields. `@Project` remains a compatibility and retrieval cue only. If the frame is used in one actual project, `projectWorkOccurrenceRef` names the exact composite `U.Work` and `architectureCorrespondenceFrameProjectUseRelationRef` names the direct relation by which that Work uses the frame. The frame, synthesis Work, candidates, architecture relations, claims, selected structures, and project Work remain distinct. An `ArchitectureRelation` ref is affirmative only for an independently obtaining C.30 occurrence; candidate, required, desired, or expected architecture content stays in an `ArchitectureClaim` and cannot enter an exact pair row as though it already obtained.
 
 `TransformerTransformedArchitectureCorrespondenceFrame@Project` and the former title “Transformer and Transformed Architecture Correspondence” are lineage and search cues only. They do not name the current Tech object, make any named value an actor, or establish an actor, role, Work, or participation fact.
 
@@ -65047,10 +65497,10 @@ Build the local synthesis frame first. Admit a relation kind only through its re
 
 #### C.32.CONWAY:4.1 - Keep acting, influence, and correspondence facts separate
 
-1. **Name the domain action and changed referent.** Identify `changedReferentRef` independently. Add `exactChangingRelationRef` only under its direct governor; architecture influence does not identify the change.
-2. **Add acting and performance facts only when claimed.** Every actor or performer is one exact `U.System`. A claimed role requires an obtaining `U.RoleAssignment`. Claimed performance requires one exact dated `U.Work`, `performedUnderAssignment(W, RA)`, and `S = RA.HolderSystemSlot`, plus the exact actor-side or work-to-change relation needed by the claim. Use A.15.1 multiple-performer forms when several systems perform.
+1. **Name the domain action and changed referent.** Identify `changedReferentRef` independently. Add `actualTransformationRef` only when A.3.4 independently admits one bounded change of that same continuing referent; keep actor-side and Work-to-change relations under their direct owners. Architecture influence identifies none of those facts.
+2. **Add acting and performance facts only when claimed.** Every actor or performer is one exact `U.System`. A claimed role requires an obtaining `U.RoleAssignment` under A.2.1. Claimed performance requires one exact dated `U.Work`, the exact F.6 occurrence `performedUnderAssignment(W, RA)`, and `S = RA.HolderSystemSlot`, plus the exact actor-side or Work-to-change relation needed by the claim. Use A.15.1 `CC-A15.1-17` when several systems jointly perform the top-level Work or when the use instead needs a parent Work with separately performed child occurrences.
 3. **Name every influence source by kind.** Architecture, selected structure, Work, communication, constraint, and candidate-synthesis results retain their kinds and direct influence relations. Influence alone supplies no system identity, role, Work, performer status, changed-referent identity, or transformation participation.
-4. **Select one architecture pair.** Name one exact influence-source `ArchitectureOf@Context` and one exact transformed-holon `ArchitectureOf@Context`. Their described holons may differ from every acting system. Record equality only when independent actor and architecture-bearer facts establish it.
+4. **Select one architecture pair.** For an exact row, name one obtaining influence-source C.30 `ArchitectureRelation` and one obtaining transformed-side C.30 `ArchitectureRelation`, with each exact holon and selected-`U.Structure` participant. Their architecture-bearing holons may differ from every acting system. Record equality only when independent actor and architecture-bearer facts establish it. If either side is only candidate, required, desired, or expected, keep its exact `ArchitectureClaim` and the pair in the synthesis frame; do not assert an exact pair row.
 5. **Map only structures and characteristics that change the candidate.** Name the source-side selected structure, transformed-side selected structure, expected gain, known loss, evolution window, receiving pattern, and source-return condition. For each affected characteristic, reference only the few current `C.32.ACS` criteria rows and any declared `C.25` Q-Bundle slots that make this trade-off real.
 6. **Prepare four candidate forms.** Change the influence-source side, change the transformed architecture, change both, or keep a bounded mismatch with an explicit cost and reopen trigger.
 7. **Use C.29 only for structural-similarity claims.** A correspondence row does not establish homomorphism, equivalence, or architecture adequacy.
@@ -65063,42 +65513,47 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context <: U.Epist
   entityOfConcernRef: exactArchitectureInfluenceOrCorrespondenceRelationOccurrenceRef
   entityOfConcernKindRef: exactArchitectureInfluenceOrCorrespondenceRelationKindRef
   governingPatternRef: direct owner of that exact relation kind and occurrence
-  influenceSourceArchitectureRef: one exact ArchitectureOf@Context
-  influenceSourceHolonRef: describedHolonRef of influenceSourceArchitectureRef
-  transformedArchitectureRef: one exact ArchitectureOf@Context
-  transformedHolonRef: describedHolonRef of transformedArchitectureRef
-  influenceSourceSelectedStructureRef: U.StructureRef
-  transformedSelectedStructureRef: U.StructureRef
+  influenceSourceArchitectureRelationRef: one exact obtaining C.30 ArchitectureRelation
+  influenceSourceHolonRef: the exact architectureBearingHolonRef participant of influenceSourceArchitectureRelationRef
+  influenceSourceSelectedStructureRef: the exact selectedArchitectureStructureRef participant of influenceSourceArchitectureRelationRef
+  influenceSourceArchitectureClaimRef?: exact C.30 ArchitectureClaimRef when the current use also needs claim content about that same holon, relation, or structure
+  transformedArchitectureRelationRef: one exact obtaining C.30 ArchitectureRelation
+  transformedHolonRef: the exact architectureBearingHolonRef participant of transformedArchitectureRelationRef
+  transformedSelectedStructureRef: the exact selectedArchitectureStructureRef participant of transformedArchitectureRelationRef
+  transformedArchitectureClaimRef?: exact C.30 ArchitectureClaimRef when the current use also needs claim content about that same holon, relation, or structure
   changedReferentRef: exact independently identified referent of the current change
-  exactChangingRelationRef?: U.RelationRef, separately governed
+  actualTransformationRef?: U.EntityRef constrained to U.Transformation, only when A.3.4 independently admits the bounded change of changedReferentRef
   performerRows[]?:
-    actingSystemRef: U.SystemRef
-    roleAssignmentRef?: U.RoleAssignmentRef, required when a role is claimed
-    workOccurrenceRef?: U.WorkRef, required when performance is claimed
-    performedUnderAssignmentRelationRef?: U.RelationRef, required with workOccurrenceRef
+    actingSystemRef: U.EntityRef constrained to U.System; for performance, this must equal roleAssignmentRef.HolderSystemSlot
+    roleAssignmentRef?: U.EntityRef constrained to U.RoleAssignment, required when a role is claimed and whenever performance is attributed under assignment
+    workOccurrenceRef?: U.EntityRef constrained to U.Work, required when performance is claimed
+    performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, required with workOccurrenceRef
     actorSideOrWorkToChangeRelationRefs[]: U.RelationRef
   additionalInfluenceSourceRows[]?:
-    influenceSourceRef
-    influenceSourceKindRef
+    influenceSourceRef:
+    influenceSourceKindRef:
     exactInfluenceRelationRef: U.RelationRef
-    influenceGoverningPatternRef
+    influenceGoverningPatternRef:
   affectedArchitectureCharacteristicRefs[]: current C.32.ACS criteria-row refs; exact C.25 Q-Bundle slot refs when composite
-  evolutionWindowRef
-  correspondenceUse
-  expectedArchitectureGain
-  knownArchitectureLoss
-  receivingPatternRef
-  sourceReturnCondition
+  evolutionWindowRef:
+  correspondenceUse:
+  expectedArchitectureGain:
+  knownArchitectureLoss:
+  receivingPatternRef:
+  sourceReturnCondition:
   networkCrossFlowRelationRowRef?: E.18.NET NetworkCrossFlowRelationRowRef
 ```
 
-The row is a `U.Episteme` about one already obtaining relation. It neither creates that occurrence nor mints a universal Conway relation. The occurrence keeps its identity under its direct relation owner and A.6.REL; this row only describes it for the current correspondence use. `entityOfConcernRef`, its kind, its governor, both architectures, their selected structures, and the changed referent are required. If the practitioner has only a useful local compound correspondence claim, keep it in the frame for candidate synthesis. Assert the row only after the admitted relation kind's direct predicate is applicable and current facts satisfy it affirmatively. If the predicate is false, assert no row; if facts are unresolved, keep the frame and name that boundary; if the kind/predicate is absent, return `missing-governor`. None of these branches permits inferring a relation from two architectures.
+The row is a `U.Episteme` about one already obtaining direct influence or correspondence relation whose exact participants include the two obtaining C.30 architecture-relation occurrences required by this use. Because those occurrences fill participant positions of another relation, each is explicitly individuated under A.6.REL for this receiving use. The row neither creates the influence occurrence nor mints a universal Conway relation. Each C.30 occurrence keeps its exact holon and selected-`U.Structure` participants; the influence occurrence keeps its identity under its direct relation owner and A.6.REL. This row only describes them for the current correspondence use. `entityOfConcernRef`, its kind, its governor, both C.30 occurrences and their participant pairs, and the changed referent are required. If the practitioner has only a useful local compound correspondence claim, or either architecture side is modal rather than obtaining, keep it in the frame for candidate synthesis. Assert the row only after the admitted influence relation kind's direct predicate is applicable and current facts satisfy it affirmatively. If the predicate is false, assert no row; if facts are unresolved, keep the frame and name that boundary; if the kind or predicate is absent, return `missing-governor`. None of these branches permits inferring a relation from two architecture claims, structures, diagrams, or names.
 
 #### C.32.CONWAY:4.3 - Qualified network reading
 
 The same exact pair row may appear in `architectureCorrespondenceRowRefs[]` of several `TransformationFlowStructureNetworkRecord@Context` values while its pair, relation occurrence, evolution window, correspondence use, and claim scope remain current. Each citation contributes only one qualified architecture reading. The row's optional singular `networkCrossFlowRelationRowRef`, when present, qualifies only the exact current record edition named by that locator; it does not qualify the row's citations from other records. No citation makes the pair row the network, adds a member, or satisfies the network's exact cross-flow-relation discriminator.
 
-Set `networkCrossFlowRelationRowRef` only when the row's exact relation participants are independently grounded in member-flow positions and its `transformationFlowStructureNetworkRecordRef` names the same exact current record whose `architectureCorrespondenceRowRefs[]` citation this mapping is intended to qualify. Resolve that record first, then require exactly one `crossFlowRelationRow` to match the occurrence and complete ordered endpoint-binding identity. That row must preserve the same kind, governor, participant order, endpoints, and bindings as this correspondence row. Zero or several matches, a different record, or a stale record edition leaves the locator unresolved. Do not reuse one locator to qualify another record's citation. A record citation alone infers none of those facts. Actor, role, Work, changing relation, influence relation, and network cross-flow relation remain separately governed even when one case cites all of them.
+Set `networkCrossFlowRelationRowRef` only when the pair row's exact influence occurrence and architecture-relation participants are independently grounded in member-flow positions and the locator's `transformationFlowStructureNetworkRecordRef` names the same exact current record whose `architectureCorrespondenceRowRefs[]` citation this mapping is intended to qualify. Resolve that record first, then require exactly one `crossFlowRelationRow` to match the occurrence and complete ordered endpoint-binding identity. That row must preserve the same kind, governor, participant order, endpoints, and bindings as this correspondence row. Zero or several matches, a different record, or a stale record edition leaves the locator unresolved. Do not reuse one locator to qualify another record's citation. A record citation alone infers none of those facts.
+
+Actor, role assignment, F.6 attribution, Work, actual transformation, actor-side or Work-to-change relation, influence relation, and network cross-flow relation remain separately governed even when one case cites all of them.
+
 
 #### C.32.CONWAY:4.4 - Candidate moves and repair rows
 
@@ -65108,8 +65563,8 @@ Choose only pressures that change the candidate or protect against a concrete lo
 
 | Correspondence repair row | Use | Minimum repair against overread |
 |---|---|---|
-| `changedReferentRecovery` | The story names a team, line, tool, method, or organization but not what changes. | Identify the changed referent and direct changing relation before making actor or architecture claims. |
-| `performerRecovery` | A source is said to build, design, repair, or operate. | Name the exact system, role assignment when claimed, dated Work when performance is claimed, `performedUnderAssignment`, and direct actor-side or work-to-change relations. |
+| `changedReferentRecovery` | The story names a team, line, tool, method, or organization but not what changes. | Identify the exact continuing changed referent; when actual change is asserted, identify its A.3.4 `U.Transformation`; keep actor-side and Work-to-change relations separately governed. |
+| `performerRecovery` | A source is said to build, design, repair, or operate. | Name the exact `U.System`, exact A.2.1 assignment, dated `U.Work`, F.6 `performedUnderAssignment` occurrence and holder equality, and direct actor-side or Work-to-change relations; use A.15.1 `CC-A15.1-17` when several systems perform. |
 | `influenceSourceRecovery` | An architecture or structure is said to shape a candidate. | Name its exact kind and direct influence relation; otherwise keep it as a candidate cue. |
 | `architecturePairRecovery` | Two architectures are compared or linked. | Apply the direct relation owner. With no kind/predicate, return `missing-governor`; with unresolved facts, keep the pair synthesis-local and name the missing grounding; with a false predicate, assert no occurrence; with a satisfied predicate, name the exact obtaining occurrence and pair. |
 | `inverseConwayRetargeting` | The desired transformed architecture is sound, but the current source-side arrangement cannot sustain it. | Change selected influence-source structures and record migration cost, new burden, and stop condition. |
@@ -65119,18 +65574,25 @@ Choose only pressures that change the candidate or protect against a concrete lo
 
 **Stop condition.** A first-pass frame may stop when it names the changed referent, separately typed source and transformed architectures, one selected structure on each side, either governed affected-characteristic refs or visibly provisional heads with their exact return, the applicable candidate-form heads, and the next governing pattern. Every acting, performance, or influence fact that is asserted must already have its direct basis. Before a candidate enters comparison or reliance, complete its source-side change, transformed-side change, expected gain, known loss, evolution window, receiving pattern, source-return condition, and stop. An exact pair row additionally requires its direct relation predicate to be satisfied and its obtaining occurrence to be identified. A provisional pressure stays in `correspondenceClaims[]` with the exact reason visible: missing governor, unresolved grounding or information sufficiency, or a false predicate.
 
-**Lowering condition.** Lower an exact row to synthesis-local correspondence material when its relation occurrence, architecture pair, selected structures, changed referent, evolution window, or receiving use is missing or stale. Retire a candidate when its source-side change, transformed-side change, bounded mismatch, or known loss no longer belongs to the declared evolution window. Return to A.3.4 or E.18 when the changed referent or flow relation is not recovered, to A.12 and A.15.1 when the issue is actor or Work attribution, and to C.29 when the current claim is structural similarity or preservation.
+**Lowering condition.** Lower an exact row to synthesis-local correspondence material when its influence occurrence, either C.30 architecture-relation occurrence or participant pair, changed referent, evolution window, or receiving use is missing or stale. Retire a candidate when its source-side change, transformed-side change, bounded mismatch, or known loss no longer belongs to the declared evolution window. Return to A.3.4 or E.18 when the actual transformation, changed referent, or flow relation is not recovered; to A.12, A.2.1, A.15.1, and F.6 when the issue is acting side, assignment, Work, or attribution; and to C.29 when the current claim is structural similarity or preservation.
 
 ### C.32.CONWAY:5 - Worked Correspondence Cases
 
 | Grounded working case | Acting and performance facts | Influence-source and architecture-pair facts | Candidate work | Stop or return |
 |---|---|---|---|---|
-| Product family and manufacturing system | The product referent and bounded change are identified independently. The admitted manufacturing system performs exact dated production Work under its role assignment; production and work-to-change relations state its participation without creating the referent or change. | `ArchitectureOf@ManufacturingAndCertification` and its batch/evidence structures influence `ArchitectureOf@ProductFamily` through one direct project predicate satisfied by current facts and its exact obtaining occurrence. The architecture bearer is not inferred to be the performer. | Prepare manufacturing-cell change, product-module split, joint change, and bounded batch exception. | Stop at candidate preparation. Route product choice or architecture decision to `C.11` or `C.32.PAD`; factory Work authorization to its direct Work/governance owner or an `A.20`/`A.21` gate; and certification evidence or assurance to `A.10` or `B.3`. |
+| Product family and manufacturing system | The product referent and bounded A.3.4 transformation are identified independently when actual change is claimed. The admitted manufacturing and certification systems jointly perform exact dated architecturing Work under their own assignments; both F.6 attributions and the direct Work-to-change relation state participation without creating the referent or transformation. | One obtaining C.30 `ArchitectureRelation` connects the manufacturing-and-certification holon to its batch/evidence structure; another connects the product-family holon to its current field-module structure. A Plant-A domain pattern directly governs one satisfied influence predicate between those exact occurrences. Neither architecture-bearing holon nor architecture relation is inferred to be a performer. | Prepare manufacturing-cell change, product-module split, joint change, and bounded batch exception. | Stop at candidate preparation. Route product choice or architecture decision to `C.11` or `C.32.PAD`; factory Work authorization to its direct Work/governance owner or an `A.20`/`A.21` gate; and certification evidence or assurance to `A.10` or `B.3`. |
 | Organization designing and operating a service platform | Each acting team or organization is used only through its admitted exact `U.System` identity; dated design or operations Work and role assignments are named only for the actions claimed. | Communication, deployment, test, and approval structures influence one service-platform architecture pair through their direct relations. | Prepare team-responsibility change, test-responsibility change, service-boundary change, platform mediation, or bounded coordination cost. | Stop before an organization-redesign decision or authority claim; return it to the direct organization-governance owner. Route selected-set publication to `G.5` and an architecture decision to `C.32.PAD`. |
 | Review method influencing authored work products | The method description does not act. When review is performed, name the reviewer system, role assignment, dated Work, and exact work-to-change relation. | The review-method or evidence structure influences the authored-section architecture through its exact method-use, evidence-scope, or project influence relation. | Add an exception role and evidence scope, change the method step, change the work-product structure, or reject the automation candidate. | Stop before method governance or publication-face use; return to the direct method-governance pattern and to `E.17` or `G.5` when publication is current. |
 | Instructional system changing learner capability | Each instructor or instructional organization is used as an actor only through an admitted exact `U.System` identity; dated teaching Work and role assignment are named when performance is claimed. | Curriculum, feedback, and evidence structures influence the architecture claim about the changed learner-capability referent; they do not become the learner or the performer by influence. | Prepare curriculum, feedback-role, evidence-scope, or bounded-cohort candidates. | Stop before educational policy, evidence-sufficiency, or ethical-mediation claims; return them to the direct policy owner, `A.10`, or `D.4` respectively. |
 | AI-agent toolchain changing project work products | An admitted execution system and exact tool-call or authoring Work carry any action claim. | Toolchain control and evidence-refresh structures influence the transformed work-product architecture through exact relations; the toolchain architecture itself does not act. | Add supervision and refresh, change task decomposition, or keep bounded autonomy with source return. | Stop before safety, gate or release, or assurance claims; return them to the direct safety owner, `A.20`/`A.21`, or `B.3` respectively. |
-**Network-qualified reading.** A product-development TFS and a production-system-change TFS participate in one selected E.18.NET-conforming network. A current architecture pair row about manufacturing-architecture influence may be cited by the network record alongside a separately grounded obtaining production or project occurrence. If the pair row also carries `networkCrossFlowRelationRowRef`, that locator names this same exact current record edition and resolves exactly one matching row; it qualifies no citation from another record. The pair row remains one reading of one exact architecture pair. It is neither the network nor proof that the architecture-influence occurrence is the cross-flow occurrence.
+**Exact positive, distributed-performer, and network-local slice.** In one Plant-A domain framework, `PlantArchitectureInfluenceRelations-v3` directly governs `BatchEvidenceArchitectureConstrainsModuleArchitecture(sourceArchitectureRelation, transformedArchitectureRelation, evolutionWindow)`. Its first participant is the obtaining C.30 `ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)`; its second is the obtaining C.30 `ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)`. Both occurrences are explicitly individuated under A.6.REL because this domain predicate uses them as participants. Plant-A facts satisfy that predicate over `ProductFamilyModuleChange@2026Q3`, so `BatchEvidenceConstrainsFieldModules-17` is the exact obtaining influence occurrence and the EntityOfConcern of `BatchEvidence-to-FieldModules-Row-17`. This case-local predicate and occurrence do not mint a universal Conway relation.
+
+The changed referent is independently identified as `ProductFamilyFieldModuleBoundary@2026Q3`. When the same case also claims actual change, A.3.4 independently identifies `FieldModuleBoundaryTransformation-17 : U.Transformation`. `ModuleTransitionArchitecturingWork-17 : U.Work` has the closed extent `2026-07-14T09:00:00+03:00` to `2026-07-16T18:00:00+03:00`, enacts `ModuleTransitionArchitecturingMethod-v3`, and obtains under `executedWithin(ModuleTransitionArchitecturingWork-17, ProductFamilyEngineeringSystem-A)` for admitted `ProductFamilyEngineeringSystem-A : U.System`. Two admitted systems jointly perform that top-level Work. `ManufacturingArchitectureAssignment-17 : U.RoleAssignment` has the fixed A.2.1 participants `<ManufacturingArchitectureTeam-A : U.System, ManufacturingArchitectureRole, PlantArchitectureRoles-v3, Plant-A-Role-Scheme-v3>`; `CertificationArchitectureAssignment-17 : U.RoleAssignment` has `<CertificationArchitectureTeam-A : U.System, CertificationArchitectureRole, PlantArchitectureRoles-v3, Plant-A-Role-Scheme-v3>`. Each assignment predicate obtains continuously over and covers the full Work extent. F.6 occurrences `performedUnderAssignment(ModuleTransitionArchitecturingWork-17, ManufacturingArchitectureAssignment-17)` and `performedUnderAssignment(ModuleTransitionArchitecturingWork-17, CertificationArchitectureAssignment-17)` obtain, and each actual performer equals its assignment's `HolderSystemSlot`. The Plant-A domain predicate `ArchitecturingWorkChangesModuleBoundary(ModuleTransitionArchitecturingWork-17, FieldModuleBoundaryTransformation-17)` supplies the separately governed Work-to-change fact. This is the A.15.1 `CC-A15.1-17` joint-performer form; neither a lead assignment nor the architecture pair substitutes for either performer.
+
+`ProductDevelopmentNetworkRecord-2026Q3` may cite `BatchEvidence-to-FieldModules-Row-17` once in `architectureCorrespondenceRowRefs[]`. That citation contributes one reading of the exact two C.30 architecture-relation occurrences. The pair row remains an episteme, not the `TransformationFlowStructureNetwork`, not one of its members, and not a cross-flow relation. Its optional `networkCrossFlowRelationRowRef` stays absent unless this same influence occurrence is independently grounded at exact member-flow positions and the composite E.18.NET locator resolves exactly one matching row in that same current record edition.
+
+**Network-qualified reading.**
+A product-development TFS and a production-system-change TFS participate in one selected E.18.NET-conforming network. A current architecture pair row about manufacturing-architecture influence may be cited by the network record alongside a separately grounded obtaining production or project occurrence. If the pair row also carries `networkCrossFlowRelationRowRef`, that locator names this same exact current record edition and resolves exactly one matching row; it qualifies no citation from another record. The pair row remains one reading of one exact architecture pair. It is neither the network nor proof that the architecture-influence occurrence is the cross-flow occurrence.
 
 **Near miss.** A diagram places a factory architecture beside a product architecture and labels the arrow “shapes”. No direct relation kind and predicate govern that pair and use. The frame may retain the pair as synthesis-local pressure, but the exact row and network cross-flow mapping remain absent with `missing-governor`; the diagram does not create an occurrence.
 
@@ -65138,9 +65600,9 @@ Choose only pressures that change the candidate or protect against a concrete lo
 
 | Failure mode | C.32.CONWAY repair action |
 |---|---|
-| **Architecture-as-actor** | Replace the acting architecture with the exact `U.System`, role assignment, dated Work, and actor-side or work-to-change relation; keep architecture as a separately related influence source. |
+| **Architecture-as-actor** | Replace the acting architecture with the exact `U.System`; when role or performance is claimed, add the exact A.2.1 assignment, dated Work, F.6 attribution and holder equality, and actor-side or Work-to-change relation. Keep architecture relation, claim, holon, and selected structure as separately related influence-side objects. |
 | **Influence-as-performance** | Remove role, Work, performer, or transformation-participation inferences that came only from influence. Establish those facts independently or leave them absent. |
-| **Changed referent omitted** | Identify the exact referent and changing relation before deciding which architecture is transformed. |
+| **Changed referent or transformation omitted** | Identify the exact continuing referent; when actual change is claimed, identify its A.3.4 `U.Transformation`; keep actor-side and Work-to-change relations under their direct owners before deciding which architecture content is transformed. |
 | **Performer without Work basis** | When performance is claimed, add exact dated Work, `performedUnderAssignment(W, RA)`, holder-system equality, and required direct relations; use A.15.1 multiple-performer forms when needed. |
 | **Influence source without governor** | Apply the direct relation owner. With no kind/predicate, keep the correspondence synthesis-local and return `missing-governor`; with unresolved facts, name the grounding boundary; with a false predicate, remove the influence occurrence. |
 | **Architecture-bearer equality with an actor inferred** | Keep the influence-source holon and acting system unequal unless independent actor and architecture-bearer facts establish equality. |
@@ -65157,11 +65619,11 @@ Choose only pressures that change the candidate or protect against a concrete lo
 
 | ID | Requirement | Failed-check repair |
 |---|---|---|
-| `CC-C32.CONWAY-1` | `changedReferentRef` is independently identified; any changing relation has its direct governor. | Recover the referent and relation or keep the change description provisional. |
-| `CC-C32.CONWAY-2` | Every claimed actor is one exact `U.System`; every claimed role has an obtaining role assignment. | Add the System and assignment or remove actor or role wording. |
-| `CC-C32.CONWAY-3` | Claimed performance has exact dated Work, `performedUnderAssignment(W, RA)`, `S = RA.HolderSystemSlot`, and direct actor-side or work-to-change relations; several performers use A.15.1 forms. | Restore the Work basis and relations or remove the performance claim. |
+| `CC-C32.CONWAY-1` | `changedReferentRef` is independently identified; any claimed actual bounded change has one A.3.4 `actualTransformationRef`, while actor-side and Work-to-change relations retain their direct governors. | Recover those exact objects and relations or keep the change description provisional. |
+| `CC-C32.CONWAY-2` | Every claimed actor is one exact `U.System`; every claimed role has one exact obtaining A.2.1 role-assignment occurrence with its four fixed participants and applicable continuous extent. | Add the exact System and assignment or remove actor or role wording. |
+| `CC-C32.CONWAY-3` | Claimed performance has exact dated Work, exact A.2.1 assignment, the F.6 occurrence `performedUnderAssignment(W, RA)`, `S = RA.HolderSystemSlot`, and direct actor-side or Work-to-change relations; several performers use A.15.1 `CC-A15.1-17` forms. | Restore the complete Work and attribution basis and relations or remove the performance claim. |
 | `CC-C32.CONWAY-4` | Every influence source retains its exact kind and direct obtaining occurrence; influence entails no actor, role, Work, changed-referent, or transformation-participation fact. | Apply the direct predicate: missing kind/predicate returns `missing-governor`, unresolved facts stay provisional, and a false predicate removes the occurrence; delete inferred acting facts. |
-| `CC-C32.CONWAY-5` | One exact pair row names one influence-source architecture, one transformed architecture, selected structures, changed referent, exact obtaining occurrence, admitted relation kind, direct predicate/governor, and a satisfied affirmative case. | Complete the satisfied case; otherwise keep only the synthesis-local frame and state `missing-governor`, unresolved grounding, or false predicate exactly. |
+| `CC-C32.CONWAY-5` | One exact pair row names two obtaining C.30 `ArchitectureRelation` occurrences, each exact holon and selected-`U.Structure` participant, the changed referent, exact obtaining influence or correspondence occurrence, admitted relation kind, direct predicate and governor, and a satisfied affirmative case. Modal architecture content remains an `ArchitectureClaim` in the frame. | Complete the satisfied actual pair; otherwise keep only the synthesis-local frame and state modal status, `missing-governor`, unresolved grounding, or false predicate exactly. |
 | `CC-C32.CONWAY-6` | Equality between an architecture bearer and an actor is recorded only from independent facts. | Separate the refs and remove equality inference. |
 | `CC-C32.CONWAY-7` | The two project-use fields retain their exact Work identity and direct use-relation meaning. | Add both facts when project use is claimed or keep `@Project` retrieval-only. |
 | `CC-C32.CONWAY-8` | Each comparison-ready candidate states source-side change, transformed-side change, expected gain, known loss, evolution window, receiving pattern, source-return condition, and stop; a first-pass candidate head is visibly outside comparison. | Complete the candidate before comparison or keep only its `candidateRef` as a first-pass head. |
@@ -65176,8 +65638,8 @@ Choose only pressures that change the candidate or protect against a concrete lo
 |---|---|---|
 | `ArchitectureActs` | An architecture, method, toolchain, organization chart, or episteme builds, decides, repairs, or performs. | Start with the domain action; name the exact system and Work when current, then state architecture influence separately. |
 | `InfluenceSourceUntyped` | A source “shapes” the candidate without kind or relation. | Apply the direct owner: recover kind/predicate or return `missing-governor`; if facts are unresolved, keep a candidate cue; if false, remove the occurrence; if satisfied, name the obtaining occurrence. |
-| `ChangedReferentHidden` | The pair is named but the object of change is not. | Identify the changed referent and changing relation independently. |
-| `PerformerBasisMissing` | A performer is named without assignment or dated Work. | Apply A.12 and A.15.1 and restore the exact performer basis. |
+| `ChangedReferentHidden` | The pair is named but the object or claimed actual transformation is not. | Identify the continuing changed referent and, when current, the A.3.4 `U.Transformation`; keep direct participation and Work-to-change relations separate. |
+| `PerformerBasisMissing` | A performer is named without exact System, assignment, dated Work, or F.6 attribution. | Apply A.12, A.2.1, A.15.1, and F.6; restore the exact performer basis and `CC-A15.1-17` form when several systems perform. |
 | `TransformedArchitectureNoSourceFit` | The desired architecture cannot be sustained by the current influence-side structures. | Open source-side retargeting, transformed-architecture retargeting, joint change, and bounded mismatch as alternatives. |
 | `InverseConwayNoSourceChange` | The text says inverse Conway but names no selected influence-source structure change. | Name that exact structure, affected characteristic, migration burden, loss, and receiving pattern or drop the inverse-Conway claim. |
 | `SourceChangeNoTransformedPressure` | A source-side organization, method, line, or toolchain change has no transformed architecture characteristic under pressure. | Route the change to its direct Work or organization-governance pattern until the architecture pair is current. |
@@ -65216,13 +65678,13 @@ These rows document transfers from source practice into C.32.CONWAY. Each row st
 | MacCormack, Rusnak, and Baldwin 2012 mirroring hypothesis (`https://doi.org/10.1016/j.respol.2012.04.011`) and Colfer and Baldwin 2016 exceptions survey (`https://www.hbs.edu/ris/Publication%20Files/16-124_7ae90679-0ce6-4d72-9e9d-828872c7af49.pdf`) | Empirical and theory line for product-architecture and organization-architecture mirroring and exceptions. | Use mirroring as a correspondence hypothesis over selected structures and an evolution window. | Failure and conformance rows require affected characteristics, exceptions, source return, and C.29 for structural-similarity claims. | Mirroring does not establish adequacy, actor equality, relation occurrence, or an entire network. |
 | DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`) | Practitioner line tying architecture, team independence, testing, deployment, and coordination load. | Treat those arrangements as typed influence sources when they constrain a service architecture candidate. | Candidate forms expose source-side retargeting, transformed-side retargeting, joint change, and bounded mismatch. | Team autonomy or work-transfer counts do not identify actors, Work, or an architecture-influence occurrence without their direct facts. |
 | Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Organization-design family for fast flow, interaction modes, cognitive load, platform teams, and evolving boundaries. | Use team types and interaction modes as candidate influence sources, not acting kinds. | Influence-source rows retain exact source kind and relation; candidate rows retain migration cost, burden, and evolution window. | Team-topology vocabulary does not create role assignment, Work, module relation, authority, or decision claims. |
-| Current FPF `A.12`, `A.15.1`, `A.3.4`, `A.3.4.P`, `E.18`, `E.18.NET`, `A.6.M`, `C.29`, `C.30`, `C.32`, `C.32.MLAO`, and `C.32.FAIL` | Governing ontology for acting systems, role assignment, Work, bounded change, flow structures and networks, module repair, lens use, architecture claims, candidate synthesis, residual reduction, and failure repair. | Recover participants and direct relations before using Conway wording. | Performer rows, influence rows, exact pair assertion, network-qualified reading, and receiving-pattern exits are separately checkable. | No root Conway kind, universal correspondence relation, acting architecture, or bypass around decision, Work, evidence, or network selection. |
+| Current FPF `A.12`, `A.2.1`, `A.15.1`, `F.6`, `A.3.4`, `A.3.4.P`, `E.18`, `E.18.NET`, `A.6.M`, `C.29`, `C.30`, `C.32`, `C.32.MLAO`, and `C.32.FAIL` | Governing ontology for acting systems, role-assignment occurrences, Work, performed-under-assignment attribution, bounded transformation, flow structures and networks, module repair, lens use, exact architecture relations and claims, candidate synthesis, residual reduction, and failure repair. | Recover participants and direct relations before using Conway wording. | Performer rows, influence rows, exact C.30 pair assertion, network-qualified reading, and receiving-pattern exits are separately checkable. | No root Conway kind, universal correspondence relation, acting architecture, modal architecture promoted to actuality, or bypass around decision, Work, evidence, or network selection. |
 
 **Source-currentness boundary.** Recheck a row when the changed referent, acting and performance facts, influence source or relation, architecture pair, selected structures, evolution window, source practice, or receiving pattern changes. If the source no longer supports the selected local pressure, lower it to background lineage; do not preserve a technical claim by name alone.
 
 ### C.32.CONWAY:12 - Relations
 
-- **Builds on:** `C.32` for candidate architecture synthesis; `C.30` for `ArchitectureOf@Context`; `A.3.4` and `A.3.4.P` for the changed referent and bounded change; `A.12` and `A.15.1` for acting system, role assignment, dated Work, performed-under-assignment, and multiple-performer forms; direct subject relation owners for acting, Work-to-change, and influence occurrences; `A.6.REL` when this episteme consumes occurrence identity; `E.18` for one TFS; and `E.18.NET` for network identity and exact cross-member relations.
+- **Builds on:** `C.32` for candidate architecture synthesis; `C.30` for exact described holons, obtaining `ArchitectureRelation` occurrences, selected `U.Structure` participants, and modal `ArchitectureClaim` content; `A.3.4` and `A.3.4.P` for the continuing changed referent and actual bounded transformation; `A.12` for acting-side externalization; `A.2.1` for assignment occurrence identity; `A.15.1` for dated Work and distributed-performer forms; `F.6` for `performedUnderAssignment(W, RA)` and actual-performer projection; direct subject relation owners for actor-side, Work-to-change, and influence occurrences; `A.6.REL` when this episteme consumes occurrence identity; `E.18` for one TFS; and `E.18.NET` for network identity and exact cross-member relations.
 - **Uses:** `C.32.ACS` for current architecture-characteristic criteria rows; `C.25` for composite Q-Bundles and their declared slots; `C.32.MLAO` for a cross-scope residual; `C.32.FAIL` for a correspondence repair failure; `C.29` when structural similarity, preservation, mapping, or equivalence is claimed; and `A.6.P.WMR` and `A.6.RCD` when a required direct relation cannot be recovered.
 - **Receiving patterns:** `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set publication, `C.18` and `C.19` for archive, front, or pool treatment, `C.11` for fixed local choice, `C.32.PAD` for architecture decisions, `A.10` for evidence, `B.3` for assurance, `A.20` or `A.21` for gate or release claims, and direct method, Work, or organization-governance patterns when those claims are current.
 - **Network boundary:** an `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` may be cited as one qualified reading in `architectureCorrespondenceRowRefs[]`; it is not the network and does not satisfy an E.18.NET cross-flow relation without the separately grounded obtaining occurrence and endpoint bindings. Its optional singular row locator qualifies only the exact current citing record it names.
@@ -65282,12 +65744,14 @@ Common exits by claim kind:
 - `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work.
 - `C.32.PAD` for project decision.
 
-The first useful output is `MultilevelArchitectureResidualOptimizationFrame@Project`. The frame is the project working record for residual-reducing candidate framing. It records residual movement and candidate burdens; it is not a universal optimizer, scalar optimum, C.29 lens result, or architecture decision:
+The first useful output is `MultilevelArchitectureResidualOptimizationFrame@Project`. The frame is a working record for residual-reducing candidate framing. It records residual movement and candidate burdens; it is not a universal optimizer, scalar optimum, C.29 lens result, or architecture decision:
 
-For a first pass, fill only the described holon, bounded context, residual-triage ref, affected level or scope refs, selected structures, residual-bearing loci, criteria rows, evolution window, residual-reducing candidates with residual reduced and new burden, receiving pattern, and stop condition. Add front, archive, NQD, OEE, C.29 lens, ideality, scale-amenability, function-bearer, and transformer-transformed refs only when that support is current for the candidate being framed.
+For a first pass, fill only the described holon, bounded context, residual-triage ref, affected level or scope refs, selected structures, residual-bearing loci, criteria rows, evolution window, residual-reducing candidates with residual reduced and new burden, receiving pattern, and stop condition. Add front, archive, NQD, OEE, C.29 lens, ideality, scale-amenability, function-bearer, and architecture-influence-correspondence refs only when that support is current for the candidate being framed.
 
 ```text
 MultilevelArchitectureResidualOptimizationFrame@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  residualOptimizationFrameProjectUseRelationRef?: U.RelationRef governed by the exact synthesis-use or work-use pattern
   describedHolonRef:
   boundedContextRef:
   residualTriageRef:
@@ -65306,7 +65770,7 @@ MultilevelArchitectureResidualOptimizationFrame@Project:
   architectureIdealityPressureRef?:
   scaleAmenabilityPolicyRef?:
   functionBearerFeasibilityRef?:
-  transformerTransformedCorrespondenceRef?:
+  architectureInfluenceCorrespondenceRef?: C.32.CONWAY frame or exact pair-row ref
   residualReducingCandidates:
     - candidateRef:
       selectedStructureChanged:
@@ -65325,6 +65789,8 @@ MultilevelArchitectureResidualOptimizationFrame@Project:
   metaHolonTransitionRef?:
   stopCondition:
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the frame is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` and `residualOptimizationFrameProjectUseRelationRef` identifies the direct relation by which that work uses the frame. The frame, the residual-reducing synthesis work, the candidate architectures, and the project work remain distinct.
 
 ### C.32.MLAO:2 - Problem
 
@@ -65369,7 +65835,7 @@ Admit a residual-reducing candidate only when it answers the working questions: 
 | `repairFunctionBearerGap` | A residual-reducing functional change has no feasible bearer at the affected declared holon-level ref or declared scope ref. | Adds or changes bearer, splits function, changes placement or resource access, changes control responsibility, or rejects the candidate. |
 | `addEvidenceScope` | Reusable candidate bearer lacks reusable evidence scope. | Makes evidence maintenance part of the candidate; A.10 evidence-relation validity or sufficiency claims belong to `A.10` when they are current. |
 | `addWorkMethodScope` | Repeated work remains bespoke because method structure is missing. | Transfers repeated work into method structure and names review or training burden. |
-| `repairTransformerTransformedCorrespondence` | The residual is carried by mismatch between a changing holon's architecture and the architecture of the holon being changed. | Opens `C.32.CONWAY`; prepares candidate alternatives that change the transformer side, change the transformed side, change both, or keep a bounded mismatch. |
+| `repairArchitectureInfluenceCorrespondence` | The residual is carried by mismatch between one exact typed influence-side architecture source and transformed-side architecture content for the changed referent. | Open `C.32.CONWAY`; keep the changed referent and any actual A.3.4 `U.Transformation` separate, then prepare candidate alternatives that change the influence-source side, change the transformed side, change both, or keep a bounded mismatch. |
 | `acceptBoundedException` | Eliminating the residual costs too much now. | Records exception, source-return condition, and reopen trigger. |
 
 **Comparison-input boundary.** C.32.MLAO prepares comparison inputs; it does not run the comparison or choose a candidate. Its output rows are candidate records with residual reduced, new burden, selected structures, preserved structure, lost structure, source-return condition, and optional C.29 lens-output references.
@@ -65390,7 +65856,7 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 
 **Functional-bearer feasibility discipline.** A residual-reducing functional change is not admissible until the function has a bearer under the module, placement, resource, control, information, and evidence constraints declared for the case. If no bearer exists, the residual-reducing candidate must add a bearer, split the function, change placement or resource access, change control responsibility, reduce the demand, or return to C.32 as an unfit candidate.
 
-**Transformer and transformed holon discipline.** When the residual is created by a holon that changes another holon, use `C.32.CONWAY`. Keep the transformer architecture and transformed-holon architecture distinct; then prepare residual-reducing candidates that change the transformer side, the transformed side, both sides, or a bounded mismatch as comparison inputs or downstream candidate alternatives. Transformation, flow, work, and module-interface claims belong to `A.3.4`, `E.18`, `A.15`, or `A.6.M` when current. Structural-similarity claims belong to `C.29` only when they are current.
+**Architecture-influence and transformed-side discipline.** When a residual is carried by one independently typed architecture-side source constraining architecture content for a changed referent, use `C.32.CONWAY`. For each actual side, keep the exact C.30 described holon, obtaining `ArchitectureRelation`, and selected `U.Structure` together; keep candidate, required, desired, or expected content in an exact C.30 `ArchitectureClaim`. Keep the changed referent and any actual A.3.4 `U.Transformation` separate. Then prepare residual-reducing candidates that change the influence-source side, the transformed side, both sides, or a bounded mismatch as comparison inputs or downstream candidate alternatives. Influence, transformation, flow, Work, and module-interface claims belong to their exact relation owner, `A.3.4`, `E.18`, `A.15`, or `A.6.M` when current. Structural-similarity claims belong to `C.29` only when they are current.
 
 **Level, stratification-term, and whole-reidentification discipline.** If the case uses `level`, `system level`, `holon level`, `layer`, `tier`, or another stratification term, first use `E.10.ARCH` and `C.30.STRAT` unless the direct governing pattern and recovered neighborhood are already named by value. If the case uses `BOSC`, `MHT`, `MET`, `MFT`, emergence-family, boundary-crossing, or promotion-like wording, first use `E.10` and `B.2.P` to recover the claim kind. Use `B.2` only when a whole-reidentification question remains after the existing-whole explanation check; otherwise use the direct governing pattern for architecture, boundary, capability, function, measurement, publication, work, or lens claims.
 
@@ -65421,7 +65887,7 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 | **Lossless repair is assumed** | Every residual-reducing candidate names the new burden it creates. |
 | **Front member is treated as durable optimum** | A front member is an archive or front relation under an evolution window, not a durable architecture optimum. |
 | **Stepping stone is erased too early** | Keep retained stepping stones visible through `C.18` or `C.19` when they preserve future residual-reduction reach. |
-| **Transformer-transformed residual is hidden** | A residual between the changing holon and the changed holon must open `C.32.CONWAY`; prepare transformer-side, transformed-side, joint, and bounded-mismatch candidates as comparison inputs or downstream candidate alternatives. |
+| **Architecture-influence residual is hidden** | A residual between one typed influence-side architecture source and transformed-side architecture content must open `C.32.CONWAY`; keep the changed referent and any actual transformation separate, and prepare influence-source-side, transformed-side, joint, and bounded-mismatch candidates as comparison inputs or downstream candidate alternatives. |
 | **Ideality is used as optimum** | Treat ideality as direction for candidate generation, not as an adequacy claim that a bearer may be removed. |
 | **Universal bearer is admitted without scale window** | A general bearer still needs declared criteria rows, scale window, safety and admissibility boundaries, and an eval result when the claim depends on a reading. |
 | **Functional graph has no feasible bearer** | A functional architecture that lacks feasible bearers is an unfit candidate, not an optimized architecture. |
@@ -65437,7 +65903,7 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 | `CC-C32.MLAO-5` | Lens-backed claims use C.29 when mathematical-lens use is being claimed. | Keeps mathematical adequacy outside this pattern. |
 | `CC-C32.MLAO-6` | Source-return condition is present when compression hides distinctions. | Keeps later source-use or decision-use claims tied to recoverable sources. |
 | `CC-C32.MLAO-7` | Evolution window, dynamic front or archive relation, and any NQD or OEE support are typed as retention or generation support only. | Blocks static-optimum and selector overread. |
-| `CC-C32.MLAO-8` | Transformer and transformed holon architectures stay distinct when the residual crosses a changing relation, and `C.32.CONWAY` is used when correspondence candidates are being prepared. | Preserves kind distinction between architecture, work, transformation, and structural similarity. |
+| `CC-C32.MLAO-8` | Influence-source and transformed-side architecture content stay distinct through exact C.30 holon, obtaining-`ArchitectureRelation`, selected-structure, or modal-`ArchitectureClaim` refs; the changed referent and any actual A.3.4 transformation stay separate; `C.32.CONWAY` is used when correspondence candidates are being prepared. | Preserves kind distinction among architecture content, influence, Work, actual transformation, and structural similarity. |
 
 ### C.32.MLAO:8 - Common repair cues
 
@@ -65447,7 +65913,7 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 | `ProxyResultAsPreferenceRule` | A residual vector, score, graph, front, dashboard reading, or lens output is used to prefer a candidate before the selected structures and lost structure are recovered. | Recover the selected structures and lost structure, interpret the result as a diagnostic signal or lens output; comparison belongs to `A.19.CPM`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, and publication of a selected set to `G.5`. |
 | `ParetoFrontAsDecision` | A front is treated as selected architecture. | Publication of a selected set belongs to `G.5`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, and project architecture decision to `C.32.PAD`. |
 | `StaticOptimumClaim` | A current residual-reducing candidate is called optimal without an evolution window. | Add evolution window, source-return condition, reopen trigger, and the receiving pattern result that actually produced the preference. |
-| `TransformerTransformedCollapse` | The architecture of the changing holon and the changed holon are treated as one structure. | Open `C.32.CONWAY`; recover the changing relation, selected structures on both sides, residual-bearing locus, candidate alternatives, and any C.29 structural-similarity claim before residual framing. |
+| `ArchitectureInfluencePairCollapse` | The influence-source and transformed-side architecture content, changed referent, or actual transformation are treated as one object. | Open `C.32.CONWAY`; recover each exact C.30 architecture side, the typed influence relation, the changed referent, any actual A.3.4 transformation, the residual-bearing locus, candidate alternatives, and any C.29 structural-similarity claim before residual framing. |
 | `LevelWordsNoLevels` | Text says level or scope without declared refs. | Use `C.30.STRAT` for stratification-term recovery or `B.2.P` for whole-reidentification wording, then return to residual triage before candidate framing. |
 | `OptimizationNoLoss` | Candidates show only gains. | Add new burden, known loss, or bounded exception. |
 | `IdealityNoBurden` | A candidate removes a bearer or support function but does not name lost function, coupling, evidence, control, or source-return burden. | Return to C.32 and C.31; name function-bearing transfer, characteristic changes, and BLP scale window or waiver if scale advantage is claimed. |
@@ -65477,7 +65943,7 @@ These rows document transfers from source practice into C.32.MLAO. Each row stat
 
 | Source to inspect | Why this source is load-bearing here | Transfer into C.32.MLAO | Concrete C.32.MLAO mutation | Blocked overread |
 |---|---|---|---|---|
-| Current FPF architecture residual, criteria, eval, comparison, and level-recovery line: `E.10`, `E.10.ARCH`, `C.30.STRAT`, `B.2.P`, `B.2`, `C.30.ILC`, `C.32.ACS`, `C.32.ACE`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, `C.29`, `C.31`, `C.31.ASAP`, and architecture source section 15.3 | Current local law for interlevel and cross-scope architecture residuals. It is load-bearing because C.32.MLAO starts only after residual triage, because criteria and eval have separate receiving patterns, because stratification terms and whole-reidentification wording already have governing recovery patterns, and because comparison, selection, choice, and publication of selected sets have existing receiving patterns. | Require C.30.STRAT recovery when stratification wording is ambiguous and B.2.P recovery when BOSC, MHT, MET, MFT, or emergence wording is ambiguous; require declared holon-level refs or declared scope refs, selected structures, criteria rows, residual-bearing loci, preserved structure, lost structure, eval result refs when used, comparison inputs, and receiving pattern before residual-reducing candidates enter comparison, selection, choice, or publication of a selected set. | `MultilevelArchitectureResidualOptimizationFrame@Project` now requires residual triage, declared holon-level refs or declared scope refs, selected structures, architecture-characteristic criteria rows, residual-bearing loci, residual-reducing candidates, optional C.29 lens-output ref, comparison input refs, receiving pattern ref, and stop condition. | Same-scope structure conflict, generic complexity wording, untyped criteria, eval-result overread, untyped stratification terms, untyped BOSC or MHT triggers, local comparison work, local selection work, and untyped optimization phrases return to their governing patterns before C.32.MLAO admits the frame. |
+| Current FPF architecture residual, criteria, eval, comparison, and level-recovery line: `E.10`, `E.10.ARCH`, `C.30.STRAT`, `B.2.P`, `B.2`, `C.30.ILC`, `C.32.ACS`, `C.32.ACE`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, `G.5`, `C.29`, `C.31`, `C.31.ASAP`, and architecture source section 15.3 | Current local law for interlevel and cross-scope architecture residuals. It is load-bearing because C.32.MLAO starts only after residual triage, because criteria and eval have separate receiving patterns, because stratification terms and whole-reidentification wording already have governing recovery patterns, and because comparison, selection, choice, and publication of selected sets have existing receiving patterns. | Require C.30.STRAT recovery when stratification wording is ambiguous and B.2.P recovery when BOSC, MHT, MET, MFT, or emergence wording is ambiguous; require declared holon-level refs or declared scope refs, selected structures, criteria rows, residual-bearing loci, preserved structure, lost structure, eval result refs when used, comparison inputs, and receiving pattern before residual-reducing candidates enter comparison, selection, choice, or publication of a selected set. | `MultilevelArchitectureResidualOptimizationFrame@Project` requires residual triage, declared holon-level refs or declared scope refs, selected structures, architecture-characteristic criteria rows, residual-bearing loci, residual-reducing candidates, optional C.29 lens-output ref, comparison input refs, receiving pattern ref, and stop condition. | Same-scope structure conflict, generic complexity wording, untyped criteria, eval-result overread, untyped stratification terms, untyped BOSC or MHT triggers, local comparison work, local selection work, and untyped optimization phrases return to their governing patterns before C.32.MLAO admits the frame. |
 | Vanchurin, Wolf, Katsnelson, and Koonin, `Towards a Theory of Evolution as Multilevel Learning` (`https://arxiv.org/abs/2110.14602`); Wolf, Katsnelson, and Koonin, `Physical foundations of biological complexity` (`https://arxiv.org/abs/1803.09975`); Akhtyrchenko, Katsnelson, and Ustyuzhanin, `Directing Open-Ended Evolution ... via Multi-Scale Path Divergence`, submitted 2026-06-12 (`https://arxiv.org/abs/2606.17091`) | Current source line for multilevel residual and scale-dependent frustration as a mathematical lens. The 2026 MSPD paper is current because it makes scale-dependent frustration explicit and computable while still being a lens over a substrate. | Use frustration and multiscale divergence as optional C.29-backed lens outputs for residual-bearing loci across declared holon-level refs or declared scope refs. | C.32.MLAO adds `c29LensOutputRef?`, residual-bearing locus, preserved and lost structure, comparison input refs, and receiving pattern ref so any comparison has its receiving pattern named. | Source-domain ontology stays outside architecture; a scalar output must be interpreted as pressure, loss, or residual over selected structures before a receiving comparison or choice pattern can use it. |
 | Evolutionary architecture: Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed. (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`) | Current practitioner architecture line for guided incremental change over declared architecture characteristics, affected selected structures, and feedback from source-side fitness functions. | Residual-reducing candidates must name the new burden they introduce and the stop or reopen condition; source-side fitness-function practice is restored as ACE eval programs over ACS criteria rows. | Candidate-family table includes bounded exception, evidence scope, interface grammar, control structure, and work-method scope; consequences require new burden, source-return triggers, and receiving use for eval results. | A local eval improvement needs an architecture interpretation before a comparison, selection, or choice receiving pattern can use it. |
 | TRIZ ideality and laws of technical-system evolution, read with `C.19.1` BLP | Older heuristic line: systems tend toward more useful function with less cost, harm, and support apparatus; BLP supplies FPF scale-amenability discipline for general bearers. | Use ideality and scale amenability to generate residual-reducing candidates, not to select them. | Frame adds `architectureIdealityPressureRef?` and `scaleAmenabilityPolicyRef?`; Solution adds ideality and BLP discipline; anti-pattern table adds `IdealityNoBurden`. | Removing a part, consolidating functions, or choosing a universal bearer is not residual reduction unless selected structures, characteristics, new burden, and scale boundary are declared. |
@@ -65486,14 +65952,14 @@ These rows document transfers from source practice into C.32.MLAO. Each row stat
 | DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`), DORA trunk-based development (`https://dora.dev/capabilities/trunk-based-development/`), and Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current socio-technical practice for independent change, testing, deployment, small batches, dependency reduction, and fast flow. It is load-bearing because many residuals are borne by role assignments, work structures, responsibility of role-holding systems, and coordination structures, not only software modules. | Admit organization, work, role-enactor, and method-scope residuals when selected structures and affected scopes are recoverable. | Worked cases include clinical triage work arrangement, AI-agent review setup, and method family; candidate-family table includes mediator, work-method scope, interface grammar, and control structure. | Organization-design observations enter C.32.MLAO only after they are mapped to role, work, responsibility, coordination, or method structures; they do not supply module, evidence, assurance, or decision claims by themselves. |
 | Design-space and architecture-spread research: Shaw and Petre 2024 (`https://arxiv.org/abs/2407.18502`); Cortellessa et al. 2024 (`https://arxiv.org/abs/2402.19171`) | Current research showing that useful alternatives need a design-space or architecture-space view, not only objective-space scores. | Preserve plural residual-reducing candidates when residuals shift differently across structures or scopes. | C.32.MLAO preserves candidate plurality as C.32 input; publication of a selected set belongs to G.5; spread, diversity, or objective-space output is used only after the architecture differences it reveals are named. | Candidate preference still depends on declared architecture characteristics, losses, and a receiving pattern. |
 | C.18 archive and front stewardship plus C.19 explore-exploit governance | Current FPF pattern line for open-ended search, NQD, OEE, archive, front, pool treatment, and stepping-stone retention. | Treat NQD and OEE as generation and retention support for residual-reducing candidates, not as architecture selection. | Frame fields add `dynamicFrontOrArchiveRef?`, `nqdOrOeeSupportRef?`, `steppingStoneRefs?`, and `evolutionWindowRef`; Solution adds dynamic optimum discipline. | Archive membership, front membership, retained stepping stone, or pool treatment is not architecture adequacy or decision. |
-| Conway's law, mirroring, DORA loosely coupled teams, Team Topologies, and current `C.32.CONWAY` | Current practice line for residuals where the changing holon's work, communication, tool, method, deployment, or evidence structures no longer fit the changed holon's desired architecture. | Treat correspondence mismatch as a residual-reducing architecture synthesis problem, not as organization identity or transformed-holon architecture settlement. | Frame field `transformerTransformedCorrespondenceRef?` now points to `C.32.CONWAY`; candidate-family table adds `repairTransformerTransformedCorrespondence`; Solution prepares transformer-side, transformed-side, joint, and bounded-mismatch candidates as comparison inputs or downstream candidate alternatives. | A correspondence residual is repaired only after the shifted burden, affected structures, characteristic pressure, and exception cost are named. |
+| Conway's law, mirroring, DORA loosely coupled teams, Team Topologies, and current `C.32.CONWAY` | Current practice line for residuals where one typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source no longer fits the transformed-side architecture content needed for the changed referent. | Treat architecture-influence correspondence mismatch as a residual-reducing synthesis problem, not as actor identity, Work attribution, transformation participation, or transformed-side architecture settlement. | Frame field `architectureInfluenceCorrespondenceRef?` points to `C.32.CONWAY`; candidate-family table adds `repairArchitectureInfluenceCorrespondence`; Solution keeps the two exact C.30 architecture sides, changed referent, actual transformation when claimed, and influence relation separate while preparing influence-source-side, transformed-side, joint, and bounded-mismatch candidates. | A correspondence residual is repaired only after the shifted burden, affected structures, characteristic pressure, exact influence basis, and exception cost are named. |
 
 **Source-currentness boundary.** Use each source row only for the frame field, candidate-family row, discipline paragraph, or boundary named in that row. Recheck the row when a cited paper, book edition, DORA or Team Topologies page, FPF receiving pattern, project residual, selected structure, criteria row, or evolution window changes. If the source no longer supports the concrete mutation, lower it to background lineage and keep the residual frame only when local residual triage, selected structures, criteria rows, new burden, and receiving pattern remain recoverable.
 
 ### C.32.MLAO:12 - Relations
 
 - **Builds on:** `C.30.ILC` for residual triage, `C.32` for palettes, `C.32.ACS` for architecture-characteristic criteria rows, `C.32.ACE` for eval programs and eval results, `C.29` for mathematical-lens use when claimed, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice over an existing option set, `G.5` for publication of a selected set, `C.19.1` for scale-amenability preference claims, and `C.31` or `C.31.ASAP` for characteristic or scale-preference claims.
-- **Uses:** `E.10.ARCH` and `C.30.STRAT` when stratification terms hide the recovered neighborhood; `E.10` and `B.2.P` when BOSC, emergence-family, MHT, MET, MFT, boundary-crossing, or promotion-like wording hides the claim kind; `B.2` when the candidate creates, reidentifies, splits, joins, or changes the relevant whole after existing-whole explanations are insufficient; `C.32.CONWAY` when residual reduction requires co-synthesis of transformer and transformed architectures; `A.6.M`, `C.30.LCA`, `C.30.TFS-REL`, and method or work patterns when their structures are the affected selected structures.
+- **Uses:** `E.10.ARCH` and `C.30.STRAT` when stratification terms hide the recovered neighborhood; `E.10` and `B.2.P` when BOSC, emergence-family, MHT, MET, MFT, boundary-crossing, or promotion-like wording hides the claim kind; `B.2` when the candidate creates, reidentifies, splits, joins, or changes the relevant whole after existing-whole explanations are insufficient; `C.32.CONWAY` when residual reduction requires co-synthesis of exact influence-source and transformed-side architecture content; `A.6.M`, `C.30.LCA`, `C.30.TFS-REL`, and method or work patterns when their structures are the affected selected structures.
 - **Receiving patterns:** `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for fixed local choice, `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work, and `C.32.PAD` for project architecture decisions.
 - **P2S docking:** `C.32.P2S` uses MLAO when cross-scope, interlevel, interlayer, or meta-holon residual pressure must become candidate-synthesis and repair content inside the wider architecturing flow.
 - **Boundary:** C.32.MLAO governs residual-reducing architecture candidate frames after residual triage. It does not govern mathematical-lens adequacy, evidence, assurance, gate passage, ethical mediation, causal claim adequacy, work authorization, or final selection.
@@ -65549,10 +66015,12 @@ Common exits by claim kind:
 - `C.30.AD` for architecture description and `E.17` or `E.24.PUB` for publication faces.
 - `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
 
-The first useful output is `ArchitectureRepairCue@Project`. It is the project working record for one repair action. It names the stressed architecture object and first repair; it is not a failure ontology, risk register, assurance case, release argument, selection result, or decision:
+The first useful output is `ArchitectureRepairCue@Project`. It is a working record for one repair action. It names the stressed architecture object and first repair; it is not a failure ontology, risk register, assurance case, release argument, selection result, or decision:
 
 ```text
 ArchitectureRepairCue@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureRepairCueProjectUseRelationRef?: U.RelationRef governed by the exact repair-use or work-use pattern
   symptom:
   describedHolonRef:
   boundedContextRef:
@@ -65567,6 +66035,8 @@ ArchitectureRepairCue@Project:
   escalationIfCurrent:
 ```
 
+Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the repair cue is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` and `architectureRepairCueProjectUseRelationRef` identifies the direct relation by which that exact project Work uses the cue. Any separately claimed repair Work and its own cue-use or work-to-change relation remain under their direct governors. The cue, the actual repair Work, the architecture object under stress, and the composite project Work remain distinct.
+
 ### C.32.FAIL:2 - Problem
 
 Architecture synthesis often fails before formal evidence or decision work starts. The defect is not only that a word is vague. The practical defect is that the architecture object under stress is missing or misread.
@@ -65577,7 +66047,7 @@ Most first-contact failures cluster into a few repair-entry families:
 * a proxy result, generated artifact, architecture description, graph, dashboard, front member, or workshop favorite is used before the selected structures, losses, and receiving pattern are named;
 * one structure, function, role, responsibility, control relation, evidence relation, or method step is improved while the synthesis frame loses the architecture characteristics and other structures that made the trade-off real;
 * a current candidate is treated as a durable optimum, or ideality pressure deletes a bearer without naming the function still carried, the lost structure, and the new burden;
-* a changing holon's architecture and the changed holon's architecture collapse into one claim instead of opening transformer and transformed architecture correspondence repair.
+* an influence-source architecture and the transformed-side architecture content collapse into one claim instead of opening C.32.CONWAY and separating the changed referent, each obtaining C.30 architecture relation or modal `ArchitectureClaim`, any asserted direct influence occurrence, and any separately current actor, assignment, Work, or actual transformation facts.
 
 These cues are useful only when each one is converted into a repair shape: symptom, architecture object under stress, first repair action, and stop or receiving pattern.
 
@@ -65626,7 +66096,7 @@ Core repair families for first-draft use:
 | Static optimum | A front member or local winner is treated as durable optimum. | Evolution window, receiving pattern result, front or archive relation, and reopen trigger. | Add evolution window, source-return condition, and receiving pattern; keep C.18 and C.19 as retention or pool policy only. | Comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and architecture decision to `C.32.PAD` when the decision claim is being made. |
 | Ideality shortcut | Fewer bearers or fewer modules is treated as architecture improvement by itself. | Function-bearing allocation, selected structure count, and architecture characteristic bundle. | Recover the function-bearing transfer; name the removed or generalized bearer, the functions still carried, the new burden, and lost structure. | Return to `C.32`; use `C.31`, `A.6.F`, `A.6.M`, and `C.19.1` when their claims are current. |
 | Universal bearer as adequacy shortcut | A universal module or general substrate is treated as architecture adequacy or scale adequacy by itself. | Scale-amenability claim, module-interface relation, evidence burden, control burden, and safety or admissibility boundary. | Treat universality as a candidate; require BLP scale window or waiver when scale advantage is claimed and record coupling, evidence, control, and source-return effects. | Stop before G.5 publication, assurance, release, or decision claims unless receiving patterns are current. |
-| Transformer and transformed architecture mismatch | The architecture of a holon that changes another holon is collapsed with the changed holon's architecture, or the changed architecture is desired without a feasible changing holon. | Transformer-side selected structures, transformed-side selected structures, and the changing relation. | Open `C.32.CONWAY`; recover the changing relation through `A.3.4`, `E.18`, work, or method patterns; generate candidate repairs that change the transformer side, the transformed side, both sides, or a bounded mismatch. | Use `A.6.M` only for module-interface repair and `C.29` only when structural similarity is claimed. |
+| Architecture-influence/transformed-side mismatch | An influence-source architecture is collapsed with transformed-side architecture content, a desired transformed-side structure is paired with no compatible influence-source arrangement, or an architecture or selected structure is treated as the changing actor. | The exact changed referent; each influence-source-side and transformed-side obtaining C.30 `ArchitectureRelation` or modal `ArchitectureClaim`; and the direct architecture-influence or correspondence occurrence only when independently governed and obtaining. | Open `C.32.CONWAY`; recover the two exact architecture sides, the direct influence kind and predicate or `missing-governor`, and then prepare influence-source-side, transformed-side, joint, or bounded-mismatch candidates. Add acting systems, assignments, Work, and actual transformation only through their direct owners when those claims are current. | Use `A.6.M` only for module-interface repair, `C.29` only when structural similarity is claimed, and E.18.NET only for an independently selected network; a C.32.CONWAY frame or exact pair row is neither an actor, network, nor cross-flow occurrence. |
 
 Admit a new repair family only when its row tells the practitioner what to repair first. A suspicious name alone is not enough; the row must name the architecture object under stress, the first repair action, and the stop or receiving pattern.
 
@@ -65642,7 +66112,7 @@ Admit a new repair family only when its row tells the practitioner what to repai
 
 **Show-B - Product-family platform with exception growth.** A platform promise reduces local delivery effort but grows evidence exceptions at the product-family scope. The repair cue names variation structure, substitution policy, and evidence scope as the architecture objects under stress. The first repair action is not to declare the platform adequate; it is to repair variation slots and bounded-exception rules, then open `C.32.MLAO` residual comparison if cross-scope burden is current.
 
-**Show-C - Responsibility change shifts coordination cost.** A stream-aligned team improves local delivery flow, but release testing and evidence responsibility remain shared. The repair cue names the shifted coordination cost, keeps role-enactor and work structures distinct from module-interface and evidence structures, and asks whether the candidate should change transformer-side work, transformed-side module interfaces, evidence scope, or all three.
+**Show-C - Responsibility change shifts coordination cost.** A stream-aligned team improves local delivery flow, but release testing and evidence responsibility remain shared. The repair cue names the shifted coordination cost, keeps role-enactor and Work structures distinct from module-interface and evidence structures, and asks whether the candidate should change the influence-source role, Work, organization, or toolchain structures; the transformed-side module interfaces; the evidence scope; or a governed joint combination. C.32.CONWAY supplies only the architecture-influence synthesis frame or exact qualified pair row; exact performers, assignments, Work, and change relations remain separately governed.
 
 **Show-D - Generated architecture candidate.** An agent system produces a high-scoring blueprint. The repair cue treats the blueprint as a source cue, recovers the selected-structure changes encoded in it, names preserved and lost structure, and rebuilds the candidate palette before G.5 publication of a selected set or decision.
 
@@ -65664,7 +66134,7 @@ Admit a new repair family only when its row tells the practitioner what to repai
 | **Function without bearer** | A functional architecture is only a candidate when admissible bearers are recoverable under current constraints. |
 | **Ideality used as deletion admissibility** | Ideal final result wording is a generation pressure; deleting a bearer is admissible only after function bearing, lost structure, new burden, and architecture characteristics are named. |
 | **Universal bearer admitted by name** | A universal module or general substrate must be treated as a candidate bearer under BLP scale-window discipline and declared architecture-characteristic criteria rows. |
-| **Conway wording without correspondence repair** | Conway, mirroring, or inverse-Conway wording is useful only when it opens `C.32.CONWAY` and names the changing relation, selected structures on both sides, affected architecture characteristics, gains, losses, and receiving pattern. |
+| **Conway wording without correspondence repair** | Conway, mirroring, or inverse-Conway wording is useful only when it opens `C.32.CONWAY` and names the changed referent, each exact obtaining C.30 architecture relation or modal claim, the direct influence relation and its truthful disposition, affected architecture characteristics, candidate form, gain, loss, and receiving pattern. Architecture influence supplies no actor, assignment, Work, actual transformation, network membership, or cross-flow relation. |
 
 ### C.32.FAIL:7 - Conformance Checklist
 
@@ -65692,7 +66162,7 @@ Admit a new repair family only when its row tells the practitioner what to repai
 | `FunctionalGraphNoBearer` | A functional graph, workflow, or method structure names a required function that no admitted bearer can perform under the module, placement, resource, control, or evidence constraints declared for the case. | Return to C.32; add or change bearer, split function, change placement or resource access, change control responsibility, reduce demand, or reject the candidate. |
 | `IdealityAsAdequacyShortcut` | The phrase ideal architecture, no modules, or fewer parts is used as architecture adequacy by itself. | Convert it into a C.32 candidate and name function bearing, lost structure, new burden, architecture characteristics, and receiving pattern. |
 | `UniversalBearerAsAdequacyClaim` | A universal module, general substrate, or existing resource is used as better architecture because it can carry more functions. | Use `C.19.1` only when scale advantage is claimed; otherwise recover module-interface, coupling, evidence, control, safety, admissibility, and source-return effects before explicit comparison belongs to `A.19.CPM`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, or publication of a selected set to `G.5`. |
-| `ConwayNameAsRepair` | A warning row says Conway, mirroring, or inverse Conway but gives no architecture repair. | Open `C.32.CONWAY`; name the transformer and transformed holons, selected structures on both sides, changing relation, affected characteristics, candidate repair, loss, and stop condition. |
+| `ConwayNameAsRepair` | A warning row says Conway, mirroring, or inverse Conway but gives no architecture repair. | Open `C.32.CONWAY`; name the changed referent, the exact influence-source-side and transformed-side C.30 architecture relations or modal claims, the direct influence kind/predicate/occurrence or truthful stop, affected characteristics, candidate form, gain, loss, and receiving pattern. Keep actors, assignments, Work, actual transformation, and any E.18.NET network or cross-flow occurrence with their direct owners. |
 
 ### C.32.FAIL:9 - Consequences
 
@@ -65719,7 +66189,7 @@ These rows document transfers from source practice into C.32.FAIL. Each row stat
 | Current FPF architecture kernel: `C.30`, `C.30.AD`, `C.30.ASV`, `C.31`, `C.32`, `C.32.MLAO`, plus `A.6.P` and `E.10` | Current local law for architecture objects, source-expression recovery, and candidate repair. It prevents failure names from becoming ontology. | Treat a failure cue as repair-entry material until described holon, selected structure, object under stress, and governing pattern are recovered. | `ArchitectureRepairCue@Project` now requires `architectureObjectUnderStress`, `blockedOverread`, `firstGoverningPatternRef`, `repairAction`, and `sourceReturnCondition`. | A warning name, source expression, or domain habit is not an architecture kind. |
 | Parnas information hiding (`https://doi.org/10.1145/361598.361623`), MOSA and open-systems practice (`https://www.cto.mil/sea/mosa/`), product-line and platform practice, and the current `C.31` source line | Strong architecture lineage for stable boundaries, hidden variation, replacement policy, and interface conformance. | Repair weak-module and false-platform cues by restoring interface behavior, variation slots, substitution policy, conformance expectation, and bounded exceptions. | Repair table rows for `Weak module-interface` and `False platform`; worked cases A and B. | Module wording, platform promise, or published interface text does not establish modularity, substitutability, or architecture adequacy. |
 | ISO 42010:2022 architecture-description practice (`https://www.iso.org/standard/74393.html`), plus `C.30.AD`, `C.30.ASV`, `E.17`, and `E.24.PUB` | Current standard and FPF line for distinguishing architecture, architecture description, view, viewpoint, concern, model kind, correspondence, and publication face. | Treat architecture-description artifacts and publication faces as description or publication material until selected-structure repair is recovered. | Repair row `Proxy result or description as authority`; fields for `sourceCueRef?` and `firstGoverningPatternRef`; worked cases D and E. | A description artifact or publication face is not architecture adequacy, evidence sufficiency, or project architecture decision. |
-| Evolutionary architecture practice (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`), DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`), DORA trunk-based development (`https://dora.dev/capabilities/trunk-based-development/`), and Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current practitioner line for changeability, small batches, independent change, dependency reduction, and fast flow. | Use change pain, coordination load, and flow bottlenecks as cues for selected-structure stress while keeping role, work, transformer-side, and module-interface structures distinct. | Repair rows `Coordination cost displaced by responsibility change`, `Temporal or control coupling`, and `Transformer and transformed architecture mismatch`; field `sourceReturnCondition`; stop rule before decision work. | Fast-flow evidence can guide architecture repair only after it is interpreted as stress on named selected structures. |
+| Evolutionary architecture practice (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`), DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`), DORA trunk-based development (`https://dora.dev/capabilities/trunk-based-development/`), and Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current practitioner line for changeability, small batches, independent change, dependency reduction, and fast flow. | Use change pain, coordination load, and flow bottlenecks as cues for selected-structure stress while keeping role, Work, independently typed influence sources, transformed-side architecture content, module-interface structures, and actor/change facts distinct. | Repair rows `Coordination cost displaced by responsibility change`, `Temporal or control coupling`, and `Architecture-influence/transformed-side mismatch`; field `sourceReturnCondition`; stop rule before decision work. | Fast-flow evidence can guide architecture repair only after it is interpreted as stress on named selected structures; it neither makes an architecture act nor establishes a direct influence relation. |
 | `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`), design-space practice (`https://arxiv.org/abs/2407.18502`), architecture-spread research (`https://arxiv.org/abs/2402.19171`), and C.18 and C.19 open-ended search governance | Strong current line for hard trade-offs, dynamic candidate fronts, retained stepping stones, and preserving structurally different alternatives instead of hiding them behind one score. | Repair hidden-single-winner and static-optimum cases by rebuilding candidate palette content before publication of a selected set, local choice, or architecture decision. | Repair rows `Hidden single winner` and `Static optimum`; fields for preserved and lost structure through the C.32 palette; receiving exits to `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.18`, `C.19`, `C.11`, and `C.32.PAD`. | A score, Pareto front, generated winner, retained stepping stone, or workshop favorite is not a selected architecture. |
 | TRIZ ideality and laws of technical-system evolution, with `C.19.1` BLP | Older heuristic line for useful-function consolidation and removing unnecessary bearers, plus FPF scale-amenability discipline for general bearers. | Repair ideality and universal-module shortcuts by turning them into typed C.32 candidates. | Repair rows `Ideality shortcut` and `Universal bearer as adequacy shortcut`; anti-pattern rows `IdealityAsAdequacyShortcut` and `UniversalBearerAsAdequacyClaim`. | Ideality, fewer parts, or one universal module is not architecture adequacy, scale adequacy, assurance, release, or project architecture decision. |
 | Multi-objective NAS, hardware-aware co-design, scaling-law practice (`https://www.jmlr.org/papers/v20/18-598.html`, Sukthanker et al. v3 revised 2025-02-04 at `https://arxiv.org/abs/2402.18213`, Sinha et al. 2024 at `https://arxiv.org/abs/2404.12403`), and `C.19.1` BLP | Current ML architecture line makes functional graph search, resource constraints, hardware constraints, and scale-amenability visible as architecture-synthesis pressure. | Repair cases where a functional architecture or universal bearer is admitted without feasible bearers, scale window, or affected characteristics. | Repair row `Function with no feasible bearer`; anti-pattern row `FunctionalGraphNoBearer`; worked Show-F. | A functional graph, neural architecture, benchmark result, or scale curve is not architecture adequacy, assurance, release, or project architecture decision. |
@@ -65729,7 +66199,7 @@ These rows document transfers from source practice into C.32.FAIL. Each row stat
 
 ### C.32.FAIL:12 - Relations
 
-- **Builds on:** `C.32` for candidate palette repair, `C.32.CONWAY` for transformer and transformed architecture correspondence repair, `C.30` and `C.30.AD` for architecture description boundaries, `C.30.ASV` for architecture structural views, `C.31` for module and interface architecture, `C.32.MLAO` for cross-scope residual repairs, `C.29` for mathematical-lens use, `E.17` and `E.24.PUB` for publication-face boundaries, `A.6.P` and `E.10` for source-expression and relation recovery.
+- **Builds on:** `C.32` for candidate palette repair; `C.32.CONWAY` for a synthesis frame or exact qualified architecture-influence/transformed-side pair while keeping the changed referent, C.30 architecture relations or modal claims, direct influence occurrence, actors, assignments, Work, actual transformation, and any E.18.NET network distinct; `C.30` and `C.30.AD` for architecture relation, claim, and description boundaries; `C.30.ASV` for architecture structural views; `C.31` for module and interface architecture; `C.32.MLAO` for cross-scope residual repairs; `C.29` for mathematical-lens use; `E.17` and `E.24.PUB` for publication-face boundaries; and `A.6.P` and `E.10` for source-expression and relation recovery.
 - **Coordinates with:** `A.6.F` when function and architecture-characteristic wording is mixed, `A.6.M` when module-interface repair is current, `C.19.1` when a general scale-amenable bearer or method is preferred, the A.15 family when role or work structure is current, `A.10` and `B.3` when evidence or assurance claims are current, `A.20` and `A.21` when gate or release claims are current, `C.18` and `C.19` for archive, front, pool-treatment, or stepping-stone claims, `C.27` when temporal adequacy is current, `E.18` when transformation-flow structure is current, `C.32.P2S` when the failure reopens problem-to-structure carry-through, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project architecture-decision claims.
 - **Receiving patterns after the repair cue:** `A.10` for evidence claims, `B.3` for assurance claims, `A.20` or `A.21` for gate or release claims when those claims are being made, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project architecture decisions, only after the architecture repair cue has named the object under stress and the repair action.
 - **Boundary:** C.32.FAIL governs repair cues for architecture-synthesis failures. It does not govern final candidate selection, evidence sufficiency, assurance, gate passage, release claims, or architecture decision.
@@ -65762,15 +66232,19 @@ Typical entry phrases:
 "The ADR cannot be written yet because the decision relation is not clear."
 ```
 
-**First-minute use slice.** A product-family architect has a C.32 candidate palette with three module, placement, and evidence-structure variants. C.32.ACS names maintainability, substitutability, and evidence reuse as optimization indicators, and C.32.ACE has evaluated the candidates under one parity frame. Using C.32.PAD, the architect records the selected configuration, the affected selected structures, the accepted loss in evidence reuse, the method-use instruction for product teams, the work split between architecture-owned structure and team-owned refinement, the source-return condition, and the reopen trigger. The result is not an ADR file yet; it is the project architecture decision relation that an ADR or another publication form can describe.
+**First-minute use slice.** A product-family architect has a C.32 candidate palette with three module, placement, and evidence-structure variants. C.32.ACS names maintainability, substitutability, and evidence reuse as optimization indicators, and C.32.ACE has evaluated the candidates under one parity frame. Using C.32.PAD, the architect records the exact composite project work, selected configuration, affected selected structures, accepted loss in evidence reuse, method-use instruction for product teams, work split between architecture-owned structure and team-owned refinement, source-return condition, and reopen trigger. The result is not an ADR file yet; it is the architecture decision relation concerning that project work which an ADR or another publication form can describe.
 
-The primary `EntityOfConcern` is `ArchitectureDecisionRelation@Project`: a project-scoped decision relation over one bounded architecture question. It links the decision subject, candidate basis, selected architecture option, affected structures, architecture characteristics, rationale, accepted losses, consequences, method and work expectations, publication projection, evidence or eval exits, and reopen conditions.
+The primary `EntityOfConcern` is `ArchitectureDecisionRelation@Project`: an architecture decision relation over one bounded architecture question with one exact composite project `U.Work` as a participant. It links that work, the decision subject, candidate basis, selected architecture option, affected structures, architecture characteristics, rationale, accepted losses, consequences, method and work expectations, publication projection, evidence or eval exits, and reopen conditions.
 
-`ArchitectureDecisionRelation@Project` is not a new `U.*` kind. It is a non-U project relation with filled slots. When a slot becomes load-bearing as an FPF object, recover the governing pattern for that object.
+`ArchitectureDecisionRelation@Project` is not a new `U.*` kind. `@Project` is a compatibility and retrieval cue, not the source of project identity or scope. The relation is project-local only when `projectWorkOccurrenceRef` identifies the exact composite `U.Work` that participates in it. When another slot becomes load-bearing as an FPF object, recover the governing pattern for that object.
 
-What goes wrong if C.32.PAD is missed: a team writes an architecture record, diagram, shortlist, ranking, or local choice without a recoverable project decision relation. Later workers cannot tell which architecture configuration is selected, which structures are affected, which method they must use, which losses were accepted, or when the decision must be reopened.
+When this decision designates a **project system-of-interest**, `projectSystemOfInterestRef?` names only an independently admitted existing `U.System`. Before identity inception, keep the intended referent in `intendedProjectSystemClaimRef?` as `U.WorkPlan`, decision, system-description, or other claim content. Cite `systemOfInterestRoleAssignmentRef?` only when A.2 names the role value, taxonomy episteme, effective scheme, and enactment-facing participation and the corresponding A.2.1 `U.RoleAssignment` separately obtains. Designation, role interpretation, assignment, Work/change/use facts, and the decision remain distinct. The decision neither establishes a compound project-selection truth nor repairs its missing constructor; when that one truth is required, retain every direct fact and return `missing-substrate[project-selection-conjunction]` through A.15.6.
 
-What C.32.PAD buys in practice: the project can turn a candidate palette into one governed decision relation that is strong enough to guide work, publish an ADR-like record, support review, and reopen under architecture evolution.
+When the decision uses a transformation-flow network, `transformationFlowStructureNetworkRef?` names only an independently selected E.18.NET `TransformationFlowStructureNetwork@Context <: U.Structure`; `projectNetworkSelectionResultRef?` may cite the separate C.2.1 judgment about why that network answers the project question, and `architectureTransformationFlowStructureRelationRef?` cites C.30.TFS-REL when architecture use is current. A network record, a C.32.CONWAY frame or exact pair row, and this decision create no network member, cross-flow occurrence, architecture-influence occurrence, architecture relation, or other world-side fact.
+
+What goes wrong if C.32.PAD is missed: a team writes an architecture record, diagram, shortlist, ranking, or local choice without a recoverable architecture decision relation to exact project work. Later workers cannot tell which architecture configuration is selected, which structures are affected, which method they must use, which losses were accepted, or when the decision must be reopened.
+
+What C.32.PAD buys in practice: practitioners performing the project work can turn a candidate palette into one governed decision relation that is strong enough to guide work, publish an ADR-like record, support review, and reopen under architecture evolution.
 
 Ordinary working move: recover the live decision question, cite the candidate basis, select the architecture option or bounded exception, record the trade-off over declared architecture characteristics, then bind the decision to method-use expectations, work split, source-return, and reopen conditions.
 
@@ -65783,6 +66257,10 @@ The first useful output is `ArchitectureDecisionRelation@Project`:
 ```text
 ArchitectureDecisionRelation@Project:
   decisionId:
+  projectWorkOccurrenceRef: U.EntityRef constrained to exact composite U.Work
+  projectSystemOfInterestRef?: U.EntityRef constrained to one independently admitted existing U.System
+  intendedProjectSystemClaimRef?: U.WorkPlan, decision, system-description, or other claim episteme ref before identity inception
+  systemOfInterestRoleAssignmentRef?: U.EntityRef constrained to one separately obtaining A.2.1 U.RoleAssignment, only with its named A.2 role/taxonomy interpretation
   decisionSubjectRef:
   describedHolonRef:
   boundedContextRef:
@@ -65791,7 +66269,10 @@ ArchitectureDecisionRelation@Project:
   comparisonOrSelectionRefs?
   structuralInformationLensUseRefs?
   holonTransitionOrBOSCTriggerRefs?
-  transformerTransformedCorrespondenceRef?
+  architectureInfluenceCorrespondenceRef?: C.32.CONWAY frame or exact pair-row ref
+  transformationFlowStructureNetworkRef?: exact independently selected E.18.NET TransformationFlowStructureNetwork@Context ref
+  projectNetworkSelectionResultRef?: exact C.2.1 result episteme whose EntityOfConcern is transformationFlowStructureNetworkRef
+  architectureTransformationFlowStructureRelationRef?: exact C.30.TFS-REL use/trace ref when architecture uses that network
   selectedArchitectureOptionRefs:
   selectedStructureEffects:
     - structureKindRef:
@@ -65827,18 +66308,18 @@ ArchitectureDecisionRelation@Project:
   status:
 ```
 
-The field names in this first-output form are publication-friendly filled-reference fields. Durable relation positions must be expressible through `A.6.5` SlotSpecs: each position has a local `SlotKind`, an admitted `ValueKind`, and a by-value or concrete `RefKind` filling mode. A field name such as `decisionSubjectRef` is not a SlotKind, not a U-kind, and not an ADR heading; it is the filled-reference field by which this project instance points to the value governed by the slot-bearing relation.
+The field names in this first-output form are publication-friendly filled-reference fields. Durable relation positions must be expressible through `A.6.5` SlotSpecs: each position has a local `SlotKind`, an admitted `ValueKind`, and a by-value or concrete `RefKind` filling mode. A field name such as `decisionSubjectRef` is not a SlotKind, not a U-kind, and not an ADR heading; it is the filled-reference field by which this relation record points to the value governed by the slot-bearing relation.
 
 ### C.32.PAD:2 - Problem
 
 
-Architecture synthesis produces candidates; project work still needs a decision. The decision is not the candidate palette, not the selected set publication, not the architecture description, and not the ADR file. It is the project relation that says which architecture option is now pursued and what follows from that selection.
+Architecture synthesis produces candidates; the systems and roles performing project work still need a decision. The decision is not the candidate palette, not the selected set publication, not the architecture description, and not the ADR file. It is the architecture decision relation that identifies the exact composite project work, says which architecture option is now pursued for it, and records what follows from that selection.
 
-The problem is difficult because architecture decisions sit between structures and methods. Architecture descriptions describe selected structures of the target holon. A project architecture decision can also tell developer roles which method description, architectural style, pattern use, or work boundary they must follow so that later work produces or preserves the intended structures. For example, "use the client-server style here" is a method-use instruction whose intended result is a module and interaction structure of the target system. The decision relation must keep both sides visible: intended structure of the transformed holon and method expectations for the transformer holon.
+The problem is difficult because architecture decisions sit between structures and methods. C.30 keeps an obtaining `ArchitectureRelation` with its exact holon and selected `U.Structure` separate from an `ArchitectureClaim` carrying candidate, required, desired, or expected content. A project architecture decision can also tell developer roles which method description, architectural style, pattern use, or work boundary they must follow so that later work aims to produce or preserve the intended structures. For example, "use the client-server style here" is a method-use instruction whose intended result is a module and interaction structure of the described system. The decision relation must keep both sides visible: actual or modal structure content for the described or transformed-side holon, and method and Work expectations for exact systems, roles, assignments, and Work. When C.32.CONWAY supplies an influence-source architecture or selected structure, that source remains non-agentive and does not become the performer.
 
 The problem is also multilevel. The architect may decide selected structures at one holon level while developers later refine lower-level structures. A decision must therefore say where the architect-owned architecture claim stops, where developer-owned refinement starts, which source detail must remain recoverable, and which result can reopen the decision. If that boundary is missing, architecture governance becomes either empty advice or uncontrolled micro-management.
 
-Finally, architecture decisions are evolutionary. They are made under current candidate knowledge, current characteristic criteria, current eval readings, and current organization or tool constraints. They should be explicit enough for present work and cheap enough to supersede when a better candidate, changed characteristic pressure, or transformer-transformed mismatch appears.
+Finally, architecture decisions are evolutionary. They are made under current candidate knowledge, current characteristic criteria, current eval readings, and current organization or tool constraints. They should be explicit enough for present work and cheap enough to supersede when a better candidate, changed characteristic pressure, or architecture-influence/transformed-side fit changes.
 
 C.32.PAD solves the post-synthesis decision problem by making the decision relation explicit before any ADR-like publication projection is written.
 
@@ -65848,48 +66329,50 @@ C.32.PAD solves the post-synthesis decision problem by making the decision relat
 |---|---|
 | Candidate plurality | Several candidate configurations can be valid under different trade-offs, while project work needs one current direction or a bounded exception. |
 | Trade-off visibility | Architecture characteristics compete; a decision that hides accepted losses cannot be responsibly executed or reopened. |
-| Structure and method coupling | The decision must govern intended structures of the target holon and may also prescribe developer methods that produce those structures. |
+| Structure and method coupling | The decision must govern actual or modal structure content for the described or transformed-side holon and may also prescribe developer methods intended to produce or preserve those structures. |
 | Work split | Architect-owned structure and developer-owned refinement must be separated without severing source return. |
 | Evolution | A decision must close enough work for now while staying reopenable when context, eval readings, or candidates change. |
 | Publication pressure | Teams often want an ADR file before the decision relation is recoverable. |
 
 ### C.32.PAD:4 - Solution
 
-Create `ArchitectureDecisionRelation@Project` before writing an ADR-like publication record. Treat it as the project decision relation that binds candidate basis, selected architecture option, affected structures, architecture-characteristic trade-offs, rationale, consequences, method expectations, work split, and reopen conditions.
+Create `ArchitectureDecisionRelation@Project` before writing an ADR-like publication record. Treat it as the architecture decision relation that includes the exact composite project `U.Work` and binds it to the candidate basis, selected architecture option, affected structures, architecture-characteristic trade-offs, rationale, consequences, method expectations, work split, and reopen conditions.
 
 Work in this order:
 
-1. Name the decision subject: described holon, bounded context, decision question, and status.
-2. Cite the candidate basis. Use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when transformer and transformed structures were synthesized together, and `C.32.FAIL` for repaired candidate errors.
+1. Name the exact composite project `U.Work` participant and the decision subject: described holon, bounded context, decision question, and status. If the decision designates a project system-of-interest, cite the exact existing `U.System` or the pre-inception intended-system claim, keep every Work/change/use fact separately governed, and cite a `SystemOfInterestRole` assignment only with its named A.2 role/taxonomy interpretation and separately obtaining A.2.1 assignment. A decision designation proves no compound project-selection truth; return `missing-substrate[project-selection-conjunction]` when that stronger truth is required.
+2. Cite the candidate basis. Use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when an influence-source architecture and transformed-side architecture content shaped the candidate, and `C.32.FAIL` for repaired candidate errors. Cite a C.32.CONWAY synthesis frame while either side is modal or the direct influence relation is unresolved; cite an exact pair row only for its already obtaining direct occurrence and two obtaining C.30 architecture-relation participants.
 3. Cite comparison or selection input only when it exists. Explicit comparison belongs to `A.19.CPM`; set-returning selection belongs to `A.19.SelectorMechanism`; selected-set publication belongs to `G.5`; local choice belongs to `C.11`.
 4. State the selected architecture option or bounded exception. Name the affected selected structures and the governing pattern for each structure claim.
 5. Record the architecture-characteristic trade-off. Use criteria rows from `C.32.ACS`, eval results from `C.32.ACE`, measurement support from `C.16`, Q-Bundles from `C.25`, modularity or scale support from `C.31`, and `C.29` structural-information lens uses for compressed recoverable structure, accepted description loss, hidden dependency, and source-return. None of those lenses, measures, or bundles decides the architecture by itself.
 6. Record rationale, rejected options, accepted losses, and consequences. A rejected option can remain useful as a stepping stone or archive item; do not turn it into a failure unless the receiving failure pattern is triggered.
 7. Bind the decision to architecture descriptions. Use `C.30.AD` for architecture-description adequacy and `C.30.ASV` for selected-structure view adequacy. A diagram, model, file, or view can describe the decision basis; it does not become the decision relation.
-8. Bind the decision to method-use instructions when the architect needs developers to use a method, pattern, style, toolchain step, or work practice so the target holon gains the intended structure. Use `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `A.6.M`, `E.8`, `E.11.PUR`, and `C.24` according to the live claim.
+8. Bind the decision to method-use instructions when the architect needs developers to use a method, pattern, style, toolchain step, or work practice so the described or transformed-side holon is intended to gain or preserve the named structure. Use `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `A.6.M`, `E.8`, `E.11.PUR`, and `C.24` according to the live claim.
 9. State the architect-developer split. Name architect-owned selected structures, developer-owned refinement objects, source-return conditions, readiness exits, and governance exits. When the split depends on holon level, changed whole, or BOSC-triggered boundary pressure, fill `holonTransitionOrBOSCTriggerRefs?` through `B.2.P` claim-kind recovery or `B.2` whole reidentification instead of leaving a generic level note.
 10. Choose a publication projection only after the decision relation is clear. Use `C.32.ADR` for ADR-like publication projection; use `E.17` and `E.24.PUB` for publication-face and publication-use claims.
 11. Add evidence, assurance, gate, and governance exits only when those claims are being made. Use `A.10`, `B.3`, `A.21`, and the local governance pattern rather than adding those statuses to the decision relation by name.
-12. Write reopen and supersession conditions. Reopen when the candidate basis changes, a protected architecture characteristic crosses its guardrail, the transformer structure can no longer produce the transformed structure, a stronger source changes the accepted loss, or the decision's method-use instruction proves unusable.
+12. Write reopen and supersession conditions. Reopen when the candidate basis changes, a protected architecture characteristic crosses its guardrail, an independently typed influence-source structure or arrangement no longer fits the transformed-side actual or modal architecture content, a stronger source changes the accepted loss, or the decision's method-use instruction proves unusable.
+
+If one project question uses an E.18.NET network, first preserve that network's independent A.22/E.18.NET selection. A persistent project-network judgment stays in its C.2.1 result episteme under A.15.6, and architecture use docks through C.30.TFS-REL. A C.32.CONWAY exact pair row may be cited in `architectureCorrespondenceRowRefs[]` of a network record, but that citation is only a qualified reading: it adds no network member or cross-flow occurrence, and PAD repeats none of the network's member, relation, constraint, endpoint, or use-frame fields.
 
 #### C.32.PAD:4.1 - Decision readiness
 
-A C.32.PAD decision is ready to draft when the current decision relation can cite at least one candidate basis, one affected selected structure, one architecture-characteristic trade-off or declared reason for no live trade-off, one expected work consequence, one reopen condition, and any triggered `holonTransitionOrBOSCTriggerRefs?` or `structuralInformationLensUseRefs?` needed to preserve source return.
+A C.32.PAD decision is ready to draft when the current decision relation identifies the exact composite project `U.Work` participant and can cite at least one candidate basis, one affected selected structure, one architecture-characteristic trade-off or declared reason for no live trade-off, one expected work consequence, one reopen condition, and any triggered `holonTransitionOrBOSCTriggerRefs?` or `structuralInformationLensUseRefs?` needed to preserve source return. When system-of-interest, role-assignment, architecture-influence, or network fields are present, their exact A.15.6, A.2/A.2.1, C.32.CONWAY, E.18.NET, and C.30.TFS-REL preconditions must already be satisfied or the reference remains absent.
 
-If the candidate basis is absent, return to `C.32`. If architecture-characteristic rows are absent, return to `C.32.ACS` or `C.25`. If the decision only says "the metric is best", return to `C.32.ACE`, `C.16`, or `A.19.CPM` before deciding. If the intended work method is not recoverable, return to `A.15`.
+If the candidate basis is absent, return to `C.32`. If architecture-characteristic rows are absent, return to `C.32.ACS` or `C.25`. If the decision only says "the metric is best", return to `C.32.ACE`, `C.16`, or `A.19.CPM` before deciding. If the intended work method is not recoverable, return to `A.15`. If an existing system, role assignment, project-network judgment, network selection, architecture use, or influence pair is unresolved, return to its direct owner and keep only the truthful designation, modal claim, candidate frame, or explicit stop in PAD.
 
 #### C.32.PAD:4.2 - Constructive architecture decision path
 
-Some architecture decisions are constructive: they prescribe methods that, when used by developer roles, produce or preserve the intended structures. Admit that path only when the decision names:
+Some architecture decisions are constructive: they prescribe methods that developer roles or other exact assigned systems are expected to use so that later Work aims to produce or preserve intended structures. Admit that path only when the decision names:
 
-- the architecture claim or selected structure to be produced or preserved;
+- the obtaining architecture relation and selected structure, or the exact modal `ArchitectureClaim`, to be produced or preserved;
 - the method description, architectural style, pattern use, or work practice to be used;
-- the developer role or transformer holon expected to use it;
-- the expected structure effect on the transformed holon;
+- the exact responsible role and, when assignment identity matters, its separately obtaining `U.RoleAssignment`; never substitute an influence-source architecture, toolchain structure, or other non-agentive structure for the performer;
+- the expected structure effect on the described or transformed-side holon, kept modal until its direct C.30 architecture predicate obtains;
 - the work-planning boundary and readiness or gate exit;
 - the source-return condition and reopen trigger.
 
-This keeps architecture decisions connected to work without treating the decision description, ADR file, method description, or performed work as the architecture itself.
+This keeps architecture decisions connected to work without treating the decision description, ADR file, method description, selected network, influence-source structure, or performed Work as the architecture, performer, or proof that the expected structure effect obtains.
 
 #### C.32.PAD:4.3 - Minimum sufficient relation and slot-change impact
 
@@ -65897,6 +66380,8 @@ A small complete PAD instance can be this short:
 
 ```text
 ArchitectureDecisionRelation@OrderFlow:
+  decisionId: OrderFlowArchitectureDecision-2026Q3
+  projectWorkOccurrenceRef: ProductFamilyQ3OrderArchitectureWork, exact admitted composite U.Work
   decisionSubjectRef: order-integration architecture for product-family Q3
   describedHolonRef: product-family order-flow system
   candidateBasisRefs: [C32CandidatePalette:order-flow-2026-06]
@@ -65932,6 +66417,9 @@ When a filled field changes, repair the smallest owner that governs the changed 
 | Changed filled field | Immediate repair locus |
 |---|---|
 | `candidateBasisRefs` or `selectedArchitectureOptionRefs` | Return to `C.32`, `C.32.MLAO`, comparison or selection inputs, then update PAD before ADR projection. |
+| `projectSystemOfInterestRef?`, `intendedProjectSystemClaimRef?`, or `systemOfInterestRoleAssignmentRef?` | Return to A.15.6 for actual-versus-intended designation and the compound-selection stop, and to A.2/A.2.1 for the named role/taxonomy interpretation and obtaining assignment. Keep every independently obtaining Work/change/use fact; remove any reference the decision alone was being used to prove. |
+| `architectureInfluenceCorrespondenceRef?` | Return to C.32.CONWAY. Keep a frame for modal or unresolved sides and cite an exact pair row only for the already obtaining direct occurrence and its exact C.30 architecture-relation participants. |
+| `transformationFlowStructureNetworkRef?`, `projectNetworkSelectionResultRef?`, or `architectureTransformationFlowStructureRelationRef?` | Return to E.18.NET for exact network identity, A.15.6/C.2.1 for the project-question judgment, and C.30.TFS-REL for architecture use. Update or remove only the affected refs; do not copy or repair network members, relations, constraints, endpoints, or use frame inside PAD. |
 | `selectedStructureEffects` | Repair the architecture claim or selected-structure view in `C.30`, `C.30.AD`, or `C.30.ASV`; then update PAD consequences. |
 | `architectureCharacteristicTradeoffs` | Repair `C.32.ACS`, `C.32.ACE`, `C.25`, `C.16`, or comparison input before relying on the decision. |
 | `methodUseInstructions` or `architectDeveloperSplit` | Repair method, work, role, readiness, and work-boundary claims through `A.15` family, `E.8`, `E.11.PUR`, or `C.24`. |
@@ -65947,9 +66435,11 @@ When a filled field changes, repair the smallest owner that governs the changed 
 
 **Manufacturing fixture architecture.** A production architect compares a dedicated fixture per product, a universal fixture with adapters, and a mixed cell layout. The selected option uses a universal fixture only for products inside a scale window. C.32.PAD records module, placement, maintenance, and evidence-structure effects, the accepted setup-time loss, the method instruction for cell design, and the trigger for returning to candidate synthesis when adapter complexity exceeds the guardrail.
 
+**Project system-of-interest and network.** A plant-modernization decision designates already admitted `PumpUnit-3 : U.System` as the project system-of-interest and cites exact composite `PumpUpgradeWork-7`. The designation does not create a project container or the compound truth that the project selected the pump. `SystemOfInterestRole` enters only with the named maintenance-role taxonomy and a separately obtaining `PumpUnit-3-QualificationSystemOfInterestAssignment-7 : U.RoleAssignment`; each work-to-pump, work-to-change, evaluation, production, or use fact keeps its own governor. An independently selected E.18.NET network may connect production-system change, pump change, and qualification flows for the named project question. PAD cites that exact network, the optional C.2.1 selection judgment, and the C.30.TFS-REL architecture-use trace; it does not recreate network identity or infer cross-flow relations from a record or C.32.CONWAY pair row. If the decision needs the still-unsupported compound project-selection truth, the case returns `missing-substrate[project-selection-conjunction]`.
+
 **Method-family architecture.** A review-method owner compares role-specialized review, peer rotation, and tool-supported triage. The selected option uses peer rotation plus a tool-supported evidence handoff. C.32.PAD records role, method, evidence, and information structures, the trade-off between teachability and evidence custody, and the developer-owned refinement boundary for local checklists.
 
-**Transformer and transformed holons.** An automation program changes both the toolchain that transforms products and the product architecture being transformed. C.32.CONWAY supplies the correspondence frame. C.32.PAD records which toolchain structure is required to produce the target product structure and which mismatch will reopen the decision.
+**Architecture influence and transformed-side fit.** An automation project changes both a toolchain and the product it is used to change. C.32.CONWAY supplies a synthesis frame or, only after direct settlement, an exact architecture-influence pair row over the obtaining source-side and transformed-side C.30 architecture relations. C.32.PAD records which toolchain structure is decision-relevant, which product-side structure is selected or intended, which exact systems, assignments, methods, and Work are expected to realize the decision, and which fit change reopens it. The toolchain architecture and pair row neither act nor prove performance or actual transformation.
 
 **Digital-twin structural information loss.** A built-asset team publishes a 6D-style digital-twin decision view for construction planning. The view intentionally hides supplier-contract and temporary-work structures. C.32.PAD records the selected building, placement, schedule, cost, operation, and evidence structures that the decision uses; `C.29` records which hidden structures remain recoverable and which accepted loss reopens the decision. The view count, file, and model do not become the decision authority.
 
@@ -65968,7 +66458,7 @@ When a filled field changes, repair the smallest owner that governs the changed 
 
 | Requirement | Required result |
 |---|---|
-| `CC-PAD-1` | The decision subject, described holon, bounded context, and decision question are explicit. |
+| `CC-PAD-1` | The exact composite project `U.Work` participant, decision subject, described holon, bounded context, and decision question are explicit. |
 | `CC-PAD-2` | The decision cites candidate basis from `C.32` or a named receiving candidate pattern, or states why no candidate-set question is live. |
 | `CC-PAD-3` | The selected architecture option or bounded exception is named. |
 | `CC-PAD-4` | Affected selected structures are named with governing pattern refs. |
@@ -65977,6 +66467,8 @@ When a filled field changes, repair the smallest owner that governs the changed 
 | `CC-PAD-7` | The architect-developer split, source-return condition, and reopen conditions are recorded. |
 | `CC-PAD-8` | Triggered holon-transition or BOSC boundary pressure cites `B.2.P` or `B.2`, and structural-information loss or compression cites `C.29`. |
 | `CC-PAD-9` | ADR-like publication, evidence, assurance, gate, comparison, selection, selected-set publication, local choice, and work claims exit to their receiving patterns. |
+| `CC-PAD-10` | Any project system-of-interest ref denotes one independently admitted existing `U.System`; a pre-inception intended referent stays in claim content; `SystemOfInterestRole` use cites its named A.2 taxonomy interpretation and a separately obtaining A.2.1 assignment. Decision designation, role, assignment, and direct facts neither entail one another nor establish the missing compound project-selection truth. |
+| `CC-PAD-11` | Any network ref resolves to one independently selected E.18.NET structure, its project-question judgment stays in a separate C.2.1 episteme, and architecture use docks through C.30.TFS-REL. A PAD decision, network record, C.32.CONWAY frame, or exact pair row creates no member, cross-flow occurrence, influence occurrence, architecture relation, or actual structure effect. |
 
 ### C.32.PAD:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -65986,15 +66478,17 @@ When a filled field changes, repair the smallest owner that governs the changed 
 | `CandidateWinnerByMetric` | One score, benchmark, or eval reading is treated as the architecture decision. | Return to `C.32.ACS`, `C.32.ACE`, `C.16`, and `A.19.CPM`; decide only after trade-offs and accepted losses are recorded. |
 | `StructureOnlyDecision` | The decision names a target structure but gives no method-use or work-split instruction for those who must realize it. | Add method-description or pattern-use refs, responsible roles, work boundary, readiness exit, and expected structure effect; use `A.15` for work claims. |
 | `MethodOnlyDecision` | The decision says which style, pattern, or tool to use but not which target structures it is expected to produce or preserve. | Name the intended selected structures and architecture-characteristic trade-offs; return to `C.30`, `C.30.ASV`, or `C.32` if the structure is not recoverable. |
-| `FrozenArchitectureDecision` | The decision has no source-return or reopen condition. | Add eval guardrails, source-currentness return, transformer-transformed mismatch trigger, or supersession rule. |
+| `FrozenArchitectureDecision` | The decision has no source-return or reopen condition. | Add eval guardrails, source-currentness return, architecture-influence/transformed-side fit trigger, or supersession rule. |
 | `LensOrQBundleAsDecisionAuthority` | A view, structural-information lens, measurement row, Q-Bundle, or eval reading is treated as if it selected the architecture. | Return the source to its owner: `C.29` for lens use, `C.25` for Q-Bundle, `C.16` for measurement, `C.32.ACE` for eval, and PAD for the actual decision relation. |
 | `GovernanceByImplication` | Teams are expected to follow the decision, but no readiness, gate, evidence, assurance, or governance exit is named. | Add the exact receiving pattern refs; do not import those statuses into PAD. |
+| `ProjectSelectionOrRoleByDecision` | A PAD field is treated as proof that a project selected a system, or the system gains `SystemOfInterestRole` or an assignment because the decision names it. | Keep the decision designation and every direct fact; apply A.15.6 and A.2/A.2.1 independently, and return `missing-substrate[project-selection-conjunction]` when the compound truth is needed. |
+| `NetworkOrInfluenceByCitation` | A cited network record, C.32.CONWAY frame or pair row, or PAD decision is treated as a network member, cross-flow occurrence, architecture-influence occurrence, performer, or actual structure effect. | Restore the exact E.18.NET network and direct relation owners, use C.30.TFS-REL for architecture use, and keep expected structure effect modal until C.30 independently establishes the actual architecture relation. |
 
 ### C.32.PAD:9 - Consequences
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| The project decision relation is explicit before publication. | ADRs, design memos, and governance files can describe a recoverable decision rather than inventing one. | The architect must do decision work before documentation work. |
+| The architecture decision relation to exact composite project work is explicit before publication. | ADRs, design memos, and governance files can describe a recoverable decision rather than inventing one. | The architect performs decision work before publication work. |
 | Structure and method are coupled without collapsing. | Developers can see both intended architecture structures and required methods. | The decision record needs enough detail to avoid empty method instructions. |
 | Trade-offs and accepted losses are recorded. | Later teams can reopen the decision under changed characteristics instead of guessing the original rationale. | Decisions may look less tidy because loss is visible. |
 | Architect-developer split is stated. | Team refinement can proceed without losing source return. | Architecture governance must maintain split and reopen conditions. |
@@ -66003,7 +66497,7 @@ When a filled field changes, repair the smallest owner that governs the changed 
 
 C.32.PAD exists because candidate synthesis and architecture decision are different work moments. C.32 builds the option space; PAD commits the project to a current architecture option or bounded exception and records the method and work consequences of that commitment.
 
-The pattern keeps three objects apart: `ArchitectureOf@Context` as the architecture claim over structures, `ArchitectureDecisionRelation@Project` as the project relation that selects and obligates, and `ArchitectureDecisionDescription@Project` as the description that can be published in ADR-like or other forms. This lets FPF reuse its existing description, method, work, evidence, assurance, measurement, and publication patterns instead of creating a separate architecture-only duplicate ontology.
+The pattern keeps four layers apart: an obtaining C.30 `ArchitectureRelation` over one exact architecture-bearing holon and selected `U.Structure`; any `ArchitectureClaim` that states actual, negative, unresolved, candidate, required, desired, or expected content about the holon, relation, or structure; `ArchitectureDecisionRelation@Project`, which connects exact composite project Work to the selected option and declared work consequences; and `ArchitectureDecisionDescription@Project`, whose project use is governed through `C.30.AD` and which can be published in ADR-like or other forms. Optional system-of-interest, role-assignment, architecture-influence, and network references retain their A.15.6, A.2/A.2.1, C.32.CONWAY, E.18.NET, and C.30.TFS-REL owners. This lets FPF reuse its existing architecture, description, method, work, evidence, assurance, measurement, publication, project, and network patterns instead of creating a separate architecture-decision ontology for those facts.
 
 The pattern is architecture-reusable across holon kinds, not because every decision target is itself a holon kind. The same decision relation can apply to admitted holons such as systems, organizations-as-systems, built assets, AI-agent setups, epistemes, work occurrences, or disciplines, and it can also govern method-side, role-side, or evidence-side structures when those structures are kept under `A.3.1`, `A.2.7`, `A.10`, and `A.15` rather than admitted as holons by label.
 
@@ -66014,31 +66508,34 @@ These rows document transfers from source practice into C.32.PAD. Keep a source 
 | Source to inspect | Why this source is load-bearing here | Transfer into PAD | Concrete PAD mutation | Blocked overread |
 |---|---|---|---|---|
 | ISO/IEC/IEEE 42010:2022 official standard (`https://www.iso.org/standard/74393.html`; IEEE page `https://standards.ieee.org/ieee/42010/6846/`) | Current official source for architecture-description requirements; it explicitly scopes itself to AD structure and expression, not architecting methods or the architecture itself. | Keep architecture descriptions as description objects and use PAD for the decision relation that may cite them. | PAD has `architectureDescriptionRefs`, selected-structure effects, and source-return conditions rather than treating a view, viewpoint, file, or model as the decision. | ISO 42010 architecture-description structure does not replace C.32 synthesis, A.15 method work, or PAD decision relation. |
-| Michael Nygard, `Documenting Architecture Decisions` (`https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions`) | Practitioner source for small, statused records that preserve context, decision, and consequences across time. | Use context, decision, status, consequences, and supersession as publication-relevant decision-description fields. | PAD requires status, consequences, and supersession or reopen conditions before ADR projection. | ADR records are not the project decision relation and do not by themselves ground selected structures. |
+| Michael Nygard, `Documenting Architecture Decisions` (`https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions`) | Practitioner source for small, statused records that preserve context, decision, and consequences across time. | Use context, decision, status, consequences, and supersession as publication-relevant decision-description fields. | PAD requires status, consequences, and supersession or reopen conditions before ADR projection. | ADR records are not the architecture decision relation with its exact project-work participant and do not by themselves ground selected structures. |
 | MADR 4.x (`https://adr.github.io/madr/`) | Current ADR practice with options, outcome, status, links, and confirmation pressure. | Require candidate basis, outcome, decision status, links to related decisions, and confirmation or eval exits. | PAD separates candidate basis, selected option, consequence rows, method-use instruction, and reopen conditions. | MADR's broad "any decision" use is not imported as FPF architecture-decision ontology. |
 | Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed. (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`) | Current practitioner source for guided incremental architecture change and source-side fitness-function wording. | Treat eval support as `C.32.ACE` inputs and reopen conditions, not as the decision itself. | PAD requires eval refs, guardrails, and reopen conditions when evolutionary feedback guides the decision. | Fitness-function terminology is not imported as an FPF object name. |
 | Ford, Richards, Sadalage, and Dehghani, `Software Architecture: The Hard Parts` (`https://www.oreilly.com/library/view/software-architecture-the/9781492086888/`) | Current practitioner source for trade-offs, least-worst choices, and architecture characteristics under uncertainty. | Make accepted losses and protected counter-characteristics mandatory decision content. | PAD records architecture-characteristic trade-offs, rejected options, accepted losses, and consequences. | A trade-off discussion does not replace candidate synthesis, comparison, evidence, or governance. |
 | NASA Systems Engineering Handbook, decision analysis and trade-study practice (`https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf`) | Non-software engineering source for alternatives, selection criteria, assumptions, limitations, recommendation, impacts, and final decision documentation. | Generalize PAD beyond software ADR practice by requiring candidate basis, selection criteria or comparison refs, assumptions or accepted losses, impacts, and decision-maker commitment. | PAD carries `candidateBasisRefs`, `comparisonOrSelectionRefs?`, trade-offs, consequence rows, status, and reopen conditions for engineering decisions such as fixtures, vehicles, built assets, or methods. | NASA trade-study process is not imported as FPF architecture ontology and does not by itself decide the architecture. |
-| Conway and Team Topologies source line, mediated through `C.32.CONWAY` | Architecture of the transformer holon and transformed holon can constrain each other. | Use correspondence as decision content when work organization, method, toolchain, or team structure must fit target architecture. | PAD may cite `transformerTransformedCorrespondenceRef` and reopen on mismatch. | Team structure is not automatically the target holon's architecture; correspondence must be recovered through C.32.CONWAY. |
-| Current FPF `A.15`, `E.8`, `E.11.PUR`, `C.30.AD`, `C.32`, `C.32.ACS`, `C.32.ACE`, `C.32.ADR`, and `C.32.ADA` | Existing FPF ontology for method descriptions, pattern use, architecture descriptions, candidate synthesis, evals, publication projection, and adequacy evaluation. | Keep PAD narrow: decision relation after candidate synthesis. | Relation and conformance rows send neighboring claims to their governing patterns. | PAD does not duplicate FPF method, publication, evidence, assurance, or pattern-form doctrine. |
+| Conway and Team Topologies source line, mediated through `C.32.CONWAY` | Independently typed influence-source architecture and transformed-side architecture content can constrain candidate fit without making either architecture an actor. | Use a synthesis frame for modal or unresolved sides and an exact pair row only for one already obtaining direct influence occurrence over two obtaining C.30 architecture relations. | PAD may cite `architectureInfluenceCorrespondenceRef?` and reopen when that qualified fit changes. | The frame, pair row, architecture relations, claims, systems, assignments, Work, actual transformation, network, and decision remain separate; citation proves none of their world-side relations. |
+| Current FPF `A.15.6`, `A.2`, `A.2.1`, `E.18.NET`, and `C.30.TFS-REL` | Existing FPF owners for project Work and system-of-interest designation, role interpretation and assignment, selected recursive transformation-flow networks, persistent project-network judgments, and architecture use of those networks. | Let PAD cite exact already governed objects needed by the decision while keeping their identity and truth with those owners. | PAD adds optional exact system, intended-system-claim, role-assignment, network, project-network-result, and architecture-flow-use refs plus explicit return conditions. | A decision designation establishes no compound project-selection truth; a network, record, or citation creates no member or direct relation occurrence. |
+| Current FPF `A.15`, `E.8`, `E.11.PUR`, `C.30`, `C.30.AD`, `C.32`, `C.32.ACS`, `C.32.ACE`, `C.32.ADR`, and `C.32.ADA` | Existing FPF ontology for actual and modal architecture content, method descriptions, pattern use, architecture descriptions, candidate synthesis, evals, publication projection, and adequacy evaluation. | Keep PAD narrow: decision relation after candidate synthesis. | Relation and conformance rows send neighboring claims to their governing patterns. | PAD does not duplicate FPF architecture, method, publication, evidence, assurance, or pattern-form doctrine. |
 
-**Source-currentness boundary.** Recheck a source row when an ADR template, architecture-description standard, evolutionary-architecture practice, FPF pattern, or project governance practice changes the decision field, method-work boundary, or reopen condition that PAD uses.
+**Source-currentness boundary.** Recheck a source row when an ADR template, architecture-description standard, evolutionary-architecture practice, FPF pattern, or project governance practice changes the decision field, method-work boundary, or reopen condition that PAD uses. Reopen only the affected optional docks if A.15.6 changes the actual/intended system or project-selection stop, A.2/A.2.1 changes the role/assignment boundary, C.32.CONWAY changes its frame or exact-pair threshold, or E.18.NET/C.30.TFS-REL changes network identity or architecture-use requirements.
 
 ### C.32.PAD:12 - Relations
 
-- **Builds on:** `C.30`, `C.30.ASV`, `C.30.AD`, `C.32.P2S`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.25`, `C.16`, `C.29`, `C.31`, and `C.31.ASAP`.
-- **Comparison and selection boundary:** `A.19.CPM` compares, `A.19.SelectorMechanism` returns a selected set, `G.5` publishes a selected set, and `C.11` governs local choice. PAD records the project architecture decision relation after those inputs are sufficient.
+- **Builds on:** `A.15.6`, `A.2`, `A.2.1`, `C.30`, `C.30.ASV`, `C.30.AD`, `C.30.TFS-REL`, `E.18.NET`, `C.32.P2S`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.25`, `C.16`, `C.29`, `C.31`, and `C.31.ASAP`.
+- **Comparison and selection boundary:** `A.19.CPM` compares, `A.19.SelectorMechanism` returns a selected set, `G.5` publishes a selected set, and `C.11` governs local choice. PAD records the architecture decision relation with its exact composite project-work participant after those inputs are sufficient.
 - **Description boundary:** `C.30.AD` and `C.30.ASV` govern architecture-description and selected-structure view adequacy. PAD may cite those descriptions but does not replace them.
 - **Structural-information boundary:** `C.33`, `C.34`, and `C.35` may support PAD only for captured structure, lost structure, preservation adequacy, generated-carrier typing, or discovered-carrier typing used by the decision relation. PAD keeps decision relation, rationale, consequences, accepted losses, method consequences, work consequences, source-return, repair ownership, and supersession ownership.
 - **Publication boundary:** `C.32.ADR` projects an `ArchitectureDecisionDescription@Project` into ADR-like form. `E.17` and `E.24.PUB` govern publication faces and publication-use claims.
 - **Adequacy boundary:** `C.32.ADA` evaluates a PAD decision relation, method docking, and publication projection for a declared use.
 - **P2S docking:** P2S reaches PAD only when implementation commitment is live; PAD records the decision relation and returns reopen conditions to P2S when actual structures, eval results, or source-return change the architecture question.
+- **Project system-of-interest boundary:** `A.15.6` governs exact composite project Work, actual-versus-intended system designation, independent Work/change/use facts, project-network judgment, and `missing-substrate[project-selection-conjunction]`; `A.2` and `A.2.1` separately govern `SystemOfInterestRole` interpretation and obtaining assignment. PAD cites those objects only when the architecture decision uses them and proves none of them.
+- **Network and architecture-influence boundary:** `E.18.NET` owns selected network identity, members, exact obtaining cross-flow occurrences, constraints, endpoints, and use frame; `C.30.TFS-REL` owns architecture use; `C.32.CONWAY` owns the synthesis frame and exact qualified pair row. PAD cites the smallest exact refs and never turns a record or row citation into network membership, a direct relation occurrence, actor identity, performance, or actual structure effect.
 - **Method and work boundary:** `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, and `C.24` govern method descriptions, work plans, readiness, pattern-use recommendations, and agentic tool-use work.
 - **Evidence, assurance, and gate boundary:** `A.10`, `B.3`, and `A.21` govern evidence relations, assurance calculus, and gate profiles when those claims are current.
 
 ### C.32.PAD:13 - Footer marker
 
-C.32.PAD closes when `ArchitectureDecisionRelation@Project` names the decision subject, candidate basis, selected architecture option or bounded exception, affected structures, architecture-characteristic trade-offs, accepted losses, rationale, consequences, architecture-description refs, method-use and work-split expectations, source-return condition, triggered holon-transition or BOSC refs, triggered structural-information lens uses, publication projection exit, and reopen or supersession conditions.
+C.32.PAD closes when `ArchitectureDecisionRelation@Project` names the exact composite project `U.Work`, decision subject, candidate basis, selected architecture option or bounded exception, affected structures, architecture-characteristic trade-offs, accepted losses, rationale, consequences, architecture-description refs, method-use and work-split expectations, source-return condition, triggered holon-transition or BOSC refs, triggered structural-information lens uses, publication projection exit, and reopen or supersession conditions. When the decision also cites a project system-of-interest, role assignment, architecture-influence correspondence, or transformation-flow network, each ref resolves to its exact separately governed object, every actual world-side relation is independently established, and the applicable A.15.6 project-selection stop and E.18.NET/C.30.TFS-REL non-duplication boundaries remain explicit.
 
 ### C.32.PAD:End
 
@@ -66084,6 +66581,8 @@ The first useful output is `ArchitectureDecisionRecordProjection@Project`:
 
 ```text
 ArchitectureDecisionRecordProjection@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureDecisionRecordProjectUseRelationRef?: U.RelationRef governed by the exact record-use, publication-use, or work-use pattern
   projectionId:
   architectureDecisionRelationRef:
   architectureDecisionDescriptionRef:
@@ -66106,6 +66605,8 @@ ArchitectureDecisionRecordProjection@Project:
   updateOrReopenCondition:
   publicationUseRefs?
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. It does not make the projection a project, project work, or the architecture decision relation. When this record projection is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, while `architectureDecisionRecordProjectUseRelationRef` identifies the direct relation by which the record is published for, relied on by, or otherwise used in that work under the corresponding governing pattern. The decision relation, its description, the publication projection, any publication occurrence, and the composite project work remain separately identifiable.
 
 ### C.32.ADR:2 - Problem
 
@@ -66288,11 +66789,11 @@ Typical entry phrases:
 "Do not average the decision; tell us what must be repaired."
 ```
 
-**First-minute use slice.** A reviewer receives a PAD decision relation and ADR projection for a modularization decision. Using C.32.ADA, the reviewer declares the use: "ready for developer work and ADR publication." The reviewer scores each coordinate with a short rationale. Candidate traceability is `4 wellExpressedForDeclaredUse`, architecture-characteristic trade-off is `3 sufficientlyExpressedForDeclaredUse`, method docking is `2 partiallyExpressedForDeclaredUse`, and publication projection is `4 wellExpressedForDeclaredUse`. The result does not approve the decision. It directs repair to the method-use instruction, responsible roles, readiness exit, and expected structure effect before the decision can guide developer work.
+**First-minute use slice.** `ArchitectureReviewService-4`, the admitted System holding `ArchitectureReviewerAssignment-6`, performs dated `DecisionAdequacyEvaluationWork-12` over one PAD decision relation and ADR projection for a modularization decision. One separate result episteme states the declared use, `ready for developer work and ADR publication`, and the coordinate outcomes: candidate traceability `4 wellExpressedForDeclaredUse`, architecture-characteristic trade-off `3 sufficientlyExpressedForDeclaredUse`, method docking `2 partiallyExpressedForDeclaredUse`, and publication projection `4 wellExpressedForDeclaredUse`. The result does not approve the decision. It directs repair to the method-use instruction, responsible assignments, readiness exit, and expected structure effect before the decision can guide developer work.
 
-The primary `EntityOfConcern` is `ArchitectureDecisionAdequacyEvaluation@Project`: an evaluation record over one `ArchitectureDecisionRelation@Project`, optional `ArchitectureDecisionRecordProjection@Project`, and declared use.
+The primary governed object is `ArchitectureDecisionAdequacyEvaluation@Project`: a C.32.ADA-local evaluation record over one `ArchitectureDecisionRelation@Project`, optional `ArchitectureDecisionRecordProjection@Project`, and declared use. It is not the evaluated decision, evaluation Work, or result episteme.
 
-`ArchitectureDecisionAdequacyEvaluation@Project` is not a new `U.*` kind, not a gate, not evidence, not assurance, not pattern-quality evaluation, and not a replacement for `C.32.PAD`. It is a typed adequacy evaluation that sends weak coordinates back to their governing repair patterns.
+`ArchitectureDecisionAdequacyEvaluation@Project` is a local record form, not a new `U.*` kind, gate, evidence, assurance, pattern-quality evaluation, or replacement for `C.32.PAD`. Its coordinate table expresses the ADA result content; when that result must be a durable claim, one separately identified C.2.1 episteme states it. The dated evaluation remains separate `U.Work`, and any actual evaluation operation application remains with its direct owner.
 
 What goes wrong if C.32.ADA is missed: a decision can appear complete because it has a record, rationale, or diagram, while it is unusable for the declared work. Weak candidate basis, hidden trade-offs, missing method instructions, absent source-return, and vague supersession conditions remain invisible until implementation or review fails.
 
@@ -66308,11 +66809,23 @@ The first useful output is `ArchitectureDecisionAdequacyEvaluation@Project`:
 
 ```text
 ArchitectureDecisionAdequacyEvaluation@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureDecisionEvaluationProjectUseRelationRef?: U.RelationRef governed by the exact evaluation-use or work-use pattern
   evaluationId:
+  claimScopeRef: U.EntityRef referencing one U.ClaimScope
+  selectedContextSliceRefs:
+  effectiveReferenceScheme:
+  referencePlane?:
+  evaluationWindow:
+  decisionQuestionInputProjectionRef:
+  evaluatorSystemRef?: U.EntityRef constrained to U.System
+  evaluatorRoleAssignmentRef?: U.RelationRef constrained to U.RoleAssignment
+  evaluationWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  evaluationOperationApplicationRefs?: direct-owner relation or A.6.1 application references
+  adequacyResultEpistemeRef?: U.EpistemeRef
   declaredUse:
   architectureDecisionRelationRef:
-  architectureDecisionRecordProjectionRef?
-  evaluatorRoleRef:
+  architectureDecisionRecordProjectionRef?:
   coordinateValues:
     - coordinateRef:
       value: 0|1|2|3|4|5
@@ -66326,6 +66839,8 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   stopCondition:
   reevaluationTrigger:
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. When actual evaluation is claimed, name the admitted evaluator System, exact `U.RoleAssignment`, dated evaluation `U.Work`, F.6 `performedUnderAssignment(W, RA)`, and any enacted Method or direct-owner/A.6.1 operation application separately. The result episteme is a separately identified C.2.1 claim-bearing object; the record, Work, operation application, and result do not substitute for one another, and no generic work-to-result relation is inferred.
 
 ### C.32.ADA:2 - Problem
 
@@ -66379,7 +66894,7 @@ Evaluate every coordinate. If a coordinate is not live, mark it `notTriggered` o
 
 | Coordinate | What is evaluated | Repair when weak |
 |---|---|---|
-| `BoundedDecisionQuestionRecoverability` | Decision subject, described holon, bounded context, status, and decision question can be recovered. | Return to `C.32.PAD` decision subject fields. |
+| `BoundedDecisionQuestionRecoverability` | Decision subject, described holon, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, evaluation window, status, and decision question can be recovered; a selected `BoundedModelUseStructure` is named only when it independently changes interpretation. | Return to `C.32.PAD`, A.2.6, or A.1.1 for the exact missing decision-subject, scope, slice, or model-use-structure content. |
 | `CandidateBasisAndSelectionTraceability` | Candidate palette, residual frame, comparison, selection, selected set, or reason no candidate-set question is live is recoverable. | Return to `C.32`, `C.32.MLAO`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, or `C.11`. |
 | `AffectedStructureAndDescriptionAdequacy` | Affected selected structures, views, architecture descriptions, correspondence, structural-information lens uses, and source-return are recoverable. | Return to `C.30`, `C.30.ASV`, `C.30.AD`, `A.6.F`, `A.6.M`, or `C.29`. |
 | `ArchitectureCharacteristicTradeoffAdequacy` | Architecture characteristics, criteria rows, Q-Bundles, eval readings, accepted losses, and guardrails are explicit. | Return to `C.32.ACS`, `C.32.HCS`, `C.25`, `C.32.ACE`, `C.16`, `C.31`, or `C.31.ASAP`. |
@@ -66411,6 +66926,16 @@ Use these as ordinary defaults. A project can declare stricter stop conditions. 
 ```text
 ArchitectureDecisionAdequacyEvaluation@OrderFlow:
   declaredUse: readyForDeveloperWork
+  claimScopeRef: OrderFlow developer-work readiness for the named decision and release slice
+  selectedContextSliceRefs: OrderFlow service, named product-family release, and current developer-work window slices
+  effectiveReferenceScheme: OrderFlow architecture decision scheme edition 4
+  referencePlane: selected architecture and developer-work commitment
+  evaluationWindow: review session 2026-07-31
+  decisionQuestionInputProjectionRef: PAD decision relation plus its declared-use and source-return fields
+  evaluatorSystemRef: ArchitectureReviewService-4
+  evaluatorRoleAssignmentRef: ArchitectureReviewerAssignment-6
+  evaluationWorkOccurrenceRef: DecisionAdequacyEvaluationWork-12
+  adequacyResultEpistemeRef: DecisionAdequacyResult-12
   architectureDecisionRelationRef: PAD:order-flow-event-integration
   architectureDecisionRecordProjectionRef: ADR:order-flow-event-integration
   noAveragePolicy: true
@@ -66423,7 +66948,7 @@ ArchitectureDecisionAdequacyEvaluation@OrderFlow:
 
 | Coordinate | Value | Label | Short rationale and repair |
 |---|---:|---|---|
-| `BoundedDecisionQuestionRecoverability` | `4` | `wellExpressedForDeclaredUse` | Subject, holon, context, status, and question are clear; `5` would need transfer evidence across another product-family slice. |
+| `BoundedDecisionQuestionRecoverability` | `4` | `wellExpressedForDeclaredUse` | Subject, holon, exact claim scope and selected slices, scheme and plane, window, status, and question are clear; `5` would need transfer evidence across another product-family slice. |
 | `CandidateBasisAndSelectionTraceability` | `4` | `wellExpressedForDeclaredUse` | Candidate palette and selected option are cited; `5` would need another team to replay the selection without local recovery. |
 | `AffectedStructureAndDescriptionAdequacy` | `4` | `wellExpressedForDeclaredUse` | Module and information structures plus C.30.ASV refs are usable; `5` would need a worked cross-team source-return case. |
 | `ArchitectureCharacteristicTradeoffAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | Substitutability gain and latency loss are named, but guardrail eval rows are incomplete; repair through `C.32.ACS`, `C.32.ACE`, `C.25`, and `C.16`. |
@@ -66472,6 +66997,9 @@ ArchitectureDecisionAdequacyEvaluation@OrderFlow:
 | `CC-ADA-5` | No coordinate values are averaged or converted into one global score. |
 | `CC-ADA-6` | Weak coordinates name repair pattern refs and repair instructions. |
 | `CC-ADA-7` | Evidence, assurance, gate, measurement, eval, publication, method, work, and pattern-quality claims exit to their governing patterns. |
+| `CC-ADA-8` | A project-local ADA record names both `projectWorkOccurrenceRef` and `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's relation, the suffix, or either field alone asserts no locality. |
+| `CC-ADA-9` | An evaluator-role claim names an exact `U.RoleAssignment`; actual evaluation names the admitted holder System, dated `U.Work`, F.6 attribution, and any Method or operation application, while the result remains a separate C.2.1 episteme. |
+| `CC-ADA-10` | Every evaluation binds one exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, evaluation window, and input projection; the declared-use label and coordinate table do not replace them. |
 
 ### C.32.ADA:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -66483,6 +67011,8 @@ ArchitectureDecisionAdequacyEvaluation@OrderFlow:
 | `GateByScale` | A value of `4` or `5` is treated as approval or certification. | Keep ADA as evaluation; use `A.21`, `A.10`, `B.3`, or governance patterns for gate, evidence, assurance, and enforcement claims. |
 | `NotTriggeredAsConvenience` | A difficult coordinate is marked not triggered to close the review. | Require a declared-use reason and receiving-pattern boundary; otherwise score it and repair. |
 | `MethodDockingSkipped` | The decision is adequate for architecture discussion but then used to direct developer work. | Re-declare use as developer-work readiness and evaluate method docking, work split, and publication handoff. |
+| `RoleLabelAsEvaluator` | A reviewer-role label or the ADA record is treated as the performer of evaluation. | Name the admitted evaluator System, exact `U.RoleAssignment`, dated evaluation Work and F.6 attribution; keep the result episteme and operation application separate. |
+| `ContextLabelAsEvaluationScope` | A project, domain, or bounded-context label stands in for the evaluation boundary. | Bind the exact `U.ClaimScope`, selected context slices, scheme and plane, evaluation window, and decision-question input projection. |
 
 ### C.32.ADA:9 - Consequences
 
@@ -66516,18 +67046,18 @@ These rows document transfers from source practice into C.32.ADA. Keep a source 
 
 ### C.32.ADA:12 - Relations
 
-- **Builds on:** `C.32.PAD`, `C.32.ADR`, `C.32.P2S`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.30.AD`, `C.30.ASV`, `A.15`, `C.16`, `C.25`, `C.29`, `E.17`, and `E.21`.
+- **Builds on:** `C.32.PAD`, `C.32.ADR`, `C.32.P2S`, `C.32`, `C.32.MLAO`, `C.32.ACS`, `C.32.ACE`, `C.32.CONWAY`, `C.32.FAIL`, `C.30.AD`, `C.30.ASV`, `A.2.1`, `A.2.6`, `A.15`, `A.15.1`, `A.19`, `C.2.1`, `C.16`, `C.25`, `C.29`, `E.17`, and `E.21`; uses A.1.1 only when a selected `BoundedModelUseStructure` changes evaluation interpretation.
 - **Evaluation boundary:** ADA evaluates architecture-decision adequacy for declared use. It does not perform candidate synthesis, comparison, selection, selected-set publication, local choice, evidence support, assurance, gate passage, governance enforcement, or pattern-quality evaluation.
 - **Decision and projection boundary:** Use `C.32.PAD` to repair the decision relation and `C.32.ADR` to repair ADR-like publication projection.
 - **Description and structure boundary:** Use `C.30`, `C.30.AD`, and `C.30.ASV` for architecture claim, description, and view adequacy.
 - **P2S docking:** Use `C.32.P2S` when a weak decision-adequacy row must reopen the connected architecturing flow rather than only repair the decision record.
 - **Method and work boundary:** Use `A.15`, `A.15.1`, `A.15.2`, `A.15.5`, `E.8`, `E.11.PUR`, and `C.24` for method, work, readiness, pattern-use, and agentic tool-use claims.
-- **Characteristic and eval boundary:** Use `C.32.ACS`, `C.32.HCS`, `C.25`, `C.32.ACE`, `C.16`, `C.31`, and `C.31.ASAP` for characteristic rows, Q-Bundles, eval programs, measurement, modularity, and scale preference.
+- **Characteristic and eval boundary:** Use `C.32.ACS`, `C.32.HCS`, `C.25`, `C.32.ACE`, `C.16`, `C.31`, and `C.31.ASAP` for characteristic rows, Q-Bundles, eval-program framing, typed measurement or evaluation results, modularity, and scale preference. ADA may inspect references to those objects as coordinate evidence, but it does not redefine, execute, or own them.
 - **Evidence, assurance, gate, and governance boundary:** Use `A.10`, `B.3`, `A.21`, and local governance patterns when those claims are live.
 
 ### C.32.ADA:13 - Footer marker
 
-C.32.ADA closes when `ArchitectureDecisionAdequacyEvaluation@Project` declares the use and stop condition, cites the evaluated decision relation and optional projection, evaluates every coordinate with an E.21 value label and rationale or grounded not-triggered status, names weakest blocking coordinates, assigns repair patterns and repair instructions, and avoids average-score replacement.
+C.32.ADA closes when `ArchitectureDecisionAdequacyEvaluation@Project` declares the use and stop condition; binds the exact claim scope and selected context slices, reference scheme and plane, evaluation window, and decision-question input projection; cites the evaluated decision relation and optional projection; evaluates every coordinate with an E.21 value label and rationale or grounded not-triggered status; names weakest blocking coordinates, repair patterns, and repair instructions; avoids average-score replacement; and, when actual evaluation is claimed, keeps the evaluator assignment, dated Work, operation application, and result episteme separately identified.
 
 ### C.32.ADA:End
 
@@ -66949,14 +67479,20 @@ The first useful output is `StructuralSynthesisDiscoveryAdequacyNote@Project`:
 
 ```text
 StructuralSynthesisDiscoveryAdequacyNote@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  structuralSynthesisAdequacyNoteProjectUseRelationRef?: U.RelationRef governed by the exact architecture-use or work-use pattern
   groundedArchitectureQuestionRef:
   selectedSourceStructureRefs:
   generationOrDiscoveryMethodRef:
+  generationOrDiscoveryWorkOccurrenceRef?: U.EntityRef constrained to one independently admitted U.Work
+  generationOrDiscoveryWorkAttributionRef?: U.RelationRef constrained to the exact F.6 performedUnderAssignment occurrence when attribution is current
   searchOrQuerySpaceRef?:
   constraintRefs:
   producedCarrierOrDescriptionRefs:
   describedStructureRefs?:
   synthesisStructureMapOrTransformationTrace?:
+  actualTransformationRefs?:
+  workToTransformationOrProductionClaimRefs?:
   preservedStructure:
   lostStructure:
   constraintGovernedUnfoldingStructureRef?:
@@ -66976,13 +67512,17 @@ StructuralSynthesisDiscoveryAdequacyNote@Project:
   carrierAdmissionReturnCondition:
 ```
 
+Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the note is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` and `structuralSynthesisAdequacyNoteProjectUseRelationRef` identifies the direct relation by which that exact project Work uses the note. The suffix or either reference alone establishes no project locality. The note and the composite project Work remain distinct.
+
+When generation or discovery is claimed as performed work, `generationOrDiscoveryWorkOccurrenceRef` identifies one independently admitted dated `U.Work`; its performer System, exact obtaining `U.RoleAssignment`, F.6 `performedUnderAssignment` attribution when current, enacted Method, extent, and containing System remain under A.15.1, A.2.1, and F.6. The Method, Work, note, and produced carrier or description are different objects. `actualTransformationRefs` may cite only independently identified A.3.4 bounded changes; a method label, transformation trace, graph edge, or before-and-after picture does not make a transformation actual. Any positive link from the Work to an actual transformation or produced entity must cite an exact direct predicate, an admitted A.6.RCD local claim, or the selected A.15.PROD branch in `workToTransformationOrProductionClaimRefs`; otherwise keep the objects separate and return the exact `missing-governor`. Every structure reference likewise resolves to an independently selected A.22 `U.Structure`; a carrier, graph, cluster, or description does not supply its four identity discriminators.
+
 Adoption test: after using C.35, another practitioner can tell what was produced, which structure it describes, what it preserves and loses, what must happen before C.32 admission or realization claims, and which governing pattern receives the next claim.
 
 What C.35 buys in practice: the practitioner can accept useful generated or discovered output without handing it authority. The pattern lets a search output, cluster, query result, model transformation, or LLM proposal become candidate input for architecturing only after carrier, described structure, admission condition, and receiving governing pattern are named.
 
 Ordinary working move: name the produced carrier first, then the described structure, then the admission condition. If those three cannot be separated, do not let the output enter C.32 or a decision.
 
-Not this pattern when the current question is how to search, choose, measure, decide, authorize, publish, govern a reusable generator, or run the work itself. Use the governing pattern for that question first. Return to C.35 only when a produced carrier must be admitted or rejected before another architecture pattern relies on it.
+Not this pattern when the current question is how to search, choose, measure, decide, authorize, publish, govern a reusable generator, govern a cultural-evolution case, or run the work itself. Use the governing pattern for that question first, including `C.36` for the cultural-evolution relation bundle. Return to C.35 only when a produced carrier must be admitted or rejected before another architecture pattern relies on it.
 
 ### C.35:2 - Problem
 
@@ -66990,7 +67530,7 @@ Modern architecture work receives outputs that carry or describe selected struct
 
 These outputs can be extremely useful. They can expose candidate decompositions, relation gaps, hidden invariants, feasible search regions, trade-off points, source labels, or overlooked structure. But they are not automatically architecture, selected candidate structures, realized holon structures, eval results, evidence sufficiency, or decision authority.
 
-C.35 handles the gap between produced carrier and architecture use. It asks which selected source structures and production or discovery method produced the output, which described structure is recoverable, what is preserved and lost, what validation or comparison is available, what bearer or realization boundary is open, and what condition must be met before the output can feed C.32 or another governing pattern.
+C.35 handles the gap between produced carrier and architecture use. It asks which exact generation or discovery Method was used; whether one independently admitted Work occurrence actually enacted it; which exact production, discovery-use, or work-to-change claim connects that Work to the carrier or change, if any; which independently selected source and described structures are recoverable; what is preserved and lost; what validation or comparison is available; what bearer or realization boundary is open; and what condition must be met before the output can feed C.32 or another governing pattern.
 
 ### C.35:3 - Forces
 
@@ -67014,9 +67554,9 @@ Read the note as an admission check between generation and architecture work. Th
 Work in this order:
 
 1. Name the grounded architecture question and selected source structure refs. If no grounded architecture question exists, return to `C.30`, `C.32.P2S`, or `C.32`.
-2. Name the generation or discovery method and search or query space: DSM, MDM, MBSE query, graph grammar, model transformation, LLM proposal, NAS, DSE, QD archive, code-agent probe, simulation, benchmark, or source-mining method.
-3. Separate produced carrier or description from described structure. The carrier may be a diagram, table, graph, query result, cluster, model file, prompt output, or benchmark trace.
-4. State preserved structure, lost structure, constraints, source-label recovery, observation and uncertainty refs, validation or comparison refs, and transformation trace when present.
+2. Name the generation or discovery Method and search or query space: DSM, MDM, MBSE query, graph grammar, model transformation, LLM proposal, NAS, DSE, QD archive, code-agent probe, simulation, benchmark, or source-mining method. When actual performed generation or discovery is part of the claim, separately name the dated `U.Work`, its exact A.15.1/F.6 basis, and the direct production, discovery-use, or work-to-change claim on which this note relies.
+3. Separate produced carrier or description from described structure. The carrier may be a diagram, table, graph, query result, cluster, model file, prompt output, or benchmark trace. Naming it as produced does not by itself establish which Work produced it, entity-identity inception, production completion, or a relation to an actual transformation; cite the exact direct or local claim when any of those assertions is current.
+4. State preserved structure, lost structure, constraints, source-label recovery, observation and uncertainty refs, validation or comparison refs, and transformation trace when present. If an actual change is claimed, also cite the independently identified A.3.4 `U.Transformation`; the trace and the selected A.22 structures remain separate from that occurrence.
 5. State candidate-admission condition. Route to `C.32` only when the described structure can be used as a candidate configuration or candidate-generation input under selected structures, architecture characteristics, constraints, gains, losses, and carrier-admission return.
 6. State bearer or realization boundary. Use `bearerFeasibilityQuestionRef?` only when the direct governing pattern has opened a separate software, physical, organizational, method, role, or epistemic bearer-feasibility question.
 7. Route selected-set publication, archive, front, and pool policy to `G.5`, `C.18`, or `C.19`.
@@ -67036,7 +67576,7 @@ Show - DSM and MDM clustering. A DSM modularization clusters components by co-ch
 
 Show - NAS result. A multi-objective NAS run returns a neural architecture graph and Pareto point. C.35 records search space, constraints, performance and resource criteria refs, generated carrier, described functional architecture structure, preserved dataflow, lost deployment and evidence structure, bearer boundary, and eval return. `C.32` owns candidate-palette admission; `C.32.ACE` owns eval results.
 
-Show - graph grammar or model transformation. A graph grammar transforms a product-line model into a candidate structure. C.35 records transformation rules, selected source structures, target structures, preserved interfaces, lost manufacturing constraints, and transformation trace. C.34 may check preservation; C.32 admits only after selected-structure and characteristic effects are recoverable.
+Show - graph grammar or model transformation. A graph-grammar Method is applied in dated generation Work and returns a candidate-structure carrier for a product-line model. C.35 names the Method, exact Work when performed-work reliance is current, produced carrier, independently selected source and described structures, rules, preserved interfaces, lost manufacturing constraints, and transformation trace. If the use additionally asserts an actual formal or world-side change, it cites the exact A.3.4 occurrence and the separately governed Work-to-change or A.15.PROD claim; otherwise `model transformation` remains the Method or operation-family label and no `U.Transformation` is inferred. C.34 may check preservation; C.32 admits only after selected-structure and characteristic effects are recoverable.
 
 ### C.35:6 - Bias-Annotation
 
@@ -67053,9 +67593,9 @@ Show - graph grammar or model transformation. A graph grammar transforms a produ
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-C35-1` | Grounded architecture question, selected source structures, generation method or discovery method, and produced carrier or description are named. |
-| `CC-C35-2` | Produced carrier or description is separated from described structure, selected candidate structure, realized holon structure, measurement return, eval return, and decision authority. |
-| `CC-C35-3` | Preserved structure, lost structure, constraints, source-label recovery, observation refs, uncertainty refs, validation refs, and comparison refs are present when they affect use. |
+| `CC-C35-1` | Grounded architecture question, independently selected source structures, generation or discovery Method, and produced carrier or description are named. When performed generation or discovery matters, one exact dated Work occurrence and its A.15.1/F.6 basis are named separately. |
+| `CC-C35-2` | Note, Method, dated generation or discovery Work, any actual transformation, production or work-to-change claim, produced carrier or description, described structure, selected candidate structure, realized holon structure, measurement return, eval return, decision authority, and composite project Work remain distinct. |
+| `CC-C35-3` | Preserved structure, lost structure, constraints, source-label recovery, observation refs, uncertainty refs, validation refs, comparison refs, and transformation trace are present when they affect use; none substitutes for the A.3.4 basis of an actual transformation or the four A.22 structure discriminators. |
 | `CC-C35-4` | Candidate admission condition names what must be true before C.32 can use the result. |
 | `CC-C35-5` | Bearer or realization boundary is stated, and any feasibility question is routed to the direct governing pattern. |
 | `CC-C35-6` | Archive, front, pool, publication, eval, measurement, mathematical lens, decision, evidence, assurance, gate, release, method, and work claims are routed to their governing patterns. |
@@ -67069,7 +67609,7 @@ Show - graph grammar or model transformation. A graph grammar transforms a produ
 | Pareto point as admission | A Pareto point shows trade-off position under chosen criteria, not architecture adequacy across selected structures and bearers. | Name search space, criteria refs, constraints, preserved and lost structure, bearer boundary, and eval return; then route candidate use to `C.32`. |
 | One output as reusable-generator governance | A single generated artifact does not describe the method, mechanism suite, dataset, prompt policy, or refresh process that produced a reusable generator. | Keep the one-case output in C.35 and open `E.20`, `G.1`, `G.10`, `G.11`, or another selected governing pattern when reusable generator governance is the claim. |
 | Cluster as module architecture | A DSM or MDM cluster can preserve co-change or dependency pressure while losing functional bearer semantics and interface substitutability. | Route modularity and reuse claims to `C.31`; route candidate palette use to `C.32`; keep C.35 for admission of the produced cluster carrier. |
-| Transformation output as feasibility proof | A graph grammar or model transformation can preserve formal structure while dropping manufacturing, deployment, organizational, or method bearers. | Record transformation trace, selected source structures, target structures, preserved structure, lost structure, and bearer boundary; use C.34 for preservation and the direct governing pattern for feasibility. |
+| Transformation output as feasibility proof | A graph grammar or model-transformation Method can return a useful carrier while neither proving an actual `U.Transformation` nor connecting performed Work to the change, production, manufacturing, deployment, organizational, or method bearers. | Record the Method, exact Work and attribution when current, carrier, transformation trace, independently selected source and described structures, preserved structure, lost structure, and bearer boundary. Cite A.3.4 plus the exact direct/local Work-to-change or A.15.PROD claim for any actual-change assertion; otherwise keep that branch absent. Use C.34 for preservation and the direct governing pattern for feasibility. |
 | Bypassing eval and measurement governance | A search score, benchmark, ablation, or validation trace can look like proof of architecture quality. | Route readings to `C.16`, Q-bundle use to `C.25`, eval programs and eval results to `C.32.ACE`, and decisions to `C.32.PAD`. |
 
 ### C.35:9 - Consequences
@@ -67115,7 +67655,7 @@ C.35 rejects the popular shortcut that a generated output, Pareto point, or clus
 
 - **Builds on:** `C.30`, `C.30.AD`, `C.30.ASV`, `A.22`, `C.32.P2S`, and `C.32`.
 - **Uses:** `C.34` when generated or transformed output must preserve selected source structure; `C.33` when capture and loss in the output are the current issue; `C.29` when a formal search, graph, entropy, category, or learned representation is being used as a mathematical lens.
-- **Coordinates with:** `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `C.31`, `C.31.ASAP`, `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25`, `G.5`, `C.18`, `C.19`, `E.18`, `C.32.PAD`, and `C.32.ADR`.
+- **Coordinates with:** `A.3.4` for each actual bounded change; `A.15.1`, `A.2.1`, and `F.6` for performed generation or discovery Work; `A.15.PROD` and `A.6.RCD` for exact production or Work-to-change claims; `C.36` when a cultural-evolution case supplies the generated or discovered carrier while retaining governance of that case; `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `C.31`, `C.31.ASAP`, `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25`, `G.5`, `C.18`, `C.19`, `E.18`, `C.32.PAD`, and `C.32.ADR`.
 - **Boundary:** C.35 governs generated or discovered carrier adequacy before or around C.32 candidate admission. It does not build the candidate palette, select from alternatives, govern reusable generators, define eval programs, measure values, decide projects, supply evidence or assurance, authorize work, or prove realization.
 
 ### C.35:End
@@ -67128,7 +67668,7 @@ C.35 rejects the popular shortcut that a generated output, Pareto point, or clus
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part C
-> **Builds on:** `A.1`, `A.2.1`, `A.3.1`, `A.15`, `C.18`, `C.19`, `C.20`, `C.23`, `E.18.1`, `F.9`, `F.17`, `F.18`, `G.5`, and `G.11`.
+> **Builds on:** `A.1`, `A.2.1`, `A.3.1`, `A.3.4`, `A.15`, `A.15.1`, `A.15.6`, `A.15.PROD`, `A.22`, `C.18`, `C.19`, `C.20`, `C.23`, `E.18`, `E.18.1`, `F.6`, `F.9`, `F.17`, `F.18`, `G.5`, and `G.11`.
 > **Purpose:** make cultural-evolution and cultural-evolution-engineering cases usable in FPF without minting parallel root kinds for culture, style, tradition, genre, practice, platform, regime, or technique.
 
 ### C.36:0 - Use This When
@@ -67159,7 +67699,8 @@ CulturalEvolutionCaseCard@Context:
   CaseRef:
   BoundedContext:
   CollectiveHolonRefs:
-  RoleValueOrAssignmentRefs:
+  RoleValueRefs?:
+  RoleAssignmentRefs?:
   WorkFamilyRefs:
   MethodFamilyRefs:
   MethodRelationStructureRefs?:
@@ -67195,7 +67736,7 @@ The card is optional and thin. It is not a root U-kind, lifecycle step, evidence
 
 Many current projects no longer develop one isolated object. They shape evolving sets: product families, methods, research directions, medical and pedagogical practices, AI-agent frameworks, musical styles, dance styles, engineering traditions, canons, archives, frontiers, and recognition regimes. The project often generates variants cheaply, while the hard work shifts to problem production, characterization, archive stewardship, comparison, selected-set publication, local choice, performed work, effect measurement, and refresh.
 
-Cultural evolution is current when the changing set is collective-holon or discipline-facing: systems in roles perform related work by related methods; memory or canon epistemes preserve what can be recognized and transmitted; recognition, selection, comparison, platform mediation, or algorithmic mediation changes what variants survive or spread; and method families evolve.
+Cultural evolution is current when the changing set is collective-holon or discipline-facing: admitted holder Systems may perform independently identified dated Work under exact obtaining `U.RoleAssignment` occurrences and F.6 attribution, and those Work occurrences may enact exact Methods; memory or canon epistemes preserve what can be recognized and transmitted; recognition, selection, comparison, platform mediation, or algorithmic mediation can affect which variants survive or spread; and method families can evolve. A role value, assignment, Work occurrence, Method, effect claim, and family description remain different objects.
 
 This pattern gives FPF a first-use cultural-evolution object without adding a new top-level part or a root ontology of culture. The same pattern can serve engineering product families, scientific research programs, medical disciplines, pedagogy, music styles, dance styles, organizational cultures, and AI-agent framework evolution because it starts from values governed by existing FPF patterns rather than from domain labels.
 
@@ -67230,9 +67771,9 @@ If the project accepts the word as ontology, FPF grows a second ontology beside 
 
 Recover the cultural-evolution case first, then identify the governing FPF pattern for each current value.
 
-A cultural-evolution case is a collective-holon and discipline-facing situation in which systems in roles perform related work families by related method families, while memory or canon epistemes, recognition and selection regimes, mediation systems or architectures, measurement or visibility relations, and publication forms preserve, transmit, select, suppress, or refresh variants.
+A cultural-evolution case is a collective-holon and discipline-facing situation in which admitted Systems may perform exact dated Work under exact obtaining role assignments, those Work occurrences may enact exact Methods, and separately identified work and method families may organize comparison, while memory or canon epistemes, recognition and selection regimes, mediation systems or architectures, measurement or visibility relations, and publication forms preserve, transmit, select, suppress, or refresh variants. The case card records the constellation without making a family, assignment, Method, episteme, or selected structure act.
 
-Cultural-evolution engineering is deliberate intervention into one or more of those relations. The intervention may change generation, transmission, selection, recognition, memory, method-family, work-family, role-assignment, mediation, architecture, work-plan, performed-work, measurement, or refresh relations.
+Cultural-evolution engineering proposes or performs deliberate intervention concerning one or more of those relations. The intended intervention may target generation, transmission, selection, recognition, memory, method-family, work-family, role-assignment, mediation, architecture, work-plan, performed-work, measurement, or refresh relations. A card or intention establishes none of the performed Work, actual transformation, effect, measurement, or selected structure; each positive claim needs its direct governor.
 
 Keep three record forms available:
 
@@ -67265,10 +67806,12 @@ For music and dance, a label such as `prog`, `post-prog`, `contemporary`, `hip-h
 
 #### C.36:4.2 - Intervention Card
 
-Use an intervention card when the project deliberately changes part of the cultural-evolution case.
+Use an intervention card when one project proposes or performs a deliberate intervention concerning part of the cultural-evolution case. If actual performance or effect is claimed, name the exact performer System, obtaining role assignment, dated Work, F.6 attribution, actual change, and direct Work-to-change or effect claim that make that branch true.
 
 ```text
 CulturalEvolutionInterventionCard@Project:
+  ProjectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  InterventionCardProjectUseRelationRef?: U.RelationRef governed by the exact intervention-use or work-use pattern
   InterventionRef:
   CulturalEvolutionCaseRef:
   ProblemCardRef?:
@@ -67280,15 +67823,25 @@ CulturalEvolutionInterventionCard@Project:
   AffectedSelectionOrRecognitionRegimeRefs?:
   AffectedMediationSystemOrArchitectureRefs?:
   VariantSetOrPortfolioRefs?:
-  TransformationFlowStructureRef?:
+  TransformationFlowStructureRef?: exact independently selected E.18 TransformationFlowStructure
   P2WCarryThroughRef?:
   WorkPlanRef?:
-  WorkOccurrenceRef?:
-  MeasurementOrEffectRef?:
+  InterventionPerformerSystemRef?:
+  InterventionRoleAssignmentRef?:
+  PerformedInterventionWorkOccurrenceRef?: U.EntityRef constrained to one independently admitted U.Work
+  InterventionWorkAttributionRef?: U.RelationRef constrained to the exact F.6 performedUnderAssignment occurrence
+  ActualTransformationRefs?:
+  WorkToTransformationOrEffectClaimRefs?:
+  MeasurementRefs?:
+  EffectClaimOrRelationRefs?:
   RefreshRef?:
 ```
 
-The intervention card does not authorize work. It names the relation being changed and the next governing pattern: `E.18.1` for P2W carry-through, `A.15.2` for work planning, `A.15.1` for performed work, `C.18` or `C.19` for archive and pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.30` for architecture, or `G.11` for refresh.
+Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the intervention card is genuinely used in one actual project, `ProjectWorkOccurrenceRef` identifies the exact composite `U.Work` and `InterventionCardProjectUseRelationRef` identifies the direct relation by which that exact project Work uses the card. The suffix or either reference alone establishes no project locality. The intended intervention, card, and composite project Work remain separately identifiable.
+
+When performed intervention Work is current, `PerformedInterventionWorkOccurrenceRef` identifies one independently admitted dated `U.Work`; the performer System, exact obtaining assignment, F.6 attribution, enacted Method, extent, and containing System remain governed by A.15.1, A.2.1, and F.6. `ActualTransformationRefs` may cite only exact A.3.4 bounded changes. `TransformationFlowStructureRef` instead cites one independently selected E.18/A.22 structure; adjacency or membership in it proves neither actual change nor Work-to-change. Any positive link from intervention Work to an actual transformation or other effect must cite its exact direct predicate, an admitted A.6.RCD local claim, or the relevant A.15.PROD branch; otherwise return the exact `missing-governor`. Measurement refs and effect claims remain separate: observing a value neither creates nor proves the effect.
+
+The intervention card does not authorize Work and its targeted relation is not an obtaining-effect claim. It names the proposed intervention, the relation being targeted, and the next governing pattern: `E.18.1` for P2W carry-through, `A.15.2` for work planning, `A.15.1` and `F.6` for performed Work, `A.3.4` for actual change, `A.15.PROD` or an exact direct/local claim for production or Work-to-change, `C.18` or `C.19` for archive and pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.35` when a generated or discovered structure-bearing carrier needs admission before architecture use, `C.30` for direct architecture questions, or `G.11` for refresh.
 
 #### C.36:4.3 - Evolution Sense Split
 
@@ -67317,7 +67870,7 @@ Recover the current object before accepting platform, regime, or attractor wordi
 
 An engineering lead has an archive of candidate cooling-module designs, a Q-front over energy use and maintainability, competitor product families, and a roadmap pressure to keep more than one line current. The first C.36 question is not "which module is best?" but whether the project is shaping a product-family culture: shared methods, work products, review criteria, memory epistemes, role assignments, architecture-candidate generation, selection regimes, and refresh rhythm.
 
-If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, write a `CulturalEvolutionCaseCard@Context` and then use `E.18.1` to carry the accepted problem-side distinction into the next governed use.
+If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, write a `CulturalEvolutionCaseCard@Context` and then use `E.18.1` to carry the accepted problem-side distinction into the next governed use. When that work yields a generated or discovered carrier that carries or describes selected structure and may enter architecturing, use `C.35` for carrier admission before `C.32`; the cultural-evolution case remains governed here.
 
 #### C.36:5.2 - Music And Dance Style Engineering
 
@@ -67341,7 +67894,8 @@ CulturalEvolutionCaseCard@Context:
   CaseRef: festival-contemporary-2026
   BoundedContext: festival choreography lab and its short-video circulation context
   CollectiveHolonRefs: choreographer collective, dancers, teachers, judges, platform-mediated audience
-  RoleValueOrAssignmentRefs: dancer, choreographer, teacher, judge, recommender-mediated viewer
+  RoleValueRefs: dancer, choreographer, teacher, judge, recommender-mediated viewer
+  RoleAssignmentRefs: omitted in this family-level card; add only exact obtaining assignments when a performed-Work attribution is current
   WorkFamilyRefs: performance, rehearsal, teaching, judging, remixing, platform publication
   MethodFamilyRefs: floorwork method family, improvisation method family, duet-lift method family
   CanonOrMemoryEpistemeRefs: festival archive, teaching syllabus, exemplar video set
@@ -67357,7 +67911,7 @@ CulturalEvolutionCaseCard@Context:
   RefreshRefs: refresh when platform mediation, judging, canon, or teaching adoption changes
 ```
 
-The next project move may be `C.18` archive generation, `C.19` current-pool treatment, `G.5` selected-set publication, or an intervention card that changes recognition, pedagogy, canon, or platform mediation.
+The next project move may be `C.18` archive generation, `C.19` current-pool treatment, `G.5` selected-set publication, or an intervention card that targets recognition, pedagogy, canon, or platform mediation. The card alone does not prove that the targeted change occurred.
 
 If this case also claims a new level, new holon, context reframe, feedback-down relation, whole reidentification, cross-scope frustration residual, or interlevel ethical conflict, keep the C.36 case card as cultural-evolution context and apply the direct governing pattern for that claim. For example, use `B.2` or `B.2.P` for MHT and whole-reidentification wording, `A.1` or the direct system or holon pattern for holon-kind and boundary claims, `B.2.5` for supervisor-subholon feedback when that relation is current, `C.30.ILC` and `C.29` for cross-scope architecture residual or mathematical-lens use, and `D.2`, `D.3`, or `D.4` when value, harm, responsibility, or admissible sacrifice across levels is current.
 
@@ -67376,7 +67930,7 @@ A team develops several AI-agent framework variants and notices that evaluation 
 | current pool treatment, exploration or exploitation policy, graduation, narrowing, or sunset | `C.19` |
 | selector-facing retained set, shortlist, ranked shortlist, specialist handoff, abstain, or escalation | `G.5` |
 | refresh, deprecation, edition, source currentness, lineage, or currentness reporting | `G.11` |
-| architecture candidate, selected structure, architecture description, or architecture structural view | `C.30`, `C.30.AD`, and `C.30.ASV` |
+| generated or discovered structure-bearing carrier, architecture candidate, selected structure, architecture description, or architecture structural view | `C.35` for carrier admission before candidate use; `C.32` for candidate synthesis; and `C.30`, `C.30.AD`, or `C.30.ASV` for the direct architecture, description, or view question |
 | new level, new holon, MHT, whole reidentification, boundary reframe, supervisor-subholon feedback, cross-scope frustration residual, or interlevel ethical conflict | keep the `C.36` cultural-evolution case and apply `A.1`, `B.2`, `B.2.P`, `B.2.5`, `C.30.ILC`, `C.29`, `D.2`, `D.3`, `D.4`, or the direct holon, system, architecture, mathematical-lens, or ethics pattern according to the recovered claim |
 | local choice among already available options | `C.11` |
 | problem-to-work carry-through | `E.18.1` |
@@ -67389,11 +67943,13 @@ A team develops several AI-agent framework variants and notices that evaluation 
 | Brinkmann et al., `Machine Culture`, arXiv:2311.11388; DOI `10.1038/s41562-023-01742-2`. | Treat intelligent systems as possible mediators or generators of cultural variation, transmission, and selection. | AI agents, recommenders, platforms, or toolchains are only external aids. | `MediationSystemOrArchitectureRefs`, recognition and selection regimes, transmission, memory, and canon refs stay visible in `CulturalEvolutionCaseCard@Context`. |
 | Czaplicka, Baumann, and Rahwan, algorithmic mediation and cumulative culture, arXiv:2410.00780; DOI `10.1098/rsif.2024.0686`. | Recover platform or algorithmic mediation through systems, roles, recognition or selection regimes, measurement or visibility relations, and contexts. | `platform regime` becomes a root ontology or a mere publication label. | `MediationSystemOrArchitectureRefs`, `RecognitionOrSelectionRegimeRefs`, and `CurrentGoverningPatternRefs` must name the governing pattern before platform wording is used. |
 | Yaman, Tian, and Lindstrom, semantic knowledge and cultural evolution, arXiv:2510.12837; DOI `10.1073/pnas.2530750123`. | Keep method families, work families, characteristic spaces, canon or memory epistemes, and recognition regimes explicit. | Culture is shared vocabulary, random variation alone, or a genre tree. | `MethodFamilyRefs`, `WorkFamilyRefs`, `CanonOrMemoryEpistemeRefs`, and `CharacteristicSpaceRefs` are not optional decoration when semantic knowledge is the live claim. |
-| Tchernichovski et al., editing constraints in cultural evolution, arXiv:2502.16694. | Treat editing constraints as constraints on variant sets, characteristic spaces, and effect measurement. | Style engineering is unconstrained idea generation or one scalar taste score. | `VariantSetRefs`, `CharacteristicSpaceRefs`, and measurement or refresh exits must be named when a style intervention changes constraints. |
+| Tchernichovski et al., editing constraints in cultural evolution, arXiv:2502.16694. | Treat editing constraints as constraints on variant sets, characteristic spaces, and effect measurement. | Style engineering is unconstrained idea generation or one scalar taste score. | `VariantSetRefs`, `CharacteristicSpaceRefs`, and measurement or refresh exits must be named when a style intervention targets constraints; any claim that constraints actually changed still cites its exact A.3.4 and Work-to-change basis. |
 | Marjieh et al., cultural-evolution mechanisms in experimental social networks, arXiv:2502.12847. | Keep topology, selection, reproduction, social-learning, and mediation relations recoverable. | Cultural evolution is one isolated innovation channel. | `CollectiveHolonRefs`, `RoleAssignmentRefs`, `RecognitionOrSelectionRegimeRefs`, and mediation refs are kept together in the case card. |
 | Lee et al., melody and rhythm coevolution, arXiv:2605.05982. | Allow several feature-specific characteristic spaces inside one style or tradition case. | A style label proves one monolithic trajectory. | `CharacteristicSpaceRefs` may carry several feature spaces before selected-set or bridge claims rely on the label. |
 | Gautheron et al., popularity feedback in cultural markets, arXiv:2602.09997. | Keep popularity feedback, visibility, recognition, selection, and measurement relations explicit. | Popularity or platform metrics are neutral evidence of value. | `RecognitionOrSelectionRegimeRefs`, measurement refs, and `CurrentGoverningPatternRefs` decide whether to use `C.36`, `C.18`, `G.5`, `G.11`, or an evidence pattern. |
 | Current QD and open-ended-engineering rows, including the 2026 Quality-Diversity survey DOI `10.1016/j.swevo.2025.102240`. | Keep archives, fronts, current pools, selected-set publication, evaluator relations, generalization pressure, and refresh with their governing patterns. | C.36 absorbs archive, front, pool, selected-set, or refresh semantics. | `C.18`, `C.19`, `G.5`, and `G.11` stay as named governing patterns; C.36 carries only the cultural-evolution case when that case is current. |
+
+**Source-use currentness.** One row's adopted move, rejected overread, and named field or boundary form the smallest source-use decision and stay current only until its cited edition changes, a materially newer cultural-evolution or algorithmic-mediation result challenges that transfer, the current QD/OEE line changes its archive, front, pool, selection, or refresh account, or a directly consumed FPF interface changes. At that trigger, recheck only the affected row and exact field or boundary; revise or withdraw an unsupported transfer and leave unrelated rows current.
 
 ### C.36:8 - Consequences
 
@@ -67416,9 +67972,9 @@ C.36 follows the same ontological economy as the episteme and transformation set
 
 ### C.36:10 - Relations
 
-Builds on: `A.1`, `A.2.1`, `A.3.1`, `A.3.2`, `A.15`, `C.18`, `C.19`, `C.20`, `C.23`, `E.18.1`, `F.9`, `F.17`, `F.18`, `G.5`, and `G.11`.
+Builds on: `A.1`, `A.2.1`, `A.3.1`, `A.3.2`, `A.3.4`, `A.15`, `A.15.1`, `A.15.6`, `A.15.PROD`, `A.22`, `C.18`, `C.19`, `C.20`, `C.23`, `E.18`, `E.18.1`, `F.6`, `F.9`, `F.17`, `F.18`, `G.5`, and `G.11`.
 
-Coordinates with: `A.3.3`, `C.11`, `C.16`, `C.27`, `C.29`, `C.30`, `C.30.AD`, `C.30.ASV`, and `E.18`.
+Coordinates with: `A.3.3`, `A.6.RCD`, `C.11`, `C.16`, `C.27`, `C.29`, `C.30`, `C.30.AD`, `C.30.ASV`, `C.32`, and `C.35`.
 
 ### C.36:End
 
