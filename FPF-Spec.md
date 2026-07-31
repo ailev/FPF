@@ -218,10 +218,10 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | C.19.2 | **Use-Bounded Apparatus Application** | Stable | *Keywords:* use-bounded apparatus application, one selected apparatus, configuration or adaptation work, setup cost, declared result and guarantee, reuse horizon. *Queries:* When can one existing apparatus be applied without opening option search? When must generation or choice become current? | **Coordinates with:** C.18, C.19, C.19.1, C.22.1, E.23, C.11 when a live eligible set exists, A.15.1, A.15.2. **Specialized by:** A.7.1. |
 | C.20 | **Composition of `U.Discipline` (Discipline‑CAL)** | Stable | *Keywords:* discipline, **U.AppliedDiscipline**, **U.Transdiscipline**, episteme corpus, standards, institutions, **Γ_disc**. *Queries:* "How to compose and assess a discipline in FPF?" | **Builds on:** C.2 KD‑CAL, G.0, Part F (Bridges/UTS). **Coordinates with:** C.21, C.23. |
 | C.21 | **Discipline‑CHR - Field Health & Structure** | Stable | *Keywords:* discipline, field health, reproducibility, standardisation, alignment, disruption. *Queries:* "How to measure the health of a scientific field?", "What is reproducibility rate?". | **Builds on:** C.16, C.2, A.2.6, B.3. **Coordinates with:** C.20, G.2. |
-| C.22 | **Problem Typing & TaskSignature Assignment (Problem-CHR)** | Stable | Constructs `TaskSignature@Context` as a Context-local `U.Signature` species and, when a receiving use is current, separately assigns its exact edition to one problem-side episteme. Preserves CHR typing, unknowns, scope, evidence, currentness, and crossing conditions before method selection. | **Builds on:** A.6.0, C.16, G.0. **Coordinates with:** C.22.1, C.22.2, C.23, G.4, G.5. |
+| C.22 | **Task Typing and TaskSignature Assignment (Problem-CHR)** | Stable | Constitutes one selector-facing `TaskSignature` as a C.2.1 episteme and species of `U.Signature`; when a receiving use is current, separately relates the exact problem-side episteme, exact TaskSignature, and exact receiving-use episteme through `TaskSignatureAssignmentRelation`. Keeps CHR typing, unknowns, scope, evidence-use relations, currentness, and required crossings visible without adding a generic setting, carrier, or organization as a constituent or assignment participant. *Queries:* "When is a stable problem-side episteme ready for a selector-facing TaskSignature?", "Which typed fields and unknowns belong in its exact edition?", "How do I relate the problem-side episteme, TaskSignature, and receiving use without preselecting a method?" | **Builds on:** A.6.0, C.16, G.0. **Coordinates with:** C.22.1, C.22.2, C.23, G.4, G.5. |
 | C.22.1 | **Task-family adaptation signature** | Stable | Durable task-family specialization fields: threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, and corridor entry. | **Builds on:** C.22, C.19.1, A.15, C.24, E.16. **Coordinates with:** E.23, G.5, G.9, G.11. |
 | C.22.PFR | **Problematic-For Relation** | Stable | *Keywords:* actual adverse condition, exact problem-for entity and use, independent criterion-applicability relation, condition-to-predicate input rule, actual adverse episode, assessment and evidence separation. *Queries:* "Which governed condition supplies the predicate input for this entity, scope, and window?", "Does the applicable criterion classify it as adverse?", "When does one continuous Problem episode end and another begin?" | **Builds on:** A.6.REL, A.6.5, A.19. **Coordinates with:** C.22, C.22.2, A.15.1, A.3.4, E.18.1, E.23, A.10, B.3, G.11. |
-| C.22.2 | **ProblemCard@Context** | Stable | *Keywords:* problem card episteme, problem-side record, P2W-ready, Thin problem card, `setContextRef`, problem signal, assertion polarity, current reliance, actual PFR versus non-actual or solvability claim, validation boundary, first-principles cue, `safe-probe-needed`, freshness and unknown disposition. *Queries:* "How do I turn a messy signal into a reviewable problem before P2W?", "When is a problem card P2W-ready?", "How do problem cards keep evidence, gates, autonomy, archives, and method selection in neighboring patterns?" | **Builds on:** E.2, E.9, E.10, C.2.1, C.2.P, A.6.P, C.16.Q, C.16, A.19, C.22, C.25, C.29, G.5, G.9, A.6.3.RT, A.6.4. **Coordinates with:** C.11, C.18, C.19, C.22.1, C.22.PFR, C.24, C.27, C.28, A.15, A.21, E.16, G.6, G.11, A.10, B.3, E.17, E.17.ID.CR, A.6.3, F.9, E.18. |
+| C.22.2 | **ProblemCard** | Stable | Constitutes one compact C.2.1 episteme from one exact ClaimGraph, one independently identified joint EntityOfConcern, and one effective `U.ReferenceScheme`. Preserves actual PFR assertion versus anticipated-condition or solvability claims, evidence/currentness boundaries, unknowns, and honest next use without turning a setting, carrier, organization, task, method, plan, or Work occurrence into its identity. *Queries:* "How do I turn a messy signal into a reviewable ProblemCard episteme before P2W?", "What makes a ProblemCard P2W-ready?", "How do I keep actual PFR, evidence, gates, autonomy, archives, task typing, and method selection with their neighboring governors?" | **Builds on:** C.2.1, E.2, E.9, E.10, C.2.P, A.6.P, C.16.Q, C.16, A.19, C.22, C.25, C.29, G.5, G.9, A.6.3.RT, A.6.4. **Coordinates with:** C.11, C.18, C.19, C.22.1, C.22.PFR, C.24, C.27, C.28, A.15, A.15.5, A.21, E.16, G.6, G.11, A.10, B.3, E.17, E.17.ID.CR, A.6.3, F.9, E.18, E.18.1, C.32.P2S, E.10.MOVE. |
 | C.23 | **Method‑SoS‑LOG — MethodFamily Evidence & Maturity** | Stable | *Keywords:* MethodFamily, evidence, maturity, SoS-LOG, admit, degrade, abstain, selector. *Queries:* "How is method family maturity assessed?", "What is the SoS-LOG for selection?". | **Builds on:** G.5, G.4, C.22, B.3. |
 | C.24 | **Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)** | Stable | Call-route and call-plan discipline for tool-using agents: plan/work separation, checkpoint return, tool-call budget, stop or replan condition, and overread boundaries. | **Builds on:** A.15, B.3, C.5, C.18, C.19. **Coordinates with:** E.23, C.11, C.28, G.5, G.6, G.9. |
 | C.25 | **Q-Bundle: Authoring "-ilities" as Structured Quality Bundles** | Stable | *Keywords:* quality bundle, -ility, quality family, characteristic plus scope, mechanism/status slots, endpoint classification, viability envelope, proxy metric, admissible quality-family use, failure mode. *Queries:* "What is a Q-Bundle in FPF?", "When is an -ility one characteristic and when is it a bundle?", "When does a viability claim need C.26.3 rather than one metric?" | **Builds on:** A.2.6, A.6.1, C.16, B.3. **Coordinates with:** C.16.Q, A.15, C.26.3. |
@@ -448,7 +448,7 @@ Core ideas in plain language:
 - when the current question is which reusable way of doing changes, produces, derives, selects, controls, or preserves the project object under stated conditions, inspect `A.3.1 U.Method`; a strategy name, procedure text, program, plan, dated run, mechanism, or evidence record does not answer that method question by its label or form;
 - when one already-selected direct-kind method, model, formalism, assurance technique, ontology, or other apparatus is current and its setup/application cost must earn one declared use, inspect `C.19.2`; it governs one bounded application to a separately governed problem-facing result and guarantee. Open `C.18` only when an adequate candidate must be generated or reframed, and `C.11` only when two or more eligible alternatives make a real local choice current;
 - when a clear engineering claim produces a wrong action, identity, dependence, obtaining, responsibility, or projection consequence, inspect `A.7.1`; when current FPF uses produce incompatible consequences for the same receiving claim and scope, inspect `A.7.2`. In either route, keep the method episteme, admitted performer, dated work, returned direct-owner result, and one result episteme distinct: the local disposition is a value in that result, not its kind, and `A.7.2` need not converge;
-- when an accepted `ProblemCard@Context` claim must remain usable while the project selects a method, prepares or performs work, interprets a result, branches, stops, or returns after a changed assumption, inspect `E.18.1 P2W Problem-to-Work Carry-Through`; it carries that claim into one next value or relation governed by its direct pattern rather than prescribing one universal workflow;
+- when an accepted C.22.2 `ProblemCard` episteme must remain usable while the project selects a method, prepares or performs work, interprets a result, branches, stops, or returns after a changed assumption, inspect `E.18.1 P2W Problem-to-Work Carry-Through`; it carries the accepted problem-side distinctions into one next value or relation governed by its direct pattern rather than prescribing one universal workflow;
 - when a route-like explanation has several candidate positions and proposed relations or constraints that may change which continuations remain admissible, use it as a `ProvisionalUnfoldingDemonstrationDescription@Context` while any A.22.CGUS admission coordinate remains unresolved; after the wider CGUS is admitted, a separate `DemonstrativeUnfoldingSlice@Context` may present one traversal, and when admitted positions organize bounded transformations inspect the `E.18.3` specialization;
 - keep several options alive until the comparison is clear enough to choose;
 - say what "better" means before optimizing or scoring;
@@ -537,10 +537,10 @@ The cards are domain-neutral. A first useful result may be a physical or clinica
 - **Template A.** `A.16.1 Solution -> U.PreArticulationCuePack`. Select when a cue nucleus and its witness or anchor should be preserved before a route or problem claim is stable.
 - **Template B.** `B.4.1 Solution -> RoutedCueSet`. Select when cue content is stable enough to publish route plurality or one selected route with explicit rationale, while no later endpoint is yet warranted.
 - **Template C.** `B.5.2.0 Solution -> U.AbductivePrompt`. Select when prompt species, open question, scope, and cue provenance are stable enough to seed abductive search.
-- **Template D.** `C.22.2 Solution -> ProblemCard@Context`. Select when the affected EntityOfConcern, constraints, unresolved relations, distinctions to preserve, and acceptance basis can be stated without smuggling in a selected solution.
+- **Template D.** `C.22.2 Solution -> ProblemCard` (a C.2.1 episteme). Select when the affected EntityOfConcern, constraints, unresolved relations, distinctions to preserve, and acceptance basis can be stated without smuggling in a selected solution.
 - **Conditional continuation.** When an accepted problem-side record must become usable by later eligibility, acceptance, or method-family selection, inspect `C.22 Solution -> TaskSignature`. The TaskSignature types only the current problem traits and receiving use; it does not select a method, issue a selector verdict, plan work, or prove that work occurred.
 - **Boundaries.** Stop at the earliest result that is both truthful and useful. Return or back off when the cue anchor, route rationale, prompt contrast, affected EntityOfConcern, constraint, or acceptance basis changes. Do not force a cue into a ProblemCard merely to make the work look started.
-- **Result test.** The selected branch can promise only the named `U.PreArticulationCuePack`, `RoutedCueSet`, `U.AbductivePrompt`, or `ProblemCard@Context`. Identify it under its direct Solution, then name the exact inquiry, acceptance evaluation or decision, or later method-family-selection object it would answer and the relation, binding, or supported claim that makes it this shaping use's result. `TaskSignature` is a continuation only when a later use needs typed problem traits; otherwise stop with the exact missing cue anchor, route, affected entity, acceptance basis, governor, or information.
+- **Result test.** The selected branch can promise only the named `U.PreArticulationCuePack`, `RoutedCueSet`, `U.AbductivePrompt`, or C.22.2 `ProblemCard` episteme. Identify it under its direct Solution, then name the exact inquiry, acceptance evaluation or decision, or later method-family-selection object it would answer and the relation, binding, or supported claim that makes it this shaping use's result. `TaskSignature` is a continuation only when a later use needs typed problem traits; otherwise stop with the exact missing cue anchor, route, affected entity, acceptance basis, governor, or information.
 - **Public coarsening.** "Problem shaping" restores to the exact cue pack, routed cue set, abductive prompt, or accepted ProblemCard under its articulation condition.
 
 ### IMPROVEMENT - Define evaluation before repeating improvement
@@ -20973,365 +20973,325 @@ Grounding pointers in the current FPF draft (for alignment while integrating):
 
 ## A.6.H - Wholeness Language Unpacking — RPR-WHOLE
 
-**Plain-name.** Wholeness / integrity / part / boundary disambiguation
-**One-liner.** Treat “whole/part/complete/holistic” as *trigger words* that force an explicit choice among **reference level (referent vs description vs work)**, **boundary**, **parthood kind**, **aggregation (Γ)**, **order/time**, and **completeness (capability/spec/evidence)**.
-
-> **Type:** Architectural (A)
+> **Type:** Relational-precision specialization
 > **Status:** Stable
-> **Normativity:** Normative
+> **Normativity:** Normative unless explicitly marked informative
 
-**Placement.** A.6 precision-restoration cluster; a lexical front-end to mereology and Γ selection.
-**Specialises.** A.6.P Relational Precision Restoration (RPR).
-**Works alongside.** A.14 (mereology extension), B.1.1 (edge selection), B.1.4 (Γ_ctx/Γ_time), A.15 (role–method–work).
-**Template discipline.** Canonical section order and headings follow E.8.
+**At a glance.** Use A.6.H when words such as *whole*, *part*, *integrity*, *complete*, *turnkey*, or *end-to-end* hide the exact object or relation on which a decision depends.
+
+**Use this when.** Enter after A.6.P:4.11 has recovered the concrete candidate objects and the sentence needed by the receiving use, and that sentence genuinely asks about a whole, part, structure, integrity, coverage, or completion. A.6.H helps the practitioner expose the candidate whole or other bearer, its boundary when relevant, the independently identified parts or constituents, and the exact direct claim that must leave to its owner.
+
+**Not this pattern when.** Do not enter merely because a source contains a trigger word. A characteristic or measurement claim goes to `C.16.P`/`C.16`; an evidence or assurance claim goes to `A.10`/`B.3`; an episteme identity or edition claim goes to `C.2.1`; a publication claim goes to `E.17`/`E.24.PUB`; a Method, WorkPlan, or Work claim goes to its direct A.3/A.15 owner. Stay in A.6.P when the candidate objects or the receiving sentence are still unknown.
+
+**What goes wrong if missed.** A situation record, diagram, bundle, adjective, phase label, or coverage slogan becomes the supposed whole or relation. Parts, members, portions, phases, method factors, Work parts, evidence, and measured characteristics are then silently treated as one generic “part of” claim.
+
+**What this buys.** A short identity-first route from overloaded prose to one or more direct claims with exact participants and owners, or to an explicit blocker when a needed predicate is absent.
+
+**What changes in practice.** The practitioner stops annotating a wholeness bundle and instead writes the few direct sentences the next decision consumes: which entity, which relation and participants, which owner, and which stronger inference remains blocked.
 
 ### A.6.H:1 - Problem frame
 
-Teams routinely use compact natural-language tokens like *whole*, *part*, *integrity*, *holistic*, and *complete* to gesture at multiple different things at once: a boundary, a bill-of-materials, a collective, a workflow, a lifecycle, or “end-to-end” capability. The same sentence then gets interpreted as **structure**, **procedure**, **history**, or **competence**, and the disagreement is not resolvable because the referent is under-specified.
+Natural language compresses several different engineering questions into the same small vocabulary:
 
-This matters because FPF’s core moves are boundary-grounded wholes (holons) and explicit composition operators (Γ). A holon is individuated by a **boundary that separates inside from environment**, with interactions crossing that boundary.  When language collapses “whole” into a rhetorical flourish, the modeler is tempted to smuggle order, time, membership, or capability into part–whole edges, causing the classic category errors that later break Γ composition and audits.
+- What individual is being treated as one whole?
+- Where is its boundary, and what lies outside it?
+- Which independently identified objects are parts, constituents, members, portions, or proper temporal restrictions?
+- Which relations among those objects actually obtain?
+- Does a named use need a construction trace or a selected structure?
+- Is the same whole being recognized again, or must it be reidentified?
+- Is “complete” about performed Work, capability, specification, evidence, or another exact coverage claim?
+- Is “integrity” a measured characteristic, an assurance claim, or a claim that an assembled entity remains one whole?
 
-This pattern is a practical repair protocol: it does not fight natural language; it **treats its vague words as triggers** that force an explicit unpacking into the minimal, typed vocabulary for wholeness claims.
+Those questions have different participants, predicates, and owners. A.6.H does not answer them by creating a common wholeness object. It keeps the source wording readable while making the load-bearing claims exact.
+
+A word is load-bearing here when a requirement, invariant, interface statement, architecture choice, model relation, decision, test oracle, assurance use, or downstream action depends on its interpretation. `E.10` owns shared wording-use discovery. A.6.H begins only after the current wholeness-family claim has been selected by value.
 
 ### A.6.H:2 - Problem
 
-Without an unpacking discipline, the following failure modes recur:
+Without an exact-object discipline, the following failures recur:
 
-1. **Boundary ambiguity.** “The whole system” is asserted with no statement of what is inside vs outside, so “environment” and “interface” debates become circular.
-2. **Parthood overload.** “Part of” is used for physical parts, logical subsections, group membership, fractions of a stock, and lifecycle stages—then encoded as one generic inclusion.
-3. **Order-as-part.** Teams say “Step B is part of the process” and model it as a structural inclusion, reproducing the structure-as-sequence anti-pattern.
-4. **History-as-part.** Versions or phases are treated as subcomponents instead of time-slices of the same carrier, erasing coverage/overlap constraints.
-5. **Completeness conflation.** “Complete/turnkey/end-to-end” is treated as “has all parts,” when the intent was capability coverage, specification coverage, or evidence coverage (role–method–work confusion).
-6. **Discipline/context drift.** “Chemistry as a whole” alternates between meaning a method family, a social community, and a bounded context—leading to incompatible nesting stories.
-7. **Integrity misrouting.** “Integrity” is read as “wholeness/coherence” when the author meant **security/data integrity** (CIA-style integrity, constraint satisfaction, tamper-resistance), producing the wrong facet unpacking and the wrong remediation.
-8. **Description-publication and referent collapse.** “The whole system is documented” or “the whole model is deployed” slides between a system, the description episteme that says something about it, and a publication unit or carrier that presents that episteme. Inclusion edges and completeness claims then get attached to the wrong level (A.15: referent holon, description episteme, publication unit, work occurrence, or evidence carrier).
+1. **Candidate-whole ambiguity.** “The whole system” is asserted before one candidate entity, boundary, or identity rule is recoverable.
+2. **Reference-level drift.** One noun phrase alternates among a referent, a claim-bearing episteme, a publication form or carrier, intended Work, performed Work, and evidence.
+3. **Parthood overload.** Physical components, conceptual constituents, collection members, measured portions, and temporal restrictions are written as one generic inclusion.
+4. **Order-as-structure.** A method factor, step description, plan item, or performed occurrence is treated as a component because a diagram places it inside a box.
+5. **History-as-parthood.** A `v2`, revision, edition, shift, retry, or monitoring window is routed through `PhaseOf` before episteme identity or Work-temporal law is applied.
+6. **Construction-by-list.** A list of objects, repeated trace, or selected diagram is treated as proof that one whole or direct relation obtains.
+7. **Coverage-as-wholeness.** “Complete”, “turnkey”, or “end-to-end” is treated as a whole-level property without a scope, covered items, direct coverage or completion predicate, or current Work state.
+8. **Integrity collapse.** A measured characteristic, security or data-integrity term, evidence report, assurance claim, and structural-whole claim are all forced through mereology.
+9. **Change-by-vocabulary.** Generic verbs such as *recompose*, *rephase*, or *recomplete* replace the exact changed object and direct changed relation.
 
-The result is not merely imprecise prose; it is **non-auditable modeling**, because different readers (or validators) infer different decomposition rules.
+The practical failure is non-decidability: another reader cannot tell which object is at issue, what relation is claimed, what evidence would bear on it, or which stronger use is blocked.
 
 ### A.6.H:3 - Forces
 
-| Force                                                        | Tension                                                                                                      |
-| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| **Conversational economy vs. auditability**                  | One short word (“whole”) ↔ a reviewable statement of boundary, part-kinds, and composition rule.             |
-| **Cross-domain portability vs. local idiom**                 | Domain jargon (“module”, “pipeline”, “discipline”) ↔ stable typed distinctions that travel between contexts. |
-| **Structural clarity vs. procedural realism**                | “Parts of X” feels intuitive for workflows ↔ order and time have different semantics than mereology.         |
-| **Wholeness as individuation vs. wholeness as completeness** | “A whole thing” can mean “one bounded entity” ↔ “covers everything we care about.”                           |
-| **Parsimony vs. expressivity**                               | Too many relation kinds overwhelm ↔ too few makes “part-of” a semantic dumping ground.                       |
+| Force | Tension |
+| --- | --- |
+| Conversational economy vs. recoverability | Ordinary prose needs compact words, while a load-bearing use needs exact objects and relations. |
+| Whole recognition vs. relation truth | Recognizing one candidate whole does not establish its parts, structure, integrity, or completion. |
+| Stable identity vs. change | A useful history needs continuity, while changed epistemes, Work occurrences, and replaced carriers must not be collapsed. |
+| Structural description vs. performed reality | Method descriptions, plans, diagrams, and evidence can guide work without becoming the performed occurrence or its parts. |
+| Minimal apparatus vs. downstream assurance | Most cases need one readable direct claim; some need a construction trace, selected structure, measurement chain, or assurance relation. |
+| Cross-domain wording vs. direct ownership | *Module*, *pipeline*, *team*, *integrity*, and *complete* travel across domains, but their governed objects do not merge. |
 
 ### A.6.H:4 - Solution
 
-This pattern applies the A.6.P repair recipe to the **wholeness polysemy cluster** by introducing a stable lens, a trigger list, a facet vocabulary, and an always-unpack rewrite discipline.
+#### A.6.H:4.1 - Entry and result contract
 
-#### A.6.H:4.0 - A.6.P crosswalk (what this pattern adds)
+Enter with:
 
-This is a wholeness-specific binding of the generic A.6.P repair sequence:
+- one exact sentence or decision that depends on wholeness-family wording;
+- the concrete candidate objects recovered under A.6.P:4.11;
+- the receiving use that would change if the wording were read differently; and
+- any already known direct owner.
 
-1. **Detect.** WHOL triggers mark a sentence as semantically overloaded.
-2. **Expand.** Enumerate candidate meanings along the facets (boundary, parthood, fold/Γ, order/time, completeness).
-3. **Discriminate.** Apply the table tests (level-of-reference, transitivity, swap-test, carrier-identity test, coverage test) to eliminate candidates.
-4. **Rewrite.** Replace the trigger token with facet headphrases + typed relations.
-5. **Lock-in.** Record the choice (optionally via a wholenessSituation record) so the document stops re-litigating the same ambiguity.
+Return one of:
 
-#### A.6.H:4.1 - Lens: Boundary–Parthood–Fold–Order/Time–Completeness
+1. one or more readable direct claims, each naming the predicate or claim family, ordered participants, material qualification, and governing pattern;
+2. an explicit owner-return when a measurement, evidence, episteme, publication, method, plan, Work, production, or completion owner already governs the question; or
+3. an A.6.RCD `missing-governor[...]` result after the exact participants and needed sentence are known but no current direct predicate closes the use.
 
-When any of the trigger words below appear on a **load-bearing surface**, interpret the sentence through this ordered checklist and rewrite until the claim is decidable *for the current purpose* (i.e., the remaining ambiguity would not change the model edge(s), Γ choice, or review decision). Multiple facets may legitimately apply; “stop” only when the residual facets are irrelevant to the claim being made.
+When evidence cannot yet select among several readings, keep the candidate objects, discriminating questions, and blocked receiving use explicit in ordinary prose. Do not turn that temporary uncertainty into a `wholenessSituation`, card, bundle, lifecycle record, or new U-kind.
 
-```text
-Definition WHOL-LBS-1 (load-bearing surface).
-A sentence is on a load-bearing surface if it functions as a requirement ("SHALL"/"MUST"),
-an invariant, an interface/boundary claim, a model edge/label, a decision record, a test oracle,
-or any statement that downstream reasoning or audits depend on.
-```
+#### A.6.H:4.2 - Apply the exact-object sequence
 
-0. **Term-of-art override.** Is the trigger part of a defined term-of-art (glossary entry, standard term, contract term)? If yes, cite that definition and do not force WHOL facet unpacking unless the definition itself contains unresolved WHOL triggers.
-   *Clarification:* this override applies to the *term itself*. Still unpack any separate wholeness claim the sentence makes *about* the term (e.g., boundary, composition, or coverage).
-0.5 **Reference level.** Is the sentence about (i) a holon-level referent, (ii) a description episteme such as a specification or model, (iii) a publication unit or carrier that presents that episteme, or (iv) an executed work occurrence or evidence carrier? State the level explicitly when it affects relation choice (e.g., ConstituentOf for publication-unit structure, StepOf for procedure membership, and SerialStepOf for procedure order).
-1. **Boundary.** If the claim is holon-level: what is the *inside* and what is the *environment* (boundary-based individuation)? Name at least one cross-boundary interaction, interface, dependency, or external constraint relevant to the claim. If there are multiple plausible boundaries (levels/resolutions), list candidates and state which boundary this claim is about.
-2. **Parthood kind.** If “part-of” is intended, which kind is meant: **ComponentOf, ConstituentOf, PortionOf**, or **MemberOf** (collection membership)? If the claim is about a description episteme or its publication-unit structure, use **ConstituentOf** only for content or publication-unit inclusion and keep the described referent explicit (model-of vs modeled).
-3. **Fold.** If the sentence asserts a whole-level property that depends on how parts are “glued” (not merely listed), what composition operator (Γ flavour) is implied: structure, episteme, context, time/history, method, or work/cost?
-4. **Order/time routing.** Is the claim about a procedure graph (**StepOf** + order/concurrency constraints such as **SerialStepOf / ParallelFactorOf**), or about **temporal continuity/coverage** (**PhaseOf** aggregated via Γ_time), rather than structural containment? If the claim is about *observed* concurrency in a specific run, route it to work/evidence (A.15) rather than treating it as ParallelFactorOf.
-5. **Completeness.** Is “whole/complete/end-to-end” actually about **completeness in a scope**: capability coverage, specification coverage, and/or evidence coverage (A.15 layer), rather than “has all parts”?
+Use the following sequence only as far as the current sentence requires:
 
-A “wholeness” statement is considered precise only after the sentence has been rewritten to answer the subset of these questions that actually matters.
+1. **Recover the working question.** State what a reader must decide, do, accept, measure, rely on, start, continue, or stop. The cue word selects no branch.
+2. **Name the subject and reference level.** Distinguish the referent entity, claim-bearing episteme, publication occurrence, publication form, presentation carrier, Method, MethodDescription, WorkPlan, performed Work, and evidence carrier. Keep only the subjects current in this case.
+3. **Recover a candidate whole only for an actual whole claim.** Identify the candidate individual, its direct identity owner, relevant boundary or delimitation, environment, and at least one interaction, dependency, or constraint across that boundary when the use needs it.
+4. **Identify the alleged parts independently.** A label, location, list, graph node, file section, timestamp, or common name does not identify a part. Recover each component, constituent, member, portion, temporal restriction, Method factor, Work part, or other object under its own owner.
+5. **State every direct relation occurrence separately.** Name exact participants and test the direct predicate. A relation obtains neither because the whole was recognized nor because a trace, view, or record lists it.
+6. **Add construction or selected structure only when the receiving use consumes it.** `C.13` may report already recovered parts, relations, constraints, and a construction rule. `A.22` may identify one selected structure when its selection basis and identity discriminators are current. Neither creates the direct facts.
+7. **Recognize or reidentify the whole only when that question is current.** Use `A.1` for holon recognition and `B.2` for a remaining whole-reidentification question after direct existing-whole explanations have been tested. A changed adjective or part list alone decides neither.
+8. **Separate coverage, completion, and performed Work.** Name what is covered, under which scope and criterion, by which exact relation, and whether the claim concerns a MethodDescription, capability, plan, Work occurrence, production result, evidence set, or another subject. Use A.15.1/A.15.PROD or the exact direct owner; do not treat a plan as performed Work.
+9. **Stop at the direct owner.** A.6.H owns the unpacking move, not the recovered whole, relation, characteristic, Work, evidence, or verdict.
 
-#### A.6.H:4.2 - Trigger words and phrases
+#### A.6.H:4.3 - Classify `integrity` by the claim it carries
 
-Treat the following as **WHOL triggers** on normative surfaces and in Working-Model claims.
+The word `integrity` never chooses mereology by itself.
 
-**Hard triggers (always unpack on load-bearing surfaces):**
+| Current sentence | First exact objects | Governing exit | Blocked overread |
+| --- | --- | --- | --- |
+| “Structural integrity is measured at X.” | bearer, integrity Characteristic, Scale or coordinate, Unit when needed, measurement method, result, evidence pointer, and time stance | `C.16.P`, then `C.16` and the exact measurement owner | Do not invent a candidate whole, boundary, parts, or `PhaseOf` merely because the Characteristic is named *integrity*. |
+| “This report supports the integrity claim.” | exact claim, evidence-bearing episteme or carrier, evidence-use relation, relying use, limitations, and currentness when required | `A.10`; `B.3` only when an assurance claim is current | A report title, provenance link, or measured value is neither assurance nor a whole. |
+| “The assembled pump remains an integral whole.” | exact pump, direct identity rule, boundary, independently identified parts, direct assembly or parthood relations, any current selected structure, and the whole-recognition or reidentification question | `A.14`, `C.13`, `A.22`, `A.1`, or `B.2` as selected by the actual claim | The adjective *integral*, a BoM, or an assembly record does not establish the whole or relations. |
+| “Data integrity” or another defined term of art | exact bearer, defined Characteristic or constraint, threat/assumption or qualification basis, and receiving use | the characteristic, constraint, security, measurement, or evaluation owner | Do not reinterpret the term as structural wholeness unless the sentence separately makes that claim. |
 
-* **Whole / entire / as a whole / integrated / unified / coherent**
-* **Part / piece / component / module / element / subsystem**
-* **Includes / consists of / composed of / contains / comprises**
-* **Complete / end-to-end / turnkey / fully specified / self-contained**
-* **Integrity** (always classify first; see CC-A6H-10)
+If the source leaves these readings genuinely open, preserve the alternatives and block the named use until evidence discriminates them.
 
-**Conditional triggers (unpack when coupled to a wholeness frame such as “as a whole”, “part of”, “composed of”, “end-to-end”, “integrated”, or “complete”):**
+#### A.6.H:4.4 - Select the direct relation, not a generic part edge
 
-* **Pipeline, workflow, process, step, or stage**
-* **Phase, version, revision, or lifecycle**
-* **Collection, group, team, or set of**
+| Intended claim | Required test and owner | Typical non-inference |
+| --- | --- | --- |
+| Physical or structural component | Identify both entities, the direct `ComponentOf` predicate, boundary relevance, and obtaining facts under `A.14`/the structural owner. | Diagram containment or removal from a list does not establish component parthood. |
+| Conceptual or content constituent | Identify the exact episteme or publication-unit whole and the exact constituent under `A.14`. Keep the described referent separate. | A section in a file is not therefore a component of the described system. |
+| Measured portion | Name the whole, portion, extensive measure μ, compatible unit, additivity/non-overlap rule, and boundary under `A.14`. | A percentage, share, or smaller numeral does not make a structural component. |
+| Collection membership | Name the collection, its identity rule, member, and direct `MemberOf` occurrence. | Membership is not transitive parthood and does not make an acting collective system. |
+| Proper temporal restriction of an enduring individual | Apply the subject's direct identity rule, then use `PhaseOf(x,y)` only when `x` is the same exact `y` restricted to a proper interval and coverage/overlap conditions hold. | A timestamp, state label, or changed property alone does not create a phase object. |
+| Distinct episteme history | Compare C.2.1 claim content, EntityOfConcern, and effective ReferenceScheme. When a discriminator changes, identify another episteme; assert `EpistemeEditionRelation` only when its independent historical-continuation predicate obtains. | `v2`, filename, shared title, provenance, publication order, revision Work, or source use establishes neither identity nor continuity. |
+| Performed Work interval, episode, part, retry, resumption, or later occurrence | Use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, another admitted Work-part relation, or a separately identified Work occurrence according to its exact predicate. | A shift, phase, step, log row, or MethodDescription section never routes Work through generic `PhaseOf`. |
+| Method factor, order, branch, or join | Identify exact Methods and method-composition claims under `A.3.1`/`B.1.5`; use B.1.4 only for a bounded aggregation of already recovered order relations. | A box, sequence position, description constituent, plan item, or Work part is not a Method part by appearance. |
 
-**Soft triggers (unpack only when used as a wholeness predicate, not as a term-of-art):**
+#### A.6.H:4.5 - Unpack `complete`, `turnkey`, and `end-to-end`
 
-* **Holistic / holonic**
-* **Context / environment** (when asserted “as a whole” or treated as a bounded entity)
+Ask what the next reader may do because the claim is supposedly complete.
 
-**Term-of-art override.** If a trigger occurs inside a defined term-of-art (e.g., “data integrity”, “integrity constraint”, “referential integrity”), cite the glossary definition and do not force WHOL unpacking unless that definition itself contains unresolved WHOL triggers.
+| Candidate reading | What must be named | Direct return |
+| --- | --- | --- |
+| Complete whole or assembly | candidate whole, identity, boundary, required parts, direct relations, construction rule when current, and completion predicate | `A.1`, `A.14`, `C.13`, `A.22`, or the exact construction/completion owner |
+| Specification coverage | exact claim-bearing episteme, described EntityOfConcern, effective ReferenceScheme, required content or criterion set, coverage predicate, scope, and gaps | `C.2.1`, `A.3.2`, and the exact coverage/evaluation owner |
+| Capability coverage | exact holder, capabilities, required actions or conditions, scope, and direct coverage criterion | `A.2.2` and the exact capability/coverage owner |
+| Work coverage or completion | exact Work occurrence(s), temporal extent, performed parts or episodes when needed, completion or production predicate, acceptance boundary, and evidence | `A.15.1`, `A.15.PROD`, or the exact completion/acceptance owner |
+| Evidence coverage | exact claim set, evidence-bearing objects, evidence-use relations, scope, limitations, and relying use | `A.10`; `B.3` only for an assurance claim |
+| End-to-end method or workflow | exact Methods, method parts and joins, exposed interactions, failure and stop conditions; performed runs remain separate | `A.3.1` and `B.1.5`, with A.15.1 for actual Work |
 
-In running prose you can still say “whole” informally, but on load-bearing surfaces these words are treated as a lintable signal: “this sentence needs a facet rewrite.”
+A sentence may require several rows. Write several direct claims; do not bundle them back into one “wholeness” record.
 
-#### A.6.H:4.3 - Canonical facet headphrases
+#### A.6.H:4.6 - Use wording as a cue, not as ontology
 
-Use these headphrases to replace the ambiguous word with the intended semantics:
+The following recurring expressions are useful review cues, not a second trigger registry:
 
-**A) Boundary & environment**
+- *whole*, *entire*, *integrated*, *coherent*, *holistic* — ask whether there is an actual candidate whole, a measured or assurance claim, or only rhetoric;
+- *part*, *piece*, *component*, *module*, *element*, *subsystem*, *includes*, *contains*, *comprises* — recover the object and direct relation rather than accepting the noun;
+- *phase*, *version*, *revision*, *edition*, *lifecycle* — apply the direct identity owner before any history label;
+- *complete*, *turnkey*, *end-to-end*, *fully specified* — recover the exact coverage or completion claim;
+- *pipeline*, *workflow*, *process*, *step*, *stage* — distinguish Method, MethodDescription, WorkPlan, performed Work, order relation, and publication representation;
+- *collection*, *group*, *team*, *set* — distinguish membership, acting system, role assignments, and selected collection structure;
+- *context*, *environment*, *discipline as a whole* — name the actual bounded context, episteme family, community, organization, or other subject before making a boundary or nesting claim.
 
-* “the holon boundary of X is …”
-* “the environment of X includes …”
-* “interaction across X’s boundary is …” (not parthood)
+When a cue occurs inside a defined term of art, retain the definition and direct owner. Open A.6.H only if the sentence also makes an unresolved whole, part, structure, coverage, or completion claim.
 
-**B) Parthood kinds**
+#### A.6.H:4.7 - Describe change through the object that changed
 
-* “A is ComponentOf B” for physical assembly
-* “A is ConstituentOf B” for conceptual/content inclusion
-* “A is PortionOf B with μ=…” for a quantitative fraction
-* “A is MemberOf C” for membership in a collective (not a part–whole chain)
+When a wholeness-looking story changes, name the exact object and direct relation:
 
-**C) Order/time**
+- a different boundary or interaction claim returns to the boundary/delimitation owner;
+- an added, removed, or differently related part returns to the direct parthood, membership, portion, or structure owner;
+- changed episteme content, EntityOfConcern, or effective ReferenceScheme identifies another episteme under C.2.1, with edition continuity tested separately;
+- a different publication form, occurrence, or carrier stays with publication and carrier owners;
+- a changed Method, MethodDescription, WorkPlan, Work history, production result, or completion claim stays with its own owner;
+- a changed coverage scope, criterion, evidence set, or assurance use repairs that direct claim rather than a generic completeness status.
 
-* “A is PhaseOf carrier B over window τ” for a lifecycle slice of the same carrier (temporal continuity/coverage; not inside/outside containment)
-* “Step s is StepOf procedure P” for step membership in a procedure graph (not a part–whole claim)
-* “Step i is SerialStepOf Step j” for precedence constraints in order-sensitive procedures (directed; read as “i precedes j”, not as containment; use an adjacency variant if you need “immediately before”)
-* “Step u is ParallelFactorOf Step v” for parallelizability/concurrency potential (often symmetric; state synchronization/independence/resource constraints)
-* “In run r, Step u ExecutedConcurrentlyWith Step v” for observed concurrency in a specific work/evidence instance (A.15); do not infer this from ParallelFactorOf alone
-
-**Semantics cues (review-time, minimal invariants).**
-
-* **ComponentOf**: typically transitive within a bill-of-materials; removing A changes the assembled carrier; do not use for sequences or memberships.
-* **ConstituentOf**: transitive within one episteme content structure or one publication-unit structure; supports “section/chapter/lemma is part of paper/proof” without implying physical assembly.
-* **PortionOf**: requires an explicit extensive measure μ and an additivity story (non-overlap + sum); avoid if you cannot state μ.
-* **MemberOf**: not transitive; does not imply the collective is an assembly; membership can change without “recomposition”.
-* **PhaseOf**: same carrier across time; requires an explicit window τ and a coverage/overlap story; aggregate with Γ_time when composing the history narrative.
-* **StepOf**: membership of a step node in a procedure graph; does not imply physical assembly or conceptual containment. Pair with precedence/concurrency constraints rather than “part-of”.
-* **SerialStepOf**: directed precedence constraint on step nodes (read as “i precedes j”). For a single execution trace/iteration, the precedence constraint set should be acyclic (strict partial order). If the procedure includes iteration/loops, model the loop explicitly (e.g., as a loop/control-flow construct or by time-indexing step instances) rather than introducing cycles into SerialStepOf. If you mean “adjacent in sequence”, use an explicit adjacency form.
-* **ParallelFactorOf**: parallelizability constraint between step nodes under stated assumptions (resources, independence, synchronization). Treat it as *potential* parallelism (a property of the procedure design), not as evidence that two steps were executed concurrently. If you need to record observed concurrency, use a run-anchored work/evidence relation (e.g., ExecutedConcurrentlyWith in run r). ParallelFactorOf is typically symmetric and not transitive; say so if you rely on those properties.
-
-**D) Fold / aggregation**
-
-* “Γ_sys, Γ_epist, Γ_ctx, Γ_time, Γ_method, and Γ_work” as the explicit “gluing rule” (the operator that produces the composite)
-
-**E) Completeness**
-
-* “capability coverage is …”
-* “specification coverage is …”
-* “evidence coverage is …”
-  with explicit scope (G) if relevant.
-
-#### A.6.H:4.4 - Optional bundling record: wholenessSituation
-
-This is a didactic bundling device for prose and review; it adds no new kernel semantics (the semantics remain in boundary + relation kinds + Γ choices).
-
-```text
-Definition WHOL-REC-1 (wholenessSituation record).
-wholenessSituation ::= ⟨
-  wholeRef,
-  referenceLevel ∈ {referent, description, work},
-  boundaryRefs (0..*),
-  environmentRefs (0..*),
-  carrierRef (0..1),       // required if PhaseOf is asserted
-  parthoodKinds ⊆ {ComponentOf, ConstituentOf, PortionOf, MemberOf},
-  measureRef (0..1),       // μ if PortionOf is asserted
-  foldRef (0..1),          // Γ_* if a fold is asserted
-  orderTimeKinds ⊆ {StepOf, SerialStepOf, ParallelFactorOf, PhaseOf},
-  orderTimeRef (0..1),     // the step graph / timeline segment being referenced
-  completenessKinds ⊆ {capability, spec, evidence},
-  scopeRef (0..1)          // ClaimScope (G) if relevant
-⟩
-
-Note: if the trigger token is “integrity” and the intent is security/data integrity (CIA integrity, constraint satisfaction), do not treat it as a WHOL situation; route it as an integrity-as-quality statement instead of forcing boundary/parthood semantics.
-```
-
-Use it when a document keeps repeating “the whole X”; a single record makes the intended wholeness facets stable across pages.
-
-#### A.6.H:4.5 - Always-unpack rule for normative surfaces
-
-**D-WHOL-UNPACK.** In any normative or Working-Model sentence, if a WHOL trigger appears, the author SHALL rewrite the sentence using facet headphrases and typed relations, or attach a Candidate-Set Note while the choice remains open.
-
-This keeps “whole/part” as natural-language scaffolding while preventing it from becoming a typed relation definition.
-
-```text
-Definition WHOL-CSN-1 (Candidate-Set Note).
-CandidateSetNote ::= ⟨
-  triggerToken,
-  excerptRef,
-  candidates,              // explicit candidate meanings (facet combinations)
-  discriminatorsPending,   // questions/tests to run before committing
-  noSmugglingConstraints   // what must NOT be asserted while open (e.g., “do not encode as generic PartOf”)
-⟩
-```
-
-A Candidate-Set Note is conformant only if it explicitly blocks semantic smuggling (e.g., forbids encoding an unresolved “part-of” as a generic inclusion edge).
-
-#### A.6.H:4.6 - Disambiguation guide
-
-Use the following format when reviewing or rewriting: trigger → candidates → discriminating questions/tests → canonical rewrite → L/A/D/E hooks.
-
-**Minimal discriminator kit (lintable tests).**
-
-* **Level-of-reference test:** Is the sentence about the referent holon, a description episteme, a publication unit or carrier, a work occurrence, or an evidence carrier? If the level changes the edge type, make it explicit before choosing relations.
-* **Boundary test:** Can you point to an inside/outside cut and name at least one cross-boundary interaction, interface, dependency, or external constraint that matters for this claim? If not, either “whole” is rhetorical, or the boundary is intentionally out of scope (say so), or you are not making a holon-level claim (see level-of-reference).
-* **Transitivity test (parthood):** Would “A part-of B” and “B part-of C” normally license “A part-of C” under the intended meaning? If yes, you likely mean a typed parthood (ComponentOf/ConstituentOf). If no, suspect MemberOf, PortionOf, or an order/time relation.
-* **Swap test (order):** If you swap A and B, does the meaning change? If yes, encode precedence/concurrency, not containment.
-* **Carrier-identity test (history):** Is it the *same carrier* across time with windows/coverage constraints? If yes, PhaseOf + Γ_time. If not, model a transformation that yields a new holon identity.
-* **Coverage test (completeness):** “Complete” with respect to what scope (G), and is it capability/spec/evidence coverage (A.15) rather than “has all parts”?
-
-| Trigger in prose                                           | Candidate meanings                                                               | Discriminating questions/tests                                                                                                      | Canonical rewrite                                                                                                                         | Routing hooks                                                           |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| “X is a whole / integrated / coherent”                     | (a) boundary individuation, (b) a Γ fold exists, (c) completeness claim          | What is the boundary? What is outside? What is the “glue” (Γ) if parts exist? Is this about capability coverage instead?            | “The holon boundary of X is …; X interacts with … across boundary; X is produced by Γ_* over …” OR “capability coverage for X is …”       | A.1 boundary; B.1 Γ; A.15 completeness                                  |
-| “X has integrity / data integrity / integrity constraint”  | (a) wholeness/coherence claim, (b) security/data integrity quality, (c) term-of-art | Is integrity about CIA/security, tamper-resistance, or constraint satisfaction? If yes, it is a quality claim, not wholeness. If not, what boundary/fold is implied? | “Integrity-of(X) w.r.t. constraints/threat model is …” OR (if wholeness) apply boundary + Γ + typed relations as above                     | Quality-attribute routing; A.1 boundary if applicable                   |
-| “A is part of B / B contains A”                            | ComponentOf vs ConstituentOf vs PortionOf vs PhaseOf vs MemberOf                 | Is A a physical assembly element, a content section, a quantity slice, a time slice, or a team member? Would transitivity be valid? | Replace “part of” with the chosen typed relation and, if needed, declare μ or τ                                                           | A.14 / B.1.1 selection guide                                            |
-| “Step A is part of the process/pipeline”                   | (a) StepOf plus SerialStepOf or ParallelFactorOf for the procedure graph, (b) PhaseOf for a temporal slice, (c) ConstituentOf for a publication-unit or episteme-content structure, (d) mereology incorrectly used | Level-of-reference: procedure vs description episteme vs publication unit vs run? If swapping steps changes meaning, it is order. If it is a temporal slice of the same carrier, it is PhaseOf. If it is “step text is in the document”, it is ConstituentOf on the publication unit. | “Step A StepOf procedure P; constraints: Step A SerialStepOf Step B, or Step A ParallelFactorOf Step B …” aggregated via Γ_method or Γ_ctx. Or, at publication-unit level, “StepDescription(A) ConstituentOf MethodDoc D”. Do not express procedure order as ComponentOf. | B.1.4 anti-pattern fix; A.15 (description, publication, work)                      |
-| “v2 is part of v1” or “the new version is inside the old one” | (a) PhaseOf timeline, (b) new holon, episteme, or publication identity, (c) conceptual inclusion           | Is it the same carrier across time with coverage and no-overlap? Or did identity change and produce a new thing?                         | “v2 PhaseOf carrier over τ2” aggregated via Γ_time, or model a Transformer producing the new holon, episteme, or publication                                          | A.14 PhaseOf + Γ_time; B.2 if identity changes                          |
-| “The team/system is composed of people”                    | (a) MemberOf collective, (b) ComponentOf physical assembly, (c) role assignments | Do the people form a collective that can act? If so, treat membership separately from structure; roles are not parts.               | “Person p MemberOf Team T” and, if T acts, model it as a bounded system with its own `U.Method` and `U.Work` occurrences                                          | MemberOf note + A.15 role-as-part warning                               |
-| “The method is complete / turnkey / end-to-end”            | capability coverage vs spec coverage vs evidence coverage                        | Complete with respect to which scope (G)? Is the claim about a description, an ability, or an executed run?                         | “MethodDescription coverage is …” or “System capability covers required steps …” or “Work evidence covers …”                              | A.15 role–method–work alignment; L-PROC/L-FUNC/L-SCHED family if needed |
-| “The discipline/context as a whole”                        | (a) method family, (b) community/institution, (c) bounded context of norms       | Are we talking about knowledge epistemes or publications, acting organizations, or contextual rules that constrain roles/methods?                   | Rewrite as “episteme family …” OR “collective system …” OR “bounded context …” and then apply boundary/parthood/order rules appropriately | A.7 strict distinction; boundary + membership + A.15                    |
-
-**Candidate-Set Note.** If you cannot yet decide which candidate meaning is intended, record a Candidate-Set Note and proceed without silently collapsing meanings.
-
-#### A.6.H:4.7 - Change lexicon for wholeness narratives
-
-When “the whole” evolves, narrate the change as an explicit change-class, not as “it’s still the same whole” rhetoric:
-
-* **reboundary**: boundary/interface changed (inside/outside changed)
-* **recompose**: a parthood edge was added/removed or its kind changed (ComponentOf ↔ ConstituentOf, etc.)
-* **repartition**: PortionOf distribution changed (with explicit μ)
-* **rephase**: PhaseOf windows changed (coverage/overlap story)
-* **reorder / reparallelize**: SerialStepOf / ParallelFactorOf graph changed
-* **redescribe**: the claim’s reference level shifted (system ↔ description ↔ work/evidence) while retaining the same noun phrase (“the whole X”)
-* **recomplete**: capability/spec/evidence coverage changed (scope pin updated)
-
-If the identity criterion fails (it is no longer “the same carrier”), escalate: do not hide it behind “whole/integrity” language.
+Do not substitute a generic change lexicon for those objects and predicates. A readable verb is welcome when the exact direct claim remains recoverable.
 
 #### A.6.H:4.8 - Guardrails
 
-1. **No “part-of” as a universal relation.** “Part of” is a prompt to choose a typed relation, not a final answer.
-2. **No order/time smuggling.** Steps and histories must not be encoded as structural inclusion.
-3. **No membership upgrade.** A set of members is not automatically a composed whole; keep MemberOf distinct from ComponentOf.
-4. **No role-as-part.** Role boundaries are scope and authorization boundaries, not BoM structure.
-5. **Cross-boundary influence is interaction.** If something crosses a boundary, it is an interaction/interface story, not a parthood story.
-6. **No integrity-as-wholeness by default.** If “integrity” appears, first classify it as (a) wholeness/coherence, or (b) security/data integrity quality (CIA/constraints). Route accordingly before invoking parthood or Γ.
-7. **No description-publication and referent drift.** Do not slide between a system, the description episteme, the publication unit or carrier that presents it, and observed runs under the same “whole X” phrase; state the reference level and use the appropriate relations (ConstituentOf, ComponentOf, work predicates, or evidence-carrier references).
+1. No situation record, card, bundle, adjective, table, graph, or trace is the whole or direct relation by presence.
+2. No generic `partOf` closes a load-bearing claim when a direct relation kind or owner is required.
+3. No order, plan, or Work history is structural parthood by position.
+4. No membership is upgraded to component assembly or acting-system identity.
+5. No cross-boundary flow or influence is treated as a part merely because it crosses the boundary.
+6. No `integrity` reading is selected before the bearer, claim, and receiving use are known.
+7. No plan, description, or publication is treated as performed Work.
+8. No version, revision, edition, phase, filename, or provenance label decides identity or continuity.
+9. No construction trace or selected structure creates its listed parts or relations.
+10. No coverage statement becomes assurance, acceptance, readiness, or completion beyond its exact predicate and evidence.
 
 ### A.6.H:5 - Archetypal Grounding
 
-**Tell.** “Wholeness” is not one concept in practice; it is a shorthand for boundary, composition rule, and coverage. Precision comes from unpacking the shorthand into the smallest set of explicit claims that make disagreements decidable.
+#### A.6.H:5.1 - Assembled pump
 
-**Show — System vignette (lab automation).**
-A team says: “The whole chromatography pipeline is turnkey, and the chemist owns the whole thing.” This collapses three meanings: workflow order, capability completeness, and role boundary. A precise rewrite becomes:
+Source sentence: “After seal replacement, the assembled pump remains an integral whole.”
 
-* “Pipeline” is a **MethodDescription** with steps connected by **SerialStepOf**; the composite procedure is aggregated by **Γ_method and Γ_ctx**.
-* “Turnkey” is **capability/spec coverage**: which required roles/capabilities cover which steps under which scope (G).
-* “Chemist owns” is a **role assignment boundary** inside a bounded context (who is authorized/required), not a ComponentOf structure.
+1. The subject is `PumpUnit-37`, not the maintenance record, drawing, or seal-replacement Work.
+2. The pump's direct identity rule decides whether the same individual continued.
+3. The current use names the pump boundary, impeller, casing, replacement seal, and the exact assembly or parthood relations on which operation depends.
+4. If the decision consumes one selected organization of those relations, A.22 governs that structure; if it consumes a construction account, C.13 reports already recovered facts.
+5. A.1 recognizes the candidate whole; B.2 opens only if the replacement leaves a genuine whole-reidentification question.
+6. Calibration, seal replacement, and inspection remain separately governed Work and change facts. The adjective *integral* proves none of them.
 
-Now the discussion can separate: “Is the workflow correct?” vs “Do we have capability coverage?” vs “Who is responsible in this context?”
+#### A.6.H:5.2 - Laboratory pipeline
 
-**Show — Episteme vignette (paper + proof + revision).**
-A reviewer writes: “Section 3 is part of the proof, and v2 is part of v1.” Both “part” usages differ.
+Source sentence: “The whole chromatography pipeline is turnkey, and the chemist owns the whole thing.”
 
-* “Section 3” is typically **ConstituentOf** the paper (content inclusion), while “step 3 of the proof” is **SerialStepOf** in the proof’s reasoning order.
-* “v2 part of v1” is usually **PhaseOf** the same carrier across time, aggregated by **Γ_time**—unless the identity changed, in which case an explicit transformation produced a new holon, episteme, or publication according to the live identity criterion.
+The repair produces several claims:
 
-The author can now fix the prose and the model without guessing what “part” meant.
+- the reusable procedure is one exact Method or composite Method under A.3.1/B.1.5, with exact joins and exposed interactions;
+- its procedure document is a separate `U.MethodDescription` episteme under C.2.1/A.3.2;
+- “turnkey” becomes the exact specification, capability, Work, or evidence coverage claim needed by the receiving use;
+- the chemist is an admitted holder only through the exact role assignment, commitment, permission, or responsibility relation that obtains; and
+- an actual laboratory run is dated Work under A.15.1.
 
-### A.6.H:6 - Bias-Annotation
+No one claim is a component relation merely because the source uses *pipeline* or *whole*.
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal**.
+#### A.6.H:5.3 - Paper, proof, and revision
 
-* **Gov bias.** Prefers auditable, reviewable claims over rhetorically satisfying language; mitigated by allowing Candidate-Set Notes when decisions are intentionally deferred.
-* **Arch bias.** Prefers small, typed vocabularies and explicit operator selection (Γ flavours), which can feel “heavy” in early drafts; mitigated by “always-unpack only on load-bearing surfaces.”
-* **Onto/Epist bias.** Privileges clear category boundaries (structure vs order vs history vs capability); mitigated by permitting multiple facets when the situation genuinely requires them.
-* **Prag bias.** Optimizes for fewer downstream refactors by forcing early disambiguation; mitigated by the change lexicon, which makes late changes explicit and safe.
-* **Did bias.** Prefers teachability and lintable triggers; mitigated by keeping the facet set small and using domain-native examples.
+Source sentence: “Section 3 is part of the proof, and v2 is part of v1.”
+
+- Recover whether Section 3 is a constituent of the paper episteme, a publication-unit constituent, or a described proof step. Keep those subjects separate.
+- Recover argument order under its direct owner rather than as physical containment.
+- Compare the exact C.2.1 triples for the two labelled epistemes. Changed claim content identifies two epistemes. Assert `EpistemeEditionRelation(E_v1,E_v2)` only when its historical-continuation predicate obtains.
+- If one unchanged episteme is needed only during a proper interval, `PhaseOf(E@τ,E)` may state that restriction. It does not connect v1 to v2.
+- Drafting, review, and publication are Work and publication relations, not participants of the edition relation.
+
+#### A.6.H:5.4 - Integrity measurement and assurance
+
+Source sentence: “The structural integrity score is 0.82, so the system is assured.”
+
+First recover the bearer, integrity Characteristic, Scale, measurement method, result episteme, evidence, and time stance under C.16.P/C.16. Then ask whether a named B.3 assurance claim is actually being made and recover its claim, evidence-use relation, scope, limitations, and relying context. The number does not create a candidate whole, a part relation, or an assurance result.
+
+### A.6.H:6 - Recognition and assurance stay separate
+
+**Recognition questions** decide which objects and direct relations are current:
+
+- Is there one candidate whole under A.1?
+- Which independently identified parts, constituents, members, portions, or temporal restrictions participate?
+- Which direct relations obtain?
+- Does a selected structure or construction account matter to this use?
+- Does the same whole persist, or is reidentification current?
+
+**Assurance questions** decide what may be relied on:
+
+- Which claim is being supported?
+- Which evidence bears on it through which relation?
+- What scope, limitation, time stance, and relying use apply?
+- Does the evidence support recognition, relation truth, measurement, completion, or another claim?
+
+Evidence can make an assertion inspectable without becoming constitutive of the whole or relation. Unknown support does not create a third identity or obtaining state.
+
+### A.6.H:6.1 - Bias-Annotation
+
+- **Governance bias.** The pattern favors reviewable direct claims over rhetorically satisfying wholeness language. Ordinary prose and explicit unresolved alternatives mitigate this when a decision is not yet due.
+- **Architecture bias.** It favors exact owners and small typed vocabularies over one reusable wholeness schema. The minimum-current-object rule mitigates unnecessary apparatus.
+- **Ontological/epistemic bias.** It insists on separating referent, episteme, publication, Method, plan, Work, and evidence. This cost is paid only when the distinction changes the receiving use.
+- **Pragmatic bias.** It favors early disambiguation to avoid downstream refactoring. A local direct sentence is sufficient; reusable declarations or structures are added only for a named receiver.
+- **Didactic bias.** It uses recurring cue words and worked cases to teach the route, while `E.10` remains the shared wording-use owner and the cue list creates no second registry.
 
 ### A.6.H:7 - Conformance Checklist
 
-| ID                                         | Requirement                                                                                                                                                                                                                  | Purpose                                                          |
-| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| **CC-A6H-1 (Trigger discipline).**         | Authors of normative or Working-Model text SHALL treat WHOL triggers as disambiguation triggers and apply the facet rewrite or attach a Candidate-Set Note.                                                                  | Prevents “whole/part” from becoming a typed relation definition.          |
-| **CC-A6H-2 (Typed parthood).**             | When “part-of/contains/composed-of” is meant as inclusion, authors SHALL choose a typed relation kind consistent with the edge selection guide (ComponentOf / ConstituentOf / PortionOf; MemberOf if collective). If the prose is actually asserting temporal slicing/versioning, authors SHALL use PhaseOf + Γ_time and SHALL NOT encode it as inclusion. | Eliminates universal “part-of” dumping.                          |
-| **CC-A6H-3 (No order/time in mereology).** | Authors SHALL NOT express step order, concurrency, or temporal coverage as structural inclusion; they SHALL use ordered relations and Γ_ctx/Γ_method or PhaseOf and Γ_time.                                                  | Blocks the structure-as-sequence and history-as-structure traps. |
-|                                            | *Note:* ConstituentOf is allowed when the claim is about a publication-unit or episteme-content structure, such as step descriptions inside a method document; StepOf, SerialStepOf, and ParallelFactorOf are for the procedure graph itself.            |                                                                         |
-| **CC-A6H-4 (Membership separation).**      | Authors SHALL keep MemberOf claims distinct from ComponentOf/ConstituentOf and SHALL NOT infer composition from membership without an explicit construction claim.                                                           | Prevents accidental upgrade from set to assembly.                |
-| **CC-A6H-5 (Completeness routing).**       | When “complete/end-to-end/turnkey” is used, authors SHALL state whether the claim is about capability coverage, specification coverage, or evidence coverage, and route terms to A.15 vocabulary.                            | Prevents wholeness-as-rhetoric in method/role discourse.         |
-| **CC-A6H-6 (Boundary clarity).**           | If “whole/integrity/environment” is asserted at holon-level, authors SHALL name the relevant boundary and at least one interface/interaction/dependency/constraint concern, or explicitly state that boundary is out of scope for the claim. | Makes inside/outside explicit and reviewable.                    |
-| **CC-A6H-7 (Change-class narration).**     | When a wholeness story changes across editions, authors SHOULD use the change lexicon (reboundary/recompose/rephase/reorder/recomplete) rather than reusing “whole” rhetoric.                                                | Keeps evolution auditable.                                       |
-| **CC-A6H-8 (Review lint).**                | Reviewers and validators SHOULD flag un-unpacked WHOL triggers on normative surfaces as nonconformant, unless an explicit Candidate-Set Note exists.                                                                         | Makes the discipline enforceable at low cost.                    |
-| **CC-A6H-9 (Term-of-art override).**       | If a WHOL trigger appears inside a defined term-of-art, authors SHALL cite or inline the definition and SHALL NOT treat the occurrence as a WHOL trigger unless the definition itself contains unresolved WHOL triggers.       | Prevents linter noise and misrouting.                            |
-| **CC-A6H-10 (Integrity classification).**  | When “integrity” appears, authors SHALL explicitly classify it as (a) wholeness/coherence, (b) security/data integrity quality, or (c) another defined term-of-art, and route the rewrite accordingly.                      | Avoids integrity-as-wholeness category errors.                    |
-| **CC-A6H-11 (Reference level).**           | On normative or Working-Model surfaces, authors SHALL state whether a wholeness claim is about the referent holon, a description episteme, a publication unit or carrier, a work occurrence, or an evidence carrier whenever that distinction affects relation choice, completeness meaning, or validation. | Prevents description-publication and referent drift plus A.15 level errors.          |
+| ID | Requirement |
+| --- | --- |
+| `CC-A6H-1` | The entry names the working decision, concrete candidate objects, receiving use, and load-bearing sentence. |
+| `CC-A6H-2` | The subject level is explicit when referent, episteme, publication, carrier, Method, plan, Work, or evidence would select different relations. |
+| `CC-A6H-3` | An actual whole claim identifies the candidate individual, direct identity owner, boundary or delimitation when relevant, and independently recovered parts or constituents. |
+| `CC-A6H-4` | Every direct relation claim names exact participants and passes its own obtaining rule; co-listing, wording, position, or representation establishes none. |
+| `CC-A6H-5` | `PortionOf` names an extensive measure μ, compatible unit, and additivity/non-overlap basis. |
+| `CC-A6H-6` | `PhaseOf` is used only for a proper temporal restriction of one unchanged directly governed individual; changed epistemes use C.2.1 and Work uses A.15.1. |
+| `CC-A6H-7` | Method factors, description constituents, plan items, and performed Work parts remain separate and use their direct owners. |
+| `CC-A6H-8` | `integrity` is classified as a characteristic/measurement, evidence/assurance, actual structural-whole claim, or another defined term before routing. |
+| `CC-A6H-9` | `complete`, `turnkey`, and `end-to-end` name the exact covered objects, scope, criterion, predicate, gaps, and direct owner. |
+| `CC-A6H-10` | C.13 construction and A.22 selected structure are added only for a named use and create no direct part or relation occurrence. |
+| `CC-A6H-11` | A.1 recognition and B.2 reidentification are opened only for their actual questions; an adjective, list, or changed label decides neither. |
+| `CC-A6H-12` | The result is one or more direct owner returns or an exact A.6.RCD blocker, never a wholeness record, bundle, or new kind. |
 
 ### A.6.H:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern                 | Symptom                                                                | Why it fails                                        | How to avoid / repair                                                                             |
-| ---------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Holistic-as-evasion**      | “We took a holistic view” replaces boundary/scope detail               | Sacrifices auditability for conversational economy                   | State the boundary, environment, and scope (G); use wholeness facets explicitly                   |
-| **Universal part-of**        | Everything is “part of” everything                                     | Breaks portability; different readers infer different relations      | Replace with ComponentOf/ConstituentOf/PortionOf/PhaseOf/MemberOf                                 |
-| **Structure-as-sequence**    | Step order encoded as containment                                      | Collapses procedure into structure; causes Γ errors                  | Use SerialStepOf/ParallelFactorOf + Γ_ctx/Γ_method                                                |
-| **History-as-structure**     | Versions modeled as parts                                              | Erases temporal coverage and identity discipline                     | Use PhaseOf + Γ_time; if identity changed, model the new holon, episteme, or publication according to the live identity criterion                                   |
-| **Collection-as-assembly**   | A team “consists of” people encoded as ComponentOf                     | Confuses membership with assembly                                    | Use MemberOf and, if the group acts, model it as a bounded system with its own work               |
-| **Completeness-by-rhetoric** | “Method is complete” without stating what it covers                    | Confuses structural wholeness with capability/spec/evidence coverage | Rewrite using A.15: MethodDescription vs Method vs Work, plus explicit coverage                   |
-| **Module vs component blur** | “Module” used sometimes as physical part, sometimes as deployment unit | Breaks cross-team comparability                                      | Use a mini-definition on first mention and route: component, constituent, or deployment unit; if a document or screen is live, name that publication separately |
-| **Description-publication and referent drift**   | “The whole X” alternates between a system, its description episteme, and a spec/model/document publication   | Breaks auditability; smuggles relations across A.15 levels            | State the reference level explicitly; use ConstituentOf for publication-unit parts; keep model-of separate |
+| Anti-pattern | Failure | Repair |
+| --- | --- | --- |
+| Holistic-as-evasion | “We took a holistic view” replaces the actual decision, subject, boundary, or relation. | Name the receiving use and exact claim, or remove the load-bearing assertion. |
+| Universal part-of | Components, constituents, members, portions, phases, Method factors, and Work parts share one edge. | Recover each object and direct predicate under its owner. |
+| Record-as-whole | A `wholenessSituation`, bundle, BoM, graph, or trace is treated as the whole or relation. | Return to the candidate entity, independently grounded facts, and direct owner. |
+| Structure-as-sequence | Method order or plan order becomes containment. | Recover exact Methods and order/join claims under B.1.5/B.1.4; keep Work separate. |
+| Version-as-phase | Different epistemes are called phases of one document lineage. | Apply the C.2.1 identity triple, then test `EpistemeEditionRelation` independently. |
+| Work-phase shortcut | Shift, monitoring window, episode, retry, or resumption uses generic `PhaseOf`. | Apply A.15.1's exact temporal-part, episode, operational-part, retry, resumption, or occurrence rule. |
+| Integrity-as-wholeness | A measurement, security property, report, or assurance claim is forced through parts and boundary. | Use the four-way integrity classification in 4.3. |
+| Completeness-by-rhetoric | “Turnkey” or “end-to-end” supplies no covered set, scope, criterion, or owner. | State the exact specification, capability, Work, evidence, construction, or completion claim. |
+| Description/referent drift | The same noun alternates among a system, model episteme, document, carrier, plan, and Work. | Name each current subject and its direct relation. |
+| Generic change narration | A new change verb replaces the changed object and predicate. | State the exact boundary, relation, episteme, publication, Method, Work, or coverage change. |
 
 ### A.6.H:9 - Consequences
 
-| Benefits                                                                                                                            | Trade-offs / Mitigations                                                                                                                      |
-| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Decidable disagreements.** People can disagree about a boundary, a fold, or a coverage criterion without talking past each other. | **More words on the page.** Mitigate by applying always-unpack mainly to normative surfaces and repeating a single wholenessSituation record. |
-| **Fewer category errors.** Order/time and membership stop leaking into part–whole chains.                                           | **Up-front effort.** Mitigate with the disambiguation table and lintable trigger list.                                                        |
-| **Better evolution stories.** Reboundary/rephase/reorder changes are narratable without “it’s still the whole” confusion.           | **Temporary uncertainty.** Mitigate via Candidate-Set Notes rather than premature hardening.                                                  |
-| **Cleaner role and method discourse.** “Turnkey” becomes a coverage statement tied to A.15 rather than a vague wholeness claim.         | **Learning curve.** Mitigate with the System/Episteme examples and consistent headphrases.                                                    |
+| Benefits | Costs and mitigations |
+| --- | --- |
+| Decidable disagreements | The practitioner must name the exact subject and receiving use before arguing about the word. |
+| Local repair | One sentence may become several direct claims; stop after the claims the receiving use actually needs. |
+| Stable ownership | Mereology, episteme identity, Work, measurement, evidence, publication, and assurance retain their own rules. |
+| Honest uncertainty | An unresolved case blocks only the named use instead of creating an omnibus record. |
+| Reusable assurance | Recognition facts and evidence-use claims can be checked independently. |
+| Less ontology by wording | Familiar trigger words no longer mint kinds, relations, structures, or lifecycle objects. |
 
-Quotable closer: **If “whole” matters, say what makes it one.**
+The practical test is simple: **if “whole” matters, name the thing, the relation, and what the reader may do with the claim.**
 
 ### A.6.H:10 - Rationale
 
-Natural language compresses multiple modeling dimensions into a single word because that is efficient in conversation. In engineering and research, the same compression becomes a fault-line: boundary individuation, mereological inclusion, collection membership, procedural order, and lifecycle continuity behave differently under reasoning and composition.
+Wholeness language is useful because it compresses boundary, identity, relation, construction, coverage, and assurance into ordinary speech. The same compression becomes dangerous only when downstream work relies on one particular reading.
 
-FPF’s kernel already provides small, orthogonal distinctions to separate these concerns: boundaries and interactions for inside/outside, typed parthood for different inclusion families, Γ flavours for different kinds of composition, and role-method-work for capability vs description vs occurrence. A.6.H simply supplies the lexical discipline that keeps authors from collapsing those distinctions into one overloaded noun.
+The minimal repair is therefore not a richer wholeness schema. It is an exact-object sequence that starts with the working decision, recovers only the objects that decision consumes, and exits to their direct owners. This preserves conversational economy while preventing a representation, record, label, or adjective from replacing an in-world object or relation.
 
-The result is not pedantry; it is a mechanism for preventing downstream refactors and for making disagreements reviewable.
+The sequence also preserves two positive uses often lost in blanket cleanup. `PhaseOf` remains valid for a proper restriction of one unchanged enduring individual, including one unchanged episteme when its C.2.1 identity triple is fixed. And ordinary whole recognition remains useful when an exact candidate entity, boundary, parts, relations, and direct identity rule are genuinely current.
 
 ### A.6.H:11 - SoTA-Echoing
 
-SoTA-Pack: Viewpoint discipline + relation typing + boundary-aware responsibility (lexically enforced).
+| Source tradition | Current practice used here | Local adoption | Rejected shortcut |
+| --- | --- | --- | --- |
+| [ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html), architecture-description practice | Distinguish the entity of interest from its description and make concerns, viewpoints, environment, and boundary explicit. | Recover the candidate referent and boundary before treating a description or publication as evidence about it. | A view, diagram, or architecture document is the system whole or establishes its parts. |
+| [ISO/IEC 21838-2:2021](https://www.iso.org/standard/74572.html), upper-ontology discipline | Keep continuants, temporal parts, occurrents, and relation types explicit. | Preserve direct identity and relation tests, including proper temporal restriction without using it as episteme-edition or Work shorthand. | One universal part edge or lifecycle object covers components, versions, and Work. |
+| [ArchiMate 3.2](https://www.opengroup.org/sites/default/files/docs/downloads/n221p.pdf), enterprise-architecture relation practice | Different structural and behavioral relations answer different questions. | Use the source vocabulary as a comparison aid while retaining FPF direct owners and occurrence rules. | A modelling-language edge label establishes the in-world FPF relation. |
+| [Team Topologies](https://teamtopologies.com/), sociotechnical boundary practice | Team boundaries, interaction modes, and cognitive load affect organization and flow. | Treat team and ownership wording as cues to recover collective, role, assignment, interaction, and Work claims separately. | A team membership list is structural assembly or responsibility by itself. |
+| ISO/IEC/IEEE 29148:2018, requirements quality | Requirements should identify the item, condition, and verifiable claim without referent/document ambiguity. | Require exact subjects, scopes, predicates, and blocked overreads on load-bearing surfaces. | A specification sentence becomes true or complete because the document is complete-looking. |
+| [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final), security and privacy controls | Integrity claims depend on exact information, constraints, threats, controls, assessment, and evidence. | Route data/security integrity to its characteristic, measurement, evaluation, and assurance owners before any structural-whole reading. | Every occurrence of *integrity* means wholeness or mereological coherence. |
 
-This section follows the required structure: claim → practice → source → alignment → adoption status.
-
-| Tradition                                     | SoTA practice (post‑2015)                                                                                                                                                              | Primary source (post‑2015)                       | Alignment with this pattern                                                                                                                                                                           | Adoption status                                                                                                       |
-| --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Systems and software architecture description | Architecture descriptions distinguish the entity-of-interest from its description and structure the discussion around concerns/viewpoints, including boundary and environment notions. | ISO/IEC/IEEE 42010:2022 ([ISO][1])               | A.6.H adopts the same “make the viewpoint explicit” stance, but operationalizes it at the lexical level: “whole” requires a boundary/environment clause rather than a rhetorical claim.               | **Adopt/Adapt.** Adopt viewpoint discipline; adapt by using trigger-word linting as an authoring aid.                 |
-| Formal ontology and upper-ontology standards       | Upper-ontology standards require explicit definitions of relations and discourage conflating distinct relation types under one label.                                              | ISO/IEC 21838-2:2021 ([ISO][2])                  | A.6.H aligns by forcing “part-of” to resolve into a typed relation family, and by separating continuants (structure) from occurrent-like narratives (order/time).                                     | **Adopt.** Adopt explicit relation typing; keep the facet set minimal to preserve usability.                          |
-| Enterprise architecture modeling languages    | Modeling standards distinguish structural relations such as composition vs aggregation, but many organizations still overload them informally.                                         | ArchiMate 3.2 Specification ([opengroup.org][3]) | A.6.H adapts the idea of “different structural relations,” but extends it with Portion/Phase and with a strict routing of order/time outside structure, which is often underspecified in EA practice. | **Adapt.** Adopt the “don’t overload one relation” instinct; adapt by adding explicit order/time and coverage facets. |
-| Sociotechnical team boundary practice         | Organizational design methods treat team boundaries and cognitive load as first-class, because “a team as a whole” depends on coordination interfaces and role clarity.                | Team Topologies ([teamtopologies.com][4])        | A.6.H uses this as support for separating “collective membership” from “structural assembly” and for treating “ownership of the whole” as a boundary-and-responsibility claim, not a part claim.      | **Adopt/Adapt.** Adopt boundary salience; adapt by binding it to explicit wholeness facets and typed relations.       |
-| Requirements engineering and specification quality | Requirements standards emphasize unambiguous, verifiable statements and explicit identification of the item being specified vs its documentation (referent vs description).        | ISO/IEC/IEEE 29148:2018                          | A.6.H operationalizes this at the lexical level by defining load-bearing surfaces and requiring rewrites into typed relations instead of overloaded “whole/part” prose.                               | **Adopt/Adapt.** Adopt verifiability discipline; adapt via WHOL triggers + Candidate-Set Notes.                       |
-| Security engineering vocabulary               | “Integrity” is treated as a security property (unauthorized modification) and as constraint satisfaction, requiring explicit threat/assumption models.                                | NIST SP 800-53 Rev.5 (2020) ([NIST][5])          | A.6.H’s integrity classification step prevents misrouting security/data integrity into wholeness/mereology and supports correct remediation.                                                         | **Adopt.** Treat integrity as quality unless explicitly wholeness/coherence.                                          |
-
-Scale legality note: whenever “fraction/percentage/share” appears in wholeness talk, treat it as PortionOf with an explicit extensive measure μ and an additive rule, not as “a component,” to avoid covert scalarization and category mistakes.
+Whenever *fraction*, *percentage*, or *share* is used as a part claim, recover the extensive measure μ and additivity basis before `PortionOf`; otherwise keep the value with its measurement, allocation, membership, or other direct owner.
 
 ### A.6.H:12 - Relations
 
-* **Specialises:** A.6.P Relational Precision Restoration (RPR).
-* **Front-ends:** A.14 Advanced Mereology; B.1.1 edge selection guide — by turning prose triggers into typed edge choices.
-* **Coordinates with:** B.1.4 Γ_ctx/Γ_time — to route order/time away from structure; A.15 Role–Method–Work Alignment — for “completeness/end-to-end” coverage language (capability/spec/evidence).
-* **Informs examples:** F.18 vocabulary pitfalls (module/component, batch/lot) as recurring wholeness-word traps.
-
-[1]: https://www.iso.org/standard/74393.html "ISO/IEC/IEEE 42010:2022 - Software, systems and enterprise"
-[2]: https://www.iso.org/standard/74572.html "ISO/IEC 21838-2:2021 - Information technology"
-[3]: https://www.opengroup.org/sites/default/files/docs/downloads/n221p.pdf "ArchiMate 3.2 Specification Reference Cards"
-[4]: https://teamtopologies.com/ "Team Topologies - Organizing for fast flow of value"
-[5]: https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final "NIST SP 800-53 Rev. 5 - Security and Privacy Controls"
+- **Specialises:** `A.6.P` after its 4.11 whole/part/integrity/coverage branch has recovered exact candidate objects and the receiving sentence.
+- **Returns direct mereology to:** `A.14`; construction accounts to `C.13`; selected structures to `A.22`; holon recognition to `A.1`; and remaining whole reidentification to `B.2`.
+- **Returns episteme and publication questions to:** `C.2.1`, `A.3.2`, `E.17`, `E.24.PUB`, and `C.29` as selected by the exact subject.
+- **Returns Method, plan, and Work questions to:** `A.3.1`, `B.1.5`, `A.15.2`, `A.15.1`, `A.15.PROD`, and `B.1.4` only for bounded aggregation of already recovered temporal or order relations.
+- **Returns integrity, evidence, and assurance questions to:** `C.16.P`, `C.16`, the exact measurement owner, `A.10`, and `B.3`.
+- **Returns absent relation governance to:** `A.6.RCD` after participants, required predicate, and blocked receiving use are exact.
+- **Does not create:** a wholeness situation, card, bundle, lifecycle kind, automatic edition series, universal part relation, coverage status, assurance verdict, or direct relation occurrence.
 
 ### A.6.H:End
 
@@ -23565,14 +23525,14 @@ FPF’s holonic modelling relies on **part–whole** relations to build *structu
 
 1. **Quantities vs. parts.** Engineers routinely need “some of the fuel”, “the first 10 pages”, “a 30% subset of data”. This is not a component; it is a **portion** of a stuff‑like whole, governed by measures and conservation.
 
-2. **Change vs. replacement.** Authors need to say “the prototype **before calibration**”, “v2 of the spec”, “shift 1 vs. shift 2 of the same run”. That is not a new whole; it is a **phase** of the same carrier across time.
+2. **Change vs. replacement.** “The prototype **before calibration**” may be a proper temporal restriction of one unchanged pump. By contrast, “v2 of the spec” first opens C.2.1 identity and, for two different epistemes, its independent edition-continuity test; “shift 1 vs. shift 2” first opens A.15.1 Work-part or occurrence law. None of those labels selects `PhaseOf` by itself.
 
 This section introduces two **normative** sub‑relations of `partOf` that close those gaps and lock them to the rest of the kernel:
 
 * **PortionOf** — metrical, measure‑preserving parthood of stuffs and other measurables.
 * **PhaseOf** — temporal parthood of the *same* carrier across an interval.
 
-It also restates guard‑rails that keep **role values** outside holon mereology and keep **method values** outside A.14 structural component mereology, while allowing method holarchy through method owners such as `A.3.1` and `B.1.5`. Describing epistemes such as `U.MethodDescription` and `U.WorkPlan` use ordinary episteme parthood and versioning like any other `U.Episteme`. It also clarifies how **MemberOf** fits: membership and collection-as-whole grounding start with A.14, C.13, and B.3.5 as appropriate; acting collective systems require `U.System` admission plus role, method, work, and evidence owners; whole reidentification uses B.2 only when existing-whole explanations fail.
+It also restates guard‑rails that keep **role values** outside holon mereology and keep **method values** outside A.14 structural component mereology, while allowing method holarchy through method owners such as `A.3.1` and `B.1.5`. Describing epistemes such as `U.MethodDescription` and `U.WorkPlan` keep their C.2.1 identity: content or publication-unit inclusion may use ordinary episteme parthood, a proper interval of one unchanged episteme may use `PhaseOf`, and changed C.2.1 identity discriminators identify another episteme whose historical continuation is tested separately through `EpistemeEditionRelation`. It also clarifies how **MemberOf** fits: membership and collection-as-whole grounding start with A.14, C.13, and B.3.5 as appropriate; acting collective systems require `U.System` admission plus role, method, work, and evidence owners; whole reidentification uses B.2 only when existing-whole explanations fail.
 
 **Publication note (Working-Model first).** Read A.14 together with **E.14 Human-Centric Working-Model** and **B.3.5 CT2R-LOG**: publish the direct relation claim in the **Working-Model** layer and, when assurance is sought for a structural claim, link that assertion downward to one current C.2.1 construction-trace episteme in the **Compose-CAL Γ_m** `sum`, `set`, or `slice` form. The trace reports exact participants, direct relation occurrences, the applicable construction rule, and identity or reidentification conditions. It creates none of them; order and time remain outside mereology.
 
@@ -23582,9 +23542,9 @@ If we only have “generic partOf” (plus Component/Constituent), four classes 
 
 1. **Conservation errors.** Treating “20 L of fuel from Tank A” as a component leads to nonsense: adding and removing such “components” does not respect quantities; Γ\_sys proofs violate Σ‑balance.
 
-2. **Temporal smearing.** Flattening “before/after”, or “v1/v2” into one timeless whole collapses history; Γ\_time and Γ\_method cannot justify order‑sensitive properties; audits cannot reproduce conditions.
+2. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Γ\_time and Γ\_method cannot repair either mistake after the fact.
 
-3. **Identity confusion.** Modelling “new version” as “new component” either breaks identity (it is still the *same* holon evolving) or hides a **Meta‑Holon Transition** when identity really changes.
+3. **Identity confusion.** Modelling a “new version” as a component or phase lets a label decide identity. For an episteme, C.2.1 first decides whether the identity triple is unchanged and tests edition continuity separately; for another enduring holon, its direct identity owner decides whether the same individual persists or a reidentification question opens.
 
 4. **Role leakage.** Functional/organisational roles sneak into part trees (“the PumpRole is part of the plant”), violating A.15 and making structural reasoning brittle.
 
@@ -23603,7 +23563,7 @@ If we only have “generic partOf” (plus Component/Constituent), four classes 
 
 1. **PortionOf** — for *measured* parts of a whole (stuffs and other extensives).
 2. **PhaseOf** — for *temporal* parts of the same carrier.
-3. **No role values in holon mereology; no method values in structural component mereology.** `U.Role` is not an admitted holon kind. `U.Method` is a method holon, but its submethod assembly is governed by method-composition owners, not by A.14 `ComponentOf` or structural `partOf`. A `U.MethodDescription` is an **Episteme** and may be versioned or structured; `U.Work` occurrences may have work-occurrence parts under A.15.1; neither case replaces method holarchy.
+3. **No role values in holon mereology; no method values in structural component mereology.** `U.Role` is not an admitted holon kind. `U.Method` is a method holon, but its submethod assembly is governed by method-composition owners, not by A.14 `ComponentOf` or structural `partOf`. A `U.MethodDescription` is an **Episteme**: C.2.1 governs its identity and any distinct-edition relation, while A.14 can govern its content parthood or a proper temporal restriction of the unchanged episteme. `U.Work` parts and occurrence boundaries use A.15.1 relations rather than generic A.14 phasing; neither case replaces method holarchy.
 4. **MemberOf stays, but collection identity and acting-collective claims use direct owners.** `MemberOf` remains available to state exact collection-membership occurrences. After the collection, its identity rule, and those memberships are independently grounded, `Γ_m.set` may narrate their construction account and B.3.5 may link that account when publication assurance is current. Neither the gathering narrative nor its trace creates a membership. An acting collective system uses `U.System` admission plus role, method, work, and evidence owners. Whole reidentification uses B.2 only when existing-whole explanations fail.
 
 The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** (conceptual, logical/epistemic) remain as in the kernel; A.14 only clarifies **how to tell them apart from Portion/Phase** (§ 6).
@@ -23643,7 +23603,7 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 
 **Axioms (A14‑PHA‑\*)**
 
-* **PHA‑1 (Partial order).** PhaseOf is reflexive, antisymmetric, transitive (on the same carrier).
+* **PHA‑1 (Strict partial order).** `PhaseOf` is irreflexive, asymmetric, and transitive on proper temporal restrictions of one unchanged carrier. In particular, `PhaseOf(y,y)` is false: a whole-lifetime or self-reference is not a proper temporal part.
 * **PHA‑2 (Coverage).** The whole is the union of its maximal, non‑overlapping phases over its lifetime interval.
 * **PHA‑3 (No paradoxical overlap).** Phases of the **same carrier** do not overlap in time; overlapping variants require `PhaseOf` on *aspects* or different carriers.
 * **PHA‑4 (Identity through change).** Properties may vary between phases, but the carrier’s identity criteria hold continuously (e.g., same serial number, same legal identity, same theorem statement).
@@ -23651,8 +23611,8 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 
 **Didactic tests.**
 ✔ “PumpUnit\#3 **before** calibration” — PhaseOf(Pump\#3\_pre, Pump\#3).
-✔ “Spec v2” — PhaseOf(Spec\_v2, Spec), on the **MethodDescription** episteme.
-✔ “Shift 1 of the same batch run” — PhaseOf(Work\_shift1, Work).
+✔ “Specification episteme E during τ₂”, with the C.2.1 identity triple unchanged and a proper interval current — PhaseOf(E@τ₂, E). ✘ “Spec v2” — if a C.2.1 discriminator changed, identify another episteme and test `EpistemeEditionRelation(E_v1,E_v2)` separately; the label proves neither identity nor continuity.
+✘ “Shift 1 of the same batch run” — use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, or another exact Work-part or occurrence relation whose predicate obtains.
 ✘ “Prototype vs. production unit” — likely **different carriers**; use ComponentOf/ConstituentOf or MHT per criteria.
 
 #### A.14:5.3 - CT2R‑LOG & Compose‑CAL handshake *(normative link)*
@@ -23674,7 +23634,7 @@ Two quick identity tests apply before relying on a trace. The same listed consti
 | “This *item belongs to that collection/collective*.”         | **MemberOf**         | State the exact membership occurrence and the collection's identity rule. If assurance is current, C.13 may narrate the already grounded collection in a `Γ_m.set` trace and B.3.5 may link it; the gathering account does not create membership or component integration. |
 | “This system *plays a Role or position*.”          | **playsRole** (A.15) | Roles are contextual masks, never parts.                                           |
 
-> **Firewall reminder.** If your sentence is about *who does what*, *how it is done*, or *what happened when* (role, method, or run), you are likely in **A.15**. If it is about the **document or carrier** (its pages/sections/versions), you may still be in **A.14** (Episteme mereology).
+> **Firewall reminder.** If your sentence is about *who does what*, *how it is done*, or *what happened when* (role, method, or run), use the direct A.15/A.15.1 owner. For an episteme, A.14 may govern content parthood or a proper interval of one unchanged C.2.1 identity; changed claims, EntityOfConcern, or effective reference scheme identify another episteme, and any historical continuation uses C.2.1 `EpistemeEditionRelation` only when its predicate obtains.
 
 ### A.14:7 - Archetypal Grounding
 
@@ -23683,7 +23643,7 @@ Two quick identity tests apply before relying on a trace. The same listed consti
 | **PortionOf**                  | 50 L from a 200 L fuel tank (μ = volume).              | Pages 1–10 from a 120‑page report (μ = page/token count).   |
 | **ComponentOf**                | Impeller **ComponentOf** PumpUnit.                     | Figure 2 **ComponentOf** Poster Layout (physical poster layout). |
 | **ConstituentOf**              | Control law **ConstituentOf** Controller Design.       | Lemma A **ConstituentOf** Theorem Proof.                    |
-| **PhaseOf**                    | PumpUnit\#3 *before*/*after* calibration (same serial). | Spec v1 → v2 (same document lineage).                       |
+| **PhaseOf**                    | PumpUnit\#3 *before*/*after* calibration (same serial and direct identity rule). | One unchanged theorem episteme restricted to τ₁ or τ₂ while its complete C.2.1 identity triple remains fixed. |
 | MemberOf (for reference) | “is an element of a collection/collective”; use only after the exact collection, its identity rule, and the direct membership occurrence are grounded. A C.13 `Γ_m.set` trace can report that construction and B.3.5 can link it for assurance; neither the trace nor a gathering act creates membership. Acting-collective claims require separate `U.System` admission plus role, method, work, and evidence owners. | The same rule applies to collections of epistemes; listing or publishing them supplies no membership occurrence by itself. |
 
 ### A.14:8 - Bias-Annotation
@@ -23699,7 +23659,7 @@ It also corrects representation bias. A BoM row, figure, graph edge, table row, 
 | ID            | Requirement                                                                                 | Purpose                                                 |
 | ------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | **CC‑A14‑0**  | `U.Role` **MUST NOT** occur as a node in any role `partOf` chain. `U.Method` **MUST NOT** occur in A.14 structural `ComponentOf` or structural `partOf` chains by method identity alone; submethod assembly is governed by `A.3.1` and `B.1.5`. If another pattern admits a different carrier, such as a method description, work occurrence, role assignment record, role relation structure, method relation structure, or episteme, name that carrier and governing pattern. | Keeps role values out of holon mereology and keeps method holarchy out of structural component mereology while preserving admitted carriers. |
-| **CC‑A14‑0a** | `U.MethodDescription` / `U.WorkPlan` and other describing epistemes **MAY** participate in `partOf` only as `U.Episteme` nodes (e.g., `ConstituentOf`, text `PortionOf`, version `PhaseOf`); they **MUST NOT** be asserted as `ut:StructPartOf` of any `U.System`. | Allows document structure/versioning without smuggling Methods into structure. |
+| **CC‑A14‑0a** | `U.MethodDescription` / `U.WorkPlan` and other describing epistemes **MAY** participate in `partOf` only as `U.Episteme` nodes: content `ConstituentOf`, measured text `PortionOf`, or `PhaseOf` for a proper interval of one unchanged C.2.1 identity. A changed C.2.1 discriminator identifies another episteme; connect two such identities only through an independently obtaining `EpistemeEditionRelation`. They **MUST NOT** be asserted as `ut:StructPartOf` of any `U.System`. | Allows episteme structure and legitimate temporal restriction without smuggling Methods or automatic edition continuity into structure. |
 | **CC‑A14‑0b** | `MemberOf` **MUST NOT** imply, entail, or be auto‑rewritten into any `partOf` sub‑relation. | Separates collections/collectives from parthood.        |
 | **CC‑A14‑0c** | `SerialStepOf` / `ParallelFactorOf` **MUST NOT** appear in any `partOf` chain or table in A.14; model order and concurrency potential via **A.15** and direct method-composition owners such as `B.1.5`. If a node linked by those relations is also a submethod, state that `U.Method` claim separately before using method holarchy. | Prevents the “order‑as‑structure” and “edge-as-part” category errors.       |
 
@@ -23717,11 +23677,11 @@ It also corrects representation bias. A BoM row, figure, graph edge, table row, 
 
 | ID                                    | Requirement                                                                                                                                                      | Purpose                                |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| **CC‑PHA‑1 (Carrier identity)**       | `PhaseOf(x,y)` requires an explicit **identity criterion** for y valid over the union of phases (e.g., serial number, legal identity, theorem statement).        | Prevents re‑identification by stealth. |
+| **CC‑PHA‑1 (Proper interval & carrier identity)** | `PhaseOf(x,y)` requires `x ≠ y`, a proper sub-interval of y's lifetime, and an explicit identity criterion for y valid over the union of phases (e.g., serial number, legal identity, theorem statement). | Excludes self/whole-lifetime phasing and prevents re-identification by stealth. |
 | **CC‑PHA‑2 (Coverage & non‑overlap)** | The lifetime of y equals the union of its maximal, non‑overlapping phases (on the same aspect).                                                                  | Enables Γ\_time composition and audit. |
 | **CC‑PHA‑3 (Aspect clarity)**         | If two temporal slices of y overlap, they **MUST** be phases of **different aspects** (e.g., mechanical‑state vs software‑state), or else be different carriers. | Avoids paradoxical overlaps.           |
 | **CC‑PHA‑4 (Escalation)**             | If identity criteria fail during change, declare a **Meta‑Holon Transition** (B.2) instead of PhaseOf.                                                           | Makes re‑identification explicit.      |
-| **CC‑PHA‑5 (MethodDescription & Work)**      | Versions of **MethodDescription** and generic time‑slices of **Work** **SHALL** use `PhaseOf` (A.15/A.15.1); Work‑specific refinements (episodes/retries/concurrency) are modelled in A.15.1. `PhaseOf` never applies to `U.Role` or `U.Method`.                                             | Aligns temporal slicing with DesignRunTag bindings.             |
+| **CC‑PHA‑5 (Episteme & Work boundary)** | `PhaseOf` **MAY** restrict one unchanged `U.MethodDescription` episteme to a proper interval only after its C.2.1 identity triple remains fixed. Changed description epistemes use `EpistemeEditionRelation` only when C.2.1's historical-continuation predicate obtains. Work intervals, episodes, performed parts, retries, resumptions, and later occurrences **SHALL** use A.15.1's exact relations; generic `PhaseOf` is not their substitute. `PhaseOf` never applies to `U.Role` or `U.Method`. | Keeps episteme identity, edition continuity, and Work-temporal law with their direct owners. |
 
 #### A.14:8.4 - Grounding and validation (normative)
 
@@ -23751,7 +23711,7 @@ It also corrects representation bias. A BoM row, figure, graph edge, table row, 
 ### A.14:9.1 - Relation-use decision procedure
 
 **Step 0 — Firewall check.**
-If your sentence is about *who does what*, *how it is done* (role or method), or *what happened when* (run or work occurrence), you are **not** in A.14 merely because ordinary speech names a thing. Use the role, method, work, or evidence owner. If it is about the **carrier episteme** (pages/sections/versions of an SOP/algorithm/spec), or about a dated work occurrence with recovered work-part relation, A.14 may participate through that admitted carrier.
+If your sentence is about *who does what*, *how it is done* (role or method), or *what happened when* (run or work occurrence), you are **not** in A.14 merely because ordinary speech names a thing. Use the role, method, work, or evidence owner. For an episteme, A.14 may participate in content parthood or a proper temporal restriction of one unchanged C.2.1 identity. Changed episteme content, EntityOfConcern, or effective reference scheme opens another episteme and the separate C.2.1 edition-continuity test; a dated Work part stays under A.15.1.
 
 **Step 1 — Is it measured stuff?**
 If yes, pick **PortionOf**. Confirm μ is declared (CC‑POR‑1/2). Test additivity on a toy split (CC‑POR‑3). If flows cross a boundary, remodel as interactions, not portions (CC‑POR‑4).
@@ -23759,8 +23719,8 @@ If yes, pick **PortionOf**. Confirm μ is declared (CC‑POR‑1/2). Test additi
 **Step 2 — Is it a discrete inside part?**
 If yes, pick **ComponentOf** (physical) or **ConstituentOf** (conceptual). Do **not** use PortionOf here.
 
-**Step 3 — Is it the same carrier at a time slice?**
-If yes, pick **PhaseOf**. Verify identity criteria and non‑overlap (CC‑PHA‑1/2/3). If criteria break, escalate to **B.2** (CC‑PHA‑4).
+**Step 3 — Is it the same carrier restricted to a proper time slice?**
+If yes, pick **PhaseOf**. Verify that the proposed part is not the whole carrier, its interval is a proper sub-interval, and identity and non-overlap conditions hold (CC‑PHA‑1/2/3). A whole-lifetime or self-reference needs no phase object. If identity criteria break, escalate to **B.2** (CC‑PHA‑4).
 
 **Step 4 — Is it a membership statement?**
 Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a **collection as a whole**, use **C.13** (`Γ_m.set`) and **B.3.5** when assurance grounding is current. If you need **collective action**, first admit an acting collective `U.System`, then use the role, method, work, and evidence owners.
@@ -23771,7 +23731,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 | ------------------------------ | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | “20% of the chassis”           | Treating structure as stuff       | Use **ComponentOf**; if truly laminar material, PortionOf applies to **material stock**, not the assembled chassis.          |
 | “Chapter 2 is 15% of the book” | Mixing measures and constituents  | Use **ConstituentOf**; the 15% is **length‑of‑text** as a separate statement.                                                |
-| “Spec v2 overlaps v1”          | Overlapping phases on same aspect | Use `PhaseOf(Spec_v2, Spec)` with non‑overlap; represent drafting as **Work** episodes (A.15) rather than overlapping specs. |
+| “Spec v2 overlaps v1” | A version label is asked to decide episteme identity and temporal parthood | Compare the exact C.2.1 identity triples. If they differ, identify two epistemes and test `EpistemeEditionRelation` separately; use A.15.1 for overlapping drafting Work. If one unchanged episteme is merely referenced at two times, no second episteme or phase object follows without a proper-interval use. |
 | “Team is part of the project”  | Member vs part confusion          | Use **MemberOf(Team, ProjectCollective)**, not partOf.                                                                       |
 
 ### A.14:9.2 - Interplay with Γ‑flavours (how these relations behave under aggregation)
@@ -23779,7 +23739,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 | Γ‑flavour                    | Mereological hooks (what A.14 supplies)                                                                                                                | Key effect                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
 | **Γ\_sys (B.1.2)**          | Treat **PortionOf** as Σ‑additive stocks; **ComponentOf** must respect boundary integration; **PhaseOf** is not aggregated here.                       | Conserves extensive measures and keeps structural WLNK (weakest‑link) on components.          |
-| **Γ\_epist (B.1.3)**         | **PortionOf** of texts/data uses μ = token/byte count; **ConstituentOf** composes arguments/sections; **PhaseOf** versions MethodDescriptions/documents.      | Preserves provenance and avoids trust inflation by keeping constituents vs portions distinct. |
+| **Γ\_epist (B.1.3)** | **PortionOf** of texts/data uses μ = token/byte count; **ConstituentOf** composes arguments/sections; `PhaseOf` may restrict one unchanged episteme to a proper interval. Distinct MethodDescription or document epistemes use C.2.1 identity and `EpistemeEditionRelation` only when its predicate obtains. | Preserves provenance and avoids both trust inflation and label-based identity or continuity. |
 | **Γ\_ctx / Γ\_time (B.1.4)** | **PhaseOf** provides the legal slicing for time; order/dependencies live in **Γ\_ctx** and method graphs (A.15/B.1.5). **PortionOf** is orthogonal (quantities inside steps/runs).                                      | Ensures chronological consistency and monotone coverage.                                      |
 | **Γ\_method (B.1.5)**          | Recipes are **MethodDescription** graphs (not parthood). When a recipe refers to stuff‑like inputs, those are **PortionOf** statements on resources.          | Separates recipe composition from structure.                                                  |
 | **Γ\_work (B.1.6)**          | Only **Work** carries resource deltas; when logging “consumed 5 kg from Tank A”, model it as **PortionOf** relation to the stock prior to consumption. | Makes Σ‑balance explicit; aligns with CC‑POR‑3/4.                                             |
@@ -23790,14 +23750,14 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 * **Role as part.** A system plays a role, and the role label is placed inside a part tree.
 * **Method as part.** A method value, recipe, or algorithm is treated as a component instead of using method, method-description, work, or transformation owners.
 * **Portion without measure.** Some amount of fuel, data, time, or text is named as a portion without a measure kind, unit, and additivity condition.
-* **Phase as replacement.** A version or time slice is treated as a new component when the carrier identity continues, or as the same phase when the identity criteria fail.
+* **Phase as replacement or lineage.** A proper restriction of one enduring carrier is treated as another component, or a changed episteme, version label, or Work segment is treated as `PhaseOf` without applying C.2.1 or A.15.1 first.
 * **Diagram or trace as relation.** A visual breakdown, graph, table, construction trace, or `validationMode` is used as proof that parthood obtains or that the whole has one fixed identity. Recover the direct relation occurrence and the candidate's identity or reidentification rule first; use the publication and trace only as inspectable accounts.
 
 ### A.14:11 - Pedagogy aids (non-normative)
 
 **Two‑minute checklist for practitioners**
 
-1. Do I see "process", "procedure", "policy", or "script" used to mean enactment? — then **A.15**. If it names a **carrier episteme** whose structure/version is being discussed, **A.14** may apply.
+1. Do I see "process", "procedure", "policy", or "script" used to mean enactment? — then **A.15/A.15.1**. If it names an episteme, use A.14 only for its content parthood or a proper interval of the unchanged C.2.1 identity; use C.2.1 for another episteme and any edition-continuity claim.
 2. Does every PortionOf have a declared μ and unit?
 3. Do phases cover a lifetime without overlap for the same aspect?
 4. Are any roles/recipes appearing as parts? If yes, stop and refactor.
@@ -23809,7 +23769,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 * **Predictable composition.** Σ‑additivity for portions and identity‑through‑time for phases make Γ‑proofs straightforward.
 * **History without confusion.** Temporal slicing is explicit and audit‑ready; no paradoxical overlaps.
 * **Cleaner integration with roles and recipes.** The firewall prevents “functional object” creep into structure.
-* **Compatibility with engineering practice.** Mirrors *product breakdown* (components) vs *functional breakdown* (roles) vs *material stocks* (portions) vs *versioning* (phases).
+* **Compatibility with engineering practice.** Mirrors *product breakdown* (components) vs *functional breakdown* (roles) vs *material stocks* (portions) vs proper temporal restrictions of one enduring carrier (phases), while leaving episteme editions and Work segmentation to their direct owners.
 
 **Trade‑offs / mitigations**
 
@@ -23826,7 +23786,7 @@ A.14 exists because part-whole words carry identity, aggregation, measure, time,
 * **Metrical mereology** advances (e.g., recent work on quantity‑based parthood and additivity) motivate **PortionOf** with explicit μ and Σ‑laws, preventing the classic “stuff as components” fallacy.
 * **Temporal parts & identity through change** (renewed treatments in analytic metaphysics and formal ontology) motivate **PhaseOf** with coverage/non‑overlap and escalation when identity criteria fail.
 * **Engineering ontologies (BORO lineage, Core Constructional practice, ISO 15926 family)** keep a strict separation between **functional breakdowns** (our Roles) and **product breakdowns** (our Components), with **stock/consumable** modelling (our Portions) handled by quantities, not by component trees.
-* **Knowledge-episteme edition histories** in contemporary MBSE and open-science practice use explicit versioning (our PhaseOf) and provenance-preserving composition (our ConstituentOf).
+* **Knowledge-episteme edition histories** in contemporary MBSE and open-science practice motivate explicit endpoint identities and provenance-preserving composition. FPF uses the C.2.1 identity triple and independently obtaining `EpistemeEditionRelation` for distinct editions; A.14 retains `PhaseOf` only for a proper temporal restriction of one unchanged episteme.
 * The net effect is a **minimal‑sufficient** catalogue: two added sub‑relations close real modelling gaps while preserving **parsimony**, **didactic clarity**, and **Γ‑compatibility** across domains.
 
 ### A.14:15 - Relations
@@ -36041,8 +36001,16 @@ B.1.2 preserves the engineering payoff by coordinating exact direct-owner result
 
 ## B.1.3 - Γ_epist - Knowledge‑Specific Aggregation
 
+**At a glance.** Use B.1.3 to compose exact `U.Episteme` inputs into one knowledge aggregate while preserving provenance, conceptual fit, context, and conservative assurance bounds.
+
+**Use this when.** Use this pattern when a named synthesis or compilation use depends on how claims, models, datasets, or arguments are combined, and the aggregation must keep source, mapping, conflict, order, and temporal qualifications inspectable.
+
+**Not this pattern when.** Use C.2.1 for episteme identity and edition continuity, A.14 for a proper temporal restriction of one unchanged episteme, A.15.1 for Work parts or occurrences, B.1.4 for a bounded aggregation of already recovered order or temporal relations, and B.3 for the assurance claim that consumes the aggregate.
+
+**What changes in practice.** Identify every input episteme and mapping before folding; preserve provenance and conflicts; and return identity, edition, temporal restriction, Work, publication, and assurance questions to their direct owners.
+
 > **► decided‑by: A.14 Advanced Mereology**
-**A.14 compliance —** Use **ConstituentOf** for semantic parts; **PortionOf** only for quantitative splits of texts/data with declared μ (token/byte, etc.); **PhaseOf** for versions/revisions of MethodDescription/documents; no **ComponentOf** here.
+**A.14/C.2.1 compliance —** Use **ConstituentOf** for semantic parts and **PortionOf** only for quantitative splits of texts/data with declared μ. Use `PhaseOf` only for a proper interval of one unchanged C.2.1 episteme. When a MethodDescription or document episteme's claim content, EntityOfConcern, or effective ReferenceScheme changes, identify another episteme and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. Work segmentation uses A.15.1; no **ComponentOf** is used here.
 
 > **Plain‑English headline.**
 > **Γ\_epist** composes **epistemic holons** (claims, models, datasets, arguments) into a **single episteme** while preserving **provenance**, applying **conservative trust bounds** (B.3 F/G/R), and penalizing **poor conceptual fit** via **congruence levels (CL)**. It is **not** a physical sum; it is a **semantic and evidential fold**.
@@ -36051,11 +36019,11 @@ B.1.2 preserves the engineering payoff by coordinating exact direct-owner result
 
 * **Holonic foundation.** In the FPF, a `U.Episteme` is a holon whose identity is **knowledge‑bearing** (A.1). It can be a **statement/claim**, a **model**, a **theory**, a **specification**, a **dataset with semantics**, or a **compiled scholarly artifact**.
 * **Strict Distinction (A.15).** We separate:
-  **structure** (what the episteme comprises), **order** (argument flow), **time** (versioning/phases), **work** (what was spent to produce/validate it), and **values** (objectives/criteria). Γ\_epist stays in the **structure/semantics** lane and calls out to Γ\_ctx/Γ\_time/Γ\_work when needed.
+  **structure** (what the episteme comprises), **order** (argument flow), **identity and history** (C.2.1 identities and edition relations), **proper temporal restriction** (A.14), **work** (what was spent to produce/validate it), and **values** (objectives/criteria). Γ\_epist stays in the **structure/semantics** lane and calls out to Γ\_ctx/Γ\_time/Γ\_work only after their direct inputs are recovered.
 * **Mereology (A.14).** For knowledge composition we primarily use **ConstituentOf** (logical/semantic parts), **UsageOf/ReferenceTo** (external reliance), and **MemberOf** for **collections** (anthologies, corpora). We do **not** use **ComponentOf** (physical) in Γ\_epist.
-  `PhaseOf` handles temporal versions of the **same** episteme; **RoleBearerOf** is irrelevant here because knowledge **does not play a role**—it is **used** by a holon‑in‑role (Transformer) at run‑time (A.12).
+  `PhaseOf` may restrict the **same unchanged episteme** to a proper interval when its complete C.2.1 identity triple remains fixed. Distinct labelled versions or revisions require distinct C.2.1 identities when a discriminator changes and an independently obtaining `EpistemeEditionRelation` for any claimed historical continuation. **RoleBearerOf** is irrelevant here because knowledge **does not play a role**—it is **used** by a holon‑in‑role (Transformer) at run‑time (A.12).
 * **Assurance (B.3).** Knowledge carries **F**, **G**, **R** (Formality, ClaimScope, Reliability). Integration edges carry **CL** (congruence level) that penalizes poor fit. Γ\_epist **must** preserve provenance and apply **conservative** bounds: no “truth averaging,” no silent context hops. **Obligations here are mode/assurance‑gated per C.2.1.**  # [M‑0]
-* **Order/time flavours.** Argument sequences may need **Γ\_ctx** (non‑commutative ordering of premises to conclusion). Knowledge evolution uses **Γ\_time** (versioning, deprecation, update). When composition produces **new closure or supervision** (e.g., explanatory theory emerges), we declare **MHT** (B.2).
+* **Order/time flavours.** Argument sequences may need **Γ\_ctx** (non‑commutative ordering of premises to conclusion). Knowledge evolution first uses C.2.1 to identify exact epistemes and any obtaining edition relations; B.1.4/**Γ\_time** may then aggregate already recovered temporal restrictions, relation order, deprecation, or update windows for a bounded use. The aggregation creates neither identity nor continuity. When composition produces **new closure or supervision** (e.g., explanatory theory emerges), we declare **MHT** (B.2).
 
 ### B.1.3:2 - Problem
 
@@ -36075,14 +36043,14 @@ Naive aggregation of knowledge holons causes recurring failures:
 | **Conservatism vs. Synthesis**             | Keep **reliability** bounded by the weakest supported link ↔ allow genuine explanatory integration when it actually emerges. |
 | **Universality vs. Domain nuance**         | One operator across math, science, engineering specs ↔ domain‑specific semantics and evidence patterns differ.               |
 | **Provenance fidelity vs. Cognitive load** | Keep the **full trail** of sources and methods ↔ avoid overwhelming authors with bookkeeping.                                |
-| **Order/time discipline vs. Flow**         | Respect argument **order** and version **time** ↔ keep composition usable for day‑to‑day synthesis.                          |
+| **Order/time discipline vs. Flow** | Respect argument **order**, exact episteme identity and edition relations, and any proper temporal restriction ↔ keep composition usable for day-to-day synthesis. |
 | **Parsimony vs. Fit**                      | Small rule set (A.11) ↔ explicit **congruence** penalties and **context** rebasing when needed.                              |
 
 ### B.1.3:4 - Solution — **Terms, operator family, invariant Standard, core rules**
 
 #### B.1.3:4.1 - Terms (didactic recap)
 
-* **U.Episteme** — a knowledge holon. Internally read it as an `EpistemeSlotRelation`: `EntityOfConcernSlot` for what it is about, `ClaimGraphSlot` or theory/model structure for what it claims, `GroundingHolonSlot` where grounding is live, and SCR/RSCR carrier references for text, code, figures, or datasets.
+* **U.Episteme** — a claim-bearing knowledge holon. C.2.1 identifies it through the participant-determined `EpistemeConstitutionRelation` over `<claim content, exact EntityOfConcern, effective ReferenceScheme>`. `ClaimGraphSlot`, `EntityOfConcernSlot`, and `ReferenceSchemeSlot` name participant meanings only inside that relation's reusable declaration; they are not internal slots of the episteme. Empirical grounding uses the separate `EpistemeEmpiricalGroundingRelation`, while text, code, figures, datasets, SCR/RSCR references, publication forms, and presentation carriers remain separately governed provenance, representation, publication, or carrier material.
 * **Evidence/Provenance Graph** — edges like **evidences**, **derivesFrom**, **usesMethod**, **isMeasuredBy** with anchors (A.10).
 * **Mapping edge** — a typed relation between conceptual vocabularies (e.g., ontology alignment, unit conversion) with a **CL** score (0…3/4 per A.15/B.3 convention).
 * **SCR** — a `U.SCR` that lists all symbol carriers included in the aggregate; **never dropped**.
@@ -36091,7 +36059,7 @@ Naive aggregation of knowledge holons causes recurring failures:
 > **Didactic reminders.**
 > • Knowledge does **not** “act.” Transformers (A.12) **use** knowledge.
 > • **MemberOf** creates **collections**; it is not a semantic argument link. Use **ConstituentOf** for logical/evidential composition.
-> • **PhaseOf** is for **versions** of the same episteme; if identity, boundary, or context re‑anchor, declare **MHT**.
+> • `PhaseOf` is only a proper temporal restriction of one unchanged episteme. Changed C.2.1 discriminators identify another episteme; test `EpistemeEditionRelation` separately. Use MHT only for a remaining whole-reidentification question, not as a substitute for C.2.1 identity.
 
 #### B.1.3:4.2 - The operator family (companion flavours)
 
@@ -36119,7 +36087,7 @@ To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours tha
 * **Result.** A **context‑anchored** episteme (e.g., published paper/spec) whose **mappings to the context vocabulary** are explicit and carry **CL**; assurance will reference this context baseline (B.3).
 
 **Relationship to Γ\_ctx / Γ\_time.**
-If the knowledge fold explicitly depends on **argument order** (e.g., derivation), the internal fold uses **Γ\_ctx** for the sequence. If a **temporal storyline** (updates, retractions) is important, use **Γ\_time** to slice versions; **Γ\_epist** then composes the **current slice**. If composition yields **new explanatory closure** beyond WLNK/CL, declare **MHT** (B.2).
+If the knowledge fold explicitly depends on **argument order** (e.g., derivation), the internal fold uses **Γ\_ctx** for the sequence. If a **temporal storyline** (updates, retractions) is important, first identify each exact episteme and any obtaining C.2.1 edition relation; then use B.1.4/**Γ\_time** to aggregate the already recovered temporal restrictions, relation order, or applicability windows required by the use. **Γ\_epist** composes the exact selected episteme inputs, not a label-defined “current slice”. If composition yields **new explanatory closure** beyond WLNK/CL, declare **MHT** (B.2).
 
 #### B.1.3:4.3 - Invariant Standard (how the Quintet applies; **math by level**)
 
@@ -36200,7 +36168,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
  Produce RSCR with carrier hashes; at **L2** require independent re‑hash verification.  # [M‑1/L2]
 
 4. **Order/time hooks.**
-   If the compiled artifact includes an internal derivation, carry the **OrderSpec**; if it codifies a specific **time slice** of evolving knowledge, link back to the **Γ\_time** slice used.
+   If the compiled artifact includes an internal derivation, carry the **OrderSpec**. If it selects knowledge for a time-bounded use, name the exact C.2.1 episteme identity and link to the already recovered proper temporal restriction, edition relation order, applicability window, or B.1.4/**Γ\_time** aggregation actually used.
 
 ### B.1.3:5 - Archetypal grounding (worked, didactic)
 
@@ -36244,7 +36212,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 | What is folded? | Claims, models, datasets, arguments                              | Components, materials, assemblies            |
 | Conservatism    | **Pathwise min** of R + penalty **Φ(CL)**                        | WLNK via **weakest part** (strength, rating) |
 | Fit             | **Mappings** with declared **CL**                                | **Interfaces/BIC** compatibility             |
-| Order/time      | Optional **Γ\_ctx** for argument order; **Γ\_time** for versions | Γ\_ctx for workflows; Γ\_time for phases     |
+| Order/time | Optional **Γ\_ctx** for argument order; C.2.1 for distinct episteme identities and edition relations; A.14 for a proper restriction of one unchanged episteme; B.1.4/**Γ\_time** for bounded aggregation of recovered temporal relations | Γ\_ctx for workflows; Γ\_time for phases of directly governed enduring carriers |
 | Work/cost       | External in **Γ\_work** (compute, curation)                      | External in **Γ\_work** (energy, labour)     |
 
 ### B.1.3:6 - Proof obligations (normative)
@@ -36265,7 +36233,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 2. **PO‑COMP‑ASSUR.** The assurance tuple (F/G/R) MUST be recomputed **in the target context** with the applied **CL penalties**.
 3. **PO‑COMP‑REL.** A **release‑grade SCR** (hashes, versions, dates) MUST be produced.
 4. **PO‑COMP‑MHT.** If the compilation re‑anchors **boundary**, **objective**, or **identity** (e.g., from compendium to explanatory theory), an **MHT (Context Reframe)** MUST be declared with a Promotion Record (B.2).
-5. **PO‑COMP‑ORDER/TIME.** If derivational order or a specific time slice is essential, the **OrderSpec** and the **Γ\_time** slice MUST be referenced.
+5. **PO‑COMP‑ORDER/TIME.** If derivational order is essential, the **OrderSpec** MUST be referenced. If temporal selection is essential, name the exact C.2.1 episteme identity and reference the already recovered proper restriction, edition-relation order, applicability window, and B.1.4/**Γ\_time** aggregation actually consumed.
 
 ### B.1.3:7 - Conformance Checklist (normative)
 
@@ -36277,7 +36245,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 | **CC‑B1.3.4** | Contradictions MUST NOT be smoothed by arithmetic; handle by **scope separation**, **provisional** status, or **MHT**.                                              | Keep incoherence visible.      |
 | **CC‑B1.3.5** | Every `U.Episteme` serving as an input to `Γ_epist` **MUST** declare its `mode` (`axiomatic` or `postulative`). An aggregate holon's mode **MUST** be `postulative` if any of its constituents is `postulative`. | Prevent category errors in reliability calculation. |
 | **CC‑B1.3.6** | Crossing bounded contexts requires either **explicit mappings with CL** or an **MHT (Context Reframe)**.                                                            | Make context explicit.         |
-| **CC‑B1.3.7** | If order matters, Γ\_ctx **NC‑1..3** MUST hold; if versions matter, the **Γ\_time** slice MUST be identified.                                                       | Preserve order/time integrity. |
+| **CC‑B1.3.7** | If order matters, Γ\_ctx **NC‑1..3** MUST hold. If an episteme history matters, exact C.2.1 endpoint identities and any obtaining `EpistemeEditionRelation` MUST be named; any proper restriction or B.1.4/**Γ\_time** aggregation MUST cite only already recovered temporal relations. | Preserve order, identity, continuity, and temporal integrity. |
 | **CC‑B1.3.8** | Design‑time **synthesis** and run‑time **compilation** MUST NOT be conflated; use the appropriate flavour.                                                          | Maintain A.15 separation.      |
 
 ### B.1.3:8 - Anti‑patterns & repairs
@@ -36288,7 +36256,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 | **Provenance amnesia**   | Sources/methods disappear in the aggregate        | Rebuild **SCR**; re‑run Γ\_epist with provenance union.                               |
 | **Homonym merge**        | Different concepts with same name silently merged | Insert **mapping edges** with CL; if CL too low, split by context or mark **provisional**. |
 | **Context hop**          | Mixed units/vocabularies without declaration      | Declare **bounded context** and mappings; if purpose changes, use **MHT**.                 |
-| **Version soup**         | Mixed time slices without clarity                 | Use **Γ\_time** to slice; compose current slice only; link others explicitly.              |
+| **Version soup** | Labels or time slices mix unchanged epistemes, distinct epistemes, edition continuity, publication, and Work history | Apply the C.2.1 identity triple first; test `EpistemeEditionRelation` separately; use A.14 only for a proper restriction of one unchanged episteme and A.15.1 for Work. Then aggregate only the exact recovered temporal relations the current use needs. |
 | **Work stuffing**        | Compute/curation cost blended into reliability    | Move costs to **Γ\_work**; keep R based on evidence, not spend.                            |
 | **Orderless proof**      | Derivation steps treated as a set                 | Add **OrderSpec**; compose with Γ\_ctx inside Γ\_epist.                                    |
 | **Synergy by narrative** | “New theory” claimed without BOSC evidence        | If closure/supervision actually emerges, declare **MHT**; otherwise lower claims.          |
@@ -36316,7 +36284,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ### B.1.3:11 - Relations
 
-* **Builds on:** A.12 (Transformer Role—compilers/editors enact), A.14 (Mereology Extension—ConstituentOf/MemberOf/PhaseOf usage), A.15 (Strict Distinction).
+* **Builds on:** A.12 (Transformer Role—compilers/editors enact), A.14 (ConstituentOf/MemberOf and proper temporal restriction of one unchanged carrier), C.2.1 (episteme identity and independently obtaining edition relations), and A.15/A.15.1 (Strict Distinction and Work-temporal law).
 * **Coordinates with:** B.1.1 dependency-structure and relation-grounding checks, B.1.4 (Γ\_ctx/Γ\_time inside knowledge folds), B.1.6 (Γ\_work for compute/collection spend).
 * **Triggers/Complements:** B.2 (MHT) when explanatory closure or context re‑base creates a **new whole** (theory, standard).
 * **Used by:** B.3 assurance uses `F/G/R` and **CL** baselines computed here as inputs to trust calculations.
@@ -36332,9 +36300,9 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
-**Use this when.** Use this pattern when the current claim aggregates relations across a bounded context, ordered situation, phase set, or time window, and the question is not just ordinary part-whole construction. Typical cues are ordered steps, order-sensitive argument chains, version histories, asset histories, phases of one carrier, rolling windows, context-scoped roll-ups, or time-sliced evidence.
+**Use this when.** Use this pattern when the current claim aggregates already recovered relations across a bounded context, ordered situation, phase set, or time window, and the question is not just ordinary part-whole construction. Typical cues are ordered steps, order-sensitive argument chains, asset histories, proper temporal restrictions of one enduring carrier, rolling windows, context-scoped roll-ups, time-sliced evidence, or a bounded chronology over exact C.2.1 episteme identities and already obtaining edition relations.
 
-**Not this pattern when.** If the question is ordinary part-whole or collection admission, use `B.1`, `A.14`, and `C.13`. If the question is the method as such, method description, work plan, or dated work occurrence, use `A.3.1`, `A.3.2`, `A.15.2`, or `A.15.1`. If the question is work-resource accounting, use `B.1.6`. If the question is changed identity, use `A.3.4`; if a new whole must be reidentified, use `B.2` through `B.2.P`. If the question is temporal adequacy of a claim, use `C.27`.
+**Not this pattern when.** If the question is ordinary part-whole or collection admission, use `B.1`, `A.14`, and `C.13`. If it is episteme identity or historical edition continuity, use `C.2.1` before any aggregation. If the question is the method as such, method description, work plan, dated work occurrence, or Work temporal part or episode, use `A.3.1`, `A.3.2`, `A.15.2`, or `A.15.1`. If the question is work-resource accounting, use `B.1.6`. If the question is changed identity, use the subject's direct identity/change owner; if a new whole must be reidentified, use `B.2` through `B.2.P`. If the question is temporal adequacy of a claim, use `C.27`.
 
 **What goes wrong if missed.** Order, phase, context, or time-window wording becomes ordinary parthood, method order, performed work, evidence currentness, or whole reidentification by label.
 
@@ -36342,7 +36310,7 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
 
 ### B.1.4:1 - Problem Frame
 
-Many useful aggregates are not simple unordered wholes. A manufacturing sequence changes meaning when steps are swapped. An argument chain depends on which premise is used before which lemma. A turbine, paper, or dataset may be considered as the same carrier across phases. In these cases the aggregation is about contextual order or temporal coverage, not about a new level, a generic boundary, or a hidden interaction kind.
+Many useful aggregates are not simple unordered wholes. A manufacturing sequence changes meaning when steps are swapped. An argument chain depends on which premise is used before which lemma. A turbine or another directly governed enduring individual may be considered across proper temporal restrictions. An unchanged paper or dataset episteme may also be restricted to a proper interval only while its complete C.2.1 identity triple remains fixed; changed claim content, EntityOfConcern, or effective ReferenceScheme identifies another episteme, with edition continuity tested separately. In these cases the aggregation is about contextual order or temporal coverage over already recovered relations, not about a new level, a generic boundary, or a hidden interaction kind.
 
 `B.1.4` governs the aggregation claim. It asks which EntityOfConcern is being aggregated, which context or time window bounds the claim, which ordered or phase relation is being used, what the aggregate may be used for, and which neighboring owner must carry stronger claims.
 
@@ -36399,9 +36367,9 @@ Use the record as a small typed relation, not as a new durable `U.Level`, `U.Bou
 | Mode | Current object | Required relation discipline | Typical use |
 | --- | --- | --- | --- |
 | Contextual order aggregation | A bounded set of relation positions whose order, partial order, or join structure changes meaning. | `OrderSpec`, ordered relation refs, join or independence conditions, and a bounded context. | Ordered method relation, order-bound argument chain, staged construction description, controlled sequence. |
-| Temporal phase aggregation | One carrier considered through phases or time slices. | Carrier identity, `PhaseOf` or phase relation refs, `TimeWindow`, coverage, and non-overlap conditions. | Asset history, revision history, experimental run phases, dated evidence window. |
+| Temporal phase aggregation | One directly governed enduring carrier considered through proper phases or time slices. | Carrier identity, `PhaseOf` or another direct phase relation, `TimeWindow`, coverage, and non-overlap conditions. For an unchanged episteme, the complete C.2.1 identity triple stays fixed. | Asset history, proper restriction of one unchanged episteme, experimental-carrier phases, dated evidence window. Distinct episteme editions first require C.2.1 identities and an independently obtaining edition relation. |
 
-If one source phrase mixes both modes, split the record. A method may have an ordered relation structure, and the work that enacts it may also have dated phases, but those are different claims.
+If one source phrase mixes both modes, split the record. A method may have an ordered relation structure; the Work that enacts it may have exact A.15.1 temporal parts, episodes, operational parts, overlaps, or separate occurrences whose already recovered relations a receiving use aggregates. Those are different claims, and generic `PhaseOf` does not replace the Work relations.
 
 #### B.1.4:2.2 - Direct Owner Map
 
@@ -36412,7 +36380,8 @@ If one source phrase mixes both modes, split the record. A method may have an or
 | Work plan | `A.15.2` |
 | Dated work occurrence, performed episode, or evidence that work happened | `A.15.1` |
 | Work-resource roll-up, spent resource, cost, effort, energy, material, or comparable ledger | `B.1.6` |
-| Phase relation, portion relation, membership, or parthood | `A.14`, `B.1`, and `C.13` as appropriate |
+| Episteme identity and historical continuity between distinct epistemes | `C.2.1`; aggregate only exact identities and an already obtaining `EpistemeEditionRelation` when the bounded use needs their chronology |
+| Proper `PhaseOf`, portion, membership, or other parthood relation for a non-Work carrier | `A.14`, `B.1`, and `C.13` as appropriate; Work temporal and part relations remain with `A.15.1` |
 | Holon delimitation or boundary-crossing relation | `A.1`, `B.1`, `A.12`, `A.3.4`, or the direct relation owner named by value |
 | Bounded change under conditions | `A.3.4` |
 | Whole reidentification, emergence-family wording, MHT, MET, MFT, synergy, or metric-mirage wording | Use `B.2.P` to test whether a whole-reidentification problem is current. If it remains current, use `B.2`, `B.2.2`, `B.2.3`, `B.2.4`, or `B.2.5` according to the recovered whole, emergence, autonomy, capability, or supervisor relation claim. |
@@ -36471,7 +36440,7 @@ For temporal phase aggregation:
 
 **Manufacturing sequence.** A frame is prepared, welded, inspected, painted, and packed. `B.1.4` records the contextual order claim: selected steps, order specification, join conditions, and admissible use for planning or comparison. The actual shop-floor work occurrences use `A.15.1`; energy and material roll-ups use `B.1.6`; a changed frame state uses `A.3.4`.
 
-**Paper revision history.** A paper has draft, reviewed, and camera-ready phases. `B.1.4` records the same episteme carrier across phases and the time or version window being claimed. Source-currentness and publication-use claims use `A.10` and `E.17`; the phase relation does not make the publication authoritative by itself.
+**Paper edition history.** When draft, reviewed, and camera-ready texts change claim content, EntityOfConcern, or effective ReferenceScheme, C.2.1 identifies distinct epistemes and tests each claimed `EpistemeEditionRelation` independently. `B.1.4` may record a bounded chronology over those already recovered identities, relations, applicability windows, or publication windows; it does not turn the editions into phases of one episteme. If one unchanged episteme is genuinely needed over a proper interval, A.14 `PhaseOf` may state only that restriction. Source-currentness and publication-use claims use `A.10`, `G.11`, and `E.17`; chronology establishes none of them.
 
 **Cross-context evidence window.** A dashboard aggregates observations from two operating contexts. `B.1.4` records the bounded contexts and the admissible aggregation window. If one context has a different measurement basis, use `C.16` or `C.29` for comparability before relying on the aggregate.
 
@@ -36481,7 +36450,7 @@ For temporal phase aggregation:
 | --- | --- | --- |
 | Notation becomes ontology | `Gamma_ctx`, `Gamma_time`, graph, or algebra wording is treated as the governed object. | Recover the ordered or temporal relation first, then treat notation as a selected expression. |
 | Sequence becomes work | A method order, plan order, document order, or performed-work history is treated as the same thing. | Name the direct owner: method, method description, work plan, dated work occurrence, or evidence window. |
-| Phase becomes level | A phase label is used as a new system level or a new whole. | Recover carrier identity and `PhaseOf` or phase relation; return identity change to whole reidentification. |
+| Phase becomes level | A phase label is used as a new system level or a new whole. | Recover the exact subject first: C.2.1 identity/edition law for an episteme, A.15.1 for Work, or the carrier's direct identity rule and proper `PhaseOf` for another enduring individual. Open whole reidentification only when that question remains current. |
 | Coverage becomes authority | A complete-looking timeline is treated as sufficient evidence or currentness. | Use evidence, source-currentness, and temporal-adequacy owners when those claims are current. |
 
 ### B.1.4:6 - Conformance Checklist
@@ -36513,7 +36482,7 @@ The cost is that the practitioner must name the relation being aggregated. The g
 
 ### B.1.4:8.1 - Rationale
 
-`B.1.4` exists because contextual order and temporal phase aggregation are neither ordinary part-whole construction nor generic process talk. The same carrier can be considered through phases; a selected relation set can be order-sensitive; and both cases need admissible aggregation without inventing a new holon kind. The pattern therefore keeps relation discipline explicit: `PhaseOf` and carrier identity for phase aggregation; ordered relation refs and `OrderSpec` for contextual aggregation; direct-owner return for method, work, resource, transformation, evidence, and whole reidentification.
+`B.1.4` exists because contextual order and temporal phase aggregation are neither ordinary part-whole construction nor generic process talk. One directly governed enduring carrier can be considered through proper temporal restrictions; a selected relation set can be order-sensitive; and both cases need admissible aggregation without inventing a new holon kind. The pattern therefore keeps relation discipline explicit: `PhaseOf` and the carrier's direct identity rule for legitimate phase aggregation; C.2.1 identity and independently obtaining edition relations for distinct episteme history; A.15.1 relations for Work; ordered relation refs and `OrderSpec` for contextual aggregation; and direct-owner return for resource, transformation, evidence, and whole reidentification.
 
 The old `DesignRunTag` warning is preserved as a rule rather than a label: do not fold design-time possible order and run-time history into one aggregate. If both are needed, make two records and relate them by value.
 
@@ -36529,7 +36498,7 @@ The old `DesignRunTag` warning is preserved as a rule rather than a label: do no
 ### B.1.4:9 - Relations
 
 - Builds on `B.1`, `A.14`, and `C.13` for part-whole, phase, and constructive grounding discipline.
-- Coordinates with `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1` for method, method description, work plan, and dated work occurrence.
+- Coordinates with `C.2.1` for exact episteme identities and independently obtaining edition relations; with `A.3.1`, `A.3.2`, `A.15.2`, and `A.15.1` for method, method description, work plan, dated work occurrence, and exact Work-temporal relations.
 - Coordinates with `B.1.6` for work-resource aggregation.
 - Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern governs the recovered claim.
 - Coordinates with `C.27` for temporal-claim adequacy. When mathematical expression is selected, `C.29` governs lens-use adequacy, `E.18` governs selected transformation-flow structure, and `E.18.2` governs mathematical description of that selected structure.
@@ -36707,7 +36676,7 @@ Use A.14, C.13, and B.3.5 when the claim is about structural parts of a holon. U
 
 Use B.1.4 when a receiving use needs an inspectable order aggregation, partial-order test, or join/independence account. Its `OrderSpec` and optional notation describe already recovered order occurrences; B.1.5 still decides whether those methods and relations construct one composite `U.Method`.
 
-When the current claim is temporal phasing of the same carrier or method-description edition history, use the pattern that governs the phase or temporal claim rather than B.1.5. A phase boundary becomes a B.2-family question only when the boundary also introduces whole reidentification, closure, or supervision. Order, phase, structural parthood, method composition, and whole reidentification remain different claims even when one source diagram uses one line for all of them.
+When the current claim is a proper temporal restriction of one unchanged non-Work carrier, apply that subject's direct identity rule and A.14/B.1.4 rather than B.1.5. For MethodDescription history, compare the C.2.1 identity triples and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. For Work intervals, episodes, performed parts, retries, resumptions, or later occurrences, apply A.15.1's exact relations; generic `PhaseOf` is not their substitute. A temporal boundary becomes a B.2-family question only when a separate whole-reidentification, closure, or supervision claim remains. Order, temporal restriction, episteme edition, Work segmentation, structural parthood, method composition, and whole reidentification remain different claims even when one source diagram uses one line for all of them.
 
 #### B.1.5:4.4 - Expose The Composite Method Interface
 
@@ -36758,7 +36727,7 @@ One dated occurrence `W : U.Work` enacts the exact method `M : U.Method` only wh
 
 Parameter bindings, affected referents, resource use, telemetry, retries, results, actual transformations, production, evidence, evaluation, delivery, and acceptance remain separate objects and direct relations under their own governors. They do not become method parts, method identity fields, or generic Work outcomes merely because a report places them beside the Work.
 
-The composition link is not one-to-one. A Work occurrence may enact the whole method without exposing every submethod as a separate work part. A temporal work slice may enact the same whole method during a selected interval. An episode may span several method factors, repeat one factor, or be split by evidence policy without changing the method identity. Conversely, a work part does not establish a submethod. A work part enacts a submethod only when that submethod is already an independently identified `U.Method` and a separate `enactsMethod(workPart, submethod)` occurrence obtains.
+The composition link is not one-to-one. A Work occurrence may enact the whole method without exposing every submethod as a separate work part. An exact A.15.1 `TemporalPartOf_work` may enact the same whole method during its selected interval. An A.15.1 episode may span several method factors, repeat one factor, or be split by evidence policy without changing the method identity. Conversely, a work part does not establish a submethod. A work part enacts a submethod only when that submethod is already an independently identified `U.Method` and a separate `enactsMethod(workPart, submethod)` occurrence obtains.
 
 **Reader check.** Before saying that a work part enacts a submethod, name both sides:
 
@@ -36881,7 +36850,7 @@ The pattern intentionally biases toward explicit construction and boundary accou
 | "Parallel branches can join because the picture rejoins." | State the independence, downstream precondition, exact join, any adapter or correspondence, and failure route in ordinary language; use A.6.RCD's lightest sufficient disposition and open a relation kind only for an independently accepted occurrence-semantics need. |
 | "The selector table is the Method." | Use `G.5` for the selector. Use A.22 only when an actual selection basis and all four structure discriminators are present; otherwise keep a one-off comparison without asserting a selected `U.Structure`. A composite Method still needs its own exact construction and whole-level commitments. |
 | "The run proved the method structure." | Record the run as `U.Work`; relate it to the method through `enactsMethod` and use evidence only through its governing relation. A successful run neither creates method parts nor settles reidentification. |
-| "The phase is a method step." | Use the direct phase or temporal relation for carrier phases and use B.2 only when the boundary changes whole identity, supervision, or closure. |
+| "The phase is a method step." | Recover the subject: use the carrier's direct identity rule plus proper A.14 `PhaseOf` for one unchanged non-Work individual, C.2.1 for distinct MethodDescription epistemes and any obtaining edition relation, or A.15.1 for Work temporal parts and occurrences. None is a Method part unless an exact `U.Method` and `methodPartOf` independently obtain; use B.2 only for a separately current whole-reidentification, supervision, or closure claim. |
 | "The join improves throughput, so the method has emergence." | Name the measured characteristic, critical path, cutsets, typed joins, and assurance relation; open B.2 only when a separate whole-level reidentification claim remains. |
 | "The boundary-account prompts define the Method." | Identify the exact claim-bearing `U.MethodDescription` edition first. A boundary-account form is a reusable form only when `PublicationFormExpressionRelation` obtains; its prompts create neither the Method nor the form, carrier, declaration epistemes, publication Work, five-participant publication occurrence, or composition facts. |
 | "The boundary account is a nice diagram." | For a load-bearing publication, identify the MethodDescription edition, bounded-use- and audience-declaration epistemes, boundary-account form, and carrier independently; then distinguish the system's publication Work from the five-participant occurrence that makes the edition available. Keep designation content separate. Otherwise state the few boundary decisions directly. |
@@ -36939,9 +36908,9 @@ These rows answer the B.1.5 practice question: how to decide and expose order-se
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
-**Use this when.** Use this pattern when the current claim aggregates resources, effort, time, energy, material, information, cost, or another measured resource over dated work occurrences, phase slices, boundary partitions, or comparable work-resource ledgers.
+**Use this when.** Use this pattern when the current claim aggregates resources, effort, time, energy, material, information, cost, or another measured resource over exact dated Work occurrences, A.15.1 temporal or operational Work parts, event-bounded episodes, directly governed non-Work carrier phases, boundary partitions, or comparable work-resource ledgers.
 
-**Not this pattern when.** If the current question is the method as a way of doing, use `A.3.1`. If it is a method description, SOP, algorithm text, simulator configuration, or formal expression, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether work occurred, use `A.15.1`. If it is work-entry readiness, full-kit condition, or resource readiness before work entry, use `A.15.5`. If it is temporal phase aggregation without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If apparent resource gain changes whole identity, use `B.2.P` before any B.2-family owner.
+**Not this pattern when.** If the current question is the method as a way of doing, use `A.3.1`. If it is a method description, SOP, algorithm text, simulator configuration, or formal expression, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether Work occurred or which Work temporal part, episode, operational part, retry, resumption, or later occurrence is current, use `A.15.1`. If it is work-entry readiness, full-kit condition, or resource readiness before work entry, use `A.15.5`. If it is bounded aggregation of already recovered temporal relations without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If apparent resource gain changes whole identity, use `B.2.P` before any B.2-family owner.
 
 **What goes wrong if missed.** Resource, effort, time, energy, or cost totals are read from methods, plans, dashboards, or phase labels without a dated work occurrence, resource ledger, and overlap policy.
 
@@ -36949,7 +36918,7 @@ These rows answer the B.1.5 practice question: how to decide and expose order-se
 
 ### B.1.6:1 - Problem Frame
 
-Practitioners need to roll up work-resource claims across runs, phases, teams, devices, stations, model-training epochs, or evidence-production episodes. The recurring error is to treat a method, method description, plan, phase label, dashboard, or expected efficiency as if it were measured performed work.
+Practitioners need to roll up work-resource claims across runs, exact A.15.1 Work temporal parts or episodes, teams, devices, stations, model-training epochs, directly governed non-Work carrier phases, or evidence-production occurrences. The recurring error is to treat a method, method description, plan, phase label, dashboard, or expected efficiency as if it were measured performed Work or as if the label established a Work relation.
 
 `B.1.6` governs the work-resource aggregation claim. It keeps dated work occurrence, method, method description, work plan, resource ledger, holon delimitation, transformation, evidence, and whole reidentification in their own owners.
 
@@ -37017,7 +36986,8 @@ A ledger, dashboard, policy, profile, clause, citation, or graph edge may repres
 | --- | --- |
 | Resource Characteristic, Scale, Unit, measurement model/calibration, measurement work and result | `C.16` plus A.15.1/A.6.1 for work and bindings |
 | Dated aggregation work, performer, method enactment, and actual inputs | `A.15.1` and `A.6.1` |
-| Work parthood, phase, partition, or temporal coverage | `A.14`, `B.1.4`, and the exact work/phase relation owner |
+| Work temporal part, episode, operational part, partition, overlap, retry, resumption, or later occurrence | `A.15.1` and the exact Work relation owner; use `B.1.4` only to aggregate already recovered temporal relations |
+| Proper temporal restriction of another enduring carrier | that carrier's direct identity owner plus `A.14` `PhaseOf`; never a substitute for Work relations |
 | Overlap, shared-stock, boundary, and deduplication facts | exact stock, resource-use, boundary, work-overlap, or accounting relation owner |
 | Aggregation policy and typed aggregation result | `B.1.6` |
 | Measurement-result and aggregation-result epistemes | `C.2.1`; A.15.PROD only when their inception through work matters |
@@ -37035,7 +37005,7 @@ Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationPolicy)
   -> aggregationResultRef, aggregationResultEpistemeRef
 ```
 
-The notation applies only after the resource Characteristics, C.16 measurement work/result epistemes, dated work set, exact part/phase/overlap relations, accounting boundary and time window, aggregation policy, and dated aggregation work have been named. It does not create those objects, order method steps, certify a method, or declare emergence.
+The notation applies only after the resource Characteristics, C.16 measurement work/result epistemes, dated Work set, exact A.15.1 Work-part/episode/overlap relations or directly governed non-Work `PhaseOf` relations, accounting boundary and time window, aggregation policy, and dated aggregation Work have been named. It does not create those objects or relations, order method steps, certify a method, or declare emergence.
 
 ### B.1.6:4 - Ledger Discipline
 
@@ -37044,7 +37014,7 @@ The ledger is a replay surface, not the aggregation's ontic owner. For every res
 - resource Characteristic, Scale, Unit, polarity when relevant, and accounting boundary;
 - exact measured or estimated subject, time window, and work occurrence to which the value applies;
 - C.16 measurement work and measurement-result episteme, including model, calibration, uncertainty, and provenance refs when current;
-- work-parthood, phase, partition, or overlap relations independently established by their direct owners;
+- exact A.15.1 Work-temporal, episode, operational-part, partition, or overlap relations—and any separately current non-Work carrier `PhaseOf`—independently established by their direct owners;
 - shared resource, meter, person, tool, stock, data, port, or time-window overlap and the exact deduplication rule;
 - conversions, normalizations, imputations, and their declared method/policy refs;
 - the aggregation policy edition and actual aggregation work occurrence;
@@ -37053,7 +37023,7 @@ The ledger is a replay surface, not the aggregation's ontic owner. For every res
 
 Measured, estimated, normalized, converted, allocated, and planned values remain visibly different. A planned value does not become a measurement result or performed-work resource use. A citation to a meter or invoice does not establish the measurement work; a ledger row does not establish work parthood or overlap.
 
-Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact temporal/work phase, and the direct work-parthood or work-overlap relation for work occurrences. `MemberOf`, common timestamps, shared identifiers, or co-listing in the ledger do not establish any of those relations.
+Use `PortionOf` only for an exact resource portion with its A.14 measure and additivity basis. Use `PhaseOf` only for a proper temporal restriction of one unchanged non-Work carrier after its direct identity rule and interval conditions hold. For Work, use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, another admitted Work-part relation, overlap, retry, resumption, or a separately identified occurrence according to its exact predicate. `MemberOf`, common timestamps, shared identifiers, a phase label, or co-listing in the ledger establishes none of those relations.
 
 ### B.1.6:5 - Aggregation Rules
 
@@ -37061,7 +37031,7 @@ Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact 
 
 **Measurement before aggregation.** Each measured input points to exact C.16 measurement work and one measurement-result episteme. Raw meter output, indication, resource stock, attributed value, aggregation input, and later efficiency verdict remain distinct.
 
-**Exact work set.** Name every dated work occurrence included. Parent/child, phase, partition, and overlap relations must already obtain under their direct owners. A method, plan, epoch label, invoice period, or dashboard grouping does not establish the work set.
+**Exact Work set.** Name every dated Work occurrence included. Parent/child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, other admitted Work-part, partition, and overlap relations must already obtain under A.15.1 or their exact direct owners. A method, plan, epoch or phase label, invoice period, or dashboard grouping does not establish the Work set.
 
 **Exact policy.** The aggregation policy states inclusion/exclusion, conversion, normalization, weighting, missing-value treatment, boundary allocation, uncertainty treatment, overlap/deduplication, and output kind. A policy declaration is not aggregation work or a result.
 
@@ -37080,7 +37050,7 @@ Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact 
 | Obligation | What must be named |
 | --- | --- |
 | Resource input | Resource Characteristic, Scale/Unit, subject, C.16 measurement work/result episteme, uncertainty, time, and provenance |
-| Work set | Dated occurrences and exact part/phase/partition/overlap relations |
+| Work set | Dated Work occurrences and exact A.15.1 temporal-part, episode, operational-part, other admitted Work-part, partition, and overlap relations; any non-Work carrier phase remains separately governed |
 | Policy | Edition, inclusion, conversions, weights, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind |
 | Aggregation execution | Dated `U.Work`, performer, method, resources, and actual direct/A.6.1 bindings |
 | Aggregation result | Typed result, work set, policy, boundary, window, qualifications, and distinct C.2.1 episteme |
@@ -37089,7 +37059,7 @@ Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact 
 
 ### B.1.6:6 - Archetypal Grounding
 
-**Engine test programme.** C.16 measurement work attributes fuel mass, electrical energy, operator time, and emissions values to exact subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its own result episteme. Exact test-run and phase relations define the included work set; shared warm-up energy is recorded as overlap. Dated aggregation work applies `ProgrammeResourcePolicy-v3`, which allocates warm-up energy once and propagates input uncertainty. The B.1.6 result is a typed resource vector plus qualifications; a C.2.1 episteme states it. A later emissions verdict remains separate evaluation work and result.
+**Engine test programme.** C.16 measurement Work attributes fuel mass, electrical energy, operator time, and emissions values to exact subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its own result episteme. Exact test-run occurrences and A.15.1 `TemporalPartOf_work`, episode, operational-part, or overlap relations define the included Work set; a test-cell or engine phase enters only through its separately governed carrier identity and proper relation. Shared warm-up energy is recorded as overlap. Dated aggregation Work applies `ProgrammeResourcePolicy-v3`, which allocates warm-up energy once and propagates input uncertainty. The B.1.6 result is a typed resource vector plus qualifications; a C.2.1 episteme states it. A later emissions verdict remains separate evaluation Work and result.
 
 **Manufacturing cell.** Welding and painting are two dated work occurrences. Electricity, gas, consumables, and labor time are separate resource Characteristics with measurement-result epistemes. A shared extraction fan and overlapping operator time require direct shared-use facts and an allocation policy. The resource ledger represents those facts; it does not create the work, parts, overlap, measurements, aggregation, or frame transformation.
 
@@ -37100,7 +37070,7 @@ Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Plan becomes measurement or aggregation | Expected resource use is presented as performed work or an obtained total. | Keep the plan, dated work, C.16 measurement result, aggregation work, and B.1.6 result distinct. |
-| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as work parthood, overlap, or accounting boundary. | Establish the exact delimitation, part/phase/overlap relation, stock, window, and policy before aggregation. |
+| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as Work parthood, overlap, or accounting boundary. | Establish the exact delimitation, A.15.1 Work relation or separately governed non-Work carrier phase, stock, window, and policy before aggregation. |
 | Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until a measurement, model, or mathematical-lens owner admits conversion. |
 | Shared stock is double-counted | The same person, tool, inventory, meter, dataset, or port appears in multiple work slices. | Declare overlap and deduplication policy, or narrow admissible use. |
 | Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence owners first; return to `B.2.P` only when whole reidentification remains current. |
@@ -37110,7 +37080,7 @@ Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact 
 | ID | Requirement |
 | --- | --- |
 | CC-B1.6-1 | Every resource component names its Characteristic, Scale/Unit, subject, time stance, C.16 measurement work/result episteme, and uncertainty/provenance when current. |
-| CC-B1.6-2 | The included dated work occurrences and every work-part, phase, partition, overlap, or shared-stock relation are independently grounded. |
+| CC-B1.6-2 | The included dated Work occurrences and every A.15.1 temporal-part, episode, operational-part, other admitted Work-part, partition, overlap, or shared-stock relation are independently grounded; a separately used non-Work `PhaseOf` passes that carrier's direct identity rule. |
 | CC-B1.6-3 | The aggregation policy names inclusion, conversion, weighting, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind. |
 | CC-B1.6-4 | Dated aggregation work has a performer, method, actual direct/A.6.1 bindings, resources, and temporal extent. |
 | CC-B1.6-5 | The B.1.6 aggregation result and the distinct C.2.1 result episteme are recoverable; neither is a ledger row or generic result field. |
@@ -37125,7 +37095,7 @@ Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact 
 | --- | --- |
 | A method or algorithm is treated as the work-resource roll-up. | Use `A.3.1` or `A.3.2`; use `B.1.6` only for the resource aggregation claim. |
 | A work plan is treated as measured work. | Use `A.15.2` for the plan and `A.15.1` for performed work evidence. |
-| A phase label or timeline is treated as a resource ledger. | Use `B.1.4` for phase aggregation and add `B.1.6` only when resource values are being aggregated. |
+| A phase label or timeline is treated as a resource ledger or as proof of a Work relation. | Recover the exact subject first: A.15.1 for Work temporal parts or occurrences, the carrier's identity owner plus A.14 for proper non-Work `PhaseOf`, and B.1.4 only for bounded aggregation of already recovered temporal relations. Add B.1.6 only when typed resource values are being aggregated. |
 | A resource gain is treated as emergence. | Use measurement and evidence owners first; use `B.2.P` only if whole reidentification remains current. |
 | A ledger, dashboard, or report total is treated as the aggregation result. | Recover the source publications, C.16 measurements, work set and relations, policy, dated aggregation work, B.1.6 result, C.2.1 episteme, and A.10/G.6 provenance. |
 
@@ -37159,10 +37129,10 @@ Source refresh is local: replay the row's named rule, case, and checklist rows f
 - Builds on `A.15.1` and `A.6.1` for dated measurement/aggregation work, role assignment, declarations, and actual bindings; C.2.1 for measurement-result and aggregation-result epistemes.
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
-- Coordinates with `B.1.4` and `C.27` for phase and temporal-claim adequacy.
-- Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, phase, and constructive grounding.
+- Coordinates with `A.15.1` for exact Work temporal parts, episodes, operational parts, overlaps, retries, resumptions, and later occurrences; with `B.1.4` only for bounded aggregation of already recovered temporal relations; and with `C.27` for temporal-claim adequacy.
+- Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, proper temporal restriction of a directly governed non-Work carrier, and constructive grounding.
 - Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern governs the recovered claim.
-- Coordinates with `C.16` for resource Characteristics and measurement results; `A.10`/`G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.14/B.1.4 for part/phase structure; E.17 for publication; and the direct comparison, assurance, transformation, reidentification, or decision owner when those uses are current.
+- Coordinates with `C.16` for resource Characteristics and measurement results; `A.10`/`G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.15.1 for Work relations; A.14/B.1.4 for separately governed non-Work part or phase relations and their bounded aggregation; E.17 for publication; and the direct comparison, assurance, transformation, reidentification, or decision owner when those uses are current.
 
 ### B.1.6:End
 
@@ -39056,16 +39026,18 @@ These obligations adapt the current B.1 and B.1.1 dependency-structure and relat
   * Penalty from poor join soundness `CL_min`.
   * Improvement via faster but **verified** inspection (increase `R_step`) or tighter join spec (increase `CL`).
 
-#### B.3:6.4 - Temporal archetype — **Versioned model credibility**
+#### B.3:6.4 - Temporal archetype — **Model credibility across exact episteme identities**
 
-* **Claim `C`:** *Model M predicts within ±δ over τ.*
-* **Context `K`:** Data regime and drift tolerance; `S = run`.
-* **Γ\_time records:** `PhaseOf` slices v1, v2, v3 covering `τ`.
+* **Claims `C_i`:** each exact model episteme `M_i` carries its own prediction claim and declared applicability window; a receiving assurance use may additionally ask whether the selected claims jointly support prediction within ±δ over τ.
+* **Context `K`:** data regime and drift tolerance; `S = run`.
+* **C.2.1 identity and continuity:** compare the exact claim content, EntityOfConcern, and effective ReferenceScheme for the items labelled v1, v2, and v3. A changed discriminator identifies another episteme. Assert `EpistemeEditionRelation(M_v1,M_v2)` or `EpistemeEditionRelation(M_v2,M_v3)` only when each ordered pair satisfies C.2.1's independent historical-continuation predicate; labels, revision Work, provenance, publication order, and common lineage establish neither occurrence.
+* **Temporal aggregation:** a B.1.4/Γ\_time record may order those already recovered edition relations, applicability windows, or publication windows for the bounded assurance use. It does not turn the distinct epistemes into `PhaseOf` slices. If one exact episteme instead remains unchanged and the use needs proper interval restrictions, A.14 `PhaseOf(M@τ_i,M)` remains available and B.3 `TIME-COV` applies to that same phased entity.
 * **Assurance:**
 
-  * `R_raw = min(R_v1, R_v2, R_v3)`;
-  * penalty if v2–v3 interface had low calibration congruence;
-  * improvement via re‑calibration (↑CL) or new validation campaign (↑R\_v3).
+  * compute `R_raw = min(R_C1, R_C2, R_C3)` only when the named assurance use actually consumes all three exact edition-specific claims and their evidence relations;
+  * apply the declared penalty when the mapping or calibration congruence between the edition-specific prediction/evidence bases is low;
+  * re-calibration or a new validation campaign may improve the exact supported claim, mapping, or evidence relation, but creates neither episteme identity, edition continuity, currentness, nor publication availability; and
+  * a non-continuing replacement receives an independent assurance assessment and inherits no `F`, `G`, `R`, `CL`, evidence, or reliance result by label.
 
 ### B.3:6.1 - Bias-Annotation
 
@@ -50655,73 +50627,73 @@ Publish: UTS twin labels; RSCR triggers on method edition change.
 
 ### C.21:End
 
-## C.22 - Problem Typing & TaskSignature Assignment (Problem-CHR)
+## C.22 - Task Typing and TaskSignature Assignment (Problem-CHR)
 > **Status:** Stable
 > **Type:** Calculus (C)
 
-**Purpose.** Give FPF an admissible, minimal, and portable `TaskSignature@Context` declaration for selector-facing use after the problem-side representation is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2` carries the first problem-framing episteme for a messy signal. `C.22` constructs one CHR-grounded `U.Signature` species and, when a receiving use is current, relates the exact problem-side episteme to that signature through `TaskSignatureAssignmentRelation@Context`. The signature is Context-local, evidence-relation-traceable, tri-state-aware, and bridge-visible.
+**Purpose.** Give FPF an admissible, minimal, and portable `TaskSignature` declaration for selector-facing use after the problem-side episteme is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2` carries the first problem-framing episteme for a messy signal. C.22 constitutes one CHR-grounded `U.Signature` and, when a receiving use is current, relates the exact problem-side episteme to that signature through `TaskSignatureAssignmentRelation`. Typed characteristics, unknowns, evidence-use relations, scope, currentness, and any scheme or plane crossings stay visible without adding a generic setting, carrier, or organization as a participant.
 
-**Body-level kind boundary.** `TaskSignature@Context` is a Context-local species of existing `U.Signature`, governed here and conformant to the A.6.0 four-row declaration; it is not a record format and introduces no new root U-kind. `TaskSignatureAssignmentRelation@Context` is the local `U.Relation` that assigns one such signature to one exact problem-side episteme for one receiving use. `ProblemCard@Context` is the C.22.2 problem-side episteme used before that assignment. `KindSet` contains C.3 `U.Kind` values for selected entities. Descriptor maps, telemetry hooks, policy ids, and selector fields remain local signature vocabulary or projection fields unless a direct governing pattern admits another kind.
+**Body-level kind boundary.** `TaskSignature` is a C.2.1 episteme and a species of existing `U.Signature`, conformant to A.6.0 direct declaration fields, Vocabulary, Laws, and Applicability. It is not a record format and introduces no new root U-kind. `TaskSignatureAssignmentRelation` is a separate obtaining relation among one exact problem-side episteme, one exact TaskSignature episteme, and one exact receiving-use episteme. `ProblemCard` is the C.22.2 problem-side episteme used before that assignment. `KindSet` contains C.3 `U.Kind` values for selected entities. Descriptor maps, telemetry hooks, policy ids, and selector fields remain signature vocabulary or projections unless a direct governing pattern admits another kind.
 
-**Primary EntityOfConcern.** The governed value in C.22 is one `TaskSignature@Context`, a Context-local `U.Signature` declaration that makes a typed task or work target usable by later eligibility, acceptance, and selector relations. `TaskSignatureAssignmentRelation@Context` is a separate dependent relation to the upstream problem-side episteme and receiving use. `TaskKind`, optional `TaskFamilyRef`, `KindSet`, characteristic bindings, and scope slices are content of the signature's four-row declaration. A later `SelectorOutcome` is a downstream result. A project-entity reference inside a scope relation identifies the entity addressed by the task; it is not the TaskSignature or its publication.
+**Primary EntityOfConcern.** This pattern governs one `TaskSignature` episteme. Inside it, `EntityOfConcernRef` identifies the exact task or work target declared for the receiving use; it does not identify the signature, `TaskKind`, carrier, organization, or publication. `TaskKind`, optional `TaskFamilyRef`, `KindSet`, characteristic bindings, and scope relations are declaration content. A later `SelectorOutcome` remains a downstream result.
 
 **Placement.** Part C (Kernel Extensions Specifications) -> Cluster C.I (Core CHRs and CALs).
 **Depends on:** **C.16 MM-CHR** (measurement admissibility), **G.5** (selector S2 and S3), **G.0** (CG-Spec invariants).
-**Coordinates with:** **G.4** (Acceptance and Evidence profiles), **C.23** (MethodFamily admissibility and maturity), **C.18 NQD‑CAL** (QD and illumination), **C.19 E/E‑LOG** (emitters and policies), **E.10** (LEX).
+**Coordinates with:** **G.4** (Acceptance and Evidence profiles), **C.23** (MethodFamily admissibility and maturity), **C.18 NQD-CAL** (QD and illumination), **C.19 E/E-LOG** (emitters and policies), **E.10** (LEX).
 
 ### C.22:0 - Use This When
 
-Use this pattern when a stabilized problem-side episteme must be related to a selector-facing `TaskSignature@Context` for eligibility, acceptance, or policy-governed selection. Typical cases include solver choice, method-family eligibility, QD archive selection, open-ended generator selection, or specialization claims that need a declared task family or work target.
+Use this pattern when one stabilized problem-side episteme must be related to a selector-facing `TaskSignature` for eligibility, acceptance, or policy-governed selection. Typical cases include solver choice, method-family eligibility, QD archive selection, open-ended generator selection, or specialization claims that need a declared task family or work target.
 
-The working moment often sounds like this: "We are about to compare possible ways of doing, but which facts about this problem make a method family eligible, comparable, or unacceptable here?" Use C.22 to construct the smallest four-row `TaskSignature@Context` that a later selector can consume without selecting a method in advance, then assign it to the exact problem-side episteme and receiving use. If problem framing remains contested or stale, use `C.22.2`. If a sufficient signature and assignment already exist and the current question is selection, use `G.5`. If a method is selected and dated enactment is being prepared, use `A.15.2`.
+The working moment often sounds like this: "We are about to compare possible ways of doing, but which facts about this problem make a method family eligible, comparable, or unacceptable for this use?" Construct the smallest A.6.0 TaskSignature that a later selector can consume without selecting a method in advance, then assign it to the exact problem-side episteme and receiving use. If problem framing remains contested or stale, use `C.22.2`. If a sufficient signature and assignment already exist and the current question is selection, use `G.5`. If a method is selected and dated enactment is being prepared, use `A.15.2`.
 
-**What goes wrong if missed.** A problem remains a paragraph: selector inputs drift, ordinals and units get mixed, unknowns are coerced, acceptance thresholds leak into CHR fields, and cross-context reuse happens by name instead of Bridge+CL.
+**What goes wrong if missed.** A problem remains a paragraph: selector inputs drift, ordinals and units get mixed, unknowns are coerced, acceptance thresholds leak into CHR fields, and reuse happens by name rather than through exact scheme, scope, currentness, and any required Bridge.
 
-**What this buys.** The downstream selection question gets one minimal `TaskSignature@Context` with typed vocabulary, laws, applicability, unknown handling, evidence relations, scope, freshness, and crossing conditions visible before any method family is admitted or compared. Its assignment to the problem-side episteme is replayable, while publication and serialization can vary without changing the signature.
+**What this buys.** The downstream selection question gets one separately constituted TaskSignature with typed vocabulary, laws, applicability, unknown handling, evidence relations, ClaimScope, freshness, and crossing conditions visible before any method family is admitted or compared. Its assignment is replayable while publication and serialization can vary without changing the signature.
 
 ### C.22:1 - Intent
 
-Operationalise No-Free-Lunch discipline in selection by making each selector decision use a typed `TaskSignature@Context`, not a paragraph. A problem reaches C.22 when its problem-side episteme is stable enough to construct and assign that signature without selecting a method in advance. The signature is the smallest CHR-typed A.6.0 declaration sufficient to support eligibility, acceptance, and policy-governed selection without inadmissible arithmetic or silent coercions; the separate assignment relation states which problem-side episteme and receiving use rely on it.
+Operationalise No-Free-Lunch discipline in selection by making each selector decision use a typed `TaskSignature`, not a paragraph. A problem reaches C.22 when its problem-side episteme is stable enough to constitute and assign that declaration without selecting a method in advance. The signature is the smallest CHR-typed A.6.0 declaration sufficient for eligibility, acceptance, and policy-governed selection without inadmissible arithmetic or silent coercions.
 
 #### C.22:1.1 - Term split used in this pattern
 
-- `TaskSignature` assignment means relating one `TaskSignature@Context` value to one exact problem-side episteme and one receiving selection use through `TaskSignatureAssignmentRelation@Context`; it does not pre-bind a method.
-- `ScopeSlice(G)` means the claim-bounding scope cut over `EntityOfConcernRef` and scope; it is not an evidence-path slice and not a baseline-set slice.
+- `TaskSignature` assignment means one obtaining `TaskSignatureAssignmentRelation` among an exact problem-side episteme, exact TaskSignature, and exact receiving-use episteme; it does not pre-bind a method.
+- `ScopeSlice(G)` means the exact A.2.6 claim-scope relation used by this declaration; it is not an evidence-path slice, baseline-set slice, container, or assignment participant.
 - `threshold` is not one undifferentiated family here:
-  - articulation and closure thresholds stay with cue or prompt governing patterns such as `B.4.1` and `B.5.2.0`
-  - acceptance-gate thresholds stay with `G.4`
-  - the work-measure threshold target used in specialization claims is only the declared success mark for the current task family or work target
+  - articulation and closure thresholds stay with cue or prompt governing patterns such as `B.4.1` and `B.5.2.0`;
+  - acceptance-gate thresholds stay with `G.4`;
+  - a work-measure threshold target used in a specialization claim is only the declared success mark for that task family or work target.
 
 **Name and kind map for code-shaped heads.** The names below identify different structural positions; capitalization does not make them peer kinds.
 
 | Head used in this pattern | Recoverable kind or position | Direct governance boundary |
 | --- | --- | --- |
-| `TaskSignature@Context` | Context-local species of `U.Signature` and this pattern's primary EntityOfConcern | C.22 governs its A.6.0 four-row specialization; E.17 governs its publications and carriers. |
-| `ProblemSideRecordRef` and `ReceivingUseDescription` | Positions of `TaskSignatureAssignmentRelation@Context`, not content or identity positions of `TaskSignature@Context` | C.22.2 or the direct problem-side pattern governs the problem episteme; the receiving-use description does not prove that the use occurred. |
-| `TaskKind` | TaskSignature position filled by one exact C.3 `U.Kind` value that types the current problem or work target | C.3 governs the kind value; the field does not mint `U.Task`. |
+| `TaskSignature` | C.2.1 episteme and species of `U.Signature`; this pattern's primary EntityOfConcern | C.22 governs its A.6.0 direct fields, Vocabulary, Laws, and Applicability; C.2.1 governs constitution; E.17 governs publications and carriers. |
+| `ProblemSideEpistemeRef` and `ReceivingUseEpistemeRef` | Participant designations in an assertion or description of `TaskSignatureAssignmentRelation`, not content or identity positions of TaskSignature | C.22.2 or the direct problem-side pattern governs the first episteme; the receiving-use episteme states the use but does not prove that an assignment obtains. |
+| `TaskKind` | TaskSignature position filled by one exact C.3 `U.Kind` value that types the current task or work target | C.3 governs the kind value; the field does not mint `U.Task`. |
 | `TaskFamilyRef` | Optional reference position for the comparison-relevant task family | C.22 and C.22.1 govern task-family anchoring; the reference is not the family or a selected method. |
-| `ProblemProfile` | `C.2.1`-conformant `U.Episteme` that describes the stabilized problem and may reference the TaskSignature assignment | It is not the problem, TaskSignature, assignment relation, method, plan, or work occurrence. |
-| `ScopeSlice(G)` | Local field position whose filler is the current claim-bounding scope relation over the project `EntityOfConcernRef` | A.2.6 governs the scope relation; the field is not an E.18 path slice or a new slice kind. |
-| CHR field heads in `5.1` | TaskSignature positions filled by characteristics, scales, units, polarity values, scope values, evidence relations, and currentness conditions | C.16 and each direct subject pattern govern the fillers; C.22 only states why the positions are needed by selector-facing use. |
+| `ProblemProfile` | C.2.1-conformant `U.Episteme` that describes the stabilized problem and may reference the TaskSignature assignment | It is not the actual Problem, TaskSignature, assignment relation, method, plan, or Work occurrence. |
+| `ScopeSlice(G)` | Local position whose filler is the current A.2.6 claim-scope relation over the exact `EntityOfConcernRef` | A.2.6 governs membership; the position is not an E.18 path slice or a new slice kind. |
+| CHR field heads in `5.1` | TaskSignature positions filled by characteristics, scales, units, polarity values, scope values, evidence relations, and currentness conditions | C.16 and each direct subject pattern govern the fillers; C.22 states why the selector-facing use needs them. |
 | QD and OEE extension heads in `5.1` | Optional TaskSignature positions filled by exact characteristic-space, archive, policy, telemetry, generator-family, validity-region, and transfer-rule values or references | C.18, C.19, G.5, G.11, and the named direct patterns keep authority over those fillers. `ArchiveConfig`, `TelemetryHooks`, and `GeneratorIntent` do not become root kinds here. |
 
-#### C.22:1.2 - ProblemCard@Context relation
+#### C.22:1.2 - ProblemCard relation
 
-`ProblemCard@Context` is the `C.22.2` problem-side record shape for stabilizing one context-bound problem representation before downstream Principles-to-Work (P2W).
+`ProblemCard` is the C.22.2 C.2.1 episteme used to stabilize one problem-side representation before downstream Principles-to-Work.
 
-A `ProblemCard@Context` episteme can be used to prepare the `TaskKind`, scope, and characteristic bindings for a candidate `TaskSignature@Context`. Assignment is admitted only when one signature is adequate for the named receiving use. If several signatures remain plausible, keep them as candidates under the selection or problem-framing pattern rather than asserting one `TaskSignatureAssignmentRelation@Context`.
+A ProblemCard can prepare `TaskKind`, scope, and characteristic bindings for a candidate TaskSignature. Assignment obtains only when one signature is adequate for the named receiving use. If several signatures remain plausible, keep them as candidates under the selection or problem-framing pattern rather than asserting one assignment occurrence.
 
-`TaskSignatureAssignmentRelation@Context` does not move problem-card claims into the TaskSignature. The signature keeps only its four-row task declaration. `ProblemCard@Context` remains the reviewable problem-side episteme that explains why this problem can proceed to characterization, comparison, search, refresh, retirement, or another governing pattern.
+`TaskSignatureAssignmentRelation` moves no card claim into the TaskSignature. The signature keeps only its A.6.0 declaration content; the card remains the reviewable problem-side episteme that explains why this problem can proceed to characterization, comparison, search, refresh, retirement, or another governing pattern.
 
-The corresponding claims are governed by their named governing patterns.
+The corresponding claims remain with their named governing patterns.
 
 ### C.22:2 - Problem Frame (DesignRunTag split; crossing-visible)
 
 **Selector-facing problem case**
-For selector-facing C.22 use, a problem case applies when the problem-side episteme is stable enough to construct a minimal `TaskSignature@Context` and assert its `TaskSignatureAssignmentRelation@Context` for eligibility, acceptance, or policy-governed selection. Method absence or contestability is a common downstream reason, but not the ontology of problemhood. When the live question remains a symptom, contested framing, stale context, set-derived candidate, opportunity cue, or preselected work item, use C.22.2 before asserting one assignment. When selection becomes current, cite the A.19.SelectorMechanism relation and exact G.5 policy refs rather than moving selection policy into the signature.
+For selector-facing C.22 use, a problem case applies when the problem-side episteme is stable enough to construct a minimal `TaskSignature` and assert its `TaskSignatureAssignmentRelation` for eligibility, acceptance, or policy-governed selection. Method absence or contestability is a common downstream reason, but not the ontology of problemhood. When the live question remains a symptom, contested framing, stale ReferenceScheme or ClaimScope, set-derived candidate, opportunity cue, or preselected work item, use C.22.2 before asserting one assignment. When selection becomes current, cite the A.19.SelectorMechanism relation and exact G.5 policy refs rather than moving selection policy into the signature.
 **Unknown-first discipline.** Author S2 with `unknown` traits rather than coercions. Name the exact downstream policy that interprets a live unknown for the receiving use. C.22 introduces no universal outcome enum; C.23, G.4, G.5, or another direct pattern governs the resulting eligibility, acceptance, or selection disposition.
 
-Untyped "problems" collapse into **informal prose**; selectors cannot **filter or abstain** admissibly; acceptance-gate thresholds leak into scoring; cross-Context reuse is by name, not Bridge. We need a Context-local descriptor that (i) establishes **MM-CHR admissibility** for Scale, Unit, and Polarity before aggregation, (ii) records **Assurance lanes TA, VA, and LA** per **A.10** and **ReferencePlane**, (iii) carries **tri-state unknowns** explicitly, and (iv) records crossing attestations (**BridgeCard plus UTS row**) with **Φ(CL) and Φ_plane** policy ids.
+Untyped "problems" collapse into **informal prose**; selectors cannot **filter or abstain** admissibly; acceptance-gate thresholds leak into scoring; and cross-scheme reuse proceeds by name rather than by an exact Bridge. The needed value is a use-bounded TaskSignature that (i) establishes **MM-CHR admissibility** for Scale, Unit, and Polarity before aggregation, (ii) records **Assurance lanes TA, VA, and LA** per **A.10** and **ReferencePlane**, (iii) carries **tri-state unknowns** explicitly, and (iv) records any Bridge and crossing attestations with **Φ(CL) and Φ_plane** policy ids.
 
 ### C.22:3 - Problem
 
@@ -50734,9 +50706,9 @@ Without typed descriptors, **Eligibility and Acceptance** degenerate into prose;
 | **Parsimony vs sufficiency** | Fewer fields to avoid ceremony **vs** enough to drive admissible gating.                                                              |
 | **Unknowns**                 | Many traits are **unknown** in the initial problem record → tri-state semantics propagate to Acceptance without silent coercions.                |
 | **CHR admissibility**             | **No mean on ordinals; no unit mixing**; aggregation is admissible only after polarity and scale type are declared.                             |
-| **Locality vs portability**  | The problem is **in-room**; cross-context reuse proceeds **through Bridges**, with **CL** and (if planes differ) **CL^plane** penalties → **R** only. |
+| **Locality vs portability**  | The declaration is use-bounded; cross-scheme or cross-plane reuse proceeds **through Bridges**, with **CL** and (if planes differ) **CL^plane** penalties → **R** only. |
 
-### C.22:5 - Solution — Problem CHR, `TaskSignature@Context`, and assignment relation
+### C.22:5 - Solution — Problem CHR, `TaskSignature`, and assignment relation
 
 **Local TaskSignature mantra.** *Stabilize the problem; name the receiving selection question and task kind; keep only traits that can change eligibility, acceptance, or selection; type each live trait; preserve unknowns, evidence relations, scope, and currentness; declare the TaskSignature, assign it to the problem-side episteme for that use, and stop before selecting a method.* This is a short repeatable rendering of the C.22 Solution. It is not a selector algorithm, method recommendation, work plan, dated selection occurrence, or `DemonstrativeUnfoldingSlice@Context`.
 
@@ -50751,11 +50723,11 @@ Apply that formula as follows:
 
 #### C.22:5.0a - Positive closure, bounded non-use, and local return
 
-Close the C.22 use positively when the four-row TaskSignature declaration is complete and `TaskSignatureAssignmentRelation@Context` recovers the stabilized problem-side episteme, bounded Context, exact signature edition, and receiving use. Each live characteristic has its scale, unit, polarity, reference plane, admitted comparison relation, and value or explicit `unknown`; every relied-on evidence, freshness, edition, or crossing relation is named. A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, work plan, or dated work is claimed.
+Close the C.22 use positively when the direct TaskSignature fields, Vocabulary, Laws, and Applicability are complete and `TaskSignatureAssignmentRelation` recovers the exact problem-side episteme, TaskSignature, receiving-use episteme, effective ReferenceScheme, ClaimScope, and current qualification conditions. Each live characteristic has its scale, unit, polarity, reference plane, admitted comparison relation, and value or explicit `unknown`; every relied-on evidence, freshness, edition, or crossing relation is named. A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, WorkPlan, or dated Work is claimed.
 
 Close by bounded non-use when problem framing is not stable enough for a TaskSignature declaration, when no selector-facing receiving use is current, or when the current question has already become eligibility, acceptance, selection, planning, or performed work. A non-current optional extension remains absent. If several signatures or assignment relations remain plausible, preserve them as candidates under the governing problem or selection pattern rather than asserting one assignment.
 
-Return to the smallest affected TaskSignature position when its receiving question, Context, `TaskKind`, task-family or work-target reference, project subject or scope, characteristic meaning, scale, unit, polarity, reference plane, unknown status, evidence relation, freshness condition, edition, or crossing relation changes. Keep the upstream `ProblemCard@Context` and downstream selection history unchanged unless the changed relation actually invalidates them under their own governing patterns.
+Return to the smallest affected TaskSignature position when its receiving question, exact target, effective ReferenceScheme, ClaimScope, `TaskKind`, task-family reference, characteristic meaning, scale, unit, polarity, reference plane, unknown status, evidence-use relation, freshness condition, edition, or crossing relation changes. Keep the upstream `ProblemCard` and downstream selection history unchanged unless that exact change invalidates them under their own governing patterns.
 
 **Worked local repair.** A machining TaskSignature originally records surface finish as an ordinal visual grade. The receiving use later adopts measured roughness `Ra` on a ratio scale in micrometres with a named measurement and evidence relation. Repair the affected characteristic head, scale, unit, admitted comparisons, and evidence relation. Keep the machining `TaskKind`, unaffected constraints, scope, and prior work history. Reopen eligibility, acceptance, or method-family selection only when its earlier result relied on the replaced finish head; the direct downstream pattern decides the new result.
 
@@ -50770,7 +50742,7 @@ Use the lightest signature declaration and assignment relation that the named re
 More fields, publication packaging, name cards, or telemetry do not make the problem better formulated, the TaskSignature more true, or a method more suitable. If no selector-facing receiving use needs a TaskSignature, close by bounded non-use rather than publishing a thin declaration for its own sake.
 
 #### C.22:5.1 - Minimal CHR fields (tri‑state aware).
-**Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, method-family, or policy-governed choice questions. They are not a universal problem-framing checklist and do not replace the `C.22.2` Thin `ProblemCard@Context` pass for a messy signal. Each live characteristic field is **CHR-typed** by Characteristic, Scale, Unit, and Polarity under MM-CHR discipline. A live predicate may preserve `unknown` when its direct pattern admits that value; the cited downstream policy governs what follows. This aligns G.4 and G.6 without making their results C.22 values.
+**Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, method-family, or policy-governed choice questions. They are not a universal problem-framing checklist and do not replace the `C.22.2` Thin `ProblemCard` pass for a messy signal. Each live characteristic field is **CHR-typed** by Characteristic, Scale, Unit, and Polarity under MM-CHR discipline. A live predicate may preserve `unknown` when its direct pattern admits that value; the cited downstream policy governs what follows. This aligns G.4 and G.6 without making their results C.22 values.
 
 **Optional extension absence rule.** If QD, OEE, archive, generator, parity, specialization, or another optional relation is not live for the current case, the corresponding optional fields are absent, not `unknown`. Use `unknown` only for a live field whose value is currently unknown. An absent non-live extension triggers no downstream disposition.
 
@@ -50804,97 +50776,98 @@ Use this extension block only when QD, illumination archive, set-return, or OEE 
 
 **Admissibility.** Before any numeric comparison or aggregation, establish CSLC admissibility for Scale, Unit, and Polarity and cite **CG-Spec.Characteristics**; record **ReferencePlane**. Preserve `unknown` for the downstream policy; do not coerce it to `0` or `false`, and do not invent a C.22-local disposition.
 
-#### C.22:5.2 - `TaskSignature@Context` declaration and assignment
+#### C.22:5.2 - `TaskSignature` declaration and assignment
 
-`TaskSignature@Context` is a Context-local species of A.6.0 `U.Signature`. It uses the canonical four-row block rather than a flat record schema. Because eligibility, acceptance, and selector patterns import or cite it, its A.6.0 `SignatureManifest` supplies a stable `SignatureId`, edition, imports, and provided names without adding a fifth semantic row.
+`TaskSignature` is a C.2.1 episteme and a species of A.6.0 `U.Signature`. It uses A.6.0 identity and declaration content directly rather than a flat record schema. Add an optional `SignatureManifest` only when dependency replay requires actual imports and provided names; `SignatureId` and edition are designators and currentness handles, not substitutes for identity.
 
 ```text
-TaskSignature@Context <: U.Signature
+TaskSignature <: U.Signature
 
-SubjectBlock:
-  SubjectKind = TaskKind, one exact C.3 U.Kind value
-  RangedValueKind = U.Entity
-  SliceSet = declared A.2.6 subject-scope slices
-  ExtentRule = entities admitted by KindSet inside those scope slices
-  ResultKind = absent; selector outcomes are not TaskSignature values
+EntityOfConcernRef = exact task or work target declared for the named receiving use
+effectiveReferenceScheme = exact scheme in which TaskKind, TaskFamilyRef?, KindSet, and characteristic values are interpreted
+SubjectKind = TaskKind, one exact C.3 U.Kind value
+RangedValueKind = U.Entity
+SliceSet = declared A.2.6 claim-scope slices
+ExtentRule = entities admitted by KindSet inside those slices
+ResultKind = absent; selector outcomes are not TaskSignature values
 
 Vocabulary:
   TaskFamilyRef?
   KindSet
   characteristic bindings with Scale, Unit, Polarity, ReferencePlane, admitted comparison relation, and value or admitted unknown
   constraint relation references
-  evidence-relation references
+  evidence-use relation references
   optional QD, OEE, archive, generator, parity, budget, telemetry, and specialization vocabulary only when current
 
 Laws:
   include only positions that can change eligibility, acceptance, or selection for the declared use
   preserve admitted unknown and distinguish it from absent non-current vocabulary
   apply CHR scale, unit, polarity, ReferencePlane, and comparison legality before aggregation
-  keep acceptance verdicts, selector outcomes, selected methods, plans, work, and performed results outside the signature
+  keep acceptance verdicts, selector outcomes, selected methods, plans, Work, and performed results outside the signature
   keep each reliance-bearing field connected to its exact basis relation and direct governing pattern
 
 Applicability:
-  bounded Context and declared subject scope
+  exact U.ClaimScope and any required A.2.6 membership
+  declared qualification or use window when current
   qualification, freshness, edition, and evidence-use conditions on which use relies
-  named Bridge and crossing conditions for cross-context or cross-plane use
+  named F.9 Bridge and plane conditions when meanings or ReferencePlanes differ
 ```
 
-The field families in C.22:5.1 are projections of the `Vocabulary` and `Applicability` rows. They are not extra conceptual rows and do not redefine A.6.0.
+The field families in C.22:5.1 are projections of Vocabulary and Applicability. They are not extra conceptual rows and do not redefine A.6.0.
 
-The assignment to one problem-side episteme and receiving use is a separate relation:
+The assignment is a separate relation with exactly three direct participants:
 
 ```text
-TaskSignatureAssignmentRelation@Context <: U.Relation:
-  BoundedContextSlot = <TaskSignatureAssignmentContextSlot, U.BoundedContext, U.BoundedContextRef>
-  ProblemSideRecordSlot = <ProblemSideRecordSlot, U.Episteme, U.EpistemeRef>
-  TaskSignatureSlot = <TaskSignatureSlot, U.Signature, U.EntityRef constrained to TaskSignature@Context>
-  ReceivingUseDescriptionSlot = <ReceivingUseDescriptionSlot, U.Episteme, U.EpistemeRef>
-  direction = ProblemSideRecordSlot -> TaskSignatureSlot for ReceivingUseDescriptionSlot
+TaskSignatureAssignmentRelation <: U.Relation
+  ProblemSideEpistemeSlot = <ProblemSideEpistemeSlot, U.Episteme, U.EpistemeRef>
+  TaskSignatureSlot = <TaskSignatureSlot, U.Signature, U.EntityRef constrained to TaskSignature>
+  ReceivingUseEpistemeSlot = <ReceivingUseEpistemeSlot, U.Episteme, U.EpistemeRef>
 ```
 
-These SlotSpecs and direction are the exact RelationSignature. Relation identity is determined by bounded context, problem-side episteme edition, TaskSignature identity and edition, and receiving-use description. Changing only a publication carrier or serialization changes neither the TaskSignature nor its assignment relation.
+The relation obtains while the exact receiving use actually adopts that exact TaskSignature as the task-typing declaration for the exact problem-side episteme under the stated scheme, scope, and qualification conditions. Co-publication, a card field, a shared label, or one record row does not make it obtain. One occurrence is identified by the three participants plus its maximal continuous actual assignment extent. A participant change yields another occurrence; actual withdrawal and later readoption yield distinct occurrences even when the same three participants return.
 
-**TaskSignature identity and publication.** The signature's `SignatureId`, edition, and four-row semantic content determine its identity. A semantic change to SubjectBlock, Vocabulary, Laws, or Applicability creates a revised signature edition. Two E.17 publications, database records, cards, or files may serialize the same TaskSignature edition when they resolve to that same identity and introduce no new claim. `ProblemProfile` may reference the signature and assignment relation, but it does not contain or become either one.
+**TaskSignature identity and publication.** The tuple `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` determines TaskSignature episteme identity under A.6.0 and C.2.1. `SignatureId` and edition designate and track that episteme. A semantic change to direct declaration fields, Vocabulary, Laws, Applicability, the exact target, or the effective scheme creates a revised signature edition. Two E.17 publications, database rows, cards, or files may present the same edition when they resolve to the same tuple and add no new claim. `ProblemProfile` may reference the signature and assignment relation but contains or becomes neither.
 
-**Minimality rule.** The signature contains only the declaration positions needed to determine eligibility, acceptance, or admissible selection for the named use. Additional traits remain outside its Vocabulary unless a later use makes them current. Their mere availability does not expand the signature.
+**Minimality rule.** Include only declaration positions needed to determine eligibility, acceptance, or admissible selection for the named use. Additional traits remain outside Vocabulary until a later use makes them current.
 
-Values are CHR-typed and tied to the exact measurement, evidence-use, source-use, representation, or scope relation that justifies their use when such a relation is current. Each reliance-bearing field basis names that relation and its direct governing pattern; generic provenance or support wording is not a replay basis. Traits may be inferred from admitted CHR, CAL, and A.2.6 scope relations. Unknowns preserve their direct Missingness semantics.
+Values are CHR-typed and tied to the exact measurement, evidence-use, source-use, representation, or scope relation that justifies their use when such a relation is current. Each reliance-bearing field basis names that relation and its direct governing pattern; generic provenance or support wording is not a replay basis. Unknowns preserve their direct missingness semantics.
 
 **TaskSignature invariants.** A positive assignment satisfies all six conditions:
 
-1. The TaskSignature exposes conformant SubjectBlock, Vocabulary, Laws, and Applicability rows.
-2. The assignment relation recovers its Context, exact problem-side episteme edition, exact TaskSignature edition, and receiving-use description.
+1. The TaskSignature exposes its exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct declaration fields, Vocabulary, Laws, and Applicability.
+2. The assignment relation recovers its exact problem-side episteme, exact TaskSignature, exact receiving-use episteme, obtaining conditions, and occurrence extent.
 3. Every live field has an admitted filler kind or scale discipline and, under reliance, an exact basis relation with a direct governing pattern.
-4. A live but unrecovered value is `unknown` only where the field's direct pattern admits it and a downstream policy ref states how the receiving use handles it.
+4. A live but unrecovered value is `unknown` only where the field's direct pattern admits it and a downstream policy states how the receiving use handles it.
 5. A non-current optional extension is absent; absence and unknown are not interchangeable.
-6. Eligibility verdicts, acceptance results, selected methods, selector outcomes, work plans, and work occurrences are absent from the TaskSignature and remain with their direct patterns.
+6. Eligibility verdicts, acceptance results, selected methods, selector outcomes, WorkPlans, and Work occurrences are absent from the TaskSignature and remain with their direct patterns.
 
 #### C.22:5.2a - Lowering and withdrawal conditions
 
-Withdraw `TaskSignatureAssignmentRelation@Context` for the current receiving use when its problem-side episteme, Context, TaskSignature edition, or receiving-use description cannot be recovered. The TaskSignature may remain a valid declaration for another assignment. Return to `C.22.2` only when the problem-side representation itself is no longer stable enough.
+Withdraw the assignment for the current receiving use when its problem-side episteme, TaskSignature, receiving-use episteme, scheme, scope, or qualification conditions cannot be recovered. The TaskSignature may remain a valid declaration for another assignment. Return to C.22.2 only when the problem-side representation itself is no longer stable enough.
 
-Revise the TaskSignature edition when one of its SubjectBlock, Vocabulary, Laws, or Applicability claims changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or governing pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. If a selected method, selector outcome, acceptance result, plan, or work occurrence appears inside the signature, split that value into its direct governing pattern.
+Revise the TaskSignature edition when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective `U.ReferenceScheme` changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or governing pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its direct governing pattern.
 
-A changed or invalid signature position reopens an earlier downstream result only when that result relied on the changed position. The downstream pattern repairs or supersedes its own result. A revised signature does not imply that the problem disappeared or that prior work did not occur.
+A changed or invalid signature position reopens an earlier downstream result only when that result relied on the changed position. The downstream pattern repairs or supersedes its own result. A revised signature does not imply that the actual Problem disappeared or that prior Work did not occur.
 
 #### C.22:5.2b - Evolution and currentness boundaries
 
-C.22 revises the smallest affected four-row position and issues a new TaskSignature edition when semantic content changes. A changed problem formulation returns to `C.22.2` before a replacement assignment is made. `G.11` governs relied-on source edition, freshness, decay, telemetry, and currentness relations; its result may trigger signature review but does not rewrite the signature by itself. `C.18` and `C.19` govern archive, front, lineage, and live-pool evolution. `G.5` governs selected-set and method-family selector results. `E.23` governs repeated object-version improvement. C.22 introduces no local refresh object and does not rewrite earlier selector results or dated work without an explicit dependency.
+C.22 revises the smallest affected identity or declaration-content component and issues a new TaskSignature edition when semantic content changes. A changed problem formulation returns to C.22.2 before a replacement assignment is made. `G.11` governs relied-on source edition, freshness, decay, telemetry, and currentness relations; its result may trigger signature review but does not rewrite the signature by itself. `C.18` and `C.19` govern archive, front, lineage, and live-pool evolution. `G.5` governs selected-set and method-family selector results. `E.23` governs repeated object-version improvement. C.22 introduces no local refresh object and does not rewrite earlier selector results or dated Work without an explicit dependency.
 
-`TaskKind` fills SubjectKind. `TaskFamilyRef?` names one comparison-relevant family in the Vocabulary when specialization, transfer, or parity is live. `KindSet` and the A.2.6 scope slices determine the ranged extent. None is a record-format field, selected method, or selector result.
+`TaskKind` fills SubjectKind. `TaskFamilyRef?` names one comparison-relevant family in Vocabulary when specialization, transfer, or parity is live. `KindSet` and A.2.6 scope slices determine the ranged extent. None is a record-format field, selected method, or selector result.
 
-**DesignRunTag hygiene.** Do not mix DesignRunTag in one signature edition; record GateCrossings as CrossingBundles under their direct patterns when design-time claims are reused in run-time work.
+**DesignRunTag hygiene.** Do not mix DesignRunTag in one signature edition; record GateCrossings as CrossingBundles under their direct patterns when design-time claims are reused in run-time Work.
 
 ##### C.22:5.2.1 - Specialization-claim reference discipline (normative)
-A claim that one holder, dyad, team, or explicitly scoped specialist portfolio acquired usable specialization is complete only when it states one declared `TaskFamilyRef` or `TaskSignature@Context`, one named work-measure threshold target, an adaptation budget, and the freshness or provenance basis for reuse. A method may be selected, refined, or retired as part of that story, but the method is not the bearer of the specialization claim. The TaskSignature declaration and assignment relation stay rich enough for the same task family and work target to remain admissible in `C.22.1` adaptation signatures, `G.5` specialization profiles, and `G.9` adaptation parity without reconstructing the claim from narrative prose.
+A claim that one holder, dyad, team, or explicitly scoped specialist portfolio acquired usable specialization is complete only when it states one declared `TaskFamilyRef` or `TaskSignature`, one named work-measure threshold target, an adaptation budget, and the freshness or provenance basis for reuse. A method may be selected, refined, or retired as part of that story, but it is not the subject of the specialization claim. The TaskSignature declaration and assignment remain rich enough for the same task family and work target to stay admissible in `C.22.1` adaptation signatures, `G.5` specialization profiles, and `G.9` adaptation parity without reconstructing the claim from narrative prose.
 
 Low-human-overlap or newly discovered task families remain admissible when those task-family or signature references are explicit by value.
-#### C.22:5.3 - Provenance & planes.
-Record **Context** and **ReferencePlane** for each value; on any cross-Context or cross-plane reuse, attach BridgeDescription plus UTS row and apply **CL** and, when planes differ, **CL^plane** penalties to **R_eff only**. The governing policy admits **Φ(CL)** and **Φ_plane** only when they are **monotone, bounded, and table-backed**. Do not use “distance” language; penalties never mutate F and G. Record policy ids in SCR and cite Bridge ids on crossings.
+#### C.22:5.3 - Provenance, schemes, and planes
+
+Record the effective `U.ReferenceScheme`, `U.ClaimScope`, and `ReferencePlane` for every relied-on value. When meanings or planes differ, cite the exact F.9 Bridge, endpoint senses, admitted use, and loss; apply CL and, when planes differ, CL^plane penalties to `R_eff` only under the governing policy. The assignment receives no generic setting participant, and a domain, organization, location label, or shared carrier supplies none of these relations. Record policy ids in SCR and cite Bridge ids on actual crossings.
 
 #### C.22:5.4 - Attachment & use.
 
-The bullets below state the contract expected by downstream uses of the assigned TaskSignature. C.22 does not execute eligibility, acceptance, selection, archive treatment, or generator-family choice. Their verdicts and returned sets remain results of the named direct patterns.
+The bullets below state which TaskSignature fields and relations each downstream use reads. C.22 does not execute eligibility, acceptance, selection, archive treatment, or generator-family choice. Their verdicts and returned sets remain results of the named direct patterns.
 
 * **Eligibility** gates read TaskSignature against each **MethodFamily.Eligibility** (C.23) and **CG‑Spec.MinimalEvidence** for referenced characteristics.
 * **Acceptance** clauses (G.4) use these fields for **acceptance-gate threshold predicates** (acceptance-gate thresholds live in Acceptance only).
@@ -50933,12 +50906,14 @@ When **open-ended generation** of tasks or environments is current, S2 is comple
 *Selection result.* Selector outputs **{environment, method}** pairs that pass Eligibility; **TransferRules** govern cross‑environment policy reuse; telemetry reports **coverage and regret** and **IlluminationSummary** with **edition and policy‑id** when improved.
 
 **E. Physical manufacturing method-family eligibility.**
-*Problem-side record.* A shop must finish a declared alloy-part family inside one machine and inspection context. The receiving question is which available finishing-method families can be compared without presuming one of them.
-*TaskSignature.* `TaskKind=surface-finishing work`, `ProblemSideRecordRef=accepted part-family problem card`, `ScopeSlice(G)=declared part family and production window`, `ObjectiveProfile={surface roughness Ra@ratio in micrometres with downward polarity, throughput@ratio}`, `ConstraintRefs={geometric-tolerance relation, heat-distortion relation, resource-envelope relation}`, and material-hardness condition as a live `unknown` with an explicit measurement relation and unknown-handling policy. The TaskSignature makes eligibility reviewable; it does not select grinding, honing, polishing, or another method and does not establish that any part was finished.
+*Problem-side episteme.* `PartFamilyFinishingProblemCard-E2 : U.Episteme` is the exact C.22.2 ProblemCard for a shop that must finish `AlloyPartFamily-17` on one machine under `ShopInspectionScheme-E4` and a production-window ClaimScope. The receiving question is which available finishing-method families can be compared without presuming one of them.
+*TaskSignature.* `SurfaceFinishingEligibilitySignature-E1` declares `EntityOfConcernRef=AlloyPartFamilyFinishingTarget-17`, `effectiveReferenceScheme=ShopFinishing-Scheme-A`, `TaskKind=surface-finishing work`, `ScopeSlice(G)=AlloyPartFamily-17 during [2026-09-01T00:00Z, 2026-10-01T00:00Z)`, `ObjectiveProfile={surface roughness Ra@ratio in micrometres with downward polarity, throughput@ratio}`, `ConstraintRefs={geometric-tolerance relation, heat-distortion relation, resource-envelope relation}`, and material-hardness condition as a live `unknown` with an explicit measurement relation and unknown-handling policy. The TaskSignature makes eligibility reviewable; it does not select grinding, honing, polishing, or another method and does not establish that any part was finished.
+*Assignment.* `FinishingMethodEligibilityUse-E1 : U.Episteme` states the exact receiving eligibility-comparison use. `TaskSignatureAssignmentRelation(PartFamilyFinishingProblemCard-E2, SurfaceFinishingEligibilitySignature-E1, FinishingMethodEligibilityUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that receiving use actually adopts that exact signature as the task-typing declaration for that exact card under `ShopFinishing-Scheme-A`, the declared part-family scope, `ShopInspectionScheme-E4`, and the production window above. Withdrawal of that adoption or change of a participant or qualification ends this assignment occurrence; a shared row, carrier, or publication does not make it obtain.
 
 **F. Clinical rehabilitation method-family eligibility.**
-*Problem-side record.* A rehabilitation service has a bounded patient cohort and must compare admissible intervention families for a stated capability-change question under clinical safety constraints.
-*TaskSignature.* `TaskKind=rehabilitation-method-family comparison`, `ProblemSideRecordRef=accepted cohort problem record`, `ScopeSlice(G)=declared cohort and care setting`, outcome characteristics with their actual scale kinds and follow-up windows, contraindication and resource constraints, current evidence relations, and unknown tolerance or comorbidity values preserved as unknown. C.22 makes the comparison inputs explicit. It does not diagnose a person, recommend treatment, authorize care, prove benefit, or record performed clinical work; those claims remain with their clinical, evidence, gate, role, and work patterns.
+*Problem-side episteme.* `CohortRehabilitationProblemCard-E3 : U.Episteme` is the exact C.22.2 ProblemCard for a rehabilitation service with `Cohort-2026-Q3` and a stated capability-change question under clinical safety constraints.
+*TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation-method-family comparison`, `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`, outcome characteristics with their actual scale kinds and follow-up windows, contraindication and resource constraints, current evidence relations, and unknown tolerance or comorbidity values preserved as unknown. C.22 makes the comparison inputs explicit. It does not diagnose a person, recommend treatment, authorize care, prove benefit, or record performed clinical work; those claims remain with their clinical, evidence, gate, role, and work patterns.
+*Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that receiving use actually adopts that exact signature for that exact card under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
 
 ### C.22:7 - Bias-Annotation (lexical and discipline guards)
 
@@ -50948,16 +50923,16 @@ When **open-ended generation** of tasks or environments is current, S2 is comple
 
 ### C.22:9 - Conformance Checklist (normative)
 
-0. **Minimal four-row S2.** `TaskSignature@Context` exposes an A.6.0 `SignatureManifest` plus SubjectBlock, Vocabulary, Laws, and Applicability. The manifest supplies stable identity and dependency metadata, not a fifth semantic row; the four-row declaration contains only content needed for eligibility, acceptance, or selection.
-1. **Signature and assignment present.** Every exported selector-facing case names one TaskSignature identity and edition plus one `TaskSignatureAssignmentRelation@Context` whose problem-side episteme, receiving-use description, and bounded Context are recoverable. Current characteristic bindings are CHR-typed; a live unknown preserves `unknown`, while a non-current optional vocabulary item remains absent.
-1a. **Publication does not define identity.** Two E.17 publications or serialized records that resolve to the same SignatureId, edition, and four-row semantic content describe the same TaskSignature. Carrier, layout, or serialization change alone does not create a new signature edition or assignment relation.
+0. **Minimal A.6.0 declaration.** `TaskSignature` exposes exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, `SubjectKind`, `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule`, plus Vocabulary, Laws, and Applicability. Add `SignatureManifest` only when dependency replay needs actual imports and provided names; it does not supply signature identity.
+1. **Signature and assignment present.** Every exported selector-facing case names one TaskSignature identity and edition plus one `TaskSignatureAssignmentRelation` whose exact problem-side episteme, TaskSignature, receiving-use episteme, obtaining conditions, and occurrence extent are recoverable. No setting, carrier, or organization is added as a fourth participant. Current characteristic bindings are CHR-typed; a live unknown preserves `unknown`, while a non-current optional vocabulary item remains absent.
+1a. **Publication and designators do not define identity.** Two E.17 publications or serialized records that resolve to the same `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` identify the same TaskSignature episteme. Carrier, layout, serialization, `SignatureId`, or edition label alone does not create a new identity component.
 2. **CHR admissibility proven.** Any numeric comparison or aggregation **cites CG-Spec** by **Characteristic id** and proves **CSLC admissibility**; **no mean on ordinals; no unit mixing**.
 3. **Unknowns remain typed.** A live unknown remains `unknown`, cites the direct downstream policy, and is not coerced. The acceptance, eligibility, or selector pattern records its own governed result.
 4. **Evidence lanes.** **A.10 evidence relations**, **Assurance lanes TA, VA, and LA**, and **freshness windows** are recorded; **Gamma-fold** defaults to weakest-link unless the governing CAL establishes an alternative.
 5. **ReferencePlane guarded.** ReferencePlane is noted **per value and per ObjectiveProfile head**; crossings apply **CL** and **CL^plane** when planes differ. **Φ(CL) and Φ_plane** are **monotone, bounded, table-backed, and documented in the `CG-Spec`**; penalties affect **R_eff only**, preserving F and G invariants.
 6. **Acceptance thresholds live in CAL.** No acceptance-gate thresholds in CHR or code paths; only in **G.4 AcceptanceClauses**.
 7. **Selector-use support.** The TaskSignature exposes the scales, units, polarities, and admitted order relations needed by `G.5`; it carries no mixed-scale scalarization or local selector verdict. `G.5` governs any Pareto-set result when its admissible relation remains partial.
-8. **Crossings visible.** Any cross-stance or cross-Context reuse records **BridgeCard or BridgeDescription plus UTS row** with CL notes and, when planes differ, CL^plane plus Φ_plane.
+8. **Crossings visible.** Any cross-stance, cross-scheme, or cross-plane reuse records **BridgeCard or BridgeDescription plus UTS row** with CL notes and, when planes differ, CL^plane plus Φ_plane.
 9. **UTS twin labels.** All exported cards include **Name Cards** with twin labels; Bridges carry loss notes.
 10. **GateCrossing checks.** Exported TaskSignature and referenced crossings satisfy: (i) stance tagging when used, as informative only; (ii) **CrossingBundle** presence and consistency under **E.18**, **F.9**, **F.17**, **E.17**, and **A.21** when gate checks are live; (iii) **LanePurity**, with CL affecting R only, F and G invariants preserved, and Φ tables present; and (iv) **Lexical SD** under **E.10**. Failures return a blocking gate result under the active GateProfile and GateChecks governed by A.21.
 11. **QD fields (when QD is in scope).** A `TaskSignature` with `PortfolioMode=Archive` or QD heads is complete only when it carries CHR-typed **CharacteristicSpaceRef** (d>=2), **ArchiveConfig** (topology, resolution, K, `InsertionPolicyRef`, `DistanceDefRef.edition`), and **EmitterPolicyRef** fields; every characteristic declares its **ReferencePlane**.
@@ -50979,21 +50954,21 @@ When **open-ended generation** of tasks or environments is current, S2 is comple
 | A live unknown is encoded as `false`, `0`, or an empty value. | Restore `unknown`, name the direct basis relation and receiving-use policy, and let the downstream pattern produce the result governed by that policy. |
 | Ordinal values or values with unlike units are averaged into one score. | Recover scale, unit, polarity, reference plane, and admitted order for every head; use only a directly governed admissible comparison or leave the candidate set partially ordered. |
 | One TaskSignature mixes design-time traits, later run observations, and incompatible DesignRunTag positions. | Split the claims by their actual work and relation positions; retain only the traits current in this signature edition and use E.18 crossing relations when the receiving use relies on the crossing. |
-| A new file, card, or database row is treated as a new TaskSignature. | Resolve SignatureId and edition and compare the four-row semantic content. Reuse the same identity when only the publication or serialization changed; issue a new edition only for a semantic row change. |
-| A broad domain label is used as if it supplied scope, measurement, evidence, or selection rules. | Recover the exact bounded context, A.2.6 scope relation, `U.Discipline`, characteristic rules, and direct selector or policy relations that the use actually needs. |
+| A new file, card, or database row is treated as a new TaskSignature. | Compare the declaration content, exact task or work target, and effective reference scheme. Reuse the same identity when only publication, carrier, serialization, or designator changed; issue a new edition when an identity component changed. |
+| A broad domain, organization, or location label is used as if it supplied scope, measurement, evidence, or selection rules. | Recover the exact EntityOfConcern, effective ReferenceScheme, A.2.6 ClaimScope relation, `U.Discipline` when current, characteristic rules, and direct selector or policy relations that the use actually needs. |
 | Data shift is assumed away because the old profile used `iid`. | State the current `ShiftClass` or `unknown`, cite its evidence and currentness relation, and let the acceptance or selector pattern decide the changed use. |
 | A vendor, tool, or fashionable method label is treated as a normative selector input. | Keep it only as a Plain example or recover the exact method-description, capability, evidence, and selector relations on which comparison relies. |
 
 ### C.22:10 - Selector Fields And Evidence Relations
 
 *Inputs.* `ProblemProfile` (...Description), CG-Spec ids, Evidence Graph Ref (A.10), D.CTX; CharacteristicSpaceRef, ArchiveConfig, and EmitterPolicyRef configs when QD is live; GeneratorIntent when OEE is live.
-*Produces.* One `TaskSignature@Context` value, declared as the Context-local `U.Signature` species specified in C.22:5.2. When a receiving use is current, C.22 also produces one separate `TaskSignatureAssignmentRelation@Context` relating that signature edition to the exact problem-side episteme and receiving-use description. `TaskSignature@Context` is neither a new root U-kind nor a record kind: SubjectBlock, Vocabulary, Laws, and Applicability determine its semantic edition, while carrier and serialization remain outside its identity. Optional QD, archive, generator, `PortfolioMode`, and telemetry vocabulary appears only when current.
+*Produces.* One `TaskSignature` episteme, declared as the `U.Signature` species specified in C.22:5.2. When a receiving use is current, C.22 also produces one separate `TaskSignatureAssignmentRelation` among that signature, the exact problem-side episteme, and exact receiving-use episteme. TaskSignature is neither a new root U-kind nor a record kind: its A.6.0/C.2.1 identity tuple and declaration content determine its semantic edition, while publication, carrier, and serialization remain outside identity. Optional QD, archive, generator, `PortfolioMode`, and telemetry vocabulary appears only when current.
 *Used by.* **G.5** (Eligibility and Selection kernel), **G.4** (Acceptance and Evidence), **C.23** (admit, degrade, and abstain rules and method-family maturity checks).
 
 ### C.22:11 - Consequences (informative)
 
 * **Admissible selection.** Selection is **explainable** and **inspectable**; every admission or rejection reason cites TaskSignature fields, CG-Spec rows, and Gamma-fold contributors.
-* **Local first, Bridge-portable.** Context-local semantics are primary; Bridges make portability **deliberate and costed** (penalties to **R** only).
+* **Use-bounded first, Bridge-portable.** The exact EntityOfConcern, effective ReferenceScheme, ClaimScope, and receiving use are primary; Bridges make cross-scheme or cross-plane portability **deliberate and costed** (penalties to **R** only).
 * **Frictionless downstream.** G.1-G.5 use one **single, typed** TaskSignature; thresholds are cleanly separated into **Acceptance**; unknowns are not guessed.
 * **QD and OEE-ready.** Typed QD and GeneratorIntent fields make **declared returned-set structure** and **open-ended** generation contexts **explicit**, with admissible dominance, editioned distances, and policy-aware illumination.
 
@@ -51007,7 +50982,7 @@ Wolpert and Macready's ["No Free Lunch Theorems for Optimization"](https://doi.o
 
 | Current source and status | Adopted or adapted move | Effect in C.22 | Limitation and review condition |
 | --- | --- | --- | --- |
-| Roger Jiao, ["Towards rigorous problem formulation for engineering design research: from motivations to measurable claims via metric-measure-method"](https://doi.org/10.1080/09544828.2026.2633289), *Journal of Engineering Design* 37, 2026; Szajnfarber, Lifshitz, and Tushman, ["Beyond translation: how context work during problem formulation enables effective solving by outsiders"](https://doi.org/10.1080/09544828.2026.2633491), 2026 research article. | Adopt problem-before-method formulation, explicit context, operational characteristics and measures, and a named decision or action that will use the result. Adapt context work into the signature's SubjectBlock, Vocabulary, and Applicability plus the problem-side and receiving-use slots of `TaskSignatureAssignmentRelation@Context`. | Changes the working question, local mantra, signature content, assignment relation, reliance replay, and the manufacturing and clinical transfer cases. A fashionable method or available dataset cannot define the TaskSignature or its assignment. | These sources study engineering research formulation and outsider problem solving; they do not establish FPF kinds or one universal signature schema. Review the adaptation if later cross-domain evidence overturns the role of context or measurable problem characteristics. |
+| Roger Jiao, ["Towards rigorous problem formulation for engineering design research: from motivations to measurable claims via metric-measure-method"](https://doi.org/10.1080/09544828.2026.2633289), *Journal of Engineering Design* 37, 2026; Szajnfarber, Lifshitz, and Tushman, ["Beyond translation: how context work during problem formulation enables effective solving by outsiders"](https://doi.org/10.1080/09544828.2026.2633491), 2026 research article. | Adopt problem-before-method formulation, operational characteristics and measures, and a named decision or action that will use the result. Adapt context work into the signature's exact task or work target, direct declaration fields, Vocabulary, and Applicability plus the problem-side and receiving-use slots of `TaskSignatureAssignmentRelation`. | Changes the working question, local mantra, signature content, assignment relation, reliance replay, and the manufacturing and clinical transfer cases. A fashionable method or available dataset cannot define the TaskSignature or its assignment. | These sources study engineering research formulation and outsider problem solving; they do not establish FPF kinds or one universal signature schema. Review the adaptation if later cross-domain evidence overturns the role of measurable problem characteristics or receiving-use locality. |
 | Cenikj, Kudela, Tuba, and Eftimov, ["Evaluating Real-World Generalizability of Algorithm Selection Models"](https://arxiv.org/abs/2606.02016), current June 2026 conference-linked paper and arXiv version. | Adopt measurable problem characteristics as selector inputs and the empirical warning that transfer between benchmark and real-world landscapes can fail. | Changes `ScopeSlice(G)`, evidence and currentness relations, crossing discipline, unknown handling, and the rule that an old selector result reopens only when it depended on a changed field. | The study concerns optimization landscapes and algorithm-selection models, not all methods or sectors. Do not infer universal transfer failure or a complete TaskSignature field list from its benchmark set. |
 | Qin et al., ["A survey on Quality-Diversity optimization: Approaches, applications, and challenges"](https://doi.org/10.1016/j.swevo.2025.102240), *Swarm and Evolutionary Computation* 100, 2026; Lin et al., ["Quality-Diversity Optimization as Multi-Objective Optimization"](https://arxiv.org/abs/2602.00478), current 2026 preprint. | Adopt collection-valued QD results, user-declared behavior or characteristic space, explicit containers and policies, and set-aware comparison. Adapt the MOO reformulation as one current option rather than the definition of QD. | Changes the optional QD positions, `DominanceRegime`, report-only illumination boundary, archive case, and refusal of one default scalar score. | The survey is broad but QD-specific; the MOO reformulation is a current preprint and one competing approach. Neither authorizes every diversity measure to enter dominance. Review when stronger comparative evidence changes container, metric, or scalarization treatment. |
 | SciML, ["Problem Interface"](https://docs.sciml.ai/DiffEqDocs/stable/basics/problem/) and ["Common Solver Options"](https://docs.sciml.ai/DiffEqDocs/stable/basics/common_solver_opts/), living documentation generated in June 2026. | Adapt the practical separation between a constructed problem value and later solver dispatch, plus explicit problem remake when fields change. | Changes the ODE case and the smallest-repair rule: a semantic field change revises the TaskSignature edition, and a changed problem-side or receiving-use position revises the assignment relation before selector replay; solver implementation does not become the problem or TaskSignature. | This is current software practice, not a transdomain ontology and not evidence that every project needs an immutable software record. Review on material interface or dispatch changes; preserve the general separation only while it continues to improve the declared use. |
@@ -51018,7 +50993,7 @@ Wolpert and Macready's ["No Free Lunch Theorems for Optimization"](https://doi.o
 ### C.22:14 - Practical Use Checks
 
 - If two candidate approaches are answering different `TaskKind`s or different `ScopeSlice(G)` cuts, a direct comparison is not admissible yet.
-- If specialization is the live specialization question, the task-family reference, threshold target, adaptation budget, and provenance basis should already be recoverable from the assigned `TaskSignature@Context` edition.
+- If specialization is the live specialization question, the task-family reference, threshold target, adaptation budget, and provenance basis should already be recoverable from the assigned `TaskSignature` edition.
 - If crossing, normalization, or missingness changes what comparison means, state that in the signature and its cited refs rather than hiding it in code, local memory, or explanatory prose.
 - If `QD` or `OEE` heads are in scope, archive and generator fields belong in the same typed signature rather than in a detached explanatory appendix.
 
@@ -51195,7 +51170,7 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 **What this buys.** Actual Problems can exist before discovery, can be referenced while still ongoing, and can be distinguished across repeated adverse episodes. One exact applicability relation supplies the predicate, problem-for entity, claim scope, and declared criterion-applicability window used by PFR; its actual occurrence extent is separately derived from uninterrupted obtaining. Measurements, evaluations, evidence, claims, cards, and method search remain available without becoming Problem identity.
 
-**Early battery contrast.** A battery-voltage condition below the applicable vehicle-start bound can already participate in an actual PFR before anyone notices it. A later maintenance card is an episteme describing that condition and Problem; writing or accepting the card creates neither. Discovering a supported charging or replacement method changes present solvability, not the still-adverse condition. Only actual change of the condition, loss of criterion applicability, or cessation of adverse predicate truth ends that PFR.
+**Early battery stop.** A low terminal-voltage reading can be a useful signal and can justify a `ProblemCard`, but it is not itself the actual-condition participant. Until a direct voltage-state pattern supplies the exact relation kind, participant meanings, obtaining rule, temporal extent, recurrence, and occurrence identity, the battery case remains explicitly non-conforming: the reading, alarm, report, assertion, and card establish none of that world-side relation. Once such a governor exists, the applicability relation can connect its selected voltage predicate to the exact vehicle, intended-start `U.ClaimScope`, and declared criterion-applicability window; discovering a method still changes solvability rather than PFR actuality.
 
 **Not this pattern when.** Use `C.22.2` when the current object is a problem-side card, signal, hypothesis, forecast, scenario, anticipated-condition claim, or reviewable formulation rather than an actual PFR. Use `C.27`, `C.28`, or the exact direct forecast, scenario, counterfactual, or anticipated-condition governor when that claim is current. Use the selected A.19 comparison, `G.4` acceptance, state, gate, or measurement pattern when the current question is how to evaluate or support the adverse predicate. Use `E.18.1`, `E.23`, and the direct NQD or OEE patterns for repeated problematization, search, work, evaluation, and continuation.
 
@@ -51328,6 +51303,9 @@ The selected direct consumer supplies the governed input projection or consumes 
 
 A Problem can therefore obtain unnoticed. Later detection produces work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
+When evaluation is actually performed, name the exact `U.System`, its current `U.RoleAssignment`, the dated evaluation `U.Work`, and the selected `U.Method` or declared A.6.1 operation application. That work may return the separately governed evaluation result `true`, `false`, or `unknown`; a C.2.1 assertion may state the result, A.10/B.3 may warrant reliance on that assertion, G.11 may qualify its current edition, and the receiving work may rely, decline, defer, or reopen. These are distinct objects and relations. `unknown` is an evaluation result, never a world-side PFR value; no evaluation work, result, assertion, warrant, currentness judgment, or reliance disposition constitutes a PFR participant or makes the relation obtain.
+
+
 #### C.22.PFR:4.4 - Identify repeated adverse episodes from world-side continuity
 
 The direct occurrence rule is ontic. With the two participant occurrences fixed, one PFR occurrence is the maximal continuous episode during which both participants obtain and the selected condition point is actually on the adverse side. Actual cessation of either participant or actual movement to the non-adverse side ends that occurrence. Later renewed adverse truth starts a later PFR occurrence. Measurement, evaluation, demonstration, assessment, and evidence availability neither start nor end either occurrence.
@@ -51364,13 +51342,17 @@ Use the A-B-C regression while holding one continuously obtaining applicability 
 
 Evidence that supports A, B, and C warrants the corresponding two-occurrence assertion. A missing assessment, unavailable measurement, stale evidence item, or support gap warrants `continuity unresolved`; it neither proves recovery nor licenses continuity. Adjacent or overlapping assessment windows likewise do not split or join world-side episodes by themselves.
 
-#### C.22.PFR:4.6 - Keep anticipated-condition claims, solvability, and cards separate
+#### C.22.PFR:4.6 - Keep assertions, reliance, anticipated conditions, solvability, and cards separate
 
-A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard@Context` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity; `C.27`, `C.28`, or the exact direct claim pattern governs assumptions, horizon, and non-actual semantics; `A.10` or the receiving evaluation separately governs supported, refuted, or unresolved reliance. None of those claim-side facts establishes a current PFR. A card may describe zero, one, or several independently obtaining PFR occurrences; several cards may describe one PFR under different viewpoints.
+An assertion about the exact PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. A.10/B.3 separately governs whether one receiving use treats that assertion as supported, refuted, or unresolved. Assertion polarity, support, and reliance therefore answer different questions.
 
-A claim that no supported method is currently available concerns the admitted method set, evidence, constraints, and acceptance use. Selecting or discovering a method changes current solvability. It does not end PFR while the actual condition remains adverse. Performed repair work can end or change the actual-condition occurrence and thereby end PFR.
+A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity; `C.27`, `C.28`, or the exact direct claim pattern governs assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
 
-Repeated problematization, method search, work, evaluation, and continuation occur in work and transformation flows governed by `E.18.1` and `E.23`. A claim or plan may carry a reference to the same PFR while work and transformation occurrences participate in a selected transformation-flow structure. Neither that PFR reference use nor any flow-structure relation enters PFR identity. A later PFR is a later occurrence because a participant changes or because actual adverse truth begins again after an actual cessation; the stable reference therefore carries a different participant reference or actual adverse inception, not a different assessment or flow visit.
+A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective `U.ReferenceScheme`. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card. Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity. C.22.2:20.1b replays all three branches with exact objects: two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card; Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards; and two differently qualified cards retain the unchanged `PFR-RoleAssignment-17` reference.
+
+A claim that no supported method is currently available concerns the admitted method set, evidence, constraints, and intended use. Selecting or discovering a method changes current solvability; it does not end PFR while the actual condition remains adverse. Performed repair work can end PFR only when an independently recovered actual change makes a participant cease or moves the selected condition point to the non-adverse side.
+
+Repeated problematization, method search, work, evaluation, and continuation occur in work and transformation flows governed by `E.18.1` and `E.23`. A claim or plan may carry a reference to the same PFR while work and transformation occurrences participate in a selected transformation-flow structure. Neither that reference use nor any flow-structure relation enters PFR identity. A later PFR is a later occurrence because a participant changes or because actual adverse truth begins again after actual cessation, not because another card, assessment, or flow visit exists.
 
 #### C.22.PFR:4.7 - Preserve the lightweight path
 
@@ -51390,31 +51372,33 @@ Add explicit identity only when another claim must compare, qualify, change, nes
 
 ### C.22.PFR:5 - Archetypal Grounding
 
-**Executable first use — `Battery-12` cannot support `Van-7`'s intended start.** At 10:02 the starter of `Van-7` is engaged. The project electrical owner identifies one obtaining `TerminalVoltageState-12` relation with bearer `Battery-12`, load condition `Van7StarterLoad-1`, and characteristic assignment `terminalVoltageUnderStarterLoad = 10.8 V` on the volt scale. That state relation actually obtains from 10:02 until `Battery-12` is removed from `Van-7` at 10:06.
+**Executable first use — a prohibited role assignment.** `RoleAssignment-17 : U.RoleAssignment` is governed by A.2.1. Its four actual participants are `Robot-7 : U.System` as holder, `InspectorRole : U.Role` as role value, `MaintenanceRoles-2026 : U.Episteme` as role-taxonomy episteme, and `Maintenance-Scheme-A : U.ReferenceScheme` as effective scheme. During `[2026-07-13T09:00, 2026-07-13T17:00]` the admitted system actually holds that role value as interpreted by that taxonomy and scheme, so the A.2.1 assignment predicate obtains without interruption. A roster row and `RoleAssignmentAssertion-17` may describe those participants and the interval; neither makes the world-side relation obtain.
 
-The same case has one `Van7StartCriterionApplicability-12` occurrence. Its by-value predicate `Van7StartVoltageAtLeast11_8` selects the direct `terminalVoltageUnderStarterLoad` input, cut `11.8 V`, and lower-is-adverse polarity. It governs problem-for entity `Van-7`, claim scope `intended engine start at Depot-A`, and declared applicability window `[09:55, 10:15]`. The exact C.13 Working-Model occurrence `ut:ComponentOf(Battery-12, Van-7)` connects the condition bearer to that vehicle. Because the selected point is `10.8 V`, the PFR actually obtains on `[10:02, 10:06]`.
+A.2.1 identifies `RoleAssignment-17` by those four participants and that uninterrupted assignment episode. Demonstrated non-assignment after the stated 17:00 boundary ends it. If the same four participants return on the next day after that actual gap, `RoleAssignment-18` is a later occurrence; an evidence gap by itself neither ends nor splits the first occurrence. The direct owner therefore supplies the participant meanings, obtaining rule, temporal extent, recurrence, and same-versus-new-occurrence rule required of `ActualConditionRelationSlot`.
 
-`MeterReport-88` is a separate assessment claim: it says that the terminal voltage under starter load was `10.8 V` at 10:03 and supports the claim that the PFR obtained then. The report did not make the voltage state, applicability, or PFR obtain.
+The by-value predicate `NoInspectorRoleBeforeValidation-v2` uses one direct `ConditionToPredicateInputRule`: from `RoleAssignment-17` it reads the role participant as coordinate `assignedRoleIdentity = InspectorRole` on a nominal role scale and the holder participant as the direct link to problem-for entity `Robot-7`. Its adverse region is the declared set of roles prohibited for that robot's autonomous-inspection release before validation, which contains `InspectorRole`. The same role assigned to another robot is the nearest inadmissible input because its holder participant does not link the condition to `Robot-7`; a roster row is inadmissible because it is not the obtaining assignment occurrence.
 
-The resulting ordinary sentence is:
+`Robot7ReleaseCriterionApplicability-4` is the separate applicability occurrence. Its four participants are that predicate, `Robot-7`, `autonomous inspection release before validation` as the exact `U.ClaimScope`, and declared window `[2026-07-13T08:30, 2026-07-15T18:00]`. Because both participant relations obtain and the selected point is adverse, `PFR-RoleAssignment-17` obtains on `[2026-07-13T09:00, 2026-07-13T17:00]`. The ordinary first-use sentence is:
 
-> Battery-12 supplies 10.8 V under Van-7's starter load, below the 11.8 V start cut during the 09:55–10:15 intended-start window; this low loaded voltage is an actual Problem for Van-7's intended start from 10:02 until Battery-12 is removed at 10:06.
+> Robot-7 actually holds InspectorRole although that role is prohibited for this robot's autonomous-inspection release before validation during the declared 13–15 July window; this assignment is an actual Problem for Robot-7's release during its 13 July 09:00–17:00 assignment episode.
 
-**Cheapest valid stop.** A mechanic who only needs to recognize this Problem records that sentence, cites the two world-side relation-occurrence references `TerminalVoltageState-12` and `Van7StartCriterionApplicability-12`, and keeps `MeterReport-88` as the separate supporting claim; no explicit PFR record or identifier is required.
+**Evaluation and reliance remain separate.** `SafetyService-2`, under `SafetyReviewAssignment-9`, performs dated `RoleReleaseCheckWork-21` and enacts `RobotRoleReleaseCheckMethod-3`. The operation application returns `true` for the adverse predicate. `RoleReleaseCheckAssertion-21` states that result; its evidence path and assurance tuple can warrant one release decision, G.11 can qualify the assertion edition, and the release work can rely or decline. None is a third PFR participant. A `ProblemCard` may later designate `PFR-RoleAssignment-17`; creating, revising, splitting, or publishing that card changes neither PFR participant nor actuality. If evaluation never occurs, the PFR still obtains. If the assertion is stale, the decision's reliance may become `unknown`, but the world-side relation is not thereby created, ended, or split.
 
-**One receiving-use expansion.** A recurrence comparison that must distinguish this episode from a later low-voltage episode additionally records the two participant-occurrence references, actual inception `10:02`, stable `pfrOccurrenceId=PFR-VAN7-START-20260723-1002`, the claimed closed extent `[10:02, 10:06]`, and the separate supporting claim `MeterReport-88`. Those references let the comparison point back to this occurrence; none is an extra PFR participant.
+**Actuality and recurrence.** Selecting another staffing method and writing a work order do not end the PFR. Only actual cessation of the A.2.1 assignment predicate at the stated 17:00 boundary ends it. When the same assignment resumes on the next day as `RoleAssignment-18` while the applicability occurrence still obtains, A.2.1 identifies that later role-assignment occurrence and its later adverse inception grounds `PFR-RoleAssignment-18`. An evidence gap alone establishes neither continuous assignment nor withdrawal and reassignment.
 
-**Near miss — same number, wrong input.** `OpenCircuitVoltageMeasurement-89` also reports `10.8 V`, but it was taken after `Battery-12` was removed from `Van-7` and supplies the coordinate `openCircuitTerminalVoltage`, not `terminalVoltageUnderStarterLoad`. The start predicate's input rule rejects that measurement, and the condition-to-vehicle/use link is absent. The same numeric value may matter under another criterion, but it does not establish a Problem for `Van-7`'s intended start.
+**Blocked stress fixture — installed component.** `Fuse-R17 : U.System` and `Panel-7 : U.System` may be named in a parts claim, but current A.14 supplies no installed-part relation kind, installed-part participant meanings, obtaining predicate, temporal extent, recurrence, or same-versus-new-occurrence rule. Under A.6.REL:5.2, `ComponentOf-FuseR17-Panel7` is therefore not minted as an individuated installed-part occurrence here. A parts list, inspection note, removal report, or reinstallation wording cannot fill `ActualConditionRelationSlot`; the fuse case remains non-conforming until an accepted direct installed-part pattern supplies the complete settlement.
 
-**Distinct projected-input branch — proof gap.** `UnresolvedConsequence-17` is the exact obtaining relation inside `SafetyProof-v5`; the proof-acceptance consumer's named `RequiredObligationGapCountProjection-v1` maps only unresolved required obligations of that proof to coordinate `unresolvedRequiredObligationCount = 1` in `ProofAcceptanceSpace`, on the natural-count scale with cut `0` and greater-than-zero-is-adverse polarity. `ReleaseAssuranceClaim-3` is the problem-for entity. The exact A.10 evidence-provenance graph occurrence `SafetyProofEvidencePath-3` names `SafetyProof-v5` as its evidence episteme, `ReleaseAssuranceClaim-3` as its target claim, and the release-assurance use stated by that claim's B.3 tuple as its bounded relying use. Counting every TODO in the repository is inadmissible because those items are neither required proof obligations nor evidence for that release-assurance claim.
+**Blocked stress fixture — battery voltage.** Current A.18 and C.16 can govern the voltage characteristic, scale, measurement work, result, uncertainty, and assertion. They do not supply a direct voltage-state relation with participant meanings, obtaining, temporal extent, recurrence, and occurrence identity. Therefore `TerminalVoltageState-12` is not minted here, and the low-voltage case remains non-conforming until an A.6.RCD decision selects or assigns that direct governor. `MeterReport-88`, an alarm, or a maintenance card may support a claim but cannot fill `ActualConditionRelationSlot` or backdate PFR.
 
-**Distinct claim/actuality branch — clinical diagnosis.** A patient-specific clinical-condition relation, an obtaining applicability relation, and actual adverse predicate truth can make PFR obtain before any diagnosis is authored. A later diagnosis episteme may support a claim about that PFR but does not become its condition participant, problem-for entity, or inception boundary.
+**Blocked stress fixture — proof gap.** Current proof and assurance patterns govern proof epistemes, obligations, evidence, and relying decisions, but no inspected direct pattern supplies both (a) an individuable unresolved-consequence relation with its obtaining and episode law and (b) the exact proof-use or acceptance object and applicability relation needed by the case. Keep the condition gate and problem-for/applicability gate separate. `UnresolvedConsequence-17`, `ProofUseEntity`, and an omnibus proof-gap object are not admitted by this wording; the case remains non-conforming until both direct governors close.
 
-**Distinct problem-for branch — missed transfer.** A missed-transfer relation can be the condition while one exact receiving Work occurrence is the problem-for entity. The coordination participants stay in the missed-transfer relation; the applicability relation names the affected Work as its problem-for entity rather than copying it into PFR.
+**Blocked stress fixture — clinical condition.** A diagnosis, assessment, measurement report, and patient label are epistemes or role-relative cues, not the actual clinical-condition occurrence or patient identity. No direct clinical-condition pattern selected in the current package supplies the needed participants, obtaining, recurrence, identity, and temporal extent. Until one does, keep the case non-conforming; if `patient` is current, recover the exact holder system and current A.2/A.2.1 role assignment separately.
 
-**Distinct multiplicity branch — one condition, two uses.** One hot-surface condition paired with two applicability occurrences for different exact receiving work or systems yields two PFR occurrences when the condition satisfies both adverse predicates. The applicability references distinguish them; PFR copies neither receiving participant nor scope.
+**Blocked stress fixture — missed transfer.** First distinguish transfer Work, a world-side transfer or delivery relation, a commitment or acceptance relation, and a package or record episteme. E.18's structural `U.Transfer` cannot be reused merely by the phrase *hand-off failure*. No inspected direct pattern supplies the exact missed-transfer condition relation, and the phrase *receiving work* does not decide whether the problem-for entity is intended `U.WorkPlan`, dated `U.Work`, or another governed entity. The case therefore remains non-conforming until separate direct governors settle both questions.
 
-**Distinct actuality/repair branch — unnoticed and repaired.** A condition and applicability can make PFR obtain before monitoring exists. Selecting a repair method changes only the solvability claim. Performed repair work ends PFR only when its world-side result actually ends or changes an obtaining condition; work records and result claims remain separately governed.
+**Blocked stress fixture — one hot surface, two uses.** No inspected direct pattern supplies an individuated hot-surface condition relation; a temperature reading cannot substitute for it. If such a governor later exists, hold its one occurrence fixed and use two distinct applicability occurrences when an exact receiving `U.Work` and an exact `U.System` have different problem-for fillers, scopes, declared windows, or applicability continuity. Adverse truth would then yield two PFR occurrences sharing only the condition reference. Until the condition gate closes, this remains a multiplicity test, not an asserted example.
+
+**Repair branch replay.** Keep four outcomes distinct: a repair method is selected; repair work is planned; dated repair work occurs without a demonstrated condition change; or dated repair work is connected through its direct change/result governors to actual cessation or non-adversity of the condition. Only the fourth outcome can end PFR while applicability continues. A work record, result claim, acceptance verdict, or method label is insufficient.
 
 ### C.22.PFR:6 - Bias-Annotation
 
@@ -51439,6 +51423,7 @@ It also has a continuous-time bias for occurrence identity. Discrete-state and e
 11. Method availability and solvability claims remain separate from PFR actuality and identity.
 12. Possible conditions remain exact forecast, scenario, counterfactual, or anticipated-condition claims under their direct governors until both participant relations and adverse predicate truth obtain; assertion polarity and reliance posture do not substitute for those obtaining conditions.
 13. Ordinary readable use can stop before explicit PFR materialization when no receiving claim needs Problem identity.
+14. Battery-voltage, proof-gap, clinical-condition, missed-transfer, and hot-surface cases remain explicitly non-conforming until their named direct condition and, where applicable, problem-for/applicability governors exist; a phrase, measurement, diagnosis, record, card, or structural transfer does not mint them.
 
 ### C.22.PFR:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -51480,11 +51465,14 @@ The maximal continuous adverse episode resolves a genuine identity collision, bu
 | Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint | Current relation and situation comparisons provide stress pressure for dependent relations, reification, and occurrence identity. | **Use as a comparator.** Retain a dependent relation with explicit participants and identity while avoiding a universal situation object or imported category hierarchy. |
 | [TypeDB relation instances](https://typedb.com/docs/core-concepts/typeql/entities-relations-attributes/) | Relation instances can participate in other relation instances in an implementable model. | **Adapt as implementation evidence.** Permit actual-condition and applicability occurrences as PFR participants without treating the database model as the source of PFR truth. |
 
+**External-source qualification and reopen.** The three non-FPF rows are qualified to the cited 2026 material and the current FPF direct relation and temporal interfaces used here. The selected seminar material is only a practice-pressure comparator for separating problematization, criteria, method search, performed work, and results; it supplies no ontology or occurrence law. The cited 2026 gUFO preprint is only a current research comparator for dependent relations, reification, and occurrence identity; its category hierarchy is not imported. The TypeDB Core Concepts documentation is only implementation evidence that relation instances can participate in relations; database semantics do not establish FPF truth or identity. Reopen only the affected row if later seminar material changes the separation being tested, a later gUFO edition changes the relevant relation or occurrence treatment, TypeDB changes the cited relation-participation semantics, or a current FPF direct owner changes so that the comparison no longer tests this Solution. A carrier, hyperlink, or layout change with unchanged source content does not reopen the decision.
+
 These lines change the Solution by keeping evaluation outside PFR, admitting relation occurrences as participants, identifying repeated episodes from actual adverse inception and cessation, and separating a stable world-side occurrence reference from revisable boundary claims.
 
 ### C.22.PFR:12 - Relations
 
 - `A.6.REL` governs explicit individuation of both PFR participants and PFR itself when a receiving use needs identity.
+- `A.6.RCD` governs each missing direct-condition or applicability relation decision; C.22.PFR keeps the affected case non-conforming until an existing direct predicate closes it or a separately admitted direct subject pattern supplies obtaining, recurrence, and occurrence identity.
 - `A.6.5` governs the two PFR participant SlotSpecs and the four applicability SlotSpecs.
 - `A.19` governs the characteristic space used by `CharacteristicSpacePredicate`; the selected direct consumer governs its condition-to-input rule and comparator semantics, `A.19.CPM` governs comparison when that is the consumer, and `G.4` governs typed acceptance clauses when acceptance is the consumer.
 - `C.16`, `A.18`, and direct condition or measurement patterns govern characteristics, scales, actual characteristic assignments or state relations, and measurements. F.9 governs any cross-reference-scheme bridge named by the input rule; none of these adds a PFR participant.
@@ -51497,125 +51485,109 @@ These lines change the Solution by keeping evaluation outside PFR, admitting rel
 
 ### C.22.PFR:End
 
-## C.22.2 - ProblemCard@Context
+## C.22.2 - ProblemCard
 
 > **Type:** Calculus (C)
 > **Status:** Stable
 > **Normativity:** Normative
 
-**Plain-name.** Context-bound problem card.
+**Plain name.** Problem-side card.
 
-**Intent.** Give a practitioner one compact problem-side record that turns a messy problem signal into a reviewable problem-side record before downstream Principles-to-Work (P2W) or selector use, while leaving claims outside the card to the governing FPF patterns that govern those claims.
+**Intent.** Give a practitioner one compact C.2.1 episteme that turns a messy signal into reviewable problem-side claim content before Principles-to-Work or selector use. The card preserves practical formulation functions while every world-side relation, evidence use, decision, method, plan, and Work occurrence remains with its direct governor.
 
-**Use this when.** Use this pattern when work starts from a signal, anomaly, drift, risk, hypothesis, stakeholder demand or concern, set-derived candidate, underused capability, new constraint, new environment, opportunity-like cue, or solution-shaped request, and downstream task typing, method-family selection, work planning, evidence use, gate passage, autonomy control, or P2W requires a reviewable problem-side record. Also use it when P2W would otherwise use a slogan, wish, ticket-shaped task, preselected work request, or solution-shaped task as if it were reviewable problem-side output.
+**Use this when.** Use this pattern when work starts from a signal, anomaly, drift, risk, hypothesis, stakeholder demand or concern, set-derived candidate, underused capability, new constraint, new environment, opportunity-like cue, or solution-shaped request, and a downstream task-typing, method-family, planning, evidence, gate, autonomy, or P2W use needs one reviewable problem-side episteme.
 
-**Do not use this when.** Use another pattern directly when the question under repair is already work planning, method selection, evidence, provenance, assurance, gate decision, autonomy, archive, selected-set governance, mathematical-lens use, or ordinary discussion with no project-side move.
+**Do not use this when.** Use another pattern directly when the current question is already actual PFR obtaining, task typing, method selection, Work planning, evidence, provenance, assurance, gate decision, autonomy, archive or selected-set governance, mathematical-lens use, or ordinary discussion with no receiving use. `C.22.PFR` governs the actual Problem; C.22 governs TaskSignature constitution and assignment.
 
-**Builds on.** `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
+**Builds on.** `C.2.1`, `E.2`, `E.9`, `E.10`, `C.2.P`, `A.6.P`, `C.16.Q`, `C.16`, `A.19`, `C.22`, `C.25`, `C.29`, `G.5`, `G.9`, `A.6.3.RT`, and `A.6.4`.
 
-**Coordinates with.** `C.11`, `C.18`, `C.19`, `C.22.1`, `C.22.PFR`, `C.24`, `C.27`, `C.28`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `C.32.P2S`, and `E.10.MOVE`.
+**Coordinates with.** `C.11`, `C.18`, `C.19`, `C.22.1`, `C.22.PFR`, `C.24`, `C.27`, `C.28`, `A.15`, `A.15.5`, `A.21`, `E.16`, `G.6`, `G.11`, `A.10`, `B.3`, `E.17`, `E.17.ID.CR`, `A.6.3`, `F.9`, `E.18`, `E.18.1`, `C.32.P2S`, and `E.10.MOVE`.
 
-**Boundary summary.** `C.22.2` use starts from messy problem-side signals and yields one reviewable `ProblemCard@Context`, a `P2W-ready` problem-side input for downstream `C.22`, or a stop with a governing-pattern cue for the claim being made, relation, or boundary outside the card.
+**Boundary summary.** C.22.2 yields one reviewable `ProblemCard`, a `P2W-ready` problem-side input for downstream C.22, or an honest stop naming the direct pattern for the claim, relation, or boundary now current. It yields no world-side Problem, task assignment, selected method, WorkPlan, Work occurrence, gate result, or evidence verdict.
 
-**Claim-family, actuality, and solvability boundary.** A `ProblemCard@Context` is an episteme and may carry several distinct claims without creating or ending an actual Problem. An actual-problem assertion states affirmative or negative polarity for the exact `ProblematicForRelation` obtaining predicate. An affirmative assertion may designate an already individuated current occurrence only when `C.22.PFR` independently establishes it. Negative polarity neither creates, erases, nor reidentifies an occurrence; any reference to an independently established occurrence retains its exact temporal and contextual qualification under its direct governor. The card, its acceptance, and its publication do not make the relation obtain. Only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately state supported, refuted, or unresolved reliance; that result does not make the relation obtain. A forecast, scenario, counterfactual, or anticipated-condition claim keeps its exact assumptions, horizon, evidence, and direct governor under `C.2.1`, `C.27`, `C.28`, or the more specific claim pattern and does not assert a current PFR merely by affirmative polarity. A claim that no supported method is currently known concerns method availability, evidence, constraints, and the intended use; selecting a method changes that solvability claim but does not end an obtaining `ProblematicForRelation`. The actual Problem ceases only when its actual-condition relation, criterion-applicability relation, or adverse predicate truth ceases under `C.22.PFR`.
+**C.2.1 constitution.** One ProblemCard is one `U.Episteme` constituted by one exact ClaimGraph, one independently identified joint `EntityOfConcern`, and one effective `U.ReferenceScheme`. `U.ClaimScope`, assumptions, horizons, qualification windows, viewpoints, and receiving uses qualify only the exact claims and direct relations that need them. No setting, carrier, organization, card id, or publication is a fourth constitution component or identifies an actual Problem. An exact composite or component `U.Work` under A.15.6 may be referenced by a claim or receiving use; it neither constitutes the card nor identifies the Problem.
+
+**Claim-family, actuality, and solvability boundary.** A card may carry several claims only while their ClaimGraph has that one joint EntityOfConcern. An actual-problem assertion states affirmative or negative polarity for the exact `ProblematicForRelation` obtaining predicate. An affirmative assertion may designate an independently established occurrence only when C.22.PFR supplies both participants and its adverse episode; negative polarity creates, ends, erases, or reidentifies no occurrence. A.10/B.3 separately states supported, refuted, or unresolved reliance for one receiving use; G.11 separately governs assertion-edition currentness. Forecast, scenario, counterfactual, and anticipated-condition claims retain their exact assumptions, horizon, and direct governor and do not assert a current PFR. A method-availability or solvability claim concerns the admitted method set, evidence, constraints, and intended use; selecting a method changes that claim, not an independently obtaining PFR. Card creation, acceptance, publication, merge, split, label, Work reference, viewpoint, or setting word makes or ends no PFR. Only non-adversity or cessation of the actual-condition or criterion-applicability participant can end its maximal continuous adverse episode; missing, stale, refuted, or absent evidence cannot.
 
 ### C.22.2:1 - Problem Frame
 
-A working team can reach the beginning of development with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, and opportunity-like cues. Opportunity-like signals still need context, scope cut, not-wish reason, improvement or acceptance probe, and honest next use; they do not turn this pattern into an ideation pattern. If FPF only says "type the task" or "choose a method", P2W can start from a slogan, a ticket-shaped wish, or a solution-shaped task before the problem itself is reviewable.
+A working team can begin with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, opportunity-like cues, or members of a retained set. Opportunity-like signals still need an exact EntityOfConcern, effective ReferenceScheme, ClaimScope, not-wish reason, improvement or acceptance probe, and honest next use; they do not turn this pattern into an ideation pattern.
 
-Problematization becomes useful for FPF use when it makes the problem side explicit. A reviewable problem-side record includes symptom detection, improvement check, acceptance probe or candidate acceptance criterion, mandatory constraints, risk condition, problem-formulation follow-up reason, validation boundary, freshness or expiry, and a relation to candidate solution search. Many problems also arrive from a retained set: candidates, anomalies, hypotheses, non-dominated fronts, shortlists, selected sets, `LivePool` records, and retained stepping stones.
+Problematization becomes useful here when it produces claim content a practitioner can inspect. The card distinguishes the observed signal from the claim family being considered; the one joint EntityOfConcern from nearby affected entities; the effective scheme and scope from generic setting words; actual-PFR assertions from forecasts and solvability claims; and problem-side readiness from method, Work, gate, or evidence conclusions.
 
-Current FPF already has patterns for archive, pool, front, selected set, parity, refresh, method selection, evidence, autonomy, gate, representation transition, bridge, and mathematical-lens use. The missing piece is a compact problem-side output that lets a practitioner see what is present before P2W use starts from the problem-side output and which current FPF pattern carries each heavier question.
+Current FPF already governs archive, pool, front, selected set, parity, refresh, method selection, evidence, autonomy, gate, representation transition, Bridge, mathematical-lens use, TaskSignature, and actual PFR obtaining. ProblemCard carries only the signal, problem-side claims, exact references, and next-use cues needed to reach those patterns without duplicating their objects.
 
-The first-minute working question is:
+The first-minute question is:
 
-> Can I write or review a problem-side record that is specific enough to guide P2W, selection, acceptance, evidence, and first-principles or mathematical-lens use, while keeping archives, fronts, pools, selected sets, parity, evidence, autonomy, and work planning in their existing FPF patterns?
+> Can I state one exact concern, claim family, scheme, scope, improvement or acceptance probe, and honest next use without turning a signal, card field, setting label, evidence result, or proposed method into the actual Problem?
 
 ### C.22.2:2 - Thin First Use and Output Kind
 
 #### C.22.2:2.1 - Thin First-Use Form
 
-The first substantive use of this pattern is the Thin form. It is a practitioner-facing prompt for writing the smallest reviewable problem card, not a demand to complete a field list.
+The first substantive use is the Thin form. It is a practitioner-facing prompt for the smallest reviewable card, not a demand to complete a schema.
 
-A `ProblemCard@Context` is complete for its current use when it states:
+A `ProblemCard` is complete for its current use when it states:
 
-1. why this signal matters now;
-2. what problem representation is being carried under which context and scope;
-3. why this is not merely a wish, ticket, slogan, or preselected work request;
-4. what would count as improvement or an acceptance probe;
-5. what the honest next use is.
+1. what signal or cue made the practitioner stop;
+2. the one exact joint `EntityOfConcern`, effective `U.ReferenceScheme`, and `U.ClaimScope` for the claims being carried;
+3. which claim family is current: actual-PFR assertion, anticipated-condition claim, method-availability or solvability claim, or another directly governed problem-side claim;
+4. why this is not merely a wish, ticket, slogan, label, or preselected Work request;
+5. what would count as improvement or as an acceptance probe; and
+6. one honest next use.
 
-The Thin form asks for:
+The next use may be `P2W-ready`, characterize, compare, search, refresh, retire, archive, `abstainOrNoChange`, or apply the direct pattern governing the named claim, relation, or boundary. If an improvement check or acceptance probe is absent, the card may preserve the signal and choose one of the other uses but cannot claim `P2W-ready`.
 
-- the problem signal or selected-problem cue: what made the practitioner stop before downstream task typing or work selection;
-- context grounding and scope cut, including what is outside the current problem;
-- the reason this is not merely a wish, slogan, ticket, or preselected work request;
-- a provisional improvement check or acceptance probe;
-- one honest next use: `P2W-ready`, characterize, compare, search, refresh, retire, archive, `abstainOrNoChange`, or apply the FPF pattern governing the named claim kind, relation kind, or boundary that changes the problem-card use.
+`C.22.2 - ProblemCard` is the pattern heading. A `ProblemCard` instance is the C.2.1 episteme described above. `ProblemCardRef` is only a reference value designating one such episteme; it is not another durable kind. Plain-register glosses and local labels do not replace the Tech name.
 
-If the Thin form lacks an improvement check or acceptance probe, it may preserve the signal and choose characterization, comparison, search, refresh, retirement, archive, `abstainOrNoChange`, or governing-pattern application for the claim being made; the Thin form does not declare `P2W-ready`.
+Local labels include `problem-formulation follow-up reason`, `validation boundary`, `risk condition`, `solvability band`, `P2W-ready`, `reviewable`, `stale`, `refreshed`, `retired`, `archived`, `abstainOrNoChange`, and `firstPrinciplesCue`. They describe claim content or a local disposition; they create no FPF kind, state-machine kind, gate result, relation occurrence, or mathematical-lens object.
 
-Only after the Thin form is legible, recover the output-kind boundary:
+Use `E.10.MOVE` only when move-like wording no longer denotes one of these local dispositions and instead hides a pattern-use recommendation, Work-entry readiness, performed Work, gate, transformation, source relation, architecture move, call-planning move, or another directly governed value.
 
-`C.22.2 - ProblemCard@Context` is the compact problem-side output under current `C.22`.
 
-`C.22.2 - ProblemCard@Context` is the pattern heading. `ProblemCard@Context` is the `C.22.2` problem-side record shape; an instance is a reviewable problem-side record before P2W. `ProblemCard@ContextRef` may be used as a reference form when downstream text cites such an instance, but it is not a separate durable kind unless a separate naming or kind decision approves one under `F.18` and `A.6.P`. The Tech heading remains `C.22.2 - ProblemCard@Context`. Plain-register glosses or section-local practitioner labels may appear in this pattern, but those labels do not replace the Tech heading.
+Reference labels ending in `Ref` are reference roles, not kind names. This includes `ProblemCardRef`, `sourceSetRef`, `rivalProblemFormulationRef`, and `representationOrWordingUseRelationRef`.
 
-Local labels in this pattern are local to the `C.22.2` record shape unless a separate accepted FPF naming or kind decision assigns them a broader FPF kind. This includes `problem-formulation follow-up reason`, `validation boundary`, `risk condition`, `solvability band`, `P2W-ready`, `reviewable`, `stale`, `refreshed`, `retired`, `archived`, `abstainOrNoChange`, and `firstPrinciplesCue`; they do not create FPF kinds, gate statuses, state-machine kinds, or local mathematical-lens kinds or relations. When a claim outside `C.22.2` is current, do not mint a local reference field for it; name the governing FPF pattern, claim kind named by value, project-side reference when known, and stop condition in the next use or local cue. When a mathematical or first-principles cue is current, cite `C.29`; local `problem-formulation follow-up reason` names only why the problem formulation or structure cue is worth reviewing or moving onward from `C.22.2`; `C.29` carries mathematical-lens use and the problem-formulation follow-up reason for that lens.
+Semantic locality comes from the exact EntityOfConcern, effective ReferenceScheme, ClaimScope, declared assumptions or window, and receiving use carried by the relevant claims. A broad domain, organization, practice, or location label is only recognition material until those exact values are recoverable. None becomes a container participant or establishes global Problem identity.
 
-Use `E.10.MOVE` only when move-like wording is no longer recoverable as this local problem-card disposition and begins to hide pattern-use recommendation, work-entry readiness, performed work, gate, transformation, source relation, architecture, call-planning, or another directly governed value.
+Plain gloss for `P2W-ready`: *problem-side input ready*. It means ready as input to downstream P2W or selector reasoning, not ready for Work execution, gate passage, method selection, evidence reliance, or autonomy.
 
-Reference labels ending in `Ref` are reference roles, not kind names. This includes `ProblemCard@ContextRef`, `setContextRef`, `rivalProblemFormulationRef`, and `representationOrWordingUseRelationRef`; do not shorten or promote them into local kind names such as `ProblemCardRef`, `SetContext`, `RivalFrame`, or `RepresentationRelation`.
-
-`@Context` means that the card is bound to declared context grounding: a named `U.BoundedContext`, a project-side context reference, or an explicitly bounded practice situation with recoverable local meaning. Domain or practice wording may identify the informative locus of the problem, but it does not replace context grounding. A broad label such as healthcare, education, engineering, research, or operations is not context grounding by itself. When domain or practice wording is used for context grounding, recover the named bounded context, project-side context reference, or explicit bounded practice situation and state what local meaning or rule is being used. The card does not assert global problem identity outside that declared context grounding.
-
-Plain gloss for `P2W-ready`: problem-side input ready. It means ready as input to downstream P2W or selector reasoning, not ready for work execution, gate passage, or method selection.
-
-When a downstream reader asks whether intended work can enter a work boundary, the problem card may supply problem-side cues, acceptance probes, constraints, and freshness conditions, but the readiness relation itself is `WorkEntryReadiness@Context` under `A.15.5`. `C.22.2` does not decide full-kit preparation, commitment disposition, launch gate, or performed work.
+When a downstream reader asks whether intended Work can enter a work boundary, the card may supply problem-side cues, acceptance probes, constraints, and freshness conditions, but A.15.5 governs the readiness relation. C.22.2 decides no full-kit preparation, commitment, launch gate, or performed Work.
 
 #### C.22.2:2.2 - Required Solution Use
 
-The `C.22.2` Solution is organized around turning observed problem-side signal material into a reviewable problem-side record and one governed next use, not around schema completion.
+The Solution turns observed signal material into one C.2.1 episteme and one governed next use, not a completed form.
 
-1. Capture the symptom, anomaly, risk, stakeholder cue, drift, hypothesis, or other observed signal before naming the problem.
-2. Stabilize the cheap problem-side record: context grounding, scope cut, EntityOfConcern when it changes the problem-side use, primary viewpoint or role concern, and provisional problem framing.
-3. Make action possible by separating the symptom detector, improvement check, candidate acceptance criterion, optimization objective when current, monitored risk signal when current, and proxy-distortion risk when an indicator can be gamed or substitute for value; then state mandatory constraints, risk condition when current, and intended downstream use before downstream selection.
-4. Pay only for current complexity: add conditional fields only when their kind is current for the problem-card use; otherwise stop at the lighter card or name the governing FPF pattern to use next and the claim kind named by value.
-5. Run the representation-continuity check: if the problem formulation changes the EntityOfConcern, representation scheme, diagram, functional description, or transformation-flow path interpretation, name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reusing an inherited local cue or readiness disposition.
-6. Close by the honest next use rather than by a completed form. A filled card without a truthful next use is not a successful `C.22.2` result.
+1. Capture the symptom, anomaly, risk, stakeholder cue, drift, hypothesis, or other observed signal before naming an actual Problem.
+2. Recover the one joint EntityOfConcern, effective ReferenceScheme, ClaimScope, and claim family. If the claims concern unrelated entities, split the ClaimGraph and card.
+3. Separate the signal detector, actual-PFR assertion if independently grounded, anticipated-condition claim, improvement check, candidate acceptance criterion, method-availability claim, monitored risk signal, and proxy-distortion risk. These are not one card status or one PFR participant set.
+4. Pay only for current complexity. Add conditional content only when it changes the current next use; otherwise stop at the lighter card or name the direct pattern for the claim now current.
+5. If the formulation changes EntityOfConcern, effective scheme, ClaimScope, diagram, functional description, or transformation-flow interpretation, name the representation-transition, retargeting, Bridge, structural-reinterpretation, or wording-use relation before inheriting an earlier card disposition.
+6. Close by the honest next use. A filled card without a truthful next use is not a successful result.
 
-Cheap-stop rule: the smallest card that gives a truthful next use is sufficient. A conforming `C.22.2` use does not require heavier fields merely because the full field list exists.
+**Cheap stop.** The smallest card that gives a truthful next use is sufficient. A conforming use does not require heavier fields merely because the full inventory exists.
 
-First practitioner use before governing-pattern cues:
-
-1. Capture the problem signal or selected-problem cue, context grounding, and scope cut.
-2. State why it is not merely a wish, slogan, ticket, or preselected work request.
-3. State the provisional improvement check or acceptance probe.
-4. Choose the honest next use.
-Use the relation boundary aid only when a conditional relation is current.
-
-This is the Thin-form writing order, not a completion sequence for the whole pattern. It adds no fields; it keeps the practitioner on the smallest truthful card before Standard or High-relation material is paid for.
+**First practitioner use.** State the signal, joint EntityOfConcern, scheme, scope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. Open the relation-boundary aid only when another claim or relation changes that move.
 
 #### C.22.2:2.3 - Relation Boundary Aid
 
-Use this aid only after the Thin `ProblemCard@Context` is legible: signal, context grounding, scope cut, not-wish reason, improvement check or acceptance probe, and honest next use. It is not a second writing order and not a catalogue of other patterns. It answers one question:
+Use this aid only after the Thin `ProblemCard` is legible: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, not-wish reason, improvement check or acceptance probe, and honest next use. It is not a second writing order and not a catalogue of other patterns. It answers one question:
 
 > Which claim being made, relation, or boundary changes the problem-card use, and which FPF pattern governs that claim, relation, or boundary?
 
 If the claim, relation, or boundary does not change the current problem-card use, leave it out of the card. If it does change the move, keep only the local cue or reference that makes the card reviewable, then apply the governing pattern for that claim, relation, or boundary.
 
-| Current claim, relation, or boundary that changes the card use | Local `ProblemCard@Context` content | Governing pattern |
+| Current claim, relation, or boundary that changes the card use | Local `ProblemCard` content | Governing pattern |
 |---|---|---|
 | Characterization, measurement, indicator, Q-bundle, comparison, acceptance, or parity | Characterization cue, acceptance probe, candidate criterion, comparator cue or window cue, and the current reason the relation changes the problem formulation. | `C.16`, `A.19`, `C.25`, `G.0`, `G.4`, or `G.9` according to the relation named by value. |
-| Archive, pool, front, shortlist, selected set, retained candidate, or set-return source | `setContextRef`, source-set kind, selection or retention criterion, budget or window when current, and non-scalar next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `C.16.Q` according to the relation named by value. |
+| Archive, pool, front, shortlist, selected set, retained candidate, or set-return source | `sourceSetRef`, source-set kind, selection or retention criterion, budget or window when current, and non-scalar next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `C.16.Q` according to the relation named by value. |
 | Method family, work planning, work-entry readiness, performed work, result record, evidence, provenance, assurance, gate, or autonomy | Problem-side cue, source reference when it changes formulation, and stop condition before that outside use. | `G.5`, `A.15`, `A.15.5`, `A.10`, `G.6`, `B.3`, `A.21`, or `E.16` according to the claim named by value. |
 | Temporal, causal-use, representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation | Relation reference plus the inheritance boundary: what can be reused from the old card and what relation is reopened. | `C.27`, `C.28`, `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, or `E.10` according to the relation named by value. |
 | First-principles or mathematical structure cue | Candidate structure, preserved and lost structure when current, practical payoff for problem formulation, problem-formulation follow-up reason, and stop condition. | `C.29` for mathematical-lens use; `A.6.0` for a `FormalSubstrate` `U.Signature` declaration when that signature declaration is current. |
 | Agentic safe probe or world-affecting next action | Probe need, risk condition, bounded next action, and the safety named by value, autonomy, gate, work, evidence, or assurance claim kind that blocks local action. | `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` according to the relation named by value. |
 
-Over-capture symptom: the practitioner spends the pattern use classifying FPF patterns while the problem signal, context, scope, improvement check, acceptance probe, and next use remain unstable.
+Over-capture symptom: the practitioner spends the pattern use classifying FPF patterns while the signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check, acceptance probe, and next use remain unstable.
 
-Repair: return to the Thin problem-side action. State the signal, context, scope, why this is not merely a wish, ticket, slogan, or preselected work request, the improvement check or acceptance probe, and the honest next use. Reopen this aid only for the claim, relation, or boundary that changes that move.
+Repair: return to the Thin problem-side action. State the signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, why this is not merely a wish, ticket, slogan, or preselected work request, the improvement check or acceptance probe, and the honest next use. Reopen this aid only for the claim, relation, or boundary that changes that move.
 
 #### C.22.2:2.4 - Use Boundaries and Record Budgets
 
@@ -51625,60 +51597,49 @@ Use another pattern directly when the question under repair is already that patt
 
 Use record budgets:
 
-- Thin record budget: signal, context grounding, scope cut, not-wish, not-slogan, not-ticket, or not-preselected-work reason, provisional improvement check or acceptance probe, and one honest next use.
+- Thin record budget: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, not-wish, not-slogan, not-ticket, or not-preselected-work reason, provisional improvement check or acceptance probe, and one honest next use.
 - Standard record budget: Thin fields plus the current comparison, acceptance, risk, validation, freshness, unknown-handling, or P2W-readiness fields needed for downstream use.
-- High-relation record budget: Standard fields plus only the relation references needed when public, disputed, high-risk, set-derived, cross-context, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, temporal, causal, representation, or Part-G relations are current.
+- High-relation record budget: Standard fields plus only the relation references needed when public, disputed, high-risk, set-derived, cross-scheme, cross-use-boundary, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, temporal, causal, representation, or Part-G relations are current.
 
 Stop at Thin when it gives a truthful next use. Stop at Standard when it is enough to emit or bind a minimal `TaskSignature`, `TaskKind`, or `ProblemProfile`. Apply the governing FPF pattern for the claim being made, relation, or boundary instead of enlarging the card when the issue under repair is no longer the problem-side record itself.
 
 #### C.22.2:2.5 - Field Labels and Current-Use Conditions
 
-The first problem-side use is to make one problem usable before P2W by stating these field labels when they are current for the case:
+Use these readable labels only when current for the case:
 
-- problem signal;
-- problem signal reference: prior solution-use evidence, environmental drift observation, new constraint, new environment, underused capability, opportunity-like cue, risk signal, anomaly, hypothesis, stakeholder signal, accepted local theory, or safe-probe or environment cue;
-- domain or practice locus when helpful, plus the context grounding that carries local meaning;
-- EntityOfConcern or project-side FPF kind or reference named by value when it changes the problem-side use;
-- context grounding;
-- primary viewpoint or role concern;
-- scope cut;
-- symptom detection;
-- problem hypothesis or cause-theory cue;
-- rival-frame reference when multiple plausible problem frames remain current;
-- improvement check;
-- comparison-and-acceptance cue or acceptance-criterion reference;
-- characterization relation;
-- characteristic or Q-bundle relation;
-- indicator selection;
-- comparability or parity relation, or explicit current reason it is not needed;
-- mandatory constraints;
-- risk condition;
-- problem-formulation follow-up reason;
-- validation boundary;
-- freshness or expiry condition;
-- unknown handling;
-- `setContextRef` when a set, pool, front, archive, shortlist, selected set, or portfolio context is current;
-- `firstPrinciplesCue` for a first-principles or mathematical structure cue that changes problem formulation;
-- governing-pattern cue when a claim outside `C.22.2` changes the problem-card use: governing pattern for that claim, relation, or boundary; claim kind named by value; project-side reference when known; and stop condition;
+- problem signal and exact signal reference;
+- one exact ClaimGraph, joint EntityOfConcern, effective ReferenceScheme, and ClaimScope;
+- actual-PFR assertion with exact polarity and PFR reference only when C.22.PFR independently establishes the occurrence;
+- anticipated-condition, forecast, scenario, or counterfactual claim with assumptions and horizon;
+- method-availability or solvability claim with admitted method set, evidence qualification, constraints, and intended use;
+- primary viewpoint or role concern as claim qualification, never as card or PFR identity;
+- symptom detector, problem hypothesis or cause-theory cue, and rival formulation when current;
+- improvement check, acceptance probe, characterization relation, characteristic or Q-bundle relation, indicator selection, and parity or comparison relation when current;
+- mandatory constraints, risk condition, validation boundary, freshness or expiry condition, and unknown handling;
+- problem-formulation follow-up reason when it changes review, discrimination, or receiving use;
+- representation-transition, retargeting, Bridge, structural-reinterpretation, or wording-use reference when an earlier disposition may no longer transfer;
 
-Field current-use conditions for `C.22.2` are determined as follows:
+- `sourceSetRef`, source-set kind, selection or retention criterion, budget or window, and non-scalar next use when the signal comes from a set, pool, front, archive, shortlist, or selected set;
+- `firstPrinciplesCue` when a mathematical structure changes the formulation; and
+- governing-pattern cue naming the direct pattern, claim kind, exact receiving-use reference, and stop condition when an outside claim changes the card use.
 
 | Field current-use class | Required treatment |
 |---|---|
-| Always-core problem-card identity fields | State the problem signal or selected problem cue, context grounding, EntityOfConcern when it changes the problem-side use, scope cut, and the current reason this is not just a wish, slogan, ticket, or preselected task. |
-| Conditional fields | State problem signal reference, domain or practice locus when helpful plus the context grounding that carries local meaning, viewpoint or role concern, symptom detection, problem hypothesis or cause cue, rival-frame reference when multiple plausible frames remain current, improvement check, comparison-and-acceptance cue or acceptance-criterion reference, characterization or comparability relation, characteristic or Q-bundle relation, indicator selection and indicator role, mandatory constraints, risk condition, problem-formulation follow-up reason, validation boundary, freshness or expiry, unknown handling, `setContextRef` or set-finding cue, first-principles cue, and representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation reference when that relation affects reviewability. |
-| Governing-pattern cue | When a claim, relation, or boundary outside `C.22.2` changes the card's next use, state only the local cue or reference needed by the problem card, plus the governing pattern and claim kind named by value to use next. The named pattern carries the outside use. |
+| C.2.1 constitution | State the exact ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme. These constitute the card episteme; ClaimScope, viewpoint, assumptions, windows, and receiving use qualify the relevant claims and relations, while id, carrier, and publication remain outside constitution. |
+| Core problem-side claims | State the signal, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. |
+| Conditional claims and references | Add only the exact characterization, comparison, risk, validation, freshness, set-source, representation, forecast, solvability, PFR, or other direct relation content that changes the move. |
+| Governing-pattern cue | Keep only the local cue or reference needed by the card, then name the direct pattern and claim kind that govern the outside use. |
 
-Field absence rule: if a conditional field kind is not current, the field is absent, not `unknown`. Use `unknown` only for a current field whose value is currently unknown. If a current value is unavailable, state whether the next use is blocked, degraded, sandboxed, or requires the FPF pattern governing the named claim kind before that use. If a value is stale, use the freshness or expiry disposition in `C.22.2:12` and `G.11`. If a field is intentionally omitted, state the record-budget reason and do not imply that the omitted kind has been checked. A minimal `ProblemCard@Context` contains the always-core fields; conditional fields are added only when current for the problem-card use.
+If a conditional value is not current, omit it rather than writing `unknown`. Use `unknown` only where a current direct pattern admits that result or value. If a required current value is unavailable, state whether the next use is blocked, degraded, sandboxed, or must return to its governor. A stale value receives the G.11/currentness disposition; an intentionally omitted value states the record-budget reason without implying it was checked.
 
-When the card compares options, selected-set members, retained candidates, or rival problem formulations, it states the current comparison or parity relation, or state why comparison is not current for the current move. Absence of a parity relation is not automatically a defect; it is a disposition. The governed result is either parity not current for the current card, or a `G.9`-governed parity relation before `P2W-ready` is claimed. A local fair-comparison result or selected-set result stays outside `C.22.2`.
+When the card compares options, retained candidates, or rival formulations, it states the exact comparison or parity relation or why comparison is not current. Absence is a disposition, not an automatic defect; any positive parity or selected-set result remains outside C.22.2.
 
-A conforming `C.22.2` use includes minimal witness material and context witness material when source material, source relation, set, selection, characterization, parity, freshness, representation relation, or wording-use relation is current. Otherwise a Thin card may cite the observed signal in plain form. The field-group label `problemCardWitnessRefs` may be used inside the pattern, but it is not a new FPF kind and not an evidence graph. It is a recoverability field group for problem signal references and project-side references that make the problem-side record reviewable:
+`problemCardWitnessRefs` may be used as a local recoverability group, not as a new kind or evidence graph:
 
 ```text
 problemCardWitnessRefs:
   problemSignalRef?
-  setContextRef?
+  sourceSetRef?
   selectionOrRetentionCriterion?
   characterizationRelationRef?
   parityRelationRef?
@@ -51686,7 +51647,7 @@ problemCardWitnessRefs:
   representationOrWordingUseRelationRef?
 ```
 
-Generated problem variants, evaluator feedback, and open-ended problem mutation may be recorded only as `problemSignalRef`, `selectionOrRetentionCriterion`, or `setContextRef` when they make the problem-side record reviewable. They do not make the problem-side record usable, do not supply evidence sufficiency, and do not justify probe or action.
+Generated variants, evaluator feedback, and open-ended mutation remain signal or source-set cues. They do not constitute the card, supply evidence sufficiency, make PFR obtain, or authorize action.
 
 #### C.22.2:2.6 - Anti-Pattern Checks and Worked Slices
 
@@ -51695,82 +51656,85 @@ Anti-pattern checks start from the local card use:
 - card-as-executable-work request: the card is treated as executable work while method, plan, and work occurrence remain undecided;
 - form-completion: every field is filled because the template exists, even though the Thin next use would be truthful;
 - readiness shortcut: `P2W-ready` is declared from signal and scope alone, without improvement check or acceptance probe;
-- source-claim shortcut: a preselected solution, work request, proof-looking reference, gate-looking cue, or authority-looking cue replaces the problem-side signal, context, scope, acceptance probe, and next use;
+- source-claim shortcut: a preselected solution, work request, proof-looking reference, gate-looking cue, or authority-looking cue replaces the problem-side signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, acceptance probe, and next use;
 - scalar shortcut: archive, set-return, Goldilocks, NQD, OEE, partial-order, stepping-stone, or indicator material collapses into one readiness score;
 - prestige shortcut: first-principles or mathematical wording is kept without practical payoff, preserved and lost structure when current, problem-formulation follow-up reason, and stop condition.
 
 Local stop rule: if the encountered material tries to carry a claim outside `C.22.2`, the card keeps only the cue or reference that changes problem formulation or the next use, then names the governing FPF pattern and claim kind named by value to use before that claim is relied on.
 
-A conforming `C.22.2` use is testable against at least one Thin worked slice, such as repeated task rework or another compact problem signal, showing signal, context, not-preselected-work reason, improvement check, and next use. It is also testable against at least one High-relation worked slice from a set, archive, pool, front, shortlist, selected set, or portfolio context, showing `setContextRef`, candidate acceptance criterion, risk condition, and the claim being made, relation, or boundary without creating a local portfolio or archive kind.
+A conforming `C.22.2` use is testable against at least one Thin worked slice, such as repeated task rework or another compact problem signal, showing signal, EntityOfConcern, ReferenceScheme, ClaimScope, not-preselected-work reason, improvement check, and next use. It is also testable against at least one High-relation worked slice from a set, archive, pool, front, shortlist, selected set, or portfolio source, showing `sourceSetRef`, candidate acceptance criterion, risk condition, and the claim, relation, or boundary without creating a local portfolio or archive kind.
 
 #### C.22.2:2.7 - Conformance Checklist Requirements
 
-The checklist protects a completed or reviewed card from overread. It is not the writing order and not a gate. The writing order remains Thin form, honest next use, and relation references only when they change the move.
+The checklist protects a completed or reviewed card from overread; the writing order remains the Thin form and honest next use.
 
 | Check | Required test |
 |---|---|
-| Name and kind identity | The pattern output is `ProblemCard@Context`: a compact problem-side record shape under `C.22`; it is not a downstream selector record, work record, evidence record, gate record, or autonomy record. |
-| Core card identity | The card states signal, context grounding, scope cut, EntityOfConcern when it changes the action, and the reason the record is not merely a wish, slogan, ticket, or preselected work request. |
-| `P2W-ready` reason | `P2W-ready` appears only with an improvement check or acceptance probe and a downstream P2W or selector-facing use. It means problem-side input ready, not downstream readiness. |
-| Field-budget discipline | Conditional fields appear only when current. A missing relation is absent, not `unknown`; `unknown` is used only for a current value whose absence changes the next use. |
-| Governing-pattern cue | Claims outside `C.22.2` are recorded only as local cues or references when they change the card. The next use names the governing pattern and claim kind named by value for that use. |
-| External or local wording | External terms such as passport, rule-of-choice card, evidence pack, autonomy budget, logs, gates, portfolio, or factory wording are recovered by use. They become problem-card content only when they supply problem-side signal, set, characterization, comparison, or follow-up material. |
-| Scalarization and proxy guard | Goldilocks, NQD, OEE, set-return, partial-order, stepping-stone, priority, or visible indicator wording does not become one local readiness score or value proxy. |
-| Currentness and lowering | Freshness, expiry, changed representation, retargeting, evidence change, redress, or unknown-blocked use states refresh, retirement, bounded use, `abstainOrNoChange`, or the relation named by value that is reopened. |
-| First-principles and mathematical cue payoff | A first-principles or mathematical cue states practical payoff, preserved and lost structure when current, problem-formulation follow-up reason, and stop condition; `C.29` governs mathematical-lens use. |
-| Record-budget invariant | The card is as small as the next use permits. A compact card template, relation aid, or worked example is not a separate FPF kind. |
+| C.2.1 identity | The card has one exact ClaimGraph, one independently identified joint EntityOfConcern, and one effective ReferenceScheme. Unrelated PFRs or other concerns force ClaimGraph/card split. |
+| Claim-family separation | Actual-PFR assertion polarity, reliance result, anticipated-condition claim, and method-availability or solvability claim remain distinct. |
+| PFR boundary | Any affirmative actual-PFR assertion names an occurrence independently established by C.22.PFR. A card, signal, label, viewpoint, evidence item, method, or negative assertion creates or ends none. |
+| Core usability | The card states signal, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. |
+| `P2W-ready` reason | `P2W-ready` appears only with an improvement check or acceptance probe and one named downstream use; it is problem-side readiness only. |
+| Field budget | Conditional content appears only when current; absence and admitted `unknown` remain distinct. |
+| Exact source and set | A set-derived card preserves exact `sourceSetRef`, set kind, retention or selection criterion, and non-scalar next use without becoming an archive or portfolio object. |
+| Direct-governor cue | Claims outside C.22.2 remain local cues or references and name the exact pattern and claim kind used next. |
+| Constitution stays exact | Only ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme constitute the card. Scheme, ClaimScope, assumptions, windows, viewpoint, receiving use, and any exact A.15.6 Work reference stay in their claims and direct relations; no setting, carrier, or organization is added as a participant. |
+| Currentness and change | Freshness, changed representation, retargeting, or unknown-blocked use states refresh, retirement, bounded use, `abstainOrNoChange`, or the exact relation reopened. |
+| Scalar and proxy guard | Goldilocks, NQD, OEE, set-return, priority, indicator, or stepping-stone wording does not become one readiness score or substitute for value. |
+| First-principles payoff | A mathematical cue states practical payoff, preserved and lost structure when current, follow-up reason, and stop; C.29 governs the lens use. |
+| External wording recovery | Passport, rule-of-choice card, evidence pack, autonomy budget, logs, gates, portfolio, factory, and similar source terms enter only as exact signal, set, characterization, comparison, or follow-up material under their direct governors. |
+| Record-budget invariant | The card is as small as the current next use permits; a template, relation aid, or worked example is not another FPF kind. |
 
 ### C.22.2:3 - Problem-Kind Recovery
 
-For this decision, `problem` remains an ordinary word in non-FPF-governed prose. Recovery is required only when the wording changes a governed use, FPF kind, FPF relation kind, downstream selector reference, evidence claim, causal-use claim, bridge claim, assurance claim, decision claim, use-boundary claim, or another governed claim named by value. The preferred center is the framed problem representation: a problem-side representation of a selected EntityOfConcern under context, scope, viewpoint or role concern, constraints, and improvement or acceptance probe. When `problem` carries FPF work, selection, evidence, causal, bridge, assurance, decision, or use-boundary claim, the claim is recoverable through this table:
+`Problem` remains an ordinary word when no FPF-governed claim is being made. Recover it only when wording changes a governed kind, relation, selector use, evidence claim, causal-use claim, assurance claim, decision, or use boundary.
 
-| FPF-governed use | Current FPF recovery | `C.22.2` disposition |
+| FPF-governed use | Current recovery | C.22.2 disposition |
 |---|---|---|
-| Symptom, anomaly, deviation, risk signal, or stakeholder signal | Problem signal or problem signal reference | May trigger a `ProblemCard@Context`, but is not yet a problem-side representation by itself. |
-| Problematic situation | Plain cue for an exact condition, entity, work, transformation, relation, or combination already governed by their direct patterns | The card states claims about the exact recovered objects; the phrase does not introduce `U.Situation`. An actual Problem requires an obtaining `ProblematicForRelation` under `C.22.PFR`. |
-| Framed problem representation | Problem-side representation of a selected EntityOfConcern under context and acceptance constraints | Center of `ProblemCard@Context`; representation-change claims apply `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, or `E.18` when current. |
-| Candidate problem in archive or retained candidate pool | Member of a retained candidate set, pool, archive, or front | Must preserve source set or reference, declared set relation when that FPF relation is being made and named by value, retention criterion, budget or window, and review cadence when the retention rule requires it. |
-| Selected problem from a set-return treatment | Selected set member or emitted problem-side record under a selection criterion | `ProblemCard@Context` may carry the selected problem, but selected-set semantics remain with `G.5`, `C.18`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. |
-| Problem ready for selector-facing use | Problem-side record sufficient to emit or bind `TaskSignature` or `TaskKind` | `C.22` uses the typed selector reference; `C.22.2` does not expand `TaskSignature` into a problem-card dump. |
-| Downstream task or performed-work cue | Method known enough for task typing, method-family selection, planning, or performed work | Use the selector, work-family, transformation-flow, evidence, provenance, assurance, gate, or decision pattern named by value for that claim. |
-| E.8 pattern `Problem frame` | Practitioner-recognition section inside a pattern | Not the C.22 problem-side representation. |
-| E.9 DRR `Problem frame` | Decision-rationale section in a design-rationale record | Not the C.22 problem-side representation. |
+| Symptom, anomaly, deviation, risk signal, or stakeholder signal | Problem signal or exact signal reference | May trigger a card but is not an actual Problem or complete problem-side claim by itself. |
+| Problematic situation | Plain cue for an exact condition, entity, Work, transformation, or relation under its direct pattern | The phrase introduces no `U.Situation`; an actual Problem still requires one obtaining C.22.PFR relation. |
+| Actual Problem | One obtaining `ProblematicForRelation` with exact condition and applicability participants | C.22.PFR governs actuality and identity; the card can assert or designate it only after that settlement. |
+| Forecast, scenario, counterfactual, or anticipated condition | Exact non-actual claim with assumptions, horizon, and direct governor | Preserve the claim family; do not turn affirmative wording into current PFR obtaining. |
+| Method availability or solvability | Claim over admitted methods, evidence, constraints, and one intended use | Selecting a method revises this claim but does not end an actual PFR. |
+| Framed problem-side representation | ClaimGraph about one joint EntityOfConcern under one effective ReferenceScheme and ClaimScope | Center of ProblemCard; representation change uses its direct transition, retargeting, Bridge, or wording-use governor. |
+| Candidate from archive or retained pool | Member of an exact source set under a retention relation | Preserve `sourceSetRef`, set kind, criterion, budget/window, and non-scalar next use; set semantics remain outside the card. |
+| Selected problem from a set-return treatment | Exact selected member under a direct selection relation | The card may carry the member, but selection, parity, archive, and set-return claims remain with G.5, C.18, C.19, G.9, G.11, A.6.P:7a, or C.16.Q as applicable. |
+| Problem ready for selector-facing use | Card sufficient to prepare or assign TaskSignature | C.22 constitutes and assigns TaskSignature; C.22.2 does not dump card content into it. |
+| Downstream task, method, plan, or performed-Work cue | Exact value or relation under C.22, G.5, A.15, or another direct pattern | Keep only the problem-side cue and stop before claiming the downstream result. |
+| E.8 or E.9 `Problem frame` | Authoring or decision-rationale section | Not a ProblemCard and not an actual Problem by heading alone. |
 
-Local interpretation rule: `ProblemCard@Context` is the problem-side record shape before downstream typing or work. It may name candidate `ProblemProfile`, candidate `TaskSignature`, `setContextRef`, problem-side cue, governing-pattern cue, or first-principles cue material only when those references change the problem-card use. It does not promote those references into local kinds or claims outside `C.22.2`.
+The card may reference candidate `ProblemProfile`, TaskSignature, source set, PFR, forecast, solvability claim, or first-principles cue only when that reference changes its use. No reference is promoted into a local kind or card constitution component.
 
 ### C.22.2:4 - Problem, Task, Method, Work, and Result Split
 
-`ProblemCard@Context` remains usable while the method is unknown, contested, not yet selected, or not yet specific enough for downstream work. A known method does not by itself make the problem ready: if the proposed method is known but the problem signal, scope, acceptance probe, or EntityOfConcern remains unstable, `C.22.2` remains current. If both the problem representation and the method are already accepted and the remaining question is planned execution, apply `A.15`. The card may carry method-family cues and reasons for method search, but it does not present downstream work as already known task execution.
-
-Use this split:
+`ProblemCard` remains usable while a method is unknown, contested, or not yet selected. A known method does not make the card ready when signal, EntityOfConcern, ClaimScope, claim family, or acceptance probe remains unstable. If the problem-side episteme and method are accepted and only planned execution remains, apply A.15.
 
 | Term or local name | Current FPF recovery | Local disposition |
 |---|---|---|
-| `Problem` | Either Plain wording for the framed problem episteme or an actual `ProblematicForRelation`, according to the current claim | `C.22.2` governs the episteme; `C.22.PFR` governs the actual relation. Do not infer either from the label alone. |
-| ProblemCard@Context | Compact problem-side record before P2W | `C.22.2`-governed record shape under `C.22`; stabilizes a problem-side representation under declared context. |
-| ProblemProfile | C.22-facing `ProblemProfile` prepared or bound from a problem-side representation when sufficient | Downstream `ProblemProfile` reference; not the card itself and not a work request. |
-| `TaskKind` | Selector-facing task kind in `C.22` | Downstream typed selector reference; not a work-plan entry. |
-| `TaskFamilyRef` | Reference to a family of task kinds or method-consumption classes | Used only when current `C.22` selector logic requires it. |
-| `TaskSignature` | Minimal selector-facing signature for eligibility, acceptance, and selection | May be emitted or bound from `ProblemCard@Context`; stays minimal. |
-| Method-family selection claim | Comparison or selection among method families | Governing pattern `G.5`; not a problem-card field. |
-| `U.Method`, `U.MethodDescription` | Method and method description | Governing pattern family `A.15` and related method-description anchors. |
-| `U.WorkPlan`, `SlotFillingsPlanItem` | Planned work and work-plan entry | Governing pattern family `A.15`; not a C.22 task signature. |
-| `U.Work` | Performed work | Governing pattern family `A.15`; if the attempted claim is evidence, provenance, or assurance, use `A.10`, `G.6`, or `B.3` for that relation. |
-| Result record and result measurement | Evidence, provenance, measurement characterization, assurance, or refresh material according to the attempted claim | Use `A.10`, `G.6`, `B.3`, `C.16`, or `G.11` according to the claim kind being made. |
+| `Problem` | Ordinary wording, ProblemCard claim content, or actual PFR according to the sentence | C.22.2 governs the card; C.22.PFR governs the actual relation. Label alone decides neither. |
+| `ProblemCard` | C.2.1 episteme about one joint EntityOfConcern | Compact problem-side result before P2W; not a work request or world-side Problem. |
+| `ProblemProfile` | C.2.1 episteme used by a named receiving selection use | Not the card, TaskSignature, method, or Work request. |
+| `TaskKind`, `TaskFamilyRef`, `TaskSignature` | C.22 selector-facing declaration content and episteme | Downstream typing values; not WorkPlan entries. |
+| `TaskSignatureAssignmentRelation` | Obtaining relation among exact problem-side episteme, TaskSignature, and receiving-use episteme | Separate from all three participants and from card fields. |
+| Method-family selection claim | G.5 comparison or selection result | Not a card field and not PFR cessation. |
+| `U.Method`, `U.MethodDescription` | Method and method-description values | Governed by their direct method patterns. |
+| `U.WorkPlan`, `SlotFillingsPlanItem` | Intended Work and plan item | Governed by A.15; not TaskSignature or ProblemCard. |
+| `U.Work` | Performed dated Work | Governed by A.15.1; its record or evidence is separate. |
+| Result, measurement, assertion, evidence, or reliance | Exact output under C.16, C.2.1, A.10, G.6, B.3, G.11, or the direct result pattern | Can support a card claim but neither constitutes the card nor makes PFR obtain. |
 
-Transition condition: `ProblemCard@Context` may prepare a candidate `ProblemProfile`, bind an existing `ProblemProfile`, emit a candidate `TaskSignature`, or bind a `TaskSignature` only when P2W or selector readiness is declared. If several downstream signatures remain plausible, keep them as candidate signatures instead of binding one chosen `TaskSignature`. When the issue under repair becomes method-family selection, selected method, planned work, performed work, result record, or result measurement, apply the governing FPF pattern for that claim; do not expand the card.
+Transition to C.22 only when the card can prepare or designate the exact problem-side episteme or `ProblemProfile` needed by one receiving use and one TaskSignature is adequate for that use. If several profiles or signatures remain plausible, preserve candidates rather than asserting one assignment. When the question becomes selection, planning, performed Work, result, gate, evidence, or reliance, apply its governor instead of expanding the card.
 
 ### C.22.2:5 - Relation to C.22
 
-`C.22` remains the foundation for `ProblemProfile`, `TaskKind`, `TaskFamilyRef`, and `TaskSignature`. `ProblemCard@Context` is earlier and more explicit: it explains why this problem, under this context, is usable for P2W, search, comparison, characterization, refresh, retirement, or governing-pattern application.
+C.22 governs TaskSignature constitution and `TaskSignatureAssignmentRelation`. ProblemCard is earlier and explicit: it states which problem-side claims are ready for P2W, search, comparison, characterization, refresh, retirement, or another direct pattern.
 
-A `ProblemCard@Context` may prepare a candidate `ProblemProfile`, bind an existing `ProblemProfile`, emit a candidate `TaskSignature`, or bind a `TaskSignature` only when P2W or selector readiness is declared. If several downstream signatures remain plausible, keep them as candidate signatures instead of binding one chosen `TaskSignature`.
+A card may prepare TaskKind, characteristic bindings, scope, and candidate TaskSignatures. C.22 assigns one only when the exact problem-side episteme, TaskSignature, and receiving-use episteme satisfy its obtaining rule. Several plausible signatures remain candidates.
 
-This relation does not move problem-card field detail into `TaskSignature`. `TaskSignature` stays minimal for eligibility, acceptance, and selection. Downstream method, work, result, evidence, gate, autonomy, archive, portfolio, and selected-set claims remain with their governing patterns.
+No card detail is copied wholesale into TaskSignature. Downstream method, Work, result, evidence, gate, autonomy, archive, portfolio, and selected-set claims remain with their direct patterns.
 
 ### C.22.2:6 - Characterization, Indicators, and Comparability
 
-`ProblemCard@Context` states either a recoverable `characterization relation` and `comparability or parity relation`, or an explicit current reason why the problem can proceed without one.
+`ProblemCard` states either a recoverable `characterization relation` and `comparability or parity relation`, or an explicit current reason why the problem can proceed without one.
 
 The heavy content stays with existing FPF patterns:
 
@@ -51792,8 +51756,8 @@ Source record names are recovered by use, not by label shape. This section preve
 
 | Source form family | `C.22.2` preservation | Governing pattern named by value for outside use |
 |---|---|---|
-| Problem card, problematization passport, problem-side note, or ordinary problem signal | Carry the problem signal, context grounding, scope cut, improvement check or acceptance probe, and next use. | `C.22.2` governs only the problem-side record shape; downstream selector-facing use remains with `C.22`. |
-| Archive, portfolio, palette, front, shortlist, selected set, `LivePool`, set-return, or retained candidate | Preserve `setContextRef`, source-set kind, selection or retention criterion, budget or window when current, and non-scalar next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` according to the relation named by value. |
+| Problem card, problematization passport, problem-side note, or ordinary problem signal | Carry the signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check or acceptance probe, and next use. | `C.22.2` governs only the problem-side episteme; downstream selector-facing use remains with `C.22`. |
+| Archive, portfolio, palette, front, shortlist, selected set, `LivePool`, set-return, or retained candidate | Preserve `sourceSetRef`, source-set kind, selection or retention criterion, budget or window when current, and non-scalar next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` according to the relation named by value. |
 | Characterization passport, characteristic card, parity plan, comparison note, rule-of-choice card, or acceptance-looking row | Preserve the cue, candidate criterion, comparator cue or window cue, and current reason the relation changes formulation. | `C.16`, `A.19`, `C.25`, `G.0`, `G.4`, `G.9`, or `C.11` according to the relation named by value. |
 | Evidence pack, provenance note, assurance row, gate log, autonomy budget, runbook, rollback plan, method selection, work plan, performed-work note, result record, or result measurement | Preserve only the problem-side cue, risk or validation boundary, source reference, and stop condition before that use. | `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, `G.5`, `A.15`, `C.16`, or `G.11` according to the claim named by value. |
 | Candidate solution, described system, ordinary log, budget, ledger, protocol, plan, pack, or factory wording | Recover the use under repair: problem-side source material, problem-side source relation, selected-set material, work, evidence, gate, or autonomy material, or ordinary example. | Apply the governing pattern for the recovered relation; do not mint a local `C.22.2` kind from the label. |
@@ -51802,7 +51766,7 @@ The repair rule is short: if the source material supplies problem-side material,
 
 ### C.22.2:8 - Portfolio, Archive, and Set-Return Treatment
 
-Archive, portfolio, pool, front, shortlist, selected-set, and set-return material remain source and set cues for the current problem-side record. `ProblemCard@Context` preserves `setContextRef`, source-set kind, selection or retention criterion, and the non-scalar next use when current; portfolio and archive governance stays with the named governing patterns and does not become a local problem-card kind.
+Archive, portfolio, pool, front, shortlist, selected-set, and set-return material remain source and set cues for the current problem-side record. `ProblemCard` preserves `sourceSetRef`, source-set kind, selection or retention criterion, and the non-scalar next use when current; portfolio and archive governance stays with the named governing patterns and does not become a local problem-card kind.
 
 Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, `LivePool`, and set-return material remain current source distinctions, but their current FPF governing patterns are already available:
 
@@ -51818,20 +51782,20 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, `
 | `LivePool` | `C.19` | Preserve pool policy, current treatment, and change trigger. |
 | Set-return | `G.5`, `C.18`, `C.16.Q`, declared comparison records | Preserve set-valued result when no total order is declared. |
 
-A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `setContextRef`: the lightweight reference to the source set kind, source reference, selection or retention criterion, budget or window, review cadence, and pattern reference named by value when current. `setContextRef` is a reference field, not a new `SetContext` kind and not a downstream claim carrier.
+A singleton problem card is the degenerate case. If it came from a portfolio, front, archive, or pool, the selected problem remains traceable through `sourceSetRef`: the lightweight reference to the source-set kind, source reference, selection or retention criterion, budget or window, review cadence, and direct pattern when current. `sourceSetRef` is a reference field, not a new kind and not a downstream claim carrier.
 
-`setContextRef` preserves the recoverable set-source relation when current: `Palette`, `Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, `SelectedSet`, `LivePool`, or another accepted source-set form. If the set-source relation is not recoverable, the card may keep a set-finding cue, but it does not claim selected-set readiness or archive-derived readiness.
+`sourceSetRef` preserves the recoverable set-source relation when current: `Palette`, `Front`, `Archive`, `ExplorationArchive`, `Shortlist`, `RankedShortlist`, `SelectedSet`, `LivePool`, or another accepted source-set form. If the set-source relation is not recoverable, the card may keep a set-finding cue, but it does not claim selected-set readiness or archive-derived readiness.
 
-When multiple plausible problem formulations remain current, `C.22.2` does not bind one `TaskSignature` prematurely. Each optional `rivalProblemFormulationRef` states the rival formulation, EntityOfConcern, context, preserved concern, lost concern, reason not selected yet, and next discrimination action. It is not a `CG-Frame`, not the E.8 `Problem Frame`, and not a representation-frame kind.
-The next discrimination action may be to characterize, compare, retarget, reopen the source material or source relation, choose a local problem formulation, or apply the relation-bearing pattern. Reframing is triggered when context grounding, EntityOfConcern, viewpoint, scope cut, or cause-theory cue changes the problem representation enough that readiness or use-boundary cannot be inherited by wording continuity.
+When multiple plausible problem formulations remain current, `C.22.2` does not bind one `TaskSignature` prematurely. Each optional `rivalProblemFormulationRef` states the rival formulation, EntityOfConcern, effective ReferenceScheme, ClaimScope, preserved concern, lost concern, reason not selected yet, and next discrimination action. It is not a `CG-Frame`, not the E.8 `Problem Frame`, and not a representation-frame kind.
+The next discrimination action may be to characterize, compare, retarget, reopen the source material or source relation, choose a local problem formulation, or apply the relation-bearing pattern. Reframing is triggered when EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, or cause-theory cue changes the problem representation enough that readiness or use-boundary cannot be inherited by wording continuity.
 
 ### C.22.2:9 - Goldilocks and Set-Return Docking
 
 Goldilocks problem selection is the problem-side adaptation of the current NQD, OEE, and set-return family. It is not direct QD or OEE vocabulary import, not a new scalar readiness doctrine, not a local QD or OEE vocabulary, and not a single score. `C.22.2` does not mint `GoldilocksProblem`, `GoldilocksScore`, `GoldilocksReadiness`, or any equivalent local kind; Goldilocks remains a readiness and selection interpretation carried by current governing patterns.
 
-A Goldilocks, stepping-stone, or archive-derived problem is represented as source context or set context, selection or retention criterion, and current next use, not as problem difficulty, priority, or readiness score.
+A Goldilocks, stepping-stone, or archive-derived problem is represented by its source-set reference, selection or retention criterion, and current next use, not by one difficulty, priority, or readiness score.
 
-`ProblemCard@Context` carries only the problem-side readiness fields and relation references:
+`ProblemCard` carries only the problem-side readiness fields and relation references:
 
 - source set kind when archive, pool, front, shortlist, selected set, or portfolio language is current;
 - solvability band;
@@ -51844,15 +51808,15 @@ A Goldilocks, stepping-stone, or archive-derived problem is represented as sourc
 - expiry or refresh condition;
 - selected-set, archive, pool, front, or parity relation when that relation is being made.
 
-The local `solvability band` label means a context-bound, non-scalar interpretation of feasible-but-not-trivial fit under current capability, constraints, validation boundary, and optional set-return relation. It is not a universal difficulty claim, not a hidden readiness scale, and not a single-score ranking.
+The local `solvability band` label means a scheme-and-scope-qualified, non-scalar interpretation of feasible-but-not-trivial fit under current capability, constraints, validation boundary, and optional set-return relation. It is not a universal difficulty claim, hidden readiness scale, or single-score ranking.
 
-If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability-context cue, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to the governing FPF pattern for that claim.
+If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability relation and its qualification, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to its direct governor.
 
 The current governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. The relation to `C.22:14` is a role and timing relation inside the same family: `C.22.2` uses the family before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
 
 ### C.22.2:10 - Structure Cue That Improves Formulation
 
-`C.29` carries mathematical-lens use for first-principles or mathematical structure cues used by `ProblemCard@Context`.
+`C.29` carries mathematical-lens use for first-principles or mathematical structure cues used by `ProblemCard`.
 
 `firstPrinciplesCue` is a local cue label for a formulation-changing structure and a cue to apply `C.29`; it is not a local mathematical-lens kind or a substitute for a `C.29` lens-use result.
 
@@ -51874,7 +51838,7 @@ When no useful mathematical structure survives, record that absence and proceed 
 
 ### C.22.2:11 - Validation, Reliance, AI-Agent Cues, and Safe Probing
 
-`ProblemCard@Context` exposes three local fields for downstream use:
+`ProblemCard` exposes three local fields for downstream use:
 
 - problem-formulation follow-up reason: why this formulation is worth keeping, reviewing, discriminating, or moving onward now;
 - validation boundary: what has been checked for the current next use, what may be used now, and which use is governed by another pattern;
@@ -51884,18 +51848,18 @@ Use these fields to state a local reliance disposition, not to authorize downstr
 
 | Card-use condition | Local disposition | Next pattern application |
 |---|---|---|
-| The current reason is sufficient for the named reversible P2W use. | `P2W-ready` only for that named use, with validation boundary, context, window, and stop condition. | Apply measurement, evidence, temporal, refresh, representation, gate, autonomy, work, or assurance patterns only when those claims are part of the use. |
+| The current reason is sufficient for the named reversible P2W use. | `P2W-ready` only for that named use, with effective ReferenceScheme, ClaimScope, qualification window, validation boundary, and stop condition. | Apply measurement, evidence, temporal, refresh, representation, gate, autonomy, Work, or assurance patterns only when those claims are part of the use. |
 | The reason is useful but narrower than the attempted use. | Narrow the attempted use; name the narrowed use, blocked attempted use, and stop condition. | Apply the governing pattern for the missing claim, relation, or boundary. |
 | Source material, source relation, validation, or currentness is stale, conflicted, uncalibrated, or untied to the current relation. | Choose `abstainOrNoChange`, `refresh`, or `reopen`; name the missing relation, evidence-needed cue when current, and decision point. | Use `A.10`, `G.6`, `B.3`, `C.16`, `C.27`, `G.11`, `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, or `E.18` according to the reopened relation. |
 | The proposed next action can affect the world, spend resources, call tools, delegate to agents, change operational state, or make safety, release, gate, or work claims. | Block local use or name the governing relation; keep only the problem-side cue inside the card. | Apply `B.3`, `A.21`, `E.16`, `A.15`, `A.10`, `G.6`, or `B.2.5` when the corresponding controlled-EntityOfConcern relation is current. |
 
-Cause-theory cues may focus problem formulation inside `ProblemCard@Context`. Association, intervention, counterfactual, responsibility, expected-effect, or causal-evidence claims are governed by `C.28` plus evidence, provenance, or assurance patterns when those claims are being made.
+Cause-theory cues may focus problem formulation inside `ProblemCard`. Association, intervention, counterfactual, responsibility, expected-effect, or causal-evidence claims are governed by `C.28` plus evidence, provenance, or assurance patterns when those claims are being made.
 
 Environment design and safe probing may appear as problem signal reference, validation boundary, risk condition, or governing-pattern cue. If the next action can affect a controlled EntityOfConcern, the card names the probe need plus the claim kind named by value that blocks local action; any deontic permission, work authorization, release authorization, or gate passage stays with the governing pattern for that claim.
 
 ### C.22.2:12 - Freshness, Expiry, and Unknown Handling
 
-`C.22.2` includes a section-local state and disposition vocabulary for `ProblemCard@Context`; this vocabulary is not a new FPF kind. These labels describe the card's current governed use; they are not required states in a transition sequence, event kinds, or gate records. The local labels are:
+`C.22.2` includes a section-local state and disposition vocabulary for `ProblemCard`; this vocabulary is not a new FPF kind. These labels describe the card's current governed use; they are not required states in a transition sequence, event kinds, or gate records. The local labels are:
 
 | State or disposition label | Required interpretation |
 |---|---|
@@ -51904,12 +51868,12 @@ Environment design and safe probing may appear as problem signal reference, vali
 | `P2W-ready` | Local disposition label with plain gloss: problem-side input ready. The problem-side record is sufficient for downstream P2W or selector-facing use; it is not `ReadyForWork`, `GateReady`, `MethodReady`, `AutonomyReady`, or work authorization. |
 | governing-pattern cue | A claim, relation, or boundary outside `C.22.2` changes the current problem-card use; the card names the governing FPF pattern and claim kind named by value to use next without claiming that use inside `C.22.2`. |
 | `stale` | Freshness or expiry blocks the intended downstream use until refreshed, retired, or otherwise disposed. |
-| `refreshed` | The relevant source material, source relation, context, characterization, parity, evidence, provenance, assurance, representation relation, or wording-use relation has been updated enough for the named use. |
+| `refreshed` | The relevant signal, source material, source relation, ReferenceScheme, ClaimScope, characterization, parity, evidence, provenance, assurance, representation relation, or wording-use relation has been updated enough for the named use. |
 | `retired` | The problem-side record is no longer used as a current problem for downstream work. |
 | `archived` | The record is retained under the relevant archive, pool, front, or selected-set pattern without being current for P2W. |
-| `abstainOrNoChange` | No downstream project-side use is selected because the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not worth current downstream work. |
+| `abstainOrNoChange` | No downstream receiving use is selected because the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not worth current downstream Work. |
 
-Freshness names the affected locus: problem signal, context, characterization or parity relation, problem-formulation reason, source material, source relation, set-source reference, representation relation, or wording-use relation. For the problem-signal locus, ask whether the original signal is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For context, ask whether the local context or scope cut has changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended downstream use. For problem-formulation reason, source material, or source relation, ask whether cited sources, provenance, stated reason references, and source references are fresh enough for the problem-formulation follow-up reason. For set-source reference, ask whether archive, front, pool, shortlist, or selected-set membership and the selection or retention criterion are still current. For representation relation or wording-use relation, ask whether wording, diagram, functional description, transformation-flow path, bridge, retargeting, or representation change alters the EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next use, or relation needed for inheritance.
+Freshness names the exact affected locus: problem signal, effective ReferenceScheme, ClaimScope, characterization or parity relation, problem-formulation reason, source material, source relation, source-set reference, representation relation, or wording-use relation. For the problem signal, ask whether it is still present, recurring, solved, absorbed, duplicate, unnecessary, or no longer worth downstream work. For ReferenceScheme or ClaimScope, ask whether the applicable meaning, cut, assumptions, window, or receiving use changed enough to alter the formulation. For characterization or parity, ask whether measurement, comparison, and parity relations are current enough for the intended use. For the formulation reason, source material, or source relation, ask whether cited sources, provenance, reason references, and source references remain current. For a source set, ask whether archive, front, pool, shortlist, or selected-set membership and its selection or retention criterion remain current. For a representation or wording-use relation, ask whether wording, diagram, functional description, transformation-flow path, Bridge, retargeting, or other representation change alters the EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, governed next use, or relation needed for inheritance.
 
 A stale source material, source relation, or evidence reference does not always retire the problem; it may require refresh while the problem remains reviewable. A stale problem signal may lead to refresh, retire, archive, abstain or no-change, or a governing-pattern cue for the claim, relation, or boundary that is checked.
 
@@ -51921,13 +51885,13 @@ When freshness, expiry, or unknown handling fails, choose one of these current d
 - retire or deprecate the problem-side record under the relevant archive, pool, selected-set, or refresh pattern;
 - continue only as explicitly governed bounded-risk use under the governing pattern for the claim being made, relation, or boundary.
 
-Unknown-handling fields state whether they permit use, require degraded use, abstention, or sandbox treatment, or make the current problem formulation blocked. No P2W, no change, or abstain-for-now may be a successful next use when the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not currently worth downstream work. Before `ProblemCard@Context` emits or binds `TaskSignature`, it checks whether the problem signal is still present and whether prior work has already solved or removed the problem.
+Unknown-handling fields state whether they permit use, require degraded use, abstention, or sandbox treatment, or make the current problem formulation blocked. No P2W, no change, or abstain-for-now may be a successful next use when the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not currently worth downstream work. Before `ProblemCard` emits or binds `TaskSignature`, it checks whether the problem signal is still present and whether prior work has already solved or removed the problem.
 
 ### C.22.2:13 - Representation and Wording-Use Relation Continuity
 
 `C.22.2` names `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, and `E.10` only when changed problem formulations, diagrams, functional descriptions, transformation-flow paths, wording, or `PathSlice` examples carry a current representation, bridge, retargeting, structural-reinterpretation, or wording-use claim. The card may preserve the local cue, reference, or problem-formulation follow-up reason, but it does not prove continuity or use-boundary inheritance by wording similarity.
 
-Framing is not wording repair. A framing change applies when EntityOfConcern, context grounding, scope cut, viewpoint, comparison relation, use-boundary inheritance, or honest next use changes. Wording-use repair is current only when wording, diagram, functional description, transformation-flow path, bridge, retargeting, or representation change alters the carried problem-side representation, EntityOfConcern, use-boundary inheritance, context grounding, viewpoint or role concern, scope cut, comparison relation, governed next use, or governing-pattern cue. Ordinary wording cleanup does not trigger a representation-continuity relation and does not block a Thin `ProblemCard@Context`.
+Framing is not wording repair. A framing change applies when EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, use-boundary inheritance, or honest next use changes. Wording-use repair is current only when wording, diagram, functional description, transformation-flow path, Bridge, retargeting, or another representation change alters the carried problem-side representation, EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, comparison relation, governed next use, or governing-pattern cue. Ordinary wording cleanup triggers no representation-continuity relation and does not block a Thin `ProblemCard`.
 
 | Pattern or pattern family | When it matters for the card | `C.22.2` use |
 |---|---|---|
@@ -51945,13 +51909,13 @@ The source presentation is not compressed into a generic problem-card summary. T
 
 | Source detail | Current FPF recovery | `C.22.2` carry-forward relation |
 |---|---|---|
-| Source examples: person, team, organization, system, community, episteme, and work project | Source-local recognition examples for the domain or practice locus when that locus helps identify problem-card use, and for the EntityOfConcern or project-side FPF kind or reference named by value when it changes the problem-side use; not a new FPF kind taxonomy | `ProblemCard@Context` may state the domain or practice locus when it affects time horizon, indicators, cost of error, role concern, or governed comparison, but it also states the context grounding that carries local meaning. The listed examples are not minted here as a new taxonomy of FPF kinds. |
+| Source examples: person, team, organization, system, community, episteme, and exact Work | Recognition material for the EntityOfConcern or exact A.15.6 Work when it changes problem-card use; not a new FPF kind taxonomy | A domain or practice locus may qualify the effective ReferenceScheme, ClaimScope, horizon, indicators, cost of error, role concern, or comparison, but it neither constitutes the card nor identifies an actual Problem. |
 | Engineering language for reproducibility and management language for coordination, rights, resources, and responsibility | Verification and reproducibility, coordination, right, resource, and responsibility claims are different FPF relations | `C.22.2` may name reproducibility, role, budget, right, or responsibility cue only as a field or relation reference; claims outside the problem-side record stay with their governing patterns. |
 | Problem factory, solution factory, and factory-of-factories | Source exposition for three related work families, not FPF process kinds | `C.22.2` covers only the problem-side output. Solution and P2W relations use `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, and `G.11`; organizational-development or platform-capability questions are outside this pattern. |
-| Characterization protocol: context or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` governing patterns | `ProblemCard@Context` cites characterization and comparability relation when that relation is being made; it does not treat available measurement as an accepted indicator-use relation. |
+| Characterization protocol: ReferenceScheme, ClaimScope or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` governing patterns | `ProblemCard` cites characterization and comparability relations when current; available measurement alone is not an accepted indicator-use relation. |
 | Indicator roles: mandatory constraints, optimization objectives for the current cycle, and risk signals | Characteristic and Q-bundle use under selected comparison or acceptance | `C.22.2` preserves whether an indicator is a mandatory constraint, an optimization objective, or a monitored risk signal when that distinction affects acceptance. |
-| Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` | `ProblemCard@Context` preserves source set or reference, selection or retention criterion, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is current. |
-| Goldilocks as zone-of-growth selection calibrated to current capability and context | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` does not turn Goldilocks into one global difficulty scale or scalar readiness score. |
+| Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` | `ProblemCard` preserves source set or reference, selection or retention criterion, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is current. |
+| Goldilocks as zone-of-growth selection calibrated to current capability, effective ReferenceScheme, and ClaimScope | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` does not turn Goldilocks into one global difficulty scale or scalar readiness score. |
 | Stepping stones as option value: new actions, tools, data, interfaces, environments, or experiment modes that may expand downstream search | Retained archive, front, or pool member, or selected-set reason | `C.22.2` may record stepping-stone value only with a governing set-return, archive, or pool pattern and a retention or tie-break criterion. |
 | P2W chain: signatures and principles help select formalism, ontology, characterization, and method-family material | `A.6.0`, `A.6.1`, `C.16`, `A.19`, `C.29`, `G.5`, and `E.18` | `C.22.2` supplies problem-side cues and relation references; it does not select the formalism, ontology, mechanism, or method family by itself. |
 | P2W chain: condition measurement and comparison help select a concrete method | `C.16`, `A.19`, `C.25`, `G.9`, `G.5`, and `A.15` | State the comparison-and-acceptance cue or acceptance-criterion reference and parity and characterization relations needed by downstream method selection. |
@@ -51961,7 +51925,7 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Runbook, rollback plan, canary, SafeStop, error budget, and override protocol | Work, gate, autonomy, evidence, and control records | These source forms are not `C.22.2` subobjects; apply `A.15`, `A.21`, `E.16`, `A.10`, `G.6`, or `B.3` when the corresponding claim is current. |
 | Trust debt after reliance-window expiry | Freshness and decay indicator and bounded-risk continuation question | Treat trust debt as an indicator or problem-formulation follow-up reason, not as punishment, proof failure, or gate passage by itself. |
 
-This carry-forward preserves detail, not broader scope. `C.22.2` remains the problem-side output; P2W uses it with enough problem-side cues and project-side references to select method families, plans, performed work, and result measurement without making the problem card a P2W pattern.
+This carry-forward preserves detail, not broader scope. `C.22.2` remains the problem-side output; P2W uses it with enough problem-side cues and exact receiving-use and Work references to select method families, plans, performed Work, and result measurement without making the card a P2W pattern.
 
 ### C.22.2:15 - SoTA Decision-Use Source Material
 
@@ -51983,9 +51947,9 @@ Local SoTA-to-action tests:
 
 | Source or relation cue | Popular shortcut rejected | Required local result | Reopen condition |
 |---|---|---|---|
-| Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover problem signal, framed problem representation, context and scope, viewpoint or role concern, improvement check, and rival frame when current. | Reopen when context, scope, viewpoint, rival frame, evidence need, or improvement or acceptance probe changes. |
-| P2W uses only a reviewable problem-side record. | `P2W-ready` is treated as work authorization, gate passage, method selection, evidence proof, assurance, or selected solution. | State problem-formulation follow-up reason, validation boundary, readiness disposition, P2W use retained here, blocked attempted use, and governing-pattern cue when a claim outside `C.22.2` is current. | Reopen when the signal, context, scope, acceptance probe, problem-formulation follow-up reason, validation boundary, freshness, or named claim outside `C.22.2` changes. |
-| QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set claim. | Preserve `setContextRef`, source set kind, selection or retention criterion, and a non-scalar next use; apply the governing set, parity, archive, pool, or refresh pattern when current. | Reopen when the source set, retention criterion, parity relation, archive, pool, front, selected set, budget, window, or freshness disposition changes. |
+| Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover signal, framed problem representation, EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, improvement check, and rival formulation when current. | Reopen when scheme, scope, viewpoint, rival formulation, evidence need, or improvement or acceptance probe changes. |
+| P2W uses only a reviewable problem-side record. | `P2W-ready` is treated as Work authorization, gate passage, method selection, evidence proof, assurance, or selected solution. | State problem-formulation follow-up reason, validation boundary, readiness disposition, retained P2W use, blocked attempted use, and governing-pattern cue when an outside claim is current. | Reopen when the signal, EntityOfConcern, ReferenceScheme, ClaimScope, acceptance probe, follow-up reason, validation boundary, freshness, or named outside claim changes. |
+| QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set claim. | Preserve `sourceSetRef`, source set kind, selection or retention criterion, and a non-scalar next use; apply the governing set, parity, archive, pool, or refresh pattern when current. | Reopen when the source set, retention criterion, parity relation, archive, pool, front, selected set, budget, window, or freshness disposition changes. |
 | Open-ended agents, problem variants, evaluator feedback, and stepping stones change signal interpretation. | Agent output, evaluator trace, or generated variant is treated as enough to act. | Record generator, evaluator, variant, or stepping-stone reason source only as a problem-side cue; name validation, freshness, and pattern reference named by value before probe or action. | Reopen when generator, evaluator, variant, stepping-stone reason source, safety condition, probe condition, or pattern reference named by value changes. |
 | First-principles or mathematical structure can improve formulation. | A named formalism or mathematical or ontological prestige is treated as adequacy or rigor. | Record the candidate structure, either its relation to the problem-side EntityOfConcern or the `C.29` mathematical-lens-use relation, preserved and lost structure when current, practical formulation payoff, problem-formulation follow-up reason, and stop condition. | Reopen when candidate structure, preserved or lost structure, problem-formulation follow-up reason, stop condition, or `C.29` result changes. |
 | Early class or kind taxonomy looks available. | A class list or ontology-first taxonomy is treated as the problem formulation. | Keep the formulation question current; record candidate structure, preserved and lost structure when current, and representation or retargeting relations before freezing kind structure. | Reopen when formulation question, kind structure, relation, representation-transition relation, or retargeting relation changes. |
@@ -51993,26 +51957,29 @@ Local SoTA-to-action tests:
 
 ### C.22.2:16 - Rationale
 
-`ProblemCard@Context` gives the practitioner one compact problem-side record between vague problem talk and downstream P2W. The card is useful because it is light enough for ordinary use and specific enough to show when comparison, characterization, evidence, selection, mathematical-lens use, method, work, gate, autonomy, bridge, representation transition, or refresh requires another FPF pattern.
+`ProblemCard` gives the practitioner one compact problem-side record between vague problem talk and downstream P2W. The card is useful because it is light enough for ordinary use and specific enough to show when comparison, characterization, evidence, selection, mathematical-lens use, method, work, gate, autonomy, bridge, representation transition, or refresh requires another FPF pattern.
 
 The card gives the practitioner one thing to write, inspect, and challenge. A practitioner can see whether a problem is ready without first assembling the problem-side record from `TaskSignature`, Q-bundle, parity report, evidence note, selected-set output, and refresh record. Claims beyond the problem-side record stay with their governing patterns.
 
-The archive and portfolio distinctions remain current when they matter because the card preserves `setContextRef` and names the governing pattern for any current set, archive, or portfolio claim. Changed problem formulations, diagrams, functional descriptions, or transformation-flow path interpretations require the accepted representation or retargeting relations before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, relation references, boundaries, or the problem formulation itself.
+The archive and portfolio distinctions remain current when they matter because the card preserves `sourceSetRef` and names the governing pattern for any current set, archive, or portfolio claim. Changed problem formulations, diagrams, functional descriptions, or transformation-flow path interpretations require the accepted representation or retargeting relations before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, relation references, boundaries, or the problem formulation itself.
 
 ### C.22.2:17 - Problem-Card Use Invariants
 
 | Invariant | Requirement |
 |---|---|
-| One card, one current problem-side representation | One `ProblemCard@Context` instance carries one problem-side representation under one declared context. A changed represented problem states the changed representation or the relation that is reopened. |
-| `P2W-ready` is problem-side readiness | The card can be ready as input to P2W or selector-facing use without being ready for work execution, gate passage, method selection, evidence use, or autonomy control. |
-| Claims outside `C.22.2` stay outside the card | Evidence, provenance, assurance, gate, autonomy, work, archive, selected-set, comparison, acceptance, representation, temporal, causal, and mathematical-lens claims remain with the pattern that governs each claim being made. |
-| Stale or blocked cards state a disposition | A stale, unknown-blocked, changed-representation, or missing required reason, criterion, or source-reference card states refresh, retirement, bounded use, `abstainOrNoChange`, or the relation that is reopened. |
+| One card, one joint EntityOfConcern | One ProblemCard has one ClaimGraph, one independently identified EntityOfConcern, and one effective ReferenceScheme. Several PFR references may share the card only when one direct pattern identifies their joint concern; otherwise split the claims and card. C.22.2:20.1b supplies the joint, forced-split, and many-cards/one-PFR replay. |
+| ProblemCard is not PFR | The card may assert, deny, forecast, describe, or discuss solvability, but only C.22.PFR establishes actual Problem obtaining and identity. |
+| Claim families remain distinct | Actual-PFR assertion polarity, A.10/B.3 reliance, G.11 currentness, anticipated-condition claims, and method-availability or solvability claims do not collapse. |
+| `P2W-ready` is problem-side readiness | The card can be ready as input to P2W or C.22 without being ready for Work execution, gate passage, method selection, evidence reliance, or autonomy. |
+| Constitution and qualification stay separate | ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme constitute the card. ClaimScope, assumptions, window, viewpoint, receiving use, and any exact A.15.6 Work reference stay in their claims and direct relations; no carrier, organization, or setting constitutes the card or PFR. |
+| Claims outside C.22.2 stay outside | Evidence, assurance, gate, autonomy, Work, archive, selected-set, comparison, acceptance, representation, temporal, causal, and mathematical-lens claims remain with their governors. |
+| Stale or blocked cards state a disposition | A stale, unknown-blocked, changed-representation, or missing-governor card states refresh, retirement, bounded use, `abstainOrNoChange`, or the exact relation reopened. |
 
 ### C.22.2:18 - Misuse Modes and Repairs
 
 | Misuse mode | Symptom | Repair |
 |---|---|---|
-| Card-as-executable-work request | A solution-shaped task or implementation request is treated as a problem-side record. | Recover signal, context, scope, improvement check or acceptance probe, and next use before any work pattern is applied. |
+| Card-as-executable-work request | A solution-shaped task or implementation request is treated as a problem-side record. | Recover signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check or acceptance probe, and next use before applying a Work pattern. |
 | Content creep | The card starts carrying claims outside the problem-side record. | Keep only the cue or reference needed by the problem-side record and apply the pattern that governs the claim being made. |
 | Hidden scalarization | Goldilocks, readiness, priority, OEE, QD, or indicator wording becomes one local score. | Preserve source-set kind, selection or retention criterion, characteristic or Q-bundle relation, and non-scalar next use. |
 | Silent retargeting | A changed EntityOfConcern, representation scheme, diagram, functional description, or transformation-flow path interpretation inherits old readiness by wording continuity. | Name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reuse. |
@@ -52036,28 +52003,38 @@ These checks protect the card's practical use; they do not add fields.
 
 | Case | Problem-side signal | Repaired card use | Boundary preserved |
 |---|---|---|---|
-| AI and human task transfer rework | Repeated rework appears after transfer between human and agent. | Stabilize signal, context, acceptance probe, and safe-call or work relation before another delegation. | The card is not a prompt retry instruction and does not justify another delegation. |
-| Musical mastery tempo drift | Practice tempo drifts away from the intended mastery band. | State the temporal claim, practice context, acceptance probe, and `C.27` relation when tempo, rhythm, recovery, or learning rate changes the next use. | A trend line is not an intervention model or evidence of mastery. |
+| AI and human task transfer rework | Repeated rework appears after transfer between human and agent. | Stabilize signal, EntityOfConcern, effective ReferenceScheme, ClaimScope, acceptance probe, and safe-call or Work relation before another delegation. | The card is not a prompt retry instruction and does not justify another delegation. |
+| Musical mastery tempo drift | Practice tempo drifts away from the intended mastery band. | State the temporal claim, practice scheme and scope, acceptance probe, and `C.27` relation when tempo, rhythm, recovery, or learning rate changes the next use. | A trend line is not an intervention model or evidence of mastery. |
 | Customer-service escalation after a policy or interface change | Escalation volume rises after the change. | Stabilize affected customer hand-off, acceptance probe, risk boundary, measurement relation, and causal-use relation when that relation is being made. | Escalation volume is not an automatic fix request, staffing plan, rollback order, or causal proof. |
 | Literature-synthesis anomaly before method selection | An anomaly does not fit current category labels. | Preserve rival formulation, EntityOfConcern, evidence need, bridge, representation, or mathematical-lens relation when that relation is being made, and next discrimination action. | The anomaly is not proof for a new theory or a selected research method. |
-| Selected-set candidate before P2W | A retained candidate from a front or pool looks promising. | Preserve `setContextRef`, source-set kind, selection or retention criterion, non-scalar next use, currentness, and window. | Set membership is not selected-solution proof, priority score, or work authorization. |
+| Selected-set candidate before P2W | A retained candidate from a front or pool looks promising. | Preserve `sourceSetRef`, source-set kind, selection or retention criterion, non-scalar next use, currentness, and window. | Set membership is not selected-solution proof, priority score, or work authorization. |
 
 #### C.22.2:20.1a - Compact P2W-ready Disposition Slice
 
-A support team sees repeated failed hand-offs after a new interface policy. The incoming request says "rewrite the escalation workflow." A conforming `ProblemCard@Context` first repairs the problem-side record instead of accepting the work-shaped request.
+A support team sees repeated failed hand-offs after a new interface policy. The incoming request says "rewrite the escalation workflow." A conforming `ProblemCard` first repairs the problem-side record instead of accepting the work-shaped request.
 
 | Thin card field | Filled value |
 |---|---|
 | Source signal | Escalations reopen after hand-off from first-line support to specialist support. |
-| Context grounding | `SupportOps@EU`, new interface policy edition, two-week incident window. |
+| ReferenceScheme, ClaimScope, and qualification window | Effective scheme: support-interface hand-off under the new policy edition; ClaimScope: SupportOps-EU; qualification window: two-week incident window. |
 | Problem-side EntityOfConcern | The hand-off ambiguity at the support interface, not the whole escalation process. |
-| Improvement check or acceptance probe | Sample reopened cases; accepted improvement means fewer reopened hand-offs in the same context without increasing unresolved safety, compliance, or customer-impact exceptions. |
+| Improvement check or acceptance probe | Sample reopened cases; accepted improvement means fewer reopened hand-offs within that ClaimScope and window without increasing unresolved safety, compliance, or customer-impact exceptions. |
 | Problem-formulation follow-up reason | Separate interface wording, role-method-work alignment, evidence and currentness, and possible policy-boundary relations before any method or work-plan choice. |
-| Validation boundary | Same support interface, policy edition, incident window, and source logs; refresh if the policy edition, source logs, context, or acceptance probe changes. |
+| Validation boundary | Same support interface, policy edition, ClaimScope, incident window, and source logs; refresh if the scheme, scope, source logs, window, or acceptance probe changes. |
 | Readiness disposition | `P2W-ready` only for the carried problem-side distinction: hand-off ambiguity under a declared interface policy and acceptance probe. |
 | Exported governing-pattern cues | `A.6` for policy or interface wording, `A.15` for role-method-work alignment, `A.10` for evidence and currentness, `A.21` only if a gate claim later becomes current. |
 
-The P2W export is narrow: accepted problem-side material, context grounding, improvement check, validation boundary, freshness condition, and governing-pattern cues. If the improvement check or acceptance probe is missing, the card stays reviewable-only or source-finding and cannot claim `P2W-ready`. If the next user wants evidence sufficiency, a gate decision, work authorization, or selected method, the card preserves the cue and the corresponding governing pattern carries that downstream claim.
+The P2W export is narrow: accepted problem-side material, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check, validation boundary, freshness condition, and governing-pattern cues. If the improvement check or acceptance probe is missing, the card stays reviewable-only or source-finding and cannot claim `P2W-ready`. If the next user wants evidence sufficiency, a gate decision, Work authorization, or selected method, the card preserves the cue and its direct governor carries that downstream claim.
+
+#### C.22.2:20.1b - Card/PFR Cardinality Replay
+
+Every PFR reference below designates a world-side occurrence independently established under C.22.PFR; no card-side fact supplies its participants, adverse extent, or identity. `PFR-RoleAssignment-17` and later `PFR-RoleAssignment-18` are the two Robot-7 occurrences replayed in C.22.PFR:5. For the unrelated branch, `RoleAssignment-27 : U.RoleAssignment` has the A.2.1 participants `Robot-8`, `InspectorRole`, `MaintenanceRoles-2026`, and `Maintenance-Scheme-A` and obtains without interruption on `[2026-07-13T10:00, 2026-07-13T10:30]`. Its own `Robot8ReleaseCriterionApplicability-4` uses the same governed prohibited-role predicate, maps the assignment's role value to the adverse nominal coordinate and its holder to `Robot-8`, and names `Robot-8`, its exact release ClaimScope, and `[2026-07-13T09:30, 2026-07-13T12:00]` as the other applicability participants. Those facts independently establish `PFR-RoleAssignment-27` on `[2026-07-13T10:00, 2026-07-13T10:30]` under C.22.PFR.
+
+| Branch | Exact card-side objects | Mechanically recoverable result |
+|---|---|---|
+| One joint multi-PFR card | `Robot7ReleaseEpisodesCard-E1 = <CG-Robot7-ReleaseEpisodes-E1, Robot-7, Maintenance-Scheme-A>`. The exact ClaimGraph contains two affirmative assertion nodes designating `PFR-RoleAssignment-17` and `PFR-RoleAssignment-18`. A.1 independently identifies `Robot-7 : U.System`, and both PFRs have that same system as their applicability-derived problem-for entity. | One ClaimGraph has one direct, genuinely joint EntityOfConcern, so one card carries both PFR references. The card records two occurrences; it does not merge them. |
+| Unrelated PFRs force split | Proposed `CG-Mixed-RobotReleaseProblems-E0` contains `PFR-RoleAssignment-17` about A.1-identified `Robot-7` and `PFR-RoleAssignment-27` about separately A.1-identified `Robot-8`. No direct pattern in this replay identifies one joint EntityOfConcern for those claims; a list of the two systems is not one. | `E0` cannot constitute one ProblemCard. Split it into `CG-Robot7-ReleaseProblem-E1` in `Robot7ReleaseProblemCard-E1` and `CG-Robot8-ReleaseProblem-E1` in `Robot8ReleaseProblemCard-E1`, each with its own exact system EntityOfConcern and effective scheme. |
+| Several cards retain one PFR | `Robot7SafetyCard-E1 = <CG-Robot7-Safety-E1, Robot-7, RobotSafety-Scheme-A>` qualifies its designation by `SafetyAssuranceViewpoint-E1` and receiving use `AutonomousInspectionReleaseReview-E1`. `Robot7StaffingCard-E1 = <CG-Robot7-Staffing-E1, Robot-7, MaintenancePlanning-Scheme-B>` qualifies its designation by `MaintenancePlanningViewpoint-E1` and receiving use `RoleAssignmentRepairPlanning-E1`. Both exact ClaimGraphs designate `PFR-RoleAssignment-17`. | The differing ClaimGraphs, schemes, viewpoints, and receiving uses identify or qualify two cards and their claims; the PFR reference remains exactly `PFR-RoleAssignment-17`. Revising, merging, splitting, publishing, or replacing either card changes no PFR participant or adverse episode. |
 
 #### C.22.2:20.2 - Anti-Cases
 
@@ -52066,11 +52043,11 @@ The P2W export is narrow: accepted problem-side material, context grounding, imp
 |---|---|
 | The card is cited as safety acceptance, gate passage, tool-call action invitation, or work authorization. | Apply the safety named by value, gate, autonomy, work, evidence, provenance, or assurance pattern; keep only the problem-side cue in the card. |
 | A mathematical phrase is added because it sounds rigorous. | Use `C.29` only when the candidate structure, preserved and lost structure, payoff, follow-up reason, and stop condition are recoverable. |
-| A source archive produces a "best" problem by one score. | Use source-set and selected-set patterns; the card carries non-scalar set context and problem-side next use. |
+| A source archive produces a "best" problem by one score. | Use source-set and selected-set patterns; the card carries a non-scalar source-set reference, criterion, and problem-side next use. |
 
 ### C.22.2:21 - Machine-Assisted Drafting Boundary
 
-Machine-assisted `ProblemCard@Context` drafting is only a drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any governing-pattern cues for claims outside `C.22.2`.
+Machine-assisted `ProblemCard` drafting is only a drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any governing-pattern cues for claims outside `C.22.2`.
 
 Required practitioner checks for a machine-assisted draft:
 
@@ -52100,31 +52077,32 @@ Direct-entry cues that are not `C.22.2`:
 - accepted method or work planning: use `A.15`;
 - proof, provenance, reliability, or assurance claim: use `A.10`, `G.6`, or `B.3`;
 - local choice among explicit options: use `C.11`, or `G.5` when set publication or selected-set semantics are current;
-- agent tool-call, gate, or autonomy claim: use `C.24`, `E.16`, or `A.21`; `ProblemCard@Context` may only name the problem-side cue or relation named by value;
-- ordinary discussion with no downstream project-side use: no `C.22.2` use.
+- agent tool-call, gate, or autonomy claim: use `C.24`, `E.16`, or `A.21`; `ProblemCard` may only name the problem-side cue or relation named by value;
+- ordinary discussion with no downstream receiving use: no `C.22.2` use.
 
 First-use Thin-card test:
 
-Given a messy signal, a practitioner can produce a Thin `ProblemCard@Context` in under one page and correctly choose one governed next use: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that governs the claim being made, relation, or boundary outside the card.
+Given a messy signal, a practitioner can produce a Thin `ProblemCard` in under one page and correctly choose one governed next use: `P2W-ready`, characterize, compare or parity, search or pool, refresh, retire, `abstainOrNoChange`, or apply the FPF pattern that governs the claim being made, relation, or boundary outside the card.
 
 Entry relation:
 
-The entry relation is local: `C.22.2` is introduced under `C.22`, and `C.22` names the `ProblemCard@Context` relation. The `C.22.2` body carries the Problem frame, first-entry phrases, tempting-wrong-pattern boundaries, and first-use Thin-card test needed for ordinary discovery.
+The entry relation is local: `C.22.2` is introduced under `C.22`, and `C.22` names the `ProblemCard` relation. The `C.22.2` body carries the Problem frame, first-entry phrases, tempting-wrong-pattern boundaries, and first-use Thin-card test needed for ordinary discovery.
 
 ### C.22.2:23 - Downstream Cue Export
 
-`ProblemCard@Context` exports problem-side material, not a claim over downstream use.
+`ProblemCard` exports problem-side claim content, not authority over downstream use.
 
-The compact export fields are:
+The compact export contains:
 
-- problem signal and context grounding;
-- EntityOfConcern and scope cut when they change the move;
+- problem signal and exact signal reference;
+- one joint EntityOfConcern, effective ReferenceScheme, ClaimScope, and current qualification window when needed;
+- exact claim family and polarity: actual-PFR assertion, anticipated-condition claim, method-availability or solvability claim, or another named direct claim;
 - improvement check or acceptance probe;
-- readiness disposition: reviewable-only, `P2W-ready`, no-work or `abstainOrNoChange`, refresh, retire, archive, or governing-pattern application cue;
-- source-set or representation relation reference when current;
-- problem-formulation follow-up reason and validation boundary when P2W relies on the card.
+- readiness disposition: reviewable-only, `P2W-ready`, `abstainOrNoChange`, refresh, retire, archive, or governing-pattern cue;
+- exact PFR, source-set, A.15.6 composite or component Work, or representation reference only when current and independently governed; and
+- problem-formulation follow-up reason, validation boundary, freshness condition, and stop when the receiving use relies on them.
 
-For P2W carry-through, use `E.18.1` with the accepted problem-side material and the current relation named by the card. For selector-facing readiness and candidate `TaskSignature` relation, use `C.22`. For selected-set or search cues, use `G.5` only when that relation is current. For work need, use the A.15 family only after work planning, work-entry readiness, performed work, or work-relevant appearance-based reliance repair is current; `A.15.5` carries `WorkEntryReadiness@Context` when the downstream question is whether intended work is ready enough to enter the work boundary. For any other claim being made, apply the pattern that governs it; do not treat the whole card as carrying that claim.
+For P2W carry-through, use E.18.1 with the accepted problem-side distinctions. For TaskSignature constitution and assignment, use C.22. For selected-set or search use, apply G.5 only when that relation is current. For intended or performed Work, use A.15 only after its exact object is current; when the question is whether intended Work may enter its boundary, A.15.5 governs `WorkEntryReadiness@Context`. For evidence, gate, autonomy, or any other claim, apply the direct pattern; the whole card never carries that claim by itself.
 
 ### C.22.2:24 - Consequences
 
@@ -52132,7 +52110,7 @@ For P2W carry-through, use `E.18.1` with the accepted problem-side material and 
 
 - FPF gains a clear problem-side output for problematization as the input P2W can use.
 - P2W uses a typed problem-side record rather than a slogan, ticket-shaped wish, or preselected method.
-- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work request is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `setContextRef`; an indicator is used without a declared indicator-use relation; problem-formulation follow-up reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation follow-up reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
+- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work request is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `sourceSetRef`; an indicator is used without a declared indicator-use relation; problem-formulation follow-up reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation follow-up reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
 - Current archive, pool, front, shortlist, set-return, parity, refresh, evidence, and `C.29` patterns are reused instead of duplicated.
 - The positive role of mathematical and first-principles thinking is preserved: it can find missing structure, not only check already-written mathematics.
 - Characterization and parity are no longer optional background when they are prerequisites for problem reviewability.
@@ -52140,9 +52118,9 @@ For P2W carry-through, use `E.18.1` with the accepted problem-side material and 
 
 #### C.22.2:24.2 - Costs of Use
 
-- A `ProblemCard@Context` adds a small writing step before P2W. The cost is justified only when the signal is not yet reviewable before downstream use.
+- A `ProblemCard` adds a small writing step before P2W. The cost is justified only when the signal is not yet reviewable before downstream use.
 - The practitioner keeps the card small: preserve the split between problem, task, method, work, and result; keep `TaskSignature` minimal; and add conditional fields only when their relation is current.
-- For problems emitted from archives, pools, fronts, selected sets, or portfolios, the practitioner preserves `setContextRef` or the set-source relation without turning the card into a portfolio, archive, selected-set, or work-planning carrier.
+- For problems emitted from archives, pools, fronts, selected sets, or portfolios, the practitioner preserves `sourceSetRef` or the set-source relation without turning the card into a portfolio, archive, selected-set, or work-planning carrier.
 - External or source-local terms may guide recognition only when they change a concrete boundary, field, relation, or validation requirement. Otherwise they remain examples or local cues.
 
 ### C.22.2:25 - Relations
@@ -76160,7 +76138,7 @@ CandidatePatternUseBasisRelation@Context <: U.Relation:
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
-  problemCardRef?: U.EpistemeRef, referencing one ProblemCard@Context
+  problemCardRef?: U.EpistemeRef, referencing one C.22.2 ProblemCard episteme
   resultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
   additionalBasisRelationRefs[]?: U.EntityRef, each referencing one CandidatePatternUseAdditionalBasisRelation@Context
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
@@ -76191,7 +76169,7 @@ CandidatePatternUse@Context <: U.Episteme:
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
-  problemCardRef?: U.EpistemeRef, referencing one ProblemCard@Context
+  problemCardRef?: U.EpistemeRef, referencing one C.22.2 ProblemCard episteme
   publicTemplateRef?: U.EpistemeRef, referencing one PublicCandidatePatternUseTemplate@FPFReadme
   directPatternRef: U.EntityRef, referencing one U.MethodDescription
   directSolutionSectionRef: U.EntityRef, referencing the E.17 PublicationUnit containing the direct pattern's Solution
@@ -76374,13 +76352,13 @@ Recheck the smallest affected claim or relation when the concern, candidate basi
 
 #### E.11.PUA:5.1 - Episteme result: a usable problem card
 
-A team has a vague recurring pump-failure concern and asks whether it can be articulated well enough to guide later method selection. In cheap ordinary use it can say, "Use C.22.2 to make a usable problem card," then state the bounded concern, affected entity, obstacle, stakes, evidence state, and honest next use. Those contents can leave the exact `ProblemCard@Context` kind and `selectedPatternApplicationFlowResult` position recoverable without stating or recording either one. Name them explicitly only when a nearby kind confusion or named reliance requires replay; C.22.2 and C.2.1 still govern the episteme.
+A team has a vague recurring pump-failure concern and asks whether it can be articulated well enough to guide later method selection. In cheap ordinary use it can say, "Use C.22.2 to make a usable problem card," then state the bounded concern, affected entity, obstacle, stakes, evidence state, and honest next use. Those contents can leave the exact C.22.2 `ProblemCard` episteme and `selectedPatternApplicationFlowResult` position recoverable without stating or recording either one. Name them explicitly only when a nearby kind confusion or named reliance requires replay; C.22.2 and C.2.1 still govern the episteme.
 
 If the card did not exist before this exercise and the team claims that the drafting episode first constituted it, identify the dated drafting `U.Work`, the card's C.2.1 identity rule, the actual changes, and the local A.15.PROD entity-identity-inception claim. That claim establishes the card's Work-attributed inception, not by itself that the card is this PUA use's result. A reliance-bearing closure separately names the category-correct basis that makes the card the result relative to the current application or governed object. Without the inception basis, do not say that pattern application produced the card; state only the card content and leave its inception provenance open. Any later P2W participation uses its exact direct relation or local claim. The team need not materialize PUA closure records during a cheap conversational use.
 
 #### E.11.PUA:5.1a - Evaluation specification without a ProblemCard
 
-An architecture team already has a bounded comparison question and needs no accepted `ProblemCard@Context`. It applies `A.19.ECS` and states one exact `EvaluationCharacteristicSpaceSpec` with declared coordinates, scales, comparators, and evidence rules; `A.19.ECS` and C.2.1 govern that specification episteme. The optional `problemCardRef` remains absent.
+An architecture team already has a bounded comparison question and needs no accepted C.22.2 `ProblemCard` episteme. It applies `A.19.ECS` and states one exact `EvaluationCharacteristicSpaceSpec` with declared coordinates, scales, comparators, and evidence rules; `A.19.ECS` and C.2.1 govern that specification episteme. The optional `problemCardRef` remains absent.
 
 The application-flow label is only a readable PUA position. If the team claims that exact planning or specification Work first constituted the episteme, cite its local A.15.PROD inception claim for that subject fact. A reliance-bearing PUA closure separately identifies the category-correct basis that makes the specification a result relative to the current application or governed object. If a later comparison actually uses the specification, cite the exact direct relation, A.6.1 binding, or local relation-bearing claim governed by that comparison pattern. Without the corresponding basis, keep the specification, its PUA closure, and the later comparison separate.
 
