@@ -211,12 +211,12 @@ The public FPF readme section after the Table of Contents provides fifteen seman
 | C.16.P | **Characteristic and Scale Precision Restoration** | Stable | Repairs overloaded characteristic, scale, coordinate, metric, score, indicator, threshold, comparison, and scalar-quality wording before C.16/A.17-A.19/C.25/C.29/E.21 or another governing pattern is applied. | **Builds on:** E.10, E.10.ARCH, A.17, A.18, C.16, A.19, C.25, C.29, E.21, F.18, A.6.P. **Coordinates with:** C.16.Q, A.19.ECS, evidence, assurance, gate, decision, causal-use, benchmark, and publication patterns governing those claims. |
 | C.16.Q | **Quality-Term Precision Restoration** | Stable | Repairs overloaded quality and evaluative-characterization wording by selecting an endpoint-governed evaluative form or a bounded transitional quality-term repair form with declared bearer, evaluation frame, sense family, admissible normal form, and governing pattern. | **Builds on:** E.10, E.10.ARCH, C.16.P, C.16, C.25, E.21, A.17, A.18, A.19, A.7, C.2.1, E.8, F.9, F.18. **Coordinates with:** A.6.P, A.6.A, A.16, B.4.1, B.5.2.0, A.10, B.3, F.9.1. |
 | C.17 | **Creativity‑CHR — Characterising Generative Novelty & Value** | Stable | *Keywords:* Creativity-CHR, Novelty@context, Use-Value and ValueGain, Surprise, ConstraintFit, Diversity_P, Originality, ResourceEfficiency, MM-CHR measurement templates, ReferenceBase, evidence, portfolio composition. *Queries:* "How do I make a creativity claim measurable and evidence-bound?", "Which characteristics distinguish novelty, value, surprise, constraint fit, diversity, originality, and resource efficiency?", "How do creative outputs compose from individuals to portfolios?" | **Builds on:** C.16, A.17, A.18, A.19. **Coordinates with:** B.5.2.1, C.18, C.19, C.9, B.3, B.4, F.5/F.18. |
-| C.18 | **NQD‑CAL — Open‑Ended Search Calculus** | Stable | *Keywords:* NQD-CAL, Γ_nqd.generate, Γ_nqd.updateArchive, Γ_nqd.illuminate, Γ_nqd.selectFront, DescriptorMapRef, DistanceDefRef, NQDArchive, CandidateSet, Front vs ExplorationArchive, IlluminationSummary report-only telemetry, EmitterPolicyRef, InsertionPolicyRef, provenance editions. *Queries:* "How does FPF run open-ended search without illegal scalarization?", "What is the difference between a front and an exploration archive?", "What provenance must an NQD generation call publish?" | **Builds on:** C.16, C.2, A.17-A.19. **Coordinates with:** B.5.2.1, C.17, C.19, G.5, G.6, G.11. |
+| C.18 | **Open-Ended Search Archive and Front Stewardship** | Stable | *Keywords:* open-ended search, generation, exploration archive, non-dominated front, descriptors, lineage, telemetry, retained exploration value, currentness, refresh. *Queries:* "Which generation, archive, or front claim is current?", "What distinguishes the non-dominated front from retained exploration value?", "When does live-pool treatment move to C.19 or selected-set publication to G.5?" | **Builds on:** C.16, A.19, E.18. **Coordinates with:** C.19, G.5, G.9, G.11, E.23, E.18.1, C.30, C.36, A.15. |
 | C.18.1 | **Scaling‑Law Lens Binding (SLL)** | Stable | *Keywords:* scaling law, scale variables (S), compute‑elasticity, data‑elasticity, resolution‑elasticity, exponent class, knee, diminishing returns. *Queries:* "How to make search scale‑savvy?", "Where to declare scale variables and expected elasticities?" | **Builds on:** C.16, C.17, C.18. **Coordinates with:** C.19, G.5, G.9, G.10. |
-| C.19 | **Explore–Exploit Governor (E/E‑LOG)** | Stable | *Keywords:* explore-exploit, live candidate pool, pool-policy result, widen, keep frontier, narrow to subset, sunset line, reroute, EmitterPolicy, InsertionPolicy, lens id, dominance default routing, DecisionSubject clarification. *Queries:* "How should one govern a still-live candidate pool?", "When do I widen, keep frontier, narrow, sunset, or reroute?", "How does pool policy stay separate from C.11 choice, C.24 planning, and G.5 publication?" | **Builds on:** C.18, C.17, C.11, B.3, Compose-CAL. **Coordinates with:** C.24, G.5, G.9. |
+| C.19 | **Explore-Exploit Live-Pool Governor** | Stable | *Keywords:* explore-exploit, already-live candidate pool, pool-policy result, governing lens, widen, keep frontier, narrow to subset, sunset line, change trigger. *Queries:* "How should one govern a still-live candidate pool?", "When does fresh generation or front recomputation return to C.18?", "When does a retained subset require G.5 selected-set publication?" | **Builds on:** C.18, C.16, A.19.CPM, A.19.SelectorMechanism, B.3. **Coordinates with:** C.11, C.24, G.5, G.9, G.11. |
 | C.19.1 | **Bitter‑Lesson Preference (BLP)** | Stable | BLP comparison and waiver discipline for scalable general methods versus bounded specialization, including `E.23` method-family choice and cost/risk posture. | **Builds on:** C.19, C.24, B.3. **Coordinates with:** E.23, G.5, G.8, G.9, G.11, A.0. |
 | C.19.2 | **Use-Bounded Apparatus Application** | Stable | *Keywords:* use-bounded apparatus application, one selected apparatus, configuration or adaptation work, setup cost, declared result and guarantee, reuse horizon. *Queries:* When can one existing apparatus be applied without opening option search? When must generation or choice become current? | **Coordinates with:** C.18, C.19, C.19.1, C.22.1, E.23, C.11 when a live eligible set exists, A.15.1, A.15.2. **Specialized by:** A.7.1. |
-| C.20 | **Composition of `U.Discipline` (Discipline‑CAL)** | Stable | *Keywords:* discipline, **U.AppliedDiscipline**, **U.Transdiscipline**, episteme corpus, standards, institutions, **Γ_disc**. *Queries:* "How to compose and assess a discipline in FPF?" | **Builds on:** C.2 KD‑CAL, G.0, Part F (Bridges/UTS). **Coordinates with:** C.21, C.23. |
+| C.20 | **Composition of `U.Discipline` (Discipline-CAL)** | Stable | *Keywords:* discipline construction, practice-and-knowledge whole, DisciplinePartOfRelation, exact constituents, whole-forming claims, assembly, reidentification, composition-grounded characteristic. *Queries:* "When is an apparent field one durable discipline rather than a label or collection?", "Which exact parts and obtaining relations form the whole?", "What preserves or ends its identity through change?" | **Builds on:** A.1, A.6.REL, A.14, C.13, A.17, A.18, E.24.UK. **Coordinates with:** C.2.1, A.3.1, B.1.5, A.15.1, A.22, B.2, C.21, A.19.CPM, F.9, G.5. |
 | C.21 | **Discipline‑CHR - Field Health & Structure** | Stable | *Keywords:* discipline, field health, reproducibility, standardisation, alignment, disruption. *Queries:* "How to measure the health of a scientific field?", "What is reproducibility rate?". | **Builds on:** C.16, C.2, A.2.6, B.3. **Coordinates with:** C.20, G.2. |
 | C.22 | **Task Typing and TaskSignature Assignment (Problem-CHR)** | Stable | Constitutes one selector-facing `TaskSignature` as a C.2.1 episteme and species of `U.Signature`; when a receiving use is current, separately relates the exact problem-side episteme, exact TaskSignature, and exact receiving-use episteme through `TaskSignatureAssignmentRelation`. Keeps CHR typing, unknowns, scope, evidence-use relations, currentness, and required crossings visible without adding a generic setting, carrier, or organization as a constituent or assignment participant. *Queries:* "When is a stable problem-side episteme ready for a selector-facing TaskSignature?", "Which typed fields and unknowns belong in its exact edition?", "How do I relate the problem-side episteme, TaskSignature, and receiving use without preselecting a method?" | **Builds on:** A.6.0, C.16, G.0. **Coordinates with:** C.22.1, C.22.2, C.23, G.4, G.5. |
 | C.22.1 | **Task-family adaptation signature** | Stable | Durable task-family specialization fields: threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, and corridor entry. | **Builds on:** C.22, C.19.1, A.15, C.24, E.16. **Coordinates with:** E.23, G.5, G.9, G.11. |
@@ -6727,13 +6727,13 @@ Use this pattern when a communicative event must be modeled as performed work: a
 Typical moments:
 
 - a release, gate, or work step depends on whether a named approval or authorization was performed;
-- a publication, notice, or revocation changes status in a bounded context;
+- a publication, notice, or revocation may have an institutional effect only under an exact current policy or procedure, while the communicative act and any resulting effect retain distinct intervals;
 - a commitment must cite the act that instituted it, rather than only pointing at a document;
 - a message, ticket, signed record, or API call log is being mistaken for the act itself.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one actual speech-act occurrence admitted under the kind `U.SpeechAct`: a communicative Work individual performed by an admitted accountable `U.System` under an exact obtaining `U.RoleAssignment` in a bounded context. The system performs the act; the assignment supplies the role and authority ground. A `SpeechActRecord`, the utterance-description episteme, and the file, message, ticket, or log carrier are separate objects.
+**Primary EntityOfConcern.** The EntityOfConcern is one actual speech-act occurrence admitted under the kind `U.SpeechAct`: communicative Work performed by an admitted accountable `U.System` under an exact obtaining `U.RoleAssignment` and enacting an exact `U.Method`. The assignment independently supplies the role, role-taxonomy episteme, effective reference scheme, authority ground, and covering extent; it does not act. Speech-act recognition separately uses an exact recognition-taxonomy episteme and effective reference scheme, plus a current policy or procedure only when classification or institutional force depends on it. A `SpeechActRecord`, MethodDescription, utterance-description episteme, channel, and file, message, ticket, or log carrier are separate objects.
 
-**First useful move.** Name the actual occurrence, performer system, and assignment under which it acts, then name the judgement context, time window, act type, what the utterance is about, and—only when current—the intended institutional target and independently established effect. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about that occurrence; add utterance or carrier references only when observation, audit, or source return needs them.
+**First useful move.** Name the actual occurrence, performer system, exact obtaining assignment, and exact enacted Method. Recover the assignment's role taxonomy and scheme; then name the act's time window, recognition-taxonomy episteme and effective scheme, satisfied act type, optional channel, and any current policy or procedure. Keep the optional MethodDescription, utterance subject, policy-selected institutional target, and independently established effect separate. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about that occurrence; add utterance or carrier references only when observation, audit, or source return needs them.
 
 **Not this pattern when.** If the question is only what a document says, use A.7/C.2/E.17. If the question is who is accountable under a deontic relation, use A.2.8. If the question is evidence, use A.10/G.6. If the work has no communicative effect, use A.15.1 directly.
 
@@ -6771,7 +6771,7 @@ How can FPF represent communicative enactments so that:
 
 1. **Agency is explicit:** an admitted accountable `U.System` performs the act under a covering role assignment, not a role value, assignment, document, spec, or interface.
 2. **The act is locatable in time:** the act has an explicit Window (and thus freshness can be evaluated).
-3. **The act is locatable in meaning:** the act is recognized inside a declared **bounded context** (the `U.Work` judgement context), not via `U.ClaimScope` (which expresses applicability of claims/commitments, not the judgement context for Work occurrences).
+3. **The act is locatable in meaning:** the act satisfies a type defined by an exact recognition-taxonomy episteme under an effective reference scheme; no generic bounded-context participant or Work judgement-context field substitutes for that basis, and `U.ClaimScope` remains only a claim-applicability object when a receiving claim needs one.
 4. **The act is auditable:** it has at least one declared utterance description, evidence carrier, or both when used for gate checks or governance.
 5. **Institutional effects are linkable:** the act can institute (or update/revoke) commitments, role assignments, statuses, etc., by reference.
 6. **Ambiguity is handled pragmatically:** the model supports multi-function and multi-party communication without requiring full linguistic pragmatics.
@@ -6782,18 +6782,18 @@ How can FPF represent communicative enactments so that:
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Minimality             | Needs to be light enough for routine modeling and linting; not a full pragmatics or legal-contract system.              |
 | Auditability           | If used as a gate, it must be evidence-backed; but not all communicative acts are equally observable or retainable.     |
-| Context locality       | Meaning and “institutional force” are context-local; cross-context reuse must remain explicit (Bridge-only discipline). |
+| Interpretive locality  | Recognition and institutional force depend on exact taxonomies, schemes, and current policies; F.9 is needed only when a receiving use really crosses local meanings. |
 | Multi-party reality    | Many real boundaries are multiparty (protocols, organizations); dyadic “speaker-hearer” is too narrow.                  |
 | Multi-function reality | One utterance can carry multiple recognizable functions; “one act = one force” is often false.                          |
 | Separation discipline  | Must preserve **kind** ≠ **actual act occurrence** ≠ **SpeechActRecord** ≠ **utterance description** ≠ **carrier or trace**. |
 
 ### A.2.9:4 — Solution
 
-`U.SpeechAct` is the admitted kernel kind for communicative Work. An individual `SA : U.SpeechAct` is the actual enactment performed by an admitted accountable `U.System` under an exact obtaining role assignment within a bounded context. A `SpeechActRecord` may describe that occurrence and point to utterance descriptions or evidence carriers; none of those epistemic or representational objects is the act.
+`U.SpeechAct` is the admitted kernel kind for communicative Work. An individual `SA : U.SpeechAct` is the actual enactment performed by an admitted accountable `U.System` under an exact obtaining role assignment and enacting an exact `U.Method`. A separate recognition-taxonomy episteme and effective reference scheme make its act-type classification inspectable; an exact current policy or procedure governs any claimed institutional force. A `SpeechActRecord` may describe that occurrence and point to a MethodDescription, optional channel, utterance descriptions, or evidence carriers; none of those epistemic or representational objects is the act or the enacted Method.
 
 #### A.2.9:4.1 — Normative definition
 
-`U.SpeechAct <: U.Work` is a kind declaration. An actual Work individual is admitted as `SA : U.SpeechAct` when its primary effect is **communicative**: it places an utterance into a context in a way that is recognized by that context’s institutional semantics (policies, procedures, protocol rules) as potentially:
+`U.SpeechAct <: U.Work` is a kind declaration. An actual Work individual is admitted as `SA : U.SpeechAct` when its primary effect is **communicative**: it places an utterance through an optional channel in a way classified by an exact speech-act recognition taxonomy under an effective reference scheme and, when institutional force is claimed, by a current policy, procedure, or protocol rule as potentially:
 
 * asserting/informing,
 * requesting/directing,
@@ -6803,7 +6803,7 @@ How can FPF represent communicative enactments so that:
 
 Per A.7 and A.15.1, the actual speech-act occurrence is a Work individual; its `SpeechActRecord` and **utterance descriptions** are epistemes, while its **carriers** are utterance carriers, publication carriers, or traces that allow observation and audit. *(Note: “Surface” is reserved for MVPK publication/interoperability surfaces; do not use it here.)*
 
-Whether a given act type institutes commitments, permissions, or status changes is entirely context-policy dependent. Absent an explicit policy, treat `SA : U.SpeechAct` only as an actual communicative Work occurrence; neither its kind membership nor a complete-looking record licenses a deontic inference.
+Whether a given act type institutes commitments, permissions, publication relations, or status changes depends on an exact current policy or procedure and on the direct obtaining conditions of the claimed effect. Absent that basis, treat `SA : U.SpeechAct` only as actual communicative Work; neither its kind membership, recognition classification, channel, MethodDescription, nor a complete-looking record licenses a deontic or status inference.
 
 #### A.2.9:4.2 — Minimal occurrence-description record (normative)
 
@@ -6821,23 +6821,26 @@ SpeechActRecord ::=
     {
       speechActOccurrenceRef: SpeechActRef,
       performedBy: U.EntityRef,                     // resolves to the admitted U.System that acts
-      performedUnderAssignment: RoleAssignmentRef,  // exact covering role/authority ground
-      enactsMethodRef: optional<U.EntityRef>,        // resolves to the exact U.Method when recovered
-      methodDescriptionRef: optional<U.EpistemeRef>, // separate description, only when the use needs it
+      performedUnderAssignment: RoleAssignmentRef,  // exact obtaining assignment; A.2.1 owns its role taxonomy and scheme
+      enactsMethodRef: optional<U.EntityRef>,        // resolves to the exact U.Method enacted by the actual Work
+      methodDescriptionRef: optional<U.EpistemeRef>, // separate C.2.1 episteme used only when it identifies, constrains, or justifies that Method or intended Work
       unresolvedEnactsMethodClaimRef: optional<ClaimIdRef>,
       methodRelationGapProvenanceRef: optional<U.EpistemeRef>,
       reliancePosture: observationOnly | relianceReady,
       executedWithin: U.EntityRef,                   // claim about the containing U.System
-      window: [start, end | open],                   // claim about the occurrence's actual extent
-      judgementContextRef: U.BoundedContextRef,
+      window: [start, end | open],                   // the act occurrence's extent, never an instituted effect's validity interval
+      recognitionTaxonomyRef: U.EpistemeRef,         // exact speech-act recognition taxonomy
+      effectiveReferenceScheme: U.ReferenceScheme,  // scheme under which actTypes and cited policy/procedure are interpreted
+      policyOrProcedureRef: optional<U.EpistemeRef>, // current policy/procedure only when recognition or institutional force depends on it
+      channelRef: optional<U.EntityRef>,              // optional independently governed communication channel
       utteranceSubjectRefs: optional<set<U.EntityRef>>,
       institutionalTargetRefs: optional<set<U.EntityRef>>,
-      actTypes: set<SpeechActTypeRef>,               // ≥1 act types (supports multi-function)
-      addressedTo: optional<set<AddresseeRef>>,      // optional: who is addressed / audience
-      utteranceRefs: optional<set<DescriptionRef>>,  // where the utterance description is stated or recorded (A.7: Description)
-      carrierRefs: optional<set<CarrierRef>>,        // evidence carriers/traces (A.7: Carrier; use A.10 when evidentiary)
-      institutes: optional<InstitutedEffects>,       // references to objects/claims instituted/updated by this act
-      notes: optional<InformativeText>               // explicitly informative
+      actTypes: set<SpeechActTypeRef>,                // ≥1 satisfied classifications under the named taxonomy and scheme
+      addressedTo: optional<set<AddresseeRef>>,       // optional: who is addressed / audience
+      utteranceRefs: optional<set<DescriptionRef>>,   // where the utterance description is stated or recorded (A.7: Description)
+      carrierRefs: optional<set<CarrierRef>>,         // evidence carriers/traces (A.7: Carrier; use A.10 when evidentiary)
+      institutes: optional<InstitutedEffects>,        // references to separately obtaining objects/relations instituted or updated by this act
+      notes: optional<InformativeText>                // explicitly informative
     }
 
 DescriptionRef ::=
@@ -6845,8 +6848,8 @@ DescriptionRef ::=
   // Pointer to an utterance description (e.g., spec clause claim ID, a policy episteme, a message-content episteme).
 
 SpeechActTypeRef ::=
-  ContextLocalTokenRef
-  // Must be defined/recognized in the Work’s judgement context (bounded context).
+  RecognitionTaxonomyLocalTokenRef
+  // Must be defined by recognitionTaxonomyRef and satisfied under effectiveReferenceScheme.
 
 AddresseeRef ::=
   PartyRef | RoleRef | RoleAssignmentRef
@@ -6868,26 +6871,27 @@ InstitutedEffects ::=
 
 **Occurrence-side constraints:**
 
-* **(SA‑C0) Actual Work conformance.** The individual referenced by `speechActOccurrenceRef` **MUST** independently satisfy `U.Work` conformance (A.15.1), including the actual performer system, covering assignment, enacted method, containing system, temporal extent, and judgement-context anchoring. A complete record neither creates those facts nor substitutes for them.
-* **(SA‑C1) The accountable system performs; the assignment grounds.** The occurrence's actual performer **MUST** be an admitted `U.System`. The exact obtaining `U.RoleAssignment` under which it acts **MUST** have that system in `HolderSystemSlot` and cover the act. The assignment supplies role, authority, and attribution ground; it does not perform the act.
-* **(SA‑C2) Act types are occurrence classifications and context-local.** The occurrence **MUST** instantiate at least one `SpeechActTypeRef` recognized in its judgement context. A token written into a record does not establish that classification unless the context's predicate is satisfied.
-* **(SA‑C3) Time honesty.** The occurrence **MUST** have an actual temporal extent so freshness can be evaluated; a recorded timestamp is a claim about that extent, not the extent itself.
+* **(SA‑C0) Actual Work conformance.** The individual referenced by `speechActOccurrenceRef` **MUST** independently satisfy `U.Work` conformance under A.15.1: actual performer system, exact covering assignment and any current F.6 attribution, actual `enactsMethod -> U.Method`, containing system, and temporal extent. A complete record neither creates those facts nor substitutes for them. `methodDescriptionRef`, when present, cites a separate C.2.1 episteme used to identify, constrain, or justify that Method or intended Work; the description is not enacted.
+* **(SA‑C1) The accountable system performs; the assignment grounds.** The occurrence's actual performer **MUST** be an admitted `U.System`. The exact obtaining `U.RoleAssignment` under which it acts **MUST** have that system in `HolderSystemSlot` and cover the act. Recover the assignment's role value, role-taxonomy episteme, effective reference scheme, and obtaining extent under A.2.1. The assignment supplies role, authority, and attribution ground; it does not perform the act.
+* **(SA‑C2) Act types are independently satisfied recognition classifications.** The occurrence **MUST** instantiate at least one `SpeechActTypeRef` defined by the exact `recognitionTaxonomyRef` under the stated `effectiveReferenceScheme`. A token written into a record does not establish that classification. If a policy or procedure supplies an additional recognition condition, cite its exact current episteme and satisfy that condition separately.
+* **(SA‑C3) Time honesty and interval separation.** The occurrence **MUST** have an actual temporal extent so freshness can be evaluated; the record's `window` is a claim about that act extent, not the extent itself. Every instituted commitment, grant, publication relation, status relation, or other effect keeps its own independently governed occurrence or validity interval. Coincident boundaries do not merge act and effect.
+* **(SA‑C3a) Policy, procedure, and channel remain neighbors.** A cited `policyOrProcedureRef` is a separate current C.2.1 episteme; its currentness, applicability, and any edition relation must be established under their direct owners. An optional `channelRef` names an independently governed communication route or participating entity. Neither citation becomes the Method, the Work occurrence, an utterance description, a carrier, or an institutional effect merely by inclusion in the record.
 
-Keep three questions separate. `utteranceSubjectRefs` answers **what the utterance or claim is about**. `institutionalTargetRefs` answers **which object or relation the act is intended to institute or update under the named policy**. Actual change or institutional effect is a third world-side fact and is stated only through its exact direct change/effect relation and the matching typed `institutes.*` reference when the record needs it. An informative notice or assertion may have a subject without any institutional target or changed entity. Shared reference values do not collapse these relation meanings.
+Keep three questions separate. `utteranceSubjectRefs` answers **what the utterance or claim is about**. `institutionalTargetRefs` answers **which object or relation the act is intended to institute or update under the cited current policy or procedure**. Actual change or institutional effect is a third world-side fact and is stated only through its exact direct change/effect relation and the matching typed `institutes.*` reference when the record needs it. An informative notice or assertion may have a subject without any institutional target or changed entity. Shared reference values do not collapse these relation meanings.
 
 **Record- and reliance-side constraints:**
 
 * **(SA‑C4) A relied-on occurrence must be observable.** When a gate, checklist, commitment, or grant relies on a `SpeechActRef`, the `SpeechActRecord` **SHALL** identify that same occurrence and cite at least one applicable `utteranceRef`, `carrierRef`, or separately governed evidence relation. Evidence-critical uses **SHOULD** cite at least one carrier through A.10. Record completeness alone does not prove occurrence or institutional force.
-* **(SA‑C5) Institutional-effect claims are typed references to world-side effects.** `institutes.*` may reference only the exact commitment or relation occurrence through its declared RefKind. Each `institutes.permissions` value **MUST** be a `GrantedPermissionRelationRef@Context` whose context matches the speech-act occurrence's judgement context or is connected by the explicit Bridge used by the receiving claim. Each `institutes.publicationRelations` value **MUST** resolve to an obtaining `EpistemePublicationRelation` under E.24.PUB. A status claim is an episteme about an effect, not an instituted effect; keep it and its A.10 evidence relation outside `institutes.*`. The cited policy and direct world-side obtaining conditions still decide whether any effect exists.
-* **(SA‑C6) Cross-context use is Bridge-only.** If a `SpeechActRef` or `SpeechActRecord` is interpreted for checking, gate evidence, or provenance in a different bounded context than the occurrence's judgement context, the receiving claim **MUST** cite the Bridge/policy that licenses that interpretation rather than assuming equivalent force from the same label.
+* **(SA‑C5) Institutional-effect claims are typed references to world-side effects.** `institutes.*` may reference only the exact commitment or obtaining relation occurrence through its declared RefKind. Each `institutes.permissions` value **MUST** be an exact `GrantedPermissionRelationRef@Context` whose own participants, instituting policy, effective reference scheme, and validity interval satisfy A.2.8.PER; each `institutes.publicationRelations` value **MUST** resolve to an obtaining `EpistemePublicationRelation` under E.24.PUB. A status claim is an episteme about an effect, not an instituted effect; keep it and its A.10 evidence relation outside `institutes.*`. The cited current policy or procedure and the direct world-side obtaining conditions still decide whether any effect exists. A Bridge is added only if the receiving inference actually depends on translating or comparing local meanings across schemes.
+* **(SA‑C6) F.9 only for a real cross-locality dependency.** Cite an F.9 Bridge when a receiving check, gate, provenance claim, or effect inference actually compares, substitutes, or transfers a speech-act type or policy meaning between different local taxonomies, schemes, or policies. A different consumer, organization label, repository location, or downstream use does not by itself create that dependency. The same token in two local schemes does not establish equivalence, and a Bridge does not transfer institutional force by itself.
 
 #### A.2.9:4.3 — `SpeechActRef` discipline (normative)
 
 A **`SpeechActRef`** resolves to one actual Work individual admitted as `SA : U.SpeechAct`. It never denotes the kind itself or a `SpeechActRecord`.
 
-* If another object (for example, `U.Commitment.source.speechActRef`) cites a `SpeechActRef`, the referenced occurrence **MUST** satisfy occurrence-side **SA‑C0…SA‑C3**. A gate, audit, or provenance use additionally needs the record/evidence basis in **SA‑C4** and **SA‑C6** when cross-context.
+* If another object (for example, `U.Commitment.source.speechActRef`) cites a `SpeechActRef`, the referenced occurrence **MUST** satisfy occurrence-side **SA‑C0…SA‑C3a**. A gate, audit, or provenance use additionally needs the record/evidence basis in **SA‑C4** and needs **SA‑C6** only when its inference really crosses local taxonomies, schemes, or policies.
 * A `SpeechActRef` **MUST NOT** be replaced by an `EpistemeRef` (“see the document”) when occurrence provenance is needed. A `SpeechActRecord` or utterance-description episteme may make claims about the occurrence but is not the act.
-* If a source cannot complete a `SpeechActRecord`, it may create an observation stub with the candidate `speechActOccurrenceRef`, known claims, provenance for those claims, and explicit unknowns. When the actual `enactsMethod` relation is not recoverable, leave `enactsMethodRef` absent, cite the exact unresolved claim and source-gap provenance, and set `reliancePosture=observationOnly`. The stub does not make the candidate actual, satisfy occurrence-side conformance, or support gate/deontic provenance. It becomes reliance-ready only after the exact `enactsMethod -> U.Method` relation is recovered, or after the governing Work architecture explicitly establishes that this occurrence needs no such relation. Never mint an `AdHocCommunication` or other `U.MethodDescription` solely to fill the gap; a description neither is the method nor enacts itself.
+* If a source cannot complete a `SpeechActRecord`, it may create an observation stub with the candidate `speechActOccurrenceRef`, known claims, provenance for those claims, and explicit unknowns. When the actual `enactsMethod` relation is not recoverable, leave `enactsMethodRef` absent, cite the exact unresolved claim and source-gap provenance, and set `reliancePosture=observationOnly`. The stub does not make the candidate actual, satisfy occurrence-side conformance, or support gate/deontic provenance. It becomes reliance-ready only after the exact `enactsMethod -> U.Method` relation is recovered. Never mint an `AdHocCommunication` or other `U.MethodDescription` solely to fill the gap; a description neither is the method nor enacts itself.
 
 #### A.2.9:4.4 — Separation rules with `U.Commitment`, `GrantedPermissionRelation@Context`, and `U.PromiseContent` (normative)
 
@@ -6917,86 +6921,77 @@ A **`SpeechActRef`** resolves to one actual Work individual admitted as `SA : U.
 
 #### A.2.9:5.1 — Tell (universal rule)
 
-When governance or gating depends on “someone said/did X”, identify **that saying/doing** as an actual Work occurrence `SA : U.SpeechAct`. Add a `SpeechActRecord` only to state relied-on claims about it, and keep the utterance text and carriers separate. If the occurrence creates obligations, recommendations-as-duty, or prohibitions, cite explicit `U.Commitment` objects; if it creates strong permission, cite an explicit `GrantedPermissionRelation@Context`. The act institutes neither effect without the exact context policy.
+When governance or gating depends on “someone said/did X”, identify **that saying/doing** as actual Work `SA : U.SpeechAct`, its exact enacted `U.Method`, performer System, and obtaining assignment. Add a `SpeechActRecord` only to state relied-on claims about it, and keep any MethodDescription, optional channel, utterance text, and carriers separate. If the occurrence creates obligations, recommendations-as-duty, or prohibitions, cite explicit `U.Commitment` objects; if it creates strong permission, cite an exact `GrantedPermissionRelation@Context`. The act institutes neither effect without an exact current policy or procedure and the effect owner's independently satisfied conditions.
 
 #### A.2.9:5.2 — Show #1 (system archetype: change-control approval gates a deployment)
 
 **Situation (messy prose):**
 “Change is approved, so the pipeline may deploy.”
 
-**Conformant modeling sketch.** The first line names the actual Work individual. The following episteme reports claims about it; those claims must be true independently.
+**Conformant modeling sketch.** The first line names the actual communicative Work. The record then states claims about that occurrence; the assignment, Method, recognition classification, policy and grant must each obtain independently.
 
-* Actual occurrence: `SA-Approve-4711 : U.SpeechAct`
+* Actual occurrence: `SA-Approve-4711 : U.SpeechAct`.
+* Exact performer and assignment: admitted system `CAB_Chair_A` performs `SA-Approve-4711` under obtaining `CAB_Chair_A_ApproverAssignment_2026 : U.RoleAssignment`. That assignment independently exposes role value `ApproverRole`, role-taxonomy episteme `ChangeControlRoles_v3`, effective scheme `ChangeControlReferenceScheme_2026`, and an extent covering the act. The assignment grounds attribution; it does not act.
+* Actual method relation: `enactsMethod(SA-Approve-4711, ChangeApprovalMethod_v3)` independently obtains, with `ChangeApprovalMethod_v3 : U.Method`.
+* `SA-Approve-4711-Record : SpeechActRecord` states:
+  * `speechActOccurrenceRef = SpeechActRef(SA-Approve-4711)`;
+  * `performedBy = U.EntityRef(CAB_Chair_A)`;
+  * `performedUnderAssignment = RoleAssignmentRef(CAB_Chair_A_ApproverAssignment_2026)`;
+  * `enactsMethodRef = U.EntityRef(ChangeApprovalMethod_v3)`;
+  * `methodDescriptionRef = EpistemeRef(ChangeApprovalProcedure_v3)`, a separate C.2.1 episteme used here to identify and constrain the Method;
+  * `recognitionTaxonomyRef = EpistemeRef(ChangeControlSpeechActTaxonomy_v3)`;
+  * `effectiveReferenceScheme = ChangeControlReferenceScheme_2026`;
+  * `policyOrProcedureRef = EpistemeRef(ChangeControlApprovalPolicy_v3)`, current for this approval and grant use;
+  * `channelRef = U.EntityRef(CAB_TicketChannel)`;
+  * `actTypes = {SpeechActTypeRef(Approval)}` under that taxonomy and scheme;
+  * `reliancePosture = relianceReady`, `executedWithin = ChangeControlBoardSystem`, and `window = [2026-06-12T10:03Z, 2026-06-12T10:04Z]`;
+  * `utteranceSubjectRefs = {ChangeRequestId(4711)}`;
+  * `institutionalTargetRefs = {GrantedPermissionRelationRef@Context(PER-Deploy-4711)}`;
+  * `utteranceRefs = {EpistemeRef(ChangeTicket#4711)}` and `carrierRefs = {CarrierRef(TicketSystemRecord#4711)}`;
+  * `institutes.permissions = {GrantedPermissionRelationRef@Context(PER-Deploy-4711)}`.
 
-* `SA-Approve-4711-Record : SpeechActRecord`
+`PER-Deploy-4711 : GrantedPermissionRelation@Context` obtains separately under A.2.8.PER:
 
-  * `speechActOccurrenceRef = SpeechActRef(SA-Approve-4711)`
-  * `actTypes = {SpeechActTypeRef(Approval@ChangeControl)}`
-  * `performedBy = U.EntityRef(CAB_Chair_A)` where `CAB_Chair_A : U.System`
-  * `performedUnderAssignment = RoleAssignmentRef(CAB_Chair_A@ApproverRole@ChangeControl)`
-  * `enactsMethodRef = U.EntityRef(ChangeApprovalMethod_v3)`; the actual `enactsMethod` relation independently obtains
-  * `methodDescriptionRef = EpistemeRef(ChangeApprovalProcedure_v3)`
-  * `reliancePosture = relianceReady`
-  * `executedWithin = ChangeControlBoardSystem`
-  * `window = [t,t]`
-  * `judgementContextRef = ChangeControl`
-  * `utteranceSubjectRefs = {ChangeRequestId(4711)}`
-  * `institutionalTargetRefs = {GrantedPermissionRelationRef@ChangeControl(PER-Deploy-4711)}`
-  * `utteranceRefs = {EpistemeRef(ChangeTicket#4711)}`
-  * `carrierRefs = {CarrierRef(TicketSystemRecord#4711)}`
-  * `institutes.permissions = {GrantedPermissionRelationRef@ChangeControl(PER-Deploy-4711)}`
+* `beneficiaryRef = RoleAssignmentRef(OpsBot#DeployerRole:CD_Pipeline_v7)`;
+* `permittedActionSpecificationRef = EpistemeRef(DeployChange4711WorkSpecification)`;
+* `institutingSpeechActRef = SA-Approve-4711`;
+* `grantorAssignmentRef = RoleAssignmentRef(CAB_Chair_A_ApproverAssignment_2026)`;
+* `grantValidityPolicyRef = EpistemeRef(ChangeControlGrantPolicy_v3)` under `ChangeControlReferenceScheme_2026`; the separately cited `ChangeControlApprovalPolicy_v3` supplies the act-to-grant instituting rule;
+* scope, revocation stance, and validity interval `[2026-06-12T10:04Z, 2026-06-19T10:04Z]` are explicit.
 
-* `GrantedPermissionRelation@ChangeControl PER-Deploy-4711`
+The one-minute speech-act interval and seven-day grant interval are different facts even though the latter begins when the former ends.
 
-  * `beneficiaryRef = RoleAssignmentRef(OpsBot#DeployerRole:CD_Pipeline_v7)`
-  * `permittedActionSpecificationRef = EpistemeRef(DeployChange4711WorkSpecification)`
-  * `institutingSpeechActRef = SA-Approve-4711`
-  * `grantorAssignmentRef = RoleAssignmentRef(CAB_Chair_A@ApproverRole@ChangeControl)`
-  * `grantValidityPolicyRef = EpistemeRef(ChangeControlGrantPolicy_v3)`
-  * `scope`, `validityWindow`, and revocation stance are explicit.
 
-The utterance is about `ChangeRequestId(4711)`; its policy-selected institutional target and demonstrated effect are the separately obtaining grant occurrence. Nothing here claims that the change-request entity itself changed.
+The utterance is about `ChangeRequestId(4711)`; its policy-selected target and demonstrated effect are the separately obtaining grant. Nothing here claims that the change-request entity itself changed. Gate predicate `A-Gate-Deploy-4711` may check `exists SpeechAct(type=Approval, utteranceSubjectRefs includes ChangeRequestId(4711), performedBy=CAB_Chair_A, performedUnderAssignment role=ApproverRole, within 90d)`, consume the current grant, and apply other prerequisites; passing the gate neither institutes nor equals the grant. No F.9 Bridge is needed merely because a pipeline consumes the result: this case uses one exact taxonomy, scheme and policy. A Bridge becomes current only if another receiving use actually translates or compares a different local meaning.
 
-* Gate predicate `A-Gate-Deploy-4711` independently states whether deployment entry conditions hold. It may check `exists SpeechAct(type=Approval, utteranceSubjectRefs includes ChangeRequestId(4711), performedBy=CAB_Chair_A, performedUnderAssignment role=ApproverRole, within 90d)`, consume the current grant occurrence, and apply other prerequisites; passing the gate neither institutes nor equals the grant.
+**Near misses.** A ticket row alone is a carrier-backed claim, not the act. `ChangeApprovalProcedure_v3` is a MethodDescription, not what the act enacts. A current approver assignment does not prove that approval Work occurred. Without the exact current policies, the occurrence remains communicative Work but establishes no grant.
 
-This preserves:
-
-* kind vs actual act vs record vs utterance text vs carrier vs enduring grant,
-* explicit performer and grant beneficiary,
-* time window and policy for currentness,
-* explicit provenance from the grant to the instituting act, and
-* the distinction between strong permission and an admissibility gate.
+This case retains kind versus occurrence versus record, utterance versus carrier, explicit performer and grant beneficiary, exact act and grant intervals, current policy bases, provenance from grant to instituting act, and strong permission versus admissibility gate as independently judgeable distinctions.
 
 #### A.2.9:5.3 — Show #2 (episteme archetype: publishing a spec edition without making the spec an agent)
 
 **Situation (anti-pattern):**
 “The interface spec declares MUST/SHALL requirements.”
 
-**Conformant modeling sketch.** `SA-Publish-API-v12` is the actual occurrence; the record is a separate episteme about it.
+**Conformant modeling sketch.** `SA-Publish-API-v12 : U.SpeechAct` is the actual occurrence. Admitted system `StandardsEditor_A` performs it under obtaining `StandardsEditor_A_PublisherAssignment_v12`; that assignment independently identifies `PublisherRole`, role-taxonomy episteme `StandardsRoles_v12`, effective scheme `APISpecReferenceScheme_v12`, and an extent covering the act. `enactsMethod(SA-Publish-API-v12, SpecPublicationMethod_v12)` independently obtains; `SpecReleaseProcedure_v12` is only a separate description of that exact Method.
 
-* Actual occurrence: `SA-Publish-API-v12 : U.SpeechAct`
+`SA-Publish-API-v12-Record : SpeechActRecord` states:
 
-* `SA-Publish-API-v12-Record : SpeechActRecord`
+* `speechActOccurrenceRef = SpeechActRef(SA-Publish-API-v12)`;
+* `performedBy = U.EntityRef(StandardsEditor_A)` and `performedUnderAssignment = RoleAssignmentRef(StandardsEditor_A_PublisherAssignment_v12)`;
+* `enactsMethodRef = U.EntityRef(SpecPublicationMethod_v12)` and `methodDescriptionRef = EpistemeRef(SpecReleaseProcedure_v12)`;
+* `recognitionTaxonomyRef = EpistemeRef(APISpecSpeechActTaxonomy_v12)` and `effectiveReferenceScheme = APISpecReferenceScheme_v12`;
+* `policyOrProcedureRef = EpistemeRef(APISpecPublicationPolicy_v12)` and optional `channelRef = U.EntityRef(StandardsReleaseChannel)`;
+* `actTypes = {SpeechActTypeRef(Publish), SpeechActTypeRef(DeclareNorms)}` under that taxonomy and scheme;
+* `reliancePosture = relianceReady`, `executedWithin = SpecPublicationSystem`, and `window = [2026-06-14T09:00Z, 2026-06-14T09:06Z]`;
+* `utteranceSubjectRefs = {EpistemeRef(APISpec_v12)}`, `institutionalTargetRefs = {EpistemeRef(APISpec_v12)}`, `utteranceRefs = {EpistemeRef(APISpec_v12)}`, and `carrierRefs = {CarrierRef(GitTag:v12), CarrierRef(SignedReleaseArtifact:v12)}`;
+* `institutes.publicationRelations = {EpistemePublicationRelationRef(APISpec-v12-Publication)}`.
 
-  * `speechActOccurrenceRef = SpeechActRef(SA-Publish-API-v12)`
-  * `actTypes = {SpeechActTypeRef(Publish@APISpecContext), SpeechActTypeRef(DeclareNorms@APISpecContext)}`
-  * `performedBy = U.EntityRef(StandardsEditor_A)` where `StandardsEditor_A : U.System`
-  * `performedUnderAssignment = RoleAssignmentRef(StandardsEditor_A@PublisherRole@APISpecContext)`
-  * `enactsMethodRef = U.EntityRef(SpecPublicationMethod_v12)`; the actual `enactsMethod` relation independently obtains
-  * `methodDescriptionRef = EpistemeRef(SpecReleaseProcedure_v12)`
-  * `reliancePosture = relianceReady`
-  * `executedWithin = SpecPublicationSystem`
-  * `window = [t,t]`
-  * `judgementContextRef = APISpecContext`
-  * `utteranceSubjectRefs = {EpistemeRef(APISpec_v12)}`
-  * `institutionalTargetRefs = {EpistemeRef(APISpec_v12)}`
-  * `utteranceRefs = {EpistemeRef(APISpec_v12)}`
-  * `carrierRefs = {CarrierRef(GitTag:v12), CarrierRef(SignedReleaseArtifact:v12)}`
-  * `institutes.publicationRelations = {EpistemePublicationRelationRef(APISpec-v12-Publication)}`
+`APISpec-v12-Publication : EpistemePublicationRelation` separately names the selected `APISpec_v12` edition, audience declaration, bounded-use declaration, publication form, exact carrier, availability interval and governing publication conditions under E.24.PUB. It obtains only while that exact edition remains available under those conditions. Its interval need not equal the six-minute publishing act. The same episteme can be both utterance subject and publication object without those relations becoming identical.
 
-* `APISpec-v12-Publication : EpistemePublicationRelation` separately names the selected `APISpec_v12` edition, audience declaration, bounded-use declaration, publication form, and exact carrier; it obtains only while that edition is available under E.24.PUB.
+The act does not change the spec's claim content or make the episteme an actor. If `D-StdStatus-APISpec_v12-Published` is needed, keep it as a separate C.2.1 claim about the exact publication relation and cite its evidence through A.10; do not put the claim in `institutes`. Norms live in the published utterance description, while `StandardsEditor_A` performs the publishing Work. Another audience or scheme needs F.9 only when a receiving use actually translates or substitutes the local act or policy meaning.
 
-The same `APISpec_v12` episteme is both the subject of the publication utterance and the object made available by the publication relation, but those are different relations. The act does not thereby change the spec's claim content or make the episteme an actor. If `D-StdStatus-APISpec_v12-Published` is needed, keep it as a separate C.2.1 claim about the publication occurrence and cite its evidence through A.10; do not put the claim in `institutes`. Norms live in the **published utterance descriptions**, while the **act of publication** is performed by `StandardsEditor_A` under its publisher assignment.
+**Bounded non-use.** If the only question is what `APISpec_v12` says, stop at A.7/C.2/E.17. If the question is whether it is available to an audience, use E.24.PUB. If the question is evidentiary support for a status claim, use A.10. Keep A.2.9 only when the actual communicative Work occurrence itself matters.
 
 ### A.2.9:6 — Bias-Annotation
 
@@ -7010,14 +7005,16 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Ke
 
 ### A.2.9:7 — Conformance Checklist (normative)
 
-1. **CC‑A.2.9‑1 (Occurrence, performer, and assignment).** One actual Work individual is admitted as `SA : U.SpeechAct`; its performer is an admitted accountable `U.System`, and the exact covering `U.RoleAssignment` has that system as holder. Any `SpeechActRecord` states those as claims and **MUST NOT** make the assignment, role value, organizational label, episteme, or carrier the performer.
-2. **CC‑A.2.9‑2 (Act-type predicate).** The actual occurrence satisfies at least one context-local `SpeechActTypeRef`; merely writing a token into `SpeechActRecord.actTypes` is insufficient.
-3. **CC‑A.2.9‑3 (Actual extent versus timestamp claim).** The occurrence has an actual temporal extent. A record's `window` must truthfully state that extent at the required precision; it does not create it.
-4. **CC‑A.2.9‑4 (Observable relied-on occurrence).** If a checklist, guard, commitment, or grant cites the occurrence, one `SpeechActRecord` identifies it and cites an applicable utterance, carrier, or direct evidence relation. Evidence-critical uses **SHOULD** cite at least one carrier through A.10.
-5. **CC‑A.2.9‑5 (Typed world-side effects, separate claims).** A record's `institutes.*` branch references only an exact commitment or obtaining relation occurrence through its declared RefKind. A grant uses `GrantedPermissionRelationRef@Context`; publication uses `EpistemePublicationRelationRef`; a subject-specific status uses its direct relation type. A status claim and its evidence stay separate, and no record field makes any effect obtain.
-6. **CC‑A.2.9‑6 (Bridge-only cross-context use).** A receiving claim that interprets a `SpeechActRef` or `SpeechActRecord` in another bounded context cites the Bridge/policy that licenses that interpretation.
-7. **CC‑A.2.9‑7 (No fabricated method anchor).** If the occurrence's actual `enactsMethod -> U.Method` relation cannot be recovered, the record names the unresolved claim and source-gap provenance, remains `observationOnly`, and is not used for gate or deontic provenance. A placeholder `U.MethodDescription` never closes the gap.
-8. **CC‑A.2.9‑8 (Subject, target, and effect stay distinct).** A record uses `utteranceSubjectRefs` for aboutness and `institutionalTargetRefs` only for a policy-selected target. It claims actual change or institutional effect only through the exact direct relation; an informative act needs no changed target.
+1. **CC‑A.2.9‑1 (Occurrence, performer, and assignment).** One actual Work individual is admitted as `SA : U.SpeechAct`; its performer is an admitted accountable `U.System`, and the exact obtaining `U.RoleAssignment` has that system as holder and exposes its own role value, role-taxonomy episteme, effective reference scheme, and covering extent. Any `SpeechActRecord` states those as claims and **MUST NOT** make the assignment, role value, organizational label, episteme, or carrier the performer.
+2. **CC‑A.2.9‑2 (Exact Method and auxiliary description).** The actual occurrence independently satisfies `enactsMethod -> U.Method`. A current `methodDescriptionRef` resolves to a separate C.2.1 episteme used to identify, constrain, or justify that Method or intended Work; neither the reference nor the description is enacted.
+3. **CC‑A.2.9‑3 (Recognition taxonomy and scheme).** The actual occurrence satisfies at least one `SpeechActTypeRef` defined by the exact recognition-taxonomy episteme under the stated effective reference scheme. Merely writing a token into `SpeechActRecord.actTypes` is insufficient.
+4. **CC‑A.2.9‑4 (Actual extent versus effect interval).** The occurrence has an actual temporal extent, and a record's `window` truthfully states it at the required precision. Every instituted relation keeps its own occurrence or validity interval; neither interval creates or absorbs the other.
+5. **CC‑A.2.9‑5 (Observable relied-on occurrence).** If a checklist, guard, commitment, or grant cites the occurrence, one `SpeechActRecord` identifies it and cites an applicable utterance, carrier, or direct evidence relation. Evidence-critical uses **SHOULD** cite at least one carrier through A.10.
+6. **CC‑A.2.9‑6 (Current policy and typed world-side effects).** A record's `institutes.*` branch references only an exact commitment or obtaining relation occurrence through its declared RefKind. The exact current policy or procedure and direct owner establish any institutional effect; a status claim and its evidence stay separate, and no record field makes an effect obtain.
+7. **CC‑A.2.9‑7 (F.9 only for actual cross-locality dependence).** A receiving claim cites an F.9 Bridge only when it really compares, substitutes, or transfers speech-act or policy meaning across different local taxonomies, schemes, or policies. A new consumer or locality label alone neither requires a Bridge nor transfers force.
+8. **CC‑A.2.9‑8 (No fabricated method anchor).** If the occurrence's actual `enactsMethod -> U.Method` relation cannot be recovered, the record names the unresolved claim and source-gap provenance, remains `observationOnly`, and is not used for gate or deontic provenance. A placeholder `U.MethodDescription` never closes the gap.
+9. **CC‑A.2.9‑9 (Subject, target, and effect stay distinct).** A record uses `utteranceSubjectRefs` for aboutness and `institutionalTargetRefs` only for a policy-selected target. It claims actual change or institutional effect only through the exact direct relation; an informative act needs no changed target.
+10. **CC‑A.2.9‑10 (Optional channel stays separate).** A `channelRef`, utterance description, carrier, or trace may support identification or observation but is not the speech act, Method, performer, assignment, or instituted effect.
 
 ### A.2.9:8 — Common Anti-Patterns and How to Avoid Them
 
@@ -7029,7 +7026,10 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Ke
 | **Placeholder method as Work anchor**                                     | a fabricated description hides an unknown world-side relation | leave `enactsMethodRef` unresolved with source-gap provenance and `observationOnly`; recover the actual method relation before reliance |
 | **`affected` as aboutness, target, and effect**                            | one field makes mention look like world-side change | state the utterance subject and intended institutional target separately; cite an exact obtaining change/effect relation only when one exists |
 | **Status claim listed as instituted effect**                              | a claim ID is mistaken for the status it describes | cite the exact status or publication relation occurrence; keep the C.2.1 claim and A.10 evidence separate |
-| **Free-text type** (“type=‘approved-ish’”)                                | not lintable; drifts across faces    | register `SpeechActTypeRef` in the context and use it                                    |
+| **Free-text type** (“type=‘approved-ish’”)                                | not lintable; drifts across schemes  | define `SpeechActTypeRef` in the exact recognition-taxonomy episteme and interpret it under the effective reference scheme |
+| **Generic judgement-context field**                                      | one container word hides taxonomy, scheme, policy, channel, and receiving use | name only the exact recognition taxonomy, effective scheme, current policy/procedure, optional channel, and any actual F.9 crossing |
+| **MethodDescription as enacted Method**                                  | a procedure episteme is made the world-side way of doing | recover exact `enactsMethod -> U.Method`; cite `methodDescriptionRef` only as a separate identifying, constraining, or justifying episteme |
+| **Channel or carrier as act**                                            | transmission or evidence is mistaken for communicative Work | identify the exact speech-act occurrence; keep optional channel, utterance description, and carriers in their direct relations |
 | **Act carries obligations** (obligations embedded as prose in speech act) | collapses act and deontic binding    | model obligations as `U.Commitment` objects instituted by the act                        |
 | **Gating without window**                                                 | cannot evaluate freshness            | add explicit `window` and reference it in the guard/checklist                            |
 | **Hidden multi-act** (one event silently creates multiple commitments)    | loses traceability; creates disputes | represent multi-function via `actTypes` set or multiple speech acts sharing the same carrier |
@@ -7045,11 +7045,11 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Ke
 **Trade-offs / mitigations**
 
 * Reliance-bearing uses require a small structured `SpeechActRecord` plus adequate evidence; ordinary occurrence talk needs no record when no later claim must cite it.
-* Requires context-local `SpeechActTypeRef` registration; mitigated by starting with a small set (Approve, Revoke, Publish, Notify, Authorize) and extending as needed.
+* Requires one exact recognition-taxonomy episteme and effective reference scheme for `SpeechActTypeRef`; mitigated by starting with a small set (Approve, Revoke, Publish, Notify, Authorize) and extending that taxonomy deliberately.
 
 ### A.2.9:10 — Rationale
 
-FPF already relies on communicative acts (approvals, notices, overrides) as operationally meaningful events. A.2.9 therefore admits `U.SpeechAct` as the Work kind, treats each actual act as a temporally bounded Work individual under it, and uses `SpeechActRecord` only for claim-bearing representation. That separation keeps performer, scope, time, utterance descriptions, carriers, and separately governed deontic effects (`U.Commitment` or `GrantedPermissionRelation@Context`) inspectable without letting a record stand in for actuality.
+FPF already relies on communicative acts (approvals, notices, overrides) as operationally meaningful events. A.2.9 therefore admits `U.SpeechAct` as the Work kind, treats each actual act as a temporally bounded Work individual enacting an exact Method, and uses `SpeechActRecord` only for claim-bearing representation. That separation keeps performer, obtaining assignment, role and recognition taxonomies, effective schemes, any receiving claim scope, optional MethodDescription and channel, act interval, utterance descriptions, carriers, and separately governed effect intervals and deontic relations (`U.Commitment` or `GrantedPermissionRelation@Context`) inspectable without letting a record stand in for actuality.
 
 This also improves modularity:
 
@@ -7068,7 +7068,7 @@ This also improves modularity:
 
 **Uses / builds on**
 
-* Uses **A.15.1 (`U.Work`)** for the event/work backbone (actual performer system, covering assignment, window, and stance).
+* Uses **A.15.1 (`U.Work`)** for the occurrence backbone: actual performer system, exact covering assignment, actual `enactsMethod -> U.Method`, temporal extent, containing system, and a separate optional `methodDescriptionRef`.
 * Uses **A.7** for the strict actual-act≠record/description≠carrier split.
 * Coordinates with **A.2.6** for scope/window discipline.
 
@@ -8070,27 +8070,28 @@ Refresh this pattern when current work on process theory, effect systems, execut
 
 ### A.3.3:1 - Problem frame
 
-Use this pattern when a project needs one reusable model of **how state changes** in a bounded context: a state space, a transition law, an observation relation, and the conditions under which prediction, simulation, calibration, conformance, drift, or gating claims are warranted.
+Use this pattern when a project needs one reusable claim about **how the state of an exact EntityOfConcern can change**: a state space, a transition law, an observation relation, and the conditions under which prediction, simulation, calibration, conformance, drift, or gating claims may be relied on.
 
 Use it when the working question is:
 
-* which holon, episteme, system-in-role, claim, service, resource bundle, architecture, or other EntityOfConcern has changing state;
-* which characteristics define the state space;
+* which exact holon, episteme, system-in-role, claim, service, resource bundle, architecture, or other EntityOfConcern has changing state;
+* which characteristics and local meanings define the state space;
 * which transition law states how those coordinates evolve;
 * which observations or work-derived traces can be compared with the law;
+* over which operating region, claim scope, qualification window, parameter regime, or scale band the claim applies; and
 * whether a prediction can be used for comparison, gating, assurance, planning, or control.
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is `U.Dynamics`: an `U.Episteme` that specifies a state space and a state-transition law for one or more EntitiesOfConcern in a bounded context.
+**Primary governed object.** A.3.3 examines one already identified claim-bearing `U.Episteme` candidate and judges whether that same individual belongs to the dependent kind `U.Dynamics`. Positive membership requires its exact C.2.1 `EntityOfConcern` to be the thing whose state is modelled and its ClaimGraph, interpreted under its effective `U.ReferenceScheme`, to declare both a state space and a state-transition law for that subject. C.2.1 keeps the episteme's identity; A.3.3 adds no second identity and no generic locality participant.
 
-**E.24.UK settlement.** `U.Dynamics` is retained as a dependent durable U-kind under the `U.Episteme` settlement. Its durable value is the reusable state-space and transition-law episteme for changing state in a bounded context. It is not a root change kind, not the changed EntityOfConcern, not a work occurrence, and not a flow structure; components such as `stateSpace`, `transitionLaw`, `observationRelation`, and `calibrationOrParameterSource` remain slots or claim graphs inside the dynamics episteme unless another governing pattern makes one of them separately addressable.
+**E.24.UK settlement.** `U.Dynamics` remains a dependent durable U-kind under `U.Episteme`. It is the reusable state-space and transition-law episteme, not a root change kind, the changed EntityOfConcern, a selected `U.Structure`, a method or method description, a work occurrence, an actual transformation, or a flow structure. Components such as `stateSpace`, `transitionLaw`, `observationRelation`, and `calibrationOrParameterSource` remain ClaimGraph content or references inside the dynamics episteme unless another governing pattern independently identifies one of them.
 
-**First useful move.** Name the changing EntityOfConcern, the bounded context, the state-space characteristics, the transition law, the observation relation, and the applicability window. If these cannot be named, the current claim is not yet ready for prediction, conformance, or gate use.
+**First useful move.** In one ordinary sentence, name the exact changing subject, the state coordinates and their meanings, the rule that relates earlier and later state, where that rule applies, and the nearest condition that stops its use. If that is enough for the current comparison, stop. Add observation, calibration, evidence, temporal, mathematical-lens, assurance, or gate machinery only when the proposed receiving use needs it. Before making a prediction, conformance, or gate-use claim, name the observation relation and exact applicability window; if either is unavailable, stop that stronger use.
 
-**What goes wrong if missed.** Procedure text becomes "the dynamics", telemetry becomes a law, one observed run becomes a prediction, a dashboard becomes a state space, or a simulation becomes permission to act.
+**What goes wrong if missed.** Procedure text becomes "the dynamics", telemetry becomes a law, one observed run becomes a prediction, a dashboard becomes a state space, a description or selected graph is mistaken for the dynamics episteme, or a simulation becomes permission to act.
 
-**What this buys in practice.** Practitioners can compare predictions with traces, decide whether stale predictions may still be used, separate methods from laws of change, and decide where mathematical-lens, temporal, evidence, assurance, or gate patterns must take over.
+**What this buys in practice.** Practitioners can compare predictions with traces, decide whether stale predictions may still be used, separate Methods and MethodDescriptions from laws of change, and decide where characteristic, scope, temporal, mathematical-lens, evidence, assurance, or gate patterns must take over.
 
-**Not this pattern when.** If the source only states a semantic way of doing, use `A.3.1`. If it states an episteme describing that way, use `A.3.2`. If it states bounded transformation under conditions, use `A.3.4`. If it states planned work or dated work, use `A.15.2` or `A.15.1`. If it states a mechanism algebra, use `A.6.1` and `E.20`. If it states only freshness, rhythm, inertia, delay, window, or currentness as a positive temporal aspect, use `C.27.TA`; if it states adequacy or supported use of an authored temporal claim, use `C.27`. If it states only evidence or assurance, use `A.10` or `B.3`.
+**Not this pattern when.** If the source only states a semantic way of doing, use `A.3.1`. If one episteme substantively describes that admitted Method, use `A.3.2`; A.3.2 neither identifies a dynamics episteme nor owns a selected organization among several Methods. If the question is an independently selected organization of exact constituents and obtaining relations, use `A.22`. If the source states one actual bounded change established by the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification, use `A.3.4`; a possible, predicted, simulated, or probable transition remains claim content and supplies no work, gate, release, or permission authority. If it states planned work or dated work, use `A.15.2` or `A.15.1`. If it states a mechanism algebra, use `A.6.1` and `E.20`. If it states only freshness, rhythm, inertia, delay, window, or currentness as a positive temporal aspect, use `C.27.TA`; if it states adequacy or supported use of an authored temporal claim, use `C.27`. If it states only evidence or assurance, use `A.10` or `B.3`.
 
 ### A.3.3:2 - Problem
 
@@ -8117,20 +8118,25 @@ Without a first-class `U.Dynamics`, state-change claims collapse into nearby but
 
 #### A.3.3:4.1 - Definition
 
-Within a `U.BoundedContext`, `U.Dynamics` is an `U.Episteme` that specifies a **state space** and a **state-transition law** for one or more EntitiesOfConcern, possibly under exogenous inputs, constraints, and observation relations.
+`U.Dynamics` is a same-individual dependent kind of `U.Episteme`. Membership holds when one already identified episteme has the changing subject as its exact C.2.1 `EntityOfConcern` and its ClaimGraph, interpreted under the effective `U.ReferenceScheme`, substantively declares both a state space and a state-transition law for that subject. The law may include exogenous inputs, constraints, disturbances, and an observation relation.
 
-`U.Dynamics` can be deterministic or stochastic, continuous, discrete, or hybrid. It can describe physical systems, software services, organizations, episteme states, claim states, resource states, architecture characteristics, or other holons whose state change is being modeled.
+The C.2.1 ClaimGraph, exact `EntityOfConcern`, and effective `U.ReferenceScheme` remain the episteme's identity discriminators. A.3.3 adds no context field or second dynamics identity. A `U.ClaimScope`, operating region, applicability window, qualification interval, parameter regime, or scale band enters only through the exact claim that uses it and its direct owner; changing one can change claim content without becoming an ambient container.
 
-It does not prescribe what an agent should do. A semantic way of doing belongs to `U.Method`; an episteme describing that way belongs to `U.MethodDescription`; a dated occurrence belongs to `U.Work`; a planned occurrence belongs to `U.WorkPlan`; a mechanism law belongs to `U.Mechanism`; evidence and assurance claims belong to their own governing patterns.
+`U.Dynamics` can be deterministic or stochastic, continuous, discrete, or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another exact EntityOfConcern. If several subjects are jointly modelled, the exact C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject; list proximity does not create one.
+
+It does not prescribe what an agent should do. A semantic way of doing belongs to `U.Method`; an episteme describing one admitted Method belongs to `U.MethodDescription`; a dated occurrence belongs to `U.Work`; a planned occurrence belongs to `U.WorkPlan`; an actual bounded change belongs to `U.Transformation`; a mechanism law belongs to `U.Mechanism`; a selected organization belongs to A.22 `U.Structure`; and evidence, publication, result, reliance, assurance, gate, and authorization claims remain with their direct owners. None of those objects establishes dynamics membership by being cited, adjacent, displayed, or used.
+
+If empirical grounding is claimed, state the exact C.2.1 `EpistemeEmpiricalGroundingRelation`. A calibration source, observation record, dated calibration Work, evaluation result, A.10 evidence-provenance path, or B.3 assurance claim remains separately identified and does not become an intrinsic grounding field of `U.Dynamics`.
 
 #### A.3.3:4.2 - Dynamics statement
 
-Use this compact statement when applying the pattern:
+Use this compact aid only when the ordinary sentence is insufficient for the current decision:
 
 ```text
 Dynamics statement:
+  CandidateEpisteme:
   EntityOfConcern:
-  BoundedContext:
+  EffectiveReferenceScheme:
   StateSpace:
   TransitionLaw:
   TimeReference:
@@ -8138,14 +8144,15 @@ Dynamics statement:
   InputsOrDisturbances:
   ObservationRelation:
   ConstraintsOrInvariants:
-  ApplicabilityWindow:
-  CalibrationOrParameterSource:
+  ClaimScopeIfReliedOn:
+  OperatingRegionAndApplicabilityWindow:
+  CalibrationOrParameterSourceIfReliedOn:
   PredictionUse:
-  EvidenceRelation:
+  EvidenceOrAssurancePathIfReliedOn:
   StopCondition:
 ```
 
-This statement is not an instruction sequence. It is the smallest episteme-facing record needed to keep the law of change separate from methods, work, evidence, and authority.
+This aid is not an instruction sequence, identity schema, record kind, method description, selected structure, or second carrier. C.2.1 identifies the candidate episteme. The rows expose the minimum claim content and separately governed references needed to keep a law of change distinct from Method, MethodDescription, Structure, Work, actual transformation, result, publication, evidence, reliance, assurance, and authority.
 
 #### A.3.3:4.3 - Working distinction table
 
@@ -8153,7 +8160,7 @@ This statement is not an instruction sequence. It is the smallest episteme-facin
 | --- | --- |
 | state space and transition law for changing state | `A.3.3 U.Dynamics` |
 | semantic way of doing | `A.3.1 U.Method` |
-| text, code, diagram, model, proof script, or protocol describing a method | `A.3.2 U.MethodDescription` |
+| claim-bearing episteme whose exact EntityOfConcern is one admitted Method and whose claims substantively describe that Method; text, code, diagram, model, proof script, or protocol may represent those claims | `A.3.2 U.MethodDescription` for membership; `C.29` and publication owners for representation or availability when current |
 | planned dated work | `A.15.2 U.WorkPlan` |
 | dated work occurrence and actuals | `A.15.1 U.Work` |
 | mechanism algebra, admissible operation, or law-governed application over a subject kind | `A.6.1 U.Mechanism` and `E.20` |
@@ -8161,51 +8168,59 @@ This statement is not an instruction sequence. It is the smallest episteme-facin
 | observation, trace, conformance result, source, or provenance used as evidence | `A.10` and direct evidence-related patterns |
 | assurance case, trust calculus, or safety argument | `B.3` or the direct assurance pattern |
 | gate passage, release, authority, or permission to act | `A.20`, `A.21`, or the direct gate or authority pattern |
-| bounded transformation under conditions | `A.3.4 U.Transformation` |
+| actual bounded change identified by exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification | `A.3.4 U.Transformation` |
 | freshness, delay, rhythm, currentness, inertia, cadence, or validity window as a positive temporal aspect | `C.27.TA` |
 | adequacy or supported use of an authored temporal claim | `C.27` |
 
 #### A.3.3:4.4 - State-space and transition-law fields
 
+The following is a claim-content view of one C.2.1 episteme, not another object identity or mandatory serialization:
+
 ```text
-U.Dynamics {
-  context: U.BoundedContext
+U.Dynamics membership view {
+  candidateEpisteme: U.Episteme
   entityOfConcern: EntityOfConcern
-  stateSpace: state-space declaration over FPF characteristics
-  transitionLaw: claim graph inside U.Dynamics
-  timeReference: continuous | discrete | hybrid
-  stochasticity: deterministic | stochastic
-  inputsOrDisturbances?: CharacteristicSet
-  observationRelation?: claim graph or relation reference inside U.Dynamics
-  constraintsOrInvariants?: claim graph inside U.Dynamics
-  applicabilityWindow?: ConditionSet
-  calibrationOrParameterSource?: source or calibration episteme reference
+  effectiveReferenceScheme: U.ReferenceScheme
+  claimGraph: {
+    stateSpace: state-space declaration over FPF characteristics
+    transitionLaw: state-transition claim
+    timeReference: continuous | discrete | hybrid
+    stochasticity: deterministic | stochastic
+    inputsOrDisturbances?: CharacteristicSet
+    observationRelation?: claim or exact relation reference
+    constraintsOrInvariants?: claim content
+    claimScopeIfReliedOn?: U.ClaimScope
+    operatingRegionAndApplicabilityWindow?: ConditionSet
+    calibrationOrParameterSourceIfReliedOn?: exact source or calibration-episteme reference
+  }
 }
 ```
 
-`stateSpace` is the state-space declaration of this `U.Dynamics` episteme. It uses FPF characteristics with units, scales, and comparability rules, and may cite `A.19` or `C.16` when characteristic or measurement construction is being made. It is not the same object as a receiving-evaluation `CharacteristicSpace` used to score an object for improvement. The dynamics state space may include topology, geometry, aggregation policy, or coordinate transformations when trajectories or comparisons need them.
+`stateSpace` is claim content of this `U.Dynamics` episteme. It uses characteristics with local meanings, units, scales, and comparability rules, and may cite `A.19` or `C.16` when characteristic or measurement construction is being claimed. It is not the same object as a receiving-evaluation `CharacteristicSpace` used to score an object for improvement. The dynamics state space may claim topology, geometry, aggregation policy, or coordinate transformations when trajectories or comparisons need them; an independently selected organization among exact constituents and obtaining relations remains A.22 `U.Structure`.
 
-`transitionLaw` is paradigm-agnostic. It can be an equation, relation, kernel, finite-state transition, queueing model, Bayesian update, Petri-net firing relation, simulation rule, learned predictor, or hybrid model, provided the state space and applicability window are declared.
+`transitionLaw` is paradigm-agnostic. It can be an equation, relation, kernel, finite-state transition, queueing model, Bayesian update, Petri-net firing relation, simulation rule, learned predictor, or hybrid model, provided the state space, semantic basis, and applicability boundary are declared.
 
-`transitionLaw`, `observationRelation`, `constraintsOrInvariants`, and `calibrationOrParameterSource` are components or claim graphs inside the `U.Dynamics` episteme unless another governing pattern makes one of them a separately addressable episteme, source, or relation value. Naming one component does not split `U.Dynamics` into several unrelated epistemes.
+`transitionLaw`, `observationRelation`, `constraintsOrInvariants`, and `calibrationOrParameterSourceIfReliedOn` are ClaimGraph content or exact references inside the `U.Dynamics` episteme unless another governing pattern independently identifies one as an episteme, source, relation, or structure. Naming or displaying one component does not split `U.Dynamics`, create a MethodDescription, or make a relation obtain.
 
-`observationRelation` separates state from what can be measured, sampled, logged, estimated, or inferred. Identity observation is allowed only when the context says the state coordinate is directly observed.
+`observationRelation` separates state from what can be measured, sampled, logged, estimated, or inferred. Identity observation is allowed only when the claim says the state coordinate is directly observed. Any exact measurement result, observation record, dated Work, provenance path, empirical-grounding relation, or assurance claim remains under its direct owner.
 
 #### A.3.3:4.5 - Evidence, prediction, conformance, drift, and calibration
 
-Let `D` be a `U.Dynamics` in context `C`, and let `W` be dated `U.Work` records or observation records produced under `C`.
+Let `D` be a `U.Dynamics` about exact EntityOfConcern `E`. Let `W` denote only exact dated `U.Work` occurrences when Work is current, and let `O` denote separately identified observation, telemetry, source, or measurement records. Neither a record nor a Work occurrence is part of `D` merely because a trace cites it.
 
 | Derived value | Meaning |
 | --- | --- |
-| `trace(W, D)` | ordered observed values produced by applying `D.observationRelation` to work records, telemetry, source records, or measurements |
-| `initialState(W, D)` | stated, measured, or estimated state at trace start |
+| `trace(W, O, D)` | ordered observed values produced by the declared observation relation from exact Work-side facts when present and separately identified telemetry, source, observation, or measurement records |
+| `initialState(W, O, D)` | stated, measured, or estimated state at trace start, with the exact statement or result and its owner recoverable |
 | `predict(D, initialState, inputs, horizon)` | trajectory or distribution generated by the transition law over the declared horizon |
 | `insideOperatingRegion(D, state)` | check against constraints, invariants, and applicability window |
 | `residuals(D, trace)` | discrepancies between predicted and observed values under a stated alignment |
 | `fits(D, trace, tolerancePolicy)` | conformance verdict under a declared tolerance, likelihood, interval, or distributional policy |
 | `drift(D1, D2, domain)` | divergence between two dynamics versions over a declared operating domain |
 
-Calibration outcomes produce a new or updated dynamics episteme. They do not turn the old law into a dated work record and do not make the new law authoritative for gates without the gate pattern.
+These expressions name claim-side calculations or questions. A calculated value does not by itself establish an observation, conformance, drift, measurement, evaluation, gate, or assurance result. When such a result is claimed, its direct evaluation or measurement owner supplies the criterion, application and result semantics; C.2.1 identifies any persisted result episteme, and A.10 or B.3 governs only the separately claimed reliance or assurance use.
+
+Calibration Work and its domain result may support a later dynamics episteme whose changed ClaimGraph receives its own C.2.1 identity; an `EpistemeEditionRelation` obtains only when C.2.1's exact continuation predicate is separately established. Calibration does not mutate the earlier episteme into Work, identify the result as dynamics, supply intrinsic grounding, or make the later law authoritative for a gate.
 
 #### A.3.3:4.6 - Prediction use in comparison or gating
 
@@ -8220,11 +8235,11 @@ Every use of `Phi_dt` states its applicability window: operating region, horizon
 
 #### A.3.3:4.7 - A.3.4, C.27.TA, C.27, and C.29 boundaries
 
-`A.3.4` governs bounded transformation under conditions. A dynamics episteme can model, predict, simulate, or constrain a transformation, but it is not the transformation itself.
+`A.3.4` governs one actual bounded change identified by the exact changed referent, maximal continuous temporal extent or exact formal ordering boundary, boundary conditions, actual characteristic-state and obtaining direct-relation facts, and continuity or reidentification. A dynamics episteme can model a possible change, predict a probable transition, simulate a trajectory, constrain a candidate, or assert that change is expected; none becomes an actual `U.Transformation` until that subject-side occurrence basis obtains. Prediction supplies no dated work, transformation participation, gate passage, release, permission, or other authority.
 
 `C.27.TA` names positive temporal aspects: freshness, delay, rhythm, currentness, inertia, cadence, trajectory, recovery timing, stabilization timing, and validity window. `C.27` judges adequacy or supported use of authored temporal claims that use those aspects. A `Dyn2TemporalClaimAdequacyCard` or temporal classification is not itself a law of change.
 
-Stay in `A.3.3` when `transitionLaw` or `observationRelation` uses accepted local dynamics, Markov kernels, ODEs, simulations, queueing theory, control theory, or domain theory inside one context.
+Stay in `A.3.3` when `transitionLaw` or `observationRelation` uses accepted local dynamics, Markov kernels, ODEs, simulations, queueing theory, control theory, or domain theory under one explicit semantic basis and applicability boundary.
 
 Use `C.29` when the law depends on contested transfer, cross-domain analogy, learned or speculative mathematical lens, scale change, abstraction, quotienting, or reusable explanation across contexts. The `C.29` output states preserved structure, lost structure, operating-region or scale window, rival lens when current, lens-use boundary value, and stop condition. `A.3.3` remains the governing pattern for state space, transition law, observation, constraints, and calibration semantics.
 
@@ -8233,28 +8248,30 @@ Use `C.29` when the law depends on contested transfer, cross-domain analogy, lea
 A source label such as `process`, `algorithm`, `dynamics`, `workflow`, `model`, `controller`, or `simulator` may point to linked slot positions under `E.10.ARCH`, not to one typed value. Recover the relevant slots first, then split the linked values:
 
 * `U.Method` for the semantic way of doing;
-* `U.MethodDescription` for the representation describing that way;
+* `U.MethodDescription` for the claim-bearing episteme that substantively describes one admitted Method, while C.29 and publication owners keep its representation, form, carrier, and availability separate;
 * `U.Dynamics` for the state-space and transition-law episteme;
 * `U.Mechanism` for an admissible operation or law-governed application over a subject kind;
 * `U.WorkPlan` and `U.Work` for planned and dated occurrences;
 * `TransformationFlowStructure` for selected flow structure when the source is describing a flow-shaped arrangement of transformations;
 * evidence, gate, authority, and assurance values when those claims are current.
 
-The linkage among relation positions does not become a process, method, mechanism, dynamics model, plan, work occurrence, or evidence object. Assign one typed value as both `U.Method` and `U.Dynamics` only when a governing pattern explicitly admits that dual typing for the current claim.
+A transition graph, ordering, shared label, dynamics equation, MethodDescription node, selector row, or predicted trajectory also establishes no B.1.5 `methodPartOf` occurrence or composite Method. B.1.5 must independently recover exact part Methods, obtaining part relations, whole-forming claims and constraints, whole semantics, boundary and reidentification.
+
+The linkage among relation positions does not become a process, method, mechanism, dynamics model, plan, work occurrence, or evidence object. Do not infer dual typing from a shared source or label. One episteme can meet A.3.2 only by describing one admitted Method, and one episteme can meet A.3.3 only by carrying the state-space and transition-law claims above; neither membership establishes the other, identifies the Method, selects an A.22 Structure, or supplies actual Work or transformation. No current FPF governor admits one individual as both the A.3.1 semantic way of doing and the A.3.3 state-change episteme; reopen that question only if a later direct admission rule states both memberships without letting either classification supply the other's facts.
 
 ### A.3.3:5 - Archetypal Grounding
 
 #### A.3.3:5.1 - Reactor control
 
-A reactor team models temperature and concentration under a nonlinear ODE with disturbances. The ODE, state space, observation relation, and operating region are `U.Dynamics`. The control policy is `U.Method`; the controller code is `U.MethodDescription` when it describes the method, and dated controller runs or mechanism claims stay with their governing patterns. Thermocouple readings become evidence only through `A.10` or the direct evidence pattern.
+A reactor team models temperature and concentration under a nonlinear ODE with disturbances. One claim-bearing reactor-model episteme is `U.Dynamics`. Its ClaimGraph declares the nonlinear ODE as `transitionLaw`, the exact temperature-and-concentration state space as `stateSpace`, the observation relation, disturbances, and the operating region and applicability window, or cites exact references that supply those declarations. The control policy is `U.Method`; a claim-bearing episteme represented by the controller code may be `U.MethodDescription` only when it passes A.3.2 for that Method, while the code representation, dated controller runs, and mechanism claims stay with their governing patterns. Thermocouple readings become evidence only through `A.10` or the direct evidence pattern.
 
 Side-by-side split:
 
 | Filled question | `U.Dynamics` value | `U.Transformation` value |
 | --- | --- | --- |
-| EntityOfConcern | reactor temperature and concentration state in bounded operating context | catalyst-bed condition changed from fouled to regenerated during one maintenance intervention |
-| Core relation | state-space coordinates plus nonlinear transition-law claim graph, observation relation, disturbances, operating region, and applicability window | transformed entity, bounded maintenance context, pre-state, post-state or delta, transformation relation, and boundary condition |
-| Use | prediction, simulation, conformance, drift, and gate input only when freshness or mathematical conditions are satisfied | bounded change statement about what changed under conditions; it may cite a dynamics model but is not the model |
+| EntityOfConcern | exact reactor temperature-and-concentration state subject interpreted under the declared scheme and operating-region claim | the exact catalyst bed as changed referent for one actual regeneration occurrence |
+| Core relation | state-space coordinates plus nonlinear transition-law claim graph, observation relation, disturbances, operating region, and applicability window | exact catalyst bed; maintenance temporal extent and regeneration boundary; boundary conditions; actual fouling, flow, pressure, and catalyst-condition facts before, during, and after that boundary; continuity or reidentification rule for the bed and this one occurrence |
+| Use | possible, predicted, simulated, or probable state change; conformance, drift, and gate input only when freshness or mathematical conditions are satisfied, with no work or gate authority supplied by the prediction | actual bounded-change claim on the recovered subject-side occurrence basis; a cited dynamics model remains a neighboring episteme and does not establish actuality |
 | Kept outside | method, controller code, dated runs, evidence, and gate authority | reusable law of state change, method description, work occurrence, evidence relation, and permission to act |
 
 #### A.3.3:5.2 - Reliability and operations
@@ -8286,9 +8303,9 @@ Typical biases:
 
 ### A.3.3:7 - Conformance Checklist
 
-**CC-A3.3-1 (Type).** `U.Dynamics` is an `U.Episteme` for a state-space and transition-law claim. It is not `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, `U.Mechanism`, evidence, assurance, or gate authority.
+**CC-A3.3-1 (Membership and identity).** A.3.3 judges one already identified `U.Episteme`. That same individual is `U.Dynamics` only when its exact C.2.1 `EntityOfConcern` is the changing subject and its ClaimGraph, under its effective `U.ReferenceScheme`, declares both a state space and a transition law. A.3.3 adds no second identity. It is not thereby `U.Method`, `U.MethodDescription`, `U.Structure`, `U.WorkPlan`, `U.Work`, `U.Transformation`, `U.Mechanism`, result, publication, evidence, assurance, gate, or authority.
 
-**CC-A3.3-2 (Bounded context).** Every `U.Dynamics` is declared inside a `U.BoundedContext`. Units, characteristic names, operating region, time base, approximation regime, and source-currentness condition are local to that context.
+**CC-A3.3-2 (Semantic locality without a container).** Local meanings and characteristic names are interpreted under the effective `U.ReferenceScheme`; units, operating region, time base, approximation regime, claim scope when needed, qualification window and source-currentness condition remain explicit claim content or separately governed values. No `U.BoundedContext`, generic context field, selected structure, description, carrier, or intrinsic-grounding slot identifies or contains the dynamics episteme.
 
 **CC-A3.3-3 (EntityOfConcern).** The changing EntityOfConcern is named. It may be a physical holon, service, organization, episteme, claim portfolio, architecture, resource bundle, or other holon with modeled state.
 
@@ -8296,13 +8313,13 @@ Typical biases:
 
 **CC-A3.3-5 (Transition law).** The transition law states a relation, map, kernel, equation, rule, learned predictor, or simulation rule suitable for the declared time base and stochasticity.
 
-**CC-A3.3-6 (Observation relation).** Evidence use states how work records, telemetry, measurements, or source records become observed coordinates. Direct observation is declared rather than assumed.
+**CC-A3.3-6 (Observation relation).** Evidence use states how exact Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. A record is not the Work it describes, and direct observation is declared rather than assumed.
 
 **CC-A3.3-7 (Constraints and applicability).** Constraints, invariants, operating region, approximation regime, parameter range, horizon, and scale window are stated before prediction or gate use.
 
-**CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or ordered work occurrences. Planning or control methods that use dynamics belong to `U.Method` and `U.MethodDescription`.
+**CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or ordered work occurrences. A reusable planning or control way that uses dynamics is `U.Method`; only a separately identified claim-bearing episteme that passes A.3.2 is its `U.MethodDescription`.
 
-**CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, work logs, and telemetry attach to work, evidence, or source values. Calibration creates a new or revised dynamics episteme.
+**CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, Work occurrences, work logs, and telemetry attach to their exact Work, record, evidence, measurement, or source owners. Calibration Work and its domain result may support a later dynamics episteme with its own C.2.1 identity; a continuing edition relation obtains only when C.2.1's separate predicate does.
 
 **CC-A3.3-10 (Prediction use).** Predicted coordinates used for comparison or gating require fresh observation or a declared non-expansive, invariant-commuting transition map over the domain of use.
 
@@ -8312,12 +8329,14 @@ Typical biases:
 
 **CC-A3.3-13 (Source-label repair).** `Process`, `workflow`, `algorithm`, `model`, `controller`, `simulator`, and `dynamics` wording must not be repaired to `U.Dynamics` until the current slot is recovered: method, method description, work plan, dated work, selected transformation-flow structure, transition-law claim graph, evidence relation, or another governed value.
 
+**CC-A3.3-14 (Actual-transformation boundary).** Possible, predicted, simulated, or probable change remains claim content. An actual `U.Transformation` requires the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification; dynamics and prediction supply no dated work, transformation participation, gate passage, release, permission, or other authority.
+
 ### A.3.3:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Repair |
 | --- | --- |
-| "The procedure is the dynamics." | Put the semantic way of doing in `U.Method`, the procedure text in `U.MethodDescription`, and the law of state change in `U.Dynamics`. |
-| "Telemetry is the dynamics." | Treat telemetry as evidence or source material; derive `trace(W, D)` and compare it with the declared law. |
+| "The procedure is the dynamics." | Put the semantic way of doing in `U.Method`; identify the claim-bearing episteme that the procedure text represents as `U.MethodDescription` only when it passes A.3.2; keep representation and publication separate; and put the state-space/law episteme in `U.Dynamics`. |
+| "Telemetry is the dynamics." | Keep telemetry as a separately identified observation or source record `O`; include exact Work-side facts `W` only when Work is actually current, then derive `trace(W, O, D)` through the declared observation relation and compare it with the law. |
 | "The dashboard is our state space." | Recover characteristics, units, scales, comparability relations, operating region, and invariants. |
 | "The simulation approved the release." | Keep simulation as prediction; use `A.20`, `A.21`, `A.10`, or `B.3` for gate, evidence, and assurance claims. |
 | "The model works everywhere." | State the applicability window and lowering condition; use `C.27.TA` for currentness and `C.29` for transfer. |
@@ -8347,13 +8366,13 @@ Typical biases:
 
 FPF needs `U.Dynamics` because many practical questions are not about what an agent should do, but about how a state changes when the world evolves, a model is simulated, evidence arrives, a resource pool fluctuates, or an architecture changes. Those questions need a law of change, not a procedure, not a work log, and not a promise.
 
-The pattern is deliberately broad because state-change reasoning appears in physics, control, software operations, reliability, strategy, architecture, and knowledge work. The shared kernel is not a universal notation. It is the distinction between state-space, transition law, observation relation, applicability window, and related governed claim families such as method, work, transformation, evidence, assurance, and gate use.
+The pattern is deliberately broad because state-change reasoning appears in physics, control, software operations, reliability, strategy, architecture, and knowledge work. The shared kernel is not a universal notation. It is the distinction between state-space, transition law, observation relation, applicability window, and related governed claim families such as method, work, evidence, assurance, and gate use. An actual transformation remains a different world-side occurrence: its exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification are governed by `A.3.4`, not supplied by the dynamics episteme.
 
 ### A.3.3:11 - SoTA-Echoing
 
 | Source line | Source refs | Adopt, adapt, or reject | Effect in this pattern |
 | --- | --- | --- | --- |
-| Current constructor-theory and process-theory work | Gogioso, Wang-Mascianica, Waseem, Scandolo, and Coecke, "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Adapt: dynamics, transformations, tasks, and processes are kept close without collapsing law, method, mechanism, and work. | `U.Dynamics` is a law-of-change episteme; transformation claims stay with `A.3.4`, and method/work claims stay in their governing patterns. |
+| Current constructor-theory and process-theory work | Gogioso, Wang-Mascianica, Waseem, Scandolo, and Coecke, "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Adapt: dynamics, transformations, tasks, and processes are kept close without collapsing law, method, mechanism, and work. | `U.Dynamics` remains a law-of-change episteme; `A.3.4` admits an actual transformation only from the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification; possible, predicted, simulated, or probable change and every work or authority claim remain separate. |
 | Current data-driven predictive-control work | de Jong, Breschi, Schoukens, and Lazar, "Koopman Data-Driven Predictive Control with Robust Stability and Recursive Feasibility Guarantees", arXiv:2405.01292; Shang, Cortes, and Zheng, "On the Exponential Stability of Koopman Model Predictive Control", arXiv:2511.02008. | Adopt: prediction, lifted state, stability, recursive feasibility, and prediction error need explicit state-space, model, horizon, and constraint declarations. | `stateSpace`, `transitionLaw`, `applicabilityWindow`, `constraintsOrInvariants`, and prediction-use conditions are mandatory before comparison or gate use. |
 | Current stochastic predictive-control work | Knaup and Tsiotras, "Recursively Feasible Stochastic Model Predictive Control for Time-Varying Linear Systems Subject to Unbounded Disturbances", arXiv:2410.11107. | Adopt: stochasticity, unbounded disturbances, time variation, feasibility, and chance constraints must not be hidden behind one model label. | `stochasticity`, `inputsOrDisturbances`, tolerance policy, and applicability window are explicit fields. |
 | Current digital-twin validation pressure | Russell Bernal, Petterson, Alarcon Granadeno, Murphy, Mason, and Cleland-Huang, "Validating Terrain Models in Digital Twins for Trustworthy sUAS Operations", arXiv:2508.16104. | Adapt: model validation depends on operational context, observation limits, granularity, uncertainty, and real-world use conditions. | Observation relation, evidence relation, operating region, and source-currentness condition remain separate from the dynamics law. |
@@ -8363,8 +8382,8 @@ Lower current use of this pattern when current work on process theory, predictiv
 
 ### A.3.3:12 - Relations
 
-* **Builds on:** `A.1.1 U.BoundedContext`; `A.19 CharacteristicSpace`; episteme machinery for description, source, and publication when those claims are current.
-* **Coordinates with:** `A.3.1 U.Method`; `A.3.2 U.MethodDescription`; `A.3.4 U.Transformation`; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.6.1 U.Mechanism`; `E.20`; `C.27.TA`; `C.27`; `C.29`; `A.10`; `B.3`; `A.20`; `A.21`; architecture patterns when dynamics describes architecture-characteristic change.
+* **Builds on:** `C.2.1` for the same episteme's identity and any exact empirical-grounding or edition relation; `A.19` and `C.16` for characteristics, units and measurement meanings when current; `A.2.6` for an exact `U.ClaimScope`; and direct source or publication machinery only when those claims are current.
+* **Coordinates with:** `A.3.1 U.Method`; `A.3.2 U.MethodDescription`; `B.1.5` for composite Method construction; `A.22` for an independently selected Structure; `A.1.1` only when an independently selected bounded-model-use structure or obtaining model-use relation changes the receiving use; `A.3.4 U.Transformation`; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.6.1 U.Mechanism`; `E.20`; `C.27.TA`; `C.27`; `C.29`; `A.10`; `B.3`; `A.20`; `A.21`; and architecture patterns when dynamics describes architecture-characteristic change.
 * **Separates from:** services and promise content; PBS and SBS structural breakdowns; causal-use claims; gate authority; assurance arguments; publication-use claims.
 * **Uses for precision restoration:** `E.10`, `E.10.ARCH`, `F.18`, and `C.2.P.DR` when source labels hide whether the claim is law, method, method description, mechanism, work, evidence, authority, or dynamics.
 
@@ -17338,6 +17357,10 @@ This pattern does not introduce new external SoTA sources beyond the source uses
 
 **What this buys.** The phrase becomes an explicit `actionInvitation(...)` relation with sense family, site, invited enactor, candidate action, normal form, articulation state, admissible downstream use, and neighboring-pattern boundary.
 
+**First useful move.** Rewrite the trigger as one `actionInvitation(...)` with exact site, invited enactor, candidate action, sense, coupling frame and normal form. If the candidate action is enactment, name its exact `methodRef -> U.Method` first and keep any `methodDescriptionRef` auxiliary. If viewpoint use matters, resolve `viewpointRef` under the effective reference scheme; include `view` only after its independent E.17.0 conformance is already established.
+
+**Not this pattern when.** If the current claim is already primarily about a Method, MethodDescription, WorkPlan, actual Work, capability, duty, gate, evidence, evaluation or publication, use that direct owner. Keep A.6.A only when a preceding invitation relation itself remains useful; its record never substitutes for the downstream object.
+
 **E.24.UK settlement.** A.6.A does not admit `U.ActionInvitationPrecisionRestoration` as a durable U-kind. The pattern governs action-invitation precision restoration for affordance-like and action-first wording. The durable values it may recover are the explicit `actionInvitation(...)` relation, its sense family, normal form, candidate action, site, would-be enactor, and neighboring method, work, capability, commitment, evidence, gate, or publication values when those claims are current.
 
 **Intent.**
@@ -17345,7 +17368,7 @@ Provide a reusable discipline for repairing overloaded **affordance-like and act
 
 This pattern is an **A.6.P RPR specialisation** for **post-threshold** action-oriented content: it turns bare action-oriented prose into one explicit, slot-explicit **action invitation** relation family with a declared **sense family**, admissible **normal forms** (`CuePack | ActionOption | OptionSet | PolicyHook`), explicit **change semantics**, and lexical guardrails.
 Pre-threshold action-guiding cue content remains with `A.16.1` or `B.4.1` until the cue is articulated enough for `actionInvitation(...)` publication.
-It does **not** mint a parallel execution ontology: whenever an invitation is articulated far enough to reference executable method descriptions, work plans, or work occurrences, use the governing **A.15** pattern family (`U.Method`, `U.MethodDescription`, `U.WorkPlan`, or actual `U.Work` once execution has occurred) rather than inventing new action kinds by prose.
+It does **not** mint a parallel execution ontology: when a candidate action is invited enactment, it selects an exact independently admitted `U.Method`; any current `methodDescriptionRef` is a separate C.2.1 episteme used to identify, constrain or justify that Method or intended Work. Intended Work remains a `U.WorkPlan`, and actual enactment remains dated `U.Work` with exact `enactsMethod` under **A.15**. The invitation, Method, MethodDescription, plan and Work never become one action kind by prose.
 
 It allows ecological-psychology, phenomenological, active-inference, control-theoretic, interface, engineering-operations, and robotics uses to coexist **without false identity by label**.
 
@@ -17356,7 +17379,7 @@ Part A > cluster **A.6 Signature Stack & Boundary Discipline** > specialisation 
 A.3, A.6, A.6.B, A.6.P, A.6.RSIR, A.6.S, A.6.0, A.6.5, A.2.6, A.7, A.15, E.8, E.10, F.9, F.18.
 
 **Coordinates with.**
-**C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, responsibility transfer, and admissible retreat when a published invitation must be reopened; use **A.16.0** only when lineage, branch, loss, or responsibility-transfer history itself must be published as an explicit trajectory account; **B.5.2.0** when the admissible continuation is still an open probe question rather than an invitation; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation, closure, anchoring, and representation-factor facets referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17** and **E.18** for viewpoint publication; **F.9.1** for bridge-stance annotations; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
+**C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, responsibility transfer, and admissible retreat when a published invitation must be reopened; use **A.16.0** only when lineage, branch, loss, or responsibility-transfer history itself must be published as an explicit trajectory account; **B.5.2.0** when the admissible continuation is still an open probe question rather than an invitation; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation, closure, anchoring, and representation-factor facets referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication; **F.9.1** for bridge-stance annotations; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
 
 **E.10.ARCH relation.**
 A.6.A is the precision-restoration realization pattern for action-invitation wording only. Apply A.6.A when an `E.10` or `E.10.ARCH` repair has recovered an action-invitation case and the action-first language still hides a site, invited enactor, candidate action, coupling frame, detector or viewpoint, normal form, admissible use, or governing-pattern boundary after quality, capability, deontic, work, evidence, assurance, gate, decision, publication, state-family, architecture, function-like, and relation-only cases have been excluded or governed by the patterns for the recovered claims. If the repaired phrase is primarily evaluative, use `C.16.Q`; if it is primarily capability, method, work, duty, evidence, assurance, gate, or decision, use the governing pattern and keep A.6.A only as an optional preceding invitation record when the invitation semantics remain live.
@@ -17371,7 +17394,7 @@ It also does **not** assert that every trigger use of action-first language is a
 * where the repaired statement is primarily **evaluative**, use **C.16.Q**;
 * where it is primarily about **general capability**, capability wording, method wording, or method-description wording, use **A.6.F**, `U.Capability`, `U.Method`, or `MethodDescription` according to the claim being made;
 * where it is primarily **deontic**, apply **A.6.B**;
-* where it is primarily about **scheduled or executed enactment**, use the governing **A.15** pattern family (`U.Method`, `U.MethodDescription`, `U.WorkPlan`, or actual `U.Work` once execution has occurred) rather than letting `actionInvitation(...)` become a shadow execution model.
+* where it is primarily about **scheduled or executed enactment**, use the governing **A.15** pattern family: exact `U.Method`, separate `U.MethodDescription`, intended `U.WorkPlan`, and actual `U.Work` with exact `enactsMethod` once execution has occurred. Keep `actionInvitation(...)` only as a preceding invitation when that relation is still current, never as a shadow execution model.
 
 ### A.6.A:1 - Problem frame
 
@@ -17464,7 +17487,7 @@ When the trigger fires, authors SHOULD follow the A.6.P repair sequence:
    Pick one `ActionInvitationSense` token and state why rivals were rejected in this local context.
 
 4. **Emit a slot-explicit rewrite.**
-   Rewrite the sentence into one explicit `actionInvitation(...)` record with site, would-be enactor, candidate action, coupling frame, detector and viewpoint when live, normal form, and qualifiers.
+   Rewrite the sentence into one explicit `actionInvitation(...)` record with site, would-be enactor, candidate action, coupling frame, detector, `viewpointRef` and independent `view` when live, normal form, and qualifiers. Resolve any viewpoint reference under the effective reference scheme; record inclusion establishes no dependent-kind membership.
 
 5. **Classify boundary-bearing consequences.**
    If the repaired statement is used for admissibility, commitments, publication, automation, or evidence-bearing decisions, classify the downstream claim uses with **A.6.B** and, where enactment is implied, through **A.15**, instead of letting the vague action-first phrase carry evidence, admissibility, gate, or decision consequences by itself.
@@ -17488,7 +17511,7 @@ Its relation specification publication SHALL declare, at minimum:
 * **(L)** site-centred polarity: the relation is about a **site or situation** inviting a candidate action **for** an enactor; it SHALL NOT be silently rewritten as a monadic property of a site participant alone;
 * **(L)** participant SlotSpecs for site, invited enactor, candidate action, sense, coupling frame, and normal-form positions;
 * **(A)** repair options for site-kind and enactor-kind mismatches: explicit narrowing, `KindBridge`, `retargetSite(...)`, `retargetInvitedEnactor(...)`, or a stated combination of these repairs when several mismatch conditions are live;
-* **(L)** qualifier expectations for `scope`, `Γ_time`, `viewpoint`, `view`, `representationSubstrate`, `bridgeRef`, and (when relevant) `articulationHint`;
+* **(L)** qualifier expectations for `scope`, `Γ_time`, `viewpointRef`, `effectiveReferenceScheme`, independent `view`, `representationSubstrate`, `bridgeRef`, and (when relevant) `articulationHint`;
 * **(D)** detector and invited-enactor separation discipline: the perceiver or detector SHALL NOT be silently collapsed into the invited enactor when they differ;
 * **(D)** obligation barrier: invitation language SHALL NOT be silently rewritten as duty language;
 * **(A/E)** witness discipline for decision use, publication use, and automation use;
@@ -17508,7 +17531,8 @@ Each in-scope occurrence SHALL be representable as a pattern-specific **Qualifie
 `  actionInvitationSense    : ActionInvitationSense,`
 `  couplingFrame            : …,`
 `  detector?                : …,`
-`  viewpoint?               : U.Viewpoint,`
+`  viewpointRef?            : U.ViewpointRef,`
+`  effectiveReferenceScheme?: U.ReferenceScheme,`
 `  view?                    : U.View,`
 `  normalForm               : CuePack | ActionOption | OptionSet | PolicyHook,`
 `  articulationHint?        : open-cue | sketched | option-explicit | hook-explicit,`
@@ -17519,6 +17543,9 @@ Each in-scope occurrence SHALL be representable as a pattern-specific **Qualifie
 `  witnesses?               : EvidenceRefSet`
 `⟩`
 
+**Viewpoint and view discipline.**
+When `viewpointRef` is present, `effectiveReferenceScheme` is also explicit and the reference resolves under that scheme to one exact independently admitted `U.Viewpoint` episteme. `view` is a separate optional value: it names one independently identified C.2.1 episteme that already has `U.View` membership only because exact E.17.0 `EpistemeViewpointConformanceRelation(view, viewpoint)` obtains for at least one admitted viewpoint. The selected `viewpointRef` need not be the viewpoint to which an optional view conforms unless the record explicitly claims that relation. Including `viewpointRef` or `view` in `ActionInvitationRecord` establishes neither `U.Viewpoint` nor `U.View` dependent-kind membership; it only cites already established objects. Detector, viewpoint selection, view membership, viewing construction and publication remain separate.
+
 So the sentence “X affords Y” is never accepted as a terminal form.
 Within the scope of A.6.A it must be rewritten into an explicit `actionInvitation(...)` instance with declared downstream governing pattern or publication; earlier pre-threshold cue content may instead remain as cue-pack content, a `RoutedCueSet`, or another typed cue-preserving upstream publication before A.6.A application.
 
@@ -17527,7 +17554,7 @@ Within the scope of A.6.A it must be rewritten into an explicit `actionInvitatio
 The stable intermediate lens is the `actionInvitation(...)` relation; the sense token refines **what kind of invitation** is being published.
 
 **P2W relation note.**
-`candidateActionTuple` names the invited move as relation content. It is not an actual `U.Work` occurrence, not a `U.WorkPlan`, not a `U.MethodDescription`, and not a selected method. When the publication needs intended work, planned work, actual work, method selection, work result, or result measurement, use `A.15`, `A.15.1`, or `A.15.2` instead of stretching `actionInvitation(...)`.
+`candidateActionTuple` names the invited move as relation content. It is not an actual `U.Work` occurrence and not a `U.WorkPlan`. When that move is invited enactment, the tuple SHALL select one exact independently admitted Method as `methodRef -> U.Method`; an optional `methodDescriptionRef` cites a separate C.2.1 episteme used only to identify, constrain or justify that Method or intended Work. Selecting the Method makes the invited action inspectable but does not schedule or perform it. When the publication needs intended Work, actual Work, work result or result measurement, use `A.15`, `A.15.1`, or `A.15.2` instead of stretching `actionInvitation(...)`; actual Work enacts the Method, never the description.
 
 **A.7 boundary note.**
 `siteClassification` uses the EntityOfConcern and Description-episteme boundary: the site member is either an EntityOfConcern-side participant, a Description episteme participant, or a non-claim-bearing site kind named directly.
@@ -17618,7 +17645,7 @@ A conforming `actionInvitation` SHALL make explicit:
    Which `U.System`, collective system, or role assignment whose holder is a `U.System` is invited to act.
 
 3. **Candidate action tuple.**
-   What action is being invited.
+   What action is being invited. If it is enactment, the tuple names exact `methodRef -> U.Method`; any `methodDescriptionRef` remains a separate auxiliary episteme and neither field asserts a WorkPlan or actual Work.
 
 4. **`ActionInvitationSense`.**
    Which action-oriented family is intended.
@@ -17627,8 +17654,8 @@ A conforming `actionInvitation` SHALL make explicit:
    The live coupling relation and admissible-use boundary under which the invitation is published.
    Examples: reach envelope, interface state, incident horizon, control horizon, probe pack, open issue set.
 
-6. **Detector, viewpoint, or both.**
-   Who or what detected the cue, and under which viewpoint it is published.
+6. **Detector, viewpoint reference, and independent view.**
+   Who or what detected the cue; which exact viewpoint episteme `viewpointRef` resolves to under the effective reference scheme when a viewpoint is selected; and, independently, which already-conforming `view : U.View` is cited when a view itself participates. None follows from another.
 
 7. **Normal form and `articulationHint`.**
    How the invitation is published and how far it has been articulated.
@@ -17647,7 +17674,7 @@ A conforming `actionInvitation` SHALL make explicit:
 An `ActionInvitationSense` SHALL declare one admissible default normal form and MAY declare additional admissible normal forms explicitly.
 
 **Docking note.**
-Where a published invitation already points to executable method descriptions, work plans, work occurrences, or their identifiers, the record SHOULD reuse existing `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` identifiers or refs. `PolicyHook` SHALL always be a hook over pre-existing gate, method, or protocol publications; it does not mint a new execution, admissibility, or deontic ontology.
+Where a published invitation already points toward enactment, the candidate action SHOULD select the existing exact `U.Method` ref. A current `U.MethodDescription` ref remains a separate C.2.1 source for identifying, constraining or justifying that Method or intended Work; existing `U.WorkPlan` and `U.Work` refs remain separate when those objects already exist. `PolicyHook` SHALL always be a hook over pre-existing gate, method, or protocol publications; it does not mint a new Method, execution, admissibility, or deontic ontology.
 
 **ANF-1 — `CuePack`.**
 Use for early or low-articulation action invitations, especially `AIS.PhysicalAffordance`, `AIS.SocialAffordance`, and many cases of `AIS.LatentPolicyCue`.
@@ -17671,7 +17698,7 @@ A conforming `ActionOption` publishes:
 * invited enactor and role assignment when live,
 * local guard sketch,
 * expected near-field effect,
-* optional `U.Method`, `U.MethodDescription`, or `U.WorkPlan` refs when those already exist in-context,
+* an exact `U.Method` ref when the option is invited enactment, plus a separate optional `U.MethodDescription` ref or `U.WorkPlan` ref only when that independently existing object is current,
 * explicit note that the option is **not yet selected**, **not yet obligatory**, and **not yet executed**.
 
 **ANF-3 — `OptionSet`.**
@@ -17702,8 +17729,8 @@ A.6.A SHALL prevent the collapse of action invitation language into neighbouring
 * A statement about **better, worse, fit, or merit** belongs to **C.16.Q**.
 * A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the governing pattern for the asserted capability, method, or method-description claim.
 * A statement about **what must be done** belongs to **A.6.B** when the wording asserts an A-classified admissibility claim or a D-classified commitment claim.
-* A statement about **what was actually done** belongs to **A.15** and `U.Work`.
-* If an invitation points to a Description episteme, any later enactment still occurs through symbol carriers, acted-on systems, or both; the description itself never acts.
+* A statement about **what was actually done** belongs to **A.15** and exact dated `U.Work`, whose `enactsMethod` relation points to the exact `U.Method`.
+* An invited enactment selects its exact Method without becoming a plan or occurrence; any `methodDescriptionRef` remains auxiliary. If an invitation points to a Description episteme, any later enactment still occurs through symbol carriers, acted-on systems, or both; the description itself never acts and is never what Work enacts.
 * Mixed sentences that carry both evaluative and invitational content SHALL be split into `evaluativeAscription(...)` and `actionInvitation(...)` records, with explicit cross-references when the co-occurrence matters.
 
 Mixed sentences SHALL be split.
@@ -17749,7 +17776,7 @@ A conforming pattern SHALL narrate changes with a stable change lexicon aligned 
 * **`reFrame(...)`** — change coupling frame.
 * **`reGuard(...)`** — change guard sketch or hook condition.
 * **`rePolicyHook(...)`** — change policy, gate, or method hook details.
-* **`reView(...)`** — change detector publication, viewpoint publication, or view publication.
+* **`reView(...)`** — change detector publication, ref-backed viewpoint selection, or independent view inclusion under the declared ref-vs-value discipline. Changing `viewpointRef` does not mutate the viewpoint episteme; adding or replacing `view` does not establish E.17.0 conformance.
 * **`rescope(...)`** — change `U.Scope`.
 * **`retime(...)`** — change `Γ_time`.
 * **`refreshWitnesses(...)`** — refresh witness bindings.
@@ -17790,7 +17817,7 @@ In **Tech prose and normative prose**:
 A.6.A allows monotone elaboration:
 
 1. Start by selecting an `ActionInvitationSense` and recording rival candidates when ambiguity is live.
-2. Declare site, would-be enactor, action, frame, and site-facet relation binding.
+2. Declare site, would-be enactor, action, frame, and site-facet relation binding; if the action is enactment, select the exact Method and keep any description ref auxiliary.
 3. Choose an admissible normal form and a local `articulationHint` when omission would hide articulation state.
 4. Add guards, method hooks, policy hooks, and witness bindings.
 5. If a `CuePack` or `ActionOption` is projected into `OptionSet` or `PolicyHook`, or connected to **C.16.Q**, **A.6.B**, or the relevant **A.15** pattern family, publish an explicit projection or operationalization note rather than silently upgrading the invitation.
@@ -17800,7 +17827,7 @@ A.6.A allows monotone elaboration:
 
 #### A.6.A:4.10a - Endpoint-first downstream discipline
 
-If a repaired phrase already names an admissible downstream `authoritySourceRef`, `governingPatternRef`, or P2W method-to-work reference such as a gate hook, method reference, `U.WorkPlan`, `U.WorkPlanning` plan record, or `U.Work` occurrence, authors SHOULD publish that downstream reference directly and keep `actionInvitation(...)` only as the preceding repair record when the invitation semantics themselves still matter. `actionInvitation(...)` is therefore a post-threshold invitation record, not a shadow substitute for `A.6.B`, `A.15`, or gate-governing patterns.
+If a repaired phrase already names an admissible downstream `authoritySourceRef`, `governingPatternRef`, or P2W method-to-work reference such as a gate hook, exact Method ref, separate MethodDescription ref, `U.WorkPlan`, `U.WorkPlanning` plan record, or `U.Work` occurrence, authors SHOULD publish that downstream reference directly and keep `actionInvitation(...)` only as the preceding repair record when the invitation semantics themselves still matter. `actionInvitation(...)` is therefore a post-threshold invitation record, not a shadow substitute for `A.6.B`, `A.15`, or gate-governing patterns.
 
 ### A.6.A:5 - Archetypal Grounding
 
@@ -17821,17 +17848,23 @@ A conforming post-threshold rewrite publishes one explicit `actionInvitation(...
 `  siteClassification = { AlarmBundle_AB9: non-claim-bearing carrier site, ServiceState_S7: EntityOfConcern },`
 `  publicationOrCarrierParticipation = { AlarmBundle_AB9: carrier exposing cue },`
 `  invitedEnactor = OpsTeam_Phoenix,`
-`  candidateAction = Enact(MethodDescriptionRef = RollbackRunbook_R41, actedOn = Release_R41),`
+`  candidateAction = Enact(methodRef = RollbackMethod_R41, methodDescriptionRef = RollbackRunbook_R41, actedOn = Release_R41),`
 `  actionInvitationSense = AIS.ControlOpportunity,`
 `  couplingFrame = IncidentPolicy_IP2 × Horizon_H15m,`
 `  detector = AnomalyPolicy_AP7,`
-`  viewpoint = VP.OperationsControl,`
+`  viewpointRef = U.ViewpointRef(VP.OperationsControl),`
+`  effectiveReferenceScheme = OperationsControlScheme_2026,`
+`  view = OperationsRollbackView_9,`
 `  normalForm = PolicyHook,`
 `  articulationHint = hook-explicit,`
 `  scope = U.WorkScope(ProdCluster_EU_1),`
 `  Γ_time = RunWindow_RW,`
 `  witnesses = {AlertTrace_91, ErrorBudgetSeries_4}`
 `)`
+
+`VP.OperationsControl` is independently admitted as a `U.Viewpoint` episteme and is resolved by `viewpointRef` under `OperationsControlScheme_2026`. `OperationsRollbackView_9` is independently identified under C.2.1 and is a `U.View` only because `EpistemeViewpointConformanceRelation(OperationsRollbackView_9, VP.OperationsControl)` independently obtains under E.17.0. Their inclusion in the invitation record establishes neither membership. The invitation selects `RollbackMethod_R41` for its candidate enactment but does not create a WorkPlan or assert that rollback Work occurred; `RollbackRunbook_R41` remains an auxiliary MethodDescription.
+
+**Recognizable near misses.** `Enact(methodDescriptionRef = RollbackRunbook_R41)` with no exact Method is unresolved invited enactment, not a usable action option. `viewpoint = VP.OperationsControl` stores a dependent-kind value by name and hides reference resolution. A `viewpointRef` alone does not make a diagram or dashboard a `U.View`; a `view` field alone does not make its episteme conform. An alarm, invitation record or PolicyHook alone does not prove duty, gate passage or performed rollback Work.
 
 **Repair B — ecological and robot line**
 
@@ -17861,7 +17894,7 @@ A conforming post-threshold rewrite publishes one explicit `actionInvitation(...
 `  site = ProblemFramingEpisode_PF3,`
 `  siteClassification = { ProblemFramingEpisode_PF3: Description episteme },`
 `  invitedEnactor = ResearchTeam_A,`
-`  candidateAction = Enact(MethodDescriptionRef = ContrastiveQuestioning_Q2),`
+`  candidateAction = Enact(methodRef = ContrastiveQuestioningMethod_Q2, methodDescriptionRef = ContrastiveQuestioning_Q2),`
 `  actionInvitationSense = AIS.EpistemicProbe,`
 `  couplingFrame = ExemplarPack_EP3 × OpenIssueSet_O2,`
 `  detector = Reviewer_A1,`
@@ -17919,14 +17952,14 @@ A text or pattern conforms to A.6.A iff:
 4. **CC-A.6.A-4 — Enactor discipline.**
    When the invited enactor is meant as the actual would-be enactor, it resolves to a `U.System` or role assignment with system holder.
 
-5. **CC-A.6.A-5 — Explicit candidate action.**
-   The candidate action tuple is explicit and reviewable.
+5. **CC-A.6.A-5 — Explicit candidate action and Method when enactment is invited.**
+   The candidate action tuple is explicit and reviewable. If it is enactment, it selects exact `methodRef -> U.Method`; any `methodDescriptionRef` remains a separate C.2.1 episteme and neither selection establishes intended or actual Work.
 
 6. **CC-A.6.A-6 — Explicit coupling frame.**
    The coupling frame is explicit.
 
-7. **CC-A.6.A-7 — Detector and viewpoint separation.**
-   When both matter, `detector` and `viewpoint` are not silently collapsed.
+7. **CC-A.6.A-7 — Detector, viewpoint reference, and view separation.**
+   When current, `detector`, ref-backed `viewpointRef`, its effective reference scheme, and independent optional `view` are not silently collapsed. The reference resolves to an exact admitted viewpoint episteme; a cited view already passes E.17.0 independently.
 
 8. **CC-A.6.A-8 — Lawful normal form.**
    The invitation is published as `CuePack`, `ActionOption`, `OptionSet`, or `PolicyHook`, with corresponding discipline observed.
@@ -17970,6 +18003,9 @@ A text or pattern conforms to A.6.A iff:
 21. **CC-A.6.A-21 — Candidate-Set Note is used when ambiguity is live.**
     If the site classification, publication or carrier participation, enactor classification, relation family, or sense selection is non-obvious, the text records a short Candidate-Set Note before decision-bearing use.
 
+22. **CC-A.6.A-22 — Record inclusion grants no dependent-kind membership.**
+    `viewpointRef` resolves under the effective reference scheme to an independently admitted `U.Viewpoint`; optional `view` names an independently identified episteme whose `U.View` membership follows only from exact E.17.0 conformance. Neither field nor the invitation record establishes either membership.
+
 ### A.6.A:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern                   | Symptom                                                                                     | Why it fails                                           | How to avoid or repair                                           |
@@ -17977,6 +18013,8 @@ A text or pattern conforms to A.6.A iff:
 | **Site-participant-property affordance** | "The site participant is actionable" with no enactor or coupling frame | collapses relationality into monadic property language | publish site, enactor, action, and coupling frame |
 | **Invitation-as-obligation**   | "This calls for rollback" is treated as if rollback is already required                     | hides A-classified or D-classified claim status and accountability | publish `actionInvitation(...)`, then classify duty or gate use with A.6.B |
 | **Invitation-as-work**         | “The system reacted” is used where only a cue or option exists                              | confuses offer with execution                          | keep invitation separate from A.15 and `U.Work`                   |
+| **MethodDescription as invited Method** | `Enact(methodDescriptionRef=Runbook)` supplies no exact Method | makes a C.2.1 episteme the world-side way of doing | select exact `methodRef -> U.Method`; keep the description auxiliary |
+| **Viewpoint or view by record inclusion** | a field name or bundle row is treated as proof of `U.Viewpoint` or `U.View` | bypasses reference resolution and E.17.0 dependent-kind rules | resolve `viewpointRef` under the effective scheme and establish any view's conformance independently |
 | **Capability-as-invitation**   | “The robot can do X” stands in for a situated affordance                                    | destroys local enactor and site conditions             | separate capability description from action invitation          |
 | **Latent cue as explanation**  | a model tendency is narrated as if it were already an explicit rationale                    | overstates articulation and evidence                   | keep as `CuePack` or `OptionSet` until further articulation     |
 | **Premature automation**       | a cue without required witness records is wired directly into gates or controllers with no explicit hook `authoritySourceRef` named source or guard | creates unsafe action-to-automation coupling                         | require `PolicyHook`, A.6.B claim classification, and witnesses                |
@@ -18037,7 +18075,7 @@ This section already covers the claim-bearing relational and action-oriented sta
 ### A.6.A:12 - Relations
 
 * **Specialises:** **A.6.P** as an RPR pattern for overloaded affordance-like and action-first language.
-* **Builds on:** **A.3** and **A.7** for enactor discipline and EntityOfConcern and Description-episteme plus publication and carrier separation; **A.15** for keeping invitation distinct from enactment; **A.6.B** for boundary claim classification; **E.17** and **E.18** for viewpoint publication.
+* **Builds on:** **A.3** and **A.7** for enactor discipline and EntityOfConcern and Description-episteme plus publication and carrier separation; **A.15** for keeping invitation distinct from enactment; **A.6.B** for boundary claim classification; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication.
 * **Works alongside:** **C.16.Q** for evaluative language; the two are siblings, not substitutes.
 * **Coordinates with:** **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves before post-threshold repair, and retreat when a published invitation must be reopened; use **A.16.0** only when lineage, branch, loss, or responsibility-transfer history itself must be published as an explicit trajectory account; **B.5.2.0** for probe-question cases that are still prompt-shaped; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance.
 * **Must not replace:** **C.2.3** as the single governing pattern for **F**.
@@ -21322,6 +21360,20 @@ Whenever *fraction*, *percentage*, or *share* is used as a part claim, recover t
 ## A.7 - Strict Distinction (Clarity Lattice)
 > **Status:** Stable
 
+### A.7:0 - Use this when
+
+Use this pattern when one sentence, diagram, card, identifier, file, plan, or run is being read as several nearby FPF objects and the team needs to recover the exact relation position before returning to its direct owner. A frequent case is deciding whether the live object is a Method, an episteme that qualifies as MethodDescription, a system Capability, a WorkPlan, or dated Work.
+
+**What goes wrong if missed.** A label such as *algorithm*, *SOP*, *recipe*, or *script* is treated as membership evidence; a direct Method reference is forced through a document; or a description, plan, capability and occurrence inherit one another's force.
+
+**What this buys.** A practitioner can identify the current object, make the smallest direct claim, and stop without manufacturing a description, execution, evidence, gate, or authority relation.
+
+**Primary working object.** The exact sentence or publication position whose nearby objects have been conflated. A.7 restores the distinctions; A.3.1 owns the Method, C.2.1 owns episteme identity, A.3.2 owns same-individual `U.MethodDescription` membership, A.15 owns plan and Work, and naming/reference patterns own designation and resolution.
+
+**First useful move.** Name the object the receiving use actually needs. For a suspected MethodDescription, first identify one admitted `U.Episteme`, then require one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive claim about that Method as a way of doing. For a direct Method use, resolve the identifier or receiving `methodRef` under its effective reference scheme; do not invent a MethodDescription.
+
+**Not this pattern when.** If the current object and direct relation are already clear, use their governing pattern immediately. A.7 does not decide Method identity, episteme identity, MethodDescription membership, capability adequacy, work readiness, occurrence, evidence, publication, or gate passage for those owners.
+
 ### A.7:1 - Intent
 
 Provide a **single, didactically clear lattice of distinctions** that keeps models free from category errors. This pattern is the guard‑rail that prevents four recurrent confusions:
@@ -21337,7 +21389,7 @@ It harmonizes A.2 and A.2.1 (role values and role-assignment relations), A.3.4 (
 
 * **Holons (A.1) and systems.** All holons are part-whole units; **systems or acting holons** enact behaviour through work-facing role assignments in a bounded context.
 * **Transformation (A.3.4) and role assignment (A.2/A.2.1).** Every claimed change names the transformation or work occurrence, the affected entity, and any current `U.RoleAssignment` for the acting system or holon; there is no “self-magic”.
-* **Method/work backbone (A.3.1, A.3.2, A.15).** We separate **MethodDescription** (description), **Method** (abstract way-of-doing), **Capability** (a system's ability or envelope to enact a Method under conditions), **WorkPlan** (intent window), and **Work** (run-time occurrence), with the acting side expressed through `U.RoleAssignment` when a work-facing role is current.
+* **Method/work backbone (A.3.1, A.3.2, A.15).** We separate **MethodDescription** (the same already identified episteme only after A.3.2 membership obtains), **Method** (abstract way-of-doing), **Capability** (a system's ability or envelope to enact a Method under conditions), **WorkPlan** (intent window), and **Work** (run-time occurrence), with the acting side expressed through `U.RoleAssignment` when a work-facing role is current.
 * **Evidence (A.10).** Knowledge claims cite evidence-provenance and carrier/source-currentness relations; epistemes never “act”; systems inspect, revise, publish, store, or rely on the carriers, publication forms, and project records that make an episteme available.
 
 Practitioner check: if a sentence could be read as “the document decided” or “the process executed itself”, it violates A.7.
@@ -21388,12 +21440,18 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 
 #### A.7:5.3 - MethodDescription vs Method vs Capability vs Work (description vs way-of-doing vs ability envelope vs occurrence)
 
-* **MethodDescription** — the **description** (algorithm / SOP / recipe / script) at design-time. Its publication cites A.10 carrier/source-currentness refs when the carrier is used as evidence or source.
-* **Method** — the **abstract order-sensitive way-of-doing** composed with **Γ\_method** (B.1.5). A Method is not an occurrence and not the system ability itself; **concrete values** are **bound at `U.Work` creation**. Outside executions we **refer to it via MethodDescription** (see A.3.1 CC‑A3.1‑5/‑9; A.15 §2.2, §4.1).
+* **MethodDescription** — one already identified claim-bearing `U.Episteme` whose exact C.2.1 `EntityOfConcern` is one admitted `U.Method` and whose claims, under its effective `U.ReferenceScheme`, say something substantive about that Method as a way of doing. A transformation or enactment concern, generic participant meanings, applicability, precondition, intended effect or preserved condition, bound, or internal method composition can satisfy the positive threshold. The labels *algorithm*, *SOP*, *recipe*, *script*, *procedure*, code, diagram, or design-time artifact are cues only. Authoring, revision, citation, publication, approval, or use time establishes neither episteme identity nor `U.MethodDescription` membership. Its publication cites A.10 carrier/source-currentness refs when the carrier is used as evidence or source.
+* **Method** — the **abstract order-sensitive way-of-doing** composed with **Γ\_method** (B.1.5). A Method is not an occurrence, description episteme, or system ability. Actual participants and operation values remain occurrence-side facts of separately admitted `U.Work` and its direct bindings.
 * **Capability** — the **system ability/envelope** to enact a Method under stated roles, conditions, resources, and constraints. A Capability belongs to a system-in-context; it is not the MethodDescription and not the performed Work.
-* **Work** — the **dated run‑time occurrence** (what actually happened), with resource spend (Γ\_work) and temporal coverage (Γ\_time).
+* **Work** — the **dated run-time occurrence** (what actually happened), with resource spend (Γ\_work) and temporal coverage (Γ\_time).
 
-**Normative guard:** Never use MethodDescription as evidence of Work; never present Method or Capability as if it had happened; never define Method as Capability.
+**Designation, reference, and description are different.** A Method identifier designates one exact `U.Method` under the applicable designation rules of an effective `U.ReferenceScheme`. A receiving claim's `methodRef` separately resolves under its effective scheme to that same Method. Neither operation needs a MethodDescription. Cite a separate `methodDescriptionRef` only when that receiving claim actually depends on claims in an exact episteme edition that has already passed A.3.2 membership.
+
+**Minimally viable reference and membership case.** Under `MaintenanceReferenceScheme-2026`, identifier `PumpSealInspectionMethod` designates exact admitted Method `M-PSI`. `MaintenancePlan-47` is a separately governed `U.WorkPlan`; its `methodRef = PumpSealInspectionMethod` resolves directly to `M-PSI`, without a description hop. Episteme `PumpSealInspectionGuide-e3` is independently identified by C.2.1 from its exact claim content, `EntityOfConcern = M-PSI`, and effective scheme. Its claims state the inspection precondition, ordered clean–inspect–classify way of doing, rejection bound, and stop; the same episteme therefore passes A.3.2 membership as `U.MethodDescription`. If `MaintenancePlan-47` relies on those exact e3 claims, a separate `methodDescriptionRef = PumpSealInspectionGuide-e3` may be cited. The plan, Method, MethodDescription, Capability and any later Work remain different objects.
+
+**Recognizable near misses.** A catalogue row containing only `PumpSealInspectionMethod` designates or mentions a Method but is not a MethodDescription. A file named `PumpSealInspectionSOP-v3.pdf` supplies neither the C.2.1 episteme identity nor the substantive method claim by filename. `methodRef = PumpSealInspectionMethod` does not imply that a description exists. A newly authored, revised, cited, approved, published, or used episteme does not gain membership unless its exact Method EntityOfConcern and substantive way-of-doing claim satisfy the same test.
+
+**Normative guard:** Never use MethodDescription as evidence of Work; never present Method or Capability as if it had happened; never define Method as Capability; never infer MethodDescription membership from form, label, lifecycle time, or use. Resolve direct Method designation and receiving references without mandatory description indirection.
 
 #### A.7:5.4 - Holon vs System vs Episteme (who can act)
 
@@ -21497,7 +21555,7 @@ If `unitOfDelivery` is present, its countingRule MUST select only work episodes 
 OutcomeSpec(OS‑Consult‑5min) := {
   mode: WorkOnly,
   workSpec: {
-    methodConstraintRef?: MD‑Consultation,
+    methodConstraintRef?: ConsultationMethod,
     workPredicateRef: E‑(duration(work) ≥ 5 minutes)
   }
 }
@@ -21541,7 +21599,7 @@ unitOfDelivery := {
 OutcomeSpec(OS‑Hair‑Evening‑20min) := {
   mode: Composite,
   workSpec: {
-    methodConstraintRef: MD‑CutAndStyle‑NoWig,
+    methodConstraintRef: CutAndStyleNoWigMethod,
     workPredicateRef: E‑(duration(work) ≤ 20 minutes)
   },
   resultSpec: {
@@ -21562,6 +21620,8 @@ unitOfDelivery := {
 }
 ```
 
+In these cards, each `methodConstraintRef` resolves directly to an admitted `U.Method`. Add a separate `methodDescriptionRef` only when the OutcomeSpec claim actually depends on claims in one exact A.3.2-admitted description edition; neither the constraint nor its reference creates that membership.
+
 (Where `E‑(…)` denotes an Episteme/predicate defined in the relevant Context; this appendix does not introduce an expression language.)
 
 ### A.7:6 - Archetypal Grounding (Tell-Show-Show; System and Episteme)
@@ -21569,11 +21629,11 @@ unitOfDelivery := {
 #### A.7:6.1 - System and Episteme example
 **System archetype — “Digital‑twin vs asset”.**
 *Claim:* *The twin (episteme) does not “act”; the system or acting holon under a current `U.RoleAssignment` enacts Work on the asset; evidence binds through A.10 carrier/source-currentness and evidence-provenance relations.*
-*Show:* A maintenance **MethodDescription** (tech card) lives at design‑time; a **Work** record (assurance face) lists Γ_time, Γ_work, PathId and **carrier** ids for telemetry. The twin’s update is **Work on the carrier**, not the asset; CL^plane penalties are disclosed when twin–asset crossings are analysed.
+*Show:* Claim-bearing episteme `MaintenanceGuide-e4` is a **MethodDescription** only because C.2.1 identifies it with exact maintenance Method `MaintenanceMethod-M1` as EntityOfConcern and its claims state substantive preconditions, actions, bounds and stops; its TechCard form and design-time authoring do not grant membership. A **Work** record (assurance face) lists Γ_time, Γ_work, PathId and **carrier** ids for telemetry. The twin’s update is **Work on the carrier**, not the asset; CL^plane penalties are disclosed when twin–asset crossings are analysed.
 
 **Episteme archetype — “Peer‑review vs manuscript”.**
 *Claim:* *A review is Work by a **system** (the reviewer) **on carriers** of an episteme (the manuscript).*
-*Show:* The **MethodDescription** is the review SOP; the **Work** cites carrier ids (file/edition) and the selected episteme; arguments/rebuttals live on epistemes; acceptance gating lives in CAL, not in CHR cards.
+*Show:* Review episteme `PeerReviewGuide-e2` qualifies as **MethodDescription** only because its exact EntityOfConcern is admitted Method `PeerReviewMethod` and its claims state how that review is done; the SOP label alone proves nothing. The **Work** cites carrier ids (file/edition) and the selected episteme; arguments/rebuttals live on epistemes; acceptance gating lives in CAL, not in CHR cards.
 
 #### A.7:6.2 - Didactic examples
 
@@ -21581,7 +21641,7 @@ unitOfDelivery := {
 
 * **Substance (system):** Centrifugal pump P‑12.
 * **Role:** **Cooling‑CirculatorRole**.
-* **MethodDescription:** “Loop Circulation v3” (**TechCard**, cited through A.10 carrier/source-currentness refs when evidence or source use is current).
+* **MethodDescription membership:** episteme “Loop Circulation v3” has the circulation Method below as exact EntityOfConcern and claims the start → ramp → hold → stop way, conditions and bounds; its **TechCard** representation and publication timing do not establish membership. Cite A.10 carrier/source-currentness refs when evidence or source use is current.
 * **Method:** ordered way-of-doing: start → ramp → hold → stop (Γ\_method).
 * **Capability:** P-12 control-unit ability/envelope to enact that Method under stated roles, conditions, resources, and constraints.
 * **Work:** run on 2025‑08‑09 10:00–10:45; energy ledger via Γ\_work; log via Γ\_time.
@@ -21594,7 +21654,7 @@ unitOfDelivery := {
 * **Carriers:** PDF and printed volume with A.10 carrier/source-currentness refs when the standard is used as source or evidence.
 * **Use relation:** reference-use or constraint-source-use relation for the valve selection activity, named by its direct governing pattern.
 * **Role assignment for work:** `U.RoleAssignment(holderRef=DesignTeamSelectionSystem, roleRef=TransformerRole@ValveSelectionContext, boundedContextRef=ValveSelectionContext)` when the selection work needs a work-facing transformer role value.
-* **MethodDescription:** “Valve Selection SOP v5”.
+* **MethodDescription membership:** episteme “Valve Selection SOP v5” has the valve-selection Method below as exact EntityOfConcern and claims the selection criteria, ordered checks, bounds and stop; the SOP label and citation alone establish neither episteme identity nor membership.
 * **Method:** abstract valve-selection way-of-doing described by that SOP.
 * **Capability:** design team's selection-service ability/envelope to enact the Method under the project conditions.
 * **Work:** dated selection session that **used** the standard; the episteme did **not** act.
@@ -21612,13 +21672,13 @@ unitOfDelivery := {
 | **CC‑A7.1 (Role/Behaviour split)**       | A **Role** is a context-bound work-facing role value assigned through `U.RoleAssignment`; **behaviour** must be expressed as **Method** (abstract way-of-doing), with **Capability** as the system ability/envelope to enact that Method under conditions and **Work** as the run-time occurrence. | In any sentence, if “role” is used as if it *does* something, rewrite: the acting system or holon under a current role assignment does the Work by enacting a Method through a Capability. |
 | **CC‑A7.2 (Transformer-role assignment domain)** | `TransformerRole@Context` may be used only as a work-facing role value in `U.RoleAssignment` whose holder is a system or acting holon in the bounded context. | Type-check: holder is a system or acting holon; the role value itself is not the acting entity and not an old external-transformer shortcut. |
 | **CC‑A7.3 (Episteme non‑agency)**        | An **episteme SHALL NOT** be described as acting or holding work-facing roles. Changes to epistemes are governed through publication, carrier, work, evidence-provenance, and source-currentness relations: work on carriers, publication updates, evidence-provenance relations, and source-currentness records governed by A.10/E.17/A.15. | Text contains the acting system or holon, Work occurrence, and carrier/publication/evidence relation when change or evidence is claimed. |
-| **CC‑A7.4 (MethodDescription ≠ Method ≠ Capability ≠ Work)** | **MethodDescription** (description episteme), **Method** (abstract way-of-doing), **Capability** (system ability/envelope to enact a Method under conditions), and **Work** (performed occurrence) **SHALL** be kept distinct in wording and modelling.                                                                                                                                                          | Ask: is there a MethodDescription or design-time publication, a Method, a Capability claim about a system, or a dated occurrence? Each live MethodDescription, Method, Capability claim, and dated Work occurrence must be named separately.                                         |
+| **CC‑A7.4 (MethodDescription ≠ Method ≠ Capability ≠ Work)** | **MethodDescription** is the same independently identified C.2.1 episteme only when its exact EntityOfConcern is one admitted Method and at least one substantive way-of-doing claim obtains; **Method**, **Capability**, and **Work** retain their separate meanings. Form, label, design-time status, authoring, revision, citation, publication, approval, or use time grants no membership. | Identify the episteme triple and apply the A.3.2 threshold; then name each current Method, Capability claim and dated Work occurrence separately. |
 | **CC‑A7.5 (Operator fit)**               | Use **Γ\_method** only for composing **Method**; **Γ\_time** only for **Work** histories; **Γ\_work** only for resource spend/yields; **Γ\_sys** for systemic properties of systems.                                                                                                           | No sentence should use a single generic “process operator” for all three.                                                                 |
 | **CC-A7.6 (Carrier/source-currentness reference)** | Any knowledge claim that references documents or data **SHALL** cite publication carriers or A.10 carrier/source-currentness refs when evidence, source, or reliance use is current. | First mention names the carrier or source-currentness reference and the evidence/source relation made recoverable by that reference. |
 | **CC‑A7.7 (Collective vs set)**          | If a grouping is expected to **act**, it **MUST** be modelled as a **collective system** (boundary + coordination Method + Work), not as a **MemberOf** set.                                                                                                                                   | Presence of boundary, Method, Work for the group.                                                                                         |
 | **CC‑A7.8 (Diagram legend)**             | When domain idioms use **“process”**, diagrams or text **MUST** map them to FPF terms on first occurrence: *process (domain) ≡ Method at design time or Work at run time.*                                                                                                                           | Legend or parenthetical present at first use.                                                                                             |
 | **CC‑A7.9 (Substance ⧧ Role wording)**   | The safe formula is **“System or acting holon is holder in `U.RoleAssignment`; under that assigned role value it has Method/Capability; its execution is Work.”** | Sentences follow this order; “function” used only as synonym for **behaviour**, never for the **role**. |
-| **CC-A7.10 (Quartet clarity)**           | Any “triad” picture **MAY** be used only as a **design-time stand-in** (role-assignment holder + MethodDescription + Method) and **MUST** be accompanied by explicit **Capability** and **Work** positions elsewhere in the same section. “quartet of quartets” headings **SHALL** be avoided; use **“work-facing chain”** instead. | Diagram has visible **Capability** and **Work** positions/timeline or separate boxes within the same section. |
+| **CC-A7.10 (Work-facing chain clarity)** | Any “triad” picture **MAY** be used only as a design-time view, never as MethodDescription-membership or execution evidence. It may show role-assignment holder and exact Method directly; it may add MethodDescription only after the independently identified episteme passes A.3.2 membership; and it **MUST** show explicit Capability and Work positions elsewhere in the same section. “quartet of quartets” headings **SHALL** be avoided; use **“work-facing chain”** instead. | Diagram has visible Method, Capability and Work positions/timeline; any MethodDescription box states its episteme, exact Method EntityOfConcern and substantive claim basis. |
 | **CC‑A7.11 (Terminology hygiene)**       | Avoid **“actor”** as a bare core term. Use the exact acting system or holon plus `U.RoleAssignment(holderRef, roleRef, boundedContextRef)` when a work-facing role is current. | Plain text scan: no bare “actor” in normative core claims; any local role shorthand is bound through A.2/A.2.1. |
 | **CC‑A7.12 (Role domain guards)**        | Work-facing role assignments have systems or acting holons as holders. Epistemes may be used through reference-use, constraint-source-use, evidence-use, status-use, source-use, publication-use, requirement-use, definition-use, explanation-use, assurance-use, or gate-use relations, but those uses are not roles. | Role declarations name holder, role value, bounded context, and window when current; episteme uses name the direct relation. |
 | **CC-A7.13 (EntityOfConcern-to-Description visibility)**          | Conforming `EntityOfConcern` and Description-episteme use makes `Describe_EoC_DescEp` recoverable and does not conflate it with MVPK, transformation-flow structure, specification use or refinement, or Work steps. If a flow shows only publication faces and forms, the underlying `EntityOfConcern` and Description episteme are recoverable.       | EntityOfConcern and Description episteme are visible in text and diagrams; audit shows the describing operation and its construction/reference trace.                                                             |
@@ -21628,6 +21688,7 @@ unitOfDelivery := {
 | **CC‑A7.17 (Publication face and form discipline)**     | Publication names use the current publication face, form, unit, carrier, and rendering vocabulary. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are faces over epistemes or views; new `...PublicationFace` or `...PublicationForm` heads are not introduced as A.7 kinds in this ontology.                                                 | Token scan shows no ad‑hoc `...PublicationFace` or `...PublicationForm` kinds.                                                       |
 | **CC‑A7.18 (Bridge+CL on crossings)**    | Any cross‑Context or cross‑plane content on a face **MUST** cite **Bridge id + CL** and **Φ policy‑ids**; penalties apply to **R** only.                                                                         | Presence of Bridge ids and **Φ(CL)** and **Φ_plane** on TechCard or AssuranceLane.                        |
 | **CC-A7.19 (UTS row reference)**         | Public names shown on faces **SHALL** point to **UTS rows** with twin labels (Tech/Plain), edition pins, and carrier/source-currentness refs when source or evidence use is current. | Face carries UTS row ids + edition pins plus the current source/evidence refs where needed. |
+| **CC-A7.20 (Direct Method reference)** | An identifier's designation of one exact Method under an effective ReferenceScheme and a receiving claim's resolved `methodRef` remain separate from `U.MethodDescription` membership. Neither requires a description hop; `methodDescriptionRef` is optional and edition-specific only when the receiving claim uses that episteme's claims. | Resolve the identifier and receiving reference directly to the Method, then apply A.3.2 independently only for an actually cited description episteme. |
 
 ### A.7:8 - Canonical rewrites (didactic library)
 
@@ -21636,7 +21697,7 @@ unitOfDelivery := {
 | “The process enforced the rule.”                 | “The acting system under `U.RoleAssignment(..., roleRef=TransformerRole@Context, ...)` executed the **Method**; the **Work** cites evidence carriers ⟨ids⟩.” | Processes don’t act; systems or acting holons do. Evidence uses Work plus A.10 carrier/source-currentness relations. |
 | “The specification decided to tighten limits.”   | “The design-control system under a current role assignment updated the **carriers** of the spec, producing **Work** at ⟨time⟩ and recording the A.10/E.17 carrier and publication relations.” | Epistemes are changed via carriers by systems or acting holons. |
 | “Our role is pump; the role circulates coolant.” | “`U.RoleAssignment(holderRef=<system>, roleRef=CoolingCirculatorRole@Context, boundedContextRef=<context>)` is current; under this assignment the system has **Method** and **Capability** for coolant circulation; **Work** was executed ⟨when⟩.” | Role value is not behaviour; behaviour is Method/Capability and Work. |
-| “We followed the blueprint, so it’s done.”       | “We have a **MethodDescription** and a **Method**; if ability is claimed, name the system **Capability** separately; completion is evidenced by **Work** with ⟨timestamps, outcomes⟩.”                                   | Description, Method, and Capability are not the occurrence.                      |
+| “We followed the blueprint, so it’s done.” | “Resolve the exact **Method** directly. Call the blueprint's claim-bearing episteme **MethodDescription** only if its exact EntityOfConcern is that Method and it makes a substantive way-of-doing claim; if ability is claimed, name **Capability** separately; completion needs dated **Work** and evidence.” | Form or use does not establish membership, and description, Method and Capability are not the occurrence. |
 | “Team = set of members; it performed repair.”    | “The **team** is a **collective system** (boundary + coordination **Method**); it executed **Work** ⟨…⟩.”                                       | Acting groups must be systems, not sets.                  |
 | “Process cost is tracked by Γ\_method.”          | “**Work** cost is tracked by **Γ\_work**; **Γ\_method** composes the **Method** (order/branching).”                                             | Operator alignment.                                       |
 | “Holon has TransformerRole.”                 | “`U.RoleAssignment(holderRef=<system-or-acting-holon>, roleRef=TransformerRole@Context, boundedContextRef=<context>)`.” | The holder, role value, and bounded context must be explicit. |
@@ -21677,6 +21738,15 @@ unitOfDelivery := {
 11. **Publication-as-mechanism** — modelling “publication” as if it were a Method or Mechanism.
    **Fix:** Separate **describing** (`Describe_EoC_DescEp`), specification-use refinement, and **publication** (MVPK Description-episteme-to-publication face, form, unit, carrier, and rendering availability). If there is operational toil (build, render, upload), model it as **Work** by a **system** on **carriers**; do not change the `EntityOfConcern` value, the Description episteme, specification-use gate/refinement, or the publication relation being presented.
 
+12. **Form-first MethodDescription** — “this is an SOP/algorithm/script, therefore it is a MethodDescription.”
+   **Fix:** Identify the C.2.1 episteme, resolve one admitted Method as its exact EntityOfConcern, and find at least one substantive way-of-doing claim; otherwise retain only the source cue.
+
+13. **Mandatory description hop** — a Method identifier or receiving `methodRef` is forced through a document or description edition.
+   **Fix:** Resolve designation and the receiving reference directly to the exact Method under their effective ReferenceScheme discipline; cite `methodDescriptionRef` separately only when its claims are actually used.
+
+14. **Lifecycle time as membership** — authoring, revision, citation, approval, publication, or use is treated as creating MethodDescription membership.
+   **Fix:** Keep those Work and neighboring relations under their direct owners; reapply the same A.3.2 membership test to the independently identified episteme.
+
 ### A.7:10 - Consequences
 
 | Benefit                      | Why it matters                                    | Trade‑off / Mitigation                             |
@@ -21706,8 +21776,8 @@ unitOfDelivery := {
 ### A.7:12 - Rationale (informal)
 
 * **Engineering cognition:** Large programmes fail less from equations than from category slips (“process vs procedure vs execution”). A.7 eliminates these slips by a small, repeatable grammar.
-* **Compatible with ISO/BORO practice:** Distinguishing specifications as descriptions, procedures as capabilities, and operations as occurrences mirrors established systems-engineering discipline while keeping FPF’s holonic rigor.
-* **Didactic primacy:** Practitioners can approve sentences by spotting the work-facing chain in context: acting system or holon, `U.RoleAssignment`, **MethodDescription**, **Method**, **Capability**, **WorkPlan**, **Work**, and A.10 evidence-provenance or carrier/source-currentness relation where evidence is claimed.
+* **Compatible with ISO/BORO practice:** Distinguishing reusable ways of doing, claim-bearing description epistemes, system capabilities, and dated operations mirrors established systems-engineering discipline while keeping FPF’s holonic rigor; procedure-like labels remain cues rather than kind evidence.
+* **Didactic primacy:** Practitioners can approve sentences by spotting the current work-facing positions in context: acting system or holon, `U.RoleAssignment`, exact **Method**, **Capability**, **WorkPlan**, **Work**, optional independently admitted **MethodDescription** when its claims are used, and A.10 evidence-provenance or carrier/source-currentness relation where evidence is claimed.
 * **Why name publication faces and forms in A.7?** Strict Distinction already guards the `EntityOfConcern` value from the Description episteme that makes claims about it. In practice, misreadings happen at the publication face: cards and tables are mistaken for EntityOfConcern values; governance words leak where physics or logic should stand. Naming publication face, form, unit, carrier, and rendering uses as orthogonal closes that gap without entangling semantics with any tool or notation. Specification use or refinement is also named only to keep it orthogonal to `EntityOfConcern`, Description, and publication expression. This preserves **C-1 universality** and **P-1 Cognitive Elegance**, while giving E.8 a crisp governing source for multi-face presentation rules.
 
 ### A.7:13 - Relations
@@ -21721,19 +21791,20 @@ unitOfDelivery := {
 
 **Approval sentence template**
 
-> “`U.RoleAssignment(holderRef=⟨system-or-acting-holon⟩, roleRef=⟨Role@Context⟩, boundedContextRef=⟨Context⟩)` is current for the work; the holder has **Capability** ⟨C⟩ to enact **Method** ⟨M⟩ (from **MethodDescription** ⟨S⟩), executed **Work** ⟨W⟩ on ⟨time⟩, and cites A.10 evidence-provenance or carrier/source-currentness refs ⟨ids⟩; resources are accounted through the governing work-cost relation.”
+> “`U.RoleAssignment(holderRef=⟨system-or-acting-holon⟩, roleRef=⟨Role@Context⟩, boundedContextRef=⟨Context⟩)` is current for the work; the holder has **Capability** ⟨C⟩ to enact exact **Method** ⟨M⟩; the receiving `methodRef` resolves directly to ⟨M⟩ under its effective reference scheme; when this claim actually relies on separately admitted **MethodDescription** episteme ⟨S⟩, cite that edition separately; the holder executed **Work** ⟨W⟩ on ⟨time⟩ and cites A.10 evidence-provenance or carrier/source-currentness refs ⟨ids⟩; resources are accounted through the governing work-cost relation.”
 
-**Five binary checks**
+**Six binary checks**
 
 1. **Bare acting-subject check:** No bare “actor” token in normative core claims; canonical `U.RoleAssignment` phrasing is present when a work-facing role is current.
-2. **Clear quartet:** MethodDescription, Method, Capability, and Work are all named (as applicable) and not conflated.
-3. **Right Γ:** Γ\_method composes Method; Capability states a system ability/envelope under conditions; Γ\_time covers occurrences; Γ\_work accounts resources; Γ\_sys covers system properties.
-4. **Episteme handled:** Epistemes do not act; carriers or source-currentness refs are listed when evidence or source use is current.
-5. **Group clarity:** Acting group is a **collective system**, not a MemberOf set.
+2. **Clear work-facing positions:** Exact Method, Capability and Work are named when current and not conflated. A MethodDescription is named only when its independently identified episteme and claims pass A.3.2 membership.
+3. **Direct reference and membership:** An identifier's designation of the Method and the receiving claim's resolved `methodRef` remain distinct; neither requires a MethodDescription. Any `methodDescriptionRef` points to a separate episteme whose exact EntityOfConcern is that Method and whose claims cross the substantive way-of-doing threshold.
+4. **Right Γ:** Γ\_method composes Method; Capability states a system ability/envelope under conditions; Γ\_time covers occurrences; Γ\_work accounts resources; Γ\_sys covers system properties.
+5. **Episteme handled:** Epistemes do not act; carriers or source-currentness refs are listed when evidence or source use is current.
+6. **Group clarity:** Acting group is a **collective system**, not a MemberOf set.
 
 **Diagram legend stub**
 
-* “process (domain)” ⇒ Method (design‑time) / Work (run‑time).
+* “process (domain)” ⇒ Method (design-time) / Work (run-time).
 * Role column lists role values and assignment references (e.g., `CoolingCirculatorRole@Context`).
 * Behaviour column shows Method and Work, not the role itself.
 
@@ -23763,7 +23834,7 @@ Use **MemberOf** only; avoid any part‑inferences (CC‑MEM‑2). If you need a
 | **Γ\_sys (B.1.2)**          | Treat **PortionOf** as Σ‑additive stocks; **ComponentOf** must respect boundary integration; **PhaseOf** is not aggregated here.                       | Conserves extensive measures and keeps structural WLNK (weakest‑link) on components.          |
 | **Γ\_epist (B.1.3)** | **PortionOf** of texts/data uses μ = token/byte count; **ConstituentOf** composes arguments/sections; `PhaseOf` may restrict one unchanged episteme to a proper interval. Distinct MethodDescription or document epistemes use C.2.1 identity and `EpistemeEditionRelation` only when its predicate obtains. | Preserves provenance and avoids both trust inflation and label-based identity or continuity. |
 | **Γ\_ctx / Γ\_time (B.1.4)** | **PhaseOf** provides the legal slicing for time; order/dependencies live in **Γ\_ctx** and method graphs (A.15/B.1.5). **PortionOf** is orthogonal (quantities inside steps/runs).                                      | Ensures chronological consistency and monotone coverage.                                      |
-| **Γ\_method (B.1.5)**          | Recipes are **MethodDescription** graphs (not parthood). When a recipe refers to stuff‑like inputs, those are **PortionOf** statements on resources.          | Separates recipe composition from structure.                                                  |
+| **Γ\_method (B.1.5)**          | Γ\_method composes Methods rather than A.14 structural parts. A recipe-labelled claim-bearing episteme is a **MethodDescription** only when its exact `EntityOfConcern` is one admitted `U.Method` and at least one substantive way-of-doing claim obtains under A.3.2; any graph form is a C.29-governed representation, not membership evidence. When a recipe refers to stuff‑like inputs, those are **PortionOf** statements on resources. | Separates recipe composition from structure.                                                  |
 | **Γ\_work (B.1.6)**          | Only **Work** carries resource deltas; when logging “consumed 5 kg from Tank A”, model it as **PortionOf** relation to the stock prior to consumption. | Makes Σ‑balance explicit; aligns with CC‑POR‑3/4.                                             |
 
 ### A.14:10 - Common Anti-Patterns and How to Avoid Them
@@ -25035,7 +25106,7 @@ Use this as a human-facing recognition palette, not a rigid schema or a definiti
 * **WorkPlan:** `DC_Rollout_Phase-2` is interpreted under `DCOperationsPlanningScheme-E5`, has horizon `[2025-09-01T00:00Z, 2025-09-15T00:00Z)`, and concerns already identified `Service-A-Operations-System : U.System`. The Security Audit scheme remains a separate interpretation source used only through the branch below.
 * **Interpretation boundary:** Operations uses `DCOperationsPlanningScheme-E5`; Security Audit uses `SecurityAuditScheme-E4`. Their acceptance criteria remain separate; apply the branch in checklist item 7 before proposing any cross-context reuse.
 * **Bridge premise:** exact F.17 cells `OperationsReadyCell-E3` and `SecurityAuditPassedCell-E2` participate in F.9 Bridge `OpsAuditReadinessOverlapBridge-E1` under `OpsAuditPartialOverlapProfile-E1`. The Bridge obtains as `partial-overlap`: both senses exclude a known blocking security defect, while Operations readiness also requires rollback rehearsal and live monitoring and the audit sense applies its own security criteria.
-* **Rejected verdict transfer:** C.2.1 claim `AuditPassAsOperationsReadyUse-E1` proposes copying `GateDecision=pass` from A.21 gate `SecurityAuditGate-E2` into A.15.5 `WorkEntryReadiness@Context`, from the audit cell to the Operations cell, by identity transfer and with zero tolerance for omitted readiness conditions. The claim is negative because the two senses do not align on rollback rehearsal or monitoring readiness. A.10 evidence-provenance path `OpsAuditTransferEvidencePath-E1` has `RelianceDisposition=pass` for that negative claim, so the team retains the A.21 audit decision and evaluates Operations readiness separately under A.15.5. The obtaining Bridge remains true. A narrower plan use may cite the audit decision as one readiness input; it still cannot transfer the verdict.
+* **Rejected verdict transfer:** C.2.1 claim `AuditPassAsOperationsReadyUse-E1` proposes copying `GateDecision=pass` from A.21 gate `SecurityAuditGate-E2` into an A.15.5 work-entry readiness result, from the audit cell to the Operations cell, by identity transfer and with zero tolerance for omitted readiness conditions. The claim is negative because the two senses do not align on rollback rehearsal or monitoring readiness. A.10 evidence-provenance path `OpsAuditTransferEvidencePath-E1` has `RelianceDisposition=pass` for that negative claim, so the team retains the A.21 audit decision and evaluates Operations readiness separately under A.15.5. The obtaining Bridge remains true. A narrower plan use may cite the audit decision as one readiness input; it still cannot transfer the verdict.
 * **`PlanItem` content:** `Deploy Service A`, `Pen-test A`; exact dependency and window claims name their predicates and conditions inside the plan ClaimGraph.
 * **Later local assertions:** Exact deployment and audit Work occurrences are identified independently as individuals admitted under `U.Work`. Separate operations and audit evaluations apply their own targets and produce separately governed verdicts; plan-use assertions state exact local fulfilment and per-context comparison without adding those actual facts to the plan content or creating one cross-context fulfilment relation.
 
@@ -25059,8 +25130,8 @@ Use this as a human-facing recognition palette, not a rigid schema or a definiti
 | CC-A15.2-8 | A one-case fulfilment answer is A.6.RCD disposition 2: a separate assertion about exact plan episteme P, item I, Work W, and policy F. F names the independently obtaining Work facts and the positive or negative criterion used. | Shared labels or links cannot close the claim. Negative polarity needs an applicable explicit criterion and case facts; unavailable facts return `missing-information`, absent predicate or policy authority returns `missing-governor`. Repeated semantics may use a predicate-definition episteme; only an occurrence-facing receiver can open relation-kind admission. |
 | CC-A15.2-9 | A variance question compares exact planned and actual values through one local comparison assertion or the measurement, temporal, resource, evaluation, or acceptance pattern that defines the comparison. | Comparison method, scale, qualification window, and result are explicit; no universal variance relation or intrinsic Work field is inferred. |
 | CC-A15.2-10 | Cross-context planning pins each effective reference scheme and applies the separate Bridge/use/reliance branch in checklist item 7. | F.9 is cited only for an exact `SchemeSenseCell` Bridge; the separate C.2.1 use claim and A.10 or B.3 reliance result decide whether the attempted use proceeds, narrows, or stops. Run target conversion, commitment, acceptance, and verdict reuse under the pattern that defines each claim; the Bridge establishes none of them. |
-| CC-A15.2-11 | Evidence, assurance, gate, launch-value, and result-measurement claims stay in the patterns that govern those relations. | Evidence-reference notes or requests do not become evidence, assurance, gate passage, or result measurement. `WorkEntryReadiness@Context` and `GateDecision=pass` alone establish neither an A.2.8.PER permission relation nor a Work occurrence. |
-| CC-A15.2-12 | Planned preparation tasks may appear in the WorkPlan, but `WorkEntryReadiness@Context` remains governed by A.15.5. | The plan says what should be prepared; it does not decide readiness for work entry by itself. |
+| CC-A15.2-11 | Evidence, assurance, gate, launch-value, and result-measurement claims stay in the patterns that govern those relations. | Evidence-reference notes or requests do not become evidence, assurance, gate passage, or result measurement. An A.15.5 readiness result and `GateDecision=pass` alone establish neither an A.2.8.PER permission relation nor a Work occurrence. |
+| CC-A15.2-12 | Planned preparation tasks may appear in the WorkPlan, but A.15.5 governs the local readiness criterion and result. | The plan says what should be prepared; it neither performs the preparation nor decides readiness for work entry by itself. |
 
 ### A.15.2:7b - Common Anti-Patterns and How to Avoid Them
 
@@ -25104,15 +25175,17 @@ Use this as a human-facing recognition palette, not a rigid schema or a definiti
 
 When `E.18.1` reaches WorkPlanning, one exact `U.WorkPlan` retains its present EntityOfConcern and states possible future performed work over an exact horizon through `PlanItem` content: intended-performance designators, windows, methods, performer and role conditions, capability requirements, constraints, budgets, dependencies, commitments, targets, evidence-reference notes, and source-currentness requests. If the plan chooses a value for a reusable declaration member, use A.15.3; if it states an expected effect, name the intended subject and target under the pattern that defines that effect.
 
-When the P2W use also needs a readiness question, the WorkPlan may supply target PlanItems, planned preparation tasks, reservations, and planned baselines. `A.15.5` carries the `WorkEntryReadiness@Context` relation that judges full-kit condition, commitment disposition, resource readiness, WIP or flow policy, and any launch-gate references the readiness claim actually cites.
+When the P2W use also needs a readiness question, the WorkPlan may supply target PlanItems, planned preparation tasks, reservations, and planned baselines. `A.15.5` supplies the exact readiness criterion and local result about that plan content; the criterion may consume current commitment, resource, work-in-progress or load, flow-policy, and launch-gate claims only through their separately governed values, boundaries, counting or threshold rules, and qualification windows.
 
 If the same P2W source material also claims performed work, an actual launch value or participant, evidence, gate passage, result, measurement, publication use, appearance-based reliance repair, or refresh, state that claim outside the WorkPlan under the pattern that defines it. The WorkPlan establishes none of them.
 
 ### A.15.2:9 - Launch-value and actual-use boundary for P2W
 
-For P2W use, `U.WorkPlan` may state intended holder and role claims, planned values, exact A.15.3 fillings, constraints, reservations, commitments, and evidence-reference notes. A.15.5 `WorkEntryReadiness@Context` reports whether its stated entry conditions hold. An A.21 `GateDecision` selects, narrows, blocks, or passes its declared crossing under the exact `GateProfile`. Neither result institutes permission. If entry also requires permission, name the exact current A.2.8.PER `GrantedPermissionRelation@Context` for its beneficiary, action, scope, and window; without that grant, make no authorization claim. The plan, readiness result, gate decision, and permission grant make no planned value actual and create no Work occurrence.
+For P2W use, `U.WorkPlan` may state intended holder and role claims, planned values, exact A.15.3 fillings, constraints, reservations, commitments, and evidence-reference notes. A.15.5 may later publish one C.2.1 work-entry readiness result about this exact plan and PlanItem. An A.21 `GateDecision` separately selects, narrows, blocks, or passes its declared crossing under one current `GateProfile`. Neither result institutes permission.
 
-At performed-work entry, identify one exact Work occurrence as an individual admitted under `U.Work` by A.15.1. For an actual relation participant or another world-side value, name the direct relation and its obtaining predicate. For an operation argument or returned result, use A.6.1 only after the exact application and its declaration-local binding predicate obtain. Keep the gate decision, plan claim, Work occurrence, actual-use relation, provenance, change, result episteme, production, delivery, acceptance, and downstream effect separate.
+When the entry criterion consumes permission material, keep the current A.2.8.PER values distinct. A `GrantedPermissionRelation@Context` occurrence is strong permission only for its exact beneficiary, action specification, `U.ClaimScope`, and `validityWindow`. A `NonProhibitionFinding@Context` reports only its frame-relative result for its `evaluationWindow`; it is not a grant. A `PermissionNormConflictFinding@Context` exposes overlap for its `overlapWindow`, and only its direct owner can supply a current resolution result with an `effectiveWindow`; an unresolved conflict stops or degrades the proposed use. `PermissionExerciseRelation@Context` and `NonViolationFinding@Context` require already dated actual Work and therefore cannot be prospective proof that the intended performance may start. When the governing entry policy requires a grant, absence or unavailability of that exact current grant permits no authorization claim; readiness, gate passage, or non-prohibition cannot stand in for it. The WorkPlan, readiness result, gate decision, permission values, and their windows make no planned value actual and create no Work occurrence.
+
+At performed-work entry, identify one exact Work occurrence as an individual admitted under `U.Work` by A.15.1. For an actual relation participant or another world-side value, name the direct relation and its obtaining predicate. For an operation argument or returned result, use A.6.1 only after the exact application and its declaration-local binding predicate obtain. Keep the gate decision, plan claim, readiness result, permission facts, Work occurrence, actual-use relation, provenance, change, result episteme, production, delivery, acceptance, and downstream effect separate.
 
 ### A.15.2:10 - Lowering, repair, and refresh conditions
 
@@ -25922,13 +25995,17 @@ Refresh before allowing the reliance appearance to guide release, safety, compli
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** `A.15.5` governs `WorkEntryReadiness@Context`: the planning and gate-facing relation that says whether intended work is ready enough to enter a work boundary. It uses full-kit preparation, commitment, resource readiness, flow policy, planned slot-filling baselines, and gate refs without treating readiness as performed work.
+**At a glance.** Use A.15.5 to judge whether one exact intended performance named in a `U.WorkPlan` and `PlanItem` satisfies one exact work-entry readiness criterion at a stated evaluation time. Separately performed preparation or checking Work applies that criterion to exact current plan, filling, resource, assignment, commitment, permission, source, and gate inputs. Persist the local result as a C.2.1 episteme only when another use must rely on it; readiness makes neither the target Work nor any input fact obtain.
 
 **Use this when.** Use this pattern when a team is about to commit, release, launch, or admit intended work and needs to know whether the needed inputs, currentness refs, publication refs, resources, planned fillers, constraints, and gate conditions are ready enough for that work entry.
 
-**Primary EntityOfConcern.** One `WorkEntryReadiness@Context` relation for one intended work item, target work plan, PlanItem, or work-boundary concern in one bounded context.
+**Primary EntityOfConcern.** One exact intended performance designated inside one exact `U.WorkPlan` and `PlanItem`, together with the work-entry readiness claim currently being made about it. Preserve the plan's exact intended-work kind or work-family classification when that distinction is current; it remains plan content and does not instantiate a dated `U.Work`. The plan names the target `U.Method`; cite a separately constituted `U.MethodDescription` episteme only when the readiness criterion or planned use relies on that exact description edition. The intended-performance designator, intended-work kind, plan, method, and description are not a dated target `U.Work` occurrence.
 
-**First output.** One `WorkEntryReadiness@Context` record with its `FullKitCondition`, commitment disposition, prospective direct permission inputs (a current grant occurrence, non-prohibition finding, or permission-conflict finding), and any retrospective exercise/non-violation ref only through `PriorWorkEvidenceRefs` for a different exact already-dated work occurrence or an explicitly post-launch recheck whose target work is already actual; plus resource-readiness, WIP or flow-policy, planned-baseline, gate, and stop or degraded-use refs when current.
+**First output.** One readable work-entry readiness result naming the exact WorkPlan, PlanItem and intended performance; criterion; checking Work; local readiness value; every input proposition and qualification interval used; reliance window; and stop or recheck condition. Planned fillings, resources, assignments, commitments, current permission facts, gate decisions, provenance, and assurance remain separately governed inputs or neighboring claims; they are not bundled into the readiness result's identity.
+
+**Ordinary route.** Name the exact WorkPlan, PlanItem, intended performance, any current intended-work kind, criterion, and evaluation time. Perform and identify the checking Work when the check actually occurs; apply the criterion only to its named current inputs; return `ready`, `readyWithKnownGaps`, `notReady`, or `unknown` with the reliance window and stop or recheck condition. Stop there unless a separate receiver actually needs a persisted result episteme, gate decision, permission result, performed target Work, provenance path, or assurance claim.
+
+**What this buys.** A team can decide the next bounded move—start no work yet, prepare an exact missing input, recheck, or submit declared checks to a gate—without turning a plan, green label, commitment, reservation, permission fact, or preparation activity into target Work or into one all-purpose readiness object.
 
 **Not this pattern when.** Use `A.15.2` for the work plan itself, `A.15.3` for planned slot fillers, `A.15.1` for dated performed work, `A.21` for gate decisions, `A.15.4` only when a reliance appearance is already being used as a reason for work or reliance before the governing pattern slot, relation, or project-side reference is named, `B.1.6` for resource aggregation after work, `E.18` for transformation-flow structure, and `E.18.1` for P2W carry-through from accepted problem-side material.
 
@@ -25936,11 +26013,11 @@ Refresh before allowing the reliance appearance to guide release, safety, compli
 
 Teams often say that work is "ready", "full-kitted", "committed", "green", "released", or "good to start." Those words can point to different FPF values: an intended WorkPlan, a PlanItem baseline, a performed preparation activity, a gate decision, a source-currentness relation, resource availability, or resulting performed work.
 
-`A.15.5` gives the readiness relation one place without importing a management framework object as an FPF kind. Readiness is pre-work-entry unless a recheck after launch or post-launch variance claim is explicitly current. A readiness relation may cite preparation work, but it is not that preparation work and not the target performed work.
+`A.15.5` gives the readiness question and its local result one place without importing a management framework object as an FPF kind. Readiness is pre-work-entry unless a recheck after launch or post-launch variance claim is explicitly current. A readiness claim may cite preparation or checking Work, but it is neither that Work nor the target performed Work.
 
 ### A.15.5:2 - Problem
 
-Without a separate work-entry readiness relation:
+Without one explicit local work-entry readiness claim and result semantics:
 
 1. Full-kit preparation becomes an attractive umbrella for planning, source relations, gate passage, and performed work.
 2. A green tile or ready label is treated as a `GateDecision`.
@@ -25953,78 +26030,68 @@ Without a separate work-entry readiness relation:
 | Force | Pressure |
 | --- | --- |
 | Work-entry speed | Teams need a short readiness result before work entry. |
-| Open-world discipline | A missing field in the readiness record does not mean the corresponding concern does not exist; it means the current readiness claim did not use that slot. |
-| Plan and work split | A readiness relation can cite intended work and preparation work without becoming performed target work. |
-| Gate separation | A gate may consume readiness evidence, but the readiness relation does not itself publish a `GateDecision`. |
+| Open-world discipline | An input omitted from one criterion is not thereby absent; an unavailable required fact returns `unknown` unless an applicable explicit failure condition is established. |
+| Plan and work split | A readiness claim can cite intended work and performed preparation or checking Work without becoming performed target Work. |
+| Gate separation | An A.21 gate may consume a readiness result as a declared check input, but readiness does not publish a `GateDecision`. |
 | Full-kit usefulness | Full-kit thinking is valuable when it states what must be known, prepared, reserved, or checked before work starts. |
 
 ### A.15.5:4 - Solution
 
-Represent readiness as `WorkEntryReadiness@Context`, a dependent relation under the A.15 family and A.21 boundary.
+Represent readiness as one domain-local result claim about exact plan content, not as a root U-kind, imported management object, generic container, or default relation occurrence. When persistence matters, C.2.1 identifies the result episteme; A.15.5 supplies the readiness-specific criterion and result-value semantics only.
 
-E.24.UK settlement: this pattern does not introduce a root `U.Readiness`, root `U.Move`, imported TameFlow `MOVE` kind, or independent readiness ontic. The selected relation is a context readiness relation over existing values: `U.WorkPlan`, PlanItem, `SlotFillingsPlanItem`, intended work kind, target EntityOfConcern, commitment disposition, resource-readiness refs, gate refs, evidence refs, and performed `U.Work` only when that work has occurred. `FullKitCondition` is a condition inside this readiness relation, not a separate root kind.
+**E.24.UK settlement.** This pattern introduces no root `U.Readiness`, root `U.Move`, imported TameFlow `MOVE` kind, `FullKitCondition` object, independent readiness entity, or default readiness relation. Exact plans, plan components, methods, performed Work, resources, assignments, commitments, permission results, gate decisions, evidence, provenance, and assurance retain their direct owners.
 
-#### A.15.5:4.1 - WorkEntryReadiness@Context
+#### A.15.5:4.1 - One work-entry readiness claim
 
-```text
-WorkEntryReadiness@Context:
-  WorkEntryConcernRef
-  BoundedContextRef
-  TargetWorkPlanRef?
-  TargetPlanItemRef?
-  TargetWorkKindRef?
-  TargetEntityOfConcernRef?
-  IntendedOutcomeOrValueRef?
-  FullKitCondition?
-  CommitmentDisposition?
-  GrantedPermissionOccurrenceRef?     # prospective direct input when current
-  NonProhibitionFindingRef?           # prospective direct input when current
-  PermissionNormConflictFindingRef?   # prospective current-conflict input
-  ResourceReadinessRefs?
-  WIPPolicyRef?
-  FlowPolicyRef?
-  SlotFillingsPlanItemRefs?
-  PreparationWorkRefs?
-  PriorWorkEvidenceRefs?              # may cite exercise/non-violation only for a different exact already-dated work occurrence
-  SourceCurrentnessRefs?
-  LaunchGateRef?
-  GateDecisionRef?
-  EvidenceRefs?
-  StopCondition
-  DegradedUse?
-  ReturnOrRecheckCondition?
-  PostLaunchVarianceRef?              # target-work exercise/non-violation only in an explicit post-launch recheck after that work is actual
-```
+Start with one ordinary sentence:
 
-The record is filled according to the current readiness claim. It is not a demand to fill every slot. It is a checklist of concerns that must not be forgotten when those concerns are live.
+> At evaluation time T, checking Work W applied criterion C to intended performance I in PlanItem J of WorkPlan P and returned readiness value R for use through window V; stop or recheck when Q occurs.
 
-#### A.15.5:4.2 - FullKitCondition
+`P` is one exact `U.WorkPlan` episteme. `J` and `I` are declaration-local plan content, not existing future entities. `C` is one exact criterion episteme whose applicability to this plan item and evaluation time is current. `W` is one separately identified dated `U.Work` occurrence with its performer system, covering assignment, enacted method, extent, and any actual A.6.1 bindings or direct participants required by the check. `R` is a local `ReadinessResultValue`, not a gate decision, permission, commitment, work occurrence, or universal result kind.
 
-Use `FullKitCondition` when the readiness question depends on what must be known, prepared, reserved, gathered, communicated, or pinned before work entry.
+The local value family is:
 
-```text
-FullKitCondition:
-  NeededInputRefs
-  KnownInputRefs
-  MissingInputRefs
-  GoverningPatternForEachMissingValue
-  PreparationWorkRef?          # only when preparation was performed
-  PlannedBaselineRef?          # usually A.15.3 SlotFillingsPlanItem
-  SourceCurrentnessRefs?
-  PublicationRefs?
-  ResourceReadinessRefs?
-  StopOrDegradedUseRule
-```
+- `ready` — every input required by C is determined and satisfies C for V;
+- `readyWithKnownGaps` — C explicitly admits the named gaps for this exact bounded use, every non-waived input is determined and satisfied, and V plus the stop condition expose the remaining risk;
+- `notReady` — an applicable failure or closure condition in C is determined for this case; and
+- `unknown` — one required fact, currentness result, predicate, or applicability basis cannot be determined. Absence of an assertion or persisted episteme is not by itself `notReady`.
 
-Full-kit preparation can include gathering information, coordinating roles, producing a missing source `U.Episteme` or source `U.EpistemePublication`, reserving a resource, pinning a planned filler, or creating shared understanding. Those activities are `U.Work` only when actually performed. The readiness record cites them; it does not become them.
+When the answer must persist, one C.2.1 result episteme states this complete local claim. Its exact `EntityOfConcern` is P; its ClaimGraph names J, I, C, W, R, evaluated input facts, evaluation time, V, and the stop or recheck condition under one effective `U.ReferenceScheme`. C.2.1 supplies episteme identity. A.15.5 adds no second readiness identity, independent readiness U-kind, or default readiness relation occurrence. If repeated predicate semantics are needed, use A.6.RCD's reusable-predicate branch; open relation-kind admission only for a named receiver that must distinguish readiness occurrences as such.
 
-**Boundary with planned fillers and appearance-based reliance.** A missing planned value in `FullKitCondition` stays with `A.15.3` as a planned slot-filling baseline or with the direct governing pattern when an evidence, currentness, publication, gate, or assurance relation is already known. Use `A.15.4` only when a reliance appearance, such as a dashboard label, copied approval, publication face, or credential view, is being used as the reason to treat the readiness or work-reliance claim as carried before that governing pattern slot or relation has been recovered.
+The result episteme reports the check. It is not performed target work, and the checking Work is not the result. If a current claim says that exact checking or preparation Work first constituted that episteme, recover only that local entity-identity inception claim under A.15.PROD; A.15.5 does not infer or copy it.
+
+#### A.15.5:4.2 - Readiness criterion and full-kit inputs
+
+Use one exact readiness criterion when the entry question depends on what must be known, prepared, reserved, gathered, communicated, assigned, or pinned before work starts. The criterion states:
+
+- the exact WorkPlan and its present EntityOfConcern, PlanItem, intended-performance designator, any exact intended-work target and intended outcome or value claim current in the plan, any current intended-work kind or work-family classification, target `U.Method`, evaluation time, and applicability window it judges;
+- each required positive or negative predicate, the allowed named gaps if any, and the rule for `ready`, `readyWithKnownGaps`, `notReady`, and `unknown`;
+- which changed fact, expired interval, new conflict, source revision, or resource or assignment change ends reliance; and
+- the stop, degraded-use, preparation, or recheck action for each non-ready result.
+
+Full-kit thinking supplies a recognition palette for inputs; it is not a `FullKitCondition` object or a field bundle. Open only the input claims that C actually consumes:
+
+1. exact A.15.2 plan content and any A.15.3 planned fillings, with the declaration member and conditions that give each filling meaning;
+2. current information, source-currentness, publication, measurement, evidence, or assurance claims under their direct owners;
+3. exact resource-availability or reservation claims, intended holder and role conditions, any already obtaining `U.RoleAssignment`, capability threshold or fit result, and exact commitment claims when C uses them; plus any exact current work-in-progress or load and flow-policy claims under the pattern that defines their counted work, boundary, threshold, and qualification window;
+4. separately performed preparation Work and readiness-checking Work, each with its exact performer system, obtaining assignment, enacted method, temporal extent, and actual direct participants or A.6.1 bindings;
+5. exact prospective A.2.8.PER grant, non-prohibition, or conflict facts and their qualification windows when permission is current; and
+6. an exact A.21 `GateDecision` only when a current `OperationalGate(profile)` actually consumes declared checks and publishes it. The gate decision remains a separate result.
+
+An exact post-launch variance or recheck result may enter only after the target Work is actual and only through the measurement, comparison, evaluation, resource, temporal, acceptance, or other pattern that defines that exact result. Name the target Work, comparison or evaluation rule, local result, qualification window, and direct owner. It may trigger or inform an explicitly marked recheck; it neither proves that readiness held before entry nor rewrites the earlier readiness result.
+For each input, name the direct owner, exact proposition or relation occurrence, and the interval or currentness result on which this readiness check relies. A generic input, evidence, context, resource, assignment, or policy reference supplies none of those facts. Omission says only that the current criterion did not consume that input; it does not prove absence.
+
+Full-kit preparation can include gathering information, coordinating roles, producing a missing source `U.Episteme` or source publication, reserving a resource, pinning a planned filling, or creating shared understanding. Those activities are `U.Work` only when actually performed. The plan can state them before occurrence; the readiness claim may cite them after occurrence; neither object becomes the other.
+
+For every cited preparation or readiness-checking Work occurrence, identify the exact dated `U.Work`, each admitted performer `U.System`, the exact obtaining `U.RoleAssignment` under which that system performed it for the attributed extent, its actual `enactsMethod` relation, temporal extent, and only those direct participant relations or A.6.1 bindings used by the readiness claim. The system performs the work; an assignment, plan, method description, checklist, criterion, readiness result, evidence path, or dashboard does not. A planned preparation task remains A.15.2 content until those occurrence facts obtain.
+
+**Boundary with planned fillers and appearance-based reliance.** A missing planned value stays with A.15.3 as a planned-filling baseline or with the direct governing pattern when an evidence, currentness, publication, gate, permission, or assurance relation is already known. Use A.15.4 only when a reliance appearance, such as a dashboard label, copied approval, publication face, or credential view, is being used as the reason to treat the readiness or work-reliance claim as carried before that governing pattern relation has been recovered.
 
 #### A.15.5:4.3 - Commitment and Launch Boundary
 
-`CommitmentDisposition` states the work-entry stance, such as `notReady`, `readyWithKnownGaps`, `readyForProbe`, `readyForCommitment`, `committed`, `blocked`, or `requiresGateDecision`.
+Keep commitment facts separate from the readiness value. The criterion may consume exact current commitment claims and their qualification intervals, but `ready`, `readyWithKnownGaps`, `notReady`, or `unknown` does not mean `committed`, institute a commitment, discharge one, or authorize entry. State the practical next move—stop, prepare, probe, seek a separately governed commitment, submit to a gate, launch only under its separately satisfied entry conditions, or recheck—as the result's bounded use and return condition, not as another ontic status family. The older labels `readyForProbe`, `readyForCommitment`, `committed`, `blocked`, and `requiresGateDecision` therefore resolve to a local readiness value plus an explicit next move, commitment claim, stop, or gate question; they are not additional `ReadinessResultValue` members.
 
-Use `A.2.8.PER` when a pre-entry readiness check requires a current granted-permission occurrence, non-prohibition finding, or permission-conflict finding. `PermissionExerciseRelation@Context` and `NonViolationFinding@Context` require already dated actual work: cite either through `PriorWorkEvidenceRefs` only for a different exact work occurrence, or in an explicitly marked post-launch recheck only after the target work is actual; the latter is not evidence that the target was ready before entry. Prior exercise or non-violation proves none of a current grant, current capability, future exercise, future non-violation, readiness, gate passage, or target-work performance. Readiness does not institute permission, exercise it, resolve conflict, or turn non-prohibition into a grant; an unresolved current conflict blocks or degrades reliance according to `A.2.8.PER`. Use A.21 only when a current `OperationalGate(profile)` consumes declared checks and publishes a `GateDecision`. A readiness badge, green tile, full-kit label, or commitment board position is not gate passage unless A.21 fields are recoverable; gate passage creates none of the permission objects.
+Use `A.2.8.PER` when a pre-entry readiness criterion consumes permission material. Name each exact value and its own qualification: a current `GrantedPermissionRelation@Context` occurrence with its beneficiary, permitted-action specification, `U.ClaimScope`, and `validityWindow`; a distinct `NonProhibitionFinding@Context` with its frame and `evaluationWindow`; and any `PermissionNormConflictFinding@Context` with its `overlapWindow`, disposition, and, when settled, the direct owner's resolution result and `effectiveWindow`. Non-prohibition is not a grant, a grant does not resolve conflict, and an unresolved current conflict blocks or degrades the readiness use under the criterion. `PermissionExerciseRelation@Context` and `NonViolationFinding@Context` require already dated actual work: cite either only as evidence about a different exact Work occurrence, or in an explicitly marked post-launch recheck after the target Work is actual, with its own `exerciseInterval` or `evaluationWindow`. Neither retrospective result proves current grant, capability, future exercise or non-violation, readiness, gate passage, or target-work performance. The readiness result institutes no permission, exercises none, resolves no conflict, and turns no non-prohibition finding into a grant. Use A.21 only when a current `OperationalGate(profile)` consumes declared checks and publishes a distinct `GateDecision`, `DecisionLogRef`, scope, currentness result, and effective window. A readiness badge, green tile, full-kit label, or commitment board position is not gate passage; gate passage creates none of the permission objects.
 
 #### A.15.5:4.4 - Relation to A.15 Family
 
@@ -26034,8 +26101,8 @@ Use `A.2.8.PER` when a pre-entry readiness check requires a current granted-perm
 | Planned slot fillers before work | `A.15.3 SlotFillingsPlanItem`. |
 | Preparation activity that actually happened | `A.15.1 U.Work`. |
 | Target work that actually happened | `A.15.1 U.Work`. |
-| Readiness before work entry | `A.15.5 WorkEntryReadiness@Context`. |
-| Resource budgets or reservations before work | `A.15.5` with `B.1.6` refs when resource semantics are current. |
+| Readiness before work entry | `A.15.5` local result claim, persisted as a C.2.1 episteme when needed. |
+| Resource budgets or reservations before work | `A.15.2` plan content plus the exact resource-availability or reservation owner; A.15.5 cites the current claim only when the criterion consumes it. |
 | Resource consumption by work | `B.1.6` plus `A.15.1`. |
 
 #### A.15.5:4.5 - Relation to P2W and Pattern Use
@@ -26044,41 +26111,33 @@ When `E.18.1` carries accepted problem-side material to a readiness question, `E
 
 ### A.15.5:5 - Archetypal Grounding - Worked Slices
 
-#### A.15.5:5.1 - Fixture Deformation Work
+#### A.15.5:5.1 - Fixture deformation test
 
-Situation: a cooling-fixture team plans a deformation test. The ProblemCard is accepted, P2W has carried a heat-flow distinction into a work-planning question, and the team asks whether the test is ready to start.
+**Situation.** An accepted cooling-fixture ProblemCard has been carried through E.18.1 into `WorkPlan-LAB-043 : U.WorkPlan`; that P2W carry-through creates neither readiness nor target Work. Its `PlanItem-TEST-043` designates possible future performance `planned-fixture-deformation-test-043`, classifies the intended work as fixture-deformation testing under the plan's current scheme, selects `FixtureDeformationTestMethod-E2 : U.Method`, and relies on `FixtureDeformationTestProcedure-E5 : U.MethodDescription` only for the setup limits stated in that edition. The plan also carries specimen and instrument choices through `SlotFillingsPlanItem-SFI-043`, planned resource reservation `FixtureBayReservation-043`, and intended technician-role conditions. None is target test Work.
 
-```text
-WorkEntryReadiness@Context:
-  WorkEntryConcernRef: cooling-fixture deformation test
-  BoundedContextRef: lab test before comparator run
-  TargetWorkPlanRef: WorkPlan-LAB-043
-  TargetPlanItemRef: PlanItem-TEST-043
-  FullKitCondition:
-    NeededInputRefs: specimen id, heat-flow invariant note, boundary-condition plan, sensor calibration record or certificate, fixture drawing edition
-    KnownInputRefs: specimen id, heat-flow invariant note
-    MissingInputRefs: sensor calibration record or certificate, fixture drawing edition
-    GoverningPatternForEachMissingValue: A.15.3 for planned calibration-record filler, A.10 when calibration evidence or currentness is claimed, E.17 for drawing publication edition
-    PlannedBaselineRef: SlotFillingsPlanItem-SFI-043
-    StopOrDegradedUseRule: no launch until calibration and drawing edition are pinned
-  CommitmentDisposition: blocked
-  LaunchGateRef: LaunchGate-LAB-043
-  StopCondition: do not start target test work
-```
+`FixtureTestEntryCriterion-E2` requires, for the proposed start window, a resolved specimen identity, current heat-flow invariant claim, current boundary-condition plan, current sensor-calibration result, selected fixture-drawing edition, resource-availability claim, and an obtaining technician assignment that will cover the intended window. The A.15.3 rows preserve only the planned specimen and instrument choices; the calibration result, its A.10 evidence-provenance path and separate currentness result, and the E.17 drawing-edition publication use remain separately governed inputs. The criterion returns `notReady` when an explicitly required input is determined expired or unresolved; unavailable facts return `unknown`. Any input revision, assignment gap, resource loss, or start-window change ends reliance and requires recheck.
 
-The readiness result blocks target work entry. It does not say the lab test occurred.
+`CalibrationCurrentnessCheck-043 : U.Work` was performed by `LabMetrologySystem-2 : U.System` under obtaining `RA-LabMetrology-2-E7`, enacted `CalibrationCurrentnessCheckMethod-E1`, and determined that the cited sensor-calibration result expired before the proposed start. Separately, `FixtureEntryReadinessCheck-043 : U.Work` was performed by `LabOperationsCoordinatorSystem-1 : U.System` under obtaining `RA-LabOperationsCoordinator-1-E4`, enacted `FixtureEntryReadinessEvaluationMethod-E2`, and applied the criterion to the exact plan inputs.
+
+The C.2.1 episteme `FixtureTestEntryReadinessResult-E1`, whose exact EntityOfConcern is `WorkPlan-LAB-043`, states `notReady` for `PlanItem-TEST-043`: the calibration result is expired and the fixture-drawing edition remains unresolved. Its stop is `do not start planned-fixture-deformation-test-043`; its return condition is `obtain a current calibration result, select the drawing edition, and rerun the readiness check`. The preparation and checking Work occurred; the target test did not. No A.21 gate decision or A.2.8.PER permission result follows from this readiness result.
+
+**What changes in practice.** The team stops the target test, assigns the two named preparation moves, and reruns the exact criterion after their inputs are current; it neither turns the existing plan into performed Work nor asks a gate or permission label to stand in for the missing facts.
 
 #### A.15.5:5.2 - Documentation Repair Probe
 
 Situation: an assisting agent can run a reversible documentation probe to find source-currentness gaps.
 
-Use `WorkEntryReadiness@Context` only for the readiness of the probe or repair work. If the probe is actually run, record the probe as `U.Work` under `A.15.1` and then recheck readiness for the target repair.
+For the probe itself, apply one exact readiness criterion to its WorkPlan and PlanItem and return the local readiness value with its relied-on inputs, window, and recheck condition. If the probe is actually run, identify that dated occurrence as `U.Work` under `A.15.1`, with its performer system, obtaining role assignment, enacted method, extent, and actual bindings; then run a separate readiness check for the target repair. The probe plan, probe readiness result, performed probe, and target-repair readiness result are four distinct claims.
 
-#### A.15.5:5.3 - Release Screen
+#### A.15.5:5.3 - Release screen with separate readiness, gate, and permission windows
 
-Situation: a release dashboard shows a green readiness badge.
+At `10:00`, `ReleaseReadinessCheck-12 : U.Work` evaluates `ReleasePlan-E7`, `PlanItem-Deploy-12`, and `ReleaseEntryCriterion-E3`. The persisted result says `ready` for reliance only in `[10:00, 10:30)` and requires recheck after any source, resource, assignment, permission, or gate-input change.
 
-If the current claim is "the release gate passed", use A.21 and recover `OperationalGate(profile)`, declared checks, aggregate, `GateDecision`, `DecisionLogRef`, scope, currentness, and window. If those fields are not recoverable, the display may be a reliance appearance for `A.15.4`, an evidence question, or a readiness indication. It is not gate passage by appearance.
+At `10:05`, exact A.21 `OperationalGate(Release-Core-E4)` consumes that readiness result as one declared `GateCheckRef` among its current check set and publishes `GateDecision=pass` with `DecisionLogRef=ReleaseGateLog-12` for `[10:05, 10:20)`. That gate result is not the readiness result and does not institute permission.
+
+Separately, exact A.2.8.PER `GrantedPermissionRelation@Context` occurrence `DeployGrant-12` covers the named beneficiary and deployment action for `[09:00, 11:00)`. `DeployNonProhibitionFinding-E2` reports `nonProhibited` from its named current frame, explicitly complete for this use, in evaluation window `[10:00, 10:15)`; it is not the grant. A `PermissionNormConflictFinding@Context`, if an incompatible current norm is established over the same content and window, would be a third permission-side input and an unresolved disposition would stop the use. A policy that requires readiness, gate passage, a current grant, and the frame-relative non-prohibition result may rely on those distinct inputs at `10:10`; it must re-evaluate the relevant branch when any window ends or a conflict appears. None of them proves that deployment Work occurred. A.15.1 identifies that Work only after its dated occurrence basis obtains.
+
+If a dashboard shows green but the exact readiness result or its reliance window, the current `OperationalGate(profile)` and `DecisionLogRef`, or the required permission value and qualification window cannot be recovered, the display remains a cue, an appearance-based reliance question, or a prompt to open the exact A.10 evidence-provenance and applicable currentness question for the claim being relied on. It is not readiness, evidence sufficiency, gate passage, authorization, or performed work by appearance.
 
 ### A.15.5:6 - Bias-Annotation
 
@@ -26090,14 +26149,15 @@ If the current claim is "the release gate passed", use A.21 and recover `Operati
 
 | ID | A conforming readiness use... | Check |
 | --- | --- | --- |
-| `CC-A15.5-1` | names the target intended work or work-boundary concern. | The readiness relation is not floating without a target concern. |
+| `CC-A15.5-1` | names the exact WorkPlan, PlanItem, intended performance, criterion, and evaluation time. | The readiness result cannot float free of the plan content and bounded entry question it judges. |
 | `CC-A15.5-2` | separates readiness from performed work. | No target `U.Work` occurrence is asserted unless dated work evidence is current. |
-| `CC-A15.5-3` | separates full-kit condition from preparation work. | `PreparationWorkRef` is used only when preparation was performed. |
+| `CC-A15.5-3` | separates full-kit inputs from preparation and checking Work. | Cite preparation or checking as actual only through one exact dated `U.Work`, performer system, obtaining assignment, enacted Method, extent, and required actual bindings. |
 | `CC-A15.5-4` | cites planned baselines without rewriting them. | `SlotFillingsPlanItem` remains a plan-item baseline under A.15.3. |
 | `CC-A15.5-5` | keeps gate decisions in A.21. | Readiness labels do not create `GateDecision` without A.21 fields. |
 | `CC-A15.5-6` | keeps resource readiness and resource aggregation distinct. | Planned reservations and actual consumption are not merged. |
 | `CC-A15.5-7` | states stop, degraded-use, or recheck condition. | The reader can tell whether to stop, probe, commit, launch, or return to a missing governing pattern value. |
-| `CC-A15.5-8` | keeps prospective and retrospective permission inputs temporally typed and non-productive. | A current grant, non-prohibition finding, or conflict finding may be a prospective direct input; exercise/non-violation appears only in `PriorWorkEvidenceRefs` for different dated work or in an explicit post-launch recheck after the target work is actual. Neither prior result proves current grant, capability, future exercise/non-violation, readiness, gate passage, or target-work performance; unresolved current conflict blocks or degrades reliance under `A.2.8.PER`. |
+| `CC-A15.5-8` | keeps prospective and retrospective permission inputs temporally typed and non-productive. | A current grant uses its `validityWindow`; non-prohibition uses its `evaluationWindow`; conflict uses its `overlapWindow` and any direct-owner resolution `effectiveWindow`. Exercise and non-violation appear only for different dated Work or an explicit post-launch recheck, with their own intervals. None proves another permission value, readiness, gate passage, capability, or target-work performance. |
+| `CC-A15.5-9` | keeps the readiness result, domain-local inputs, provenance, assurance, and any inception claim under their direct owners. | C.2.1 identifies the readiness-result episteme; each measurement, evaluation, resource, permission, gate, or other input keeps its own result algebra; A.10 owns provenance, B.3 owns assurance, and A.15.PROD is opened only for a separately current local entity-identity inception claim. |
 
 ### A.15.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -26119,19 +26179,19 @@ Benefits:
 Costs:
 
 - Some "ready" claims become incomplete until the target work, missing inputs, and stop condition are named.
-- A full-kit record may expose preparation work that needs its own plan, currentness, evidence, publication, and resource records.
+- A full-kit check may expose missing preparation Work or inputs that need their own plan, direct-owner currentness, evidence-provenance, publication, resource, or assignment claims.
 
 ### A.15.5:10 - Rationale
 
-The readiness question is practical and recurrent: should this intended work enter the work boundary now? FPF already has the kinds needed to answer that question, but without a small readiness relation the same words pull in too many objects at once.
+The readiness question is practical and recurrent: should this intended work enter the work boundary now? FPF already has the kinds needed to answer it. One local criterion and result claim keep the answer inspectable without collapsing the plan, its inputs, the checking Work, gate, permission, or target Work into one object.
 
-`WorkEntryReadiness@Context` is deliberately dependent. It preserves `U.WorkPlan`, `SlotFillingsPlanItem`, `U.Work`, A.21 gate decisions, B.1.6 resource relations, and A.15.4 appearance-based reliance repair while giving the practitioner one inspectable pre-work-entry record. A readiness record may cite an `A.15.4` repair result; it does not turn every missing input into a source problem.
+The local result is deliberately dependent on exact direct-owned inputs. It preserves `U.WorkPlan`, `SlotFillingsPlanItem`, `U.Work`, A.21 gate decisions, resource claims, and A.15.4 appearance-based reliance repair as distinct values while giving the practitioner one inspectable answer. It may cite an A.15.4 repair result when that result is current; it does not turn every missing input into a source problem or package cited inputs into its own identity.
 
 ### A.15.5:11 - SoTA-Echoing
 
 | Source family | Use in this pattern | Local adoption |
 | --- | --- | --- |
-| TameFlow `MOVE` and Full-Kitting material | Supplies minimal outcome-value effort, target scope, commitment, WIP pressure, and pre-entry full-kit criteria. | Adopt as external distinctions; adapt into FPF `WorkEntryReadiness@Context`, WorkPlan, PlanItem, gate, preparation work, resource, and performed-work relations. |
+| TameFlow `MOVE` and Full-Kitting material | Supplies minimal outcome-value effort, target scope, commitment, WIP pressure, and pre-entry full-kit criteria. | Adopt the useful distinctions as inputs to an FPF-local readiness criterion and result; keep WorkPlan, PlanItem, gate, preparation Work, resource, assignment, permission, and performed-work claims under their direct owners. |
 | Current A.15 work-family settlement | Separates intended work, planned baseline, and dated performed work. | Reuse the split directly; readiness cites but does not replace those values. |
 | Current A.21 gate-publication discipline | Separates readiness-looking displays from gate decisions. | Readiness may feed a gate, but gate passage belongs to A.21. |
 
@@ -34662,9 +34722,11 @@ Does not replace: `C.30.P` or `C.30.STRAT` wording-use precision restoration, `C
 
 Use this when a team has a P2S flow card, a P2W carry-through note, an abductive prompt path, an improvement cycle, a narrative ordering, a typing-grounding trace, or a README first-entry seed, and the visible form helps but also misleads. It looks like a route, loop, chain, table, graph, or story, while the useful engineering question is not "which sequence should everyone follow?" but "which admitted records, current structures, typed positions, relation instances, constraints, and guards make each continuation admissible or inadmissible?"
 
-When that is the live question, name the object as `ConstraintGovernedUnfoldingStructure@Context`: an A.22-governed `U.Structure` whose SlotSpec-grounded positions, relation signatures, exact referenced values, cross-position constraints, invariants, guarded transitions, preserved structures, C.33 adequacy notes, direct governing-pattern exits, admissible next-form kinds, and use boundaries jointly constrain more than one continuation.
+When that is the live question, select one `ConstraintGovernedUnfoldingStructure`: the exact A.22 `U.Structure` whose independently identified constituents, selected obtaining relation occurrences, applied constraints, and named use frame support more than one continuation. Typed position locators, guards, preserved and lost structure, admissible next-form kinds, and stop or return conditions make that selected organization usable without adding an ambient context field or a parallel card ontology.
 
 Use CGUS only after the candidate structure has more than one typed position and the relations or constraints among those positions affect admissible continuations. A single recommendation, diagram, slogan, pattern list, or document section is not enough.
+
+**What changes in practice.** Do not begin by completing a route-shaped template. First decide whether the visible artifact is still a provisional episteme or whether one selected structure passes the A.22 admission test. For an admitted structure, recover the exact constituents, obtaining relation occurrences, constraints, current alternatives, and return before displaying one traversal; at the first unresolved discriminator or direct governor, stop and name that missing value. Admission recognizes the selected structure and its currently admissible continuations; evidence sufficiency, assurance, gate passage, authorization, and performed Work remain separate questions under their direct owners.
 
 ### A.22.CGUS:1 - Problem Frame
 
@@ -34692,498 +34754,227 @@ Second, one demonstration of the structure becomes a fake workflow. A teaching s
 
 ### A.22.CGUS:4 - Solution
 
-Select `ConstraintGovernedUnfoldingStructure@Context <: U.Structure` as a thin A.22 specialization of `U.Structure` for constraint-governed unfolding across typed positions and exact governed relations.
+Select `ConstraintGovernedUnfoldingStructure` as an A.22 profile of one selected `U.Structure`. Its exact independently identified constituents, selected obtaining relation occurrences, applied constraint claims, and named selection-use frame satisfy the four A.22 identity discriminators. `selectedCGUSRef` designates that selected organization being unfolded, not a topic label, container, record, or declared-use phrase. Typed position locators, relation signatures, guards, preserved and lost structure, admissible next-form kinds, and stop or return conditions make that selected organization usable; they do not create a parallel context or card ontology.
 
-A constraint-governed unfolding structure is a `U.Structure` whose typed positions, relation signatures, referenced relation values, constraints, invariants, guarded transitions, preserved structures, C.33 adequacy notes, and governing-pattern exits jointly constrain admissible next forms. It states how admitted starting records and already-current structures participate through exact relations. It makes no displayed-order claim about real work and fixes no cardinality of starting records, starting structures, or resulting records.
+A constraint-governed unfolding structure states which continuations are admissible from the current selected organization and why. It makes no displayed-order claim about real work and fixes no cardinality of starting records, starting structures, or later results. It may branch, merge, cycle through subject relations, remain partially ordered, or leave alternatives live at once. A route, graph, table, narrative, prompt path, or seminar sequence may help a reader inspect it, but form and adjacency establish neither the structure nor any relation occurrence.
 
-Do not read "unfolding" as a chain by default. The unfolding structure may be branching, merging, cyclic, partially ordered, or graph-shaped, and it may leave several alternative next forms live at once. Before the wider structure passes the admission test, a linear chain, seminar order, prompt path, or happy path remains a `ProvisionalUnfoldingDemonstrationDescription@Context`. After admission, a presentation of one traversal may be a `DemonstrativeUnfoldingSlice@Context` whose EntityOfConcern is that admitted CGUS.
+A narrower pattern such as `E.18.3` may recognize the same selected `U.Structure` under an additional transformation-flow membership condition. Do not manufacture a generic CGUS object plus a second narrower structure from reciprocal references. The current EntityOfConcern is the one selected structure whose exact A.22 discriminators and applicable narrower predicate are satisfied.
 
-#### A.22.CGUS:4.1 - Constraint-governed unfolding structure
+#### A.22.CGUS:4.1 - First useful structure result
 
-```text
-UnfoldingStructureReferenceKindValue = acceptedStartingRecord | relationInstance | constraint | invariant | guardedTransition | currentness
-UnfoldingStructureBoundaryKindValue = admissibleUse | nonAdmissibleUse | stop | return
-
-ConstraintGovernedUnfoldingStructure@Context <: U.Structure:
-  boundedContextRef: U.BoundedContextRef
-  declaredStructureSubstrateRef: U.EntityRef, referencing one U.Structure
-  entityOfConcernRef: U.EntityRef
-  entityOfConcernKindRef: U.KindRef
-  specializedStructureRef?: U.EntityRef, referencing one narrower U.Structure
-  acceptedStartingRecordReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=acceptedStartingRecord
-  acceptedStartingStructureRefs[]: U.EntityRef, each referencing one U.Structure
-  relationSignatureRefs[]: U.EntityRef, each referencing one U.Signature
-  structurePositionRefs[]: U.EntityRef, each referencing one ConstraintGovernedUnfoldingPosition@Context
-  relationInstanceReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=relationInstance
-  constraintReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=constraint
-  invariantReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=invariant
-  guardedTransitionReferenceRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=guardedTransition
-  preservedStructureRefs[]: U.EntityRef, each referencing one U.Structure
-  structureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context under C.33
-  admissibleNextFormKindRefs[]: U.KindRef
-  demonstrativeSliceRecipeRefs[]?: U.EntityRef, each referencing one U.MethodDescription
-  admissibleUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
-  nonAdmissibleUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
-  stopBoundaryRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
-  structureUseReturnBoundaryRefs[]: U.EntityRef, each referencing one UnfoldingStructureUseBoundaryCondition@Context
-  currentnessRelationReferenceRefs[]?: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with referenceKind=currentness
-```
-
-The declared substrate is the structure being unfolded, not a topic label or container. `specializedStructureRef` is present only when one narrower `U.Structure` record is current, such as an E.18.3 transformation-flow specialization. That narrower record may point back through its `unfoldingStructureRef`; the reciprocal references state one generic-to-narrower specialization relation and do not create two unrelated unfolding structures. Accepted starting records and accepted starting structures remain different: a record may describe, publish, or evaluate a structure without becoming that structure. Every referenced entity retains its exact kind and direct governing pattern.
-
-#### A.22.CGUS:4.1.1 - Dependent position, reference, and boundary relations
+Start with the smallest recovery aid that answers the working question:
 
 ```text
-ConstraintGovernedUnfoldingPosition@Context <: U.Relation:
-  unfoldingStructureRef: U.EntityRef, referencing one ConstraintGovernedUnfoldingStructure@Context
-  positionSlotSpecRef: U.EntityRef, referencing one A.6.5 SlotSpec
-  positionFillingRef?: U.EntityRef
-  positionFillingKindRef?: U.KindRef
-  directGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-  RelationRefKind: U.EntityRef
-  Dependence: bounded-context local to unfoldingStructureRef
-  Identity: <unfoldingStructureRef, positionSlotSpecRef, positionFillingRef if present>
-
-UnfoldingStructureReferencedValueRelation@Context <: U.Relation:
-  unfoldingStructureRef: U.EntityRef, referencing one ConstraintGovernedUnfoldingStructure@Context
-  referenceKind: UnfoldingStructureReferenceKindValue
-  referencedValueKindRef: U.KindRef
-  referencedValueRef: U.EntityRef
-  directGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-  relationSignatureRef?: U.EntityRef, referencing one U.Signature
-  RelationRefKind: U.EntityRef
-  Direction: unfoldingStructureRef -> referencedValueRef
-  Dependence: bounded-context local to unfoldingStructureRef and referencedValueRef editions
-  Identity: <unfoldingStructureRef, referenceKind, referencedValueKindRef, referencedValueRef>
-
-UnfoldingStructureUseBoundaryCondition@Context <: U.Relation:
-  unfoldingStructureRef: U.EntityRef, referencing one ConstraintGovernedUnfoldingStructure@Context
-  boundaryConditionKind: UnfoldingStructureBoundaryKindValue
-  conditionDescriptionRef: U.EpistemeRef
-  affectedStructureRef: U.EntityRef, referencing one U.Structure
-  boundaryGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-  conditionalReceivingPatternRef?: U.EntityRef, referencing one U.MethodDescription
-  RelationRefKind: U.EntityRef
-  Dependence: bounded-context local to unfoldingStructureRef and affectedStructureRef editions
-  Identity: <unfoldingStructureRef, boundaryConditionKind, conditionDescriptionRef, affectedStructureRef, conditionalReceivingPatternRef if present>
+selectedCGUSRef: one exact selected U.Structure
+selectedConstituentRefs[]: independently identified objects and already-current structures
+selectedObtainingRelationOccurrenceRefs[]: exact occurrences already admitted by their direct owners
+appliedConstraintClaimRefs[]: exact constraints used by this selection
+namedSelectionUseFrame:
+  questionOrAction: the concrete continuation decision this structure supports
+  forbiddenOverread: what this selection does not establish
+positionLocatorRows[]:
+  positionSlotSpecRef: one exact A.6.5 SlotSpec
+  selectedConstituentRef: one exact constituent occupying that position
+  constituentKindRef: the constituent's independently governed kind
+  directGovernorRef: the exact governing-pattern identifier or reference for that constituent
+relationSignatureRefs[]: declarations for relation kinds actually used
+guardedContinuationRows[]:
+  exactGuardOrConstraintClaimRef
+  selectedObtainingRelationOccurrenceRefs[]
+  admissibleContinuationDescription
+preservedStructureRefs[]
+structureInformationAdequacyNoteRefs[]?: exact C.33 epistemes for captured, expected-but-uncaptured, lost, or hidden structure
+admissibleNextFormKindRefs[]
+stopCondition
+governingPatternReturnConditions[]:
+  conditionClaimRef: exact claim stating the return condition
+  affectedStructureRef: exact selected structure whose use is bounded
+  conditionalReceivingPatternRef: exact neighboring governing-pattern identifier or reference
+currentnessRelationOccurrenceRefs[]?: exact already-obtaining G.11 or other directly governed currentness occurrences used by this selection
+returnCondition: the first identity discriminator, guard, use, or source-currentness change that reopens selection
 ```
 
-The two `...KindValue` declarations are local closed enumerations, not U-kinds. Position filling ref and kind are both present or both absent. A relation signature is present when the referenced value is a relation. Every boundary names its governing pattern; only `return` names a conditional receiver.
+This is a recovery aid, not a new record kind and not an identity tuple with extra fields. The first four rows are exactly the A.22 identity basis. The remaining rows expose how the selected structure is being used and when to return. A row does not create its constituent, make its relation obtain, admit its constraint, or establish its direct governor.
 
-`StructuralInformationAdequacyNote@Context` under C.33 carries captured, expected-but-uncaptured, lost, and hidden structure for a declared use. CGUS does not mint parallel loss or hiddenness fields. A use boundary is not permission, gate passage, evidence, assurance, or currentness refresh by itself.
+For an admitted filled position, use the reference shape
+
+```text
+CGUSPositionLocator := <selectedCGUSRef, positionSlotSpecRef, selectedConstituentRef>
+```
+
+The locator resolves one constituent already selected into the structure. It is not a `U.Relation`, a new U-kind, or a replacement for the constituent's identity. An unfilled or merely proposed position remains claim content in a provisional demonstration; it does not become an admitted position by occupying a table row. `directGovernorRef` points to the governing pattern or exact declaration that owns the current object or relation. A pattern reference is not thereby a `U.MethodDescription`.
+
+Every selected relation occurrence keeps its direct participant meanings, obtaining predicate, applicability, occurrence identity, and governor. A relation signature helps recover that declaration; an edge label or adjacency row is insufficient. A guard can constrain admissibility only through its exact current claim or obtaining relation under its owner. A stop or return sentence is a use boundary unless a direct pattern independently admits a relation occurrence for it.
+
+Accepted starting records and starting structures remain different constituents. A record may describe, publish, evaluate, or recommend use of a structure without becoming that structure. A selected recommendation, intended realization, imperative sentence, or filled form establishes neither an obtaining relation nor Method, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, or actual `U.Transformation`.
 
 #### A.22.CGUS:4.2 - Admission test
 
-A readable chain is not sufficient for admission. Use CGUS only when the current structure recovers all of the following:
+A readable chain is not sufficient. Admit the CGUS use only when all applicable coordinates below are recoverable:
 
 | Coordinate | Recovery for CGUS admission | Reduced use when absent |
 | --- | --- | --- |
-| Structure identity | One exact `U.Structure` substrate, bounded context, EntityOfConcern, and kind. | Keep a note, card, description, or method description. |
-| Typed positions | More than one SlotSpec-grounded position and any current filling ref-kind pairs. | Keep a list or seed description. |
-| Connecting relations | Relation signatures and exact referenced relation instances. | Keep an index until connections are recoverable. |
-| Cross-position constraints | Constraints, invariants, guards, branches, joins, cycles, partial orders, or many-to-many dependencies that matter to the use. | Keep a linear presentation as a provisional demonstration description until the wider structure is admitted. |
-| Preserved and omitted structure | Preserved structures and any C.33 adequacy notes needed by the declared use. | Lower the adequacy claim and retain the return. |
-| Admissible next forms | Exact next-form kinds, not one forced next record. | Do not claim a usable unfolding structure. |
-| Direct governing-pattern exits | Each stronger claim points to its direct pattern. | The structure is overreading itself as method, work, evidence, gate, architecture, publication, or refresh authority. |
-| Use boundaries | Admissible, non-admissible, stop, and return conditions are explicit. | Keep the artifact as a provisional explanation. |
+| A.22 structure identity | Exact independently identified constituents, exact selected obtaining relation occurrences, exact applied constraints, and one named selection-use frame. | Keep the current note, record, graph, table, or description and return the missing discriminator. |
+| Typed positions | More than one filled `CGUSPositionLocator`, each resolving an independently governed constituent through one exact SlotSpec. | Keep candidate positions in a provisional demonstration. |
+| Connecting relations | Direct relation declarations plus exact already-obtaining occurrence refs among selected constituents. | Keep an index or proposed connection until the direct predicate and occurrence are recoverable. |
+| Cross-position constraints | Constraints, invariants, guards, branches, joins, cycles, partial orders, or many-to-many dependencies that change admissible continuations. | Keep a linear presentation as a provisional demonstration. |
+| Preserved and omitted structure | Preserved structures and any C.33 adequacy notes needed by the declared use. | Narrow the use, state the loss, and retain the return condition. |
+| Admissible next forms | Exact next-form kinds and the current conditions that keep each alternative live, not one forced next record. | Do not claim a usable unfolding structure. |
+| Direct governing-pattern exits | Every stronger method, plan, work, transformation, production, evaluation, evidence, decision, publication, architecture, currentness, or mathematical claim points to its exact owner. | Stop the overread and use the owner of the actual claim. |
+| Use boundaries | The concrete action, forbidden overread, ordinary stop, exact neighboring return, and reopen condition are explicit. | Keep the artifact as a one-use explanation. |
 
-Branches or joins that are current remain visible. A cycle shown as "return to the start" is not thereby a chain. One slice may be linear because attention needs one path; the wider structure remains graph-shaped when its relations are graph-shaped.
+Branches and joins that are current remain visible. A subject-relation feedback cycle may be current without making selected membership cyclic. One displayed slice may be linear because attention needs one path; the selected structure remains graph-shaped when its exact relations are graph-shaped.
 
-#### A.22.CGUS:4.3 - Provisional demonstrations, admitted-structure descriptions, and demonstrative slices
+When transformation-flow vocabulary is current, decide among three ontically different cases before admitting the demonstration:
 
-A presentation may help discover positions and relations before any CGUS exists. Keep that pre-admission object as a C.2.1-conformant episteme about the actual subject-domain object, question, or proposed continuation set:
+| Case | Exact object | Boundary |
+| --- | --- | --- |
+| Several `FlowValuation` values resolve to one exact `TransformationFlowStructure` | the same one TFS under E.18 | a changed valuation, path slice, or local tag does not mint another flow |
+| A detailed portion resolves only through positions and internal `U.Transfer` occurrences of one exact parent TFS | one parent-relative E.18 `SubflowRef` | detail does not become an independent TFS or network member |
+| Two or more independently identified TFS or nested-network values need exact obtaining relations across member boundaries | one recursively selected E.18.NET `TransformationFlowStructureNetwork : U.Structure` | do not flatten the members into one giant TFS |
 
-```text
-DemonstrationUseModeValue = workedSlice | firstUseExample | actualCaseReplay | variantComparison | otherDeclared
-DemonstrationPresentationFormValue = orderedList | chainDiagram | flowCard | table | narrativePath | slideSequence | promptBlock | graphSlice | otherDeclared
+A CGUS description or slice may present any admitted case, but its graph shape does not select the TFS, SubflowRef, or network. Every independently selected network member retains its own boundary, Work, actual transformations, valuations, and local composite flow-position locator.
 
-ProvisionalUnfoldingDemonstrationDescription@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing the actual subject-domain object, question, or proposed continuation set
-  entityOfConcernKindRef: U.KindRef
-  boundedContextRef: U.BoundedContextRef
-  viewpointRef: U.ViewpointRef
-  subjectRef: U.SubjectRef, decoding to <entityOfConcernRef, boundedContextRef, viewpointRef>
-  groundingHolonRef?: U.HolonRef
-  claimGraph: U.ClaimGraph by value
-  referenceScheme: U.ReferenceScheme by value
-  editionId
-  demonstrationUseMode: DemonstrationUseModeValue
-  presentationForm: DemonstrationPresentationFormValue
-  provisionalContinuationDescriptionRefs[1..*]: U.EpistemeRef
-  candidatePositionDescriptionRefs[2..*]: U.EpistemeRef
-  candidateRelationDescriptionRefs[]?: U.EpistemeRef
-  unresolvedCGUSAdmissionCoordinateDescriptionRefs[1..*]: U.EpistemeRef
-  admissionTransitionConditionDescriptionRef: U.EpistemeRef
-```
+#### A.22.CGUS:4.3 - Provisional descriptions, structure descriptions, and demonstrative slices
 
-This local declaration form is an episteme, not a structure slice and not a new root kind. Its C.2.1 identity comes from its exact EntityOfConcern, DescriptionContext, optional grounding holon, ClaimGraph, reference scheme, and edition. `entityOfConcernRef` names the subject that the explanation is currently about; it may not point to a not-yet-admitted CGUS. Candidate positions and relation descriptions are claims to investigate, not admitted `ConstraintGovernedUnfoldingPosition@Context` values or relation-reference epistemes, and they make no world-side relation instance obtain. At least one unresolved admission coordinate remains present while the description is provisional.
+Keep three epistemic uses separate from the selected structure. Each is an ordinary C.2.1 episteme identified by its exact `<ClaimContent, EntityOfConcern, effective ReferenceScheme>` triple. The labels below describe the current use; they add no ambient context field or second episteme identity.
 
-Once every coordinate in `4.2` is recoverable and the wider `ConstraintGovernedUnfoldingStructure@Context` is admitted, describe that structure without selecting a traversal through it by creating this C.2.1-conformant episteme:
+**Before admission — provisional unfolding demonstration.** Its exact EntityOfConcern is the actual subject-domain object, question, or proposed continuation set, never a not-yet-admitted CGUS. Its ClaimContent may name visible candidate positions, proposed relations, possible continuations, presentation form, every unresolved admission coordinate, and the exact condition under which those coordinates would be resolved. Those claims guide discovery but create no constituent, admitted position, structure identity, relation occurrence, Method, plan, Work, or transformation. At least one unresolved coordinate remains explicit while the demonstration is provisional. When every coordinate is recovered, constitute a separate description or slice about the admitted CGUS; do not retype the provisional episteme.
+
+**After admission — whole-structure description.** Its exact EntityOfConcern is the admitted CGUS. Its ClaimContent may describe positions, branches, joins, cycles, partial orders, exact relation occurrences, constraints, admissible next forms, preserved structure, relevant C.33 losses, declared use, and return condition without selecting one traversal. Diagram form, table layout, carrier, and publication location do not identify the episteme or the structure. Changed claim content, EntityOfConcern, or effective reference scheme identifies another episteme; a changed form, carrier, viewpoint qualification, publication occurrence, or model-use qualification does not by itself.
+
+**After admission — demonstrative unfolding slice.** Its exact EntityOfConcern is the admitted CGUS, while its ClaimContent selects one traversal or ordering for a declared demonstration use. The slice cites only already admitted position locators and exact relation-reference epistemes or obtaining occurrence refs; it records relevant omissions and alternatives. It neither retypes a provisional explanation nor creates the selected structure. It may cite the earlier provisional episteme only through an exact source, derivation, or viewing-construction claim under its direct owner; mere file history is not such a relation. If later inspection invalidates CGUS admission, withdraw the slice claim while retaining any still-truthful provisional explanation under its narrower declared use.
+
+Viewpoint, claim scope, empirical grounding, model-use structure, publication occurrence, form, carrier, and historical edition continuity remain optional neighboring uses under their direct patterns. Add one only when the current receiving use needs it. None enters the C.2.1 identity triple or structure identity, and neither a viewpoint nor a grounding holon is intrinsic merely because the episteme is a description.
+
+Use this compact recovery shape for the slice's ClaimContent when needed:
 
 ```text
-ConstraintGovernedUnfoldingStructureDescription@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing one admitted ConstraintGovernedUnfoldingStructure@Context
-  entityOfConcernKindRef: U.KindRef, referencing ConstraintGovernedUnfoldingStructure@Context
-  boundedContextRef: U.BoundedContextRef
-  viewpointRef: U.ViewpointRef
-  subjectRef: U.SubjectRef, decoding to <entityOfConcernRef, boundedContextRef, viewpointRef>
-  groundingHolonRef?: U.HolonRef
-  claimGraph: U.ClaimGraph by value
-  referenceScheme: U.ReferenceScheme by value
-  editionId
-  preservedStructureRefs[]: U.StructureRef
-  structureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context under C.33
-  declaredUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
-  descriptionUseReturnBoundaryRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+demonstrationUse: worked example | first-use example | actual-case replay | variant comparison | other declared use
+presentationForm: ordered list | chain diagram | flow card | table | narrative path | slide sequence | prompt block | graph slice | other declared form
+sourceProvisionalDemonstrationRef?: exact separately identified source episteme, with its direct source/derivation relation when claimed
+selectedTraversalDescription
+includedPositionLocators[]: exact admitted CGUSPositionLocator values
+selectedRelationReferenceRefs[]: exact already-admitted relation-reference epistemes or obtaining occurrence refs
+omittedStructureInformationAdequacyNoteRefs[]?: exact C.33 epistemes
+alternativeSliceRefs[]?: separately identified slice epistemes
+loopCompressionClaimRef?: exact episteme stating which repeated branches are omitted or compressed for this use
+presentationOrderingClaimRef: exact episteme stating why this traversal or order is shown
+admissibleUse
+forbiddenOverread
+sliceReturnCondition
+oneTFSLocator?: complete one-TFS locator family
+networkDemonstrationLocator?: complete network locator family
 ```
 
-Its EntityOfConcern is the admitted CGUS. Its ClaimGraph may describe branches, joins, cycles, partial orders, positions, relations, constraints, and admissible next forms without choosing one route through them. Carrier, diagram form, table layout, or publication location does not determine its identity. A new edition is required when the described CGUS edition, DescriptionContext, applicable grounding, ClaimGraph, reference scheme, preserved-structure account, adequacy account, declared use, or return boundary changes.
+The loop-compression claim and presentation-ordering claim answer different questions and remain separately revisable. Neither is presumed to be a `U.MethodDescription`. One has that dependent membership only if A.3.2 independently finds one admitted `U.Method` as its exact EntityOfConcern and a substantive way-of-doing claim. Imperative grammar, ordering, intended realization, repeatability, recipe appearance, or inclusion in the slice is not enough. The local use and presentation-form vocabularies are Plain closed choices for this recovery aid, not U-kinds, carriers, or identity discriminators.
 
-When one presentation selects a traversal or ordering through that admitted structure, create a different post-admission episteme:
+The one-TFS and network locator families are mutually exclusive. A one-TFS slice has the complete `<transformationFlowStructureRef, pathSliceId, DesignRunTag>` family and no network locator. A network slice has one `networkDemonstrationLocator` and none of those three top-level values. A generic CGUS slice may have neither family. No partial or mixed family is admissible.
+
+For a network demonstration, retain this locator content by value:
 
 ```text
-DemonstrativeUnfoldingSlice@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing one admitted ConstraintGovernedUnfoldingStructure@Context
-  boundedContextRef: U.BoundedContextRef
-  claimGraph: U.ClaimGraph by value
-  referenceScheme: U.ReferenceScheme by value
-  editionId
-  derivedFromProvisionalDemonstrationRef?: U.EpistemeRef, referencing one ProvisionalUnfoldingDemonstrationDescription@Context
-  demonstrationUseMode: DemonstrationUseModeValue
-  transformationFlowStructureRef?: U.EntityRef, referencing one E.18 TransformationFlowStructure
-  pathSliceId?: E.18 PathSliceId
-  designRunTag?: E.18 DesignRunTag
-  networkDemonstrationLocator?:
-    transformationFlowStructureNetworkRef: exact selected E.18.NET-conforming TransformationFlowStructureNetwork ref
-    selectedNetworkPositionMappingRows[]:
-      networkPositionRef: FlowPositionRef | ExposedFlowPositionRef
-      memberPath[]: finite ordered path of exact direct-member refs
-      admittedIncludedPositionRef: exact ConstraintGovernedUnfoldingPosition@Context ref
-    selectedCrossFlowRelationReferenceRows[]?:
-      networkCrossFlowRelationRowRef: E.18.NET NetworkCrossFlowRelationRowRef
-      admittedTransformationFlowRelationReferenceRef: exact TransformationFlowRelationReference@Context ref
-    memberLocalFlowLocatorRows[]?:
-      memberPath[]: finite ordered path to one leaf TFS
-      transformationFlowStructureRef: that exact leaf TFS ref
-      pathSliceId: E.18 PathSliceId local to that TFS
-      designRunTag: E.18 DesignRunTag local to that exact position binding
-      leafFlowPositionRef: FlowPositionRef in that TFS
-      positionBindingRef: already governed E.18 position/valuation binding
-  demonstratedPatternUseRowRefs[]: U.EpistemeRef, each referencing one DemonstratedPatternUseRow@Context
-  includedStructurePositionRefs[]: U.EntityRef, each referencing one ConstraintGovernedUnfoldingPosition@Context
-  omittedStructureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context under C.33
-  loopCompressionRuleRef?: U.EntityRef, referencing one U.MethodDescription
-  alternativeSliceRefs[]?: U.EpistemeRef, each referencing one DemonstrativeUnfoldingSlice@Context
-  presentationOrderingRuleRef: U.EntityRef, referencing one U.MethodDescription
-  presentationForm: DemonstrationPresentationFormValue
-  admissibleUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
-  nonAdmissibleUseRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
-  sliceReturnBoundaryRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+networkDemonstrationLocator:
+  transformationFlowStructureNetworkRef: one independently selected E.18.NET-conforming network
+  selectedNetworkPositionMappingRows[]:
+    networkPositionRef: FlowPositionRef | ExposedFlowPositionRef
+    memberPath[]: finite ordered path of exact direct-member refs
+    admittedIncludedPositionLocator: the same exact CGUSPositionLocator already included in this slice and its admitted E.18.3 structure
+  selectedCrossFlowRelationReferenceRows[]?:
+    networkCrossFlowRelationRowRef: exact E.18.NET NetworkCrossFlowRelationRowRef
+    admittedTransformationFlowRelationReferenceRef: exact E.18.3 relation-reference episteme already used by the admitted structure
+  memberLocalFlowLocatorRows[]?:
+    memberPath[]: finite ordered path to one leaf TFS
+    transformationFlowStructureRef: that exact leaf TFS
+    pathSliceId: local to that leaf TFS
+    DesignRunTag: local to this exact leaf position binding
+    leafFlowPositionRef: FlowPositionRef in that TFS
+    positionBindingRef: already governed E.18 position/valuation binding
 ```
 
-The transition does not retype the provisional episteme or any subject-domain result. The admitted slice cites the provisional description only as its derivation basis, names the already-admitted CGUS as EntityOfConcern, and replaces candidate position and relation descriptions with exact admitted structure positions and relation references. Its edition changes when that CGUS edition, included positions, omitted-structure account, traversal or ordering rule, alternatives, use boundary, ClaimGraph, or reference scheme changes; carrier or rendering change alone does not. If admission later fails, the provisional explanation may remain useful under its declared use while the slice claim is withdrawn.
+The locator does not admit structure. Resolve every member path hop through exact direct members. A `FlowPositionRef` names the final TFS. An `ExposedFlowPositionRef` must repeat the same network, complete member path, and leaf position; otherwise omit the mapping. The included locator must be the same exact admitted position already present in the slice and the E.18.3 structure, not a copied raw-position list.
 
-The local mode and presentation-form values are enumerations, not CharacteristicSpaces or U-kinds. Presentation form says how the episteme is rendered; it is not a carrier kind. Add an E.17 publication relation only when publication is current.
+Resolve every selected cross-flow row first through the exact current E.18.NET record edition for this same network and require exactly one match on occurrence plus complete ordered endpoint-binding identity. Then resolve the cited E.18.3 relation-reference episteme separately. The row and episteme must agree on exact occurrence, relation kind, direct governor, signature, participant order, endpoint members, positions, and bindings. A record row, raw occurrence ref, edge label, unresolved locator, or diagram adjacency alone is not admitted.
 
-The top-level transformation-flow locator families are mutually exclusive. For a one-TFS demonstration, `transformationFlowStructureRef`, `pathSliceId`, and `designRunTag` are all present and `networkDemonstrationLocator` is absent; their existing meaning is unchanged. For a network demonstration, all three top-level one-TFS fields are absent and one `networkDemonstrationLocator` is present. A generic CGUS slice that asserts no transformation-flow provenance may leave both families absent. No slice may mix a partial one-TFS triple with either family.
+The complete one-TFS locator may recur only in a member-local row for one leaf position. A network slice has no global `FlowValuation`, `pathSliceId`, or `DesignRunTag`; every valuation, slice, tag, Work reference, actual transformation reference, and boundary remains local to one exact member or leaf-TFS binding. Network membership paths are finite and acyclic, while exact cross-flow feedback relations may form cycles when their direct owners permit them.
 
-The network locator does not admit new structure. Its `transformationFlowStructureNetworkRef` resolves to one independently identified, selected E.18.NET-conforming network. Every member path resolves through that network's exact direct members and ends in the TFS named by its leaf position. When `networkPositionRef` is a `FlowPositionRef`, the row's final member is the TFS named by that ref. When it is an `ExposedFlowPositionRef`, that ref's network, complete member path, and leaf position must equal this locator's network, this row's member path, and the resolved leaf position. A mismatch leaves the mapping out of the slice. Every `admittedIncludedPositionRef` is the same exact position already present both in this slice's `includedStructurePositionRefs[]` and in the admitted E.18.3 structure's `transformationPositionRefs[]`. The mapping rows locate that admitted list; they do not create a second raw or unadmitted position list.
+Every selected cross-flow relation remains the exact occurrence admitted by its direct owner; do not substitute universal `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff`, or `transfer` edges. A C.32.CONWAY result can contribute at most one exact transformer-role-system/transformed-holon architecture-correspondence occurrence as one qualified network row after its direct occurrence and endpoint bindings are recovered; it is never the whole network. A source phrase or source graph enters only through an exact source-to-use claim or relation. A bounded model-use structure appears only when the receiving assertion or use explicitly selects that already identified structure for one independently obtaining crossing; shared wording, adjacency, or the crossing display creates neither.
 
-Every selected cross-flow mapping preserves one already obtaining relation. First resolve `networkCrossFlowRelationRowRef` by value and require its named current E.18.NET record edition to describe this locator's exact `transformationFlowStructureNetworkRef`; then require exactly one row to match the occurrence and complete ordered endpoint-binding identity. A different network, zero matches, or several matches leaves the mapping out of the slice. Then resolve the cited `TransformationFlowRelationReference@Context` separately. The row and that episteme must agree on exact occurrence, relation kind, direct governor, signature, endpoint order, and endpoint position bindings. The relation-reference episteme must already occur in an applicable admitted E.18.3 relation-reference field. A raw occurrence ref, diagram edge, unresolved locator, or network-record row alone is not admitted into the slice.
+**Positive case.** A four-level build-the-builder demonstration follows a finite member path to one already admitted leaf position, maps it to the same included CGUS/E.18.3 position, cites one exact admitted cross-flow relation-reference episteme, and keeps the path slice and tag in one leaf-local row. **Near miss.** A graph supplies raw positions or an edge label, mixes locator families, duplicates positions, or assigns one tag to the network; keep it provisional or return the exact missing member, relation, position, or binding.
 
-The complete one-TFS triple may recur only inside `memberLocalFlowLocatorRows[]`, where it locates one exact leaf-TFS position binding. It never becomes the network slice's top-level locator. A network slice has no network-global `FlowValuation`, `pathSliceId`, or `DesignRunTag`; each path slice and tag remains recoverable from one exact member-local row.
+#### A.22.CGUS:4.3.1 - Plain `move` and displayed continuations
 
-**Positive case.** A four-level build-the-builder demonstration follows a finite member path to one already admitted leaf position, maps it to the same included CGUS/E.18.3 position, cites an admitted exact cross-flow relation reference, and keeps the leaf path slice and tag in one member-local row. **Near miss.** A graph that supplies only raw positions or an edge label, mixes the top-level triple with the network locator, duplicates the included-position list, or assigns one tag to the network remains provisional or returns the exact admission blocker.
-
-#### A.22.CGUS:4.3.1 - Demonstrated pattern-use rows
-
-When a local pattern mantra is admitted as a `DemonstrativeUnfoldingSlice@Context`, `mantra move` is bounded Plain wording for one `DemonstratedPatternUseRow@Context` inside that slice. The row consumes A.6.5 SlotSpec discipline, but A.6.5 does not govern the row's identity. The row is not a root U-kind, an operation, or a work occurrence. It shows one result-bearing conditional continuation. A short repeatable formula that only recalls one pattern's Solution may still be a useful local mantra without containing such rows and without becoming a CGUS.
+`Move` is not a universal U-kind, record, or relation. In a display, *move* remains Plain wording and must resolve to the exact current object: a proposed PlanItem, pattern-use recommendation, admitted CGUS continuation, dated performed `U.Work`, actual `U.Transformation`, or another independently governed occurrence. Proposed or chosen work remains distinct from performed Work; no shared move identity connects them.
 
 ```text
-DemonstrationBasisModeValue = publicTemplate | projectCandidate
-
-DemonstratedPatternUseRow@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing the containing DemonstrativeUnfoldingSlice@Context
-  boundedContextRef: U.BoundedContextRef
-  claimGraph: U.ClaimGraph by value
-  referenceScheme: U.ReferenceScheme by value
-  editionId
-  sourcePracticeContinuationDescriptionRef?: U.EpistemeRef, referencing one PatternUsePracticeContinuationDescription@Context
-  demonstrationBasisMode: DemonstrationBasisModeValue
-  demonstratedResultFlowPosition: PatternUseResultFlowPositionValue
-  nestedPatternSelectionSliceRef?: U.EpistemeRef, referencing one DemonstrativeUnfoldingSlice@Context
-  actionOrProposedUseDescriptionRef: U.EpistemeRef
-  directPatternIdentifier: PatternIdentifierValue
-  directPatternName: PatternNameValue
-  publicCandidateUseTemplateRef?: U.EpistemeRef, referencing one PublicCandidatePatternUseTemplate@FPFReadme
-  projectCandidatePatternUseRef?: U.EpistemeRef, referencing one CandidatePatternUse@Context
-  publicPracticalUseQuestionRef?: U.EpistemeRef, referencing one PublicPracticalUseQuestion@FPFReadme
-  projectPracticalUseQuestionRef?: U.EpistemeRef, referencing one PracticalUseQuestion@Context
-  solutionMethodDescriptionRef: U.EntityRef, referencing one U.MethodDescription
-  publicResultTemplateRef?: U.EpistemeRef, referencing one PublicPatternUseResultTemplate@FPFReadme
-  projectResultExpectationRef?: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
-  publicContinuationConditionRef?: U.EpistemeRef, referencing one PublicPatternUseBoundaryConditionTemplate@FPFReadme
-  projectContinuationConditionRef?: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
-  alternativeDemonstratedRowRefs[]?: U.EpistemeRef, each referencing one DemonstratedPatternUseRow@Context
-  returnDemonstratedRowRefs[]?: U.EpistemeRef, each referencing one DemonstratedPatternUseRow@Context
-  applicabilityFindingRef?: U.EpistemeRef, referencing one PatternUseApplicabilityFinding@Context
-  recommendationRef?: U.EpistemeRef, referencing one PatternUseRecommendation@Context
-  workPlanRef?: U.EntityRef, referencing one U.WorkPlan
-  performedWorkRef?: U.EntityRef, referencing one U.Work
+displayedContinuation:
+  plainMoveLabel
+  exactCurrentObjectRef
+  exactCurrentObjectKindRef
+  directGovernorRef
+  actionOrProposedUseClaimRef
+  directPatternRef
+  practicalUseQuestionClaimRef
+  relevantSolutionClaimRef
+  expectedResultClaimRef
+  currentContinuationConditionClaimRef
+  alternativeContinuationRefs[]?
+  returnContinuationRefs[]?
+  sourcePracticeContinuationRef?: exact source episteme plus direct source-to-use relation
+  basis: exactly one public-template basis or project-candidate basis
+  nestedPatternSelectionClaimRef?: separate claim-bearing episteme
+  applicabilityFindingRef?: only if already current
+  recommendationRef?: only if already current
+  workPlanRef?: only if one U.WorkPlan already exists
+  performedWorkRef?: only if one dated U.Work already exists
 ```
 
-In `publicTemplate` mode, exactly the public candidate, question, result, and continuation positions are filled; the project positions are absent. In `projectCandidate` mode, exactly the project candidate, question, expectation, and continuation positions are filled; the public positions are absent. Applicability, recommendation, WorkPlan, and Work refs appear only when those values already exist.
+This is display content in the slice's ClaimGraph, not a universal row type. `expectedResultClaimRef` is always recoverable for a result-bearing display but creates no result or result relation. A nested selection claim may return a candidate, finding, or recommendation to the display; it neither becomes the enclosing continuation nor performs it.
 
-The result-flow position is always present. An unresolved direct-pattern choice opens a separate nested pattern-selection slice. That slice returns a candidate, finding, or recommendation used by the enclosing row; it does not become the enclosing result-producing structure.
+A displayed continuation may show the direct pattern, the practical-use question, the relevant Solution claim, the expected result claim, its current condition, alternatives, and return. It uses exactly one public-template or project-candidate basis and does not merge the two. Its source-practice continuation is cited only through an exact source-to-use relation. If the direct pattern is unresolved, stop that continuation and open a separate nested pattern-selection claim; the returned candidate, finding, or recommendation neither becomes the enclosing continuation nor performs it. Applicability finding, recommendation, WorkPlan, and Work remain separate and appear only when those values already exist. A filled row, an imperative verb, or selection wording performs nothing.
+
+If a display says `next move: prepare the realization plan`, first identify whether the current object is an admitted CGUS continuation toward a possible `U.WorkPlan`, an already current PlanItem, or actual plan-authoring Work. The phrase establishes none of them. Open A.15.2 for the plan and A.15.1 for dated Work only when their own conditions are satisfied.
 
 #### A.22.CGUS:4.3.2 - Pre-execution slot-filling scaffold
 
-A provisional demonstration can hold attention on visible candidate positions before execution and before CGUS admission. Each visible position initially points to a subject-domain object, question, or proposed continuation and states which A.22.CGUS admission coordinate remains unresolved. It does not yet point to an admitted `ConstraintGovernedUnfoldingPosition@Context`.
+A provisional demonstration can hold attention on candidate positions before execution and before CGUS admission. First name the visible positions. Then recover the exact constituents, kinds, relation declarations and occurrences, constraints, invariants, guards, preserved structure, C.33 notes, next-form kinds, and stop or return conditions that would satisfy `4.2`. Keep every unresolved coordinate in the provisional episteme's ClaimContent.
 
-Fill the scaffold in small passes. First name the visible candidate positions. Then recover the exact objects, kinds, relation signatures, constraints, invariants, guards, preserved structures, C.33 notes, next-form kinds, and stop or return conditions that would satisfy `4.2`. Keep every unresolved coordinate explicit in the provisional description. Only after the wider structure is admitted may a separate demonstrative slice replace candidate descriptions with exact structure-position and relation refs.
+**Minimal first use.** Show candidate positions `candidate`, `evaluate`, and `repair`; state that the relation and guard making repair conditional on an evaluation result are still proposed; and show both `accept candidate` and `repair candidate` as possible continuations. This helps the team hold a branch in attention. It remains a provisional description until the exact constituents, direct relation occurrence, guard, preserved structure, and use boundary are recoverable.
 
-**Minimal first use.** Write three visible candidate positions such as `candidate`, `evaluate`, and `repair`; describe the proposed relation that would make repair conditional on an evaluation result; and show both `accept candidate` and `repair candidate` as possible continuations. Keep this as a `ProvisionalUnfoldingDemonstrationDescription@Context` while the exact position kinds, relation instance, guard, preserved structure, or use boundary remains unresolved. It already helps a team hold the branch in attention without asserting the wider CGUS.
+After admission, create a separate demonstrative-slice episteme and map only recovered material to exact position locators and relation refs. Neither the provisional nor admitted presentation asserts project Work order or authorizes Work.
 
-After CGUS admission, create a separate `DemonstrativeUnfoldingSlice@Context`, cite the provisional description as derivation basis, and map only the recovered candidate material to exact admitted positions and relations. The scaffold helps design the wider graph; neither provisional nor admitted presentation asserts project work order or authorizes work.
+#### A.22.CGUS:4.3.3 - Local mantra, filled use, and naming boundary
 
-#### A.22.CGUS:4.3.3 - Bounded names and bridge
+A local *mantra* is Plain compact recall wording for applying one pattern Solution. For A.22.CGUS use:
 
-`Mantra` is broader Plain didactic wording for a repeatable attention aid. A local mantra holds one bounded result, often one pattern's `Solution`; a long mantra holds the dependency from a recognizable difficulty to a distant intended result, its checking, and later use across several direct patterns. A short phrase can recall either scope. The word alone recovers no universal FPF kind, Method, WorkPlan, Work, or unfolding structure. `A.6.P`, for example, can publish a local RPR mantra that recalls its repair order, while `A.1.STM` helps practitioners use one Plain system-thinking long mantra without making either aid a CGUS.
+> **Objects — obtaining relations — constraints — next form; otherwise stop and return.**
 
-These are Plain didactic choices interpreted from the reader use. Other patterns may keep an established local name such as `mnemonic`, `watchword`, or `heuristic` when that name better tells their readers what the aid does. A.19's common-space comparison mnemonic, A.15.1's CAC mnemonic, and E.8's seven-step heuristic need not be renamed `mantra`; conversely, an acronym, title mnemonic, or retrieval label is not a local mantra merely because it is memorable. For a local aid, recover the one bounded result, its direct owner, and its return point. For a long aid, choose by the intended final result and keep each intermediate result with its direct owner. Neither scope creates a rival FPF kind.
+The formula helps answer one working decision: *does the current selected organization admit this continuation, or must the practitioner stop and return to a neighboring governor?* Its terms map as follows:
 
-This pattern governs only the narrower case in which separately recovered positions, conditions, branches, returns, and stops warrant an admitted constraint-governed unfolding structure and one demonstrated slice through it. A Plain local or long mantra does not become that slice merely by being memorable or repeatable. In the admitted demonstrative use, `mantra` may name the `DemonstrativeUnfoldingSlice@Context`, and `mantra move` may name one `DemonstratedPatternUseRow@Context` inside it. Neither label grants method, plan, order, authority, Work, or teaching-medium identity.
+| Formula term | Governed value |
+| --- | --- |
+| Objects | exact independently identified constituents and already-current structures |
+| obtaining relations | exact selected occurrences under their direct relation owners |
+| constraints | exact applied constraint claims, invariants, and guards used by the selection |
+| next form | one admissible next-form kind and its current condition, not a forced record or performed step |
+| stop and return | the ordinary non-admissible condition and one exact neighboring governing pattern |
 
-##### Ordinary bounded use
+**Filled architecture use.** The working decision is whether `prepare realization plan` may remain visible after a cooling-architecture choice. `CoolingStructure-v2`, exact composite project Work `CoolingUpgrade-2026`, `ArchitectureDecisionRelation@Project#AD-17` under `C.32.PAD`, and `ArchitectureUnfoldingStructureUse@Project#AU-17` under `C.32.P2S` are independently recovered. The selected relation occurrences are the exact decision and unfolding-structure-use relations; the applied constraints are `ThermalMarginConstraint` and `ServiceAccessConstraint`. The admissible next-form kind is `U.WorkPlan`, so *next move* is only Plain wording for the admitted CGUS continuation `prepare realization plan`. If the exact C.32.P2S use relation does not obtain—for example because its exact composite Work participant is absent—stop the CGUS continuation and return to `C.32.P2S`; do not infer project locality from `@Project`, create a plan from the display, or report performed Work. If a plan later exists, A.15.2 owns it; if dated realization Work occurs, A.15.1 owns it.
 
-In public FPF explanation, call the admitted slice a `demonstrative walkthrough`. In the bounded seminar context recorded below, `mantra` is the shorter repeatable name for that same demonstrative episteme. One `mantra move` is a `DemonstratedPatternUseRow@Context`: it names the direct pattern, its Solution, the expected result, and the condition for continuing. Outside this admitted CGUS-demonstrative use, keep a local mantra with its bounded result and direct owners, or a long mantra with its intended final result and cross-pattern dependency map. Force neither into `DemonstrativeUnfoldingSlice@Context`.
+The mantra is neither `U.Method`, `U.MethodDescription`, `U.WorkPlan`, performed `U.Work`, CGUS, nor a demonstrative slice. Imperative grammar does not admit a kind or execute anything. A displayed traversal is a separate C.2.1 episteme only after the CGUS is admitted. A cross-pattern long-memory aid may point to a distant result, but each intermediate object and relation retains its direct owner; it is outside this local-mantra rule unless one A.22.CGUS decision is the current use.
 
-##### Naming settlement and bounded reuse
+In public explanation, *demonstrative walkthrough* may remain Plain wording for a post-admission slice. *Mantra* names the recall formula above, not that slice, and *mantra move* creates no demonstrated-row kind. Established local words such as *mnemonic*, *watchword*, or *heuristic* may remain when they truthfully tell that pattern's readers what the aid does; a memorable acronym, title, or retrieval cue is not thereby a mantra.
 
-The F.18 cards below record the selected names for the governed A.22.CGUS values. The separate `LocalSenseBasisRelation@Context` values support the exact local-sense claims. The F.9 Bridge states only the semantic relation between the two exact F.17 cells. A separate ordinary C.2.1 assertion says whether that Bridge is suitable for the named seminar-to-public naming use, and A.10 separately governs reliance on that assertion. The cards carry none of the use direction, correspondence rule, loss tolerance, polarity, reliance, permission, or publication occurrence. `PublicRowStatus=current` and each `UnifiedTermRowRef` cite a separate current F.17 row; neither the card nor its inputs create that row. None adds a step to CGUS application.
+If a seminar or another source uses those expressions differently, keep these decisions separate:
 
-```text
-NameCardId: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
-GovernedValueRef: DemonstrativeUnfoldingSlice@Context
-GoverningPatternRef: A.22.CGUS
-ReferenceScheme: FPFCoreReferenceScheme
-ClaimContent: NameCard.DemonstrativeUnfoldingSlice.FPFPublic.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
-LocalSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
-LocalSenseBasisRelationRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
-TechLabel: DemonstrativeUnfoldingSlice@Context
-PlainLabel: demonstrative walkthrough
-CandidateSet: [demonstrative walkthrough, mantra, mnemonic walkthrough, solution-story refrain, repeated explanatory walkthrough, pattern-use refrain]
-RejectedCandidates:
-  mantra -> broader Plain local-or-long didactic wording that does not by itself identify this CGUS-demonstrative value
-  mnemonic walkthrough -> foregrounds a memory technique rather than the represented structure
-  solution-story refrain -> overstates narrative form and refrain structure
-  repeated explanatory walkthrough -> is too long to serve as the public label
-  pattern-use refrain -> narrows the value although a CGUS slice may demonstrate wider structure
-SelectionRationale: the phrase identifies a presented explanatory episteme for a cold reader while the Tech value restores represented structure
-BridgeRefs: [Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11]
-PublicRowStatus: current
-UnifiedTermRowRef: UTS.DemonstrativeUnfoldingSlice.FPFPublic
-LineageEntries: demonstrative slice -> cold-reader public Plain label
-RefreshCondition: readers treat the phrase as actual traversal, fixed work order, or teaching medium rather than the governed episteme
-```
+1. `F.17` identifies each exact local sense under its reference scheme and exact source basis; no carrier or remembered wording creates the sense.
+2. `F.18` settles a local or public name only when that naming use is current; a NameCard is unnecessary for ordinary Plain wording and never creates the governed value.
+3. `F.9` may establish one exact Bridge between two sense cells with its direction, predicate, applicability, and loss. The Bridge establishes neither governed-value identity nor permission to use it. In particular, the recall-formula sense of *mantra* and the demonstrative-slice sense of *walkthrough* are not one value merely because an earlier seminar used the first word for the second.
+4. A separate C.2.1 assertion states the proposed receiving use, direction, correspondence rule, tolerated loss, and polarity. A.10 governs below-threshold reliance; B.3 opens only for a current assurance claim or material-reliance threshold.
+5. The source episteme, publication occurrence, publication form, and carrier remain different objects. Dictionary evidence can support lexical interpretation; it cannot establish the Bridge, use claim, structure, relation occurrence, publication, Method, plan, or Work.
+6. Changed local sense reopens that sense basis; changed Bridge endpoint or predicate reopens the Bridge; changed receiving use or tolerated loss reopens the C.2.1 use claim; changed evidence or threshold reopens only reliance. Changed wording reopens none of the selected structure's four A.22 discriminators unless the actual selected organization also changed.
 
-```text
-NameCardId: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
-GovernedValueRef: DemonstrativeUnfoldingSlice@Context
-GoverningPatternRef: A.22.CGUS
-ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
-ClaimContent: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
-LocalSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
-LocalSenseBasisRelationRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
-TechLabel: DemonstrativeUnfoldingSlice@Context
-PlainLabel: mantra
-CandidateSet: [mantra, demonstrative walkthrough, mnemonic walkthrough, solution-story refrain, repeated explanatory walkthrough, pattern-use refrain]
-RejectedCandidates:
-  demonstrative walkthrough -> accurate but too long for repeated seminar speech and does not foreground attention
-  mnemonic walkthrough -> foregrounds a memory technique rather than repeatable explanatory content
-  solution-story refrain -> overstates narrative form
-  repeated explanatory walkthrough -> is too long for the repeated teaching alias
-  pattern-use refrain -> narrows demonstrations to pattern use and loses wider CGUS cases
-SelectionRationale: repeated-formula and watchword senses support remembered repetition; the Sanskrit analysis instrument of thought supplies the attentional rationale; the seminar-teaching scheme excludes ritual, slogan, method, plan, and work senses
-BridgeRefs: [Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11]
-PublicRowStatus: current
-UnifiedTermRowRef: UTS.DemonstrativeUnfoldingSlice.SeminarTeaching
-LineageEntries: seminar teaching concept -> English lexical comparison -> bounded teaching alias over the same governed value
-RefreshCondition: readers infer ritual authority, slogan, rote formula, method, WorkPlan, Work, teaching medium, or cannot recover the demonstrated structure
-```
-
-```text
-NameCardId: NameCard.DemonstratedPatternUseRow.SeminarTeaching
-GovernedValueRef: DemonstratedPatternUseRow@Context
-GoverningPatternRef: A.22.CGUS
-ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
-ClaimContent: NameCard.DemonstratedPatternUseRow.SeminarTeaching.ClaimGraph — complete C.2.1 U.ClaimGraph constituted by all identity-bearing naming-settlement claims designated below
-LocalSenseCellRef: SenseCell.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
-LocalSenseBasisRelationRef: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
-TechLabel: DemonstratedPatternUseRow@Context
-PlainLabel: mantra move
-CandidateSet: [mantra move, mantra row, demonstrated pattern-use row, walkthrough continuation, mnemonic step, solution-story move]
-RejectedCandidates:
-  mantra row -> foregrounds a table container rather than the conditional continuation
-  demonstrated pattern-use row -> is exact but too technical for repeated seminar speech
-  walkthrough continuation -> loses the bounded relation to the seminar mantra alias
-  mnemonic step -> suggests a fixed serial step and memory technique
-  solution-story move -> overstates narrative form and can be read as movement
-SelectionRationale: the phrase keeps the bounded mnemonic relation and names one continuation; row fields restore direct pattern, Solution, result, and condition
-BridgeRefs: none; expression and governed-row use are interpreted under the same seminar-teaching scheme
-PublicRowStatus: current
-UnifiedTermRowRef: UTS.DemonstratedPatternUseRow.SeminarTeaching
-LineageEntries: bounded mantra alias plus local move wording -> typed demonstrated-pattern-use row
-RefreshCondition: readers infer universal Move, physical movement, operation, fixed serial step, PlanItem, Work, or a row detached from its slice
-```
-
-The two expressions for the demonstrative slice and the local expression for its demonstrated row resolve through exact F.17 coordinates:
-
-```text
-SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
-  ReferenceScheme: FPFCoreReferenceScheme
-  LocalSenseId: DemonstrativeUnfoldingSlice-public
-  LocalExpression: demonstrative walkthrough
-  LocalSenseClaim: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
-  senseFamily: DemonstrativeExplanation
-  NameCardRef: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
-  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
-
-SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
-  ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
-  LocalSenseId: DemonstrativeUnfoldingSlice-mantra
-  LocalExpression: mantra
-  LocalSenseClaim: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
-  senseFamily: DemonstrativeExplanation
-  NameCardRef: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
-  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
-
-SenseCell.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
-  ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
-  LocalSenseId: DemonstratedPatternUseRow-mantra-move
-  LocalExpression: mantra move
-  LocalSenseClaim: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
-  senseFamily: DemonstratedPatternUseContinuation
-  NameCardRef: NameCard.DemonstratedPatternUseRow.SeminarTeaching
-  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
-
-LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
-  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, DemonstrativeUnfoldingSlice-public)
-  basisEpistemeRef: A.22.CGUS
-  basisPublicationUnitRef: A.22.CGUS:4.3.3-Ordinary-bounded-use
-
-LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
-  entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
-  viewpointRef: FPFPublicReaderViewpoint
-  claimGraph:
-    supportedSenseClaim: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
-    admittedUseClaim: support the public local-sense line for this scheme-based coordinate
-    nonAdmittedUseClaim: no evidence, authority, work-order, or naming decision follows from this relation
-  referenceScheme: FPFCoreReferenceScheme
-  editionId: 2026-07-11
-
-LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
-  localSenseCellRef: SenseCell(FPFSeminarTeachingReferenceScheme-2026-07-11, DemonstrativeUnfoldingSlice-mantra)
-  basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
-  basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10
-
-LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
-  entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
-  viewpointRef: FPF Seminar Participant Viewpoint
-  claimGraph:
-    supportedSenseClaim: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
-    admittedUseClaim: support the bounded teaching sense from the seminar expression
-    nonAdmittedUseClaim: the slide carrier does not become the sense, naming settlement, method, plan, or work
-  referenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
-  editionId: 2026-07-11
-
-LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
-  localSenseCellRef: SenseCell(FPFSeminarTeachingReferenceScheme-2026-07-11, DemonstratedPatternUseRow-mantra-move)
-  basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
-  basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides61-62
-
-LocalSenseBasisRelationDescription.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
-  entityOfConcernRef: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
-  viewpointRef: FPF Seminar Participant Viewpoint
-  claimGraph:
-    supportedSenseClaim: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
-    admittedUseClaim: support the bounded teaching sense of mantra move
-    nonAdmittedUseClaim: the slide carrier does not become the row, pattern use, plan, or performed work
-  referenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
-  editionId: 2026-07-11
-```
-
-`F.17:5.1` governs these scheme-based cells and basis relations, including their SlotKinds, value and reference kinds, direction, dependence, obtaining condition, and identity. The retained `@Context` suffix names lineage-compatible bounded local use; it introduces no context participant or `U.BoundedContext` slot.
-
-`SeminarExpression.FPFPracticalUse.2026-07-11` names the seminar-content episteme. The publication occurrence that makes one edition available and the `.pptx` and extracted Markdown carriers remain separate. The public basis relation instead uses the current A.22.CGUS pattern episteme as its basis and narrows that basis to the ordinary-use publication unit.
-
-The cross-scheme relation and the row's named use are different objects:
-
-```text
-BridgeOccurrence:
-  BridgeOccurrenceRef: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
-  SourceSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
-  ReceivingSenseCellRef: SenseCell.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
-  BridgePredicateProfile:
-    BridgeKind: Narrower-than
-    RelationOrientation: source SeminarTeaching sense is narrower than receiving FPFPublic sense
-    EndpointSenseReadings: both are DemonstrativeExplanation senses of the governed A.22.CGUS value; the seminar sense additionally requires repetition and attentional use
-    RelationSpecificCondition: every demonstrative episteme classified by the seminar sense is also classified by the public walkthrough sense, while some public walkthroughs are not seminar mantras
-    ApplicabilityOrAsOfBasis: FPFCoreReferenceScheme and FPFSeminarTeachingReferenceScheme-2026-07-11 at the named sense editions
-    BooleanTruthCondition: true only while the proper-specialization condition holds for those endpoint editions
-    RequiredDependencies: both F.17 SchemeSenseCells resolve, their cited local-sense basis claims hold, and the A.22.CGUS governed-value identity remains unchanged
-
-C.2.1 claim about this named use:
-  ClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
-  EntityOfConcern: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
-  EffectiveReferenceScheme: FPFCoreReferenceScheme
-  ClaimGraph:
-    ProposedUse: a seminar use of "mantra" points to the public demonstrative-walkthrough term and its governed value
-    Direction: SeminarTeaching sense -> FPFPublic sense
-    CorrespondenceRule: preserve reference to the same governed A.22.CGUS value and do not infer that every public walkthrough is a mantra
-    PermittedLossTolerance: repetition, remembered replay, and attentional function may be omitted; no method, plan, order, authority, Work, or teaching-medium claim may be carried
-    Polarity: affirmative
-
-A.10 evidence reliance for this claim:
-  EvidenceProvenanceRelationRef: EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
-  TargetClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
-  BoundedEvidenceUse: use the seminar word "mantra" to point to the public demonstrative-walkthrough term and the same governed A.22.CGUS value
-  EvidencePaths:
-    PublicSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11 --basisEpistemeRef--> A.22.CGUS --basisPublicationUnitRef--> A.22.CGUS:4.3.3-Ordinary-bounded-use --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
-    SeminarSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11 --basisEpistemeRef--> SeminarExpression.FPFPracticalUse.2026-07-11 --basisPublicationUnitRef--> SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10 --carriedBy--> FPF_first_seminar_reworked_slidement.pptx@sha256:325B50C5D062479434ECCABFF0B8B3E316825CAA5E1646A61D25183B90B9CA89 (Git blob e990847d37ddca59d15a9cc434fad15381a2122d) and fpf_first_seminar_slides.content.md@sha256:B38C6F5FBC85CAF9986D2141095C90DAFFAB6F3FEA607ACE7FA6CE60EB18228D (Git blob 34fd989b646aa4dc9f2879cab40d2e6dde989b1b)
-    NameSettlementRecord: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
-    DictionaryEvidenceRecord-MW: Merriam-Webster "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.merriam-webster.com/dictionary/mantra
-    DictionaryEvidenceRecord-OALD: Oxford Advanced Learner's Dictionary "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.oxfordlearnersdictionaries.com/definition/english/mantra
-    ReaderCueEvidenceRecord: Zhu, Reinecke, and Mitra, Language Scent, arXiv:2604.03604 (2026) --derivedFrom--> https://arxiv.org/abs/2604.03604; supports contextual cues, not equivalence or fitness for every reader
-  EvidenceProducingOrInterpretingWork: absent from this fixture; no Work occurrence is used as a premise
-  CurrentRoleAssignment: absent from this fixture
-  MethodTrace: absent from this fixture
-  CurrentnessAndWindow: applies to the named 2026-07-11 sense as evidenced by the exact current seminar carrier editions above; both Git blobs must resolve, both carrier paths must retain the cited raw-SHA-256 bytes, and the cited NameCard and A.22.CGUS governed value must remain current
-  UnsupportedAttemptedUse: reverse substitution, structural inference, or any method, plan, authority, Work, teaching-medium identity, publication occurrence, or other receiving occurrence
-  ReopenOrStop: stop this naming use and reopen its A.10 classification if either cited Git blob does not resolve, either carrier path no longer contains its cited raw-SHA-256 bytes, any other cited item or provenance edge is missing or stale, either sense, NameCard, or governed value changes, or reader evidence shows that "mantra" obscures rather than locates the public value
-  RelianceDisposition: pass only for the named bounded naming use while every path and currentness condition above holds
-  B.3 branch: no assurance claim is made and this reversible naming use does not meet the material-reliance threshold
-BridgeCard:
-  EntityOfConcern: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11
-  EffectiveReferenceScheme: FPFCoreReferenceScheme
-  ClaimGraph:
-    ClaimMode: actual
-    BridgeClaim: Bridge.DemonstrativeUnfoldingSlice.SeminarTeaching-To-FPFPublic.2026-07-11 obtains under the BridgePredicateProfile above
-    BoundedUseClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
-    EvidenceProvenanceRelationRef: EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
-    RelianceDispositionClaim: pass only for the named SeminarTeaching-to-FPFPublic naming use
-    ObservedLossClaim: the broader public sense does not require repeated speech, remembered replay, or the seminar attentional function
-    CounterExampleClaim: a public demonstrative walkthrough may be read once and understood without being repeated or used as a mnemonic
-    CurrentnessClaim: use this card only while the named Bridge, bounded-use claim, evidence-provenance relation, local reliance disposition, 2026-07-11 sense editions, and current A.22.CGUS governed value remain current
-    NearestNonUseClaim: do not use it for FPFPublic-to-SeminarTeaching substitution or to infer a method, plan, order, authority, Work, teaching-medium identity, publication occurrence, or other receiving occurrence
-```
-
-The Bridge is `Narrower-than` because the seminar sense adds repetition and attentional use. That relation orientation grants no use. The separate affirmative claim states the exact SeminarTeaching-to-FPFPublic naming use, direction, rule, and tolerance; the A.10 relation and `RelianceDisposition=pass` support reliance only on that claim. The B.3 branch is absent because no assurance claim is made and this bounded reversible naming use stays below its material-reliance threshold; a later threshold would require B.3's first-claim decision and would not create a positive claim. Neither the NameCards, Bridge, claim, card, nor passing disposition authorizes publication, makes an E.17/E.24.PUB publication occurrence obtain, or proves that publication Work occurred.
-
-The Bridge governs only these two senses of the CGUS-demonstrative value, not every local pattern mantra, and it does not establish the independently governed value identity. The seminar-content episteme supplies the teaching problem and local-sense basis; its publication occurrence and carriers do not. Current English dictionary evidence bears on the lexical choice but does not establish the Bridge or the bounded-use claim by itself. F.18 and reader-use evidence decide the names. A changed NameCard reopens naming without silently changing either sense. A changed SenseCell address, basis-episteme edition, or cited publication unit reopens the corresponding `LocalSenseBasisRelation@Context`; a changed supported-sense claim or use boundary opens another `LocalSenseBasisRelationDescription@Context` edition. A changed Bridge endpoint or profile reopens the relation, while a changed proposed use, rule, tolerance, evidence, or reliance reopens only its separately governed claim or reliance object.
+This naming boundary preserves three useful distinctions without a local card ontology: the selected CGUS is world-side structure; a demonstrative walkthrough is a claim-bearing episteme about one traversal; and a mantra is Plain recall wording for one decision. Changes to wording reopen only the naming or source-use claim unless the selected structure's four A.22 discriminators actually change.
 
 #### A.22.CGUS:4.4 - Direct Governing Pattern Exits
 
@@ -35204,17 +34995,17 @@ CGUS carries the unfolding structure. It does not absorb stronger claims.
 
 Use the word `refresh` only when a currentness, telemetry, edition, decay, or slice-local refresh claim is actually current. Otherwise use plain return, stop, split, or repair wording and name the direct governing pattern.
 
-#### A.22.CGUS:4.4a - Direct Governing-Pattern Dependent Records
+#### A.22.CGUS:4.4a - Direct governing-pattern dependent uses
 
-Some CGUS uses need dependent records that keep adjacent method, work, evidence, architecture, description, or publication claims inspectable. A.22.CGUS does not define those record schemas. Reliance on a stronger claim is admitted only when the corresponding CGUS field names its direct governing pattern.
+Some CGUS uses cite adjacent method, plan, work, evidence, architecture, description, or publication objects. A.22.CGUS defines no generic linkage record for them. Select an adjacent relation occurrence into the CGUS only after its direct owner supplies the relation kind, participant meanings, obtaining predicate, applicability, occurrence identity, and current affirmative facts.
 
-For method and work linkage, use `MethodWorkUnfoldingLinkage@Context`, governed by A.15, only when a named receiving use relies on that relation remaining inspectable across method, method description, role assignment, capability-fit condition, work plan, readiness, performed work, evidence, assurance, or gate positions. If only one method, work-plan, readiness, performed-work, evidence, assurance, or gate claim is current, use that direct governing record instead.
+For method and work, keep one admitted `U.Method`, any already identified C.2.1 episteme, A.3.2 `U.MethodDescription` membership when its exact EntityOfConcern is that Method and its ClaimContent crosses the substantive way-of-doing threshold, `U.WorkPlan`, readiness claim, dated `U.Work`, actual `U.Transformation`, work-to-change claim, A.15.PROD production or inception claim, evidence, assurance, and gate result separate. A.3.4 independently identifies every actual transformation from its changed referent, extent or ordering boundary, conditions, actual change facts, and continuity rule. Intended realization use, a plan seed, imperative grammar, placement in a CGUS, shared Work, or adjacency admits none of these objects and establishes no transformation composition. Open A.15.PROD production, identity-inception, or completion only for the exact current claim; do not infer production or holonhood for every transformation. If only one adjacent claim is current, cite that exact object or occurrence rather than constructing a multi-stage linkage.
 
-For architecture use, use the C.32.P2S-owned `ArchitectureUnfoldingStructureUse@Project` only when a named unfolding structure is being used as architecture-relevant structure in problem-to-structure architecturing. If the current claim is only grounded architecture, structural view, architecture description, decision, ADR-like projection, measurement, eval, or performed realization work, use the direct pattern for that claim.
+For architecture use, use the C.32.P2S-owned `ArchitectureUnfoldingStructureUse@Project` only when its exact predicate obtains. `@Project` is a compatibility and retrieval cue only. Every asserted occurrence includes the exact composite `U.Work` as a participant and the direct relation that connects that Work to this unfolding-structure use. C.32.PAD likewise owns `ArchitectureDecisionRelation@Project` and its exact composite-Work participation. A.22.CGUS neither infers nor owns either project-work relation.
 
-In `ArchitectureUnfoldingStructureUse@Project` and `ArchitectureDecisionRelation@Project`, `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, or parthood. When the current use is genuinely local to one actual project, C.32.P2S or C.32.PAD must name the exact composite `U.Work` and the direct relation that connects the unfolding-structure use or architecture decision to that work. A.22.CGUS neither infers nor owns that project-work relation.
+If the current claim is only grounded architecture, structural view, architecture description, decision, ADR-like projection, measurement, evaluation, planned or performed realization Work, or actual structure, use its direct governor. P2S selected and expected structures remain claim content until their world-side obtaining basis is independently recovered; realization Work and actual structures remain world-side and are not created by a decision, description, model, table, or intended realization.
 
-This keeps A.22.CGUS thin: it governs the constraint-governed unfolding structure and its safe next-use boundary, while A.15, C.30, C.32, evidence, gate, publication, and domain patterns govern the adjacent records that carry stronger claims.
+This keeps A.22.CGUS thin: it owns the selected constraint-governed structure and its safe next-use boundary, while A.15, A.3.4, A.15.PROD, C.30, C.32, evidence, gate, publication, source-use, evaluation, and domain patterns own adjacent objects and relations.
 
 #### A.22.CGUS:4.5 - Promoted Core Family Cue Examples
 
@@ -35230,13 +35021,13 @@ If no promoted cue helps, omit the cue. Do not invent a core `UF.*` cue merely t
 
 #### A.22.CGUS:4.6 - Replay and change localization
 
-Replay one CGUS use from its bounded context, unfolded structure, subject EntityOfConcern and kind, current position fillings, exact referenced relation instances, constraints, invariants, guards, preserved structures, C.33 adequacy notes, admissible next-form kinds, and use boundaries. For each selected continuation, recover the relations and guards that admit it and the direct pattern governing any stronger claim. A demonstrative slice is replayable only as one declared presentation of that wider structure.
+Replay one CGUS use from its exact four-part A.22 identity basis, filled position locators, relation declarations, current selected relation occurrences, constraints, invariants, guards, preserved structures, C.33 adequacy notes, admissible next-form kinds, and use boundaries. For each selected continuation, recover the occurrences and guards that admit it and the direct pattern governing every stronger claim. A demonstrative slice is replayable only as one claim-bearing presentation of that selected structure; it neither reidentifies the structure nor performs the continuation.
 
 Localize a change before reopening wider work. A changed relation instance reopens that reference and its dependent guards or continuations. Changed omitted structure reopens the affected C.33 adequacy note and any slice relying on it. A changed presentation changes the demonstrative slice without changing the CGUS unless it reveals missing or false structure. A freshness, edition, telemetry, or decay change is handled by its exact `G.11` relation. A changed method, work, evidence, architecture, publication, or formal claim returns to the direct governing pattern for that claim. Rebuild the wider CGUS only when its structure identity, position set, relation structure, constraints, or declared use boundary has changed.
 
 ### A.22.CGUS:5 - Worked Slices
 
-**Architecture P2S slice.** A team starts with architecture-relevant problem pressure. The unfolding structure may relate problem pressure, unknown structures, candidate structures, architecture characteristics, one `ProjectArchitectureDecision@Context` governed by `C.32.PAD`, realization-work linkage, actual-structure feedback, and return conditions. The P2S flow card can describe those relations, but the decision relation remains governed by `C.32.PAD`, architecture descriptions by `C.30.AD`, and planned or performed work by the A.15 family.
+**Architecture P2S slice.** A team starts with architecture-relevant problem pressure. The selected unfolding structure may include independently identified problem-side epistemes, unknown-structure and candidate-structure claims, selected structures, architecture characteristics, one exact `ArchitectureDecisionRelation@Project` occurrence governed by `C.32.PAD`, one exact `ArchitectureUnfoldingStructureUse@Project` occurrence governed by `C.32.P2S`, actual-structure feedback relations, and return conditions. The P2S card can describe those objects and relations, but it creates none of them. Unknown, candidate, selected, or expected structures remain epistemic claim content until their world-side obtaining basis is independently recovered; planned or performed realization Work remains with the A.15 family, and actual structure remains under A.22 and its subject-side relation owners.
 
 **Abductive search slice.** An inquiry starts from an abductive prompt and a cue set selected for the search. The unfolding structure may relate rival hypotheses, plausibility constraints, hypothesis-generation positions, evidence-return relations, and downstream tests. The structure is not evidence; evidence appears only when an evidence pattern governs the claim.
 
@@ -35244,27 +35035,45 @@ Localize a change before reopening wider work. A changed relation instance reope
 
 **First-entry seed slice.** A README entry says "develop or review architecture." That line may seed an entry unfolding among problem-side records, candidate first governed records, likely governing-pattern returns, and next readable outputs. The README line is a seed description, not the project's unfolding structure and not a universal FPF route.
 
-**Field-filled scaffold slice.** A team has a visible card sequence "problem pressure -> candidate options -> eval -> repair." At first this is a `ProvisionalUnfoldingDemonstrationDescription@Context` about the cooling-design question and proposed continuations. After every admission coordinate below is recoverable, the team may admit the wider CGUS and create a separate demonstrative slice over it:
+**Field-filled scaffold slice.** A team has a visible card sequence `problem pressure -> candidate options -> evaluate -> repair`. At first this is an ordinary C.2.1 episteme whose EntityOfConcern is the cooling-design question and whose ClaimContent states proposed positions and continuations plus the unresolved A.22 coordinates. After the exact basis below is recoverable, the team may select one CGUS and separately create a demonstrative slice over it:
 
 ```text
-acceptedStartingRecordReferenceRefs[]: ProblemCard@Cooling-v2 through one acceptedStartingRecord reference; EvaluationResult@thermal-margin-v1 through one acceptedStartingRecord reference
-acceptedStartingStructureRefs[]: CurrentModulePlacementStructure@Cooling-v2
-declaredStructureSubstrateRef: ArchitectureCandidateSynthesisAndImprovementStructure@Cooling-v2
-structurePositionRefs[]: PressurePosition; CandidateSetPosition; EvaluationResultPosition; RepairProposalPosition; ReturnPosition, each with one SlotSpec and direct governing pattern
-relationSignatureRefs[]: CandidateEvaluatedByResult; ProposalChangesCandidate; ResultConstrainsDecision; ReturnTargetsGoverningPattern
-constraintReferenceRefs[]: ThermalMarginConstraint; ServiceAccessConstraint; AcceptedLossBoundary, each through an exact constraint reference relation
-invariantReferenceRefs[]: MaintainableCoolingPathInvariant through one invariant reference relation
-guardedTransitionReferenceRefs[]: RepairAdmissionGuard through one guarded-transition reference relation; the guard admits repair only after the evaluation-result relation is current
+selectedCGUSRef: ArchitectureCandidateSynthesisAndImprovementStructure@Cooling-v2
+selectedConstituentRefs[]:
+  - ProblemCard@Cooling-v2, independently identified as a C.2.1 episteme
+  - EvaluationResult@thermal-margin-v1, independently identified under its evaluation owner
+  - CurrentModulePlacementStructure@Cooling-v2, independently selected under A.22
+  - RepairProposalEpisteme@Cooling-v2, independently identified under C.2.1 as the current proposal claim
+  - ReturnConditionEpisteme@Cooling-v2, independently identified under C.2.1 as the current return-condition claim
+selectedObtainingRelationOccurrenceRefs[]:
+  - CandidateEvaluatedByResult@Cooling-v2, only after its direct owner admits the kind and current facts satisfy its predicate
+  - ProposalChangesCandidate@Cooling-v2, only after its direct owner admits that exact occurrence
+  - ResultConstrainsDecision@Cooling-v2, only after its direct owner admits that exact occurrence
+relationSignatureRefs[]: CandidateEvaluatedByResult; ProposalChangesCandidate; ResultConstrainsDecision; ReturnTargetsGoverningPattern, each resolved to an exact direct declaration before use
+appliedConstraintClaimRefs[]:
+  - ThermalMarginConstraint
+  - ServiceAccessConstraint
+  - AcceptedLossBoundary
+  - MaintainableCoolingPathInvariant
+guardedContinuationRows[]:
+  - RepairAdmissionGuard with its exact condition claim, required selected relation occurrences, and repair-candidate continuation
+namedSelectionUseFrame:
+  questionOrAction: decide whether accept-candidate and repair-candidate continuations remain admissible
+  forbiddenOverread: no displayed order, authorization, performed Work, or architecture decision follows from the card
+positionLocatorRows[]:
+  - <selectedCGUSRef, PressurePositionSlotSpec, ProblemCard@Cooling-v2>
+  - <selectedCGUSRef, EvaluationResultPositionSlotSpec, EvaluationResult@thermal-margin-v1>
+  - <selectedCGUSRef, CandidateStructurePositionSlotSpec, CurrentModulePlacementStructure@Cooling-v2>
+  - <selectedCGUSRef, RepairProposalPositionSlotSpec, RepairProposalEpisteme@Cooling-v2>
+  - <selectedCGUSRef, ReturnPositionSlotSpec, ReturnConditionEpisteme@Cooling-v2>
 preservedStructureRefs[]: CandidateAlternativeStructure; RepairLocalityStructure
 structureInformationAdequacyNoteRefs[]: TeachingSliceAdequacyNote@Cooling-v2 under C.33, recording omitted rejected-candidate detail and its declared-use effect
-admissibleNextFormKindRefs[]: U.Structure for a C.32 candidate-palette update; U.Episteme for an E.22 candidate-improvement proposal row; U.Relation for an ArchitectureDecisionRelation@Project under C.32.PAD
-admissibleUseRef: use for planning and demonstrating relations among current positions
-nonAdmissibleUseRef: do not infer performed-work order, authorization, or architecture decision from the slice
-structureUseReturnBoundaryRefs[]: return to C.32 when a new candidate structure appears; return to E.23 when the changed object version is evaluated
-stopBoundaryRef: stop stronger candidate-set or evaluation use when the candidate-set or evaluation relations are no longer recoverable
+admissibleNextFormKindRefs[]: U.Structure for a C.32 candidate-palette update; U.Episteme for an E.22 proposal; exact decision-relation kind only under C.32.PAD
+stopCondition: stop stronger candidate-set or evaluation use when the selected relation occurrences or constraints are no longer recoverable
+governingPatternReturnConditions[]: return to C.32 when a new candidate structure appears; return to E.23 when the changed object version requires re-evaluation
 ```
 
-The same visible chain helps planning because each position asks for a slot. It does not make the project follow that order and does not authorize work.
+The visible chain helps planning because each filled locator makes the current subject recoverable. It neither makes the project follow that order nor creates a WorkPlan, Work occurrence, relation, decision, or CGUS by table completion. The block becomes an admitted CGUS basis only after every listed relation declaration resolves, every selected occurrence independently obtains, and the A.22 constraints and use frame are current; otherwise the completely filled display remains a provisional episteme and returns the exact missing governor or occurrence.
 
 **Local relation repair slice.** Later `EvaluationResult@thermal-margin-v2` becomes the current result for the same cooling candidate. Keep the candidate set, structure positions, service-access constraint, maintainable-cooling-path invariant, and return boundaries. Replace only the referenced `CandidateEvaluatedByResult` relation instance, then re-evaluate `RepairAdmissionGuard` under its direct governing pattern. If the new result does not satisfy the guard, remove `repair candidate` from the admissible next forms and update the demonstrative slice that showed that branch; the unrelated `accept candidate` continuation remains live. A changed result therefore repairs one relation and its dependent guard before it changes a wider graph.
 
@@ -35276,7 +35085,7 @@ The same visible chain helps planning because each position asks for a slot. It 
 
 **Formal-expression boundary slice.** A team expresses part of the cooling CGUS as a DCR graph or constraint-solver model to check whether the `repair candidate` branch is reachable under `RepairAdmissionGuard`. The expression preserves selected positions, dependency relations, and the guard. It loses direct governing-pattern exits, C.33 adequacy notes, and any relation not encoded in the chosen formalism. Record that preservation and loss under `C.29`, use the output only for the declared reachability question, and return to CGUS before selecting the next form. Satisfiability or reachability does not establish that the expression is the CGUS, prescribe performed-work order, prove architecture adequacy, or authorize work.
 
-**Method-to-work linkage slice.** A method description is admitted because it may realize a governed structure change or change set. CGUS may organize the method relation, work-plan seed, readiness condition, expected structure effect, evidence or gate linkage, and stop condition. It does not authorize work. The method, plan, work-entry readiness, performed work, evidence, assurance, and gate claims remain with A.3, A.15, A.10, B.3, A.20, and A.21.
+**Method-to-work boundary slice.** A selected CGUS may include exact already-obtaining relations among one admitted `U.Method`, an independently identified C.2.1 episteme, `U.WorkPlan`, readiness claim, dated `U.Work`, actual `U.Transformation`, production or inception claim, evidence, assurance, and gate result. Intended realization, a plan seed, display order, imperative grammar, or a relation to expected structure does not make the episteme a `U.MethodDescription`: A.3.2 membership requires that the episteme's exact EntityOfConcern be one admitted Method and that its ClaimContent contain at least one substantive way-of-doing claim. The structure selects only relations already governed by A.3, A.15, A.3.4, A.15.PROD, A.10, B.3, A.20, or A.21 as applicable; it authorizes and performs nothing.
 
 ### A.22.CGUS:6 - Bias-Annotation
 
@@ -35292,12 +35101,13 @@ The same visible chain helps planning because each position asks for a slot. It 
 
 | ID | Passing condition | Failed-check repair |
 | --- | --- | --- |
-| **CC-CGUS-1 Structure kind.** | The object is `ConstraintGovernedUnfoldingStructure@Context <: U.Structure` or a named narrower `U.Structure` specialization. | Lower to note, seed, description, route card, method description, or governing-pattern record. |
-| **CC-CGUS-2 Typed positions and cross-position constraints.** | More than one SlotSpec-grounded position is named, and exact relations or constraints among those positions affect admissible continuations. | Add typed positions and their exact relation references, or stop using CGUS. |
-| **CC-CGUS-3 Description separation.** | A pre-admission presentation remains a `ProvisionalUnfoldingDemonstrationDescription@Context`; after admission, a whole-structure account is a `ConstraintGovernedUnfoldingStructureDescription@Context`, while one selected traversal is a `DemonstrativeUnfoldingSlice@Context` whose EntityOfConcern is the admitted CGUS. | Keep the presentation provisional until CGUS admission. After admission, choose the description species by whether the episteme describes the admitted topology or selects one traversal through it. |
+| **CC-CGUS-1 A.22 identity.** | The current object is one selected `U.Structure` with exact independently identified constituents, exact selected obtaining relation occurrences, exact applied constraints, and one named selection-use frame; the `ConstraintGovernedUnfoldingStructure` profile adds no ambient context discriminator. | Recover the missing A.22 discriminator, or lower to the current note, record, graph, table, or description. |
+| **CC-CGUS-2 Typed positions and cross-position constraints.** | More than one filled `CGUSPositionLocator` resolves an independently governed selected constituent, and exact already-obtaining relations or applied constraints among those constituents change admissible continuations. | Recover the missing constituent, SlotSpec, relation occurrence, or constraint; an empty row remains provisional. |
+| **CC-CGUS-3 Episteme separation.** | A pre-admission presentation is a C.2.1 episteme about the actual question or proposed continuation set; a whole-structure description and one demonstrative slice are distinct C.2.1 epistemes whose exact EntityOfConcern is the admitted CGUS. None is the selected structure. | Keep the presentation provisional until admission, then identify each needed episteme by its own ClaimContent, EntityOfConcern, and effective ReferenceScheme. |
 | **CC-CGUS-3a Transformation-flow locator exclusivity.** | A one-TFS slice has the complete top-level E.18 triple and no network locator; a network slice has one network locator and none of the three top-level E.18 fields; a generic slice may have neither family. No partial or mixed family is present. | Restore one complete family, or remove transformation-flow provenance and keep the slice generic. |
-| **CC-CGUS-3b Network locator admission reuse.** | Every position ref agrees with the locator's exact network, member path, and leaf position and maps to the same exact position already included in the slice and admitted E.18.3 structure. Every selected cross-flow row comes from a current record of that same network and cites an exact relation-reference episteme already admitted by E.18.3. Member-local TFS triples remain nested, with no duplicate raw-position list or network-global valuation, path slice, or tag. | Return the mismatched network, path, leaf, record, admitted position, or relation reference. Remove copied position lists and global state; keep leaf-local bindings inside member-local rows. |
-| **CC-CGUS-4 Direct governing patterns.** | Method, work, evidence, gate, decision, architecture, publication, refresh, and mathematical claims point to direct governing patterns. | Add governing-pattern exits or narrow the claim. |
+| **CC-CGUS-3b Network locator admission reuse.** | Every position ref agrees with the exact network, recursive member path, and leaf position and resolves the same admitted `CGUSPositionLocator` already used by the slice and E.18.3 structure. Every selected cross-flow row resolves exactly one row in the current record and cites an exact already-admitted relation-reference episteme. Member-local TFS locators retain boundaries, Work, transformations, valuations, path slices, and tags; the network has no global copy. | Return the mismatched network, path, leaf, record, position, relation, or binding. Remove copied position lists and global state. |
+| **CC-CGUS-3c Flow/subflow/network discriminator.** | Several valuations retain one TFS identity; one internal portion remains one parent-relative `SubflowRef`; independent flows or nested networks plus exact cross-boundary occurrences use E.18.NET. Membership is acyclic while directly governed feedback may cycle. | Return to E.18 or E.18.NET; remove the valuation-created flow, detail-created member, giant flattened flow, or cyclic membership. |
+| **CC-CGUS-4 Direct governing patterns and method-description threshold.** | Method, MethodDescription, plan, Work, transformation, production, evidence, gate, decision, architecture, publication, source-use, currentness, and mathematical claims retain direct owners; a governing-pattern ref, intended realization, ordering claim, recommendation, or imperative grammar admits no `U.MethodDescription` or Work. | Add the exact governing exit, apply A.3.2 only to an already identified episteme about one admitted Method, or narrow the claim. |
 | **CC-CGUS-5 Non-workflow boundary.** | The structure does not prescribe performed-work order by itself. | Move work-order claims to a work plan or method description if justified. |
 | **CC-CGUS-6 Admissible next form.** | At least one admissible next-form kind is named for the admitted structure. | Keep the artifact as a provisional description until a next use and next-form kind are recoverable. |
 | **CC-CGUS-7 Stop, return, and currentness reference.** | Stop and return boundaries are recoverable; any currentness claim is an exact referenced relation governed by `G.11`. | Add the boundary or referenced currentness relation, or lower the structure to a one-use explanation. |
@@ -35307,11 +35117,14 @@ The same visible chain helps planning because each position asks for a slot. It 
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **Pretty route as ontology** | A graph, table, route card, or slide deck is treated as the structure, or its declared use is treated as sufficient CGUS admission. | Keep the artifact as a provisional description while any admission coordinate is unresolved. After admission, describe the whole admitted structure with `ConstraintGovernedUnfoldingStructureDescription@Context`, or create a separate `DemonstrativeUnfoldingSlice@Context` only for one selected traversal. |
+| **Pretty route as ontology** | A graph, table, route card, or slide deck is treated as the structure, or its declared use is treated as sufficient admission. | Keep the artifact as a C.2.1 provisional episteme while an A.22 discriminator is unresolved. After admission, use a whole-structure description or a separate demonstrative-slice episteme only for the selected traversal. |
 | **Network locator as admission shortcut** | A network graph supplies raw positions, edge labels, a duplicated position list, or one global tag and is treated as an admitted slice. | Select and verify the E.18.NET-conforming network first, then admit the E.18.3 positions and relation-reference epistemes. Then map to those exact values through the mutually exclusive network locator; otherwise keep the graph provisional. |
-| **Universal P2W parent** | P2W is used as the parent for architecture, narrative, abduction, grounding, and refresh. | Use P2W as a rich transformation-flow family; use CGUS for the shared constraint-governed unfolding structure and direct governing patterns for each family. |
+| **Valuation or detail mints structure** | Another `FlowValuation` is called another TFS, or a detailed portion is called an independent flow. | Keep the valuation on its exact TFS and the internal portion as one E.18 `SubflowRef`. |
+| **One giant flow** | Independently selected flows, nested networks, and their local Work, transformations, valuations, or boundaries are flattened into one TFS. | Restore each member identity and select an E.18.NET network only from exact cross-boundary relation occurrences. |
+| **Universal cross-flow edge** | `creates`, `produces`, `uses`, `result`, `handoff`, or `transfer` labels stand in for different relations. | Apply the exact direct owner and occurrence; retain missing-governor, unresolved predicate, false predicate, or missing endpoint binding instead of inventing an edge. |
+| **Universal P2W parent** | P2W is used as the parent for architecture, narrative, abduction, grounding, and refresh. | Use E.18 as the rich transformation-flow family; use CGUS for the shared constraint-governed unfolding structure and direct governing patterns for each family. |
 | **Loop word as improvement** | A retry loop or prompt loop is called improvement. | Open `E.22` and `E.23`; improvement-loop admission depends on an object version, evaluation frame, exact candidate proposal rows, scale-qualified expected evaluation-result changes, one loop-decision value, and re-evaluation. |
-| **README route authority** | A public practical-use card is treated as a fixed FPF procedure. | Return to its `E.11` card expansion and express each continuation through its condition, direct pattern, exact first result, and stop or return boundary. If the explanation claims one wider conditional structure, keep it as `ProvisionalUnfoldingDemonstrationDescription@Context` until A.22.CGUS admission; only then may a separate `DemonstrativeUnfoldingSlice@Context` show one traversal. |
+| **README route authority** | A public practical-use card is treated as a fixed FPF procedure. | Return to its E.11 expansion and express each continuation through its current object, condition, direct owner, expected result claim, and stop or return. Keep any wider route-shaped claim provisional until A.22 admission; a later slice demonstrates only one traversal. |
 | **Diffusion ontology import** | The diffusion analogy becomes mathematical diffusion, fixed point, CSP, sheaf, or category semantics. | Keep the analogy explanatory only; open `C.29` by a new decision if a mathematical lens is claimed. |
 | **Solver or agent as ontology** | An execution artifact, such as a solver run, compiler output, or AI-assisted model edit, is treated as the governed unfolding structure. | Separate the reusable model structure from the execution or publication artifact. Use CGUS for the relation and constraint structure; use the direct mathematical, currentness, evaluation, evidence, publication, or domain pattern for the stronger claim. |
 
@@ -35327,7 +35140,7 @@ The selected design is a thin A.22 specialization of `U.Structure` because the r
 
 Physical modeling makes the same distinction concrete. In acausal modeling, component relations, quantities conserved across connections, and mode conditions can be declared before the model is compiled and solved in one chosen direction. The FPF import is only the general architecture of the move: structure and constraints first; derived calculation, demonstration, calibration, publication, or work use later under direct governing patterns.
 
-CGUS is deliberately close to A.22. It is a `U.Structure` over a declared substrate in a bounded context. Descriptions, views, graph renderings, route cards, README entries, and examples help humans use it; they do not become it.
+CGUS is deliberately close to A.22. It is one selected `U.Structure` with the four A.22 identity discriminators and a constraint-governed unfolding use. It has no ambient context field. Descriptions, views, graph renderings, route cards, README entries, demonstrations, and examples help humans use it; they do not become it.
 
 ### A.22.CGUS:11 - SoTA-Echoing
 
@@ -35346,9 +35159,9 @@ As of 2026-07-11, OCPQ supplies the current research comparator for typed multi-
 
 ### A.22.CGUS:12 - Relations
 
-Specializes: the `A.22` use of `U.Structure` when the selected structure is `ConstraintGovernedUnfoldingStructure@Context` and its typed positions, exact referenced relations, cross-position constraints, preserved structures, C.33 adequacy notes, admissible next-form kinds, and direct governing-pattern exits are current.
+Specializes: the A.22 use of one selected `U.Structure` when exact constituents, selected obtaining relation occurrences, applied constraints, and a named selection-use frame support constraint-governed unfolding through typed position locators, preserved and lost structure, admissible next-form kinds, and direct governing-pattern exits.
 
-Specialized by: `E.18.3` for transformation-flow unfolding structures, including admitted positions and relation-reference epistemes cited by a network demonstration locator; and by local blocks in `E.18.1`, `C.32.P2S`, `B.5.2`, `A.6.3.NAR`, `E.23`, `C.13`, `B.3.5`, and `C.3` when their admission tests pass.
+Specialized by: `E.18.3` when the same selected structure satisfies its transformation-flow unfolding membership condition and reuses exact E.18 positions and relation references; and by local A.22 applications in `E.18.1`, `C.32.P2S`, `B.5.2`, `A.6.3.NAR`, `E.23`, `C.13`, `B.3.5`, and `C.3` only when their own selected constituents, obtaining relations, constraints, and use frames are recoverable.
 
 Coordinates with: `E.18` for the complete one-TFS locator triple, `E.18.NET` for one selected E.18.NET-conforming TFS network and member paths, `E.11` for public practical-use card expansions, ordinary walkthroughs, and admitted CGUS-demonstrative walkthroughs, `E.10.MOVE` and `C.2.P.DR` for lexical and declarative-representation repair, `C.18`, `C.19`, and `G.5` for archive, front, live-pool, and selected-set claims, `G.11` for currentness and refresh claims, and `E.17` for publication of provisional descriptions or admitted demonstrative slices.
 
@@ -49208,7 +49021,8 @@ These cards are **thinking scaffolds**; they do not prescribe org process.
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part C
-> **Builds on:** `C.16`, `C.19`, `G.5`, `G.11`, `E.18`, `E.18.1`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.30`, `F.17`, `F.18`, and `F.9`.
+> **Builds on:** `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `E.18`.
+> **Coordinates with:** `C.19`, `G.5`, `G.9`, `G.11`, `E.23`, `E.18.1`, the `C.30` family, `C.32.P2S`, `C.32`, `C.35`, `C.36`, `F.17`, `F.18`, `F.9`, and the A.15 family.
 > **Purpose:** make archive, front, Q-front, descriptor, telemetry, retained exploration value, stepping-stone value, lineage, edition, architecture-candidate generation, and cultural-variant generation usable without turning them into publication, decision, work permission, or cultural-evolution authority.
 
 ### C.18:0 - Use This When
@@ -49269,6 +49083,9 @@ ExplorationArchiveRecord@Context:
   steppingStoneUse?:
   lineageOrEditionPins:
   telemetryRefs?:
+  currentnessAsOf:
+  currentStatus:
+  stopOrRefreshReason:
   nextGoverningRelation:
 ```
 
@@ -49287,6 +49104,9 @@ FrontRecord@Context:
   relationTokenSetRef:
   excludedTelemetryRefs?:
   selectedSetPublicationRef?:
+  currentnessAsOf:
+  currentStatus:
+  stopOrRefreshReason:
   nextGoverningRelation:
 ```
 
@@ -49306,6 +49126,9 @@ ExplorationArchiveRecord@Context:
   steppingStoneUse: candidate material for C.36 cultural-evolution case work
   lineageOrEditionPins: lab session, teacher edit, platform-publication edition
   telemetryRefs: replay counts, class adoption counts, jury notes
+  currentnessAsOf: lab records and platform-publication edition reviewed through 2026-07-31
+  currentStatus: active for retained exploration and teaching use
+  stopOrRefreshReason: reopen if the teaching-use judgement, retention policy, lineage, or platform edition changes
   nextGoverningRelation: C.36 case card or G.11 refresh, depending on the current question
 ```
 
@@ -49320,16 +49143,27 @@ FrontRecord@Context:
   relationTokenSetRef: non-dominated candidates under current comparator
   excludedTelemetryRefs: tests outside the current temperature envelope
   selectedSetPublicationRef: empty until G.5 publishes the selected set
-  nextGoverningRelation: C.30 architecture candidate treatment or G.5 selected-set publication
+  currentnessAsOf: comparator, safety constraints, and test evidence reviewed through 2026-07-31
+  currentStatus: active non-dominated front for the declared comparator
+  stopOrRefreshReason: reopen if eligibility, comparator, dominance grounds, or evidence edition changes
+  nextGoverningRelation: C.30 architecture candidate treatment, G.5 selected-set publication, or G.11 refresh
 ```
 
 #### C.18:4.3 - Generation And Downstream-Use Record
-When loop-engineering practice generates many agent prompts, harness variants, workflow variants, or framework seeds, `C.18` records generation, archive, front, descriptors, telemetry, retained exploration value, lineage, and next governing relation. It does not say that the loop improved. Use `E.23` only when a retained object version is changed and re-evaluated; use `G.9` for parity between variants and `G.5` when a selected set must be published.
+
+When loop-engineering practice generates many agent prompts, harness variants, workflow variants, or framework seeds, `C.18` records generation, archive, front, descriptors, telemetry, retained exploration value, lineage, and the next governing relation. It does not say that the loop improved. Use `E.23` only when one retained object version is changed and re-evaluated; use `G.9` for parity between variants and `G.5` when a selected set must be published.
 
 ```text
 OpenEndedVariantGenerationRecord@Project:
   problemCardRef?:
   generationMethodOrFamilyRef:
+  sourceRefs?:
+  evaluatorOrComparatorRef?:
+  emitterPolicyRef?:
+  insertionPolicyRef?:
+  dedupThreshold?:
+  deduplicationBasisRef?:
+  deduplicationUnit?:
   variantSetRef:
   descriptorMapRef:
   characteristicOrDescriptorSetRef:
@@ -49337,12 +49171,36 @@ OpenEndedVariantGenerationRecord@Project:
   architectureCandidateRefs?:
   culturalVariantRefs?:
   telemetryRefs?:
+  projectLocality?:
+    generationWorkOccurrenceRef:
+    compositeProjectWorkOccurrenceRef:
+    governingRelationPatternRef:
+    exactGenerationToProjectRelationRef:
   workPlanOrMeasurementRef?:
   refreshRef?:
+  currentnessAsOf:
+  currentStatus:
+  stopOrRefreshReason:
   nextGoverningRelation:
 ```
 
-Use this record when generation is current. `architectureCandidateRefs` become architecture moves only through `C.30`, `C.30.ASV`, or `C.30.AD`. `culturalVariantRefs` become cultural-evolution cases only through `C.36`. Work planning, performed work, effect measurement, and refresh use the A.15 family and `G.11`. P2W carry-through uses `E.18.1` when an accepted problem-side distinction must be preserved into the next relation.
+Across the archive, front, and generation records, `currentnessAsOf` names the replay date or window together with the relevant pinned editions; `currentStatus` states whether the recorded archive/front/generation relation is active, held, closed, or stale for its declared use; and `stopOrRefreshReason` names the condition that ended it or the exact trigger that would reopen its currentness. These fields record the boundary but do not perform refresh. When source, descriptor, comparator, policy, evidence, or edition currentness becomes the live question, `nextGoverningRelation` points to `G.11` and `refreshRef?` may cite the separately governed refresh record.
+
+Here `@Project` is a compatibility and retrieval cue, not a project kind or relation assertion. Fill `projectLocality?` only after both Work occurrences have been admitted independently and the cited relation actually obtains under its direct governor. `generationWorkOccurrenceRef` names the exact dated generation `U.Work`; `compositeProjectWorkOccurrenceRef` names the selected composite project `U.Work`; and `exactGenerationToProjectRelationRef` cites, rather than creates, the exact work-part, containing-work, decision-use, source-use, or other governed relation. Use work parthood only when the complete `A.15.1` basis holds. Otherwise omit `projectLocality?`: the `@Project` suffix remains retrieval-only and establishes no project Work, parthood, authority, context, or viewpoint.
+
+For example, a completed harness-generation run may state:
+
+```text
+projectLocality:
+  generationWorkOccurrenceRef: HarnessVariantGenerationRun-2026-07-31 : U.Work
+  compositeProjectWorkOccurrenceRef: AgentHarnessProjectWork-2026 : U.Work
+  governingRelationPatternRef: A.15.1
+  exactGenerationToProjectRelationRef: OperationalPartOf_work(HarnessVariantGenerationRun-2026-07-31, AgentHarnessProjectWork-2026)
+```
+
+Every optional field whose name ends in `Ref?` points to a separately governed object, claim, policy profile, or measurement basis. `dedupThreshold?` is not a reference: it carries one declared scalar threshold value. `deduplicationUnit?` carries its unit literal. Fill `emitterPolicyRef?` and `insertionPolicyRef?` only when the cited C.19 profile or insertion policy actually governs the current pool treatment. When a threshold is inherited, the cited profile supplies `dedupThreshold`, `deduplicationBasisRef`, and `deduplicationUnit`; when it is not inherited, carry the scalar in `dedupThreshold?` and its basis and unit in `deduplicationBasisRef?` and `deduplicationUnit?`. These references and scalars do not give C.19 a generation operator or move archive/front ownership out of C.18. In particular, `problemCardRef?` may cite a C.22.2 problem-side episteme but creates neither an actual Problem nor a `ProblematicForRelation` under `C.22.PFR`. A generated variant, archive entry, front membership, telemetry value, or retained-exploration claim is neither an improvement-result nor a work-result identity and creates no relation from generation Work to a result. `nextGoverningRelation` names the next owner; it does not itself make a choice, publish a selected set, authorize work, perform refresh, or make any relation obtain.
+
+Use this record when generation is current. `architectureCandidateRefs` become architecture moves only through `C.30`, `C.30.ASV`, or `C.30.AD`. `culturalVariantRefs` become cultural-evolution cases only through `C.36`. Local choice uses `C.11`; work planning and performed work use the A.15 family; effect measurement uses its direct measurement and evaluation owners; refresh uses `G.11`. P2W carry-through uses `E.18.1` when an accepted problem-side distinction must be preserved into the next relation.
 
 #### C.18:4.4 - Front And Archive Are Different Returns
 
@@ -49350,6 +49208,7 @@ Use this record when generation is current. `architectureCandidateRefs` become a
 - Return the non-dominated front over the declared comparator, dominance set, or relation-token set.
 - Return the exploration archive separately when retained exploration value, coverage, novelty, diversity, stepping-stone value, or future reachability is current.
 - Keep tie-breakers and telemetry explicit so diversity, illumination, or popularity signals do not rewrite front semantics.
+- Before promoting telemetry or a popularity-like signal into the comparator, dominance set, or selected-set criteria, state which intended archive/front use or value becomes worse when that signal improves and cite the policy or decision authority that admits the trade-off. If either answer is missing, keep the signal as telemetry or an explicitly bounded tie-breaker rather than silently promoting it.
 - Use `RetentionIntent=steppingStone` when retention exists for frontier expansion or later curriculum value rather than current dominance.
 - If one source line keeps both returns, say that the front answers current non-domination while the archive answers retained exploration value.
 
@@ -49363,12 +49222,15 @@ For cultural variants, C.18 records the generated or retained variant set and it
 
 - `CC-C18-1` Descriptor, characteristic, distance, and family-coordinate refs are named before generation, archive update, or front publication.
 - `CC-C18-2` Archive and front returns are separate unless a governing pattern explicitly publishes a selected set from one of them.
-- `CC-C18-3` Telemetry remains telemetry unless a declared policy promotes it into the comparator, dominance set, or selected-set criteria.
+- `CC-C18-3` Telemetry remains telemetry unless a declared policy promotes it into the comparator, dominance set, or selected-set criteria and the governing record names both the intended archive/front use or value made worse by that promotion and the authority that admits the trade-off.
 - `CC-C18-4` Retained exploration value, stepping-stone use, lineage, and edition pins are recorded for archive use.
 - `CC-C18-5` Architecture candidates use C.30 family patterns before becoming architecture moves.
 - `CC-C18-6` Cultural variants use C.36 or term-bridge patterns before becoming cultural-evolution claims.
 - `CC-C18-7` Refresh uses `G.11` with the smallest affected archive, front, descriptor, edition, or lineage locus.
 - `CC-C18-8` Agent-loop, harness-loop, workflow-store, or DPF-seed variants retained in an archive name their descriptor, lineage, telemetry, and next governing relation; archive membership does not claim quality improvement without `E.23` re-evaluation.
+- `CC-C18-9` A filled `projectLocality?` names independently admitted dated generation and composite project `U.Work` occurrences, the direct governing pattern, and one exact obtaining relation; `@Project` alone remains retrieval-only.
+- `CC-C18-10` Problem-card, result, selected-set, choice, work, and refresh references remain references to separately governed objects or next owners and create none of those identities or relations.
+- `CC-C18-11` The SoTA basis names its reviewed-through boundary and exact mutable editions; a material source revision, newer field survey, or contrary archive, descriptor-generalization, or OEE-evaluation evidence records a reopen trigger and hands refresh to `G.11`.
 
 
 
@@ -49405,13 +49267,15 @@ Current quality-diversity, illumination search, open-ended engineering, and evol
 
 ### C.18:10 - SoTA-Echoing
 
+**Source-currentness boundary.** This source-use basis was reviewed through 2026-08-01. Mutable preprints are pinned below to the edition actually used; the Qin et al. survey is pinned to its DOI-fixed journal article. Reopen the affected source-use row through `G.11` when a cited revision changes the archive, front, generation, or evaluation claim used here; when a newer field survey materially changes the known QD/OEE boundary; or when contrary evidence changes what can be claimed about bounded archives, descriptor generalization, or open-ended evaluation. C.18 records that trigger and the affected row but does not itself perform refresh.
+
 | Source or source family | Adopted FPF move | Rejected overread | Field or boundary changed |
 |---|---|---|---|
-| Lin et al., `Quality-Diversity Optimization as Multi-Objective Optimization`, arXiv:2602.00478. | Treat QD and Q-front work through declared Q components, `DominanceSet`, comparator refs, archive relation, front relation, selected-set publication, and refresh. | Cell-filling or popularity accounts are the current ontology by default. | `FrontRecord@Context` must keep dominance grounds, comparator refs, and Q-component refs explicit. |
+| Lin et al., `Quality-Diversity Optimization as Multi-Objective Optimization`, arXiv:2602.00478v1 (2026-01-31). | Treat QD and Q-front work through declared Q components, `DominanceSet`, comparator refs, archive relation, front relation, selected-set publication, and refresh. | Cell-filling or popularity accounts are the current ontology by default. | `FrontRecord@Context` must keep dominance grounds, comparator refs, and Q-component refs explicit. |
 | Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979`. | Use current survey support for approaches, applications, archive use, diversity use, and challenge framing. | Survey taxonomy replaces FPF governing loci. | `ExplorationArchiveRecord@Context`, `FrontRecord@Context`, and `OpenEndedVariantGenerationRecord@Project` stay governed by C.18 while selected-set publication and refresh stay with `G.5` and `G.11`. |
-| Batra et al., `Quality Diversity for Robot Learning: Limitations and Future Directions`, arXiv:2407.17515. | State retained exploration value, generalization pressure, and limitations when an archive is used beyond current dominance. | Bounded archives or cell occupancy are enough evidence that NQD and OEE are useful. | `retainedValue`, `retentionPolicyRef`, `telemetryRefs`, and `nextGoverningRelation` must be filled when the archive is relied on. |
-| Zhang et al., `Darwin Godel Machine`, arXiv:2505.22954. | Keep generated agents, archive lineage, empirically validated changes, method-family use, evaluation, and refresh separate. | OEE is one winner-selection method or source-free self-improvement story. | `OpenEndedVariantGenerationRecord@Project` records generation and archive or front linkage, while evaluation and refresh move to their governing patterns. |
-| Novikov et al., `AlphaEvolve`, arXiv:2506.13131. | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` decide whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
+| Batra et al., `Quality Diversity for Robot Learning: Limitations and Future Directions`, arXiv:2407.17515v1 (2024-07-09). | State retained exploration value, generalization pressure, and limitations when an archive is used beyond current dominance. | Bounded archives or cell occupancy are enough evidence that NQD and OEE are useful. | `retainedExplorationValue`, `retentionPolicyRef`, `telemetryRefs`, and `nextGoverningRelation` must be filled when the archive is relied on. |
+| Zhang et al., `Darwin Godel Machine`, arXiv:2505.22954v3 (2026-03-12). | Keep generated agents, archive lineage, empirically validated changes, method-family use, evaluation, and refresh separate. | OEE is one winner-selection method or source-free self-improvement story. | `OpenEndedVariantGenerationRecord@Project` records generation and archive or front linkage, while evaluation and refresh move to their governing patterns. |
+| Novikov et al., `AlphaEvolve`, arXiv:2506.13131v1 (2025-06-16). | Separate generated method text, method description, evaluator relation, selected set, source-use relation, performed work, and work result. | Generated algorithm text is proof, gate permission, accepted method selection, or performed work. | `evaluatorOrComparatorRef`, lineage, source refs, and `nextGoverningRelation` decide whether to use C.18, A.19, `G.5`, `C.11`, A.15, or `G.11`. |
 | Cultural-evolution and style-engineering source pressure from the music and dance intake. | Keep generated style or tradition variants as archive or front records until a cultural-evolution case or term bridge is current. | A cultural-style variant is a root cultural kind or a selected set by label. | `culturalVariantRefs` continue to `C.36`, `F.17`, `F.18`, or `F.9`; selected-set labels continue to `G.5`. |
 | Architecture-search and product-family work. | Treat retained structures as candidate architecture moves only after the architecture claim is named. | An archive of layouts is the architecture or the architecture decision. | Architecture candidates exit to `C.30`, `C.30.ASV`, `C.30.AD`, or `C.32.P2S` after C.18 records descriptor, archive or front relation, and telemetry. |
 
@@ -49579,7 +49443,7 @@ The pattern also keeps SoTA scaling practice from overriding FPF ontology. Scali
 ### C.19:0 - Use this when
 
 - several candidate lines, family regions, or frontier segments remain live under one declared exploration and exploitation policy and the question is now policy over that pool rather than one more local choice result
-- the next result should say how the pool will be treated next: `widen`, `keep frontier`, `narrow to subset`, or `sunset line`
+- the next result should say whether to widen, keep the frontier, narrow to a subset, or sunset a line
 - if the question is no longer pool policy, the C.19 use closes by naming the next governing pattern and the reason that pattern now applies
 - the governing lens or policy state must be explicit rather than inferred from vague exploration language
 
@@ -49599,18 +49463,19 @@ The pattern also keeps SoTA scaling practice from overriding FPF ontology. Scali
 
 - Which still-live pool, frontier segment, or family region is actually under governance now?
 - Which lens or policy state is governing it?
-- Is the next admissible pool treatment `widen`, `keep frontier`, `narrow to subset`, or `sunset line`?
+- Is the next admissible pool treatment to widen, keep the frontier, narrow to a subset, or sunset a line?
 - If none of those treatments is current, which governing pattern now applies, and why is the question no longer pool policy?
 - What event or threshold would justify changing that treatment next?
 
 ### C.19:0.4 - First output
-For loop-engineering practice, use this first output only when the live question is pool policy over still-live loop, harness, workflow, method-family, or framework-seed candidates. `C.19` may decide to widen, keep, narrow, or sunset the pool under a declared lens. It does not improve one object version, publish the selected set, or authorize work; those exits go to `E.23`, `G.5`, or the `A.15` family.
 
-The first useful output is one explicit pool-policy result that names the live pool, the governing lens or policy state, the current treatment (`widen`, `keep frontier`, `narrow to subset`, or `sunset line`), and the exact event that would justify changing that treatment next. If the current question has become local choice, enactment planning, selected-set publication, or refresh, the first output names `C.11`, `C.24`, `G.5`, or `G.11` as the next governing pattern instead of filling `currentTreatment`.
+For loop-engineering practice, use this first output only when the live question is pool policy over still-live loop, harness, workflow, method-family, or framework-seed candidates. `C.19` may state that the pool should widen, keep its frontier, narrow to an internal subset, or sunset a line under a declared lens. It does not improve one object version, publish a selected set, choose one option, authorize work, or perform refresh; those exits go to `E.23`, `G.5`, `C.11`, the A.15 family, or `G.11`.
 
-That result records how the pool will be treated next under the current exploration and exploitation policy; it does not replace one local `C.11` choice record, one `C.24` enactment plan, or one `G.5` published selector result.
+The first useful output is one explicit pool-policy record that names the live pool, `governingLens`, one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`, and the exact event that would justify changing that treatment next. If the current question has become local choice, enactment planning, selected-set publication, or refresh, the record names `C.11`, `C.24`, `G.5`, or `G.11` as the next governing pattern instead of inventing another `currentTreatment`.
 
-If that first output still cannot be written honestly, the current pool-policy result is not finished `C.19` policy yet.
+The word `result` in `PoolPolicyResult` means the stated conclusion of this pool-policy pass; it does not mint a universal result kind. The record and its inputs create neither an actual Problem nor a `ProblematicForRelation`, improvement-result or work-result identity, project Work or work parthood, `ChoiceResult`, public shortlist, work permission, nor refreshed edition. When a durable claim episteme about the pool treatment is needed, constitute that episteme separately under `C.2.1` and keep its exact EntityOfConcern and claim content explicit.
+
+That record says how the pool is to be treated under the current exploration and exploitation policy. It does not replace one local `C.11` choice record, one `C.24` enactment plan, one `G.5` published selector result, or any dated work occurrence. If the output still cannot name the pool, governing lens, current treatment, and change trigger honestly, the current `C.19` pass is unfinished.
 
 ### C.19:1 - Problem frame
 C.19 provides named, versioned policies and lenses that govern still-live pool treatment after C.18 generation, archive, or front records exist.
@@ -49667,9 +49532,10 @@ Define EmitterPolicy (regime key, params, ε, K, insertion policy, and deduplica
 **Decision-subject clarification.** Later choices are attributed to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. **Contexts publish** measurement spaces and admissible policies as **semantic frames**; LOG profiles lenses and policies but does **not** enact choices.
 **Depends on.** **C.18** for archive and front stewardship, **C.16** for characteristic and measurement claims, **A.19.CPM** and **A.19.SelectorMechanism** for comparison and selection kernels, **B.3** for assurance-sensitive confidence claims, and **G.5** and **G.11** for selected-set publication and refresh.
 
-**EmitterPolicy (named profile).** A context‑local, versioned policy with fields:
-`{ name, regimeKey ∈ {UCB, Thompson, BO‑EI, GP‑UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, backstop_confidence (assurance level), epsilon_dominance ε, cell_capacity K, **insertion_policy**, **dedup_threshold** }`.
-Policies are referenced by C.18 generation and archive records and are conceptual lenses, not staffing or budget instructions.
+**EmitterPolicy (named profile).** A context-local, versioned policy with canonical fields:
+`{ emitterPolicyId, name?, regimeKey ∈ {UCB, Thompson, BO-EI, GP-UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, backstop_confidence (assurance level), epsilon_dominance ε, cell_capacity K, insertionPolicyRef, dedupThreshold, deduplicationBasisRef, deduplicationUnit }`.
+`emitterPolicyId` is cited from a consuming record as `emitterPolicyRef`; `insertionPolicyRef` is a reference to the governed insertion policy; `dedupThreshold` is a declared scalar on the basis and unit named by `deduplicationBasisRef` and `deduplicationUnit`. Casing does not create a second field family.
+`EmitterPolicy` is a context-local named policy profile, not a U-kind or a generation operator. A C.18 generation or archive record cites it only when that profile actually governs the current pool treatment or its insertion and deduplication policy; C.18 retains generation, archive, and front ownership. The profile is not a staffing or budget instruction.
 Ordinary default tokens remain governed by `G.Core` and `G.5`; `C.19` explains their pool-policy consequences but does not become one rival default authority.
 
 **Decision-theory bridge.** `C.11` governs theory-side choice among already-available options and the meaning of `ProbeBudget`, `ValueOfInformation`, and `ValueOfComputation`. `C.19` may consume such outputs only as criteria for pool policy, graduation, keep-frontier, or sunset treatment; it does not re-govern local choice doctrine.
@@ -49679,23 +49545,27 @@ Ordinary default tokens remain governed by `G.Core` and `G.5`; `C.19` explains t
 • **Tie‑breakers:** `Novelty@context`, `ΔDiversity_P`, `Surprise`; `Illumination` (telemetry over Diversity_P, including coverage and QD‑score) MAY be used as a tie‑breaker but is **not** in the dominance set.
 • **Archive:** `K=1`, `ε=0`, deduplication in `CharacteristicSpace`.
 • **Policy family:** one uncertainty-aware explore policy family with one declared regime key and explicit change triggers; `UCB`-class with moderate temperature and `explore_share ≈ 0.3–0.5` is one didactic starter profile, not the semantic default family.
-• **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `DHCMethodRef.edition`, `EmitterPolicyRef`, `InsertionPolicyRef`, `dedup_threshold?`, `TimeWindow`, `Seeds`.
+• **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `DHCMethodRef.edition`, `emitterPolicyRef`, `insertionPolicyRef`, scalar `dedupThreshold`, `deduplicationBasisRef`, `deduplicationUnit`, `timeWindow`, and `seeds`.
+
+**Use-value and declared-Q boundary.** `C.16.Q` owns the selector-context meaning of use-value and its `Objective` form. When use-value participates in the current `Q`, declare `QS.UseValue` as an objective head in that exact `Q` and cite the current Q/comparator basis. When it does not participate in the current `Q`, keep the use-value criterion explicitly outside `Q` as a declared side condition or tie-breaker. A named C.19 lens may consume either declared position but cannot silently promote use-value into `Q` or construct the Q model.
 
 **Scalarization lenses (policy‑level).** A lens `J_ℓ` declares: (a) hard eligibility conditions (e.g., ConstraintFit=pass), (b) soft aggregation (weights or curves), (c) trust policy (how assurance and CL discounts enter).
 **Conformance.** A Context MUST name the lens used to pick from a frontier; scalarized rankings MUST NOT be presented as “the frontier”; the **`lens id MUST be recorded in provenance of each selection`**.
 
 **Promotion rules (policy).**
 - **Tie‑breaks.**  `Surprise` and `Illumination` MAY act as tie‑breakers; **promotion into the dominance set MUST be declared by lens or policy id** and captured in provenance.
-- **Graduation.** Profiles graduate from Explore→Exploit when **backstop_confidence** (B.3 level) and eligibility conditions are met.
+- **Graduation.** Profiles graduate from Explore→Exploit only when eligibility holds and `assuranceResultRef` cites the exact B.3 assurance result whose bounded use supports the profile's declared `backstop_confidence` threshold for the current scope.
 - **Sunset or pivot.** Profiles failing VOI or backstop thresholds are sunset or pivoted at `rebalance_period`.
 
-**Explore and exploit loop (per rebalance_period).**
-1) Recompute frontier with trust discounts.
-2) Enforce `explore_share` (minimum attention on high‑Novelty, not‑yet‑proven profiles).
-3) Update generator `temperature τ` and emitter mix.
-4) Apply `backstop_confidence` to graduate; sunset stale probes.
-5) Satisfy `wild_bet_quota` by seeding fresh high‑Novelty candidates.
-6) HET‑FIRST — apply group‑fairness quotas by domain family when the fairness constraint is current; apply a DPP sampler policy or Max-min repulsion policy when diversity sampling is current; when both constraints are current, record both policy ids before exploit lenses.
+**Policy logic is not generation or work.** One C.19 pass computes and records a treatment over an already identified live pool. It does not recompute a C.18 front or archive, update a generator, seed a candidate, constitute dated `U.Work`, assign a role, approve a budget, or authorize enactment.
+
+**Pool-policy pass (per `rebalance_period`).**
+1) Read the current C.18 archive/front reference and its replay boundary; do not recompute either object inside C.19.
+2) Record the governing lens and desired policy values, such as `explore_share`, emitter-profile preference, `wild_bet_quota`, or an admitted heterogeneity constraint. These are policy values, not generation actions.
+3) Apply eligibility and `backstop_confidence` to the pool-policy question: record graduation pressure and choose exactly one `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line`. C.19 owns this graduation and treatment judgement.
+4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextGoverningPatternRef = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. C.18 decides and records the generation, archive, and front operations.
+5) If carrying out the treatment requires dated implementation, planning, staffing, or budget use, pass the policy record to the A.15 family; the policy record itself grants none of them.
+6) Emit one `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and any next-owner inputs. The result may justify keeping, narrowing, graduating, or sunsetting a line without taking over the named next owner's operation.
 
 **Named lenses (heuristics; policy‑level, not norms)**
 The following **lens profiles** are **illustrative heuristics**. Contexts MAY reuse or modify them; they are **not** normative.
@@ -49704,19 +49574,21 @@ The following **lens profiles** are **illustrative heuristics**. Contexts MAY re
 • **Spike‑first** — pick highest **Use‑Value** subject to `ConstraintFit=pass` and a small **Cost‑to‑Probe** cap.
 • **Safety‑first** — minimize **SafetyRisk** subject to `Use‑Value ≥ θ` and `ConstraintFit=pass`.
 • **Platform‑option** — maximize **Option‑Value** under probe cost bounds.
-• **Pilot‑then‑scale** — optimize **Use‑Value** on pilot scope with `BackstopConfidence ≥ L1`; widen `G` once **R** holds.
-• **Heterogeneity‑first (policy id).** Eligibility → Dominance → Tie‑breakers; Hard gate: FamilyCoverage ≥ k, MinInterFamilyDistance ≥ δ_family; Fairness quotas: ≤1 candidate per sub‑family at pre‑front sampling; a DPP sampler policy or Max-min repulsion policy may be used only when its sampler policy id is recorded.
-**Conformance (lens recording).** A decision that uses any lens **MUST** record its **lens id** alongside `EmitterPolicyRef`. (This restates and localizes C19-3.)
+• **Pilot-then-scale** — optimize **Use-Value** on the declared pilot scope. Set `currentTreatment = widen` only when `assuranceResultRef` cites the exact B.3 assurance result whose supported scope includes the proposed wider pool, and `changeTrigger` names the satisfied assurance condition and that newly supported scope; otherwise keep the pilot scope.
+• **Heterogeneity-first (illustrative profile).** Use only when the current Context already admits a heterogeneity constraint or sampler policy. The profile may apply a declared `FamilyCoverage` or `MinInterFamilyDistance` gate, a declared family or subfamily quota, or a diversity-promoting sampler; C.19 supplies no universal `k`, `δ_family`, quota vector, sampler class, DPP rule, or max-min rule. Record only the admitted policy values and ids actually used.
+**Conformance (lens recording).** A pool-policy record that uses a lens **MUST** record its **lens id** alongside `emitterPolicyRef`. (This restates and localizes C19-3.)
 
 #### C.19:4.1 - Explicit pool-policy result
 
-A finished `C.19` pass should publish one explicit pool-policy result rather than one atmospheric statement that exploration will continue somehow.
+**Canonical record vocabulary.** A serialized `PoolPolicyResult` uses the field `governingLens` and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`. Reader prose may say *widen*, *keep the frontier*, *narrow to a subset*, or *sunset a line*, but those phrases are labels, not alternate serialized values. Do not use `lens` as a second field name.
+
+A finished `C.19` pass should write one explicit pool-policy record rather than one atmospheric statement that exploration will continue somehow.
 
 That result should state:
 
 - the still-live pool, frontier, or family scope under governance now;
 - the governing lens id or policy state;
-- the current treatment, chosen from `widen`, `keep frontier`, `narrow to subset`, or `sunset line`;
+- `currentTreatment`, chosen from `widen | keep_frontier | narrow_to_subset | sunset_line`;
 - the event or threshold that would justify changing that treatment next.
 
 A compact result may therefore state, for example:
@@ -49740,9 +49612,9 @@ Those fields define the result: live pool, governing lens, current treatment, an
 A `C.19` pass may close only when one explicit pool and one explicit next treatment are both visible.
 
 - Close as `widen` when the current frontier is too narrow for the declared exploration policy or when the evidence basis is too thin to justify current narrowing.
-- Close as `keep frontier` when several lines must remain live under the current lens and no narrower admissible subset is yet justified.
-- Close as `narrow to subset` when one declared lens now justifies retaining one smaller internal live set without pretending that one scalar winner has already been chosen.
-- Close as `sunset line` when one line or family region no longer clears the current lens, quota, or backstop requirements.
+- Close as `keep_frontier` when several lines must remain live under the current lens and no narrower admissible subset is yet justified.
+- Close as `narrow_to_subset` when one declared lens now justifies retaining one smaller internal live set without pretending that one scalar winner has already been chosen.
+- Close as `sunset_line` when one line or family region no longer clears the current lens, quota, or backstop requirements.
 
 When the question has stopped being pool policy, C.19 closes by naming the next governing pattern outside `currentTreatment`: `C.11` for local choice, `C.24` for enactment planning, `G.5` for selector-facing publication, `G.11` for refresh, or another direct governing pattern when the recovered relation is different.
 
@@ -49756,20 +49628,21 @@ The smallest useful `C.19` record usually states:
 
 - `livePool = ...`
 - `governingLens = ...`
-- `currentTreatment = widen | keep frontier | narrow to subset | sunset line`
+- `currentTreatment = widen | keep_frontier | narrow_to_subset | sunset_line`
 - `changeTrigger = ...`
 - `nextGoverningPatternRef? = ...` only when the question is no longer pool policy
 - `learningProgressSignal? = ...` when an autotelic or capability-discovery reason materially supports widening, keeping the frontier live, or probing one goal region further
 - `competenceModelRef? = ...` when the pool policy depends on a model of what the system or method family can learn next
 - `goalSpaceExpansionCue? = ...` when the admissible next treatment widens the goal and task palette rather than merely re-ranking current candidates
 - `goalSpaceExpansionPolicyRef? = ...` when goal and task space growth is itself governed by one declared archive or curriculum expansion policy
+- `assuranceResultRef? = ...` when graduation, scaling, or widening relies on one exact B.3 assurance result and its bounded supported scope
 - `whyNotLocalChoice = ...` when the result might otherwise be mistaken for `C.11`
 
 An admissible short record may therefore read:
 
 ```text
 livePool = frontier_F
-lens = barbell_policy_v2
+governingLens = barbell_policy_v2
 currentTreatment = keep_frontier
 changeTrigger = backstop_confidence reaches L1 for one retained line
 whyNotLocalChoice = several family regions remain live
@@ -49777,7 +49650,7 @@ whyNotLocalChoice = several family regions remain live
 
 When `currentTreatment = narrow_to_subset`, `livePool` still names one internal retained subset or one live pool subset. It does not yet mint one public `Shortlist`, one public `RankedShortlist`, or one `ShortlistId`. If selector-facing publication is now required, the admissible `C.19` record leaves `currentTreatment` as the last pool treatment and fills `nextGoverningPatternRef = G.5`, with the reason that publication rather than pool policy is now current.
 
-Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite one `GoalSpaceExpansionPolicyRef` together with the supporting `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue`; that doctrine may justify `widen`, `keep frontier`, or one further probe decision value, but it does not become default `Q`, does not rename the front, and does not publish one selector-facing shortlist without `G.5`.
+Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` together with the supporting `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue`; that doctrine may justify `widen`, `keep_frontier`, or one further probe decision value, but it does not become default `Q`, does not rename the front, and does not publish one selector-facing shortlist without `G.5`.
 
 If the record does not already state which pool remains live, what governs it, and what would change that policy treatment next, it is still one unfinished `C.19` result.
 
@@ -49790,7 +49663,7 @@ When the point is to keep several lines active under one declared lens, `C.19` s
 
 ```text
 livePool = frontier_F
-lens = frontier_sweeper_v3
+governingLens = frontier_sweeper_v3
 currentTreatment = keep_frontier
 changeTrigger = one retained line reaches backstop_confidence L1
 whyNotLocalChoice = three family regions remain live
@@ -49801,7 +49674,7 @@ When one region no longer clears the active novelty floor or backstop, `C.19` sh
 
 ```text
 livePool = family_region_beta
-lens = barbell_policy_v2
+governingLens = barbell_policy_v2
 currentTreatment = sunset_line
 changeTrigger = reopen only if new evidence or quota deficit reactivates the region
 whyNotLocalChoice = other regions still remain live under the same pool policy
@@ -49812,7 +49685,7 @@ When one internal retained subset is already explicit and the next question is t
 
 ```text
 livePool = retained_subset_{option_B, option_C}
-lens = pool_policy_completed
+governingLens = pool_policy_completed
 currentTreatment = narrow_to_subset
 changeTrigger = retained subset is explicit; pool policy is complete
 nextGoverningPatternRef = G.5 because selector-facing publication is now current
@@ -49837,45 +49710,15 @@ CulturalLivePoolPolicyResult@Context:
 
 The record governs pool treatment only. If the label itself is unstable across communities, use `F.17`, `F.18`, and `F.9`. If the question is the cultural-evolution case, use `C.36`. If the internal retained subset must become public, use `G.5`. If the issue is source or edition currentness, use `G.11`.
 
-#### C.19:4.4 - Bounded shortlist from declared source sets
+#### C.19:4.4 - Exit From Pool Treatment To Publication Or Choice
 
+An internal subset retained by `narrow_to_subset` is still the live pool named by one C.19 policy record. It is not a public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing selector artefact, and C.19 does not emit any of those objects. `Front` and `Archive` retain their C.18 meanings; a scalarized pick does not rename either one.
 
+When the retained set must be published for downstream comparison, registry use, or selector-facing consumption, close C.19 and pass `G.5` the exact declared source set, lens or policy id, eligibility conditions, dominance set, tie-breakers, promotion policy, and provenance pins. `G.5` governs the selected-set publication and any public shortlist identity. C.19 supplies only the preceding pool treatment and the reason publication is now current.
 
-- Treat `Shortlist` as the set emitted by one named lens from one declared source set, not as a synonym for `Front`.
-- If the mathematical set object must be named, treat it as the choice set underlying that shortlist rather than as one second public head.
-- When the current Context consumes the ordinary default `DefaultId.DominanceRegime`, keep `DominanceSet` equal to the declared current `Q` tuple and cite that consumed default rather than re-governing it here.
-- `Novelty@context`, `DeltaDiversity_P`, `Surprise`, and `IlluminationSummary` stay outside default dominance unless one declared `PromotionPolicy` promotes them.
-- If `Use-Value` belongs in `Q`, declare it there; do not let it drift between core objective and side note.
-- `ExplorationArchive` is the exploration-specific specialization of `Archive`; use `Archive` as the wider family head only when that exploration-specific subtype does not matter.
-- Resource bounds govern how much probing, comparison, or retention is warranted, but they do not by themselves redefine the front.
-- Decision under budget may draw from the front, from the archive, or from both, but the source set and the decision lens must be explicit.
-- The selected-set kernel floor here is:
-  - one set-return comes first
-  - one named lens acts over that declared return
-  - one `Shortlist` is emitted from that lens-declared source set
-  - one `ShortlistId` may later name that shortlist when it must be carried as one stable public token
-  - one `RankedShortlist` may appear later when the shortlist is explicitly ordered
-- `PortfolioMode` may state how the selector operated, but it does not rename the emitted set result.
-- When the comparison question becomes load-bearing, the minimum mathematical substrate should stay visible:
-  - the compared candidates live in one declared outcome or characteristic space
-  - the archive may depend on one declared search, niche, or reachability space
-  - the shortlisted result is emitted from one explicit selected-set return rather than from one hidden scalar winner
-- When a context-local creativity or novelty characteristic remains outside the declared `Q` tuple, keep that distinction visible rather than treating it as one silent override of the current dominance basis.
+When the live question becomes which option to choose, close C.19 and pass the fixed option set and comparison basis to `C.11`; a C.19 subset is not a `ChoiceResult`. When the question becomes enactment or performed work, use `C.24` and the A.15 family. Resource bounds, `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may explain a pool treatment, but they do not authorize a budget, role, plan, or work occurrence. When edition, source, descriptor, policy, or evidence currentness becomes the live question, use `G.11`; a change trigger in C.19 does not itself perform refresh or create a refreshed edition.
 
-#### C.19:4.4.1 - First public wording for shortlisted outputs
-
-- Prefer wording like `shortlist from the declared Q-Front under LensId=...` over wording that makes the shortlisted result sound like one second front.
-- When one stable emitted object must be cited across documents or tools, say `ShortlistId for that shortlist` rather than letting the token name replace the shortlist result itself.
-- If the shortlist later acquires order, say `RankedShortlist` and keep the prior shortlist result recoverable.
-- Reserve `choice set underlying that shortlist` for mathematical discussion, proofs, or object-level set operations.
-
-#### C.19:4.4.2 - Choice doctrine stays source-set explicit
-
-- State the declared source set and the declared decision lens in the same place as the shortlisted-choice rule.
-- `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may appear here when they justify choice from one declared source set.
-- Those terms explain why another probe, defer, or stop decision is warranted; they do not rename `Front`, `Archive`, or `Shortlist`.
-- When teams need a fuller account of budgeted probing or sequencing, add that as one separate resource-aware choice explanation rather than overloading the shortlist doctrine itself.
-- Selector-facing publications should keep speaking about the emitted set and its source set rather than trying to explain the whole budgeted-choice rationale there.
+The practical handoff is therefore small: preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next owner. Do not duplicate publication, choice, work, or refresh semantics inside C.19.
 
 ### C.19:5.1 - System grounding
 
@@ -49883,7 +49726,7 @@ A product-search or architecture-search team often keeps several family regions 
 
 #### C.19:5.2 - Episteme grounding
 
-A SoTA pack often compares traditions that stay non-dominated for different reasons: one clears current evidence quality, one keeps broader transfer value, one preserves family coverage. The admissible `C.19` result is then often `keep frontier` or `narrow to subset`, not one fake scalar champion.
+A SoTA pack often compares traditions that stay non-dominated for different reasons: one clears current evidence quality, one keeps broader transfer value, one preserves family coverage. The admissible `C.19` result is then often `keep_frontier` or `narrow_to_subset`, not one fake scalar champion.
 
 #### C.19:5.3 - Collective and contextual grounding
 
@@ -49894,27 +49737,29 @@ A regional or stakeholder-diverse pool may have to sunset one line while keeping
 No global scalarisation of partial orders; ordinal scales excluded from arithmetic; all selections record lens id and policy id; notation and tool neutrality.
 
 ### C.19:7 - Conformance Checklist
-- **C19-1** Each C.18 generation or archive-use record **SHALL** cite `U.EmitterPolicyRef` (policy id + params) **and the active `InsertionPolicyRef` and `dedup_threshold` when not inherited**.
-- **C19-2** The characteristic set and indicators used for dominance **MUST** be declared; eligibility conditions applied first. *(References to C.18 generator operators are descriptive only; LOG exports no Γ.)*
+- **C19-1** When a C.18 generation or archive record relies on a named C.19 `EmitterPolicy`, it **SHALL** cite that profile in `emitterPolicyRef?`. If the active insertion policy is not inherited, record it in `insertionPolicyRef?`. If the deduplication threshold is not inherited, record scalar `dedupThreshold?` together with its `deduplicationBasisRef?` and `deduplicationUnit?`; never encode that scalar as a reference. A record with no such policy dependence need not fabricate these fields.
+- **C19-2** The characteristic set and indicators used for dominance **MUST** be declared and eligibility conditions applied first. If use-value participates in current `Q`, the record cites the C.16.Q `QS.UseValue` objective head in that Q; otherwise it states that the criterion remains outside Q. *(References to C.18 generator operators are descriptive only; LOG exports no Γ.)*
 - **C19-3** If a lens is used, its id MUST be recorded; do not label scalarized top-1 as "frontier".
 - **C19-4** Promotion of `Surprise` or `Illumination` into dominance MUST be explicit in policy.
-- **C19-5** USM and role-state-relation gates apply: policy actions SHALL operate within the Context's scope and enactable `RoleStateRelation@BoundedContext` states.
-- **C19-6** Each selection lens **MUST** implement and document the pipeline: `Eligibility (ConstraintFit=pass) → Dominance (declared set) → Tie-breakers (declared)`. Any **promotion** of `Surprise` or `Illumination` into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
-- **C19-7 (LEX-AUTH trigger).** Any change to `EmitterPolicy` defaults that affects domain-family quotas or samplers (HET-FIRST), or any change to `DescriptorMap` family coordinates, `DistanceDef`, or the `δ_family` threshold MUST be authored via **E.15 LEX-AUTH**. Any resulting **LAT** lives in the relevant LAT and evidence authority; the DRR need only carry the content decision itself plus any decisive evidence or validation consequence by value when that consequence materially shaped the choice (see **CC-DRR.6**). Record policy and card ids in SCR.
+- **C19-5** A pool-policy record creates no role state, assignment, permission, plan, budget, or work occurrence. When implementation follows, cite the independently obtaining context/scope and role or assignment gates plus the direct planning or Work governor; C.19 establishes none of them.
+- **C19-6** Each pool-treatment lens **MUST** document the pipeline `Eligibility (ConstraintFit=pass) → Dominance (declared set) → Tie-breakers (declared)`. Any promotion of `Surprise` or `Illumination` into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
+- **C19-7 (LEX-AUTH trigger).** When a context adopts or changes an `EmitterPolicy` profile that includes domain-family quotas or a sampler, or changes `DescriptorMap` family coordinates, `DistanceDef`, or a `δ_family` threshold, author that context-local change via **E.15 LEX-AUTH**. C.19 establishes no default heterogeneity quota or sampler. Any resulting **LAT** lives in the relevant LAT and evidence authority; the DRR need only carry the content decision itself plus any decisive evidence or validation consequence by value when that consequence materially shaped the choice (see **CC-DRR.6**). Record policy and card ids in SCR.
 
-- **C19-8**  When the Heterogeneity-first lens is used, provenance MUST include: (i) the family-quota vector (including the default triad quota k), (ii) the subFamilyDef id (from F1-Card) if sub-family quotas apply, (iii) the sampler class, seed, and policy id.
-- **C19-9** When `C.19` returns one pool-policy result, that result **MUST** identify the still-live pool or family scope, the governing lens or policy id, and the current treatment (`widen`, `keep frontier`, `narrow to subset`, or `sunset line`).
+- **C19-8** When a heterogeneity-first profile is used, provenance **MUST** name each admitted heterogeneity constraint and its governing policy id. If a family or subfamily quota applies, record the exact quota vector and family-definition id; if sampling applies, record the sampler class, seed when relevant, and sampler-policy id. Do not fabricate a default triad, quota, or sampler.
+- **C19-9** A `PoolPolicyResult` **MUST** identify `livePool`, `governingLens`, `changeTrigger`, and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`; `lens` and space-separated treatment spellings are not alternate record fields or values.
 - **C19-10** If the question under repair is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** name the governing pattern rather than restate `C.11`, `C.24`, or `G.5`.
-- **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name the `GoalSpaceExpansionPolicyRef` when one governs widening and the `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
+- **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name `goalSpaceExpansionPolicyRef` when one governs widening and the `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
 - **C19-12** If an exploration and exploitation policy collects data for a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior data or logging data, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, causal evidence support basis when known, supported use and unsupported use, and relevant `C.28` support refs.
-- **C19-13** If a pool-policy result concerns loop, agent-harness, workflow, or DPF-seed candidates, the result names the still-live pool, governing lens, current treatment, and change trigger, and names `E.23`, `G.5`, the `A.15` family, or `G.11` as the next owner when improvement, publication, work, or refresh becomes current.
+- **C19-13** If a pool-policy record concerns loop, agent-harness, workflow, or DPF-seed candidates, it names the still-live pool, governing lens, current treatment, and change trigger. A need for candidate generation, archive update, or front recomputation exits to `C.18` with desired policy values and a reason only; improvement, publication, choice, work, or refresh exits to `E.23`, `G.5`, `C.11`, the A.15 family, or `G.11`.
+- **C19-14** A pool-policy record, its evidence, and its treatment constitute neither an actual Problem nor `ProblematicForRelation`, improvement result, work result, project Work or parthood, `ChoiceResult`, public selected set, work permission, nor refreshed edition.
+- **C19-15** If graduation, scaling, or widening relies on assurance, `assuranceResultRef?` **MUST** cite the exact B.3 assurance result, and `changeTrigger` **MUST** name the satisfied condition and the bounded scope that result supports. A C.19 policy threshold or label does not create that assurance result.
 
 
 
 ### C.19:8 - Common Anti-Patterns and How to Avoid Them
 
 - **Treating one scalarized top-1 as the frontier.** Avoid by naming the governing lens and keeping the live frontier distinct from any lens-ranked pick.
-- **Running exploration without one explicit next treatment.** Avoid by ending each pass with one explicit pool-side treatment: `widen`, `keep frontier`, `narrow to subset`, or `sunset line`. If the current question is no longer pool policy, name the next governing pattern instead of inventing another pool treatment.
+- **Running exploration without one explicit next treatment.** Avoid by ending each pass with one explicit `currentTreatment` token: `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`. If the current question is no longer pool policy, name the next governing pattern instead of inventing another pool treatment.
 - **Letting `Surprise` or `Illumination` quietly become dominance criteria.** Avoid by promoting them only through one declared lens or policy id and recording that promotion in provenance.
 - **Absorbing other governing questions.** Avoid by applying `C.11` for fixed-option choice, `C.24` for enactment-facing planning, and `G.5` for selector-facing publication.
 
@@ -49929,27 +49774,29 @@ No global scalarisation of partial orders; ordinal scales excluded from arithmet
 `C.19` exists because pool governance is neither local choice nor execution. Once several candidate lines remain live, the key question is no longer which single option should survive now; it is how the pool should be governed next under one explicit lens or policy. That question needs its own explicit pool-policy result, otherwise frontier drift, silent scalarization, and policy amnesia return immediately.
 
 - Post-2015 bandit and Bayesian-optimization practice treats explore and exploit policy as an explicit policy object, not as one hidden side effect of whichever candidate looked best first. The practical implication here is to emit one explicit pool treatment plus one change trigger, not one atmospheric frontier story.
-- Contemporary frontier and quality-diversity practice also distinguishes the live frontier from any scalarized pick taken under one declared lens. The practical safeguard is to keep `keep frontier`, `narrow to subset`, and `sunset line` as visible alternatives rather than silently totalizing the pool.
-- Modern pool-management and fairness-preserving lines keep coverage or heterogeneity pressures explicit until one declared reason justifies retirement or use of a different governing pattern. The practical implication is simple: sunset or name the next governing pattern only when the current pool-policy result can already say why the pool no longer belongs to `C.19`.
+- Contemporary frontier and quality-diversity practice also distinguishes the live frontier from any scalarized pick taken under one declared lens. The practical safeguard is to keep `keep_frontier`, `narrow_to_subset`, and `sunset_line` as visible alternatives rather than silently totalizing the pool.
+- When a context independently admits coverage or heterogeneity pressure, C.19 keeps that pressure explicit until one declared reason justifies retirement or use of a different governing pattern. The practical implication is simple: sunset or name the next governing pattern only when the current pool-policy result can already say why the pool no longer belongs to `C.19`.
 
 ### C.19:11 - SoTA-Echoing
 
+**Source-currentness boundary (reviewed through 2026-08-01).** The mutable arXiv sources below are pinned to exact editions; the journal QD source is pinned by DOI and publication record. Reopen this source-use judgement when a pinned arXiv record receives a newer version, the journal source is corrected, retracted, or materially superseded, or a proposal would promote a particular heterogeneity quota or sampler into a C.19 norm. `G.11` owns that refresh. These sources inform policy pressures and owner boundaries; none installs its algorithm, quota, or sampler as the default FPF method.
+
 | Source or source family | Adopted FPF move | Rejected overread | Practitioner implication |
 |---|---|---|---|
-| Russo et al., `A Tutorial on Thompson Sampling`, arXiv:1707.02038. | Treat explore/exploit balancing as an explicit sequential policy pressure rather than one hidden winner-selection aftereffect. | Thompson sampling or any bandit algorithm becomes the default C.19 method. | A pool-policy result names the policy or lens and the change trigger; local option choice still exits to `C.11`. |
-| Frazier, `A Tutorial on Bayesian Optimization`, arXiv:1807.02811, and Yu et al., `Efficient and Principled Scientific Discovery through Bayesian Optimization`, arXiv:2604.01328. | Keep acquisition, cost, uncertainty, and experiment-selection pressure visible when pool policy is used for expensive probing. | Bayesian optimization vocabulary locally redefines FPF choice, work, or evidence kinds. | Use BO-style source pressure to require policy ids, evidence/cost boundaries, and stop or change triggers, while comparison and enactment stay with their owners. |
-| Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979`. | Preserve live front, archive, coverage, and diversity pressure without collapsing them to one scalarized winner. | QD taxonomy replaces C.18 archive/front ownership or G.5 selected-set publication. | Keep `keep frontier`, `narrow to subset`, and `sunset line` distinct; archive/front meaning stays with `C.18`, publication with `G.5`. |
+| Russo et al., `A Tutorial on Thompson Sampling`, arXiv:1707.02038v3 (2020-07-14). | Treat explore/exploit balancing as an explicit sequential policy pressure rather than one hidden winner-selection aftereffect. | Thompson sampling or any bandit algorithm becomes the default C.19 method. | A pool-policy result names the policy or lens and the change trigger; local option choice still exits to `C.11`. |
+| Frazier, `A Tutorial on Bayesian Optimization`, arXiv:1807.02811v1 (2018-07-08), and Yu et al., `Efficient and Principled Scientific Discovery through Bayesian Optimization: A Tutorial`, arXiv:2604.01328v3 (2026-04-07). | Keep acquisition, cost, uncertainty, and experiment-selection pressure visible when pool policy is used for expensive probing. | Bayesian optimization vocabulary locally redefines FPF choice, work, or evidence kinds. | Use BO-style source pressure to require policy ids, evidence/cost boundaries, and stop or change triggers, while comparison and enactment stay with their owners. |
+| Qin et al., `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI `10.1016/j.swevo.2025.102240`, `https://www.sciencedirect.com/science/article/pii/S2210650225003979`. | Preserve live front, archive, coverage, and diversity pressure without collapsing them to one scalarized winner. | QD taxonomy replaces C.18 archive/front ownership or G.5 selected-set publication, or authorizes a default family quota, DPP sampler, or max-min rule. | Keep `keep_frontier`, `narrow_to_subset`, and `sunset_line` distinct; archive/front meaning stays with `C.18`, publication with `G.5`, and any heterogeneity profile remains context-admitted. |
 
 ### C.19:12 - Relations
 
 **C.27 temporal-claim relation.**
 
 - C.27 may flag: a temporal claim that changes exploration, exploitation, narrowing, widening, convergence speed, or search cadence in a way that changes admissible use.
-- This pattern keeps: pool-policy result and explore and exploit governance, including `keep frontier`, `narrow to subset`, and `sunset line`.
+- This pattern keeps: pool-policy result and explore and exploit governance, including `keep_frontier`, `narrow_to_subset`, and `sunset_line`.
 - Non-admissible use: faster narrowing is not automatically a positive result; it may collapse exploration health, diversity, archive coverage, or frontier discovery.
 - Exit: use C.19 for the pool-policy result; use C.27 only for the temporal-claim adequacy question when speed or change affects admissible use.
 
-Builds on: `C.18`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `B.3`. Coordinates with: `C.11` for local choice among already-available options, `C.18` for candidate generation and open-ended search, `C.32.P2S` when pool policy preserves architecture alternatives for problem-to-structure carry-through, `C.32` for candidate palette ownership, `C.35` when generated or discovered structure-bearing outputs need admission support before pool policy can use them, `C.24` for post-choice enactment planning, `G.5` for selector-facing publication, `C.28` for causal-use question, rung, and support vocabulary when pool policy is used causally, `C.17`, and `G.9`.
+Builds on: `C.18`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `B.3`. Coordinates with: `C.22.PFR` for actual Problem identity, `E.23` for declared improvement loops, `C.11` for local choice among already-available options, `C.18` for candidate generation and archive/front stewardship, `C.32.P2S` when pool policy preserves architecture alternatives for problem-to-structure carry-through, `C.32` for candidate palette ownership, `C.35` when generated or discovered structure-bearing outputs need admission support before pool policy can use them, `C.24` and the A.15 family for planning and performed work, `G.5` for selector-facing publication, `G.11` for refresh, `C.28` for causal-use support, `C.17`, and `G.9`.
 
 ### C.19:End
 
@@ -50259,138 +50106,361 @@ These sources change the positive method: the user starts from a result, may obt
 
 ### C.19.2:End
 
-## C.20 - Composition of `U.Discipline` (Discipline‑CAL)
+## C.20 - Composition of `U.Discipline` (Discipline-CAL)
 > **Status:** Stable
 > **Type:** Pattern
 
 ### E.24.UK settlement
 
-`U.Discipline` is the root durable holon kind used for field-level practice-and-knowledge wholes. Its EntityOfConcern lets FPF users talk about a discipline as one reusable object without collapsing it into a domain label, bounded context, organization, publication set, or tradition name.
+`U.Discipline` is the admitted durable holon kind for one exact field-level practice-and-knowledge whole. C.20 supplies the kind-specific construction criterion; A.1 recognizes one exact candidate under that admitted kind only after the candidate, constituents, obtaining constructive relations, assembly, identity or reidentification rule, composition-grounded whole characteristic, and larger-assembly compatibility are recoverable.
 
-The identity of a `U.Discipline` is held by a composition relation over five required positions:
+The kind is not established by a field name, subject domain, curriculum, department, professional body, journal, bibliography, standards folder, method family, bridge set, comparison policy, publication set, selected relation structure, or count of local viewpoints. A discipline is not a `U.System` or `U.Episteme` by default. A system, episteme, method, work occurrence, publication occurrence, bridge, comparison, and selected `U.Structure` retain their own identities even when they are used in work concerning a discipline.
 
-- **Episteme canon:** theories, models, reference works, definitions, proof traditions, benchmark descriptions, and other epistemes treated as canonical in the discipline;
-- **standards and practices:** accepted methods, norms, standard procedures, measurement conventions, and admissible comparison rules;
-- **organizational carriers:** journals, committees, curricula, professional bodies, labs, or institutional arrangements that carry and refresh the discipline without being identical to it;
-- **bridge set:** F.9/F.17 bridge and term rows that state how the discipline is reused across bounded contexts and source traditions;
-- **comparison governance:** characteristic, scale, evidence, and CG-Spec references that make comparisons inside or across disciplines admissible.
-
-This makes `U.Discipline` a `U.Holon`: it is a whole with epistemic, organizational, practice, bridge, and comparison-governance parts. It is not a `U.System` by default; some organizational carriers are systems, but the discipline holon includes epistemes and practices as well. It is not merely a `U.Episteme`; the canon is only one position in the discipline composition.
-
-Boundary: a **domain** names a subject area or catalog stitch; a **bounded context** names a local meaning frame; a **discipline** names the composed field-level holon that carries canon, practices, carriers, bridges, and comparison governance. Similar words across domains do not make one discipline; bridge and loss notes are required.
-
-`U.AppliedDiscipline` and `U.Transdiscipline` are C.3-governed subkind values under `U.Discipline`, not separate root ontics. `U.Tradition` and `U.Lineage` are not root U-kinds in C.20 because they name variant, edition, school, or provenance structures inside or across disciplines; write them as ordinary auxiliary values or C.3 local kinds unless a direct governing pattern supplies their own identity relation, admissible use, and E.24.UK settlement.
-
-**Builds on.** **C.2 KD-CAL** (F-G-R and the CL-to-R penalty rule), **A.19/G.0 CG-Spec** (comparability), **F.9 Bridges** (cross-context alignment), **E.10 LEX** (registers & twin labels). **Coordinates with.** **C.21** (Discipline-CHR, field health), **C.23** (Method-SoS-LOG), **F.17-F.18** (UTS).
+C.20 directly governs the narrow `DisciplinePartOfRelation` and the complete discipline-construction test. It does not introduce separate public U-kinds for applied discipline, transdiscipline, tradition, or lineage. Applied, multidisciplinary, transdisciplinary, tradition, lineage, school, and edition wording remains useful only as a separately governed classification, historical claim, or description whose exact criterion is stated.
 
 ### C.20:0 - Use This When
 
-Use this pattern when a project must treat a discipline as a durable field-level object, not as a loose domain label or a list of documents. Typical cases include comparing safety engineering traditions, moving a practice across bounded contexts, judging whether a method family belongs to a field, or keeping a discipline edition stable while its canon and standards change.
+Use this pattern when a team needs to decide whether an apparent field is one durable practice-and-knowledge whole rather than a convenient label or collection. Typical moments include:
 
-**What goes wrong if missed.** A field name starts doing the work of canon, practice, institutional carrier, bridge, and comparison governance at once; cross-context reuse then looks valid while meanings, evidence lanes, and comparison rules have already drifted.
+- comparing rival traditions within or across apparent disciplines without letting a shared label, Bridge, or comparison table merge them;
+- moving one practice across semantic localities while preserving the exact local meanings, direction, tolerated loss, and discipline boundaries;
+- judging whether an exact Method or method family actually belongs to a field assembly rather than being merely registered, used, cited, published, compared, or taught there;
+- keeping discipline continuity inspectable while its canon, standards, or accepted practices change, and identifying another whole when the reidentification rule fails;
+- deciding whether a research or engineering field has exact parts and a continuing identity;
+- deciding whether a theory, school, standard, or subdiscipline is actually a part;
+- using an applied, multidisciplinary, or transdisciplinary label without letting breadth wording create a kind or whole.
 
-**What this buys.** The discipline name becomes a reviewable holon with named composition positions, bridges, and comparison rules, so users can compare, transport, steward, or edition a field without turning it into a document list or a domain label.
+**Primary EntityOfConcern.** One exact `U.Entity` candidate being tested for recognition as `U.Discipline`. The candidate is recoverable before the classification result; calling it a candidate discipline does not make the result true.
 
-**Primary EntityOfConcern.** The EntityOfConcern is `U.Discipline`: a field-level practice-and-knowledge holon composed by canon epistemes, accepted practices and standards, organizational carriers, bridges, and comparison governance.
+**First useful move.** Name the exact candidate and two independently identified candidate parts: at least one making a knowledge-bearing contribution and at least one making a reusable-practice contribution. Then state why each direct part relation obtains and one whole-forming fact that couples the two contributions. Do this before letting the discipline name support a comparison, selector or dispatcher, health or maturity claim, transport, or edition decision. If those facts are unavailable, stop at the separately governed objects or collection.
 
-**First useful move.** State the five composition positions and the bridge/loss notes before using the discipline name in comparisons, selectors, or maturity claims.
+**What goes wrong if missed.** A field name starts doing the work of a canon, method repertoire, institution, bridge, comparison policy, and maturity score at once. A card or graph can then manufacture parts, and changes to a journal, standard, method list, or dashboard can silently manufacture a new discipline. Cross-locality reuse can also look valid after local meanings, evidence lanes, or comparison rules have drifted.
 
-**Not this pattern when.** A subject label alone belongs to domain/catalog work; local meaning belongs to bounded context; one theory or standard belongs to episteme/publication work; a school, edition, or lineage remains an auxiliary value unless a direct governing pattern admits it.
+**What this buys.** A practitioner can say what the discipline is made of, how the exact parts form one practice-and-knowledge whole, what remains the same through change, and which surrounding objects are merely used by discipline work. That makes comparison, transport, stewardship, and edition work inspectable without reducing the field to a document list or domain label.
+
+**Not this pattern when.** Use domain or catalogue work for a subject-area label; the effective ReferenceScheme, ClaimScope, F.17 local-sense row, and F.9 only when applicable for one local meaning or crossing; C.2.1 and its publication or source owners for one theory, standard, canon item, or their exact episteme edition; C.3, C.2.1, and direct historical or provenance relations for a school, variant, lineage, or classification; A.3.1 and B.1.5 for a Method or composite Method; A.15.1 for dated Work; A.22 for a selected relation organization; A.19.CPM for an actual comparison; C.21 for field-health characteristics; and E.24.PUB for publication. Return to C.20 only if the exact field-level whole and its construction are current.
 
 ### C.20:1 - Problem Frame
-Disciplines persist as *knowledge canons* (epistemes), *codified practices and standards*, and *institutional carriers* (journals, bodies, curricula). FPF needs a typed, provenance-preserving way to **compose** these into a reusable field-level holon that can be used across contexts *admissibly*. Composition must honour KD-CAL lanes and the CG-Spec Standard so that any numeric comparison or aggregation remains auditable and scale-admissible.
+
+Disciplines can persist while theories, standards, methods, organizations, publications, and vocabulary change. In practice that persistence is carried and refreshed through knowledge canons, codified practices and standards, and institutional carriers such as journals, professional bodies, curricula, committees, and laboratories, while none of those carrier families is identical to the discipline. FPF therefore still needs a typed, provenance-preserving field-level composition account. That persistence cannot be explained by a stable name or by one fixed five-position card. It needs exact constituents, direct constructive part relations, whole-forming facts, a field assembly, a reidentification rule, and a whole characteristic that the composition produces or sustains.
+
+The practice side and knowledge side must both be real. A bibliography without reusable ways of investigating or intervening is a knowledge collection. A method catalogue without field-level claim organization is a repertoire. An institution may sustain both through work, but the institution is still a separately identified system. C.20 asks when exact parts and their couplings warrant one further whole.
 
 ### C.20:2 - Problem
-Without a **composition calculus** for disciplines:
-* fields degenerate into labels; editions and rival **Traditions/Lineages** blur;
-* cross-context reuse silently drops meaning when no Bridge and loss notes are present, or performs inadmissible aggregations (means on ordinals; unit mixing);
-* selectors (Part G) cannot admissibly gate methods because maturity and evidence are not tied to a field's canon and carriers.
+
+Without a direct construction test:
+
+- labels, organizations, document sets, curricula, or registries are mistaken for disciplines;
+- a canon item or method is called a part merely because a community cites or uses it;
+- rival traditions are either flattened into false consensus or treated as separate disciplines without an identity test;
+- a changed standard, publication, or health score is mistaken for a new discipline edition;
+- bridge loss, comparison admissibility, evidence strength, and selector policy leak into discipline identity;
+- an optional selected structure is treated as a context holon, subdiscipline, or breadth count.
 
 ### C.20:3 - Forces
+
 | Force | Tension |
-|---|---|
-| **Pluralism vs Cohesion** | Rival traditions must co-exist while a discipline holon presents a coherent public identity. |
-| **Locality vs Federation** | Meaning is context‑local (rooms) ↔ reuse needs Bridges with CL and recorded loss notes. |
-| **Rigor vs Agility** | CG-Spec admissibility and KD-CAL lanes need to remain usable during practical authoring and edition work. |
-| **Didactic presentation vs Assurance depth** | Human-readable Discipline Card needs to remain tied to auditable F-G-R and provenance. |
+| --- | --- |
+| **Pluralism vs cohesion** | Rival claims and practices can remain visible while the exact assembly must still sustain one field-level whole. |
+| **Continuity vs genuine reidentification** | Parts and relations can change while the same discipline continues, but a name must not hide a changed assembly or boundary. |
+| **Readable minimum vs constructive assurance** | Ordinary work needs a short part-and-assembly account; reliance-bearing work may need a C.13 trace, evidence, currentness, and assurance. |
+| **Local meaning vs cross-field reuse** | A practice or term can be reused through an exact bridge without the bridge becoming a discipline part or merging its endpoints. |
+| **Rigor vs agility** | Exact parts and identity are required, while comparison, publication, health, and registry apparatus are added only for a named receiving use. |
+| **Didactic presentation vs ontology** | A discipline card can aid reading but none of its rows, columns, or empty positions makes a world-side relation obtain. |
 
-### C.20:4 - Solution — the **Discipline holon** and Γ_disc
+### C.20:4 - Solution - recover the whole from direct construction
 
-#### C.20:4.1 - U-kind settlement and registers
-* **`U.Discipline`** — a **Holon** that composes an **EpistemeCanon**, **Standards/Practices**, and **Organisational Carriers** into a durable field-level EntityOfConcern.
-* **`U.AppliedDiscipline`**, **`U.Transdiscipline`** — C.3-governed subkind values under `U.Discipline`; they are not separate root ontics.
-* **Tradition and lineage values** — auxiliary holon-like values that organise variants or editions within a `U.Discipline`; write them without `U.` unless a direct governing pattern admits `U.Tradition` or `U.Lineage` by E.24.UK settlement.
+#### C.20:4.1 - Run the complete recognition test
 
-**Placement and naming.** `U.Discipline` is governed by this pattern as the direct root durable U-kind. Its subkinds follow C.3/C.3.1 and F.5 naming discipline, E.10/F.17 register discipline, and A.11 parsimony. C.20 does not treat discipline names as candidate U-kinds merely because they appear in discipline-composition prose; a discipline kind needs the C.20 settlement plus ordinary U-kind admission evidence.
+Recover six constructive components for the same exact candidate:
 
-#### C.20:4.2 - What a `U.Discipline` is / is not
-* A `U.Discipline` is **not** a `U.BoundedContext` and **not** a **Domain**. **Domain** remains a *catalog label* (stitched to D.CTX + UTS): **Discipline ≠ Domain** is enforceable via **E.10 LexicalCheck**; any cross-domain or cross-context reuse cites a **Bridge (F.9)** with **CL** and loss notes; penalties apply to **R** only; **F** and **G** remain invariant (USM/KD‑CAL).
-* **Comparability** of a discipline is carried **only by** the discipline’s **CG-Spec** entries (no ad-hoc formulas).
-* Cross-context or cross-tradition reuse uses **Bridges** with **CL** and loss notes; **CL penalties apply to R** (KD-CAL/B.3); **F** and **G** remain invariant.
-* Public names obey **LEX** (EntityOfConcern, Description, specification-use, twin labels, banned heads); “discipline column” is **didactic only** and **carries no semantics** (enforced by LexicalCheck).
+1. **Exact candidate.** Identify one exact `U.Entity` and its proposed field boundary. A public name or description is only a designator or episteme about that candidate.
+2. **Exact constituents.** Identify every claimed part under its direct kind and identity owner. The construction must contain at least one exact knowledge-bearing contribution and at least one exact reusable-practice contribution; these are assembly contributions, not fixed part kinds or heterogeneous card positions.
+3. **Constructive part relations and assembly.** Recover each obtaining `disciplinePartOf(part, candidate)` occurrence and every other exact whole-forming claim needed by the assembly. A list, co-use, adjacency, or common publisher supplies none of them.
+4. **Identity and reidentification rule.** State which constituent, relation, boundary, or coupling changes preserve this candidate and which identify another whole or end the current one.
+5. **Composition-grounded whole characteristic.** State at least one exact A.17-governed Characteristic whose value or state is produced or sustained by the practice-and-knowledge composition and is not attributable to one constituent alone. Use A.18 for Scale legality and C.16 only when an actual value is measured.
+6. **Larger-assembly compatibility.** State the candidate boundary, exposed practice-and-knowledge interfaces, relevant whole characteristics, and identity-preservation conditions that make it admissible as a possible constituent under at least one governed larger field assembly. This establishes possibility, not an actual larger-discipline part relation.
 
-#### C.20:4.3 - Constructor **Γ_disc** (CAL export)
-*Signature.*
-`Γ_disc : ⟨EpistemeCanon, StandardsSet, OrgCarriers, {Bridges}, Policy⟩ → U.Discipline`
-*Intent.* Fold the three constituents into a `U.Discipline`, **preserving provenance**, publishing UTS cards, and enabling admissible comparability via referenced **CG‑Spec** rows.
-*Obligations.*
-1) **Provenance & lanes.** Each imported episteme/standard declares **A.10 anchors** and lane tags **{TA, VA, LA}**; freshness windows are recorded.
-2) **Assurance fold.** Use KD‑CAL weakest‑link on R with **Φ(CL)** (and, where applicable, **Φ_plane** for ReferencePlane crossings) **table‑backed and monotone**; publish policy ids. For any independent justification line **P**, compute **`R_eff(P) = max(0, min_i R_i − Φ(CL_min(P)))`**; for parallel independent lines to the *same* claim take **`R(Γ) = max_P R_eff(P)`**; **`F(Γ)=min`** along the used lines. No thresholds inside CHR/CAL (Acceptance‑only). Unknowns propagate as {pass|degrade|abstain} to Acceptance.
-3) **CG-Spec guard.** Any numeric comparison or aggregation in Discipline reports **MUST** cite the discipline’s **CG-Spec** with **ScaleComplianceProfile (SCP)**, **Γ-fold**, and **MinimalEvidence**; units, scale, and polarity admissibility via **MM-CHR/CSLC** precedes aggregation.
-4) **Scale, unit, and polarity admissibility.** Before any comparison/aggregation, **establish admissibility via MM‑CHR/CSLC** and cite **CG‑Spec characteristic ids** used in the fold (A.17–A.19).
-5) **ReferencePlane guard.** When crossings touch the world, concept, or episteme plane, apply **CL_meta** penalties to **R** only; record **plane** on the UTS row.
-6) **Edition discipline.** Changes to canons or standards that alter computed ⟨F,G,R⟩ **create a new edition**; the rationale belongs in the edition-continuity record, and UTS records the transition.
-7) **No stealth globalisation.** Cross-context mappings are **by Bridge only**; “by-name reuse” is forbidden even with similar labels.
+The candidate is recognized as `U.Discipline` only when all six components and the C.20-specific practice-and-knowledge condition hold. A materialized classification assertion is a separate C.2.1 episteme about the candidate. Evidence can support that assertion and receiving work can rely on it, but neither creates the discipline.
 
-#### C.20:4.4 - Discipline ESG (informative state view)
+#### C.20:4.2 - Direct `DisciplinePartOfRelation`
 
-Export a **Discipline.ESG** with named states and guarded transitions (e.g., *Emerging → Consolidating → Codified → Fragmenting*), where **guards reference C.21 metrics** (CHR‑typed; **Scale/Unit/Polarity + freshness windows**) and cite **CG‑Spec ids**; **all thresholds live only in AcceptanceClauses** (G.4). ESG is **descriptive**; all gating remains in CHR/CAL/LOG packs.
+C.20 directly governs `DisciplinePartOfRelation`, expressed in Plain register as `disciplinePartOf(partEntity, candidateDiscipline)`. The first participant is one exact `U.Entity` already identified under its direct owner. The second is the exact candidate `U.Entity` under the C.20 test; this participant meaning does not presuppose that the candidate has already passed the test.
 
-### C.20:5 - Archetypal Grounding *(Tell–Show–Show)*
+The predicate obtains throughout an interval exactly when all of the following are true:
 
-| Slot | **System** (safety code in a factory) | **Episteme** (discipline canon across editions) |
-|---|---|---|
-| **Object** | Production line with hazardous operations | “Safety engineering” as *entityOfConcern target* (accident models, tolerable risk) |
-| **Concept** | Acceptance clauses & evaluation templates bound to rigs/windows | Canon texts: causality models, design rules, proofs/benchmarks (e.g., **formal knowledge bases**, **proof carriers**, **concept schemas**) |
-| **Symbol** | Local SOP/notation sets for checklists | Notation packages (CLIF, RDF/TriG, proof scripts) |
-| **Γ_disc assembly** | Fold {line‑specific standard, plant procedures, certifying unit} into **`Discipline: Safety‑Plant‑A`** | Fold {canon papers, formal models, journals/committee} into **`Discipline: Safety‑Engineering`** with **Traditions** (e.g., system safety vs resilience engineering) |
-| **Evidence lanes** | LA test campaigns (freshness windows), VA design proofs, TA tool quals | VA proofs over kinds, LA replications/meta‑analyses; TA for checkers |
+- the candidate's actual field assembly includes the exact part as a required contributor or a currently realized admitted alternative for one required knowledge-bearing or reusable-practice contribution;
+- at least one exact whole-forming claim connects that contribution to the candidate's field boundary, to another required contribution, and to the declared composition-grounded whole characteristic;
+- the candidate's direct reidentification rule treats the current part, its contribution, and any allowed replacement as belonging to this continuing assembly.
+
+Mere eligibility for future use is insufficient. A source citation, canon list, standards list, registry row, curriculum position, organizational affiliation, publication, common label, diagram containment, shared audience, bridge endpoint, comparison row, selected structure, work participation, evidence relation, or health reading does not make `disciplinePartOf` obtain.
+
+One occurrence is identified by `<exact part entity, exact candidate, maximal continuous obtaining interval>`. If the same part leaves the assembly and later returns, the two episodes are distinct occurrences. A changed observation or evidence window does not split an ongoing occurrence; actual cessation and resumption under the direct predicate do. Reidentifying either participant also identifies another occurrence.
+
+Multiple contribution claims for the same part do not create several part occurrences during the same continuous interval. If typed declaration reuse is needed, the direct relation has only the two participant meanings above. Canon, practice, organization, bridge, comparison, policy, evidence, publication, and structure fields are not additional `SlotSpec`s. Qualifiers and whole-forming claims keep their direct owners.
+
+#### C.20:4.3 - State whole-forming claims before choosing notation
+
+Part relations alone do not make one discipline. State the field assembly in ordinary domain language:
+
+- which exact claim-bearing contributions supply the field's knowledge commitments, distinctions, explanatory resources, or admissible questions;
+- which exact methods or other independently governed parts supply reusable ways of investigating, designing, intervening, evaluating, or learning;
+- which claims make knowledge contributions constrain, explain, or qualify practice contributions;
+- which claims make separately governed results of actual practice relevant to evaluation, revision, or replacement of knowledge contributions;
+- how incompatible or rival contributions coexist without being silently equated;
+- which boundary, stop conditions, exposed interfaces, and substitution conditions keep the assembly one field-level whole.
+
+Each whole-forming statement stays at the lightest truthful disposition supplied by its direct relation pattern or A.6.RCD: an existing direct predicate, a local compound claim, or a reusable predicate-definition episteme. A readable arrow such as `uses`, `supports`, `tests`, `belongs to`, `standardizes`, or `aligns` does not admit a relation kind and does not make a part relation obtain.
+
+The assembly rule names the exact current part relations, contribution meanings, whole-forming claims, permitted alternatives, incompatibilities, boundary conditions, failure conditions, and substitution conditions. A C.13 `Gamma_m.sum` construction trace may report those facts when a named use needs an inspectable account. The trace is a C.2.1 episteme and creates none of the parts, relations, assembly, identity, or characteristic.
+
+The historical signature was `Γ_disc : ⟨EpistemeCanon, StandardsSet, OrgCarriers, {Bridges}, Policy⟩ → U.Discipline`. Retain it only as a migration map into the direct construction account. Its useful intent was to assemble a reviewable field-level whole account, preserve provenance, support separately governed publication of that account, and enable admissible comparison; none of those receiving functions creates the whole.
+
+Every former argument remains available but loses automatic constructor and identity force: `EpistemeCanon` routes to exact canon epistemes and their claims; `StandardsSet` to exact standard epistemes, Methods, and practice claims; `OrgCarriers` to independently identified systems, roles, and Work; `{Bridges}` to exact F.9 occurrences and bounded-use propositions; and `Policy` to exact comparison, evidence, assurance, and acceptance declarations under their direct owners. Section 4.6 preserves every named member of those intake families. Historical `Gamma_disc` expressions are therefore only incomplete shorthand for a C.13 construction account. A five-field argument list, Discipline Card, or filled schema does not complete the account and does not have constructor force.
+
+#### C.20:4.4 - Identity, continuity, and change
+
+The discipline's identity is not the extensional part list. It is the exact candidate with its field boundary, practice-and-knowledge assembly principle, obtaining constructive relations, whole-forming architecture, and declared whole characteristic under one direct reidentification rule.
+
+The same discipline may continue through a permitted canon revision, method replacement, institutional change, publication change, or temporary part-relation change when the rule admits that variation and the field boundary, required contribution meanings, essential couplings, and whole characteristic remain within their declared continuity conditions. The rule must say which substitutions are permitted and how the replacement contribution reconnects to the assembly.
+
+A change outside those conditions identifies another candidate or leaves the stronger claim unresolved. When a receiving use asks whether the old whole can still explain the case, run B.2's existing-whole explanation check after the direct C.20 facts are recovered. Loss of evidence, another description edition, a renamed field, or a stale registry entry does not itself end or create a discipline.
+
+"Discipline edition" is therefore not one automatic object. Recover the changed subject:
+
+- revised canon, standard, method description, classification assertion, or discipline description is another C.2.1 episteme when its identity discriminator changes, with historical continuation tested separately;
+- a newly available edition has its own E.24.PUB publication occurrence, form, carrier, audience, use, and availability interval;
+- an unchanged discipline during a proper interval may be described through the direct temporal and A.14 phase route;
+- a changed field assembly outside the reidentification rule requires another discipline candidate, not a renamed description.
+
+Keep the change rationale as claim content of one exact C.2.1-identified revision or decision episteme. When historical continuation is asserted, the continuity record is an assertion about the exact `EpistemeEditionRelation` and cites the revision Work, Method, source use, change facts, and evidence needed by C.2.1; provenance or common labels alone do not establish it. When availability changes, trace the publication transition through the ending and beginning E.24.PUB occurrences with their selected edition, audience, bounded use, form, carrier, and availability intervals. The rationale, edition-relation assertion, publication occurrences, and discipline reidentification result remain distinct; none decides another merely by being recorded.
+
+#### C.20:4.5 - Require a composition-grounded whole characteristic
+
+Name at least one exact Characteristic under A.17, its Scale under A.18, and its direct measurement or evaluation route only when a current use needs a value. A useful local choice is the degree to which the assembly sustains a replayable practice-knowledge coupling: independently identified knowledge contributions constrain field practice, and separately governed practice results can be used to test, revise, or replace those knowledge contributions under declared rules. This is a local characteristic choice, not a new universal kind or scalar score; C.16 governs a measurement chain only when dated measurement Work actually attributes a value.
+
+The value must depend on the composition. Citation count from one episteme, frequency of one method, size of one organization, bridge count, publication count, or a single maturity label is not a composition-grounded whole characteristic. Rival traditions can coexist when their boundaries, incompatibilities, permitted uses, and contribution relations are explicit; cohesion does not require false consensus.
+
+C.21 owns discipline-health characteristics such as reproducibility, standardization, diversity, and disruption balance. A health reading can reveal pressure to inspect construction or reidentification, but it is not a part, assembly fact, identity rule, or classification result.
+
+#### C.20:4.6 - Keep neighboring objects with their direct owners
+
+Keep the three boundaries explicit. A **domain** is a subject-area or catalogue designation. A **semantic locality** is the bounded use of exact local meanings under its effective ReferenceScheme, ClaimScope, and direct F.17/F.9 owners; it is not another holon or a discipline constituent by locality alone. A **discipline** is the exact field-level practice-and-knowledge whole recognized by the C.20 construction test. The same or similar word across domains or semantic localities establishes none of shared meaning, one discipline, parthood, or identity. State the exact local senses and any obtaining Bridge for a crossing, then test each discipline candidate independently; even a high-congruence Bridge does not merge its endpoints.
+
+The historical five-position card remains a useful intake palette only if every member keeps its direct owner and receives no automatic part or identity status. Its complete prompts were:
+
+- **canon candidates:** theories, models, reference works, definitions, proof traditions, benchmark descriptions, and other epistemes treated as canonical;
+- **practice and standard candidates:** accepted Methods, norms, standard procedures, measurement conventions, and admissible comparison rules;
+- **institutional and organizational candidates:** journals, committees, curricula, professional bodies, laboratories, and other institutional arrangements that may carry or refresh field work;
+- **cross-locality candidates:** exact F.9 Bridges, F.17 term or local-sense rows, Bridge descriptions, and loss observations used across semantic localities or source traditions;
+- **comparison candidates:** exact Characteristics, Scales, Units, comparators, evidence policies, and CG-Spec declarations used to make a named comparison admissible.
+
+The palette prevents those reader questions from disappearing; it is neither a required five-part decomposition nor a constructor. No category must be filled by ritual. Every exact item remains under the owner below and becomes a C.20 part only when `disciplinePartOf` independently obtains.
+
+| Apparent discipline content | Direct owner and C.20 boundary |
+| --- | --- |
+| field or domain name | catalogue, designation, or lexical owner; the name is not the candidate or its construction |
+| theory, model, canon item, definition, standard, or practice description | C.2.1 identifies the exact episteme; it becomes a discipline part only if a separate `disciplinePartOf` occurrence obtains |
+| reusable method or method family | A.3.1 identifies each Method and B.1.5 any composite Method; use, registry membership, or family similarity is not discipline parthood |
+| organization, laboratory, committee, journal operator, or professional body | A.1 identifies any system; its role assignments and Work stay direct; carrying or stewarding a discipline is not parthood |
+| dated research, engineering, teaching, revision, evaluation, or governance work | A.15.1 identifies each Work occurrence; performing work about or within a discipline does not make the work or performer a part |
+| selected organization of relations for one model use | A.22 identifies the dependent `U.Structure`; selection gives it no holonhood or discipline parthood |
+| sense or structure bridge | F.9 identifies the exact Bridge occurrence and endpoints; crossing, translation, congruence, or loss does not join the endpoint disciplines into one whole |
+| comparison predicate, characteristic space, comparator, or aggregation | C.16 and A.19.CPM own the exact comparison; comparability is not a discipline constituent or identity condition unless a separate C.20 whole-forming claim makes an exact contribution current |
+| publication, form, carrier, card, dashboard, registry, or bibliography | C.2.1, E.17, and E.24.PUB keep content, form, carrier, and availability separate; publication does not construct the field |
+| evidence, provenance, currentness, assurance, gate, or authorization | A.10, B.3, G.11, A.21, and direct decision owners govern reliance; epistemic support changes no world-side part or identity fact |
+
+Any entity in this table can become an actual part only when it is independently identified and the C.20 predicate separately obtains. Its ordinary association with the field is never enough.
+
+#### C.20:4.7 - Optional bounded-model-use structure
+
+Discipline work can use an independently selected `BoundedModelUseStructure` when the selected organization of exact relations changes how a named model is interpreted or used in that work. State the exact model, direct relation occurrences, selection basis, receiving work or claim, and the organization that matters. A.22 owns the structure and A.15.1 owns the dated work.
+
+The structure is optional. It is not the discipline, a constituent by selection, a subdiscipline, a context count, a description, a viewpoint, a whole characteristic, a breadth classification, or a second identity carrier. Several selected structures used in work about one discipline do not create several disciplines; one structure used across several disciplines does not merge them.
+
+#### C.20:4.8 - Breadth, tradition, lineage, and school claims
+
+Applied, multidisciplinary, transdisciplinary, tradition, lineage, and school labels do not carry a universal C.20 classification rule.
+
+- For a project-local kind, use C.3 to state exact intent, membership predicate, scope, and the candidate disciplines that satisfy it.
+- A multidisciplinary claim normally needs several independently identified disciplines and exact contribution or use claims; co-listing fields or counting viewpoints is insufficient.
+- A transdisciplinary claim must declare the integrative criterion that distinguishes it from side-by-side use. If the claim is that one new discipline exists, run the complete C.20 construction test for that new candidate.
+- A tradition, lineage, school, variant, edition, or provenance claim identifies its exact subject and the exact historical-continuation, source-use, method, similarity, edition, derivation, or provenance relation under that relation's direct owner. Tradition or lineage can organize variants or editions within or across disciplines as an ordinary auxiliary value or a C.3 project-local kind; none is a discipline part, subkind, or public U-kind by label. A public kind requires its own direct governor, identity and use rule, and E.24.UK admission.
+- An applied classification states what application-facing criterion is satisfied. Method use, one project, one organization, or one selected structure does not establish it by itself.
+
+The classification can remain a C.2.1 claim without admitting another public U-kind. A changed label or classification result does not reidentify the discipline unless the direct C.20 rule independently says the field assembly changed.
+
+#### C.20:4.9 - Crossing, comparison, evidence, health, and publication are conditional branches
+
+Open these branches only when the named discipline use actually needs them.
+
+**Cross-field or cross-sense use.** F.9 first resolves two exact local senses and identifies one obtaining Bridge occurrence under its direct two-participant predicate and identity rule. Keep a separate current C.2.1 bounded-use proposition whose EntityOfConcern is that Bridge and whose ClaimGraph names the proposed action `u`, exact direction `d`, use-specific correspondence rule `r`, tolerated semantic loss `t`, and affirmative or negative polarity. Observed loss and counterexamples remain evidence; the permitted-loss tolerance remains claim content. Neither one reidentifies the Bridge.
+
+For ordinary evidence reliance below B.3's material-reliance threshold and with no assurance claim, use the exact A.10 evidence-provenance graph relation for the same bounded use. Only its local `RelianceDisposition=pass` supports that exact affirmative use; `degrade` supports only the named narrower use, while `abstain`, `reopen`, `evidence-needed`, `blocked-current-use`, or `safety-case-required` does not pass the attempted use. Enter B.3 when an assurance claim is made or the threshold is met. A positive use then needs a current positive B.3 assurance claim, a sufficient minimum reliance safety assurance record, and the same bounded assurance use. A met threshold alone creates no positive assurance claim. Authorization and any actual comparison, substitution, translation, publication, or Work occurrence remain with their direct owners.
+
+**Crossing visibility and presentation checks.** Keep the exact Bridge and bounded-use proposition discoverable in any account that relies on the crossing. Materialize an E.18 `CrossingBundle` only when a named selector, acceptance, audit, replay, or other downstream use relies on durable crossing evidence; E.17 governs that publication packaging and A.21 governs any actual GateCheck or GateDecision. For a lane-purity inspection, check the current B.3 claim by value: CL and its declared penalty policy affect R, while F and G follow their own current Scale and scope laws. Apply E.10 lexical checks to the actual published labels, keep normative prose notation- and tool-neutral, and treat every discipline column as didactic only. These visibility and presentation artifacts create neither a Bridge nor a discipline fact.
+
+**Comparison or aggregation.** A.17 identifies every exact Characteristic; A.18 supplies its Scale, Unit and legal operations; C.16 supplies a measurement result only when an actual measurement chain exists. A mean over an ordinal Scale and an aggregation that mixes unconverted or incommensurable Units are inadmissible: stop that operation, establish a lawful transformation or comparison scheme, or retain the separate values rather than manufacturing an aggregate. A.19.CPM owns the actual comparison and binds the profile pair, comparator, claim scope and selected slices, optional predicate, reference scheme and plane, evaluation point or interval, dated comparison Work, operation application, set-valued result, and evidence policy; CPM does not fold or aggregate. Any numeric or profile aggregation is a separate explicit A.19.ULSAM or applicable B.1 `Γ-fold` operation with its own dated Work and result binding. Before either operation, the applicable G.0 CG-Spec route names the exact Characteristic ids, `ScaleComplianceProfile` with Scale, Unit, polarity and legal-operation conditions, `MinimalEvidence`, and either the admitted `ComparatorSet` member for comparison or the declared `Γ-fold` and contributors for aggregation. This pre-operation admissibility check fails closed on missing or unknown declarations or evidence and creates neither equality, an aggregate, nor a winner. A cross-scheme or cross-plane use adds the exact F.9 Bridge and bounded-use reliance branch, but the Bridge supplies none of the scope, predicate, comparator, plane, time, result, or selection.
+
+**Evidence, currentness, and assurance.** A.10 owns source use and the evidence-provenance path; G.11 owns selected-edition currentness. When an imported source claim actually supports a construction, classification, comparison, publication, or assurance use, keep its exact source and selected edition, A.10 anchors, TA/VA/LA lane tags, and freshness or valid-until window in the receiving evidence, reliance, or assurance record. Claims that need no such reliance do not acquire this apparatus merely because they concern a discipline. When B.3 is current, its present laws—not a C.20 constructor—govern the assurance claim: `F` uses its ordinal weakest-link rule, essential-path `G` uses intersection and only explicitly independent evidence lines may use `SpanUnion`, and `R` uses the declared conservative combination with the monotone bounded congruence penalty. A maximum across independent reliability lines is not a C.20 default; use it only when the current B.3 ratio-scale rule and independence basis explicitly justify it. A table-backed congruence penalty remains available as one explicitly declared B.3 policy implementation when its Scale legality, monotone direction, bounded result, table and policy identifier satisfy B.3; C.20 neither requires that implementation nor computes the penalty. Record the exact `ReferencePlane` as `world`, `concept`, or `episteme`. If one exact cross-plane assurance use needs a distinct reliability treatment, declare and identify that treatment as a B.3 policy under its current Scale and conservative-combination rules; there is no implicit `Φ_plane` and no C.20-owned plane penalty. A plane value or adjustment is neither a discipline part nor an identity condition. The assurance source-currentness record carries the contributing nodes and edges, TA/VA/LA lanes, freshness or valid-until data, declared ReferencePlane, CL and policy identifiers. Insufficient or unknown support narrows, degrades, abstains, reopens, requests evidence, or blocks the attempted use under B.3/G.4; it does not make a part relation or whole obtain or cease.
+
+**Health or state view.** C.21 can evaluate typed discipline-health characteristics. Local values such as emerging, consolidating, codified, or fragmenting require their own criteria, Scale, evidence basis, qualification window, and currentness. Any decision threshold belongs to the relevant G.4 AcceptanceClause. A state label, health vector, score, or dashboard transition is descriptive and does not itself reidentify the discipline.
+
+**Description and publication.** A discipline description, construction trace, comparison report, health series, card, or registry row is a separately identified C.2.1 episteme. E.24.PUB governs any actual publication occurrence and keeps selected episteme edition, audience, bounded-use declaration, form, carrier, and availability interval distinct. Updating or publishing the account changes neither the field assembly nor its past.
+
+### C.20:5 - Archetypal Grounding
+
+#### C.20:5.0 - Keep the System/Episteme contrast without making the table a constructor
+
+The former Tell-Show-Show contrast remains useful because it asks five different reader questions. Read every cell as an independently governed example, not as a slot or a recipe for manufacturing a discipline.
+
+| Reader function | System-side safety scene | Episteme-side discipline scene | C.20 boundary |
+| --- | --- | --- | --- |
+| **Exact object** | One production line with hazardous operations is an exact `U.System` under A.1; its work and state remain separate. | One exact canon or discipline-description `U.Episteme` states accident-model and tolerable-risk claims about its declared EntityOfConcern under its effective ReferenceScheme. The `SafetyEngineering-SE` field candidate remains another entity. | Neither the system nor one episteme is the discipline; identify the field candidate and test its construction independently. |
+| **Concept contribution** | Acceptance clauses and evaluation templates bound to exact rigs and windows are epistemes used by the plant system and its Work, not concepts owned by the system. | Canon content can include causality models, design rules, proofs, benchmarks, formal knowledge bases, proof carriers, and concept schemas under their direct episteme, form, or representation owners. | Ask which exact claim-bearing contribution is constitutive and which whole-forming claim connects it; conceptual relevance alone creates no part. |
+| **Symbolic representation** | Local SOP and checklist notation can express plant procedures for one bounded use. | CLIF, RDF/TriG, proof scripts, diagrams, and other notation packages can express or represent canon content. | E.17/E.24.PUB and C.29 govern form, carrier, publication, and representation; symbolic appearance identifies none of System, Episteme, or Discipline. |
+| **Assembly contrast** | A line-specific standard, plant procedures, and a certifying unit are exact epistemes, Methods, systems, roles, or Work inputs around a possible `Safety-Plant-A` field candidate. | Canon papers, formal models, a journal or committee, and system-safety or resilience-engineering tradition claims are likewise separately governed around `SafetyEngineering-SE`. | A list or historical `Gamma_disc` fold constructs neither candidate. For either scene, recover exact parts, obtaining `disciplinePartOf` occurrences, whole-forming couplings, assembly, reidentification, whole characteristic, and larger-assembly compatibility. |
+| **Evidence-lane contrast** | LA test campaigns with freshness windows, VA design proofs, and TA tool qualifications can support exact plant-side claims. | VA proofs over kinds, LA replications or meta-analyses, and TA evidence for checkers can support exact canon or construction claims. | A.10/B.3 records lanes, source anchors, currentness and reliance only for the exact supported use; evidence changes no System, Episteme, or Discipline identity and creates no part relation. |
+
+#### C.20:5.1 - Safety engineering as a positive construction
+
+Suppose `SafetyEngineering-SE` is one exact field candidate. C.2.1 independently identifies `HazardCausalityCanon-v5` as a claim-bearing episteme. A.3.1 independently identifies `HazardAnalysisMethod-v4` and `IncidentLearningMethod-v2` as reusable Methods. None is a C.20 part yet.
+
+The field assembly makes these exact contributions current:
+
+- `HazardCausalityCanon-v5` supplies the hazard, causal, and acceptable-argument meanings used by the two Methods;
+- `HazardAnalysisMethod-v4` supplies the reusable analysis practice by which those meanings constrain identification and treatment of hazards;
+- `IncidentLearningMethod-v2` supplies the reusable practice by which separately governed incident and evaluation results can challenge or refine the canon claims.
+
+The three exact relation occurrences are `disciplinePartOf(HazardCausalityCanon-v5, SafetyEngineering-SE)@I-SE-core-1`, `disciplinePartOf(HazardAnalysisMethod-v4, SafetyEngineering-SE)@I-SE-core-1`, and `disciplinePartOf(IncidentLearningMethod-v2, SafetyEngineering-SE)@I-SE-core-1`. They share the explicitly identified maximal current continuous obtaining interval `I-SE-core-1 = [2024-04-01T09:00Z, open)`: its left boundary is the dated field-assembly activation at which all three contributions first became jointly required. At the continuation check `2026-07-31T23:59Z`, each contribution remains required, the exact whole-forming claims still connect the canon meanings to method preconditions and result meanings, the same candidate and reidentification rule continue, and no cessation boundary has occurred; therefore the right boundary remains open. If any contribution ceases and later resumes, that part's interval ends at cessation and a new `disciplinePartOf` occurrence begins at resumption. The actual field assembly requires those contributions, and the reidentification rule admits them as current parts. The local A.17 Characteristic `PracticeKnowledgeCouplingReplayability` has the exact subject `SafetyEngineering-SE` and the ordinal A.18 Scale `broken < partial < replayable`: its criterion asks whether the named canon-to-Method constraints and result-to-canon revision routes remain executable across the declared safety-work classes. No constituent can have that whole value alone. If a current use needs an attributed value, C.16 requires the exact measurement subject, method, model, Scale, dated measurement Work, uncertainty, and result episteme; the label alone supplies no reading.
+
+The reidentification rule permits a compatible canon revision or replacement Method only when the field boundary, causal and argument meanings, practice-knowledge feedback, and whole characteristic remain within declared continuity conditions. Removing the feedback route, changing the governing safety concern and field boundary, or replacing the assembly by unrelated document and method lists falls outside the rule.
+
+`Safety Journal`, a standards committee, a university curriculum, a laboratory, a bridge to resilience-engineering terminology, a comparison CG-Spec, and published discipline card remain separately governed. They are not parts in this case because no separate C.20 predicate has been established for them. Actual review or teaching Work is performed by exact systems under exact role assignments and may enact the part Methods; it neither becomes the discipline nor proves the three part relations.
+
+For A.1's larger-assembly test, the separately identified rule episteme `EngineeringFieldAssemblyRule-v3` describes a governed larger-field construction whose applicability requires one constituent field to expose stable hazard-constraint meanings, analysis-result meanings, and identity-preserving interfaces to design and verification practices. `SafetyEngineering-SE` has those actual interfaces and its reidentification rule preserves them, so it is compatible with that possible assembly while remaining the same candidate. The rule episteme does not create the compatibility facts, and this result asserts no actual `disciplinePartOf(SafetyEngineering-SE, Engineering-E)` occurrence.
+
+A C.13 `Gamma_m.sum` trace may report the candidate, three parts, three part-relation occurrences, whole-forming claims, assembly, reidentification rule, and whole characteristic. Writing or publishing that trace does not construct `SafetyEngineering-SE`.
+
+#### C.20:5.2 - A department, corpus, and method registry are not yet a discipline
+
+`Safety Department A` performs research and teaching Work. Its repository contains standards and papers, and its registry lists analysis Methods. Those facts establish a system, Work, epistemes, publications, and registry membership under their direct owners.
+
+They do not yet establish which exact entities are field constituents, any `disciplinePartOf` occurrence, a practice-knowledge assembly, one whole characteristic, or a reidentification rule. The useful result is the recovered collection and work organization. Stop before `U.Discipline`; do not fill missing canon, carrier, bridge, or comparison positions merely to complete a card.
+
+#### C.20:5.3 - Cross-field reuse does not create a transdiscipline
+
+A safety-engineering team reuses one resilience-engineering term. F.9 identifies the two exact local senses and an obtaining directed Bridge. A separate bounded-use proposition states the direction, mapping rule, tolerated loss, and polarity for this hazard-review use. Exact review Work may rely on that proposition through A.10, and a comparison may apply A.19.CPM.
+
+These facts establish no `disciplinePartOf` occurrence and no new discipline. Calling the work transdisciplinary requires a declared classification criterion. Claiming one new integrated discipline requires another exact candidate and all six C.20 construction components; one Bridge, two labels, or two selected structures cannot supply them.
+
+#### C.20:5.4 - Canon revision, same field, and another field
+
+`HazardCausalityCanon-v6` changes claim content and is another C.2.1 episteme. Historical continuation from v5 is tested separately. The same `SafetyEngineering-SE` can continue if its C.20 rule permits that replacement and the required contribution meanings, whole-forming couplings, boundary, and whole characteristic persist. The old part occurrence ends and the new one begins; a description or evidence window does not decide those intervals.
+
+If the replacement rejects the field's former causal object, changes the practice-knowledge feedback rule, and changes the field boundary beyond permitted continuity, the same-discipline claim fails. The project then tests another candidate and uses B.2 only if a receiving use needs a whole-reidentification conclusion. A new canon edition, renamed department, or republished card alone decides neither branch.
 
 ### C.20:6 - Bias-Annotation
-**Lenses:** Governance (naming/UTS), Architecture (CAL+CHR split), Onto/Epist (discipline ≠ domain; triangle fidelity), Pragmatic (authoring/editions), Didactic (twin labels; System/Episteme scenes). **Scope:** context‑local; no “global discipline”.
 
-### C.20:7 - Conformance Checklist (normative)
-| ID | Requirement | Purpose |
-|---|---|---|
-| **CC‑C20‑1 (CG‑Spec linkage).** | A `U.Discipline` **SHALL** declare the **CG‑Spec** ids and **CHR characteristic ids** behind any comparison/aggregation; thresholds live only in **Acceptance** clauses referenced by those CG‑Specs. | Auditable comparability; no inadmissible operations. |
-| **CC‑C20‑2 (Bridge-only reuse).** | Any cross-context or cross-tradition use **SHALL** cite **Bridge id + CL + loss notes**; penalties **apply to R only**; **F** and **G** remain invariant. | Prevent silent globalisation; align with KD-CAL. |
-| **CC-C20-3 (ReferencePlane).** | For any crossing touching the world, concept, or episteme plane, publish plane and apply **Φ(CL)** and, where applicable, **Φ_plane**. Both penalty policies must be monotone, bounded, and table-backed; unknowns propagate as `{pass|degrade|abstain}` into Acceptance with an SCR note, with no silent `unknown -> 0`. | Keeps cross-plane comparison explicit and prevents hidden reliability collapse. |
-| **CC‑C20‑4 (Γ_disc integrity).** | `Γ_disc` **MUST** record lane tags and freshness windows for all imported evidence; **Φ(CL)** **MUST** be monotone and table‑backed per policy. | Deterministic assurance; hygiene of penalties. |
-| **CC‑C20‑5 (Edition & DRR).** | Discipline editions **SHALL** be recorded via **UTS edition-continuity records** with DRR links; no silent rewrites or renames. | Traceable evolution. |
-| **CC‑C20‑6 (LEX/I‑D‑S).** | `U.Discipline` names **SHALL** follow **LEX** (twin labels; registers; banned heads). **Domain** mentions are catalog‑only. | Register hygiene; avoid “Domain = Discipline”. |
-| **CC-C20-7 (Crossing visibility hooks).** | Any **cross-stance, cross-context, or cross-plane** reference in Discipline materials **SHALL** publish a **CrossingBundle** for the crossing (**E.18**; Bridge and UTS through **F.9**, **F.17**, **E.17**, and **E.18**) and expose it via `Expose_CrossingHooks` (**G.10-3**). Published crossings **MUST** be checkable for **LanePurity** (CL to R only; F and G invariant; Φ tables present) and **Lexical SD** (**E.10**) under the active GateProfile and GateChecks (**A.21**). | Prevents implied crossings; makes provenance auditable and replayable. |
-| **CC-C20-8 (Discipline column is didactic).** | Any use of a “discipline column” in tables is **didactic only**; semantics are carried by **UTS rows and Bridges**; **Domain** remains a catalog stitch (**E.10/F.17**). | Prevent table headings from becoming hidden ontology. |
-| **CC-C20-9 (Lexical firewall).** | Normative sections remain **notation-neutral and tool-neutral**; vendor/tool tokens are avoided (see **E.5.1**). | Keep discipline composition independent from one notation or tool family. |
+Apply five complementary lenses; the later risk table does not replace them.
+
+| Lens | Question and counter-bias |
+| --- | --- |
+| **Governance** | Are field names, classification claims, revision rationales, stewardship roles, publication availability, and decision authority kept with their direct owners, or has a name, card, registry, or publisher acquired governing force? |
+| **Architecture** | Are construction, Characteristic/Scale, comparison or aggregation, evidence/assurance, health, publication, and selection still separate branches, or has a convenient CAL/CHR-style record become an omnibus discipline constructor? |
+| **Onto/Epist** | Are the discipline, domain designation, semantic locality, system, episteme, description, representation, and evidence claim distinct, with each claim returning to an exact EntityOfConcern and ReferenceScheme? |
+| **Pragmatic** | Can ordinary authoring and edition work stop at exact parts, couplings, assembly, and reidentification, while only the receiving comparison, assurance, publication, or decision opens deeper apparatus? |
+| **Didactic** | Do twin labels, the System/Episteme contrast, cards, columns, diagrams, and examples aid recognition without supplying hidden parts, relations, kinds, identity, or truth? |
+
+**Scope guard.** Every use is bounded by exact field candidates, semantic localities, scopes, editions, and receiving work. There is no context-free or global discipline established by name, popularity, institutional reach, or a shared vocabulary.
+
+| Bias risk | Failure | Counter-move |
+| --- | --- | --- |
+| **Label realism** | A familiar field name is treated as the whole. | Recover candidate, parts, direct occurrences, assembly, identity, and whole characteristic. |
+| **Institutionalism** | The largest organization carrying the work is treated as the discipline. | Keep system, role, and Work direct; test parthood separately. |
+| **Canon or method monocentrism** | One document set or method family stands for both knowledge and practice. | Require independently identified contributions on both sides and exact coupling claims. |
+| **Schema completion** | Five filled positions or heterogeneous fields manufacture construction. | Use the two-participant direct relation and ordinary whole-forming claims; treat cards as descriptions. |
+| **Bridge universalism** | Translation or high congruence merges fields. | Keep Bridge, bounded-use proposition, reliance, comparison, and discipline construction separate. |
+| **Metric reification** | Health or maturity value is treated as discipline identity. | Keep C.21 readings and G.4 thresholds as evaluations over the exact discipline. |
+| **Snapshot extensionalism** | Any changed part creates another discipline, or the same part list guarantees sameness. | Apply the assembly-sensitive reidentification rule. |
+
+### C.20:7 - Conformance Checklist
+
+| ID | Passing condition |
+| --- | --- |
+| `CC-C20-1` | One exact candidate `U.Entity` and proposed field boundary are named before `U.Discipline` recognition. |
+| `CC-C20-2` | Every claimed part is independently identified under its direct owner; at least one exact knowledge-bearing contribution and one exact reusable-practice contribution are current. |
+| `CC-C20-3` | Every `disciplinePartOf` occurrence passes the required-or-currently-realized-alternative predicate and is identified by exact participants plus maximal continuous obtaining interval. |
+| `CC-C20-4` | Contribution claims and other whole-forming facts are stated in ordinary domain language and retain their direct predicate, local-claim, or reusable-definition disposition. |
+| `CC-C20-5` | The assembly names exact parts, relations, required contributions, alternatives, incompatibilities, boundary, stop conditions, and substitution conditions. A card or trace is not its cause. |
+| `CC-C20-6` | The direct reidentification rule says which part, relation, coupling, boundary, and characteristic changes preserve or end the whole. |
+| `CC-C20-7` | At least one exact A.17 Characteristic is composition-grounded and not reducible to one constituent, count, label, or external health score; A.18 governs its Scale and C.16 opens only for an actual measurement. |
+| `CC-C20-8` | Candidate-side interfaces and identity-preservation conditions fit at least one governed possible larger field assembly; an actual larger-discipline part claim still needs its own obtaining occurrence. |
+| `CC-C20-9` | Domain names, epistemes, Methods, systems, Work, structures, Bridges, comparisons, publications, evidence, and decisions remain with direct owners unless the separate C.20 part predicate actually obtains. |
+| `CC-C20-10` | Any selected bounded-model-use structure is optional, independently identified, tied to one named receiving use, and creates no part, holon, subkind, viewpoint count, breadth, or identity. |
+| `CC-C20-11` | Applied, multidisciplinary, transdisciplinary, tradition, lineage, and school claims state their own criteria; no public U-kind or discipline part follows from wording or counts. |
+| `CC-C20-12` | Any cross-field use separates the F.9 Bridge, bounded-use proposition, direction/rule/tolerance/polarity, A.10 or B.3 reliance branch, observed loss, and actual comparison. |
+| `CC-C20-13` | Comparison declares characteristic, scale, unit, polarity, comparator, scope, window, and admissible operation under C.16/A.19.CPM; C.20 owns no comparison or reliability fold. |
+| `CC-C20-14` | A health value, state label, evidence profile, registry row, description edition, publication occurrence, form, or carrier changes no discipline construction fact by itself. |
+| `CC-C20-15` | Any C.13 trace names the already grounded candidate, exact parts, direct occurrences, assembly, identity rule, and whole characteristic; `Gamma_m.sum` or historical `Gamma_disc` syntax creates none of them. |
+| `CC-C20-16` | Core prose and labels follow E.10 and remain notation- and tool-neutral; a didactic discipline column carries no hidden semantics. |
 
 ### C.20:7.1 - Common Anti-Patterns and How to Avoid Them
-* “TDD discipline” → **`Tradition: Test‑Driven`** *(Plain twin keeps “Tradition”)*.
-* “Safety Discipline Owner” → **`Holder#DisciplineStewardRole:Safety‑Context`**.
-* “ClinicalSafetyDomain Governance” → **`DisciplineSpec: Clinical‑Safety`** with comparability in **CG‑Spec**; the **Domain** mention remains a **D.CTX + UTS** catalog stitch.
+
+| Anti-pattern | Repair |
+| --- | --- |
+| "TDD discipline" or another Method/tradition label already names a discipline. | Treat "Test-Driven" as a tradition, method-family, or other local classification only under its exact criterion and subject. Identify each Method under A.3.1; identify a discipline only by the complete C.20 construction test. |
+| "Safety Discipline Owner" or another steward title proves ownership, parthood, or decision authority. | Identify the exact holder, role assignment, scope, and governing rule at their direct owners. The title is a role claim; actual authority and any discipline relation require separate grounds. |
+| "ClinicalSafetyDomain Governance" or another compound domain-governance label supplies a discipline and its comparison policy. | Separate the subject-area or catalogue label, exact governance role/rule and Work, any independently constructed C.20 discipline, and the A.19.CPM/G.0 comparison declaration. The compound label creates none of those objects or facts. |
+| "The five card positions are filled, so the discipline exists." | Recover the exact candidate, direct part occurrences, whole-forming claims, assembly, reidentification, characteristic, and larger-assembly compatibility. |
+| "The department is the discipline." | Keep the organization as an exact system and its activity as Work; establish any discipline part relation independently. |
+| "Every canonical paper and standard is a discipline part." | Identify each episteme and apply the C.20 predicate; citation, canonical status, or publication is insufficient. |
+| "Every method used in the field is a part." | Identify the Method under A.3.1 and test whether the current assembly makes its contribution constitutive; registry membership and use alone are insufficient. |
+| "The Bridge set assembles a transdiscipline." | Keep each Bridge and bounded-use proposition direct; apply a declared breadth criterion or rerun the full construction test for a new candidate. |
+| "The selected model-use structure is the discipline context." | Keep the optional A.22 Structure attached only to the named use; it is neither whole nor part by selection. |
+| "Three viewpoints make the field multidisciplinary." | State a project-local breadth predicate over exact disciplines and contributions; viewpoint or structure count proves nothing. |
+| "The journal, card, or dashboard carries the discipline." | Separate discipline, description episteme, publication occurrence, form, carrier, and health reading. |
+| "A maturity drop created a new discipline edition." | Keep the C.21 result separate and apply the C.20 reidentification rule to actual construction changes. |
+| "A later canon edition is the later discipline." | Apply C.2.1 to the canon and C.20 to the field; historical continuation and discipline continuity are separate claims. |
 
 ### C.20:8 - Consequences
-**Benefits.** Auditable field composition; admissible federation across traditions; selector-ready maturity/evidence linkage; didactic presentation for stewardship.
-**Trade‑offs.** Discipline authoring requires CG‑Spec literacy and Bridge hygiene; paid back by safe reuse and clearer governance.
+
+**Benefits.** Discipline claims become auditable without freezing one universal canon, institution, bridge set, or method repertoire. Rival traditions can remain explicit and federate only through admissible directed uses rather than false consensus; constituent replacement and genuine reidentification can be distinguished. Field comparison and dispatch can consume the exact construction without becoming its cause. A selector can additionally consume exact discipline-relevant Characteristic and evidence or assurance claims, while a steward can publish a readable didactic presentation without making its card, column, or registry ontological.
+
+**Costs and trade-offs.** A positive claim needs exact parts, direct relation intervals, whole-forming claims, an assembly, a reidentification rule, one whole characteristic, and a larger-assembly compatibility account. The cost is proportional: ordinary use can stop at readable sentences. A named comparison adds Scale, comparator, and CG-Spec literacy; a cross-locality use adds Bridge and reliance hygiene; trace, evidence, publication, health, selector, or assurance apparatus is added only for a named receiver. That extra explicitness pays back in safer reuse and clearer governance.
+
+**Risks avoided.** The pattern blocks label-made fields, institution-made identity, publication-made parts, context-count breadth, bridge-made merger, health-score ontology, and registry-made method or discipline membership.
 
 ### C.20:9 - Rationale
-The calculus keeps **entityOfConcern local**, **comparability admissible**, and **assurance explicit**. It aligns with KD‑CAL’s weak‑link folds and CL-to-R penalty rule, with CG‑Spec’s **ScaleComplianceProfile (SCP)** and **Γ‑fold** rules, and with LEX twin‑label governance. It avoids “phlogiston disciplines” by tying fields to measurable CHRs (C.21) and evidence lanes.
+
+A discipline is durable because a governed practice-and-knowledge assembly can continue through permitted replacement, not because all surrounding artifacts remain fixed. Direct part relations establish which exact entities are constitutive during which intervals. Whole-forming claims explain their contributions and coupling. The assembly and reidentification rule then distinguish continuity from a different field, while the composition-grounded characteristic shows why the candidate is a whole rather than a collection.
+
+Keeping organizations, Work, methods, epistemes, structures, Bridges, comparisons, publications, evidence, and health readings separate does not make them unimportant. It lets each object affect the discipline claim through its actual relation without being promoted to an automatic part or identity discriminator.
+
+This separation keeps every discipline-related claim local to an exact EntityOfConcern and effective ReferenceScheme, comparison admissible only under its current Scale and comparator declarations, and evidence-bearing reliance or assurance explicit under A.10/B.3. It also lets plural traditions, directed Bridges with visible loss, typed health readings, and TA/VA/LA evidence lanes remain inspectable together. Scale compliance, B.3's current conservative combination rules, and Bridge hygiene stay with their direct owners: C.20 adopts their constraints for a named use but owns no universal field score or reliability fold. Charisma, prestige, institutional reach, or an attractive field name cannot create a discipline that fails to return to exact construction, Characteristics, and source evidence.
 
 ### C.20:9.1 - SoTA-Echoing
-Discipline-composition practice is used here only when it preserves plural traditions, explicit bridges, characteristic health readings, and evidence lanes. C.20 adopts weak-link composition, scale-compliance, and bridge hygiene; it rejects universal field scores, charisma labels, and discipline names that cannot return to measurable CHRs and source evidence.
+
+| Current source or practice line | C.20 adoption | Boundary of non-overread |
+| --- | --- | --- |
+| Constructional-ontology work cited in A.1 and C.13 requires explicit constituents, constructive relations, assembly, dependence, and identity choices rather than an extensional list. | Require exact part occurrences, whole-forming claims, an assembly-sensitive reidentification rule, and one composition-grounded whole characteristic. | A graph, card, constructor expression, shared label, or input set creates neither whole nor relation. |
+| Current science-of-science and reproducibility practice cited in C.21 treats field health as several typed, scoped, time-qualified characteristics. | Let C.21 evaluate exact disciplines without importing health coordinates into construction. | Reproducibility, standardization, disruption, diversity, or evidence granularity is not discipline identity or truth by itself. |
+| Current model, workflow, and publication practice separates semantic ways of doing, claim-bearing descriptions, actual work, results, and publication availability. | Keep Methods, epistemes, Work, results, and publication occurrences independently governed even when their exact relations support a field assembly claim. | Use, representation, occurrence, evidence, or publication does not make an entity a discipline part. |
+| Plural-field and translation practice needs explicit local meanings, direction, substitution conditions, and visible loss. | Use the exact F.9 Bridge plus a separate bounded-use proposition and direct reliance or comparison branch when crossing is current. | A Bridge count or high congruence neither merges disciplines nor creates a transdisciplinary kind. |
+
+**Currentness and reopen.** Reopen only the affected construction, identity, crossing, or health decision when its direct source interface changes. A newer discipline study can change the local breadth criterion or worked case without weakening the exact-part, direct-relation, assembly, and reidentification boundary.
 
 ### C.20:10 - Relations
-**Builds on.** KD‑CAL (C.2); CG‑Spec (A.19/G.0); Bridges (F.9); LEX (E.10).
-**Coordinates with.** C.21 (field‑health CHRs), C.22 (Problem‑CHR), C.23 (Method‑SoS‑LOG).
-**Constrains.** G.2 **MUST** publish **TraditionCards**/**BridgeMatrix** sufficient for `Γ_disc` to assemble **≥2 Traditions** and **≥3 `U.BoundedContext`** per SoTA synthesis to avoid monoculture. G.5 selector **SHALL** cite Discipline **CG‑Spec ids** and **EvidenceGraph** rows when admitting families.
+
+**Builds on.** A.1 for constructive holon recognition; A.6.REL for relation-occurrence discipline; A.14 and direct part patterns for mereological meaning; C.13 for an optional construction trace; A.17 and A.18 for the composition-grounded Characteristic and Scale, with C.16 only for an actual measurement chain; E.24.UK for public-kind admission.
+
+**Coordinates with.** C.2.1 for canon, standard, classification, description, trace, and result epistemes; A.3.1 and B.1.5 for Methods and method composition; A.15.1 for dated discipline work; A.22 for optional selected structures; B.2 for a separately current whole-reidentification question; C.3 for project-local breadth and tradition classifications; C.22 for selector-facing problem typing and TaskSignature assignment; C.23 for MethodFamily evidence and maturity; E.10 for lexical precision; and F.17/F.18 for local-sense term publication and durable naming.
+
+**Conditional branches.** F.9 for exact Bridges; A.10 and B.3 for evidence-bearing reliance and assurance; C.21 for discipline health; A.19.CPM for comparison and G.0 for its CG-Spec admissibility declaration; G.4 for acceptance thresholds; E.24.PUB for publication; G.5 for selector use of independently grounded discipline or method claims.
+
+**G.2 source-pack boundary.** When one current G.2 harvest or synthesis informs a discipline account, preserve the anti-monoculture intent by keeping plausible rival lineages and the semantic localities relevant to that named synthesis visible, with an explicit coverage or omission rationale and explicit crossings where needed. C.20 sets no minimum number of Traditions, local frames, cards, contexts, or matrix rows; G.2 alone governs conformance of its pack. A plural or conforming pack, `TraditionPalette`, `BridgeMatrix`, or historical `Gamma_disc` expression still constructs no discipline and supplies no part relation.
+
+**Constrains.** A C.13 discipline trace consumes C.20 facts and creates none. C.21 evaluates an already identified discipline. G.5 may consume an independently identified Method together with exact discipline-relevant construction or classification, Characteristic, and evidence or assurance claims only through its own declared predicate. An ungrounded discipline name supplies none of field belonging, comparison value, evidence strength, selection, or truth. A registry or family row, selector request, policy, result or shortlist, CG-Spec reference, and EvidenceGraph row can make an actual G.5 use auditable; none lets G.5 infer Method membership, discipline parthood, actual selector application or selection, or claim truth. A selected structure, Bridge, comparison, publication, evidence graph, health reading, or label never supplies a missing C.20 part occurrence.
 
 ### C.20:End
 
@@ -52386,19 +52456,25 @@ The ladder and LOG shells align with FPF’s **Assurance calculus**: **F** (form
 ### C.24:0.2 - What this buys
 
 - one tool-agnostic planning record for admissible calls, budgets, stop conditions, and replan triggers
-- one explicit enactment record with objective, budget, stop conditions, and next planned action
+- one explicit enactment-facing plan or bounded checkpoint with objective, budget, stop conditions, and next planned action, without presenting intent as actual Work
 - one replayable call graph and assurance record instead of one opaque chain of tool invocations
+
+**Primary working object.** One `ATC.CallPlan : U.WorkPlan` for intended calls. Each planned call selects an exact independently admitted `U.Method`; a current route description is a separate C.2.1 `U.MethodDescription` episteme that describes and may help identify, constrain or justify that Method or intended Work. Actual tool-call Work, its performer System, obtaining assignment, interval, containing system and `enactsMethod` relation remain downstream A.15.1 facts.
+
+**First useful move.** For each planned call, name the exact `methodRef` first, then cite an edition-pinned `methodDescriptionRef` only if its route description is needed. State order, budget, stop/replan condition and next action without claiming that Work occurred.
+
+**Not this pattern when.** If the surviving option or pool policy is unresolved, use C.11 or C.19; if selector-facing publication is current, use G.5. If the question is only what a callable MethodDescription says, use A.3.2/C.2.1. If the question is whether a call actually occurred or what Method it enacted, use A.15.1; if work-entry readiness is the question, use A.15.5.
 
 ### C.24:0.3 - First-minute questions
 
-- Has one choice result already been fixed, with the accepted decision material named, so that planning may begin now?
+- Has one choice result already been fixed with the accepted decision material named, and does every planned call resolve to an exact independently admitted Method rather than only a route-description label?
 - Which budget is being burned now: enactment budget, tool-call budget, or still one upstream probe budget?
 - What event stops or replans the route?
 - Is the next admissible output one `CallPlan`, one `CheckpointReturn`, or a neighbouring-pattern exit?
 
 ### C.24:0.4 - First output
 
-The first useful output is either one enactment-facing `CallPlan` with the current objective, cited route descriptions, the planned budget envelope, the stop or replan condition, and the next planned action stated explicitly in one place, or one bounded `CheckpointReturn` with the current objective or task family, the burned and residual actual budget, the commit trigger, and the recommended next action stated explicitly in one place.
+The first useful output is either one enactment-facing `CallPlan` with the current objective, planned call steps selecting exact `U.Method` refs, any separately cited route descriptions, the planned budget envelope, the stop or replan condition, and the next planned action stated explicitly in one place, or one bounded `CheckpointReturn` with the current objective or task family, the exact Methods and descriptions tested when recovered, the burned and residual actual budget, the commit trigger, and the recommended next action stated explicitly in one place.
 
 In C.24, move-like wording is plan-local shorthand only when it means `nextPlannedAction` inside a `CallPlan` or `recommendedNextAction` inside a `CheckpointReturn`. It does not name a general project move, pattern-use recommendation, work-entry readiness relation, performed work, or a whole `U.WorkPlan`. If the current source wording asks which FPF pattern use is recommended, use `E.11.PUR`; if it asks whether intended work is ready to start, use `A.15.5`; if it uses move-like wording outside C.24 call planning, restore the project concern with `E.10.MOVE`.
 
@@ -52418,14 +52494,14 @@ This CAL provides the **conceptual API for thought** that lets any implementatio
 Immediate failure indicators for this pattern:
 
 * the current planning result cannot say whether one choice result already exists,
-* the current text cannot distinguish route description, call plan, and executed call work,
+* the current text cannot distinguish exact Method, route-description episteme, call plan, and executed call Work,
 * the budget being burned is still only probing-before-choice budget rather than enactment or tool-call budget, or
 * the next admissible output is still undefined as one enactment-facing plan, one `CheckpointReturn`, or one neighbouring-pattern exit.
 
 If the question under repair is still which fixed option should survive now, apply `C.11`. If it is still pool policy over several still-live candidate lines, apply `C.19`. If it is already public selected-set publication, apply `G.5`.
 
 ### C.24:2 - Problem
-We need a **tool-agnostic** way to (i) identify **admissible route descriptions**, (ii) compose one **call work plan** that cites them, (iii) allocate an **explore/exploit** share, (iv) enforce **budget & harm** gates, and (v) **replan** on signals—**without** baking domain-specific heuristics into the core and **without** collapsing `U.MethodDescription`, `U.WorkPlan`, and `U.Work` into one object.
+We need a **tool-agnostic** way to (i) identify exact admissible `U.Method` values and any auxiliary route descriptions, (ii) compose one **call work plan** whose steps select those Methods, (iii) allocate an **explore/exploit** share, (iv) enforce **budget & harm** gates, and (v) **replan** on signals—**without** baking domain-specific heuristics into the core and **without** collapsing `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` into one object.
 
 ### C.24:3 - Forces
 
@@ -52434,18 +52510,18 @@ We need a **tool-agnostic** way to (i) identify **admissible route descriptions*
 | **General methods vs. bespoke local heuristics**       | Scalable, model-centric search ↔ short-term wins of bespoke scripts (guarded by **Bitter-Lesson Preference**).        |
 | **Assurance vs. Autonomy**               | F-G-R gates & CL penalties ↔ system latitude to sequence calls and learn online.                                       |
 | **Exploration vs. Delivery**             | Exploration share for illumination ↔ delivery SLAs and cost ceilings (E/E-LOG policy).                                |
-| **Route vs. plan vs. execution**         | `U.MethodDescription` ↔ `U.WorkPlan` ↔ `U.Work` ↔ service promises (`U.PromiseContent`).                              |
+| **Method vs. route vs. plan vs. execution** | exact `U.Method` ↔ separate `U.MethodDescription` ↔ `U.WorkPlan` ↔ dated `U.Work` ↔ service promises (`U.PromiseContent`). |
 
 ### C.24:4 - Solution — Signature & Realization
 
 **Local value names.**
-*`ATC.CallRouteDescription`* is a `U.MethodDescription` with `accessSpec` for one tool service or callable route;
-*`ATC.CallPlan`* is a `U.WorkPlan` specialised for intended tool-call work; it cites one or more `ATC.CallRouteDescription` editions plus planned order, budget ceilings, stop or replan triggers, and `nextPlannedAction`;
-*`ATC.CallGraph`* is an evidence or provenance graph over a `U.Work` ledger;
+*`ATC.CallRouteDescription`* is a `U.MethodDescription` with `accessSpec` for one tool service or callable route. Its exact C.2.1 EntityOfConcern is an independently admitted `U.Method`; the description describes and may help identify, constrain or justify that Method or intended Work for one receiving use but is neither the Method nor anything executed;
+*`ATC.CallPlan`* is a `U.WorkPlan` specialised for intended tool-call work. Each planned call step selects one exact `U.Method` by `methodRef` and may separately cite a current `ATC.CallRouteDescription` by `methodDescriptionRef`, plus planned order, budget ceilings, stop or replan triggers, and `nextPlannedAction`;
+*`ATC.CallGraph`* is an evidence or provenance graph over a ledger of exact actual `U.Work` call occurrences. A graph entry cites the Work occurrence and exact Method; an optional route-description edition helps interpretation but creates neither occurrence nor `enactsMethod`;
 *`ATC.Policy`* references `U.EmitterPolicyRef` (E/E-LOG) and local call gates **including BLP tolerances (alpha, delta)**.
 
 **Roles.**
-A **System in AgentialRole** prepares or revises one **CallPlan** that cites one or more **CallRouteDescription** editions. Upon enactment, a **Performer** executes **Work** (calls), and **Observers** record **Observations** with acceptance checks. Route descriptions stay design-time; the call plan stays schedule-of-intent; actual call work stays run-time. (A.15 strict distinction.)
+A **System in AgentialRole** prepares or revises one **CallPlan** whose planned steps select exact Methods and may cite separate **CallRouteDescription** editions. Upon enactment, an admitted performer `U.System` performs each actual call as a dated `U.Work` occurrence under an exact obtaining `U.RoleAssignment`; A.15.1 owns the actual `enactsMethod` relation. **Observers** record observations with acceptance checks. Route descriptions stay design-time epistemes; the call plan stays schedule-of-intent; actual call Work stays run-time; service promise content remains a separate acceptance object. None establishes another by record inclusion.
 
 **Operators (Gamma_agential; CAL, conceptual):**
 
@@ -52453,16 +52529,16 @@ A **System in AgentialRole** prepares or revises one **CallPlan** that cites one
    *Eligibility gate* based on capability fit, policy allow-list or deny-list, and context K (including safety constraints).
 
 2. `Gamma_agential.enumerate(TaskSignature, K_ctx) -> CandidateSet<ATC.CallRouteDescription>`
-   Returns admissible callable route descriptions. It **MAY** delegate to **NQD-CAL** for heterogeneous route families and **MUST** apply the current **E/E-LOG lens** (objectives & telemetry) to tag candidates.
+   Returns admissible callable route descriptions. It **MAY** delegate to **NQD-CAL** for heterogeneous route families and **MUST** apply the current **E/E-LOG lens** (objectives & telemetry) to tag candidates. Before a candidate enters an enactment-facing plan, its C.2.1 episteme must resolve under the effective reference scheme and identify the exact independently admitted Method; an unresolved route label remains probe material, not a planned enactment.
 
 3. `Gamma_agential.plan(Objective, CandidateSet, Budget, ATC.Policy) -> ATC.CallPlan`
-   Produces one **call plan** that cites the selected route descriptions, declares one planned budget envelope (compute, cost, time, risk), one intended call order, and one stop or replan policy. Internal route logic remains in the cited method descriptions; the plan is a `U.WorkPlan` that cites method descriptions, not a method description and not yet work.
+   Produces one **call plan** whose ordered planned-call steps select exact `U.Method` refs and may separately cite selected route-description epistemes. It declares one planned budget envelope (compute, cost, time, risk), one intended call order, and one stop or replan policy. Internal route logic may remain in the cited descriptions; the plan is a `U.WorkPlan`, not a Method, not a MethodDescription, and not yet Work.
 
 4. `Gamma_agential.execute(ATC.CallPlan) -> {ATC.CallGraph, Observations}`
-   Executes with **hard gates** (budget, risk, constraint-fit) and logs provenance suitable for B.3 assurance reporting (design-time and run-time separated).
+   Executes with **hard gates** (budget, risk, constraint-fit). Each actual call is independently identified as dated `U.Work`, performed by an admitted System under an exact obtaining assignment and related by actual `enactsMethod` to the planned exact Method under A.15.1. The operator logs provenance suitable for B.3 assurance reporting while keeping plan, description, Work, Method and service promise separate.
 
 5. `Gamma_agential.replan(Signals, ATC.CallPlan, BudgetPrime) -> ATC.CallPlanPrime`
-   Triggered by sentinel breaches, assurance drops, or policy events; preserves editioned policy, cited route descriptions, and context.
+   Triggered by sentinel breaches, assurance drops, or policy events; preserves or explicitly revises the ordered exact Method refs, separately cited route descriptions, editioned policy, effective planning context, and other plan content. Changing a description reference does not silently change either the Method or any actual Work history.
 
 6. `Gamma_agential.score(Route or PlanAlternative) -> <ValueProxies, Cost, Risk, FGR_floor>`
    Computes selection signals **without** illegal scalarisation across mixed scales; **uses Pareto comparison under the C.19 E/E-LOG lens** and leaves final dominance to declared policies.
@@ -52479,17 +52555,17 @@ A successful probe does not by itself justify a larger burn or a committed rollo
 
 **Bridge to neighboring patterns.** `ProbeBudget` belongs to `C.11` while it means epistemic budget for further probing before choice. `C.24` carries budgets once they are enactment, tool-call, or rollout budgets. If the question is still which option survives now, apply `C.11`; if it is now pool policy over several still-live candidate lines, apply `C.19`; if it is selector-facing publication of the selected result, apply `G.5`.
 
-**Explicit enactment result.** A conformant `C.24` pass should therefore leave either one enactment-facing `CallPlan` that states the current objective, the cited route descriptions or planned call order, the planned budget envelope, the stop or replan condition, and the next planned action, or one `CheckpointReturn` that states the current objective or task family, the burned and residual actual budget, the evidence locus, the commit trigger, and the recommended next action.
+**Explicit enactment result.** A conformant `C.24` pass should therefore leave either one enactment-facing `CallPlan` that states the current objective, each planned exact Method ref and any separate route-description ref, planned call order, planned budget envelope, stop or replan condition, and next planned action, or one `CheckpointReturn` that states the current objective or task family, tested Methods and descriptions when recovered, burned and residual actual budget, evidence locus, commit trigger, and recommended next action.
 
-**Unfinished-state rule.** A `C.24` result remains unfinished when it cannot say whether execution should continue now, pause at one checkpoint, or reroute, when it confuses route description with plan or plan with executed work, or when it does not state which budget is planned versus already burned and what event would stop or replan the current route.
+**Unfinished-state rule.** A `C.24` result remains unfinished when a planned call has only a route label and no recovered exact Method, when it cannot say whether execution should continue now, pause at one checkpoint, or reroute, when it confuses Method with description, description with plan, or plan with executed Work, or when it does not state which budget is planned versus already burned and what event would stop or replan the current route.
 
 **Normative Laws (ATC-Laws).**
 
-* **ATC-1 (Model-the-Call, not the App).** A tool call is one **Work** instance that enacts a referenced **MethodDescription** promised by a **Service**; plans schedule intended calls and cite route descriptions but are neither the route descriptions themselves nor the calls. (A.15.)
+* **ATC-1 (Model-the-Call, not the App).** One actual tool call is a dated **Work** occurrence that enacts one exact independently admitted **Method** under A.15.1. A current route description is a separate C.2.1 MethodDescription episteme that describes and may help identify, constrain or justify that Method or intended Work; a Service's `U.PromiseContent` is a separate acceptance object. Plans schedule intended calls but are neither Methods, descriptions, service promises, nor actual calls.
 * **ATC-2 (Bitter-Lesson Preference).** When two admissible choices are within **delta (assurance)** and **alpha (budget)**, **prefer the more general, scale-benefiting method** whose **slope vector Pareto-dominates** under the declared E/E-LOG objectives; any override **MUST** record a **BLP-waiver** with expiry. (E.2; precedence governed by E.3.)
 * **ATC-3 (Budget & Harm Gates).** Plans **SHALL** declare ceilings on compute, cost, wall-time, and risk; execution **MUST** abort or replan on breach. Actual burned or residual budget belongs in `CheckpointReturn`, `CallGraph`, or other work-side reporting, not inside the `CallPlan` field set.
 * **ATC-4 (Explore-Share Discipline).** Plans **MUST** declare `explore_share`; defaults **inherit from E/E-LOG profiles**. **Informative defaults**: `0` for safety-critical or deterministic tasks; `approx 0.2-0.4` for ambiguous tasks with heterogeneous tool families. Promotion of illumination telemetry into dominance **requires explicit policy**.
-* **ATC-5 (Provenance & Replay).** Every call **MUST** emit a **CallGraph** with: Service id, cited MethodDescription edition, inputs and outputs (redacted per privacy), `CallPlan` ref, **EmitterPolicyRef**, and budget deltas. (NQD/E/E provenance fields apply when used.)
+* **ATC-5 (Provenance & Replay).** Every actual call **MUST** emit a **CallGraph** row with its exact Work ref, exact enacted Method ref, performer System, obtaining assignment, Service id, optional cited MethodDescription edition, inputs and outputs (redacted per privacy), `CallPlan` ref, **EmitterPolicyRef**, actual interval, and budget deltas. The graph records these facts; it creates none of them. (NQD/E/E provenance fields apply when used.)
 * **ATC-6 (Assurance-First Decisions).** Selection **MUST** respect B.3: WLNK minima on F/R (weakest-link floors), CL penalties on integration, and **no** chimera scores across design-time and run-time scopes. Publish **<F,G,R>** for the typed claim `this plan is admissible under K,S`.
 * **ATC-7 (Notation/Vendor Independence).** Core pattern text **MUST NOT** encode vendor-specific tokens; bindings occur in Context via Bridges/Profiles. (Lexical guard-rails.)
 
@@ -52543,7 +52619,7 @@ What this does not establish: `C.24` does not estimate effects, prove identifica
 #### C.24:4.3 - Didactic quick card
 
 **Agentic Call Plan (public field set).**
-`Objective - Context(K) - RouteRefsInOrder[edition-pinned] - BudgetEnvelope{time_budget, compute_budget, cost_budget, risk_limit} - PolicyRef - Explore-share - StopConditions - ReplanConditions - BLP tolerances - BLP waiver (if any) - Assurance<F,G,R|K,S> - Provenance ids`
+`Objective - Context(K) - PlannedCallsInOrder[{MethodRef, MethodDescriptionRef?[edition-pinned]}] - BudgetEnvelope{time_budget, compute_budget, cost_budget, risk_limit} - PolicyRef - Explore-share - StopConditions - ReplanConditions - BLP tolerances - BLP waiver (if any) - Assurance<F,G,R|K,S> - Provenance ids`
 
 #### C.24:4.4 - Explicit enactment outputs and closure rule
 
@@ -52557,7 +52633,7 @@ Two output shapes are admissible here:
 A `CallPlan` should state at least these fields:
 
 - current objective;
-- cited route descriptions or planned call order;
+- ordered planned-call steps, each with an exact `methodRef` and a separate edition-pinned `methodDescriptionRef` only when the route description is current;
 - active policy or planning state;
 - planned budget envelope or reserved budget;
 - stop or replan condition;
@@ -52566,7 +52642,7 @@ A `CallPlan` should state at least these fields:
 A `CheckpointReturn` should state at least these fields:
 
 - current task family or objective;
-- candidate routes tested so far;
+- candidate exact Methods and their separate route-description epistemes tested so far, when recovered;
 - evidence on those routes;
 - burned and residual actual budget;
 - recommended next action;
@@ -52578,7 +52654,12 @@ A compact result may therefore look like:
 CallPlan(
   objective = answer_question_Q,
   policyRef = ee_policy_v1,
-  routeRefsInOrder = [search_route_v3, retrieve_route_v1, synthesize_route_v2, code_check_route_v1],
+  plannedCallsInOrder = [
+    {methodRef = SearchMethod_3, methodDescriptionRef = search_route_v3},
+    {methodRef = RetrievalMethod_1, methodDescriptionRef = retrieve_route_v1},
+    {methodRef = SynthesisMethod_2, methodDescriptionRef = synthesize_route_v2},
+    {methodRef = CodeCheckMethod_1, methodDescriptionRef = code_check_route_v1}
+  ],
   plannedBudgetEnvelope = {time<=60_minutes, compute<=x1, cost<=y1, risk<=r1},
   stopOrReplan = low_R_or_cost_ceiling,
   nextPlannedAction = enact_now
@@ -52612,12 +52693,20 @@ When the objective and route are already fixed enough, `C.24` should close as on
 ```text
 CallPlan(
   objective = produce_patch_and_verify,
-  routeRefsInOrder = [inspect_repo_route, edit_candidate_route, run_targeted_tests_route],
+  plannedCallsInOrder = [
+    {methodRef = InspectRepositoryMethod_4, methodDescriptionRef = inspect_repo_route_v3},
+    {methodRef = EditCandidateMethod_2, methodDescriptionRef = edit_candidate_route_v2},
+    {methodRef = TargetedTestMethod_7, methodDescriptionRef = run_targeted_tests_route_v5}
+  ],
   plannedBudgetEnvelope = {time<=45_minutes, compute<=x2, cost<=y2, risk<=r2},
   stopOrReplan = targeted_tests_fail_twice,
   nextPlannedAction = enact_now
 )
 ```
+
+The plan does not claim that any call happened. If the first call is then performed, identify `ToolCallWork-903 : U.Work`, admitted performer System `RepoAutomationSystem-2`, obtaining assignment `RepoAutomationInspectorAssignment-2`, actual interval `[10:02Z, 10:04Z]`, containing system `RepairRun-81`, and independently obtaining `enactsMethod(ToolCallWork-903, InspectRepositoryMethod_4)`. Its CallGraph row may cite `inspect_repo_route_v3` as `methodDescriptionRef`; neither that description nor the row is the Work occurrence or the enacted Method. The service's `U.PromiseContent` and any acceptance result remain separate.
+
+**Recognizable near misses.** `inspect_repo_route_v3` with no recovered exact `InspectRepositoryMethod_4` cannot support an enactment-facing plan. A `CallPlan` with no actual Work occurrence is still only intent. A tool log row with no independently grounded Work, performer, assignment and Method is evidence material, not execution. A successful response does not by itself prove the service promise was accepted.
 
 **Unfamiliar route, one bounded scout pass still admissible.**
 When the route is still uncertain inside enactment planning, `C.24` should close as one `CheckpointReturn`:
@@ -52637,12 +52726,12 @@ The practical distinction is simple: if route order and budgeted execution are a
 
 1. **Research-assistance system in agential role.**
    Task: answer a novel technical question. Candidate tools: retrieval, structured web search, code runner, table or plot generator.
-   **Plan:** cite route descriptions for `search`, `retrieve`, `synthesize`, and `code_check`; declare `explore_share approx 0.4`; replan on sentinel `low_R`.
+   **Plan:** select exact `SearchMethod`, `RetrievalMethod`, `SynthesisMethod`, and `CodeCheckMethod` refs in order; separately cite current route descriptions for `search`, `retrieve`, `synthesize`, and `code_check`; declare `explore_share approx 0.4`; replan on sentinel `low_R`.
    The admissible structure here is one declared budget envelope, one explicit route order, and one visible replan trigger.
 
 2. **Program-repair system in agential role.**
    Task: propose a patch against a failing test suite. Candidate tools: repo introspection, static analyzer, unit runner.
-   **Plan:** keep repo-introspection, patch-application, and targeted-test route descriptions distinct; use scout quota across patch families before committed rollout.
+   **Plan:** select exact repo-introspection, patch-application, and targeted-test Methods; keep their optional route-description epistemes distinct; use scout quota across patch families before committed rollout.
 
 3. **Lab-automation system in agential role.**
    Task: adjust a wet-lab protocol under drift. Candidate tools: planner, pipetting controller, spectrometer, Bayesian optimizer.
@@ -52650,27 +52739,29 @@ The practical distinction is simple: if route order and budgeted execution are a
 
 ### C.24:6 - Bias-Annotation
 
-Lexical firewall and notation independence apply; no vendor tokens; mixed-scale characteristics are never averaged; route descriptions remain distinct from `U.WorkPlan`, and both remain distinct from executed `U.Work`; a successful probe remains distinct from committed rollout until the commit trigger is satisfied.
+Lexical firewall and notation independence apply; no vendor tokens; mixed-scale characteristics are never averaged; exact `U.Method`, route-description `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, CallGraph evidence, and service promise remain distinct; a successful probe remains distinct from committed rollout until the commit trigger is satisfied.
 
 ### C.24:7 - Conformance Checklist
 
-1. **CC-ATC-1 - Declared separation.** `ATC.CallRouteDescription` is a `MethodDescription`; `ATC.CallPlan` is a `U.WorkPlan` that cites route descriptions; execution is `Work`; acceptance is via `U.PromiseContent`. No method-side route logic or actual burn is smuggled into the `U.WorkPlan` field set.
+1. **CC-ATC-1 - Declared separation.** Every planned call step selects an exact independently admitted `U.Method`; `ATC.CallRouteDescription` is a separate `U.MethodDescription` episteme; `ATC.CallPlan` is a `U.WorkPlan`; each execution is exact dated `U.Work` with actual `enactsMethod`; acceptance is via separate `U.PromiseContent`. No description, service promise, CallGraph row, method-side route logic, or actual burn is smuggled into another object.
 2. **CC-ATC-2 - Budgets on record.** Time budget, compute budget, cost ceiling, and risk limit exist ex ante; stop conditions are listed.
 3. **CC-ATC-3 - E/E policy.** `EmitterPolicyRef` (or equivalent) and `explore_share` are editioned and logged.
 4. **CC-ATC-4 - Assurance tuple.** Publish the typed claim `Plan admissible under K,S` with `<F,G,R>` and CL penalties traceable in the `CallGraph` SCR. Design-time and run-time never merged.
 5. **CC-ATC-5 - BLP waiver discipline.** Any heuristic override against a general method includes expiry and re-evaluation date.
-6. **CC-ATC-6 - Provenance minimum.** Record `{PromiseContentRef, CallPlanRef, MethodDesc.edition, EmitterPolicyRef, DescriptorMapRef? (if NQD), DistanceDefRef? (if NQD), TimeWindow, Seeds?, Dedup?}`.
+6. **CC-ATC-6 - Provenance minimum.** For every actual call record `{WorkRef, PerformerSystemRef, RoleAssignmentRef, MethodRef, MethodDescriptionRef? and edition when cited, PromiseContentRef?, CallPlanRef, EmitterPolicyRef, TimeWindow, budget deltas, DescriptorMapRef? (if NQD), DistanceDefRef? (if NQD), Seeds?, Dedup?}`; each ref resolves its direct object and the record creates none of them.
 7. **CC-ATC-7 - Notation independence.** No vendor tokens in conceptual text; bindings via Bridges or Profiles only.
 8. **CC-ATC-8 - BLP tolerances declared.** `alpha/delta` tolerances are present in `ATC.Policy` or referenced via the active `E/E-LOG` profile.
 9. **CC-ATC-9 - `CheckpointReturn` for bounded specialization.** When one route still uses scout/probe discipline on a new task family, it SHALL publish one `CheckpointReturn` with candidate routes, evidence, burned/residual actual budget, next action, and commit trigger; a successful probe alone never counts as committed rollout.
-10. **CC-ATC-10 - Recoverable enactment closure.** When `C.24` returns one enactment-facing call plan or one `CheckpointReturn`, the `CallPlan` SHALL state current objective, route refs in order, planned budget envelope, stop or replan condition, and `nextPlannedAction`, while `CheckpointReturn` SHALL state burned/residual actual budget plus next action and commit trigger.
+10. **CC-ATC-10 - Recoverable enactment closure.** When `C.24` returns one enactment-facing call plan or one `CheckpointReturn`, the `CallPlan` SHALL state current objective, ordered exact Method refs, separate route-description refs when current, planned budget envelope, stop or replan condition, and `nextPlannedAction`, while `CheckpointReturn` SHALL state burned/residual actual budget plus next action and commit trigger.
 11. **CC-ATC-11 - Neighboring-pattern boundary.** If the question under repair is still fixed-option choice, pool policy over several live lines, or selector-facing publication, `C.24` SHALL apply `C.11`, `C.19`, or `G.5` rather than restating those patterns.
 12. **CC-ATC-12 - Role discipline.** User-facing prose and emitted artifacts SHALL speak about systems in agential roles or equivalent typed performers, not one generic `agent` head, when that generic head would blur the holder kind.
 13. **CC-ATC-13 - Causal action-use spec.** If one `CallPlan` selects observation, intervention, counterfactual-rung evidence collection, counterfactual policy conditioning, or off-policy causal evaluation for a causal purpose, it SHALL carry `CallPlan.causalActionUseSpec?` with `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, supported use, unsupported use, and a `C.28` causal-use support reference rather than letting call-planning vocabulary certify the causal claim.
 
 ### C.24:8 - Common Anti-Patterns and How to Avoid Them
 
-- **Treating route description as plan.** Avoid by keeping callable logic in `ATC.CallRouteDescription` and keeping `ATC.CallPlan` as one `U.WorkPlan` that cites it.
+- **Treating route description as plan.** Avoid by keeping callable logic in `ATC.CallRouteDescription` and keeping `ATC.CallPlan` as one `U.WorkPlan` whose steps select exact Methods and cite descriptions separately.
+- **Treating MethodDescription as enacted Method.** A route document, schema or endpoint description is an episteme, not the world-side way of doing and not what a call enacts. Recover the exact `methodRef`; otherwise keep the candidate in probe state or exit with a missing Method relation.
+- **Treating CallGraph or service response as Work.** A graph row and response carrier may evidence a call but do not establish its occurrence, performer, assignment, interval or `enactsMethod`; recover those A.15.1 facts independently.
 - **Treating planning as execution.** Avoid by publishing actual burn only through `CheckpointReturn`, `Work`, and `CallGraph`, not inside the `CallPlan` field set.
 - **Burning enactment budget while the question under repair is still upstream choice or pool policy.** Avoid by rerouting unresolved fixed-option choice to `C.11` and unresolved live-pool governance to `C.19` before building one call plan.
 - **Counting a successful probe as committed rollout.** Avoid by publishing one `CheckpointReturn` with a visible commit trigger instead of smuggling rollout through a positive scout result.
@@ -52679,8 +52770,8 @@ Lexical firewall and notation independence apply; no vendor tokens; mixed-scale 
 ### C.24:9 - Consequences
 
 - tool use under systems in agential roles becomes inspectable as one admissible plan, not one opaque sequence of calls
-- downstream work receives one explicit enactment record with objective, route refs, budget envelope, stop conditions, and `nextPlannedAction`
-- the cost is stricter discipline around route-description versus plan versus work separation, explicit budgets, and visible policy state before execution begins
+- downstream work receives one explicit enactment-facing plan with objective, exact Method refs, separate route-description refs when current, budget envelope, stop conditions, and `nextPlannedAction`; actual Work is recorded only after it occurs
+- the cost is stricter discipline around exact Method versus route-description versus plan versus work separation, explicit budgets, and visible policy state before execution begins
 
 ### C.24:10 - Rationale
 
@@ -52688,7 +52779,7 @@ Lexical firewall and notation independence apply; no vendor tokens; mixed-scale 
 
 Source-use relation and source-currentness for this rationale: these rows are current-practice pressure and BLP-neighbour alignment, not a standalone `SoTA-Echoing` table. A current tool-use or agentic-loop source becomes load-bearing only when it changes one `CallPlan`, `CheckpointReturn`, budget, stop or replan condition, BLP waiver, or relation row.
 
-- Contemporary tool-use systems in agential roles work best when planning, feedback, and replanning stay explicit rather than collapsing into one brittle script. The practical implication is to publish one `U.WorkPlan` that cites route descriptions and carries stop or replan triggers before execution.
+- Contemporary tool-use systems in agential roles work best when planning, feedback, and replanning stay explicit rather than collapsing into one brittle script. The practical implication is to publish one `U.WorkPlan` whose planned steps select exact Methods, cite route-description epistemes separately when current, and carry stop or replan triggers before execution.
 - Post-2015 search, optimization, and agentic systems also show that bounded probing is useful but dangerous when it silently becomes commitment. The safeguard here is the explicit `CheckpointReturn` plus visible commit trigger and one explicit split between planned budget envelope and burned actual budget.
 - Scaling-first practice favors general, learnable methods over fragile hand-tuned tactics when assurance and cost remain comparable. The practical implication is not blind optimism but disciplined BLP: when a narrow heuristic wins, record the waiver, expiry, and re-evaluation window.
 ### C.24:12 - Relations
@@ -52701,7 +52792,7 @@ Source-use relation and source-currentness for this rationale: these rows are cu
 
 - Exit: a speed-up claim names task outcome, evaluation harness, repair-success evidence locus when claimed, cost or budget condition, validity window, stop or replan condition, and non-admissible use as a benchmark claim; C.24 remains the tool-use pattern.
 
-Builds on: `A.15` Role-Method-Work alignment (planning vs execution vs service), `B.3` Trust and Assurance (`F-G-R` with `CL`), `C.5 Resrc-CAL`, `C.18 NQD-CAL` (candidate generation and declared set results), and `C.19 E/E-LOG` (policies). Coordinates with `C.28` when a call plan is used to observe, intervene, collect counterfactual-rung evidence, condition a counterfactual policy, or evaluate a policy for causal-use support. Coordinates with `E.23` when a repeated quality-improvement loop is enacted through tool-using agents: `C.24` carries call plans, checkpoint returns, tool-call budgets, stop or replan conditions, and the separation among `CallRouteDescription`, call plan, and executed work; it does not restate the `E.23` loop method, BLP comparison and cost discipline, or other object-under-improvement evaluations governed by their direct patterns. Coordinates with `E.10.MOVE`, `E.11.PUR`, and `A.15.5` when source wording about a move is not plan-local `nextPlannedAction` or `recommendedNextAction`. Constrains: any `U.PromiseContent` used as a tool MUST expose acceptance conditions and observation hooks sufficient for `B.3` reporting. Enables: human-facing Working-Model publication forms with policy and assurance disclosures while keeping design-time and run-time separated.
+Builds on: `A.15` Role-Method-Work alignment (planning vs execution vs service), `B.3` Trust and Assurance (`F-G-R` with `CL`), `C.5 Resrc-CAL`, `C.18 NQD-CAL` (candidate generation and declared set results), and `C.19 E/E-LOG` (policies). Coordinates with `C.28` when a call plan is used to observe, intervene, collect counterfactual-rung evidence, condition a counterfactual policy, or evaluate a policy for causal-use support. Coordinates with `E.23` when a repeated quality-improvement loop is enacted through tool-using agents: `C.24` carries call plans, checkpoint returns, tool-call budgets, stop or replan conditions, and the separation among exact Method, `CallRouteDescription`, call plan, executed work, CallGraph evidence, and service promise; it does not restate the `E.23` loop method, BLP comparison and cost discipline, or other object-under-improvement evaluations governed by their direct patterns. Coordinates with `E.10.MOVE`, `E.11.PUR`, and `A.15.5` when source wording about a move is not plan-local `nextPlannedAction` or `recommendedNextAction`. Constrains: any `U.PromiseContent` used as a tool MUST expose acceptance conditions and observation hooks sufficient for `B.3` reporting. Enables: human-facing Working-Model publication forms with policy and assurance disclosures while keeping design-time and run-time separated.
 
 ### C.24:End
 
@@ -77052,9 +77143,13 @@ Use `E.11.PUR` after one or more `CandidatePatternUse@Context` values are availa
 
 **Primary EntityOfConcern.** One current PUR-governed value over already inspected candidate pattern uses: a `PatternUseApplicabilityFinding@Context`, a `PatternUseRecommendation@Context`, or a `PatternUseCoordination@Context`. A `PatternUseOrderingRelation@Context` is current only inside the coordination it qualifies.
 
+The `@Context` suffix on these compatibility support names is retrieval wording only. It names no bounded-context entity, generic situation, project container, relation participant, or identity field; every episteme follows C.2.1 identity, and the ordering relation follows its direct participant, condition, obtaining, and occurrence rules below.
+
 **What this buys.** Applicability no longer silently becomes recommendation, and presentation order no longer silently becomes workflow order. A project can preserve exact reasons for a consequential recommendation without burdening ordinary bounded use with five separate forms.
 
 **Not this pattern when.** Use `E.11` while public cards are still being compared. Use `E.11.PUA` to apply one selected pattern and obtain its first result. Use A.15 for work planning or performed work, A.21 for a gate decision, and the direct decision or authorization pattern when those claims are current.
+
+In this pattern, *next move* is Plain shorthand for the currently recommended pattern use or conditional continuation. It is not a shared `Move` identity, `U.Method`, `U.WorkPlan`, performed `U.Work`, or actual `U.Transformation`; selection or imperative wording performs nothing.
 
 ### E.11.PUR:2 - Problem
 
@@ -77070,7 +77165,7 @@ When these distinctions are missing, familiar PatternIDs become proxies for valu
 | Addressable reliance | Transfer, audit, automation, delayed feedback, or costly reversal can rely on separate fit findings. |
 | Applicability versus recommendation | A fit finding does not select a candidate for current use. |
 | Plural coordination | Several candidates may be alternatives, complements, or partially ordered. |
-| Exact precedence | Result-based precedence reuses the prerequisite candidate's exact expectation. |
+| Exact precedence | Result-based precedence reuses the prerequisite candidate's exact expectation and current directly grounded closure. |
 | No work overread | Pattern-use coordination does not plan, authorize, or perform project work. |
 | Proxy resistance | Pattern familiarity, score, and publication order are not evidence of expected practical gain. |
 
@@ -77108,13 +77203,14 @@ PatternUseApplicabilityFinding@Context <: U.Episteme:
 
 The five criteria refer to one candidate. In ordinary conversation, inspect all five and state the aggregate result in the recommendation without materializing five findings. `PatternUseApplicabilityFinding@Context` is the reliance-bearing support episteme: when it exists, its five findings cover each criterion exactly once. `applicable` follows only when all five are `fit`; any `misfit` yields `inapplicable`; one or more `insufficientBasis` values yield `insufficientBasis` and a missing-basis boundary.
 
+`problemFrame` compares the candidate pattern's Problem frame with the current concern; it does not assert that an actual Problem obtains. When an actual Problem is relied on, cite one current C.22.PFR `ProblematicForRelation` occurrence with its exact actual-condition and criterion-applicability participants and adverse-episode identity. A ProblemCard, fit finding, assessment, or recommendation may support a claim about that occurrence but neither creates nor splits it.
+
 #### E.11.PUR:4.2 - Recommendation
 
 ```text
 PatternUseRecommendationSupportProfileValue = ordinaryCompact | relianceBearing
 
 PatternUseRecommendation@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef, referencing the selected CandidatePatternUse@Context
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
@@ -77125,13 +77221,15 @@ PatternUseRecommendation@Context <: U.Episteme:
   compactApplicabilityAndSelectionRationaleRef: U.EpistemeRef, referencing one CandidatePatternUseRationale@Context
   applicabilityFindingRef?: U.EpistemeRef, referencing one PatternUseApplicabilityFinding@Context
   expectedResultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
-  strongerNeighborPatternRef?: U.EntityRef, referencing one U.MethodDescription
+  strongerNeighborPatternRef?: U.EntityRef, referencing the exact neighboring FPF pattern identity supplied by its pattern/framework owner
   recommendationBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-Recommendation selects one applicable candidate for the current concern because its expected result and receiving use are preferable under the stated rationale. In `ordinaryCompact`, the applicability result and compact rationale are carried directly and `applicabilityFindingRef` is absent. In `relianceBearing`, the same recommendation also cites one current applicability finding whose five fit findings can be replayed independently. The profile changes support cardinality, not the recommendation kind or authority. A recommendation does not authorize work, establish a gate, prove evidence sufficiency, or create the expected result.
+Recommendation selects one applicable candidate for the current concern because its expected result and receiving use are preferable under the stated rationale. In `ordinaryCompact`, the applicability result and compact rationale are carried directly and `applicabilityFindingRef` is absent. In `relianceBearing`, the same recommendation also cites one current applicability finding whose five fit findings can be replayed independently. The profile changes support cardinality, not the recommendation kind or authority.
 
-When a stronger neighboring pattern better addresses the current question, name it and use the recommendation boundary to return. Familiarity with the current candidate is not a recommendation basis.
+`expectedResultExpectationRef` points to the exact E.11.PUA expectation. It identifies the expected result kind and direct owner, the kind of governed object relative to which the result phrase would be true, and the category-correct direct-basis branch; it asserts neither that the result exists nor that a relation, A.6.1 binding, or local claim is current. A recommendation does not authorize work, establish a gate, prove evidence sufficiency, create the expected result, or supply its later closure.
+
+When a stronger neighboring pattern better addresses the current question, `strongerNeighborPatternRef` identifies that exact FPF pattern identity and `recommendationBoundaryRef` carries the return. The pattern reference does not establish `U.MethodDescription` membership; any such claim requires an independent A.3.2 membership result for an already identified episteme. Familiarity with the current candidate is not a recommendation basis.
 
 #### E.11.PUR:4.3 - Coordination without forced order
 
@@ -77149,7 +77247,6 @@ PatternUseCoordinationRationale@Context <: U.Episteme:
   coordinationBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 
 PatternUseCoordination@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
   entityOfConcernRef: U.EntityRef, referencing the coordination-question episteme
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
@@ -77176,16 +77273,18 @@ PatternUseOrderingRelation@Context <: U.Relation:
   dependentCandidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
   precedenceBasis: PatternUsePrecedenceBasisValue
   precedenceBasisResultExpectationRef?: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
+  precedenceBasisResultClosureFindingRef?: U.EpistemeRef, referencing one current PatternUseResultClosureFinding@Context
   precedenceConditionRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
   orderingRationaleRef: U.EpistemeRef, referencing one PatternUseCoordinationRationale@Context
   RelationRefKind: U.EntityRef
   Direction: prerequisiteCandidatePatternUseRef -> dependentCandidatePatternUseRef
-  Dependence: bounded-context local to coordinationRef and both candidate editions
+  Dependence: local to coordinationRef, both candidate editions, the precedence basis and condition, and any current result-closure support to coordinationRef and both candidate editions
   Identity: <coordinationRef, prerequisiteCandidatePatternUseRef, dependentCandidatePatternUseRef, precedenceBasis, precedenceConditionRef>
 ```
 
-The prerequisite and dependent candidates are different members of the same coordination relation. When `precedenceBasis=prerequisiteResult`, `precedenceBasisResultExpectationRef` is present and equals the prerequisite candidate's exact result expectation. The ordering relation never copies result kind or relation-signature slots. For `methodPrecondition` and `sharedConstraintResolution`, the result-expectation position is absent.
+The prerequisite and dependent candidates are different members of the same coordination relation. When `precedenceBasis=prerequisiteResult`, both result references are present. `precedenceBasisResultExpectationRef` equals the prerequisite candidate's exact expectation. `precedenceBasisResultClosureFindingRef` resolves to that same candidate and expectation and reports the exact independently governed result entity or obtaining relation, its direct owner, the exact method, plan, dated Work, transformation, evaluation, decision, or receiving-use object relative to which the result phrase is true, and one category-correct direct relation occurrence, A.6.1 operation-application binding, or A.6.RCD local-claim basis with its governor or governors. The ordering relation copies none of those result-kind, participant, or signature fields.
 
+The closure finding is a C.2.1 episteme and creates neither the result nor the ordering relation. The ordering relation obtains only while its `precedenceConditionRef` is satisfied by the directly governed result and basis reported there. A missing governor, missing information, false predicate, or absent operation binding leaves the precedence relation non-obtaining and the dependent use at its exact return boundary. For `methodPrecondition` and `sharedConstraintResolution`, both result-reference positions are absent.
 The dependent candidate use is admitted under a precedence relation only after its precedence basis is established. Page order, seminar order, identifier order, or visual adjacency does not create that relation.
 
 #### E.11.PUR:4.5 - Practical procedure
@@ -77194,21 +77293,21 @@ The dependent candidate use is admitted under a precedence relation only after i
 2. Choose `ordinaryCompact` unless a named receiving use needs the fit aspects to remain independently addressable; use `relianceBearing` only for that reliance.
 3. Inspect all five fit aspects. In ordinary use, keep them in one compact rationale. Under named reliance, materialize five separate findings and one applicability finding.
 4. State the aggregate applicability result directly in the recommendation; when a reliance-bearing applicability finding exists, the two result values agree.
-5. Recommend an applicable candidate only when its result and receiving use answer the current concern better than the live alternatives.
-6. Coordinate several candidates as unordered, partially ordered, or totally ordered. Add a pairwise relation only when one declared precedence basis is current.
-7. Stop at the recommendation or coordination result. Continue to PUA, P2W, planning, gate, decision, or work only when that next claim becomes current.
+5. Recommend an applicable candidate only when its expected result and receiving use answer the current concern better than the live alternatives; the expectation is not an achieved result.
+6. Coordinate several candidates as unordered, partially ordered, or totally ordered. Add a pairwise relation only when one declared precedence basis is current. For `prerequisiteResult`, require the prerequisite candidate's exact expectation and one current E.11.PUA result-closure finding with the complete direct basis.
+7. Stop at the recommendation or coordination result. A Plain *next move* names only the recommended pattern use or conditional continuation. Continue to PUA, P2W, planning, gate, decision, or work only when that next claim becomes current.
 
 #### E.11.PUR:4.6 - Replay and currentness
 
-Replay an ordinary compact recommendation from its candidate, applicability result, compact rationale over all five aspects, current live alternatives, expected result and receiving use, and recommendation boundary. Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings. Replay coordination from its members, question, ordering mode, pairwise relations, precedence bases, and stop boundary.
+Replay an ordinary compact recommendation from its candidate, applicability result, compact rationale over all five aspects, current live alternatives, expected result and receiving use, and recommendation boundary. Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings. Replay coordination from its members, question, ordering mode, pairwise relations, precedence bases, stop boundary, and, for each `prerequisiteResult` relation, the exact expectation and current E.11.PUA closure finding.
 
-Recheck the smallest affected finding or relation when a candidate `Solution`, result expectation, fit basis, live alternative, receiving use, coordination member, precedence basis, or boundary changes. A changed candidate fit reopens its applicability and any recommendation that relied on it. A changed prerequisite expectation reopens only the affected ordering relations and their dependent uses unless the coordination question or membership also changed. `G.11` governs edition, telemetry, currentness-window, and decay orchestration; PUR supplies the judgement-specific values and change conditions.
+Recheck the smallest affected finding or relation when a candidate `Solution`, result expectation, result entity, governed relative object, direct basis or governor, fit basis, live alternative, receiving use, coordination member, precedence basis, condition, or boundary changes. A changed candidate fit reopens its applicability and any recommendation that relied on it. A changed prerequisite expectation or closure reopens only the affected ordering relations and their dependent uses unless the coordination question or membership also changed. `G.11` governs edition, telemetry, currentness-window, and decay orchestration; PUR supplies the judgement-specific values and change conditions.
 
 ### E.11.PUR:5 - Archetypal Grounding
 
 #### E.11.PUR:5.1 - Applicable but not recommended
 
-A team considering a high-cost pump test has candidate uses of `C.28` causal triage and `A.21` gate discipline. Both may be applicable. The immediate uncertainty is whether a causal model output may support intervention, so `C.28` offers the more useful first result.
+A team considering a high-cost pump test has candidate uses of `C.28` causal triage and `A.21` gate discipline. Both may be applicable. The immediate uncertainty is whether a causal model output may support intervention, so `C.28` offers the more useful first result. That uncertainty and the recommendation are epistemic; neither asserts an actual C.22.PFR Problem.
 
 Recommend `C.28` without claiming that the test is authorized. The later gate use remains a separate candidate whose applicability can be reconsidered after the causal-use result exists.
 
@@ -77224,19 +77323,19 @@ Use one coordination relation with `orderingMode=unordered`. The team may perfor
 
 A design team's architecture-candidate comparison begins only after its evaluation coordinates are defined. One candidate use of `A.19.ECS` expects an `EvaluationCharacteristicSpaceSpec`; the dependent comparison use consumes that exact result.
 
-Use `precedenceBasis=prerequisiteResult` and point to the ECS candidate's existing expectation. Do not copy `EvaluationCharacteristicSpaceSpec` and its signature into new ordering fields. After the result is grounded, the dependent use can begin under its own Solution.
+Use `precedenceBasis=prerequisiteResult`, point to the ECS candidate's existing expectation, and cite its current E.11.PUA result-closure finding. The closure must identify the exact `EvaluationCharacteristicSpaceSpec`, its direct owner, the governed evaluation or application relative to which it is this result, and the direct relation, A.6.1 binding, or local-claim basis and governor. Do not copy the spec or its signature into ordering fields. Until that basis is current, no precedence occurrence is established and the dependent use stays at its return boundary.
 
 #### E.11.PUR:5.4 - Method precondition is not a result dependency
 
-A machining pattern assumes an admitted material-kind classification. The classification is a method precondition already current in the bounded context, not the result of another candidate pattern use.
+A machining pattern assumes an admitted material-kind classification. The classification is a method precondition already current for that exact machining use, not the result of another candidate pattern use.
 
-If coordination is still useful, use `methodPrecondition` and leave the result-expectation position absent. Do not invent a prerequisite result merely to make the relation look uniform.
+If coordination is still useful, use `methodPrecondition` and leave both result-reference positions absent. Do not invent a prerequisite result merely to make the relation look uniform.
 
 #### E.11.PUR:5.5 - Repair a stale copied prerequisite locally
 
 An older architecture coordination copied `EvaluationCharacteristicSpaceSpec` and its signature into an ordering record. The ECS candidate's current expectation later changed, leaving the copy stale while both candidates, their applicability findings, the coordination question, and `partialOrder` mode remained sound.
 
-Repair only the ordering relation: remove the copied result description, set `precedenceBasis=prerequisiteResult`, and reference the ECS candidate's current expectation. The dependent use returns until that expected result is grounded. Candidate inspection, applicability, coordination membership, and direct Solutions do not restart.
+Repair only the ordering relation: remove the copied result description, set `precedenceBasis=prerequisiteResult`, and reference the ECS candidate's current expectation and current E.11.PUA result-closure finding. If the exact result, governed relative object, direct basis, or governor cannot be recovered, keep the precedence relation non-obtaining and the dependent use at its return boundary. Candidate inspection, applicability, coordination membership, and direct Solutions do not restart.
 
 #### E.11.PUR:5.6 - A higher recommendation score can reduce useful fit
 
@@ -77250,7 +77349,7 @@ The score improved while first-result fit and receiving-use value worsened. Keep
 - **Favorite-pattern proxy bias.** Familiar PatternID substitutes for current value. State the concern, expected result, and receiving use in the rationale.
 - **Five-form bias.** Every ordinary use creates five findings. Keep them in one compact rationale unless their separate identity is relied on.
 - **Sequence bias.** Presentation order becomes precedence. Repair by naming the pairwise basis.
-- **Result-copy bias.** Prerequisite result kind is duplicated in ordering fields. Reuse the prerequisite candidate's exact expectation.
+- **Result-copy or expectation-as-result bias.** A prerequisite result kind is duplicated in ordering fields, or its expectation is treated as achieved. Reuse the prerequisite candidate's exact expectation and current E.11.PUA closure finding; the closure reports but does not create the exact result and direct basis.
 
 ### E.11.PUR:7 - Conformance Checklist
 
@@ -77259,11 +77358,13 @@ The score improved while first-result fit and receiving-use value worsened. Keep
 | `PUR-1` | Candidate basis | Every evaluated candidate has an inspected Solution and exact result expectation. |
 | `PUR-2` | Five aspects | Reliance-bearing applicability has exactly one finding for each fit criterion. |
 | `PUR-3` | Aggregate | Every recommendation states an applicability result after all five aspects are considered. When a reliance-bearing applicability finding exists, its result agrees with the recommendation and carries a missing-basis boundary when needed. |
-| `PUR-4` | Recommendation | Recommended candidate is applicable and its result answers the current concern under a compact explicit rationale. `ordinaryCompact` has no applicability-finding ref; `relianceBearing` has one current finding with five addressable fit findings. |
+| `PUR-4` | Recommendation | Recommended candidate is applicable and its expected result answers the current concern under a compact explicit rationale. `ordinaryCompact` has no applicability-finding ref; `relianceBearing` has one current finding with five addressable fit findings. |
 | `PUR-5` | Coordination | All members concern the same bounded coordination question and have distinct candidate identities. |
 | `PUR-6` | Ordering mode | Unordered has no pairwise relations; partial and total order contain only justified pairwise relations. |
-| `PUR-7` | Exact precedence | `prerequisiteResult` reuses the prerequisite candidate's expectation; other basis values leave that position absent. |
-| `PUR-8` | Boundary | Recommendation or coordination does not assert plan, work, gate, decision, authorization, or subject result. |
+| `PUR-7` | Exact precedence | `prerequisiteResult` reuses the prerequisite candidate's expectation and one current E.11.PUA closure finding that identifies the exact result, direct owner, governed relative object, category-correct basis, and governor, and its stated condition is satisfied; other basis values leave both result positions absent. |
+| `PUR-8` | Boundary | Recommendation or coordination does not assert plan, work, gate, decision, authorization, actual Problem, actual Transformation, or subject result. |
+| `PUR-9` | Problem actuality | A Problem-frame fit or ProblemCard is not an actual Problem; any relied-on Problem resolves to one C.22.PFR occurrence and keeps support and adverse-episode identity separate. |
+| `PUR-10` | Plain move | *Next move* names only a recommendation or conditional pattern-use continuation; it creates no Move identity and performs no Work or Transformation. |
 
 ### E.11.PUR:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -77272,12 +77373,13 @@ The score improved while first-result fit and receiving-use value worsened. Keep
 | Recommend before aggregating fit | A partial match is overread as selection. | Resolve all five aspects or return `insufficientBasis`. |
 | Rank every candidate | A scalar order hides complements and incomparable results. | Use unordered or partial coordination when that matches the current relation. |
 | Use sequence as WorkPlan | Pattern-use relations acquire dates, resources, and work authority they do not own. | Create an A.15.2 WorkPlan only when intended work is current. |
-| Copy the prerequisite result | Duplicated kind and signature can drift from the candidate expectation. | Reference the exact expectation. |
+| Copy or merely expect the prerequisite result | Duplicated kind and signature can drift from the candidate expectation, while an expectation alone proves no result or basis. | Reference the exact expectation and one current E.11.PUA closure finding; if its result or direct basis is absent, keep the precedence relation non-obtaining. |
+| Treat a context label as identity | A project, domain, or context label is made a participant or identity field for recommendation or coordination. | Identify the C.2.1 episteme from its claim content, EntityOfConcern, and effective reference scheme; keep every neighboring scope, model-use, work, and qualification relation separate. |
 | Treat recommendation as authorization | Guidance bypasses evidence, gate, commitment, or work governance. | Continue to the direct governing pattern for the stronger claim. |
 
 ### E.11.PUR:9 - Consequences
 
-**Benefits.** A team can explain why a pattern fits, why it is recommended, and how several uses relate without creating a false workflow. Reliance-bearing decisions remain replayable. Result-based precedence stays synchronized with the candidate expectation.
+**Benefits.** A team can explain why a pattern fits, why it is recommended, and how several uses relate without creating a false workflow. Reliance-bearing decisions remain replayable. Result-based precedence stays synchronized with both the candidate expectation and the exact directly grounded result closure.
 
 **Costs.** Consequential recommendations need explicit rationales and sometimes five addressable findings. Partial orders need pairwise relations. Ranking candidates that solve different questions produces an inadmissible comparison rather than a useful shortcut.
 
@@ -77285,7 +77387,7 @@ The score improved while first-result fit and receiving-use value worsened. Keep
 
 Applicability, recommendation, and coordination answer different questions. Applicability asks whether a candidate's conditions hold. Recommendation asks which applicable use best serves the current concern. Coordination asks how several candidate uses belong together. Keeping the questions separate prevents a familiar label or score from becoming an unexamined decision.
 
-Pairwise precedence is intentionally narrow. A graph of pattern uses can be unordered, partially ordered, or totally ordered. Only a current dependency justifies an edge, and only a prerequisite result justifies a result-expectation reference. This preserves graph structure without turning every explanation into a chain.
+Pairwise precedence is intentionally narrow. A graph of pattern uses can be unordered, partially ordered, or totally ordered. Only a current dependency justifies an edge. A prerequisite-result edge needs both the exact expectation and an E.11.PUA closure whose directly governed result and category-correct basis satisfy the stated condition; neither a result label nor an expectation can do so. This preserves graph structure without turning every explanation into a chain or minting a generic result relation.
 
 ### E.11.PUR:11 - SoTA-Echoing
 
@@ -77305,7 +77407,7 @@ Reopen the score-proxy adaptation when stronger evaluation evidence shows that t
 ### E.11.PUR:12 - Relations
 
 - **Builds on:** `E.11.PUA` for candidate uses, expectations, rationales, and boundaries; `A.6.5` for slot discipline; and `E.18` for coupled-flow relations when results cross flows.
-- **Coordinates with:** `E.11` for public discovery, `A.19` and `A.19.ECS` for subject comparison, `E.18.1` for P2W, `G.11` for currentness orchestration, and the direct pattern governing any plan, work, gate, evidence, decision, or authorization claim.
+- **Coordinates with:** `E.11` for public discovery; `C.22.PFR` when an actual Problem is relied on; `A.19` and `A.19.ECS` for characteristic-space construction and `A.19.CPM` for an actual comparison application; `E.18.1` for P2W; `G.11` for currentness orchestration; and the direct pattern governing any plan, work, transformation, gate, evidence, decision, authorization, result entity, or category-correct result basis.
 - **Leads to:** `E.11.PUA` for applying the recommended pattern, or to the exact neighboring pattern when the recommendation makes a stronger subject claim current.
 
 ### E.11.PUR:End
@@ -77605,6 +77707,10 @@ Use this pattern when FPF text needs to stay readable as one human working model
 
 **What this buys.** A working reader sees one small model first, while assurance readers can still recover mapping, logical, constructive, and empirical grounding without forcing that machinery back into the Working-Model vocabulary.
 
+**Ordinary route.** Write the shortest practitioner sentence that names the governed object, the bounded claim, and the use it supports. If no assurance-bearing reliance question is current, let the reader stop there. When such a question is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that same sentence and keep every cited value under its direct owner.
+
+**Not this pattern when.** Do not use E.14 to decide whether a relation obtains, Work occurred, a result was constituted, evidence or assurance passes, a method applies, work is ready, a gate passed, or permission is current. Use the pattern that owns that exact claim. E.14 governs the human-first publication order and the recoverability of support; it supplies none of those domain results.
+
 ### E.14:1 - Intent
 
 Establish a **single, human‑centric Working‑Model** that practitioners can read, discuss, and evolve **without exposure to formal machinery**.
@@ -77679,8 +77785,10 @@ Where episteme-publication-heavy or transform-heavy patterns need a compact onto
 
 This is a reading-order rule rather than a demand that every reader consume the assurance text first.
 The point is to keep the human-facing Working-Model text primary while preserving a recoverable, auditable assurance text beneath it.
+
+When empirical evaluation is current, keep the same reading order. The recognition text states the ordinary subject claim first. The assurance text keeps an intended evaluation in its exact `U.WorkPlan`, names the selected `U.Method`, and cites a separately constituted `U.MethodDescription` episteme only when the current plan, execution claim, or evaluation interpretation actually relies on that edition. It then identifies the exact dated evaluation `U.Work`, every admitted `U.System` that performed it, each exact obtaining `U.RoleAssignment` under which that system performed it for the attributed extent, and the actual `enactsMethod` relation. The system acts; a Working-Model, pattern, plan, method, method description, record, result, evidence path, provenance value, or assurance claim does not. Intended evaluation is not dated evaluation Work merely because the plan, criterion, method, description, or evidence is available.
 > **E.14‑P.1 – Working‑Model first, stance explicit.**  **
-> Operate one **Working-Model** for all human-facing discussion. For **each** assertion, the author **SHALL declare** an assurance posture (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** (term-to-kind alignment through Lang-CHR or D-Projection), **Logical** (label-meaning rules, scope, and constraints), **Constructive** (a C.2.1 construction-trace episteme about independently grounded facts), and **Empirical Validation** (an evidence-use relation for the claim, with scope, timespan, provenance, and declared `U.BoundedContext`). None of these shoulders creates the governed value, relation occurrence, or identity it supports.
+> Operate one **Working-Model** for all human-facing discussion. For **each** assertion, the author **SHALL declare** an assurance posture (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** for term-to-governed-value alignment through the current Kind-CAL/Lang-CHR route; **Logical** for exact label meaning, scope, constraints, and limits; **Constructive** for an inspectable C.2.1 construction-trace account of independently grounded facts; and **Empirical Validation** for an exact domain-local result and its A.10 evidence-provenance or reliance relation plus any separately current B.3 assurance claim when observation is current. Each shoulder names its direct objects, scope, and qualification window. None creates the governed value, subject relation, work occurrence, or result it supports.
 
 > **E.14‑P.2 – Downward‑only dependency.**
 > Information **may** flow from the Working‑Model down into any Assurance layer; **no Assurance layer may impose vocabulary or shape back upward** into the Working‑Model.
@@ -77699,7 +77807,7 @@ The point is to keep the human-facing Working-Model text primary while preservin
 > No new Working‑Model relation types are introduced if the existing Logical label-meaning rules plus Constructive grounding suffice to capture the intended meaning.
 
 > **E.14‑P.7 – Evidence is first-class claim grounding.**
-> When *postulate* is chosen, authors **SHALL** attach an **evidence pointer** (Empirical Validation) appropriate to the claim and context, governed as an evidence-use relation within a declared `U.BoundedContext`.
+> When *postulate* is chosen, authors **SHALL** name the exact target claim, `U.ClaimScope`, qualification window, direct domain result and result episteme when current, and the A.10 evidence-provenance relation used for this bounded reliance. If an assurance claim is made or B.3's material-reliance threshold is met, the current B.3 assurance claim is separate and required for that assurance-bearing use. A pointer, stored record, provenance value, or assurance tuple alone supplies none of these facts.
 
 > **E.14‑P.8 – Working-model-first is not explanation-thin.**
 > Human-facing parsimony does **not** license under-explained pattern prose. When a pattern claims a Working‑Model benefit, it **SHALL** still provide enough problem framing, rationale, and worked slices that readers can tell what the model clarifies, what remains on the assurance shoulders, and when a heavier review path is required.
@@ -77753,11 +77861,13 @@ This section defines **what each layer is for**, **what it guarantees**, and **h
 
 *(Rationale: constructive assurance makes the facts and identity tests behind ordinary part-whole talk inspectable; it does not substitute an author narrative for those facts.)*
 
-#### E.14:5.5 - Assurance‑4: Empirical Validation (from claims to observed world)
+#### E.14:5.5 - Assurance-4: Empirical Validation (from claims to observed world)
 
-**Purpose.** Record when and where a Working-Model claim meets reality.
-**Guarantee.** Every empirical binding names a **`U.BoundedContext`**, a **target claim/scope**, and a **timespan**; **staleness/refresh** are managed per context policy.
-**Deliverable.** An evidence-use relation or provenance/evidence pointer anchored into the Evidence-Provenance chain; it names the target claim, scope, bounded context, timespan, and provenance anchors. Empirical Validation contributes **LA** (raises empirical **R** and constrains **G** to its validated envelope).
+**Purpose.** Make the empirical basis and bounded admissible use of one Working-Model claim inspectable without turning evidence, provenance, or an assurance record into the subject result.
+
+**Guarantee.** Every empirical assurance use names the exact target claim, `U.ClaimScope`, qualification window, and direct result owner. When the claim depends on evaluation or measurement, it also names the exact dated Work, performer `U.System`, obtaining `U.RoleAssignment`, selected `U.Method`, any separately relied-on `U.MethodDescription`, actual direct participants or A.6.1 bindings, and the domain-local result plus its C.2.1 result episteme. A.10 supplies the exact evidence-provenance path and bounded reliance disposition; B.3 supplies any assurance claim. Those objects can support or qualify the Working-Model claim but create neither the subject fact nor one another.
+
+**Deliverable.** Keep the ordinary Working-Model sentence first. Beneath it, expose only the exact result, work, provenance, currentness, and assurance relations that the current use consumes. Intended evaluation remains in `U.WorkPlan` until dated Work occurs. If a claim that evaluation Work first constituted the result episteme is separately current, A.15.PROD alone recovers that local entity-identity inception claim; no universal work-result, evidence-result, or production relation is implied. Expiry, evidence ageing, or changed source, method, calibration, result, qualification window, provenance, or assurance basis ends only the reliance that consumes that support and requires its direct owner to be re-evaluated. In B.3 terms Empirical Validation contributes on the LA shoulder; B.3 alone computes any effect on reliability R or claim scope G, and G cannot extend beyond the exact supported scope and qualification window.
 
 #### E.14:5.6 - The downward grounding for a single Working-Model statement
 
@@ -77766,7 +77876,7 @@ Consider a Working‑Model arrow **A –Component‑of→ B**:
 1. **Mapping** shows that the words *A* and *B* are the chosen labels for their kinds; it records background source labels without making them displayed Working-Model names.
 2. **Logical** confirms that **Component‑of** in the Working-Model text means the **structural reading** with its ordinary mereological expectations; if the Working-Model text used *Member‑of* instead, Logical would similarly certify the intended reading and its boundaries.
 3. **Constructive** links the published assertion to one current C.2.1 trace episteme that reports the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions in a `sum`, `set`, or `slice` form. The author declares `validationMode=axiomatic` as the assurance posture. The direct relation and identity tests remain decisive; the trace and mode create neither.
-4. **Empirical Validation** records the **evidence pointer** and scope that make the claim auditable within its `U.BoundedContext` (required for *postulate*; optional reinforcement for other stances).
+4. **Empirical Validation** names the exact empirical claim and scope, the domain-local result and result episteme when current, the dated evaluation or measurement Work and actual bindings required by that result's direct owner, its qualification window, the A.10 evidence-provenance path, and any separately current B.3 assurance claim. Those objects support this bounded use; they do not create the result or make the structural relation obtain.
 
 Together, these assurance shoulders and empirical evidence-use relation **ground the human arrow without leaking their machinery upward**. The Working‑Model remains simple; the Assurance stack carries the proof.
 
@@ -77780,14 +77890,25 @@ Together, these assurance shoulders and empirical evidence-use relation **ground
 * **Assurance (downward grounding).** When higher assurance is sought, first recover the exact skid, parts, direct fastening, coupling, enclosure, terminal, flange, and seal occurrences, the applicable skid assembly rule, and the skid reidentification rule. Then link the published claim to one current C.2.1 `sum` trace that reports those facts and declare the assurance posture. The account remains below the Working-Model; order and time stay in their own relation families.
 * **Canonization move.** Readers continue to see Working‑Model relations as the primary Working-Model text; the constructive story is *supporting*, not *defining*.
 
-#### E.14:6.2 - `U.Episteme` - Working-Model first; Logical and Mapping preferred; Empirical evidence as appropriate
+#### E.14:6.2 - `U.Episteme` - Working-Model first; Logical, Mapping, and exact empirical support as appropriate
 
-* **Publication (Working‑Model).** Authors connect meaning-bearing epistemes or publications using knowledge relations (e.g., **RepresentationOf**, **UsageOf**) in the same human‑oriented style.
-* **Assurance (downward grounding).** Here assurance typically uses the **Logical** or **Mapping** shoulders (reasoned argument; type/lexical alignment). **Empirical Validation** is used where observation is the right currency: an episteme, observation, or work result is used in an evidence-use relation for a target claim with explicit scope, context, time, and provenance. Constructive grounding is optional and used only where a structural interpretation is genuinely intended.
-* **Canonization move.** Again, Working‑Model text is the public form; assurance is attached deliberately and separately, without leaking method or time semantics into structure.
+* **Publication (Working-Model).** Authors connect meaning-bearing epistemes or publications using exact knowledge relations (for example, **RepresentationOf** or **UsageOf**) in the same human-oriented style.
+* **Assurance (downward grounding).** Logical or Mapping assurance often suffices for interpretation and alignment. When observation is the right currency, name the exact target claim, scope and window, dated evaluation or measurement Work, performer system and obtaining assignment, enacted Method, any relied-on MethodDescription, actual direct participants or A.6.1 bindings, domain-local result and result episteme, A.10 evidence-provenance path, and any B.3 assurance claim. A record, provenance value, or assurance tuple is not the observation, Work, or result.
+* **Canonization move.** Working-Model text remains the public form; the exact result and support chain stays available underneath without leaking method, record, or time semantics into the subject claim.
 
-**6.3 - Pattern lesson (both cases)**
-The **Working-Model layer remains the canonical publication face** for authors and assurance readers; **assurance layers** (Mapping, Logical, and Constructive) are **opt-in** and used purposefully, with grounding flowing **downwards** from the Working-Model to the appropriate shoulder. This presentation respects the authoring template's *Archetypal Grounding* requirement and keeps notational choices illustrative rather than defining.
+#### E.14:6.3 - Pump-vibration measurement: short recognition, exact assurance underneath
+
+**Recognition text.** `Pump-37 vibration at 09:00 was 2.1 mm/s with stated uncertainty 0.2 mm/s under the current inspection method.` A maintenance reader can use that bounded statement and stop before the machinery below. It does not by itself say the pump passes a maintenance criterion, that work may start, or that any gate or permission is current.
+
+**Assurance text.** `Pump37InspectionPlan-E3 : U.WorkPlan` had designated the intended measurement and selected `PumpVibrationMeasurementMethod-E2 : U.Method`; it cited `PumpVibrationProcedure-E5 : U.MethodDescription` only for the setup and calibration claims used by the plan. Dated `Pump37VibrationMeasurement-2026-07-31T0900 : U.Work` was performed by `ConditionMonitoringSystem-7 : U.System` under obtaining `RA-ConditionMonitoring-7-E4`, enacted that Method, and used exact C.16/A.6.1 bindings for `Pump-37`, the sensor indication, calibration coefficients, and returned measurement value.
+
+C.16 owns the domain-local measurement result and C.2.1 identifies `Pump37VibrationResult-E4`, the episteme that states it under the exact Characteristic, Scale, unit, uncertainty, time stance, and interpretation basis. A.10 path `Pump37MeasurementProvenancePath-E6` cites the calibration, Work, bindings, and source publications; B.3 assurance claim `Pump37MeasurementAssurance-E2` qualifies only the stated use and window. Neither provenance nor assurance is the measurement result. No A.15.PROD claim is needed merely because the result episteme exists; open that pattern only if a separately current question asks whether the exact measurement Work first constituted that episteme.
+
+**What changes in practice.** A reader sees the usable statement first, can inspect the exact work/result/support chain when reliance matters, and returns to the maintenance-criterion, readiness, gate, or permission owner if the next decision asks one of those different questions.
+
+#### E.14:6.4 - Pattern lesson
+
+The **Working-Model layer remains the canonical publication face** for authors and assurance readers. Mapping, Logical, Constructive, and Empirical assurance are purpose-selected shoulders beneath it. They preserve a short recognition route while keeping exact direct facts, work, local results, provenance, assurance, and currentness recoverable under their own governors.
 
 ### E.14:7 - Bias-Annotation *(what to watch for, and the counter-moves)*
 
@@ -77817,7 +77938,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 | **CC‑E14‑8 (Template compliance).**        | Sections **SHALL** follow the canonical pattern order; *Archetypal Grounding* is mandatory for architectural patterns.                                                                            | Keep patterns comparable and auditable by reading.            |
 | **CC‑E14‑9 (Progressive formality).**      | Authors **SHOULD** escalate assurance deliberately (from working claim to reasoned to constructive), and use **Empirical Validation** where observation is the right currency.    | Support staged formality without overloading early drafts.  |
 | **CC-E14-10 (Structural grounding handshake).** | A published structural assertion **SHALL** declare the author's `validationMode=axiomatic` posture and link through `tv:groundedBy` to exactly one current C.2.1 construction-trace episteme in a C.13 `sum`, `set`, or `slice` form. The direct relation pattern and the candidate's identity or reidentification rule decide occurrence and continuity; the trace and mode create neither and guarantee no timelessness. | Makes the assertion's construction basis inspectable while keeping ontology, identity, assurance, and currentness separate. |
-| **CC‑E14‑11 (Empirical bindings).**        | When `validationMode=postulate` (or when adding real-world confirmation), authors **SHALL** bind evidence through an evidence-use relation in a declared `U.BoundedContext`, with an explicit target claim, scope, **timespan**, and provenance anchors. | Aligns with Evidence Graph Referring and empirical ageing policies. |
+| **CC‑E14‑11 (Empirical bindings).** | When `validationMode=postulate` or real-world confirmation is current, authors **SHALL** name the exact target claim, scope, qualification window, dated evaluation or measurement Work, performer system and obtaining assignment, enacted Method, actual direct participants or A.6.1 bindings, domain-local result and result episteme, A.10 evidence-provenance path, and any separately current B.3 assurance claim. | Keeps work, result, evidence, provenance, assurance, and subject truth distinct and replayable. |
 | **CC-E14-12 (F-declaration).**             | Normative Working-Model publications **SHALL** declare `U.Formality = Fk` per **C.2.3** (**recommended F ≥ F3** for readable publications). Assurance publications or records **MAY** carry higher F; **min-F** applies to composites. | Aligns E.14 with the unified Formality characteristic; avoids obsolete “tiers/modes”. |
 | **CC‑E14‑13 (Light records, not thin prose).** | Authors **SHALL NOT** use the Working‑Model-first stance as a reason to strip problem framing, rationale, or worked slices out of the pattern text. Ordinary use may stay light, but readers **MUST** still be able to understand the pattern without nearby project notes. | Keeps human-facing economy from collapsing into under-explained prose. |
 | **CC‑E14‑14 (Recognition text before assurance text).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep recognition-first working text distinct from the heavier assurance text. The assurance text **MAY** refine and justify the working text, but it **SHALL NOT** silently change the recognition-text claim. If the pattern claims broad or transdisciplinary reach, the working text **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |
@@ -83005,16 +83126,16 @@ This relation is deliberately narrow. `E.18.3` can carry the transformation-flow
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part E -> E.18 child pattern
-> **Builds on:** `E.18` Transformation Flow Structure, `C.22.2` ProblemCard@Context, `A.6.0` `U.Signature`, `A.6.1` `U.Mechanism`, `A.3.4` actual bounded change, the A.15 work family, `A.15.PROD` local production-claim recovery, `A.6.RCD` exact missing-governor disposition, `A.6.REL` relation-occurrence and receiving-use discipline, `A.6.P` relational precision restoration, `A.6.P.WMR` wording-to-relation recovery, `C.29`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `F.8`, `F.18`, `F.17`, `F.9`, `G.5`, `G.9`, `G.11`, `A.20`, and `A.21`.
+> **Builds on:** `E.18` Transformation Flow Structure, `C.22.2` ProblemCard@Context, `A.6.0` `U.Signature`, `A.6.1` `U.Mechanism`, `A.3.1` `U.Method`, `A.3.2` `U.MethodDescription` membership, `A.3.4` actual bounded change, the A.15 work family, `A.15.PROD` local production-claim recovery, `A.6.RCD` exact missing-governor disposition, `A.6.REL` relation-occurrence and receiving-use discipline, `A.6.P` relational precision restoration, `A.6.P.WMR` wording-to-relation recovery, `C.29`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `F.8`, `F.18`, `F.17`, `F.9`, `G.5`, `G.9`, `G.11`, `A.20`, and `A.21`.
 > **Purpose:** preserve selected distinctions from an accepted problem-side record as method selection, planning, performed work, result interpretation, and return become current.
 
 ### E.18.1:1 - Problem frame
 
 Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide work, but the next FPF use is unsettled. Ask which accepted distinction should shape the next question, which relation and participants that question asserts, and what result or stop is needed before the next action.
 
-The accepted `ProblemCard@Context` is the primary `EntityOfConcern` of any materialized P2W note. Start from one accepted claim and one decision or use that needs it. Then state the relation being asserted, name its participants, and apply the pattern that governs that relation. A separately current `U.Viewpoint` episteme or `BoundedModelUseStructure` may participate in the carry-through claim, but neither becomes an identity field of the ProblemCard or note. Method selection, planning, dated work, actual change, result interpretation, and return remain separate continuations under their direct patterns. P2W introduces no relation kind or occurrence and is neither dated work nor a `U.Transformation`.
+The accepted `ProblemCard@Context` is the primary `EntityOfConcern` of any materialized P2W note. Start from one accepted claim and one decision or use that needs it. Then state the relation being asserted, name its participants, and apply the pattern that governs that relation. A separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` participates only when the claim designates that object and its organization changes how the receiving claim is interpreted; neither becomes an identity field of the ProblemCard or note. Method selection, planning, dated work, actual change, result interpretation, and return remain separate continuations under their direct patterns. P2W introduces no relation kind or occurrence and is neither dated work nor a `U.Transformation`. A governing-pattern reference, selected continuation, recommendation, imperative sentence or intended realization does not admit any episteme as `U.MethodDescription`; A.3.2 requires one already identified C.2.1 episteme, one independently admitted `U.Method` as its exact EntityOfConcern, and at least one substantive way-of-doing claim.
 
-Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note. The note is identified under `C.2.1` by its ClaimGraph, that exact card, and its effective `U.ReferenceScheme`; its ClaimGraph names the receiving use and designates a separate viewpoint or model-use structure only when the claim actually uses one. The **subject EntityOfConcern** of each direct pattern is the system, episteme, method, role, work occurrence, relation, or other project entity addressed by that pattern. The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those direct claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
+Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note. The note is identified under `C.2.1` by its ClaimGraph, that exact card, and its effective `U.ReferenceScheme`; its ClaimGraph names the receiving use and designates a separately identified viewpoint or model-use structure only when the claim uses that object and its organization changes how the receiving claim is interpreted. The **subject EntityOfConcern** of each direct pattern is the system, episteme, method, role, work occurrence, relation, or other project entity addressed by that pattern. The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those direct claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
 
 **Primary reader and question.** The reader already has an accepted `ProblemCard@Context` and must decide one next claim. Ask in ordinary words: **what relation am I asserting, between which participants, and what result would change the next action?** Then apply the pattern that governs that relation. Source wording or a supporting episteme may help formulate the question but does not supply the downstream result.
 
@@ -83064,7 +83185,21 @@ P2W solves a carry-through problem. First say which accepted claim must affect w
 
 ### E.18.1:4 - Solution
 
-**Local P2W mantra.** The five actions below form the local P2W `mantra`: a short repeatable formulation that keeps this pattern's Solution in attention. The Plain names add memorability, not a new kind or a project-work order.
+**Local P2W mantra.** Use this Plain recall formula for one working decision: *which exact P2W continuation, if any, is justified now?*
+
+> **Carry the accepted distinction — ask one relation question — apply its direct owner — keep its result or stop — reopen only the dependent continuation.**
+
+| Formula term | Governed value |
+| --- | --- |
+| Carry the accepted distinction | one exact accepted ProblemCard claim and the receiving decision or use that would change if the claim changed |
+| ask one relation question | one ordinary question with its exact participants; several independent claims are split |
+| apply its direct owner | the exact governing pattern for that relation or object, not a P2W-created relation or a presumed `U.MethodDescription` |
+| keep its result or stop | the exact result, reduced-use cue or blocker returned by that owner; no generic result token |
+| reopen only the dependent continuation | the smallest continuation that relied on a changed problem claim, measurement, source-use/currentness relation or other returned value |
+
+**Filled cooling use.** `ProblemCard@Context PC-FAB-042` says that method comparison must preserve the conserved heat-flow structure. The current decision is whether a mathematical-lens continuation is justified. Ask which structure the proposed lens preserves, which it loses, and where its use stops; apply `C.29`; keep the returned lens-use result. If the lens subject, declared use, preservation/loss account or stop is unresolved, stop this continuation and return to `C.29`. Do not advance by wording to method selection, planning or Work.
+
+The formula is neither `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, actual `U.Transformation`, CGUS nor a P2W relation. Imperative grammar and repetition establish none of those objects. The five rows below are a readable display of conditional continuations, not the mantra itself and not a project-work order.
 
 | Shown continuation | Direct pattern | Solution use | Expected result | Current condition |
 |---|---|---|---|---|
@@ -83074,17 +83209,19 @@ P2W solves a carry-through problem. First say which accepted claim must affect w
 | Continue, branch, or stop. | `E.18.1` | Keep one returned result, split results that answer different relation questions, or retain the cue and stop. | One continuation per answered question, or one explicit stop. | One question, several independent questions, or no answerable relation remains. |
 | Return locally after change. | The pattern governing the changed assumption, coordinated through `E.18.1`. | Return only to the smallest earlier P2W continuation affected by the changed assumption, then apply the direct pattern governing that continuation. | A local return with what still carries and what no longer carries stated. | Measurement, source currentness, problem-side content, or another relied-on assumption changed. |
 
-For conformance or pattern-authoring use, the same conditional continuations can also be admitted by `A.22.CGUS` as a `DemonstrativeUnfoldingSlice@Context`; each table row is then one mantra move restored to `DemonstratedPatternUseRow@Context`. This heavier reading is not required for ordinary P2W use, and the local CGUS need not be registered as a separate corpus object.
+If a selected CGUS already exists, an A.22 demonstrative slice may include this display in its ClaimContent for a declared use. The table itself admits no structure, continuation-row kind, relation occurrence, MethodDescription, plan or Work.
 
-The decision aid below helps the practitioner choose the one relation question to answer now. Fill a compact carry-through or replay note only when another person or later action must recover the path. The aid shows the accepted claim, concrete question, relation and participants, direct pattern, returned result or stop, and the smallest continuation to reopen after a relied-on result changes.
+Here and elsewhere in this pattern, *move* is Plain wording for the exact current use action or continuation: stating a question, applying a direct pattern, keeping its returned result, stopping, splitting or reopening. In another current case it may instead refer to an independently governed recommendation, PlanItem, admitted CGUS continuation, dated Work or actual Transformation. No universal Move object or shared identity connects proposed, chosen and performed work, and wording performs nothing.
+
+The decision aid below helps the practitioner choose the one relation question to answer now. Fill a compact carry-through or replay episteme only when another person or later action must recover the path. The aid shows the accepted claim, concrete question, relation and participants, direct pattern, returned result or stop, and the smallest continuation to reopen after a relied-on result changes.
 
 Choose the first of these three levels that lets the current reader act and any later reader replay the path truthfully:
 
 1. **Ordinary conversational use.** Repeat the local P2W mantra, state one concrete relation question and its participants, apply the direct pattern, use its result or stop, and finish. Write no P2W note when feedback is fast, the use is local, and nobody later needs to replay the path.
-2. **Reliance-bearing use.** Add the compact note in `4.1` when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse depends on recovering the accepted claim and direct continuation.
-3. **Structure-bearing use.** Add the exact `E.18.3` structure in `4.0b` only when branches, joins, guards, preserved structure, omitted-structure notes, path slices, or neighboring governed positions matter to the receiving use.
+2. **Reliance-bearing use.** Add the compact episteme in `4.1` when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse depends on recovering the accepted claim and direct continuation.
+3. **Structure-bearing use.** Add the exact selected structure governed by `E.18.3`, A.22.CGUS and, for independent members, E.18.NET in `4.0b` only when branches, joins, guards, preserved structure, omitted-structure notes, path slices, or neighboring governed positions matter to the receiving use.
 
-Move upward only when the transfer, audit, delayed-feedback, costly-reversal, automation, durable-reuse, or explicit-structure need in the corresponding row is present. More fields do not improve the subject result and do not substitute for applying the direct pattern.
+Choose a higher level only when its transfer, audit, delayed-feedback, costly-reversal, automation, durable-reuse or explicit-structure need is present. More fields do not improve the subject result and do not substitute for applying the direct pattern.
 
 **What is always needed, and what is optional.** The stable P2W core is only: one accepted problem-side claim; one receiving decision or use; one concrete relation-specific question; one direct pattern per independent claim; the result or honest stop returned by that pattern; a split when several claims are current; and the smallest local return when a relied-on result changes.
 
@@ -83092,21 +83229,20 @@ Move upward only when the transfer, audit, delayed-feedback, costly-reversal, au
 |---|---|---|
 | Accepted claim -> receiving use -> concrete question -> direct pattern -> result or stop -> split/local return | **Stable P2W core** | Sections `4.0`, `4.0a`, and `4.2`-`4.7` state this interface without copying the direct pattern's procedure. |
 | Compact positive, stop, or replay episteme | **Conditional reliance extension** | Open only for transfer, audit, delayed feedback, costly reversal, automation, or durable reuse; it records the core result and adds no prerequisite to conversational use. |
-| Explicit transformation-flow unfolding structure | **Conditional structure extension owned by `A.22.CGUS` / `E.18.3`** | Open only when branches, joins, guards, paths, preserved structure, or stop/return positions matter; P2W supplies no hybrid or shortened structure schema. |
+| Explicit transformation-flow unfolding structure | **Conditional structure extension owned by `A.22.CGUS`, `E.18.3` and, when applicable, `E.18.NET`** | Open only when branches, joins, guards, paths, preserved structure or stop/return positions matter; P2W supplies no hybrid or shortened structure schema. |
 | Development-loop and DPF didactic branches | **Conditional didactic extension** | Open only when cheap generation or a fast DPF seed raises one of the concrete questions in `4.1a` or `4.1b`. Apply the unchanged core to that question and use the Relations map once for an exceptional object; this extension is not a lifecycle, workflow, authority record, or second owner catalogue. |
-| Practice naming and publication | **Conditional publication extension owned by `F.8`, `F.18`, and `F.17`** | Open only when a public document, training material, or tool interface must cite the settled E.18.1 practice. Naming adds no core field or result. |
+| Practice naming and publication | **Conditional publication extension owned by `F.8`, `F.18`, and `F.17`** | Open only when a public document, training material, or tool interface must cite the settled E.18.1 practice. Naming adds no core field or result and does not admit MethodDescription membership. |
 | Relation obtaining, occurrence identity, reusable signatures, admission, production, evidence, gates, decisions, and other neighbouring doctrine | **Handled by the direct pattern, not a P2W extension** | The direct pattern defines the applicable result, assertion, or blocker. P2W cites that result and never copies the pattern's occurrence, derivation, admission, or assurance method. |
 
 No conditional extension may add a mandatory input to ordinary P2W use, change the kind or identity of a result returned by the direct pattern, or mutate the stable core. When an extension is not needed, omit it rather than filling its fields with generic placeholders.
 
-
-**Assurance scope by use.** For a materialized positive note, check the accepted ProblemCard edition, carried ClaimGraph slice, decision or use that relies on the result, effective ReferenceScheme, returned result kind and ref, direct pattern, and carry-through rationale. Check a separate `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the note's claim designates one. For a stop description, check that no result was fabricated and that the cue and stop are stated. The note is a `C.2.1` episteme about the accepted ProblemCard, not a P2W relation occurrence or `RelationSignature`. For practitioner guidance or conformance, verify that the mantra reaches one result or honest stop without making the note, structure, reader, or checklist perform work. Pattern authoring or review additionally replays the cases, owner boundaries, checklist, and no-new-kind and non-procedural boundaries. None of these checks adds Work, transformation, evidence, gate, or downstream subject facts.
+**Assurance scope by use.** For a materialized positive episteme, check the accepted ProblemCard edition, carried ClaimGraph slice, decision or use that relies on the result, effective ReferenceScheme, returned result kind and ref, direct pattern, and carry-through rationale. Check a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim designates that object and its organization changes how the receiving claim is interpreted. For a stop use, check that no result was fabricated and that the cue and stop are stated. The episteme is about the accepted ProblemCard under C.2.1, not a P2W relation occurrence or `RelationSignature`. For practitioner guidance or conformance, verify that the mantra reaches one result or honest stop without making the episteme, structure, reader or checklist perform work. Pattern authoring or review additionally replays the cases, owner boundaries, checklist, and no-new-kind and non-procedural boundaries. None of these checks adds Work, transformation, evidence, gate, MethodDescription membership or downstream subject facts.
 
 #### E.18.1:4.0 - P2W result without a new relation species
 
 An ordinary P2W application is a practitioner move: preserve one accepted problem-side claim, name the receiving decision or use, ask one concrete question per independent relation, and keep only the result or stop returned by the pattern that governs that relation. This move introduces no `ProblemToWorkCarryThroughRelation@Context`, reusable predicate definition, `RelationSignature`, or P2W relation occurrence.
 
-When transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires another person or later action to replay the claim, use the `C.2.1` episteme in `4.1`. Its identity is its ClaimGraph, the accepted `ProblemCard@Context` as EntityOfConcern, and the effective `U.ReferenceScheme`. The ClaimGraph records the accepted card edition and carried claim slice, decision or use relying on the result, concrete question, direct pattern, returned result kind and ref or exact stop, and why the carried content remains relevant. It designates a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when that object participates in the claim; neither becomes another identity discriminator. These are use-specific claim contents, not SlotSpecs of another relation species; the returned result retains its own kind, relation semantics when applicable, identity, and direct pattern.
+When transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires another person or later action to replay the claim, use the `C.2.1` episteme in `4.1`. Its identity is its ClaimGraph, the accepted `ProblemCard@Context` as EntityOfConcern, and the effective `U.ReferenceScheme`. The ClaimGraph records the accepted card edition and carried claim slice, decision or use relying on the result, concrete question, direct pattern, returned result kind and ref or exact stop, and why the carried content remains relevant. It designates a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim uses that object and its organization changes how the receiving claim is interpreted; neither becomes another identity discriminator. These are use-specific claim contents, not SlotSpecs of another relation species; the returned result retains its own kind, relation semantics when applicable, identity, and direct pattern.
 
 The conversational, transfer, audit, delayed-feedback, automation, and durable-reuse cases in this pattern need a truthful, replayable claim; none asks whether repeated P2W relation occurrences are the same individual. The conversational move, optional positive note, and stop description therefore close those uses without a relation-kind candidate. `A.6.RCD`, `E.24`, `E.24.UK`, `A.6.0`, and relation-species naming do not open. If a later use asks whether a P2W relation occurrence persists, recurs, ceases, or participates in another relation, reopen `A.6.RCD` and obtain the direct subject settlement and admission before declaring or instantiating such a kind.
 
@@ -83127,73 +83263,64 @@ The table below is the complete P2W-local decision aid. It asks only what result
 | Which continuations remain current? | One or more separate results from their direct patterns, or no continuation. | Keep one continuation per answered question; display order and chronology add no relation. |
 | What changed later? | The changed relied-on relation and the smallest dependent continuation. | Reapply its direct pattern and reopen only that continuation. |
 
-When the conditional structure extension opens, `A.22.CGUS` and `E.18.3` supply the admitted structure, typed positions, SlotSpecs, relation references, and stop or return boundaries. P2W adds only its accepted claim, receiving use, one returned result or honest stop, split, and local return; it adds no structure field. Plain actions such as `carry`, `recover`, `write`, `split`, `stop`, and `return` guide use of the method. They are not P2W relation kinds, commitments, permissions, gates, or substitutes for the direct pattern's rules.
+When the conditional structure extension opens, `A.22.CGUS` and `E.18.3` supply the admitted structure, typed positions, SlotSpecs, relation references, and stop or return boundaries. P2W adds only its accepted claim, receiving use, one returned result or honest stop, split, and local return; it adds no structure field. Plain actions such as `carry`, `recover`, `write`, `split`, `stop`, and `return` guide this P2W use. They are not P2W relation kinds, commitments, permissions, gates, or substitutes for the direct pattern's rules.
 
 
 #### E.18.1:4.0b - Conditional structure extension through E.18.3
 
-Open this extension only when the reader must show explicit branches, joins, guards, paths, preserved structures, omitted-structure notes, or distinct stop and return positions. `E.18.3` supplies the complete `ConstraintGovernedTransformationFlowUnfoldingStructure@Context` specialization, while `A.22.CGUS` supplies its generic `ConstraintGovernedUnfoldingStructure@Context`, reference relations, typed positions, admissible next forms, and use-boundary relations. E.18.1 declares no P2W subset schema and no hybrid record that mixes fields from those two patterns.
+Open this extension only when the reader must show explicit branches, joins, guards, paths, preserved structures, omitted-structure notes, or distinct stop and return positions. A.22.CGUS selects one exact `U.Structure` by its independently identified constituents, selected obtaining relation occurrences, applied constraints and named selection-use frame. `E.18.3` recognizes that same selected structure under its additional transformation-flow unfolding condition and reuses exact E.18 positions and directly governed relation references. E.18.1 declares no P2W subset schema, wrapper relation or hybrid record.
 
-| P2W need in the structure-bearing use | Representation supplied by the direct pattern | P2W boundary |
+| P2W need in the structure-bearing use | Representation supplied by the direct owner | P2W boundary |
 |---|---|---|
-| Cite the accepted starting `ProblemCard@Context` | The underlying A.22.CGUS `acceptedStartingRecordReferenceRefs[]` cites one `UnfoldingStructureReferencedValueRelation@Context` with `referenceKind=acceptedStartingRecord`, exact ProblemCard kind/ref, and `C.22.2` as direct owner. | The accepted card remains a record; it does not become the transformation-flow structure or one of its positions. |
-| Expose transformation-flow topology or positions defined by neighbouring patterns | The E.18.3 `transformationPositionRefs[]`, `governingPatternPositionRelationRefs[]`, path or slice refs, and relation-reference epistemes needed by the stated decision or use. | E.18.3 and the direct neighbouring patterns define those values; P2W neither shortens their schemas nor turns display order into project-work order. |
-| Preserve the carried claim and why the decision or use needs it | Conversational P2W content or the compact note in `4.1`; if the structure relies on that episteme, cite it through the reference relation supplied by `A.22.CGUS` or `E.18.3`. | No `carriedProblemCardClaimGraph` or receiving-use field is added to the E.18.3 structure. |
-| State a stop or the smallest return | E.18.3 `stopBoundaryRef` and `governingPatternReturnBoundaryRefs[]`, backed by the corresponding A.22.CGUS boundary relations. | Stop and return remain distinct boundaries defined by A.22.CGUS and E.18.3; P2W contributes only the local continuation that stops or reopens. |
+| Cite the accepted starting `ProblemCard@Context` | Select that already identified C.22.2 episteme as one constituent only when the admitted A.22/E.18.3 structure and receiving use actually include it. | The accepted card remains a record; selection, a field or adjacency does not make it the structure, a position, a relation occurrence, MethodDescription or Work. |
+| Expose transformation-flow topology or positions | Use the exact E.18.3 positions, E.18 bindings and separately admitted relation-reference epistemes or obtaining occurrence refs needed by the stated decision or use. | E.18.3 and the direct neighbouring patterns own those values; P2W neither shortens their interfaces nor turns display order into project-work order. |
+| Preserve the carried claim and why the decision or use needs it | Use conversational P2W content or the compact C.2.1 episteme in `4.1`; cite an exact source, derivation or receiving-use relation only when its direct owner admits it. | P2W adds no carried-claim field to structure identity, and file history or shared wording creates no source-use relation. |
+| State a stop or the smallest return | Use the admitted structure's named selection-use frame, exact guard or constraint claim, ordinary stop, return condition and exact neighboring governor. | P2W contributes only the local continuation that stops or reopens; a boundary sentence creates no relation, gate, permission or Work. |
 
-If explicit structure is not required, use the stable conversational core. If transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires replay but not structure, use the compact positive note or stop description in `4.1`. If the next question is work-facing, apply the A.15 family before claiming a plan, readiness, launch, or performed `U.Work`. `G.11` handles source currentness; `E.18` handles transformation-flow refresh; P2W reopens only the smallest affected application.
+Before choosing the structure branch, distinguish three cases. Several `FlowValuation` values that resolve to one exact `TransformationFlowStructure` remain valuations of that one TFS. A detailed internal portion that resolves only through the same TFS positions and internal `U.Transfer` occurrences remains one parent-relative `SubflowRef`. Two or more independently identified TFS or nested-network values connected across their boundaries by exact already-obtaining relations require one E.18.NET `TransformationFlowStructureNetwork`; do not flatten them into one giant TFS. Every network member retains its own boundary, Work, actual transformations, valuations and leaf-local position binding or `DesignRunTag`. Each nested boundary reference resolves through one finite acyclic `memberPath[]` to an exact `ExposedFlowPositionRef`; each selected cross-boundary claim cites its exact obtaining occurrence and complete ordered endpoint bindings through one resolvable `NetworkCrossFlowRelationRowRef`. Membership is acyclic, while directly governed feedback relations may cycle.
 
-#### E.18.1:4.1 - Compact carry-through note (conditional reliance extension)
+If explicit structure is not required, use the stable conversational core. If replay but not structure is required, use `4.1`. If the next question is work-facing, apply the A.15 family before claiming a plan, readiness, launch or dated `U.Work`. `A.3.4` owns each actual transformation and `A.15.PROD` owns only the exact production-work, identity-inception or completion claim currently made. `G.11` handles source currentness; `E.18` handles one-TFS slice-local refresh; E.18.NET handles independent members and exact cross-member occurrences. P2W reopens only the smallest affected application.
 
-Open this extension only when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse requires someone to replay the stable P2W core. It records a result already returned by a direct pattern or an honest stop; it is not a prerequisite for conversational use and does not widen the core.
+#### E.18.1:4.1 - Compact carry-through episteme (conditional reliance extension)
+
+Open this extension only when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse requires someone to replay the stable P2W core. Materialize one ordinary C.2.1 episteme whose exact EntityOfConcern is the accepted `ProblemCard@Context`, whose ClaimContent is the current positive or stopped carry-through account, and whose effective ReferenceScheme governs its designations. *Carry-through note* and *stop description* are Plain use labels for those two ClaimContent shapes, not local U-kinds or relation species.
+
 ```text
-ProblemToWorkCarryThroughNote@Context <: U.Episteme:
-  claimGraph: U.ClaimGraph by value
-  entityOfConcernRef: U.EpistemeRef, referencing one accepted ProblemCard@Context
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  carriedProblemCardClaimGraph: U.ClaimGraph by value
-  nextPracticalQuestionDescriptionRef: U.EpistemeRef
-  directGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-  governedValueKindRef: U.KindRef
-  governedValueRef: U.EntityRef
-  carryThroughRationaleDescriptionRef: U.EpistemeRef
-  localNonOverreadDescriptionRef?: U.EpistemeRef
-  precedingCarryThroughNoteRef?: U.EpistemeRef, referencing one ProblemToWorkCarryThroughNote@Context
-  continuationDescriptionRefs[1..*]: U.EpistemeRef
-  returnConditionDescriptionRef?: U.EpistemeRef
-
-ProblemToWorkStopDescription@Context <: U.Episteme:
-  claimGraph: U.ClaimGraph by value
-  entityOfConcernRef: U.EpistemeRef, referencing one accepted ProblemCard@Context
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  reducedUseCueDescriptionRef: U.EpistemeRef
-  nextPracticalQuestionDescriptionRef: U.EpistemeRef
-  stopConditionDescriptionRef: U.EpistemeRef
-  returnConditionDescriptionRef?: U.EpistemeRef
+carryThroughClaimContent:
+  acceptedProblemCardEditionRef
+  carriedProblemCardClaimSlice
+  receivingDecisionOrUse
+  nextPracticalQuestion
+  directGoverningPatternRef: exact governing-pattern identifier or reference
+  returnedResultKindRef?: exact kind returned by that pattern
+  returnedResultRef?: exact positive result, relation occurrence, assertion or description
+  honestStop?: exact blocker or reduced-use cue returned by that pattern
+  carryThroughRationale
+  localNonOverread?
+  precedingCarryThroughEpistemeRef?: replay/source pointer only, with an exact relation when continuity or derivation is claimed
+  continuationDescriptions[]: one direct pattern and one question or use per continuation
+  returnCondition?
 ```
-Use `ProblemToWorkCarryThroughNote@Context` only after the selected direct pattern has returned a positive result for the stated question. Under `C.2.1`, the note is identified by `<claimGraph, entityOfConcernRef, effectiveReferenceSchemeRef>`: its claim content, the accepted ProblemCard as EntityOfConcern, and the effective ReferenceScheme. The ClaimGraph states the decision or use relying on the result, carry-through claim, and rationale. When a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` participates in the claim, the ClaimGraph designates it; otherwise no surrogate field is filled. The note, its claim, and its optional predecessor reference are neither a reusable predicate definition nor a P2W relation kind or occurrence. Use `ProblemToWorkStopDescription@Context` when the direct pattern instead returns a blocker or only a reduced-use cue; record that returned reason and stop without fabricating a positive relation. `U.EpistemeRef` is the admissible reference kind for citing either episteme.
 
-A positive note is well formed only when the named result kind is one that the direct pattern actually returns for the stated question, the carried ClaimGraph content remains relevant to the receiving use, and every continuation stays separate. When the result is a relation occurrence, assertion, or description, the note cites that exact object; the direct pattern retains its obtaining or claim basis, occurrence-identity rule, and any receiver-conditioned reusable declaration or typed SlotSpecs. P2W adds no relation-specific field or sufficiency rule. A predecessor note supports replay only and does not establish identity or continuity of another occurrence.
+A positive use fills the exact returned result and leaves `honestStop` absent. A stopped use fills the returned blocker or reduced-use cue and fabricates no positive result. When the claim uses a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` and that object's organization changes how the receiving claim is interpreted, the ClaimContent designates it; otherwise no surrogate field is filled. A governing-pattern ref is not thereby a `U.MethodDescription`. The episteme, its claim and its predecessor pointer are neither a reusable predicate definition nor a P2W relation kind or occurrence.
 
-For first-minute use, state the question, apply the direct pattern, and continue with its result or stop. Materialize a `ProblemToWorkCarryThroughNote@Context` only when transfer, audit, delayed feedback, automation, or durable reuse requires replay; materialize a `ProblemToWorkStopDescription@Context` when that replay must preserve a bounded stop. The positive note names the accepted problem card, decision or use relying on the result, next practical question, and direct continuation. The stop description names the accepted problem card, cue, next question, and stop condition. Neither episteme becomes a relation or substitutes for the result produced by the direct pattern.
+A positive use is well formed only when the named result kind is one that the direct pattern actually returns for the stated question, the carried ClaimGraph content remains relevant to the receiving use, and every independent continuation stays separate. When the result is a relation occurrence, assertion or description, cite that exact object; the direct pattern retains its obtaining or claim basis, occurrence-identity rule and any receiver-conditioned reusable declaration or typed SlotSpecs. A predecessor pointer supports replay only and establishes neither episteme continuity nor another occurrence.
 
-Each continuation names one direct pattern and one question or use that its result answers. If several continuations are current, write one row for each; do not combine value kind and relation signature, method and mechanism, evidence and assurance, plan and `U.Work`, or refresh and residual triage in one field.
+For first-minute use, state the question, apply the direct pattern, and continue with its result or stop without materializing this episteme. Materialize it only when replay is required. Each continuation names one direct pattern and one question or use that its result answers. Do not combine value kind and relation signature, method and mechanism, evidence and assurance, plan and dated Work, actual Transformation and production, or refresh and residual triage in one field.
 
-| Compact note field | Filled cooling-fixture example |
+| Compact ClaimContent field | Filled cooling-fixture example |
 |---|---|
 | Accepted problem card reference | `ProblemCard@Context PC-FAB-042`, accepted for a cooling-fixture deformation problem. |
 | Carried problem-card claim | The deformation is not one more tuning defect; the downstream comparison use relies on preserving the conserved heat-flow structure identified by the problem card. |
 | Receiving use | Decide which mathematical-lens result is needed before formal-substrate declaration and method comparison. |
 | Next practical question | Which structure is preserved, which is lost, and where does the heat-flow lens stop? |
 | Direct governing pattern | `C.29` Mathematical Lens Use. |
-| Result written and use it answers | Apply the `C.29` Solution and write its local lens-use result: target phenomenon, candidate mathematical object, preserved structure, lost structure, payoff, declared use, and stop condition. |
-| Local non-overread | This continuation selects no method, WorkPlan, work occurrence, evidence verdict, or gate result. |
-| Stop condition | Stop before method comparison until the comparator, measurement relation, and candidate-set relation are named by value. |
-| Return condition | A changed measurement, reference plane, or source-currentness relation returns first to its direct governing pattern and then reopens only the dependent P2W continuation. |
+| Result written and use it answers | The C.29 local lens-use result: target phenomenon, candidate mathematical object, preserved structure, lost structure, payoff, declared use, and stop condition. |
+| Local non-overread | This continuation selects no Method, MethodDescription, WorkPlan, dated Work, evidence verdict or gate result. |
+| Honest stop | Stop before method comparison until the comparator, measurement relation, and candidate-set relation are named by value. |
+| Return condition | A changed measurement, reference plane, or source-currentness relation returns first to its direct owner and then reopens only the dependent P2W continuation. |
 
-The note closes positively when the direct pattern has returned its positive result and the carried problem-card claim remains visible in that result or its stated basis. It closes by bounded stop when the direct pattern returns a blocker or reduced-use cue and no positive continuation can be stated.
+The use closes positively when the direct pattern has returned its positive result and the carried problem-card claim remains visible in that result or its stated basis. It closes by bounded stop when the direct pattern returns a blocker or reduced-use cue and no positive continuation can be stated.
 
 #### E.18.1:4.1a - Conditional development-loop relation-selection extension
 
@@ -83220,69 +83347,11 @@ The current next relation in this example is the `C.18` front record. Architectu
 
 #### E.18.1:4.1c - Conditional naming and publication extension
 
-Ordinary P2W use skips this extension. Open it only when a pattern author, publisher, trainer, or tool builder must decide whether a P2W expression may be cited outside its local use. Naming and publication apply only to results already established under their direct patterns; they neither admit a relation kind nor create an episteme instance. The F.8, F.18, and F.17 results refer to the stable practice and add no core field, continuation, or closure condition.
+Ordinary P2W use skips this extension. Open it only when a pattern author, publisher, trainer, or tool builder must cite the already governed practice outside its local use. The header's Tech/Plain pair identifies this pattern for readers: `ProblemToWorkCarryThrough` / *problem-to-work carry-through*. It does not classify a `U.Method`, `U.MethodDescription`, relation, Work or result. The selected name keeps the work-facing receiving use visible without implying a generic governed-value endpoint, a linear continuation or path, unchanged preservation, or a principle-only source; it is the widened successor to *Principles-to-Work Carry-Through*. If MethodDescription membership is actually needed, first identify one C.2.1 episteme, require one independently admitted `U.Method` as its exact EntityOfConcern, and apply the A.3.2 substantive way-of-doing claim threshold.
 
-**F.8 decisions.**
+The compact positive, stop and replay shapes in `4.1` and `4.8` are local ClaimContent uses of ordinary C.2.1 epistemes. Their field labels are local phrases, not reusable U-kinds, NameCards or term rows. Before any external citation or tool-interface reuse, F.8 decides whether a name is needed; F.18 settles the name only for that exact governed value and use; F.17 publishes the exact scheme-local sense and source basis. F.9 opens only if two independently identified scheme-sense cells require an exact Bridge. No Bridge is current merely because two readers use similar P2W wording.
 
-| Candidate expression | What is being named and for which use | F.8 result and naming route | Blocked use and reopen condition |
-|---|---|---|---|
-| `ProblemToWorkCarryThrough` | E.18.1 as one `U.MethodDescription`: the public practice that carries an accepted ProblemCard claim to one result or honest stop returned by a direct pattern | `nameDirectPatternValue`; E.18.1 owns the practice, F.18 owns the NameCard, and F.17 publishes the public row under `FPFCoreReferenceScheme` | Not a relation kind, occurrence, workflow, work, or result; reopen when the practice boundary or public reader use changes |
-| `ProblemToWorkCarryThroughNote@Context` | E.18.1-local `U.Kind` label for reliance-conditioned `U.Episteme` instances governed by `4.1` and identified under `C.2.1` | `reuseLocalSenseLabel`; the declared use is pattern-local and names no external receiver, so no NameCard or F.17 row is current | Not a relation kind, occurrence, evidence result, or work record; reopen before any external citation, cross-context reuse, training label, or tool-interface use |
-| `ProblemToWorkStopDescription@Context` | E.18.1-local `U.Kind` label for `U.Episteme` instances that state a reduced-use cue and exact stop | `reuseLocalSenseLabel`; keep it inside E.18.1 without a NameCard or term row | Not a blocker kind, failure state, empty relation, or rejection record; reopen before any external or durable reuse |
-| `ProblemToWorkReplayNote@Context` | E.18.1-local `U.Kind` label for `U.Episteme` instances that state retained content and the smallest reopen after change | `reuseLocalSenseLabel`; keep it inside E.18.1 without a NameCard or term row | Not a refresh process, change log, relation occurrence, or authority record; reopen before any external or durable reuse |
-
-The remaining field labels in `4.0a`, `4.1`, and `4.8` are one-off schema-position phrases under their containing forms. Their F.8 result is `localPhraseOnly`; they receive no NameCards or term rows. A later receiver that needs any local form or field label outside E.18.1 must reopen this decision before reuse.
-
-**F.18 NameCard for the public practice name.**
-
-```text
-NameCard:
-  NameCardId: NameCard.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  GovernedValueRef: E.18.1
-  GoverningPatternRef: E.18.1
-  ReferenceScheme: FPFCoreReferenceScheme
-  LocalSenseRef: SenseCell.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21
-  TechLabel: ProblemToWorkCarryThrough
-  PlainLabel: problem-to-work carry-through
-  CandidateSet: [Problem-to-Work Carry-Through, Problem-to-Governed-Value Carry-Through, Accepted-Claim Continuation, Work-Facing Claim Preservation, Problem-to-Work Path, Principles-to-Work Carry-Through]
-  RejectedCandidates: governed-value hides the work-facing receiving use; continuation suggests order; preservation suggests unchanged content; path suggests workflow; principles excludes non-principle ProblemCard claims
-  SelectionRationale: the selected pair keeps the established P2W mnemonic while the no-relation head fits a practitioner discipline that may continue, split, stop, or return
-  BridgeRefs: none
-  UnifiedTermRowRef: UTS.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  LineageEntries: Principles-to-Work Carry-Through -> Problem-to-Work Carry-Through when the accepted source widened from principle cues to any accepted ProblemCard claim
-  RefreshCondition: reopen when the governed practice, reference scheme, public reader use, or repeated workflow/relation overread changes
-```
-
-**F.17 public term row and local-sense basis.**
-
-```text
-UnifiedTermRow:
-  UTSRowId: UTS.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  UnificationThreadId: E18.1.P2W.Terminology.2026-07-21
-  Block: P2W practice
-  GovernedValueRef: E.18.1
-  GovernedValueKindRef: U.MethodDescription
-  DirectGoverningPatternRef: E.18.1
-  UnifiedTechName: ProblemToWorkCarryThrough
-  UnifiedPlainName: problem-to-work carry-through
-  NameCardRef: NameCard.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  SenseCellRefs: [SenseCell.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21]
-  BridgeRefs: none
-  RowRationale: publish the no-relation practice name for stable reader reference
-  AdmissibleUse: identify and cite the E.18.1 practitioner discipline
-  BlockedUse: infer a relation kind, occurrence, workflow, work, transformation, evidence, or result
-  RowEdition: 2026-07-21
-  CurrentnessCondition: review when E.18.1, its NameCard, reference scheme, or public reader use changes
-
-SenseCell.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21:
-  Context: FPF English public publication, edition 2026-07-21
-  LocalExpression: problem-to-work carry-through
-  LocalSense: the E.18.1 practice that carries one accepted ProblemCard claim to one result or honest stop returned by a direct pattern for a stated receiving use
-  NameCardRef: NameCard.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  LocalSenseBasisRelationRefs: [LocalSenseBasisRelation.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21]
-```
-
-`LocalSenseBasisRelation.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21` relates that SenseCell to basis episteme `E.18.1` as a `U.MethodDescription`, narrowed to units `1-4`, in the same public context. Its description supports the stated practice sense and admits naming-only citation; it admits no relation, workflow, work, result, evidence, authority, or external reuse of the three local note-form labels. No Bridge is current.
+Keep the practice, pattern episteme, any admitted Method, any qualifying MethodDescription episteme, local carry-through episteme, publication occurrence, publication form and presentation carrier separate. Naming or publication admits none of them and adds no stable-core field. Reopen only the smallest direct owner: a changed practice or practitioner use reopens E.18.1; changed wording or public reader use reopens F.18/F.17; changed source basis reopens its exact source-use relation; changed publication occurrence, form or carrier stays with E.17/E.24.PUB. A source phrase or remembered title supplies no source-to-use relation, authority, evidence, result or performed Work.
 
 #### E.18.1:4.2 - Positive carry-through: one executable first use
 
@@ -83360,32 +83429,30 @@ Lower only the claim that cannot be made. Keep any independently grounded value 
 | A direct pattern returns `missing-governor`, `missing-information`, a reduced-use result, or another exact blocker. | Carry that result unchanged and stop only the dependent claim. | An honest blocker with its affected participants or use; independently grounded values remain. |
 | A relied-on value changed after a prior positive use. | Apply `4.5`. | Reopen only the smallest dependent continuation. |
 
-#### E.18.1:4.8 - Conditional reliance replay after a value from a direct pattern changes
+#### E.18.1:4.8 - Conditional reliance replay after a direct-pattern value changes
 
-Open this extension only when transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires a durable account of what still follows after `G.11` source-currentness repair, appearance-based reliance repair, changed measurement, changed problem-side record, FPF pattern change, or a use-found defect. An ordinary local return uses the stable core in `4.5` and creates no replay note.
+Open this extension only when transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires a durable account of what still follows after source-currentness repair, appearance-based reliance repair, changed measurement, changed problem-side record, FPF pattern change, or a use-found defect. An ordinary local return uses `4.5` and creates no replay episteme.
+
+Materialize one ordinary C.2.1 episteme whose EntityOfConcern is the accepted ProblemCard carried by the original carry-through episteme, whose ClaimContent is the replay account below, and whose effective ReferenceScheme governs its designations. *Replay note* is Plain wording for this use, not a local U-kind, refresh process, change log or authority record.
 
 ```text
-ProblemToWorkReplayNote@Context <: U.Episteme:
-  entityOfConcernRef: U.EpistemeRef, referencing the accepted ProblemCard carried by the original ProblemToWorkCarryThroughNote@Context
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  originalCarryThroughNoteRef: U.EpistemeRef, referencing one ProblemToWorkCarryThroughNote@Context
-  changedValueRef: U.EntityRef
-  changedValueKindRef: U.KindRef
-  changedValueDirectGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-  stillCarriedClaimGraph: U.ClaimGraph by value
-  noLongerCarriedClaimGraph?: U.ClaimGraph by value
-  smallestReopenedContinuationDescriptionRef: U.EpistemeRef
-  refreshCurrentnessLineRef?: U.EpistemeRef, referencing one RefreshCurrentnessLine@Context
-  nextDirectGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
+replayClaimContent:
+  originalCarryThroughEpistemeRef
+  changedValueRef
+  changedValueKindRef
+  changedValueDirectGoverningPatternRef: exact pattern identifier or reference
+  stillCarriedClaimSlice
+  noLongerCarriedClaimSlice?
+  smallestReopenedContinuation
+  refreshCurrentnessLineRef?: exact current G.11 episteme or relation
+  nextDirectGoverningPatternRef: exact pattern identifier or reference
 ```
 
-`changedValueRef` points to the exact value, occurrence, assertion, or description that changed; `changedValueKindRef` and `changedValueDirectGoverningPatternRef` identify its kind and direct pattern. Reapply that pattern before filling the replay note. If the changed object is a relation, recheck it under that direct pattern and `A.6.REL`. The direct result keeps its participants, obtaining or claim basis, occurrence-identity rule, and any reusable `RelationSignature` or typed SlotSpecs. The replay note records only what still follows, what no longer follows, and which P2W continuation reopens.
+Reapply the changed value's direct owner before filling the replay episteme. If the changed object is a relation, recheck it under that owner and `A.6.REL`. The direct result keeps its participants, obtaining or claim basis, occurrence-identity rule and any reusable `RelationSignature` or typed SlotSpecs. The replay account records only what still follows, what no longer follows and which P2W continuation reopens. A governing-pattern reference is not a MethodDescription.
 
-P2W may cite a readable relation assertion, an explicitly individuated occurrence, or a typed assertion or description, but it cites the exact object returned by the direct pattern. Citation by P2W does not make relation use signature-dependent; a receiving episteme carries a signature reference only when its own direct pattern requires one.
+P2W may cite a readable relation assertion, an explicitly individuated occurrence, or a typed assertion or description, but it cites the exact object returned by the direct pattern. Citation does not make relation use signature-dependent; a receiving episteme carries a signature reference only when its own direct pattern requires one.
 
-The changed object may instead be a source edition, measurement, unit, reference plane, method set, comparator, module-interface relation, publication-use relation, problem record, or FPF pattern publication. Whatever changed keeps its own kind and direct pattern. The replay note states which problem-card claims still constrain the downstream use, which no longer do, and the smallest continuation to reopen. Add a `G.11` currentness line only when one exists. The next direct pattern then decides whether to continue, stop, split, retain a reduced-use cue, or return to the problem-side pattern.
+The changed object may instead be a source edition, measurement, unit, reference plane, Method set, comparator, module-interface relation, publication-use relation, problem record or FPF pattern publication. Whatever changed keeps its own kind and owner. Add a `G.11` line only when one exists. The next direct pattern decides whether to continue, stop, split, retain a reduced-use cue or return upstream.
 
 ### E.18.1:5 - Archetypal Grounding
 
@@ -83440,20 +83507,22 @@ E.11.PUA may help the team inspect and apply one diagnostic-pattern candidate in
 | Formal claim loses payoff | A `U.Signature(profile=FormalSubstrate)` declaration preserves a neat invariant, but no practical payoff or downstream stop condition can be stated for the accepted problem-side record. | The mathematical phrase lowers to a reduced-use cue; P2W does not justify method selection, evidence, gate, or `A.15.2` planning from mathematical prestige alone. |
 | Result source-use relation becomes stale | A result-looking source-use relation or publication cue is later replaced by a fresher source-use relation with a different artifact reference and measurement reference. | The practitioner applies `A.15.4` appearance-based reliance repair before continuing P2W; stale result wording cannot continue as evidence, acceptance, or quality evaluation. |
 
-#### E.18.1:5.3 - Pilot examples for coupled transformation-flow slices
+#### E.18.1:5.3 - Pilot examples for transformation-flow structures and networks
 
-These pilots are grounding checks, not source terminology to import. They exercise the same common shape: one current `TransformationFlowStructure` can relate several transformation-flow valuations or slices, one slice may develop or select a usable product, another slice may apply it, and an evaluation or refresh slice may return to the smallest affected development or application slice. The transformation-flow structure does not merge the slice-local objects, `DesignRunTag` boundaries, evidence, gates, work occurrences, or the relation position that the carried object fills inside each slice. Use each pilot to check whether the P2W use being made can name the joined transformation-flow slices, the carried object's slice-local relation position, the `DesignRunTag` boundary, and the smallest reopened slice.
+These pilots are grounding checks, not source terminology to import. Before using one, decide which of three ontic cases is current: several valuations or path slices of one exact TFS; one parent-relative internal `SubflowRef`; or an E.18.NET network of independently identified TFS or nested-network members connected by exact already-obtaining cross-boundary relations. A diagram, common product, display order, shared Work or source wording decides none of them.
+
+For one TFS, every valuation resolves to the same structure boundary and internal `U.Transfer` occurrences. For a network, every member retains its own boundary, Work, actual transformations, valuations and leaf-local position binding or `DesignRunTag`; exact cross-flow occurrences retain their direct governors, signatures, participant order and endpoint bindings. Membership is acyclic; directly governed feedback may cycle. Use a pilot to check the carried object's exact member-local position, the direct relation that crosses a boundary when one exists, and the smallest reopened member or continuation.
 
 | Pilot | P2W use being made | What it tests |
 |---|---|---|
-| Coffee service STF | Accepted `ProblemCard@Context PC-COFFEE-SERVICE-17` keeps the service-temperature and throughput problem visible while each next claim opens separately: `C.29` returns `CoffeeHeatMassBalanceLensUse-17`; `A.6.0` returns `CoffeeFormalSubstrateSignature-v3` only for its declared subject and ranged value; `A.6.1` returns the `CoffeeBrewHeatTransferMechanism-v2` declaration and any exact application bindings; `A.19.UNM` returns `CoffeeTemperatureNormalization-v4`; `A.3.1` returns `CoffeeBrewMethod-v5`; `A.15.2` returns `CoffeeShiftPlan-17`; `A.15.1` returns dated `CoffeeBrewWork-17-0815`; `C.16` returns the temperature and throughput measurement results; and `G.11` reopens only the continuation that relies on a changed source, normalization, method, or measurement. | The reader can take any current continuation or stop without treating display order as a declaration stack or project sequence. A signature supplies no mechanism or method; a plan supplies no Work; telemetry supplies no measurement result until `C.16` applies it; refresh changes only the relation that relied on the changed value. |
-| Compiler design and run | Toolchain construction, compiler use, and product execution are separate applications; design and run changes pass through the gate and work relations being used. | `DesignRunTag`, launch gate, reproducible build currentness, `G.11` source-currentness relation, and no collapse of build, run, and product work. |
-| TAMP and MPC robotics | Method selection and `A.15.2` planning records may be revised under a declared progress or budget condition before performed work. | Branching and cycle use without imposing one fixed work procedure, and no launch decision or performed-work claim before dated work occurs. |
-| AutoML and QD | Method selection returns a Pareto, QD, front, or archive set under comparator and descriptor editions, not a hidden scalar winner. | Set-return discipline, comparator currentness, no hidden scalarization, and retained-set refresh. |
-| Freshness or physical-transport case | Work planning and performed work depend on freshness windows, transport relations, units, reference planes, and source-currentness. | No implicit `latest`, no unbridged unit or plane comparison, and smallest affected refresh. |
-| Integration under module-interface constraints | After assembly, a result phrase may mean role-enactability under module-interface constraints, evidence, gate, architecture, function, or work relation. | Result carry-through is not artifact-only or telemetry-only; module-interface and integration wording is accepted only after recovering the relation being claimed. |
-| Tool-product-use chain | A design-tagged transformation-flow slice makes a tool; a later run or use slice uses the tool to make a chair; another slice uses the chair as context for writing a text. | One selected `TransformationFlowStructure` can relate all slices, but the same carried object may fill a run-result position in one slice and a design-side input, tool, context, or constraint position in another. The relation-position shift is explicit, tied to the `E.18` transformation-flow relation and any `DesignRunTag` being used, and does not change the object's kind by wording. |
-| FPF pattern development and self-evolving specification | A development transformation-flow slice creates or repairs a pattern, specification, or process description through drafting, quality evaluation, publication projection, and admitted publication; a later use slice applies that product to its own `EntityOfConcern`; a defect found in use returns to the smallest development slice for repair. | Development, application, and evaluation slices are joined by transfer and return relations inside one selected `TransformationFlowStructure` while keeping objects and `DesignRunTag` boundaries separate; evaluation records or use-found evidence change the product through edits to the smallest development slice, not by entering the used publication's practitioner-facing prose. |
+| Coffee service TFS | Accepted `ProblemCard@Context PC-COFFEE-SERVICE-17` keeps the service-temperature and throughput problem visible while each next claim opens separately: `C.29` returns `CoffeeHeatMassBalanceLensUse-17`; `A.6.0` returns `CoffeeFormalSubstrateSignature-v3` only for its declared subject and ranged value; `A.6.1` returns `CoffeeBrewHeatTransferMechanism-v2` and exact application bindings; `A.19.UNM` returns `CoffeeTemperatureNormalization-v4`; `A.3.1` returns `CoffeeBrewMethod-v5`; `A.15.2` returns `CoffeeShiftPlan-17`; `A.15.1` returns dated `CoffeeBrewWork-17-0815`; `C.16` returns the temperature and throughput measurements; and `G.11` reopens only a continuation relying on the changed source, normalization, Method or measurement. Treat them as positions or continuations of one TFS only while every use resolves to that same exact selected structure and internal transfers. | A signature supplies no mechanism or Method; a plan supplies no Work; telemetry supplies no measurement result until `C.16` applies it; another valuation or slice does not mint another TFS; refresh changes only the relation that relied on the changed value. |
+| Compiler design and run | Compiler preparation/build, later compiler use, release assurance and product operation retain independently identified TFS values when their boundaries, Work or change cadence differ. Release-assurance use, launch-gate use, reproducible-build currentness and `G.11` source-currentness remain separate claims. Select an E.18.NET network only after the exact source-use, production/inception, operation-application, evaluation or other cross-member occurrences and endpoint bindings independently obtain. | No collapse of build, run and product Work; no giant flow; no universal `produces`/`uses` edge; local `DesignRunTag`; and no transformation, production, gate or currentness result from a build arrow or intended realization. |
+| TAMP and MPC robotics | Method selection and `A.15.2` planning may be revised under a declared progress or budget condition before performed Work. That planning/replanning cycle may be one TFS valuation or path-slice family when the exact structure identity is shared; separately selected development, controller-execution and evaluation flows require E.18.NET and exact cross-member relations. | Branching and cycles without a fixed work procedure; no launch decision or performed Work before dated Work occurs; and feedback cycles do not make membership cyclic. |
+| AutoML and QD | Method selection returns a Pareto, QD, front or archive set under comparator and descriptor editions. If generation, evaluation and deployment are independently selected flows, relate them only through exact direct occurrences in E.18.NET. A changed descriptor, comparator or retained-set relation reopens only the dependent selection or publication continuation. | Set-return discipline, comparator currentness, no hidden scalarization, retained-set refresh, and no evaluation label used as a universal edge. |
+| Freshness or physical-transport case | Work planning and performed Work depend on freshness windows, transport relations, units, reference planes and source-currentness. A detailed internal route remains a `SubflowRef`; independent transport and use flows require a network. | No implicit `latest`, no unbridged unit or plane comparison, exact member boundary, and smallest affected refresh. |
+| Integration under module-interface constraints | After assembly, a result phrase may mean role-enactability under module-interface constraints, evidence, gate, architecture, function or Work relation. | Result carry-through is not artifact-only or telemetry-only; module-interface and integration wording is accepted only after recovering the exact direct relation. |
+| Tool-product-use network | One member contains exact dated tool-building Work, actual substrate changes and only the A.15.PROD production/inception/completion claims that are current; another member uses the admitted tool through an exact operation-application or subject-use occurrence. In the concrete chain, a later member may use that tool to make a chair and another may use the chair as context for writing a text, but every production, use and context relation must obtain under its direct owner. | The same carried object may occupy a run-result, design-side input, tool, context or constraint position in different members without changing kind. Exact source/use/production relations connect members; a design tag, result label or adjacency does not. |
+| FPF pattern development and use network | One member carries exact drafting or repair Work and episteme-edition changes; quality evaluation, publication projection, admitted publication, later application to another EntityOfConcern and use-found evaluation remain separately governed values or members when independently selected. An evaluation member may return a defect through exact source-use, evaluation and change relations to the smallest affected development continuation. | Development, publication, application and evaluation remain separate; evidence stays outside practitioner prose; repair changes the exact development object through its direct owner, not by treating the publication as acting or every edit as production. |
 
 #### E.18.1:5.4 - Filled P2W carry-through notes
 
@@ -83498,10 +83567,10 @@ Lenses tested: **Gov**, **Arch**, **Ontological and epistemic**, **Prag**, **Did
 
 - `CC-E18.1-1` The P2W use starts from an accepted `ProblemCard@Context` or stops before P2W begins.
 - `CC-E18.1-1a` The accepted ProblemCard as the note's EntityOfConcern, the note's ClaimGraph and effective ReferenceScheme, any separately governed `U.Viewpoint` or `BoundedModelUseStructure` designated by that ClaimGraph, each direct pattern's subject EntityOfConcern, and every supporting compact note, diagram, plan, trace, or publication remain distinct. Note completeness does not prove a P2W relation occurrence, subject change, performed work, evidence, acceptance, or result.
-- `CC-E18.1-1b` Every positive `ProblemToWorkCarryThroughNote@Context` identifies one accepted ProblemCard as EntityOfConcern, carries one ClaimGraph for the receiving use, names its effective ReferenceScheme, and designates a separate `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim uses one. It cites the carried ProblemCard slice, direct governing pattern, returned value kind and ref, and rationale. It introduces no reusable P2W predicate, `RelationSignature`, relation kind, or occurrence. If the returned value is a relation occurrence, assertion, or description, the note cites that exact object while its direct pattern retains the obtaining or claim basis, occurrence-identity rule, and any reusable declaration required by the receiver.
-- `CC-E18.1-1c` When the conditional publication extension is current, the public practice name has an exact F.8 `nameDirectPatternValue` decision, F.18 NameCard, and F.17 row for the already governed E.18.1 method description. The three note-form designators remain E.18.1-local under `reuseLocalSenseLabel`, and schema-position field labels remain `localPhraseOnly`; neither group receives publication apparatus before an external receiver makes durable reuse current. No naming or publication object admits a kind, relation, occurrence, work, evidence, or authority claim or adds a stable-core input.
-- `CC-E18.1-2` A materialized positive `ProblemToWorkCarryThroughNote@Context` contains the current use-specific claim and has one or more separate continuation descriptions. A materialized `ProblemToWorkStopDescription@Context` instead states the reduced-use cue and stop without fabricating a relation. Local non-overread and return conditions appear when relied on; absent fields are not filled by generic unions.
-- `CC-E18.1-3` The stable core works without a note or explicit structure: accepted claim, receiving use, concrete question, direct pattern, returned result or honest stop, split, and smallest local return. When explicit structure is needed, its generic fields and relations come unchanged from `A.22.CGUS` and its transformation-flow specialization comes unchanged from `E.18.3`; E.18.1 adds no hybrid schema.
+- `CC-E18.1-1b` Every materialized carry-through episteme identifies one accepted ProblemCard as EntityOfConcern, carries one ClaimContent for the receiving use, names its effective ReferenceScheme, and designates a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim uses that object and its organization changes how the receiving claim is interpreted. It cites the carried ProblemCard slice, exact governing-pattern identifier or reference, returned value kind and ref or honest stop, and rationale. It introduces no reusable P2W predicate, `RelationSignature`, relation kind, local note kind or occurrence.
+- `CC-E18.1-1c` When external naming or publication is current, F.8/F.18/F.17 apply only to the exact already governed value and receiving use. The pattern label and local positive/stop/replay phrases create no NameCard, U-kind, relation, Method or MethodDescription. Any MethodDescription claim separately passes the exact A.3.2 EntityOfConcern and substantive-claim threshold.
+- `CC-E18.1-2` A positive carry-through ClaimContent cites one exact returned result and one or more separate continuation descriptions. A stopped ClaimContent instead states the reduced-use cue or blocker and stop without fabricating a relation. Local non-overread and return conditions appear when relied on; absent fields are not filled by generic unions.
+- `CC-E18.1-3` The stable core works without an episteme or explicit structure: accepted claim, receiving use, concrete question, direct pattern, returned result or honest stop, split, and smallest local return. When explicit structure is needed, A.22.CGUS and E.18.3 select the exact structure; E.18 keeps several valuations or one internal `SubflowRef` on one TFS; E.18.NET keeps independently selected flows or nested networks and exact cross-member occurrences. E.18.1 adds no hybrid schema.
 - `CC-E18.1-4` One wording span from an admitted source may split into several FPF applications; the record does not compress them into one generic token.
 - `CC-E18.1-5` Result wording is unpacked into concrete result-related relations; a generic `WorkResult` kind is not admitted.
 - `CC-E18.1-6` `PrincipleFrame` references keep postulates and CHR observability distinct from units, planes, comparators, thresholds, ontology editions, CHR editions, plans, work, evidence, and gates.
@@ -83509,12 +83578,15 @@ Lenses tested: **Gov**, **Arch**, **Ontological and epistemic**, **Prag**, **Did
 - `CC-E18.1-8` The stable P2W core contains only accepted claim, receiving use and concrete question, direct pattern, returned result or honest stop, split, and local return. Reliance notes, explicit E.18.3 structure, development examples, and naming or publication are optional extensions. No extension may add a core input or change a returned result. Relation obtaining and identity, occurrence declarations, admission, production, evidence, gates, decisions, and other neighbouring algorithms remain with their direct patterns.
 - `CC-E18.1-9` Local boundary wording remains only where it names a near-miss that changes the next P2W application.
 - `CC-E18.1-10` The pattern leaves one usable next move: apply the direct pattern and use its result, write a compact note when another person or later action needs replay, split independent claims, keep a cue and stop, or reopen only the continuation affected by a changed relation.
-- `CC-E18.1-11` For a structure-bearing conformance or pattern-authoring use, archetypal grounding can replay at least one coupled transformation-flow-slice pilot from `E.18.1:5.3`; the pilot uses one `TransformationFlowStructure` selected under `E.18` while keeping objects, slice-local relation positions, `DesignRunTag` boundaries, and evidence distinct. The self-evolving-spec pilot keeps development-slice evidence or use-found evidence outside the used pattern, specification, or process description. Ordinary P2W use does not open this extension.
+- `CC-E18.1-11` For a structure-bearing conformance or authoring use, replay at least one pilot from `5.3` and classify it as several valuations of one exact TFS, one parent-relative internal `SubflowRef`, or one E.18.NET network of independently selected members and exact cross-boundary occurrences. Keep every member boundary, Work, actual transformation, valuation, position binding and `DesignRunTag` local. The self-evolving-spec case keeps use-found evidence outside practitioner-facing prose. Ordinary P2W use does not open this extension.
 - `CC-E18.1-12` Every carried claim family can be lowered, stopped, split, or reopened through `E.18.1:4.7`; a cue from a wording span in an admitted source or from a source-pack cue that cannot name the recovered FPF kind or relation remains a reduced-use cue.
 - `CC-E18.1-13` Every materialized replay identifies the changed value, occurrence, assertion, or description; its kind and direct pattern; what still carries and what no longer carries; the smallest reopened continuation; any current `G.11` currentness line; and the next direct pattern. If the changed object is relation-bearing, the cited direct result—not a P2W copy—retains its kind, participants, obtaining or claim basis, occurrence-identity rule, and any receiver-conditioned `RelationSignature` or typed SlotSpecs.
 - `CC-E18.1-14` When a generated DPF seed or cheap framework seed enters P2W, the record names the `G.2` source-use record, source `U.EpistemePublication` reference, source-pack cue, or source-pack return when that source use is current, the problem-side cue when that is current, the next governing relation (`G.2`, `E.4.PFAD`, `E.4.PFR`, `E.8`, `E.21`, `E.23`, `G.11`, or another direct governing pattern), and the stop condition that prevents the seed from becoming public authority by generation alone.
 - `CC-E18.1-15` An actual-transformation continuation carries only an exact current value or blocker returned by `A.3.4`; E.18.1 does not reconstruct the occurrence basis or infer actuality or composition from a method, plan, model, description, flow position, adjacency, shared work, or common referent.
 - `CC-E18.1-16` A work-to-change continuation carries a named subject predicate with its actual `U.Work` and `U.Transformation` participants, a positive `A.6.RCD` disposition-2 local compound claim over governed base facts, or `missing-governor` for that pair. The BuildOps and current Pump 14 replays supply positive branches; Pump 14 also preserves the explicitly earlier `missing-governor` stage in a case record that lacks `P14-REL-2026`. A production continuation separately carries only the local result or blocker returned by `A.15.PROD`. E.18.1 reproduces none of those patterns' internal criteria.
+- `CC-E18.1-17` A governing-pattern ref, selected or recommended continuation, imperative wording, intended realization, plan seed, graph or filled table admits no `U.MethodDescription`. Membership exists only for an independently identified C.2.1 episteme whose exact EntityOfConcern is one admitted `U.Method` and whose ClaimContent contains at least one substantive way-of-doing claim.
+- `CC-E18.1-18` *Move* remains Plain wording for the exact current object or use action. Proposed or chosen work remains distinct from dated performed Work; no universal Move kind, record or relation is introduced, and wording performs nothing.
+- `CC-E18.1-19` The local mantra is the compact formula in `4`, answers one stated decision, maps every term to governed values, has the filled cooling use, and stops at the exact neighboring owner. It is not the five-row display, a Method, MethodDescription, plan, Work, CGUS or structure identity.
 
 
 
@@ -83529,6 +83601,9 @@ Lenses tested: **Gov**, **Arch**, **Ontological and epistemic**, **Prag**, **Did
 | **Generic result token.** The word *result* is treated as one kind, or P2W repeats the whole recovery method. | Ask what can actually be asserted. Apply `A.6.P.WMR`, then carry only the direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or bounded non-assertability result it returns. Keep `factually unsupported`, `missing-information`, and `missing-governor` distinct; only `missing-governor` says that the required predicate for the stated participants and use has no current governor. |
 | **Choice-as-commitment.** A `C.11` choice result is treated as an accountable obligation, recommendation-as-duty, or prohibition. | Keep the option set, comparison basis, choice rule, and choice result under `C.11`; open a separate `A.2.8 U.Commitment` only when its accountable subject, modality, referents, scope, and window are independently recoverable. |
 | **Plan, path, or proximity as actual change.** A desired state, model, method, plan, flow arrow, adjacent work occurrence, or common affected referent is treated as an actual or composite transformation. | Apply `A.3.4` to the change and the direct work-to-change or `A.15.PROD` pattern to its separate claim. Carry only the results or blockers they return; shared timing or proximity opens no composition or production claim. |
+| **Intended realization as MethodDescription.** A selected continuation, recommendation, plan seed, imperative sentence or pattern ref is said to describe the Method it may realize. | First identify one C.2.1 episteme and one admitted `U.Method`; apply A.3.2 only when that Method is the episteme's exact EntityOfConcern and the ClaimContent contains a substantive way-of-doing claim. |
+| **One giant transformation flow.** Independently selected development, production, use or evaluation flows are flattened because a diagram or common product connects them. | Keep same-TFS valuations and internal `SubflowRef` cases in E.18; select E.18.NET only from independently identified members and exact cross-boundary occurrences. |
+| **Displayed mantra as execution.** The five-row display, repeated formula or word *move* is treated as a method, plan or performed step. | Keep the formula as Plain recall wording for one decision, the table as display content, and each current action/object under its direct owner. |
 | **Interface shortcut.** Interface, port, protocol, connection, resource, or integration wording selects function, method, work, evidence, gate, or architecture by itself. | Recover the module-interface, signature-slot, function, architecture, work, evidence, or gate relation before continuing. |
 
 ### E.18.1:9 - Consequences
@@ -83566,7 +83641,7 @@ As of 2026-07-21, the Jiao article, QD survey, manufacturing digital-thread pape
 
 ### E.18.1:12 - Relations
 - `A.22.CGUS` supplies the general constraint-governed unfolding structure when P2W exposes typed structure positions, constraints, admissible next forms, and stop or return conditions.
-- `E.18.3` supplies the complete `ConstraintGovernedTransformationFlowUnfoldingStructure@Context` specialization when explicit transformation-flow structure is current; its underlying generic structure, accepted-starting-record references, positions, next-form kinds, and boundary relations remain under `A.22.CGUS`. P2W references those owner records and adds no subset or hybrid structure schema.
+- `E.18.3` recognizes the exact selected A.22.CGUS structure under its additional transformation-flow unfolding condition and reuses exact E.18 positions and directly governed relation references. E.18 owns one TFS, its valuations and internal `SubflowRef`; E.18.NET owns independently selected TFS or nested-network members plus exact obtaining cross-member relations. P2W references these owners and adds no subset, reciprocal record or hybrid structure schema.
 - `G.2` governs source-use records, source-pack return, evidence anchors for admitted source publications, and source-currentness payloads before DPF hardening can rely on a seed drawn from those admitted sources.
 - `E.4.DPF`, `E.4.PFAD`, and `E.4.PFR` govern DPF authoring, framework architecture decisions, and framework relation records when a generated or cheap seed is carried toward hardening.
 - `E.23` governs repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
@@ -83574,7 +83649,7 @@ As of 2026-07-21, the Jiao article, QD survey, manufacturing digital-thread pape
 
 - `E.18` governs selected `TransformationFlowStructure`, transfer annotations, flow valuation, `ConstraintValidity`, `GateFit`, gate profile, design tags, and run tags.
 - `C.22.2` governs the accepted problem-side record and problem-side claims related to the carried distinction.
-- `A.6.P` governs recovery and readable statement of each direct relation. `A.6.REL` governs direct obtaining, occurrence individuation, and receiver-conditioned use of any reusable `RelationSignature`; P2W cites the occurrence, assertion, or description returned there and copies none of that doctrine into note fields. `A.6.RCD`, `E.24`, and `E.24.UK` govern any later P2W relation-kind candidate and admission, while `A.6.0` declares a `RelationSignature` only after that settlement. `F.8` selects the public practice-name decision and local-only note-form and field-label results; `F.18` governs the practice NameCard and `F.17` publishes only its public term row. This edition introduces no P2W relation species, signature, occurrence, or relation NameCard.
+- `A.6.P` governs recovery and readable statement of each direct relation. `A.6.REL` governs direct obtaining, occurrence individuation, and receiver-conditioned use of any reusable `RelationSignature`; P2W cites the occurrence, assertion or description returned there and copies none of that doctrine into ClaimContent. `A.6.RCD`, `E.24`, and `E.24.UK` govern any later P2W relation-kind candidate and admission, while `A.6.0` declares a `RelationSignature` only after that settlement. F.8/F.18/F.17 open only when an external naming or publication use is current; the header's Tech/Plain pattern label and local note-field phrases create no NameCard, term row, U-kind, relation or MethodDescription.
 **Canonical object-to-owner map.** Read each arrow independently; the row order is not a declaration or work sequence.
 
 | Current object or question | Direct pattern and P2W boundary |
@@ -83587,7 +83662,7 @@ As of 2026-07-21, the Jiao article, QD survey, manufacturing digital-thread pape
 | Role-method-work alignment; performed work; planning; planned filling; appearance-based work reliance; work-entry readiness; work-to-change | Alignment -> `A.15`; dated work -> `A.15.1`; planning -> `A.15.2`; planned filling/baseline -> `A.15.3`; appearance-based reliance repair -> `A.15.4`; work-entry readiness -> `A.15.5`. A work-to-change claim -> its named subject predicate with `U.Work` and `U.Transformation` participants, or one local compound claim under `A.6.RCD` disposition 2; absent either basis -> exact `missing-governor`. Production-work, entity-inception, and completion questions -> `A.15.PROD`; unresolved result/input/handoff wording -> `A.6.P.WMR`. |
 | Generator-autonomy declaration or boundary; evidence; assurance; provenance | Generator-autonomy declaration or bounded-autonomy question -> `E.16`; evidence -> `A.10`; assurance -> `B.3`; provenance -> `G.6`. An autonomy declaration states the limits and stop conditions it governs; it supplies none of evidence, assurance, permission, or performed Work. Each claim keeps its own subject, predicate, and use. |
 | Acceptance record, label, or claimed acceptance | First name the exact acceptance predicate, its participants, and the receiving use, then apply that predicate's direct governor and carry only the result it returns. If no such predicate or governor is current, return exact `A.6.RCD missing-governor` for those participants and that use. A record or label alone does not establish acceptance; `C.25` is not a universal acceptance owner. |
-| Step constraint validity; exact subject or regulatory conformance; FPF pattern-quality review | E.18 step constraint validity -> `A.20`. Another conformance claim -> the direct subject or regulatory owner recovered for that rule and subject. FPF pattern-quality review -> `E.19`. Neither `A.20` nor `E.19` is a universal conformance owner. |
+| Step constraint validity; exact subject or regulatory conformance; FPF pattern-quality evaluation or review | E.18 step constraint validity -> `A.20`. Another conformance claim -> the direct subject or regulatory owner recovered for that rule and subject. FPF pattern-quality evaluation or review -> `E.21`. `E.19` consumes that result for pattern admission, refresh, or return-for-repair. None of `A.20`, `E.21`, or `E.19` is a universal conformance owner. |
 | Gate decision; permission; release; work-entry readiness; local choice; accountable commitment | Gate-decision relation and publication -> `A.21`. Non-prohibition, granted permission, permission exercise, non-violation, or permission conflict -> `A.2.8.PER`; instituting or revoking grant act -> `A.2.9`; obligation or prohibition -> `A.2.8`. Release action -> exact `A.15.1` `U.Work` occurrence; a claim that a subject was released -> its named subject predicate and participants or `A.6.RCD missing-governor`. Work-entry readiness -> `A.15.5`. Local choice -> `C.11`. Gate, permission, readiness, release work occurrence, release relation, choice, and commitment do not entail one another. |
 | Architecture; architecture description; structural view; problem-to-structure architecturing; reusable structure; cross-scope or interlevel residual | Architecture -> `C.30`; architecture description -> `C.30.AD`; structural view -> `C.30.ASV`; problem-to-structure architecturing -> `C.32.P2S`; reusable structure -> `C.31`; cross-scope or interlevel residual -> `C.30.ILC`. |
 | Module interface; function; wording use | Module-interface relation -> `A.6.M`; hidden function-like claim -> `A.6.F`; wording-use repair -> `E.10`. |
@@ -83830,11 +83905,13 @@ The pattern is intentionally narrower than C.29. C.29 answers the general questi
 
 Use this pattern when a team is planning, reviewing, or explaining a transformation and a route-like flow card is useful, but branches, joins, guards, or connections to separately governed positions determine what can follow. The practical need is to recover those transformation-flow relations without treating displayed order as performed-work order, evidence, decision, or authorization.
 
-The admitted object is a `U.Structure` whose substrate is transformation-flow structure over bounded `U.Transformation` values, typed flow positions, exact flow relations, and explicit connections to positions governed by neighboring patterns.
+The admitted object is the same selected `U.Structure` already identified under A.22 and qualified as a CGUS by exact constituents, selected obtaining relation occurrences, applied constraints and one named selection-use frame. E.18.3 recognizes that object under an additional transformation-flow unfolding condition; it does not manufacture a generic CGUS plus a reciprocal narrower structure. Its transformation-flow use reuses exact E.18 positions and bindings, direct relation occurrences and, when independent flows cross, one selected E.18.NET network.
 
-Do not use this pattern merely because a visible record or description is a route, path, graph, process map, chain, loop, or swimlane. First ask whether typed transformation positions, exact crossings and guards, a flow valuation when current, preserved transformation structures, C.33 adequacy notes, and direct governing-pattern connections are recoverable.
+Do not use this pattern merely because a visible record or description is a route, path, graph, process map, chain, loop, or swimlane. First ask whether typed transformation positions, exact crossings and guards, the correct one-TFS, internal-subflow or network case, preserved transformation structures, relevant C.33 adequacy notes, and direct governing-pattern exits are recoverable.
 
-The first useful move is small: name the transformed entity and kind, then name two candidate transformation positions and the exact relation or guard that may change which continuation is admissible. If that relation is not recoverable, keep the visible artifact as a `ProvisionalUnfoldingDemonstrationDescription@Context` and use the broader `A.22.CGUS` admission question.
+The first useful move is small: name the exact selected structure and current transformation subject, identify two candidate E.18 positions, and state the exact relation or guard that may change which continuation is admissible. Here `move` is Plain wording for that current use action, not a universal kind or relation; proposing or selecting it performs no Work. If the structure identity or relation occurrence is not recoverable, keep the visible artifact as an ordinary C.2.1 provisional demonstration episteme and return to the missing A.22.CGUS or direct-relation coordinate.
+
+**What changes in practice.** The practitioner stops asking whether a diagram “looks like a flow” and instead recovers one selected structure, the exact E.18 or E.18.NET position bindings used by this question, already-obtaining relations, and the smallest honest stop or neighboring return. A demonstration can then guide attention without becoming the structure, a MethodDescription, a WorkPlan or performed Work.
 
 ### E.18.3:1 - Problem Frame
 
@@ -83844,7 +83921,7 @@ The first useful move is small: name the transformed entity and kind, then name 
 
 Transformation-flow artifacts are easy to overread. A path diagram becomes a workflow. A flow card becomes performed work. A P2W chain becomes work authorization. A graph expression becomes the whole structure. A gate, evidence path, architecture decision, or publication face becomes part of the transformation-flow ontology by visual adjacency.
 
-The repair cannot be lexical. E.18.3 admission depends on naming the transformed entity and kind, typed flow positions, exact relation values and signatures, independent structural-function and subject-use classifiers, connections to positions governed elsewhere, preserved structures, C.33 adequacy notes, and separate stop and return boundaries.
+The repair cannot be lexical. E.18.3 qualification depends on one exact A.22-selected structure, the correct E.18 or E.18.NET case, independently governed transformation subjects, admitted position mappings, exact already-obtaining relation occurrences, separately claim-bearing structural-function and subject-use classifications when needed, preserved structures, C.33 adequacy notes, and distinct ordinary stop and neighboring returns.
 
 ### E.18.3:3 - Forces
 
@@ -83857,226 +83934,283 @@ The repair cannot be lexical. E.18.3 admission depends on naming the transformed
 
 ### E.18.3:4 - Solution
 
-Select `ConstraintGovernedTransformationFlowUnfoldingStructure@Context <: U.Structure` as the E.18 transformation-flow specialization of `ConstraintGovernedUnfoldingStructure@Context`.
+E.18.3 is a membership-and-use profile for one exact selected A.22.CGUS `U.Structure`. The selected structure keeps the four A.22 identity discriminators. E.18.3 asks whether its current constituents, selected relation occurrences, constraints and use frame also satisfy the transformation-flow unfolding conditions below.
+
+| Coordinate | Required transformation-flow recovery | Honest lower result |
+| --- | --- | --- |
+| A.22 identity | One exact `selectedCGUSRef` resolves independently identified constituents, selected already-obtaining relation occurrences, applied constraints and one named selection-use frame. | Keep the current record, graph, table or explanation and return the missing A.22 discriminator. |
+| Flow case | Classify the use as several valuations of one exact TFS, one parent-relative internal `SubflowRef`, or one E.18.NET network over independently identified TFS or nested-network members and exact cross-boundary occurrences. | Keep the flow cue; do not mint another TFS, network member or giant flattened flow. |
+| Transformation subjects | Name each subject used by this unfolding question with its exact kind and direct owner. The ordinary case may have one transformed entity; a multi-object flow may need several independently identified subjects. | Keep the subject wording as a cue and stop before structure qualification. |
+| Position mappings | More than one admitted `CGUSPositionLocator` maps through an exact E.18 `FlowPositionRef` and current position binding to the same selected constituent already named by that locator. | Keep candidate positions in the provisional episteme. |
+| Relation basis | Every transfer, dependency, crossing or guard use cites an exact already-obtaining occurrence selected by the CGUS and its direct declaration and governor. A relation-reference episteme may classify that use but creates neither kind nor occurrence. | Keep a proposed edge or question and return the missing governor, predicate, facts, occurrence or binding. |
+| Constraint and topology | Exact guards, constraints, branches, joins, cycles, partial orders or many-to-many dependencies change admissible continuations for the named use. | Keep the linear display provisional or narrow the use. |
+| Preservation and exits | Exact preserved structures, relevant C.33 epistemes, ordinary stop, conditional neighboring returns and currentness-dependent reopen are visible. | Keep a one-use explanation and state the missing loss or return. |
+
+Use this compact display only as a recovery aid; it is neither another record kind nor structure identity:
 
 ```text
-ConstraintGovernedTransformationFlowUnfoldingStructure@Context <: U.Structure:
-  unfoldingStructureRef: U.EntityRef, referencing one ConstraintGovernedUnfoldingStructure@Context
-  boundedContextRef: U.BoundedContextRef
-  transformedEntityRef: U.EntityRef
-  transformedEntityKindRef: U.KindRef
-  transformationPositionRefs[]: U.EntityRef, each referencing one ConstraintGovernedUnfoldingPosition@Context
-  governingPatternPositionRelationRefs[]: U.EntityRef, each referencing one TransformationFlowGoverningPatternPositionRelation@Context
-  transferRelationReferenceEpistemeRefs[]: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with structuralFunction=transfer
-  dependencyRelationReferenceEpistemeRefs[]: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with structuralFunction=dependency
-  pathIds[]: E.18 PathId
-  pathSliceIds[]: E.18 PathSliceId
-  demonstrativeSliceRefs[]: U.EpistemeRef, each referencing one DemonstrativeUnfoldingSlice@Context
-  crossingRelationReferenceEpistemeRefs[]: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with structuralFunction=crossing
-  guardRelationReferenceEpistemeRefs[]: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with structuralFunction=guard
-  transformationFlowValuationRef?: U.EntityRef, referencing one E.18 TransformationFlowValuation
-  methodWorkLinkageRef?: U.EntityRef, referencing one MethodWorkUnfoldingLinkage@Context
-  evidenceRelationReferenceEpistemeRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=evidence
-  assuranceRelationReferenceEpistemeRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=assurance
-  architectureUseReferenceRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=architecture
-  narrativeUseReferenceRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=narrative
-  publicationUseReferenceRefs[]?: U.EpistemeRef, each referencing one TransformationFlowRelationReference@Context with subjectUse=publication
-  preservedTransformationStructureRefs[]: U.EntityRef, each referencing one U.Structure
-  structureInformationAdequacyNoteRefs[]?: U.EpistemeRef, each referencing one StructuralInformationAdequacyNote@Context
-  governingPatternReturnBoundaryRefs[]: U.EntityRef, each referencing one UnfoldingStructureUseBoundaryCondition@Context
-  stopBoundaryRef: U.EntityRef, referencing one UnfoldingStructureUseBoundaryCondition@Context
+selectedCGUSRef
+flowCase: oneTFS | internalSubflow | network        # Plain choice for this use
+transformationSubjectRows[]:
+  subjectRef
+  subjectKindRef
+  directGovernorRef
+transformationPositionMappingRows[]:
+  admittedCGUSPositionLocator
+  flowPositionRef
+  exactPositionBindingRef
+  bindingDirectGovernorRef
+relationReferenceEpistemeRefs[]                    # ordinary C.2.1 epistemes from 4.0a
+neighboringPositionUseRows[]                       # direct-relation recovery from 4.1
+transformationFlowStructureRef?                    # one-TFS and internal-subflow cases
+subflowRef?                                        # internal-subflow case only
+transformationFlowStructureNetworkRef?             # network case only
+pathIds[]?                                         # one-TFS use only
+pathSliceIds[]?                                    # one-TFS use only
+flowValuationRef?                                  # one-TFS use only
+preservedTransformationStructureRefs[]
+structureInformationAdequacyNoteRefs[]?
+stopCondition
+governingPatternReturnConditions[]
 ```
 
-`unfoldingStructureRef` names the generic `ConstraintGovernedUnfoldingStructure@Context` whose `specializedStructureRef` points to this narrower transformation-flow structure. The reciprocal references state the specialization relation; they do not split the primary EntityOfConcern or create a second transformation-flow structure.
+The first four A.22 discriminators, not this display, identify the selected structure. `flowCase` and the remaining rows show why that one structure qualifies and how the current use reaches its direct owners. No ambient context, transformed-subject label, path, valuation, tag, record edition, demonstration or profile field becomes another identity discriminator.
 
-The transformed entity and its kind are both present. A flow position points to one typed `ConstraintGovernedUnfoldingPosition@Context`; an external governed position is related through `TransformationFlowGoverningPatternPositionRelation@Context`, not put into a heterogeneous adjacency list.
+Paths and demonstrations remain different. `PathId`, `PathSliceId`, `FlowValuation` and the complete `FlowPositionRef` identity stay with one exact E.18 TFS. A post-admission A.22 demonstrative slice is a separate ordinary C.2.1 episteme whose EntityOfConcern is the admitted CGUS. A pre-admission flow card, worked example or explanation is a different C.2.1 episteme about the actual subject, question or proposed continuation set. A linear slice may teach one traversal while the selected structure branches, joins, cycles or keeps alternatives live.
 
-Paths and demonstrations remain different. `pathIds[]` and `pathSliceIds[]` identify E.18 flow structure. `demonstrativeSliceRefs[]` identify post-admission A.22.CGUS epistemes whose EntityOfConcern is the already-admitted wider structure. A pre-admission flow card, worked example, or explanation remains a separate `ProvisionalUnfoldingDemonstrationDescription@Context` and does not fill `demonstrativeSliceRefs[]`. An admitted demonstrative slice can be linear while the current flow structure branches, joins, cycles, or keeps alternatives live.
+A pattern-selection flow, selected-pattern-application flow and downstream-subject-work flow keep different EntitiesOfConcern, changes, Work occurrences, results, direct governing patterns, constraints and returns. If all relevant positions and internal `U.Transfer` occurrences resolve to one TFS, use its exact positions and, when current, one complete top-level demonstration locator `<transformationFlowStructureRef, pathSliceId, DesignRunTag>`. A detailed internal portion remains one parent-relative `SubflowRef`. If independently identified TFS or nested-network members cross, E.18.NET owns the network and exact cross-member occurrences; the mutually exclusive A.22 network locator applies and the top-level one-TFS triple is absent.
 
-A pattern-selection flow, selected-pattern-application flow, and downstream-subject-work flow keep different EntitiesOfConcern, changes, Work occurrences, results, direct governing patterns, constraints, and returns. If a demonstration stays inside one exact TFS, the complete A.22.CGUS top-level one-TFS locator triple identifies that TFS, its current path slice, and its local `DesignRunTag`. If the case instead uses independently identified TFS or nested-network members plus exact obtaining cross-member relation occurrences, E.18.NET governs the network and the mutually exclusive `networkDemonstrationLocator` applies; the top-level one-TFS triple is absent. A result, tool, context, constraint, shared label, or displayed arrow neither merges those members nor supplies their relation. A nested pattern-selection slice is present only while its selection provenance is current for the declared demonstration use; stale or unresolved provenance omits that nested slice or returns the currentness question to G.11. The enclosing slice, a shared label, and separation of result kinds do not establish currentness. When present, the nested slice returns its own candidate, fit finding, or recommendation to the enclosing demonstrated-pattern-use row rather than borrowing that row's application result.
+A result, tool, context, constraint, shared label or displayed arrow neither merges network members nor supplies their relation. Every member keeps its boundary, Work, actual transformations, valuations and leaf-local position state. Nested pattern-selection content is present only while its exact source or selection-provenance relation is current for the declared demonstration use. When present, it returns its own candidate, fit finding or recommendation rather than borrowing a later application result.
 
+Preserved transformation structure is carried by exact `U.Structure` refs. Captured, expected-but-uncaptured, lost and hidden structure for the declared use remains in exact C.33 epistemes. Stop and neighboring return are ordinary use boundaries unless a direct pattern independently admits a relation occurrence. G.11 owns source currentness and decay; E.18 owns one-TFS slice-local refresh.
 
-Preserved transformation structure is carried by exact `U.Structure` refs. Captured, expected-but-uncaptured, lost, and hidden structure for a declared use is carried by C.33 `StructuralInformationAdequacyNote@Context`. E.18.3 does not mint parallel free-text loss fields. Stop and governing-pattern return are different boundary relations. Source currentness and decay remain with G.11; E.18 slice-local flow refresh remains with E.18.
-
-`methodWorkLinkageRef?` appears only when a named receiving use relies on an inspectable method-to-work relation. A method, method description, WorkPlan, work-entry readiness relation, or performed Work remains governed by its exact A.3 or A.15 pattern.
+There is no generic method-to-work linkage here. When one named receiving use relies on a Method-to-Work claim, cite the exact already-obtaining relation or direct result returned by its owner and keep Method, qualifying MethodDescription, WorkPlan, readiness and dated Work separate. A governing-pattern ref, intended realization, selected continuation, imperative sentence or displayed sequence does not admit any episteme as `U.MethodDescription`. A.3.2 membership requires one already identified C.2.1 episteme whose exact EntityOfConcern is one admitted `U.Method` and whose ClaimContent makes at least one substantive way-of-doing claim. Method, qualifying MethodDescription, WorkPlan, work-entry result, dated Work, actual Transformation, production/inception/completion, evidence, evaluation and source-use claims stay under their exact owners and may enter the structure only through independently current objects and relations.
 
 #### E.18.3:4.0 - Application sequence
 
-1. Start from one admitted generic CGUS and name this narrower structure through the reciprocal specialization refs.
-2. Name the transformed entity and kind, then the typed transformation positions that matter to the current use.
-3. Reference the exact transfer, dependency, crossing, or guard relations. Add a subject-use classifier only when the same relation supports a separately governed evidence, assurance, architecture, narrative, or publication use.
-4. Connect every neighboring governed position through its exact kind, ref, governing pattern, connection kind, rationale, and supporting relation when that connection kind needs one.
-5. Name paths and path slices under their exact TFS owners and name demonstrative slices separately as presentation epistemes. After admission, choose exactly one A.22.CGUS locator family: the complete top-level E.18 triple for one-TFS provenance, or the network locator for a selected E.18.NET-conforming network; keep both absent for a generic slice.
-6. Name preserved transformation structures and use C.33 for omitted or hidden structure needed by the declared use.
-7. Add a stop boundary and separate returns to the direct patterns governing stronger claims. If the transformation substrate, exact relation, or typed connection is absent, keep the artifact as a `ProvisionalUnfoldingDemonstrationDescription@Context`, route card, graph description, or broader A.22.CGUS admission question; do not fill `demonstrativeSliceRefs[]`.
+1. Recover one selected A.22.CGUS and its four exact identity discriminators; do not create a reciprocal E.18.3 structure.
+2. Name the current transformation subject or subjects, their kinds and the exact E.18 positions and bindings used by the question.
+3. Classify the flow case as one TFS with its valuations, one parent-relative internal `SubflowRef`, or one E.18.NET network of independent members and exact crossings.
+4. Cite every selected transfer, dependency, crossing or guard occurrence and its direct owner. Add a structural-function or subject-use claim only through the ordinary C.2.1 relation-reference episteme in `4.0a`.
+5. Recover each neighboring governed position through its exact kind, ref and already-obtaining supporting relation. A result label, return arrow or comparison layout is not that relation.
+6. Name preserved structures, relevant C.33 adequacy notes, an ordinary stop and conditional returns. For a post-admission demonstration, choose exactly one complete A.22 locator family: top-level one-TFS, network, or neither for a generic slice.
+7. If any A.22 discriminator, position binding, direct relation, network row or required loss/return is missing, keep the artifact as a provisional C.2.1 episteme and state the exact blocker.
+
+This sequence guides use of the pattern. It is not a local mantra, `U.Method`, `U.MethodDescription`, WorkPlan or performed Work; completing the rows admits nothing by itself.
 
 #### E.18.3:4.0a - Exact relation references
 
-`E.18.3` governs `TransformationFlowRelationReference@Context`, a reference-bearing episteme whose EntityOfConcern is one exact transformation-flow relation instance. The episteme records two independent classifications without becoming the referenced relation:
+When another person or later use must replay why one selected relation occurrence has a transformation-flow structural function or supports a separately governed subject use, materialize one ordinary C.2.1 episteme. Its exact EntityOfConcern is the already-obtaining relation occurrence, its ClaimContent contains only the current reference use below, and its effective ReferenceScheme governs every designation. *Transformation-flow relation reference* is Plain wording for this use, not a local U-kind. Its edition and currentness remain ordinary C.2.1 and G.11 concerns; they do not add an identity field or ambient context.
 
 ```text
-TransformationFlowRelationReference@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing the exact relation instance
-  entityOfConcernKindRef: U.KindRef, referencing that relation kind
-  boundedContextRef: U.BoundedContextRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  FlowStructureSlot = <FlowStructureSlot, ConstraintGovernedTransformationFlowUnfoldingStructure@Context, U.EntityRef>
-  StructuralFunctionSlot? = <StructuralFunctionSlot, TransformationFlowStructuralFunctionValue, by-value>
-  SubjectUseSlot? = <SubjectUseSlot, TransformationFlowSubjectUseValue, by-value>
-  RelationSignatureSlot = <RelationSignatureSlot, U.Signature, U.EntityRef>
-  DirectGoverningPatternSlot = <DirectGoverningPatternSlot, U.MethodDescription, U.EntityRef>
-  NetworkEndpointBindingSets[]?: required for each selected network cross-flow row paired with this episteme
-    networkCrossFlowRelationRowRef: E.18.NET NetworkCrossFlowRelationRowRef
+transformationFlowRelationReferenceClaimContent:
+  selectedCGUSRef
+  exactRelationOccurrenceRef
+  exactRelationKindRef
+  directGoverningPatternRef: exact governing-pattern identifier or reference
+  relationSignatureRef?: exact declaration ref when current for this receiver
+  structuralFunction?: transfer | dependency | crossing | guard
+  subjectUse?: evidence | assurance | architecture | narrative | publication
+  exactSubjectUseClaimOrRelationRef?: required when subjectUse is present
+  networkEndpointBindingSets[]?:
+    networkCrossFlowRelationRowRef: exact E.18.NET NetworkCrossFlowRelationRowRef
     endpointRows[]:
-      relationParticipantPositionRef: U.EntityRef, referencing one exact participant position in RelationSignatureSlot
-      endpointMemberRef: U.EntityRef, referencing one exact TFS or nested-network member
-      endpointFlowPositionRef: U.EntityRef, referencing one FlowPositionRef or ExposedFlowPositionRef
-      endpointPositionBindingRef: U.EntityRef, referencing the already governed leaf-position binding
+      relationParticipantPositionRef
+      endpointMemberRef
+      endpointFlowPositionRef: FlowPositionRef | ExposedFlowPositionRef
+      endpointPositionBindingRef
 ```
 
-`TransformationFlowStructuralFunctionValue` is `transfer | dependency | crossing | guard`. It states what the referenced relation does inside the flow structure. `TransformationFlowSubjectUseValue` is `evidence | assurance | architecture | narrative | publication`. It states which separately governed subject use the same relation supports. At least one classifier is present; both may be present when both claims are true. Neither classifier changes the exact relation signature, value kind, value ref, or direct governing pattern.
+The structural-function and subject-use values are Plain closed classifications of this ClaimContent, not relation kinds, SlotKinds or structure identity. At least one is present. `transfer` is available only for the exact internal `U.Transfer` occurrence of one TFS. A cross-member production, use, evaluation, feedback, correspondence, dependency or supply occurrence keeps the kind and semantics returned by its direct owner; E.18.3 never relabels it as universal transfer.
 
-For example, one crossing relation can also support evidence use. It remains one exact relation with `structuralFunction=crossing` and `subjectUse=evidence`; the two classifiers do not create two relations or let E.18.3 own the evidence claim.
+`subjectUse` records a separately current use only when its direct evidence, assurance, architecture, narrative or publication owner has returned the cited exact claim or relation. The classifier alone establishes none of those uses. One occurrence may truthfully have a structural function and support a separate use without becoming two occurrences. For example, one exact crossing occurrence may also support an evidence use only when the evidence owner has returned the cited exact use claim; `structuralFunction=crossing` and `subjectUse=evidence` neither duplicate the occurrence nor make the evidence claim obtain.
 
-For each selected network mapping that pairs an E.18.NET `NetworkCrossFlowRelationRowRef` with this episteme, one `NetworkEndpointBindingSets[]` entry is required. Resolve the locator to exactly one row in its named current record edition, then require that row and this relation-reference episteme to agree on exact occurrence, relation kind, direct governor, signature and participant order, endpoint members, endpoint flow positions, and position bindings. The set adds no relation and makes none obtain; it preserves how the already obtaining occurrence reaches the admitted transformation positions.
+For a selected network mapping, resolve `NetworkCrossFlowRelationRowRef` to exactly one row in its named current record edition. Then require that row, the relation-reference episteme and the direct occurrence to agree on exact occurrence, kind, governor, signature and participant order, endpoint members, positions and bindings. The endpoint set adds no relation and makes none obtain; it preserves how the already-obtaining occurrence reaches admitted transformation positions.
+
+A governing-pattern identifier or reference is not a `U.MethodDescription`. A relation signature is carried only when the direct declaration exists and this receiving episteme needs it; citation does not make every use signature-dependent.
 
 #### E.18.3:4.1 - Connections to positions governed elsewhere
 
+E.18.3 mints no universal “governing-pattern position relation”. A neighboring Method, plan, Work, evidence, assurance, gate, decision, architecture, narrative, publication, evaluation or currentness value remains an independently governed constituent or use. A positive connection exists only through an exact already-obtaining relation supplied by its direct owner.
+
+Use this display row when a reader must recover the connection:
+
 ```text
-TransformationFlowGoverningPatternPositionRelation@Context <: U.Relation:
-  FlowStructureSlot = <FlowStructureSlot, ConstraintGovernedTransformationFlowUnfoldingStructure@Context, U.EntityRef>
-  FlowPositionSlot = <FlowPositionSlot, ConstraintGovernedUnfoldingPosition@Context, U.EntityRef>
-  NeighborGoverningPatternSlot = <NeighborGoverningPatternSlot, U.MethodDescription, U.EntityRef>
-  NeighborPositionKindSlot = <NeighborPositionKindSlot, U.Kind, U.KindRef>
-  NeighborPositionRefSlot = <NeighborPositionRefSlot, U.Entity, U.EntityRef>
-  PositionConnectionKindSlot = <PositionConnectionKindSlot, TransformationFlowPositionConnectionKindValue, by-value>
-  SupportingRelationReferenceSlot? = <SupportingRelationReferenceSlot, TransformationFlowRelationReference@Context, U.EpistemeRef>
-  ConnectionRationaleSlot = <ConnectionRationaleSlot, U.Episteme, U.EpistemeRef>
-  RelationRefKind = U.EntityRef
-  Direction = FlowPositionSlot -> NeighborPositionRefSlot
-  Dependence = bounded-context local to FlowStructureSlot and NeighborGoverningPatternSlot editions
-  Identity = <FlowStructureSlot, FlowPositionSlot, NeighborGoverningPatternSlot, NeighborPositionRefSlot, PositionConnectionKindSlot>
+neighboringPositionUseRow:
+  admittedTransformationPositionLocator: exact CGUSPositionLocator already used by this E.18.3-qualified structure
+  neighborPositionKindRef
+  neighborPositionRef
+  neighborDirectGoverningPatternRef: exact identifier or reference
+  connectionQuestion: basis dependency | result | governing constraint | comparison | other stated question
+  exactSupportingRelationOccurrenceRef
+  supportingRelationReferenceEpistemeRef?: ordinary C.2.1 episteme from 4.0a
+  connectionRationaleClaimRef
 ```
 
-`TransformationFlowPositionConnectionKindValue` is `basisDependency | producedResult | governingConstraint | returnTarget | comparisonPeer`. `basisDependency`, `producedResult`, `governingConstraint`, and `returnTarget` carry an exact supporting relation reference. `basisDependency` states a dependency on a basis position governed elsewhere; it creates no obligation. `comparisonPeer` permits the supporting reference to remain absent because this E.18.3 relation itself states the exact pairwise comparison connection and rationale. The neighbor ref is always paired with its exact kind.
+The connection-question values are Plain prompts, not kinds or relations. `basis dependency` creates no obligation. `result` is positive only after the exact result entity or relation and what it is a result of or for are recovered. `governing constraint` needs the exact current constraint claim or occurrence. `comparison` needs its comparator, participants, scope and direct comparison owner; juxtaposition supplies none. Direction, participant order, applicability, occurrence identity, dependence and currentness come from the exact supporting relation and its owner, not from this display row.
 
-This connection relation keeps the neighboring pattern visible without importing its result kind into transformation-flow ontology. Recommendation, method, work, evidence, assurance, gate, architecture, narrative, publication, and currentness claims remain under their direct governing patterns.
+An ordinary stop or return uses `stopCondition` or `governingPatternReturnConditions[]` and creates no connection relation by itself. If the direct supporting relation is missing, keep the neighboring values separate, record the attempted question and return the exact `missing-governor`, unresolved-facts, false-predicate or missing-binding result. Recommendation, intended realization, rationale text, common EntityOfConcern and graph adjacency are not substitutes.
 
 #### E.18.3:4.2 - Provisional flow demonstration and admitted slice
 
-Before a `ConstraintGovernedTransformationFlowUnfoldingStructure@Context` passes admission, a path fragment, flow card, worked example, replay, or first-use explanation remains a `ProvisionalUnfoldingDemonstrationDescription@Context`. Its subject is the transformed entity, current flow question, or proposed continuation set. Candidate positions and relation descriptions may guide discovery, but they are not admitted transformation positions or relation-reference epistemes, and they make no world-side relation instance obtain.
+Before the selected A.22 structure passes admission and the E.18.3 membership condition, a path fragment, flow card, worked example, replay or first-use explanation remains an ordinary C.2.1 provisional episteme. Its exact EntityOfConcern is the actual transformation subject, current question or proposed continuation set, never a not-yet-admitted structure. Its ClaimContent may name visible candidate positions, proposed relations, possible continuations, presentation form, every unresolved coordinate and the exact condition that would resolve each one. These claims guide discovery but create no constituent, structure identity, position, relation occurrence, Method, MethodDescription, plan, Work or Transformation.
 
-After the generic CGUS and this transformation-flow specialization are admitted, a separate `DemonstrativeUnfoldingSlice@Context` may teach or demonstrate one admissible traversal. It names the admitted CGUS as EntityOfConcern and states included typed positions, C.33 notes for relevant omitted structure, loop-compression rule, presentation-ordering rule, alternatives, and return boundary when those affect use. It may cite the provisional description as derivation basis; it does not retype that description or the transformed entity.
+After admission, a separate ordinary C.2.1 demonstrative-slice episteme may teach one admissible traversal. Its exact EntityOfConcern is the same selected CGUS recognized by E.18.3. Its ClaimContent cites exact admitted `CGUSPositionLocator` values, already-admitted relation-reference epistemes or obtaining occurrence refs, relevant C.33 omissions, alternatives, loop-compression and presentation-ordering claims, admissible and forbidden uses, and the slice return condition. A source provisional episteme is cited only through an exact source, derivation or viewing-construction relation under its direct owner; file history is not such a relation.
 
-Do not infer that demonstrated order is project work order. If work order is current, open the work-plan or method-description pattern. Do not infer that a demonstrated path is the whole transformation-flow topology. If the admitted flow has branches, joins, cycles, alternatives, or partial orders, name what the slice omits or compresses before relying on it for comparison, architecture, evidence, or work planning.
+Do not infer that demonstrated order is project-work order. If ordered Work is current, apply A.15.2 or the direct Method and MethodDescription patterns to independently identified objects and claims; the demonstration’s imperative or repeated wording admits none. Do not infer that a demonstrated path is the whole topology. When the selected structure branches, joins, cycles, keeps alternatives live or is partially ordered, record what the slice omits or compresses before relying on it for comparison, architecture, evidence or planning.
 
-A pre-admission flow card can still help slot discovery. Each visible candidate position states the subject-domain object or question it concerns and the exact admission coordinate still unresolved. Once the transformed entity, typed positions, exact crossing or guard relations, valuation, preserved structures, C.33 notes, governing-pattern connections, and boundaries are recoverable, admit the structure first and create the slice second. This preserves the practical aid without circularly using a supposed slice as evidence for its own whole.
+A pre-admission card can still help slot discovery. Each candidate position names the subject-domain object or question it concerns, the proposed E.18 position and binding, and the exact admission coordinate still unresolved. Once the A.22 identity, flow case, admitted position mappings, exact relations, constraints, preserved/lost structure and use boundaries are recoverable, admit the structure first and constitute a separate slice second. If later inspection invalidates admission, withdraw the slice claim while retaining any still-truthful provisional claim under its narrower use.
 
 #### E.18.3:4.2a - Admit network-aware demonstration mappings
 
-A network-aware `DemonstrativeUnfoldingSlice@Context` is post-admission only. First select and verify one E.18.NET-conforming network; then admit this E.18.3 structure, its `transformationPositionRefs[]`, and every required `TransformationFlowRelationReference@Context`. Then apply A.22.CGUS `networkDemonstrationLocator`; the locator cannot supply missing members, positions, relations, or admission.
+A network-aware demonstrative slice is post-admission only. First select and verify one E.18.NET-conforming network. Then recover the one selected A.22.CGUS, its E.18.3 transformation-position mapping rows, and every required relation-reference episteme. Only then may the slice use A.22.CGUS `networkDemonstrationLocator`; the locator supplies no missing member, position, relation, constraint or admission.
 
-For each `selectedNetworkPositionMappingRows[]` entry, resolve the finite member path through exact direct members to its leaf TFS. A `FlowPositionRef` must name that final TFS. An `ExposedFlowPositionRef` must name this slice's selected network and repeat the same complete member path and leaf position; a different network, path, or leaf leaves the mapping out of the slice. Its `admittedIncludedPositionRef` must be the same exact `ConstraintGovernedUnfoldingPosition@Context` already present in this structure's `transformationPositionRefs[]` and the slice's `includedStructurePositionRefs[]`. The position ref locates that admitted position; it does not create a parallel position list.
+For each `selectedNetworkPositionMappingRows[]` entry, resolve the finite member path hop by hop through exact direct members to its leaf TFS. A `FlowPositionRef` must name that final TFS. An `ExposedFlowPositionRef` must name this slice’s selected network and repeat the same complete member path and leaf position; a different network, path or leaf leaves the mapping out. `admittedIncludedPositionLocator` must be the same exact `CGUSPositionLocator` already present in the E.18.3 position mapping and the slice’s `includedPositionLocators[]`. The network ref locates that admitted position; it does not create a copied raw-position list.
 
-For each `selectedCrossFlowRelationReferenceRows[]` entry, require its E.18.NET `NetworkCrossFlowRelationRowRef` to name a current record edition whose `entityOfConcernRef` is this slice's selected network, then resolve exactly one row by occurrence and complete ordered endpoint-binding identity. Pair that resolved row with one `TransformationFlowRelationReference@Context` already present in an applicable transfer, dependency, crossing, guard, or subject-use reference field of this admitted E.18.3 structure and with its matching `NetworkEndpointBindingSets[]` entry. Verify occurrence, kind, direct governor, signature, participant order, endpoint members, flow positions, and position bindings by value. If the record describes another network, the locator resolves zero or several rows, any field differs, or the relation reference is not already admitted, keep the mapping out of the slice and return the exact missing or ambiguous network, row, position, relation, or governor.
+For each `selectedCrossFlowRelationReferenceRows[]` entry, require its `NetworkCrossFlowRelationRowRef` to name a current record edition whose EntityOfConcern is this slice’s selected network, then resolve exactly one row by occurrence and complete ordered endpoint-binding identity. Pair that row with one relation-reference episteme already cited by this E.18.3-qualified structure and with its matching `networkEndpointBindingSets[]` entry. Verify occurrence, kind, direct governor, signature, participant order, endpoint members, flow positions and bindings by value. If the record describes another network, zero or several rows resolve, any field differs, or the relation reference is not already current, omit the mapping and return the exact missing or ambiguous network, row, position, occurrence, governor or binding.
 
-A network locator consumes only those admitted position and relation-reference epistemes. `transformationFlowValuationRef?`, `pathIds[]`, and `pathSliceIds[]` remain one-TFS fields; they do not qualify the network. Network demonstration valuations, path slices, and `DesignRunTag` values stay inside member-local locator rows bound to one exact leaf position.
+The complete top-level one-TFS locator is absent from a network slice. `FlowValuation`, `PathSliceId` and `DesignRunTag` remain member- or leaf-local; Work, actual transformations, boundaries and currentness also remain with their exact member and direct owner. Member paths are finite and membership is acyclic, while exact cross-flow feedback occurrences may cycle when their direct patterns permit them.
+
+Every selected cross-flow relation remains the exact occurrence admitted by its direct owner. Do not substitute universal `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff` or `transfer` edges. One C.32.CONWAY result may contribute one exact transformer-role-system and transformed-holon architecture-correspondence occurrence as one qualified network row after its occurrence and endpoint bindings are recovered; it never constitutes the network.
+
+A source phrase or graph enters only through an exact source-to-use claim or relation. A separately identified `BoundedModelUseStructure` participates only when the receiving assertion or use selects it and its organization changes interpretation of that claim; shared wording, adjacency or a crossing display establishes neither model-use qualification nor crossing.
+
+**Positive case.** A four-level build-the-builder demonstration follows one finite member path to an already admitted leaf position, maps it to the same included CGUS/E.18.3 locator, cites one exact admitted cross-flow relation-reference episteme, and keeps path slice and tag in one leaf-local row. **Near miss.** A graph supplies raw positions or an edge label, mixes locator families, duplicates positions, assigns one tag to the network or cites a row without exact bindings; keep it provisional or return the exact missing member, relation, position or binding.
 
 #### E.18.3:4.3 - Boundary
 
-This `U.Structure` specialization is not a second transformation ontology, workflow, method, work plan, performed work, mathematical graph, publication, evidence relation, gate decision, architecture decision, or architecture description. It is a transformation-flow structure over typed transformation positions and exact relation references, together with explicit connections and returns to the patterns governing stronger claims.
+E.18.3 recognizes one selected A.22.CGUS `U.Structure`; it is not a second transformation ontology or reciprocal narrower structure. The selected structure is not a workflow, Method, MethodDescription, WorkPlan, performed Work, actual Transformation, mathematical graph, publication, evidence relation, gate decision, architecture decision or architecture description. It organizes independently governed constituents, already-obtaining relations and constraints for one transformation-flow unfolding use.
+
+A graph, record, filled table, demonstration, imperative, selected continuation, recommendation or intended realization establishes neither the A.22 identity nor the E.18.3 condition. It admits no MethodDescription or Work. A.3.2, A.15.1, A.3.4, A.15.PROD and every direct relation owner remain mandatory for those claims.
 
 #### E.18.3:4.4 - Replay and change localization
 
-Replay one use from the reciprocal CGUS specialization refs, transformed entity and kind, typed transformation positions, exact relation signatures and values, structural-function and subject-use classifiers, governed-position connections, one-TFS path and valuation refs when current, any post-admission network position and relation mappings, preserved structures, C.33 adequacy notes, and stop and return boundaries. For each continuation, recover the exact relation or guard that admits it and the pattern governing any stronger claim.
+Replay one use from the selected structure’s exact four A.22 identity discriminators, the current flow-case classification, transformation subjects, admitted position mappings, exact selected relation occurrences and relation-reference epistemes, constraints and guards, neighboring direct relations, one-TFS path/valuation refs when current, any post-admission network mappings, preserved structures, C.33 adequacy notes, and ordinary stop and conditional returns. For each continuation, recover the exact occurrence or guard that admits it and the direct owner of every stronger claim.
 
-Localize changes by the relation they affect. A changed relation value reopens its classifiers, dependent guards, and continuations. A changed neighbor value or kind reopens that governed-position connection and its supporting relation. A changed path or valuation reopens only the dependent path slices and demonstrations. Changed omitted structure reopens the C.33 note. Source edition, freshness, telemetry, and decay remain G.11 changes; E.18 owns only slice-local flow refresh. Reconstruct the wider specialization only when the transformed entity, transformation-position set, relation topology, preserved structure, or declared use boundary changes.
+Localize changes by the object they affect. A changed relation occurrence reopens its reference episteme, dependent guards and continuations. A changed neighboring object or direct relation reopens only that use row. A changed path or valuation reopens only dependent one-TFS slices and demonstrations. A changed network member, path, exposure, row or endpoint binding returns first to E.18.NET and then to dependent mappings. Changed omitted structure reopens its C.33 episteme. Source edition, source-use, freshness, telemetry and decay remain with their exact owners and G.11; E.18 owns only one-TFS slice-local refresh.
+
+Re-evaluate E.18.3 qualification when its flow case, position mapping or use claim changes. Reidentify the selected `U.Structure` only when one of the four A.22 discriminators changes; a changed description, demonstration, valuation, path slice, local tag or E.18.3 qualification result does not by itself create another structure.
 
 ### E.18.3:5 - Worked Slices
 
-**Minimal first use.** In the candidate-set repair situation, name `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition`, `ComparisonRecalculationPosition`, and the proposed dependency `ComparisonDependsOnAdmittedEdition`. Keep the result as a `ProvisionalUnfoldingDemonstrationDescription@Context` with return descriptions pointing to G.11 and A.19. This already prevents a stale-edition comparison from looking current without asserting typed positions or a relation instance prematurely. Admit the full E.18.3 structure only when the exact dependency and every required admission coordinate are recoverable.
+**Minimal first use.** In the candidate-set repair situation, name one proposed selected structure use, `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition` and `ComparisonRecalculationPosition` plus the proposed dependency `ComparisonDependsOnAdmittedEdition`. Keep the result as an ordinary C.2.1 provisional episteme whose EntityOfConcern is that comparison-basis question. Its ClaimContent points to G.11 and A.19.CPM as returns and states that the A.22 identity, exact E.18 bindings and dependency occurrence remain unresolved. This already prevents a stale-edition comparison from looking current without asserting a structure, typed position or relation prematurely.
 
-**P2W carry-through.** Accepted problem-side records may name distinctions, constraints, and unresolved relation positions that jointly guide later method selection, planning, work, interpretation, and return. `E.18.3` can relate those positions to candidate governing-pattern positions through exact connection kinds and supporting relations. It does not authorize launch or performed work, and it does not replace E.18.1 carry-through.
+**P2W carry-through.** Accepted problem-side records may name distinctions, constraints and unresolved relation positions that guide later Method selection, planning, Work, interpretation and return. E.18.3 may organize independently current objects only after the selected A.22 structure, E.18 position bindings and direct relations are recovered. It does not authorize launch or performed Work, does not admit any MethodDescription from intended use, and does not replace E.18.1 carry-through.
 
-**Recursive build-the-builder demonstration.** After a four-level network is selected and verified under E.18.NET and its relevant E.18.3 positions and relation-reference epistemes are admitted, a demonstrative slice follows one finite member path to an already admitted leaf position. The network mapping points to the same included position, and every cross-member row cites an already admitted relation-reference episteme with matching participant positions and bindings. The leaf path slice and tag stay in its member-local row. Before those admissions, the same graph remains a provisional description rather than a network-aware slice.
+**Recursive build-the-builder demonstration.** After a four-level network is selected and verified under E.18.NET and the relevant E.18.3 position mappings and relation-reference epistemes are current, a demonstrative slice follows one finite member path to an already admitted leaf position. The network mapping points to the same included `CGUSPositionLocator`, and every cross-member row cites an already-current relation-reference episteme with matching participant positions and bindings. The leaf path slice and tag stay in its member-local row. Before those facts are recovered, the same graph remains a provisional episteme rather than a network-aware slice.
 
-**Transformation-flow mini-example.** A team has a flow card "admitted reference-publication edition changes -> recalculate comparison -> update candidate set -> decide whether to repair." E.18.3 admits only the transformation-flow slice:
+**Transformation-flow mini-example.** A team has a flow card “admitted reference-publication edition changes -> recalculate comparison -> update candidate set -> decide whether to repair.” The card becomes a demonstration only after this exact selected-structure and use account is current:
 
 ```text
-transformedEntityRef: CandidateSetComparisonBasis@Review-2026-07
-transformedEntityKindRef: U.Episteme
-transformationPositionRefs[]: ReferenceEditionChangePosition; ComparisonRecalculationPosition; CandidateSetUpdatePosition; DecisionRepairPosition
-governingPatternPositionRelationRefs[]: G2SourceUseBasisConnection; G11CurrentnessBasisConnection; A19ComparisonResultConnection; C18RetainedSetResultConnection; C32PADRepairReturnConnection
-dependencyRelationReferenceEpistemeRefs[]: ComparisonDependsOnAdmittedEdition; CandidateSetUpdateDependsOnComparison
+selectedCGUSRef: CandidateSetRepairUnfoldingStructure@Review-2026-07
+A22IdentityBasis:
+  selectedConstituentRefs[]: exact edition, comparison, retained-set and decision-use constituents
+  selectedObtainingRelationOccurrenceRefs[]:
+    ComparisonDependsOnAdmittedEdition
+    CandidateSetUpdateDependsOnComparison
+  appliedConstraintClaimRefs[]:
+    EditionAdmissionGuard
+    ComparisonBasisChangeGuard
+  namedSelectionUseFrame:
+    questionOrAction: decide which repair continuation remains admissible
+    forbiddenOverread: no table order, MethodDescription, plan, Work, gate or decision follows
+flowCase: oneTFS
+transformationFlowStructureRef: CandidateSetRepairTFS
+transformationSubjectRows[]:
+  CandidateSetComparisonBasis@Review-2026-07, U.Episteme, direct owner
+transformationPositionMappingRows[]:
+  ReferenceEditionChangeLocator -> exact CandidateSetRepairTFS FlowPositionRef and binding
+  ComparisonRecalculationLocator -> exact CandidateSetRepairTFS FlowPositionRef and binding
+  CandidateSetUpdateLocator -> exact CandidateSetRepairTFS FlowPositionRef and binding
+  DecisionRepairLocator -> exact CandidateSetRepairTFS FlowPositionRef and binding
+relationReferenceEpistemeRefs[]:
+  ordinary C.2.1 references for the two dependency occurrences and two guard claims
+neighboringPositionUseRows[]:
+  exact G.2 source-use, G.11 currentness, A.19.CPM comparison, C.18 retained-set and C.32.PAD repair relations
 pathIds[]: CandidateSetRepairFlow
 pathSliceIds[]: EditionChangeToDecisionRepairSlice
-demonstrativeSliceRefs[]: DemonstrativeUnfoldingSlice@CandidateSetRepairTeaching
-guardRelationReferenceEpistemeRefs[]: EditionAdmissionGuard; ComparisonBasisChangeGuard
-preservedTransformationStructureRefs[]: EditionToComparisonDependencyStructure; ComparisonToCandidateSetDependencyStructure
-structureInformationAdequacyNoteRefs[]: CandidateSetRepairTeachingOmissionNote under C.33, naming omitted comparison branches and return
-governingPatternReturnBoundaryRefs[]: return to G.11 for currentness; A.19 for comparison; C.18 for retained-set stewardship; C.32.PAD for decision repair
-stopBoundaryRef: stop stronger use when any named position or supporting relation is no longer recoverable
+preservedTransformationStructureRefs[]:
+  EditionToComparisonDependencyStructure
+  ComparisonToCandidateSetDependencyStructure
+structureInformationAdequacyNoteRefs[]:
+  CandidateSetRepairTeachingOmissionNote under C.33
+stopCondition: stop stronger use when an A.22 discriminator, position binding or selected relation is not current
+governingPatternReturnConditions[]:
+  G.11 currentness; A.19.CPM comparison; C.18 retained-set stewardship; C.32.PAD decision repair
+demonstrativeSliceRef:
+  separate post-admission C.2.1 episteme for CandidateSetRepairTeaching
 ```
 
-Before those typed positions, exact relation references, C.33 omission note, and returns are recoverable, the flow card remains a provisional demonstration description. The block above is admitted only after they are recoverable; its `demonstrativeSliceRefs[]` then names a separate post-admission slice.
+The block is a recovery display, not another record or identity tuple. Before its selected occurrences, position bindings, C.33 omission and returns are recoverable, the flow card remains provisional. After admission, its demonstration ref names a separate episteme about the same selected structure.
 
-**Local edition-relation repair.** `G.11` admits `ReferencePublicationEdition@v2`, while `ComparisonDependsOnAdmittedEdition` still references v1. Keep the transformed entity, flow positions, path ids, preserved structures, and all return boundaries. Replace the stale relation value ref, then re-evaluate `EditionAdmissionGuard`. Reopen the A.19 comparison position only if the admitted comparison basis changed; reopen the C.18 retained-set position only if the comparison result changed; reach C.32.PAD only if that retained-set change affects the current decision. The edition change therefore propagates through exact dependent relations instead of reopening the whole flow by proximity.
+**Local edition-relation repair.** `G.11` admits `ReferencePublicationEdition@v2` while `ComparisonDependsOnAdmittedEdition` still references v1. Keep independently unchanged constituents, positions, path and path-slice identifiers, preserved structures and return conditions. Reapply the relation’s direct owner, replace the selected occurrence only if the v2 predicate obtains, and then re-evaluate `EditionAdmissionGuard`. Reopen the A.19.CPM comparison use only if its basis changed, C.18 only if the comparison result changed, and C.32.PAD only if that retained-set change affects the current decision. If the selected occurrence changes, the A.22 relation discriminator changes and the selected structure must be reidentified; mere publication wording or a new relation-reference episteme does not do so.
 
-**Connected-box proxy failure.** A team reports that every flow-card box is connected and adds low-value edges until path coverage reaches its target. The relation count rises, but guards no longer distinguish admissible alternatives, stale dependencies remain unrepaired, and wrong governing-pattern returns increase. Edge count and path coverage describe the expression only; they do not establish current, useful transformation-flow structure. Remove edges without a declared structural function or subject use, evaluate whether practitioners select the correct guarded continuation and smallest repair, and use `E.13` when display coverage substitutes for those outcomes.
+**Connected-box proxy failure.** A team reports that every flow-card box is connected and adds low-value edges until path coverage reaches its target. The relation count rises, but guards no longer distinguish admissible alternatives, stale dependencies remain unrepaired and wrong governing-pattern returns increase. Edge count and path coverage describe the expression only. Remove edges without exact direct occurrences, evaluate whether practitioners select the correct guarded continuation and smallest repair, and use `E.13` when display coverage substitutes for those outcomes.
 
-**Architecture P2S projection.** A P2S flow card includes architecture-relevant problem pressure, selected or unknown structures, synthesis positions, and actual-structure feedback relations. If one slice is transformation-flow structure, `E.18.3` names that slice and its exact connections. Architecture use remains with `C.32.P2S` and `C.30.TFS-REL`; an architecture decision remains with `C.32.PAD`.
+**Architecture P2S projection.** A P2S flow card includes architecture-relevant problem pressure, unknown or selected structures, synthesis positions and actual-structure feedback. If one selected CGUS satisfies E.18.3, cite its exact E.18 positions and relations. `C.32.P2S` owns selected and expected epistemic structures and their exact use; realization Work and actual world-side structures remain separate. `C.30.TFS-REL` owns architecture use and `C.32.PAD` owns an architecture decision. One exact `C.32.CONWAY` correspondence may be one qualified E.18.NET row, never the whole network.
 
-**Physical workpiece transformation.** A heat-treatment structure concerns `GearBlank@Lot-14`, admitted as a project `U.Holon`, and relates load, soak, quench, and hardness-evaluation positions. `QuenchAdmittedAfterSoakRange` is an exact guard relation; furnace loading and quenching remain planned or performed work under A.15, and the hardness result remains under its evaluation and evidence patterns. A flow card can expose guarded alternatives before execution without claiming that the work occurred.
+**Physical workpiece transformation.** A heat-treatment unfolding use concerns `GearBlank@Lot-14`, independently admitted as a project `U.Holon`, and selects exact E.18 positions for load, soak, quench and hardness evaluation. `QuenchAdmittedAfterSoakRange` must be an exact current guard occurrence. Furnace loading and quenching remain planned or dated Work under A.15; each actual heat-treatment change remains under A.3.4; any production/inception/completion claim remains under A.15.PROD; hardness remains under its measurement, evaluation and evidence owners. A flow card can expose alternatives before execution without claiming that Work occurred.
 
-**Clinical transformation planning.** A treatment-adjustment structure concerns `Patient@Case-17`, admitted as a `U.System`, and relates assessment, intervention-candidate, contraindication-guard, observed-state, and return positions. The structure can show that one observed state changes which intervention remains admissible. It does not authorize treatment, establish evidence sufficiency, replace clinical judgement, or claim that an intervention occurred; those claims remain with their clinical DPF, work, evidence, and gate patterns.
+**Clinical transformation planning.** A treatment-adjustment unfolding use concerns `Patient@Case-17`, independently admitted as a `U.System`, and selects assessment, intervention-candidate, contraindication-guard, observed-state and return positions. The selected structure may show that one exact observed-state relation changes which intervention remains admissible. It does not authorize treatment, establish evidence sufficiency, replace clinical judgement, admit a MethodDescription or claim that an intervention occurred; those claims remain with their clinical DPF, permission, Work, evidence and gate owners.
 
-**Formal flow-expression boundary.** A team expresses the candidate-set repair slice as a directed graph or DCR model to ask whether `DecisionRepairPosition` is reachable after `EditionAdmissionGuard`. The expression preserves selected dependency and guard topology plus the queried path. It loses subject-use authority, direct governing-pattern connections, C.33 omission notes, and currentness semantics unless those are separately mapped. Use `E.18.2` for the mathematical description and `C.29` for its admissibility and loss. A positive reachability result does not establish currentness, retained-set validity, decision repair, work order, or the identity of the whole E.18.3 structure.
+**Formal flow-expression boundary.** A team expresses the candidate-set repair use as a directed graph or DCR model to ask whether `DecisionRepairPosition` is reachable after `EditionAdmissionGuard`. The expression may preserve selected dependency and guard topology plus the queried path. It loses subject-use authority, direct governing-pattern connections, C.33 omissions and currentness semantics unless those are separately mapped. Use `E.18.2` for the mathematical description and `C.29` for its declared use, preserved/lost structure and stop. Positive reachability establishes neither currentness, retained-set validity, decision repair, Work order nor selected-structure identity.
 
-**Reference-currentness repair.** A path slice can depend on an admitted publication edition, a `G.2` source-use relation, a source pack, or a telemetry window. E.18 governs slice-local flow refresh. `G.11` governs source currentness, decay, edition shift, deprecation, reship, and no-change claims. Connect those positions through exact E.18.3 relations without creating a combined currentness-refresh value.
+**Reference-currentness repair.** A one-TFS path slice may depend on an admitted publication edition, a `G.2` source-use relation, a source pack or a telemetry window. E.18 governs slice-local flow refresh. G.11 governs source currentness, decay, edition shift, deprecation, reship and no-change claims. Connect these values only through exact direct occurrences and reopen the smallest dependent use; do not create a combined currentness-refresh value.
 
 ### E.18.3:6 - Bias-Annotation
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Path-as-workflow | Restore the transformed entity and kind, typed flow positions, exact relation references, guards, crossings, preserved structures, C.33 adequacy notes, and direct work-pattern connection. |
-| Graph-as-structure-in-every-sense | Keep graph expressions and path cards as provisional descriptions before admission or separate admitted slices afterward; neither presentation is the governed transformation-flow structure. |
-| E.18 as universal CGUS parent | Admit E.18.3 only when bounded transformation-flow substrate is current. |
-| Gate or evidence absorption | Keep gate and evidence claims with their direct governing patterns even when the same exact relation has a crossing or guard structural function. |
+| Path-as-workflow | Restore the selected structure, exact E.18 positions and bindings, already-obtaining relations, guards, preserved/lost structure and direct Work-pattern exits. |
+| Graph-as-structure-in-every-sense | Keep graphs and flow cards as provisional C.2.1 epistemes before admission or separate demonstrative epistemes afterward; neither presentation is the governed structure. |
+| Profile-as-second-structure | Keep the four A.22 discriminators as the one structure identity. E.18.3 qualification, records, descriptions, locators and reciprocal-looking references create no second structure. |
+| One TFS as universal parent | Classify several valuations, one internal `SubflowRef` and independently selected E.18.NET members before using a demonstration. |
+| Gate, evidence or subject-use absorption | Keep each direct claim with its owner even when a relation-reference episteme gives the same occurrence a structural-function classification. |
+| Intended realization as MethodDescription or Work | Apply the exact A.3.2 membership threshold or A.15.1 occurrence test; pattern refs, imperatives, rows and selected continuations establish neither. |
 
 ### E.18.3:7 - Conformance Checklist
 
 | ID | Passing condition | Failed-check repair |
 | --- | --- | --- |
-| **CC-E18.3-1 Transformation substrate.** | Bounded transformations, transformed entity and kind, and typed transformation positions are named. | Use `A.22.CGUS` or another direct pattern instead of E.18.3. |
-| **CC-E18.3-2 Flow structure.** | Exact transfer, dependency, crossing, and guard relation refs; one-TFS path and path-slice refs; demonstrations; and optional one-TFS valuation are recoverable without union fields. | Lower to a route card, graph description, or ordinary explanation. |
-| **CC-E18.3-2a Network position admission.** | Every position ref agrees with the selected network, complete member path, and leaf TFS position and maps to the same exact position already present in both `transformationPositionRefs[]` and the demonstrative slice's `includedStructurePositionRefs[]`; no parallel raw-position list is created. | Return the mismatched network, path, or leaf; admit the missing typed position or remove the network mapping and keep the graph provisional. |
-| **CC-E18.3-2b Network relation and local-state admission.** | Every selected network relation row comes from a current record of that same network and is paired with a relation-reference episteme already present in an applicable E.18.3 reference field, with occurrence, kind, governor, signature, participant order, endpoints, and bindings equal. Valuations, path slices, and tags remain leaf-local and are absent as network-global fields. | Return the exact network, record, relation, endpoint, binding, or governor blocker; remove global state and consume only admitted refs in the post-admission slice. |
-| **CC-E18.3-3 Governing-position connections.** | Every neighboring position has exact kind, ref, governing pattern, connection kind, and rationale. Every connection except `comparisonPeer` has an exact supporting relation; for `comparisonPeer`, this connection relation itself states the exact pair and rationale. | Add the typed connection or remove the neighboring-position claim. |
-| **CC-E18.3-4 Preserved and omitted structure.** | Preserved transformation structures are exact refs; relevant loss and hiddenness are C.33 adequacy notes for the declared use. | Add the exact structures and C.33 notes before relying on the slice. |
-| **CC-E18.3-5 Stop and return.** | Stop boundary and returns to exact governing patterns are separate; E.18 slice-local refresh and G.11 currentness remain distinct. | Add exact boundaries or keep the slice as a one-use example. |
-| **CC-E18.3-6 Non-chain topology.** | Branches, joins, cycles, partial orders, and guarded alternatives are preserved or explicitly lost when the flow is graph-shaped. | Keep a linear path provisional before admission; after admission, a separate demonstrative slice may present it but never replaces the whole flow structure. |
+| **CC-E18.3-1 One selected structure.** | One exact `U.Structure` has the four A.22 identity discriminators and satisfies the E.18.3 transformation-flow condition; no reciprocal generic/narrower structure or ambient-context identity exists. | Recover the A.22 discriminator or keep the artifact provisional. |
+| **CC-E18.3-2 Flow case and substrate.** | The E.18 substrate is current; every bounded `U.Transformation` binding used by it was independently grounded under A.3.4; transformation subjects and kinds are exact; and the use is classified as several valuations on one TFS, one internal `SubflowRef`, or one E.18.NET network over independent members and exact crossings. | Recover the missing transformation or binding; remove valuation-created flows, detail-created members and giant-flow flattening; return to E.18 or E.18.NET. |
+| **CC-E18.3-2a Position admission.** | Every transformation position maps the same exact admitted `CGUSPositionLocator` through an exact `FlowPositionRef` and binding; a network position additionally agrees with the selected network, complete member path and leaf TFS. No raw parallel position list exists. | Return the mismatched structure, TFS, network, path, leaf, constituent or binding; admit the missing position or keep it provisional. |
+| **CC-E18.3-2b Relation and local state.** | Every transfer, dependency, crossing or guard occurrence is already admitted by its direct owner. A relation-reference episteme has that occurrence as EntityOfConcern and agrees in kind, governor, signature when current, participant order and any network endpoint bindings. Valuations, slices and tags remain TFS- or leaf-local. | Return the exact governor, predicate, facts, occurrence, record, endpoint or binding blocker; remove global state or ungrounded edges. |
+| **CC-E18.3-3 Neighboring positions.** | Every positive dependency, result, constraint or comparison connection names the exact neighbor kind and ref, direct governor, question, rationale and an already-obtaining supporting relation with its participants, direction and identity. Stops and returns remain use conditions unless separately admitted as relations. | Keep the objects separate, record the attempted question and return the exact direct-owner result. |
+| **CC-E18.3-4 Preserved and omitted structure.** | Preserved structures are exact refs; captured, expected-but-uncaptured, lost or hidden structure needed by the use is stated in exact C.33 epistemes. | Add the exact structures and C.33 claims or narrow the use. |
+| **CC-E18.3-5 Stop, return and currentness.** | Ordinary stop and conditional returns to exact patterns are separate. E.18 one-TFS refresh, E.18.NET member/network change and G.11 source currentness remain distinct. | Add the exact boundary or keep a one-use explanation. |
+| **CC-E18.3-6 Non-chain topology.** | Branches, joins, cycles, partial orders and guarded alternatives are preserved or explicitly omitted. Membership is acyclic; directly governed feedback relations may cycle. | Keep a linear path provisional or state its exact loss in the post-admission slice. |
+| **CC-E18.3-7 Demonstration separation.** | Provisional, whole-structure-description and demonstrative uses remain ordinary C.2.1 epistemes separate from the selected structure. One-TFS and network locator families are complete and mutually exclusive. | Reconstitute the correct episteme, remove mixed locators and admit structure before demonstration. |
+| **CC-E18.3-8 Method and Work threshold.** | Governing-pattern refs, intended realization, recommendations, imperatives, displayed order and table completion admit no MethodDescription, Method, plan, Work or actual Transformation. A.3.2, A.15.1 and A.3.4 are applied to exact independent objects when those claims are current. | Apply the direct threshold or narrow the claim. |
+| **CC-E18.3-9 Plain move and no hidden mantra.** | `move` denotes the exact current pattern-use action or independently governed object. The seven application steps remain guidance, not a mantra, Method, plan or performed sequence. | Replace the generic move/step reading with the exact object and owner. |
 
 ### E.18.3:8 - Common Anti-Patterns And Repairs
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| **P2W as launch permission** | A carry-through note is used to begin work. | Add method, work-plan, work-entry, or gate record under the direct pattern before work is authorized. |
-| **Flow card as architecture decision** | A P2S flow card is treated as the decision or ADR. | Keep flow structure in E.18.3 or C.32.P2S; use `C.32.PAD` and `C.32.ADR` for decision and ADR projection. |
-| **Network graph as admitted slice** | Raw member paths, edge labels, copied positions, or one global tag are inserted into a demonstrative slice. | Select and verify the E.18.NET-conforming network first, then admit typed E.18.3 positions and exact relation-reference epistemes; then map to those same values through A.22.CGUS, or keep the graph provisional. |
-| **Evidence path as evidence** | A path through evidence-looking boxes is treated as sufficient evidence. | Open `A.10`, `B.3`, or `G.6`; name the evidence relation and admissible use. |
-| **Loop as improvement** | A retry loop in the flow is called quality improvement. | Use `E.23` only when object version, evaluation frame, repair, and re-evaluation are current. |
+| **P2W as launch permission** | A carry-through note or selected continuation is used to begin Work. | Apply the exact Method, A.15.2 plan, A.15.5 readiness, A.21 gate or permission owner required by the claim; none alone performs Work. |
+| **Flow card as architecture decision** | A P2S flow card is treated as the decision or ADR. | Keep flow use in E.18.3 or C.32.P2S; use `C.32.PAD` and `C.32.ADR` for their exact distinct objects. |
+| **Parallel specialization object** | Reciprocal refs, a context field or profile record create a generic CGUS plus another E.18.3 structure. | Keep one selected A.22 `U.Structure` and treat E.18.3 as an additional membership-and-use condition. |
+| **Network graph as admitted slice** | Raw paths, edge labels, copied positions or one global tag are inserted into a demonstration. | Select E.18.NET first, then reuse the same admitted CGUS locators and relation-reference epistemes through the complete A.22 network locator. |
+| **One giant flow** | Independent development, production, use or evaluation flows are merged because a product or arrow connects them. | Preserve member identity and use exact cross-boundary occurrences in E.18.NET; keep valuations and internal subflow detail on one TFS. |
+| **Wrapper connection relation** | `basisDependency`, `producedResult`, `comparisonPeer` or a return arrow is treated as a universal E.18.3 relation. | State the exact question and use its direct relation owner; otherwise keep the values separate and stop. |
+| **Evidence path as evidence** | A path through evidence-looking boxes or a `subjectUse=evidence` label is treated as sufficient evidence. | Open `A.10`, `B.3` or `G.6` and cite the exact returned claim or relation. |
+| **Intended realization as MethodDescription or Work** | A pattern ref, sequence, recommendation, imperative or filled block is said to describe a Method or perform the continuation. | Apply A.3.2 to an episteme about one admitted Method and A.15.1 to an exact dated occurrence; otherwise retain only the cue. |
+| **Loop as improvement** | A retry or feedback loop is called quality improvement. | Use `E.23` only when object version, evaluation frame, repair, re-evaluation, stop, branch and return are current. |
 
 ### E.18.3:9 - Consequences
 
-This narrower `U.Structure` specialization lets E.18 keep its strength without swallowing every route-shaped pattern. P2W, P2S, agent-loop, gate, evidence, architecture, and currentness-related cases can share exact transformation-flow relations while each subject claim remains governed by its direct pattern.
+This profile lets E.18 keep its strength without swallowing every route-shaped pattern. P2W, P2S, agent-loop, gate, evidence, architecture and currentness cases may use the same selected A.22 structure and exact transformation-flow relations while each subject claim remains governed by its direct pattern.
 
-The cost is an explicit boundary. A flow-shaped structure is admitted as a governed transformation-flow unfolding structure only when it names typed transformation positions, exact relation refs, guards, crossings, preserved structures, C.33 adequacy notes, and direct governing-position connections. Before that admission, the visible episteme remains a provisional demonstration description; only afterward may a separate demonstrative slice present the admitted structure.
+The cost is explicit recovery. A selected CGUS qualifies for E.18.3 only when its E.18 or E.18.NET case, subject rows, admitted position mappings, exact selected occurrences, guards, preserved/lost structure and direct exits are recoverable. Before that, the visible episteme remains provisional; only afterward may a separate demonstrative episteme present one traversal.
+
+The benefit is change locality. A changed demonstration, valuation, path slice or tag usually changes only that use; it does not reidentify the selected structure. A changed selected constituent, occurrence, applied constraint or named selection-use frame changes an A.22 discriminator and therefore requires a different structure selection.
 
 ### E.18.3:10 - Rationale
 
-The selected design follows the same principle as E.18: transformation-flow structure is structure, not the whole work process. Constraint-governed unfolding adds a next-use concern. It asks how a transformation-flow structure can unfold toward a next FPF use while protecting the differences among structure, description, method, plan, work, evidence, gate, decision, architecture, publication, E.18 slice-local refresh, and G.11 currentness.
+The design follows the same principle as E.18: transformation-flow structure is structure, not the whole work process. Constraint-governed unfolding adds a next-use concern—how one selected structure exposes admissible continuations while protecting the differences among structure, description, Method, MethodDescription, plan, Work, transformation, production, evidence, gate, decision, architecture, publication, E.18 slice-local refresh and G.11 currentness.
+
+E.18.3 stays deliberately thin. It does not create a reciprocal specialization object or universal connection relation. It recognizes one A.22-selected `U.Structure` when exact E.18 positions, direct relation occurrences and transformation-flow constraints support the current unfolding use, and it uses ordinary C.2.1 epistemes only to make that qualification and its demonstrations replayable.
 
 ### E.18.3:11 - SoTA-Echoing
 
@@ -84094,13 +84228,13 @@ As of 2026-07-11, OCPQ is the current research comparator for typed multi-object
 
 ### E.18.3:12 - Relations
 
-Specializes: the `A.22.CGUS` use of `ConstraintGovernedUnfoldingStructure@Context` when the substrate is bounded transformation-flow structure with typed transformation positions, exact relation refs, crossings, guards, valuations, preserved structures, C.33 adequacy notes, and governing-position connections.
+Specializes: the A.22.CGUS use of one selected `U.Structure` when the same exact constituents, selected obtaining relation occurrences, applied constraints and named selection-use frame also satisfy the transformation-flow unfolding condition through exact E.18 positions and bindings. E.18.3 creates no second structure or ambient context identity.
 
-Builds on: `E.18` for one-TFS positions and local flow state, `E.18.NET` for selected network members, finite member paths, and exact obtaining cross-member relations, `A.22.CGUS` for mutually exclusive post-admission locator families, `A.3.4`, `A.22`, and `E.17` for transformation, structure, and publication discipline.
+Builds on: `E.18` for one-TFS positions, internal `U.Transfer` occurrences, valuations, paths, slices and `SubflowRef`; `E.18.NET` for independently selected TFS or nested-network members, finite member paths, exposed positions and exact obtaining cross-member occurrences; `A.22.CGUS` for position locators, provisional/description/demonstrative episteme separation and mutually exclusive post-admission locator families; `A.3.4`, `A.22` and `E.17` for transformation, structure and publication discipline.
 
-Coordinates with: `E.18.1`, `C.32.P2S`, `C.30.TFS-REL`, `E.23`, `C.18`, `C.19`, `G.5`, `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, `A.6.3.NAR`, and `G.11`; a network demonstration consumes only already admitted E.18.3 position and relation-reference values.
+Coordinates with: `E.18.1`, `C.32.P2S`, `C.30.TFS-REL`, `C.32.CONWAY`, `E.23`, `C.18`, `C.19`, `G.5`, `A.15`, `A.15.PROD`, `A.10`, `B.3`, `A.20`, `A.21`, `A.6.3.NAR`, exact source-use patterns and `G.11`. A network demonstration consumes only already-current E.18.3 position mappings and relation-reference epistemes; one C.32.CONWAY occurrence can fill at most one qualified network row.
 
-Does not replace: direct method, work, evidence, gate, architecture, decision, publication, mathematical-lens, E.18 slice-local refresh, or G.11 currentness patterns.
+Does not replace: the direct Method, MethodDescription, Work, transformation, production, evidence, assurance, gate, architecture, decision, publication, mathematical-lens, source-use, E.18 slice-local refresh or G.11 currentness patterns. Pattern refs, selected continuations, imperative wording, graph adjacency and intended realization admit none of those objects.
 
 ### E.18.3:End
 
@@ -86053,17 +86187,21 @@ Status: Core.
 
 Use `E.22` when someone is about to ask for a quality evaluation, quality review, returned-finding absorption, improvement proposal, or follow-up hypothesis over an object version named by value, and the question needs to say what kind of evaluation is wanted before the evaluator starts.
 
-`E.22` frames the question. It does not evaluate the object. The governing evaluation pattern description names the method to apply; an optional semantic evaluation method is the method itself. A characteristic-space specification, Q-Bundle description, rubric description, review-profile description, evidence-basis description, and result-form description constrain or describe that evaluation. None of those specifications performs the evaluation or substitutes for its governing method. For example, `E.21`, `E.9.DA`, or `E.2.DA` may govern evaluation of one FPF object, while `A.19.ECS` and `C.25` supply supporting quality-model descriptions. `E.19` instead governs an admission or refresh review gate and findings profile. Use `E.19` as the evaluation method only when its review result is itself the object under evaluation; otherwise its later gate check remains distinct from the quality evaluation.
+`E.22` frames the question. It does not evaluate the object. The governing evaluation pattern reference identifies the exact FPF pattern that owns the evaluation; an optional `semanticEvaluationMethodRef` names the separately identified `U.Method` used for that evaluation. A characteristic-space specification, Q-Bundle description, rubric description, review-profile description, evidence-basis description, and result-form description constrain or describe that evaluation. None of those specifications performs the evaluation or substitutes for the governing pattern or semantic Method. For example, `E.21`, `E.9.DA`, or `E.2.DA` may govern evaluation of one FPF object, while `A.19.ECS` and `C.25` supply supporting quality-model descriptions. `E.19` instead governs an admission or refresh review gate and findings profile. Use `E.19` as the governing evaluation pattern only when its review result is itself the object under evaluation; otherwise its later gate check remains distinct from the quality evaluation.
 
 Not this pattern when the question is already scoped and one direct evaluation is enough. Run the object-under-improvement evaluation directly. Use `E.23` when repeated improvement across passes is needed.
 
-First useful move: write a `QualityEvaluationQuestionFrame@Context` naming the object version and a `QualityEvaluationUseDeclaration@Context`. In that declaration, name the governing evaluation pattern separately from its quality-model, evidence-basis, and result-form descriptions; then state the purpose, floor or improvement aim, and protected trade-offs.
+First useful move: write a `QualityEvaluationQuestionFrame` for one exact object version and a `QualityEvaluationUseDeclaration`. Name the exact selected `CharacteristicSpace`, the by-value predicate and/or admitted comparator required by that evaluation, one `U.ClaimScope`, and the exact intended work or decision that will consume the result. In the declaration, keep the governing evaluation pattern and optional semantic method separate from quality-model, evidence-basis, and result-form descriptions and from the performer assignment; then state the purpose, floor or improvement aim, and protected trade-offs.
+
+Here *move* is Plain wording for writing the frame. It is not a shared Move identity, selected repair, WorkPlan, performed `U.Work`, or actual `U.Transformation`; if dated framing work itself matters, A.15 governs that separate occurrence.
 
 What goes wrong if missed: "review this" can mean too many different things. A floor check may be mistaken for exceptional improvement, a review may suggest work without naming a changed evaluation result, absorption may count closed rows without re-evaluating the changed object, or a follow-up suggestion may be overread as a decision, work plan, gate, evidence, assurance, or release.
 
-What this buys in practice: requester and evaluator start with the same object version, evaluation purpose, value source, protected trade-offs, evidence basis, and result form. A small floor question can stay small, while a request for proposals or trade-off analysis returns the additional information needed for a later improvement decision.
+What this buys in practice: requester and evaluator start with the same object version, selected characteristic space, criterion or comparator, evaluation scope, consuming use, evaluation purpose, value source, protected trade-offs, evidence basis, and result form. A small floor question can stay small, while a request for proposals or trade-off analysis returns the additional information needed for a later improvement decision.
 
 Primary EntityOfConcern in plain terms: the framed quality-evaluation question for one object version.
+
+A below-floor value, finding, improvement aim, or need for evaluation is not by itself an actual Problem. If the consuming use relies on an actual Problem, cite one current C.22.PFR `ProblematicForRelation` occurrence with its direct participants and temporal identity; the frame, evaluation, result, and evidence may support a claim about it but neither create nor split it.
 
 ### E.22:2 - Problem
 
@@ -86087,40 +86225,48 @@ The defect is not that reviewers need more ceremony. The defect is that an unfra
 
 #### E.22:4.1 - Local names and kind settlement
 
-The evaluation method and the descriptions it uses occupy different positions. `QualityEvaluationUseDeclaration@Context` keeps those positions together for one intended evaluation without collapsing their kinds.
+The framing episteme, evaluation method, descriptions used by that method, performer assignment, dated evaluation Work, actual operation application, evidence use, and result occupy different positions. `QualityEvaluationUseDeclaration` keeps the intended evaluation bindings together without collapsing those kinds.
+
+The remaining local support names ending in `@Context` are compatibility and retrieval names only. The suffix supplies no context entity, scope, participant, relation, or identity component; every episteme follows C.2.1 identity, every set is identified by its stated extensional rule, and every neighboring Work, decision, evidence, viewpoint, grounding, or result relation remains under its direct governor.
 
 | Local name | Kind and role |
 |---|---|
-| `QualityEvaluationQuestionFrame@Context` | `U.Episteme` whose EntityOfConcern is the exact object version under evaluation; its ClaimGraph carries the requested quality-evaluation question about that version. |
-| `QualityEvaluationUseDeclaration@Context` | `U.Episteme` whose EntityOfConcern is the same exact object version. It describes how evaluation of that version is to be performed and interpreted, referring separately to the performer assignment, governing pattern description, optional semantic method, quality-model descriptions, expected evidence basis, and result form. |
+| `QualityEvaluationQuestionFrame` | `U.Episteme` whose EntityOfConcern is the exact object version under evaluation; its ClaimGraph carries the requested quality-evaluation question about that version and its exact use bindings. |
+| `QualityEvaluationUseDeclaration` | `U.Episteme` whose EntityOfConcern is the same exact object version. It describes how evaluation of that version is intended to be performed and interpreted, referring separately to performer assignment, governing evaluation pattern, optional semantic method, selected characteristic space, predicate/comparator binding, ClaimScope, quality-model descriptions, expected evidence basis, result form, and qualification window. |
 | `ObjectVersionUnderQualityEvaluation` | Exact `U.Entity` version being evaluated, paired with its exact `U.Kind`. |
+| `EvaluationCharacteristicSpaceSelection` | One exact `U.CharacteristicSpace` selected for this evaluation use. Its specification description is a separate episteme and does not become the space. |
+| `EvaluationCriterionSelection` | The exact by-value `CharacteristicSpacePredicate`, exact admitted `ComparatorSpecRef`, or both, required by the governing evaluation pattern and, when declared, its separately identified semantic evaluation Method. At least one is present. |
+| `EvaluationClaimScope` | One exact set-valued `U.ClaimScope` governing the evaluation claim. It is not a context label, selected structure, window, or evidence set. |
+| `QualityEvaluationResultConsumingUse` | The exact directly governed intended-work, dated-work, or decision object that is expected to consume the evaluation result, paired with its exact kind and use description. It does not authorize or perform that use. |
 | `QualityEvaluationPurposeSelection` | Requested evaluation purpose or distinguishable combination of purposes. |
 | `DeclaredQualityFloor` | Minimum acceptable coordinate or status floor when the frame declares a floor claim. |
 | `DesiredImprovementAim` | Requested substantive change beyond the floor when improvement beyond the floor is requested. |
-| `ExpectedEvaluationEvidenceBasis@Context` | `U.Episteme` whose EntityOfConcern is the exact object version under evaluation. It describes the evidence-use positions and missingness rule expected when the named governing evaluation pattern evaluates that version in the stated qualification window. It can be identified before a use declaration cites it and is not the evidence values later found. |
-| `TradeoffProtectionSet@Context` | A local `U.Set` value whose members are exact characteristic or coordinate references paired with their kinds. Its identity is extensional within the question context. |
-| `EvaluationQualificationWindow` | Edition, source-currentness, comparison-set, time, or declared-use window in which the requested result is intended to be current. |
-| `ExpectedQualityEvaluationResultFormDescription` | `U.Episteme` describing the result-row form declared by the governing evaluation pattern. |
+| `ExpectedEvaluationEvidenceBasis@Context` | `U.Episteme` whose EntityOfConcern is the exact object version under evaluation. It describes expected evidence-use positions and the missingness rule for the exact method, space, criterion, scope, and qualification window. It can be identified before a use declaration cites it and is not the evidence values later found. |
+| `TradeoffProtectionSet@Context` | A local `U.Set` value whose members are exact characteristic or coordinate references paired with their kinds. Its identity is extensional for the exact question-frame edition, not for a context label. |
+| `EvaluationQualificationWindow` | Edition, source-currentness, comparison-set, time, or declared-use window in which the requested result is intended to be current. The actual evaluation application later binds its exact point or interval. |
+| `ExpectedQualityEvaluationResultFormDescription` | `U.Episteme` describing the result-row form declared by the governing evaluation pattern. It is not an actual result. |
 | `QualityReviewFindingRow` | Actionable evaluation finding that identifies the observed issue, affected evaluation property, correction direction, and closure test. |
 | `CandidateImprovementProposalRow@Context` | E.22 proposal episteme with an exact correction target, expected substantive evaluation effect, trade-offs, kind-restoration disposition, outside-claim return when needed, and closure test. |
-| `CandidateImprovementOutsideClaimReference@Context` | Bounded local ClaimGraph node form inside one proposal row. It identifies the outside governed value, relation signature, or boundary description and the exact method description that governs the return. It is not an episteme, relation, or independently referenceable entity. |
+| `CandidateImprovementOutsideClaimReference@Context` | Bounded local ClaimGraph node form inside one proposal row. It identifies the outside governed value, relation signature, or boundary description and the exact FPF pattern identity that governs the return. It is not an episteme, relation, or independently referenceable entity. |
 | `KindRestorationCheck` | Conditionally present check when a finding or proposal changes wording, naming, or precision-restoration content. |
 | `CandidateImprovementProposalPortfolio@Context` | A local `U.Set` value whose members are `CandidateImprovementProposalRow@Context` epistemes for one question frame. Membership, not a document serialization, determines the portfolio. |
-| `ImprovementFollowUpHypothesis@Context` | `U.Episteme` whose EntityOfConcern is the exact object version expected to change. It claims that one named next operation or method application is expected to address one finding and produce a stated evaluation effect under a stated test condition. A stop disposition, return, or selected plan is not such a hypothesis. |
+| `ImprovementFollowUpHypothesis@Context` | `U.Episteme` whose EntityOfConcern is the exact object version expected to change. It claims that one named next operation or method application is expected to address one finding and produce a stated evaluation effect under a stated test condition. A stop disposition, return, selected plan, performed Work, or actual Transformation is not such a hypothesis. |
 
 ```text
-QualityEvaluationUseDeclaration@Context <: U.Episteme:
+QualityEvaluationUseDeclaration <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version under evaluation
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  boundedContextRef: U.BoundedContextRef
-  groundingHolonRef?: U.HolonRef
-  viewpointRef?: U.ViewpointRef
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
   evaluationPerformerRoleAssignmentRef?: U.EntityRef, referencing one U.RoleAssignment
-  governingEvaluationPatternDescriptionRef: U.EntityRef, referencing one U.MethodDescription
-  semanticEvaluationMethodRef?: U.MethodRef, referencing the U.Method described by the governing pattern
+  governingEvaluationPatternDescriptionRef: U.EntityRef, referencing the exact FPF evaluation pattern identity supplied by its pattern/framework owner
+  semanticEvaluationMethodRef?: U.MethodRef, referencing the separately identified U.Method used for the evaluation
+  selectedEvaluationCharacteristicSpaceRef: U.EntityRef, referencing one exact U.CharacteristicSpace
+  selectedEvaluationPredicate?: CharacteristicSpacePredicate by value
+  selectedComparatorSpecRef?: ComparatorSpecRef
+  evaluationClaimScopeRef: U.EntityRef, referencing one exact U.ClaimScope
+  evaluationQualificationWindowDescriptionRef: U.EpistemeRef, referencing one EvaluationQualificationWindow description
   evaluationCharacteristicSpaceSpecDescriptionRef?: U.EpistemeRef, referencing one A.19.ECS specification description
   evaluationQBundleDescriptionRef?: U.EpistemeRef, referencing one C.25 Q-Bundle description
   evaluationRubricDescriptionRef?: U.EpistemeRef, referencing one evaluation-rubric description
@@ -86131,24 +86277,29 @@ QualityEvaluationUseDeclaration@Context <: U.Episteme:
 ExpectedEvaluationEvidenceBasis@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version whose evaluation needs the expected evidence
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  boundedContextRef: U.BoundedContextRef
-  groundingHolonRef?: U.HolonRef
-  viewpointRef?: U.ViewpointRef
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  governingEvaluationPatternDescriptionRef: U.EntityRef, referencing one U.MethodDescription
+  governingEvaluationPatternDescriptionRef: U.EntityRef, referencing the same exact FPF evaluation pattern identity
+  selectedEvaluationCharacteristicSpaceRef: U.EntityRef, referencing the same exact U.CharacteristicSpace
+  selectedEvaluationPredicate?: CharacteristicSpacePredicate by value
+  selectedComparatorSpecRef?: ComparatorSpecRef
+  evaluationClaimScopeRef: U.EntityRef, referencing the same exact U.ClaimScope
   expectedEvidencePositionDescriptionRefs[1..*]: U.EpistemeRef, each referencing one evidence-position description
   expectedEvidenceRelationKindRefs[1..*]: U.KindRef, each referencing one expected evidence-relation kind
-  missingEvidenceDispositionRuleRef: U.EpistemeRef, referencing one U.MethodDescription that states the missing-evidence disposition rule
+  missingEvidenceDispositionRuleRef: U.EpistemeRef, referencing one exact episteme that states the missing-evidence disposition rule under its direct owner
   qualificationWindowDescriptionRef: U.EpistemeRef, referencing one EvaluationQualificationWindow description
 ```
 
-Every field above with a `*Ref` suffix stores the stated A.6.5 `RefKind`; resolving it yields the referent kind named after `referencing`. The use declaration and expected evidence basis carry the same exact object-version value in `entityOfConcernRef`. The expected basis does not point back to the declaration: it can be created from the object version, governing evaluation-pattern description, expected evidence positions and relation kinds, missingness rule, and qualification window; the declaration is then created with a reference to that completed basis. This construction removes the former mutual dependency.
+Every field above with a `*Ref` suffix stores the stated A.6.5 `RefKind`; resolving it yields the referent kind named after `referencing`. The use declaration and expected evidence basis carry the same exact object version, governing evaluation pattern, selected characteristic space, criterion binding, ClaimScope, and qualification window. The expected basis does not point back to the declaration: it can be constituted from those exact values, expected evidence positions and relation kinds, and missingness rule; the declaration is then constituted with a reference to that completed basis. This preserves the former acyclic construction.
 
-`evaluationPerformerRoleAssignmentRef` identifies who is assigned to perform the evaluation; it is neither the method nor the object being evaluated. `governingEvaluationPatternDescriptionRef` identifies the FPF pattern or other method description that governs the evaluation. `semanticEvaluationMethodRef`, when recoverable, identifies the method described by that pattern. The characteristic-space, Q-Bundle, rubric, and review-profile references identify epistemes that specify the quality model or its use; they do not supply an actor and do not become alternative values of a method slot.
+At least one of `selectedEvaluationPredicate` and `selectedComparatorSpecRef` is present; both may be present. A label such as *review*, *quality*, or *current context* supplies neither. A.19 owns the predicate by value. A.19.CPM or the exact direct consumer owns comparator admission and any actual comparison application. Neither the predicate nor comparator owns evaluation scope, evidence, time, Work, or result.
 
-Two carriers may publish the same edition of either episteme. A `QualityEvaluationUseDeclaration@Context` changes edition when its exact object version, bounded context, applicable grounding or viewpoint, claim graph, reference scheme, performer assignment, governing pattern description, semantic method, quality-model descriptions, expected evidence-basis edition, or result-form description changes. An `ExpectedEvaluationEvidenceBasis@Context` changes edition when its object version, bounded context, applicable grounding or viewpoint, governing pattern description, expected evidence positions or relation kinds, missingness rule, qualification window, claim graph, or reference scheme changes. Carrier or support serialization alone changes neither episteme. `TradeoffProtectionSet@Context` and `CandidateImprovementProposalPortfolio@Context` are set values, not records; an episteme may describe or publish either set without becoming the set.
+`evaluationPerformerRoleAssignmentRef` identifies who is assigned to perform the evaluation; it is neither the semantic Method nor the object being evaluated. `governingEvaluationPatternDescriptionRef` identifies the exact FPF pattern identity that owns the evaluation, without establishing `U.MethodDescription` membership; its stable `DescriptionRef` suffix does not change the referent kind. `semanticEvaluationMethodRef`, when recoverable, identifies the separately admitted Method used for the evaluation. Any episteme claimed to describe that Method remains a separate object and requires an independent A.3.2 membership result. The characteristic-space, Q-Bundle, rubric, review-profile, evidence-basis, and result-form references identify separate epistemes that specify the quality model or its use; they do not supply an actor and do not become alternative values of the pattern or method slots.
+
+None of these declaration fields is dated evaluation Work or an evaluation result. When evaluation is performed, A.15.1 identifies one dated `U.Work` and its direct method-enactment relation. The direct evaluation pattern owns the exact evaluation and typed result; when it exposes a reusable operation, A.6.1 separately identifies the actual application and result binding. A durable result episteme, when needed, remains under C.2.1. Actual evidence use, provenance, currentness, viewpoint selection, empirical grounding, and any work-to-result or decision-use relation remain separate under their direct governors. A frame, declaration, description, role assignment, dashboard, or carrier establishes none of those occurrences.
+
+Two carriers may publish the same edition of either episteme. A `QualityEvaluationUseDeclaration` changes edition when its exact object version, claim graph, reference scheme, performer assignment, governing evaluation pattern, semantic method, selected characteristic space, predicate/comparator binding, ClaimScope, qualification window, quality-model descriptions, expected evidence-basis edition, or result-form description changes. An `ExpectedEvaluationEvidenceBasis@Context` changes edition when its object version, claim graph, reference scheme, governing evaluation pattern, selected space, predicate/comparator binding, ClaimScope, expected evidence positions or relation kinds, missingness rule, or qualification window changes. Carrier, context label, viewpoint, grounding record, or support serialization alone changes neither episteme. `TradeoffProtectionSet@Context` and `CandidateImprovementProposalPortfolio@Context` are set values, not records; an episteme may describe or publish either set without becoming the set.
 
 #### E.22:4.2 - Quality evaluation purposes
 
@@ -86164,19 +86315,24 @@ Two carriers may publish the same edition of either episteme. A `QualityEvaluati
 Purposes can be combined, but the result keeps them distinguishable. A floor result does not answer exceptional improvement. Absorption count does not establish a changed evaluation result. A proposal is not a selected work item.
 
 #### E.22:4.3 - Question frame
+
 An improvement aim is not a command to make every coordinate exceptional. A `5` is assigned only by the named evaluation after the changed object earns it. The frame may ask for substantive non-dominated proposals that could move named coordinates toward exceptional expression, while admitting `no proposal` or `stay at current value` when every plausible change would add apparatus, proof prose, boundary catalogues, or process evidence while damaging protected qualities. That no-proposal result needs checked review locations and evidence-basis references; it is not a cheap refusal to improve.
 
 ```text
-QualityEvaluationQuestionFrame@Context <: U.Episteme:
+QualityEvaluationQuestionFrame <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version under evaluation
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  boundedContextRef: U.BoundedContextRef
-  groundingHolonRef?: U.HolonRef
-  viewpointRef?: U.ViewpointRef
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration@Context about the same object version
+  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration about the same object version
+  selectedEvaluationCharacteristicSpaceRef: U.EntityRef, referencing the same exact U.CharacteristicSpace
+  selectedEvaluationPredicate?: CharacteristicSpacePredicate by value
+  selectedComparatorSpecRef?: ComparatorSpecRef
+  evaluationClaimScopeRef: U.EntityRef, referencing the same exact U.ClaimScope
+  resultConsumingUseRef: U.EntityRef, referencing one exact directly governed intended-work, dated-work, or decision object
+  resultConsumingUseKindRef: U.KindRef, referencing its exact kind
+  resultConsumingUseDescriptionRef: U.EpistemeRef, describing how that work or decision will use the evaluation result
   evaluationPurposeSelection: QualityEvaluationPurposeSelectionValue
   declaredQualityFloorDescriptionRef?: U.EpistemeRef, referencing one declared-quality-floor description
   desiredImprovementAimDescriptionRef?: U.EpistemeRef, referencing one desired-improvement-aim description
@@ -86184,9 +86340,16 @@ QualityEvaluationQuestionFrame@Context <: U.Episteme:
   evaluationQualificationWindowDescriptionRef: U.EpistemeRef, referencing one EvaluationQualificationWindow description
   nonUseBoundaryDescriptionRef: U.EpistemeRef, referencing one non-use-boundary description
 ```
-The shortest floor frame names the object version, one `QualityEvaluationUseDeclaration@Context`, purpose `floorEvaluation`, and the declared floor. The declaration may cite defaults supplied by the governing evaluation pattern for its characteristic space, evidence basis, result form, and qualification window. If the question depends on another edition, source state, comparison set, time window, or declared use, state that window explicitly. For one FPF pattern version under E.21, compactness never permits omitted coordinates, missing `ShortRationale`, absent `PrecisionRestorationProfile`, scope narrowing, or a blocker-only substitute result.
 
-The frame does not authorize post-hoc scope replacement. If the requested floor is landing-input, corpus-facing, `Stable`, release, external-review, or another stated use, the evaluator measures that use. If a different use becomes interesting, open a new `QualityEvaluationQuestionFrame@Context`; do not report the current request as passed under an easier scope.
+The frame's exact object version, characteristic space, predicate/comparator binding, ClaimScope, and qualification window equal those of its use declaration and expected evidence basis. These bindings make the question replayable; they do not reidentify the space, predicate, comparator, scope, method, or consuming object. A changed binding creates a changed frame edition and requires a newly evaluated result.
+
+`resultConsumingUseRef` is not a generic *use* placeholder. Before occurrence it may resolve to one A.15.2 `U.WorkPlan` that names the particular intended Work, or to the exact decision question or decision-governing object under its direct pattern. It may resolve to `U.Work` only when that dated Work already obtains under A.15.1. The frame neither creates the consuming Work or decision nor authorizes it.
+
+The shortest floor frame names the object version, one `QualityEvaluationUseDeclaration`, the exact selected characteristic space, applicable predicate and/or comparator, ClaimScope, result-consuming work or decision, purpose `floorEvaluation`, and the declared floor. The declaration may cite defaults supplied by the governing evaluation pattern for its quality-model descriptions, evidence basis, result form, and qualification window, but defaults do not replace the exact selected space, criterion, scope, or consumer. If the question depends on another edition, source state, comparison set, time window, or declared use, state that window explicitly. For one FPF pattern version under E.21, compactness never permits omitted coordinates, missing `ShortRationale`, absent `PrecisionRestorationProfile`, scope narrowing, or a blocker-only substitute result.
+
+The frame does not authorize post-hoc scope replacement. If the requested floor is landing-input, corpus-facing, `Stable`, release, external-review, or another stated use, the evaluator measures that use. If a different use becomes interesting, open a new `QualityEvaluationQuestionFrame`; do not report the current request as passed under an easier scope.
+
+The frame and declaration perform no evaluation. A dated evaluation Work occurrence, its method enactment, any actual operation application, actual evidence use, typed result binding or direct result relation, and optional result episteme remain separate. An expected result-form description is not the result, and the consuming work or decision does not become current merely because the frame names it.
 
 #### E.22:4.4 - Finding and proposal rows
 
@@ -86196,13 +86359,11 @@ An actionable finding first identifies where an issue was observed, which exact 
 CandidateImprovementProposalRow@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version under improvement
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  boundedContextRef: U.BoundedContextRef
-  groundingHolonRef?: U.HolonRef
-  viewpointRef?: U.ViewpointRef
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  qualityEvaluationQuestionFrameRef: U.EpistemeRef, referencing one QualityEvaluationQuestionFrame@Context about the same object version
+  qualityEvaluationQuestionFrameRef: U.EpistemeRef, referencing one QualityEvaluationQuestionFrame about the same object version
+  evaluationClaimScopeRef: U.EntityRef, referencing that frame's exact U.ClaimScope
   reviewLocationDescriptionRef: U.EpistemeRef, referencing one description of the observed location in the reviewed object
   correctionTargetRef: U.EntityRef, referencing the exact entity proposed to change
   correctionTargetKindRef: U.KindRef, referencing the exact kind of the correction target
@@ -86223,7 +86384,7 @@ CandidateImprovementOutsideClaimReference@Context in CandidateImprovementProposa
   outsideValueRef?: U.EntityRef, referencing the exact outside governed value
   outsideValueKindRef?: U.KindRef, referencing the exact kind of that outside value
   outsideRelationSignatureRef?: U.EntityRef, referencing the exact U.Signature of the outside relation
-  directGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
+  directGoverningPatternRef: U.EntityRef, referencing the exact FPF governing-pattern identity supplied by its pattern/framework owner
   returnConditionDescriptionRef: U.EpistemeRef, referencing one description of the condition for returning to that governing pattern
 ```
 
@@ -86231,13 +86392,11 @@ CandidateImprovementOutsideClaimReference@Context in CandidateImprovementProposa
 ImprovementFollowUpHypothesis@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version expected to change
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  boundedContextRef: U.BoundedContextRef
-  groundingHolonRef?: U.HolonRef
-  viewpointRef?: U.ViewpointRef
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  qualityEvaluationQuestionFrameRef: U.EpistemeRef, referencing one QualityEvaluationQuestionFrame@Context about the same object version
+  qualityEvaluationQuestionFrameRef: U.EpistemeRef, referencing one QualityEvaluationQuestionFrame about the same object version
+  evaluationClaimScopeRef: U.EntityRef, referencing that frame's exact U.ClaimScope
   qualityReviewFindingDescriptionRef: U.EpistemeRef, referencing one episteme that describes the exact QualityReviewFindingRow
   proposedNextOperationDescriptionRef?: U.EpistemeRef, referencing one operation description
   proposedNextMethodRef?: U.MethodRef, referencing one U.Method
@@ -86245,13 +86404,13 @@ ImprovementFollowUpHypothesis@Context <: U.Episteme:
   testConditionDescriptionRef: U.EpistemeRef, referencing one test-condition description
 ```
 
-Exactly one of `proposedNextOperationDescriptionRef` and `proposedNextMethodRef` is present. The question frame, proposal row, and follow-up hypothesis preserve the same exact object-version EntityOfConcern unless a proposal explicitly opens a new frame for a different version. `QualityEvaluationQuestionFrame@Context` changes edition when the object version, bounded context, applicable grounding or viewpoint, use declaration, purpose, floor or aim, trade-off set, qualification window, non-use boundary, claim graph, or reference scheme changes. A proposal row changes edition when its bounded context, applicable grounding or viewpoint, frame, correction target, affected evaluation coordinate, proposed correction, expected effect, trade-offs, outside-claim nodes, closure test, claim graph, or reference scheme changes. A follow-up hypothesis changes edition when its bounded context, applicable grounding or viewpoint, frame, finding description, proposed operation or method, expected effect, test condition, claim graph, or reference scheme changes. Carrier and serialization changes alone do not change any of these epistemes.
+Exactly one of `proposedNextOperationDescriptionRef` and `proposedNextMethodRef` is present. The question frame, proposal row, and follow-up hypothesis preserve the same exact object-version EntityOfConcern and ClaimScope unless a proposal explicitly opens a new frame for a different version or scope. `QualityEvaluationQuestionFrame` changes edition when the object version, use declaration, selected space, predicate/comparator binding, ClaimScope, consuming work or decision, purpose, floor or aim, trade-off set, qualification window, non-use boundary, claim graph, or reference scheme changes. A proposal row changes edition when its frame, ClaimScope, correction target, affected evaluation coordinate, current result reference, proposed correction, expected effect, trade-offs, outside-claim nodes, closure test, claim graph, or reference scheme changes. A follow-up hypothesis changes edition when its frame, ClaimScope, finding description, proposed operation or method, expected effect, test condition, claim graph, or reference scheme changes. A context label, carrier, viewpoint, grounding record, or serialization change alone changes none of these epistemes.
 
-`ProposalEvaluationEffectValue` is the closed local value set `repairFloor | raiseTowardExceptional | preventProtectedQualityLoss | classifyOutsideEvaluation | preserveCurrentValue`. It identifies the coarse substantive evaluation effect expected from this proposal. It does not duplicate the coordinate-qualified prediction later carried by E.23 `ExpectedEvaluationResultChange@Context`.
+`ProposalEvaluationEffectValue` is the closed local value set `repairFloor | raiseTowardExceptional | preventProtectedQualityLoss | classifyOutsideEvaluation | preserveCurrentValue`. It identifies the coarse substantive evaluation effect expected from this proposal. It does not duplicate the coordinate-qualified prediction later carried by E.23 `ExpectedEvaluationResultChange@Context` and does not assert an actual changed result.
 
-`ProposalKindRestorationCheckDispositionValue` is `triggered | notTriggered | ordinaryProse | alreadySatisfied | blocker`. The `triggered` and `blocker` states include `kindRestorationCheckRef`; the other values leave it absent. Current affected-evaluation result ref and kind are both present or both absent; the exact kind recovers whether the named evaluation returned a scale value, status, or another admitted result for that characteristic or coordinate. Outside value ref and kind are paired, and `outsideRelationSignatureRef` is present when the outside value is a relation. `CandidateImprovementOutsideClaimReference@Context` is a bounded local ClaimGraph node form, not a U-kind, episteme, relation, or relation-reference episteme. It is constructed inside one proposal row without a back-reference to that row; its node identity is determined by the containing proposal edition and ClaimGraph position.
+`ProposalKindRestorationCheckDispositionValue` is `triggered | notTriggered | ordinaryProse | alreadySatisfied | blocker`. The `triggered` and `blocker` states include `kindRestorationCheckRef`; the other values leave it absent. Current affected-evaluation result ref and kind are both present or both absent; when present, the exact result resolves through the direct evaluation pattern's typed result relation or A.6.1 application binding, and any durable result episteme remains separately governed. The proposal row neither produces nor reidentifies that result. The exact kind recovers whether the named evaluation returned a scale value, status, or another admitted result for that characteristic or coordinate. Outside value ref and kind are paired, and `outsideRelationSignatureRef` is present when the outside value is a relation. `CandidateImprovementOutsideClaimReference@Context` is a bounded local ClaimGraph node form, not a U-kind, episteme, relation, or relation-reference episteme. It is constructed inside one proposal row without a back-reference to that row; its node identity is determined by the containing proposal edition and ClaimGraph position.
 
-`reviewLocationDescriptionRef` describes where the issue was observed in the reviewed object. `correctionTargetRef` identifies the exact entity that would change. They are not interchangeable positions. The row is a faithful typed proposal form of `QualityReviewFindingRow` and one possible member of a `CandidateImprovementProposalPortfolio@Context` set. It remains a proposal episteme, not a selected repair, plan, work occurrence, or proof of improvement.
+`reviewLocationDescriptionRef` describes where the issue was observed in the reviewed object. `correctionTargetRef` identifies the exact entity that would change. They are not interchangeable positions. The row is a faithful typed proposal form of `QualityReviewFindingRow` and one possible member of a `CandidateImprovementProposalPortfolio@Context` set. It remains a proposal episteme, not a selected repair, plan, work occurrence, actual Transformation, result binding, or proof of improvement.
 
 For wording, naming, and precision-restoration proposals, `proposedCorrectionDescriptionRef` does more than say "replace X with Y". It states the recovered object kind, relation, slot or use position when current, admissible use, and scope before and after the change. If no kind-preserving repair is recoverable, the row remains blocking.
 
@@ -86275,7 +86434,7 @@ When the object is a candidate, archive or front member, selected set, parity re
 
 ### E.22:5 - Worked slices
 
-**Floor evaluation.** A reviewer is asked whether one pattern is ready for ordinary use. The frame names `E.21`, purpose `floorEvaluation`, the declared floor, and the expected `E.21` result form. The result is a complete `E.21` coordinate table with `ShortRationale` and `EvaluationEvidenceBasis`, not a narrative "looks fine."
+**Floor evaluation.** A reviewer is asked whether one pattern is ready for ordinary use. The frame names the exact pattern version, E.21 characteristic space and floor predicate, the evaluation ClaimScope, the decision that will consume the result, `E.21` as the governing evaluation pattern, purpose `floorEvaluation`, the declared floor, and the expected `E.21` result form. Any semantic evaluation Method is named separately when it is recoverable. The result becomes current only through the direct E.21 evaluation under one dated evaluation Work and its exact typed result relation or binding: a complete `E.21` coordinate table with `ShortRationale` and `EvaluationEvidenceBasis`, not a narrative "looks fine" and not the frame itself.
 
 **Exceptional improvement.** A pattern already passes the floor. The frame asks for substantive non-dominated improvements for named coordinates while protecting usability and related-pattern fit. The result returns proposal rows for content improvements such as missing worked cases, source-currentness carry-through, mature-comparator discharge, deletion of displaced apparatus, or relation cleanup, plus checked no-candidate dispositions for coordinates where no non-dominated content move remains. It does not ask the evaluator to make every coordinate `5`.
 
@@ -86283,8 +86442,7 @@ When the object is a candidate, archive or front member, selected set, parity re
 
 **Proposal portfolio.** A candidate improvement campaign needs alternatives before editing. The frame asks for `candidateImprovementProposalEvaluation`. The result returns bounded proposal rows; selection or generation stays with the pattern that governs that claim and is not decided by the evaluation frame.
 
-**Physical-system proposal.** A vibration evaluation of `PumpAssembly@Prototype-3` finds excessive RMS vibration at one operating point. The proposal's `reviewLocationDescriptionRef` points to that evaluation row. Its `correctionTargetRef` points to `ImpellerBladeGeometryDescription@v3`, the exact design episteme that would change; the measurement row is not the correction target. The affected coordinate is the declared RMS-vibration coordinate. The coarse proposal effect is `raiseTowardExceptional`, `kindRestorationCheckDisposition=notTriggered`, and the trade-off set includes efficiency and manufacturability. If the proposal is selected for a repeated loop, E.23 adds a scale-qualified `ExpectedEvaluationResultChange@Context`. Manufacturing a new impeller remains dated work under A.15 rather than an E.22 result.
-
+**Physical-system proposal.** A vibration evaluation of `PumpAssembly@Prototype-3` selects the exact vibration `CharacteristicSpace`, RMS-vibration predicate and any admitted comparator, one evaluation ClaimScope over the declared operating-point slices, and the design decision that will consume the result. During dated test-bench evaluation Work, the directly governed evaluation relation or actual method operation returns a result finding excessive RMS vibration at one operating point through its exact binding; the frame, governing pattern reference, separately identified semantic Method when named, role assignment, expected evidence basis, and result-form description remain separate. The proposal's `reviewLocationDescriptionRef` points to that evaluation row. Its `correctionTargetRef` points to `ImpellerBladeGeometryDescription@v3`, the exact design episteme that would change; the measurement row is not the correction target. The affected coordinate is the declared RMS-vibration coordinate. The coarse proposal effect is `raiseTowardExceptional`, `kindRestorationCheckDisposition=notTriggered`, and the trade-off set includes efficiency and manufacturability. If the proposal is selected for a repeated loop, E.23 adds a scale-qualified `ExpectedEvaluationResultChange@Context`. Manufacturing a new impeller remains dated work under A.15 rather than an E.22 result.
 
 ### E.22:6 - Bias annotation
 
@@ -86296,9 +86454,9 @@ The bias is bounded. `E.22` does not supply quality values, run repeated improve
 
 | Check | Passing condition |
 |---|---|
-| `CC-E22-1` | Name the object version and object-under-improvement named by value evaluation. |
-| `CC-E22-2` | State purpose, declared floor or improvement aim, protected trade-offs, and expected result form. |
-| `CC-E22-3` | Keep the object-under-improvement evaluation as the source of values and the coordinate set to be evaluated. |
+| `CC-E22-1` | Name the exact object version, selected `CharacteristicSpace`, exact predicate and/or admitted comparator, one `U.ClaimScope`, and the exact work or decision that will consume the result. |
+| `CC-E22-2` | State purpose, declared floor or improvement aim, protected trade-offs, qualification window, and expected result form. |
+| `CC-E22-3` | Keep the object-under-improvement evaluation as the source of values and the coordinate set to be evaluated. A description, dashboard, or frame cannot substitute for the selected space, predicate/comparator, actual evaluation, or result. |
 | `CC-E22-4` | Represent actionable returned work as typed finding or `CandidateImprovementProposalRow@Context` values with expected substantive evaluation effect, closure test, and the conditionally present `KindRestorationCheck`. An outside claim cites its direct governing pattern; E.22 frames the improvement question and does not restate that ontology. |
 | `CC-E22-5` | For absorption, report quality impact on the changed object, not only applied and not-applied dispositions. |
 | `CC-E22-6` | State a compact declarative non-use boundary when the result might be overread as decision, work, evidence, assurance, gate, release, certification, publication, parity, refresh, or selected-set authority. Keep the result on the evaluation question and name only the specific outside claim plus the pattern that governs it when one is needed; precision-restoration or phrase-apparatus issues belong to the named evaluation profile and `F.19`, not to a local boundary catalogue. |
@@ -86306,18 +86464,23 @@ The bias is bounded. `E.22` does not supply quality values, run repeated improve
 | `CC-E22-8` | Send repeated improvement to `E.23` after one framed evaluation returns findings or proposals. |
 | `CC-E22-8a` | Do not frame `5`, all-`5`, or `5-defensible` as the work target. Frame below-floor repair separately from optional exceptional-improvement proposals. The optional proposal target is substantive content change, not score proof; allow checked `no proposal` or `stay at current value` only when further change would be dominated by apparatus growth, proof theatre, or protected-quality loss. |
 | `CC-E22-9` | Name the expected evidence basis and result-row shape from the object-under-improvement evaluation; `E.22` cannot authorize omitted coordinates, missing rationales, missing selected attention-discharge profiles, missing `PrecisionRestorationProfile` when `E.21` is used, unchecked evidence positions, inactive or triggered-coordinate shortcuts, scope narrowing, or a weaker result form. |
+| `CC-E22-10` | Keep the question frame, use declaration, governing evaluation pattern, optional semantic Method, any independently admitted method description actually cited, quality-model/evidence/result-form descriptions, performer assignment, dated evaluation Work, method enactment, any actual operation application, actual evidence use, typed result binding or direct result relation, optional result episteme, and result-consuming work or decision distinct. A governing-pattern reference does not establish A.3.2 membership, and no generic work-result or evaluation-result relation is inferred. |
+| `CC-E22-11` | A low value, finding, failed floor, or improvement aim does not establish an actual Problem. Any actual Problem relied on by the consuming use resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 
 ### E.22:8 - Common anti-patterns and repairs
 
 | Anti-pattern | Repair |
 |---|---|
-| **"Review this" prompt.** The evaluator infers purpose. | Add a `QualityEvaluationQuestionFrame@Context`. |
+| **"Review this" prompt.** The evaluator infers purpose. | Add a `QualityEvaluationQuestionFrame` with exact object version, space, criterion, ClaimScope, consumer, purpose, and boundary. |
+| **Context-labelled frame.** Project, domain, dashboard, cadence, or context label supplies identity or evaluation scope. | Identify the frame by its C.2.1 claim content and exact EntityOfConcern; bind the exact `U.ClaimScope` and other use values separately. |
 | **Floor pass sold as excellence.** Readiness is mistaken for exceptional improvement. | State `exceptionalImprovementEvaluation` if wanted. |
-| **Frame replaces result.** The question frame names a purpose but returns prose, a two-column value table, or proposal rows without the named evaluation's result form. | Re-run the named evaluation and return its declared coordinates, evidence basis, rationales, and payload fields. |
-| **Scope laundering.** The frame asks one use, but the result answers an easier, local-only, diagnostic, or evaluator-selected use. | Re-run the named evaluation under the requested use; if another use is needed, open a new frame rather than saving the current result. |
+| **Frame replaces result.** The question frame names a purpose but returns prose, a two-column value table, or proposal rows without the named evaluation's result form. | Re-run the named evaluation as dated Work with its direct method enactment or A.6.1 operation application and return its declared coordinates, evidence basis, rationales, payload fields, and typed result binding or direct result relation. |
+| **Description performs evaluation.** A method description, characteristic-space specification, expected evidence basis, role assignment, or result-form description is treated as evaluation Work or its result. | Keep each description and assignment separate; identify one dated A.15.1 Work occurrence, the direct evaluation application, actual evidence use, and result under their exact governors. |
+| **Scope laundering.** The frame asks one use, but the result answers an easier, local-only, diagnostic, or evaluator-selected use. | Re-run the named evaluation under the requested `U.ClaimScope`; if another use is needed, open a new frame rather than saving the current result. |
 | **Applied-count absorption.** Closure count replaces re-evaluation of the changed object. | Re-evaluate the changed object and classify impact. |
 | **Goodharted improvement.** Visible values rise while protected qualities worsen, or a `5` target makes the evaluator add apparatus instead of improving content. | Frame the expected evaluation effect as a substantive content change, add trade-off protection, reject dominated changes, apply E.13 when a visible value replaces the intended value, and admit `no proposal` only when checked positions show that no worthwhile content improvement remains. |
 | **Recommendation as decision.** A follow-up hypothesis is treated as chosen work. | Open the exact decision, work, publication, parity, refresh, evidence, or assurance pattern if that claim is needed. |
+| **Finding as actual Problem.** A low coordinate, finding, or floor miss is treated as a Problem occurrence. | Keep the evaluation result epistemic; cite C.22.PFR only when its actual-condition and criterion-applicability participants make one ProblematicFor occurrence obtain. |
 | **Lexical repair request.** A finding says only "replace this word" or "avoid that wording." | Rewrite the row as a precision-restoration finding with kind, relation, admissible use, and scope before and after repair; if no kind-preserving repair is recoverable, leave it blocking. |
 
 ### E.22:9 - Consequences
@@ -86330,13 +86493,13 @@ The bias is bounded. `E.22` does not supply quality values, run repeated improve
 
 ### E.22:10 - Rationale
 
-There is no neutral generic request when a quality result is wanted. The useful artifact is the framed question: object version, evaluation, purpose, expected evidence basis, expected result form, and boundary. This keeps review helpful without turning it into process control or project authority.
+There is no neutral generic request when a quality result is wanted. The useful artifact is the framed question: exact object version, selected characteristic space, predicate and/or comparator, one evaluation ClaimScope, consuming work or decision, governing evaluation pattern, any separately identified semantic Method, purpose, expected evidence basis, expected result form, and boundary. The frame makes those bindings inspectable without becoming the pattern, Method, performer assignment, descriptions, dated evaluation Work, evidence use, result, decision, or project authority.
 
 ### E.22:11 - SoTA-Echoing
 
 | Claim | Exact source and status | Inherited contribution and limit | Local adoption and disciplined case |
 |---|---|---|---|
-| A rubric-level evaluation needs its own reliability check rather than trust in one aggregate judge verdict. | Tianjun Pan et al., *RubricEval: A Rubric-Level Meta-Evaluation Benchmark for LLM Judges in Instruction Following*, arXiv:2603.25133 (2026), and Hongli Zhou et al., *Toward Robust LLM-Based Judges: Taxonomic Bias Evaluation and Debiasing Optimization*, arXiv:2603.08091 (2026), are current preprints for automated LLM judging. | Pan et al. show that fine-grained rubric judging can remain inaccurate and variable; Zhou et al. test a taxonomy of twelve bias types across generative and discriminative judges. These works concern LLM judges and instruction-following benchmarks; they do not validate an FPF evaluation or generalize their numeric results to physical, medical, or organizational evaluation. | `QualityEvaluationUseDeclaration@Context` separates governing method, quality-model descriptions, evidence basis, result form, and qualification window. The **Floor evaluation** and **Exceptional improvement** slices require the named evaluation's full result form rather than an unqualified judge verdict. |
+| A rubric-level evaluation needs its own reliability check rather than trust in one aggregate judge verdict. | Tianjun Pan et al., *RubricEval: A Rubric-Level Meta-Evaluation Benchmark for LLM Judges in Instruction Following*, arXiv:2603.25133 (2026), and Hongli Zhou et al., *Toward Robust LLM-Based Judges: Taxonomic Bias Evaluation and Debiasing Optimization*, arXiv:2603.08091 (2026), are current preprints for automated LLM judging. | Pan et al. show that fine-grained rubric judging can remain inaccurate and variable; Zhou et al. test a taxonomy of twelve bias types across generative and discriminative judges. These works concern LLM judges and instruction-following benchmarks; they do not validate an FPF evaluation or generalize their numeric results to physical, medical, or organizational evaluation. | `QualityEvaluationUseDeclaration` separates the governing evaluation pattern, semantic Method when declared, selected space and criterion, ClaimScope, quality-model descriptions, evidence basis, result form, and qualification window. The **Floor evaluation** and **Exceptional improvement** slices require the named evaluation's full result form rather than an unqualified judge verdict. |
 | Actionable formative feedback distinguishes the desired condition, current performance, and a move that can close the gap. | D. Royce Sadler, *Formative assessment and the design of instructional systems*, *Instructional Science* 18, 119-144 (1989), DOI 10.1007/BF00117714; John Hattie and Helen Timperley, *The Power of Feedback*, *Review of Educational Research* 77(1), 81-112 (2007), DOI 10.3102/003465430298487. Both are retained historical education lineages. | Sadler supplies the comparison between a quality standard and current work plus action by the learner; Hattie and Timperley synthesize goal, current progress, and next-step feedback questions. Their classroom evidence does not establish FPF kinds, project authority, or the quality of a proposed repair. | The frame keeps floor or aim, current object version, expected result form, and proposal or checked no-proposal result distinct. The **Absorption** slice reports changed quality rather than merely counting accepted feedback. |
 | Measurement questions should be derived from an explicit purpose rather than selected first and rationalized later. | Victor Basili, Gianluigi Caldiera, and H. Dieter Rombach, *The Goal Question Metric Approach*, in *Encyclopedia of Software Engineering* (1994), retained historical lineage; Victor Basili et al., *Linking Software Development and Business Strategy Through Measurement*, *Computer* 43(4), 57-65 (2010), DOI 10.1109/MC.2010.108, a later software-organization extension. | GQM contributes the purpose-to-question-to-measure direction; GQM+Strategies makes the link to higher-level goals and rationale explicit. Both are software-measurement methods and do not supply E.22's holonic ontology, evaluation values, or cross-domain quality model. | `QualityEvaluationPurposeSelection` is fixed before the evidence-basis and result-form descriptions. In the **Physical-system proposal**, the vibration purpose is declared before choosing the Q-Bundle, coordinate, measurement evidence, or proposal form. |
 | Multi-coordinate improvement needs set-valued alternatives and explicit trade-offs rather than one scalar winner. | Xi Lin et al., *Quality-Diversity Optimization as Multi-Objective Optimization*, arXiv:2602.00478 (2026), current preprint; Haoxiang Qin et al., *A survey on Quality-Diversity optimization: Approaches, applications, and challenges*, *Swarm and Evolutionary Computation* 100:102240 (2026), DOI 10.1016/j.swevo.2025.102240, current survey. | Lin et al. reformulate QD as a large multi-objective problem and use set-based scalarization; Qin et al. survey high-performing collections over descriptor spaces. These algorithmic results do not assign FPF archive, front, publication, or selection authority. | `paretoTradeoffEvaluation`, `TradeoffProtectionSet@Context`, and `CandidateImprovementProposalPortfolio@Context` preserve alternatives and protected coordinates. The **Proposal portfolio** and **Physical-system proposal** slices stop before selection; archive, front, pool, and selected-set claims remain with their direct patterns. |
@@ -86354,10 +86517,13 @@ There is no neutral generic request when a quality result is wanted. The useful 
 | `E.19` | Supplies admission or refresh review profiles when that is the evaluation. |
 | `E.23` | Governs repeated improvement after framed evaluations return findings or proposal rows. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when framed values, visible measures, proposal counts, or all-`5` posture are being used as the intended improvement value. |
-
+| `A.19`, `A.19.ECS`, `A.19.CPM`, `A.2.6` | Govern the selected `CharacteristicSpace`, its construction description, predicate/comparator semantics and actual comparison application, and exact `U.ClaimScope`; E.22 binds their values for one question but does not redefine them. |
+| `A.15.1`, `A.6.1`, `C.2.1` | Govern dated evaluation Work and method enactment, any actual operation application and result binding, and any durable result episteme. The direct evaluation pattern owns its typed result relation; E.22 mints no generic evaluation-result or work-result relation. |
+| `A.2.4`, `A.10`, `G.11` | Govern actual evidence use, provenance, and currentness separately from the expected evidence-basis description. |
+| `C.22.PFR` | Governs an actual Problem occurrence when the consuming use relies on one; evaluation need, finding, or floor failure alone establishes none. |
 | `E.10`, `A.6.P`, `C.2.P`, `F.18` | Repair load-bearing wording and names introduced by frames or findings. |
-| `C.16`, `A.17`, `A.18`, `A.19`, `C.25` | Govern characteristics, scales, measurements, characteristic spaces, and quality bundles. |
-| `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE and NQD candidate, archive and front, pool, selected-set, parity, and refresh claims. |
+| `C.16`, `A.17`, `A.18`, `C.25` | Govern characteristics, scales, measurements, and quality bundles. |
+| `C.17`, `C.18`, `C.19`, `G.5`, `G.9` | Govern OEE and NQD candidate, archive and front, pool, selected-set, and parity claims; G.11 currentness remains in the preceding row. |
 | `C.11`, `C.24`, `A.15`, `A.20`, `A.21`, `A.10`, `B.3` | Receive decision, call-planning, work, gate, release, evidence, and assurance claims when a quality result is reused beyond evaluation. |
 
 ### E.22:End
@@ -86373,7 +86539,7 @@ Use `E.23` when an object version will be improved through repeated passes under
 
 Not this pattern when one direct quality evaluation is enough. Use `E.22` to frame one evaluation and then run the named object-under-improvement evaluation. Use `A.19.ECS` first if the needed evaluation characteristic space does not exist.
 
-First useful move: name the object version under improvement, the exact evaluation that will re-evaluate it, the improvement aim, protected trade-offs, cost and risk account, and local stop condition.
+First useful move: name the object version under improvement, the exact evaluation that will re-evaluate it, the improvement aim, protected trade-offs, cost and risk account, and local stop condition. Here *move* is Plain instruction wording: it names no `Move` kind, method, plan, performed Work, or actual Transformation.
 
 What goes wrong if missed: teams close discharge rows instead of improving quality, retry blindly, optimize visible values while damaging protected qualities, stop forever after a local all-`5` result, or let a review recommendation become decision, work, evidence, selected-set publication, parity, or refresh by stealth.
 
@@ -86387,7 +86553,9 @@ FPF often improves artifacts by repeated review, repair, and re-evaluation. The 
 
 The loop also avoids the maturity-ladder trap. A floor or all-`5` result can close this loop under current use, comparison set, source state, and cost boundary; it is not proof that the object cannot improve under a new use, source, front, or payoff.
 
-The loop also fails when an ordinal value becomes a work target. `5` is an assigned result after measurement, not an instruction to add apparatus until a `5` can be defended. Below-floor values return repair work. Above-floor improvement becomes current work when the frame selects it, but the target is a substantive content improvement: stronger positive action guidance, worked slice, case and countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or another named content gain. `Stay at 4` or `no proposal` is admissible only after a by-value search finds no non-dominated content improvement worth its cost under protected qualities.
+The loop also fails when an ordinal value becomes a work target. `5` is an assigned result after measurement, not an instruction to add apparatus until a `5` can be defended. Below-floor values return a repair proposal or intended-work claim; they do not establish that Work occurred. Above-floor improvement becomes a selected proposal when the frame selects it, but the target is a substantive content improvement: stronger positive action guidance, worked slice, case and countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or another named content gain. `Stay at 4` or `no proposal` is admissible only after a by-value search finds no non-dominated content improvement worth its cost under protected qualities. A selected proposal becomes neither performed Work nor actual Transformation until those independently governed occurrences obtain.
+
+A below-floor value, finding, improvement aim, or repeated-evaluation need is not by itself an actual Problem. If one improvement use relies on an actual Problem, cite one current C.22.PFR `ProblematicForRelation` occurrence with its actual-condition and criterion-applicability participants and its maximal continuous adverse-episode identity. Evaluation Work, result epistemes, evidence, and loop records may support a claim about that occurrence; they neither create nor split it.
 
 ### E.23:3 - Forces
 
@@ -86402,10 +86570,12 @@ The loop also fails when an ordinal value becomes a work target. `5` is an assig
 
 ### E.23:4 - Solution
 
-`E.23` is the general method for repeated improvement of an object version under one `QualityEvaluationUseDeclaration@Context` named by value. The governing evaluation pattern or semantic method evaluates; its characteristic-space, Q-Bundle, rubric, review-profile, evidence-basis, and result-form descriptions constrain or interpret that evaluation. The loop changes the object, re-evaluates the changed version through the same declared method and quality model, checks trade-offs and cost, and decides whether to stop, continue, switch method family, open a new frame, or hold until the information basis is sufficient.
+`E.23` is the general method for repeated improvement of an object version under one current `QualityEvaluationQuestionFrame` and one `QualityEvaluationUseDeclaration` named by value. The exact governing evaluation pattern owns the evaluation. Any separately identified semantic `U.Method` supplies the way the evaluation is done and is enacted by the independently identified dated evaluation `U.Work` that performs it; the declaration's characteristic-space, Q-Bundle, rubric, review-profile, evidence-basis, and result-form descriptions constrain or interpret that evaluation. Each performed evaluation or improvement pass is one independently identified dated `U.Work` occurrence under A.15.1, with its own performer assignment, enacted method, extent, and containing system. Any returned value, separately constituted result episteme, changed object, and actual Transformation remain distinct: the returned value uses its exact A.6.1 result binding or direct evaluation-result relation; C.2.1 identifies the result episteme; and any Work-to-result or Work-to-change claim names its already-declared direct predicate and obtaining facts or remains at the exact missing-governor boundary.
+
+The repeated organization changes the object, re-evaluates the changed version through the same declared method and quality model, checks trade-offs and cost, and exposes admissible stop, continue, switch, new-frame, information-hold, branch, and governing-pattern-return continuations. That organization is one current A.22 constraint-governed unfolding structure; use E.18 only when an independently selected transformation-flow structure is actually the EntityOfConcern. Neither the method, record, visible cycle, nor selected continuation is an enduring Work occurrence or context container.
 
 #### E.23:4.1 - Local names and kind settlement
-Source and practitioner phrases such as "loop engineering", "agent loop", "harness loop", "prompt loop", and "workflow hardening loop" are entry phrases. Lower them into `ObjectUnderImprovementRef`, `QualityEvaluationUseDeclaration@Context`, `ImprovementAim`, `MethodFamilySelection`, `CostAndRiskAccount`, and `QualityImprovementLoopRecord@Context`, or else name the direct governing pattern for the live claim and leave `E.23` closed.
+Source and practitioner phrases such as "loop engineering", "agent loop", "harness loop", "prompt loop", and "workflow hardening loop" are entry phrases. Lower them into `ObjectUnderImprovementRef`, `QualityEvaluationQuestionFrame`, `QualityEvaluationUseDeclaration`, `ImprovementAim`, `MethodFamilySelection`, `CostAndRiskAccount`, and `QualityImprovementLoopRecord`, or else name the direct governing pattern for the live claim and leave `E.23` closed.
 
 Quick lowering map:
 
@@ -86420,16 +86590,19 @@ Quick lowering map:
 |---|---|
 | `QualityImprovementLoopMethod` | Repeated improvement `U.Method` for one object version under one declared evaluation use. |
 | `ObjectUnderImprovementRef` | Exact `U.Entity` version being changed, paired with its exact `U.Kind`. |
-| `QualityEvaluationUseDeclaration@Context` | The E.22 `U.Episteme` that keeps evaluator assignment, governing evaluation pattern, optional semantic method, quality-model descriptions, evidence basis, and result form distinct. E.23 reuses it; it does not define a second evaluation ontology. |
+| `QualityEvaluationQuestionFrame` | The E.22 `U.Episteme` that binds one exact object version and use declaration to the selected characteristic space, predicate or comparator, ClaimScope, exact result-consuming work or decision, evaluation purpose, qualification window, and ordinary non-use boundary. E.23 reuses that frame; it does not move the consuming-use position into the declaration. |
+| `QualityEvaluationUseDeclaration` | The E.22 `U.Episteme` that keeps evaluator assignment, governing evaluation pattern, optional semantic method, selected characteristic space, predicate or comparator, ClaimScope, quality-model descriptions, evidence basis, result form, and qualification window distinct. E.23 reuses it; it does not define a second evaluation ontology. |
 | `LoopEvaluationEvidenceBasis@Context` | `U.Episteme` whose EntityOfConcern is the exact object version evaluated in one loop pass. It describes the evidence values actually checked and missing evidence positions found for that pass and is distinct from E.22's expected evidence-basis description. |
 | `LoopEvaluationResultFormDescription` | `U.Episteme` describing the result-row form used for the current pass; normally the same form cited by the evaluation-use declaration. |
 | `ImprovementAim` | Desired evaluation-result change. It names the intended quality change, not a value established by the repair itself. |
 | `MethodFamilySelection` | Selected method family for the current object and evaluation. |
 | `OperationFamilySelectionSet` | Optional operation-family set selected because its operations can change the evaluated result enough to justify cost. |
-| `ObjectUnderImprovementReEvaluation` | Re-run or cited result of the governing evaluation method on the changed object version. |
+| `ObjectUnderImprovementEvaluationWorkRef` | Reference to one independently identified dated A.15.1 evaluation Work occurrence. The Work remains distinct from its application, returned value, result episteme, evidence, and judgment. |
+| `ObjectUnderImprovementEvaluationResultRef` | Reference to one separately constituted result episteme whose claims state the evaluation result. The episteme is not the returned value; the exact A.6.1 result binding or direct evaluation-result relation remains separately identified. |
+| `ImprovementPassWorkRef` | Reference to one independently identified dated A.15.1 Work occurrence that actually changes or attempts to change the object. Selection of a proposal supplies no such occurrence. |
 | `CostAndRiskAccount` | Cost and risk account used to judge another pass or operation. |
 | `ImprovementLoopDecisionValue` | Local closed value set `stop | continue | switchMethodFamily | openNewFrame | holdUntilInformationBasisSufficient`. |
-| `QualityImprovementLoopRecord@Context` | `U.Episteme` whose EntityOfConcern is the exact starting object version for one improvement-loop application. Its claim graph relates that version to changed versions, applied proposal rows, evaluation-use declaration, actual evidence basis, results, trade-offs, cost and risk, and the loop decision. It describes the loop; it is not the method, performer, work occurrence, or changed object. |
+| `QualityImprovementLoopRecord` | `U.Episteme` whose EntityOfConcern is the exact starting object version for one bounded improvement-loop application. Its ClaimGraph relates that version to one admitted unfolding structure, selected next-action proposals, independently identified evaluation and improvement Work, exact result bases and result epistemes, changed versions, evidence bases, trade-offs, cost and risk, and the selected continuation and boundaries. It describes those objects and relations; it is not the method, performer, Work occurrence, changed object, or structure. |
 | `QualitySideEvaluationChangeClaim` | Controlled claim-node form inside a `U.ClaimGraph`; it compares before and after evaluation results for named object versions on declared `Q` coordinates under one evaluation-use declaration and qualification window. |
 | `SourceComposedResultClaim` | Controlled claim-node form inside a `U.ClaimGraph`; it relates one changed-object result claim to exact accepted source-use decisions and each source contribution. It is neither the changed object nor a source-use decision. |
 | `KindRestorationCheck` | Conditionally present precision-repair check governed by the selected restoration pattern. |
@@ -86438,13 +86611,10 @@ Quick lowering map:
 LoopEvaluationEvidenceBasis@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version evaluated in this loop pass
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  boundedContextRef: U.BoundedContextRef
-  groundingHolonRef?: U.HolonRef
-  viewpointRef?: U.ViewpointRef
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration@Context about that object version
+  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration about that object version
   checkedEvidenceValueRefs[]: U.EntityRef, each referencing one evidence value actually checked
   checkedEvidenceValueKindRefs[]: U.KindRef, each referencing the exact kind of the paired evidence value
   checkedEvidenceRelationRefs[]: U.EntityRef, each referencing one governed evidence relation
@@ -86452,24 +86622,35 @@ LoopEvaluationEvidenceBasis@Context <: U.Episteme:
   unfilledEvidencePositionDescriptionRefs[]: U.EpistemeRef, each referencing one description of an unfilled evidence position
   qualificationWindowDescriptionRef: U.EpistemeRef, referencing one EvaluationQualificationWindow description
 
-QualityImprovementLoopRecord@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing the exact starting object version for this loop application
+QualityImprovementLoopRecord <: U.Episteme:
+  entityOfConcernRef: U.EntityRef, referencing the exact starting object version for this bounded loop application
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that starting object version
-  boundedContextRef: U.BoundedContextRef
-  groundingHolonRef?: U.HolonRef
-  viewpointRef?: U.ViewpointRef
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  changedObjectVersionRefs[1..*]: U.EntityRef, each referencing one changed object version
-  changedObjectVersionKindRefs[1..*]: U.KindRef, each referencing the exact kind of the paired changed version
-  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration@Context
-  appliedProposalRefs[]: U.EpistemeRef, each referencing one CandidateImprovementProposalRow@Context
-  loopEvaluationEvidenceBasisRefs[1..*]: U.EpistemeRef, each referencing one LoopEvaluationEvidenceBasis@Context
-  evaluationResultRefs[1..*]: U.EpistemeRef, each referencing one result episteme produced by the declared evaluation use
+  improvementUnfoldingStructureRef: U.EntityRef, referencing one admitted A.22 constraint-governed unfolding structure; when transformation-flow membership is current, this same selected U.Structure also satisfies E.18/E.18.3 rather than designating a second structure
+  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration
+  selectedNextActionProposalRefs[]: U.EpistemeRef, each referencing one CandidateImprovementProposalRow@Context; selection does not establish performance
+  evaluationPassClaims[1..*]:
+    evaluationWorkRef: U.EntityRef, referencing one independently identified dated U.Work occurrence
+    evaluationApplicationRef?: U.EntityRef, referencing one exact A.6.1 application when that is the evaluation route
+    evaluationResultBasisRef: U.EntityRef, referencing its exact A.6.1 result binding or direct evaluation-result relation under the governing evaluation pattern
+    evaluationResultEpistemeRef: U.EpistemeRef, referencing one separately constituted result episteme
+    loopEvaluationEvidenceBasisRef: U.EpistemeRef, referencing one LoopEvaluationEvidenceBasis@Context
+  improvementPassClaims[]:
+    selectedNextActionProposalRef: U.EpistemeRef, referencing one still-propositional E.22 row
+    improvementWorkRef?: U.EntityRef, present only for one independently identified dated U.Work occurrence that actually happened
+    changedObjectVersionRef?: U.EntityRef, present only when that exact changed version independently exists
+    changedObjectVersionKindRef?: U.KindRef, paired with changedObjectVersionRef
+    workResultOrChangePredicateRefs[]?: U.EntityRef, each referencing one exact declared Work-to-result/change predicate or A.6.1 result-binding predicate used by the basis
+    workResultOrChangeGovernorRefs[]?: U.EntityRef, positionally paired with the predicate refs and each referencing that predicate's exact direct owner
+    workResultOrChangeBasisRef?: U.EntityRef, referencing one exact obtaining direct Work-to-result/change relation occurrence, one exact filled local relation-bearing claim that names the Work, result or change, applicability or condition, and obtaining facts, or one exact A.6.1 result-binding occurrence
   tradeoffProtectionSet: TradeoffProtectionSet@Context by value
   costAndRiskAccountDescriptionRef: U.EpistemeRef, referencing one cost-and-risk-account description
   loopDecisionValue: ImprovementLoopDecisionValue
+  selectedContinuationClaimRef?: U.EpistemeRef, referencing the current branch-selection claim without turning it into Work
+  stopBoundaryRef: U.EntityRef, referencing one ImprovementLoopBoundaryCondition@Context
+  governingPatternReturnBoundaryRefs[]: U.EntityRef, each referencing one ImprovementLoopBoundaryCondition@Context
   loopDecisionReasonDescriptionRef: U.EpistemeRef, referencing one loop-decision-reason description
 QualitySideEvaluationChangeClaim in U.ClaimGraph:
   qualityEvaluationUseDeclarationRef
@@ -86485,36 +86666,55 @@ SourceComposedResultClaim in U.ClaimGraph:
   sourceContributionDescriptionRefs[1..*]
 ```
 
-Checked evidence-value refs and kinds are positionally paired; checked evidence-relation refs and kinds form a second positional pair. Changed object-version refs and kinds are paired in the same way. The two named claims are node forms inside the claim graph of a result or loop episteme; a table row or serialization may publish them but does not become the claim.
+The two named claims are node forms inside the claim graph of a result or loop episteme; a table row or serialization may publish them but does not become the claim.
 
-Two carriers may publish the same episteme edition. `LoopEvaluationEvidenceBasis@Context` changes edition when the evaluated object version, bounded context, applicable grounding or viewpoint, declared evaluation use, checked evidence values or relations, unfilled evidence positions, qualification window, claim graph, or reference scheme changes. `QualityImprovementLoopRecord@Context` changes edition when its starting object version, bounded context, applicable grounding or viewpoint, changed-version relation, evaluation-use declaration, applied proposals, evidence-basis editions, evaluation results, trade-offs, cost and risk, decision, claim graph, or reference scheme changes. Carrier and support serialization alone change neither episteme. These names belong to the loop method. They do not create quality values, project evidence, release state, selected-set publication, parity, refresh, or proof of quality.
+Checked evidence-value refs and kinds are positionally paired; checked evidence-relation refs and kinds form a second positional pair. Within every evaluation pass, the dated Work, exact application when used, exact result binding or direct relation, result episteme, and evidence basis remain independently identified. Within every improvement pass, a changed-version ref and kind are paired only after that version exists; the selected proposal remains usable even while the Work and result/change positions are absent. `workResultOrChangePredicateRefs` and `workResultOrChangeGovernorRefs` are positionally paired and both are present whenever `workResultOrChangeBasisRef` is present. They expose predicate semantics and direct authority separately and may also remain present while the obtaining basis is absent; neither fills that basis. That basis resolves only to an exact obtaining direct Work-to-result/change relation occurrence, an exact filled local relation-bearing claim naming the Work, result or change, applicability or condition, and obtaining facts, or an exact A.6.1 result-binding occurrence. An A.15.PROD route identifies the exact applicable local claim, not the pattern or a generic `A.15.PROD claim`. When only a predicate, pattern, or other governor is known, retain the proposal, Work, changed object, and Transformation separately and return `missing-governor[work-to-result/change]` instead of inventing a generic relation.
+
+The two record epistemes follow C.2.1 identity: claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` determine each episteme edition. The listed loop fields contribute to claim content; `editionId` designates an already distinguished edition but does not constitute it. Empirical grounding, viewpoint membership, claim scope, model-use structure, applicability, qualification, evidence currentness, and source currentness remain separately governed relations or values. A change in one of them changes a record episteme only when its claim content, EntityOfConcern, or reference scheme is revised; carrier and support serialization alone change neither episteme. These records do not create quality values, project evidence, release state, selected-set publication, parity, refresh, Work, Transformation, or proof of quality.
+
+The retained `@Context` suffixes on support species such as `LoopEvaluationEvidenceBasis@Context`, `CandidateImprovementProposalRow@Context`, `TradeoffProtectionSet@Context`, and `ImprovementLoopBoundaryCondition@Context` are compatibility and retrieval spellings only. No suffix or context label supplies a container, participant, ClaimScope, applicability, or identity discriminator. The three identity-bearing interface names in this package are suffixless: `QualityEvaluationQuestionFrame`, `QualityEvaluationUseDeclaration`, and `QualityImprovementLoopRecord`.
 
 #### E.23:4.1a - Improvement Unfolding Structure Block
 
-Use this block when a named review or replay use relies on the improvement loop's constraint-governed unfolding structure rather than only its method record. It keeps the proposal epistemes, predicted evaluation-result changes, decision value, information-basis hold, and neighboring relations exact instead of treating them as generic structural locations.
+Use this block when a named review or replay use relies on the improvement loop's constraint-governed unfolding structure rather than only its method record. It keeps the proposal epistemes, predicted evaluation-result changes, independently identified pass Work and results, guarded alternatives, decision value, information-basis hold, stop, and neighboring returns exact instead of treating them as generic structural locations.
 
 ```text
 ImprovementUnfoldingStructureBlock:
   unfoldingStructureRef: U.EntityRef, referencing one ImprovementLoopUnfoldingStructure
   objectVersionUnderImprovementRef: U.EntityRef
   objectVersionKindRef: U.KindRef
-  evaluationFrameRef: U.EpistemeRef, referencing one QualityEvaluationQuestionFrame@Context or equivalent exact frame
-  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration@Context
+  evaluationFrameRef: U.EpistemeRef, referencing one QualityEvaluationQuestionFrame or equivalent exact frame
+  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration
   currentEvaluationResultRefs[]: U.EpistemeRef under that evaluation pattern
   candidateRepairProposalRefs[]: U.EpistemeRef, each referencing one CandidateImprovementProposalRow@Context under E.22
   tradeoffProtectionSet: TradeoffProtectionSet@Context by value
   expectedEvaluationResultChangeRefs[]: U.EpistemeRef, each referencing one ExpectedEvaluationResultChange@Context
+  evaluationPassPositionRows[]:
+    evaluationWorkRef: U.EntityRef, referencing one independently identified dated U.Work occurrence under A.15.1
+    evaluationApplicationRef?: U.EntityRef, referencing one exact A.6.1 application when used
+    evaluationResultBasisRef: U.EntityRef, referencing one exact A.6.1 result binding or direct evaluation-result relation
+    evaluationResultEpistemeRef: U.EpistemeRef, referencing one separate result episteme under C.2.1
+  improvementPassPositionRows[]:
+    selectedNextActionProposalRef: U.EpistemeRef
+    improvementWorkRef?: U.EntityRef, present only after one dated U.Work occurrence obtains
+    changedObjectVersionRef?: U.EntityRef, present only after that exact version exists
+    workResultOrChangePredicateRefs[]?: U.EntityRef, each referencing one exact declared Work-to-result/change predicate or A.6.1 result-binding predicate used by the basis
+    workResultOrChangeGovernorRefs[]?: U.EntityRef, positionally paired with the predicate refs and each referencing that predicate's exact direct owner
+    workResultOrChangeBasisRef?: U.EntityRef, referencing one exact obtaining direct Work-to-result/change relation occurrence, one exact filled local relation-bearing claim that names the Work, result or change, applicability or condition, and obtaining facts, or one exact A.6.1 result-binding occurrence
+  guardedContinuationRows[1..*]:
+    exactGuardOrConstraintClaimRef
+    selectedObtainingRelationOccurrenceRefs[]
+    admissibleContinuationDescription
   loopDecisionValue: ImprovementLoopDecisionValue
+  selectedContinuationClaimRef?: U.EpistemeRef
   unfilledInformationBasisPositionDescriptionRefs[1..*]?: U.EpistemeRef
   informationBasisSufficiencyConditionRef?: U.EntityRef, referencing one ImprovementLoopBoundaryCondition@Context
-  methodWorkLinkageRef?: U.EntityRef, referencing one MethodWorkUnfoldingLinkage@Context
-  evidenceRelationRefs[]?: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with exact evidence relation kind and direct governing pattern
-  evaluationRelationRefs[]: U.EntityRef, each referencing one UnfoldingStructureReferencedValueRelation@Context with exact evaluation relation kind and direct governing pattern
+  evidenceRelationRefs[]?: U.EntityRef, each referencing one exact evidence relation occurrence under its direct governing pattern
   stopBoundaryRef: U.EntityRef, referencing one ImprovementLoopBoundaryCondition@Context
   governingPatternReturnBoundaryRefs[]: U.EntityRef, each referencing one ImprovementLoopBoundaryCondition@Context
 ```
 
-`ImprovementLoopUnfoldingStructure` is a local `A.22.CGUS` `U.Structure` specialization governed here for improvement-loop use. It is neither a root U-kind nor performed work, evidence, or quality proof. The structure relates the exact values above; it is not their kind.
+`ImprovementLoopUnfoldingStructure` is a local `A.22.CGUS` `U.Structure` specialization governed here for improvement-loop use. Its constituents are the independently identified values named above; its selected obtaining relations and guard claims keep their exact direct governors. A position row, adjacency, or selected continuation creates none of them. When that exact selected structure additionally satisfies the transformation-flow membership and boundary conditions, E.18/E.18.3 recognizes the same `U.Structure`; do not manufacture a generic CGUS plus a second transformation-flow structure from reciprocal references. The organization is neither a root U-kind, enduring Work, context container, evidence, nor quality proof.
 
 E.23 governs the coordinate-qualified prediction episteme:
 
@@ -86522,13 +86722,10 @@ E.23 governs the coordinate-qualified prediction episteme:
 ExpectedEvaluationResultChange@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the exact object version whose later evaluation result is predicted
   entityOfConcernKindRef: U.KindRef, referencing the exact kind of that object version
-  boundedContextRef: U.BoundedContextRef
-  groundingHolonRef?: U.HolonRef
-  viewpointRef?: U.ViewpointRef
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration@Context about that object version
+  qualityEvaluationUseDeclarationRef: U.EpistemeRef, referencing one QualityEvaluationUseDeclaration about that object version
   evaluationCoordinateRef: U.EpistemeRef, referencing one governed evaluation-coordinate description
   coordinateScaleRef: U.EpistemeRef, referencing one scale description that admits results for that coordinate
   currentEvaluationResultRef: U.EpistemeRef, referencing one current result episteme under the declared evaluation use
@@ -86542,28 +86739,28 @@ ExpectedEvaluationResultChange@Context <: U.Episteme:
   tradeoffProtectionSet: TradeoffProtectionSet@Context by value
 ```
 
-`ExpectedEvaluationChangeExpressionKindValue` is `expectedValue | expectedRange | expectedDirection`. Exactly one of value, range, or direction is present according to that kind. An expected value includes its exact kind and is admitted by `coordinateScaleRef`; an expected range belongs to that scale. `EvaluationScaleDirectionValue` is `increaseOnScale | decreaseOnScale | preserveWithinRange | enterDeclaredRange | leaveDeclaredRange`. Free direction prose does not close this episteme. The episteme predicts a later re-evaluation result. Its edition changes when the object version, bounded context, applicable grounding or viewpoint, declared evaluation use, coordinate, scale, current result, expected value, range, or direction, proposal set, prediction basis, protected trade-offs, claim graph, or reference scheme changes. A carrier or rendering change alone does not change the prediction episteme. It is not an operation, move, transition, work occurrence, or proof of improvement.
+`ExpectedEvaluationChangeExpressionKindValue` is `expectedValue | expectedRange | expectedDirection`. Exactly one of value, range, or direction is present according to that kind. An expected value includes its exact kind and is admitted by `coordinateScaleRef`; an expected range belongs to that scale. `EvaluationScaleDirectionValue` is `increaseOnScale | decreaseOnScale | preserveWithinRange | enterDeclaredRange | leaveDeclaredRange`. Free direction prose does not close this episteme. The episteme predicts a later re-evaluation result. Its listed prediction fields contribute to claim content; a new claim content, EntityOfConcern, or effective reference scheme yields another C.2.1 episteme edition. A changed grounding, viewpoint, applicability, qualification, source-currentness, carrier, or rendering relation does not by itself change the prediction episteme; revise its claims when that change alters the prediction. It is not an operation, move, transition, work occurrence, or proof of improvement.
 
-`ImprovementLoopDecisionValue` is `stop | continue | switchMethodFamily | openNewFrame | holdUntilInformationBasisSufficient`. The hold value has non-empty `unfilledInformationBasisPositionDescriptionRefs[]` and an `informationBasisSufficiencyConditionRef`; other values leave both absent. Each description says which information-basis position is unfilled without pretending to reference an entity that does not exist. The sufficiency condition says what information would make continuation admissible.
+`ImprovementLoopDecisionValue` is `stop | continue | switchMethodFamily | openNewFrame | holdUntilInformationBasisSufficient`. The hold value has non-empty `unfilledInformationBasisPositionDescriptionRefs[]` and an `informationBasisSufficiencyConditionRef`; other values leave both absent. Each description says which information-basis position is unfilled without pretending to reference an entity that does not exist. The sufficiency condition says what information would make continuation admissible. A decision value or selected-continuation claim neither authorizes nor performs the next action.
 
-`ImprovementLoopBoundaryCondition@Context` carries `boundaryConditionKind = stop | governingPatternReturn | informationBasisSufficiency`, a condition description, the affected object-version ref and exact kind, and a conditional receiving-pattern ref when the boundary is a governing-pattern return. Source currentness stays with G.11, selected-set publication stays with G.5, work stays with A.15, and evidence and assurance stay with their direct governing patterns.
+`ImprovementLoopBoundaryCondition@Context` carries `boundaryConditionKind = stop | governingPatternReturn | informationBasisSufficiency`, a condition description, the affected object-version ref and exact kind, and a conditional receiving-pattern ref when the boundary is a governing-pattern return. Source currentness stays with G.11, selected-set publication stays with G.5, work stays with A.15, and evidence and assurance stay with their direct governing patterns. A return boundary ends or redirects this E.23 use; it does not make the receiving Work, decision, or relation obtain.
 
-A visible cycle such as "draft -> evaluate -> repair -> re-evaluate" may be useful before execution. While any position, relation, expected result change, protected trade-off, decision value, or boundary needed for the wider improvement CGUS remains unresolved, keep that presentation as a `ProvisionalUnfoldingDemonstrationDescription@Context` about the object version and proposed continuation set. It may guide slot discovery, but it is not yet a structure or a slice. Admit the wider `ImprovementLoopUnfoldingStructure` first. Only then may a separate `DemonstrativeUnfoldingSlice@Context` select one traversal through that admitted structure and name it as EntityOfConcern. Neither episteme is a `QualityImprovementLoopRecord@Context`, performed work, or proof of improvement.
+A visible cycle such as "draft -> evaluate -> repair -> re-evaluate" may be useful before execution. While any constituent, obtaining relation, guard, expected result change, protected trade-off, selected continuation, decision value, stop, or return needed for the wider improvement CGUS remains unresolved, keep that presentation as a `ProvisionalUnfoldingDemonstrationDescription@Context` about the object version and proposed continuation set. It may guide slot discovery, but it is not yet a structure or a slice. Admit the wider `ImprovementLoopUnfoldingStructure` first. Only then may a separate `DemonstrativeUnfoldingSlice@Context` select one traversal through that admitted structure and name it as EntityOfConcern. Neither episteme is a `QualityImprovementLoopRecord`, performed Work, actual Transformation, or proof of improvement.
 
 #### E.23:4.2 - Loop method
 
 For one quality-improvement loop:
 
-1. Declare `ObjectUnderImprovementRef`, its exact kind and version, and one `QualityEvaluationUseDeclaration@Context`. Keep the evaluation performer assignment, governing pattern description, optional semantic method, quality-model descriptions, expected evidence basis, and result-form description in their separate slots.
+1. Declare `ObjectUnderImprovementRef`, its exact kind and version, and one `QualityEvaluationUseDeclaration`; recover the current `QualityEvaluationQuestionFrame` when one already exists. Keep the declaration's evaluation performer assignment, exact governing evaluation pattern identity, optional semantic method, selected characteristic space, predicate or comparator, ClaimScope, quality-model descriptions, expected evidence basis, result-form description, and qualification window separate; keep the exact result-consuming work or decision in the question frame rather than in the declaration.
 2. Declare `ImprovementAim`, declared floor or desired substantive evaluation-result change, protected trade-offs, cost and risk account, and local stop condition. Do not declare `5`, all-`5`, or `5-defensible` as the work target; name the content property to improve instead.
-3. Use `E.22` to frame the first quality evaluation when the purpose is not already explicit.
-4. Run the object-under-improvement evaluation in its declared result form. For one FPF pattern version, this is an E.21 result with every coordinate, every `ShortRationale`, the `PrecisionRestorationProfile`, evidence basis, coordinate-specific payloads, and status. A loop record, profile pass, blocker summary, two-column table, or "no blockers" note is not a substitute.
-5. Record row-atomic findings or proposal rows when work is returned. A step is closed only after its finding or proposal row is written; do not rely on memory or a later grouped summary.
-6. Apply repairs or variants to the object. Repair below-floor findings first. When exceptional improvement is requested, search coordinate-by-coordinate for substantive content improvements: better positive action guidance, a missing worked slice, case and countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or relocation of quality proof or process proof. Guards, boundary catalogues, relation menus, or quality proof added solely to make a higher value defensible are dominated changes, not improvements. A no-change closure is admissible only when the row cites its `LoopEvaluationEvidenceBasis@Context` and explains why no non-dominated content improvement is available under the protected trade-offs. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the selected restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Before closure, a bounded complete `KindRestorationCheck` states what kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope were present before the edit and what kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` with its evidence basis; otherwise unchanged text remains a live finding. When another pattern governs the kind under repair, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
-7. Re-evaluate the changed object version through the object-under-improvement evaluation, preserving that evaluation's coordinate set, evidence basis, result-row shape, short rationales, attention-discharge rows, and coordinate-specific payloads.
-8. Record what improved, what stayed floor-only, what was unchanged by value with its evaluation evidence basis, what became worse, and which rows were reclassified outside the evaluation.
-9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdUntilInformationBasisSufficient`.
-10. Leave a `QualityImprovementLoopRecord@Context` sufficient for the next reader to replay the object versions, `QualityEvaluationUseDeclaration@Context`, actual `LoopEvaluationEvidenceBasis@Context`, evaluation results, applicable source-use and currentness result references, limitations, trade-offs, cost and risk, and the loop decision with its reason.
+3. Reuse the exact current E.22 question frame, or use `E.22` to open one for the first quality evaluation when no frame already binds the current purpose, scope, and result-consuming use.
+4. Identify and run one dated evaluation Work occurrence under A.15.1. Keep its performer system, covering assignment, enacted method, temporal extent, and containing system distinct from the frame and descriptions. Name the exact evaluation application and result binding or the direct evaluation-result relation under the governing evaluation pattern; when a durable result claim is needed, identify one separate C.2.1 result episteme. For one FPF pattern version, that result has every E.21 coordinate, every `ShortRationale`, the `PrecisionRestorationProfile`, evidence basis, coordinate-specific payloads, and status. A loop record, profile pass, blocker summary, two-column table, or "no blockers" note is not a substitute.
+5. Record row-atomic findings or proposal rows when work is returned. A step is closed only after its finding or proposal row is written; do not rely on memory or a later grouped summary. Each row is still an episteme about a proposed next action, not the action's performance, Work, or Transformation.
+6. Select a proposal only as the next-action proposal. When an improvement is actually performed, identify one separate dated improvement Work occurrence with its performer system, covering assignment, enacted method, temporal extent, and containing system. Identify any actual `U.Transformation` independently under A.3.4. Connect a returned value, changed object, or that Transformation to the Work only through one exact obtaining basis: an A.6.1 result-binding occurrence, a direct Work-to-result/change relation occurrence, or a filled local relation-bearing claim that names the Work, result or change, applicability or condition, and obtaining facts. Name the declared predicate or predicates and their direct governors separately; an A.15.PROD branch cites its exact applicable local claim, not the pattern or a generic claim label. If that obtaining basis is missing, retain the proposal, Work, changed object, and Transformation separately and return the exact missing-governor blocker. Repair below-floor findings first. When exceptional improvement is requested, search coordinate-by-coordinate for substantive content improvements: better positive action guidance, a missing worked slice, case and countercase coverage, source-currentness carry-through, mature-content discharge, relation cleanup, deletion of displaced apparatus, split of overloaded content, or relocation of quality proof or process proof. Guards, boundary catalogues, relation menus, or quality proof added solely to make a higher value defensible are dominated changes, not improvements. A no-change closure is admissible only when the row cites its `LoopEvaluationEvidenceBasis@Context` and explains why no non-dominated content improvement is available under the protected trade-offs. When generation, selection, publication, parity, refresh, decision, planning, work, evidence, or assurance claims leave quality improvement, keep the pattern that governs that claim, relation, or boundary in the loop record or `Relations`. Do not let loop-method prose replace the object's positive content. For precision-restoration defects, use the selected restoration or governing pattern named by the evaluation: `E.10`, `E.10.ARCH`, `F.18`, `F.19`, or an object-specific pattern. Before closure, a bounded complete `KindRestorationCheck` states what kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope were present before the edit and what kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope the changed text now carries when those items are live. No-op closure is admissible only as `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` with its evidence basis; otherwise unchanged text remains a live finding. When another pattern governs the kind under repair, relation, claim, or position, cite that pattern; `E.23` records the repair and reruns the evaluation, it does not duplicate the restoration algorithm.
+7. Identify a later re-evaluation as another independently dated evaluation Work occurrence, not as a continuation field of the first Work. Re-evaluate the changed object version through the object-under-improvement evaluation, preserving that evaluation's coordinate set, evidence basis, result-row shape, short rationales, attention-discharge rows, and coordinate-specific payloads. Again name the exact application/result binding or direct evaluation-result relation and any separate result episteme.
+8. Record what improved, what stayed floor-only, what was unchanged by value with its evaluation evidence basis, what became worse, and which rows were reclassified outside the evaluation. The before and after result epistemes remain distinct from both evaluation Work occurrences.
+9. Decide `stop`, `continue`, `switchMethodFamily`, `openNewFrame`, or `holdUntilInformationBasisSufficient`. Keep current alternatives, exact guard or constraint claims, selected obtaining relation occurrences, selected continuation, stop, and governing-pattern returns in one admitted A.22 improvement unfolding structure. When transformation-flow membership is independently current, E.18/E.18.3 recognizes that same selected structure rather than another loop object. The decision and branch selection do not perform or authorize the next Work.
+10. Leave a `QualityImprovementLoopRecord` sufficient for the next reader to replay the object versions, the `QualityEvaluationQuestionFrame` carried by its admitted unfolding structure, the `QualityEvaluationUseDeclaration`, selected proposal rows, independently identified evaluation and improvement Work occurrences, exact applications and result/change bases, actual `LoopEvaluationEvidenceBasis@Context` epistemes, result epistemes, applicable source-use and currentness result references, limitations, trade-offs, cost and risk, selected continuation, stop and return boundaries, and the loop decision with its reason.
 
 #### E.23:4.3 - Stop, continue, and reopen
 
@@ -86572,6 +86769,8 @@ Stop when the current object version meets the declared floor or improvement aim
 Continue only when at least one `ExpectedEvaluationResultChange@Context` states a scale-qualified change worth its cost and risk. Switch method when the current method family is not changing the evaluated result, is too costly, or no longer fits the evaluation. Use `holdUntilInformationBasisSufficient` only with non-empty unfilled-position descriptions and the sufficiency condition that would make continuation admissible.
 
 An all-`5`, all-exceptional, current-front-reaching, or current-front-improving result closes this loop locally. It does not say that future development is impossible. A new use, `Q` component, source anchor, `SoTA` front, comparison set, affordability boundary, or higher-payoff proposal can open a later loop.
+
+Treat the five decision values as current continuation dispositions, not as Work states. A branch is usable only when its A.22 guarded continuation cites the exact current guard or constraint claim and the already-obtaining relation occurrences that make that alternative admissible. A stop or governing-pattern return is a boundary until its direct owner establishes any stronger relation. Returning to A.15, E.22, G.11, G.5, or another named pattern neither performs Work nor creates that pattern's object.
 
 #### E.23:4.4 - Method-family selection
 
@@ -86623,20 +86822,19 @@ When several source anchors are used, the loop records each exact accepted sourc
 For NQD and OEE, `E.23` can change one object version or candidate to improve its evaluation result on declared `Q` coordinates. `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` keep authority over novelty, diversity, descriptors, distances, archive or front insertion, pool policy, selected-set publication, parity, and refresh.
 
 ### E.23:5 - Worked slices
-**Agent harness improvement from a loop-engineering request.** A user asks to "build an agent loop that improves my local DPF seed." The `E.23` entry is not the loop word; it is the recovered object and evaluation use: `ObjectUnderImprovementRef = PersonalDevelopmentDPFSeed@v0.1`; `governingEvaluationPatternDescriptionRef = E.4.DPF.DA or E.21`; the separate quality-model, expected-evidence-basis, and result-form refs are those declared by that pattern; and `ImprovementAim = make the seed usable as a local first-entry framework without public-Core claims`. The loop may change only the declared seed version, or a declared evaluation or harness slice that is itself the object under improvement. Source-use prompts, pattern-seed expansion, adversarial examples, or harness checks enter the loop only when the record states an `ExpectedEvaluationResultChange@Context` and a removal or stop condition for that declared slice. Source-use decisions are `G.2`; source decay, edition change, and refresh orchestration are `G.11`; the harness run itself is `U.Work`; parity between harness variants is `G.9`; retained candidate variants are `C.18` or `C.19`; selected-set publication is `G.5`; PFAD and PFR claims stay with `E.4.PFAD` and `E.4.PFR`. A change outside the declared slice opens that neighboring work; it is not one giant `E.23` evolution loop.
+**Agent harness improvement from a loop-engineering request.** A user asks to "build an agent loop that improves my local DPF seed." The `E.23` entry is not the loop word; it is the recovered object and evaluation use: `ObjectUnderImprovementRef = PersonalDevelopmentDPFSeed@v0.1`; `governingEvaluationPatternDescriptionRef = E.4.DPF.DA or E.21`; the separate quality-model, expected-evidence-basis, and result-form refs are those declared by that pattern; and `ImprovementAim = make the seed usable as a local first-entry framework without public-Core claims`. The loop may change only the declared seed version, or a declared evaluation or harness slice that is itself the object under improvement. Source-use prompts, pattern-seed expansion, adversarial examples, or harness checks enter the loop only when the record states an `ExpectedEvaluationResultChange@Context` and a removal or stop condition for that declared slice. Selecting any of them still selects only a proposed next action. Each actual harness run or seed-editing pass is one independently identified dated A.15.1 Work occurrence. A returned evaluation value uses its exact A.6.1 binding or direct evaluation-result relation; a durable result claim is a separate C.2.1 episteme; and a changed seed version or Transformation is linked to the exact Work only by one exact obtaining direct relation occurrence, an exact filled local relation-bearing claim that names the Work, result or change, applicability or condition, and obtaining facts, or an exact A.6.1 result-binding occurrence. Its predicate and direct governor are named separately; an A.15.PROD route cites the exact applicable local claim rather than the pattern. Source-use decisions are `G.2`; source decay, edition change, and refresh orchestration are `G.11`; parity between harness variants is `G.9`; retained candidate variants are `C.18` or `C.19`; selected-set publication is `G.5`; PFAD and PFR claims stay with `E.4.PFAD` and `E.4.PFR`. A change outside the declared slice opens that neighboring work; it is not one giant `E.23` evolution loop.
 
-**Affordable floor evaluation.** A pattern needs admission readiness. E.22 frames `floorEvaluation`; E.21 evaluates its complete coordinate set. If the result is admissible and no improvement aim is requested, E.23 stays closed. If an admission, refresh, landing, or release crossing is claimed, E.19 and the release process named by value still check the gate conditions; the E.21 status is necessary quality evidence, not the gate itself.
+**Affordable floor evaluation.** A pattern needs admission readiness. E.22 frames `floorEvaluation`; one independently dated evaluation Work applies E.21 to its complete coordinate set and returns its result through the exact evaluation application and binding or direct evaluation-result relation. If the result is admissible and no improvement aim is requested, E.23 stays closed. If an admission, refresh, landing, or release crossing is claimed, E.19 and the release process named by value still check the gate conditions; the E.21 status is necessary quality evidence, not the gate itself.
 
-**Pattern exceptional improvement.** A pattern already passes floor but lacks worked slices and source-currentness. Use `E.22` to frame optional exceptional improvement for named coordinates. The practitioner then applies `E.23`: search for substantive non-dominated content improvements, apply proposal rows, re-evaluate the changed pattern through `E.21`, check what became worse, and stop locally only when no worthwhile content improvement remains under the declared use. The loop may stop at `4`, but only after the missing-exceptional opportunity has been searched and discharged by value; it is not a proof-building run toward all-`5`.
+**Pattern exceptional improvement.** A pattern already passes floor but lacks worked slices and source-currentness. Use `E.22` to frame optional exceptional improvement for named coordinates. E.22 returns proposal rows; selecting one row still does not perform it. The practitioner then applies `E.23`: search for substantive non-dominated content improvements, identify each actual repair pass as separate dated Work with its exact result or change basis, re-evaluate the changed pattern through a later E.21 evaluation Work and separate result episteme, check what became worse, and stop locally only when no worthwhile content improvement remains under the declared use. The loop may stop at `4`, but only after the missing-exceptional opportunity has been searched and discharged by value; it is not a proof-building run toward all-`5`.
 
-**Physical prototype improvement.** The object version is `PumpAssembly@Prototype-3`, kind `U.System`. Its `QualityEvaluationUseDeclaration@Context` keeps six positions distinct: a vibration-test engineer role assignment performs the evaluation; a pump-vibration evaluation pattern description governs it; a steady-operating-point vibration evaluation method is the semantic method; an engineering Q-Bundle description and characteristic-space specification define RMS vibration, efficiency, and manufacturability coordinates and scales; an expected-evidence-basis episteme names calibrated test-bench measurements at declared operating points; and a result-form episteme describes the coordinate rows. An E.22 proposal describes an impeller-geometry change while its `TradeoffProtectionSet@Context` retains efficiency and manufacturability. The E.23 loop description carries an `ExpectedEvaluationResultChange@Context` with the current result, `changeExpressionKind=expectedDirection`, and `expectedScaleDirection=decreaseOnScale`. Dated machining and assembly of Prototype-4 remain A.15 work. The loop cannot claim improvement until Prototype-4 is evaluated by the declared method on the same characteristic space and evidence basis.
+**Physical prototype improvement.** The object version is `PumpAssembly@Prototype-3`, kind `U.System`. Its `QualityEvaluationUseDeclaration` keeps the following positions distinct: a vibration-test engineer role assignment; the exact pump-vibration evaluation pattern identity; a steady-operating-point vibration evaluation method; an engineering Q-Bundle description and characteristic-space specification defining RMS vibration, efficiency, and manufacturability coordinates and scales; an expected-evidence-basis episteme naming calibrated test-bench measurements at declared operating points; and a result-form episteme describing the coordinate rows. The current `QualityEvaluationQuestionFrame` references that declaration and binds the same object version, selected characteristic space, predicate or comparator, ClaimScope, and qualification window to the exact engineering decision that will consume the result. One dated test-bench evaluation Work enacts the semantic method and uses one exact evaluation application or direct evaluation relation. Its returned value uses the exact result binding or relation; the current durable result claim remains a separate C.2.1 result episteme. An E.22 proposal describes an impeller-geometry change while its `TradeoffProtectionSet@Context` retains efficiency and manufacturability. The E.23 loop description carries an `ExpectedEvaluationResultChange@Context` with the current result, `changeExpressionKind=expectedDirection`, and `expectedScaleDirection=decreaseOnScale`. That proposal remains a proposal. Each actual machining and assembly occurrence for Prototype-4 is independently identified as A.15.1 Work; the link from that Work to the exact changed version or Transformation must be one exact obtaining direct relation occurrence, one exact filled local relation-bearing claim naming the Work, result or change, applicability or condition, and obtaining facts, or one exact A.6.1 result-binding occurrence. Its predicate and governor are recorded separately. An A.15.PROD branch cites its exact applicable local claim; A.15.PROD and A.3.4 remain governors of their own objects and do not themselves fill the basis. A later, independently dated evaluation Work must evaluate Prototype-4 on the same characteristic space and evidence basis, return another exact value or relation, and separately constitute any durable result episteme before a measured improvement claim obtains.
 
-**Three proposals remain three evaluated alternatives.** Under that same evaluator assignment, evaluation method, quality model, and expected evidence basis, E.22 can return three exact `CandidateImprovementProposalRow@Context` values: change impeller geometry, change bearing-support stiffness, and add vibration isolation. The `QualityImprovementLoopRecord@Context` cites all three rows without merging them into one repair summary. Each row has its own `ExpectedEvaluationResultChange@Context` whose `entityOfConcernRef` names the pump-assembly version expected to change, whose prediction uses an admitted scale, and whose protected-trade-off membership remains separate, such as efficiency, mass, manufacturability, or service access. If comparable operating-point measurements are missing, the actual `LoopEvaluationEvidenceBasis@Context` names that unfilled position. None of the predictions selects a proposal: `holdUntilInformationBasisSufficient` states the comparability condition. A later pass may continue only from proposals whose expected change remains worth cost and risk after that position is filled.
+**Three proposals remain three evaluated alternatives.** Under that same evaluator assignment, evaluation method, quality model, and expected evidence basis, E.22 can return three exact `CandidateImprovementProposalRow@Context` values: change impeller geometry, change bearing-support stiffness, and add vibration isolation. The `QualityImprovementLoopRecord` cites all three rows without merging them into one repair summary or pretending that any was performed. Each row has its own `ExpectedEvaluationResultChange@Context` whose `entityOfConcernRef` names the pump-assembly version expected to change, whose prediction uses an admitted scale, and whose protected-trade-off membership remains separate, such as efficiency, mass, manufacturability, or service access. If comparable operating-point measurements are missing, the actual `LoopEvaluationEvidenceBasis@Context` names that unfilled position. None of the predictions selects a proposal: `holdUntilInformationBasisSufficient` states the comparability condition. A later pass may select only proposals whose expected change remains worth cost and risk after that position is filled; even then, actual improvement begins only with separately identified Work and its exact result or change basis.
 
+**DRR improvement.** A `DRR` needs drafting adequacy for authoring across several selected pattern hosts. Use the coordinates supplied by `E.9.DA`, return row-atomic proposals, identify each actual decision-repair pass as dated Work only when it occurs, and re-evaluate the changed `DRR` through a separately identified E.9.DA evaluation Work and result. The improved object is still a decision record, not prewritten pattern prose.
 
-**DRR improvement.** A `DRR` needs drafting adequacy for authoring across several selected pattern hosts. Use the coordinates supplied by `E.9.DA`, apply decision repairs through the `E.23` method, and re-evaluate the changed `DRR` through `E.9.DA`. The improved object is still a decision record, not prewritten pattern prose.
-
-**NQD quality-side improvement.** A generated candidate has declared `Q` components and a comparison set. `E.22` returns proposal rows. `E.23` may change the candidate and re-evaluate `Q`; archive or front insertion, selected-set publication, parity, and refresh remain under the pattern that governs each claim and are not quality-loop decisions.
+**NQD quality-side improvement.** A generated candidate has declared `Q` components and a comparison set. `E.22` returns proposal rows. `E.23` may organize separately performed candidate-change Work and re-evaluation of `Q`; archive or front insertion, selected-set publication, parity, and refresh remain under the pattern that governs each claim and are not quality-loop decisions.
 
 ### E.23:6 - Bias annotation
 
@@ -86648,10 +86846,10 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 
 | Check | Passing condition |
 |---|---|
-| `CC-E23-1` | Name object version and object-under-improvement named by value evaluation before claiming a changed evaluation result. |
-| `CC-E23-2` | Use `E.22` or an equivalent frame when the evaluation purpose is not already explicit. |
-| `CC-E23-3` | Represent returned work as row-atomic E.22 findings or proposal rows with closure tests; pair proposals selected for the next pass with scale-qualified `ExpectedEvaluationResultChange@Context` values. A grouped memory summary does not discharge skipped rows. |
-| `CC-E23-4` | Re-evaluate the changed object version before claiming coordinate, status, or `Q` change, or a changed front relation. |
+| `CC-E23-1` | Name the exact object version, exact object-under-improvement evaluation, one current `QualityEvaluationQuestionFrame`, and one `QualityEvaluationUseDeclaration` before claiming a changed evaluation result. |
+| `CC-E23-2` | Reuse an E.22 or equivalent exact frame only when it binds the current object version, selected characteristic space, predicate or comparator, ClaimScope, result-consuming work or decision, purpose, qualification window, and non-use boundary; otherwise open a new frame. |
+| `CC-E23-3` | Represent returned repair possibilities as row-atomic E.22 findings or proposal rows with closure tests; pair proposals selected for the next pass with scale-qualified `ExpectedEvaluationResultChange@Context` values. A grouped memory summary does not discharge skipped rows, and proposal selection does not establish performance. |
+| `CC-E23-4` | Identify each evaluation pass as one dated A.15.1 Work occurrence and name its exact evaluation application/result binding or direct evaluation-result relation plus any separate result episteme. Re-evaluate the changed object version before claiming coordinate, status, `Q`, or front-relation change. |
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
 | `CC-E23-6` | Continue only when a scale-qualified expected evaluation-result change and the cost and risk account support another pass. |
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
@@ -86662,13 +86860,16 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 | `CC-E23-10` | Preserve the named evaluation's evidence basis, result-row shape, short-rationale rule, attention-discharge rows, and coordinate-specific payloads in every re-evaluation. |
 | `CC-E23-11` | If a practitioner entry phrase such as "loop engineering", "agent loop", or "harness loop" appears, lower it to object version plus object-under-improvement evaluation before opening `E.23`, or name the direct neighboring governing pattern and stop the `E.23` overread. |
 | `CC-E23-12` | In agent or harness cases, state which slice the loop may change: the target object version, the evaluation, or the harness object. Any other slice becomes neighboring work under its own governing pattern, not implicit `E.23` scope. |
+| `CC-E23-13` | Keep a selected next-action proposal, independently dated improvement Work, exact A.6.1 binding or direct Work-to-result/change relation, changed object or Transformation, later evaluation Work, and result episteme distinct. When a required direct governor is missing, retain the separately identified objects and the exact blocker; do not mint a generic Work-result relation. |
+| `CC-E23-14` | Represent current alternatives, exact guards, selected obtaining relations, selected continuation, stop, and governing-pattern returns in one admitted A.22 unfolding structure. When transformation-flow membership is current, E.18/E.18.3 recognizes that same selected `U.Structure`; do not mint a parallel loop object. A visible cycle, record, structure, decision value, or branch is not enduring Work, context, authorization, or performance. |
+| `CC-E23-15` | A low value, finding, floor miss, or improvement aim does not establish an actual Problem. Any actual Problem used by the loop resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 
 ### E.23:8 - Common anti-patterns and repairs
 
 | Anti-pattern | Repair |
 |---|---|
-| **Checklist closed, quality improved.** Discharge count replaces re-evaluation. | Re-evaluate the changed object. |
-| **Loop result without evaluation form.** The loop says the object improved but records only prose, applied rows, or values without the named evaluation's evidence basis. | Re-run the object-under-improvement evaluation in its declared result-row shape. |
+| **Checklist closed, quality improved.** Discharge count replaces re-evaluation. | Re-evaluate the changed object through one independently dated evaluation Work and its exact result route. |
+| **Loop result without evaluation form.** The loop says the object improved but records only prose, applied rows, or values without the named evaluation's evidence basis. | Re-run the object-under-improvement evaluation in its declared result-row shape and keep its Work, application or direct result relation, result episteme, and evidence basis distinct. |
 | **Agentic retry as method law.** Repetition continues without a scale-qualified predicted evaluation-result change. | Add `ExpectedEvaluationResultChange@Context`, cost and risk, trade-offs, and a stop or switch condition. |
 | **Operation-family creep.** Verification, memory, supervision, or search is added everywhere. | Keep only operations that can change the evaluation result enough to justify cost. |
 | **Goodharted pass.** Visible values rise while protected qualities worsen, or a non-`5` value is treated as a defect to be fixed by more apparatus. | Use trade-off inspection; apply `E.13` when the visible value is replacing the intended value; reject, delete, split, relocate, or hold dominated changes; continue searching for substantive content improvement when the improvement aim is still open; record `stay at current value` only when the `LoopEvaluationEvidenceBasis@Context` shows that no non-dominated content improvement remains. |
@@ -86676,19 +86877,22 @@ The bias is bounded. One direct evaluation can close without a loop. Repetition 
 | **Maturity-ceiling stop.** All-`5` is treated as end of development. | Close this loop locally and record reopen conditions. |
 | **SoTA citation as self-assignment.** Sources are cited as proof of frontier quality. | State source contributions and re-evaluate the composed result. |
 | **Loop engineering as ontology.** A fashionable source phrase is treated as a new Core kind or as proof that all repeated activity is one improvement loop. | Use the phrase only as an entry cue; recover object version and evaluation, or send the live claim to its direct governing pattern. Common exits are work, gates, evolutionary retention and publication, source use, refresh, transformation-flow, and DPF governing patterns. |
+| **Proposal as performance.** A selected E.22 proposal or `continue` decision is treated as if the repair happened. | Keep the proposal and selection claim epistemic. Identify actual improvement only after one dated A.15.1 Work occurrence and its exact result/change route obtain. |
+| **Cycle as Work or context.** One record, dashboard, retry label, or visible arrow cycle is used as an enduring Work occurrence or ambient context container. | Recover one A.22 improvement unfolding structure with exact constituents, obtaining relations, guards, alternatives, stop, and returns; use E.18 only for an actual transformation-flow structure, and identify every performed pass independently under A.15.1. |
+| **Finding as actual Problem.** A low coordinate, floor miss, or loop-entry need is treated as a Problem occurrence. | Keep the finding epistemic; cite C.22.PFR only when one actual condition and one criterion-applicability occurrence make the temporally identified `ProblematicForRelation` obtain. |
 
 ### E.23:9 - Consequences
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| Repeated improvement is governed by one explicit improvement method. | FPF no longer relies on hidden authoring habits. | A complete loop record names its object and evaluation. |
-| Row discharge is separated from evaluated quality change. | Improvement claims become replayable. | The claim remains inadmissible until the changed object is re-evaluated. |
+| Repeated improvement is governed by one explicit improvement method and one current unfolding structure, while every performed pass retains its own dated Work identity. | FPF no longer relies on hidden authoring habits or one fictitious enduring loop occurrence. | A complete loop record names its object, evaluation, structure, independently identified Work and result routes, and boundaries. |
+| Row discharge is separated from evaluated quality change. | Improvement claims become replayable. | The claim remains inadmissible until the changed object is re-evaluated through a separately identified Work and result. |
 | General and specialized loops are comparable. | BLP can be applied without craft folklore. | Comparison is admitted with explicit cost, risk, and characteristic-space fit. |
 | Exceptional stop remains local. | All-`5` or front-reaching closure no longer freezes future development. | The closure record includes its reopen conditions. |
 
 ### E.23:10 - Rationale
 
-The shared method is simple: change an object version, re-evaluate it by the exact evaluation that gives values, check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE and NQD lines contribute useful operations and boundaries, but they do not replace this method.
+The shared method is simple: select a proposed improvement, perform it only through independently identified dated Work, connect any returned value or changed object through an exact obtaining direct relation occurrence, an exact filled local relation-bearing claim with its Work, result or change, applicability or condition, and obtaining facts, or an exact A.6.1 result-binding occurrence while naming the predicate and direct governor separately, re-evaluate through a separate dated evaluation Work and result episteme, check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. A.22 carries the current guarded alternatives, selected continuation, stop, and returns; when transformation-flow membership is independently current, E.18/E.18.3 recognizes that same selected structure rather than a second loop object. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE and NQD lines contribute useful operations and boundaries, but they do not replace this method or turn the cycle into enduring Work or context.
 
 ### E.23:11 - SoTA-Echoing
 
@@ -86709,11 +86913,13 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 | Pattern | Relation |
 |---|---|
 | `A.19.ECS` | Constructs or repairs an object-under-improvement evaluation when none exists. |
-| `E.22` | Frames each quality evaluation and can return finding or proposal rows. |
+| `E.22` | Frames each quality evaluation through suffixless `QualityEvaluationQuestionFrame` and `QualityEvaluationUseDeclaration` epistemes and can return finding or proposal rows. |
 | `E.21` | Supplies pattern-quality values for pattern-improvement loops. |
 | `E.9.DA` | Supplies `DRR` decision-adequacy values for `DRR` loops. |
 | `E.2.DA` | Supplies FPF Pillar-adequacy values for corpus-level loops. |
-| `A.22.CGUS` | Supplies the unfolding structure when one review or replay use inspects object version, evaluation frame, E.22 proposal refs, protected trade-offs, expected evaluation-result changes, and the loop-decision value together. |
+| `A.22.CGUS` | Governs the current improvement unfolding structure: exact constituents, already-obtaining relations, guards, admissible alternatives, selected continuation, stop, and governing-pattern returns. The structure, visible cycle, record, and slice perform no Work. |
+| `A.15.1`, `A.6.1`, `C.2.1`, `A.3.4`, `A.15.PROD` | Govern each independently dated evaluation or improvement Work occurrence, exact operation application and result binding, separately constituted result episteme, independently identified actual Transformation, and any separately current production branch. E.23 mints no generic Work-result or Work-to-change relation. |
+| `C.22.PFR` | Governs an actual Problem occurrence when one is used by an improvement claim; a finding, floor miss, evaluation need, or loop record does not establish its actuality or temporal identity. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when loop targets, quality values, metrics, or review results become substitutes for the intended value. |
 | `G.2` | Governs source-use and source-pack return before DPF seeds based on source-use records, admitted source publications, agent-practice claims, or source-composed improvement claims can be used as evidence. |
 | `F.18` | Supplies durable-name evaluation for naming loops. |
@@ -86721,7 +86927,7 @@ The shared method is simple: change an object version, re-evaluate it by the exa
 | `C.19.1` | Governs BLP and cost and risk comparison for method-family choice. |
 | `C.22.1`, `C.24` | Govern durable task-family adaptation and tool-call planning when the loop makes those claims. |
 | `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, `G.11` | Govern OEE and NQD candidate characteristics, archive, front, pool, selected set, parity, and refresh. |
-| `E.18` | Governs cyclic transformation-flow structures, paths, gates, and slice-local refresh; a cyclic transformation-flow structure is not a quality-improvement method unless an object version is changed and re-evaluated under `E.23`. |
+| `E.18`, `E.18.3` | When the exact selected A.22 improvement structure also satisfies transformation-flow membership and boundary conditions, recognize that same `U.Structure` as the current transformation-flow unfolding structure. A visible loop, method, record, or series of Work occurrences supplies neither membership nor a second TFS by shape. |
 | `E.18.1` | Carries accepted problem-side records or generated seed records toward the next FPF relation, including DPF seed-to-hardening routes before a quality-improvement loop is ready. |
 | `E.4.DPF` | Governs DPF authoring routes and publication carriers when a fast local framework seed is the object being carried toward use or admission. |
 | `E.4.PFAD`, `E.4.PFR` | Govern framework architecture decisions and framework relation records; `E.23` may improve a declared artifact version but does not decide those framework slots. |
@@ -98521,6 +98727,16 @@ G.4 is a design-time authoring pattern. It publishes a notation-independent `CAL
 ### G.5:0 - Use this when
 When loop-engineering work retains several loop candidates, harness variants, method families, workflow-store entries, or DPF framework candidates for downstream use, use `G.5` only when the live claim is selector-facing publication of that retained set. The published result states the outcome kind, retained members, ordering status if any, and basis pins. It does not prove that any member improved, that work occurred, or that a local choice has been made.
 
+For ordinary method-family dispatch, open `G.5` when two or more already admitted Methods are live under grounded selector rows for the same declared task and the current question is the selector-facing set result: which candidates remain admissible, whether the emitted result may truthfully order them, or whether it must be a shortlist, narrowed handoff, abstain, or escalation. If the live question is still one local choice among available options, route it through `C.11` first. Reuse already grounded method-family rows when they exist; do not rebuild a registry on every run. Create a new reusable row only when the grouping itself must recur, carry family-level policy, be versioned, or be published. Crossing, evidence/reliance, assurance, stable public identity, and actual publication are conditional branches, not an entry fee.
+
+
+
+Before opening G.5 for method dispatch, resolve every selectable `MethodRef` to an exact `U.Method` already admitted under A.3.1. A `MethodFamilyId` is a selector-facing registry designator for a declared grouping: its row must cite the exact Methods it groups and the independently governed classification claim, membership relation, or local grouping criterion used for this selector. Neither the row, its label, a family card, a `U.MethodDescription`, an eligibility or maturity record, a policy, an evidence pin, a shortlist, nor a publication makes a candidate a Method or makes family membership obtain. Where no direct pattern admits an ontic family or membership relation, keep the row as a project-local selector grouping under its declared criterion. If only labels, descriptions, cards, or unresolved references are available, return to A.3.1, C.2.1, or the direct family-relation owner and stop before selection.
+
+Also say whether the current claim is only a reusable registry, selector, policy, template, or result-content declaration, or whether an actual selection and publication occurred. An actual selection requires its exact acting system, dated A.15.1 Work, and actual A.6.1 `Select` application with effective argument and `SelectionSlot` bindings under A.19.SelectorMechanism. Any persisted result episteme, A.10 evidence-provenance relation, B.3 assurance claim, authorization, and E.24.PUB publication occurrence remain separate. A row, declaration, record, telemetry pin, or selected-set label supplies none of them by appearance.
+
+
+
 - several method families or generator families can admissibly act on the same declared task family or work target
 - you need one selector to return a `Shortlist`, `RankedShortlist`, one `SpecialistHandoff`, one other narrowed handoff plan, or one abstain outcome without pretending that there is always one scalar winner
 - the published result must carry enough basis pins for later comparison, handoff, or escalation without changing its declared outcome kind or any applicable public selected-set label
@@ -98547,10 +98763,28 @@ Registry and dispatch remain the primary selector question here; selected-set pu
 - Which members are being retained or excluded now?
 - Does order materially belong to the published result?
 - Which basis pins or policy pins must the published result carry?
+- Which exact A.3.1 `MethodRef` values does every method-family row resolve to?
+- What independently governed classification, membership relation, or local grouping criterion justifies placing those Methods in that row for this selector use?
+- Is the current organization only a composition template, one B.1.5-qualified composite Method, or an independently selected A.22 Structure with all four identity discriminators?
+- Is this only selector declaration or result content, or is an actual selection claimed with an acting system, dated Work, actual `Select` application and bindings, and separately governed result and publication objects?
+- Does any consumed Method, claim or selector criterion cross two exact semantic-context projections; if so, where are the obtaining F.9 Bridge, separate `<u,d,r,t,polarity>` claim and matching A.10 or B.3 reliance branch?
+- Which stronger branch is actually current—a new reusable registry row, crossing, evidence/reliance, assurance, stable public identity, or actual publication—and which can remain unopened?
+
+
+
+
+
 
 ### G.5:0.4 - First output
 
 The first useful output from this dispatcher and registry question is one published selector outcome: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff plan, or one abstain or escalation result, with the outcome kind, any public selected-set label, retained members or handoff content, ordering status when relevant, and basis pins stated in one place.
+
+For an ordinary run over already grounded rows, that selector-facing result content is enough. The basis pins may be direct references to the declared grouping, eligibility, and comparison basis, and the same compact record may carry the DRR/SCR-addressable audit refs required by S3. Do not require a fresh registry build, `CrossingAllowance`, evidence graph, assurance claim, stable public id, separate audit package, or E.24.PUB occurrence unless the current use actually needs that stronger object or claim.
+
+
+
+Here “published selector outcome” first means complete selector-facing result content and, when needed, a stable public designator. It is not evidence that selection Work or an actual `Select` application occurred, and it is not an E.24.PUB availability occurrence. Claim actual publication only through the exact selected C.2.1 episteme edition, audience declaration, bounded-use declaration, publication form, presentation carrier, and obtaining `EpistemePublicationRelation`; rendering or uploading Work remains another occurrence.
+
 
 If that first output still cannot be written honestly, the current publication result is not finished `G.5` publication yet.
 
@@ -98562,7 +98796,54 @@ A publication result remains unfinished if the declared outcome kind, any applic
 
 When a framework publishes a selected pattern set, use `G.5` only for the selected-set publication claim: scope, selection conditions, included pattern refs, excluded candidate refs when relevant, publication status, and basis pins. This selected-set claim does not define pattern-use relations, architecture decisions, or framework edition dependencies.
 
+### G.5:0.5 - Minimum ordinary slice and bounded non-use
+
+**Situation.** A pump-maintenance team has two already admitted A.3.1 Methods, `ThresholdTrendReviewMethod-E2` and `SpectralResidualReviewMethod-E1`, behind two existing project-local selector rows. Both rows cite their exact `MethodRef[]` and the declared local basis `PumpTriageCandidateGrouping-E1`. The same `TaskSignatureRef=PumpVibrationTriage-T1` and effective reference scheme apply to both. The task signature requires a 24-hour series input and a 30-minute review budget, and both declared Method interfaces meet those constraints. No admitted comparator justifies ordering one above the other. The live `G.5` question is now how to surface that admissible set, not which pump action a decision-maker should choose.
+
+
+
+The minimum truthful result is:
+
+```text
+GroundedCandidateRows = [
+  { row = ThresholdTrendReview-local,
+    MethodRef = [ThresholdTrendReviewMethod-E2],
+    groupingBasis = PumpTriageCandidateGrouping-E1 },
+  { row = SpectralResidualReview-local,
+    MethodRef = [SpectralResidualReviewMethod-E1],
+    groupingBasis = PumpTriageCandidateGrouping-E1 }
+]
+
+SelectorOutcome(
+
+  selectorOutcomeKind = SetResultOutcome,
+  setResultFamily = Shortlist,
+  members = [ThresholdTrendReview-local, SpectralResidualReview-local],
+  ordering = unordered,
+  basisPins = [PumpTriageEligibility-E1],
+  auditRefs = [DRR-PumpTriage-01, SCR-PumpTriage-01],
+
+  nextUse = maintenance_method_handoff
+
+)
+```
+
+This is a positive `G.5` slice because the exact Methods, rows, grouping bases, task, eligibility basis, survivors, order status, compact audit refs and next use are explicit. It needs no fresh registry row or public `ShortlistId`; the same local senses make F.9 crossing apparatus irrelevant; no reliance or assurance claim is being made; and no E.24.PUB availability occurrence is asserted. The record also stops before claiming dated selection Work or an actual `Select` application. Open those branches only if a later claim actually needs them.
+
+
+**What changes in practice.** The team stops leaving the retained pair implicit in a comparison note and stops saying “the spectral method is best.” It emits one unordered `Shortlist` that another receiver can cite, with the exact survivors and basis visible, while making no local-choice, actual-use, or winning-method claim. A later receiver can request one missing comparator, use the bounded handoff, or open its separately governed decision question without rewriting either Method or inventing a winner.
+
+
+**Near misses and non-use.** Do not use `G.5` merely because several names appear in one list.
+
+- If the candidates are only labels, descriptions, cards, or unresolved references, return to A.3.1 and C.2.1 before dispatch.
+- If the current question is one local choice among already available options, use `C.11`; if it is the policy for retaining or retiring live candidate lines, use `C.19`; if it is enactment planning after choice, use `C.24` and the applicable A.15/A.6 occurrence owners.
+- If the current object is only a composition sketch, keep the S4 template; use B.1.5 only for a qualified composite Method and A.22 only for an independently selected Structure.
+- If no rival candidate set, selector result, narrowed handoff, abstain, or escalation is current, do not open `G.5`.
+- Open F.9, A.10, B.3, stable registry or UTS identity, and E.24.PUB only for an actual crossing, relied-on evidence, assurance claim, reusable identity, or audience-availability claim respectively; their absence does not invalidate the smaller same-scheme selector result.
+
 ### G.5:1 - Problem frame
+
 
 A `CG‑FrameContext` (from **G.1**) and a `SoTA Synthesis Pack@CG‑Frame` (from **G.2**) expose multiple rival, internally coherent **method families** (and sometimes **generator families**) that can plausibly act on the same `EntityOfConcernRef` and ReferencePlane.
 
@@ -98581,7 +98862,8 @@ How to design a **general, auditable dispatcher** that:
 
 * preserves **pluralism** (families from competing Traditions stay disjoint) while remaining **dispatchable** (selection is possible and explainable);
 * does **not embed algorithmic dogma** in the core selector kernel;
-* respects Context boundaries and crossing discipline (Bridge‑only; explicit pins);
+* respects semantic-context boundaries through the complete current crossing path—exact local senses, an obtaining F.9 Bridge, a separate bounded-use proposition, and the appropriate reliance or assurance branch—while treating pins as audit references rather than as the crossing facts;
+
 * produces **set‑valued outcomes** when only partial orders are admissible;
 * cleanly separates:
 
@@ -98593,7 +98875,8 @@ How to design a **general, auditable dispatcher** that:
 
 * **Pluralism vs. forced totalisation.** Many selection regimes are inherently partial-order; forcing a scalar winner often creates inadmissible semantics.
 * **Evidence realism vs. hard gates.** Eligibility and acceptance frequently depend on incomplete evidence; selection must remain auditable under tri-state unknowns.
-* **Reuse vs. leakage.** Cross‑Context reuse is valuable but must be explicit (Bridge with loss notes) and must not silently re‑ground semantics.
+* **Reuse vs. leakage.** Cross‑semantic-context reuse remains valuable, but it starts from exact F.17 local senses and an obtaining F.9 Bridge, then keeps the proposed use, direction, rule, tolerated loss, reliance or assurance, and actual selector use separate. Bridge, CL, loss, registry, bundle, or policy pins cannot silently re-ground semantics.
+
 * **Exploration vs. exploitation.** Dispatch sometimes must probe alternatives under explicit policy envelopes and risk envelopes, but probing must not become an implicit fourth status.
 * **Evolvability vs. churn.** Registries evolve (new families, deprecations, edition bumps); continuity must not be broken by “rename by meaning”.
 
@@ -98654,6 +98937,9 @@ Effective obligations, pins, and triggers are computed by union expansion of the
 
   * `TaskSignatureRef` *(see `G.5:4.2`, S2)*
   * `MethodFamilyId[]` *(registry keys in scope)*
+  * `MethodRef[]` *(exact A.3.1 Methods resolved from every method-bearing registry row in scope)*
+  * `SelectedStructureRef[]?` *(exact independently selected A.22 Structures consumed only when their organization changes this selector use)*
+
   * `GeneratorFamilyId[]?` *(when generator families are in scope)*
   * `PathId[]` *(audit citations for “why” and for evidence)*
   * `PathSliceId[]` *(audit citations for “why” and for evidence)*
@@ -98678,12 +98964,21 @@ G.5 defines the **object-set components** below. Their purpose is to make dispat
 A registry row represents *a family*, not a single implementation. Minimal fields (conceptual, notationally independent):
 
 * `Identity`: `MethodFamilyId`, `ContextId`, lineage and Tradition notes, `UTSRowId` (twin labels where applicable).
+* `Exact method members`: non-empty `MethodRef[]`, each resolving to one `U.Method` already admitted under A.3.1.
+* `Grouping basis`: exact claim, criterion, or direct relation reference that justifies this row's grouping for the current selector use; if no ontic family or membership relation is directly governed, the basis is explicitly project-local and creates none.
+
 * `EligibilityStandardRef`: a typed predicate record (tri‑state per `G.Core`), expressed in CHR and CAL terms and pinned to the relevant editions.
 * `AssuranceProfileRef`: evidence‑lane expectations and assurance-lane pins (SCR‑addressable).
 * `AdmissibilityBindings`: explicit references to the **single** governance card and admissibility gate (`CNSpecRef`, `CGSpecRef`) and to any required admissibility constraints, for example scale and unit admissibility via CSLC.
 * `EvidencePins`: citations to `G.6` (`PathId`, `PathSliceId`) for claims or guarantees where such claims are asserted.
-* `CrossingAllowance`: explicit Bridge and CL allowance pins **only** if cross‑Context operation is claimed.
+* `CrossingAllowance`: references to the exact F.17 endpoint senses, one obtaining F.9 Bridge, the separate C.2.1 bounded-use proposition, and the current A.10 or B.3 reliance basis, plus CL or observed-loss evidence when material, **only** if cross-semantic-context operation is claimed. These are audit references; the field makes none of the referenced facts obtain.
+
+For an actual crossing, first resolve both exact F.17 `SchemeSenseCell` endpoints and establish the two-participant F.9 Bridge under its own predicate profile. Then identify a separate C.2.1 episteme whose exact `EntityOfConcern` is that Bridge and whose ClaimGraph states the proposed use `u`, direction `d`, use-specific rule `r`, tolerated loss `t`, and polarity. For ordinary reliance require the matching current A.10 evidence-provenance relation and local `RelianceDisposition`; when an assurance claim or B.3 material-reliance threshold is current, use B.3's separate assurance branch instead. Observed loss and CL are evidence, defeater or assurance-policy material, not Bridge participants or permission. Authorization and the actual `Select` application remain with their direct owners. A Bridge id, `CrossingAllowance`, registry row, policy pin, `CrossingBundle`, DRR or SCR entry cannot substitute for any step.
+
 * `PolicyHooksRef?`: optional pointers to policy records (not defined here; wired via Extensions).
+
+Here “a registry row represents a family” means that the row is the auditable selector-facing record for one declared grouping. It does not identify the grouped Methods, make a membership relation obtain, or turn a common label, shared description, lineage note, eligibility rule, maturity card, evidence record, or policy into a method-family fact. Changing a row or its `MethodFamilyId` changes the registry artifact; it changes a Method or a separately governed family relation only when that object's direct identity or obtaining rule independently says so.
+
 
 **S1′ — `GeneratorFamily Registry` (design‑time; optional; per CG‑Frame).**
 A registry row for families that generate tasks and environments, and may co-evolve solver families. G.5 carries the registry-entry shape, not the generator semantics:
@@ -98707,6 +99002,15 @@ A notation‑independent selector that:
 * returns one declared selector outcome: most often one set-result outcome such as `Shortlist` or `RankedShortlist`, but sometimes one `SpecialistHandoff`, one other narrowed handoff, one abstain outcome, or one escalation outcome (per `DefaultId.PortfolioMode` and explicit overrides),
 * emits audit records with pins addressable by DRR and SCR records.
 
+For every `MethodFamilyId` consumed here, dereference the row to its exact A.3.1 `MethodRef[]` and grouping basis before admitting the candidate. The selector may compare or return registry rows as auditable selector-facing addresses, but row selection neither creates its Methods nor proves that every listed Method belongs, is admissible, is selected, or will be enacted. An unresolved Method reference or missing grouping basis blocks that row's method-bearing use; it is not repaired by a label, description, UTS identity, policy, or evidence pin.
+
+When a selector consumes an organization among Methods, cite an exact `SelectedStructureRef` only after A.22 has independently identified the `U.Structure` from exact constituents, exact already-obtaining relation occurrences, applied constraints, and one named use frame. G.5 neither supplies those discriminators nor selects the Structure by listing it. If the organization instead constitutes one composite Method, consume the exact A.3.1 Method only after B.1.5 has qualified that candidate from its independent parts and whole-forming basis.
+
+S3 states reusable selector behavior. It does not itself perform selection. For an actual selector use, identify the admitted `U.System` that performed the dated A.15.1 Work under an exact obtaining assignment, the enacted Method, and the actual A.6.1 `Select` application whose effective argument bindings and `SelectionSlot` binding carry the by-value selected set under A.19.SelectorMechanism. The declaration, planned pins, registry rows, policy and `CandidateSet` type create none of those occurrence-side facts.
+
+
+
+
 **S3.A — `TaskFamilySpecializationProfile@Context` (run‑time; conditional).**
 When the real selector question is acquisition of usable specialization on a declared task family, the selector may publish one `TaskFamilySpecializationProfile@Context` for each candidate, one `SpecialistHandoff`, or one narrowed handoff plan. Here `profile` means one selector-time comparison record for bounded specialization, not a new U-kind and not a generic narrative profile. `G.5` carries this selector-time specialization question here; it does not re-govern the adaptation-signature field vocabulary from `C.22.1`.
 
@@ -98717,7 +99021,14 @@ Admission rule for `SpecialistHandoff`: use that handoff kind only when the trut
 When the declared task family is heterogeneous, the selector may return one `SpecialistHandoff`, one other narrowed handoff plan, or one small admissible set that preserves rival specialists rather than collapsing them into a fake single winner. Low-human-overlap candidates remain admissible only when the profile, evidence basis, and policy constraints are explicit.
 
 **S4 — `Composition and fallbacks` templates (design‑time).**
-A library of composition shapes (preconditioner -> solver -> verifier; cascades; meta-selectors) **as templates**, admissibility-checked and pinned. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template, selector relation, registry row, or selected-set result. When the current object is the method-side relation itself, use `MethodRelationStructure@BoundedContext` under `A.3.1`, `A.3.2`, `A.15`, or the direct method-composition pattern; a G.5 registry row or selector outcome is not that structure by default. Algebraic, graph, matrix, embedding, or neural selector notation is a mathematical or representation lens when that representation is current.
+A library of composition shapes—`preconditioner -> solver -> verifier`, cascades, and meta-selectors—remains available **as design-time templates**, admissibility-checked and pinned. A template is a description or policy-bound arrangement for possible composition; its existence, diagram order, registry placement, or selection does not create a Method, `methodPartOf` occurrence, obtaining relation, or selected Structure.
+
+If exact A.3.1 Methods, exact B.1.5 `methodPartOf` occurrences, all other required whole-forming claims and constraints, whole semantics, interface boundary, and reidentification rule qualify one already identified candidate as a composite `U.Method`, consume that exact Method through the B.1.5 branch. If independently identified Methods and already-obtaining relations are instead organized for one use without constituting one Method, consume an independently selected A.22 `U.Structure` only after its exact constituents, selected obtaining relation occurrences, applied constraints, and named selection-use frame are present. `MethodRelationStructure` may remain a local readable designator for that actually selected Structure; it is not a U-kind, relation kind, Method holon, registry-row identity, or generic `@BoundedContext` object.
+
+A C.2.1 episteme may describe either governed object. A.3.2 applies only when the episteme's exact `EntityOfConcern` is one already admitted Method and its claims substantively describe that Method; an episteme whose exact concern is the selected Structure is not thereby a `U.MethodDescription`. Concrete strategy semantics stay in the referenced method families; G.5 only carries the composition template, selector relation, registry row, exact consumed Method or Structure reference, or selected-set result. None of those G.5 artifacts supplies the B.1.5 or A.22 construction facts.
+
+Algebraic, graph, matrix, embedding, or neural selector notation remains a mathematical or representation lens when that representation is current; use C.29 for its correspondence and preserved-or-lost structure rather than reading notation as composition or selection.
+
 
 **S5 — `Publication and telemetry` record boundary (run-time).**
 A standard publication boundary publishes:
@@ -98725,6 +99036,9 @@ A standard publication boundary publishes:
 * `DRR` (decision rationale) and `SCR` (evidence and confidence citation) with explicit pins,
 * declared selector and selected-set records,
 * telemetry pins to refresh orchestration (`G.11`), without governing orchestration.
+
+S5 governs the selector-facing record boundary, not truth or actuality by record existence. A DRR, SCR, selected-set record, shortlist id, telemetry event, refresh cue, policy pin, or result label does not create dated Work, an actual operation application, the selected-set binding, a domain result, an evidence-provenance relation, assurance, authorization, or publication availability. Persist a selector-result claim as its own C.2.1 episteme when another use must rely on it; connect evidence through A.10, assurance through B.3, authorization through its direct governor, and actual availability through E.24.PUB only when each relation independently obtains.
+
 
 When the current publication question is selected-set publication rather than one generic registry trace, `Shortlist` is the public selected-set label, `RankedShortlist` is the ordered specialization when order materially belongs to the published result, `ShortlistId` is the emitted public identity, and `ChoiceSet` stays one mathematical gloss rather than the public selected-set label.
 
@@ -98741,17 +99055,25 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 
 | Selector relation                 | Consumes                                                                                                                                                     | Produces                                                                                                                                                                                                                                                   |
 | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **G.5‑1 RegisterFamily**          | `SoTA` family cards (from `G.2`), CHR and CAL pins (from `G.3` and `G.4`), `CNSpecRef.edition`, `CGSpecRef.edition`, `ContextId`                                       | A `MethodFamily` registry row (`MethodFamilyId`, `EligibilityStandardRef`, `AssuranceProfileRef`, `UTSRowId`, pinned refs)                                                                                                                                 |
+| **G.5‑1 RegisterFamily**          | `SoTA` family card (from `G.2`), non-empty exact already admitted A.3.1 `MethodRef[]`, exact independently governed classification or membership-relation ref or explicit project-local grouping criterion, CHR and CAL pins (from `G.3` and `G.4`), `CNSpecRef.edition`, `CGSpecRef.edition`, `ContextId` | A `MethodFamily` registry row (`MethodFamilyId`, `MethodRef[]`, `GroupingBasisRefOrCriterion`, `EligibilityStandardRef`, `AssuranceProfileRef`, `UTSRowId`, pinned refs). The G.2 card and CHR/CAL/spec/context pins are metadata or evidence inputs and cannot supply either the exact Methods or the grouping fact. |
 | **G.5‑2 RegisterGeneratorFamily** | `SoTA` generator family cards (from `G.2`), `ContextId`, pinned refs (including `TransferRulesRef.edition` when applicable)                                  | A `GeneratorFamily` registry row (`GeneratorFamilyId`, `GeneratorSignatureRef`, `UTSRowId`, pinned refs)                                                                                                                                                   |
-| **G.5-3 Select**                  | `TaskSignatureRef`, `MethodFamilyId[]` (in scope), pinned `CNSpecRef` and `CGSpecRef` editions, policy refs if any, audit citation pins (`PathId` and `PathSliceId`) | `CandidateSet` (set-returning), declared selector result with `PortfolioMode` recorded, `DRR` and `SCR` pins; if no admissible candidate exists: return `CandidateSet = EMPTY` plus an escalation hint (`ActionHint`) and the pins required to plan next steps (P2W split applies) |
+| **G.5-3 Select**                  | `TaskSignatureRef`, `MethodFamilyId[]` in scope whose rows dereference to non-empty exact A.3.1 `MethodRef[]` and exact grouping bases, pinned `CNSpecRef` and `CGSpecRef` editions, policy refs if any, audit citation pins (`PathId` and `PathSliceId`) | `CandidateSet` (set-returning), declared selector result with `PortfolioMode` recorded, `DRR` and `SCR` pins; if no admissible candidate exists: return `CandidateSet = EMPTY` plus an escalation hint (`ActionHint`) and the pins required to plan next steps (P2W split applies) |
 | **G.5-4 Compose**                 | `CandidateSet`, composition template refs, pinned admissibility constraints                                                                                       | Composite strategy template (template-level; admissibility-checked; pinned)                                                                                                                                                                                      |
 | **G.5‑5 Telemetry**               | run outcomes, citations, and policy or edition pins                                                                                                               | refresh cues (typed RSCR causes and payload pins), parity deltas (if parity harness is in use), telemetry pins (selector‑side; orchestration governing definition is `G.11`)                                                                                              |
+
+`RegisterFamily` produces only the registry row described in S1. It does not produce any A.3.1 Method or independently governed membership fact. `Select` may address candidates through those rows only after their exact Methods and grouping bases resolve; its returned candidate or selected-set value does not retroactively ground a row member.
+
+`Compose` produces only the pinned template named in its output column. It neither qualifies one composite Method under B.1.5 nor selects one A.22 Structure. When a later selector use consumes either governed object, the exact Method or Structure reference is an independently grounded input rather than a result inferred from this template.
+
+
 
 #### G.5:4.4a - Worked selector slice
 
 - A catalyst-search team is choosing among three method families for the same declared `TaskSignature` and `C.22.1` adaptation signature.
 - The shared profile pins one work-measure threshold target, one freshness window, one prior-exposure declaration, and one adaptation budget. One family reaches threshold quickly but carries high downside on adjacent tasks. One family is slower but transfers cleanly. One family never clears `MinimalEvidence` and must abstain.
 - An admissible `G.5` result therefore publishes a set-return shortlist or a narrowed handoff plan, with DRR and SCR records citing why the third family was excluded and why the first two remain non-dominated. The selector does not invent one scalar winner and does not hide the specialization profile in auxiliary side notes.
+- If the project also claims that this selection actually occurred, it separately identifies the acting system, dated selection Work, actual `Select` application, effective candidate and criteria bindings, and the `SelectionSlot` binding. A persisted shortlist assertion is a separate C.2.1 episteme; its DRR or SCR references do not by themselves prove the exclusion facts, warrant the result, authorize downstream action, or make that episteme available to an audience.
+
 - When one upstream `C.19` pass has already narrowed the live pool to one internal retained subset over registered families, `G.5` may publish that result as one `Shortlist` with one `ShortlistId` and explicit basis pins only when selector-facing publication is now the question. Until that emission occurs, the internal retained subset is not yet one public shortlist result.
 - When one upstream `C.11` pass has already fixed one local choice over one declared source set, or one `C.24` pass has already produced one enactment-facing narrowed handoff, `G.5` may publish the selected-set or narrowed-handoff result only when selector-facing publication is now the question. Until this `G.5` emission occurs, the `ChoiceResult`, `CallPlan`, or `CheckpointReturn` is not itself one public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing result.
 
@@ -99051,7 +99373,8 @@ Potential biases and failure modes this pattern explicitly guards against:
 * **Monoculture bias (single Tradition dominance by default).** Mitigation: registry requires explicit eligibility and assurance records; selection is set‑returning under partial orders; method‑specific policies stay explicit pins rather than hard-coded defaults.
 * **Hidden scalarisation bias.** Mitigation: set-return semantics is pinned through `G.Core`; dominance regimes are explicit and each default cites one declared governing definition.
 * **“Tool equals method” bias.** Mitigation: notation independence and prohibition of tool keywords in core registry and eligibility fields; tool choices are outside the core.
-* **Cross‑Context leakage bias.** Mitigation: explicit crossing pins only; Bridge and CL are required when crossings occur; no implicit crossings.
+* **Cross‑Context leakage bias.** Mitigation: require exact F.17 endpoint senses, an obtaining F.9 Bridge, a separate C.2.1 bounded-use proposition and the matching A.10 or B.3 reliance branch; keep loss and CL visible where material. Crossing pins and bundles remain audit or publication references and cannot make an implicit crossing admissible.
+
 * **Survivorship bias in refresh.** Mitigation: RSCR triggers are typed and id-based; freshness, decay, and telemetry deltas are first‑class causes with canonical ids.
 
 ### G.5:7 - Conformance Checklist (normative)
@@ -99062,7 +99385,8 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.0`       | Core standards **SHALL** remain notation‑independent; vendor or tool keywords are forbidden in registry, eligibility, assurance, or selector‑kernel obligations (E.5.*). |
 | `CC‑G5.1`       | Every `MethodFamily` **SHALL** declare an `EligibilityStandardRef` using CHR and CAL terms (typed; edition‑pinned where applicable). Standards **SHALL NOT** rely on tool‑specific keywords.  |
 | `CC-G5.2`       | Selection **SHALL** be a pure function of `TaskSignatureRef` and pinned policy or edition refs; side effects are limited to emitting DRR and SCR pins, telemetry triggers, and RSCR triggers (no hidden mutation of constraint-bearing spec refs). |
-| `CC‑G5.3`       | **Delegated (ID‑continuity).** Cross‑Context use **MUST** follow `G.Core` crossing visibility and penalty assignment semantics. **Delegation targets:** `CC‑GCORE‑CROSS‑1`, `CC‑GCORE‑PEN‑1`.  |
+| `CC‑G5.3`       | **Delegated (ID‑continuity) plus F.9 use boundary.** Cross-semantic-context use **MUST** resolve exact F.17 senses, an obtaining F.9 Bridge, a separate C.2.1 `<u,d,r,t,polarity>` proposition and the matching A.10 or B.3 reliance branch. G.Core crossing visibility and penalty-assignment semantics still apply. **Delegation targets:** `CC‑GCORE‑CROSS‑1`, `CC‑GCORE‑PEN‑1`. Pins alone **MUST NOT** establish the Bridge, use, reliance or actual selector application. |
+
 | `CC‑G5.4`       | **Default rule for** `DefaultId.GammaFoldForR_eff`. The selector **MUST** default to the weakest‑link rule for `R_eff` and record contributors in SCR; it **MAY** use an alternative Γ‑fold only when provided by an explicitly pinned policy or profile with proof obligations satisfied (monotonicity; boundary behavior). |
 | `CC-G5.5`       | Ordinal scales **MUST NOT** be averaged or subtracted; any aggregation or comparison must respect CHR scale typing and admissibility constraints, including CSLC where applicable. |
 | `CC‑G5.6`       | Method and generator family identities **SHALL** be published to UTS with the required naming discipline (twin labels where applicable; deprecations follow lexical continuity rules). *(Core conformance applies; `G.5` adds the registry‑specific publication obligation.)* |
@@ -99087,7 +99411,8 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.24`      | **Conditional (Open‑Ended).** If `G.5:Ext.OpenEndedFamilyWiring` is present, the selector **MUST** return declared sets of `{Environment, MethodFamily}` pairs as set‑valued outcomes under explicit pins. |
 | `CC‑G5.25`      | **Conditional (Open‑Ended).** In Open‑Ended mode, `TransferRulesRef.edition` is mandatory and **MUST** be visible to telemetry and RSCR triggers.  |
 | `CC-G5.26`      | **Conditional (Archive and QD).** Within any archive niche or cell, ordering and tie-breaks **MUST** remain admissible over compatible scales; inadmissible mixed-scale weighted sums are forbidden. |
-| `CC‑G5.27`      | If the selector cites any `GateCrossing`, the corresponding `CrossingBundle` publication **MUST** be present and conformant; missing or non‑conformant `CrossingBundle` blocks downstream consumption. |
+| `CC‑G5.27`      | If the selector cites any `GateCrossing`, the corresponding `CrossingBundle` publication **MUST** be present and conformant; missing or non‑conformant `CrossingBundle` blocks downstream consumption. The bundle packages already governed crossing evidence for that named use; it **MUST NOT** create the F.17 endpoints, F.9 Bridge, bounded-use proposition, A.10/B.3 reliance, gate decision, authorization, or actual selector use. |
+
 | `CC‑G5.28`      | **Default rule for** `DefaultId.DominanceRegime`. `DominanceRegime` **SHALL** default to `ParetoOnly`. Any inclusion of additional telemetry dimensions into dominance (e.g., illumination) requires an explicitly pinned acceptance or policy record and must be recorded in audit pins. **Parity‑run publication (CC‑G5.23a) remains mandatory** irrespective of dominance policy. |
 | `CC-G5.29`      | **Conditional (QD and Open-Ended).** Any telemetry event that materially changes an archive state or retained-set state **MUST** log `PathSliceId`, the active policy id, and the active editions of the relevant definition pins (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `TransferRulesRef.edition` when applicable) and expose them to RSCR triggers. |
 | `CC‑G5.30`      | **No Strategy minting.** Within `G.5`, “strategy” is a policy‑bound composition template; the pattern **SHALL NOT** mint a durable U-kind named `Strategy` (E.10 and E.24.UK discipline). If a stable reference is needed, publish composition and policy ids (e.g., UTS entries) rather than minting a universal kind. |
@@ -99100,6 +99425,16 @@ Potential biases and failure modes this pattern explicitly guards against:
 | `CC‑G5.36`      | **Neighboring-pattern boundary.** If the current question is still local choice among already-available options, pool policy over still-live candidate lines, or enactment planning after choice, `G.5` **MUST** consume the published result from `C.11`, `C.19`, or `C.24` rather than restating those patterns as if publication itself decided the matter. |
 | `CC‑G5.37`      | **Derived tradition-view publication discipline.** If the selector publishes one result through a derived tradition view such as `TraditionFront` or `TraditionArchive`, it **MUST** keep the declared base `SourceSetFamily` explicit, keep `SoTAPaletteDescription` recoverable through `BasePaletteRef`, and **MUST NOT** let the derived view become the default meaning of `Tradition`, `TraditionPalette`, or the base palette. |
 | `CC‑G5.38`      | **Causal method dispatch declarations.** If method selection involves causal methods, each compared method **MUST** declare `causalMethodUseClassification` as observational predictor, intervention optimizer, counterfactual strategy, causal fairness estimator, causal-RL policy, or simulation-only method, and **MUST** carry `causalUseSupportRecordRef` and `causalUseSupportVerdict` when it consumes `C.28` causal-use support rather than treating method dispatch as causal certification. |
+| `CC-G5.39`      | **Method grounding and grouping boundary.** Every method-bearing registry row **MUST** resolve its non-empty `MethodRef[]` to exact A.3.1 Methods and cite the independently governed classification, membership relation, or explicit project-local grouping criterion used by this selector. A row, id, label, description, family card, eligibility or maturity record, policy, evidence pin, shortlist, or publication **MUST NOT** create a Method or membership fact. Missing grounding blocks that row's method-bearing use. |
+| `CC-G5.40`      | **Composition and selected-structure boundary.** A composition shape **MUST** remain a template unless one already identified A.3.1 Method separately passes B.1.5's complete composite-method qualification. An organization that does not constitute one Method **MUST** be consumed as an A.22 `U.Structure` only after all four A.22 identity discriminators are present. A template, A.3.2 description, registry row, selector outcome, diagram, label, or notation **MUST NOT** create either governed object or its underlying relations. |
+| `CC-G5.41`      | **Declaration, actuality, result and publication boundary.** A registry, selector, policy, template, shortlist, DRR, SCR, telemetry or publication-content declaration **MUST NOT** be treated as dated Work, an actual A.6.1 `Select` application or binding, a domain-result truth, C.2.1 result episteme, A.10 evidence relation, B.3 assurance claim, authorization, or E.24.PUB publication occurrence. Every claimed actual object or relation **MUST** be recovered under its direct owner; missing actuality blocks only that stronger claim. |
+| `CC-G5.42`      | **Crossing completeness.** A cross-semantic-context selector use **MUST NOT** proceed from Bridge, CL, loss, registry, policy, `CrossingAllowance`, `GateCrossing`, `CrossingBundle`, DRR or SCR pins alone. It requires exact F.17 endpoint senses, an obtaining F.9 Bridge, a separate C.2.1 bounded-use proposition and the matching A.10 reliance disposition or B.3 assurance branch; authorization and the actual selector application remain separate. |
+| `CC-G5.43`      | **Ordinary-use proportionality.** A bounded selector run over already grounded rows **MUST** be usable from the exact task, Methods and grouping bases, declared eligibility or comparison basis, truthful outcome, members, ordering status, basis refs and next use. It **MUST NOT** demand a fresh registry build, crossing branch, A.10/B.3 claim, stable public identity or E.24.PUB occurrence unless that stronger object or claim is current. Missing conditional apparatus blocks only the stronger claim. |
+
+
+
+
+
 
 ### G.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -99108,8 +99443,9 @@ Potential biases and failure modes this pattern explicitly guards against:
   *Avoid:* govern constraint semantics through `CNSpecRef` and `CGSpecRef` plus pinned CAL records; keep G.5 core as a boundary.
 
 * **Anti‑pattern: “Implicit crossings.”**
-  *Symptom:* cross‑Context reuse is claimed without Bridge and CL pins, or without cited `CrossingBundle`.
-  *Avoid:* require explicit crossing pins; block consumption without publication.
+  *Symptom:* cross‑semantic-context reuse is claimed from a shared label, Bridge or CL pin, registry row, policy, DRR/SCR line, `GateCrossing`, or `CrossingBundle` without the governed relation, use and reliance facts.
+  *Avoid:* resolve the exact F.17 endpoint senses; establish the F.9 Bridge; state the separate C.2.1 `<u,d,r,t,polarity>` claim; require the matching A.10 disposition or B.3 assurance branch; and keep authorization and actual selector use separate. Materialize or cite a bundle only when its named downstream use requires that durable package.
+
 
 * **Anti‑pattern: “Hidden scalarisation.”**
   *Symptom:* partial orders are flattened into single winners “for convenience”.
@@ -99171,9 +99507,16 @@ Evidence-source clarification: peer-reviewed source references carry the most di
 **Uses (conceptual dependencies; cited via pins and ids):**
 
 * Governing spec refs: `A.19 (CN‑Spec)`, `G.0 (CG‑Spec)`.
+* Method identity and family grouping: `A.3.1` for every exact selectable `U.Method`; `A.3.2` only for the same C.2.1 episteme that substantively describes one already admitted Method; and C.2.1 or the exact direct family-relation owner for the grouping claim that a registry row cites. G.5 creates none of those source facts.
+* Method composition and selected organization: `B.1.5` for the complete composite-Method qualification, `A.22` for an independently selected organization that does not constitute one Method, and `C.29` for algebraic, graph, matrix, embedding, neural, or other representation-lens use. G.5 consumes exact resulting references and does not construct them.
+
+
 * Upstream object sets: `G.1 (CG‑Frame Card)`, `G.2 (SoTA Pack)`, `G.3 (CHR Pack)`, `G.4 (CAL Pack)`.
-* Evidence and crossings: `G.6` (EvidenceGraph; `PathId` and `PathSliceId`), `G.7` (Bridge and CL calibration), `E.18` and `A.21` (CrossingBundle and GateChecks).
+* Evidence and crossings: `G.6` for EvidenceGraph citations; `F.17` for exact local senses; `F.9` for the direct Bridge; C.2.1 for the separate bounded-use proposition; and `A.10` or `B.3` for reliance or assurance. `E.18` and `A.21` govern a `CrossingBundle` or GateCheck only when that named downstream use requires one. Any G.7 calibration artifact remains a cited policy or evidence input rather than the owner of Bridge, bounded use, reliance or selector actuality.
+
 * Planning and enactment boundary: `A.15.3 (SlotFillingsPlanItem)` as the plannedBaselineRef (cited, not redefined).
+* Actual selector use and result availability: `A.19.SelectorMechanism` and A.6.1 for the actual `Select` application and bindings; `A.15.1` for dated selection Work by an admitted system under an obtaining assignment; C.2.1 for any persisted result episteme; `A.10` and `B.3` for evidence reliance and assurance; the direct authority pattern for authorization; and `E.24.PUB` for an actual publication occurrence. G.5 declarations and records create none of those neighboring facts.
+
 * Causal-use method dispatch: `C.28` when method selection involves causal effect, counterfactual comparison, causal fairness, causal policy, causal RL, or simulation-only causal-use claims.
 * Optional method or generator extensions through `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus extension-bearing patterns admitted by a governing Part G relation when they add extra selector pins.
 * Mathematical-lens use: apply `C.29` when a selector input depends on a claim-relevant comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis whose mathematical object, mapping mode, preserved or lost structure, or stop condition is not yet recoverable. `C.29` may return no math-lens use, a lens-candidate note, a one-line note, a mini-card, a full card, or a note naming the direct governing pattern for the stated selector use. It does not publish the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; those stay in `G.5` and its governing refs.
