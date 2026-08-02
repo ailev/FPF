@@ -8,7 +8,7 @@ title: "Thinking-Oriented Architecture, Not A Descriptive Upper Ontology"
 part: "[[00_Hubs/FPF - Preface (non-normative)]]"
 parents:
   - "[[00_Hubs/FPF - Preface (non-normative)]]"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 982
   - 999

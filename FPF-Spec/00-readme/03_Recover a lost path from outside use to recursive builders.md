@@ -8,7 +8,7 @@ title: "Recover a lost path from outside use to recursive builders"
 part: "[[00_Hubs/FPF - First Principles Framework (FPF) Readme]]"
 parents:
   - "[[00_Hubs/FPF - First Principles Framework (FPF) Readme]]"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 674
   - 679

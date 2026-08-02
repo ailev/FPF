@@ -5,7 +5,7 @@ context:
 page_type: "fpf-part"
 mode: "index-generated"
 title: "Part E – The FPF Constitution and Authoring Guides"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 68953
   - 88641
@@ -17,7 +17,7 @@ generated: true
 
 # Part E – The FPF Constitution and Authoring Guides
 
-Source lines: `68953-88641` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `68953-88641` in `FPF-Spec.md`.
 
 ## Pages
 

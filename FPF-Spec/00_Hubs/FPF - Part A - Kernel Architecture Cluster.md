@@ -5,7 +5,7 @@ context:
 page_type: "fpf-part"
 mode: "index-generated"
 title: "Part A - Kernel Architecture Cluster"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 1190
   - 9223
@@ -17,7 +17,7 @@ generated: true
 
 # Part A - Kernel Architecture Cluster
 
-Source lines: `1190-9223` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `1190-9223` in `FPF-Spec.md`.
 
 ## Pages
 

@@ -8,7 +8,7 @@ title: "Transdisciplinarity As A Meta-Theory Of Thinking"
 part: "[[00_Hubs/FPF - Preface (non-normative)]]"
 parents:
   - "[[00_Hubs/FPF - Preface (non-normative)]]"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 1109
   - 1118

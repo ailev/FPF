@@ -5,7 +5,7 @@ context:
 page_type: "fpf-hub"
 mode: "index-generated"
 title: "Preface (non-normative)"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 775
   - 1189
@@ -17,7 +17,7 @@ generated: true
 
 # Preface (non-normative)
 
-Source lines: `775-1189` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `775-1189` in `FPF-Spec.md`.
 
 ## Pages
 

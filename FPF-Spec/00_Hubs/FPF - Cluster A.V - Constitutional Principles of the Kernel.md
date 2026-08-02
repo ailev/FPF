@@ -5,7 +5,7 @@ context:
 page_type: "fpf-cluster"
 mode: "index-generated"
 title: "Cluster A.V - Constitutional Principles of the Kernel"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 21358
   - 35171
@@ -17,7 +17,7 @@ generated: true
 
 # Cluster A.V - Constitutional Principles of the Kernel
 
-Source lines: `21358-35171` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `21358-35171` in `FPF-Spec.md`.
 
 ## Pages
 

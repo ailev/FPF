@@ -5,7 +5,7 @@ context:
 page_type: "master-index"
 mode: "index-generated"
 title: "FPF - Index"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 generated_on: "2026-08-02"
 generated: true
 ---

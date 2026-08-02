@@ -5,7 +5,7 @@ context:
 page_type: "fpf-cluster"
 mode: "index-generated"
 title: "Cluster A.IV.A - Signature Stack & Boundary Discipline (A.6.\\*)"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 9224
   - 21357
@@ -17,7 +17,7 @@ generated: true
 
 # Cluster A.IV.A - Signature Stack & Boundary Discipline (A.6.\*)
 
-Source lines: `9224-21357` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `9224-21357` in `FPF-Spec.md`.
 
 ## Pages
 

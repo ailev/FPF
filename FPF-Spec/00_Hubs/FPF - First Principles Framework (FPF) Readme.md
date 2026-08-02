@@ -5,7 +5,7 @@ context:
 page_type: "fpf-readme-hub"
 mode: "index-generated"
 title: "First Principles Framework (FPF) Readme"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 396
   - 774
@@ -17,7 +17,7 @@ generated: true
 
 # First Principles Framework (FPF) Readme
 
-Source lines: `396-774` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `396-774` in `FPF-Spec.md`.
 
 ## Pages
 

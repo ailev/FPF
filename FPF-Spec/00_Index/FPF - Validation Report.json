@@ -38,7 +38,7 @@
       "target": "A.6.2-A.6.4"
     }
   ],
-  "source": "/Users/am/Documents/My_Repos/FPF-obsidianized/FPF-Spec-original/FPF-Spec.md.breaks.my.obsidian.bak",
-  "out_dir": "/Users/am/Documents/My_Repos/FPF-obsidianized/FPF-Spec",
+  "source": "FPF-Spec.md",
+  "out_dir": "FPF-Spec",
   "generated_on": "2026-08-02"
 }

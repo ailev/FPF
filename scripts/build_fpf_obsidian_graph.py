@@ -764,7 +764,7 @@ def build(source: Path, out_dir: Path, clean: bool) -> dict:
     (index_dir / "FPF - Relation Index.md").write_text(render_relation_index(pages, id_to_page), encoding="utf-8")
     (index_dir / "FPF - Term Index.md").write_text(render_term_index(pages), encoding="utf-8")
     report = validate(out_dir, hubs, pages, id_to_page)
-    report.update({"source": str(source), "out_dir": str(out_dir), "generated_on": date.today().isoformat()})
+    report.update({"source": source.name, "out_dir": out_dir.name, "generated_on": date.today().isoformat()})
     (index_dir / "FPF - Validation Report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
     return report
 

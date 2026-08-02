@@ -5,7 +5,7 @@ context:
 page_type: "fpf-part"
 mode: "index-generated"
 title: "Part D - Multi-scale Ethics and Conflict Optimization"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 68218
   - 68952
@@ -17,7 +17,7 @@ generated: true
 
 # Part D - Multi-scale Ethics and Conflict Optimization
 
-Source lines: `68218-68952` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `68218-68952` in `FPF-Spec.md`.
 
 ## Pages
 

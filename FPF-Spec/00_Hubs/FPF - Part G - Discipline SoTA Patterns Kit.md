@@ -5,7 +5,7 @@ context:
 page_type: "fpf-part"
 mode: "index-generated"
 title: "Part G – Discipline SoTA Patterns Kit"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 96139
   - 102804
@@ -17,7 +17,7 @@ generated: true
 
 # Part G – Discipline SoTA Patterns Kit
 
-Source lines: `96139-102804` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `96139-102804` in `FPF-Spec.md`.
 
 ## Pages
 

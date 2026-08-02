@@ -5,7 +5,7 @@ context:
 page_type: "fpf-part"
 mode: "index-generated"
 title: "Part F — The Unification Suite (U-Suite): Concept-Sets, SenseCells & Contextual Role Assignment"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 88642
   - 96138
@@ -17,7 +17,7 @@ generated: true
 
 # Part F — The Unification Suite (U-Suite): Concept-Sets, SenseCells & Contextual Role Assignment
 
-Source lines: `88642-96138` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `88642-96138` in `FPF-Spec.md`.
 
 ## Pages
 

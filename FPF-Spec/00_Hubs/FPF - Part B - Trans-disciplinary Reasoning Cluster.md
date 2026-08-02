@@ -5,7 +5,7 @@ context:
 page_type: "fpf-part"
 mode: "index-generated"
 title: "Part B — Trans-disciplinary Reasoning Cluster"
-source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
+source_file: "FPF-Spec.md"
 source_lines:
   - 35172
   - 40854
@@ -17,7 +17,7 @@ generated: true
 
 # Part B — Trans-disciplinary Reasoning Cluster
 
-Source lines: `35172-40854` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `35172-40854` in `FPF-Spec.md`.
 
 ## Pages
 
