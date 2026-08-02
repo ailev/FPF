@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Generate an Obsidian-native knowledge graph from FPF-Spec.md.
+"""Generate an Obsidian-native knowledge graph from an FPF-Spec.md source.
+
+The monolithic source is intentionally not bundled with this repository. Pass
+an explicit path to FPF-Spec.md from an upstream checkout or temporary copy.
 
 Design:
 - H1 sections become hub/index pages.
@@ -10,7 +13,7 @@ Design:
   normativity, terms, and extracted relations.
 
 Run from the FPF repo root:
-    scripts/build_fpf_obsidian_graph.py --source FPF-Spec-original/FPF-Spec.md.breaks.my.obsidian.bak --out FPF-Spec --clean
+    scripts/build_fpf_obsidian_graph.py --source /path/to/FPF-Spec.md --out FPF-Spec --clean
 """
 from __future__ import annotations
 
@@ -768,7 +771,7 @@ def build(source: Path, out_dir: Path, clean: bool) -> dict:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate Obsidian graph from FPF-Spec.md")
-    parser.add_argument("--source", default="FPF-Spec-original/FPF-Spec.md.breaks.my.obsidian.bak")
+    parser.add_argument("--source", required=True, help="Path to the upstream FPF-Spec.md source")
     parser.add_argument("--out", default="FPF-Spec")
     parser.add_argument("--clean", action="store_true")
     args = parser.parse_args()
