@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPF Design Challenge"
+  short_description: "Challenge a design with bounded FPF evidence"
+  default_prompt: "Use $fpf-design-challenge to challenge this proposal with relevant FPF patterns."

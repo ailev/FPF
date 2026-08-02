@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPF Applicability Scan"
+  short_description: "Find relevant FPF patterns without full-spec reading"
+  default_prompt: "Use $fpf-applicability-scan to identify which FPF patterns apply to this question."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPF Alignment Audit"
+  short_description: "Audit implemented work with bounded FPF evidence"
+  default_prompt: "Use $fpf-alignment-audit to audit this implemented work against relevant FPF patterns."
