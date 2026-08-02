@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - am/dev
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: validate
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile scripts
+        run: PYTHONDONTWRITEBYTECODE=1 python3 -m py_compile scripts/*.py
+      - name: Validate projection and skills
+        run: PYTHONDONTWRITEBYTECODE=1 python3 scripts/validate_repository.py
+
+  auto-merge-owner-pr:
+    name: auto-merge owner PR
+    needs: validate
+    if: >-
+      ${{ github.event_name == 'pull_request' &&
+          github.event.pull_request.user.login == 'anatoly-m-maslennikov' &&
+          github.event.pull_request.head.repo.full_name == github.repository &&
+          github.event.pull_request.head.ref == 'am/dev' &&
+          github.event.pull_request.base.ref == 'main' &&
+          !github.event.pull_request.draft }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Merge validated owner PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: gh pr merge "$PR_NUMBER" --repo "$GH_REPO" --merge --match-head-commit "$HEAD_SHA"
