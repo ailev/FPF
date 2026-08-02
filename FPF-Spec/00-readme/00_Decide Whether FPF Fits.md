@@ -10,10 +10,10 @@ parents:
   - "[[00_Hubs/FPF - First Principles Framework (FPF) Readme]]"
 source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
 source_lines:
-  - 399
-  - 445
+  - 412
+  - 460
 status: "generated"
-generated_on: "2026-07-14"
+generated_on: "2026-08-02"
 generated: true
 ---
 
@@ -53,7 +53,9 @@ Core ideas in plain language:
 - architecture is structure of that holon or project object in a context, not the diagram, document, approval, or plan about it;
 - serious architecture work can move from problem pressure to candidate structures, selected structures, decisions, method and work, actual structures, and feedback;
 - when the current question is which reusable way of doing changes, produces, derives, selects, controls, or preserves the project object under stated conditions, inspect `A.3.1 U.Method`; a strategy name, procedure text, program, plan, dated run, mechanism, or evidence record does not answer that method question by its label or form;
-- when an accepted `ProblemCard@Context` claim must remain usable while the project selects a method, prepares or performs work, interprets a result, branches, stops, or returns after a changed assumption, inspect `E.18.1 P2W Problem-to-Work Carry-Through`; it carries that claim into one next value or relation governed by its direct pattern rather than prescribing one universal workflow;
+- when one already-selected direct-kind method, model, formalism, assurance technique, ontology, or other apparatus is current and its setup/application cost must earn one declared use, inspect [[C_Kernel Extension Specifications/07_19_Explore-Exploit Live-Pool Governor/02_C.19.02 - Use-Bounded Apparatus Application|C.19.2]]; it governs one bounded application to a separately governed problem-facing result and guarantee. Open [[C_Kernel Extension Specifications/06_18_Open-Ended Search Archive and Front Stewardship/00_C.18 - Open-Ended Search Archive and Front Stewardship|C.18]] only when an adequate candidate must be generated or reframed, and [[C_Kernel Extension Specifications/02_11_Decision Theory (Decsn-CAL)/00_C.11 - Decision Theory (Decsn-CAL)|C.11]] only when two or more eligible alternatives make a real local choice current;
+- when a clear engineering claim produces a wrong action, identity, dependence, obtaining, responsibility, or projection consequence, inspect [[A_Kernel Architecture Cluster/07_Strict Distinction (Clarity Lattice)/01_A.07.01 - Consequence-Guided Ontological Problem Solving|A.7.1]]; when current FPF uses produce incompatible consequences for the same receiving claim and scope, inspect [[A_Kernel Architecture Cluster/07_Strict Distinction (Clarity Lattice)/02_A.07.02 - FPF Ontology-Premise Reconciliation|A.7.2]]. In either route, keep the method episteme, admitted performer, dated work, returned direct-owner result, and one result episteme distinct: the local disposition is a value in that result, not its kind, and [[A_Kernel Architecture Cluster/07_Strict Distinction (Clarity Lattice)/02_A.07.02 - FPF Ontology-Premise Reconciliation|A.7.2]] need not converge;
+- when an accepted [[C_Kernel Extension Specifications/10_22_Task Typing and TaskSignature Assignment (Problem-CHR)/03_C.22.02 - ProblemCard|C.22.2]] `ProblemCard` episteme must remain usable while the project selects a method, prepares or performs work, interprets a result, branches, stops, or returns after a changed assumption, inspect `E.18.1 P2W Problem-to-Work Carry-Through`; it carries the accepted problem-side distinctions into one next value or relation governed by its direct pattern rather than prescribing one universal workflow;
 - when a route-like explanation has several candidate positions and proposed relations or constraints that may change which continuations remain admissible, use it as a `ProvisionalUnfoldingDemonstrationDescription@Context` while any [[A_Kernel Architecture Cluster/22_Structure and Structural Views (STRUCT-CAL)/01_A.22.CGUS - Constraint-Governed Unfolding Structure|A.22.CGUS]] admission coordinate remains unresolved; after the wider CGUS is admitted, a separate `DemonstrativeUnfoldingSlice@Context` may present one traversal, and when admitted positions organize bounded transformations inspect the [[E_The FPF Constitution and Authoring Guides/17_18_Transformation Flow Structure/03_E.18.03 - Constraint-Governed Transformation-Flow Unfolding Structure|E.18.3]] specialization;
 - keep several options alive until the comparison is clear enough to choose;
 - say what "better" means before optimizing or scoring;

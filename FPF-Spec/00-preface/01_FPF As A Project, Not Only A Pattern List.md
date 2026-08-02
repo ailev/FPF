@@ -10,10 +10,10 @@ parents:
   - "[[00_Hubs/FPF - Preface (non-normative)]]"
 source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
 source_lines:
-  - 770
-  - 787
+  - 834
+  - 851
 status: "generated"
-generated_on: "2026-07-14"
+generated_on: "2026-08-02"
 generated: true
 ---
 

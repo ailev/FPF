@@ -10,10 +10,10 @@ parents:
   - "[[00_Hubs/FPF - Preface (non-normative)]]"
 source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
 source_lines:
-  - 976
-  - 989
+  - 1040
+  - 1053
 status: "generated"
-generated_on: "2026-07-14"
+generated_on: "2026-08-02"
 generated: true
 ---
 
@@ -24,7 +24,7 @@ This makes architecture broad. There can be architecture of a physical system, s
 
 Architecture descriptions, structural views, viewpoints, diagrams, models, and publication forms are descriptions or publications about architecture. They are valuable, but they do not replace the architecture itself.
 
-The architecture patterns make this distinction usable. [[C_Kernel Extension Specifications/18_30_Grounded Architecture and Selected-Structure Adequacy/00_C.30 - Grounded Architecture and Selected-Structure Adequacy|C.30]] governs architecture as an EntityOfConcern. [[A_Kernel Architecture Cluster/22_Structure and Structural Views (STRUCT-CAL)/00_A.22 - Structure and Structural Views (STRUCT-CAL)|A.22]] governs architectural characteristics. [[C_Kernel Extension Specifications/18_30_Grounded Architecture and Selected-Structure Adequacy/04_C.30.ASV - Architecture Structural View Adequacy (ASV)|C.30.ASV]] governs architecture structural views. [[C_Kernel Extension Specifications/18_30_Grounded Architecture and Selected-Structure Adequacy/01_AD_Architecture Description Adequacy/00_C.30.AD - Architecture Description Adequacy|C.30.AD]] governs architecture descriptions. [[A_Kernel Architecture Cluster/06_Signature Stack & Boundary Discipline/13_A.06.M - Module Relation Repair|A.6.M]] governs module-interface relation repair. [[C_Kernel Extension Specifications/19_31_Modularity and Reusable Structure Characteristics/00_C.31 - Modularity and Reusable Structure Characteristics|C.31]] and related architecture patterns govern modularity, reusable structure, scale, selected structures, interlevel tension, and architecture-changing moves.
+The architecture patterns make this distinction usable. [[C_Kernel Extension Specifications/18_30_Grounded Architecture and Selected-Structure Adequacy/00_C.30 - Grounded Architecture and Selected-Structure Adequacy|C.30]] governs architecture as an EntityOfConcern. [[A_Kernel Architecture Cluster/22_Structure and Structural Views (STRUCT-CAL)/00_A.22 - Structure and Structural Views (STRUCT-CAL)|A.22]] governs architectural characteristics. [[C_Kernel Extension Specifications/18_30_Grounded Architecture and Selected-Structure Adequacy/04_C.30.ASV - Architecture Structural View Adequacy (ASV)|C.30.ASV]] governs architecture structural views. [[C_Kernel Extension Specifications/18_30_Grounded Architecture and Selected-Structure Adequacy/01_AD_Architecture Description Adequacy/00_C.30.AD - Architecture Description Adequacy|C.30.AD]] governs architecture descriptions. [[A_Kernel Architecture Cluster/06_Signature Stack & Boundary Discipline/15_A.06.M - Module Relation Repair|A.6.M]] governs module-interface relation repair. [[C_Kernel Extension Specifications/19_31_Modularity and Reusable Structure Characteristics/00_C.31 - Modularity and Reusable Structure Characteristics|C.31]] and related architecture patterns govern modularity, reusable structure, scale, selected structures, interlevel tension, and architecture-changing moves.
 
 This matters because architecture work is not only "draw the diagram". It is also "which structure matters", "what characteristic changes", "what tradeoff is visible", "what description is needed", "what interface claim is being made", "what evidence would make this architecture decision responsible", and "which move changes the architecture rather than merely changing a document about it".
 

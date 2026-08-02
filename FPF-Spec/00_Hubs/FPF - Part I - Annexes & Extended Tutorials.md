@@ -7,17 +7,17 @@ mode: "index-generated"
 title: "Part I – Annexes & Extended Tutorials"
 source_file: "FPF-Spec.md.breaks.my.obsidian.bak"
 source_lines:
-  - 97041
-  - 97255
+  - 102807
+  - 103021
 status: "generated"
-generated_on: "2026-07-14"
+generated_on: "2026-08-02"
 generated: true
 ---
 
 
 # Part I – Annexes & Extended Tutorials
 
-Source lines: `97041-97255` in `FPF-Spec.md.breaks.my.obsidian.bak`.
+Source lines: `102807-103021` in `FPF-Spec.md.breaks.my.obsidian.bak`.
 
 ## Pages
 
@@ -27,4 +27,4 @@ Source lines: `97041-97255` in `FPF-Spec.md.breaks.my.obsidian.bak`.
 
 | ID | Page | Type | Lines |
 |---|---|---|---|
-| I.2 | [[I_Annexes & Extended Tutorials/00_02_Expanded Entry Disambiguation Cases/00_I.02 - Expanded Entry Disambiguation Cases]] | fpf-pattern | 97047-97255 |
+| I.2 | [[I_Annexes & Extended Tutorials/00_02_Expanded Entry Disambiguation Cases/00_I.02 - Expanded Entry Disambiguation Cases]] | fpf-pattern | 102813-103021 |

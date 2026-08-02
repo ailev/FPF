@@ -1,11 +1,11 @@
 {
   "hubs": 15,
-  "pages": 308,
-  "ids": 280,
-  "markdown_files": 326,
+  "pages": 323,
+  "ids": 293,
+  "markdown_files": 341,
   "broken_links_count": 0,
   "broken_links_sample": [],
-  "unresolved_relations_count": 7,
+  "unresolved_relations_count": 6,
   "unresolved_relations_sample": [
     {
       "source": "A_Kernel Architecture Cluster/18_Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC-KERNEL)/00_A.18 - Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC-KERNEL)",
@@ -21,11 +21,6 @@
       "source": "B_Trans-disciplinary Reasoning Cluster/00_01_Holon Aggregation and Part-Whole Construction/06_B.01.06 - Work-Resource Aggregation",
       "relation": "related",
       "target": "B.2-family"
-    },
-    {
-      "source": "C_Kernel Extension Specifications/01_03_Kinds, Intent and Extent, and Typed Reasoning/01_C.03.01 - U.Kind and U.SubkindOf Core",
-      "relation": "coordinates_with",
-      "target": "E.24-family"
     },
     {
       "source": "C_Kernel Extension Specifications/02_11_Decision Theory (Decsn-CAL)/00_C.11 - Decision Theory (Decsn-CAL)",
@@ -45,5 +40,5 @@
   ],
   "source": "/Users/am/Documents/My_Repos/FPF-obsidianized/FPF-Spec-original/FPF-Spec.md.breaks.my.obsidian.bak",
   "out_dir": "/Users/am/Documents/My_Repos/FPF-obsidianized/FPF-Spec",
-  "generated_on": "2026-07-14"
+  "generated_on": "2026-08-02"
 }
