@@ -6,6 +6,8 @@ An Obsidian-ready, LLM-friendly usability fork of the original [First Principles
 
 This repository does not redefine FPF or claim authority over it. The canonical source and its evolution remain in [ailev/FPF](https://github.com/ailev/FPF).
 
+This build uses upstream FPF revision [`9a9a42e`](https://github.com/ailev/FPF/commit/9a9a42e4d154021ca3f7415e0009a4214832f65f), dated **2026-08-02**.
+
 FPF was created by **Anatoly Levenchuk, with AI-agent assistance**. It is a pattern language for making difficult engineering, research, management, governance, and human/AI work explicit and reviewable. It separates entities from descriptions, evidence, decisions, plans, and performed work; scopes claims to their intended use; and identifies the direct patterns governing a question.
 
 The normative content is not rewritten. A script generates smaller linked notes, hubs, indexes, and frontmatter from the upstream source; the monolithic source itself is not stored in this repository.
