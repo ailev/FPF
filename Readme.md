@@ -1,4 +1,4 @@
-# FPF Obsidianized
+# Levenchuk’s FPF Knowledge Graph Toolkit
 
 An Obsidian-ready, LLM-friendly usability fork of the original [First Principles Framework (FPF)](https://github.com/ailev/FPF).
 
