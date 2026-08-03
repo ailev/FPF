@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPF Quality Improve"
+  short_description: "Run a bounded evidence-backed improvement loop"
+  default_prompt: "Use $fpf-quality-improve to define and run a bounded quality-improvement loop for this target."

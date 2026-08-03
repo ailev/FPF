@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPF Options Explore"
+  short_description: "Generate and compare diverse FPF options"
+  default_prompt: "Use $fpf-options-explore to generate and compare diverse options for this question."

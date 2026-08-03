@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPF SoTA Harvest"
+  short_description: "Harvest an evidence-backed plural SoTA map"
+  default_prompt: "Use $fpf-sota-harvest to build a bounded SoTA synthesis pack for this domain."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPF Decision Synthesize"
+  short_description: "Turn evaluated options into decision and ADR"
+  default_prompt: "Use $fpf-decision-synthesize to turn these evaluated options into a recoverable decision and ADR projection."

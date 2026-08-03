@@ -15,6 +15,15 @@ GRAPH = ROOT / "FPF-Spec"
 REPORT_PATH = GRAPH / "00_Index" / "FPF - Validation Report.json"
 README_PATH = ROOT / "Readme.md"
 SKILLS = ROOT / "skills"
+EXPECTED_SKILL_PACKAGES = {
+    "fpf-alignment-audit.skill",
+    "fpf-applicability-scan.skill",
+    "fpf-decision-synthesize.skill",
+    "fpf-design-challenge.skill",
+    "fpf-options-explore.skill",
+    "fpf-quality-improve.skill",
+    "fpf-sota-harvest.skill",
+}
 
 
 def main() -> int:
@@ -59,7 +68,14 @@ def main() -> int:
         require((ROOT / target).exists(), f"README link does not exist: {raw_target}")
 
     skill_paths = sorted(SKILLS.glob("*.skill/SKILL.md"))
-    require(len(skill_paths) == 3, "expected exactly three FPF skill packages")
+    actual_skill_packages = {path.parent.name for path in skill_paths}
+    require(
+        actual_skill_packages == EXPECTED_SKILL_PACKAGES,
+        "FPF skill package set does not match the expected catalog",
+    )
+    skills_readme = (SKILLS / "README.md").read_text(encoding="utf-8")
+    for package_name in sorted(EXPECTED_SKILL_PACKAGES):
+        require(f"`{package_name}`" in skills_readme, f"skill catalog omits {package_name}")
     for skill_path in skill_paths:
         package = skill_path.parent
         expected_name = package.name.removesuffix(".skill")
