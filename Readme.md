@@ -52,10 +52,6 @@ PYTHONDONTWRITEBYTECODE=1 python3 scripts/build_fpf_obsidian_graph.py --source /
 
 Check the [`validation report`](FPF-Spec/00_Index/FPF%20-%20Validation%20Report.json) for zero broken links, then review the diff.
 
-## Development flow
-
-Work accumulates on local and remote `am/dev`. Push snapshots there as needed, then open PRs from `am/dev` to `main`. CI validates the generated graph, links, scripts, and skills. A validated, non-draft PR is automatically merged only when it comes from this repository's `am/dev` branch and is authored by `anatoly-m-maslennikov`; other PRs are never auto-merged.
-
 ## Citation
 
 Cite the original: `Levenchuk, Anatoly. First Principles Framework (FPF). https://github.com/ailev/FPF`
