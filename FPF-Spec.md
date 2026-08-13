@@ -356,7 +356,7 @@ The public FPF readme section after the Table of Contents provides the semantic 
 | F.8 | **Mint-or-Reuse Decision** | Stable | *Keywords:* decision lattice, type explosion, reuse, minting new U-kinds, parsimony, role-shaped names. *Queries:* "When should I create a new U-kind or reuse an existing governed value?", "How do I avoid minting duplicate kinds from role-shaped names?", "Which exact governed value and use must be recovered before naming?" | **Builds on:** F.4, F.7, E.24.UK, A.11. |
 | **Cluster F.III — Cross‑Context Alignment & Applied Bindings** | | | | |
 | F.9 | **Alignment and Bridge across Contexts** | Stable | *Keywords:* exact F.17 `SchemeSenseCell` endpoints, different `<ReferenceScheme, LocalSenseClaim>` projections, relation-semantic profile, obtaining Bridge, optional `CL` evidence-strength shorthand, separate C.2.1 bounded-use claim, A.10/B.3 reliance, inverse/composition checks, quantum/coarsening exit, optional card. *Queries:* "Do the endpoint projections differ?", "Does this exact Bridge obtain?", "For which action, direction, rule, and tolerance is it separately claimed suitable, and what authorizes or performs the receiving use?" Relation truth, suitability for one use, reliance, authorization, performance, and packaging remain separate. | **Builds on:** F.17, F.18, C.2.1, F.0.1, F.7, F.8. **Coordinates with:** A.10, B.3, A.6.9, A.6.3.CSC, C.26.1, C.26.2, E.17.ID.CR, F.9.1, C.29. **Prerequisite for:** F.7, F.10. |
-| F.9.1 | **Bridge Stance Overlay** | Stable | *Keywords:* bridge stance, stance overlay, interpretive gloss, projection note, rename note, language-state comparisons, overlay annotation. *Queries:* "How do I add a stance gloss to a bridge card without changing bridge semantics?", "What is the Bridge Stance Overlay?", "When does a stance label still depend on the underlying F.9 bridge card?" | **Builds on:** F.9, C.2.2a, A.16.0. **Coordinates with:** A.6.3.CSC, E.17.ID.CR, E.17.1, C.16.Q, A.6.A. |
+| F.9.1 | **Bridge Stance Note** | Stable | *Keywords:* bridge stance note, bounded-use claim, interpretive gloss, local rename, operationalization, partial analogy, projection, non-equivalence. *Queries:* "How do I add a short reading note to one warranted Bridge use?", "When does a stance word need a separate claim?", "Can a stance note establish a Bridge, permission, loss tolerance, or reliance?" | **Builds on:** F.9, C.2.1. **Coordinates with:** A.10, B.3, A.6.3.CSC, E.17.ID.CR, C.16.Q, E.24.PUB, F.17, F.18. |
 | F.10 | **Status Families Mapping (Evidence • Standard • Requirement)** | Stable | *Keywords:* status, evidence, standard, requirement, polarity, applicability windows. *Queries:* "How to map different types of status like 'evidence' and 'requirement'?", "How does FPF handle compliance?". | **Builds on:** F.9, B.3. |
 | F.11 | **Method Quartet Harmonisation** | Stable | *Keywords:* Method, MethodDescription, Work, Actuation, Role–Method–Work alignment. *Queries:* "How to align the concepts of 'method' and 'work' across domains?", "What is the method quartet?". | **Builds on:** F.9, A.15. |
 | F.12 | **Service Acceptance Binding** | Stable | *Keywords:* Service Level Objective (SLO), Service Level Agreement (SLA), acceptance criteria, binding, observation. *Queries:* "How to bind an SLO to actual work?", "How is service acceptance modeled in FPF?". | **Builds on:** F.9, A.2.3, KD-CAL. |
@@ -12928,7 +12928,7 @@ Return to the smallest changed object:
 **Placement.** After **A.6.1 `U.Mechanism`** and before any specialisations (`A.6.3 U.EpistemicViewing`, `A.6.4 U.EpistemicRetargeting`).
 
 **Builds on.**
-A.6.0 `U.Signature` (subject/vocabulary/laws/applicability); A.6.1 `U.Mechanism`; A.6.5 `U.RelationSlotDiscipline`; C.2.1 `U.Episteme — Epistemes and their slot relation`; E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement gates); C.3.* (Kind‑CAL / KindBridge for EntityOfConcern classes).
+A.6.0 `U.Signature` (subject/vocabulary/laws/applicability); A.6.1 `U.Mechanism`; A.6.5 relation-declaration slot discipline; C.2.1 `U.Episteme — Epistemes and their slot relation`; E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement gates); C.3.* (Kind‑CAL / KindBridge for EntityOfConcern classes).
 
 **Used by.**
 A.6.3 `U.EpistemicViewing`; A.6.4 `U.EpistemicRetargeting`; E.17.0 `U.MultiViewDescribing`; E.17 (MVPK); E.18 (structural reinterpretation over transformation-flow structure).
@@ -12968,7 +12968,7 @@ Concretely, without EFEM:
    MVPK, KD‑CAL, and E.18 all implicitly assume that episteme transforms **compose** and respect identities, but the conditions for this (purity, conservativity, idempotence, scope) are not formulated once and reused. Different parts of the spec repeat subtly different sets of laws.
 
 4. **Slot/Ref confusion.**
-   With the new `U.EpistemeSlotRelation` and `U.RelationSlotDiscipline`, every episteme now has explicit **SlotKind / ValueKind / RefKind** discipline. Laws for “projection” or “retargeting” that are written against “fields” or unnamed tuple components are now out of alignment.
+   With C.2.1's `U.EpistemeSlotRelation` and the A.6.5 relation-declaration slot discipline, every episteme now has explicit rules for **SlotKind, ValueKind, and RefKind**. Laws for “projection” or “retargeting” that are written against “fields” or unnamed tuple components are now out of alignment.
 
 The result: engineers and tool builders can no longer tell **when they are allowed to transform epistemes without changing what is being claimed about the world**, nor what needs to be witnessed by Bridges and CL‑penalties when entityOfConcern does change.
 
@@ -13239,7 +13239,7 @@ To make the SlotKind/ValueKind/RefKind discipline and EFEM laws concrete, consid
 | `ViewpointSlot`       | `U.Viewpoint`                                 | `U.ViewpointRef`    | engineering viewpoint (e.g. from TEVB) under which Description epistemes, including Description epistemes admitted for specification use, are validated |
 | `ReferenceSchemeSlot` | `U.ReferenceScheme`                           | ByValue             | how the ClaimGraph is interpreted against EntityOfConcern and grounding     |
 
-This table is an instance of A.6.5 `U.RelationSlotDiscipline`: each row is a SlotSpec triple ⟨SlotKind, ValueKind, refMode/RefKind⟩; no additional U-kinds are introduced, and C.2.1’s constraints on `EntityOfConcernSlot`/`GroundingHolonSlot` are preserved.
+This table describes SlotSpecs under one exact episteme `RelationSignature`. Each row names its SlotKind and ValueKind, then either `ByValue` or the exact RefKind used to designate the participant. The table is not an instance of a discipline object, introduces no additional U-kinds, and preserves C.2.1’s constraints on `EntityOfConcernSlot` and `GroundingHolonSlot`.
 
 Two typical EFEM species over this kind are:
 * `Specify_DescEp_SpecDesc_Sys : SystemDescription → SystemSpec` — a `EntityOfConcernChangeMode = preserve` species that:
@@ -13350,7 +13350,7 @@ EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent�
   * Specialised by A.6.3 `U.EpistemicViewing` (entityOfConcern‑preserving EFEM) and A.6.4 `U.EpistemicRetargeting` (entityOfConcern-retargeting EFEM).
 
 * **Constrained by.**
-  A.6.5 `U.RelationSlotDiscipline` (SlotKind/ValueKind/RefKind); C.2.1 `U.EpistemeSlotRelation` (episteme components, ReferencePlane); E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement gates); Part F (Bridges, CL, ReferencePlane crossings); E.10 (LEX‑BUNDLE naming rules, especially on `…Slot` / `…Ref` and ban on Subject/Object in episteme tech names).
+  A.6.5 relation-declaration slot discipline (SlotKind, ValueKind, and RefKind rules); C.2.1 `U.EpistemeSlotRelation` (episteme components, ReferencePlane); E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement gates); Part F (Bridges, CL, ReferencePlane crossings); E.10 (LEX‑BUNDLE naming rules, especially on `…Slot` and `…Ref`, and the ban on Subject/Object in episteme tech names).
 
 * **Consumed by.**
   E.17.0 `U.MultiViewDescribing` (families of Description epistemes, including Description epistemes admitted for specification use, under Viewpoints); E.17 (MVPK — publication as species of Viewing/EFEM); E.18 (structural reinterpretation and other transformation-flow relations over epistemes); KD‑CAL/LOG‑CAL rules that reason about episteme transforms categorically.
@@ -13373,7 +13373,7 @@ EFEM does *not* prescribe a specific calculus (deductive, probabilistic, latent�
 **Placement.** After **A.6.2 `U.EffectFreeEpistemicMorphing`**, before **A.6.4 `U.EpistemicRetargeting`**.
 
 **Builds on.**
-A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.5 `U.RelationSlotDiscipline`; A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot relation`; C.2 (KD‑CAL/LOG‑CAL, `subjectRef`, ReferencePlane).
+A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.5 (SlotSpec declaration discipline for `RelationSignature` slots); A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot relation`; C.2 (KD‑CAL/LOG‑CAL, `subjectRef`, ReferencePlane).
 
 **Used by.**
 E.17.0 `U.MultiViewDescribing`; E.17 (MVPK — Multi‑View Publication Kit); E.17.1/E.17.2 (Viewpoint bundle libraries, TEVB); B.5.3 (Role‑EpistemicViewing); discipline packs for architecture, safety, and ML/LLM‑based representations.
@@ -13894,7 +13894,7 @@ If all answers are crisp and the invariants EV-0...EV-6 are satisfied, the patte
 
 **Start here.** Make one six-row note: source passage or account; shorter candidate; present use and distinctions that must survive; loss or unsupported addition; non-admissible downstream use; return trigger. Keep it inline when the source and candidate remain adjacent or directly linked. Do not construct C.2.1 identity triples or `c : X -> Y` merely to shorten material for a local, reversible use. Open the exact branch when independent reuse, citation, dispute, cross-scheme interpretation, policy, bridge, work, gate, privacy, engineering justification, or assurance makes endpoint or construction identity matter.
 
-**Neighboring contributions.** A.6.3.CR supplies the same-EntityOfConcern rewording boundary; A.6.3.RT supplies the representation-scheme transition account when a material scheme change is current; E.17.EFP classifies an explanation-facing use; E.17.ID.CR supplies bounded comparison; F.9/F.9.1 carry bridge or substitution claims; A.6.4 carries a changed EntityOfConcern. A.15.1 is used only when the claim depends on actual coarsening Work. E.24.PUB identifies any occurrence that makes selected episteme `X` or `Y` available through a form and carrier.
+**Neighboring contributions.** Use A.6.3.CR for same-EntityOfConcern rewording, A.6.3.RT when a material representation-scheme change is current, E.17.EFP for an explanation-facing use, and E.17.ID.CR for bounded comparison. Use F.9 for the Bridge and bounded-use claim, and add an F.9.1 stance note only when it helps explain that claim. Use A.6.4 when the EntityOfConcern changes. Use A.15.1 only when the claim depends on actual coarsening Work, and use E.24.PUB to identify an occurrence that makes selected episteme `X` or `Y` available through a form and carrier.
 
 **What goes wrong if missed.** A helpful summary hides a qualifier or distinction needed by its current reader, invents or strengthens something the source does not support, or mistakes a form, source set, model, graph, publication, or readable tile for an episteme endpoint. The summary then becomes evidence, redaction becomes closure, a dashboard becomes a causal verdict, or a briefing becomes work authority.
 
@@ -13914,7 +13914,7 @@ If all answers are crisp and the invariants EV-0...EV-6 are satisfied, the patte
 | --- | --- | --- |
 | A shorter incident note, redacted partner note, dashboard wording, lookup form, workshop sheet, or didactic account retains the distinctions needed for its named triage, disclosure, retrieval, coordination, or planning-preparation use. | The note points to the source and makes the reader check both whether needed distinctions survived and whether the candidate added or strengthened anything the source does not support before release, audit, accountability, engineering-justification, or independent reuse. | Neither the shorter candidate nor its publication occurrence, form, or carrier is release authority, evidence, audit closure, accountability finding, bridge or substitution admissibility, work authority, or assurance conclusion. |
 
-**Not this pattern when.** Use A.6.3.CR for ordinary rewording with no narrower-use or controlled-loss question; A.6.3.RT for a representation-medium change whose material issue is the scheme; E.17.EFP for explanation fidelity; E.17.ID.CR for comparison; F.9/F.9.1 for bridge or substitution; A.6.4 for a changed EntityOfConcern; A.15 for work; and A.20/A.21 for a constraint or gate claim.
+**Not this pattern when.** Use A.6.3.CR for ordinary rewording with no narrower-use or controlled-loss question; A.6.3.RT for a representation-medium change whose material issue is the scheme; E.17.EFP for explanation fidelity; E.17.ID.CR for comparison; F.9 for a Bridge or bounded-use claim; F.9.1 only for a separate stance note about such a claim; A.6.4 for a changed EntityOfConcern; A.15 for work; and A.20/A.21 for a constraint or gate claim.
 
 ### A.6.3.CSC:2 - Problem
 
@@ -14026,7 +14026,7 @@ Ordinary direct semantic compression needs no `coarseningBranch`: state its conc
 | --- | --- |
 | source-pinned surrogate, index, or handle | Keep the named source directly reachable and limit the candidate to source-finding, retrieval, or orientation. Naming an `authoritySourceRef` only routes return to its governed relation; the candidate does not become that authority, evidence, gate, or work source. |
 | privacy or redaction | Name the sharing boundary, every concrete withheld or weakened distinction, the re-identification or accountability risk being reduced, the exact source review path, and the accountability or gate uses that remain blocked. |
-| exceptional interop-facing simplification | Keep exact `X`, exact `Y`, and `c` recoverable and name the exact operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. Use E.17.ID.CR when bounded comparison is primary; equivalence, substitution, projection, or Bridge use requires F.9/F.9.1. |
+| exceptional interop-facing simplification | Keep exact `X`, exact `Y`, and `c` recoverable and name the exact operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. Use E.17.ID.CR when bounded comparison is primary. Equivalence, substitution, projection, or Bridge use requires an F.9 Bridge and bounded-use claim; an F.9.1 stance note is optional reader help about that claim. |
 | genuine aggregation or quotient condition | Name the distinctions combined and the aggregation rule while exact `Y` still concerns the same exact EntityOfConcern as `X`. A bounded selected set may appear inside `Y`'s claim content but is not an endpoint by itself. If several entities or alternatives become a new class-level or proxy EntityOfConcern, use A.6.4. |
 
 A branch cue changes only the additional rule named in its row. Scheme difference, publication adjacency, citation, independent reuse, or high stakes alone selects none of these branches and proves no correspondence or authority.
@@ -14058,7 +14058,7 @@ A coarsening chain may not reset provenance. For `X -> Y1 -> Y2`, identify all t
 | Explanation-facing class over exact source episteme `X`, whether or not it is currently published | `E.17.EFP`; any publication occurrence, form, and carrier remain under E.24.PUB |
 | Bounded comparison over exact source epistemes, with any publication access stated separately | `E.17.ID.CR` |
 | Equivalence, substitution, interop row, or bridge or substitution use | `F.9` |
-| Stance over an already published bridge card | `F.9.1` |
+| A short reading note about an already constituted F.9 bounded-use claim | `F.9.1`; a Card is optional packaging rather than a prerequisite |
 | Changed EntityOfConcern or proxy EntityOfConcern | `A.6.4` |
 | Carrier, export, OCR or parsing, or front-end behavior is primary | `A.7` first; then `A.6.3.RT`, `A.6.3.CSC`, `A.6.4`, or interpretation sources only if meaning-bearing structure, loss, retargeting, or interpretive lift is live |
 | Briefing treated as work plan, work authority, or execution cue | `A.15` |
@@ -14096,7 +14096,7 @@ Neighboring guidance may cite CSC when controlled loss, narrower use, and source
 
 **Coarsened narrative briefing.** Exact source episteme `ArchitectureCandidates-X` states three candidate, two trade-off, and one unresolved-constraint claims about one exact system. Exact briefing episteme `CandidateBriefing-Y` concerns the same system. NAR supplies the narrative-ordering account; CSC supplies the declared omission of alternatives, orientation-only use, blocked selection/decision/implementation/evidence use, and return to `X`. The briefing form is neither endpoint.
 
-**Exceptional interop-facing simplification.** Exact source episteme `ExchangeComparison-X` states the bounded source-local claims and exact comparison/Bridge dependencies. Exact orientation episteme `ExchangeGloss-Y` states the narrower broader-than gloss about the same comparison EntityOfConcern. `InteropCoarsening : X -> Y` does not establish equivalence, projection, substitution, or a Bridge; those uses require F.9/F.9.1 or return to `X`.
+**Exceptional interop-facing simplification.** Exact source episteme `ExchangeComparison-X` states the bounded source-local claims and exact comparison or Bridge dependencies. Exact orientation episteme `ExchangeGloss-Y` states the narrower broader-than gloss about the same comparison EntityOfConcern. `InteropCoarsening : X -> Y` does not establish equivalence, projection, substitution, or a Bridge; those uses require an obtaining F.9 Bridge and a separate bounded-use claim or return to `X`. An F.9.1 stance note may explain that claim but cannot replace it.
 
 **Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` This is not an admissible controlled coarsening card. The sentence tries to convert a coarsened summary into execution or gate authority. Use `A.15`, `A.20`, or `A.21`, and reopen the source-bearing side before any work or approval claim proceeds.
 
@@ -14131,7 +14131,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | **CC-CSC-9 (Loss/recoverability).** | Exact reuse or reliance cases state every concrete decision-relevant loss and select exactly one immediate recoverability action for the proposed use. | Preserves multiple losses while making the next move unambiguous. |
 | **CC-CSC-10 (Chain continuity).** | Every coarsening chain keeps exact original source episteme, each intermediate episteme, each construction, accumulated loss, and return; otherwise reopen exact `X`. | Prevents summarization from resetting source identity. |
 | **CC-CSC-11 (Privacy).** | Redaction cases name sharing boundary, withheld claims, risk rationale, blocked accountability/gate uses, and exact source review path. | Prevents redaction-as-closure. |
-| **CC-CSC-12 (Interop).** | Interop simplification names exact relation claims and handles Bridge/equivalence pressure under F.9/F.9.1. | Prevents simplified wording from asserting correspondence. |
+| **CC-CSC-12 (Interop).** | Interop simplification names the exact F.9 Bridge and bounded-use claim when Bridge or equivalence pressure is live; an optional F.9.1 stance note stays separate. | Prevents simplified wording or a stance word from asserting correspondence. |
 | **CC-CSC-13 (No authority by repetition).** | Fluency, citation, repetition, publication visibility, or a more convenient carrier cannot widen use. | Keeps `Y` within its declared use. |
 
 #### A.6.3.CSC:7.3 - Counterexample replay
@@ -14159,7 +14159,7 @@ After a bounded correction replay its local counterexample; after the batch run 
 | Citation laundering | A coarsened rendering is cited as if it were the source. | Keep the source-bearing side named and reopenable. |
 | Label-as-evidence | A lookup handle carries a claim. | State retrieval-only use. |
 | Redaction-as-closure | Withheld detail is treated as resolved detail. | State the sharing boundary and accountability reopen condition. |
-| Stance cure | `projection` or `nonEquivalent` is used instead of a bridge card or source return. | Apply `F.9` or `F.9.1` for the bridge claim. |
+| Stance cure | `projection` or `nonEquivalent` is used instead of the Bridge, bounded-use claim, loss account, or source return. | Recover the F.9 Bridge and bounded-use claim, keep the CSC source return, and add an F.9.1 stance note only as optional reader help. |
 | Briefing-as-work | A summary becomes work plan, action cue, gate, or approval. | Use `A.15`, `A.20`, or `A.21` for the work, constraint, or gate claim. |
 | Summary-chain source loss | A note summarizes an already coarsened note and loses the original source and loss envelope. | Keep the same source-bearing side and added loss delta visible, or reopen that source-bearing side. |
 | Aggregation EntityOfConcern shift | A quotient or bundle turns several entities or alternatives into one new proxy EntityOfConcern. | Apply `A.6.4` rather than treating EntityOfConcern shift as a same-lineage source-to-rendering case. |
@@ -14192,8 +14192,8 @@ The core memory aid is simple: exact coarsened episteme `Y` may help interpretat
 | --- | --- | --- | --- | --- |
 | Fluent summaries and generated renderings can be useful without preserving every source distinction or carrying an adequate source relation. | Current long-document summarization work shows that factual inconsistency is sensitive to discourse structure and that widely used automatic metrics can be unstable under meaning-preserving compression and other perturbations. | Maynez et al. (2020), *On Faithfulness and Factuality in Abstractive Summarization*; FActScore and RAGAS (2023) as evaluation lineage; Zhong and Litman (2025), *Discourse-Driven Evaluation: Unveiling Factual Inconsistency in Long Document Summarization*; Mujahid, Wright, and Augenstein (ACL 2026), *Stress Testing Factual Consistency Metrics for Long-Document Summarization*; source maturity = peer-reviewed current evaluation pressure plus lineage. | The ordinary card compares source and candidate at the distinctions needed by the present use; the exact branch separates source pointer, availability, retrieval, source use, source faithfulness, claim admissibility, omission, added commitment, independent verification, admissible use, non-admissible use, and return when those distinctions matter. | **Adopt or adapt.** Adopt direct distinction-level and source-context comparison; adapt it to a lightweight local card. Reject fluency or an automatic factuality score as proof that required distinctions survived or that a stronger use is admissible. |
 | Redaction and de-identification reduce exposure without deleting accountability, utility, or audit questions. | Current privacy guidance ties de-identification and formal privacy guarantees to the intended sharing model, utility, measurable privacy loss, residual hazards, and re-identification or inference risk. | NIST SP 800-188, *De-Identifying Government Datasets: Techniques and Governance* (2023); NIST SP 800-226, *Guidelines for Evaluating Differential Privacy Guarantees* (2025), when a differential-privacy guarantee is actually claimed; source maturity = current government guidance. | The privacy and redaction branch requires sharing boundary, withheld distinctions, intended use, source review path, residual risk, and non-admissible accountability or gate uses; a claimed differential-privacy guarantee retains its own exact parameters and evaluation. | **Adapt.** Use privacy guidance to bound disclosure while rejecting redaction, masking, or a privacy label as closure, zero risk, or authority for a stronger use. |
-| Claims about views, representations, and their correspondence to a described subject do not become mere formatting claims when a publication face or rendering is made easier to read. | Architecture-description practice makes viewpoint, view, model kind, and correspondence explicit rather than treating a clearer view as neutral formatting. | ISO/IEC/IEEE 42010:2022; source maturity = current architecture-description standard. | The pattern keeps coarsening distinct from representation-scheme transition, explanation profiling, comparative review, bridge cards, bridge-stance overlays, and work and gate authority. | **Adopt or adapt.** Adopt explicit view and correspondence discipline; adapt it to same-lineage coarsened renderings and neighboring-pattern boundaries. |
-| Data and interoperability publication practice distinguishes discoverability, metadata, validation, and exchange from authority to substitute one object for another. | Web-data and semantic-web standards separate catalog metadata, provenance, structural metadata, and validation conditions from the data or relation itself. | W3C Data on the Web Best Practices (2017); W3C SHACL (2017); W3C DCAT v3 (2024); source maturity = mature web standards and recommendations for metadata, validation, and catalog interoperability. | Exceptional interop simplification must name its relation kind and apply `E.17.ID.CR`, `F.9`, or `F.9.1` when the case carries equivalence, substitution, projection, or bridge claims. | **Adapt or reject.** Adapt explicit metadata and validation discipline; reject using a simplified relation gloss as bridge or substitution admissibility. |
+| Claims about views, representations, and their correspondence to a described subject do not become mere formatting claims when a publication face or rendering is made easier to read. | Architecture-description practice makes viewpoint, view, model kind, and correspondence explicit rather than treating a clearer view as neutral formatting. | ISO/IEC/IEEE 42010:2022; source maturity = current architecture-description standard. | The pattern keeps coarsening distinct from representation-scheme transition, explanation profiling, comparative review, an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, and work and gate authority. | **Adopt or adapt.** Adopt explicit view and correspondence discipline; adapt it to same-lineage coarsened renderings and neighboring-pattern boundaries. |
+| Data and interoperability publication practice distinguishes discoverability, metadata, validation, and exchange from authority to substitute one object for another. | Web-data and semantic-web standards separate catalog metadata, provenance, structural metadata, and validation conditions from the data or relation itself. | W3C Data on the Web Best Practices (2017); W3C SHACL (2017); W3C DCAT v3 (2024); source maturity = mature web standards and recommendations for metadata, validation, and catalog interoperability. | Exceptional interop simplification must name its relation kind and apply `E.17.ID.CR` or F.9 when the case carries equivalence, substitution, projection, or Bridge claims; F.9.1 is used only for an optional stance note about an established bounded-use claim. | **Adapt or reject.** Adapt explicit metadata and validation discipline; reject using a simplified relation gloss or stance word as Bridge or substitution admissibility. |
 | Explanation usefulness depends on the user and can be over-read as authority it does not carry. | Explainable-AI practice treats explanation as audience-facing explanation with limits, not as a universal guarantee. | NIST IR 8312, *Four Principles of Explainable Artificial Intelligence* (2021); source maturity = mature government guidance for bounded explanation principles. | `audienceOverReadRisk` and source reopen keep helpful prose subordinate to the source-bearing side when stakes rise. | **Adopt or adapt.** Adopt user-sensitive explanation limits; adapt them to FPF coarsening cases where a rendering is useful but not authoritative for downstream use. |
 
 The practical implication is the same across these traditions: coarsened readable publication faces or renderings are valuable, but their admissible use depends on source relation, relation kind, validation evidence, audience, and reopen path. The worked slices in `A.6.3.CSC:5.1` are the nearest recovery loci for those SoTA rows.
@@ -14203,8 +14203,8 @@ The practical implication is the same across these traditions: coarsened readabl
 ### A.6.3.CSC:12 - Relations
 
 - **Specializes:** `A.6.3 U.EpistemicViewing` as exact same-EntityOfConcern controlled-loss construction `c : X -> Y` between independently constituted epistemes.
-- **Coordinates with:** `A.6.3.CR`, `A.6.3.RT`, `A.6.3.NAR`, `E.17.EFP`, `E.17.ID.CR`, `F.9`, `F.9.1`, `A.15`, `A.6.4`, `A.20`, and `A.21`.
-- **Does not replace:** conservative retextualization, representation-scheme transition, structure-to-narrative rendering, explanation profiling, bounded comparative review, bridge-card discipline, stance overlay, changed-EntityOfConcern discipline, work authority, gate authority, or adjudication authority.
+- **Coordinates with:** `A.6.3.CR`, `A.6.3.RT`, `A.6.3.NAR`, `E.17.EFP`, `E.17.ID.CR`, F.9 for the Bridge and bounded-use claim, F.9.1 for an optional stance note about that claim, `A.15`, `A.6.4`, `A.20`, and `A.21`.
+- **Does not replace:** conservative retextualization, representation-scheme transition, structure-to-narrative rendering, explanation profiling, bounded comparative review, F.9 Bridge and bounded-use discipline, an optional F.9.1 stance note, changed-EntityOfConcern discipline, work authority, gate authority, or adjudication authority.
 - **Entry relation:** open CSC when a shorter candidate needs an explicit account of needed distinctions, any loss, anything added or strengthened beyond source support, narrower use, non-admissible use, and source return. Exact `Y` and `c` are required only when the result travels independently or their identity changes the receiving use; a readable form alone establishes neither.
 - **Concrete contribution:** CSC is a `specialization under A.6.3` that supplies the controlled-loss, narrower-use, non-use, and source-return account. It is not a bundle, suite, profile, overlay, review pack, owner, actor, receiver, or authority source.
 
@@ -14246,7 +14246,7 @@ Use this pattern when one already available source line about the same EntityOfC
 
 **Reliance-facing use.** Open the fuller rewrite-admissibility record only when the rewritten text will be externally relied on, disputed, cited as a source-relation reason, used across context, or read as release, gate, work-preparation, engineering-justification, approval, or evidence justification.
 
-**Not this pattern when.** Not this pattern when the case is primarily explanatory rendering (`ExplanationFaithfulnessProfile`), representation-scheme change (`RepresentationSchemeTransition`), changed EntityOfConcern (`A.6.4`), comparative review (`E.17.ID.CR`), bridge or substitution use (`F.9` or `F.9.1`), or a deliberately coarsened rendering whose narrower admissible use, non-admissible downstream use, and source-bearing return card has become primary. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening`.
+**Not this pattern when.** Not this pattern when the case is primarily explanatory rendering (`ExplanationFaithfulnessProfile`), representation-scheme change (`RepresentationSchemeTransition`), changed EntityOfConcern (`A.6.4`), comparative review (`E.17.ID.CR`), an F.9 Bridge or bounded-use claim, an optional F.9.1 stance note about such a claim, or a deliberately coarsened rendering whose narrower admissible use, non-admissible downstream use, and source-bearing return card has become primary. In that last case, use `A.6.3.CSC Controlled Semantic Coarsening`.
 
 ### A.6.3.CR:2 - Problem
 
@@ -15421,10 +15421,10 @@ The narrow reusable move is therefore reader-first and progressive. Choose struc
 **One‑line summary.** `U.EpistemicRetargeting` is the **EntityOfConcern retargeting** species of `U.EffectFreeEpistemicMorphing`: an effect‑free episteme→episteme morphism that **intentionally changes what the episteme is about** (the value filling `EntityOfConcernSlot` in C.2.1) under a declared `KindBridge` and invariant, while remaining conservative with respect to that invariant.
 **EntityOfConcern retargeting discipline.** A.6.4 names the retarget branch of the C.2.1 EntityOfConcern retargeting law: `entityOfConcernRef(Y) != entityOfConcernRef(X)` only under a declared `KindBridge`, invariant, loss boundary, and admissible use. Source-side spellings are source wording only; conformant text normalizes them to `EntityOfConcern*` before use.
 
-**Placement.** After **A.6.3 `U.EpistemicViewing`**, before **A.6.5 `U.RelationSlotDiscipline`**.
+**Placement.** After **A.6.3 `U.EpistemicViewing`**, before **A.6.5 relation-declaration slot discipline**.
 
 **Builds on.**
-A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicViewing`; A.6.5 `U.RelationSlotDiscipline`; A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot relation`; C.2/C.3 (KD‑CAL/LOG‑CAL, ReferencePlane, Kind‑level reasoning); F.9 (Bridges, `KindBridge`, CL/CL^plane, SquareLaw witnesses).
+A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicViewing`; A.6.5 relation-declaration slot discipline; A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot relation`; C.2/C.3 (KD‑CAL/LOG‑CAL, ReferencePlane, Kind‑level reasoning); F.9 (Bridges, `KindBridge`, CL/CL^plane, SquareLaw witnesses).
 
 **Used by.**
 E.18 (`StructuralReinterpretation` loci and other transformation-flow reinterpretation loci); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; additional species for architecture and governance reinterpretations.
@@ -15441,7 +15441,7 @@ E.18 (`StructuralReinterpretation` loci and other transformation-flow reinterpre
 
 **What this buys.** One honest retargeting relation: the reader can see the source entity, receiving entity, bridge, invariant, preserved commitments, lost or new commitments, and the specific admissible use that remains.
 
-**Not this pattern when.** Not this pattern when the EntityOfConcern is preserved and the main change is wording (`A.6.3.CR`), representation scheme or reasoning medium (`A.6.3.RT`), controlled coarsening (`A.6.3.CSC`), explanation mode (`E.17.EFP`), bridge-only comparison without retargeting (`F.9` or `F.9.1`), work (`A.15`), evidence (`A.10`), assurance (`B.3`), gate decision (`A.21`), temporal adequacy (`C.27`), or dynamics/control law (`A.3.3`).
+**Not this pattern when.** Not this pattern when the EntityOfConcern is preserved and the main change is wording (`A.6.3.CR`), representation scheme or reasoning medium (`A.6.3.RT`), controlled coarsening (`A.6.3.CSC`), explanation mode (`E.17.EFP`), an F.9 Bridge or bounded-use claim without retargeting, an optional F.9.1 stance note about such a claim, work (`A.15`), evidence (`A.10`), assurance (`B.3`), gate decision (`A.21`), temporal adequacy (`C.27`), or dynamics/control law (`A.3.3`).
 
 ### A.6.4:1 - Problem frame
 
@@ -15769,7 +15769,7 @@ Any attempt to apply a retargeting outside this Applicability profile is **ill�
 Boundary rules:
 - if the EntityOfConcern is preserved and the main change is representation scheme or reasoning medium, use `A.6.3.RT`;
 - if the EntityOfConcern is preserved and the main change is explanation mode, explanatory stance, or explanation-facing publication, use `E.17.EFP`;
-- if the source and receiving items are only bridge-only comparison, analogy, equivalence, or substitution relation, use `F.9` or `F.9.1` instead of interpreting the bridge as identity;
+- if the source and receiving items need only a Bridge or a judgment about one bounded use, use `F.9`; use `F.9.1` only for an optional stance note about that already constituted use claim, and do not interpret either as identity;
 - if the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
 - if decoded or latent output is interpretable but not tied to source claim, access relation, recoverability evidence, admissible-use value, and remaining reader action, keep it report-only, exploratory, source-bearing reopen, or in the named neighboring pattern;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
@@ -15935,7 +15935,7 @@ When you think you need "retargeting" in FPF, ask:
   * Complements A.6.3 `U.EpistemicViewing` (EntityOfConcern-preserving EFEM) as the “retargeting” counterpart.
 
 * **Constrained by.**
-  * A.6.5 `U.RelationSlotDiscipline` for SlotKind/ValueKind/RefKind discipline.
+  * A.6.5 relation-declaration slot discipline for SlotKind, ValueKind, and RefKind rules.
   * C.2.1 `U.EpistemeSlotRelation` for episteme components and `EntityOfConcernSlot`/`GroundingHolonSlot`.
   * E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline; `DescriptionContext`).
   * Part F (Bridges, `KindBridge`, ReferencePlane crossings, CL/CL^plane).
@@ -17642,7 +17642,7 @@ Part A > cluster **A.6 Signature Stack & Boundary Discipline** > specialisation 
 A.3, A.6, A.6.B, A.6.P, A.6.RSIR, A.6.S, A.6.0, A.6.5, A.2.6, A.7, A.15, E.8, E.10, F.9, F.18.
 
 **Coordinates with.**
-**C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, next-use docking, and admissible retreat when a published invitation must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** when the admissible continuation is still an open probe question rather than an invitation; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation, closure, anchoring, and representation-factor facets referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication; **F.9.1** for bridge-stance annotations; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
+**C.16.Q** for evaluative-language repair; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, articulation and closure coordination, admissible moves, early cue classification, next-use docking, and admissible retreat when a published invitation must be reopened; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **B.5.2.0** when the admissible continuation is still an open probe question rather than an invitation; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for articulation, closure, anchoring, and representation-factor facets referenced but not governed here; **A.10** and **B.3** for evidence and assurance; **B.4** and **B.5** for anomaly-driven cycles; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication; **F.9** for Bridges and bounded-use claims; **F.9.1** for optional stance notes about those claims; **C.3.3** for kind-bridge repair when endpoint kind mismatches appear.
 
 **E.10.ARCH relation.**
 A.6.A is the precision-restoration realization pattern for action-invitation wording only. Apply A.6.A when an `E.10` or `E.10.ARCH` repair has recovered an action-invitation case and the action-first language still hides a site, invited enactor, candidate action, coupling frame, detector or viewpoint, normal form, admissible use, or subject-pattern boundary after quality, capability, deontic, work, evidence, assurance, gate, decision, publication, state-family, architecture, function-like, and relation-only cases have been excluded or governed by the patterns for the recovered claims. If the repaired phrase is primarily evaluative, use `C.16.Q`; if it is primarily capability, method, work, duty, evidence, assurance, gate, or decision, use the subject pattern and keep A.6.A only as an optional preceding invitation record when the invitation semantics remain live.
@@ -18007,9 +18007,9 @@ Examples:
 
 #### A.6.A:4.7 - Bridge discipline across traditions
 
-Whenever two traditions are compared using action-first language, the author SHALL publish an explicit **bridge stance** and loss note.
+Whenever two traditions are compared using action-first language, first identify an obtaining F.9 Bridge and state one bounded-use claim for the named comparison. The claim says what comparison is proposed, in which direction, under which correspondence rule, with what tolerated loss, and with what polarity. Keep observed loss in the evidence account. Add a separate F.9.1 stance note only when a short reading aid helps the reader understand that claim.
 
-Allowed bridge stances:
+Useful stance labels include, for example:
 
 * **`localRename`**
 * **`operationalizes`**
@@ -18019,10 +18019,10 @@ Allowed bridge stances:
 
 Examples:
 
-* `AIS.PhysicalAffordance` - `AIS.InterfaceAffordance` is usually `partialAnalogy`, not identity.
-* `AIS.EpistemicProbe` - `AIS.ClosureAdvance` is usually a progression-by-closure relation, not identity.
-* `AIS.LatentPolicyCue` > `AIS.ControlOpportunity` is often `operationalizes` or `projection`.
-* `AIS.PhysicalAffordance` > `PolicyHook` in robotics is usually `projection` under a controller frame.
+* A named comparison between `AIS.PhysicalAffordance` and `AIS.InterfaceAffordance` may support a bounded partial analogy when the Bridge and use claim establish it. An optional `partialAnalogy` note helps reject identity; the label alone establishes nothing.
+* `AIS.EpistemicProbe` and `AIS.ClosureAdvance` usually need the direct progression-by-closure relation that is actually claimed. If their senses cross semantic contexts, apply F.9 before adding any optional stance note.
+* A named use from `AIS.LatentPolicyCue` toward `AIS.ControlOpportunity` may be read as operationalization or projection only after its Bridge, direction, rule, and tolerated loss are explicit.
+* A robotics use from `AIS.PhysicalAffordance` toward `PolicyHook` may have a projection reading under one controller frame. The F.9 claim carries that bounded use and its loss; an F.9.1 note only explains it.
 * Action invitation and quality ascription may co-occur, but co-occurrence is **not** identity.
 
 #### A.6.A:4.8 - Change lexicon
@@ -18054,7 +18054,7 @@ A silent move from invitation to commitment, capability, or work is a breaking s
 
 When an action invitation becomes boundary-bearing, classify it explicitly:
 
-* **L** — `actionInvitation` relation specification skeleton, `ActionInvitationSense` semantics, normal-form admissibility, enactor and site discipline, bridge stances.
+* **L** — `actionInvitation` relation specification skeleton, `ActionInvitationSense` semantics, normal-form admissibility, enactor and site discipline, and the boundary between an F.9 bounded-use claim and any optional F.9.1 stance note.
 * **A** — admissibility conditions for using the invitation in selector use, triage use, automation use, or publication use.
 * **D** — duties on authors, operators, or stewards of the named source with authority-reference relation: lexical firewall, naming the invited actor, naming the hook `authoritySourceRef` source, naming override paths where required.
 * **E** — carrier-referenced witnesses: sensory traces, interface events, probe notes, controller logs, run traces, incident records.
@@ -18084,7 +18084,7 @@ A.6.A allows monotone elaboration:
 3. Choose an admissible normal form and a local `articulationHint` when omission would hide articulation state.
 4. Add guards, method hooks, policy hooks, and witness bindings.
 5. If a `CuePack` or `ActionOption` is projected into `OptionSet` or `PolicyHook`, or connected to **C.16.Q**, **A.6.B**, or the relevant **A.15** pattern family, publish an explicit projection or operationalization note rather than silently upgrading the invitation.
-6. Add bridges and loss notes if traditions are compared.
+6. If traditions are compared, state the obtaining F.9 Bridge and bounded-use claim, including tolerated loss; add an F.9.1 stance note only when it helps the reader.
 7. If the invitation becomes boundary-bearing, emit the relevant L, A, D, and E decomposition hooks and, where enactment is implied, apply the relevant A.15 pattern family.
 8. Never move from invitation into capability, commitment, or work silently.
 
@@ -18194,7 +18194,7 @@ Lenses tested: **Gov**, **Arch**, **Ontology and episteme**, **Prag**, **Did**. 
 * **Arch bias:** this pattern prefers one stable relation family over loose action talk.
   *Mitigation:* allow Plain exploratory prose before Tech prose or normative publication.
 * **Ontology and episteme bias:** this pattern insists on separating invitation from evaluation, capability, commitment, and work.
-  *Mitigation:* explicit bridge stances and mixed-sentence split rules.
+  *Mitigation:* explicit F.9 Bridge and bounded-use claims, optional F.9.1 reading notes, and mixed-sentence split rules.
 * **Prag bias:** it favors enactor, site, and action explicitness, which raises authoring cost.
   *Mitigation:* small starter set, normal-form discipline, and copyable rewrites.
 * **Did bias:** repeated rewrites make the pattern teachable, but may over-formalize early cues.
@@ -18252,7 +18252,7 @@ A text or pattern conforms to A.6.A iff:
     Moving from invitation to quality ascription, capability, commitment, or work uses `changeRelationKind(...)` or an explicit split.
 
 17. **CC-A.6.A-17 — Bridge accountability.**
-    Cross-tradition parallels publish bridge stance and loss notes.
+    Cross-tradition parallels state the obtaining F.9 Bridge and bounded-use claim, including tolerated loss; any F.9.1 stance note remains a separate optional episteme about that claim.
 
 18. **CC-A.6.A-18 — Boundary-claim hook when needed.**
     If the repaired invitation is used for admissibility, commitments, publication, or automation, downstream L-, A-, D-, or E-classified hooks are explicit.
@@ -18356,7 +18356,7 @@ This pattern is scoped to **action-invitation repair and endpoint continuation**
 `actionInvitation(...)` should be classified through `A.6.B` and connected to `A.15` when work enactment is live toward gates, commitments, methods, or work. Operator-facing starter senses such as `AIS.AlertInterventionCue` or `AIS.OperatorInterventionCue` should not be buried under generic `AIS.InterfaceAffordance` when human factors and policy hooks substantively differ.
 
 #### A.6.A:12.3 - Governance boundary
-Bridge stances, articulation-state subject patterns, authority-reference fields, and language-state facet characteristics are **referenced** by this pattern but remain governed by `F.9.1`, `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
+This pattern may cite an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, an A.16 articulation-state result, authority-reference fields, or language-state facet characteristics from `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`; it does not redefine any of them.
 
 ### A.6.A:End
 
@@ -19171,19 +19171,19 @@ Older or local sources may serve as lineage or worked examples only when the row
 
 **Primary EntityOfConcern.** One `SlotSpec` declaration in one exact `RelationSignature`.
 
-**First useful move.** Write the readable relation sentence, name its subject pattern, and identify the relation kind and relation-participant meanings. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. The angle brackets and ordered entries belong to that notation; they are not parts or participants of the world-side relation. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the actual participant; it does not turn the reference or SlotSpec into that participant. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
+**First useful move.** Write the readable relation sentence, identify the relation kind and relation-participant meanings, and name where its predicate, applicability, and identity rule are defined. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. The angle brackets and ordered entries belong to that notation; they are not parts or participants of the world-side relation. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the actual participant; it does not turn the reference or SlotSpec into that participant. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
 
 **First-minute result.** For `Robot_7 is assigned to InspectorSystemRole for this inspection shift`, declare a species under `U.SystemRoleAssignment`, such as `InspectionShiftAssignment`, and state one occurrence for the shift. When reusable participant typing is needed, give `HolderSystemSlot` the value kind `U.System` and entity-reference mode; give `AssignedSystemRoleKindSlot` the value domain `InspectorSystemRoleKindDomain` and by-value reference mode. Add another participant only when it changes the predicate or occurrence identity. An assertion designates the occurrence's participants and states its `assignmentInterval` separately. Stop there unless later work must substitute a participant, distinguish this assignment episode from another, or test an A.2.5 state condition.
 
 **What goes wrong if missed.** In the readable sentence `Robot_7 is assigned to InspectorSystemRole`, the holder system, the exact system-role kind, each declaration-local SlotKind, and each participant designation carried by an assertion episteme can collapse into one word such as *role* or *holder*. A later claim then cannot tell what may be substituted, what retains identity, or whether it refers to a system, a system-role kind, an assignment occurrence, an assignment-state relation, or an assertion about either occurrence.
 
-**What this buys.** Engineers retain a readable relation sentence while its load-bearing uses gain exact participant typing, unambiguous reference use, and a clear require the pattern that defines or constrains predicate truth and occurrence identity.
+**What this buys.** Engineers retain a readable relation sentence while its load-bearing uses gain exact participant typing, unambiguous reference use, and a clear route to the definitions or constraints for predicate truth and occurrence identity.
 
-**Not this pattern when.** Use `A.6.P` or `A.6.RSIR` first while the relation kind or its participants remain unresolved. Use `A.6.REL` for relation-occurrence identity, `A.6.0` for the containing `U.Signature`, `C.2.1` for an assertion or description, and `C.3` for a local kind needed by typed quantification. In every other case, select the pattern governing the direct relation before applying this slot discipline.
+**Not this pattern when.** Use `A.6.P` or `A.6.RSIR` first while the relation kind or its participants remain unresolved. Use `A.6.REL` for relation-occurrence identity, `A.6.0` for the containing `U.Signature`, `C.2.1` for an assertion or description, and `C.3` for a local kind needed by typed quantification. In every other case, find the direct relation's accepted definition before applying this slot discipline.
 
-Select A.6.5 by the engineering use, not by a domain catalogue: one already recovered direct relation needs reusable participant typing in assertions or occurrence descriptions. Its `RelationSignature` contains one SlotSpec for each participant meaning actually reused, with a declaration-local SlotKind, the participant's exact ValueKind, and one designation mode. The worked cases below are contrasts only; none supplies another relation's predicate or defining pattern.
+Select A.6.5 by the engineering use, not by a domain catalogue: one already recovered direct relation needs reusable participant typing in assertions or occurrence descriptions. Its `RelationSignature` contains one SlotSpec for each participant meaning actually reused, with a declaration-local SlotKind, the participant's exact ValueKind, and one designation mode. The worked cases below are contrasts only; none supplies another relation's predicate or definition.
 
-The following governed objects meet at this boundary and remain distinct:
+The following objects meet at this boundary and remain distinct:
 
 1. an obtaining relation occurrence in the world;
 2. the direct relation kind and its predicate;
@@ -19191,7 +19191,7 @@ The following governed objects meet at this boundary and remain distinct:
 4. a `SlotSpec` containing the declaration-local SlotKind name for one relation-participant meaning, its actual-participant ValueKind, and its designation mode;
 5. an assertion or other episteme claiming that the relation obtains.
 
-Use the `A.6.REL` relation-object architecture. A **relation-participant meaning** is the relation-local semantic content specifying one domain contribution to the obtaining predicate. An **actual relation participant** is the concrete entity participating in an obtaining occurrence under that meaning while retaining its intrinsic kind. A `SlotSpec` is declaration content corresponding to the relation-participant meaning. A **relation-participant designation** is the value or governed reference carried by an assertion or relation-occurrence description episteme to denote the actual participant. Source-specific vocabulary keeps its meaning inside the source representation or ontology until an explicit correspondence relates it to the named FPF object.
+Use the `A.6.REL` relation-object architecture. A **relation-participant meaning** is the relation-local semantic content specifying one domain contribution to the obtaining predicate. An **actual relation participant** is the concrete entity participating in an obtaining occurrence under that meaning while retaining its intrinsic kind. A `SlotSpec` is declaration content corresponding to the relation-participant meaning. A **relation-participant designation** is the value or reference of a declared RefKind carried by an assertion or relation-occurrence description episteme to denote the actual participant. Source-specific vocabulary keeps its meaning inside the source representation or ontology until an explicit correspondence relates it to the named FPF object.
 
 The RelationSignature and SlotSpecs are declaration content about reusable relation semantics. The world-side relation obtains under its direct predicate and identity rule independently of those epistemes.
 In Tech register, `SlotKind` is the declaration-local kind by which one `RelationSignature` distinguishes a relation-participant meaning. World-side relation prose names the meaning and actual participant directly; the relation occurrence contains no SlotKind. In an assertion or relation-occurrence description episteme, the corresponding SlotSpec distinguishes a relation-participant designation carried by value or by a reference of the declared RefKind. External representation elements retain their source-specific names. A declared correspondence must relate such an element to a named SlotSpec before an FPF relation claim can reuse it.
@@ -19200,14 +19200,14 @@ In Tech register, `SlotKind` is the declaration-local kind by which one `Relatio
 
 The engineering problem appears when the same relation declaration is used in another claim, substitution, or comparison. A ValueKind that covers participants for which the predicate has different meanings makes typed reuse unsound. A reference value leaves its referent kind unstated. A designator for an actual participant is promoted into a U-kind. A role value is confused with the system that holds it. A verb-shaped predicate is read as proof that the relation is work, a method, a transformation, or an acting holon.
 
-These errors do more than blur terminology. They change which substitutions are valid, which object a later claim may reference, what makes the relation obtain, and which direct pattern defines or constrains the repair.
+These errors do more than blur terminology. They change which substitutions are valid, which object a later claim may reference, what makes the relation obtain, and which definition or constraint the repair must preserve.
 
 ### A.6.5:3 - Forces
 
 | Force | Tension |
 |---|---|
 | Readability and reuse | The first relation sentence stays simple, while later claims may need exact typed SlotSpecs. |
-| Local SlotKind and durable participant | A SlotKind is local to one declaration, while the relation participant keeps the identity and kind governed elsewhere. |
+| Local SlotKind and durable participant | A SlotKind is local to one declaration, while the relation participant keeps the identity and kind defined elsewhere. |
 | Exact range and open-ended ontology | A ValueKind needs enough precision for the predicate without forcing every participant into a newly minted U-kind. |
 | Embedded value and stable reference | Some assertion or relation-occurrence description epistemes designate an actual participant by value; others designate it through a reference to an independently identified entity. The world-side relation occurrence has the participant directly in either case. |
 | Logical form and constructive grounding | Predicate and slot discipline help review a relation, while FPF still needs grounded participants, a relation obtaining predicate, and a relation occurrence-identity rule. |
@@ -19215,26 +19215,26 @@ These errors do more than blur terminology. They change which substitutions are 
 
 ### A.6.5:4 - Solution
 
-Apply relation-declaration slot discipline only after the direct relation and its relation-participant meanings have been recovered. Give every relation-participant meaning needed by the current typed use one complete `SlotSpec` in the `RelationSignature`, leave relation obtaining and occurrence identity with the subject pattern, and follow the `A.6.REL` minimum-current-object rule: a later use adds only its current object and the direct relation to an already recoverable object rather than restating the complete relation-object architecture.
+Apply relation-declaration slot discipline only after the direct relation and its relation-participant meanings have been recovered. Give every relation-participant meaning needed by the current typed use one complete `SlotSpec` in the `RelationSignature`. Let the direct-relation definition supply the obtaining predicate and occurrence-identity rule. Follow the `A.6.REL` minimum-current-object rule: a later use adds only its current object and the direct relation to an already recoverable object rather than restating the complete relation-object architecture.
 
 #### A.6.5:4.0 - Ontological status of the discipline
 
-Relation-declaration slot discipline is a rule set, not a durable U-kind. This pattern reuses `RelationSignature`, `SlotSpec`, `SlotKind`, `ValueKind`, and `RefKind` from the existing signature and relation vocabulary; it introduces no U-kind. The notation `U.RelationSlotDiscipline` is not admitted: it has no separate instances, identity rule, grounding rule, constructive assembly, or ontic settlement. The governed object in this pattern is one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements under `C.29`.
+Relation-declaration slot discipline is a rule set, not a durable U-kind. This pattern reuses `RelationSignature`, `SlotSpec`, `SlotKind`, `ValueKind`, and `RefKind` from the existing signature and relation vocabulary; it introduces no U-kind. The notation `U.RelationSlotDiscipline` is not admitted: it has no separate instances, identity rule, grounding rule, constructive assembly, or ontic settlement. A.6.5 constrains one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements under `C.29`.
 
 A.15.3 may cite one exact SlotSpec as the target of a planned participant designation inside a `U.WorkPlan`. That citation does not fill the SlotSpec, extend SlotSpec to another description family, make the planned designation an actual participant, or make the direct relation obtain. Planned operation arguments and results instead cite their exact A.6.1 declarations. No method-description, plan, work, evaluation, card, schema, or record field becomes a SlotSpec. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
 
 #### A.6.5:4.1 - Keep pattern scope exact
 
-| Governed object | Subject pattern | What A.6.5 contributes |
+| Object or claim | Defining or constraining content | What A.6.5 contributes |
 |---|---|---|
-| Direct relation kind, relation-participant meanings, and relation obtaining predicate | the direct relation pattern | no replacement; a compatible `RelationSignature` contains corresponding SlotSpecs governed by A.6.5 |
-| Relation occurrence and identity | the direct relation pattern with `A.6.REL` | exact participant ValueKinds; refMode applies only to relation-participant designations in an assertion or relation-occurrence description episteme |
-| `RelationSignature` declaration | `A.6.0` | complete `SlotSpec` declarations inside its vocabulary item |
-| Assertion that a predicate obtains | `C.2.1` and the direct claim pattern | no new assertion kind; the assertion can name exact relation participants |
-| Local derived kind of participants | `C.3` and `C.3.1` | a local kind whose extent rule selects actual participants corresponding to one declared relation-participant meaning; the SlotKind remains declaration-local |
-| Planned participant designation | `A.15.2` and `A.15.3` | one exact SlotSpec may be cited as the target of a planned filling; A.6.5 contributes only the declaration-local SlotKind, ValueKind, and refMode discipline and establishes neither the plan claim nor actual participation |
+| Direct relation kind, relation-participant meanings, and relation obtaining predicate | the direct-relation definition | no replacement; A.6.5 supplies the SlotSpec discipline for a compatible `RelationSignature` |
+| Relation occurrence and identity | the direct-relation definition and `A.6.REL` | exact participant ValueKinds; refMode applies only to relation-participant designations in an assertion or relation-occurrence description episteme |
+| `RelationSignature` declaration | `A.6.0` defines the containing signature | complete `SlotSpec` declarations inside its vocabulary item |
+| Assertion that a predicate obtains | `C.2.1` defines assertion content; the direct claim pattern defines that claim family | no new assertion kind; the assertion can name exact relation participants |
+| Local derived kind of participants | `C.3` and `C.3.1` define the local kind and its extent rule | a SlotKind that remains local to the relation declaration |
+| Planned participant designation | `A.15.2` and `A.15.3` define the planned claim | one exact SlotSpec may be cited as the target of a planned filling; A.6.5 contributes only the declaration-local SlotKind, ValueKind, and refMode discipline and establishes neither the plan claim nor actual participation |
 
-None of these objects gets its identity or truth condition from A.6.5. A.6.5 governs typing discipline at their shared boundary.
+None of these objects gets its identity or truth condition from A.6.5. A.6.5 supplies the participant-declaration and designation-typing discipline at their shared boundary.
 
 #### A.6.5:4.2 - Declare one complete SlotSpec for each relation-participant meaning needed by typed reuse
 
@@ -19247,13 +19247,13 @@ refMode := ByValue | RefKind
 
 **SlotKind** is the declaration-local kind by which one exact `RelationSignature` distinguishes one relation-participant meaning. `HolderSystemSlot` and `AssignedSystemRoleKindSlot` are different SlotKinds inside the `InspectionShiftAssignment` declaration even when a receiving assertion designates the holder by reference and the assigned system-role kind by value. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. A mathematical operand or numbered argument belongs to its mathematical representation, not to the relation declaration.
 
-**ValueKind** is the exact world-side kind admitted for the actual participant corresponding to the declared participant meaning. Recover it from an accepted kind declaration under its subject pattern. That declaration may settle a durable U-kind, a current C.3 kind, a Concept-Set entry, or an imported sort whose bridge states the corresponding FPF kind. If one proposed ValueKind hides several kinds for which the predicate has different meaning, recover their real common kind or split the relation kind. A prose list of alternatives does neither.
+**ValueKind** is the exact world-side kind admitted for the actual participant corresponding to the declared participant meaning. Recover it from the accepted declaration that defines that kind. The declaration may settle a durable U-kind, a current C.3 kind, a Concept-Set entry, or an imported sort whose bridge states the corresponding FPF kind. If one proposed ValueKind hides several kinds for which the predicate has different meaning, recover their real common kind or split the relation kind. A prose list of alternatives does neither.
 
 **RefKind** is the kind of reference used when a named-use assertion or relation-occurrence description episteme carries a relation-participant designation by reference. A system applying the declared resolution Method obtains a participant of the declared ValueKind as referent. `U.EntityRef`, `U.HolonRef`, `U.EpistemeRef`, and `U.StructureRef` are examples only where their exact RefKind declarations and admission predicates apply. The shorthand `byRef` is usable in a compact local sketch only when the exact RefKind is declared next to that sketch; it is not a complete `refMode` by itself.
 
 **ByValue** means that an assertion or relation-occurrence description episteme carries a value as its relation-participant designation. **By reference** means that it carries a reference value of the declared RefKind as that designation. In both cases, the designation denotes the world-side actual participant. The reference value retains its RefKind, its referent retains the declared ValueKind, the SlotSpec remains declaration content, and the relation occurrence retains its direct identity.
 
-**Naming and source-token repair.** Use `...Slot` only for one declaration-local SlotKind inside one exact `RelationSignature`. Use `...Ref` only for an admitted RefKind or for a governed reference value or designator of that kind; never use it for the actual participant or the SlotKind. Keep the participant's ValueKind name free of both suffixes. Thus `HolderSystemSlot` is the SlotKind, `U.System` is the participant ValueKind, and `Robot_7_Ref : U.EntityRef` is a reference designation whose referent is `Robot_7 : U.System`. If a source token such as `holder` conflates those objects, split them rather than cosmetically renaming the token. A concrete source field keeps its source name and is related to `HolderSystemSlot` only through an explicit declaration or C.29 correspondence.
+**Naming and source-token repair.** Use `...Slot` only for one declaration-local SlotKind inside one exact `RelationSignature`. Use `...Ref` only for an admitted RefKind or for a reference value or designator of that kind; never use it for the actual participant or the SlotKind. Keep the participant's ValueKind name free of both suffixes. Thus `HolderSystemSlot` is the SlotKind, `U.System` is the participant ValueKind, and `Robot_7_Ref : U.EntityRef` is a reference designation whose referent is `Robot_7 : U.System`. If a source token such as `holder` conflates those objects, split them rather than cosmetically renaming the token. A concrete source field keeps its source name and is related to `HolderSystemSlot` only through an explicit declaration or C.29 correspondence.
 
 #### A.6.5:4.3 - Apply the well-formedness constraints
 
@@ -19279,8 +19279,8 @@ A6.5-S4 HonestReference:
   a reference of that RefKind whose resolution denotes a participant
   of the declared ValueKind. The relation itself does not store it.
 
-A6.5-S5 DirectPredicateGovernance:
-  the subject pattern contains statements of the relation predicate,
+A6.5-S5 DirectPredicateDefinition:
+  the identified direct-relation definition states the predicate,
   applicability, and any relation occurrence-identity rule.
 
 A6.5-S6 NoHiddenUnion:
@@ -19292,22 +19292,22 @@ A6.5-S7 RepresentationBoundary:
   world-side participant or relation occurrence by form.
 ```
 
-A system performing typed substitution keeps the SlotSpec fixed and checks a proposed relation-participant designation against the exact ValueKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither operation changes a world-side participant or makes the direct predicate true. The subject pattern defines that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system evaluates those facts by the direct method, and a claim-bearing episteme records affirmative or negative polarity. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility, assertion polarity, evidence, and reliance establish neither obtaining nor occurrence identity.
+A system performing typed substitution keeps the SlotSpec fixed and checks a proposed relation-participant designation against the exact ValueKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither operation changes a world-side participant or makes the direct predicate true. The identified direct-relation definition supplies that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system evaluates those facts by the Method named for the direct predicate, and a claim-bearing episteme records affirmative or negative polarity. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility, assertion polarity, evidence, and reliance establish neither obtaining nor occurrence identity.
 
 #### A.6.5:4.4 - Distinguish predicate grammar from holonhood and agency
 
 A relation predicate is often written as a verb phrase: a system **is assigned to** a system-role kind, a part **belongs to** a whole, one claim **supports** another, or one occurrence **results from** Work. The grammatical verb only helps express the predicate. It does not settle the ontological kind of what the expression denotes.
 
-Use the direct patterns for that settlement:
+Use the following definitions for that distinction:
 
-- `U.Work` and `U.Method` are admitted holon kinds only because their subject patterns supply the required constructive assembly, composition, identity, and meta-holon-transition conditions. `U.Transformation` is instead a root U-kind under `A.3.4` for one independently grounded actual bounded change. Verb-shaped wording proves neither classification.
+- `A.15.1` and `A.3.1` supply the constructive assembly, composition, identity, and meta-holon-transition conditions that admit `U.Work` and `U.Method` as holon kinds. `U.Transformation` is instead a root U-kind under `A.3.4` for one independently grounded actual bounded change. Verb-shaped wording proves neither classification.
 - One context-local system-role kind is admitted under `C.3` and described through `A.2`; it is neither a holon nor an assignment. An admitted `U.System` participates as holder in an assignment occurrence whose species is declared under `U.SystemRoleAssignment`.
 - `U.Relation` is an individuable obtaining relation occurrence under `A.6.REL`. A SlotSpec does not give it constructive parthood or meta-holon transition and does not admit it as a holon.
 - Only an admitted `U.System` acts. A system may be classified by an exact local system-role kind and may participate as holder in an obtaining `U.SystemRoleAssignment`; neither the kind nor the assignment acts. Work is performed, a Method is applied in Work, and a transformation occurs or is carried out. The relation, Method, Work, transformation, kind, signature, and structure do not become actors because prose gives them an active verb.
 
-When one word could denote a relation predicate or a holon occurrence, first ground the participants and ask what obtaining or occurrence identity rule the receiving claim needs. Then select the direct pattern. Do not decide by part of speech.
+When one word could denote a relation predicate or a holon occurrence, first ground the participants and ask what obtaining or occurrence identity rule the receiving claim needs. Then find its definition. Do not decide by part of speech.
 
-Predicate grammar also decides neither claim polarity nor reliance. An ordinary relational assertion states affirmative or negative polarity for the exact direct predicate; a forecast, scenario, counterfactual, permission, or other claim family retains its exact direct governor. Only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately state supported, refuted, or unresolved reliance. None of those claim-side distinctions makes the world-side relation obtain.
+Predicate grammar also decides neither claim polarity nor reliance. An ordinary relational assertion states affirmative or negative polarity for the exact direct predicate; a forecast, scenario, counterfactual, permission, or other claim family retains the rules that define that claim family. Only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately state supported, refuted, or unresolved reliance. None of those claim-side distinctions makes the world-side relation obtain.
 
 #### A.6.5:4.4a - Keep ordinary predicate parameters outside SlotSpec
 
@@ -19328,23 +19328,23 @@ readable assertion of the recovered direct relation
   +-- local C.3 kind with an extent rule, when typed quantification over corresponding participants is current
 ```
 
-The branch marks are representation edges under `C.29`, not transitions in a drafting process, world-side relations, or work occurrences. They show only which additional object the named use consumes. The diagram does not make a `RelationSignature` prerequisite for explicit occurrence individuation, and it neither makes the direct relation obtain nor supplies occurrence identity. The subject pattern defines the obtaining predicate; current case facts or constituting history must satisfy it. The direct occurrence-identity rule governs which occurrence is being distinguished only after that factual condition is met.
+The branch marks are representation edges under `C.29`, not transitions in a drafting process, world-side relations, or work occurrences. They show only which additional object the named use consumes. The diagram does not make a `RelationSignature` prerequisite for explicit occurrence individuation, and it neither makes the direct relation obtain nor supplies occurrence identity. The direct-relation definition supplies the obtaining predicate; current case facts or constituting history must satisfy it. The direct occurrence-identity rule determines which occurrence is being distinguished only after that factual condition is met.
 
 The local-kind branch does not turn every participant qualification into a kind. It is justified only when membership, substitution, quantification, or `U.SubkindOf` reasoning will be performed.
 
 #### A.6.5:4.6 - Dispatch the world-side fact, claim, and local kind
 
-| Current reading | Governed object | Next pattern |
+| Current reading | Object or claim | Next pattern |
 |---|---|---|
 | Relevant current-case facts or constituting history satisfy the direct obtaining predicate for these participants | one world-side relation occurrence whose participants retain their own kinds | direct relation pattern for the test and identity rule; the current case for its factual basis; `A.6.REL` only when occurrence identity is consumed |
-| A claim-bearing episteme designates the participants under declared SlotSpecs and records affirmative or negative polarity for the direct predicate; evidence and reliance remain separate when used | an assertion episteme about the direct relation; an affirmative assertion may designate an occurrence only after current-case facts or constituting history satisfy the direct predicate and the identity rule has been applied; the assertion states but does not warrant or constitute that result; forecasts, scenarios, counterfactuals, permissions, and other claim families retain their exact governors | `C.2.1`, A.6.5, and the direct claim pattern; add `A.10` or the receiving evaluation only when a reliance judgment is current |
+| A claim-bearing episteme designates the participants under declared SlotSpecs and records affirmative or negative polarity for the direct predicate; evidence and reliance remain separate when used | an assertion episteme about the direct relation; an affirmative assertion may designate an occurrence only after current-case facts or constituting history satisfy the direct predicate and the identity rule has been applied; the assertion states but does not warrant or constitute that result; forecasts, scenarios, counterfactuals, permissions, and other claim families retain their own defining rules | `C.2.1`, A.6.5, and the direct claim-family definition; add `A.10` or the receiving evaluation only when a reliance judgment is current |
 | A typed claim ranges over all actual participants corresponding to one declared participant meaning | local C.3 kind whose extent rule selects those participants | `C.3` and `C.3.1` |
 
 These readings do not leave a fourth object called `RelationDefinedQualification`. Do not introduce that name or `E.24.RC`.
 
 They also do not justify a parallel `S-kind` hierarchy for relation-position readings. Keep the direct relation fact under its relation pattern, the claim under `C.2.1`, and introduce a C.3 local kind only when membership, substitution, quantification, or typed reasoning is current.
 
-Do not replace that split with a generic `KindWitnessedFillerSpec` or filler record. The declaration's exact local `ValueKind` types the participant meaning; when typed quantification is current, a separately governed C.3 local kind and its membership rule supply the reusable classification.
+Do not replace that split with a generic `KindWitnessedFillerSpec` or filler record. The declaration's exact local `ValueKind` types the participant meaning; when typed quantification is current, a separately defined C.3 local kind and its membership rule supply the reusable classification.
 
 #### A.6.5:4.7 - Read the SlotSpecs of a Direct System-Role-Assignment Species
 
@@ -19357,7 +19357,7 @@ Do not replace that split with a generic `KindWitnessedFillerSpec` or filler rec
 
 Every assignment species declares its own participant meanings, predicate, applicability, and occurrence-identity rule. It adds another participant meaning only when its corresponding participant changes the predicate or occurrence identity. A `KindSignature`, system-role-taxonomy episteme, effective reference scheme, bridge, or model-use structure may interpret a receiving assertion or use when needed; it is not another participant merely because it helps interpret the claim.
 
-`assignmentInterval` is not another SlotKind or a ValueKind admitted for a relation participant. It is a local content value in an assignment assertion or relation-occurrence description. The field states the currently known temporal extent of one occurrence, including an explicit open end when the occurrence is current. Under `A.2.1`, an occurrence of one direct species begins when its predicate starts obtaining for all fixed actual participants and continues while it obtains without interruption. Closing an open temporal description refines the same occurrence when continuity holds. A missing-evidence interval remains unknown; only demonstrated non-assignment ends that occurrence. A.2.5 assignment-state predicates and direct state relations, capability, performed Work, and every supporting claim remain under their subject patterns.
+`assignmentInterval` is not another SlotKind or a ValueKind admitted for a relation participant. It is a local content value in an assignment assertion or relation-occurrence description. The field states the currently known temporal extent of one occurrence, including an explicit open end when the occurrence is current. Under `A.2.1`, an occurrence of one direct species begins when its predicate starts obtaining for all fixed actual participants and continues while it obtains without interruption. Closing an open temporal description refines the same occurrence when continuity holds. A missing-evidence interval remains unknown; only demonstrated non-assignment ends that occurrence. A.2.5 defines assignment-state predicates and direct state relations; the patterns for capability, performed Work, and supporting claims retain their distinct definitions.
 
 #### A.6.5:4.8 - Recover interface and port relations before declaring slots
 
@@ -19365,23 +19365,23 @@ Keep recognizable source words such as **interface**, **port**, **endpoint**, **
 
 1. Repeat the source sentence so the practitioner can still recognize the situation.
 2. Say in ordinary language what connects, crosses, or is transferred between which exact entities.
-3. Recover the exact direct relation and its defining pattern or declaration. If no current pattern or declaration defines the needed participant meanings, predicate, applicability, and identity rule, require `A.6.RSIR` or record one missing-governor result naming the proposed participants, required predicate, and receiving use.
+3. Recover the exact direct relation and its definition. If no current definition supplies the needed participant meanings, predicate, applicability, and identity rule, require `A.6.RSIR` or record one missing-relation result naming the proposed participants, required predicate, and receiving use.
 4. Only after that relation closes, let its `RelationSignature` declare the SlotSpecs for participant meanings actually reused by the receiving typed claim.
 
-**Compact contrast.** In “the evaporator outlet interfaces with the compressor inlet,” keep **interfaces** for recognition. If the intended claim is that refrigerant crosses from one named outlet to one named inlet, name that medium and those two endpoints and recover the exact transfer-relation pattern before declaring any slots. If **interface** instead names a diagram boundary, API description, protocol, or publication form, keep that object under its own governor. A catalogue of possible participants closes neither branch; without a direct relation pattern, stop before a `RelationSignature`.
+**Compact contrast.** In “the evaporator outlet interfaces with the compressor inlet,” keep **interfaces** for recognition. If the intended claim is that refrigerant crosses from one named outlet to one named inlet, name that medium and those two endpoints and recover the exact transfer-relation definition before declaring any slots. If **interface** instead names a diagram boundary, API description, protocol, or publication form, use the definition for that object and use. A catalogue of possible participants closes neither branch; without a definition of the direct relation, stop before a `RelationSignature`.
 
 #### A.6.5:4.9 - Name the operation by the object that changes
 
-| Operation | Exact change | Governing boundary |
+| Operation | Exact change | Relevant defining or constraining content |
 |---|---|---|
-| supply a designation under one SlotSpec in an assertion or description | carry a value or reference that designates the actual participant admitted by that SlotSpec | A.6.5 governs designation typing; the direct relation pattern defines or constrains the participant meaning and predicate |
-| replace a participant designation in an assertion or description | change the designation associated with one SlotSpec while preserving that SlotSpec | resolve the new designation, then let a system evaluate the direct predicate by its governing method before recording assertion polarity and any separately governed reliance posture |
+| supply a designation under one SlotSpec in an assertion or description | carry a value or reference that designates the actual participant admitted by that SlotSpec | A.6.5 supplies designation typing; the direct-relation definition supplies the participant meaning and predicate |
+| replace a participant designation in an assertion or description | change the designation associated with one SlotSpec while preserving that SlotSpec | resolve the new designation, then let a system evaluate the direct predicate with its defined Method before recording assertion polarity and any separate reliance posture |
 | substitute a participant designation in typed reasoning | replace one designation with another while preserving the SlotSpec and testing ValueKind compatibility; this operation does not replace a world-side participant or establish predicate truth | A.6.5, with C.3 only when the reasoning quantifies over a local participant kind |
-| retarget a reference | replace one reference value in an episteme with another of the same RefKind | the receiving episteme's direct pattern defines or constrains its changed designation; the effective reference scheme supplies the resolution rules and the direct RefKind pattern constrains the referent range; F.18 enters only when a durable name changes; world-side change is a separate claim |
+| retarget a reference | replace one reference value in an episteme with another of the same RefKind | the receiving episteme's definition states how it carries the designation; the effective reference scheme supplies the resolution rules and the RefKind declaration constrains the referent range; F.18 enters only when a durable name changes; world-side change is a separate claim |
 | resolve a reference | obtain the designated referent from a reference under its reference scheme | the effective reference scheme supplies the resolution rules and the direct RefKind pattern constrains the referent range; F.18 enters only when durable naming is current |
 | revise or re-edition a referent | change the referred object or episteme under its own continuity rules | direct object and edition patterns |
 
-Durable name designation is governed by F.18, not by participant-designation substitution or reference resolution. When a system selects a method at run time, use the pattern governing that method family or selector; A.6.5 supplies no method-selection operation. Do not rename that choice with the generic slot `binding` metaphor. If early or late timing matters, name which operation in this table is early or late.
+`F.18` supplies the rules for durable name designation; participant-designation substitution and reference resolution do not. When a system selects a method at run time, use the definition of that method family or selector; A.6.5 supplies no method-selection operation. Do not rename that choice with the generic slot `binding` metaphor. If early or late timing matters, name which operation in this table is early or late.
 
 ### A.6.5:5 - Archetypal Grounding
 
@@ -19410,27 +19410,27 @@ If inspection admission also needs `InspectionReady`, A.2.5 tests `InspectionShi
 
 `Bearing_B isPartOf Pump_P` may remain a readable source claim, but current A.14 supplies no generic or installed-part occurrence-identity rule based on removal, reinstallation, installation interval, or installation work. `PartHolonSlot`, `WholeHolonSlot`, and their RefKinds are therefore only a hypothetical declaration candidate until an accepted direct part-relation pattern states the participant meanings, predicate, applicability, and same-versus-new-occurrence rule. Do not claim current conformance or an individuated part-relation occurrence from this sketch.
 
-Conditional on such a future declaration, changing a proposed part designation from `Bearing_B_Ref` to `Bearing_C_Ref` could be ValueKind-compatible while the direct relation remains false because current case facts do not satisfy its predicate. Until such a subject pattern or relation declaration exists, keep the bearings, pump, installation work, proposed part relation, assertion, designations, and representation separate. The counterexample demonstrates that typed substitution cannot create obtaining; it does not supply the missing parthood settlement.
+Conditional on such a future declaration, changing a proposed part designation from `Bearing_B_Ref` to `Bearing_C_Ref` could be ValueKind-compatible while the direct relation remains false because current case facts do not satisfy its predicate. Until that parthood relation is defined, keep the bearings, pump, installation work, proposed part relation, assertion, designations, and representation separate. The counterexample demonstrates that typed substitution cannot create obtaining; it does not supply the missing parthood settlement.
 
 #### A.6.5:5.3 - Episteme fields are not relation participants by table shape
 
 An evaluation episteme has an EntityOfConcernRef, contains a ClaimGraph, and states an effective ReferenceScheme under `C.2.1`. A card or tuple view may contain visible fields such as `entityOfConcernRef`, `claimGraph`, and `referenceScheme`. Their co-occurrence in one record does not by itself establish another world-side relation, make the fields participants, or declare SlotSpecs for them.
 
-When a direct relation among an episteme and other entities is current, the subject pattern contains the relation kind, participant meanings, obtaining condition, and occurrence identity, and its compatible `RelationSignature` contains the needed SlotSpecs. A.6.5 governs how a receiving assertion types its participant designations. This prevents a convenient episteme form from becoming a pseudo-relation merely because it can be drawn as a tuple or table.
+When a direct relation among an episteme and other entities is current, its definition states the relation kind, participant meanings, obtaining condition, and occurrence identity, and its compatible `RelationSignature` contains the needed SlotSpecs. A.6.5 supplies the rules for typing participant designations in a receiving assertion. This prevents a convenient episteme form from becoming a pseudo-relation merely because it can be drawn as a tuple or table.
 
 #### A.6.5:5.4 - Relation-dependent result wording
 
 After machining, the machined component can remain the same physical entity in a changed state. It does not acquire a special result kind. Start with one question: **did this same component continue through the change, or did a new entity begin?**
 
 1. **Same component continued.** Name that component, the characteristic that changed, and the actual machining transformation. Use the pattern that defines that characteristic and A.3.4 for the bounded change. The component's identity continues; calling it the work's “result” adds no kind, participant meaning, or relation.
-2. **A new entity began.** Use this branch only when a current pattern or declaration defines an admitted identity-inception predicate and identity rule and the current Work and change facts satisfy them. If no such predicate and defining pattern or declaration exists, return one missing-governor result naming the candidate entity, relevant work and change facts, required inception predicate, and receiving use. Do not infer a generic work-result relation.
-3. **The sentence names another relation.** Rewrite it with its one concrete verb and participants before declaring slots. For example, `Component_C was delivered to AssemblyCell_2` selects one candidate delivery claim about that item and receiver, not a `result` kind. Recover that direct relation pattern and any additional participant meanings it requires; if it does not close, return its missing-governor result. Handle an evaluation or acceptance sentence separately when that is the actual wording rather than listing possible subject patterns.
+2. **A new entity began.** Use this branch only when a current definition supplies an admitted identity-inception predicate and identity rule and the current Work and change facts satisfy them. If no such definition exists, return one missing identity-inception result naming the candidate entity, relevant work and change facts, required inception predicate, and receiving use. Do not infer a generic work-result relation.
+3. **The sentence names another relation.** Rewrite it with its one concrete verb and participants before declaring slots. For example, `Component_C was delivered to AssemblyCell_2` selects one candidate delivery claim about that item and receiver, not a `result` kind. Recover that direct relation's definition and any additional participant meanings it requires; if it does not close, return a missing-relation result. Handle an evaluation or acceptance sentence separately when that is the actual wording rather than listing possible pattern families.
 
 Only the direct relation selected by one of those concrete sentences receives a compatible `RelationSignature`, and only when reusable typed use is current. Its assertion episteme records that relation; A.6.5 neither invents a broad result participant nor turns the domain choice into a catalogue.
 
 #### A.6.5:5.5 - Formal reduced case
 
-The expression `3 < 5` is notation carried by a mathematical assertion episteme. Its numeral occurrences, comparison sign, and left and right operand places are representation elements under `C.29`; they are not thereby FPF relation participants or SlotSpecs. When a reusable direct-relation declaration is current in an FPF use, the direct pattern content must identify what entities the numerals designate, the lesser-number and greater-number participant meanings, and the obtaining condition. Its `RelationSignature` may then contain local SlotSpecs such as `LesserNumberSlot` and `GreaterNumberSlot`. An explicit correspondence relates the operand places and their designations to those SlotSpecs. Operand order remains local to the mathematical representation, and the notation alone neither establishes the world-side relation nor individuates an occurrence. No receiving use in this case relies on occurrence identity, so the engineer stops at the typed assertion.
+The expression `3 < 5` is notation carried by a mathematical assertion episteme. Its numeral occurrences, comparison sign, and left and right operand places are representation elements under `C.29`; they are not thereby FPF relation participants or SlotSpecs. When a reusable direct-relation declaration is current in an FPF use, the relation definition must identify what entities the numerals designate, the lesser-number and greater-number participant meanings, and the obtaining condition. Its `RelationSignature` may then contain local SlotSpecs such as `LesserNumberSlot` and `GreaterNumberSlot`. An explicit correspondence relates the operand places and their designations to those SlotSpecs. Operand order remains local to the mathematical representation, and the notation alone neither establishes the world-side relation nor individuates an occurrence. No receiving use in this case relies on occurrence identity, so the engineer stops at the typed assertion.
 
 ### A.6.5:6 - Bias-Annotation
 
@@ -19442,10 +19442,10 @@ A declaration episteme describes reusable relation semantics; a separate represe
 
 ### A.6.5:7 - Conformance Checklist
 
-1. The direct relation kind and subject pattern are named before SlotSpecs are declared.
+1. The direct relation kind and the definition of its predicate, applicability, participant meanings, and identity rule are named before SlotSpecs are declared.
 2. Every participant meaning needed by reusable typed use has one complete `<SlotKind, ValueKind, refMode>` SlotSpec in the `RelationSignature`.
 3. Each SlotKind is local to the one exact `RelationSignature` that contains its SlotSpec.
-4. World-side relation prose names participant meanings and actual participants; declaration prose uses `SlotSpec` and `...Slot` only for declaration-local SlotKinds; receiving-episteme prose names participant designations and uses `...Ref` only for admitted RefKinds or governed reference values. Actual participant ValueKind names carry neither suffix. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. `Position` and `place` are not alternate FPF names for a declaration slot.
+4. World-side relation prose names participant meanings and actual participants; declaration prose uses `SlotSpec` and `...Slot` only for declaration-local SlotKinds; receiving-episteme prose names participant designations and uses `...Ref` only for admitted RefKinds or reference values of those kinds. Actual participant ValueKind names carry neither suffix. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. `Position` and `place` are not alternate FPF names for a declaration slot.
 5. Each ValueKind is exact enough for the direct predicate and does not combine participant kinds for which the predicate has different semantics.
 6. An assertion or description episteme that designates a participant by reference names the exact RefKind and resolves it to the declared ValueKind.
 7. The actual relation participant, its reference, reference resolution, SlotSpec declaration, participant designation in the assertion, and relation occurrence remain distinct.
@@ -19453,32 +19453,32 @@ A declaration episteme describes reusable relation semantics; a separate represe
 9. A verb-shaped predicate is not used as evidence of work, method, transformation, agency, or holonhood.
 10. Only an admitted `U.System` is admitted for `HolderSystemSlot`. Each species under `U.SystemRoleAssignment` declares its `AssignedSystemRoleKindSlot` domain and any additional participant meaning whose value changes the predicate or occurrence identity.
 11. `U.Work` and `U.Method` rely on their own constructive holon tests, while `U.Transformation` relies on `A.3.4`'s actual-bounded-change identity; A.6.5 admits none of them by grammar.
-12. The direct relation pattern defines the obtaining predicate and occurrence-identity rule; current-case facts or constituting history supply the factual basis; a claim-bearing episteme records polarity; and evidence or reliance remains separately governed.
+12. The direct-relation definition supplies the obtaining predicate and occurrence-identity rule; current-case facts or constituting history supply the factual basis; a claim-bearing episteme records polarity; and evidence or reliance remains a separate judgement.
 13. A declaration, assertion, description, representation, or publication episteme does not create the world-side relation by form.
 14. Ordinary use can stop before signatures, explicit occurrence identity, or C.3 kind derivation when the receiving use depends on none of them; typed reuse, occurrence identity, and local-kind quantification are independent thresholds, and none is a prerequisite for another.
 15. Relation-declaration slot discipline remains a rule set; its pattern name is not promoted to `U.RelationSlotDiscipline`.
-16. A relation fact, an episteme claim, and a locally derived kind are dispatched to their direct patterns without minting `RelationDefinedQualification` or `E.24.RC`.
+16. A relation fact, an episteme claim, and a locally derived kind are handled by the patterns that define those respective objects without minting `RelationDefinedQualification` or `E.24.RC`.
 17. SlotSpecs occur only inside exact `RelationSignature` declarations for direct-relation participant meanings; method-description, operation, plan, work, evaluation, representation, card, schema, and record fields do not become SlotSpecs by shape or label. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
 18. An A.15.3 planned-filling row may cite an exact SlotSpec, but the planned designation remains plan content and establishes neither an actual participant nor relation obtaining.
-19. Interface, port, endpoint, API, and signature language remains available for recognition. The text states what connects, crosses, or is transferred between which entities and recovers the subject pattern before declaring SlotSpecs; an unresolved case requires A.6.RSIR or an exact missing-governor result.
+19. Interface, port, endpoint, API, and signature language remains available for recognition. The text states what connects, crosses, or is transferred between which entities and recovers the direct-relation definition before declaring SlotSpecs; an unresolved case requires A.6.RSIR or an exact missing-relation result.
 20. When source wording calls an entity a result, first determine whether the same entity continued or a new entity began. A separately worded delivery, acceptance, or evaluation claim is opened one at a time with its concrete participants; no pattern catalogue or generic result kind substitutes for that decision.
 
 ### A.6.5:8 - Common Failure Modes and Repairs
 
 | Failure | Why it matters | Repair |
 |---|---|---|
-| `U.RelationSlotDiscipline` treated as a root kind | A rule set is promoted into an unsupported world-side entity. | Keep A.6.5 as the governing rules for `SlotSpec`; apply E.24.UK to any future U-kind candidate. |
+| `U.RelationSlotDiscipline` treated as a root kind | A rule set is promoted into an unsupported world-side entity. | Keep A.6.5 as the rule set that constrains `SlotSpec` declarations; apply E.24.UK to any future U-kind candidate. |
 | Generic `byRef` without an exact RefKind | A later use cannot tell what referent kind can be resolved. | Declare the exact RefKind, or expand the compact sketch next to its use. |
 | Reference treated as the relation participant | A storage or publication choice changes the claimed world-side ontology. | Keep the referent as participant; state refMode only for the receiving assertion or description episteme that carries the designation. |
 | One SlotSpec contains a ValueKind written as a list of unrelated alternatives | Different predicate semantics are hidden behind one participant meaning. | Recover the real common ValueKind when one exists; otherwise split the relation kind. |
-| One source word names a SlotKind, participant ValueKind, reference, and field | A reader cannot tell which object may be substituted, resolved, or renamed. | Split the meanings: use `...Slot` only for the declaration-local SlotKind, `...Ref` only for an admitted RefKind or governed reference value, and neither suffix for the participant ValueKind. Keep the source field name and state its explicit correspondence; for example, distinguish `HolderSystemSlot`, `U.System`, and `Robot_7_Ref : U.EntityRef`. |
-| Active grammar used as agency evidence | A relation, method, work, structure, or episteme is said to act. | Recover the acting `U.System`; keep relation, work, method, and transformation claims under their direct patterns. |
+| One source word names a SlotKind, participant ValueKind, reference, and field | A reader cannot tell which object may be substituted, resolved, or renamed. | Split the meanings: use `...Slot` only for the declaration-local SlotKind, `...Ref` only for an admitted RefKind or reference value of that kind, and neither suffix for the participant ValueKind. Keep the source field name and state its explicit correspondence; for example, distinguish `HolderSystemSlot`, `U.System`, and `Robot_7_Ref : U.EntityRef`. |
+| Active grammar used as agency evidence | A relation, method, work, structure, or episteme is said to act. | Recover the acting `U.System`; use the patterns that define the relation, Work, Method, and transformation claims. |
 | A universal context, taxonomy, scheme, or model-use SlotSpec added to the `U.SystemRoleAssignment` family or every species | Interpretive or receiving-use material is turned into a world-side participant, and several assignment laws are hidden under one root signature. | Give each assignment species only `HolderSystemSlot`, its declaration-local `AssignedSystemRoleKindSlot`, and any additional participant meaning whose value changes the predicate or occurrence identity. Keep a `KindSignature`, taxonomy episteme, scheme, bridge, or model-use structure with the assertion or receiving use unless another relation independently makes it a participant. |
-| Interface language erased or promoted | A recognizable source sentence is replaced by either a generic `U.Interface` or an untyped participant catalogue. | Keep the source word for recognition, state what connects, crosses, or is transferred between which exact entities, recover the direct relation pattern, and declare only the SlotSpecs that a receiving typed use actually reuses. Stop at A.6.RSIR or a missing-governor result when no pattern or declaration closes the claim. |
-| Result-family catalogue | The word `result` triggers a list of possible relation families, so the reader cannot tell which object continued or what claim to make. | Ask whether the same entity continued or a new entity began. For continuation, name the changed characteristic and actual transformation. For inception, require an admitted identity-inception predicate and its defining pattern or declaration. If another concrete verb such as `delivered` is present, recover that one relation and its participants. Return a missing-governor result when the selected subject pattern is absent. |
+| Interface language erased or promoted | A recognizable source sentence is replaced by either a generic `U.Interface` or an untyped participant catalogue. | Keep the source word for recognition, state what connects, crosses, or is transferred between which exact entities, recover the definition of the direct relation, and declare only the SlotSpecs that a receiving typed use actually reuses. Stop at A.6.RSIR or a missing-relation result when the relation remains undefined. |
+| Result-family catalogue | The word `result` triggers a list of possible relation families, so the reader cannot tell which object continued or what claim to make. | Ask whether the same entity continued or a new entity began. For continuation, name the changed characteristic and actual transformation. For inception, require an admitted identity-inception predicate and its definition. If another concrete verb such as `delivered` is present, recover that one relation and its participants. Return the corresponding missing-relation or missing identity-inception result when the needed definition is absent. |
 | A participant designation is promoted into a new qualification ontic | A value or reference in an episteme is mistaken for a further world-side object. | Apply the three-way dispatch in A.6.5:4.6: direct relation fact, assertion episteme, or current local participant kind. |
-| A method-description, operation, plan, work, evaluation, card, schema, or record field is called a SlotSpec | A reusable direct-relation participant declaration is invented from representation shape or broad wording. | Require the direct relation pattern and one exact `RelationSignature` and SlotSpec. A receiving semantic field is covered by an explicit declaration against that SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. Handle operation arguments and results under A.6.1 and other fields to their subject patterns. |
-| An A.15.3 planned designation is treated as the actual relation participant | Plan content is mistaken for world-side participation and predicate satisfaction. | Keep the row in the WorkPlan; identify any later participant and obtaining relation independently under the direct pattern. |
+| A method-description, operation, plan, work, evaluation, card, schema, or record field is called a SlotSpec | A reusable direct-relation participant declaration is invented from representation shape or broad wording. | Require the direct-relation definition and one exact `RelationSignature` and SlotSpec. A receiving semantic field is covered by an explicit declaration against that SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. Handle operation arguments and results under A.6.1 and use the definitions for the other fields. |
+| An A.15.3 planned designation is treated as the actual relation participant | Plan content is mistaken for world-side participation and predicate satisfaction. | Keep the row in the WorkPlan; identify any later participant and obtaining relation independently under that relation's definition. |
 
 ### A.6.5:9 - Consequences
 
@@ -19486,13 +19486,13 @@ A declaration episteme describes reusable relation semantics; a separate represe
 
 **Costs.** Load-bearing relation patterns need exact participant ValueKinds and designation modes. A proposed ValueKind may require a relation-kind split when the direct predicate has different semantics for different participant kinds. Existing compact `byRef` sketches may need adjacent expansion before another pattern can rely on them.
 
-**Limits.** A.6.5 is limited to precise SlotSpec declarations and participant-designation typing. It neither defines the direct obtaining test nor decides a current case. The subject pattern defines the predicate and identity rule, current facts or constituting history supply the case basis, and a claim-bearing episteme states the result. Evidence, reliance, model-use structure selection, and domain-interface semantics remain with their subject patterns.
+**Limits.** A.6.5 is limited to precise SlotSpec declarations and participant-designation typing. It neither defines the direct obtaining test nor decides a current case. The direct-relation definition supplies the predicate and identity rule, current facts or constituting history supply the case basis, and a claim-bearing episteme states the result. Separate patterns define evidence, reliance, model-use structure selection, and domain-interface semantics.
 
 ### A.6.5:10 - Rationale
 
 SlotKind, ValueKind, and RefKind answer three different engineering questions about one `RelationSignature`: **which participant meaning does this declaration distinguish**, **what exact world-side kind must the corresponding actual participant have**, and **how does a receiving assertion or description episteme designate that participant**. Keeping the answers separate is enough to support typed substitution and honest reference use without adding a universal relation record.
 
-The direct relation pattern remains essential. A pair of typed participants does not say whether the relation obtains or whether repeated occurrences with the same participants are identical. Constructive ontology therefore combines logical slot discipline with grounding and domain identity rather than treating a schema as the world.
+The direct-relation definition remains essential. A pair of typed participants does not say whether the relation obtains or whether repeated occurrences with the same participants are identical. Constructive ontology therefore combines logical slot discipline with grounding and domain identity rather than treating a schema as the world.
 
 The predicate boundary prevents a second collapse. Natural language often verbalizes relations, work, methods, and transformations. FPF admits their kinds through direct ontological tests, not through grammar. This keeps only systems as actors and as actual participants corresponding to `HolderSystemSlot`, while preserving the accepted holonhood of work and methods and the separate actual-bounded-change identity of transformations.
 
@@ -19505,21 +19505,23 @@ The predicate boundary prevents a second collapse. Natural language often verbal
 | [RDF 1.2 Concepts](https://www.w3.org/TR/rdf12-concepts/) | The RDF 1.2 Candidate Recommendation of 7 April 2026 distinguishes triple terms, propositions, asserted triples, and reifiers used in further statements. | **Adopt the separation.** A graph term or reifier may represent an assertion, but it does not replace the world-side relation, direct obtaining condition, or SlotSpec. This is the boundary exercised by the episteme case in A.6.5:5.3. |
 | Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint | The current comparison line exposes relation aspects, reification choices, and higher-order typing pressure. | **Use as a stress comparator.** Keep relation occurrence, signature, assertion, and local typed projection distinct without importing the source taxonomy as FPF ontology. This tests the three-way dispatch in A.6.5:4.6 and the result-qualification case in A.6.5:5.4. |
 
+Reopen only the affected rule or worked case when a current source revises a premise used here: declaration locality or field typing; the separation of an assertion, reifier, or representation from the world-side relation; or the higher-order-typing stress on the three-way dispatch. A newer edition by itself does not reopen the pattern.
+
 ### A.6.5:12 - Relations
 
-- `A.6.0` governs `U.Signature` and `RelationSignature`; A.6.5 governs SlotSpecs inside their vocabulary declarations.
-- `A.6.REL` governs explicit relation-occurrence individuation and the progressive threshold for stable reference.
+- `A.6.0` defines `U.Signature` and `RelationSignature`; A.6.5 supplies SlotSpec declaration discipline inside their vocabulary declarations.
+- `A.6.REL` defines explicit relation-occurrence individuation and the progressive threshold for stable reference.
 - `A.6.P` and `A.6.RSIR` recover the direct relation and its participants before slot typing begins.
 - Use `A.2.1` for each direct system-role-assignment species' predicate, identity, and participant meanings, and A.6.5 for the exact SlotSpec reading of that species' declaration.
-- `C.2.1` governs episteme identity, assertion and description content, and their semantic fields. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
-- `C.3` and `C.3.1` govern local participant kinds only when typed quantification or kind order is current.
-- `A.15.3` may cite an exact RelationSignature SlotSpec for a planned participant designation; A.15.2/A.15.3 govern the planned claim, the direct relation pattern contains the defining content for the participant meaning and later actual-participation predicate, and A.6.5 supplies only SlotSpec declaration discipline. Operation arguments and results remain A.6.1 declarations.
-- `A.15.1` and `A.3.1` govern the constructive holonhood and identity of work and methods; `A.3.4` governs the actual-bounded-change identity of transformations; `E.18` governs selected transformation-flow structures over those independently governed transformations and adjacent loci.
+- `C.2.1` defines episteme identity, assertion and description content, and their semantic fields. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
+- `C.3` and `C.3.1` define local participant kinds only when typed quantification or kind order is current.
+- `A.15.3` may cite an exact RelationSignature SlotSpec for a planned participant designation; A.15.2/A.15.3 define the planned claim, the direct-relation definition supplies the participant meaning and later actual-participation predicate, and A.6.5 supplies only SlotSpec declaration discipline. Operation arguments and results remain A.6.1 declarations.
+- `A.15.1` and `A.3.1` define the constructive holonhood and identity of Work and Methods; `A.3.4` defines the actual-bounded-change identity of transformations; `E.18` defines selected transformation-flow structures over those independently defined transformations and adjacent loci.
 - `A.1`, `A.2`, `A.2.1`, and `A.15` keep acting systems, exact local system-role kinds, system-role assignments, Methods, and performed Work distinct.
 - Use `A.2.4` for compact episteme evidence-use and status-use relation SlotSpecs, `A.10` for the full evidence-provenance path, and `F.10` for durable status semantics. A.6.5 does not duplicate those relations or make an episteme the holder system, assigned system-role kind, assignment occurrence, or assignment-state relation.
-- `C.30` with the exact named architecture-relation subpattern when one is current governs architecture relation semantics. `A.6.M` governs module-interface relation semantics; a non-module interface use remains with the direct pattern named after `A.6.RSIR` recovery. A.6.5 does not duplicate either family.
-- `C.29` governs tuple components, graph nodes and edges, database fields and rows, and mathematical operands used to represent a relation, assertion, signature, or occurrence description.
-- `E.10`, `E.24.UK`, and `F.18` govern wording recovery, U-kind admission, and designation after the object is known.
+- When one is current, the exact named C.30 architecture-relation subpattern defines the architecture relation. `A.6.M` defines module-interface relations; after `A.6.RSIR` recovery, a non-module interface use follows its direct-relation definition. A.6.5 does not duplicate either family.
+- `C.29` defines how tuple components, graph nodes and edges, database fields and rows, and mathematical operands represent a relation, assertion, signature, or occurrence description.
+- `E.10` supplies wording-use recovery, `E.24.UK` supplies the U-kind admission test, and `F.18` supplies designation guidance after the object is known.
 
 ### A.6.5:End
 
@@ -19539,11 +19541,11 @@ The predicate boundary prevents a second collapse. Natural language often verbal
 
 **Status.** Normative (Core).
 
-**Placement.** Part A, cluster A.IV “Signature Stack & Boundary Discipline”; adjacent to A.6.5 `U.RelationSlotDiscipline`.
+**Placement.** Part A, cluster A.IV “Signature Stack & Boundary Discipline”; adjacent to A.6.5 relation-declaration slot discipline.
 
 **Depends on.**
 – A.6.0 `U.Signature` (universal signature carrier).
-– A.6.5 `U.RelationSlotDiscipline` (SlotKind/ValueKind/RefKind stratification + slot-operation lexicon).
+– A.6.5 relation-declaration slot discipline (SlotKind, ValueKind, and RefKind stratification plus the slot-operation lexicon).
 – A.2.6 (Scope discipline; explicit `Γ_time`; implicit “latest/current” is forbidden).
 – A.2.4 evidence-use and status-use relation discipline for decision-relevant witness sets, including timespan, provenance, scope, polarity, and freshness constraints.
 - A.7 (Strict Distinction; EntityOfConcern vs Description-episteme and specification-use cases vs publication face, form, unit, carrier, and rendering lanes).
@@ -20079,7 +20081,7 @@ Without explicit change classes, prose collapses distinct edits (rebase vs retim
 **Specialises A.6.P Relational Precision Restoration (RPR).**
 A.6.6 is the RPR specialisation for “basedness / relative‑to” claims: it makes the relation kind explicit via `baseRelation`, qualifies it with scope/`Γ_time`/witnesses, and standardises evolution via a base‑change lexicon plus lexical red‑flags (`anchor*`).
 
-**Builds on A.6.5 `U.RelationSlotDiscipline`.**
+**Builds on A.6.5 relation-declaration slot discipline.**
 SWBD introduces a structured record with slots; those slots must be SlotKind/ValueKind/RefKind disciplined, and its change classes must not be confused with slot-edit operations (A.6.5) or name-binding terminology (E.10 / L‑BIND).
 
 **Constrains A.10 evidence admissibility links.**
@@ -21322,7 +21324,7 @@ Finally, classifying claims through A.6.B makes “contract” talk ontologicall
   * E.10 and LEX discipline — if the Context uses Plain twins (“SoI”) or shorthands, they must be registered and kept out of normative register
   * A.6.3 — `U.EpistemicViewing`
   * A.6.4 — `U.EpistemicRetargeting`
-  * A.6.5 — `U.RelationSlotDiscipline`
+  * A.6.5 — relation-declaration slot discipline
   * A.6.6 — Base Declaration Discipline
   * A.6.B — Boundary Norm Square & Claim Register discipline
   * E.17 and E.17.0 — MVPK and multi‑view describing
@@ -27734,7 +27736,7 @@ The word `move` remains inherited from `A.16` and means a typed language-state p
 A trajectory may later cross a viewpoint or context boundary. When that happens:
 
 - bridge substitution licence remains with `F.9`;
-- stance overlays remain with `F.9.1`;
+- stance notes remain with `F.9.1`;
 - viewpoint reuse remains with `E.17.1`;
 - endpoint-local semantics remain in the rules defined or tested by the named endpoint patterns; publication availability remains a separate `E.24.PUB` relation.
 
@@ -43505,11 +43507,11 @@ For the language-space extension, `F` does **not** govern `U.ArticulationExplici
 
 **Plain-name.** Language-state facet profile.
 
-**Use this pattern when.** Use C.2.LS when a governed `U.Episteme` publication needs one explicit profile that keeps formality, articulation, closure, anchoring, representation factors, and local thresholds visible together.
+**Use this pattern when.** Use C.2.LS when a `U.Episteme` publication needs one explicit profile that keeps formality, articulation, closure, anchoring, representation factors, and local thresholds visible together.
 
-**What goes wrong if missed.** Teams replace the facet profile with a maturity adjective such as `ready`, `raw`, or `stable`, then route, reopen, bridge, or govern the publication from a label that hides the actual facet values.
+**What goes wrong if missed.** Teams replace the facet profile with a maturity adjective such as `ready`, `raw`, or `stable`, then use that label to choose routes, decide whether to reopen, interpret Bridges, or make publication decisions. The label hides the actual facet values.
 
-**What this buys.** A thin, decomposable profile bundle: each facet stays governed by its own pattern, while the profile gives authors, assurance readers, and integrators one place to publish threshold-relevant language-state position.
+**What this buys.** A thin, decomposable profile bundle: each facet keeps the definition and tests supplied by its own pattern, while the profile gives authors, assurance readers, and integrators one place to publish a threshold-relevant language-state position.
 
 ### C.2.LS:1 - Problem frame
 Once position claims in the declared language-state chart over `U.CharacteristicSpace` must be published and compared, teams need one thin profile bundle that keeps the relevant facets visible as one explicit facet profile without turning that profile into a second characteristic calculus or a surrogate maturity progression.
@@ -43532,26 +43534,26 @@ Without a dedicated profile bundle, authors blur articulation, closure, anchorin
 - `languageStateClosureDegreeRef` -> `U.LanguageStateClosureDegree` from `C.2.5`
 - `languageStateAnchoringModeRef` -> `U.LanguageStateAnchoringMode` from `C.2.6`
 - `languageStateRepresentationFactorBundleRef` -> `U.LanguageStateRepresentationFactorBundle` from `C.2.7`
-- `thresholdRefs?` -> context-local threshold declarations over the governed facets
+- `thresholdRefs?` -> context-local threshold declarations over the named facets
 - `routeNotes?` -> informative notes that help interpret routing or reopening decisions
 
-`C.2.LS` is therefore a **profile-bundle governing pattern**, not a characteristic governing pattern and not a trajectory governing pattern. Characteristic semantics remain with `A.18/A.19`; admissible moves remain with `A.16`; explicit transition-structure publication remains with `E.18`.
+`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` describes publication of explicit transition structures.
 
 #### C.2.LS:4.0a - Kind and profile-bundle boundary
 
 `U.LanguageStateFacetProfile` is a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A local dashboard, table, route note, or maturity label is a publication or interpretation over the bundle, not the bundle itself.
 
-#### C.2.LS:4.1 - Governing boundary
-`C.2.LS` governs only the profile composition and the rule that the language-state facets must remain explicit and non-collapsed. It does **not**:
+#### C.2.LS:4.1 - Contribution boundary
+`C.2.LS` defines only profile composition and requires the language-state facets to remain explicit and non-collapsed. It does **not**:
 
 - redefine `F`;
 - invent a second formality progression;
-- govern the scale semantics of `AE`, `CD`, `LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`;
-- govern reopen/backoff moves;
-- govern endpoint classification or bridge kinds.
+- redefine the scale semantics of `AE`, `CD`, `LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`;
+- define reopen/backoff moves;
+- define endpoint classification or bridge kinds.
 
 #### C.2.LS:4.2 - Threshold publication discipline
-Any threshold used for routing, admissible move guards, or entry into `A.6.P` shall be published on explicit named facets within the profile. Contexts shall not speak of hidden sub-levels of `F` when what matters is really articulation, closure, anchoring, or the representation-factor bundle.
+Any threshold used to choose a next question, constrain an admissible move, or begin `A.6.P` recovery shall be published on explicit named facets in the profile. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, anchoring, or the representation-factor bundle.
 
 #### C.2.LS:4.2.a - Local profile-reading witness
 For this pattern, a published facet profile is reviewable when:
@@ -43559,7 +43561,7 @@ For this pattern, a published facet profile is reviewable when:
 - the facet refs are explicit or explicitly inherited from an already pinned upstream publication;
 - any threshold-bearing use names the facet whose threshold is being invoked;
 - route notes or local overlays remain informative and visibly docked to the explicit facet bundle;
-- and the profile does not smuggle move rules, bridge rules, gate state, or downstream governing-pattern semantics into the bundle record.
+- and the profile does not smuggle move rules, bridge rules, gate state, or downstream definitions and tests into the bundle record.
 
 A polished label, one strong facet, or one memorable route note does not by itself yield an admissible profile reading. The profile remains conformant only when the named facets stay explicit and decomposable.
 
@@ -43574,9 +43576,9 @@ A language-state judgement may be composite, but the composite shall be decompos
 A conforming profile makes this decomposition visible rather than hiding it under one poetic label such as "early" or "raw".
 
 #### C.2.LS:4.4 - Corridor map note
-`C.2.LS` participates in the current `Language-State & Semantic Routing Corridor`, but only as the thin governing pattern of the facet-profile bundle. Readers who need one map of the full language-state governing-pattern set should read the corridor note in `C.2.2a`.
+`C.2.LS` participates in the current `Language-State & Semantic Routing Corridor`, but contributes only the thin facet-profile bundle. Readers who need one map of the full language-state pattern set should read the corridor note in `C.2.2a`.
 
-That map does not change the governing boundary here: `C.2.LS` still does not govern cue preservation, route-bearing publication, prompt entry, or downstream endpoint use.
+That map does not change this boundary: `C.2.LS` still does not define cue preservation, route-bearing publication, prompt entry, or downstream endpoint use.
 
 ### C.2.LS:5 - Archetypal Grounding
 **Tell.** A team may say a draft is "still forming" for different reasons. `U.LanguageStateFacetProfile` forces the team to say whether the issue is low articulation, low candidate-space closure, an anchoring mismatch, or an unresolved representation-factor bundle.
@@ -43586,47 +43588,44 @@ That map does not change the governing boundary here: `C.2.LS` still does not go
 **Show (Episteme).** An inquiry note can be low articulation yet already tightly anchored to exemplars and traces.
 
 ### C.2.LS:6 - Bias-Annotation
-The pattern biases authors toward explicit facet governance and away from master-scale stories. That cost is intentional: the goal is to prevent surrogate progressions from entering the Core.
+The pattern biases authors toward keeping facets explicit and away from master-scale stories. That cost is intentional: the goal is to prevent surrogate progressions from entering the Core.
 
 ### C.2.LS:7 - Conformance Checklist
-- `CC-C.2.LS-1` A language-state facet profile **SHALL** reference explicit facet governing patterns rather than invent local unnamed factors.
+- `CC-C.2.LS-1` A language-state facet profile **SHALL** reference the patterns that define its facets rather than invent local unnamed factors.
 - `CC-C.2.LS-2` `C.2.LS` **MUST NOT** redefine `F` or create a second formality progression.
 - `CC-C.2.LS-3` Thresholds that matter for routing, reopening, or lexical repair **SHALL** be published on explicit facets.
 - `CC-C.2.LS-4` Trajectory accounts that rely on facet profiles **SHOULD** reuse `A.16` move kinds and `E.18` transition-structure publication rules.
 - `CC-C.2.LS-5` Composite labels such as `early`, `settled`, or `ready` **SHALL NOT** stand in for the explicit facet bundle when those states matter operationally.
 - `CC-C.2.LS-6` Composite readings, overlays, and route notes **SHALL** remain decomposable into named facets and **MUST NOT** behave as hidden master factors.
-- `CC-C.2.LS-7` A profile bundle **MUST NOT** smuggle move rules, bridge rules, gate state, or downstream governing-pattern semantics into what should remain a thin facet-profile record.
+- `CC-C.2.LS-7` A profile bundle **MUST NOT** smuggle move rules, bridge rules, gate state, or downstream definitions and tests into what should remain a thin facet-profile record.
 
 ### C.2.LS:8 - Common Anti-Patterns and How to Avoid Them
 - **Shadow progression.** Treating `early/late` as a master scale. Split the judgement into the named facets.
 - **Formality capture.** Letting `F` stand in for closure or articulation. Publish those facets explicitly.
 - **Bundle inflation.** Turning `U.LanguageStateFacetProfile` into a second `A.19`. Keep it thin and referential.
 - **Opaque readiness.** Using words such as `ready` or `mature` without naming which facet justifies the claim.
-- **Route-note capture.** Letting an informative route note behave like move rule, gate state, or endpoint governance. Keep route notes informative and push operative authority back to `A.16`, downstream governing patterns, or gate/work governing FPF patterns or `authoritySourceRef` targets.
+- **Route-note capture.** Letting an informative route note act as a move rule, gate state, or endpoint rule. Keep route notes informative. Use `A.16` for admissible moves, the applicable pattern for a downstream definition or test, the applicable gate or Work pattern for those claims, and an `authoritySourceRef` only when an external authority actually supplies the rule.
 
 ### C.2.LS:9 - Consequences
-The benefit is authority-reference clarity: early cue work, bridge annotations, and reopen moves can all talk about one explicit facet profile. The trade-off is more explicit profile authoring and threshold publication.
+The benefit is clearer source and rule references: early cue work, bridge annotations, and reopen moves can all refer to one explicit facet profile. The trade-off is more explicit profile authoring and threshold publication.
 
 ### C.2.LS:10 - Rationale
-The pattern gives the declared language-state chart over `U.CharacteristicSpace` one stable facet-profile record through which its facet bundle can be published together, while respecting the rest of FPF's governing boundaries.
+The pattern gives the declared language-state chart over `U.CharacteristicSpace` one stable record through which its facet bundle can be published together, without taking over definitions and tests supplied elsewhere in FPF.
 
 ### C.2.LS:11 - SoTA-Echoing
 
 **SoTA note.** This section does not mint a second rule source. It is a load-bearing alignment statement: the Solution, Conformance Checklist, and boundary discipline of this pattern must match the stance stated here or explicitly justify divergence.
 
-**Traditions covered.** This pattern binds itself to architecture-description governance, model-based systems engineering, and governance/profile discipline.
+**Source boundary.** The exact facet meanings and profile rules come from `A.18/A.19` and the neighboring FPF patterns. External sources are used only when they change a rule or case.
 
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `C.2.LS` | Adoption status |
+| Claim need | Bounded comparison | Exact source | Use in `C.2.LS` | Disposition |
 |---|---|---|---|---|
-| Multi-facet state should be published through explicit profile elements rather than one summary stage label. | Contemporary architecture-description practice keeps the relevant properties, views, and correspondence evidence explicit instead of replacing them with one reader-facing maturity word. | ISO/IEC/IEEE 42010:2022 | `C.2.LS` adopts this by requiring explicit facet refs and by rejecting profile-by-vibe labels such as `ready` or `raw` when the bundle matters operationally. | **Adopt.** |
-| Complex technical state is better captured through typed properties and decomposable profiles than one maturation rail. | Recent MBSE practice favours explicit properties, viewpoints, and cross-view consistency over one implicit staircase of readiness. | OMG SysML v2 (2025) | `C.2.LS` adapts this into a thin facet-profile bundle whose members remain decomposable and whose thresholds stay tied to named facets. | **Adapt.** |
-| Governance-facing readiness should stay scoped and profile-based, not collapse into one global adjective. | Current governance frameworks use explicit profiles, scoped conditions, and local thresholds rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | `C.2.LS` adopts profile-level threshold publication and rejects the popular shortcut where one polished profile label substitutes for explicit facet talk. | **Adopt/Reject-popular-shortcut.** |
+| Readiness claims should stay scoped instead of collapsing into one global adjective. | A profile can state scoped conditions and local thresholds rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | Require explicit facet-level thresholds and reject a polished profile label as a substitute for the facet values. | **Adopt/Adapt.** |
+| A publication can keep several named description elements visible without making their container identical to those elements. | Architecture-description vocabulary distinguishes named elements and their correspondence in a published description. | ISO/IEC/IEEE 42010:2022 | Use this only as a narrow publication comparator; it does not establish the language-state facet ontology. | **Narrow comparator only.** |
 
-**Architecture-description governance.** `C.2.LS` adopts the discipline that useful state publication should keep the relevant profile elements explicit rather than hiding them inside one summary label.
+SysML v2 is deliberately excluded from the positive SoTA basis and from useful lineage for this question. Search prominence and official status do not show that it solves the facet-profile problem, and no demonstrated use here changes a rule or worked case. Treat it as a historical dead end for this comparison. Do not add a replacement citation merely to fill the removed row.
 
-**MBSE and profile discipline.** `C.2.LS` adapts typed multi-property state publication into a thin, decomposable language-state facet bundle rather than one master scale.
-
-**Local stance.** The load-bearing SoTA claim for this pattern is narrow: best-known current practice treats language-state publication as a small explicit facet profile with local thresholds and decomposable readings, not as one maturity adjective or one route-coloured bundle label.
+**Local stance.** The useful bounded result is a small explicit facet profile with local thresholds and decomposable readings, not one maturity adjective or one route-coloured bundle label.
 
 ### C.2.LS:12 - Relations
 - Builds on: `A.18`, `A.19`, `C.2.2a`, `C.2.3`.
@@ -43668,7 +43667,7 @@ When publishing a language-state facet profile:
 
 1. start from the local authoring problem rather than from a memorized progression;
 2. name the facet refs explicitly;
-3. add threshold refs only when a threshold changes routing, repair, or governance;
+3. add threshold refs only when a threshold changes routing, repair, or another operative decision;
 4. avoid global labels such as "mature", "raw", or "ready" unless the profile decomposition is already visible.
 
 #### C.2.LS:14.2 - For assurance readers
@@ -43677,7 +43676,7 @@ An assurance reader should ask:
 - is any facet silently replaced by `F`?
 - is a threshold published on an explicit facet rather than on a poetic surrogate?
 - do route or reopen claims actually match the published facet bundle?
-- are profile notes genuinely informative, or are they smuggling governing semantics that belong elsewhere?
+- are profile notes genuinely informative, or are they smuggling definitions or tests from elsewhere?
 
 #### C.2.LS:14.3 - For integrators
 Integrators should preserve profile references rather than rephrasing them into local slang. A local alias is acceptable only if the underlying facet docking remains explicit and stable.
@@ -43685,7 +43684,7 @@ Integrators should preserve profile references rather than rephrasing them into 
 ### C.2.LS:15 - Extension and Migration Notes
 
 #### C.2.LS:15.1 - Local extension rule
-Contexts may extend the profile with local threshold refs, route notes, or additional descriptive aids, but they shall not add a new master facet that collapses the governed set into one summary factor.
+Contexts may extend the profile with local threshold refs, route notes, or additional descriptive aids, but they shall not add a new master facet that collapses the named facet set into one summary factor.
 
 #### C.2.LS:15.2 - Migration from surrogate prose
 Older prose often says:
@@ -43698,7 +43697,7 @@ Older prose often says:
 A conforming migration rewrites such statements into explicit facet talk: which facet is low, which is high, which threshold is or is not met, and which move that fact justifies.
 
 #### C.2.LS:15.3 - Boundary reminder
-`U.LanguageStateFacetProfile` is a coordination record. If authors find themselves putting move rules, bridge rules, scale rules, or bundle semantics into the profile itself, they are writing in the wrong governing pattern.
+`U.LanguageStateFacetProfile` is a coordination record. If authors put move rules, bridge rules, scale rules, or bundle semantics into the profile itself, that content belongs with the pattern that defines the move, Bridge, scale, or bundle.
 ### C.2.LS:16 - Profile Publication Package Discipline
 
 #### C.2.LS:16.1 - Minimal publishable profile package
@@ -43709,15 +43708,15 @@ A publishable `U.LanguageStateFacetProfile` should normally carry:
 - the local relation to `F` when readers might otherwise treat `F` as a surrogate;
 - any omission note when a facet is intentionally unpublished, unknown, or locally irrelevant.
 
-One-line publication is admissible only if facet governance remains legible.
+One-line publication is admissible only if the facet definitions and tests remain legible.
 
 #### C.2.LS:16.2 - Partial-profile rule
 A partial profile is admissible only when omission is explicit. Publishing `AE` and `CD` while deferring `LanguageStateAnchoringMode` is acceptable; silently omitting it and then speaking in scalar prose such as "early" or "ready" is not.
 
-If only one facet is published, either explain why the others are not governed in the current note or point to the note where they are already published.
+If only one facet is published, either explain why the others are not included in the current note or point to the note where they are already published.
 
 #### C.2.LS:16.3 - Overlay discipline
-Local overlays such as "explicit-but-open", "trace-heavy", or "operator-tight" are admissible only when they dock to explicit facet refs. Overlays remain secondary to the governed profile and must not replace the facet bundle.
+Local overlays such as "explicit-but-open", "trace-heavy", or "operator-tight" are admissible only when they dock to explicit facet refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.
 
 ### C.2.LS:17 - Cross-Facet Reading Rule
 
@@ -43735,14 +43734,14 @@ Read profile transitions facetwise. A note may become more explicit without beco
 #### C.2.LS:18.1 - Review matrix
 An assurance reader should ask:
 
-- is each published facet governed by its proper pattern rather than by surrogate prose;
+- does each published facet keep the definition and test supplied by its own pattern rather than by surrogate prose;
 - does any overlay smuggle a hidden scalar or gate decision;
 - are threshold claims tied to the facet that really bears them;
 - do cited moves in `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, or `B.5.2.0` actually match the facet bundle;
-- if the profile crosses a bridge or viewpoint boundary, are stance and loss notes kept in `F.9` or `F.9.1` rather than imported as fake facets.
+- if the profile crosses a Bridge or viewpoint boundary, did the author use `F.9` for the Bridge, bounded-use claim, and loss account, and keep any optional F.9.1 stance note separate rather than importing it as a fake facet?
 
 #### C.2.LS:18.2 - Migration test for source prose
-Source phrases such as "still immature", "not ready yet", or "already stable enough" should be unpacked into: which facet is claimed, which anchor or bundle member justifies it, which threshold or route consequence follows, and which `governingPatternRef` or `authoritySourceRef` carries that consequence.
+Source phrases such as "still immature", "not ready yet", or "already stable enough" should be unpacked into: which facet is claimed, which anchor or bundle member justifies it, which threshold or route consequence follows, and which cited rule or external `authoritySourceRef` justifies that consequence.
 
 #### C.2.LS:18.3 - Comparative profile use
 Compare profiles facetwise unless a Context has published an explicit local aggregation for reporting. Such an aggregation remains secondary and must not replace the profile in norms, thresholds, or bridge claims.
@@ -44132,17 +44131,17 @@ A publication may be closed enough for immediate local work use or reliance use 
 
 **Plain-name.** Language-state anchoring mode.
 
-**Use this pattern when.** Use C.2.6 when a governed `U.Episteme` publication needs to say whether its current position is anchored in bodily enactment, traces, model state, document mediation, operator loop, or an explicit mixed regime.
+**Use this pattern when.** Use C.2.6 when a `U.Episteme` publication needs to say whether its current position is anchored in bodily enactment, traces, model state, document mediation, operator loop, or an explicit mixed regime.
 
 **What goes wrong if missed.** A prose note hides an embodied, trace-based, model-latent, or operator-loop cue; bridge-loss notes disappear; and the final publication face is mistaken for the original anchoring regime.
 
 **What this buys.** A nominal anchoring-mode characteristic that keeps source anchoring, publication face, carrier, bridge loss, evidence, and reliance claims separate while still letting teams compare language-state positions.
 
 ### C.2.6:1 - Problem frame
-Published position claims in the declared language-state chart over `U.CharacteristicSpace` differ not only by articulation and closure, but by how the governed `U.Episteme` in that claim is anchored to bodies, traces, model states, documents, or operator loops.
+Published position claims in the declared language-state chart over `U.CharacteristicSpace` differ not only by articulation and closure, but by how the `U.Episteme` named in that claim is anchored to bodies, traces, model states, documents, or operator loops.
 
 ### C.2.6:2 - Problem
-Without an explicit anchoring-mode declaration, embodiment and source anchoring are smuggled into informal prose or folded into representation terms. That undercuts cue comparison, undercuts bridge loss notes, and turns operator-facing language-state work into a special case with no explicit governing-pattern relation.
+Without an explicit anchoring-mode declaration, embodiment and source anchoring are smuggled into informal prose or folded into representation terms. That makes cues harder to compare, hides bridge-loss notes, and leaves operator-facing language-state work without an explicit anchoring rule.
 
 ### C.2.6:3 - Forces
 | Force | Tension |
@@ -44152,11 +44151,11 @@ Without an explicit anchoring-mode declaration, embodiment and source anchoring 
 | **Comparability vs oversimplification** | Compare anchoring regimes without flattening them into text-vs-nontext slogans. |
 
 ### C.2.6:4 - Solution
-`U.LanguageStateAnchoringMode` is a nominal characteristic that states the primary anchoring regime of the governed `U.Episteme` named by the current position claim: bodily enactment, trace, model state, document, operator loop, or an explicit mixed regime. If source anchoring and current publication-face anchoring differ, both shall be distinguished rather than collapsed.
+`U.LanguageStateAnchoringMode` is a nominal characteristic that states the primary anchoring regime of the `U.Episteme` named by the current position claim: bodily enactment, trace, model state, document, operator loop, or an explicit mixed regime. If source anchoring and current publication-face anchoring differ, both shall be distinguished rather than collapsed.
 
 #### C.2.6:4.0a - Kind and characteristic boundary
 
-`U.LanguageStateAnchoringMode` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the anchoring-mode basis slot and nominal family for governed episteme publication positions. Evidence, source-currentness, publication face, carrier, work, gate, and reliance claims remain with their direct governing patterns.
+`U.LanguageStateAnchoringMode` is a dependent durable characteristic value under the declared `U.LanguageStateSpace` / `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the anchoring-mode basis slot and nominal family for episteme publication positions. This characteristic does not decide evidence, source-currentness, publication-face, carrier, Work, gate, or reliance claims; those claims retain their own definitions and tests.
 
 #### C.2.6:4.1 - Starter family
 | Mode | Reading | Typical evidence anchor |
@@ -44168,9 +44167,9 @@ Without an explicit anchoring-mode declaration, embodiment and source anchoring 
 | `AM.OperatorLoop` | the episteme is directly tied to operator intervention or console control | operator witness, console event, policy hook |
 | `AM.Mixed` | more than one anchoring mode matters substantively | explicit component list and why the mix matters |
 
-#### C.2.6:4.2 - Governing boundary
+#### C.2.6:4.2 - Contribution boundary
 
-`U.LanguageStateAnchoringMode` is an anchoring-mode characteristic for one governed `U.Episteme` claim. It is not a representation factor bundle, closure state, truth status, evidence relation, source-currentness relation, work claim, gate claim, or reliance permission by itself. Model-latent, operator-loop, embodied, trace, and document-mediated cases name where the episteme is anchored for the current claim; any publication face, carrier, source-currentness, bridge-loss, work, evidence, or gate claim stays with the direct governing pattern.
+`U.LanguageStateAnchoringMode` is an anchoring-mode characteristic for one `U.Episteme` position claim. It is not a representation factor bundle, closure state, truth status, evidence relation, source-currentness relation, Work claim, gate claim, or reliance permission by itself. Model-latent, operator-loop, embodied, trace, and document-mediated cases name where the episteme is anchored for the current claim. A publication-face, carrier, source-currentness, bridge-loss, Work, evidence, or gate claim needs its applicable definition or test; anchoring mode alone does not decide it.
 
 If embodiment matters, it shall be declared here or immediately beside this characteristic rather than being hidden inside representation talk.
 
@@ -44178,7 +44177,7 @@ If embodiment matters, it shall be declared here or immediately beside this char
 `AM.Mixed` is admissible only when the component modes are named explicitly. "Mixed" shall not be a lazy escape from deciding whether the key anchor is bodily, trace-based, model-latent, document-mediated, or operator-loop based.
 
 #### C.2.6:4.4 - Bridge implications
-Bridge work over governed `U.Episteme` publications in the declared language-state chart should pay attention to anchoring shifts. A translation from `AM.EmbodiedFelt` to `AM.DocumentMediated`, or from `AM.ModelLatent` to prose, often requires explicit loss notes in `F.9` and may require a bridge-use note in `F.9.1`.
+An anchoring shift can matter when a published `U.Episteme` is translated across semantic contexts. A translation from `AM.EmbodiedFelt` to `AM.DocumentMediated`, or from `AM.ModelLatent` to prose, may provide evidence about an F.9 Bridge or bounded-use claim. Use F.9 to state the Bridge, claim, evidence, and loss account. Use F.9.1 only for a separate optional stance note about that claim.
 
 ### C.2.6:5 - Archetypal Grounding
 **Tell.** A felt cue, a controller-side probe score, and a textual design note may all be early cues, but they are anchored differently.
@@ -44239,7 +44238,7 @@ When declaring anchoring mode, ask:
 An assurance reader should watch for the common mistake where prose formatting tricks authors into forgetting the original anchoring mode.
 
 #### C.2.6:14.3 - Bridge note
-If anchoring changes across publication or translation, `F.9` and `F.9.1` should often carry explicit loss or stance notes rather than silent equivalence language.
+If anchoring changes across publication or translation, use F.9 for the Bridge, bounded-use claim, and its evidence and loss account. Use F.9.1 only when a separate stance note about that claim helps replace silent equivalence language with a bounded reading.
 
 ### C.2.6:15 - Extension and Migration Notes
 
@@ -44274,8 +44273,8 @@ Distinguish the anchoring mode of the source cue from the anchoring mode of the 
 #### C.2.6:17.1 - Shift declaration rule
 When an episteme crosses from one anchoring mode to another, state whether the shift is merely publication-level or whether it changes what can be preserved, compared, or trusted. A move from operator-loop enactment to report prose, for example, often drops timing, bodily load, and enactment friction.
 
-#### C.2.6:17.2 - Bridge-loss governing relation
-If an anchoring shift matters across contexts, `F.9` or `F.9.1` should govern the loss or stance note. `C.2.6` only requires the shift to be noticed and not misrepresented as lossless.
+#### C.2.6:17.2 - Bridge-loss rule
+If an anchoring shift matters across semantic contexts, use F.9 to state the Bridge, bounded-use claim, and loss account; add an F.9.1 stance note only when it helps explain that claim. `C.2.6` only requires the shift to be noticed and not misrepresented as lossless.
 
 #### C.2.6:17.3 - Same-content illusion test
 Two cues may be paraphrased into the same sentence while remaining differently anchored. If the anchoring regime differs, the cues are not automatically substitutable.
@@ -44295,7 +44294,7 @@ An assurance reader should ask:
 A new local anchoring mode is justified only when it answers a distinct anchoring question that the starter family cannot express without distortion.
 
 #### C.2.6:18.3 - Cross-facet reminder
-Anchoring mode often correlates with representation and articulation changes, but it does not govern them. Reject prose that uses `AM.ModelLatent`, `AM.EmbodiedFelt`, or `AM.OperatorLoop` as shorthand for being vague, early, trustworthy, or closed.
+Anchoring mode often correlates with representation and articulation changes, but it does not define or test them. Reject prose that uses `AM.ModelLatent`, `AM.EmbodiedFelt`, or `AM.OperatorLoop` as shorthand for being vague, early, trustworthy, or closed.
 
 ### C.2.6:End
 
@@ -44451,7 +44450,7 @@ Representation factors may correlate, but they do not determine one another. Hig
 Representation talk must not silently replace `AE`, `CD`, or `LanguageStateAnchoringMode`. A shift from distributed to symbolic publication may change readability while leaving articulation low, closure open, or anchoring heavily operator-bound.
 
 #### C.2.7:17.3 - Bridge reminder
-If a representation shift matters in transport across contexts, note that the shift may alter what is preserved or salient. The bridge itself remains governed by `F.9` and `F.9.1`.
+If a representation shift matters in transport across contexts, note that the shift may alter what is preserved or salient. Use `F.9` for the Bridge and its bounded-use claim; use `F.9.1` only for a separate optional stance note about that claim.
 
 ### C.2.7:18 - Review Matrix and Extension Tests
 
@@ -47949,7 +47948,7 @@ Part C > `C.16` characterization pattern nest > precision-restoration pattern fo
 `E.10`, `E.10.ARCH`, `C.16.P`, `C.16`, `C.25`, `E.21`, `A.17`, `A.18`, `A.19`, `A.7`, `C.2.1`, `E.8`, `F.9`, and `F.18`.
 
 **Coordinates with.**
-`A.6.P` for relation-construction exits; `A.6.A` for action-invitation exits; `C.2.2a`, `A.16`, `A.16.1`, `A.16.2`, and `B.4.1` for language-state positions, admissible moves, early cues, next-use docking, and retreat; `A.16.0` only when lineage, branch, loss, or an actual responsibility-handoff history itself needs an explicit trajectory account; `B.5.2.0` for an open explanatory probe; `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7` for articulation, closure, anchoring, and representation-factor facets; `C.2.1` for effective ReferenceScheme, result-episteme identity, and optional empirical grounding; `A.2.6` for ClaimScope; `A.19.CPM` for comparison; `E.17.0`, `E.17`, and `E.18` for exact viewpoint resolution and publication; `C.30.AD` and `C.30.ASV` for architecture-description and structural-view use; `A.10` and `B.3` for evidence and assurance; `F.9` for direct cross-local Bridges and bounded-use claims; `F.9.1` only for stance overlays on existing Bridge Cards; `A.19.CN` for comparability governance; and `C.3.3` for explicit kind-bridge repair when endpoint kind mismatches appear.
+`A.6.P` for relation-construction exits; `A.6.A` for action-invitation exits; `C.2.2a`, `A.16`, `A.16.1`, `A.16.2`, and `B.4.1` for language-state positions, admissible moves, early cues, next-use docking, and retreat; `A.16.0` only when lineage, branch, loss, or an actual responsibility-handoff history itself needs an explicit trajectory account; `B.5.2.0` for an open explanatory probe; `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7` for articulation, closure, anchoring, and representation-factor facets; `C.2.1` for effective ReferenceScheme, result-episteme identity, and optional empirical grounding; `A.2.6` for ClaimScope; `A.19.CPM` for comparison; `E.17.0`, `E.17`, and `E.18` for exact viewpoint resolution and publication; `C.30.AD` and `C.30.ASV` for architecture-description and structural-view use; `A.10` and `B.3` for evidence and assurance; `F.9` for direct cross-local Bridges and bounded-use claims; `F.9.1` only for optional stance notes about those claims; `A.19.CN` for comparability governance; and `C.3.3` for explicit kind-bridge repair when endpoint kind mismatches appear.
 
 **E.10.ARCH handoff.**
 When `E.10` encounters `quality`, `good`, `fit`, `high-quality`, `quality metric`, `quality score`, `quality characteristic`, `quality requirement`, `model quality`, `architecture quality`, `solution quality`, or evaluative `-ility` wording whose quality sense, bearer, effective ReferenceScheme, probe/model or comparison configuration, ClaimScope, endpoint normal form, or endpoint rule is hidden, `E.10.ARCH` uses `C.16.Q` only until those values are recovered. Once the recovered claim is about a characteristic or bundle, relation, action invitation, representation, evidence, assurance, gate, work, decision, source use, or another named use, apply `C.16.P`, `C.25`, `E.21`, `A.6.P`, `A.6.A`, `C.29`, `A.10`, `B.3`, `A.20`, `A.21`, `C.11`, `C.2.P`, or the pattern that defines, constrains, or tests that claim. `C.16.Q` does not absorb those neighboring rules after the handoff is clear.
@@ -47963,13 +47962,13 @@ It also does not assert that every trigger use of "quality" is admissibly repair
 
 Use this pattern when wording such as `quality`, `good`, `fit`, `high-quality`, `quality characteristic`, `quality improved`, or an evaluative `-ility` claim hides which quality or evaluative-characterization use is live.
 
-**Lowest sufficient use.** Keep ordinary praise or quoted source-local wording ordinary when it carries no FPF-governed use. When the evaluative endpoint is already known, publish the form defined for that endpoint directly. Use `qualityTermAscription(...)` only when transitional ambiguity must remain inspectable. Its core bearer, scheme, frame, scope, evaluator/viewpoint, and result boundaries stay explicit; add optional witness, evidence, grounding, Bridge, Card, overlay, time, plane, and substrate refs only when those branches are live.
+**Lowest sufficient use.** Keep ordinary praise or quoted source-local wording ordinary when it carries no FPF-governed use. When the evaluative endpoint is already known, publish the form defined for that endpoint directly. Use `qualityTermAscription(...)` only when transitional ambiguity must remain inspectable. Its core bearer, scheme, frame, scope, evaluator/viewpoint, and result boundaries stay explicit; add optional witness, evidence, grounding, Bridge, bounded-use-claim, Card, stance-note, time, plane, and substrate refs only when those branches are live.
 
 **What goes wrong if missed.** A broad quality word becomes a scalar verdict, gate, evidence claim, relation, Bridge, action invitation, or bundle by appearance, while the bearer, scheme, probe/model configuration, comparison configuration, ClaimScope, quality sense, admissible normal form, and applicable endpoint rule remain hidden.
 
 **What this buys.** The reader can recover the bearer and interpretation basis, see which probe/model and comparison configurations are active, distinguish evaluator from viewpoint, identify the candidate quality sense and admissible normal form, and take any result, evidence, grounding, Bridge, or relation claim to the pattern that defines or tests it before using the quality word as action guidance.
 
-**First useful move.** Name the bearer, effective ReferenceScheme, probe/model frame, comparison frame or `none`, and ClaimScope; then decide whether the wording is evaluative characterization, characteristic-scale construction, Q-bundle, pattern-quality coordinate, relation construction, Bridge or stance-overlay use, action invitation, or ordinary prose, and apply the pattern for that use.
+**First useful move.** Name the bearer, effective ReferenceScheme, probe/model frame, comparison frame or `none`, and ClaimScope; then decide whether the wording is evaluative characterization, characteristic-scale construction, Q-bundle, pattern-quality coordinate, relation construction, an F.9 Bridge or bounded-use claim, an optional F.9.1 stance note, action invitation, or ordinary prose, and apply the pattern for that use.
 
 **Not this pattern when.**
 
@@ -48106,8 +48105,9 @@ qualityTermAscription :=
   evidenceProvenancePathRefs?: refs to exact direct relations in an A.10 path,
   empiricalGroundingRelationRef?: exact EpistemeEmpiricalGroundingRelation occurrence ref | none,
   bridgeOccurrenceRef?: exact F.9 Bridge occurrence ref | none,
+  bridgeUseClaimRef?: exact F.9 bounded-use claim ref | none,
   bridgeCardRef?: exact F.9 Bridge Card ref | none,
-  bridgeStanceOverlayRef?: exact F.9.1 overlay ref | none,
+  bridgeStanceNoteRef?: exact F.9.1 stance-episteme ref | none,
   endpointPatternLocator?: pattern ref for the endpoint,
   endpointSourceRelationRef?: exact direct source or publication relation ref,
   admissibleUse,
@@ -48117,7 +48117,7 @@ qualityTermAscription :=
 
 `effectiveReferenceScheme`, `probeOrModelFrameRef`, `comparisonFrameRef`, and `claimScope` are explicit even when the comparison value is `none`; no generic `context` or `frame` slot defines their semantics. A probe or model frame remains the exact domain-local probe/model configuration. A comparison frame resolves the applicable `CG-Spec`, comparator edition, comparison scope, reference plane, and interval under A.19.CPM; it is not a universal `Frame` kind.
 
-The record designates, but does not embed, a viewpoint. A non-`none` `viewpointRef` is one `U.ViewpointRef` whose governed resolution yields an exact viewpoint episteme; the reference, the viewpoint episteme, and the evaluator remain different objects. `qualityResultClaimRef` is not assessment work, while witness refs and an A.10 evidence-provenance path establish neither a result nor empirical grounding. Cite `empiricalGroundingRelationRef` only for a separately obtaining C.2.1 relation between the identified episteme and exact holon under governed observation, intervention, measurement, test, or evaluation relations. Likewise, cite an F.9 Bridge occurrence, Card, or F.9.1 overlay only when each independently exists. At least one of `endpointPatternLocator` and `endpointSourceRelationRef` is required. The locator identifies the pattern passage that defines or tests the endpoint; it does not make the pattern an actor or require a separate assertion or `ClaimGraph` unless a named later use depends on that rule identity.
+The record designates, but does not embed, a viewpoint. A non-`none` `viewpointRef` is one `U.ViewpointRef` whose governed resolution yields an exact viewpoint episteme; the reference, the viewpoint episteme, and the evaluator remain different objects. `qualityResultClaimRef` is not assessment work, while witness refs and an A.10 evidence-provenance path establish neither a result nor empirical grounding. Cite `empiricalGroundingRelationRef` only for a separately obtaining C.2.1 relation between the identified episteme and exact holon under governed observation, intervention, measurement, test, or evaluation relations. Likewise, cite an F.9 Bridge occurrence and bounded-use claim only when each independently exists. Cite a Card only when that optional package exists. Cite a stance note only when its reference resolves a C.2.1 episteme whose `EntityOfConcern` is that exact use claim. At least one of `endpointPatternLocator` and `endpointSourceRelationRef` is required. The locator identifies the pattern passage that defines or tests the endpoint; it does not make the pattern an actor or require a separate assertion or `ClaimGraph` unless a named later use depends on that rule identity.
 
 So the sentence "X has quality" is never accepted as a terminal form. It must be rewritten either into the evaluative form for a known endpoint or into this transitional repair form with its interpretation-bearing and neighboring-object boundaries declared.
 
@@ -48254,7 +48254,7 @@ A conforming `qualityTermAscription` SHALL make explicit:
     Name exact exemplars, probes, measurements, bundle members, tests, traces, closed-loop performance carriers, or other witnesses. If an evidence-provenance path is relied on, cite its exact direct relations under A.10. Independently cite an obtaining `EpistemeEmpiricalGroundingRelation`, or state `none`; witness or record presence does not create that relation.
 
 12. **Cross-local and endpoint boundaries.**
-    Cite an exact F.9 Bridge occurrence only when it obtains, and cite a Card or F.9.1 stance overlay only when independently present. State the endpoint pattern or endpoint source relation, the admissible use, and nearest non-admissible use rather than letting *quality* or a stance token carry them.
+    Cite an exact F.9 Bridge occurrence and bounded-use claim only when they independently exist. Cite a Card only when that optional package exists, and cite an F.9.1 stance note only when its `EntityOfConcern` is that claim. State the endpoint pattern or endpoint source relation, the admissible use, and nearest non-admissible use rather than letting *quality* or a stance token carry them.
 
 #### C.16.Q:4.5 - Normal-form discipline
 
@@ -48319,26 +48319,28 @@ C.16.Q SHALL prevent the collapse of **function or capability** claims into **qu
 
 Within one exact `<ReferenceScheme, LocalSenseClaim>` interpretation basis, lexical restoration may choose a local sense or rename without asserting an F.9 Bridge. When two quality senses have different interpretation bases, first resolve both exact F.17 `SchemeSenseCell` values and test the direct F.9 Bridge predicate. Scheme difference, shared spelling, an analogy, a loss note, or a quality record establishes no Bridge.
 
-If the Bridge obtains, cite its exact occurrence. State any proposed comparison, substitution, operationalization, or projection as a separate F.9 bounded-use claim with direction, rule, tolerance, polarity, and effective ReferenceScheme; then apply A.10 or B.3 only for the reliance branch that is actually live. A Bridge Card remains optional reusable packaging. Only when such a Card already exists and a compact interpretive gloss has practical value may C.16.Q cite one F.9.1 stance overlay:
+If the Bridge obtains, cite its exact occurrence and state any proposed comparison, substitution, operationalization, or projection as a separate F.9 bounded-use claim. That claim names the direction, rule, tolerated loss, polarity, and effective ReferenceScheme. Apply A.10 or B.3 only for the reliance branch that is actually live. A Bridge Card remains optional reusable packaging.
 
-* **`localRename`** — read the card as near-renaming within its declared local boundary; it does not establish cross-local identity.
-* **`operationalizes`** — read the target as a procedural or measurable aid over the Bridge; it does not establish work, implementation, permission, or use suitability.
-* **`partialAnalogy`** — read the declared correspondence as partial; it does not license substitution.
-* **`projection`** — read the target as a deliberate reduction of the source reading; the separate bounded-use claim carries its rule and tolerated loss.
-* **`nonEquivalent`** — block equivalence and silent substitution; the overlay alone does not assert `Disjoint`, a negative obtaining claim, or an evidence score.
+Add an F.9.1 stance note only when a short interpretive cue helps a reader understand that exact bounded-use claim. The note is a separate C.2.1 episteme whose `EntityOfConcern` is the claim. Its optional label may be, for example:
 
-These tokens are F.9.1 annotations over an existing Card, not Bridge kinds, direct relations, result claims, or substitutes for loss notes and bounded-use claims.
+* **`localRename`** — read this use as near-renaming within its declared local boundary; do not infer cross-local identity.
+* **`operationalizes`** — read the receiving expression as a procedural or measurable aid for this use; do not infer work, implementation, permission, or suitability beyond the cited claim.
+* **`partialAnalogy`** — read the stated correspondence as partial; do not infer substitution.
+* **`projection`** — read this use as a deliberate reduction of the source reading; the F.9 claim still carries its rule and tolerated loss.
+* **`nonEquivalent`** — treat this as a warning against equivalence and silent substitution; the label alone asserts neither `Disjoint`, negative polarity, nor an evidence score.
+
+These tokens are optional reading labels inside a stance note. They are not Bridge kinds, direct relations, result claims, or substitutes for the Bridge, bounded-use claim, evidence, or loss account.
 
 Examples:
 
-* `QS.PreconceptualFit` and `QS.LatentFit` are usually only candidates for partial correspondence. If their exact F.17 cells are cross-local, test an F.9 kind such as `Partial-overlap`; do not infer identity from the `partialAnalogy` gloss.
+* `QS.PreconceptualFit` and `QS.LatentFit` are usually only candidates for partial correspondence. If their exact F.17 cells are cross-local, test an F.9 kind such as `Partial-overlap`; an optional `partialAnalogy` note may help read the resulting bounded-use claim but cannot establish identity.
 * A progression from `QS.PreconceptualFit` to `QS.PhenomenalCharacter` needs its exact direct relation or bounded-use account; shared articulation history does not make the senses identical.
-* Using `QS.PreconceptualFit` to choose engineering measures is a proposed operationalization or projection use. Name the actual Bridge, the separate use rule and loss tolerance, and the direct measurement or characterization result.
+* Using `QS.PreconceptualFit` to choose engineering measures is a proposed operationalization or projection use. Name the actual Bridge, separate use rule and tolerated loss, and direct measurement or characterization result. Add a stance note only if it improves the reading.
 * Relating `QS.EngineeringQualityFamily` to `QS.UseValue` is normally a directional, loss-bearing proposed use under a declared CG-frame, not identity and not permission to substitute one score for the other.
-* `QS.ExplanatoryMerit` and `QS.UseValue` remain non-identical unless an exact F.9 Bridge obtains; an F.9.1 `nonEquivalent` overlay may help read an existing Card but cannot replace the Bridge finding.
+* `QS.ExplanatoryMerit` and `QS.UseValue` remain non-identical unless an exact F.9 Bridge obtains. An F.9.1 `nonEquivalent` note may help read an existing bounded-use claim but cannot replace the Bridge finding or claim polarity.
 * Pirsig-style **dynamic quality** may locally cue `QS.PreconceptualFit` or sometimes `QS.LatentFit`. Within one exact interpretation basis this may be a local rename; across bases it needs exact F.17 cells and F.9 treatment. The label alone supplies neither identity nor empirical grounding.
 * Pirsig-style **static quality** usually cues a `Characteristic` or `Bundle` publication under another declared sense; it is not identical with dynamic quality.
-* `QS.ArchitecturalDescriptionFitness` and `QS.EngineeringQualityFamily` have different bearer lanes. Any cross-local correspondence must keep the exact description-side and system-side cells, Bridge occurrence, bounded use, and losses separate and must name which description-fitness heads, if any, are proposed to proxy which system-side characteristics.
+* `QS.ArchitecturalDescriptionFitness` and `QS.EngineeringQualityFamily` have different bearer lanes. Any cross-local correspondence must keep the exact description-side and system-side cells, Bridge occurrence, bounded-use claim, and losses separate and must name which description-fitness heads, if any, are proposed to proxy which system-side characteristics.
 
 #### C.16.Q:4.8 - Change lexicon
 
@@ -48369,13 +48371,13 @@ A silent **sense rewrite** is a breaking semantic change.
 If the ascription ceases to mean “quality ascription” at all, close it with `exitQualityAscription(...)` and publish the recovered claim in the form needed for its use rather than pretending the same record survived unchanged.
 
 **A.6.P rewrite note.**
-`retargetBearer(...)` is the family-specific form of `retargetParticipant(BearerSlot, …)`. It, `retargetEvaluator(...)`, `retargetViewpointRef(...)`, and `retargetBridgeOccurrenceRef(...)` are reference-retargeting moves and SHALL preserve the A.6.5 distinction between a reference and the object it resolves. `reviseSense(...)`, `reArticulate(...)`, `reProxy(...)`, `reBundle(...)`, `reScale(...)`, `reProbeOrModelFrame(...)`, and `reComparisonFrame(...)` refine `reviseByValue(...)`. `reReferenceScheme(...)` and `rescopeClaim(...)` change interpretation-bearing values and require an identity check for any published C.2.1 episteme. Witness, evidence-path, result-claim, grounding-relation, Bridge, Card, and overlay refs change independently; no edit silently rewrites another.
+`retargetBearer(...)` is the family-specific form of `retargetParticipant(BearerSlot, …)`. It, `retargetEvaluator(...)`, `retargetViewpointRef(...)`, and `retargetBridgeOccurrenceRef(...)` are reference-retargeting moves and SHALL preserve the A.6.5 distinction between a reference and the object it resolves. `reviseSense(...)`, `reArticulate(...)`, `reProxy(...)`, `reBundle(...)`, `reScale(...)`, `reProbeOrModelFrame(...)`, and `reComparisonFrame(...)` refine `reviseByValue(...)`. `reReferenceScheme(...)` and `rescopeClaim(...)` change interpretation-bearing values and require an identity check for any published C.2.1 episteme. Witness, evidence-path, result-claim, grounding-relation, Bridge, bounded-use-claim, Card, and stance-note refs change independently; no edit silently rewrites another.
 
 #### C.16.Q:4.8a - A.6.B boundary classification template for quality-term repair
 
 When a repaired quality statement becomes boundary-bearing, classify it explicitly:
 
-* **L** — `qualityTermAscription` repair-form skeleton, `QualitySense` semantics, normal-form admissibility, cross-local routing, and the rule that any F.9.1 stance remains an optional overlay over an existing Bridge Card;
+* **L** — `qualityTermAscription` repair-form skeleton, `QualitySense` semantics, normal-form admissibility, cross-local routing, and the rule that any F.9.1 stance note remains a separate optional episteme about an already constituted bounded-use claim;
 * **A** — admissibility conditions for using the ascription in selector, gating, and publication lanes (required qualifiers, witnesses, thresholds, qualification windows);
 * **D** — publication requirements (lexical firewall, mandatory rewrites, publication duties);
 * **E** — carrier-anchored evidence and work effects (measurements, traces, critique sheets, probe packs, selector logs).
@@ -48411,7 +48413,7 @@ C.16.Q permits monotone elaboration:
 3. Name the probe or model frame and the separate comparison frame or explicit `none`; then name evaluator and `U.ViewpointRef` independently.
 4. Choose an admissible **normal form** and identify any separately constituted quality-result claim.
 5. Add exemplars, probes, characteristic heads, bundle members, objective pins, witness refs, and exact A.10 evidence-provenance paths as needed. Cite empirical grounding only through an independently obtaining relation.
-6. If cross-local correspondence is live, resolve exact F.17 cells and F.9 Bridge truth before adding an optional Card or F.9.1 stance overlay; keep the bounded-use claim separate.
+6. If cross-local correspondence is live, resolve exact F.17 cells, the obtaining F.9 Bridge, and the separate bounded-use claim. Add a Card only as optional packaging and an F.9.1 stance note only as optional reader help about that claim.
 7. If the repaired sentence is boundary-bearing, emit `L/A/D/E` hooks rather than letting *quality* carry them implicitly.
 8. Never move between sense families, frames, schemes, scopes, result claims, or neighboring relations silently.
 
@@ -48420,7 +48422,7 @@ C.16.Q permits monotone elaboration:
 #### C.16.Q:5.1 - Tell
 
 If a draft says *quality*, the draft has not yet named the evaluative family.
-A conforming rewrite publishes either the evaluative form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, Card, and stance overlay.
+A conforming rewrite publishes either the evaluative form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (System lane)
 
@@ -48618,7 +48620,7 @@ A text or pattern conforms to C.16.Q iff:
 12. **CC-C16Q-12 - Functional separation.**
     Function or capability claims remain distinct from quality-family claims.
 13. **CC-C16Q-13 - Bridge accountability.**
-    Cross-local comparison resolves exact F.17 cells and cites an obtaining F.9 Bridge. Any bounded-use claim, optional Card, and F.9.1 overlay remain separate; a stance, `CL`, shared label, or loss note establishes none of them.
+    Cross-local comparison resolves exact F.17 cells and cites an obtaining F.9 Bridge plus the exact bounded-use claim when a use is proposed. Any optional Card and F.9.1 stance note remain separate; the stance note's `EntityOfConcern` is that claim. A stance word, `CL`, shared label, or loss note establishes none of them.
 14. **CC-C16Q-14 - Boundary-claim hook when needed.**
     If a repaired ascription is used for admissibility, commitment, publication, evidence-bearing decision, or adjudication, the downstream `L/A/D/E` claims and the patterns used to define or test them are explicit.
 15. **CC-C16Q-15 - Lexical firewall.**
@@ -48630,7 +48632,7 @@ A text or pattern conforms to C.16.Q iff:
 18. **CC-C16Q-18 - Reference resolution is not object substitution.**
     Designators, governed refs, their resolved viewpoint or bearer objects, evaluator, result, frame, scope, grounding holon, and any selected structure remain distinct.
 19. **CC-C16Q-19 - Change verbs dock cleanly with A.6.P and A.6.5.**
-    `retargetBearer(...)` and the other declared reference moves are used only for ref retargeting; by-value revisions use their declared verbs; a scheme or scope change triggers claim-identity review; edits to witnesses, evidence paths, grounding, Bridge, Card, or overlay refs do not silently rewrite one another; and silent retyping is forbidden.
+    `retargetBearer(...)` and the other declared reference moves are used only for ref retargeting; by-value revisions use their declared verbs; a scheme or scope change triggers claim-identity review; edits to witnesses, evidence paths, grounding, Bridge, bounded-use-claim, Card, or stance-note refs do not silently rewrite one another; and silent retyping is forbidden.
 
 ### C.16.Q:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -48646,7 +48648,7 @@ A text or pattern conforms to C.16.Q iff:
 | **Generic-frame collapse** | one `evaluationFrame` or context label is expected to supply probe, model, comparison, scope, and scheme semantics | hides independently governed choices and makes a changed comparison look like the same claim | name the effective ReferenceScheme, probe/model frame, A.19.CPM comparison frame, and ClaimScope separately |
 | **Embedded viewpoint** | the record stores a viewpoint-looking value as evaluator or generic context | collapses reference, viewpoint episteme, evaluator, and result | store one governed `U.ViewpointRef` or `none`; resolve it under E.17.0 and keep evaluator separate |
 | **Witness-is-grounding** | a test report, trace, score, or filled record is cited as empirical grounding | presence of a carrier or result label establishes no direct relation | name witness refs and A.10 path separately; cite an exact obtaining `EpistemeEmpiricalGroundingRelation` or `none` |
-| **Bridge-by-label or overlay** | shared *quality* wording or a F.9.1 stance is treated as the cross-local relation or as use authority | creates false identity, silent loss, and unauthorized substitution | resolve exact F.17 cells, test and cite the F.9 Bridge, then state the separate bounded-use claim; add a Card or overlay only when independently present |
+| **Bridge-by-label or stance note** | shared *quality* wording or an F.9.1 stance word is treated as the cross-local relation or use authority | creates false identity, silent loss, and unauthorized substitution | resolve exact F.17 cells, test and cite the F.9 Bridge, then state the separate bounded-use claim; add a Card only as optional packaging and a stance note only when its `EntityOfConcern` is that claim |
 
 ### C.16.Q:9 - Consequences
 
@@ -48730,7 +48732,7 @@ This section follows the required structure: **claim > practice > source use and
 
 **Scale legality.** The rows above do **not** license free arithmetic on the word *quality*. Whenever C.16.Q operationalizes engineering heads, selector objectives, or control adequacy numerically, it **SHALL** bind the comparison to an explicit `ComparatorSet`, `CG-Spec`, or declared aggregation policy and **SHALL** reject covert scalarization of bundles, explanations, or preconceptual signals.
 
-**Cross-local and plane note.** This section states alignment and non-identity only. Any actual reuse of a quality vocabulary, selector head, or viewpoint-bound family across different `<ReferenceScheme, LocalSenseClaim>` bases SHALL resolve two exact F.17 cells and cite an obtaining F.9 Bridge. The proposed use, direction, rule, tolerated loss, polarity, evidence reliance, and any cross-plane representation relation remain separately governed; a stance overlay, `CL`, loss note, shared label, or plane policy makes none of them obtain.
+**Cross-local and plane note.** This section states alignment and non-identity only. Any actual reuse of a quality vocabulary, selector head, or viewpoint-bound family across different `<ReferenceScheme, LocalSenseClaim>` bases SHALL resolve two exact F.17 cells and cite an obtaining F.9 Bridge. The proposed use, direction, rule, tolerated loss, polarity, evidence reliance, and any cross-plane representation relation remain separate; a stance word or note, `CL`, loss note, shared label, or plane policy makes none of them obtain.
 
 **Historical-lineage note.** Earlier touchstones such as Pirsig, Popper, and Deutsch remain useful as lineage and local-gloss resources, but C.16.Q does not use them as formal SoTA anchors here because E.8 requires post-2015 primary sources for Architectural patterns unless the row is explicitly lineage or local-gloss material.
 
@@ -48753,7 +48755,7 @@ The refresh action is to remove, narrow, or redirect the affected row or exit. D
 
 * **Lives in:** **C.16** characterization pattern nest as the quality-term realization of **E.10.ARCH** and **C.16.P**.
 * **Builds on:** **E.10.ARCH** for shared wording-use restoration architecture; **C.16.P** for characteristic and scale exits; **A.2.6** for explicit scope and `Γ_time`; **A.17, A.18, and C.16** for admissible measurable characteristics; **C.25** for engineering `Q-Bundle` publication.
-* **Coordinates with:** **A.6.P** when recovered content is relation construction rather than evaluative characterization; **A.6.A** or another applicable action-invitation pattern when the trigger invites action; **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for language-state positions, early cues, next-use docking, and retreat or reopen; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance; **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`; **A.2.6** for `U.ClaimScope` and `U.ContextSlice`; **A.19.CPM** for comparison; **A.10** for evidence-provenance and bounded reliance; **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy; **E.17.0** and **E.17.2** for exact viewpoint epistemes and `U.ViewpointRef`; **C.30.AD** and **C.30.ASV** for architecture-description and structural-view use; **F.9** for exact cross-local Bridge occurrences and bounded-use claims; **F.9.1** only for stance overlays over an existing Bridge Card; and **A.6.B** when repaired ascriptions become boundary-bearing.
+* **Coordinates with:** **A.6.P** when recovered content is relation construction rather than evaluative characterization; **A.6.A** or another applicable action-invitation pattern when the trigger invites action; **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for language-state positions, early cues, next-use docking, and retreat or reopen; use **A.16.0** only when lineage, branch, loss, or an actual responsibility-handoff history itself must be published as an explicit trajectory account; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facets; **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`; **A.2.6** for `U.ClaimScope` and `U.ContextSlice`; **A.19.CPM** for comparison; **A.10** for evidence-provenance and bounded reliance; **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy; **E.17.0** and **E.17.2** for exact viewpoint epistemes and `U.ViewpointRef`; **C.30.AD** and **C.30.ASV** for architecture-description and structural-view use; **F.9** for exact cross-local Bridge occurrences and bounded-use claims; **F.9.1** only for separate optional stance notes about those claims; and **A.6.B** when repaired ascriptions become boundary-bearing.
 * **Publishes vocabulary through:** **E.10, F.17, and F.18** when the `qualityTermAscription` repair-form skeleton, the `QualitySense` starter set, and the red-flag rewrites become stable shared vocabulary.
 
 #### C.16.Q:12.1 - Language-space refactor note
@@ -48771,7 +48773,7 @@ Admissible endpoints after repair include:
 Bare `quality` in Tech prose should therefore be banned or rewritten immediately using the applicable endpoint pattern or explicit endpoint source relation. If that endpoint is already known, `qualityTermAscription(...)` need not remain in the published normal form.
 
 #### C.16.Q:12.3 - What C.16.Q leaves to other patterns
-C.16.Q does not define or test articulation-state characteristics, Bridge truth, stance-overlay identity, evidence-provenance, empirical grounding, comparison operations, viewpoint resolution, or representation factors. Use `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `F.9`, `F.9.1`, `A.10`, `C.2.1`, `A.19.CPM`, `E.17.0`, or the applicable representation pattern for those questions.
+C.16.Q does not define or test articulation-state characteristics, Bridge truth, bounded-use claims, stance-note identity, evidence-provenance, empirical grounding, comparison operations, viewpoint resolution, or representation factors. Use `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `F.9`, `F.9.1`, `A.10`, `C.2.1`, `A.19.CPM`, `E.17.0`, or the applicable representation pattern for those questions.
 
 ### C.16.Q:End
 
@@ -54082,7 +54084,7 @@ Question-to-pattern map:
 | --- | --- |
 | Coarsened rendering of source episteme or source publication for narrower use | `A.6.3.CSC` |
 | Same-selected-entity representation-scheme or reasoning-medium transition | `A.6.3.RT` |
-| Cross-context equivalence, substitution, projection, export, or loss | `F.9` / `F.9.1` |
+| Cross-context equivalence, substitution, projection, export, or loss | `F.9` for the Bridge and bounded-use claim; `F.9.1` only for an optional stance note about that claim. Keep the lens-specific preserved and lost structure here. |
 | Measurement coordinate, scale, score, result, or dashboard reading | `C.16` |
 | Evidence carrier, provenance, method, support, or time window | `A.10` |
 | Assurance claim, release support, audit, readiness, or compliance use | `B.3` |
@@ -80407,7 +80409,7 @@ Only a recoverable exact external source may appear here as SoTA evidence. ISO 4
 
 
 **Builds on.**
-`A.6.2-A.6.4` (episteme morphism classes), `A.6.5 U.RelationSlotDiscipline`, `A.7`, `E.7`, `E.10`, `E.10.D1`, `E.10.D2`, and `E.17.0 MultiViewDescribing`.
+`A.6.2-A.6.4` (episteme morphism classes), A.6.5 relation-declaration slot discipline, `A.7`, `E.7`, `E.10`, `E.10.D1`, `E.10.D2`, and `E.17.0 MultiViewDescribing`.
 
 **Used by.**
 `E.17.2` (TEVB engineering viewpoint bundles), `E.18:5.12`, and domain-specific viewpoint families for architecture, governance, safety, research, or assurance.
@@ -80798,7 +80800,7 @@ A description family may project only a subset of a reusable bundle. This is adm
 
 First decide whether the comparison stays inside one exact effective reference scheme. In that branch, name the exact members or claim subgraphs, comparison predicate, polarity, scope, and participants, then apply the pattern that defines the predicate; provenance merely identifies their catalogue origins. If only names, member sets, omissions, or structures can be compared, state that bounded lexical or structural contrast and stop.
 
-When local senses cross schemes or contexts, resolve the exact F.17 cells and apply F.9. A semantic correspondence may be claimed only when the exact Bridge obtains; a proposed comparison, translation, or reuse additionally requires its own `<u,d,r,t>` bounded-use claim and current A.10 reliance disposition or triggered B.3 assurance branch. Similar family labels, matching designators, matching member counts, or provenance tuples establish none of those results. F.9.1 may annotate an already recovered Bridge for readability but cannot supply the Bridge or widen its use boundary.
+When local senses cross schemes or semantic contexts, resolve the exact F.17 cells and apply F.9. Claim a semantic correspondence only when the exact Bridge obtains. A proposed comparison, translation, or reuse also needs its own bounded-use claim naming the proposed use, direction, correspondence rule, tolerated loss, and polarity, plus a current A.10 reliance disposition or the B.3 assurance branch when its threshold is met. Similar family labels, matching designators, matching member counts, or provenance tuples establish none of those results. Use F.9.1 only to add a separate stance episteme whose EntityOfConcern is that bounded-use claim; it neither annotates nor reidentifies the Bridge and cannot widen the claim.
 
 #### E.17.1:19.3 - Boundary to publication-face design
 A publication face may render one composite presentation of several viewpoints, but the face is not the bundle. `E.17.1` therefore requires the underlying member structure to remain recoverable even when a public-facing document flattens it for readability.
@@ -81358,7 +81360,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 | Is the primary issue explanation-facing rendering class on an existing MVPK face? | `E.17.EFP ExplanationFaithfulnessProfile`. |
 | Is the primary issue one bounded comparative review unit over sources? | `E.17.ID.CR ComparativeReviewUnit`. |
 | Did the EntityOfConcern, target, ontology frame, or claim or relation record named by value change? | `A.6.4`, `OntologicalReframing`, or the retargeting or reframing pattern named by value. |
-| Is the publication-facing unit being used as bridge, substitution, equivalence, "same", "equivalent", "align", or "map" wording, or cross-context comparison relation? | Use Part F and `A.6.9` for repairing "same", "equivalent", "align", or "map" wording into explicit bridge work; use `F.9` or `F.9.1` for Bridge Cards, bridge kind, direction, `CL`, loss notes, bounded use, and stance overlays. Comparison alone is not a bridge. |
+| Is the publication-facing unit being used as bridge, substitution, equivalence, "same", "equivalent", "align", or "map" wording, or cross-context comparison relation? | Use Part F and `A.6.9` to repair the wording. Use F.9 for the obtaining Bridge, bounded-use claim, optional `CL`, evidence and loss boundaries, and optional Card. Use F.9.1 only for a separate stance note about that claim. Comparison alone is not a Bridge, and a publication face is neither the Bridge nor the note. |
 | Is the live question carrier, export, OCR, screen, front-end behavior, or work on carriers? | `A.7` and the exact carrier relation, front-end relation, or work-on-carrier record. |
 
 **Evidence-path boundary.** An `A.10` evidence/provenance path, including one that cites attestation, freshness, or a G.11 currentness result, carries only the claim named by value it instantiates. It does not approve or authorize work, pass a gate, perform work, supply release permission, or raise assurance or engineering-justification use unless the typed project-side FPF kind and reference named by value that carries that downstream claim is also instantiated, such as `A.15.4`, `A.15`, `A.20`, `A.21`, or `B.3`.
@@ -81405,7 +81407,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 **Source-gap states.** When the source relation is missing, say which source gap is present: source not named; source named but unavailable; source available but not used; source used but insufficient; source stale or outside its window; source contradicted; or mismatch among the source-maintenance System, any maintenance Work admitted by A.15.1 and F.6, the status register, and a separately established responsibility relation. Assignment establishes neither source-maintenance responsibility nor status-register authority. Block only the unsupported effect and keep any reduced bounded use available.
 
-**Measure and display overread.** A number, score, percentage, color, rank, confidence value, similarity value, dashboard state, or measurement display is orientation only until its measurement source, aggregation rule, time window, scope, calibration or evidence path, and intended use are recoverable. Use `A.10` for evidence, `B.3` for assurance, `A.20`/`A.21` for gate use, `A.15.4` plus the recovered work relation for work reliance, and `F.9`/`F.9.1` for bridge or substitution claims.
+**Measure and display overread.** A number, score, percentage, color, rank, confidence value, similarity value, dashboard state, or measurement display is orientation only until its measurement source, aggregation rule, time window, scope, calibration or evidence path, and intended use are recoverable. Use `A.10` for evidence, `B.3` for assurance, `A.20`/`A.21` for gate use, `A.15.4` plus the recovered work relation for work reliance, and F.9 for a Bridge or bounded-use claim. Use F.9.1 only for an optional stance note about an already constituted claim.
 
 **World-contact stop.** A face does not self-refresh after source update, revocation, policy change, holon-state change, incident, model update, environmental change, or new observation. Refresh the source, reissue the publication, or recover the new concrete project-side record before downstream work, evidence, gate, control, carrier, or reliance continues.
 
@@ -81423,7 +81425,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 - **Green dashboard tile.** A tile says `Model ready`. Treat the tile as the `PublicationUnit` when that tile carries the present release overread. The useful publication use is source-finding and status orientation unless an exact `GateDecisionRef`, gate profile, source relation, and evidence or currentness relation are recoverable. Without those, the tile is not release permission or gate passage by green color or placement.
 - **Generated explanation with source links.** A generated text explains a method and cites sources. The explanation rendering is not source replacement. Source links carry only the pinned operative claims they actually carry. If work or reliance is present, use `A.10` for the evidence path named by value or keep the rendering as reader help; if the rendering is deliberately reduced-use, use `A.6.3.CSC`.
-- **Comparison table.** A table compares two methods and places one first. Ordering is not selection. The comparator or sorting relation, source references, shared review frame, and unsupported downstream claim remain visible. Choice or decision needs `C.11`; equivalence or bridge relation needs `F.9` or `F.9.1`.
+- **Comparison table.** A table compares two methods and places one first. Ordering is not selection. The comparator or sorting relation, source references, shared review frame, and unsupported downstream claim remain visible. Choice or decision needs `C.11`; equivalence or a Bridge needs F.9, while F.9.1 may add only an optional stance note about an established bounded-use claim.
 - **Unrecovered source wording.** A draft uses source-object wording, undeclared interpretive-view shorthand, or generic unit wording without naming the FPF kind. Recover the FPF kind and relation positions instead of minting source-relation pseudo-kinds or undeclared interpretive-view pseudo-kinds. Use `PublicationUnit` only when a bounded reader-inspected unit inside a publication is present; otherwise use the exact episteme, view, publication, carrier relation, section of a named non-pattern FPF publication form whose reader-help function and reference are recoverable, `A.6.P` relation claim, or typed project-side FPF kind and reference named by value.
 - **Translated tutorial.** A translated tutorial can improve reader access to an FPF pattern. It is a derivative rendering, not the original source. Operative claims need source mapping for reliance, translated heads can need `E.17.AUD.LHR` or `C.2.P`, and `F.18` is present only when durable naming, UTS, Core-facing, or cross-context naming work is intended.
 
@@ -81702,8 +81704,8 @@ Multi-view publication is needed because one account can serve several concerns 
 * **Builds on:** `C.2.1` for selected-edition identity; `E.24.PUB` for `PublicationFormExpressionRelation`, `PublicationFormBearingRelation`, and the exact publication occurrence; `E.17.0` for viewpoint and `U.View` membership; `A.22` for selected structure; `C.29` for representation; `A.7` and `E.10.D2` for carrier, front-end, EntityOfConcern, Description-episteme, and specification-use discipline; `A.6.2`-`A.6.3` for optional source-to-candidate construction; `E.8` and `E.10` for authoring and publication-language discipline; and Part F and Part G for bridge, terminology, characteristic, and pin discipline.
 * **Constrains:** publication-face-emitting automation and hand-written faces. When another episteme is constructed from a source, A.6.3 supplies the separate construction relation; E.17.0 separately tests viewpoint conformance, and E.24.PUB separately identifies publication occurrence/form/carrier. Readable form creates none of those relations, nor an evidence path, gate decision, work occurrence, assurance record, release source, or bridge declaration.
 * **Neighboring-pattern boundary use:** use the compact boundary aid in `E.17:5.1d` when a publication-facing unit starts carrying work, reliance, evidence, assurance, gate, release, bridge, explanation, comparison, retargeting, carrier, or front-end claims beyond ordinary publication use. This Relations section cites that aid instead of repeating the whole map.
-* **Part F bridge wording boundary:** when the publication face uses or invites "same", "equivalent", "align", "map", substitutable, interchangeable, attribute, entity, or profile matching, or other bridge-wording claim pressure across contexts, the wording repair belongs to Part F and `A.6.9`; the bridge relation belongs to `F.9` or `F.9.1`. `E.17` does not create a local bridge taxonomy.
-* **Coordinates with:** `C.2.P` for exact source-expression and source-to-use recovery before publication-facing wording is relied on; `A.15.4` for appearance-based reliance repair; C-cluster selection or archive patterns when separately constructed epistemes are selected or retained; CHR and UNM for measurement and normalization semantics; `F.9` or `F.9.1` for exact bridge relations; and `A.6.9` for sameness wording. Publication faces remain publication forms; their bounded-use declarations, selected or receiving epistemes, occurrences, and carriers remain separate, and face status never establishes `U.View` membership.
+* **Part F bridge wording boundary:** when the publication face uses or invites "same", "equivalent", "align", "map", substitutable, interchangeable, attribute, entity, or profile matching, or other Bridge-wording pressure across contexts, use Part F and `A.6.9` to repair the wording. Use F.9 for the Bridge and bounded-use claim, and F.9.1 only for a separate optional stance note about that claim. Neither object follows from a publication face, and no local Bridge taxonomy is introduced here.
+* **Coordinates with:** `C.2.P` for exact source-expression and source-to-use recovery before publication-facing wording is relied on; `A.15.4` for appearance-based reliance repair; C-cluster selection or archive patterns when separately constructed epistemes are selected or retained; CHR and UNM for measurement and normalization semantics; F.9 for exact Bridge occurrences, bounded-use claims, optional `CL`, evidence and loss boundaries, and optional Cards; F.9.1 for separate optional stance epistemes; and `A.6.9` for sameness wording. Publication faces remain publication forms; their bounded-use declarations, selected or receiving epistemes, occurrences, and carriers remain separate, and face status never establishes `U.View` membership.
 
 ### E.17:14 - Minimal authoring template (Part E)
 
@@ -82335,7 +82337,7 @@ Without a named comparative-review-unit discipline:
 | Force | Tension |
 | --- | --- |
 | **Engineer-manager usability vs governance precision** | The pattern starts from a recognisable review situation without hiding its neighboring patterns. |
-| **Middle-band reality** | Some bounded comparisons are more committed than a bridge-stance overlay over an existing Bridge Card but still below full action selection. |
+| **Middle-band reality** | Some bounded comparisons add more interpretive lift than a short F.9.1 stance note about an existing bounded-use claim but still stop below full action selection. |
 | **Source tether vs interpretive lift** | The case adds a bounded interpretive lift without pretending to create a new free-floating semantics. |
 | **Comparison unit vs surrounding work** | The pattern keeps the comparative review unit, the bounded comparison, and the larger review process distinct rather than sliding between them by style. |
 | **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation-scheme transition whose main question is not bounded comparison. |
@@ -82370,7 +82372,7 @@ Use `E.17.ID.CR`, `ID.CR`, or `ComparativeReviewUnit` when this bounded comparis
 
 #### E.17.ID.CR:4.1.c - Why the comparative-review-unit specialization needs its own discipline
 
-Teams already produce small comparative review units, often as comparison notes, comparison sheets, or guided review aids, that are more committed than a plain bridge-stance overlay over an existing Bridge Card but still below action selection, ontology reframing, retargeting, or approval guidance.
+Teams already produce small comparative review units, often as comparison notes, comparison sheets, or guided review aids, that add more interpretive lift than a short F.9.1 stance note about an existing bounded-use claim but still stop below action selection, ontology reframing, retargeting, or approval guidance.
 Leaving that middle band unnamed creates two opposite failures: one reader dismisses the review unit as harmless prose, while another over-reads it as if it already carried substitution, action-selection pressure, or action authority.
 
 This pattern gives teams a narrow way to prepare, share, and inspect that comparative review unit without smuggling a downstream claim or effect beyond what the source, bridge stance, and bounded use can honestly carry.
@@ -82386,7 +82388,7 @@ This pattern uses a small local vocabulary for review.
 - **Compared alternative** = one distinct option, method, bulletin, strategy, note, view, source episteme, source publication, or project-side FPF kind and reference named by value kept separate under the shared review frame.
 - **Same `EntityOfConcernRef` case** = the special case where the compared sources describe the same entity. This is common, but it is not required when distinct alternatives remain under one shared review frame.
 - **Interpretive lift** = the bounded comparative or asymmetry-bearing comparison added on top of already available source epistemes or source publications; in a small comparison sheet, each row has its own declared comparison criterion while the unit keeps one shared blocked downstream claim or effect and boundary trigger.
-- **Bridge Card reference** = required `bridgeCardRef` when the case depends on bridge-mediated correspondence rather than ordinary source interpretation alone; optional `bridgeStanceRef` can qualify that bridge only after the bridge card exists.
+- **Bridge references** = required `bridgeOccurrenceRef` and `boundedUseClaimRef` when the case depends on bridge-mediated correspondence rather than ordinary source interpretation alone; optional `bridgeCardRef` cites reusable packaging, and optional `bridgeStanceRef` cites a separate F.9.1 episteme whose `EntityOfConcern` is that exact use claim.
 - **Bounded comparative use** = what this review unit can be used for while it remains only a bounded comparative review unit.
 - **Overread risk** = how the review unit is most likely to be overread into a bridge, action-selection, ontology, or authority claim that it does not carry.
 - **Prompt boundary** = the explicit `U.AbductivePrompt` publication that becomes the governing publication when an abductive-prompt or action-selection claim governs the next action.
@@ -82407,7 +82409,7 @@ When one of those fields starts carrying a bridge, evidence, gate, speech-act, c
 
 **Out of scope**
 - same-entity restatement, conservative rewrite, or representation shift whose main question stays with `A.6.3`, `A.6.3.CR`, or `A.6.3.RT`;
-- bridge-stance overlay that only clarifies an already-declared bridge stance over an existing Bridge Card (`F.9.1`);
+- a separate F.9.1 stance note that only clarifies an already constituted F.9 bounded-use claim;
 - explanation-face use discipline, bounded-use boundary, or added-link review on existing faces (`E.17.EFP`);
 - abductive-prompt or action-selection cases (`B.5.2.0` or `B.5.2`);
 - ontology-facing reframing or changed EntityOfConcern (`OntologicalReframing` or `A.6.4`);
@@ -82420,7 +82422,7 @@ Use this discipline only when all of the following hold:
 2. the review unit adds one bounded comparative or interpretive lift, or a small set of bounded contrast rows with row-level comparison criteria;
 3. the case is still answering a bounded contrastive question rather than selecting an action;
 4. the shared review frame stays preserved, and compared alternatives remain distinct unless an explicit bridge or substitution source supplies equivalence, substitution, or another named relation between them;
-5. the main question is not already better described as same-entity viewing, bridge-stance overlay over an existing Bridge Card, or explanation-face use discipline.
+5. the main question is not already better described as same-entity viewing, an F.9.1 stance note about an existing bounded-use claim, or explanation-face use discipline.
 
 If any of those fail, handle the current work under the neighboring FPF pattern and project-side FPF kind and reference named by value that actually govern it.
 
@@ -82501,8 +82503,9 @@ When the heavier declaration weight really stays here, the unit still makes at l
 - `comparativeRelationClass = sameEntityComparisonClass | sharedFrameDistinctAlternativeClass | readerFitComparativeClass`;
 - `comparisonBasis`;
 - `addedClaimPolicy`;
-- `bridgeStanceVisibility`;
-- required `bridgeCardRef` plus optional `bridgeStanceRef` when the case depends on bridge-mediated comparative relation;
+- required `bridgeOccurrenceRef` and `boundedUseClaimRef` when the case depends on bridge-mediated comparative relation;
+- optional `bridgeCardRef` when a reusable Card exists;
+- optional `bridgeStanceRef` when it resolves the separate F.9.1 episteme whose `EntityOfConcern` is that exact use claim;
 - `targetUserModel` when reader-fit is materially shaping the comparison unit;
 - `interactionMode` when the review unit is not just one static comparative sentence;
 - `contrastiveQuestion` when the case is answering a specific contrast;
@@ -82514,8 +82517,8 @@ When the heavier declaration weight really stays here, the unit still makes at l
 - `downstreamAuthorityLimit`;
 - `baseCasePattern` when the review unit is a mixed case layered over `A.6.3.*` or `E.17.EFP`.
 
-`sourceRelationClass` is only the source-relation or bounded-claim class for the local claim or use. `comparativeRelationClass` is only the comparative-relation class of this review unit. Neither field is any neighboring object or claim: relation-kind, bridge card, bridge stance, bridge relation, semantic identity, evidence relation, gate, assurance, work relation, speech act, commitment, authority reference, or decision record. The `sameEntityComparisonClass` value is a special case for comparisons where the compared sources really describe the same entity; it does not assert semantic identity. When the unit compares distinct alternatives, use `sharedFrameDistinctAlternativeClass` plus distinct alternative refs, and do not treat the alternatives as equivalent or substitutable without bridge relation.
-`readerFitComparativeClass` by itself does not create an interpretation claim. Bounded correspondence wording that starts implying bridge relation is bridge-mediated comparative relation: it requires an explicit `bridgeCardRef`, or the case applies `F.9` or `F.9.1` before the comparison unit can carry that bridge-mediated source relation. When cross-context bridge semantics govern the case, the actual bridge kind and Bridge Card remain governed by `F.9`. If bridge-mediated comparative relation governs the case, `bridgeCardRef` is required and any `bridgeStanceRef` remains optional and subordinate.
+`sourceRelationClass` is only the source-relation or bounded-claim class for the local claim or use. `comparativeRelationClass` is only the comparative-relation class of this review unit. Neither field is a neighboring object or claim such as a relation kind, Bridge occurrence, bounded-use claim, Card, stance note, semantic identity, evidence relation, gate, assurance, work relation, speech act, commitment, authority reference, or decision record. The `sameEntityComparisonClass` value is a special case for comparisons where the compared sources really describe the same entity; it does not assert semantic identity. When the unit compares distinct alternatives, use `sharedFrameDistinctAlternativeClass` plus distinct alternative refs, and do not treat the alternatives as equivalent or substitutable without an obtaining Bridge and the required bounded-use claim.
+`readerFitComparativeClass` by itself does not create an interpretation claim. When bounded correspondence wording implies a cross-context Bridge, first apply F.9 and cite the exact `bridgeOccurrenceRef` and `boundedUseClaimRef`. A `bridgeCardRef` is optional packaging. A `bridgeStanceRef` is also optional and is admissible only when it resolves a separate F.9.1 episteme whose `EntityOfConcern` is that same bounded-use claim. None of these references can substitute for another.
 The main comparison question plus the neighboring pattern boundaries still decide the selected FPF pattern or project-side FPF kind and reference named by value.
 
 #### E.17.ID.CR:4.3.e - Interpretant-side block
@@ -82583,7 +82586,7 @@ This section is the compact governing-rule summary for `ComparativeReviewUnit` i
 3. **Name the crossed claim instead of repeating exclusions.**
    When the case stops being bounded comparison, name the claim that crossed the boundary and apply the pattern that governs that claim: source transformation, bridge, explanation face, abductive prompt or action selection, ontology or changed `EntityOfConcern`, decision, work or reliance, gate, assurance, adjudication, or reduced-use source rendering.
 4. **Keep neighboring-pattern authority explicit.**
-   Bridge-mediated comparative relation requires explicit `bridgeCardRef`; prompt-worthy cases publish `U.AbductivePrompt`; ontology-shift claims apply `OntologicalReframing` or `A.6.4`; action, gate, adjudication, work, reliance, or assurance use applies the governing project-side FPF pattern and project-side FPF kind and reference named by value.
+   Bridge-mediated comparison requires an exact `bridgeOccurrenceRef` and `boundedUseClaimRef`; a Card and F.9.1 stance note remain optional and separate. Prompt-worthy cases publish `U.AbductivePrompt`; ontology-shift claims apply `OntologicalReframing` or `A.6.4`. For action, gate, adjudication, work, reliance, or assurance, use the FPF pattern for that claim and cite the project-side kind and reference that record it.
 5. **Keep reader-fit bounded.**
    `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk` can be stated when they change actual review use, but they do not create authority that the unit does not carry.
 
@@ -82596,9 +82599,9 @@ For a fuller mixed-case read, read this table together with the neighboring patt
 | --- | --- |
 | one local lexical head or qualifier is still doing too much work, but one honest repair would stabilize the same unit | `E.17.AUD.LHR` (`Local Head Restoration`) |
 | the same note is mostly rewriting, reframing, or re-rendering the same EntityOfConcern with no bounded comparative lift | `A.6.3`, `A.6.3.CR`, or `A.6.3.RT` |
-| the real job is only to make an already-declared bridge stance explicit over an existing Bridge Card | `F.9.1` |
+| the real job is only to add a short reading note about an already constituted F.9 bounded-use claim | `F.9.1`; a Card is optional packaging |
 | the comparison wording is now making a relation-precision claim between compared items | `A.6.P` |
-| the comparison wording is now making sameness, equivalence, alignment, mapping, substitution, or cross-context bridge relation | Part F with `A.6.9`, `F.9`, or `F.9.1` |
+| the comparison wording is now making sameness, equivalence, alignment, mapping, substitution, or a cross-context Bridge claim | Part F with `A.6.9` for wording and F.9 for the Bridge and bounded-use claim; use F.9.1 only for an optional stance note about that claim |
 | the note is primarily a reduced-use source-pinned rendering with narrower-use, blocked downstream use, and source-bearing reopen discipline | `A.6.3.CSC Controlled Semantic Coarsening` |
 | one review unit already keeps the same primary entity of concern, one bounded comparison, and one outside-work boundary stable | `ComparativeReviewUnit` within `InterpretationDiscipline` |
 | the same unit still has unstable reviewed-source, comparative-move identification, or outside-work boundary after local repair | `E.17.AUD.OOTD` (`PublicationUnit Primary EntityOfConcern Discipline`) |
@@ -82669,14 +82672,15 @@ One rendering is a `SourceLinkedExplanationReconstruction` on a `TechCard` face;
 
 #### E.17.ID.CR:5.4 - Worked boundary examples
 
-##### E.17.ID.CR:5.4.1 - Lower-boundary bridge-stance overlay case
+##### E.17.ID.CR:5.4.1 - Lower-boundary stance-note case
 
-**Bridge-stance overlay unit.** `The existing Bridge Card relates the local maintenance-pressure term to the partner continuity term; this overlay says the relation is normally treated as asymmetry-explicating rather than substitution-friendly.`
+**Stance-note unit.** `F.9 already records an obtaining Bridge and a bounded-use claim for reading the local maintenance-pressure term alongside the partner continuity term. This separate note says that, for that use, the relation is best read as asymmetry-explicating rather than substitution-friendly.`
 
 Why it stays under `F.9.1`:
-- the bridge stance is already declared;
-- the review unit only makes that stance more legible;
-- no bounded interpretive lift beyond the bridge-stance overlay is added.
+
+- the Bridge and bounded-use claim already exist;
+- the note only makes the claim easier to read; and
+- no bounded comparative lift beyond that stance note is added.
 
 ##### E.17.ID.CR:5.4.2 - Mixed primary-pattern composition with `A.6.3.RT`
 
@@ -82855,13 +82859,13 @@ Why `ComparativeReviewUnit` no longer governs:
 
 Why it is invalid here:
 - no source references are visible;
-- bridge-mediated comparison is being implied without explicit bridge declaration;
+- bridge-mediated comparison is being implied without an explicit obtaining Bridge and bounded-use claim;
 - blocked substitution and authority claims are being smuggled in through soft phrasing.
 
-**Minimal repair.** `Under bridge card BC-12 and the stated comparison criterion, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme or source publication set remains primary.`
+**Minimal repair.** `Under Bridge B-12 and bounded-use claim UC-12, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme or source publication set remains primary. Card BC-12 may be cited when that optional package is useful.`
 
 What the repair does:
-- restores the source references and bridgeCardRef;
+- restores the source references, `bridgeOccurrenceRef`, and `boundedUseClaimRef`, while keeping any `bridgeCardRef` optional;
 - narrows the claim back to bounded comparison;
 - reasserts the blocked downstream claim or effect.
 
@@ -82898,9 +82902,9 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 #### E.17.ID.CR:7.2 - ID.CR-Conditional checks
 
 1. **CC-ID-4 - Base-case governing-pattern relation is explicit.**
-   A reviewer can tell why the case does not really belong to `A.6.3.*`, `F.9.1`, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
+   A reviewer can tell why the case does not really belong to `A.6.3.*`, an F.9 Bridge or bounded-use branch, an F.9.1 stance-note branch, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
 2. **CC-ID-5 - Bridge declaration does not hide.**
-   If bridge-mediated comparative relation governs the case, `bridgeCardRef` is required; optional `bridgeStanceRef` remains visible and subordinate to that existing bridge card.
+   If the case depends on bridge-mediated comparison, `bridgeOccurrenceRef` and `boundedUseClaimRef` are required. Optional `bridgeCardRef` remains packaging; optional `bridgeStanceRef` resolves a separate F.9.1 episteme whose `EntityOfConcern` is that claim.
 3. **CC-ID-7 - Reader-fit stays bounded.**
    `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk` are visible when needed, but they do not create an authority claim that the unit does not carry.
 
@@ -82924,7 +82928,7 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 | Anti-pattern | Why it is wrong | How to avoid it |
 | --- | --- | --- |
 | **Comparison-unit instability** | The text sounds as if it governs a note in one section, a publication unit in another, a comparative move in a third, and a whole review process in a fourth. | Stabilise one bounded comparative review unit early and keep note, sheet, UI, and rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
-| **Bridge gloss inflation** | A helpful comparative sentence starts acting like a bridge licence the declared bridge card and stance do not allow. | Keep bridge-mediated comparative relation tied to required `bridgeCardRef`; use optional `bridgeStanceRef` only as a subordinate overlay under `F.9.1`. |
+| **Bridge gloss inflation** | A helpful comparative sentence or stance word starts acting like a Bridge or use licence. | Require `bridgeOccurrenceRef` and `boundedUseClaimRef`; keep any Card optional, and use `bridgeStanceRef` only for a separate F.9.1 episteme about that exact claim. |
 | **Soft prompt smuggling** | The review unit is really creating an abductive prompt or action-selection case, but hides it in gentle prose. | If prompt selection or action-selection claim governs the next action, publish `U.AbductivePrompt` with explicit `promptSpecies`, `openQuestion`, and cue or action-selection provenance instead of keeping it here. |
 | **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use bounded comparison only when bounded comparative lift is primary. |
 | **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and bounded-use review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |
@@ -82934,7 +82938,7 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 
 ### E.17.ID.CR:9 - Consequences
 
-- The middle band between bridge-stance overlay over an existing Bridge Card and prompt-bearing abduction becomes reviewable rather than rhetorical.
+- The middle band between a short F.9.1 stance note about an existing bounded-use claim and prompt-bearing abduction becomes reviewable rather than rhetorical.
 - Reviewers get a cleaner way to distinguish comparative interpretation from the first crossed claim that would make another governing pattern primary.
 - Authors pay a small extra declaration weight, but the gain is fewer hidden neighboring-pattern boundary mistakes and less comparison-unit instability.
 - Guided comparative review units become easier to prepare honestly because bounded use, overread risk, and world-contact limits can be declared without pretending that the unit already carries a broader guidance claim than it really does.
@@ -94001,7 +94005,7 @@ If evidence, observed loss, reliance, assurance, wording, or publication changes
 
 Viewpoint bundles, quality bundles, dashboards, reports, and endpoint bundles may cite Bridges and bounded-use claims, but they do not absorb their semantics. Each bundle keeps its own ontology and direct use rule.
 
-When a quality-family claim crosses contexts, observed loss may bear on its bounded-use claim and on B.3 assurance, but neither fact retypes the quality family. An F.9.1 stance overlay may help readers interpret the claim; it remains a separate episteme and cannot widen the relation, proposed use, reliance, authorization, or occurrence.
+When a quality-family claim crosses contexts, observed loss may bear on its bounded-use claim and on B.3 assurance, but neither fact retypes the quality family. An F.9.1 stance note may help readers interpret the claim; it remains a separate episteme and cannot widen the relation, proposed use, reliance, authorization, or occurrence.
 
 ### F.9:27 - C.29 mathematical-lens use relation
 
@@ -94024,197 +94028,209 @@ Repair *same*, *equivalent*, *align*, and *map* prose in that order: recover the
 
 ### F.9:End
 
-## F.9.1 - Bridge Stance Overlay
+## F.9.1 - Bridge Stance Note
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Bridge-card stance overlay.
-**One-line summary.** `BridgeStanceOverlay` governs one stance annotation over an existing `F.9` bridge card so authors can say how to read that bridge without changing its kind, direction, `CL`, or loss notes and without treating the overlay as bridge authority or as a cure for missing source-bearing return.
-**Primary EntityOfConcern in plain terms.** One overlay annotation attached to an existing `F.9` bridge card; not the bridge card itself, not a second bridge kind, and not the pattern that governs coarsened renderings.
-**Use this when.** Use this overlay when an existing bridge card already exists and the real need is one compact stance label such as `localRename`, `operationalizes`, `partialAnalogy`, `projection`, or `nonEquivalent` that helps readers interpret that bridge without widening its substitution licence.
-**Start here when.** Your first honest artefact is already an `F.9` bridge card, and the practical question is how to read that bridge rather than whether a bridge exists at all.
-**What goes wrong if missed.** Authors fall back to vague phrases like "roughly analogous" or "just a rename", and readers either over-read the gloss as silent bridge authority or under-read it as disposable style.
-**What this buys.** One compact interpretive gloss over an existing bridge card that stays reusable, keeps the bridge taxonomy stable, and still leaves source-bearing return and bridge publication duties where they belong.
-**Not this pattern when.** Not this overlay when the case is the bridge card itself under `F.9`, or when a coarsened rendering still needs source-bearing return before any bridge-bearing use is admissible; use `A.6.3.CSC Controlled Semantic Coarsening` for that coarsened-rendering relation.
+**Plain name.** A short note that helps a reader interpret one particular use of a Bridge.
+
+**One-line summary.** A bridge stance note is a separate claim-bearing episteme about one exact F.9 bounded-use claim. It may say that the use is best read as a local rename, operationalization, partial analogy, projection, or warning against equivalence. It changes neither the Bridge nor the claim it explains.
+
+**Use this when.** Use F.9.1 after an F.9 Bridge has been shown to obtain and a separate bounded-use claim already says what someone proposes to do with that Bridge, in which direction, under which rule, and with what tolerated loss. Add a stance note only when one short interpretive cue will help a reader without replacing those facts.
+
+**Start here when.** You already have the Bridge and its bounded-use claim, but a reader may still overread a phrase such as “operationalizes”, “projection”, or “roughly analogous”.
+
+**First useful move.** Point to the exact bounded-use claim and write one ordinary sentence: “For this named use, read the relation as ___; do not infer ___.” Choose a stance word only if it makes that sentence shorter and clearer.
+
+**What goes wrong if missed.** A friendly gloss starts acting like proof of equivalence, permission to substitute, or evidence that a use happened. The opposite failure also occurs: authors build a second bridge taxonomy merely to explain how one already warranted use should be read.
+
+**What this buys.** Readers get a compact caution or reading aid while the Bridge, proposed use, evidence, reliance, authorization, actual downstream act, and optional publication package remain separately checkable.
+
+**Not this pattern when.** Use F.9 when the Bridge or suitability of a proposed use is still unsettled. Use A.6.3.CSC when a shortened or coarsened rendering needs a source tether, a narrower admissible use, blocked downstream uses, or a return trigger. Do not create a stance note merely because a comparison sounds informal.
 
 ### F.9.1:1 - Problem frame
-When positions or trajectories in language-state work are compared across schools or contexts, authors often need a disciplined interpretive gloss on top of a formal bridge card. The gloss must help reading without becoming a second bridge taxonomy.
 
-### F.9.1:2 - Problem
-Authors often express stance informally ("roughly analogous", "really a projection", "just a rename"), which makes bridge interpretation unstable. A full second taxonomy would be worse: it would compete with the core bridge kinds.
+People often need one short gloss after they have established a cross-local semantic relation and judged one bounded use of it. “Operationalizes”, “partial analogy”, and “projection” can be helpful, but each can also sound stronger than the underlying claim. The task is to make the intended reading explicit without making the gloss a Bridge kind, a use licence, or a substitute for evidence.
+
+### F.9.1:2 - Object and identity
+
+A bridge stance note is an ordinary C.2.1 episteme. It is not a U-kind and it is not part of the Bridge occurrence.
+
+Its C.2.1 identity is settled as follows:
+
+- its `EntityOfConcern` is one exact F.9 bounded-use claim;
+- its `ClaimGraph` states the selected stance, the ordinary-language reading that stance abbreviates, and the nearest overread it rejects;
+- its effective `ReferenceScheme` supplies the local meanings of the stance wording.
+
+Changing the bounded-use claim, stance, material reading boundary, or effective scheme identifies another stance episteme. Rewording that preserves those values may be a new edition of the same claim-bearing account under the applicable C.2.1 edition rule. Changing how the note is published or found—for example, its Card, registry entry, file, or visual placement—does not reidentify it.
+
+The underlying bounded-use claim remains primary. It names the obtaining Bridge, proposed use, direction, correspondence rule, tolerated loss, and polarity. The stance note describes how to read that claim; it supplies none of those values and cannot change them.
 
 ### F.9.1:3 - Forces
+
 | Force | Tension |
-|---|---|
-| **Expressive stance vs bridge discipline** | Add interpretive clarity without introducing a rival bridge-kind system. |
-| **Reuse vs inflation** | Make stance annotations reusable across bundles while keeping bridge cards structurally governed by `F.9`. |
-| **Interpretive help vs substitution abuse** | Help readers interpret a bridge without silently licensing substitution beyond what `F.9` allows. |
+| --- | --- |
+| Readability and exactness | One short cue can help a reader, but the cue cannot carry the relation or use semantics by itself. |
+| Reuse and locality | A small vocabulary is reusable, while every stance still belongs to one exact bounded-use claim. |
+| Help and overread | A friendly gloss should aid interpretation without widening equivalence, substitution, authority, or reliance. |
+| Loss emphasis and duplicate claims | A stance may foreground one material loss, but it should not restate or silently alter the bounded-use claim. |
 
 ### F.9.1:4 - Solution
-A Bridge Stance Overlay is a local interpretive annotation attached to an existing `F.9` bridge card. It does not change the underlying bridge kind, direction, `CL`, or loss notes.
 
-#### F.9.1:4.1 - Starter overlay vocabulary
-| Stance | Intended reading | What it does **not** imply |
-|---|---|---|
-| `localRename` | the target term is near-renaming within the current context boundary; if a cross-context relation is live, the `F.9` bridge card must exist first | automatic cross-context identity |
-| `operationalizes` | the target is a procedural or operational reading aid over the declared bridge | enactment, implementation, execution permission, gate approval, `A.15` work authority, or type-structure equivalence |
-| `partialAnalogy` | some explanatory pattern is shared, but only partially | admissible substitution |
-| `projection` | the target is a deliberate reduction or aspectual projection of the source bridge reading | completeness, reversibility, loss governance, recoverability governance, narrower-use permission, or source reopen |
-| `nonEquivalent` | the bridge card does not license equivalence or silent substitution | `Disjoint`, `CL=0`, or a full incompatibility verdict unless the bridge card itself says so |
+#### F.9.1:4.1 - Recover the claim before writing the gloss
 
-#### F.9.1:4.2 - Boundary rule
-A stance annotation is interpretive help for authors and readers. It is not a second bridge ontology, not a bridge card, and not a permission and not a publication with named authority-reference relation.
+Before adding a stance note, check four things:
 
-It is also not the coarsening governing pattern. Labels such as `projection` or `nonEquivalent` may help a reader interpret an already-declared bridge, but they do not carry source tether, narrower admissible use, non-admissible downstream use, or reopen duty for a coarsened rendering. If that coarsened-rendering relation becomes primary, it belongs to `A.6.3.CSC Controlled Semantic Coarsening` rather than being absorbed into stance language. If return to the source-bearing episteme or source publication is still needed before any bridge reading is admissible, reopen that episteme or publication before adding stance.
+1. the two exact F.17 local senses are known;
+2. an F.9 Bridge between them obtains;
+3. one separate bounded-use claim identifies the proposed use, direction, rule, tolerated loss, and polarity; and
+4. the stance note has a named reader benefit that the claim does not already express plainly enough.
 
-#### F.9.1:4.3 - Relation to `CL` and loss
-- `CL` still governs substitution licence.
-- loss notes still govern what fails to carry.
-- stance annotations merely say how the author wants the bridge to be read.
+If items 1 or 2 are missing, return to F.9. If item 3 is missing, write and test the bounded-use claim. If item 4 is missing, stop: no stance note is needed.
 
-If the stance materially affects interpretation, the bridge card should publish explicit loss notes that match it.
+#### F.9.1:4.2 - Write one bounded reading
 
-### F.9.1:5 - Archetypal Grounding
-**Tell.** A stance annotation says how to read the bridge, not what the bridge kind structurally is.
+Write the note in this order:
 
-**Show (System).** An operator alarm label may `operationalizes` a broader control cue without becoming identical to it.
+- cite the bounded-use claim it explains;
+- state one plain reading of that claim;
+- name one primary stance when a reusable label helps;
+- state the nearest likely overread; and
+- emphasize a material loss only when that emphasis changes how the reader should understand the claim.
 
-**Show (Episteme).** A TAE felt-sense phrase may be only a `partialAnalogy` to a later formal term.
+The stance note may cite evidence or a current A.10 or B.3 reliance result, but it does not create either. If the proposed direction, rule, tolerated loss, polarity, or reliance result changes, repair that object under F.9, A.10, or B.3 rather than editing the stance as a proxy.
 
-### F.9.1:6 - Bias-Annotation
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Universal** for stance overlays attached to existing `F.9` Bridge Cards inside FPF.
-This pattern favors disciplined cross-school comparison and bridge readability over sweeping synonym claims. The main mitigation is that every stance remains subordinate to the underlying Bridge Card, its direction, `CL`, and loss notes, with explicit handoff to `A.6.3.CSC` when the issue under repair is source-bearing return for a coarsened rendering rather than bridge-card reading.
+#### F.9.1:4.3 - Starter stance vocabulary
 
-### F.9.1:7 - Conformance Checklist
-- `CC-F.9.1-1` A stance annotation **SHALL NOT** replace the underlying `F.9` bridge kind.
-- `CC-F.9.1-2` Stance annotations **SHOULD** be accompanied by explicit loss notes when they materially affect interpretation.
-- `CC-F.9.1-3` `nonEquivalent` **SHALL** block silent substitution.
-- `CC-F.9.1-4` A stance annotation **SHALL NOT** claim higher-CL sameness than the bridge card's `CL` and kind allow.
-- `CC-F.9.1-5` A stance annotation **SHALL NOT** stand in for source-bearing return when a coarsened rendering still needs reopen before any bridge-bearing reading is admissible; that relation belongs to `A.6.3.CSC Controlled Semantic Coarsening`.
+| Stance | Plain reading | Nearest overread to reject |
+| --- | --- | --- |
+| `localRename` | For this use, the receiving expression is being read as a near-renaming within the stated local boundary. | Cross-local identity or unrestricted replacement. |
+| `operationalizes` | For this use, the receiving expression gives a procedural, observable, or measurable reading of the source. | Enactment, implementation, work authority, permission, or type-structure equivalence. |
+| `partialAnalogy` | For this use, the two senses share one stated explanatory pattern and differ elsewhere. | Admissible substitution or equivalence. |
+| `projection` | For this use, the receiving expression keeps one stated aspect and drops others. | Completeness, reversibility, recoverability, or permission to ignore the dropped distinctions. |
+| `nonEquivalent` | For this use, read the comparison as an explicit warning against equivalence. | A claim of disjointness, a negative Bridge claim, or a general ban beyond the stated use. |
 
-### F.9.1:8 - Common Anti-Patterns and How to Avoid Them
-- **Annotation as ontology.** Do not treat stance as the bridge kind itself.
-- **Friendly-vague analogy.** If the relation is high-loss, say so explicitly.
-- **Stance inflation.** Do not use the annotation to smuggle in substitution rights that `F.9` withholds.
-- **Stance as coarsened-rendering cure.** Do not add `projection`, `localRename`, or another overlay as if that repaired a coarsened note that still needs source-bearing return before bridge reading.
+These labels are optional local designations inside the stance episteme. They are not Bridge kinds, levels, scores, permissions, or a second taxonomy. If a plain sentence is clearer, use the sentence without minting a label.
 
-### F.9.1:9 - Consequences
-The benefit is reusable interpretive clarity for bridge-heavy bundles and school comparisons. The trade-off is one more declared annotation layer on bridge cards.
+A stance word carries no direction by itself. Direction belongs to the bounded-use claim it explains: a `projection` reading in one direction never establishes the reverse reading or use.
 
-### F.9.1:10 - Rationale
-`U.LanguageStateSpace` and `U.LanguageStateMoveTrajectory` create many legitimate cross-school comparisons. `F.9.1` gives those comparisons a reusable stance vocabulary without fragmenting the underlying `F.9` bridge discipline.
+#### F.9.1:4.4 - Keep Bridge, use, reliance, and packaging separate
 
-The practical gain is narrow but real: teams already use short stance glosses in review work, and without a governed overlay those glosses either smuggle bridge `CL` through casual wording or sprawl into a second bridge taxonomy. Keeping the overlay subordinate to the bridge card lets bundles reuse interpretive cues while the boundary rule and the worked `projection` anti-case keep source-bearing return and bridge publication duty where they belong.
+- A practitioner uses F.9 to test and record whether the Bridge obtains.
+- The bounded-use claim says whether that Bridge suits one named use.
+- A practitioner uses A.10 or B.3 to judge whether current evidence or assurance supports relying on that claim.
+- The stance note says how to read that one claim.
+- Evidence about a comparison, translation, publication, Work occurrence, or other downstream act says whether that act occurred; the stance note does not.
 
-### F.9.1:11 - SoTA-Echoing
-**SoTA note.** This section does not mint an independent second bridge rule track. It stays truthful only when the boundary rule, conformance checklist, worked bridge-card examples, and legacy-note repair below still tell the same story about the stance staying subordinate to the bridge card.
+A Bridge Card is optional claim-bearing packaging. A Card may publish the Bridge description, bounded-use claim, evidence references, reliance result, and stance note together, but the Card is not a prerequisite for any of them. The Card's layout and edition, and any publication occurrence or file carrying it, remain separate from the objects it brings together.
 
-**Traditions covered.** This overlay binds itself to comparative-theory glossing, design-translation annotation, operator documentation, and other practices that add short interpretive stance labels on top of already governed bridge cards.
+`CL` is optional F.9 shorthand for evidence strength about a stated correspondence. It is not a substitution threshold and does not rank the stance. A stance note may not turn `CL`, a loss note, or friendly wording into suitability or permission.
 
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `F.9.1` | Adoption status |
-| --- | --- | --- | --- | --- |
-| A short stance label can help reading only if the underlying concept/relation remains explicit. | Terminology practice distinguishes concepts, designations, definitions, and relations, and treats a designation as a representation of a concept rather than the concept itself. | ISO 704:2022; ISO 1087:2019. | `F.9.1` lets a stance word such as `localRename` or `projection` guide reading only after the underlying `F.9` bridge card remains primary. | **Adopt/Adapt.** Adopt designation/concept separation; adapt it into local stance overlays; reject treating the stance word as a bridge kind. |
-| Viewpoint notes and model annotations help users only when they remain subordinate to the described relation. | Architecture-description and model-based engineering practice use viewpoints, views, model elements, and traceable semantics to keep explanatory descriptions tied to explicit underlying descriptions. | ISO/IEC/IEEE 42010:2022; OMG SysML v2.0 Language Specification (2025). | `F.9.1` keeps stance overlays subordinate to bridge kind, direction, `CL`, and loss notes, with worked examples showing where the overlay helps and where it must wait. | **Adapt.** Adapt viewpoint/traceability discipline to bridge-card reading; reject a second bridge taxonomy. |
-| Shared operational names and semantic attributes aid observability and documentation, but common naming does not by itself license substitution. | Contemporary observability practice standardizes common operation and data names while keeping those conventions tied to explicit resources, spans, metrics, logs, and profiles. | OpenTelemetry Semantic Conventions (2025). | `F.9.1` adopts the value of short reusable glosses, but keeps them local to the bridge card and loss notes. | **Adapt/Reject.** Adapt common-name discipline as a readability aid; reject common naming as proof of equivalence or completeness. |
-| Validation and metadata practice keeps annotations inspectable instead of letting them replace the object they annotate. | Semantic-web validation and catalog practice separates shapes/metadata from the data graph or dataset being described. | W3C SHACL (2017); W3C DCAT v3 (2024). | `F.9.1` treats a stance overlay as inspectable annotation over a bridge card, not as a substitute bridge or source-return cure. | **Adapt.** Use annotation discipline to keep stance local and reviewable. |
+#### F.9.1:4.5 - Preserve source return and coarsening boundaries
 
-**Worked-slice docking.** The nearest practical recovery loci here are the `localRename`, `operationalizes`, `projection`, and `partialAnalogy` examples in `F.9.1:13.1` through `F.9.1:13.4`, plus the anti-case `F.9.1:13.5`. If the SoTA claim cannot be recovered through those worked slices and the early boundary rule, do not let the citation stand in for the live pattern law.
+A `projection` or `nonEquivalent` stance can highlight loss, but it does not provide the source tether, narrower admissible use, blocked downstream use, or return trigger required for controlled coarsening. When those duties are live, use A.6.3.CSC and keep the stance note only if it still helps explain an independently established bounded-use claim.
 
-**Local stance.** Best-known current practice supports a narrow rule: stance labels are useful only when they stay visibly subordinate to a published bridge card, its direction, `CL`, loss notes, and reviewable source-cell and target-cell structure.
+Publication does not cure a missing source. If a reader must return to a source episteme or source publication before the Bridge or bounded-use claim can be checked, perform that return first.
 
-### F.9.1:12 - Relations
-- Builds on: `F.9`, `C.2.2a`.
-- Primary boundary: `F.9` governs Bridge Card discipline; `F.9.1` governs only stance overlays attached to existing Bridge Cards.
-- Coordinates with: `A.16.0`, `E.17.1`, `A.6.P`, `A.6.A`, `C.16.Q`, `C.25`, and `B.4.1`.
-- Constrains: local stance annotations on bridge cards used in comparative and tradition bundles.
-### F.9.1:13 - Worked Bridge-Card Examples
+### F.9.1:5 - Worked cases
 
-#### F.9.1:13.1 - `localRename`
-A bridge card may relate two near-coextensive operational labels inside one declared context fragment and mark the stance as `localRename`. The bridge card still publishes its own direction, kind, `CL`, and loss notes. The stance only warns the reader that the author's intended reading is close renaming **within that boundary**; it does not license export of the rename beyond the stated fragment.
+#### F.9.1:5.1 - Local rename inside one bounded use
 
-#### F.9.1:13.2 - `operationalizes`
-A broad capability cue may be bridged to a more procedural checklist or control ritual. The bridge card may carry the stance `operationalizes` to show that the target is being read as a procedural or operational gloss over the source. The relation can still be high-loss: the procedural target need not preserve the source's broader theoretical framing, and the stance does not claim type-structure sameness, implementation authority, execution permission, gate approval, or `A.15` work authority.
+An obtaining Bridge and an affirmative bounded-use claim permit one operational label to be read as a near-renaming of another inside a named glossary use. A `localRename` stance can make that reading quick to recognize. It establishes neither cross-local identity nor unrestricted replacement outside the stated use.
 
-#### F.9.1:13.3 - `projection`
-A rich construct may be mapped into a narrower reporting or measurement rendering. The bridge card may declare the stance `projection` when the target intentionally keeps only one aspect. The required loss notes should name the dropped dimensions, because the stance is informative only when the omitted structure is made explicit.
+#### F.9.1:5.2 - Operational reading of a control cue
 
-Table-level note: `projection` is only a stance over a declared bridge. It does not govern loss, recoverability, narrower admissible use, non-admissible downstream use, or source reopen for a coarsened rendering; that relation belongs to `A.6.3.CSC Controlled Semantic Coarsening`.
+An F.9 `Partial-overlap` Bridge obtains between one exact operator-alarm sense and one broader control-cue sense. A separate affirmative claim says that the alarm term may be used in one training explanation, in the alarm-to-control direction, under a rule that preserves the response trigger but not the complete control model, with zero tolerance for treating the term as implementation authority. Current evidence supports that narrow claim.
 
-#### F.9.1:13.4 - `partialAnalogy` and `nonEquivalent`
-A comparative bundle may need to mention an explanatory resemblance across traditions without claiming substitution. In such cases `partialAnalogy` may guide reading when the shared pattern is local and declared. If review concludes that this local resemblance still lacks reuse support, `nonEquivalent` should be preferred so that apparent similarity does not drift into silent replacement. The label blocks equivalence and silent substitution; it does not by itself assert `Disjoint` or `CL=0` unless the underlying `F.9` bridge card says so.
+A stance note may now say: “For this training explanation, read the alarm term as operationalizing the response-trigger part of the control cue; do not read it as the complete control model or as permission to change the controller.” The stance is `operationalizes`. No Card is required; a Card may package the already separate objects if durable reuse pays.
 
-#### F.9.1:13.5 - `projection` is not a coarsened-note cure
-A team may write a short comparison note saying that one report-only metric is `basically a projection` of a richer operations concept. That sentence does not by itself justify a `projection` overlay. First recover the underlying `F.9` bridge card, its direction, `CL`, and Loss Notes from the source-bearing episteme or source publication needed for the Bridge Card. Only then may the overlay say how to read that bridge. If readers still need return to the source-bearing episteme or source publication before any bridge-bearing use is admissible, the overlay must wait; it cannot repair the missing bridge card.
+#### F.9.1:5.3 - Projection into a report
 
-### F.9.1:14 - Practical use guidance
+An obtaining Bridge and a bounded-use claim support showing one aspect of a rich operations concept in a weekly report. The claim names the report use, direction, correspondence rule, and tolerated omission. A `projection` stance note may foreground that the report keeps only queue age and drops causal and capacity distinctions.
 
-- Publish a stance overlay only on top of a complete bridge card that already declares bridge kind, direction, `CL`, and explicit loss notes where needed.
-- Choose the least-committing stance that truthfully describes the intended reading; do not upgrade the overlay merely because it sounds more helpful.
-- If multiple interpretive notes are needed, prefer one primary stance plus explicit loss notes rather than several competing overlays.
-- Use `nonEquivalent` when the main value of the annotation is to warn the reader away from substitution.
-- In comparative sets or tradition-focused bundles, place the overlay near the bridge card it qualifies so readers can inspect structural bridge data before reading the interpretive gloss.
+If readers must return to the source account before making a staffing or release decision, follow A.6.3.CSC: return to the source and do not use the report for those decisions. The stance note alone cannot set that boundary.
 
-A practical check is simple: ask whether the overlay merely helps reading or is covertly claiming extra sameness, transport, or substitution rights. If it does the latter, revise the bridge card itself rather than decorating it.
+#### F.9.1:5.4 - Partial analogy without substitution
 
-### F.9.1:15 - Legacy-note repair and boundary
-Legacy comparative notes often contain undeclared stance language such as "roughly the same", "really a projection", or "just an operational version". When such a note is normalized, the first repair step is to recover the underlying bridge card in `F.9`; only then may a Bridge Stance Overlay be added as an explicit local stance annotation.
+Two schools use different senses that share one explanatory pattern. For example, a TAE felt-sense phrase and a later formal term may share one stated explanatory feature while differing elsewhere. Their F.9 Bridge obtains, and an affirmative bounded-use claim permits one teaching comparison while rejecting method transfer. A `partialAnalogy` stance helps the reader notice the shared pattern. It neither makes the methods equivalent nor proves that the comparison was used in Work.
 
-The pattern intentionally does not define a second bridge taxonomy, a new substitution calculus, or a score for bridge quality. Those responsibilities remain with the bridge card, `CL`, and declared loss discipline. Tradition bundles may carry many bridge cards with stance overlays, but the overlays remain local annotations attached to those cards, not free-standing comparative objects.
-### F.9.1:16 - Overlay Declaration Discipline
+#### F.9.1:5.5 - `nonEquivalent` is a warning, not a verdict generator
 
-A stance overlay is useful only when it stays visibly subordinate to the bridge card it qualifies.
+A bounded-use claim permits two senses to appear in the same comparison table but denies substitution. A `nonEquivalent` stance may make that limit easy to see. The label does not by itself make the Bridge `Disjoint`, set `CL=0`, negate another use, or prohibit a future use with different direction, rule, and tolerance.
 
-#### F.9.1:16.1 - Minimal overlay declaration
-A usable stance overlay should normally publish:
+#### F.9.1:5.6 - Anti-case: the gloss comes first
 
-- the qualified `F.9` bridge card,
-- the chosen stance term,
-- the local reason the stance is helpful,
-- and any loss emphasis that becomes especially important under that stance.
+“The dashboard metric is basically a projection of operational resilience” supplies neither exact local senses, an obtaining Bridge, nor a bounded-use claim. Do not attach a stance label. Recover the senses and F.9 relation, then state the exact proposed use and its tolerated loss. If the dashboard is a controlled reduction, also apply A.6.3.CSC.
 
-Without this declaration set, a stance word becomes a decorative gloss detached from the bridge it is supposed to interpret.
+### F.9.1:6 - Conformance checklist
 
-#### F.9.1:16.2 - One primary stance per bridge card
-A bridge card should normally carry one primary stance overlay. If several interpretive notes are needed, the extras should usually live in explicit loss notes or surrounding commentary rather than in several competing stance tags.
+1. One exact F.9 Bridge obtains before the stance note is cited.
+2. One separately constituted bounded-use claim names the proposed use, direction, correspondence rule, tolerated loss, polarity, and effective scheme.
+3. The stance note is a separate C.2.1 episteme whose EntityOfConcern is that exact bounded-use claim.
+4. The note states a plain reading and nearest likely overread; a stance token is optional.
+5. The stance changes neither Bridge kind nor Bridge identity, claim identity or polarity, reliance, authorization, nor any downstream occurrence.
+6. A Card is optional packaging, not a prerequisite or source of truth.
+7. `CL`, observed loss, permitted loss, reliance, and stance remain distinct.
+8. One primary stance is normally enough; additional cautions belong in plain boundary or loss wording.
+9. Reusing a stance label for another claim requires a new local justification; equal labels do not identify the claims or their losses.
+10. A coarsened rendering that needs source return, narrowed use, or blocked downstream use applies A.6.3.CSC.
 
-#### F.9.1:16.3 - Overlay locality
-A stance overlay is local to the bridge card and context fragment that publish it. Reusing the same stance label elsewhere is admissible only when the new bridge card independently supports that reading.
+### F.9.1:7 - Common failures and repairs
 
-### F.9.1:17 - Interaction with `CL`, Direction, and Loss
+| Failure | Why it fails | Repair |
+| --- | --- | --- |
+| Card-first entry | Packaging is made a prerequisite for relation or claim truth. | Start from the obtaining Bridge and exact bounded-use claim; add a Card only when reuse pays. |
+| Stance as Bridge kind | The gloss competes with F.9 relation semantics. | Keep the F.9 kind unchanged and make the stance a separate episteme about one use claim. |
+| Stance as licence | Friendly wording silently authorizes substitution or action. | State claim polarity and current reliance separately; apply the pattern that defines the needed authorization. |
+| `CL` as threshold | Evidence shorthand becomes a rule for use. | Keep `CL` in the evidence account and retain the exact use rule and tolerated loss in the bounded-use claim. |
+| Loss note as tolerance | An observed difference is treated as accepted loss. | Keep observed loss in evidence and permitted loss in the bounded-use claim. |
+| Several stance tags | Labels replace one intelligible sentence and hide incompatible readings. | Use one primary stance plus plain loss and boundary wording. |
+| Stance as coarsening cure | `projection` or `nonEquivalent` replaces source return and blocked-use duties. | Apply A.6.3.CSC and keep the stance only as optional interpretation help. |
+| Bundle-wide stance identity | Equal labels on several claims are treated as one reusable semantic relation. | Treat each stance episteme as local to its exact bounded-use claim. |
 
-#### F.9.1:17.1 - `CL` remains prior
-If the stance sounds friendlier than the declared `CL`, `CL` wins. An `operationalizes` or `localRename` overlay cannot overrule a high-loss bridge or a low-substitution `CL` declaration.
+### F.9.1:8 - Consequences
 
-#### F.9.1:17.2 - Direction-sensitive reading
-Some stance labels read differently depending on bridge direction. A construct may project into a report-only rendering in one direction while the reverse direction is not admissible at all. Authors should therefore avoid stance prose that sounds symmetric when the bridge card is directional.
+**Benefits.** A reader receives one concise interpretive cue without losing the exact relation, use, evidence, or action boundary. Cards remain optional, and the same Bridge may support several independently judged uses and stance notes.
 
-#### F.9.1:17.3 - Loss emphasis rule
-When a stance is likely to invite over-reading, the loss note should state a sharper boundary rather than soften it. The overlay is useful exactly because it helps interpretation; that is also why it can mislead if the losses are understated.
+**Costs.** Authors must identify the bounded-use claim before adding a stance. Some older card-first records need one extra claim reference and may lose a decorative stance that has no practical reader benefit.
 
-### F.9.1:18 - Bundle Use and Comparative Reading
+**Limits.** F.9.1 neither establishes a Bridge nor judges suitability, evidence, reliance, permission, performance, publication, or controlled coarsening. It explains one already constituted bounded-use claim.
 
-#### F.9.1:18.1 - Bundle-level reuse
-Tradition bundles and viewpoint bundles may reuse the same stance vocabulary across many bridge cards, but the interpretation remains card-local. Bundle reuse is a readability aid, not a warrant that similarly named overlays are structurally equivalent.
+### F.9.1:9 - Rationale
 
-#### F.9.1:18.2 - Comparative stance caution
-Two bridge cards may both be marked `projection` while dropping very different dimensions. Reviewers should therefore compare the loss notes and source-cell and target-cell structure, not the overlay term alone.
+The stance vocabulary is useful because practitioners already write short interpretive glosses. The ontology stays small by treating each gloss as ordinary claim-bearing content rather than a new relation kind or universal classification. Making the bounded-use claim the EntityOfConcern also keeps a Card as optional publication packaging rather than the subject or source of the relation and use claims.
 
-#### F.9.1:18.3 - Boundary to second bridge taxonomy
-If authors start grouping bridges primarily by stance label and ignoring bridge kind, direction, `CL`, or loss, they have implicitly created a rival bridge taxonomy. `F.9.1` forbids that drift.
+One primary stance per claim is a readability default, not a new cardinality law. The real criterion is whether the note makes the claim easier to understand without hiding a materially different reading. When one ordinary sentence does that better, the sentence wins.
 
-### F.9.1:19 - Review Matrix and Migration Tests
+### F.9.1:10 - SoTA echoing and source-use boundary
 
-A reviewer can test stance-overlay integrity with five questions:
+| Source line | Useful contribution | FPF use |
+| --- | --- | --- |
+| ISO 704:2022 and ISO 1087:2019 terminology practice | Concepts, designations, definitions, and relations remain distinguishable. | Keep a stance label as a designation inside a claim-bearing episteme; do not treat the label as the Bridge or bounded-use claim. |
+| OpenTelemetry Semantic Conventions, cited predecessor edition 2025 | Reusable short names can improve recognition while their meaning remains tied to an explicit subject and scope. | Reuse a small stance vocabulary only as a reading aid; common spelling supplies no equivalence or use authority. |
+| W3C SHACL 2017 and DCAT v3 2024 | Validation and metadata remain distinguishable from the data or resource they describe. | Keep the stance note and any Card inspectable without making either the Bridge, evidence, or downstream act. |
 
-1. **Is the underlying bridge card complete and still primary?**
-2. **Does the overlay stay within the bridge card's structural claims?**
-3. **Would the same overlay still be truthful if read in the reverse direction?** If not, the locality or directionality needs to be made clearer.
-4. **Do the loss notes carry the interpretive claim that the overlay might otherwise overstate?**
-5. **Is the bundle using stance as a readability aid, or as a covert replacement for bridge ontology?**
+SysML v2 is deliberately not used here as SoTA or lineage evidence. Its predecessor citation changed no F.9.1 rule or worked case and did not answer the present relation–claim–use separation problem. No replacement source is added merely to fill the removed row; add one only when an exact current source changes a rule or example.
 
-Legacy prose about things being "really the same", "only a projection", or "just an operational version" should therefore be migrated by recovering bridge kind, direction, `CL`, and loss first, then adding an overlay only if it still adds disciplined interpretive value.
+### F.9.1:11 - Relations
+
+- **Builds on:** F.9 for the obtaining Bridge and bounded-use claim; C.2.1 for the stance episteme and its identity.
+- **Coordinates with:** A.10 and B.3 for reliance; A.6.3.CSC for controlled coarsening and source return; E.17.ID.CR for bounded comparative review; C.16.Q for quality-term repair; E.24.PUB for publication; F.17 for local sense; and F.18 for naming when that question is live.
+- **Does not replace:** the pattern that defines or constrains an actual comparison, translation, publication, Work, decision, permission, or other downstream object.
+
+### F.9.1:12 - Migration rule
+
+For each legacy stance passage, ask in order:
+
+1. Which exact local senses are being related?
+2. Does an F.9 Bridge obtain?
+3. Which exact bounded-use claim is being explained?
+4. Does a short stance note add reader value?
+
+If question 2 or 3 has no answer, do not preserve the stance as if it supplied one. If all four answers exist, keep every useful legacy idea as the plain reading, stance, loss emphasis, example, or non-use boundary of the new C.2.1 episteme. A Card reference may remain as optional publication access, never as the stance's identity or prerequisite.
+
 ### F.9.1:End
 
 ## F.10 - Status Families Mapping: Evidence, Standard, and Requirement Status
