@@ -3,16 +3,161 @@
 > First Principles Framework (FPF) is a standards-style pattern language for turning difficult engineering, research, management, and mixed human and AI work into explicit, reviewable, improvable reasoning.
 
 - **Author:** Anatoly Levenchuk, with AI-agent assistance
-- **Version:** July 2026
+- **Version:** August 2026
 - **Status:** Normative kernel, eternal alpha: already used in working projects and development programs, while still evolving.
 
 FPF helps when a project has outgrown one clever conversation. It is useful when meanings, claims, options, evidence, architecture, work decisions, publication forms, and improvement criteria need to stay coherent across people, teams, tools, time, or AI agents.
 
 Use FPF as a reference model and pattern language, not as a linear textbook. Start from the working question you bring from your project. Bring in internal FPF terms only after they help you keep the work precise.
 
-This readme is a thin public practical-use rendering of FPF for engineers, researchers, managers, reviewers, and AI-assisted project workers deciding what FPF can help them do now. It foregrounds the project questions most likely to pay off and deliberately coarsens, omits, or defers the full pattern language, source publications, source-use history, and relation structure. When a claim becomes important, return to the Preface, Table of Contents, and governing pattern body rather than treating this readme as the specification.
+This readme is a thin public practical-use rendering of FPF for engineers, researchers, managers, reviewers, and AI-assisted project workers deciding what FPF can help them do now. It foregrounds the project questions most likely to pay off and deliberately coarsens, omits, or defers the full pattern language, source publications, source-use history, and relation structure. When a claim becomes important, use the Preface and Table of Contents as locators, then inspect the exact definition, constraint, test, method, evidence rule, or assurance rule needed for that claim in the cited pattern body; do not treat this readme as the specification.
 
-Begin with the project object at stake and the current question about it. FPF often calls an object a holon when it is being treated as a whole with parts: a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework admitted under part-whole treatment. Roles use their own role ontology. Once the object and question are named, ask which structure, claim, decision, evidence, description, work, or improvement relation is current.
+Begin with the project object at stake and the current question about it. FPF often calls an object a holon when it is being treated as a whole with parts: a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework admitted under part-whole treatment.
+
+Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, then continue through the object or relation it recovers. If the recovered wording is a claim-bearing function use, apply `A.6.F` and its selected subject pattern. Do not choose a branch from the trigger word alone. Once the object and question are named, ask which structure, claim, decision, evidence, description, Work, or improvement relation is current.
+
+## Practical entries
+
+The entries below are examples, not a catalogue or a boundary around FPF, a DPF, or an LPF. Bring the actual difficulty from your project. If no example fits, search the Table of Contents or ask an assisting agent to compare a small plausible set of direct patterns. These pattern languages can help with many more questions than a short Readme can show.
+
+The ordinary examples show difficulties that one direct pattern or bounded route can usually answer. They need no mantra. The Practical-Use Cards show another use: a difficult question whose answer normally draws on several pattern contributions. Their mantras help a reader remember that longer dependency without turning it into a fixed workflow.
+
+### NAMING — Give one identified thing a usable name
+
+- **Situation:** One already identified thing or value needs a name that intended readers can understand without changing what it is.
+- **Question:** Which name is accurate, clear for this use, and distinct from misleading alternatives?
+- **First useful result or honest blocker:** One local `NameCard`, or the exact missing thing, use, reader group, scheme, sense, or candidate evidence.
+- **Start with:** `F.18`.
+- **Stop or return:** Stop when the name and local sense support the stated use. Return when the thing, use, readers, scheme, or likely misunderstanding changes.
+
+### SYSTEM-RECOGNITION — Test systemhood only when it changes the decision
+
+- **Situation:** A decision may change if one exact entity is a System, while the same noun may instead name Work, a Method, capability, episteme, structure, or another subject.
+- **Question:** What decision depends on treating that entity as a System?
+- **First useful result or honest blocker:** Return to the direct non-system claim; recognize or reject the System reading; or name the missing construction fact or test.
+- **Start with:** `A.1.SCR`.
+- **Stop or return:** Stop at that direct result or exact blocker. A noun, assignment, capability, plan, or project label does not establish systemhood.
+
+### TIME — Decide what a timing claim lets you do
+
+- **Situation:** A trend, deadline, cadence, or stale result is being used to decide what to do next.
+- **Question:** Which moment, rate, rhythm, or freshness relation matters, and does it support continuing, refreshing, waiting, synchronizing, or changing rhythm?
+- **First useful result or honest blocker:** A bounded temporal claim and supported continuation, or the exact missing window, evidence, effort, resistance, or currentness basis.
+- **Start with:** `C.27`; use `G.11` only when an affected result may need scoped refresh because its basis is stale.
+- **Stop or return:** Stop at a state or rate reading when it supports no stronger claim. Return when the window, evidence, currentness, or intended use changes.
+
+### CAUSAL-USE — Keep a causal-looking result within its support
+
+- **Situation:** A correlation, estimate, simulation, or comparison is being used to say that an action will cause an outcome.
+- **Question:** What causal statement may the evidence support, and what stronger statement must not guide intervention or investigation?
+- **First useful result or honest blocker:** A supported statement and its limit, or the missing alternative, intervention, comparator, evidence path, identification result, or transport basis.
+- **Start with:** `C.28`.
+- **Stop or return:** Stop, narrow the claim, or abstain when support is insufficient. The causal-use result does not choose, deploy, publish, or certify by itself.
+
+### MEASUREMENT — Make a number interpretable before relying on it
+
+- **Situation:** A reading, score, rating, sensor value, or dashboard number is being compared or used in a decision.
+- **Question:** What exact subject and characteristic were measured, on what scale and unit, by what method, and under what calibration and time stance?
+- **First useful result or honest blocker:** An interpretable attributed value with uncertainty and a use boundary, or the missing subject, scale, method, calibration, evidence, or validity window.
+- **Start with:** `C.16`.
+- **Stop or return:** Stop when the value supports the present comparison. Return when the subject, method, calibration, time stance, uncertainty, or use changes.
+
+### MATHEMATICAL-MODELING — Use a mathematical lens only when it changes action
+
+- **Situation:** A formula, formalism, simulation object, or learned representation is proposed to clarify a project question.
+- **Question:** What is mapped to what, which structure is kept or lost, how is the lens calibrated, what rival or ordinary fallback exists, and what decision changes?
+- **First useful result or honest blocker:** A bounded lens use with its mapping, retained and lost structure, calibration, rival, practical payoff, and no-lens exit, or the exact missing basis.
+- **Start with:** `C.29`.
+- **Stop or return:** Stop without the lens when no decision changes. Return when the mapped subject, preserved structure, calibration, evidence, rival, or use changes.
+
+When the route is already known, go straight to its pattern rather than forcing the question into an example: `E.11.PFP` for framework publication, `E.11.DSG` for a question spanning several DPFs, `A.15.6` when *project*, *process*, or *case* hides the subject, `A.1.1` for model-use organization, `C.22.PFR` for an actual-problem claim, and `A.6.REL` for an obtaining relation. These are locators, not more selectable examples.
+
+### Practical-Use Cards
+
+These cards are selected examples of extended work with a pattern language. They are not a list of all useful FPF questions, a prescribed project sequence, or proof that every case needs every cited pattern.
+
+The keys only help navigation. Compare cards by the situation and intended result, then open the direct patterns needed in the actual case. Skip a contribution whose question is not current, and stop at the first useful result or honest blocker.
+
+#### ARCHITECTURE — Carry an outside need through structure and feedback
+
+- **Situation:** A system or another architecture subject must produce an outside result, but its pressure, options, decision, or realized feedback is unclear.
+- **Question:** What missing architecture result prevents the next useful decision or action?
+- **First useful result or honest blocker:** One clear architecture question, candidate comparison, decision, or exact missing fact or constraint.
+- **Mantra:** Start with the outside change and who relies on it. Name the subject and pressure; separate facts from intended constraints; compare plausible structures; choose what the current decision needs; check what the realized structure produces; reopen when use, evidence, or structure changes.
+- **Start with:** `C.32.P2S`, then the pattern for the current question in `C.30`, `C.32`, `C.32.PAD`, or `C.30.AD`.
+- **Stop or return:** Stop when the first result makes the architecture work reviewable. The card is not a compulsory lifecycle.
+
+#### PRACTICE-ARCHITECTURE — Develop a practice without collapsing its structures
+
+- **Situation:** Methods, Work, capabilities, providers, descriptions, tools, and cultural change do not align one-for-one in a practice.
+- **Question:** Which relations must be reconciled for the practice to become usable or improve in representative Work?
+- **First useful result or honest blocker:** One readable synthesis, one bounded development action, or the exact missing Work case, relation, or transfer evidence.
+- **Mantra:** Start from representative Work and its needed result. Keep Methods, Work, capabilities, providers, descriptions, tools, and cultural processes distinct; compare the structures that conflict; develop the limiting capability; test transfer in real Work; return when practice, provider, evidence, or style changes.
+- **Start with:** `C.32.MWA`; use `E.23.CDI`, `E.23`, or `C.36` only for the question actually opened.
+- **Stop or return:** Stop when the synthesis or transfer result answers the decision. A practice description is not the practice or performed Work.
+
+#### WORKING-DOCUMENTS — Make a document answer one use
+
+- **Situation:** A document is requested, but its label does not reveal the use it must support.
+- **Question:** Do you need to check one view, reuse related views, show the same subject differently, see enough structure, compare named sources, or use an architecture description in a decision?
+- **First useful result or honest blocker:** A checked view, a reusable viewing approach, another presentation of the subject, an account of sufficient or missing structure, a source comparison, the architecture-description result needed now, or the exact blocker.
+- **Mantra:** Name who will use the document and what it must support. Check one view; prepare recurring views; show the subject another way; expose enough structure; compare sources; or use a description in architecture work. Keep document, subject, decision, and performed Work distinct. Stop when the needed result exists; return when its use or content changes.
+- **Start with:** `E.17.0` for one viewpoint; `E.17.1`/`E.17.2` for recurring use; `A.6.3.RT` for representation change; `C.33` for structural information; `E.17.ID.CR` for source comparison; `C.30.AD` for architecture-description use; otherwise use the document result's direct owner.
+- **Stop or return:** Stop when that result answers the use. One file may carry several results without merging them.
+
+#### OPTION-COMPARISON — Keep unlike option results distinct
+
+- **Situation:** Several possibilities exist, or one unresolved question makes a costly commitment unsafe.
+- **Question:** Do you need to compare possibilities, keep worthwhile variants, keep only the best trade-offs found so far, control what stays under consideration, prepare options for a later chooser, choose now, or resolve the uncertainty blocking commitment?
+- **First useful result or honest blocker:** A comparison basis, retained variant set, best-known trade-off set, active-membership rule, set for a later chooser, local choice, answer to the blocking question, or the exact blocker.
+- **Mantra:** Name the decision and cost of error. Compare before choosing. Keep worthwhile variants for history; keep the best trade-offs when clearly worse variants should drop out; set a rule for what stays under consideration; prepare a set when another chooser acts later; choose only when choice is current. For costly action, resolve only the uncertainty blocking commitment. Return when basis, rule, evidence, or use changes.
+- **Start with:** `A.19.ECS` (comparison), `C.18` (archive/front), `C.19` (pool), `G.5` (set result), or `C.11` (choice). For costly action choose only the current check: `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `C.11`, or `A.15.5`.
+- **Stop or return:** Stop at the result answering the present question. It neither chooses by implication nor performs later Work.
+
+#### PROBLEM-SHAPING — Stop at the earliest honest problem-side result
+
+- **Situation:** Something matters, but the team may have only signals worth preserving, a direction for inquiry, a question about competing explanations, or enough clarity to accept a problem statement.
+- **Question:** What can you honestly produce now: preserved signals, a routed direction for inquiry, an explicit question that contrasts possible explanations, or a problem statement ready for acceptance?
+- **First useful result or honest blocker:** A preserved set of signals, a clear inquiry route, a question about plausible explanations, an accepted problem statement, or the exact missing anchor, route, subject, constraint, or acceptance basis.
+- **Mantra:** Keep what was noticed before declaring a problem. Route the inquiry only when the signal has a stable anchor. Ask about explanations only when the open question and contrast are clear. Accept a problem statement only when the subject, constraints, unresolved relations, important distinctions, and basis can be stated. Stop at the earliest useful truth; return when its basis changes.
+- **Start with:** `A.16.1` for a cue pack, `B.4.1` for routed cues, `B.5.2.0` for an abductive prompt, and `C.22.2` for an accepted `ProblemCard`.
+- **Stop or return:** Do not force a cue into a problem. Open `C.22.PFR` only when whether the adverse relation obtains changes the next use.
+
+#### IMPROVEMENT — Define better before repeating change
+
+- **Situation:** A team wants to improve something but has not agreed what better means or how the changed version will be checked.
+- **Question:** Which evaluation question, characteristics, scales, changes, and comparison make improvement reviewable?
+- **First useful result or honest blocker:** One evaluation question, current assessment, bounded change, before-after comparison, or exact missing use, evidence, scale, or trade-off.
+- **Mantra:** Name the entity, current state, and use that better must serve. Frame the question before choosing metrics; select characteristics, scales, and protected trade-offs; assess the current state; compare candidate changes; make only the supported change; evaluate it on the same basis; continue, stop, or change direction from that result.
+- **Start with:** `E.22`, `A.19.ECS`, `C.16`, and `E.23` as their questions become current.
+- **Stop or return:** Stop at the first missing prerequisite or useful comparison. Reopen when the entity, use, evidence, or scale changes.
+
+#### WORDING — Repair language without replacing the project question
+
+- **Situation:** A load-bearing sentence hides the subject, relation, kind, use, or nearby false inference.
+- **Question:** What should the reader understand and do, and which distinctions matter for that use?
+- **First useful result or honest blocker:** One plain repaired sentence, direct clarification, local naming result, or exact missing subject, sense, test, or reader use.
+- **Mantra:** Recover the ordinary project sentence first. Name what it is about, what it claims, and who must use it; add ontological distinctions only where they change truth or action; choose a durable name only when later use needs one; rewrite in plain technical language; test a cold reader and the nearest false inference; return to the domain task.
+- **Start with:** `E.10` and `F.19`; use `F.18`, `F.0.1`, `F.9`, or the subject's direct pattern only when needed.
+- **Stop or return:** Stop when the reader can act without the false inference. Do not continue ontology work after the language problem is solved.
+
+#### SOTA-PORTFOLIO — Move from a plural field to the cheapest useful result
+
+- **Situation:** A project needs the modern field of approaches rather than one popular answer and may later need maintained domain guidance.
+- **Question:** What plural view is adequate now, and does the remaining problem call for reuse, a contribution, another product, a DPF or LPF, or no maintained result?
+- **First useful result or honest blocker:** One source-linked SoTA view, live option set, reuse route, framework decision, or exact missing scope or maintenance basis.
+- **Mantra:** Name the practical question, scope, freshness need, and rival traditions. Build a source-linked plural view; preserve disagreement and source-use limits; compare useful approaches; try cheaper reuse or contribution first; open a framework decision only for a recurring unmet problem; author and test the needed patterns; refresh when the field or use changes.
+- **Start with:** `G.2`; add `C.18`, `C.19`, or `G.5` for the set and the E.4/E.9 authoring route only if a framework is selected.
+- **Stop or return:** Stop at the first adequate maintained or one-off result. A source pack or proposal is not a framework by appearance.
+
+#### SYSTEM-DELIMITATION — Separate parts, selected boundary, and crossings
+
+- **Situation:** One System is recognized, but a decision mixes its parts and assembly with a chosen boundary, external participants, and relations that cross it.
+- **Question:** Which facts, use-relative choice, crossings, and selected structure answer the decision?
+- **First useful result or honest blocker:** One exact part or assembly fact, boundary choice, crossing relation, selected structure, or missing participant, predicate, constraint, or use.
+- **Mantra:** Start with the recognized System and decision. Recover parts and assembly as facts; keep external participants outside the part list; choose a boundary only when alternatives matter; name every crossing by its own relation; select a joint structure only when organization changes the decision; reopen when identity, facts, use, crossings, or constraints change.
+- **Start with:** `B.1.2`, `A.14`, and `C.13`; use `C.11`, `C.32.PAD`, the direct relation pattern, or `A.22` only when needed.
+- **Stop or return:** Stop at the smallest result answering the decision. If system recognition is unresolved, return to `A.1.SCR`.
 
 ## Decide Whether FPF Fits
 
@@ -51,190 +196,32 @@ Core ideas in plain language:
 - architecture is structure of that holon or project object in a context, not the diagram, document, approval, or plan about it;
 - serious architecture work can move from problem pressure to candidate structures, selected structures, decisions, method and work, actual structures, and feedback;
 - when the current question is which reusable way of doing changes, produces, derives, selects, controls, or preserves the project object under stated conditions, inspect `A.3.1 U.Method`; a strategy name, procedure text, program, plan, dated run, mechanism, or evidence record does not answer that method question by its label or form;
-- when an accepted `ProblemCard@Context` claim must remain usable while the project selects a method, prepares or performs work, interprets a result, branches, stops, or returns after a changed assumption, inspect `E.18.1 P2W Problem-to-Work Carry-Through`; it carries that claim into one next value or relation governed by its direct pattern rather than prescribing one universal workflow;
-- when a route-like explanation has several candidate positions and proposed relations or constraints that may change which continuations remain admissible, use it as a `ProvisionalUnfoldingDemonstrationDescription@Context` while any A.22.CGUS admission coordinate remains unresolved; after the wider CGUS is admitted, a separate `DemonstrativeUnfoldingSlice@Context` may present one traversal, and when admitted positions organize bounded transformations inspect the `E.18.3` specialization;
+- when one already-selected method, model, formalism, assurance technique, ontology, or other apparatus is current and its setup/application cost must earn one declared use, inspect `C.19.2`; it defines and tests one bounded application to a separately identified problem-facing result and guarantee. Open `C.18` only when an adequate candidate must be generated or reframed, and `C.11` only when two or more eligible alternatives make a real local choice current;
+- when a clear engineering claim produces a wrong action, identity, dependence, obtaining, responsibility, or projection consequence, inspect `A.7.1`; when current FPF uses produce incompatible consequences for the same receiving claim and scope, inspect `A.7.2`. In either route, keep the method episteme, admitted performer, dated work, the claim-specific result returned by the applicable pattern, and one result episteme distinct: the local disposition is a value in that result, not its kind, and `A.7.2` need not converge;
+- when an accepted C.22.2 `ProblemCard` episteme must remain usable while the project selects a method, prepares or performs work, interprets a result, branches, stops, or returns after a changed assumption, inspect `E.18.1 P2W Problem-to-Work Carry-Through`; it carries the accepted problem-side distinctions into one next value or relation returned by the pattern that answers the current question rather than prescribing one universal workflow;
+- when route-like positions, relations, or constraints change which continuation remains possible, inspect `E.18.3`: begin with the concrete thing being transformed, two recognizable places or states, the proposed connection or guard, and the current continuation question. An ordinary provisional explanation may answer it or stop with the exact missing predicate or occurrence rule, missing case fact, or unavailable information. Recover exact A.22/E.18 qualification and a separate demonstrative-slice claim only when qualification, comparison, publication, or stronger reliance is current; if no branch, connection, or constraint changes the continuation question, keep an ordinary route description;
 - keep several options alive until the comparison is clear enough to choose;
 - say what "better" means before optimizing or scoring;
 - make trust depend on evidence, freshness, scope, and intended use;
 - publish different views for different readers without changing the underlying claim;
-- when explanation, reader-facing ordering, or narrative rendering of selected source structure is current, state what structure is preserved, deliberately coarsened, abstracted, omitted, or lost, and which named source basis or governing pattern receives the return when loss matters;
+- when explanation, reader-facing ordering, or narrative rendering of selected source structure is current, state what structure is preserved, deliberately coarsened, abstracted, omitted, or lost; name the source-return condition and any stronger neighboring claim together with the concrete definition, constraint, test, method, evidence rule, or assurance rule it uses;
 - use mathematics or formal models when they clarify what structure is preserved, what is lost, and what can be checked;
 - build domain or local FPF-grounded frameworks as dependents of FPF Core, not as silent rewrites of the Core.
 
-## Practical-Use Cards
+## When Several Transformation Flows Form One Network
 
-Start with the current project question, not an ordinal route through FPF. The fifteen semantic keys below are stable identifiers, not steps. When several cards seem plausible, compare their situations, first-result differences, and stop or return conditions in the conversation. Then inspect the direct pattern's Problem frame, Problem, Forces, Solution, Consequences, and ordinary boundary. Materialize comparison or candidate records only when a named receiving use relies on them.
+Inspect `E.18.NET` when the current question joins independently identified transformation-flow structures through exact direct relation occurrences. Several stages, several paths, or several valuations of one flow do not make a network.
 
-In each card, the conditional template list is one ordinary walkthrough: inspect only the branch whose stated condition is current, apply that direct pattern's Solution, obtain its exact result, and stop or return at the card boundary. It is not a `DemonstrativeUnfoldingSlice@Context` because the card does not assert one wider constraint-governed structure with typed positions and relations among every alternative. The list is not a project order or a claim that all branches will execute.
+- **Build the builder.** A compiler-source-change flow, a bootstrap-compiler build flow, an application build flow, and a deployment-and-operation flow keep their own changes, work, positions, and local state. Recover the project's exact relation that says which executable compiler is used for the application build and its exact delivery relation to deployment. A selected tool-build network can itself be a member of a selected release network; follow a finite member path rather than inventing “level 2” and “level 3” kinds. Inspect `E.18.NET`; if the case is only one flow with several stages or valuations, stay in `E.18`.
+- **Change a product and its production system.** Product-development Work changes and verifies the product definition; production-system-change Work redesigns, retools, and qualifies equipment; production Work makes units; operation supplies observations that may inform later product-development Work. Treat their transformation-flow structures as separately identified selected structures: the structures organize positions and exact relations but do not perform the Work. Keep the product and production system distinct, and recover the exact release, readiness, production, and observation relations needed by the current case. A selected product-development network and a selected production-system-change network can be members of a larger selected network without becoming one giant flow. Inspect `E.18.NET`; if only one architecture correspondence is current, use its direct architecture pattern instead.
 
-The cards are domain-neutral. A first useful result may be a physical or clinical state, a capability, an episteme, a relation, dated `U.Work`, or another exact subject-governed value. A generated note, measurement, dashboard, or plan does not stand for machining, treatment, organizational change, learning, or another downstream result.
+When the immediate question is whether dated Work actually occurred or whether an entity was actually produced, leave the network overview and apply the two tests that answer those claims. `A.15.1` identifies one `U.Work` occurrence from its actual performer `U.System`, enacted Method, temporal extent, and containing System. For each performer, apply the complete Work test in `A.15.1` and `F.6`: name the assignment occurrence that covers the Work and its declared `U.SystemRoleAssignment` species, confirm that its holder is the actual performer, and establish the F.6 relation for the Work–assignment pair. A compact public sentence may omit an assignment identifier that its receiving use does not need; the omission changes only the sentence, not those facts. A log, ticket, or record is not that occurrence. After that Work and the required participant facts are exact, `A.15.PROD` separately tests the Work's participation in producing the entity, the start of that entity's identity, and production completion. Missing Work granularity, production-participation predicate, identity-specification or inception basis, completion criterion or applicability, boundary or composition facts, or required substrate is a branch-local blocker. Actual change, output or result, identifier allocation, evidence, delivery, and acceptance remain separate claims and none proves those three production claims by itself.
 
-### ARCHITECTURE - Shape architecture from problem pressure
+## Recover a lost path from outside use to recursive builders
 
-- **Situation and question.** Architecture-relevant problem pressure and competing characteristics are present, but the project needs to carry them toward candidate, selected, expected, or actual structures. Ask: which architecturing flow or description-use result is needed first?
-- **Optional obstacle.** Candidate structures, architecture characteristics, or the relation between problem pressure and structure are not yet reviewable.
-- **Template A.** `C.32.P2S Solution -> ProblemToStructureArchitecturingFlowCard@Project`. Select when the connected problem-to-structure flow is current. Local basis adds architecture-relevant pressure refs and current architecture-characteristic refs when available.
-- **Template B.** `C.30.AD Solution -> ArchitectureDescriptionUseCard@Project`. Select when an existing architecture description or view is already the object being used and its admissible-use boundary is current.
-- **Boundaries.** Stop when the selected first card makes the receiving architecture work reviewable. Return when problem pressure, EntityOfConcern, characteristics, description edition, or actual-structure feedback changes. Wrong-turn recovery sends a diagram-as-architecture claim to C.30 and C.33. Stronger neighbors are C.32 synthesis, C.32.PAD decision, A.15 work, E.23 improvement, or G.11 currentness according to the next claim.
-- **Public coarsening.** "Architecture working card" restores to one of the two exact project cards; it does not denote architecture itself.
+Use this guide when the team has recovered or is explicitly proposing one project system-of-interest but can no longer show how a local result supports the expected outside change, release or runtime use, architecture, Work and change of that system, creator systems, and recursive build-the-builder branches. Open `A.1.STM` to locate the first unsupported result, select the particular pattern contribution that answers that claim, and state one next question or action or an exact stop.
 
-### WORKING-DOCUMENTS - Create a document another participant can use
-
-- **Situation and question.** A participant asks for a regulation, procedure, plan, interface description, permission text, evidence note, gate record, publication, or AI tool-use plan. Ask first which use is current for the text: preserve meaning and boundary claims, prepare enactment, support reliance or a gate, or publish already governed content. The reader inspects only the branch selected by that question.
-
-**Branch A: preserve meaning and boundary claims.**
-
-- `A.6 Solution -> Claim Register` or an equivalent small claim set classified as L, A, D, and E when one text mixes definitions, admissibility, commitments, and evidence claims.
-- `A.3.2 Solution -> U.MethodDescription` when the result describes a reusable semantic way of doing under conditions.
-- `A.2.8 Solution -> U.Commitment` when an accountable subject's obligation, permission, or prohibition, scope, validity window, and referents are the actual result.
-- If `interface` still hides whether the current claim concerns a signature, slot, module interface, functional port, protocol, service relation, or publication, use A.6.RSIR only to select the direct governing pattern, retain a reduced-use source label, or return a blocker. RSIR does not produce the downstream interface result. Once the direct claim is recovered, use its pattern and exact result; use A.6.M directly only for a recovered module-interface relation.
-
-**Branch B: prepare enactment.**
-
-- `A.15.2 Solution -> U.WorkPlan` when stating intended dated work, PlanItems, assignments, resources, windows, or sequencing constraints is current.
-- `C.24 Solution -> CallPlan | CheckpointReturn` when tool-call enactment is current: use `CallPlan` after routes and budgeted execution are fixed enough, or `CheckpointReturn` while bounded probing remains the honest result.
-- `A.15.5 Solution -> WorkEntryReadiness@Context` only when intended work already exists and readiness to cross its work boundary is current.
-
-**Branch C: support reliance or a gate.**
-
-- `A.10 Solution -> claim-bound evidence-provenance graph relation` when a named receiving use relies on recovering the basis for one claim or effect through evidence-producing or interpreting work, trace, time window, and bounded use.
-- `B.3 Solution -> Assurance(H, C | K, S)` or an explicit no-assurance-claim disposition when the text is expected to carry a named assurance claim rather than merely point to evidence.
-- `A.21 Solution -> OperationalGate(profile) use with GateProfile, effective GateCheckRefs, aggregated CV status, GateDecision, and DecisionLogRef` when exposing an actual gate decision is current. A readable checklist is not that decision.
-
-**Branch D: publish governed content.**
-
-- `E.17 Solution -> source-pinned publication face` when readable, exchangeable, or citable publication of an already governed episteme or relation is current without changing the underlying claim.
-
-- **Boundaries.** Stop when the selected branch yields the exact result needed by its receiving use. Return to branch selection when the expected use changes. A single document may cite results from several branches, but page proximity does not merge their kinds or transfer their claims to a different governing pattern. RSIR stops at pattern selection, reduced-use source labeling, or a blocker; it never certifies that an interface relation now exists.
-- **Public coarsening.** "Working document" is only a recognizable situation label. The expansion restores the selected branch, direct pattern, exact result, and receiving use.
-
-### OPTION-COMPARISON - Compare alternatives and select the current result kind
-
-- **Situation and question.** Several possibilities are present, but the current need may be to define comparison, retain diversity, govern a live pool, publish a selected set, or make one local choice. Ask which of those relations is current.
-- **Template A.** `A.19.ECS Solution -> EvaluationCharacteristicSpaceSpec`. Select when coordinates, scales, evidence rules, and protected trade-offs are not adequate for comparison.
-- **Template B.** `C.18 Solution -> ExplorationArchiveRecord@Context | FrontRecord@Context`. Select the archive result when later use relies on retained variants and their lineage or diversity; select the front result when later use relies on inspectable non-dominance and its comparator basis.
-- **Template C.** `C.19 Solution -> PoolPolicyResult`. Select when a still-live pool needs one explicit `widen`, `keep frontier`, `narrow to subset`, or `sunset line` treatment and a change trigger.
-- **Template D.** `G.5 Solution -> Shortlist | RankedShortlist | SpecialistHandoff | abstain or escalation outcome`. Select when selector-facing publication of a set or narrowed handoff is current; use a ranked result only when order materially belongs to the published result.
-- **Template E.** `C.11 Solution -> ChoiceResult`. Select when an OptionSet and comparison basis exist and one local choose, reject, probe, or reroute result is current.
-- **Boundaries.** Stop at the result answering the current option question. Return when candidate membership, archive policy, dominance basis, pool policy, selector publication, comparison basis, preference order, or probe value changes. An archive is not a live pool, narrowing a pool does not publish a shortlist, and a shortlist is not a local choice.
-- **Public coarsening.** "Option comparison" is the recognizable situation; the expansion restores evaluation specification, archive, front, pool-policy result, selected-set publication, or local choice under its exact condition.
-
-### PROBLEM-SHAPING - Turn early pressure into an honest problem-side result
-
-- **Situation and question.** Something matters, but it may still be an early cue, a set of possible inquiry routes, an abductive question, or a problem ready for acceptance. Ask how far articulation has actually progressed.
-- **Template A.** `A.16.1 Solution -> U.PreArticulationCuePack`. Select when a cue nucleus and its witness or anchor should be preserved before a route or problem claim is stable.
-- **Template B.** `B.4.1 Solution -> RoutedCueSet`. Select when cue content is stable enough to publish route plurality or one selected route with explicit rationale, while no later endpoint is yet warranted.
-- **Template C.** `B.5.2.0 Solution -> U.AbductivePrompt`. Select when prompt species, open question, scope, and cue provenance are stable enough to seed abductive search.
-- **Template D.** `C.22.2 Solution -> ProblemCard@Context`. Select when the affected EntityOfConcern, constraints, unresolved relations, distinctions to preserve, and acceptance basis can be stated without smuggling in a selected solution.
-- **Conditional continuation.** When an accepted problem-side record must become usable by later eligibility, acceptance, or method-family selection, inspect `C.22 Solution -> TaskSignature`. The TaskSignature types only the current problem traits and receiving use; it does not select a method, issue a selector verdict, plan work, or prove that work occurred.
-- **Boundaries.** Stop at the earliest result that is both truthful and useful. Return or back off when the cue anchor, route rationale, prompt contrast, affected EntityOfConcern, constraint, or acceptance basis changes. Do not force a cue into a ProblemCard merely to make the work look started.
-- **Public coarsening.** "Problem shaping" restores to the exact cue pack, routed cue set, abductive prompt, or accepted ProblemCard under its articulation condition.
-
-### IMPROVEMENT - Define evaluation before repeating improvement
-
-- **Situation and question.** A named object version should improve, but evaluation purpose, quality family, scales, proposal effect, or repeated-loop need may still be unsettled. Ask which prerequisite for improvement is missing now.
-- **Template A.** `E.22 Solution -> QualityEvaluationQuestionFrame`. Select first when evaluation purpose, floor or improvement aim, protected trade-offs, expected evidence basis, or expected result form is not yet agreed.
-- **Template B.** `C.25 Solution -> Q-Bundle`. Select when a composite engineering quality family needs a bearer, components, measures, scope, mechanisms, status, and evidence relation.
-- **Template C.** `A.19.ECS Solution -> EvaluationCharacteristicSpaceSpec`. Select when the object-specific coordinates, scales, comparators, and evidence rules needed for evaluation do not yet exist.
-- **Template D.** `E.23 Solution -> QualityImprovementLoopRecord`. Select only when the object version and evaluation basis exist and repeated proposal, change, coordinate-qualified re-evaluation, and loop decision are current.
-- **Boundaries.** Stop at the smallest missing frame, Q-Bundle, evaluation specification, or completed local loop record. Return when object version, evaluation purpose, Q components, scale, comparison set, evidence basis, expected result change, or protected trade-offs change. "Repeat until better" is not a loop method until better is evaluable on declared coordinates.
-- **Public coarsening.** "Improvement frame" restores to the exact result under its prerequisite condition.
-
-### COSTLY-ACTION - Prepare an expensive or hard-to-reverse action
-
-- **Situation and question.** A proposed action is expensive, externally committing, safety-relevant, or hard to reverse. Ask which unresolved uncertainty or governing relation currently prevents responsible commitment, gate use, intended work, or performed work.
-- **Template A.** `A.10 Solution -> claim-bound evidence-provenance graph relation`. Select when the support basis for one claim or effect is not recoverable.
-- **Template B.** `B.3 Solution -> Assurance(H, C | K, S)` or an explicit no-assurance-claim disposition. Select when the action depends on a named assurance claim and its limitations and decay condition.
-- **Template C.** `A.20 Solution -> path-slice-local CV result with step, CV class, CV.Status, and witness or refusal`. Select when constraint validity is the current question; this result does not itself pass a gate.
-- **Template D.** `A.21 Solution -> OperationalGate(profile) use with GateProfile, GateCheckRefs, aggregated CV status, GateDecision, and DecisionLogRef`. Select when a real gate decision is current.
-- **Template E.** `C.28 Solution -> CausalUseTriageRecord`. Select when expected effects, intervention, counterfactual, or policy claims carry the action rationale and their supported-rung boundary is current.
-- **Template F.** `C.11 Solution -> ChoiceResult`. Select when several actions remain live and the current result is choose, reject, probe, or reroute.
-- **Template G.** `A.15.5 Solution -> WorkEntryReadiness@Context`. Select only after intended work exists and readiness to enter its work boundary is the current relation.
-- **Boundaries.** Stop at the first result that decides the present uncertainty; do not force every costly action through all templates. Return when the claim, evidence path, assurance context, constraint definition, gate profile, causal-use basis, option set, intended work, resource state, cost, or reversibility changes. Planning or readiness does not authorize or perform work, and a gate display does not replace `GateDecision`.
-- **Public coarsening.** "Costly action" restores to the exact evidence, assurance, constraint-validity, gate, causal-use, choice, or readiness result under its selection condition.
-
-### TIME - Use timing and currentness claims responsibly
-
-- **Situation and question.** A claim about rate, rhythm, delay, effort, inertia, recovery, currentness, or validity window is being used for action. Ask whether temporal-claim adequacy or source currentness orchestration is current.
-- **Optional obstacle.** A snapshot is used as a trend, a trend as a control law, or an old edition as current.
-- **Template A.** `C.27 Solution -> Dyn2TemporalClaimAdequacyCard`. Select when a local temporal claim changes supported use.
-- **Template B.** `G.11 Solution -> RefreshCurrentnessLine@Context`. Select when freshness, edition, telemetry, decay, or currentness is the live claim.
-- **Boundaries.** Stop at the smallest supported temporal card or currentness line. Return when window, bearer, evidence relation, model assumption, source edition, or telemetry changes. Wrong-turn recovery downgrades unsupported rate or currentness claims. Stronger neighbors are C.16 for measurement, C.28 for causal use, A.15 for work, and the direct source or publication governing patterns.
-- **Public coarsening.** "Time check" restores to the C.27 card or G.11 line.
-
-### CAUSAL-USE - Bound causal language before using it for action
-
-- **Situation and question.** Causal, intervention, effect, policy, or counterfactual language is being used to support a decision or action. Ask: what causal-use rung and support basis are actually available?
-- **Optional obstacle.** Association, intervention, and counterfactual claims are being treated as interchangeable.
-- **Template A.** `C.28 Solution -> CausalUseTriageRecord`. This is the initial template; local basis adds the live causal wording, target use, candidate rung, comparator or counterfactual, and support-basis refs.
-- **Boundaries.** Stop at the triage record when it honestly bounds supported and unsupported use. Return when intervention, comparator, target population, evidence, or causal-use purpose changes. Wrong-turn recovery downgrades causal laundering to the supported claim. Stronger neighbors are CausalUseEvidenceDesignRecord or CausalUseSupportVerdict inside C.28, C.11 for choice, and direct evidence or work patterns.
-- **Public coarsening.** "Causal check" restores to `CausalUseTriageRecord`.
-
-### DESCRIPTION-USE - Create or use a description without losing its subject
-
-- **Situation and question.** A description, view, dashboard, explanation, model, report, or publication is to be created, compared, transformed, or relied on. Ask which unresolved EntityOfConcern, viewpoint, representation change, lost structure, source set, or architecture use blocks the current use.
-- **Template A.** `E.17.0 Solution -> DescriptionContext`. Select for the generic describing case: name `EntityOfConcernRef`, `BoundedContextRef`, `ViewpointRef`, resulting view or view family, and any correspondence relation needed for the current comparison.
-- **Template B.** `A.6.3.RT Solution -> RepresentationSchemeTransitionRelation@Context`. Select when the same EntityOfConcern is being re-represented and a named receiving use relies on recovering the source representation, receiving representation, preserved claim or commitment, source-relation chain, representation-scheme delta, loss or recoverability, admissible use, and non-admissible downstream use. The relation records the concrete case; `RepresentationSchemeTransition` remains the method-pattern name.
-- **Template C.** `C.33 Solution -> StructuralInformationAdequacyNote@Context`. Select when the current question concerns what structure a description or view captured, lost, hid, and which wider source structure receives return for the declared architecture use.
-- **Template D.** `E.17.ID.CR Solution -> ComparativeReviewUnit`. Select only for bounded comparison over already available source epistemes or publications. It is not the generic description result.
-- **Template E.** `C.30.AD Solution -> ArchitectureDescriptionUseCard@Project`. Select when the subject is specifically an architecture description or view and its admissible architecture-use boundary is current.
-- **Boundaries.** Stop at the smallest result answering the current description-use question. Return when EntityOfConcern, context, viewpoint, representation scheme, captured structure, source edition, comparison basis, or intended use changes. A publication carrier does not become its subject, and a readable view does not become evidence, assurance, permission, decision, architecture, or work without the corresponding governed relation.
-- **Public coarsening.** "Description use" restores to `DescriptionContext`, `RepresentationSchemeTransitionRelation@Context`, `StructuralInformationAdequacyNote@Context`, `ComparativeReviewUnit`, or `ArchitectureDescriptionUseCard@Project` under the stated condition.
-
-### NAMING - Name a governed value for its readers
-
-- **Situation and question.** A governed value needs a stable Tech or Plain label across a bounded context. Ask: which name lets readers recover the value without changing its kind or scope?
-- **Optional obstacle.** Candidate labels carry conflicting senses, hidden kinds, or misleading morphology.
-- **Template A.** `F.18 Solution -> NameCard`. Local basis adds governed value, governing pattern, bounded context, candidate set, rejected candidates, rationale, bridges, lineage, and refresh condition.
-- **Boundaries.** Stop at a complete NameCard when no public term publication is current. Return when governed value, context, candidate evidence, reader interpretation, or bridge changes. Wrong-turn recovery restores the governed value before selecting a label. F.17 becomes the stronger neighbor only when actual term-row publication is current.
-- **Public coarsening.** "Naming card" restores to `NameCard`.
-
-### WORDING - Repair wording without changing the kind by accident
-
-- **Situation and question.** A sentence sounds fluent but hides which object, relation, slot, use position, or claim kind is active. Ask: what was the pre-repair kind and which invariant is preserved after rewriting?
-- **Optional obstacle.** A trigger word has been replaced while ontology, admissible use, or scope drifted.
-- **Template A.** `E.10 Solution -> KindRestorationCheck`. Local basis adds the exact span, pre-repair kind, relation, position, use, and scope, post-repair settlement, governing-pattern ref, and disposition.
-- **Boundaries.** Stop when the repaired wording preserves or explicitly changes the kind by accepted decision and remains understandable under MG-DA. Return when the sentence's EntityOfConcern, use, or scope changes. Wrong-turn recovery rejects lexical substitution without semantic check. Stronger neighbors are F.19 for phrase-level prose repair, F.18 for durable naming, or the direct domain pattern for ontology repair.
-- **Public coarsening.** "Wording repair" restores to `KindRestorationCheck` plus the changed sentence.
-
-### MATHEMATICAL-MODELING - Use a mathematical lens when it changes the next action
-
-- **Situation and question.** A project question may benefit from a mathematical object or lens, but the next action and lost structure are not yet clear. Ask: can one cheap lens result change the next admissible action?
-- **Optional obstacle.** A metaphor such as graph-like, field-like, or optimization-like is being treated as ontology or evidence.
-- **Template A.** `C.29 Solution -> MathLensUse.LensCandidateNote`. Select when no adequate mathematical object has yet been named.
-- **Template B.** `C.29 Solution -> MathLensUse.OneLine`. Select when candidate mathematical object, mapping, preserved structure, lost structure, payoff, next action, rival or fallback, and stop condition can be stated.
-- **Boundaries.** Stop at `NoMathLensUseNeededNote`, candidate note, or one-line result according to C.29. Return when EntityOfConcern, mapping, observation, preserved structure, or intended use changes. Wrong-turn recovery removes lens-as-world or lens-as-evidence overread. Stronger neighbors are C.29 MiniCard or FullCard, C.16 measurement, C.28 causal use, and C.30 architecture use.
-- **Public coarsening.** "Mathematical-modeling note" restores to the selected `MathLensUse.*` output.
-
-### SOTA-PORTFOLIO - Build a plural current field of options and sources
-
-- **Situation and question.** A project needs the current plural field of methods, theories, technologies, or design options rather than one favored source. Ask first what source and tradition synthesis is adequate, then which stewardship relation is current for the resulting candidates.
-- **Template A.** `G.2 Solution -> SoTA Synthesis Pack@CG-Frame`. Select when the immediate need is a reconstructible `SoTA_Set@CG-Frame` and `SoTAPaletteDescription` with rival traditions, claim rows, evidence anchors, crossings, and source-use boundaries.
-- **Conditional walkthrough.** If later use relies on retained generated or harvested variants, use `C.18 -> ExplorationArchiveRecord@Context`; if later use relies on exposed non-dominated variants, use `C.18 -> FrontRecord@Context`; if a still-live pool needs treatment, use `C.19 -> PoolPolicyResult`; if a selector-facing set is to be published, use `G.5 -> Shortlist | RankedShortlist | another declared selector outcome`. These are conditional continuations, not synonyms or serial stages.
-- **Boundaries.** Stop at the pack when downstream stewardship is not current. Return when scope, traditions, source editions, evidence anchors, or harvest policy changes. Archive, front, live pool, and selected set keep different membership, policy, and publication meanings; no prose summary may collapse them.
-- **Public coarsening.** "SoTA portfolio" restores to the G.2 pack and, only when current, the exact C.18, C.19, or G.5 continuation result.
-
-### DPF-AUTHORING - Build a reusable FPF-grounded domain framework
-
-- **Situation and question.** A domain or local practice needs a reusable FPF-grounded framework edition rather than isolated advice. Ask whether the useful first result is a present organization-design proposal about an intended future framework, a settled framework-architecture decision, a post-claim architecture-description use, or a post-PFAD account of authoring dependencies.
-- **Template A.** `E.4.DPF Solution -> FrameworkOrganizationDesignProposal@Context`. Select before PFAD when one current C.2.1 proposal episteme makes candidate organization claims reviewable. Its EntityOfConcern is a present intended-framework-result description whose EntityOfConcern is an A.15.2 `U.WorkPlan`; proposal and description share the description's exact A.1-admitted grounding holon. Its one ClaimGraph carries typed candidate claim nodes and proposed subject relation signatures. A relation-family coverage constraint node carries covered family ref-kind pairs, admitted use, and coverage criterion; a WorkPlan acceptance target remains separate basis. A materialized PUA expectation expects this proposal, not the later framework edition. Claim status carries proposedness; accountable obligation exits to A.2.8; a separate return points to E.4.PFAD when framework-architecture settlement is current. Optional proposal meta-structure never substitutes for proposed subject organization.
-- **Template B.** `E.4.PFAD Solution -> PrincipleFrameworkArchitectureDecision@Context`. Select when framework family, Core dependency boundary, content boundary, pattern relation structure, publication architecture, or access architecture is the current decision question. The filled decision relation exists before any ADR-like publication of it.
-- **Template C.** `C.30.AD Solution -> ArchitectureDescriptionUseCard@Project`. Select only after the framework entity, `ArchitectureOf@Context`, and selected architecture-relevant structures exist, and when admissible use of the corresponding architecture description is current.
-- **Template D.** `E.4.DPF Solution -> FrameworkAuthoringDependencyDescription@Context`. Select only when PFAD exists and the immediate need is a minimal account of dependency availability and relevance for the next authoring use. This C.2.1 episteme concerns the current DPF-authoring `U.WorkPlan`, has one exact grounding holon, ClaimGraph, and ReferenceScheme, and contains at least the Core-edition, source-basis, and PFAD dependency positions. Core edition and PFAD are available with exact value-kind refs. Another missing dependency has an acquisition-condition description and no value ref; an available dependency has exact value and kind refs and no acquisition condition. Relevance remains independent in both branches. Future products need not exist; a missing PFAD returns to Template B.
-- **Boundaries.** Stop at the proposal while its candidate organization ClaimGraph is the current result, at PFAD while framework-architecture settlement is current, at the C.30.AD use card while post-claim description use is current, or at the dependency description when it makes the next authoring work recoverable. Return when intended result kind, current intended-result description, proposal basis, design question, candidate relation signature, constraint, invariant, dependency direction, alternative, unresolved position, Core edition, source basis, architecture decision, publication or access use, quality result, or currentness changes. Neither a topic list nor an organized proposal document without proposed subject relations is a proposal result.
-- **Public coarsening.** "DPF authoring" restores to `FrameworkOrganizationDesignProposal@Context`, `PrincipleFrameworkArchitectureDecision@Context`, `ArchitectureDescriptionUseCard@Project`, or `FrameworkAuthoringDependencyDescription@Context` under the stated condition.
-
-### SYSTEM-IN-CONTEXT - Make the current system question explicit
-
-- **Situation and question.** A candidate system is named, but the current system question is not yet explicit. Ask whether the needed first result concerns identity and environment, composition, participation and functioning, selected structures, intended creation or change, or creation or change that has already occurred.
-- **Template A.** `A.1 Solution -> HolonDelimitationRelation@Context`. Select for identity rule, bounded context, included or excluded entities, environment relation, selected-structure boundary, or current boundary condition.
-- **Template B.** `B.1.2 Solution -> SystemAggregationRelation@Context`. Select when aggregation depends on distinguishing admitted system parts from external crossing relations.
-- **Template C.** `A.1 Solution -> SystemParticipationRelation@Context`. Select when the current question connects the acting system to functioning, functional elements, roles, capabilities, methods, mechanisms, work plans, work occurrences, transformations, evidence, assurance, or temporal and dynamics aspects. Each linked value keeps its direct governing pattern.
-- **Template D.** `C.30 Solution -> ArchitectureQuestionCard@Project`. Select when the system is identified and selected structures or architecture relations are now current.
-- **Template E.** `A.15.2 Solution -> U.WorkPlan`. Select when planning intended system creation or change is current.
-- **Template F.** `A.15.1 Solution -> U.Work`. Select only when creation, change, maintenance, or another dated occurrence has happened and can be grounded through its performer, enacted method, affected referent, resources, outcome, time window, and evidence relation. The occurrence is the direct result; `ResultProducingWorkSlot[]` remains absent, while any planning, setup, authorization, or causal relation to other work returns to its direct governor.
-- **Boundaries.** Stop at the smallest result that answers the current question. Return when system identity, context, parthood, participation, selected-structure question, intended work, or performed-work evidence changes. Wrong-turn recovery restores system, environment, part, participation, architecture, plan, performed work, and description as separately governed values. A diagram box is not a system boundary by shape, a functioning description is not the functioning system, and a work record is not a system part merely because it appears inside one project view.
-- **Public coarsening.** "System in context" restores to the exact selected result under its selection condition.
+This is a readable continuation, not an additional practical-use card, result kind, `SystemThinkingMap`, project-network result, mandatory traversal, WorkPlan, or calendar order. If the actual versus intended project system-of-interest or its project designation is unclear, apply `A.15.6` first to distinguish actual project Work, intended material, and project designation. Apply `A.1.SCR` to the recovered exact entity only when recognition under `U.System` remains load-bearing for the named decision.
 
 ## One-Minute Example
 
@@ -289,11 +276,11 @@ FPF is most useful when the cost of semantic drift, premature convergence, hidde
 
 ## How to Use This Repository
 
-Start with the practical-use card that recognizes the current project question. If several fit, compare their situations, first-result differences, and stop or return conditions before inspecting the selected direct pattern.
+Start with one of the two direct examples or one of the cross-pattern cards when it recognizes the current project question. A direct example is enough when one pattern can return the needed result. A card helps when the answer must retain several pattern contributions, checks, and returns. If no example fits, use the Table of Contents or ask an assisting agent to compare a small plausible set of direct patterns. The examples are not a list of all questions FPF can help with.
 
-Use the `Preface` for the cross-cutting ideas and the repeated-use explanation. Use the Table of Contents when you already know the pattern family or need a search-oriented overview. Use the direct pattern body for the governed Solution. Once one direct pattern is current, use `E.11.PUA` to apply its Solution to the first exact result and its receiving use. Use `E.11.PUR` only when a named receiving use needs an addressable applicability finding, recommendation, coordination, or ordering relation. Use extended cases when the compact card and direct pattern are not enough.
+Use the `Preface` for the cross-cutting ideas. Use the selected pattern body for its `Solution`. Once one pattern is current, use `E.11.PUA` to follow that `Solution` to the smallest useful result or an honest missing-basis stop. Name a receiving use only when an actual continuation or later reliance is current. Use `E.11.PUR` when applicability, recommendation, coordination, or ordering among candidate pattern uses is the current question. Keep an ordinary reversible judgement conversational; make it addressable only when a named later use needs that support.
 
-If you use an AI assistant, attach or index `FPF-Spec.md` and ask for plain-language project help first. Let internal pattern names enter the conversation only when they make the reasoning more precise.
+If you use an AI assistant, attach or index `FPF-Spec.md` and ask for plain-language project help first. Let internal pattern names enter only when they make the answer more precise.
 
 A good first prompt is:
 
@@ -302,23 +289,18 @@ You have the FPF specification as a file.
 Help me with this current project question:
 [short project description and question]
 
-Use plain language for engineer-managers.
-Compare the relevant semantic practical-use cards when several fit:
-ARCHITECTURE, WORKING-DOCUMENTS, OPTION-COMPARISON,
-PROBLEM-SHAPING, IMPROVEMENT, COSTLY-ACTION, TIME,
-CAUSAL-USE, DESCRIPTION-USE, NAMING, WORDING,
-MATHEMATICAL-MODELING, SOTA-PORTFOLIO, DPF-AUTHORING,
-or SYSTEM-IN-CONTEXT.
+Use plain language for engineer-managers. The Readme examples are clues,
+not a list of the questions FPF allows. If one direct pattern can answer
+the difficulty, start there. If the answer needs several pattern
+contributions, give me a short attention map and open only the
+contributions whose questions are current.
 
-Then inspect the selected direct pattern and give:
-- the current EntityOfConcern and practical question;
-- the pattern and Solution selected under the current condition;
-- the exact kind of first useful result;
-- what that result lets us do next;
-- where to stop or return when a stronger claim becomes current.
-
-Keep comparison conversational unless a named receiving use relies on an addressable record.
-Do not turn the card into a whole-project plan.
+First give one useful result for the situation, or an honest blocker.
+Then name the project question that result answers and any missing fact,
+rule, evidence, or authority needed before a truthful answer is possible.
+Add PatternIDs after the plain explanation so I can inspect the direct
+Solutions and checks. Stop when the current question is answered; do not
+turn the example or card into a whole-project plan.
 ```
 
 ## Citation
