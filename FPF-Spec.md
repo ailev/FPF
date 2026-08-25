@@ -114,7 +114,7 @@ The public FPF readme section after the Table of Contents provides the semantic 
 | A.6.7 | **`MechSuiteDescription` — Description of a set of distinct mechanisms** | Stable | *Keywords:* mechanism suite, distinct mechanisms, suite obligations, spec pins, CN-Spec, CG-Spec, P2W, planned baseline, crossing visibility. *Queries:* "What is a MechSuiteDescription?", "How to describe a bundle of distinct mechanisms without using MechFamilyDescription?", "How do suite obligations differ from gate decisions?" | **Builds on:** E.8, A.6.1, A.6.5, E.10, E.19. **Coordinates with:** E.18, A.21. **Used by:** Part G universalization; CHR mechanism stacks. |
 | A.6.9 | **Cross-Context Sameness Disambiguation - Repairing cross-context "same / equivalent / align" via explicit Bridges (RPR-XCTX)** | Stable | *Keywords:* ambiguous sameness, direct-owner dispatch, exact F.17 `SchemeSenseCell` endpoints, different `<ReferenceScheme, LocalSenseClaim>` projections, relation-only F.9 Bridge, separate C.2.1 bounded-use claim, A.10/B.3 reliance, actual receiving object, explicit stop. *Queries:* "Do these words name one directly governed value or two exact local senses?", "Do the endpoint projections differ, and does this Bridge actually obtain?", "Which separate claim, reliance basis, authorization owner, and actual receiving object govern this use?" A true Bridge by itself selects, authorizes, and performs no use. | **Builds on:** A.6.P, F.17, F.18, F.9, C.2.1, F.0.1, F.7, F.8. **Coordinates with:** A.10, B.3, A.7, A.6.6, A.2.6, E.17, C.29, A.6.3.RT, C.3.3, A.22, A.2.1, F.6, A.15.1. |
 | A.6.S | **TargetSignature and optional ConstructorSignature - demand-driven signature engineering** | Stable | Starts with the actual signature assertion, revision, relation, operation application, or Work. Add a separate ConstructorSignature only when a named receiving use needs reusable constructor vocabulary, laws, and applicability; no pair object or `U.SignatureEngineeringPair` is admitted. *Queries:* "What signature actually changes?", "Does a receiver need a reusable ConstructorSignature?", "How are the arrow, application, Work, edition, carrier, and publication kept distinct?". | **Builds on:** A.3.1, A.3.2, A.15, A.15.1, A.15.2, A.7, A.6, A.6.0, A.6.2-A.6.6, C.2.1, A.2, A.2.1, F.6, A.6.B, E.17, and E.17.0. **Coordinates with:** E.18 only when a TransformationFlowStructure is current, and E.10 for wording discipline. |
-| A.6.H | **Wholeness Language Unpacking (RPR-WHOLE)** | Stable | *Keywords:* wholeness, integrity, part-of, boundary, environment, mereology, completeness, order/time, publication-carrier and EntityOfConcern/Description distinction, system-role–Method–Work distinctions. *Queries:* "How to unpack 'whole/part/integrity' in FPF?", "RPR-WHOLE trigger words", "ComponentOf vs ConstituentOf vs PortionOf vs MemberOf vs PhaseOf", "How to separate order/time from mereology?" | **Builds on:** A.6.P, A.6.5, A.7. **Coordinates with:** A.14, B.1.1, B.1.4, A.15. |
+| A.6.H | **Wholeness Language Unpacking (RPR-WHOLE)** | Stable | *Keywords:* wholeness, integrity, part-of, boundary, environment, mereology, completeness, order/time, publication-carrier and EntityOfConcern/Description distinction, system-role–Method–Work distinctions. *Queries:* “How to unpack ‘whole/part/integrity’ in FPF?”, “RPR-WHOLE trigger words”, “ComponentOf vs ConstituentOf vs PortionOf vs collection belonging vs PhaseOf”, “How to separate order/time from mereology?” | **Builds on:** A.6.P, A.6.5, A.7. **Coordinates with:** A.14, B.1.1, B.1.4, A.15. |
 | ***Cluster A.V - Constitutional Principles of the Kernel*** | | | | |
 | A.7 | **Strict Distinction (Clarity Lattice)** | Stable | *Keywords:* category error, EntityOfConcern ≠ Description episteme, system-role kind and assignment ≠ Work, MethodDescription ≠ Method ≠ Capability ≠ Work. *Queries:* "Which nearby FPF objects have been collapsed?", "What is the smallest direct claim the receiving use needs?" | **Builds on:** A.1, A.2, A.3. **Constrains:** all patterns. |
 | A.7.1 | **Consequence-Guided Ontological Problem Solving** | Stable | *Keywords:* wrong engineering consequence, smallest defeated claim, exact subject and direct owner, one selected analysis apparatus, actual system performing under an assignment, bounded unresolved result. *Queries:* "Which ontological distinction must change to repair this engineering consequence?", "Can one already selected apparatus reach the result affordably, or is generation or choice genuinely current?" | **Specializes:** C.19.2. **Consumes:** exact A.7.CP claims when load-bearing. **Coordinates with:** A.7.2, A.7, E.24, E.24.UK. |
@@ -126,7 +126,7 @@ The public FPF readme section after the Table of Contents provides the semantic 
 | A.11 | **Ontological Parsimony** | Stable | *Keywords:* parsimony, composition, non-redundancy, kernel growth, U-kind admission. *Queries:* "How does FPF avoid adding redundant core concepts?", "When should a candidate be expressed by slots, relations, records, forms, lenses, or an existing root?" | **Builds on:** E.24.UK, A.8, F.8, F.18. **Constrains:** new core-concept and durable U-kind proposals. |
 | A.12 | **Acting-Side Externalization and Reflexive Split** | Stable | Separate one exact continuing changed subject from one exact entity proposed for the acting side. Keep A.1 recognition, same-entity systemhood, causal or interaction participation, system-role assignment, A.3.4 transformation, Method, Work, evidence, boundary crossing, and parthood under their direct patterns. For a self-action claim, identify two exact entity parts or subsystems of one containing holon; for a document case, choose carrier change, episteme edition, or relation-occurrence change before filling singular positions. *Queries:* "Which exact referent continues as the changed subject?", "Which exact entity occupies the acting side, and has A.1 recognized it as a system?", "Which participation, assignment, transformation, Work, evidence, crossing, or part relation independently obtains?" | **Builds on:** A.1, A.2.1, A.2.7, A.3.4. **Coordinates with:** A.1.1, A.2.6, A.6.RCD, A.7, A.10, A.14, C.13, A.15, A.15.1, F.6, C.2.1, E.17, E.24.PUB, and B.2.5. |
 | A.13 | **The Agential Role & Agency Spectrum** | Stable | *Keywords:* agential participation, local system-role kind, `U.SystemRoleAssignment`, agency spectrum, autonomy grading, substrate-neutral autonomy. *Queries:* "Which local system-role kind is relevant to this agency claim?", "Does an assignment of that kind actually obtain for this System, scope, working situation, and window?", "How do I grade autonomy on an evidence-backed spectrum?" | **Builds on:** A.2, A.2.1, A.12. **Informs:** E.16. **Coordinates with:** A.17, A.18, A.19, C.16, A.10, and planned C.9 as future profile consolidation only. |
-| A.14 | **Advanced Mereology: Components, Portions, Aspects & Phases** | Stable | *Keywords:* mereology, part-of, ComponentOf, PortionOf, PhaseOf, composition. *Queries:* "How to model different kinds of 'part-of' relationships?" | **Refines:** A.1. **Prerequisite for:** B.1.1. |
+| A.14 | **Advanced Mereology: Components, Portions, Aspects & Phases** | Stable | *Keywords:* part, member, belongs to, component, constituent, portion, aspect, phase, ComponentOf, ConstituentOf, PortionOf, AspectOf, PhaseOf. *Queries:* "Does this entity belong to this subject-defined collection, or does member mean mathematical inclusion, classification, participation, or constructive parthood?", "Is this a component or constituent, a measured portion, a bearer-dependent structural aspect, or the same carrier during a proper phase?" | **Refines:** A.1. **Coordinates with:** C.3, A.6.5, C.13, C.16, E.17, C.29, C.27.TA. **Prerequisite for:** B.1.1. |
 | A.15 | **System-Role–Method–Work Alignment** | Stable | *Keywords:* system-role kind, assignment, Method, MethodDescription, WorkPlan, readiness, dated Work, attribution, result boundary. *Queries:* "Which System performed this Work under which assignment and Method?", "Is this a plan, readiness claim, actual Work, or a separate result?", "Which neighboring claim still needs its direct pattern?" | **Builds on:** A.2, C.3, A.2.1, A.3, A.15.1, A.15.2, F.6. **Coordinates with:** A.2.5, A.2.7, E.10.ROLE, A.10, B.3. |
 | A.15.1 | **`U.Work`: Dated Performed Work Occurrence** | Stable | *Keywords:* admitted `U.Work` kind, world-side dated occurrence, actual performer `U.System`, covering `U.SystemRoleAssignment`, `performedUnderAssignment`, enacted Method, temporal extent, containing System, optional direct bindings and resource use, separate result or consequence. *Queries:* "What identifies one actual Work occurrence?", "Which System performed it under which assignment?", "Which result, change, production, delivery, evidence, or acceptance claim needs its own direct pattern?" | **Builds on:** A.1, A.2.1, A.3.1, C.2.1. **Coordinates with:** F.6, A.6.1, A.3.4, A.15.PROD, B.1.4, B.1.6, A.10. |
 | A.15.2 | **`U.WorkPlan`: The Schedule of Intent** | Stable | *Keywords:* intended-work episteme, present EntityOfConcern, possible future performance, `PlanItem` content, horizon, performer and capability conditions, positive or governed-negative local fulfilment assertion, reusable predicate semantics, variance, no actuality by plan. *Queries:* "What identifies a WorkPlan without inventing future Work?", "When does fulfilment stop at a local assertion or predicate definition, and when does occurrence-facing use justify a relation-kind candidate?", "How are negative fulfilment, missing information, and missing governor distinguished?", "How do planned values, actual Work, B.1.4/B.1.6 aggregates, and F.9 sense Bridges stay separate?" | **Refines:** A.15. **Builds on:** C.2.1. **Coordinates with:** A.2.1, A.2.2, A.3.1, A.3.2, A.15.1, A.15.3, A.6.1, A.6.5, A.6.RCD, E.24, E.24.UK, A.6.REL, B.1.4, B.1.6, F.9. |
@@ -163,7 +163,7 @@ The public FPF readme section after the Table of Contents provides the semantic 
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| B.1 | **Holon Aggregation and Part-Whole Construction** | Stable | Recovers part-whole, membership, collection-as-whole, relations among local system-role kinds, classification or assignment, direct participation, method relation structure, work-occurrence holarchy, selected architecture structure, or mathematical-description claims before using aggregation notation. Unresolved role wording first uses E.10.ROLE. | **Builds on:** A.1, A.14, C.13. **Coordinates with:** E.10.ROLE, A.2.7, A.15, A.15.1, A.22, C.29, C.30, B.2, B.3.5. |
+| B.1 | **Holon Aggregation and Part-Whole Construction** | Stable | Recovers part-whole, collection belonging under the collection's own rule, collection-as-whole, relations among local system-role kinds, classification or assignment, direct participation, method relation structure, work-occurrence holarchy, selected architecture structure, or mathematical-description claims before using aggregation notation. Unresolved role wording first uses E.10.ROLE. | **Builds on:** A.1, A.14, C.13. **Coordinates with:** E.10.ROLE, A.2.7, A.15, A.15.1, A.22, C.29, C.30, B.2, B.3.5. |
 | B.1.1 | **Dependency Structure and Relation Grounding** | Stable | Keeps dependency structure, graph or representation lens, relation grounding, constructive grounding, and proof or evidence claims separate. | **Builds on:** B.1, A.14, C.13. **Coordinates with:** C.29, A.10, B.3.5. |
 | B.1.2 | **System Aggregation and Holon Delimitation** | Stable | Coordinate one named aggregation or delimitation decision for one exact entity recognized as a system under A.1 or still being evaluated there. Recover system identity, obtaining part and assembly relations, exact boundary-crossing relations, any use-relative boundary choice, function/bearer allocations, whole-level characteristics, evidence, descriptions, and blockers from their direct owners; select a non-agentive A.22 U.Structure only when their joint organization changes the decision. *Queries:* "Which exact entity and decision are current?", "Which constituents are parts and which exact relations only cross the selected boundary?", "What direct result makes a use-relative inclusion or exclusion current?", "Does the joint organization itself require an A.22 structure?" | **Builds on:** B.1, A.1, A.14, C.13, A.22, and the direct relation owners selected for the current decision. **Coordinates with:** C.11, C.32.PAD, C.2.1, A.6.F, A.6.M, C.16, A.19, C.29, A.10, B.3, A.3.4, A.12, C.30, E.17, the exact crossing-relation owners, and B.2 when whole reidentification is needed. |
 | B.1.3 | **Γ_epist — Knowledge-Specific Aggregation** | Stable | *Keywords:* knowledge aggregation, epistemic, provenance, trust, KD-CAL. *Queries:* "How to combine epistemes?", "How does trust propagate in FPF?" | **Builds on:** B.1, A.1, C.2. |
@@ -179,7 +179,7 @@ The public FPF readme section after the Table of Contents provides the semantic 
 | B.3 | **Trust and Assurance Calculus** | Stable | States whether one exact target claim is adequately supported for one named assurance use through the smallest inspectable argument and direct results, with limits and reopen conditions. It defines no universal F-G-R/congruence score and does not turn a badge, record, evidence item, gate, permission, or publication into assurance. *Queries:* "What exact claim and use need assurance?", "Which argument and results support it?", "What remains unsupported and what reopens the conclusion?". | **Builds on:** C.2.1, A.2.4, A.10, G.6, A.2.6, C.16, C.16.Q, and the direct domain patterns for each input. **Coordinates with:** A.15.1, A.6.1, G.11, F.10, A.21, C.28, A.22, E.17, E.24.PUB, C.29, and the direct permission, release, safety, responsibility, and controlled-action patterns. |
 | B.3.3 | **Assurance Subtypes & Levels** | Stable | *Keywords:* assurance levels, L0-L2, TA, VA, LA, typing, verification, validation. *Queries:* "What are the assurance levels in FPF?", "How does an assurance record mature in FPF?" | **Builds on:** B.3. |
 | B.3.4 | **Evidence Decay & Epistemic Debt** | Stable | *Keywords:* evidence aging, decay, freshness, epistemic debt, stale data. *Queries:* "How does FPF handle outdated evidence?", "What is epistemic debt?" | **Builds on:** B.3. |
-| B.3.5 | **Working-Model Relations & Grounding (CT2R-LOG)** | Stable | *Keywords:* grounding, constructive trace, working model, assurance layer, CT2R, Compose-CAL. *Queries:* "How are FPF models grounded in evidence?", "What is the CT2R-LOG?" | **Builds on:** B.3, E.14, C.13. |
+| B.3.5 | **Working-Model Relations & Grounding (CT2R-LOG)** | Stable | Use when a direct readable relation is already selected and you must decide whether an elected assurance profile needs a current support account. Keep collection-specific belonging and structural parthood separate; use the branch's current construction trace or other permitted support and declare its validation posture. If no profile is elected, keep the direct relation and stop. *Query:* "Do I need an additional assurance account for this already selected direct relation, and what current support does its branch require?" | **Builds on:** B.3, E.14, C.13. |
 | B.4 | **Canonical Evolution Loop** | Stable | *Keywords:* evolution loop, DesignRunTag feedback, observe-notice-stabilize-route, drift repair, knowledge refinement, method refinement, open-ended evolution. *Queries:* "How does FPF evolve a system or episteme without design-reality drift?", "Where do knowledge and method instantiation sit in the canonical loop?", "Where does pre-abductive routing sit?" | **Builds on:** A.4, A.12. **Refined by:** B.4.1. **Carries embedded slices for:** knowledge instantiation and method instantiation. |
 | B.4.1 | **Observe -> Notice -> Stabilize -> Route** | Stable | *Keywords:* routed cue set, route plurality, route selection, pre-abductive seam, task-family specialization route. *Queries:* "How do under-articulated cues become routed before endpoint claim publication?", "When should a cue become a routed cue set instead of an abductive prompt?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
 | B.5 | **Canonical Reasoning Cycle** | Stable | *Keywords:* reasoning, problem-solving, Abduction-Deduction-Induction, scientific method. *Queries:* "How does FPF model problem-solving?", "What is the canonical reasoning cycle?" | **Builds on:** A.10. **Prerequisite for:** `B.5.*` family members. |
@@ -328,7 +328,7 @@ The public FPF readme section after the Table of Contents provides the semantic 
 | E.11.PUA | **Pattern Use in a Working Situation and First Useful Result** | Stable | Uses one inspected direct pattern for one current subject and practical question. Begin with the subject, question, selected Solution, first useful result or honest blocker, and stop or return; a person or assisting system uses the pattern's action- or judgement-guiding content. Recover a `MethodDescription`, admitted Method, performer, assignment, dated Work, exact predicate, `ClaimGraph`, or receiving use only when that distinction changes truth, action, stop, or named reliance. Ordinary bounded use may remain conversational; reliance-bearing support stays proportional. | **Builds on:** E.11, E.8. **Coordinates with:** E.11.PUR, E.18, E.18.NET, E.18.1, E.18.3, A.15, and every selected direct pattern. |
 | E.11.PUR | **Pattern-Use Applicability, Recommendation, and Coordination** | Stable | After candidate pattern uses have been inspected, decides their applicability, which useful first result to recommend, and how several uses relate. An ordinary reversible judgement may remain conversational; separate fit findings and recommendation support appear only under named reliance. Pairwise order exists only for prerequisite result, method precondition, or shared-constraint resolution; presentation order is not a workflow, WorkPlan, or performed Work. | **Builds on:** E.11, E.11.PUA, E.10.MOVE. **Coordinates with:** E.18.1, A.15, A.21, C.24, C.30, and direct decision patterns. |
 | E.11.PFP | **Framework Publication Form Profile** | Stable | Common reader-facing title, product-owned metadata projection, logical index, Readme entry, source projection, and deterministic-check form for public FPF, DPF, and LPF editions. | **Builds on:** E.11, E.17, E.24.PUB. **Used by:** E.4.FPF, E.4.DPF and bounded LPF/DPF publication-form applications. |
-| E.11.DSG | **DPF Suite Guide** | Candidate | Starts from a situation in which several DPFs may contribute or the applicable DPF is unclear, gives a short useful answer or honest product-gap blocker, and returns the reader to one exact guide edition, suite edition, contributing results, and direct sources without inferring membership, dependency, compatibility, or currentness from co-listing. | **Specializes:** E.11. **Uses:** E.4:4.2 and E.4.PFAD for suite architecture, C.2.1 for exact guide and suite editions, and G.5 only for an actual JointUseSet. **Coordinates with:** E.4.PFR, C.2.P, F.9, E.17, E.24.PUB, G.11, E.11.PUA, and E.11.PUR. |
+| E.11.DSG | **DPF Suite Guide** | Candidate | Starts when several DPFs may contribute or the applicable DPF is unclear, gives a short useful answer or honest product-gap blocker, and returns the reader to the Suite collection, Guide edition, contributing product series and results, and direct sources. It neither decides belonging nor infers dependency, compatibility, or currentness from co-listing; a known sufficient DPF remains a direct route. | **Specializes:** E.11. **Uses:** E.4:4.2 and E.4.PFAD for Suite architecture, C.2.1 for Guide and DPF editions, and G.5 only for an actual JointUseSet. **Coordinates with:** E.4.PFR, C.2.P, F.9, E.17, E.24.PUB, G.11, E.11.PUA, and E.11.PUR. |
 | E.12 | **Didactic Primacy & Cognitive Ergonomics** | Stable | *Keywords:* didactic, cognitive load, ergonomics, usability, Rationale Mandate, HF-Loop. *Queries:* "How does FPF ensure it's understandable?", "What is the 'So What?' test in FPF?". | **Builds on:** E.2 (P-2). **Complements:** E.13. |
 | E.13 | **Pragmatic Utility and Value Alignment** | Stable | *Keywords:* pragmatic utility, proxy-to-value alignment, Goodhart, Campbell, surrogation, minimally viable value slice. *Queries:* "How does FPF keep measures from replacing value?", "What got worse when the score improved?". | **Builds on:** E.2 (P-7). **Complements:** E.12 and E.14; coordinates with E.8, E.19, E.21, E.22, E.23, E.9.DA, and E.2.DA. |
 | E.14 | **Human-Centric Working-Model** | Stable | *Keywords:* working model, human-centric, publication surface, grounding, assurance layers. *Queries:* "What is the main interface for FPF users?", "How does FPF separate human-readable models from formal assurance?". | **Builds on:** E.7, E.8, C.2.3. **Coordinates with:** B.3.5, C.13, E.10. |
@@ -447,7 +447,7 @@ Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, th
 - **Question:** Which exact resources answer the question now, what does each contribute, and where is the honest gap?
 - **First useful result or honest blocker:** A short answer that identifies each available maintained result, maintained MethodDescription, or direct source and says what it contributes; if a needed result is unavailable, it names the blocker and retry condition.
 - **Start with:** `E.11.DSG - DPF Suite Guide`.
-- **Stop or return:** Stop when the named contributions answer the question. Return to the exact DPF or source for substance, or to `E.4:4.2` and `E.4.PFAD` when suite membership, maintenance responsibility, edition continuity, or exposure must be decided.
+- **Stop or return:** Stop when the named contributions answer the question. Return to the exact DPF or source for substance, or to `E.4:4.2` and `E.4.PFAD` when deciding which DPF product series belong to the Suite, whether the Guide product series is included, who maintains each product, how its editions continue, or how readers reach it.
 
 ### PRACTICE-ARCHITECTURE — Reconcile several structures of one practice
 
@@ -1710,7 +1710,7 @@ A system may decide, approve, perform work, promise, revise, authorize, or bear 
 
 #### A.1:4.6 - Recover Holon Delimitation And Boundary Crossing
 
-When a claim concerns where a holon is delimited, recover the exact delimitation relation, criterion, or selected structure supplied by the direct holon, mereology, architecture, or domain pattern. Do not force an identity rule, membership relation, environment relation, selected structure, and boundary condition into one universal relation signature. Those objects have different kinds and predicates.
+When a claim concerns where a holon is delimited, recover the delimitation relation, criterion, or selected structure supplied by the direct holon, mereology, architecture, or domain pattern. Do not force an identity rule, collection-belonging relation, environment relation, selected structure, and boundary condition into one universal relation signature. Those objects have different kinds and predicates.
 
 When one direct relation crosses that delimitation, keep the direct relation occurrence under its own pattern and use F.9 for the exact crossing or bridge claim. State the delimited holon, the direct crossing relation, direction, fit, loss, scope, and qualification window that are current for that use. A crossing classification does not replace the signal, control, measurement, transformation, source-use, publication-use, evidence-use, coupling, or other direct relation occurrence.
 
@@ -1724,7 +1724,7 @@ A Markov blanket is not a holon boundary by name. First recover whether the sour
 
 A list, set, batch, fleet, pool, clientele, community, supplier base, or coverage zone does not become a `U.System` by wording.
 
-First recover the current claim: membership under A.14; collection-as-whole constructive grounding under C.13 and B.3.5 when assurance is current; whole-level characteristic under C.16; acting collective recognition under the `U.System` criterion plus A.15.1 work; or whole reidentification under B.2.
+First recover the current claim: who or what belongs to which collection under the collection's own rule and A.14; a possible holon under the complete six-part A.1 test; a `C.13 set` account of already established belonging; optional B.3.5 assurance; a whole-level characteristic under C.16; an acting collective under the `U.System` criterion plus A.15.1 Work; or whole reidentification under B.2.
 
 An acting collective `U.System` has a boundary, coordination, system-role assignments, capability or method evidence, and work-facing participation. If those are not current, keep the object as a collection or collection-as-whole claim under subject patterns.
 
@@ -1732,7 +1732,7 @@ An acting collective `U.System` has a boundary, coordination, system-role assign
 
 A.1 governs constructive holon recognition. It does not replace exact part-relation patterns, C.13 constructional grounding, or E.24.UK public-kind admission.
 
-Use A.14 and the direct part-relation patterns to identify the exact obtaining component, portion, aspect, phase, member, or other part relations. Use C.13 to show how those independently grounded constituents and relations assemble the candidate. If a C.13 trace is materialized, it is a C.2.1 episteme about that construction; writing or publishing the trace creates neither the constituents, the obtaining part relations, the assembly, nor the whole. Use B.3.5 only when a named assurance use needs grounding or warrant for a structural assertion.
+Use A.14 and the direct relation patterns to identify collection belonging and any independently obtaining component, portion, aspect, phase, constituent, or other constructive part relation. Use C.13 to report how already grounded facts form a collection, assemble the candidate, or distinguish an aspect. If a C.13 trace is materialized, it is a C.2.1 episteme about that construction; writing or publishing the trace creates neither the entities, relations, assembly, nor whole. Use B.3.5 only when a named assurance use elects its profile.
 
 Systems, epistemes, methods, dated work occurrences, and disciplines are admitted holon kinds under their direct patterns. C.13 may describe their construction only after those patterns supply exact parts and whole-forming relations for the candidate. A selected `U.Structure`, including `BoundedModelUseStructure`, organizes already identified relations for a use; selection or a diagram gives it no constituents, parthood, agency, holonhood, or B.2 transition.
 
@@ -1780,7 +1780,7 @@ The theory does not teach itself, revise itself, or authorize laboratory work. A
 
 #### A.1:5.3 - Fleet As Collection Or Acting Collective
 
-A fleet list is a membership claim. Fleet availability is a whole-level characteristic. A fleet-coordination organization that coordinates vehicles, drivers, rules, and work can be an acting collective `U.System` only after boundary, coordination, system-role assignments, capability or method evidence, and work-facing participation are recovered.
+A fleet register supports the claim that a vehicle belongs to the fleet only under its registration rule. In the register-only case the fleet is not a holon: no vehicle-to-whole assembly or composition-grounded characteristic is claimed. Fleet availability is a separate collection characteristic. A fleet-coordination organization that coordinates vehicles, drivers, rules, and Work can be an acting collective `U.System` only after all six A.1 matters, including its constructive relations and assembly, have been recovered.
 
 If a source says "the fleet responded", recover the actual claim: individual vehicle work, fleet-coordination system work, collection-as-whole characteristic, or B.2 whole reidentification.
 
@@ -1822,7 +1822,7 @@ This pattern intentionally resists:
 | `CC-A1-4` | Candidate classification is not reified as a status relation. World-side satisfaction or failure, classification work, `true | false | unknown` evaluation, optional C.2.1 assertion identity, evidence or warrant, G.11 edition currentness, receiving-work disposition, and B.2 whole reidentification remain separately governed; no A.1 result warrants a B.2 claim or selects B.2. |
 | `CC-A1-5` | System-role-kind classification, `U.SystemRoleAssignment`, capability, method, work, transformation, functioning, evidence, and temporal claims remain separate; their reference bundle is not asserted as another occurrence. |
 | `CC-A1-6` | `U.Episteme` is non-agentive. Systems may publish, cite, use, or perform revision Work concerning epistemes, but changed claim content identifies another episteme and any edition relation is separately governed. |
-| `CC-A1-7` | Collection membership, collection-as-whole, acting collective system, whole-level characteristic, and B.2 whole reidentification are kept distinct. |
+| `CC-A1-7` | Collection belonging under the collection's own rule, a possible holon, an acting collective System, a whole-level characteristic, and B.2 whole reidentification are kept distinct. |
 | `CC-A1-8` | Boundary wording recovers an exact delimitation relation, criterion, or selected structure from its direct pattern; crossing wording preserves the exact crossing relation occurrence and uses F.9 without minting universal delimitation or crossing relation kinds. |
 | `CC-A1-9` | Changing, controlling, teaching, measuring, or repairing another holon does not make that holon a part of the acting system; any actual containing-whole claim names a separately grounded part-whole relation. |
 | `CC-A1-10` | A.14 and the direct part-relation patterns identify exact obtaining parthood; C.13 may ground an assembly only from those facts and does not create them; use B.3.5 only for a named assurance use. |
@@ -1837,7 +1837,7 @@ This pattern intentionally resists:
 | --- | --- | --- |
 | System as universal root | A theory, document, model, source, or dashboard receives physical system properties. | Re-type as `U.Episteme`, publication, source-use object, or another direct object before using system claims. |
 | Document edited itself | A model, theory, or document is said to perform a revision. | Name the `U.System` and the revision Work; add a local system-role kind or `U.SystemRoleAssignment` only when that separate fact is material. Changed claim content identifies another `U.Episteme`; test any edition relation separately, and distinguish publication or carrier changes under their own patterns. |
-| Collection as actor | A list, batch, pool, fleet, or community is said to decide or perform work. | Recover membership, collection-as-whole, whole-level characteristic, acting collective system, or B.2 whole reidentification. |
+| Collection as actor | A list, batch, pool, fleet, or community is said to decide or perform Work. | Recover who or what belongs to the collection under its own rule, a possible holon, a whole-level characteristic, an acting collective System, or B.2 whole reidentification. |
 | Interaction as one umbrella | Signal, source use, publication use, transformation, measurement, and control are all called interaction. | Recover the exact direct relation; use F.9 for a current crossing claim and `A.3.4` when bounded change is current. |
 | Omnibus participation relation | References to system-role-kind classification or assignment, capability, method, work, transformation, evidence, and time are packed into one additional relation-shaped record. | Keep the direct relation occurrences separate; select their organization as `U.Structure` only when that organization changes the receiving use. |
 | Boundary by drawing | A box, folder, section, dashboard view, or diagram is treated as the holon boundary. | Recover the exact delimitation relation, criterion, or selected structure from its direct pattern; keep the drawing as a description or view. |
@@ -18456,7 +18456,7 @@ A signature declares vocabulary, laws, and applicability. A slot or endpoint rec
 
 | Source wording | Governing repair application |
 | --- | --- |
-| `component` | First recover an `A.14` relation such as `ComponentOf`, `ConstituentOf`, `PortionOf`, `MemberOf`, or `PhaseOf`. Apply A.6.M only when a module-interface relation is being claimed. |
+| `component` | First recover the claim actually made under `A.14`: for example `ComponentOf`, `ConstituentOf`, `PortionOf`, belonging under the collection's own rule, or `PhaseOf`. Apply A.6.M only when a module-interface relation is being claimed. |
 | `module` | Recover a `ModuleInterfaceClaim` or `ModuleRelationRepairNote` over exact `U.Holon` refs under the exact `VP.ModuleInterface` viewpoint episteme when needed. Do not infer a direct relation occurrence; use an admitted direct relation only when its defining rule exists and current facts make its predicate obtain. |
 | `functional element` | Keep it as `FunctionalElementClaim` inside a functional structural-view episteme; use `A.6.F` to repair wording and connect it to module-interface structure only through an exact allocation or correspondence relation. Keep required or desired behaviour as claim content. Cite an actual `U.Transformation` only when A.3.4 independently supplies its changed referent, boundary, conditions, actual before/during/after facts, and continuity basis. |
 | `work package`, `delivery unit`, or `team boundary` | Keep Work, Method, WorkPlan, exact system-role kind and assignment, and responsibility claims separate. Use `A.15`, `A.2`, and `VP.Procedural` for their own objects; treat `VP.AllocationResponsibility` only as a cue, then cite the direct allocation or responsibility predicate or the exact missing governor. Relate those facts to module-interface structure only through a declared correspondence, allocation, or boundary relation. |
@@ -20719,7 +20719,7 @@ Use the following sequence only as far as the current sentence requires:
 1. **Recover the working question.** State what a reader must decide, do, accept, measure, rely on, start, continue, or stop. The cue word selects no branch.
 2. **Name the subject and reference level.** Distinguish the referent entity, claim-bearing episteme, publication occurrence, publication form, presentation carrier, Method, MethodDescription, WorkPlan, performed Work, and evidence carrier. Keep only the subjects current in this case.
 3. **Recover a candidate whole only for an actual whole claim.** Identify the candidate individual, its direct identity pattern, relevant boundary or delimitation, environment, and at least one interaction, dependency, or constraint across that boundary when the use needs it.
-4. **Identify the alleged parts independently.** A label, location, list, graph node, file section, timestamp, or common name does not identify a part. Recover each component, constituent, member, portion, temporal restriction, Method factor, Work part, or other object using the rule that defines or tests that claim.
+4. **Identify the alleged parts independently.** A label, location, list, graph node, file section, timestamp, or common name does not identify a part. Recover each component, constituent, entity said to belong to a collection, portion, temporal restriction, Method factor, Work part, or other object using the rule that defines or tests that claim.
 5. **State every direct relation occurrence separately.** Name exact participants and test the direct predicate. A relation obtains neither because the whole was recognized nor because a trace, view, or record lists it.
 6. **Add construction or selected structure only when the receiving use consumes it.** `C.13` may report already recovered parts, relations, constraints, and a construction rule. `A.22` may identify one selected structure when its selection basis and identity discriminators are current. Neither creates the direct facts.
 7. **Recognize or reidentify the whole only when that question is current.** Use `A.1` for holon recognition and `B.2` for a remaining whole-reidentification question after direct existing-whole explanations have been tested. A changed adjective or part list alone decides neither.
@@ -20746,7 +20746,7 @@ If the source leaves these readings genuinely open, preserve the alternatives an
 | Physical or structural component | Identify both entities, the direct `ComponentOf` predicate, boundary relevance, and obtaining facts under `A.14`/the structural pattern. | Diagram containment or removal from a list does not establish component parthood. |
 | Conceptual or content constituent | Identify the exact episteme or publication-unit whole and the exact constituent under `A.14`. Keep the described referent separate. | A section in a file is not therefore a component of the described system. |
 | Measured portion | Name the whole, portion, extensive measure μ, compatible unit, additivity/non-overlap rule, and boundary under `A.14`. | A percentage, share, or smaller numeral does not make a structural component. |
-| Collection membership | Name the collection, its identity rule, member, and direct `MemberOf` occurrence. | Membership is not transitive parthood and does not make an acting collective system. |
+| Collection belonging | Name the collection, its identity rule, the entity said to belong, and the collection's own rule for when belonging begins and ends. | Belonging alone is not transitive parthood and does not make an acting collective system; neither does it prohibit a separately grounded part relation. |
 | Proper temporal restriction of an enduring individual | Apply the subject's direct identity rule, then use `PhaseOf(x,y)` only when `x` is the same exact `y` restricted to a proper interval and coverage/overlap conditions hold. | A timestamp, state label, or changed property alone does not create a phase object. |
 | Distinct episteme history | Compare C.2.1 claim content, EntityOfConcern, and effective ReferenceScheme. When a discriminator changes, identify another episteme; assert `EpistemeEditionRelation` only when its independent historical-continuation predicate obtains. | `v2`, filename, shared title, provenance, publication order, revision Work, or source use establishes neither identity nor continuity. |
 | Performed Work interval, episode, part, retry, resumption, or later occurrence | Use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, another admitted Work-part relation, or a separately identified Work occurrence according to its exact predicate. | A shift, phase, step, log row, or MethodDescription section never routes Work through generic `PhaseOf`. |
@@ -20776,7 +20776,7 @@ The following recurring expressions are useful review cues, not a second trigger
 - *phase*, *version*, *revision*, *edition*, *lifecycle* — apply the direct identity pattern before any history label;
 - *complete*, *turnkey*, *end-to-end*, *fully specified* — recover the exact coverage or completion claim;
 - *pipeline*, *workflow*, *process*, *step*, *stage* — distinguish Method, MethodDescription, WorkPlan, performed Work, order relation, and publication representation;
-- *collection*, *group*, *team*, *set* — distinguish membership, acting system, system-role assignments, and selected collection structure;
+- *collection*, *group*, *team*, *set* — distinguish who or what belongs under the collection's own rule, an acting system, system-role assignments, and a selected collection structure;
 - *context*, *environment*, *discipline as a whole* — name the actual bounded context, episteme family, community, organization, or other subject before making a boundary or nesting claim.
 
 When a cue occurs inside a defined term of art, retain the definition and its PatternID locator when needed. Open A.6.H only if the sentence also makes an unresolved whole, part, structure, coverage, or completion claim.
@@ -20786,7 +20786,7 @@ When a cue occurs inside a defined term of art, retain the definition and its Pa
 When a wholeness-looking story changes, name the exact object and direct relation:
 
 - for a different boundary or interaction claim, state the changed object and apply the applicable boundary or delimitation rule;
-- for an added, removed, or differently related part, test the exact parthood, membership, portion, or selected-structure claim;
+- for an added, removed, or differently related item, test the parthood, collection's own belongs-to, portion, or selected-structure claim;
 - for changed episteme content, EntityOfConcern, or effective ReferenceScheme, compare C.2.1 identity and test edition continuity separately;
 - for a different publication form, occurrence, or carrier, state that publication or carrier claim and apply its rule;
 - for a changed Method, MethodDescription, WorkPlan, Work history, production result, or completion claim, state that object and apply its rule;
@@ -20799,7 +20799,7 @@ Do not substitute a generic change lexicon for those objects and predicates. A r
 1. No situation record, card, bundle, adjective, table, graph, or trace is the whole or direct relation by presence.
 2. No generic `partOf` closes a load-bearing claim when a direct relation kind or subject pattern is required.
 3. No order, plan, or Work history is structural parthood by position.
-4. No membership is upgraded to component assembly or acting-system identity.
+4. No claim that an entity belongs to a collection is upgraded to component assembly or acting-system identity.
 5. No cross-boundary flow or influence is treated as a part merely because it crosses the boundary.
 6. No `integrity` reading is selected before the bearer, claim, and receiving use are known.
 7. No plan, description, or publication is treated as performed Work.
@@ -20832,7 +20832,7 @@ The repair produces several claims:
 - treat *owns* as a local wording cue. First state the decision that depends on it and the exact proposed sentence. Candidate readings include, for example, property or title, possession or custody, operational control, decision authority, stewardship or responsibility, assignment, commitment, and permission; they have different participants and predicates. Apply the direct rule when one exists, or return A.6.RCD `missing-governor[...]` naming the participants, proposed predicate, affected use, and absent definition; and
 - an actual laboratory run is dated Work under A.15.1.
 
-Thus “the laboratory owns the instrument,” “the chemist has custody during the run,” “the chemist may authorize disposal,” and “the chemist is responsible for calibration” are four different claims. None follows from team membership, classification, assignment, commitment, or permission merely by form.
+Thus “the laboratory owns the instrument,” “the chemist has custody during the run,” “the chemist may authorize disposal,” and “the chemist is responsible for calibration” are four different claims. None follows from belonging to the team, classification, assignment, commitment, or permission merely by form.
 
 No one claim is a component relation merely because the source uses *pipeline* or *whole*.
 
@@ -20939,11 +20939,11 @@ The sequence also preserves two positive uses often lost in blanket cleanup. `Ph
 | [ISO/IEC/IEEE 42010:2022](https://www.iso.org/standard/74393.html), architecture-description practice | Distinguish the entity of interest from its description and make concerns, viewpoints, environment, and boundary explicit. | Recover the candidate referent and boundary before treating a description or publication as evidence about it. | A view, diagram, or architecture document is the system whole or establishes its parts. |
 | [ISO/IEC 21838-2:2021](https://www.iso.org/standard/74572.html), upper-ontology discipline | Keep continuants, temporal parts, occurrents, and relation types explicit. | Preserve direct identity and relation tests, including proper temporal restriction without using it as episteme-edition or Work shorthand. | One universal part edge or lifecycle object covers components, versions, and Work. |
 | [ArchiMate 3.2](https://www.opengroup.org/sites/default/files/docs/downloads/n221p.pdf), enterprise-architecture relation practice | Different structural and behavioral relations answer different questions. | Use the source vocabulary as a comparison aid while retaining FPF subject patterns and occurrence rules. | A modelling-language edge label establishes the in-world FPF relation. |
-| [Team Topologies](https://teamtopologies.com/), sociotechnical boundary practice | Team boundaries, interaction modes, and cognitive load affect organization and flow. | Treat team and ownership wording as cues. Recover the exact claim first—for example property or title, custody, control, authority, responsibility, assignment, commitment, permission, interaction, or Work—and use A.6.RCD when its predicate lacks a current definition. | A team boundary or membership list establishes ownership, responsibility, assignment, or Work by itself. |
+| [Team Topologies](https://teamtopologies.com/), sociotechnical boundary practice | Team boundaries, interaction modes, and cognitive load affect organization and flow. | Treat team and ownership wording as cues. Recover the claim actually made—for example property or title, custody, control, authority, responsibility, assignment, commitment, permission, interaction, or Work—and use A.6.RCD only when no current pattern defines the needed predicate. | A team boundary or a list of who belongs to the team establishes no ownership, responsibility, assignment, or Work by itself. |
 | ISO/IEC/IEEE 29148:2018, requirements quality | Requirements should identify the item, condition, and verifiable claim without referent/document ambiguity. | Require exact subjects, scopes, predicates, and blocked overreads on load-bearing surfaces. | A specification sentence becomes true or complete because the document is complete-looking. |
 | [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final), security and privacy controls | Integrity claims depend on exact information, constraints, threats, controls, assessment, and evidence. | Recover the data/security integrity characteristic, measurement, evaluation, or assurance question and apply its rule before any structural-whole reading. | Every occurrence of *integrity* means wholeness or mereological coherence. |
 
-Whenever *fraction*, *percentage*, or *share* is used as a part claim, recover the extensive measure μ and additivity basis before `PortionOf`; otherwise keep the value with its measurement, allocation, membership, or other subject pattern.
+Whenever *fraction*, *percentage*, or *share* is used as a part claim, recover the extensive measure μ and additivity basis before `PortionOf`; otherwise keep the value with the pattern that defines its measurement, allocation, collection belonging, or other actual claim.
 
 ### A.6.H:12 - Relations
 
@@ -21071,19 +21071,20 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 
 **Normative guard:** When you say “we updated the spec”, detail **which carriers** changed (A.10).
 
-#### A.7:5.6 - Collective vs Set, and MemberOf vs Component/Constituent/Portion/Phase (A.14)
+#### A.7:5.6 - Formal inclusion, world-side collection, and collective System
 
-* **Set / Collection (MemberOf)** — **mathematical or catalog** grouping; **no joint behaviour** implied.
-* **Collective System** — a **system** with boundary and coordination Method (e.g., a team).
-* **Use relations correctly:**
+- **Mathematical or representation inclusion** — say that an element is in a set, a value fills a tuple place, or a value lies in a coordinate domain under the applicable mathematical statement. Use `C.29`, with `A.19` when a characteristic scale or coordinate is current. No world-side belongs-to relation follows.
+- **World-side collection** — identify the collection and use its subject-specific belongs-to rule. That rule says who or what may belong, when belonging begins and ends, whether it may recur, and how past belonging is stated. Belonging alone establishes neither parthood nor holonhood, but it does not prohibit a separately grounded constructive part relation.
+- **Collective System** — treat a team or other grouping as an acting System only after the candidate passes all six `A.1` matters. A list, formal set, catalogue, or belongs-to statement does not establish that result.
+- **Use the direct relation for every stronger claim:**
 
-  * **ComponentOf** — mechanical/structural part in systems.
-  * **ConstituentOf** — logical/content part in epistemes.
-  * **PortionOf** — quantitative portion with conserved extensives.
-  * **PhaseOf** — temporal part/state across a continuous identity.
-  * **System-role assignment** — a **system or acting holon** is the `HolderSystemSlot` value in one obtaining occurrence of a directly admitted `U.SystemRoleAssignment` species.
+  - **ComponentOf** — mechanical or structural part in systems.
+  - **ConstituentOf** — logical or content part in epistemes.
+  - **PortionOf** — quantitative portion with conserved extensives.
+  - **PhaseOf** — temporal part of the same carrier over a proper interval.
+  - **System-role assignment** — a System is the `HolderSystemSlot` value in one obtaining occurrence of a directly admitted `U.SystemRoleAssignment` species.
 
-**Normative guard:** If a grouping is claimed to act, it must be recoverable as a collective System, not merely a set. Add a local system-role kind, assignment, Method, and Work only when each corresponding stronger claim is current.
+**Normative guard:** Formal inclusion establishes no world-side belonging. Collection belonging establishes neither constructive parthood nor holonhood and does not make either impossible. If a grouping is claimed to act, test it against all six `A.1` matters. Add a local system-role kind, assignment, Method, Work, or constructive part relation only when that separate claim obtains.
 
 #### A.7:5.7 - Operator alignment (required names)
 
@@ -21181,7 +21182,7 @@ Evidence supports assertions about the selected Work facts, affected referent, p
 | **CC‑A7.4 (MethodDescription ≠ Method ≠ Capability ≠ Work)** | **MethodDescription** is the same independently identified C.2.1 episteme only when its exact EntityOfConcern is one admitted Method and at least one substantive way-of-doing claim obtains; **Method**, **Capability**, and **Work** retain their separate meanings. Form, label, design-time status, authoring, revision, citation, publication, approval, or use time grants no membership. | Identify the episteme triple and apply the A.3.2 threshold; then name each current Method, Capability claim and dated Work occurrence separately. |
 | **CC‑A7.5 (Operator fit)**               | Use **Γ\_method** only for composing **Method**; **Γ\_time** only for **Work** histories; **Γ\_work** only for resource spend/yields; **Γ\_sys** for systemic properties of systems.                                                                                                           | No sentence should use a single generic “process operator” for all three.                                                                 |
 | **CC-A7.6 (Carrier/source-currentness reference)** | Any knowledge claim that references documents or data **SHALL** cite publication carriers or A.10 carrier/source-currentness refs when evidence, source, or reliance use is current. | First mention names the carrier or source-currentness reference and the evidence/source relation made recoverable by that reference. |
-| **CC-A7.7 (Collective vs set)** | A grouping claimed to act must be recoverable as a collective System under A.1, not merely as a MemberOf set. | Establish the organized collective; add coordination Method, Work, local kind, or assignment only when those claims are current. |
+| **CC-A7.7 (Formal inclusion, collection, and collective)** | Mathematical set, tuple, coordinate, and other formal inclusion stays with `C.29`, `A.19`, or the applicable formal rule and creates no world-side relation. A world-side collection uses its own identity and belongs-to rule. A grouping claimed to act must separately pass all six `A.1` matters. | Check three separate statements. Infer neither belonging from formal inclusion nor parthood or holonhood from belonging; do not prohibit a separately grounded constructive part claim. |
 | **CC‑A7.8 (Diagram legend)**             | When domain idioms use **“process”**, diagrams or text **MUST** map them to FPF terms on first occurrence: *process (domain) ≡ Method at design time or Work at run time.*                                                                                                                           | Legend or parenthetical present at first use.                                                                                             |
 | **CC-A7.9 (Progressive actor wording)** | A contribution noun may stand for a recoverable System in ordinary prose. An assignment, local system-role kind, Capability, Method, or Work is added only when that exact distinction changes a receiving inference. | `The engineer designed the pump` may stand. For an attribution claim, separately identify the Work, assignment species and occurrence, and F.6 relation. |
 | **CC-A7.10 (Work-facing chain clarity)** | A diagram shows only the positions used by its claim. MethodDescription membership, Capability, assignment, Work, and evidence are not inferred from a complete-looking chain. | Begin with the acting System and direct claim; expand the chain only for a named design, attribution, or reliance use. |
@@ -21204,7 +21205,7 @@ Evidence supports assertions about the selected Work facts, affected referent, p
 | “The specification decided to tighten limits.” | `Design-control team D changed the limit in Specification-e4.` | The successor episteme, authoring Work, carrier and publication relations when current. The specification never acts. |
 | “Our role is pump; the role circulates coolant.” | `Pump P-12 circulates coolant in loop L.` | The local system-role kind for a classification claim; the assignment occurrence only for assignment or attribution; Capability, Method, and Work only for their respective claims. |
 | “We followed the blueprint, so it is done.” | `Team T used Method M; completion still requires evidence of the performed Work.` | Cite a MethodDescription only when its exact claims are used; keep the blueprint carrier, Work and evidence relations separate. |
-| “Team = set of members; it repaired the pump.” | `Team T, a collective System, repaired pump P-12.` | Its boundary or organization establishes systemness; add Method, Work, or assignment details only when used. |
+| “Team = set of members; it repaired the pump.” | `Team T repaired pump P-12` only after T is recoverable as a collective System under all six `A.1` matters. | State any world-side belongs-to rule separately; add coordination Method, Work, local kind, assignment, or constructive part relation only when that stronger claim is current. |
 | “Process cost is tracked by Gamma_method.” | `Work cost is tracked through the applicable work-cost relation; Gamma_method composes the Method.` | Add the actual resource and time relations for the Work occurrence. |
 | “Holon has TransformerRole.” | `System S counts under the kind currently named TransformerSystemRole for the ValveSelection use.` | Recover the C.3 kind independently. Add the exact assignment occurrence and species only when an assignment claim is current; the use label is not part of kind identity. |
 | “Publication is a special mechanism.” | `Publication makes Description episteme E available through form F on carrier C.` | State the publication occurrence, view or conformance, carrier, and publishing Work under their direct patterns; no universal describing operation is introduced. |
@@ -21223,9 +21224,8 @@ Evidence supports assertions about the selected Work facts, affected referent, p
 4. **Operator blur** — using one “process operator” for everything.
    **Fix:** Choose among **Γ\_method**, **Γ\_time**, **Γ\_work**, **Γ\_sys**.
 
-5. **Set‑as‑collective** — a MemberOf set “decides”.
-   **Fix:** Model a **collective system** with coordination Method.
-
+5. **Formal set, world-side collection, and collective collapse** — mathematical inclusion or collection belonging is used to make a grouping act or to infer constructive parthood.
+   **Fix:** Keep formal inclusion with its mathematical or representation rule; state world-side belonging under the collection's own rule; require all six `A.1` matters for a collective System; state any constructive part relation separately.
 6. **Evidence without carrier references** — citing ideas without carriers.
    **Fix:** Add A.10 carrier/source-currentness refs and tie claims to evidence or source relations.
 
@@ -21417,7 +21417,7 @@ A short domain, wording, typed-account, or constructive-ground presentation may 
 
 **Missing telemetry non-use.** A team cannot determine pump state because telemetry was never collected. State kinds, evidence relations, and candidate actions are already clear. The result is `returnToDirectOwner` for measurement and evidence work with the blocked state claim; no premise-use occurrence or ontology artifact is minted.
 
-**Construction-changing case.** A maintenance set uses “part” for both `MemberOf` and `ComponentOf`. Removal action differs only in the structural construction case. The work requires `C.13 for the disputed item`, repairs the direct maintenance claim, and leaves unrelated set membership unchanged.
+**Construction-changing case.** A maintenance set uses “part” both for an item that belongs under the set's own rule and for `ComponentOf`. Removing the item changes the construction only in the `ComponentOf` case. Apply `C.13` to the disputed item's construction, repair the maintenance claim, and leave unrelated belongs-to claims unchanged.
 
 ### A.7.1:6 - Bias-Annotation
 
@@ -21628,7 +21628,7 @@ Reopen when a source or receiving-claim edition changes, currentness changes, ne
 
 **Compatible repair.** One dated method application yields a claim that a policy-valid instituting act creates `MaintenanceCommitment-17`, an exact `U.Commitment` whose actual bearer is `MaintenanceSystem-4`; it does not thereby establish responsibility. Another application yields a claim that a signed organization chart is sufficient to make `MaintenanceAssignment-17 : MaintenanceCoordinatorAssignment` obtain. Reconciliation Work recovers both result claims, their method clauses, source uses, and reasoning-basis uses of `A7CP-01`, `A7CP-03`, `A7CP-05`, and `A7CP-06`. It repairs the assignment clause so the chart is evidence for an assignment assertion rather than constitution of the assignment. If responsibility is also claimed, it is tested independently under an admitted maintenance-responsibility predicate with actual participants, applicability, and identity; otherwise the exact missing governor is returned. The result is `reconciledCompatibility`: commitment, assignment, responsibility, performing system, and Work no longer substitute for one another, while unrelated evidence and publication law stays unchanged.
 
-**Context split.** One dated application uses a pattern's `ComponentOf` clause to classify a pump assembly; another uses a `MemberOf` clause to classify a maintenance-candidate set. Both result claims say “part”, but their subjects, receiving claims, constructions, and consequences differ. The result is `contextSplit`; neither source clause nor application result defeats the other.
+**Context split.** One dated application uses a pattern's `ComponentOf` clause for a pump assembly; another applies a maintenance-set pattern's belongs-to rule to a candidate item. Both result claims say “part”, but their subjects, receiving claims, constructions, and consequences differ. The result is `contextSplit`; neither source clause nor application result defeats the other.
 
 **Non-convergence.** Two dated method applications yield incompatible same-scope dependence claims, but available evidence and formal consequences warrant neither correction. The result is `doNotCompose` for the affected assurance use or `unresolvedEscalation` with exact result claims, missing evidence basis or decision predicate and source, and reopen condition. Familiarity or institutional status cannot manufacture convergence.
 
@@ -23096,62 +23096,63 @@ In essence, this pattern does not *invent* a new theory of agency. It **distills
 > **Type:** Kernel mereology and part-whole relation discipline pattern
 > **Status:** Stable
 
-**At a glance.** Use A.14 when a part-whole claim must distinguish component, member, portion, aspect, or phase before downstream architecture, work, assurance, or U-kind admission relies on that claim.
+**At a glance.** Use A.14 when wording such as *part*, *member*, *portion*, *aspect*, or *phase* could hide different claims. Recover whether the subject is a constructive part, belongs to a collection, is an amount of the same stuff, is one aspect, or is the same carrier during a proper time interval before downstream architecture, Work, assurance, or U-kind admission relies on it.
 
-**Use this when.** Use this pattern when a text says that something is part of something else, a collection member, some amount of the same stuff, an aspect of one holon, or the same holon during a time interval, and a wrong relation kind would change identity, aggregation, responsibility, evidence, or structural grounding.
+**Use this when.** Use this pattern when a text says that something is part of something else, belongs to a collection, is some amount of the same stuff, is an aspect of one holon, or is the same holon during a time interval, and choosing the wrong relation would change identity, aggregation, responsibility, evidence, or structural grounding.
 
 **What goes wrong if missed.** Teams count members as components, portions as components, aspects as separate wholes, or phases as separate objects; constructive traces and Working-Model relation claims then ground the wrong EntityOfConcern.
 
-**What this buys.** One human-facing mereology catalogue that lets B.3.5 and C.13 ground structural claims without inventing a new public relation vocabulary.
+**What this buys.** One human-facing relation catalogue that keeps constructive components and constituents, measured portions, bearer-dependent aspects, proper temporal phases, and collection belonging under each collection's own rule distinct without inventing a catch-all *aspect* or *member* vocabulary.
 
-**Not this pattern when.** Not this pattern when the current question is only a constructive trace (`C.13`), Working-Model assurance grounding (`B.3.5`), meta-holon transition (`B.2`), temporal dynamics without a phase-of claim, or a general U-kind admission question (`E.24.UK`).
+**Not this pattern when.** Not this pattern when the current question is only a selected Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17.0`/`E.17.1`), representation or projection (`C.29` or its direct projection pattern), temporal claim without a `PhaseOf` relation (`C.27.TA`), constructive trace (`C.13`), Working-Model assurance grounding (`B.3.5`), meta-holon transition (`B.2`), or general U-kind admission (`E.24.UK`).
 
 ### A.14:1 - Problem frame - why an advanced mereology?
 
-FPF’s holonic modelling relies on **part–whole** relations to build *structural* and *conceptual* holarchies for admitted holons such as systems, epistemes, work occurrences, bounded contexts, disciplines, and methods. But `U.Holon` is **not** a synonym for every bounded object. A local system-role kind is an exact context-local `U.Kind` whose candidates are `U.System` values; it is neither a public root U-kind nor a holon kind by kind identity. `U.Method` is a non-agentive holon kind, but submethod assembly is handled by method-composition patterns, not by A.14 structural component mereology. `SystemRoleKindRelationStructure`, method relation structures, system-role-kind descriptions, method descriptions, work plans, and work occurrences enter A.14 only through their subject patterns and admitted carriers. Early drafts distinguished structural vs. conceptual parthood (e.g., **ComponentOf**, **ConstituentOf**) but practical modelling kept hitting two recurrent gaps:
+Before choosing a relation, identify the candidate part and whole, or the entity and collection. Use their normal identity rules. A local system-role kind, Method, Work occurrence, view, or trace does not become a structural part merely because the text calls it one; use its own pattern unless a separate part claim is established.
 
-1. **Quantities vs. parts.** Engineers routinely need “some of the fuel”, “the first 10 pages”, “a 30% subset of data”. This is not a component; it is a **portion** of a stuff‑like whole, governed by measures and conservation.
+Four recurring questions then matter:
 
-2. **Change vs. replacement.** “The prototype **before calibration**” may be a proper temporal restriction of one unchanged pump. By contrast, “v2 of the spec” first opens C.2.1 identity and, for two different epistemes, its independent edition-continuity test; “shift 1 vs. shift 2” first opens A.15.1 Work-part or occurrence law. None of those labels selects `PhaseOf` by itself.
+1. **Quantities vs. parts.** Engineers routinely need “some of the fuel”, “the first 10 pages”, or “a 30% subset of data”. This is not a component; it is a **portion** of a stuff-like whole, governed by measures and conservation.
 
-This section introduces two **normative** sub‑relations of `partOf` that close those gaps and lock them to the rest of the kernel:
+2. **Selected concern vs. structural aspect.** Engineers also say “the thermal aspect”, “the safety view”, or “the inspection slice”. A Characteristic, viewpoint, representation, selected partition, or time window does not become a world-side part by that wording. `AspectOf` is used only for a bearer-dependent structural part distinguished under a named facet rule.
 
-* **PortionOf** — metrical, measure‑preserving parthood of stuffs and other measurables.
-* **PhaseOf** — temporal parthood of the *same* carrier across an interval.
+3. **Change vs. replacement.** “The prototype **before calibration**” may be a proper temporal restriction of one unchanged pump. By contrast, “v2 of the spec” first opens C.2.1 identity and, for two different epistemes, its independent edition-continuity test; “shift 1 vs. shift 2” first opens A.15.1 Work-part or occurrence law. None of those labels selects `PhaseOf` by itself.
 
-It also restates guard-rails that keep local system-role kinds outside holon mereology by kind identity and keep **method values** outside A.14 structural component mereology, while allowing method holarchy through method patterns such as `A.3.1` and `B.1.5`. Describing epistemes such as `U.MethodDescription` and `U.WorkPlan` keep their C.2.1 identity: content or publication-unit inclusion may use ordinary episteme parthood, a proper interval of one unchanged episteme may use `PhaseOf`, and changed C.2.1 identity discriminators identify another episteme whose historical continuation is tested separately through `EpistemeEditionRelation`. It also clarifies how **MemberOf** fits: membership and collection-as-whole grounding start with A.14, C.13, and B.3.5 as appropriate; acting collective systems require `U.System` admission plus system-role assignment, method, work, and evidence patterns; whole reidentification uses B.2 only when existing-whole explanations fail.
-
-**Publication note (Working-Model first).** Read A.14 together with **E.14 Human-Centric Working-Model**. Publish the direct relation claim in the **Working-Model** layer; it remains usable without an assurance profile. Only when the publication elects **B.3.5 CT2R-LOG** or a named current requirement demands that profile does the assertion also link to one current C.2.1 construction-trace episteme in the **Compose-CAL Γ_m** `sum`, `set`, or `slice` form and declare that profile's `validationMode`. The trace reports exact participants, direct relation occurrences, the applicable construction rule, and identity or reidentification conditions. It creates none of them; order and time remain outside mereology.
+4. **Belonging vs. construction.** “Vehicle 12 belongs to Fleet North” uses the fleet's own rule. That sentence alone makes neither the vehicle a constructive part nor the fleet an acting System, and it does not prohibit either separate claim.
 
 ### A.14:2 - Problem — what breaks without these distinctions?
 
-If we only have “generic partOf” (plus Component/Constituent), four classes of errors appear:
+If we only have “generic partOf” plus Component/Constituent, five classes of errors appear:
 
-1. **Conservation errors.** Treating “20 L of fuel from Tank A” as a component leads to nonsense: adding and removing such “components” does not respect quantities; Γ\_sys proofs violate Σ‑balance.
+1. **Conservation errors.** Treating “20 L of fuel from Tank A” as a component leads to nonsense: adding and removing such “components” does not respect quantities; Γ_sys proofs violate Σ-balance.
 
-2. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Γ\_time and Γ\_method cannot repair either mistake after the fact.
+2. **Aspect creation by wording.** A selected Characteristic, view, projection, partition rule, dashboard slice, or concern label is turned into a world-side part without identifying the aspect, bearer, facet rule, or identity condition.
 
-3. **Identity confusion.** Modelling a “new version” as a component or phase lets a label decide identity. For an episteme, first compare the C.2.1 identity triple and then test edition continuity separately; for another enduring holon, apply its direct identity rule to determine whether the same individual persists or a reidentification question opens.
+3. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Γ_time and Γ_method cannot repair either mistake after the fact.
 
-4. **System-role leakage.** A local system-role kind, assignment, or relation-position label is put into a part tree ("the PumpRole is part of the plant"), making structural reasoning brittle.
+4. **Identity confusion.** Modelling a “new version” as a component or phase lets a label decide identity. For an episteme, first compare the C.2.1 identity triple and then test edition continuity separately; for another enduring holon, apply its direct identity rule to determine whether the same individual persists or a reidentification question opens.
+
+5. **System-role leakage.** A local system-role kind, assignment, or relation-position label is put into a part tree (“the PumpRole is part of the plant”), making structural reasoning brittle.
 
 ### A.14:3 - Forces
 
-| Force                              | Tension                                                                                                         |
-| ---------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Expressiveness vs. Parsimony**   | We need new relations (Portion, Phase) ↔ we must keep the catalogue minimal and orthogonal.                     |
-| **Universality vs. Domain nuance** | One set of rules must serve physical systems and epistemes ↔ measurement and time behave differently by domain. |
-| **Identity vs. Change**            | Preserve “the same carrier through change” ↔ allow explicit re‑identification when invariants fail.             |
-| **Static structure vs. Histories** | Part trees should be simple ↔ real work requires phased histories and measured slices.                          |
+| Force | Tension |
+| --- | --- |
+| **Expressiveness vs. parsimony** | Portion, aspect, and phase claims need usable direct relations, while the catalogue must not turn every concern word into a part kind. |
+| **World-side structure vs. analysis** | A real bearer-dependent aspect must be stateable, while Characteristics, views, projections, partitions, and time windows keep their own meanings. |
+| **Universality vs. domain nuance** | One relation discipline must serve physical systems and epistemes, while measurement, facet rules, and time behave differently by subject. |
+| **Identity vs. change** | Preserve the same bearer or carrier through allowed change, while making reidentification explicit when its rule fails. |
+| **Readable claim vs. assurance** | The ordinary relation sentence must stand on its own, while a named assurance use may require a `sum`, `slice`, or `set` account. |
 
 ### A.14:4 - Solution — extend the mereology catalogue, keep it clean
 
-**A.14 defines two additional sub-relations of `partOf`** and **re-affirms the firewall** between mereology and the system-role-kind and method layers:
+**A.14 defines three direct sub-relations of `partOf`** and re-affirms the firewall between mereology and neighboring claims:
 
-1. **PortionOf** — for *measured* parts of a whole (stuffs and other extensives).
-2. **PhaseOf** — for *temporal* parts of the same carrier.
-3. **No local system-role kinds in holon mereology by kind identity; no method values in structural component mereology.** A local system-role kind is a context-local `U.Kind` for `U.System` candidates, not a holon kind. A system classified by that kind remains a `U.System` and may enter holon mereology on that independent basis. `U.Method` is a method holon, but use method-composition patterns for its submethod assembly, not A.14 `ComponentOf` or structural `partOf`. A `U.MethodDescription` is an **Episteme**: use C.2.1 for its identity and any distinct-edition relation, and A.14 for its content parthood or a proper temporal restriction of the unchanged episteme. `U.Work` parts and occurrence boundaries use A.15.1 relations rather than generic A.14 phasing; neither case replaces method holarchy.
-4. **MemberOf stays, but collection identity and acting-collective claims use subject patterns.** `MemberOf` remains available to state exact collection-membership occurrences. After the collection, its identity rule, and those memberships are independently grounded, `Γ_m.set` may narrate their construction account and B.3.5 may link that account when publication assurance is current. Neither the gathering narrative nor its trace creates a membership. An acting collective system uses `U.System` admission plus system-role assignment, method, work, and evidence patterns. Whole reidentification uses B.2 only when existing-whole explanations fail.
+1. **PortionOf** — a measured part of a whole under one extensive measure and boundary rule.
+2. **AspectOf** — a bearer-dependent structural part distinguished under a named facet rule.
+3. **PhaseOf** — the same carrier restricted to a proper time interval.
+4. **Keep local kinds, Methods, and Work out of structural part trees.** Do not treat a local system-role kind or a Method as a structural part. A separately identified System or Episteme may have its own direct part relation; use method-composition patterns for submethods and A.15.1 for Work parts and occurrences.
+5. **Use the collection's own belongs-to rule.** State who or what may belong, what makes belonging begin and end, and how recurrence and past belonging are handled. FPF does not use one public `MemberOf` relation for unlike collections. Belonging alone establishes neither holonhood nor parthood, and it does not rule out a separately grounded constructive part relation after all six A.1 matters pass.
 
 The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** (conceptual, logical/epistemic) remain as in the kernel; A.14 only clarifies **how to tell them apart from Portion/Phase** (§ 6).
 
@@ -23205,55 +23206,80 @@ The classical pair **ComponentOf** (structural, discrete) and **ConstituentOf** 
 ✘ “Shift 1 of the same batch run” — use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, or another exact Work-part or occurrence relation whose predicate obtains.
 ✘ “Prototype vs. production unit” — likely **different carriers**; use ComponentOf/ConstituentOf or MHT per criteria.
 
-#### A.14:5.3 - CT2R‑LOG & Compose‑CAL handshake *(normative link)*
+#### A.14:5.3 - AspectOf — bearer-dependent structural part under one named facet rule
 
-* A direct **structural relation claim** is usable without this assurance handshake. When the publication elects B.3.5 or a named current requirement demands it, the published claim **SHALL** link through `tv:groundedBy` to one current C.2.1 construction-trace episteme in the `Γ_m.sum | Γ_m.set | Γ_m.slice` form (see **B.3.5** and **C.13**) and carry the profile's declared `validationMode`. The exact relation predicate, current facts, and occurrence-identity rule determine whether the occurrence obtains and how it is identified; the candidate's direct identity or reidentification rule determines continuity. The trace only reports that basis.
-* **PhaseOf** is **temporal parthood**; it **SHALL NOT** be grounded through `Γ_m`. Its assurance follows the same-carrier and proper-interval criteria, the separately declared selected-partition rule when one is claimed, and `Γ_time` ordering (B.1.4).
-* **MemberOf** remains **non-mereological** (CC-MEM-2). A `set` trace is truthful only after one exact collection, its identity rule, and the exact direct membership occurrences are grounded; no **ComponentOf** inference follows.
+**Intent.** State that one identified bearer-dependent part is an aspect of its bearer without turning a Characteristic, viewpoint, representation, concern, partition, or time window into a part.
+
+**Participants and qualifier.** `x` and `y` occupy the `U.Holon` parthood domain: `x` is the aspect and `y` its bearer. Each must already satisfy its applicable holon-kind and identity rule; `AspectOf` does not grant systemness, agency, or independent-whole status. The qualifier `f` names the facet rule used in this occurrence; it does not introduce a universal `U.Facet` kind.
+
+**Primitive.** `AspectOf(x, y; f)` means: *x is the bearer-dependent structural part of y distinguished under facet rule f*. The notation shows the required qualifier; the public sentence may remain “x is an aspect of y under the f rule.”
+
+**Obtaining conditions and properties (A14-ASP-*).**
+
+- **ASP-1 (Identified occurrence).** Name x, y, f, the relation occurrence, and the aspect-identity rule. The facet rule states what distinguishes x from the rest of y and what change preserves or ends this aspect.
+- **ASP-2 (Structural dependence).** `AspectOf(x,y;f)` implies `ut:StructPartOf(x,y)`, `x != y`, and asymmetry for that occurrence. It implies none of ComponentOf, ConstituentOf, PortionOf, PhaseOf, collection belonging, or independent systemhood.
+- **ASP-3 (Facet-local and non-transitive).** An occurrence under f gives no occurrence under another facet. `AspectOf` is not assumed transitive through another bearer or facet; state every relied-on relation directly.
+- **ASP-4 (Bearer and aspect identity).** If the bearer is reidentified, or f and the aspect-identity rule no longer identify x, the old occurrence ends. A changed view, diagram, name, or measurement does not by itself change the world-side occurrence.
+- **ASP-5 (Neighbor boundary).** A measured quality routes to `C.16`/`A.19`; a viewpoint or view to `E.17.0`/`E.17.1`; a representation or projection to `C.29` or its direct projection pattern; a selected temporal window to `PhaseOf` or `C.27.TA`; a selected partition to the pattern governing that structure. None creates `AspectOf` by selection alone.
+
+**Didactic tests.**
+
+- ✓ In Reactor-7, the thermal-boundary rule distinguishes ThermalEnvelope-7 as the connected enclosure of insulation panels, seals, and boundary interfaces that constrains heat transfer across the reactor boundary. ThermalEnvelope-7 is identified by the continuing enclosure under that rule, not by a fixed panel list. `AspectOf(ThermalEnvelope-7, Reactor-7; thermal-boundary)` obtains while that enclosure and Reactor-7 continue. Replacing one panel under the same rule preserves the aspect; dismantling the enclosure, replacing the facet rule with a different boundary, or reidentifying Reactor-7 ends the occurrence. A changed temperature reading or dashboard view does not.
+- ✗ “Safety is an aspect of the design” when *safety* is only a Characteristic, concern, viewpoint, or heading. Recover that actual claim first.
+- ✗ “Pump-7 during warm-up is its thermal aspect.” Use `PhaseOf` for the proper temporal restriction and `A.19` for a measured thermal Characteristic when those claims obtain.
+
+#### A.14:5.4 - CT2R-LOG and Compose-CAL handshake
+
+- A direct structural parthood claim is usable without this assurance handshake. If the publication elects B.3.5 or a named current requirement demands it, link the claim through `tv:groundedBy` to its applicable current C.2.1 `Γ_m.sum` or `Γ_m.slice` construction-trace episteme and declare `validationMode=axiomatic`. The direct relation pattern decides whether the occurrence obtains and how it is identified; the relevant entity pattern decides identity through change. The trace only reports that basis.
+- **AspectOf** uses one current `C.13 slice` trace when that assurance branch is elected. The trace names the aspect, bearer, facet rule, relation occurrence, and identity conditions; it creates none of them.
+- **PhaseOf** is temporal parthood and shall not be grounded through `Γ_m`. Its assurance follows the same-carrier and proper-interval criteria, the separately declared selected-partition rule when one is claimed, and `Γ_time` ordering (`B.1.4`).
+- A collection's own belongs-to relation remains distinct from constructive parthood (`CC-MEM-2`). State its participants, what makes it obtain, and whether later belonging is the same occurrence or a new one under the collection's pattern. A direct claim needs no B.3.5 fields. If B.3.5 assurance is elected, link `validationMode=axiomatic` to one current `C.13 set` trace that reports the relation that already obtains. The trace supports neither a ComponentOf inference nor a universal prohibition on separately grounded parthood.
 
 Two quick identity tests apply before relying on a trace. The same listed constituents can form a different whole when their direct assembly relations or rule differ. Conversely, a permitted constituent replacement can preserve the same whole. An equal input list, a repeated trace, or `validationMode=axiomatic` decides neither case.
 
 ### A.14:6 - Choosing the right relation (decision table)
 
-| You want to say…                                             | Use                  | Why                                                                                |
-| ------------------------------------------------------------ | -------------------- | ---------------------------------------------------------------------------------- |
-| “This is a *piece* of the same stuff (lower amount/extent).” | **PortionOf**        | Governed by a measure μ and conservation (Σ‑additive).                             |
-| “This is a *discrete part* that sits *inside* the whole.”    | **ComponentOf**      | Structural parthood; boundary‑respecting, not measured by μ.                       |
-| “This is a *logical part* in a conceptual whole.”            | **ConstituentOf**    | Sections, lemmas, clauses, conceptual assembly.                                    |
-| “This is the *same entity* during a *sub‑interval*.”          | **PhaseOf**          | Temporal slicing with identity continuity.                                         |
-| “This *item belongs to that collection/collective*.”         | **MemberOf**         | State the exact membership occurrence and the collection's identity rule. If assurance is current, C.13 may narrate the already grounded collection in a `Γ_m.set` trace and B.3.5 may link it; the gathering account does not create membership or component integration. |
-| “This system *plays a Role or position*.” | local system-role-kind classification or `U.SystemRoleAssignment` (`A.2`/`A.2.1`), or a relation position under `A.6.5` | The kind, assignment occurrence, and relation position are not parts. |
+| You want to say... | Use | Why |
+| --- | --- | --- |
+| “This is a piece of the same stuff or extent.” | **PortionOf** | One extensive measure and conservation rule govern the claim. |
+| “This is a discrete structural part inside the whole.” | **ComponentOf** | The part is structurally integrated; amount and facet selection do not decide it. |
+| “This is a logical or content part of a conceptual whole.” | **ConstituentOf** | The claim concerns conceptual or epistemic assembly. |
+| “This dependent structural part is one aspect of this bearer under this facet rule.” | **AspectOf** | Name the aspect, bearer, facet rule, occurrence, and identity rule; a Characteristic, view, projection, partition, or time window is not enough. |
+| “This is the same entity during a proper sub-interval.” | **PhaseOf** | The same carrier and its identity rule hold over a proper temporal restriction. |
+| “This item belongs to that collection.” | **The belongs-to rule defined for that collection** | Name the entity and collection, state what makes belonging begin and end, and distinguish recurrence. Belonging establishes neither parthood nor its impossibility. |
+| “This System holds a local work-facing kind or relation position.” | local system-role-kind classification, `U.SystemRoleAssignment`, or an A.6.5 relation position | Kind classification, assignment occurrence, and relation participation are not parts. |
 
 > **Firewall reminder.** If the sentence is about system-role-kind classification or assignment, how action is done, or what happened when, use `A.2`/`A.2.1`, `A.3.1`, or `A.15.1` as appropriate. For an episteme, use A.14 for content parthood or a proper interval of one unchanged C.2.1 identity; changed claims, EntityOfConcern, or effective reference scheme identify another episteme, and any historical continuation uses C.2.1 `EpistemeEditionRelation` only when its predicate obtains.
 
 ### A.14:7 - Archetypal Grounding
 
-| Relation                       | `U.System` example                                     | `U.Episteme` example                                        |
-| ------------------------------ | ------------------------------------------------------ | ----------------------------------------------------------- |
-| **PortionOf**                  | 50 L from a 200 L fuel tank (μ = volume).              | Pages 1–10 from a 120‑page report (μ = page/token count).   |
-| **ComponentOf**                | Impeller **ComponentOf** PumpUnit.                     | Figure 2 **ComponentOf** Poster Layout (physical poster layout). |
-| **ConstituentOf**              | Control law **ConstituentOf** Controller Design.       | Lemma A **ConstituentOf** Theorem Proof.                    |
-| **PhaseOf**                    | PumpUnit\#3 *before*/*after* calibration (same serial and direct identity rule). | One unchanged theorem episteme restricted to τ₁ or τ₂ while its complete C.2.1 identity triple remains fixed. |
-| MemberOf (for reference) | “is an element of a collection or collective”; use only after the exact collection, its identity rule, and the direct membership occurrence are grounded. A C.13 `Γ_m.set` trace can report that construction and B.3.5 can link it for assurance; neither the trace nor a gathering act creates membership. Acting-collective claims require separate `U.System` admission plus system-role-kind, assignment, method, work, and evidence patterns. | The same rule applies to collections of epistemes; listing or publishing them supplies no membership occurrence by itself. |
+| Relation | `U.System` example | `U.Episteme` example or boundary |
+| --- | --- | --- |
+| **PortionOf** | 50 L from a 200 L fuel tank under volume μ. | Pages 1-10 from a 120-page report under page or token count. |
+| **ComponentOf** | Impeller ComponentOf PumpUnit. | Figure 2 ComponentOf a physical poster layout. |
+| **ConstituentOf** | Control law ConstituentOf Controller Design. | Lemma A ConstituentOf Theorem Proof. |
+| **AspectOf** | ThermalEnvelope-7 AspectOf Reactor-7 under the thermal-boundary rule; `A.14:5.3` shows the bearer, enclosure, occurrence, identity, preservation, and ending conditions. | A selected view, concern, heading, or projection of an episteme is not AspectOf. Use this relation only if a bearer-dependent structural aspect, facet rule, occurrence, and aspect identity are independently established. |
+| **PhaseOf** | PumpUnit-3 before calibration, with the same carrier identity. | One unchanged theorem episteme restricted to a proper interval while its C.2.1 identity remains fixed. |
+| **Collection belonging** | “Vehicle 12 belongs to Fleet North under its registration rule.” The rule supplies beginning, ending, recurrence, and history; the claim establishes neither holonhood nor parthood. | The same discipline applies to collections of epistemes. Listing or publishing them creates no occurrence. |
 
 ### A.14:8 - Bias-Annotation
 
-A.14 corrects parthood bias: ordinary words such as part, member, phase, aspect, section, version, module, function, role, and ingredient can all sound like "part of" while naming different kinds or relations. The repair is not a larger part tree. Recover the EntityOfConcern and decide whether the source means component, constituent, portion, phase, member, classification by a local system-role kind, `U.SystemRoleAssignment`, method description, work occurrence, evidence relation, or transformation relation.
+A.14 corrects parthood bias: ordinary words such as *part*, *member*, *phase*, *aspect*, *section*, *version*, *module*, *function*, *role*, and *ingredient* can hide different objects or relations. Recover whether the source means component, constituent, measured portion, bearer-dependent aspect, proper temporal phase, collection belonging, local system-role-kind classification, assignment, Method, Work, evidence, or transformation.
 
-It also corrects representation bias. A BoM row, figure, graph edge, table row, document section, dashboard item, or architecture view may publish a part-whole claim, but the publication form is not the part-whole relation itself. The live A.14 claim is about the relation between holons, epistemes, carriers, portions, phases, or collection members, with mathematical or publication descriptions kept in their own slots.
+It also corrects analysis and representation bias. A Characteristic, viewpoint, view, projection, selected partition, dashboard slice, diagram, table row, or time window may describe or foreground something about a bearer without becoming a world-side structural aspect. `AspectOf` begins only after the aspect, bearer, facet rule, relation occurrence, and aspect identity are established. Publication or construction traces report such a claim; they do not create it.
 
 ### A.14:9 - Conformance Checklist - type guards
 
-#### A.14:8.1 - Global firewall and scope
+#### A.14:9.1 - Global firewall and scope
 
 | ID            | Requirement                                                                                 | Purpose                                                 |
 | ------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | **CC-A14-0** | A local system-role kind **MUST NOT** occur as a node in any `partOf` chain by kind identity; a `U.System` classified by that kind remains eligible for holon mereology on its independent system identity. `U.Method` **MUST NOT** occur in A.14 structural `ComponentOf` or structural `partOf` chains by method identity alone; A.3.1 and B.1.5 define submethod assembly. If an exact admission predicate establishes a different carrier, such as a `SystemRoleKindDescription`, Work occurrence, `U.SystemRoleAssignment` occurrence, `SystemRoleKindRelationStructure`, method relation structure, or episteme, name that carrier, assertion, and subject-pattern locator. | Keeps local system-role kinds out of holon mereology by kind identity and keeps method holarchy out of structural component mereology while preserving admitted carriers. |
 | **CC‑A14‑0a** | `U.MethodDescription` / `U.WorkPlan` and other describing epistemes **MAY** participate in `partOf` only as `U.Episteme` nodes: content `ConstituentOf`, measured text `PortionOf`, or `PhaseOf` for a proper interval of one unchanged C.2.1 identity. A changed C.2.1 discriminator identifies another episteme; connect two such identities only through an independently obtaining `EpistemeEditionRelation`. They **MUST NOT** be asserted as `ut:StructPartOf` of any `U.System`. | Allows episteme structure and legitimate temporal restriction without smuggling Methods or automatic edition continuity into structure. |
-| **CC‑A14‑0b** | `MemberOf` **MUST NOT** imply, entail, or be auto‑rewritten into any `partOf` sub‑relation. | Separates collections/collectives from parthood.        |
+| **CC‑A14‑0b** | A collection-belonging relation **MUST NOT** be inferred or auto-rewritten as any `partOf` sub-relation. This non-inference does not prohibit a separately grounded constructive part relation for the same entities. | Separates collection belonging from parthood without assuming they can never coexist. |
 | **CC‑A14‑0c** | `SerialStepOf` / `ParallelFactorOf` **MUST NOT** appear in any `partOf` chain or table in A.14; model order and concurrency potential via **A.15** and direct method-composition patterns such as `B.1.5`. If a node linked by those relations is also a submethod, state that `U.Method` claim separately before using method holarchy. | Prevents the “order‑as‑structure” and “edge-as-part” category errors.       |
 
-#### A.14:8.2 - PortionOf guards
+#### A.14:9.2 - PortionOf guards
 
 | ID                                 | Requirement                                                                                                                                                               | Purpose                                 |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -23263,7 +23289,7 @@ It also corrects representation bias. A BoM row, figure, graph edge, table row, 
 | **CC‑POR‑4 (Boundary)**            | For physical systems, the whole’s boundary encloses the union of portions; cross‑boundary flows are **not** portions.                                                     | Distinguishes stock vs flow.            |
 | **CC‑POR‑5 (Non‑replacement)**     | “Replacing 20% of y by v” **MUST** be modelled as **PortionOf** removal + **Component/Constituent** insertion, not as a single PortionOf rewrite.                         | Avoids silent identity change.          |
 
-#### A.14:8.3 - PhaseOf guards
+#### A.14:9.3 - PhaseOf guards
 
 | ID                                    | Requirement                                                                                                                                                      | Purpose                                |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
@@ -23273,116 +23299,155 @@ It also corrects representation bias. A BoM row, figure, graph edge, table row, 
 | **CC‑PHA‑4 (Escalation)**             | If identity criteria fail during change, declare a **Meta‑Holon Transition** (B.2) instead of PhaseOf.                                                           | Makes re‑identification explicit.      |
 | **CC-PHA-5 (Episteme & Work boundary)** | `PhaseOf` **MAY** restrict one unchanged `U.MethodDescription` episteme to a proper interval only after its C.2.1 identity triple remains fixed. Changed description epistemes use `EpistemeEditionRelation` only when C.2.1's historical-continuation predicate obtains. Work intervals, episodes, performed parts, retries, resumptions, and later occurrences **SHALL** use A.15.1's exact relations; generic `PhaseOf` is not their substitute. `PhaseOf` never applies to a local system-role kind by kind identity or to `U.Method`. | Keeps episteme identity, edition continuity, and Work-temporal law with their subject patterns. |
 
-#### A.14:8.4 - Grounding and validation (normative)
+#### A.14:9.4 - AspectOf guards
 
-| ID              | Requirement                                                                                                      | Purpose                                           |
-| ----------------| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| **CC-GND-1**   | A direct `ut:StructPartOf` assertion is usable without this assurance profile. When its publication elects B.3.5 or a named current requirement demands that profile, the assertion **MUST** carry a `tv:groundedBy` link to one current C.2.1 construction-trace episteme in a C.13 `sum`, `set`, or `slice` form and the profile's declared `validationMode`. The trace names independently grounded participants, direct relation occurrences, construction rule, and identity or reidentification conditions. | Makes an elected assurance basis inspectable without making it the relation's truth-maker. |
-| **CC-GND-2**   | For **epistemic** edges (`ut:EpiPartOf` and its sub-types), `tv:groundedBy` is **OPTIONAL**; instead supply **`ev:evidence`** and set **`validationMode in {axiomatic, postulate, inferential}`**. | Harmonises evidence treatment for epistemic edges. |
-| **CC-GND-3**   | The public query Standard remains `?x ut:PartOf+ ?y`; each returned occurrence still depends on its direct relation semantics and identity. `tv:AliasOf`, a construction trace, or `validationMode` may make the publication inspectable but **MUST NOT** create or reidentify the occurrence. | Preserves the one-query experience without moving relation authority into assurance apparatus. |
+| ID | Requirement | Purpose |
+| --- | --- | --- |
+| **CC-ASP-1 (Participants and rule)** | Name the aspect and bearer in the `U.Holon` parthood domain, the facet rule, the relation occurrence, and the aspect-identity rule. The relation grants neither systemness nor independent-whole status. | Prevents an aspect label from admitting its own object. |
+| **CC-ASP-2 (Obtaining)** | The facet rule must state what distinguishes the aspect and what change preserves or ends it. A chosen concern, Characteristic, viewpoint, view, projection, partition, label, or temporal window establishes no `AspectOf` occurrence. | Keeps selection and description from becoming world-side parthood. |
+| **CC-ASP-3 (Relation properties)** | `AspectOf(x,y;f)` implies one asymmetric `ut:StructPartOf(x,y)` occurrence with `x != y`. Infer neither another facet occurrence, transitivity, ComponentOf, ConstituentOf, PortionOf, PhaseOf, collection belonging, nor independent systemhood. | Keeps the relation facet-local and non-omnibus. |
+| **CC-ASP-4 (Identity and assurance)** | Bearer reidentification or failure of the facet and aspect-identity rule ends the old occurrence. A direct claim needs no B.3.5 fields; after profile election it uses one current `C.13 slice` trace and `validationMode=axiomatic`. | Keeps occurrence identity and optional assurance separate. |
 
-*Note.* Property names and trace semantics are defined in the CT2R‑LOG / Compose‑CAL.
+#### A.14:9.5 - Grounding and validation (normative)
 
-#### A.14:8.5 - MemberOf minimal semantics (non‑mereological)
+| ID | Requirement | Purpose |
+| --- | --- | --- |
+| **CC-GND-1** | A direct `ut:StructPartOf` assertion is usable without this assurance profile. When its publication elects B.3.5 or a named current requirement demands that profile, the assertion must use `validationMode=axiomatic` and link through `tv:groundedBy` to its applicable current C.2.1 `sum` or `slice` construction trace. The trace reports independently grounded participants, direct relation occurrences, the construction rule, and identity or reidentification conditions; it creates none of them. | Makes an elected assurance basis inspectable without making it the relation's truth-maker. |
+| **CC-GND-2** | For epistemic edges (`ut:EpiPartOf` and its sub-types), `tv:groundedBy` is optional; instead supply `ev:evidence` and set `validationMode in {axiomatic, postulate, inferential}`. | Harmonises evidence treatment for epistemic edges. |
+| **CC-GND-3** | The public query Standard remains `?x ut:PartOf+ ?y`; every result still depends on its direct relation semantics and identity. Alias, trace, or validation mode creates or reidentifies no occurrence. | Preserves one query surface without moving authority into assurance apparatus. |
 
-| ID           | Requirement                                                                                       | Purpose                               |
-| ------------ | ------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| **CC‑MEM‑1** | `MemberOf` domain/range are open: any `U.Holon` may be a member of a collection/collective holon. | Allows mixed collections when needed. |
-| **CC‑MEM‑2** | From `MemberOf(x,C)` it is **forbidden** to infer any property of C to x via parthood rules.      | Prevents “set‑as‑whole” errors.       |
-| **CC-MEM-3** | Before a collection construction is narrated, one exact collection, its identity rule, and every used `MemberOf` occurrence **MUST** be independently grounded. C.13 may then provide a `Γ_m.set` account and B.3.5 may link it when assurance is current; neither creates membership. Acting-collective claims still require `U.System` admission and separate system-role-kind, assignment, method, work, and evidence patterns. | Keeps collection identity, membership, assurance, and acting-system claims separate. |
+*Note.* Property names and trace semantics are defined in CT2R-LOG and Compose-CAL.
 
-#### A.14:8.6 - CT2R‑LOG handshake (Working‑Model → Assurance)
+#### A.14:9.6 - Collection belonging and separately grounded parthood
+
+| ID | Requirement | Purpose |
+| --- | --- | --- |
+| **CC-MEM-1** | State collection belonging with the predicate defined for that subject. Name the entity, collection, collection identity rule, what makes belonging begin and end, whether it can recur, and how past belonging is said. | Keeps unlike fleets, corpora, communities, populations, products, and Suites under their own rules. |
+| **CC-MEM-2** | From collection belonging alone infer neither a constructive part relation nor holonhood. Also do not infer that either is impossible. | Separates non-implication from universal prohibition. |
+| **CC-MEM-3** | If the same collection independently passes all six `A.1` matters and a constructive part relation obtains, publish that second claim under its direct pattern. A direct belonging sentence needs no B.3.5 fields. When B.3.5 assurance is elected for it, use `validationMode=axiomatic` and one current `C.13 set` trace; the trace reports the collection, entities, relation occurrences, rule, and identity conditions and creates none of them. | Keeps collection belonging, constructive parthood, assurance, and collective action separate. |
+
+#### A.14:9.7 - CT2R‑LOG handshake (Working‑Model → Assurance)
 
 | ID                 | Requirement                                                                                                                                                              | Purpose                                                                                 |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
-| **CC-A14-10**      | A published structural Working-Model assertion **MAY** remain a direct relation claim without B.3.5 fields. When its publication elects B.3.5 or a named current requirement demands that profile, it **SHALL** declare the profile's `validationMode` and link to one current C.2.1 construction-trace episteme with `tv:groundedBy -> Γ_m.sum\|set\|slice`. The direct relation and reidentification tests remain decisive; the trace and mode create neither occurrence nor identity and guarantee no timelessness. | Keeps direct use lightweight while making an elected assurance posture inspectable. |
+| **CC-A14-10** | A published direct relation may remain usable without B.3.5 fields. When its publication elects B.3.5, follow the relation's branch: structural parthood links its current `sum` or `slice` construction trace, while collection belonging links one current `C.13 set` trace under the collection's own rule; both declare `validationMode=axiomatic`. The direct relation and identity tests remain decisive; trace and mode create neither occurrence nor identity. | Keeps direct use lightweight while making an elected assurance posture inspectable. |
 | **CC‑A14‑11**      | **PhaseOf** edges **SHALL NOT** use Γ_m for grounding. The relation record **SHALL** provide identity and proper-interval criteria per **CC‑PHA‑1/2**; a selected exhaustive partition additionally follows **CC‑PHA‑3** and references **Γ_time** when ordering matters. | Keeps temporal parthood distinct from construction and partition-specific constraints.       |
 
-### A.14:9.1 - Relation-use decision procedure
+#### A.14:9.8 - Relation-use decision procedure
 
-**Step 0 — Firewall check.**
-If the sentence is about system-role-kind classification or assignment, how action is done, or what happened when, you are **not** in A.14 merely because ordinary speech names a thing. Use `A.2`/`A.2.1`, `A.3.1`, `A.15.1`, or the evidence pattern as appropriate. For an episteme, A.14 may participate in content parthood or a proper temporal restriction of one unchanged C.2.1 identity. Changed episteme content, EntityOfConcern, or effective reference scheme opens another episteme and the separate C.2.1 edition-continuity test; a dated Work part stays under A.15.1.
+**Step 0 — Recover the claim.** If the sentence concerns system-role-kind classification or assignment, Method, Work, evidence, a Characteristic, viewpoint, view, projection, partition, or temporal claim without parthood, use that direct pattern. A.14 is not selected merely because ordinary speech says *part* or *aspect*.
 
-**Step 1 — Is it measured stuff?**
-If yes, pick **PortionOf**. Confirm μ is declared (CC‑POR‑1/2). Test additivity on a toy split (CC‑POR‑3). If flows cross a boundary, remodel as interactions, not portions (CC‑POR‑4).
+**Step 1 — Is it measured stuff or extent?** If yes, use **PortionOf**. Declare μ, unit, boundary, and additivity conditions.
 
-**Step 2 — Is it a discrete inside part?**
-If yes, pick **ComponentOf** (physical) or **ConstituentOf** (conceptual). Do **not** use PortionOf here.
+**Step 2 — Is it a discrete integrated or conceptual part?** If yes, use **ComponentOf** or **ConstituentOf**. Do not use PortionOf merely because the part can also be measured.
 
-**Step 3 — Is it the same carrier restricted to a proper time slice?**
-If yes, pick **PhaseOf**. Verify that the proposed part is not the whole carrier, its interval is a proper sub-interval, and carrier identity holds (CC‑PHA‑1/2). Nested and overlapping restrictions are allowed. Only when the use selects an exhaustive partition must its cells follow the one declared aspect or partition rule, pairwise non-overlap, and coverage condition (CC‑PHA‑3). A whole-lifetime or self-reference needs no phase object. If identity criteria break, escalate to **B.2** (CC‑PHA‑4).
+**Step 3 — Is it the same carrier during a proper sub-interval?** If yes, use **PhaseOf** after the carrier-identity and interval tests. Another episteme or Work occurrence uses its own identity and relation patterns.
 
-**Step 4 — Is it a membership statement?**
-Use **MemberOf** only; avoid any part-inferences (CC-MEM-2). If you need a **collection as a whole**, use **C.13** (`Γ_m.set`) and **B.3.5** when assurance grounding is current. If you need **collective action**, first admit an acting collective `U.System`, then use the system-role-kind, assignment, method, work, and evidence patterns.
+**Step 4 — Is it a bearer-dependent structural aspect?** Use **AspectOf** only after naming the aspect, bearer, facet rule, relation occurrence, and aspect-identity rule. If the source names only a Characteristic, viewpoint, view, projection, selected partition, concern, or time window, return that actual claim instead.
+
+**Step 5 — Does the entity belong to a collection?** Use the belongs-to rule defined for that collection after naming the entity, collection, beginning, ending, recurrence, and history conditions. Infer neither part nor holonhood and do not infer that separately grounded parthood is impossible. If collective action is current, apply all six A.1 matters separately.
 
 **Quick spot-tests.**
 
-| Smell                          | Likely error                      | Fix                                                                                                                          |
-| ------------------------------ | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| “20% of the chassis”           | Treating structure as stuff       | Use **ComponentOf**; if truly laminar material, PortionOf applies to **material stock**, not the assembled chassis.          |
-| “Chapter 2 is 15% of the book” | Mixing measures and constituents  | Use **ConstituentOf**; the 15% is **length‑of‑text** as a separate statement.                                                |
-| “Spec v2 overlaps v1” | A version label is asked to decide episteme identity and temporal parthood | Compare the exact C.2.1 identity triples. If they differ, identify two epistemes and test `EpistemeEditionRelation` separately; use A.15.1 for overlapping drafting Work. If one unchanged episteme is merely referenced at two times, no second episteme or phase object follows without a proper-interval use. |
-| “Team is part of the project”  | Member vs part confusion          | Use **MemberOf(Team, ProjectCollective)**, not partOf.                                                                       |
+| Smell | Likely error | Fix |
+| --- | --- | --- |
+| “20% of the chassis” | Structure is treated as stuff. | Use ComponentOf for the chassis part; use PortionOf only for material stock under one measure. |
+| “Chapter 2 is 15% of the book” | Content assembly and text measure are collapsed. | Use ConstituentOf for the chapter and a separate PortionOf measurement statement. |
+| “Safety is an aspect of the design.” | Characteristic, concern, viewpoint, or structural aspect remains unresolved. | Recover the actual claim. Use AspectOf only with an identified aspect, bearer, facet rule, occurrence, and identity condition. |
+| “The dashboard slice is an aspect of the reactor.” | A view or projection is made into a world-side part. | Use the view, publication, or representation pattern; add AspectOf only for an independently established reactor aspect. |
+| “Spec v2 overlaps v1.” | A version label is asked to decide identity and phase. | Compare C.2.1 identities and test edition continuity; use PhaseOf only for one unchanged episteme over a proper interval. |
+| “Team is part of the project.” | Collection belonging is confused with constructive parthood. | State the affiliation rule. If an integrated whole is also claimed, apply all six A.1 matters and state the part relation separately. |
 
-### A.14:9.2 - Interplay with Γ‑flavours (how these relations behave under aggregation)
+#### A.14:9.9 - Interplay with Γ‑flavours (how these relations behave under aggregation)
 
 | Γ‑flavour                    | Mereological hooks (what A.14 supplies)                                                                                                                | Key effect                                                                                    |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| **Γ\_sys (B.1.2)**          | Treat **PortionOf** as Σ‑additive stocks; **ComponentOf** must respect boundary integration; **PhaseOf** is not aggregated here.                       | Conserves extensive measures and keeps structural WLNK (weakest‑link) on components.          |
-| **Γ\_epist (B.1.3)** | **PortionOf** of texts/data uses μ = token/byte count; **ConstituentOf** composes arguments/sections; `PhaseOf` may restrict one unchanged episteme to a proper interval. Distinct MethodDescription or document epistemes use C.2.1 identity and `EpistemeEditionRelation` only when its predicate obtains. | Preserves provenance and avoids both trust inflation and label-based identity or continuity. |
+| **Γ\_sys (B.1.2)** | Treat PortionOf as additive stocks; ComponentOf respects boundary integration; AspectOf remains facet-local structural parthood and is not a separate aggregation operator; PhaseOf is not aggregated here. | Conserves extensive measures and prevents facets from becoming system decompositions. |
+| **Γ\_epist (B.1.3)** | PortionOf of text or data uses a declared measure; ConstituentOf composes arguments or sections; AspectOf is available only for an independently admitted episteme-dependent structural aspect under a declared facet rule. A viewpoint, view, heading, or projection remains with E.17 or C.29. PhaseOf may restrict one unchanged episteme to a proper interval. | Preserves provenance and prevents description choices from creating episteme parts. |
 | **Γ\_ctx / Γ\_time (B.1.4)** | **PhaseOf** supplies proper temporal restrictions, including nested or overlapping windows. A separately selected partition supplies non-overlap and coverage only for its own cells. Order/dependencies live in **Γ\_ctx** and method graphs (A.15/B.1.5). **PortionOf** is orthogonal (quantities inside steps/runs). | Ensures chronological consistency without turning every temporal restriction into one partition. |
-| **Γ\_method (B.1.5)**          | Γ\_method composes Methods rather than A.14 structural parts. A recipe-labelled claim-bearing episteme is a **MethodDescription** only when its exact `EntityOfConcern` is one admitted `U.Method` and at least one substantive way-of-doing claim obtains under A.3.2; any graph form is a C.29-governed representation, not membership evidence. When a recipe refers to stuff‑like inputs, those are **PortionOf** statements on resources. | Separates recipe composition from structure.                                                  |
+| **Γ\_method (B.1.5)** | Γ\_method composes Methods rather than A.14 structural parts. A recipe-labelled claim-bearing episteme is a **MethodDescription** only when its `EntityOfConcern` is one admitted `U.Method` and at least one substantive way-of-doing claim obtains under A.3.2; any graph form is a representation handled by C.29, not evidence that the Method belongs to a collection. When a recipe refers to stuff-like inputs, those are **PortionOf** statements on resources. | Separates recipe composition from structure. |
 | **Γ\_work (B.1.6)**          | Only **Work** carries resource deltas; when logging “consumed 5 kg from Tank A”, model it as **PortionOf** relation to the stock prior to consumption. | Makes Σ‑balance explicit; aligns with CC‑POR‑3/4.                                             |
 
 ### A.14:10 - Common Anti-Patterns and How to Avoid Them
 
-* **Member as component.** A person, team, document, or object belongs to a collection and is then counted as if it were structurally integrated into the whole.
-* **Role expression as part.** A system is said to "play a role", and the label is placed inside a part tree instead of being resolved as a local system-role kind, a `U.SystemRoleAssignment`, or a relation position.
-* **Method as part.** A method value, recipe, or algorithm is treated as a component instead of using method, method-description, work, or transformation patterns.
-* **Portion without measure.** Some amount of fuel, data, time, or text is named as a portion without a measure kind, unit, and additivity condition.
-* **Phase as replacement or lineage.** A proper restriction of one enduring carrier is treated as another component, or a changed episteme, version label, or Work segment is treated as `PhaseOf` without applying C.2.1 or A.15.1 first.
-* **Diagram or trace as relation.** A visual breakdown, graph, table, construction trace, or `validationMode` is used as proof that parthood obtains or that the whole has one fixed identity. Recover the direct relation occurrence and the candidate's identity or reidentification rule first; use the publication and trace only as inspectable accounts.
+- **Member as component.** A person, team, document, or object belongs to a collection and is then counted as structurally integrated.
+- **Aspect by label.** A Characteristic, concern, viewpoint, view, projection, partition, heading, dashboard slice, or time window is called an aspect and entered into a part tree. Recover the actual claim; require the full AspectOf occurrence when structural parthood is intended.
+- **System-role expression as part.** A local kind, assignment, or relation position is put into a part tree instead of using its direct pattern.
+- **Method as part.** A Method, recipe, or algorithm is treated as a structural component instead of using Method, MethodDescription, Work, or transformation patterns.
+- **Portion without measure.** Some fuel, data, time, or text is named as a portion without measure kind, unit, boundary, and additivity conditions.
+- **Phase as replacement or lineage.** Another episteme, version label, or Work segment is treated as PhaseOf without applying C.2.1 or A.15.1.
+- **Diagram or trace as relation.** A breakdown, graph, table, construction trace, or validation mode is used as proof that parthood or identity obtains.
 
 ### A.14:11 - Pedagogy aids (non-normative)
 
-**Two‑minute checklist for practitioners**
+**Two-minute checklist for practitioners**
 
-1. Do I see "process", "procedure", "policy", or "script" used to mean enactment? — then **A.15/A.15.1**. If it names an episteme, use A.14 only for its content parthood or a proper interval of the unchanged C.2.1 identity; use C.2.1 for another episteme and any edition-continuity claim.
-2. Does every PortionOf have a declared μ and unit?
-3. Is this an ordinary proper temporal restriction, where nesting or overlap is allowed, or one explicitly selected exhaustive partition, whose cells alone must not overlap and must cover the declared interval?
-4. Are any roles/recipes appearing as parts? If yes, stop and refactor.
+1. What subject and relation does the sentence claim?
+2. Does every PortionOf have a declared extensive measure, unit, boundary, and additivity condition?
+3. Does every AspectOf name the aspect, bearer, facet rule, occurrence, and identity rule—and avoid replacing a Characteristic, view, projection, partition, or time window?
+4. Is every PhaseOf a proper interval of one unchanged carrier rather than another episteme or Work occurrence?
+5. Does every collection claim use its own belongs-to rule without inferring or prohibiting a separate part relation?
+6. Are local system-role kinds, assignments, Methods, Work, views, and traces kept outside the part tree unless an independently admitted carrier and direct part relation are current?
 
 ### A.14:12 - Consequences
 
 **Benefits**
 
-* **Predictable composition.** Σ‑additivity for portions, same-carrier temporal parthood, and explicit partition rules make Γ‑proofs inspectable.
-* **History without confusion.** Temporal slicing is explicit; nested and overlapping windows remain legal, while non-overlap and coverage are claimed only for a selected partition.
-* **Cleaner integration with roles and recipes.** The firewall prevents “functional object” creep into structure.
-* **Compatibility with engineering practice.** Mirrors *product breakdown* (components) vs *functional breakdown* (roles) vs *material stocks* (portions) vs proper temporal restrictions of one enduring carrier (phases), while leaving episteme editions and Work segmentation to their subject patterns.
+- **Predictable composition.** Additive portions, facet-local aspects, same-carrier phases, and explicit collection rules keep unlike claims separate.
+- **Analysis does not create ontology.** Characteristics, viewpoints, views, projections, partitions, and time windows remain usable without being turned into structural parts.
+- **History without confusion.** Aspect and phase identity changes are explicit; collection history stays with the collection's rule.
+- **Readable first use.** A practitioner can state the direct component, constituent, portion, aspect, phase, or belongs-to sentence before any elected assurance account.
 
-**Trade‑offs / mitigations**
+**Trade-offs and mitigations**
 
-* **Modelling energy.** Authors must pick μ and declare units; provide a short μ‑catalog per project.
-* **More relation names.** Two extra sub‑relations increase vocabulary; mitigated by the decision table (§ 6) and spot‑tests (§ 9).
-* **Escalation discipline.** Deciding PhaseOf vs MHT requires judgement; A.14 provides criteria, and B.2 captures true re‑identification.
+- **More distinctions.** Authors must name a measure for PortionOf, a facet and identity rule for AspectOf, or a proper interval and carrier identity for PhaseOf. The decision table and two-minute checklist keep the first move short.
+- **Aspect judgement.** Distinguishing a structural aspect from a Characteristic, view, projection, or temporal claim requires judgement; neighboring patterns provide the stop and route.
+- **Optional assurance effort.** `sum`, `slice`, and `set` traces are added only when B.3.5 or another named current requirement elects them.
+- **Escalation discipline.** When bearer or carrier identity fails, use the direct reidentification pattern rather than preserving an AspectOf or PhaseOf occurrence by label.
 
 ### A.14:13 - Rationale
 
-A.14 exists because part-whole words carry identity, aggregation, measure, time, and assurance commitments. The pattern keeps those commitments in the relation kind instead of letting everyday nouns, diagrams, or breakdown tables decide ontology. Component, constituent, portion, phase, and member claims can then support holon, episteme, architecture, and evidence work without smuggling system-role-kind classification or assignment, method, work, or publication claims into mereology.
+A.14 exists because part-whole words carry identity, aggregation, measure, facet, time, and assurance commitments. The pattern keeps those commitments in the direct relation instead of letting everyday nouns, concerns, views, diagrams, or breakdown tables decide ontology. Component, constituent, portion, bearer-dependent aspect, proper phase, and collection-belonging claims can then support downstream work without smuggling Characteristics, viewpoints, local kinds, assignments, Methods, Work, or publication claims into mereology.
 
 ### A.14:14 - SoTA-Echoing
 
-* **Metrical mereology** advances (e.g., recent work on quantity‑based parthood and additivity) motivate **PortionOf** with explicit μ and Σ‑laws, preventing the classic “stuff as components” fallacy.
-* **Temporal parts & identity through change** (renewed treatments in analytic metaphysics and formal ontology) motivate **PhaseOf** as transitive proper temporal parthood, with nesting and overlap allowed, partition-specific coverage/non-overlap, and escalation when identity criteria fail.
-* **Engineering ontologies (BORO lineage, Core Constructional practice, ISO 15926 family)** keep a strict separation between **functional breakdowns** (our Roles) and **product breakdowns** (our Components), with **stock/consumable** modelling (our Portions) handled by quantities, not by component trees.
-* **Knowledge-episteme edition histories** in contemporary MBSE and open-science practice motivate explicit endpoint identities and provenance-preserving composition. FPF uses the C.2.1 identity triple and independently obtaining `EpistemeEditionRelation` for distinct editions; A.14 retains `PhaseOf` only for a proper temporal restriction of one unchanged episteme.
-* The net effect is a **minimal‑sufficient** catalogue: two added sub‑relations close real modelling gaps while preserving **parsimony**, **didactic clarity**, and **Γ‑compatibility** across domains.
+This edition's collection-belonging rule follows the current constructional line: first identify what is being constructed and what gives it identity, then state the relation that actually obtains. It does not import a ready-made universal membership predicate.
+
+| Source line | Useful contribution | Limit | A.14 decision and destination |
+| --- | --- | --- | --- |
+| Partridge et al., [the constructional turn](https://www.utwente.nl/en/eemcs/fois2024/resources/papers/partridge-et-al-taking-a-constructional-turn-to-radically-enrich-a-top-ontologys-foundation.pdf), and [BORO C-FORS 2025](https://research.borosolutions.net/boro-ontology/) | Set, sum, tuple, and assembly constructors have different outputs, dependence, and identity conditions. | BORO's extensional, 4D, and unrestricted-composition commitments are not FPF defaults. | **Adapt.** Solution item 5 and `CC-MEM-1` distinguish a collection's own belongs-to rule from a `C.13 sum`; `CC-MEM-2/3` require a separate constructive-part claim rather than deriving or prohibiting it from belonging. |
+| Florio and Linnebo, [constructional ontology](https://www.utwente.nl/en/eemcs/fois2024/resources/papers/florio-linnebo-introduction-to-constructional-ontology.pdf), and Borgo and Righetti, [applied constructional ontology](https://doi.org/10.3233/FAIA250480) | Givens, constructors, inputs, and construction processes must be distinguished; set, sum, and ordered-pair constructions are not interchangeable. | The applied work is exploratory and does not supply FPF's domain-facing identity, admission, use, or history rules. Its plural membership is not a world-side belongs-to predicate. | **Adopt the explicit-choice obligation; reject predicate import.** The decision table and Step 5 ask for the entity, collection, and its own beginning, ending, recurrence, and history conditions. |
+| Kit Fine, [*Towards a Theory of Part*](https://doi.org/10.5840/jphil20101071139) | Composition comes before derived part claims, and different operations have different application, identity, presence, and character principles. | Fine's broad use of *part* can also cover set elements or sequence places; that umbrella is too broad for a practitioner-facing FPF relation. | **Adopt operational priority; narrow the public result.** `CC-MEM-2` blocks both the inference from belonging to parthood and the inference that parthood is impossible; `CC-MEM-3` admits the second claim only after all six `A.1` matters pass. |
+| Kit Fine, [*The Identity of Social Groups*](https://doi.org/10.5334/met.45) | Structured groups can persist through changing manifestations, and the same participants need not identify the same group. | An identity-through-change rule does not make a register, corpus, product series, or Suite a structured whole. | **Adopt the identity questions, not automatic embodiment.** `CC-MEM-1` requires the collection's identity and belonging history; the A.1 gate remains separate. |
+
+#### Aspect branch application
+
+For AspectOf, the BORO and CCO rows above supply the constructor-sensitive question: which bearer, facet rule, dependent aspect, and identity conditions make this structural part? Fine's composition-first pressure blocks a bare *aspect* label from deciding parthood. A.14 adapts that line in `A.14:5.3`, the decision procedure, and `CC-ASP-1` through `CC-ASP-4`; `C.13 slice` remains an optional report, not the constructor of the aspect. The serious alternatives are routed rather than renamed: measured Characteristic (`C.16`/`A.19`), viewpoint or view (`E.17`), representation or projection (`C.29` or its direct pattern), selected partition, and temporal restriction (`PhaseOf`/`C.27.TA`). This route is no worse for correctness and cheaper for a cold reader than a universal *aspect* kind; its cost is that the author must identify the actual relation before reusing the word.
+
+The resulting collection alternatives are deliberately distinct:
+
+- **Selected:** an ordinary subject-specific belongs-to sentence plus the collection's own rule.
+- **Rejected:** one generic `MemberOf`, because it collapses formal inclusion, classification, participation, collection belonging, and constructive parthood.
+- **Rejected for present public use:** one qualified generic collection-belonging predicate, because its qualifiers must recreate every subject rule and make the first move harder.
+- **Retained as a separate possible claim:** constructive parthood, but only when its direct relation obtains and all six `A.1` matters pass.
+
+At comparable correctness and temporal adequacy, the selected answer is no worse than the qualified or separately named alternatives and is cheaper for a cold reader and maintainer. A generic predicate looks cheaper only because it omits decisive conditions. The real cost is that A.14 supplies no immediate cross-domain query key for all belongs-to relations; use `F.18` to name a narrower relation when repeated query, comparison, or declaration use justifies that extra vocabulary.
+
+The rest of the catalogue retains its own governing source lines:
+
+- **Metrical mereology** advances motivate **PortionOf** with explicit μ and Σ-laws, preventing the classic “stuff as components” fallacy.
+- **Temporal parts and identity through change** motivate **PhaseOf** as transitive proper temporal parthood, with nesting and overlap allowed, partition-specific coverage and non-overlap, and escalation when identity criteria fail.
+- **Engineering product models**, including the ISO 15926 family, pressure authors to keep functional classification, physical product breakdown, and stocks or consumables distinct; A.14 routes those claims to their direct relations instead of one part tree.
+- **Knowledge-episteme edition histories** in contemporary MBSE and open-science practice motivate explicit endpoint identities and provenance-preserving composition. FPF uses the C.2.1 identity triple and independently obtaining `EpistemeEditionRelation` for distinct editions; A.14 retains `PhaseOf` only for a proper temporal restriction of one unchanged episteme.
+
+The net effect is a minimal-sufficient catalogue: direct component, constituent, portion, bearer-dependent aspect, phase, and collection-belonging claims stay distinct, while a separately grounded constructive part claim remains possible without another universal relation vocabulary.
+
+Treat this source account as current for this edition. Reopen only the affected A.14 rule if a cited constructional source changes a distinction used here, a newer relation architecture provides the same claim correctness and history at lower reader or maintenance cost, or a direct consumer needs a meaning that the current rule cannot express. Recheck `A.14:5.3` and `CC-ASP-1` through `CC-ASP-4` for an AspectOf change; recheck Solution item 5 and `CC-MEM-1` through `CC-MEM-3` for a collection-belonging or separately grounded parthood change. An ordinary change to a bearer, facet rule, aspect occurrence, collection rule, belonging occurrence, or optional trace reopens only that claim and its support, not this source decision.
 
 ### A.14:15 - Relations
 
 - **Builds on:** `A.1`, `A.7`, `B.1`, `B.2`, `C.13`, and `B.3.5` for holon identity, strict distinction, gamma-flavour separation, meta-holon transition, constructive grounding, and Working-Model assurance.
-- **Coordinates with:** `A.2`, `A.2.1`, `A.15`, `A.15.1`, `A.3.1`, `A.3.2`, and `A.3.4` when the source wording is about a system-role kind or assignment, method, work, or transformation rather than parthood.
+- **Coordinates with:** `C.16` and `A.19` for measured Characteristics; `E.17.0`/`E.17.1` for viewpoints and views; `C.29` and direct projection patterns for representations; `C.27.TA` for temporal claims; and `A.2`, `A.2.1`, `A.3.1`, `A.3.2`, `A.15`, `A.15.1`, and `A.3.4` when wording concerns a local kind, assignment, Method, Work, or transformation rather than parthood.
 - **Used by:** architecture, description, evidence, and U-kind admission patterns when their structural claim depends on a clean parthood relation.
 
 ### A.14:End
@@ -34439,7 +34504,7 @@ Does not replace any pattern that supplies the definition, constraint, test, met
 
 ### B.1:0 - Use This When
 
-Use this pattern when a project needs to say how several admitted objects are considered as a whole, or when a whole-level claim depends on parts, membership, component structure, constructional grounding, or a selected aggregation rule.
+Use this pattern when a project needs to say how several admitted objects are considered as a whole, or when a whole-level claim depends on parts, collection belonging under the collection's own rule, component structure, constructional grounding, or a selected aggregation rule.
 
 Typical moments:
 
@@ -34449,7 +34514,7 @@ Typical moments:
 - a collection needs whole-level characteristics without becoming an acting collective system;
 - an aggregation claim is being used for architecture, assurance, evidence, or MHT reasoning.
 
-**First useful move.** Recover the claim kind before choosing notation: part-whole construction, membership, collection-as-whole grounding, an exact relation among local system-role kinds, a direct participation or assignment relation, method relation structure, work occurrence holarchy, selected architecture structure, or mathematical description. If claim-bearing source wording still says only “role,” use `E.10.ROLE` before choosing one of these branches.
+**First useful move.** Recover the claim kind before choosing notation: part-whole construction, collection belonging under the collection's own rule, collection-as-whole grounding, a relation among local system-role kinds, a direct participation or assignment relation, method relation structure, work occurrence holarchy, selected architecture structure, or mathematical description. If claim-bearing source wording still says only “role,” use `E.10.ROLE` before choosing one of these branches.
 
 **What goes wrong if missed.** Γ, graph, algebra, decomposition, factor, component, step, phase, and collection wording become one universal composition language. Roles and methods become parts; work occurrence evidence is inferred from method structure; a graph is mistaken for the structure; a collection becomes an acting whole by label.
 
@@ -34477,7 +34542,7 @@ Without B.1:
 1. **Mereology and notation collapse.** A graph or algebra is treated as the part-whole structure itself.
 2. **Roles and methods become parts.** Role factors, method parameters, guards, steps, and compositions are read as holonic parts because the same word "decomposition" appears.
 3. **Work occurrence is inferred from plan.** A method decomposition or schedule is treated as evidence that performed work had those parts.
-4. **Collections become acting systems.** A set, list, batch, fleet, or community is treated as an admitted acting System or responsibility bearer from plural naming, a system-role kind or assignment, a Method, or Work. Admission of the acting collective remains an A.1 question; responsibility additionally needs its direct domain predicate or the exact missing governor.
+4. **Collections become acting systems.** A set, list, batch, fleet, or community is treated as an admitted acting System or responsibility bearer from plural naming, a system-role kind or assignment, a Method, or Work. Admission of the acting collective remains an A.1 question; responsibility also needs the predicate, participants, and pattern or rule that defines it.
 5. **Emergence becomes rhetoric.** A whole-level gain is explained by "synergy" or "more than the sum" without checking existing-whole explanations or B.2 whole reidentification.
 
 ### B.1:3 - Forces
@@ -34519,7 +34584,7 @@ This is a claim frame, not a U-kind and not an acting record. It says what must 
 
 Use:
 
-- `A.14` for `ComponentOf`, `ConstituentOf`, `PortionOf`, `PhaseOf`, `MemberOf`, aspect, and related vocabulary;
+- `A.14` for `ComponentOf`, `ConstituentOf`, `PortionOf`, `PhaseOf`, collection belonging under the collection's own rule, aspect, and related vocabulary;
 - `C.13` for constructional grounding such as sum, set, slice, or another accepted construction;
 - `B.3.5` when a working model relies on the part-whole claim for assurance or evidence;
 - `C.16` when the current output is a whole-level characteristic;
@@ -34530,7 +34595,7 @@ Use:
 | Source claim | Ontology-side recovery | Subject pattern |
 | --- | --- | --- |
 | "This object is made of these parts." | Part-whole construction over admitted holons. | `A.1`, `A.14`, `C.13`, `B.3.5` when assurance is current. |
-| "These members form a collection." | Membership or collection-as-whole grounding; no `ComponentOf` inference. | `A.14`, `C.13`, `C.16` for whole-level characteristic. |
+| "These items belong to this collection." | The collection's own belongs-to rule or collection-as-whole grounding; no `ComponentOf` inference. | `A.14`, `C.13`, `C.16` for a collection-level or whole-level characteristic. |
 | “This role is combined from role factors.” | Unresolved source wording. It may mean an exact relation among local system-role kinds, a classification or assignment, a direct participation relation, a naming question, or ordinary prose; none is holonic parthood by default. | `E.10.ROLE` first; then `A.2.7` only for the exact relation among local system-role kinds, or the direct pattern for the recovered classification, assignment, participation, or naming claim; use `C.29` only if a mathematical lens is selected. |
 | "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.15`, Method patterns, `C.29` if mathematical lens is selected. |
 | "This run contained episodes or concurrent sub-runs." | Work occurrence holarchy with timing, evidence, occurrence identity, and work-part relation. | `A.15.1`, temporal pattern, evidence-use pattern. |
@@ -34587,7 +34652,7 @@ B.1 recovers the holon aggregation claim. A.14 names component or portion relati
 
 #### B.1:5.2 - Evidence Corpus
 
-A corpus can be a collection-as-whole under `MemberOf` and C.13 set construction. Its whole-level characteristics may include coverage, source freshness, bias exposure, or evidential diversity.
+A corpus can be a collection under its own inclusion rule and a C.13 set account. This alone does not make it a holon. Treat an integrated claim-bearing corpus as a whole only after all six A.1 matters pass, including constructive part relations, assembly, a composition-grounded whole characteristic, and possible participation in a larger assembly. Coverage, source freshness, bias exposure, or evidential diversity may be collection-level characteristics without settling that stronger question.
 
 The corpus does not become an acting system. A review board, script, or research team may instead be admitted as a System. If the current claim says only that it takes part in ordinary review or analysis, state the direct participation relation and stop there. If it says that the System performed admitted `U.Work`, point to the complete A.15.1/F.6 basis for that Work; only an unused assignment identifier may disappear from a short B.1 sentence. A local kind and a separate System-classification judgment remain independently optional. The corpus may be an episteme or publication-side object under its subject patterns.
 
@@ -34597,39 +34662,39 @@ A machining method has ordered steps and parameters. Those steps are method rela
 
 If the current claim is the method structure, use Method patterns and C.29 when algebra is selected. If the current claim is the actual run, use A.15.1.
 
-### B.1:5.1 - Bias-Annotation
+### B.1:6 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Apparatus as ontology | Graph, algebra, tuple, matrix, embedding, or Gamma notation decides the object kind by spelling. | Recover the holon, relation, selected structure, and mathematical-lens use separately. |
 | Decomposition as parthood | Source “role” factors, method steps, phases, or work episodes are treated as holonic parts by label. | Use `E.10.ROLE` when the role wording is unresolved, then the direct pattern for the recovered relation; use the Method, temporal, Work, or part-whole pattern for the other claims. |
-| Collection as acting whole | A set, list, batch, fleet, or community receives agency or responsibility by plural naming. | Recover collection grounding or an actual admitted collective System under A.1. State responsibility separately through its direct domain predicate, actual participants, applicability, and occurrence identity, or return the exact missing governor. |
+| Collection as acting whole | A set, list, batch, fleet, or community receives agency or responsibility by plural naming. | Recover who or what belongs under the collection's own rule and the collection account, or admit the actual collective System under A.1. State responsibility separately by naming its predicate, participants, applicability, and occurrence identity; if no pattern or rule defines the needed claim, return that gap. |
 | Emergence rhetoric | "More than the sum" replaces existing-whole explanation. | Test measurement, architecture, role, method, work, and evidence explanations before B.2 whole reidentification. |
 
-### B.1:6 - Conformance Checklist
+### B.1:7 - Conformance Checklist
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B1-1` | The current claim identifies whether it is part-whole, membership, collection-as-whole, an exact relation among local system-role kinds, classification, assignment, direct participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
+| `CC-B1-1` | The current claim identifies whether it is part-whole, collection belonging under the collection's own rule, collection-as-whole, a relation among local system-role kinds, classification, assignment, direct participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
 | `CC-B1-2` | Part-whole claims name the exact whole and part participants, identity or recognition rule, part relation, constructional predicate and its defining pattern, plus any aggregation policy, selected structure, ClaimScope, or qualification window that changes the claim. |
-| `CC-B1-3` | A.14 and C.13 remain subject patterns for relation vocabulary and constructive grounding. |
+| `CC-B1-3` | A.14 defines the relation vocabulary used here; C.13 defines the construction accounts. |
 | `CC-B1-4` | Relations among local system-role kinds, classifications, assignments, direct participation relations, and Method relation structures are not treated as holonic parts merely because a label, graph, algebra, or naming convention composes them. `A.2.7` is used only for the first of those branches. |
 | `CC-B1-5` | Performed work occurrence parts require A.15.1. |
 | `CC-B1-6` | Mathematical and representation apparatus is named as lens or expression, not as ontology by spelling. |
 | `CC-B1-7` | B.2 is used only when the whole itself must be reidentified after existing-whole explanations fail. |
 | `CC-B1-8` | No generic `U.Boundary`, `U.Interaction`, `U.Level`, `U.Emergence`, or `U.Frustration` is introduced by aggregation wording. |
 
-### B.1:7 - Common Anti-Patterns and How to Avoid Them
+### B.1:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Gamma as head ontology | Γ is treated as the thing that makes all wholes. | Recover the ontology-side claim first; use Γ only as constructional or mathematical apparatus when selected. |
 | Graph as structure | A diagram or graph is treated as the part-whole structure. | Name the selected structure and relation pattern; keep the graph as representation or math lens. |
 | Method as work | A method decomposition is used as evidence that work occurred. | Use A.15.1 for performed-work occurrence and evidence. |
-| Collection as acting whole | A list or pool decides, acts, or bears responsibility. | Recover membership or collection-as-whole grounding, or admit the actual collective System under A.1. A system-role kind, assignment, Method, or Work does not establish responsibility; cite its direct predicate or exact missing governor. |
+| Collection as acting whole | A list or pool decides, acts, or bears responsibility. | Recover who or what belongs under the collection's own rule or its collection-as-whole account, or admit the actual collective System under A.1. A system-role kind, assignment, Method, or Work does not establish responsibility; name the predicate and the pattern or rule that defines it, or state that this is missing. |
 | Emergence by narrative | "More than the sum" replaces existing-whole analysis. | Check existing-whole explanations before B.2. |
 
-### B.1:8 - Consequences
+### B.1:9 - Consequences
 
 Positive consequences:
 
@@ -34644,13 +34709,13 @@ Costs:
 - Some Gamma-heavy examples require a subject pattern before the notation is used: work occurrence evidence uses `A.15.1`, work-resource aggregation uses `B.1.6`, mathematical-lens reliance uses `C.29`, and whole reidentification first uses `B.2.P` and then `B.2` when the problem remains current.
 - Work occurrence analysis requires evidence and timing, not just a method plan.
 
-### B.1:9 - Rationale
+### B.1:10 - Rationale
 
 The practical force of B.1 is conservative. Whole-level reasoning is useful, but it must be grounded in accepted part-whole relations, constructional discipline, and use of the applicable direct patterns. This lets FPF speak across physical systems, epistemes, work occurrences, bounded contexts, disciplines, and collections without growing a new type for every composed expression.
 
 Mathematical apparatus remains available. It becomes more useful after the governed object is known: graph for dependency representation, algebra for selected composition rules, tuple for slot relation expression, matrix or embedding for analysis, and C.29 when a mathematical lens is relied on for the current claim.
 
-### B.1:10 - SoTA-Echoing
+### B.1:11 - SoTA-Echoing
 
 | Source family | Current lesson for B.1 | FPF decision |
 | --- | --- | --- |
@@ -34659,7 +34724,7 @@ Mathematical apparatus remains available. It becomes more useful after the gover
 | Method and process-modeling traditions | Plans, procedures, and performed occurrences are often conflated. | Method relation structure remains with Method patterns; performed-work holarchy remains with A.15.1. |
 | Emergence and holonic systems practice | Genuine whole-level novelty must be distinguished from measurement, architecture, role, method, or work repair. | B.2 is the pattern for whole reidentification after existing-whole explanations are tested. |
 
-### B.1:11 - Relations
+### B.1:12 - Relations
 
 - **Builds on:** `A.1` for holon admission, `A.14` for relation vocabulary, `C.13` for constructional grounding, and `B.3.5` for Working-Model assurance grounding.
 - **Coordinates with:** `A.15` and `A.15.1` for method and work, `A.22` and `C.30` for selected structure and architecture, `C.16` for whole-level characteristics, `C.29` for mathematical lenses, and `B.2` for whole reidentification.
@@ -34708,7 +34773,7 @@ A dependency structure can be ontology-side when a direct pattern has selected t
 
 Without B.1.1:
 
-1. **Edge drift spreads.** `ComponentOf`, `MemberOf`, `PhaseOf`, `SerialStepOf`, `RepresentationOf`, source use, evidence relation, and control relation all become generic graph edges.
+1. **Edge drift spreads.** `ComponentOf`, a collection's belongs-to relation, `PhaseOf`, `SerialStepOf`, `RepresentationOf`, source use, evidence relation, and control relation all become generic graph edges.
 2. **Boundary crossing becomes parthood.** A power grid, supplier, teacher, measuring instrument, model, or source record is drawn as a part because it affects the holon.
 3. **Design and run objects mix.** Planned structure, design description, actual work occurrence, and telemetry are placed in one dependency expression without a DesignRunTag or a distinction among the patterns that define those claims.
 4. **Acyclic graph discipline overclaims.** A graph check says something about the drawing, but the ontology-side relation remains ungrounded.
@@ -34775,7 +34840,7 @@ The graph may express acyclicity, reachability, cutsets, weak links, flow, or tr
 | If the edge means... | Recover... | Pattern that defines or tests the claim |
 | --- | --- | --- |
 | part of the whole | part-whole relation over admitted holons | `A.14`, `C.13`, `B.1` |
-| member of a collection | membership or collection-as-whole claim | `A.14`, `C.13`, `C.16` |
+| an entity belongs to a world-side collection | the collection's own belongs-to occurrence, or a separately grounded collection-as-whole claim | `A.14`, `C.13`, `C.16`, and the pattern that defines that collection's rule |
 | phase of the same carrier | temporal phase relation | the carrier's identity and phase rules, `A.14`, and `B.1.4` |
 | ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4`, and `C.29` when a lens is current |
 | performed work part | work occurrence relation with evidence and timing | `A.15.1` |
@@ -34814,7 +34879,7 @@ Source graph: `Prep -> Weld -> Paint`.
 
 If the graph describes a method or process view, use the patterns that define the method, description, and order claims. If it describes performed Work, use A.15.1 with occurrence identity, timing, evidence, and the exact Work relation. Do not let the same graph do both jobs.
 
-### B.1.1:5.1 - Bias-Annotation
+### B.1.1:6 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
@@ -34823,7 +34888,7 @@ If the graph describes a method or process view, use the patterns that define th
 | External influence as parthood | Supply, measurement, teaching, source use, or control is drawn as a component relation. | Use the exact boundary-crossing, evidence, source-use, publication-use, transformation, supply, or control relation and its defining pattern. |
 | Design-description and run-occurrence collapse | A planned dependency graph is treated as evidence of performed work. | Separate design description, work occurrence, and evidence relations. |
 
-### B.1.1:6 - Conformance Checklist
+### B.1.1:7 - Conformance Checklist
 
 | Check | Requirement |
 | --- | --- |
@@ -34834,7 +34899,7 @@ If the graph describes a method or process view, use the patterns that define th
 | `CC-B1.1-5` | Design description, run occurrence, and evidence are not mixed; the record names their separate patterns and uses a DesignRunTag or equivalent scope discipline when needed. |
 | `CC-B1.1-6` | Graph checks are interpreted only through the selected relation's defining or testing rule and C.29 when the mathematical lens is relied on for the current claim. |
 
-### B.1.1:7 - Common Anti-Patterns and How to Avoid Them
+### B.1.1:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
@@ -34844,7 +34909,7 @@ If the graph describes a method or process view, use the patterns that define th
 | Order as component | A subsequent step is represented as a component of an earlier step. | Use the pattern that defines the order, method, description, or Work-occurrence claim. |
 | Acyclicity as adequacy | The graph has no cycles, so the model is accepted. | Check whether the selected relation is grounded and whether graph checks answer the current concern. |
 
-### B.1.1:8 - Consequences
+### B.1.1:9 - Consequences
 
 Positive consequences:
 
@@ -34859,22 +34924,22 @@ Costs:
 - Some compact dependency graphs need multiple relation layers or views.
 - Graph-based checks may need C.29 when the mathematical lens is relied on.
 
-### B.1.1:9 - Rationale
+### B.1.1:10 - Rationale
 
 Dependency language is useful exactly because it is broad. That breadth is also the danger. FPF keeps the breadth for recognition, then restores precision by separating relation kinds, selected structures, mathematical expressions, and publication forms.
 
 B.1.1 therefore does not abolish dependency graphs. It makes them honest: a graph represents a selected relation structure; each direct relation is grounded by the facts and rule that make it obtain.
 
-### B.1.1:10 - SoTA-Echoing
+### B.1.1:11 - SoTA-Echoing
 
 | Source line | Practical implication for this pattern |
 | --- | --- |
 | Systems engineering dependency modeling | Dependency views are useful only when edge meaning is declared and traceable to the current engineering concern. |
 | Graph theory and mathematical-lens practice | A graph property applies to the graph expression; it bears on the object only through an admitted mapping to the selected relation. |
-| Applied ontology relation discipline | Part-whole, membership, representation, evidence, source-use, and influence relations have different admissibility conditions. |
+| Applied ontology relation discipline | Part-whole, collection-specific belonging, representation, evidence, source-use, and influence relations have different admissibility conditions. |
 | FPF design-description and run-occurrence distinction | A design dependency expression and a performed-Work occurrence use separate patterns and evidence. |
 
-### B.1.1:11 - Relations
+### B.1.1:12 - Relations
 
 - **Builds on:** `B.1`, `A.1`, `A.14`, `C.13`, and `A.6.5`.
 - **Coordinates with:** `A.15.1` for work occurrence, `B.1.4` for contextual and temporal aggregation, `C.29` for graph as mathematical lens, `A.22` and `C.30` for selected structure and architecture, `C.30.AD` and `C.30.AD.BA` for architecture description and digital-twin cases.
@@ -35122,7 +35187,7 @@ B.1.2 preserves the engineering payoff by coordinating exact subject-pattern res
 * **Holonic foundation.** In the FPF, a `U.Episteme` is a holon whose identity is **knowledge-bearing** (A.1). It can be a **statement/claim**, a **model**, a **theory**, a **specification**, a **dataset with semantics**, or a **compiled claim-bearing synthesis**.
 * **Strict Distinction (A.15).** We separate:
   **structure** (what the episteme comprises), **order** (argument flow), **identity and history** (C.2.1 identities and edition relations), **proper temporal restriction** (A.14), **work** (what was spent to produce/validate it), and **values** (objectives/criteria). Γ\_epist stays in the **structure/semantics** lane and calls out to Γ\_ctx/Γ\_time/Γ\_work only after their direct inputs are recovered.
-* **Mereology (A.14).** For knowledge composition we primarily use **ConstituentOf** (logical/semantic parts), **UsageOf/ReferenceTo** (external reliance), and **MemberOf** for **collections** (anthologies, corpora). We do **not** use **ComponentOf** (physical) in Γ\_epist.
+* **Mereology (A.14).** For knowledge composition we primarily use **ConstituentOf** (logical or semantic parts), **UsageOf** or **ReferenceTo** (external reliance), and each collection's own belongs-to rule for collections such as anthologies or corpora. We do **not** use **ComponentOf** (physical) in Γ\_epist.
   `PhaseOf` may restrict the **same unchanged episteme** to a proper interval when its complete C.2.1 identity triple remains fixed. Distinct labelled versions or revisions require distinct C.2.1 identities when a discriminator changes and an independently obtaining `EpistemeEditionRelation` for any claimed historical continuation. Knowledge does not act and acquires neither a work-facing local system-role kind nor an assignment. Ordinary prose may say, for example, "the researcher synthesized the sources". If the receiving use does not identify that action as one particular dated `U.Work` occurrence, stop with the ordinary sentence. If it does, use the complete A.15.1/F.6 basis; a short local projection may omit an unused assignment identifier, but not the underlying assignment or attribution.
 * **Assurance (B.3).** Knowledge carries **F**, **G**, **R** (Formality, ClaimScope, Reliability). Integration edges carry **CL** (congruence level) that penalizes poor fit. Γ\_epist **must** preserve provenance and apply **conservative** bounds: no “truth averaging,” no silent context hops. **Obligations here are mode/assurance‑gated per C.2.1.**  # [M‑0]
 * **Order/time flavours.** Argument sequences may need **Γ_ctx** (non-commutative ordering of premises to conclusion). Knowledge evolution first uses C.2.1 to identify exact epistemes and any obtaining edition relations; B.1.4/**Γ_time** may then aggregate already recovered temporal restrictions, relation order, deprecation, or update windows for a bounded use. The aggregation creates neither identity nor continuity. Open B.2 only if the synthesis leaves a genuine whole-reidentification question after the existing-whole explanation check and identifies an exact candidate new whole; new wording or explanatory gain alone is not MHT.
@@ -35160,7 +35225,7 @@ Naive aggregation of knowledge holons causes recurring failures:
 
 > **Didactic reminders.**
 > • Knowledge does **not** act. A researcher or engineer may use it while performing Work. Recover the exact System and Work only when the receiving claim consumes them; use A.12 only when the acting-side distinction is itself current.
-> • **MemberOf** creates **collections**; it is not a semantic argument link. Use **ConstituentOf** for logical/evidential composition.
+> • A collection's own rule establishes which epistemes belong to it; belonging is not a semantic argument link and does not by itself make a holon. Use **ConstituentOf** for logical or evidential composition.
 > • `PhaseOf` is only a proper temporal restriction of one unchanged episteme. Changed C.2.1 discriminators identify another episteme; test `EpistemeEditionRelation` separately. Use MHT only for a remaining whole-reidentification question, not as a substitute for C.2.1 identity.
 
 #### B.1.3:4.2 - The operator family (companion flavours)
@@ -35175,7 +35240,7 @@ When one particular operation application matters, use A.6.1 for that applicatio
 Γ_epist^synth : ( D_know : DependencyGraph< U.Episteme > ) → U.Episteme
 ```
 
-* **Domain.** `D_know` designates exact source epistemes and their governed **ConstituentOf**, **UsageOf/ReferenceTo**, **evidences/derivesFrom**, and optional **MemberOf** relations, together with the mappings used by the fold. The graph represents those objects and relations; it does not make them obtain.
+* **Domain.** `D_know` designates exact source epistemes and the governed **ConstituentOf**, **UsageOf**, **ReferenceTo**, **evidences**, **derivesFrom**, and collection-specific belongs-to relations that obtain among them, together with the mappings used by the fold. The graph represents those objects and relations; it does not make them obtain.
 * **Result.** One synthesized episteme whose claim content, exact EntityOfConcern, and effective reference scheme satisfy C.2.1. Its ClaimGraph integrates the retained conceptual and symbolic content; its provenance and SCR keep every contributing source and carrier traceable; and its provisional F/G/R values use the declared CL inputs. **Gating:** at **M-mode** only tuple placeholders are required; numeric scoring may be omitted (`[M-0/M-1]`). At **F-mode** the tuple **MUST** be computable under the result's effective reference scheme (`[F-*,L1+]`). # [M/F]
 
 **Compilation (target-scheme fold).** Map one synthesized episteme into one exact target reference scheme.
@@ -35340,7 +35405,7 @@ When computing **Γ_epist^compile(E_synth, TargetScheme)**:
 
 | ID            | Requirement                                                                                                                                                         | Purpose                        |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| **CC‑B1.3.1** | Inputs to Γ\_epist MUST be `U.Episteme` holons; **ComponentOf** is forbidden; use **ConstituentOf / UsageOf / ReferenceTo**; **MemberOf** only for **collections**. | Prevent category errors.       |
+| **CC‑B1.3.1** | Inputs to Γ\_epist MUST be `U.Episteme` holons; **ComponentOf** is forbidden; use **ConstituentOf**, **UsageOf**, or **ReferenceTo** for their different claims; use a collection's own belongs-to predicate only for collections. | Prevent category errors. |
 | **CC‑B1.3.2** | Provenance and **SCR** MUST be preserved in the aggregate; dropping sources or methods is non‑conformant.                                                      | Enforce Evidence Graph Referring.    |
 | **CC‑B1.3.3** | Aggregate **R** MUST follow the **pathwise min** rule with **Φ(CL\_min)** penalties; no averaging of reliability.                                                   | Guard conservatism (WLNK).     |
 | **CC-B1.3.4** | Contradictions MUST NOT be smoothed by arithmetic; handle them by exact scope or interpretation-basis separation, **provisional** status, or B.2 only for a separately grounded whole-reidentification question. | Keep incoherence visible. |
@@ -35385,7 +35450,7 @@ When computing **Γ_epist^compile(E_synth, TargetScheme)**:
 
 ### B.1.3:11 - Relations
 
-* **Builds on:** C.2.1 (episteme identity and independently obtaining edition relations), A.6.1 (semantic operation declarations and exact application bindings), A.14 (ConstituentOf, MemberOf, and proper temporal restriction of one unchanged carrier), and A.15/A.15.1 (Strict Distinction and Work-temporal law). A.12 is used only when an acting-side distinction is current. An ordinary actor sentence needs no classification apparatus; any particular dated synthesis or compilation `U.Work` has the complete A.15.1/F.6 basis, even when its short local projection omits an assignment identifier unused by the receiver.
+* **Builds on:** C.2.1 (episteme identity and independently obtaining edition relations), A.6.1 (semantic operation declarations and exact application bindings), A.14 (ConstituentOf, collection belonging under each collection's own rule, and proper temporal restriction of one unchanged carrier), and A.15/A.15.1 (Strict Distinction and Work-temporal law). A.12 is used only when an acting-side distinction is current. An ordinary actor sentence needs no classification apparatus; any particular dated synthesis or compilation `U.Work` has the complete A.15.1/F.6 basis, even when its short local projection omits an assignment identifier unused by the receiver.
 * **Coordinates with:** B.1.1 dependency-structure and relation-grounding checks, B.1.4 (Γ\_ctx/Γ\_time inside knowledge folds), B.1.6 (Γ\_work for compute/collection spend).
 * **Coordinates with:** F.9 for exact cross-context Bridges and bounded-use claims; A.10 or B.3 for reliance; A.15.PROD when production, first existence, or completion is current; and E.17/E.24.PUB for publication, form, and carrier. B.2 is used only when exact construction facts leave a separate whole-reidentification question after the existing-whole explanation check.
 * **Used by:** B.3 assurance uses `F/G/R` and **CL** baselines computed here as inputs to trust calculations.
@@ -36151,7 +36216,7 @@ The ledger is a replay surface, not the source of the aggregation claim. For eve
 
 Measured, estimated, normalized, converted, allocated, and planned values remain visibly different. A planned value does not become a measurement result or performed-work resource use. A citation to a meter or invoice does not establish the measurement work; a ledger row does not establish work parthood or overlap.
 
-Use `PortionOf` only for an exact resource portion with its A.14 measure and additivity basis. Use `PhaseOf` only for a proper temporal restriction of one unchanged non-Work carrier after its direct identity rule and interval conditions hold. For Work, use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, or another admitted Work-part relation only between independently admitted Work participants after its exact predicate passes. Route interval overlap through C.27.TA. Use retry or resumption only through a locally declared species with exact participant meanings, predicate, identity, cardinality, and applicability; otherwise keep separately identified occurrences. `MemberOf`, common timestamps, shared identifiers, a phase label, or co-listing in the ledger establishes none of those relations.
+Use `PortionOf` only for a resource portion with its A.14 measure and additivity basis. Use `PhaseOf` only for a proper temporal restriction of one unchanged non-Work carrier after its direct identity rule and interval conditions hold. For Work, use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, or another admitted Work-part relation only between independently admitted Work participants after its predicate passes. Route interval overlap through C.27.TA. Use retry or resumption only through a locally declared species with the needed participant meanings, predicate, identity, cardinality, and applicability; otherwise keep separately identified occurrences. Belonging to a collection, common timestamps, shared identifiers, a phase label, or co-listing in the ledger establishes none of those relations.
 
 ### B.1.6:5 - Aggregation Rules
 
@@ -38208,18 +38273,18 @@ Knowledge frameworks that ignore time degrade silently. By embedding entropy acc
 > **Status:** Stable
 > **Type:** Pattern
 
-**At a glance.** Use B.3.5 when a human-facing Working-Model relation such as `ut:ComponentOf`, `ut:MemberOf`, `ut:PortionOf`, or `ut:AspectOf` needs an assurance grounding relation without exposing constructive machinery as the public vocabulary.
+**At a glance.** Use B.3.5 when a human-facing structural relation or a collection's own belongs-to relation has been selected for an additional assurance account without exposing constructive machinery as the public vocabulary.
 
-**Use this when.** Use this assurance profile when a publication has elected CT2R-LOG for a structural edge, or a named current requirement demands it, so the readable claim must also carry an author-declared `validationMode` and a `tv:groundedBy` link to a current C.2.1 construction-trace episteme. The trace reports independently grounded construction facts for inspection; it creates neither the relation occurrence nor the identity of the whole.
+**Use this when.** Use this assurance profile only when a publication choice or named current requirement elects it for a direct relation claim. State the readable relation first. After election, structural parthood and collection belonging follow separate trace and `validationMode` obligations. The trace reports independently grounded facts for inspection; it creates neither the relation occurrence nor the entity it describes.
 
-**What goes wrong if missed.** The readable relation layer and the constructive proof layer collapse into each other: either authors lose usable relation names, or reviewers cannot reconstruct why a structural edge should be trusted.
+**What goes wrong if missed.** The readable relation and its assurance account collapse: authors either lose usable relation sentences, treat collection belonging as parthood, prohibit separately grounded parthood by label, or make a trace look like the cause of the claim.
 
-**What this buys.** The alias-plus-grounding split: Working-Model relations stay canonical for communication, while CT2R-LOG carries the grounding channel and validation stance that E.24.UK can cite for structural U-kind admission.
+**What this buys.** Working-Model relations stay readable, while an elected assurance branch supplies the right inspectable account without changing the direct relation kind.
 
 **Not this pattern when.** Not this pattern when a direct relation claim is sufficient and no publication choice or current requirement elects this assurance profile. Also not this pattern when the current question is how to construct the trace (`C.13`), which mereology relation kind is intended (`A.14`), whether a new holon exists (`B.2`), or whether a candidate name deserves durable U-kindhood (`E.24.UK`).
 
 > **One‑line summary.**
-> CT2R-LOG treats the everyday **Working-Model relations**— **ut:ComponentOf**, **ut:MemberOf**, **ut:PortionOf**, **ut:AspectOf** —as the **public relation layer** for structure. When this assurance profile is elected, each covered structural claim also links to a **construction-trace episteme** and declares `tv:validationMode`. Authors keep using a short list of relations; reviewers can inspect the direct facts, construction rule, and identity conditions reported by the trace without treating that account as their cause.
+> CT2R-LOG keeps **ComponentOf**, ordinary belongs-to sentences, **PortionOf**, and **AspectOf** readable while respecting their different relation kinds. When this assurance profile is elected, structural parthood uses its applicable construction account; collection belonging uses a current `C.13 set` trace. Neither branch changes what makes the direct relation obtain, and neither trace decides whether a separate part relation is possible.
 
 ### B.3.5:1 - Intent
 
@@ -38231,10 +38296,10 @@ Knowledge frameworks that ignore time degrade silently. By embedding entropy acc
 **What changes when the profile is elected (auditor/ontologist view).**
 * Each covered published edge carries two additional commitments:
 
-  1. **`tv:groundedBy`** → points to a **reconstructible trace** (e.g., `Γ_m.sum`) whenever the edge is *structural*.
+  1. **`tv:groundedBy`** → points to the support required by the relation's branch: the applicable `sum` or `slice` trace for structural parthood, one current `C.13 set` trace for the collection's belongs-to relation, or an admissible argument or evidence object for another permitted claim.
   2. **`validationMode ∈ {axiomatic, inferential, postulate}`** → declares how the author justifies the assertion.
 
-This is the **alias‑plus‑grounding** split: **Compose‑CAL** builds the trace; **CT2R‑LOG** declares the alias pattern and links it; **Lang‑CHR** supplies the labels.
+The pattern that defines the relation still decides when it obtains. CT2R-LOG records the public alias, the branch-specific support link, and the declared assurance posture; Lang-CHR supplies the labels.
 
 ### B.3.5:2 - Problem Frame
 
@@ -38242,7 +38307,7 @@ B.3.5 exists where a readable Working-Model relation must remain usable by pract
 
 ### B.3.5:3 - Problem
 
-Declared sub-relations of `ut:PartOf` (e.g., **ComponentOf**, **MemberOf**) are easy to use but **not self-justifying**: their declaration alone does not show which exact participants and direct relation occurrences obtain, which construction rule applies, or which identity or reidentification rule governs the whole. Conversely, exposing construction traces everywhere makes the graph unreadable to non-specialists.
+Working-Model relations such as **ComponentOf** and an ordinary belongs-to sentence are easy to use but not self-justifying. Their declarations alone do not show which participants and occurrences obtain, which rule defines the relation, or what identifies the whole or collection. Conversely, exposing construction traces everywhere makes the graph unreadable to non-specialists.
 
 **We need**: a stable **public relation layer** for relations and, where this profile is elected, a required, **reconstructible** **grounding channel** plus a visible **validation intent** that downstream assurance can reason about. The direct relation layer does not depend on electing the profile.
 
@@ -38259,17 +38324,20 @@ CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
 1. **Alias link (concept‑level).**
    **Working-Model relations** (e.g., `ut:ComponentOf`) are the public names for their exact direct relation principles. **`tv:AliasOf`** may point from the public relation kind to that principle for comparison and reuse; the alias defines neither an occurrence nor a whole.
 
-2. **Grounding link (evidence‑level).**
-   Each **edge instance covered by this elected profile** carries **`tv:groundedBy`**:
+2. **Grounding link (assurance level).**
+   Each relation assertion covered by this elected profile carries `tv:groundedBy` according to its direct relation kind:
 
-   * **REQUIRED** for each **published structural edge covered by the profile** (a sub-property of `ut:StructPartOf`): the target is one current C.2.1 construction-trace episteme in the `sum`, `set`, or `slice` form. It names the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions already grounded under their direct patterns. **Set** `validationMode=axiomatic`; **`postulate` SHALL NOT be used for a structural edge within this profile**. Neither the link nor the mode makes those facts obtain.
-   * **Optional** for **epistemic edges** (e.g., `ConstituentOf`, `RepresentationOf`): if no `Γ_m` trace is appropriate, attach an **evidence object** whose admissibility is governed by the declared **`validationMode ∈ {inferential, postulate}`** (assurance rules).
+   * **Structural parthood** (`ComponentOf`, `PortionOf`, or `AspectOf`) requires one current C.2.1 construction-trace episteme in the applicable `sum` or `slice` form and `validationMode=axiomatic`. `postulate` is not available for this branch.
+   * **Collection belonging under the collection's own rule** requires one current C.2.1 `C.13 set` trace and `validationMode=axiomatic`. The trace reports the collection, the entity, the already established relation, the rule for belonging, and the identity conditions. It does not make the entity a constructive part, make belonging obtain, or prove that separately grounded parthood is impossible.
+   * **Other epistemic or constitutive edges** may use an admissible evidence object or logical argument under `validationMode ∈ {inferential, postulate}` when no constructive trace is appropriate.
 
-2. **Validation flag (author intent).**
-   Every edge or aggregation rule covered by this profile carries **`tv:validationMode`** with one of:
+3. **Validation flag (author intent).**
+   Every relation or aggregation rule covered by this profile carries `tv:validationMode` with one of:
    * **`postulate`** — pragmatic working claim backed by observations;
-   * **`inferential`** — reasoned consequence (proof outline);
-   * **`axiomatic`** — the author declares that one inspectable construction account is the assurance basis for the assertion. This is an assurance posture, not a species of world-side relation and not an identity or timelessness guarantee.
+   * **`inferential`** — reasoned consequence with a followable argument; or
+   * **`axiomatic`** — one inspectable construction account is the declared assurance basis.
+
+The direct branch above selects which modes and grounding targets are allowed. The flag is an assurance posture, not a species of world-side relation and not an identity or timelessness guarantee.
 
 > **F–G–R alignment.**
 > **F** (the published relation claim): `:PumpA ut:ComponentOf :Skid12`.
@@ -38304,19 +38372,19 @@ When an inadequate working account requires general diagnostic recovery of the e
 ### B.3.5:5 - Vocabulary & notation (normative)
 
 * **Working-Model relations (front‑stage).**
- `ut:ComponentOf`, `ut:PortionOf`, `ut:AspectOf` are **publication-grade** sub-properties of `ut:StructPartOf` **(structural)**; `ut:MemberOf` is a sub-property of `ut:EpiPartOf` **(epistemic)**.
+ `ut:ComponentOf`, `ut:PortionOf`, and `ut:AspectOf` are publication-grade structural relations under their direct A.14 rules. A collection uses the belongs-to predicate defined by the pattern for that collection; FPF has no public generic `ut:MemberOf` relation. Belonging is not a sub-property of `ut:PartOf`, `ut:StructPartOf`, or `ut:EpiPartOf`, but the same entities may separately stand in a constructive part relation when its own rule and all six A.1 matters pass.
 
 * **Alias principle (lexical).**
   `tv:AliasOf` links a **public relation type** to the exact direct relation principle whose reading it carries (for example, `ComponentOf` points to the direct structural-component principle). The alias supports comparison; it neither defines an occurrence nor says that a `sum` expression produced the relation.
 
 * **Grounding (per‑edge).**
- When this profile is elected for a published structural relation assertion, `tv:groundedBy` **MUST** point to one current C.2.1 construction-trace episteme in the `sum`, `set`, or `slice` form (**set** `validationMode=axiomatic`). For epistemic assertions covered by the profile it **MAY** point to an evidence object or a logical proof under `validationMode ∈ {inferential, postulate}`. The target supports replay of the assertion's basis; it creates neither the direct relation occurrence nor whole identity.
+ When this profile is elected for structural parthood, `tv:groundedBy` points to the applicable current C.2.1 construction trace and `validationMode=axiomatic`. When elected for collection belonging, it points to one current `C.13 set` trace under the collection's own rule and also uses `validationMode=axiomatic`. Other epistemic or constitutive claims may use a logical argument or evidence object under their permitted mode. Every target supports replay of the assertion's basis; it creates neither the direct occurrence nor entity identity.
 
 * **Trace family.**
-  `Γ_m.sum`, `Γ_m.set`, and `Γ_m.slice` are the only C.13 narrative forms used for structural grounding accounts here. Their claim content reports assembly, collection, or aspect facts already governed elsewhere; no temporal or workflow form is added.
+  `Γ_m.sum`, `Γ_m.set`, and `Γ_m.slice` are the C.13 forms used by the covered branches. `sum` and `slice` report structural-parthood constructions; `set` reports an already grounded collection and the belongs-to occurrences established under its own rule. No form creates the facts it reports, and no temporal or workflow form is added.
 
 * **Validation flag.**
- `tv:validationMode ∈ {postulate, inferential, axiomatic}` is **required** on every edge or aggregation rule covered by this profile; **for structural edges in the profile `postulate` is disallowed**. A direct relation claim outside the profile has no B.3.5 field obligation.
+ `tv:validationMode ∈ {postulate, inferential, axiomatic}` is required on every claim covered by this elected profile. Structural parthood and collection belonging use `axiomatic` with their branch-specific current trace. A direct relation outside the profile has no B.3.5 field obligation.
 
 ### B.3.5:6 - Archetypal Grounding - Running example
 
@@ -38336,17 +38404,23 @@ When the same team asserts `:MassFlowRepresentation RepresentationOf :FlowModel`
 
 Result: **one** visible relation for engineers, **two** assurance references for reviewers.
 
+**Collection case — Fleet North.** First publish the ordinary sentence: “Vehicle 12 belongs to Fleet North under its registration rule.” Under that rule, the occurrence begins when Fleet North accepts the vehicle's registration, ends on withdrawal or transfer, and a later accepted registration begins another occurrence. If no current publication choice or requirement elects this profile, the direct sentence is sufficient and the author stops.
+
+Here the fleet publication elects the profile. It links the assertion to one current C.13 `Γ_m.set` trace that names Fleet North and its identity rule, Vehicle 12, the obtaining registration occurrence, the registration rule, and its ending and recurrence conditions; it declares `validationMode=axiomatic`. If a vehicle enters or leaves the fleet, or the rule changes, the earlier trace remains an account of its earlier state but is not current support for the later assertion. The register and trace report the relation; neither creates it. They prove neither `ComponentOf` nor that a separately grounded constructive part relation is impossible.
+
 ### B.3.5:7 - Author Standard (at a glance)
 
 When you add or import a relation edge:
 
-1. **Pick a Working‑Model relation** (ComponentOf/MemberOf/…); avoid raw `ut:PartOf` unless you are drafting meta‑level axioms. If no current publication choice or requirement elects CT2R-LOG, publish that direct claim and stop.
+1. **Pick a Working-Model relation sentence** such as “Impeller ComponentOf Pump” or “Vehicle 12 belongs to Fleet North under its registration rule”; avoid raw `ut:PartOf` unless you are drafting meta-level axioms. If no current publication choice or requirement elects CT2R-LOG, publish that direct claim and stop.
 
 2. **When CT2R-LOG is elected, attach `tv:groundedBy`**:
 
-   * Structural and covered by the profile? → **must** be a `Γ_m` trace ID.
-   * Epistemic? → `Γ_m` trace *or* evidence object.
-3. **For a covered claim, declare `tv:validationMode`** (**postulate** / **inferential** / **axiomatic**).
+   * Structural parthood → the applicable current construction trace and `validationMode=axiomatic`.
+   * Collection belonging under the collection's own rule → one current `C.13 set` trace and `validationMode=axiomatic`.
+   * Another permitted epistemic or constitutive claim → the branch's logical argument or evidence object and allowed mode.
+3. **Declare the selected `tv:validationMode`** for every covered claim.
+
 
 > **What managers see:** nothing new in the graph picture.
 > **What auditors get:** a reliable trail from every edge covered by the elected profile back to its inspectable construction or evidence account.
@@ -38363,7 +38437,7 @@ When you add or import a relation edge:
 
 #### B.3.5:9.1 - Vocabulary and meanings in this pattern
 
-* **Working-Model relation.** A human-oriented statement an engineer would naturally write, using public relation kinds such as `ut:ComponentOf`, `ut:PortionOf`, `ut:AspectOf`, `ut:MemberOf`. This is the **canonical public relation layer** for structure for readers and reviewers in Part B. (Didactic primacy governs this choice.)
+* **Working-Model relation.** A human-oriented direct relation statement using a public name such as `ut:ComponentOf`, `ut:PortionOf`, or `ut:AspectOf`, or an ordinary sentence such as “this edition belongs to this product series.” It is the canonical public layer for readers; the direct pattern keeps the relation meaning fixed.
 
 * **Assurance Layer.** Three complementary assurance modes an author MAY attach:
 
@@ -38390,7 +38464,7 @@ When you add or import a relation edge:
 #### B.3.5:9.2 - Normative rules (MUST/SHALL clauses for thinking‑and‑writing)
 
 **S‑1 (Working-Model first).**
-Authors **SHALL** state structural claims in the **Working-Model** form (`ut:*Of` relations). This is the canonical relation vocabulary for human readers and cross-disciplinary teams. Assurance accounts remain below that public layer. Electing this profile adds its trace and mode obligations to the covered assertions; it is not a precondition for direct relation use.
+Authors **SHALL** state each covered direct relation claim in Working-Model form. Assurance accounts remain below that public layer. Electing this profile adds branch-specific trace and mode obligations; it is not a precondition for direct use.
 
 **S‑2 (Alias declaration).**
 If a Working‑Model relation follows a known general principle, the author **SHOULD** declare `tv:AliasOf <Principle>`, thereby making the intended *use‑pattern* explicit for reviewers and future readers. (This improves comparability without introducing extra formality.)
@@ -38398,18 +38472,22 @@ If a Working‑Model relation follows a known general principle, the author **SH
 **S‑3 (Grounding by mode).**
 For every relation instance covered by an elected B.3.5 profile, the author **MUST** set `validationMode` and follow the corresponding grounding stance:
 
-* **S‑3.a `postulate`.** The author **MAY** omit `Γ_m` grounding; the relation stands as a pragmatic working claim within a stated scope. The author **SHOULD** supply brief empirical cues (where the claim tends to hold) to ease later validation. (Empirical Validation is tracked in B.3.)
+* **S‑3.a `postulate`.** For a branch that permits it, the author may omit constructive grounding, state the working scope, and give the empirical cues that would challenge the claim.
 
-* **S‑3.b `inferential`.** The author **SHALL** outline a *reasoned chain* (plain‑language steps) that makes the relation a consequence of previously admitted statements. No formal calculus is required in this pattern; the outline must be sufficient for a peer to follow. (Think KD‑CAL stance, conceptually.)
+* **S‑3.b `inferential`.** For a branch that permits it, the author gives a short reasoned chain from admitted statements that a peer can follow.
 
-* **S‑3.c `axiomatic`.** The author **SHALL** provide a constructive grounding account in one of the `Γ_m.sum | Γ_m.set | Γ_m.slice` forms and **SHALL** link the published assertion to its current C.2.1 trace episteme with `tv:groundedBy`. A competent peer must be able to recover the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions without introducing new primitives. The account supports inspection; it creates none of those facts.
+* **S‑3.c `axiomatic`.** The author links the assertion to the current C.2.1 trace episteme required by its branch. A competent peer can recover the exact participants, direct relation occurrence, applicable rule, and identity or reidentification conditions. The account supports inspection; it creates none of those facts.
 
-* **S-3.d Structural constraint.** For **published structural assertions covered by this profile**, `tv:groundedBy → Γ_m.*` is **REQUIRED** and `postulate` **MUST NOT** be used. This is an assurance-publication requirement inside the elected profile, not a rule that the trace or mode makes the direct relation obtain.
+* **S‑3.d Structural parthood.** A covered `ComponentOf`, `PortionOf`, or `AspectOf` assertion requires `validationMode=axiomatic` and the applicable current C.13 construction account; `postulate` is not available.
+
+* **S‑3.e Collection belonging.** A covered belongs-to assertion uses the rule defined for that collection and requires `validationMode=axiomatic` and one current C.13 `set` trace. The trace reports already established belonging and collection identity. A logical argument or evidence object may support the inclusion decision separately, but neither substitutes for the elected set trace, turns belonging into parthood, or prohibits a separately grounded part claim.
 
 **S-4 (Relation-kind sense-making).**
-* For **structural** subtypes of `ut:StructPartOf` (Component/Portion/Aspect), an assertion covered by the elected profile requires one linked construction account and cannot use `postulate` (see S-3.d). A direct assertion outside the profile remains usable without those assurance fields. In either case, the direct relation pattern governs whether the occurrence obtains and how it is identified.
+* For structural `ComponentOf`, `PortionOf`, and `AspectOf` claims, the elected profile requires the applicable current construction account and `validationMode=axiomatic`.
 
-* For **epistemic/constitutive** links (e.g., representation, usage), constructive grounding is **OPTIONAL** in all stances; authors prefer *inferential* or *postulate* with empirical cues.
+* For collection belonging, the elected profile requires one current `C.13 set` trace and `validationMode=axiomatic`. The collection's own rule still decides whether the occurrence obtains.
+
+* For other epistemic or constitutive links, constructive grounding remains optional and the branch may prefer inferential or postulate reasoning with empirical cues.
 
 **S‑5 (Order and time are not mereology).**
 Authors **SHALL NOT** encode execution order, parallelism, or temporal slicing as part‑whole. Such concerns belong to `Γ_method` and `Γ_time` families and **SHOULD** appear as method/time statements adjacent to, not inside, Working‑Model structure. (This prevents conceptual leakage between planes.)
@@ -38439,13 +38517,14 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 **M‑1.** State the relation in **Working‑Model** form (e.g., “Impeller `ComponentOf` Pump”).
 **M‑2.** If a publication choice or named current requirement elects this profile, pick `validationMode`; otherwise keep the direct relation claim and stop:
 
-* For a **non-structural** claim that is still exploratory → choose **postulate**; add one-sentence scope and the empirical cues that would challenge it.
-* If you’re justifying from known statements → choose **inferential**; list the 2–4 steps in plain language.
-* If a published structural assertion requires the **axiomatic** assurance posture → link one short C.2.1 construction account and state the direct identity or reidentification rule it reports.
+* For a permitted exploratory claim, choose **postulate** and state scope plus challenge cues.
+* For a permitted conclusion from known statements, choose **inferential** and list the short argument.
+* For structural parthood covered by the profile, choose **axiomatic** and link the applicable current construction account.
+* For collection belonging covered by the profile, choose **axiomatic** and link one current `C.13 set` trace that reports the already established relation under the collection's own rule.
 
-**M‑3.** Add `tv:AliasOf` only when a named direct relation principle helps reviewers recognize the intended reading (for example, `ComponentOf` points to the structural-component principle); do not alias the relation to the result of a constructor expression.
+**M‑3.** Add `tv:AliasOf` only when a named direct relation principle helps reviewers recognize the intended reading; do not alias the relation to a constructor result.
 **M‑4.** Keep *order/time* adjacent, not embedded: if you need “assembled in two parallel lines”, write that as a **method/time** statement next to the structure, not as a part‑of edge.
-**M‑5.** Stop when the *reader can follow without guessing*. This is the stopping rule for Quarter 2: clarity before formality. (Didactic primacy.)
+**M‑5.** Stop when the selected readable relation and remaining non-use boundary are clear and, if this profile is elected, its validation mode and required current support are recoverable without guessing.
 
 ### B.3.5:10 - Bias-Annotation (auditable, human-first)
 
@@ -38454,11 +38533,11 @@ The purpose of this section is to make **typical cognitive slips** visible and n
 | Bias (name)                     | Symptom in the model                                                                                                          | Cognitive counter‑move (conceptual only)                                                                                                                                                                          | Where to check                                                       |
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | **Formalism capture** | A trace, constructor expression, or `validationMode` is treated as the source of the direct relation or whole identity. | Recover the exact participants, direct relation occurrences, construction rule, and identity or reidentification rule first. Treat the trace as a current C.2.1 account and the mode as the author's assurance posture. | CC‑CT2R‑1, CC‑CT2R‑2, CC‑CT2R‑3; C.13 trace separation. |
-| **Canonical inversion**         | Demanding B.3.5 fields before a direct relation can be used, or demanding constructive grounding for epistemic claims by default. | Keep **progressive assurance**: use the direct relation first. When B.3.5 is elected, declare `validationMode ∈ {postulate, inferential, axiomatic}`; reserve *axiomatic* with **Constructive** grounding for structural claims covered by the profile, and use **Logical/Mapping**/**Empirical** where appropriate. Express formality via **F** (C.2.3), not tiers. | CC-CT2R-2; B.3.3 relation-kind discipline & validation modes. |
+| **Canonical inversion** | B.3.5 fields are demanded before direct use, or one assurance branch is imposed on every relation. | Use the direct claim first. After election, use the applicable branch: structural parthood or collection belonging takes its required axiomatic trace; other permitted claims may use inferential or postulate support. | CC-CT2R-2, CC-CT2R-3, CC-CT2R-5. |
 | **Order/time leakage**          | Encoding sequence or phase as part‑whole edges.                                                                               | Apply **Strict Distinction**: order/time belong to Γ\_method and Γ\_time, not to mereology or CT2R relations.                                                                                                       | B.3 “keep order/time in their own lanes”; cross‑ref Γ\_ctx/Γ\_time.  |
 | **Notation lock‑in**            | Letting a diagram or syntax define the meaning (“it’s true because the diagram says so”).                                     | Enforce **Notational Independence**: meaning is defined in prose/maths; renderings are illustrative only.                                                                                                         | Part E guard‑rail on notational independence.                        |
 | **Congruence blindness**        | Composing strong parts through weak mappings without acknowledging the fit penalty.                                           | Make **edge‑fit first‑class**: reason about Congruence Level (CL) on connections; penalise low fit conceptually.                                                                                                  | B.3 universal aggregation skeleton (Φ(CL)); anti‑patterns list.      |
-| **Collection/composition swap** | Using **MemberOf** to stand in for **PartOf** (or vice versa), then carrying over reliability as if it were a structural sum. | Re‑separate **MemberOf** (collections) from **part‑whole** mereology; read A.14 notes in Γ\_epist context.                                                                                                        | Γ\_epist context / A.14 compliance.                                  |
+| **Collection/composition swap** | A belongs-to predicate is used as `PartOf`, or a part claim is used as collection belonging, and reliability is carried over as if both were one construction. | State collection belonging and constructive parthood separately under A.14. When both obtain, keep both claims and their different `set` and `sum` accounts. | A.14 and C.13. |
 | **DesignRunTag chimera**          | Mixing design‑time and run‑time evidence into one “assurance” line.                                                           | Split the **scope** of the claim: `S ∈ {design, run}`; compare side‑by‑side rather than merging.                                                                                                                  | B.3 typed claim tuple & anti‑pattern “DesignRunTag chimera”.           |
 
 > **Reader reminder.** Bias audit is a **reading aid**. It never licenses tooling talk in Core; use the guard‑rails in Part E to keep semantics primacy and unidirectional dependence of layers.
@@ -38471,10 +38550,11 @@ The following obligations regulate **how to think and write** CT2R content. They
 | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **CC-CT2R-1 (Canonical-first).**                | A relation published for readers **SHALL** be stated in Working-Model terms (`ut:*Of`) as the canonical form; any constructive or logical justification is recorded as **grounding** (not as the definition).                                         | Preserve human-first canon and didactic primacy.                          |
 | **CC‑CT2R‑2 (Mode declaration).**               | For every relation or rule covered by an elected B.3.5 profile, the author **SHALL** declare `tv:validationMode ∈ {postulate, inferential, axiomatic}` in prose. A direct relation outside the profile needs no B.3.5 mode. | Make elected assurance intent explicit without taxing ordinary direct use. |
-| **CC‑CT2R‑3 (Structural axiomatic grounding).** | A published structural assertion covered by the profile **SHALL** link to one current C.2.1 construction-trace episteme in a `sum`, `set`, or `slice` form. The account names independently grounded participants, direct relation occurrences, construction rule, and identity or reidentification conditions; it creates none of them. | Tie the elected axiomatic assurance posture to an inspectable account without making assurance apparatus a truth-maker. |
+| **CC‑CT2R‑3 (Structural axiomatic grounding).** | A covered structural parthood assertion uses `validationMode=axiomatic` and links to its applicable current C.2.1 `sum` or `slice` construction trace. The account reports independently grounded participants, occurrences, rule, and identity conditions; it creates none. | Make elected structural assurance inspectable without turning it into a truth-maker. |
 | **CC‑CT2R‑4 (No order/time in parts).**         | Authors **SHALL NOT** encode order (`Serial/Parallel`) or phase/time as part‑whole relations; handle them via `Γ_method` / `Γ_time` when relevant to the claim.                                                                               | Maintain the structure/order/time firewall.                               |
-| **CC‑CT2R‑5 (Collection vs part).**             | Authors **SHALL** keep **MemberOf** (collections) distinct from **PartOf** (structure) and refrain from carrying reliability as if membership implied structural composition.                                                                 | Prevent category errors flagged in B.3 anti‑patterns.                     |
-| **CC‑CT2R‑6 (Fit is explicit).**                | Where mappings or alignments matter, the author **SHALL** reason about **fit** explicitly (Congruence Level, conceptually) and acknowledge that weak fit reduces the effective reliability of any composed claim.                             | Keep integration quality first‑class.                                     |
+| **CC‑CT2R‑5 (Collection vs part).** | Authors keep collection belonging under the collection's own rule distinct from every `PartOf` branch. A direct claim needs no profile fields; after B.3.5 election it uses `validationMode=axiomatic` and one current `C.13 set` trace. If constructive parthood also obtains, state and support that claim separately. | Prevent category errors without taxing ordinary belongs-to prose or prohibiting a stronger independently grounded claim. |
+| **CC‑CT2R‑5a (Set trace reports).** | The elected set trace names the collection, the entity said to belong, the already established occurrence, the collection's own belongs-to rule, and the identity conditions. It creates none of them and supplies no structural-composition reliability. | Keeps optional assurance from becoming ontology. |
+| **CC‑CT2R‑6 (Fit is explicit).** | Where mappings or alignments matter, the author **SHALL** reason about fit explicitly and acknowledge that weak fit reduces the effective reliability of a composed claim. | Keep integration quality first-class. |
 | **CC‑CT2R‑7 (Notational independence).**        | Core meaning **MUST NOT** hinge on any specific diagram or syntax; illustrative renderings, if present, are labelled *informative*.                                                                                                           | Ensure longevity and cross‑discipline portability.                        |
 | **CC‑CT2R‑8 (Layer direction).**                | Grounding flows **downwards** from Working‑Model to Assurance layers (Mapping/Logical/Constructive). Authors **SHALL** avoid back‑defining the canonical relation by its Mapping, Logical, Constructive, or Empirical grounding.                                                  | Preserve unidirectional dependence of layers.                             |
 | **CC‑CT2R‑9 (Scope split).**                    | When assurance is discussed, authors **SHALL** state the **typed claim** and **scope** `S ∈ {design, run}` and keep them distinct in reasoning.                                                                                               | Prevent DesignRunTag chimeras.                                              |
@@ -38484,7 +38564,7 @@ The following obligations regulate **how to think and write** CT2R content. They
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
 | Trace as relation or truth-maker | A `Gamma_m` trace is treated as the public relation, as proof that the relation obtains, or as the source of whole identity. | Keep the Working-Model relation canonical; recover the direct relation facts and reidentification rule independently; attach the trace only as their inspectable C.2.1 account. |
-| Unchecked relation label or mode | A familiar part-whole label or `axiomatic` flag is published as though either settled relation obtaining or identity. | State and test the direct relation claim first. When B.3.5 is elected, add the author-declared mode and linked construction account. Stop when any required world-side fact is missing. |
+| Unchecked relation label or mode | A familiar relation label or `axiomatic` flag is published as though either settled relation obtaining or identity. | State and test the direct relation first. When B.3.5 is elected, add the branch-specific mode and support account. Stop when a fact required by the direct pattern is missing. |
 | Order/time leakage | Assembly sequence, phase, or parallel work is encoded as a part-whole edge. | Keep order, method, and temporal claims adjacent to the structural edge; do not turn them into mereology. |
 | Assurance by notation | A diagram, graph display, or data format is treated as if it made the relation true. | Treat representations as publication forms; keep the relation claim, grounding relation, and validation mode explicit. |
 
@@ -38492,7 +38572,7 @@ The following obligations regulate **how to think and write** CT2R content. They
 
 **Benefits**
 
-* **Cognitive clarity for authors and readers.** Working-Model relations remain canonical while assurance accounts stay beneath them. Structural assertions covered by an elected profile carry the required account without exposing it as the working vocabulary; ordinary direct claims remain lightweight. CT2R preserves a path to higher assurance while keeping order and time outside structure.
+* **Cognitive clarity for authors and readers.** Working-Model relations remain canonical while assurance accounts stay beneath them. Every claim covered by the elected profile carries only its branch-specific support account; ordinary direct claims remain lightweight. CT2R preserves a path to higher assurance while keeping collection belonging distinct from constructive parthood and order and time outside structure.
 * **Progressive assurance without tooling commitments.** The *postulate → inferential → axiomatic* assurance-posture progression lets teams raise assurance deliberately, matching their context and risk, in line with B.3.3’s maturity logic.
 * **Explicit fit management.** Treating edge‑fit (CL) as a first‑class concern prevents silent over‑confidence: weak mappings visibly cap reliability of composed claims.
 * **Cleaner separation of concerns.** Distinguishing collections from compositions and keeping sequence/time in Γ\_method and Γ\_time prevents recurrent category errors and preserves Γ‑algebra reviewability.
@@ -38508,38 +38588,48 @@ The following obligations regulate **how to think and write** CT2R content. They
 
 ### B.3.5:14 - Rationale (informative)
 
-**13.1 Why canonical‑first?**
+**14.1 Why canonical‑first?**
 CT2R-LOG treats the **human-readable, task-appropriate relation** (e.g., `ut:ComponentOf`) as the **canonical publication form** because that is what engineers and managers actually use to reason, decide, and communicate. The formal layers **ground** that form; they do not replace it. This is consistent with the authoring Standard in Part E (pattern template and style guide), which privileges **clarity, purpose and didactics** over premature formalism in the body text. Authors write *for people first*, then point to the kind of assurance they are invoking.
 
-**13.2 Why two `tv:` links—and why concept‑only?**
+**14.2 Why two `tv:` links—and why concept‑only?**
 `tv:AliasOf` and `tv:groundedBy` name **conceptual bridges** from a public Working-Model relation to its direct principle and assurance account. They mandate no notation. They keep authors explicit about the relation reading, the support being invoked, and when that support must be current, without letting an alias, trace, or mode define the world-side occurrence.
 
-**13.3 Why a triad of `validationMode`?**
+**14.3 Why a triad of `validationMode`?**
 The triad **{postulate, inferential, axiomatic}** expresses staged formality compatible with the FPF stance on staged assurance: start with what the team can responsibly claim now, then move to stricter justification where risk or context demands it. That gives reviewers a shared vocabulary for the declared assurance posture of a claim without changing the canonical relation itself.
 
-**13.4 Why keep order/time out of mereology?**
+**14.4 Why keep order/time out of mereology?**
 CT2R‑LOG aligns with A.14’s **firewall**: structure (parthood) is distinct from **order** and **temporal coverage**. The former is published as `ut:StructPartOf` sub‑relations; the latter live in `Γ_method` / `Γ_time` and must **not** be smuggled into part‑trees. This separation avoids classic modelling failures (temporal smearing, pseudo‑components for quantities) and keeps reasoning crisp across the Γ‑family.
 
-**13.5 Why point to `Γ_m.sum | set | slice` (Compose‑CAL) for constructive grounding?**
+**14.5 Why point to `Γ_m.sum | set | slice` (Compose‑CAL) for constructive grounding?**
 The three C.13 forms—**sum, set, slice**—are sufficient to report the recurring construction accounts for integrated assemblies, collections, and aspects without expanding the kernel. They are not identity functions. A truthful account carries exact participants, direct relation occurrences, the applicable rule, and identity or reidentification conditions: the same inputs under another assembly can form another whole, while a permitted replacement can preserve one whole.
 
-**13.6 Why mental obligations rather than process mandates?**
+**14.6 Why mental obligations rather than process mandates?**
 Part E requires that patterns define or constrain **thinking** and **authoring**; enforcement and automation, if any, are external concerns. CT2R‑LOG therefore states obligations as **self‑contained cognitive checks**: declare your mode; tell the constructive story only when you claim *axiomatic* strength; keep order/time in their places. This keeps the core specification **evergreen and tool‑agnostic**, as required.
 
 ### B.3.5:14.7 - SoTA-Echoing
 
-Constructive mereology, assurance-case practice, and model-based engineering all separate a readable working statement from the justification that supports it. B.3.5 carries that separation into FPF: relation names remain usable at the publication layer, while grounding and validation mode preserve the constructive or evidential basis needed for assurance.
+Checked 2026-08-25. Three source lines change this pattern's method; none supplies its ontology wholesale.
+
+| Source line | Adopt, adapt, or reject | Change in B.3.5 |
+| --- | --- | --- |
+| A.14's current constructional comparison | **Adopt** construction and identity before relation choice. **Reject** both a universal collection-membership predicate and any inference from belonging either to parthood or to the impossibility of parthood. | `S-3.d/e`, `CC-CT2R-3/5/5a`, and the Fleet North case keep collection belonging and a separately grounded part claim distinct. |
+| [ISO/IEC/IEEE 15026-2:2022, *Assurance case*](https://www.iso.org/standard/80625.html) | **Adapt** its separate, maintained assurance-case structure: an elected support account stays inspectable and current beside the claim it supports. **Reject** a mandatory full assurance case for every direct relation. The FPF-specific `validationMode` triad is only the author's declared posture; the standard is not cited as its source. | The Solution, `S-2/S-3`, B.3.4 currentness relation, and conformance rows require support only after profile election and keep claim, support, and posture separate. |
+| NIST's current [Digital Thread for Manufacturing](https://www.nist.gov/programs-projects/digital-thread-manufacturing) programme | **Adapt** traceable model-based information, validation, and conformance across engineering, manufacturing, and quality. **Reject** a shared model, thread, exchange, or passing syntax check as proof of a world-side relation. | `tv:groundedBy`, the trace-family rule, and the two worked cases keep the support account versioned and inspectable while the direct relation and its own rule decide what obtains; a trace or evidence item creates neither the relation nor its identity. |
+
+At comparable correctness and currentness, always exposing the heavier account costs more to write and read, while a bare direct sentence cannot meet an elected assurance need. B.3.5 therefore starts with one readable relation and adds one branch-specific account only when the publication elects the profile. The cost is that the relation assertion and its support must be checked for currentness separately.
+
+Reopen only the affected source row and rule if A.14 changes the construction/belonging decision, a later ISO 15026-2 edition changes assurance-case structure or maintenance, or newer model-based-engineering evidence demonstrates a lower-effort way to retain direct meaning, declared posture, traceability, and independent currentness. A changed member, rule, trace, or evidence item instead reopens the affected assertion; it does not by itself reopen this architecture.
 
 ### B.3.5:15 - Relations
 
 **Builds on**
-- **A.14 Advanced Mereology** — structural catalogue and the firewall that excludes system-role kinds, assignments, and recipes while distinguishing Portion, Phase, Component, and Constituent; CT2R‑LOG preserves these distinctions at publication time.
+- **A.14 Advanced Mereology** — supplies direct structural relations and the discipline for collection belonging under each collection's own rule and separately grounded parthood; B.3.5 adds only the assurance branch elected for the relation.
 - **A.11 Ontological Parsimony (C‑5)** — constructive grounding lives in a calculus; the kernel remains minimal.
 - **B.1 Universal Γ** — shared invariants and the placement of order/time in their respective Γ‑flavours.
 - **Part E authoring rules** — canonical pattern template and notational independence, which CT2R‑LOG explicitly follows.
 
 **Coordinates with**
-- **Compose-CAL (Γ_m)** — supplies the three-form construction account for **structural** relation assertions; CT2R-LOG's `tv:groundedBy` points to a current C.2.1 trace episteme in the `sum`, `set`, or `slice` form without making that trace the relation or its identity rule.
+- **Compose-CAL (`Γ_m`) and `C.13`** — supply current construction accounts for structural parthood and the `set` account for elected assurance of collection belonging. Each trace reports facts whose meanings and conditions come from the pattern that defines the relation.
 - **A.22.CGUS / StructuralCT2RTypingGroundingUnfoldingStructureBlock** — provides the local structural CT2R unfolding block when a constructive trace, working-model relation, target kind or logical representation, bridge, preserved structure, and loss must be inspected together; `A.7.1` is the pattern for general diagnostic return to a subject construction.
 - **KD‑CAL** — provides the **logical** shoulder (inferential justification) when authors pick `validationMode = inferential`.
 - **Kind-CAL / Lang-CHR** — provide the **mapping** shoulder (kind and relation-label alignment) governing alias policies without altering Working-Model relations.
@@ -43518,7 +43608,7 @@ C.3 counters lexical, locality, document, and ontology-growth bias. A familiar w
 | `CC-C3-5` | The governed condition named by the criterion decides membership. Evidentiary use alone does not constitute an independent condition, while directly criterion-bearing epistemes, statuses, and relations keep their own governors. |
 | `CC-C3-6` | Subkind facts follow C.3.1's criterion-entailment or exhaustive closed-domain branch and form a preorder; classification equivalence does not merge kind identities. |
 | `CC-C3-7` | Kind scope is absent; declaration and assertion scopes remain on their epistemes, and the slice remains an evaluation input. |
-| `CC-C3-8` | An extension is a representation of admissible true candidates, not `U.EntitySet`, A.14 `MemberOf`, a collection holon, or a direct relation occurrence. |
+| `CC-C3-8` | An extension is a representation of admissible true candidates, not `U.EntitySet`, a world-side collection-belonging claim, a collection holon, or a direct relation occurrence. |
 | `CC-C3-9` | C.3.3 is used only after distinct kinds and a proposed correspondence are independently established; same-kind reuse still gets a fresh receiving judgment. |
 | `CC-C3-10` | `U.Work`, exact `W : U.Work`, and any episteme about W remain distinct. |
 
@@ -43526,7 +43616,7 @@ C.3 counters lexical, locality, document, and ontology-growth bias. A familiar w
 
 * Treating a programming type, schema class, source ontology class, regulatory category, or ordinary noun as a durable public FPF U-kind.
 * Treating a `KindSignature` as the kind, or attaching its formality and claim scope to the kind.
-* Using A.14 `MemberOf` or minting a classification relation merely to state one judgment.
+* Using a world-side belongs-to predicate or minting a classification relation merely to state one judgment.
 * Treating evidence availability, a schema row, or a publication form as the fact that makes classification true.
 * Returning `false` when the criterion cannot be evaluated.
 * Treating `KindExtension` or mathematical set notation as ontology.
@@ -43925,7 +44015,7 @@ A kind may classify an already identified W. A kind symbol, work label, plan, or
 | `CC-C32-3` | Candidate mismatch or slice outside applicability yields `not-applicable` and no judgment; only admissible requests return `true`, `false`, or `unknown`. |
 | `CC-C32-4` | The directly governed condition named by the criterion decides satisfaction. Evidentiary use alone does not constitute an independently governed condition; an episteme, relation, status, or publication occurrence may be the condition when its direct pattern says so. |
 | `CC-C32-5` | Missing support or unavailable dependency for an admissible request yields `unknown`, distinct from known `false`. |
-| `CC-C32-6` | No A.14 `MemberOf`, `U.EntitySet`, collection holon, or direct classification occurrence is inferred from judgment or extension. |
+| `CC-C32-6` | No world-side collection-belonging claim, `U.EntitySet`, collection holon, or direct classification occurrence is inferred from judgment or extension. |
 | `CC-C32-7` | A separate classification assertion is a C.2.1 episteme and creates neither candidate nor kind. |
 | `CC-C32-8` | Subkind checks compare admissible judgments and use C.3.1's criterion-entailment or exhaustive closed-domain branch; samples only support an assertion. |
 | `CC-C32-9` | Locality change triggers kind-definition comparison. Only independently identified distinct kinds with an obtaining correspondence use C.3.3; receiving judgments remain fresh. |
@@ -43941,7 +44031,7 @@ A kind may classify an already identified W. A kind symbol, work label, plan, or
 | Returning `unknown` for a candidate outside ValueKind or applicability | Return `not-applicable` and form no judgment. |
 | Returning `false` for missing support | Preserve `unknown`; let the receiving guard decide whether to decline use. |
 | Treating any evidence item or record as membership | Ask whether the criterion directly concerns that governed episteme, relation, status, or publication occurrence. If not, keep it only as support. |
-| Reusing A.14 `MemberOf` or minting a relation by notation | Keep the result as a classification judgment unless a direct relation pattern is justified. |
+| Reusing a world-side belongs-to predicate or minting a relation by notation | Keep the result as a classification judgment unless a direct relation pattern is justified. |
 | Treating an extension or braces as ontology | Keep the candidate domain and extension as representations; use C.29 when claim-bearing. |
 | Attaching scope or formality to the kind | Keep them on their declaration or assertion epistemes. |
 | Editing an extension to hide a subkind counterexample | Repair the relation proposal, declaration alignment, or distinct-kind bridge. |
@@ -45706,42 +45796,42 @@ C.11 may cite `C.26` as the common quantum-like modeling lens only for the resid
 > **Status:** Stable
 > **Type:** Pattern
 
-**At a glance.** Use C.13 when a practitioner must show how exact constituents and obtaining part relations assemble one whole, collection, or aspect. The construction account explains the structural claim; writing a `sum`, `set`, or `slice` expression does not create the entities or relations.
+**At a glance.** Use C.13 when a practitioner must show how identified entities and relations that obtain form one whole, collection, or aspect. The account explains how those facts support the whole, collection, or aspect; writing a `sum`, `set`, or `slice` expression does not create the entities or relations.
 
-**Use this when.** Use this pattern after the direct part-relation patterns have identified the exact participants and obtaining occurrences, when you need a compact, inspectable account of how they assemble a whole, form a collection, or distinguish an aspect.
+**Use this when.** Use this pattern after the direct relation patterns have identified the participants and relations that obtain, when you need a compact, inspectable account of how they assemble a whole, form a collection, or distinguish an aspect.
 
-**First useful move.** Name the whole, collection, or aspect whose construction you must explain; then name its inputs, the part or membership relations that obtain, and the rule by which those facts form it. Choose `sum`, `set`, or `slice` as the shortest truthful construction narrative.
+**First useful move.** Name the whole, collection, or aspect whose construction you must explain; then name its inputs, the constructive part relations or the collection's own belongs-to relations, and the rule by which those facts form it. Choose `sum`, `set`, or `slice` as the shortest truthful construction narrative.
 
-**What goes wrong if missed.** A readable component, member, or aspect edge may lack an assembly account; or the opposite mistake occurs and a diagram, list, or `Γ_m` expression is treated as if it created a whole, a part relation, or a holon.
+**What goes wrong if missed.** A readable component, belongs-to, or aspect statement may lack its construction account; or the opposite mistake occurs and a diagram, list, or `Γ_m` expression is treated as if it created a whole, a relation, or a holon.
 
-**What this buys.** A compact three-form construction discipline that keeps integrated assembly, collection, and aspect distinct while leaving relation obtaining, whole identity, evidence, and public relation names with their direct governors.
+**What this buys.** A compact three-form construction discipline that keeps integrated assembly, collection, and aspect distinct while leaving relation conditions, whole identity, evidence, and public relation names with the patterns that define them.
 
 **Not this pattern when.** Not this pattern when the current question is only relation vocabulary, evidence or assurance without a structural claim, epistemic representation, a selected dependent `U.Structure`, temporal phase without an aspect claim, public-kind admission, or transformation composition without a direct transformation-composition governor.
 
 ### C.13:1 - Intent
 
-Provide one minimal calculus for narrating three kinds of construction: how constituents assemble an integrated whole, how members form a collection, and how a bearer is distinguished under one facet as an aspect. The calculus records how already identified entities and obtaining relations support that named whole, collection, or aspect. It is not a second source of part-relation obtaining and does not make any of them exist by notation.
+Provide one minimal calculus for narrating three kinds of construction: how constituents assemble an integrated whole, how entities form a collection under that collection's own belongs-to rule, and how a bearer is distinguished under one facet as an aspect. The calculus records how already identified entities and obtaining relations support that named whole, collection, or aspect. It is not a second source of relation obtaining and does not make any of them exist by notation.
 
 Also known as *“Γₘ mereology”* and *“constructor-based composition”*.
 
 **Layer.** *calculus.*
-**Depends on.** A.14 and the direct part-relation patterns for participant meanings, obtaining, and occurrence identity; the direct kind pattern for the candidate whole and its identity or reidentification rule.
+**Depends on.** A.14 and the direct relation patterns for participants, obtaining conditions, and occurrence identity; the direct kind pattern for the candidate whole and its identity or reidentification rule.
 **Consumed by.** A.1 when candidate holon recognition needs constructive assembly, B.3.5 when a named assurance use needs a structural grounding account, and subject patterns that need a compact construction narrative.
 
-Compose-CAL keeps exactly three narrative forms—`sum`, `set`, and `slice`. A materialized construction trace is a C.2.1 episteme about the construction facts. Its claims can designate exact entities, relation occurrences, rules, and identity conditions; the trace is neither the whole, collection, or aspect it describes nor a participant in the world-side part relations.
+Compose-CAL keeps exactly three narrative forms—`sum`, `set`, and `slice`. A materialized construction trace is a C.2.1 episteme about the construction facts. Its claims can designate entities, relation occurrences, rules, and identity conditions; the trace is neither the whole, collection, or aspect it describes nor a participant in the world-side relations.
 
 ### C.13:2 - Problem Frame
 
-FPF needs both readable structural relations and a recoverable account of how constituents assemble a whole, members form a collection, or a facet distinguishes an aspect. A part-relation name alone may leave the construction opaque. A constructor expression alone can commit the opposite error by treating syntax as the source of entities, relation obtaining, or whole identity.
+FPF needs both readable structural relations and a recoverable account of how constituents assemble a whole, entities form a collection under its belongs-to rule, or a facet distinguishes an aspect. A relation name alone may leave the construction opaque. A constructor expression alone can commit the opposite error by treating syntax as the source of entities, relation obtaining, or whole identity.
 
 ### C.13:2.1 - Problem
 
-A bare list of `ComponentOf`, `MemberOf`, or `AspectOf` claims does not say which assembly, collection rule, or facet makes them one construction. But a bare `sum`, `set`, or `slice` expression is no better: the same constituents can participate in different assemblies, a collection need not be an integrated holon, and an arbitrary facet label does not establish an aspect. The construction account must therefore name exact world-side facts and preserve the candidate's direct identity or reidentification rule.
+A bare list of `ComponentOf`, collection-specific belongs-to, or `AspectOf` claims does not say which assembly, collection rule, or facet makes them one construction. But a bare `sum`, `set`, or `slice` expression is no better: the same constituents can participate in different assemblies, a collection need not be an integrated holon, and an arbitrary facet label does not establish an aspect. The construction account must therefore name world-side facts and preserve the candidate's direct identity or reidentification rule.
 
 ### C.13:3 - Forces
 
 * **Parsimony vs truth.** Three construction forms are easier to reuse than an open constructor catalogue, but no form may replace a missing direct relation or assembly rule.
-* **Readable edge vs constructive account.** Practitioners need ordinary component, member, and aspect claims; reviewers may also need to inspect how those relations support the named whole, collection, or aspect.
+* **Readable statement vs constructive account.** Practitioners need ordinary component, belongs-to, and aspect statements; reviewers may also need to inspect how those relations support the named whole, collection, or aspect.
 * **Input set vs assembly.** The same entities can be assembled through different obtaining relations and can therefore yield different wholes.
 * **Continuity vs extensional snapshots.** Constituents and part-relation occurrences can change while the same whole continues when its direct reidentification rule permits the phase change.
 * **Construction vs evidence.** A trace states the construction account; evidence and assurance separately support or warrant the claim content.
@@ -45756,23 +45846,23 @@ Use the coarsest of three construction narratives that fits the named whole, col
 | Form | Practical reading | Facts required before the trace is truthful | What the form does not establish |
 | --- | --- | --- | --- |
 | `Γ_m.sum(parts)` | These exact constituents are assembled as this integrated whole. | one exact candidate whole; exact constituent entities; exact obtaining constructive part-relation occurrences; the assembly rule or method and its applicability; the candidate's identity or reidentification rule | that proximity, one drawing, a parts list, or the constituent set alone makes the whole; that every constituent change ends the whole |
-| `Γ_m.set(elems)` | These exact members form this collection under one collection identity rule. | one exact collection entity; exact members; exact obtaining membership occurrences; the collection identity rule | component integration, acting-system organization, agency, A.1 holonhood, or transitive membership |
+| `Γ_m.set(elems)` | These entities belong to this collection under the collection's own rule. | one identified collection; identified entities; the belongs-to occurrences that obtain; the collection's belongs-to and identity rules | that the notation creates the collection or relation; component integration, acting-system organization, agency, A.1 holonhood, constructive parthood, or transitive belonging |
 | `Γ_m.slice(entity, facet)` | This exact aspect is distinguished from this bearer under this facet. | one exact bearer; one exact aspect; the governed facet; an exact obtaining aspect or portion relation and its identity rule | an arbitrary view, time window, selected concern, or label becoming a world-side part |
 
 The familiar argument lists are readable shorthand, not complete ontological signatures. A complete use names the whole, collection, or aspect and states the direct facts beside the shorthand. Input order does not matter to the list of designated inputs, but assembly relations, rules, facets, and identity conditions do matter. The same input set under a different assembly can yield another whole.
 
-A construction may obtain in the world even when no trace episteme has been written. When another piece of work needs an inspectable trace, materialize a C.2.1 episteme whose claim content names the whole, collection, or aspect; its constituents, members, or bearer; the relation occurrences that obtain; the construction rule; and the identity conditions. Creating, editing, publishing, or losing that episteme changes the account or its availability, not the past or present construction facts.
+A construction may obtain in the world even when no trace episteme has been written. When another piece of work needs an inspectable trace, materialize a C.2.1 episteme whose claim content names the whole, collection, or aspect; its constituents, entities that belong, or bearer; the relation occurrences that obtain; the construction rule; and the identity conditions. Creating, editing, publishing, or losing that episteme changes the account or its availability, not the past or present construction facts.
 
 Do not add a fourth constructor merely to carry time, execution order, parallelism, representation, evidence, or a domain label. Keep those claims with their direct patterns beside the construction account.
 
 #### C.13:4.2 - Normative Standard (high‑level)
 
-* **C13-N1 — Direct facts first.** A C.13 trace is conformant only when every named constituent or member and every named part, membership, or aspect occurrence is independently identified under its direct pattern.
+* **C13-N1 — Direct facts first.** A C.13 trace is conformant only when every named constituent or collection entity and every named part, collection-belonging, or aspect occurrence is independently identified under its direct pattern.
 * **C13-N2 — Whole identity stays direct.** The candidate whole follows its direct identity and reidentification rule. Equality of an input list or trace does not decide whether the existing whole continues or a new whole must be identified; a permitted constituent replacement can preserve one whole, while the same constituents under another assembly can form another whole.
 * **C13-N3 — Construction form.** `sum`, `set`, and `slice` are the only C.13 forms. Reordering or duplicate designation does not change the listed inputs; it does not merge distinct entities or relation occurrences and does not erase assembly or facet differences.
 * **C13-N4 — Mereological discipline.** Direct part patterns and A.14 govern acyclicity, antisymmetry, transitivity where applicable, recurrence, and occurrence identity. C.13 does not strengthen a direct relation by calculus convention.
 * **C13-N5 — Trace separation.** A materialized trace is a C.2.1 episteme. It creates none of the following: the whole, collection, or aspect it describes; the inputs; the relation occurrences; the construction rule; the identity conditions; or holonhood.
-* **C13-N6 — Member is not component.** `set` supports a collection account; it does not imply integrated assembly, `ComponentOf`, system agency, or A.1 recognition. Use `sum` only when exact constructive part relations and assembly are independently grounded.
+* **C13-N6 — A collection account is not component assembly.** `set` supports a collection account; it does not imply integrated assembly, `ComponentOf`, system agency, or A.1 recognition. Use `sum` only when constructive part relations and assembly are independently grounded.
 * **C13-N7 — Elected assurance grounding stays with B.3.5.** A direct structural Working-Model edge may be published without a C.13 trace. When that publication elects B.3.5 or a named current requirement demands the profile, follow B.3.5 for the required `tv:groundedBy` link and declared `validationMode`; C.13 supplies the reconstructible trace content. Evidence, warrant, currentness, and reliance remain separate, and neither the link nor the mode replaces the direct construction or identity facts.
 * **C13-N8 — Subject owners remain authoritative.** Method, work, and discipline construction may use C.13 only after their direct patterns identify actual parts and whole-forming relations. A selected dependent `U.Structure` does not become a whole, collection, aspect, or holon by selection or name.
 * **C13-N9 — Transformation composition stays fail-closed.** A C.13 entity-construction trace, method decomposition, work decomposition, common changed referent, or temporal subdivision establishes neither transformation parthood nor a composite transformation. Without a direct transformation-composition governor, retain the independently identified changes and the exact blocker; infer neither composition nor atomism.
@@ -45790,7 +45880,7 @@ Use Compose-CAL when the current claim concerns the construction of one exact sy
 **Alias readiness.** These are common readable projections only when their direct relation meanings match the case:
 
 - `ComponentOf` may accompany a `sum` construction;
-- `MemberOf` may accompany a `set` construction and remains non-transitive unless its direct pattern says otherwise;
+- an ordinary belongs-to sentence may accompany a `set` construction; the collection's own pattern supplies its meaning, occurrence history, and any recurrence rule;
 - `AspectOf` may accompany a `slice` construction;
 - `PortionOf` needs the direct portion relation and metrical semantics in A.14, not a facet spelling alone;
 - `ConstituentOf` needs the direct logical or content-part relation; material mixtures use their exact portion or component owner.
@@ -45801,7 +45891,7 @@ The readable label and the trace answer different questions. The label states wh
 
 When a target kind or logical representation must reuse both a `Γ_m` construction account and an independently grounded Working-Model relation, use `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5`. C.13 contributes the account of the subject-side relations that actually obtain and states which mereological structure the target preserves or loses inside that B.3.5-governed local `A.22.CGUS` structure specialization. C.13 does not create separate unfolding-structure authority and does not by itself supply a bridge, kind intent, proof, empirical evidence, or admissible reuse. Apply `A.7.1`, rather than this structural CT2R block, when an inadequate working account must be diagnosed against the subject construction.
 
-Use this split especially when a readable relation label such as ComponentOf, MemberOf, AspectOf, ConstituentOf, or RepresentationOf is being reused beyond what its label warrants. The readable label does not by itself prove either constructive grounding or the wider structural projection. Name the construction trace and Working-Model relation, the target kind or logical representation, any bridge used, the structure preserved and collapsed, and the proof or evidence relation required by the stronger claim. If the evidence instead diagnoses a mismatch that requires revision of the working ontology, apply `A.7.1`.
+Use this split especially when a readable relation label such as ComponentOf, a collection's belongs-to predicate, AspectOf, ConstituentOf, or RepresentationOf is being reused beyond what its sentence warrants. The label does not by itself prove constructive grounding or a wider structural projection. Name the construction trace and Working-Model relation, the target kind or logical representation, any bridge used, the structure preserved and collapsed, and the proof or evidence relation required by the stronger claim. If the evidence instead diagnoses a mismatch that requires revision of the working ontology, apply `A.7.1`.
 
 ### C.13:5 - Archetypal Grounding
 
@@ -45815,9 +45905,9 @@ The same parts unconnected on a pallet do not form the skid. A bill of materials
 
 #### C.13:5.2 - Collection And Aspect
 
-A fleet register can identify one collection and exact membership occurrences. `Γ_m.set{Vehicle-1, Vehicle-2, ...}` narrates that collection only after the collection identity and memberships are governed. It establishes no vehicle integration, collective agency, acting system, or A.1 holonhood.
+A fleet register can identify one collection and the vehicles that belong to it under the registration rule. `Γ_m.set{Vehicle-1, Vehicle-2, ...}` reports that collection only after the fleet identity, registration rule, and each belongs-to fact have been established. It creates neither the fleet nor those facts. It establishes no vehicle integration, constructive parthood, collective agency, acting system, or A.1 holonhood. If the same candidate later passes all six A.1 matters, a separate `sum` account may report its independently grounded constructive parts and assembly.
 
-An inspection aspect of PumpSkid #7 can use `Γ_m.slice(PumpSkid-7, inspection-facet)` only when the exact aspect, facet, and direct aspect relation are governed. A dashboard view, selected concern, or time window is not that aspect by display.
+Reuse the filled Reactor-7 case in `A.14:5.3`: `Γ_m.slice(Reactor-7, thermal-boundary)` reports ThermalEnvelope-7, the insulation panels, seals, and boundary interfaces picked out by the thermal-boundary rule, the obtaining `AspectOf` occurrence, and the enclosure identity and ending conditions. A permitted panel replacement can preserve the aspect while requiring a current trace; dismantling the enclosure, changing the facet rule, or reidentifying Reactor-7 ends the reported occurrence. The slice reports these facts and creates none of them. A dashboard view, selected concern, or time window is not that aspect by display.
 
 #### C.13:5.3 - Episteme, Method, Work, And Discipline Holons
 
@@ -45835,7 +45925,7 @@ Mounting, wiring, fluid-connection, and configuration changes may each be indepe
 
 #### C.13:5.5 - Scope Justification
 
-The three forms recur across mechanical, biological, informational, method, work, and discipline cases because they keep three questions apart: integrated assembly, collection membership, and aspect distinction. Their reuse does not erase subject ownership. Order and timing remain with method and temporal patterns; evidence and warrant remain with assurance patterns; public kind admission remains with E.24.UK; the decision whether the existing whole continues or a new whole must be identified remains with the direct identity rule and B.2 when reidentification is current.
+The same three forms work across mechanical, biological, informational, Method, Work, and Discipline cases because they keep three questions apart: integrated assembly, collection belonging, and aspect distinction. Using them does not replace the patterns that define the particular entities and relations. Order and timing remain with Method and temporal patterns; evidence and warrant remain with assurance patterns; public kind admission remains with E.24.UK; the direct identity rule decides whether the existing whole continues or a new whole must be identified, with B.2 used when reidentification is current.
 
 ### C.13:6 - Bias-Annotation *(cognitive anti-patterns and counter-moves)*
 
@@ -45843,7 +45933,7 @@ The three forms recur across mechanical, biological, informational, method, work
 | --- | --- | --- |
 | **Constructor-centrism** | The trace is treated as the real structure and the direct relation as decorative. | Recover exact entities and obtaining direct relations first; use the trace only as their construction account. |
 | **Declaration-centrism** | A readable part edge is accepted without identifying the assembly, collection rule, facet, or identity conditions. | Name the whole, collection, or aspect and its construction facts, then add the shortest truthful trace. |
-| **Collection mistaken for composition** | `MemberOf` or `set` is used to infer an integrated assembly or acting system. | Keep collection identity and membership separate; use `sum` only with exact constructive part relations and assembly. |
+| **Collection mistaken for composition** | A belongs-to statement or `set` trace is used to infer an integrated assembly or acting system. | Keep collection identity and belonging separate; use `sum` only with independently obtaining constructive part relations and an assembly. The same candidate may have both accounts when both claims pass. |
 | **Snapshot extensionalism** | Any constituent replacement is taken to end the whole, or the same input set is taken to guarantee the same whole. | Apply the candidate's direct identity and reidentification rule; include assembly relations and conditions. |
 | **Temporal leakage** | Sequence, phase, or work order is encoded as structural construction. | Keep order and time with their direct method and temporal patterns. |
 | **Evidence-created structure** | A current drawing, trace, or evidence record is taken to make the assembly obtain. | Keep construction facts, trace claims, evidence, currentness, and receiving reliance separate. |
@@ -45860,9 +45950,9 @@ The following regulate a C.13 use.
 | **CC-C13-3 — Assembly-sensitive identity.** | Do not infer the identity of a whole, collection, or aspect from the input list alone; preserve assembly relations, rule conditions, and the direct reidentification law. | Distinguish the same inputs under different assemblies, and one whole surviving a permitted constituent change. |
 | **CC-C13-4 — No order or time by constructor.** | Keep execution order, parallelism, temporal coverage, and phase with their direct patterns. | Preserve the boundary among structural construction, temporal extent, and method order. |
 | **CC-C13-5 — Narratability.** | State the construction in ordinary language before or beside the shorthand. | Keep the construction usable without notation. |
-| **CC-C13-6 — Alias discipline.** | Use ComponentOf, MemberOf, AspectOf, PortionOf, or ConstituentOf only under the exact direct relation meaning; the trace does not define the alias. | Keep public relation semantics direct. |
+| **CC-C13-6 — Direct-relation discipline.** | Use ComponentOf, a collection's own belongs-to predicate, AspectOf, PortionOf, or ConstituentOf only with the meaning defined for that relation; the trace defines none of them. | Keeps public relation meanings with the patterns that define them. |
 | **CC-C13-7 — Trace separation.** | Treat a materialized trace as a C.2.1 episteme about construction; creating, publishing, losing, or revising it does not create or end the whole, collection, or aspect it describes. | Keep ontology and epistemics separate. |
-| **CC-C13-8 — Member is not component.** | A `set` construction establishes no integrated assembly, acting eligibility, or holonhood. | Prevent collection-to-system drift. |
+| **CC-C13-8 — Collection belonging is not component parthood.** | A `set` construction establishes no integrated assembly, acting eligibility, or holonhood. | Prevent collection-to-system drift. |
 | **CC-C13-9 — Facet explicitness.** | A `slice` use names the exact aspect, bearer, governed facet, direct relation, and identity rule; a temporal window is not a structural facet here. | Prevent arbitrary slicing. |
 | **CC-C13-10 — Subject owner.** | Apply C.13 to method, work, or discipline holons only after their direct patterns identify exact parts and whole-forming relations. | Permit accepted holon construction without generic decomposition. |
 | **CC-C13-11 — Published-edge boundary.** | A direct structural Working-Model edge remains usable without a trace. If its publication elects B.3.5 or a named current requirement demands that profile, the edge follows B.3.5 for the required trace link and validation mode; C.13 does not treat that publication apparatus as the world-side relation, assembly, or identity rule. | Keep direct use, construction, and elected publication assurance distinct. |
@@ -45873,7 +45963,7 @@ The following regulate a C.13 use.
 
 * **Constructor as public relation.** A `Γ_m` trace is shown as the relation the working reader should use. Keep the exact direct relation in ordinary prose and use the trace only for the construction account.
 * **Trace as cause.** A diagram, formula, parts list, or trace publication is said to create the assembly. Recover the actual inputs, obtaining relations, assembly, and identity rule.
-* **Member as component.** A `set` construction is used to infer integrated assembly structure. Keep collection membership distinct; use `sum` only after exact constructive part relations obtain.
+* **Item in a collection treated as a component.** A `set` construction is used to infer integrated assembly structure. Keep collection belonging distinct; use `sum` only after constructive part relations and assembly independently obtain.
 * **Same parts, same whole.** Two assemblies with the same component names are treated as one whole. Compare their obtaining relations, assembly rules, boundaries, and identity conditions.
 * **Temporal constructor drift.** A phase, schedule, or assembly order is modeled as a Compose-CAL constructor. Keep temporal and method claims in their own planes.
 * **Method or work shortcut.** Recipe steps, plan items, or WBS rows are called parts of an actual method or work occurrence. Use the direct method- or work-composition owner first.
@@ -45885,7 +45975,7 @@ The following regulate a C.13 use.
 
 - **Inspectable construction.** A practitioner can recover which exact inputs, relations, and rule support one assembly, collection, or aspect.
 - **Identity clarity.** The account distinguishes the input list from the assembly and keeps whole reidentification with the direct identity rule.
-- **Human-first use.** Ordinary ComponentOf, MemberOf, and AspectOf claims remain readable; notation is optional shorthand for a named construction use.
+- **Human-first use.** Ordinary ComponentOf, belongs-to, and AspectOf sentences remain readable; notation is optional shorthand for a named construction use.
 - **Plane separation.** Order, time, evidence, representation, kind admission, and receiving reliance keep their direct owners.
 - **Cross-domain reuse.** The same three forms can describe system, episteme, method, work, discipline, collection, and aspect cases without claiming one universal part relation.
 - **Truthful stops.** Missing direct part or transformation-composition governors remain visible instead of being hidden by a trace.
@@ -45905,7 +45995,7 @@ The following regulate a C.13 use.
 `sum`, `set`, and `slice` keep three recurring practitioner questions apart:
 
 - `sum` asks how exact constituents and constructive relations assemble an integrated whole;
-- `set` asks which exact members form a collection under one collection identity rule;
+- `set` asks which entities belong to a collection under that collection's identity and belongs-to rule;
 - `slice` asks which exact aspect is distinguished from one bearer under a governed facet.
 
 The forms are intentionally small, but their inputs do not determine ontology by themselves. An assembly is more than a set of part names; a collection is not automatically a holon or agent; and a facet label is not an aspect occurrence. The direct patterns provide relation obtaining and occurrence identity, while the candidate's direct pattern decides whether the existing whole continues or a new whole must be identified.
@@ -45920,11 +46010,13 @@ Constructional ontology and applied mereology both require explicit choices abou
 
 Model-based engineering likewise separates a readable structural model from the physical, operational, informational, method, or work organization it describes. C.13 keeps that model useful while routing representation, evidence, assurance, and currentness to their direct patterns.
 
+`A.14:14` supplies the source decision used by the changed `set` and `slice` forms. For `set`, it requires the collection's own belongs-to rule and blocks both automatic parthood and the conclusion that separate parthood is impossible. For `slice`, it requires an obtaining `AspectOf` relation with its bearer, facet rule, and identity conditions; a Characteristic, view, projection, partition, or time window does not substitute. If that A.14 source account changes, recheck only the affected `set` or `slice` contract, normative row, and link to A.14 here. An ordinary change to a collection rule or occurrence, aspect or bearer, facet rule, identity condition, or materialized trace reopens only that construction account and the claim it reports.
+
 ### C.13:10 - Relations
 
 **Builds on**
 
-- **A.14 and direct part-relation patterns.** They govern participant meanings, obtaining, recurrence, and occurrence identity for component, member, aspect, portion, constituent, and other part relations.
+- **A.14 and the patterns for each relation.** They define and test the participants, conditions, recurrence, and occurrence identity for component, collection-specific belongs-to, aspect, portion, constituent, and other constructive relations.
 - **C.2.1.** It governs the identity of a materialized construction-trace episteme.
 
 **Coordinates with**
@@ -67541,28 +67633,35 @@ Use these tests in order: name the intended managed boundary and ordinary use; i
 
 #### E.4:4.2 - Keep several DPF products usable as one suite
 
-Use this branch when several independently maintained DPF products all contribute to one bounded common use and people need that set to remain recoverable across change. Here *DPF product* is Plain shorthand for a managed series of DPF framework editions. Its direct subjects are the exact edition epistemes and their accepted edition relations; the current edition and its basis must remain recoverable. This introduces no generic Product or extra member object.
+Use this branch when independently maintained DPF products contribute to one ecosystem and people need to recover which product series belong to the Suite and how to use them while each product changes on its own. Keep three subjects distinct: each continuing DPF or Guide product series, the continuing DPF Suite collection, and any as-of description of that collection. This introduces no `U.Product` or `U.DPFSuite` kind.
 
-**DPF suite** is Plain relation-defined wording for exact suite editions connected by accepted `EpistemeEditionRelation` occurrences and kept usable for one bounded common use; it names no separate line object or root kind. A **DPF suite edition** is one exact `U.Episteme`; it is not a member DPF, a second set object, a family, a catalogue, a carrier, or a universal suite product.
+Here *DPF product series* is Plain relation-defined wording for a continuing collection of a DPF's edition epistemes. The series begins only when a product-constitution decision names at least one existing edition, intended readers and use, content-selection and edition-admission rule, access, refresh and retirement conditions, reidentification rule, and a capable maintaining System whose maintenance commitment has been accepted. The decision's effect begins the collection and admits the first edition; its Work and record are not the product series or the belongs-to occurrence.
 
-For an edition `S`, apply `C.2.1` as `<claim content = J_s, EntityOfConcern = S, effective ReferenceScheme = R_s>`. Here `J_s` is the exact `G.5 JointUseSet` declaration about `S`: one bounded use, unique unordered references to distinct DPF products, an inclusion rule, and sufficient top-level basis pins. `R_s` resolves the edition, use, products, and basis. The edition therefore says which joint-use set it is; no separate suite entity or universal suite-membership relation is introduced.
+Say **“this edition belongs to this product series.”** A later edition joins only when its `EpistemeEditionRelation` to the actual source edition obtains, the product-series rule still holds, and an admission decision takes effect. The edition relation establishes episteme continuity but does not admit the edition to the product series. A parallel branch, fork, translation, or derivative joins only when both its source relation and the admission rule pass. Otherwise it remains a related episteme outside the series or begins another product series. The series need not be one total version order.
 
-The set contains at least two DPF products. Each member satisfies the common inclusion rule, and removing it would narrow the declared coverage for that use. One product is a seed or framework, not a suite; do not declare singleton or empty suite editions. The same DPF product may belong to several suites. Membership in one exact edition says only that the product is included for that edition's common use. It establishes no order, dependency, compatibility, specialization, publication, availability, maintenance responsibility, recommendation, or use in a particular answer.
+An admitted edition continues to belong historically when it becomes superseded, unavailable, non-current, or retired while the same product series continues. Those states do not end the occurrence. If the product series ends or its identity rule identifies another product series, belonging to the old series ends and remains a past fact. Another product series must admit the edition through its own decision and a new occurrence. If review shows that the edition never satisfied the admission rule, correct the false claim; no valid occurrence existed. Do not remove and re-admit the same edition merely because availability or currentness changed. The same edition and continuing product series keep one occurrence rather than starting another.
 
-Treat a later edition as continuing the same suite only when an exact `EpistemeEditionRelation` under `C.2.1` obtains. The later edition actually uses the earlier edition as its revision source and preserves the common use, inclusion rule, product-level member grain, the rule that the edition's claims concern that edition itself, and the reader promise. It may deliberately add or remove members and update basis pins. Changing the common use, inclusion rule, member grain, or promise opens a new `E.9` architecture decision. A fork, translation, retargeting, or independent reconstruction is not an edition successor.
+A **DPF Suite** is a continuing collection of DPF product series. The DPF Suite Guide product series can also belong after its own constitution and inclusion. The Suite rule states which product series may belong; individual editions do not. The Suite begins when a constitution decision identifies the ecosystem purpose and intended use, inclusion and removal rules, reidentification rule, maintenance conditions, and a capable maintaining System whose Suite-maintenance commitment has been accepted, and includes at least one actual DPF product series. The decision Work and record remain distinct from the Suite and the first inclusion occurrence.
 
-Adding a qualifying product or removing one while at least two remain may produce a successor edition. A new edition of a member DPF does not by itself change suite membership: keep membership only while product identity, the accepted inclusion basis, and its exact basis pins remain valid. If that basis is defeated or unresolved, decide through this section and `E.4.PFAD` whether to issue a successor suite edition, warn readers, remove or restore the member, or retire the line. Guide advice, warnings, availability, or currentness may also change. If removal would leave one or no members, mint no singleton or empty edition. Keep the last qualifying edition exact but non-current for the maintained use, warn readers, and decide whether to restore at least two qualifying members or retire the line.
+The same Suite continues while its ecosystem purpose, rule for which product series may belong, inclusion and removal rules, and maintenance and identity conditions remain within the declared evolution rule. Adding or removing a product series normally preserves it, as can an explicit maintenance transfer that preserves those conditions. Changing an edition, publication, availability fact, Guide, or configuration description does not by itself reidentify the Suite. Changing an identity anchor outside the rule identifies another Suite.
 
-A suite is presented as current only while an identified capable System has accepted a suite-maintenance commitment and readers have a working route back to each edition presented as current. The commitment covers recoverable editions and basis, notice of relevant member changes, a successor/warning/retirement response, and edition access or source return. If no capable System continues that commitment, stop presenting the suite as current, warn readers, and decide whether another System will take it on or the suite will retire. The suite maintainer thereby maintains neither a member DPF nor the guide. The adjective *maintained*, a byline, locator, member list, publication, shared carrier, or suite membership establishes no commitment, availability, or currentness claim.
+After constitution, a temporary one-product-series or empty state can preserve the same Suite only when an explicit decision keeps those anchors in force and names a restoration, review, or retirement condition. Present no current cross-DPF answer in that state. An end or retirement decision closes the continuing collection and ends every current belongs-to occurrence; separate removals are unnecessary. The Suite and the past facts remain identifiable, but later active use requires another constitution decision, another Suite, and new inclusions. Before constitution there is only a possible-future Suite.
 
-Choose one truthful exposure:
+Say **“this product series belongs to this DPF Suite.”** The relation begins when the product series satisfies the operative inclusion rule and an inclusion decision takes effect. It remains current while the same product series and Suite continue and no later removal decision has taken effect. While they continue, only an effective inclusion or removal changes that occurrence. If either collection ends, or its identity rule identifies another collection, belonging to the old collection ends; neither case requires a prior removal. A proposal, description, publication, locator, or common use may report the relation but does not make it obtain.
 
-- give the suite edition its own publication or access route;
-- let a separately maintained DPF suite guide carry a bounded projection that names the authoritative edition, captured content, omissions or coarsening, as-of boundary, and working source return; or
-- use one neutral carrier that exposes exact suite, guide, and member publications without merging their identities, editions, forms, access routes, maintenance commitments, or currentness.
+Loss of qualification does not silently change belonging. Show an action-changing warning and decide whether to repair qualification, remove the product series, change the Suite under its identity rule, or retire it. Until that decision, do not present the product series as qualifying, current for the defeated common use, or recommended on that basis. Restoration before removal keeps the same occurrence while the same product series and Suite continue. An effective removal ends it; a later inclusion begins another occurrence.
 
-A locator identifies an edition but does not make it available. A copied member table without a working source return is orientation only. Apply `E.17`, `E.24.PUB`, `C.2.P`, and `G.11` to the direct publication, source-use, availability, and currentness claims. Use `E.4.PFR` only for exact edition-grained dependency or compatibility claims: membership never supplies their endpoints or case facts. Use `E.11.DSG` for the separate guide product and its reader-facing answer.
+After an occurrence ends, say that the product **belonged** to the Suite and say when it ended; do not present past belonging as current. A reconstituted product series or Suite, or one reidentified under its rule, is another collection and needs a new inclusion decision and occurrence.
 
+Belonging alone establishes neither parthood nor holonhood, and it does not make either impossible. The current product-series and Suite definitions leave A.1 matters 3, 5, and 6 unsettled: no constructive part relation and assembly, composition-grounded whole characteristic, or possible participation in a larger constructive assembly is currently established. Treat both as continuing collections without a present holon or parthood claim. If a later complete A.1 result and direct part predicate pass, state that additional claim separately. Belonging also settles no relation about order, dependency, compatibility, recommendation, publication, availability, currentness, maintenance, or use in an answer. One product series may belong to several Suites. Use the direct sentence without assurance fields unless the publication elects `B.3.5`; after election, use its `validationMode=axiomatic` and current `C.13 set`-trace obligations without treating the trace as the cause.
+
+The DPF Suite Guide product series belongs to the Suite after its own inclusion decision and keeps its own reader use and maintenance conditions. It may join after the first DPF products; it did not belong beforehand. Its absence, unavailability, staleness, or non-use does not erase the Suite or block direct use of a known DPF result; it only prevents a claim that the Guide currently supplies a trustworthy cross-DPF route.
+
+For a reproducible as-of answer, use an optional **DPF Suite configuration description**: a `U.Episteme` about the Suite, the product series that belong at that time or in that scope, selected editions or states, and direct source return. Its own editions are description editions, never Suite editions. It describes neither the belongs-to occurrences into existence nor the Suite's identity.
+
+Use `G.5 JointUseSet` only when every identified result or edition is necessary for one bounded use. A question may need resources from only some product series in the Suite. The set therefore neither defines Suite identity nor implies that every product is used together.
+
+Present the Suite as currently maintained only while a capable System holds its Suite-maintenance commitment and readers can return to the collection identity, inclusion and removal decisions, and any product-series state claimed as current. A neutral carrier or Guide may expose those returns, and an optional configuration description may pin them, but none merges the Suite, Guide, product series, edition, carrier, access, maintenance, or currentness. Apply `E.17`, `E.24.PUB`, `C.2.P`, and `G.11` to their direct claims; use `E.4.PFR` only for a dependency or compatibility relation that separately obtains; and use `E.11.DSG` for the Guide's problem-led route and direct-DPF bypass.
 The ordinary method is:
 
 1. Declare the ecosystem scope and intended architecture use. Cite the exact source, pattern host, selected architecture structure, publication relation, or bounded model-use structure only when the record actually relies on it.
@@ -67593,7 +67692,7 @@ Use this routing table when a proposed change is ambiguous:
 | Material needed for ordinary framework use shares the framework edition, readers, access, maintainer, and change cadence. | Keep it as a named support publication unit of that exact framework edition and expose it through the edition's carrier route. | Do not create another managed product merely because the unit is outside the pattern set or stored separately. |
 | A registry, guide, evidence package, service, programme, or other result has an independently useful identity or state, users and use, content boundary, access, or maintenance and refresh boundary. | Name its direct subject and the relevant relation, keep a separate managed boundary, and point to the exact edition or state; any embedded snapshot returns to that authority. | Shared use, co-location, or one outer carrier does not merge direct subjects. If the kind is unresolved, keep the boundary proposed and return the question. |
 | One carrier exposes several managed products. | Keep the outer carrier neutral and retain each direct subject's own form, identity, access, and maintenance relation. Use `E.11.PFP` only for FPF, DPF, or LPF constituents. | Do not give a non-framework subject a framework family, dependency field, or pattern index. |
-| Several managed DPF edition series are proposed for one maintained cross-DPF use. | Use `E.4:4.2` to test the common use, inclusion rule, two-member minimum, edition continuity, maintenance commitment, edition-recovery route, and exposure choice; use `E.4.PFAD` when the architecture answer must be selected. | A co-list, shared carrier, guide entry, or the word *suite* establishes no suite edition, membership, stronger relation, maintenance, access, or currentness. |
+| Several DPF product series and a Guide product are proposed for one ecosystem. | Use `E.4:4.2` to decide product-series and Suite constitution, which editions belong to which product series, which product series belong to the Suite, identity through change, maintenance, optional configuration description, and truthful exposure; use `E.4.PFAD` when the answer must be selected. | A title, co-list, shared carrier, Guide entry, or configuration description creates none of those subjects or relations. |
 | Existing material is hard to find, teach, or publish. | Use `E.11` for discovery, the relevant didactic pattern for teaching, `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. Use `G.5` only when the missing value is a selected-set result declaration. | Do not call publication repair architecture repair. |
 | A cross-reference claims use, specialization, dependency, publication, source reuse, preservation, quality, deprecation, or supersession. | `E.4.PFR` for the relation function and edition effect. | Do not let a link label decide the relation meaning. |
 | A framework split, dependency boundary, presentation-carrier or access-route choice, or adoption consequence must be decided. | Record one selected answer in an `E.9` DRR, using `E.4.PFAD` for its framework-specific content. Use `C.32.PAD` only when the decision is an exact project architecture decision and `C.32.ADR` only for its ADR-like projection. | Do not replace the answer with a diagram, folder, manifest, PFAD relation, or project-specific decision pattern used as the default framework route. |
@@ -67660,7 +67759,7 @@ Another recurrent drift is Core absorption: useful domain or local material is p
 | CC-E4.6 Source-return present | Any carrier used as architecture evidence states captured structure, lost structure, admissible use, and the source to return to. |
 | CC-E4.7 Framework carrier structure-account explicit | A Readme, Preface, ToC, all-in-one carrier, skill-pack carrier, or other form-bearing framework carrier states which framework structures its selected form exposes for whom. An MCP, retrieval, search, or assistant route identifies the first form-bearing carrier or response it reaches and returns to the same account; it is not scored as that carrier. Missing form or adequacy content is repaired as an exact assertion using `E.4.FPF`, `E.4.DPF`, or `E.4.DPF.DA` before adoption or adequacy claims are made. |
 | CC-E4.8 Product boundary proportional and typed | *Product* remains Plain management wording. Every boundary names its direct subjects and the identity, edition, current-state, provision, or maintenance relations used by the decision. Framework support units share one boundary only when their edition, use, access, maintainer, and cadence agree; an adjacent subject has an independent use and maintenance reason. Shared use and one carrier are only probes. An unresolved kind is returned as a question, not `U.Product`. |
-| CC-E4.9 DPF suite truth | Each current DPF suite edition is an exact self-concerning `C.2.1` episteme whose `G.5 JointUseSet` has at least two distinct DPF products, one bounded use, an inclusion rule, and basis pins. Exact edition continuity, an accepted suite-maintenance commitment, and a working edition-recovery route are recoverable. Membership creates no stronger relation, and singleton, empty, lost-maintainer, projection, and combined-carrier cases follow section 4.2. |
+| CC-E4.9 DPF Suite truth | The Suite is one constituted collection of DPF product series and, after inclusion, the Guide product series. Product and Suite constitution, edition-to-product belonging, Suite inclusion and removal, decision effects while the same product and Suite continue, what happens when either ends or is reidentified, past belonging, identity anchors, maintenance, a temporary empty state, retirement, and any configuration description remain recoverable. No snapshot, list, Guide, carrier, or `JointUseSet` substitutes for them. |
 
 ### E.4:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -67675,8 +67774,8 @@ Another recurrent drift is Core absorption: useful domain or local material is p
 | Product label used as an object kind | A guide, service, programme, registry, System, or episteme is asserted to be the same kind because each is managed as a product. | Keep *product* as Plain management wording. Name each direct subject and the relation used for identity, current state, provision, or maintenance; return an unresolved-kind question when needed. |
 | Shared carrier or shared use means one product | A cross-framework registry or service is absorbed into one DPF, or a combined carrier merges a framework and catalogue. | Decide each managed boundary from direct subjects, use, and maintenance; keep exact constituent pointers and let the outer carrier remain neutral. |
 | Service or publication scheme used as universal architecture | A full service-management system, bibliographic entity model, or content-management process is imposed on every framework unit, programme, guide, or tool. | Reuse only the distinction that answers the current boundary question; keep service, publication, content, and programme claims under their own subject patterns. |
-| DPF list presented as a suite | A title or co-list replaces the bounded common use, inclusion rule, two-product minimum, exact edition, maintenance commitment, and edition-recovery route. | Keep an ordinary list or candidate until `E.4:4.2` passes; then identify the exact suite edition and its direct boundaries. |
-| Suite membership inflated | Co-membership is read as order, dependency, compatibility, maintenance, publication, or use in a lookup answer. | Keep membership at DPF-product grain and apply the direct predicate to every stronger claim. |
+| DPF list presented as a Suite | A title or co-list replaces product-series constitution, the Suite-constitution decision, the direct belongs-to occurrences, identity rules, and maintenance conditions. | Keep a proposal until `E.4:4.2` passes; then identify the Suite collection and the product series that belong to it. |
+| Suite belonging inflated | Two product series belong to the same Suite, so the text infers order, dependency, compatibility, maintenance, publication, or co-use. | Keep the Suite claim at product-series grain and apply the direct predicate for every stronger claim. |
 | Source-carrier authority | A summary, graph, or generated candidate set is treated as authoritative. | Admit the carrier through `C.35` or record preservation through `C.33` and `C.34` before use. |
 
 ### E.4:9 - Consequences
@@ -67692,6 +67791,22 @@ The ecosystem needs architecture because FPF patterns, frameworks, source packs,
 The old Core, Tooling Reference, and Pedagogical Companion distinction remains valuable, but it is only one family partition. Domain and local principle frameworks need their own framework editions so they can depend on Core without redefining it.
 
 ### E.4:11 - SoTA-Echoing
+
+#### E.4:11.1 - Continuing product-series and Suite collections
+
+`A.14:14` gives the general constructional comparison. This branch applies only its product-ecosystem consequences.
+
+| Question | E.4 answer |
+| --- | --- |
+| Current source pressure | The BORO constructional turn and C-FORS distinguish set, sum, tuple, and assembly constructions; Core Constructional Ontology requires explicit constructors and identity choices; Fine's composition work keeps the operation prior to a derived part claim; Fine's social-group account shows how structured subjects may keep identity while participants change. BORO is the implemented-lineage comparator; the 2024–2025 constructional applications remain research comparators rather than demonstrated applied maturity. |
+| Adopt or adapt | Keep each product series and Suite as a continuing subject under its declared identity rule while editions or included product series change. State edition admission, edition-to-product belonging, product-series inclusion or removal, and Suite identity as separate conditions. A.14 supplies the general belongs-to and parthood boundary. |
+| Reject | Do not use one generic `MemberOf`, a qualified generic collection predicate, a fixed-extent identity, or automatic constructive parthood. Those shortcuts hide the different product and Suite conditions or make change of constituents decide identity by itself. |
+| Present result and reach | `E.4:4.2` uses the two ordinary belongs-to sentences and their separate constitution and decision rules. The present definitions leave `A.1` matters 3, 5, and 6 unsettled, so product series and Suite remain collections with holonhood undecided, not prohibited. A later direct part claim remains possible after a complete `A.1` result. `CC-E4.9` checks that this identity, change, decision, and history account remains recoverable. |
+| Comparable-effort trade-off | The ordinary sentences plus the existing `E.10` and `A.14` route are no worse for correctness or temporal history and are cheaper for a cold reader and maintainer than a qualified generic relation or immediate technical names. They do not provide one immediate cross-domain query key; name a narrower reusable relation through `F.18` only when repeated query, comparison, or declaration use justifies the extra vocabulary. |
+
+E.4 uses the currentness and reopen rule stated in `A.14:14`. A change to that A.14 source decision reopens only the affected product-series or Suite rule in `E.4:4.2` and `CC-E4.9`. An ordinary new edition, admission, inclusion or removal, qualification warning, availability change, or updated trace follows `E.4:4.2` and reopens the affected ecosystem claim; it does not by itself reopen this architecture.
+
+The broader ecosystem source account follows.
 
 | Claim | Exact source ref and status | Pattern locus changed | Adoption status |
 | --- | --- | --- | --- |
@@ -67713,7 +67828,7 @@ The old Core, Tooling Reference, and Pedagogical Companion distinction remains v
 - **Coordinates with:** `E.4.DPF` when the work is to author a domain principle framework or local practice framework.
 - **Coordinates with:** `E.4.PFR` when a relation, edition, dependency, compatibility, deprecation, or preservation claim must be recorded.
 - **Coordinates with:** `E.4.DPF.DA` when a domain or local framework package must be evaluated as a package rather than as an average of its pattern bodies.
-- **Coordinates with:** `E.11` for discoverability, `E.11.PFP` for the common publication form of FPF, DPF, or LPF constituents, `E.11.DSG` for the separately maintained DPF suite guide and its reader-facing lookup answers, `E.11.PUR` for pattern-use recommendation, `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
+- **Coordinates with:** `E.11` for discoverability, `E.11.PFP` for the common publication form of FPF, DPF, or LPF constituents, `E.11.DSG` for the separately maintained Guide product series and its reader-facing cross-DPF answers, `E.11.PUR` for pattern-use recommendation, `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 - **Coordinates with:** `G.2`, `G.11`, `C.33`, `C.34`, and `C.35` for source, currentness, preservation, and produced-carrier admission claims.
 
 ### E.4:End
@@ -68000,7 +68115,7 @@ Ask whether choosing a framework, a maintained non-framework product, a thinner 
 - initial pattern placement or a material relation among those patterns that changes the architecture;
 - the direct subjects and maintenance boundary for a continuing programme, an admitted service, or a separate editioned result when later work must maintain or use them;
 - a publication or access consequence; or
-- for a proposed DPF suite, the bounded common use, inclusion rule over managed DPF edition series, minimum of two members, continuity choice, maintenance and edition-recovery boundary, exposure choice, or a separate guide-maintenance boundary.
+- for a proposed DPF Suite, the ecosystem use, which product series may belong, constitution, inclusion and removal rules, identity through change, maintenance and source-return conditions, exposure choice, and any separate Guide-product decision.
 
 If no such boundary and receiving use are present, close the exploratory use without `E.4.PFAD` or an `E.9` DRR. If they are present, decision Work selects a framework, maintained non-framework product, thinner route, existing-framework contribution, or stop and one `E.9` DRR records that answer. The cheap exit and the architecture decision are alternative entry outcomes, not serial stages.
 
@@ -68019,7 +68134,7 @@ When the architecture question is open, the framework-specific part of the DRR s
 7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
 8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
 
-For a DPF suite answer, the same DRR selects the bounded common use, inclusion rule over managed DPF edition series, minimum of two members, continuity choice, alternatives, practical consequence, and reopen condition. If the result is to be presented as a current maintained suite, it also identifies the capable suite-maintaining System and its accepted commitment, the working route to each suite edition presented as current, the refresh response and what happens if that boundary is lost, and one exposure choice: independent suite route, bounded guide projection with source return, or neutral combined carrier. Keep the guide's maintaining System and commitment separate. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after both exact editions and the required case facts exist.
+For a DPF Suite answer, an architecture decision takes effect to constitute the continuing collection. It selects the ecosystem use, which product series may belong, inclusion and removal rules, identity through change, alternatives, practical consequences, and the reopen condition. The same `E.9` DRR records that answer. A current maintained-Suite claim also identifies the capable maintaining System and its accepted commitment, the working source return for product series and any product-series state presented as current, the refresh response, and one exposure choice: an independent Suite route, a bounded Guide projection with source return, or a neutral combined carrier. Guide constitution, inclusion, maintenance, and refresh remain separate decisions and claims. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after the edition-level case facts exist.
 
 For an existing-framework contribution, maintained non-framework product, thinner route, or stop, state only the parts needed to explain that outcome and the later-used boundary. A selected maintained product still names its direct subjects and the relations used; a proposed boundary with an unresolved kind says so. Do not fabricate a field assessment or package merely to fill the list.
 
@@ -68067,7 +68182,7 @@ Its first usable version is a current programme-description episteme that names 
 
 #### DPF suite and guide
 
-A field already has three independently maintained DPF edition series that together cover one recurring practitioner use, so the architecture question is not whether to merge them into another DPF. One `E.9` DRR selects the common use, inclusion rule, minimum of two members, edition-continuity choice, capable System and accepted suite-maintenance commitment, working source return, and a guide-projection exposure. Each member reference resolves the managed DPF series and its exact current edition and basis as required by `E.4:4.2`. The decision separately identifies the capable System, its accepted maintenance commitment for the guide, and the guide's refresh route. It records a proposed cross-DPF result use but makes no dependency or compatibility claim until the exact edition-level predicates pass. A later author may propose membership or removal, but returns that proposal to this suite decision; one DPF cannot settle it from inside its own edition.
+Three independently maintained DPF product series already cover one recurring practitioner use. The architecture question is therefore not whether to merge them into another DPF. When one architecture decision takes effect, it constitutes the continuing Suite collection, states its ecosystem use, defines which product series may belong, selects inclusion and removal rules and identity through change, identifies the capable maintaining System and its accepted Suite-maintenance commitment, and chooses source return and exposure. Its `E.9` DRR records that answer and the initial inclusion decisions. Each DPF edition still belongs to its own product series under that series rule. The answer separately decides whether a Guide product series is constituted and included, identifies its capable maintaining System and commitment, and states its refresh route. It records any proposed cross-DPF result use but makes no dependency or compatibility claim until the edition-level predicates pass. A later author may propose inclusion or removal, but returns that proposal to the Suite decision; one DPF cannot settle it from inside its own edition.
 
 #### Existing framework
 
@@ -68111,7 +68226,7 @@ The fifth drift is relation-by-representation: a table row or reference list is 
 | CC-PFAD.6 Object boundaries | Answer, acceptance, DRR, authoring Work, Method results, edition, and publication remain distinct; proposal locators identify none of them. For a programme answer, the exact persisting subjects, provider and maintaining Systems, any admitted service state, each bounded inquiry Work occurrence, and each evidence-package edition remain distinct. |
 | CC-PFAD.7 Conditional apparatus | Naming, quality, admission, currentness, and package details appear only when they change the answer or serve a named use. |
 | CC-PFAD.8 Reopen condition | The DRR states what change in field boundary, framework architecture, evidence, or receiving use requires reconsideration. |
-| CC-PFAD.9 DPF suite decision | A selected suite answer states the common use, inclusion rule over managed DPF edition series, minimum cardinality, continuity, maintenance commitment, edition-recovery and refresh boundary, exposure choice, alternatives, consequences, and reopen condition. Guide maintenance remains separate, and proposed uses or constraints remain distinct from obtaining edition relations. |
+| CC-PFAD.9 DPF Suite decision | A selected Suite answer states the ecosystem use, which product series may belong, Suite constitution, inclusion and removal rules, identity when product series change, maintenance commitment, source return and refresh conditions, exposure choice, alternatives, consequences, and reopen condition. It separately states edition-to-product belonging and whether the Guide product series has been constituted and included. Belonging establishes no holonhood, constructive parthood, dependency, or compatibility; a stronger claim needs its own complete predicate. |
 
 ### E.4.PFAD:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -68405,11 +68520,11 @@ This episteme's A.3.2 MethodDescription use and its result-and-use account are s
 
 #### E.4.DPF:4.0.1 - Return suite and guide proposals to their own decisions
 
-One DPF cannot constitute a DPF suite. Membership in an exact suite edition does not enlarge the DPF's field, make its first edition adequate, create a dependency or compatibility relation, or assign responsibility for maintaining the suite or its guide. It also establishes no publication, access, recommendation, or actual guide use. A shared carrier, guide entry, author, or locator creates none of those claims either.
+Being one DPF product does not by itself constitute a DPF Suite or make that product series belong to one. Suite constitution and each inclusion or removal are separate decisions under `E.4:4.2` and `E.4.PFAD`. Belonging to a Suite collection does not enlarge the DPF's field, make its edition adequate, create dependency or compatibility, or assign responsibility for maintaining the Suite or its Guide. It also establishes no publication, access, recommendation, or actual Guide use. A shared carrier, Guide entry, author, or locator creates none of those claims.
 
-An author may propose that a DPF product join or leave a suite, or that a guide entry use one of its results. Keep membership and removal as proposals until they are accepted in a suite-architecture decision. Return those proposals to `E.4:4.2` and `E.4.PFAD`, where the common use, inclusion rule, minimum cardinality, continuity, maintenance commitment, edition-recovery route, and exposure choice are decided. Keep a proposed guide entry separate until the guide product's content or refresh decision selects it; the first concrete application also needs the applicable `DPF-SUITE-00` project decision. Make and check the entry's direct claims about DPF results and sources under the patterns that define those claims. If removal would leave fewer than two qualifying products, also follow the guide-warning and suite restoration-or-retirement branch; do not declare a singleton or empty suite edition.
+An author may propose that a DPF product series join or leave a Suite, or that a Guide entry use one of its results. Keep inclusion and removal as proposals until the Suite decision takes effect. Return those proposals to `E.4:4.2` and `E.4.PFAD`, where the ecosystem purpose, the rule for which product series may belong, inclusion and removal rules, identity through change, maintenance, and exposure are decided. Keep a proposed Guide entry separate until the Guide product's content or refresh decision selects it; the first concrete application also needs the applicable `DPF-SUITE-00` project decision. Make and check the entry's direct claims about DPF results and sources under the patterns that define those claims. A state with one product series or none follows the Suite's explicit preservation, restoration, review, or retirement rule; a DPF edition does not decide that state from inside itself.
 
-Do not infer stronger relations from membership. Assert a dependency only when the dependent and relied-on editions, relied-on content, receiving use, and invalidation or reopen fact are known. Assert compatibility only for an exact edition pair with a named overlapping use, difference or interface, impact, and reopen condition. Until those facts satisfy `E.4.PFR`, describe only the proposed use, constraint, or question. Suite membership and guide navigation substitute for none of them.
+Do not infer stronger relations from belonging. Assert a dependency only when the dependent and relied-on editions, relied-on content, receiving use, and invalidation or reopen fact are known. Assert compatibility only for an edition pair with a named overlapping use, difference or interface, impact, and reopen condition. Until those facts satisfy `E.4.PFR`, describe only the proposed use, constraint, or question. Suite belonging and Guide navigation substitute for none of them. The current FPF treats product series and the Suite as continuing collections; it makes no holon or constructive-part claim because the complete A.1 test has not passed.
 
 #### E.4.DPF:4.1 - Select the current first result
 
@@ -68650,7 +68765,7 @@ The second recurring drift is publication-carrier-first authoring. The repair is
 | CC-DPF.3b Internal and external first-use closure | The first-edition set includes every selected pattern and same-framework prerequisite needed for the named first use. Before keeping, merging, removing, profiling, reusing, externally supplying, or omitting a narrower contribution, apply `E.8:4.1.3` and distinguish an available maintained result and supplying product, a maintained `MethodDescription`, direct-source evidence, and a named unavailable result. External results remain external; their exact result, direct kind, supplying product and edition or current state, receiving use, discovery route, material currentness or availability condition, and externality are explicit. For the receiving use, the external result is either the content relied on or identifies that exact content. If that use also requires a separate availability or compatibility result, name that exact result and the basis on which it applies. An edition dependency adds direction, reason, and refresh only when that relation obtains. A missing required result is a first-use blocker. After a material promised-family change, obtain the current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition; reuse it only while the exact edition and basis remain unchanged, without proof that a revisit occurred. |
 | CC-DPF.3c Structures, claims, and returns | When practice structures do not line up one-for-one, a cited `C.32.MWA` result supports the architecture answer; `E.23.CDI` is cited only when capability development for a named Work family is part of the selected architecture. Methods, MethodDescriptions, patterns, framework editions, other maintained-result subjects, and carriers remain distinct. The text says which load-bearing claims are actual, proposed, or untested, what realization or test a stronger claim requires, and where each source contribution goes. |
 | CC-DPF.3d Support and adjacent-product boundary | *Product* remains Plain management wording. Units kept inside the framework share its exact edition, declared readers and use, access, maintainer, and cadence. Every separate adjacent result names its direct subject, identity or current state, use, rule saying what belongs, access, and maintenance or refresh reason. Programme wording names the exact arrangement or description, provider and maintaining Systems, any admitted service state, bounded Work, and result epistemes actually claimed; shared use and one carrier do not merge them. |
-| CC-DPF.3e Suite and guide proposal return | A DPF is never treated as a suite by itself. Membership and removal proposals return to the suite-architecture decision. A guide-entry proposal returns to the guide product's content or refresh decision; its first concrete application also needs the applicable `DPF-SUITE-00` project decision, and its direct DPF-result and source claims use the patterns that define them. Fewer-than-two transitions return to warning and restoration or retirement. Membership establishes no framework scale, dependency, compatibility, maintenance responsibility, publication, access, or actual guide use. |
+| CC-DPF.3e Suite and Guide proposal return | A DPF product series does not constitute or join a Suite from inside its own edition. Inclusion and removal proposals return to the Suite decision. A Guide-entry proposal returns to the Guide product's content or refresh decision; its first concrete application also needs the applicable `DPF-SUITE-00` project decision, and its direct DPF-result and source claims use the patterns that define them. A state with one product series or none follows the Suite's explicit preservation, restoration, review, or retirement rule. Belonging establishes no framework scale, holonhood, constructive parthood, dependency, compatibility, maintenance responsibility, publication, access, or actual Guide use. |
 | CC-DPF.4 Names prepared | Durable public names and abbreviations have `F.18` name-card work or are explicitly provisional source aliases. |
 | CC-DPF.5 Carriers and routes classified | Any all-in-one carrier, exact skill-pack/index/response carrier, graph, generated set, source summary, or transformed view used as evidence has `C.33`, `C.34`, or `C.35` treatment. Any MCP, endpoint, retrieval, search, or assistant route is kept separate from the exact form-bearing artifact it returns and from actual access or use. |
 | CC-DPF.6 Patterns drafted through E.8 | Pattern bodies carry recognition text for recurring domain or local problem situations, positive SoTA-informed solution moves, worked cases, known failure modes or local anti-patterns, checklist, SoTA-Echoing, and relations. Skeletons, prompt seeds, and compressed design notes are named as seeds rather than treated as normal DPF patterns. |
@@ -68685,7 +68800,7 @@ The second recurring drift is publication-carrier-first authoring. The repair is
 | Generated candidate authority | Search or LLM output becomes the framework because it is fluent. | Use `C.35` for admission, then decide candidate selection through `E.4.PFAD` or `C.32`. |
 | Skeleton carrier as DPF | A file has a ToC, headings, and very short pattern-shaped sections, but readers still cannot apply the patterns without reconstructing the missing guidance from the DRR or source notes. | Keep it as `seedOnly`; harden each DPF pattern through `E.8`, evaluate through `E.21`, and only then assemble the user publication carrier. |
 | Singleton authoring slice as edition | One useful pattern or one narrow authoring slice receives a broad framework name because it is the material currently being written or reviewed. | Report the singleton as a strong diagnostic and run the same framework-scale test used at every count. Keep it as a seed, candidate, or existing-framework contribution when connected problem-family coverage, material pattern relations, a representative application, an internally usable first-edition set, honest omissions and source returns, or a credible maintenance boundary are missing; do not fail or pass it by count. |
-| DPF membership edits the suite from inside the member | A DPF author treats a guide entry or local membership proposal as an accepted suite edition, stronger relation, or maintenance assignment. | Keep each as a proposal: by itself it changes no membership, guide use, stronger relation, or maintenance assignment. Return membership and removal to `E.4:4.2` and `E.4.PFAD`. Return a concrete guide entry to the guide product's content or refresh decision; its first concrete application also needs the applicable `DPF-SUITE-00` decision, and its direct result and source claims use the patterns that define them. Use `E.4.PFR` only for exact edition-level dependency or compatibility facts. |
+| DPF belonging edits the Suite from inside a member | A DPF author treats a Guide entry or local inclusion proposal as an accepted Suite state, stronger relation, or maintenance assignment. | Keep each as a proposal: by itself it changes no belonging, Guide use, stronger relation, or maintenance assignment. Return inclusion and removal to `E.4:4.2` and `E.4.PFAD`. Return a concrete Guide entry to the Guide product's content or refresh decision; its first application also needs the applicable `DPF-SUITE-00` decision, and its direct result and source claims use the patterns that define them. Use `E.4.PFR` only for edition-level dependency or compatibility facts. |
 | External dependency hidden as closure | A first-edition set omits a needed same-framework prerequisite or silently assumes an FPF, DPF, or LPF edition, availability result, or compatibility result. | Include every same-framework prerequisite needed for the first use. For each external dependency, name the edition and relied-on content, use, direction, reason, refresh condition, and any required availability or compatibility result; return a missing requirement as a first-use blocker. |
 | Access route or returned artifact as framework | A skill pack, MCP endpoint, retrieval or search route, assistant integration, or returned response is treated as the framework because it is what agents call or see. | Classify a skill-pack, index, or response artifact as a `U.PresentationCarrier` only when it bears a selected form. Classify the service, endpoint, retrieval, search, or assistant integration as an access route. Use E.24.PUB and the direct access or use pattern for publication, availability, actual access, and use; expose the exact framework edition and currentness return. Use `E.4.PFR` only when a named maintenance use needs a stable relation representation. |
 | Future framework fabricated | An optional organization proposal points to the absent framework or claims its actual structures. | Create a current intended-result description and one proposal episteme; wait for an accepted `E.9` framework-architecture answer and later realization before architecture-description use. |
@@ -72138,6 +72253,7 @@ Classification is not closure. A conforming result ends in one of these by-value
 | Modifier-without-head, vague compound head, or enumeration-as-kind wording whose governed head, declaration, direct relation, representation, alternatives, or applicable rule is hidden | Apply `E.10` head-kind recovery first, then use the relevant pattern if it is already known. Otherwise use the selected restoration branch: `A.6.P` for relation construction, `C.2.P` for source-ref target, publication, carrier, or project-side reference recovery, `E.10.MOVE` for move, step, action, or readiness wording, `E.10.ARCH` plus `C.30.P` or `C.30.STRAT` for architecture or stratification source-label wording, `E.24` when a real ontic candidate decision is current, or `F.18` only after the governed kind and use are recovered. | Selected FPF kind or alternative-case set; obtaining direct relation and actual participants; receiver-needed relation-occurrence identity; reusable `RelationSignature` with A.6.5 `SlotSpec` values only when declaration is current; claim-bearing episteme and participant designations only when an assertion is current; C.29 representation element and explicit correspondence only when representation is current; ordinary-prose demotion; reduced-use cue; blocked use; or incomplete-rewrite disposition. No list or compound head becomes a kind by itself. |
 | Relation-like wording or relation-bearing use | Apply `A.6.P` or a retained A.6 relation specialization. Only when exact participants are recovered and no current direct relation closes the named receiving claim, handle the residual under `A.6.RCD`. | State the obtaining named direct relation, actual participants, and qualifier values. Distinguish one relation occurrence only for a named receiving use; add a reusable `RelationSignature` and A.6.5 participant or qualifier `SlotSpec` values only when declaration is current; keep a row that states the claim as a claim-bearing episteme with participant designations, and keep any graph, tuple, field, or table element as a C.29 representation with explicit correspondence. Otherwise the exact residual is one of these `A.6.RCD` results: disposition 2, a local compound claim; disposition 3, a reusable predicate-definition episteme, optionally continuing to a derived-kind candidate plus its proposed direct subject settlement only when a named receiver additionally needs stable occurrence semantics; or disposition 4, a primitive-kind candidate plus its candidate standalone direct pattern. `E.24` and `E.24.UK` retain admission, and `A.6.0` declaration follows only after admission. Every branch preserves admissible relation use, blocked overread, and remaining reader use. |
 | Bare claim-bearing *role* whose current object or relation is not already clear | Apply `E.10.ROLE`. First write the ordinary sentence with its recognizable object and action or relation; then use `A.2` and C.3 for an exact local system-role kind, `A.2.1` for one exact direct assignment species, `A.6.RSIR` for direct participation, declaration, interface, operation, or representation recovery, or the direct pattern for another recovered object or relation. | One exact recovered object or relation and its pattern; ordinary or quoted non-use; or the exact blocker. Bare *role* has no default Tech reading and creates no system admission, classification, assignment, agency, capability, participation, responsibility, Work, or episteme use. |
+| *Member*, *membership*, *belongs to*, *in*, or `MemberOf` whose claim is not already clear | Write the ordinary sentence and recover the claim before naming anything. Use `C.29` with `A.2.6` or `A.19` for mathematical elementhood or position, `C.3` for classification, the direct relation pattern with `A.6.P` and, for a declared slot, `A.6.5` for participation, `A.14` plus the collection's own pattern for world-side belonging, or `A.1`, `A.14`, `C.13`, and the direct part pattern for constructive parthood. | One mathematical statement, classification judgment, participant statement, belongs-to sentence under the collection's own rule, or constructive part claim. A generic `MemberOf` relation, a rename-first repair, and an inference from collection belonging to parthood or from non-implication to impossibility are blocked. |
 | Relation-like, declaration-like, or interface-like wording whose object or claim kind is hidden—for example, *relation*, *signature*, *interface*, *assignment*, *enactment*, *slot*, *field*, *parameter*, *argument*, *endpoint*, *port*, *API*, *protocol*, *connector*, *capability*, *affordance*, *method*, *function*, *concern*, or *interest* | Apply `A.6.RSIR` only when the relevant pattern is not already clear. If a world-side relation use is current, recover its participants and existing direct relation through `A.6.P`; use `A.6.RCD` only when those participants are exact but no current direct relation closes the named receiving claim. If the current object is already recovered, use the concrete pattern instead: `A.6.P`, `A.6.5`, `A.6.0`, `A.2`, `A.2.1`, `A.15`, `A.6.M`, `A.6.F`, `A.6.A`, or the method, work, publication, episteme, evidence, status, or gate pattern for the claim. | Recovered project concern, EntityOfConcern or claim kind, selected pattern and concrete contribution, direct relation and participants when relation use is current, `A.6.RCD` disposition only when its residual route is triggered, declaration need, retained source-label use, blocked overread, and stop before minting generic `U.Interface`, `U.Concern`, `U.Interest`, or a standalone slot ontology. |
 | Source-expression, publication, publication form, face, carrier, rendering, `PublicationUnit`, framework publication or access carrier, FPF-governed use, or `reading`, `read`, or `quality-read` wording whose entity or construction is not yet recovered | Apply `C.2.P` first. If the recovered construction is only publication or access exposure, use `E.17`, `E.17.AUD`, or `E.4.*` as applicable; if it is evidence, source-currentness, generated-output admission, work-reliance repair, architecture use, or structure use, use `A.10` or `G.11`, `C.35`, `A.15.4`, `C.30.P`, `C.33`, or `C.34` after `C.2.P` recovers the carrier relation set. If the recovered entity or construction is evaluation for improvement, use `E.22`, `E.21`, `E.9.DA`, or the pattern for that evaluation claim. | Source-local meaning, publication and carrier relation set, publication-form relation when it is being made, EntityOfConcern, project-side FPF kind, use disposition, the downstream pattern and its contribution when the carrier serves evidence, currentness, generation, framework publication or access, work-reliance repair, architecture use, structure use, or evaluation, adjacent overread blocked, and remaining reader use. |
 | Ontic, ontic candidate, concept cluster, semantic area, ontological neighborhood, slot relation, schema, data structure, record, card, table, or publication-form wording whose EntityOfConcern and publication boundary are hidden | Apply `E.24.CD` when repeated material may call for an ontic candidate decision; apply `E.24.PUB` when the confusion is among ontic, ontic-description episteme, publication form, view, record, card, table, schema, or data-structure expression. Use `E.24` or the already identified pattern when the ontic object is recovered. | Candidate ontic cluster, EntityOfConcern, and the selected pattern contribution; only after durable settlement, the E.24 `onticSlotRelation` and its actual participants; or, under their separate rules, an ontic-description episteme, reusable `RelationSignature` and A.6.5 `SlotSpec` values, publication form, C.29 representation element and explicit correspondence, or source relation. Preserve admissible use, blocked publication-form overread, and remaining reader use. |
@@ -75409,7 +75525,7 @@ The framework Readme is the single editable public entry set. If another publica
 
 Use `E.11.PFP` when one public FPF, DPF, or LPF edition needs the shared reader-facing publication form: a compact product-declared opening, separate exact title and Readme H1, Readme and Preface represented in the product's established ToC grammar before one logical pattern index, Readme entry fields, a front-only development-metadata boundary, language boundary, and deterministic source-hazard plus rendered-structure checks. E.11 still tells the reader how to state the practical question, obtain a first useful result, follow the direct-pattern route, and stop or return. Do not copy the form grammar here or treat a form-valid carrier as a usable framework.
 
-Use `E.11.DSG` when the reader may need results from several independently maintained DPFs or cannot yet tell which DPF applies. Start with the recognizable cross-DPF situation and a short answer that separately names an available maintained result of its actual kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result with its blocker and retry. `E.11.DSG` carries the full guide form, exact suite-edition return, lifecycle warnings, and optional persisted-answer detail. It is a non-framework guide specialization, so do not apply `E.11.PFP` to it.
+Use `E.11.DSG` when the reader may need results from several independently maintained DPFs, cannot yet tell which DPF applies, needs Suite-wide commonality or relations, or needs an honest ecosystem gap. Start with the recognizable situation and four truthful return classes. The specialization returns to the Suite collection and each product series, edition, result, state, or source that changes the answer; it uses an optional configuration description only when needed. When one DPF result is already known, use that DPF directly. An absent, unavailable, stale, or unneeded Guide neither erases the Suite nor blocks direct DPF use, but it cannot supply a current cross-DPF route. `E.11.DSG` is a non-framework Guide specialization; do not apply `E.11.PFP` to it.
 
 Pattern count is only a diagnostic. A one-pattern edition asks whether the result is instead a seed, candidate, or contribution to an existing framework; a larger count still does not establish a pattern language. Use `E.4` and `E.4.PFAD` to decide framework architecture, `E.4.DPF.DA` or `E.2.DA` for the applicable package or whole-FPF adequacy, and `E.21` for pattern quality.
 
@@ -75500,7 +75616,7 @@ Apply the same compact route shape each time: recognizable situation; practical 
 - **Problem-side material may describe a concern without identifying an actual Problem.** Open `C.22.PFR` only when the claim may concern one obtaining `ProblematicForRelation`: an exact actual-condition occurrence and exact problem-criterion-applicability occurrence whose selected input is actually adverse. Keep that occurrence distinct from the predicate, applicability occurrence, assessment or evaluation, assertion and reliance, `ProblemCard`, forecast or modal concern, and current-solvability or continuation claim. The smallest result is an ordinary actual-problem sentence naming condition and value, criterion, entity and use, and applicability window, or an honest non-PFR classification or blocker when the condition, applicability, adverse input, or required PFR rule is missing. Stop as soon as the later use can distinguish actuality from problem-side claim material. Use `C.22.2` when the useful object is a reviewable problem-side card or formulation rather than the world-side relation. One `ProblemCard` may describe no actual PFR; selecting or discovering a method changes only the current solvability or continuation claim, not PFR participants, obtaining, identity, or the adverse condition.
 
 #### E.11:4.2 - Public helper epistemes
-These helper epistemes are optional authoring or named-reliance support. Do not open them when the short public entry and direct pattern already make the result and boundary truthful. A pattern reference locates the exact FPF pattern episteme whose content is needed; it asserts `U.MethodDescription` membership only when A.3.2 establishes that membership and the current use depends on it.
+These helper epistemes are optional authoring or named-reliance support. Do not open them when the short public entry and direct pattern already make the result and boundary truthful. A pattern reference locates the FPF pattern episteme whose content is needed; classify it as a `U.MethodDescription` only when the A.3.2 criterion passes and the current use depends on that classification.
 
 ```text
 PublicPracticalUseQuestion@FPFReadme <: U.Episteme:
@@ -75797,7 +75913,7 @@ Suppose a compact row combines “architecture and diagrams”, evidence, dashbo
 | `E11-10` | Thin projection and direct authority | ToC pattern rows expose the framework's declared retrieval fields, including a recognizable working-question cue, without copying a first move, result, or boundary mini-method. `E.11.PFP` defines the exact index fields and form grammar. ToC, query phrases, cards, and retrieval remain finding aids; a substantive claim returns to the direct pattern whose content defines, constrains, or tests it. |
 | `E11-11` | Grounded public range | Every benefit claim names a concrete need, imaginable result or blocker, and choice-changing pattern distinction; wording repair does not crowd out architecture, work, problem shaping, comparison, evidence, time, causal use, mathematics, quality, improvement, or framework authoring. |
 | `E11-12` | Smallest change reach | When a direct result or boundary changes, repair the smallest affected entry plus determinate README, Preface, ToC, example, relation, and true-consumer wording; unrelated publication units remain unchanged. |
-| `E11-13` | Cross-DPF guide route | A several-DPF or unclear-DPF situation routes to `E.11.DSG` and exposes, before detail, an available maintained result of its actual kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result with blocker and retry. It does not treat the guide as a framework edition, as deciding the suite, as lookup Work, or as a stronger relation. |
+| `E11-13` | Cross-DPF Guide route and bypass | A several-DPF, unclear-DPF, Suite-wide, or ecosystem-gap situation routes to a current `E.11.DSG` Guide; a known sufficient DPF result routes directly to that DPF. The Guide returns to the Suite collection and the product series, editions, results, states, or sources that change the answer. It neither decides whether a product series belongs to the Suite, performs lookup Work, nor requires a Suite edition. |
 
 ### E.11:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -75832,7 +75948,7 @@ Public guidance remains weaker than the direct pattern. It helps a reader choose
 | Information-foraging and information-scent practice | Put recognizable situation and expected information gain before internal navigation structure. | Adopt through situation-first cards and first-result differences. Do not infer ontology or a fixed shortlist size. |
 | Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759 (2026) | Treat inspection, premature selection, wrong turns, and backtracking as a bounded sequence under memory and time constraints. | Adapt through explicit stop, wrong-turn, and return boundaries. Materialize history only for named reliance; the preprint does not establish a universal discovery record. |
 | Zhu, Reinecke, and Mitra, *Language Scent: Exploring Cross-Language Information Navigation*, arXiv:2604.03604 (2026) | Keep contextual cues near the value being named while preserving the intended target behind a reader-facing expression. | Adapt to public cue and expansion design. The small study does not establish universal label equivalence or decide FPF ontology. |
-| Current FPF `E.8:4.1.3`, `E.11.DSG`, E.17, F.17, F.18, and E.11.PUA | Separate public recognition, publication, naming, and project pattern use; for a cross-DPF question, distinguish an available maintained result, a maintained MethodDescription, direct-source evidence, and a named unavailable result. | In the `E.11:4` route and `E11-13`, **adopt** those four readable returns before detail. **Reject** a universal resource kind, source availability as proof that a result exists, a public entry that decides suite architecture, and a guide that performs lookup Work. Reopen this choice if `E.8:4.1.3` or `E.11.DSG` changes what a truthful entry can return. E.11 still defines only public guidance plus reliance-conditioned comparison. |
+| Current FPF `E.8:4.1.3`, `E.11.DSG`, E.17, F.17, F.18, and E.11.PUA | Separate public recognition, publication, naming, and project pattern use; for a cross-DPF question, distinguish the four truthful return classes and return to the Suite collection plus the product series, editions, results, states, or sources that change the answer. | Adopt those returns and the direct-known-DPF bypass. Reject a universal resource kind, Suite-edition identity, source availability as proof of a result, a public entry that decides whether a product belongs to a Suite, and a Guide that performs lookup Work. Reopen this choice if `E.8:4.1.3` or `E.11.DSG` changes what a truthful entry can return. E.11 still defines public guidance and reliance-conditioned comparison, not the direct result. |
 
 The practitioner implication is concrete: inspect a small plausible set, compare the first useful result or honest blocker each direct pattern can offer, and open exact identity or basis questions only when they change the choice or a named later reliance. Keep durable comparison history only when someone will use it.
 
@@ -75844,7 +75960,7 @@ The two 2026 studies are current preprint anchors rather than settled consensus.
 
 - **Builds on:** `E.8` for pattern recognition text, `E.17.AUD` for publication-unit discipline, `F.17` and `F.18` for published terms and naming, and `C.2.1` for public helper epistemes.
 - **Leads to:** `E.11.PUA` for applying one selected pattern and `E.11.PUR` for local applicability, recommendation, and coordination.
-- **Coordinates with:** `A.22.CGUS` for demonstrative slices, `E.18` for flow-local results, `G.11` for currentness orchestration, `E.11.DSG` for a separately maintained DPF suite guide and cross-DPF entry, and each direct pattern cited by a public template.
+- **Coordinates with:** `A.22.CGUS` for demonstrative slices, `E.18` for flow-local results, `G.11` for currentness orchestration, `E.11.DSG` for cross-DPF entry, direct-known-DPF bypass, and return to the Suite collection and the product series, editions, results, states, or sources that change the answer, and each direct pattern cited by a public template.
 
 ### E.11:End
 
@@ -76905,29 +77021,29 @@ Reopen this source use when a newer applicable standard or repeated FPF-family u
 
 #### E.11.DSG:1.1 - Use this when
 
-Use this pattern when a practitioner may need results from several DPFs, cannot yet tell which DPF applies, or needs a truthful stop because the current DPF ecosystem lacks part of the answer. The guide should let a cold reader begin from that working situation, recover the exact suite edition behind the guidance, and reach the needed DPF results or sources without treating co-listing as dependency or compatibility.
+Use this pattern when a practitioner may need results from several DPFs, cannot yet tell which DPF applies, needs Suite-wide commonality or relations, or needs a truthful stop because the ecosystem lacks part of the answer. The Guide should let a cold reader begin from that situation, return to the Suite collection and the product series or states that change the answer, and reach the needed results or sources. Co-listing proves neither that a product series belongs to the Suite nor any dependency or compatibility.
 
 **First useful result.** Give one short answer that names the situation and returns each needed item in its real use: an available maintained result, a maintained MethodDescription, direct-source evidence, or a named unavailable result. Say what each contributes and end with an ordinary stop or return. Do not fill a missing result with another title.
 
-**Primary `EntityOfConcern`.** One exact DPF suite guide edition: a non-framework `U.Episteme` that gives readers practical access to one DPF suite. Its continuity with earlier or later guide editions is established only by exact edition relations.
+**Primary `EntityOfConcern`.** One DPF Suite Guide edition: a non-framework `U.Episteme` in the independently maintained Guide product series. Its continuity with another Guide edition and its belonging to that product series are separate direct relations.
 
-**What this buys.** A reader can act on a small answer and still return to the exact suite edition, member products, source facts, warnings, and stronger relations when those details change the action.
+**What this buys.** A reader can act on a small answer and still return to the Suite collection, the product series that belong to it, relevant editions or states, source facts, warnings, and stronger relations when those details change the action.
 
-**Not this pattern when.** Use `E.4:4.2` and `E.4.PFAD` to decide suite architecture, membership, maintenance, and exposure. Use one DPF directly when its result is already clear. Use `E.11.PFP` only for an FPF, DPF, or LPF edition; a suite guide is not a framework edition. A publication that compares several suites has its own product boundary. Use the direct patterns for lookup Work, publication, availability, dependency, compatibility, evidence, authority, or currentness claims.
+**Not this pattern when.** Use `E.4:4.2` and `E.4.PFAD` to decide product-series or Suite constitution, which editions belong to which product series, which product series belong to the Suite, maintenance, and exposure. Use one DPF directly when its result is already clear. The Guide is the problem-led entry only when selection, cross-DPF use, Suite-wide commonality or relations, or an ecosystem gap is current. An absent, unavailable, stale, or unneeded Guide neither erases the Suite nor prohibits direct DPF use, but it cannot supply a current cross-DPF route. Use `E.11.PFP` only for an FPF, DPF, or LPF edition; a Suite Guide is not a framework edition. A publication that compares several Suites has its own product boundary. Use the direct patterns for lookup Work, publication, availability, dependency, compatibility, evidence, authority, or currentness claims.
 
 ### E.11.DSG:2 - Problem
 
-A list of DPFs does not tell a practitioner which combination answers one working question. A detailed guide can fail in the opposite direction: every entry repeats member states, warnings, sources, evidence, relations, and metadata until the first useful answer disappears.
+A list of DPFs does not tell a practitioner which combination answers one working question. A detailed guide can fail in the opposite direction: every entry repeats product states, warnings, sources, evidence, relations, and metadata until the first useful answer disappears.
 
-Both failures invite stronger false claims. Readers may infer that listed DPFs form one framework, depend on each other, are compatible, are current, or are available. They may treat the guide as the Work of finding an answer, as evidence for the answer, or as the source of suite membership. A changed member edition can then make advice stale while the exact suite and guide editions remain unclear.
+Both failures invite stronger false claims. Readers may infer that listed DPFs form one framework, depend on each other, are compatible, current, or available. They may treat the Guide as lookup Work, evidence, or the source of the claim that a product series belongs to a Suite. A changed DPF edition can then make advice stale while the Suite collection, product series, and Guide edition remain unclear.
 
 ### E.11.DSG:3 - Forces
 
 | Force | Pressure on the solution |
 | --- | --- |
 | Fast first use | A reader needs an answer before a catalogue of internal distinctions. |
-| Exact return | The answer must still lead to the exact guide, suite, DPF, and source editions that support it. |
-| Independent products | Suite, guide, member DPFs, adjacent evidence products, and carriers change under different commitments. |
+| Exact return | The answer must still lead to the Suite collection, the product series or edition that changes the action, the Guide edition, and the direct source. |
+| Separate managed boundaries | The Suite collection, Guide product series, DPF product series that belong to the Suite, adjacent evidence products, and carriers have distinct identity, edition or state, and maintenance claims. |
 | Honest combination | Several resources may be necessary, alternatives, or merely plausible; the guide must not overstate the relation. |
 | Current action | Date, status, warning, availability, and source return matter only when they change what the reader should do. |
 | Low record burden | Ordinary lookup may remain conversation; addressable answers are justified only by later review, reuse, publication, or reliance. |
@@ -76937,19 +77053,23 @@ Both failures invite stronger false claims. Readers may infer that listed DPFs f
 
 Write the practical answer first. State the recognizable situation and question, then say what each returned item actually is and what it contributes: an available maintained result of its own kind and supplying product, a maintained MethodDescription used to select or perform its Method, direct-source evidence for a named claim or decision, or a named unavailable result with its blocker and retry. End with the ordinary stop or return. Add exact identity, relation, evidence, warning, or reliance detail only when it changes the answer's truth, the reader's choice, or a named later use.
 
-#### E.11.DSG:4.1 - Keep the guide line and each edition exact
+#### E.11.DSG:4.1 - Keep the Guide product series, each edition, and Suite belonging distinct
 
-**DPF suite guide** is Plain relation-defined wording for exact guide editions connected by accepted `EpistemeEditionRelation` occurrences and maintained for one reader use; it names no separate line object or root kind. A **DPF suite guide edition** is one exact `U.Episteme`, identified under `C.2.1` as:
+A **DPF Suite Guide product series** is a continuing collection of Guide edition epistemes under its reader-use, content-selection, admission, maintenance, and reidentification rule. It begins only when a product-constitution decision under `E.4:4.2` admits the first Guide edition and its maintaining System accepts the Guide commitment. A title, date, language tag, file, carrier, or publication does not create the series.
+
+A later Guide edition belongs to that series only after its source-edition relation and the Guide admission rule pass and an admission decision takes effect. Supersession, unavailability, non-currentness, or edition retirement does not end that occurrence while the same Guide product series continues. If the series ends, current belonging ends with it. If its identity rule identifies another series, belonging to the old series ends when that reidentification takes effect. The past fact remains, and another Guide product series needs its own admission and occurrence. A fork, translation, retargeting, or reconstruction is not admitted by title or provenance alone. A changed-scheme derivative may remain in the same Guide product series only when it also qualifies as an edition and the shared reader, access, maintenance, warning, refresh, and retirement conditions still hold.
+
+The Guide product series belongs to its DPF Suite only after a separate Suite-inclusion decision takes effect. Belonging remains current only while the same Guide product series and Suite continue and no removal decision has taken effect. If either collection ends, current belonging ends with it. If its identity rule identifies another collection, belonging to the old collection ends when that reidentification takes effect. Neither case requires a prior removal decision, and the new Guide product series or Suite needs a new inclusion. The Guide product series, its Suite belonging, Guide availability, and Guide use are different claims. The Suite may exist before the Guide series is included, and a Guide may be temporarily unusable without ending the Suite or other belonging occurrences. This claim establishes no parthood or holonhood; any such claim needs the complete A.1 test and its own part relation.
+
+One exact **DPF Suite Guide edition** is identified under `C.2.1` as:
 
 ```text
 <claim content = J_g, EntityOfConcern = G, effective ReferenceScheme = R_g>
 ```
 
-`G` is that exact guide edition. `J_g` states its intended readers and use, one exact suite-edition reference, selected problem-led entries, the exact resource and blocker claims those entries make, and only the source, warning, availability, and currentness claims that change those entries. `R_g` resolves the guide and suite editions, cited DPF products and editions, results, adjacent products, direct sources, and relation words used in the entries. A title, date, language tag, file, carrier, or publication occurrence cannot replace this identity.
+`G` is that Guide edition. `J_g` states its intended readers and use, the Suite collection, selected problem-led entries, the resource and blocker claims those entries make, and only the product-series or edition state, source, warning, availability, and currentness claims that change those entries. `R_g` resolves the Guide edition, Suite collection, cited product series and editions, results, adjacent products, direct sources, and relation words used in the entries.
 
-The guide line continues only when a later edition actually uses an earlier edition as its source and preserves the intended readers, practical use, content-selection rule, and maintenance boundary. A new suite edition normally calls for a guide refresh, but does not create a new guide product. A fork, translation, retargeting, or independent reconstruction is not an edition successor merely because it keeps the title.
-
-The guide product has its own capable maintaining System, accepted maintenance commitment, access, refresh route, and retirement boundary. Suite maintenance does not supply guide maintenance, and guide maintenance does not supply suite or member-DPF maintenance. Authorship, publication, a locator, or the word *maintained* establishes none of those commitments.
+The Guide product has its own capable maintaining System, accepted maintenance commitment, access, refresh route, and retirement boundary. Suite maintenance does not supply Guide maintenance, and Guide maintenance does not supply maintenance of the DPF product series that belong to the Suite. Authorship, publication, a locator, or the word *maintained* establishes none of those commitments.
 
 #### E.11.DSG:4.2 - Make the public minimum immediately useful
 
@@ -76958,8 +77078,8 @@ Show these guide-level facts where a reader can see them before choosing an entr
 - title and exact guide-edition locator;
 - fixed edition date, intended readers, and practical use;
 - actionable status or an honest non-current, superseded, or retired warning, together with its as-of basis;
-- exact suite-edition locator and a working return to its authoritative source; and
-- a table of contents that locates guide sections and member DPFs without implying order or stronger relations.
+- Suite-collection locator, working return to its identity and inclusion/removal account, and any product-series state that changes the answer; and
+- a table of contents that locates guide sections and DPFs whose product series belong to the Suite without implying order or stronger relations.
 
 The edition date says when this edition was constituted. It is not a changing currentness claim or the date of every publication occurrence. Show the author when attribution, trust, contact, reliance, or source return changes what the reader should do. A byline does not identify the guide maintainer, suite maintainer, publisher, or authority.
 
@@ -76972,7 +77092,7 @@ available maintained result, maintained MethodDescription, direct-source evidenc
 ordinary stop or return
 ```
 
-Add a member's state, field promise, detailed locator, applicability, evidence, availability, dependency, compatibility, warning, author, or claim-local reopen condition only when it changes the choice, truth, stop, return, or named reliance. Put a genuinely shared boundary once at guide or section level. Do not repeat empty fields, and do not copy `E.11.PFP`'s framework pattern-index grammar into this non-framework guide.
+Add a DPF product series' or edition's state, field promise, detailed locator, applicability, evidence, availability, dependency, compatibility, warning, author, or claim-local reopen condition only when it changes the choice, truth, stop, return, or named reliance. Put a genuinely shared boundary once at guide or section level. Do not repeat empty fields, and do not copy `E.11.PFP`'s framework pattern-index grammar into this non-framework guide.
 
 Frame each entry around a real working question and the decision or action the reader needs next. Let the route branch, overlap, or offer several honest stops when the situation does; do not force a false linear procedure. Keep the action-changing guidance in the entry and link to detailed reference material instead of repeating it. At guide level, state whose information need is served, how the guidance is presented and made available, and how it will be maintained; do not turn that information-development discipline into software-only scope or a mandatory documentation process.
 
@@ -76988,21 +77108,25 @@ Say directly what each returned item does. For an available maintained result, n
 
 Call an answer the **smallest sufficient combination** only when the guide entry gives a recoverable candidate boundary, required result, and sufficiency rule, and removing any returned item makes that result insufficient. The boundary is the resources actually inspected through the entry and its direct source returns, not every publication that might exist.
 
-When that test cannot be completed, return a bounded plausible combination and name the uncertainty or missing item. Do not disguise a convenient shortlist as a `JointUseSet`. Use `G.5` only when every exact returned resource is required for one named use and the current inclusion basis supports the all-member claim.
+When that test cannot be completed, return a bounded plausible combination and name the uncertainty or missing item. Do not disguise a convenient shortlist as a `JointUseSet`. Use `G.5` only when every named returned resource is required for one named use and the current inclusion basis supports that all-items-needed claim.
 
-#### E.11.DSG:4.5 - Return to the suite and source when products change
+#### E.11.DSG:4.5 - Return to the Suite collection and exact sources when products change
 
-The guide points to one exact suite edition; it does not decide or copy suite membership. Use the exposure chosen under `E.4:4.2`:
+The Guide identifies the Suite collection; it does not decide or copy which product series belong. Its public return names:
 
-- for an independently exposed suite edition, provide its working publication or access route;
-- for a guide projection, name the authoritative suite edition, captured membership and use, omissions or coarsening, as-of boundary, and working source return; or
-- for a combined carrier, identify every exact constituent and its form or route while keeping identities, editions, maintenance commitments, access, and currentness separate.
+- the Suite collection and a working route to its identity, inclusion, and removal decisions;
+- each product series that belongs to the Suite, and each edition, result, state, or direct source that changes the answer;
+- when reproducibility needs one, the exact optional configuration description, its as-of scope, and its source return.
 
-A copied member table or locator without a working source return is orientation only. When a member DPF publishes a new edition, keep product membership only if the product identity, accepted inclusion basis, and exact basis pins remain valid. Then refresh only the guide advice, availability, compatibility, or warnings that actually changed. If the new edition defeats that basis or leaves it unresolved, warn readers and return to `E.4:4.2` and the applicable `E.4.PFAD` decision to decide whether to constitute a new suite edition, remove or restore a member or the suite, or retire it; the guide does not decide that architecture question. Temporary unavailability alone does not change membership, but it may require an action-changing warning or currentness update. If the suite loses its maintainer or edition-recovery route, or would fall below two qualifying member products, present no current-suite answer. Warn, return to the last exact edition, and route the architecture question to restoration or retirement.
+A Guide projection states which belongs-to claims it captures, omits, or coarsens and the time or scope for which that account applies. It does not become the authoritative collection account. A combined carrier identifies each constituent and keeps identities, editions, maintenance commitments, access, and currentness separate. A copied product table or locator without a working source return is orientation only.
+
+When a DPF publishes a new edition, test separately whether that edition belongs to its product series. Then refresh only the Guide advice, availability, compatibility, warning, or source return that changed. A superseded or unavailable edition still belonged to its product series while that series continued. If a product series in the Suite no longer qualifies under the inclusion rule, show the warning and return to `E.4:4.2` and `E.4.PFAD` for repair, removal, Suite change, or retirement. Until that decision, do not present the product as qualifying, current for the defeated common use, or recommended on that basis. Belonging continues until an effective removal only while the same product series and Suite continue; restoration before removal preserves the occurrence, while removal followed by inclusion creates another. If the product series ends or its identity rule identifies another series, belonging to the old Suite ends without a prior removal. The new product series needs a new inclusion.
+
+An absent, unavailable, stale, or unneeded Guide does not erase the Suite, end current belongs-to occurrences, or prohibit direct use of a known DPF result. It does prohibit a claim that the Guide currently supplies the cross-DPF route. If the Guide loses its maintainer or source return, present its historical editions, warn readers, and use a direct DPF where the result is already known. If the Suite temporarily contains one product series or none under an explicit preservation decision, present no current cross-DPF answer; return to restoration, review, or retirement. When a Suite end or retirement decision takes effect, every current belongs-to occurrence ends without separate removals. Keep the past fact that each product belonged to that Suite, but require another constitution decision and new inclusions for any later active ecosystem.
 
 #### E.11.DSG:4.6 - Distinguish expression, derivative, edition, and product
 
-Another layout, carrier, rendering, or faithful expression of the same exact claims under the same scheme presents the same guide episteme. A translation or other derivative that changes claims or effective scheme is a distinct episteme with an exact source-to-use path under `C.2.P`; when meanings cross schemes, test the `F.9` Bridge and bounded use separately. It is not an edition successor from title or provenance alone.
+Another layout, carrier, rendering, or faithful expression of the same exact claims under the same scheme presents the same Guide episteme. A translation or other derivative that changes claims or effective scheme is a distinct episteme with an exact source-to-use path under `C.2.P`; when meanings cross schemes, test the `F.9` Bridge and bounded use separately. Title or provenance alone establishes no `EpistemeEditionRelation`.
 
 A language-specific derivative stays within the same guide product only while readers and use, access, maintenance, warnings, refresh, and retirement share one boundary. If a language community needs an independently useful state or an independent boundary for any of those concerns, select another guide product. A multi-suite comparison publication also has another product boundary.
 
@@ -77018,24 +77142,28 @@ If the decision is safety-critical or legally constrained, add the exact source 
 
 A narrative-practice guide may combine results from independently maintained narrative, language-practice, and pedagogical DPFs for one lesson-planning question. Include all three only if removing any one makes that result insufficient under the stated rule. Otherwise present alternatives or a bounded plausible combination.
 
-A Spanish translation of an English guide is a derivative episteme when its effective scheme changes. It remains in the same guide product only while its reader, access, maintenance, warning, refresh, and retirement boundary remains shared. Independent Spanish maintenance selects another guide product, not another edition merely because the title and member list remain recognizable.
+A Spanish translation of an English guide is a derivative episteme when its effective scheme changes. It remains in the same guide product only while its reader, access, maintenance, warning, refresh, and retirement boundary remains shared. Independent Spanish maintenance selects another guide product, not another edition merely because the title and list of included product series remain recognizable.
 
-#### E.11.DSG:5.3 - Lifecycle returns
+#### E.11.DSG:5.3 - Returns after inclusion, availability, identity, or retirement changes
 
 | Situation | Reader-facing result |
 | --- | --- |
-| Only one relevant DPF product exists. | Use that DPF or call it a suite seed; present no suite edition. |
-| A member DPF publishes a new edition. | If product identity, the accepted inclusion basis, and exact basis pins remain valid, keep membership and refresh only affected guide claims. If that basis is defeated or unresolved, warn and return to `E.4:4.2` and the applicable `E.4.PFAD` decision to decide whether to constitute a new suite edition, remove or restore a member or the suite, or retire it; the guide does not decide it. |
-| A member is temporarily unavailable. | Keep membership and show the action-changing warning or return. |
-| Removal would leave one or no members. | Present no singleton or empty edition; mark current suite use unavailable and return to restoration or retirement. |
-| There is no identified capable System with an accepted maintenance commitment for the suite or guide. | Keep historical editions exact, but present no current maintained product. |
-| A guide projection cannot return to the authoritative suite edition. | Label it orientation only; do not claim exact access, membership truth, availability, or currentness. |
+| One DPF result is already known and sufficient. | Use that DPF directly; do not require a Guide detour. |
+| Several DPFs may apply or the applicable DPF is unclear. | Use the Guide's problem-led route when a current trustworthy Guide is available. |
+| The Suite exists before the Guide product series is included. | Keep the Suite and the DPF product series that already belong to it identifiable. Make no claim that a Guide route is available; direct use remains allowed. |
+| A DPF whose product series belongs to the Suite publishes a later edition. | Test the edition-to-product-series admission, then refresh only affected Guide claims or warnings. Do not create a Suite edition. |
+| A product series in the Suite no longer qualifies. | Warn and return to the decision branch. While the same product series and Suite continue, belonging remains until removal; restoration before removal keeps the occurrence, while removal followed by inclusion creates another. |
+| A DPF product or the Guide is temporarily unavailable or stale. | Keep the belongs-to occurrence when it still obtains, show the action-changing warning, and do not claim that the unavailable product currently supplies its route or result. |
+| The Suite temporarily contains one product series or none under its preservation rule. | Present no current cross-DPF answer; name the restoration, review, or retirement return. |
+| A DPF product series has ended or its identity rule identifies another series. | End its current belonging to the Suite when the series ends or the reidentification takes effect; no prior removal is required. Show that the old product series belonged in the past. Include the new product series only through a new inclusion decision and occurrence. |
+| The Suite has ended or retired. | When the end or retirement decision takes effect, end every current belongs-to occurrence without separate removals. Keep the historical collection, products, editions, and past belonging identifiable, but require another constitution decision and new inclusions for later active Suite use. |
+| A Guide projection cannot return to the authoritative Suite and product-series account. | Label it orientation only; do not claim access to the authoritative belongs-to facts, availability, or currentness. |
 | One carrier exposes several products. | Identify each constituent; infer no merged identity, edition, maintenance, or stronger relation. |
 | An answer needs a result the ecosystem does not supply. | Name the product gap and return to a direct source, an existing-DPF change, a new-DPF question, or an explicit stop. |
 
 ### E.11.DSG:6 - Bias-Annotation
 
-- **Catalogue bias.** A longer member list looks more complete. Judge the entry by whether it returns the right contributions or blocker for the current question.
+- **Catalogue bias.** A longer list of included DPF product series looks more complete. Judge the entry by whether it returns the right contributions or blocker for the current question.
 - **Combination bias.** Co-use looks like dependency or compatibility. State those relations only after their exact edition-level predicates pass.
 - **Freshness-display bias.** A current-looking page or recent date looks maintained. Require the direct maintenance, source-return, status, and currentness facts.
 - **Precision-display bias.** Repeated fields and formal identities look safer. Keep the ordinary answer first and add only detail that changes truth or action.
@@ -77045,12 +77173,12 @@ A Spanish translation of an English guide is a derivative episteme when its effe
 | ID | Passing condition |
 | --- | --- |
 | `CC-DSG.1` Situation first | A cold reader sees the working situation, practical question, useful answer or blocker, exact contributions, and stop or return before internal apparatus. |
-| `CC-DSG.2` Exact guide and suite return | The guide edition is exact, and its public face points to one exact suite edition through a working source return. A locator or copied table is not treated as access. |
-| `CC-DSG.3` Separate product boundaries | Guide, suite, member DPFs, adjacent products, lookup Work, answer, publication form, and carrier remain separate. Suite and guide maintenance commitments are independently recoverable. |
-| `CC-DSG.4` Progressive detail | Date and actionable status are visible; author, evidence, relation, member-state, warning, and reopen detail appears only when it changes reader action, truth, or named reliance. |
+| `CC-DSG.2` Guide and Suite return | The Guide identifies its edition and returns to the Suite collection, the decisions that establish which product series belong, and each product, edition, result, state, or source that changes the answer. An optional configuration description is named only when the use needs it. |
+| `CC-DSG.3` Separate product and use boundaries | Guide product series, Guide edition, Suite collection, DPF product series and editions, lookup Work, answer, publication, carrier, belongs-to occurrences, availability, and Guide use remain distinct. |
+| `CC-DSG.4` Progressive detail | Date and actionable status are visible; author, evidence, relation, product-series state, warning, and reopen detail appears only when it changes reader action, truth, or named reliance. |
 | `CC-DSG.5` Answer discipline | Each returned item is classified and stated separately as an available maintained result of its actual kind and supplying product, a maintained MethodDescription reference, direct-source evidence, or a named unavailable result. Its readable contribution or blocker is explicit; recommendation, alternative, dependency, compatibility, and co-listing create none of those relations. |
 | `CC-DSG.6` Smallest claim tested | “Smallest” has a candidate boundary, required result, sufficiency rule, and item-necessity test; otherwise the answer is called bounded and plausible. |
-| `CC-DSG.7` Lifecycle honesty | A member-edition change keeps product membership only after product identity, the accepted inclusion basis, and exact basis pins remain valid; a defeated or unresolved basis returns to `E.4:4.2` and `E.4.PFAD`. Temporary unavailability, fewer-than-two transition, missing maintainer, missing source return, warning, and retirement follow their own branches. |
+| `CC-DSG.7` Change and return honesty | Edition admission to a product series, product-series inclusion in a Suite, qualification warning, removal, product or Suite ending and reidentification, past belonging, availability, Guide route, temporary empty state, and retirement follow their separate rules. A known DPF result remains directly usable without a Guide detour. |
 | `CC-DSG.8` Derivative boundary | Expression, translation or other derivative, an established edition-continuity relation, language-specific product, and carrier are distinguished by their actual identity, source, scheme, reader-use, and maintenance facts. |
 | `CC-DSG.9` Plain-language whole passage | The complete changed passage can be read by an engineer or manager without reconstructing ontology notation; exact triples and relation terms appear only where they change identification or a stronger claim. |
 | `CC-DSG.10` Current task-guide fit | Each entry starts from a real working question, supports necessary branches or honest stops, links out distracting reference detail, and reflects the intended readers' information need, presentation, availability, and maintenance. The guide records what was adopted, adapted, and rejected from current task-guide practice and when to recheck it. |
@@ -77062,7 +77190,7 @@ A Spanish translation of an English guide is a derivative episteme when its effe
 | DPF list as guide answer | Titles do not say whether an entry returns an actual maintained result, a MethodDescription, source evidence, or a missing result, nor what it contributes. | State the question, classify each return, name its direct contribution or blocker, and stop or return. |
 | Guide as framework | A cross-DPF reader product receives a framework identity or pattern-index grammar. | Keep the guide a separate non-framework episteme product and apply `E.11.PFP` only to actual FPF, DPF, or LPF editions. |
 | Guide performs lookup | Publication content is mistaken for dated Work or an operation application. | Name lookup Work, Method, performer, assignment, and bindings only when the direct claim needs them. |
-| Membership from navigation | ToC order, a copied table, or co-listing is read as suite membership or a stronger relation. | Return to the exact suite edition; apply the direct predicate to every stronger claim. |
+| Belonging or current route from navigation | ToC order, co-listing, copied tables, or a visible Guide are read as proof that a product series belongs to the Suite or that a current cross-DPF service exists. | Return to the Suite inclusion/removal account; test Guide availability and use separately. |
 | Mandatory answer record | Every conversation produces a lookup-result object. | Keep ordinary answers in prose; persist only for named review, reuse, publication, or reliance. |
 | “Smallest” by confidence | A convenient shortlist is presented as minimal. | Supply the candidate boundary and necessity test or say “bounded plausible combination.” |
 | Translation as edition | Shared title or provenance hides changed claims or scheme. | Identify the derivative episteme and source-to-use path; test edition continuity independently. |
@@ -77070,13 +77198,13 @@ A Spanish translation of an English guide is a derivative episteme when its effe
 
 ### E.11.DSG:9 - Consequences
 
-**Benefits.** Readers can start with a short cross-DPF answer, distinguish an actual maintained result from a MethodDescription, source evidence, or a missing result, recover the exact products behind the answer, and see an honest product gap. Maintainers can refresh advice without silently changing membership, edition continuity, dependency, or compatibility.
+**Benefits.** Readers can start with a short cross-DPF answer, distinguish a maintained result from a MethodDescription, source evidence, or a missing result, recover the products behind the answer, and see an honest product gap. Maintainers can refresh advice without silently changing which editions belong to product series, which product series belong to the Suite, edition continuity, dependency, or compatibility.
 
 **Costs.** The guide and suite need separate maintenance commitments and exact source-return paths. High-consequence answers may require more detail than ordinary lookups. Those costs appear only where the reader's action or later reliance needs them.
 
 ### E.11.DSG:10 - Rationale
 
-A suite answers which independently maintained DPF products belong together for one use. A guide answers how a reader starts from a situation and uses exact resources. Keeping those products separate permits one guide to be repaired, translated, warned, or retired without rewriting suite membership, and permits a suite edition to change without pretending the old guide stayed current.
+A Suite is a continuing collection of DPF product series and, once included, its Guide product series. The Guide answers how a reader starts when selection or a cross-DPF question is live. Keeping the Suite collection, Guide belonging, Guide availability, and Guide use separate permits direct use of a known DPF result and permits Guide repair or retirement without rewriting Suite identity.
 
 Progressive detail is not imprecision. The ordinary sentence carries the useful distinction first; exact episteme identity, edition continuity, source use, and stronger relation predicates remain available when they change the claim.
 
@@ -77087,19 +77215,19 @@ Progressive detail is not imprecision. The ordinary sentence carries the useful 
 | Current FPF `E.11` and `E.11.PUA` | Situation-first entry, first useful result, progressive explicitness, and ordinary stop or return. | A guide entry remains weaker than the direct pattern and does not become project Work or a universal workflow. |
 | `ISO/IEC/IEEE 26514:2022, Design and development of information for users`, current published edition, `https://www.iso.org/standard/77451.html` | Establish users' information needs, choose presentation, prepare and make information available, and maintain its design through the life cycle. | **Adapt** those guide-level questions. **Reject** software-only scope, the full information-development process, and any inference that a filled template proves a useful guide entry. |
 | Diátaxis, `How-to guides`, living practitioner documentation checked 2026-08-22, `https://diataxis.fr/how-to-guides/` | Start from a real-world goal; allow forks, overlap, and multiple entry or exit points; keep action central and link distracting reference detail. | **Adapt** problem-led routing and economy of detail. **Reject** a universal four-part documentation taxonomy for FPF, a forced linear route, and the claim that a guide performs the reader's Work. |
-| Current FPF `E.8:4.1.3`, with `A.3.2`, `A.10`, `A.15.1`, `A.15.PROD`, and `C.2.1` at their direct uses | Distinguish an available maintained result, a maintained MethodDescription, direct-source evidence, and a named unavailable result; keep result production, description use, source use, and result availability separate. | **Adapt** the four readable guide returns in `E.11.DSG:1.1`, the Solution opening, `E.11.DSG:4.2–4.3`, `CC-DSG.5`, and the list-as-answer repair. **Reject** a universal resource kind, source availability as result production, and any inference from co-listing to suite membership or a stronger relation. Reopen this choice if those direct FPF boundaries change enough to alter what a guide can truthfully return. |
-| Current FPF `E.4`, `C.2.1`, and `G.5` | Separate product boundary, exact episteme and edition identity, and all-members-for-one-use set discipline. | The guide defines none of those objects or predicates and cannot establish them by presentation. |
+| Current FPF `E.8:4.1.3`, with `A.3.2`, `A.10`, `A.15.1`, `A.15.PROD`, and `C.2.1` at their direct uses | Distinguish an available maintained result, a maintained MethodDescription, direct-source evidence, and a named unavailable result; keep result production, description use, source use, and result availability separate. | **Adapt** the four readable Guide returns in `E.11.DSG:1.1`, the Solution opening, `E.11.DSG:4.2–4.3`, `CC-DSG.5`, and the list-as-answer repair. **Reject** a universal resource kind, source availability as result production, and any inference from co-listing to Suite belonging or a stronger relation. Reopen this choice if those direct FPF boundaries change enough to alter what a Guide can truthfully return. |
+| Current FPF `E.4`, `A.14`, `C.2.1`, and `G.5` | Separate the Suite collection, the product series that belong to it, edition identity, and the all-items-needed-for-one-use test. | The Guide defines none of those predicates and cannot establish them by presentation. |
 | Current FPF `C.2.P`, `F.9`, `E.17`, `E.24.PUB`, and `G.11` | Source-linked derivatives, semantic Bridges when needed, source-backed publication, availability, and currentness. | Shared title, visible carrier, locator, or recent date proves none of those claims. |
-| Reviewed cross-domain guide situations | Organization/operation, legal, configuration, commercial, language, and contested-problem cases expose different justified depths. | They test the transferable form; they do not select concrete suite members, project answers, or domain authority. |
+| Reviewed cross-domain Guide situations | Organization/operation, legal, configuration, commercial, language, and contested-problem cases expose different justified depths. | They test the transferable form; they do not select product series for a Suite, project answers, or domain authority. |
 
 Reopen only the affected section when a direct FPF pattern changes the identity, relation, publication, source-return, progressive-entry, or currentness result used here; when a newer ISO/IEC/IEEE 26514 edition changes the relevant guidance; when the maintained Diátaxis guidance materially changes; or when cold-reader evidence shows that the short answer no longer supports truthful action. These external lines remain comparison aids, not the guide's ontology or a substitute for project evidence.
 
 ### E.11.DSG:12 - Relations
 
 - **Specializes:** `E.11` for one maintained cross-DPF guide product; it does not specialize `E.11.PFP`.
-- **Uses:** `E.4:4.2` and `E.4.PFAD` for suite architecture and decisions; `C.2.1` for guide, suite, and persisted-answer epistemes and exact edition continuity; and `G.5` only for an actual `JointUseSet` result.
+- **Uses:** `E.4:4.2` and `E.4.PFAD` for product-series and Suite constitution, edition-to-product belonging, Suite inclusion and removal, and their decisions; `A.14` for the distinction between collection belonging and constructive parthood; `C.2.1` for Guide and DPF editions and their continuity; and `G.5` only for an actual `JointUseSet`.
 - **Coordinates with:** `E.4.PFR` for exact edition dependency and compatibility; `C.2.P` and `F.9` for derivatives and cross-scheme use; `E.17`, `E.24.PUB`, and `G.11` for source return, publication, availability, and currentness; `E.11.PUA` and `E.11.PUR` for actual selected-pattern use and pattern-use coordination.
-- **Constrains:** public DPF suite guide entries, guide-level metadata and warnings, source-return projections, persisted lookup answers, and lifecycle returns.
+- **Constrains:** public DPF suite guide entries, guide-level metadata and warnings, source-return projections, persisted lookup answers, and returns after inclusion, availability, identity, or retirement changes.
 
 ### E.11.DSG:End
 
@@ -77514,7 +77642,7 @@ This section defines **what each layer is for**, **what it guarantees when selec
 **Elements.**
 
 * **Kinds** — one **chosen concept** per node (no slash‑labels).
-* **Relations** — a short list intelligible to non‑specialists (e.g., *Component‑of*, *Member‑of*, *Aspect‑of*, plus a small number of cross‑disciplinary ties such as *Interface‑of* or *Constituent‑of*).
+* **Relations** — a short set of statements intelligible to non-specialists (for example, *Component-of*, a subject-specific sentence such as “this cartridge belongs to this bank under the bank's rule”, *Aspect-of*, and a small number of cross-disciplinary ties such as *Interface-of* or *Constituent-of*).
 * **Language register badges** — labels shown in the Working-Model are L-1 or L-2; L-3 and L-4 remain in Mapping as synonyms or symbols.
 
 **Obligations.**
@@ -77610,7 +77738,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 | **Formalism capture**             | Treating a constructive narrative as “the real thing,” with **ut:\*Of** reduced to a label. | Re‑assert Working‑Model primacy: publish in **ut:\*Of**; attach assurance **downwards** only when needed.                                      | E.8 template; Notational‑Independence guard‑rail.                    |
 | **Canonical inversion**           | Demanding constructive grounding for epistemic links by default.                            | Keep the **progressive** stance: prefer Logical/Mapping assurance for knowledge claims; raise to Constructive only when structure is at issue. | Authoring template; Working‑Model pattern family.                    |
 | **Layer leakage (order and time)** | Encoding sequence or phase as part-whole to "strengthen" claims. | Keep **order** and **time** in their own relation families; do not smuggle them into structure. | Temporal and ordering patterns. |
-| **Collection and composition swap** | Using **MemberOf** as if it implied **ComponentOf**, or treating a `set` narrative as the source of membership. | Keep direct collection identity and membership occurrences separate from integrated assembly; a C.13 account reports those facts and creates none of them. | Working-Model mereology guidance in Parts B and C. |
+| **Collection and composition swap** | Using a collection's belongs-to claim as if it implied **ComponentOf**, or treating a `set` narrative as the source of belonging. | Keep collection identity and belonging separate from integrated assembly; a C.13 account reports those facts and creates none of them. | Working-Model mereology guidance in Parts B and C. |
 | **Notation lock‑in**              | Letting a diagram or syntax define meaning.                                                 | Apply **Notational Independence**: define semantics in prose (maths if needed); treat renderings as informative.                               | Notational‑Independence guard‑rail.                                  |
 | **Backwards dependency**          | Letting an assurance publication or record redefine public terms.                                        | Preserve **unidirectional dependence**: Working-Model terms do not derive their meaning from assurance publications or records.                              | Part E guard‑rails (dependency discipline).                          |
 | **Silent assurance posture** | A claim covered by an elected assurance profile omits the posture required by that profile. | Keep the readable claim first, then declare only the posture and support required for the covered use. A direct claim outside a profile needs no E.14 mode. | Applicable assurance profile; `B.3.5` for CT2R-LOG. |
@@ -77625,7 +77753,7 @@ The **Working-Model layer remains the canonical publication face** for authors a
 |**CC-E14-2 (Downward grounding).** | When assurance is attached, grounding **SHALL** flow **downwards** from the Working-Model to the appropriate assurance shoulder (**Mapping, Logical, Constructive, or Empirical**) and **SHALL NOT** impose vocabulary back onto the Working-Model. | Maintain relation-family separation and cognitive economy. |
 | **CC-E14-3 (Assurance posture).** | For a claim covered by an elected `B.3.5` profile or another named current assurance requirement, the author **SHALL** declare the posture required there. Under `B.3.5`, covered claims declare `validationMode`; a direct claim outside such a profile needs no E.14 mode. | Make selected assurance intent explicit without taxing ordinary direct use. |
 | **CC-E14-4 (No order or time in structure).** | Authors **SHALL NOT** encode execution order, parallelism, or temporal coverage as part-whole; keep them adjacent in their own relation families. | Prevent layer leakage and category errors. |
-| **CC‑E14‑5 (Collection differs from composition).** | Authors **SHALL** keep exact membership occurrences and collection identity distinct from component relations and integrated assembly. A gathering description or `set` trace creates neither membership nor component status. | Preserve the direct relation and identity boundaries. |
+| **CC‑E14‑5 (Collection differs from composition).** | Authors **SHALL** keep a collection's identity rule and its own belongs-to occurrences distinct from component relations and integrated assembly. A gathering description or `set` trace creates neither belonging nor component status. | Preserve the direct relation and identity boundaries. |
 | **CC‑E14‑6 (Notational independence).**    | Core meaning **MUST NOT** hinge on a specific diagram or syntax; any rendering present **SHALL** be marked informative.                                                          | Ensure longevity and cross‑discipline portability.            |
 | **CC‑E14‑7 (Layer direction).**            | Authors **SHALL** avoid back-defining Working-Model terms by their assurance publications or records; dependence is one‑way (Working‑Model → Assurance).                                       | Preserve unidirectional dependence of layers.                 |
 | **CC‑E14‑8 (Template compliance).**        | Sections **SHALL** follow the canonical pattern order; *Archetypal Grounding* is mandatory for architectural patterns.                                                                            | Keep patterns comparable and auditable by reading.            |
@@ -77643,22 +77771,22 @@ The **Working-Model layer remains the canonical publication face** for authors a
 1. **Exact skid assembly -> “Component Of”**
    For PumpSkid 7, recover the pump, frame, reservoir, valve set, and other constituents; the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain; the applicable skid assembly rule; and the skid reidentification rule. The team may publish each truthful **Component Of** claim and stop there. If the publication elects `B.3.5`, keep that readable claim first, link it to one current C.2.1 `sum` trace that reports the basis, and declare `validationMode=axiomatic`. The same parts unconnected or assembled differently do not thereby form PumpSkid 7. A permitted pump replacement may preserve PumpSkid 7. The direct relations and reidentification rule decide; the trace and posture do not.
 
-2. **Exact collection memberships -> “Member Of”**
-   For a four-cartridge bank, identify the exact collection, its collection-identity rule, and each direct membership occurrence. A C.13 `set` trace can then report that construction for assurance. Parallel use, physical proximity, a list, or an author's gathering act does not license **Member Of**, does not imply **Component Of**, and does not make the bank an acting system.
+2. **Cartridges that belong to a bank under its collection rule**
+   For a four-cartridge bank, identify the bank and its collection-identity rule, then state which cartridge belongs to it and what makes that belonging begin and end. A C.13 `set` trace can report the collection for assurance. Parallel use, physical proximity, a list, or an author's gathering act does not establish that a cartridge belongs to the bank, does not imply **Component Of**, and does not make the bank an acting system.
 
-3. **Exact bearer, facet, and aspect -> “Aspect Of”**
-   For the thermal envelope of one reactor, identify the reactor bearer, the thermal-envelope aspect, the thermal facet being used, the **Aspect Of** occurrence, and the aspect's identity rule. A C.13 `slice` trace can report those facts. Selecting a view, naming a facet, carving a diagram, or choosing a time window creates no aspect occurrence and no independent system.
+3. **Bearer, facet rule, and aspect -> “Aspect Of”**
+   For the thermal envelope of one reactor, identify the reactor bearer, the thermal-envelope aspect, the thermal-facet rule, the **Aspect Of** occurrence, and the aspect's identity rule. A C.13 `slice` trace can report those facts. Selecting a view, naming a facet, carving a diagram, or choosing a time window creates no aspect occurrence and no independent system.
 
 > **Notes across the examples**
-> • Everyday labels (*Component Of, Member Of, Aspect Of*) remain the only labels engineers need to see; direct relation facts make them true or false. When an assurance profile calls for a construction account, the linked trace makes that basis inspectable.
+> • Keep the ordinary working statement first: **Component Of** or **Aspect Of** where that direct relation is admitted, and a subject-specific sentence such as “this cartridge belongs to this bank under the bank's rule” for collection belonging. When an assurance profile calls for a construction account, the linked trace makes that basis inspectable.
 > • Structural assertions covered by an elected `B.3.5` profile use Constructive assurance. Direct structural claims outside the profile can stand without E.14 assurance fields; epistemic assertions such as “Representation Of” or “Usage Of” use the direct logical or evidence relation appropriate to the claim.
 
 **F — Resulting Context (after you apply the pattern)**
 
 **What improves**
 
-* **One readable structural vocabulary.** Teams can ask which relation obtains—component, member, aspect, or another direct kind—without exposing assurance machinery in ordinary work. When a profile calls for support, assurance readers can also recover the participants, direct relation facts, construction rule, and identity conditions behind the published assertion.
-* **Explicit identity tests.** Input lists and traces do not decide identity. Different assembly relations can make the same listed inputs another whole; an admitted replacement can preserve one whole. Collections use their own identity rule and exact memberships; aspects use the exact bearer, facet, direct relation, and aspect identity.
+* **One readable structural vocabulary.** Teams can ask which claim obtains—component parthood, belonging under the collection's own rule, aspect, or another direct relation—without exposing assurance machinery in ordinary work. When a profile calls for support, assurance readers can also recover the participants, direct relation facts, construction rule, and identity conditions behind the published assertion.
+* **Explicit identity tests.** Input lists and traces do not decide identity. Different assembly relations can make the same listed inputs another whole; an admitted replacement can preserve one whole. Collections use their own identity rule and belongs-to occurrences; aspects use the bearer, facet, direct relation, and aspect identity.
 * **Layer harmony.** Engineer-facing labels live at the same level as other relation names, while their warrants and construction accounts live one step below, keeping human language clean and the claim basis auditable.
 
 **What to watch**
@@ -96601,6 +96729,8 @@ Before naming a relation-facing object, keep these settlements distinct:
 One token may be reused only where the reference scheme and local sense preserve these distinctions; it cannot collapse definition, kind, occurrence, representation, and designator into one object.
 
 `F.18` can settle a durable name for the recovered value. It does not decide which value the interface word names, create a public row, or make that row available.
+
+Words such as *member*, *membership*, *belongs to*, and *in* do not by themselves identify one reusable relation. First use `E.10` to recover whether the sentence concerns mathematical inclusion, kind classification, relation participation, collection belonging, or constructive parthood. For a collection, an ordinary sentence such as “this edition belongs to this product series” is enough unless another use needs a reusable relation name. Name a reusable predicate only under the pattern that states who or what may belong, what makes belonging begin and end, and how recurrence and past belonging are handled. Do not create a `NameCard` or public name for generic `MemberOf` merely to abbreviate the ordinary sentence.
 
 ### F.18:6 - What Belongs In The Label
 
