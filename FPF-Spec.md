@@ -78,7 +78,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | A.2.9 | **`U.SpeechAct` (Communicative Work Kind, Occurrences, and Records)** | Stable | *Keywords:* named receiving use, response versus achievement, smallest repair or stop, admitted speech-act Work kind, actual communicative occurrence, performing `U.System`, authority-grounding assignment, optional `SpeechActRecord`, utterance description, institutional target and effect, publication relation, evidence carrier. *Queries:* "Who should understand or do what with this communication, what evidence is enough, and what smallest repair or stop follows?", "What actual communicative Work occurred?", "Who performed it under which assignment?", "Which separate record, publication, commitment, grant, status, or evidence claim is current?" | **Refines:** A.2. **Builds on:** A.2.1, A.2.6, A.7, A.10, A.15.1. **Used by:** A.2.8, A.6.C. |
 | ***Cluster A.II - Transformation Engine*** | | | | |
 | A.3 | **Transformer Constitution (Quartet)** | Stable | Actor-side constitution for performed work: one individual of `U.Work` is a world-side dated occurrence standing in exact `performedBy` and `enactsMethod` relations; `U.Method` is run-independent, and a `U.MethodDescription` edition enters only when a receiving use relies on it. A Work assertion or description is a separate `U.Episteme`; records and carriers are not Work. A.3.4 can identify natural, formal, joint, or non-separable change without inventing an actor or quartet. | **Builds on:** A.2.1, A.4, A.7. **Coordinates with:** A.3.1, A.3.2, A.3.4, A.10, A.12-A.15, B.1.4-B.1.6, F.9. |
-| A.3.1 | **`U.Method`: Reusable Way of Doing with Explicit Applicability** | Stable | Use when a project needs to name how something is done in principle. Identifies one reusable semantic way under stated generic participant meanings, applicability, preconditions, intended effect or preserved condition, and bounds; cites a reference scheme or selected structure only when it changes identification or the next decision. Keeps descriptions, plans, dated Work, mechanisms, system-role assignments, evidence, and publication separate. | **Builds on:** A.1, A.1.1, A.3. **Coordinates with:** A.3.2, A.6.1, A.6.5, A.6.REL, A.15.1, A.15.2, A.22, B.1.5, C.2.1, C.2.P.DR, E.20, F.9. |
+| A.3.1 | **`U.Method`: Reusable Way of Doing with Explicit Applicability** | Stable | Use when a project must identify one reusable way of doing or untangle a claim described as Method specialization. It distinguishes a Method meeting several kind criteria, a Method kind having several broader kinds, one Method contributing to several whole Methods, and refinement or replacement comparisons. Other questions—for example parameter variation, family grouping, fallback, dispatch, descriptions, performed Work, capability, provider contribution, or cultural change—return to the pattern that defines or tests them. *Queries:* "Is this one Method or two?", "Does this Method meet these kind criteria?", "Does this Method contribute to more than one whole Method?", "What is preserved and changed in this refinement or replacement claim?" | **Builds on:** A.1, A.1.1, A.3. **Coordinates with:** A.3.2, A.6.RCD, A.6.1, A.6.5, A.6.REL, A.15.1, A.15.2, A.22, B.1.5, C.2.1, C.2.P.DR, C.3.1, C.3.2, E.20, F.9, G.5. |
 | A.3.1.MR | **Candidate-Method Recovery from Work Evidence** | Stable | Use when several observed Work occurrences or named sources may show a reusable way but Method identity remains a candidate. Returns one source-traceable account per candidate, the main rival and gaps, and a distinguishing question—or an honest record-only result. | **Builds on:** C.2.1, A.3.1, A.15.1, A.10. **Coordinates with:** A.3.2, A.15.6, C.32.MWA, specialist ME.18. |
 | A.3.2 | **`U.MethodDescription`: Description Episteme for a Way of Doing** | Stable | *Keywords:* method-description membership, claim-bearing episteme, exact `U.Method` EntityOfConcern, substantive way-of-doing claim, same method versus equivalent descriptions, representation versus publication versus plan versus Work. *Queries:* "When does an episteme qualify as `U.MethodDescription`?", "Do these descriptions concern the same method, and are their claims equivalent?", "How do I keep a recipe or code artifact separate from enactment?" | **Builds on:** C.2.1, A.3.1, E.24.UK. **Coordinates with:** A.1.1 only when bounded model use is current, A.6.1, A.6.5, A.15.1, A.15.2, A.22, B.1.5, C.29, E.24.PUB, F.9. |
 | A.3.3 | **U.Dynamics: State-Space and Transition-Law Episteme** | Stable | *Keywords:* dynamics, state space, transition law, observation relation, prediction, simulation, calibration. *Queries:* "How do I model a reusable law of state change?", "When is a process label a dynamics episteme rather than method, work, or transformation?" | **Builds on:** A.1.1, A.19. **Coordinates with:** A.3.1, A.3.2, A.3.4, A.15.1, A.15.2, A.6.1, C.27, C.27.TA, C.29, A.10, B.3, A.20, A.21. |
@@ -136,6 +136,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | A.15.5 | **Work-Entry Readiness and Full-Kit Preparation** | Stable | *Keywords:* work-entry readiness, full-kit condition, readiness before work entry, commitment disposition, prospective permission inputs, retrospective exercise evidence, resource-readiness refs, launch gate, WIP and flow policy, planned slot fillings, blocked readiness overread. *Queries:* "Is this intended work ready to start?", "What is missing before commitment to work entry is honest?", "How do I keep readiness separate from permission, performed work, work plans, gates, resources, and evidence?" | **Builds on:** A.15, A.15.2, A.15.3, B.1.6, A.21. **Coordinates with:** A.2.8.PER, A.15.1, A.15.4, A.10, B.3, A.20, E.18, and E.10.MOVE. |
 | A.15.6 | **Project, Process, and Case Recovery through Work, Method, and Transformation** | Stable | Recover an actual project as composite `U.Work`; a process concern as `U.Method`, an A.22-selected `U.Structure`, or one `TransformationFlowStructure`; and a case as one named subject or claim followed to a separately defined closure with a named-but-excluded downstream use. Keep project system-of-interest designation, actual or intended System identity, project-relevant E.18.NET selection, system-role classification and assignment, Work, change, evidence, records, and results distinct. *Queries:* "What does this project, process, or case claim directly concern?", "Which project-relevant network answers the named question without becoming the project?", "Which case subject or claim closes here, and which downstream use remains outside?", "Is an actor-side participant or Work claim independently grounded?" | **Builds on:** A.15.1, A.3.1, A.22, A.3.4, C.2.1. **Coordinates with:** A.1, A.1.STM, A.2, A.2.1, A.12, A.15.2, A.15.PROD, A.6.RCD, A.6.P.WMR, A.6.1, E.18, E.18.NET, E.17, E.24.PUB. |
 | A.15.7 | **Situation-Responsive Work Steering and Next-Action Selection** | Stable | Use when a deciding System in ongoing Work must choose the next action from current facts while a domain Method still bounds what may be done. Returns the bounded decision, intended performer, and stop or feedback condition, or a blocker due to missing or outdated action-guiding information, authority, capability, safety, applicability, or no current Work. | **Builds on:** A.3.1, A.15.1, A.10. **Coordinates with:** A.15.2, A.15.5, C.11, A.19, C.18, C.24, G.11. |
+| A.15.8 | **Work-Performance Configuration and Recovery Testing** | Candidate | Use when interruption, handoff, delay, degradation, or reconfiguration may change continuation or recovery for either one exact actual Work occurrence with actual performers and relied-on obtaining support relations, or one exact present WorkPlan whose declaration-local content names intended performers and a proposed configuration. Returns the exact focus, supported or proposed configuration, representative probe observation, direct relation result or exact blocker, and next repair or stop without creating an extended-performer, attention, memory, or Work-state kind. | **Builds on:** A.1, A.15.1, A.15.2, A.6.RCD, F.6, C.2.1. **Coordinates with:** A.15.5, A.15.7, A.2.2, A.22, C.30, A.10, and direct domain Methods. |
 | A.15.PROD | **Production Work, Entity-Identity Inception, and Production Completion Recovery** | Stable | Recovers three separate receiver-selected claims: whether exact dated work is the whole production work or its proper part, when exact governed work first made one entity satisfy its applicable identity rule, and when production satisfied its applicable completion criterion at a historical boundary. Work, actual change, entity identity, completion, delivery, acceptance, release, publication, and availability remain separate. | **Builds on:** A.15.1, A.3.1, A.3.4, C.2.1, A.6.RCD. **Coordinates with:** A.1, direct subject-identity patterns, A.15.2, A.15.6, G.11, A.6.P.WMR, E.18.1, F.18, and direct work-to-change, evidence, completion, delivery, acceptance, release, publication, and availability patterns. |
 | A.16 | **Language-State Move Coordination** | Stable | *Keywords:* language-state, move, admissible language-state move, reopen, sketch-backoff, respecify, retire, responsibility transfer. *Queries:* "How do governed epistemes move across the language-state chart?", "What are the admissible language-state move kinds in FPF?" | **Builds on:** C.2.2a, C.2.LS, A.19. **Coordinates with:** A.16.0-A.16.2, B.4.1, E.18, and E.10.MOVE when move-like wording leaves the local language-state object. |
 | A.16.0 | **`U.LanguageStateMoveTrajectory` - Optional trajectory-account normal form over the language-state `U.CharacteristicSpace`** | Stable | *Keywords:* trajectory account, lineage, fork, merge, supersedes, responsibility transfer, heavy history. *Queries:* "When do I publish a language-state trajectory account?", "How does FPF record lineage and branch history?" | **Builds on:** A.16, C.2.2a, E.17, E.18. **Used by:** A.16.1, A.16.2, B.4.1, B.5.2.0. **Coordinates with:** E.10.MOVE when move-like wording is not a language-state trajectory-account claim. |
@@ -447,7 +448,7 @@ The ordinary examples show difficulties that one direct pattern use can usually 
 - **Question:** What should the deciding System choose now, who will perform it, and when must they stop or look again?
 - **First useful result or honest blocker:** One bounded decision, intended performer, and feedback condition—or a named blocker due to missing or outdated action-guiding information, authority, capability, safety, applicability, or no current Work.
 - **Start with:** `A.15.7`.
-- **Stop or return:** Stop when the action, performer, and nearest return condition are clear. If Work has not begun, use `A.15.2` for intended-work content, `A.15.5` for work-entry readiness, or `C.11` only when a known chooser must compare an already formed `OptionSet`.
+- **Stop or return:** Stop when the action, performer, and nearest return condition are clear. If ongoing Work is blocked by a missing or unsupported performer, support, or continuation-state relation rather than by candidate choice, use `A.15.8` to repair that configuration or stop, then return. If Work has not begun, use `A.15.2` for intended-work content, `A.15.5` for work-entry readiness, or `C.11` only when a known chooser must compare an already formed `OptionSet`.
 
 ### METHOD-RECOVERY — Explain what reusable way several performances may show
 
@@ -8151,15 +8152,33 @@ Keep one method across parameter ranges, equipment envelopes, or representation 
 
 **No-extra-locality replay.** `EuclideanGCD` over positive integers closes as one method when the integer meanings, division-with-remainder rule, positivity precondition, decreasing-remainder invariant, and greatest-common-divisor result are stated. If those facts answer the comparison, add no claim scope, context slice, model-use structure, or other locality object.
 
-#### A.3.1:4.8 - Method relation structure, composition, and work enactment
+#### A.3.1:4.8 - Method relations, composition, and Work enactment
 
-First decide whether the question is about one reusable way, a composite way, or relations among already identified objects:
+Start with the practical question, not a graph or the umbrella word *specialization*. Ask what must be decided now.
 
-* one reusable way is a `U.Method`;
-* submethods assembled into a whole remain a `U.Method`, with B.1.5 used when order-sensitive composition is claimed;
-* relations among methods, descriptions, selectors, or Work occurrences remain those exact relations; select a `U.Structure` under A.22 only when their organization changes the next question or action.
+| Current question | First useful result |
+| --- | --- |
+| Does this reusable way meet one or more Method-kind criteria? | Use `C.3.2` for the admissibility check and a `true`, `false`, or `unknown` judgment. An out-of-scope request is `not-applicable` and forms no judgment. |
+| Does one Method kind have several broader kinds? | Check each broader-kind claim under `C.3.1`. Several broader kinds create no Method part or unique parent. |
+| Does one Method contribute to several larger Methods? | Use `B.1.5` for every part–whole pair and every whole construction. Each whole keeps its own action, boundary, interfaces, and reidentification rule. |
+| Are two Methods being compared for refinement or replacement? | First identify both Methods and the use that needs the comparison. State the direction, what remains, what changes, and the material guards or losses. A sentence or local claim is often enough for one use. |
+| Is this another question—for example, parameter variation, family grouping, fallback, dispatch, a description, a selected structure, performed Work, capability, provider contribution, or cultural change? | Use the pattern that defines or tests that claim. The label alone establishes no Method kind, Method part, or relation occurrence. |
 
-`MethodRelationStructure` is only a local designator for such an already selected A.22 `U.Structure`. It is not a durable U-kind, method holon, or relation type, and the label contributes nothing to identity. Candidate relation families—composition such as serial, parallel, choice, or iteration; method change such as refinement, substitution, decomposition, or parameterization; and selection or use such as family membership, fallback, or enactment—are recognition cues. Method-description membership is not one of those relations: A.3.2 judges the episteme itself. Every selected relation occurrence must already obtain under its direct pattern.
+Before claiming refinement or replacement, decide whether the changed account still identifies the same Method. If it does, state what was preserved and what changed; do not invent a relation between two Methods. If two Methods are identified, a refinement comparison states its direction and use, the semantics retained from the first Method, what the second narrows or strengthens, and the action or result that changes.
+
+A replacement comparison says which Method may replace which other Method, for what use, under which preconditions, with which intended result or preserved condition, and which bounds, interfaces, losses, and guards must remain visible. Do not infer the reverse direction. Shared kind criteria or similar descriptions do not prove replacement.
+
+A parameter change inside the Method's declared applicability and identity rule is variation of the same Method. A change to a participant meaning, result, bound, interface, or acceptance condition that matters to identity identifies another Method or leaves the identity question unresolved. The word *parameterization* creates no relation.
+
+A `G.5` family row cites already identified Methods and states why they are grouped for the current use. A fallback can belong to a `B.1.5` whole construction, a `G.5` selector rule or result, or a local relation-bearing claim. A dispatch rule says which selector branch applies; state the current branch and its basis. A family row or selector result creates no Method kind, Method part, refinement, or replacement relation.
+
+When FPF has no admitted predicate for refinement, replacement, fallback, or another relation-bearing claim, use `A.6.RCD` to choose the lightest sufficient result. For one use, a local claim may be enough; repeated use of the same rule may justify a reusable predicate definition. Continue through `E.24` and `E.24.UK` only when a named later use must treat the relation occurrences themselves as stable objects. A local claim or predicate definition cannot become an `A.22` edge.
+
+**Short positive.** `ChangeImpactReview` can meet two Method-kind criteria and also be required by the independent constructions of `ApproveControlSoftwareRelease` and `InvestigateFieldIncident`. Those judgments and two `methodPartOf` facts remain separate. Using the Methods together in dated Work creates none of them.
+
+**Selector anti-case.** A `RapidRecoveryMethods` row groups `RollbackRelease`, `DisableFeatureFlag`, and `ShiftTraffic` for one selector. Its stated grouping basis and fallback policy may support a `G.5` result, but they do not establish a Method kind, one composite Method, or a refinement or replacement relation. If the fallback condition is incomplete, return the missing fact instead of drawing an edge.
+
+`MethodRelationStructure` is only a local name for an `A.22` structure selected from independently identified constituents and relations that already obtain. It is not a durable kind, Method holon, or relation type. Composition, refinement, replacement, parameter variation, family grouping, fallback, dispatch, and enactment are recognition cues; the cue does not decide the claim.
 
 **Filled A.22 basis — enacted-method review.** For this one-off review, a practitioner selects only two A.15.1 `enactsMethod` occurrences. No durable selection judgment is asserted, and no composition, fallback, selector, or work-to-pump relation is created.
 
@@ -8818,7 +8837,7 @@ First identify the claim-bearing episteme, the claim it makes, and the Method it
 
 **CC-A3.2-10 (Same subject versus equivalent descriptions).** Two descriptions concern the same `U.Method` only when their `EntityOfConcern` references resolve to the same A.3.1 method identity. A scheme difference may require an F.9 Bridge to interpret a comparison, but the Bridge does not establish Method identity. Shared subject also does not make the epistemes equivalent: state which claims are preserved, absent, incompatible, or inaccurate for the proposed use. Do not use executable agreement, renaming of bound variables, graph equivalence, or persistence across stages by itself to decide whether the Method is the same or different or the claims are equivalent.
 
-**CC-A3.2-11 (Edition and refinement).** A later file or episteme edition does not by itself refine the Method. Use C.2.1 for the edition relation; state which description claims a comparison preserves or strengthens; and use A.3.1, B.1.5, or another admitted method relation only for an actual refinement claim. If no pattern or declaration defines refinement, keep the two Methods and stop at the edition or comparison result.
+**CC-A3.2-11 (Edition and refinement).** A later file or episteme edition does not by itself refine the Method. Use C.2.1 for the edition relation and state which description claims a comparison preserves or strengthens. Then use A.3.1 to decide whether one Method continues or two Methods are being compared, and apply its refinement test only to the world-side Method claim. A one-use comparison may stop as claim content under A.6.RCD; it creates no Method relation occurrence.
 
 **CC-A3.2-12 (Nondeterminism).** When a description permits search, optimization, sampling, nondeterministic choice, or learned behavior, state the admissible result range and the criterion that will evaluate actual Work or results. Name the pattern or declaration that defines that criterion; the description itself establishes neither actual performance nor an evaluation result.
 
@@ -24528,6 +24547,8 @@ When a named receiving use must decide whether an interruption, resumption, meth
 * **Method-description episteme change:** record the newly selected description episteme separately. That selection neither splits nor preserves Work by itself; only an accompanying actual occurrence change enters the boundary judgment. Call the two descriptions editions only when their exact C.2.1 `EpistemeEditionRelation` obtains.
 * **Rework:** identify the later performance independently. Relate it as another occurrence, episode, or operational part only after the applicable direct predicate and any genuinely needed boundary policy are satisfied. Keep causal attribution with the governing causal-use pattern.
 
+These rules answer Work-occurrence identity and segmentation. When the current question is instead whether exact performer, support, and continuation-state relations let the admitted occurrence continue or recover under interruption, handoff, or degraded support, use the actual-Work branch of `A.15.8`. It neither splits nor preserves the Work occurrence; return every identity, retry, or resumption claim here.
+
 Plans, costs, quality statistics, telemetry evidence, and method-reliance claims may depend on whether the selected history is a temporal part, event-bounded episode, operational part, or later occurrence. Name a continuity-policy episteme, effective reference scheme, scope, and qualification window only when that distinction is actually current. Otherwise retain the direct occurrence facts and stop; do not add policy apparatus to a simple uninterrupted case.
 
 #### A.15.1:5.6 - Work mereology does not compose effects or transformations
@@ -26002,6 +26023,8 @@ Refresh before allowing the reliance appearance to guide release, safety, compli
 
 **Ordinary route.** Name the exact WorkPlan, PlanItem, intended performance, any current intended-work kind, criterion, and evaluation time. Perform and identify the checking Work when the check actually occurs; apply the criterion only to its named current inputs; return `ready`, `readyWithKnownGaps`, `notReady`, or `unknown` with the reliance window and stop or recheck condition. Stop there unless a separate receiver actually needs a persisted result episteme, gate decision, permission result, performed target Work, provenance path, or assurance claim.
 
+When degraded support, handoff, or continuation-state evidence can change work entry, use the present-WorkPlan branch of `A.15.8` to test the proposed performer, support, and state configuration, then return here with its bounded result. Ordinary full-kit checking does not require `A.15.8`.
+
 **What this buys.** A team can decide the next bounded move—start no work yet, prepare an exact missing input, recheck, or submit declared checks to a gate—without turning a plan, green label, commitment, reservation, permission fact, or preparation activity into target Work or into one all-purpose readiness object.
 
 **Not this pattern when.** Use `A.15.2` for the work plan itself, `A.15.3` for planned slot fillers, `A.15.1` for dated performed work, `A.21` for gate decisions, `A.15.4` only when a reliance appearance is already being used as a reason for work or reliance before the subject pattern slot, relation, or project-side reference is named, `B.1.6` for resource aggregation after work, `E.18` for transformation-flow structure, and `E.18.1` for P2W carry-through from accepted problem-side material.
@@ -26170,7 +26193,7 @@ If a dashboard shows green but the exact readiness result or its reliance window
 Benefits:
 
 - Teams can inspect work-entry readiness without flattening plan, preparation, gate, resource, and performed-work claims.
-- TameFlow full-kitting contributes useful criteria without importing TameFlow `MOVE` as an FPF kind.
+- The adapted pre-entry Full-Kitting distinctions supply a recognition palette for a local readiness criterion; neither TameFlow nor its source vocabulary governs FPF readiness.
 - Gate and work evidence remain auditable because readiness only cites them when they are current.
 
 Costs:
@@ -26186,11 +26209,13 @@ The local result is deliberately dependent on exact inputs defined in their subj
 
 ### A.15.5:11 - SoTA-Echoing
 
-| Source family | Use in this pattern | Local adoption |
+| Source family | Currentness and bounded source use | Local adoption |
 | --- | --- | --- |
-| TameFlow `MOVE` and Full-Kitting material | Supplies minimal outcome-value effort, target scope, commitment, WIP pressure, and pre-entry full-kit criteria. | Adopt the useful distinctions as inputs to an FPF-local readiness criterion and result; keep WorkPlan, PlanItem, gate, preparation Work, resource, assignment, permission, and performed-work claims under their subject patterns. |
-| Current A.15 work-family settlement | Separates intended work, planned baseline, and dated performed work. | Reuse the split directly; readiness cites but does not replace those values. |
-| Current A.21 gate-publication discipline | Separates readiness-looking displays from gate decisions. | Readiness may feed a gate, but gate passage belongs to A.21. |
+| Steve Tendon, [*The Book of TameFlow: Theory of Constraints Applied to Knowledge-Work Management*](https://leanpub.com/tameflow), current Leanpub edition accessed 2026-08-27 | Adapt only the pre-entry Full-Kitting distinctions used to recognize minimum outcome or value, target scope, commitment, WIP pressure, and preparation inputs. Reject source `MOVE` or Full-Kitting as an FPF kind or universal readiness ontology; the source remains scoped to knowledge-work management. | Use the adapted distinctions only as inputs to an FPF-local readiness criterion and result; keep WorkPlan, PlanItem, gate, preparation Work, resource, assignment, permission, and performed-Work claims under their subject patterns. |
+| Current A.15 work-family settlement | Current internal governing basis for intended work, planned baseline, dated performed Work, and readiness boundaries. | Reuse the split directly; readiness cites but does not replace those values. |
+| Current A.21 gate-publication discipline | Current internal governing basis for gate decisions and their publication. | Readiness may feed a gate, but gate passage belongs to A.21. |
+
+Correct a factual citation or publication-status label in its row without reopening the readiness action when the used distinction and limit are unchanged. Reopen only the TameFlow row and its Full-Kitting-dependent recognition and action passages in §§4.2 and 9 if a source-edition change alters a used distinction. Reopen the affected A.15.5 boundary if the current FPF A.15 or A.21 work/readiness settlement changes it. Another example, prestige change, or unused source-edition change does not reopen the whole pattern.
 
 ### A.15.5:12 - Relations
 
@@ -26574,6 +26599,7 @@ For a reversible local choice, ordinary project language is enough. Create a dur
 **Not this pattern when.** Use the nearest applicable pattern instead:
 
 - Before Work exists, use `A.15.2` for intended-work content and `A.15.5` for work-entry readiness.
+- When ongoing Work is blocked because an exact performer, support, or continuation-state relation is missing or unsupported—not because known candidates need choosing—use the actual-Work branch of `A.15.8` to repair that configuration or stop, then return here.
 - For a settled short procedure with no material branch, use the applicable domain Method; consult its `A.3.2` MethodDescription when a description is needed.
 - For a choice outside current Work when the chooser and `OptionSet` are already known, use `C.11`.
 - For missing action candidates, use a subject-specific generation Method; use `C.18` only for an actual open-ended candidate archive and front.
@@ -26736,6 +26762,231 @@ The pattern begins before late-stage option comparison and ends before tool-call
 - **Keeps separate:** chooser, intended performer, authority, capability, MethodDescription, plan, recommendation, performed action, result, and later Method or description change.
 
 ### A.15.7:End
+
+## A.15.8 - Work-Performance Configuration and Recovery Testing
+
+> **Type:** Architectural (A)
+> **Status:** Candidate
+> **Normativity:** Normative unless marked informative
+
+**Plain name.** Test whether the exact performer, support, and continuation-state configuration for Work can continue or recover when something important changes.
+
+**Primary reader.** A practitioner preparing or performing human, automated, biological, organizational, computational, or mixed Work whose result may depend on several Systems, tools, records, resources, and environmental conditions.
+
+### A.15.8:1 - Problem frame
+
+**Use this when.** Use this pattern when a result succeeds in one configuration but may fail after interruption, handoff, delay, support loss, replacement, or changed conditions, and the decision needs to know which exact relation to repair or test. Begin through exactly one lawful branch:
+
+- **Actual-Work branch:** start from one exact dated `U.Work` occurrence already admitted under `A.15.1`. Name actual performers, assignments, and attribution only where their direct rules pass.
+- **Present-WorkPlan branch:** start from one exact present `U.WorkPlan` under `A.15.2`. Intended performers and intended performance remain declaration-local plan content; they are not an existing future `U.Work`, obtaining assignment, or actual attribution.
+
+Start with an ordinary branch-exact sentence:
+
+> **Actual Work:** For this admitted Work occurrence, these Systems performed it under the direct attribution rules; these other Systems or values supported it; this is where the state needed to continue lives; this dependency failed under this probe; repair this relation or stop.
+>
+> **Present WorkPlan:** For this present WorkPlan, these Systems are named only as intended performers in its declaration-local content; these other Systems or values support the proposed configuration; this is where the state needed for intended performance would be recovered; this dependency is unsupported by the current plan or probe claim; repair the plan relation or stop.
+
+**First useful result.** Return a short branch-specific account naming the exact Work or WorkPlan focus, required result and receiving decision, actual or intended performers, supports, continuation-critical state, probe and observation, the direct relation result or exact blocker, and the next repair or stop.
+
+**What changes in practice.** Instead of saying that a person, tool, team, organism, service, or machine must “pay attention”, “remember”, or become one “extended performer”, the practitioner names the exact relation whose loss changes continuation or recovery and challenges that relation under one representative condition. The next move becomes a bounded configuration repair, direct domain test, plan change, or stop.
+
+**Cheap non-use.** Do not use this pattern merely because Work uses a tool, a person takes notes, software has state, a bacterium responds to its environment, or several Systems participate. Stop when current results from directly governed domain Work already identify the actual configuration, continuation state, representative recovery evidence, and limits needed by the decision, with the applicable Method and evidence boundary explicit. If `A.15.5` has established an ordinary full kit and no interruption, handoff, support loss, or configuration ambiguity can change entry, stop there. If the configuration is adequate and only the next action during current Work is open, use `A.15.7`.
+
+**Not this pattern when.** Use `A.1` or `B.2` when the current question is whether a proposed whole is a System or must be reidentified; `A.2.2` for capability of one admitted holder; `A.15.1` for Work occurrence identity or resumption segmentation; `A.15.2` for the WorkPlan; `A.15.5` for ordinary entry readiness; `A.15.7` for next-action selection; `A.22` for one selected Structure; `C.30` for architecture; the direct representation pattern for a representation; `A.10` for evidence reliance; or the applicable domain Method when only its test, threshold, algorithm, safety rule, or intervention is missing.
+
+### A.15.8:2 - Problem
+
+Performance often depends on relations among actual or intended performers, supporting Systems, physical resources, representations, records, services, models, environmental conditions, and state needed for continuation. A perfect run can hide that one dependency is stale, inaccessible, inconsistent, unavailable to a successor, or supported only by the current session.
+
+Umbrella words conceal different objects. “Attention” may mean sensing, selection, monitoring, search, checking, or a holder capability. “Memory” may mean internal state, a record, model state, retrieval, cultural continuation, or a relied-on claim. “Work state” may mix world state, epistemes, carriers, and cues. Treating these words as fields on one composite performer hides the relation that must change and can incorrectly assign System identity, Work, capability, authority, or evidence.
+
+The missing practical move is neither a theory of mind nor a universal resilience procedure. It is to recover the exact Work-dependent configuration, expose the minimum state needed to continue, challenge the weakest decision-changing dependency, and return the observation to its direct owner.
+
+### A.15.8:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Useful whole versus justified whole | A coupled arrangement can be a useful unit of analysis without being one admitted `U.System`, performer, Agent, or capability holder. |
+| Actual versus prospective | Actual Work permits obtaining performer and support claims; a present WorkPlan permits only current claims about plan content and a proposed configuration. |
+| Compact result versus exact ownership | A reader needs one short result, while System identity, Work, capability, representation, evidence, architecture, and choice remain independently governed. |
+| Perfect-run success versus recoverability | Success in one live configuration does not establish recovery after interruption, handoff, staleness, or degraded support. |
+| Transferable skeleton versus domain mechanism | Many domains share the configuration-and-probe move, but their checkpoints, cues, thresholds, safety conditions, and recovery mechanisms differ. |
+| Recognition versus assurance | One credible failure can open the pattern; consequential use may require much stronger evidence, authority, and stop rules. |
+| State availability versus state correctness | A carrier may be present while its value is stale, inconsistent, uninterpretable, inaccessible, or unsafe to use. |
+
+### A.15.8:4 - Solution
+
+Choose one branch, keep every System and value separately identified, recover only relations that can change the named result or decision, and run the weakest representative probe that can expose an unsupported dependency. Return the branch-specific result to direct owners. Do not first decide whether cognition, mind, or agency is “extended”.
+
+#### A.15.8:4.1 - Keep the governed object and non-kinds explicit
+
+This pattern introduces no root `U.ExtendedPerformer`, `U.WorkSystem`, `U.WorkState`, `U.Attention`, `U.Memory`, or joint-cognition kind. It does not admit an arrangement as a System, performer, Agent, Structure, ArchitectureRelation, or capability holder merely because its constituents are coupled or jointly useful.
+
+In the actual branch, the governed world-side focus is one exact admitted `U.Work` occurrence. In the prospective branch, it is one exact present `U.WorkPlan`; proposed performance stays declaration-local content of that episteme. Supporting Systems and values may be inside or outside a selected containing-System boundary. Their contribution, dependency, access, update, control, or other relations must be directly declared and supported when the result relies on them.
+
+An arrangement remains ordinary prose unless another use needs an exact `U.Structure` admitted under `A.22`. An architecture claim enters only through `C.30`. A configuration account can designate several independently governed Systems and values without making them one whole or using a plural EntityOfConcern.
+
+#### A.15.8:4.2 - Follow the seven-step configuration-and-recovery sequence
+
+1. **Choose the lawful branch and name its focus, required result, and receiving decision.** For an actual case identify one exact dated `U.Work` occurrence under `A.15.1`. For a prospective case identify one exact present `U.WorkPlan` under `A.15.2` and the declaration-local intended-performance content used by the configuration claim. Use `A.15.5` only when entry readiness is current. Do not call intended performance a future Work entity.
+2. **Keep performers, intended performers, supports, and values separate.** In the actual branch identify the admitted Systems that performed the Work, with assignments and attribution only where their direct predicates pass. In the prospective branch name intended performers only inside the exact WorkPlan's claim content. In either branch identify supporting and external interacting Systems, physical resources, representations, records, models, tools, services, and environmental conditions without forcing them into one whole.
+3. **Recover concrete contributions and dependencies.** Translate words such as *attention*, *memory*, *computation*, and *checking* into exact sensing, selection, monitoring, operation, record, state, evaluation, communication, access, update, control, or other direct relations. For actual Work, retain only relations whose obtaining, loss, or change can alter continuation, result, or recovery of that occurrence. For a WorkPlan, retain only relations whose obtaining, loss, or change can alter the current plan, proposed configuration, or intended-performance content. For every attempted relation claim, name the exact participants and receiving use. When a current predicate definition, applicability condition, occurrence rule, or other governor can state or test it, apply that governor and preserve its result: use `factually unsupported` only when the available case basis is sufficient and the positive test fails, `missing-information` when a needed fact is unavailable, and an inapplicable or negative result only under the governor's own rule. Return `missing-governor` only when no current rule can state or test the attempted claim for those participants and that use. Name capability and authority only when their direct claims are current.
+4. **Expose the minimum continuation state.** For each value needed after interruption, handoff, support loss, or delay, state what it concerns, where it resides, who or what may update and use it, how currentness or consistency is determined, and which return condition makes it usable. Keep world state, claims, carriers, and cues distinct.
+5. **Select the weakest decision-changing condition.** Choose one representative interruption, handoff, degraded support, changed performer, changed tool or environment, or delayed-continuation condition. Apply it to the named Work occurrence in the actual branch. In the prospective branch, formulate it as a condition of the current WorkPlan, proposed configuration, or intended-performance content. If executing the probe creates actual test Work or a later performance, admit that occurrence separately under `A.15.1`; otherwise keep the condition in the plan or probe claim. Do not demand a ritual battery.
+6. **Run the direct domain probe and observe recovery.** Select an applicable human-factors, biological, software, robotics, operations, rehearsal, safety, or other domain `U.Method` only to define or constrain the probe, mechanism, thresholds, safety rules, and evidence rules. When the probe is executed, admit its dated probe Work separately under `A.15.1`, name the admitted performer System and F.6 attribution, and state that the Work enacts the Method. When it remains prospective, keep it as a condition in the WorkPlan or probe claim. Observe result recovery, time or burden where material, wrong continuation, missing or stale state, unsupported dependency, protected-condition loss, and fallback or stop. This pattern supplies no universal cue, timeout, checkpoint algorithm, intervention, or safety threshold.
+7. **Return one branch-specific account to direct owners.** State which exact Work occurrence or present WorkPlan is the focus, what configuration is supported for which occurrence or intended-performance content and window, what failed or remains unknown, and the next relation or configuration repair or stop. Return System identity to `A.1` or `B.2`, Structure to `A.22`, architecture to `C.30`, capability to `A.2.2`, actual Work and resumption identity to `A.15.1`, plan content and plan change to `A.15.2`, representations to their direct owners, evidence to `A.10`, and a receiving choice to `C.11` or `A.15.7`.
+
+#### A.15.8:4.3 - Return the first result in plain language
+
+Use this compact form and omit rows the receiving decision does not need:
+
+> **Focus:** exact actual `U.Work` occurrence … / exact present `U.WorkPlan` … and its declaration-local intended-performance designator …
+>
+> **Required result and receiving decision:** …
+>
+> **Actual performers for the Work / intended performers in the plan, plus supports:** …
+>
+> **State needed to continue and where it is recovered:** …
+>
+> **Probe and observation:** …
+>
+> **Direct relation result or exact blocker, and next repair or stop:** …
+
+For a small reversible use, this ordinary prose is enough. The result describes support for one configuration and window; it does not certify every configuration, create a whole, or make the repair decision.
+
+#### A.15.8:4.4 - Persist only the account another use needs
+
+When another use must retain, compare, audit, or rely on the result, identify one or more C.2.1 account epistemes explicitly.
+
+- An actual-branch account selects the exact `U.Work` occurrence as its one truthful EntityOfConcern.
+- A prospective-branch account selects the exact present `U.WorkPlan` as its one truthful EntityOfConcern. Its ClaimGraph may designate the declaration-local intended-performance content but does not turn that designator into an entity.
+- The ClaimGraph may also designate independently governed actual or intended performers, supports, state bearers, exact relation claims, and the direct governor's result. It may record the ordinary A.6.RCD blocker `factually unsupported`, `missing-information`, or `missing-governor` only under that pattern's three-way split; these phrases are not new kinds or relation values. Probe observations, uncertainty, and the repair or stop remain separate claim content.
+- The effective `U.ReferenceScheme` always supplies the designation and interpretation rules needed by those claims and adds only the measurement, comparison, or evaluation rules actually used. Any actual measurement, comparison, or evaluation occurrence remains under its direct pattern.
+- If one focus cannot truthfully carry the combined claims, keep claims local or use several epistemes. Do not invent a plural focus.
+
+The account is not the world-side configuration, performed Work, WorkPlan, carrier, evidence, or merely possible future performance.
+
+#### A.15.8:4.5 - Separate recognition from assurance
+
+- **Recognition:** one actual or credible failure under interruption, transfer, support loss, or stale intermediate state is enough to open `A.15.8`. One ordinary sentence can name the first weak relation and probe.
+- **Assurance:** safety-, release-, compliance-, irreversible-, or high-impact use adds the applicable direct test, evidence, assurance, authority, and stop rules. A successful probe does not establish universal readiness or waive those rules.
+
+### A.15.8:5 - Precision restoration
+
+Recover the exact object or relation before relying on the umbrella word.
+
+| Source phrase | Recover before relying on it | Do not infer |
+| --- | --- | --- |
+| *extended performer* | Select the branch first. For actual Work, name admitted performer Systems and obtaining assignments or attribution only through direct rules. For a WorkPlan, keep intended performers in declaration-local plan content. In both branches name supports, exact relations, and the boundary selected for the use. | Coupled things form one System, Agent, mind, performer, or capability holder. |
+| *attention* | After branch selection, recover the exact observation, sensing, selection, prioritization, monitoring, search, checking, or capability claim whose obtaining, loss, or change affects the named Work or current WorkPlan. | One scalar resource or mechanism is shared by a person, model, robot, organization, and collective. |
+| *memory* | Recover the exact holder capability, internal state, model state, record or episteme, persistent runtime state, cultural-continuation claim, or retrieval, update, and forgetting relation that is current. | Storage, retrieval, capability, knowledge, model state, and cultural continuation are one value. |
+| *computation* | Recover the exact operation, Method, performed Work, performing System, inputs, outputs, and resource relation when each is current. | A model, calculator, or service performs the containing Work merely because it computes. |
+| *checking* | Recover the exact observation, monitoring, evaluation, verification, validation, assurance, or decision Work and its separately governed result. | A checklist or score performs checking, supplies authority, or proves fitness. |
+| *work state* | Recover the minimum exact world-side states, claims, intermediate results, commitments, configuration values, bearers, carriers, update/use relations, and currentness conditions needed for the named continuation. | One new `U.WorkState` object; a record is identical to world state; or persistence proves resumability. |
+| *cue* or *return point* | Recover the exact sign, representation, event, location, state condition, or source-finding aid; who or what interprets it; and the observation that it changes recovery. Use `A.10` when it is relied on as evidence and `A.15.4` when appearance-based reliance hides its owner. | A cue is evidence of correctness, a universal trigger, or an obtaining recovery relation by appearance alone. |
+| *configuration* or *arrangement* | Recover the exact Systems, values, and obtaining or proposed relations needed by the branch. Use `A.22` or `C.30` only when a selected Structure or architecture claim is actually required. | A support list is already one Structure, architecture, whole, or performer. |
+
+**Bias check.** Human-centered cognitive vocabulary and anthropomorphic AI vocabulary are easy to recognize and therefore easy to overgeneralize. Begin with the exact Work or WorkPlan and direct relations. A bacterium, computation, machine, person, or team enters by the same FPF branch and relation rules; none requires mental, stakeholder, or ethical vocabulary unless the receiving question independently does.
+
+### A.15.8:6 - Worked cases
+
+#### A.15.8:6.1 - Literature qualification across a researcher, services, and files
+
+**Situation.** `LiteratureQualificationWork-2026-08-27-AM` is one admitted actual Work occurrence. `Researcher-17` is an actual performer under its separately established assignment and F.6 attribution. A search service, language-model service, repository, pinned papers, claim sheet, and unresolved-question note support the Work; none becomes a performer or constituent of a new whole merely by appearing in the configuration. A reviewer may continue later.
+
+**Probe.** The fresh-session and reviewer-handoff probe removes the original model session and asks the reviewer to recover the bounded question, exact source editions, accepted and rejected claim reasons, open uncertainty, and next probe.
+
+**Observation and result.** The reviewer can recover the papers but cannot distinguish why one claim was rejected because the claim sheet lacks a decision reason and one citation lacks an edition pin. The result focuses on the exact Work occurrence, identifies the missing source and record relations, and returns two repairs to their representation and source owners. The unsupported claim stops. No “extended researcher”, composite System, or researcher capability is inferred.
+
+**What changed.** Repair the source pin and decision record before continuing; do not ask the person or model to “remember better”.
+
+#### A.15.8:6.2 - Non-human distributed computation after worker loss
+
+**Situation.** `SettlementComputationWork-2026-08-27-Run42` is one admitted long-running computation Work occurrence. Its separately grounded performer Systems exchange messages and use an object store, configuration values, intermediate results, completed-effect records, and provenance records. Another worker must continue without duplicating an irreversible settlement effect.
+
+**Probe.** `RecoveryTestController-Run42 : U.System` performs separately admitted `WorkerLossRecoveryProbeWork-Run42-P1 : U.Work` in a bounded representative environment under its separately established assignment and F.6 attribution. That probe Work enacts the selected computing `U.Method`: it removes one worker after a message has been emitted but before its local completion record is available, then attempts recovery from the selected state mechanism.
+
+**Observation and result.** Process state is recoverable, but channel state and the completed-effect provenance relation are not mutually consistent. The branch-specific account names those state bearers and update/use relations and returns the missing idempotency or provenance condition. A Chandy-Lamport snapshot, event sourcing, transaction protocol, or another computing Method may be selected as the reusable way for the repair. If the repair is carried out, an admitted System performs the dated repair Work and that Work may enact the selected Method; this pattern selects neither.
+
+**What changed.** Add or repair the exact checkpoint, provenance, or idempotency condition. No human attention, memory faculty, or cognitive ontology enters.
+
+#### A.15.8:6.3 - Equipped performer in a present WorkPlan
+
+**Situation.** `ConcertPerformancePlan-2026-09-12` is one exact present `U.WorkPlan`. Its declaration-local content names a musician and a robotic prosthesis controller as intended performers for a proposed performance after device replacement. It also names an instrument, cue source, power support, control link, and allowed latency. None of this content is a future Work occurrence or obtaining assignment.
+
+**Probe.** The current plan proposes a rehearsal under changed latency and a degraded visual-cue condition. Its material, timing, control, threshold, and stop rules are taken from the applicable music-performance, robotics, human-factors, and safety Methods. If the rehearsal occurs, an admitted performer System performs that separately admitted actual Work under `A.15.1` and F.6.
+
+**Observation and result.** Current evidence does not support recovery after cue loss within the required timing window. The WorkPlan-focused account names the intended performers, support and control relations, return condition, uncertainty, and the planned probe. It returns a plan repair: restore a redundant cue/control relation or narrow the supported configuration. Capability claims for the musician, device, or any independently admitted whole stay separate.
+
+**What changed.** Repair the proposed sensing, control, cue, or recovery relation before declaring entry readiness; do not infer one timeless capability holder.
+
+### A.15.8:7 - Conformance and practical checks
+
+A use conforms to this pattern only when it passes the checks that its claimed result needs:
+
+1. A cold reader can obtain the first result without deciding whether cognition or mind is extended.
+2. The selected focus is exactly one admitted actual `U.Work` occurrence or one exact present `U.WorkPlan`; intended performance remains declaration-local plan content.
+3. Actual performers, intended performers, supports, values, and environmental conditions remain distinct. Every attempted relation claim names exact participants and the receiving use, applies a current direct governor when one exists, and preserves its `factually unsupported`, `missing-information`, inapplicable, negative, or other direct result; `missing-governor` is used only when no rule can state or test that claim.
+4. No arrangement becomes a System, performer, Agent, capability holder, Structure, architecture, or evidence merely by inclusion or wording.
+5. Continuation-critical state names its concern, bearer or carrier, update and use relations, currentness or consistency condition, and return condition when each matters.
+6. The probe is the weakest representative condition that can change the receiving decision; its mechanism, thresholds, safety rules, and evidence rules come from an applicable direct domain Method, while an admitted System performs any dated probe Work under `A.15.1` and F.6.
+7. Actual test or later performance Work is admitted separately under `A.15.1`; a proposed condition remains a plan or probe claim.
+8. The result names one unsupported dependency and next repair or stop, or states that the selected probe found none within its declared window.
+9. A relied-on account has one truthful C.2.1 focus and effective ReferenceScheme; incompatible focuses split instead of forming a plural EntityOfConcern.
+10. Recognition and assurance remain separate; high-consequence use opens direct evidence, assurance, authority, and domain-stop rules.
+
+**Recognition check.** Ask a reader to produce the compact result from one case in ordinary language. If the reader first needs a theory of attention, a new performer whole, a capability diagnosis, or a full architecture model, repair the entry and boundary.
+
+**Assurance check.** For consequential use, identify the exact direct test, evidence, criterion, authority, protected condition, applicability window, and stop. If any is absent, retain the configuration observation but do not upgrade it to readiness, safety, release, or permission.
+
+### A.15.8:8 - Anti-patterns
+
+- **Composite by coupling.** Treating person, device, service, records, and environment as one performer because they jointly matter.
+- **Future Work from a plan.** Giving intended performance, intended performers, or proposed relations actual Work identity or obtaining attribution.
+- **Umbrella slots.** Adding universal attention, memory, cue, or Work-state fields instead of recovering exact objects and relations.
+- **Carrier equals state.** Treating a note, trace, checkpoint, model context, or file as identical to the world state or claim it carries.
+- **Perfect-run readiness.** Generalizing one successful live configuration to interruption, handoff, support loss, or changed conditions.
+- **Probe as assurance.** Treating success under one probe as universal capability, safety, permission, release, or certification.
+- **FPF as domain algorithm.** Inventing a universal timeout, checkpoint, cue, redundancy, practice, or recovery procedure in this pattern.
+- **Configuration as architecture by default.** Naming a support list a Structure or ArchitectureRelation without the direct admission and selection rules.
+
+### A.15.8:9 - Consequences and trade-offs
+
+| Consequence | Practical effect |
+| --- | --- |
+| Named failure relation | Repairs target an assignment, interface, carrier, update rule, source pin, control link, support condition, or return condition rather than a vague lack of attention or memory. |
+| Neutral transfer | The same entry and result work for people, software, machines, organisms, teams, and mixed configurations. |
+| Preserved ownership | Work, plan, capability, System identity, representation, evidence, architecture, and choice remain independently checkable. |
+| Better handoff and degraded-mode evidence | A representative interruption or support-loss probe exposes dependencies hidden by a perfect run. |
+| Additional modeling cost | The practitioner must identify exact relations, carriers, currentness conditions, and the receiving decision instead of keeping one umbrella noun. |
+| Bounded conclusion | A result supports only the tested configuration, condition, and window; further assurance or transfer needs direct Methods and evidence. |
+
+### A.15.8:10 - SoTA-echoing source effects
+
+Use source traditions for the action they change and keep their scope limits. The links and publication/status labels below were checked 2026-08-27. Correct a citation or publication-status label in its row without reopening the action when the used distinction and limit are unchanged. Reopen only the affected row and action when a source change alters the inventory, boundary, probe, observation, or decision supported by this pattern.
+
+| Source tradition | Source-use and currentness disposition | Action-changing contribution retained | Limit retained |
+| --- | --- | --- | --- |
+| Clark and Chalmers, [“The Extended Mind”](https://era.ed.ac.uk/items/4830feaf-cf19-4870-964e-df0a4a96699e/full) (1998) | Retain as historical lineage and a live contrast; reject constitutive extension as an FPF System-admission or performer-attribution rule. | Makes constitutive extension a live alternative and therefore forces an explicit boundary rather than an implicit “extended performer”. | Coupling or parity is not an FPF System-admission test, Work-attribution rule, or design Method. |
+| Hutchins, [cockpit memory](https://doi.org/10.1207/s15516709cog1903_1) (1995), and Hollan, Hutchins, and Kirsh, [distributed cognition](https://escholarship.org/uc/item/8sb9s5rm) (2000) | Retain as historical cognitive-science lineage; adapt only the search for information propagation and material supports. | Inspect information propagation and material supports around activity, not only an unaided person. | An analytical unit is not automatically one System or capability holder, and the human-technology lineage is not universal ontology. |
+| Hollnagel and Woods, [cognitive systems engineering](https://doi.org/10.1006/ijhc.1982.0313), and Fern, [NASA HMI study](https://ntrs.nasa.gov/citations/20160012462) (2016) | Retain human-factors and cognitive-systems-engineering lineage plus the 2016 NASA application; adapt only coordination/recovery search and stress-scenario use. | Add coordination, synchronization, interface, and recovery relations and use stress scenarios instead of component lists alone. | “Joint cognitive system” remains a source-local stance and supplies no general whole identity, authority, safety, or evidence rule. |
+| NASA, [Objective Function Allocation Method](https://techport.nasa.gov/projects/95457), page updated 2024 | Adapt the current official project record as a scoped systems-engineering and human-factors allocation example. | Compare alternative human, automation, and robotic allocations as performance configurations rather than by static stereotypes. | Allocation quantities and trade-offs remain systems-engineering and human-factors Methods. |
+| ISO [6385:2016](https://www.iso.org/standard/63785.html) and ISO/IEC [CD 25589](https://www.iso.org/standard/90831.html) | Use the current published ergonomic standard as a scoped inventory reference and the unfinished committee draft as a specialist contrast. | Make workers, equipment, space, environment, interaction, and current human-machine-teaming questions visible in the inventory. | One is ergonomic and human-centred; the other is an unfinished specialist draft. Neither creates a transdisciplinary `WorkSystem` or team kind. |
+| Hodgetts and Jones, [interruption recovery](https://pubmed.ncbi.nlm.nih.gov/16938050/) (2006); Ratwani and Trafton, [cue association](https://pubmed.ncbi.nlm.nih.gov/21077561/) (2010); Ülkü et al., [resumption timing](https://pubmed.ncbi.nlm.nih.gov/39994973/) (2025) | Retain the 2006/2010 human-task studies as empirical lineage and adapt the 2025 study as a current bounded probe source. | Make actual return cues and resumption conditions testable rather than inferred from perfect-run performance. | Bounded human laboratory tasks establish no universal cue, delay, mechanism, threshold, or transfer to unlike Work. |
+| Chandy and Lamport, [distributed snapshots](https://doi.org/10.1145/214451.214456) (1985), and Marinho et al., [workflow provenance](https://doi.org/10.1016/j.datak.2021.101877) (2021) | Retain mature distributed-systems lineage and adapt the 2021 provenance result as a non-human recovery stress test. | Supply the decisive non-human contrast: recovery may require consistent process, channel, control-flow, and provenance state. | Snapshot and provenance techniques are direct computing Methods, not universal FPF algorithms or proof that every Work needs a checkpoint. |
+| Hu, Wang, and McAuley, [MemoryAgentBench](https://arxiv.org/abs/2507.05257) (ICLR 2026), and Liu and Gabriel, [PM-Bench](https://arxiv.org/abs/2607.12385) (COLM 2026) | Adapt these current conference benchmarks only for their configuration-specific probe distinctions. | Separate retrieval, updating, long-range use, forgetting, deferred-intention execution, and environment monitoring into configuration-specific probes. | Benchmark labels are not FPF kinds or capability holders; the reported results do not transfer outside tested agent configurations without evidence. |
+
+### A.15.8:11 - Relations
+
+- **Builds on:** `A.1` for admitted Systems and boundaries; `A.15.1` and `F.6` for actual Work, assignments, performers, and attribution; `A.15.2` for present WorkPlans and declaration-local intended-performance content; `A.6.REL` and direct relation patterns for obtaining relations; `A.6.RCD` for the exact `missing-governor`, `factually unsupported`, and `missing-information` split; and C.2.1 when a result must persist as an account episteme.
+- **Coordinates with:** `A.15.5` for work-entry readiness; `A.15.7` for next-action selection after a configuration blocker is repaired; `A.2.2` and `E.23.CDI` for holder capability and capability development; `A.22` and `C.30` for selected Structure and architecture; `C.27.TA` for temporal/currentness claims; `C.2.P.DR` and direct representation patterns for carriers and representations; `A.10` for evidence reliance; `A.15.4` for appearance-based reliance repair; `C.11` for receiving decisions; direct domain patterns and Methods for probe mechanisms, thresholds, and safety rules; and direct subject patterns for authority and evidence.
+- **Informs:** domain patterns for equipped or joint performance, human capability development, organizational coordination, operations and service recovery, human factors, robotics, software and distributed systems, and biological Work when they retain their own quantities, mechanisms, evidence, and stops.
+
+### A.15.8:12 - Didactic quick card
+
+**Which branch?** Actual dated Work, or a present WorkPlan with intended performance only as plan content. **Who performs?** Only Systems with the direct actual attribution, or intended performers named only by the plan. **What supports?** Separately identified Systems and values through exact relations. **What must survive?** The minimum state, its carrier, update/use, currentness, and return condition. **What do we test?** Use an applicable direct domain Method to define one decision-changing loss, handoff, delay, or reconfiguration; when the probe occurs, an admitted System performs the dated probe Work. **What comes back?** The direct relation result or exact blocker and the next repair or stop—not a new performer whole.
+
+### A.15.8:End
 
 ## A.15.PROD - Production Work, Entity-Identity Inception, and Production Completion Recovery
 
@@ -36449,6 +36700,8 @@ B.1.5 directly governs `MethodPartOfRelation`, expressed in Plain register as `m
 
 One `methodPartOf` occurrence is determined by the ordered pair `<part Method, whole Method>`. Every bounded alternative already admitted by the whole's construction rule can stand in `methodPartOf` at the same time; dated Work selecting one alternative does not start, end, or recur the other occurrences. For the same two exact Methods, the relation is atemporal: there is no silent cessation and later recurrence. If the construction rule changes so that a part is newly admitted or no longer admitted, the composite Method must be reidentified or the claim remains unresolved; reidentifying either participant gives another pair. This is why the participant pair is sufficient for the narrow family defined in B.1.5 even when actual enactments vary.
 
+The same part Method may also stand in `methodPartOf` relations to several different whole Methods. Test every pair against the construction rule of its own whole. Each whole keeps its own reusable action, applicability, boundary, constraints, interfaces, accepted variations, and reidentification rule. One supported pair says nothing about another and creates no unique containing Method, discipline-wide whole, kind inheritance, transitivity, fusion, or common-whole closure.
+
 A source label, list membership, diagram containment, shared name, registry entry, description membership, plan position, or work decomposition does not make `methodPartOf` obtain. When the test fails, keep the apparent step under its subject pattern and do not add a negative part merely to complete a diagram.
 
 #### B.1.5:4.2 - Test The Composite-Method Qualification
@@ -36650,7 +36903,7 @@ The pattern intentionally biases toward explicit construction and boundary accou
 | --- | --- |
 | `CC-B1.5-1` | The candidate whole and every claimed Method part are independently identified as exact `U.Method` values under A.3.1 before B.1.5 tests the composite-method qualification. |
 | `CC-B1.5-2` | Step wording, description nodes, plan items, Work occurrences, file modules, graph edges, registries, source wording, mechanism material, formal substrates, mathematical lenses, and evidence or publication-use claims are not Method parts by position or label. Keep each with its direct governor unless it is independently identified as an exact `U.Method` and `methodPartOf` separately obtains. |
-| `CC-B1.5-3` | Every `methodPartOf(partMethod, wholeMethod)` occurrence passes the required-contribution or admitted-alternative test. Its ordered-pair identity is exact; all bounded alternatives may obtain simultaneously, Work selection does not toggle them, and a changed admitted-part set reidentifies the whole Method or leaves the claim open. |
+| `CC-B1.5-3` | Every `methodPartOf(partMethod, wholeMethod)` occurrence passes the required-contribution or admitted-alternative test. Its ordered-pair identity is exact; all bounded alternatives may obtain simultaneously, Work selection does not toggle them, and a changed admitted-part set reidentifies the whole Method or leaves the claim open. One part Method may have several whole Methods only through separately supported pairs and separately qualified whole constructions; no unique parent or closure property follows. |
 | `CC-B1.5-4` | Every serial, parallel, guarded, iterative, fallback, adapter, substitution, or typed-join use states a concrete decidable claim and selects A.6.RCD's lightest sufficient disposition. A relation kind and occurrence are required only after independent admission for a named occurrence-semantics use. |
 | `CC-B1.5-5` | The already identified candidate Method states whole-level participant meanings, applicability, preconditions, intended effects or preserved conditions, invariants, bounds, accepted inputs and outputs, failure and stop conditions, interface decisions, and reidentification rule before its composite qualification is accepted. |
 | `CC-B1.5-6` | Exposed, forwarded, and encapsulated interactions are distinguished because changing the reusable action or admissible boundary changes Method identity. A named caller system, planner system, auditor, substituting-method selection use, or assurance use determines whether the boundary account must be explicit or published; reliance does not create its identity effect. |
@@ -69094,6 +69347,19 @@ When the architecture question is open, the framework-specific part of the DRR s
 7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
 8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
 
+When professional Method coverage can change point 5, begin with the practice question and include only the branches whose answers can change first use. Common branches are:
+
+| Practice question | Pattern that supplies or tests the answer |
+| --- | --- |
+| What contribution or effect is required? | `A.6.F`; use `C.30.ASV` only when a selected architecture view changes the answer. |
+| Which Methods construct a larger Method, and which genuine interfaces matter? | `B.1.5`; use `A.6.M` only for a real module, port, or implemented-interface claim. |
+| What changed, and how are the transformation-flow positions related? | `A.3.4`, `E.18`, and `C.30.TFS-REL`. |
+| What Work occurred, which Method did it enact, and who performed it? | `A.15.1` and `F.6`. |
+| Which System has the needed capability, and what did a provider actually contribute? | `A.2.2` plus the applicable Work, provision, or service pattern. |
+| What cultural generation, transmission, reconstruction, recognition, selection, retention, or loss matters? | `C.36`. |
+
+If another question changes the answer, name it and the pattern that handles it instead of forcing it into these rows. Use `C.32.MWA` only when the decision depends on correspondences or conflicts among several selected structures. Do not infer Method parthood from a required contribution, transformation, performed Work, capability, provider contribution, or cultural change.
+
 For a DPF Suite answer, an architecture decision takes effect to constitute the continuing collection. It selects the ecosystem use, which product series may belong, inclusion and removal rules, identity through change, alternatives, practical consequences, and the reopen condition. The same `E.9` DRR records that answer. A current maintained-Suite claim also identifies the capable maintaining System and its accepted commitment, the working source return for product series and any product-series state presented as current, the refresh response, and one exposure choice: an independent Suite route, a bounded Guide projection with source return, or a neutral combined carrier. Guide constitution, inclusion, maintenance, and refresh remain separate decisions and claims. A proposed result use or future constraint is not an obtaining dependency or compatibility relation; apply `E.4.PFR` only after the edition-level case facts exist.
 
 For an existing-framework contribution, maintained non-framework product, thinner route, or stop, state only the parts needed to explain that outcome and the later-used boundary. A selected maintained product still names its direct subjects and the relations used; a proposed boundary with an unresolved kind says so. Do not fabricate a field assessment or package merely to fill the list.
@@ -69179,7 +69445,7 @@ The fifth drift is relation-by-representation: a table row or reference list is 
 | CC-PFAD.3 One decision record | Decision Work selects a new or revised framework, contribution to an existing framework, maintained non-framework product, thinner publication or access route, or no new maintained product now; one ordinary `E.9` DRR records it. |
 | CC-PFAD.3a Field boundary | A selected new or substantially revised DPF has a reviewed field-boundary assessment. It names the practitioner and a first use that needs no unpublished authoring context, connected problem families and results, what the FPF and admitted DPFs already provide, what remains uncovered, serious alternatives, representative cross-problem use, evidence limits, the decision that uses the assessment, and the later observation that reopens it. |
 | CC-PFAD.3b Coverage, contributions, and omissions | The answer names selected problem-family pattern sets, first patterns and material relations, one representative cross-problem application, important omissions, and the sources to revisit for important claims; no count or authoring slice proves adequacy. For each load-bearing contribution that it keeps, merges, removes, reuses, profiles, supplies externally, or omits, it applies `E.8:4.1.3` and names the resulting action. An external return names the exact result and kind, supplying product and edition or current state, receiving use, discovery route, and material currentness or availability conditions, and says that the result remains external; an insufficient return remains a gap or omission. After a material promised-family change, the answer obtains the current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition and reuses it only while the exact edition and basis remain unchanged, without asking for evidence that someone revisited it. |
-| CC-PFAD.3c Several structures | When practice structures do not line up one-for-one, a completed `C.32.MWA` result supports the answer. `E.23.CDI` appears only when capability development changes the answer. Methods, descriptions, patterns, managed product boundaries, decisions, and editions remain distinct. |
+| CC-PFAD.3c Several structures | When professional Method coverage changes the answer, the DRR names only the practice questions that affect first use and the pattern used for each, as stated in 4.2. It uses `C.32.MWA` only when several selected structures do not line up one-for-one and `E.23.CDI` only when capability development changes the answer. It never infers Method parthood from a contribution, transformation, performed Work, capability, provider contribution, or cultural change. A fixed view list, source layout, or Method hierarchy does not pass this check. |
 | CC-PFAD.3d Maintained-object boundary | *Product* remains Plain management wording. A selected maintained alternative names every direct subject and the identity, current-state, provision, or maintenance relation used by the answer. A programme case also separates provider and maintaining Systems, any admitted service state, bounded Work, and evidence-package epistemes. An unresolved kind remains an explicit question, not `U.Product`. |
 | CC-PFAD.4 Compact payload | The DRR carries only the applicable content groups in `E.4.PFAD:4.2` and ordinary E.9 grounds and rationale; a maintained non-framework product, thinner route, or stop answer does not fabricate irrelevant fields. |
 | CC-PFAD.5 Direct relation assertions | Relations among initial patterns are stated directly under their actual relation functions; no PFR row is required. |
@@ -69344,6 +69610,8 @@ The first-edition set is internally usable only when it contains every selected 
 
 Several sources may describe the same practice through structures that do not line up one-for-one—for example Methods, Work, subjects, descriptions, capabilities, providers, and cultural processes. When those differences affect the framework architecture, use `C.32.MWA` to produce one readable synthesis for the `E.4.PFAD` answer; that synthesis does not choose whether to create a DPF or another maintained result. Use `E.23.CDI` only when the selected architecture includes developing capability for a named Work family, and use its result instead of copying its action sequence here.
 
+When the DPF promises professional Method coverage, use the accepted `E.4.PFAD` answer to decide which practice questions the first edition must cover. Supply the domain Methods, evidence, constraints, relation claims, and pattern contributions needed for those questions. One clear question stays with the pattern named in the PFAD answer. Use `C.32.MWA` only when the answer depends on correspondences or conflicts among several structures. Do not infer Method parthood from a required contribution, transformation, Work enactment, capability, provider contribution, or cultural change merely because a source lists them together.
+
 Keep the mapped objects distinct. A Method may be described by a MethodDescription, and a pattern may contain such a description only when `A.3.2` applies. Selected patterns and their material relations make up the pattern language; a framework edition contains one version of that language; an exact `U.PresentationCarrier` may bear a selected publication or access-facing form; and an access route may help a reader or System reach the edition or a named carrier. Publication, availability, and actual access remain separate claims. Conceptual synthesis may support a candidate architecture or distinction, but it is not evidence that a Method works or transfers.
 
 Use *product* here only as Plain management wording for a deliberately maintained result or service boundary. It is not one FPF technical kind and creates no `U.Product`. Before making a product-boundary claim, name the direct subject and the relation that carries its identity, edition, current state, provision, or maintenance. If either remains unsettled, return that exact question instead of inventing a common kind.
@@ -69407,7 +69675,7 @@ Candidate first patterns, each with problem frame, positive solution, worked sli
 Field or practice promised by the public name, intended reader, first use, and non-use boundary:
 Recurring problem families, characteristic failures, useful result families, selected problem-family pattern sets, material relations, and honest omissions:
 Representative application crossing the patterns and problem-family sets needed for first use:
-Practice structures that do not line up one-for-one and whether `C.32.MWA` is needed:
+Professional Method coverage, when it changes the answer: the practice questions selected by `E.4.PFAD`, the pattern used for each, the domain content needed, and whether `C.32.MWA` is required because several structures do not line up one-for-one:
 Whether capability development for a named Work family makes `E.23.CDI` current:
 Patterns included in the first edition and same-framework prerequisites needed for first use:
 External FPF, DPF, or LPF editions: relied-on content, use, direction, reason, refresh, and required availability or compatibility result:
@@ -69751,7 +70019,7 @@ The second recurring drift is publication-carrier-first authoring. The repair is
 | CC-DPF.3 Architecture answer when needed | A cheap route or stop closes without a DRR when it settles no later-used framework boundary. Otherwise one `E.9` DRR guided by `E.4.PFAD` records one of five outcomes: a new or revised framework, a contribution to an existing framework, a maintained non-framework product, a thinner publication or access route, or no new maintained product now. For a framework answer it also records the field and practice promised by the public name; coverage, representative application, edition and dependency boundary, initial pattern placement and material relations; publication or access consequence; alternatives; action; and reopen condition. Answer, acceptance, DRR, relation records, edition dependencies, package architecture, authoring, and publications remain separate. |
 | CC-DPF.3a Framework scale and singleton diagnostic | `pattern_count = 1` is reported as a strong diagnostic, and the same semantic test is run at every count. A new first edition supplies an adequate pattern language for its declared field or practice: a coverage map, selected problem-family pattern sets and material relations, a representative application, an internally usable first-edition set, honest omissions and source returns, and a credible maintenance and refresh boundary. A candidate fails when these contributions are missing or do not work together, not because of its count. |
 | CC-DPF.3b Internal and external first-use closure | The first-edition set includes every selected pattern and same-framework prerequisite needed for the named first use. Before keeping, merging, removing, profiling, reusing, externally supplying, or omitting a narrower contribution, apply `E.8:4.1.3` and distinguish an available maintained result and supplying product, a maintained `MethodDescription`, direct-source evidence, and a named unavailable result. External results remain external; their exact result, direct kind, supplying product and edition or current state, receiving use, discovery route, material currentness or availability condition, and externality are explicit. For the receiving use, the external result is either the content relied on or identifies that exact content. If that use also requires a separate availability or compatibility result, name that exact result and the basis on which it applies. An edition dependency adds direction, reason, and refresh only when that relation obtains. A missing required result is a first-use blocker. After a material promised-family change, obtain the current `E.4.DPF.DA` `D12DomainProblemFamilyCoverageAdequacy` result for the resulting exact DPF or LPF edition; reuse it only while the exact edition and basis remain unchanged, without proof that a revisit occurred. |
-| CC-DPF.3c Structures, claims, and returns | When practice structures do not line up one-for-one, a cited `C.32.MWA` result supports the architecture answer; `E.23.CDI` is cited only when capability development for a named Work family is part of the selected architecture. Methods, MethodDescriptions, patterns, framework editions, other maintained-result subjects, and carriers remain distinct. The text says which load-bearing claims are actual, proposed, or untested, what realization or test a stronger claim requires, and where each source contribution goes. |
+| CC-DPF.3c Structures, claims, and returns | When professional Method coverage changes the architecture answer, the author uses the accepted `E.4.PFAD` selection of practice questions and supplies the domain Methods, evidence, constraints, relation claims, and pattern contributions needed for them. Each selected claim stays with its named pattern. Use `C.32.MWA` only when several structures do not line up one-for-one, and cite `E.23.CDI` only when capability development for a named Work family is selected. A required contribution, Method composition, transformation flow, Work enactment, capability, provider contribution, or cultural change does not substitute for another. The text also says which load-bearing claims are actual, proposed, or untested and where each source contribution goes. |
 | CC-DPF.3d Support and adjacent-product boundary | *Product* remains Plain management wording. Units kept inside the framework share its exact edition, declared readers and use, access, maintainer, and cadence. Every separate adjacent result names its direct subject, identity or current state, use, rule saying what belongs, access, and maintenance or refresh reason. Programme wording names the exact arrangement or description, provider and maintaining Systems, any admitted service state, bounded Work, and result epistemes actually claimed; shared use and one carrier do not merge them. |
 | CC-DPF.3e Suite and Guide proposal return | A DPF product series does not constitute or join a Suite from inside its own edition. Inclusion and removal proposals return to the Suite decision. A Guide-entry proposal returns to the Guide product's content or refresh decision; its first concrete application also needs the applicable `DPF-SUITE-00` project decision, and its direct DPF-result and source claims use the patterns that define them. A state with one product series or none follows the Suite's explicit preservation, restoration, review, or retirement rule. Belonging establishes no framework scale, holonhood, constructive parthood, dependency, compatibility, maintenance responsibility, publication, access, or actual Guide use. |
 | CC-DPF.3f Practical examples and card declaration | The product's one declaration assigns every selectable Readme example key one ordinary-entry or card form and one selectable occurrence. The Readme says its examples are non-exhaustive and returns unmatched questions to the index, guide, search, or direct patterns. Each card passes `E.11`'s same-content-without-mantra test, preserves a real path through several direct pattern contributions, uses the product's measurable mantra/card guard, applies `E.11.PFP`, and returns to the direct patterns. A plausible direct entry is checked under the same test. Locators, local reminders, Readme card mantras, expansions, and CGUS demonstrations remain distinct, and no FPF example set or limits are copied as the common rule. |
