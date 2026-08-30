@@ -138,6 +138,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | A.15.6 | **Project, Process, and Case Recovery through Work, Method, and Transformation** | Stable | Select or reopen project focus only as a lawful C.11 `ChoiceResult` over an already-current `OptionSet`; when persisted, its C.2.1 episteme concerns the exact `DecisionSubject` under a named project-decision scheme, and a changed focus ClaimGraph does not decide Work continuity. Recover an actual project as composite `U.Work` through A.13-qualified performer facts and independent A.15.1 admission; add F.6 only afterward for precise assignment-bound attribution, then apply project qualifications. Recover a process concern or case through its direct owner. *Queries:* "Which bounded problem option did this chooser select under which comparison and ChoiceRule?", "What is this focus episteme's exact concern and scheme?", "Is actual project Work independently admitted?", "Which separate attribution or qualification is current?" | **Builds on:** C.2.1, C.11, A.15.1, A.3.1, A.22, A.3.4. **Coordinates with:** C.18, A.1, A.1.STM, A.2, A.2.1, A.12, A.13, F.6, A.15.2, A.15.PROD, A.6.RCD, A.6.P.WMR, A.6.1, E.18, E.18.NET, E.17, E.24.PUB. |
 | A.15.7 | **Situation-Responsive Work Steering and Next-Action Selection** | Stable | Use when a deciding System in ongoing Work must choose the next action from current facts while a domain Method still bounds what may be done. Returns the bounded decision, intended performer, and stop or feedback condition, or a blocker due to missing or outdated action-guiding information, authority, capability, safety, applicability, or no current Work. | **Builds on:** A.3.1, A.15.1, A.10. **Coordinates with:** A.15.2, A.15.5, C.11, A.19, C.18, C.24, G.11. |
 | A.15.8 | **Work-Performance Configuration and Recovery Testing** | Candidate | Use when interruption, handoff, delay, degradation, or reconfiguration may change continuation or recovery for either one exact actual Work occurrence with actual performers and relied-on obtaining support relations, or one exact present WorkPlan whose declaration-local content names intended performers and a proposed configuration. Returns the exact focus, supported or proposed configuration, representative probe observation, direct relation result or exact blocker, and next repair or stop without creating an extended-performer, attention, memory, or Work-state kind. | **Builds on:** A.1, A.15.1, A.15.2, A.6.RCD, F.6, C.2.1. **Coordinates with:** A.15.5, A.15.7, A.2.2, A.22, C.30, A.10, and direct domain Methods. |
+| A.15.9 | **Request and Use a Bounded Result from Another Practice** | Candidate | Use when one decision or piece of Work needs a legal, safety, tax, privacy, engineering, scientific, or other result governed by another practice. Inspect an already-available result first; then return a bounded reuse disposition, the smallest missing-result request, or an honest blocker. The supplier keeps its Method and professional authority, while the receiver keeps the receiving decision. | **Builds on:** A.15, A.10, A.13, A.15.1, C.2.1. **Coordinates with:** A.2.2, A.2.1, F.6, A.2.9, E.18.1, `RESULT-TO-NEXT-MOVE`, C.38, and applicable domain Methods. |
 | A.15.PROD | **Production Work, Entity-Identity Inception, and Production Completion Recovery** | Stable | Recovers three separate receiver-selected claims: whether exact dated work is the whole production work or its proper part, when exact governed work first made one entity satisfy its applicable identity rule, and when production satisfied its applicable completion criterion at a historical boundary. Work, actual change, entity identity, completion, delivery, acceptance, release, publication, and availability remain separate. | **Builds on:** A.15.1, A.3.1, A.3.4, C.2.1, A.6.RCD. **Coordinates with:** A.1, direct subject-identity patterns, A.15.2, A.15.6, G.11, A.6.P.WMR, E.18.1, F.18, and direct work-to-change, evidence, completion, delivery, acceptance, release, publication, and availability patterns. |
 | A.16 | **Language-State Move Coordination** | Stable | *Keywords:* language-state, move, admissible language-state move, reopen, sketch-backoff, respecify, retire, responsibility transfer. *Queries:* "How do governed epistemes move across the language-state chart?", "What are the admissible language-state move kinds in FPF?" | **Builds on:** C.2.2a, C.2.LS, A.19. **Coordinates with:** A.16.0-A.16.2, B.4.1, E.18, and E.10.MOVE when move-like wording leaves the local language-state object. |
 | A.16.0 | **`U.LanguageStateMoveTrajectory` - Optional trajectory-account normal form over the language-state `U.CharacteristicSpace`** | Stable | *Keywords:* trajectory account, lineage, fork, merge, supersedes, responsibility transfer, heavy history. *Queries:* "When do I publish a language-state trajectory account?", "How does FPF record lineage and branch history?" | **Builds on:** A.16, C.2.2a, E.17, E.18. **Used by:** A.16.1, A.16.2, B.4.1, B.5.2.0. **Coordinates with:** E.10.MOVE when move-like wording is not a language-state trajectory-account claim. |
@@ -283,6 +284,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.35 | **Structural Synthesis and Discovery Adequacy** | Stable | *Keywords:* structural synthesis, structural discovery, generated carrier, produced carrier, described structure, candidate admission, source return, DSM, NAS, LLM. *Queries:* "Can a generated architecture output seed synthesis?", "When is a DSM cluster, NAS graph, LLM diagram, or model transformation ready for C.32?", "What must be recovered before treating a discovered structure as architecture material?" | **Builds on:** C.30, C.30.AD, C.30.ASV, A.22, C.32.P2S, C.32. **Coordinates with:** C.33, C.34, C.29, C.30.STRAT, C.30.TFS-REL, A.6.M, C.31, C.31.ASAP, C.32.ACS, C.32.ACE, C.16, C.25, G.5, C.18, C.19, E.18, C.32.PAD, C.32.ADR. |
 | C.36 | **Cultural Evolution and Cultural-Evolution Engineering** | Stable | Use when a culture, style, tradition, or other shared practice changes—for example, as variants are taught, copied, recognized, selected, retained, mediated, or lost—and when a project needs to influence those relations without mistaking a label, platform, archive, or popularity score for the changing practice. | **Builds on:** A.1, A.2.1, A.3.1, A.15, C.18, C.19, C.20, C.23, E.18.1, F.9, F.17, F.18, G.5, G.11. **Coordinates with:** E.10.ROLE, C.36.P, E.10, E.10.ARCH, C.30, C.16, C.11, A.10, B.3. |
 | C.37 | **Use-Bounded Representation Selection and Co-Use** | Stable | Use when one person, team, organization, or other consuming System must take one exact action or make one exact decision and several differently governed diagrams, tables, models, records, plans, descriptions, views, notations, or other results may each support only part of that use. Recover every candidate under its direct pattern, separate optional first evidence-use classification, bounded reliance, and the receiving result, state exposure and loss, and select, decline, or leave unresolved. Co-use means only use by the same receiver for that one action. | **Builds on:** C.2.1. **Coordinates with:** A.2.4, A.10, C.11, E.17.0, C.29, E.24.PUB, A.6.3.RT, A.22, C.13, C.2.P.DR, and the direct subject and receiving-result patterns. |
+| C.38 | **Construct Comparable Ways to Obtain One Result** | Candidate | Use when labels such as *build*, *buy*, *reuse*, *provider*, *internal*, *outsource*, or *AI* do not yet describe comparable complete ways to obtain the same result. Fix one result, use, situation, horizon, and acceptance basis; construct at least two materially different complete-enough ways on one parity basis; keep supported, proposed, and unknown premises visible; then hand the finite set to C.11 without claiming actual Work, provision, acceptance, or availability. | **Builds on:** the direct pattern for the sought result, A.10, and C.2.1 when a standalone comparison is needed. **Coordinates with:** A.15.9, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, C.11, C.32, and direct domain realization and assurance Methods. |
 | C.36.P | **Cultural-Evolution Wording-Use Precision Restoration** | Stable | Recovers the FPF object hidden by culture, style, tradition, genre, scene, practice, technique, platform, regime, attractor, or developmental-machinery wording; returns subject work to C.36 or the direct governing pattern. | **Builds on:** E.10, E.10.ARCH, C.36, F.17, F.18, F.9. **Coordinates with:** A.3.1, A.3.2, A.15, C.18, C.19, G.5, G.11. |
 
 **Part D - Multi-scale Ethics and Conflict Optimization**
@@ -460,6 +462,14 @@ The ordinary examples show difficulties that one direct pattern use can usually 
 - **Start with:** `A.3.1.MR`.
 - **Stop or return:** Stop at the strongest honest account or lowering result. Continue to `A.3.1` or specialist `ME.18` only when that later use is current.
 
+### PROFESSIONAL-RESULT — Use one result from another practice without transferring the decision
+
+- **Situation:** A decision needs a legal, safety, tax, privacy, engineering, scientific, or other outside-practice result, but the available source or request names only a title, department, document, approval, provider, or tool.
+- **Question:** What smallest result can change this decision, and is an already-available result current and qualified for that exact use?
+- **First useful result or honest blocker:** A bounded decision to reuse the existing result, a request for the smallest missing result, or the exact source, Method, capability, authority, access, evidence, or applicability blocker.
+- **Start with:** `A.15.9`.
+- **Stop or return:** Stop before requesting new Work when the existing result is enough. The supplier keeps its Method and professional authority; the receiver keeps the receiving decision. A title, document, delivery, provider label, or tool output transfers neither.
+
 ### NAMING — Give one identified thing a usable name
 
 - **Situation:** One already identified thing needs understandable wording; later use may also require a stable, reusable name.
@@ -554,12 +564,12 @@ The keys only help navigation. Compare cards by the situation and intended resul
 
 #### OPTION-COMPARISON — Keep unlike option results distinct
 
-- **Situation:** Several possibilities exist, or one unresolved question makes a costly commitment unsafe.
-- **Question:** Do you need to compare possibilities, keep worthwhile variants, keep only the best trade-offs found so far, control what stays under consideration, prepare options for a later chooser, choose now, or resolve the uncertainty blocking commitment?
-- **First useful result or honest blocker:** A comparison basis, retained variant set, best-known trade-off set, active-membership rule, set for a later chooser, local choice, answer to the blocking question, or the exact blocker.
-- **Mantra:** Name the decision and cost of error. Compare before choosing. Keep worthwhile variants for history; keep the best trade-offs when clearly worse variants should drop out; set a rule for what stays under consideration; prepare a set when another chooser acts later; choose only when choice is current. For costly action, resolve only the uncertainty blocking commitment. Return when basis, rule, evidence, or use changes.
-- **Start with:** `A.19.ECS` (comparison), `C.18` (archive/front), `C.19` (pool), `G.5` (set result), or `C.11` (choice). For costly action choose only the current check: `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `C.11`, or `A.15.5`.
-- **Stop or return:** Stop at the result answering the present question. It neither chooses by implication nor performs later Work.
+- **Situation:** A candidate list mixes labels such as *build*, *buy*, *reuse*, *provider*, *internal*, *outsource*, or *AI*; or one unresolved question makes a costly commitment unsafe.
+- **Question:** Must you form complete ways to obtain one result, compare or retain them, govern a pool, prepare a set for another chooser, choose now, or resolve the uncertainty blocking commitment?
+- **First useful result or honest blocker:** A complete-enough same-result way set, comparison or retained set, pool rule, prepared `OptionSet`, `ChoiceResult`, answer to the blocking question, or exact gap.
+- **Mantra:** Name one result, use, situation, horizon, and acceptance basis. Turn labels into complete ways on one parity basis, keeping supported, proposed, and unknown premises visible. Compare or choose only when current; preserve worthwhile variants and gaps. For costly action, resolve only the uncertainty blocking commitment. Return when the result, basis, evidence, or use changes.
+- **Start with:** `C.38` when labels or fragments need complete ways; otherwise open only the current branch in `A.19.ECS`, `C.18`, `C.19`, `G.5`, or `C.11`. For costly action, use only the current check in `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `C.11`, or `A.15.5`.
+- **Stop or return:** Stop at the result for the present question. An option description does not choose or establish capability, authority, Work, provision, delivery, acceptance, or use.
 
 #### RESULT-TO-NEXT-MOVE — Route an obtained result to the next probe or option
 
@@ -24331,6 +24341,8 @@ Treat this source account as current for this edition. Reopen only the affected 
 
 **Use boundary.** A.15 supplies only the system-role–Method–Work alignment needed by the current project question. Send a single occurrence, wording, assurance, evidence, result, or reliance question to the pattern that defines or tests that claim.
 
+**Outside-practice result boundary.** When one receiving decision or piece of Work needs a bounded result governed by another practice, use `A.15.9` to inspect an already-available result before requesting anything new, ask only for the remaining gap, and preserve supplier Method and authority separately from the receiving decision. A.15 keeps the underlying Method, Work, performer, assignment, communication, result, and record distinctions unchanged.
+
 ### A.15:1 - Problem frame
 
 When the alignment is already clear and ongoing Work still needs one next action chosen from current facts within an applicable domain Method, use `A.15.7`. It keeps the domain Method, steering Method, deciding System, intended performer, and any later WorkPlan or performed-action claim separate.
@@ -24598,6 +24610,8 @@ SysML v2 is deliberately excluded from A.15's SoTA basis and is not retained as 
 For visible credential, provenance, dashboard, explanation, or composed-source cases that require a project-side value and relation before reliance, use A.15.4. If a source row cannot be recovered in the local solution and checks, do not let the citation stand in for an A.15 rule.
 
 ### A.15:12 - Relations
+
+* `A.15.9` coordinates one receiving decision or piece of Work with one bounded result governed by another practice. It first tests an already-available result, requests only a remaining gap, and preserves supplier Method and authority separately from receiver decision authority; it creates no new alignment object or result kind.
 
 * `A.15.7` supplies the situation-responsive steering Method after current Work, its domain Method, and relevant facts are known; it returns the selected action, intended performer, and stop or feedback condition without making the answer into Work.
 
@@ -27409,6 +27423,188 @@ Use source traditions for the action they change and keep their scope limits. Th
 **Which branch?** Actual dated Work, or a present WorkPlan with intended performance only as plan content. **Who performs?** Only Systems with the direct actual attribution, or intended performers named only by the plan. **What supports?** Separately identified Systems and values through exact relations. **What must survive?** The minimum state, its carrier, update/use, currentness, and return condition. **What do we test?** Use an applicable direct domain Method to define one decision-changing loss, handoff, delay, or reconfiguration; when the probe occurs, an admitted System performs the dated probe Work. **What comes back?** The direct relation result or exact blocker and the next repair or stop—not a new performer whole.
 
 ### A.15.8:End
+
+## A.15.9 - Request and Use a Bounded Result from Another Practice
+
+> **Type:** Method pattern
+> **Status:** Candidate
+> **Normativity:** Normative unless explicitly marked informative
+
+### A.15.9:1 - Problem frame
+
+**Plain name.** Get only the outside-practice result this decision needs, or reuse one that is already good enough.
+
+**Use this when.** One decision or piece of Work can change because of a legal interpretation, safety limit, tax consequence, privacy condition, calculation, objection, observation, or another result governed by a different practice. The available source or request instead names a department, title, document, meeting, approval, provider, or tool, so the receiver still cannot tell what result is needed or how it may be used.
+
+**Primary reader.** The person, team, organization, or other deciding System that owns the receiving decision or Work. The supplier may be any practice able to return the needed result; neither *supplier*, *specialist*, *profession*, nor *professional result* is a new FPF kind.
+
+**First useful result.** Return one of three things, usually in two ordinary sentences:
+
+- a bounded decision to use an already-available result for this receiving use;
+- a request for the smallest still-missing result; or
+- an honest blocker naming the missing source, Method, capability, authority, access, evidence, or other basis and the decision that cannot yet proceed.
+
+**What changes in practice.** The receiver checks a result before commissioning more Work, asks for an answer rather than a department or document, and states where supplier judgement ends and the receiving decision begins. A usable existing answer can stop the work before any new request, assignment, meeting, delivery, or acceptance ceremony.
+
+**Cheap non-use.** Do not open this pattern merely because another practice originally produced a source. If the current result, its limits, and its permitted use are already clear and no cross-practice boundary changes the next action, use the result under its direct pattern and stop. Use `A.10` directly when the only open question is evidence, currentness, or bounded reliance. Use the `RESULT-TO-NEXT-MOVE` entry when a result already exists and only its next downstream question is open.
+
+**Not this pattern when.** Use the supplier's domain Method for the specialist answer itself; `A.2.2` for capability; `A.13` for agency; `A.15.1` for dated Work; `A.2.9` for communication; `C.11` for a live choice among an existing `OptionSet`; and `C.38` only when the question has changed from one bounded contribution to several complete ways of obtaining the same receiving result.
+
+### A.15.9:2 - Problem
+
+A receiver often asks for *legal approval*, *a safety review*, *an architect sign-off*, *a tax memo*, or *an AI check*. Those phrases identify a search direction or artifact, not the result that can change the receiving decision. They hide the subject, configuration, interval, assumptions, evidence, qualification, authority boundary, and non-use condition.
+
+The opposite failure is to rebuild an organization around a small question. A reversible exchange acquires a fixed role catalogue, responsibility matrix, approval workflow, supplier account, and mandatory record even though an existing qualified answer could have closed the issue. The administrative apparatus grows while the result remains vague.
+
+The missing move is small: start with the receiver's decision, inspect what already exists, request only the gap, preserve the supplier's Method and authority, and use the result only inside its supported boundary. The request, planned or actual Work, communication, result, evidence, acceptance, reliance, authority, and receiving decision remain different facts.
+
+### A.15.9:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Reuse versus fresh Work | A current qualified result can be cheaper and safer than a new request, but a stale or wrong-configuration answer can look authoritative. |
+| Small request versus useful boundary | The receiver needs a short request without omitting the subject, situation, use, and stop that make the answer meaningful. |
+| Supplier judgement versus receiver authority | The supplier governs its Method and professional conclusion; the receiver still owns the decision that consumes it unless a separate authority relation says otherwise. |
+| Informal exchange versus recoverability | Two sentences may be enough for a reversible choice; consequential reliance may require exact sources, Work, evidence, authority, dissent, and currentness. |
+| Named specialist versus supported performer | A title, department, credential, provider label, or tool name can help find a candidate but does not establish capability, assignment, authority, or performed Work. |
+| Recognition versus assurance | A vague outside-practice dependency is enough to open the pattern; high-consequence use requires stronger direct evidence, assurance, and stop rules. |
+| Shared move versus domain ownership | The inspect-reuse-or-request boundary transfers across practices, while every domain keeps its own questions, Methods, evidence standards, acceptance, and consequences. |
+
+### A.15.9:4 - Solution
+
+Begin with one receiving decision or piece of Work and one result that could change its next action. Inspect an available result before commissioning anything new. If a gap remains, request only that gap. Let the supplying practice govern how it answers, then assess and use the return without transferring either side's authority.
+
+#### A.15.9:4.1 - Follow the nine-step bounded-result sequence
+
+1. **Name the receiving decision or Work.** State who will use the result, what action can change, and the consequence of delay or error. Do not begin with a department, profession, meeting, or document.
+2. **Inspect an already-available result first.** Identify the exact result or claim, its subject, conditions, source, date or window, qualification, and intended use. Apply `A.10` only to the evidence, currentness, provenance, and bounded reliance actually needed. If the result is adequate for this use, state the reliance limit and stop. If it is stale, concerns another configuration, lacks support, or only looks authoritative, retain that exact gap.
+3. **Ask for the smallest new result only when it is still needed.** Name the calculation, interpretation, limit, objection, observation, decision, or other result that would change the receiving action. Permit a supported result, a bounded objection, or a blocker as a useful return.
+4. **Bound the subject and use.** State the subject, configuration or situation, interval, assumptions, important exclusions, acceptance condition, and non-use boundary at the grain that can change the answer.
+5. **Preserve the supplier's practice and Method.** Name the supplying practice and applicable Method, source, or inquiry status when known. The request may state needed inputs and evidence, but it does not replace the supplier's Method. If no applicable Method or source is known, return the missing-method inquiry instead of fabricating assigned Work.
+6. **Recover performer and authority only when reliance needs them.** A small exchange may not need either. When they matter, establish capability, access, conflict, assignment, permission, authority, responsibility, and commitment under their direct patterns. For actual supplier Work, recover each actual performer through `A.13`, let `A.15.1` independently admit the dated Work, and use `F.6` afterward only if the receiving use also needs to say exactly under which assignment the Work was performed. Failure of that attribution leaves the Work and its separately assessed result intact.
+7. **Keep request, Work, communication, and result distinct.** A request is a claim-bearing episteme. A WorkPlan, assignment, commitment, communicative Work, dated supplier Work, source or returned result, evidence, delivery, acceptance, and later effect each require their own basis. Sending a file or holding a meeting establishes none of the stronger facts by itself.
+8. **Assess and use the result.** Check the subject, conditions, provenance, evidence, uncertainty, qualification, dissent, currentness, and authority boundary that matter to this use. Then rely within a stated limit, reject, request repair, seek another contribution, or keep the blocker. The supplier does not make the receiving decision merely by supplying the result.
+9. **Reopen locally.** Name the source, Method, subject configuration, use, capability, authority, conflict, evidence, or later observation whose change can alter the disposition. Reopen only the affected request, result, reliance, or receiving decision.
+
+The sequence is logical, not a compulsory workflow. Step 2 can close the use before any new request. Steps 5-9 open only when qualification, new Work, a return, or consequential reliance makes them current. Several independent contributions may proceed concurrently, and one receiver may accept one result while another remains blocked.
+
+#### A.15.9:4.2 - Return the first result in ordinary language
+
+For a small reversible use, write no more than the decision needs:
+
+> **Receiving use:** [decision or Work and what can change].
+>
+> **Disposition:** [use this already-available result within these limits / ask for this smallest missing result about this subject and situation / stop because this exact basis is missing].
+
+When a new request is needed, a compact request may read:
+
+> For [receiving decision], answer [smallest result question] about [subject and configuration] for [window and use]. State the supported result, a bounded objection, or the exact blocker; do not decide the receiving question for us.
+
+Do not add a field merely because it appears in a larger case. Add the supplier, Method, performer, Work, evidence, authority, acceptance, or reopen detail only when it changes or supports the receiving use.
+
+#### A.15.9:4.3 - Persist only what another use must recover
+
+If several contributions, audit, dispute, or consequential reliance require a durable account, use one or more ordinary `C.2.1` epistemes. Each account identifies its truthful EntityOfConcern and effective reference scheme, then designates only the request, Work, result, relation, evidence, disposition, and reopen facts actually used. This pattern adds no professional-contribution kind, universal account schema, profession taxonomy, or approval record.
+
+Keep incompatible focuses separate. An account about the receiving decision is not the supplier Work; an account about a returned result is not the world-side subject it concerns; a file carrying either account is not the result or authority. Use `A.10` for any relied-on evidence relation and the direct subject pattern for the result's own identity and validity.
+
+#### A.15.9:4.4 - Separate recognition from assurance
+
+- **Recognition.** A title-, department-, document-, approval-, or tool-shaped request that cannot yet name the result and receiving use is enough to open `A.15.9`. One available-result check or two-sentence request can be enough to change the next action.
+- **Assurance.** Safety-, release-, compliance-, irreversible-, or high-impact use adds the applicable domain Method, evidence, authority, independence, assurance, acceptance, and stop rules. A concise request does not lower those burdens, and a fluent answer does not satisfy them.
+
+### A.15.9:5 - Worked cases
+
+#### A.15.9:5.1 - Reuse closes a payroll scheduling question
+
+An administrator asks whether moving one contractor submission from Thursday to Friday will miss the current pay run. Before requesting new payroll Work, the administrator finds a dated payroll result for the same payroll entity, contractor batch, cutoff, and calendar edition. The source is current for employee payments but explicitly excludes the contractor batch.
+
+The bounded disposition is: “Use the current result for employee items only. The contractor item remains blocked because the checked result does not cover that batch.” No new payroll assignment, meeting, Work occurrence, delivery, or approval is invented. The administrator either keeps the contractor date unchanged or requests the missing contractor-cutoff result.
+
+#### A.15.9:5.2 - A heat-pump choice needs one acoustic result
+
+An engineering team is choosing a compressor operating region. It already has a general product noise rating, but the decision concerns tonal noise in a named room, mounting configuration, and speed range. The general rating is useful source material but is not qualified for that use.
+
+The team requests: “For the controller decision, return the observed tonal-noise and vibration limits for this compressor, mounting, room, and speed range, with the tested conditions and unsupported region. A supported limit, objection, or missing-test blocker is useful; the acoustics result does not choose the controller.” The acoustics practice keeps its Method and evidence rules; the engineering team keeps the architecture decision. If the question later becomes which complete internal, provider, reuse, or redesign way can make the same accepted control result available, leave this one-contribution question and use `C.38`.
+
+#### A.15.9:5.3 - A fluent tool output is not specialist approval
+
+A case worker receives a generated summary labelled *verified legal review*. The summary cites no governing edition, jurisdiction, case configuration, performing Agent, Method, or authority. It may help locate sources, but it cannot support the current eligibility decision.
+
+The honest first result is a blocker: “The generated summary is not qualified for this case and jurisdiction. Obtain a dated legal result for the named eligibility question, or stop the decision.” If later evidence supports the tool or another Agent as the actual performer of bounded legal-research Work, those facts still do not create legal authority or make the receiving administrative decision.
+
+### A.15.9:6 - Precision restoration
+
+| Source phrase | Recover before relying on it | Do not infer |
+| --- | --- | --- |
+| *professional result* or *specialist return* | The actual governed result kind, subject, conditions, supplier practice, and receiving use. | A new FPF result kind or universal profession ontology. |
+| *ask legal / safety / architecture / finance* | The smallest result question and the decision it can change. | A department, title, or field name already identifies the answer. |
+| *review* | The reusable Method, planned Work, dated review Work, communication, and returned result that are actually claimed. | Scheduling or delivery proves Work, acceptance, or adequacy. |
+| *approved* or *signed off* | The exact result plus any separately supported authority, permission, acceptance, or gate relation. | A word, signature image, or provider status transfers decision authority. |
+| *specialist* | The candidate or actual performing Agent and, only when needed, current capability, assignment, access, conflict, and authority. | Title, credential, organization, species, or tool label establishes those relations. |
+| *AI review* or *tool check* | The source or result, actual performer if current, Method, dated Work, provenance, checks, evidence, and authority boundary needed by this use. | Fluency, automation, branding, or activity establishes truth, Work, permission, or acceptance. |
+| *received* or *delivered* | The communication or transfer that occurred, the independently identified result, and any separate acceptance and use. | Delivery is production, acceptance, reliance, or effect. |
+
+**Bias check.** Institutional prestige, official status, publication recency, ubiquity, and academic praise are retrieval cues, not proof that a result is the best current answer or fits this use. Prefer the result that repairs known shortcomings and survives the receiving question's evidence and applicability checks. An official standard may be the best available basis, but not because it is official.
+
+### A.15.9:7 - Conformance and practical checks
+
+A use conforms only when the checks needed by its claimed result pass:
+
+1. The receiving decision or Work, receiver, and action that can change are recognizable to a cold reader.
+2. An already-available result is inspected before new supplier Work is requested, unless none can reasonably be found at the required cost.
+3. The first result is a bounded reuse disposition, smallest missing-result request, or exact blocker; it can remain two sentences for a low-consequence case.
+4. Subject, configuration or situation, interval, assumptions, intended use, and non-use boundary are present at the grain that can change the answer.
+5. The supplying practice keeps its Method, evidence standards, qualification, and domain authority; the receiver keeps its own decision authority unless a separate relation says otherwise.
+6. Request, WorkPlan, assignment, communicative Work, dated Work, result, evidence, delivery, acceptance, reliance, authority, and receiving decision are not collapsed.
+7. A performer, capability, assignment, authority, or Work claim appears only when its direct basis is current. Actual performer recovery follows `A.13`, independent Work admission follows `A.15.1`, and assignment-bound attribution through `F.6` is optional and later.
+8. `A.10` governs evidence, provenance, currentness, and bounded reliance rather than being copied here.
+9. A supported result, bounded objection, and honest blocker are all usable returns; an approval-looking label cannot erase a blocker.
+10. The reopen condition names the smallest changed fact that can alter this use, not a ritual periodic review.
+
+**Recognition check.** Give a reader a department-, document-, approval-, or tool-shaped request. The reader should be able to name the receiving decision and return one of the three first-result forms without designing an organization.
+
+**Assurance check.** For consequential reliance, ask which direct domain Method, evidence, source edition, independence or conflict condition, authority, acceptance rule, applicability window, and stop are required. Missing assurance narrows or blocks reliance; it does not erase a separately identified source or result.
+
+### A.15.9:8 - Anti-patterns
+
+- **Request the artifact.** “Send a report” replaces the question and receiving use.
+- **Mandatory fresh work.** A current qualified result is ignored because the workflow expects a new review.
+- **Approval by appearance.** A title, logo, signature, provider label, dashboard state, or *verified* tag is treated as authority or acceptance.
+- **Receiver takeover.** The request dictates the supplier's Method or rewrites the professional conclusion to fit the desired decision.
+- **Supplier takeover.** Supplying one result is treated as making the receiver's decision.
+- **One contribution account as ontology.** Request, assignment, Work, communication, result, evidence, acceptance, and authority become fields of one invented world-side object.
+- **Tool exceptionalism.** AI output is either accepted by fluency or rejected by species rather than assessed under the same direct result, evidence, Work, and authority rules.
+- **Local change, global reopen.** One changed source or condition forces every contribution and decision to be repeated.
+
+### A.15.9:9 - Consequences and trade-offs
+
+| Consequence | Practical effect |
+| --- | --- |
+| Existing-result stop | Avoids unnecessary specialist Work, delay, and duplicate review while keeping stale or wrong-case answers visible. |
+| Smaller requests | Suppliers receive a decision-relevant question and may return an objection or blocker without manufacturing a document-shaped success. |
+| Preserved authority | Supplier judgement and receiver decision stay independently reviewable. |
+| Better failure information | Missing Method, capability, access, authority, evidence, or current source becomes the next actionable result. |
+| Cross-domain reuse | Engineering, administration, finance, governance, science, medicine, law, safety, and other practices can share the boundary without sharing one domain Method. |
+| Additional precision cost | Consequential cases require exact subject, conditions, evidence, authority, and use instead of a familiar approval label. |
+| Bounded conclusion | The result supports only the named receiving use and limits; broader transfer needs another check. |
+
+### A.15.9:10 - Rationale and SoTA use
+
+The best-known current line for this problem is result-first and use-bounded: define what the receiving decision needs, reuse a qualified result when possible, request only the gap, and preserve the supplier's Method and authority separately from the receiver's decision. Current `SYSE.9` demonstrates this move in engineering; the unlike administration, finance, and governance cases show that the boundary transfers while their domain content does not.
+
+This pattern does not select a professional standard, role framework, maturity model, organization chart, or review regime because it is official, new, popular, or widely taught. Such sources matter only when a distinction they supply changes the nine-step move, one direct domain result, or its limits. A source with institutional authority can still be obsolete for the live problem; a less famous source can be stronger when it identifies and repairs the older line's failure.
+
+`A.10` already owns evidence, provenance, currentness, and bounded reliance, while `RESULT-TO-NEXT-MOVE` already routes an obtained result to the downstream question that is current. Repeating either Method here would create a shadow specification. `A.15.9` contributes only the cross-practice receiving-decision boundary, the existing-result stop, the smallest missing-result request, the supplier/receiver authority split, and local reopen.
+
+### A.15.9:11 - Relations
+
+- **Builds on:** `A.15` for System-role-Method-Work separation; `A.10` for evidence, provenance, currentness, and bounded reliance; `A.13` and `A.15.1` when actual performer and Work facts matter; `A.2.2` for capability; `A.2.1` and `F.6` only when assignment and later assignment-bound Work attribution are needed; `A.2.9` for communication; `C.2.1` for any persistent claim-bearing account; and the direct subject pattern for the result itself.
+- **Coordinates with:** the supplying DPF or domain Method for the answer; `E.18.1` for accepted-problem carry-through; `A.15.7` when a qualified result becomes one fact in ongoing Work steering; and `RESULT-TO-NEXT-MOVE` when the result exists and a later downstream question becomes current.
+- **Question-change boundary with C.38:** stay in `A.15.9` when one receiving decision needs one bounded result from another practice. Move to `C.38` only when the new question is how several complete ways could make the same receiving result available. From `C.38`, return here only for one missing or unqualified outside-practice result inside a way.
+- **Keeps outside:** supplier-domain ontology and Methods, organization design, procurement and service arrangements, fixed role catalogues, universal approval workflows, the receiving choice, actual realization, and authority transfer.
+
+### A.15.9:End
 
 ## A.15.PROD - Production Work, Entity-Identity Inception, and Production Completion Recovery
 
@@ -46431,7 +46627,7 @@ If that first output still cannot be written honestly, the current comparison st
 - What next probe could still change the choice, if any?
 - Is this still local choice, or has the question moved to a neighboring problem—for example, search, pool policy, selector-result declaration, publication availability, or enactment?
 
-**Typical reroutes.** `C.18` when the real question is still inventing or reframing options; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice (planned `C.9` is future characteristic-profile consolidation only); `A.18` or `A.19` when the mathematical support question itself becomes primary.
+**Typical reroutes.** `C.38` when labels or fragments still need to become complete ways of obtaining the same result; `C.18` when the real question is open-ended invention or reframing; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice (planned `C.9` is future characteristic-profile consolidation only); `A.18` or `A.19` when the mathematical support question itself becomes primary.
 
 **Common neighboring-pattern mistakes.** Do not use `C.11` to hide search work inside "decision", to hide candidate-pool policy inside one local choice, or to hide execution planning inside one generic rationality account. Do not treat declaring selector-facing set-result content, or later making that result available, as if either were the same question as deciding.
 
@@ -46457,7 +46653,7 @@ Without one explicit place for choice calculus, search, candidate-pool policy, a
 
 | Force | Tension |
 | --- | --- |
-| Choice doctrine versus option generation | `C.11` must govern choice among already-available options without swallowing `C.18` search and candidate-generation work. |
+| Choice doctrine versus candidate formation and generation | `C.11` must govern choice among already-available options without swallowing `C.38` formation of complete ways or `C.18` open-ended search and generation. |
 | Evidential, causal, and subjunctive dependence | The pattern must stay usable with classical decision language while making room for causal and success-first repairs where correlation is not enough. |
 | Decide now versus probe more | The chooser may need to stop and choose now, or spend more effort on information and computation first. The theory must make that trade legible. |
 | Decision subject versus narrower agent language | The chooser may be one person, one team, one organization, or another collectivity-bearing system. The pattern must not silently force all cases into one narrow `Agent` reading. |
@@ -46487,7 +46683,7 @@ Omit the tail when causal support changes neither the comparison nor the chosen 
 
 `C.11` governs theory-side choice among already-available options. Its selected decision result states what should be chosen from the current `OptionSet`, including whether further probing, information gathering, or computation is rational before the choice is fixed.
 
-The OptionSet choice question begins only after an option set already exists. It does not govern open-ended generation of options, and it does not govern the execution order of a plan after a choice has already been made.
+The OptionSet choice question begins only after an option set already exists. It does not form complete ways of obtaining one result, govern open-ended generation of options, or govern the execution order of a plan after a choice has already been made.
 
 #### C.11:4.2 - Decision discipline over a live option set
 
@@ -46499,7 +46695,7 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 
 2. **Freeze the current option set.**
    State the already-available options being compared now as one `OptionSet`.
-   If the hard work is still inventing, expanding, or reframing the options, stop here and apply `C.18`.
+   If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. If the hard work is open-ended invention, expansion, or reframing, apply `C.18`.
 
 3. **Make the comparison basis explicit.**
    State one `PreferenceOrder` or one `EvaluativeMeasure`, plus one `BeliefState` and one `OutcomeModel`.
@@ -46655,7 +46851,8 @@ The comparison should close as `probe again` only when all of the following are 
 
 The comparison should close as `reroute` when the record has already learned that the governing decision question changed:
 
-- to `C.18` when the option set itself is still under invention or reframing;
+- to `C.38` when labels or fragments must first become complete-enough ways of obtaining the same result;
+- to `C.18` when the option set itself is under open-ended invention or reframing;
 - to `C.19` when the question is now how broadly to keep exploring or exploiting one candidate pool;
 - to `C.24` when one choice result already exists and the next task is now sequencing, enactment, or execution-path probe work;
 - to `G.5` when the next task is declaring or naming selector-facing selected-set content; when that result already exists, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and audience availability.
@@ -46799,7 +46996,8 @@ Use `C.11` while the question remains: from this current `OptionSet`, what shoul
 
 Reroute immediately when the question changes:
 
-- If the hard question is still what options should exist at all, or whether the current option set needs to be expanded or reframed, leave this pattern and work in `C.18` first.
+- If the current rows are labels or fragments and the hard question is how several complete ways could obtain the same result, leave this pattern and work in `C.38` first.
+- If the hard question is still what options should exist at all, or whether the current option set needs open-ended expansion or reframing, leave this pattern and work in `C.18` first.
 - If the options already exist but the question is how broadly to keep exploring or exploiting the candidate pool, leave this pattern and work in `C.19`, where the next useful output is one explicit pool-policy result rather than one local `ChoiceResult`.
 - If one option is already chosen and the question is how to sequence, budget, or enact that choice, leave this pattern and work in `C.24`, where the next useful output is one enactment-facing call plan or `CheckpointReturn`.
 - If the question has shifted from deciding to declaring or naming selector-facing selected-set content, leave this pattern and work in `G.5`. Its next useful output may be a `Shortlist` or `RankedShortlist` when alternatives remain for later choice, a `JointUseSet` when every named member is included for one bounded use, a narrowed handoff, abstain, or escalation. None is one more local `ChoiceResult`. If that result already exists and the current question is presentation or availability to an audience, use `E.17` for the source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
@@ -46927,7 +47125,7 @@ If those conditions are still missing, the pattern has not yet answered the choi
 
 **Show.** A finished result here should therefore read like one decision record, not one research-theory aside: "Team-level chooser; three current plans; risk reduction preferred; calibration uncertainty still live; one extra calibration run remains feasible and could still overturn the current ranking; `ChoiceResult = probe again with calibration run`." Or, after that probe is no longer worth doing: "`ChoiceResult = choose plan B now because the remaining calibration gain no longer justifies one more day of delay`."
 
-**Show.** `C.18` is still the place for inventing new plans, `C.19` is still the place for broader exploration policy over the plan pool, and `C.24` is still the place for the run sheet and execution order after the choice is made.
+**Show.** `C.38` is the place for turning labels or fragments into complete ways of obtaining one result, `C.18` is the place for open-ended invention of new plans, `C.19` is the place for broader exploration policy over the plan pool, and `C.24` is the place for the run sheet and execution order after the choice is made.
 
 #### C.11:5.2 - Episteme grounding
 
@@ -46973,9 +47171,9 @@ The family map also remains plural: causal, success-first, active-inference, and
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| `CC-C11.1` | The pattern **SHALL** state that `C.11` governs choice among already-available options rather than candidate generation. | Keeps `C.18` outside and prevents search takeover. |
+| `CC-C11.1` | The pattern **SHALL** state that `C.11` governs choice among already-available options rather than formation of comparable ways or open-ended candidate generation. | Keeps `C.38` and `C.18` outside and prevents candidate-construction or search takeover. |
 | `CC-C11.2` | The pattern **SHALL** keep `DecisionSubject` as the default chooser term, and **SHALL NOT** use `Agent` as the generic chooser term unless one explicit agency claim is governed by `A.13`; measured characteristic and evidence claims use the A.17/A.18/A.19/C.16/A.10 stack, and planned `C.9` supplies no current governing force. | Prevents unwanted narrowing of the chooser. |
-| `CC-C11.3` | The pattern **SHALL** state the boundary among `C.11`, `C.18`, `C.19`, `C.24`, and `G.5` explicitly in the body. | Prevents collapse of choice doctrine, candidate generation, candidate-pool policy, planning, and selector-facing result declaration. |
+| `CC-C11.3` | The pattern **SHALL** state the boundary among `C.11`, `C.38`, `C.18`, `C.19`, `C.24`, and `G.5` explicitly in the body. | Prevents collapse of choice doctrine, same-result way formation, open-ended generation, candidate-pool policy, planning, and selector-facing result declaration. |
 | `CC-C11.4` | `Solution` **SHALL** state one inspectable decision procedure from `DecisionSubject` and `OptionSet` through comparison basis, dependence layer, probe-worthiness test, one explicit `ChoiceRule`, and one emitted `ChoiceResult`. | Keeps `C.11` as one operational answer to the choice question rather than one survey of schools. |
 | `CC-C11.5` | The pattern **SHALL** name one minimal decision inventory including `DecisionSubject`, `DecisionSubjectGranularity`, `OptionSet`, `PreferenceOrder`, `EvaluativeMeasure`, `BeliefState`, `OutcomeModel`, `ChoiceRule`, `ChoiceResult`, `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation`. | Keeps the calculus objectual rather than slogan-like. |
 | `CC-C11.6` | Load-bearing inventory terms used in the pattern text **SHALL** receive local plain glosses or equivalent operational clarification inside the body. | Prevents the core terminology from remaining implicit or displaced into outside basis carriers. |
@@ -46995,7 +47193,7 @@ One quick usability test helps here: if the closing line does not state one lawf
 
 | Anti-pattern | Symptom | Why it fails | How to avoid / repair |
 | --- | --- | --- | --- |
-| Search takeover | The text starts treating option generation as if it were already part of decision doctrine. | `C.11` loses its decision-theory EntityOfConcern and silently absorbs `C.18`. | The option set is stated as already existing, and search questions are handled by `C.18`. |
+| Candidate-formation or search takeover | The text starts constructing complete ways or generating options as if that work were already part of decision doctrine. | `C.11` loses its decision-theory EntityOfConcern and silently absorbs `C.38` or `C.18`. | State the option set as already existing; use `C.38` for same-result way formation and `C.18` for open-ended generation. |
 | Policy collapse | Exploration or exploitation governance over a candidate pool is written as if it were identical with choosing among current options. | Choice doctrine and candidate-pool policy become indistinguishable. | `C.19` remains explicit as the neighboring pattern for selection policy and exploration governance. |
 | Planning collapse | Sequencing, replanning, and enactment budgeting are written as if they were already part of the choice calculus. | Planning-side question moves out of `C.24` by accident. | Execution order and operational budgeting remain in `C.24`, even when `C.11` says more probing is rational. |
 | Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes one cleaned-up survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, probe-worthiness test, one explicit doctrine, and one emitted result. |
@@ -47070,7 +47268,7 @@ Worked-slice discipline from these rows:
 ### C.11:12 - Relations
 
 - **Builds on:** `A.6.P`, `A.6.5`, `A.10`, `A.13`, `A.18`, `A.19`; **coordinates with:** `E.10.LRN` for learning-word recovery, `C.11.CRC` for a missing finite configuration-relative comparison claim, `C.17` for bounded characterization, and planned `C.9` only as a future agency-characteristic-profile consolidation
-- **Read next when this question leaves local choice:** `C.18` for candidate generation and open-ended search, `C.19` for one explicit pool-policy result over exploration or exploitation governance, `C.24` for one enactment-facing call plan or `CheckpointReturn`, `G.5` for the selector-facing result kind that is actually current—retained alternatives, all-member joint use, narrowed handoff, abstain, or escalation—and `C.28` when the choice result depends on causal-use support
+- **Read next when this question leaves local choice:** `C.38` for forming complete ways of obtaining one result, `C.18` for open-ended candidate generation and reframing, `C.19` for one explicit pool-policy result over exploration or exploitation governance, `C.24` for one enactment-facing call plan or `CheckpointReturn`, `G.5` for the selector-facing result kind that is actually current—retained alternatives, all-member joint use, narrowed handoff, abstain, or escalation—and `C.28` when the choice result depends on causal-use support
 - **Keeps outside:** candidate generation, pool-wide exploration or exploitation policy, selector-facing set-result declaration, publication availability, and execution sequencing
 - **Aligns with:** classical evidential decision theory, causal decision theory, success-first or subjunctive repair, bounded-resource metareasoning and probe-cost doctrine, `C.28` causal-use question/rung/support vocabulary, active-inference-adjacent decision work, quantum-like contextual repair where context or order effects are real, and multilevel mathematical-lens pressure at the minimal-floor level only
 
@@ -67721,6 +67919,206 @@ Reopen this source use when newer representation, provenance, view, or decision 
 
 ### C.37:End
 
+## C.38 - Construct Comparable Ways to Obtain One Result
+
+> **Type:** Method pattern
+> **Status:** Candidate
+> **Normativity:** Normative unless explicitly marked informative
+
+### C.38:1 - Problem frame
+
+**Plain name.** Turn labels such as *build*, *buy*, *reuse*, *provider*, *internal team*, *outsource*, or *AI* into comparable complete ways of getting the same result.
+
+**Use this when.** A person, team, organization, or other deciding System must choose how one named result will become available, but its candidate list mixes relations, performers, Systems, Methods, commercial labels, and enabling branches. The rows do not yet seek the same result or expose the same burdens, so sending them directly to `C.11` would create a false choice.
+
+**Primary reader.** The practitioner preparing decision-ready alternatives for one receiver. The pattern forms candidates; it neither chooses for the receiver nor realizes a retained way.
+
+**First useful result.** A finite same-result comparison containing at least two materially different complete-enough possible-future ways, one shared parity basis, explicit supported/proposed/unknown premises and gaps, and the truthful next handoff. When choice is current, hand the resulting `OptionSet` to `C.11`; its `ChoiceResult` is separate. For a retained way, name the first unsupported realization branch.
+
+**What changes in practice.** Instead of comparing *buy* against *AI* or *internal* as if the labels were peer kinds, the practitioner asks how each whole way could make the same accepted result available. Duplicate labels merge, materially different ways under one label split, and omitted integration, evidence, support, capability, custody, resource, consequence, and exit burdens become visible before commitment.
+
+**Cheap non-use.** Stop if a direct domain Method already returns the complete useful comparison for this result and use, if one mandatory path leaves no real comparison decision, or if a complete `OptionSet` already exists and only `C.11` is needed.
+
+**Not this pattern when.** Use `A.15.9` for one missing or unqualified bounded result from another practice; `C.18` for open-ended generation or reframing; `C.19` for live-pool exploration policy; `C.32` for architecture-candidate synthesis; `A.15.8` for one actual-Work or present-WorkPlan support configuration; and the direct domain Method for realization, production, provision, contracting, acceptance, or use.
+
+### C.38:2 - Problem
+
+Common option labels name unlike things. *Buy* may name a purchase relation, *provider* a continuing arrangement, *internal* a performer location, *reuse* an already available System, *AI* one possible Agent, and *build* many kinds of Work. Two labels can describe the same whole way, while two offers carrying the same label can differ in integration, custody, support, evidence, capability, and exit enough to reverse the choice.
+
+The error is not merely missing detail. If candidate rows seek different results, use different acceptance bases, or silently switch situations and horizons, no amount of scoring restores comparability. If possible-future rows are written as facts, the table also invents capability, authority, Work, provision, delivery, acceptance, and availability.
+
+The needed move is to fix one result question, construct complete-enough materially different ways on one parity basis, keep premise modality visible, and freeze only truthful candidates for choice. It is smaller than a procurement or architecture programme and more complete than a make-or-buy label table.
+
+### C.38:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Familiar labels versus comparable contents | Short labels help search, but they hide unlike relations and burdens. |
+| Completeness versus proportionality | Every way must be complete enough for this decision without becoming a universal arrangement description. |
+| Shared basis versus genuine difference | Rows need the same result and parity questions while preserving the differences that make them real alternatives. |
+| Possible future versus current fact | A useful candidate describes what could be arranged without asserting that capability, authority, Work, provision, or acceptance already obtains. |
+| Comparability versus forced total order | Some ways remain incomparable, gated, or tied; one scalar can erase protected conditions and decision-reversing uncertainty. |
+| Common Method versus domain ownership | Result-first formation transfers across domains, while specialist criteria, architecture, contracting, realization, and acceptance remain local. |
+| Candidate formation versus choice | A well-formed finite set is necessary for `C.11`, but constructing the set does not choose or borrow the chooser's authority. |
+
+### C.38:4 - Solution
+
+Fix one result, receiving use, situation, horizon, and acceptance basis. Construct at least two materially different complete ways by resolving labels into the Agents, Work, Methods, Systems, values, relations, conditions, and enabling branches that can change this decision. Ask the same decision-changing questions of every way, preserve unknowns, then freeze only complete-enough ways for `C.11`.
+
+#### C.38:4.1 - Follow the seven-step same-result sequence
+
+1. **Fix one result question.** Name the sought result by its direct governed kind, the receiver and use, applicable configuration or situation, horizon, acceptance conditions, deciding System, authority boundary, and commitment the decision may make. If rows seek a System, performed service, capability, access relation, and episteme interchangeably, split the questions before comparing.
+2. **Recover available inputs and exact gaps.** Use already-available subject and specialist results only where they fit the same question. Apply `A.15.9` only when one bounded result from another practice is missing or needs qualification. That request or return is an input to a way, not the whole way and not the choice.
+3. **Construct at least two materially different complete ways.** Use labels only as prompts. For each surviving way, describe the relevant proposed or already-available Agents, Work, Methods, Systems, values, provision or access relations, enabling branches, and conditions through which the same result could become available. Mark every decision-bearing premise as supported now, proposed, or unknown. Merge labels that resolve to the same decision-changing contents; split ways under one label when a content difference can change the choice. If no second way can be supported, return the missing-alternative or search gap rather than fabricating a peer.
+4. **Use one decision-changing parity basis.** Ask the same bounded questions of every way: result and availability condition; performers, Work, Methods, and means; production, transfer, provision, access, custody, or ownership; fit, interfaces, integration, and configuration; evidence, uncertainty, and assurance; support, maintenance, change, exit, and recovery; capability consequences; resources; and consequences for affected Systems. Omit a group only when it cannot change this choice. Keep a decision-reversing unknown as a visible gap.
+5. **Restore comparability without forcing totality.** Keep the result, receiving use, acceptance conditions, situation, configuration boundary, evidence horizon, and burden categories shared. Use ordinary comparison when the ordering is direct. Use `A.19.CPM` and `A.19.SelectorMechanism` only when evidence gates, partial orders, incomparability, abstention, or set-valued retention matter. Do not hide protected conditions inside an unexplained score.
+6. **Freeze and hand off a finite option set.** Put only complete-enough whole ways into the current `OptionSet`, with gaps that the chooser can see. Then apply `C.11` for local choice. Its result may choose one way or a retained tie-set, reject the current set, probe again, or reroute. `C.38` does not choose by implication and does not gain the chooser's authority.
+7. **Name the truthful continuation and reopen.** For a retained way, identify the first unsupported realization branch or the direct pattern that now owns the question. Reopen only when a changed result identity, use, acceptance basis, candidate, specialist result, capability, interface, evidence item, burden, support condition, affected-System consequence, exit condition, or observation can change the comparison or choice.
+
+#### C.38:4.2 - Use a proportional parity view
+
+There is no universal arrangement schema. For the current decision, a small table or a few parallel paragraphs are enough if another reader can answer these questions for every way:
+
+| Current decision question | What to make visible |
+| --- | --- |
+| Same result | What exact result becomes available, to whom, under which acceptance condition? |
+| How it could happen | Which proposed or available Agents, Work, Methods, Systems, values, and direct relations matter? |
+| Fit and joining | Which interfaces, configuration, integration, and enabling branches can reverse the choice? |
+| Reliance | Which evidence, uncertainty, assurance, authority, and protected conditions matter? |
+| Continuation | Which support, maintenance, change, custody, recovery, and exit conditions remain? |
+| Consequences | Which resources, capabilities, opportunity costs, and affected Systems change? |
+| Premise status | What is supported now, merely proposed, or still unknown? |
+
+Delete a row that changes no candidate comparison. Add a local question when omitting it could reverse the choice. A candidate is complete enough when its important means, dependencies, burdens, and gaps are visible to this decision—not when it fills a universal checklist.
+
+#### C.38:4.3 - Return the first result in plain language
+
+For a small case, use this form:
+
+> **One result and use:** [governed result, receiver, situation, horizon, acceptance basis].
+>
+> **Way A / Way B / ...:** [complete-enough contents, premise status, decision-changing burdens, explicit gaps].
+>
+> **Shared parity basis:** [questions actually asked of every way].
+>
+> **Next:** [hand the finite set to C.11 / return a missing alternative or probe / use the direct domain Method / begin the first unsupported realization branch after a separate choice].
+
+The result is a comparison claim, not an obtaining arrangement in the world. It establishes no actual performer, capability, authorization, Work, purchase, service, production, delivery, acceptance, availability, or use.
+
+#### C.38:4.4 - Choose the truthful carrier
+
+Use the least burdensome carrier that keeps the comparison recoverable:
+
+1. If a domain result already carries the complete same-use comparison and declares this specialization, keep it there rather than producing a second account.
+2. Otherwise retain one ordinary `C.2.1` episteme about the one result-obtaining comparison, with a truthful EntityOfConcern and effective reference scheme.
+3. If a direct domain Method already returns the complete useful comparison more cheaply, use that Method and do not add a `C.38` account.
+
+The episteme, table, document, or diagram that carries the claims is not a world-side arrangement, selected Structure, architecture, plan, Work, or result availability. Use `A.22`, `C.30`, `C.29`, `E.17`, or another direct pattern only when its separate question is current.
+
+#### C.38:4.5 - Separate recognition from assurance
+
+- **Recognition.** A candidate list whose labels name unlike things, or whose rows omit different burdens, is enough to open `C.38`. Two parallel ordinary descriptions can be enough for a reversible decision.
+- **Assurance.** Consequential use checks that every row seeks the same result on the same basis, every actual premise has direct support, modal premises remain modal, protected conditions remain visible, and no omitted burden can plausibly reverse the choice unnoticed. Domain acceptance, assurance, authority, realization, and release stay with their direct Methods.
+
+### C.38:5 - Worked cases
+
+#### C.38:5.1 - Greenhouse climate-control result
+
+A project needs one accepted result: a named greenhouse configuration maintains the required temperature and humidity envelope through the next operating horizon. Its first list says *build*, *buy*, *provider*, and *AI*.
+
+The team resolves those labels into three materially different ways: integrate internally owned equipment and control Work; obtain a configurable control System and perform local integration and operation; or obtain a provider-operated climate-control result with continuing sensing, access, support, and exit dependence. An AI Agent may perform forecasting or tuning Work inside any way; it is not a peer arrangement kind.
+
+The same parity questions expose plant interfaces, commissioning evidence, response to sensor loss, maintenance, operating capability, data access, affected crops, support, and exit. The direct engineering pattern keeps the greenhouse-specific architecture and assurance. `C.38` supplies only the same-result formation and comparison, then hands the finite set to `C.11`. After a choice, the first unsupported realization branch returns to the direct Systems Engineering Method.
+
+#### C.38:5.2 - A performance recording needs one usable artifact
+
+A music project intends one bounded Music Work occurrence and a recording through which a later learner can recover the required timing and spatial relation. Before production, the project compares a local live-capture way, a specialist mobile-team way, and a venue-service way for that same result and use.
+
+`C.38` makes the three proposed ways answer the same fidelity, access, rights, setup, performer-interference, evidence, support, resource, and recovery questions. The comparison remains one standalone ordinary episteme and its finite set goes to `C.11`; neither result says that performance or recording Work has occurred. After a way is retained, unchanged `MDPE.5` integrates the selected production and presentation inputs, tests the load-bearing artistic or participatory relation, and records the actual performed Work, artifact, and unresolved limits separately. `C.38` absorbs none of that Work, artistic authority, publication, or rights decision.
+
+#### C.38:5.3 - Direct Method-base stop
+
+A Method Engineering team needs an enactment-support configuration for one bounded task set. Its direct Method already constructs candidate configurations on one basis, preserves evidence status and incomparability, tests retained routes, and returns a supported configuration, retained set, split, or gap.
+
+Use that direct Method. Adding a `C.38` account for the same decision would duplicate its action and result. Open `C.38` only if a different wider question appears—for example, several complete ways to make an independently named support result available to another receiver.
+
+### C.38:6 - Precision restoration
+
+| Source label | Recover before comparison | Do not infer |
+| --- | --- | --- |
+| *build* | Sought result, proposed Work, Methods, performers, Systems, enabling branches, evidence, support, and exit needed by this decision. | Internal capability, authorization, Work, or success. |
+| *buy* or *lease* | Exact proposed provision, transfer, access, custody, ownership, support, and acceptance relations inside the whole way. | Purchase is the whole way or the result is available. |
+| *provider* or *outsource* | Proposed provider Work, supplied result, interfaces, evidence, responsibility, support, change, and exit boundaries. | Provider label establishes capability, authority, service, delivery, or acceptance. |
+| *internal* | Which Systems may perform which proposed Work under which support and capability premises. | Employment or organizational location is an arrangement kind or capability proof. |
+| *reuse* | The already-available System or result, fit, permitted use, adaptation, integration, evidence, support, and recovery. | Prior existence proves present suitability or availability. |
+| *AI* or *automation* | The Agent or tool's proposed contribution inside each way, plus capability, access, evidence, authority, stop, and recovery where needed. | A performer species is a whole way or receives decision authority. |
+| *arrangement* or *option* | The complete-enough claim bundle for this one comparison and its premise modality. | A new universal kind, selected Structure, architecture, or obtaining world-side relation. |
+
+**Bias check.** Do not privilege the official, fashionable, familiar, widely adopted, or institutionally praised arrangement. Popular practice often describes the previous generation's compromise. Prefer the candidate whose claimed improvement over known weaknesses is explicit and supported for this result and situation. A standard or common provider can still be the best current way, but neither officiality nor popularity proves it.
+
+### C.38:7 - Conformance and practical checks
+
+A use conforms only when the checks needed by its claimed comparison pass:
+
+1. One governed result, receiver, use, situation or configuration, horizon, acceptance basis, deciding System, and authority boundary are explicit.
+2. At least two materially different complete-enough ways seek that same result. Duplicate labels merge and material differences under one label split.
+3. Every decision-bearing premise is visibly supported now, proposed, or unknown; modal rows create no actual capability, authority, Work, provision, delivery, acceptance, availability, or use.
+4. The same decision-changing parity questions are applied to every way; an omitted group is justified by irrelevance to this choice.
+5. A decision-reversing unknown remains a gap or probe. Protected conditions are not hidden inside one unexplained scalar.
+6. `A.19.CPM` or `A.19.SelectorMechanism` is used only when its evidence-gating, incomparability, abstention, or set-return contribution is actually needed.
+7. Only complete-enough whole ways enter the finite `OptionSet`; `C.11` alone makes the local choice and emits the `ChoiceResult`.
+8. The truthful carrier rule prevents a duplicate episteme when an owning domain result already carries the complete comparison.
+9. A retained way names its first unsupported realization branch, but no realization or later Work is claimed by the comparison.
+10. The reopen condition names a changed premise or result that can alter the comparison or choice.
+
+**Recognition check.** Give a cold reader a *build/buy/provider/AI* list. The reader should be able to name one common result and expose at least one hidden difference or duplicate without inventing an arrangement taxonomy.
+
+**Assurance check.** For a consequential use, inspect each actual premise under its direct evidence and authority patterns, challenge one omitted burden that could reverse the choice, and verify that the selected domain assurance and acceptance Methods remain outside `C.38`.
+
+### C.38:8 - Anti-patterns
+
+- **Labels as option kinds.** Build, buy, provider, internal, reuse, or AI are compared as peers without resolving their contents.
+- **Different results in one table.** One row supplies a System, another a service, another a capability, and another an episteme, while all are scored as if equivalent.
+- **Universal arrangement schema.** A local parity view becomes a mandatory ontology, graph, taxonomy, or workflow for every domain.
+- **Modal-to-actual leap.** A possible-future row is treated as capability, authority, Work, provision, purchase, delivery, acceptance, or availability.
+- **Score before parity.** Numbers conceal different assumptions, missing burdens, or protected conditions.
+- **Endless generation.** Open-ended candidate invention is kept inside `C.38` instead of moving to `C.18` and `C.19`.
+- **Choice by formatting.** The most detailed or first row is treated as selected before `C.11`.
+- **Domain takeover.** The common Method absorbs architecture, procurement, contracting, finance, legal, artistic, operational, or assurance decisions.
+- **Duplicate account.** A domain Method already returns the full comparison, but a second generic episteme is added anyway.
+
+### C.38:9 - Consequences and trade-offs
+
+| Consequence | Practical effect |
+| --- | --- |
+| Truthful alternatives | Candidate rows become whole ways to obtain the same result rather than a mix of labels and objects. |
+| Earlier burden visibility | Integration, evidence, support, capability, custody, consequence, recovery, and exit can change the choice before commitment. |
+| Preserved modality | Plans and candidate rows do not fabricate current world-side relations. |
+| Better choice input | `C.11` receives a finite complete-enough `OptionSet` and visible gaps instead of being asked to repair its own candidates. |
+| Domain autonomy | Subject Methods keep architecture, provision, contracting, acceptance, realization, and assurance. |
+| Additional preparation cost | The team must resolve familiar labels and ask comparable questions before scoring or choosing. |
+| Bounded completeness | The parity basis is sufficient only for this decision and must reopen when a decision-changing premise changes. |
+
+### C.38:10 - Rationale and SoTA use
+
+The practice question is how to construct several decision-ready ways to obtain one named result without smuggling in a choice, false actuality, or a domain-specific arrangement schema. The best-known current line is result-first, whole-way, and parity-first: begin with the one receiving result and use, expand every serious candidate into a complete-enough possible-future way, expose the same decision-relevant burdens and limits for each, and only then hand a finite `OptionSet` to `C.11`.
+
+The serious default is to list familiar labels such as internal, provider, buy, build, partner, procurement vehicle, or lifecycle stage and score them immediately. Those labels mix unlike grains and hide missing integration, evidence, support, capability, custody, consequence, recovery, and exit burdens. Familiarity, official standing, adoption breadth, recency, or institutional praise can make such rows look credible; none shows that they are complete or comparable ways. `C.38` repairs that defect by fixing one result and receiver, resolving every label into a whole possible-future way, applying a bounded parity basis, marking unknowns without inventing current relations, and stopping before local choice or actual Work.
+
+Current `SYSE.24` supplies the strongest complete domain comparator and the subtraction boundary: `C.38` keeps only same-result candidate formation and the parity move, while Systems Engineering keeps the engineered-System context, engineering arrangement content, specialist boundaries, realization, and assurance. `MDPE.5` is a transfer check whose unchanged downstream Method consumes a prior comparison without yielding performance-production authority to `C.38`. The direct Method-base case is the non-use test: when a domain Method already returns the full comparison, no generic duplicate is added. These sources serve as comparator, transfer, and non-use evidence; their names or institutional positions do not rank an alternative.
+
+A source changes this pattern only when it exposes a defect in the current move or demonstrates a better repair. Reopen the smallest affected candidate or parity question when a decision-changing premise changes; reopen the common line itself only when a current direct pattern supplies the whole move at comparable effort, or evidence shows that result-first whole-way parity systematically hides a burden that changes the decision.
+
+### C.38:11 - Relations
+
+- **Builds on:** the direct pattern for the sought result; `A.10` for evidence and bounded reliance on actual premises; `A.19.CPM` and `A.19.SelectorMechanism` only for comparison mechanisms that are actually needed; and `C.2.1` when a standalone comparison episteme must persist.
+- **Hands to:** `C.11` only after a finite complete-enough `OptionSet` exists. `C.11` owns choose, reject, probe-again, and reroute results.
+- **Coordinates with:** `C.18` for open-ended generation or reframing; `C.19` for pool policy; `C.32` for architecture-candidate synthesis; `A.22` and `C.30` only when a separate Structure or architecture question is current; and direct domain Methods for realization, production, provision, acceptance, assurance, and use.
+- **Question-change boundary with A.15.9:** use `A.15.9` only for one missing or unqualified bounded result from another practice inside a way. Stay in `C.38` when the question is several complete ways to obtain the same receiving result. A contribution request or return is never the whole way by implication.
+- **Keeps outside:** universal arrangement kinds, graphs, taxonomies, schemas, workflows, authority transfer, open-ended search, local choice, and all actual Work or obtaining relations inferred only from possible-future rows.
+
+### C.38:End
+
 ## C.36.P - Cultural-Evolution Wording-Use Precision Restoration
 
 > **Tech-name:** `CulturalEvolutionWordingUsePrecisionRestoration`
@@ -69762,6 +70160,7 @@ The name comparison covers `FPFEditionRebuildabilityRecord`, `FPFEditionAssembly
 | `MATHEMATICAL-MODELING` | Ordinary practical entry |
 | `LIVE-WORK-STEERING` | Ordinary practical entry |
 | `METHOD-RECOVERY` | Ordinary practical entry |
+| `PROFESSIONAL-RESULT` | Ordinary practical entry |
 | `ARCHITECTURE` | Practical-Use Card |
 | `PRACTICE-ARCHITECTURE` | Practical-Use Card |
 | `WORKING-DOCUMENTS` | Practical-Use Card |
@@ -69776,9 +70175,9 @@ The name comparison covers `FPFEditionRebuildabilityRecord`, `FPFEditionAssembly
 | `SOTA-PORTFOLIO` | Practical-Use Card |
 | `SYSTEM-DELIMITATION` | Practical-Use Card |
 
-This is the one FPF declaration consumed by Readme authoring, assembly, and validation; do not maintain another ordinary-entry or card list. It declares eight ordinary examples and thirteen cross-pattern cards, not the scope or limit of FPF help. The Readme must say that FPF and the applicable DPF or LPF can answer a much wider range of questions and must return a reader whose question fits no example to the Table of Contents, another finding aid, or the direct patterns.
+This is the one FPF declaration consumed by Readme authoring, assembly, and validation; do not maintain another ordinary-entry or card list. It declares nine ordinary examples and thirteen cross-pattern cards, not the scope or limit of FPF help. The Readme must say that FPF and the applicable DPF or LPF can answer a much wider range of questions and must return a reader whose question fits no example to the Table of Contents, another finding aid, or the direct patterns.
 
-The selection answers the declared current reader-use questions and passes the no-mantra comparison; it does not claim observation of reader behaviour and does not reproduce the historical fifteen seminar cards or the predecessor twenty-key list. Distinct predecessor questions remain recoverable without keeping one selectable entry for each topic: `CAPABILITY-DEVELOPMENT` is carried by `PRACTICE-ARCHITECTURE` and `IMPROVEMENT`; `COSTLY-ACTION` is carried by `OPTION-COMPARISON`; `DESCRIPTION-USE` is carried by `WORKING-DOCUMENTS`; and `DPF-AUTHORING` is carried by `SOTA-PORTFOLIO`. `TIME`, `CAUSAL-USE`, `MEASUREMENT`, and `MATHEMATICAL-MODELING` are ordinary examples because each starts with one direct pattern and can stop at its first useful result without a cross-pattern mantra; no `MODELING-FOR-ACTION` card joins them. `LIVE-WORK-STEERING` and `METHOD-RECOVERY` are ordinary examples for the same reason: each begins at one direct pattern and may stop at its first useful result or honest blocker. `COMMUNICATION-FOR-USE` is selected as a card because the same truthful five-field entry without a mantra still identifies the situation, first result, and direct patterns but reduces the cross-pattern dependency to a flat list. After interruption, that list no longer carries the sequence from receiving use through the communication that occurred, its wording or representation, use-relevant evidence, later effect, causal qualification, and repair or stop; the compact mantra restores that choice-changing sequence. `RESULT-TO-NEXT-MOVE` is a card because it keeps the conditional path from an obtained result through only the interpretation, reliance, characterization, comparison, or live-choice question that is current, with a stop at every other boundary; a flat locator list would not preserve those conditions. `CONSEQUENCE-BEARERS` is a card because its compact mantra preserves the repeatable boundary challenge and return sequence needed to keep candidate Systems, obtaining relations, modal paths, holon recovery, uncertainty, and the receiving use distinct; a flat locator list would lose those choice-changing conditions. `ACTUAL-TEMPORAL-STRUCTURE` is a card because its compact mantra preserves the conditional sequence from actual changing subjects and direct obtaining relations through one selected structure and grounded account to separately admitted future specifications and representations, then to a bounded coordination trial, observation, decision, or stop; a flat locator list would lose those choice-changing distinctions and cheap exits. `PUBLICATION-FORM` and `DPF-SUITE-REFERENCE` remain direct locators to `E.11.PFP` and `E.11.DSG`, not selected examples. Exact content stays in those direct patterns; the Readme carries only the recognition, cross-pattern dependency, and return needed for discoverability.
+The selection answers the declared current reader-use questions and passes the no-mantra comparison; it does not claim observation of reader behaviour and does not reproduce the historical fifteen seminar cards or the predecessor twenty-key list. Distinct predecessor questions remain recoverable without keeping one selectable entry for each topic: `CAPABILITY-DEVELOPMENT` is carried by `PRACTICE-ARCHITECTURE` and `IMPROVEMENT`; `COSTLY-ACTION` is carried by `OPTION-COMPARISON`; `DESCRIPTION-USE` is carried by `WORKING-DOCUMENTS`; and `DPF-AUTHORING` is carried by `SOTA-PORTFOLIO`. `TIME`, `CAUSAL-USE`, `MEASUREMENT`, and `MATHEMATICAL-MODELING` are ordinary examples because each starts with one direct pattern and can stop at its first useful result without a cross-pattern mantra; no `MODELING-FOR-ACTION` card joins them. `LIVE-WORK-STEERING` and `METHOD-RECOVERY` are ordinary examples for the same reason: each begins at one direct pattern and may stop at its first useful result or honest blocker. `PROFESSIONAL-RESULT` is also ordinary: it starts with `A.15.9`, tests an already-available result before any new request, and can stop at bounded reuse, the smallest missing-result request, or an honest blocker without a cross-pattern mantra. `COMMUNICATION-FOR-USE` is selected as a card because the same truthful five-field entry without a mantra still identifies the situation, first result, and direct patterns but reduces the cross-pattern dependency to a flat list. After interruption, that list no longer carries the sequence from receiving use through the communication that occurred, its wording or representation, use-relevant evidence, later effect, causal qualification, and repair or stop; the compact mantra restores that choice-changing sequence. `RESULT-TO-NEXT-MOVE` is a card because it keeps the conditional path from an obtained result through only the interpretation, reliance, characterization, comparison, or live-choice question that is current, with a stop at every other boundary; a flat locator list would not preserve those conditions. `CONSEQUENCE-BEARERS` is a card because its compact mantra preserves the repeatable boundary challenge and return sequence needed to keep candidate Systems, obtaining relations, modal paths, holon recovery, uncertainty, and the receiving use distinct; a flat locator list would lose those choice-changing conditions. `ACTUAL-TEMPORAL-STRUCTURE` is a card because its compact mantra preserves the conditional sequence from actual changing subjects and direct obtaining relations through one selected structure and grounded account to separately admitted future specifications and representations, then to a bounded coordination trial, observation, decision, or stop; a flat locator list would lose those choice-changing distinctions and cheap exits. `PUBLICATION-FORM` and `DPF-SUITE-REFERENCE` remain direct locators to `E.11.PFP` and `E.11.DSG`, not selected examples. Exact content stays in those direct patterns; the Readme carries only the recognition, cross-pattern dependency, and return needed for discoverability.
 
 For every card row, keep the card and its practical-use guidance findable by the same key. The current English FPF counts whitespace-separated tokens and requires at most 80 for a card mantra and 220 for a complete compact card. These are maxima with no minimum length. They are calibrated publication envelopes for this English FPF, not psychometric thresholds or universal DPF, LPF, or translated-publication limits. Reopen the smallest affected declaration row and consumer when a cold-reader replay loses a choice-changing distinction, a useful card cannot fit without copying direct-pattern apparatus, or either ceiling can be lowered without losing use value. The optional `@FPFReadme` support records may carry FPF links but do not define shared conformance.
 Create the FPF edition rebuildability record with this shape when FPF itself is being assembled, republished, exposed, or evaluated:
@@ -69893,7 +70292,7 @@ Mini-map:
 | CC-FPF.10 Common form reused | The selected public form satisfies `E.11.PFP` for the compact product-declared opening, distinct exact title and Readme H1, Readme and Preface entries in the established ToC grammar, one logical index, practical entries, and any choice-relevant cue. This pattern retains FPF-specific sources, units, body order, carrier and route selection, and builder regressions for the established compact-front line shape and native ToC grammar. |
 | CC-FPF.11 Existing rebuildability record sufficient | Exact selected source, publication-unit, publication-form, presentation-carrier, access-route, relation, projection, and refresh references use the `FPFEditionRebuildabilityRecord` fields; no rival `FrameworkPackageManifest` or duplicate record is invented. |
 | CC-FPF.12 Deterministic source assembly | The all-in-one edition candidate uses the exact predecessor, selected edition record, matching `FPFEditionRebuildabilityRecord`, selected complete pattern sources, and explicit replacement or insertion boundaries. One selection drives both index and bodies; source correspondence is reported; every unselected predecessor span is unchanged; any identity, source, index/body, boundary, or preservation mismatch stops construction before an acceptance or publication claim. Repository filenames, commands, helper options, and template syntax remain in maintainer documentation or tool help rather than this reusable rule. |
-| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme says that its eight ordinary examples and thirteen cross-pattern cards are non-exhaustive. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. No second key, card, or coverage list is maintained. |
+| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme says that its nine ordinary examples and thirteen cross-pattern cards are non-exhaustive. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. No second key, card, or coverage list is maintained. |
 
 ### E.4.FPF:8 - Common Anti-Patterns and How to Avoid Them
 
