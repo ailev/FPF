@@ -73063,7 +73063,7 @@ A result maintained outside the receiving framework may answer the reader's use 
 | S-2 | Internal Cohesion | Inline references to Pillars and related patterns. |
 | S-3 | Embedded Mini-Definitions | Gloss a new term in parentheses on first appearance. |
 | S-4 | Contextualisation | Brief historical or disciplinary lineage references. |
-| S-5 | Prophylactic Clarification | Pre-empt common misreadings inside the prose. |
+| S-5 | Grounded Clarification | State the positive object and move first. Pre-empt a misreading only when the source material, observed use, or stated working situation shows that readers actually make it or are led toward it; otherwise do not invent an alternative class merely to reject it. |
 | S-6 | Quotable Closers | Finish Solution or Consequences with a memorable aphorism. |
 | S-7 | Generative over Prescriptive | Present rules as enabling constraints, not bureaucracy. |
 | S-8 | Trans-disciplinary Tie-ins | Illustrate using at least two distinct fields. |
@@ -99744,7 +99744,7 @@ Repair technical prose whose object, claim, relation, action, role- or function-
 
 ### F.19:0 - Use this when
 
-Use `F.19` when a bounded piece of technical prose is trying to say something precise, but the reader must pass through role labels, container words, status words, process traces, quality proof, repeated negative catalogues, reference boilerplate, or pattern-application metaphors before the object and action are visible.
+Use `F.19` when a bounded piece of technical prose is trying to say something precise, but the reader must pass through role labels, container words, status words, process traces, quality proof, an unsupported negative classification, reference boilerplate, or pattern-application metaphors before the object and action are visible.
 
 Typical in-scope prose includes:
 
@@ -99757,7 +99757,7 @@ Typical in-scope prose includes:
 
 **What goes wrong if missed.** Authors replace one official-sounding phrase with another. The text becomes smoother or shorter while the hidden kind error remains, or it becomes easy to read by losing the FPF kind, slot, relation position, system-role-kind or assignment distinction, function or functioning claim, claim boundary, or admissible-use boundary.
 
-**What this buys.** Plain technical wording becomes an ontological discipline with less apparatus: fewer words, clearer objects, fewer repeated negative catalogues, and no loss of technical semantics.
+**What this buys.** Plain technical wording becomes an ontological discipline with less apparatus: fewer words, clearer objects, fewer invented alternatives to reject, and no loss of technical semantics.
 
 **First useful move.** Mark the span under repair. Split it into content candidates and apparatus candidates before rewriting either side.
 
@@ -99772,7 +99772,7 @@ Typical in-scope prose includes:
 
 ### F.19:1 - Problem frame
 
-Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-proof evidence, pattern-reference boilerplate, or repeated negative distinctions.
+Mature technical languages accumulate enough ontology that many bad sentences are not bad because the terms are unknown. They are bad because a simple technical claim is wrapped in process language, role language, status language, quality-proof evidence, pattern-reference boilerplate, or alternative classes introduced only so the sentence can reject them.
 
 The repair question is:
 
@@ -99817,11 +99817,13 @@ How can FPF make technical prose plain without:
 
 Use `OntologyFirstPlainRewrite` as a five-step repair over one bounded span.
 
-1. **Bound the span.** Name the sentence, row, paragraph, or small section under repair. Name visible apparatus candidates: pattern-application drift, role label, container word, status word, process trace, quality proof, negative catalogue, reference boilerplate, record, card, table, schema, data-structure wrapping, or other overwrap.
-2. **Separate content from apparatus by ontology.** For each phrase part, ask what object, head kind, claim or relation, current slot or relation position, use or publication relation, admissible use, participant, and relevant flow position it carries. A trigger-shaped phrase remains content until its actual claim is recovered. Use `E.10.ROLE` once for role-shaped wording: for example, *reviewer role* may name a local system-role kind or participation in a review relation. Use `A.6.F` once for function-shaped wording: for example, *pump function* may name an expected transformation, while *the pump is functioning* states a condition. Infer neither branch from the trigger word. If a phrase part changes a live value, keep it as content; if it only restates process, a label, negative catalogue, reference boilerplate, record, form, or quality proof, classify it as apparatus.
+1. **Bound the span.** Name the sentence, row, paragraph, or small section under repair. Name visible apparatus candidates: pattern-application drift, role label, container word, status word, process trace, quality proof, unsupported negative classification, reference boilerplate, record, card, table, schema, data-structure wrapping, or other overwrap.
+2. **Separate content from apparatus by ontology.** For each phrase part, ask what object, head kind, claim or relation, current slot or relation position, use or publication relation, admissible use, participant, and relevant flow position it carries. A trigger-shaped phrase remains content until its actual claim is recovered. Use `E.10.ROLE` once for role-shaped wording: for example, *reviewer role* may name a local system-role kind or participation in a review relation. Use `A.6.F` once for function-shaped wording: for example, *pump function* may name an expected transformation, while *the pump is functioning* states a condition. Infer neither branch from the trigger word. If a phrase part changes a live value, keep it as content; if it only restates process, a label, an unsupported negative classification, reference boilerplate, record, form, or quality proof, classify it as apparatus.
 3. **Remove or move apparatus.** Delete the apparatus or move it to the document, record, note, or publication relation where it belongs: `DRR`, review record, quality result, architecture note, README, ToC, `E.11`, or `I.2` entry locus, projection record, release or landing evidence document, or source-side note. Do not replace it with a smoother synonym, role label, container word, status word, record, card, table, schema, data-structure wrapper, or publication-form word.
 4. **Restore remaining content precision.** Restore every complement needed to determine the claim: what was selected, changed, compared, transformed, published, evaluated, or relied on. Use `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or the specific pattern that defines, constrains, or tests the remaining word, head, relation, claim, slot, use, name, or admissible-use boundary.
 5. **Rewrite and check loss.** Write the shortest plain technical sentence that preserves the repaired object, kind, claim, relation, action, current slot, relation position, use relation, any live system-role, function, ordinary-wording or flow distinction, established term, and admissible use. Also preserve only the action-guiding claim details consumed by the declared use: exact predicate and participants, polarity, quantity or threshold, temporal boundary and order, criterion, tolerance, exception, applicability condition, and other explicit operational detail. The rewrite fails if it changes a live value without an accepted semantic decision or becomes harder for the declared reader to use.
+
+A contrast of the form ‘X is not A but B’ is useful only when the text or working situation has already made A relevant: an earlier claim, an observed or source-backed confusion, a serious competing classification, or a safety or non-use condition that changes action. If A appears only so the author can reject it, remove A and state X's positive kind, relation, action, or result directly. Keep problematization of an observed failure, a fair dispute with stated grounds, ordinary negation whose polarity is content, and a documented anti-pattern; judge their actual claims rather than their negative grammar.
 
 Keep ontology visible only where it carries the sentence. A term-source or type annotation is needed only when it changes how the reader identifies the object, kind, relation, slot, use, publication boundary, admissible use, or applicable rule. A record, card, table, schema, data structure, dashboard, or named form remains apparatus unless it carries one of those values. If ordinary domain wording already preserves them, keep the ordinary sentence. "The aircraft flies" is better than a typed expansion unless the flight function, system kind, or slot relation is under repair.
 
@@ -99840,7 +99842,7 @@ Use the full result form when the repair must be inspectable; otherwise a local 
 | Field | Meaning |
 |---|---|
 | `TextSpanRef` | Bounded span under repair. |
-| `ApparatusCandidateSet` | Visible pattern-application, role, record, card, table, schema, data-structure wrapping, locus, flow, status, process, negative-catalogue, reference, or quality-proof apparatus candidates. |
+| `ApparatusCandidateSet` | Visible pattern-application, role, record, card, table, schema, data-structure wrapping, locus, flow, status, process, unsupported-negative-classification, reference, or quality-proof apparatus candidates. |
 | `ContentCandidateSet` | Phrase parts that carry an object, claim, relation, value in `KindAndClaimMap`, action-guiding claim detail, flow position, evidence-use value, or user-facing action. |
 | `ObjectOfConcern` | Object the span is about. |
 | `KindAndClaimMap` | Head kind, claim kind, relation kind, current slot, relation position, use relation, publication relation when it changes admissible use, scope, and—when another pattern contributes—the pattern id plus what its content defines, constrains, or tests. |
@@ -99886,7 +99888,7 @@ Pattern prose moves out:
 | Pattern and relation, identity-bearing | "`C.29` says so." | "If a comparison depends on the rule edition, cite the claim-bearing episteme and `ClaimGraph` that contain the admissibility rule." |
 | Pattern-text purpose | "Pattern text must not contain corpus projection evidence." | "A pattern must not contain projection evidence about itself." |
 | Evaluation scope | "The evaluation has pre-landing host-set use." | "This is a host-only evaluation; corpus-entry values need corpus-projection evidence." |
-| Negative catalogue | "This pattern is not proof, not work, not a gate, not a decision." | "This result evaluates pattern quality. Use `A.10` for any separate project-evidence claim." |
+| Unsupported negative classification | "This Guide is not a seminar, not a transcript, but a learning route." No seminar-or-transcript confusion has been established. | "This Guide teaches the seminar's subject through explanations, examples, exercises, and checks." |
 | Role-shaped label | "The platform owns scale." | "This scale compares platform and non-platform alternatives." |
 | Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents evidence. Use `A.10` for the evidence claim and `A.21` for any gate decision." |
 | Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | "The framework maintainer compares the predecessor and candidate publication expressions for the declared use. Use `E.10:0.2c.17` to separate the expression comparison from carrier-bearing and publication-occurrence claims." |
@@ -99898,7 +99900,7 @@ Pattern prose moves out:
 
 `F.19` also protects against two common reviewer biases:
 
-- **negative-catalogue bias:** explaining a class by long lists of what it is not;
+- **unsupported-negative-classification bias:** introducing one or more alternative classes only so the sentence can reject them;
 - **apparatus-preservation bias:** replacing one process, role, record, card, table, schema, data-structure wrapper, locus, flow, status, or quality-proof phrase with another phrase that still hides the object.
 
 ### F.19:7 - Conformance checklist
@@ -99921,6 +99923,7 @@ Pattern prose moves out:
 | `CC-F19-14` | After apparatus removal, the sentence names every complement and live discriminant needed to determine what was selected, changed, compared, transformed, published, evaluated, relied on, started, stopped, ordered, limited, or excepted. |
 | `CC-F19-15` | Ordinary practitioner action and instrumental “use pattern X” wording stays ordinary when it does not assert identity-bearing dated Work. When it does, point to the basis: A.13 first, independent A.15.1 Work admission second, and F.6 afterward only for precise assignment-bound attribution. Use one thin `E.10.ROLE` or `A.6.F` route for a role- or function-shaped trigger; do not copy either recovery taxonomy. `U.MethodDescription` appears only after the `A.3.2` test passes. |
 | `CC-F19-16` | A heterogeneous list is split when its members need different heads or predicates; the rewrite uses `E.10:0.2c.17` instead of inventing one umbrella head. |
+| `CC-F19-17` | A negative alternative remains only when an earlier claim, observed or source-backed confusion, serious competing classification, or safety or non-use condition makes it relevant to the declared use. Without that reason, the sentence states the positive object, relation, action, or result directly. Problem statements, disputes, material polarity, and documented anti-patterns remain content. |
 
 ### F.19:8 - Common anti-patterns and how to avoid them
 
@@ -99935,7 +99938,7 @@ Pattern prose moves out:
 | False common head | One grammatical subject is made to select, compare, carry, publish, and evaluate unlike things. | Split the claims and use `E.10:0.2c.17`; retain only heads that fit every listed member. |
 | Slot label as ontology | A slot, field, relation-position, or use-relation label replaces the object kind, or the same object in several slots or relation positions is treated as several kinds. | Preserve object kind, slot, relation position, and use separately; cite the specific pattern only when its definition, constraint, or test is needed. |
 | Apparatus-looking data structure | A record, card, table, schema, dashboard, or data-structure word is kept because it sounds precise, but it does not carry the EntityOfConcern, slot relation, publication boundary, admissible use, or next action. | Remove it, or use `E.24.CD`, `E.24.PUB`, or the specific content pattern when the structure really carries a candidate-ontic, publication, or domain relation. |
-| Negative catalogue | The sentence defines an object by listing what it is not. | Lead with the positive object and action; keep only local documented confusion and named stop condition. |
+| Unsupported negative classification | The sentence introduces one or more alternative classes only to reject them, although no earlier claim, observed confusion, serious competing classification, or action-changing limit made them relevant. | State the positive object and action. Keep a negative alternative only when its reason is present in the text or working situation and the distinction changes use. |
 | Over-annotation as precision | The rewrite replaces a clear domain sentence with type labels, source-ontology tags, or slot names that do not change the claim. | Keep the domain sentence and annotate only the term or relation under repair. |
 | Triggerless formal expansion | A PatternID citation becomes an “exact direct current subject owner”, `ClaimGraph`, Method, actor, assignment, or Work claim even though no alternative identity changes the result. | Keep the ordinary citation and action. Open the formal branch only after naming the contrast or later use that consumes it. |
 | Overformalized precision | The rewrite preserves all terms but makes the sentence harder to think with or generalize from. | Keep the content-bearing kind and claim, drop apparatus that changes neither, and use a plain technical sentence plus a reference named by value where needed. |
