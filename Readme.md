@@ -1,311 +1,218 @@
-# First Principles Framework (FPF) - Core Conceptual Specification
+# First Principles Framework (FPF)
 
-> First Principles Framework (FPF) is a standards-style pattern language for turning difficult engineering, research, management, and mixed human and AI work into explicit, reviewable, improvable reasoning.
+> **AI-native declarative pattern languages for engineering work.** FPF gives engineers and AI agents a shared, precise language for Systems, Methods, architecture, Work, evidence, verification, decisions, improvement, and communication.
 
-- **Author:** Anatoly Levenchuk, with AI-agent assistance
-- **Version:** August 2026
-- **Status:** Normative kernel, eternal alpha: already used in working projects and development programs, while still evolving.
+[**FPF Core Specification**](./FPF-Spec.md) · [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) · [**Narrativization DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) · [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/)
 
-FPF helps when a project has outgrown one clever conversation. It is useful when meanings, claims, options, evidence, architecture, work decisions, publication forms, and improvement criteria need to stay coherent across people, teams, tools, time, or AI agents.
+**Author:** Anatoly Levenchuk, with AI-agent assistance  
+**Status:** normative kernel and evolving ecosystem; eternal alpha—already used in working projects and development programs while continuing to change.
 
-Use FPF as a reference model and pattern language, not as a linear textbook. Start from the working question you bring from your project. Bring in internal FPF terms only after they help you keep the work precise.
+FPF is no longer only one Core specification. This repository contains the transdisciplinary **FPF Core**, the **Engineering DPF Suite**, and a separate **Narrativization and Narrative Studies DPF**. Together they form an ecosystem of FPF-grounded pattern languages for difficult work across engineering, research, management, education, and other domains.
 
-This readme is a thin public practical-use rendering of FPF for engineers, researchers, managers, reviewers, and AI-assisted project workers deciding what FPF can help them do now. It foregrounds the project questions most likely to pay off and deliberately coarsens, omits, or defers the full pattern language, source publications, source-use history, and relation structure. When a claim becomes important, use the Preface and Table of Contents as locators, then inspect the exact definition, constraint, test, method, evidence rule, or assurance rule needed for that claim in the cited pattern body; do not treat this readme as the specification.
+FPF is designed for two complementary uses:
 
-Begin with the project object at stake and the current question about it. FPF often calls an object a holon when it is being treated as a whole with parts: a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework admitted under part-whole treatment.
+1. **AI-native, FPF-driven engineering work.** An AI agent can retrieve relevant patterns, compare their declared situations and questions, explain them in plain technical language, expose missing evidence or authority, and help produce the next useful result.
+2. **Description and engineering of mixed human–AI work.** People can use the same language to describe which System is being changed, which Method is proposed, which Work is actually performed, which capabilities are available, what is assigned or permitted, who has decision authority, what evidence supports a claim, and what would reopen a decision.
 
-Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, then continue through the object or relation it recovers. If the recovered wording is a claim-bearing function use, apply `A.6.F` and its selected subject pattern. Do not choose a branch from the trigger word alone. Once the object and question are named, ask which structure, claim, decision, evidence, description, Work, or improvement relation is current.
+FPF is not an agent framework, an agent runtime, or a software-coding methodology. It is a knowledge and reasoning framework that can guide work in manufacturing, construction, mechanical and electrical engineering, energy, robotics, laboratories, healthcare technology, education, embodied practice, software-intensive Systems, and other fields.
 
-## Practical entries
+## Why an AI-native pattern language?
 
-The entries below are examples, not a catalogue or a boundary around FPF, a DPF, or an LPF. Bring the actual difficulty from your project. If no example fits, search the Table of Contents or ask an assisting agent to compare a small plausible set of direct patterns. These pattern languages can help with many more questions than a short Readme can show.
+The FPF Core contains more than 300 interlinked transdisciplinary patterns. Reading and remembering the entire corpus is not a prerequisite for using it—and is rarely the best human entry mode. A capable AI agent can serve as a high-bandwidth reader of the pattern language: search the corpus, inspect a small set of plausible patterns, quote exact source passages when needed, and translate the relevant distinctions into the engineer's working language.
 
-The ordinary examples show difficulties that one direct pattern or bounded route can usually answer. They need no mantra. The Practical-Use Cards show another use: a difficult question whose answer normally draws on several pattern contributions. Their mantras help a reader remember that longer dependency without turning it into a fixed workflow.
+Instead of asking an agent to improvise from generic model priors, an FPF-driven setup gives it FPF Core and the relevant DPFs as explicit, inspectable references. The agent can then follow a maintained, plural account of current engineering thought, show which patterns and sources it used, and separate a source-grounded recommendation from plausible but unsupported advice.
 
-### NAMING — Give one identified thing a usable name
+The engineer supplies what the corpus cannot supply: the actual situation, domain knowledge, observations, constraints, stakes, local history, access to the engineered System, and any real assignment, permission, responsibility, or authority. The agent helps keep these claims distinct rather than silently inventing them.
 
-- **Situation:** One already identified thing or value needs a name that intended readers can understand without changing what it is.
-- **Question:** Which name is accurate, clear for this use, and distinct from misleading alternatives?
-- **First useful result or honest blocker:** One local `NameCard`, or the exact missing thing, use, reader group, scheme, sense, or candidate evidence.
-- **Start with:** `F.18`.
-- **Stop or return:** Stop when the name and local sense support the stated use. Return when the thing, use, readers, scheme, or likely misunderstanding changes.
+This division of Work makes FPF useful as a common language between AI agents and **engineer–managers**: engineers who identify primarily as engineers but spend much of their day doing substantive management Work. They coordinate specialists and providers, negotiate architecture and interfaces, organize reviews and working meetings, compare alternatives and trade-offs, formulate strategies, make responsible decisions, preserve knowledge, and allocate Work among people, tools, robots, and AI. The term describes Work, not a corporate job title.
 
-### SYSTEM-RECOGNITION — Test systemhood only when it changes the decision
+**AI-native does not mean AI-only.** It means that the architecture of the Work can be deliberately reconsidered around the different capabilities and limitations of humans, AI agents, tools, and other Systems. An AI-produced statement is not automatically a fact, evidence, permission, commitment, or decision. Each such relation must be established by its own basis.
 
-- **Situation:** A decision may change if one exact entity is a System, while the same noun may instead name Work, a Method, capability, episteme, structure, or another subject.
-- **Question:** What decision depends on treating that entity as a System?
-- **First useful result or honest blocker:** Return to the direct non-system claim; recognize or reject the System reading; or name the missing construction fact or test.
-- **Start with:** `A.1.SCR`.
-- **Stop or return:** Stop at that direct result or exact blocker. A noun, assignment, capability, plan, or project label does not establish systemhood.
+## A declarative language, not a prescribed process
 
-### TIME — Decide what a timing claim lets you do
+FPF and its DPFs are declarative pattern languages. Start from the **current working situation** and the **question that is current now**. Inspect the pattern whose declared Situation and Question match that difficulty. Use its distinctions, constraints, checks, result, and stop or reopen conditions to produce the smallest useful result—or an honest blocker.
 
-- **Situation:** A trend, deadline, cadence, or stale result is being used to decide what to do next.
-- **Question:** Which moment, rate, rhythm, or freshness relation matters, and does it support continuing, refreshing, waiting, synchronizing, or changing rhythm?
-- **First useful result or honest blocker:** A bounded temporal claim and supported continuation, or the exact missing window, evidence, effort, resistance, or currentness basis.
-- **Start with:** `C.27`; use `G.11` only when an affected result may need scoped refresh because its basis is stale.
-- **Stop or return:** Stop at a state or rate reading when it supports no stronger claim. Return when the window, evidence, currentness, or intended use changes.
+Pattern numbers, file order, table-of-contents order, and the order in which examples are presented do not prescribe a project sequence. Several kinds of engineering Work may overlap. A real dependency still matters when one result cannot be used before another exists, but that dependency belongs to the concrete results and Work under consideration, not to a universal process imposed by the pattern language.
 
-### CAUSAL-USE — Keep a causal-looking result within its support
+An AI agent can therefore help choose the **next justified move** without pretending that the entire project follows one fixed sequence. The useful move may be a clarified question, an identified System, an architecture comparison, an evidence request, a decision record, a changed Method, a bounded Work plan, a source-grounded explanation, or an explicit stop because a necessary basis is missing.
 
-- **Situation:** A correlation, estimate, simulation, or comparison is being used to say that an action will cause an outcome.
-- **Question:** What causal statement may the evidence support, and what stronger statement must not guide intervention or investigation?
-- **First useful result or honest blocker:** A supported statement and its limit, or the missing alternative, intervention, comparator, evidence path, identification result, or transport basis.
-- **Start with:** `C.28`.
-- **Stop or return:** Stop, narrow the claim, or abstain when support is insufficient. The causal-use result does not choose, deploy, publish, or certify by itself.
+## What is in this repository?
 
-### MEASUREMENT — Make a number interpretable before relying on it
+| Publication | What it contributes | Typical working questions |
+| --- | --- | --- |
+| [**FPF Core Conceptual Specification**](./FPF-Spec.md) | A transdisciplinary language for entities and relations, Systems, Methods, Work, descriptions, claims, evidence, decisions, architecture, quality, improvement, cultural evolution, publication, and precise language. | What exactly are we discussing? What claim is being made? Which relation obtains? What may the evidence support? Which decision is current? What Work actually occurred? |
+| [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) | FPF-grounded domain pattern languages for engineering Systems, engineering Methods, and embodied Music-and-Dance practices, plus a Suite Reference for questions that genuinely require results from more than one DPF. | Which System and use are current? Which architecture, interface, configuration, obtaining arrangement, Method, capability, verification result, or change is needed? |
+| [**Narrativization and Narrative Studies DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) | Patterns for turning selected source structure into a followable narrative while preserving recoverability, evidence limits, agency boundaries, viewpoint choices, and source return. Includes human and automated narrativization. | What source structure must survive the rendering? What may be compressed or reordered? Did a fluent narrative invent causality, agency, certainty, permission, or authority? |
 
-- **Situation:** A reading, score, rating, sensor value, or dashboard number is being compared or used in a decision.
-- **Question:** What exact subject and characteristic were measured, on what scale and unit, by what method, and under what calibration and time stance?
-- **First useful result or honest blocker:** An interpretable attributed value with uncertainty and a use boundary, or the missing subject, scale, method, calibration, evidence, or validity window.
-- **Start with:** `C.16`.
-- **Stop or return:** Stop when the value supports the present comparison. Return when the subject, method, calibration, time stance, uncertainty, or use changes.
+### Engineering DPF Suite
 
-### MATHEMATICAL-MODELING — Use a mathematical lens only when it changes action
+The Suite currently contains:
 
-- **Situation:** A formula, formalism, simulation object, or learned representation is proposed to clarify a project question.
-- **Question:** What is mapped to what, which structure is kept or lost, how is the lens calibrated, what rival or ordinary fallback exists, and what decision changes?
-- **First useful result or honest blocker:** A bounded lens use with its mapping, retained and lost structure, calibration, rival, practical payoff, and no-lens exit, or the exact missing basis.
-- **Start with:** `C.29`.
-- **Stop or return:** Stop without the lens when no decision changes. Return when the mapped subject, preserved structure, calibration, evidence, rival, or use changes.
+| Domain pattern language | Use it when the current question concerns |
+| --- | --- |
+| [**Systems Engineering Principles Framework (Systems Engineering DPF)**](./Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | project System focus; intended use; affected Systems; problem and System-family options; functional organization; architecture and interfaces; specialist contributions; build, buy, provider, reuse, AI, or hybrid arrangements; recursive realization; integration; platforms; configuration and effectivity; release evidence; source change; evolvability; overlapping Work; and engineering culture. |
+| [**Method Engineering Principles Framework (Method Engineering DPF)**](./Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Method identity; composition and architecture; descriptions and representations; support; trials; coherence; situational fit; transfer; practical worth; variants; introduction into practice; continuation; and change of a Method-engineering culture. |
+| [**Music and Dance Practice Engineering Principles Framework (Music and Dance Practice Engineering DPF)**](./Engineering%20DPF%20Suite/MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | embodied capability; coordination; generation; performance; observation; recognition; learning and transmission; supporting arrangements; alternatives; local change; style development; and cultural continuation in Music and Dance practice. |
+| [**Engineering DPF Suite Reference**](./Engineering%20DPF%20Suite/ENGINEERING-DPF-SUITE-REFERENCE.md) | one receiving question truly needs bounded results from several Engineering DPFs, the applicable DPF is unclear, or a required specialist result is absent and must be returned as a gap. |
 
-When the route is already known, go straight to its pattern rather than forcing the question into an example: `E.11.PFP` for framework publication, `E.11.DSG` for a question spanning several DPFs, `A.15.6` when *project*, *process*, or *case* hides the subject, `A.1.1` for model-use organization, `C.22.PFR` for an actual-problem claim, and `A.6.REL` for an obtaining relation. These are locators, not more selectable examples.
+## What is a DPF?
 
-### Practical-Use Cards
+A **DPF, Domain Principle Framework**, is an FPF-grounded declarative pattern language for a recurring family of domain difficulties. It turns maintained domain knowledge into reusable patterns that can be selected by their Situation and Question rather than read as a textbook chapter sequence.
 
-These cards are selected examples of extended work with a pattern language. They are not a list of all useful FPF questions, a prescribed project sequence, or proof that every case needs every cited pattern.
+A DPF is intended to keep a domain's **state of the art (SoTA)** usable. Here, SoTA is not equated with the newest official standard, one institutional consensus, or one fashionable method. It is a current, plural, source-linked account of useful approaches, rival schools, evidence, practitioner experience, known failures, trade-offs, and the conditions under which a particular move is warranted. A DPF must preserve disagreement and source-use limits instead of laundering them into one authoritative-sounding recipe.
 
-The keys only help navigation. Compare cards by the situation and intended result, then open the direct patterns needed in the actual case. Skip a contribution whose question is not current, and stop at the first useful result or honest blocker.
+DPFs depend on FPF Core for transdisciplinary distinctions and do not silently rewrite it. FPF Core does not depend on any one DPF. More DPFs can be added for other domains while retaining the same shared language for cross-domain human–AI work.
 
-#### ARCHITECTURE — Carry an outside need through structure and feedback
+## Recognizable engineering difficulties
 
-- **Situation:** A system or another architecture subject must produce an outside result, but its pressure, options, decision, or realized feedback is unclear.
-- **Question:** What missing architecture result prevents the next useful decision or action?
-- **First useful result or honest blocker:** One clear architecture question, candidate comparison, decision, or exact missing fact or constraint.
-- **Mantra:** Start with the outside change and who relies on it. Name the subject and pressure; separate facts from intended constraints; compare plausible structures; choose what the current decision needs; check what the realized structure produces; reopen when use, evidence, or structure changes.
-- **Start with:** `C.32.P2S`, then the pattern for the current question in `C.30`, `C.32`, `C.32.PAD`, or `C.30.AD`.
-- **Stop or return:** Stop when the first result makes the architecture work reviewable. The card is not a compulsory lifecycle.
+FPF becomes useful when an ordinary conversation, document, dashboard, or generated answer no longer keeps difficult Work coherent. Typical signals include:
 
-#### PRACTICE-ARCHITECTURE — Develop a practice without collapsing its structures
+| What practitioners notice | What FPF helps make explicit |
+| --- | --- |
+| A late source, requirement, supplier, or design change returns as **rework**. | Which claims and decisions relied on the changed source; what must be revalidated; what remains unaffected. |
+| A **handoff** loses scope, configuration, assumptions, evidence, or responsibility. | The exact subject, relation, receiving use, result, evidence limits, assignment, permission, and authority. |
+| An **architecture decision** exists only in meeting memory, a chat, or a diagram. | Candidate structures, interfaces, comparison basis, accepted losses, selected structure, decision, and reopen conditions. |
+| A design review compares labels such as build, buy, supplier, reuse, automation, or AI. | Comparable whole obtaining arrangements, including integration, assurance, support, capability, lock-in, and exit burdens. |
+| A test, simulation, model, certificate, review, or AI answer “passed,” but nobody can say what it proves. | The claim, subject, conditions, configuration, evidence correspondence, traceability, uncertainty, and decision that may rely on it. |
+| Parts are complete, but **integration**, **configuration**, **commissioning**, or actual use still fails. | The bounded configuration, intended use, interfaces, unresolved dependencies, operating evidence, fallback, and release decision. |
+| Field failures or operating feedback do not return to design and Method decisions. | The affected architecture, source, configuration, evidence, Method, and decision conditions that must be reopened. |
+| The result works once but is hard to maintain, reproduce, transfer, or change. | Maintainability and evolvability trade-offs, support arrangements, capability, tacit knowledge, descriptions, trials, and knowledge transfer. |
+| One experienced person knows how the Work is really done, while the procedure says something else. | Method, MethodDescription, capability, actual Work, observed result, local variation, and evidence of transfer. |
+| Humans and AI agents produce fluent output but disagree about facts, evidence, permission, or who decides. | Separate claims for capability, assignment, permission, authority, responsibility, evidence, and actual performed Work. |
+| A technical explanation or narrative is compelling but cannot be traced back to the source structure. | Source selection, preserved and lost relations, viewpoint, compression, reconstruction checks, evidence limits, and source return. |
 
-- **Situation:** Methods, Work, capabilities, providers, descriptions, tools, and cultural change do not align one-for-one in a practice.
-- **Question:** Which relations must be reconciled for the practice to become usable or improve in representative Work?
-- **First useful result or honest blocker:** One readable synthesis, one bounded development action, or the exact missing Work case, relation, or transfer evidence.
-- **Mantra:** Start from representative Work and its needed result. Keep Methods, Work, capabilities, providers, descriptions, tools, and cultural processes distinct; compare the structures that conflict; develop the limiting capability; test transfer in real Work; return when practice, provider, evidence, or style changes.
-- **Start with:** `C.32.MWA`; use `E.23.CDI`, `E.23`, or `C.36` only for the question actually opened.
-- **Stop or return:** Stop when the synthesis or transfer result answers the decision. A practice description is not the practice or performed Work.
+## How to use FPF with an AI agent
 
-#### WORKING-DOCUMENTS — Make a document answer one use
+### 1. Give the agent grounded access
 
-- **Situation:** A document is requested, but its label does not reveal the use it must support.
-- **Question:** Do you need to check one view, reuse related views, show the same subject differently, see enough structure, compare named sources, or use an architecture description in a decision?
-- **First useful result or honest blocker:** A checked view, a reusable viewing approach, another presentation of the subject, an account of sufficient or missing structure, a source comparison, the architecture-description result needed now, or the exact blocker.
-- **Mantra:** Name who will use the document and what it must support. Check one view; prepare recurring views; show the subject another way; expose enough structure; compare sources; or use a description in architecture work. Keep document, subject, decision, and performed Work distinct. Stop when the needed result exists; return when its use or content changes.
-- **Start with:** `E.17.0` for one viewpoint; `E.17.1`/`E.17.2` for recurring use; `A.6.3.RT` for representation change; `C.33` for structural information; `E.17.ID.CR` for source comparison; `C.30.AD` for architecture-description use; otherwise use the document result's direct owner.
-- **Stop or return:** Stop when that result answers the use. One file may carry several results without merging them.
-
-#### OPTION-COMPARISON — Keep unlike option results distinct
-
-- **Situation:** Several possibilities exist, or one unresolved question makes a costly commitment unsafe.
-- **Question:** Do you need to compare possibilities, keep worthwhile variants, keep only the best trade-offs found so far, control what stays under consideration, prepare options for a later chooser, choose now, or resolve the uncertainty blocking commitment?
-- **First useful result or honest blocker:** A comparison basis, retained variant set, best-known trade-off set, active-membership rule, set for a later chooser, local choice, answer to the blocking question, or the exact blocker.
-- **Mantra:** Name the decision and cost of error. Compare before choosing. Keep worthwhile variants for history; keep the best trade-offs when clearly worse variants should drop out; set a rule for what stays under consideration; prepare a set when another chooser acts later; choose only when choice is current. For costly action, resolve only the uncertainty blocking commitment. Return when basis, rule, evidence, or use changes.
-- **Start with:** `A.19.ECS` (comparison), `C.18` (archive/front), `C.19` (pool), `G.5` (set result), or `C.11` (choice). For costly action choose only the current check: `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `C.11`, or `A.15.5`.
-- **Stop or return:** Stop at the result answering the present question. It neither chooses by implication nor performs later Work.
-
-#### PROBLEM-SHAPING — Stop at the earliest honest problem-side result
-
-- **Situation:** Something matters, but the team may have only signals worth preserving, a direction for inquiry, a question about competing explanations, or enough clarity to accept a problem statement.
-- **Question:** What can you honestly produce now: preserved signals, a routed direction for inquiry, an explicit question that contrasts possible explanations, or a problem statement ready for acceptance?
-- **First useful result or honest blocker:** A preserved set of signals, a clear inquiry route, a question about plausible explanations, an accepted problem statement, or the exact missing anchor, route, subject, constraint, or acceptance basis.
-- **Mantra:** Keep what was noticed before declaring a problem. Route the inquiry only when the signal has a stable anchor. Ask about explanations only when the open question and contrast are clear. Accept a problem statement only when the subject, constraints, unresolved relations, important distinctions, and basis can be stated. Stop at the earliest useful truth; return when its basis changes.
-- **Start with:** `A.16.1` for a cue pack, `B.4.1` for routed cues, `B.5.2.0` for an abductive prompt, and `C.22.2` for an accepted `ProblemCard`.
-- **Stop or return:** Do not force a cue into a problem. Open `C.22.PFR` only when whether the adverse relation obtains changes the next use.
-
-#### IMPROVEMENT — Define better before repeating change
-
-- **Situation:** A team wants to improve something but has not agreed what better means or how the changed version will be checked.
-- **Question:** Which evaluation question, characteristics, scales, changes, and comparison make improvement reviewable?
-- **First useful result or honest blocker:** One evaluation question, current assessment, bounded change, before-after comparison, or exact missing use, evidence, scale, or trade-off.
-- **Mantra:** Name the entity, current state, and use that better must serve. Frame the question before choosing metrics; select characteristics, scales, and protected trade-offs; assess the current state; compare candidate changes; make only the supported change; evaluate it on the same basis; continue, stop, or change direction from that result.
-- **Start with:** `E.22`, `A.19.ECS`, `C.16`, and `E.23` as their questions become current.
-- **Stop or return:** Stop at the first missing prerequisite or useful comparison. Reopen when the entity, use, evidence, or scale changes.
+For lightweight use, attach or index [FPF Core](./FPF-Spec.md) and only the DPF publications relevant to the task. For programmatic access to the current FPF Core reference, use the hosted [`fpf_reference` MCP service](https://mcp.fpf.sh/), which provides bounded search, structured queries, exact-document lookup, citations, and source-snapshot status. Attach or index a relevant DPF separately unless the current service snapshot explicitly reports that publication as included.
 
-#### WORDING — Repair language without replacing the project question
+The MCP service is a lookup interface over its indexed FPF publication snapshot. It is not agent memory, a job-state store, a project-policy authority, or an engine that performs the engineering Work.
 
-- **Situation:** A load-bearing sentence hides the subject, relation, kind, use, or nearby false inference.
-- **Question:** What should the reader understand and do, and which distinctions matter for that use?
-- **First useful result or honest blocker:** One plain repaired sentence, direct clarification, local naming result, or exact missing subject, sense, test, or reader use.
-- **Mantra:** Recover the ordinary project sentence first. Name what it is about, what it claims, and who must use it; add ontological distinctions only where they change truth or action; choose a durable name only when later use needs one; rewrite in plain technical language; test a cold reader and the nearest false inference; return to the domain task.
-- **Start with:** `E.10` and `F.19`; use `F.18`, `F.0.1`, `F.9`, or the subject's direct pattern only when needed.
-- **Stop or return:** Stop when the reader can act without the false inference. Do not continue ontology work after the language problem is solved.
+### 2. Start in the project's ordinary language
 
-#### SOTA-PORTFOLIO — Move from a plural field to the cheapest useful result
+Describe the actual difficulty, the object at stake, the decision or action that the answer must support, and the evidence already available. Do not begin by guessing a PatternID. Ask the agent to compare a small plausible set of patterns by their declared Situation and Question.
 
-- **Situation:** A project needs the modern field of approaches rather than one popular answer and may later need maintained domain guidance.
-- **Question:** What plural view is adequate now, and does the remaining problem call for reuse, a contribution, another product, a DPF or LPF, or no maintained result?
-- **First useful result or honest blocker:** One source-linked SoTA view, live option set, reuse route, framework decision, or exact missing scope or maintenance basis.
-- **Mantra:** Name the practical question, scope, freshness need, and rival traditions. Build a source-linked plural view; preserve disagreement and source-use limits; compare useful approaches; try cheaper reuse or contribution first; open a framework decision only for a recurring unmet problem; author and test the needed patterns; refresh when the field or use changes.
-- **Start with:** `G.2`; add `C.18`, `C.19`, or `G.5` for the set and the E.4/E.9 authoring route only if a framework is selected.
-- **Stop or return:** Stop at the first adequate maintained or one-off result. A source pack or proposal is not a framework by appearance.
+### 3. Ask for one useful result
 
-#### SYSTEM-DELIMITATION — Separate parts, selected boundary, and crossings
+The first answer should improve the current Work: clarify a subject, repair a claim, compare options, identify a missing interface, qualify evidence use, prepare a decision, expose a capability gap, or return an honest blocker. It should not inflate one local question into a complete project methodology.
 
-- **Situation:** One System is recognized, but a decision mixes its parts and assembly with a chosen boundary, external participants, and relations that cross it.
-- **Question:** Which facts, use-relative choice, crossings, and selected structure answer the decision?
-- **First useful result or honest blocker:** One exact part or assembly fact, boundary choice, crossing relation, selected structure, or missing participant, predicate, constraint, or use.
-- **Mantra:** Start with the recognized System and decision. Recover parts and assembly as facts; keep external participants outside the part list; choose a boundary only when alternatives matter; name every crossing by its own relation; select a joint structure only when organization changes the decision; reopen when identity, facts, use, crossings, or constraints change.
-- **Start with:** `B.1.2`, `A.14`, and `C.13`; use `C.11`, `C.32.PAD`, the direct relation pattern, or `A.22` only when needed.
-- **Stop or return:** Stop at the smallest result answering the decision. If system recognition is unresolved, return to `A.1.SCR`.
+### 4. Make the answer inspectable
 
-## Decide Whether FPF Fits
-
-Use FPF when ordinary discussion is no longer enough to keep work coherent. Typical signs:
-
-- several teams, experts, tools, or AI agents share reasoning about the same work;
-- the real-world test is slow, expensive, noisy, risky, or politically hard to repeat;
-- different readers need different reports, dashboards, explanations, or decisions about the same underlying work;
-- names, roles, responsibilities, options, evidence, or quality criteria are starting to blur;
-- the team needs a current view of possible approaches, not just one recommendation;
-- a decision is small enough to make now but important enough to leave a durable reason.
-
-FPF is probably too heavy when the task is small, feedback is fast and cheap, the vocabulary is already stable, the decision will not be reused or audited, and a quick answer is enough.
-
-FPF is mainly useful for people who have to keep difficult work understandable across boundaries:
-
-- engineers and systems engineers working with complex products or operations;
-- researchers building claims for inspection or reuse by others;
-- platform and AI teams coordinating humans, models, tools, and approvals;
-- safety, assurance, compliance, and regulatory leads who need visible evidence and responsibility boundaries;
-- managers and product leaders comparing options, budgets, risks, and delivery promises without hiding trade-offs.
-
-There are three common ways to use FPF:
-
-1. Human-only: use it as a writing and review discipline for meetings, notes, decisions, and technical documents.
-2. Mixed team: use it to keep specialists, managers, safety leads, and AI assistants aligned around the same work.
-3. AI-assisted: attach or index the specification, ask for plain-language project help first, and use pattern names only when they make the answer easier to check.
-
-Stronger AI does not remove the need for FPF. AI can generate fluent options quickly, but projects still need to decide what counts as evidence, which option is being compared, who may rely on an answer, when a claim is stale, what remains only a guess, and what work is actually authorized. FPF helps make those boundaries explicit before a confident answer becomes an expensive mistake.
-
-Core ideas in plain language:
-
-- first name the project object under concern; when it is treated as a whole with parts, FPF calls it a holon;
-- local teams may use local meanings; boundary-crossing work makes the translation relation explicit;
-- the project object itself, its description, a dashboard about it, a decision about it, and the work done to change it are not the same;
-- architecture is structure of that holon or project object in a context, not the diagram, document, approval, or plan about it;
-- serious architecture work can move from problem pressure to candidate structures, selected structures, decisions, method and work, actual structures, and feedback;
-- when the current question is which reusable way of doing changes, produces, derives, selects, controls, or preserves the project object under stated conditions, inspect `A.3.1 U.Method`; a strategy name, procedure text, program, plan, dated run, mechanism, or evidence record does not answer that method question by its label or form;
-- when one already-selected method, model, formalism, assurance technique, ontology, or other apparatus is current and its setup/application cost must earn one declared use, inspect `C.19.2`; it defines and tests one bounded application to a separately identified problem-facing result and guarantee. Open `C.18` only when an adequate candidate must be generated or reframed, and `C.11` only when two or more eligible alternatives make a real local choice current;
-- when a clear engineering claim produces a wrong action, identity, dependence, obtaining, responsibility, or projection consequence, inspect `A.7.1`; when current FPF uses produce incompatible consequences for the same receiving claim and scope, inspect `A.7.2`. In either route, keep the method episteme, admitted performer, dated work, the claim-specific result returned by the applicable pattern, and one result episteme distinct: the local disposition is a value in that result, not its kind, and `A.7.2` need not converge;
-- when an accepted C.22.2 `ProblemCard` episteme must remain usable while the project selects a method, prepares or performs work, interprets a result, branches, stops, or returns after a changed assumption, inspect `E.18.1 P2W Problem-to-Work Carry-Through`; it carries the accepted problem-side distinctions into one next value or relation returned by the pattern that answers the current question rather than prescribing one universal workflow;
-- when route-like positions, relations, or constraints change which continuation remains possible, inspect `E.18.3`: begin with the concrete thing being transformed, two recognizable places or states, the proposed connection or guard, and the current continuation question. An ordinary provisional explanation may answer it or stop with the exact missing predicate or occurrence rule, missing case fact, or unavailable information. Recover exact A.22/E.18 qualification and a separate demonstrative-slice claim only when qualification, comparison, publication, or stronger reliance is current; if no branch, connection, or constraint changes the continuation question, keep an ordinary route description;
-- keep several options alive until the comparison is clear enough to choose;
-- say what "better" means before optimizing or scoring;
-- make trust depend on evidence, freshness, scope, and intended use;
-- publish different views for different readers without changing the underlying claim;
-- when explanation, reader-facing ordering, or narrative rendering of selected source structure is current, state what structure is preserved, deliberately coarsened, abstracted, omitted, or lost; name the source-return condition and any stronger neighboring claim together with the concrete definition, constraint, test, method, evidence rule, or assurance rule it uses;
-- use mathematics or formal models when they clarify what structure is preserved, what is lost, and what can be checked;
-- build domain or local FPF-grounded frameworks as dependents of FPF Core, not as silent rewrites of the Core.
-
-## When Several Transformation Flows Form One Network
-
-Inspect `E.18.NET` when the current question joins independently identified transformation-flow structures through exact direct relation occurrences. Several stages, several paths, or several valuations of one flow do not make a network.
-
-- **Build the builder.** A compiler-source-change flow, a bootstrap-compiler build flow, an application build flow, and a deployment-and-operation flow keep their own changes, work, positions, and local state. Recover the project's exact relation that says which executable compiler is used for the application build and its exact delivery relation to deployment. A selected tool-build network can itself be a member of a selected release network; follow a finite member path rather than inventing “level 2” and “level 3” kinds. Inspect `E.18.NET`; if the case is only one flow with several stages or valuations, stay in `E.18`.
-- **Change a product and its production system.** Product-development Work changes and verifies the product definition; production-system-change Work redesigns, retools, and qualifies equipment; production Work makes units; operation supplies observations that may inform later product-development Work. Treat their transformation-flow structures as separately identified selected structures: the structures organize positions and exact relations but do not perform the Work. Keep the product and production system distinct, and recover the exact release, readiness, production, and observation relations needed by the current case. A selected product-development network and a selected production-system-change network can be members of a larger selected network without becoming one giant flow. Inspect `E.18.NET`; if only one architecture correspondence is current, use its direct architecture pattern instead.
-
-When the immediate question is whether dated Work actually occurred or whether an entity was actually produced, leave the network overview and apply the two tests that answer those claims. `A.15.1` identifies one `U.Work` occurrence from its actual performer `U.System`, enacted Method, temporal extent, and containing System. For each performer, apply the complete Work test in `A.15.1` and `F.6`: name the assignment occurrence that covers the Work and its declared `U.SystemRoleAssignment` species, confirm that its holder is the actual performer, and establish the F.6 relation for the Work–assignment pair. A compact public sentence may omit an assignment identifier that its receiving use does not need; the omission changes only the sentence, not those facts. A log, ticket, or record is not that occurrence. After that Work and the required participant facts are exact, `A.15.PROD` separately tests the Work's participation in producing the entity, the start of that entity's identity, and production completion. Missing Work granularity, production-participation predicate, identity-specification or inception basis, completion criterion or applicability, boundary or composition facts, or required substrate is a branch-local blocker. Actual change, output or result, identifier allocation, evidence, delivery, and acceptance remain separate claims and none proves those three production claims by itself.
-
-## Recover a lost path from outside use to recursive builders
-
-Use this guide when the team has recovered or is explicitly proposing one project system-of-interest but can no longer show how a local result supports the expected outside change, release or runtime use, architecture, Work and change of that system, creator systems, and recursive build-the-builder branches. Open `A.1.STM` to locate the first unsupported result, select the particular pattern contribution that answers that claim, and state one next question or action or an exact stop.
-
-This is a readable continuation, not an additional practical-use card, result kind, `SystemThinkingMap`, project-network result, mandatory traversal, WorkPlan, or calendar order. If the actual versus intended project system-of-interest or its project designation is unclear, apply `A.15.6` first to distinguish actual project Work, intended material, and project designation. Apply `A.1.SCR` to the recovered exact entity only when recognition under `U.System` remains load-bearing for the named decision.
-
-## One-Minute Example
-
-A platform team asks:
-
-> Should we buy, fine-tune, or build an agent stack for our product?
-
-Without FPF, the conversation often mixes architecture, vendor comparison, safety, evidence, budget responsibility, user value, and implementation planning. The loudest option can win before the team knows what is being compared.
-
-With FPF, the first pass can become a small set of explicit project objects:
-
-- holons in play: the product, the agent stack, and the team or toolchain that will change it are not the same holon;
-- architecture flow: what problem pressure should become which candidate, selected, expected, and actual structures;
-- comparison frame: which alternatives are in the candidate set;
-- evaluation characteristics: cost, latency, controllability, safety, maintainability, time to first use, and other project-specific characteristics;
-- evidence gaps: which test result makes commitment admissible;
-- current decision state: whether the team is choosing now, keeping a selected set, making a project architecture decision, or doing more discovery;
-- work and feedback: which method, readiness, and performed-work records establish that the selected structures were actually realized;
-- reader reliance: what engineering, management, and assurance readers may responsibly rely on.
-
-That same shape can be used for a factory modernization, laboratory protocol, construction design change, supply-chain decision, safety case, or research program. The point is not the AI topic; the point is one body of reasoning that can be reviewed, improved, and published without changing meaning on the way.
-
-## What FPF Is
-
-FPF is a pattern language for disciplined thinking in projects where ordinary prose, local expert judgment, or one-off AI output is not enough.
-
-It helps teams:
-
-- keep meanings stable when work crosses teams, tools, documents, and time;
-- separate the project object being discussed from diagrams, dashboards, explanations, promises, decisions, and actual work;
-- state what a claim can responsibly be used for before people rely on it;
-- compare options without collapsing too early to one favorite;
-- define quality criteria before improvement starts;
-- keep evidence, assurance, decisions, and implementation work visible as different questions;
-- carry architecture work from problem pressure to real structures and feedback instead of stopping at diagrams or decision prose;
-- grow domain or local frameworks from FPF Core without silently changing Core meaning;
-- repair confusing wording by first asking what the wording is doing in the project, not by swapping synonyms;
-- leave each pass with one useful next result: a clearer question, a better name, a comparison note, an evidence gap, a safer document, or a reason to inspect a specific pattern.
-
-## What FPF Is Not
+Ask for plain technical language first, followed by exact PatternIDs and source locations. Require traceability to the relied-on patterns and evidence, plus assumptions, uncertainty, protected trade-offs, missing permissions or authority, and conditions that would reopen the result. Keep human review explicit whenever the result will support a consequential decision.
+
+### 5. Continue only when another question becomes current
+
+One result may reveal another concrete question. Apply the pattern that owns that new question. Do not infer a universal sequence from this local dependency.
+
+## Recommended first prompt
+
+```text
+You have grounded access to FPF Core and the relevant FPF-grounded DPF
+publications. Act as an FPF-driven engineering collaborator, not as an
+automatic authority or a generic project planner.
+
+Current situation and question:
+[Describe the actual project object, difficulty, intended use of the answer,
+constraints, available evidence, and decision or action that may follow.]
+
+1. Restate the actual subject, situation, and current question in plain
+   technical language. Distinguish the engineered System or other object from
+   its descriptions, models, plans, claims, and records.
+2. Compare a small plausible set of patterns by their declared Situation and
+   Question. Select only the pattern or cooperating patterns whose questions
+   are current. Do not infer a process from PatternIDs, file order, catalog
+   order, or example order.
+3. Produce the smallest useful result for the current Work, or return an
+   honest blocker. Help choose the next justified move, but do not invent a
+   universal project sequence.
+4. Keep Method, MethodDescription, WorkPlan, actual Work, result, capability,
+   assignment, permission, responsibility, authority, evidence, assurance,
+   and decision distinct whenever these distinctions affect truth or action.
+5. Do not treat an AI-generated statement, a fluent explanation, a passed
+   check, a document, a job title, or a model output as evidence or authority
+   without the required basis.
+6. State assumptions, alternatives, trade-offs, evidence limits, uncertainty,
+   missing facts or capabilities, and the conditions that would reopen the
+   result.
+7. Explain the result for an engineer who also coordinates specialists,
+   providers, tools, robots, and AI; negotiates architecture and interfaces;
+   organizes reviews and working meetings; and makes responsible decisions.
+8. After the plain explanation, give the exact FPF/DPF PatternIDs and source
+   locations used so the result can be inspected.
+```
+
+## Start from the question that is current now
+
+| Current question | Useful entry |
+| --- | --- |
+| What exactly is the project changing, and for which use? | FPF `A.1.SCR`, `A.15.6`; Systems Engineering DPF `SYSE.1`, `SYSE.16`, `SYSE.2`. |
+| Which functions, bearers, architecture, and interfaces should be selected? | FPF `C.30`, `C.32`, `C.32.P2S`; Systems Engineering DPF `SYSE.5`, `SYSE.6`. |
+| Should we build, buy, reuse, contract a provider, use AI, or combine them? | Systems Engineering DPF `SYSE.24`; compare complete obtaining arrangements rather than labels. |
+| What can this test, model, trial, review, or observation justify? | FPF `A.10`, `B.3`, `C.16`; Systems Engineering DPF `SYSE.4`, `SYSE.10`. |
+| Which configuration exists, where does the claim apply, and may it be released? | Systems Engineering DPF `SYSE.13`, `SYSE.14`, `SYSE.19`. |
+| Which Work may overlap, and which result dependencies really require order? | FPF `A.15.1`, `E.18.NET`; Systems Engineering DPF `SYSE.20`. |
+| Which reusable way of working is current, and does it work in this situation? | FPF `A.3.1`; Method Engineering DPF `ME.1` and the pattern owning the current Method question. |
+| What capability is missing for a named family of Work? | FPF `E.23.CDI`; then use the relevant domain pattern for the Work and evidence. |
+| What does current SoTA offer, where do approaches disagree, and what should be maintained as a DPF? | FPF `G.2`, `E.4.DPF`; preserve sources, rival approaches, scope, freshness, and stop conditions. |
+| How should source material become a technical explanation, learning rendering, or narrative without invented structure? | Narrativization and Narrative Studies DPF `NSTD.*`, selected by the current narrative question. |
+
+These are entry points, not stages. Most cases need only one direct pattern and should stop when that pattern returns the result needed by the present decision or Work.
+
+## One-minute cross-industry example
+
+A factory team needs more throughput from a filling and inspection cell without sacrificing product quality, maintainability, or safe operation. The first discussion jumps between four labels: modify the existing line, buy an integrated cell, assemble a solution from specialist suppliers, or combine operators, robots, machine vision, and AI agents.
+
+An FPF-driven agent does not begin with a software architecture or a generic transformation plan. It helps the engineer:
+
+- identify the actual project System and the operating use that matters;
+- recover affected neighbouring and using Systems;
+- compare functional, bearer, and interface alternatives;
+- turn the four labels into comparable whole obtaining arrangements, including integration, assurance, support, capability, lock-in, and exit burdens;
+- identify which configuration and effectivity range each claim concerns;
+- connect trials and measurements to the exact claims they may support;
+- distinguish overlapping Work from dependencies that genuinely require order;
+- expose capability, assignment, permission, and decision-authority gaps;
+- record the selected architecture, accepted trade-offs, evidence basis, and reopen conditions;
+- return commissioning and field feedback to the affected design, Method, and decision.
+
+The agent can draft and inspect this result using FPF and the Systems Engineering DPF. Engineers and other authorized participants contribute ground truth, evaluate the evidence, negotiate commitments, and make the actual decisions. The same distinctions apply to a building subsystem, laboratory setup, medical device, robotic product, energy installation, organizational method, research program, or software-intensive System.
+
+## Core distinctions that matter in mixed human–AI Work
+
+| Keep distinct | Why it matters |
+| --- | --- |
+| A System and a description, model, dashboard, or document about it | Changing or approving a description does not by itself change the System. |
+| A Method, a MethodDescription, a WorkPlan, and actual Work | A procedure or plan does not prove that capable Work occurred or produced its intended result. |
+| Architecture, an architecture description, and an architecture decision | A diagram is not the structure; a selected structure is not automatically realized. |
+| Capability, assignment, permission, responsibility, and authority | A person, team, tool, or AI agent may have one relation without the others. A title or technical ability establishes none of them by itself. |
+| A claim, its evidence, assurance about reliance, and the decision that uses it | Fluent text, a passed test, or a source citation does not support every nearby conclusion. |
+| Result dependency, planned Work order, actual Work order, and teaching order | Each answers a different question. None should be inferred from document order. |
+| A local decision and a continuing Method or culture | One successful case does not prove transfer, institutional retention, or universal applicability. |
+| A narrative rendering and its source structure | Readability and engagement do not guarantee source fidelity, causal validity, or recoverability. |
+
+## What FPF is not
 
 FPF is not:
 
-- a shrink-wrapped project methodology;
-- a checklist bureaucracy;
-- a quick-answer cheat sheet;
-- a replacement for domain expertise;
-- a demand to study the whole specification before useful work begins;
-- a promise that every project needs every pattern.
+- an AI-agent framework, agent runtime, orchestration library, memory service, or autonomous-action permission;
+- a software-coding framework, although software-intensive Systems are legitimate engineering subjects;
+- a prescribed workflow, project-management methodology, lifecycle, or universal sequence of stages;
+- a checklist bureaucracy or a compliance scheme built around official standards;
+- a claim that one school, standard, toolchain, model, or institutional consensus is the whole state of the art;
+- a replacement for domain expertise, direct observation, experiment, measurement, professional judgement, or legally valid authority;
+- a demand that a human read the full specification before obtaining a useful result;
+- a guarantee that every project needs every pattern or every DPF.
 
-FPF is most useful when the cost of semantic drift, premature convergence, hidden evidence gaps, weak architecture, vague quality, or unreviewable work is higher than the cost of using a disciplined pattern language.
+FPF is most useful when the cost of semantic drift, hidden assumptions, premature convergence, lost handoffs, ungrounded AI output, weak architecture decisions, evidence gaps, rework, or unreviewable collective Work exceeds the cost of using a disciplined pattern language.
 
-## How to Use This Repository
+## Publication and use status
 
-Start with one of the two direct examples or one of the cross-pattern cards when it recognizes the current project question. A direct example is enough when one pattern can return the needed result. A card helps when the answer must retain several pattern contributions, checks, and returns. If no example fits, use the Table of Contents or ask an assisting agent to compare a small plausible set of direct patterns. The examples are not a list of all questions FPF can help with.
+This README is a public entry point, not the normative specification. It deliberately coarsens and omits detail. When a claim becomes important, inspect the exact pattern body, definitions, checks, source uses, and stop or reopen conditions in [FPF Core](./FPF-Spec.md) or the relevant DPF.
 
-Use the `Preface` for the cross-cutting ideas. Use the selected pattern body for its `Solution`. Once one pattern is current, use `E.11.PUA` to follow that `Solution` to the smallest useful result or an honest missing-basis stop. Name a receiving use only when an actual continuation or later reliance is current. Use `E.11.PUR` when applicability, recommendation, coordination, or ordering among candidate pattern uses is the current question. Keep an ordinary reversible judgement conversational; make it addressable only when a named later use needs that support.
-
-If you use an AI assistant, attach or index `FPF-Spec.md` and ask for plain-language project help first. Let internal pattern names enter only when they make the answer more precise.
-
-A good first prompt is:
-
-```text
-You have the FPF specification as a file.
-Help me with this current project question:
-[short project description and question]
-
-Use plain language for engineer-managers. The Readme examples are clues,
-not a list of the questions FPF allows. If one direct pattern can answer
-the difficulty, start there. If the answer needs several pattern
-contributions, give me a short attention map and open only the
-contributions whose questions are current.
-
-First give one useful result for the situation, or an honest blocker.
-Then name the project question that result answers and any missing fact,
-rule, evidence, or authority needed before a truthful answer is possible.
-Add PatternIDs after the plain explanation so I can inspect the direct
-Solutions and checks. Stop when the current question is answered; do not
-turn the example or card into a whole-project plan.
-```
+The framework is an **eternal alpha**: it is usable now and continuously revised as its sources, working situations, patterns, and evaluations change. AI agents should expose the source edition or snapshot they used whenever currentness matters.
 
 ## Citation
-
-If you use FPF, please cite:
 
 ```text
 Levenchuk, Anatoly. First Principles Framework (FPF).
