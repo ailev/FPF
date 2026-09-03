@@ -18,6 +18,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Find a starting pattern](#find-a-starting-pattern) | System or method? Architecture, alternatives, evidence, organizational change, development advice, music and dance. What useful result should I obtain first? |
 | [Buy, commission or build greenhouse control?](#how-should-we-obtain-climate-control-for-a-greenhouse) | Make or buy, AI assistance, integration, operating support, supplier access, fallback, real procurement evidence. |
 | [Develop people, obtain expertise or change the arrangement?](#what-should-a-small-engineering-team-develop-obtain-or-delegate) | Recruitment, training, providers, human and AI work, platforms, assignments, organizational choice. |
+| [Share staff without losing existing commitments?](#how-can-two-archive-services-share-staff-without-losing-their-commitments) | Ready work, queues and buffers, shared staff, usable hours, variable load, constraint diagnosis, coordinated decisions. |
 | [Recommend a development direction](#how-do-we-recommend-a-development-direction) | Advising, opportunities, comparison, uncertainty, exploration, programme choice, human and organizational development. |
 | [Scale a dance event after a successful showcase?](#should-we-scale-a-partner-dance-event-after-one-successful-showcase) | Rehearsal, unfamiliar partners, transfer, performance conditions, teaching method, support environment. |
 | [What does this engineer need to develop?](#what-does-an-engineer-need-to-develop-for-future-release-work) | Future work, representative observations, critical errors, capability, misleading training diagnoses, balanced development. |
@@ -85,9 +86,23 @@ Choose the row that matches the question you need to answer. Several patterns in
 | Is the difficulty in performance, coordination, observation, transmission or the supporting environment? | [Music and Dance Practice Engineering contents](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) | The relevant practice method and an example of its use. |
 | What must this person be able to do in later work? | HCD.1 ([preview](README.md#development-previews)) | An evidenced development demand or a prospective hypothesis to investigate. |
 | Is the limit a capability, misconception or behaviour, or does something else need to change? | HCD.3 ([preview](README.md#development-previews)) | A supported development target, a non-training cause, or the next observation needed to distinguish them. |
-| Which capabilities should be developed or preserved across simultaneous work? | HCD.4 ([preview](README.md#development-previews)) | A capability-profile choice based on evidence, support conditions, trade-offs and the person's participation. |
+| Which capabilities should be developed or preserved across simultaneous work? | HCD.4 ([preview](README.md#development-previews)) | A supported comparison of current and target capability profiles, with evidence limits, support conditions, trade-offs and the person's participation. A choice additionally requires adequate decision inputs and the chooser's authority. |
+
+### Keep an operation working
 
 For operating questions, the [Operations preview](README.md#development-previews) provides OPS.5 for admitting work, OPS.6 for continuing an exceptional case, and OPS.7 for revising local priority or an existing commitment. The results respectively state what may start and under what limits, what may happen next in the admitted case, and which priority or commitment should change. Each decision uses the operating evidence and authority required by that pattern.
+
+When the existing policy or capacity basis is insufficient, start from the difficulty below. OPS.1–OPS.4 help recover the operation, commitments, work and current observations if these are unclear.
+
+| Your question | Open in the Operations preview | What you can obtain |
+| --- | --- | --- |
+| Work is waiting, but what can the next activity actually use? What protection does it need? | OPS.8 - Coordinate Queues and Buffers | A policy that identifies eligible work, orders and releases it, and keeps incomplete work visible. For needed protection, it states what a buffer protects and how it is replenished, with a justified amount or the missing sizing input. |
+| Would more people, equipment or automation improve completed results, or is something else limiting them? | OPS.9 - Diagnose and Treat the Current Constraint | A supported treatment for the current shortfall, or a hold/probe decision stating the competing explanations and the evidence needed to distinguish them. A queue length or busy resource alone does not settle the cause. |
+| What can fit the real resource windows when demand varies and another service uses the same people or equipment? | OPS.10 - Qualify Capacity Under Variability; OPS.11 - Coordinate Interacting Operating Structures when another arrangement affects the plan | A resource-time bound gives an initial capacity limit. For specified work and resource windows, return a feasible timetable, show why the work cannot fit, or name the missing information needed to decide. To examine variability, show what the plan would deliver under a specified disruption or obtain a model-based forecast for a probability target, with assumptions supported by evidence. Where the plan depends on another arrangement, also obtain compatible decisions about shared resources, prerequisites or permission from the responsible people. |
+
+The [archive case](#how-can-two-archive-services-share-staff-without-losing-their-commitments) combines contributions around one allocation question. Use only those needed for your decision.
+
+These PatternIDs cite *Operations Management Principles Framework*, the eleven-pattern preview. The [preview link](README.md#development-previews) explains availability. If that separate publication is available to you, read the named body. Otherwise, ask an operations specialist for the result in the last column, supplying your service, unfinished work, horizon, current policy, resource conditions and observations. The case below shows how to make that request concrete.
 
 ## How should we obtain climate control for a greenhouse?
 
@@ -135,6 +150,31 @@ For capability claims, [A.2.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.m
 Obtain a strategy, finance, legal, safety, maintenance or other specialist answer when it can change this comparison. State the particular question in the request. The organization makes its choice from the resulting comparison: select an arrangement, conduct a useful authorized probe, reject the candidates, or identify the evidence still needed.
 
 Before dependent work begins, establish its required capability, assignment, permission and authority, and the evidence for protected conditions. Once the operating arrangement exists, OPS.5–OPS.7 can address its narrower admission, case-continuation and priority questions.
+
+## How can two archive services share staff without losing their commitments?
+
+In this constructed case, a public archive must decide how to allocate work for the next two weeks. Central copy-search assignments and local reference requests use the same archivists. The pilot's central-priority rule permits interruptions of local work. One proposal retains central coordination but replaces automatic interruption with confirmed search intervals.
+
+**Use OPS.11 from the [Operations preview](README.md#development-previews) to coordinate that proposed allocation.** Copy delivery also needs a branch specialist's check; allocating search time does not allocate that checking time. The director must decide the arrangement, the participants must confirm their assignments, and both services must receive the resulting allocation. Use [OCE.14](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce14---revise-the-organization-from-qualified-results) for the organizational revision itself.
+
+A qualified specialist has supplied the professional procedure for checking a copy's suitability and whether it may be supplied. The archive promises a suitable copy or a substantive response identifying the missing input or permission. The service owner counts a request as late when its promised deadline passes before the required result is delivered; unfinished requests past that deadline count too. After correction, both four-week windows include every eligible request.
+
+| Service | Four weeks before the pilot | Four-week pilot, corrected population |
+| --- | --- | --- |
+| Copy requests late under the supplied counting rule | 20 of 80: 25% | 28 of 100: 28% |
+| Local reference requests late under the same service's counting rule | 3 of 40: 7.5% | 8 of 40: 20% |
+
+Both proportions worsened; the observations do not establish why. The first pilot export showed 8 late copy requests out of 80; it omitted twenty other eligible requests, all late and unfinished at the window's end. Recover their current state before planning: some may have since finished. Any remaining obligations retain their original dates and required results. [OCE.13](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce13---observe-and-compare-organization-change-consequences) supports the consequence comparison; OPS.8 needs the present waiting population.
+
+For the limited-interval proposal, use OPS.8 to define a search-ready queue. A request enters it when a capable archivist has the inputs, access and permission needed for its next search. The proposed release rule sends an eligible search into a confirmed interval and orders eligible work by the authorized priority rule. Requests awaiting an input remain visible with the missing contribution and their original waiting time. A search can be ready before its copy-checking result exists; that check is a later requirement for supplying the copy. Compare this rule with central dispatch that interrupts local work, including what each leaves waiting in both services. A protective buffer amount would require evidence about replenishment and the loss it should prevent; the case supplies no such amount.
+
+Three archivists each have two free search hours a week for the next fortnight. OPS.10 gives a useful first bound: the proposed allocations offer at most twelve search hours in total, subject to confirmation. Search load above twelve hours cannot fit those allocations. Load at or below twelve still needs a timetable that respects readiness and individual windows, plus the checking and completion work. Ask the service owner for the remaining work by request, the usable intervals and the burden of interruptions, recovery and transition. No deadline probability follows from these totals or the lateness percentages. A capacity limit leaves the promised professional answer outstanding; it is not that answer.
+
+Seven interruptions were recorded. If the proposed change is justified as a remedy for delay, OPS.9 asks whether interruption and recovery are the limiting mechanism, rather than, for example, a heavier request mix using the available service windows. Request representative histories connecting readiness, interruptions and restarts, work performed, checking and delivery, together with the resource calendars and work requirements. The histories should show whether otherwise ready requests lose usable intervals to interruption and restart, or whether their required work exceeds those windows even without such losses. Return a supported mechanism, a combination of mechanisms, or the next discriminating observation. The aggregate rates alone leave that diagnosis open.
+
+The operating return is therefore a proposed release rule, a conditional twelve-hour search ceiling, and a request for the workload, timetable and checking allocation needed to compare the two arrangements. Existing local commitments and the unfinished copy obligations stay in that comparison. The pilot permission ends on Friday; a further two-week arrangement requires the director's decision and confirmed assignments. Remove the earlier improvement claim from the proposal's justification.
+
+Once the applicable policy and resource basis are adequate, OPS.5–OPS.7 can answer the narrower admission, case-continuation and priority questions. After authorized use, compare the accepted results of both services with their commitments, retaining the same acceptance and delay definitions.
 
 ## How do we recommend a development direction?
 
@@ -237,6 +277,8 @@ Use Method Engineering to examine the method, its descriptions and support. A pa
 ### When several management views describe the same work
 
 Project, process and case management can answer different questions about the same work. [A.15.6](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a156---project-process-and-case-recovery-through-work-method-and-transformation) and [E.17.0](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e170---viewpoint-and-view-recognition-for-multi-view-describing) help recover that work and select useful views. Reconcile them at the shared work and decisions. A conflict between descriptions may need a description repair; a real conflict between contributions needs a working-arrangement decision.
+
+For an operating plan that depends on another service's resources, evidence or permission, use OPS.11 ([preview](README.md#development-previews)) to identify the concrete dependency and obtain compatible decisions from those responsible. Start with the proposed change and only the dependencies that can alter it. A change to organizational design belongs with OCE.
 
 ### When the case or a relied-on source changes
 

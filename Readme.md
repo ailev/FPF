@@ -46,9 +46,9 @@ An AI agent can therefore help choose the **next justified move** without preten
 
 ### Engineering DPF Suite
 
-The list below covers the 16 published and planned DPFs in the current Suite plan. Links open the available texts; **Planned publication** marks a DPF whose public text is still being prepared.
+The list below covers the 16 published and planned DPFs in the current Suite plan. Links open the available texts; **Planned publication** marks a DPF selected for a later release.
 
-| Domain pattern language | Publication status | Use it when the current question concerns |
+| Domain pattern language | Publication status | What it covers or is planned to cover |
 | --- | --- | --- |
 | [**Systems Engineering DPF**](./Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Published | project System focus; intended use; affected Systems; problem and System-family options; functional organization; architecture and interfaces; specialist contributions; build, buy, provider, reuse, AI, or hybrid arrangements; recursive realization; integration; platforms; configuration and effectivity; release evidence; source change; evolvability; overlapping Work; and engineering culture. |
 | [**Method Engineering DPF**](./Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Published | Method identity; composition and architecture; descriptions and representations; support; trials; coherence; situational fit; transfer; practical worth; variants; introduction into practice; continuation; and change of a Method-engineering culture. |

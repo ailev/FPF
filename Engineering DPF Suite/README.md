@@ -75,9 +75,9 @@ The README introduces the Suite. The Reference helps you find and combine method
 
 Operations Management and Human Capability Development also have partial working publications. They are separate previews and are not included in this five-DPF download.
 
-The Operations preview covers OPS.1–OPS.11: operating work, admission, exceptional-case continuation, local priority or commitment revision, queue and buffer coordination, constraint treatment, capacity under variability, and coordination across operating structures. The Human Capability Development preview covers HCD.1, HCD.3 and HCD.4: demand from later work, diagnosis of a limiting target, and a capability profile. A citation marked *preview* identifies this narrower source; it does not point to a missing file in this download.
+The Operations preview covers OPS.1–OPS.11: operating work, admission, exceptional-case continuation, local priority or commitment revision, queue and buffer coordination, constraint treatment, capacity under variability, and coordination across operating structures. The Human Capability Development preview covers HCD.1, HCD.3, HCD.4 and HCD.11–HCD.14: demand from later work, diagnosis of a limiting target, a capability profile, performance assessment, unfamiliar transfer, retention and tool dependence, and evidence-led revision of a development arrangement. A citation marked *preview* identifies this narrower source; it does not point to a missing file in this download.
 
-Until the needed preview or later publication is available to you, obtain the particular operating or development result from an appropriate specialist. In particular, demand and diagnosis guidance alone does not supply a complete learning programme or evidence of transfer. Publication updates are announced through the [FPF repository](https://github.com/ailev/FPF).
+Until the needed preview or later publication is available to you, obtain the particular operating or development result from an appropriate specialist. For a complete learning programme, also obtain its design and the development methods to be used. To judge a person's performance, transfer or retention, apply the relevant methods and obtain observations of that person. Publication updates are announced through the [FPF repository](https://github.com/ailev/FPF).
 
 ## Sources, revisions and citation
 
