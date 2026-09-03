@@ -3,7 +3,7 @@
 > A domain pattern language for bringing about and changing engineered Systems, from their intended use and architecture to realization, assurance, and continuing development.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 2 September 2026
+- **Version:** 3 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
@@ -291,7 +291,7 @@ If you use this framework, please cite:
 
 ```text
 Levenchuk, Anatoly. Systems Engineering Principles Framework.
-2 September 2026.
+3 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -1961,7 +1961,7 @@ The table names the sources used here and the contribution and limits of each.
 
 | Source | Retained contribution | Use boundary |
 | --- | --- | --- |
-| R0 and R8 Systems Engineering material plus [R11, *Development for Advanced Practitioners*](../../../GuidesProject/R5-R10-pedagogical-companion-md/converted-md/R11-DevelopmentForAdvanced.md) | Project-System focus, continuing engineering, problem archive and portfolio, comparison and acceptance bases, parity, and recursive problem/System/builder Work. | Treat the guide and seminar as practitioner syntheses; recover each current object and relation through current FPF and direct project evidence. |
+| R0 and R8 Systems Engineering material plus R11, *Development for Advanced Practitioners* | Project-System focus, continuing engineering, problem archive and portfolio, comparison and acceptance bases, parity, and recursive problem/System/builder Work. | Treat the guide and seminar as practitioner syntheses; recover each current object and relation through current FPF and direct project evidence. |
 | Dorst and Cross (2001), [*Creativity in the design process: co-evolution of problem–solution*](https://doi.org/10.1016/S0142-694X(01)00009-6) | Mutual development of problem and solution spaces in protocol studies of experienced industrial designers. | Use as bounded design-process evidence; establish the current System family and configuration separately. |
 | Liker et al. (1996) and Sobek, Ward, and Liker (1999) on set-based concurrent engineering | Communication about design sets, delayed commitment, feasibility, and narrowing in automotive product development. | Transfer the set-based moves only where the receiving profile's constraints and evidence support them. |
 | Castle, Stock, and Gorochowski (2024), [*Engineering is evolution*](https://doi.org/10.1038/s41467-024-48000-1) | Variation, expression, evaluation, selection, exploration, and exploitation as an engineering perspective. | Use the evolutionary analogy as a hypothesis source; ground the current engineering Method and cultural claims separately. |
@@ -6313,7 +6313,7 @@ basis.
 
 | Source line | Use here | Epistemic boundary |
 | --- | --- | --- |
-| R8 Systems Engineering material and [R11, *Development for Advanced Practitioners*](../../../GuidesProject/R5-R10-pedagogical-companion-md/converted-md/R11-DevelopmentForAdvanced.md) | Supplies continuing engineering, target and builder development, engineering platforms, product and problem portfolios, recursive factory-development views, characterization, reversible change, and evidence return. | These are practitioner syntheses. Their factory, lifecycle, target, stack, and process labels do not establish current FPF kinds, one universal architecture, or measured field prevalence. |
+| R8 Systems Engineering material and R11, *Development for Advanced Practitioners* | Supplies continuing engineering, target and builder development, engineering platforms, product and problem portfolios, recursive factory-development views, characterization, reversible change, and evidence return. | These are practitioner syntheses. Their factory, lifecycle, target, stack, and process labels do not establish current FPF kinds, one universal architecture, or measured field prevalence. |
 | Bryan et al. (2007), [*Co-Evolution of Product Families and Assembly Systems*](https://doi.org/10.1016/j.cirp.2007.05.012); Tolio et al. (2010), [*SPECIES—Co-evolution of products, processes and production systems*](https://doi.org/10.1016/j.cirp.2010.05.008); and Albers et al. (2022), [*Product-Production-CoDesign*](https://doi.org/10.1016/j.procir.2022.05.231) | Supplies joint product-family and assembly/production-system design, product–process–production-system coevolution, coupling across generations, future-characteristic treatment, and production reconfiguration. This pattern adopts joint alternative development, adapts it into the system-of-interest–builder relation and the manufacturing branch in steps 4, 6, and 7, and rejects the idea that product architecture can be optimized independently of the production arrangement. | The studies concern manufacturing and product–production settings. They do not establish transfer to software, Methods, organizations, human capability, or every builder arrangement. Those extensions remain bounded engineering syntheses and reopen when a transfer failure changes the practitioner decision. |
 | Fricke and Schulz (2005), [*Design for changeability*](https://doi.org/10.1002/sys.20039) | Supplies a Systems Engineering account of incorporating changeability into architecture and distinguishes flexibility, agility, robustness, and adaptability across industries. | It is a historical field anchor. Its lifecycle and quality vocabulary does not create one FPF evolvability characteristic or settle the claim subject and system-of-interest–builder relation in this pattern. |
 | Ross, Rhodes, and Hastings (2008), [*Defining changeability*](https://doi.org/10.1002/sys.20098) | Supplies explicit change agents, change effects, change mechanisms, context change, and tradespace-based changeability distinctions. | Its filtered-outdegree measure answers a declared tradespace question; it is not a universal evolvability scalar and does not include every builder, Method, capability, culture, or evidence relation used here. |
