@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 3 September 2026
+- **Version:** 4 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
@@ -23,23 +23,34 @@ Open [SYSE.24 - Choose How the Project Will Obtain a Needed Engineering Result](
 
 Use a pattern's **Problem frame** to check that it fits. Its **Solution** gives the working moves; the example shows how they fit a case, and the checklist helps inspect your result. Bring in another pattern when you need its answer. You can begin from a result your project already has.
 
-You can read this way yourself, use a pattern in a working meeting, or ask an AI assistant to help apply it. There is no need to read all five frameworks before starting.
+You can read this way yourself, use a pattern in a working meeting, or ask an AI assistant to help apply it. You do not need to read every framework before starting.
 
 ## Choose a DPF
 
-These are the five complete DPF publications in this download. Their tables of contents provide the full pattern lists and searchable working questions.
+The public folder contains seven complete first editions and two explicitly partial foundations. Start with the working question nearest to yours. Each complete carrier provides its full searchable pattern index; each partial carrier names the PatternIDs that are still unavailable.
+
+### Complete first editions
 
 | What you are trying to do | Open | A result it can help you obtain |
 | --- | --- | --- |
-| Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) — 41 patterns | A system boundary, architecture decision, comparison of ways to obtain a result, integration plan, or justified release decision. It also covers general Platform Engineering and a substantial software delivery and reliability profile. |
-| Choose, explain, test or improve a way of working. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) — 19 patterns | An explicit method, a useful description of it, a support arrangement, or evidence about fit, transfer and practical value. |
-| Change how an organization contributes, assigns work and enables people and other performers to act. | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) — 17 patterns | A compared organizational arrangement, clarified assignments and authority, a supported change, or a decision about its consequences. |
-| Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support (PSD)](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) — 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
-| Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) — 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
+| Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 41 patterns | A system boundary, architecture decision, comparison of ways to obtain a result, integration plan, or justified release decision. It also covers general Platform Engineering and a substantial software delivery and reliability profile. |
+| Choose, explain, test or improve a way of working. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 19 patterns | An explicit method, a useful description of it, a support arrangement, or evidence about fit, transfer and practical value. |
+| Change how an organization contributes, assigns work and enables people and other performers to act. | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A compared organizational arrangement, clarified assignments and authority, a supported change, or a decision about its consequences. |
+| Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
+| Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
+| Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 20 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
+| Derive and develop one person's capability for representative later work. | [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A supported demand, target or profile; a compared development programme; representative practice and support; performance, transfer or retention evidence; or a continuing-development decision. |
+
+### Partial foundations
+
+| Available foundation | Available now | Explicitly unavailable in this edition |
+| --- | --- | --- |
+| [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | 9 patterns: `SIE.1`, `SIE.2`, and `SIE.4`-`SIE.10` | `SIE.3`, `SIE.11`, and `SIE.12` |
+| [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | 2 patterns: `RMP.1`-`RMP.2` | `RMP.3`-`RMP.9` |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
-When your question crosses these fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a more detailed question index and worked cases.
+When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases. Publication availability is the claim made by the tables above; co-listing alone does not establish dependency, compatibility, or product-series membership.
 
 ## Looking for development recommendations?
 
@@ -73,11 +84,17 @@ The README introduces the Suite. The Reference helps you find and combine method
 
 ## Development previews
 
-Operations Management and Human Capability Development also have partial working publications. They are separate previews and are not included in this five-DPF download.
+This stable heading is retained for readers following links from earlier complete carriers. Operations Management and Human Capability Development now have complete first editions. The two partial foundations available through this public projection are Semantic Integration Engineering and Research Method Practice.
 
-The Operations preview covers OPS.1–OPS.11: operating work, admission, exceptional-case continuation, local priority or commitment revision, queue and buffer coordination, constraint treatment, capacity under variability, and coordination across operating structures. The Human Capability Development preview covers HCD.1, HCD.3, HCD.4 and HCD.11–HCD.14: demand from later work, diagnosis of a limiting target, a capability profile, performance assessment, unfamiliar transfer, retention and tool dependence, and evidence-led revision of a development arrangement. A citation marked *preview* identifies this narrower source; it does not point to a missing file in this download.
+### Publication scope
 
-Until the needed preview or later publication is available to you, obtain the particular operating or development result from an appropriate specialist. For a complete learning programme, also obtain its design and the development methods to be used. To judge a person's performance, transfer or retention, apply the relevant methods and obtain observations of that person. Publication updates are announced through the [FPF repository](https://github.com/ailev/FPF).
+The seven complete carriers expose 153 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The two partial foundations add eleven usable PatternIDs without supplying the missing bodies.
+
+The [Semantic Integration Engineering foundation](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) can return a bounded semantic-integration package for one receiving use. It does not supply the unavailable model-change, later change-tracing, or reusable semantic-commons methods represented by `SIE.3`, `SIE.11`, and `SIE.12`.
+
+The [Research Method Practice foundation](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) can qualify a research question, return an already-sufficient source or non-research owner, and choose a criticism-bearing research design or an honest stop. It does not supply `RMP.3`-`RMP.9` for operationalization, performed research, analysis, synthesis, or downstream use.
+
+Until a needed pattern is available, obtain the missing result from the practice that owns it. A title, accepted plan, neighbouring pattern, or AI-generated answer does not fill the gap. Publication updates are announced through the [FPF repository](https://github.com/ailev/FPF).
 
 ## Sources, revisions and citation
 
@@ -89,7 +106,7 @@ To cite the collection:
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite.
-3 September 2026.
+4 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
