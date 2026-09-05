@@ -541,7 +541,7 @@ supported use: the practitioner must still reconcile artifact identity, environm
 task observations and release authority. Conversely, when only one of those results is missing, using its
 direct source or pattern is sufficient; a full build-and-delivery traversal adds no necessary result.
 
-The architecture of an actual platform remains a comparison. Retaining repaired local provision, sharing
+Choosing a platform's architecture requires comparing the available arrangements. Retaining repaired local provision, sharing
 a bounded contribution, obtaining external provision and adding an interface can each be appropriate.
 [APP-SYSE-05](#app-syse-05---worked-application-construct-a-supported-software-build-and-delivery-path)
 keeps the repaired local and thin shared arrangements tied after their matched initial trial; developing
@@ -2556,10 +2556,10 @@ remain separate decisions and claims.
 
 | Name in this pattern | What it denotes |
 | --- | --- |
-| engineering architecture | Plain domain wording for one or more `ArchitectureOf@Context` relations concerning an actual engineered System and selected `U.Structure` values, or for possible-future architecture claim content concerning an intended System referent. Identify the architecture relation, its descriptions and candidates, the decision, and the later actual structure separately. |
+| engineering architecture | The selected structures of an engineered System that shape consequential engineering choices, such as its functional allocation, interfaces, control, or redundancy. For a realized System, `C.30` identifies the `ArchitectureRelation` between that System and each actual selected `U.Structure`. Architecture descriptions state claims about these structures; proposals describe possible future arrangements and the conditions for their realization. |
 | architecture candidate | An episteme that proposes selected-structure content, consequences, and conditions for one architecture option. It does not make an architecture relation obtain. |
 | engineering project architecture decision relation | The `ArchitectureDecisionRelation@Project` supplied by `C.32.PAD` for an actual engineered System or intended referent and a recoverable composite project `U.Work`. It links the decision subject, candidate basis, selected option, constraints, accepted losses, and reconsideration conditions. The relation does not create the intended System or perform implementation Work. |
-| chosen architecture | Ordinary shorthand for the selected option and affected-structure content cited by that decision relation. Before the relevant structure obtains, the shorthand remains modal decision content. |
+| chosen architecture | The structural option selected by the architecture decision, whether retained or intended to be realized. The decision record describes that choice and its constraints. Claims about future realization state what is intended; later observations establish the actual structure. |
 | architecture characteristic criterion | One decision-specific criterion row supplied by `C.32.ACS`, with the characteristic, bearer, scale or qualitative frame, use, conditions, protected loss, and guardrail or comparison use needed by the decision. A quality word or metric name is not a criterion row. |
 | architecture evaluation result | The result of an eval program under `C.32.ACE`, with its subject, configuration, conditions, parity frame, observations, and limits. It informs a decision; it does not select an option. |
 | engineering architecture residual | An unresolved mismatch, loss, unsupported dependency, or omitted consequence tied to selected-structure content, a bearer or affected System, use and operating conditions, and a receiving engineering decision. The tie to that decision distinguishes a residual from an unrelated open task. |

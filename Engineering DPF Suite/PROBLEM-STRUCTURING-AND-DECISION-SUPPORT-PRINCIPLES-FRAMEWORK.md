@@ -3,7 +3,7 @@
 > A domain pattern language for clarifying difficult situations, structuring inquiry, comparing alternatives, and returning qualified decision support.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 3 September 2026
+- **Version:** 5 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
@@ -11,7 +11,7 @@ Begin with the difficulty that blocks useful work: what problem is being address
 
 Use the Table of Contents below to search by a familiar term or working question and find the relevant PatternID. Open the pattern and apply its Problem frame, Solution, worked cases, and checklist to your actual inquiry or decision-support question. Start with the smallest useful result; use another pattern when its contribution is needed, and keep the recipient's choice separate from the advice.
 
-The Readme offers selected practical entries, and the Preface explains recurring distinctions. The full Table of Contents also serves questions outside those examples; the pattern bodies supply the working moves, conditions, and stops. For references to this version, use the [Citation](#citation).
+The Readme offers selected practical entries. The Preface explains how the contributions work together, why this arrangement is useful, and what qualifies a combined result. The full Table of Contents also serves questions outside those examples; the pattern bodies supply the working moves, conditions, and stops. For references to this version, use the [Citation](#citation).
 
 # Table of Contents
 
@@ -71,7 +71,7 @@ Search the questions and keywords for the result you need. PSD numbers are stabl
 
 ## Practical entries
 
-Bring the question that is blocking useful work. These entries are selected examples, not a catalogue, a coverage boundary or a required sequence. Open the smallest direct pattern that can supply the missing result; use the pattern index or another finding aid when no example fits.
+Bring the question that is blocking useful work. These entries are selected examples, not a catalogue, a coverage boundary or a required sequence. Open the smallest direct pattern that can supply the missing result; use the pattern index or another finding aid when no example fits. Read the [Preface](#preface) when you need to select or connect several contributions; its [Architectural Rationale](#architectural-rationale) explains the alternatives and their costs. Each direct pattern remains usable without first reading that whole account.
 
 If the useful future contribution itself is still unclear, enter [Construct a Bounded Development Opportunity](#psd-opportunity-use-this-when) directly. You can construct an opportunity and stop at its next question without appointing an adviser. If a distinct performer must recommend a development direction to someone else, use the [advising profile](#psd-advising-development-direction-advising) or the development-direction entry below.
 
@@ -130,7 +130,7 @@ This framework is published in the [FPF repository](https://github.com/ailev/FPF
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
 Problem Structuring and Decision Support Principles Framework.
-3 September 2026.
+5 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -140,7 +140,9 @@ For a particular pattern, add its PatternID and title, for example: PSD.13 - Pre
 
 A useful answer can be smaller than the question that first brought people together. “Which pump should we buy?” may first need a distinction between nominal capacity and reachable assistance. “What should we develop next?” may first need a worthwhile future contribution rather than a training plan or a model upgrade. Problem Structuring and Decision Support helps people make those differences usable without claiming that one discussion, model or recommendation settles the whole situation.
 
-The framework serves practitioners and assisting agents who help others formulate questions, conduct inquiry, compare alternatives and receive qualified advice. It also supports the maintenance of the Methods and working arrangements that make that help dependable. It is not a universal project lifecycle. The parts group recurring difficulties; the pattern numbers are addresses, not instructions to perform everything in order.
+The framework serves practitioners and assisting agents who formulate questions, conduct inquiry, compare alternatives and prepare qualified advice. They may be internal analysts, facilitators working with affected groups, or professionals advising another person or organization. A team can investigate a question for its own later decision while keeping the analysis and choice distinct. The development-direction advising profile adds a distinct recommending performer where that service relationship is the question.
+
+Problem Structuring and Decision Support also supports the maintenance of the Methods and working arrangements that make this work dependable. Its pattern language offers a repertoire for recurring difficulties. The Parts group those difficulties; pattern numbers are addresses, and an actual inquiry selects contributions by the results it needs.
 
 ## Start from the missing result
 
@@ -150,6 +152,18 @@ Some questions are contested. People can disagree about what is wrong, who bears
 
 Other questions are already sufficiently formed. They can enter directly at a missing alternative, specialist premise, comparison or recommendation. A person exploring an opportunity can stop even earlier, without asking another performer for advice.
 
+## How the results connect
+
+Problem structuring makes a difficult situation investigable. It can change which question is worth answering, whose consequences are considered, what counts as the problem and which interventions become plausible. Decision support uses suitably qualified formulations, alternatives, value accounts and evidence to help a receiving decision. A problem formulation can be a complete useful return before a recommendation is possible; a well-formed question can also enter comparison directly.
+
+[PSD.1](#psd-1) establishes the receiving use when that use is unclear. [PSD.2](#psd-2) supplies attributed concerns and participation limits, while [PSD.3](#psd-3) shows how rival formulations change evidence needs, boundaries and possible responses. [PSD.4](#psd-4) uses the needed engagement and participation results directly, alongside the formulations, to choose a usable inquiry boundary. A formulation alone cannot establish who receives the result or whether an affected person's concern has been represented adequately.
+
+Within that boundary, a model can answer one question and expose another. [PSD.5](#psd-5) makes the contributions and limits of complementary models usable. [PSD.6](#psd-6) compares the ways of obtaining the needed results and qualifies any combination. [PSD.7](#psd-7) helps participants examine the developing meanings and return shared and contested claims. A corrected concern can therefore change a model or reopen the boundary while independent analysis continues. [PSD.16](#psd-16) becomes useful when the actual interaction between these activities threatens their results.
+
+Formulations and models inform the alternative construction in [PSD.8](#psd-8). A consequential difference may then need a value account from [PSD.9](#psd-9), an uncertainty account from [PSD.10](#psd-10), a consequence comparison from [PSD.11](#psd-11), or a holding region and reversal from [PSD.12](#psd-12). Obtain only the result that is missing. For example, a sensitivity result can expose a missing road-access premise without requiring another round of alternative generation. A new service concern that the option set cannot address gives a reason to revisit that set or its formulation.
+
+[PSD.13](#psd-13) connects the qualified inputs to what the recipient can use now: a direction, a retained set, a conditional comparison, a probe, a request or an abstention with its reason. [PSD.14](#psd-14) connects a material later observation to the advice it can change when follow-up is needed. Neither relation requires performing all preceding patterns. The full [flood-pump application](#app-psd-01--a-flood-pump-calculation-is-not-the-whole-investment-answer) shows the connections, including a useful first engagement question and a later whole-investment blocker.
+
 ## Keep unlike contributions distinct
 
 A concern map can preserve what different participants mean. A hydraulic model can estimate a stated physical consequence. A value account can explain which differences matter to the receiving decision. These accounts can inform one another, but none becomes the represented situation or acquires the other's evidential authority.
@@ -158,6 +172,18 @@ Likewise, human capability and transfer, organization arrangements, AI evaluatio
 
 Use exact technical distinctions when they change the answer. A proposal is not an obtaining arrangement; a description is not its subject; a score is not a choice; an available Method is not a client's result. Plain language is sufficient when it preserves the distinction and its practical consequence.
 
+## Qualify the whole combination for the receiving question
+
+Use the questions in [PSD.6, Combine contributions through explicit joins](#psd644---combine-contributions-through-explicit-joins) for the combination you actually propose. Each supplying result must be qualified for its own claim, fit the receiving subject, configuration, service meaning and horizon, and meet the conditions of joint use. State any conversion that needs additional work: a concern may suggest an objective, but its frequency of mention supplies no value weight; a scenario can condition analysis, but its presence supplies no probability.
+
+Check shared conditions at the scope where they matter. The needed participants must have usable ways to contribute or correct attribution; specialist evidence must cover the relied-on claim; the Methods must be jointly possible with the available competent effort, data access and time. Include preparation, interpretation and coordination where they consume the same limited resources. Results from one dataset retain that shared evidence dependence. Three compatible pairs establish neither a feasible whole arrangement nor three independent confirmations.
+
+In a constructed budgeting variant of APP-PSD-01, attributed concern recovery needs four team-hours, conditional technical analysis needs six, and preparation of the integrated return needs five. These estimates include their preparation and joining effort, require suitably competent staff, and draw on one twelve-hour budget before the board's deadline. The hours cannot be shared or credited to two activities. Every pair needs at most eleven hours, yet the whole needs fifteen. The proposed combined return therefore needs three more hours, a supported arrangement with lower total effort, or a narrower or later return agreed within the engagement. Omitting a required contribution leaves that whole return unsupported. The individual inquiry or calculation can still be useful at its stated scope. These numbers illustrate a joint condition; a real engagement supplies its own estimates and resource rules.
+
+Evidence effort follows the claim someone will rely on. A sketch may locate a disputed service meaning, and a conditional calculation may identify the assumption worth investigating. A recommendation that relies on physical performance, safety, rights or professional competence needs the relevant practice's qualified result. [PSD.5, Match assurance to the claim being used](#psd545---match-assurance-to-the-claim-being-used) states that boundary. There is no framework-wide sample size, confidence score or completed-workshop count that can replace it. Ask what possible finding could change the bounded return; acquire evidence for that question and stop collecting when further work cannot improve that return enough to justify its burden. Retain a mandatory domain check whenever the intended reliance requires it.
+
+The common practical tension is between obtaining a timely usable answer and preserving the distinctions that can defeat it. More participation can reveal a missing concern while consuming scarce attention. More models can widen the answer while adding interpretation work. A complete ranking can be easier to communicate while requiring judgements the evidence does not supply. State the accepted cost or narrower result, and return to the affected contribution when its conditions fail.
+
 ## Complete a bounded answer in an open situation
 
 Useful inquiry does not require certainty about everything. It requires knowing what the present answer covers, what it leaves open and what could change it. A partial comparison, a retained pair of alternatives, a narrowly qualified recommendation or an exact request can complete the current question.
@@ -165,6 +191,65 @@ Useful inquiry does not require certainty about everything. It requires knowing 
 Keep protected conditions outside a compensating score when their governing source requires that protection. Show a plausible reversal instead of hiding an arbitrary weight or invented probability. A missing premise should block only the claims that need it; independent content can remain useful.
 
 A recommendation belongs to the advising activity. The recipient's choice, authorization, plan, performed work and observed effect need their own basis. This separation protects the recipient's agency and makes a later change intelligible: the new evidence may narrow advice without rewriting what was previously chosen or done.
+
+## Architectural Rationale
+
+The language joins problem structuring and decision support through their results because a technically sound answer can address an inadequate question, and an insightful reframing can leave the recipient with no usable comparison. Keeping the contributions individually addressable lets a practitioner repair the missing connection without repeating adequate work. It also preserves a direct inquiry result when no later recommendation is required.
+
+These serious alternatives explain when the arrangement is worth its cost:
+
+| Alternative | When it is sufficient or preferable | Why the broader PSD arrangement may be needed |
+| --- | --- | --- |
+| Use one qualified calculation or decision model for a fixed question. | The relevant alternatives, consequence meanings, value premises and evidence are adequate, and the calculation answers the receiving question. | A contested service meaning, excluded alternative or unqualified premise can invalidate the stronger return while the calculation remains useful. PSD makes that distinction actionable. |
+| Use one familiar PSM or facilitated workshop. | Its actual actions and participation conditions fit the required result at acceptable effort. | A workshop can recover concerns without supplying a technical consequence or qualified preference model. PSD.6 compares a sufficient single Method with a bounded combination and preserves the missing contribution. |
+| Use separate problem-structuring and decision-analysis accounts. | One account closes the question, or competent practitioners can already qualify the joins. | A reader otherwise has to reconstruct how a frame becomes an objective, which uncertainty changes the comparison, and what advice is warranted. The shared explanation exposes those joins while the bodies retain their distinct Methods. |
+| Apply a complete fixed process to every case. | A recurring service has an established Method whose dependencies and conditions fit the present engagement. | A formed question may need only one comparison, while a contested question may reopen an earlier boundary. The PSD repertoire makes both possible and lets actual dependence, rather than publication order, determine the route. |
+| Use general FPF guidance and the direct subject practice. | The live question is already covered by a choice rule, a bounded evidence request or a specialist Method. | PSD retains the professional work of constructing rival formulations, choosing PSM and analytical contributions, facilitating their interpretation and returning qualified advice. The general distinctions alone do not perform that work. |
+
+The scope also includes improving and continuing this practice. A better way to elicit concerns, a repair to simultaneous inquiry, and the successful transfer of that way to another team are different achievements. PSD.15–PSD.17 preserve their separate questions and evidence. They become relevant when the repertoire, interaction or continuation is itself at issue; an ordinary comparison need not become a professional-development programme.
+
+### The development-direction profile and neighboring results
+
+The [development-direction advising profile](#psd-advising-development-direction-advising) is a bounded use of the shared PSD contributions. Its difference is consequential: advice concerns a developing holder whose capability, support configuration, horizon and professional relationship can change what is supportable. A sponsor may differ from the person whose private assessment matters; human transfer evidence differs from an organization's arrangement comparison and from an AI configuration's evaluation. The profile's [holder-premise account](#psd-advising-recover-only-the-relevant-holder-premises), [comparison guidance](#psd-advising-compare-for-this-receiving-use), [worked uses](#psd-advising-worked-uses-and-stopping-points), and [recognition and assurance account](#psd-advising-recognition-assurance-and-practical-gain) supply those narrower answers. Its professional source account retains the actual service boundaries; they do not become entry requirements for every PSD inquiry.
+
+The independently published [Development Opportunity Construction and Development-Direction Advising framework](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) offers directly addressed contributions when the missing result concerns development opportunities themselves. DOCA.3 constructs a worthwhile receiving problem and proposed contribution; DOCA.5 qualifies joint reachability of a direction and its supports; DOCA.7 bounds the distinct advising relationship. A qualified opportunity can enter PSD.8, and a bounded service can use the needed PSD comparison or recommendation. A contested formulation returns to PSD.3. Use the contribution that is missing; a formed PSD question with adequate inputs needs no preceding DOCA traversal. The complete opportunity MethodDescription and advising profile included here retain their narrative uses.
+
+The [direct-practice boundary account](#what-remains-with-another-practice) identifies the result needed from human development, organization arrangements, technical evaluation and other practices. Such a result supplies a premise for this inquiry; the supplier retains its Method, evidence and conclusion. For example, an organization's qualified comparison of provider and internal arrangements can support advice, while a publication describing how to make that comparison cannot settle the client's case.
+
+PSD therefore supplies a repertoire and explanations of its connected uses. A claim that a selected combination is one composite Method needs the whole action, identified part Methods, permitted variations and joins specified in PSD.6. A Part groups reading material; a profile narrows use; a result dependency states what one contribution needs from another. Those relations do different work. Reconsider the organization of the language when its field boundary, a profile's independently useful result, or a recurring contribution changes.
+
+### Why the source lines are combined
+
+The PSM line gives the framework a substantive answer before optimization begins: make rival interpretations and their practical consequences available for inquiry. Smith and Shaw's [2019 characterization](https://doi.org/10.1016/j.ejor.2018.05.003) and Kogetsidis's [2025 application review](https://doi.org/10.1108/IJOA-08-2024-4746) support a diverse continuing practice, with exploratory and published-application limits. The framing comparisons used in PSD.3 add the need to make contextual changes visible. PSD adapts these contributions into materially different formulations and a receiving-use stop. It rejects both a sponsor's brief as an unquestioned final frame and endless collection of perspectives that changes no next action. The exact comparison and its source limits remain in [PSD.3, SoTA-Echoing](#psd311---sota-echoing).
+
+The older critical PSM–MCDA combination review by [Marttunen, Lienert and Belton (2017)](https://doi.org/10.1016/j.ejor.2017.04.041) makes the interfaces between structuring and analysis part of the problem. The exploratory workshop comparison by [Lami and Tavella (2019)](https://doi.org/10.1016/j.ejor.2018.12.016) provides a bounded counterexample to uniform workshop usefulness. PSD adapts their contributions into the smallest complementary model set and explicit Method joins in PSD.5–PSD.6. This costs more interpretation than applying one familiar technique. Retain the cheaper technique when it supplies the same result and conditions; the reviewed applications establish no universal winning combination.
+
+The analytical line supplies ways to build alternatives, express values, compare consequences and identify useful uncertainty questions. The [2025 MCDA synthesis by Greco, Słowiński and Wallenius](https://doi.org/10.1016/j.ejor.2024.07.038) informs matching preference information to the comparison and recommendation form. [Borgonovo and colleagues' 2026 decision-analysis synthesis](https://doi.org/10.1016/j.ejor.2025.05.023) connects alternative construction, uncertainty, sensitivity and information acquisition. PSD.8–PSD.13 adopt these as selective contributions: a justified scalar model remains usable, incomplete preferences can leave a retained set, and one missing branch limits the whole recommendation. The cost of this arrangement is a less decisive-looking return when the premises warrant less decisiveness.
+
+Under unsettled futures, [Lempert and colleagues' 2024 DMDU analysis](https://doi.org/10.3389/fclim.2024.1380054) supports decision-relevant inquiry despite low-confidence knowledge. The older [2019 DAPP account](https://doi.org/10.1007/978-3-030-05252-2_4) contributes pathway timing and failure conditions. PSD.10, PSD.12 and PSD.14 use those distinctions to expose holding regions, reversals and attainable follow-up. They leave probabilities, local thresholds and authority to their actual sources. A qualified probabilistic analysis remains preferable when its premises fit; calling uncertainty difficult is not a reason to discard it.
+
+Professional sources add conditions on the return that a technically correct comparison may leave open. PSD.13 uses selected ICMCI engagement and conflict clauses within consulting and NCDA provisions within human career services. The [profile source-responsibility account](#source-responsibility-and-references) separately qualifies AI used by an adviser. These bounded normative contributions address competence, intelligible reliance and the service relationship. They supply neither a universal advising protocol nor effectiveness evidence for an intervention. The wider [source map](#where-the-source-arguments-live) returns to the facilitation, follow-up, repertoire and cultural-continuation arguments in their own bodies.
+
+Reconsider the affected arrangement when a simpler Method supplies the same useful return, a shared condition or join fails, a material perspective cannot be preserved, or better evidence changes a source contribution. A local case may need a different Method without defeating the whole language. Repeated failures of the same boundary or profile, or a new independently useful practice remainder, are reasons to reopen the architectural choice.
+
+## Whose conditions and evidence shape the answer
+
+The sponsor's first question, the participants who can attend, and the analyst's familiar models all affect what is made visible. Record whose concerns are attributed, which affected people or consequences remain unrepresented, and how a material correction can reach the result. PSD.2 and PSD.7 provide that work. More participation does not make all claims equally supported, and a dissenting position has only the practical or institutional effect justified in the case. Domain rules determine a right, duty or protected condition.
+
+The worked applications emphasize institutional investment and development advice. They are constructed teaching cases, and the source studies have their own populations, professional settings and access limits. A practitioner transferring the guidance must qualify local meanings, communication access, evidence and service conditions that can alter use. Method familiarity, fluent AI output, participant confidence and publication visibility can all be mistaken for support of a different claim. The relevant pattern's evidence and bias questions help locate that claim; no single confidence measure qualifies the whole inquiry.
+
+## Questions before relying on a combined return
+
+The opening and direct entries help recognize the first useful action. Assurance asks whether the result is supported for its intended reliance. Use the checklists in the patterns actually selected, and reuse their qualified answers when the subject, content, receiving use and conditions remain the same. For the combination, answer the following questions:
+
+- Can the recipient recover what this return answers, whose later decision or inquiry it serves, and what remains outside it? An early inquiry may end with a formulation or precise question.
+- Do material concerns, competing frames and boundary choices survive into the models, alternatives and comparison that depend on them? A supported correction must reach the claim it changes.
+- Does each relied-on result cover the needed subject, configuration, meaning and horizon, with its actual evidence limits? Have shared assumptions or sources been counted only for the support they supply?
+- Do the selected Methods meet the [joint conditions](#qualify-the-whole-combination-for-the-receiving-question), including total effort and required interpretation? A feasible pair cannot close an unsupported whole.
+- Does the scope of the recommendation match the alternatives and conditions actually examined? In APP-PSD-01, a conditional F/M comparison survives while the whole investment question remains open. In APP-PSD-02, a qualified provider exclusion can close that branch, while an unexamined provider cannot simply disappear.
+- Are the next request, stop or changed-premise return clear, and is any later choice or action left with its actual authority? The development profile additionally needs its stated service and holder premises; those qualifications are not inherited merely from generic PSD use.
+
+These questions address failures shown in the applications: one service phrase hiding unlike concerns, an unjustified conversion of qualitative meaning into a score, and a partial comparison presented as a whole recommendation. Correct the particular meaning, obtain the missing contribution or narrow the return. Answer the questions in the working account the recipient needs; actual performance and later effects require their own evidence.
 
 ## Let practice change without making every case start over
 

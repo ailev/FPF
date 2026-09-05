@@ -1,6 +1,11 @@
 # Human Capability Development Principles Framework
 
-> **Edition designation:** Seventeen-pattern first edition, 4 September 2026 — see [Edition return](#edition-return).
+HCD is a pattern language for deriving human capability demand from later Work, designing and sustaining development arrangements, and judging human contribution, transfer and retention under stated task, support and time conditions.
+
+> **Author:** Anatoly Levenchuk with AI-assisted development and review.
+> **Version:** 5 September 2026
+> **Status:** Eternal alpha: used in working development projects and open to continuing correction.
+> **Publication:** [FPF repository](https://github.com/ailev/FPF). [Citation](#citation).
 
 # Table of Contents
 
@@ -163,6 +168,19 @@ The entries below are selected examples, not a catalogue or coverage boundary. B
 
 # Preface
 
+## Start from the contribution that later Work needs
+
+Use HCD when a person, manager or development practitioner needs to improve or sustain a human contribution to later Work, and must decide what development is worth attempting under real time, access and support conditions. The question may arise before a programme, during a difficult practice attempt, after a successful assessment, or years later when the Work changes. A learning-product author can also use the framework while the future audience is still an assumption.
+
+The recurring difficulty is connecting a development activity to the contribution it should change. A curriculum may cover every topic while leaving whole tasks out of reach. A good assisted answer may conceal the action the person still cannot supply. A once useful arrangement may become unsuitable after a tool, task or provider changes. HCD makes these differences actionable: identify the required contribution, compare a plausible development change, obtain the support it needs, and judge only what the subsequent observation can establish.
+
+Begin with the decision now in front of you. State whose contribution matters, in what later Work, what is already known, and which result would change the next action. Then enter the relevant body through the [Practical entries](#practical-entries). The first useful result can be small: a demand hypothesis, two comparable task fragments, a corrected practice attempt, one qualified performance claim, or an exact missing contribution to obtain. A known person needs compatible personal evidence; an author without named learners can proceed directly to HCD.2's learning-product design return.
+
+The main choices concern complete-task attainability, preservation of useful existing contributions, and the effort displaced by development. More practice, realism, independence, assessment or provider preparation can improve one condition while making the whole arrangement too burdensome or changing the task being judged. Select these contributions for the live question and compare their combined demands. The [programme and instrument application](#application-return-to-a-programme-and-instrument-designer) makes that whole-arrangement constraint concrete.
+
+## What the framework connects
+
+
 Human Capability Development deliberately changes a human holder's capability for intended later Work. It is not every change in behaviour, every use of instruction, or every problem involving a person. A demand account states what later Work requires; a diagnostic target names what may need to change; a profile describes contribution claims; a programme sets out a bounded development arrangement; HCD.2 composes and compares programme candidates. Learning Work and clinical treatment are performed activities. Assessment provides observations and bounded inferences about performance, transfer, or retained capability. Programme, employment and other consequential decisions require their own authority.
 
 The seventeen Methods keep one exact human holder or bounded HCD population, later Work, conditions, direct-owner results, finite resources, evidence, uncertainty and receiving decision aligned. Demand, diagnosis, profile, programme comparison, Method selection, practice-task design, support arrangement, bounded provider or environment development, focused practice, practice progression, performance assessment, transfer, retention, revision, continuing arrangement, HCD Method-repertoire change and cultural continuation can each be entered directly when their qualified inputs already exist. Their PatternIDs are stable addresses; file order and numbering do not prescribe Work order.
@@ -189,6 +207,11 @@ Perception, reasoning, bodily action, coordination, decision, evidence return, t
 
 A profile and programme comparison therefore preserve claim identity, conditions, support dependence, uncertainty, critical-error boundaries, trade-offs and finite burdens. A scalar is secondary and admissible only when the receiving decision loses none of those decision-bearing values.
 
+Describe the contribution required in the person's work role and the conditions under which it is needed. The human capability holder is the person who fills that role. The same person can review evidence, coordinate a specialist and make a bounded proposal in the same Work, or fill different roles in different Work. HCD.4 therefore compares that person's contribution claims and their interfaces. A role description can help derive demand through HCD.1; personal starting evidence is still needed for diagnosis or a personal programme comparison.
+
+Several people's development can support an organization's work, but an organizational result also depends on assignments, coordination, resources and other system contributions. Keep each person's evidence identifiable and take organization-holder capability or organization change to OCE and the relevant direct owners. A bounded cultural population is a different subject again: HCD.17 asks how one HCD practice value is transmitted, received, selected or retained among specified participants. It can examine that relation while individual capability consequences remain an HCD.11–HCD.13 question. A population becomes a capability holder only if the independent-System condition of E.23.CDI is separately established; HCD.1's population use otherwise preserves member or representative demand accounts.
+
+
 ## Pattern relations do not prescribe a lifecycle
 
 `HCD.1` may supply evidence input to `HCD.3` and scope or result frames to `HCD.4`, `HCD.2` and `HCD.11`. HCD.3 and HCD.4 may supply target, starting-evidence, protected-strength and priority values to HCD.2 or HCD.5. Equivalent qualified inputs permit direct entry; no pattern result follows merely from an adjacent number.
@@ -200,6 +223,56 @@ HCD.11 can supply performance evidence to HCD.12 and HCD.13. Equivalent qualifie
 A compatible HCD.14 revision hypothesis may inform HCD.15's continuing-arrangement decision or HCD.17's cultural-variation comparison. Observed HCD.15 arrangement use and human-development evidence may inform HCD.16. A bounded HCD.16 repertoire disposition or status-preserved candidate variation may inform HCD.17. All four relations are conditional receiver-governed inputs: a missing, stale or differently scoped result requires a qualified direct substitute or an exact missing-result return, and no receiver waits merely because one PatternID is adjacent.
 
 Use the smallest pattern whose result changes the current decision. A new observation reopens only the claims and receiving decisions whose evidence, conditions, or retry predicates it changes.
+
+To combine uses, first name the result the combination should produce and the values each receiving Method actually needs. Reuse a result only when person or population, contribution, later Work, conditions and evidence window fit that receiving use. Then identify dependencies that require order, contributions used together, and competing demands on time or support. An available direct result can close a dependency immediately. HCD.8's obtain-or-build comparison is useful only when an exact missing contribution blocks the selected use. The [Direct result relations](#direct-result-relations) table locates these returns; the bodies explain how each result is produced.
+
+For example, a practitioner can combine HCD.6, HCD.7 and HCD.9 for one supported practice task when the target and Method are already qualified. A fresh transfer miss can instead combine HCD.12 with HCD.14 to test a local revision, without rebuilding demand or waiting for a delayed observation. In a programme comparison, HCD.2 needs enough task, Method and support detail to compare complete candidates; fuller elaboration follows the separately selected use. These combinations share contributions, while their result, evidence and stopping question differ.
+
+## Choose the scope and the evidence that change this use
+
+The broad subject is deliberate human capability development. A personal programme comparison narrows it to finite changes for one person's later Work: HCD.2 compares complete candidate arrangements from that person's supported baseline. A future-audience learning-product design has a different result. It keeps audience assumptions, output tasks, alternatives, support and budgets explicit so that the author can develop a comparable product fragment; personal recommendation waits for the relevant person and evidence. This difference gives the author a useful direct start and identifies what individualization must later add.
+
+Performance, unfamiliar transfer and retention narrow the evidence question in different ways. HCD.11 asks what the person contributed under specified conditions. HCD.12 asks what survives a material unfamiliar change to an already demonstrated contribution. HCD.13 compares earlier and delayed performance with the intervening practice and support conditions preserved. A claim about learning a newly supplied Method instead uses the declared new-source intention in HCD.12:4.5. These are useful distinct questions because the same correct answer can support different inferences, or fail to distinguish them.
+
+The intended capability may include competent use of sources: a person may need to recognize a question, find a current rule, use a calculator and obtain a specialist result. Independence concerns the particular contribution being judged. If independent recognition is required, the person must select the relevant response before a teacher or AI supplies that selection; permitted references and accessibility support can remain. HCD.6 specifies the intended task conditions, HCD.7 establishes available support, and HCD.9/HCD.11 preserve the help actually received. HCD.12 and HCD.13 then interpret transfer or delay under those conditions. A delayed attempt with AI also withdrawn answers that combined condition; separate delay and support-dependence claims need an interpretable comparison.
+
+Continuing development extends beyond a fixed course. HCD.15 connects changes in later Work or evidence to opportunities for practice, current sources, coaching, specialist access and reassessment under an agreed burden. A material change can reopen one contribution while the rest stays in ordinary use. Use HCD.14 for a local revision; enter HCD.15 when a continuing arrangement must respond to further changes. If the question concerns which human-development Method claim remains warranted for a population and use, HCD.16 compares that claim with serious alternatives. If it concerns how a practice continues among participants, HCD.17 tests the cultural relation. The [continuation application](#app-hcd-03---constructed-continuation-method-repertoire-and-culture) shows all three questions with their consequences kept separate.
+
+These are different bounded uses of the available repertoire. They retain the same direct source, domain and authority boundaries. A narrower use is helpful when its specified person, audience, evidence question, or continuing-development object changes the action, result or stop.
+
+## Architectural Rationale
+
+HCD organizes the repertoire around working questions whose inputs and useful results can differ. Demand can be supported while diagnosis remains open; a practice correction can be useful before transfer is demonstrated; an operational assessor contribution can exist before any learner receives it. Separating these Methods lets a practitioner obtain the missing result and preserve established contributions. Combining them around later Work keeps that separation from becoming a collection of unrelated techniques. The cost is explicit attention to conditions and interfaces; reuse compatible results and keep the account only as detailed as the receiving decision requires.
+
+Several serious approaches can supply part or all of a particular development arrangement. Compare them by the contribution needed in the same working situation.
+
+| Approach | Practical strength and appropriate use | Why HCD keeps a broader repertoire, and when to prefer the approach directly |
+| --- | --- | --- |
+| A complex-skill programme designed through [4C/ID](https://www.4cid.org/about/) | Learning tasks connect supportive information for reasoning, procedural information during routine work, and additional part-task practice where automaticity needs more practice. This supplies a concrete architecture for a complex-skill curriculum. | HCD.2/.5/.6 adapt this task-and-support organization while retaining diagnosis, personal baselines, complete resource comparison and later evidence questions. A designer whose demand, audience and delivery conditions are settled can use 4C/ID directly for that programme. HCD remains useful when a human target, available support, continued development or a particular transfer/retention inference is still undecided. |
+| [Cognitive apprenticeship and supervised participation](https://doi.org/10.1016/j.ijme.2020.100417) | Modelling and coaching can expose expert reasoning in situated tasks; guided participation provides access to work that a text alone may not supply. Prefer this form when competent supervision and suitable tasks can supply the target contribution within the consequence and resource limits. | HCD.5 compares the development contribution, HCD.7 establishes provider and access conditions, and HCD.8 addresses an exact missing contribution. Protected or infrequent work may require bounded simulations or separately prepared cases to make the needed observation possible. The trade-off is access to situated judgement versus supervision burden and the variation actually available; the label alone cannot settle the local comparison. |
+| A learning product as the main development arrangement | A course, guide or interactive product can coordinate explanation, practice, pacing and feedback for a defined audience, and can make an already selected development design usable at scale. The Learning Product owner makes its concrete instructional and carrier decisions. | Use that product directly when it fits the person's task, entry evidence and support. HCD adds the comparison when fit, alternatives, finite burdens or later-Work evidence are unresolved, and provides a design return before particular learners are known. A course's audience assumptions remain design assumptions until the person-specific questions they matter to are answered. |
+| A generic evaluation or testing framework | A framework for claims, tasks, observations and intended interpretations helps an assessor obtain evidence for a bounded judgement. HCD.11 adapts that contribution from evidence-centred design and the [Testing Standards](https://www.testingstandards.net/uploads/7/6/6/4/76643089/9780935302356.pdf). | HCD distinguishes the development decisions that use the judgement: diagnosis, local revision, unfamiliar transfer, delay, support dependence and continuing arrangement. Direct evaluation is enough when only its bounded judgement is needed. The wider HCD combination earns its cost when the same result requires a different development response, or when the proposed assessment would change the contribution being observed. |
+
+The shared source line is therefore task- and evidence-sensitive human development. Whole tasks and expertise-sensitive support inform what to practise; feedback, retrieval, spacing and task similarity inform candidate practice changes; assessment sources qualify what can be inferred. Provider and workplace-learning sources connect learning opportunities to the conditions of participation and later Work. Each family contributes a bounded answer, not a proof that the whole local programme works. The [Source use](#source-use-and-currentness) account and each body's SoTA-Echoing section identify the specific adopted or adapted claim, population, task, support, horizon and limit. Reopen a choice when those conditions change or a serious alternative changes the next useful action; preserve unaffected source uses.
+
+## Check the combination, learn from its result and revise
+
+Recognition starts from the current difficulty and the first result that could change it. Stronger assurance begins when someone will rely on a claim of capability, transfer, retained performance, provider operation or effect. The selected body's criteria and recognition/assurance boundary govern that stronger question. At framework scope, check the connections that a local body cannot establish for the whole use:
+
+- Does each consumed result concern the intended person or bounded population, contribution, later Work and conditions, with a clear distinction between observation, design and hypothesis?
+- Does each required contribution have a feasible source, provider and time window, and does the whole combination fit learner and provider budgets including preparation, feedback, checking, retries and any delayed observation?
+- Can the intended observation distinguish the human contribution from an answer supplied by help, and can its task and domain criteria support the declared inference?
+- Do the receiving decisions preserve non-compensable errors, useful existing contributions, participation and access conditions, and the authority of their actual owners?
+- Is the first result useful enough to stop or proceed now, with an observation or changed condition that can reopen only the affected claim?
+
+The constructed applications show what those questions can change. In ImpactReview-17, a feasible probe is still worth doing before selecting a profile focus. In the L17 case, independent configuration checking survives one unfamiliar task while uncued resource adaptation remains unsupported; HCD.14 can propose a local practice change immediately. In ReleaseWork-R9, prospective demand remains useful while distinct missing observations block stronger same-holder conclusions. None of these constructed results supplies observations of a real learner.
+
+The likely practical gain is a smaller and more informative next development action: compare one missing task fragment, obtain one assessor contribution, revise one cue-dependent exercise, or retain a working arrangement until a relevant condition changes. The costs include representative task preparation, competent judgement, time for correction and evidence that sometimes requires later access. Shared observations can reduce duplicate work only when their conditions fit each receiving inference. The programme application shows how apparently useful local activities can still exceed the common budget.
+
+The engineering examples foreground explicit sources, configurable tools, auditable work products and consequential error checks. Work whose contribution is bodily, interpersonal or difficult to observe may need different representative tasks and qualified domain judgement. Learners also differ in starting evidence, language, accessibility needs, consent, available time and access to competent providers. Preserve those conditions before transferring a task or programme; keep required accessibility support in an independence test. The [clinical unlike case](#clinical-unlike-case---return-diagnosis-and-treatment-to-their-owner) demonstrates one material boundary where the specialist owns diagnosis and treatment.
+
+Use HCD.14 to test the smallest development assumption changed by an observation, with an executable change, fresh task, protected contributions and retain/adapt/abandon conditions. Use HCD.15 when subsequent Work or evidence changes require a continuing arrangement. A contradicted source claim or serious new Method alternative can reopen the bounded HCD.16 repertoire question; a changed receiving-use or retention relation among participants can reopen HCD.17. Practical revision can proceed under a proportionate reversible hypothesis while a stronger causal-effect claim remains a separate evidence question.
+
 
 
 # Part I — Human Capability Demand, Programme, Practice, Evidence, Continuation, Repertoire, and Culture
@@ -4227,6 +4300,11 @@ Before particular learners are known, the present decision concerns a learning p
 
 At the original ten learner-hours per week, the three A/B/C compositions are 340-hour candidates. If participant time falls to six hours a week, the 34-week limit becomes 204 hours. All three original designs then require revision. The author must identify which 136 hours are removed or replaced, what complete-task practice and evidence are preserved, and whether both intended outcomes remain attainable. The three over-budget candidates do not establish that a suitable 204-hour programme exists.
 
+This is a constraint on the whole proposed combination. In the original design, A allocates 202/96/42 learner hours to general/domain/joint application, B allocates 88/204/48, and C allocates 136/136/68; each totals 340. The usefulness of an individual topic, exercise or pair of contributions does not establish that all selected contributions fit the same learner's 204 hours. Each revised candidate must account once for its complete learner effort and show that the required preparation, whole-task attempts, feedback, correction and evidence can coexist within that limit. The teacher's separate contribution has its own limit and timing test below.
+
+HCD.2's useful immediate return is a comparable fragment for one complete task family. The author can retain C's available detail and develop the smallest missing A/B fragment with the same output, audience assumptions, practice, help and evidence opportunity. HCD.5/.6 explain the different development contribution; HCD.7 tests the corresponding provider demand; HCD.8 enters only for an exact gap that must be obtained or built. The resulting comparison can expose a useful substitution or a remaining constraint. It still leaves the existence of a full 204-hour programme open. Changing an intended output is a separate target decision, as illustrated by HCD.2:5.2's narrower 170-hour offer.
+
+
 Teaching capacity is another contribution account. For twelve participants, `32 × 6.5 + 2 × 16 = 240` teaching hours and `240 / 12 = 20` hours per participant are planning allocations, not twenty hours of individual teacher contact. HCD.7 must establish the actual modelling, feedback, assessment, specialist, tool, AI and checking contributions at their working times and peak load. With twenty-four participants, the same per-person checking demand either doubles the checking work or requires an explicit split or changed service design; the 240-hour label cannot simply be reused.
 
 The new programme-and-practice Methods make the design chain inspectable without turning it into a mandatory sequence. HCD.5 selects a Method from the target action, starting attempt, mechanism, task, provider, risk and evidence need. HCD.6 designs representative action-and-refusal contrasts, including compatible FW8 evidence and 24- versus 22-hour resource cases where the changed limit should change the answer. HCD.7 establishes the sources, tables, calculator, AI conditions, assessor competence, capacity, human checking and fallback. HCD.8 is used only if one exact contribution remains missing and obtaining or building it has to be decided.
@@ -4413,9 +4491,27 @@ An assisting AI or other System may contribute Work or evidence when its capabil
 
 ## Edition return
 
-**Human Capability Development Principles Framework — Seventeen-pattern first edition, 4 September 2026** designates this Readme source, its Table of Contents and presentation carrier, and exactly seventeen authoritative bodies in reader order: HCD.1, HCD.3, HCD.4, HCD.2, HCD.5, HCD.6, HCD.7, HCD.8, HCD.9, HCD.10, HCD.11, HCD.12, HCD.13, HCD.14, HCD.15, HCD.16 and HCD.17.
+**Human Capability Development Principles Framework — Seventeen-pattern first edition, 5 September 2026** designates this Readme source, its Table of Contents and presentation carrier, and exactly seventeen authoritative bodies in reader order: HCD.1, HCD.3, HCD.4, HCD.2, HCD.5, HCD.6, HCD.7, HCD.8, HCD.9, HCD.10, HCD.11, HCD.12, HCD.13, HCD.14, HCD.15, HCD.16 and HCD.17.
 
-The designation claims a complete HCD pattern set and reader carrier. It does not claim membership in the five-DPF Engineering Suite download, actual use, provider operation, performed development Work, achieved capability, cultural continuation, causal effectiveness, a receiving-case result, maintenance, or authority.
+The designation identifies the complete HCD pattern set and reader carrier. The Engineering DPF Suite includes this HCD framework alongside its other DPFs and common foundations. Actual use, provider operation, performed development Work, achieved capability, cultural continuation and causal effectiveness require the corresponding observations and decisions described here.
+
+**Description:** HCD is a pattern language for deriving human capability demand from later Work, designing and sustaining development arrangements, and judging human contribution, transfer and retention under stated task, support and time conditions.
+
+**Author:** Anatoly Levenchuk with AI-assisted development and review.
+
+**Version:** 5 September 2026
+
+**Status:** Eternal alpha: used in working development projects and open to continuing correction.
+
+**Publication:** [FPF repository](https://github.com/ailev/FPF).
+
+Eternal alpha identifies a framework open to continuing correction and development. Individual bodies retain their declared status and claim boundaries. The publication supplies practitioner guidance; evidence for its use in a particular person, provider, programme or population is established at that use.
+
+## Citation
+
+Levenchuk, Anatoly, with AI-assisted development and review. *Human Capability Development Principles Framework*. Version: 5 September 2026. [FPF repository](https://github.com/ailev/FPF).
+
+For a particular pattern, name the framework and PatternID; include the version date above when the citation must recover the body published in this version.
 
 ## Publication boundary
 

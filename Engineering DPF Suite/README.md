@@ -34,7 +34,7 @@ The public folder contains eight complete publications and two explicitly partia
 | What you are trying to do | Open | A result it can help you obtain |
 | --- | --- | --- |
 | Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 41 patterns | A system boundary, architecture decision, comparison of ways to obtain a result, integration plan, or justified release decision. It also covers general Platform Engineering and a substantial software delivery and reliability profile. |
-| Choose, explain, test or improve a way of working. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 19 patterns | An explicit method, a useful description of it, a support arrangement, or evidence about fit, transfer and practical value. |
+| Choose, explain, test or improve a way of working. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 24 patterns | An explicit method, a useful description of it, a support arrangement, or evidence about fit, transfer and practical value. |
 | Change how an organization contributes, assigns work and enables people and other performers to act. | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A compared organizational arrangement, clarified assignments and authority, a supported change, or a decision about its consequences. |
 | Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
@@ -90,7 +90,7 @@ This stable heading is retained for readers following links from earlier complet
 
 ### Publication scope
 
-The eight complete carriers expose 162 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The two partial foundations add eleven usable PatternIDs without supplying the missing bodies.
+The eight complete carriers expose 167 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The two partial foundations add eleven usable PatternIDs without supplying the missing bodies.
 
 The [Semantic Integration Engineering foundation](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) can return a bounded semantic-integration package for one receiving use. It does not supply the unavailable model-change, later change-tracing, or reusable semantic-commons methods represented by `SIE.3`, `SIE.11`, and `SIE.12`.
 
