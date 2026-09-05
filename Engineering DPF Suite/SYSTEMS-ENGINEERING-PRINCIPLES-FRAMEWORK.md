@@ -3,7 +3,7 @@
 > A domain pattern language for bringing about and changing engineered Systems, from their intended use and architecture to realization, assurance, and continuing development.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 3 September 2026
+- **Version:** 5 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
@@ -120,6 +120,12 @@ refine use, architecture, realization, configuration, assurance, and its enginee
 bounded project interval. A logical dependency still matters when one result cannot be used before another
 exists. Use the patterns to recover the actual result dependency; do not turn the order of this file into a prescribed
 project sequence.
+
+The [Preface](#preface) explains how the common engineering Methods, Platform Engineering and the selected
+software profile fit together. Use [Architectural Rationale](#architectural-rationale) when choosing or adapting
+that combination, and [Check the combined engineering answer](#check-the-combined-engineering-answer) when
+several contributions must support one decision. These explanations reuse the full patterns and the existing
+applications; the Table of Contents remains the direct route to any individual Method.
 
 ## Practical entries
 
@@ -291,7 +297,7 @@ If you use this framework, please cite:
 
 ```text
 Levenchuk, Anatoly. Systems Engineering Principles Framework.
-3 September 2026.
+5 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -315,6 +321,32 @@ developing a problem portfolio and System-family options together, developing fu
 alternatives, deciding engineering architecture, coordinating specialist returns, realizing recursively through
 builder Systems, developing the platform used by practitioners, maintaining configuration and release evidence,
 choosing changes to the project system-of-interest, its System-family option, the builder arrangement, or both for evolvability, and continuing engineering Methods.
+
+## Choose a useful result and combine its needed contributions
+
+Use SYSE when local engineering answers leave an important connection unresolved: a component works but the
+intended use is unsupported, an architecture is attractive but its realization is missing, or a test result
+does not identify the configuration and decision it can support. Seek the result that changes the next
+engineering move. Depending on the question, obtain a selected alternative, a bounded usable increment,
+a justified reliance decision, a discriminating trial, or an exact missing contribution.
+
+The patterns describe a repertoire of Methods. A project can use one Method directly or combine several.
+Start with the System, receiving use and decision that matter now. Reuse adequate concepts, configurations,
+specialist conclusions and evidence. Follow a further pattern when its result is needed, and return the result
+to the engineering decision that consumes it. For example, an obtaining comparison in `SYSE.24` can expose a
+missing provider commitment for `SYSE.18`; an actual integration result from `SYSE.11` can support, but does
+not make, the release decision in `SYSE.14`. The following sections explain these connections.
+
+The choice of Methods must accommodate useful effects, cost and time, available evidence, and consequences for
+other Systems. Preserving an option can be worth more than completing a design early; a faster local operation
+can transfer delay or risk to integration, maintenance or a user. Compare the complete arrangements that would
+produce the required result, including the work and support each retains. Use `SYSE.20` when shared resources,
+conflicting conditions or actual dependencies determine what work can overlap.
+
+If a current specialist Method or available result already answers the whole question, use it directly.
+Common Systems Engineering becomes useful when the question crosses those local answers or changes their
+receiving use. Stop when the bounded answer is sufficient; a missing premise holds only the conclusion or
+action that depends on it.
 
 ## One System can appear in several engineering structures
 
@@ -378,6 +410,12 @@ observations of later use. `SYSE.8` develops a providing-System concept when
 missing; `SYSE.18` handles independent provider decisions; `SYSE.24` compares whole obtaining arrangements.
 Sharing, self-service and a portal remain alternatives to test, not default winners.
 
+At this common Platform scope, standardizing an interaction competes with legitimate user variation;
+improving one user's task can increase provider or maintainer work. A control can reduce one risk while
+delaying feedback or blocking an authorized exception. Compare those effects for the actual user population
+and undertaking. A one-off tool use whose result and support are already adequate need not become a shared
+platform path.
+
 The Software Platform Engineering branch supplies selected professional Methods in `SYSE.30`–`SYSE.41`.
 They construct repeatable builds and trustworthy feedback; preserve verified artifacts; reconstruct environments;
 manage compatible data change; produce and test actual runtime configurations; and govern bounded exposure,
@@ -385,11 +423,30 @@ task-relevant reliability, alerts, diagnosis, repetitive burden and resource pre
 the application it delivers have different users and success meanings. The same measurement Method can be used
 for each when its conditions fit, without combining their evidence or error budgets.
 
+Faster feedback must preserve meaningful tests, appropriate environment isolation, identified build inputs and
+compatible retained state within available execution capacity. The software profile supplies the technical
+moves needed to investigate those trade-offs: for example, `SYSE.30` identifies and controls build inputs,
+while `SYSE.34` qualifies which application and data states can coexist or be recovered. A general request
+for trustworthy evidence would leave those different working moves unresolved.
+
 Enter the Method for the missing result and retain compatible existing results. Runtime deployment needs
 its own observations and deployment test after artifact verification. Application behavior and permission
 for wider exposure need the application's acceptance criteria and the release holder's decision. Recovery
 with an old executable requires data compatible with its contract. These dependencies determine which
 results are needed for the current engineering move.
+
+The software profile is a selection for particular uses, or a bounded-use projection of the SYSE repertoire.
+It reuses the common configuration, evidence, obtaining and provider Methods and adds the software Methods
+whose inputs, operations or stops differ. Common Platform Engineering applies beyond software; it is not
+obtained by renaming software objects. The seven Parts group the publication. A Method's participation in
+a profile does not by itself make it a part of another Method.
+
+Profiles can overlap. A laboratory with a software-supported instrument may need both the software build
+Methods and separate instrument, sample and measurement Methods. A further profile is useful when it changes
+what a practitioner can do, obtain or qualify in the same situation, or saves necessary source reconstruction.
+State that difference and reuse the sufficient common answer. If a narrower label changes nothing in use,
+the existing Method remains enough. This publication supplies the declared service-software repertoire;
+the professional filling for further profiles remains with its domain sources.
 
 The professional boundary remains concrete. A machining path can use the common interaction and provider
 Methods, but it still needs qualified tooling, changeover, metrology, capability and nonconforming-material
@@ -452,6 +509,103 @@ Most users should stop with the project pattern that resolves
 their current difficulty. Open `SYSE.21` only when the receiving question is deliberately to continue or change a
 Systems Engineering Method variant across a named practitioner population. Open the FPF cultural-evolution
 patterns when the claim is transdisciplinary rather than Systems-Engineering-specific.
+
+## Architectural Rationale
+
+The common language connects use, architecture, realization and evidence at the engineering decisions that
+need them together. A proposed System can have an attractive functional organization yet lack a viable
+builder arrangement; a realized configuration can pass its tests yet fail the receiving use. The repertoire
+therefore separates independently useful results and states how one result constrains or enables another.
+Observations from realization or use can reopen an earlier assumption. A project phase plan remains usable
+when it preserves those returns and the orders required by actual dependencies, physical operations and
+governing decisions.
+
+FPF distinctions and a curated standards or handbook route are a useful smaller answer when they already
+supply the needed engineering move. SYSE adds the domain work of constructing linked use and System concepts,
+complete obtaining arrangements, recursive realization and configuration-bound engineering judgements.
+Its common layer does not replace the specialist procedure that determines a material, software or regulated
+result. The [shared source account](#shared-engineering-sources-and-architectural-choices) explains the
+different roles of process scope, engineering practice and professional procedures.
+
+Platform Engineering retains `SYSE.12` for the enabling-System question and reuses `SYSE.24` for obtaining
+alternatives and `SYSE.18` for independent provider decisions. The supported-interaction, interface-change,
+control-placement and migration Methods have different first results; putting them all into one large
+platform Method would make a narrow question harder to answer. The same reason supports direct software
+bodies for a build, data change, alert or restoration question. Their detail is useful because it changes the
+operation or evidence, not because each topic needs another title.
+
+Exact external procedures remain preferable where they already answer the technical question. The software
+profile uses SLSA's consumer verification and the continuous-integration source route in `SYSE.31` rather
+than creating local substitutes for those Methods. External procedures alone do not connect the whole
+supported use: the practitioner must still reconcile artifact identity, environments, data, provider limits,
+task observations and release authority. Conversely, when only one of those results is missing, using its
+direct source or pattern is sufficient; a full build-and-delivery traversal adds no necessary result.
+
+The architecture of an actual platform remains a comparison. Retaining repaired local provision, sharing
+a bounded contribution, obtaining external provision and adding an interface can each be appropriate.
+[APP-SYSE-05](#app-syse-05---worked-application-construct-a-supported-software-build-and-delivery-path)
+keeps the repaired local and thin shared arrangements tied after their matched initial trial; developing
+the shared candidate further does not select it. This preserves a serious alternative to treating shared
+provision or a portal as the inevitable outcome of Platform Engineering.
+
+The common and software Methods are available together so that a reader can follow these real result
+dependencies without duplicating the common Methods in every profile. A focused profile can reuse that
+content while explaining its own changed conditions. Further physical and software profiles need their
+professional filling: recoverable software state, irreversible material processing and an instrument's
+measurement validity require different procedures. A new source or an unlike use that defeats a purportedly
+common move should change that move's scope or the affected profile, while the other usable contributions
+remain available.
+
+## Check the combined engineering answer
+
+Recognizing a situation, finding a Method and constructing a candidate answer do not establish that the
+System is usable or that a change is authorized. The worked applications show how to obtain and limit an
+answer; their stipulated observations are not evidence about the reader's own project. Before relying on
+a combination, ask the following questions about the intended decision.
+
+- **Do the contributions concern compatible subjects and uses?** Recover the project System and the relevant
+  configuration, variant, interval and operating conditions through the existing answers for `SYSE.1`,
+  `SYSE.13` and the patterns being used. Resolve any interpretation difference that changes whether the
+  results can be used together.
+- **Is each needed result available at the strength the decision requires?** A usable MethodDescription tells
+  the practitioner how to obtain a result. A supplied observation, model conclusion or permission must have
+  its own applicable basis. Use `SYSE.9` for a missing professional contribution; keep independent work moving.
+- **Can the required contributions hold together for this undertaking?** Reconcile interfaces, shared
+  resources, permissions, retained state and the receiving deadline. Over the same receiving horizon, count
+  all work using the same constrained capacity, including support, rework and changeover; distinguish
+  independent resources. Compatible pairs do not by themselves establish that the complete arrangement
+  can produce the required result.
+- **Whose result improves, and who bears the remaining burden or consequence?** At whole-SYSE scope, use
+  `SYSE.16` and `SYSE.17` for the relevant surrounding and affected Systems. At Platform scope, include failed,
+  abandoned and unsupported practitioner attempts in `SYSE.25`'s task evidence. In the software profile,
+  `SYSE.36` keeps platform and application users, task success and missing observations separate.
+- **What action does the evidence and authority permit now?** Reuse the applicable `SYSE.4` and `SYSE.10`
+  evidence judgements and retain `SYSE.14`'s release boundary. Software artifact verification, actual runtime
+  deployment, compatible data recovery and wider exposure need the distinct results in `SYSE.32`,
+  `SYSE.41`, `SYSE.34` and `SYSE.35` when that action depends on them. A physical path instead needs its
+  actual process, measurement, material disposition and production-acceptance results.
+
+The whole-arrangement condition is visible in
+[APP-SYSE-06](#app-syse-06---worked-application-qualify-a-machining-path-with-an-external-operation).
+Its nominal 143 machining cycles do not establish delivery of 120 acceptable brackets: measurement,
+yield, rework, coating and transport still determine the end-to-end result. The supported interface can
+nevertheless be improved while the production claim remains open. The software application likewise
+distinguishes a constructed supported path from its unresolved obtaining choice and application-exposure
+result. Each application returns the particular missing contribution rather than discarding every useful part.
+
+The examples foreground deliberate engineering projects with identifiable decisions and access to relevant
+observations. A sponsor's or provider's account may omit a future operator, an infrequent user or a System
+bearing harm. Missing access limits the conclusion; it does not make the omitted consequence harmless.
+Software-practice sources also give stronger detail for software work than for physical production. Retain
+that difference when using a common Platform Method in another domain.
+
+These questions are inherited by the common Platform language and the software profile. Reuse a sufficient
+answer when its subject, conditions and receiving use still match; examine the profile-specific difference
+when they do not. Use the affected pattern's reopen condition when a project condition changes. When a
+relied-on source changes, use `SYSE.19` to find the dependent conclusions. The practical gain is a usable
+engineering answer with a bounded next move. The cost
+is the work of reconciling contributions and obtaining the missing evidence; an isolated direct result
+should not acquire that cost unless its receiving use needs the combination.
 
 ## Scope and specialist boundaries
 
@@ -11656,7 +11810,8 @@ The team can improve the common path and obtain the separate machining, metrolog
 Use this framework for recurring common Systems Engineering difficulties that materially change decisions about
 an engineered System, its use and operational environment, problem formulations and System-family options,
 architecture, realization, enabling platform, configuration, evidence, evolvability, continuing change, or
-engineering Method. It also supplies the selected service-software platform Methods in Part VII.
+engineering Method. It also supplies the common Platform Engineering Methods in Part VI and the selected
+service-software platform Methods in Part VII.
 It is intended for engineers, engineering
 managers, architects, technical leads, specialist contributors, and assisting agents able to use the required
 FPF distinctions and domain evidence.
@@ -11672,6 +11827,19 @@ and uncertainty, sustained capability, acceptable-part delivery capacity and non
 Other physical and regulated profiles likewise retain their professional Methods. Electrical design rules,
 naval architecture, structural calculations, medical regulation, safety cases, legal or financial decisions,
 certification and organization change remain outside this selection.
+
+Further profiles can retain the common use, configuration, provider and evidence answers while requiring
+different professional results. Robotics needs the relevant simulation-to-real, calibration, operating-envelope,
+physical recovery and fleet-maintenance Methods. Laboratories need instrument and Method qualification,
+sample identity and handling, uncertainty, contamination control and scientific-validity judgements.
+Administrative enabling paths need the actual finance, personnel or procurement procedures, access and
+authority conditions. These are remaining professional obligations, not additional Methods supplied by
+a common platform description.
+
+The selected software repertoire also leaves deeper mobile and embedded toolchains, data/ML/agent-specific
+evaluation and state, distributed storage, identity and secret infrastructure, comprehensive security design
+and further service classes to their own Methods. A narrower profile may reuse appropriate existing bodies
+and add a warranted difference; this framework sets no fixed final depth for such useful specialization.
 
 For each missing result, recover the relevant practitioner, qualified Method and deciding authority.
 An omission blocks only the dependent claim or action, not every independent engineering move.
@@ -11690,6 +11858,46 @@ reopen conditions. Standards, textbooks, academic attention, vendor claims, inst
 coverage can identify candidate Methods or terminology. They do not by themselves show actual project use,
 causal effectiveness, widespread retention, or state of the art. When direct prevalence evidence is unavailable,
 label the value as an expert estimate and state its uncertainty.
+
+### Shared engineering sources and architectural choices
+
+The working synthesis combines common engineering reasoning with procedures that produce a particular
+professional result. These sources shape several patterns together, while their evidence limits determine
+what can be inherited by a profile.
+
+[ISO/IEC/IEEE 15288:2023](https://www.iso.org/standard/81702.html) supplies process scope that includes acquisition
+and supply within or outside an organization. The historical
+[NASA Systems Engineering Handbook, Rev 2 (2016)](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf)
+distinguishes realization through purchase, making, coding and reuse, together with enabling products,
+integration and verification. The synthesis retains those connected questions but makes the needed result,
+rather than a process-list position, select the next Method. `SYSE.24`'s
+[source comparison](#syse2411---sota-echoing) explains why the
+complete obtaining arrangement is compared, including internal work, provider contributions and continuing
+burden. Neither a standard's process scope nor NASA's programme setting settles a local supplier, contract
+or release decision.
+
+`SYSE.12`'s [source comparison](#syse1211---sota-and-source-use) relates
+software-work evidence to manufacturing-platform and product/process/resource accounts. Their useful shared
+contribution is the relation between an enabling System and named practitioner work. Their surveys, proposed
+models and bounded engineering-change cases do not establish one provider organization or universal platform
+architecture. This is why the common Methods compare task results and support conditions, while a profile
+supplies the professional operations and evidence that differ.
+
+DORA and CNCF's platform lines, detailed below, add task-oriented product feedback, supported interfaces and
+contextual investment. The language adapts these contributions against the alternative of measuring adoption
+or installing a portal as the improvement itself. Its software profile then combines locally described
+build, environment, data, deployment and observation Methods with exact source procedures where appropriate.
+SLSA's procedure addresses consumer verification under a configured trust basis; artifact verification does
+not establish application correctness. Runtime deployment must be performed and observed, and release needs
+its authorized decision. The source table keeps these contributions and limits visible; one branded
+practice or toolchain does not supply the whole supported use.
+
+The historical SRE lines remain useful for the particular operating distinctions and conditions retained
+here. Implementation documentation can expose a missing outcome, such as an
+inconclusive exposure result, or constrain an alert's lookback; its recency does not validate every historical
+recommendation. Use each source at the scope stated below and in the receiving body. Reopen a shared choice
+when a better-supported alternative changes the working move, or when an unlike application defeats the
+assumption being carried across profiles.
 
 ### Professional source coverage for this edition
 

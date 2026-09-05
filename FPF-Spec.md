@@ -10,7 +10,7 @@ Begin with the working question in your project; FPF helps make the reasoning ex
 
 Use the Table of Contents below to find pattern ids that match the project question. For any substantive answer, open the relevant pattern and apply its Problem frame, Solution, worked slices, and checklist to the project claim or object.
 
-The public FPF readme section after the Table of Contents provides one non-exhaustive `Practical entries` set: ordinary examples show direct one-pattern help, while selected Practical-Use Cards show extended reasoning through several pattern contributions. The examples do not bound FPF, DPF, or LPF use; the Table of Contents and direct patterns cover questions outside them. The Preface explains the cross-cutting ideas and the ordinary pattern-use rhythm. Pattern bodies carry the normative Solutions, boundaries, worked slices, and checks. Pattern form is governed by E.8; concrete pattern application and pattern-use coordination are governed by E.11.PUA and E.11.PUR when those relations are current.
+The public FPF readme section after the Table of Contents provides one non-exhaustive `Practical entries` set: ordinary examples show direct one-pattern help, while selected Practical-Use Cards show extended reasoning through several pattern contributions. The examples do not bound FPF, DPF, or LPF use; the Table of Contents and direct patterns cover questions outside them. The Preface explains the cross-cutting ideas and the ordinary pattern-use rhythm. **Big FPF Storylines** connects a worked question to the framework's Architectural Rationale, shared sources, profile choices and whole-combination conditions. Pattern bodies carry the normative Solutions, boundaries, worked slices, and checks. Pattern form is governed by E.8; concrete pattern application and pattern-use coordination are governed by E.11.PUA and E.11.PUR when those relations are current.
 
 # Table of Contents
 
@@ -47,7 +47,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | Architecture As Structure Of Holons | full text | Explains architecture as selected structures of a holon in context rather than the diagram or document that describes them. |
 | Boundary Statements | full text | Shows where language carries commitments, admissibility, evidence, gates, and other boundary claims. |
 | Raising Semantic Precision | full text | Explains ontology-first restoration from overloaded wording to explicit kinds, relations, slots, and admissible uses. |
-| Big FPF Storylines | full text | Collects the load-bearing commitments that make the framework more than a disconnected pattern list. |
+| Big FPF Storylines | full text | Follows a report-review inquiry through qualified evidence, a shared-resource shortfall and the next probe; explains Architectural Rationale, direct entry, profiles, shared source synthesis, alternatives, costs and changed-condition reuse. |
 | Transdisciplinarity As A Meta-Theory Of Thinking | full text | Shows how shared distinctions can connect disciplines without flattening their bounded meanings. |
 | The Culinary Architecture Of Collective Thought | full text | Uses an assembly analogy to explain why familiar ingredients still need an explicit architecture and quality discipline. |
 | The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
@@ -765,7 +765,7 @@ FPF is most useful when the cost of semantic drift, premature convergence, hidde
 
 Start with one of the ordinary examples or one of the cross-pattern cards when it recognizes the current project question. A direct example is enough when one pattern can return the needed result. A card helps when the answer must retain several pattern contributions, checks, and returns. If no example fits, use the Table of Contents or ask an assisting agent to compare a small plausible set of direct patterns. The examples are not a list of all questions FPF can help with.
 
-Use the `Preface` for the cross-cutting ideas. Use the selected pattern body for its `Solution`. Once one pattern is current, use `E.11.PUA` to follow that `Solution` to the smallest useful result or an honest missing-basis stop. Name a receiving use only when an actual continuation or later reliance is current. Use `E.11.PUR` when applicability, recommendation, coordination, or ordering among candidate pattern uses is the current question. Keep an ordinary reversible judgement conversational; make it addressable only when a named later use needs that support.
+Use the `Preface` for the cross-cutting ideas. Its **Big FPF Storylines** section follows a report-review question through measurement, assurance, a shared-capacity condition and further inquiry. The Architectural Rationale there explains the choice of direct patterns, combinations and profiles, with shared source contributions and their limits. Use the selected pattern body for its `Solution`. Once one pattern is current, use `E.11.PUA` to follow that `Solution` to the smallest useful result or an honest missing-basis stop. Name a receiving use only when an actual continuation or later reliance is current. Use `E.11.PUR` when applicability, recommendation, coordination, or ordering among candidate pattern uses is the current question. Keep an ordinary reversible judgement conversational; make it addressable only when a named later use needs that support.
 
 If you use an AI assistant, attach or index `FPF-Spec.md` and ask for plain-language project help first. Let internal pattern names enter only when they make the answer more precise.
 
@@ -952,7 +952,7 @@ Local closure also does not license ceremony. Before a method, route, or review 
 
 ## FPF As An Evolutionary Architecture For Thought
 
-A method of thinking is itself a system. It can be brittle, ad hoc, and dependent on the memory of a few people. Or it can be architected so that reasoning can grow, change, and remain reviewable.
+A team can organize its reasoning so that a changed model, new finding, or departing colleague leaves other useful results recoverable. Its participants, reusable Methods, shared descriptions, and actual Work each have a structure and a different way of changing. FPF helps the team keep those differences visible while improving the arrangement.
 
 FPF is an evolutionary architecture for thought. It is not a static inventory of concepts. It is an architecture of patterns, relations, checks, publication units, and improvement loops that can evolve as new problems, domains, AI tools, and state-of-the-art lines appear.
 
@@ -1137,22 +1137,55 @@ The success condition is not "the text now sounds precise". The success conditio
 
 ## Big FPF Storylines
 
-Several commitments make FPF more than a collection of patterns.
+FPF connects ways of asking a question, developing an answer, testing its support and using it in further work. The connection matters when one sound local result leaves the next participant unable to act: the measurement concerns a different population, a candidate needs unavailable support, or a useful explanation omits the condition under which it holds. Start with that receiving question and use only the contributions needed to answer it.
 
-1. Holons give one root for systems, bodies of knowledge, organizations-as-systems, publication systems, work occurrences, disciplines, methods, and other admitted entities that can be treated as wholes and parts. A local system-role kind is instead a context-local `U.Kind`; it is not a holon by kind identity.
-2. The project entity under concern and its description are kept distinct so descriptions, views, diagrams, publications, and carriers do not replace what they describe.
-3. Context keeps meaning local, while bridges and term sheets let meanings travel without collapse.
-4. A local system-role kind, system-role assignment, method, plan, performed work, evidence, decision, and gate are different project objects or relations.
-5. Architecture is structure of holons, and architecture descriptions are descriptions of that structure.
-6. Evidence and assurance are first-class, so trust is not reduced to confidence prose.
-7. Comparison and improvement are evaluable only with declared characteristics, scales, candidate sets, and current comparator fields.
-8. Creativity is governed search over candidate possibilities, not an uninspectable burst of inspiration.
-9. State of the art is a refreshable publication object, not a frozen leaderboard.
-10. Semantic precision starts from ontology and, when useful, from mathematical modeling that preserves declared structure, not from synonym replacement.
-11. Pattern publication is itself part of the thinking architecture: patterns, DRRs, checks, and improvement loops keep FPF evolvable.
-12. Didactic primacy keeps the whole structure usable by working readers rather than only by authors of the specification.
+### Follow one question through several contributions
 
-These storylines are connected. Architecture needs characteristics. Characteristics need comparison. Comparison needs evidence. Evidence needs publication and source-use discipline. Language repair needs ontology. Ontology often benefits from a mathematical lens. Improvement needs state-of-the-art comparison. FPF's value comes from the composition.
+Consider a constructed example. A team is deciding how to help engineers review technical reports. A purchased assistant and a locally operated assistant remain candidates. The local candidate appears faster on the small set tried so far. The current question is whether that is enough to begin relying on the proposed review arrangement.
+
+Use `C.16` to make the reported speed interpretable: which reports, which part of review, which assistance, which result, and which uncertainty does it cover? A time for extracting passages leaves open the time for checking their relevance and correcting errors. Use `B.3` when the next decision needs an assurance answer: what exact claim does that trial support, what could defeat it, and which reports or operating conditions remain outside its basis? If the trial omitted reports containing tables, retain its result for the tested class and name the table-handling question for a further probe.
+
+The proposed arrangement also needs extraction, independent checking and final release review. Suppose their estimated weekly demand on the same engineer is respectively 3, 8 and 4 hours, while only 10 hours are available. The estimates apply to the same workload and the hours cannot be shared between these activities. Each activity fits individually; together they require 15 hours. The useful whole-arrangement result is a five-hour shortfall. The team can reduce the workload, provide additional qualified capacity, or change the arrangement and compare again. A better extraction time alone does not close that resource condition.
+
+`B.1.5` becomes relevant if the team is also designing these contributions as one reusable Method: it asks how the part Methods, preconditions, results, order and failure handling make the whole action possible. For the present capacity question, the explicit workload and resource comparison are sufficient. The sequence written in a proposal supplies no additional evidence that the arrangement works.
+
+With these two candidates and the missing table-handling comparison, use `C.11` when the team must decide whether another bounded probe is worth its cost before choosing. The proposed probe must be able to change that choice; the current candidate descriptions and qualified results remain available. A different question arises when the team needs a continuing research archive, a front or generation of further possibilities: `C.18` then supplies that contribution. Use `C.19` when the team must decide or reassess the exploration or exploitation policy for its still-live pool, such as the allocation of effort across several continuing lines. The local choice can proceed directly when neither of those broader questions is current.
+
+This example ends with three usable results: a qualified reading of the existing speed result, an explicit five-hour capacity shortfall, and a specific missing comparison. It leaves the deployment decision open. A later addition of qualified capacity changes the resource conclusion; a failure on tables changes the affected claim about report handling. Neither event erases the result on the original report class. This is how a reader can combine FPF contributions and then reopen only what a changed premise affects.
+
+Inquiry can stop earlier. A laboratory may need to explain why several performances differ before it has any preferred intervention. `A.3.1.MR` helps recover a candidate reusable way from the performance evidence; a counterexample can leave the candidate unresolved and identify what to observe next. The useful result is then a sharper hypothesis and discriminating observation. Choosing or deploying a solution becomes current only when the research question and evidence make that next move useful.
+
+### Architectural Rationale
+
+The organization supports several useful scales. A practitioner may apply one pattern, use several contributions together, or develop a recurring domain Method described by many patterns. A professional DPF supplies the domain difficulties, mechanisms, evidence and judgement; a local LPF supplies the arrangements of a particular practice. A narrower profile can reuse several broader contributions and explain its changed conditions. Further useful narrowing remains possible. Pattern reuse, Method composition, specialization and publication grouping therefore need their own stated relations. The depth of a heading or the number of patterns gives the reader no substitute for those explanations.
+
+An individually addressable pattern lets a reader inspect the Problem frame and Solution at the point of need. The whole account explains the connections, shared conditions and reasons that would otherwise have to be reconstructed from many bodies. The two scales have different reading costs: a direct answer is cheaper for one familiar question; the broader explanation helps when a reader must adapt the arrangement or understand why several local answers fail together. `E.11.PUA` supports the selected direct use and `E.11.PUR` the current choice or coordination among uses.
+
+A single prescribed project sequence is a serious alternative when the same regulated or reproducible procedure must be followed repeatedly. FPF instead keeps the contribution structure open to direct entry because research, engineering, operations and management repeatedly need different first results. A local practice can select a required procedure and its assurance conditions. `A.11.OP` keeps additional mandatory actions tied to a real decision, selected result or relied-on assurance/recovery condition.
+
+A shared vocabulary alone is another useful alternative when classification is the entire problem. FPF pairs the distinction with the difficulty, usable move, evidence and limits because a team usually needs to do something with the classification. A collection of independent best-practice summaries is cheaper to assemble, but the receiving user must then reconcile their meanings, assumptions and result uses. FPF makes those relations explicit where that reconciliation changes action. When one existing domain Method already answers the question sufficiently, use it directly; the benefit of an additional FPF contribution must exceed its reading and coordination cost.
+
+This architecture also explains the separation between descriptions and their subjects. An alternative can be considered before it is realized; the same Method can be described in prose, diagrams or another suitable medium; several views can answer different questions about the same system. `A.3.2` governs an exact MethodDescription claim, and the `E.17` family governs the relevant view and publication uses. This allows a representation to improve without treating every publication change as a change to the described Method or system.
+
+### Shared sources and the choices they support
+
+FPF uses source traditions for particular answers and states the adopted contribution in the subject pattern. The following connections explain why several families work together. The direct bodies retain the precise source editions, stronger technical conditions and refresh triggers.
+
+Constructional ontology contributes a demand to explain constituents, construction and identity. `A.1` adapts Florio and Linnebo's construction-sensitive account and the applied choices discussed by Borgo and Righetti; it keeps part relations and whole recognition explicit instead of importing an external category system wholesale. `B.1.5` carries the corresponding question into Method composition and also adapts scoped-effect and protocol work: usable joins depend on preconditions, order, boundary interactions and failure routes. This combination helps a reader test a proposed whole while keeping its diagram and description separately inspectable.
+
+Measurement and assurance supply different parts of an evidence-based answer. `C.16` adopts the JCGM VIM result boundary and adapts GUM measurement-model discipline so that the reported value, relevant information, assumptions and uncertainty can be recovered. `B.3` adapts the claim-argument-evidence structure of ISO/IEC/IEEE 15026-2 and GSN to the particular reliance question. Its dependence-sensitive calculation also rejects a universal weakest-link arithmetic. Together they let the report-review team ask both what a time value means and how far the trial supports the proposed use. The measurement source supplies no release authority; that question has its own participant and governing rule.
+
+Open-ended search and sequential decision research explain why exploration is kept beside assurance. `C.18` uses quality-diversity research to distinguish retained alternatives, current fronts and generation of further possibilities; its source account states the limits of inferring useful exploration from archive occupancy. `C.19` draws on bandit and Bayesian-optimization work for explicit cost, uncertainty and policy-change pressures. FPF keeps those contributions while leaving the actual algorithm and domain evaluator to their justified use. An attractive archive or one high novelty value does not establish the usefulness of the next experiment.
+
+The synthesis is use-specific: construction explains what whole is proposed, measurement makes a relevant observation interpretable, assurance qualifies reliance, and search preserves alternatives or asks for another result. A successor source matters when it changes one of those answers. `G.11` returns the affected use to that source; `E.19` and `E.23` support preservation and improvement of the resulting pattern content. This lets stronger knowledge change the framework without requiring every unaffected practitioner result to be obtained again.
+
+### What to examine when adapting the arrangement
+
+For a combined use, ask whether the outputs still answer the receiving questions, whether shared workload and resource assumptions are compatible, which missing premise changes the result, and what remains usable if that premise changes. Keep the whole-set condition where that combination is explained and use the relevant direct pattern for its technical test. The 15-hour example shows why locally acceptable contributions can still require a different joint decision.
+
+The examples here assume readers who can supply subject expertise and recognize relevant evidence. A fluent assistant or an experienced engineer can conceal missing explanatory support that a new learner needs. The reader can use a bounded walkthrough to test recoverability of an answer; claims about learning, retention or transfer require observations suited to those claims. Likewise, engineering and software source examples indicate particular contributions; applicability in a laboratory, organization or other setting depends on its own mechanisms and evidence.
+
+Using the arrangement costs attention and, when later reliance needs them, addressable source and result records. Its practical gain is that a new participant can find why a result was used, what it enables and what would change the answer. Stop when the current question has that useful answer or an explicit missing premise. Keep unresolved questions available for later inquiry rather than adding a pattern use merely to complete a familiar sequence.
 
 ## Transdisciplinarity As A Meta-Theory Of Thinking
 

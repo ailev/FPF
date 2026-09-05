@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 4 September 2026
+- **Version:** 5 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
@@ -27,7 +27,7 @@ You can read this way yourself, use a pattern in a working meeting, or ask an AI
 
 ## Choose a DPF
 
-The public folder contains seven complete first editions and two explicitly partial foundations. Start with the working question nearest to yours. Each complete carrier provides its full searchable pattern index; each partial carrier names the PatternIDs that are still unavailable.
+The public folder contains eight complete publications and two explicitly partial foundations. Start with the working question nearest to yours. Each complete carrier provides its full searchable pattern index; each partial carrier names the PatternIDs that are still unavailable.
 
 ### Complete first editions
 
@@ -40,6 +40,7 @@ The public folder contains seven complete first editions and two explicitly part
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
 | Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 20 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
 | Derive and develop one person's capability for representative later work. | [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A supported demand, target or profile; a compared development programme; representative practice and support; performance, transfer or retention evidence; or a continuing-development decision. |
+| Construct a useful development opportunity, or advise a person, organization or other developing subject. | [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded inquiry, characterized change, candidate direction with its supports, joint-reachability result, retained opportunity, or qualified advising engagement. PSD supplies the actual comparison and recommendation when those are needed. |
 
 ### Partial foundations
 
@@ -54,10 +55,11 @@ When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SU
 
 ## Looking for development recommendations?
 
-Open PSD's [Development-direction advising profile](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-advising-development-direction-advising). It connects the methods used to advise a person, an organization or another developing system. The facts and development methods differ by subject; the profile helps you obtain the relevant inputs and turn them into advice.
+Open [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) for the development-specific question. Its two branches can be used independently.
 
-If you have not yet formed useful opportunities, start with [Construct a Bounded Development Opportunity](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-opportunity-construct-a-bounded-development-opportunity). If the alternatives and comparison are already adequate, [PSD.13](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-13) may be enough to prepare the recommendation.
+If useful opportunities are missing, start with [DOCA.1](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca1---bound-the-development-opportunity-inquiry) or the first missing construction result in its pattern index. To establish the terms of help from an adviser, use [DOCA.7](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca7---bound-the-development-direction-advising-engagement). When the inputs and service boundary are already adequate, go directly to the missing comparison or recommendation method: [PSD.13](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-13) may be enough. [DOCA.8](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca8---requalify-changed-development-opportunities) helps requalify opportunities after their premises change.
 
+For a particular person's programme comparison, use [HCD.2](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-capability-development-programmes-for-later-work) once the relevant demand, starting performance, support and candidate programmes are available. The Reference also provides a separate [programme-design entry for future learners](ENGINEERING-DPF-SUITE-REFERENCE.md#recommend-a-programme-before-the-learners-are-known).
 For example, “What should our engineering team learn or change over the next four months?” calls for evidence about the work it needs to perform, present limits, feasible alternatives and opportunity costs. A course is one possible response. The inquiry can also reveal a method, tooling or organizational change that would help more. The Reference explains [how to connect advice with those domain results](ENGINEERING-DPF-SUITE-REFERENCE.md#how-do-we-recommend-a-development-direction).
 
 ## Work with an AI assistant
@@ -88,7 +90,7 @@ This stable heading is retained for readers following links from earlier complet
 
 ### Publication scope
 
-The seven complete carriers expose 153 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The two partial foundations add eleven usable PatternIDs without supplying the missing bodies.
+The eight complete carriers expose 162 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The two partial foundations add eleven usable PatternIDs without supplying the missing bodies.
 
 The [Semantic Integration Engineering foundation](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) can return a bounded semantic-integration package for one receiving use. It does not supply the unavailable model-change, later change-tracing, or reusable semantic-commons methods represented by `SIE.3`, `SIE.11`, and `SIE.12`.
 
@@ -106,7 +108,7 @@ To cite the collection:
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite.
-4 September 2026.
+5 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 

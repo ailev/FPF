@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 4 September 2026
+- **Version:** 5 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
@@ -30,7 +30,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
 | [Citation](#citation) | Cite this Reference or a particular pattern application. |
 
-The question index is designed for lookup while work is under way. The seven complete carriers provide their full searchable tables of contents. This Reference also exposes every currently available PatternID in the SIE, OPS, HCD and RMP additions: SIE has nine available bodies with `SIE.3`, `SIE.11` and `SIE.12` absent; OPS.1-OPS.20 and HCD.1-HCD.17 are complete first editions; RMP has `RMP.1`-`RMP.2` with `RMP.3`-`RMP.9` absent.
+The question index is designed for lookup while work is under way. The eight complete carriers provide their full searchable tables of contents. This Reference also exposes every currently available PatternID in the SIE, OPS, HCD and RMP additions: SIE has nine available bodies with `SIE.3`, `SIE.11` and `SIE.12` absent; OPS.1-OPS.20 and HCD.1-HCD.17 are complete first editions; RMP has `RMP.1`-`RMP.2` with `RMP.3`-`RMP.9` absent.
 
 ## Find a starting pattern
 
@@ -47,7 +47,7 @@ Choose the row that matches the question you need to answer. Several patterns in
 | What matters in the choice, and what might change the comparison? | [PSD.9 - Represent Values and Trade-Offs](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-9), [PSD.10 - Represent Decision-Relevant Uncertainty and Evidence Limits](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-10), [PSD.11 - Compare Consequences](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-11), [PSD.12 - Test Robustness and Sensitivity](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-12) | Explicit values and trade-offs, useful uncertainty statements, compared consequences, and sensitivity to assumptions. |
 | What can we responsibly recommend now? | [PSD.13 - Prepare and Return a Decision-Support Recommendation](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-13) | A recommendation, retained alternatives, a worthwhile probe, a precise request for missing evidence, or a justified abstention. |
 | When should earlier advice be reconsidered? | [PSD.14 - Prepare and Use a Decision Follow-up Arrangement](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-14) | Observations and responsibility for following up the advice, with the premises whose change would matter. |
-| How do we find and advise on a development opportunity? | [Development-direction advising](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-advising-development-direction-advising) and [opportunity construction](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-opportunity-construct-a-bounded-development-opportunity) | An opportunity supported well enough to investigate, or development advice based on the subject's circumstances and the relevant specialist results. |
+| How do we find and advise on a development opportunity? | [DOCA.1 - Bound the Development-Opportunity Inquiry](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca1---bound-the-development-opportunity-inquiry), [DOCA.7 - Bound the Development-Direction Advising Engagement](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca7---bound-the-development-direction-advising-engagement), [DOCA.8 - Requalify Changed Development Opportunities](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca8---requalify-changed-development-opportunities) | A useful inquiry, qualified terms for development advice, or a requalified opportunity after its premises change. Enter at the missing result; PSD retains comparison and recommendation. |
 
 ### Engineer a system or a platform
 
@@ -245,9 +245,9 @@ Once the applicable policy and resource basis are adequate, OPS.5–OPS.7 can an
 
 An engineer asks what to develop next; a company asks which capability to build; a programme author asks what participants should learn within a limited time. Each needs advice about development, but the facts and methods that make an option feasible differ.
 
-For advice to a developing person or organization, use the [Development-direction advising profile](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-advising-development-direction-advising). For advice to a programme author, begin with [PSD.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-1) and the programme-design case below. Establish who needs the advice, what decision it supports and who will make that decision. A formed, uncontested question can enter advising directly. Use PSD's problem-structuring methods when disagreement or an inadequate formulation prevents useful advice.
+For advice to a developing person or organization, use [DOCA.7](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca7---bound-the-development-direction-advising-engagement) when the advising relationship needs qualification. Establish who receives the advice, what decision it supports, the adviser's competence, information-use conditions and who will make the choice. Reuse adequate terms and enter the missing advice contribution directly. For advice to a programme author, begin with [PSD.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-1) and the programme-design case below. Use PSD's problem-structuring methods when disagreement or an inadequate formulation prevents useful advice.
 
-If useful opportunities have not yet been formed, use [Construct a Bounded Development Opportunity](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-opportunity-construct-a-bounded-development-opportunity). It helps investigate nearby possibilities, the problems they could address, required support and dependencies, achievable intermediate results, and what would distinguish a promising opportunity from an attractive description. This method can be used independently of an advising engagement.
+If useful opportunities have not yet been formed, enter [DOCA's construction branch](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca-construct-opportunity--find-a-contribution-before-choosing-a-course-or-tool). [DOCA.1](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca1---bound-the-development-opportunity-inquiry) bounds the inquiry; the later construction patterns help characterize the subject, search neighboring possibilities, identify a worthwhile contribution, construct directions with their supports and test joint reachability. Start at the first missing result and stop when it is useful. This branch can be used independently of an advising engagement.
 
 Bring back the specialist facts that could change the recommendation:
 
@@ -258,6 +258,8 @@ Bring back the specialist facts that could change the recommendation:
 | An AI or mixed performing arrangement | Evaluation of the relevant configuration and task, access and integration conditions, oversight, safety and evidence about actual performance. Obtain these from the appropriate technical practice. |
 
 With the needed inputs, apply the PSD comparison patterns that fit the remaining questions. [PSD.9](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-9) makes values and protected conditions explicit; [PSD.10](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-10) distinguishes consequential uncertainty; [PSD.11](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-11) compares consequences; [PSD.12](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-12) tests what could reverse the result. [PSD.13](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-13) prepares the strongest recommendation the evidence supports, and [PSD.14](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-14) sets up useful follow-up.
+
+When a premise of a constructed opportunity changes, use [DOCA.8](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca8---requalify-changed-development-opportunities) to identify and requalify the affected uses. PSD.14 remains the return for affected advice. Keep the still-supported inputs and independent conclusions.
 
 For a four-month development programme, for example, establish the later work participants should perform, their starting abilities, available practice and support, and the opportunity cost. Compare plausible programmes and other interventions on that basis. A named budget or a list of interesting topics is not enough to justify the learning design; the programme needs its own practice, assessment and transfer methods.
 
@@ -378,7 +380,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-4 September 2026.
+5 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
