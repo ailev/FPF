@@ -51378,7 +51378,7 @@ Use this pattern when a team must say something practical about the health, matu
 
 ### C.21:1 - Problem Frame
 
-Disciplines aggregate changing epistemes, practices, standards, institutions, and Work. Teams routinely say “replication is improving,” “the field is fragmented,” or “standards are converging.” Such a sentence can be useful before it becomes a dashboard row, but any relied-on comparison needs exact Characteristic, Scale, measurement, scope, and basis semantics.
+A discipline can persist as its constituents and associated epistemes, practices, standards, institutions, and Work change. Teams routinely say “replication is improving,” “the field is fragmented,” or “standards are converging.” Such a sentence can be useful before it becomes a dashboard row, but any relied-on comparison needs exact Characteristic, Scale, measurement, scope, and basis semantics.
 
 C.21 therefore treats health as a vector of separately typed coordinate claims. It does not imply one scalar health value. A threshold or target band is an acceptance declaration under G.4, not part of the Characteristic. A dashboard is a representation over already constituted claims, not their ontology or authority.
 
@@ -51400,7 +51400,7 @@ Five recurrent failures make discipline-health claims unreliable:
 | Readable minimum vs replay | One ordinary claim should be cheap; a numerical comparison or reusable series needs enough identity to be repeated. |
 | Ordinal vs interval or ratio | Ranks and categories invite illegal arithmetic. |
 | Formal status vs actual adoption | Approval by a standards body and use by a population can vary independently. |
-| Direct comparison vs cross-local relation | Compatible readings compare directly; distinct local senses add a directional relation and its loss. |
+| Direct comparison vs cross-local relation | Compatible readings compare directly; a comparison that relies on a cross-local semantic relation needs its truth, bounded use, and loss account established separately. |
 | Recency vs stability | Health changes through time; a trend needs explicit windows and current definition editions. |
 | Evidence vs publication | Support, measurement, series content, dashboard representation, and audience availability answer different questions. |
 
@@ -51416,7 +51416,7 @@ Five recurrent failures make discipline-health claims unreliable:
 | `DHCDefinitionSet` when a reusable selection is needed | One C.2.1 episteme about the already identified discipline. Its ClaimGraph states the intended use and selects exact Characteristic, Scale, Unit, and measurement-definition editions. | A slot-set kind, the discipline, or a publication. Ordinary one-coordinate use needs no such episteme. |
 | `DHCMethodRef.edition` | The existing C.16 measurement-definition value for one Characteristic and Scale. It resolves the exact `U.Method`, any `U.MethodDescription` edition, model, calibration basis, uncertainty treatment, construction, and time or population policy used by the reading. | The Method, MethodDescription, measurement Work, or result. |
 | DHC coordinate result | A C.16 measurement result and, when persisted as a claim, one C.2.1 result episteme about the discipline. | A time-series publication, dashboard row, or acceptance decision. |
-| `DHCSeries` when repeated use needs one | One C.2.1 episteme whose EntityOfConcern is the discipline and whose ClaimGraph orders exact coordinate-result episteme refs by window under one intended use, ClaimScope, comparison basis, and definition basis. Content change creates another episteme edition under the applicable edition rule. | A publication occurrence, form, carrier, table, or the Work that assembled it. |
+| `DHCSeries` when repeated use needs one | One C.2.1 episteme whose EntityOfConcern is the discipline and whose ClaimGraph orders exact coordinate-result episteme refs by window under one intended use, ClaimScope, comparison basis, and definition basis. Changed claim content identifies another episteme; historical continuation is tested separately under C.2.1's applicable edition rule. | A publication occurrence, form, carrier, table, or the Work that assembled it. |
 | dashboard row or slice | A C.29 or G.12 representation over exact result or series refs. | The result, evidence, series episteme, publication, or discipline. |
 | publication occurrence | An obtaining E.24.PUB availability relation among one selected episteme edition, audience declaration, bounded-use declaration, form, carrier, and availability interval. | Rendering, upload, release, measurement, or series-assembly Work. |
 
@@ -51444,7 +51444,7 @@ Each bullet below names one exact Characteristic and Scale family. A DHC use sel
 
 3. **PracticeAdoptionRate** — ratio in `[0,1]`; Unit `adopting_units/eligible_units`. Declare the population, adoption criterion, observation window, and treatment of partial adoption. Higher means wider observed adoption, not automatically better health or SoTA.
 
-4. **AlignmentDensity** — ratio; Unit `obtaining_relations/100_compared_cells`. Count only exact obtaining F.9 relations in the declared F.17 cell set. Each counted relation has direction, admitted use, and loss. A higher value means denser declared alignment for that set; any health band belongs to G.4.
+4. **AlignmentDensity** — ratio; Unit `obtaining_relations/100_compared_cells`. Count only exact obtaining directed F.9 relations in the declared F.17 cell set. For each counted relation, state its orientation and admitted-use qualifier; keep observed loss in its evidence account, separate from any bounded-use claim under section 4.2. A higher value means denser declared alignment for that set; any health band belongs to G.4.
 
 5. **DisruptionBalance** — interval reading over one exact disruption/consolidation method and corpus. Polarity is target-is-best, using an explicit target-band distance rule; the band belongs to G.4 Acceptance.
 
@@ -51471,8 +51471,8 @@ When either extension is active, add a short explanation naming the current clai
 #### C.21:4.2 - Comparison and legality rules
 
 1. **Direct same-semantics comparison.** Compare readings directly when C.16's conservative conditions hold: the same measurement definition, Characteristic, Scale and Unit semantics, compatible model and calibration regime, and compatible time or population basis. Record the admitted comparison basis. Different source labels or editions alone require no Bridge.
-2. **Cross-local comparison.** When the use actually relates distinct F.17 local senses, additionally cite the exact obtaining F.9 relation, direction, admitted use, and loss. Any justified consequence affects R only. The relation supplies none of ClaimScope, measurement, comparison, or acceptance semantics.
-3. **Reference-plane crossing.** When a reading is used across distinct world, concept, or episteme planes, cite the exact crossing basis. Any assurance consequence affects R only. A dashboard row or source label does not establish the crossing.
+2. **Cross-local comparison.** When a comparison relies on a semantic relation between distinct F.17 local senses, cite the exact obtaining F.9 Bridge only after its predicate and dependencies hold. Keep its separate C.2.1 bounded-use claim, with the use, direction, correspondence rule, permitted-loss tolerance, and polarity, distinct from observed loss and current reliance. Follow F.9's A.10 reliance branch or, for an actual named assurance claim, its B.3 branch for the same bounded use. If the assurance use requires an R adjustment, cite the applicable domain model and keep the adjustment in that use's AssuranceResult. The relation supplies none of ClaimScope, measurement, comparison, or acceptance semantics.
+3. **Reference-plane crossing.** When a reading is used across distinct world, concept, or episteme planes, cite the exact crossing basis. Any R adjustment follows the named assurance-use and domain-model condition in rule 2. A dashboard row or source label does not establish the crossing.
 4. **Cross-scale transformation.** A conversion, normalization, distance, or aggregate names its exact Method, Scale, legal operation, and loss or uncertainty. No common scale is inferred from similar labels.
 5. **Freshness.** A persisted or reused coordinate carries its observation window and applicable currentness rule. Staleness leads to the receiving pattern's degrade, abstain, or reopen result; it does not rewrite the historical measurement.
 6. **Target bands.** “Target-is-best” is not “higher-is-better.” A comparison to a band uses an explicit distance-to-band rule and leaves the G.4 threshold separate.
@@ -51492,7 +51492,7 @@ State the discipline, intended use, one Characteristic, the ClaimScope, comparis
 
 #### C.21:5.2 - Measurement, comparison, or aggregation
 
-Open C.16 when an actual measurement is claimed. Make the DHC replay basis recoverable, identify measurement Work and result separately, and apply A.18 legality. For direct comparison use the same-semantics branch in section 4.2. For distinct local senses add the exact F.9 branch. Open G.0, A.19, normalization, distance, evidence-reliance, or assurance only when the operation or receiver actually consumes it.
+Open C.16 when an actual measurement is claimed. Make the DHC replay basis recoverable, identify measurement Work and result separately, and apply A.18 legality. For direct comparison use the same-semantics branch in section 4.2. For a comparison that relies on a cross-local semantic relation, add the exact F.9 branch. Open G.0, A.19, normalization, distance, evidence-reliance, or assurance only when the operation or receiver actually consumes it.
 
 #### C.21:5.3 - Reusable series, dashboard, or publication
 
@@ -51512,7 +51512,7 @@ One claim reports `EvidenceUnitResolution = claim` under `ClinicalClaimSegmentat
 
 #### C.21:6.3 - Software performance engineering: explicit cross-local use
 
-The compared cells are `OpenTelemetry:SLO/latency-objective@E4` and `VendorB:SLO/service-level-target@E7`. Relation `F9-SPE-SLO-12` obtains from the OpenTelemetry cell to the VendorB cell for the admitted use “compare service-latency objective coverage in the 2026 survey.” Its loss note says the target cell permits a different rolling-window convention, so only rows with the aligned 30-day window enter the comparison. That directed relation is one counted member of the declared AlignmentDensity cell set; it does not make all tracing-ecosystem readings comparable.
+The compared cells are `OpenTelemetry:SLO/latency-objective@E4` and `VendorB:SLO/service-level-target@E7`. For this example, take `F9-SPE-SLO-12` as an independently established directed F.9 Bridge from the OpenTelemetry cell to the VendorB cell under a satisfied predicate profile. A separate C.2.1 bounded-use claim states suitability for “compare service-latency objective coverage in the 2026 survey” in that direction, using only rows with the aligned 30-day window and tolerating no rolling-window mismatch. The evidence loss note records that the target cell permits a different rolling-window convention; the comparison still requires current A.10 reliance on the bounded-use claim. That directed relation is one counted member of the declared AlignmentDensity cell set; it does not make all tracing-ecosystem readings comparable.
 
 #### C.21:6.4 - Decision-making: entropy and concentration stay separate
 
@@ -51546,7 +51546,7 @@ C.21 counters dashboard, standard-status, popularity, and pseudo-precision bias.
 | `CC-C.21-3` | A minimal readable claim may stop without a definition set, EvidenceGraph, registry, dashboard, or publication apparatus. |
 | `CC-C.21-4` | Every persisted, compared, aggregated, or published coordinate carries the active DHC replay basis; no generic “metric edition” substitutes for an exact object. |
 | `CC-C.21-5` | Characteristic, Scale, Unit, polarity or target rule, and legal operations are coherent. Ordinals are not averaged and Units are not mixed. |
-| `CC-C.21-6` | Direct comparison uses C.16's compatible-semantics branch. F.9 is required only for actual distinct-local-sense use and then carries direction, admitted use, and loss. |
+| `CC-C.21-6` | Direct comparison uses C.16's compatible-semantics branch. A comparison that relies on a cross-local semantic relation keeps the obtaining F.9 relation, its separate bounded-use claim, observed loss, and current reliance distinct as specified in section 4.2. |
 | `CC-C.21-7` | Formal recognition and actual adoption or convergence are separate Characteristics; neither rank proves health or SoTA. |
 | `CC-C.21-8` | EvidenceUnitResolution, ClaimsPerArtifact, and SupportAnchorsPerClaim are separate; their constructions and Units are not interchanged. |
 | `CC-C.21-9` | Entropy and concentration are separate, with opposite directions explicit; any transformation and receiving Scale are declared. |
@@ -51609,7 +51609,7 @@ Minimal DHC claim
 Only if measurement, comparison, or aggregation is current
   DHC replay basis: <active exact refs and editions from C.21:4.0a>
   TargetSlice: <optional; only if consumed, with relation to ClaimScope>
-  Comparison branch: <direct compatible semantics | exact F.9 relation + direction/use/loss>
+  Comparison branch: <direct compatible semantics | exact F.9 relation + separate use/direction/rule/tolerance claim + loss evidence + current reliance>
   Legal operation or target-distance rule: <exact ref>
 
 Only if a reusable series, dashboard, or publication is current
@@ -51624,7 +51624,7 @@ Only if a reusable series, dashboard, or publication is current
 > **Status:** Stable
 > **Type:** Calculus (C)
 
-**Purpose.** Give FPF an admissible, minimal, and portable `TaskSignature` declaration for selector-facing use after the problem-side episteme is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2` carries the first problem-framing episteme for a messy signal. C.22 constitutes one CHR-grounded `U.Signature` and, when a receiving use is current, relates the exact problem-side episteme to that signature through `TaskSignatureAssignmentRelation`. Typed characteristics and unknowns stay visible. The declaration includes scope and only those basis, currentness, evidence-use, or crossing relations on which the receiving use relies; none adds a generic setting, carrier, or organization as a participant.
+**Purpose.** Declare an admissible, minimal, and portable `TaskSignature` declaration for selector-facing use after the problem-side episteme is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2` carries the first problem-framing episteme for a messy signal. Use C.22 to constitute one CHR-grounded `U.Signature` and, when a receiving use is current, relate the exact problem-side episteme to that signature through `TaskSignatureAssignmentRelation`. Typed characteristics and unknowns stay visible. The declaration includes scope and only those basis, currentness, evidence-use, or crossing relations on which the receiving use relies; none adds a generic setting, carrier, or organization as a participant.
 
 **Body-level kind boundary.** `TaskSignature` is a C.2.1 episteme and a species of existing `U.Signature`, conformant to A.6.0 direct declaration fields, Vocabulary, Laws, and Applicability. It is not a record format and introduces no new root U-kind. `TaskSignatureAssignmentRelation` is a separate obtaining relation among one exact problem-side episteme, one exact TaskSignature episteme, and one exact use episteme. `ProblemCard` is the C.22.2 problem-side episteme used before that assignment. `KindSet` contains C.3 `U.Kind` values for selected entities. Descriptor maps, telemetry hooks, policy ids, and selector fields remain signature vocabulary or projections unless an exact admission predicate and current subject assertion establish another kind.
 
@@ -51661,7 +51661,7 @@ Operationalise No-Free-Lunch discipline in selection by making each selector dec
 
 | Head used in this pattern | Recoverable kind or position | Direct governance boundary |
 | --- | --- | --- |
-| `TaskSignature` | C.2.1 episteme and species of `U.Signature`; this pattern's primary EntityOfConcern | C.22 governs its A.6.0 direct fields, Vocabulary, Laws, and Applicability; C.2.1 governs constitution; E.17 governs publications and carriers. |
+| `TaskSignature` | C.2.1 episteme and species of `U.Signature`; this pattern's primary EntityOfConcern | C.22 governs its A.6.0 direct fields, Vocabulary, Laws, and Applicability; C.2.1 governs constitution; E.17 supplies reader-facing publication forms, and E.24.PUB governs publication and carrier relations. |
 | `ProblemSideEpistemeRef` and `ReceivingUseEpistemeRef` | Participant designations in an assertion or description of `TaskSignatureAssignmentRelation`, not content or identity positions of TaskSignature | C.22.2 or the direct problem-side pattern defines or constrains the first episteme; the receiving-use episteme states the use but does not prove that an assignment obtains. |
 | `TaskKind` | TaskSignature position filled by one exact C.3 `U.Kind` value that types the current task or work target | C.3 governs the kind value; the field does not mint `U.Task`. |
 | `TaskFamilyRef` | Optional reference position for the comparison-relevant task family | C.22 and C.22.1 govern task-family anchoring; the reference is not the family or a selected method. |
@@ -51686,7 +51686,7 @@ The corresponding claims remain with their named subject patterns.
 For selector-facing C.22 use, a problem case applies when the problem-side episteme is stable enough to construct a minimal `TaskSignature` and assert its `TaskSignatureAssignmentRelation` for eligibility, acceptance, or policy-governed selection. Method absence or contestability is a common downstream reason, but not the ontology of problemhood. When the live question remains a symptom, contested framing, stale ReferenceScheme or ClaimScope, set-derived candidate, opportunity cue, or preselected work item, use C.22.2 before asserting one assignment. When selection becomes current, cite the A.19.SelectorMechanism relation and exact G.5 policy refs rather than moving selection policy into the signature.
 **Unknown-first discipline.** Author S2 with `unknown` traits rather than coercions. Name the exact downstream policy that interprets a live unknown for the receiving use. C.22 introduces no universal outcome enum; C.23, G.4, G.5, or another direct pattern defines or constrains the resulting eligibility, acceptance, or selection disposition.
 
-Untyped "problems" collapse into **informal prose**; selectors cannot **filter or abstain** admissibly; acceptance-gate thresholds leak into scoring; and cross-scheme reuse proceeds by name rather than by an exact relation. The ordinary needed value is a use-bounded TaskSignature that (i) establishes **MM-CHR admissibility** for Scale, Unit, and Polarity before aggregation, (ii) carries **tri-state unknowns** explicitly, and (iii) states the exact scheme, scope, and only the basis and currentness relations needed by the current use. Open **A.10** only when the use relies on a bounded evidence or provenance question. Open **B.3** only when an assurance claim or material-reliance threshold is current; its assurance result is not a TaskSignature field.
+Untyped "problems" collapse into **informal prose**; selectors cannot **filter or abstain** admissibly; acceptance-gate thresholds leak into scoring; and cross-scheme reuse proceeds by name rather than by an exact relation. The ordinary needed value is a use-bounded TaskSignature that (i) establishes **MM-CHR admissibility** for Scale, Unit, and Polarity before aggregation, (ii) carries **tri-state unknowns** explicitly, and (iii) states the exact scheme, scope, and only the basis and currentness relations needed by the current use. Open **A.10** only when the use relies on a bounded evidence or provenance question. Open **B.3** only when a named assurance claim about an exact target claim is current for this receiving use, including when a material-reliance rule requires that assurance claim; its assurance result is not a TaskSignature field.
 
 ### C.22:3 - Problem
 
@@ -51703,7 +51703,7 @@ Without typed descriptors, **Eligibility and Acceptance** degenerate into prose 
 
 ### C.22:5 - Solution — Problem CHR, `TaskSignature`, and assignment relation
 
-**Local TaskSignature mantra.** *Stabilize the problem; name the receiving selection question and task kind; keep only traits that can change eligibility, acceptance, or selection; type each live trait; preserve unknowns, scope, and any basis or currentness relation the use relies on; declare the TaskSignature, assign it to the problem-side episteme for that use, and stop before selecting a method.* This is a short repeatable rendering of the C.22 Solution. It is not a selector algorithm, method recommendation, work plan, dated selection occurrence, or `DemonstrativeUnfoldingSlice@Context`.
+**Local TaskSignature mantra.** *Stabilize the problem; name the receiving selection question and task kind; keep only traits that can change eligibility, acceptance, or selection; type each live trait; preserve unknowns, scope, and any basis or currentness relation the use relies on; declare the TaskSignature, assign it to the problem-side episteme for that use, and stop before selecting a method.* This is a short repeatable rendering of the C.22 Solution.
 
 Apply that formula as follows:
 
@@ -51716,7 +51716,7 @@ Apply that formula as follows:
 
 #### C.22:5.0a - Positive closure, bounded non-use, and local return
 
-Close the C.22 use positively when the direct TaskSignature fields, Vocabulary, Laws, and Applicability are complete and `TaskSignatureAssignmentRelation` recovers the exact problem-side episteme, TaskSignature, receiving-use episteme, effective ReferenceScheme, ClaimScope, and current qualification conditions. Each live characteristic has its scale, unit, polarity, reference plane, admitted comparison relation, and value or explicit `unknown`; every relied-on evidence, freshness, or edition relation is named. When cross-semantic reuse is current, its exact local senses, obtaining F.9 Bridge, and separate bounded-use claim are recoverable. A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, WorkPlan, or dated Work is claimed.
+Close the C.22 use positively when the direct TaskSignature fields, Vocabulary, Laws, and Applicability are complete and the assignment obtains under C.22:5.2. Its assertion identifies the exact problem-side episteme, TaskSignature, receiving-use episteme, effective ReferenceScheme, ClaimScope, and current qualification conditions. Each live characteristic has its scale, unit, polarity, reference plane, admitted comparison relation, and value or explicit `unknown`; every relied-on evidence, freshness, or edition relation is named. When cross-semantic reuse is current, its exact local senses, obtaining F.9 Bridge, and separate bounded-use claim are recoverable. A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, WorkPlan, or dated Work is claimed.
 
 Close by bounded non-use when problem framing is not stable enough for a TaskSignature declaration, when no selector-facing receiving use is current, or when the current question has already become eligibility, acceptance, selection, planning, or performed work. A non-current optional extension remains absent. If several signatures or assignment relations remain plausible, preserve them as candidates under the governing problem or selection pattern rather than asserting one assignment.
 
@@ -51741,11 +51741,11 @@ More fields, publication packaging, name cards, or telemetry do not make the pro
 
 * **`DataShape`** — data regime and admissible transforms (e.g., tabular, sequence, graph; density; stationarity claims).
 * **`NoiseModel`** — uncertainty class and robustness envelope (e.g., iid Gaussian; heavy‑tailed; adversarial budget).
-* **`ObjectiveProfile`** — objective heads (**Scale, Unit, Polarity** and **ReferencePlane** declared), polarity, and **admissible order relations** (lexicographic, Pareto, medoid or median where admissible). **Weighted sums across mixed scale types are inadmissible**; ordinal heads use order-only guards. For QD tasks, explicitly enumerate quality heads, diversity or descriptor-space heads, and any policy-authorized QD contribution heads; see **DominanceRegime** below. Do not introduce a default QD score. If a scalar or set-scalarization policy is live, cite the governing CAL policy and keep the uses of dominance and telemetry explicit.
+* **`ObjectiveProfile`** — objective heads (**Scale, Unit, Polarity** and **ReferencePlane** declared), **admissible order relations** (lexicographic, Pareto), and medoid or median operations where admissible. **Weighted sums across mixed scale types are inadmissible**; ordinal heads use order-only guards. For QD tasks, explicitly enumerate quality heads, diversity or descriptor-space heads, and any policy-authorized QD contribution heads; see **DominanceRegime** below. Do not introduce a default QD score. If a scalar or set-scalarization policy is live, cite the governing CAL policy and keep the uses of dominance and telemetry explicit.
 * `RegularityTraits` — method-relevant structure (**convexity, differentiability, separability, monotonicity**) as CHR-typed predicates with guard macros (for example, `ORD_COMPARE_ONLY`, `UNIT_CHECK`, `POLARITY_CHECK`). Include `ConditionClass` such as stiffness or kappa proxies where applicable.
 * **`Constraints`** — explicit hard and soft constraint classes (feasibility predicates; **ResourceEnvelope** and **RiskEnvelope**). **Acceptance-gate thresholds live in `G.4` only; never inside CHR or code paths.**
 * `ShiftClass` and stationarity — CHR‑typed claims about regime stability (iid | covariate‑shift | concept‑drift | adversarial). Default=`unknown`. The cited acceptance or selector policy governs the consequence of that unknown for its receiving use.
-* **Evidence and assurance (conditional).** Include an exact **A.10** evidence-use or provenance relation only when the receiving use relies on it. State source edition, currentness, or freshness only to the degree that reliance requires. Open **B.3** only for a named assurance claim or material-reliance threshold, and use only the assurance lanes and fold that its declared policy requires. A TaskSignature by itself requires neither all TA/VA/LA lanes nor a Gamma-fold.
+* **Evidence and assurance (conditional).** Include an exact **A.10** evidence-use or provenance relation only when the receiving use relies on it. State source edition, currentness, or freshness only to the degree that reliance requires. Open **B.3** only for a named assurance claim about an exact target claim and receiving use, including when a material-reliance rule requires it, and use only the assurance lanes and fold that its declared policy requires. A TaskSignature by itself requires neither all TA/VA/LA lanes nor a Gamma-fold.
 * `ScopeSlice(G)` — the A.2.6 **`U.ClaimScope` value** that bounds this declaration's claims about **`EntityOfConcernRef`** (discipline governance in **CG‑Spec**; Domain is a catalog mark only).
 * `SizeAndConditionProfile` — size and condition proxies (**n, m, kappa, sparsity**) with **declared units**; a unit mismatch makes the current comparison unsupported until the direct acceptance or selector policy supplies its governed result.
 * **`Freshness` (conditional)** — the validity window for a descriptor only when the receiving use relies on its currentness.
@@ -51817,9 +51817,9 @@ TaskSignatureAssignmentRelation <: U.Relation
   ReceivingUseEpistemeSlot = <ReceivingUseEpistemeSlot, U.Episteme, U.EpistemeRef>
 ```
 
-The relation obtains while the exact receiving use actually adopts that exact TaskSignature as the task-typing declaration for the exact problem-side episteme under the stated scheme, scope, and qualification conditions. Co-publication, a card field, a shared label, or one record row does not make it obtain. One occurrence is identified by the three participants plus its maximal continuous actual assignment extent. A participant change yields another occurrence; actual withdrawal and later readoption yield distinct occurrences even when the same three participants return.
+The relation obtains while that exact TaskSignature is actually adopted as the task-typing declaration for the exact problem-side episteme and the use stated in the exact receiving-use episteme, under the stated scheme, scope, and qualification conditions. Co-publication, a card field, a shared label, or one record row does not make it obtain. One occurrence is identified by the three participants plus its maximal continuous actual assignment extent. A participant change yields another occurrence; actual withdrawal and later readoption yield distinct occurrences even when the same three participants return.
 
-**TaskSignature identity and publication.** The tuple `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` determines TaskSignature episteme identity under A.6.0 and C.2.1. `SignatureId` and edition designate and track that episteme. A semantic change to direct declaration fields, Vocabulary, Laws, Applicability, the exact target, or the effective scheme creates a revised signature edition. Two E.17 publications, database rows, cards, or files may present the same edition when they resolve to the same tuple and add no new claim. `ProblemProfile` may reference the signature and assignment relation but contains or becomes neither.
+**TaskSignature identity and publication.** The tuple `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` determines TaskSignature episteme identity under A.6.0 and C.2.1. `SignatureId` and edition designate and track that episteme. A semantic change to direct declaration fields, Vocabulary, Laws, Applicability, the exact target, or the effective scheme identifies another episteme. Admit it as a TaskSignature only if it satisfies A.6.0; relate it as a revised signature edition only when C.2.1:4.5's source-use and continuation conditions obtain. Two E.17 publications, database rows, cards, or files may present the same edition when they resolve to the same tuple and add no new claim. `ProblemProfile` may reference the signature and assignment relation but contains or becomes neither.
 
 **Minimality rule.** Include only declaration positions needed to determine eligibility, acceptance, or admissible selection for the named use. Additional traits remain outside Vocabulary until a later use makes them current.
 
@@ -51828,7 +51828,7 @@ Values are CHR-typed and tied to the exact measurement, evidence-use, source-use
 **TaskSignature invariants.** A positive assignment satisfies all six conditions:
 
 1. The TaskSignature exposes its exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct declaration fields, Vocabulary, Laws, and Applicability.
-2. The assignment relation recovers its exact problem-side episteme, exact TaskSignature, exact receiving-use episteme, obtaining conditions, and occurrence extent.
+2. The exact problem-side episteme, exact TaskSignature, exact receiving-use episteme, obtaining conditions, and occurrence extent of the assignment relation are recoverable.
 3. Every live field has an admitted filler kind or scale discipline and, under reliance, an exact basis relation with a subject pattern.
 4. A live but unrecovered value is `unknown` only where the field's exact value rule permits it and a downstream policy states how the named use handles it.
 5. A non-current optional extension is absent; absence and unknown are not interchangeable.
@@ -51838,15 +51838,15 @@ Values are CHR-typed and tied to the exact measurement, evidence-use, source-use
 
 Withdraw the assignment for the current receiving use when its problem-side episteme, TaskSignature, receiving-use episteme, scheme, scope, or qualification conditions cannot be recovered. The TaskSignature may remain a valid declaration for another assignment. Use C.22.2 only when the problem-side representation itself is no longer stable enough.
 
-Revise the TaskSignature edition when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective `U.ReferenceScheme` changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or subject pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its subject pattern.
+Identify the resulting episteme and apply C.22:5.2's signature-membership and edition-continuity checks when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective `U.ReferenceScheme` changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or subject pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its subject pattern.
 
 A changed or invalid signature position reopens an earlier downstream result only when that result relied on the changed position. The downstream pattern repairs or supersedes its own result. A revised signature does not imply that the actual Problem disappeared or that prior Work did not occur.
 
 #### C.22:5.2b - Evolution and currentness boundaries
 
-C.22 revises the smallest affected identity or declaration-content component and issues a new TaskSignature edition when semantic content changes. A changed problem formulation requires C.22.2 before a replacement assignment is made. `G.11` governs relied-on source edition, freshness, decay, telemetry, and currentness relations; its result may trigger signature review but does not rewrite the signature by itself. `C.18` and `C.19` govern archive, front, lineage, and live-pool evolution. `G.5` governs selected-set and method-family selector results. `E.23` governs repeated object-version improvement. C.22 introduces no local refresh object and does not rewrite earlier selector results or dated Work without an explicit dependency.
+Use C.22 to revise the smallest affected identity or declaration-content component; identify the resulting episteme and claim a new TaskSignature edition only under the identity, membership, and continuity conditions in C.22:5.2. A changed problem formulation requires C.22.2 before a replacement assignment is made. `G.11` governs relied-on source edition, freshness, decay, telemetry, and currentness relations; its result may trigger signature review but does not rewrite the signature by itself. `C.18` and `C.19` govern archive, front, lineage, and live-pool evolution. `G.5` governs selected-set and method-family selector results. `E.23` governs repeated object-version improvement. C.22 introduces no local refresh object and does not rewrite earlier selector results or dated Work without an explicit dependency.
 
-`TaskKind` fills SubjectKind. `TaskFamilyRef?` names one comparison-relevant family in Vocabulary when specialization, transfer, or parity is live. `KindSet` and A.2.6 scope slices determine the ranged extent. None is a record-format field, selected method, or selector result.
+`TaskKind` fills SubjectKind. `TaskFamilyRef?` names one comparison-relevant family in Vocabulary when specialization, transfer, or parity is live. `KindSet` and A.2.6 scope slices determine the ranged extent. They remain declaration content, distinct from a selected method or selector result.
 
 **DesignRunTag hygiene.** Do not mix DesignRunTag positions in one signature edition. If design-side information is reused in run-time Work, identify the actual receiving Work and its relations independently. Cite an E.18 structural `GateCrossing` only when a selected transformation-flow use contains that occurrence; it does not require a package and does not establish an F.9 Bridge.
 
@@ -51860,7 +51860,7 @@ Record the effective `U.ReferenceScheme`, `U.ClaimScope`, and any `ReferencePlan
 
 For cross-semantic reuse, recover the two exact F.17 local senses and test the direct F.9 predicate. Cite a Bridge only when that predicate is true. Then state the proposed use separately: the action, direction, correspondence rule, tolerated loss, and polarity. If no Bridge obtains, keep the local values separate and return the missing comparison or translation question instead of manufacturing correspondence.
 
-Open A.10 only when evidence or provenance for that bounded use is current. Open B.3 only for a named assurance use or material-reliance threshold; only that B.3 result may use edge-scoped `CL` and the policy it actually declares. An optional local F.9 `CL` note is evidence shorthand, not a use threshold or automatic penalty. A card, gate check, reusable package, or other publication is required only when its own receiving pattern independently needs it. The assignment receives no generic setting participant, and a domain, organization, location label, or shared carrier supplies none of these relations.
+Open A.10 only when evidence or provenance for that bounded use is current. Open B.3 only for a named assurance claim about an exact target claim and bounded use, including when a material-reliance rule requires it; only that B.3 result may use edge-scoped `CL` and the policy it actually declares. An optional local F.9 `CL` note is evidence shorthand, not a use threshold or automatic penalty. A card, gate check, reusable package, or publication is required only when its own receiving pattern independently needs it. The assignment receives no generic setting participant, and a domain, organization, location label, or shared carrier supplies none of these relations.
 
 #### C.22:5.4 - Attachment & use.
 
@@ -51875,27 +51875,27 @@ The bullets below state which TaskSignature fields and relations each downstream
 An identity position needed for positive closure cannot be replaced by `unknown`. A live characteristic or predicate may preserve `unknown` only when its exact value rule permits it. The TaskSignature cites the downstream policy that defines or constrains the consequence; C.22 performs no implicit coercion and declares no universal outcome set.
 
 #### C.22:5.6 - Publication.
-When a named receiving use needs an addressable publication episteme, output a `C.2.1`-conformant **ProblemProfile** that carries the bound TaskSignature and only the evidence, currentness, F.9 bounded-use, and representation relations on which that use relies. Apply F.18 and F.17 Name Cards when a durable new name is actually being admitted; do not create a card merely because a local field or Bridge is present. Keep vendor or tool examples in Plain explanatory use rather than letting them become normative selector inputs. When no publication reliance is current, the TaskSignature closes without a separate ProblemProfile.
+When a named receiving use needs a reader-facing publication of the **ProblemProfile** specified in C.22:5.0b, publish that accepted `C.2.1`-conformant episteme through E.17. Use E.24.PUB when that use depends on publication availability, its declared boundary, or publication-occurrence identity. The profile references the bound TaskSignature and only the evidence, currentness, F.9 bounded-use, and representation relations on which that use relies. Apply F.18 and F.17 Name Cards when a durable new name is actually being admitted; do not create a card merely because a local field or Bridge is present. Keep vendor or tool examples in Plain explanatory use rather than letting them become normative selector inputs. When no replay beyond the local assignment relation is needed, the TaskSignature closes without a separate ProblemProfile.
 
 #### C.22:5.7 - Open‑Ended tasks (GeneratorFamily) *(normative)*.
 When **open-ended generation** of tasks or environments is current, S2 is complete only when it includes `GeneratorIntent` with pointers to **`EnvironmentValidityRegion`** (admissible region for generated environments), **`TransferRulesRef`** (cross‑environment transfer constraints), and **coverage and regret** telemetry expectations. Selector outputs are then declared sets over **{environment, method}**; **coverage and regret** are reported telemetry values and **IlluminationSummary** is a **telemetry summary** (reported), excluded from dominance unless a **CAL** policy promotes them (policy‑id recorded in SCR; see `DominanceRegime`). Edition increments of **CharacteristicSpaceRef.edition**, **DescriptorMapRef.edition**, **DistanceDefRef.edition**, and (OEE) **`TransferRulesRef.edition`**, and the **policy id** associated with an illumination increase form part of the SCR change record.
 
 ### C.22:6 - Archetypal Grounding (Tell–Show–Show)
 
-*Tell–Show–Show hook (per E.8):* label examples as **Show‑1 (continuous ODE)** and **Show‑2 (MIP)** and cite CHR guard‑macros in‑line so engineers can see **which field supplied which Eligibility or Acceptance input**.  **Explicitly annotate which S2 fields triggered each Eligibility and Acceptance decision** (e.g., `service_level@ordinal → ORD_COMPARE_ONLY`, `budget@ratio → unit alignment check`).
+*Tell–Show–Show hook (per E.8):* in **Show‑1 (continuous ODE)** and **Show‑2 (MIP)** below, CHR guard‑macros and scale rules show **which field supplied which Eligibility or Acceptance input**. For the receiving use, **explicitly annotate which S2 fields triggered each Eligibility and Acceptance decision** (e.g., `service_level@ordinal → ORD_COMPARE_ONLY`, `budget@ratio → unit alignment check`).
 
 **A. Differential equations (continuous systems, solver choice).**
 *ProblemProfile.* `DataShape=ODE, stiff?=unknown, SizeAndConditionProfile={n≈10^3}, ObjectiveProfile={↓error@ratio, ↑throughput@ratio}, ConstraintRefs={budget-envelope relation, safety-predicate relation}, RegularityTraits={Lipschitz known?=unknown, Jacobian sparsity=high}, Missingness=MAR`.
-*Attachment.* Selector consumes TaskSignature; **eligibility** filters MethodFamilies whose acceptance conditions include known stiffness or differentiability, with unknown yielding **degrade or abstain** per family. **Acceptance** treats `safety_gate` as an **ordinal predicate**, not an average (`ORD_COMPARE_ONLY`), and treats budgets with **unit-aligned sums** on ratio scales. The selector returns a **Pareto set**; no cross-ordinal weighting.
+*Attachment.* Selector consumes TaskSignature; **eligibility** filters MethodFamilies whose eligibility conditions require known stiffness or differentiability, with unknown yielding **degrade or abstain** per family. **Acceptance** treats `safety_gate` as an **ordinal predicate**, not an average (`ORD_COMPARE_ONLY`), and treats budgets with **unit-aligned sums** on ratio scales. The selector returns a **Pareto set**; no cross-ordinal weighting.
 
 **B. Mixed‑integer optimisation (planning and scheduling).**
 *ProblemProfile.* `DataShape=MIP, NoiseModel=deterministic, ObjectiveProfile={↓cost@ratio, ↑service_level@ordinal}, Constraints={SLA hard, workforce soft}, RegularityTraits={convex_relaxation=available}, SizeAndConditionProfile={vars~10^5}, Missingness=MCAR`.
-*Attachment.* **CG‑Spec** forbids means over **service_level** (ordinal); **Acceptance** holds acceptance-gate thresholds; **Eligibility** checks convex-relaxation availability; **Selection** applies the **lexicographic** guard (assumption-fit before evidence-fit before resource). If a named assurance use or material-reliance threshold is current, B.3 computes its separate assurance result from the relied-on evidence relations and the declared policy; otherwise this example adds no assurance fold. If the admissible comparison remains partial, return a **Pareto set**.
+*Attachment.* **CG‑Spec** forbids means over **service_level** (ordinal); **Acceptance** holds acceptance-gate thresholds; **Eligibility** checks convex-relaxation availability; **Selection** applies the **lexicographic** guard (assumption-fit before evidence-fit before resource). If this receiving use makes a named assurance claim about an exact target claim, including when a material-reliance rule requires it, use B.3 to obtain its separate assurance result from the relied-on evidence relations and the declared policy; otherwise this example adds no assurance fold. If the admissible comparison remains partial, return a **Pareto set**.
 
 > *Current practice anchor:* the 2026 [SciML Problem Interface](https://docs.sciml.ai/DiffEqDocs/stable/basics/problem/) constructs an immutable problem value before solver use and supports explicit `remake` when problem fields change. C.22 adapts only that problem-before-selector separation; it does not import Julia types as FPF ontology.
 
 **C. Quality-Diversity archive and declared set (illumination).**
-*ProblemProfile.* `DataShape=policy‑search; ObjectiveProfile={↑reward@ratio, ↑coverage@ratio (report‑only)}, DominanceRegime=ParetoOnly, PortfolioMode=Archive, CharacteristicSpaceRef(d=3, characteristics=CHR‑typed), ArchiveConfig(grid, res=32×32×16, K=1, InsertionPolicyRef=elite‑replace, DistanceDefRef.edition=v1), EmitterPolicyRef=v2, Budgeting{eval=1e6}, TelemetryHooks{PathSliceId=…}`.
+*ProblemProfile.* `DataShape=policy‑search; ObjectiveProfile={↑reward@ratio, ↑coverage@ratio (report‑only)}, DominanceRegime=ParetoOnly, PortfolioMode=Archive, CharacteristicSpaceRef(d=3, characteristics=CHR‑typed), ArchiveConfig(grid, res=32×32×16, K=1, InsertionPolicyRef=elite‑replace, DistanceDefRef.edition=v1), EmitterPolicyRef=v2, Budgeting{eval=1e6}, TelemetryHooks{PathSliceId=…}`. Include `PathSliceId` only when an E.18 path slice is current.
 *Selection result.* Selector may return an **archive**; **coverage and illumination** are **reported** but **excluded** from dominance (default). Any change of `DistanceDefRef.edition` or Emitter policy is **editioned** and logged in SCR.
 
 **D. Open‑ended environment generation (POET‑class).**
@@ -51905,16 +51905,16 @@ When **open-ended generation** of tasks or environments is current, S2 is comple
 **E. Physical manufacturing method-family eligibility.**
 *Problem-side episteme.* `PartFamilyFinishingProblemCard-E2 : U.Episteme` is the exact C.22.2 ProblemCard for a shop that must finish `AlloyPartFamily-17` on one machine under `ShopInspectionScheme-E4` and a production-window ClaimScope. The receiving question is which available finishing-method families can be compared without presuming one of them.
 *TaskSignature.* `SurfaceFinishingEligibilitySignature-E1` declares `EntityOfConcernRef=AlloyPartFamilyFinishingTarget-17`, `effectiveReferenceScheme=ShopFinishing-Scheme-A`, `TaskKind=surface-finishing work`, `ScopeSlice(G)=AlloyPartFamily-17 during [2026-09-01T00:00Z, 2026-10-01T00:00Z)`, `ObjectiveProfile={surface roughness Ra@ratio in micrometres with downward polarity, throughput@ratio}`, `ConstraintRefs={geometric-tolerance relation, heat-distortion relation, resource-envelope relation}`, and material-hardness condition as a live `unknown` with an explicit measurement relation and unknown-handling policy. The TaskSignature makes eligibility reviewable; it does not select grinding, honing, polishing, or another method and does not establish that any part was finished.
-*Assignment.* `FinishingMethodEligibilityUse-E1 : U.Episteme` states the exact receiving eligibility-comparison use. `TaskSignatureAssignmentRelation(PartFamilyFinishingProblemCard-E2, SurfaceFinishingEligibilitySignature-E1, FinishingMethodEligibilityUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that receiving use actually adopts that exact signature as the task-typing declaration for that exact card under `ShopFinishing-Scheme-A`, the declared part-family scope, `ShopInspectionScheme-E4`, and the production window above. Withdrawal of that adoption or change of a participant or qualification ends this assignment occurrence; a shared row, carrier, or publication does not make it obtain.
+*Assignment.* `FinishingMethodEligibilityUse-E1 : U.Episteme` states the exact receiving eligibility-comparison use. `TaskSignatureAssignmentRelation(PartFamilyFinishingProblemCard-E2, SurfaceFinishingEligibilitySignature-E1, FinishingMethodEligibilityUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that exact signature is actually adopted as the task-typing declaration for that exact card and the use stated in `FinishingMethodEligibilityUse-E1`, under `ShopFinishing-Scheme-A`, the declared part-family scope, `ShopInspectionScheme-E4`, and the production window above. Withdrawal of that adoption or change of a participant or qualification ends this assignment occurrence; a shared row, carrier, or publication does not make it obtain.
 
 **F. Clinical rehabilitation method-family eligibility.**
 *Problem-side episteme.* `CohortRehabilitationProblemCard-E3 : U.Episteme` is the exact C.22.2 ProblemCard for a rehabilitation service with `Cohort-2026-Q3` and a stated capability-change question under clinical safety constraints.
 *TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation-method-family comparison`, and `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`. It also declares outcome characteristics with their scale kinds, contraindication and resource constraints, and unknown tolerance or comorbidity values preserved as unknown. Include the evidence relations and follow-up windows only because this comparison use relies on them.
 
-C.22 makes the comparison inputs explicit. It does not diagnose a person or recommend treatment; those claims use their clinical patterns. It does not establish evidence or benefit, pass a gate, grant permission to provide care, or establish decision authority. Use the evidence and evaluation patterns, the gate patterns, an obtaining `GrantedPermissionRelation@Context`, or an authority predicate, or return `missing-governor`.
+C.22 makes the comparison inputs explicit. Diagnosis and treatment recommendations remain claims governed by the applicable clinical patterns. For a separately current evidence or benefit claim, apply its evidence or clinical evaluation pattern; for a named gate decision, use A.21; for a care-permission claim, use A.2.8.PER and its `GrantedPermissionRelation@Context` predicate; for decision authority, recover the applicable authority predicate. Return `missing-governor` under A.6.RCD only when no governing rule can state or test that exact needed relation claim.
 
 If clinical Work occurs, recover each exact actual performer System through A.13 and let A.15.1 independently admit the dated Work and its enacted Method. Add an assignment occurrence, its declared species, and F.6 only when this clinical account or its receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and missing or failed F.6 leaves the Work intact. A local system-role kind, classification, or assignment can remain a neighboring fact, but it establishes none of the permission or authority relations above.
-*Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that receiving use actually adopts that exact signature for that exact card under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
+*Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that exact signature is actually adopted for that exact card and the use stated in `RehabilitationInterventionFamilyComparisonUse-E1`, under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
 
 ### C.22:7 - Bias-Annotation (lexical and discipline guards)
 
@@ -51929,7 +51929,7 @@ If clinical Work occurs, recover each exact actual performer System through A.13
    1a. **Publication and designators do not define identity.** Two E.17 publications or serialized records that resolve to the same `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` identify the same TaskSignature episteme. Carrier, layout, serialization, `SignatureId`, or edition label alone does not create a new identity component.
 2. **CHR admissibility proven.** Any numeric comparison or aggregation **cites CG-Spec** by **Characteristic id** and proves **CSLC admissibility**; **no mean on ordinals; no unit mixing**.
 3. **Unknowns remain typed.** A live unknown remains `unknown`, cites the direct downstream policy, and is not coerced. The acceptance, eligibility, or selector pattern records its own governed result.
-4. **Evidence and assurance are conditional.** When the receiving use relies on evidence or provenance, cite the exact A.10 relation and only the source edition, currentness, and freshness conditions that reliance needs. When an assurance claim or material-reliance threshold is current, cite its separate B.3 result, applicable assurance lanes, and declared fold. Otherwise the TaskSignature needs neither an evidence dossier nor an assurance fold.
+4. **Evidence and assurance are conditional.** When the receiving use relies on evidence or provenance, cite the exact A.10 relation and only the source edition, currentness, and freshness conditions that reliance needs. When a named assurance claim about an exact target claim is current for this receiving use, including when a material-reliance rule requires it, cite its separate B.3 result, applicable assurance lanes, and declared fold. Otherwise the TaskSignature needs neither an evidence dossier nor an assurance fold.
 5. **Cross-semantic use is separated.** Declare `ReferencePlane` for a value or objective head when its interpretation or comparison needs it. A scheme or plane difference alone creates neither a Bridge nor a penalty. Resolve two exact F.17 local senses, test the F.9 predicate, and state any proposed use separately.
 6. **Acceptance thresholds live in CAL.** No acceptance-gate thresholds in CHR or code paths; only in **G.4 AcceptanceClauses**.
 7. **Selector-use support.** The TaskSignature exposes the scales, units, polarities, and admitted order relations needed by `G.5`; it carries no mixed-scale scalarization or local selector verdict. `G.5` governs any Pareto-set result when its admissible relation remains partial.
@@ -51955,22 +51955,22 @@ If clinical Work occurs, recover each exact actual performer System through A.13
 | A live unknown is encoded as `false`, `0`, or an empty value. | Restore `unknown`, name the direct basis relation and receiving-use policy, and let the downstream pattern produce the result governed by that policy. |
 | Ordinal values or values with unlike units are averaged into one score. | Recover scale, unit, polarity, reference plane, and admitted order for every head; use only a directly governed admissible comparison or leave the candidate set partially ordered. |
 | One TaskSignature mixes design-time traits, later run observations, and incompatible DesignRunTag positions. | Split the claims by their actual Work and relation positions; retain only the traits current in this signature edition. Use E.18 only when a selected transformation-flow relation is current, F.9 only when exact local meanings differ and its Bridge predicate is true, and the Work pattern for the actual run. |
-| A new file, card, or database row is treated as a new TaskSignature. | Compare the declaration content, exact task or work target, and effective reference scheme. Reuse the same identity when only publication, carrier, serialization, or designator changed; issue a new edition when an identity component changed. |
+| A new file, card, or database row is treated as a new TaskSignature. | Compare the declaration content, exact task or work target, and effective reference scheme. Reuse the same identity when only publication, carrier, serialization, or designator changed; identify another episteme when an identity component changed, then apply C.22:5.2's signature-membership and edition-continuity checks. |
 | A broad domain, organization, or location label is used as if it supplied scope, measurement, evidence, or selection rules. | Recover the exact EntityOfConcern, effective ReferenceScheme, A.2.6 ClaimScope relation, `U.Discipline` when current, characteristic rules, and direct selector or policy relations that the use actually needs. |
 | Data shift is assumed away because the old profile used `iid`. | State the current `ShiftClass` or `unknown`, cite its evidence and currentness relation, and state the changed-use result under the exact acceptance or selector predicate. |
 | A vendor, tool, or fashionable method label is treated as a normative selector input. | Keep it only as a Plain example or recover the exact method-description, capability, evidence, and selector relations on which comparison relies. |
 
 ### C.22:10 - Selector Fields And Evidence Relations
 
-*Inputs.* `ProblemProfile` (...Description) and CG-Spec ids; an A.10 evidence-use or provenance relation only when the receiving use relies on it; D.CTX only when that separate context relation is current; CharacteristicSpaceRef, ArchiveConfig, and EmitterPolicyRef configurations only when QD is live; GeneratorIntent only when OEE is live.
-*Produces.* One `TaskSignature` episteme, declared as the `U.Signature` species specified in C.22:5.2. When a receiving use is current, C.22 also produces one separate `TaskSignatureAssignmentRelation` among that signature, the exact problem-side episteme, and exact receiving-use episteme. TaskSignature is neither a new root U-kind nor a record kind: its A.6.0/C.2.1 identity tuple and declaration content determine its semantic edition, while publication, carrier, and serialization remain outside identity. Optional QD, archive, generator, `PortfolioMode`, and telemetry vocabulary appears only when current.
+*Inputs.* One stabilized problem-side episteme and CG-Spec ids; a `ProblemProfile` (...Description) only when C.22:5.0b's replay need is current; an A.10 evidence-use or provenance relation only when the receiving use relies on it; D.CTX only when that separate context relation is current; the QD values or references named by CharacteristicSpaceRef, ArchiveConfig, and EmitterPolicyRef only when QD is live; GeneratorIntent only when OEE is live.
+*Produces.* Declare one `TaskSignature` episteme as the `U.Signature` species specified in C.22:5.2. When that signature is actually adopted for the problem-side episteme and receiving use, one separate `TaskSignatureAssignmentRelation` obtains among that signature, the exact problem-side episteme, and exact receiving-use episteme under C.22:5.2. TaskSignature is neither a new root U-kind nor a record kind: its A.6.0/C.2.1 identity tuple and declaration content determine episteme identity; signature membership and edition continuity follow C.22:5.2, while publication, carrier, and serialization remain outside identity. Optional QD, archive, generator, `PortfolioMode`, and telemetry vocabulary appears only when current.
 *Used by.* **G.5** (Eligibility and Selection kernel), **G.4** (Acceptance and Evidence), **C.23** (admit, degrade, and abstain rules and method-family maturity checks).
 
 ### C.22:11 - Consequences (informative)
 
 * **Admissible selection.** Selection is **explainable** and **inspectable**: every admission or rejection reason cites the TaskSignature positions and CHR rules on which it relied. When a separate B.3 assurance result is current, that result cites its own evidence relations, applicable assurance lanes, and declared fold.
 * **Use-bounded first, cross-semantic use explicit.** The exact EntityOfConcern, effective ReferenceScheme, ClaimScope, and receiving use are primary. When local meanings differ, an obtaining F.9 Bridge and a separate bounded-use claim make the proposed reuse inspectable; evidence reliance, assurance, gates, and packaging remain optional neighboring questions.
-* **Frictionless downstream.** G.1-G.5 use one **single, typed** TaskSignature; thresholds are cleanly separated into **Acceptance**; unknowns are not guessed.
+* **Frictionless downstream.** G.1-G.5 use one **single, typed** TaskSignature; acceptance-gate thresholds are cleanly separated into **Acceptance**; unknowns are not guessed.
 * **QD and OEE-ready.** Typed QD and GeneratorIntent fields make **declared returned-set structure** and **open-ended** generation contexts **explicit**, with admissible dominance, editioned distances, and policy-aware illumination.
 
 ### C.22:12 - Rationale
@@ -51986,7 +51986,7 @@ Wolpert and Macready's ["No Free Lunch Theorems for Optimization"](https://doi.o
 | Roger Jiao, ["Towards rigorous problem formulation for engineering design research: from motivations to measurable claims via metric-measure-method"](https://doi.org/10.1080/09544828.2026.2633289), *Journal of Engineering Design* 37, 2026; Szajnfarber, Lifshitz, and Tushman, ["Beyond translation: how context work during problem formulation enables effective solving by outsiders"](https://doi.org/10.1080/09544828.2026.2633491), 2026 research article. | Adopt problem-before-method formulation, operational characteristics and measures, and a named decision or action that will use the result. Adapt context work into the signature's exact task or work target, direct declaration fields, Vocabulary, and Applicability plus the problem-side and receiving-use slots of `TaskSignatureAssignmentRelation`. | Changes the working question, local mantra, signature content, assignment relation, reliance replay, and the manufacturing and clinical transfer cases. A fashionable method or available dataset cannot define the TaskSignature or its assignment. | These sources study engineering research formulation and outsider problem solving; they do not establish FPF kinds or one universal signature schema. Review the adaptation if later cross-domain evidence overturns the importance of measurable problem characteristics or receiving-use locality. |
 | Cenikj, Kudela, Tuba, and Eftimov, ["Evaluating Real-World Generalizability of Algorithm Selection Models"](https://arxiv.org/abs/2606.02016), current June 2026 conference-linked paper and arXiv version. | Adopt measurable problem characteristics as selector inputs and the empirical warning that transfer between benchmark and real-world landscapes can fail. | Changes `ScopeSlice(G)`, evidence and currentness relations, crossing discipline, unknown handling, and the rule that an old selector result reopens only when it depended on a changed field. | The study concerns optimization landscapes and algorithm-selection models, not all methods or sectors. Do not infer universal transfer failure or a complete TaskSignature field list from its benchmark set. |
 | Qin et al., ["A survey on Quality-Diversity optimization: Approaches, applications, and challenges"](https://doi.org/10.1016/j.swevo.2025.102240), *Swarm and Evolutionary Computation* 100, 2026; Lin et al., ["Quality-Diversity Optimization as Multi-Objective Optimization"](https://arxiv.org/abs/2602.00478), current 2026 preprint. | Adopt collection-valued QD results, user-declared behavior or characteristic space, explicit containers and policies, and set-aware comparison. Adapt the MOO reformulation as one current option rather than the definition of QD. | Changes the optional QD positions, `DominanceRegime`, report-only illumination boundary, archive case, and refusal of one default scalar score. | The survey is broad but QD-specific; the MOO reformulation is a current preprint and one competing approach. Neither authorizes every diversity measure to enter dominance. Review when stronger comparative evidence changes container, metric, or scalarization treatment. |
-| SciML, ["Problem Interface"](https://docs.sciml.ai/DiffEqDocs/stable/basics/problem/) and ["Common Solver Options"](https://docs.sciml.ai/DiffEqDocs/stable/basics/common_solver_opts/), living documentation generated in June 2026. | Adapt the practical separation between a constructed problem value and later solver dispatch, plus explicit problem remake when fields change. | Changes the ODE case and the smallest-repair rule: a semantic field change revises the TaskSignature edition, and a changed problem-side or receiving-use position revises the assignment relation before selector replay; solver implementation does not become the problem or TaskSignature. | This is current software practice, not a transdomain ontology and not evidence that every project needs an immutable software record. Review on material interface or dispatch changes; preserve the general separation only while it continues to improve the declared use. |
+| SciML, ["Problem Interface"](https://docs.sciml.ai/DiffEqDocs/stable/basics/problem/) and ["Common Solver Options"](https://docs.sciml.ai/DiffEqDocs/stable/basics/common_solver_opts/), living documentation generated in June 2026. | Adapt the practical separation between a constructed problem value and later solver dispatch, plus explicit problem remake when fields change. | Changes the ODE case and the smallest-repair rule: a semantic field change requires C.22:5.2's identity, membership, and edition-continuity checks, and a changed problem-side or receiving-use episteme requires the assignment to be checked again before selector replay; solver implementation does not become the problem or TaskSignature. | This is current software practice, not a transdomain ontology and not evidence that every project needs an immutable software record. Review on material interface or dispatch changes; preserve the general separation only while it continues to improve the declared use. |
 
 ### C.22:13 - Relations
 **Builds on:** **C.16 MM-CHR**, **G.0 CG-Spec**. **Coordinates with:** **G.4 Acceptance**, **G.5 Selector**, **C.18 NQD-CAL**, **C.19 E/E-LOG**, **C.23 Method-SoS-LOG**, and `C.32.P2S` when typed problem pressure continues into architecture selected structures and synthesis. **Constrained by:** **E.10** for selected `EntityOfConcern`, Description-episteme, specification-use, and publication-lane wording. Coordinate with **E.18** only when a named receiving use depends on a selected transformation-flow crossing or gate position; E.18 supplies neither the F.9 Bridge nor a mandatory publication package.
@@ -51994,13 +51994,13 @@ Wolpert and Macready's ["No Free Lunch Theorems for Optimization"](https://doi.o
 ### C.22:14 - Practical Use Checks
 
 - If two candidate approaches are answering different `TaskKind`s or different `ScopeSlice(G)` cuts, a direct comparison is not admissible yet.
-- If specialization is the live specialization question, the task-family reference, threshold target, adaptation budget, and provenance basis should already be recoverable from the assigned `TaskSignature` edition.
+- If specialization is the live question, the task-family reference, threshold target, adaptation budget, and freshness or provenance basis should already be recoverable from the assigned `TaskSignature` edition.
 - If crossing, normalization, or missingness changes what comparison means, state that in the signature and its cited refs rather than hiding it in code, local memory, or explanatory prose.
 - If `QD` or `OEE` heads are in scope, archive and generator fields belong in the same typed signature rather than in a detached explanatory appendix.
 
 ### C.22:15 - Goldilocks Hook (design-time)
 
-When generating candidate solutions for a **TaskKind**, aim for **“goldilocks”** slots (feasible‑but‑hard) so that the TaskSignature is informative (neither trivial nor impossible); this aligns with **G.1** (goldilocks target, abductive provenance) and ensures the **TaskSignature is informative** (neither trivial nor impossible) for **G.5** selection.
+When generating candidate solutions for a **TaskKind**, aim for **“goldilocks”** slots (feasible‑but‑hard: neither trivial nor impossible); this aligns with **G.1** (goldilocks target, abductive provenance) and ensures the **TaskSignature is informative** for **G.5** selection.
 
 ### C.22:End
 
@@ -52097,7 +52097,7 @@ FPF needs one compact way to publish a bounded specialization claim on the same 
 
 ### C.22.1:11 - Rationale
 
-The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit. `A.15`, `C.24`, and `E.16` may generate the probe, checkpoint, and budget evidence. `G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those neighbouring pattern applications by making threshold timing, reuse, downside, and corridor-entry field recoverable in one short read instead of forcing the reader to reconstruct it from scattered notes.
+The reader needs one place where the adaptation claim stays whole. `C.22` keeps the task family and work target explicit. `A.15` distinguishes probe plans from performed Work and evidence. `C.24` defines call-planning `CheckpointReturn` records after an action or option is fixed; `E.16` governs budget, guard, and ledger enforcement for autonomy claims. Probe results, checkpoint records, and budget records may supply evidence for the adaptation claim. `G.5` and `G.9` later compare several candidates or parity runs. `C.22.1` keeps the specialization story readable across those neighbouring pattern applications by making threshold timing, reuse, downside, and corridor-entry field recoverable in one short read instead of forcing the reader to reconstruct it from scattered notes.
 
 ### C.22.1:12 - SoTA-Echoing
 
@@ -52107,7 +52107,7 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 **Claim 2.** Current open-ended exploration work treats corridor entry and stepping stones as evidence-bearing novelty signals rather than decorative commentary.
 
-**Practice source, local alignment, and adoption decision.** Current `QD`/`OEE` source-use relation/currentness plus current FPF `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` neighbours distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline, evidence source, or evidence locus.
+**Practice source, local alignment, and adoption decision.** Current `QD`/`OEE` sources and current FPF `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` neighbours distinguish real corridor entry from one exotic sample by asking for explicit baseline, stable descriptor shift, reproducible solution class, or an explicit stepping-stone trace. This pattern **adopts** explicit corridor baseline/evidence discipline, **adapts** it as declared adaptation-signature fields, and **rejects** novelty talk that names no baseline, evidence source, or evidence locus.
 
 **Claim 3.** Current selector and parity practice needs one stable shared field set for specialization claims.
 
@@ -52124,24 +52124,24 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 **C.27 temporal-claim relation.**
 
-- C.27 may flag: a claim that a holder, dyad, team, specialist portfolio, method, or agent acquires usable specialization faster on one declared `TaskFamilyRef` or `TaskSignature`.
+- C.27 may flag: a claim that a holder, dyad, team, explicitly scoped specialist portfolio, or agent acquires usable specialization faster on one declared `TaskFamilyRef` or `TaskSignature`. A method may be selected, refined, or retired as part of that story.
 - This pattern keeps: threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, corridor-entry evidence, and adaptation-signature fields.
 - Non-admissible use: generic "learns faster" wording without task-family anchors does not create a C.27 profile or a complete adaptation signature; faster threshold crossing is not durable specialization unless transfer, retention, downside, and corridor-entry evidence are stated when claimed.
 
-- Next-question boundary: downgrade to Dyn1 trend when only a trend is live; use the C.24 MethodDescription when the question is only tool-use planning; continue under the C.22.1 predicate when specialization is the live adaptation question.
+- Next-question boundary: classify the claim as Dyn1 when only a trend is live; use C.24 for call planning after the action or option is fixed; use the C.22.1 adaptation signature when specialization is the live adaptation question.
 
 **Builds on:** `C.22` TaskSignature anchoring, `C.19.1` `BLP` compatibility, `A.15` system-role-kind and assignment, Method, WorkPlan, and Work-occurrence separation, `C.24` scout or probe and `CheckpointReturn` semantics, `E.16` budget enforcement.
 **Coordinates with:** `G.5` selector specialization profiles, `G.9` adaptation parity, `G.11` later telemetry/refresh reuse.
 
 **Coordinates with:** `E.23` when a quality-improvement loop claims durable task-family specialization. `C.22.1` carries the adaptation-signature fields for threshold target, time-to-threshold, budget-to-threshold, prior exposure, transfer, retention, downside, and corridor entry; it does not restate the `E.23` loop method, `E.22` review framing, or pattern-quality or DRR-adequacy object-under-improvement evaluations.
 
-**Constrained by:** `E.10` lexical discipline and `E.19` pattern-quality review when this child section is newly landed or materially revised.
+**Constrained by:** `E.10` lexical discipline; `E.19` governs admission or refresh review of the pattern edition.
 
 ### C.22.1:14 - Not this pattern when
 
 - the claim only needs to name the task family and work-measure threshold target, with no adaptation-speed or transfer claim at all; ordinary `C.22` anchoring is enough
 - the question under repair is already selector or parity law across candidate selected sets; that belongs to `G.5 / G.9`
-- the text cannot yet declare one work-measure threshold target, one prior-exposure stance, or one evidence source or evidence locus for corridor entry
+- the text cannot yet declare one work-measure threshold target or one prior-exposure stance, or, when corridor entry is claimed, cannot name one evidence source or evidence locus for that entry
 
 ### C.22.1:15 - Conformance checklist
 
@@ -52173,7 +52173,7 @@ The reader needs one place where the adaptation claim stays whole. `C.22` keeps 
 
 **Early battery stop.** A low terminal-voltage reading can be a useful signal and can justify a `ProblemCard`, but it is not itself the actual-condition participant. Until a direct voltage-state pattern supplies the exact relation kind, participant meanings, obtaining rule, temporal extent, recurrence, and occurrence identity, the battery case remains explicitly non-conforming: the reading, alarm, report, assertion, and card establish none of that world-side relation. Once such a governor exists, the applicability relation can connect its selected voltage predicate to the exact vehicle, intended-start `U.ClaimScope`, and declared criterion-applicability window; discovering a method still changes solvability rather than PFR actuality.
 
-**Not this pattern when.** Use `C.22.2` when the current object is a problem-side card, signal, hypothesis, forecast, scenario, anticipated-condition claim, or reviewable formulation rather than an actual PFR. Use `C.27`, `C.28`, or the exact direct forecast, scenario, counterfactual, or anticipated-condition governor when that claim is current. Use the selected A.19 comparison, `G.4` acceptance, state, gate, or measurement pattern when the current question is how to evaluate or support the adverse predicate. Use `E.18.1`, `E.23`, and the direct NQD or OEE patterns for repeated problematization, search, work, evaluation, and continuation.
+**Not this pattern when.** Use `C.22.2` when the current object is a problem-side card, signal, hypothesis, forecast, scenario, anticipated-condition claim, or reviewable formulation rather than an actual PFR. Use `C.27` when a rate, rhythm, recovery, or regime claim is being used to change action, `C.28` when causal support is at issue, or the exact direct forecast, scenario, counterfactual, or anticipated-condition governor when that claim is current. Use the selected A.19 comparison, `G.4` acceptance, state, gate, or measurement pattern when the current question is how to evaluate or support the adverse predicate. Use `E.18.1`, `E.23`, and the direct NQD or OEE patterns for repeated problematization, search, work, evaluation, and continuation.
 
 ### C.22.PFR:2 - Problem
 
@@ -52207,9 +52207,9 @@ Before testing adversity, answer three plain questions: **what exact point or va
 - **Direct input:** the actual-condition participant is already a governed characteristic-assignment or state relation whose subject pattern exposes the exact characteristic-space coordinate, scale, and value used by the predicate.
 - **Projected input:** when that relation does not itself expose the needed point, the rule cites one exact governed projection or bridge, its source relation kind and participant positions, target characteristic space, coordinate and scale, and the direct relation or predicate connecting that input to the problem-for entity and receiving use.
 
-A relation reference alone is not a coordinate. If neither path yields the exact point and the problem-for link, adverse truth and PFR remain unestablished. When two projections are plausible, the rule names the selected one and the nearest inadmissible projection. `ConditionToPredicateInputRule` is a pattern-local by-value rule inside `CharacteristicSpacePredicate`; it is not a U-kind, relation occurrence, evaluation result, or copied PFR field.
+A relation reference alone is not a coordinate. If neither path yields the exact point and the problem-for link, adverse truth and PFR remain unestablished. When two projections are plausible, the rule names the selected one; identify the nearest inadmissible alternative only when one fails the declared input or problem-for-link conditions. `ConditionToPredicateInputRule` is a pattern-local by-value rule inside `CharacteristicSpacePredicate`; it is not a U-kind, relation occurrence, evaluation result, or copied PFR field.
 
-**Public name settlement.** The following F.18 NameCard names the applicability relation kind. It does not make one applicability occurrence obtain and does not replace the relation signature below.
+**Public name settlement.** The following F.18 NameCard names the applicability relation kind.
 
 ```text
 NameCard:
@@ -52244,7 +52244,7 @@ A semantic predicate change selects a different predicate participant; it is not
 
 #### C.22.PFR:4.2 - Keep the PFR signature reduced to two participants
 
-**Public name settlement.** The following F.18 NameCard names the actual dependent evaluative relation. It does not create the Problem, add a third participant, or replace the occurrence-identity rule.
+**Public name settlement.** The following F.18 NameCard names the actual dependent evaluative relation kind.
 
 ```text
 NameCard:
@@ -52275,7 +52275,7 @@ ProblematicForRelation:
 
 The first reference resolves to the exact obtaining relation that constitutes the actual condition under its direct pattern. The second resolves to the exact obtaining applicability relation from C.22.PFR:4.1.
 
-PFR has no separately writable condition-bearer, predicate, problem-for-entity, claim-scope, applicability-window, assessment-window, or description-edition slot. Those values are already fixed by the two participant relations and their defining declarations. A readable claim projects them from the two participants:
+PFR has no separately writable condition-bearer, predicate, problem-for-entity, claim-scope, applicability-window, assessment-window, or description-edition slot. The actual-condition relation fixes its condition participants, and the applicability relation fixes the predicate, problem-for entity, claim scope, and declared applicability window. Assessment windows and description editions remain with their own claims. A readable claim projects the applicability values from that participant:
 
 ```text
 PFR.problemCriterionPredicate
@@ -52298,13 +52298,13 @@ This is a derivation from one participant, not a consistency check between copie
 
 1. The exact `ActualConditionRelation` obtains under its direct pattern.
 2. The exact `ProblemCriterionApplicabilityRelation` obtains because its criterion remains governing for the exact entity and claim scope under the declared criterion-applicability window, independently of whether the actual condition is adverse.
-3. Apply the predicate's exact `ConditionToPredicateInputRule` to the actual-condition participant. It must yield the declared characteristic-space point or value and the direct link to the problem-for entity and use; that point then falls on the adverse side under the selected scale, comparator, cut or band, polarity, and admissibility semantics.
+3. For the actual-condition participant, the predicate's exact `ConditionToPredicateInputRule` must yield the declared characteristic-space point or value and the direct link to the problem-for entity and use; that point falls on the adverse side under the selected scale, comparator, cut or band, polarity, and admissibility semantics.
 
 The selected direct consumer supplies the governed input projection or consumes the direct characteristic assignment, then governs the comparator and admissibility semantics. An evaluation may calculate or support a claim that the resulting point is adverse. Comparison outcomes, acceptance outcomes, state or gate results, measurements, evidence, and assessment claims are not automatically PFR participants, and producing them does not make PFR obtain.
 
-A Problem can therefore obtain unnoticed. Later detection produces work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
+A Problem can therefore obtain unnoticed. Later detection can involve work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
-When evaluation is actually performed, recover every exact actual performer `U.System` through A.13, let A.15.1 independently admit the dated evaluation `U.Work`, and name the selected `U.Method` or declared A.6.1 operation application. Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, neither a local system-role kind nor an assignment acts, and missing or failed F.6 leaves the evaluation Work intact. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result, A.10 and B.3 may warrant reliance on that assertion, G.11 may qualify its current edition, and the receiving Work may rely, decline, defer, or reopen. These are distinct objects and relations. `unknown` is an evaluation result, never a world-side PFR value; no evaluation Work, result, assertion, warrant, currentness judgment, or reliance disposition constitutes a PFR participant or makes the relation obtain.
+When evaluation is actually performed, recover every exact actual performer `U.System` through A.13, independently admit the dated evaluation `U.Work` under A.15.1, and name the `U.Method` actually followed. Name any declared A.6.1 operation application separately when its returned-value binding is claimed. Add F.6 only when the evaluation account or a receiving use expressly consumes precise assignment-bound attribution through the same obtaining A.13 assignment; missing or failed F.6 leaves the evaluation Work intact. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result. A.10 governs evidence use for reliance on that assertion, B.3 governs any named assurance claim, and G.11 may qualify the assertion's current edition. The practitioner may rely on the assertion for the receiving Work, decline or defer that reliance, or reopen its basis. `unknown` is an evaluation result, never a world-side PFR value; test PFR obtaining through the three conditions in §4.3.
 
 
 #### C.22.PFR:4.4 - Identify repeated adverse episodes from world-side continuity
@@ -52345,9 +52345,9 @@ Evidence that supports A, B, and C warrants the corresponding two-occurrence ass
 
 #### C.22.PFR:4.6 - Keep assertions, reliance, anticipated conditions, solvability, and cards separate
 
-An assertion about the exact PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. A.10/B.3 separately governs whether one receiving use treats that assertion as supported, refuted, or unresolved. Assertion polarity, support, and reliance therefore answer different questions.
+An assertion about the exact PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. A.10 governs the evidence-use account for treating that assertion as supported, refuted, or unresolved in one receiving use; B.3 applies only when a named assurance claim is current. Assertion polarity, support, and reliance therefore answer different questions.
 
-A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity; `C.27`, `C.28`, or the exact direct claim pattern defines or constrains assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
+A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity. Use `C.27` when a rate, rhythm, recovery, or regime claim is being used to change action and `C.28` when causal support is at issue. The exact direct claim pattern defines or constrains assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
 
 A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective `U.ReferenceScheme`. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card. Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity. C.22.2:20.1b replays all three branches with exact objects: two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card; Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards; and two differently qualified cards retain the unchanged `PFR-InspectionAssignment-17` reference.
 
@@ -52383,7 +52383,7 @@ The by-value predicate `NoInspectorSystemRoleBeforeValidation-v2` uses one direc
 
 > Robot-7 is assigned as inspector through `InspectionAssignment-17`, while `InspectorSystemRole` is prohibited for this System's autonomous-inspection release before validation during the declared 13–15 July window. This assignment is an actual Problem for Robot-7's release during its 13 July 09:00–17:00 assignment episode.
 
-**Evaluation and reliance remain separate.** Admitted `SafetyReviewSystem-2 : U.System` performs dated `InspectionReleaseCheckWork-21` under independently obtaining `SafetyReviewAssignment-9 : SafetyReviewWorkAssignment <: U.SystemRoleAssignment`; F.6 uses the assignment's holder projection, and the Work enacts `InspectionReleaseCheckMethod-3`. The operation application returns `true` for the adverse predicate. `InspectionReleaseCheckAssertion-21` states that result; its evidence path and assurance tuple can warrant one release decision, G.11 can qualify the assertion edition, and the release Work can rely or decline. None is a third PFR participant. A `ProblemCard` may later designate `PFR-InspectionAssignment-17`; creating, revising, splitting, or publishing that card changes neither PFR participant nor actuality. If evaluation never occurs, the PFR still obtains. If the assertion is stale, the decision's reliance may become `unknown`, but the world-side relation is not thereby created, ended, or split.
+**Evaluation and reliance remain separate.** Admitted `SafetyReviewSystem-2 : U.System` performs dated `InspectionReleaseCheckWork-21` under independently obtaining `SafetyReviewAssignment-9 : SafetyReviewWorkAssignment <: U.SystemRoleAssignment`; F.6 uses the assignment's holder projection, and the Work enacts `InspectionReleaseCheckMethod-3`. The operation application returns `true` for the adverse predicate. `InspectionReleaseCheckAssertion-21` states that result; its evidence path and assurance tuple can warrant one release decision, G.11 can qualify the assertion edition, and the release decision-maker can rely on the assertion or decline that reliance. None is a third PFR participant. A `ProblemCard` may later designate `PFR-InspectionAssignment-17`; creating, revising, splitting, or publishing that card changes neither PFR participant nor actuality. If evaluation never occurs, the PFR still obtains. If the assertion is stale, the basis for that reliance may become unresolved, but the world-side relation is not thereby created, ended, or split.
 
 **Actuality and recurrence.** Selecting another staffing Method and writing a Work order do not end the PFR. Only actual cessation of the A.2.1 assignment predicate at the stated 17:00 boundary ends it. When the same direct species predicate resumes on the next day as `InspectionAssignment-18` while the applicability occurrence still obtains, A.2.1 identifies that later system-role-assignment occurrence and its later adverse inception grounds `PFR-InspectionAssignment-18`. An evidence gap alone establishes neither continuous assignment nor withdrawal and reassignment.
 
@@ -52391,13 +52391,13 @@ The by-value predicate `NoInspectorSystemRoleBeforeValidation-v2` uses one direc
 
 **Blocked stress fixture — battery voltage.** Current A.18 and C.16 can govern the voltage characteristic, scale, measurement work, result, uncertainty, and assertion. They do not supply a direct voltage-state relation with participant meanings, obtaining, temporal extent, recurrence, and occurrence identity. Therefore `TerminalVoltageState-12` is not minted here, and the low-voltage case remains non-conforming until an A.6.RCD decision selects or assigns that direct governor. `MeterReport-88`, an alarm, or a maintenance card may support a claim but cannot fill `ActualConditionRelationSlot` or backdate PFR.
 
-**Blocked stress fixture — proof gap.** Current proof and assurance patterns define or constrain proof epistemes, obligations, evidence, and relying decisions, but no inspected direct pattern supplies both (a) an individuable unresolved-consequence relation with its obtaining and episode law and (b) the exact proof-use or acceptance object and applicability relation needed by the case. Keep the condition gate and problem-for/applicability gate separate. `UnresolvedConsequence-17`, `ProofUseEntity`, and an omnibus proof-gap object are not admitted by this wording; the case remains non-conforming until both direct governors close.
+**Blocked stress fixture — proof gap.** Current proof and assurance patterns define or constrain proof epistemes, obligations, evidence, and relying decisions, but this case lacks direct patterns supplying both (a) an individuable unresolved-consequence relation with its obtaining and episode law and (b) the exact proof-use or acceptance object and applicability relation needed by the case. Keep the condition gate and problem-for/applicability gate separate. `UnresolvedConsequence-17`, `ProofUseEntity`, and an omnibus proof-gap object are not admitted by this wording; the case remains non-conforming until both direct governors close.
 
-**Blocked stress fixture — clinical condition.** A diagnosis, assessment, measurement report, and patient label are epistemes or context-dependent cues, not the clinical-condition occurrence or patient identity. No clinical-condition pattern selected in this package supplies the needed participants, obtaining, recurrence, identity, and temporal extent. Until one does, keep the case non-conforming. If *patient* also names a work-facing classification or assignment, recover the holder System, local system-role kind, assignment occurrence, and declared `U.SystemRoleAssignment` species separately; none supplies the missing clinical-condition relation.
+**Blocked stress fixture — clinical condition.** A diagnosis, assessment, measurement report, and patient label are epistemes or context-dependent cues, not the clinical-condition occurrence or patient identity. This case lacks a clinical-condition pattern supplying the needed participants, obtaining, recurrence, identity, and temporal extent. Until one does, keep the case non-conforming. If *patient* also names a work-facing classification, recover the classified System and local system-role kind. If an assignment is claimed, recover its holder System, assigned kind, occurrence, and declared `U.SystemRoleAssignment` species; none supplies the missing clinical-condition relation.
 
-**Blocked stress fixture — missed transfer.** First distinguish transfer Work, a world-side transfer or delivery relation, a commitment or acceptance relation, and a package or record episteme. E.18's structural `U.Transfer` cannot be reused merely by the phrase *hand-off failure*. No inspected direct pattern supplies the exact missed-transfer condition relation, and the phrase *receiving work* does not decide whether the problem-for entity is intended `U.WorkPlan`, dated `U.Work`, or another governed entity. The case therefore remains non-conforming until separate direct governors settle both questions.
+**Blocked stress fixture — missed transfer.** First distinguish transfer Work, a world-side transfer or delivery relation, a commitment or acceptance relation, and a package or record episteme. E.18's structural `U.Transfer` cannot be reused merely by the phrase *hand-off failure*. This case lacks a direct pattern supplying the exact missed-transfer condition relation, and the phrase *receiving work* does not decide whether the problem-for entity is intended `U.WorkPlan`, dated `U.Work`, or another governed entity. The case therefore remains non-conforming until separate direct governors settle both questions.
 
-**Blocked stress fixture — one hot surface, two uses.** No inspected direct pattern supplies an individuated hot-surface condition relation; a temperature reading cannot substitute for it. If such a governor later exists, hold its one occurrence fixed and use two distinct applicability occurrences when an exact receiving `U.Work` and an exact `U.System` have different problem-for fillers, scopes, declared windows, or applicability continuity. Adverse truth would then yield two PFR occurrences sharing only the condition reference. Until the condition gate closes, this remains a multiplicity test, not an asserted example.
+**Blocked stress fixture — one hot surface, two uses.** This case lacks a direct pattern supplying an individuated hot-surface condition relation; a temperature reading cannot substitute for it. If such a governor later exists, hold its one occurrence fixed and use two distinct applicability occurrences when an exact receiving `U.Work` and an exact `U.System` have different problem-for fillers, scopes, declared windows, or applicability continuity. Adverse truth would then yield two PFR occurrences sharing only the condition reference. Until the condition gate closes, this remains a multiplicity test, not an asserted example.
 
 **Repair branch replay.** Keep four outcomes distinct: a repair method is selected; repair work is planned; dated repair work occurs without a demonstrated condition change; or dated repair work is connected through its direct change/result governors to actual cessation or non-adversity of the condition. Only the fourth outcome can end PFR while applicability continues. A work record, result claim, acceptance verdict, or method label is insufficient.
 
@@ -52476,7 +52476,7 @@ These lines change the Solution by keeping evaluation outside PFR, admitting rel
 - `A.6.RCD` governs each missing direct-condition or applicability relation decision; C.22.PFR keeps the affected case non-conforming until an existing direct predicate closes it or a separately admitted direct subject pattern supplies obtaining, recurrence, and occurrence identity.
 - `A.6.5` governs the two PFR participant SlotSpecs and the four applicability SlotSpecs.
 - `A.19` governs the characteristic space used by `CharacteristicSpacePredicate`; the selected direct consumer governs its condition-to-input rule and comparator semantics, `A.19.CPM` governs comparison when that is the consumer, and `G.4` governs typed acceptance clauses when acceptance is the consumer.
-- `C.16`, `A.18`, and direct condition or measurement patterns define or constrain characteristics, scales, actual characteristic assignments or state relations, and measurements. F.9 governs any cross-reference-scheme bridge named by the input rule; none of these adds a PFR participant.
+- `C.16`, `A.18`, and direct condition or measurement patterns define or constrain characteristics, scales, actual characteristic assignments or state relations, and measurements. F.9 governs any semantic Bridge named by the input rule; none of these adds a PFR participant.
 - `C.22` governs selector-facing task typing and TaskSignature assignment after a problem-side episteme is usable.
 - `C.22.2` governs ProblemCard claims, signals, forecasts, scenarios, anticipated-condition cues, descriptions, next use, and publication without creating PFR; the exact direct claim pattern defines or constrains each claim carried there.
 - `A.15.1` and `A.3.4` govern repair work and changes to the actual-condition relation.
@@ -52508,7 +52508,7 @@ These lines change the Solution by keeping evaluation outside PFR, admitting rel
 
 **C.2.1 constitution.** One ProblemCard is one `U.Episteme` constituted by one exact ClaimGraph, one independently identified joint `EntityOfConcern`, and one effective `U.ReferenceScheme`. `U.ClaimScope`, assumptions, horizons, qualification windows, viewpoints, and receiving uses qualify only the exact claims and direct relations that need them. No setting, carrier, organization, card id, or publication is a fourth constitution component or identifies an actual Problem. An exact composite or component `U.Work` under A.15.6 may be referenced by a claim or receiving use; it neither constitutes the card nor identifies the Problem.
 
-**Claim-family, actuality, and solvability boundary.** A card may carry several claims only while their ClaimGraph has that one joint EntityOfConcern. An actual-problem assertion states affirmative or negative polarity for the exact `ProblematicForRelation` obtaining predicate. An affirmative assertion may designate an independently established occurrence only when C.22.PFR supplies both participants and its adverse episode; negative polarity creates, ends, erases, or reidentifies no occurrence. A.10/B.3 separately states supported, refuted, or unresolved reliance for one receiving use; G.11 separately governs assertion-edition currentness. Forecast, scenario, counterfactual, and anticipated-condition claims retain their exact assumptions, horizon, and direct governor and do not assert a current PFR. A method-availability or solvability claim concerns the admitted method set, evidence, constraints, and intended use; selecting a method changes that claim, not an independently obtaining PFR. Card creation, acceptance, publication, merge, split, label, Work reference, viewpoint, or setting word makes or ends no PFR. Only non-adversity or cessation of the actual-condition or criterion-applicability participant can end its maximal continuous adverse episode; missing, stale, refuted, or absent evidence cannot.
+**Claim-family, actuality, and solvability boundary.** A card may carry several claims only while their ClaimGraph has that one joint EntityOfConcern. An actual-problem assertion states affirmative or negative polarity for the exact `ProblematicForRelation` obtaining predicate. An affirmative assertion may designate an independently established occurrence only when both participants and its adverse episode are established under C.22.PFR; negative polarity creates, ends, erases, or reidentifies no occurrence. A.10, with B.3 only for an actual named assurance claim, separately governs whether one receiving use treats the assertion as supported, refuted, or unresolved; G.11 separately governs assertion-edition currentness. Forecast, scenario, counterfactual, and anticipated-condition claims retain their exact assumptions, horizon, and direct governor and do not assert a current PFR. A method-availability or solvability claim concerns the admitted method set, evidence, constraints, and intended use; selecting a method changes that claim, not an independently obtaining PFR. Only non-adversity or cessation of the actual-condition or criterion-applicability participant can end its maximal continuous adverse episode; missing, stale, refuted, or absent evidence cannot.
 
 ### C.22.2:1 - Problem Frame
 
@@ -52584,7 +52584,7 @@ If the claim, relation, or boundary does not change the current problem-card use
 | Method family, work planning, work-entry readiness, performed work, result record, evidence, provenance, assurance, gate, or autonomy | Problem-side cue, source reference when it changes formulation, and stop condition before that outside use. | `G.5`, `A.15`, `A.15.5`, `A.10`, `G.6`, `B.3`, `A.21`, or `E.16` according to the claim named by value. |
 | Temporal, causal-use, representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation | Relation reference plus the inheritance boundary: what can be reused from the old card and what relation is reopened. | `C.27`, `C.28`, `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, `E.18`, or `E.10` according to the relation named by value. |
 | First-principles or mathematical structure cue | Candidate structure, preserved and lost structure when current, practical payoff for problem formulation, problem-formulation follow-up reason, and stop condition. | `C.29` for mathematical-lens use; `A.6.0` for a `FormalSubstrate` `U.Signature` declaration when that signature declaration is current. |
-| Agentic safe probe or world-affecting next action | Probe need, risk condition, bounded next action, and the safety named by value, autonomy, gate, work, evidence, or assurance claim kind that blocks local action. | `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` according to the relation named by value. |
+| Agentic safe probe or world-affecting next action | Probe need, risk condition, bounded next action, and the safety, autonomy, gate, work, evidence, or assurance claim kind that blocks local action. | `C.24`, `E.16`, `A.21`, `A.15`, `A.10`, `G.6`, or `B.3` according to the relation named by value. |
 
 Over-capture symptom: the practitioner spends the pattern use classifying FPF patterns while one or more core Thin items in `C.22.2:2.1` remain unstable.
 
@@ -52602,7 +52602,7 @@ Use record budgets:
 - Standard record budget: Thin fields plus the current comparison, acceptance, risk, validation, freshness, unknown-handling, or P2W-readiness fields needed for downstream use.
 - High-relation record budget: Standard fields plus only the relation references needed when public, disputed, high-risk, set-derived, cross-scheme, cross-use-boundary, evidence-adjacent, autonomy-adjacent, gate-adjacent, agentic, temporal, causal, representation, or Part-G relations are current.
 
-Stop at Thin when it gives a truthful next use. Stop at Standard when it is enough to emit or bind a minimal `TaskSignature`, `TaskKind`, or `ProblemProfile`. Apply the governing FPF pattern for the claim being made, relation, or boundary instead of enlarging the card when the issue under repair is no longer the problem-side record itself.
+Stop at Thin when it gives a truthful next use. Stop at Standard when it supplies enough problem-side input for a minimal `TaskSignature`, `TaskKind`, or `ProblemProfile` under C.22. Apply the governing FPF pattern for the claim being made, relation, or boundary instead of enlarging the card when the issue under repair is no longer the problem-side record itself.
 
 #### C.22.2:2.5 - Field Labels and Current-Use Conditions
 
@@ -52679,7 +52679,7 @@ The checklist protects a completed or reviewed card from overread; the writing o
 | Field budget | Conditional content appears only when current; absence and admitted `unknown` remain distinct. |
 | Exact source and set | A set-derived card preserves exact `sourceSetRef`, set kind, retention or selection criterion, and non-scalar next use without becoming an archive or portfolio object. |
 | Direct-governor cue | Claims outside C.22.2 remain local cues or references and name the exact pattern and claim kind used next. |
-| Constitution stays exact | Only ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme constitute the card. Scheme, ClaimScope, assumptions, windows, viewpoint, receiving use, and any exact A.15.6 Work reference stay in their claims and direct relations; no setting, carrier, or organization is added as a participant. |
+| Constitution stays exact | Only ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme constitute the card. ClaimScope, assumptions, windows, viewpoint, receiving use, and any exact A.15.6 Work reference stay in their claims and direct relations; no setting, carrier, or organization is added as a participant. |
 | Currentness and change | Freshness, changed representation, retargeting, or unknown-blocked use states refresh, retirement, bounded use, `abstainOrNoChange`, or the exact relation reopened. |
 | Scalar and proxy guard | Goldilocks, NQD, OEE, set-return, priority, indicator, or stepping-stone wording does not become one readiness score or substitute for value. |
 | First-principles payoff | A mathematical cue states practical payoff, preserved and lost structure when current, follow-up reason, and stop; C.29 governs the lens use. |
@@ -52723,7 +52723,7 @@ The card may reference candidate `ProblemProfile`, TaskSignature, source set, PF
 | `U.Work` | Performed dated Work | Governed by A.15.1; its record or evidence is separate. |
 | Result, measurement, assertion, evidence, or reliance | Exact output under C.16, C.2.1, A.10, G.6, B.3, G.11, or the direct result pattern | Can support a card claim but neither constitutes the card nor makes PFR obtain. |
 
-Transition to C.22 only when the card can prepare or designate the exact problem-side episteme or `ProblemProfile` needed by one receiving use and one TaskSignature is adequate for that use. If several profiles or signatures remain plausible, preserve candidates rather than asserting one assignment. When the question becomes selection, planning, performed Work, result, gate, evidence, or reliance, apply its governor instead of expanding the card.
+Use C.22 to prepare the TaskSignature from the exact problem-side episteme or `ProblemProfile` needed by one receiving use. Assert an assignment only when one TaskSignature is adequate for that use and C.22's obtaining rule holds. If several profiles or signatures remain plausible, preserve candidates rather than asserting one assignment. When the question becomes selection, planning, performed Work, result, gate, evidence, or reliance, apply its governor instead of expanding the card.
 
 ### C.22.2:5 - Relation to C.22
 
@@ -52747,7 +52747,7 @@ The heavy content stays with existing FPF patterns:
 - `G.4` carries acceptance clauses and threshold predicates;
 - use `G.5` for selector-facing selected-set result declaration when the problem enters a selected set; when actual audience availability is separately current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 
-Missing characterization or parity relation is a current disposition. The record applies the characterization, parity, search, or pool pattern when that relation is current instead of pretending the problem is ready for P2W.
+Missing characterization or parity relation is a current disposition. When that relation is current, apply the characterization, parity, search, or pool pattern before treating the problem as ready for P2W.
 
 The `C.22.2` candidate acceptance criterion separates functional check, constraint compliance, risk or safety boundary, parity or comparison relation, and freshness window when those relations are current. Comparison frame, CG-Spec, or comparability governance is governed by `G.0`. Acceptance clauses and acceptance threshold predicates apply `G.4`; `C.22.2` may name only the needed relation, cue, or reference. Passing a test, improving one observed indicator value, or naming an acceptance phrase is not by itself sufficient for P2W use.
 
@@ -52778,7 +52778,7 @@ Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, `
 | Palette | `C.18`, `C.19`, `G.5` | Preserve candidate-family or option-set interpretation without turning it into evidence or approval. |
 | Front | `C.18`, `A.19`, `C.25`, `G.5` | Preserve declared characteristics and non-dominated set interpretation. |
 | Shortlist | `G.5`, with `G.9` when comparison pins matter | Preserve selected-set criterion and downstream use. |
-| Ranked shortlist | `G.5` only when a declared order is declared | Preserve ranking criterion or narrow to selected set with tie notes. |
+| Ranked shortlist | `G.5` only when an order is declared | Preserve ranking criterion or narrow to selected set with tie notes. |
 | Selected set | `G.5` | Preserve selected-set output, selection pins, and unknown handling. |
 | `LivePool` | `C.19` | Preserve pool policy, current treatment, and change trigger. |
 | Set-return | `G.5`, `C.18`, `C.16.Q`, declared comparison records | Preserve set-valued result when no total order is declared. |
@@ -52813,7 +52813,7 @@ The local `solvability band` label means a scheme-and-scope-qualified, non-scala
 
 If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability relation and its qualification, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to its direct governor.
 
-The current governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. Its relation to `C.22:14` concerns entry and timing inside the same family: `C.22.2` uses it before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
+The current governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. Its relation to `C.22:15` concerns entry and timing inside the same family: `C.22.2` uses it before P2W, while `C.22:15` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
 
 ### C.22.2:10 - Structure Cue That Improves Formulation
 
@@ -52886,7 +52886,7 @@ When freshness, expiry, or unknown handling fails, choose one of these current d
 - retire or deprecate the problem-side record under the relevant archive, pool, selected-set, or refresh pattern;
 - continue only as explicitly governed bounded-risk use under the subject pattern for the claim being made, relation, or boundary.
 
-Unknown-handling fields state whether they permit use, require degraded use, abstention, or sandbox treatment, or make the current problem formulation blocked. No P2W, no change, or abstain-for-now may be a successful next use when the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not currently worth downstream work. Before `ProblemCard` emits or binds `TaskSignature`, it checks whether the problem signal is still present and whether prior work has already solved or removed the problem.
+Unknown-handling fields state whether they permit use, require degraded use, abstention, or sandbox treatment, or make the current problem formulation blocked. No P2W, no change, or abstain-for-now may be a successful next use when the signal is stale, duplicate, already solved, already absorbed, unnecessary, or not currently worth downstream work. Before using the `ProblemCard` as input to `TaskSignature` preparation or assignment under C.22, check whether the problem signal is still present and whether prior work has already solved or removed the problem.
 
 ### C.22.2:13 - Representation and Wording-Use Relation Continuity
 
@@ -52906,7 +52906,7 @@ Framing is not wording repair. A framing change applies when EntityOfConcern, ef
 
 ### C.22.2:14 - Source and P2W Carry-Forward
 
-The source presentation is not compressed into a generic problem-card summary. The following source details become carry-forward constraints for `C.22.2` use and for the P2W-facing relation from `C.22.2`.
+Apply the following source details as constraints on `C.22.2` use and its P2W-facing input.
 
 | Source detail | Current FPF recovery | `C.22.2` carry-forward relation |
 |---|---|---|
@@ -52920,13 +52920,13 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Stepping stones as option value: new actions, tools, data, interfaces, environments, or experiment modes that may expand downstream search | Retained archive, front, or pool member, or selected-set reason | `C.22.2` may record stepping-stone value only with a governing set-return, archive, or pool pattern and a retention or tie-break criterion. |
 | P2W chain: signatures and principles help select formalism, ontology, characterization, and method-family material | `A.6.0`, `A.6.1`, `C.16`, `A.19`, `C.29`, `G.5`, and `E.18` | `C.22.2` supplies problem-side cues and relation references; it does not select the formalism, ontology, mechanism, or method family by itself. |
 | P2W chain: condition measurement and comparison help select a concrete method | `C.16`, `A.19`, `C.25`, `G.9`, `G.5`, and `A.15` | State the comparison-and-acceptance cue or acceptance-criterion reference and parity and characterization relations needed by downstream method selection. |
-| P2W chain: work planning makes planned work inspectable | `A.15.2` and `A.15.3` | `C.22.2` may emit or bind `TaskSignature`, but the identifiable plan is one exact `U.WorkPlan`; any planned-filling row remains declaration-local content addressed through that plan. |
+| P2W chain: work planning makes planned work inspectable | `A.15.2` and `A.15.3` | `C.22.2` may supply problem-side input for `TaskSignature` preparation and assignment under C.22; the identifiable plan is one exact `U.WorkPlan`, and any planned-filling row remains declaration-local content addressed through that plan. |
 | P2W chain: performed work produces work-result records | `A.15`, `A.10`, `G.6`, and `B.3` | `C.22.2` does not treat performed work or result records as problem-card fields beyond problem-side cues or named relation references. |
 | P2W chain: result measurement can trigger refresh or return to earlier source material | `C.16`, `G.11`, `A.10`, `G.6`, `B.3`, `C.18`, and `C.19` | `C.22.2` states freshness or expiry and unknown-handling dispositions that let downstream result measurement refresh, retire, or re-open the problem-side record. |
 | Runbook, rollback plan, canary, SafeStop, error budget, and override protocol | Work, gate, autonomy, evidence, and control records | These source forms are not `C.22.2` subobjects; apply `A.15`, `A.21`, `E.16`, `A.10`, `G.6`, or `B.3` when the corresponding claim is current. |
 | Trust debt after reliance-window expiry | Freshness and decay indicator and bounded-risk continuation question | Treat trust debt as an indicator or problem-formulation follow-up reason, not as punishment, proof failure, or gate passage by itself. |
 
-This carry-forward preserves detail, not broader scope. `C.22.2` remains the problem-side output; P2W uses it with enough problem-side cues and exact receiving-use and Work references to select method families, plans, performed Work, and result measurement without making the card a P2W pattern.
+`C.22.2` remains the problem-side output. P2W carries its problem-side cues and, when current, exact receiving-use and Work references into method-family selection, work planning, performed-work interpretation, and result measurement.
 
 ### C.22.2:15 - SoTA Decision-Use Source Material
 
@@ -52936,8 +52936,8 @@ The following external anchors are adopted or adapted only where they change thi
 |---|---|---|---|
 | Problem framing turns an ill-structured situation into a solvable design problem and requires care because "framing" is ambiguous. | 2025 CEEA paper "Towards a Theoretical Framework of Framing in Engineering Design", `https://doi.org/10.24908/pceea.2025.19713` | Contributes deconfliction of symptom, situation, framed problem representation, and task. | Adopted as field and kind-recovery cue; wording is expressed in current FPF terms. |
 | Strategic problem framing distinguishes symptoms and attention allocation from causal problem formulation. | 2025 Organization Science article "Looking at the Trees to See the Forest: Construal Level Shift in Strategic Problem Framing and Formulation", DOI suffix `2024.19134`, `https://doi.org/10.1287/orsc.2024.19134` | Motivates the fields for problem signal, problem hypothesis/cause-theory cue, and improvement check. | Adapted; causal claims still apply `C.28` plus evidence, provenance, or assurance patterns when current. |
-| QD and OEE work motivates collections, fronts, archive retention, set-return, and non-single-winner treatment. | 2026 survey "A survey on Quality-Diversity optimization: Approaches, applications, and challenges", `https://www.sciencedirect.com/science/article/pii/S2210650225003979`; QD-as-MOO reference `https://arxiv.org/abs/2602.00478` checked 2026-05-20 | Motivates set-source-reference and Goldilocks docking into current `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. | Adopted as field and relation cue; no local QD or OEE vocabulary or scalar readiness score is introduced. |
-| Open-ended coding agents use archives, self-improvement, problem variants, evaluator feedback, and stepping-stone retention. | Darwin Godel Machine `https://arxiv.org/abs/2505.22954`, FrontierSmith `https://arxiv.org/abs/2605.14445`, and AlphaEvolve `https://arxiv.org/abs/2506.13131`, all checked 2026-05-20 | Contributes record-form, set-source reference, Goldilocks, safe-probe, and freshness fields and relation references for archive, problem generation, safe probes, evaluator feedback, no-change and abstain dispositions, and autonomy and evidence boundaries. | Adapted as recent trend cue; `C.22.2` is not turned into AI-agent doctrine or an AI-agent management pattern. |
+| QD and OEE work motivates collections, fronts, archive retention, set-return, and non-single-winner treatment. | 2026 survey "A survey on Quality-Diversity optimization: Approaches, applications, and challenges", `https://www.sciencedirect.com/science/article/pii/S2210650225003979`; QD-as-MOO reference `https://arxiv.org/abs/2602.00478` | Motivates set-source-reference and Goldilocks docking into current `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. | Adopted as field and relation cue; no local QD or OEE vocabulary or scalar readiness score is introduced. |
+| Open-ended coding agents use archives, self-improvement, problem variants, evaluator feedback, and stepping-stone retention. | Darwin Godel Machine `https://arxiv.org/abs/2505.22954`, FrontierSmith `https://arxiv.org/abs/2605.14445`, and AlphaEvolve `https://arxiv.org/abs/2506.13131` | Contributes record-form, set-source reference, Goldilocks, safe-probe, and freshness fields and relation references for archive, problem generation, safe probes, evaluator feedback, no-change and abstain dispositions, and autonomy and evidence boundaries. | Adapted as recent trend cue; `C.22.2` is not turned into AI-agent doctrine or an AI-agent management pattern. |
 | External AI-agent and autonomy practice more often makes evidence, log, gate, autonomy-budget, and update-discipline claims current. | Presented material plus current FPF autonomy, evidence, and gate patterns | Motivates subject-pattern assignment for validation, AI-agent cues, and safe probing. | Non-FPF-governed for the center of `C.22.2`; FPF-governed content remains with `E.16`, `A.21`, `A.10`, `G.6`, `B.3`, `A.15`, and `G.11`. |
 
 If a `C.22.2` use carries a wider external claim than these dispositions, the claim is outside this pattern and requires a separate content decision or demotion to a non-FPF-governed example.
@@ -53052,7 +53052,7 @@ For the unrelated branch, `InspectionReleaseAssignment` is a declared `U.SystemR
 
 | Anti-case | Correct result |
 |---|---|
-| The card is cited as safety acceptance, gate passage, tool-call action invitation, or work authorization. | Apply the safety named by value, gate, autonomy, work, evidence, provenance, or assurance pattern; keep only the problem-side cue in the card. |
+| The card is cited as safety acceptance, gate passage, tool-call action invitation, or work authorization. | Apply the pattern for the safety, gate, autonomy, work, evidence, provenance, or assurance claim; keep only the problem-side cue in the card. |
 | A mathematical phrase is added because it sounds rigorous. | Use `C.29` only when the candidate structure, preserved and lost structure, payoff, follow-up reason, and stop condition are recoverable. |
 | A source archive produces a "best" problem by one score. | Use source-set and selected-set patterns; the card carries a non-scalar source-set reference, criterion, and problem-side next use. |
 
@@ -53149,13 +53149,13 @@ For P2W carry-through, use E.18.1 with the accepted problem-side distinctions. F
 *LOG (logic) for deductive shells for admissibility*
 *First use expansion:* **SoS‑LOG = Science‑of‑Science LOG** (LEX short‑form discipline applied).
 
-**Registration boundary.** A `MethodFamily` is registered by one exact G.5 registry row and registry edition. That record names the family, its admitted members or grouping basis, and intended selector use. It does not create a `U.BoundedContext` or supply evidence, claim scope, validity, or a decision result.
+**Registration boundary.** A `MethodFamily` is registered by one exact G.5 registry row and registry edition. That record names the family, its admitted A.3.1 Method members and grouping basis, and intended selector use. Establish evidence, claim scope, validity, and the decision result under their respective rules.
 
-**Builds on.** **G.5** (MethodFamily registry/selector), **G.4** (Acceptance & EvidenceProfiles), **C.22** (TaskSignature S2), **C.18 NQD‑CAL** (QD/illumination), **C.19 E/E‑LOG** (emitters/policies), **B.3** (Assurance lanes & `R_eff`), **A.10** (Evidence Graph Ref), **E.10** (LEX), **E.18** (GateCrossing / CrossingBundle visibility). **Coordinates with.** **G.6** (EvidenceGraph), **G.8** (LOG bundling), **G.9** (Parity), **G.11** (Refresh).
+**Builds on.** **G.5** (MethodFamily registry/selector), **G.4** (Acceptance & EvidenceProfiles), **C.22** (TaskSignature S2), **C.18 NQD‑CAL** (QD/illumination), **C.19 E/E‑LOG** (emitters/policies), **B.3** (named assurance claims; `R_eff` under a declared policy), **A.10** (Evidence Graph Ref), **E.10** (LEX), **E.18** (GateCrossing / CrossingBundle visibility when a selected structural crossing is current). **Coordinates with.** **G.6** (EvidenceGraph), **G.8** (LOG bundling), **G.9** (Parity), **G.11** (Refresh).
 
 ### C.23:1 - Problem frame
 
-Families of methods compete inside a CG‑Frame. The selector (G.5) must **admit, degrade, or abstain** per family **without** universal scores, using **typed** problem descriptors and **auditable** evidence. Maturity of a family (how far it has travelled from “clever idea” to “run‑safe”) must be **visible to LOG** rules yet **separate from thresholds** (which live only in **AcceptanceClauses**, G.4).
+Families of methods compete inside a CG‑Frame. The selector (G.5) must **admit, degrade, or abstain** per family **without** universal scores, using **typed** problem descriptors and **auditable** evidence. Maturity of a family (its evidence-backed rung for the declared admission use) must be **visible to LOG** rules yet **separate from acceptance thresholds** (which live only in **AcceptanceClauses**, G.4).
 
 ### C.23:2 - Problem
 
@@ -53165,13 +53165,13 @@ Unstructured “readiness” stories and undisciplined evidence lead to:
 * (ii) **Prose‑only** gating that a dispatcher cannot execute,
 * (iii) reuse after the family, evidence profile, claim scope, qualification window, or comparison basis changed, or reliance on an unstated source-local, kind, or plane relation, and
 * (iv) Immature families leaking into production.
-  We need a **notation‑independent LOG layer** that turns **TaskSignature (S2)** + **EvidenceProfiles** into **executable rules** for *admit / degrade / abstain*, **routing any CL penalties to `R_eff` only** (never mutating **F/G**).
+  We need a **notation‑independent LOG layer** whose **executable rules** use **TaskSignature (S2)** + **EvidenceProfiles** to return *admit / degrade / abstain*, **routing CL penalties selected under R4 to `R_eff` only** (never mutating **F/G**).
 
 ### C.23:3 - Forces
 
 * **Pluralism vs. dispatchability.** Competing Traditions expose different invariants; selection must compare **without semantic flattening**.
 * **Maturity vs. opportunity.** Open‑ended exploration (E/E‑LOG) must coexist with **run‑safe** exploitation; *immature ≠ forbidden* → provide safe **degrade** paths.
-* **Unknowns (tri‑state).** Missing or `unknown` S2 fields must propagate **explicitly** to *degrade/abstain/sandbox*; no silent coercions.
+* **Unknowns (tri‑state).** Missing or `unknown` values in live S2 fields must propagate **explicitly** to *Degrade(mode)* (including *sandbox*) or *Abstain*; no silent coercions.
 * **Lexical discipline.** Head‑anchoring, EntityOfConcern / Description / specification-use separation, Bridge hygiene; **no tool names in Core**.
 
 ### C.23:4 - Solution — **Method‑SoS‑LOG**: deductive shells over Eligibility & Evidence
@@ -53179,7 +53179,7 @@ Unstructured “readiness” stories and undisciplined evidence lead to:
 #### C.23:4.1 - Objects & heads (LEX/I‑D‑S)
 
 *Tech heads; Plain twins are published via UTS.*
-**`MethodFamily`** (registered in G.5) carries **Eligibility** and artefact identity; **`MaturityCard`** (this pattern) carries evidence‑aware maturity; **`SoS‑LOG.Rule`** (this pattern) is an executable rule schema that returns one of `{Admit | Degrade(mode) | Abstain}` for a `(TaskSignature, MethodFamily)` pair. Descriptions live as `…Description`; when harnessed they become `…Spec`.
+**`MethodFamily`** (registered in G.5) carries **Eligibility** and artefact identity; **`MaturityCard`** (this pattern) carries evidence‑aware maturity; **`SoS‑LOG.Rule`** (this pattern) is an executable rule schema; evaluating a rule returns one of `{Admit | Degrade(mode) | Abstain}` for a `(TaskSignature, MethodFamily)` pair. A qualifying description episteme uses `…Description`; `…Spec` names that same episteme only after the E.10.D2 specification-use gate grants the named use.
 
 #### C.23:4.2 - Rule schema (normative)
 
@@ -53194,19 +53194,19 @@ with the following **branch obligations**:
 **R0 — CG-Spec gate (precondition).** For the exact G.5 registry row and `MethodFamily`, verify the cited `CG-Spec.MinimalEvidence` and EvidenceProfile for every CHR characteristic used by the family's acceptance clauses and flows, under the declared claim scope and selected slices, qualification window, and intended selector use. Failure ⇒ `Abstain` with reasons. Publish the consulted CG-Spec, EvidenceProfile, registry, and policy editions.
 *Rationale:* selector legality requires the CG‑Spec gate to be explicit, not implicit in prose. Publish associated **ReferencePlane** notes alongside the consulted ids.
 
-**R0.QD — QD/OEE pre‑gates (if applicable).** If S2 declares **BehaviorSpaceRef/ArchiveConfig/EmitterPolicyRef** or `PortfolioMode=Archive`, verify:
+**R0.QD — QD/OEE pre‑gates (if applicable).** If S2 declares **CharacteristicSpaceRef/ArchiveConfig/EmitterPolicyRef** or `PortfolioMode=Archive`, verify:
 (i) **CharacteristicSpaceRef** characteristics are CHR‑typed, d≥2, **ReferencePlane** per characteristic declared;
 (ii) **ArchiveConfig** is lawful (topology, resolution, **K**>0, `InsertionPolicyRef`, `DistanceDef` with **edition id** and declared metric/pseudometric status);
 (iii) **EmitterPolicyRef** present (with **edition id**);
- (iv) **DominanceRegime** present; if absent, **default= ParetoOnly**.
+ (iv) resolve **DominanceRegime**; if absent, use **default= ParetoOnly**.
  Failure of any ⇒ `Abstain` with reasons.
 
 **R1 — Admit.** `Admit` **IFF**
 (a) S2 satisfies **Eligibility** predicates of *f* (tri‑state aware),
 (b) the exact **EvidenceProfile minima** referenced by Acceptance/Flows for *f* are met for the declared claim scope and selected slices, qualification window, and intended selector use (post R0),
 (c) all relevant **CAL.AcceptanceClauses** (G.4) evaluate to true under lawful CHR comparisons,
-(d) any **maturity gating** (e.g., a floor on Maturity rungs) is expressed as an **AcceptanceClause** and referenced here by id (no thresholds inside LOG).
-*LOG never sets thresholds; it only executes and cites Acceptance verdicts.*
+(d) any **maturity gating** (e.g., a floor on Maturity rungs) is expressed as an **AcceptanceClause** and referenced here by id (no acceptance thresholds inside LOG).
+*LOG never sets acceptance thresholds; its rules use and cite Acceptance verdicts.*
 
 **R2 — Degrade.** If (a) holds but (b) or (c) is **partially** satisfied or **unknown**, return `Degrade(mode)` where `mode ∈ {scope-narrow | sandbox | probe-only}`. Record the exact S2 unknowns or evidence minima, narrowed claim scope or execution mode, qualification window, governing policy edition, and result. LOG-Degrade never changes CHR scales or planes.
 **Note (CAL vs LOG).** CAL‑level **`degrade.order`** (fall‑back to order‑only comparisons) is governed by **G.4**/**CG‑Spec** and is **not** a LOG mode. **SoS‑LOG never overrides CAL outcomes**; a LOG branch **only narrows** `Scope(G)` or **execution mode** (e.g., `sandbox`, `probe‑only`), it **does not** alter CHR scales or admissible orders.
@@ -53214,24 +53214,24 @@ with the following **branch obligations**:
 
 **R3 — Abstain.** If S2 violates **Eligibility** or R0 fails, return `Abstain` with the failed rule, policy edition, evidence profile, claim scope, qualification window, and reasons. Abstain is mandatory for illegal CHR operations and when a conclusion depends on an F.9 Bridge, kind relation, or plane relation that has not been established.
 
-**R4 — Relation and loss routing.** Cite an F.9 Bridge, kind relation, or plane relation only when the admission decision actually relies on that obtaining relation. Record its participants, direction, what meaning is preserved and what is lost, receiving use, and applicable policy edition. Any supported loss reduces `R_eff` only; `F` and `G` remain unchanged. A changed registry row, evidence profile, claim scope, qualification window, or intended use is not by itself a crossing.
+**R4 — Relation and loss routing.** Cite an F.9 Bridge, kind relation, or plane relation only when the admission decision actually relies on that obtaining relation. Record its participants, direction, what meaning is preserved and what is lost, receiving use, and applicable policy edition. When the admission use makes a separate named assurance claim, identify its exact target claim and receiving use under B.3. Apply a supported loss penalty only under that assurance policy's declared rule; route it to `R_eff` only, leaving `F` and `G` unchanged. A changed registry row, evidence profile, claim scope, qualification window, or intended use is not by itself a crossing.
 
-**R5 — Proof hooks.** Every branch **MUST** cite **Evidence Graph Ref** (A.10), lane tags (TA/VA/LA), freshness windows, and (if bridged) **Bridge ids + loss notes**; the decision is **SCR‑visible**. When **G.6 EvidenceGraph** is present, also **publish EvidenceGraph path id(s)** for the branch (admit/degrade/abstain). **No self‑evidence**.
+**R5 — Proof hooks.** Every branch **MUST** cite **Evidence Graph Ref** (A.10), the lane tags (TA/VA/LA) and freshness windows required by its cited CG-Spec.MinimalEvidence and EvidenceProfile, and **Bridge ids + loss notes** when the branch relies on a Bridge; the decision is **SCR‑visible**. When **G.6 EvidenceGraph** is present, also **publish EvidenceGraph path id(s)** for the branch (admit/degrade/abstain). **A branch verdict is not its own evidence basis**.
 
-**R6 — QD archive / PortfolioMode semantics (if applicable).** If `PortfolioMode=Archive`, `Admit` may return a **QD archive** (per `ArchiveConfig`) instead of only a Pareto set. Unless **CAL** authorises `DominanceRegime=ParetoPlusIllumination` (**policy‑id recorded in SCR**), **IlluminationSummary** is a **report‑only telemetry summary** and any **coverage/regret** are **telemetry metrics** (reported) that **do not** affect dominance.
+**R6 — QD archive / PortfolioMode semantics (if applicable).** If `PortfolioMode=Archive`, G.5 selection after `Admit` may return a **QD archive** (per `ArchiveConfig`) instead of only a Pareto set. Unless **CAL** authorises `DominanceRegime=ParetoPlusIllumination` (**policy‑id recorded in SCR**), **IlluminationSummary** is a **report‑only telemetry summary** and any **coverage/regret** are **telemetry metrics** (reported) that **do not** affect dominance.
 
 **R7 — GeneratorFamily branches (open‑ended).** If S2 includes `GeneratorIntent`, SoS‑LOG **MUST**:
  (i) verify **`EnvironmentValidityRegion`** is declared and lawful;
  (ii) verify **`TransferRulesRef`** exists; if `unknown` ⇒ `Degrade(scope‑narrow)` or `Abstain` per family policy;
  (iii) treat the selection surface as **pairs `{environment, method}`**; publish **coverage/regret** and **IlluminationSummary** as **report‑only telemetry** (IlluminationSummary = telemetry summary; coverage/regret = telemetry metrics); dominance participation per **R6**.
 
-**R8 — Telemetry & Refresh hooks.** On any illumination increase or archive change, publish **edition increments** for **CharacteristicSpaceRef**/**DistanceDefRef** and the **policy‑id** (Emitter/Acceptance) that caused the change; expose **PathSliceId** for refresh/decay in SCR.
+**R8 — Telemetry & Refresh hooks.** On any illumination increase or archive change, publish the current editions and any actual **edition increments** for **CharacteristicSpaceRef**/**DistanceDefRef**/**EmitterPolicyRef** and the applicable **policy‑id** (Emitter/Acceptance); expose **PathSliceId** for refresh/decay in SCR only when an E.18 path slice is current.
 
 > *Aphorism.* **“Admit on admissibility and sufficiency; degrade on uncertainty; abstain on inadmissibility.”**
 
 #### C.23:4.3 - Maturity ladder (poset, not a scalar; Description, not Spec)
 
-Publish one editioned **`MaturityCardDescription`** for the exact evaluated `MethodFamily`, G.5 registry edition, evidence profile, claim scope and selected slices, qualification window, and intended admission use (UTS enum ids; scale kind = ordinal; reference plane declared). Do not embed thresholds here; an admission floor remains a G.4 AcceptanceClause cited by R1.
+Publish one editioned **`MaturityCardDescription`** for the exact evaluated `MethodFamily`, G.5 registry edition, evidence profile, claim scope and selected slices, qualification window, and intended admission use (UTS enum ids; scale kind = ordinal; reference plane declared). Do not embed acceptance thresholds here; an admission floor remains a G.4 AcceptanceClause cited by R1.
 
 * **L0 — Anecdotal.** Claims exist; lanes sparse; examples ad‑hoc.
 * **L1 — Worked‑Examples.** Multiple **worked examples** with lane tags and **Scope slices** declared; *no replication yet*.
@@ -53243,23 +53243,23 @@ Publish one editioned **`MaturityCardDescription`** for the exact evaluated `Met
 
 **Norms.**
 **M1.** The ladder is **lane‑aware** (TA/VA/LA) and **freshness‑aware**; it is **not** a global numeric score. Declare **Scale kind=ordinal** and the **closed enumeration** of rungs; register the enum at **UTS** (twin labels; editioned).
-**M2.** Transitions **MUST** be justified by **EvidenceGraph** paths (once G.6 is available) and UTS publication; missing anchors ⇒ no advance.
-**M3.** Any maturity floor used for admission—for example, a run-critical selector use requiring at least L2—MUST be authored as a CAL.AcceptanceClause and cited by R1 with its policy edition, claim scope, qualification window, and verdict; SoS-LOG does not embed thresholds.
-**M4.** Declare the MaturityCard reference plane. If an admission decision relies on a relation to another plane, cite that exact obtaining plane relation, its direction and loss, and the applicable policy edition; supported loss affects `R_eff` only.
+**M2.** Transitions **MUST** be justified by **EvidenceGraph** paths (once G.6 is available) and published at UTS; missing anchors ⇒ no advance.
+**M3.** Any maturity floor used for admission—for example, a run-critical selector use requiring at least L2—MUST be authored as a CAL.AcceptanceClause and cited by R1 with its policy edition, claim scope, qualification window, and verdict; SoS-LOG does not embed acceptance thresholds.
+**M4.** Declare the MaturityCard reference plane. If an admission decision relies on a relation to another plane, cite that exact obtaining plane relation, its direction and loss, and the applicable policy edition; a supported loss penalty selected under R4 affects `R_eff` only.
 
-> *Rationale note.* Treating maturity as a **poset** aligns with B.3’s lane calculus and avoids **scalarisation across ordinal/ratio** scales; assurance penalties remain on **R**, never **F/G**.
+> *Rationale note.* Treating maturity as a **poset** aligns with B.3's requirement for lawful comparisons and avoids **scalarisation across ordinal/ratio** scales; assurance penalties selected under R4 affect **`R_eff`**, never **F/G**.
 
 #### C.23:4.4 - Unknowns & Shift classes (tri‑state discipline)
 
 **U1. (LEX).** Enumerations for `Degrade(mode)` and Maturity rungs **MUST** be declared as **closed value sets** and **registered at UTS** (twin labels). **Lexical SD** (**E.10**) applies.
-**U2.** Every S2 field is tri‑state; `unknown` **MUST** map to a branch (`Degrade` or `Abstain`) declared on the **family** (no coercions). Each branch publishes a **branch‑id** and (where used) a `mode` from a **closed enum** registered at **UTS** (LEX enum clarity).
+**U2.** A live S2 characteristic or predicate admits `unknown` only when its C.22 value rule permits it; `unknown` **MUST** map to a branch (`Degrade` or `Abstain`) declared on the **family** (no coercions). Each branch publishes a **branch‑id** and (where used) a `mode` from a **closed enum** registered at **UTS** (LEX enum clarity).
 **U3.** `ShiftClass` semantics follow **C.22**. If `ShiftClass ∈ {covariate‑shift, concept‑drift, adversarial}` or `unknown`, default outcome is `Degrade(scope‑narrow)` unless a CAL.AcceptanceClause explicitly guards the regime.
 
 #### C.23:4.5 - Publication & wiring
 
 **W1.** For each evaluated `MethodFamily`, publish an editioned `MaturityCardDescription` naming the registry edition, evidence profile, claim scope, qualification window, reference plane, and intended admission use; register the SoS-LOG rule ids. RSCR tests cover `Admit`, `Degrade`, `Abstain`, and unknown paths. Relation and loss-policy ids appear only where a branch actually relies on them.
-**W2. Admissibility Ledger.** Publish an editioned `AdmissibilityLedger`: each selector-facing row names the exact `MethodFamilyId`, G.5 registry edition, RuleId and rule edition, MaturityRung, EvidenceProfile, claim scope, qualification window, BranchIds, AcceptanceClause and policy ids, decision result, evidence paths, DominanceRegime, PortfolioMode, and any obtaining relation and loss-policy ids actually used. UTS registers the row vocabulary; the ledger does not create validity or a Context object.
-**W3. Strategy composition.** Strategy is a G.5 composition under **E/E-LOG** unless a separate E.24.UK admission proves durable kindhood for a different governed object.
+**W2. Admissibility Ledger.** Publish an editioned `AdmissibilityLedger`: each selector-facing row names the exact `MethodFamilyId`, G.5 registry edition, RuleId and rule edition, MaturityRung, EvidenceProfile, claim scope, qualification window, BranchIds, AcceptanceClause and policy ids, decision result, evidence paths, DominanceRegime, PortfolioMode, and any obtaining relation and loss-policy ids actually used. UTS registers the row vocabulary; the ledger records the admission result and its basis.
+**W3. Strategy composition.** For a selection composition called a strategy, cite its governing G.5 rule and **E/E-LOG** policy.
 **W4.** Selector (G.5) **consumes** these rules; results appear in the **Dispatcher Report** with reasons in/out and cited anchors/bridges.
 
 ### C.23:5 - Archetypal Grounding (Tell–Show–Show)
@@ -53275,7 +53275,7 @@ Publish one editioned **`MaturityCardDescription`** for the exact evaluated `Met
 - `Symplectic`: eligible only when `Hamiltonian=true`; here ⇒ `Abstain`.
 *Didactic anchor.* This mirrors C.22’s typed‑signature discipline and CHR legality (no ordinal means; unit alignment for **ratio**).
 
-> Contemporary ecosystem examples of these families (post‑2015) are organised in **DifferentialEquations.jl**, which exposes multiple solver **families** under one call surface—precisely the pattern G.5 expects. ([Journal of Open Research Software][17])
+> The cited ecosystem examples of these families (post‑2015) are organised in **DifferentialEquations.jl**, which exposes multiple solver **families** under one call surface—precisely the pattern G.5 expects. ([Journal of Open Research Software][17])
 
 **Show‑2 - Planning/scheduling (MIP task).**
 *S2 excerpt.* `DataShape=MIP; NoiseModel=deterministic; Objective={↓cost@ratio, ↑service_level@ordinal}; Size≈10^5 vars; convex_relaxation=available`.
@@ -53286,7 +53286,7 @@ Publish one editioned **`MaturityCardDescription`** for the exact evaluated `Met
 - `Heuristic meta‑search`: **MaturityCard**=`L1` ⇒ `Degrade(sandbox)` or `Abstain` depending on RSCR parity policy.
 *Didactic anchor.* Selector returns a **Pareto set** (no cross‑ordinal weighting), as required by G.5.
 
-> Contemporary “single call / many solvers” packaging that motivates MethodFamily rows is exemplified by **JuMP** (2017–2022), which cleanly separates **model description** from solver choice. ([Miles Lubin][18])
+> The cited “single call / many solvers” packaging that motivates MethodFamily rows is exemplified by **JuMP** (2017–2022), which cleanly separates **model description** from solver choice. ([Miles Lubin][18])
 
 - *DifferentialEquations.jl* illustrates **family‑based** solver packaging (multi‑method under one interface), 2017–2024 ecosystem. ([Journal of Open Research Software][17])
 - *JuMP* illustrates **model/solver separation** and registry‑like selection (2021–2022 papers, site). ([Miles Lubin][18])
@@ -53294,11 +53294,11 @@ Publish one editioned **`MaturityCardDescription`** for the exact evaluated `Met
 
 **Show‑3 - QD archive (policy search).**
 *S2 excerpt.* `PortfolioMode=Archive; CharacteristicSpaceRef(d=2); ArchiveConfig(CVT, res=1k cells, K=1, DistanceDefRef.edition=v2, InsertionPolicyRef=dyn‑elite); EmitterPolicyRef=v3; DominanceRegime=ParetoOnly`.
-*Rules.* `Admit` returns an **archive**; illumination **reported**; changes to `DistanceDef`/Emitter **editioned** in SCR; dominance remains **ParetoOnly**.
+*Rules.* After `Admit`, G.5 returns an **archive**; illumination **reported**; changes to `DistanceDef`/Emitter **editioned** in SCR; dominance remains **ParetoOnly**.
 
 **Show‑4 - Open‑ended GeneratorFamily (POET‑class).**
 *S2 excerpt.* `GeneratorIntent{GeneratorFamilyRef=GF‑01, EnvironmentValidityRegion=EVR‑A, TransferRulesRef=TR‑A, CoverageMetric=…}; PortfolioMode=Archive`.
-*Rules.* `Admit` yields declared sets over `{environment, method}`; `Degrade(scope‑narrow)` if `TransferRules`=`unknown`; telemetry publishes **coverage/regret** and **IlluminationSummary** with **edition/policy‑id** on improvements.
+*Rules.* After `Admit`, G.5 returns declared sets over `{environment, method}`; `Degrade(scope‑narrow)` if `TransferRules`=`unknown`; telemetry publishes **coverage/regret** and **IlluminationSummary** with **edition/policy‑id** on improvements.
 
 [17]: https://openresearchsoftware.metajnl.com/articles/10.5334/jors.151 "DifferentialEquations.jl – A Performant and Feature-Rich … "
 [18]: https://mlubin.github.io/pdf/jump-sirev.pdf "JuMP: A Modeling Language for Mathematical Optimization"
@@ -53312,38 +53312,38 @@ Publish one editioned **`MaturityCardDescription`** for the exact evaluated `Met
 
 | ID           | Requirement                                                                                                                                                                                | Purpose                                       |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
-| **CC-C23.1** | For each `MethodFamily`, an editioned `MaturityCard` SHALL name the exact family and registry edition, evidence profile, claim scope, qualification window, intended use, rung justification, A.10 anchors, and freshness windows; cite a relation and loss note only when the admission claim actually relies on it. | Makes maturity auditable without a generic context. |
-| **CC-C23.2** | Each executable `SoS-LOG` rule declaration MUST cite the exact MethodFamilyId and registry edition, rule and policy editions, Eligibility and CG-Spec verdicts, EvidenceProfile minima, Acceptance verdict, claim scope, qualification window, Γ-fold contributors where used, decision result, and EvidenceGraph path. Relation and loss-policy ids appear only when the branch relies on them. | Keeps every decision premise reconstructable. |
+| **CC-C23.1** | For each `MethodFamily`, an editioned `MaturityCard` SHALL name the exact family and registry edition, evidence profile, claim scope, qualification window, intended use, rung justification, A.10 anchors, and freshness windows; cite a relation and loss note only when the admission claim actually relies on it. | Makes maturity auditable for the declared family and admission use. |
+| **CC-C23.2** | The `AdmissibilityLedger` row for each evaluation of an executable `SoS-LOG` rule on S2 MUST cite the exact MethodFamilyId and registry edition, rule and policy editions, Eligibility and CG-Spec verdicts, EvidenceProfile minima, Acceptance verdict, claim scope, qualification window, Γ-fold contributors where used, decision result, and EvidenceGraph path. Relation and loss-policy ids appear only when the branch relies on them. | Keeps every decision premise reconstructable. |
 | **CC‑C23.3** | Enumerations used by the rules (**Degrade(mode)**; Maturity rungs) **SHALL** be **closed** and **UTS‑registered** (twin labels). | |
-| **CC‑C23.4** | **Unknowns** in S2 **SHALL** map to `{degrade | abstain | sandbox}` with explicit **branch‑ids**; no `unknown→0/false` coercions.                                                          | Tri‑state discipline.                          |
-| **CC-C23.5** | If a branch relies on an F.9 Bridge, kind relation, or plane relation, it MUST cite that exact obtaining relation, direction, what meaning is preserved and what is lost, receiving use, and applicable loss policy; supported penalties affect `R_eff` only. A changed family, evidence profile, claim scope, qualification window, or use is not by itself a crossing. | Keeps `F` and `G` invariant and relation claims truthful. |
-| **CC‑C23.6** | **No thresholds** in CHR or Maturity; thresholds **live only** in **AcceptanceClauses** (G.4).                                                                                             | Separation of concerns.                       |
+| **CC‑C23.4** | **Unknowns** in live S2 fields **SHALL** map to `Degrade(mode)` (including `sandbox`) or `Abstain` with explicit **branch‑ids**; no `unknown→0/false` coercions.                                                          | Tri‑state discipline.                          |
+| **CC-C23.5** | If a branch relies on an F.9 Bridge, kind relation, or plane relation, it MUST cite that exact obtaining relation, direction, what meaning is preserved and what is lost, receiving use, and applicable loss policy; supported penalties selected under R4 affect `R_eff` only. A changed family, evidence profile, claim scope, qualification window, or use is not by itself a crossing. | Keeps `F` and `G` invariant and relation claims truthful. |
+| **CC‑C23.6** | **No acceptance thresholds** in CHR or Maturity; acceptance thresholds **live only** in **AcceptanceClauses** (G.4).                                                                                             | Separation of concerns.                       |
 | **CC‑C23.7** | `MaturityCard` **SHALL NOT** be turned into a global scalar; treat as **poset**; any ordering **MUST** be lawful over CHR types.                                                           | Forbids cross‑scale scalarisation.            |
-| **CC‑C23.8** | Publish to **UTS** with twin labels; run **GateCrossing visibility checks** on cited crossings: **CrossingBundle** attestation (**E.18/F.9/F.17/E.17/A.21** where live), **LanePurity**, and **Lexical SD** (**E.10**) under GateChecks/GateProfile (**A.21**). | Publication & crossing visibility hygiene. |
+| **CC‑C23.8** | Publish to **UTS** with twin labels. Run **GateCrossing visibility checks** only for a cited crossing of a selected **E.18** transformation-flow structure. Require **CrossingBundle** attestation only when the named receiving use needs it; apply **E.18/F.9/F.17/E.17** under their respective current uses. Apply **LanePurity** and **Lexical SD** (**E.10**); use GateChecks/GateProfile (**A.21**) only when a named gate decision is current. | Publication & crossing visibility hygiene. |
 | **CC‑C23.9** | All enumerations (e.g., `Degrade(mode)`, Maturity rungs) **SHALL** declare a **closed value set** and **Scale kind**, and be registered at UTS (LEX enum clarity).                          | Avoids lexical drift; lawful typing.          |
-| **CC‑C23.10** | **RSCR tests** cover negative/refusal paths (illegal CHR ops; CG‑Spec gate fail; Bridge missing; **Φ table/policy‑id missing**; **Lexical SD violations (E.10)**); ensure **branch coverage** (Admit/Degrade/Abstain, unknown). | |
+| **CC‑C23.10** | **RSCR tests** cover negative/refusal paths (illegal CHR ops; CG‑Spec gate fail; Bridge missing when relied on; **Φ table/policy‑id missing** when that penalty policy is used; **Lexical SD violations (E.10)**); ensure **branch coverage** (Admit/Degrade/Abstain, unknown). | |
 | **CC‑C23.11** | If QD fields are in scope, **R0.QD** **MUST** pass: lawful **CharacteristicSpaceRef** (d≥2, characteristics typed, planes declared per characteristic), **ArchiveConfig** (topology/resolution/K, `InsertionPolicyRef`, **editioned** `DistanceDef`), **EmitterPolicyRef** present. | QD legality gate. |
 | **CC‑C23.12** | **DominanceRegime** **SHALL** default to `ParetoOnly`; switching to `ParetoPlusIllumination` **MUST** be authorised by **CAL** and cited by id in SCR.                                    | Prevents implicit scalarisation.              |
-| **CC‑C23.13** | If `PortfolioMode=Archive`, LOG **MUST** allow archive outputs (R6) and publish **IlluminationSummary** as a report-only telemetry metric unless CAL opts‑in to dominance participation.                         | Lawful archive semantics.                     |
-| **CC‑C23.14** | If `GeneratorIntent` present, **R7** **MUST** verify **EnvironmentValidityRegion** and **TransferRulesRef**; outputs are declared **{environment, method}** sets; coverage/regret telemetry published. | OEE legality & telemetry. |
-| **CC‑C23.15** | On illumination increases/archive changes, **edition increments** (BehaviorSpace/DistanceDef/EmitterPolicy) and the **policy‑id** responsible **SHALL** be logged (R8).                   | Reproducibility & refresh.                    |
+| **CC‑C23.13** | If `PortfolioMode=Archive`, LOG **MUST** allow G.5 archive outputs after `Admit` (R6) and publish **IlluminationSummary** as a report-only telemetry summary unless CAL opts‑in to dominance participation.                         | Lawful archive semantics.                     |
+| **CC‑C23.14** | If `GeneratorIntent` present, **R7** **MUST** verify **EnvironmentValidityRegion** and **TransferRulesRef**; G.5 outputs are declared **{environment, method}** sets; coverage/regret telemetry published. | OEE legality & telemetry. |
+| **CC‑C23.15** | On illumination increases/archive changes, current editions and any actual **edition increments** (CharacteristicSpaceRef/DistanceDefRef/EmitterPolicyRef) and the applicable **policy‑id** **SHALL** be logged (R8).                   | Reproducibility & refresh.                    |
 
 ### C.23:8 - Consequences
 
 * **Explainable admission.** Every *Admit/Degrade/Abstain* is backed by **anchored** evidence and explicit unknown handling (selector reports are SCR‑linked).
 * **Run‑safe pluralism.** Multiple families can co‑exist with **policy‑governed** exploration (E/E‑LOG) and maturity‑aware gating.
-* **Portable governance.** Bridge hygiene and CL routing make cross‑Tradition reuse **deliberate and costed** (penalties to **R** only).
+* **Portable governance.** Bridge hygiene makes cross‑Tradition reuse **deliberate**; when a supported penalty is selected under R4, declared CL routing makes it **costed** through **`R_eff`** only.
 
 ### C.23:9 - Rationale
 
-The ladder and LOG shells align with FPF’s **Assurance calculus**: **F** (form) is governed by artefact kind, **G** (scope) by USM slices, and **R** (reliability) accumulates via WLNK then **Φ(CL)** penalties. Treating maturity as **evidence‑typed rungs**—rather than a “score”—avoids illegal arithmetic and lets **DesignRunTag** values remain separate via `DesignRunTag` discipline (A.4) and explicit GateCrossings. This mirrors contemporary **science‑of‑science** insights: replication, benchmarking, and field health indicators are the **currency** of maturity, not anecdote.  ([Science][19])
+For a named admission-assurance claim, B.3 requires each of **F**, **G**, and **R** that the use consumes to have a declared bearer, meaning, and scale. Claim scope and selected USM slices remain explicit; **WLNK** and **Φ(CL)** are used only under an applicable, calibrated aggregation or loss rule. Treating maturity as **evidence‑typed rungs**—rather than a “score”—avoids illegal arithmetic and lets **DesignRunTag** values remain separate via `DesignRunTag` discipline (A.4), with explicit GateCrossings only when a selected E.18 transformation-flow structure contains them. This mirrors the cited 2018 **science‑of‑science** insights: replication, benchmarking, and field health indicators are the **currency** of maturity, not anecdote.  ([Science][19])
 
 ### C.23:10 - Relations
 
-**Builds on:** **G.5** (selector consumes these rules), **G.4** (Acceptance & EvidenceProfiles), **C.22** (S2 typing), **C.18 NQD‑CAL**, **C.19 E/E‑LOG**, **B.3** (Assurance tuple & WLNK).
+**Builds on:** **G.5** (selector consumes these rules), **G.4** (Acceptance & EvidenceProfiles), **C.22** (S2 typing), **C.18 NQD‑CAL**, **C.19 E/E‑LOG**, **B.3** (named assurance claims and declared aggregation, including WLNK only when applicable).
 **Publishes to:** **UTS** (MaturityCards, rule ids), **SCR/RSCR** (branch coverage; parity hooks).
 **Constrains:** **G.8** (LOG Bundling must cite MaturityCards), **G.9** (parity harness draws baselines per rung), **G.11** (refresh windows per rung & decay), **G.5** (Open‑Ended Family mode for GeneratorFamily).
-**Outcome.** The pattern introduces **new content** (LOG shells + maturity poset + degrade modes + publication Standard) and **does not duplicate** CG‑Spec legality rules, CHR guard‑macros, or CAL acceptance mechanics; it *integrates* them into **admissibility logic** for MethodFamilies.
+**Outcome.** **Admissibility logic** for MethodFamilies combines LOG shells, the maturity poset, degrade modes, and publication requirements with CG‑Spec legality rules, CHR guard‑macros, and CAL acceptance mechanics.
 
 ### C.23:End
 
@@ -103606,6 +103606,8 @@ A simulation-only Method cites `simulationResultRef` inside its support componen
 **GCoreLinkageManifest (normative; size-controlled via profiles and sets).**
 Effective obligations, pins, and triggers are computed by union expansion of the referenced ids (per `G.Core:4.2.1`). Profile and set expansion is combined with explicit deltas; `Nil‑elision` applies.
 
+For crossing-aware selection, `CorePinsRequired` below lists the crossing pins individually. Each conditional pin is mandatory when its stated condition holds. When consuming `G.7` calibration records or a named `B.3` assurance account, retain all pins, editions, and evidence required by that account, including `CC‑G7‑SCRLinkage‑1` for cited calibration evidence.
+
 * `CoreConformanceProfileIds :=`
 
   * `GCoreConformanceProfileId.PartG.AuthoringBase`
@@ -103615,7 +103617,6 @@ Effective obligations, pins, and triggers are computed by union expansion of the
 * `CorePinSetIds :=`
 
   * `GCorePinSetId.PartG.AuthoringMinimal`
-  * `GCorePinSetId.PartG.CrossingVisibilityPins` *(crossing‑aware use; pins from this set may be intentionally strengthened (optional→required) via `CorePinsRequired`)*
 * `CorePinsRequired :=` *(delta over PinSets; pins and refs are id-only; prefer strengthening optional-to-required over restating pins already covered by PinSets)*
 
   * `TaskSignatureRef` *(the C.22 TaskSignature edition; see `G.5:4.2`, S2)*
@@ -103630,6 +103631,11 @@ Effective obligations, pins, and triggers are computed by union expansion of the
   * `UTSRowId[]` *(published identities for selected families, registered families, and selector policy records)*
   * `FailureBehaviorPolicyId?` *(only when degrade or abstain behavior is explicitly policy‑bound)*
   * `SoSLogBranchId?` *(only when degrade or abstain behavior is explicitly policy‑bound)*
+  * `BridgeId/BridgeCardId?` *(the obtaining Bridge actually used by this selection; a Bridge Card is cited only when that Card is relied on)*
+  * `BridgeMatrixId?` *(when this selection uses a BridgeMatrix)*
+  * `CL/CL^k/CL^plane?` *(the applicable values when cited or required by the consumed calibration or named assurance account)*
+  * `Φ/Ψ/Φ_plane policy-ids?` *(the applicable policy ids and editions when required by the consumed calibration or named assurance account, or when crossing or plane penalties are applied)*
+  * `CrossingBundleId?` *(when the selector cites a CrossingBundle or its named downstream use requires one under `E.18` or `CC‑G5.27`)*
 * `DefaultsConsumed :=`
 
   * `DefaultId.GammaFoldForR_eff`
@@ -104622,12 +104628,12 @@ Source refresh is local: replay the changed row's named record fields, rule or c
 **Stage.** design‑time (calibration + publication) + run‑time (sentinel‑driven telemetry emission; orchestration governed by **G.11**)
 **Primary output.** A bridge calibration kit that turns **G.2**’s BridgeMatrix rows into **F.9** `BridgeCard`s and publishes: a `BridgeCalibrationTable (BCT)` + `CalibrationLedger` + `RegressionSet` + `SentinelSet`, plus UTS‑visible crossing rows and RSCR‑ready sentinel triggers scoped to `PathSliceId` / `PatternScopeId`.
 **Primary hooks.** `G.Core` (Part‑G invariants + RSCR trigger catalogue + Default Governing Definition Index), **G.2** (BridgeMatrix), **F.9** (BridgeCard + CL/CL^k), **F.3/F.7** (SenseCell anchoring; row bottleneck discipline), **E.18/A.21** (GateCrossing + CrossingBundle checks), **G.6** (PathId/PathSliceId citation surface), **G.5** (downstream consumer for eligibility/selection), **G.11** (refresh orchestration consumer), **B.3** (assurance lanes + penalty policies), **C.21** (DHC accounts such as AlignmentDensity), **C.18 and C.19** (QD/OEE pins when relevant), **C.23** (SoS‑LOG clauses as explainability gates for cross‑Tradition choices), **G.4** (Acceptance hooks/thresholds when bridges are used as selector gates), **E.10** (LEX / strict distinction discipline).
-**Working‑Model first.** Prefer a minimal, auditable calibration procedure and worked micro‑cases; escalate to heavier harnesses only where risk warrants (per **E.8**).
+**Working‑Model first.** Prefer a minimal, auditable calibration procedure and worked micro‑cases; escalate to heavier harnesses only where risk warrants (per **E.8**). Use this kit when the receiving use needs calibrated CL values or published, refreshable calibration records. Handle other bounded semantic reuse directly under F.9.
 **Non‑duplication note.** Universal Part‑G invariants (no shadow specs; Bridge‑only crossings; penalty routing to `R_eff` only; P2W split; typed/id‑based RSCR causes; defaults with one governing definition; Δ‑discipline) are governed by `G.Core` and are *cited* via `CC‑GCORE‑*`. This pattern defines only the *bridge calibration kit* and its surfaces.
 
 ### G.7:1 - Problem frame
 
-SoTA synthesis (**G.2**) can legitimately preserve pluralism by exporting a **BridgeMatrix**: a Tradition×Tradition inventory of “comparable constructs” with preliminary notes (candidate correspondences, likely losses, tentative levels). Downstream patterns (CHR/CAL/selector/logging/shipping) cannot consume this safely unless cross‑Context reuse is:
+SoTA synthesis (**G.2**) can legitimately preserve pluralism by exporting a **BridgeMatrix**: a Tradition×Tradition inventory of “comparable constructs” with preliminary notes (candidate correspondences, likely losses, tentative levels). When the receiving use requires calibrated cross‑Context reuse, downstream patterns (CHR/CAL/selector/logging/shipping) must ensure that the reuse is:
 
 * **materialised** as explicit bridge artefacts (not implied by prose),
 * **calibrated** with a small, auditable procedure (so CL/CL^k/plane routing is not a narrative),
@@ -104944,7 +104950,7 @@ Scope: Universal for the bridge calibration kit; any method‑family or discipli
 | ConformanceId             | Requirement                                                                                                                                                                                                                                                                               | Purpose                                                                        |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | **CC‑G7‑CoreRef**         | `G.7` is conformant only if it satisfies the effective `G.Core` obligations declared by the `GCoreLinkageManifest` in **§4.1** (after nil‑elision and expansion of profile/set/pinset ids), including any explicit deltas listed there. | Make universal invariants one governing definition and enforce citation‑based reuse.       |
-| **CC‑G7‑BCT‑1**           | For any active `TradPairId` with cross‑Tradition reuse, a `BridgeCalibrationTable (BCT)` **MUST** exist, declare a `FreshnessWindowRef`, and provide `RowEntry` records that cite, at minimum: `RowEntryId`, `ComparableConstructId`, `RowScopeId`, `BridgeCardId[]`, `RowCL_min`, `PlanePins {ReferencePlane(src), ReferencePlane(tgt)}`, `PolicyPins {Φ(CL)}` (and `Ψ(CL^k)?`, `Φ_plane?` when applicable), plus `{RegressionSetId, SentinelSetId}`. | Ensure the kit exists as an auditable object rather than a prose matrix.       |
+| **CC‑G7‑BCT‑1**           | For any active `TradPairId` using this calibration kit for cross‑Tradition reuse, a `BridgeCalibrationTable (BCT)` **MUST** exist, declare a `FreshnessWindowRef`, and provide `RowEntry` records that cite, at minimum: `RowEntryId`, `ComparableConstructId`, `RowScopeId`, `BridgeCardId[]`, `RowCL_min`, `PlanePins {ReferencePlane(src), ReferencePlane(tgt)}`, `PolicyPins {Φ(CL)}` (and `Ψ(CL^k)?`, `Φ_plane?` when applicable), plus `{RegressionSetId, SentinelSetId}`. | Ensure the kit exists as an auditable object rather than a prose matrix.       |
 | **CC‑G7‑BridgeCard‑1**    | Any bridge published by G.7 **MUST** be consumable as an **F.9** `BridgeCard` and **MUST** be SenseCell‑anchored (directly or via explicit SenseCell anchor refs).                                                                                                                        | Prevent “Context‑only” or ambiguous bridges.                                   |
 | **CC‑G7‑UTS‑1**           | G.7 outputs **MUST** mint/publish UTS‑citable ids (NameCards/twin labels as applicable) for (a) each BridgeCard (or its NameCard) and (b) each GateCrossing/crossing row that makes bridge use checkable; and **MUST** expose the resulting `UTSRowId[]` in the BCT/Ledger/crossing bundles. *(UTS discipline is delegated to `CC‑GCORE‑UTS‑1`.)* | Make bridge calibration externally citable and checkable.                      |
 | **CC‑G7‑RowScope‑1**      | Every BCT row **MUST** declare its `RowScopeId` (what notion of “sameness” is claimed), and any loss notes **MUST** be recorded as citable artefacts (refs/ids), not only narrative text.                                                                                                 | Keep reuse honest and locally bounded.                                         |
@@ -104997,9 +105003,9 @@ Scope: Universal for the bridge calibration kit; any method‑family or discipli
 
 **Builds on:** `G.Core`, `G.2`, `F.3`, `F.7`, `F.9`, `B.3`, `E.10`, `E.18`, `A.21`, `G.6`, `C.21`.
 **Optionally uses via Extensions:** **G.4** (Acceptance hooks), **C.23** (SoS‑LOG clauses), **C.18 and C.19** (QD/OEE pins).
-**Used by / prerequisite for:** **G.5** (cross‑Tradition eligibility/selection), **G.11** (refresh orchestration), **G.9** (parity across Traditions where bridges are required), **G.10** (shipping surfaces that must cite bridge calibration ids), **G.12** (DHC dashboards when bridge counts/units are surfaced).
+**Used by / prerequisite for:** In uses that consume this kit's calibration, **G.5** (cross‑Tradition eligibility/selection), **G.11** (refresh orchestration), **G.9** (parity across Traditions where bridges are required), **G.10** (shipping surfaces that must cite bridge calibration ids), **G.12** (DHC dashboards when bridge counts/units are surfaced).
 **Publishes to:** **UTS** (bridge and crossing rows; twin labels as applicable) and emits RSCR‑ready telemetry/trigger payloads for **G.11**.
-**Constrains:** Any downstream consumer that claims cross‑Context/Tradition reuse must use the calibrated bridge artefacts/pins surfaced by this kit (governed by G.Core crossing invariants apply).
+**Constrains:** Any downstream consumer that relies on this kit's calibration claims or records must use the corresponding calibrated bridge artefacts/pins surfaced by this kit (governing G.Core crossing invariants apply).
 
 ### G.7:End
 
@@ -105023,7 +105029,7 @@ This pattern provides the missing packaging kit: a **selector‑facing, UTS‑ci
 
 1. **Selector needs a stable input artefact.** `G.5` cannot consume “maturity narratives” and scattered SoS‑LOG snippets without re‑authoring semantics or inventing implicit defaults.
 2. **Thresholds leak into LOG.** Numeric gates are often embedded directly into rule text or ladder rungs, blurring the boundary between LOG decisions (`C.23`) and Acceptance thresholds (`G.4`).
-3. **Auditability is brittle.** Decisions (`pass/degrade/abstain`) lack stable, citable links to evidence paths (`G.6`) and crossing pins (Bridge/CL/Φ policy ids), so later re‑checks and RSCR become ad‑hoc.
+3. **Auditability is brittle.** Decisions (`pass/degrade/abstain`) lack stable, citable links to evidence paths (`G.6`) and crossing pins (Bridge/CL/Φ policy ids as required for the stated use), so later re‑checks and RSCR become ad‑hoc.
 4. **Telemetry contaminates decision semantics.** QD/OEE/illumination signals are frequently treated as dominance inputs without explicit policy pins; edition drift then silently changes outcomes.
 5. **Refresh is under‑specified.** Bundle evolution (rules, ladders, pins, policies, editions) must be RSCR‑addressable via typed trigger kinds, not by free‑text “reasons”.
 
@@ -105096,7 +105102,7 @@ DefaultId.GammaFoldForR_eff
 ⟩`
 
 *(RSCR payload pins typically include: `SoS‑LOGBundleRef`, `SoSLogRuleId[]`, `MaturityRungId?`, and `EvidenceGraphId/PathId/PathSliceId?`.
-Crossing payload pins (Bridge/CL/Φ/Ψ/Φ_plane) are introduced **only when reuse is asserted**, via `G.8:Ext.BridgeReuseWiring`.
+Crossing payload pins (Bridge/CL/Φ/Ψ/Φ_plane) are introduced **only when reuse is asserted**, via `G.8:Ext.BridgeReuseWiring`. CL and loss-policy pins are required only by the actual calibration or separate named assurance use.
 Method-/generator‑specific payload pins are listed only inside the relevant `GPatternExtension` blocks in `G.8:5`.)*
 
 *(Conditionality note for defaults.)* Include `DefaultId.GammaFoldForR_eff` in `DefaultsConsumed` **only if** the bundle/ledger exports aggregated `R_eff` summaries (otherwise Nil‑elide it).
@@ -105195,12 +105201,12 @@ SoS-LOGBundle@Context :=
 
 * `SoS‑LOGBundle@Context` **does not introduce** new legality or normalization rules; it cites the pinned references above.
 * Thresholds and numeric gates are cited by id from `G.4` Acceptance (no embedding inside the bundle).
-* If cross-context or cross-plane reuse is asserted, crossing pins are made explicit (Bridge/CL/Φ policy ids), and evidence paths are citable when available.
+* If cross-context or cross-plane reuse is asserted, crossing pins are made explicit (Bridge/CL/Φ policy ids as required for that use by `G.8:Ext.BridgeReuseWiring`), and evidence paths are citable when available.
 
 **Binding obligations B1–B5 (packaging‑only; wiring‑only; semantics delegated):**
 
 * **B1 — Evidence wiring.** At packaging time the bundle SHOULD provide resolvable evidence refs (typically `A10EvidenceGraphRef?[]` and/or `EvidenceGraphId?`). At run time, admissibility outcomes SHOULD cite `PathId/PathSliceId` when available (`G.6`), so rung transitions and `degrade/abstain` traces are audit‑stable.
-* **B2 — CL/plane routing pins.** When reuse across Context or plane is asserted, the bundle/ledger MUST pin the relevant Bridge/CL/Φ/Ψ/Φ_plane policy ids (reference‑only; resolvable per `F.8:8.1`) and MUST respect the core penalty routing (penalties affect `R_eff` only; `F/G` invariance via `G.Core`).
+* **B2 — CL/plane routing pins.** When reuse across Context or plane is asserted, the bundle/ledger MUST cite the obtaining relation and its separate bounded-use claim and reliance basis. It MUST pin the relevant Bridge/CL/Φ/Ψ/Φ_plane policy ids required for that use by `G.8:Ext.BridgeReuseWiring` (reference‑only; resolvable per `F.8:8.1`). CL and loss-policy pins are mandatory only when required by the actual calibration or separate named assurance account. Any supported penalty MUST follow that assurance policy's declared rule and respect the core penalty routing (penalties affect `R_eff` only; `F/G` invariance via `G.Core`).
 * **B3 — `PortfolioMode`/QD fields.** If the bundle/ledger exposes `PortfolioMode`/QD fields (e.g., `PortfolioMode=Archive`), it MUST pin the descriptor/distance/insertion/emitter artefacts (editions/policies as applicable). Illumination remains **report‑only** unless explicitly promoted by a `G.4` governing-pattern policy id that is pinned and recorded in the run‑time trace.
 * **B4 — Open‑ended fields.** If the bundle binds an open‑ended generator family, it MUST pin `GeneratorFamilyId` and `TransferRulesRef.edition` (and any validity region/coupler policy ids when used). Unknown transfer validity MUST be recorded as `degrade`/branching, not as an ad‑hoc fourth status.
 * **B5 — Telemetry hooks.** On any material telemetry event (illumination increase, archive insertion, probe accounting update, open‑ended coverage/regret proxy update), the emitted telemetry pins SHOULD include the controlling policy ids plus the relevant edition pins (e.g., `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `TransferRulesRef.edition`) and, when available, `PathSliceId` to keep RSCR planning auditable.
@@ -105211,7 +105217,7 @@ A conforming ledger is a UTS‑published view (or a view‑projection of a Work/
 
 `⟨ MethodFamilyId, SoSLogRuleId, GuardDecision ∈ {pass|degrade|abstain}, DegradeMode?/SoSLogBranchId[]?, MaturityRungId?, AcceptanceClauseId[]?, EvidencePathRefs?, CrossingPins?, PortfolioMode?, DominanceRegime?, Edition ⟩`
 
-Where `EvidencePathRefs` are typically `PathId[]/PathSliceId[]` when `G.6` is in use (or resolvable), and “CrossingPins” are the explicit Bridge/CL/Φ policy pins when reuse is asserted.
+Where `EvidencePathRefs` are typically `PathId[]/PathSliceId[]` when `G.6` is in use (or resolvable), and “CrossingPins” are the explicit Bridge/CL/Φ policy pins required for the stated reuse by `G.8:Ext.BridgeReuseWiring`, together with citable references to its separate bounded-use claim and reliance basis.
 
 #### G.8:4.5 - Maturity ladder as a citable poset (published card)
 
@@ -105279,18 +105285,19 @@ This card is a **description** suitable for dispatch/audit and refresh; it is no
 **GPatternExtensionId:** `BridgeReuseWiring`
 **GPatternExtensionKind:** `InteropSpecific`
 **GoverningPatternId:** `G.7`
-**Uses:** `{G.7, F.9}`
+**Uses:** `{G.7, F.9, A.10, B.3}`
 **⊑/⊑⁺:** `∅`
-**RequiredPins/EditionPins/PolicyPins (minimum):**
+**RequiredPins/EditionPins/PolicyPins (minimum; conditional on the stated use):**
 
-* `BridgeId/BridgeCardId`
-* `CL/CL^k/CL^plane`
-* `Φ/Ψ/Φ_plane policy-ids`
-* `BridgeCalibrationTableId?`, `RegressionSetId?` *(if cited as calibration evidence)*
+* `BridgeId/BridgeCardId` *(the obtaining Bridge actually used; a `BridgeCardId` is needed only when that Card is relied on)*
+* `CL/CL^k/CL^plane` *(when cited; the applicable values are mandatory when required by the `G.7` calibration or named `B.3` assurance account)*
+* `Φ/Ψ/Φ_plane policy-ids` *(only the policy ids and editions required by the actual `G.7` calibration or named `B.3` assurance account; reference‑only and resolvable per `F.8:8.1`)*
+* `BridgeCalibrationTableId?`, `RegressionSetId?` *(both required when calibration evidence is cited, together with the row locator and active policy pins required by `G.7` `CC‑G7‑SCRLinkage‑1`)*
 
 **RSCRTriggerSetIds:** `{GCoreTriggerSetId.BridgeCalibrationKit}` *(only if the bundle/ledger explicitly binds calibration records by id)*
 **Notes (wiring‑only):**
 * Present only when `SoS‑LOGBundle@Context` asserts cross-Context or cross-plane reuse. No additional crossing semantics are defined here.
+* The wiring MUST keep the obtaining Bridge reference, the separate bounded-use claim (use, direction, rule, and tolerated loss), and the `A.10` reliance basis citable. A separate named assurance use also cites its exact target claim, receiving use, and `B.3` assurance basis/result. Required CL values, policy editions, and evidence remain mandatory for that account; a supported loss penalty is applied only under the assurance policy's declared rule, to `R_eff` only. Ordinary supported reuse does not require a CL shorthand, calibration record, loss-policy id, or assurance claim merely to fill the package.
 
 #### G.8:5.4 - `G.8:Ext.QDArchiveTelemetry`
 
@@ -105416,8 +105423,8 @@ Scope: packaging kit only. Rule semantics remain governed by `C.23`; thresholds 
 * **Anti‑pattern:** Treating illumination/QD telemetry as a hidden scalar score that changes dominance.
   **Avoid:** keep telemetry report‑only unless explicitly promoted by a governing-pattern policy pin.
 
-* **Anti‑pattern:** Publishing a bundle that “implies” cross‑context reuse without Bridge/CL/Φ pins.
-  **Avoid:** if reuse is asserted, publish the crossing pins; otherwise downstream must abstain from reuse.
+* **Anti‑pattern:** Publishing a bundle that “implies” cross‑context reuse without its required relation/use/reliance pins, or omits CL/Φ pins required by the actual calibration or named assurance use.
+  **Avoid:** if reuse is asserted, publish the crossing pins required by `G.8:Ext.BridgeReuseWiring` for that use; otherwise downstream must abstain from reuse.
 
 * **Anti‑pattern:** Re‑defining `PortfolioMode`/`DominanceRegime` defaults in the bundle text.
   **Avoid:** cite each default's governing definition through `G.Core.DefaultGoverningDefinitionIndex`.
@@ -105451,7 +105458,7 @@ This pattern’s separation of **decision rules**, **acceptance thresholds**, **
 ### G.8:13 - Relations
 
 **Builds on:** `G.Core`, `C.23`, `G.4`, `G.6`, `G.5`, `C.22`
-**Uses:** `A.10` (anchors), `F.8` (policy-id resolvability), `F.9`/`F.17`/`E.17` + `G.7` (when cross-Context or cross-plane reuse is asserted), `G.11` (refresh planning/trigger consumption), `G.10` (shipping boundary; if bundled artefacts are shipped), `E.10` (LEX twin registers), `E.5.2` (notation independence), `E.18/A.21` (GateCrossing visibility and gate checks); optional `C.18` (QD) / `C.19` (E/E‑LOG) when those surfaces are declared.
+**Uses:** `A.10` (anchors), `F.8` (policy-id resolvability), `F.9` (cross-semantic relation and bounded-use claims), `F.17`/`E.17` (crossing publication surfaces), `G.7` (when calibration is used), `B.3` (when a separate named assurance use is made), `G.11` (refresh planning/trigger consumption), `G.10` (shipping boundary; if bundled artefacts are shipped), `E.10` (LEX twin registers), `E.5.2` (notation independence), `E.18/A.21` (GateCrossing visibility and gate checks); optional `C.18` (QD) / `C.19` (E/E‑LOG) when those surfaces are declared.
 **Publishes to:** `UTS` (bundle/ledger/card), `G.5` (selector/registry consumption), `G.11` (refresh via typed triggers and pinned telemetry)
 **Constrains:** any SoS‑LOG packaging that claims FPF conformance for selector‑facing dispatch across method families.
 
@@ -105461,7 +105468,7 @@ This pattern’s separation of **decision rules**, **acceptance thresholds**, **
 * [ ] `SoSLogRuleId[]` are ids only; rule semantics are governed by `C.23` (no re-definition in this bundle).
 * [ ] Any numeric gates/thresholds are `G.4` Acceptance artefacts cited by id (no thresholds embedded in LOG or rungs).
 * [ ] Evidence is citable: at run time use `PathId/PathSliceId` when available; at packaging time provide resolvable `A10EvidenceGraphRef?[]` / `EvidenceGraphId?`.
-* [ ] Any cross-Context or cross-plane reuse is explicit: `BridgeId/BridgeCardId`, `CL/CL^k/CL^plane`, and `Φ/Ψ/Φ_plane` policy ids are pinned (policy ids resolvable per `F.8:8.1`).
+* [ ] Any cross-Context or cross-plane reuse is explicit: `BridgeId/BridgeCardId` and the separate bounded-use claim and reliance basis are citable. `CL/CL^k/CL^plane` and `Φ/Ψ/Φ_plane` policy ids and editions are pinned when required by the actual calibration or named assurance account, per `G.8:Ext.BridgeReuseWiring` (policy ids resolvable per `F.8:8.1`).
 * [ ] `PortfolioMode` and dominance defaults are not restated: cite each default's governing definition through `G.Core.DefaultGoverningDefinitionIndex` (governing definitions live outside `G.8`, typically `G.5`).
 * [ ] QD pins are edition/policy pinned (`DescriptorMapRef.edition`, `DistanceDefRef.edition`, insertion/emitter policies); `CharacteristicSpaceRef.edition` is pinned iff cell boundaries/de‑dup/parity depend on it; **Spaces ≠ Maps**.
 * [ ] If open‑ended surfaces are declared, pin `GeneratorFamilyId`, `TransferRulesRef.edition`, and any validity/coupler policy ids; unknown transfer validity is recorded as `degrade`/branching (no “fourth status”).
