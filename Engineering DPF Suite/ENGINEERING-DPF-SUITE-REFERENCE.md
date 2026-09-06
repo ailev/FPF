@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 5 September 2026
+- **Version:** 6 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
@@ -16,6 +16,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | Section | Questions and search terms |
 | --- | --- |
 | [Find a starting pattern](#find-a-starting-pattern) | System or method? Architecture, alternatives, evidence, organizational change, development advice, music and dance. What useful result should I obtain first? |
+| [Resolve a software-platform difficulty](#resolve-a-software-platform-difficulty) | User-task measurement, reliability objectives, alerts, release exposure, recovery, repetitive work and the first missing input. |
 | [Connect separately governed meanings](#connect-separately-governed-meanings-and-representations) | Semantic integration, source editions, correspondence, identity, provenance, transformation, interface, validation. |
 | [Improve a method or an organization](#improve-a-method-or-an-organization) | Method requirements, repertoire, source recovery and reconciliation, description comparison, PLUS-ME, pattern-language production and refresh, organizational change. |
 | [Develop a practice or a person's capability](#develop-a-practice-or-a-persons-capability) | Music and dance development; human-capability demand, target, profile, programme, practice, support, assessment, transfer, retention, revision, continuing development, repertoire and culture. |
@@ -31,7 +32,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
 | [Citation](#citation) | Cite this Reference or a particular pattern application. |
 
-The question index is designed for lookup while work is under way. The eight complete carriers provide their full searchable tables of contents. This Reference also exposes every currently available PatternID in the SIE, OPS, HCD and RMP additions: SIE has nine available bodies with `SIE.3`, `SIE.11` and `SIE.12` absent; OPS.1-OPS.20 and HCD.1-HCD.17 are complete first editions; RMP has `RMP.1`-`RMP.2` with `RMP.3`-`RMP.9` absent.
+The question index is designed for lookup while work is under way. The eight complete carriers provide their full searchable tables of contents. SIE has nine available bodies with `SIE.3`, `SIE.11` and `SIE.12` absent; OPS.1–OPS.20 are complete; RMP has `RMP.1`–`RMP.2` with `RMP.3`–`RMP.9` absent. The human-development questions below use HCD.1–HCD.17. HCD's nineteen-pattern edition additionally supplies HCD.18 and HCD.19 for instructional-material evaluation. Check the HCD carrier's own edition and [contents](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) before starting that distinct material-evaluation question.
 
 ## Find a starting pattern
 
@@ -61,9 +62,25 @@ Choose the row that matches the question you need to answer. Several patterns in
 | What can a model, trial or test justify? | [SYSE.10 - Assess Research, Model, and Trial Results for an Engineering Decision](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse10---assess-research-model-and-trial-results-for-an-engineering-decision), [SYSE.4 - Select an Engineering Challenge and Qualify Evidence Use](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse4---select-an-engineering-challenge-and-qualify-evidence-use) | A claim tied to its evidence, configuration and conditions, with any further challenge needed for the decision. |
 | Are the changes integrated and ready for the intended use? | [SYSE.11 - Integrate a System for One Bounded Use](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse11---integrate-a-system-for-one-bounded-use), [SYSE.13 - Establish Configuration Identity, Variants, and Effectivity](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity), [SYSE.14 - Make a Release Decision for Named Engineering Work or Use](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse14---make-a-release-decision-for-named-engineering-work-or-use) | Integration evidence, an identifiable configuration and a release decision for the stated use. |
 | Is the platform helping practitioners do their work? | [SYSE.12 - Develop an Engineering Platform for Practitioner Work](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-an-engineering-platform-for-practitioner-work); SYSE.25–SYSE.29 in the [Systems Engineering contents](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) | A platform design and comparison grounded in the tasks it enables, including adoption, economics and competing demands. |
-| Is the difficulty specific to software delivery or reliable service? | SYSE.30–SYSE.41 in the [software profile](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) | Methods for the particular delivery, operation or reliability problem. Use the general platform patterns for questions shared with laboratories, factories and other platforms. |
+| Is the difficulty specific to software delivery or reliable service? | The [direct software-platform questions below](#resolve-a-software-platform-difficulty), or SYSE.30–SYSE.41 in the [software-platform part](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#part-vii---software-platform-engineering) | A result for the particular delivery, operation or reliability problem. Use the general platform patterns for questions shared with laboratories, factories and other platforms. |
 | Which engineering work can overlap, and which results are prerequisites? | [SYSE.20 - Reconcile Overlapping Engineering Work and Required Order](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse20---reconcile-overlapping-engineering-work-and-required-order) | A feasible arrangement of concurrent work with the dependencies that actually require order. |
 | How can engineering practices continue and improve across people and time? | [SYSE.21 - Deliberately Continue and Change Systems Engineering Culture](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse21---deliberately-continue-and-change-systems-engineering-culture) | An account of actual practice, alternatives for its continuation or change, and the observations needed to judge them. |
+
+### Resolve a software-platform difficulty
+
+These are independent entries for recurring software-platform difficulties. Open the one whose result is missing. For builds, feedback, artifact promotion, environments, data changes, capacity or deployment, use the other direct entries in the [software-platform part](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#part-vii---software-platform-engineering). Questions shared with a laboratory or manufacturing platform return to the common platform Methods above.
+
+| Your question | Open | First useful result and the condition for continuing |
+| --- | --- | --- |
+| The dashboard is healthy, but can users complete the intended task? | [SYSE.36 - Measure User Tasks and Set Software-Service Reliability Objectives](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse36---measure-user-tasks-and-set-software-service-reliability-objectives) | A task-level measurement definition and exercised observation path, or the exact measurement gap. An operative SLO additionally needs an agreed target, event/time basis and action policy. Reuse adequate measurement; a one-off check need not become an SLO. |
+| Which reliability condition deserves an alert, and who can act? | [SYSE.37 - Alert on Actionable Reliability Risk](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse37---alert-on-actionable-reliability-risk) | An exercised alert rule, intended response and known blind spots, or the missing observation or response capability. Budget-risk alerting needs that same service's qualified measurement and objective. A critical task failure can warrant a direct alert. |
+| May a deployed change reach more users? | [SYSE.35 - Control Release Exposure with User-Relevant Signals](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse35---control-release-exposure-with-user-relevant-signals) | An exposure-and-evaluation arrangement, then a bounded proceed, stop or inconclusive result when relevant observations exist. Use the actual deployment result, a meaningful comparison, permission and a recovery action compatible with retained state. |
+| A supported task failed or has an uncertain outcome. What can we restore or still use? | [SYSE.38 - Diagnose and Restore a Failed Platform Task](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse38---diagnose-and-restore-a-failed-platform-task) | A verified restored or limited task result, or a narrowed cause question and specialist request. Establish the original attempt's effects before a potentially harmful retry. Its major-incident branch adds coordinated response when the impact requires it, using actual assignments and authority. |
+| Can we reduce repeated platform work without transferring it to users? | [SYSE.39 - Reduce Repetitive Platform Work without Moving the Burden](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse39---reduce-repetitive-platform-work-without-moving-the-burden) | One bounded intervention and a comparison of total user/provider burden over a stated horizon, with construction, maintenance and exceptions included. Continued benefit needs comparable observations after use; fewer tickets alone do not establish it. |
+
+For example, a deployed address-form change has passed its bounded deployment test. The release holder permits limited exposure with a qualified return to the old configuration. In [SYSE.35's constructed case](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse355---archetypal-grounding), nine application requests do not exercise the changed form, while ten platform deployment tasks succeed. The application-use conclusion is inconclusive: it lacks observations of the changed task. Retain the supported deployment result and obtain relevant form observations under the permitted exposure; successful deployments cannot fill that measurement gap.
+
+If the form then hides a required address component, the authorized response restricts exposure and verifies recovery under the actual data-compatibility conditions. Wider release remains a separate decision. Neither an alerting project nor a full platform redesign is a prerequisite for returning this bounded result.
 
 ### Connect separately governed meanings and representations
 
@@ -369,6 +386,8 @@ Use [A.15.9](../FPF-Spec.md#a159---request-and-use-a-bounded-result-from-another
 
 For example, a controller choice may need a fallback-safety conclusion, while a development recommendation may need a transfer assessment. Request that contribution with its evidence and limits. Continue independent work while the dependent decision remains open.
 
+Begin with the first missing contribution, using earlier results whose conditions still hold. Before continuing, identify what the next action actually needs. A required missing input stops that action and its dependent continuation; keep the earlier usable result. If the missing input belongs only to an alternative or a stronger conclusion, continue the supported branch. State the missing result, the decision it prevents, and what new evidence, source, permission or other changed condition would allow that decision to be reconsidered.
+
 ### When the way of working is itself the problem
 
 Use Method Engineering to examine the method, its descriptions and support. A pattern, a DPF and an instructional Guide can describe methods for different uses. An exact MethodDescription explains how one already identified Method is performed. Choose the representation for the work at hand: finding a method, understanding it, comparing alternatives or supporting performance. Use [ME.22](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me22---compare-method-descriptions-by-content-and-representation) when a revision changes the content or presentation and that distinction affects which version to retain. Actual performance supplies the results against which a method can be tested.
@@ -399,7 +418,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-5 September 2026.
+6 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 

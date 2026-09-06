@@ -1,17 +1,17 @@
 # Human Capability Development Principles Framework
 
-HCD is a pattern language for deriving human capability demand from later Work, designing and sustaining development arrangements, and judging human contribution, transfer and retention under stated task, support and time conditions.
+HCD is a pattern language for deriving human capability demand from later Work, designing and sustaining development arrangements, judging human contribution, transfer and retention, and evaluating instructional material under stated audience, task, support and time conditions.
 
 > **Author:** Anatoly Levenchuk with AI-assisted development and review.
-> **Version:** 5 September 2026
+> **Version:** 5 September 2026 — nineteen-pattern edition
 > **Status:** Eternal alpha: used in working development projects and open to continuing correction.
 > **Publication:** [FPF repository](https://github.com/ailev/FPF). [Citation](#citation).
 
 # Table of Contents
 
-Use the Readme when you have a working difficulty but do not yet know the direct pattern. Use this Table of Contents when you already know the PatternID. The seventeen pattern bodies contain the authoritative Methods.
+Use the Readme when you have a working difficulty but do not yet know the direct pattern. Use this Table of Contents when you already know the PatternID. The nineteen pattern bodies contain the authoritative practitioner guidance.
 
-`HCD.*` is the PatternID namespace. The numbers are stable addresses, not a Work sequence; every HCD.1–HCD.17 body is available in this first edition.
+`HCD.*` is the PatternID namespace. The numbers are stable addresses, not a Work sequence; every HCD.1–HCD.19 body is available in this edition.
 
 ## Public units
 
@@ -19,7 +19,8 @@ Use the Readme when you have a working difficulty but do not yet know the direct
 | :--- | :--- |
 | [Human Capability Development Principles Framework Readme](#human-capability-development-principles-framework-readme) | Start from a question about demand, target, profile, programme, Method, support, practice, assessment, transfer, retention, revision, continuing development, bounded HCD Method-repertoire change, or HCD culture. |
 | [Preface](#preface) | Keep human holder, later Work, performance evidence, development and authority distinct. |
-| [Authoritative Pattern Bodies](#hcd-1) | Use HCD.1–HCD.17 under their own entry conditions; reader order is not a mandatory sequence. |
+| [Instructional-material evaluation profile](#instructional-material-evaluation-profile) | Select material properties and qualified evidence; construct a specification only when needed, then diagnose the actual material contribution. |
+| [Authoritative Pattern Bodies](#hcd-1) | Use HCD.1–HCD.19 under their own entry conditions; reader order is not a mandatory sequence. |
 | [Cross-Pattern Application](#cross-pattern-application) | Inspect constructed cases, the programme-design return, ReleaseWork-R9 missing evidence and the clinical boundary. |
 | [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check available PatternIDs, source/currentness, external owners, and publication limits. |
 
@@ -44,14 +45,16 @@ Use the Readme when you have a working difficulty but do not yet know the direct
 | 15 | [HCD.15 — Sustain Continuing Human Capability Development](#hcd-15) |  | Which continuing arrangement should respond when this person's later Work or development evidence changes? | Compatible HCD.14 or equivalent evidence; E.23.CDI and direct later-Work, provider, access and support results |
 | 16 | [HCD.16 — Develop and Refresh Human Capability-Development Methods](#hcd-16) |  | Which exact HCD Method claim should be adopted, revised, branched, retired, or probed for this repertoire use? | Exact admitted Method or status-preserved candidate and claim; ME.15/ME.16 and qualified human-development evidence |
 | 17 | [HCD.17 — Deliberately Continue and Change Human Capability-Development Culture](#hcd-17) |  | Which observable HCD cultural relation should this bounded population continue or change, and what later observation decides? | HCD.14/HCD.16 or equivalent direct input; C.36, truthful Method status, bounded population and authority evidence |
+| 18 | [HCD.18 - Construct a Characterization and Evaluation Specification for Instructional Material](#hcd-18) |  | Which task-based specification can distinguish useful material support, limiting defects, and the evidence needed for this audience and use? | A.19.ECS; instructional-material profile; qualified task, subject and assistance conditions |
+| 19 | [HCD.19 - Evaluate Instructional Material through Representative Reader Work and Diagnose Its Repair](#hcd-19) |  | What does this material supply to actual reader work, what limits its use, and what repair or evidence changes the conclusion? | Compatible material-evaluation specification; E.23 for improvement; NSTD.6/.8 when narrative use is live |
 
 # Human Capability Development Principles Framework Readme
 
 ## Practical entries
 
-This **Human Capability Development Principles Framework — Seventeen-pattern first edition** helps a person, manager, human-capability practitioner, provider or another accountable decision owner derive human demand, diagnose a limiting target, compare a profile, compose and compare development programmes, select a development Method, design representative practice, arrange support, conduct and progress focused practice, judge performance evidence, test unfamiliar transfer and retention, revise an affected development arrangement, sustain continuing development, refresh the HCD Method repertoire, or deliberately continue and change an HCD cultural relation.
+This **Human Capability Development Principles Framework — Nineteen-pattern edition** helps a person, manager, human-capability practitioner, provider or another accountable decision owner derive human demand, diagnose a limiting target, compare a profile, compose and compare development programmes, select a development Method, design representative practice, arrange support, conduct and progress focused practice, judge performance evidence, test unfamiliar transfer and retention, revise an affected development arrangement, sustain continuing development, refresh the HCD Method repertoire, deliberately continue and change an HCD cultural relation, or construct and apply an instructional-material evaluation.
 
-All patterns HCD.1–HCD.17 are available here. This seventeen-pattern first edition gives their authoritative Methods, worked cases, source limits, checks and return conditions in the bodies. The Readme provides discovery, connected applications, source qualification and publication boundaries; it does not reconstruct the body Methods.
+All patterns HCD.1–HCD.19 are available here. This nineteen-pattern edition gives their authoritative guidance, worked cases, source limits, checks and return conditions in the bodies. The instructional-material profile connects HCD.18 and HCD.19 while preserving the direct uses of HCD.1–HCD.17. The Readme provides discovery, connected applications, source qualification and publication boundaries; it does not reconstruct the body Methods.
 The entries below are selected examples, not a catalogue or coverage boundary. Bring the actual question. If no example fits, use the Table of Contents or direct patterns to find the relevant contribution. The entries are independent situation-first starts, not stages in a lifecycle.
 
 ### HCD-DEMAND - Derive one person's demand from representative later Work
@@ -166,6 +169,14 @@ The entries below are selected examples, not a catalogue or coverage boundary. B
 - **Start with:** [HCD.17](#hcd-17), from a bounded population, place and period and an honest Method/candidate branch.
 - **Stop or return:** Stop at the bounded cultural decision or exact missing value. Publication, institutional selection, attendance, community activity, capability and causal effect do not fill one another.
 
+### HCD-MATERIAL - Find what instructional material supports and what to repair
+
+- **Situation:** A worksheet, explanation, course route or instructional interface is being judged by present headings, fluent prose or correct expert answers while its contribution to the promised reader work remains unclear.
+- **Question:** Which material properties and observations can support this use decision, and what limiting defect, repair or evidence gap changes it?
+- **First useful result or honest blocker:** A compatible evaluation specification, or a material judgement with its evidence, actual assistance, limiting defect, repair reach and affected-use test.
+- **Start with:** The [instructional-material evaluation profile](#instructional-material-evaluation-profile); [HCD.18](#hcd-18) when specification construction is needed, or [HCD.19](#hcd-19) directly when a compatible specification exists.
+- **Stop or return:** Stop at the specified material-use or repair result. Use E.23 for improvement and HCD.11–HCD.13 for stronger human evidence claims. A reference-only use retains its own evaluation.
+
 # Preface
 
 ## Start from the contribution that later Work needs
@@ -183,9 +194,11 @@ The main choices concern complete-task attainability, preservation of useful exi
 
 Human Capability Development deliberately changes a human holder's capability for intended later Work. It is not every change in behaviour, every use of instruction, or every problem involving a person. A demand account states what later Work requires; a diagnostic target names what may need to change; a profile describes contribution claims; a programme sets out a bounded development arrangement; HCD.2 composes and compares programme candidates. Learning Work and clinical treatment are performed activities. Assessment provides observations and bounded inferences about performance, transfer, or retained capability. Programme, employment and other consequential decisions require their own authority.
 
-The seventeen Methods keep one exact human holder or bounded HCD population, later Work, conditions, direct-owner results, finite resources, evidence, uncertainty and receiving decision aligned. Demand, diagnosis, profile, programme comparison, Method selection, practice-task design, support arrangement, bounded provider or environment development, focused practice, practice progression, performance assessment, transfer, retention, revision, continuing arrangement, HCD Method-repertoire change and cultural continuation can each be entered directly when their qualified inputs already exist. Their PatternIDs are stable addresses; file order and numbering do not prescribe Work order.
+HCD.1–HCD.17 keep one exact human holder or bounded HCD population, later Work, conditions, direct-owner results, finite resources, evidence, uncertainty and receiving decision aligned. Demand, diagnosis, profile, programme comparison, Method selection, practice-task design, support arrangement, bounded provider or environment development, focused practice, practice progression, performance assessment, transfer, retention, revision, continuing arrangement, HCD Method-repertoire change and cultural continuation can each be entered directly when their qualified inputs already exist. Their PatternIDs are stable addresses; file order and numbering do not prescribe Work order.
 
 FPF supplies the transdisciplinary distinctions used here: human and other Systems, capability holders, Methods and MethodDescriptions, Work and results, evidence, architecture, decision objects, agency, authority, and precise plain language. Direct human-learning and behaviour sources supply bounded mechanism and evidence claims. Target-domain and specialist sources provide criteria and evidence for correctness, criticality, safety, clinical, legal, and employment questions. Qualified specialists exercise professional judgement, and authorized actors make the corresponding decisions.
+
+HCD.18 and HCD.19 address a different immediate object: the instructional material's contribution under a declared audience, task, and support arrangement. Their specification and diagnosis can improve a learning product before particular learners are known. Actual learning and personal capability remain human-evidence questions; the material result is neither a personal profile nor a whole-programme conclusion.
 
 ## Human demand, capability evidence, development revision and transformation remain distinct
 
@@ -221,6 +234,8 @@ A separately chosen programme or bounded use may call HCD.5 for Method selection
 HCD.11 can supply performance evidence to HCD.12 and HCD.13. Equivalent qualified observations permit direct entry. HCD.14 may use a compatible result from any one of HCD.11, HCD.12 or HCD.13; it need not wait for all of them. New evidence may also update HCD.3's diagnosis, HCD.4's profile, HCD.2's comparison or HCD.5's selection when it changes their question.
 
 A compatible HCD.14 revision hypothesis may inform HCD.15's continuing-arrangement decision or HCD.17's cultural-variation comparison. Observed HCD.15 arrangement use and human-development evidence may inform HCD.16. A bounded HCD.16 repertoire disposition or status-preserved candidate variation may inform HCD.17. All four relations are conditional receiver-governed inputs: a missing, stale or differently scoped result requires a qualified direct substitute or an exact missing-result return, and no receiver waits merely because one PatternID is adjacent.
+
+HCD.18 supplies a specification to HCD.19 only when construction or revision is needed. A compatible existing specification permits direct evaluation. HCD.19 returns the material-specific defect and affected-use test to E.23; any HCD.11–HCD.13 use consumes only observations qualified for its own human-evidence question. Narrative attachment and progressive reconstruction use NSTD.6/.8 when that branch is live.
 
 Use the smallest pattern whose result changes the current decision. A new observation reopens only the claims and receiving decisions whose evidence, conditions, or retry predicates it changes.
 
@@ -4234,8 +4249,616 @@ OCE.10 governs participation and target working culture when the organizational 
 
 ### HCD.17:End
 
+<a id="hcd-18"></a>
+## HCD.18 - Construct a Characterization and Evaluation Specification for Instructional Material
+
+> **Type:** Human Capability Development practitioner evaluation-specification construction pattern
+> **Status:** Candidate
+
+### HCD.18:0 - Use This When
+
+Use this pattern when you must decide what to repair, select, or rely on in instructional material, but the available evaluation cannot distinguish the material's useful contribution from an attractive presentation, a correct answer supplied by an expert, or help supplied by a teacher.
+
+An editor preparing a worksheet, a teacher choosing a worked explanation, and a designer evaluating a connected course route face the same first question: **what work should this material help this audience do, with what support?** Write that promise and one task that would expose a consequential failure. Then check whether an existing specification already answers it.
+
+The first useful result is either a compatible specification ready for evaluation, or a new specification that tells an evaluator what to inspect, how to interpret observations, and what decision each difference can change. The specification concerns the instructional material in its declared use. Wider human capability development remains outside this construction task.
+
+If a compatible specification is already available, use it directly through HCD.19. If the question is one person's performance, transfer, or retention, use HCD.11, HCD.12, or HCD.13. A professional reference used to make a decision is evaluated for that reference use; it acquires a learning-task requirement only when it promises instruction.
+
+### HCD.18:0.1 - Working Terms
+
+| Term | Meaning in this pattern |
+| --- | --- |
+| Instructional material | The explanations, examples, tasks, representations, and usable returns offered to support specified learning work. A worksheet, book, or guided interface may carry this content. |
+| Declared use | The audience, tasks, prerequisites, ordinary assistance, and decision for which the evaluation is intended. |
+| Task denominator | The work and consequential variations the material promises to support, recovered from that work and its subject requirements rather than counted from the material's headings. |
+| Characteristic | A property whose possible values can change use, repair, evidence collection, or protection of another property. |
+| Evaluation specification | The defined object and use, selected characteristics and scales, evidence requirements, result meanings, and conditions under which an evaluator may draw a conclusion. |
+| Material value | A qualified judgement about a selected property of the material. The evidence supporting the judgement and the material's fit to the specification remain separately interpretable. |
+
+These are working terms, not new artifact types. A short written agreement can carry the specification when it supplies the required meaning.
+
+### HCD.18:1 - Problem Frame
+
+A time-accounting handout tells a learner to count from a task's first start to handoff. Its example contains no interruption, so the intended active effort and the elapsed turnaround have the same value. The example looks correct. A prepared reader later separates the quantities without help, while another reader may follow the handout's wrong general rule.
+
+Counting correct answers alone would miss the defective explanation. Counting headings would find an explanation, an example, and a task and miss it again. A useful evaluation must make the distinction matter: introduce an interruption, ask for both quantities, inspect the explanation that supports them, and preserve what the reader supplied from prior knowledge.
+
+The evaluator also needs to know what the material promises. A handout used with a teacher's corrective question has a different support arrangement from a self-study unit. The question can legitimately enable correction without proving that the first explanation enabled independent recognition.
+
+A specification fixes these distinctions before observations are interpreted. It keeps subject truth, audience support, the task's validity, and the strength of the resulting inference connected without turning them into one score.
+
+### HCD.18:2 - Problem
+
+How can a designer construct a small but complete evaluation specification that distinguishes action-changing material defects, supports defensible values and repairs, and exposes the evidence still needed for the declared use?
+
+### HCD.18:3 - Forces
+
+- A reusable profile saves effort, but a fixed quality list can miss a task absent from the material itself.
+- Shared observations can support several properties, while those properties require different repairs.
+- A correct first answer can come from the material, prior expertise, or an available helper; the evaluation must distinguish those contributions when they change reliance.
+- More detail can clarify a distinction or obstruct the next action. The property concerns support for the use, not volume.
+- A usable ordinal judgement can guide repair without pretending to measure equal intervals or predict learning.
+- A demanding task can reveal useful learning work or a missing prerequisite. Immediate ease cannot decide between them.
+
+### HCD.18:4 - Solution
+
+Construct the specification from the intended work to the evidence and resulting decision. A.19.ECS supplies the general construction requirements; this pattern supplies their instructional-material application. The [instructional-material evaluation profile](#instructional-material-evaluation-profile) offers selectable property families and an optional repair/use scale.
+
+#### HCD.18:4.1 - Recover the promise and stop if an existing specification fits
+
+Name the material edition and the portion to be judged. Distinguish its content from a particular export when font size, navigation, image resolution, or interaction changes access. Identify the intended audience and prerequisites at the level that changes the tasks: “can add time intervals” is useful in the worked case; an invented demographic persona is not.
+
+State the ordinary material, tools, source returns, teacher help, and peer or AI assistance. Separate what is promised from what is available and what later proves to be used. For an intended future audience, these are design conditions, not observations about already identified people.
+
+Name the decision: for example, select between two explanations for a supervised exercise, repair a course's planning task, or authorize a specified self-study use. Say what a wrong positive conclusion would cost. This selects the evaluation grain and evidence burden.
+
+Compare an existing specification by value: object kind, audience, task denominator, support arrangement, relied-on subject state, properties, value meanings, evidence, and consuming decision. A matching title or the same 0–5 labels do not establish compatibility. If the existing specification fits, stop construction and use it. If only one requirement changed, retain the compatible parts and repair the affected specification content.
+
+#### HCD.18:4.2 - Derive the tasks and contrast cases outside the present table of contents
+
+Start from the work the audience should be able to perform or practise. Recover its required distinctions, prerequisite operations, acceptable variants, and consequential errors from the problem and a qualified subject basis. A material's claim of coverage does not define its own denominator.
+
+For each promised task, ask what a successful contribution would contain and which plausible wrong contribution an apparently adequate explanation might also produce. Choose a case on which the alternatives differ. In the time example, an uninterrupted interval cannot distinguish active effort from elapsed turnaround; an interruption can.
+
+Compare this task-derived need with the actual explanations, examples, practice, and accessible returns. A precise external return can supply a contribution if it is usable by this audience at this point. A title that promises the contribution cannot.
+
+Prepare three kinds of contrast:
+
+- an in-scope material that supplies the needed contribution;
+- an in-scope material with a consequential deficiency;
+- a nearby object or use for which this specification would answer the wrong question.
+
+These contrasts test fit as well as quality. A personal capability judgement is outside a material specification even when the same learner task appears in both.
+
+Distinguish the subject basis from manufacturing history. An existing directly authored book can be evaluated without knowing how its author wrote it. If fidelity to a transcript, prescribed edition, or earlier rendering was promised, evaluate that source-to-material relation on its own evidence.
+
+#### HCD.18:4.3 - Select properties by the decisions their values change
+
+Use the profile's property families as a search aid. Keep a characteristic when its values can change the use decision, identify a distinct repair, call for different evidence, or protect a contribution that another repair might damage.
+
+For each proposed characteristic, try two possible material conditions. If both would receive the same practical response and evidence requirement, refine the distinction or remove the redundant coordinate. Split a compound coordinate when its parts can fail independently with different repairs. Subject accuracy and currentness may share a passage but require different evidence; explanatory sufficiency and criterion validity can diverge when a correct explanation is followed by a key that rejects a valid answer.
+
+Declare the characteristic's bearer and grain. A false arrow in one diagram, a missing operation across an explanation–exercise chain, and a whole-route omission have different reach. A local defect does not inherit the whole book's grain merely because the evaluator opened the whole book.
+
+Make the selected set complete for the declared decision. A short diagnostic can legitimately borrow two profile questions, but then its conclusion is a bounded diagnosis, not a complete material evaluation. Do not call an omitted required property “not applicable” merely because it is inconvenient to observe.
+
+#### HCD.18:4.4 - Bind values, evidence, and decisions without collapsing them
+
+For each selected characteristic, define its value domain, scale type, polarity, anchors, and conditions of applicability. A numerical scale needs an interpretation: a count, a measured duration, and an ordinal repair judgement support different operations.
+
+The profile's optional 0–5 rendering is ordinal. Its anchors distinguish absence of usable support, limited support, connected central repair, bounded repair, adequacy, and additional useful resilience. They do not license averages, equal-step differences, or a universal floor. Choose a floor only when the consuming decision needs one, and explain why that decision can rely on it. State any non-compensable condition at its actual grain.
+
+Make adjacent values distinguishable in the domain. For explanatory sufficiency, distinguish rebuilding the central explanation–task chain from repairing one missing transition. Distinguish adequacy for the selected cases from an evidenced advantage across consequential variations. A value of 5 requires the latter advantage over 4, not more pages or a history of having been repaired.
+
+Attach evidence requirements to each value. Source inspection can establish a false unit relation. It cannot establish how an unobserved learner experienced the passage. Where adequacy for the audience requires reader work, say what contribution must be observed and under which assistance conditions. Keep a missing observation explicit; lack of evidence is not the material value 0.
+
+Define what a result returns for each selected coordinate: value or lawful missingness, evidence basis, limiting case, grounds against adjacent alternatives, implication for use, and smallest worthwhile repair. Shared evidence may be cited by several rows without being counted as independent observations.
+
+Resolve differences at their cause. If two evaluators disagree between 2 and 3, trace whether the repair crosses a central connected chain or remains bounded. Do not average the judgements. If the disputed distinction repeatedly fails to change action, repair the scale rather than demand stronger agreement with an arbitrary label.
+
+#### HCD.18:4.5 - Make the specification usable by another evaluator
+
+The following content completes an A.19.ECS specification. A table is optional; the values are not.
+
+| Specification content | What the evaluator must be able to recover |
+| --- | --- |
+| Object, use, and qualification | Exact material or material family, evaluation grain, audience prerequisites, tasks, assistance, subject/source state, consuming decision, and window in which the basis remains valid. |
+| Fit and contrasts | In-scope adequate and deficient examples, outside-kind or outside-use example, entry decision, and the disposition of a forced invocation on an incompatible object. |
+| Characteristics and scales | Selected properties, their applicability, value domains and scale types, polarity, anchors, any floor or exceptional-value condition, and protected trade-offs. |
+| Evidence and calibration | Coordinate-specific evidence minima, qualified subject criteria, actual tasks and competing answers, admissible inference, missingness, known contrasts, and the needed reader or evaluator calibration. |
+| Result and evidence payload | Every selected coordinate with value or missingness; material locus, task/observation, available and actual help, adjacent-value grounds, limiting example, repair, and claim limits. Preserve the task, criterion, first answer, and later assistance when they carry the inference. |
+| Decisions and continuation | Supported-use, repair-needed, insufficient-evidence, disputed-criterion, and fit-defect meanings as needed; stop, reopen, and next-evidence conditions; the starting result for E.23 if improvement is needed. |
+| Neighbouring claims and comparisons | Exact exits for human performance, transfer, retention, source fidelity, or production history. If selection among alternatives is live, the common comparison basis and E.22 use, including incomparable cases. |
+
+A complete specification need not already have every observation that its later use requires. It must state the missing observations and prevent a stronger result from being claimed without them. Conversely, a calibrated illustration does not make every future application adequate.
+
+An incompatible object normally stops before invocation. If an invocation is nevertheless required, return an explicit fit defect and the blocked conclusion. If a selected coordinate becomes unevaluable during an in-scope application, return its evidence or criterion defect in the complete result. Neither case authorizes silently dropping that coordinate.
+
+#### HCD.18:4.6 - Try the specification on contrasts and establish its continuation
+
+Have an evaluator use the same specification on its adequate, deficient, and outside-use contrasts. Examine the resulting decisions and repairs, not merely agreement on labels. Check whether a known central defect can pass because an example is ambiguous, whether a correct alternative is rejected, and whether a missing observation is mistakenly converted to a low material score.
+
+Where an AI reader or evaluator is used, test the contribution it is actually able to make. Subject-grounded counterexamples can calibrate defect diagnosis; simulated novice behaviour cannot establish human learning. A fresh reader is useful when private knowledge of the intended defect or answer would defeat the selected inference.
+
+Stop construction when another evaluator can identify the object and tasks, collect the specified evidence, return all selected coordinates with their limits, and decide the declared next move. An unresolved criterion or discriminating-evidence gap is a legitimate returned result.
+
+Name the specification version when results will be compared later. A changed value meaning, task denominator, or support arrangement may invalidate numeric comparison with earlier results. Preserve earlier results under their original meanings; establish a justified comparison of meanings or decline equivalence. Reopen only the affected specification content when a new task, audience, source premise, assistance change, or recurrent calibration disagreement changes it.
+
+### HCD.18:5 - Archetypal Grounding
+
+#### HCD.18:5.1 - A complete small specification for active effort and elapsed turnaround
+
+A teacher is preparing a short introduction for readers who can read clock times, add intervals, and use a calculator. The promised work is to separate task effort from turnaround and compare consumed person-time with available person-time. The material stays available. A teacher may ask a corrective question after the first answer. Independent first recognition and supported correction are recorded separately.
+
+Call the following specification **Time-use S1**. Its decision is whether the material supports this bounded introduction with the declared teacher contribution, and what to repair before relying on it. The object is the handout's explanation, examples, task, and usable correction support, not a learner's durable capability or the visual quality of an uninspected export. Qualification holds while these tasks, audience prerequisites, support, and time-accounting meanings remain unchanged.
+
+The subject criteria are stipulated before an attempt: active effort sums the named person's active intervals; elapsed turnaround spans first start to handoff; exclusive active intervals are not double-counted; simultaneous work by different people is added as person-time; a resource comparison uses the same population and unit on both sides.
+
+| Task derived from the promise | Required contribution and discriminating error |
+| --- | --- |
+| Interrupted report | One person works on a report 09:00–09:30 and 11:30–12:00, with incident work 09:30–11:30. Return report effort 60 person-minutes, incident effort 120 person-minutes, report turnaround 180 clock-minutes, total effort 180 person-minutes, and incident share 120/180. Calling report effort 180 exposes the rival rule. |
+| Concurrent people | A works on X 09:00–10:00; B works on Y 09:00–11:00; both are available 09:00–11:00. Return consumed effort 3 person-hours, available effort 4 person-hours, and elapsed window 2 hours. Compare 3 with 4, not 3 with 2. |
+| Correction and continuation | Preserve the first report answer, then ask which intervals contain report work and which belong to the incident. Ask the reader to correct or defend the answer and apply the distinction to the concurrent-people task. A repeated answer without a reason does not show that feedback enabled correction. |
+
+These tasks are not inferred from the handout's headings. The interruption distinguishes two time concepts; the concurrent case distinguishes person-time from clock duration. Both are necessary to the stated promise.
+
+Time-use S1 selects six characteristics. It uses the profile's ordinal repair/use anchors, with higher values better for this use. For the supported-use conclusion, every selected property must be at least 4 on the evidence required below. This is S1's conservative local decision rule, not an HCD floor. No averaging compensates a failed required property. Missing evidence returns “insufficient evidence for supported use”; it does not prohibit a controlled probe designed to obtain that evidence.
+
+| Selected characteristic | Evidence required for 4 in S1 | What distinguishes the neighbouring repair or resilience judgement |
+| --- | --- | --- |
+| Subject validity | Inspect the explanation, example, task, key, and correction against the stipulated meanings; challenge the interruption and population denominators. | One bounded incorrect unit label with otherwise consistent uses calls for 3; a wrong central rule propagated through the explanation and use calls for 2. For 5, demonstrate an additional useful boundary treatment, such as separating waiting from other-task work without corrupting either quantity. |
+| Task and dependency coverage | Trace both task families and their prerequisites to actual material or accessible declared support; inspect that each needed operation is supplied. | A missing usable return for one supplied operation is bounded repair; absence of the concurrent-person operation needs a connected addition. For 5, show useful coverage of a consequential further case, such as unequal availability, while preserving the original promise. |
+| Explanatory sufficiency | Inspect the grounds linking intervals, quantities, and comparison; obtain reader work under the declared prerequisite and support conditions that reveals how the reader recovers those grounds. | One missing transition differs from rebuilding the active/elapsed explanation chain. For 5, the reader can use the supplied explanation on an additional consequential variation, with its source contribution and assistance visible. |
+| Example discrimination | Apply the correct and rival rules to the supplied examples. At least one example must distinguish interruption and one must distinguish aggregate person-time from elapsed duration, in material or the declared accessible support. | An isolated misleading example amid a sufficient discriminating pair differs from an example set compatible throughout with the rival rule. For 5, an additional boundary contrast prevents a further identified misapplication. |
+| Task and criterion validity | Independently solve the tasks; test the key against a correct alternative and the named rival errors. Equivalent units and justified exact or rounded shares are accepted. | A key's bounded omission differs from a task–criterion chain that elicits or rewards the wrong quantity. For 5, the criterion demonstrably discriminates a further consequential error without rejecting a valid alternative. |
+| Feedback and continuation support | Inspect the available feedback and observe a first answer followed by the declared question, an explained correction or justified retention, and the changed task. Record the teacher's actual contribution. | A missing next-task return differs from a support arrangement that cannot expose or correct the central discrepancy. For 5, an additional relevant difficulty can be handled through the declared support without supplying the next answer wholesale. |
+
+The remaining profile families do not become automatic extra scores. In this bounded case, semantic representations and language are inspected where they carry the selected explanations and criteria; no separate alternative export, long narrative route, or changing subject edition is promised. If one of those conditions changes, revisit the selection.
+
+For each coordinate, S1 returns the value or named missingness, the inspected material passage and task, the criterion and actual response, source inspection versus reader evidence, available and actual help, adjacent-value grounds, and repair reach. A 4/5 judgement without its required observation is blocked. An observed subject error can still support a lower value without waiting for a learner to reproduce it.
+
+#### HCD.18:5.2 - Contrasts that test what the specification can conclude
+
+A deficient handout, M0, says that time spent doing a task runs from first touch to handoff. Its only worked example is uninterrupted. It offers some useful time-accounting content, but its central rule and example do not support the interruption distinction. S1 can locate a connected explanation–example repair even if a prepared reader independently returns all correct quantities.
+
+A revised explanation, M1, distinguishes active intervals from start-to-handoff turnaround, separates the columns, gives the interrupted report result, and states how to sum person-time across people. This repairs the named subject relation. To become an adequate contrast for **all** of S1, the material-and-support arrangement must also supply the concurrent example, a criterion that accepts valid equivalents, and the specified reader/feedback evidence. “Better explanation” alone is not a complete six-coordinate result.
+
+An adequate **constructed** contrast combines M1 with the concurrent worked comparison, the S1 criteria, and an available teacher question and retry. It shows what adequate content and support would contain. Until an appropriate reader actually uses that arrangement, explanatory and feedback adequacy remain evidence requirements, not observed successes.
+
+The outside-use contrast is “this reader will retain the distinction independently next month.” It concerns a human retention claim. S1 returns outside use and points to HCD.13; it does not award the handout 0.
+
+The practical change is visible before collecting new learner data: M0 can no longer pass on heading coverage and expert accuracy alone; the repaired material cannot acquire a learning claim merely by containing the right definitions; and the remaining observation is specific enough to undertake.
+
+### HCD.18:6 - Bias-Annotation
+
+The selected task denominator can inherit the designer's narrow experience. Compare it with consequential work variants and a qualified domain account, especially when the present material omits them. Declared prerequisites can also conceal missing instruction by demanding knowledge the intended audience was never promised to have.
+
+Prepared readers and language models may repair an explanation without noticing how much prior knowledge they used. Their diagnosis can establish a source defect, but their success does not automatically qualify material for a less-prepared audience. Preserve actual human difficulty reports when their task or assistance differs.
+
+An ordinal scale can make evaluators seek a number before understanding repair reach. Read the limiting case and evidence first; retain an unresolved boundary when its meaning is disputed.
+
+### HCD.18:7 - Conformance Checklist
+
+This is assurance guidance for a constructed specification; the working method is in sections 4 and 5.
+
+- **HCD18-CC1.** The specification SHALL identify the material, grain, audience, tasks, prerequisites, assistance, subject basis, consuming decision, and qualification conditions.
+- **HCD18-CC2.** The constructor SHALL check compatibility with an existing specification and derive the task denominator from the promised work rather than the present headings alone.
+- **HCD18-CC3.** The specification SHALL provide adequate, deficient, and outside-use contrasts and preserve the distinction between fit, material value, and evidence.
+- **HCD18-CC4.** Each selected characteristic SHALL have an action-changing purpose, applicability, scale binding, anchors, evidence requirements, and an explicit result or missingness disposition.
+- **HCD18-CC5.** An ordinal numeric rendering SHALL NOT be treated as equal intervals or silently averaged. Any floor, exceptional value, comparison, or non-compensable condition SHALL be justified for the consuming use.
+- **HCD18-CC6.** The result requirements SHALL preserve the evidence and adjacent-value grounds needed to recover the judgement, including first response and actual assistance when they change the inference.
+- **HCD18-CC7.** Calibration SHALL test discriminating contrasts and preserve criterion or evidence disagreements. Constructed cases SHALL be distinguished from observed reader work.
+- **HCD18-CC8.** The specification SHALL state supported conclusions, stops, reopens, neighbouring-claim exits, and the E.23 starting result when repair is needed.
+
+### HCD.18:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Why it changes the wrong decision | Repair |
+| --- | --- | --- |
+| Count every present heading as coverage | The material defines its own denominator and hides omitted work. | Recover the required task and compare its dependencies with the content. |
+| Treat every profile family as a mandatory score | Inert coordinates add effort while an unlisted live property can still be missed. | Select by changed action, evidence, or protection; complete the set for the actual use. |
+| Award 0 for no learner observation | Ignorance becomes a demonstrated material failure. | Return missing evidence and the conclusion it blocks. |
+| Infer material adequacy from an expert's correct answer | The expert may supply the missing or corrected relation. | Inspect the material and the actual source of the response; obtain audience-compatible evidence if needed. |
+| Copy another programme's 0–5 values | Identical numbers can encode different fit, repair, and floor meanings. | Retain the original scale and establish only a justified comparison of meanings. |
+| Require construction records for every old book | A current product question is replaced by a historical claim. | Evaluate current support; open source-fidelity or history only when promised or consequential. |
+
+### HCD.18:9 - Consequences
+
+A constructed specification makes the next evaluation executable: the evaluator knows what work matters, what a defect would change, what evidence to obtain, and which stronger conclusion remains unavailable. Repairs can target a criterion, example, explanation, return, or assistance arrangement instead of expanding the material indiscriminately.
+
+The cost is up-front task and contrast design. That cost is worthwhile when an intuitive score could drive consequential selection or repair. A compatible existing specification avoids repeating it. New audiences or purposes can require a changed specification; preserving the original result meanings makes that change inspectable.
+
+### HCD.18:10 - Architectural Rationale
+
+Material evaluation sits inside human capability development because the material is one contribution to learning work. Keeping its evaluation distinct allows the same explanation to be judged within a teacher-supported activity, a self-study unit, or a narrower preparatory use without attributing every outcome to the text.
+
+A.19.ECS already supplies the general specification-construction discipline. The additional domain contribution is the task-derived denominator, discrimination of plausible learner rules, assistance-sensitive evidence, and material-specific repair reach. HCD.19 consumes the result to inspect material and actual reader work. Their relationship is a direct result dependency when construction is needed, not a mandatory two-step lifecycle.
+
+The common profile supplies reusable property meanings and comparison cautions. It does not replace task-specific selection or turn a framework publication into an admitted MethodDescription. An independently live Method or MethodDescription claim retains its own admission requirements.
+
+### HCD.18:11 - SoTA-Echoing
+
+The working question is how to obtain an evaluation that discriminates useful material support at reasonable effort. The selected line combines use-bound validity, examples that distinguish rival rules, functional feedback, and calibrated interpretation of reader evidence. Its advantage over a heading checklist or an unqualified correct-answer count is that a detected difference selects a different repair or evidence claim. The deliberate cost is constructing meaningful contrasts.
+
+| Practice choice | Adopt, adapt, or reject; effect on this pattern | Source contribution, limit, and reopen condition |
+| --- | --- | --- |
+| Tie a judgement to the intended interpretation and use | **Adapt** use-bound validity in sections 4.1–4.2 and S1. A single context-free material score cannot answer an assistance-dependent use question. | The [AERA/APA/NCME Standards (2014)](https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf) supply the assessment-validity anchor, not a book-quality scale. Reopen when the audience, task, or inference changes. |
+| Make an example distinguish consequentially different rules | **Adapt** contrastive example design in sections 4.2 and 4.6. The uninterrupted example in M0 cannot discriminate the two time rules; an interruption can at similar reading effort. | [Wesenberg et al. (2025)](https://doi.org/10.1016/j.cedpsych.2024.102328) supply failure evidence about ambiguous worked examples in brief units and two topics. The local time example is a constructed application, not their experiment. Reopen when ambiguity is deliberate preparation and later instruction actually resolves the alternatives. |
+| Evaluate what feedback permits next | **Adapt** a separate feedback-and-continuation property in section 4.3 and S1. A key can mark an error without enabling correction. | [Wisniewski et al. (2020)](https://pubmed.ncbi.nlm.nih.gov/32038429/) synthesize heterogeneous feedback effects; presence or quantity is an inadequate default. They establish no local passing threshold. Reopen when a different support arrangement changes the next action or required evidence. |
+| Calibrate an automated judgement for the property being judged | **Adopt** bounded calibration in section 4.6 and reject simulated novice success as human evidence. This costs a discriminating probe but can expose expert rescue of defective material. | [Bavaresco et al. (2025)](https://aclanthology.org/2025.acl-short.20/) find task-dependent LLM/human agreement across NLP evaluations. This is counterevidence to unrestricted substitution, not validation of a learning-material rubric. Reopen for a new evaluator, property, or audience-dependent inference. |
+
+### HCD.18:12 - Relations
+
+- **A.19.ECS** defines the general content of an evaluation specification and its fit, evidence, comparison, and continuation requirements. **A.17, A.18, and C.16** retain the general characteristic and scale meanings used by its bindings.
+- **HCD.19** applies a compatible specification to instructional material and representative reader work. **E.22** supplies comparison when selection is live; **E.23** supplies improvement from the resulting defect and protected trade-offs.
+- **HCD.3 and HCD.6** can supply the target contribution and representative task design. HCD.18 can also use qualified task and audience inputs obtained elsewhere; those patterns are not mandatory preliminary stages.
+- **HCD.11, HCD.12, and HCD.13** govern evidence about human performance, transfer, and retention. A material judgement contributes to those questions without replacing their evidence.
+- **NSTD.6 and NSTD.8** contribute current narrative-product adequacy, attachment, and progressive reconstruction when the selected material's narrative use makes those properties live.
+- **E.4.DPF.DA** governs the adequacy of a DPF package used as a framework. An instructional-material profile applies additionally only for an instructional promise; it does not turn every reference framework into a course.
+
+### HCD.18:End
+
+<a id="hcd-19"></a>
+## HCD.19 - Evaluate Instructional Material through Representative Reader Work and Diagnose Its Repair
+
+> **Type:** Human Capability Development practitioner material-evaluation and repair-diagnosis pattern
+> **Status:** Candidate
+
+### HCD.19:0 - Use This When
+
+Use this pattern when you have a compatible evaluation specification and need to find what instructional material actually supplies to a reader, what limits the promised use, and what repair or additional evidence would change that result.
+
+Start with one representative task, its subject criterion, the exact material, and the ordinary assistance. Preserve the reader's first answer before offering a corrective cue. Then inspect the answer together with the passages, examples, and help that could have supplied it.
+
+The first useful result is a qualified material judgement: a supported contribution, a limiting defect and its reach, or a specific evidence or criterion gap. That result can feed a use decision or E.23 improvement. A correct answer can coexist with a defective explanation if the reader repairs it from prior knowledge.
+
+This is the material-evaluation branch of human capability development. If the evaluation specification is absent or unsuitable, construct or repair it with HCD.18. If a compatible specification already exists, enter here directly. Use HCD.11–HCD.13 for the distinct questions of a person's performance, transfer, and retention. If only a disputed subject claim is at issue, resolve that claim from its qualified domain basis before attributing a reader's disagreement to comprehension.
+
+### HCD.19:0.1 - Working Terms
+
+| Term | Meaning in this pattern |
+| --- | --- |
+| Reader task | The actual contribution requested from a reader to expose support for a promised use. It may be a decision, calculation, explanation, repair, or other domain-valid action. |
+| First answer | The response obtained before later feedback or a cue supplies the distinction whose independent recognition matters. The ordinary material and declared tools may already be available. |
+| Supported continuation | A later response made with the recorded help. Its usefulness is judged under that support arrangement. |
+| Material contribution | The distinctions, grounds, operations, examples, and usable returns the material makes available for the task. |
+| Limiting defect | A supported material or support deficiency that prevents the declared use or requires repair, with its effect traced to the affected tasks. |
+| Repair reach | The connected explanation, example, task, criterion, representation, or return that must change for the defect to be corrected in use. |
+
+### HCD.19:1 - Problem Frame
+
+An editor receives two apparently conflicting results. A prepared reader solves an interrupted-task exercise correctly, while the handout defines task effort as start-to-handoff time. The reader explains that the active/elapsed distinction came from prior knowledge. After a teacher question and a corrected explanation, the answer remains correct.
+
+The editor has obtained useful evidence, but not the initially expected learning gain. The original material still supplies the wrong relation; the repaired material now supplies a better one; the unchanged answer cannot show that the reader learned it. A changed two-person case can check whether the repair supports the intended population denominator without treating its success as delayed retention.
+
+A different difficulty arises in a long course. A reader may understand each local definition but fail to connect an early distinction to a later choice. Evaluating isolated excerpts will miss that edge. Conversely, a wrong figure return can be repaired locally while a reported broader difficulty remains unresolved.
+
+This pattern connects the task, actual response, material evidence, and repair. It helps an evaluator identify the smallest complete change without confusing a person, material, teacher service, and evaluation instrument.
+
+### HCD.19:2 - Problem
+
+How can an evaluator obtain and interpret representative reader work so that the resulting material judgement distinguishes defects, prior knowledge, assistance, and missing evidence, and returns a repair whose effect can be tested?
+
+### HCD.19:3 - Forces
+
+- A natural open-book task can be representative even when a worked example is nearby; answer proximity still limits what the result establishes.
+- First recognition and successful correction are both useful, but a later cue can erase the opportunity to observe the first.
+- Expert inspection can reveal a subject defect cheaply, while audience-dependent adequacy requires evidence from the relevant reading conditions.
+- Whole-route claims need connected reading; a local repair should reuse unaffected evidence.
+- A teacher can legitimately supply a promised contribution. Requiring all help to reside in the material changes the product being evaluated.
+- Useful difficulty may prepare later instruction, whereas unsupported difficulty can leave the task impossible. The next instructional move distinguishes them.
+
+### HCD.19:4 - Solution
+
+Use the compatible specification to collect evidence and interpret only the contribution it can support. The [instructional-material evaluation profile](#instructional-material-evaluation-profile) supplies common property meanings; the particular specification selects their use, scale, and evidence requirements.
+
+#### HCD.19:4.1 - Fix the material, criterion, and ordinary support before the attempt
+
+Identify the material edition, task, audience prerequisites, and consuming decision. Check that these conditions match the specification. Preserve a current material copy or precise edition reference when later repair would otherwise make the observation unrecoverable.
+
+Derive the task from the promised work. Define the domain-correct result, acceptable alternatives, and a consequential rival response before seeing the answer. If independent selection of a rule matters, the task must leave that choice to the reader. A prompt that names the decisive distinction can test its application but no longer its uncued recognition.
+
+Give the reader the material and declared ordinary resources. Keep the evaluator's answer key, intended defect, unpublished rationale, and later condition unavailable when they would supply the contribution being tested. A public worked example legitimately available in reference use is part of the material's support; record that closeness instead of treating it as a test violation.
+
+State the observation's purpose and conditions plainly to human participants. Do not require them to experience a foreseeable harmful consequence just to demonstrate a source defect. Subject inspection and a safe task can often settle the repair before a higher-risk use.
+
+If the task or criterion is disputed, preserve the response and resolve the subject question. A key is evidence of what the exercise accepts, not automatic authority over the domain.
+
+#### HCD.19:4.2 - Preserve what happened before and after help
+
+Record the first answer with the reasoning, source use, or work trace necessary for the intended inference. Retain errors, omissions, justified uncertainty, and valid alternatives rather than silently replacing the answer with a corrected rendering.
+
+Separate three support facts:
+
+- what the arrangement promised;
+- what was actually available to this reader;
+- what the reader actually used, including a later teacher, peer, or AI cue.
+
+When source contribution matters, ask the reader to identify what the material supplied and what they brought from prior knowledge. This report can help interpretation but is not by itself causal proof. Check it against the material and the response. The reader may not notice a familiar inference they supplied.
+
+After preserving the first response, provide the declared feedback. Record its content and timing relative to the response. Keep a teacher's answer-bearing explanation distinct from a prompt that merely asks the reader to inspect an available criterion. Both may be appropriate support, but they permit different conclusions about independent work.
+
+No universal number of readers or tasks establishes adequacy. Select evidence for the property and consequence at issue. A cold intended reader lacks the author's private context; that condition does not erase the reader's real expertise or turn an agent into a novice human.
+
+#### HCD.19:4.3 - Read the material at the reach of the claim
+
+Inspect the meaning-bearing material that supports the task: the definition, example, representation, criterion, return, and any prerequisite relation. Follow a dependence until its needed contribution is supplied or its absence becomes clear. Do not stop at a heading that names it.
+
+For a whole-route judgement, read the complete declared route in its actual sequence. Keep an unresolved question or dependency open until its endpoint. Independent local judgements do not establish that the route works as a whole. If several readers inspect parts, the integrator still needs sufficient connected evidence to judge the complete route and its cross-part dependencies.
+
+At a narrative transition, use NSTD.8's attachment question: what question is current, what does this block add, why is it needed here, and where is its contribution used next? Inspect both endpoints. At the next use, distinguish structure already introduced or available through legitimate prerequisites from the genuinely new relation the reader must construct.
+
+A later explanation can support the present task when a precise, usable return makes it available now. Otherwise the later explanation does not repair an unsupported operation at this prefix. The repair may be one contrast, a worked step, a map, a recap, or a changed order.
+
+For an existing product, current content and reader-use evidence can support a current-quality diagnosis without original manufacturing records. If source fidelity or actual construction history is part of the promise, use the separate evidence branches of NSTD.6. A plausible reconstruction of how a book could have been written is not an observation of its author's actions.
+
+#### HCD.19:4.4 - Judge the contribution before assigning a material value
+
+Compare the response with the qualified criterion. Distinguish a correct result, an error, an unfinished attempt, an unobserved contribution, and a task or criterion defect.
+
+Then trace the material's part in that outcome. The following rival explanations select different next moves.
+
+| Observation | What to distinguish | Discriminating next move |
+| --- | --- | --- |
+| The reader cannot justify the next operation | Missing explanation, missing prerequisite, or a question the material never promised to answer | Inspect the promise and available preceding relation; try the smallest declared aid without relabelling the first answer. |
+| A correct-looking example supports a wrong rule | A non-discriminating example versus a false or absent subject relation | Use a case on which the intended and rival rules produce different results; inspect both rules explicitly. |
+| The key rejects a valid response | Criterion defect versus reader error | Resolve the domain criterion and preserve the valid response before changing the explanation or instruction. |
+| Separated concepts can be repeated but not combined | Missing relation, lost attachment, or unavailable prefix support | Inspect the two endpoints and the exact point of use; supply the missing relation or access, not another catalogue. |
+| Success begins after the teacher names the decisive condition | Effective supported continuation versus independent recognition | Retain the helped result; use a fresh uncued case or reader if independent recognition is the live claim. |
+| An expert succeeds despite a false explanation | Prior-knowledge rescue versus support actually supplied by the material | Preserve the source defect; obtain appropriately qualified audience evidence if adequacy for less-prepared readers is needed. |
+| A removed sentence makes no difference | Another public passage supplies the contribution, or the perturbation was irrelevant | Record the successful recovery. Revise the defect hypothesis rather than redefine success as failure. |
+| A prepared agent succeeds while a human reports difficulty | Different knowledge, task, help, or experienced burden | Keep the human report; observe the relevant reader and segment under specified conditions if that question changes the decision. |
+
+An unsuccessful attempt alone does not diagnose the person or prove a material defect. A successful attempt alone does not prove that the material supplies every needed contribution.
+
+Assign values only after recovering the material condition, evidence basis, and repair reach. Apply the specification's anchors and return every selected coordinate, including lawful missingness. A bounded diagnostic that borrows a few questions says so and claims no complete vector. Resolve adjacent-value disagreement by the meaning and reach of repair, not by averaging ordinal labels.
+
+#### HCD.19:4.5 - Diagnose the smallest complete repair
+
+State the limiting defect in operational terms. “The report rule includes incident time in effort” identifies a repairable relation; “unclear” does not. Locate the explanation, task, criterion, representation, or support arrangement in which that relation changes use.
+
+Trace its actual dependents. A central distinction used in a definition, table, interruption example, and later resource comparison needs a connected repair. A wrong figure address can require only the return and its receiving use. Several affected words are not necessarily several defects; one wrong premise can control them all.
+
+Propose the replacement and the reader result it should make possible. Identify the useful contributions to preserve, including subject truth, correct alternatives, expressive details that carry meaning, accessible representation, and the help the course actually promises. State the cost or trade-off that could make another repair better.
+
+Return this result to E.23 for repair selection and iteration. The material-specific contribution is the supported defect, its dependence reach, protected values, and discriminating next use. There is no second improvement cycle here.
+
+If the problem is unavailable promised teaching support, return it to the support arrangement's owner. If the promised audience cannot meet a necessary prerequisite, supply instruction or revise the promise. Enlarging the handout is only one possible repair.
+
+#### HCD.19:4.6 - Repeat the affected use and stop at the supported conclusion
+
+After repair, recheck the changed relation with its task and direct consumer. Reuse observations and values whose premises remain unchanged. Moving an explanation can reopen its former and new attachment and next-use prefix even when its words are identical.
+
+Use a meaningfully changed condition when the question concerns the reach of the repair. Change the participant population, relevant condition, boundary, or decision so that a plausible overgeneralization would now fail. Preserve the same reader when studying supported continuation; choose a fresh task or reader when prior answer exposure would defeat the needed inference.
+
+A preparatory failed attempt may be retained when subsequent instruction examines and resolves the attempted alternatives. If that resolution is absent, labelling the difficulty “productive” supplies no evidence. Similarly, immediate ease is not the target when the task deliberately asks the learner to construct a new relation with adequate support.
+
+Return what changed and what did not: material contribution, actual response, assistance, remaining defect, and evidence needed for a stronger claim. An observed improved response under support is different from independent performance, unfamiliar-work transfer, delayed retention, and causal learning effect. Use the corresponding HCD evidence patterns when those claims are required.
+
+Stop when the selected use or repair decision is supported, or when the next missing criterion or observation is precise enough to obtain. Do not broaden to the whole book because one bounded repair succeeded. Broaden when the changed premise or route actually affects more uses.
+
+### HCD.19:5 - Archetypal Grounding
+
+#### HCD.19:5.1 - A correct reader exposes a defective handout
+
+The time-use case in HCD.18 provides the tasks and subject criteria. In a preserved clean-context agent walkthrough, the reader first saw M0: the handout defined task time from first touch to handoff and gave one uninterrupted example. The reader knew arithmetic and time-accounting distinctions; novice behaviour was not simulated.
+
+For one person's interrupted report, the first response was:
+
+| Requested quantity | First answer |
+| --- | --- |
+| Active report work, 09:00–09:30 and 11:30–12:00 | 60 minutes |
+| Incident work, 09:30–11:30 | 120 minutes |
+| Report elapsed turnaround, 09:00–12:00 | 180 minutes |
+| Total active work across both tasks | 180 person-minutes |
+| Incident share | 120/180, or two-thirds |
+
+The reader explained that it brought the active/elapsed distinction and person-time meaning from prior knowledge. M0 supplied the intervals and start-to-handoff wording; its uninterrupted example could not distinguish the two quantities.
+
+The supported diagnosis is a material defect despite reader success. The central instruction assigns elapsed turnaround to a question about consumed effort. The subject criterion identifies the defect directly; the observed response shows expert correction of it. Neither observation establishes how a less-prepared human would perform.
+
+The repair M1 states that active effort sums the intervals in which the named person works on the task, while elapsed turnaround spans first start to handoff. It separates person, task, active intervals, person-time, first start, and handoff in the record; works the interrupted case; and distinguishes a population's person-time from wall-clock duration. This is a connected explanation–representation–example repair, not a cosmetic change to the word “time.”
+
+#### HCD.19:5.2 - Keep the teacher contribution and test a changed denominator
+
+Only after the first answer was preserved did the reader receive this teacher question: which intervals count as the person's active work, and can two assigned tasks consume the same minute of that person's effort? The reader then received M1, including the interrupted example's numerical answer.
+
+Its answer remained correct. It identified what M1 now supplied and declined to claim a learning gain: the distinction was already present in its first response, and the worked example supplied the same case's numbers. The result is a supported walkthrough of the repair.
+
+The later task changed the population. A worked on X from 09:00 to 10:00; B worked on Y from 09:00 to 11:00. Both were available from 09:00 to 11:00, and A did no other work in the remaining hour. The material and calculator remained available; no additional teacher cue was supplied.
+
+The reader returned 1 person-hour for X, 2 for Y, 3 consumed person-hours in total, 4 available person-hours, and a 2-hour clock window. It compared 3 with 4 and identified M1's population-denominator rule as the relevant material contribution. The numerical answer was not copied from M1.
+
+This changed task rejects the repair's plausible overgeneralization that every effort total must fit inside one clock interval. It supplies bounded evidence that this prepared reader used the repaired rule on a new population condition. It does not show novice learning, delayed retention, experienced burden, or a causal advantage over another explanation.
+
+#### HCD.19:5.3 - Return a complete disposition without inventing a complete success
+
+Time-use S1 was constructed as a fuller evaluation than the original walkthrough. Reusing the earlier responses under S1 requires checking their compatibility, not retroactively claiming that the full specification was executed.
+
+The following replay evaluates M1 under S1, using source inspection and the preserved observations above. It returns all six selected coordinates. The 0–5 meanings are S1's bindings to the material profile, not converted scores from another programme.
+
+| Coordinate | Value or missingness on this evidence | Grounds, limit, and next action |
+| --- | --- | --- |
+| Subject validity | Insufficient evidence for S1's complete subject-validity value | The inspected definitions, interval assignment, interrupted example, and population rule agree with the stipulated meanings. S1 also requires inspection of the offered tasks, key, and correction; that complete arrangement was not inspected for both tasks. Thus 4 is unestablished, while no bounded subject error justifies 3 and no additional checked boundary justifies 5. Retain the narrower correct-source findings and inspect the complete arrangement before assigning the full value. |
+| Task and dependency coverage | 4, source-inspected for the two S1 task families | M1 supplies interval summation, turnaround, exclusive-person accounting, population aggregation, and the common-unit comparison. It therefore supplies the operations even though one operation lacks a worked example. Missing reader evidence belongs to the explanatory row; a further consequential coverage advantage needed for 5 is absent. |
+| Explanatory sufficiency | Insufficient audience-compatible evidence for a supported-use value | M1 exposes the needed grounds and the prepared reader applies its population rule. That reader already knew the central distinction. The observation cannot qualify the promised introduction for readers possessing only S1's stated prerequisites. Obtain such reader work; do not convert the gap to 0. |
+| Example discrimination | 3, bounded addition required under S1 | The interrupted example distinguishes active effort from turnaround, but M1 has no worked concurrent-person contrast. Its population rule is already present, so adding that contrast does not require rebuilding the central explanation chain. That is 3 rather than 2; the specified example evidence for 4 is incomplete. |
+| Task and criterion validity | Insufficient evidence about the complete offered task-and-key arrangement | The original report task is domain-valid, and the evaluator's criteria discriminate the named errors. The complete material/teacher criterion available for both S1 tasks was not an inspected product component in the walkthrough. Supply or inspect that component; do not treat the evaluator's private key as already available to the learner. |
+| Feedback and continuation support | Insufficient audience-compatible evidence for supported-use adequacy | The teacher question, M1, and later task were supplied, and the prepared reader continued correctly. Its first answer needed no correction, so this does not demonstrate that the arrangement enables the intended reader to diagnose and correct a difficulty. Preserve the useful continuation result and obtain the missing corrective-use observation. |
+
+The same missing task-and-key inspection constrains subject validity and task/criterion validity: a correct explanation can coexist with a false offered key. The evaluator's correct answer supplies neither that component nor evidence of its inspection.
+
+The overall S1 conclusion is **repair needed and insufficient evidence for the declared supported-use conclusion**. The 4 for task/dependency coverage and 3 for example discrimination cannot compensate for the missing evidence. The next material change is precise: add the concurrent worked contrast and make the intended criterion/support arrangement available. The next observation is also precise: an appropriate reader uses that arrangement, with the first attempt and actual assistance preserved.
+
+This replay is a worked diagnostic judgement at the declared grain. It does not validate the scale's reliability or claim that the original walkthrough was a complete S1 evaluation.
+
+#### HCD.19:5.4 - A long-route defect can remain local
+
+Consider a designed course route that introduces a measurement scale, uses it in a comparison, introduces a work budget, and then asks the learner to keep a journal against that budget. Inspection shows that the measurement and budget distinctions are available before their later uses. One return points to figure 17 when the relevant scale is in figure 26; a final diagram also contains an unexplained arrow.
+
+The attachment repair is to correct the return and explain the arrow's actual relation, then inspect their receiving uses. The supported measurement-before-comparison and budget-before-journal prefixes are preserved. Adding a new overview to every chapter would not follow from these two defects.
+
+If a human reader reports a broader difficulty, that report remains a separate unresolved observation under its task, prior knowledge, and assistance conditions. A prepared reader's recovery of the route neither erases it nor establishes experienced cognitive load. A burden claim needs the actual respondent, segment, timing, and appropriate instrument. The designed route illustrates repair selection; it is not an observed human learning result.
+
+### HCD.19:6 - Bias-Annotation
+
+An evaluator who knows the intended repair can unintentionally teach it through the task prompt. Preserve the uncued opportunity when that is what the specification needs. If a cue was already supplied, narrow the conclusion rather than reconstruct an imaginary first answer.
+
+Self-reported source use can miss tacit expertise. Inspect the material and test a meaningful condition change; do not treat a reader's attribution as an isolated causal estimate. A language model's fluent reconstruction is especially poor evidence of what an inexperienced human could recover.
+
+Whole-route inspection can also inherit the evaluator's preferred reading order. Judge the actual route and available returns against the declared use. Retain deliberate preparation and useful difficulty when the later instruction resolves them.
+
+### HCD.19:7 - Conformance Checklist
+
+This assurance checklist supports the evaluation result. It does not replace the connected task, reading, and diagnosis.
+
+- **HCD19-CC1.** The evaluator SHALL use a specification compatible with the material, audience, tasks, assistance, subject basis, and consuming decision, or return the specific construction gap.
+- **HCD19-CC2.** The task and subject criterion SHALL be defined before interpreting the response and SHALL distinguish a consequential rival result where discrimination is needed.
+- **HCD19-CC3.** The evaluator SHALL preserve the first answer before later answer-bearing help and distinguish promised, available, and actually used assistance.
+- **HCD19-CC4.** A whole-route conclusion SHALL use connected evidence of the complete declared route and consequential cross-part dependencies; local fragment judgements alone SHALL NOT stand in for it.
+- **HCD19-CC5.** The result SHALL distinguish the observed contribution, source-inspected material condition, prior knowledge, support, criterion defects, and missing evidence when they change the inference.
+- **HCD19-CC6.** A complete invocation SHALL return every selected coordinate with its value or lawful missingness, evidence, adjacent-value grounds, and limits. A bounded diagnostic SHALL declare its narrower scope.
+- **HCD19-CC7.** A repair return SHALL identify the defect, complete affected reach, proposed change, protected contributions, and discriminating next use for E.23.
+- **HCD19-CC8.** A repeated use SHALL preserve assistance and exposure conditions, reuse unaffected evidence, and distinguish supported continuation from stronger human performance, transfer, retention, or causal claims.
+
+### HCD.19:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Consequence in use | Better move |
+| --- | --- | --- |
+| Correct the answer before saving it | The observation of first recognition is lost. | Preserve the first answer, then record the correction and help separately. |
+| Call every failed task a material defect | A prerequisite gap or invalid criterion is misdiagnosed. | Compare the promise, subject criterion, and available support before selecting the repair. |
+| Call every correct answer material adequacy | Expert rescue or answer-bearing help disappears from the inference. | Trace the material contribution and retain its limits. |
+| Repair a central contradiction with a footnote | Dependent examples and tasks still teach or reward the wrong relation. | Repair the smallest connected chain that changes the use. |
+| Rebuild the whole course for a wrong return | Useful explanations and established prefixes are changed without a supported reason. | Correct the edge and its receiving use; broaden only on actual dependence. |
+| Remove all initial difficulty | A useful preparatory attempt may be lost. | Inspect whether subsequent instruction works with and resolves the attempted alternatives. |
+| Equate structural complexity with human burden | A property of the rendering is substituted for an unobserved human experience. | Keep the structural diagnosis; obtain qualified human evidence if burden changes the decision. |
+
+### HCD.19:9 - Consequences
+
+The evaluation returns a material-specific next action. A criterion can be repaired before judging a reader; an explanation can be repaired despite expert success; a local return can be fixed while the rest of a route remains usable. Preserving first and helped responses also makes later claims easier to qualify.
+
+Actual reader work costs time and can change the reader's knowledge. Use it where the specification needs it, and reuse compatible observations. Source inspection can close a narrow subject defect cheaply, but repeated expert agreement cannot fill an audience-dependent evidence gap.
+
+### HCD.19:10 - Architectural Rationale
+
+Representative reader work makes a material's contribution visible in use. It remains only one part of the inference: the subject criterion, source inspection, prior knowledge, and support arrangement determine what a response can establish. Keeping those relations separate explains why the same correct answer may accompany either a good explanation or an expert's repair of a bad one.
+
+HCD.18 is needed only when construction is needed. HCD.19 consumes a compatible specification from any qualified source, then returns material-specific diagnosis to the existing E.23 improvement method. The narrative branch uses NSTD for relations across a rendering; nonnarrative material does not acquire a narrative examination by default.
+
+A change in the material and a change in a person are different results. HCD.11–HCD.13 retain the stronger human evidence questions, while HCD.19 can provide a useful bounded contribution without waiting for every later outcome.
+
+### HCD.19:11 - SoTA-Echoing
+
+The practice question is how to distinguish useful instruction, help, and repair without mistaking immediate success for a stronger learning result. The selected line inspects the material–task relation, preserves assistance-sensitive observations, and tests meaningful continuation. Compared with a single post-reading score, it costs a preserved first attempt and a targeted follow-up but yields a repair and a narrower, defensible claim.
+
+| Practice choice | Adopt, adapt, or reject; effect on this pattern | Source role, limits, and reopen condition |
+| --- | --- | --- |
+| Preserve help when interpreting performance | **Adapt** assistance-sensitive comparison in sections 4.2 and 4.6 and the M0/M1 case. A result obtained with the answer in the worked example is still useful, but cannot establish independent acquisition. | [Bastani et al. (2025)](https://doi.org/10.1073/pnas.2422633122) provide failure evidence for inferring later independent performance from assisted success in a particular school-mathematics AI arrangement. Its safeguards were bundled; this does not identify a universal mechanism. Reopen when the promised equipped-work arrangement or later independent claim differs. |
+| Follow the relation the reader must construct across parts | **Adapt** principle/example integration and self-explanation in sections 4.3–4.4. Local recall is an inadequate comparator when the promised work combines separated concepts. | [McCrudden et al. (2022)](https://pure.psu.edu/en/publications/promoting-integration-and-learning-from-multiple-complementary-te/) and [2024](https://eric.ed.gov/?id=ED642756) contribute bounded topic-specific integration evidence. Their prompts count as support; they establish no universal principles-first sequence. Reopen for a different audience, relation, or route that makes another order preferable. |
+| Preserve purposeful preparation while repairing unsupported difficulty | **Adapt** problem solving followed by instruction in section 4.6; reject both unconditional simplification and unqualified “productive failure.” | [Sinha and Kapur (2021)](https://journals.sagepub.com/doi/abs/10.3102/00346543211019105) synthesize conditional effects, largely in mathematics and physics. The practical requirement is that later instruction resolves the attempted alternatives. Reopen when that connection is absent or a different learning task changes the comparison. |
+| Choose a representation repair by its function | **Adapt** mechanism-specific multimedia design in section 4.3 and the local-route case. A signal, correspondence, or pacing repair can target a difficulty without adding decoration throughout the course. | [Noetel et al. (2022)](https://journals.sagepub.com/doi/10.3102/00346543211052329) supply a synthesis of multimedia design research, not proof of whole-book continuity. Reopen if the repaired representation still leaves the required relation unavailable. |
+| Keep structural diagnosis separate from experienced burden | **Adopt** an appropriately timed respondent-based question when burden is live; section 5.4 retains the human report rather than overriding it with agent success. | [Krieglstein et al. (2025)](https://doi.org/10.1007/s10648-024-09980-0) provide failure evidence about retrospective load timing in studied materials. They supply no conversion from narrative epiplexity to human burden. Reopen for a changed segment, timing, instrument, or respondent population. |
+
+### HCD.19:12 - Relations
+
+- **HCD.18** constructs or repairs an incompatible evaluation specification. Its output is an input here only when that construction is needed.
+- **HCD.6, HCD.7, and HCD.9** can supply representative practice tasks, feedback arrangements, and support for practice. HCD.19 can use equivalent qualified inputs without requiring a programme-authoring sequence.
+- **HCD.11, HCD.12, and HCD.13** govern human performance, unfamiliar-work transfer, and retention evidence. The observations obtained here remain qualified contributions to those different questions.
+- **NSTD.6** separates current narrative-product, source-fidelity, and actual construction-history evaluation. **NSTD.8** supplies attachment and available-prefix reconstruction when narrative learning-route use is live.
+- **E.22** supplies comparison among material alternatives under a common specified basis. **E.23** receives the limiting defect, protected trade-offs, and affected-use test for improvement.
+- **F.19** supplies meaning-preserving plain-language repair for a defective technical span. It repairs the relation and its expression after the subject meaning is recovered; a lexical replacement alone does not close a connected material defect.
+
+### HCD.19:End
+
 
 # Cross-Pattern Application
+
+## Instructional-material evaluation profile
+
+A material designer needs to know whether an explanation, worksheet, course route, or instructional interface supports the work promised to its audience, and what to change when it does not. The instructional-material profile selects that bounded use from HCD. The object being judged is the material's contribution under stated task and assistance conditions; human performance, the teacher service, and later learning remain separately evidenced questions.
+
+Begin with the reader work, the audience's prerequisites, the available material and help, and the decision that will use the judgement. If the evaluation specification is absent or unsuitable, [HCD.18](#hcd-18) constructs it. If a compatible specification is already available, [HCD.19](#hcd-19) applies it directly to the material and representative reader work. The useful return is a qualified material value or evidence gap, the limiting defect and repair reach, and the affected use that can test a proposed change.
+
+This is a declarative bounded-use profile of the HCD repertoire. It does not make all HCD patterns stages of material evaluation or assert Method parthood. HCD.3/.6 can supply a target and task; HCD.7/.9 can supply or expose the assistance and practice contribution. Qualified equivalent inputs permit direct entry. A personal development recommendation still needs the person's evidence. A reference framework used for a professional decision retains its own evaluation; it becomes an instructional-material use only when instruction is promised.
+
+### Choose properties from the promised work
+
+Recover the task denominator from the promised work and qualified subject requirements, including prerequisites, consequential variations, and critical errors. Then compare it with the actual explanations, examples, practice, and usable returns. The present headings can help locate content but cannot remove a necessary task from that denominator.
+
+The following families are selectable domain content, not a fixed vector. Keep a characteristic only when its values can change use, repair, evidence collection, or protection of another useful contribution. HCD.18 makes the selected set complete for the particular decision.
+
+| Characteristic family | What distinguishes useful support from a limiting defect | Typical repair and evidence |
+| --- | --- | --- |
+| Task and dependency coverage | Every promised task and consequential variation has its needed operations and prerequisites available. | Trace required work to actual contributions. Supply an absent operation, usable qualified return, or narrower promise. |
+| Subject validity and distinction integrity | Claims, examples, diagrams, and criteria preserve domain-correct kinds, relations, units, conditions, and justified claim strength. | Test a plausible countercase against a qualified subject basis. Correct the relation and its actual dependents. |
+| Explanatory sufficiency | The reader can recover why the next move follows and when it changes, with the declared assistance. | Follow the explanation through a worked case to use. Restore a missing ground, contrast, transition, or operation; obtain relevant reader evidence when the claim needs it. |
+| Example discrimination | The example makes a consequential difference between the intended rule and a plausible wrong rule. | Try both rules on the examples. Add or change a contrast where their predictions differ. |
+| Task and criterion validity | The task elicits the promised contribution, and the criterion accepts valid alternatives while rejecting a plausible error. | Independently solve and challenge the task and key. Repair the criterion before blaming the reader or changing a correct explanation. |
+| Feedback and continuation support | The arrangement lets a reader identify a discrepancy, correct it, and undertake a relevant next attempt. | Inspect and observe the feedback's function. Supply criterion-bearing help and a retry, or repair an unavailable promised service at its owner. |
+| Concrete and expressive support | An action, observation, example, image, or memorable cue reveals the relation needed in use, with its limits recoverable. | Retain or restore decision-bearing detail and vivid examples. A quiet reference needs no decoration merely to appear engaging. |
+| Representation semantic fit | The chosen text, image, table, or interaction exposes the needed relation accurately and accessibly. | Repair the mapping, label, relation, pacing, or relevant alternative representation. Inspect an export separately when its rendering changes access. |
+| Language comprehensibility for the audience | The reader can interpret the claim and scope without an accidental negation, ambiguous referent, or unintroduced language burden. | Repair the meaning-bearing span in the declared language. A local authorial-voice requirement remains local. |
+| Currentness of relied-on content | The particular claim and dependent operation fit the declared subject or source state. | Recheck the changed premise and its consumers. Age alone does not decide whether a claim remains usable. |
+| Practical addressability and access | The reader can reach the source, prerequisite, task, or feedback needed at this point. | Repair the actual target or accessible return. A broken link is not evidence that the underlying subject claim is false. |
+| Narrative attachment, when live | The current question, new contribution, reason for placement, and later payoff connect across the actual sequence. | Use NSTD.8 to inspect both endpoints and restore the needed relation or placement; no connective-word quota is implied. |
+| Progressive reconstruction support, when live | The required operation fits the structure already introduced or legitimately available, with adequate support for the new relation. | Use NSTD.8 to supply a contrast, map, worked relation, recap, usable return, or better order while retaining useful difficulty. |
+
+These properties can share observations without sharing a value. A correct explanation can coexist with an invalid key. A teacher can rescue an explanation while the example still fails to distinguish a rival rule. A diagram's semantic fit can be adequate while a particular export makes its labels unreadable. Split questions when their evidence or repair differs; do not count one shared observation several times as independent evidence.
+
+### Interpret material value separately from evidence and fit
+
+The default is a qualified ordinal repair/use judgement. A numeric 0–5 rendering is optional. If selected, bind the following meanings to the exact property, material grain, task family, and support arrangement before applying them.
+
+| Value | Material meaning for the declared use |
+| --- | --- |
+| 0 | The material demonstrably supplies no usable support for the required property, or defeats an explicitly declared non-compensable condition at this evaluation grain. |
+| 1 | Some relevant support exists, but a material part of the promised work remains out of reach. |
+| 2 | Useful work is recoverable, but repair must rebuild a connected central explanation–task chain or several consequential dependent uses. |
+| 3 | The main work is recoverable; a bounded correction to the identified relation, task, representation, or return is still needed. |
+| 4 | The property is adequate for the declared tasks, audience, and available support on the evidence required by the specification; no material defect is currently established for that use. |
+| 5 | The property has defensible additional useful resilience across the specification's consequential variations or boundary cases; the advantage and its evidence over 4 are stated. |
+
+The numbers denote ordered meanings, not equal intervals. A severe local defect does not automatically make a whole book 0. Trace its effect on the declared task family and any actual non-compensable condition. A high average cannot compensate a failed condition that the use cannot trade away.
+
+A floor belongs to the consuming decision, not to HCD as a whole. The Time-use S1 example in HCD.18 chooses 4 for each selected property before relying on its bounded supported introduction. That is a local rule. A diagnostic, controlled probe, or different consequence can require a different decision without changing what a value means.
+
+Evidence accompanies the value. Source inspection, an actual reader attempt, conditional inference, disputed criterion, and an unobserved contribution are different grounds. Wrong object kind is a fit decision before invocation. A required coordinate that cannot be judged returns its explicit evidence or criterion defect and the conclusion it blocks. It does not disappear from a complete result and does not receive 0 for ignorance.
+
+For an assigned value, explain why adjacent alternatives would understate or overstate the evidence. Distinguish a central connected repair from a bounded one by the changes needed in use, not error count. A value of 5 requires useful resilience beyond 4; actual manufacturing or repair history is additional evidence only when a historical claim is live. A value of 4 can still have a worthwhile improvement. Compare that improvement's benefit with its cost and protected contributions.
+
+Earlier evaluations under other specifications retain their original value meanings. For example, a local Guide scale whose 0 includes wrong kind or no basis is not numerically equivalent to this material scale. A comparison may relate “connected repair” to “bounded repair” while explicitly declining numeric conversion.
+
+### Use the two methods together without adding a lifecycle
+
+HCD.18 supplies a specification when one is needed. Its complete result includes fit, task denominator, selected properties and scale meanings, evidence and missingness, result interpretation, contrasts, protected trade-offs, and stops or reopens. It inherits general specification construction from A.19.ECS and supplies the instructional domain choices.
+
+HCD.19 uses that specification to connect the exact material, subject criterion, first answer, actual assistance, later response, and repair. Its result feeds E.23 improvement. If selecting among alternatives is live, E.22 supplies comparison under a common qualified basis. A new book format or a different teacher arrangement may change that basis; preserve earlier results instead of quietly relabelling them.
+
+For long material, a whole-route conclusion needs connected inspection of the complete declared route and its cross-part dependencies. For a local defect, inspect the smallest complete semantic reach and reuse unaffected evidence. A moved explanation can change the next-use prefix even if its words are unchanged.
+
+NSTD contributes only when the narrative question is live. NSTD.6 distinguishes the current product, promised source-to-result fidelity, and actual construction history. NSTD.8 supplies the attachment and available-prefix method. NarrativeRenderingEpiplexity concerns recovery of selected source structure for an observer and use; it is not observed cognitive load or learning effectiveness. If experienced burden changes a decision, obtain evidence from the actual reader at an appropriate segment and time.
+
+The time-accounting case makes the joint result concrete. M0's uninterrupted example fits both active effort and elapsed turnaround. A prepared reader correctly separates them anyway and identifies its prior-knowledge contribution. M1 repairs the definitions, columns, interruption example, and population denominator. The same reader then correctly compares three consumed person-hours with four available person-hours in a changed two-person case. The material repair and bounded changed-condition use are supported; novice learning is not observed.
+
+HCD.18's full Time-use S1 specification also requires a concurrent-person example, an inspected task-and-key arrangement, and audience-compatible explanatory and feedback evidence. HCD.19's complete replay returns those residual repairs or gaps instead of treating the successful agent answers as a complete positive evaluation. The practitioner can now decide exactly what to add and what to observe next.
+
+### Why this profile is useful, and when a simpler alternative suffices
+
+A subject expert's inspection is sufficient for a narrow false claim or unit relation. It is not enough for an audience-dependent claim that a reader can recover the explanation. A conventional task-and-scoring instrument may already supply an adequate specification; use it directly when its task, population, assistance, and inference fit. A format-specific production check is appropriate for an export defect, while a material-semantic defect can cross several exports.
+
+Compared with a checklist of headings or visible features, this profile costs task and contrast construction but exposes missing work and distinguishes repairs. Compared with one post-reading score, it preserves the material and help that made the response possible. Compared with demanding a full learner study for every edit, it permits a qualified source diagnosis and bounded repair while naming the stronger evidence still needed.
+
+Its principal risk is overinterpretation: an expert can silently repair a source, an evaluator can teach through a cue, and a fluent account can conceal a missing relation. Preserve first responses, inspect subject criteria and material contribution, and qualify the result by actual audience and support. Reopen only the properties and uses changed by a new premise, material change, meaningful reader result, or recurrent scale disagreement.
+
+### Source-informed choices and limits
+
+The best-known line used here is task- and interpretation-sensitive evaluation, with examples that distinguish rival rules and observations that preserve assistance and continuation. HCD.18 and HCD.19 carry the comparisons, worked consequences, and source-specific reopens. These are professional adaptations; the studies do not validate this profile or its local ordinal anchors.
+
+[Wesenberg et al. (2025)](https://doi.org/10.1016/j.cedpsych.2024.102328) supply failure evidence for ambiguous worked examples in bounded topics. [McCrudden et al. (2022)](https://pure.psu.edu/en/publications/promoting-integration-and-learning-from-multiple-complementary-te/) and [2024](https://eric.ed.gov/?id=ED642756) inform the required relation between principles, examples, and self-explanation. The resulting choice is to make the relation consequential in a task; it is not a universal ordering rule.
+
+[Noetel et al. (2022)](https://journals.sagepub.com/doi/10.3102/00346543211052329) inform mechanism-specific representation repair. [Sinha and Kapur (2021)](https://journals.sagepub.com/doi/abs/10.3102/00346543211019105) support distinguishing preparation followed by resolving instruction from unsupported difficulty. [Wisniewski et al. (2020)](https://pubmed.ncbi.nlm.nih.gov/32038429/) support testing feedback's function rather than its presence. None supplies a universal local threshold, fixed reader count, or whole-book adequacy finding.
+
+[Bastani et al. (2025)](https://doi.org/10.1073/pnas.2422633122) inform the separation of assisted and later independent performance in their studied arrangement. [Krieglstein et al. (2025)](https://doi.org/10.1007/s10648-024-09980-0) discipline the timing and scope of experienced-burden observations. [Bavaresco et al. (2025)](https://aclanthology.org/2025.acl-short.20/) supply task-dependent limits on substituting LLM judgements for human ones. Their practical consequence is qualified evidence, not simulated human learning or a ban on useful support.
 
 ## APP-HCD-01 - Constructed ImpactReview-17 decision
 
@@ -4370,13 +4993,13 @@ Qualified clinical professionals make judgements about diagnosis, treatment, pro
 
 ## Intended use and ordinary non-use
 
-Use this first edition to derive or return a human demand question, identify a limiting target, compare a profile, compose and compare personal programme candidates, select a development Method, design representative practice, establish support, obtain or build one missing arrangement contribution, conduct and progress focused practice, assess a contribution, test a material unfamiliar variation, compare delayed and supported performance, revise a development assumption, configure continuing development, update one HCD Method-repertoire use, or deliberately continue and change one bounded HCD cultural relation.
+Use this edition to derive or return a human demand question, identify a limiting target, compare a profile, compose and compare personal programme candidates, select a development Method, design representative practice, establish support, obtain or build one missing arrangement contribution, conduct and progress focused practice, assess a contribution, test a material unfamiliar variation, compare delayed and supported performance, revise a development assumption, configure continuing development, update one HCD Method-repertoire use, deliberately continue and change one bounded HCD cultural relation, or construct and apply a specification for instructional-material evaluation.
 
 Do not use it as a ready-made curriculum, whole provider service, complete assessment instrument, universal HCD Method repertoire, organization-change programme, or proof of cultural continuation. It supplies neither clinical treatment, specialist correctness, release or employment authority, nor evidence that a provider operated, development was performed, capability changed, or an intervention caused an effect.
 
 ## PatternID and reader order
 
-HCD.* is the Human Capability Development PatternID namespace. Numbers are stable addresses, not steps. The reader order is HCD.1, HCD.3, HCD.4, HCD.2, HCD.5, HCD.6, HCD.7, HCD.8, HCD.9, HCD.10, HCD.11, HCD.12, HCD.13, HCD.14, HCD.15, HCD.16 and HCD.17. Demand is a useful cold start when the required human contribution is unknown; equivalent qualified input permits direct entry to any Method under its own conditions. Reader order is not programme order, Work order, package dependency or a mandatory lifecycle.
+HCD.* is the Human Capability Development PatternID namespace. Numbers are stable addresses, not steps. The reader order is HCD.1, HCD.3, HCD.4, HCD.2, HCD.5, HCD.6, HCD.7, HCD.8, HCD.9, HCD.10, HCD.11, HCD.12, HCD.13, HCD.14, HCD.15, HCD.16, HCD.17, HCD.18 and HCD.19. Demand is a useful cold start when the required human contribution is unknown; equivalent qualified input permits direct entry to any Method under its own conditions. Reader order is not programme order, Work order, package dependency or a mandatory lifecycle.
 
 ## Available patterns
 
@@ -4399,8 +5022,10 @@ HCD.* is the Human Capability Development PatternID namespace. Numbers are stabl
 | HCD.15 | Available: sustain continuing Human Capability Development. | Holder-specific continuing arrangement with triggers, contributions, evidence, burden, authority, re-entry and stops, or an exact blocker. |
 | HCD.16 | Available: develop and refresh HCD Methods. | Exact Method/candidate and claim disposition—`adopt`, `revise`, `branch`, `retire` or `further probe`—for one bounded repertoire use. |
 | HCD.17 | Available: deliberately continue and change HCD culture. | Truthful enacted/candidate account, testable predicate, bounded intervention and `continue`, `revise`, `branch`, `replace`, `stop` or `unknown`. |
+| HCD.18 | Available: construct a characterization and evaluation specification for instructional material. | Task-derived denominator, selected properties and scales, evidence and missingness, contrasts, result meanings and continuation; or a compatible specification to use directly. |
+| HCD.19 | Available: evaluate instructional material through representative reader work and diagnose its repair. | Qualified material contribution, complete selected-coordinate disposition, limiting defect and repair reach, actual assistance and affected-use test; or a precise evidence or criterion gap. |
 
-This complete first edition does not claim that any Method was applied, any provider operated, any person developed, any culture changed, or any particular result was achieved.
+This edition does not claim that any Method was applied, any provider operated, any person developed, any culture changed, or any particular result was achieved.
 
 ## Direct result relations
 
@@ -4424,6 +5049,10 @@ This complete first edition does not claim that any Method was applied, any prov
 | HCD.15 observed arrangement use and human-development evidence | HCD.16 | Evidence input only; a designed arrangement, attendance record or community membership is not Method fit, transfer, retention or worth. |
 | HCD.14 revision hypothesis | HCD.17 | Proposed cultural variation or affected condition only; it proves no cultural relation or intervention authority. |
 | HCD.16 bounded repertoire disposition and variation account | HCD.17 | Status-preserved cultural-variation input only; it proves neither actual enactment nor authority. |
+| HCD.18 specification or a qualified equivalent | HCD.19 | Evaluation input only when material, audience, task denominator, support, scale meanings and evidence conditions fit; construction is not a prerequisite when compatibility already holds. |
+| HCD.19 material diagnosis and affected-use test | E.23; the responsible material or support owner | Limiting defect, repair reach, protected contributions and discriminating repeat; a material change is not a human learning result. |
+| HCD.19 actual reader observations | HCD.11, HCD.12 or HCD.13 only when their question is live | Evidence contribution subject to the receiving human claim, first/helped conditions and evidence window; no automatic capability, transfer or retention conclusion. |
+| NSTD.6 and NSTD.8 narrative contribution | HCD.18/.19 when selected | Current product/source/history distinction, attachment and available-prefix method; no narrative prerequisite for a nonnarrative material. |
 
 ## Source use and currentness
 
@@ -4469,6 +5098,8 @@ The HCD.15–HCD.17 applied-learning source uses were qualified on **1 September
 | [`SRC-DOMAIN-CULTURAL-CONTINUATION-CASES-2001-2026`](https://github.com/ailev/FPF/blob/main/_change-campaigns/dpf-systems-modeling-systems-engineering-systems-management-operations-management/DPF-ARCHITECTURE-CAMPAIGN/comparison/SOURCE-REGISTRY.md#src-domain-cultural-continuation-cases-2001-2026), including [CDIO version history](https://cdio.org/content/version-history-and-references) | Formal generation, edition, institutional selection, carrier and reported-use claims may be stated at their evidence boundary. They do not establish provider or learner enactment, population retention, improved capability or effectiveness. |
 
 
+HCD.18/.19 use the [material profile's source-informed comparisons](#source-informed-choices-and-limits), with their specific source roles, limits and reopens in the bodies. Their task-based evaluation and ordinal anchors are professional adaptations, not a validated universal score. The M0/M1 walkthrough preserves actual prepared-agent responses; its constructed task facts, material revisions, author-side diagnostic replay and missing target-human observations remain explicit.
+
 The programme and L17 engineering exercise supply designed tasks, stipulated domain facts and constructed observations, not an empirical learner dataset. Real engineering, safety or professional claims require current direct-domain sources and actual case evidence.
 
 `ImpactReview-17-Domain-Oracle-v1` is constructed case data, not a source-ledger entry or currentness claim. Replacing any stipulated engineering correctness or criticality value with a real-world claim requires a named current target-domain Method or result and qualified safety or specialist source.
@@ -4477,11 +5108,13 @@ Refresh only the affected pattern or case claim when a relied-on FPF distinction
 
 ## FPF dependency and compatibility
 
-This first edition depends on **First Principles Framework (FPF) — Core Conceptual Specification, Version August 2026**, status **Normative kernel, eternal alpha**, at the current-pattern state qualified for this product.
+This edition depends on **First Principles Framework (FPF) — Core Conceptual Specification, Version August 2026**, status **Normative kernel, eternal alpha**, at the current-pattern state qualified for this product.
 
-FPF supplies System and holder recognition, capability, Method and MethodDescription, Work occurrence and result distinctions, evidence and uncertainty, architecture, agency, decision objects, authority, cultural relations, and precise wording. HCD supplies human-demand, target-or-return, balanced-profile, programme-comparison, development-Method selection, representative-practice, support-arrangement, bounded provider-development, focused-practice, progression, performance-assessment, transfer, retention, evidence-led revision, continuing-development arrangement, bounded HCD Method-repertoire, and HCD cultural-continuation Methods for its domain.
+FPF supplies System and holder recognition, capability, Method and MethodDescription, Work occurrence and result distinctions, evidence and uncertainty, architecture, agency, decision objects, authority, cultural relations, and precise wording. HCD supplies human-demand, target-or-return, balanced-profile, programme-comparison, development-Method selection, representative-practice, support-arrangement, bounded provider-development, focused-practice, progression, performance-assessment, transfer, retention, evidence-led revision, continuing-development arrangement, bounded HCD Method-repertoire, HCD cultural-continuation guidance, and instructional-material specification and diagnosis for its domain.
 
 `E.23.CDI` governs the independent-System holder condition and later capability-development evidence under its own entry conditions. `E.23.CAE` supplies an observation-first differential where applicability, access, adaptation, enactment, and actual capability change must be separated. `C.32.MWA` prevents source layouts from becoming profile architecture. `C.11.CRC` governs finite comparison inside HCD.2, while `C.11` governs a bounded current-option choice. Compatible FPF changes leave unaffected HCD results reusable; changed relied-on distinctions reopen only their consumers.
+
+A.19.ECS supplies general evaluation-specification construction to HCD.18. E.22 supplies comparison and E.23 improvement for a material result when those questions are live. General characterization and scale meanings remain with A.17, A.18 and C.16. Material evaluation does not alter the human-evidence or authority boundaries of the other HCD bodies.
 
 ## External result and authority boundaries
 
@@ -4491,15 +5124,15 @@ An assisting AI or other System may contribute Work or evidence when its capabil
 
 ## Edition return
 
-**Human Capability Development Principles Framework — Seventeen-pattern first edition, 5 September 2026** designates this Readme source, its Table of Contents and presentation carrier, and exactly seventeen authoritative bodies in reader order: HCD.1, HCD.3, HCD.4, HCD.2, HCD.5, HCD.6, HCD.7, HCD.8, HCD.9, HCD.10, HCD.11, HCD.12, HCD.13, HCD.14, HCD.15, HCD.16 and HCD.17.
+**Human Capability Development Principles Framework — Nineteen-pattern edition, 5 September 2026** designates this shared account and instructional-material profile, its Table of Contents and presentation carrier, and exactly nineteen authoritative bodies in reader order: HCD.1, HCD.3, HCD.4, HCD.2, HCD.5, HCD.6, HCD.7, HCD.8, HCD.9, HCD.10, HCD.11, HCD.12, HCD.13, HCD.14, HCD.15, HCD.16, HCD.17, HCD.18 and HCD.19.
 
 The designation identifies the complete HCD pattern set and reader carrier. The Engineering DPF Suite includes this HCD framework alongside its other DPFs and common foundations. Actual use, provider operation, performed development Work, achieved capability, cultural continuation and causal effectiveness require the corresponding observations and decisions described here.
 
-**Description:** HCD is a pattern language for deriving human capability demand from later Work, designing and sustaining development arrangements, and judging human contribution, transfer and retention under stated task, support and time conditions.
+**Description:** HCD is a pattern language for deriving human capability demand from later Work, designing and sustaining development arrangements, judging human contribution, transfer and retention, and evaluating instructional material under stated audience, task, support and time conditions.
 
 **Author:** Anatoly Levenchuk with AI-assisted development and review.
 
-**Version:** 5 September 2026
+**Version:** 5 September 2026 — nineteen-pattern edition
 
 **Status:** Eternal alpha: used in working development projects and open to continuing correction.
 
@@ -4509,13 +5142,13 @@ Eternal alpha identifies a framework open to continuing correction and developme
 
 ## Citation
 
-Levenchuk, Anatoly, with AI-assisted development and review. *Human Capability Development Principles Framework*. Version: 5 September 2026. [FPF repository](https://github.com/ailev/FPF).
+Levenchuk, Anatoly, with AI-assisted development and review. *Human Capability Development Principles Framework*. Version: 5 September 2026 — nineteen-pattern edition. [FPF repository](https://github.com/ailev/FPF).
 
 For a particular pattern, name the framework and PatternID; include the version date above when the citation must recover the body published in this version.
 
 ## Publication boundary
 
-The authoritative claim-bearing references are exactly:
+The authoritative pattern-body references are exactly:
 
 - HCD.1-Derive-Human-Capability-Demand-from-Representative-Later-Work.md;
 - HCD.3-Diagnose-the-Limiting-Capability-Misconception-or-Behaviour.md;
@@ -4532,9 +5165,11 @@ The authoritative claim-bearing references are exactly:
 - HCD.13-Test-Retention-and-Tool-Dependence.md;
 - HCD.14-Revise-the-Development-Arrangement-from-Evidence.md;
 - HCD.15-Sustain-Continuing-Human-Capability-Development.md;
-- HCD.16-Develop-and-Refresh-Human-Capability-Development-Methods.md; and
-- HCD.17-Deliberately-Continue-and-Change-Human-Capability-Development-Culture.md.
+- HCD.16-Develop-and-Refresh-Human-Capability-Development-Methods.md;
+- HCD.17-Deliberately-Continue-and-Change-Human-Capability-Development-Culture.md;
+- HCD.18-Construct-a-Characterization-and-Evaluation-Specification-for-Instructional-Material.md; and
+- HCD.19-Evaluate-Instructional-Material-through-Representative-Reader-Work-and-Diagnose-Its-Repair.md.
 
-This editable Readme source and the generated all-in-one `HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md` are reader projections. They may summarize and concatenate authoritative bodies but may not add or replace body-level claims. The generated file is not authoritative merely because it exists.
+This editable source carries the shared framework account and the instructional-material evaluation profile. The generated all-in-one `HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md` projects that account and concatenates the authoritative bodies. Shared explanation and profile content do not replace a body's governing claims; the generated file is not authoritative merely because it exists.
 
 This is a domain-framework carrier, not an instructional Guide or the Engineering DPF Suite Reference. A Guide is organized for learning and memory formation; the Reference is organized for lookup. Repository workflow, review correspondence, landing evidence, and task state are excluded.

@@ -20,6 +20,8 @@ How maps are reached during work: do not read support maps front-to-back unless 
 | A local term such as route, viewpoint, actant, epiplexity, engagement, generated plan, or learning route risks becoming a new kind. | DPF Precision Restoration And Owner Map | Recover the kind, owner, use boundary, and blocked overread. |
 | The question is DPF prefix, edition dependency, package relation, or refresh route rather than narrative content. | Name And Edition Route or DPF Relation Records | Check package-level identity and dependency without mixing it into pattern bodies. |
 
+The following index lists the main sections and pattern entries.
+
 | Locus | Title | Kind | Use |
 | --- | --- | --- | --- |
 | Readme | First practical entries | Informative | Choose the first DPF entry from the working problem. |
@@ -58,7 +60,7 @@ Do not use this DPF when the live issue is only source evidence, publication lay
 
 ## First Practical Entry 1 - Turn A Source Structure Into A Narrative Route
 
-Start with `NSTD.1`, then `NSTD.2`. Name the admitted source basis, selected source structures, source temporal posture, rendering mediation mode, narrating or rendering worker, intended reader use, narrative purpose, ordering rule, preserved structure, lost structure, and source-return condition.
+Start with `NSTD.1`, then `NSTD.2`. Name the admitted source basis, selected source structures, source temporal posture, rendering mediation mode, intended rendering Work role, any load-bearing narrative voice or viewpoint, intended reader use, narrative purpose, ordering rule, preserved structure, lost structure, and source-return condition. When automated output is used, cite its `NSTD.7` admission case separately.
 
 Typical first result: one `NarrativePurposeIntake@Context` plus one `NarrativeOrderingRule@Context`.
 
@@ -100,7 +102,7 @@ Narrativization has two rendering mediation modes. In the direct source-structur
 
 Direct source-structure work is still structured work. The pattern set must not pretend that a writer's intuition or LLM generation magically selected the needed structures. If selection, reader-use hypothesis, ordering, and loss accounting stay implicit, the result is a candidate carrier or candidate prose, not a checked narrative rendering. Improvement then starts by reconstructing the hidden selection record before changing style, drama, or prompt wording.
 
-Narrative work is role work. The narrator, writer, teacher, commentator, designer, or tool-mediated rendering worker chooses sequence, viewpoint, loss profile, and engagement devices. The intended reader or listener role constrains those choices. A narrative worker cannot ignore reader-role interests, but reader interest also does not create evidence, assurance, ethics, publication permission, or source authority.
+When narrative Work occurs, an actual system performs it under a separately established role assignment. Writer, teacher, commentator, designer, and tool operator are possible Work-facing roles; the system in that role chooses sequence, source loss, and engagement devices. A narrator, voice, or viewpoint can instead be a presentation function. Keep that function separate from the rendering system and from admission responsibility. The intended reader or listener role constrains the rendering choices but creates no evidence, assurance, ethics, publication permission, or source authority.
 
 Narrativization is similar to serialization in one important way: a non-linear or differently ordered source structure must be made readable as a sequence. That sequence preserves some relations and loses others. The DPF keeps that similarity, then adds narrative-specific concerns: event comprehension, viewpoint, engagement, agency cues, ethics, teaching, generated text, and rendering-quality evaluation.
 
@@ -174,13 +176,13 @@ Non-use boundary: this package is not FPF Core, not a style guide, not a seminar
 
 Use this pattern when a writer, narrator, teacher, architect, researcher, commentator, story designer, or tool starts with a message, lesson, theme, persuasive effect, desired memory, live commentary line, or future scenario before naming the source structures that must survive the narrative rendering.
 
-First useful move: write `NarrativePurposeIntake@Context` with admitted source basis refs, selected source structures, source-structure selection rationale, source temporal posture, rendering mediation mode, narrating or rendering worker, reader-interest or use hypothesis, intended reader or listener role and use, narrative purpose, blocked purpose overread, source-return owner, and any ethics or assurance owner.
+First useful move: write `NarrativePurposeIntake@Context` with admitted source basis refs, selected source structures, source-structure selection rationale, source temporal posture, rendering mediation mode, intended rendering Work role, any load-bearing narrative voice or viewpoint, reader-interest or use hypothesis, intended reader or listener role and use, narrative purpose, blocked purpose overread, source-return owner, and any ethics or assurance owner. When automated output is used, cite its `NSTD.7` admission case separately.
 
 What goes wrong if missed: purpose absorbs admitted source basis and selected source structure. The narrative may become memorable, but readers cannot recover which structure was selected, which uncertainty was retained, or which claims need source return.
 
 What this buys: the writer can choose a narrative aim without letting that aim widen evidence, assurance, ethics, policy, or work authority.
 
-Not this pattern when the issue is only publication face, source-pack admission, evidence sufficiency, or ethics mediation. Use the direct owner and return here only when narrative purpose must be tied to selected source structure.
+Not this pattern when the issue is only publication face, source-pack admission, evidence sufficiency, or ethics mediation. Use `NSTD.4` for voice, focalization, and agency treatment. Use `NSTD.7` and `C.35` for generated-carrier admission and human responsibility. Return here only when narrative purpose must be tied to selected source structure; this intake cites those neighboring results without replacing them.
 
 ### NSTD.1:2 - Problem
 
@@ -210,7 +212,9 @@ NarrativePurposeIntake@Context:
   renderingMediationMode: direct-source-structure | architecture-mediated | mixed
   architectureMediationRef?:
   sourceStructureOwnerRef?:
-  narratingOrRenderingWorkerRef?:
+  renderingWorkRoleRef?:
+  narrativeVoiceOrViewpoint?:
+  automatedNarrativizationAdmissionCaseRef?:
   readerOrListenerRoleRefs:
   readerInterestOrUseHypothesis:
   intendedReaderOrListenerUse:
@@ -227,7 +231,7 @@ Then apply these moves:
 
 1. Name admitted source basis refs, selected source structures, source-structure selection rationale, and source temporal posture.
 2. Name the rendering mediation mode and any architecture mediation, source-structure owner, or telemetry source that remains live.
-3. Name the narrating or rendering worker, reader-interest or use hypothesis, and intended reader or listener role and use in project terms.
+3. Name the intended rendering Work role in project terms. If an actual performer, role assignment, or completed Work is claimed, recover it through `A.2.1` and `A.15.1`. If voice or viewpoint changes what source structure is visible, name that presentation function separately and open `NSTD.4`. If automated output is used, cite the `NSTD.7` admission case; do not merge the Work role, narrative function, generated carrier, actual performer, or admission responsibility. Then name the reader-interest or use hypothesis and intended reader or listener role and use.
 4. State the narrative purpose as a relation to the selected source structures and reader or listener use.
 5. State what the purpose may not justify: evidence, assurance, policy, work, ethics, or decision use.
 6. Name the source-return owner and any neighboring FPF owner.
@@ -262,7 +266,7 @@ Use role-specific intake prompts when the worker is stuck.
 | Scientist or researcher | "Which mechanism, calculation, failed attempt, source uncertainty, or unresolved tension is being rendered?" | Mechanism or event support, uncertainty, evidence owner, and source return. |
 | Story designer | "Which canon, premise, agency, continuity, or causal plot constraint governs this route?" | Bounded source pack and non-publication boundary when needed. |
 | Live commentator | "Which observation, inference, prediction, and later official source must stay distinguishable?" | Temporal posture, uncertainty markers, and refresh condition. |
-| Tool builder | "Which part is admitted source basis, which part is method, which part is generated carrier, and who admits it?" | Split between admitted source basis, method, generated carrier, and admission owner; generated-carrier admission route; human responsibility. |
+| Tool builder | "Which part is admitted source basis, which part is method, which Work-facing role is planned, which system performs actual rendering Work, which voice or viewpoint is presented, which part is generated carrier, and who admits it?" | Separate planned Work role, actual system and role assignment, narrative function, method, generated carrier, `NSTD.7` admission case, and human responsibility. |
 
 If the answer names only mood, audience reaction, style, genre, or desired conclusion, the intake is not ready. Those can be legitimate later choices under `NSTD.4`, `NSTD.5`, `C.2.LS`, or `E.17`, but they cannot select the source structure by themselves.
 
@@ -277,7 +281,7 @@ NarrativePurposeIntake@FPFLearningRoute:
   sourceStructureSelectionRationale: learners must reconstruct how a practitioner chooses and uses a pattern
   sourceTemporalPosture: prospective planned learning route over current source corpus
   renderingMediationMode: direct-source-structure unless architecture-of-FPF explanation is opened
-  narratingOrRenderingWorkerRef: teacher or course designer
+  renderingWorkRoleRef: teacher or course designer
   readerOrListenerRoleRefs: new FPF author or reviewer
   readerInterestOrUseHypothesis: learner needs usable entry, not complete monolith memory
   intendedReaderOrListenerUse: reconstruct one pattern-use route and apply it to a new case
@@ -294,7 +298,7 @@ NarrativePurposeIntake@HomotopyExplanation:
   sourceStructureSelectionRationale: learner needs an intuitive route that preserves formal boundaries
   sourceTemporalPosture: retrospective or atemporal explanation over existing mathematical material
   renderingMediationMode: direct-source-structure unless a teaching architecture is explicitly used
-  narratingOrRenderingWorkerRef: teacher, explainer, or tool-assisted author
+  renderingWorkRoleRef: teacher, explainer, or tool-assisted author
   readerOrListenerRoleRefs: learner who must later distinguish intuition from proof
   readerInterestOrUseHypothesis: learner needs recoverable dependency order and analogy boundary
   intendedReaderOrListenerUse: use examples and return to formal statements without treating metaphor as theorem
@@ -311,7 +315,8 @@ NarrativePurposeIntake@LiveCommentary:
   sourceStructureSelectionRationale: listener needs orientation during an unfolding event stream
   sourceTemporalPosture: live unfolding source with later refresh
   renderingMediationMode: direct-source-structure
-  narratingOrRenderingWorkerRef: commentator or live analyst
+  renderingWorkRoleRef: commentator or live analyst
+  narrativeVoiceOrViewpoint: live commentator voice following the unfolding event under `NSTD.4`
   readerOrListenerRoleRefs: listener following the event and later checking the official event record
   readerInterestOrUseHypothesis: listener needs distinction between observation, inference, prediction, and official correction
   intendedReaderOrListenerUse: follow the event without treating provisional interpretation as fact
@@ -328,7 +333,7 @@ NarrativePurposeIntake@FictionalContinuationProbe:
   sourceStructureSelectionRationale: storycraft probe tests whether the DPF protects source constraints under dramatic pressure
   sourceTemporalPosture: prospective fictional source structure
   renderingMediationMode: direct-source-structure unless fictional organization or technology architecture is live
-  narratingOrRenderingWorkerRef: story designer or tool-assisted writer
+  renderingWorkRoleRef: story designer or tool-assisted writer
   readerOrListenerRoleRefs: private reviewer of storycraft plan
   readerInterestOrUseHypothesis: reviewer needs to see whether continuity and agency survive the route
   intendedReaderOrListenerUse: private design critique, not publication
@@ -358,7 +363,7 @@ NarrativePurposeIntake@FPFSeminarOrientation:
   sourceStructureSelectionRationale: new practitioners fail when they treat patterns as recipes rather than condition-bound moves
   sourceTemporalPosture: prospective planned learning route over current FPF source corpus
   renderingMediationMode: direct-source-structure
-  narratingOrRenderingWorkerRef: seminar author
+  renderingWorkRoleRef: seminar author
   readerOrListenerRoleRefs: new FPF practitioner; team lead evaluating local adoption
   readerInterestOrUseHypothesis: reader wants a first usable route through FPF without learning every pattern first
   intendedReaderOrListenerUse: reconstruct one pattern-use route and choose the next governing pattern
@@ -372,6 +377,16 @@ NarrativePurposeIntake@FPFSeminarOrientation:
 Now the narrative worker can compose. The first paragraph may be memorable, but every memorable move has a source return. "A pattern is not a recipe" returns to source conditions, forces, and neighboring exits. "Start with the thing being changed" returns to `EntityOfConcern`. "Do not optimize the visible proxy indicator" returns to quality and proxy-risk owners. The seminar publication carrier can be engaging, but the intake prevents it from becoming a local mythology about FPF.
 
 Evaluation through `NSTD.6` later asks whether learners can rebuild the route: identify the source structure, say why the selected order was didactic, name what the story intentionally omitted, and return to the pattern body when they need authority. If learners only repeat the slogan "patterns are not recipes", `NSTD.1` did not select enough source structure for the declared use.
+
+If an LLM produces a seminar draft, the intake keeps three positions separate:
+
+```text
+renderingWorkRoleRef: course-author or generator-operator role; recover the actual system, role assignment, and Work separately when those claims are made
+narrativeVoiceOrViewpoint: teacher-facing explanatory voice under NSTD.4
+automatedNarrativizationAdmissionCaseRef: the NSTD.7 case that identifies the generated carrier, C.35 admission result, and human admission responsibility
+```
+
+One person may operate the tool, choose the voice, and make the admission decision, but one person filling several positions does not merge the positions or make generated prose an admitted narrative rendering.
 
 #### Mature worked slice: architecture-mediated narrative
 
@@ -440,7 +455,7 @@ This pattern blocks purpose-primacy drift: the message, theme, desired memory, o
 | `CC-NSTD1-1` | Admitted source basis and selected source structures are named before purpose is finalized. |
 | `CC-NSTD1-2` | Source-structure selection rationale explains why these structures are needed for the reader or listener use. |
 | `CC-NSTD1-3` | Source temporal posture and rendering mediation mode are explicit. |
-| `CC-NSTD1-4` | Narrating or rendering worker, reader-interest or use hypothesis, and intended reader or listener role are named. |
+| `CC-NSTD1-4` | The intended rendering Work role is named separately from any actual system and role assignment, load-bearing narrative voice or viewpoint, and automated-narrativization admission case; actual system, assignment, Work, and admission claims use their direct patterns. |
 | `CC-NSTD1-5` | Intended use is narrower than general persuasion, inspiration, or entertainment. |
 | `CC-NSTD1-6` | Purpose states non-admissible downstream use. |
 | `CC-NSTD1-7` | Evidence, assurance, ethics, policy, and work claims route to direct owners when made. |
@@ -475,7 +490,7 @@ Hoffmann's "The Tensions of Scientific Storytelling" shows that scientific story
 
 ### NSTD.1:12 - Relations
 
-Uses `A.6.3.NAR` for Core relation ownership, `A.16.1` when the first honest material is only a pre-articulation narrative cue, `C.2.LS` when language-state facets or thresholds shape the intake, `G.2` for source-pack claims, `C.33` when architecture-relevant structural-information capture or loss is current, `NSTD.6` when non-architecture narrative epiplexity is evaluated, `D.1` through `D.5` when affected parties or persuasion are live, `A.10` for evidence, `B.3` for assurance, `E.10` and `F.18` for durable wording or naming repairs, and `G.11` for source and telemetry refresh. Support-map entry: open `Architecture and Narrative Work Bridge` when `renderingMediationMode` is `architecture-mediated` or `mixed`; open `Source Use And Refresh Map` when a cited source basis is relied on or stale; open `DPF Precision Restoration And Owner Map` when a local narrative term threatens to become ontology; open `Name And Edition Route` only for DPF-prefix or edition questions.
+Uses `A.6.3.NAR` to define the Core narrative relation, `A.16.1` when the first honest material is only a pre-articulation narrative cue, `C.2.LS` when language-state facets or thresholds shape the intake, `G.2` for source-pack claims, `C.33` when architecture-relevant structural-information capture or loss is current, `NSTD.4` for load-bearing voice or viewpoint, `NSTD.7` and `C.35` for automated-narrativization admission, `NSTD.6` when non-architecture narrative epiplexity is evaluated, `D.1` through `D.5` when affected parties or persuasion are live, `A.10` for evidence, `B.3` for assurance, `E.10` and `F.18` for durable wording or naming repairs, and `G.11` for source and telemetry refresh. Support-map entry: open `Architecture and Narrative Work Bridge` when `renderingMediationMode` is `architecture-mediated` or `mixed`; open `Source Use And Refresh Map` when a cited source basis is relied on or stale; open `DPF Precision Restoration And Owner Map` when a local narrative term threatens to become ontology; open `Name And Edition Route` only for DPF-prefix or edition questions.
 
 ### NSTD.1:End
 
@@ -1481,7 +1496,7 @@ Uses `A.6.3.NAR`, `NSTD.1`, `NSTD.3`, `NSTD.6`, `C.2.LS`, `A.6.3.CSC`, `E.17.EFP
 
 ### NSTD.6:1 - Problem frame
 
-Use this pattern when a team must decide whether one admitted narrative rendering version is good enough for one declared reader or listener use.
+Use this pattern when a team must decide whether one admitted narrative rendering version is good enough for one declared reader or listener use. An editor may evaluate a directly authored or already existing product without knowing how its author produced it. State whether the present question concerns that product's current quality, a promised source-to-result relation, or assurance about actual construction work; these questions need different evidence.
 
 Evaluated object kind: `NarrativeRenderingVersion@Context`, meaning one admitted narrative rendering version with admitted source basis, selected source structures, declared use, ordering rule, and source-return condition. A source text, source pack, style guide, seminar script, slide deck, generated output before `C.35` admission, or broad communication plan is not this evaluated object.
 
@@ -1548,7 +1563,7 @@ Default value meanings for ordinal content evaluation:
 | `2` | Orientation only; source return is needed before reliance. |
 | `3` | Locally usable with named limitations and repair obligations. |
 | `4` | Good for declared use with bounded losses and source return. |
-| `5` | Strong for declared use; source relation, repair history, and boundary cases are replayable. |
+| `5` | Strong for declared use; the current source relation, response to a meaningful change, and consequential boundary cases are replayable. Actual construction or repair history is additionally replayable when a historical claim is part of the declared use. |
 
 Default floor: for reliance-bearing or teaching use, all load-bearing characteristics must be at least `4`, and `NarrativeRenderingEpiplexity`, `OrderingRecoverability`, and `SourceReturnReadiness` may not be below `4`. When the selected source structure is a constraint-governed unfolding structure, `DemonstrativeSliceRecoverability` is load-bearing and may not be below `4`. A local low-risk orientation use may set floor `3` only if non-admissible downstream use is explicit.
 
@@ -1611,12 +1626,18 @@ NarrativeRenderingImprovementLoopInput@Context:
 
 `E.23` may claim improvement only after the changed object version is re-evaluated through `NSTD.6` or through a declared stronger evaluation. If the loop changes the source pack, source-currentness, generated-carrier admission, learning publication carrier, publication face, ethics claim, evidence claim, assurance claim, or evaluation characteristic space, the loop must name the neighboring governing pattern and either keep it as the allowed change slice or open separate work. Style edits, prompt retries, or additional drama are admissible loop operations only when their expected movement under `NSTD.6` is stated and protected trade-offs are checked. `B.4` is relevant only when the narrative episteme or learning route is claimed to evolve across use and renewed operation; `G.11` handles refresh when source currentness, reader telemetry, teaching-test evidence, generated-narrative practice, or FPF edition changes.
 
-Before assigning values, require construction-route evidence. The evaluator must be able to point to the records or source passages that played the role of `NSTD.1` source selection, `NSTD.2` ordering, `NSTD.3` event or mechanism support when live, `NSTD.4` viewpoint and agency discipline when live, `NSTD.5` engagement boundary when live, `NSTD.7` generated-carrier admission when live, and `NSTD.8` learning-route design when live. If those records were not written before drafting, they may be reconstructed from source and carrier, but the reconstruction must be explicit. Do not allow "the narrative already looks good" to substitute for the missing construction route.
+Before assigning values, recover the source and use basis for the question being answered.
+
+For current-product evaluation, name the selected subject structures, intended reader work and necessary prerequisites, then trace what the present rendering preserves, hides or loses. Use the task and qualified subject sources to establish the needed structure; the rendering can help refine that basis but cannot excuse its own omissions. Recover its ordering rationale, source-return condition, and the event or mechanism, viewpoint, agency, engagement and learning-route relations that matter to this use through `NSTD.1` through `NSTD.5` and `NSTD.8`. Point to actual source and rendering passages. If this account is reconstructed now, identify it as an evaluation of the current product, with its uncertainties, not a record of what the author did. Missing manufacturing notes do not by themselves lower current-product values; missing subject basis, inaccessible return or unsupported relation still does.
+
+For a promised transformation, compare the named source and result versions against the promised preservation or change. This can establish their present fidelity relation without establishing the actual sequence of manufacturing actions. For a claim about actual construction or repair, obtain records or other admissible evidence of those actions and distinguish them from a plausible reconstruction. Trace the applicable `NSTD.1` selection, `NSTD.2` ordering, `NSTD.3` mechanism, `NSTD.4` viewpoint, `NSTD.5` engagement and `NSTD.8` learning-route decisions. If their history cannot be established, leave that historical or assurance claim unsupported and return it to its owner. A good product does not supply the missing history.
+
+Object admission remains a separate prerequisite of this full evaluation. When the object is generated output, a reconstructed plan or a favourable product judgement does not supply `NSTD.7`/`C.35` admission. A current-product result or source-to-result comparison can inform further work, but reuse as evidence must satisfy `A.10`; assurance, publication authority and human learning-effect claims still need their own basis and governing owner.
 
 Use this evaluation sequence:
 
 1. Object-kind fit: is this an admitted narrative rendering version, not source text, source pack, slide deck, prompt output, style guide, or broad communication plan?
-2. Construction-route fit: can the evaluator recover the selected source structures, ordering rule, source-return condition, and live neighboring governing-pattern routes?
+2. Evidence fit for the question: for current-product quality, recover selected source structures, ordering, source return and relevant relations from the subject/use basis and present rendering; for promised fidelity, compare the named source and result; for actual construction or repair, recover evidence of the claimed actions. Keep these conclusions distinct.
 3. Declared-use fit: is the reader or listener use narrow enough to evaluate, and are non-admissible downstream uses stated?
 4. Load-bearing characteristics: assign values only to the characteristics needed for the declared use, but include every characteristic whose failure would make the use unsafe or useless.
 5. Low-value repair: for every value below floor, name the smallest repair route before proposing style, drama, or generation retries.
@@ -1637,6 +1658,7 @@ Missingness and lowering rules:
 | Engagement effect asserted without persuasion boundary when influence is live | `EngagementBoundedness` no higher than `3` and ethics owner must be named. |
 | Generated output not admitted through `C.35` | Wrong-kind object for this evaluation; return to `NSTD.7` and `C.35`. |
 | Evidence or assurance claim made without owner | Relevant characteristic value lowered and claim routed to `A.10` or `B.3`. |
+| Manufacturing or repair history absent while the current-product basis is available | Do not lower a product characteristic for this absence alone. Leave any historical claim unsupported and return the evidence or assurance question to its owner; apply every relevant source, use, admission and missingness rule independently. |
 
 Default narrative rendering quality characteristics:
 
@@ -1646,7 +1668,7 @@ Default narrative rendering quality characteristics:
 | `NarrativeRenderingEpiplexity` | How much of the selected source-structure denominator is recoverably pulled into this narrative rendering for the declared use, observer boundary, and source-return condition? | Reopen `NSTD.1`; add source refs, source pins, preserved, foregrounded, or lost-structure accounting, or source-return links. Use `C.33` when architecture-relevant structural-information capture is current. |
 | `OrderingRecoverability` | Can the reader say why this sequence was chosen and what it hides? | Reopen `NSTD.2`; state ordering rule, preserved relations, and lost relations. |
 | `DemonstrativeSliceRecoverability` | When a constraint-governed unfolding structure is selected, can the reader recover the wider structure, the demonstrative slice, and the hidden branches, loops, alternatives, direct exits, or stop conditions? | Reopen `NSTD.1` and `NSTD.2`; name the selected CGUS or local block, the demonstrative slice, preserved constraints, lost structure, and return to `A.22.CGUS` or the local governing pattern. |
-| `TemporalPostureAndRoleFit` | Do source temporal posture, rendering mediation mode, narrating or rendering worker, reader or listener role, uncertainty, and source-return obligation match the declared use? | Reopen `NSTD.1`; mark retrospective, live, prospective, architecture-mediated, or mixed posture; repair narrator and reader role split and lower claims that overread provisional or fictional structure. |
+| `TemporalPostureAndRoleFit` | Do source temporal posture, rendering mediation mode, intended rendering Work role, any actual performer and role assignment, any load-bearing narrative voice or viewpoint, reader or listener role, uncertainty, automated-narrativization admission case, and source-return obligation match the declared use? | Reopen `NSTD.1`; mark retrospective, live, prospective, architecture-mediated, or mixed posture; repair the Work-role, actual-performer, narrative-function, admission, and reader-role split; lower claims that overread provisional or fictional structure. |
 | `EventMechanismSupport` | Can the reader reconstruct events, mechanisms, dependencies, or state changes when required? | Reopen `NSTD.3`; add mechanism support or lower causal language. |
 | `ViewpointAgencyDiscipline` | Does viewpoint reveal source structure without false agency, capability, responsibility, or permission? | Reopen `NSTD.4`; split protagonist, actant, role, agency, and ethics owners. |
 | `EngagementBoundedness` | Does engagement support declared use without widening authority? | Reopen `NSTD.5`; add persuasion boundary or reduce engagement device. |
@@ -1671,6 +1693,12 @@ Use this bank when a narrative rendering "sounds good" and therefore tempts the 
 | Franchise continuation probe | `SourceReturnReadiness` | `4` | Private source-pack constraints and non-publication boundary are named. | Add a continuity perturbation test: change one premise and check whether event support remains valid. |
 | Live commentary | `EventMechanismSupport` | `3` | Observation and provisional interpretation are separated, but later telemetry return is only generic. | Add specific official record, replay, or statistics return condition. |
 | Generated graph-to-text narrative | `GeneratedCarrierAdmissionFit` | `2` | Output is fluent, but source plan and selected lost relations are not admitted. | Return to `NSTD.7`; do not call this an admitted rendering yet. |
+
+#### An existing product and an unknown manufacturing history
+
+An editor receives an admitted handout rendering with a declared onboarding use, qualified subject basis and source-return links, but no manufacturing or repair journal. The editor reconstructs the needed source relations from the intended work and subject sources, follows their use through the present explanation and exercises, and tests a meaningful changed case. A missing return or a false relation is a current-product defect. No journal is needed to identify or repair it, and a strong present boundary test can support a high product value without inventing an earlier repair.
+
+If the same editor is instead asked whether the handout faithfully transforms a named seminar, the seminar and handout must be compared. If asked whether the author performed a prescribed review or made a particular correction, evidence of that action is also needed. Current fidelity or a successful reader attempt cannot answer that historical question. If the supplied text is unadmitted generated output, return it to `NSTD.7`/`C.35` before treating it as an admitted rendering.
 
 #### Before and after evaluation repair
 
@@ -1740,6 +1768,7 @@ This pattern blocks proxy-as-quality drift: readability, fluency, liking, engage
 | `CC-NSTD6-6` | Measurement, eval program, evidence, assurance, gate, decision, publication, and pattern-quality claims route to owners. |
 | `CC-NSTD6-7` | If repeated improvement is claimed, the `E.22` or `E.23` input names object version, `NSTD.6` as evaluation, improvement aim, protected trade-offs, allowed change slice, cost and risk account, and expected re-evaluation form. |
 | `CC-NSTD6-8` | No quality movement is claimed until the changed narrative rendering version or declared changed slice is re-evaluated by `NSTD.6` or a declared stronger evaluation. |
+| `CC-NSTD6-9` | Current-product reconstruction, source-to-result fidelity and evidence of actual construction or repair remain distinct; absence of manufacturing history neither defeats a supported product judgement nor licenses an unsupported historical or admission claim. |
 
 ### NSTD.6:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1750,6 +1779,7 @@ This pattern blocks proxy-as-quality drift: readability, fluency, liking, engage
 | Prompt loop as improvement | The worker keeps regenerating more engaging drafts without a named object version, allowed change slice, protected trade-offs, or re-evaluation. | Open `E.22` when needed, route the repair to `E.23`, and re-evaluate the changed version through `NSTD.6`; otherwise keep the generated text as an unadmitted candidate carrier under `NSTD.7` and `C.35`. |
 | Evaluation theft | Quality result is used as evidence, assurance, or gate. | Keep `NSTD.6` as evaluation; route wider use to `A.10`, `B.3`, or gate owner. |
 | Wrong-kind evaluation | Source text, style guide, script, or generated output is evaluated as narrative rendering. | Apply object-kind fit and return to the correct evaluation or admission owner. |
+| Reconstructed history as evidence | A plausible route inferred from a good product is reported as the author's actual construction or repair. | Retain the current-product result and mark the historical claim unestablished until its own evidence is obtained. |
 | Characteristics as eval programs | Test scripts or automated checks are treated as characteristics. | Keep characteristics in `A.19.ECS`; automated evals are measurement or eval-program carriers under direct owners. |
 
 ### NSTD.6:9 - Consequences
@@ -2036,9 +2066,9 @@ Uses `G.2`, `C.35`, `A.6.3.NAR`, `C.33` for architecture-relevant structural-inf
 
 ### NSTD.8:1 - Problem frame
 
-Use this pattern when a complex source structure must be taught, explained, or learned through a narrative route, and the route must preserve enough structure for learners to reconstruct and apply it later.
+Use this pattern when a complex source structure must be taught, explained, or learned through a narrative route, and the route must preserve enough structure for learners to reconstruct and apply it later. The governed object is the instructional route and its relation to source structure, not every explanation or reference publication. A publication used only for lookup or a professional decision need not become a course.
 
-First useful move: name learner use, source-structure spine, learning-step ordering rule, source-return links, learner reconstruction tasks, and evaluation route.
+First useful move: name learner use, source-structure spine, learning-step ordering rule, source-return links, learner reconstruction tasks, and evaluation route. For an existing route, begin at one consequential transition: recover the current question, what the learner has already met, the contribution now needed and the support actually available there.
 
 Architecture warning: the source corpus may have a good reference architecture and still make a bad learning route if copied directly into the course. Engineers often make a blocked topic route: one coherent module after another, with each topic concentrated in its own lesson. That can be excellent for a reference manual, API, or architecture description, but weak for learning when learners must discriminate neighboring cases, retrieve earlier distinctions, and transfer the structure under varied cues.
 
@@ -2105,11 +2135,31 @@ Build the route in eight design passes.
 | Ordering pass | A learning-step rule that may differ from monolith, proof, publication, or architecture order. | Learners confuse teaching order with source order. |
 | Interleaving pass | Planned returns to earlier and neighboring source structures across sessions, examples, or exercises. | Learners learn each topic in isolation and cannot choose between similar owners later. |
 | Spacing or retrieval pass | Delayed retrieval points for source-spine items, boundary cases, and repair moves. | Learners recognize material during the block but cannot retrieve it after delay. |
-| Anchor pass | Repeated terms, diagrams, questions, or cases that return learners to the source spine. | Learners remember episodes but lose the framework. |
+| Anchor pass | Terms, diagrams, questions or cases attached to the current question, needed distinction and next use, with support available at the point of reconstruction. | Learners remember episodes but lose the framework, or meet a new demand before its necessary relation is available. |
 | Reconstruction pass | Tasks that ask learners to rebuild source structure, not only recall the narrative. | Satisfaction and memory replace practical competence. |
 | Evaluation pass | `NSTD.6` rows for one route version and declared learner use. | Teaching tweaks are treated as improvement without evidence. |
 
 Do not optimize the learning-route architecture for local neatness. A locally neat blocked route can be globally weak: it gives learners the answer key for the current block, so they do not practice selecting the right owner under mixed cues. Interleaving is useful when the learner must later discriminate similar patterns, methods, proof obligations, architecture structures, or source-return owners. Spacing is useful when the learner must still retrieve a structure after other material has intervened. Use them as design moves with declared learner use, not as decorative variety.
+
+#### Check attachment and support at the next use
+
+Inspect the relation between a block or learning aid and both its surrounding context and its later use. What question is active, what distinction or action does this example, image, explanation or exercise enable, why is it needed here, and where will its result be used? A question, worked example, caption, short transition or later payoff can carry that relation. There is no compulsory five-field form and no quota of connective phrases. A repeated word is not enough when the reader still cannot connect the two uses.
+
+Then inspect the route prefix: the material encountered up to the point where a new reconstruction or action is required. Identify the relevant distinctions already introduced, necessary prerequisites expected of this audience, newly introduced objects or relations, still-open questions and the means available now. Ask the reader to use those means on the next task. A relation shown only much later cannot support the current action unless a usable return makes it available. An overview is useful when it exposes the needed relation, not merely because it lists topics.
+
+Keep three different repair questions separate:
+
+- A missing attachment: restore the relation between the active question, the block or aid and its next use; correct a wrong return or an unexplained visual edge.
+- An unsupported new demand: supply the necessary contrast, map, worked operation, recap, accessible representation or introduction order before relying on that operation. Check the promised prerequisite and assistance first; do not simplify away needed subject structure.
+- A deliberate preparatory attempt: let the learner try a bounded problem before the explanation when that serves the learning design, preserve the attempted alternatives, and use subsequent instruction to compare and resolve them. Difficulty or an incorrect first attempt is not by itself a material defect, but unresolved failure is not evidence of productive preparation.
+
+Use a stable supported initial case when the learner needs it to build the distinction before mixed selection. Interleaving, spacing and retrieval serve the declared later task; they do not require every first encounter to mix unfamiliar alternatives. Conversely, making every block easy by naming its answer does not test later independent selection. Judge the actual point and contribution rather than choosing one universal order.
+
+Preserve the first response before a cue supplies the distinction being tested. Report the allowed help, help actually used, source contribution and the reader's prior expertise. A teacher-supported correction may fulfil the declared arrangement while leaving independent first recognition untested. An expert's successful reconstruction does not erase a contrary report from a less-prepared reader. Use an appropriately scoped observation if that reader's difficulty can change the repair.
+
+Structural reconstruction demand is not experienced cognitive load. NarrativeRenderingEpiplexity concerns selected source-structure recovery under an observer/use boundary; it is neither a quantity to maximize unconditionally nor a burden meter. A material inspection or agent walkthrough can locate a missing relation and available support, but claims about human burden, learning, retention or transfer need their own observations and conditions. For reported burden, identify the person, segment, timing and instrument.
+
+Recheck the changed attachment, the affected prefix and its next task while preserving unaffected source and route results. If the intended reader already recovers the relation and completes that task with the declared support, density alone is not a reason to insert another aid. Use `E.23` for a worthwhile repair; shortening, added pictures or extra repetition are not improvements without a changed useful result and protected qualities.
 
 Use reconstruction tasks at several depths.
 
@@ -2171,6 +2221,10 @@ LearningNarrativeRoute@FPFOnboarding:
   evaluationRouteRef: `NSTD.6` learning-route rows
   improvementLoopInputRef: `E.23` only after low-value rows exist
 ```
+
+In this onboarding route, the opening failed use may be preparation rather than a failed capability assessment. The subsequent recovery of the object of concern must work with the attempted alternatives: show which object the next move governs and why the tempting alternative does not answer that question. Before the later neighbor-choice task, inspect whether those neighboring entries and their distinguishing condition are already available. If not, introduce the contrast or provide an accessible source return; merely adding another unlabeled failure would not supply it. If the entries are available, the mixed case can test their selection instead of prompting the answer.
+
+A later diagram or recap should connect that choice to the next actual use. A wrong figure return calls for correcting the attachment, not automatically redesigning the entire course. After the repair, ask the reader to recover that relation and use it under the declared support. This is a design and checking example, not an observed learning gain.
 
 An actual seminar file can contain jokes, slides, timing, exercises, and examples. The DPF pattern body does not. It tells the route designer what must survive in any carrier-borne teaching material: source spine, ordering rule, reconstruction tasks, source returns, engagement boundary, evaluation, and repair.
 
@@ -2317,7 +2371,7 @@ LearningNarrativeRouteVersion@Context:
 
 Versioning is not bureaucracy. It prevents the common failure where a teacher changes slides, examples, or order and then claims the course improved because it felt smoother. Improvement requires a route version, a declared changed slice, and re-evaluation. If the source spine changes because FPF changed, that is refresh through `G.11`, not merely local teaching preference.
 
-Use a two-column lesson plan before writing materials.
+Use a three-column lesson plan before writing materials.
 
 | Source-spine item | Narrative or teaching move | Interleaving or spacing move |
 | --- | --- | --- |
@@ -2360,6 +2414,8 @@ It also blocks blocked-topic architecture drift: the source corpus is modular, s
 | `CC-NSTD8-4` | Actual teaching materials remain outside DPF pattern bodies. |
 | `CC-NSTD8-5` | Evaluation uses `NSTD.6`; repeated improvement uses `E.22` when the quality question is underframed and `E.23` only after exact route version, changed slice, protected trade-offs, cost and risk, and re-evaluation form are explicit. |
 | `CC-NSTD8-6` | For multi-session or transfer-bearing routes, source architecture is separated from learning-route architecture, and any blocked topic order is either justified for the learner use or repaired with interleaving, spacing, delayed retrieval, and mixed cases. |
+| `CC-NSTD8-7` | Material attachments and consequential prefixes connect the current question, available structure/support and next use; missing relations, unsupported demands and deliberate preparatory attempts receive different repairs or continuation. |
+| `CC-NSTD8-8` | First and helped responses, source contribution, prior expertise and human learning or burden claims retain their own evidence boundaries; structural density is not treated as observed cognitive load. |
 
 ### NSTD.8:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2370,6 +2426,8 @@ It also blocks blocked-topic architecture drift: the source corpus is modular, s
 | Blocked practice fluency | Learners perform well inside each topic block because the block label gives away the owner. | Add mixed owner-choice cases and delayed no-label retrieval before claiming transfer. |
 | Materials inside pattern body | Slides or exercises are inserted into DPF patterns. | Move them to teaching publication-carrier files and reference only the carrier relation. |
 | Recall as reconstruction | Learners remember examples but cannot use patterns. | Add reconstruction and application tasks; evaluate through `NSTD.6`. |
+| Fluent blocks without a usable connection | Each paragraph reads well, but the current question, aid or later use cannot be related. | Inspect both endpoints and the affected prefix; restore the missing relation or usable return, then repeat the next task. |
+| Difficulty judged without its teaching function | Every hard transition is compressed, or every unsuccessful attempt is called productive. | Separate an unsupported demand from deliberate preparation; provide the missing support or make subsequent instruction resolve the attempted alternatives. |
 | Teaching tweak as evolution | A revised slide, example, or prompt is described as evolved route quality without telemetry and re-evaluation. | Treat the tweak as an `E.23` changed slice after `NSTD.6`; use `G.11` for refresh and reserve `B.4` for actual evolution claims over the route across operation. |
 
 ### NSTD.8:9 - Consequences
@@ -2384,7 +2442,9 @@ The architectural lesson is counterintuitive for engineers. In a source corpus, 
 
 ### NSTD.8:11 - SoTA-Echoing
 
-Mengelkamp et al.'s "Effects of Reading Goal Instructions on the Comprehension and Metacomprehension of Informative Narratives" makes study goals and metacomprehension risk visible; Georgiou et al.'s "Large-scale study of human memory for meaningful narratives" shows that long narratives can be remembered as gist and sequence rather than source detail; Hoffmann's "The Tensions of Scientific Storytelling" supplies a science-storytelling example where unresolved tension and source return matter. Dunlosky et al.'s "Improving Students' Learning With Effective Learning Techniques" rates practice testing and distributed practice as high-utility techniques and treats interleaved practice as promising for appropriate situations. Rohrer and Taylor's "The shuffling of mathematics problems improves learning" directly shows the risk of standard blocked textbook practice and the benefit of spaced and mixed practice in mathematics problems. Kang's "Spaced Repetition Promotes Efficient and Effective Learning" gives a policy-level synthesis: spacing repeated encounters with material improves long-term learning and can be combined with tests. Until a separate curriculum-design or cognitive-apprenticeship source row is admitted, `NSTD.8` uses these sources for learning route, reconstruction, memory, spacing, interleaving, engagement-boundary, and source-return pressure, not as a complete pedagogy doctrine.
+Mengelkamp et al.'s "Effects of Reading Goal Instructions on the Comprehension and Metacomprehension of Informative Narratives" makes study goals and metacomprehension risk visible; Georgiou et al.'s "Large-scale study of human memory for meaningful narratives" shows that long narratives can be remembered as gist and sequence rather than source detail; Hoffmann's "The Tensions of Scientific Storytelling" supplies a science-storytelling example where unresolved tension and source return matter. Dunlosky et al.'s "Improving Students' Learning With Effective Learning Techniques" rates practice testing and distributed practice as high-utility techniques and treats interleaved practice as promising for appropriate situations. Rohrer and Taylor's "The shuffling of mathematics problems improves learning" directly shows the risk of standard blocked textbook practice and the benefit of spaced and mixed practice in mathematics problems. Kang's "Spaced Repetition Promotes Efficient and Effective Learning" gives a policy-level synthesis: spacing repeated encounters with material improves long-term learning and can be combined with tests. `NSTD.8` retains the Dunlosky, Rohrer–Taylor and Kang contributions as historical anchors for spacing and interleaving questions. The bounded source contributions here inform learning-route design, reconstruction and source return, not a complete pedagogy doctrine.
+
+For the attachment and prefix-support work, [Noetel et al. (2022)](https://journals.sagepub.com/doi/10.3102/00346543211052329) supports mechanism-specific attention to signaling, correspondence and pacing rather than a rule to add pictures everywhere. [Sinha and Kapur (2021)](https://journals.sagepub.com/doi/abs/10.3102/00346543211019105) supports distinguishing problem solving followed by instruction from unsupported failure; its conditional, largely mathematics/physics evidence does not make all difficulty productive. [Wesenberg et al. (2025)](https://doi.org/10.1016/j.cedpsych.2024.102328) motivates checking whether a worked example also permits a consequentially wrong rule; the studied brief units do not establish a universal order for long routes. [Krieglstein et al. (2025)](https://doi.org/10.1007/s10648-024-09980-0) shows why retrospective load reports need an explicit timing and segment: the reported primacy effect concerns self-report in the studied setting, not a conversion from source-structure density to human burden. These contributions qualify the choice of support and the inference from a reader response; none validates this entire route method or its ordinal values.
 
 Operational payload:
 
@@ -2507,7 +2567,7 @@ Ordering rule: live event order with explicit prediction and uncertainty markers
 
 Construction route:
 
-1. `NSTD.1`: name listener use, live temporal posture, commentator or rendering worker, event-source owner, provisional interpretation boundary, and source-return route.
+1. `NSTD.1`: name listener use, live temporal posture, intended commentator Work role, any actual performer and role assignment, load-bearing commentator voice or viewpoint, event-source owner, provisional interpretation boundary, and source-return route.
 2. `NSTD.2`: follow live event order while marking when the sequence is observation, inference, tactical interpretation, or prediction.
 3. `NSTD.3`: preserve event and state-update support so listeners can reconstruct what changed, who acted, and what remains uncertain.
 4. `NSTD.4`: keep viewpoint and agency wording from assigning responsibility, intention, or capability beyond the observable or sourced basis.
@@ -2538,7 +2598,7 @@ Use this bridge when narrative-language work is doing architecture-like structur
 | architecture description in `C.30.AD` | synopsis, outline, story bible, explanatory account, learning route, narrative-rendering publication carrier | Use `A.6.3.NAR` for structure-to-sequence rendering and `E.17` for publication; use `C.30.AD` only when the source or target is an architecture description. |
 | candidate structure set and trade-off in `C.32` | alternative plots, possible story plans, scenario branches, competing explanation routes, narrative design alternatives | Keep alternatives visible before picking the route; use `NSTD.2` for ordering and `NSTD.6` for declared-use quality. Use `C.32` only for architecture candidate synthesis. |
 | project architecture decision in `C.32.PAD` | chosen narrative route, selected plot or order, editorial commitment, scenario commitment | Treat the chosen narrative route as DPF-local unless it is also an architecture decision. Do not let narrative commitment authorize work, evidence, ethics, or architecture decisions. |
-| developer or transformer role receiving architecture work | writer, narrator, teacher, commentator, story designer, tool operator, performer, generator controller | Name the narrating or rendering worker in `NSTD.1`; use A.15-family owners only when method, work, readiness, or performed-work claims become live. |
+| developer or transformer role receiving architecture work | writer, teacher, commentator, story designer, tool operator, performer, generator controller | Name the intended rendering Work role in `NSTD.1`; use `NSTD.4` for narrative voice or viewpoint; use A.15-family patterns only when method, actual role assignment, Work, readiness, or performed-work claims become live. |
 | structural information capture and source return in `C.33` | how much selected source structure got into the story, what the story hides, what must be checked in the admitted source basis or direct governing pattern, epiplexity of rendering | Use `NarrativeRenderingEpiplexity` in `NSTD.6`; use `C.33` when the carrier is architecture-relevant structural information. |
 | structural correspondence in `C.34` | canon fidelity, same storyworld, adaptation faithfulness, explanation still same-enough, narrative order preserving source relation | Use `C.34` when same-enough preservation matters for architecture; otherwise keep correspondence local to DPF and domain owners and state lost structure and non-admissible use. |
 | realized structure, operation, telemetry, feedback in `C.32.P2S` and `G.11` | reader reception, learner reconstruction, field test, replay, audience misunderstanding, generated-output repair, official result after live commentary | Use `NSTD.6`, `NSTD.8`, `E.23`, and `G.11` for evaluation, improvement, and refresh. Use architecture feedback owners only when actual holon structure or architecture-characteristic results are being checked. |
@@ -2573,7 +2633,7 @@ Use `G.2` source rows to ground the narrative-studies, cognitive, teaching, ethi
 | Hoffmann, "The Tensions of Scientific Storytelling" | `NSTD.1`, `NSTD.3`, `NSTD.5` | Scientific narrative can organize discovery, mechanism, attempts, calculations, and unresolved tension, but it does not create evidence or assurance. |
 | Schmid, `Narratology: An Introduction`, and Chihaia, `Introductions to Narratology: Theory, Practice and the Afterlife of Structuralism` | `NSTD.2`, `NSTD.4`, precision map, source-use refresh | Use source-material vocabulary only after restoring admitted source basis and selected source structure; use selection, composition, linearization, rearrangement, perspectivization, voice, and tradition and audience plurality as DPF vocabulary; do not import fiction-bound terms into Core ontology. |
 | Nguyen, "A Review of Mechanistic Models of Event Comprehension"; Chen and Xu, "Neural and Behavioral Evidence for Differential Processing of Narrative Perspective in Novel Reading"; Mengelkamp et al., "Effects of Reading Goal Instructions on the Comprehension and Metacomprehension of Informative Narratives"; Georgiou et al., "Large-scale study of human memory for meaningful narratives" | `NSTD.3`, `NSTD.4`, `NSTD.6`, `NSTD.8` | Event, hierarchy, prediction, updating, viewpoint, reading goal, metacomprehension, and memory effects inform reconstruction checks; they do not prove source truth. |
-| Castricato et al., "Towards a Formal Model of Narratives"; prospective narrative practice such as design-fiction or experiential-futures sources | `NSTD.1`, `NSTD.2`, `NSTD.4`, `NSTD.6`, acceptance cases | Narrating worker, reader or listener role, reader story-model evolution, uncertainty, and temporal posture become explicit drafting and evaluation slots; these rows do not create FPF Core ontology. |
+| Castricato et al., "Towards a Formal Model of Narratives"; prospective narrative practice such as design-fiction or experiential-futures sources | `NSTD.1`, `NSTD.2`, `NSTD.4`, `NSTD.6`, acceptance cases | Intended rendering Work role, actual performer when claimed, reader or listener role, narrative voice or viewpoint, reader story-model evolution, uncertainty, and temporal posture become explicit and distinct drafting or evaluation positions; these rows do not create FPF Core ontology. |
 | Green and Brock, "The Role of Transportation in the Persuasiveness of Public Narratives"; Dahlstrom and Ho, "Ethical Considerations of Using Narrative to Communicate Science"; Meretoja, "Narrative and Human Existence: Ontology, Epistemology, and Ethics" as background only; FPF `D.1` through `D.5` | `NSTD.5`, `NSTD.6`, acceptance cases | Engagement and persuasion are real design effects, but ethics, harm, evidence, and assurance stay with FPF owners. |
 | Dunlosky et al., "Improving Students' Learning With Effective Learning Techniques"; Rohrer and Taylor, "The shuffling of mathematics problems improves learning"; Kang, "Spaced Repetition Promotes Efficient and Effective Learning" | `NSTD.8`, `NSTD.6`, architecture bridge, source-use refresh | Learning-route architecture may need spaced retrieval and interleaving rather than blocked topic order; a coherent source architecture must not be copied automatically as the course architecture. |
 | Gatt and Krahmer, `Survey of the State of the Art in Natural Language Generation`; Alabdulkarim et al., "Automatic Story Generation: Challenges and Attempts"; Cardona-Rivera and Ware et al., "The Story So Far on Narrative Planning"; Chakrabarty et al., "SceneCraft"; Ma et al., "Text-to-Text Automatic Story Generation: A Survey"; Rahman et al., "Game Knowledge Management System"; Nguyen-Trung and Nguyen, "Narrative-Integrated Thematic Analysis" | `NSTD.7` | Generation splits content planning, discourse planning, method, schema, repair, admission, evaluation, and human interpretive agency; fluency never grants authority. |
@@ -2592,7 +2652,7 @@ These terms are local working vocabulary unless a source owner and naming owner 
 | source temporal posture | DPF-local slot under `A.6.3.NAR` and `NSTD.1` | Whether the selected source structure or admitted source basis concerns retrospective or reverse-engineered actual structure or event record, live unfolding, prospective planned structure, prospective fictional structure or canon, or a mixed case | Not evidence strength, chronology, or publication date by itself |
 | rendering mediation mode | DPF-local slot under `A.6.3.NAR` and `NSTD.1` | Whether narrative rendering is direct source-structure rendering, architecture-mediated rendering, or mixed | Not a claim that all narrativization is architecture and not a reason to bypass architecture owners when architecture is live |
 | architecture-mediated narrativization route | Rendering mediation mode using architecture understanding, architecture description, views, viewpoints, decisions, candidate structures, or telemetry as mediating source | Narrate actual or future holon structure for a declared reader or listener use | Not architecture decision, not architecture description itself, and not implementation authority |
-| narrating or rendering worker | DPF-local role slot under `NSTD.1`, with human or tool responsibility routed to direct owners | Writer, narrator, teacher, commentator, story designer, or tool-mediated worker arranging source structure into narrative | Not source owner, evidence owner, ethical owner, or responsible agent unless direct owners assign that |
+| rendering Work role | DPF-local project role reference under `NSTD.1`; recover an actual system, role assignment, and Work through their direct FPF patterns when those claims are made | Writer, teacher, commentator, story designer, tool operator, or another role proposed to arrange selected source structure into narrative | Not the role holder, actual performer, narrative voice or viewpoint, source authority, admission responsibility, evidence source, or ethical decision maker by this reference alone |
 | reader or listener role | DPF-local role-use slot under `NSTD.1`, `NSTD.6`, and publication and audience owners when needed | Intended receiver role whose use constrains source selection, order, viewpoint, engagement, and source return | Not a generic audience, not authority, and not source truth |
 | reader-interest or use hypothesis | DPF-local slot under `NSTD.1` and test object for `NSTD.6` | Explicit guess about what the receiver needs to understand, do, remember, decide not to decide, or return to source for | Not a guarantee of actual comprehension without evaluation or telemetry |
 | narrative rendering | DPF-local name for the receiving-side episteme and rendering relation under `A.6.3.NAR`; carrier or publication availability routes to `E.17` or the direct publication owner | One version of source structure rendered as sequence | Not source truth, carrier identity, assurance, or publication permission |
