@@ -47,7 +47,7 @@ The public folder contains eight complete publications and two explicitly partia
 | Available foundation | Available now | Explicitly unavailable in this edition |
 | --- | --- | --- |
 | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | 9 patterns: `SIE.1`, `SIE.2`, and `SIE.4`-`SIE.10` | `SIE.3`, `SIE.11`, and `SIE.12` |
-| [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | 2 patterns: `RMP.1`-`RMP.2` | `RMP.3`-`RMP.9` |
+| [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | 4 patterns: [RMP.1–RMP.4](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | `RMP.5`-`RMP.9` |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
@@ -90,11 +90,11 @@ This stable heading is retained for readers following links from earlier complet
 
 ### Publication scope
 
-The eight complete carriers expose 167 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The two partial foundations add eleven usable PatternIDs without supplying the missing bodies.
+The eight complete carriers expose 167 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The public folder's two partial foundations add thirteen usable PatternIDs: nine SIE bodies and four RMP bodies. The corresponding repository editions expose the same thirteen partial-foundation patterns. These counts do not make the missing bodies available.
 
 The [Semantic Integration Engineering foundation](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) can return a bounded semantic-integration package for one receiving use. It does not supply the unavailable model-change, later change-tracing, or reusable semantic-commons methods represented by `SIE.3`, `SIE.11`, and `SIE.12`.
 
-The [Research Method Practice foundation](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) can qualify a research question, return an already-sufficient source or non-research owner, and choose a criticism-bearing research design or an honest stop. It does not supply `RMP.3`-`RMP.9` for operationalization, performed research, analysis, synthesis, or downstream use.
+The [Research Method Practice preview](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) supplies the four-pattern question, design, operationalization and trace contribution. It helps qualify a question, return an already-sufficient source or non-research owner, choose a criticism-bearing design or honest stop, preserve the question through operationalization, and retain a trace with explicit examination, reconstruction, loss and access limits. It still leaves `RMP.5`-`RMP.9` for analysis, credibility testing, synthesis, knowledge return and research-Method revision unavailable.
 
 Until a needed pattern is available, obtain the missing result from the practice that owns it. A title, accepted plan, neighbouring pattern, or AI-generated answer does not fill the gap. Publication updates are announced through the [FPF repository](https://github.com/ailev/FPF).
 
