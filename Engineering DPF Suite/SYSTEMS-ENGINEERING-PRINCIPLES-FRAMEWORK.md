@@ -5,6 +5,7 @@
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 5 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 Begin with the engineering question that blocks your project: the project System and its use, an architecture choice, a realization branch, an integration result, or the evidence needed for a decision.

@@ -5,6 +5,7 @@
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 6 September 2026
 - **Status:** Eternal alpha: a working framework open to correction as methods, sources and uses change. This RMP-A–B preview supplies RMP.1–RMP.4; analysis, credibility testing, synthesis, knowledge return and research-Method revision remain outside its available repertoire.
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 Begin with the research difficulty that is blocking useful work: an ambiguous request, a possibly sufficient source answer, an unsettled design, a consequential operational choice, or actual material whose research use cannot be reconstructed. Use the Table of Contents to find a pattern by question or PatternID, and the Readme for selected practical examples. The Preface explains how the four contributions connect and where direct entry or a return is useful. The connected applications show the resulting choices. For references to this dated version, use the [Citation](#citation).

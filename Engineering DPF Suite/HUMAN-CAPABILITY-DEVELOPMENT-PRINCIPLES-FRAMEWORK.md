@@ -5,6 +5,7 @@ HCD is a pattern language for deriving human capability demand from later Work, 
 > **Author:** Anatoly Levenchuk with AI-assisted development and review.
 > **Version:** 5 September 2026 — nineteen-pattern edition
 > **Status:** Eternal alpha: used in working development projects and open to continuing correction.
+> **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 > **Publication:** [FPF repository](https://github.com/ailev/FPF). [Citation](#citation).
 
 # Table of Contents
@@ -5135,6 +5136,8 @@ The designation identifies the complete HCD pattern set and reader carrier. The 
 **Version:** 5 September 2026 — nineteen-pattern edition
 
 **Status:** Eternal alpha: used in working development projects and open to continuing correction.
+
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
 **Publication:** [FPF repository](https://github.com/ailev/FPF).
 

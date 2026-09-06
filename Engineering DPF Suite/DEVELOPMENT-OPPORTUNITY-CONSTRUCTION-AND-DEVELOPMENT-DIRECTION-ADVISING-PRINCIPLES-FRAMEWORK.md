@@ -8,6 +8,8 @@ Amended release: 5 September 2026.
 
 This framework is already in use and is continuously revised.
 
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
+
 Publication repository: [ailev/FPF](https://github.com/ailev/FPF).
 
 # Table of Contents

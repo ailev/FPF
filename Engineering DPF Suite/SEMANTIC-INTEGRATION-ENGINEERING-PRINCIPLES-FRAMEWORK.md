@@ -5,6 +5,7 @@
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 5 September 2026
 - **Status:** Eternal alpha: a foundation preview available for the stated uses and open to correction as methods, sources and applications change. Nine pattern bodies are available; bodies for semantic-model construction, tracing change across affected uses and commons governance remain unavailable.
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 Use the Readme to enter from a working difficulty, or the Table of Contents to open one available pattern. The Preface explains how the contributions work together and where the foundation stops. For references to this version, use the [Citation](#citation).

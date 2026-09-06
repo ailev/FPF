@@ -5,6 +5,7 @@
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 5 September 2026
 - **Status:** Eternal alpha: a working framework with source-grounded guidance and bounded worked applications. The PLUS-ME production account is prospective guidance, not a report of recurring successful production.
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 Begin with a difficulty in the practice you want to improve: which way of working, description, trial, or supporting arrangement needs to change?

@@ -5,6 +5,7 @@
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 6 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 Use this Reference while working on a problem. The question index points to a pattern and the result it can help you obtain. The cases explain how to combine contributions when one field cannot answer the whole question.

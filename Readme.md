@@ -5,6 +5,9 @@
 [**FPF Core Specification**](./FPF-Spec.md) · [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) · [**Narrativization DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) · [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/)
 
 **Author:** Anatoly Levenchuk, with AI-agent assistance  
+
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
+
 **Status:** normative kernel and evolving ecosystem; eternal alpha—already used in working projects and development programs while continuing to change.
 
 FPF is no longer only one Core specification. This repository contains the transdisciplinary **FPF Core**, the **Engineering DPF Suite**, and a separate **Narrativization and Narrative Studies DPF**. Together they form an ecosystem of FPF-grounded pattern languages for difficult work across engineering, research, management, education, and other domains.
@@ -228,6 +231,12 @@ FPF is most useful when the cost of semantic drift, hidden assumptions, prematur
 This README is a public entry point, not the normative specification. It deliberately coarsens and omits detail. When a claim becomes important, inspect the exact pattern body, definitions, checks, source uses, and stop or reopen conditions in [FPF Core](./FPF-Spec.md) or the relevant DPF.
 
 The framework is an **eternal alpha**: it is usable now and continuously revised as its sources, working situations, patterns, and evaluations change. AI agents should expose the source edition or snapshot they used whenever currentness matters.
+
+## License and reuse
+
+The original FPF and DPF content by Anatoly Levenchuk, including the Engineering DPF Suite and Narrativization DPF, is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt it, including commercially, with attribution, a license link and an indication of changes. See the [licensing scope](./LICENSING.md) for the full notice and third-party and software boundaries.
+
+You choose the license for your own original DPF or LPF. Using FPF methods or its publication form does not impose CC BY on your work. When sharing licensed FPF or DPF text under CC BY 4.0, preserve its attribution and comply with the license. Where your use needs no copyright permission, including under an applicable exception, these conditions do not apply. The license has no ShareAlike requirement.
 
 ## Citation
 

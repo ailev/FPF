@@ -5,6 +5,7 @@
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** 6 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
+- **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 You may be choosing an architecture, trying to make a working method reproducible, reorganizing a team, or deciding what to develop next. The Suite helps you find a useful way to tackle that particular difficulty and produce an answer you can act on.
@@ -90,7 +91,7 @@ This stable heading is retained for readers following links from earlier complet
 
 ### Publication scope
 
-The eight complete carriers expose 167 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The public folder's two partial foundations add thirteen usable PatternIDs: nine SIE bodies and four RMP bodies. The corresponding repository editions expose the same thirteen partial-foundation patterns. These counts do not make the missing bodies available.
+The eight complete carriers expose 169 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The public folder's two partial foundations add thirteen usable PatternIDs: nine SIE bodies and four RMP bodies. The corresponding repository editions expose the same thirteen partial-foundation patterns. These counts do not make the missing bodies available.
 
 The [Semantic Integration Engineering foundation](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) can return a bounded semantic-integration package for one receiving use. It does not supply the unavailable model-change, later change-tracing, or reusable semantic-commons methods represented by `SIE.3`, `SIE.11`, and `SIE.12`.
 
@@ -113,3 +114,9 @@ GitHub repository: https://github.com/ailev/FPF
 ```
 
 For a particular method, cite its DPF, PatternID, title and the date shown in that publication.
+
+## License and reuse
+
+The original FPF and DPF content by Anatoly Levenchuk, including the Engineering DPF Suite and Narrativization DPF, is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt it, including commercially, with attribution, a license link and an indication of changes. See the [licensing scope](https://github.com/ailev/FPF/blob/main/LICENSING.md) for the full notice and third-party and software boundaries.
+
+You choose the license for your own original DPF or LPF. Using FPF methods or its publication form does not impose CC BY on your work. When sharing licensed FPF or DPF text under CC BY 4.0, preserve its attribution and comply with the license. Where your use needs no copyright permission, including under an applicable exception, these conditions do not apply. The license has no ShareAlike requirement.
