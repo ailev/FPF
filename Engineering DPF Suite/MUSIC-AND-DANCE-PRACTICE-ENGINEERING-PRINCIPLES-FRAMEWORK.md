@@ -65,7 +65,7 @@ Search the Keywords & Search Queries column for the performance, teaching, pract
 | 13 | [MDPE.6 - Choose Whether and How to Use a Music-or-Dance Result under New Conditions](#mdpe6---choose-whether-and-how-to-use-a-music-or-dance-result-under-new-conditions) |  | *Keywords:* adaptation, changed instrument, body, partner, venue, medium, reuse, revision, branch, preservation. *Queries:* "Can this music or dance result serve a new receiving use?" "Which timing, interaction, function, or meaning must survive the change?" Compare source and receiving conditions, identify the relations that matter, and choose reuse, revision, branching, a discriminating probe, or a stop for the bounded case. | FPF C.11, C.34 |
 | 14 | [MDPE.17 - Design and Test Transmission of a Music-or-Dance Method](#mdpe17---design-and-test-transmission-of-a-music-or-dance-method) |  | *Keywords:* transmission, teaching, receiving enactment, demonstration, imitation, reconstruction, transfer, retention, source contribution. *Queries:* "What Method did the receiving performer's Work actually enact?" "Which contribution from teaching, demonstration, or material to that result does the evidence support?" Design and test receiving enactment under relevant conditions, allowing productive variants and exposing cue dependence, prior capability, and the evidence limits on transmission. | MDPE.6; FPF C.28, A.10 |
 | 15 | [MDPE.18 - Build Usable Music-or-Dance Cultural Memory and Lineage Evidence](#mdpe18---build-usable-music-or-dance-cultural-memory-and-lineage-evidence) |  | *Keywords:* cultural memory, archive, recording, score, embodied knowledge, lineage, borrowing, reconstruction, provenance. *Queries:* "What can the surviving records and capabilities support for this decision?" "Which lineage claims need another source or reconstruction trial?" Build a usable memory and lineage account that preserves selected traces, embodied gaps, mixed derivations, and source returns for attribution, teaching, restoration, or later performance. | FPF A.3.1.MR, C.2.1, A.10 |
-| 16 | [MDPE.19 - Test Whether a Music-or-Dance Variant Can Continue and Choose What to Change](#mdpe19---test-whether-a-music-or-dance-variant-can-continue-and-choose-what-to-change) |  | *Keywords:* continuation, retention, restoration, loss, reproducibility, replacement performer, teaching, venue, cultural variant. *Queries:* "Can present participants reproduce this variant in representative Work?" "Which failing capability, support, memory, or transmission relation prevents another occurrence?" Test the reproduction arrangement and choose what to retain, restore, revise, retire, or acknowledge as lost, with evidence bounded to the actual practice. | MDPE.17, MDPE.18; FPF C.36, A.10 |
+| 16 | [MDPE.19 - Decide Whether a Music-or-Dance Variant Can Continue and What to Change](#mdpe19---decide-whether-a-music-or-dance-variant-can-continue-and-what-to-change) |  | *Keywords:* continuation, retention, restoration, loss, reproducibility, replacement performer, teaching, venue, cultural variant. *Queries:* "Can present participants reproduce this variant in representative Work?" "Which failing capability, support, memory, or transmission relation prevents another occurrence?" Use available evidence for a qualified continuation account or decision about retention, restoration, revision, local retirement or bounded loss. Select a new reproduction test only when its attainable contribution warrants the whole burden. Claims of tested continuation, tested replacement or later enactment need representative observed Work; causal-contribution claims need appropriate evidence. | MDPE.17, MDPE.18; FPF C.36, A.10 |
 
 **Part V - Supporting Environment, Practice Conflicts, Local Change, Alternatives, Trajectories, and Next Work**
 
@@ -154,13 +154,13 @@ cases, checks, source limits, and return conditions.
   reproduce the practice.
 - **Question:** What survives changed conditions? Which representative Work did a receiving Agent perform,
   which received Method did that Work enact, and which contribution from the source is supported by evidence? What can
-  present Agents reconstruct, and which relation must change for continued reproduction?
+  present Agents reconstruct, and which dependence permits or limits continued reproduction?
 - **First useful result or honest blocker:** A receiving-use decision, a tested received Method variant with
-  transfer limits, usable cultural-memory evidence, and a tested continuation decision; or the missing carrier,
+  transfer limits, usable cultural-memory evidence, or a qualified continuation account or decision. A claimed tested continuation adds its actual representative Work; a blocker is the needed but missing carrier,
   capability, receiver, source contrast, lineage evidence, support relation, or later enactment.
 - **Start with:** `MDPE.6` for changed-condition use, `MDPE.17` for receiving enactment and source contribution,
-  `MDPE.18` for usable memory and lineage evidence, and `MDPE.19` for continued reproduction and the next
-  relation-specific change.
+  `MDPE.18` for usable memory and lineage evidence, and `MDPE.19` for the
+  supported continuation decision and any worthwhile targeted change or inquiry.
 - **Stop or return:** Stop at the first result needed now. Do not infer population continuation from one
   receiver. Return when the receiving conditions, carrier, receiver, Method variant, evidence, population, or
   continuation promise changes.
@@ -268,7 +268,7 @@ combinations as examples of those result relations.
 | Waiting question | Contributions used together | Useful result and next branch |
 | --- | --- | --- |
 | Can this material work in the intended performance? | `MDPE.1` supplies the brief; `MDPE.9` compares candidates through performer-involving trials. Use `MDPE.10` for a limiting capability and `MDPE.3` for coordination in the performing whole. `MDPE.11` guides interpretation or live shaping, `MDPE.5` integrates production and presentation, and `MDPE.12` obtains the comparison the choice needs. | A candidate choice needs a trial-supported disposition; a performance claim needs the relevant observed occurrence. Demonstrated capability or a configured whole can enable the next trial without establishing its result. Failure returns to the contribution that prevents the intended use; one commissioned work need not open style-development work. |
-| Will the practice remain usable with other performers or in changed conditions? | `MDPE.6` decides what the receiving use must preserve or change. `MDPE.17` tests enactment by receivers, using `MDPE.10` or `MDPE.23` when performing or recognizing capability is limiting. `MDPE.18` supplies memory and lineage evidence; `MDPE.19` tests continued reproduction when that is the question. | A receiving-use decision can permit a bounded adaptation. A receiving group's trial can support transmission at its tested scope. Delayed or replacement-performer use is a further observation when continuation matters. |
+| Will the practice remain usable with other performers or in changed conditions? | `MDPE.6` decides what the receiving use must preserve or change. `MDPE.17` tests enactment by receivers, using `MDPE.10` or `MDPE.23` when capability is limiting. `MDPE.18` supplies memory and lineage evidence; `MDPE.19` returns a qualified continuation account or decision and tests reproduction when that inquiry is selected. | A receiving-use decision can permit a bounded adaptation. A receiving trial supports transmission only at its tested scope. Current evidence may suffice for bounded continuation; a stronger delayed or replacement-performer claim needs its appropriate Work evidence. |
 | Which change can make a style-development arrangement work? | `MDPE.8` and `MDPE.1` bound the subject; `MDPE.21` compares arrangements for producing and reproducing the intended distinctions. `MDPE.22` addresses support, `MDPE.13` selection, and `MDPE.14` conflicts. `MDPE.15` tests a selected change; `MDPE.16` maintains useful alternatives. `MDPE.20` adds a forecast only if it changes a decision, and `MDPE.24` tests a proposed new whole only if the project boundary depends on that claim. | A selected architecture, observed local change, or continuation decision is useful before wider cultural uptake is known. `MDPE.7` integrates the available results when they still leave a choice of next work. |
 
 The [constructed cross-pattern application](#cross-pattern-application) carries the third question through a
@@ -313,7 +313,7 @@ the capability and support needed for present reproduction disappear.
 The patterns preserve these distinctions because each one exposes another engineering failure and next move.
 `MDPE.12` qualifies observations. `MDPE.23` develops recognition capability. `MDPE.13` changes
 recognition-and-selection arrangements. `MDPE.17` tests receiving enactment and source contribution. `MDPE.18`
-makes memory and lineage evidence usable. `MDPE.19` tests continuation and chooses what relation to change next.
+makes memory and lineage evidence usable. `MDPE.19` returns a supported continuation account or decision, selecting a reproduction test or targeted change only when needed and worthwhile.
 Success in one of these results does not establish the later results merely because they follow it.
 
 ## Project Work and cultural change
@@ -4879,11 +4879,11 @@ Case sources: [Tarraxo Agency](https://www.tarraxo-agency.com/), [Gwany and Lili
 
 ### MDPE.18:End
 
-## MDPE.19 - Test Whether a Music-or-Dance Variant Can Continue and Choose What to Change
+## MDPE.19 - Decide Whether a Music-or-Dance Variant Can Continue and What to Change
 
 > **Type:** DPF pattern body
 >
-> **Primary working result:** a **tested continuation decision**. It names the Music-or-Dance subject that should remain reproducible, the representative Work and time horizon, the continuation arrangement on which that Work depends, the change used to test fragility, the observed failure or resilience, and one bounded decision to change support, restore, retire, investigate, or acknowledge loss. When a later test follows a support change, the result states separately whether reproduction now succeeds and whether the change's causal contribution was tested.
+> **Primary working result:** a **qualified continuation account or decision**. It names the Music-or-Dance subject, representative Work and horizon, the supporting arrangement, available evidence and limits, and the supported continuation, targeted change, restoration, local retirement, investigation or bounded-loss conclusion. A current dependence account or supported decision can finish without another test. A **tested continuation decision** additionally identifies the relevant change, representative Work actually observed, and failure, resilience or inconclusiveness. A post-change reproduction result and a tested causal contribution remain separate.
 
 ### MDPE.19:0 - Use This When
 
@@ -4901,7 +4901,7 @@ Typical situations include:
 - a festival, competition, platform, or school keeps a style name visible while the Work that once reproduced it has changed or disappeared; and
 - a robotic or AI Music project retains code and recordings while the hardware, runtime, calibration, operator capability, or performance Method can no longer be assembled.
 
-The gain is not a label such as *alive*, *viable*, or *lost*. The gain is knowledge of the relation that currently sustains reproduction, the relation most likely to fail, and the next intervention worth paying for.
+The gain is not a label such as *alive*, *viable*, or *lost*. The gain is a usable account of what sustains reproduction, what dependence matters to the intended horizon, and whether continuation, a targeted change, inquiry or local retirement warrants its burden.
 
 Use direct repertoire, teaching, rehearsal, preservation, reconstruction, instrument-maintenance, software-maintenance, event-production, community-stewardship, deprecation, or retirement Methods without this pattern when they already return the needed continuation decision. Use `MDPE.19` when the project still confuses a record, one occurrence, one bearer, or one provider decision with continuation of a practice.
 
@@ -4936,7 +4936,7 @@ Music and Dance practices are reproduced by arrangements of actual Work, Methods
 
 A visible trace often hides that structure. A school publishes a class schedule, but only one teacher can make the partner practice work. An ensemble owns a score, but its instrument and performer cannot be replaced. A video preserves a choreography while timing, partner response, improvisation, and teaching knowledge have vanished. A platform reports many views while few practitioners can recognize or enact the style. Conversely, a practice can continue under a new label or medium and be wrongly declared lost.
 
-The expensive error is to protect the visible trace while the reproduction arrangement collapses—or to fund a restoration project without finding the relation that actually prevents another representative occurrence. The project needs a bounded test, not a declaration about culture in general.
+The expensive error is to protect the visible trace while the reproduction arrangement collapses—or to fund a restoration project without finding the relation that actually prevents another representative occurrence. The project needs a bounded answer about reproduction, not a declaration about culture in general or a new experiment merely to complete that answer.
 
 ### MDPE.19:2 - Forces
 
@@ -4952,9 +4952,9 @@ The expensive error is to protect the visible trace while the reproduction arran
 
 ### MDPE.19:3 - Solution
 
-Select one continuation promise, describe the arrangement that currently makes representative Work possible, test it under one relevant change, choose a direct domain Method for Work that changes the failed relation, and repeat the test. A later success shows renewed reproduction under the changed arrangement. Say that the selected change repaired or strengthened continuation only when a suitable `C.28` result supports that causal contribution. If the change is not feasible or authorized, return a narrower decision: restore, retire a local arrangement, investigate one uncertainty, or acknowledge bounded loss.
+Select one continuation promise and describe the arrangement that makes representative Work possible. Use the available evidence to return a qualified account, supported continuation, targeted change or local stop. Select a new reproduction test only when its attainable contribution warrants its full design, performer, support, observation and displaced-Work burden. For a selected change, use its direct domain Method; a claimed tested replacement or renewed reproduction requires representative Work under the relevant condition. A later success does not establish the change's causal contribution without the appropriate `C.28` result.
 
-The sections below describe one useful sequence of testing and change. The continuation arrangement itself is a structure of Systems and relations. Several observations, capability-development efforts, and support changes may overlap or repeat.
+The sections below distinguish current assessment, selected testing and change, and their returns. They are not compulsory stages after an adequate current result. The continuation arrangement itself is a structure of Systems and relations; observations, capability development and support changes may overlap or repeat.
 
 #### MDPE.19:3.1 - Choose one continuation promise
 
@@ -4988,9 +4988,9 @@ Do not call every item a carrier. State the relation: a teacher develops capabil
 
 Mark a **continuation-critical relation** when losing or changing it could defeat the stated promise. The first useful result can be as small as “the practice currently depends on one Agent who both teaches the Method and organizes the only recurring event; neither contribution has a tested replacement.”
 
-#### MDPE.19:3.3 - Test present reproduction
+#### MDPE.19:3.3 - Use present reproduction evidence
 
-Observe or arrange representative Work under current conditions. Record:
+Use compatible observations of representative Work under current conditions. Arrange new Work only for a needed worthwhile and obtainable observation. For a claimed observed reproduction, identify:
 
 - who performed and which Systems and relations formed the wider performing whole;
 - the Method and material used;
@@ -5000,11 +5000,11 @@ Observe or arrange representative Work under current conditions. Record:
 
 One successful occurrence supports present enactment. It does not by itself support replacement capacity, transmission, population prevalence, or continuation over the whole horizon.
 
-When no current reproduction can be attempted, use `MDPE.18` and direct historical, archival, or reconstruction Methods to establish whether a restoration trial is worth attempting. Record survival is an input, not a substitute for the trial.
+When no current reproduction can be attempted, keep the current dependence, uncertainty or local retirement conclusion if it answers the receiving question. Use `MDPE.18` and direct historical, archival or reconstruction Methods only when their attainable contribution warrants the whole inquiry burden. Record survival can support a restoration proposal, not a claim that reproduction already occurred.
 
-#### MDPE.19:3.4 - Test one relevant change
+#### MDPE.19:3.4 - Select a useful test of a relevant change
 
-Choose a change that the stated horizon makes plausible. For example:
+First ask whether uncertainty about a credible change affects the current decision and whether useful discrimination is worth its obtainable whole burden. Available evidence can suffice for continuation under the supported conditions while replacement remains unknown. If a test is selected, choose a change relevant to the stated horizon. For example:
 
 - another teacher, performer, partner, organizer, venue, instrument, controller, or software version;
 - a delay before the next occurrence;
@@ -5016,9 +5016,9 @@ Do not remove a legitimate constituent merely to claim independence. If safe wit
 
 Varying context is especially important when literal repetition can conceal cue dependence. A performer who succeeds only with one teacher, one partner, one exercise order, or one room may have learned a narrow context-response relation rather than the capability needed by the continuation promise. `MDPE.17` and Human Capability Development govern stronger transfer claims; this test only reveals whether the continuation decision needs them.
 
-#### MDPE.19:3.5 - Change the relation that failed and test reproduction again
+#### MDPE.19:3.5 - Change the selected relation and test the claimed reproduction
 
-Choose an intervention aimed at changing the continuation-critical relation located by the test. Examples include:
+When a change is warranted, target the continuation-critical relation supported by the current account or a completed test. A supported fragile continuation or authorized local retirement need not first manufacture a failure experiment. Examples of targeted changes include:
 
 | Observed weakness | Relation-specific intervention |
 | --- | --- |
@@ -5030,24 +5030,24 @@ Choose an intervention aimed at changing the continuation-critical relation loca
 | Literal reproduction is infeasible or undesirable | Select a branch that preserves the needed function or relations and state what changed; do not claim uninterrupted identity without evidence. |
 | Support cost or harm exceeds current value | Retire the named class, repertoire membership, service, publication, or support arrangement within authority; preserve useful memory and notify affected Agents when required. |
 
-A capable and authorized Agent performs and tests the selected intervention through Work that enacts the applicable direct teaching, coaching, rehearsal, preservation, maintenance, software, event-production, organization-change, or retirement Method. The continuation decision neither grants permission nor establishes that the intervention occurred.
+When the task includes performing a selected intervention, a capable and authorized Agent uses the applicable direct teaching, coaching, rehearsal, preservation, maintenance, software, event-production, organization-change or retirement Method. The continuation decision neither grants permission nor establishes that the intervention occurred. A warranted proposal can finish before that Work; a claimed tested intervention cannot.
 
-After the intervention, repeat the representative Work under the changed condition. A document, training event, software change, new assignment, or maintenance action is not the continuation result. If representative reproduction now succeeds, report the reproduced Work and the changed arrangement. Do not say that the intervention repaired or strengthened continuation unless a named `C.28` causal-use result supports that contribution. When the current decision only needs to know whether the changed arrangement is usable, keep, monitor, reverse, or revise it without paying for a stronger causal comparison.
+When the requested result is tested post-change reproduction, observe representative Work under the changed condition. A document, training event, software change, new assignment or maintenance action is not that result. If reproduction succeeds, report the Work and changed arrangement; if it fails or remains inconclusive, report that result. Claim that the intervention repaired or strengthened continuation only with a suitable `C.28` basis. A bounded keep, reverse, revise or stop decision can use the weaker supported result without another trial or causal comparison.
 
-#### MDPE.19:3.6 - Return a tested continuation decision
+#### MDPE.19:3.6 - Return the supported continuation account or decision
 
-State the smallest conclusion supported by the test:
+State the smallest conclusion supported by the available basis. Distinguish a qualified current account from a performed test:
 
 | Supported conclusion | Useful decision |
 | --- | --- |
 | Reproduction survived the relevant change | Continue the named arrangement for the stated horizon; retain the test and recheck condition. |
-| Reproduction works but depends on one named relation | Continue with visible dependence and choose whether to strengthen that relation. |
+| Current evidence supports reproduction under one named dependent arrangement | Continue within that supported horizon, retaining the dependence and any unknown replacement. Strengthening the relation or testing replacement is a separate choice. |
 | Reproduction succeeded after the arrangement changed | Keep or continue the arrangement only for the tested scope; monitor the reproduced Work, dependencies, and burdens moved elsewhere. This result alone does not identify what caused the difference. |
 | A `C.28` result supports the selected change's causal contribution | Use the weakest supported contribution claim needed by the decision; preserve the comparison, scope, alternatives, uncertainty, and moved burdens. |
-| Current reproduction failed, but restoration conditions are available | Authorize or propose one restoration trial with its direct Method, performer capability, source basis, support, permission, and stop condition. |
+| Current reproduction failed, but restoration conditions are available | Propose or authorize a restoration trial only if its attainable contribution warrants its full burden; retain the direct Method, performer capability, source basis, support, permission and stop condition. An available but unwarranted trial need not be undertaken. |
 | One provider no longer supports the practice | Retire only that provider's class, event, repertoire membership, service, or publication; make no wider loss claim without evidence. |
 | Observation supports absence in a stated population, place, and period | Acknowledge bounded loss, preserve useful source material, and state what later observation would revise the conclusion. |
-| Evidence cannot distinguish the live alternatives | Choose one observation that can change the decision, or stop if none is feasible. |
+| Evidence cannot distinguish the live alternatives | Finish the qualified account or decision supported across those alternatives. Select one useful attainable observation only when its contribution warrants its whole burden; otherwise keep the uncertainty and withhold claims that depend on resolving it. |
 
 A useful return fits in one paragraph:
 
@@ -5086,15 +5086,15 @@ evidence.
 
 #### MDPE.19:4.2 - Ensemble: the score survives, the active repertoire does not yet
 
-An ensemble owns a score and recording, and one specialist can perform the work on a rare instrument. For one scheduled concert, the current arrangement may be adequate. For a five-year active-repertoire promise, it is not: instrument maintenance, another performer, rehearsal access, and organizer commitment have no tested replacements.
+An ensemble owns a score and recording, and one specialist can perform the work on a rare instrument. In this constructed case, current rehearsal, instrument, performer, permission and venue evidence support one scheduled concert. A replacement trial would displace needed preparation without changing that choice: the ensemble continues the concert arrangement and states its single-specialist dependence. That is a complete current decision, not a tested replacement. For a five-year active-repertoire promise the same basis is insufficient: maintenance, another performer, rehearsal access and organizer commitment have no tested replacements.
 
-The ensemble tests an alternate performer with the maintained instrument and later tests a compatible substitute instrument. The first test exposes missing technique; the second changes timbre beyond the admitted continuity limit. The resulting decision can be to train the alternate performer and maintain the original instrument for two seasons while keeping the substitute as a distinct branch. A score-preservation project alone would not solve either failure.
+For that changed five-year question, suppose a qualified alternate performer, maintained instrument, rehearsal access, permission and preparation window make replacement testing both obtainable and worth its full burden. The ensemble tests an alternate performer with the maintained instrument and later a compatible substitute instrument. The first test exposes missing technique; the second changes timbre beyond the admitted continuity limit. The resulting decision can be to train the alternate performer and maintain the original instrument for two seasons while keeping the substitute as a distinct branch. These failed tests remain failed; a score-preservation project alone would not solve either failure.
 
 #### MDPE.19:4.3 - Archive reconstruction: a new present variant without invented continuity
 
 Film, notes, music, and testimony survive for a partner-dance practice, but no current pair has been observed performing representative Work that realizes its timing, partner response, improvisation, and social use. `MDPE.18` supplies source-traceable evidence and visible gaps. A reconstruction team then uses direct movement-analysis, oral-history, rehearsal, teaching, and performance Methods to prepare a receiving trial.
 
-If a pair performs representative Work, the project can claim a present reconstructed variant within the tested limits. It cannot infer uninterrupted transmission, historical identity beyond the evidence, population recognition, or durable retention. The next continuation test concerns whether another pair and organizer can reproduce the practice after a delay.
+If a pair performs representative Work, the project can claim a present reconstructed variant within the tested limits. It cannot infer uninterrupted transmission, historical identity beyond the evidence, population recognition or durable retention. Testing another pair and organizer after a delay becomes a separate useful inquiry only when the receiving continuation question needs that attainable contribution.
 
 #### MDPE.19:4.4 - A school closes a class; the wider practice remains an open question
 
@@ -5114,8 +5114,8 @@ Recognize successful use when a practitioner can answer four questions without c
 
 1. What Music-or-Dance subject should remain reproducible, and in what representative Work?
 2. Which actual relation currently makes reproduction possible?
-3. What credible change was tested, and what failed or survived?
-4. What intervention or stop decision follows from that observation?
+3. What available basis and limits support the current account? If a change was tested, what failed, survived or remained inconclusive?
+4. What continuation, targeted change, inquiry or local stop follows, and which stronger claims remain unsupported?
 
 Assure the result with the following checks:
 
@@ -5134,15 +5134,15 @@ Assure the result with the following checks:
 
 | Failure | Repair |
 | --- | --- |
-| “The archive proves the practice is alive.” | Use the archive through `MDPE.18`, then test representative Work. |
-| “One expert can still do it, so continuation is secure.” | Test the replacement or context change required by the stated horizon. |
+| “The archive proves the practice is alive.” | Use the archive through `MDPE.18` for what it supports. A claimed present reproduction needs representative Work evidence; a qualified current account need not commission a new trial. |
+| “One expert can still do it, so continuation is secure.” | Bound continuation by that dependence and horizon. Use applicable replacement evidence or select a worthwhile obtainable test when the promised use requires replacement. |
 | “We ran a workshop, so transmission succeeded.” | Use `MDPE.17` for receiving enactment; then test later reproduction if continuation is current. |
 | “Remove every support to prove independence.” | Keep intended constituents; vary only a relation whose change matters to the promised use. |
 | “The ministry, platform, or press recognizes it, so practitioners retain it.” | Use that evidence for visibility or official recognition and inspect practitioner Work separately. |
 | “Our school stopped, so the dance is lost.” | Retire the school's arrangement; make a wider claim only from wider evidence. |
 | “We strengthened continuation by writing a manual.” | Repeat representative Work. Report renewed reproduction under the changed arrangement; claim the manual's causal contribution only with a suitable `C.28` result. |
 | “The practice failed; preserve everything.” | Identify the failed relation and compare a targeted repair, a branch, local retirement, and bounded loss. |
-| “If continuation is fragile, remove the obstacle or continue anyway.” | Name a tested failure and an intervention that changes the failed relation; otherwise no engineering result has been produced. |
+| “If continuation is fragile, remove the obstacle or continue anyway.” | State the supported dependence and horizon. A qualified continuation, targeted repair proposal or authorized local retirement can finish now; a tested repair still requires its actual representative Work and evidence. |
 
 ### MDPE.19:7 - Consequences
 
@@ -5185,14 +5185,14 @@ Refresh a source only when a newer result changes a test, intervention, evidence
 
 | Related result | Use here |
 | --- | --- |
-| `C.36` and `C.36.P` | Supply cultural generation, transmission, recognition, selection, retention, intervention, and loss distinctions. `MDPE.19` specializes them to a Music-or-Dance reproduction test and relation-specific continuation decision. |
+| `C.36` and `C.36.P` | Supply cultural generation, transmission, recognition, selection, retention, intervention and loss distinctions. `MDPE.19` specializes them to a Music-or-Dance continuation account or decision, including a selected reproduction test. |
 | `MDPE.17` | Supplies compatible evidence of receiving enactment and source contribution. One receiving occurrence does not establish later continuation. |
 | `MDPE.18` | Supplies source-traceable memory, lineage alternatives, and missing embodied knowledge. Evidence of memory is not present reproduction. |
 | `MDPE.10` | Supplies compatible performer-capability evidence and its limits. Capability without representative Work is not continuation. |
 | `MDPE.13` | Supplies recognition-and-selection changes when failure lies in how variants become visible, recognized, or selected. |
-| Applicable direct teaching, rehearsal, preservation, maintenance, software, event-production, organization-change, or retirement Method | A capable and authorized Agent performs and tests a selected intervention through Work that enacts the Method. `MDPE.19` uses a compatible observation to update the continuation decision. |
-| `MDPE.20` | Can use the tested present continuation result as one input to competing trajectory hypotheses. |
-| `A.15.7` and `C.11` | Can use the continuation decision when it changes the next action during current Work or one already formed bounded choice. Their decision results remain separate from the later Work. |
+| Applicable direct teaching, rehearsal, preservation, maintenance, software, event-production, organization-change or retirement Method | Governs actual selected intervention Work by a capable and authorized Agent. `MDPE.19` uses compatible observations for a tested result; a continuation account or warranted proposal does not imply that Work was performed. |
+| `MDPE.20` | Can use qualified present continuation evidence and its limits as input to competing trajectory hypotheses; a tested input names the Work actually observed. |
+| `A.15.7`, `C.11.DUA` and `C.11` | Use the continuation result for the current next action; appraise a questionable inquiry demand including its design and whole burden; or resolve an already formed bounded choice, respectively. These decisions remain separate from later Work. |
 | `C.28` | Governs a causal claim that an intervention contributed to later continuation or loss. Observation and succession alone are insufficient. |
 | Systems Engineering results for architecture, configuration, capability, assurance, and support | Supply compatible results when the continuation promise depends on a designed performing whole or supporting arrangement. They do not replace the Music-or-Dance continuity discriminators or representative Work. |
 
@@ -5350,7 +5350,7 @@ Generate alternatives from different parts of the support arrangement. For a dan
 
 For a live-coding Music line, alternatives might change rehearsal access, technical support, performer onboarding, event curation, audience orientation, streaming configuration, or follow-up publication. They are different because they change different relations and can produce different failure modes.
 
-Keep at least one low-cost probe and one structurally different alternative when feasible. `C.17`–`C.19` and `MDPE.16` govern stronger open-ended alternative sets; this pattern needs only enough diversity to avoid treating the first infrastructure idea as inevitable.
+Keep enough genuinely different alternatives to avoid treating the first infrastructure idea as inevitable. A low-cost probe is useful only when its attainable contribution warrants its whole burden; neither its low price nor this comparison requires a further experiment after a sufficient result. `C.17`–`C.19` and `MDPE.16` govern stronger open-ended alternative sets.
 
 #### MDPE.22:3.4 - Select a bounded change with authority and operating continuity
 
@@ -5382,7 +5382,7 @@ what later Music-or-Dance Work or cultural relation was observed; and did the pr
 | “The competition category was added.” | What differences became observable or selectable, what valuable variation became harder to present, and whose Work or burden changed? |
 | “The robot performed.” | Can the configured performing whole, operator capability, maintenance, calibration, safety and event provision support another occurrence? |
 
-A failed, unchanged, or worsened trial is a complete first result when it identifies the tested relation and changes the next decision. If a new weekly event attracts observers but learner pairs do not perform the intended receiving Work, do not call the event a functioning arrangement and do not optimize promotion by default. Record which event relations obtained, the failed receiving Work, any moved burden, and the next discriminating change.
+A failed, unchanged or worsened trial is a complete first result when it identifies the tested relation and informs the current decision. If a new weekly event attracts observers but learner pairs do not perform the intended receiving Work, do not call the event a functioning arrangement or optimize promotion by default. Return the event relations that obtained, the failed receiving Work, moved burden and the supported keep, revise or stop. A next discriminating change is selected only when its feasible contribution warrants its whole burden, including designing the trial.
 
 Later difference does not by itself establish intervention effect. Use `C.28` only when the decision depends on
 the environment change having caused that difference. A reversible keep, revise, or stop decision can often rely
@@ -5391,7 +5391,7 @@ changed arrangement.
 
 #### MDPE.22:3.6 - Keep, revise, branch, reverse, or stop
 
-Return:
+Return the tested result and current decision. Include a causal-use field only for a causal claim; choosing the weaker observed result does not require a separate no-causal-use certificate. A failed or sufficient keep/stop result needs no future experiment field.
 
 ```text
 intended Music-or-Dance Work or cultural relation:
@@ -5399,10 +5399,10 @@ selected surrounding relation and current failure:
 environment-change Work, deciding Agent, authority, and direct Method:
 did the intended surrounding relation obtain?:
 later Music-or-Dance observations, including no change or worsening:
-causal contribution — supported through C.28 | not supported | not tested | not needed:
+if a causal contribution is used: the C.28-supported claim and limits:
 moved burdens, lost alternatives, and uncertainty:
 decision — keep | revise | branch | reverse | stop:
-reopen condition and next observation:
+decision-changing reopen condition; next observation only for a selected further inquiry:
 ```
 
 Call an arrangement *functioning* only when the relations required by its stated use obtain. Call a later
@@ -5420,7 +5420,7 @@ A compact return can read:
 > arrangement for a named partner-Dance use. At the second event, twelve learners attempted uncued
 > partner-responsive Work with varied partners; eight completed it and four still required teacher cues. The event
 > relation obtained and the mixed receiving result was observed under the changed arrangement. Causal contribution
-> was not tested because the next reversible decision only requires two further trials while teaching targets the
+> was not tested. Suppose two further protected trials have available participants and a useful window, and their expected contribution warrants the design, teaching and participant burden; the project selects them to address the
 > remaining cue dependence. This is not formation of a city scene or durable cultural continuation.
 
 ### MDPE.22:4 - Worked Cases
@@ -5444,6 +5444,8 @@ result did not; support burden moved to the teacher and experienced dancers; cau
 or tested. The project keeps one more protected trial, changes the
 teaching Method to include uncued partner recovery, and uses a guided partner rotation. If learner pairs still
 cannot perform representative Work that enacts the Method, it stops claiming that an event opportunity is the current blocker and returns to the capability or Method question.
+
+In a paired completion case, the same failed receiving result is sufficient to stop claiming that adding an event opportunity solves the problem. Another trial would consume the remaining teacher and partner capacity without changing that current stop. The result is complete with the failure, moved burden and bounded decision; it needs neither another intervention nor an account of why causal research was omitted. If a later receiving task needs to distinguish a capability gap from the teaching Method and protected participants, provider capacity, permission and time make a useful contrast attainable, the project may select it. That selection is not an observed success.
 
 #### MDPE.22:4.2 - Algorave needs more than live-coding software
 
@@ -5477,7 +5479,7 @@ Recognize a complete first result when a practitioner can point to:
 4. one authorized environment-change Work occurrence;
 5. whether the intended surrounding relation now obtains;
 6. later Music-or-Dance observations, including failure or worsening; and
-7. a keep, revise, branch, reverse, or stop decision with any causal-contribution claim stated separately.
+7. a keep, revise, branch, reverse or stop decision, with a causal-contribution claim only when used and no mandatory next trial after a sufficient or failed result.
 
 Assure the result by checking that:
 
@@ -5515,7 +5517,7 @@ Positive consequences:
 - hidden provider, venue, instrument, access, recognition, and recurring-Work dependencies become actionable;
 - infrastructure changes can be compared by practitioner result rather than organizational prestige or output count;
 - local experiments can improve a practice without claiming control of cultural evolution; and
-- evidence of failure returns a smaller and more useful next intervention.
+- evidence of failure supports a useful stop or a better-targeted next intervention when one is warranted.
 
 Costs and limits:
 
@@ -5572,7 +5574,7 @@ status alone.
 | `MDPE.20` and `MDPE.24` | Use the tested local environment-change result when forecasting trajectories or testing a new cultural whole. The result establishes neither trajectory nor new whole. |
 | `C.36` and `C.36.P` | Supply the general cultural relations and boundary discipline. `MDPE.22` supplies their Music-and-Dance support-environment specialization. |
 | Systems Engineering, Organization Change Engineering, Operations Management, Organization Administration, Human Capability Development, and direct domain Methods | Use each for its supporting-System, organization, recurring Work, service, human learning, or specialist result; capable Agents perform the Work. `MDPE.22` returns the Music-or-Dance-specific tested environment-change decision without absorbing that Work. |
-| `C.28` | Governs a causal claim that the environment intervention contributed to the observed practice change when that stronger claim matters. |
+| `C.28` and `C.11.DUA` | `C.28` governs a causal contribution used by the decision. `C.11.DUA` appraises whether a questionable further-inquiry demand warrants its attainable whole burden; neither is a compulsory certificate after a completed failed or sufficient result. |
 
 ### MDPE.22:End
 
@@ -7386,7 +7388,7 @@ The selected next Work identifies its robot configuration, tempo conditions, obs
 
 A group of organizers observes that a social-dance variant appears less often at their event and considers declaring it lost or launching a restoration programme. Their event trace does not establish population-level loss, and their organizational authority may not extend beyond the event.
 
-The lawful local result can state that the continuation question is current and identify `MDPE.19` for a representative continuation test, select `probe again` with one bounded receiving-enactment observation, or choose a local event experiment under the organizers’ actual authority. It cannot be “the community will restore the style” unless a named chooser, authority, Work, population, and later cultural relations support that claim.
+The lawful local result can identify `MDPE.19` for a qualified account of the supported continuation and its limits, including a decision to continue only the current event or retire that local arrangement. A representative continuation test, `probe again` with a receiving-enactment observation, or a local event experiment is a separate choice when its obtainable contribution warrants its whole burden under the organizers’ actual authority. The result cannot be “the community will restore the style” unless a named chooser, authority, Work, population and later cultural relations support that claim.
 
 #### MDPE.7:5.6 - Direct-decision and live-branch stops
 

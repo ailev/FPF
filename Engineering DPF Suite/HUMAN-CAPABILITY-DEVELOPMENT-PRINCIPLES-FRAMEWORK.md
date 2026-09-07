@@ -165,8 +165,8 @@ The entries below are selected examples, not a catalogue or coverage boundary. B
 ### HCD-CULTURE - Continue or change one observable development-culture relation
 
 - **Situation:** Providers or practitioners say that a school, standard, syllabus, rollout, community, repository or value has become “the culture,” but the receiving relation and later consequence are unclear.
-- **Question:** Which exact HCD practice value is generated, transmitted, received, recognized, selected, remembered, retained or lost in this bounded population, and what authorized observation can change the decision?
-- **First useful result or honest blocker:** A truthful enacted-Method or candidate/practice account, one testable predicate, carriers and authority, two serious hypotheses, a bounded intervention, later observations, a separate capability consequence, and `continue`, `revise`, `branch`, `replace`, `stop` or `unknown`.
+- **Question:** Which exact HCD practice value is generated, transmitted, received, recognized, selected, remembered, retained or lost in this population? What does the available basis support, and is a new observation worth its obtainable work for this decision?
+- **First useful result or honest blocker:** A truthful enacted-Method or candidate/practice account and a supported `continue`, `revise`, `branch`, `replace`, `stop` or `unknown`, with the predicate, current evidence and scope, relevant uncertainty and separate capability limits. A selected new inquiry needs a feasible, worthwhile contribution and the authority and protection for its Work; it is not a universal completion condition.
 - **Start with:** [HCD.17](#hcd-17), from a bounded population, place and period and an honest Method/candidate branch.
 - **Stop or return:** Stop at the bounded cultural decision or exact missing value. Publication, institutional selection, attendance, community activity, capability and causal effect do not fill one another.
 
@@ -211,7 +211,7 @@ HCD.18 and HCD.19 address a different immediate object: the instructional materi
 
 HCD.11 returns observations and a bounded capability inference. HCD.12 tests a material unfamiliar variation. HCD.13 compares delayed performance and support conditions. HCD.14 uses an affected observation to revise a development assumption. A correct first attempt, a correction after feedback, learning from a newly supplied source, delayed performance, transfer, retention and a causal development effect are separately reportable.
 
-HCD.15 configures a continuing arrangement that reopens from material Work or evidence changes; it is not a calendar, performed development Work or achieved capability. HCD.16 returns a bounded disposition for one exact admitted Method or status-preserved candidate and human-development claim; it neither admits nor universally retires a Method. HCD.17 returns a bounded HCD cultural-continuation account and decision from one testable predicate, actual carriers and authority, competing hypotheses and later observations; a school, standard, carrier, event or community label is not the culture.
+HCD.15 configures a continuing arrangement that reopens from material Work or evidence changes; it is not a calendar, performed development Work or achieved capability. HCD.16 returns a bounded disposition for one exact admitted Method or status-preserved candidate and human-development claim; it neither admits nor universally retires a Method. HCD.17 returns a supported current cultural account and continuation decision, or selects a worthwhile attainable inquiry. It preserves the testable predicate, actual subjects, scope, evidence, and needed authority; a school, standard, carrier, event or community label is not the culture.
 
 Distinguish instructional events, learner activity, learning outcomes, later transfer, and job performance, and use corresponding evidence for claims about each. A MethodDescription, course completion, self-report, platform prediction, assisted score, published schedule or reserved provider hours can inform a bounded question. A capability, transfer, retention or effect claim needs a justified inference from appropriate observations.
 
@@ -4041,9 +4041,9 @@ G.5 declares a selector-facing shortlist, ranked shortlist, joint-use set, hando
 
 **Use this when** a bounded provider, learner, practitioner, or mixed Human Capability Development population intends to continue or change one observable way in which HCD practice is generated, transmitted, enacted by receivers, recognized, selected, remembered, retained, or lost.
 
-Begin with the HCD Discipline or a smaller named practice, the population, place and period, a truthful admitted-Method or candidate/observed-practice branch, and one testable cultural predicate. The first useful result is a current enacted-culture account or an honest candidate/practice account, one bounded `continue`, `revise`, `branch`, `replace`, `stop`, or `unknown` decision, later observations, retained alternatives, and explicit evidence gaps.
+Begin with the HCD Discipline or a smaller named practice, the population, place and period, a truthful admitted-Method or candidate/observed-practice branch, and one testable cultural claim. The first useful result is a supported current enacted-culture or candidate/practice account and a bounded `continue`, `revise`, `branch`, `replace`, `stop`, or `unknown` decision. Keep the evidence limits, uncertainty, and alternatives that change that use. A new intervention, second hypothesis, or later observation is not required merely to complete the account.
 
-What this buys in practice is a change small enough to observe. Providers and practitioners can improve one transmission, receiving-use, recognition, selection, memory, retention, generation, or loss relation without claiming field-wide adoption, permanent culture, or improved capability from a carrier or label.
+Providers and practitioners can continue a sufficiently supported practice or select a useful change to one transmission, receiving-use, recognition, selection, memory, retention, generation, or loss relation. Neither decision turns a carrier or label into field-wide adoption, permanent culture, or improved human capability.
 
 Do not use HCD.17 for one person's capability, one Method introduction, a learning product's curriculum or carrier choice, generic cultural-evolution modeling, Method-Engineering culture, organization-holder working culture or change, or a publication and standard history alone. Return those questions to HCD.11–HCD.16, C.36, ME.17, OCE, the Learning Product owner, or the direct publication and institutional owner.
 
@@ -4053,7 +4053,7 @@ Human Capability Development is carried through teaching and practice Work, prov
 
 The label hides the relation. A document may have been generated and published without being received. A practice may be taught without being selected, recognized, or retained. A mandatory field may be completed without actual development Work. A community may be active without changing the human contribution later relied on.
 
-Deliberate change then becomes ceremonial: publish a new carrier, run an event, or announce adoption and infer that the culture and capability changed. HCD.17 instead makes one cultural predicate, population, authority, competing explanation, intervention, later observation, and human-development consequence separately inspectable.
+Deliberate change then becomes ceremonial: publish a new carrier, run an event, or announce adoption and infer that culture and capability changed. The opposite error is to require another experiment after the current bounded continuation is already warranted. HCD.17 separates the cultural claim, population, authority, available evidence, and human-development consequence; it selects a new comparison or intervention for what it can contribute to the receiving use.
 
 ### HCD.17:3 - Forces
 
@@ -4065,9 +4065,13 @@ Deliberate change then becomes ceremonial: publish a new carrier, run an event, 
 | Local action and population scope | One authorized provider slice can change its arrangement, while it rarely controls a field or every participant. |
 | Culture and human capability | A cultural relation may matter because later capability matters, while neither observation proves the other or their causal link. |
 | Timely learning and retention | Receiving use can be observed soon, while long-term retention and loss require later intervals. |
-| Intervention and explanation | A bounded reversible change is useful, while at least two serious hypotheses must survive until a discriminating observation. |
+| Continuation and explanation | Sufficient current grounds may warrant continuing while explanation remains uncertain. Credible rivals and an obtainable discriminating inquiry matter when they can change the decision enough to warrant their burden. |
 
 ### HCD.17:4 - Solution
+
+First state what the available basis supports for the named provider, learner, or practitioner population and whether to continue, change, narrow, or stop. A bounded current account can finish with the uncertainty and human-capability limits relevant to its receiving use.
+
+Select a new observation or intervention when its attainable contribution warrants the full effort, delay, participant burden, and displaced development or protective work. Include the cost of proposing and designing it. An unselected inquiry creates no empty result field or separate no-experiment explanation; retain the substantive grounds in the same account when a later recipient needs them. Actual claims of tested change, later receiving use, retention, or capability keep their own evidence conditions.
 
 #### HCD.17:4.1 - Bound the HCD practice, population, and decision
 
@@ -4107,45 +4111,45 @@ For every claimed actual Work occurrence, identify the performer and apply the d
 
 Select a structure or architecture only when its organization changes the cultural decision. Presence in the carrier list does not prove transmission, receiving use, selection, retention, or capability.
 
-#### HCD.17:4.5 - Recover intervention authority and protected conditions
+#### HCD.17:4.5 - Recover the authority and protection needed by the intended action
 
-Name the change Agent and the exact assignment, permission, or authority predicate, participants, permitted action, scope, positive basis, and protected conditions. Ownership, expertise, sponsorship, project position, assignment, permission, and authority are different.
+For an intended continuation or change that requires authorization, name its Agent and exact assignment, permission, or authority predicate, participants, permitted action, scope, positive basis, and protected conditions. A factual account creates no intervention to authorize. Ownership, expertise, sponsorship, project position, assignment, permission, and authority are different.
 
-Return `missing-change-authorization` when the proposed intervention exceeds the recovered scope. Keep organization change, employment, clinical care, provider service, platform administration, learning-product design, privacy, safety, and target-domain authority with their direct owners.
+Return `missing-change-authorization` when the proposed intervention exceeds the recovered scope, without discarding independently supported cultural claims. Keep organization change, employment, clinical care, provider service, platform administration, learning-product design, privacy, safety, and target-domain authority with their direct owners.
 
 State participation, consent, privacy, access, workload, exclusion, accessibility, service-pressure, and restoration conditions that matter. Stop or revert when the intervention breaches them.
 
 #### HCD.17:4.6 - Keep human capability and later Work as a separate consequence
 
-Name the intended human capability and later-Work consequence, baseline, observation, evidence window, and uncertainty separately from the cultural predicate. Use HCD.11, HCD.12, HCD.13, or qualified equivalents for performance, unfamiliar transfer, delayed performance, and support dependence.
+When human capability or later Work is part of the receiving claim, keep its subject, available observation, relevant baseline, evidence window, and uncertainty separate from the cultural predicate. Distinguish an observed current consequence from an expected benefit of a proposed change. Use HCD.11, HCD.12, HCD.13, or qualified equivalents for the claimed performance, unfamiliar transfer, delayed performance, or support-dependence result; a cultural account creates no new capability-development or assessment task by itself.
 
 A positive cultural predicate can coexist with no demonstrated capability change. A favourable capability observation can coexist with an unknown transmission or selection relation. If the decision relies on the cultural intervention causing the consequence, obtain a suitable causal result; timing or co-occurrence is insufficient.
 
-#### HCD.17:4.7 - Compare hypotheses and select one informative intervention
+#### HCD.17:4.7 - Settle the continuation and select inquiry only when it contributes
 
-Keep at least two serious non-equivalent hypotheses about how the predicate obtains or fails. Examples include carrier sufficiency versus coached feedback, formal selection versus local workaround, community participation versus supervisor access, or remembered description versus repeated receiving Work.
+Retain credible hypotheses whose differences could change this continuation or warranted claim. Examples include carrier sufficiency versus coached feedback, formal selection versus local workaround, community participation versus supervisor access, or remembered description versus repeated receiving Work. Do not invent a second explanation to reach a fixed count. An explanation may remain unresolved while the current bounded practice is worth continuing.
 
-For each hypothesis, state an observation that would be more likely if it were true. Compare retaining the current arrangement, changing one Method/support/assessment/carrier relation, branching for a bounded population, replacing the means, and stopping or reverting where material.
+Compare retaining the current arrangement, changing one Method/support/assessment/carrier relation, branching for a bounded population, replacing the means, and stopping or reverting where material. Use sufficient existing local judgement and observations for the present decision. Keep the population and evidence limits that matter; no stable population distribution or complete cultural history is required for a narrower claim.
 
-Select one authorized, reversible, proportionate intervention and one later observation that can discriminate the live hypotheses. State burden, protected conditions, negative case, and response rule. Return `unknown` when the observation cannot discriminate; do not force a positive cultural verdict.
+When a material uncertainty, changed receiving condition, or protective concern makes inquiry useful, identify what an attainable observation could change. Compare its whole contribution and burden through C.11.DUA when that demand needs appraisal; use C.11 for an already formed bounded choice and the direct HCD or field Method for the selected inquiry. Recover participants, provider capability, access, resources, opportunity window, and authorization that determine feasibility. For a selected intervention, retain reversibility, burden and protection limits, the discriminating expectation, negative case, and response rule. `unknown` withholds the unresolved claim, not an independently supported continuation. An unavailable or unhelpful trial does not become a completion task.
 
-#### HCD.17:4.8 - Observe later claims and return the bounded decision
+#### HCD.17:4.8 - Return the supported decision and distinguish any later result
 
-At the named later interval, apply the same predicate to the stated participants or an explicitly changed population. Record positive, negative, inapplicable, unknown, or missing-information without assuming that a repeated label identifies the same relation occurrence.
+Return the supported current account and decision with the grounds and limits needed to use them. When the task includes a tested change or claims a later relation, use the actual Work and observations at the named interval, applying the same predicate to the stated participants or an explicitly changed population. Record positive, negative, inapplicable, unknown, or missing-information without assuming that a repeated label identifies the same relation occurrence. A recommendation to test is not that later result.
 
-Return:
+When the account must be retained or handed on, use only the positions its actual claims and receiving use need:
 
-| Position | Required content |
+| Position | Content when used |
 | --- | --- |
 | Boundary | HCD Discipline or smaller practice, population and participant meanings, place, period, later Work, qualification window and decision. |
 | Subject branch | Admitted Method and grounded actual enactment, or candidate/observed practice with honest materials and Work facts. |
 | Cultural claim | One value and predicate, applicability, positive and discriminating negative cases, evidence, intervals and gaps. |
 | Participating subjects | Actual carriers, descriptions or candidate materials, publications, Systems, Work, assignments, permissions, authority, access and support relations relied on. |
-| Intervention | Change Agent and authority, two serious hypotheses, alternatives, authorized reversible change, burden, protection, and discriminating observation. |
-| Separate consequence | Intended human capability and later-Work consequence, HCD evidence, uncertainty and causal non-use. |
+| Selected intervention or inquiry | Only when selected: credible action-changing hypotheses, alternatives, attainable contribution, whole burden, feasible work, needed authority, reversible change, protection, discriminating observation, and response. No fixed hypothesis count or compulsory new intervention. |
+| Separate consequence | The human-capability or later-Work claim actually used, its own HCD evidence and uncertainty, or a clearly proposed benefit; causal reliance needs its separate basis. |
 | Decision | `continue`, `revise`, `branch`, `replace`, `stop`, or `unknown`; retained alternatives, population and authority limits, return owners and reopen conditions. |
 
-Return the exact missing Method status, Work, predicate, participant, evidence, authority, provider, specialist, or later-observation result when the decision is blocked. A supported cultural claim does not fill another missing claim by proximity.
+Return the exact missing Method status, Work, predicate, participant, evidence, authority, provider, specialist, or later-observation result when it blocks the receiving decision or claimed use. Withhold only that dependent result and retain independently supported practice. A supported cultural claim does not fill another missing claim by proximity.
 
 ### HCD.17:5 - Archetypal Grounding
 
@@ -4161,14 +4165,16 @@ The primary cultural value is **receiving use before a cue supplies the alternat
 
 Keep participating subjects separate: the candidate account, scenario card, paired cases, feedback records, source set, AI configuration, provider and practitioner Work, coaching Work, review forum, assignments, permissions, specialist access, and later observation. The current replay stipulates authority only for one provider steward to branch the practice arrangement for this provider slice; it grants no authority over ReleaseWork-R9, employment, safety, the wider organization, or the field.
 
-Two hypotheses remain live:
+For the unchanged provider arrangement, stipulate that available records of repeated fresh practice already support this bounded receiving-use predicate for the named practitioners, after the combined preparation and coaching. Their current participation, access, and protected conditions remain adequate. Return `continue` for that arrangement: another comparison would take provider time from its useful operation without changing this decision. The account leaves carrier-only transmission, long-term retention, wider prevalence, and ReleaseWork-R9 capability claims open. These stipulated records are not evidence that the real E27 or provider Work occurred.
+
+Now consider a proposal to use the materials with fewer coached sessions. The available combined-support evidence does not settle that receiving condition. A small protected preparation session with the same provider slice is authorized and obtainable before the decision; its outcome can determine whether to use the reduced-coaching arrangement or retain the current support, and that contribution warrants its burden. Two hypotheses are material to this selected comparison:
 
 | Hypothesis | Discriminating expectation |
 | --- | --- |
 | `H-E27-CARRIER` — the revised scenario card and paired cases are sufficient for receiving use | After self-study and carrier access but before coaching, the practitioner applies the counter-hypothesis move on a fresh case. |
 | `H-E27-COACH` — criterion-bearing coached feedback supplies the decisive discrimination | Pre-coaching fresh cases remain cue-dependent, while equivalent post-coaching cases show independent first use. |
 
-Return a bounded `branch` decision: preserve the current provider arrangement, add the revised candidate materials only for one authorized slice, and observe one equivalent fresh uncued case before and after coaching while recording help, critical errors, trace, specialist return, burden, and participant conditions. Stop on missing criteria, unsafe practice, absent specialist access, excessive burden, or damage to a protected contribution.
+For the changed receiving condition, return a bounded `branch` proposal: preserve the current provider arrangement, add the revised candidate materials only for the authorized slice, and select one equivalent fresh uncued case before and after coaching. The direct practice Method records actual help, critical errors, trace, specialist return, burden, and participant conditions when the trial is performed. The proposal completes the decision to try the branch, not a claimed trial or capability result. Stop on missing criteria, unsafe practice, absent specialist access, excessive burden, or damage to a protected contribution.
 
 The later result remains conditional:
 
@@ -4178,25 +4184,25 @@ The later result remains conditional:
 | Positive cases occur only after coaching | Revise the carrier-sufficiency claim and retain the combined-support branch; do not call the card alone culturally transmitted. |
 | Corrected output occurs but the predicate remains negative | Preserve any practice benefit separately; receiving use remains unproved. |
 | Burden rises or trace/specialist return deteriorates | Stop, revert, or redesign the branch even if the target move appears more often. |
-| No authorized later observation is available | Return `unknown` with the missing observation and authority; publication or attendance cannot fill it. |
+| No authorized later observation is available | Withhold the proposed branch's later receiving-use claim and return the exact blocked inquiry. Retain the independently supported current arrangement; publication or attendance cannot fill the missing later evidence. |
 
 Any later capability claim requires its own HCD.11–HCD.13-compatible evidence. Any causal claim that the branch produced capability change requires a separately justified causal use.
 
 #### HCD.17:5.2 - CDIO edition history is not enacted HCD culture
 
-CDIO version history can support bounded claims about formal generation, edition, optional-standard introduction, institutional selection, and publication. For one engineering programme, an HCD.17 enacted-culture claim still needs the provider and receiving population, exact admitted Method and actual HCD Work or an honest candidate branch, one predicate, carriers, authority, place and period, later observation, human-capability consequence, and gaps.
+CDIO version history can support bounded claims about formal generation, edition, optional-standard introduction, institutional selection, and publication. For one engineering programme, an HCD.17 enacted-culture claim needs the actual provider and receiving population, an admitted Method and HCD Work or an honest candidate branch, one cultural predicate, the participating subjects and evidence for its period, and the capability limits that matter. A claim of later retention needs the corresponding later evidence; a new intervention needs its own authority and useful receiving question.
 
 When those values are absent, return the supported edition or institutional history and the missing enacted-culture evidence. Do not infer “CDIO culture,” prevalence, retention, capability, or effectiveness from the standard or curriculum label.
 
 #### HCD.17:5.3 - Community activity is one contribution, not the cultural result
 
-An online community can supply access, experience exchange, facilitation, coordination and professional support. Those contributions may participate in a transmission or recognition hypothesis. Membership, posts, platform availability, or a favourable survey do not establish the cultural predicate, individual capability, long-term retention, or causal effect. Observe the named receiving or later-practice relation directly.
+An online community can supply access, experience exchange, facilitation, coordination, and professional support. Those contributions may participate in a transmission or recognition hypothesis. Membership, posts, platform availability, or a favourable survey do not establish the cultural predicate, individual capability, long-term retention, or causal effect. Use available evidence for the named receiving or later-practice claim, withhold unsupported stronger claims, and obtain another observation only when its receiving contribution warrants the feasible work.
 
 ### HCD.17:6 - Bias-Annotation
 
-Institutional prestige and visible carriers make formal editions, standards, schools, repositories, and events easy proxies for culture. Recover the exact value, participants, predicate, positive and negative cases, and later observation before relying on the label.
+Institutional prestige and visible carriers make formal editions, standards, schools, repositories, and events easy proxies for culture. Recover the exact value, participants, predicate, positive and negative cases, and available evidence before relying on the label. Later retention or tested-change claims need the observations they assert.
 
-Success in one provider slice creates a scale bias: local receiving use is retold as organizational or field adoption. Preserve the population, period, authority, and unobserved links. Conversely, absence of a field-wide study does not block an honestly bounded local probe.
+Success in one provider slice creates a scale bias: local receiving use is retold as organizational or field adoption. Preserve the population, period, authority, and unobserved links. Conversely, absence of a field-wide study does not block an honestly bounded current account, continuation, or useful local probe.
 
 ### HCD.17:7 - Conformance Checklist
 
@@ -4205,9 +4211,9 @@ Success in one provider slice creates a scale bias: local receiving use is retol
 - One cultural value and predicate has applicability, a positive case, a discriminating negative or failed case, evidence, interval, and gaps.
 - Generation, transmission, receiving use, recognition, selection, memory, retention, and loss are separate claims rather than one adoption score.
 - Actual carriers, materials with status, publications, Systems, Work, assignments, permissions, authority, access, provider and support relations are named only when relied on.
-- The change Agent and exact authority, scope, positive basis, protection, burden, reversibility, stop, and restoration conditions are explicit.
-- At least two serious hypotheses, their different predictions, one informative intervention, and one decision-changing later observation are present.
-- Human capability and later-Work consequence use their own evidence and remain separate from the cultural predicate and any causal claim.
+- The intended action's needed authority, scope, positive basis, protection, and burden are explicit. A selected intervention also retains reversibility, stop, and restoration conditions; a current account creates no change to authorize.
+- Sufficient current grounds can complete the bounded account or continuation. Credible action-changing rivals and relevant uncertainty remain without a fixed hypothesis count. A selected observation or intervention has an attainable contribution worth its full burden, including design, and feasible participants, capability, access, resources, window, and authorization.
+- Claimed human capability, later Work, tested change, or later retention use their own evidence. Missing later observations withhold only the dependent claims; cultural, capability, and causal conclusions remain separate.
 - The result is `continue`, `revise`, `branch`, `replace`, `stop`, or `unknown`, with retained alternatives, population and authority limits, exact returns and reopen conditions.
 - Organization, Method Engineering, learning-product, clinical, employment, safety, platform, provider, publication, and target-domain questions retain their owners.
 
@@ -4220,17 +4226,17 @@ Success in one provider slice creates a scale bias: local receiving use is retol
 | “The cards were used, so the candidate Method was enacted.” | Preserve candidate status and independently establish Method admission and actual enactment before using that branch. |
 | “Capability improved, so transmission occurred.” | Assess human capability and the cultural predicate separately; open causal evaluation only when the decision relies on the link. |
 | “One team result proves field adoption.” | Keep population, place, period, predicate, authority, and wider gaps visible. |
-| “Change the carrier and see whether activity rises.” | Keep at least two hypotheses and choose an observation that discriminates them rather than counting activity. |
+| “Change the carrier and see whether activity rises.” | Compare credible explanations and use the named cultural predicate. Select a discriminating observation only when it can improve the receiving decision enough to warrant its feasible work. |
 
 ### HCD.17:9 - Consequences
 
-Providers and practitioners gain a bounded way to continue or change HCD culture without making the word “culture” carry Method status, Work, publication, authority, capability, and effect at once. Local interventions become reversible and informative; negative, inapplicable, unknown, and missing-information cases remain usable.
+Providers and practitioners gain a bounded way to continue or change HCD culture without making the word “culture” carry Method status, Work, publication, authority, capability, and effect at once. A sufficiently supported current account or continuation can finish now. Selected interventions remain reversible and informative, and negative, inapplicable, unknown, and missing-information results remain usable.
 
-The cost is narrower claims and later observation. A visible standard or community may support only one institutional or carrier fact. Long-term retention and loss require time, and a useful human-capability result may still leave the cultural explanation uncertain.
+The cost is narrower claims and the observations required by the claims actually made. A visible standard or community may support only one institutional or carrier fact. Long-term retention and loss require time, and a useful human-capability result may still leave the cultural explanation uncertain.
 
 ### HCD.17:10 - Rationale
 
-Culture becomes actionable when one value moves through a testable relation among bounded participants and when a later observation can change a decision. HCD.17 adds the HCD-specific provider, learner, practitioner, development-Work, human-capability, and later-Work positions needed after the generic C.36 question is recognized.
+Culture becomes actionable when a bounded account of one value and its cultural relation supports a continuation decision. A later observation is useful when it can change that decision or a warranted claim, not because an account has an unfilled slot. HCD.17 adds the provider, learner, practitioner, development-Work, human-capability, and later-Work distinctions needed for this HCD question after C.36 is recognized.
 
 The truthful subject branch permits learning from candidate and source-described practice without laundering Method status. Separating carriers, authority, cultural claim, capability consequence, rival hypotheses, and causal reliance lets a team improve one relation while leaving unproved links open.
 
@@ -4238,7 +4244,7 @@ The truthful subject branch permits learning from candidate and source-described
 
 **Working question:** how should providers and practitioners deliberately continue or change one HCD cultural relation without treating a school, carrier, event, or formal adoption as the culture?
 
-**Selected line — adopt and adapt.** Current C.36 supplies the best transdisciplinary problem answer: begin with a bounded collective or Discipline activity, variants and actual transmission, recognition, selection, memory or mediation relations, then change only the relation for which a proposal, Work, evidence and authority are current. Singh and colleagues' [review beyond “social learning”](https://doi.org/10.1098/rstb.2020.0050) is the best-known direct source candidate for the HCD evidence split because it distinguishes several transmission processes and warns that individual acquisition does not prove population continuation. HCD.17 adapts this line in §§4.1–4.8 by adding truthful HCD Method/candidate branches, provider and learner Work, separate human-capability consequence, and an authorized discriminating intervention. The review supplies no HCD intervention recipe, population capability, or E27 result.
+**Selected line — adopt and adapt.** Current C.36 supplies the transdisciplinary move: begin with a bounded practice and the cultural relations supported by the available basis, then continue or select a useful change within evidence and authority. Singh and colleagues' [review beyond “social learning”](https://doi.org/10.1098/rstb.2020.0050) distinguishes several transmission processes and warns that individual acquisition does not prove population continuation. HCD.17 adapts that evidence split with truthful HCD Method/candidate branches, provider and learner Work, and a separate human-capability consequence. The review supplies no HCD intervention recipe, population capability, or E27 result; a new discriminating inquiry earns its place from the actual receiving use.
 
 The serious default is rollout culture: publish a curriculum or standard, train people, count participation, and call later activity adoption. It is administratively cheap but cannot distinguish carrier presence, receiving use, recognition, selection, memory, retention, capability, or causal effect. HCD.17 rejects that compression while retaining each supported publication, institutional-selection, teaching, participation, or community fact under its actual boundary.
 
@@ -4254,7 +4260,7 @@ HCD.14 may supply a compatible revision hypothesis as one proposed cultural vari
 
 HCD.11, HCD.12, and HCD.13 or qualified equivalents govern the separate human-capability, unfamiliar-transfer, delayed-performance, and support-dependence observations. HCD.17 does not infer them from a cultural predicate.
 
-C.36 governs the generic cultural-evolution question and relation boundary. HCD.17 supplies the HCD provider, learner and practitioner population, actual development Work or truthful candidate branch, intended human capability and later-Work consequence, domain intervention, and evidence return.
+C.36 governs the generic cultural-evolution question and relation boundary. HCD.17 supplies the provider, learner and practitioner population, actual development Work or truthful candidate branch, the human-capability and later-Work claims actually used, and a bounded continuation or selected intervention. C.11.DUA appraises a questionable inquiry or requirement; C.11 governs an already formed bounded choice. Neither supplies domain inquiry design, Work, evidence, or permission.
 
 ME.17 governs Method-Engineering culture, including its admitted-Method and candidate branches for that Discipline. HCD.17 does not copy ME culture by changing the domain noun; it uses the same status and evidence discipline for a different working problem and first result. Method admission, descriptions, variants, provenance, introduction, fit, worth and generic currentness remain with ME.
 
@@ -4921,7 +4927,7 @@ The intended later-Work family is independent review of AI-assisted mixed physic
 | --- | --- | --- |
 | HCD.15: what keeps development responsive? | A continuing arrangement reopens after a material release-Method, configuration, AI, critical-error, qualification, source, provider or support change. It supplies representative cases, first-attempt capture, current sources, permitted AI conditions, coaching and specialist access, reassessment, burden limits, owners and stops. | A trigger or plan is not performed development Work, later Work, participation, achieved capability or causal effect. |
 | HCD.16: which repertoire claim changes? | Preserve the admitted trace-and-specialist-return Method only under the constructed status and conditions; retire “assisted practice accuracy demonstrates independent learning” for this use; keep cue-led and counter-hypothesis-first candidate accounts as candidates; return `further probe` for matched unfamiliar cases. | The HCD disposition neither admits nor universally retires a Method, creates a variant, proves fit or worth, or transfers AI findings from customer support, consulting or school mathematics to release engineering. |
-| HCD.17: which cultural relation may be changed? | Bound the population to one provider slice and assigned practitioners in 2026-Q4; test receiving use of a counter-hypothesis before a cue supplies it; compare carrier-sufficient and coached-feedback hypotheses; return `branch` with one fresh pre/post-coaching observation and a burden check. | Candidate use is not Method enactment. The branch establishes no organization- or field-wide adoption, long-term retention, ReleaseWork-R9 consequence, capability change or causal effect. |
+| HCD.17: what cultural continuation is warranted? | Bound the provider slice and assigned practitioners in 2026-Q4. In HCD.17's unchanged constructed condition, available fresh-practice records support receiving use before a cue, so return `continue` for the combined support without a new experiment. For the reduced-coaching proposal, that basis is insufficient; the authorized, feasible and worthwhile pre/post-coaching contrast supports a `branch` proposal and a selected trial, not a performed result. | Candidate use is not Method enactment. Both branches retain their exact scope and establish no organization- or field-wide adoption, long-term retention, ReleaseWork-R9 consequence, capability change or causal effect. |
 
 The four direct relations remain conditional. The HCD.14 hypothesis can inform HCD.15 or HCD.17; observed HCD.15 use can inform HCD.16; and an HCD.16 disposition can inform HCD.17. A receiver must still verify holder or population, later Work, status, conditions, evidence window and authority. A stale, differently scoped or absent result is replaced only by a qualified direct substitute or an exact missing-result return, never by PatternID order.
 
@@ -5034,7 +5040,7 @@ HCD.* is the Human Capability Development PatternID namespace. Numbers are stabl
 | HCD.14 | Available: revise the development arrangement from evidence. | Specific revision hypothesis, test, cost, protected conditions and conditional update. |
 | HCD.15 | Available: sustain continuing Human Capability Development. | Holder-specific continuing arrangement with triggers, contributions, evidence, burden, authority, re-entry and stops, or an exact blocker. |
 | HCD.16 | Available: develop and refresh HCD Methods. | Exact Method/candidate and claim disposition—`adopt`, `revise`, `branch`, `retire` or `further probe`—for one bounded repertoire use. |
-| HCD.17 | Available: deliberately continue and change HCD culture. | Truthful enacted/candidate account, testable predicate, bounded intervention and `continue`, `revise`, `branch`, `replace`, `stop` or `unknown`. |
+| HCD.17 | Available: deliberately continue and change HCD culture. | Truthful enacted/candidate account and bounded `continue`, `revise`, `branch`, `replace`, `stop` or `unknown`; current grounds can suffice, and a new intervention is conditional on its useful attainable contribution. |
 | HCD.18 | Available: construct a characterization and evaluation specification for instructional material. | Task-derived denominator, selected properties and scales, evidence and missingness, contrasts, result meanings and continuation; or a compatible specification to use directly. |
 | HCD.19 | Available: evaluate instructional material through representative reader work and diagnose its repair. | Qualified material contribution, complete selected-coordinate disposition, limiting defect and repair reach, actual assistance and affected-use test; or a precise evidence or criterion gap. |
 

@@ -117,8 +117,8 @@ The framework contains seventeen pattern bodies. The thirteen entries below are 
 ### OCE-PARTICIPATE - Match a participation or working-culture intervention to its cause
 
 - **Situation:** A needed contribution is avoided, distorted, late or burdensome despite nominal support for the change.
-- **Question:** Which supported cause changes the next action, and what intervention can improve actual participation or recurrent local practice?
-- **First useful result or honest blocker:** A cause-sensitive intervention and bounded consequences, or an unresolved rival, professional result or protection gap.
+- **Question:** Which supported conditions or surviving explanations change the next action, and what response can improve actual participation or recurrent local practice?
+- **First useful result or honest blocker:** A warranted response, with bounded consequences when performed, or the unresolved explanation, professional result or protection gap. A response robust across surviving rivals can finish on sufficient current grounds; a new contrast is selected only when its contribution warrants its obtainable work.
 - **Start with:** OCE.10 and one concrete work episode. Obtain the relevant access, authority, workload, learning or other result from its responsible practice.
 - **Stop or return:** Do not treat a valid objection as resistance, attendance as capability, or one meeting as changed culture. Use OCE.17 for the continuation of OCE practice among practitioners.
 
@@ -2114,13 +2114,13 @@ Use the current SYSE.11 bounded System-use result and ME.16 introduction result 
 > **Type:** Method pattern
 > **Status:** Eternal alpha
 >
-> **Primary working result:** a cause-sensitive intervention and its bounded participation or working-culture consequences, or the exact unresolved explanation, professional result or stop.
+> **Primary working result:** a warranted participation or working-culture response, its bounded consequences when performed, or the exact unresolved explanation, professional result or stop. A response can be supported across surviving explanations without claiming a unique cause or creating a new study.
 
 ### OCE.10:0 - Use This When
 
 People nominally support an organization change, but the needed contribution is avoided, distorted, late or unnecessarily burdensome. Begin with one concrete episode: what contribution was expected, what happened when a participant tried, and what made another action more reasonable or safer?
 
-Use OCE.10 to investigate the organization-side conditions, choose an intervention matched to the supported cause, perform it within its protection and authority limits, and observe the receiving work. The target-working-culture branch concerns how local ways of contributing, challenging and helping are learned, recognized and repeated. It is not a programme for changing people's personalities.
+Use OCE.10 to investigate the organization-side conditions and choose a supported response. When the task includes performing an intervention, retain its protection and authority limits and observe the receiving work. A sufficiently supported recommendation or current continuation may finish before an intervention or new inquiry is selected. The target-working-culture branch concerns how local ways of contributing, challenging and helping are learned, recognized and repeated; it is not a programme for changing people's personalities.
 
 The first useful result may be “repair the missing access”, “change the contradictory consequence”, “obtain qualified practice”, or “the current evidence does not distinguish these causes”. A resistance label or a culture score is not an intervention.
 
@@ -2171,11 +2171,11 @@ Keep the smallest live set of rival explanations that would change the next move
 | The role or change conflicts with participants' understanding and concerns. | Can people explain the contribution and its limit, and which concern survives that explanation? | Use inquiry, role dialogue or participant co-design; revise the design when the concern is valid. |
 | A recurrent norm blocks help or challenge. | How do people learn, recognize and repeat that norm in the relevant group? | Change the demonstrated practice, recognition and support, then observe recurrence. |
 
-Current HCD.3 can help distinguish a same-person capability target from task, access and support causes. Obtain clinical judgement or a full learning intervention from the appropriately qualified professional. Preserve a surviving rival when the evidence is insufficient; request the discriminating observation instead of declaring the diagnosis complete.
+Current HCD.3 can help distinguish a same-person capability target from task, access and support causes. Use the appropriately qualified professional when a clinical judgement or learning intervention is actually needed. Preserve a surviving rival when evidence does not distinguish it, and withhold an unsupported unique-cause conclusion. Request a new contrast only when its attainable result could change the response or warranted claim enough to justify its whole burden, delay and displaced work. Include the effort of designing the inquiry; C.11.DUA supplies that appraisal when needed. If the response is robust across the rivals, the contrast cannot arrive in time, or its burden exceeds its contribution, finish the qualified response on the available basis.
 
 #### OCE.10:4.3 - Choose a bounded, source-supported intervention
 
-State the intended contribution, supported cause, mechanism hypothesis, participants, effort, protection and authority, expected first difference, adverse consequence and stop. Choose the actual Method or professional intervention that fits those facts. A determinant name or a strategy-menu item does not supply that Method.
+State the intended contribution, supported condition or surviving explanations, mechanism hypothesis, participants, effort, protection and authority, expected first difference, adverse consequence and stop. Choose the actual Method or professional intervention that fits those facts. When several explanations support the same bounded response, retain that uncertainty without inventing a unique cause. A determinant name or a strategy-menu item does not supply the Method.
 
 For a role-understanding difficulty, conduct a working conversation: reconstruct the expected result and limit with the participant; compare them with the person's goals, concerns and observed task; resolve the actionable misunderstanding or return the unresolved design conflict; agree one next contribution and how feedback will be obtained. OCE.12 can help obtain and sustain this leadership contribution.
 
@@ -2201,11 +2201,11 @@ Use C.36 for the cultural relations. The decision to promote a practice and the 
 
 #### OCE.10:4.6 - Return the consequence, revise or stop
 
-Return what changed in participation and receiving work, what remained costly or missing, and which rival explanation survives. Continue only the intervention supported by current observations; revise a defeated mechanism or return a professional question to its owner.
+Return what the available grounds warrant now. For a performed intervention, state what changed in participation and receiving work, what remained costly or missing, and which rival explanation survives. Continue only within the support of the current observations; revise a defeated mechanism or return a professional question to its owner. A useful response can remain warranted while its isolated causal explanation is unresolved.
 
 An intervention can be useful without being sufficient. Distinguish a bounded participation improvement, evidence of recurrent local practice, an unchanged gap and a wider causal or cultural claim.
 
-For ordinary local action, a short account of the episode, change and next observation can suffice. Stronger causal reliance uses C.28 and suitable evidence. Privacy, worker protection, safety, employment authority and professional competence remain direct conditions even for a small intervention. For a wider consequence comparison, use OCE.13; for an authorized organization-relation revision, use OCE.14. This Method includes the observations and local corrections needed for its own intervention.
+For ordinary local action, a short account of the episode, supported response and its use limit can suffice. Include a next observation only when the inquiry has a worthwhile attainable contribution; an unselected contrast creates no empty field or omission certificate. Stronger causal reliance uses C.28 and suitable evidence. Privacy, worker protection, safety, employment authority and professional competence remain direct conditions even for a small intervention. For a wider consequence comparison, use OCE.13; for an authorized organization-relation revision, use OCE.14. This Method includes the observations and local corrections needed for a claimed performed intervention.
 
 ### OCE.10:5 - Archetypal Grounding
 
@@ -2221,7 +2221,9 @@ In the next constructed episodes, a peer raises a missing-source question before
 
 The supported result is a changed local participation practice in those episodes. Access repair, changed consequences and practice happened together; no isolated causal effect is claimed. A count of earlier reports is insufficient by itself: the questions must be relevant and the burden and receiving result must be inspected. The whole organization's culture, release quality and enduring adoption remain unestablished.
 
-If interviews instead showed that people already challenge freely but cannot obtain the needed source, the appropriate intervention would be access repair, not a culture campaign.
+For a current continuation of the combined repair, suppose the existing observations support its useful contribution and acceptable burden, while a component-by-component comparison would take the qualified provider away from needed practice and could not change the decision to retain it. Continue within that scope and keep the causal alternatives unresolved. A new interview or experiment is not required to finish that response. If changed access, burden or protection makes the response differ across the surviving explanations, select an obtainable worthwhile contrast or take the warranted narrower action or stop; do not claim the missing distinction.
+
+If available interviews instead showed that people already challenge freely but cannot obtain the needed source, the appropriate intervention would be access repair, not a culture campaign.
 
 #### OCE.10:5.2 - Participation without common employment authority
 
@@ -2238,9 +2240,9 @@ Sponsor-centred inquiry can turn valid objections into resistance. Fear of conse
 ### OCE.10:7 - Conformance Checklist
 
 - The gap concerns a concrete contribution and receiving work, not only an attitude label.
-- Rival explanations that change action have been considered; uncertainty remains visible.
+- Rival explanations that change action have been considered and uncertainty remains visible. A new contrast is selected only for a worthwhile attainable contribution, including design effort, delay and displaced work; a response supported across the rivals can finish without it.
 - The chosen intervention has a supported mechanism, suitable Method, owner, protection and stop.
-- Actual use, non-use, burden and receiving consequences are observed.
+- A claimed performed intervention uses actual observations of use, non-use, burden and receiving consequences. A recommendation, current continuation or selected probe is not reported as a newly performed intervention.
 - A cultural claim includes transmission, recognition and later use within a named population and window.
 - A stronger causal or professional claim is not inferred from a local participation result.
 
@@ -2276,7 +2278,7 @@ The practice question is how to choose a useful participation intervention rathe
 
 OCE.6 and the direct relation owners establish assignments, authority and enabling conditions. OCE.8 can reconsider a flawed Work arrangement. OCE.9 integrates the repaired contribution; OCE.11 addresses service/change burden; OCE.12 supplies and develops leadership contributions. OCE.15 and current Method Engineering qualify a new Method account rather than treating an intervention label as an admitted Method.
 
-Current HCD.1/HCD.3/HCD.4 can supply demand, target-diagnosis and capability-profile results; missing learning, clinical or other professional results remain external. C.36 governs cultural relations, and C.28 stronger causal use. OCE.17's OCE-discipline culture is a different subject, not a synonym for target-organization working culture.
+Current HCD.1/HCD.3/HCD.4 can supply demand, target-diagnosis and capability-profile results; missing learning, clinical or other professional results remain external. C.36 governs cultural relations, C.28 stronger causal use, and C.11.DUA appraisal of a questionable inquiry demand. OCE.17's OCE-discipline culture is a different subject, not a synonym for target-organization working culture.
 
 ### OCE.10:End
 
@@ -3834,7 +3836,7 @@ This publication contains all seventeen pattern bodies. For the selected use, ga
 | How should product/service and organization architectures constrain each other? | `OCE.7` | Separate coordinated decisions across four candidate forms | product/service owner, `OCE.9` for realization, or continuing Operations |
 | Which complete work arrangement can produce the same bounded result? | `OCE.8` | Same-result baseline and whole-candidate comparison, followed by an authorized choice or probe, rejection, or reroute; a preliminary result may be a recommendation | Obtain the needed capability, assignment, provider, safety/domain, or Operations result from its owner. Use OCE.9 to realize missing conditions; dependent trial Work still needs its own authorization. |
 | How can the selected organization contribution become usable? | OCE.9 | Bounded capability increment or exact failed/unrealized condition | OCE.6, OCE.10–OCE.12, receiving operation or the direct result owner |
-| Which intervention can repair this participation or working-culture gap? | OCE.10 | Intervention matched to the qualified diagnosis and its bounded local consequences, or an unresolved competing explanation or gap | direct relation/learning owner; OCE.9, OCE.11 or OCE.12 where its result is needed |
+| Which response can repair this participation or working-culture gap? | OCE.10 | Supported response and bounded consequences when performed, or an unresolved competing explanation or gap; no new contrast when the current response is sufficiently supported across rivals | direct relation/learning owner; OCE.9, OCE.11 or OCE.12 where its result is needed |
 | How can change and continuing service coexist? | OCE.11 | Authorized overlap, observed service/change consequences and hand-back, or deferral/stop | current ME.6, OPS.5–OPS.7, OCE.8/OCE.16 or the exact service/protection owner |
 | Which leadership contribution is missing or dependent on one initiator? | OCE.12 | Performed contribution and tested continuation arrangement, or exact support gap | qualified learning provider, OCE.10/OCE.11, assignment/authority owner or OCE.15 |
 | What changed, for whom and under which conditions? | OCE.13 | Qualified consequence comparison with conflicting results, competing explanations and gaps, or an observation plan | OCE.14, OCE.10/OCE.11, or the owner of the needed measurement, evaluation or affected-result judgment |
