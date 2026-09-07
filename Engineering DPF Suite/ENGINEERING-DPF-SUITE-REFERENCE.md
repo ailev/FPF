@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 6 September 2026 - HCD/RMP lookup update
+- **Version:** 7 September 2026 - profile choice clarification
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -362,7 +362,7 @@ In the original case the person is Engineer-E27 and the prospective work is Rele
 
 HCD.1 relates the anticipated demand to the work conditions and the decision being considered. Representative cases can test it before the future release work occurs. HCD.3 helps distinguish a changeable capability, misconception or behaviour from a demand outside the intended capability envelope, an unsuitable method, a tool or support failure, an assignment or authority problem, an organizational limit, or a missing specialist contribution. Check also whether the person can access the needed support and apply an existing ability under these conditions. Choose a safe observation that distinguishes the plausible causes. Medical diagnosis and intervention require the relevant qualified practice.
 
-HCD.4 compares current and target capabilities across simultaneous work. Preserve evidence for each claim, critical-error limits, support conditions, uncertainty, interfaces, trade-offs and the engineer's participation. A profile choice also needs the actual alternatives, beliefs about consequences, comparison and choice rules, a decision about whether another probe is worthwhile, and the authority to make the choice.
+HCD.4 compares current and target capabilities across simultaneous work. Preserve evidence for each claim, critical-error limits, support conditions, uncertainty, interfaces, trade-offs and the engineer's participation. A profile choice also needs the actual alternatives, beliefs about consequences, comparison and choice rules, and the authority to make the choice. When an inquiry alternative is live, assess its feasibility, cost and possible contribution to that choice. Keep any inquiry reason or limitation needed by the choice or its recipient in the same result; an already supported choice needs no separate no-probe decision or account.
 
 | The conclusion you want to support | Evidence it needs |
 | --- | --- |
@@ -439,7 +439,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-6 September 2026, HCD/RMP lookup update.
+7 September 2026, profile choice clarification.
 GitHub repository: https://github.com/ailev/FPF
 ```
 

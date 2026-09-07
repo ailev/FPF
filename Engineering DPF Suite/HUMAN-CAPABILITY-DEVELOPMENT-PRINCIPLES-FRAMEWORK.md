@@ -779,7 +779,7 @@ Do not use this pattern to claim current mastery from an aggregate, prescribe cu
 | intermediate state | An optional description of a contribution and result boundary between the current and target profiles, under named conditions. Distinguish an intended intermediate target from an observed state. |
 | profile difference | The claim-by-claim current-versus-target comparison, including preserved strengths, gaps, uncertainty, support dependence, critical errors, and trade-offs. |
 | bounded profile decision | A lawful `C.11` choice over an already-available option set, supported by the profile comparison and kept separate from authorization, commitment, and later Work. |
-| profile-decision-blocked | A substantive return naming the exact absent scope, evidence, chooser, option, comparison, probe, participation, or authority value and its retry condition. |
+| profile-decision-blocked | A substantive return naming a missing value required for the affected conclusion—scope, evidence, chooser, option, comparison, applicable inquiry input, participation or authority—and its retry condition. |
 | simultaneous Work | Representative Work whose contributions or interfaces coexist, overlap, recur, or constrain one another; printed order does not make them a sequence or hierarchy. |
 
 Current and target profiles describe supported and intended contributions. A profile difference compares those descriptions, and an optional aggregate summarizes selected claims. A curriculum plans instruction. Keep these descriptions, comparisons, and plans separate from the person's realized learning trajectory, the Work performed in learning, and any human transformation. Claims about what happened or changed need evidence of those occurrences.
@@ -790,7 +790,7 @@ A person can be strong in three contributions and weak in a fourth. One contribu
 
 Visible source structures are seductive. A course order can look like a capability hierarchy, a Method decomposition can look like a development sequence, an organization chart can look like a profile, and a platform prediction can look like mastery. In simultaneous Work these structures need not line up one-for-one.
 
-A profile must therefore preserve claim identity, conditions, evidence, support dependence, uncertainty, critical-error boundaries, and trade-offs. It may inform a choice, but choice starts only after the chooser, options, comparison basis, and probe value are real.
+A profile must therefore preserve claim identity, conditions, evidence, support dependence, uncertainty, critical-error boundaries, and trade-offs. It may inform a choice, but choice requires a real chooser, current options and an adequate comparison basis. Inquiry values are needed when further inquiry is live under `C.11`, not as fields to complete for every choice.
 
 ### HCD.4:2 - Problem
 
@@ -861,12 +861,14 @@ When a bounded choice is requested, obtain the inputs and conditions required by
 | `OutcomeModel` | How the options and uncertainty map to the consequences that matter for this choice. |
 | dependence layer | Evidential by default; causal, counterfactual, subjunctive, or other heavier dependence requires its own current support. |
 | `ChoiceRule` | The condition under which `choose now`, `reject current set`, `probe again`, or `reroute` is lawful. |
-| probe-worthiness | `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and value of information or computation for a live probe. If no feasible further probe is worth its cost, state why. |
+| probe-worthiness | When inquiry is live under `C.11`—through a current proposal, consequential uncertainty or an applicable requirement that could change the choice or warranted use—obtain the relevant `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and value of information or computation. Otherwise these fields do not apply to finishing the supported choice. |
 | governance | Holder participation and the chooser's applicable authority; authorization, commitment, and later execution remain separate. |
 
 If a required input, condition, or necessary current/target evidence is absent, keep the profile comparison and recommendation if they are supported, then return `profile-decision-blocked` with the missing value, blocked choice, safe boundary, and retry condition.
 
-With those inputs and conditions established, the chooser applies the explicit `ChoiceRule` to the current comparison basis, dependence layer, and probe-worthiness values. Emit a `ChoiceResult` with the lawful disposition, its reason, and the next question specified by `C.11`. The decision record documents this application, the inputs used, and the emitted result.
+With the required inputs and conditions established, the chooser applies the explicit `ChoiceRule` to the current comparison basis, dependence layer and any applicable inquiry values. Emit a `ChoiceResult` with the lawful disposition, its reason and the next question specified by `C.11`. The decision record documents this application, the inputs used and the emitted result.
+
+Finish an already supported choice without creating a study, empty probe fields or a separate justification for omitting inquiry. Keep the profile, actual choice grounds and any short reason or limitation needed by this decision or a later recipient in that same result. A live feasible probe can still be selected when its attainable contribution justifies its whole burden. An evidence limit remains a limit when acquisition is not selected.
 
 #### HCD.4:4.5 - Recognition and Assurance
 
@@ -923,13 +925,23 @@ For Engineer-E27, HCD.1 can return a prospective `ReleaseWork-R9` demand hypothe
 
 HCD.4 may retain prospective target claims for AI-output challenge, configuration-impact reasoning, evidence return, specialist coordination, critical-error detection, and unfamiliar-variant adaptation. It cannot populate current claim rows, claim a current-versus-target gap, or select a profile priority.
 
-Return `profile-decision-blocked`. The blocked choice is any preserve, investigate, defer, narrow, specialist-evidence, or profile-change decision that depends on current holder evidence. The incomplete HCD profile does not justify claims of mastery, a current-versus-target gap, or transformation, or decisions about a programme, allocation, or employment. This boundary applies to uses of that unsupported profile; separate decisions need their own sufficient evidence and appropriate authority. Retry with a compatible same-holder demand frame, claim-by-claim current and target evidence under the intended configuration and evidence window, direct target-domain and specialist boundaries, holder participation, and—if a choice is requested—the current `DecisionSubject`, pre-existing `OptionSet`, comparison basis, probe-worthiness values, authority, and `ChoiceRule`. Do not fabricate HCD.2 alternatives to complete the record.
+Return `profile-decision-blocked`. The blocked choice is any preserve, investigate, defer, narrow, specialist-evidence, or profile-change decision that depends on current holder evidence. The incomplete HCD profile does not justify claims of mastery, a current-versus-target gap, or transformation, or decisions about a programme, allocation, or employment. This boundary applies to uses of that unsupported profile; separate decisions need their own sufficient evidence and appropriate authority. Retry with a compatible same-holder demand frame, claim-by-claim current and target evidence under the intended configuration and evidence window, direct target-domain and specialist boundaries, holder participation, and—if a choice is requested—the current `DecisionSubject`, pre-existing `OptionSet`, comparison basis, applicable inquiry values, authority, and `ChoiceRule`. Do not fabricate HCD.2 alternatives to complete the record.
 
 #### HCD.4:5.3 - Unlike Case: Clinical and Participation Profiles
 
 For an adult seeking treatment for social anxiety, use qualified clinical care for diagnosis, treatment targets, provider competence, safety, and outcome interpretation. Symptom scales, exposure ladders, treatment plans, and provider pathways inform that clinical work; they do not by themselves establish a profile of the person's contributions in later Work.
 
 HCD.4 may compare condition-qualified contributions for a separately legitimate non-clinical participation or later-Work question only when the person and clinical owner supply a safe boundary and compatible evidence. A symptom change alone does not demonstrate the later-Work contribution. HCD.4 does not select treatment, and clinical safety must not be traded against productivity. Managerial authority over allocation confers neither clinical competence nor clinical decision authority and does not replace the person's consent. If the required boundary or evidence is missing, return `profile-decision-blocked`; route a clinical question to its clinical owner.
+
+#### HCD.4:5.4 - Constructed Ordinary Case: Preserve a Supported Profile
+
+Engineer-K6 asks which of two already proposed profile priorities to retain for next month's review of the same kind of configuration note, using the same sources, AI support and specialist return. A qualified HCD.1 demand account supplies a forty-five-minute case limit, source traceability, independent challenge of AI claims and auditable return. This constructed case stipulates current same-holder observations and the target-domain correctness criteria.
+
+At the current forty-minute working pace, source traces and evidence returns are complete in eight of eight representative cases, and four of four seeded incorrect AI claims are rejected. In four additional, compatible cases at a twenty-minute pace, traces and returns remain complete, but only two of four seeded incorrect claims are rejected. The sample supports these condition-qualified rows; it does not establish mastery, an isolated causal effect of pace or transfer to other tools.
+
+K6 is the person-level chooser and participates directly. The current options are `O1`, preserve independent challenge together with trace and evidence return at the present pace, and `O2`, prioritize twenty-minute completion. The comparison first preserves rejection of the seeded critical errors and then prefers less review time within the forty-five-minute limit. The outcome account uses the observed contribution and trade-off under each pace. The uncertainty about other tools lies outside this receiving use.
+
+The explicit `ChoiceRule` selects the option supported for all required contributions before preferring speed. Applied to these rows, it returns **`choose now: O1`**: preserve the present profile; the faster option loses a required contribution. The result keeps the claim rows, options, rule, reason and same-configuration limit. This is the completed profile-priority choice. It neither selects a programme nor authorizes a release, allocation or employment action; those decisions retain their direct owners.
 
 ### HCD.4:6 - Bias-Annotation
 
@@ -955,8 +967,8 @@ HCD.4 may compare condition-qualified contributions for a separately legitimate 
 - [ ] Supported claims to preserve are visible alongside gaps and trade-offs.
 - [ ] An aggregate is used only when it removes no decision-bearing identity, asymmetry, critical-error, support, or uncertainty value.
 - [ ] The profile first returns priority characteristics, trade-offs, limiting gaps, and a recommendation or unresolved question to one named owner.
-- [ ] For any bounded choice, the chooser has applied the `ChoiceRule` to the current `C.11` inputs; the record includes chooser granularity, pre-existing options, comparison basis, belief, outcome model, rule, probe-worthiness, emitted result, participation, and authority.
-- [ ] A missing decision or evidence value produces `profile-decision-blocked` with blocked choice, safe boundary, and exact retry condition.
+- [ ] For any bounded choice, the chooser has applied the `ChoiceRule` to the required current `C.11` inputs; the record includes chooser granularity, pre-existing options, comparison basis, belief, outcome model, rule, applicable inquiry values, emitted result, participation and authority. Completion adds no unused probe fields or separate omission account; a reason or limit needed for this or a later use stays in the substantive result.
+- [ ] A missing decision or evidence value required for the affected conclusion produces `profile-decision-blocked` with blocked choice, safe boundary, and exact retry condition.
 - [ ] The result fabricates no HCD.2 programme and authorizes no curriculum, provider, employment, safety, legal, clinical, or release action.
 - [ ] The receiver can identify claims to preserve, the consequential gap, what could reverse the recommendation, and who decides next.
 
@@ -975,7 +987,7 @@ HCD.4 may compare condition-qualified contributions for a separately legitimate 
 
 ### HCD.4:9 - Consequences
 
-The result makes a profile usable without flattening it. Practitioners can preserve reliable contributions, expose one limiting gap, show the cost of prioritization, and distinguish a recommendation from a lawful choice. Missing evidence or choice values become exact blockers instead of silently completed forms.
+The result makes a profile usable without flattening it. Practitioners can preserve reliable contributions, expose one limiting gap, show the cost of prioritization, and distinguish a recommendation from a lawful choice. Missing required evidence or choice values become exact blockers instead of silently completed forms; an inapplicable inquiry field blocks nothing.
 
 The cost is a larger evidence surface than one score. Claim rows can disagree, uncertainty can remain, and the lawful result may be `probe again` or reroute rather than a selected priority. A later programme, intervention, or employment decision still needs its own Method and authority.
 
@@ -983,7 +995,7 @@ The cost is a larger evidence surface than one score. Claim rows can disagree, u
 
 Capability profiles are architectures of simultaneous, condition-qualified claims, not inventories arranged by visual order. Claim identity is needed because contributions can have different supports, critical-error limits, uncertainty, and trade-offs. The profile's practical value lies in the difference it preserves, not in a total it can display.
 
-Keeping comparison before choice prevents the profile from inventing a chooser, options, or authority. Under `C.11`, applying the `ChoiceRule` can return `probe again` when a feasible observation is worth its cost and can still change which option survives. The record makes the used inputs, applied rule, and result inspectable; `profile-decision-blocked` identifies absent prerequisites.
+Keeping comparison before choice prevents the profile from inventing a chooser, options, or authority. Under `C.11`, applying the `ChoiceRule` can return `probe again` when a feasible observation is worth its cost and can still change which option survives. The record makes the used inputs, applied rule, and result inspectable; it preserves an already supported choice without a separate no-probe account. `profile-decision-blocked` identifies absent prerequisites for the actual conclusion.
 
 ### HCD.4:11 - SoTA-Echoing
 

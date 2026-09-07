@@ -5,6 +5,7 @@
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** September 2026
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
+
 - **Status:** Normative kernel, eternal alpha: already used in working projects and development programs, while still evolving.
 
 Begin with the working question in your project; FPF helps make the reasoning explicit enough to review and improve.
@@ -49,7 +50,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | Architecture As Structure Of Holons | full text | Explains architecture as selected structures of a holon in context rather than the diagram or document that describes them. |
 | Boundary Statements | full text | Shows where language carries commitments, admissibility, evidence, gates, and other boundary claims. |
 | Raising Semantic Precision | full text | Explains ontology-first restoration from overloaded wording to explicit kinds, relations, slots, and admissible uses. |
-| Big FPF Storylines | full text | Follows a report-review inquiry through qualified evidence, a shared-resource shortfall and the next probe; explains Architectural Rationale, direct entry, profiles, shared source synthesis, alternatives, costs and changed-condition reuse. |
+| Big FPF Storylines | full text | Follows a report-review inquiry through qualified evidence, a shared-resource shortfall and the remaining comparison; explains Architectural Rationale, direct entry, profiles, shared source synthesis, alternatives, costs and changed-condition reuse. |
 | Transdisciplinarity As A Meta-Theory Of Thinking | full text | Shows how shared distinctions can connect disciplines without flattening their bounded meanings. |
 | The Culinary Architecture Of Collective Thought | full text | Uses an assembly analogy to explain why familiar ingredients still need an explicit architecture and quality discipline. |
 | The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
@@ -128,7 +129,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | A.10 | **Evidence Graph Referring (C-4)** | Stable | *Keywords:* relied-on claim, bounded use, claim/result episteme, source publication, carrier, dated work, direct relation, evidence-provenance path, currentness, rival explanation, `RelianceDisposition`, unsupported overread, actual-use relation. *Queries:* "What exact claim and bounded use does this source, carrier, credential, dashboard, generated explanation, or review note support?", "How do I recover sources, carriers, work, local result, result episteme, provenance, currentness, bounded reliance, and actual use without letting a path edge create facts?", "When should first-use classification stay in A.2.4, representation go to C.29, or assurance go to B.3?" | **Builds on:** C.2.1, E.17, A.15.1, A.6.1; A.15.PROD when inception is current. **Coordinates with:** A.2.4, G.11, C.29, B.3, C.16, C.28, A.19, G.4, C.11, A.21. |
 | A.10.1 | **Revalidate Affected Uses When a Relied-on Source Changes** | Stable | Use when a relied-on source claim changes and its receivers are not fully known: state the material claim change and search frame, search from source and receiver sides, confirm actual dependence, and apply the relevant direct subject guidance only across action-changing reach while keeping coverage gaps visible. Use A.10 for one known bounded reliance use; use G.11 for currentness or refresh. | **Builds on:** C.2.1, A.10, A.11. **Coordinates with:** G.6, G.11, E.15, B.3, and direct evidence, truth, causal, choice, authority, permission, gate, release, planning, and Work patterns. |
 | A.11 | **Ontological Parsimony** | Stable | Tests one proposed durable ontology addition against the best existing governed expression, bounded overlap, action-facing contribution, and nearest excluded case for the exact receiving use and facts. Relation-kind candidates keep the exact `A.6.P` / `A.6.RCD` outcome. *Queries:* "What existing governed expression already carries this claim or use?", "What exact loss and boundary justify the addition?" | **Builds on:** E.24.UK, A.6.P, A.6.RCD, A.8, C.3, F.8, F.18. **Constrains:** new core-concept, durable U-kind, and relation-kind proposals. |
-| A.11.OP | **Decision-Relevant Least Action and Operational Parsimony** | Stable | Admit a proposed mandatory action or apparatus only when, for a named use and nearest substantive horizon, a materially plausible result can change a substantive decision, the action realizes an already selected result, or removal changes relied-on assurance or recoverability. A passing branch establishes only non-ceremonial status for that use and horizon; direct owners establish every stronger claim. | **Companion to:** A.11. **Coordinates with:** E.11.PUA, E.11.PUR, C.19.2, E.13, E.23, and the direct Method, Work, choice, reliance, assurance, and authority owners named in its Relations. |
+| A.11.OP | **Decision-Relevant Least Action and Operational Parsimony** | Stable | Screen a proposed mandatory action or apparatus for a substantive decision, selected result, or relied-on assurance or recovery contribution within a named horizon. Contribution alone does not establish obtainability, worth or an obligation; complete the live demand or choice question through its direct owner. | **Companion to:** A.11. **Coordinates with:** C.11.DUA, C.11, E.11.PUA, E.11.PUR, C.19.2, E.13, E.23, and the direct Method, Work, reliance, assurance, and authority owners named in its Relations. |
 | A.12 | **Acting-Side Externalization and Reflexive Split** | Stable | Separate one exact continuing changed subject from one exact entity proposed for the acting side. Keep A.1 recognition, same-entity systemhood, causal or interaction participation, system-role assignment, A.3.4 transformation, Method, Work, evidence, boundary crossing, and parthood under their direct patterns. For a self-action claim, identify two exact entity parts or subsystems of one containing holon; for a document case, choose carrier change, episteme edition, or relation-occurrence change before filling singular positions. *Queries:* "Which exact referent continues as the changed subject?", "Which exact entity occupies the acting side, and has A.1 recognized it as a system?", "Which participation, assignment, transformation, Work, evidence, crossing, or part relation independently obtains?" | **Builds on:** A.1, A.2.1, A.2.7, A.3.4. **Coordinates with:** A.1.1, A.2.6, A.6.RCD, A.7, A.10, A.14, C.13, A.15, A.15.1, F.6, C.2.1, E.17, E.24.PUB, and B.2.5. |
 | A.13 | **The Agential Role & Agency Spectrum** | Stable | *Keywords:* exact System, local agential system-role kind and criterion, classification, obtaining assignment, scope, working situation, window, evidence-backed core, conditional characteristic profile, autonomy grading. *Queries:* "Which local agential kind and criterion are relevant to this precise agency claim?", "Does that exact System satisfy and classify under it while the assignment obtains for this scope, situation, and window?", "Does a Grade, autonomy, criterion-dependent characteristic, profile, or assurance use actually require the characteristic profile?" | **Builds on:** A.2, A.2.1, A.12. **Informs:** E.16. **Coordinates with:** A.15, A.15.1, F.6, A.17, A.18, A.19, C.16, A.10, and planned C.9 as future profile consolidation only. |
 | A.14 | **Advanced Mereology: Components, Portions, Aspects & Phases** | Stable | *Keywords:* part, member, belongs to, component, constituent, portion, aspect, phase, ComponentOf, ConstituentOf, PortionOf, AspectOf, PhaseOf. *Queries:* "Does this entity belong to this subject-defined collection, or does member mean mathematical inclusion, classification, participation, or constructive parthood?", "Is this a component or constituent, a measured portion, a bearer-dependent structural aspect, or the same carrier during a proper phase?" | **Refines:** A.1. **Coordinates with:** C.3, A.6.5, C.13, C.16, E.17, C.29, C.27.TA. **Prerequisite for:** B.1.1. |
@@ -226,8 +227,9 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.6 | **Proof and Inference Use Calculus (LOG-CAL)** | Planned | *Keywords:* proof use, inference rule, typed guard, claim entailment, proof obligation, reasoning support. *Queries:* "What inference is licensed here?", "When is a proof claim separate from evidence?", "Which typed rule supports this conclusion?" | **Builds on:** C.3, C.2.1, A.10, B.3. **Coordinates with:** B.3.5, C.23, G.8, A.6.B. |
 | **Cluster C.II – Domain‑Specific Patterns** | | | | |
 | C.9 | **Agency Characteristic Profile** | Planned | *Keywords:* agency, autonomy, responsibility threshold, decision capacity, intervention capacity, agentive role. *Queries:* "What agency claim is being made?", "When does a system or role holder count as agentive enough for this decision?", "How should autonomy be characterized without minting a new agent kind?" | **Builds on:** A.13, A.17, A.18, A.19, C.16, A.10. **Coordinates with:** B.3, C.11, C.24, D.2. |
-| C.11 | **Decision Theory (Decsn-CAL)** | Stable | *Keywords:* decision theory, DecisionSubject, OptionSet, comparison basis, ChoiceRule, ChoiceResult, question order, probe-worthiness, non-shared comparison frame, ValueOfInformation, ValueOfComputation, choose now, reject current set, probe again, reroute. *Queries:* "When should one choose now versus probe again?", "What must be explicit before a choice among already-available options is lawful?", "When does a missing finite configuration comparison go first to C.11.CRC?" | **Builds on:** A.6.P, A.6.5, A.13, A.18, A.19. **Coordinates with:** C.11.CRC, planned C.9, C.26, C.18, C.19, C.24, G.5. |
+| C.11 | **Decision Theory (Decsn-CAL)** | Stable | *Keywords:* decision theory, DecisionSubject, OptionSet, comparison basis, ChoiceRule, ChoiceResult, question order, probe-worthiness, non-shared comparison frame, ValueOfInformation, ValueOfComputation, choose now, reject current set, probe again, reroute. *Queries:* "When should one choose now versus probe again?", "What must be explicit before a choice among already-available options is lawful?", "When does a missing finite configuration comparison go first to C.11.CRC?" | **Builds on:** A.6.P, A.6.5, A.13, A.18, A.19. **Coordinates with:** C.11.DUA, C.11.CRC, planned C.9, C.26, C.18, C.19, C.24, G.5. |
 | C.11.CRC | **Configuration-Relative Contribution Comparison** | Stable | *Keywords:* finite change, current configuration S0, candidate configuration S1, result and resource vectors, interactions, constraints, uncertainty, transition, option effects, marginal contribution. *Queries:* "What does this realizable finite change contribute relative to what we have now?", "Which coordinates, interactions, constraints, uncertainty, transition, and future options matter?", "When can the comparison claim return to C.11?" | **Builds on:** C.2.1, A.10, A.19, C.16, C.27, C.28, C.29. **Supplies:** one finite comparison claim to C.11. **Coordinates with:** C.18, C.19, B.3, A.15, and direct field calculations. |
+| C.11.DUA | **Decision-Useful Advice and Evidence Demands** | Stable | Use when advice turns uncertainty or a requirement into costly, infeasible or questionable work for its recipient. Recover the receiving question and demand; distinguish present support, feasible continuation and worthwhile inquiry; appraise disputed requirements and their force; complete the useful answer with only the explanation its use needs. *Queries:* "Will more evidence change this decision?", "What can we reasonably do now?", "Is the requirement itself worth its burden?" | **Uses:** A.10, C.11, C.11.CRC, C.19.2. **Coordinates with:** C.18, C.28, D.4 and domain methods. **Used by:** F.19, E.19, E.11.PUA. |
 | **Cluster C.III – Meta‑Infrastructure CALs** | | | | |
 | C.13 | **Constructional Mereology (Compose‑CAL)** | Stable | *Keywords:* mereology, part-whole, composition, sum, set, slice, construction account. *Queries:* "How can I show, without creating it by notation, how already identified constituents and relations assemble a whole, form a collection, or distinguish an aspect?", "What is Compose-CAL?". | **Builds on:** A.14 and direct part-relation patterns. **Coordinates with:** C.2.1. **Is used by:** A.1, B.3.5, and subject patterns needing a compact construction account. |
 | **Cluster C.IV – Composite & Macro‑Scale** | | | | |
@@ -569,12 +571,13 @@ The keys only help navigation. Compare cards by the situation and intended resul
 
 #### OPTION-COMPARISON — Keep unlike option results distinct
 
-- **Situation:** A candidate list mixes labels such as *build*, *buy*, *reuse*, *provider*, *internal*, *outsource*, or *AI*; or one unresolved question makes a costly commitment unsafe.
-- **Question:** Must you form complete ways to obtain one result, compare or retain them, govern a pool, prepare a set for another chooser, choose now, or resolve the uncertainty blocking commitment?
-- **First useful result or honest blocker:** A complete-enough same-result way set, comparison or retained set, pool rule, prepared `OptionSet`, `ChoiceResult`, answer to the blocking question, or exact gap.
+- **Situation:** Labels such as *build*, *buy*, *reuse*, *provider*, *internal*, *outsource* or *AI* need comparison; uncertainty blocks costly commitment; or advice demands costly or infeasible work.
+- **Question:** Form complete ways, compare or retain candidates, govern a pool, prepare options for another chooser, choose now, or repair an evidence demand?
+- **First useful result or honest blocker:** A complete-enough same-result way set, comparison or retained set, pool rule, prepared `OptionSet`, `ChoiceResult`, usable advice, answer to the blocking question or exact gap.
 - **Mantra:** Name one result, use, situation, horizon, and acceptance basis. Turn labels into complete ways on one parity basis, keeping supported, proposed, and unknown premises visible. Compare or choose only when current; preserve worthwhile variants and gaps. For costly action, resolve only the uncertainty blocking commitment. Return when the result, basis, evidence, or use changes.
-- **Start with:** `C.38` when labels or fragments need complete ways; otherwise open only the current branch in `A.19.ECS`, `C.18`, `C.19`, `G.5`, or `C.11`. For costly action, use only the current check in `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `C.11`, or `A.15.5`.
-- **Stop or return:** Stop at the result for the present question. An option description does not choose or establish capability, authority, Work, provision, delivery, acceptance, or use.
+- **Start with:** `C.11.DUA` for a demand's contribution or feasibility; `C.38` for incomplete ways; otherwise `A.19.ECS`, `C.18`, `C.19`, `G.5` or `C.11` for the current question. For costly commitment, select the current check in `A.10`, `B.3`, `A.20`, `A.21`, `C.28`, `C.11` or `A.15.5`.
+- **Stop or return:** Stop at the present question's result. Option descriptions establish neither choice nor capability, authority, Work, provision, delivery, acceptance or use.
+
 
 #### RESULT-TO-NEXT-MOVE — Route an obtained result to the next probe or option
 
@@ -588,11 +591,11 @@ The keys only help navigation. Compare cards by the situation and intended resul
 #### ACTUAL-TEMPORAL-STRUCTURE — Recover what actually obtains before testing coordination
 
 - **Situation:** A cycle, onset list, trace, notation, or geometry is called rhythm, but may be a prescription, representation, Method unfolding, or account rather than what obtains.
-- **Question:** Which subjects and relations support one actual selected structure, what grounds it, and what coordination change should be tested?
-- **First useful result or honest blocker:** One A.22-selected structure and grounded C.2.1 account—or the missing bearer, relation, observation, or grounding. Keep future specifications and representations separate. For coordination, add direct relations, trial conditions, observations, and next decision or stop.
-- **Mantra:** Start with actual changing subjects and use. Recover changes, Work parts or continuous carrier, plus exact obtaining relations. Select one structure; ground only supported account. Keep structure, account, future specification, representation, Method unfolding and Work distinct. For coordination, name bearers and direct relations; compare interventions, try one in bounds, observe, then decide or stop. Never infer structure from periodicity, onsets, notation or geometry.
+- **Question:** Which subjects and relations support the selected structure, what grounds it, and is a coordination trial useful now?
+- **First useful result or honest blocker:** A.22-selected structure and grounded C.2.1 account—or missing bearer, relation, observation, or grounding. Keep future specifications and representations separate. For a selected coordination trial, add direct relations, conditions, observations, and next decision or stop.
+- **Mantra:** Start with actual changing subjects and use. Recover changes, Work parts or continuous carrier, plus obtaining relations. Select one structure; ground a supported account. Keep structure, account, future specification, representation, Method unfolding and Work distinct. For coordination, name bearers and direct relations. If a trial can change the decision and is worth its burden, compare feasible interventions, try one in bounds, observe, then decide or stop. Never infer structure from periodicity, onsets, notation or geometry.
 - **Start with:** A.3.4/A.15.1 for change/Work, C.27.TA/A.22 for claim/structure, C.2.1 for account; add specification, representation, decision, causal, trial, or domain patterns only when current.
-- **Stop or return:** Stop when use is answered. Return when bearer, relation, constraint, grounding, intervention, or use changes; domain Methods stay in DPF.
+- **Stop or return:** Stop when answered. Return when bearer, relation, constraint, grounding, intervention, or use changes; domain Methods stay in DPF.
 
 #### PROBLEM-SHAPING — Stop at the earliest honest problem-side result
 
@@ -617,7 +620,7 @@ The keys only help navigation. Compare cards by the situation and intended resul
 - **Situation:** A load-bearing sentence hides the subject, relation, kind, use, or nearby false inference.
 - **Question:** What should the reader understand and do, and which distinctions matter for that use?
 - **First useful result or honest blocker:** One plain repaired sentence, direct clarification, local naming result, or exact missing subject, sense, test, or reader use.
-- **Mantra:** Recover the ordinary project sentence first. Name what it is about, what it claims, and who must use it; add ontological distinctions only where they change truth, understanding, or action; choose a durable name only when later use needs one; rewrite in plain technical language; check the result with a cold reader; retain a guard only under F.19's full grounded-contribution test; return to the domain task.
+- **Mantra:** Recover the ordinary project sentence first. Name what it is about, what it claims, and who must use it; add ontological distinctions only where they change truth, understanding, or action; choose a durable name only when later use needs one; rewrite in plain technical language; check that a reader without private context can recover the intended claim and action; retain a guard only under F.19's full grounded-contribution test; return to the domain task.
 - **Start with:** `F.19`; use `E.10` for unresolved FPF wording, and `F.18`, `F.0.1`, `F.9`, or the subject's direct pattern only when needed.
 - **Stop or return:** Stop when the reader can understand the claim and carry out its intended use. Do not continue ontology work after the language problem is solved.
 
@@ -800,6 +803,7 @@ You choose the license for your own original DPF or LPF. Using FPF methods or it
 
 ## Citation
 
+
 If you use FPF, please cite:
 
 ```text
@@ -956,7 +960,7 @@ FPF does not transform the open world into a closed one. It lets a project build
 
 This is why FPF patterns often look strict. The strictness is local. It lets a project act while keeping the wider world open. A local closure is not a claim that nothing else exists. It is a declared scope for responsible action.
 
-Local closure also does not license ceremony. Before a method, route, or review makes an action mandatory, ask whether a materially plausible result can change a named substantive decision within the nearest substantive horizon, whether the action realizes an already selected result, or whether removing it changes an assurance or recovery condition on which the use relies. Hypothetical future usefulness is not enough; use `A.11.OP` for the exact operational-parsimony rule and its boundary with direct duties and assurance.
+Local closure also does not license ceremony. Before a method, route, or review makes an action mandatory, ask whether a materially plausible result can change a named substantive decision within the nearest substantive horizon, whether the action realizes an already selected result, or whether removing it changes an assurance or recovery condition on which the use relies. This contribution is necessary but does not by itself make a proposed inquiry obtainable or worth requiring. Use `A.11.OP` for that screen and its boundary with direct duties and assurance. When the demand's worth remains open, `C.11.DUA` compares its attainable contribution and whole burden; a current local choice uses `C.11`. The result can be a qualified answer on the present basis.
 
 ## FPF As An Evolutionary Architecture For Thought
 
@@ -1151,7 +1155,7 @@ FPF connects ways of asking a question, developing an answer, testing its suppor
 
 Consider a constructed example. A team is deciding how to help engineers review technical reports. A purchased assistant and a locally operated assistant remain candidates. The local candidate appears faster on the small set tried so far. The current question is whether that is enough to begin relying on the proposed review arrangement.
 
-Use `C.16` to make the reported speed interpretable: which reports, which part of review, which assistance, which result, and which uncertainty does it cover? A time for extracting passages leaves open the time for checking their relevance and correcting errors. Use `B.3` when the next decision needs an assurance answer: what exact claim does that trial support, what could defeat it, and which reports or operating conditions remain outside its basis? If the trial omitted reports containing tables, retain its result for the tested class and name the table-handling question for a further probe.
+Use `C.16` to make the reported speed interpretable: which reports, which part of review, which assistance, which result, and which uncertainty does it cover? A time for extracting passages leaves open the time for checking their relevance and correcting errors. Use `B.3` when the next decision needs an assurance answer: what exact claim does that trial support, what could defeat it, and which reports or operating conditions remain outside its basis? If the trial omitted reports containing tables, retain its result for the tested class and identify the table-handling limitation. That missing comparison becomes a probe proposal only when the receiving choice and attainable contribution warrant the inquiry.
 
 The proposed arrangement also needs extraction, independent checking and final release review. Suppose their estimated weekly demand on the same engineer is respectively 3, 8 and 4 hours, while only 10 hours are available. The estimates apply to the same workload and the hours cannot be shared between these activities. Each activity fits individually; together they require 15 hours. The useful whole-arrangement result is a five-hour shortfall. The team can reduce the workload, provide additional qualified capacity, or change the arrangement and compare again. A better extraction time alone does not close that resource condition.
 
@@ -1169,7 +1173,7 @@ The organization supports several useful scales. A practitioner may apply one pa
 
 An individually addressable pattern lets a reader inspect the Problem frame and Solution at the point of need. The whole account explains the connections, shared conditions and reasons that would otherwise have to be reconstructed from many bodies. The two scales have different reading costs: a direct answer is cheaper for one familiar question; the broader explanation helps when a reader must adapt the arrangement or understand why several local answers fail together. `E.11.PUA` supports the selected direct use and `E.11.PUR` the current choice or coordination among uses.
 
-A single prescribed project sequence is a serious alternative when the same regulated or reproducible procedure must be followed repeatedly. FPF instead keeps the contribution structure open to direct entry because research, engineering, operations and management repeatedly need different first results. A local practice can select a required procedure and its assurance conditions. `A.11.OP` keeps additional mandatory actions tied to a real decision, selected result or relied-on assurance/recovery condition.
+A single prescribed project sequence is a serious alternative when the same regulated or reproducible procedure must be followed repeatedly. FPF instead keeps the contribution structure open to direct entry because research, engineering, operations and management repeatedly need different first results. A local practice can select a required procedure and its assurance conditions. `A.11.OP` screens additional mandatory actions for contribution to a real decision, selected result or relied-on assurance/recovery condition. A contribution alone does not justify the demand's cost or establish its force; the applicable choice, advice, assurance or authority method completes that question.
 
 A shared vocabulary alone is another useful alternative when classification is the entire problem. FPF pairs the distinction with the difficulty, usable move, evidence and limits because a team usually needs to do something with the classification. A collection of independent best-practice summaries is cheaper to assemble, but the receiving user must then reconcile their meanings, assumptions and result uses. FPF makes those relations explicit where that reconciliation changes action. When one existing domain Method already answers the question sufficiently, use it directly; the benefit of an additional FPF contribution must exceed its reading and coordination cost.
 
@@ -22763,6 +22767,8 @@ The canonical local `RelianceDisposition` member set is exactly: `pass`, `degrad
 
 When an actual named assurance claim is current, use B.3 for that assurance question. A.10 continues to supply the exact source and provenance paths but does not issue the assurance result. Consequential evidence use without such a claim stays with the direct safety, access, status, gate, permission, release, responsibility, or controlled-action pattern.
 
+A reliance limitation qualifies the attempted use. When advice must also say what to do next, use `C.11.DUA` to compose a feasible continuation from that limitation. Further inquiry is one possible continuation. Retain the unsupported claim boundary when choosing a narrower use, another action or a stop. Use an already adequate `C.11` choice directly.
+
 #### A.10:4.5a - Route unlike exploratory inputs without changing their kind
 
 When an observation, objective, former cue, novelty characterization, or similarly interesting item is proposed as a premise for an exploratory or creative move, recover the item under its direct owner before applying this bounded reliance classification. Do not rename every item `signal` or `cue`, and do not create a second premise-disposition vocabulary.
@@ -23556,12 +23562,14 @@ Constructional-ontology and BORO-like source lines add a second discipline: iden
 
 **Use this when.** Use this pattern when someone proposes making an action or apparatus mandatory and a plausible question remains: does this requirement change the subject work, or does it only make the route look controlled?
 
-The primary `EntityOfConcern` is one proposed mandatory requirement under one declared use and one substantive horizon. The pattern governs only that admission decision; *action*, *apparatus*, *requirement*, and *horizon* keep their ordinary meanings.
+The primary `EntityOfConcern` is one proposed mandatory requirement under one declared use and one substantive horizon. The pattern screens the requirement for a substantive contribution. A contribution is necessary, but does not alone make the work obtainable, worthwhile or obligatory; *action*, *apparatus*, *requirement*, and *horizon* keep their ordinary meanings.
 
 **First useful result.** Return one of two short answers:
 
-- retain the requirement for this use and horizon because it changes a named substantive branch, realizes an already selected result, or preserves a named assurance or recovery condition on which the use relies; or
-- remove the requirement or leave it optional because none of those conditions changes when it is removed.
+- retain the requirement for this use and horizon because it has a named substantive contribution and its direct choice, realization, assurance or authority basis justifies requiring the work; or
+- remove the requirement or leave it optional because it has no such contribution, or because a contribution does not justify its burden for this use.
+
+For a proposed inquiry whose worth is still open, use `C.11.DUA` to compare what can be gained with feasible effort, delay, opportunity cost and downside; use `C.11` when a current chooser and options need a local choice. Finish with the supported answer and feasible continuation, which may retain the current action, narrow a claim or decline an unsupported use.
 
 Ordinary use needs no score or separate record. Name the receiving decision, result, reliance, or recovery condition in the same sentence as the disposition.
 
@@ -23579,7 +23587,7 @@ These are one recurring problem across unlike situations: mandatory effort can b
 
 **Not this pattern when.**
 
-- When an applicable direct authority already establishes the obligation, use that authority. Apply A.11.OP only to discretionary apparatus inside the space it leaves.
+- When the question is the force or applicability of an instituted obligation, use its direct authority. Apply A.11.OP only to discretionary apparatus inside the space it leaves. If the present question concerns the obligation's merits, use `C.11.DUA` to examine its protective contribution, burden and feasible amendment; that appraisal does not cancel its current force.
 - When several already qualifying alternatives need comparison, use their direct choice, apparatus, architecture, or Method Engineering pattern.
 - When the question is whether a new durable ontology value should exist, use `A.11`.
 - When the question is how to use an already selected pattern, use `E.11.PUA` or `E.11.PUR`.
@@ -23612,7 +23620,7 @@ Apply one bounded admission question before making the proposed action or appara
 
 > **Admission rule.** An author or method designer **MUST NOT** make a proposed action or apparatus mandatory unless at least one materially plausible result can change a named substantive decision or branch within the declared horizon, the action realizes an already selected transformation or required subject result, or removing it changes a named assurance or recoverability condition on which the declared use relies.
 
-Passing one branch establishes only that the requirement is non-ceremonial for this use and horizon. Every stronger claim remains with its direct owner.
+Passing one branch establishes only a substantive contribution for this use and horizon. It does not establish that the work can be obtained or is worth requiring. Complete any live worth or choice question through its direct owner before selecting the requirement.
 
 #### A.11.OP:4.1 - Name the use and nearest substantive horizon
 
@@ -23626,11 +23634,13 @@ The nearest substantive horizon is not necessarily the next event. It may includ
 
 | Admission branch | Passing condition | Boundary of the result |
 | --- | --- | --- |
-| **Decision-changing result** | At least one materially plausible result changes a named subject branch or selection among named alternatives inside the horizon. An information-gathering action passes when one of its possible results changes a later policy even if the immediate action stays the same. | The passing basis is the result-to-decision dependency; likelihood and the eventual branch remain open. |
-| **Selected realization** | The action performs a required part of an already selected transformation or obtains the required subject result. A deterministic step needs no fabricated rival outcomes. | This branch admits only the realizing action; it presupposes selection and leaves authorization, actual Work, and result status to their direct owners. |
+| **Decision-changing result** | At least one materially plausible result changes a named subject branch or selection among named alternatives inside the horizon. An information-gathering action passes when one of its possible results changes a later policy even if the immediate action stays the same. | The passing basis is the result-to-decision dependency. Obtainability, expected contribution after uncertainty, burden and eventual choice remain open. |
+| **Selected realization** | The action performs a required part of an already selected transformation or obtains the required subject result. A deterministic step needs no fabricated rival outcomes. | This branch establishes the action's contribution to the selected result; it presupposes selection and leaves feasibility, authorization, actual Work, and result status to their direct owners. |
 | **Assurance or recoverability preservation** | Removing the action changes a named assurance or recoverability condition on which the declared use relies. | This branch preserves that condition; its required level and evidential basis come from the direct assurance or recovery owner. |
 
-Compare the concrete situation with and without the requirement. If one branch passes, retain the requirement at no more formality than its direct owner and named reliance need justify. If several proposed actions or apparatus configurations pass, return their comparison to the pattern that directly governs those alternatives.
+Compare the concrete situation with and without the requirement. A passing branch removes the objection that the work contributes nothing. Retain it only as far as its direct basis justifies requiring it. An already selected transformation or established reliance can supply that basis without another comparison.
+
+When a proposed inquiry could matter but its worth remains open, apply `C.11.DUA` to the actual demand and receiving question. Identify the attainable observation, what it could change, and its whole cost within the receiving horizon. Compare available continuations through `C.11` when a local choice is needed. A useful possible result can still arrive too late, require unavailable means, or cost more than its contribution. Keep the presently supported answer or select a feasible alternative under its actual limits. Do not invent an OptionSet or an inquiry merely to certify that none is needed.
 
 If no branch passes, remove the requirement or leave it as an optional convenience. Convenience and prior investment do not supply the missing receiving difference.
 
@@ -23638,23 +23648,27 @@ If no branch passes, remove the requirement or leave it as an optional convenien
 
 *Materially plausible* means more than logical possibility and less than certainty. The direct owner of the claimed consequence supplies its standard of evidence. A low-probability result can remain material when its consequence changes exposure or the admissible policy. A large information volume is material only when some possible result changes a named receiving use.
 
-When the branches cannot be distinguished, name the exact claim and missing basis and return them to that claim's direct owner. Alternatively, run a bounded experiment whose possible results can genuinely change the named decision. Unresolved usefulness does not create permanent mandatory status.
+When the branches cannot be distinguished, name the exact claim and missing basis and return them to that claim's direct owner. Keep the qualified answer already supported. A bounded experiment is one possible continuation only when an attainable result and worthwhile contribution justify its whole burden under §4.2. Unresolved usefulness alone does not select an experiment or create permanent mandatory status.
 
 #### A.11.OP:4.4 - Return authority and claims to their direct owners
 
 Apply this screen only inside the space left by every applicable direct authority. The direct owner establishes the obligation or floor and resolves disputes about its basis or applicability.
 
-A passing branch establishes only that the requirement is non-ceremonial for the named use and horizon. Every downstream claim remains with the direct pattern named in Relations; obtain that result by value instead of treating this admission as its substitute.
+When the requirement itself is being appraised, use `C.11.DUA` to compare the protected bearer and interest, the threshold and horizon, the causal contribution claimed, and who bears the burden. Identify who can amend the requirement and whether that amendment is feasible in time. Keep its merits and present force distinct: neither a protective label nor a burdensome rule settles the merits, and an unfavorable appraisal supplies no unilateral waiver. The legal, ethical and domain claims remain with their direct owners.
+
+A passing branch establishes only the named contribution. Every downstream claim remains with the direct pattern named in Relations; obtain the required result by value instead of treating this screen as its substitute.
 
 #### A.11.OP:4.5 - Keep the result light and reopenable
 
 For ordinary use, say:
 
-> Keep `<requirement>` for `<declared use>` until `<nearest substantive horizon>` because `<named branch and receiving difference>`.
+> Keep `<requirement>` for `<declared use>` until `<nearest substantive horizon>` because `<named contribution and the basis for requiring this work>`.
 
 or:
 
 > Remove or demote `<requirement>` for `<declared use>` because keeping and removing it produce the same substantive decision and result and change no relied-on assurance or recovery condition.
+
+If a proposed inquiry has a contribution but is unavailable or not worthwhile, finish with the current supported answer and selected continuation. Keep a short reason or limitation in that result when the recipient needs it; add no empty probe fields or separate omission account.
 
 A named later use that must cite, compare, audit, or rely on the disposition records it in the existing record kind appropriate to that use. Otherwise the one-sentence result is complete.
 
@@ -23676,13 +23690,27 @@ The same route runs a deterministic build after the sources and publication form
 
 A maintenance team must choose next week between Method A and Method B for a recurring seal failure. A bounded probe performed today can return one of three observations: evidence favoring A, evidence favoring B, or an unresolved result that triggers a hold. Today's immediate action is unchanged, but every possible probe result has a named effect on the later Method-selection decision.
 
-The probe passes the decision-changing-result branch. Its horizon ends at that named selection and its stated window, not at the probe's completion flag. If the team later shows that every possible observation leads to Method A, the probe no longer passes for that use and is removed, redesigned, or made optional.
+The probe passes the contribution screen. Its horizon ends at that named selection and window. The team still has to decide whether to obtain it.
+
+For a constructed comparison, suppose A, B and holding are all available within the applicable operating constraints. The team minimizes expected hours of later rework or deferral over the same maintenance horizon. Its current model gives three conditions with weights 0.4, 0.4 and 0.2:
+
+| Selected continuation | Condition favoring A | Condition favoring B | Unresolved condition |
+| --- | --- | --- | --- |
+| Method A | 0 hours | 10 hours | 5 hours |
+| Method B | 10 hours | 0 hours | 5 hours |
+| Hold | 4 hours | 4 hours | 4 hours |
+
+These are illustrative planning inputs. On this basis, A and B each cost five expected hours; holding costs four. Suppose the probe distinguishes the three conditions in time. Choosing A, B or holding after its result costs 0.8 expected hours before probe effort. At one hour for the whole probe, the total is 1.8 hours, so the team selects the probe and the stated conditional continuation. At five hours for the same probe, still available before selection, the total is 5.8 hours: the completed advice is to hold on the current basis. If the probe cannot return before selection, its information does not serve this horizon. The operating constraints and uncertainty remain visible in each answer.
+
+If instead the team establishes that every materially plausible observation leads to Method A and no other reliance changes, the probe fails even the contribution screen for that use. The team can choose A directly, without inventing a study and then recording why it was omitted.
 
 #### A.11.OP:5.3 - Assurance evidence with an unchanged operating decision
 
 A pressure-system release check is expected to confirm the current operating decision. The release authority nevertheless relies on its evidence, and omission changes the accepted exposure for release. The check passes assurance preservation even when its most likely result leaves the operating branch unchanged.
 
 `B.3`, the applicable evidence pattern, and the release authority set the assurance floor and disposition. A.11.OP returns only that the check is non-ceremonial for this named release reliance. A candidate check qualifies here only when the relying condition, exposure change, and direct owner are known.
+
+Now consider a local rule requiring a copy of the same accepted check record. In this constructed case, every relying reader already has the original, and retyping adds no independent verification. It consumes the technician's only hour available for correcting an identified defect. The local rule owner can amend this copying requirement today while retaining the required check and its accessible evidence. The useful amendment is to use the original record and recover that hour for correction. The protected people and pressure-system condition, the lost correction opportunity and the feasible authority to amend supply the comparison. If the amendment cannot be obtained in time, the technician follows the applicable requirement or authorized hold route; a favorable merits comparison alone does not authorize omission.
 
 #### A.11.OP:5.4 - Recovery cue and discriminating language
 
@@ -23717,9 +23745,9 @@ Scope: **Universal** for the cross-domain admission question governed by this pa
 | `CC-A11.OP-3` Three-branch comparison | Keeping and removing the requirement have been compared through decision-changing result, selected realization, and assurance or recoverability preservation. |
 | `CC-A11.OP-4` Material plausibility | Each claimed difference has the basis appropriate to its subject, evidence, risk, causal, decision, or assurance claim; bare logical possibility and information volume are insufficient. |
 | `CC-A11.OP-5` Deterministic realization | A required deterministic step is retained when it realizes the already selected result without fabricated outcome branches. |
-| `CC-A11.OP-6` Delayed decision value | Information is retained only when at least one materially plausible result can change a named later decision inside the stated horizon. |
+| `CC-A11.OP-6` Delayed decision value | For an inquiry proposed for a later decision or reliance, at least one materially plausible result reaches that named use inside the horizon. This contribution is not sufficient to require acquisition; a live inquiry decision also establishes obtainability and worthwhile contribution under its direct owner. |
 | `CC-A11.OP-7` Assurance boundary | A retained assurance or recovery action names the relied-on condition and its direct owner; that owner establishes the floor and evidential basis. |
-| `CC-A11.OP-8` Disposition boundary | Passing a branch is reported only as non-ceremonial admission for the named use and horizon; every stronger claim is returned to its direct owner. |
+| `CC-A11.OP-8` Disposition boundary | Passing a branch establishes contribution only. The final disposition uses the applicable choice, realization, assurance or authority basis; appraisal of a requirement's merits remains separate from its current force. |
 | `CC-A11.OP-9` Light result | Ordinary use ends in the direct one-sentence disposition; a durable result uses an existing record kind required by a named later use. |
 | `CC-A11.OP-10` Direct-owner return | Each downstream claim remains with the direct pattern named in Relations and is obtained from that pattern by value. |
 | `CC-A11.OP-11` Reopen condition | The disposition names or makes recoverable which change in horizon, result, transformation, duty, reliance, or alternative can reopen it. |
@@ -23735,13 +23763,13 @@ Scope: **Universal** for the cross-domain admission question governed by this pa
 | **Administrative self-receiver** | A receipt is justified because it updates the route state that exists only to carry the receipt. | Name a subject decision or reliance outside the requirement's own administration. |
 | **Fabricated alternatives for deterministic work** | A build or transformation step must invent outcome branches to look decision-relevant. | Retain it through selected realization when it performs the already selected result. |
 | **Precaution label as assurance** | Calling a step “safety” or “compliance” creates an unsupported floor. | Name the direct authority, evidence, exposure, and relied-on condition; return their disposition to the direct owner. |
-| **Branch passage as authority or optimum** | Admission is substituted for the stronger claim governed elsewhere. | Report only non-ceremonial admission; obtain authority or comparison from its direct owner. |
+| **Possible contribution as sufficient reason to require work** | A probe is demanded because it could matter, despite unavailable means, excessive burden or a missed receiving window. | Establish contribution here; complete the live demand or choice question through C.11.DUA or C.11 and retain a useful current answer when acquisition is not selected. |
 | **Mandatory parsimony record** | The screen creates the same ceremony it is meant to remove. | Use one ordinary disposition sentence unless a named later use needs a durable episteme. |
 | **Free-energy or physics laundering** | Expected free energy, variational free energy, or Hamiltonian least action is presented as proof of a universal engineering rule. | Keep only the bounded epistemic, pragmatic, horizon, and risk distinctions; reject mathematical equivalence and mandated scalarization. |
 
 ### A.11.OP:9 - Consequences
 
-The pattern changes practice before a requirement is installed. A designer names the receiving horizon and checks what keeping or removing the requirement changes. Duplicate status work becomes removable without making “less paperwork” a universal argument. Deterministic transformations remain because they produce the selected result. Exploration, assurance, recovery, and small cues remain when their delayed or relied-on consequence is explicit.
+The pattern changes practice before a requirement is installed. A designer names the receiving horizon and checks what keeping or removing the requirement changes. Duplicate status work becomes removable without making “less paperwork” a universal argument. Deterministic transformations remain because they produce the selected result. Exploration, assurance, recovery, and small cues have a substantive reason to remain when their delayed or relied-on consequence is explicit. Their direct basis determines whether to require them; a relevant but excessive inquiry can give way to a qualified current answer.
 
 | Benefit | Cost or boundary |
 | --- | --- |
@@ -23755,7 +23783,7 @@ The pattern changes practice before a requirement is installed. A designer names
 
 Operational parsimony is about relevance, not abstract minimization. The fewest-step method can be wrong when one additional action realizes the chosen result, changes a later policy, or preserves a relied-on condition. The longest method can also be wrong when its extra actions have no substantive receiver. Comparing keeping and removing one proposed requirement makes that difference visible without inventing a global cost function.
 
-The three branches cover distinct reasons for mandatory status. Decision-changing result preserves exploration and discrimination. Selected realization preserves deterministic work. Assurance or recoverability preservation protects a named relied-on condition. Each reason justifies only mandatory status for the declared use and horizon; its direct owner establishes every downstream claim.
+The three branches distinguish contributions that a step-count screen would confuse. Decision-changing result recognizes exploration and discrimination. Selected realization recognizes deterministic work. Assurance or recoverability preservation recognizes a named relied-on condition. None alone establishes obtainability, net value or an obligation. Existing selection or reliance can settle the need; otherwise the direct choice or demand method completes it. This preserves useful work while allowing a probe that could matter to lose against an available continuation.
 
 The horizon must be substantive and bounded. A next-event horizon hides delayed information value; an indefinite horizon lets hypothetical future usefulness justify everything. The nearest named receiver is the smallest horizon that can carry the reason and the smallest reopen boundary when the use changes.
 
@@ -23765,7 +23793,8 @@ The rule coordinates existing decisions, transformations, results, evidence, ass
 
 | Practice question | Best-known line and serious alternative | Defect overcome and pattern mutation | Source roles and limits | Reopen condition |
 | --- | --- | --- | --- | --- |
-| How should a process designer recognize information-seeking action whose value appears in a later decision rather than the immediate result? | The selected line distinguishes epistemic from pragmatic value and evaluates present action across counterfactual future policies. The serious default is an immediate-result screen that calls a probe useless when the next action stays unchanged. | The default deletes useful exploration. **Adapt:** the decision-changing-result branch admits a probe only when a materially plausible result changes a named later policy inside the substantive horizon. | Friston et al., [“Active Inference: A Process Theory”](https://direct.mit.edu/neco/article/29/1/1/8207/Active-Inference-A-Process-Theory) (2017), supplies the epistemic/pragmatic distinction; Friston et al., [“Sophisticated Inference”](https://direct.mit.edu/neco/article-abstract/33/3/713/97487) (2021), supplies the counterfactual policy horizon. They are best-known-line candidates for these discriminators, not evidence of a universal engineering threshold, FPF ontology, or effectiveness claim. At comparable use effort, naming the receiving decision preserves delayed value that the immediate-result default loses. | Reopen if stronger current evidence changes the epistemic/pragmatic distinction, defeats the receiving-decision test, or supplies a lower-effort discriminator that preserves the same exploration boundary. |
+| How should a process designer recognize information-seeking action whose value appears in a later decision rather than the immediate result? | Historical anchors distinguish epistemic from pragmatic value and evaluate present action across counterfactual future policies. The serious default is an immediate-result screen that calls a probe useless when the next action stays unchanged. | The default deletes useful exploration. **Adapt:** the decision-changing-result branch recognizes a probe's contribution when a materially plausible result changes a named later policy inside the substantive horizon; the receiving choice still decides whether obtaining it is worthwhile. | Friston et al., [“Active Inference: A Process Theory”](https://direct.mit.edu/neco/article/29/1/1/8207/Active-Inference-A-Process-Theory) (2017), supplies the epistemic/pragmatic distinction; Friston et al., [“Sophisticated Inference”](https://direct.mit.edu/neco/article-abstract/33/3/713/97487) (2021), supplies the counterfactual policy horizon. They supply historical discriminators, not evidence of a universal engineering threshold, FPF ontology, or effectiveness claim. At comparable use effort, naming the receiving decision preserves delayed value that the immediate-result default loses. | Reopen if stronger current evidence changes the epistemic/pragmatic distinction, defeats the receiving-decision test, or supplies a lower-effort discriminator that preserves the same exploration boundary. |
+| When does relevant uncertainty justify another inquiry? | The current constructed-value-of-information line separates decision relevance from uncertainty magnitude and examines uncertainty in the prioritization itself. The serious alternative treats either large uncertainty or a possible decision change as a sufficient acquisition rule. | **Adapt:** contribution screens a demand; the receiving decision then compares attainable gain with the whole burden. Use a proportionate sensitivity comparison when plausible input changes could reverse that result. | Runge et al., [A Simplified Method for Value of Information Using Constructed Scales](https://pubsonline.informs.org/doi/10.1287/deca.2023.0474) (2023), supplies preliminary decision-relevance assessment. Davis et al., [Constructed value of information with iterative scoring and parametric uncertainty](https://pubmed.ncbi.nlm.nih.gov/41678595/) (2026), supplies a later research-priority comparison in which scoring uncertainty can change priorities. Their domain results motivate these distinctions; they do not establish a universal required score, authority or engineering threshold. `C.11` and `C.11.DUA` carry the local choice and advice methods. | Reopen when a relevant source or actual use changes how attainable information alters the receiving decision, or defeats the proportionality of the comparison. |
 | Can expected free energy or physical least action serve as a universal scalar rule for admitting engineering actions? | The selected critical line shows that expected free energy is not obtained merely by projecting variational free energy forward, while least-action results in the free-energy principle depend on a particular random-dynamical and Bayesian construction. The serious alternative is to transplant EFE, VFE, or Hamiltonian “least action” as a general engineering objective. | The transplant launders model-dependent mathematics into authority and can hide the actual receiving use. **Reject:** no EFE/VFE/Hamiltonian equivalence or mandatory score enters the Solution. **Adapt:** judge information-seeking work by a named receiving decision and counterfactual horizon, with risk and ambiguity supplied by their direct owners. | Millidge, Tschantz, and Buckley, [“Whence the Expected Free Energy?”](https://direct.mit.edu/neco/article/33/2/447/95645/Whence-the-Expected-Free-Energy) (2021), supplies failure evidence against the simple VFE-forward account. Friston et al., [“The free energy principle made simpler but not too simple”](https://www.sciencedirect.com/science/article/pii/S037015732300203X) (2023), supplies the model-dependent least-action construction. Neither source establishes an engineering duty, assurance floor, scalar optimum, or universal process law. The selected qualitative rule is cheaper to apply and keeps direct authorities visible. | Reopen if a current primary result establishes a transferable engineering admission rule with explicit scope and lower decision error at comparable effort, or if a governed use requires a quantitative comparator under its own direct pattern. |
 
 ### A.11.OP:12 - Relations
@@ -23773,7 +23802,7 @@ The rule coordinates existing decisions, transformations, results, evidence, ass
 - **Classified by:** `E.3` as one `Prag` principle. It primarily advances P-1 Cognitive Elegance, P-7 Pragmatic Utility, P-10 Open-Ended Evolution, and P-11 State-of-the-Art Alignment while respecting the other Pillars.
 - **Coordinates with:** `A.11`, which governs admission of ontology additions. Namespace adjacency makes the two parsimony questions discoverable; their EntitiesOfConcern remain distinct.
 - **Coordinates with:** `E.11.PUA` and `E.11.PUR`, which govern use, recommendation, coordination, and reuse after a pattern has been selected. A.11.OP asks whether an extra mandatory requirement belongs in the first place.
-- **Coordinates with:** `C.11`, `C.19.2`, `A.19`, and Method Engineering for comparison or configuration of qualifying alternatives under their own conditions. Those owners decide the application threshold and choose among alternatives.
+- **Coordinates with:** `C.11.DUA` for the merits and feasible continuation of an advice or evidence demand, including a single requirement with no live OptionSet; `C.11` for a current local choice and probe-worthiness; and `C.19.2`, `A.19`, and Method Engineering for their apparatus, architecture or Method comparisons. A.11.OP supplies the contribution screen. These direct owners complete the applicable demand, selection or configuration question.
 - **Coordinates with:** `E.13` for proxy-to-value repair and `E.23` for operations inside repeated evaluated improvement. A.11.OP retains the initial action-admission question.
 - **Coordinates with:** `A.3.1` and `A.3.2` for Method and MethodDescription identity, `A.15.1` for dated Work, and `A.15.7` for next-action choice during ongoing Work. A.11.OP governs design-time admission of the requirement.
 - **Constrained by:** applicable law and regulation, `E.5` Guard-Rails, `A.10` reliance boundaries, `B.3` assurance floors, and any other direct subject or authority pattern for the use.
@@ -27387,10 +27416,10 @@ Reading this pattern, consulting a MethodDescription, following a plan, or recei
 #### A.15.7:4.2 - Run the seven-step steering Method
 
 1. **Confirm current Work or close this entry.** Name the ongoing Work occurrence at the grain that changes the decision. When the performed-Work claim matters, first use A.13 to identify the actual performer, then let A.15.1 independently admit the dated occurrence from its performance history, enacted domain Method, time, and required containing-System relation. If this steering account must also identify the assignment under which the Work was performed, check that assignment separately through F.6; F.6 identifies neither performer nor assignment, and a failed check leaves the Work intact. If Work has not begun, stop using this pattern: use `A.15.2` for intended-work content, `A.15.5` for work-entry readiness, or `C.11` only when a known chooser must compare an already formed `OptionSet`. Do not turn intended Work into a current occurrence or every small action into separate Work.
-2. **Use only action-guiding information about current facts.** Name the relevant observation, participant response, available material, resource or safety limit, commitment, case fact, or time pressure. If an observation, report, recommendation, displayed case-state claim, or other relied-on information may be out of date, has no checkable source, or has no stated time window for use, re-observe it or refresh it from its source; otherwise use a named safe fallback or stop. A directly checkable live cue needs an ordinary observation sentence, not a universal situation record or evidence dossier.
+2. **Use only action-guiding information about current facts.** Name the relevant observation, participant response, available material, resource or safety limit, commitment, case fact, or time pressure. Recover the source and time conditions that can change its use. A missing timestamp or the age of a record alone does not defeat still-applicable information. When a changed condition or missing required support defeats a relied-on claim, retain the other qualified information and name the affected limit. Use `C.11.DUA` to compare a feasible, timely refresh with a supported narrower action, the declared safe fallback or stopping. Obtain the needed evidence for the selected use; do not act on an unsupported premise because refresh is costly. A directly checkable live cue needs an ordinary observation sentence, not a universal situation record or evidence dossier.
 3. **Recover both Method positions.** State the domain Method and its relevant allowances and stops. State the steering Method only when it is actually used, and choose the separately grounded co-enactment or admitted-submethod account in §4.1. A description, plan, policy, score, case model, recommender, or dashboard may inform the decision; it neither acts nor decides.
 4. **Form the smallest honest set of available actions.** Include only actions allowed now by the domain Method and named constraints. If the Method already requires one action and no material branch remains, follow it and stop using this pattern. If no acceptable action is known, use a subject-specific generation Method; use `C.18` only when an open-ended candidate archive and front are actually needed. Do not hide invention inside choice.
-5. **Use the lightest truthful choice mode.** State the cue, comparison, quick forecast, value concern, or mandatory criterion that can change the answer. A reliable cue may select a familiar response after an applicability and consequence check. An unfamiliar or consequential case may require diagnosis, adaptation, or a quick mental or physical forecast. When several live alternatives genuinely require comparison, pass the chooser, current `OptionSet`, comparison basis, and probe question to `C.11`.
+5. **Use the lightest truthful choice mode.** State the cue, comparison, quick forecast, value concern, or mandatory criterion that can change the answer. A reliable cue may select a familiar response after an applicability and consequence check. An unfamiliar or consequential case may require diagnosis, adaptation, or a quick mental or physical forecast. When several live alternatives genuinely require comparison, pass the chooser, current `OptionSet` and comparison basis to `C.11`. Include an inquiry question only when it is live under C.11's conditions; an already supported choice needs no invented probe or omission account.
 6. **Keep choosing, authority, and acting separate.** Name the deciding System and the intended performer. If the choice depends on permission, responsibility, commitment, capability, or authority, establish that exact relation instead of inferring it from a system-role label or recommendation score. If the required relation does not obtain or cannot be grounded, return to the System that must supply it or stop.
 7. **Return decision, performer, and feedback separately.** State the selected action and the reason that distinguished it, the intended performer, and the nearest stop, fallback, new observation, or return to ongoing Work. If the choice changes intended-work content, update the `U.WorkPlan` separately. If the action is performed, follow step 1 to identify its actual performer and admit the dated Work; add F.6 only if the returned result must also identify the assignment under which the action was performed, and ground any operation application separately. Retain the resulting observation without rewriting the earlier Method or Work.
 
@@ -27403,7 +27432,7 @@ Reading this pattern, consulting a MethodDescription, following a plan, or recei
 | Several admissible actions remain and comparison can change the choice | Use `C.11`; add `A.19` kernels only when their comparison or selection result matters. | A `ChoiceResult` that fits the applicable constraints, then return here for performer and feedback. |
 | The available actions are absent or inadequate | Use a subject-specific generation Method; use `C.18` only for an actual open-ended archive/front question. | New candidates or an honest failure to generate; no premature choice. |
 | The action is fixed but calls to tools or services must be planned | Use `C.24`. | A call plan and checkpoint return; the call plan is not the underlying choice. |
-| An observation, report, recommendation, case-state claim, or other action-guiding information is outdated or lacks usable time or source support | Re-observe it or obtain up-to-date information from a named source; otherwise use the named safe fallback or stop. | No action justified by an old recommendation, case-state claim, resource report, or participant-response report. |
+| A changed condition or missing required support defeats an action-guiding claim | Keep the other qualified information; compare feasible, worthwhile refresh with a supported narrower action, the named safe fallback or stopping under §4.2. | No action rests on the unsupported premise. Age or a missing administrative time field alone does not invalidate an applicable claim. |
 | Safety, authority, capability, applicability, or current Work is unresolved | Use the pattern that defines or tests the missing claim—for example, `A.2.2` for capability, `A.15.1` for performed Work, and `A.15.5` only for work-entry readiness; keep safety, authority, and applicability with the pattern that defines them. | No fabricated action, permission, capability, Work, or Method change. |
 
 #### A.15.7:4.4 - Keep the first result light
@@ -27429,6 +27458,8 @@ The performers, deciding System, musical or movement material, interaction, Meth
 #### A.15.7:5.3 - Case handling and stale information
 
 A worker is performing one case-handling Work occurrence under a domain Method. A displayed case state predates newly filed evidence. Because that age can change the action, the worker refreshes the case state before relying on it. If refresh is unavailable, the worker uses the declared safe fallback or stops. The case file records claims; it neither chooses, supplies authority, nor performs Work.
+
+The worker also uses an identified procedure whose version and applicability remain unchanged. The displayed copy has no separate expiry field, and this use requires none. The worker retains that procedure while refreshing the case-state claim affected by the new evidence. The result names the current next action and its limits, with no separate certificate for retaining the unaffected procedure.
 
 If the organization's admitted case-handling Method already includes this steering Method, state that composition separately. Do not infer it from the case model or a repeated workflow label.
 
@@ -46855,6 +46886,8 @@ If that first output still cannot be stated, the local comparison is unfinished 
 - What next probe could still change the choice, if any?
 - Is this still local choice, or has the question moved to a neighboring problem—for example, search, pool policy, selector-result declaration, publication availability, or enactment?
 
+**When advice still hides the decision.** Use `C.11.DUA` when a recommendation or evidence demand still needs its receiving question, demanded work or requirement merits recovered. Return here when a current chooser and options support a local choice. An already adequate choice uses this pattern directly.
+
 **Typical reroutes.** `C.38` when labels or fragments still need to become complete ways of obtaining the same result; `C.18` when the real question is open-ended invention or reframing; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice; `A.18` for Scale and Coordinate bindings or `A.19` for a declared CharacteristicSpace or reusable predicate when that support question itself becomes primary.
 
 **Common neighboring-pattern mistakes.** Do not use `C.11` to hide search work inside "decision", to hide candidate-pool policy inside one local choice, or to hide execution planning inside one generic rationality account. Do not treat declaring selector-facing set-result content, or later making that result available, as if either were the same question as deciding.
@@ -46936,9 +46969,9 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
    Add one `CounterfactualModel` plus one `SubjunctiveDependenceRelation` when the case depends on one predictor, one structurally linked chooser, or one decision-procedure coupling that intervention talk alone does not capture.
    Use the least-committing dependence layer that still covers the live case, and do not switch layers across options without saying so explicitly.
 
-5. **Run the probe-worthiness test before commitment.**
-   State one `ProbeActionSet`, one `ProbeBudget`, and one `CostToProbe`.
-   Use `ValueOfInformation` for additional observation or measurement, and `ValueOfComputation` for additional reasoning, simulation, or search over the already-available options.
+5. **Compare a live inquiry alternative before commitment.**
+   An inquiry alternative is live when a current proposal, consequential uncertainty, anomaly or applicable requirement supplies a plausible way for further information or computation to change this choice or its warranted use.
+   Apply the probe-worthiness test to that alternative, stating the feasible probe, budget, cost and relevant information or computation value at the precision the choice needs. Otherwise this step adds no investigation or recording requirement. An empty form field does not activate inquiry, and no new search is required to certify that no other inquiry exists.
    This rule is intentionally local or myopic: it judges the best next feasible probe over the current `OptionSet` and current comparison basis, not one full sequential or non-myopic experimental program. Richer `OED` lines may strengthen this doctrine, but the local `C.11` closure rule already has to decide whether the next feasible probe can still change the current choice.
    If no feasible further probe fits the remaining `ProbeBudget`, or if the best available probe no longer justifies its `CostToProbe`, close under the current comparison basis.
    If a feasible probe is still worth its cost, and that probe could still change which option survives or whether the current `OptionSet` should be rejected, run it, update the `BeliefState` and `OutcomeModel`, and return to step 3.
@@ -46946,7 +46979,7 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 
 6. **Apply one `ChoiceRule` and emit one `ChoiceResult` plus the next question.**
    End with one explicit result: `choose now`, `reject current set`, `probe again`, or `reroute because this is no longer local choice`.
-   If the result is `choose now`, name the winning option or the retained tie-set plus the reason no remaining feasible probe is worth its cost.
+   If the result is `choose now`, name the selected option or retained tie-set and the comparison basis supporting it; add the outcome of a live inquiry comparison or a limitation needed by the decision or its recipient.
    If the result is `reject current set`, name the reason no current option survives under the present basis and, when more work follows, the neighboring question that now takes over.
    If the result is `probe again`, name the next probe and the exact comparison defect it is supposed to repair.
    A `C.11` pass is done only when it names the lawful choice result and the reason that result is lawful.
@@ -46960,13 +46993,15 @@ No separate premise-qualification result sits between those owners and `C.11`. U
 #### C.11:4.2.1 - Well-formed comparison state
 
 
-Well-formedness constraint: a live `C.11` comparison state is usable only when the decision record states all of the following:
+Well-formedness constraint: a live `C.11` comparison state is usable only when the decision record states the following, subject to the stated condition on inquiry:
 
 - one `DecisionSubject` at one `DecisionSubjectGranularity`;
 - one current `OptionSet`;
 - one current comparison basis through `PreferenceOrder` or `EvaluativeMeasure`, plus one `BeliefState` and one `OutcomeModel`;
 - one active dependence layer for the current comparison, unless the record explicitly says that comparison is still being reopened;
-- one current account of whether another probe is still feasible and worth its cost.
+- when an inquiry alternative is live, an account of its feasibility, cost and possible contribution to the choice; when a decision or later use needs a retained inquiry limitation or reason, that minimum content in the same decision result.
+
+An inactive inquiry item requires no empty value, no no-probe statement and no waiver. The chooser, option set, shared comparison basis and applicable dependence layer remain necessary.
 
 The comparison is still unfinished, not yet wrong but not yet closeable, when any of the following remains true:
 
@@ -47017,7 +47052,7 @@ If the next probe would no longer change which option survives but would only ch
 
 `ChoiceRule` and `ChoiceResult` are not the same kind of thing.
 
-- `ChoiceRule` is the doctrine or operator that says how the current comparison basis, dependence layer, and probe-worthiness value support one `ChoiceResult`.
+- `ChoiceRule` is the doctrine or operator that says how the current comparison basis, dependence layer, and any applicable probe-worthiness value support one `ChoiceResult`.
 - `ChoiceResult` is the emitted record stating which choice result is lawful now under that rule.
 
 The operational answer of this pattern is therefore one emitted `ChoiceResult` under one explicit `ChoiceRule`. The result is complete only when it states the choice result and the condition that makes that result lawful.
@@ -47033,9 +47068,8 @@ A fifth soft result such as "keep thinking", "stay with the current view", or "t
 
 For `choose now`, the emitted `ChoiceResult` should show:
 
-- the selected option or the retained tie-set;
-- the comparison basis under which that result currently holds;
-- the reason no still-feasible probe is worth its cost.
+- the selected option or retained tie-set and the comparison basis supporting it;
+- the outcome of a live inquiry comparison or a limitation needed by the decision or its recipient, when applicable.
 
 For `reject current set`, the emitted `ChoiceResult` should show:
 
@@ -47070,6 +47104,8 @@ The comparison may close as `reject current set` only when all of the following 
 - no still-feasible next probe is expected to rescue one member with enough expected value to justify its cost;
 - the result is still one local choice conclusion rather than one disguised pool-policy, selector-result declaration, publication-availability, or enactment result.
 
+Assess the probe conditions above from the current basis and any live inquiry alternative. They are conditions of a warranted choice, not a requirement to produce a separate account of omitted checking.
+
 The comparison should close as `probe again` only when all of the following are true together:
 
 - one next probe is named by value;
@@ -47089,7 +47125,7 @@ If none of those closure conditions can yet be satisfied, the record is still un
 
 #### C.11:4.2.5 - Minimal decision-record form
 
-A minimal `C.11` decision record has this shape:
+A minimal `C.11` decision record has the shape below. Include `ProbeDecisionValue` only for a live inquiry alternative or an inquiry judgement whose content the decision or recipient needs. Include only the relevant information or computation value. A retained prose reason or limitation alone does not activate that block: put only the needed statement in `ChoiceResult`.
 
 ```text
 DecisionSubject(...)
@@ -47102,14 +47138,13 @@ ComparisonBasis(
   optional intervention/counterfactual/subjunctive layer
 )
 ChoiceRule(
-  closure rule over the current basis and probe decision value
+  closure rule over the current basis and any applicable probe decision value
 )
-ProbeDecisionValue(
+ProbeDecisionValue(  # conditional as described above
   probeActionSet,
   probeBudget,
   costToProbe,
-  valueOfInformation,
-  valueOfComputation
+  relevant valueOfInformation or valueOfComputation or both
 )
 ChoiceResult(
   choiceDisposition = choose_now | reject_current_set | probe_again | reroute,
@@ -47118,9 +47153,7 @@ ChoiceResult(
 )
 ```
 
-The record does not need that exact syntax. It does need that exact content.
-
-If the record does not state the current chooser, current options, current comparison basis, current `ChoiceRule`, current probe decision value, and current `ChoiceResult`, then it is not yet a usable decision record.
+Exact syntax is unnecessary. The chooser, options, shared comparison basis, `ChoiceRule` and `ChoiceResult` are required. Inquiry content is required only under the stated condition; an absent block requires no placeholder or omission explanation.
 
 Use branch language only when it changes the actual comparison being performed.
 
@@ -47323,19 +47356,21 @@ A `C.11` decision record is complete only when it states:
 - how the options are compared: `PreferenceOrder` or `EvaluativeMeasure`, plus `BeliefState` and `OutcomeModel`;
 - which heavier dependence layer is active when the case needs it: `InterventionModel` for causal repair, or `CounterfactualModel` plus `SubjunctiveDependenceRelation` for success-first or predictor-coupled repair;
 - what comparison doctrine currently governs the case: one explicit `ChoiceRule`;
-- whether further probing is available and worth paying for; when a further probe or computation pass is live, state `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation`;
+- when an inquiry alternative is live, an account of its feasibility, cost and possible contribution to the choice; when a decision or later use needs a retained inquiry limitation or reason, that minimum content in the same decision result.
 - what the current comparison concludes: one emitted `ChoiceResult` that says choose now, reject the current set, probe again, or reroute.
   That result must name either the selected option, the retained tie-set, the rejected current set, or the next probe or reroute named by value.
 
 Without that explicit tuple, choice doctrine usually collapses into one of three easier but wrong substitutes: generic rationality talk, search folklore, or planning folklore.
 
-The finish condition is more specific than "the record now sounds informed." The record is finished enough for practical use only when the choice result stated in `ChoiceResult` follows from the stated comparison basis, stated `ChoiceRule`, and stated probe decision value rather than from unstated background assumptions.
+The finish condition is more specific than "the record now sounds informed." The record is finished enough for practical use only when the choice result stated in `ChoiceResult` follows from the stated comparison basis, stated `ChoiceRule`, and any applicable probe decision value rather than from unstated background assumptions.
 
 A `C.11` pass is finished enough for practical use when all three conditions hold:
 
 - the current comparison basis is explicit enough to explain the stated `ChoiceResult`: why an option or tie-set survives, no current option survives, or probing or rerouting is needed;
-- the reason to stop probing, or the reason to probe again, is explicit rather than assumed;
+- any live inquiry alternative has been resolved sufficiently to support the choice, and the result retains any inquiry reason or limitation needed by this decision or its recipient;
 - the next question is explicit: `choose now`, `reject current set`, `probe again`, or `reroute`.
+
+An inactive inquiry item adds no placeholder or omission account to this tuple or finish condition.
 
 If the case remains tied or underdetermined under the current basis, say that directly and keep the tie-set explicit. A lawful `ChoiceResult` may still be `probe again` or `reroute`, but it must not pretend that one winner already exists when the current basis has not earned that conclusion.
 
@@ -47402,7 +47437,7 @@ The family map also remains plural: causal, success-first, active-inference, and
 | `CC-C11.1` | The pattern **SHALL** state that `C.11` governs choice among already-available options rather than formation of comparable ways or open-ended candidate generation. | Keeps `C.38` and `C.18` outside and prevents candidate-construction or search takeover. |
 | `CC-C11.2` | The pattern **SHALL** keep `DecisionSubject` as the default chooser term, and **SHALL NOT** use `Agent` as the generic chooser term unless one explicit agency claim is governed by `A.13`; measured characteristic and evidence claims use `A.17` for Characteristic identity and arity, `A.18` for Scale and Coordinate bindings, `A.19` for the declared space and reusable predicate, `C.16` for the measurement account, and `A.10` for bounded reliance on the evidence. | Prevents unwanted narrowing of the chooser. |
 | `CC-C11.3` | The pattern **SHALL** state the boundary among `C.11`, `C.38`, `C.18`, `C.19`, `C.24`, and `G.5` explicitly in the body. | Prevents collapse of choice doctrine, same-result way formation, open-ended generation, candidate-pool policy, planning, and selector-facing result declaration. |
-| `CC-C11.4` | `Solution` **SHALL** state one inspectable decision procedure from `DecisionSubject` and `OptionSet` through comparison basis, dependence layer, probe-worthiness test, one explicit `ChoiceRule`, and one emitted `ChoiceResult`. | Keeps `C.11` as one operational answer to the choice question rather than one survey of schools. |
+| `CC-C11.4` | `Solution` **SHALL** state one inspectable decision procedure from `DecisionSubject` and `OptionSet` through comparison basis, dependence layer, applicable probe-worthiness test, one explicit `ChoiceRule`, and one emitted `ChoiceResult`. | Keeps `C.11` as one operational answer to the choice question rather than one survey of schools. |
 | `CC-C11.5` | The pattern **SHALL** name one minimal decision inventory including `DecisionSubject`, `DecisionSubjectGranularity`, `OptionSet`, `PreferenceOrder`, `EvaluativeMeasure`, `BeliefState`, `OutcomeModel`, `ChoiceRule`, `ChoiceResult`, `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation`. | Keeps the calculus objectual rather than slogan-like. |
 | `CC-C11.6` | Load-bearing inventory terms used in the pattern text **SHALL** receive local plain glosses or equivalent operational clarification inside the body. | Prevents the core terminology from remaining implicit or displaced into outside basis carriers. |
 | `CC-C11.7` | Relation-heavy terms such as `PreferenceOrder`, `CounterfactualModel`, and `SubjunctiveDependenceRelation` **SHALL** remain answerable to `A.6.P` together with `A.6.5`. | Keeps dependence language inspectable and deconflicted. |
@@ -47412,7 +47447,7 @@ The family map also remains plural: causal, success-first, active-inference, and
 | `CC-C11.11` | Shortlist or other selector-facing set-result declaration **SHALL NOT** be treated as part of `C.11`; if the question shifts to declaring or naming that result, the text **SHALL** apply `G.5`. Actual presentation or availability **SHALL** remain separate: use `E.17` for the publication face and return to source and `E.24.PUB` for the publication occurrence and availability. | Preserves the boundary among local choice, selector-result declaration, and publication availability. |
 | `CC-C11.12` | When one heavier dependence layer or neighboring family line is activated, the text **SHALL** state what limitation of the simpler comparison it repairs and what changes in the actual comparison once that line is in play. | Prevents branch-name citation from replacing use-time doctrine. |
 | `CC-C11.13` | The text **SHALL** make the closure rule explicit enough to justify why the lawful result is `choose now`, `reject current set`, `probe again`, or `reroute` rather than some softer holding-pattern output, and **SHALL** treat vaguer endings as unfinished rather than as lawful results. | Prevents the decision record from ending in one sophisticated but operationally empty result. |
-| `CC-C11.14` | The decision record **SHALL** make one minimal decision-record shape explicit: chooser, option set, comparison basis, one explicit `ChoiceRule`, probe decision value, and one emitted `ChoiceResult`; `choose now`, `reject current set`, `probe again`, and `reroute` outputs **SHALL** each state their mandatory fields explicitly enough to determine the lawful choice result without reopening surrounding rationale. | Keeps the pattern usable as one working decision record rather than one doctrinal memo. |
+| `CC-C11.14` | The decision record **SHALL** make one minimal decision-record shape explicit: chooser, option set, comparison basis, one explicit `ChoiceRule`, inquiry content under the condition in 4.2.1, and one emitted `ChoiceResult`; `choose now`, `reject current set`, `probe again`, and `reroute` outputs **SHALL** each state their mandatory fields explicitly enough to determine the lawful choice result without reopening surrounding rationale. An inactive inquiry item is not a missing mandatory field and creates no omission record. | Keeps the pattern usable as one working decision record rather than one doctrinal memo. |
 | `CC-C11.15` | If a `ChoiceResult` is supported by a causal effect, counterfactual comparison, causal policy, or off-policy causal evaluation claim, it **SHALL** carry `ChoiceResult.causalUseSpec?` with the target rung, claim kind, relevant support-component refs, support-result ref when consumed, supported use, and unsupported use. | Prevents decision-theory vocabulary from certifying causal-use support. |
 
 ### C.11:8 - Common Anti-Patterns and How to Avoid Them
@@ -47424,7 +47459,7 @@ One quick usability test helps here: if the closing line does not state one lawf
 | Candidate-formation or search takeover | The text starts constructing complete ways or generating options as if that work were already part of decision doctrine. | `C.11` loses its decision-theory EntityOfConcern and silently absorbs `C.38` or `C.18`. | State the option set as already existing; use `C.38` for same-result way formation and `C.18` for open-ended generation. |
 | Policy collapse | Exploration or exploitation governance over a candidate pool is written as if it were identical with choosing among current options. | Choice doctrine and candidate-pool policy become indistinguishable. | `C.19` remains explicit as the neighboring pattern for selection policy and exploration governance. |
 | Planning collapse | Sequencing, replanning, and enactment budgeting are written as if they were already part of the choice calculus. | Planning-side question moves out of `C.24` by accident. | Execution order and operational budgeting remain in `C.24`, even when `C.11` says more probing is rational. |
-| Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes one cleaned-up survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, probe-worthiness test, one explicit doctrine, and one emitted result. |
+| Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes one cleaned-up survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, applicable probe-worthiness test, one explicit doctrine, and one emitted result. |
 | Hidden basis shift | Different options are compared under different belief states, outcome models, or dependence layers without one explicit statement that the basis changed. | The comparison only looks precise; in fact the choice rule cannot be audited. | Keep one shared comparison basis until one named probe or model change updates it, and state explicitly when the dependence layer changes. |
 | No closure rule | The text sounds careful but never says what makes `choose now`, `reject current set`, `probe again`, or `reroute` lawful. | The record never closes into one explicit decision result. | State the closure conditions explicitly and show why the current case satisfies exactly one of them. |
 | Undefined load-bearing terms | Terms such as `PreferenceOrder`, `BeliefState`, or `OutcomeModel` appear without local operational clarification. | Core comparison objects stay implicit and the decision question depends on outside theory or undocumented assumptions. | Give one local plain gloss or equivalent operational clarification for each load-bearing term used in the pattern text. |
@@ -47741,6 +47776,249 @@ Refresh only the affected source-use row when a newer result changes one Solutio
 - **Keeps outside:** universal marginal value, a new delta kind, domain formulas and thresholds, causal proof, assurance, permission, selected-set declaration, and `ChoiceResult`.
 
 ### C.11.CRC:End
+
+## C.11.DUA - Decision-Useful Advice and Evidence Demands
+
+> **Tech name:** `DecisionUsefulAdvice`
+>
+> **Plain name:** make advice and evidence demands useful to the recipient's decision
+>
+> **Type:** C-pattern
+>
+> **Status:** Stable
+
+### C.11.DUA:1 - Problem frame
+
+**Use this when** a report, expert answer, review comment, rule or checklist asks somebody to act, wait, investigate or supply evidence, but it is unclear how that demand helps their present question or whether they can carry it out.
+
+An engineer reports that a discharge criterion was below the incoming background level. A colleague wants help examining the criterion. A useful answer can attribute the report and distinguish total level from the operation's contribution. Requiring an archive search before making that distinction spends effort without improving that answer. If the colleague later wants to publish who imposed the criterion, the receiving question changes: a contemporary record may now be worth obtaining. The method below reaches a completed answer in both situations.
+
+The broad activity is decision support through advice. This pattern addresses the branch in which advice turns uncertainty or a requirement into consequential work for its recipient. Its subject is the **advice statement or requirement being composed or examined**, including the action or inquiry it demands. An empirical claim, recommendation, method instruction and binding requirement retain their different meanings and force. The method recovers the demand, appraises it and returns a usable continuation.
+
+**First useful result.** Give the supported answer or repaired advice, the continuation available to the recipient, and any limitation that changes its use. The result can be an explanation, recommendation, bounded inquiry, proposed requirement revision or an honest impasse. Ordinary prose is sufficient.
+
+**Ordinary non-use boundary.** If the question, support and feasible answer are already clear, answer directly. Use `A.10` directly for a source-reliance question, `C.11` for an already adequate local choice, or `C.19.2` for economical application under an undisputed declaration. This composition adds value when somebody otherwise has to reconstruct the connection between those questions. Domain inference, experimental design, permission and enactment remain with their own methods and authorities.
+
+### C.11.DUA:2 - Problem
+
+A limitation is often followed by a demand that does not follow from it. “This study cannot establish the effect” can be true while “therefore commission the ideal experiment before doing anything” is infeasible or inferior to a bounded action. Conversely, an inexpensive check may distinguish a damaging commitment from a useful alternative. Skipping it merely because the present answer is convenient repeats the same failure to compare consequences.
+
+The difficulty starts before a well-formed option set. Advice such as “validate thoroughly” can hide an investigator, access requirement, delay, claimed guarantee and transfer of cost to somebody else. The recipient has to recover that work before choosing whether it is worthwhile.
+
+A further failure appears at completion. A method may allow work to proceed without more inquiry yet require a probe block, waiver or explanation of every omitted check before accepting the answer. Producing that account is itself work. Sometimes a retained reason protects a later use; sometimes it adds nothing to the completed decision.
+
+### C.11.DUA:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Truthful support and useful continuation | The present evidence may support a narrower answer than the requested one; scarce resources do not strengthen that evidence. |
+| Inquiry and commitment | Information or computation can improve a choice, while delay, opportunity cost and investigation risk can worsen it. |
+| Requirement merits and present force | A requirement may deserve revision while continuing to constrain what the recipient can presently do. |
+| Immediate and later value | Operational action, explanatory progress, better models and future options can all matter at different horizons. |
+| Protective contribution and distributed burden | A cheap measure for the issuer can be costly for its recipient or shift risk to another affected party. |
+| Useful basis and unnecessary accounting | A decision needs its supporting basis; a record of an inactive check needs an actual receiving use. |
+
+### C.11.DUA:4 - Solution
+
+Start from what the recipient is trying to settle. Recover the work hidden in the advice, compare what that work can change with what it costs, and give the best warranted continuation. Follow that continuation through the required result and stopping point.
+
+#### C.11.DUA:4.1 - Recover the receiving question and demanded work
+
+Identify the question the recipient needs answered and the horizon at which an improvement matters. Read an existing instruction as something somebody would actually have to perform: what would they believe, do, stop doing, postpone or spend if they followed it?
+
+Recover a missing performer, resource, access, time condition or authority when it can change feasibility or the recommendation. An unavailable data set or a study that finishes after the decision window is a different option from an available timely check. Do not turn a simple answer into a universal plan form.
+
+For a text review, examine the connected passage that creates the demand, including its steps, mandatory fields and completion clauses. “Consider further evidence” and “obtain it before proceeding” impose different work. A final template can impose work that the preceding prose made optional.
+
+Keep three answers distinct:
+
+| Receiving question | Useful answer | Governing contribution when needed |
+| --- | --- | --- |
+| What does the present basis support? | An attributed claim, supported conclusion and its use limit. | `A.10`; direct domain inference or `C.28` for a causal use. |
+| What can the recipient reasonably do with that basis? | A feasible continuation, narrower use, reversible action, deferral or stop. | `C.11` for a local choice; `C.11.CRC` when the finite contribution comparison is missing. |
+| What further inquiry could improve that use? | A worthwhile attainable check, or continuation with the present basis. | `C.11` for information or computation value; the direct subject method for the inquiry. |
+
+These are questions to resolve where live, not three mandatory output fields. A source limitation qualifies the attempted claim. It does not by itself choose evidence acquisition.
+
+#### C.11.DUA:4.2 - Compare attainable inquiry with its receiving value
+
+When an inquiry is proposed or a consequential uncertainty, anomaly or applicable requirement makes one live, identify a plausible result that would change the conclusion, choice or warranted use. Compare obtaining that result with the feasible alternatives. These may include using present knowledge, a smaller reversible step, a different source, a narrower claim, deferral or stopping.
+
+Include the attainable inquiry's cost, delay, displaced work and downside. Compare what it adds to the present configuration and horizon; `C.11.CRC` supplies that missing comparison when needed. A large uncertainty is not sufficient reason for a large study. Ask how resolving it could improve this use. A cheap probe that can change an irreversible commitment deserves a different answer from an expensive check whose plausible results leave the useful answer unchanged.
+
+Qualitative or ordinal judgement often suffices. A numerical value-of-information or computation model is useful when it improves the choice; do not demand probabilities or a common scalar merely to fill a form. If plausible differences in judgement could reverse an important recommendation, examine those differences at proportionate effort. Keep distinct consequences visible when a scalar would hide the trade-off.
+
+An inquiry can be useful even if the physical action stays the same. It may establish which claim is warranted, meet an applicable evidence condition or make a proposed use admissible. Conversely, inability to obtain evidence does not make the stronger claim true or admissible.
+
+For exploratory research, name the explanatory, model-building, hypothesis-discriminating or option-creating gain at the research horizon. A study can earn its cost through those gains before an operational intervention is selected. The direct research method must still connect its attainable observations to that gain.
+
+#### C.11.DUA:4.3 - Appraise a disputed requirement and its current force
+
+When the requirement itself is in question, identify the quantity, activity or claim it governs and the problem it is meant to address. Examine its basis and uncertainty, threshold, protective contribution, burden and distribution of error costs. Include delay and displaced risks: reducing one named risk may increase another.
+
+Compare retaining, tightening, relaxing or replacing the requirement only where these are meaningful alternatives. Resolve labels such as “safety” or “security” to the particular hazard, exposure, action or evidence condition. Apply the same proportionality question to the evidence demanded to justify the requirement itself.
+
+A limit below background calls first for distinguishing the incoming background, the activity's attributable increment and the total resulting level. A total-exposure objective can justify reducing background too. Neither “below background” nor “required for safety” settles the merits without that contribution comparison.
+
+Keep the merits judgement separate from the currently available action set. A binding requirement continues to govern until the relevant authority or agreement changes it. Advice can recommend a lawful exception, a revised criterion or another activity and identify the feasible route to that change. A hoped-for revision is not already available. If the current requirement makes the proposed action unavailable and no acceptable alternative or timely revision is feasible, state that impasse.
+
+When applying apparatus under `C.19.2`, compare eligible applications under the current result, guarantee and constraints. A cheaper method that drops a required guarantee is a different proposal. Resume under a revised declaration only when that revision is available through its governing authority or agreement.
+
+#### C.11.DUA:4.4 - Return the advice through first useful completion
+
+Give the supported answer and available continuation in language the recipient can use. Retain uncertainty, attribution, a reason or a return condition when it changes that use. Where a substantive decision record is needed, put this content in the same result.
+
+For an external-text review, return a concrete repair: identify the demanded work, the consequence or burden that makes it defective, and the smallest replacement that reaches a warranted result. Keep a useful evidence demand when the comparison supports it. A finding for another author can be durable without becoming a per-sentence ledger.
+
+Follow the selected method through its completion requirements. Keep the recommendation or decision and its useful basis. An inactive inquiry creates no empty field, no waiver and no requirement to explain why checking was omitted. If a later recipient would otherwise overgeneralize the result, infer fresh evidence or miss a material limitation, retain the minimum explanation in that result. A short useful explanation alone need not instantiate a complete probe account.
+
+Apply the same appraisal to any prescribed record. If it has binding force, distinguish its usefulness from what the current procedure requires and use the available revision route. This pattern does not manufacture permission to disregard it.
+
+Finish when the recipient has the warranted answer and continuation for the present question, including a justified stop when necessary. Reopen when the receiving use, possible consequence, feasible means, source basis or information opportunity changes materially.
+
+#### C.11.DUA:4.5 - Keep recognition and assurance about the same advice
+
+The opening and worked situations help the reader recognize a consequential demand and repair it. The checklist below tests that same advice and the work it demands. It does not introduce a separate admission record or require every use to undergo a new review.
+
+Use `A.10` for the evidence boundary, `C.11` for a choice result, `D.4` for ethical mediation and the direct assurance method for a stronger guarantee when that question is live. Advice that a step is sensible supplies neither permission nor evidence that the step was performed.
+
+### C.11.DUA:5 - Archetypal Grounding
+
+These illustrative situations state their conditions for the comparison. Reported experience remains attributed; the numerical example uses stipulated decision inputs, not measurements from performed experiments.
+
+#### C.11.DUA:5.1 - A useful distinction now and corroboration for a later claim
+
+**Present use.** An engineer reports a criterion below incoming background. The recipient wants to understand whether that is necessarily a design mistake. An archive search would take weeks. Its plausible results could change the historical account but would not change the requested distinction.
+
+**Completed answer.** “On your account, the threshold was below the incoming background. That alone does not establish a mistake. A criterion for the operation's added contribution and a criterion for total exposure govern different quantities; the latter can require reducing background too. Compare the protection gained with the feasible treatment burden before judging the threshold.”
+
+That answer supplies the requested distinction and keeps its attribution. It makes no independently verified historical claim and issues no operating permission. The answer itself completes this use; a second account of why archives were not searched adds nothing.
+
+**Changed use.** The recipient now plans to attribute responsibility in a report. Suppose an accessible contemporary record can identify who set the criterion and what it governed. A one-hour record check is feasible and could settle the attribution.
+
+**Completed advice.** “Check the contemporary criterion record before attributing its authorship or meaning. The participant account supports the attributed report of experience; it does not establish that attribution. If the record cannot settle it, describe the account without assigning responsibility.” This finishes the advice, including the next feasible check and the limit on its use. It does not claim the check has occurred.
+
+#### C.11.DUA:5.2 - A completed choice with conditional inquiry content
+
+A research team chooses among feasible plans A, B and C. Two calibration states, s1 and s2, have equal weight. The team's rule minimizes expected residual loss; shorter duration breaks equal-loss ties. The following are cardinal comparison inputs.
+
+| Present model T0 | A | B | C |
+| --- | --- | --- | --- |
+| Residual loss in s1 | 6 | 2 | 4 |
+| Residual loss in s2 | 8 | 3 | 5 |
+| Expected residual loss | 7 | 2.5 | 4.5 |
+
+**Completed decision.** Retain T0 and: “The research team chooses B now among A, B and C for this experiment. At equal state weights the expected losses are 7, 2.5 and 4.5. We minimize expected residual loss, with duration breaking ties.” B is preferable in either state. The current basis supports this choice; no unresolved inquiry alternative needs a separate account.
+
+A completion form demanding unused probe budget, cost and information/computation fields would add omission accounting to that result. Conditional inquiry content leaves the decision and its basis intact.
+
+**Opposed condition.** Change the loss model to T1 below. A specified one-day calibration can distinguish the states perfectly, an available technician can perform it, and two days remain. The team accepts that delay for a reduction in expected loss.
+
+| Changed model T1 | A | B | C |
+| --- | --- | --- | --- |
+| Residual loss in s1 | 0 | 3 | 5 |
+| Residual loss in s2 | 8 | 3 | 5 |
+| Expected residual loss | 4 | 3 | 5 |
+
+**Completed first choice.** Retain T1 and: “Probe again with the one-day calibration. Choosing B now has expected loss 3; choosing A after s1 or B after s2 has expected loss 1.5. The available day and technician make the probe feasible, and the team accepts the delay for that reduction.” This is a completed `C.11` probe-again result. The measurement remains to be performed. An actual s1 result would then select A; s2 would select B.
+
+**Transfer requiring a reason.** Return to T0, now sent to a colleague considering B for another calibration range. Retain: “B was selected under the two states in T0; distinguishing those states would not alter that choice. This decision establishes no fresh calibration and must be reconsidered for another range.” The explanation changes the colleague's use: reopen the comparison instead of treating B as generally preferred. It belongs in the same decision result and needs no empty probe block.
+
+#### C.11.DUA:5.3 - Repair a study demand in an external report
+
+A consultancy report says, “Do not introduce the revised teaching exercise until a large randomized study proves its effect.” The teaching team must choose materials for four sessions next month; that study would take two years. The present synthesis does not establish a causal learning effect. The team's immediate question is whether the revised materials can meet the existing course requirements with less preparation.
+
+For this illustrative comparison, both formats meet the content and participant-protection requirements, and no binding rule requires the proposed effect study for this bounded use. The remaining uncertainty is whether the revised materials run with the room's existing tools. The team requires that readiness to be established before selecting them. A thirty-minute setup rehearsal by the instructor in that room can settle it; it creates no student exposure.
+
+Use the team's stipulated planning estimates: the current exercise requires ninety minutes of preparation per session; the revised materials require thirty if compatible, otherwise the team retains the current exercise. The same room and tools will serve all four sessions. The team regards compatibility and incompatibility as equally plausible and prefers less instructor preparation once the course and protection constraints are met. The rehearsal fits the available preparation window.
+
+A successful rehearsal makes the revised materials available and saves four hours across the sessions; a failed rehearsal leaves the current exercise selected. With equal weights, the expected preparation saving is two hours before the rehearsal's half-hour cost, or ninety minutes net. Retaining the current exercise uses no rehearsal time but forgoes that opportunity. These estimates warrant this rehearsal; its small size and reversibility alone would not.
+
+**Completed advice.** “The present synthesis does not establish a causal learning benefit. Run the half-hour setup rehearsal to settle compatibility with this room's tools. If the revised materials work, use them for the four sessions; otherwise retain the current exercise. Under our stated estimates, that information saves an expected ninety minutes of instructor time after its cost. Keep the learning-effect claim open.”
+
+This completes the advice and the decision to probe; it does not report a performed rehearsal. Its result will determine the subsequent material choice. Compatibility feedback supports readiness in the stated room, not a causal learning-effect estimate or transfer to other conditions. If domain review finds unacceptable participant risk or a binding evidence prerequisite, the proposed use must satisfy that condition before it enters the available set.
+
+**Opposed cost condition.** Suppose the same discriminating rehearsal now requires three hours of instructor time, still within the available preparation window. Its expected gross preparation saving remains two hours. The completed advice changes: “Retain the current exercise for these four sessions. The proposed rehearsal would cost an expected hour more than it saves. The current materials meet the course requirements; the comparative learning-effect claim remains unresolved.” A longer study remains a separate research proposal whose attainable contribution and burden must be justified for its own receiving use.
+
+
+#### C.11.DUA:5.4 - Earn a long research horizon
+
+A research group has two rival explanations of a recurrent anomaly. Neither currently supports an intervention. Suppose an available instrument and four-week allocation can discriminate a prediction on which the models differ; a much broader survey would exhaust the year's allocation without separating them.
+
+The receiving use is model discrimination within the year's research program. Compare the attainable contrast and broader survey against retaining both models and spending the allocation elsewhere.
+
+**Completed advice.** “Run the four-week discriminating measurement. Under the stated model predictions, its result will eliminate or revise one explanation and inform the next instrument design. The broader survey does not presently distinguish those predictions and consumes the remaining allocation. Reconsider the measurement if instrument sensitivity cannot separate them.”
+
+The useful result sought is explanatory progress and a better basis for later research. No immediate operational intervention is needed to justify that contribution. If the sensitivity condition fails, naming it does not turn the proposed measurement into a useful experiment; revise the design or retain the unresolved models.
+
+### C.11.DUA:6 - Bias-Annotation
+
+The recipient's urgency can make cheap action seem preferable even when a decisive check is available. Conversely, the advice issuer can enjoy the benefit of confidence while transferring investigation costs and delay to others. Compare those consequences explicitly where they differ across affected parties.
+
+An operational vocabulary can undervalue explanation and future options. State the receiving horizon and research gain before judging inquiry. A safety label can also suppress appraisal of a criterion, while a cost argument can hide its protective contribution. Preserve both the merits question and the requirement's current force.
+
+### C.11.DUA:7 - Conformance Checklist
+
+The following conditions concern the advice actually given. They require no separately completed checklist.
+
+| ID | Condition |
+| --- | --- |
+| CC-C11DUA.1 | The receiving question and the action, delay, expenditure or inquiry demanded by the advice are clear enough to judge their contribution. |
+| CC-C11DUA.2 | The answer preserves what present evidence supports and its use boundary. Infeasible acquisition does not strengthen the claim. |
+| CC-C11DUA.3 | A live inquiry is judged by its attainable contribution and relevant cost, delay, opportunity cost and downside. Useful qualitative comparison suffices. |
+| CC-C11DUA.4 | When a requirement's merits are disputed, the appraisal addresses its governed quantity or activity, purpose, contribution and burden while keeping present force separate. |
+| CC-C11DUA.5 | The result reaches the first useful completion for this recipient. Its decision and useful basis remain; inactive inquiry adds no placeholder, waiver or omission account. |
+| CC-C11DUA.6 | Any reason or limitation needed by the decision or a later recipient remains in the same result. Changed use can make previously unnecessary inquiry worthwhile. |
+| CC-C11DUA.7 | The stated continuation is feasible under obtaining conditions, or the answer identifies the actual impasse. Future authorization or evidence is not treated as obtained. |
+| CC-C11DUA.8 | Domain inference, choice, ethical and assurance claims retain their direct methods. Explanatory and future-option gains are judged at their receiving horizon. |
+
+### C.11.DUA:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Consequence and repair |
+| --- | --- |
+| Limitation becomes a study order | An unsupported stronger claim is followed by infeasible acquisition. Preserve the limitation and compare available continuations, as in 5.3. |
+| Uncertainty alone justifies investigation | A large unknown consumes resources although resolving it cannot improve this use. Identify the possible change and attainable contribution. |
+| Cheapness substitutes for support | A convenient action is presented as validating its premise. Keep the claim boundary and examine whether a check could change the warranted use. |
+| Optional inquiry returns as a mandatory waiver | The reader finishes the choice and must then account for unused fields. Make the completion form conditional, as in T0. |
+| Every explanation is deleted as overhead | A later recipient mistakes a bounded choice for a general result. Retain the scope explanation that changes that use. |
+| Requirement criticism becomes permission | An argued revision is treated as already effective. State present force and the available revision route. |
+| Only immediate action counts as value | Useful model discrimination is dismissed. Compare research gains and displaced opportunities at the research horizon. |
+
+### C.11.DUA:9 - Consequences
+
+Advice becomes a usable answer to a receiving question. The practitioner can continue with qualified knowledge, select worthwhile inquiry, repair a requirement proposal or recognize an impasse. A reviewer can repair an external report without requiring FPF-formatted input.
+
+The method costs the attention needed to recover hidden work and compare its consequences. That cost is unnecessary for an already clear bounded answer. It also cannot make unavailable means available or settle domain evidence and authority questions by general reasoning alone.
+
+### C.11.DUA:10 - Architectural Rationale
+
+The recurring problem is the connection between a qualified claim and the work an answer asks somebody to perform. `A.10` supplies bounded reliance; `C.11` chooses among available options and tests probe-worthiness; `C.11.CRC` compares a finite contribution; `C.19.2` limits apparatus effort under a declaration. Here those contributions are composed after recovering the receiving question and demand, including appraisal of the declaration itself when disputed.
+
+This gives advice authoring and advice review the same method. Both start with what the recipient would do and end with usable advice. A wording repair under `F.19` may make a demand clear while leaving its cost or merits unresolved. A decision calculation may be correct while answering a different question from the one the recipient needs.
+
+The smaller route is direct use of the existing patterns or a short composing entry. Prefer it whenever it reaches the same warranted completion at comparable effort. This companion is useful where recovery of implicit work, requirement appraisal and the connected completion would otherwise have to be reconstructed. It introduces no choice calculus, new U-kind, universal record or exemption.
+
+### C.11.DUA:11 - SoTA-Echoing
+
+Value of information already supplies a strong answer to whether uncertainty is worth reducing. The additional work here is recovering the question hidden in advice and carrying the answer through completion. The following comparisons adopt source contributions at the effort the receiving problem needs.
+
+| Practice question and source | Contribution and limit | Use here |
+| --- | --- | --- |
+| Preliminary inquiry prioritization: Runge and colleagues, [A Simplified Method for Value of Information Using Constructed Scales](https://pubsonline.informs.org/doi/10.1287/deca.2023.0474), 2023. | Constructed scales make preliminary comparison possible before full outcome predictions; uncertainty magnitude and decision relevance make different contributions. This is a foundation for a cheaper assessment, not a requirement for quantified ordinary advice. | **Adapt:** first identify what resolving uncertainty can change; use a qualitative comparison when sufficient, adding scales when they improve the choice. |
+| Robustness of elicited priorities: Davis and colleagues, [constructed information value with uncertain scoring](https://pubmed.ncbi.nlm.nih.gov/41678595/), 2026. | Their kestrel research case extends constructed information value with iterative scoring and parametric uncertainty. Changes in elicitation and scores can change priorities. The domain case does not validate this entire advice method. | **Adapt:** examine plausible scoring differences when they could reverse an important recommendation. Repeated elicitation is conditional, not a routine prerequisite. |
+| Imperfect evidence: Gutierrez, Glymour and Davey Smith, [Evidence triangulation in health research](https://link.springer.com/article/10.1007/s10654-024-01194-6), 2025. | Differently biased lines can strengthen inference through triangulation. The relevant biases and inference rules depend on the domain. | **Adapt:** compare a feasible complementary source with the ideal-study demand. Triangulation itself must earn the work; it is not a universal preliminary condition. |
+| Protection requirements: IAEA, [GSR Part 3, general principles of protection and safety](https://nucleus.iaea.org/sites/nss-oui/Published%20Collections/m_3761d926-c16f-4477-a63b-741a9db1c16c/m_3761d926-c16f-4477-a63b-741a9db1c16c__50_0.Html), §§1.13–1.15 and 1.22. | Justification and optimization provide an established protection practice that considers social and economic factors. This source neither establishes the reported episode in 5.1 nor decides a local requirement's validity. | **Adapt:** compare protective contribution and burden, including the governing quantity and present force. Use the applicable domain standard and authority for an actual operating decision. |
+
+Compared with demanding the ideal evidence package first, this method can reach a warranted explanation or bounded continuation with less work. Compared with immediate action without inquiry, it retains a feasible check that changes a choice or admissible claim. Those are conditional gains: the quality of domain models, available observations and the recipient's actual use remains decisive.
+
+### C.11.DUA:12 - Relations
+
+- **Uses:** `A.10` for source-reliance boundaries; `C.11` for local choice and probe-worthiness; `C.11.CRC` when a finite contribution comparison is missing; `C.19.2` for economical application under the current declaration.
+- **Coordinates with:** `C.18` when useful options or hypotheses must be generated; `C.28` and direct domain methods when the advice depends on causal inference; `D.4` for ethical mediation; the applicable assurance method for a stronger guarantee.
+- **Used by:** `F.19` when clear wording leaves a questionable substantive demand; `E.19` when advice usefulness, feasibility or evidence burden is the live review question; `E.11.PUA` when a pattern's demanded work obstructs its first useful result.
+- **Leaves with their owners:** authorization, requirement enactment, domain research design, actual Work and its evidence. The recommendation supplies a reasoned continuation; those contributions determine whether and how it can be carried out.
+
+### C.11.DUA:End
 
 ## C.13 — Constructional Mereology (Compose‑CAL)
 > **Status:** Stable
@@ -50849,6 +51127,8 @@ The intended reader may also be the person-system that performs the Work, but re
 #### C.19.2:4.3 - Admit candidates by one use-bounded predicate
 
 `UseBoundedApparatusCandidateEligibilityPredicate@Context` is a local eligibility predicate, not a U-kind, relation kind, or candidate-generation method. A candidate is eligible only when it has a credible adaptation path to the same declared use, direct result kind, claimed guarantee, scope and horizon, and non-negotiable constraints. A candidate that cannot meet one of those values stays outside the current option set rather than becoming a “weaker” member of it.
+
+When the claimed guarantee or requirement itself is disputed, use `C.11.DUA` to appraise its purpose, contribution, burden and current force. Keep apparatus eligibility under the current declaration separate from that appraisal. Resume application under a revised declaration only when the change is available through the authority or agreement that governs it.
 
 When choice is current, preserve the exact `C.11` contract:
 
@@ -69147,10 +69427,12 @@ Name the affected EntityOfConcern and any affected Systems, the value-frame edit
 | --- | --- | --- |
 | A compromise is proposed but the D.3 description omits a side, affected entity, scope, value frame, consequence, or horizon. | Return to `D.3` and complete the affected side or tension. | `D.3` |
 | Harm claim depends on causal effect. | Demand the C.28 causal-use evidence value and verdict before ethical decision use. | `C.28` |
-| Evidence is too weak or outdated. | Demand stronger or fresher evidence before mediation. | `A.10`, `C.27` |
+| Evidence is too weak or outdated for the proposed use. | Name the affected claim and use. Use `C.11.DUA` to compare a feasible evidence request with a narrower use, explicit residual acceptance or refusal; obtain stronger or fresher evidence when the selected use needs it. | `C.11.DUA`; `A.10` and `C.27` for the evidence and its currentness |
 | Assurance claim is being used as ethical permission. | Keep assurance as an assurance or evidence relation, not moral authorization. | `B.3`, `D.5` |
 | Architecture move reduces one residual but creates ethical conflict elsewhere. | Return the architecture residual and keep the ethical conflict distinct. | `C.30.ILC`, `D.3` |
 | A decision must proceed with residual harm. | Record the accepted residual, admitted decision or repair Systems, prospective plan, commitment, permission, authority, or assignment requirements, direct responsibility relations or exact missing governors, evidence limits, and return condition. If Work has actually occurred, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when the decision account also needs exact assignment-bound attribution. | `C.11`, `B.3`, `D.5`, A.2.1, A.13, A.15.1, and F.6 as applicable |
+
+When required evidence cannot be obtained, the attempted use remains unsupported. A different bounded use must satisfy its own evidence, ethical and authority conditions. Record accepted residuals under the residual-harm row.
 
 ### D.4:4 - Archetypal Grounding (Worked Slices)
 
@@ -78963,6 +79245,8 @@ Use one selected pattern through a short result-oriented procedure. Keep the sub
 
 Start with five ordinary values: the working subject, the practical question, the selected pattern's `Solution`, the first useful result or honest blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result and boundary are truthful.
 
+When following a pattern exposes a costly, infeasible or apparently unhelpful demand, use `C.11.DUA` to examine what that work can change and repair the continuation. Follow the selected method through its first useful completion, including any prescribed fields or records. Keep the result and its useful basis; retain a reason or limitation when the current decision or a later recipient needs it. An inactive inquiry adds no omission account. This route is conditional on the demand being in question.
+
 An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses it. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand. Only when the selected `Solution` actually describes a Method and that distinction changes the claim, use A.3.1 to identify the admitted `U.Method` and A.3.2 to test `U.MethodDescription` membership of the pattern episteme. Name a System, system-role classification, assignment, plan, dated Work, result, or `U.Transformation` only when that object is part of the current claim. Assignment never substitutes for the acting System, Work, authority, or responsibility.
 
 When those identities do matter, keep them separate: the pattern episteme is not the acting System or Work; a selected or project-tailored Method is not automatically a WorkPlan; intended work is not performed Work; a result, evidence for it, and a later use are different values. This conditional distinction introduces no universal workflow, causal chain, production relation, TFS, or record requirement.
@@ -88434,6 +88718,8 @@ Use these questions only for the selected review concern:
 3. **Packaging, concrete pattern contribution, package relation, and shipping fit.** Open this for a publication, pattern-contribution, or package-relation claim. The changed sources and governing publication or release result carry successful alignment; E.19 repairs or reports a mismatch.
 4. **Domain-tightened profile depth.** Open this when a domain-specific note actually tightens a selected profile. Apply its questions; do not add a second account of positive results.
 5. **Accepted-decision or accepted-source-material carry-through.** Open this when the reviewed pattern, subset, or current change is claimed to implement an accepted `DRR`, repair findings, intake material, architecture source material, or other accepted source material named by value. Inspect each independently applicable decision against the reviewed loci and the concrete pattern, claim, companion, result, or accepted source that carries it; require exact predicate or defining `ClaimGraph` identity only when that decision or the named reliance needs it. Repair or report partial, missing, wrongly rejected, wrongly routed, or wrongly classified carry-through. The accepted source remains the decision source; E.19 does not duplicate decisions that are expressed sufficiently, inherited unchanged, correctly absent, or outside the reviewed subset. An `E.17.ID.CR` comparative review unit, `PublicationUnit`, publication form or face, source-pinned interpretation case, source material, or project-side review relation retains its own kind in that comparison.
+
+6. **Decision-useful advice and evidence demands.** Open this when a pattern's advice, feasibility or evidential burden is in question and can change the review result. Use `C.11.DUA` to recover the demanded work, compare its attainable contribution and burden, and examine a disputed requirement's merits and force. Follow the selected method through its result, prescribed fields and stopping point: retain the useful basis and any explanation the decision or recipient needs, while inactive inquiry creates no omission account. A worthwhile evidence demand remains. Apply `F.19` to wording that needs repair; this question adds no universal profile or second language pass.
 
 For `PCP-ENTRY`, the ordinary compact pattern-local change note remains enough when the governed discoverability decision requires one; no separate E.19 account is created merely because the profile was checked.
 
@@ -100504,6 +100790,7 @@ Apply the same method to FPF pattern prose and to other technical prose whose ac
 
 - If only one already-visible FPF word or head has an unresolved technical use, take the exact `E.10` route for it.
 - If the question is a durable reusable name, use `F.18`.
+- If clear advice still demands work whose contribution, feasibility or requirement merits are unresolved, use `C.11.DUA` to repair that advice. Return here for any wording repair it needs.
 - If source prose is only being observed and not admitted into governed technical prose, keep the observation source-side.
 - If evocation, rhythm, ambiguity, or parallelism is the declared work of a poem, quotation, ceremonial passage, or other expressive genre, do not flatten it into technical instruction. Apply `F.19` only to the technical claim or action that must remain recoverable.
 - If a language-specific grammar or idiom remains after the common semantic repair, use the applicable language profile.
