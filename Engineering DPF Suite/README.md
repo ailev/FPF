@@ -48,11 +48,11 @@ The public folder contains eight complete publications and two explicitly partia
 | Available foundation | Available now | Explicitly unavailable in this edition |
 | --- | --- | --- |
 | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | 9 patterns: `SIE.1`, `SIE.2`, and `SIE.4`-`SIE.10` | `SIE.3`, `SIE.11`, and `SIE.12` |
-| [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | 4 patterns: [RMP.1–RMP.4](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | `RMP.5`-`RMP.9` |
+| [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | 4 patterns: [RMP.1–RMP.4](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#table-of-contents) | `RMP.5`-`RMP.9` |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
-When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. Publication availability is the claim made by the tables above; co-listing alone does not establish dependency, compatibility, or product-series membership.
+When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. The [instructional-material questions](ENGINEERING-DPF-SUITE-REFERENCE.md#evaluate-instructional-material-for-its-intended-use) lead to evaluation-specification construction and material evaluation; the [research preparation and trace questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-research-executable-and-inspect-its-course) lead to the four-pattern RMP preview's operationalization and research-trace methods. Publication availability is the claim made by the tables above; co-listing alone does not establish dependency, compatibility, or product-series membership.
 
 ## Looking for development recommendations?
 

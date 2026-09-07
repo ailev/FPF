@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 6 September 2026
+- **Version:** 6 September 2026 - HCD/RMP lookup update
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -21,8 +21,10 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Connect separately governed meanings](#connect-separately-governed-meanings-and-representations) | Semantic integration, source editions, correspondence, identity, provenance, transformation, interface, validation. |
 | [Improve a method or an organization](#improve-a-method-or-an-organization) | Method requirements, repertoire, source recovery and reconciliation, description comparison, PLUS-ME, pattern-language production and refresh, organizational change. |
 | [Develop a practice or a person's capability](#develop-a-practice-or-a-persons-capability) | Music and dance development; human-capability demand, target, profile, programme, practice, support, assessment, transfer, retention, revision, continuing development, repertoire and culture. |
+| [Evaluate instructional material](#evaluate-instructional-material-for-its-intended-use) | Worksheets, explanations, learning routes, evaluation specifications, reader tasks, assistance and material repair. |
 | [Keep an operation working](#keep-an-operation-working) | Operating subjects, admission, cases, priority, queues, buffers, constraints, capacity, human conditions, service commitments, accounts, quality, simultaneous work and culture. |
 | [Qualify a research question or design](#qualify-a-research-question-or-choose-a-design) | Research boundary, supplied-source stop, criticism-bearing design, evidence-sufficient stop, exact design hold. |
+| [Make research executable and inspect its course](#make-research-executable-and-inspect-its-course) | Operationalization, protocol, observation and source choices, research trace, inherited records, reconstruction, loss and access. |
 | [Buy, commission or build greenhouse control?](#how-should-we-obtain-climate-control-for-a-greenhouse) | Make or buy, AI assistance, integration, operating support, supplier access, fallback, real procurement evidence. |
 | [Develop people, obtain expertise or change the arrangement?](#what-should-a-small-engineering-team-develop-obtain-or-delegate) | Recruitment, training, providers, human and AI work, platforms, assignments, organizational choice. |
 | [Share staff without losing existing commitments?](#how-can-two-archive-services-share-staff-without-losing-their-commitments) | Ready work, queues and buffers, shared staff, usable hours, variable load, constraint diagnosis, coordinated decisions. |
@@ -33,7 +35,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
 | [Citation](#citation) | Cite this Reference or a particular pattern application. |
 
-The question index is designed for lookup while work is under way. The eight complete carriers provide their full searchable tables of contents. SIE has nine available bodies with `SIE.3`, `SIE.11` and `SIE.12` absent; OPS.1–OPS.20 are complete; RMP has `RMP.1`–`RMP.2` with `RMP.3`–`RMP.9` absent. The human-development questions below use HCD.1–HCD.17. HCD's nineteen-pattern edition additionally supplies HCD.18 and HCD.19 for instructional-material evaluation. Check the HCD carrier's own edition and [contents](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) before starting that distinct material-evaluation question.
+The question index is designed for lookup while work is under way. The eight complete carriers provide their full searchable tables of contents. SIE has nine available bodies with `SIE.3`, `SIE.11` and `SIE.12` absent; OPS.1–OPS.20 are complete; RMP supplies `RMP.1`–`RMP.4`, with `RMP.5`–`RMP.9` absent. HCD supplies HCD.1–HCD.17 for human-development questions and HCD.18–HCD.19 for the distinct [instructional-material evaluation questions](#evaluate-instructional-material-for-its-intended-use). Each linked body supplies guidance for its stated result and conditions.
 
 ## Find a starting pattern
 
@@ -156,6 +158,15 @@ Method Engineering keeps the way of working, its descriptions and its support as
 
 The [Human Capability Development first edition](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) contains all HCD.1-HCD.17 bodies. A pattern supplies guidance and a result form; it does not establish that development work occurred, capability changed, a provider operated, or an authorized person made a programme, employment or release decision.
 
+### Evaluate instructional material for its intended use
+
+| Your question | Open | What you can obtain |
+| --- | --- | --- |
+| How should we judge a worksheet, explanation or learning route for its intended readers? | [HCD.18 - Construct a Characterization and Evaluation Specification for Instructional Material](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-18) | A compatible evaluation specification, or a new one tying the audience's tasks and allowed help to criteria, evidence and the use or repair decision. Use HCD.19 directly when a compatible specification already exists. Stop construction with the usable specification or a precise unresolved criterion. |
+| Does this material support the reader's task, and what needs repair? | [HCD.19 - Evaluate Instructional Material through Representative Reader Work and Diagnose Its Repair](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-19) | A supported material contribution, a limiting defect with its affected reach, or a specific criterion or evidence gap. Start with a compatible specification; use HCD.18 only if it is absent or unsuitable. Keep prior knowledge and later help visible when interpreting the first response. Stop at the supported use or repair conclusion. |
+
+These two methods judge instructional material. For a person's performance, transfer or retention, use HCD.11–HCD.13 above. An ordinary professional reference is evaluated for its lookup use unless it also promises instruction.
+
 ### Keep an operation working
 
 Use the [Operations Management first edition](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) when the current question concerns continuing work, admission, cases, priority, queues, constraints, capacity, service, operating evidence, quality, simultaneous work, method improvement or cultural continuation.
@@ -187,7 +198,7 @@ The [archive case](#how-can-two-archive-services-share-staff-without-losing-thei
 
 ### Qualify a research question or choose a design
 
-The [Research Method Practice RMP-A foundation](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#table-of-contents) is partial. It can decide whether a request needs research and select a criticism-bearing design or honest stop. It does not supply `RMP.3`-`RMP.9`.
+The [Research Method Practice development preview](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#table-of-contents) supplies `RMP.1`–`RMP.4`. The entries here help decide whether a request needs research and select a criticism-bearing design or honest stop; the [next section](#make-research-executable-and-inspect-its-course) covers operationalization and the actual research trace. `RMP.5`–`RMP.9` remain unavailable.
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -195,6 +206,15 @@ The [Research Method Practice RMP-A foundation](RESEARCH-METHOD-PRACTICE-PRINCIP
 | Is current evidence sufficient, which criticism-bearing design is justified, or which missing owner result holds selection? | [RMP.2 - Choose a Criticism-Bearing Research Design or Stop](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-2) | EvidenceSufficientStop, a ResearchDesignDecision with only non-selection-changing later needs, or a ResearchDesignHold. |
 
 When the needed result belongs to an unavailable RMP package, name that gap and return it to the owning practice. Do not turn an accepted future package, a protocol template, an affiliation or information collection into an obtained research result.
+
+### Make research executable and inspect its course
+
+| Your question | Open | What you can obtain |
+| --- | --- | --- |
+| How will the selected design become particular observations, source work or computations? | [RMP.3 - Operationalize the Design without Replacing the Question](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-3) | A usable protocol with the research reasons for its consequential choices, or the exact unsupported operation and its missing input. Reuse a qualified protocol when it fits. Return a defeated design premise to RMP.2 and a changed question to RMP.1; retain the supported part. |
+| How do we preserve or recover the records needed to examine this inquiry? | [RMP.4 - Preserve a Criticism-Ready Research Trace](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-4) | An inspectable account connecting actual conduct to its material, or an exact limitation caused by loss, reconstruction or restricted access. Enter during ongoing work or directly with inherited records. Use adequate existing records without creating another protocol. Stop with the supported examination or its precise limitation. |
+
+Operationalization specifies intended work; the trace accounts for actual work and retained material. They can develop together. A trace can identify a lost comparison without making that comparison available.
 
 ## How should we obtain climate control for a greenhouse?
 
@@ -419,7 +439,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-6 September 2026.
+6 September 2026, HCD/RMP lookup update.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
