@@ -74,7 +74,7 @@ These are selected examples, not a catalogue or a coverage boundary. Bring the a
 - **Question:** Which materially different direction could help, under what conditions, and what remains to be learned?
 - **First useful result or honest blocker:** A characterization, qualified or conditional opportunity, contribution-bearing direction, reachability account, retained possibility, exact request, or rejected use with its reason.
 - **Start with:** The first missing result: [DOCA.1](#doca1---bound-the-development-opportunity-inquiry) or [DOCA.1.CHR](#doca1chr---characterize-the-development-subject-and-intended-change) for the inquiry; [DOCA.2](#doca2---search-neighboring-uses-technologies-characteristics-and-supports) for search; [DOCA.3](#doca3---construct-a-worthwhile-problem-and-proposed-contribution) for problem/contribution; [DOCA.4](#doca4---construct-development-directions-with-their-support-configurations) for a direction; [DOCA.5](#doca5---qualify-dependencies-and-bound-joint-reachability) for joint conditions; or [DOCA.6](#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) for retention.
-- **Stop or return:** Stop at the useful partial result. No adviser, programme, Guide, commitment, or implementation is required to construct an opportunity. A missing specialist premise returns through A.15.9; a changed relied-on premise reopens its affected use through DOCA.8.
+- **Stop or return:** Stop at the useful partial result. No adviser, programme, Guide, commitment, or implementation is required to construct an opportunity. A missing specialist premise limits the affected claim; use A.15.9 to select worthwhile acquisition; a changed relied-on premise reopens its affected use through DOCA.8.
 
 ### DOCA-BOUND-ADVICE — Establish who the requested advice can serve
 
@@ -113,7 +113,7 @@ The branches share inquiry, characterization, joint conditions and changed-premi
 
 Consider Mira, the engineer-manager in APP-DOCA-01. She is considering supported practice of qualified specialist-result use, or a change in the review service that supplies more technical support. The first is a prospective personal-development direction; the second may improve the receiving result without demonstrating a new personal capability. A missing independent-review transfer result is a specific HCD question. It does not erase a separately supported result for familiar tasks.
 
-If Mira asks a career adviser for help, the adviser needs suitable competence, participation and information-use conditions. Employer funding does not itself authorize disclosure of private assessment notes. Even with an adequate service boundary, the missing transfer result can limit the advice to a bounded request or probe. Mira's direction choice remains separate. HCD.2 can then compare programmes for the selected stake; any requested programme advice and the authorized programme choice are further distinct results. Learning Product practice realizes the chosen programme's instructional part as a Guide. The application shows these uses with explicit assumptions, including a direct programme-level entry that invents no prior personal opportunity history.
+If Mira asks a career adviser for help, the adviser needs suitable competence, participation and information-use conditions. Employer funding does not itself authorize disclosure of private assessment notes. Even with an adequate service boundary, the missing transfer result limits the stronger advice while a qualified direction or conditional set can remain useful. A request or probe needs its own attainable contribution and whole-burden justification. Mira's direction choice remains separate. HCD.2 can then compare programmes for the selected stake; any requested programme advice and the authorized programme choice are further distinct results. Learning Product practice realizes the chosen programme's instructional part as a Guide. The application shows these uses with explicit assumptions, including a direct programme-level entry that invents no prior personal opportunity history.
 
 ## From an available result to a useful return
 
@@ -129,7 +129,7 @@ Joining results requires three judgements: each result is adequately qualified; 
 
 For the combined use, establish the receiving contribution, compatible premises, jointly available resources and permissions, protected conditions and the remaining uncertainty. Identify the next responsible receiver for a missing result. Reuse the detailed qualifications already supplied by the patterns and direct practices; a new combined demand, audience, configuration or horizon needs its own answer. Recognition means that a reader can recover this account. Assurance requires the actual measurements, domain evidence, competence, permissions and other qualified results on which it relies.
 
-In DOCA.5's constructed eight-week case, directions A and B each require the same specialist for two hours every week; only two hours are available after existing obligations. Each direction fits alone. Together they need four hours and fail the joint condition under the no-overtime and urgent-cover protections. Doing A and then B takes sixteen weeks, outside the eight-week horizon. Shared support would be another configuration whose combined demand needs qualification. Preserve the individual directions and request the specific combined-work estimate, alternative support or revised-horizon result.
+In DOCA.5's constructed eight-week case, directions A and B each require the same specialist for two hours every week; only two hours are available after existing obligations. Each direction fits alone. Together they need four hours and fail the joint condition under the no-overtime and urgent-cover protections. Doing A and then B takes sixteen weeks, outside the eight-week horizon. Shared support would be another configuration whose combined demand needs qualification. Preserve the individual directions and the exact joint limit. A combined-work estimate, alternative-support result, or revised-horizon result becomes a request only when its obtainable contribution warrants acquisition.
 
 All pairs can fit while the whole set does not. In a separate arithmetic illustration, three non-shareable seven-hour activities each draw on one eighteen-hour budget. Every pair needs fourteen hours; all three need twenty-one. The deficit rules out that combination under those premises. It does not choose an optimal subset. APP-DOCA-02's six-plus-six versus eight-hour case shows another shared-capacity conflict in an organization inquiry.
 
@@ -441,7 +441,7 @@ The selected boundary is therefore intentionally small: enough identity, use, ho
 
 Which characteristics would actually change this development inquiry?
 
-Use this pattern when a person, organization, community arrangement, AI configuration, engineered system, facility, research programme, episteme, or another subject is described by a maturity label, Method list, role name, benchmark, dashboard, or one score, but the opportunity depends on more specific current, intended, protected, or unknown characteristics. The first useful result is a bounded development-facing characterization and the next measurement, comparison, source request, or reopen question.
+Use this pattern when a person, organization, community arrangement, AI configuration, engineered system, facility, research programme, episteme, or another subject is described by a maturity label, Method list, role name, benchmark, dashboard, or one score, but the opportunity depends on more specific current, intended, protected, or unknown characteristics. The first useful result is a bounded development-facing characterization with the unknown or limitation that matters to this inquiry. A measurement, comparison, or source request is a continuation only when its obtainable contribution warrants the whole burden.
 
 Use it after `DOCA.1` when the subject, receiving use, and horizon were still loose, or enter directly when those are already clear. It can serve either opportunity construction or bounded advising. It does not diagnose every property of the subject, choose a direction, prove capability, authorize intervention, or establish that development occurred.
 
@@ -558,7 +558,7 @@ Use the practice that owns the substantive characteristic:
 
 Record an available MethodDescription as a way a result might be obtained, not as the result. Mark a source-qualified unknown when measurement, access, or currentness is insufficient.
 
-When a reading was established for a different bearer or configuration, rely on it only when the direct practice that owns the receiving characteristic supplies a qualified transfer basis covering the receiving bearer and configuration, characteristic meaning, scale, intended use, evidence window, and uncertainty. Without that basis, keep the receiving reading `unknown` and return a bounded evidence request for the affected opportunity claim.
+When a reading was established for a different bearer or configuration, rely on it only when the direct practice that owns the receiving characteristic supplies a qualified transfer basis covering the receiving bearer and configuration, characteristic meaning, scale, intended use, evidence window, and uncertainty. Without that basis, keep the receiving reading `unknown` and limit the affected opportunity claim. This can finish a useful characterization. Use A.15.9 and C.11.DUA to select an evidence request only when its obtainable contribution warrants formulation, qualification, supplier Work, delivery, interpretation, delay, and displaced work.
 
 #### DOCA.1.CHR:4.6 - Write the bounded characterization
 
@@ -583,23 +583,23 @@ DevelopmentFacingCharacterization@Context:
     resourceCoordinates:
     affectedSystemOrDistributionalCoordinates:
     explicitlyProtectedCoordinates:
-  materialUnknownsAndRequests:
-  nextMeasurementComparisonOrPattern:
+  materialUnknowns:
+  selectedFurtherContributionIfNeeded:
   stopOrReopenCondition:
 ```
 
-This local form is not a universal characteristic space, measurement result, diagnosis, criterion verdict, capability profile, decision, or authorization. Several selected characteristics may use different scales and result epistemes.
+Include only fields that serve the receiving use; an inactive request needs no field or explanation. This local form is not a universal characteristic space, measurement result, diagnosis, criterion verdict, capability profile, decision, or authorization. Several selected characteristics may use different scales and result epistemes.
 
 #### DOCA.1.CHR:4.7 - Choose the next truthful result
 
 Return one of these outcomes:
 
 - an adequate characterization ready for opportunity search or construction;
-- a measurement or evidence request tied to one affected claim;
+- a worthwhile obtainable measurement or evidence request tied to one affected claim;
 - a comparison question with the complete coordinate set;
 - a narrower characterization that supports only part of the opportunity;
 - a blocker because a protected or decision-reversing reading is unavailable;
-- an explicit unknown that permits only a reversible probe question; or
+- an explicit unknown that limits the answer while the supported characterization remains useful; or
 - a stop because the existing characterization already serves the receiving use.
 
 Continue to `DOCA.2` when material opportunity-generating dimensions are now visible, to `DOCA.4` when a direction needs a finite characteristic change and support configuration, to `DOCA.5` when joint reachability is current, or to `DOCA.7` when a formed advice question needs an admissible relationship. These are conditional continuations, not a fixed order.
@@ -612,7 +612,7 @@ Do not discard unaffected readings merely because one characteristic changed. Do
 
 #### DOCA.1.CHR:4.9 - What changes in practice
 
-The practitioner replaces “more mature,” “AI-ready,” “senior,” or “platform-capable” with a small, inspectable set of characteristics that can alter this inquiry. Current, intended, protected, and unknown readings become distinguishable; missing evidence becomes a directed request; and later comparison can preserve benefits, burdens, affected Systems, distribution, and protections without a scalar winner.
+The practitioner replaces “more mature,” “AI-ready,” “senior,” or “platform-capable” with the characteristics that alter this inquiry. Current, intended, protected, and unknown readings stay distinct. Missing evidence limits the affected reading; a worthwhile further contribution becomes a directed request. Later comparison retains benefits, burdens, affected Systems, distribution, and protections on their own scales.
 
 ### DOCA.1.CHR:5 - Archetypal Grounding
 
@@ -620,7 +620,7 @@ The practitioner replaces “more mature,” “AI-ready,” “senior,” or �
 
 Mira's bounded inquiry concerns incident-review and handoff Work over four months. “Become better at AI” is discarded as a characteristic. The selected characteristics are: time to identify a material handoff gap, quality of the explanation supplied to the next reviewer, ability to detect unsupported model output, confidential-data exposure, review workload, and transfer to two representative incident classes.
 
-The current account has qualified examples for explanation quality and workload, but no comparable evidence for transfer or unsupported-output detection. Those readings remain unknown. The intended contribution is faster detection without worsening explanation quality, confidentiality, or sustainable workload. HCD owns the human demand, capability, support, and transfer evidence. The next result is a bounded request for representative-Work evidence, not a course recommendation.
+The current account has qualified examples for explanation quality and workload, but no comparable evidence for transfer or unsupported-output detection. Those readings remain unknown. The intended contribution is faster detection without worsening explanation quality, confidentiality, or sustainable workload. HCD owns the human demand, capability, support, and transfer evidence. The characterization returns those useful readings and unknowns; it supplies no course recommendation or transfer claim. Representative-Work evidence becomes a request only when the attainable contribution warrants acquisition for the next use.
 
 #### DOCA.1.CHR:5.2 - Organization without one maturity score
 
@@ -662,7 +662,7 @@ A conforming characterization or companion account:
 7. **MUST** identify the direct owner, source, qualification, and uncertainty for every decision-reversing reading.
 8. **MUST NOT** use a MethodDescription, dashboard, benchmark, source link, or tool output as proof that measurement Work or a result exists.
 9. **MUST** return each missing premise as a bounded request, unknown, narrower claim, blocker, or stop.
-10. **MUST** name the next measurement, comparison, pattern, or direct-owner use and a local reopen condition.
+10. **MUST** retain a next measurement, comparison, pattern, direct-owner use, or local reopen condition only where it changes the recipient's continuation or interpretation. A sufficient direct characterization creates no further-work or omission-record obligation.
 11. **MUST NOT** present the characterization as a chosen direction, recommendation, programme, authorization, performed Work, or observed effect.
 12. **SHOULD** make the first useful result readable without requiring the compact form.
 
@@ -836,7 +836,7 @@ The team stops widening within its allowance because receiver inquiry can now di
 
 Mira has four months to explore a next contribution in engineering Work. She contrasts evidence review, where the receiver needs unsupported claim-to-test links found, with interface coordination, where specialists need incompatible assumptions surfaced. Reading technical documents occurs in both; their receiving results differ.
 
-She also varies support. For evidence review, permitted examples exist but representative capability and transfer evidence are missing. For coordination, access to participants and competent feedback are not established. The two leads therefore produce different requests. A course catalogue may suggest a resource, but cannot merge the contributions or fill either gap. Mira can stop with these questions without engaging an adviser.
+She also varies support. For evidence review, permitted examples exist but representative capability and transfer evidence are missing. For coordination, access to participants and competent feedback are not established. The two leads retain different missing premises. Either conditional lead can finish this inquiry; request further evidence only when its obtainable contribution warrants acquisition through A.15.9 and C.11.DUA. A course catalogue may suggest a resource, but cannot merge the contributions or fill either gap. Mira can stop with these questions without engaging an adviser.
 
 #### DOCA.2:5.3 - An adequate facility set is reused
 
@@ -1239,9 +1239,9 @@ One lead is “learn A.15.9.” The direction instead cites the complete [A.15.9
 | Contribution position | What Mira would need to recognize or do in later Work |
 | --- | --- |
 | Situation | A review decision depends on an outside-practice result, but the available request names only a department, document, or tool. |
-| Move | Inspect an existing answer; reuse it within its qualification or request only the missing result; preserve where supplier judgement ends and the receiving decision begins. |
-| First result | A bounded reliance decision, the smallest result request, or an exact blocker. |
-| Stop/non-use | Reuse an adequate answer without commissioning work; use the direct domain Method when the substantive specialist answer is the whole question. |
+| Move | Inspect an existing answer; use its supported contribution and material limit. Select a further request only when its obtainable contribution warrants the whole acquisition burden; preserve the supplier/receiver judgement boundary. |
+| First result | A useful supported answer with its material limit, a selected worthwhile result request, or an exact blocker. |
+| Stop/non-use | Finish at the useful answer and its necessary limit; use the direct domain Method when the substantive specialist answer is the whole question. |
 
 The pattern supplies guidance for the proposed contribution, not evidence of Mira's capability. HCD and review-domain practice must establish representative performance, support, and transfer.
 
@@ -1250,7 +1250,7 @@ Two directions now differ materially:
 | Configuration question | Supported capability-development direction | Access-and-specialist-support direction |
 | --- | --- | --- |
 | Finite change | Add bounded representative practice with qualified feedback to Mira's current review arrangement. | Add a usable existing-result index and access to a specialist's bounded result, without presuming a new human capability. |
-| Intended contribution | Mira recognizes missing premises and returns a precise result request in later review Work. | Mira can obtain and use a qualified result when the review identifies a missing premise. |
+| Intended contribution | Mira distinguishes a useful qualified answer from a stronger unsupported claim and selects a precise request when its contribution warrants acquisition in later review Work. | Mira can use a qualified available result and obtain a further contribution when the review justifies its acquisition. |
 | Necessary support | Permitted cases, competent feedback, challenge appropriate to the person, time, and a transfer check. | Purpose-specific access, a current index, a qualified supplier result, and a usable review interface. |
 | Transition and resource burden | Practice and feedback consume time before later use; feedback availability is not yet established. | Index preparation and specialist response consume effort; continuity and response conditions are not yet established. |
 | Protected and affected conditions | Review independence and confidentiality remain; feedback burden on colleagues must fit the same resource boundary. | Source custody and confidentiality remain; specialist demand must not silently displace other required Work. |
@@ -1258,7 +1258,7 @@ Two directions now differ materially:
 
 The candidates do not yet share a qualified same-result comparison: the first proposes development of independent recognition; the second proposes supported result use. The next question is which contribution the receiving review needs and what HCD or supplier result can qualify the corresponding transition. Combining them creates another candidate whose joint time and support need testing.
 
-The result is two conditional directions, not a learning programme or recommendation. If one is later chosen, HCD.2 can supply programme candidates and comparison. Any requested programme recommendation and authorized programme choice remain separate; only then can Learning Product realize the appropriate Guide. The person can also stop now with the exact support request.
+The result is two conditional directions, not a learning programme or recommendation. If one is later chosen, HCD.2 can supply programme candidates and comparison. Any requested programme recommendation and authorized programme choice remain separate; only then can Learning Product realize the appropriate Guide. The person can also stop now with the conditional directions and the support limits that matter; an exact support request is a further selected contribution.
 
 #### DOCA.4:5.2 - A faster retrieval candidate is not a cost-free improvement
 
@@ -1280,7 +1280,7 @@ The return is a conditional configuration and two decisive questions: can the ac
 
 A team says “improve the model,” but its receiving-use failure may arise from the retrieval corpus, tool permissions, escalation path, or operating support. The team constructs a parameter-change direction and a changed-retrieval-and-oversight direction, each naming its model edition, data, tools, evaluation, and environment.
 
-A bare-model benchmark does not by itself qualify either tool-enabled arrangement. The receiving engineering and evaluation practice must establish any transfer basis for the intended configuration, characteristic, and use under `DOCA.1.CHR:4.5`. Otherwise the reading remains unknown and the direction returns the corresponding request. Human curriculum or learning-transfer evidence does not qualify either AI change.
+A bare-model benchmark does not by itself qualify either tool-enabled arrangement. The receiving engineering and evaluation practice must establish any transfer basis for the intended configuration, characteristic, and use under `DOCA.1.CHR:4.5`. Otherwise the reading remains unknown and the direction retains that limit. A corresponding request follows only when its obtainable contribution warrants acquisition. Human curriculum or learning-transfer evidence does not qualify either AI change.
 
 #### DOCA.4:5.4 - Direct same-result arrangement work is enough
 
@@ -1419,7 +1419,7 @@ Select dependencies by consequence. Ask what absence or failure would block the 
 
 #### DOCA.5:4.2 - Use the supplying practice's qualified result
 
-For each material dependency, state the required result and why it matters to this transition. Use [A.15.9 — Request and Use a Bounded Result from Another Practice](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) to inspect an existing result, reuse it when adequate, request only the remaining gap, and qualify it for this receiving use.
+For each material dependency, state the required result and why it matters to this transition. Use [A.15.9 — Request and Use a Bounded Result from Another Practice](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) to inspect an existing result and use it at its supported strength for this receiving question. Retain a conditional direction where the needed premise is absent. Select a further request through A.15.9 and C.11.DUA only when its obtainable contribution warrants formulation, qualification, performance, delivery, interpretation, delay, and displaced work.
 
 A provider's offer, a published MethodDescription, and a qualified result about this subject answer different questions. Recover the result's subject and configuration, characteristic or condition, receiving use, evidence window, limitations, and uncertainty. If new Work is needed, the supplying practice retains its Method, competent performer, authority, and conclusion. Assess evidence-bearing reliance through the applicable A.10 result; a citation alone does not qualify the premise.
 
@@ -1542,7 +1542,7 @@ Ask which condition would defeat the combination, whose burden is missing, and w
 
 ### DOCA.5:9 - Consequences
 
-Practitioners can stop making whole-direction claims from isolated premises. A conflict can narrow one combination while leaving useful alternatives intact. The next request becomes specific enough for the supplying practice to answer.
+Practitioners can stop making whole-direction claims from isolated premises. A conflict can narrow one combination while leaving useful alternatives intact. A selected worthwhile request becomes specific enough for the supplying practice to answer, while a useful conditional result can finish without one.
 
 The cost is recovering compatible conditions and exposing burdens that a direction label omitted. Some candidates remain conditional, and a high-consequence claim may require specialist analysis. This pattern reduces neither that assurance obligation nor the uncertainty of an unperformed transition.
 
@@ -1847,7 +1847,7 @@ Agree what assistance is being offered and excluded. Distinguish development-dir
 
 Determine the professional and local requirements that actually apply to this service, jurisdiction, and client relationship. Use their competent interpretation when applicability is uncertain. A professional code cited in this pattern establishes neither a licence nor every local duty. Do not assert assessment competence, legal authority, or a client's capacity from an adviser title or a signed form.
 
-Ask what the adviser can judge and which specialist results must be obtained. Use A.15.9 for a missing human-development, organizational, technical, safety, legal, financial, or other bounded result; reuse an adequate current one. The supplying practice retains its Method and conclusion. Coordinating a career or organization question does not transfer those competences to the adviser.
+Ask what the adviser can judge and which specialist results bear the requested claim. Use A.15.9 for a missing human-development, organizational, technical, safety, legal, financial, or other bounded result; reuse an adequate current one. Retain the advice supported now and its material limit; a missing result becomes a request only when A.15.9 and C.11.DUA select its obtainable contribution against the whole acquisition burden. The supplying practice retains its Method and conclusion. Coordinating a career or organization question does not transfer those competences to the adviser.
 
 For human career services, the applicable professional basis may require informed participation, competent assessment and interpretation, and appropriate referral or closure. [NCDA's 2024 Code of Ethics, A.2, A.10, and E.2](https://www.ncda.org/aws/NCDA/asset_manager/get_file/3395) supplies that bounded line. Apply it within its professional scope; obtain qualified help for consent or capacity questions that the adviser cannot resolve.
 
@@ -1919,7 +1919,7 @@ The adviser first separates the intended uses.
 | Personal assessments | Used only within their qualified purpose and agreed disclosure basis; funding does not settle access. |
 | Employer-facing return | An agreed service summary, with no private assessment content unless a separate applicable basis permits it. |
 
-In the case, the adviser's competence for this bounded career service is established; specialist development and transfer assessments remain outside that competence. Mira accepts the bounded service and the employer agrees to the disclosure limit. Existing information identifies the two directions, but no qualified result supports the proposed independent-review transfer. The adviser therefore returns the two-sentence boundary in `:4.7` and requests that specific HCD result. Admitting the service did not make a course recommendation ready.
+In the case, the adviser's competence for this bounded career service is established; specialist development and transfer assessments remain outside that competence. Mira accepts the bounded service and the employer agrees to the disclosure limit. Existing information identifies the two directions, but no qualified result supports the proposed independent-review transfer. The adviser returns the two-sentence boundary in `:4.7` with the limit on independent-review transfer. A specific HCD request follows only when its attainable contribution warrants acquisition; this service-boundary answer needs no request to be complete. Admitting the service did not make a course recommendation ready.
 
 Now the employer requests raw assessment notes for staffing. That is a changed audience and use, not another copy of the agreed service summary. The adviser withholds that disclosure pending its applicable basis and revisits the affected service terms. Mira's earlier qualified assessment claims retain their established scope; the adviser takes neither her development choice nor the employer's staffing decision.
 
@@ -1937,7 +1937,7 @@ If the sponsor demands a concealed provider preference, return the blocker on th
 
 In a constructed AI case, an authorized operations team asks a separate advisory arrangement whether to tune a model, change its retrieval support, or alter human–AI allocation. The team receives the advice; the changed model or composite arrangement is the subject. The advisory service still needs its own scope and qualified technical inputs.
 
-An evaluation covers configuration A, while one proposed direction changes tools and oversight to B. The useful return is a request for B's relevant evaluation and safety results, not a transferred score or deployment recommendation. The adviser's separate use of a drafting tool changes neither that gap nor the client's information-use restrictions.
+An evaluation covers configuration A, while one proposed direction changes tools and oversight to B. The useful return keeps B's evaluation and safety premises unqualified while retaining the supported scope of A. Select a B-result request only when its obtainable contribution warrants acquisition; neither the limit nor a request supplies a deployment recommendation. The adviser's separate use of a drafting tool changes neither that gap nor the client's information-use restrictions.
 
 For contrast, “tell this unmanaged biological lineage which direction it should choose” supplies no lineage-local recipient or chooser. Return that attribution gap to the evolutionary account. A research team asking about a proposed intervention is a different recipient-owned case requiring its scientific, ethical, safety, and governance basis.
 
@@ -2030,7 +2030,7 @@ Separating the two questions makes a useful partial return possible: the service
 
 **Use this when** something relied on by a development opportunity, direction, path, or advising engagement changes, and a practitioner needs to know what can still be used. The change may concern the subject, receiving use, horizon, characteristic, contribution, support, resource, permission, evidence, or an enabling step.
 
-Begin with the changed premise and the particular opportunity claim that used it. Compare the earlier and current conditions, then obtain the smallest new qualification needed. The first useful result is an unchanged, narrowed, blocked, revised, or retired contribution for a stated use, with its affected downstream return.
+Begin with the changed premise and the particular opportunity claim that used it. Compare the earlier and current conditions and return the useful result they support. Obtain new qualification only when a stronger current use needs it and its attainable contribution warrants acquisition. The first useful result is an unchanged, narrowed, blocked, revised, or retired contribution for a stated use, with its affected downstream return.
 
 This is application-specific requalification shared by Construction and Advising. It does not revise an entire framework merely because one client's circumstances changed. A changed recommendation uses PSD.14's follow-up question; changed source-currentness or publication work retains its direct owner.
 
@@ -2083,13 +2083,13 @@ For one known opportunity, inspect how the changed premise supports its contribu
 
 Use [A.10.1 — Revalidate Affected Uses When a Relied-on Source Changes](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) when a changed source claim requires discovering and revalidating several receiving uses, especially when the receivers are not yet fully known. It supplies the bounded search frame, complementary source- and receiver-oriented discovery, coverage limits, direct-reliance test, and action-changing reach. Do not substitute a link scan for that result.
 
-Keep the returned discovery conclusions distinct from the opportunity judgement. A confirmed dependent use still needs the direct subject result. An unresolved use or inaccessible source remains a gap. Do not call an uninspected branch unaffected or extend a local negative search result beyond its covered frame.
+Keep the returned discovery conclusions distinct from the opportunity judgement. A confirmed dependent use needs a supported subject judgment or scoped blocker; an adequate existing result may supply it. The direct return can finish the question. Add a common account only when a receiver needs that overview, and group equivalent irrelevant mentions without separate exclusion records. An unresolved use or inaccessible source remains a gap. Do not call an uninspected branch unaffected or extend a local negative search result beyond its covered frame.
 
 Follow an established dependency only while a receiving action or claim can change. Include a combined recommendation when its ranking used the affected comparison, but stop before a separate result whose inspected basis is independent.
 
 #### DOCA.8:4.3 - Obtain the result that changes the opportunity claim
 
-Use [A.15.9](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) for the missing external result: inspect an adequate existing result first, request the remaining gap, and qualify it for the present subject, configuration, use, and window. The supplier retains its Method and conclusion.
+Use [A.15.9](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) for the missing external result: inspect an adequate existing result first and qualify its supported use for the present subject, configuration, use, and window. Retain a useful narrowed or conditional answer. Select a request through A.15.9 and C.11.DUA only when its obtainable contribution warrants the full acquisition burden. The supplier retains its Method and conclusion.
 
 Return to the DOCA contribution that the change actually affects. A changed receiving need may reopen DOCA.3's problem/contribution account. A changed support or finite configuration may require DOCA.4 and DOCA.5. A defeated enabling relation may retire a DOCA.6 stepping-stone claim while leaving the candidate's independent contribution useful. A changed recipient, conflict, consent, or disclosure condition reopens DOCA.7's service boundary. Preserve an independently qualified domain result within its established scope, and reconsider a domain claim whose qualification itself depended on the changed condition.
 
@@ -2129,9 +2129,9 @@ A change in professional scope or disclosure can restrict the service return whi
 
 #### DOCA.8:4.6 - Close the bounded update and keep a feasible reopen condition
 
-Close this update when the inspected use has a supported disposition or an explicit blocker, the coverage limits are visible, and the next responsible receiver can recover the question. Keep an independent unresolved branch open as such; do not hold every resolved branch unfinished.
+Close this update when the inspected use has a supported disposition or an explicit blocker and its material coverage limits are visible. A compatible source-link repair can finish directly. Name the next receiver only when further action needs one; neither branch requires a duplicate common account. Keep an independent unresolved branch open as such; do not hold every resolved branch unfinished.
 
-State what observation or condition would reopen this result. Identify an existing responsibility that covers it, or make clear that no future observation has been arranged. If later advice depends on future evidence, the observation, interpretation, access, timing, burden, and receiving response must be feasible under PSD.14. A missed or late observation is a present reliance limit when that evidence was necessary.
+For an actual continuing use, state the observation or condition that would reopen its result and identify any responsibility on which that use relies. A completed reference repair needs no new observation arrangement or certificate that none was arranged. If later advice depends on future evidence, the observation, interpretation, access, timing, burden, and receiving response must be feasible under PSD.14. A missed or late observation is a present reliance limit when that evidence was necessary.
 
 Use [G.11](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) for actual source currentness, decay, scoped refresh planning, or reporting. It does not decide the new domain result or replace the opportunity judgement. If the guidance itself fails across applications, return the bounded failure to its maintainer; a changed fact about one subject normally changes only that application.
 
@@ -2153,7 +2153,7 @@ The data steward supplies a qualified change: external processing of class B is 
 | Index as a stepping stone to broad retrieval | Reconsider that enabling claim. The independent manual contribution survives even if the broad retrieval connection is retired. |
 | Earlier advice to consider the broad evaluation probe | Return the changed permission and affected scope to PSD.14; recover any actual probe decision separately. |
 
-The next useful request asks the relevant AI and engineering practices for the class-A evaluation and finite transition result from the actual indexed arrangement. It is not another endorsement of the old model name. DOCA.5 qualifies the revised joint conditions.
+This result can finish with the actual manual arrangement preserved, the prohibited broad route retired, and the class-A direction conditional on its unqualified performance and transition. A class-A evaluation or finite transition result becomes a request to the relevant AI or engineering practice only when its attainable contribution warrants the whole burden relative to continuing from `S1`. DOCA.5 qualifies the revised joint conditions when that question is pursued.
 
 If a probe was already authorized or begun, the responsible operational owner applies the applicable permission and protection rules. The adviser does not infer continued authority from the earlier recommendation. If no decision or implementation evidence exists, those remain unknown.
 
@@ -2169,7 +2169,7 @@ Several other possible receivers are not fully known. Under A.10.1, the responsi
 
 One note merely lists the report as background. Another uses its corrected claim in a path. A private recipient-held copy cannot be inspected. The outcomes differ: the background mention supplies no affected use; the path needs its HCD and DOCA qualification; the private copy remains a named coverage gap, not an unaffected result.
 
-Only after the relevant subject results exist can the update summarize their supported dispositions. The inquiry can return a locally blocked path and the unresolved recipient-copy question without declaring either global failure or complete no-impact coverage.
+The direct DOCA return can finish with the locally blocked path, supported-review result and unresolved recipient-copy question. Subject qualification is still required before asserting a restored independent-performance claim. If an adviser needs a common overview, it cites these supported results and groups the irrelevant background mentions; no separate exclusion note is needed. Neither return claims complete no-impact coverage.
 
 #### DOCA.8:5.3 - Changed service terms leave technical evidence distinguishable
 
@@ -2181,7 +2181,7 @@ At the planned three-month follow-up, no capable observer or permitted source is
 
 #### DOCA.8:5.4 - Take the cheap stop for unchanged meaning
 
-A source is moved to a new repository path with the same relevant claims, applicability, and accessible content. The user verifies that the relied-on source and receiving use remain the same. Updating the access reference answers this change; no opportunity reconstruction or multi-use discovery is needed.
+A source is moved to a new repository path with the same relevant claims, applicability, and accessible content. The user verifies that the relied-on source and receiving use remain the same. Updating the access reference answers this change; no opportunity reconstruction, multi-use discovery, separate subject-result record or common summary is needed.
 
 If access is lost, a relied-on window expires, or one changed word narrows the claim, the premise is different. Return that specific reliance or claim-comparison question instead of using “only a document change” as a blanket exemption.
 
@@ -2264,7 +2264,7 @@ The three applications below are constructed cases. Their supplied observations,
 
 ### The working difficulty and the first bounded return
 
-Mira is an engineer-manager who prepares release-review handovers. She has four months to improve that work. “Learn more patterns” is her initial idea. Her receiving need is more specific: distinguish an already adequate specialist result from a missing result, ask for the precise gap, and avoid carrying a result into a changed configuration without qualification.
+Mira is an engineer-manager who prepares release-review handovers. She has four months to improve that work. “Learn more patterns” is her initial idea. Her receiving need is more specific: distinguish an already adequate specialist result from a missing result, select a worthwhile further contribution, and avoid carrying a result into a changed configuration without qualification.
 
 For this case, a qualified HCD practitioner has recovered representative later-Work demand and evidence of Mira's present performance under the available checklist and technical reference, using the target practice's qualified correctness criteria. Mira's responses adequately qualified three of five receiving uses; in the two changed-configuration cases they relied on unsupported transfer. The result concerns those tasks and supports. It does not establish unaided performance, a general mastery score, or transfer to every engineering setting.
 
@@ -2288,9 +2288,9 @@ Counts, time, permission and qualification readings answer different questions. 
 
 Using DOCA.2–DOCA.4, Mira constructs two materially different directions. One is intended to develop her recognition and execution of bounded specialist-result use. The other would change the release-review support arrangement so that a qualified technical reviewer supplies more of that contribution. The second may improve the receiving result without demonstrating new personal capability. Both are more precise than competing course brands.
 
-The first direction cites [A.15.9 — Request and Use a Bounded Result from Another Practice](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) as a complete contribution. The recurring difficulty is a missing qualified outside contribution. The move is to inspect an adequate existing result, request only the remaining gap, and qualify the return for the receiving subject, configuration, use and window. The useful result is a qualified contribution or an explicit limitation. The stop is reached when the existing result suffices; a request itself is not the supplied result.
+The first direction cites [A.15.9 — Request and Use a Bounded Result from Another Practice](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) as a complete contribution. The recurring difficulty is a missing qualified outside contribution. The move is to inspect an existing result, use it at its supported strength, and retain a material limit. A further request is selected only when its obtainable contribution warrants the whole acquisition burden; the return is qualified for the receiving subject, configuration, use and window. The useful result is a qualified contribution or an explicit limitation. A useful narrower answer can also complete the use; a request itself is not the supplied result.
 
-Mira's intended learner action is therefore observable: given a release question and two specialist reports, decide which report can be reused, name one genuine gap, draft the bounded request, and withhold the claim that still lacks a suitable result. The PatternID is an address for that guidance, not a development step by itself. Reading the text does not establish that Mira can perform the described move.
+Mira's intended learner action is therefore observable: given a release question and two specialist reports, decide which report can be used and at what strength, retain a genuine use limit, and obtain a further contribution only when it warrants the work. When acquisition is selected, she drafts its bounded request; she withholds the claim that still lacks a suitable result. The PatternID is an address for that guidance, not a development step by itself. Reading the text does not establish that Mira can perform the described move.
 
 ### Finite directions and a conditional later step
 
@@ -2308,7 +2308,7 @@ C.11.CRC governs any stronger finite comparison. The result, resource, affected-
 
 Suppose Mira asks a distinct career-development adviser for help. Using DOCA.7, the adviser bounds the service on independently established competence, Mira's participation, confidential individual feedback, an employer-facing summary limited to agreed work implications, and appropriate treatment of provider interests. These are supplied conditions of this constructed scene, not consequences of the sponsor's payment. A private assessment does not become an employer record.
 
-PSD receives the formed direction question and qualified available inputs. While mentor capacity and transfer remain unresolved, its useful return may be a bounded request or recommended probe, not a winner. In a later scene, assume the required capacity and comparison results have arrived and the authorized choice inputs are adequate. Mira explicitly chooses the personal-development direction A under its stated resource and evidence limits. That choice is a new case fact; neither the opportunity table nor the advice made it for her.
+PSD receives the formed direction question and qualified available inputs. While mentor capacity and transfer remain unresolved, its useful return can retain conditional directions with those limits. A request or recommended probe follows only when its obtainable contribution warrants the whole burden; the missing premises do not establish a winner. In a later scene, assume the required capacity and comparison results have arrived and the authorized choice inputs are adequate. Mira explicitly chooses the personal-development direction A under its stated resource and evidence limits. That choice is a new case fact; neither the opportunity table nor the advice made it for her.
 
 [HCD.2 — Compose and Compare Capability-Development Programmes for Later Work](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd2---compose-and-compare-capability-development-programmes-for-later-work) now receives the selected development stake, compatible profile, later tasks, participation and qualified support. In this constructed continuation, the HCD practitioner supplies a programme-comparison account for two feasible candidates under those conditions:
 
@@ -2378,7 +2378,7 @@ The common opportunity question does not create one development mechanism. Each 
 
 A professional maintenance community wants more reliable transfer of incident experience between participating groups. Its named coordination circle receives an inquiry, under its established limited remit. DOCA can construct possibilities such as changed examples, contributor support, review practice or communication arrangements. Cultural and governance practices qualify participation, transmission, variant retention and intervention claims; FPF C.36 supplies its actual cultural question.
 
-One successful workshop or published pattern does not demonstrate changed community practice. A useful first return is a bounded contribution hypothesis and an observation or coordination request. If nobody is entitled to receive or act on the requested community-wide advice, return that recipient or authority gap. Do not invent community consent from a meeting attendance list.
+One successful workshop or published pattern does not demonstrate changed community practice. A useful first return is a bounded contribution hypothesis with its unestablished practice effect. An observation or coordination request is a further action only when its attainable contribution warrants the whole burden for this inquiry. If nobody is entitled to receive or act on the requested community-wide advice, return that recipient or authority gap. Do not invent community consent from a meeting attendance list.
 
 ### AI/model or composite arrangement
 
@@ -2436,7 +2436,7 @@ The applications preserve a person-to-Guide use, an organization inquiry and unl
 | Guide realization | Learning Product practice, including LG.02, LG.03 and LG.05 for their actual questions: an instructional route/unit and learner-action result. | Begin realization from an authorized programme choice. The Guide supplies neither programme choice nor proof of learning, reduced load or transfer. |
 | Professional service conditions | The applicable career, consulting or other professional practice: established competence, participation, confidentiality, conflict treatment, disclosure, referral and closure conditions. | Establish actual scope/adoption and local requirements. Codes and service forms do not establish personal competence, permission or a universal legal rule. |
 | AI, engineered, cultural, research, legal, safety, security or financial premise | The actual subject practice: the named evaluation, relation, criterion, authority, constraint or evidence result. | Retain the exact object and receiving conditions. Missing or stale results produce a bounded request, narrower claim, blocker or abstention, not a cross-domain analogy. |
-| Several uses affected by one changed source claim | A.10.1: bounded discovery, actual-dependence and coverage results, followed by each direct subject qualification. | A citation alone is not reliance; an inaccessible or uninspected receiver is not unaffected. For one known reliance use A.10 and the direct owner. |
+| Several uses affected by one changed source claim | A.10.1: needed bounded discovery, actual dependence and coverage, followed by the supported direct subject result or scoped gap. A sufficient direct return needs no additional common account. | A citation alone is not reliance; an inaccessible or uninspected receiver is not unaffected. For one known reliance use A.10 and the direct owner. |
 | Source or guidance currentness | G.11 and the responsible source/framework maintainer: currentness, decay, scoped refresh and reporting. | A recent date or refresh completion does not create the new domain result, edition admission, access or effectiveness. |
 
 ## Source responsibility and references
@@ -2507,7 +2507,7 @@ The complete [FPF Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF
 | E.10.DEV | Recovering What Development or Evolution Means in the Current Claim |
 | G.11 | Telemetry-Driven Refresh and Decay Orchestrator |
 
-Use the complete relevant pattern and its conditions, not just the matched title. In particular, A.10.1 supplies bounded changed-source discovery and actual-use qualification; DOCA.8 still needs the independently governed subject result. A different edition or wording requires comparison of the relied-on contribution when that difference could affect the receiving use.
+Use the complete relevant pattern and its conditions, not just the matched title. In particular, A.10.1 supplies bounded changed-source discovery and actual-use qualification; DOCA.8 requires a subject basis before asserting restored qualification, but may finish with a supported limit or compatible reference repair. It does not require a second result record or an unused common summary. A different edition or wording requires comparison of the relied-on contribution when that difference could affect the receiving use.
 
 ### Learning Product source access
 

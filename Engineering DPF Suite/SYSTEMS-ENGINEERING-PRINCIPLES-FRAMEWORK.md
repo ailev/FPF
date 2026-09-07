@@ -47,7 +47,7 @@ Search the Keywords & Search Queries column for the engineering difficulty, subj
 | 7 | [SYSE.6 - Decide and Reopen the Engineering Architecture](#syse6---decide-and-reopen-the-engineering-architecture) |  | *Keywords:* architecture decision, functional allocation, module boundary, interface, control, redundancy, product family, trade-off. *Queries:* "Which engineering architecture should the project choose for this use?" "Which evidence or changed condition would reopen that choice?" Select the decision-relevant structures, compare materially different alternatives and accepted losses, and state the constraints that later realization and specialist decisions must respect. | SYSE.2, SYSE.5; FPF C.30, C.32 |
 | 8 | [SYSE.7 - Maintain a Decision-Usable Engineering Description Ensemble](#syse7---maintain-a-decision-usable-engineering-description-ensemble) |  | *Keywords:* engineering descriptions, model, requirement, CAD, simulation, digital twin, configuration, correspondence, contradiction. *Queries:* "Which claims across our models and records support this decision?" "Do they concern compatible subjects, configurations, intervals, and interpretations?" Maintain a usable ensemble of descriptions with explicit links to sources and returned evidence, justified correspondences, and identified contradictions that can change the engineering answer. | SYSE.6; FPF C.29, A.10 |
 | 9 | [SYSE.8 - Develop an Integrated Offering and Provider Concept](#syse8---develop-an-integrated-offering-and-provider-concept) |  | *Keywords:* integrated offering, provider concept, service, access, consumables, maintenance, support, financing, risk allocation. *Queries:* "What continuing arrangement makes this engineered result usable?" "How do provider, access, and support choices change the technical concept and allocation of risk?" Develop the offering and provider concept alongside the System concept, naming the needed Systems, Work, promises, and supported contributions. | SYSE.2; FPF A.2.3 |
-| 10 | [SYSE.9 - Request and Use Specialist Engineering Results](#syse9---request-and-use-specialist-engineering-results) |  | *Keywords:* specialist result, engineering contribution, receiving decision, safety, calculation, authority, evidence limits. *Queries:* "Which exact specialist answer could change this whole-System decision?" "What subject, configuration, conditions, and evidence must that answer address?" Request and use a bounded specialist result, preserving the Method, authority boundary, limits, and unresolved questions relevant to the receiving engineering choice. | SYSE.2, SYSE.6; FPF A.6.REL, E.10.ROLE |
+| 10 | [SYSE.9 - Request and Use Specialist Engineering Results](#syse9---request-and-use-specialist-engineering-results) |  | *Keywords:* specialist result, engineering contribution, receiving decision, safety, calculation, authority, evidence limits. *Queries:* "Which exact specialist answer could change this whole-System decision?" "What subject, configuration, conditions, and evidence must that answer address?" Use an adequate qualified specialist result or return its material limit. Select a new request only when its attainable contribution warrants the whole acquisition burden for the engineering choice; preserve the supplier Method and authority. | SYSE.2, SYSE.6; FPF A.15.9, C.11.DUA, A.6.REL, E.10.ROLE |
 | 11 | [SYSE.10 - Assess Research, Model, and Trial Results for an Engineering Decision](#syse10---assess-research-model-and-trial-results-for-an-engineering-decision) |  | *Keywords:* research result, engineering model, simulation, experiment, prototype, field trial, formal proof, validity. *Queries:* "What can this research, model, or trial result support in our engineering decision?" "Which implementation correspondence or untested condition limits that use?" Assess what the result supports, its remaining uncertainty, and any need for further observation, so the decision uses partial knowledge within its justified limits. | SYSE.6, SYSE.7; FPF A.10, C.16 |
 
 **Part III - Obtaining Engineering Results, Recursive Realization, Platforms, Independent Constituents, and Evolvability**
@@ -1210,7 +1210,7 @@ specialist practice whenever the decision relies on authority outside Systems En
 | focus of inquiry | A proposed engineering alternative or change, together with the actual System or intended System referent and configuration to which it applies. If an observed result prompts the inquiry, use it as evidence for a newly stated change question. |
 | consequence-bearing System | An actual System whose state or decision-relevant characteristic may change under the proposed alternative or change. A possible-future bearer remains an intended System referent inside a modal claim until it exists and can be recognized. |
 | supported obtaining relation occurrence | An actual relation occurrence between identified participants under stated conditions. Record its predicate and conditions in a claim and support that claim with evidence; a line in a diagram is only a representation. |
-| modal consequence-path claim | An episteme describing relations and changes that may connect the proposed alternative or change to a bearer, with candidate participants, conditions, evidence, uncertainty, and a probe. Establish every world-side relation occurrence in the path separately. |
+| modal consequence-path claim | An episteme describing relations and changes that may connect the proposed alternative or change to a bearer, with candidate participants, conditions, evidence, uncertainty, and the limit that matters to the receiving decision. A probe is conditional on its selected contribution. Establish every world-side relation occurrence in the path separately. |
 | consequence claim | A claim about a possible or observed change, bearer, conditions, direction, time, evidence, uncertainty, and causal status. The claim and its world-side change have separate identities. |
 | value-qualified consequence claim | A descriptive consequence plus a stated value judgement—for example, benefit, harm, burden, or opportunity—under a named value frame, bearer, scope, and evidence. |
 | affected-System claim | A consequence claim that identifies the System bearing the possible or observed change. It supports that bearer–consequence statement; establish any project assignment, authority, or other relation separately when the decision needs it. |
@@ -1281,8 +1281,8 @@ consequence claims that change or hold open a named engineering decision, and st
 3. **Trace outward without promoting hypotheses to facts.** Follow supported obtaining relation occurrences
    separately from modal consequence-path claims. For each modal path, name candidate participants and proposed
    relation kinds—for example, material transfer, energy transfer, information transfer, exposure, access, resource
-   use, an economic relation, or an institutional relation—together with conditions, evidence, uncertainty, and a
-   feasible probe.
+   use, an economic relation, or an institutional relation—together with conditions, evidence, uncertainty, and
+   the useful consequence or limit for this decision. A modal path does not itself select a probe.
 4. **Recognize the bearer.** Identify each actual System from evidence about its identity and boundary. A role
    label, organization name, collection, description, or representative can help locate a candidate but does not
    establish that identity. Keep a possible-future bearer as an intended System referent in the claim until the
@@ -1294,15 +1294,17 @@ consequence claims that change or hold open a named engineering decision, and st
    intervention, or counterfactual claim.
 6. **Add value and specialist claims only when needed.** Name the bearer and value frame for a value-qualified
    consequence—for example, a claimed benefit, harm, burden, opportunity, or accepted loss. Preserve conflicts and
-   distributions. Send specialist questions with the System, claim, evidence, and receiving decision; keep the
-   returned authority boundary visible.
+   distributions. Select any specialist acquisition through A.15.9 and C.11.DUA before sending the question with
+   its System, claim, evidence, and receiving decision; keep the returned authority boundary visible.
 7. **Change the engineering choice.** Add or revise a decision contribution—for example, a constraint, alternative,
    probe, safeguard, monitoring condition, reversible step, refusal, or escalation. When that contribution relies
    on permission, authority, responsibility, or representation, establish the required relation separately.
-8. **Stop with the remaining uncertainty explicit.** Return the smallest account that changes or holds open the decision. Record
-   plausible missing bearer references or modal paths and the cheapest next discovery action. Name what would
-   reopen the decision—for example, a new observation, a newly identified System, changed evidence, a specialist
-   result, or an outside change.
+8. **Finish with the useful answer and its material uncertainty.** A qualified consequence account, constraint,
+   alternative, or explicit unknown can complete this use. Select a further discovery action through C.11.DUA
+   only when its obtainable contribution warrants the full preparation, access, performer, interpretation,
+   delay, displacement, and downside. Compare observations separately and together against shared resources
+   and the decision window. Retain the residual and reopen condition that matter to the receiver; an unselected
+   inquiry needs no proposal or omission certificate.
 
 The numbered presentation is an `A.22.CGUS` learning unfolding, not a required Work sequence. Discovery,
 design, trial, specialist inquiry, and consequence observation can overlap and reopen one another.
@@ -1314,11 +1316,11 @@ design, trial, specialist inquiry, and consequence observation can overlap and r
 | focus and receiver | Proposed alternative or change; actual System or intended System referent and configuration to which it applies; use, scope, horizon, and receiving engineering decision. |
 | examined situations | Consequence-producing Work or events retained because their consequences could alter the decision. |
 | bearer references | Each actual System and its recognition basis, or each intended System referent and modal-reference basis; unresolved population, collection, or whole questions remain explicit. |
-| relations and modal paths | Supported obtaining relation occurrences; separately stated modal consequence-path claims; conditions, evidence, uncertainty, probes, and missing-relation blockers. |
+| relations and modal paths | Supported obtaining relation occurrences; separately stated modal consequence-path claims; conditions, evidence, uncertainty, any selected probes, and missing-relation blockers. |
 | consequence claims | Changed characteristic or condition, bearer, configuration, time, direction or magnitude cue, observed-or-modal status, evidence basis, uncertainty, and causal status. |
 | value and specialist results | Current value judgement and value-frame source, any conflict, the required specialist result, and its authority boundary. |
 | engineering decision contribution | A named change to or unresolved need in the receiving decision—for example, a constraint, alternative, probe, safeguard, monitoring condition, reversible step, refusal, escalation, authorized representative, or protection result. |
-| residual and reopen | Plausible missing bearer references or modal paths, cheapest next action, and the concrete change or observation that reopens the decision. |
+| residual and reopen | Missing bearer references or modal paths and the concrete change that matters to a later receiving use. Include a further action only when its obtainable contribution warrants the complete inquiry burden. |
 
 An initial account can contain one qualified consequence and one named uncertainty—for example, an
 unidentified bearer, unsupported relation, or missing specialist result—when they already change the decision. A
@@ -1342,13 +1344,18 @@ Systems not captured by the original user-and-owner list:
 | Heat-pump plant: increased compressor cycling and wear | The current command relation obtains. Manufacturer data support a conditional wear estimate; the proposed configuration has not run for a heating season. | Add a cycle-rate constraint and monitored-service condition. |
 | Maintenance-provider organization: higher expected inspection workload and less remaining recovery capacity | Service records and the current agreement identify the provider organization and the maintenance Work it performs. The additional workload remains an estimate, and no current commitment covers it. | Keep remote monitoring conditional; use `SYSE.8` or `SYSE.24` to settle provider capacity and commitment. |
 | Maintenance technician: reduced cabinet clearance and greater exposure during inspection | Current geometry is described by drawings; the reduction under the proposed cabinet position remains unmeasured. | Hold the cabinet-location choice open pending a plant-room measurement and specialist safety result. |
-| Individual residents in a nearby building: increased low-frequency night noise | An acoustic model supports a possible increase; no night measurement establishes an observed effect or its distribution among residents. | Add a low-noise alternative and a pre-release measurement. The model settles neither legal compliance nor ethical acceptability. |
-| Individual building occupants: room-temperature deviation during grid load shifting | Current thermal relations are supported, but sensor latency, override behaviour, and the distribution of deviations among occupants remain unresolved. | Add a latency trial and an override-safe concept branch before selection. |
-| Electricity-distribution System: changed peak-load contribution | Meter history supports the baseline; the proposed controller effect is simulated. | Keep the grid-response claim conditional and add a measurement requirement. |
+| Individual residents in a nearby building: increased low-frequency night noise | An acoustic model supports a possible increase; no night measurement establishes an observed effect or its distribution among residents. | Retain a low-noise alternative and the unqualified noise/distribution claim; a stronger release claim still needs its applicable acoustic basis. The model settles neither legal compliance nor ethical acceptability. |
+| Individual building occupants: room-temperature deviation during grid load shifting | Current thermal relations are supported, but sensor latency, override behaviour, and the distribution of deviations among occupants remain unresolved. | Retain an override-safe concept branch and the latency limit; select a trial when its obtainable result warrants the burden for the decision. |
+| Electricity-distribution System: changed peak-load contribution | Meter history supports the baseline; the proposed controller effect is simulated. | Keep the grid-response claim conditional; commission measurement only when its obtainable contribution warrants the work. |
 
 Each row links a possible or observed change to a named System and supports only the stated consequence and
 decision contribution. Ground any authority or representation used later with separate evidence. The team can
-make a reversible architecture choice using these qualified contributions while keeping measurement gaps explicit.
+make a bounded architecture choice using these qualified contributions while keeping measurement gaps explicit.
+For example, suppose a plant-room measurement and competent safety interpretation are available before layout
+freeze; their combined result could rule out an unsafe irreversible placement at a burden justified by that gain.
+Select that acquisition. An unavailable seasonal noise study is a different proposal: retain the low-noise
+alternative and the unqualified noise claim without making the study a condition of this narrower return.
+The resulting account grants neither release permission nor evidence of an observed improvement.
 
 **When the full pattern is unnecessary.** If one identified causal claim about one already identified System is
 the whole question, use `C.28` and the direct subject pattern. A broader consequence-discovery account adds no
@@ -1378,7 +1385,9 @@ consequence can change the decision; specialist authority remains with the appli
       uncertainty, and causal status.
 - [ ] Every value-qualified consequence names its bearer and value frame, and any conflict remains explicit.
 - [ ] Each retained consequence changes or holds open an engineering choice through a named decision contribution.
-- [ ] The account records residual uncertainty, the cheapest next action, and a concrete reopen condition.
+- [ ] The account retains the residual uncertainty and reopen condition needed by its recipient. Further inquiry
+      is selected for attainable value against its whole burden, including the combined programme; no action or
+      omission record is required merely because a gap remains.
 
 ### SYSE.17:8 - Common Failures and Repairs
 
@@ -3636,14 +3645,16 @@ project is asking for a document, meeting, review, or job title instead of sayin
 Typical requests such as *get architecture approval*, *send it to safety*, or *ask the electrical team* leave
 the specialist question, scope, evidence, and later use unclear.
 
-Start with the receiving engineering decision. Ask for the smallest specialist result that could change that
-decision: state the question, subject and configuration, applicable Method, expected evidence, acceptance
-conditions, authority boundary, and intended use. That bounded contribution request is the first useful result.
+Start with the receiving engineering decision and inspect the relevant available specialist result. Return
+the useful answer it supports, with the limit that matters; a qualified judgement or narrower engineering
+conclusion can complete this use. A missing result for a stronger claim becomes a request only when its
+obtainable contribution warrants the whole acquisition burden through A.15.9 and C.11.DUA. Bound a selected
+request by the question, configuration, evidence, acceptance, authority, and intended use.
 
-For a low-consequence exchange, the request and return may fit in two ordinary sentences. When one decision
-depends on several contributions, or an incorrect result would be costly, maintain a **professional-contribution
-account** that connects each request to the Agent expected to perform the Work, the Work that occurred, the
-returned result, its evidence and acceptance, and its receiving use. The account describes these facts and their
+For a low-consequence exchange, the useful answer or selected request may fit in two ordinary sentences. When
+later reliance needs several contributions recovered together, keep a **professional-contribution account**
+connecting the actual request, expected performer, performed Work, returned result, evidence, acceptance, and
+receiving use where those facts matter. An inactive request needs no field or explanation. The account describes these facts and their
 relations. Capability, assignment, authority, Work, and result remain independently supported.
 
 Use `SYSE.17` when the first problem is finding affected Systems, `SYSE.10` when research, model, experiment, or
@@ -3692,8 +3703,9 @@ organization chart.
 
 ### SYSE.9:2 - Problem
 
-Producing and using a specialist result requires answers to seven questions. The first contribution request
-may leave the performer or Method unresolved when it names that gap and the decision it blocks.
+Producing or using a specialist result raises the following questions where they affect this receiving use.
+An available qualified result can finish the answer before new production is considered. If acquisition is
+selected, a request may leave the performer or Method unresolved while naming the resulting limit.
 
 1. Which engineering decision or Work is waiting, and what could change because of the result?
 2. What should the specialist return, and what kind of result will it be?
@@ -3729,23 +3741,25 @@ input, or an applicable Method, together with the decision that cannot yet proce
 
 ### SYSE.9:4 - Solution
 
-Request a bounded specialist result in the language of the receiving engineering decision. Then select a
-capable Agent, establish the relations needed for the Work, assess the returned result, and use it only within
-its supported scope.
+Use the available specialist result within its supported scope for the engineering decision. Select a new
+contribution only when its obtainable value warrants acquisition. For that branch, bound the request, retain
+the supplier's Method, enable a capable Agent, and assess the return before relying on it.
 
 #### SYSE.9:4.1 - Perform the Move
 
 1. **Name the receiving decision.** State the question, alternatives, deciding Agent, Work that will use the
    result, and consequence of delay or error.
-2. **Request a result, not a title or document.** Name what the receiver needs—for example, a calculation,
-   constraint, objection, option, observation, or specialist decision—and say how it could
-   change the receiving decision.
+2. **Use the present result and select any further acquisition.** Inspect what the available result supports
+   for this decision and return its useful answer and material limit. If further inquiry is live, use A.15.9
+   and C.11.DUA to compare its attainable contribution with preparation, qualification, supplier Work,
+   delivery, interpretation, delay, displaced work, and alternatives. For a selected request, name the
+   bounded calculation, constraint, objection, observation, or other result that supplies that contribution.
 3. **Bound the result.** Name its subject and the applicability dimensions that could change the answer. For a
    System claim these may include the actual or intended System, configuration, part, environment, affected
    System, use, interval, scale, and assumptions.
-4. **Choose the Method and evidence.** Identify the specialist Method, any source family it uses, expected result
-   form, inputs, observations, uncertainty, and non-use boundary. If no applicable Method is known, return an
-   inquiry problem.
+4. **Retain the supplier's Method and evidence.** For a selected acquisition, the specialist practice
+   identifies its Method, source family, inputs, observations, uncertainty, and non-use boundary. A missing
+   Method limits the promised result; investigating it is another acquisition choice under step 2.
 5. **Choose and enable the performing Agent.** Check current capability and the conditions that affect this Work,
    such as access, workload, conflicts, resources, and tools. Establish an assignment only when it matters.
    Establish permission, authority, commitment, or responsibility separately and from its own governing relation.
@@ -3754,11 +3768,12 @@ its supported scope.
    activity trace, or tool label does not prove this Work.
 7. **Assess and use the return.** Check its subject, configuration, provenance, evidence, uncertainty, limits,
    and acceptance conditions. Accept it within a stated reliance limit, reject it, request repair, choose another
-   contribution, or record the blocker.
+   contribution when its acquisition is worthwhile, or retain the blocker in the useful answer.
 8. **Observe and reopen.** Use later evidence—for example from integration, realization, operation, affected
    Systems, or assurance—to reopen the smallest affected request, assignment, Method use, result, or engineering
    decision.
 
+Step 2 can finish with the supported answer; steps concerning a new request or Work open only for that branch.
 This is an `A.22.CGUS` learning unfolding, not a required temporal sequence for all project Work. Several Agents
 may perform specialist Work concurrently and return partial results iteratively. The logical dependencies remain:
 a title cannot replace a requested result, an assignment cannot replace Work, and a produced result cannot
@@ -3766,7 +3781,7 @@ replace its assessment and use.
 
 #### SYSE.9:4.2 - Record the Result
 
-Use an ordinary sentence for a small reversible exchange. For several or consequential contributions, record:
+Use an ordinary sentence for a small reversible exchange. Where further reliance needs a shared account, include only the following content that changes its interpretation; a missing-result limit need not become a request or an omission certificate:
 
 | Field | Required content |
 | --- | --- |
@@ -3801,9 +3816,12 @@ modulation with thermal storage. Its first coordination table contains rows labe
 *acoustics*, *service*, and *safety*. Files have been uploaded, but the deciding engineer cannot tell which
 configuration each result concerns or whether any result can change the decision.
 
-The project replaces title rows with bounded requests:
+The project first resolves the title rows into the results below and inspects the uploaded files for their
+actual support. An adequate result is reused. For each still-missing contribution, the project selects a
+request only when the obtainable improvement to the decision warrants its full acquisition burden. Several
+individually worthwhile requests must also fit together within the decision window and shared specialist capacity:
 
-| Requested result | Receiving use | Performer and boundary |
+| Result to use or, when selected, request | Receiving use | Performer and boundary |
 | --- | --- | --- |
 | Compressor and refrigerant operating envelope for two compressor variants under named plant and climate assumptions. | Compare controller and storage options. | A refrigeration-analysis team with current model-and-test capability. Its result does not decide control stability or acoustics. |
 | Stability, estimator, sampling, fallback, and storage-dispatch assessment for named sensor, actuator, and plant-model configurations. | Decide which controller option may enter trial. | A controls-engineering Agent. An AI Agent may search parameter candidates, but this assignment does not include validation or the architecture decision. |
@@ -3814,8 +3832,10 @@ The project replaces title rows with bounded requests:
 
 The controls request exposes a hidden gap. An AI Agent has produced an optimization report, and its provider
 interface labels the run *verified*. The assignment covered parameter search, not validation, physical trial, or
-the architecture decision. A controls specialist checks the stability assumptions, and controller-in-the-loop
-Work supplies observations that `SYSE.10` qualifies for the receiving claim. The provider label proves none of
+the architecture decision. Suppose an available stability check and controller-in-the-loop trial can qualify the proposed option in the
+decision window, and that contribution warrants their combined burden relative to retaining the existing
+controller. A controls specialist then checks the assumptions, and the selected Work supplies observations
+that `SYSE.10` qualifies for the receiving claim. The provider label proves none of
 those results.
 
 The refrigeration team returns a blocker: the supplier data and available tests do not cover the low-ambient,
@@ -3844,14 +3864,15 @@ attention. They do not by themselves establish enacted prevalence or better proj
 field evidence is not affordably available, state the expert estimate and its uncertainty.
 
 ### SYSE.9:7 - Conformance Checklist
+Check the conditions needed by the claimed result. A reuse-only answer asserts no new supplier Work; a selected request or performed Work retains the applicable conditions below.
 
 - [ ] The receiving decision, deciding Agent, relying Work, and consequence are named.
-- [ ] Each request states a result or specialist decision rather than only a title, department, meeting, review
-      stage, or document.
+- [ ] A useful available answer and its material limit can finish the use. Any new request has an obtainable
+      contribution worth its whole acquisition burden and states a bounded result rather than a title or document.
 - [ ] Subject, configuration, environment, interval, assumptions, and non-use boundary prevent application to the
       wrong case.
-- [ ] The Method, inputs, expected evidence, and acceptance conditions are stated, or the request is returned as an
-      inquiry problem.
+- [ ] A selected acquisition retains the supplier's Method, inputs, expected evidence, and acceptance conditions,
+      or names the missing basis without automatically assigning an inquiry.
 - [ ] The performing Agent has a supported capability envelope and the needed access and resources; assignment,
       permission, authority, commitment, and responsibility remain separate claims.
 - [ ] Dated Work, enacted Method, performer, production relation, and returned result are recoverable when the
@@ -3871,7 +3892,7 @@ field evidence is not affordably available, state the expert estimate and its un
 | Ask for broad approval | Bound the claim, subject, configuration, Method, evidence, authority, and intended use; accept a bounded objection or blocker. |
 | Treat an AI output or tool status as a specialist result | Recover the performing Agent, provider and tool boundaries, assignment, Work, provenance, checks, and decision use. |
 | Hide a blocker to preserve the schedule | Name the missing condition or unsupported relation, the evidence needed to resolve it, and the decision it blocks. |
-| Redesign the organization for one small missing result | Request the smallest contribution first; change organization or capability only when the resulting gap requires it. |
+| Redesign the organization for one small missing result | Use the supported result first; select a further contribution by its obtainable value and full burden. Organization or capability change needs its own receiving question. |
 
 ### SYSE.9:9 - Consequences
 
@@ -3889,8 +3910,8 @@ Whole-System decisions depend on results from unlike professional practices. The
 system-role kinds, assignment, capability, Method, Work, production, evidence, deontic relations, and decisions
 help engineers establish how each result was obtained and how it may be used.
 
-Engineers begin with the integrating decision, formulate the smallest useful request, preserve each specialist
-Method and authority boundary, and make the supported result or blocker usable. Using the results together does
+Engineers begin with the integrating decision, use available support, select worthwhile further acquisition,
+preserve each specialist Method and authority boundary, and make the useful answer or blocker available. Using the results together does
 not merge the contributing practices into one discipline.
 
 Professional culture and project Work remain different structures. A discipline may vary, select, and retain
@@ -3916,6 +3937,8 @@ Reopen a contribution claim when a later engineering profile, role-derivation co
 result, or changed capability makes the current request, holder, authority, acceptance, or DPF boundary wrong.
 
 ### SYSE.9:12 - Relations
+
+- `A.15.9` and `C.11.DUA` govern bounded result use and the value and feasibility of further acquisition. The engineering decision retains its configuration, integration, protection, and acceptance conditions.
 
 - The cited FPF patterns `A.2`, `A.2.1`, `A.2.2`, `C.3`, `F.4`, `F.6`, and `E.10.ROLE` distinguish System
   recognition, local system-role kinds, classification, assignment, capability, and Work attribution. `SYSE.9`
@@ -7153,10 +7176,11 @@ Begin with the predecessor and later source epistemes. Compare the claims that c
 recover decisions and Work results whose stated reasoning depends on those claims. Revalidate only the affected
 use; a new file or edition label is only a cue to inspect.
 
-The first useful result is a **bounded source-change impact decision**. It states which engineering decisions remain
-usable, which are narrowed or reopened, what revalidation Work is needed, what cannot yet be decided, and what the
-project does next. Identify later performed Work, returned evidence, and a replacement engineering decision
-separately.
+The first useful result is a **bounded source-change impact decision**: the engineering use supported by the current
+basis, with the limitation or blocker that matters to its receiver. A compatible carrier change can finish with a
+repaired reference. For a material claim change, preserve, narrow, reopen or withdraw only the affected use. New
+revalidation Work is selected when the receiving question warrants it. Identify any later performed Work, returned
+evidence and replacement engineering decision separately.
 
 Use `SYSE.14` when the engineered System or its release is changing, and `SYSE.13` when configuration identity and
 effectivity are the main question. Use `SYSE.7` to maintain several descriptions used by one decision and `SYSE.10`
@@ -7230,26 +7254,34 @@ whether the affected engineering decisions remain usable.
    its predicate obtains; otherwise treat the later source as a replacement candidate or record an identity gap.
 3. **Compare claims rather than files.** State every material change in claim content or applicability—for
    example, proposition, scope, assumptions, limits, evidence status, or MethodDescription content. Classify the
-   remaining differences as publication or carrier changes.
+   remaining differences as publication or carrier changes. When relevant meaning, applicability and access remain
+   compatible, finish with any needed reference repair. Missing comparison facts remain a scoped gap.
 4. **Recover direct reliance.** For each material claim, inspect candidate receiving content found by means such
    as search, citations, traces, or AI assistance. State the decision or Work result and the direct premise or
    evidence-use relation that connects it to the claim.
-5. **Bound the affected reach.** Give each candidate use one of three discovery dispositions: `depends`, `mentions
-   only`, or `unresolved`. Follow a `depends` branch only while a downstream engineering action can still change.
-6. **Choose revalidation Work.** Name the Agent, Method, current configuration and conditions, evidence needed,
-   authority, cost, and stop. Select only the Work needed by the material claim—for example, analysis, model use,
-   comparison, test, trial, verification, assurance, permission check, or decision Work.
-7. **Perform and qualify the Work.** Identify performed Work and returned evidence separately. State what the new
-   result supports for the current configuration and what remains unknown.
+5. **Bound the affected reach.** Distinguish `depends`, `mentions only` and `unresolved` within the searched frame.
+   Group equivalent irrelevant mentions; retain a short exclusion reason in the existing result when its receiver
+   needs it. Follow a `depends` branch only while a downstream engineering action can still change. Use `A.10.1`
+   when several receiving uses still need discovery; retain the search coverage needed for the stated conclusion.
+6. **Choose any needed revalidation Work.** Use adequate existing evidence first. A scoped limitation or blocked
+   use can be the completed answer. Select further Work under `C.11.DUA` when its obtainable contribution warrants
+   the complete programme burden within the receiving window. For selected Work, name the Agent, Method,
+   configuration, conditions, evidence need, authority, cost and stop. Cost does not make an unsupported use safe
+   or supply missing permission.
+7. **Perform and qualify selected Work.** Identify actual performed Work and returned evidence separately. State
+   what the result supports for the current configuration and what remains unknown.
 8. **Decide separately for each affected engineering decision.** Assign one decision disposition from the closed set in section 0.1 and
-   state its reason, evidence, applicable interval, and next Work. A passing check becomes a decision premise only
+   state its reason, evidence and applicable interval. Name next Work only when selected for this receiving use.
+   A passing check becomes a decision premise only
    when authorized decision Work uses it.
 9. **Supply the result and preserve history.** Give the Agent making the relevant engineering change or release
-   decision the affected and preserved decisions, revalidation evidence, blockers, and next Work. Keep earlier
+   decision the supported use, relevant revalidation evidence and material blockers. This direct return can finish
+   the question. A further common account is needed only for a receiver who needs that overview. Keep earlier
    source editions and decisions recoverable for their original uses and intervals.
-10. **Stop at bounded dependency closure.** Finish when every material changed claim has a disposition for every
-    actual in-scope use, or when a named gap—for example, a missing source, applicability fact, evidence, capability,
-    or authority—prevents the next decision.
+10. **Stop at the completed receiving answer.** Finish a compatible reference repair directly. For material change,
+    return the qualified in-scope decisions or exact blockers and preserve independently resolved branches. A
+    no-impact claim requires adequate discovery coverage and actual-use support; uninspected or inaccessible
+    surfaces remain gaps.
 
 The numbered presentation is an `A.22.CGUS` learning unfolding, not a lifecycle or a required Work sequence.
 Source comparison, design, testing, operation, and release Work may overlap. Only dependencies established for the
@@ -7257,17 +7289,17 @@ current claims impose an order.
 
 #### SYSE.19:4.2 - Record the Result
 
-Record only the content needed by the receiving decisions.
+Record only the content needed by the receiving decisions in their existing result. The rows below apply to the branch actually taken; a harmless reference repair needs no revalidation dossier.
 
-| Result position | Required content |
+| Result position | Content when needed by this receiving decision |
 | --- | --- |
 | receiving decision | Engineering decision, any relied-on Work result, current configuration and use, relevant interval, deciding Agent, and action that may change. |
 | source comparison | Predecessor and later or replacement epistemes; material claim changes; publication or carrier changes; source-access and identity gaps. |
 | direct reliance | Every affected decision or Work result, the source claim on which it depends, and the premise or evidence-use relation that establishes the dependence. |
-| affected reach | `depends`, `mentions only`, or `unresolved` for each candidate use; downstream closure at the last action-changing decision. |
-| revalidation | Planned and performed Work, Agent, Method, configuration, conditions, evidence needs, authority, results, cost, and stop. |
-| decision dispositions | One disposition from section 0.1 for each affected decision, with reason, evidence, interval, and next Work. |
-| continuation | Receiving Agent and decision, remaining gaps, historical source and decision references, and the condition that reopens this result. |
+| affected reach | Actual-use bases and unresolved candidates that affect the conclusion; equivalent irrelevant mentions may share one exclusion reason. Retain discovery coverage and the last action-changing decision. |
+| revalidation | For selected revalidation: planned and actual performed Work, Agent, Method, configuration, conditions, evidence needs, authority, results, cost and stop. |
+| decision dispositions | One disposition from section 0.1 for each affected decision, with reason, evidence and interval; next Work only when selected. |
+| continuation | Material gaps and historical source/decision references; a receiving Agent or reopen condition when the actual continuation needs one. |
 
 For example, a compact table, linked decision note, model query result, or generated report may present this
 episteme. Treat the form as a representation; keep the source claims and direct-reliance relations recoverable.
@@ -7301,7 +7333,7 @@ Inspection gives the first three uses `depends` and the bibliography citation `m
 decision and room-temperature evidence therefore remain usable. The cold-start model, test criterion, and service-
 release premise enter the affected reach.
 
-The team chooses three revalidation Work occurrences. A modeling Agent revises the cold-start model. A calibration
+In this constructed case, qualified planning premises show that the modeling, calibration and chamber-test results can arrive before the release decision and that their combined burden is warranted by the cold-start release question. The team chooses three revalidation Work occurrences. A modeling Agent revises the cold-start model. A calibration
 Agent performs the new low-temperature calibration for units `S006`–`S008`. A test Agent performs the chamber test
 under the current hardware, interface, sensor, and firmware configuration. Each Work occurrence has its own Method,
 result, and evidence.
@@ -7320,8 +7352,7 @@ The bounded source-change impact decision now:
 
 
 **Carrier-only countercase.** The supplier republishes the same E3 episteme at another URL with a new PDF layout.
-The publication and carrier facts change; claim content, applicability, and direct use stay compatible. The source
-record is updated and the engineering decisions remain preserved.
+The publication and carrier facts change; claim content, applicability, access and direct use stay compatible. Updating the reference completes this change. No affected-use search, new engineering decision record or common revalidation summary is needed.
 
 **World-change boundary.** Replacing an actual `TS-2` sensor is a configuration and world-side engineering change.
 Use `SYSE.13` and `SYSE.14` for that change.
@@ -7341,14 +7372,15 @@ claim or decision, and authority remains with the Agent who holds it.
 - [ ] Edition continuity is established under `C.2.1` or left unresolved.
 - [ ] Material claim changes are separated from publication and carrier changes.
 - [ ] Every affected use names the source claim, receiving decision or Work result, and direct-reliance relation.
-- [ ] Every candidate use receives `depends`, `mentions only`, or `unresolved`, and tracing stops at action-changing
-      dependency closure.
-- [ ] Revalidation Work names its Agent, Method, configuration, conditions, evidence needs, authority, result, and
-      stop.
+- [ ] A searched frame distinguishes dependent, irrelevant and unresolved uses; equivalent irrelevant mentions can
+      be grouped. Actual-use support and coverage justify any no-impact claim. Tracing stops at action-changing closure.
+- [ ] Any selected revalidation Work warrants its complete burden for this receiving use and names its Agent,
+      Method, configuration, conditions, evidence needs, authority, result and stop.
 - [ ] The decision episteme, performed Work, evidence, permission, assurance, and release decision are grounded
       separately.
 - [ ] Historical source editions and decisions remain recoverable for their original uses and intervals.
-- [ ] The receiving Agent gets a usable decision disposition, blockers, and next Work.
+- [ ] The receiver gets the sufficient branch result and its material limits. A harmless reference repair or direct
+      engineering answer closes without a duplicate record; next Work is included only when selected.
 
 ### SYSE.19:8 - Common Failures and Repairs
 
@@ -7403,8 +7435,9 @@ qualified expert estimates for enacted engineering practice, prevalence, and eff
 
 - `C.2.1` governs source-episteme identity and edition continuity. `E.17` and `E.24.PUB` govern publication forms,
   carriers, audiences, and availability.
-- `A.10` governs claim-bound evidence, `B.3` assurance, and `C.11` the later choice. This pattern adds the direct-
-  reliance and affected-reach move for engineering source changes.
+- `A.10` governs claim-bound evidence, `B.3` assurance, and `C.11` the later choice. `A.10.1` supplies needed multi-use
+  discovery and branch-scoped completion. `C.11.DUA` selects further inquiry by attainable contribution and full
+  burden. This pattern retains the engineering subject judgment and its direct receiving use.
 - `E.15` applies when an FPF pattern edition changes. `G.11` supplies only its declared Part-G refresh results.
 - A compatible `SYSE.7` result can supply a MethodDescription or representation use for the named claim. A
   compatible `SYSE.10` result can supply evidence for the same engineering claim, configuration, decision, and
