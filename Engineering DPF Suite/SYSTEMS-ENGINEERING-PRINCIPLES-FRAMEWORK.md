@@ -1918,7 +1918,8 @@ conditions for individual claims so it can revise a problem without restarting u
 Maintain a finite selected problem portfolio and a separately identified set of System-family options. Connect
 them through decision-bearing correspondence claims, compare them under the current use and evidence, and end the
 pass with one replayable choice or probe result. Observations from either side can then reopen the other without
-discarding archives and lineage.
+discarding archives and lineage. A supported current comparison can remain usable while its carrier ages; neither
+retention nor an unchanged receiving use requires a fresh trial or a separate renewal certificate.
 
 #### SYSE.22:4.1 - Pattern-Use Unfolding
 
@@ -1930,7 +1931,9 @@ research, realization, integration, operation, and decision Work can overlap.
    resources, `DecisionSubject`, and authority complete the boundary.
 2. **Situation and problem records.** The Agent separates the world-side occurrence or condition from assertions,
    observations, and evidence about it. Each selected `ProblemCard` states detection, problematic relation or
-   unresolved claim, improvement check, constraints, affected Systems, evidence, expiry, and receiving decision.
+   unresolved claim, improvement check, constraints, affected Systems, evidence, receiving use, and the premises
+   that make that evidence applicable. Include an expiry only where an actual qualification, right, resource or
+   promised-use window ends; a review date alone does not invalidate the claim.
 3. **Archive and portfolio.** Alternative formulations and weak signals remain in the archive under retention
    rules. The selected portfolio is finite and states why each record receives current attention or resources and
    what removes or reopens it.
@@ -1946,7 +1949,10 @@ research, realization, integration, operation, and decision Work can overlap.
 7. **Choice or probe.** The current `OptionSet` is fixed. The deciding Agent performs comparison-and-choice
    Work, applies `C.11.CRC` when a finite configuration-relative contribution comparison is needed, and applies
    `C.11` to produce a decision result: a choice, tie-set, rejection, named probe, or reroute. The Agent selects a
-   probe only when its expected decision value exceeds its cost within the available authority and budget.
+   probe only when its expected contribution warrants its full burden: participant and engineering effort,
+   delay, foregone alternatives and displaced protective Work as well as direct expenditure. The performer,
+   resources, access, authority and useful observation window must be available. An affordable discriminator is
+   not by itself a worthwhile probe; a useful qualified result may stand without new observations.
 8. **Later Work and selective reopening.** Assigned Agents plan, authorize, perform, and interpret later Work
    through the applicable relations. New observations reopen only the problem records, correspondences, options,
    Fronts, configurations, or decisions that relied on the changed claim.
@@ -1959,7 +1965,7 @@ The joint problem–System-family account records these eight items:
 | --- | --- |
 | decision boundary | Project System or System family, membership and effectivity basis, current use, environment, affected Systems, configuration, horizon, resources, chooser, authority, and receiving decision. |
 | situation and claim basis | World-side occurrence, condition, or unresolved possibility; separate assertions, observations, evidence, source, interval, and uncertainty. |
-| problem archive and portfolio | Retained and selected problem records, their different membership rules, lineage, resources, expiry, stops, and reopen conditions. |
+| problem archive and portfolio | Retained and selected problem records, their different membership rules, lineage, resources, applicable premises, stops and reopen conditions; actual expiry where a qualification, right, resource or promised-use window ends. |
 | System-family options | Actual Systems and configurations, family identity, architecture, variant and effectivity rules, possible-future specifications, realizability, and builder dependencies. |
 | plural-search results | Exploration archive and each Front with its candidate set, retention or admission rule, comparator, characteristics, date, and currentness. |
 | correspondences | Every decision-bearing problem–option claim, its source and uncertainty, plus unresolved mismatches. |
@@ -1974,7 +1980,7 @@ and why the choice rule permits a choice, rejection, probe, or reroute as the ne
 
 ### SYSE.22:5 - Worked Case: Heat-Pump Controller Family
 
-A manufacturer maintains heat-pump controllers for occupied apartment buildings. The current decision concerns
+In this constructed case, a manufacturer maintains heat-pump controllers for occupied apartment buildings. The current decision concerns
 the controller family and a reversible building pilot. Installed controllers and a laboratory unit are actual
 Systems; the options below are possible-future specifications under the family's architecture and effectivity
 rules.
@@ -2014,7 +2020,8 @@ retains the incumbent local control during network loss and remains admitted, bu
 and cold recovery is missing for the local-fallback option. That option cannot yet be admitted or rejected.
 
 The **controller-family council** is the deciding Agent. Its current assignment authorizes it to choose the next
-engineering probe and allocate no more than 160 engineering hours. A building operations manager separately
+engineering probe, or decline new probing on the present basis, and allocate no more than 160 engineering hours.
+A building operations manager separately
 authorizes any occupied-building trial; the product-family owner separately authorizes later adoption. The probe
 choice grants neither authority.
 
@@ -2033,20 +2040,38 @@ The council uses one shared comparison basis:
 | --- | --- | --- | --- |
 | Scripted network-loss and cold-recovery trial | 96 engineering hours, two hardware-in-the-loop bench days, one three-day reversible building-pilot window, and about one week of decision delay. | In each of two representative building configurations: no safety violation; occupied-zone recovery inside 20 minutes; and controller processor load below 70%. The contrary outcome is any safety or comfort guard failure or processor load at or above 70%; mixed results remain unresolved. | A pass admits local fallback and leaves it with variable-speed control in the survivor set while cloud-only is rejected. A contrary outcome rejects local fallback and leaves variable-speed control as the admitted next-development option. Mixed results preserve the unresolved local-fallback status and require a new bounded decision. |
 | Variable-speed calibration trial | 128 engineering hours, four calibration-rig days, the same single building-pilot allocation, and about two weeks of decision delay. | Calibration effort and service burden may fall or rise within the currently supported range; the trial does not observe network-loss recovery or local-fallback processor load. | Either bounded outcome refines the burden comparison for an already admitted option but leaves the local-fallback admission defect and survivor question unchanged. |
-| No probe | No immediate trial resource use or delay. | No new observation. | Local fallback remains unresolved, so the current choice would discard or retain it without the evidence needed by the hard-guard comparison. |
+| No probe | No immediate trial resource use or delay; preserves the scarce pilot allocation and engineering capacity. | No new observation. | Retain the qualified current comparison: cloud-only fails the guard, variable-speed control remains admitted, and local fallback is retained only as an unresolved candidate, not admitted for use. Later development or adoption still belongs to its competent owner. |
 
-The `ChoiceRule` is: within the authorized budget, choose the least burdensome feasible probe whose possible
-observations can change option admission or the survivor relation under the hard guards; choose no probe only when
-none has that decision value. The network-loss trial fits the budget and can admit or reject a live option. The
-calibration trial costs more and cannot repair the current comparison defect. The deciding Agent therefore applies
-`C.11` and records `ChoiceResult-HPF-1 = probe_again` for the network-loss and cold-recovery trial.
+The `ChoiceRule` compares obtainable probes with retaining the qualified current result. Changing admission or
+the survivor relation is a possible contribution, not an obligation to buy it. In the first resource situation of
+this case, the council's qualified judgement is that resolving the local-fallback option before the next family
+investment is worth the 96 hours, scarce pilot allocation and one-week delay. Assume that capable performers and
+the windows can be obtained, and that this allocation does not displace more valuable protective or development
+Work. This value-and-feasibility premise, not the 160-hour ceiling, supports the choice. The calibration trial
+cannot resolve that question. The deciding Agent applies `C.11` and records
+`ChoiceResult-HPF-1 = probe_again` for the network-loss and cold-recovery trial.
 
-After that `ChoiceResult`, a planning Agent must still prepare the trial plan, the building operations manager
+In the paired resource situation, the same discriminator would consume the only pilot window needed for already
+supported protective maintenance, or no competent performer can use it before the investment decision. The
+council can decline that probe and retain the qualified comparison above. Local fallback stays unresolved; no
+observation or safety assurance is invented. A later owner can make a supported bounded development choice among
+admitted options. No separate no-probe certificate is needed merely to keep the current comparison usable.
+
+In the selected-probe situation, after that `ChoiceResult`, a planning Agent must still prepare the trial plan, the building operations manager
 must authorize the occupied-building trial, and assigned Agents must perform and interpret the Work. Family
 adoption remains a separate decision by the product-family owner. If pilot authority is withdrawn before
 the trial Work, a new decision pass records `reroute` and the missing authority without rewriting `ChoiceResult-HPF-1`.
 Later observations reopen only the three current problem–option correspondences and dependent family results; the
 voice-control archive entry remains unchanged.
+
+For currentness, first keep the same configurations, relied-on observations, calibration, rights and supported
+use while only the source export date changes: the comparison remains usable. Now change a controller
+configuration so that the relied-on processor-load evidence no longer covers it, or let a real calibration or
+pilot permission window end: reopen or suspend the affected use, not every claim in the source. Keep the needed
+qualification with the comparison for later receivers; do not turn the first case into renewal Work. The case's
+20-minute and 70% limits are receiving acceptance conditions, not universal thresholds supplied by this pattern.
+Their protective basis and any proposed amendment require the relevant engineering judgement and authority;
+merely choosing or declining a probe changes neither.
 
 ### SYSE.22:6 - Bias Annotation
 
@@ -2054,7 +2079,7 @@ Watch for these six recurring biases:
 
 | Recurring bias | Likely drift | Repair |
 | --- | --- | --- |
-| requirements-freeze bias | The approved backlog becomes the permanently current problem. | Recover the world-side situation, evidence interval, and expiry; reopen only dependent decisions. |
+| requirements-freeze bias | The approved backlog becomes the permanently current problem. | Recover the world-side situation and the receiving claim's applicable premises, including real time limits; reopen only decisions affected by their change. |
 | solution-fixation bias | Every observation becomes a modification of the incumbent design. | Reopen both problem formulations and family alternatives; admit a branch, replacement, or stop when supported. |
 | archive-as-portfolio bias | Everything worth remembering receives current attention and budget. | Keep retention membership separate from current portfolio membership. |
 | one-Front bias | Points from changed candidates or comparators are plotted as one improvement curve. | Identify each Front and its basis; make any cross-basis comparison separately. |
@@ -2073,8 +2098,8 @@ Watch for these six recurring biases:
 - [ ] Every relied-on correspondence changes a decision-bearing claim or remains visibly unresolved.
 - [ ] The comparison preserves relevant result and resource coordinates, protected losses, affected-System
       consequences, uncertainty, and non-dominated alternatives.
-- [ ] The choice or probe result states its basis, rule, budget and value when relevant, authority, and reopen
-      condition.
+- [ ] The choice or probe result states its basis, rule, full burden and value when relevant, actual obtaining
+      conditions, authority, and reopen condition. Retaining a supported result is not conditional on a new probe.
 - [ ] Proposal, planning, authorization, performed Work, observation, and later adoption retain separate results.
 
 ### SYSE.22:8 - Common Failures and Repairs
@@ -2135,7 +2160,8 @@ Reopen one source-use row when changed evidence alters its practical contributio
   an enacted variant and its population; each claim keeps its own evidence and transfer boundary.
 - `C.22.2` governs `ProblemCard` epistemes and `C.22.PFR` any world-side `ProblematicForRelation`. `C.17`, `C.18`,
   `C.19`, `G.5`, and `G.11` govern characterization, archives and Fronts, live pools, selected sets, and
-  currentness.
+  use-qualified currentness. `G.11` does not require a refresh plan or waiver for continued applicability;
+  `SYSE.19` and `SYSE.23` retain changed-premise and claim-specific receiving rules.
 - `C.11.CRC` governs finite configuration-relative contribution comparisons and `C.11` the bounded choice.
 - Supply the project focus, selected problem portfolio, System-family option set, correspondences, unresolved
   mismatches, and current `ChoiceResult` from `SYSE.22` to the Agent using `SYSE.23` for an investment or
