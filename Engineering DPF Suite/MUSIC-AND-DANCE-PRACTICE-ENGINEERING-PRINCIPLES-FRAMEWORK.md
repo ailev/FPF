@@ -174,8 +174,10 @@ cases, checks, source limits, and return conditions.
 - **Question:** Which support relation, practice conflict, local change, alternative, trajectory, or next
   development decision currently prevents useful Music-or-Dance development?
 - **First useful result or honest blocker:** The first needed result among a tested support-environment change
-  decision, a practice-conflict proposal, a local practice-change result, checked availability of alternatives,
-  a qualified current trajectory decision or an empirical update using an obtained observation, and a bounded next-development decision; or the named
+  decision, a bounded practice-conflict decision (a selected change with a representative trial, preserved
+  tension, different variants for different uses, or the next observation before choosing), a local
+  practice-change result, checked availability of alternatives, a qualified current trajectory decision or
+  an empirical update using an obtained observation, and a bounded next-development decision; or the named
   authority, resource, relation, affected System, trial, alternative, mechanism, or horizon that is missing.
 - **Start with:** Use `MDPE.22` for a surrounding support relation and `MDPE.14` for a conflict among simultaneous
   Work, holon positions, a stated scale order, a slower constraint, or a representation use. Use `MDPE.15` only
