@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 8 September 2026 - complete Research Method Practice
+- **Version:** 8 September 2026 - complete Semantic Integration Engineering
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -18,7 +18,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | --- | --- |
 | [Find a starting pattern](#find-a-starting-pattern) | System or method? Architecture, alternatives, evidence, organizational change, development advice, music and dance. What useful result should I obtain first? |
 | [Resolve a software-platform difficulty](#resolve-a-software-platform-difficulty) | User-task measurement, reliability objectives, alerts, release exposure, recovery, repetitive work and the first missing input. |
-| [Connect separately governed meanings](#connect-separately-governed-meanings-and-representations) | Semantic integration, source editions, correspondence, identity, provenance, transformation, interface, validation. |
+| [Connect separately governed meanings](#connect-separately-governed-meanings-and-representations) | Semantic integration, model reuse or construction, source editions, correspondence, identity, provenance, transformation, interface, validation, semantic change and modular commons. |
 | [Improve a method or an organization](#improve-a-method-or-an-organization) | Method requirements, repertoire, source recovery and reconciliation, description comparison, PLUS-ME, pattern-language production and refresh, organizational change. |
 | [Develop a practice or a person's capability](#develop-a-practice-or-a-persons-capability) | Music and dance development; human-capability demand, target, profile, programme, practice, support, assessment, transfer, retention, revision, continuing development, repertoire and culture. |
 | [Evaluate instructional material](#evaluate-instructional-material-for-its-intended-use) | Worksheets, explanations, learning routes, evaluation specifications, reader tasks, assistance and material repair. |
@@ -37,7 +37,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
 | [Citation](#citation) | Cite this Reference or a particular pattern application. |
 
-The question index is designed for lookup while work is under way. The nine complete carriers provide their full searchable tables of contents. SIE has nine available bodies with `SIE.3`, `SIE.11` and `SIE.12` absent; OPS.1–OPS.20 are complete; RMP supplies its complete first edition, `RMP.1`–`RMP.9`. HCD supplies HCD.1–HCD.17 for human-development questions and HCD.18–HCD.19 for the distinct [instructional-material evaluation questions](#evaluate-instructional-material-for-its-intended-use). Each linked body supplies guidance for its stated result and conditions.
+The question index is designed for lookup while work is under way. The ten complete publications provide their full searchable tables of contents and 190 pattern bodies. SIE supplies `SIE.1`–`SIE.12`, OPS supplies `OPS.1`–`OPS.20`, and RMP supplies `RMP.1`–`RMP.9`. HCD supplies HCD.1–HCD.17 for human-development questions and HCD.18–HCD.19 for the distinct [instructional-material evaluation questions](#evaluate-instructional-material-for-its-intended-use). Each linked body supplies guidance for its stated result and conditions.
 
 ## Find a starting pattern
 
@@ -89,22 +89,28 @@ If the form then hides a required address component, the authorized response res
 
 ### Connect separately governed meanings and representations
 
-Use the [Semantic Integration Engineering foundation preview](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) when one receiving use must combine claims, identifiers, classifications, models or records whose meanings and authority remain governed by different sources. Begin with the receiver's question; do not begin by choosing a graph, ontology language, integration platform or pipeline.
+Use the [Semantic Integration Engineering first edition](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) when one receiving use must combine claims, identifiers, classifications, models or records whose meanings and authority remain governed by different sources. Start with the result your use lacks; adequate supplied inputs permit direct entry into a later Method.
 
-| Your question | Open in the SIE foundation preview | What you can obtain |
+| Your question | Open | What you can obtain |
 | --- | --- | --- |
 | Exactly who will use the integrated answer, for what question, and what loss or uncertainty is tolerable? | [SIE.1 - Bound the Receiving Use and Semantic Contract](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie1---bound-the-receiving-use-and-semantic-contract) | A use contract naming the receiver, required answer claims, quality/currentness conditions, authority limits, representative tests, stops and reopen conditions. |
 | What does each source actually mean and own at the edition, profile, grain and interval used here? | [SIE.2 - Recover and Qualify Source Semantics and Authority](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie2---recover-and-qualify-source-semantics-and-authority) | A source semantic inventory with usable premises and exact gaps, rather than a list of field names. |
+| Can an existing model express the distinctions this use needs, or must we extend or construct one? | [SIE.3 - Construct or Reuse a Semantic Model for a Named Use](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie3---construct-or-reuse-a-semantic-model-for-a-named-use) | Qualified reuse of an adequate model, a tested extension or new model for the missing distinctions, or the exact unresolved model need. Choose formalization for the use it must support. |
 | Which source endpoints correspond, differ or remain incompatible for this use? | [SIE.4 - Establish Use-Qualified Cross-Source Correspondences](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie4---establish-use-qualified-cross-source-correspondences) | Qualified, directional correspondences and explicit unsupported or incompatible rows. |
 | Are two identifiers about the same thing at the grain and interval that can change the answer? | [SIE.5 - Resolve Cross-Source Identity without Erasing Identifier Authority](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie5---resolve-cross-source-identity-without-erasing-identifier-authority) | A cross-source identity disposition that preserves schemes, issuers, evidence and authority boundaries. |
-| Can source claims be used together without hiding conflict or turning one source into universal truth? | [SIE.6 - Fuse Source-Qualified Claims without Erasing Conflict](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie6---fuse-source-qualified-claims-without-erasing-conflict) | A source-qualified composition, explicit conflict or non-comparability, with derivation and scope retained. |
+| Can source claims be used together without hiding conflict or turning one source into universal truth? | [SIE.6 - Fuse Source-Qualified Claims without Erasing Conflict](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie6---fuse-source-qualified-claims-without-erasing-conflict) | A source-qualified composition, explicit conflict or non-comparability, with derivation and scope retained. Investigate identity only when it can change that result. |
 | What must an executable extraction or transformation do, reject and trace? | [SIE.7 - Specify Semantic Extraction and Transformation Mappings](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie7---specify-semantic-extraction-and-transformation-mappings) | A mapping specification with conditions, cardinalities, units/codes, loss, errors, trace and tests. |
-| Should the result be virtual, materialized or hybrid, and how will the receiver interpret it? | [SIE.8 - Choose Virtual, Materialized, or Hybrid Semantic Realization](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie8---choose-virtual-materialized-or-hybrid-semantic-realization), [SIE.9 - Connect a Receiving Use through a Semantic Interface](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie9---connect-a-receiving-use-through-a-semantic-interface) | A realization decision and semantic interface with currentness, provenance, error branches, access assumptions and a return path. |
-| What has to pass before this integrated result is usable for the named question? | [SIE.10 - Validate a Semantic Integration Result for Its Receiving Use](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie10---validate-a-semantic-integration-result-for-its-receiving-use) | A layered validation account covering semantics as well as carrier/schema, transformations, provenance, quality and the representative receiving query. |
+| Should the result be virtual, materialized or hybrid? | [SIE.8 - Choose Virtual, Materialized, or Hybrid Semantic Realization](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie8---choose-virtual-materialized-or-hybrid-semantic-realization) | A supported exclusion, a scoped unresolved choice, or a realization decision based on serious alternatives and their full resource burden. A decisive prohibition can finish exclusion without designing the rejected option; a positive choice retains its implementation and interface conditions. |
+| How will the receiver interpret the supplied answer and its limitations? | [SIE.9 - Connect a Receiving Use through a Semantic Interface](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie9---connect-a-receiving-use-through-a-semantic-interface) | An interface with currentness, provenance, error branches, access assumptions and a return path that the receiving use can interpret. |
+| Is the integrated result usable for this question, or what failure or uncertainty limits it? | [SIE.10 - Validate a Semantic Integration Result for Its Receiving Use](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie10---validate-a-semantic-integration-result-for-its-receiving-use) | A sufficient bounded failure or uncertainty return, or positive validation covering every load-bearing premise of the claimed whole or subset, including receiving interpretation. Reuse matching evidence. |
+| A source, model, identifier, mapping or interface changed: which uses need attention? | [SIE.11 - Trace Semantic Change and Revalidate Affected Uses](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie11---trace-semantic-change-and-revalidate-affected-uses) | A compatible direct repair or the affected uses' revised results, with matching evidence retained and unknown reliance left unresolved. A wider no-impact claim needs coverage of the uses it includes. |
+| How can independent users maintain shared semantic modules while retaining their authorities? | [SIE.12 - Govern Modular Semantic Commons without Universal Authority](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#sie12---govern-modular-semantic-commons-without-universal-authority) | A sufficient local interface agreement, or an arrangement for independently maintained modules, meanings, contribution and release rights, changes and affected uses. A release notice alone does not establish consumer migration. |
 
-These nine bodies can supply a bounded `SemanticIntegrationPackage@Use`. `SIE.3`, `SIE.11` and `SIE.12` are not available in this foundation preview. If the existing source models cannot express a distinction required by the contract, return that model need instead of inventing it in a mapping. The preview does not supply later change tracing or a reusable semantic commons.
+The twelve Methods supply guidance for a bounded semantic-integration result and the model, change or shared-module work it actually needs. Stop with the sufficient result for your question. If a required source premise, authorization or receiving-use result is unavailable, name that gap and its responsible source or practice. An integration package does not itself supply the application's decision or proof of field effectiveness.
 
 Use Data Engineering for pipeline construction and operation, the relevant master or domain authority for authoritative values and survivorship, Systems Engineering for configuration and release decisions, and the receiving practice for its operational decision. The [AP242/QIF case](#how-can-ap242-and-qif-answer-one-configuration-bound-inspection-question) shows those boundaries around one query.
+
+For example, a changed supplier promise describes future availability while an application still interprets it as stock on hand. SIE.11 starts from that changed meaning and the application's reliance; a JSON schema that still passes does not settle the affected use. SIE.3 helps when the model cannot express the distinction. Use SIE.12 when independent users must maintain shared modules; a single adequate interface agreement can finish without a commons.
 
 ### Improve a method or an organization
 
@@ -476,7 +482,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-8 September 2026, complete Research Method Practice.
+8 September 2026, complete Semantic Integration Engineering.
 GitHub repository: https://github.com/ailev/FPF
 ```
 

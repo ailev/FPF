@@ -28,7 +28,7 @@ You can read this way yourself, use a pattern in a working meeting, or ask an AI
 
 ## Choose a DPF
 
-The public folder contains nine complete publications and one explicitly partial foundation. Start with the working question nearest to yours. Each complete carrier provides its full searchable pattern index; the partial carrier names the PatternIDs that are still unavailable.
+The public folder contains ten complete publications. Start with the working question nearest to yours. Each publication provides its full searchable pattern index.
 
 ### Complete first editions
 
@@ -43,12 +43,7 @@ The public folder contains nine complete publications and one explicitly partial
 | Derive and develop one person's capability for representative later work. | [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) - 19 patterns | A supported demand, target or profile; a compared development programme; representative practice and support; performance, transfer or retention evidence; a continuing-development decision, or an instructional-material evaluation through its separate profile. |
 | Construct a useful development opportunity, or advise a person, organization or other developing subject. | [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded inquiry, characterized change, candidate direction with its supports, joint-reachability result, retained opportunity, or qualified advising engagement. PSD supplies the actual comparison and recommendation when those are needed. |
 | Qualify and conduct a research inquiry, examine and return its knowledge contribution, or retain and improve its Methods. | [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded question or useful stop, selected design, operationalization, trace, warranted claim, credibility decision, corpus synthesis, exact revision/return, or supported Method retention or improvement. |
-
-### Partial foundations
-
-| Available foundation | Available now | Explicitly unavailable in this edition |
-| --- | --- | --- |
-| [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | 9 patterns: `SIE.1`, `SIE.2`, and `SIE.4`-`SIE.10` | `SIE.3`, `SIE.11`, and `SIE.12` |
+| Connect separately governed meanings for a receiving use, qualify a model, handle semantic change or maintain shared modules. | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 12 patterns | A bounded integration result, adequate model reuse or construction, affected-use repair or revalidation, or a sufficient interface agreement or modular-commons arrangement. |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
@@ -87,13 +82,13 @@ The README introduces the Suite. The Reference helps you find and combine method
 
 ## Development previews
 
-This stable heading is retained for readers following links from earlier complete carriers. Operations Management, Human Capability Development and Research Method Practice now have complete first editions. Semantic Integration Engineering remains the partial foundation available through this public projection.
+This stable heading is retained for readers following links from earlier complete carriers. Operations Management, Human Capability Development, Research Method Practice and Semantic Integration Engineering now have complete first editions. Their full pattern indexes are available through the publications above.
 
 ### Publication scope
 
-The nine complete carriers expose 178 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The Semantic Integration Engineering foundation adds nine usable PatternIDs. The repository editions supply these bodies; an exported copy supplies the edition actually present there. These counts do not make the missing SIE bodies available.
+The ten complete publications expose 190 current PatternIDs. Their pattern bodies supply the methods, examples, checks, source discussions and stop conditions. The repository editions supply these bodies; an exported copy supplies the edition actually present there.
 
-The [Semantic Integration Engineering foundation](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) can return a bounded semantic-integration package for one receiving use. It does not supply the unavailable model-change, later change-tracing, or reusable semantic-commons methods represented by `SIE.3`, `SIE.11`, and `SIE.12`.
+The [Semantic Integration Engineering first edition](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) supplies twelve patterns for a receiving use across separately governed sources. Its model Method supports adequate reuse as well as construction or extension; its change Method repairs compatible references and revalidates affected uses; its commons Method supports a sufficient local agreement or shared modules with distinct authorities. Use the [semantic-integration questions](ENGINEERING-DPF-SUITE-REFERENCE.md#connect-separately-governed-meanings-and-representations) to find the result you need. A bounded exclusion, failure or unresolved use can finish directly; positive realization and validation retain the conditions of the claimed result.
 
 The [Research Method Practice first edition](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) supplies nine patterns for question, design, operationalization, trace, analysis, credibility, corpus synthesis, exact knowledge revision/return and Method improvement. It helps qualify a question, finish with a sufficient source answer, return an exact owner need, choose a useful obtainable design or a qualified stop, preserve the question through operationalization, and retain a trace with explicit examination, reconstruction, loss and access limits. Supplied material can enter claim analysis directly; a bounded claim can enter the choice of a relevant credibility test or a qualified answer without a new test. A compatible corpus can enter RMP.7 for a warranted synthesis, existing answer or useful refusal. RMP.8 revises the identified claim or model contribution and returns its evidence with the limits that matter to actual reliance. Earlier direct answers can still finish without these additional Methods. [RMP.9](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-9) locates the actual Method difficulty, supports adequate retention or a bounded correction, and selects further comparison only when its possible result matters and the whole burden is warranted. Unsupported use stays limited, and only the affected research consequence returns to its consumer.
 
