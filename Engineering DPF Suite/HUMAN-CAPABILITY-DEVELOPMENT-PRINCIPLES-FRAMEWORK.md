@@ -157,10 +157,10 @@ The entries below are selected examples, not a catalogue or coverage boundary. B
 ### HCD-REPERTOIRE - Change one HCD Method claim without rebuilding the repertoire
 
 - **Situation:** A learner population, later-Work condition, provider, tool or AI behavior, transfer or retention observation, safety boundary, source claim or serious alternative can change one HCD Method use.
-- **Question:** Which exact admitted Method or status-preserved candidate and human-development claim should be adopted, revised, branched, retired, or probed for this bounded repertoire use?
-- **First useful result or honest blocker:** A current HCD repertoire slice with exact status, evidence conditions, alternatives, one bounded disposition, gaps, probe and reopen trigger.
+- **Question:** What does the available basis support for this exact admitted Method or status-preserved candidate and human-development claim, and is a change or further inquiry warranted for the bounded use?
+- **First useful result or honest blocker:** A current HCD repertoire slice with exact status, supported use and limits, material alternatives and gaps. A narrowed claim, unresolved comparison or real protection stop can finish; select a change or probe only for its obtainable contribution worth the full learner/provider burden.
 - **Start with:** [HCD.16](#hcd-16), after the Method or candidate status, receiving use and decision-changing claim are recoverable.
-- **Stop or return:** Stop at the HCD use disposition. Return admission, reusable semantics, variants, provenance, generic trial, fit, worth and introduction to Method Engineering; use G.5 or G.11 only when their stronger set or currentness question is live.
+- **Stop or return:** Stop at the supported bounded result or selected change. An unselected inquiry creates no probe form or omission account. Return admission, reusable semantics, variants, provenance, generic trial, fit, worth and introduction to Method Engineering; use G.5 for an actual selector-facing declaration of grounded members and G.11 for an affected named maintained currentness object.
 
 ### HCD-CULTURE - Continue or change one observable development-culture relation
 
@@ -211,7 +211,7 @@ HCD.18 and HCD.19 address a different immediate object: the instructional materi
 
 HCD.11 returns observations and a bounded capability inference. HCD.12 tests a material unfamiliar variation. HCD.13 compares delayed performance and support conditions. HCD.14 uses an affected observation to revise a development assumption. A correct first attempt, a correction after feedback, learning from a newly supplied source, delayed performance, transfer, retention and a causal development effect are separately reportable.
 
-HCD.15 configures a continuing arrangement that reopens from material Work or evidence changes; it is not a calendar, performed development Work or achieved capability. HCD.16 returns a bounded disposition for one exact admitted Method or status-preserved candidate and human-development claim; it neither admits nor universally retires a Method. HCD.17 returns a supported current cultural account and continuation decision, or selects a worthwhile attainable inquiry. It preserves the testable predicate, actual subjects, scope, evidence, and needed authority; a school, standard, carrier, event or community label is not the culture.
+HCD.15 configures a continuing arrangement that reopens from material Work or evidence changes; it is not a calendar, performed development Work or achieved capability. HCD.16 returns the strongest supported bounded use, narrowed claim, unresolved comparison or real protection stop for an exact admitted Method or status-preserved candidate and human-development claim. A selected change or probe needs an obtainable contribution worth the complete learner/provider burden; the result neither admits nor universally retires a Method. HCD.17 returns a supported current cultural account and continuation decision, or selects a worthwhile attainable inquiry. It preserves the testable predicate, actual subjects, scope, evidence, and needed authority; a school, standard, carrier, event or community label is not the culture.
 
 Distinguish instructional events, learner activity, learning outcomes, later transfer, and job performance, and use corresponding evidence for claims about each. A MethodDescription, course completion, self-report, platform prediction, assisted score, published schedule or reserved provider hours can inform a bounded question. A capability, transfer, retention or effect claim needs a justified inference from appropriate observations.
 
@@ -1688,13 +1688,19 @@ The stipulated demonstration begins with a pump delivering 100 m³/h at 400 kPa 
 
 In the first attempt, independent measurements give 22.3 kW and 99.5 m³/h with stated uncertainty. The person must compare like quantities, revise the measurement-error explanation, and choose a feasible pressure observation with the remaining specialist time. A later condition near 448 kPa supports increased resistance under the stipulated model; a value near 400 kPa directs attention toward regulation efficiency. Neither observation establishes a unique cause by itself.
 
-The target action is conditional explanation and choice of a discriminating observation, not arithmetic alone. A renamed machine with the same numbers would add no useful variation. A generic “collect more data” answer also fails because the case supplies a resource, rival predictions, and a decision recipient.
+The target action is conditional explanation and a present response suited to the available basis, not arithmetic alone. In the supplied specialist-time branch, the pressure observation can change that response enough to warrant its preparation, performance and comparison burden. In a later variant without a worthwhile obtainable observation, the learner can instead finish the qualified explanation with its live rivals and return that account while leaving a resistance-specific remedy unselected. A unique cause remains unproved. A renamed machine with the same numbers would add no useful variation; neither does a generic request to collect more data.
 
 #### HCD.6:5.2 - Ticket Load after Duplicate Removal
 
 Four people each have six active-processing hours per day. Incoming records rise from 50 to 80 and each distinct request takes 18 minutes. The initial worked case shows that 50 and 80 distinct requests require 15 and 24 person-hours; the observed queue alone does not establish lower individual productivity.
 
-In a stipulated variation, the 80 records include 20 duplicate messages attached to existing requests, leaving 60 distinct requests. The target action is to recognize that the unit of account changed before calculating 18 person-hours of active processing. A second variation with an unknown duplicate count supports a request for that count rather than a fabricated workload. Merely replacing the support team with a warehouse would not test this discrimination.
+In a stipulated variation, the 80 records include 20 duplicate messages attached to existing requests, leaving 60 distinct requests. The target action is to recognize that the unit of account changed before calculating 18 person-hours of active processing.
+
+Now leave the duplicate count unknown and ask whether the day's requests fit the stated active-processing capacity. There can be no more than 80 distinct requests: at 18 minutes each, they require **at most 24 person-hours**, equal to the four people's supplied capacity. Return that sufficient upper bound and keep the exact count unknown. The answer concerns active effort under the stipulated processing assumptions; it establishes no queue-clearance, response-time or safety guarantee. Obtaining the count is unnecessary for this answer.
+
+Change the receiving use to an allocation that needs the exact active-processing load of these requests. The upper bound no longer supplies that quantity. Stipulate an authorized existing request view and five minutes of available coordinator time to open it, resolve the duplicate labels and check the total. Correcting the allocation warrants that obtainable burden. Obtain the count for this use; until it is available, retain the upper bound with the exact allocation unresolved. If the view supplies 60 distinct requests, the processing load is 18 person-hours. The five minutes of coordination are an additional cost, not request-processing time or free work.
+
+These cases distinguish a changed unit, a sufficient bound and a receiving use that needs another quantity. Merely replacing the support team with a warehouse would not test those distinctions.
 
 #### HCD.6:5.3 - FW7 Refusal and FW8 Continuation
 
@@ -2459,7 +2465,7 @@ An HCD.9 result contains:
 | feedback | Exact content, provider, timing, channel, intended next action, risk boundary, and opportunity to use it |
 | correction and retry | Learner's correction, changed or repeated task condition, affected requirements, result, and support |
 | disposition | `changed action under recorded conditions`, `unchanged difficulty`, `new difficulty`, or `safe stop/incomplete` |
-| continuation | Next practice focus, task or support revision, stronger evidence question, unresolved gap, and smallest reopen condition |
+| continuation | Next practice focus, needed task or support revision, or bounded stop; keep a decision-relevant unresolved gap and reopen condition. Include a stronger evidence question only for a requested stronger claim. |
 
 Preserve the trace at the resolution needed by the next decision. Do not require one record per pattern when one complete task tests several connected Methods, and do not merge distinct first, helped, corrected, transfer, or delayed attempts into one score.
 
@@ -2489,7 +2495,9 @@ A pump attempt uses 22.3 kW and 99.5 m³/h and concludes that increased energy p
 
 Feedback preserves the calculation and asks which feasible pressure observation would distinguish the leading explanations. The learner revises the claim, requests a pressure measure within the remaining specialist time, and states how a value near 448 kPa would support increased resistance under the stipulated model while a value near 400 kPa would redirect attention toward regulation efficiency. The correction is the conditional explanation and observation choice, not a teacher-supplied cause.
 
-A later case changes uncertainty or omits comparable pressure data. A generic “collect more data” answer does not pass; the learner must preserve rivals and select an observation that can change the decision.
+A later case changes uncertainty or omits comparable pressure data. If no obtainable measurement can improve the current explanation or response enough to justify its full preparation, specialist, comparison and displaced-work burden, the learner can finish with the supported energy-per-volume change and qualified rival explanations. A feasible present response is to return that bounded account to the responsible practitioner while leaving a resistance-specific remedy unselected. The cause remains unresolved; the useful calculation and explanation do not become incomplete merely because no new measurement is commissioned. Under the stated practice criteria, this can be a successful corrected retry.
+
+When the changed condition instead makes the pressure observation useful enough to warrant its obtainable cost within the real window, select it and state how its possible values change the response. Keep the observation result unknown until it is obtained. Neither branch permits a unique-cause claim from the energy calculation alone; actual operating protections retain their own conditions and authority.
 
 #### HCD.9:5.3 - Fit a Targeted Retry into Three Hours
 
@@ -2931,13 +2939,13 @@ Keep the first attempt separate from correction after feedback. A teacher's ques
 
 Compare each observed contribution with its criterion. Distinguish a demonstrated error from an absent observation, an inaccessible task and a disputed judgement. Do not give a missing observation the value “failed” unless the task conditions made the required non-response itself informative.
 
-For a material scoring disagreement, return to the same observation and criterion. Clarify an ambiguous criterion or obtain another qualified assessor when needed. If the original task did not discriminate the relevant alternatives, use a new task. Averaging incompatible judgements does not settle what happened.
+For a material scoring disagreement, return to the same observation and criterion. Clarify an ambiguous criterion or obtain another qualified assessor when needed. If the original task did not discriminate the relevant alternatives, withhold the dependent judgement. Select a new task when resolving that distinction for the receiving use warrants the obtainable observation and its whole burden. Averaging incompatible judgements does not settle what happened.
 
 When feedback or a task repair changes the conditions, preserve the first result and report the later result under the changed conditions. A later success can support a new claim; it does not rewrite an earlier failure.
 
 #### HCD.11:4.5 - Return a result proportionate to its use
 
-A short account is sufficient when it preserves the person and contribution, task and conditions, observations including help, criterion-based judgement, bounded inference, uncertainty and next observation. No particular form is compulsory.
+A short account is sufficient when it preserves the person and contribution, task and conditions, observations including help, criterion-based judgement, bounded inference and relevant uncertainty. No particular form is compulsory. Include a further observation only for a selected receiving use that needs it, when its obtainable contribution warrants the full learner, assessor, preparation, delay and displaced-work burden. A current limited result can finish while a stronger claim remains unsupported.
 
 Use the following distinctions in the conclusion:
 
@@ -2945,7 +2953,7 @@ Use the following distinctions in the conclusion:
 | --- | --- |
 | The required contribution was observed | State the supported performance and the narrower capability claim, with tested conditions and sample limits. |
 | A material criterion failed | State which contribution failed in which attempt; preserve successful contributions. |
-| Observations cannot distinguish the claim from a live rival | State the missing discriminating observation and the current limit. |
+| Observations cannot distinguish the claim from a live rival | State the unresolved claim and current limit; retain independently supported conclusions. Name a discriminating observation when the receiving use needs that next question. |
 | Task, access or criterion was defective | Return the defect to its owner and identify which judgement must wait or be replaced. |
 
 Stop when the intended reversible decision has enough evidence or when a named missing input prevents it. Escalate assurance only when the receiving use needs broader coverage, independent judgement, scoring consistency, accessibility checks or a defensible validity argument. The assessor's account supplies evidence; it does not grant release or professional authority.
@@ -2971,7 +2979,7 @@ The assessed contribution is to inspect configuration evidence, preserve require
 | Fresh representative case, ordinary means, no cue | L17 personally finds a mismatching report and explains why the higher financial value cannot settle compatibility; L17 proposes the supported C limit and queue return. | Independent configuration checking and bounded continuation are supported in this case. |
 | Second fresh representative case, ordinary means, no cue | L17 again detects the mismatch, traces the relevant evidence and explains the 23-hour limit and remaining queue. | The specified contribution is supported across the two fresh cases, with a small-sample boundary. |
 
-The result does not average the four attempts. It preserves the original miss, the helped correction and the later independent observations. For local practice planning, the practitioner can preserve the supported calculation and configuration contribution while testing material resource changes next. These observations do not establish performance across every engineering configuration or authorize a release.
+The result does not average the four attempts. It preserves the original miss, the helped correction and the later independent observations. For local reversible practice planning in these tested conditions, the practitioner can preserve the supported calculation and configuration contribution and finish that decision. A proposed material resource change raises a separate question: select its observation when it is obtainable and worthwhile for the next use, rather than making it a condition of retaining the contribution already demonstrated. These observations do not establish performance across every engineering configuration or authorize a release.
 
 #### HCD.11:5.2 - An inaccessible assessment is not a demonstrated deficit
 
@@ -2991,7 +2999,7 @@ A familiar task can favour prior exposure; an unnecessarily unfamiliar interface
 - The observation distinguishes the person's contribution from assistance where that distinction matters.
 - First attempts, feedback, corrections and unfinished work remain separately interpretable.
 - Missing evidence, assessment defects, scoring disagreements and performance errors receive different returns.
-- The conclusion preserves uncertainty, untested conditions, an ordinary stop and the next observation needed for stronger use.
+- The conclusion preserves uncertainty, untested conditions and an ordinary stop. A further observation is selected for the stronger use actually being pursued and its obtainable, worthwhile contribution; the current supported result requires no future-study field.
 
 ### HCD.11:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -3001,7 +3009,7 @@ A familiar task can favour prior exposure; an unnecessarily unfamiliar interface
 | “The corrected answer counts as independent success.” | Retain the cue and test the contribution in a fresh uncued attempt. |
 | “The total score passes despite the compatibility error.” | Keep the non-compensable criterion decisive and preserve the correct calculation separately. |
 | “Removing every tool reveals real capability.” | Assess the required equipped contribution; specify an independent core only when the work needs it. |
-| “One success proves the whole capability.” | State the tested envelope and obtain observations for the consequential untested variants. |
+| “One success proves the whole capability.” | State the tested envelope and finish the use it supports. Keep consequential untested variants outside the claim; obtain their evidence only for a selected stronger use when the observation is feasible and worthwhile. Missing evidence still withholds that stronger reliance. |
 
 ### HCD.11:9 - Consequences
 
@@ -3811,7 +3819,7 @@ HCD.2 owns whole-programme comparison. OPS owns operation of current Work. OCE o
 
 **Use this when** one exact Human Capability Development Method or status-preserved candidate and one human-development claim face evidence that can change their disposition for a named repertoire use. The trigger may be a changed learner population, later Work, provider, tool or AI condition, source claim, transfer or retention result, safety boundary, or serious alternative.
 
-Begin by naming the exact Method or candidate, its current status, the claim that can change, and the bounded use for which the repertoire decision matters. The first useful result is a current HCD repertoire slice with one of five dispositions: `adopt`, `revise`, `branch`, `retire`, or `further probe`.
+Begin by naming the exact Method or candidate, its current status, the claim that can change, and the bounded use for which the repertoire decision matters. The first useful result is a current HCD repertoire slice stating the strongest supported use and its limits. Retaining that use, narrowing a claim, leaving a comparison unresolved, or stopping a use at a real protection limit can finish the present question. When a change or inquiry is justified, assign `adopt`, `revise`, `branch`, `retire`, or a selected `further probe`; insufficient evidence alone does not select a study.
 
 What this buys in practice is local, evidence-bearing change. A practitioner can stop preserving a Method by school loyalty or replacing it by fashion, while keeping Method identity, candidate status, provider conditions, evidence reach, and target-domain authority honest.
 
@@ -3834,7 +3842,7 @@ HCD.16 keeps the evidence question human-specific while returning Method identit
 | Local evidence and transfer | Use direct observations where they fit without generalizing across learners, Work families, providers, supports, or horizons. |
 | Improvement and critical error | Reward useful performance while preventing aggregate gains from hiding unacceptable errors or protected losses. |
 | Assistance and human contribution | Use tools, AI, coaching and scaffolding where appropriate while separating equipped performance from later unassisted or changed-support performance. |
-| Decision and uncertainty | Return a bounded disposition when evidence suffices and a proportionate probe when it does not. |
+| Decision and uncertainty | Finish the strongest supported use or qualified unresolved comparison; select a new probe only for an obtainable contribution worth its full burden. |
 | Repertoire and selection | Keep a current field-specific slice without pretending that it performs a local choice, universal retirement, or Method admission. |
 
 ### HCD.16:4 - Solution
@@ -3889,17 +3897,19 @@ Ask whether the apparent problem lies in:
 
 Reopen only the locus that consumes the changed basis. A newer publication date, renamed school, improved interface, or changed carrier does not reopen an unaffected HCD claim.
 
-#### HCD.16:4.5 - Design one proportionate probe when evidence cannot decide
+#### HCD.16:4.5 - Settle the current result before selecting further inquiry
 
-Use `further probe` when current evidence can change the decision but cannot distinguish the live alternatives. State the smallest probe whose result would change the disposition.
+First state what the available evidence supports for this repertoire use and which comparison remains unresolved. Retain supported practice, narrow an unsupported claim, or stop a use whose real protection condition is not met. None requires designing a study merely to finish the current account.
 
-Specify the person's first attempt, allowed help, representative change, source and tool conditions, provider contribution, delay or support contrast when material, critical-error condition, protected contributions, burden, stopping rule, and decision-changing observations. Keep the target-domain criteria and safety boundary with their owners.
+Select `further probe` only when a new observation is obtainable in the relevant window and could change the disposition enough to warrant its whole burden. Include designing and describing the inquiry, learner and provider time, preparation, practice, feedback, comparison, delay, specialist access and displaced development or protective Work. A plausible discriminating question does not itself supply people, authority, time or access. Use C.11.DUA when that evidence-demand judgement needs appraisal.
 
-A generic Method trial, Method admission, variant decision, or organization rollout remains with ME or another direct owner. HCD.16 designs only the human-development evidence needed for this bounded repertoire use.
+For a selected probe, specify the person's first attempt, allowed help, representative change, source and tool conditions, provider contribution, delay or support contrast when material, critical-error condition, protected contributions, complete burden, stopping rule and decision-changing observations. Keep the target-domain criteria and safety boundary with their owners. An unavailable or unwarranted probe leaves the strongest supported current result and the dependent uncertainty; it creates no empty probe form or separate omission account.
 
-#### HCD.16:4.6 - Assign one bounded disposition
+A generic Method trial, Method admission, variant decision, or organization rollout remains with ME or another direct owner. HCD.16 selects only the human-development inquiry needed for this bounded repertoire use. Its selection or design is not an obtained observation.
 
-Return one of the following for the exact HCD repertoire use:
+#### HCD.16:4.6 - Return the supported slice and any selected change
+
+State the supported current use, narrowed claim, unresolved comparison or real protection stop for the exact HCD repertoire use. For a justified change or selected inquiry, use the following dispositions:
 
 | Disposition | Meaning here | Limit |
 | --- | --- | --- |
@@ -3907,22 +3917,23 @@ Return one of the following for the exact HCD repertoire use:
 | `revise` | Change the exact HCD claim, evidence condition, population scope, support condition, or use statement while preserving Method status. | A semantic Method change returns to ME.15; a text edit alone is not the result. |
 | `branch` | Keep distinct, evidence-bearing use conditions or populations whose dispositions differ. | Does not create a Method variant or inherit admission for a candidate. |
 | `retire` | Stop offering the Method or claim for this bounded HCD use. | Does not erase the Method, source history, candidate account, or other supported uses. |
-| `further probe` | Preserve status and uncertainty while obtaining one decision-changing observation. | Does not defer indefinitely; the probe has burden, stop, and response rules. |
+| `further probe` | Select one feasible, worthwhile observation for the named decision while preserving status and uncertainty. | Selection is not the obtained result. The probe has full burden, access, protection, stop and response conditions; an unavailable later observation withholds only its dependent claim. |
 
-Record why each serious alternative was not selected, what remains unknown, and which observation reopens the disposition. When different claims need different outcomes, create separate entries rather than averaging them into one Method score.
+Keep the actual grounds, serious alternatives, uncertainty and change conditions needed by the receiving use in the same repertoire slice. An unresolved comparison is a truthful result when no change or new inquiry is warranted; preserve any independently supported use. Add a probe description only for a selected inquiry. When different claims need different outcomes, keep them separate rather than averaging them into one Method score.
 
 #### HCD.16:4.7 - Return the current repertoire slice and route stronger results
 
-The primary result records:
+Retain the positions needed by the current repertoire slice and its receiving use:
 
-| Position | Required content |
+| Position | Content for the receiving use |
 | --- | --- |
 | Use and authority | Practitioner or receiver, bounded HCD repertoire use, decision owner, authority, population, later Work, qualification window, and stop. |
 | Subjects and status | Exact admitted Methods and separately status-preserved candidates; current reusable semantics, descriptions and lineage supplied by ME. |
 | Human-development claims | Target contribution, learner starting state, practice and feedback, representative Work, transfer, retention, provider, support, safety, tool and AI conditions. |
 | Evidence and currentness | Direct observations and sources with population, task, comparator, measure, horizon, support, provider, causal, and currentness limits. |
-| Alternatives and disposition | Serious alternatives; `adopt`, `revise`, `branch`, `retire`, or `further probe`; scope and protected consequences. |
-| Gaps and reopening | Missing values, probe, burden, stopping rule, retirement meaning, return owner, and decision-changing triggers. |
+| Alternatives and result | Serious alternatives, supported current use and limits, unresolved comparison or protection stop; any selected `adopt`, `revise`, `branch`, `retire`, or `further probe`, with scope and protected consequences. |
+| Gaps and reopening | Decision-relevant missing values and change conditions; needed return owner and retirement meaning. A selected probe also states its full burden, access, stopping rule and response. |
+
 
 When several exact already grounded members must be declared for one selector-facing use, pass the members and basis to G.5. When a shipped maintained set, source pack, publication, or other named currentness object needs targeted refresh, use G.11. HCD.16 does not recreate either result for an ordinary claim-sized decision.
 
@@ -3936,29 +3947,33 @@ For the bounded 2026-Q4 development use, stipulate one admitted `Trace-and-Speci
 
 The current evidence question comes from unfamiliar AI-error cases. Assisted correction was accurate after a cue, but no current observation establishes that E27 independently generates and tests a counter-hypothesis before accepting plausible wrong AI output. Trace and specialist-return contributions remain supported in the stipulated earlier cases. The evidence therefore changes only the independent-challenge claim.
 
-The repertoire slice is:
+For the present repertoire decision, stipulate that a valid comparison would require three learner-hours and two provider-hours in total, including design, task preparation, attempts, feedback and comparison. Only half an hour of provider time remains before the decision; extending it would displace already committed development Work. No adequate new comparison is obtainable in that window. The supported trace and helped-practice uses can remain while the independent-challenge comparison stays unresolved.
+
+The current repertoire slice is:
 
 | Exact subject or claim | Constructed disposition | Boundary and next action |
 | --- | --- | --- |
 | `Trace-and-Specialist-Return Method-E27` for trace and bounded return | `adopt` for the named development use under the stipulated conditions. | Preserves only the already admitted Method and supported claims; supplies no universal selection or ReleaseWork-R9 result. |
 | “Accurate assisted practice demonstrates independent learning” | `retire` for this use. | Assisted correction remains useful practice evidence, but it cannot support the independent-challenge claim. |
 | `Cue-Led-Correction Candidate-E27` | `branch` as a candidate account for helped correction episodes only. | Keep candidate status; do not use its helped result as evidence for independent unfamiliar performance. |
-| `Counter-Hypothesis-First Candidate-E27` | `further probe`. | Compare matched unfamiliar cases before any Method admission, fit, worth, or superiority claim. |
+| `Counter-Hypothesis-First Candidate-E27` | Comparison unresolved; preserve the candidate account without selecting a new probe. | No independent-challenge, superiority, Method-admission, fit or worth claim follows. The narrower supported repertoire slice is complete for this window. |
 
-The probe uses two matched unfamiliar release-review cases with current stipulated criteria. In each, capture the first trace, configuration hypothesis, challenge, action or refusal, critical error, and specialist return before help. One case then permits the ordinary cue-led correction; the other permits the candidate counter-hypothesis prompt only after the first attempt. A later fresh case under normal permitted support and, only if the decision needs it, a separately resourced delayed or perturbed-support observation can distinguish local independent contribution from helped correction. Stop on missing criteria, unsafe use, absent specialist access, unacceptable burden, or damage to traceability.
+Now consider a later decision about offering the independent-challenge use. The three learner-hours and two provider-hours, current criteria, specialist access, participation and authorization are available within the protected window. Distinguishing candidate-supported independent challenge from helped correction can change that offer enough to justify the full burden. Select `further probe` for this changed condition; the earlier limited result did not require it.
+
+The selected probe uses two matched unfamiliar release-review cases with current stipulated criteria. In each, capture the first trace, configuration hypothesis, challenge, action or refusal, critical error, and specialist return before help. One case then permits the ordinary cue-led correction; the other permits the candidate counter-hypothesis prompt only after the first attempt. A later fresh case under normal permitted support and, only if the decision needs it, a separately resourced delayed or perturbed-support observation can distinguish local independent contribution from helped correction. Stop on missing criteria, unsafe use, absent specialist access, unacceptable burden, or damage to traceability.
 
 Possible results remain bounded:
 
 | Observation | Repertoire response |
 | --- | --- |
 | Independent challenge appears on fresh unfamiliar cases while trace and specialist return remain protected | Reconsider `adopt` or `branch` for an independently admitted Method at the supported use; return admission, variant, fit and worth questions to ME. |
-| Correct challenge appears only after the counter-hypothesis prompt | Preserve helped-practice value but retain `further probe` or narrow the claim; independent contribution remains unproved. |
+| Correct challenge appears only after the counter-hypothesis prompt | Preserve helped-practice value and narrow the claim; independent contribution remains unproved. Select another probe only if its obtainable contribution now warrants its burden. |
 | Traceability or specialist return worsens | Reject or revise the candidate use regardless of aggregate accuracy. |
 | The task, source, configuration, or critical-error criterion is defective | Repair or return that evidence input; do not retire the human-development Method from an invalid observation. |
 
 #### HCD.16:5.2 - Unlike evidence states do not select an engineering Method
 
-AI-supported customer service can show deployed equipped productivity and a bounded same-job outage signal. Consulting tasks can show that assistance helps inside one task frontier and hurts outside it. School mathematics can show a difference between assisted practice and later unassisted performance. These are decision-relevant evidence shapes, but their populations, Work, tools, measures, horizons, and providers do not establish an adult release-engineering Method. HCD.16 uses them to demand the right comparison, then requires direct E27-compatible evidence.
+AI-supported customer service can show deployed equipped productivity and a bounded same-job outage signal. Consulting tasks can show that assistance helps inside one task frontier and hurts outside it. School mathematics can show a difference between assisted practice and later unassisted performance. These are decision-relevant evidence shapes, but their populations, Work, tools, measures, horizons, and providers do not establish an adult release-engineering Method. Use those observations at their supported source scope and narrow the unsupported engineering claim now. An E27-specific independent-learning, transfer or superiority claim still needs compatible evidence; its absence does not commission an engineering study. Keep the current limited use or unresolved comparison, and select a new comparison only for its obtainable, worthwhile contribution.
 
 #### HCD.16:5.3 - A source contradiction can reopen one claim without opening treatment
 
@@ -3978,7 +3993,7 @@ Status laundering is especially dangerous. A well-documented candidate, successf
 - Assisted, unassisted, changed-support, same-job, unfamiliar-transfer, other-Work, delayed, provider, and organization evidence states remain distinct where material.
 - Source population, task, comparator, measure, horizon, support, provider, causal, and currentness limits travel with the claim.
 - Serious alternatives and the smallest contradiction or missing evidence are compared without a global Method score.
-- The disposition is exactly `adopt`, `revise`, `branch`, `retire`, or `further probe`, with scope, meaning, burden, stop, and reopen condition.
+- The result states the strongest supported use and limits, any unresolved comparison or real protection stop, and any selected change. `further probe` requires an obtainable, worthwhile contribution with full burden, access, protection, stop and response conditions; no probe or omission form is required for an unselected inquiry.
 - Candidate status is preserved; adoption and retirement do not change universal Method status.
 - G.5, G.11, ME, clinical, target-domain, safety, provider, and authority questions are returned only when their own entry conditions obtain.
 
@@ -3989,7 +4004,7 @@ Status laundering is especially dangerous. A well-documented candidate, successf
 | “A newer paper replaces the Method.” | Name the exact source-to-claim row and reopen only the use that consumes the changed claim. |
 | “The tool changed, so this is a new Method variant.” | Compare reusable semantics and return description, support, tool, or local-Work changes to their direct owner. |
 | “The candidate worked locally, so adopt it.” | Preserve candidate status and return Method admission, fit and worth to ME; HCD decides only its bounded evidence use. |
-| “Assisted scores improved, so learning occurred.” | Obtain unassisted, changed-support, transfer, retention, or other direct evidence required by the claim. |
+| “Assisted scores improved, so learning occurred.” | Preserve assisted-performance evidence and withhold the unsupported human-learning claim. Obtain the particular independent, changed-support, transfer or retention evidence only for a selected stronger use when the inquiry is feasible and worthwhile. |
 | “One subgroup failed, so retire the Method everywhere.” | Branch or retire only the defeated population, condition, or use and preserve supported uses. |
 | “Refresh the whole publication after every source change.” | Reopen the affected claim; use G.11 only for a maintained currentness object under its own conditions. |
 
@@ -3997,7 +4012,7 @@ Status laundering is especially dangerous. A well-documented candidate, successf
 
 The HCD repertoire becomes smaller, more explicit, and easier to repair. Practitioners can identify which Method use remains warranted, which claim changed, which branch needs direct evidence, and which candidate must stay a candidate. Source or tool changes no longer force a global rebuild.
 
-The cost is disciplined evidence binding. Some decisions stop at `further probe`, and a useful local Method can be retired from one use while remaining available elsewhere. Method Engineering, providers, target-domain owners, and evidence owners may need to supply separate results before HCD can act.
+The cost is disciplined evidence binding. Some decisions finish with a limited current use or unresolved comparison; a selected probe consumes real learner and provider resources. A useful local Method can be retired from one use while remaining available elsewhere. Method Engineering, providers, target-domain owners and evidence owners supply only the separate results needed by the particular HCD use.
 
 ### HCD.16:10 - Rationale
 
@@ -4011,7 +4026,7 @@ Separating this question from Method admission and generic repertoire maintenanc
 
 **Selected line — adopt and adapt.** The best-known defensible line for this bounded question is claim-sized updating that preserves population, task, comparator, measure, horizon, support, provider, and Method status. Brynjolfsson, Li, and Raymond's [deployed customer-support study](https://doi.org/10.1093/qje/qjae044) separates assisted productivity from a noisy same-job outage signal; Dell'Acqua and colleagues' [task-frontier experiment](https://doi.org/10.1287/orsc.2025.21838) supplies a bounded independent-error challenge; and Bastani and colleagues' [school-mathematics trial](https://doi.org/10.1073/pnas.2422633122) separates assisted practice from later unassisted performance. HCD.16 adapts these unlike evidence states in §§4.3–4.6 and §5.2 rather than pooling them into one AI-learning verdict. None establishes E27's capability, a universal tutor, other-Work transfer, or long retention.
 
-The serious default is repertoire change by newest source, popular school, average score, or tool release. It is cheap, but it loses claim scope and makes a source identity or visible proxy decide what only receiving-use evidence can decide. HCD.16 rejects that default and accepts the extra work of binding evidence because the result is better on critical-error safety, transfer truth, status preservation, and local repair while remaining actionable through five bounded dispositions.
+The serious default is repertoire change by newest source, popular school, average score, or tool release. It is cheap, but it loses claim scope and makes a source identity or visible proxy decide what only receiving-use evidence can decide. HCD.16 rejects that default and accepts the extra work of binding evidence because the result is better on critical-error safety, transfer truth, status preservation, and local repair while allowing a supported current use, narrowed claim or unresolved comparison to finish without an unwarranted inquiry.
 
 Bauer and colleagues' [review of counterconditioning and reward-related extinction directions](https://doi.org/10.1016/j.nlm.2024.107994) and the Mertens/Maier [choice-architecture synthesis](https://doi.org/10.1073/pnas.2107346118) and [publication-bias critique](https://doi.org/10.1073/pnas.2200300119) serve as failure and contradiction evidence: a credible current line may be emerging, heterogeneous, or sensitive to bias without supporting a universal HCD or specialist intervention. This changes the source-row and `further probe` rules in §§4.4–4.6 and the domain return in §5.3.
 
@@ -4569,7 +4584,7 @@ How can an evaluator obtain and interpret representative reader work so that the
 
 ### HCD.19:4 - Solution
 
-Use the compatible specification to collect evidence and interpret only the contribution it can support. The [instructional-material evaluation profile](#instructional-material-evaluation-profile) supplies common property meanings; the particular specification selects their use, scale, and evidence requirements.
+Use the compatible specification to interpret the available basis and obtain only evidence warranted by the declared use. Existing compatible observations and qualified source inspection can complete a bounded material diagnosis. Select further reader work when its attainable contribution warrants the full design, preparation, reader, provider, interpretation, delay and displaced-work burden in the actual window, with the needed capability, access, participation and protection. An unselected inquiry requires no study proposal or omission record merely to finish. The [instructional-material evaluation profile](#instructional-material-evaluation-profile) supplies common property meanings; the particular specification selects their use, scale and evidence requirements. Missing evidence still withholds the dependent audience, human-burden or learning claim.
 
 #### HCD.19:4.1 - Fix the material, criterion, and ordinary support before the attempt
 
@@ -4624,9 +4639,9 @@ Then trace the material's part in that outcome. The following rival explanations
 | The key rejects a valid response | Criterion defect versus reader error | Resolve the domain criterion and preserve the valid response before changing the explanation or instruction. |
 | Separated concepts can be repeated but not combined | Missing relation, lost attachment, or unavailable prefix support | Inspect the two endpoints and the exact point of use; supply the missing relation or access, not another catalogue. |
 | Success begins after the teacher names the decisive condition | Effective supported continuation versus independent recognition | Retain the helped result; use a fresh uncued case or reader if independent recognition is the live claim. |
-| An expert succeeds despite a false explanation | Prior-knowledge rescue versus support actually supplied by the material | Preserve the source defect; obtain appropriately qualified audience evidence if adequacy for less-prepared readers is needed. |
+| An expert succeeds despite a false explanation | Prior-knowledge rescue versus support actually supplied by the material | Preserve the source defect and withhold untested adequacy for less-prepared readers. That stronger use needs qualified audience evidence; select its collection only for an obtainable, worthwhile contribution. |
 | A removed sentence makes no difference | Another public passage supplies the contribution, or the perturbation was irrelevant | Record the successful recovery. Revise the defect hypothesis rather than redefine success as failure. |
-| A prepared agent succeeds while a human reports difficulty | Different knowledge, task, help, or experienced burden | Keep the human report; observe the relevant reader and segment under specified conditions if that question changes the decision. |
+| A prepared agent succeeds while a human reports difficulty | Different knowledge, task, help, or experienced burden | Keep the human report and narrow the untested human claim now. Preserve the supported material diagnosis. Select a timed observation of the relevant reader and segment only when obtainable under the declared conditions and worth its whole burden for the receiving decision. |
 
 An unsuccessful attempt alone does not diagnose the person or prove a material defect. A successful attempt alone does not prove that the material supplies every needed contribution.
 
@@ -4654,7 +4669,7 @@ A preparatory failed attempt may be retained when subsequent instruction examine
 
 Return what changed and what did not: material contribution, actual response, assistance, remaining defect, and evidence needed for a stronger claim. An observed improved response under support is different from independent performance, unfamiliar-work transfer, delayed retention, and causal learning effect. Use the corresponding HCD evidence patterns when those claims are required.
 
-Stop when the selected use or repair decision is supported, or when the next missing criterion or observation is precise enough to obtain. Do not broaden to the whole book because one bounded repair succeeded. Broaden when the changed premise or route actually affects more uses.
+Stop when the selected use or repair decision is supported, or return the exact criterion or evidence gap that withholds the requested stronger conclusion. Keep independently supported material findings and narrow an untested audience, burden or learning claim immediately. An unavailable or unwarranted human observation does not prevent this bounded result; a selected repair still needs its affected-use check. Do not broaden to the whole book because one bounded repair succeeded. Broaden when the changed premise or route actually affects more uses.
 
 ### HCD.19:5 - Archetypal Grounding
 
@@ -4700,10 +4715,10 @@ The following replay evaluates M1 under S1, using source inspection and the pres
 | --- | --- | --- |
 | Subject validity | Insufficient evidence for S1's complete subject-validity value | The inspected definitions, interval assignment, interrupted example, and population rule agree with the stipulated meanings. S1 also requires inspection of the offered tasks, key, and correction; that complete arrangement was not inspected for both tasks. Thus 4 is unestablished, while no bounded subject error justifies 3 and no additional checked boundary justifies 5. Retain the narrower correct-source findings and inspect the complete arrangement before assigning the full value. |
 | Task and dependency coverage | 4, source-inspected for the two S1 task families | M1 supplies interval summation, turnaround, exclusive-person accounting, population aggregation, and the common-unit comparison. It therefore supplies the operations even though one operation lacks a worked example. Missing reader evidence belongs to the explanatory row; a further consequential coverage advantage needed for 5 is absent. |
-| Explanatory sufficiency | Insufficient audience-compatible evidence for a supported-use value | M1 exposes the needed grounds and the prepared reader applies its population rule. That reader already knew the central distinction. The observation cannot qualify the promised introduction for readers possessing only S1's stated prerequisites. Obtain such reader work; do not convert the gap to 0. |
+| Explanatory sufficiency | Insufficient audience-compatible evidence for a supported-use value | M1 exposes the needed grounds and the prepared reader applies its population rule. That reader already knew the central distinction. The observation cannot qualify the promised introduction for readers possessing only S1's stated prerequisites. That broader value needs such reader work; until it is obtained, retain the explicit missingness and current material findings rather than convert the gap to 0 or commission a study merely to complete this diagnostic. |
 | Example discrimination | 3, bounded addition required under S1 | The interrupted example distinguishes active effort from turnaround, but M1 has no worked concurrent-person contrast. Its population rule is already present, so adding that contrast does not require rebuilding the central explanation chain. That is 3 rather than 2; the specified example evidence for 4 is incomplete. |
 | Task and criterion validity | Insufficient evidence about the complete offered task-and-key arrangement | The original report task is domain-valid, and the evaluator's criteria discriminate the named errors. The complete material/teacher criterion available for both S1 tasks was not an inspected product component in the walkthrough. Supply or inspect that component; do not treat the evaluator's private key as already available to the learner. |
-| Feedback and continuation support | Insufficient audience-compatible evidence for supported-use adequacy | The teacher question, M1, and later task were supplied, and the prepared reader continued correctly. Its first answer needed no correction, so this does not demonstrate that the arrangement enables the intended reader to diagnose and correct a difficulty. Preserve the useful continuation result and obtain the missing corrective-use observation. |
+| Feedback and continuation support | Insufficient audience-compatible evidence for supported-use adequacy | The teacher question, M1, and later task were supplied, and the prepared reader continued correctly. Its first answer needed no correction, so this does not demonstrate that the arrangement enables the intended reader to diagnose and correct a difficulty. Preserve the useful continuation result. The stronger audience-compatible value needs a corrective-use observation; the current missingness result does not by itself select that inquiry. |
 
 The same missing task-and-key inspection constrains subject validity and task/criterion validity: a correct explanation can coexist with a false offered key. The evaluator's correct answer supplies neither that component nor evidence of its inspection.
 
@@ -4717,7 +4732,11 @@ Consider a designed course route that introduces a measurement scale, uses it in
 
 The attachment repair is to correct the return and explain the arrow's actual relation, then inspect their receiving uses. The supported measurement-before-comparison and budget-before-journal prefixes are preserved. Adding a new overview to every chapter would not follow from these two defects.
 
-If a human reader reports a broader difficulty, that report remains a separate unresolved observation under its task, prior knowledge, and assistance conditions. A prepared reader's recovery of the route neither erases it nor establishes experienced cognitive load. A burden claim needs the actual respondent, segment, timing, and appropriate instrument. The designed route illustrates repair selection; it is not an observed human learning result.
+If a human reader reports a broader difficulty, retain that report under its task, prior knowledge and assistance conditions. Narrow the untested claim about human comprehension or burden immediately: the prepared reader's recovery neither erases the report nor establishes experienced cognitive load. The confirmed return and arrow defects can still be repaired and their affected uses checked.
+
+Suppose no target reader is available in the current revision window. Return the supported local material diagnosis and repair, with the reported broader difficulty unresolved. Do not infer that the rest of the course is adequate for that audience, and do not commission an unavailable human study to complete the editorial result.
+
+Now change the receiving use to choosing the short route or an added overview for the next class. Suppose voluntary target-reader participation, appropriate protection and access are available before that decision: twenty reader-minutes and thirty provider/evaluator-minutes cover design, preparation, the attempt, a segment-timed burden question, feedback and interpretation. The observation can distinguish a missing connection from a prerequisite or assistance problem and thereby change which repair is used; that contribution warrants the stipulated whole burden and displaced work. Select the observation with its actual respondent, segment, timing, instrument and assistance conditions, including interference caused by asking. This completes a decision to observe, not a human-comprehension, burden, retention or learning result. The route and these availability conditions are constructed examples, not observed human Work.
 
 ### HCD.19:6 - Bias-Annotation
 
@@ -4750,13 +4769,13 @@ This assurance checklist supports the evaluation result. It does not replace the
 | Repair a central contradiction with a footnote | Dependent examples and tasks still teach or reward the wrong relation. | Repair the smallest connected chain that changes the use. |
 | Rebuild the whole course for a wrong return | Useful explanations and established prefixes are changed without a supported reason. | Correct the edge and its receiving use; broaden only on actual dependence. |
 | Remove all initial difficulty | A useful preparatory attempt may be lost. | Inspect whether subsequent instruction works with and resolves the attempted alternatives. |
-| Equate structural complexity with human burden | A property of the rendering is substituted for an unobserved human experience. | Keep the structural diagnosis; obtain qualified human evidence if burden changes the decision. |
+| Equate structural complexity with human burden | A property of the rendering is substituted for an unobserved human experience. | Keep the structural diagnosis, reported human difficulty and untested-claim limit. Select qualified human observation only for an obtainable contribution worth its full burden; a stronger burden claim remains unsupported until its evidence is obtained. |
 
 ### HCD.19:9 - Consequences
 
 The evaluation returns a material-specific next action. A criterion can be repaired before judging a reader; an explanation can be repaired despite expert success; a local return can be fixed while the rest of a route remains usable. Preserving first and helped responses also makes later claims easier to qualify.
 
-Actual reader work costs time and can change the reader's knowledge. Use it where the specification needs it, and reuse compatible observations. Source inspection can close a narrow subject defect cheaply, but repeated expert agreement cannot fill an audience-dependent evidence gap.
+Actual reader work costs time and can change the reader's knowledge. Reuse compatible observations and select new work for its attainable contribution to the receiving use, including reader and provider burden. Source inspection can close a narrow subject defect; missing audience evidence limits the broader claim without erasing that result. Repeated expert agreement cannot fill the audience-dependent gap.
 
 ### HCD.19:10 - Architectural Rationale
 
@@ -4776,7 +4795,7 @@ The practice question is how to distinguish useful instruction, help, and repair
 | Follow the relation the reader must construct across parts | **Adapt** principle/example integration and self-explanation in sections 4.3–4.4. Local recall is an inadequate comparator when the promised work combines separated concepts. | [McCrudden et al. (2022)](https://pure.psu.edu/en/publications/promoting-integration-and-learning-from-multiple-complementary-te/) and [2024](https://eric.ed.gov/?id=ED642756) contribute bounded topic-specific integration evidence. Their prompts count as support; they establish no universal principles-first sequence. Reopen for a different audience, relation, or route that makes another order preferable. |
 | Preserve purposeful preparation while repairing unsupported difficulty | **Adapt** problem solving followed by instruction in section 4.6; reject both unconditional simplification and unqualified “productive failure.” | [Sinha and Kapur (2021)](https://journals.sagepub.com/doi/abs/10.3102/00346543211019105) synthesize conditional effects, largely in mathematics and physics. The practical requirement is that later instruction resolves the attempted alternatives. Reopen when that connection is absent or a different learning task changes the comparison. |
 | Choose a representation repair by its function | **Adapt** mechanism-specific multimedia design in section 4.3 and the local-route case. A signal, correspondence, or pacing repair can target a difficulty without adding decoration throughout the course. | [Noetel et al. (2022)](https://journals.sagepub.com/doi/10.3102/00346543211052329) supply a synthesis of multimedia design research, not proof of whole-book continuity. Reopen if the repaired representation still leaves the required relation unavailable. |
-| Keep structural diagnosis separate from experienced burden | **Adopt** an appropriately timed respondent-based question when burden is live; section 5.4 retains the human report rather than overriding it with agent success. | [Krieglstein et al. (2025)](https://doi.org/10.1007/s10648-024-09980-0) provide failure evidence about retrospective load timing in studied materials. They supply no conversion from narrative epiplexity to human burden. Reopen for a changed segment, timing, instrument, or respondent population. |
+| Keep structural diagnosis separate from experienced burden | **Adopt** appropriate respondent and timing conditions for a selected human-burden observation; section 5.4 first retains the human report and narrows the untested claim, then selects new observation only for its obtainable, worthwhile contribution. | [Krieglstein et al. (2025)](https://doi.org/10.1007/s10648-024-09980-0) provide failure evidence about retrospective load timing in studied materials. They supply no conversion from narrative epiplexity to human burden. Reopen for a changed segment, timing, instrument, or respondent population. |
 
 ### HCD.19:12 - Relations
 
@@ -4851,11 +4870,11 @@ Earlier evaluations under other specifications retain their original value meani
 
 HCD.18 supplies a specification when one is needed. Its complete result includes fit, task denominator, selected properties and scale meanings, evidence and missingness, result interpretation, contrasts, protected trade-offs, and stops or reopens. It inherits general specification construction from A.19.ECS and supplies the instructional domain choices.
 
-HCD.19 uses that specification to connect the exact material, subject criterion, first answer, actual assistance, later response, and repair. Its result feeds E.23 improvement. If selecting among alternatives is live, E.22 supplies comparison under a common qualified basis. A new book format or a different teacher arrangement may change that basis; preserve earlier results instead of quietly relabelling them.
+HCD.19 uses that specification to connect the exact material, subject criterion, available reader responses, actual assistance and repair. Compatible observations and qualified source inspection can finish a bounded diagnosis; missing evidence still withholds its dependent claim. Select further reader work only when its obtainable contribution warrants the full burden under the actual access, participation and protection conditions. Its result feeds E.23 improvement. If selecting among alternatives is live, E.22 supplies comparison under a common qualified basis. A new book format or a different teacher arrangement may change that basis; preserve earlier results instead of quietly relabelling them.
 
 For long material, a whole-route conclusion needs connected inspection of the complete declared route and its cross-part dependencies. For a local defect, inspect the smallest complete semantic reach and reuse unaffected evidence. A moved explanation can change the next-use prefix even if its words are unchanged.
 
-NSTD contributes only when the narrative question is live. NSTD.6 distinguishes the current product, promised source-to-result fidelity, and actual construction history. NSTD.8 supplies the attachment and available-prefix method. NarrativeRenderingEpiplexity concerns recovery of selected source structure for an observer and use; it is not observed cognitive load or learning effectiveness. If experienced burden changes a decision, obtain evidence from the actual reader at an appropriate segment and time.
+NSTD contributes only when the narrative question is live. NSTD.6 distinguishes the current product, promised source-to-result fidelity, and actual construction history. NSTD.8 supplies the attachment and available-prefix method. NarrativeRenderingEpiplexity concerns recovery of selected source structure for an observer and use; it is not observed cognitive load or learning effectiveness. Retain a human report of difficulty and narrow any untested audience or experienced-burden claim now; the supported material diagnosis can finish with that human question unresolved. Select an appropriately timed observation of the actual reader only when its obtainable contribution can change the receiving decision enough to warrant the full design, preparation, reader, provider, interpretation, delay and displaced-work burden, with the needed access, participation and protection. Selecting the observation does not establish its result.
 
 The time-accounting case makes the joint result concrete. M0's uninterrupted example fits both active effort and elapsed turnaround. A prepared reader correctly separates them anyway and identifies its prior-knowledge contribution. M1 repairs the definitions, columns, interruption example, and population denominator. The same reader then correctly compares three consumed person-hours with four available person-hours in a changed two-person case. The material repair and bounded changed-condition use are supported; novice learning is not observed.
 
@@ -4926,7 +4945,7 @@ The intended later-Work family is independent review of AI-assisted mixed physic
 | Independent Method question | Constructed first result | Boundary preserved |
 | --- | --- | --- |
 | HCD.15: what keeps development responsive? | A continuing arrangement reopens after a material release-Method, configuration, AI, critical-error, qualification, source, provider or support change. It supplies representative cases, first-attempt capture, current sources, permitted AI conditions, coaching and specialist access, reassessment, burden limits, owners and stops. | A trigger or plan is not performed development Work, later Work, participation, achieved capability or causal effect. |
-| HCD.16: which repertoire claim changes? | Preserve the admitted trace-and-specialist-return Method only under the constructed status and conditions; retire “assisted practice accuracy demonstrates independent learning” for this use; keep cue-led and counter-hypothesis-first candidate accounts as candidates; return `further probe` for matched unfamiliar cases. | The HCD disposition neither admits nor universally retires a Method, creates a variant, proves fit or worth, or transfers AI findings from customer support, consulting or school mathematics to release engineering. |
+| HCD.16: which repertoire claim changes? | Preserve the trace-and-specialist-return Method only under the constructed admitted status and conditions; withdraw the unsupported independent-learning claim and keep cue-led and counter-hypothesis-first candidates as candidates. The proposed comparison costs three learner-hours and two provider-hours, including preparation, attempts, feedback and comparison; only half a provider-hour is available before the current decision. Finish with the trace/helped-use result and unresolved candidate comparison. In a later window supplying the full resources, access and protection, the independent-challenge offer can change enough to warrant `further probe` on matched unfamiliar cases. | Selecting that probe is not obtaining its result. The HCD result neither admits nor universally retires a Method, creates a variant, proves fit or worth, or transfers AI findings from customer support, consulting or school mathematics to release engineering. |
 | HCD.17: what cultural continuation is warranted? | Bound the provider slice and assigned practitioners in 2026-Q4. In HCD.17's unchanged constructed condition, available fresh-practice records support receiving use before a cue, so return `continue` for the combined support without a new experiment. For the reduced-coaching proposal, that basis is insufficient; the authorized, feasible and worthwhile pre/post-coaching contrast supports a `branch` proposal and a selected trial, not a performed result. | Candidate use is not Method enactment. Both branches retain their exact scope and establish no organization- or field-wide adoption, long-term retention, ReleaseWork-R9 consequence, capability change or causal effect. |
 
 The four direct relations remain conditional. The HCD.14 hypothesis can inform HCD.15 or HCD.17; observed HCD.15 use can inform HCD.16; and an HCD.16 disposition can inform HCD.17. A receiver must still verify holder or population, later Work, status, conditions, evidence window and authority. A stale, differently scoped or absent result is replaced only by a qualified direct substitute or an exact missing-result return, never by PatternID order.
@@ -5039,7 +5058,7 @@ HCD.* is the Human Capability Development PatternID namespace. Numbers are stabl
 | HCD.13 | Available: test retention and tool dependence. | Condition-qualified retention, independent-core and support-dependence findings or unresolved comparison. |
 | HCD.14 | Available: revise the development arrangement from evidence. | Specific revision hypothesis, test, cost, protected conditions and conditional update. |
 | HCD.15 | Available: sustain continuing Human Capability Development. | Holder-specific continuing arrangement with triggers, contributions, evidence, burden, authority, re-entry and stops, or an exact blocker. |
-| HCD.16 | Available: develop and refresh HCD Methods. | Exact Method/candidate and claim disposition—`adopt`, `revise`, `branch`, `retire` or `further probe`—for one bounded repertoire use. |
+| HCD.16 | Available: develop and refresh HCD Methods. | Exact Method/candidate, supported bounded use and limits, narrowed claim, unresolved comparison or real protection stop; a justified change or obtainable worthwhile inquiry may select `adopt`, `revise`, `branch`, `retire` or `further probe`. |
 | HCD.17 | Available: deliberately continue and change HCD culture. | Truthful enacted/candidate account and bounded `continue`, `revise`, `branch`, `replace`, `stop` or `unknown`; current grounds can suffice, and a new intervention is conditional on its useful attainable contribution. |
 | HCD.18 | Available: construct a characterization and evaluation specification for instructional material. | Task-derived denominator, selected properties and scales, evidence and missingness, contrasts, result meanings and continuation; or a compatible specification to use directly. |
 | HCD.19 | Available: evaluate instructional material through representative reader work and diagnose its repair. | Qualified material contribution, complete selected-coordinate disposition, limiting defect and repair reach, actual assistance and affected-use test; or a precise evidence or criterion gap. |

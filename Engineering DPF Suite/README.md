@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 6 September 2026
+- **Version:** 8 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -28,7 +28,7 @@ You can read this way yourself, use a pattern in a working meeting, or ask an AI
 
 ## Choose a DPF
 
-The public folder contains eight complete publications and two explicitly partial foundations. Start with the working question nearest to yours. Each complete carrier provides its full searchable pattern index; each partial carrier names the PatternIDs that are still unavailable.
+The public folder contains nine complete publications and one explicitly partial foundation. Start with the working question nearest to yours. Each complete carrier provides its full searchable pattern index; the partial carrier names the PatternIDs that are still unavailable.
 
 ### Complete first editions
 
@@ -42,17 +42,17 @@ The public folder contains eight complete publications and two explicitly partia
 | Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 20 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
 | Derive and develop one person's capability for representative later work. | [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) - 19 patterns | A supported demand, target or profile; a compared development programme; representative practice and support; performance, transfer or retention evidence; a continuing-development decision, or an instructional-material evaluation through its separate profile. |
 | Construct a useful development opportunity, or advise a person, organization or other developing subject. | [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded inquiry, characterized change, candidate direction with its supports, joint-reachability result, retained opportunity, or qualified advising engagement. PSD supplies the actual comparison and recommendation when those are needed. |
+| Qualify and conduct a research inquiry, examine and return its knowledge contribution, or retain and improve its Methods. | [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded question or useful stop, selected design, operationalization, trace, warranted claim, credibility decision, corpus synthesis, exact revision/return, or supported Method retention or improvement. |
 
 ### Partial foundations
 
 | Available foundation | Available now | Explicitly unavailable in this edition |
 | --- | --- | --- |
 | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | 9 patterns: `SIE.1`, `SIE.2`, and `SIE.4`-`SIE.10` | `SIE.3`, `SIE.11`, and `SIE.12` |
-| [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | 4 patterns: [RMP.1–RMP.4](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#table-of-contents) | `RMP.5`-`RMP.9` |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
-When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. The [instructional-material questions](ENGINEERING-DPF-SUITE-REFERENCE.md#evaluate-instructional-material-for-its-intended-use) lead to evaluation-specification construction and material evaluation; the [research preparation and trace questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-research-executable-and-inspect-its-course) lead to the four-pattern RMP preview's operationalization and research-trace methods. Publication availability is the claim made by the tables above; co-listing alone does not establish dependency, compatibility, or product-series membership.
+When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. The [instructional-material questions](ENGINEERING-DPF-SUITE-REFERENCE.md#evaluate-instructional-material-for-its-intended-use) lead to evaluation-specification construction and material evaluation; the [research preparation and trace questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-research-executable-and-inspect-its-course) lead to the RMP publication's operationalization and research-trace methods. Publication availability is the claim made by the tables above; co-listing alone does not establish dependency, compatibility, or product-series membership. It also gives direct entries for [settling an HCD Method's supported use](ENGINEERING-DPF-SUITE-REFERENCE.md#develop-a-practice-or-a-persons-capability) and [analyzing a research claim or choosing a relevant credibility examination](ENGINEERING-DPF-SUITE-REFERENCE.md#analyze-a-claim-or-examine-its-credibility). For retaining or changing a research Method and returning its consequences, use [the research-Method entry](ENGINEERING-DPF-SUITE-REFERENCE.md#retain-or-improve-a-research-method).
 
 ## Looking for development recommendations?
 
@@ -87,15 +87,15 @@ The README introduces the Suite. The Reference helps you find and combine method
 
 ## Development previews
 
-This stable heading is retained for readers following links from earlier complete carriers. Operations Management and Human Capability Development now have complete first editions. The two partial foundations available through this public projection are Semantic Integration Engineering and Research Method Practice.
+This stable heading is retained for readers following links from earlier complete carriers. Operations Management, Human Capability Development and Research Method Practice now have complete first editions. Semantic Integration Engineering remains the partial foundation available through this public projection.
 
 ### Publication scope
 
-The eight complete carriers expose 169 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The public folder's two partial foundations add thirteen usable PatternIDs: nine SIE bodies and four RMP bodies. The corresponding repository editions expose the same thirteen partial-foundation patterns. These counts do not make the missing bodies available.
+The nine complete carriers expose 178 current PatternIDs. Their pattern bodies remain the authoritative methods, examples, checks, source discussions and stop conditions. The Semantic Integration Engineering foundation adds nine usable PatternIDs. The repository editions supply these bodies; an exported copy supplies the edition actually present there. These counts do not make the missing SIE bodies available.
 
 The [Semantic Integration Engineering foundation](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) can return a bounded semantic-integration package for one receiving use. It does not supply the unavailable model-change, later change-tracing, or reusable semantic-commons methods represented by `SIE.3`, `SIE.11`, and `SIE.12`.
 
-The [Research Method Practice preview](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) supplies the four-pattern question, design, operationalization and trace contribution. It helps qualify a question, return an already-sufficient source or non-research owner, choose a criticism-bearing design or honest stop, preserve the question through operationalization, and retain a trace with explicit examination, reconstruction, loss and access limits. It still leaves `RMP.5`-`RMP.9` for analysis, credibility testing, synthesis, knowledge return and research-Method revision unavailable.
+The [Research Method Practice first edition](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) supplies nine patterns for question, design, operationalization, trace, analysis, credibility, corpus synthesis, exact knowledge revision/return and Method improvement. It helps qualify a question, finish with a sufficient source answer, return an exact owner need, choose a useful obtainable design or a qualified stop, preserve the question through operationalization, and retain a trace with explicit examination, reconstruction, loss and access limits. Supplied material can enter claim analysis directly; a bounded claim can enter the choice of a relevant credibility test or a qualified answer without a new test. A compatible corpus can enter RMP.7 for a warranted synthesis, existing answer or useful refusal. RMP.8 revises the identified claim or model contribution and returns its evidence with the limits that matter to actual reliance. Earlier direct answers can still finish without these additional Methods. [RMP.9](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-9) locates the actual Method difficulty, supports adequate retention or a bounded correction, and selects further comparison only when its possible result matters and the whole burden is warranted. Unsupported use stays limited, and only the affected research consequence returns to its consumer.
 
 Until a needed pattern is available, obtain the missing result from the practice that owns it. A title, accepted plan, neighbouring pattern, or AI-generated answer does not fill the gap. Publication updates are announced through the [FPF repository](https://github.com/ailev/FPF).
 
@@ -109,7 +109,7 @@ To cite the collection:
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite.
-6 September 2026.
+8 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
