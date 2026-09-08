@@ -22467,7 +22467,7 @@ Typical moments:
 
 FPF needs some universal primitives. It also needs to avoid turning a field's favorite vocabulary into the kernel. A word that works in software, finance, biology, or physics may still be local. A kernel-level U-kind must survive contact with different foundational domains without changing what kind of work it does in the model.
 
-When source wording uses kind force for this admission question, recover it as kernel-level U-kind admission: `E.24.UK` decides durable U-kind admission basis, and A.8 tests universal-core claim force.
+When source wording proposes a kernel-level U-kind, recover its admission claim: `E.24.UK` decides durable U-kind admission basis, and A.8 tests the universal-core claim.
 
 ### A.8:2 - Problem
 
@@ -22512,7 +22512,7 @@ UniversalCoreProjection:
   EvidenceRef:
 ```
 
-Three records are the minimum evidence. They are not an analogy. They are a falsification attempt: if one projection changes the candidate's abstract contribution, the candidate is not universal in the proposed form.
+Three records are the minimum evidence. Use them for a falsification attempt: if one projection changes the candidate's abstract contribution, the candidate is not universal in the proposed form.
 
 ### A.8:3.1 - Archetypal Grounding - Diversity Evidence
 
@@ -22522,7 +22522,7 @@ For busy readers: one idea, three worlds. A candidate that cannot keep the same 
 | --- | --- | --- | --- |
 | `U.System` | thermodynamic control volume; biological cell or organism; cyber-physical system | bounded interacting whole that can be treated as acting or being affected under conditions | boundary physics, substrate, observability, and control style |
 | `U.Episteme` | theorem or proof text; clinical guideline; model card or safety case | claim-bearing non-agentive knowledge object that can be used, cited, revised, or published | carrier, notation, authority source, and assurance regime |
-| `U.Work` | machining run; lab assay; review or approval act | dated performed occurrence: A.13 identifies the actual performer and A.15.1 admits the Work independently from its Method, history, extent, and containing System; F.6 adds an assignment check only when the current use must also say under which assignment the Work was performed | physical medium, institutional form, measurement trace, and evidence carrier |
+| `U.Work` | machining run; lab assay; review or approval act | dated performed occurrence: A.13 identifies the actual performer and A.15.1 independently admits the Work from that performer basis plus its Method, history, extent, and obtaining containing-System relation; F.6 adds an assignment check only when the current use must also say under which assignment the Work was performed | physical medium, institutional form, measurement trace, and evidence carrier |
 
 These rows are grounding examples, not automatic admissions. The projection record still needs an `E.24.UK` basis and must state losses and bridge risks.
 
@@ -22603,7 +22603,7 @@ These pathologies derail safety cases and budget decisions across disciplines.
 
 #### A.9:4.1 - Invariant Quintet
 
-Any aggregation operator `Γ` that claims FPF conformance **MUST** preserve these five invariants :
+Any aggregation operator `Γ` that claims FPF conformance **MUST** preserve these five invariants:
 
 | Code     | Invariant             | One‑line Intuition                               |
 | -------- | --------------------- | ------------------------------------------------ |
@@ -22616,7 +22616,7 @@ Any aggregation operator `Γ` that claims FPF conformance **MUST** preserve thes
 *Mnemonic:* **S‑O‑L‑I‑D** (Same - Order‑free - Location‑free - Inferior cap - Don’t‑regress).
 
 **Inter‑Layer Standard note**
-When holons are composed as a Layered‑Control stack, each Planner ↔ Regulator pair MUST publish an inter‑layer Standard: {referenceSignal, guaranteedTrackingError, cycleTime}.  Matni 2024 (https://arxiv.org/abs/2401.15185) prove such Standards satisfy COMM + LOC invariants, giving a constructive instance of the Quintet.
+When holons are composed as a Layered‑Control stack, each Planner ↔ Regulator pair MUST publish an inter‑layer Standard: {referenceSignal, guaranteedTrackingError, cycleTime}.  Matni, Ames and Doyle (2024, https://arxiv.org/abs/2401.15185) prove such Standards satisfy COMM + LOC invariants, giving a constructive instance of the Quintet.
 
 #### A.9:4.2 - Meta‑Holon Transition (MHT)
 
@@ -22665,11 +22665,11 @@ Packaging these insights as one memorisable quintet → **Cognitive Elegance** w
 
 | Relation           | Linked Pattern                       | Contribution                                              |
 | ------------------ | ------------------------------------ | --------------------------------------------------------- |
-| **Builds on**      | A 1 Holonic Foundation               | Supplies part/whole semantics.                            |
-| **Reinforces**     | A 7 Strict Distinction               | Prevents layer‑mixing during folds.                       |
-| **Enabled by**     | A 8 Universal Core                   | Guarantees operands share truly universal meaning.        |
+| **Builds on**      | A.1 Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)               | Supplies part/whole semantics.                            |
+| **Reinforces**     | A.7 Strict Distinction (Clarity Lattice)               | Prevents layer‑mixing during folds.                       |
+| **Enabled by**     | A.8 Universal Core Principle                   | Tests the universal-core claim for an operand kind proposed as a kernel primitive.        |
 | **Foundation for** | B.1 Holon Aggregation and Part-Whole Construction | B-section part-whole construction uses this universal-core discipline. |
-| **Triggers**       | B 2 Meta‑Holon Transition            | When invariants fail through synergy, an MHT is invoked.  |
+| **Triggers**       | B.2 Meta-Holon Transition - Whole Reidentification            | When invariants fail through synergy, an MHT is invoked.  |
 
 ### A.9:10 - Known Uses (2018‑2025)
 
@@ -22679,7 +22679,7 @@ Packaging these insights as one memorisable quintet → **Cognitive Elegance** w
 
 ### A.9:11 - Open Questions for expert panel
 
-1. **Order‑sensitive physics** – Should quantum‑circuit folds live in a Extention Patterns with a relaxed invariant set?
+1. **Order‑sensitive physics** – Should quantum‑circuit folds live in an Extension Pattern with a relaxed invariant set?
 2. **Synergistic redundancy** – Can WLNK be reframed using an “effective minimum” when true redundancy lifts the floor?
 3. **Didactic tooling** – Which visual cues best alert non‑formal audiences to an approaching Meta‑Holon Transition?
 4. **Layer depth** — In an LCA (layered control architectures, https://arxiv.org/abs/2401.15185) stack every Planner is external to its Regulator; should FPF limit the number of nested layers, or is indefinite chaining acceptable?

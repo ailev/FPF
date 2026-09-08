@@ -739,7 +739,7 @@ Start with one bounded subject, receiving concern, horizon, protected condition,
 
 This is opportunity-generating search: the worthwhile problem and target contribution may still be provisional. A *lead* is a possibility worth examining, not yet a supported need, complete direction, or reachable change. A separate adviser is unnecessary.
 
-**Ordinary non-use boundary.** Reuse an adequate lead or direction set when another search is unlikely to change the current inquiry. If a bounded decision-support question already needs a finite alternative set, use [PSD.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd8---generate-decision-alternatives). If one domain practice owns the whole discovery question, use it directly. Do not open a generation archive merely to remember two possibilities.
+**Ordinary non-use boundary.** Reuse an adequate lead or direction set when another search is unlikely to change the current inquiry. If a bounded decision-support question already needs a finite alternative set, use [PSD.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd8---generate-decision-alternatives). If one domain practice owns the whole discovery question, use it directly. If the only question is a requirement's justification, use C.11.DUA with its direct domain basis without reopening opportunity search. Do not open a generation archive merely to remember two possibilities.
 
 ### DOCA.2:2 - Problem
 
@@ -784,7 +784,9 @@ Use the following prompts selectively. They are search operations, not a require
 | Combine or change support | Could access, feedback, review, interfaces, resources, or a different division of contributions make an existing capability usable? | The support change and the dependency it would remove or introduce. |
 | Challenge an assumed constraint | Is this restriction a fact, an authoritative limit, a chosen premise, or an untested assumption? | A conditional alternative and the exact premise that must be resolved. |
 
-Do not lift a binding safety, confidentiality, legal, or authority condition merely to generate a convenient lead. One may investigate a separately authorized change to that condition; until its owner supplies the changed basis, retain the original limit.
+Do not lift a binding safety, confidentiality, legal, or authority condition merely to generate a convenient lead. If the requirement's own justification is the live question, use `C.11.DUA` §4.3 with the competent domain contribution. Identify the protected person or System and outcome, governed quantity or activity, evidence and threshold basis, marginal protection, full burden and displaced protective work. Compare retaining, tightening, revising or replacing it only where those are meaningful alternatives.
+
+Return the supported requirement recommendation and the reason or limit needed for this opportunity inquiry. Keep its present force, amendment authority and feasible window distinct. The appraisal can finish when timely amendment is unavailable; current leads still inherit the original binding limit. A possible later revision does not restore the opportunity lost under the present conditions.
 
 Use explicit value questions: what would matter to a receiver, what burden should diminish, and what must remain protected? When group advocacy could anchor the search, let participants first propose possibilities independently, then use their differences to extend the set. Neither a workshop nor a separate group is mandatory.
 
@@ -859,7 +861,7 @@ A conforming search return:
 2. **MUST** identify the generating operations and the differences that make retained leads consequential.
 3. **MUST** distinguish source claims, local inferences, analogy, and missing evidence.
 4. **MUST NOT** equate source count, idea count, novelty, or a supplier demonstration with local worth or reachability.
-5. **MUST** preserve binding constraints while separately identifying assumptions that may be investigated.
+5. **MUST** preserve binding constraints while separately identifying assumptions that may be investigated. A live merits question returns its supported judgement of protection and burden and the actual amendment limit, without treating the recommendation as a changed rule.
 6. **MUST** state the stopping reason and any unsearched area whose omission can change the receiving use.
 7. **MUST** return a next question with action-changing answers, an adequate lead set, rejection, or an exact gap.
 8. **MUST NOT** require a workshop, exhaustive search, archive, live pool, recommendation, or selected direction for an ordinary search result.

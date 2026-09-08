@@ -50,7 +50,7 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 | :--- | :--- | :--- | :--- | :--- |
 | 7 | [ME.5 - Qualify Individual Methods, Candidate Accounts, and Local Connections](#me5---qualify-individual-methods-candidate-accounts-and-local-connections) |  | *Keywords:* Method qualification, candidate account, local connection, applicability, minimum conditions, evidence, rejection. *Queries:* "Which individual candidate is usable for this bounded result?" "Can one unmet condition settle the choice before an architecture comparison is needed?" Qualify each Method, account, or local connection against the receiving criteria and retain its actual epistemic status, unresolved premise, and reason to keep or reject it. | ME.2, ME.3, ME.4; FPF A.3.1, A.10 |
 | 8 | [ME.6 - Compare Method-Architecture Alternatives and Simultaneous Enactment Conflicts](#me6---compare-method-architecture-alternatives-and-simultaneous-enactment-conflicts) |  | *Keywords:* Method architecture, simultaneous Work, project view, process view, case view, allocation, support, conflict, trade-off. *Queries:* "How do plausible Methods interact when their enactment overlaps?" "Which alternative changes provisional-result use, authority, shared capacity, or burden?" Compare materially different Method, Work, allocation, description, support, and cultural structures while keeping the receiving result and serious alternatives visible. | ME.3, ME.5; FPF C.32.MWA, A.19, C.11 |
-| 9 | [ME.7 - Resolve a Proposed Method Whole into Obtaining Relations or a Candidate Account](#me7---resolve-a-proposed-method-whole-into-obtaining-relations-or-a-candidate-account) |  | *Keywords:* Method whole, composition, direct relation, candidate design, invariant, variation, realization, trial. *Queries:* "Does the proposed Method whole already exist through obtaining relations?" "What can we specify and test while it is still a proposal?" Return the supported direct relations or a prospective candidate-whole account with the conditions, realization WorkPlan, and bounded test needed to settle its status. | ME.5, ME.6; FPF A.3.1, A.22, A.15.2 |
+| 9 | [ME.7 - Resolve a Proposed Method Whole into Obtaining Relations or a Candidate Account](#me7---resolve-a-proposed-method-whole-into-obtaining-relations-or-a-candidate-account) |  | *Keywords:* Method whole, composition, direct relation, candidate design, invariant, variation, realization, trial. *Queries:* "Does the proposed Method whole already exist through obtaining relations?" "What can we specify and test while it is still a proposal?" Return supported direct relations or a prospective candidate-whole account with its current support and gaps; select realization or a trial only when its attainable contribution is worth the whole burden. | ME.5, ME.6; FPF A.3.1, A.22, A.15.2 |
 
 **Part III - Method Descriptions, Representations, and Enactment Support**
 
@@ -68,14 +68,14 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 | 14 | [ME.11 - Trial the Method in Representative Work](#me11---trial-the-method-in-representative-work) |  | *Keywords:* Method trial, representative Work, discriminating case, performer, support conditions, observation, evidence. *Queries:* "What happened when this Method was tried in actual Work?" "Which trial conditions would test the claimed contribution and expose its limits?" Plan and observe representative or discriminating enactment and return occurrence-level evidence for the later coherence, fit, transfer, and practical-worth decisions. | ME.3, ME.7, ME.10; FPF A.13, A.15.1, A.10 |
 | 15 | [ME.12 - Verify Method and MethodDescription Coherence](#me12---verify-method-and-methoddescription-coherence) |  | *Keywords:* verification, coherence, description mismatch, missing stop, inconsistent representation, obsolete edition, correction. *Queries:* "Which relied-on Method claim fails to agree with its description, representation, or supporting material?" "Where is the smallest correction that restores the named use?" Locate the expected agreement, the conflicting evidence, and the maintained result that owns the claim; return a bounded coherence result and repair target. | ME.8–ME.11; FPF A.10, B.3 |
 | 16 | [ME.13 - Validate Situational Fit and Transfer](#me13---validate-situational-fit-and-transfer) |  | *Keywords:* validation, situational fit, transfer, adaptation, changed conditions, capability, support, domain result. *Queries:* "Does this Method fit the situation in which we need it?" "Which claim survives when the project, industry, performer, or support conditions change?" Compare original and receiving conditions with actual Work evidence, identify relevant adaptations, and return the supported fit or transfer claim and its limits. | ME.3, ME.11; FPF A.10, G.11 |
-| 17 | [ME.14 - Evaluate Practical Worth Against Current Alternatives](#me14---evaluate-practical-worth-against-current-alternatives) |  | *Keywords:* practical worth, alternatives, burden, coordination cost, tooling, opportunity cost, trade-off, replace, stop. *Queries:* "Is this Method worth its total burden compared with current alternatives?" "Who receives the benefit and who bears capability, support, exposure, or recovery costs?" Compare keeping, revising, replacing, branching, and stopping under the actual situation, with explicit consequences and the evidence that can change the choice. | ME.11–ME.13; FPF A.19, C.11, A.10 |
+| 17 | [ME.14 - Evaluate Practical Worth Against Current Alternatives](#me14---evaluate-practical-worth-against-current-alternatives) |  | *Keywords:* practical worth, alternatives, burden, coordination cost, tooling, opportunity cost, trade-off, replace, stop. *Queries:* "Is this Method worth its total burden compared with current alternatives?" "Who receives the benefit and who bears capability, support, exposure, or recovery costs?" Compare keeping, revising, replacing, branching, and stopping under the actual situation, with explicit consequences and the evidence that can change the choice. | ME.11–ME.13 for the trial, coherence or fit questions actually needed; FPF A.19, C.11, A.10 |
 
 **Part V - Variants, Introduction into Practice, and Cultural Continuation**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 18 | [ME.15 - Maintain Method Variants, Provenance, and Reuse](#me15---maintain-method-variants-provenance-and-reuse) |  | *Keywords:* Method variant, reusable semantics, provenance, branching, version, adaptation, lineage, reuse. *Queries:* "Did this change alter a reusable way of working or only its description and support?" "Which applicability and evidence claims belong to the resulting branch?" Identify meaningful variants and maintain their derivation, status, and reuse conditions; return other changes to the description, Work, or support subject they actually affect. | ME.2, ME.8–ME.14; FPF A.3.1, G.11 |
-| 19 | [ME.16 - Introduce, Observe, and Revise a Method in Practice](#me16---introduce-observe-and-revise-a-method-in-practice) |  | *Keywords:* introduction into practice, adoption, authorized Work, capability development, assistance, observation, revision, contribution. *Queries:* "What changed when this Method was introduced into a real practice?" "Which observed result supports revising the Method, its description, or the surrounding arrangements?" Follow the bounded introduction from intended changes through actual Work and later use, and qualify any causal claim about the outside result. | ME.10, ME.11, ME.14, ME.15; FPF A.13, A.15.1, C.28 |
+| 18 | [ME.15 - Maintain Method Variants, Provenance, and Reuse](#me15---maintain-method-variants-provenance-and-reuse) |  | *Keywords:* Method variant, reusable semantics, provenance, branching, version, adaptation, lineage, reuse. *Queries:* "Did this change alter a reusable way of working or only its description and support?" "Which applicability and evidence claims belong to the resulting branch?" Identify meaningful variants and maintain their derivation, status, and reuse conditions; return other changes to the description, Work, or support subject they actually affect. | ME.2; ME.8–ME.14 for their specific live questions; FPF A.3.1, G.11 |
+| 19 | [ME.16 - Introduce, Observe, and Revise a Method in Practice](#me16---introduce-observe-and-revise-a-method-in-practice) |  | *Keywords:* introduction into practice, adoption, authorized Work, capability development, assistance, observation, revision, contribution. *Queries:* "What changed when this Method was introduced into a real practice?" "Which observed result supports revising the Method, its description, or the surrounding arrangements?" Follow the bounded introduction from intended changes through actual Work and later use, and qualify any causal claim about the outside result. | ME.10, ME.14, ME.15; ME.11 when a trial is selected; FPF A.13, A.15.1; C.28 for actual causal reliance |
 | 20 | [ME.17 - Deliberately Continue and Change Method-Engineering Culture](#me17---deliberately-continue-and-change-method-engineering-culture) |  | *Keywords:* Method Engineering culture, practitioner population, generation, transmission, recognition, selection, memory, retention, loss. *Queries:* "Which cultural relation should deliberately continue or change across this practitioner population?" "What observations distinguish transmission or retention from publication and local use?" Define a bounded cultural claim, compare serious explanations, and choose the next authorized intervention or informative observation with an explicit return. | ME.15, ME.16; FPF C.20, C.36, G.11 |
 
 **Part VI - Pattern-Language Production and Situated Use**
@@ -110,12 +110,12 @@ the authoritative moves, worked cases, stops, and evidence limits.
   situational criteria, package contribution, or reconstruction from observed Work does that decision need?
 - **First useful result or honest blocker:** A Method-focus result, or a decision to return the problem to its owning practice
   because no Method decision is needed. Follow it only when needed with an account of Method differentiation, an
-  inspectable repertoire, a scoped candidate account, situational criteria, or a package dossier that keeps the
+  inspectable repertoire, a scoped candidate account, situational criteria or a recommendation about one disputed criterion, or a package dossier that keeps the
   kinds of its contributions distinct. Otherwise identify the unresolved identity, missing source or evidence,
   or unclear receiving use.
 - **Start with:** `ME.1`. Use `ME.19` when the present architecture is treated as natural, `ME.2` for a reusable
   repertoire, `A.3.1.MR` for ordinary source-traceable candidate recovery without compulsory follow-up, `ME.18` only when the decision warrants a larger evidence programme, `ME.3` for situational
-  criteria, and `ME.4` when a documentary source or plural corpus bundles unlike contributions.
+  criteria or appraisal of a disputed criterion, and `ME.4` when a documentary source or plural corpus bundles unlike contributions.
 - **Stop or return:** Stop at the first result that changes the current decision. Return to the owning domain
   when no Method decision is needed; reopen when the receiving problem, subject, constraints, sources, or
   observed contribution changes.
@@ -127,10 +127,10 @@ the authoritative moves, worked cases, stops, and evidence limits.
   cultural consequences can differ across serious alternatives.
 - **Question:** Which subjects are individually usable, which structures and direct relations change the
   decision, and does the proposed whole already obtain or remain a prospective account?
-- **First useful result or honest blocker:** Individual qualifications that retain each candidate’s status, a Method-architecture
-  decision comparing materially different alternatives, and either supported obtaining relations or a prospective
-  candidate-whole account with a WorkPlan for realization and testing. Otherwise identify the missing relation or
-  evidence.
+- **First useful result or honest blocker:** An individual qualification preserving candidate status, a Method-architecture
+  decision comparing materially different alternatives, or a supported composition result or prospective account
+  answering the current whole question. Choose realization or testing when it is worthwhile and feasible; add a
+  WorkPlan where coordination needs one. If the current question cannot be answered, name the missing relation or evidence.
 - **Start with:** `ME.5` for cheap individual qualification, `ME.6` when interactions among qualified subjects
   change the receiving decision, and `ME.7` only when the identity or obtaining relations of a proposed whole
   remain a live question.
@@ -162,13 +162,13 @@ the authoritative moves, worked cases, stops, and evidence limits.
 
 ### ME-TRIAL-CHANGE — Trial, judge, revise, introduce, and continue a Method under bounded evidence
 
-- **Situation:** A Method or candidate account is ready for actual Work, but coherence, situational fit,
+- **Situation:** A Method or candidate account needs a present decision or has supplied actual Work, but coherence, situational fit,
   transfer, practical worth, variant identity, introduction into practice, and cultural continuation are being
   treated as one success claim.
-- **Question:** What did representative Work establish, which separate decision can use it, what reusable Method
+- **Question:** What does the available basis support, what did any representative Work establish, which separate decision can use it, what reusable Method
   semantics or surrounding subjects changed, and is the live boundary one project or a practitioner population?
 - **First useful result or honest blocker:** Occurrence-level trial evidence; separate coherence, fit or transfer,
-  and practical-worth results; a maintained variant lineage or non-variant maintenance return; a typed
+  and practical-worth results at their supported strength, without a trial prerequisite for a present choice; a maintained variant lineage or non-variant maintenance return; a typed
   introduction decision; or a qualified current cultural account or supported continuation with relevant limits, without a mandatory new intervention or study.
 - **Start with:** `ME.11` for actual trial Work; `ME.12`, `ME.13`, and `ME.14` for their separate judgments;
   `ME.15` when reusable Method semantics may have changed; `ME.16` for a bounded introduction attempt; and
@@ -1173,7 +1173,7 @@ The claim matrix, decision-relevant sampling, contradiction-by-scope rule, held-
 ## ME.3 - Build Situational Method Requirements and Fit Criteria
 
 >
-> **Primary working result:** one **situational Method-criteria result** that states the receiving Work and result, required Method contributions, performer capabilities, technical and organizational conditions, allowable variation, non-negotiable conditions, burden limits, evidence needs, and truthful acceptance or stop observations without selecting or admitting a Method.
+> **Primary working result:** one **situational Method-criteria result** that states the receiving Work and result, required Method contributions, performer capabilities, technical and organizational conditions, allowable variation, non-negotiable conditions, burden limits, evidence needs, and truthful acceptance or stop observations without selecting or admitting a Method. A question about one disputed criterion returns a supported recommendation to retain or change it, together with the criterion's current force and available amendment route.
 
 ### ME.3:0 - Use This When
 
@@ -1181,7 +1181,7 @@ Use this pattern when a Method, an established-family or project-local grouping 
 
 Begin with the situation family, intended or current Work, receiving professional result, and the level of the Method decision. State the contributions that a Method or several Methods must make without preselecting which candidate supplies them. Place every resulting criterion with the Method, description, performer capability, covering Work assignment, permission relation, decision-authority relation, performed Work, decision result, support/access relation, responsibility, cultural subject, or receiving result it actually concerns.
 
-The first useful result is a bounded set of criteria with subjects, allowed variation, evidence needs, satisfaction observations, and stops. A criterion can be ready for later use even when no candidate currently meets it.
+The first useful result is a bounded set of criteria with subjects, allowed variation, evidence needs, satisfaction observations, and stops. A criterion can be ready for later use even when no candidate currently meets it. Enter also when the present question concerns the justification of a criterion itself. That use can finish with a supported requirement recommendation and the criterion's current force or amendment limit, without selecting a Method.
 
 Do not use this pattern as a generic product-requirements template. Criteria do not identify, admit, select, qualify, or compose a Method or establish present or future fit. Product acceptance, Method identity, individual qualification, and architecture choice remain separate results.
 
@@ -1227,7 +1227,7 @@ The project then appears to have objective fit criteria, but nobody can say what
 
 ### ME.3:4 - Solution
 
-Build criteria from the receiving situation outward. State required contributions and conditions, assign each criterion to its actual subject, preserve allowed variation, and defer every fit or selection verdict to the pattern that evaluates the relevant subject or structure.
+Build criteria from the receiving situation outward. State required contributions and conditions, assign each criterion to its actual subject, preserve allowed variation, and defer every fit or selection verdict to the pattern that evaluates the relevant subject or structure. For a disputed criterion, start with its existing context and the appraisal in §4.4; build or update other criteria only where that question needs them.
 
 Recognition is cheap: recurring Work, a changed constraint, or one plausible capability, access, authority, evidence, or burden failure is enough to expose a criterion question. Assurance is later and row-specific: the named observation, edition, and window must support satisfaction before qualification or architecture work may rely on that row.
 
@@ -1237,7 +1237,7 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 2. **State required contributions before candidates.** Describe the reusable actions, results, or preserved conditions that one Method or named Method relations must contribute. Do not write a familiar candidate's current procedure as the requirement unless that exact feature is independently non-negotiable.
 3. **Use source prompts without importing kinds.** Ask what goal, procedure, rationale, framing, mindset, intended use, representation, tool, scope, and adaptation conditions a source makes visible. Place the answer with its actual subject. A stated mindset may be description content; an obtaining capability or cultural relation needs separate evidence.
 4. **Recover conditions around enactment.** State performer capabilities, technical and organizational conditions, inputs, support/provider access, responsibility, covering Work assignments, permission and decision-authority relations, evidence timing, reversibility, and other Work or result constraints. Keep these conditions distinct from one another and from the performed Work and its decision result.
-5. **Separate variation from invariants.** Name lawful branches, substitutions, timing ranges, and local adaptations. Mark non-negotiable result, safety, confidentiality, authority, or evidence conditions explicitly.
+5. **Separate variation from invariants.** Name lawful branches, substitutions, timing ranges, and local adaptations. Mark non-negotiable result, safety, confidentiality, authority, or evidence conditions explicitly. If a criterion's justification is the live question, use §4.4 to appraise it while retaining its current force. An already justified criterion needs no new appraisal.
 6. **Set burdens at the right level.** Attach time, attention, capacity, delay, meeting, or cost limits to a participant, Work scope, and window. Keep individual burden distinguishable from combined peak demand and burden transferred to another participant or period.
 7. **Name evidence and observations.** For every decision-changing criterion, state what record or observation a later evaluation needs, its edition or window when material, and what would count as satisfied, failed, or unknown. Do not turn the requested evidence into a fit verdict.
 8. **State acceptance, stop, and reopen rules.** Say when the criteria set is adequate for its next use, which missing fact stops that route, and which situation or source change requires rebuilding it. A stop may route to capability, support, authority, product, or Work redesign rather than Method selection.
@@ -1245,7 +1245,9 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 
 #### ME.3:4.2 - Record the Result
 
-| Result position | Required content |
+Use the rows that carry the present result. For a disputed criterion, retain the relevant existing context and return the recommendation described in §4.4.
+
+| Result position | Content for the present use |
 | --- | --- |
 | use and situation family | Receiving Work/result, decision level, scope, window, representative variations, and exclusions. |
 | required contributions | Candidate-neutral Method contributions and the result or preserved condition each must support. |
@@ -1254,11 +1256,20 @@ Recognition is cheap: recurring Work, a changed constraint, or one plausible cap
 | technical and organizational conditions | Inputs, support/provider conditions, evidence timing, reversibility, coordination, and other situated constraints. |
 | burden limits | Participant, Work scope, time window, bound, measurement basis, and transferred-burden warning. |
 | evidence and disposition | Required observation or record and the condition for `satisfied`, `failed`, or `unknown` in later use, without a fit or selection verdict. |
+| disputed requirement, when this question is live | Supported retention or change recommendation, the protection and burden that justify it, current force, and the available amendment route or limit needed by its recipient. |
 | stop and reopen | Missing fact or failed non-negotiable that stops a route, adequate-next-use condition, and situation/source change that reopens the set. |
 
 #### ME.3:4.3 - What Changes in Practice
 
 Teams stop asking whether a methodology “fits the context” as one opaque question. They can see whether the live issue is a Method contribution, a description gap, missing capability, covering assignment, permission, decision authority, provider access, Work timing, receiving-result condition, or combined burden. Later qualification and architecture comparison receive explicit conditions instead of a precomputed winner.
+
+#### ME.3:4.4 - Appraise a Disputed Criterion
+
+Use C.11.DUA §4.3 when the practitioner needs to decide whether a Method criterion or protective requirement is justified. Recover the person, system or receiving result it protects, the particular failure or exposure, the governed activity or quantity, the evidence and threshold basis, and the protection the requirement adds under these conditions. Compare that contribution with the burden, delay and displaced protective work. Use the relevant domain judgement and measurement or causal analysis where the question needs them; a label such as safety does not supply that basis.
+
+Return supported retention, tightening, revision, replacement or removal only among meaningful alternatives. Keep the requirement's current force and the authority and time needed to change it explicit where they determine the feasible continuation. A recommendation can be complete while amendment remains unavailable. Continue under the current allowed options until the governing authority or agreement changes the requirement; if none meets the receiving need within the window, return that limitation. A later amendment does not restore an opportunity already lost.
+
+Carry the useful reason and limit in the same criteria or recommendation result. Finish when it answers the present question at a supported strength. Choose a further study only when its obtainable result could change that answer enough to warrant the full burden.
 
 ### ME.3:5 - Archetypal Grounding — EC-417 Situational Criteria
 
@@ -1296,6 +1307,14 @@ The criteria leave serious alternatives open. A signed-first alternative may wai
 
 The criteria set is adequate for its next use when every non-negotiable row has an observable test, the remaining variations are explicit, and unknowns are routed to their actual subject. It stops the current route immediately on missing signed evidence at closure, confidential geometry exposure, a missing or mismatched covering assignment, permission, or direct decision-authority relation, unavailable required capability or verification route, rollback beyond one hour for an early-integration proposal, peak safety demand above `0.40`, or a joint board above 45 minutes. Reopen when the change class, supplier information boundary, evidence timing, toolchain, performer assignment, release authority, capacity window, or receiving-result acceptance rule changes.
 
+#### ME.3:5.1 - Retain Approval and Question a Duplicate Trace Record
+
+Consider two disputed requirements in the same release situation. The supplier's signed approval establishes which pinout the supplier endorses; the provisional file alone leaves a material possibility of implementing an unendorsed connection. That protective contribution supports retaining the approval condition for release. A cheaper trace procedure does not supply the missing supplier decision, and the present release authority still withholds release when the required approval is absent.
+
+The other requirement is a second manual copy of every trace link. In this constructed case, the versioned authoritative trace already exposes the same links and failed correspondences to the review, and the duplicate copy adds no check or independent information. Producing it consumes time needed to inspect a changed safety requirement. On those supplied facts, the criteria author can finish with a recommendation to remove the duplicate-copy obligation while preserving the trace and review that detect the actual defect. A different case in which the second check detects a consequential omission can support retention.
+
+The recommendation names the governing trace-record rule and the authority needed to amend it. It does not treat the release decider's authority as authority to change that rule. If timely amendment is unavailable, the current rule remains in force and the release arrangement must use a permissible continuation or a later slot. The present recommendation and its limit are complete; a new experiment is selected only if an obtainable result could change the appraisal enough to warrant its full burden.
+
 ### ME.3:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -1309,12 +1328,15 @@ The criteria set is adequate for its next use when every non-negotiable row has 
 
 ### ME.3:7 - Conformance Checklist
 
+Apply these questions to the criteria being established or appraised and to the present use of the result. Existing relevant context can supply the answer.
+
 - [ ] The criteria name a situation family, receiving Work/result, decision level, scope, window, variations, and exclusions.
 - [ ] Required Method contributions are stated before candidate assignment.
 - [ ] Every criterion names its actual subject or relation rather than hiding it under “method fit”.
 - [ ] Method/account content, MethodDescription, performer capability, responsibility, support/access, covering Work assignment, permission relation, decision-authority relation, performed Work, decision result, culture, and receiving-result claims remain distinct.
 - [ ] Capability, assignment, permission, and decision authority imply none of one another; an assignment or authority relation does not prove performed Work or its decision result.
 - [ ] Allowable variation and non-negotiable conditions are explicit.
+- [ ] When a criterion's justification is disputed, the recommendation compares its actual protective contribution and burden and distinguishes that judgement from current force and the feasible amendment route.
 - [ ] Every burden limit names participant, Work scope, time window, bound, and measurement basis.
 - [ ] Every decision-changing row names evidence and `satisfied | failed | unknown` observations.
 - [ ] The result states acceptance-for-next-use, stop, and reopen conditions without selecting or admitting a Method.
@@ -1732,7 +1754,7 @@ Reopen when a current source or use shows that an individual question cannot be 
 ## ME.6 - Compare Method-Architecture Alternatives and Simultaneous Enactment Conflicts
 
 >
-> **Primary working result:** a **Method-architecture decision episteme** that names the few decision-changing structures, their direct relations and truth statuses, materially different alternatives, moved burdens, selected or rejected synthesis, and a realization or reconsideration test. It may truthfully stop with relations among several Methods and no composite whole.
+> **Primary working result:** a **Method-architecture decision episteme** that names the few decision-changing structures, their direct relations and truth statuses, materially different alternatives, moved burdens, selected or rejected synthesis, and the conditions material to its use or reconsideration. It may truthfully stop with relations among several Methods and no composite whole.
 
 ### ME.6:0 - Use This When
 
@@ -1786,14 +1808,14 @@ Select only structures that change the decision, state their direct relations an
 
 #### ME.6:4.1 - Pattern-Use Unfolding
 
-1. **Bound the practice and result.** State whether the account concerns obtaining practice or a possible-future trial, the result at risk, configuration, situation, window, and decision authority.
+1. **Bound the practice and result.** State whether the account concerns obtaining practice or possible-future practice, the result at risk, configuration, situation, window, and decision authority.
 2. **Load retained subjects.** Bring in identified Methods, candidate accounts, and individually supported local connections. Preserve every status and unresolved condition.
 3. **Select decision-changing structures.** Name each Method, Work, allocation, subject/support, description, capability/provider, or cultural structure needed. Omit a structure whose possible values cannot change the choice.
 4. **State relations and truth.** For every load-bearing relation, record its kind, subjects, obtaining, proposed, contradicted, or unresolved status, evidence, and receiving use. Record correspondences and losses across descriptions without making them identities.
 5. **Build serious alternatives.** Create at least two syntheses that differ in one or more named relations. Preserve the feasible incumbent. A different view or label is not another alternative.
 6. **Compare enactment and burden.** Distinguish simultaneous multigrain contribution from genuine first–then Work; compare combined peak demand, provider/access dependencies, authority, responsibility, evidence creation and loss, failure routes, and burdens moved across scopes or times.
 7. **Choose without upgrading truth.** Use `C.11` or an applicable domain decision Method. Return the selected synthesis, rejected alternatives, accepted losses, conditions, live rivals, and any causal-use boundary. A bounded trial decision can select proposed content without asserting that its ArchitectureRelations obtain.
-8. **Realize or reconsider.** Name implementation and trial Work separately, the observations that could support or defeat proposed relations, recovery or stop, and the condition for preserving, narrowing, or reopening the decision.
+8. **Finish or continue from the decision.** A supported decision to retain an incumbent or keep a proposal available can finish the comparison. Choose implementation or trial Work through C.11.DUA when its obtainable contribution warrants its full burden and the needed access, allocation, authority and window are available. For that selected Work, name implementation and trial separately, the observations that could support or defeat proposed relations, recovery or stop, and the condition for preserving, narrowing or reopening the decision. Carry a reconsideration condition in a later-use result where it changes reliance.
 
 #### ME.6:4.2 - Record the Result
 
@@ -1805,7 +1827,7 @@ Select only structures that change the decision, state their direct relations an
 | alternatives | At least two serious syntheses and the named relations by which they differ. |
 | comparison | Simultaneous and first–then conditions, allocation, capacity, provider/access, authority, failure routes, evidence, moved burdens, and causal-use limits as applicable. |
 | decision | Selected/rejected synthesis, basis and rule, accepted losses, preserved constraints, and remaining rivals. |
-| continuation | Realization/test Work, stop or recovery, observations, and reconsideration condition. |
+| continuation, where it changes the use | Conditions for relying on or reconsidering the decision; selected implementation or trial Work with its observations, stop and recovery. |
 
 #### ME.6:4.3 - What Changes in Practice
 
@@ -1857,6 +1879,8 @@ Missing signed evidence at `D-8` withholds release and starts recovery R. Preser
 
 The architecture decision remains prospective. Implementation and the three trial releases are later Work. If signed evidence becomes available at `D-21`, sensitivity selects A prospectively; it does not rewrite a past B2 release.
 
+In that pre-entry variant, suppose the existing signed-first arrangement has adequate current capability, capacity and release evidence, and the same comparison reveals no useful gain from provisional-first preparation. The team can finish by retaining A on that basis. Planning an extra B2 trial would consume the safety attention needed for the current release without changing this decision. Changed evidence timing or capacity can reopen the comparison. The baseline case still has a thirteen-day mismatch and supports the three bounded B2 trials under their stated conditions.
+
 ### ME.6:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -1878,7 +1902,7 @@ The architecture decision remains prospective. Implementation and the three tria
 - [ ] Combined capacity, covering assignments, permission, authority, provider/access, evidence, failure routes, and moved burdens are visible where material.
 - [ ] Causal-use results are consumed only within their verdict boundary.
 - [ ] A possible-future decision asserts no obtaining ArchitectureRelation.
-- [ ] The result states realization/test Work, stop or recovery, and reconsideration condition.
+- [ ] The current decision can finish when supported. Any selected realization/test Work has a worthwhile obtainable contribution, feasible conditions, observations, stop and recovery; a later-use result carries the reconsideration condition material to reliance.
 
 ### ME.6:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1926,7 +1950,7 @@ Reopen when a representative use exposes another non-isomorphic structure that c
 ## ME.7 - Resolve a Proposed Method Whole into Obtaining Relations or a Candidate Account
 
 >
-> **Primary working result:** either a bounded composition result whose whole, participants, and load-bearing relations are independently supported, or a **prospective candidate Method account** with proposed relation sets, guards, variation, recovery, stops, and a realization/test WorkPlan. Writing the account creates neither the Method nor an obtaining architecture.
+> **Primary working result:** either a bounded composition result whose whole, participants, and load-bearing relations are independently supported, or a **prospective candidate Method account** with proposed relation sets, guards, variation, recovery, stops and unresolved conditions needed by its receiving use. Writing the account creates neither the Method nor an obtaining architecture.
 
 ### ME.7:0 - Use This When
 
@@ -1934,7 +1958,7 @@ Use this pattern when a proposal already names an intended Method whole—often 
 
 Begin with the proposal's intended result, participants, relation claims, guards, burdens, unresolved conditions, and selection reason. Recover the whole semantics needed for identification before choosing the result branch.
 
-The first useful result is deliberately two-branched. If the whole and participant Methods are identified and the required relations are shown to obtain, record the bounded composition result. Otherwise return the strongest prospective account or lower claim that the evidence supports, together with the Work that could realize and test it.
+The first useful result is deliberately two-branched. If the whole and participant Methods are identified and the required relations are shown to obtain, record the bounded composition result. Otherwise return the strongest prospective account or lower claim that the evidence supports. That account can finish a present design comparison while whole identity or relation truth remains unresolved. Select later realization or testing only when its obtainable contribution warrants the full burden and is feasible.
 
 Do not require prior performance of ME.6 when equivalent proposal content is already available. Do not treat a coherent description, selected architecture, WorkPlan, tool implementation, or successful first trial as Method construction or identification by itself.
 
@@ -1960,7 +1984,7 @@ A proposed whole can still be valuable. It can state an invariant, guards, varia
 
 One failure declares a whole whenever a document gives several steps a shared name. Another refuses to state anything useful until a mature Method has already been identified. A third treats participant co-use, Work order, or a successful tool integration as `methodPartOf` evidence.
 
-The first error overclaims, the second prevents learning, and the third confuses several relation structures. ME.7 needs a positive lower branch that supports realization while keeping uncertainty explicit.
+The first error overclaims, the second prevents learning, and the third confuses several relation structures. ME.7 needs a positive lower branch that supports present comparison or later realization while keeping uncertainty explicit.
 
 ### ME.7:3 - Forces
 
@@ -1983,9 +2007,9 @@ Recover the proposed whole's semantics, test whole and participant identity sepa
 3. **Preserve participant statuses.** Identify each Method under `A.3.1` where supported. Keep candidate accounts and other subjects at their existing statuses.
 4. **Name the relation sets.** State every load-bearing proposed or obtaining relation, including Method composition, Work order or overlap, result use, allocation, support/provider access, authority, and description correspondence as applicable. Do not infer one relation from another.
 5. **Test the positive branch.** Record an obtaining composition only when the whole and parts are identified as Methods and the required `B.1.5` relations are shown to obtain within the bounded claim.
-6. **Return the prospective branch when needed.** State the candidate whole, participant statuses, proposed relation sets, guards, adapters, alternatives, recovery, variation points, burdens, unresolved conditions, and realization/test WorkPlan.
+6. **Return the prospective branch when needed.** State the candidate whole, participant statuses, proposed relation sets, guards, adapters, alternatives, recovery, variation points, burdens and unresolved conditions needed for the receiving use. A traceable proposal can answer that use while its stronger whole claim remains unresolved.
 7. **Lower independently.** When whole semantics, identity, or one relation remains too weak even for a useful candidate, return the supported fragment, relation claim, WorkPlan question, or stop. Do not pad the account to look complete.
-8. **Define continuation.** Name the later Work, observations, acceptance and failure conditions, authority, and reconsideration rule that can change the result branch.
+8. **Choose a useful continuation when needed.** Use C.11.DUA to compare the result a realizable implementation or trial could add with its full burden, including access, allocation, authority and the available window. When that Work is selected, name its observations, acceptance and failure conditions, authority and reconsideration rule; prepare a WorkPlan where coordination needs one. Otherwise finish with the supported account or lower result and the limitation that matters to its recipient.
 
 #### ME.7:4.2 - Record the Result
 
@@ -1996,11 +2020,11 @@ Recover the proposed whole's semantics, test whole and participant identity sepa
 | relation sets | Each direct relation, truth status, evidence, guard, and receiving use. |
 | branch verdict | Obtaining composition result, prospective candidate account, or lower return with decisive reason. |
 | prospective content | Guards, adapters, alternatives, recovery, stops, burdens, and variation points when the lower branch applies. |
-| continuation | Realization/test WorkPlan, later Work and observations, authority, acceptance/failure, and reconsideration condition. |
+| continuation, when selected | Later Work and observations, authority, acceptance/failure and reconsideration condition; a realization/test WorkPlan where its coordination needs one. |
 
 #### ME.7:4.3 - What Changes in Practice
 
-Practitioners can write and test a coherent proposed Method without pretending that documentation created it. A positive composition claim becomes stronger because its identity and relation evidence are explicit; a prospective account remains useful because it carries guards, variation, recovery, and a testable continuation.
+Practitioners can write and test a coherent proposed Method without pretending that documentation created it. A positive composition claim becomes stronger because its identity and relation evidence are explicit; a prospective account remains useful for comparison through its guards, variation, recovery and stated limits. A selected implementation or trial adds the continuation needed to learn more.
 
 ### ME.7:5 - Archetypal Grounding — `C-EC-Release-v2`
 
@@ -2025,7 +2049,7 @@ The four participant Methods are identified, but the proposed whole is not. Thei
 - PLM, rig, and provider-access conditions; and
 - description correspondences from evidence version through integration bundle and verification result.
 
-ME.7 returns a prospective candidate account and WorkPlan, not an obtaining composition. The trial WorkPlan covers at most three B2 releases.
+For this selected trial, ME.7 returns a prospective candidate account with a WorkPlan covering at most three B2 releases. The whole and relation claims remain proposed.
 
 Before each entry, `SafetyReviewer-17` performs `W-SafetyEvidenceDecision-17` under `ASG-SafetyReview-17` and `AUTH-SafetyEvidence-17` to accept or reject the named evidence conditions; `ReleaseDecider-17` then performs `W-ReleaseDecision-17` under `ASG-ReleaseDecision-17` and `AUTH-ReleaseDecision-17` to decide branch entry and release, withhold, or next-slot disposition. Neither decision or authority relation substitutes for the other.
 
@@ -2038,6 +2062,12 @@ Missing signed evidence after early integration triggers recovery R. In R, prese
 When later non-AI recovery needs coordination, the project may create a new `A.15.2` WorkPlan; `A.15.2` itself does not require planning before every otherwise valid later Work. Planned or unplanned Work would still need its separate qualification/currentness, readiness, assignment, permission/authority, and `A.15.1` occurrence as applicable. These stops preserve all earlier Work and evidence history. A is only a pre-entry alternative.
 
 Acceptance observations include whether each trial respects confidentiality and authority, remains below the `D-8` capacity bound, preserves evidence/version correspondence, and reaches a truthful release or recovery result by `D0`. An attempted post-`D0` AI-supported continuation, or an assertion of later Work without a separately admitted `A.15.1` dated Work occurrence, is an explicit stop and failed trial observation. The withhold/next-slot result preserves earlier Work and may motivate planning; it creates neither a recovery WorkPlan nor later Work. Those observations may support, narrow, split, or reject the account. They do not by themselves identify the whole; `A.3.1` remains the identity owner.
+
+#### ME.7:5.1 - Finish a Design Comparison Before a Trial Is Available
+
+Suppose an earlier design use asks whether this release-coordination proposal preserves signed-before-closure, confidentiality and the A/B2/R distinctions well enough to compare with another proposal. The current sources support that account, but whole identity and composition relations remain unresolved, and the team has no rig access, allocated effort or trial window. Return the traceable prospective account with those identity and relation limits. The receiving designer can compare the proposals and finish that question on the available content.
+
+A later opportunity with useful obtainable observations can warrant implementation or a trial and its coordination plan. The already selected three-release case above retains its WorkPlan, observations and stops.
 
 ### ME.7:6 - Bias-Annotation
 
@@ -2058,7 +2088,7 @@ Acceptance observations include whether each trial respects confidentiality and 
 - [ ] The prospective branch preserves proposed truth and names guards, adapters, alternatives, recovery, stops, burdens, and unresolved conditions.
 - [ ] WorkPlan, performed Work, observations, MethodDescription, and Method identity remain distinct.
 - [ ] The result can lower below a candidate whole when load-bearing semantics or relations are missing.
-- [ ] Continuation names later Work, observations, authority, acceptance/failure, and reconsideration.
+- [ ] A supported account or lower result can complete its receiving use. Any selected continuation has a worthwhile feasible contribution and names the needed later Work, observations, authority, acceptance/failure and reconsideration.
 
 ### ME.7:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2068,7 +2098,7 @@ Acceptance observations include whether each trial respects confidentiality and 
 | “The architecture was selected, so its relations obtain.” | Keep the decision and proposed relations separate from realization evidence. |
 | “All participants passed ME.5, so they form a whole.” | Test whole identity and `B.1.5` composition independently. |
 | “A failed trial falls back into the earlier history.” | Preserve performed Work and define a separate recovery branch. |
-| “Wait for perfect proof before saying anything.” | Return a prospective account or lower relation claim with explicit tests and stops. |
+| “Wait for perfect proof before saying anything.” | Return the supported prospective account or lower claim with the limits needed for its use; select further testing when its obtainable contribution warrants it. |
 
 ### ME.7:9 - Consequences
 
@@ -3519,17 +3549,17 @@ Reopen the pattern when a stronger field method changes which situation dimensio
 ## ME.14 - Evaluate Practical Worth Against Current Alternatives
 
 >
-> **Primary working result:** `keep`, `revise`, `replace`, `branch`, or `stop` for one named Method decision. The result makes current alternatives, domain results, burdens, capability and System demands, side effects, opportunity costs, reversibility, evidence strength, and trade-offs explicit. It states what the selected action preserves or reopens and the qualification window. A bounded `XRI-14` evidence result may enter `SYSE.15` without transferring this decision or a broader claim.
+> **Primary working result:** `keep`, `revise`, `replace`, `branch`, or `stop` for one named Method decision, or a retained set with its limitation when the choice remains unresolved. The result makes current alternatives, domain results, burdens, capability and System demands, side effects, opportunity costs, reversibility, evidence strength, and trade-offs explicit. It states what the selected action preserves or reopens and the qualification window. A bounded `XRI-14` evidence result may enter `SYSE.15` without transferring this decision or a broader claim.
 
 ### ME.14:0 - Use This When
 
-Use this pattern when an admitted Method or status-preserved candidate has trial evidence and a practitioner must decide what to do relative to current alternatives. Begin with the decision and alternative set: keep the present Method, revise it, replace it, branch by situation, or stop the Method change or use.
+Use this pattern when a practitioner must decide what to do with an admitted Method or status-preserved candidate relative to current alternatives. Use the available basis at its supported strength: observations, credible estimates, domain judgement or a structural constraint can support a present choice. Begin with the decision and alternative set: keep the present Method, revise it, replace it, branch by situation, or stop the Method change or use.
 
-The first useful result is a practical-worth comparison row. It names the Method or candidate status, decision situation and receiver, one current alternative, evidence-bearing Work, domain results, burdens, capability and System demands, direct relations, side effects, opportunity cost, reversibility, evidence strength, unresolved trade-off, and the action the row can support. Include the status quo, stopping, or the next best use of scarce Work when it can change the decision.
+The first useful result is a practical-worth comparison row. It names the Method or candidate status, decision situation and receiver, one current alternative, the available evidence and its limits, domain results, burdens, capability and System demands, direct relations, side effects, opportunity cost, reversibility, evidence strength, unresolved trade-off, and the action the row can support. Include the status quo, stopping, or the next best use of scarce Work when it can change the decision.
 
 Here *practical worth* is Plain practice wording for the situated judgment that a Method-related course is worth keeping, changing, replacing, branching, or stopping relative to named alternatives. It is not a universal score, Method admission, fit result, causal attribution, or organization-wide adoption decision.
 
-Do not use this pattern when no current alternative or decision receiver is named, or when the only evidence is conformance, familiarity, one favourable occurrence, or Method popularity. ME.12 coherence and ME.13 fit can inform the comparison but cannot substitute for it.
+Use C.11.DUA §4.3 directly when the whole question is a requirement’s justification; ME.3 §4.4 applies it to a situated Method criterion. Return to ME.14 when a Method-related course also needs comparison. Do not use this pattern when no current alternative or decision receiver is named. Conformance, familiarity, one favourable occurrence or Method popularity alone does not establish comparative worth. ME.5 qualification, ME.12 coherence and ME.13 fit can inform the present comparison; each retains its own scope. A missing stronger empirical result can limit this decision without erasing an independently supported current choice.
 
 ### ME.14:0.1 - Working Distinctions
 
@@ -3577,13 +3607,13 @@ Compare feasible current alternatives in the named decision situation using sepa
 
 1. **Name the decision and receiver.** State who will use the result, which Method or candidate account is under decision, the receiving practice and domain result, qualification window, authority boundary, and the action that `keep`, `revise`, `replace`, `branch`, or `stop` would change. The evaluation result supplies no permission or authority by itself.
 2. **Construct the current alternative set.** Include feasible Methods or variants, a support or capability change when it can address the same problem, the status quo, and stopping or the next-slot use of scarce Work when material. Preserve admission and candidate status for every alternative.
-3. **State decision characteristics before comparing.** Name domain results, burdens, capability demands, Systems, Agent-performed Work, direct relations, side effects, adaptability, opportunity costs, reversibility, evidence strength, and any additional situation-specific characteristic. State non-compensable stops and who bears each consequence.
-4. **Assemble evidence by alternative.** Use ME.11 actual Work and qualified observations; ME.12 corrections or gaps; and ME.13 fit, failure, applicability, or transfer limits. Recover each evidence source, receiving use, situation, window, and missing basis. Do not turn absence of evidence for one alternative into evidence of inferiority.
-5. **Preserve the receiving result and Method contribution boundary.** Record the domain result separately from Method task completion, support use, report, or self-assessment. Distinguish direct observation, association, contribution, and causal claim. If contribution is unknown, compare the observed bundle and return the missing attribution basis.
+3. **State decision characteristics before comparing.** Name domain results, burdens, capability demands, Systems, Agent-performed Work, direct relations, side effects, adaptability, opportunity costs, reversibility, evidence strength, and any additional situation-specific characteristic. State non-compensable stops and who bears each consequence. When the merits of a protective requirement are disputed, use §4.5; otherwise compare under the applicable criteria.
+4. **Assemble the available basis by alternative.** Use current ME.5 qualification, credible domain estimates or judgement, and structural constraints alongside ME.11 actual Work, ME.12 corrections and ME.13 fit or transfer results where available and relevant. Distinguish observed results from estimates, recover the source and conditions of each relied-on claim, and retain the missing basis that limits the decision. Absence of evidence for one alternative is not evidence of its inferiority.
+5. **Preserve the receiving result and Method contribution boundary.** Record the domain result separately from Method task completion, support use, report, or self-assessment. Distinguish direct observation, association, contribution, and causal claim. If contribution is unknown, compare the observed or estimated bundle at its supported strength and carry the attribution limit where it matters to the recipient.
 6. **Compare capability, System, Work, and relation demands explicitly.** For every alternative, name holder-capability inputs, participating Systems, Agent-performed Work, direct relations, assignments, permissions, authority, access, provider and confidentiality boundaries, maintenance, recovery, and evidence Work that changes the decision. Do not let availability or assignment substitute for capability.
 7. **Keep trade-offs visible.** Show where one alternative improves a domain result but increases burden, side effect, exposure, or opportunity cost. Use current `A.19.CPM` for non-trivial multi-criteria comparison and `A.19.SelectorMechanism` when a set-valued selection is needed. Do not invent a total order or scalar winner.
-8. **Test branch and reversibility options.** Ask whether alternatives serve different situation families, whether a reversible trial can close the strongest evidence gap, and what information, retained material, capability, support, or rollback Work a branch requires. A branch must name its situation discriminator.
-9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the ME.2 repertoire choice, ME.3 requirement, ME.6 architecture decision, ME.7 construction result, or ME.15 repertoire entry to reconsider; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and the unresolved trade-off. If evidence cannot distinguish between the possible actions, return the retained set and next probe.
+8. **Compare branch and further-inquiry options where they matter.** Ask whether alternatives serve different situation families and what information, retained material, capability, support or rollback a branch needs. Name its situation discriminator. Select a further trial or inquiry through C.11.DUA only when its obtainable result could change the choice enough to warrant its full burden, including displaced Work and the available window. An adequate current choice can finish directly.
+9. **Return the strongest supported action.** `keep` retains the present course for the named window; `revise` names the ME.2 repertoire choice, ME.3 requirement, ME.6 architecture decision, ME.7 construction result, or ME.15 repertoire entry to reconsider; `replace` names the selected alternative and transition conditions; `branch` names the situation discriminator and retained alternatives; `stop` names the stopped use or change, what happens to current Work, and the unresolved trade-off. If the available basis cannot distinguish the possible actions, return the retained set and the limitation, together with any supported present course. Select a further probe only under step 8. A stronger choice can remain unresolved when no worthwhile inquiry is feasible.
 10. **Route each action according to its kind.** A `revise`, `replace`, or `branch` result reopens only the contradicted ME.2 repertoire choice, ME.3 requirement, ME.6 architecture decision, ME.7 construction result, or ME.15 repertoire entry. `keep` adds no repair return. `stop` preserves the unresolved trade-off and stopped use without inventing a correction owner. If the comparison exposes a possible ME.8 description, ME.9 Method representation profile-row, ME.10 support, or directly governed lower representation contradiction, return the bounded evidence to ME.12; ME.12 identifies and rechecks the maintained correction owner. A worth result does not rewrite that owner automatically.
 11. **Package a bounded cross-product evidence result only when needed.** `XRI-14` may supply `SYSE.15` with the situated Method-worth evidence positions and limits needed for an engineering Method-repertoire decision. It transfers neither the ME.14 action, authority, Method rank, causal claim, nor evidence beyond its source-use conditions.
 12. **State refresh conditions.** Reopen when alternatives, domain consequences, capability or support demands, direct relations, evidence reach, costs, reversibility, situation fit, or the receiving decision window changes.
@@ -3596,8 +3626,9 @@ Compare feasible current alternatives in the named decision situation using sepa
 | alternatives | Current feasible alternatives, status quo, stop or next-slot course, statuses, situation branches, and exclusions. |
 | characteristics | Domain results, burdens and bearers, capability demands, Systems, Agent-performed Work, direct relations, side effects, adaptability, opportunity costs, reversibility, evidence strength, and non-compensable stops. |
 | evidence matrix | Per alternative and characteristic: observation or estimate, source, situation and window, evidence reach, missing basis, and whether it is comparable. |
-| trade-offs | Non-dominated positions, conflicts, incomparability, branch discriminators, sensitivity to missing evidence, and reversible probes. |
-| decision | `keep`, `revise`, `replace`, `branch`, `stop`, or retained set plus next probe; reasons, unresolved risks, transition or rollback conditions. |
+| disputed requirement, when its merits are the question | Protective contribution, threshold or evidence-demand basis, burden and displaced risk; supported retention or change recommendation, current force and the feasible amendment route or limit. |
+| trade-offs | Non-dominated positions, conflicts, incomparability, branch discriminators, sensitivity to missing evidence, and any selected reversible probe. |
+| decision | `keep`, `revise`, `replace`, `branch`, `stop`, or retained set with its limitation and any supported present course; reasons, unresolved risks, transition or rollback conditions. A selected further inquiry carries its worthwhile obtainable contribution and needed conditions. |
 | action follow-up | For `revise`, `replace`, or `branch`: one contradicted ME.2, ME.3, ME.6, ME.7, or ME.15 result; for `keep`: no repair return; for `stop`: stopped use and unresolved trade-off; possible ME.8 description, ME.9 Method representation profile-row, ME.10 support, or lower representation contradiction as bounded evidence to ME.12; unaffected results preserved. |
 | cross-product result | When used, bounded `XRI-14` fields, receiving `SYSE.15` use, source-use conditions, non-transfer, and reopen condition. |
 
@@ -3609,7 +3640,7 @@ This also makes stopping constructive. A `stop` can protect scarce Work or avoid
 
 #### ME.14:4.4 - Minimal Constructed Worth Replay
 
-Continue the constructed temperature-sensor review case. The decision is how `Calibration-Team-A` should review reports through day D30. Alternative `ALT-M` uses admitted `M-Unit-Review-1`, description edition 4, the repaired representation, and the manual conversion table. Alternative `ALT-L` uses the current lightweight checklist that verifies tolerance but has no explicit unit-normalization step. `ALT-S` stops the proposed Method change and keeps the present release hold until another comparison is run.
+Continue the constructed temperature-sensor review case. The decision is how `Calibration-Team-A` should review reports through day D30. Alternative `ALT-M` uses admitted `M-Unit-Review-1`, description edition 4, the repaired representation, and the manual conversion table. Alternative `ALT-L` uses the current lightweight checklist that verifies tolerance but has no explicit unit-normalization step. `ALT-S` stops the proposed Method change and keeps the present release hold until a supported permissible continuation is available.
 
 The same qualified `Reviewer-17` performed two admitted `ALT-M` occurrences: seven minutes on the ordinary same-unit report and twelve minutes plus one table lookup on the mixed-unit report; both decisions were correct and the mixed-unit release was stopped. A separate constructed matched replay of `ALT-L`, admitted as `W-L-Rep-1` and `W-L-Disc-1` under the same holder, team, report pair, and window, took five and six minutes. It accepted the ordinary report but failed to expose the mixed-unit mismatch. The replay supplies no causal claim beyond these occurrences and no evidence about another holder or automated support route.
 
@@ -3621,9 +3652,25 @@ The same qualified `Reviewer-17` performed two admitted `ALT-M` occurrences: sev
 | reversibility | Checklist and representation can be reverted while evidence is retained. | Already current; reverting loses no transition Work but retains the exposed hazard. | Reopen after the missing comparison or support basis is supplied. |
 | evidence strength | Two constructed teaching occurrences, not field evidence. | Two constructed teaching occurrences, not field evidence. | Consequence follows from the stated stop; downstream cost is unmeasured. |
 
-Return `branch`: require `ALT-M` for reports whose sources can use different unit systems; retain `ALT-L` only for the bounded same-unit situation while a discriminating audit continues. The discriminator is recoverable source-unit variability, not reviewer preference. Also retain `ALT-S` as the stop when that variability cannot be recovered. Reopen the ME.2 repertoire or ME.15 applicability entry, not Method identity, and collect field evidence before extending the branch beyond D30.
+Return `branch`: require `ALT-M` for reports whose sources can use different unit systems; retain `ALT-L` for the bounded same-unit situation. The discriminator is recoverable source-unit variability, not reviewer preference. Retain `ALT-S` as the stop when that variability cannot be recovered. Reopen the affected ME.2 repertoire or ME.15 applicability entry while preserving Method identity. This result covers the stated conditions through D30. For a later reliance, use A.10.1 to identify which premises remain applicable and which qualification, condition or evidence gap actually needs renewal. A real expiry still limits use; new field investigation is selected for its useful obtainable answer, not merely because the date advanced.
 
-This result does not show that `ALT-M` is universally superior or caused every correct decision. It demonstrates why lower burden alone cannot compensate for a declared release stop.
+This result does not show that `ALT-M` is universally superior or caused every correct decision. It demonstrates why lower burden alone cannot compensate for the current release stop. The merits of that stop are a separate question when they are disputed; use §4.5 for that appraisal.
+
+#### ME.14:4.4.1 - An Adequate Choice Before the Review Window Closes
+
+Suppose the current report sources have an inspectable same-unit schema, the reviewer and support remain qualified for this use, and the existing comparison covers the present release question. Keep ALT-L for that bounded case and preserve the ALT-M branch whenever source-unit variability matters. Another forty-minute replay would displace review of a newly changed report before the deadline without changing this choice. The recommendation is complete on the available basis.
+
+#### ME.14:4.4.2 - An Unresolved Alternative with No Obtainable Probe
+
+A proposed automated conversion route might reduce later review effort, but its contribution remains unknown and no permitted test access is available before the current decision. The existing ALT-M route still supplies the required review under its stated conditions. Retain the automation proposal for a later comparison, stop the unsupported present change, and continue the qualified ALT-M course. That decision leaves the automation comparison unresolved. Further investigation can be chosen when its obtainable answer is worth the full burden; retaining the proposal creates no trial commitment.
+
+#### ME.14:4.5 - Appraise a Disputed Protective Requirement
+
+Use C.11.DUA §4.3 when the live comparison asks whether a protective criterion, threshold or evidence demand is justified. Identify the protected person, system or result and the particular unwanted outcome. Examine the governed quantity or activity, the measurement and causal basis needed for this question, the threshold’s value choice, and the additional protection under the present conditions. Compare that protection with the burden, delay and displaced protective Work, using the domain methods needed to judge them. Return supported retention, tightening, revision, replacement or removal only among meaningful alternatives.
+
+In the unit-review case, normalization exposes a consequential mismatch that the tolerance-only checklist missed. That supports preserving the protection where source units can vary. Whether every report needs the same extra operation still depends on the actual unit guarantees, what the operation adds and what its burden displaces. The label safety and the fact that a rule is currently binding settle neither that merits question nor the authority to amend it.
+
+Carry the useful reason in the current comparison or recommendation. Name the governing rule and the available amendment authority and window where they change the feasible action. A supported recommendation can finish while the requirement remains in force; the current Method choice must still meet it until an authorized amendment obtains. If no permissible course meets the receiving need in time, return that limitation. A later rule correction does not recover the lost opportunity.
 
 ### ME.14:5 - Archetypal Grounding - Field Evidence and Alternatives
 
@@ -3643,7 +3690,7 @@ The Halogen case can supply evidence about project demands, practitioner skill s
 
 For EC-417, compare A, B2, revised B2, and the stop or next-slot alternative only when the comparison addresses the same named decision and keeps burden, confidentiality, holder capabilities, project, user, provider, repository, PLM and CI Systems, Agent-performed Work, direct relations, recovery, side effects, reversibility, and evidence limits explicit. The three ME.10 support tasks establish their bounded task observations only; the three-release WorkPlan supplies no release-worth evidence.
 
-Keep `C-EC-Release-v2` as a candidate. Preserve the missing A.22 selection basis, untested AI-provider and feedback branches, and unsupported `CUR-EC417-CadenceEffect-1`. Until release Work and a current alternative have evidence, return `missing-performed-work` and `missing-alternative-evidence`; do not issue `keep` from support-task success.
+Keep `C-EC-Release-v2` as a candidate. Preserve the missing A.22 selection basis, untested AI-provider and feedback branches, and unsupported `CUR-EC417-CadenceEffect-1`. The available timing and capacity estimates can still support a present proposal decision: reject B’s excessive peak, retain the bounded B2 trial proposal under its entry conditions, or choose stop/next-slot when those conditions cannot be met. An actual release or trial entry still needs every applicable capability, assignment, permission and authority condition. If the question is demonstrated release worth, return the missing performed-release and alternative evidence. Three successful support tasks do not establish that stronger result.
 
 #### ME.14:5.2 - Bounded `XRI-14` for `SYSE.15`
 
@@ -3652,7 +3699,7 @@ Supply `XRI-14` only when `SYSE.15` has a compatible engineering Method-repertoi
 | `XRI-14` position | Required boundary |
 | --- | --- |
 | source decision | ME.14 subject and status, receiving practice, domain result, situation family, alternative set, qualification window, and exact action considered. |
-| evidence | Actual Work and sources, domain results, burdens, capability and System demands, Agent-performed Work, direct relations, side effects, opportunity costs, reversibility, evidence reach, and gaps per alternative. |
+| evidence | Observations and credible estimates distinguished per alternative, with their sources, domain consequences, burdens, capability and System demands, side effects, opportunity costs, reversibility, reach and gaps. Actual Work, performers and direct relations retain their independently supported basis wherever claimed. |
 | supported statement | The smallest situated worth statement that bears on the named `SYSE.15` repertoire-account decision. |
 | non-transfer | No transfer of the ME.14 `keep`/`revise`/`replace`/`branch`/`stop` action, implementation authority, universal Method rank, causal claim, or evidence outside the stated source-use conditions. |
 | reopen | Changed Method or candidate status, engineering situation, alternatives, evidence, capability or platform conditions, direct relations, or receiving repertoire use. |
@@ -3677,10 +3724,11 @@ Supply `XRI-14` only when `SYSE.15` has a compatible engineering Method-repertoi
 - [ ] The alternative set contains only current feasible courses and includes status quo, stop, or next-slot Work when material.
 - [ ] Admission and candidate status are preserved for every Method-related alternative.
 - [ ] Domain results, burdens, capability demands, Systems, Agent-performed Work, direct relations, side effects, opportunity costs, reversibility, and evidence strength remain separate positions.
-- [ ] Evidence from ME.11–ME.13 retains its situation, use, window, and missing basis.
+- [ ] Qualification, observations, estimates and structural or domain judgement retain their sources, applicable conditions and limits; stronger observed, fit, transfer and causal claims have the evidence they require.
 - [ ] Missing evidence is not converted into inferiority, and one favourable occurrence is not converted into causality.
 - [ ] Trade-offs, non-dominated alternatives, branch discriminators, and non-compensable stops remain visible.
-- [ ] The result is `keep`, `revise`, `replace`, `branch`, `stop`, or a retained set with a decision-changing probe.
+- [ ] When requirement merits are disputed, the recommendation compares actual protection and burden, retains the threshold or evidence basis needed for that judgement, and separates it from current force and feasible amendment.
+- [ ] The result is a supported `keep`, `revise`, `replace`, `branch`, `stop`, or retained set with its limit and any supported present course. A further probe is selected only for a useful obtainable answer worth its whole burden.
 - [ ] A `revise`, `replace`, or `branch` result names one contradicted ME.2, ME.3, ME.6, ME.7, or ME.15 result; `keep` adds no repair return; `stop` preserves the unresolved trade-off and stopped use.
 - [ ] A possible ME.8 description, ME.9 Method representation profile-row, ME.10 support, or directly governed lower representation contradiction returns as bounded evidence to ME.12 rather than bypassing its owner-specific check.
 - [ ] Any `XRI-14` transfer states its exact source-use conditions and non-transfer boundary.
@@ -3692,14 +3740,14 @@ Supply `XRI-14` only when `SYSE.15` has a compatible engineering Method-repertoi
 | “It passed verification, so keep it.” | Compare receiving results and current alternatives; coherence is only one input. |
 | “Users preferred it, so it is worth adopting.” | Preserve immediate self-report, alternative set, long-term gaps, and decision boundary. |
 | “The weighted score selected a winner.” | Expose characteristics, weights or order assumptions, incomparability, and non-compensable stops. |
-| “The candidate has no evidence, so the incumbent wins.” | Return the evidence asymmetry and choose a reversible probe or retained set. |
+| “The candidate has no evidence, so the incumbent wins.” | Preserve the evidence asymmetry and retained alternatives. Return the supported present action or limitation; select a reversible probe when its attainable contribution warrants it. |
 | “SYSE.15 must adopt the ME.14 winner.” | Transfer only bounded `XRI-14` evidence; the receiving repertoire decision remains with SYSE.15. |
 
 ### ME.14:9 - Consequences
 
 Practical-worth decisions become revisable accounts rather than Method rankings. Teams can act while retaining branch conditions, evidence gaps, and stop alternatives, and later evidence can reopen the exact comparison position that changed.
 
-The cost is resisting a convenient scalar answer. Some decisions retain several alternatives or require another probe, and the team must name burdens, capability and support demands, side effects, and opportunity costs that were previously hidden.
+The cost is resisting a convenient scalar answer. Some comparisons leave several alternatives open or justify another probe, and the team must name burdens, capability and support demands, side effects, and opportunity costs that were previously hidden.
 
 ### ME.14:10 - Rationale
 
@@ -3721,7 +3769,7 @@ Reopen the pattern when a field comparison adds a decision-changing consequence 
 
 ### ME.14:12 - Relations
 
-- ME.11 supplies actual Work, observations, results, burdens, adaptations, and evidence gaps. ME.12 supplies coherence corrections; ME.13 supplies fit, failure, applicability, and transfer limits. None supplies the practical-worth action.
+- ME.5 can supply a bounded qualification for the present choice. ME.11 supplies actual Work, observations, results, burdens, adaptations, and evidence gaps. ME.12 supplies coherence corrections; ME.13 supplies fit, failure, applicability, and transfer limits. None supplies the practical-worth action.
 - For `revise`, `replace`, or `branch`, ME.2 can receive a contradicted repertoire choice, ME.3 a contradicted requirement, ME.6 a contradicted architecture decision, ME.7 a contradicted construction result, and ME.15 a contradicted repertoire entry. `keep` adds no repair return; `stop` preserves the unresolved trade-off and stopped use.
 - A possible ME.8 description, ME.9 Method representation profile-row, ME.10 support, or directly governed lower representation contradiction returns as bounded evidence to ME.12, which identifies and rechecks the maintained correction owner.
 - `A.19.CPM` and `A.19.SelectorMechanism` govern non-trivial comparison and selected-set semantics. `A.2.2` governs capability inputs; `A.10` evidence use; `A.15.1` actual Work; direct governors remain authoritative for Systems, Agent-performed Work, relations, assignments, permissions, authority, access, and results.
@@ -3797,9 +3845,9 @@ Identify variants only through changed reusable Method semantics, preserve admis
 2. **Recover each subject and status.** Identify every `A.3.1`-admitted Method and every candidate account separately. A parent Method, candidate child, MethodDescription, representation, support configuration, and Work occurrence keep different identities and statuses.
 3. **Recover the semantic baseline.** From the parent or earlier candidate, record the reusable operations, dependencies, entry and stop rules, roles in the way of doing, required relations, and applicability claims that matter to the maintenance use. Do not use a file diff as the semantic baseline.
 4. **Classify the observed change.** Separate changed reusable Method semantics from description wording, representation, publication, tool, prompt, support, capability, organizational System or selected structure, assignment, permission, authority, and local Work deviations. For every non-semantic change, name the changed object, the separately governed maintained result, the exact claim or edition affected, and the next maintenance, reconsideration, or stop action. A complete ME.9 Method representation profile is the maintained result only when several unlike Method-related actions have one complete C.37-bearing row each and the profile records their shared Method source, correspondences, conflicting omissions, edition relations, keep-separate decisions, and multi-row return. One action remains with C.37 and its direct governor. Name a direct predicate and its participants only when the disposition relies on that obtaining relation; otherwise assert no path or relation occurrence.
-5. **Construct the proposed child account.** State preserved semantics, changed semantics, reason for change, intended situations, required capability and support conditions, prohibited overreads, and the evidence or trial needed. If no reusable semantic difference remains, maintain an edition, support, or Work result rather than a variant.
+5. **Construct the proposed child account.** State preserved semantics, changed semantics, reason for change, intended situations, required capability and support conditions, and the limits of the available evidence. A traceable candidate entry can complete the maintenance use. Select further evidence or a trial through C.11.DUA only when its obtainable result could change the receiving decision enough to warrant the full burden. If no reusable semantic difference remains, maintain an edition, support, or Work result rather than a variant.
 6. **Establish derivation without inheriting admission.** Record the source Method or candidate, change Work or source account, changed positions, chronology when relevant, and evidence supporting the derivation claim. Then admit the proposed child independently under `A.3.1` or keep it as a candidate.
-7. **Bind evidence to the right semantics and situation.** Attach ME.11 trial observations, ME.12 corrections, ME.13 fit or transfer results, and ME.14 worth decisions only to the Method or candidate semantics, situation, support, capability, alternative set, and window they actually concern. Parent evidence does not automatically cover the child.
+7. **Bind evidence to the right semantics and situation.** Attach available ME.11 trial observations, ME.12 corrections, ME.13 fit or transfer results, and ME.14 worth decisions only to the Method or candidate semantics, situation, support, capability, alternative set, and window they actually concern. Parent evidence does not automatically cover the child.
 8. **Maintain descriptions, Method representation profiles, and support relations separately.** Name current ME.8 MethodDescription editions, complete ME.9 profiles, ME.10 method-base and support results, publications, tools, prompts, and any exact access or use relation that serves the variant use. For every ME.9 profile retain the shared MethodDescription or candidate-account source, one complete C.37-bearing row per unlike action, cross-use correspondences, conflicting omissions, edition relations, keep-separate decisions, and multi-row return. A one-action representation stays with C.37 and its direct FPF governor. A changed result, edition, or relation does not by itself change variant identity.
 9. **State applicability and selection uses.** Record supported situations, defeated situations, missing evidence, capability and support conditions, current alternative set, and the receiving decision that may use the entry. Use A.19 selected-set semantics for a non-trivial repertoire choice; the entry itself selects nothing.
 10. **Maintain currentness and retirement.** State source, evidence, edition, situation, and qualification windows; superseding or defeating evidence; review trigger; and what retirement means for this use. Preserve historical and other-use access when the Method or candidate still matters elsewhere.
@@ -3815,7 +3863,7 @@ Identify variants only through changed reusable Method semantics, preserve admis
 | change classification | Changed reusable semantics; for each non-variant, the changed object, separately governed maintained result, exact affected claim or edition, and next maintenance, reconsideration, or stop action. |
 | derivation | Parent, proposed child, change basis, chronology when material, preserved semantics, changed semantics, and evidence reach. |
 | admission branch | Independent Method admission or status-preserved candidate account and missing admission basis. |
-| applicability and evidence | Situations, capability and support conditions, trials, coherence, fit or transfer, worth, alternatives, gaps, and qualification windows bound to the right semantics. |
+| applicability and evidence | Situations, capability and support conditions, the available evidence and decisions from step 7, alternatives, gaps and qualification windows, all bound to the right semantics and receiving use. |
 | edition and support links | Current descriptions; complete ME.9 Method representation profiles with shared source, one complete C.37-bearing row per unlike action, cross-use correspondences, conflicting omissions, edition relations, keep-separate decisions, and multi-row return; method-base editions, publications, tools, prompts, and support results for each maintained use. |
 | currentness and retirement | Current selection uses, source and evidence windows, defeating conditions, retirement meaning, retained history, and reopen trigger. |
 | return | Maintained admitted-variant repertoire and candidate lineages; non-variant dispositions in the same four-part shape; the smallest defeated repertoire claim when one exists; and limits on what the repertoire establishes. |
@@ -3832,7 +3880,7 @@ Continue the temperature-sensor review chain. `M-Unit-Review-1` is admitted with
 
 A team proposes an approximation rule for missing conversion metadata: infer a likely scale from sensor range, mark the inference, and continue only when the tolerance decision is unchanged under both plausible scales. This is not merely a new checklist. It changes the reusable operation and stop conditions, so create candidate account `C-M-Unit-Review-Approx-1` derived from `M-Unit-Review-1`. Preserve identification, explicit normalization when metadata exists, tolerance comparison, and unresolved-mismatch stop; add the bounded inference operation and a two-scale invariance stop.
 
-Do not admit the candidate from parent status. Link candidate-account content `CA-M-Unit-Review-Approx-Content-1`, proposed representation `C-REP-Approx-1` of that candidate account, and the same conversion-table support result only as candidate-serving material; none is a `U.MethodDescription` for the candidate whole. Return trial needs for missing-metadata reports, capability conditions for the reviewer, and comparison against stopping or metadata recovery. Until independent admission and evidence exist, the repertoire contains admitted `M-Unit-Review-1` plus candidate lineage `C-M-Unit-Review-Approx-1`; no Work is said to enact the candidate whole.
+Do not admit the candidate from parent status. Link candidate-account content `CA-M-Unit-Review-Approx-Content-1`, proposed representation `C-REP-Approx-1` of that candidate account, and the same conversion-table support result only as candidate-serving material; none is a `U.MethodDescription` for the candidate whole. Keep performance on missing-metadata reports unresolved. Retain that limit, the reviewer capability conditions and the comparison against stopping or metadata recovery where they matter to the entry’s use. For catalogue maintenance, the traceable approximation rule, two-scale stop, derivation and candidate status can finish the result. Choose a trial only when its useful attainable answer warrants the work and delay. Until independent admission and evidence exist, the repertoire contains admitted `M-Unit-Review-1` plus candidate lineage `C-M-Unit-Review-Approx-1`; no Work is said to enact the candidate whole.
 
 If the team only updates the diagram to show the already-required normalization step, first identify its exact action. For one action, maintain the complete C.37-bearing use row and the diagram under its direct governor; ME.9 is not invoked. When that row belongs to a complete ME.9 profile for several unlike actions, also maintain only the cross-use correspondences, conflicting omissions, edition relations, keep-separate decisions, and multi-row returns affected by the diagram change. Neither case creates a variant. If the team replaces the manual table with a verified tool while operations and stops remain unchanged, maintain the ME.10 support result and no variant.
 
@@ -3842,7 +3890,7 @@ The Halogen design-practice case reports conscious cyclic evolution and adaptati
 
 When reusable semantics can be recovered and a Method is independently admitted, maintain the variant with its derivation and applicability. When interviews, observations, or documents show only local departures or cannot distinguish changed Method semantics from changed support, capability, or organization, maintain a candidate lineage or return the missing semantic basis.
 
-The sustainable-design study reports activity- and mindset-level observations from separate workshops using The Natural Step, Whole System Mapping, or Biomimicry. Companies chose workshops, order varied, and participants could differ, so the publication supplies neither one current-alternative decision nor matched Work across the three Method families. Those immediate participant reports can motivate recombination candidates, but a preferred component set is not an admitted hybrid Method. Record the proposed preserved and changed semantics, parent contributions, situations, and trials needed; do not inherit worth or transfer from the source Methods.
+The sustainable-design study reports activity- and mindset-level observations from separate workshops using The Natural Step, Whole System Mapping, or Biomimicry. Companies chose workshops, order varied, and participants could differ, so the publication supplies neither one current-alternative decision nor matched Work across the three Method families. Those immediate participant reports can motivate recombination candidates, but a preferred component set is not an admitted hybrid Method. Record the proposed preserved and changed semantics, parent contributions, situations and evidence limits; do not inherit worth or transfer from the source Methods.
 
 #### ME.15:5.1 - APP-ME-01 Candidate Lineage
 
@@ -3874,6 +3922,7 @@ A changed release document, cadence, tool integration, AI prompt, or method-base
 - [ ] Current description and support editions are linked without defining variant identity.
 - [ ] Applicability, missing evidence, selection use, currentness, and retirement conditions are recoverable.
 - [ ] Recombination candidates inherit neither parent admission nor parent worth.
+- [ ] A useful candidate entry can complete its maintenance use with the relevant evidence limits. Any further trial is selected for its useful obtainable contribution and full burden.
 
 ### ME.15:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -3882,7 +3931,7 @@ A changed release document, cadence, tool integration, AI prompt, or method-base
 | “Version 2.1 is a new Method variant.” | Show the changed reusable Method semantics or maintain an edition only. |
 | “The team adapted it, so the variant is admitted.” | Preserve the Work evidence and candidate account until independent admission. |
 | “The AI prompt defines the new Method.” | Recover the way of doing and support relation; a prompt can serve but not identify the Method by itself. |
-| “The hybrid inherits evidence from all three parent Methods.” | Trial the proposed semantics and bind evidence to the hybrid's own situation and status. |
+| “The hybrid inherits evidence from all three parent Methods.” | Preserve candidate status and bind each relied-on result to the hybrid’s own semantics and situation. Select a trial when its useful attainable answer warrants its full burden. |
 | “Retired means obsolete everywhere.” | Name the selection use and defeating condition; preserve other supported uses and history. |
 
 ### ME.15:9 - Consequences
@@ -3922,7 +3971,7 @@ Reopen the pattern when practitioners cannot distinguish reusable semantic chang
 ## ME.16 - Introduce, Observe, and Revise a Method in Practice
 
 >
-> **Primary working result:** an introduction account that identifies each changed subject and keeps its kind explicit. It records the introduction strategy and its status, separately identified candidate accounts and descriptions, and any WorkPlan. It distinguishes admitted introduction Work from admitted later Work; both enact only independently admitted Methods. The account names assignment, permission, authority, access, use, enactment, and other direct-relation predicates, participants, and relied-on occurrences. It also contains decision-relevant observation positions, separate target and strategy adaptation records, an optional C.28-governed causal-use result, and one bounded `keep`, `revise`, `branch`, `replace`, or `stop` decision.
+> **Primary working result:** an introduction account that identifies each changed subject and keeps its kind explicit. It records the introduction strategy and its status, separately identified candidate accounts and descriptions, and any WorkPlan. It distinguishes admitted introduction Work from admitted later Work; both enact only independently admitted Methods. The account names assignment, permission, authority, access, use, enactment, and other direct-relation predicates, participants, and relied-on occurrences. It also contains decision-relevant observation positions, separate target and strategy adaptation records, an optional C.28-governed causal-use result, and one bounded `keep`, `revise`, `branch`, `replace`, or `stop` decision, or a retained set with its limitation.
 
 ### ME.16:0 - Use This When
 
@@ -3999,8 +4048,8 @@ Build a typed account of the target subjects, accounts and descriptions, the int
 8. **Perform and admit introduction Work.** Recover actual performers and A.13 bases, the independently admitted Method enacted by the introduction Work, action history, temporal extent, containing System, named changed subjects, used Systems, and relied-on relation occurrences. Record the result as an attempt intended to establish named conditions. A completed failed attempt remains Work even if access, usability, or later enactment did not result. A candidate introduction Method is not enacted; name only the admitted constituent Methods actually followed.
 9. **Observe later actual Work, failed entry, and non-use.** Admit later Work independently. Record which admitted Method was enacted, or preserve candidate status and name only separately admitted constituent Methods. Also record failed entry, rejection, non-use, workaround, adaptation, support demand, and burden when observed; absence of a record is not automatically non-use.
 10. **Compare every selected position.** For each target, introduction-strategy object, and decision-relevant observation, state supported change, no change, uncertainty, inapplicability, or missing evidence. State the particular maintained claim or edition and next action. If a continuing subject is claimed to have changed, use A.3.4; a before/after table or performed Work alone does not establish that transformation.
-11. **Apply the causal-use branch only when relied on.** Ask whether the ME.16 decision relies on a causal or contribution claim. If no, return observations or association and stop causal reliance. If yes, use current C.28 for the bounded causal-use question, supported use, unsupported stronger use, population and conditions, validity threat, and reopen trigger. Name a contribution relation or compound claim only with its predicate, participants, applicability, and obtaining basis. C.28 settles causal support; ME.16 still makes the bounded revision decision.
-12. **Decide and return observations.** Return `keep`, `revise`, `branch`, `replace`, `stop`, or a retained set with one decision-changing next probe. Send an observation to ME.8 only for an A.3.2-classified `U.MethodDescription` about an A.3.1-admitted Method. Before admission, return candidate-strategy content to its candidate account, another honestly named episteme, or a local stop. Send other observations to ME.15, ME.10, A.15.2, ME.13, ME.17, a named capability-development result, another admissible maintained result, or a receiving Agent only when the particular claim or edition and next action are stated; otherwise keep the observation as a local decision or stop.
+11. **Use C.28 for causal reliance.** Return observations or association at their supported strength, with the limit needed by the receiving decision. When that decision relies on a causal or contribution claim, use current C.28 for the bounded causal-use question, supported use, unsupported stronger use, population and conditions, validity threat and reopen trigger. Name a contribution relation or compound claim only with its predicate, participants, applicability, and obtaining basis. C.28 settles causal support; ME.16 still makes the bounded revision decision.
+12. **Decide and return observations.** Return `keep`, `revise`, `branch`, `replace`, `stop`, or a retained set with its limitation and any supported present course. Select a further observation or probe through C.11.DUA only when its obtainable result could change the decision enough to warrant its full burden and the needed window, access and authority are available. Send an observation to ME.8 only for an A.3.2-classified `U.MethodDescription` about an A.3.1-admitted Method. Before admission, return candidate-strategy content to its candidate account, another honestly named episteme, or a local stop. Send other observations to ME.15, ME.10, A.15.2, ME.13, ME.17, a named capability-development result, another admissible maintained result, or a receiving Agent only when the particular claim or edition and next action are stated; otherwise keep the observation as a local decision or stop.
 13. **State non-use and refresh.** The result establishes neither organization-wide adoption, cultural selection or retention, general effectiveness, causal superiority, nor authorization for another setting. Reopen when the setting, population, target, introduction-strategy or description status, separate WorkPlan, capability and support conditions, named authorization basis, alternative, outside result, evidence window, or maintained claim changes.
 
 #### ME.16:4.2 - Record the Result
@@ -4017,8 +4066,8 @@ Build a typed account of the target subjects, accounts and descriptions, the int
 | introduction and later Work | Separately admitted actual Work, performers, enacted admitted Methods, history, extent, containing Systems, changed subjects, relation occurrences, results, failed entry, non-use, and gaps. |
 | decision-relevant observations | Selected acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, sustainment, target-change, and outside-result positions, each with its own subject, claim, evidence, disposition, and next action. |
 | adaptation | Target or introduction-strategy classification; what changed and which target, strategy, description, or separate WorkPlan it changed; the recorded kind and status of each affected item; when; planned/reactive status; deciding Agent and named authorization predicate; affected level; reason and conditions; maintained result; and receiving action or stop. |
-| causal-use branch | `no`: observation or association with no causal reliance; or `yes`: C.28 question, supported use, unsupported stronger use, conditions, validity threat, residual uncertainty, and reopen trigger. |
-| return | `keep`, `revise`, `branch`, `replace`, `stop`, or retained set; particular maintained claim or edition affected; local decision, named receiver, or stop; decision-changing next observation; bounded non-use and reopen condition. |
+| causal reliance, when needed | C.28 question and result, supported use, unsupported stronger use, conditions, validity threat, residual uncertainty and reopen trigger. Observation or association limits stay in the substantive result where they matter to its use. |
+| return | `keep`, `revise`, `branch`, `replace`, `stop`, or retained set; particular maintained claim or edition affected; local decision, named receiver, or stop; any selected next observation; bounded non-use and reopen condition. |
 
 #### ME.16:4.3 - What Changes in Practice
 
@@ -4040,9 +4089,11 @@ Authorized `W-Intro-B-1` is admitted as Work performed by `MethodEngineer-B` ins
 
 Later `W-B-Review-1` is independently admitted as Work performed by `Reviewer-22`; it enacts `M-Unit-Review-1`, detects a seeded Celsius/Kelvin mismatch, stops the release recommendation, and records fourteen minutes and one lookup. The observation positions remain separate: the reviewer accepts the local use; appropriateness is supported only for the named report family; table access and completion show bounded feasibility; the recorded operations support enactment for this Work occurrence; fourteen minutes and one lookup are burden observations; reach is one holder and one Work occurrence; sustainment is unknown; and one corrected report is the outside result. No adaptation occurred in this replay.
 
-Return `keep` for the D30–D60 attempt because the intended local conditions and later Work are observed, not because the target or introduction Method is claimed to have caused the avoided release. `causalUse=no`: keep the mismatch detection and corrected report as observations with residual association and stop causal reliance. A later claim that either Method caused fewer release escapes must open C.28.
+Return `keep` for the D30–D60 attempt on the observed local conditions, later Work, mismatch detection and corrected report. The result supports that bounded continuation. A later claim that either Method caused fewer release escapes needs C.28 and the evidence for that stronger use.
 
 If table access failed, return the contradicted ME.10 support claim and next support action. If the introduction sequence or briefing failed, return the observation to the maintained claim in `M-Introduce-Unit-Review-1`, `MethodDescription-Intro-B-1`, or `WorkPlan-Intro-B-1` and keep the target result separate. If `CDI-R22-1` expired, name that result and stop pending its governing development decision; if later Work changed reusable target or introduction semantics, reopen ME.15 for the affected Method.
+
+If the failed lookup path has two proposed later repairs that the available evidence cannot distinguish, and no useful comparative observation is obtainable before the current decision, return both options with that limit and keep the failed support route stopped. Return the contradicted support claim and options to ME.10. This completes the current introduction result; further comparison is selected when its obtainable answer warrants the full burden.
 
 In a separate constructed no-development case, the same admitted review Method is introduced to `Reviewer-23` by repairing the conversion-table lookup path. The current `A.2.2` basis `CAP-R23-1` identifies that holder, calibration-report-review Work, the mixed-unit envelope, the required detection measure, representative evidence, and a qualification window covering the attempt. It supports adequate existing capability; no capability change is required or claimed. The engineer repairs and checks the lookup path under separately supported configuration permission, and the independently admitted later review Work uses it successfully. Return `keep` for this bounded support change and preserve `CAP-R23-1` as a reliance condition. No CDI result is missing merely because none was supplied, and no training is commissioned. If the capability basis later expires, return its currentness question to `A.2.2`; if the Work envelope instead changes so that development is needed, open that separately governed question. This case changes neither the reliance on `CDI-R22-1` nor its expiry stop in the preceding case.
 
@@ -4092,7 +4143,8 @@ The ME.10 support-use task observations may supply identified support baselines 
 - [ ] Later Work is independently admitted; candidate accounts are not enacted, and only independently admitted Methods may fill an enactment claim.
 - [ ] Decision-relevant acceptability/rejection, appropriateness/fit, feasibility, enactment/fidelity, burden/cost, reach, sustainment, target-change, and outside-result observations remain separate.
 - [ ] Every adaptation distinguishes target change from introduction-strategy change and records the affected target, strategy and status, identified description episteme, separate WorkPlan, support or local-use condition; time and planned/reactive status; deciding Agent and authorization; level, reason and conditions; maintained result; and receiving action or stop.
-- [ ] The causal-use question is explicit: `no` stops at observation or association; `yes` uses C.28 and preserves supported and unsupported uses, validity threat, and residual uncertainty.
+- [ ] A relied-on causal or contribution claim uses C.28 and preserves supported and unsupported uses, validity threat and residual uncertainty. An observational result carries only the qualification needed for its receiving use.
+- [ ] A supported current decision or retained set with its limit can finish. Any further observation or probe has a useful obtainable answer worth its full burden and feasible conditions.
 - [ ] ME.13 receives a bounded fit or transfer question, ME.17 a bounded population-level cultural question, and ME.15/ME.10/A.15.2 only an observation contradicting one particular maintained claim or edition. ME.8 receives such an observation only for an A.3.2-classified `U.MethodDescription` about an A.3.1-admitted Method; pre-admission content returns to its candidate account, another named episteme, or a local stop.
 - [ ] The result claims no adoption lifecycle, maturity ladder, phase gate, general effectiveness, causal superiority, or authority outside its boundary.
 
@@ -5071,11 +5123,12 @@ The first move is to name the receiving result and ask which result is needed no
 | Is the difficulty a Method, a candidate account, a family or local grouping, a relation, or a non-Method subject? | `ME.1` focus result | Stop with the non-Method return when capability, support, evidence access, or another subject owns the difficulty. |
 | Which identified Methods and candidate accounts are current enough to inspect? | `ME.2` repertoire with exact identity, edition, evidence-window, and input/result refs | Stop when the bounded repertoire answers the question; enter `ME.18` only for a named account-recovery gap that ordinary recovery cannot close. |
 | What must the selected subject contribute in this situation? | `ME.3` criteria with actual subjects, evidence, and stops | Stop with the criteria set when no comparison or qualification is needed. |
+| Does a disputed Method criterion provide enough protection to justify its burden? | `ME.3` recommendation to retain or change the criterion, with the useful reason and amendment limit | Finish when the recommendation answers the question; the current requirement governs feasible action until the authorized change. |
 | What unlike contributions are bundled under “release methodology”? | `ME.4` kind-preserving dossier | Stop after recovery when package navigation, not subject fitness or architecture, is the problem. |
 | Can one identified Method or candidate account serve the bounded Work? | `ME.5` individual qualification with status preserved | Stop with that individual result; continue only when interactions among subjects change the decision. |
 | What changed, and may the observed change support causal reliance? | `ME.19` differentiation account plus the separate `C.28` causal-use result | Stop when description is enough or the causal-use result is `unsupported`; do not promote chronology into evidence. |
-| Which arrangement of Work, allocation, evidence, support, permission, and authority satisfies the receiving constraints? | `ME.6` architecture decision over named structures | Stop with a relation-only or no-composite result when no whole question remains. |
-| Does the proposed whole already obtain? | `ME.7` whole-or-account result | Record obtaining relations only when identity and relation evidence support them; otherwise stop with a prospective candidate account and WorkPlan. |
+| Which arrangement of Work, allocation, evidence, support, permission, and authority satisfies the receiving constraints? | `ME.6` architecture decision over named structures | Finish with the supported decision, including incumbent retention or a relation-only result; enter ME.7 only for an unresolved whole question. |
+| Does the proposed whole already obtain? | `ME.7` whole-or-account result | Record obtaining relations only when identity and relation evidence support them; otherwise finish with the supported prospective account or lower claim. Select worthwhile feasible realization or testing; add a plan where coordination needs one. |
 
 EC-417 continues beyond the early returns because evidence timing, Method relations, allocation, support, authority, and recovery burden jointly change the release decision. All identifiers, dates, observations, capacities, and outcomes below are scenario assumptions for this worked decision.
 
@@ -5354,7 +5407,7 @@ The membership episodes, their IBA assertion or evidence epistemes, optional con
 | ME.10 | Keep the three performed-task passes, `missing-selection-basis`, memberships, edition/publication results and provider/feedback gaps separate. A missing premise blocks only the task or stronger claim that requires it. Optional AI use, feedback or A.22 selection is not a completion condition for the supported three-task PLM/CI arrangement. Actual membership, System-use, Work, permission and task-result claims still need their own obtaining basis. |
 | ME.10–ME.14 and ME.16 capability input | The current application supplies assignments and authority facts but no A.2.2 capability record for a person, AI System, team, or other holder. Any decision that needs holder, Work family, envelope, measures, qualification window, currentness, and evidence returns that missing input. Its absence alone does not establish a need for capability development. |
 | ME.11 | The three-release statement remains a WorkPlan. Add a release only after the corresponding dated release Work occurrence, its performers, enacted constituent Methods, Systems, capabilities, relied-on relations, conditions, domain result, burdens, deviations, and authority facts obtain. The Work does not enact the candidate whole. |
-| ME.12–ME.14 | ME.12 returns each correction to the maintained result it can affect. ME.13 stays on the candidate branch and cannot claim transfer before a performed held-out release situation. ME.14 compares A, B2, revised B2, and stop or next-slot while preserving burden, confidentiality, capabilities, Systems, Work, relations, recovery, side effects, reversibility, and evidence limits. `CUR-EC417-CadenceEffect-1` remains `unsupported`. |
+| ME.12–ME.14 | ME.12 returns each correction to the maintained result it can affect. ME.13 stays on the candidate branch and cannot claim transfer before a performed held-out release situation. ME.14 can finish a present comparison of A, B2, revised B2, and stop or next-slot from the available qualified observations and estimates, while preserving burden, confidentiality, capabilities, Systems, Work, relations, recovery, side effects, reversibility and evidence limits. A demonstrated release-worth claim still needs actual release and alternative evidence; any chosen trial retains its entry conditions. `CUR-EC417-CadenceEffect-1` remains `unsupported`. |
 | ME.15 | Maintain editions of `C-EC-Release-v2` as a candidate lineage until A.3.1 independently admits a Method with changed reusable semantics. Constituent Methods, descriptions, tools, and prompts remain separate. |
 | ME.16 | For each release that actually occurs, keep Method or candidate changes separate from description, PLM/CI/AI Systems, support Work, access, capability, assignment, permission, authority, release Work, and release-result changes. Retain decision-relevant adequate existing capability on its current A.2.2 basis without requiring development; return that missing basis when needed. Only a required capability-change claim consumes an independently obtained development result or returns its missing/stale result and next governing action. Omit capability detail that cannot change the decision. |
 | ME.17 | EC-417 supplies no C.20 Discipline recognition, bounded Method Engineering population, enacted Method Engineering variant or cultural-relation evidence. Keep those wider claims unsupported; no cultural inquiry is needed merely to complete the release or support result. If culture becomes the receiving question, use the bounded account and the MeCaMinD, SRA and Essence sources only for the relations they actually support. |

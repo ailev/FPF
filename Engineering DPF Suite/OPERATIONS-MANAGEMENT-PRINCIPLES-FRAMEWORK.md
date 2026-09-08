@@ -100,7 +100,7 @@ If none matches, use the Table of Contents and search the pattern questions. Whe
 
 For one live decision, open its direct pattern and reuse the inputs you already have. The [Preface](#preface) explains why the Methods have different results, when to combine them, and how their shared conditions can change the decision. Its [Architectural Rationale](#architectural-rationale) compares serious alternatives to this arrangement. Read the [conditions on a whole combination](#conditions-on-a-whole-combination) when several otherwise useful operating moves compete for the same service, resources or authority; a single-pattern use needs no preliminary tour of the framework.
 
-The worked [PumpWorks application](#app-ops-01-pumpworks-continuing-control-service-operation) shows a supported decision and the conditions that can reverse it. The hospital and software probes then change the subjects, acceptance evidence and professional inputs. Their numbers are constructed examples; use your operation's facts and conditions for an actual decision.
+The worked [PumpWorks application](#app-ops-01--pumpworks-continuing-control-service-operation) shows a supported decision and the conditions that can reverse it. The hospital and software probes then change the subjects, acceptance evidence and professional inputs. Their numbers are constructed examples; use your operation's facts and conditions for an actual decision.
 
 ### OPS-FOCUS — Find the operation, commitments, and truthful units before optimizing
 
@@ -228,7 +228,7 @@ The worked [PumpWorks application](#app-ops-01-pumpworks-continuing-control-serv
 - **Question:** Which reusable moves fit this Work family, result and horizon, at what burden and with what evidence?
 - **First useful result or honest blocker:** An OPS.17 repertoire with selected uses, conditional alternatives, evidence gaps and reasons to reconsider each consequential claim.
 - **Start with:** OPS.17. Compare actual operations with current practice and a simpler adequate response, using protected conditions before trade-offs.
-- **Stop or return:** Use ME.15 for a consequential Method-variant question and obtain a suitable trial result where operating effects remain unknown. A tool update may change support while leaving the method unchanged.
+- **Stop or return:** Use ME.15 for a consequential Method-variant question. A supported repertoire comparison or traceable candidate account can finish with its actual gaps; select a further trial question or evidence acquisition only for an attainable contribution worth its whole burden. A tool update may change support while leaving the method unchanged.
 
 ### OPS-QUALITY — Decide continuation, containment, acceptance or recovery from the right evidence
 
@@ -3374,7 +3374,7 @@ Use `OPS.15` when the observation population or event correspondence is not yet 
 
 Ask only the specialist questions that the receiving decision needs. Current `ME.11` supplies representative and discriminating trial evidence; `ME.12` examines coherence; `ME.13` examines situational fit or transfer; `ME.14` examines practical worth; `ME.15` maintains Method lineage and variant claims; and `ME.16` separates target, introduction strategy, actual Work, observations, and bounded revision. Reuse their current results instead of recreating them inside Operations.
 
-Use `A.10` for evidence reliance, `C.16` for measurement validity, `C.27` for the temporal window, and `C.28` only when the decision relies on a causal claim. State `causalUse=no` when temporal order, association, or direct occurrence evidence is sufficient. A favorable occurrence automatically establishes none of coherence, transfer, practical worth, sustained effectiveness, or causality.
+Use `A.10` for evidence reliance, `C.16` for measurement validity, `C.27` for the temporal window, and the `C.28` causal-use result when the decision relies on a causal claim. Return temporal order, association or direct occurrence evidence at its supported strength, keeping the limits needed by the decision in the existing operating return. A favorable occurrence automatically establishes none of coherence, transfer, practical worth, sustained effectiveness, or causality.
 
 Increase assurance effort only where it can change the decision. The extra identity and evidence distinctions are worthwhile when they prevent an unsupported start, branch, or stop. If a simpler observation settles the same bounded choice under the same protections, use it and leave stronger claims unresolved.
 
@@ -3424,7 +3424,7 @@ The two-package trial begins as a `WorkPlan`. It names two intended package-admi
 | continuing service | Incident coverage, manual fallback, and protected recovery remain available through the trial interval and hand-back. | The trial stayed within its supplied conditions; broader reliability remains untested. |
 | burden and description | The account retains the additional readiness and permission checks, support use, departures, and exact description edition separately. | The bounded burden is visible; sustained affordability and description adequacy outside this use remain open. |
 
-The observations support the readiness and permission branch for these two decisions. They do not establish transfer to another service, causal superiority over `v1`, general reliability, or practical worth across a broader horizon. `causalUse=no`: the decision relies on actual occurrence, service protection, and a discriminating hold rather than a claim that `v2` caused every result.
+The observations support the readiness and permission branch for these two decisions. They do not establish transfer to another service, causal superiority over `v1`, general reliability, or practical worth across a broader horizon. The operating decision can rely on the actual occurrences, available service protection and observed hold. If a later decision asks whether `v2` causes fewer unsupported starts than `v1`, these observations do not supply the needed `C.28` comparison and inference basis. Return that causal-support gap while preserving the independently supported branch decision.
 
 The selected return is `branch`. Retain admitted `PW-TestAdmission-v2` under `PW-TestAdmission-Description-e2` for the named control-service package family and the supplied support and service conditions. Keep admitted `v1` for an unaffected family whose current facts still fit. Before widening the `v2` branch, require a discriminating observation under provider unavailability. Record the authorized operating decision, Method-lineage update, and repertoire return separately from the trial Work. Reopen when permission, provider support, incident margin, package family, relied-on description, or the next discriminating observation changes.
 
@@ -3537,7 +3537,7 @@ Current `ME.11`-`ME.16` govern representative trial evidence, coherence, fit or 
 
 Start with that decision and one family of Work: the actual work people and other systems perform to produce the operating result. Recover what the present method does, where it fails and what result an alternative must improve. The first useful result is a small repertoire of operating methods with their applicable uses, evidence, costs and reasons to reconsider them. A repertoire is a maintained selection of ways of working, with enough guidance to choose among them.
 
-Operations management is the wider practice. This pattern governs the choice and maintenance of reusable operating methods within it. If an existing method already fits the situation and its conditions still hold, use it for the current decision. Replacing a display, repairing a tool or resolving one unusual case may need only that bounded action. Developing and testing a changed method becomes a separate piece of work when the proposed operating rules themselves need evidence.
+Operations management is the wider practice. This pattern governs the choice and maintenance of reusable operating methods within it. If an existing method already fits the situation and its conditions still hold, use it for the current decision. Replacing a display, repairing a tool or resolving one unusual case may need only that bounded action. A present comparison or traceable candidate account can be complete while a stronger operating-effect claim remains unsupported. Developing or testing that claim is separate work, selected only when its attainable contribution is worth the whole burden.
 
 A PumpWorks board contains twelve matters, yet only four test packages are ready for the rig. Buying more rig time, restricting work in progress and repairing readiness can all sound like remedies. Their value depends on why work waits. Comparing their operating moves makes that question answerable before the team commits to a school or tool.
 
@@ -3563,7 +3563,7 @@ A catalogue creates a different difficulty: it preserves names but leaves every 
 
 Name the Work family, the result served, the receiving decision and its horizon. Describe the current method through a recent representative case: what triggered action, what inputs and resources were used, what people did, what result was accepted and where work or information waited. Use existing evidence first.
 
-State the consequential discrepancy. “The board has twelve cards” is an observation. “Four ready packages cannot receive their required two-hour rig visits before Friday” names a service problem. If the mechanism is unresolved, specify the observation that would distinguish the serious explanations. OPS.9 helps with a disputed constraint; OPS.15 helps when the existing account cannot make the distinction.
+State the consequential discrepancy. “The board has twelve cards” is an observation. “Four ready packages cannot receive their required two-hour rig visits before Friday” names a service problem. If the mechanism is unresolved, state how that uncertainty affects the current choice. OPS.9 helps with a disputed constraint; OPS.15 helps when the existing account cannot make the distinction.
 
 Keep current practice and the least costly adequate response in the comparison. A corrected readiness check may be enough when a wholesale planning change offers no further decision-relevant benefit.
 
@@ -3603,7 +3603,7 @@ Several moves can serve one operation. Readiness-based admission can coexist wit
 
 Resolve a consequential conflict before using the combination. An urgent incident may override a WIP policy under an existing service authority. The exception needs the displaced work, remaining protected conditions and recovery action to be clear. A general “urgent” label cannot supply those facts.
 
-Return the selected use and the actual level of support: an applicable established method, a conditional alternative, a candidate needing a trial, or an unsuitable use with its reason. Keep the first action, required evidence, burden and reopen condition close to each consequential choice. An existing operating note or method description can hold this result; maintaining a second catalogue adds value only if someone uses it to choose work.
+Return the selected use and the actual level of support: an applicable established method, a conditional alternative, a traceable candidate account with an unresolved operating claim, or an unsuitable use with its reason. On the available basis, the repertoire can retain current practice, keep or revise a candidate account, or reject a proposed use. Preserve the gap needed by a later stronger use in that same return. Keep any selected first action, its conditions and evidence limits, burden and reason to reopen close to the consequential choice. An existing operating note or method description can hold this result; maintaining a second catalogue adds value only if someone uses it to choose work.
 
 #### OPS.17:4.5 - Refresh the affected method claim
 
@@ -3611,7 +3611,9 @@ Reconsider a method when a relied-on condition changes, its operating result det
 
 Use ME.15 when the reusable semantics change: inputs, operations, applicability or result may define a Method variant. Keep changes to the description, supporting tool and one local departure distinguishable. Preserve evidence only for the claims and conditions it still supports. A combination of previously admitted methods needs its own evidence where their interaction changes the claimed result.
 
-When the consequential unknown concerns actual operation, return a bounded trial question with the effect to observe, protected conditions, authority, stop and comparison basis. ME.11 can guide that local test. The repertoire choice itself establishes neither that the candidate was performed nor that it improved service.
+Finish the present comparison or lineage from the qualified evidence, estimates and judgement available for the receiving decision. Retain the adequate incumbent or bounded candidate account with its actual gap when no further inquiry can make a worthwhile attainable contribution. Use ME.7 for the status of a proposed whole and ME.14 for its practical worth. Maintaining an account or choosing a repertoire supplies no additional Method admission, compatibility, empirical fit or transfer evidence, or permission for operating use.
+
+When an unresolved operating effect could change the decision, compare the attainable contribution of a new trial question or evidence acquisition with its whole burden: design, performance, interpretation, delay and displaced operating Work. Select it only when that contribution is obtainable and worth the burden. For a selected trial, return the effect to observe, protected conditions, authority, stop and comparison basis. When the question concerns competing explanations, include the observation that could distinguish them. ME.11 can guide that trial. The repertoire choice itself establishes neither that the candidate was performed nor that it improved service.
 
 ### OPS.17:5 - Archetypal Grounding
 
@@ -3647,6 +3649,14 @@ Compare a controlled generation rate, extra qualified acceptance capacity, and a
 
 The repertoire refresh concerns the claim that more generation improves accepted throughput. ME.15 distinguishes a changed generation method from a support-only update. That distinction preserves what existing evidence still supports without assuming that either kind of update improves the whole service.
 
+#### OPS.17:5.4 - A current comparison and a later worthwhile trial
+
+For a later PumpWorks decision, admitted Method R continues to meet the package-admission requirements for the same permitted use. Proposed N combines its readiness check with a different sequencing rule. The sources and proposed interaction are traceable, but whether N preserves the permission-expiry hold while reducing repeat checks remains unsupported. No rig slot or trial permission is available before the decision window. The operating note retains R for current use and N as a candidate account with that precise gap. This completes the current comparison and lineage return.
+
+Later, twenty-four planned package admissions make the repeated checking burden consequential. N now has a credible estimated saving of ten to fifteen minutes per admission, but preservation of the permission-expiry hold is still uncertain. A comparison of R and N on representative ordinary and expired-permission inputs can change the choice. A rig slot, qualified people and the appropriate trial permission are available. Design, performance, interpretation and return together need three of five available hours and displace no required operating Work; the potential four to six hours saved across the planned admissions makes that inquiry worthwhile.
+
+The team selects the bounded comparison, with the permission-expiry hold as a required result and a stop if supplied support or permission ceases. R remains selected pending the result. The trial permission does not supply Method admission or authority for normal service use. Any later fit, transfer or causal claim still needs evidence adequate for that claim.
+
 ### OPS.17:6 - Bias-Annotation
 
 People who have invested in a school or tool can find its benefits easier to see than its operating costs. Include current practice and a simpler adequate response, and ask affected practitioners where the proposed gain creates additional work.
@@ -3661,7 +3671,7 @@ Available telemetry also favors measurable activity over accepted service. Inspe
 | Candidate content is actionable. | Inputs, operating moves, first result, needed capability/support and source limits are clear. |
 | The comparison preserves feasibility and preference. | Protected conditions are checked before trade-offs; consequential differences and unresolved preferences remain visible. |
 | Composition is usable. | Shared conditions, exceptions, displacement and stops are compatible for the selected use. |
-| The returned claim has appropriate support. | Applicable uses, candidates needing a trial and evidence gaps are distinguished. |
+| The returned claim has appropriate support. | Supported uses, current candidate accounts, actual evidence gaps and any selected worthwhile attainable trial are distinguished. |
 | Refresh can be directed. | A changed condition can be traced to the affected method claim and its receiving decision. |
 
 ### OPS.17:8 - Common Anti-Patterns and How to Avoid Them
@@ -3672,13 +3682,13 @@ Available telemetry also favors measurable activity over accepted service. Inspe
 | Protect the apparently busiest resource. | Establish which mechanism limits the named accepted result and horizon before choosing the protection. |
 | Add an expedite lane while claiming an unchanged WIP policy. | State the exception authority, displaced work and recovery, and requalify the combined policy. |
 | Keep evidence attached to a method name after its conditions change. | Reassess the affected applicability or effect claim and retain unaffected evidence. |
-| Call a promising combination proven because its components are familiar. | Examine their interaction and obtain the missing operating evidence. |
+| Call a promising combination proven because its components are familiar. | Examine the available interaction evidence and keep the unproved claim as a gap in the current candidate account. Obtain more operating evidence only when its attainable contribution is worth the whole burden for the receiving decision. |
 
 ### OPS.17:9 - Consequences
 
 Practitioners can reuse a bounded operating move without importing a whole school's objective or record system. The repertoire also makes changed conditions easier to address: the team can revise one admission rule or acceptance assumption while retaining useful neighboring methods.
 
-The comparison takes effort, and some effect claims remain uncertain until local use. Maintaining only decision-relevant alternatives and returning a precise trial question limits that cost. Broader comparative effectiveness remains an empirical question.
+The comparison takes effort, and some effect claims remain uncertain until local use. Maintaining only decision-relevant alternatives and finishing the supported comparison limits that cost. Further inquiry is selected for the contribution it can make at its full cost. Broader comparative effectiveness remains an empirical question.
 
 ### OPS.17:10 - Rationale
 
@@ -3705,7 +3715,7 @@ These sources contribute different strengths: formal rules, practitioner guidanc
 
 OPS.5, OPS.6, OPS.8 and OPS.9 supply the concrete admission, continuation, queue and constraint questions for which a repertoire entry can be selected. OPS.12–OPS.15 and OPS.18 supply human-condition, service, financial, account and control results needed by particular comparisons. Their use follows the live question.
 
-ME.15 guides maintenance of Method variants and the evidence they can reuse. ME.11 supplies a trial method when a proposed change needs local performance evidence; ME.13 and ME.14 address fit and worth where those judgments are required. The full operating-Method-change question of OPS.16 and cultural continuation question of OPS.20 remain distinct from maintaining this repertoire.
+ME.15 guides maintenance of Method variants and the evidence they can reuse. ME.11 supplies a trial method for a selected worthwhile and attainable local comparison; ME.13 and ME.14 address fit and worth where those judgments are required. The full operating-Method-change question of OPS.16 and cultural continuation question of OPS.20 remain distinct from maintaining this repertoire.
 
 FPF A.3.1/A.3.2 distinguish performed Work, a Method and its description when the comparison relies on those claims. C.16 and G.5 support meaningful comparison characteristics and selection among alternatives. A.11.OP limits additional collection or apparatus to what contributes to the decision, needed assurance or recovery.
 

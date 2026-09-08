@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 8 September 2026
+- **Version:** 9 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -28,14 +28,14 @@ You can read this way yourself, use a pattern in a working meeting, or ask an AI
 
 ## Choose a DPF
 
-The public folder contains ten complete publications. Start with the working question nearest to yours. Each publication provides its full searchable pattern index.
+The public folder contains ten published DPFs with 190 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
-### Complete first editions
+### Published DPFs
 
-| What you are trying to do | Open | A result it can help you obtain |
+| What you are trying to do | Published DPF | A result it can help you obtain |
 | --- | --- | --- |
 | Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 41 patterns | A system boundary, architecture decision, comparison of ways to obtain a result, integration plan, or justified release decision. It also covers general Platform Engineering and a substantial software delivery and reliability profile. |
-| Choose, explain, test or improve a way of working. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 24 patterns | An explicit method, a useful description of it, a support arrangement, or evidence about fit, transfer and practical value. |
+| Choose, explain, test or improve a way of working, or develop a pattern language from source knowledge. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 24 patterns | An explicit method, a useful description or support arrangement, evidence about fit, transfer and practical value, or a source-based contribution to a method description in pattern-language form. |
 | Change how an organization contributes, assigns work and enables people and other performers to act. | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A compared organizational arrangement, clarified assignments and authority, a supported change, or a decision about its consequences. |
 | Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
@@ -47,7 +47,7 @@ The public folder contains ten complete publications. Start with the working que
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
-When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. The [instructional-material questions](ENGINEERING-DPF-SUITE-REFERENCE.md#evaluate-instructional-material-for-its-intended-use) lead to evaluation-specification construction and material evaluation; the [research preparation and trace questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-research-executable-and-inspect-its-course) lead to the RMP publication's operationalization and research-trace methods. Publication availability is the claim made by the tables above; co-listing alone does not establish dependency, compatibility, or product-series membership. It also gives direct entries for [settling an HCD Method's supported use](ENGINEERING-DPF-SUITE-REFERENCE.md#develop-a-practice-or-a-persons-capability) and [analyzing a research claim or choosing a relevant credibility examination](ENGINEERING-DPF-SUITE-REFERENCE.md#analyze-a-claim-or-examine-its-credibility). For retaining or changing a research Method and returning its consequences, use [the research-Method entry](ENGINEERING-DPF-SUITE-REFERENCE.md#retain-or-improve-a-research-method).
+When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. The [instructional-material questions](ENGINEERING-DPF-SUITE-REFERENCE.md#evaluate-instructional-material-for-its-intended-use) lead to evaluation-specification construction and material evaluation; the [research preparation and trace questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-research-executable-and-inspect-its-course) lead to the RMP publication's operationalization and research-trace methods. When combining methods, match the result one supplies to what another needs and check their conditions of use. It also gives direct entries for [settling an HCD Method's supported use](ENGINEERING-DPF-SUITE-REFERENCE.md#develop-a-practice-or-a-persons-capability) and [analyzing a research claim or choosing a relevant credibility examination](ENGINEERING-DPF-SUITE-REFERENCE.md#analyze-a-claim-or-examine-its-credibility). For retaining or changing a research Method and returning its consequences, use [the research-Method entry](ENGINEERING-DPF-SUITE-REFERENCE.md#retain-or-improve-a-research-method).
 
 ## Looking for development recommendations?
 
@@ -80,19 +80,9 @@ Inspect the answer against the pattern and your project evidence. You and the ot
 
 The README introduces the Suite. The Reference helps you find and combine methods. Full pattern bodies remain the place to inspect what a method asks you to do.
 
-## Development previews
+## Publication scope
 
-This stable heading is retained for readers following links from earlier complete carriers. Operations Management, Human Capability Development, Research Method Practice and Semantic Integration Engineering now have complete first editions. Their full pattern indexes are available through the publications above.
-
-### Publication scope
-
-The ten complete publications expose 190 current PatternIDs. Their pattern bodies supply the methods, examples, checks, source discussions and stop conditions. The repository editions supply these bodies; an exported copy supplies the edition actually present there.
-
-The [Semantic Integration Engineering first edition](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) supplies twelve patterns for a receiving use across separately governed sources. Its model Method supports adequate reuse as well as construction or extension; its change Method repairs compatible references and revalidates affected uses; its commons Method supports a sufficient local agreement or shared modules with distinct authorities. Use the [semantic-integration questions](ENGINEERING-DPF-SUITE-REFERENCE.md#connect-separately-governed-meanings-and-representations) to find the result you need. A bounded exclusion, failure or unresolved use can finish directly; positive realization and validation retain the conditions of the claimed result.
-
-The [Research Method Practice first edition](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) supplies nine patterns for question, design, operationalization, trace, analysis, credibility, corpus synthesis, exact knowledge revision/return and Method improvement. It helps qualify a question, finish with a sufficient source answer, return an exact owner need, choose a useful obtainable design or a qualified stop, preserve the question through operationalization, and retain a trace with explicit examination, reconstruction, loss and access limits. Supplied material can enter claim analysis directly; a bounded claim can enter the choice of a relevant credibility test or a qualified answer without a new test. A compatible corpus can enter RMP.7 for a warranted synthesis, existing answer or useful refusal. RMP.8 revises the identified claim or model contribution and returns its evidence with the limits that matter to actual reliance. Earlier direct answers can still finish without these additional Methods. [RMP.9](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-9) locates the actual Method difficulty, supports adequate retention or a bounded correction, and selects further comparison only when its possible result matters and the whole burden is warranted. Unsupported use stays limited, and only the affected research consequence returns to its consumer.
-
-Until a needed pattern is available, obtain the missing result from the practice that owns it. A title, accepted plan, neighbouring pattern, or AI-generated answer does not fill the gap. Publication updates are announced through the [FPF repository](https://github.com/ailev/FPF).
+The [FPF repository's Suite table](https://github.com/ailev/FPF#engineering-dpf-suite) also lists the DPFs selected for future publication. When an available pattern does not cover a result your project needs, obtain that result from the relevant practice. The date at the start of each DPF identifies the publication you are using.
 
 ## Sources, revisions and citation
 
@@ -104,7 +94,7 @@ To cite the collection:
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite.
-8 September 2026.
+9 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 

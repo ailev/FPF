@@ -38,7 +38,7 @@ Search the questions and keywords for the result you need. PSD numbers are stabl
 | 1 | [PSD.1 - Bound the Decision-Support Engagement and Authority Boundary](#psd-1) | Candidate | *Keywords & queries:* engagement, authority, recipient. What advice is needed, for whom, and who makes the later choice? | FPF A.15.9, A.10, C.11; PSD.2–PSD.4 when participation, formulations or scope remain live. |
 | 2 | [PSD.2 - Recover Participants, Concerns, and Affected Systems](#psd-2) | Candidate | *Keywords & queries:* participants, concerns, affected Systems. Whose consequential concern or absence could change the inquiry? | Uses the bounded PSD.1 question; FPF A.1.CSD for consequence-bearer discovery. |
 | 3 | [PSD.3 - Generate Plural Problem Formulations](#psd-3) | Candidate | *Keywords & queries:* plural formulations, framing, disagreement. Which different accounts imply different inquiries or interventions? | PSD.1 and PSD.2 when their results are needed; FPF C.17 and C.18 only for their direct objects. |
-| 4 | [PSD.4 - Set and Reopen the Problem Boundary](#psd-4) | Candidate | *Keywords & queries:* boundary, exclusions, scope, revision. What is the smallest usable cut, and what would reopen it? | Qualified PSD.1–PSD.3 inputs; FPF A.2.6 for exact scope membership when required. |
+| 4 | [PSD.4 - Set and Reopen the Problem Boundary](#psd-4) | Candidate | *Keywords & queries:* boundary, exclusions, scope, revision. What is the smallest usable cut, and what would reopen it? | An adequate formulation and bounded engagement; PSD.1–PSD.3 for their live questions; FPF A.2.6 for exact scope membership when required. |
 
 **Part II — Models, Methods and Facilitated Inquiry**
 
@@ -189,7 +189,7 @@ The common practical tension is between obtaining a timely usable answer and pre
 
 Useful inquiry does not require certainty about everything. It requires knowing what the present answer covers, what it leaves open and what could change it. A partial comparison, a retained pair of alternatives, a narrowly qualified recommendation or an exact request can complete the current question.
 
-Keep protected conditions outside a compensating score when their governing source requires that protection. Show a plausible reversal instead of hiding an arbitrary weight or invented probability. A missing premise should block only the claims that need it; independent content can remain useful.
+Keep protected conditions outside a compensating score when their governing source requires that protection. A live question about the requirement's justification returns through [PSD.9 §4.4](#psd-9) and C.11.DUA: compare its protective contribution and full burden, and keep the supported recommendation distinct from current force and feasible amendment. Show a plausible reversal instead of hiding an arbitrary weight or invented probability. A missing premise should block only the claims that need it; independent content can remain useful.
 
 A recommendation belongs to the advising activity. The recipient's choice, authorization, plan, performed work and observed effect need their own basis. This separation protects the recipient's agency and makes a later change intelligible: the new evidence may narrow advice without rewriting what was previously chosen or done.
 
@@ -883,7 +883,7 @@ Problem formulation is a field-specific generative move: it connects contested d
 > **Type:** DPF pattern body
 > **Status:** Candidate
 >
-> **Primary working result:** a **usable problem scope and reopen basis** for one bounded receiving inquiry: the formulations, participants, affected Systems, concerns, relations, conditions, horizons, and intervention families included now; material exclusions and unknowns; why the cut is usable; and observable conditions for widening, narrowing, or otherwise revising it.
+> **Primary working result:** a **usable problem scope and reopen basis** for one bounded receiving inquiry: the formulations, participants, affected Systems, concerns, relations, conditions, horizons, and intervention families included now; material exclusions and unknowns; the basis the recipient needs to judge the cut; and observable conditions for widening, narrowing, or otherwise revising it.
 
 ### PSD.4:0 - Use This When
 
@@ -929,11 +929,11 @@ Once models and data collection begin, their available variables make the bounda
 
 ### PSD.4:4 - Solution
 
-Set the problem boundary relative to one receiving use and one or more current formulations. Name what is included, what is excluded or unknown, why the cut is usable now, and which observable changes can reopen it. Use `A.2.6` only when a receiving claim depends on exact `U.ContextSlice` membership in a declared `U.Scope`.
+Set the problem boundary relative to one receiving use and one or more current formulations. Name what is included, material exclusions or unknowns, and the observable changes that can reopen the cut. Keep the reason for its adequacy where the recipient needs it to judge or use the scope. Use `A.2.6` only when a receiving claim depends on exact `U.ContextSlice` membership in a declared `U.Scope`.
 
 #### PSD.4:4.1 - Fix the receiving use and current formulations
 
-Recover the subject, recipient, receiving decision or Work, horizon, and choice owner from the current `PSD.1` engagement question or a qualified direct source for the same inquiry. Name the `PSD.3` formulations whose consequences the boundary must preserve. If no plural set is needed, state the one current formulation and why a rival is not material.
+Recover the subject, recipient, receiving decision or Work, horizon, and choice owner from the current `PSD.1` engagement question or a qualified direct source for the same inquiry. Name the `PSD.3` formulations whose consequences the boundary must preserve. Use one adequate current formulation directly when plural formulations are unnecessary. Keep a materially contested exclusion or boundary reason in the scope where it can change the receiving use.
 
 Use a current `PSD.2` account where participants, affected Systems, concerns, duties, interests, dissent, representation limits, or possible consequence paths can challenge the cut. Inclusion in that account does not require inclusion in every current model or analysis; exclusion from the boundary does require an honest reason when material. When an input needed for the cut is unavailable, stale, or incompatible, obtain a qualified direct result or return the exact missing premise. A formulation alone does not establish current representation or choice authority.
 
@@ -983,13 +983,15 @@ Do not force every ordinary concern or participant into `U.Scope`. PSD.4 governs
 
 #### PSD.4:4.6 - Return the usable scope and reopen basis
 
-| Result position | Required content |
+Return the scope in the smallest form that answers the current question. Keep the following content where it changes the recipient's understanding or reliance; a local clarification can finish in the scope itself.
+
+| Result position | Content needed by the recipient |
 | --- | --- |
 | receiving use | Subject, recipient, decision or Work, horizon, and retained choice owner. |
 | formulation basis | Current formulations and the material differences the boundary preserves. |
 | included scope | Bearers, concerns, relations, conditions, horizons, evidence, and intervention families included now. |
 | exclusions and unknowns | Material omissions or uncertainties, reasons, consequences of error, and direct assurance still needed. |
-| adequacy reason | Why this is the smallest scope usable for the named next result. |
+| adequacy reason, where needed | Why this is the smallest usable scope, when the recipient needs that basis to judge the cut or avoid mistaking an exclusion for a settled fact. |
 | dependent uses | Models, facilitation, alternatives, value treatment, comparison, recommendation, or inquiry results that consume the scope. |
 | reopen basis | Observable triggers and the dimension to widen, narrow, replace, or re-formulate. |
 
@@ -1023,6 +1025,12 @@ An incident-response inquiry initially covers all product lines. Evidence shows 
 
 A laboratory test claim already has a declared `U.ClaimScope` with population, configuration, and interval selectors. The live issue is whether one proposed test's `U.ContextSlice` belongs to that scope. Use `A.2.6` directly. PSD.4 adds no problem-structuring judgement.
 
+#### PSD.4:5.4 - One adequate formulation and a consequential exclusion
+
+An analyst and a maintenance lead already share the formulation “why are the authorized pump checks late?” Their immediate clarification is whether to examine this week's check queue or expand into redesigning the whole maintenance organization. The available queue and assignment facts support the first cut. The analyst returns: “Examine this week's authorized checks, their staffing and access dependencies, and the late returns.” This scope answers the local question; it needs no new rival-formulation inquiry or separate explanation of why PSD.3 was not used.
+
+A later board asks whether the same result establishes readiness for the flood season. Now the exclusion of uncompleted seasonal checks can change its decision. The returned scope must retain that those checks were outside the weekly lateness inquiry and that their readiness remains unestablished. The board needs the seasonal check result before relying on a readiness claim. This added limitation serves the new receiving use; it does not undo the supported weekly scope or authorize operation.
+
 ### PSD.4:6 - Bias-Annotation
 
 **Scope:** provisional problem boundaries for a named decision-support use. **Lenses:** **Gov** keeps inclusion, jurisdiction, and choice authority separate; **Arch** exposes dependencies on the cut; **Onto/Epist** distinguishes situation, formulation, ordinary boundary, declared `U.Scope`, and evidence; **Prag** seeks the smallest usable scope; **Did** makes exclusions and reopen cues readable without a specialist notation.
@@ -1043,7 +1051,7 @@ A laboratory test claim already has a declared `U.ClaimScope` with population, c
 - [ ] Included bearers, concerns, relations, conditions, evidence, horizons, and intervention families are stated only at the needed grain.
 - [ ] Material exclusions and unknowns retain reasons, consequences of error, and reopen observations.
 - [ ] The bearer, formulation, action, evidence, authority, and reversal challenges were applied proportionately.
-- [ ] The result explains why the cut is the smallest usable scope for a named next result.
+- [ ] The result carries the reason for the cut where the receiving use needs it, including any materially contested exclusion.
 - [ ] Ordinary problem-boundary judgement is not confused with exact `U.ContextSlice` membership in `U.Scope`.
 - [ ] Missing premises produce a gap, narrowed claim, request, blocker, or abstention.
 - [ ] Reopening changes the smallest affected dimension and identifies dependent results.
@@ -1072,7 +1080,7 @@ Problem boundaries are practical framing commitments. A discovered perimeter or 
 
 | Practice question | Best-known line | Serious alternative or default | Defect overcome and pattern mutation | Source roles and limits | Reopen condition |
 | --- | --- | --- | --- | --- | --- |
-| How should a problem boundary remain useful and revisable? | Treat framing as a contextual selection of what matters, compare materially different cuts, state exclusions, and revise the boundary when new evidence changes the receiving use. | A fixed sponsor scope is the serious default; an unbounded whole-situation map is the opposite default. | The first suppresses consequential exclusions and the second cannot stop. **Adapt:** `PSD.4:4.1`–`4.4` and `4.6` require decision-bearing dimensions, material exclusions, explicit challenges, and a smallest-usable-scope reason. | Kelly and Gero's [2022 framing review](https://doi.org/10.1017/dsj.2022.25), Litster, Cardoso, and Hurst's [2024 mapping study](https://doi.org/10.1017/S089006042400012X), and Nickel, Hurst, and Duimering's [2024 contextual trade-off study](https://doi.org/10.1017/dsj.2024.34) support explicit framing, externalized change, and contextual trade-offs. They establish neither one framing ontology, universal Method, shared frame, fixed boundary, prevalence, causality, nor superiority. | Reopen if later field evidence changes the best-known boundary practice or if new contextual evidence changes an included or excluded dimension. |
+| How should a problem boundary remain useful and revisable? | Treat framing as a contextual selection of what matters, compare materially different cuts, state exclusions, and revise the boundary when new evidence changes the receiving use. | A fixed sponsor scope is the serious default; an unbounded whole-situation map is the opposite default. | The first suppresses consequential exclusions and the second cannot stop. **Adapt:** `PSD.4:4.1`–`4.4` and `4.6` require decision-bearing dimensions, material exclusions, proportionate challenges, and the scope reason needed by the receiving use. | Kelly and Gero's [2022 framing review](https://doi.org/10.1017/dsj.2022.25), Litster, Cardoso, and Hurst's [2024 mapping study](https://doi.org/10.1017/S089006042400012X), and Nickel, Hurst, and Duimering's [2024 contextual trade-off study](https://doi.org/10.1017/dsj.2024.34) support explicit framing, externalized change, and contextual trade-offs. They establish neither one framing ontology, universal Method, shared frame, fixed boundary, prevalence, causality, nor superiority. | Reopen if later field evidence changes the best-known boundary practice or if new contextual evidence changes an included or excluded dimension. |
 | When does a receiving use need exact contextual scope membership? | Keep ordinary inquiry cuts in plain language; use current `A.2.6` only when the receiving use must decide whether one exact `U.ContextSlice` belongs to one declared `U.Scope`. | Treating every diagram box or topic perimeter as a declared exact scope is the serious default. | It substitutes apparent precision for boundary judgement and can hide unavailable evaluation. **Adopt:** `PSD.4:4.5` distinguishes true, false, and unknown evaluation results and routes extension changes to the direct pattern. | Current `A.2.6` supplies exact contextual membership, extension change, and refit discipline. Its applicability axis is independent of `C.2.3` formality. It does not judge which participants, concerns, formulations, intervention families, or exclusions make a PSM boundary usable. Direct engineering, legal, safety, ethical, and governance practices retain their own boundaries and thresholds. | Reopen if the direct scope pattern gains the complete problem-boundary judgement at equal or lower effort, or if a relied-upon scope or membership result changes. |
 
 ### PSD.4:12 - Relations
@@ -1855,7 +1863,7 @@ Begin with one concern: important to whom, about which subject and situation, an
 
 The governed object is the value account for that comparison. An objective expresses what is wanted; a measure describes a characteristic; a preference orders consequences; a protected condition limits permissible trade-offs. They can be related without becoming the same thing. Neither an expressed preference nor a numerical weight supplies authority to waive a duty or another person's rights.
 
-**Do not use this pattern** when a current, qualified value account already answers the exact comparison question. Use the direct measurement practice for a missing measurement alone, the appropriate authority or domain practice for a binding condition, and the authorized choice owner for the later decision. This pattern does not determine universally correct values.
+**Do not use this pattern** when a current, qualified value account already answers the exact comparison question. Use the direct measurement practice for a missing measurement alone, the appropriate authority or domain practice for a condition's current force, and `C.11.DUA` for a disputed requirement's justification. Use the authorized choice owner for the later decision. This pattern does not determine universally correct values.
 
 ### PSD.9:2 - Problem
 
@@ -1909,6 +1917,10 @@ Identify which conditions are binding, which are aspirations, and which are unce
 
 Do not compensate for a failed protected condition by adding benefits elsewhere. If its meaning, applicability, or authority is disputed, retain that dispute and ask for the exact interpretation rather than choosing a convenient threshold. A comparison may proceed on an explicitly narrower slice while the whole-decision conclusion remains blocked.
 
+When the live question is whether the requirement itself should be retained or changed, use `C.11.DUA` §4.3 with the competent domain contribution. Identify the protected person or System and interest, unwanted outcome, governed quantity or activity, conditions and horizon. Distinguish background, attributable increment and total exposure where they affect the judgement. Examine the causal and measurement basis, uncertainty, threshold or precision choice, marginal protection, full burden and displaced protective work. Compare retention, tightening, revision, replacement or removal only where they are meaningful alternatives. A safety label does not supply that basis, and expense alone does not defeat a protective requirement.
+
+Return the supported requirement recommendation and the reason or limit the recipient needs, together with its present force, amendment authority and feasible time window. The appraisal can finish even when amendment is unavailable; the currently binding condition still constrains action. State a resulting impasse when no acceptable alternative or timely amendment is feasible. A later correction does not restore an already lost opportunity. Use this return only for the disputed requirement; an adequate ordinary value account needs no new appraisal.
+
 Some thresholds are preference choices rather than prohibitions: an aspiration level, budget preference, or tolerated inconvenience. Say which they are and whose judgement they express. A threshold crossing is not automatically a decision or permission to act.
 
 #### PSD.9:4.5 - Elicit trade-offs over consequences, not criterion labels
@@ -1923,7 +1935,7 @@ Keep each materially different value account attributable. A common account requ
 
 #### PSD.9:4.6 - Return the account and its exact incompleteness
 
-Return the attributed concerns and objectives; consequence meanings and measures; protected conditions and their sources; admitted trade-offs or preference relations; material interactions and dissent; unsupported transformations; and what would change the account.
+Return the attributed concerns and objectives; consequence meanings and measures; protected conditions and their sources; admitted trade-offs or preference relations; material interactions and dissent; unsupported transformations; and what would change the account. When a requirement's merits were in question, include the bounded appraisal return and the limit imposed by its current force from §4.4.
 
 `PSD.11` may use it only for the named comparison. The account can support a partial order or leave a comparison unresolved. Missing preference information is not automatically missing empirical evidence: a further experiment may estimate consequences without deciding how they should be valued.
 
@@ -1964,6 +1976,14 @@ The adviser keeps those premises in their own meanings. A common service-level c
 
 Two qualified replacement parts have the same relevant consequences except for a directly comparable resource cost, and the authorized recipient's cost preference is already explicit. Reuse that account. An objectives hierarchy and a fresh weighting workshop would add no value distinction.
 
+#### PSD.9:5.4 - Retain a protective restriction or revise a redundant control
+
+These constructed variants concern a service team's proposed use of an external inference provider. In the first, a qualified configuration result shows that the proposed route exposes identifiable confidential incident records to provider staff who have no part in serving those clients. An available internal route meets the current service need within its support budget. The restriction prevents that disclosure; relaxing it for the faster external route would expose those clients without a corresponding needed service gain. The value account therefore supports retaining the restriction and excludes this external route for the current use. It does not infer that all provider configurations are unsuitable.
+
+In the second variant, the configuration and access protection remain adequate. The disputed rule additionally requires three hours of manual transcription of an access log. Assume the competent review has established that the retained, inspectable electronic log covers the same events and that transcription adds no omitted event or distinct check. The same three hours would otherwise test a newly exposed, unreviewed access path to the same protected records. On these facts, retaining the extra transcription displaces more protective work without an identified protective gain. Recommend revising that requirement to use the qualified electronic record while keeping the actual access controls. If a missing event or an independent check is found, that premise changes the recommendation.
+
+The rule owner cannot amend the transcription requirement before this decision. The recommendation is still complete, but it is not an exemption: present options must satisfy the rule or remain deferred. The lost testing opportunity remains a consequence of the present constraint. The contrasted results follow from the stipulated contribution and burden, not from the words security, digital or redundant.
+
 ### PSD.9:6 - Bias-Annotation
 
 **Scope:** value representation for one bounded comparison. **Lenses:** **Onto/Epist** separates concern, measure, preference, and obligation; **Prag** preserves decision relevance; **Gov** exposes representation and authority; **Did** makes trade-offs concrete.
@@ -1976,7 +1996,7 @@ Template bias imports irrelevant criteria. Proxy bias rewards what is easy to co
 - [ ] Objectives and possible means remain distinct at the grain that changes the decision.
 - [ ] Repeated consequences are not counted twice; correlation alone does not justify deletion.
 - [ ] Measures retain subject, scale, unit, horizon, evidence, proxy limits, and missingness.
-- [ ] Binding conditions, aspirations, and unresolved authority questions are distinguished.
+- [ ] Binding conditions, aspirations, and unresolved authority questions are distinguished. A live merits question receives an appraisal of protective contribution and burden, with a supported recommendation and unchanged current force.
 - [ ] Value transformations and weights have declared ranges and an elicitation basis.
 - [ ] Interactions and refusals to compensate are preserved.
 - [ ] Any collective aggregation has an explicit basis; incompatible accounts remain visible otherwise.
@@ -2454,7 +2474,7 @@ Identify the uncertainties or judgement changes that could affect this test: inp
 
 Ranges and scenarios need a basis. Distinguish observed bounds, elicited judgements, scientifically or operationally plausible cases, and deliberately extreme stress tests. A stress-test failure can reveal vulnerability without establishing the failure's probability.
 
-Preserve dependencies and feasibility. Joint variations should describe possible or explicitly hypothetical conditions, not arbitrary combinations of incompatible endpoints. Changing a binding legal, safety, consent, or security condition is not an ordinary parameter perturbation; it creates a different authority or applicability question requiring its own result.
+Preserve dependencies and feasibility. Joint variations should describe possible or explicitly hypothetical conditions, not arbitrary combinations of incompatible endpoints. Changing a binding legal, safety, consent, or security condition is not an ordinary parameter perturbation. Its meaning, applicability and current force require their own competent result. If the question is whether its protection warrants its measure, threshold or burden, use the bounded `C.11.DUA` §4.3 appraisal through `PSD.9` §4.4. Return the substantive recommendation and actual amendment authority/window separately; until a revision applies, test present alternatives under the binding condition.
 
 If a needed variation cannot be bounded, retain that coverage gap. “Across all plausible futures” is stronger than “across the three stated futures” and needs stronger support.
 
@@ -2556,7 +2576,7 @@ Winner-protection bias selects narrow ranges or convenient criteria. Scenario-co
 - [ ] The exact comparison, subject, configuration, horizon, and robustness claim are stated.
 - [ ] The robustness criterion is explicit and not chosen after seeing the preferred winner.
 - [ ] Variation ranges, scenarios, dependencies, and exclusions have a recoverable basis.
-- [ ] Binding conditions are not silently relaxed as parameters.
+- [ ] Binding conditions are not silently relaxed as parameters. A disputed requirement's merits return remains separate from its present force and from the robustness result.
 - [ ] Tests address relevant interactions, structural differences, and omitted alternatives.
 - [ ] Sampled behavior, analytical region claims, and unsupported extrapolation are distinguished.
 - [ ] Holding regions, ties, reversals, failures, and gaps are reported at their actual scope.
@@ -3632,7 +3652,7 @@ The wider activity is problem structuring and decision support. This pattern gov
 
 Start with an ordinary sentence: “In our flood-advice service, new facilitators learn from case examples and observation; the examples retain the models but omit why an unresolved service concern limited the recommendation; we are deciding whether to change the receiving practice exercise.”
 
-That sentence identifies a possible intervention, not proof of its cause or success. Recover the actual practitioners, work and sources far enough to decide whether to retain the arrangement, change it, branch to another variant, investigate, or stop.
+That sentence identifies a possible intervention, not proof of its cause or success. Recover the actual practitioners, work and sources far enough to decide whether to retain the arrangement, change it, branch to another variant, investigate, or stop. Adequate existing observations and qualified judgement can complete a continuation decision; another hypothesis or intervention is needed only when its contribution can change that decision.
 
 The gain is continuity of usable practice without compulsory uniformity. A receiving practitioner can preserve the important judgement or make a justified adaptation; the service can see what the intervention changed and what it did not.
 
@@ -3695,7 +3715,7 @@ The `PSD.15` repertoire supplies a variant, lineage or bounded evidence only whe
 
 For a claimed performed occurrence, first recover each actual performer's `A.13` basis and independently admit the occurrence through `A.15.1`: performance history, enacted Method, extent and the obtaining containing-System relation. Add `F.6` only when precise assignment-bound attribution is consumed. Missing attribution does not erase independently established Work. A case packet remains evidence or description, not the occurrence.
 
-Do not demand a complete causal history before a small permitted intervention. Do require enough evidence to distinguish the live explanations. If a new facilitator drops a concern, the cause might be an incomplete example, a changed participation condition, lack of skill, time pressure or the reward for a quick positive answer. Each can require a different change.
+Do not demand a complete causal history before a small permitted intervention. Use the available basis to decide the present continuation. Leave explanations unresolved where their distinction cannot change that supported decision; select further inquiry through `C.11.DUA` only for an obtainable contribution worth its whole burden. If a new facilitator drops a concern, the cause might be an incomplete example, a changed participation condition, lack of skill, time pressure or the reward for a quick positive answer. Each can require a different change.
 
 #### PSD.17:4.3 - Compare continuation options at the affected relation
 
@@ -3714,17 +3734,17 @@ A bundle of teaching, exemplar and peer-feedback changes may be one usable arran
 
 Keep the receiver's circumstances in the comparison. Translation, remote participation, professional-service conditions, available expertise and the ability to challenge an interpretation can change the required arrangement. Copying the source faithfully is not sufficient if the receiving use cannot enact its essential distinctions.
 
-#### PSD.17:4.4 - Choose a bounded intervention without taking another decision
+#### PSD.17:4.4 - Choose continuation or a bounded intervention
 
-State who can choose the intervention, which options are actually available, the intended participation or decision-return consequence, the protected conditions, the resources and period, and what would stop, narrow or redirect the attempt.
+State who can choose, which continuation options are actually available, the intended participation or decision-return consequence, protected conditions, resources and period. A supported decision to retain the present arrangement can finish here. For a selected intervention, state what would stop, narrow or redirect the attempt.
 
-Use `C.11` when that deciding System already has a formed bounded choice and another observation can change it. If the problem or options are still unclear, obtain the missing formulation, alternative or field probe-design result first. A cultural label is not a shortcut around that work.
+Use `C.11` for an already formed bounded choice. Before developing or commissioning a new inquiry, use `C.11.DUA` to compare its attainable contribution with formulation, design, participant and facilitator time, access, interpretation, delay and displaced work. A missing formulation, alternative or probe-design result can remain the limit on a stronger answer; acquire it only when the current question warrants that work.
 
 Keep the choice local. A team may change its own case discussion, mentor arrangement or presentation of examples under its remit. It cannot thereby compel another team to adopt a Method, expose protected client information, certify practitioners, or decide the client's investment. An invitation, a receiving team's agreement and a service-wide rule have different authority and participation consequences.
 
 Use the best qualified judgement proportionate to the decision. A reversible exercise with non-sensitive material may proceed on a stated mechanism hypothesis and modest evidence. A consequential service change may require stronger capability, professional, participant-protection and governance results. Obtain them directly; the cultural account does not invent consent, safety or competence.
 
-Retain the serious alternative and the expected loss. The useful return can be “try one receiving exercise for this cohort, keep the present route for experienced staff, and do not extend the change until an independent receiving use has been observed.” That is a completed bounded decision even though its later effect remains unknown.
+Retain any serious alternative and expected loss that matter to the choice. The useful return can be “try one receiving exercise for this cohort, keep the present route for experienced staff, and do not extend the change until an independent receiving use has been observed.” That is a completed bounded decision even though its later effect remains unknown.
 
 #### PSD.17:4.5 - Perform and observe only the intervention that was chosen
 
@@ -3752,7 +3772,7 @@ Compare the later observation with the intended consequence at the same scope. P
 
 Distinguish a useful local outcome from an explanation of why it occurred. An improved return might reflect the exercise, prior experience, a more skilled facilitator, additional time, a different problem, easier evidence or changed authority. Keep those alternatives live where the evidence cannot distinguish them.
 
-When the next question is how this practice may develop, retain more than one serious hypothesis and an observation that could discriminate. For example, an explanation-rich case library may support later independent use, or its effect may disappear without a mentor. A later uncoached case can inform that distinction; it does not isolate every causal influence.
+When the next question is how this practice may develop, retain credible rivals whose difference can change the answer; do not manufacture a fixed number. Return the supported forecast or continuation with its material uncertainty. Select a new discriminating observation only when it is obtainable and worthwhile for that question. For example, an explanation-rich case library may support later independent use, or its effect may disappear without a mentor. A later uncoached case can inform that distinction; it does not isolate every causal influence.
 
 Use `B.5` and `B.5.2` for hypotheses and testable consequences, `C.28` for an actual causal claim, and `A.3.3` only if a state-space and transition-law claim is needed. An ordinary uncertainty about continuation does not require a mathematical cultural-evolution model.
 
@@ -3766,11 +3786,11 @@ Return the smallest account that lets the next user act. It should make the foll
 - the cultural relation that justified attention and the evidence or labelled estimate;
 - the bounded decision, actual authority, retained alternative and accepted cost;
 - what was proposed, performed or changed, stated separately;
-- the later receiving-enactment and decision-support observations, or their explicit absence;
+- the available receiving-enactment and decision-support observations, with the limits that affect reliance;
 - the unproved transmission, recognition, selection, retention, loss or causal links;
-- the next observation, responsible return, narrowing or stop.
+- the supported continuation, responsible return, narrowing or stop, and any separately selected further observation.
 
-A decision can close before the later observations exist. In that case the result states what remains to be observed; it does not report a successful cultural change. Conversely, an observation can establish a receiving use without establishing that this intervention caused it.
+A decision can close from the available basis with its relevant uncertainty. If further observation is selected, retain its question and conditions; an unperformed intervention supplies no successful cultural-change claim. Conversely, an observation can establish a receiving use without establishing that this intervention caused it.
 
 Update the `PSD.15` repertoire only when the cultural evidence changes a Method offering, applicability, lineage or refresh decision. Return a changed current interference to `PSD.16`, an affected recommendation to `PSD.13` or `PSD.14`, and a capability or domain-truth question to its qualified owner. Each return identifies the next question and the pattern or practice that answers it.
 
@@ -3784,7 +3804,7 @@ A departure may remove mentoring capacity without proving that the Method was fo
 
 Use `A.10` for the bounded source reliance, `A.10.1` when several actual receiving uses of a changed source must be found and requalified, and `G.11` when its currentness or refresh-planning conditions obtain. Publication and access remain with their direct patterns. Neither source freshness nor carrier availability proves cultural continuation.
 
-Close when the named decision, observation and return are clear. Stop or revert the intervention when its protected condition fails, its cost defeats the intended use, or no warranted next action remains. Do not keep generating variants or collecting cultural metrics merely because the entire culture cannot be proved.
+Close when the present answer and its material limits are clear; any selected later observation retains its own conditions. Stop or revert the intervention when its protected condition fails, its cost defeats the intended use, or no warranted next action remains. Do not keep generating variants or collecting cultural metrics merely because the entire culture cannot be proved.
 
 ### PSD.17:5 - Archetypal Grounding
 
@@ -3829,17 +3849,17 @@ The cultural return is deliberately narrower than “the service adopted the Met
 | Retention and loss | One later receiving use is observed. Continuation beyond that interval, use by other teams and loss elsewhere remain unproved. |
 | Intervention consequence | The intended distinction appeared in the receiving return. The evidence does not isolate the contribution of the exercise from prior skill, added attention or other conditions, and supplies no investment-effect claim. |
 
-The next decision is to retain the receiving arrangement for one further qualified cohort and observe an uncoached later use. If mentoring becomes unavailable, the route is reconsidered rather than offered unchanged. East keeps the existing qualified Method and the compact route; the still-unqualified late-correction proposal remains a separate `PSD.15` candidate.
+The evidence supports retaining the receiving arrangement for one further cohort with matching qualification and support conditions. A further uncoached observation is selected only when its attainable contribution to that next use warrants its burden. If mentoring becomes unavailable, the route is reconsidered rather than offered unchanged. East keeps the existing qualified Method and the compact route; the still-unqualified late-correction proposal remains a separate `PSD.15` candidate.
 
 #### PSD.17:5.2 - A library of polished advice can hide the honest return
 
 A non-contested development-advising service is considering a change to its case library. The display currently promotes the most-viewed positive recommendations. The service suspects that this makes a decisive-looking answer easier to copy than a warranted request or blocker.
 
-The access records show visibility, not learning or enactment. Two explanations remain live: the display may shape what newcomers imitate, or already familiar cases may simply receive more views. The first useful result is a bounded inquiry into that receiving use, not a claim that the software caused a cultural failure.
+The access records show visibility, not learning or enactment. Two explanations remain live: the display may shape what newcomers imitate, or already familiar cases may simply receive more views. The first useful result is the bounded account of visibility and the unresolved receiving-use question. A claim that the software caused a cultural failure remains unsupported; that limit does not by itself select a new study.
 
 One proposed arrangement pairs a positive example with a qualified non-choice return and asks a receiving practitioner to explain the difference. Retaining the current display is the cheaper alternative; removing the automated promotion rule is a possible fallback. The service must establish its own deciding System, remit, professional conditions and permission before changing the live arrangement; the flood-service authority does not transfer.
 
-The constructed non-choice example is specific. An available allocation result supports an independent internal-development claim. The AI evaluation covers configuration A, while the request concerns B, and an external-provider alternative remains unassessed. A generated ranking of internal development above human–AI support cannot become the whole recommendation. The receiving practitioner should preserve the independent allocation finding, request the exact B qualification for the affected comparison, and keep the provider alternative open.
+The constructed non-choice example is specific. An available allocation result supports an independent internal-development claim. The AI evaluation covers configuration A, while the request concerns B, and an external-provider alternative remains unassessed. A generated ranking of internal development above human–AI support cannot become the whole recommendation. The receiving practitioner should preserve the independent allocation finding, keep B's exact qualification limit and the provider alternative open, and select a B request through A.15.9 only when its obtainable contribution warrants acquisition. The qualified return can finish with those limits.
 
 This exercise tests whether the distinction can be reconstructed from the library arrangement. It establishes neither actual client use nor cultural retention. A later permitted receiving engagement would supply different evidence. If the source gap is in the library's content rather than its display, obtain the missing qualification for configuration B or correct the library's claim about B; rearranging examples cannot qualify B.
 
@@ -3852,6 +3872,12 @@ A review finds few published PSM applications in a region. The service may use t
 If the only task is to correct a source locator, use the direct source or publication guidance. If the only question is which available Method fits tomorrow's engagement, use `PSD.6`. Neither requires a cultural intervention.
 
 A non-cultural population or lineage does not become a deciding Agent because it changes over time. Return that subject question to its direct practice. A researcher may separately choose an authorized intervention with its own scientific and governance basis; that does not turn the observed population into the recipient or chooser of advice.
+
+#### PSD.17:5.4 - Continue a supported practice
+
+A service lead is deciding whether to retain the compact case packet and ordinary peer discussion for experienced advisers. In four inspected, uncoached returns from two recent cohorts, practitioners preserve the compared subset, uncertainty and material dissent. Qualified local judgement supports continuing this arrangement for the same uses and support conditions. The observations do not isolate the packet's contribution from experience or peer discussion, and establish no profession-wide retention.
+
+A proposed two-hour comparison would displace the only available consultation on a consequential disputed return and would not change this continuation decision. Retain the present practice and those evidence limits. If a later interface hides the qualification or a new receiving group loses it, reopen that affected relation. The actual receiving loss and available teaching support in §5.1 instead warrant its bounded exercise; neither outcome is a universal rule to experiment or to retain.
 
 ### PSD.17:6 - Bias-Annotation
 
@@ -3873,7 +3899,7 @@ Automation and observer bias can make access counts or watched performances look
 | --- | --- |
 | Current practice | The Method or variant, practitioner population, engagement/community, place, period and carriers are recognizable. |
 | Cultural question | The generation, transmission, receiving-enactment, recognition, selection, memory, retention or loss relation that changes action is named. |
-| Intervention choice | A real decider and separate authority basis support the bounded choice; a serious alternative, cost and stop remain visible. |
+| Continuation choice | A real decider and separate authority basis support the bounded choice, with its material alternatives, cost and limits. A supported retention needs no new intervention; a selected inquiry has attainable value, full burden and a stop. |
 | Receiving meaning | Participation, dissent, uncertainty, qualified comparison and recommendation-use distinctions survive or their loss is reported. |
 | Performance and consequence | Proposal, plan, performed Work, actual change, observation and causal effect are not substituted for one another. |
 | Evidence limits | Source coverage, estimates, observed occurrences and unproved population or retention claims remain distinct. |
@@ -4037,7 +4063,7 @@ C.16 supplies characterization; C.11.CRC preserves configuration-relative contri
 
 Explain what the comparison can and cannot conclude. Preserve a partial order or non-dominated directions when the basis does not warrant a total ranking. If one direction is supported, explain its advantage over the strongest remaining rival and the conditions that could reverse it. Keep important value disagreement visible instead of manufacturing a shared weight.
 
-Human consent and transfer, organization continuity and AI safety remain unlike premises. A protected condition cannot be compensated away by a favorable total score. Likewise, a comparison of internal development and one mixed arrangement does not rank an unexamined provider, another model version or a materially different probe.
+Human consent and transfer, organization continuity and AI safety remain unlike premises. A protected condition cannot be compensated away by a favorable total score. When its own justification is disputed, use [PSD.9 §4.4](#psd-9) and C.11.DUA to compare the protected outcome, causal and measurement basis, threshold, additional protection and full burden. Carry the requirement recommendation and its actual amendment limit in the advice; current force still governs available action. Likewise, a comparison of internal development and one mixed arrangement does not rank an unexamined provider, another model version or a materially different probe.
 
 When evidence is thin, first ask whether the missing distinction could change the answer and whether obtaining it is worth its burden and delay. A small request naming the missing result, a retained set or a blocker may be more useful than another elaborate model. A declared comparison is an input to advice, not the recipient's choice.
 
@@ -4384,7 +4410,7 @@ The person may stop here. There is no final advice episteme, no invented adviser
 
 A supplier proposes “AI transformation” to a small unit whose current receiving result is already adequate and whose users identify no worthwhile unmet contribution at the proposed scale. Novelty alone does not repair that missing problem. Reject the direction for this inquiry or change the question; an archive can retain a technical idea for another stated use without treating it as a present development opportunity.
 
-A qualified dependency result may also defeat an otherwise worthwhile direction. If the only proposed processing route violates the protected data condition, reject that route for this use. If access has merely not been assessed, retain the conditional question. Forbidden, unknown and available are different results.
+A qualified dependency result may also defeat an otherwise worthwhile direction. If the only proposed processing route violates the protected data condition, reject that route for this use. If access has merely not been assessed, retain the conditional question. Forbidden, unknown and available are different results. If the protection requirement itself is being questioned, use C.11.DUA §4.3 with the competent domain result; PSD.9 §4.4 supplies the value-account return when needed. A supported revision recommendation may finish that question while the current requirement continues to constrain the opportunity's feasible use.
 
 A course sequence described as “from beginner to leader” has no bounded reachability here until representative later Work, the actual holder, required transitions, support and transfer evidence are recoverable. Likewise, evidence that one AI version improved on one benchmark does not establish which development changes are feasible for a person or organization.
 

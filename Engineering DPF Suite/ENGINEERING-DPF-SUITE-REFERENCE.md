@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 8 September 2026 - complete Semantic Integration Engineering
+- **Version:** 9 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -37,7 +37,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
 | [Citation](#citation) | Cite this Reference or a particular pattern application. |
 
-The question index is designed for lookup while work is under way. The ten complete publications provide their full searchable tables of contents and 190 pattern bodies. SIE supplies `SIE.1`–`SIE.12`, OPS supplies `OPS.1`–`OPS.20`, and RMP supplies `RMP.1`–`RMP.9`. HCD supplies HCD.1–HCD.17 for human-development questions and HCD.18–HCD.19 for the distinct [instructional-material evaluation questions](#evaluate-instructional-material-for-its-intended-use). Each linked body supplies guidance for its stated result and conditions.
+The question index is designed for lookup while work is under way. Use the [Suite README's publication table](README.md#published-dpfs) to see the available DPFs and their pattern counts. Each row below identifies a working question, the relevant pattern and the result it can help you obtain. Open the linked body for its full conditions.
 
 ## Find a starting pattern
 
@@ -89,7 +89,7 @@ If the form then hides a required address component, the authorized response res
 
 ### Connect separately governed meanings and representations
 
-Use the [Semantic Integration Engineering first edition](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) when one receiving use must combine claims, identifiers, classifications, models or records whose meanings and authority remain governed by different sources. Start with the result your use lacks; adequate supplied inputs permit direct entry into a later Method.
+Use the [Semantic Integration Engineering DPF](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) when one receiving use must combine claims, identifiers, classifications, models or records whose meanings and authority remain governed by different sources. Start with the result your use lacks; adequate supplied inputs permit direct entry into a later Method.
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -168,7 +168,7 @@ For a research Method and the knowledge claims that depend on it, use the [resea
 
 HCD.16 can finish with the result already supported by the evidence. A selected inquiry must warrant its full learner and provider burden; an unavailable comparison leaves its dependent claim unresolved. Declaring several exact, already grounded Methods for one selector-facing use belongs to G.5. Refreshing a named maintained set, source pack or publication belongs to G.11. An ordinary claim-sized decision needs neither result unless that question is live.
 
-The [Human Capability Development first edition](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) contains all HCD.1-HCD.17 bodies. A pattern supplies guidance and a result form; it does not establish that development work occurred, capability changed, a provider operated, or an authorized person made a programme, employment or release decision.
+The [Human Capability Development DPF](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) contains 19 patterns: HCD.1-HCD.17 address human development, and HCD.18-HCD.19 address instructional-material evaluation. A pattern supplies guidance and a result form; it does not establish that development work occurred, capability changed, a provider operated, or an authorized person made a programme, employment or release decision.
 
 ### Evaluate instructional material for its intended use
 
@@ -181,7 +181,7 @@ These two methods judge instructional material. For a person's performance, tran
 
 ### Keep an operation working
 
-Use the [Operations Management first edition](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) when the current question concerns continuing work, admission, cases, priority, queues, constraints, capacity, service, operating evidence, quality, simultaneous work, method improvement or cultural continuation.
+Use the [Operations Management DPF](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) when the current question concerns continuing work, admission, cases, priority, queues, constraints, capacity, service, operating evidence, quality, simultaneous work, method improvement or cultural continuation.
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -200,7 +200,7 @@ Use the [Operations Management first edition](OPERATIONS-MANAGEMENT-PRINCIPLES-F
 | What service can authorized parties agree under actual resources and conditions? | [OPS.13 - Align Commitments, Resources, and Service Outcomes](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-13) | A credible service commitment or an exact hold. |
 | Which throughput, cash, payment and receipt differences change the choice? | [OPS.14 - Relate Throughput, Cash, and Operating Consequences](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-14) | A comparison of operating and financial consequences without collapsing them. |
 | Which observations and meanings support this operating decision? | [OPS.15 - Build a Decision-Specific Operating Account](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-15) | A decision-specific account with source and interpretation limits. |
-| What evidence supports adopting, revising, branching or stopping this operating Method? | [OPS.16 - Improve the Operating Method from Evidence](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-16) | A bounded Method disposition and next evidence need. |
+| What evidence supports adopting, revising, branching or stopping this operating Method? | [OPS.16 - Improve the Operating Method from Evidence](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-16) | A bounded disposition of the admitted Method or a revised candidate account, with the supported use and evidence limits. |
 | Which operating moves fit this work family, and what change reopens their use? | [OPS.17 - Compare and Refresh Operations Methods](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-17) | A compared and current operations-method repertoire for the stated use. |
 | What continuation, acceptance, containment or recovery action does the evidence support? | [OPS.18 - Control Operating Quality and Reliability](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-18) | A quality or reliability response with exact evidence and stop conditions. |
 | Which cross-scale reconfiguration preserves the simultaneous operating results that matter? | [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-19) | A cross-scale continuation, reconfiguration or explicit unresolved conflict. |
@@ -210,12 +210,12 @@ The [archive case](#how-can-two-archive-services-share-staff-without-losing-thei
 
 ### Qualify a research question or choose a design
 
-The [Research Method Practice first edition](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#table-of-contents) supplies `RMP.1`–`RMP.9`. Start here to decide whether a request needs research and to choose a criticism-bearing design or an honest stop. The following sections cover [operationalization and the actual trace](#make-research-executable-and-inspect-its-course), [claim analysis and relevant credibility work](#analyze-a-claim-or-examine-its-credibility), and [retaining or improving a research Method](#retain-or-improve-a-research-method). Supplied inputs allow direct entry at the question you need to answer.
+The [Research Method Practice DPF](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#table-of-contents) supplies `RMP.1`–`RMP.9`. Start here to decide whether a request needs research and to choose a criticism-bearing design or an honest stop. The following sections cover [operationalization and the actual trace](#make-research-executable-and-inspect-its-course), [claim analysis and relevant credibility work](#analyze-a-claim-or-examine-its-credibility), and [retaining or improving a research Method](#retain-or-improve-a-research-method). Supplied inputs allow direct entry at the question you need to answer.
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
 | Does this request need research, and what exact question, supplied answer, owner return or source hold is warranted? | [RMP.1 - Qualify the Research Question and Useful Stop](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-1) | A ResearchQuestionBrief, an already-sufficient source result, an exact non-research owner return, or a bounded hold. |
-| Is current evidence sufficient, which criticism-bearing design is justified, or which missing owner result holds selection? | [RMP.2 - Choose a Criticism-Bearing Research Design or Stop](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-2) | EvidenceSufficientStop, a ResearchDesignDecision with only non-selection-changing later needs, or a ResearchDesignHold. |
+| Is the existing evidence sufficient, is a new study worth doing, or does a missing result prevent choosing? | [RMP.2 - Choose a Criticism-Bearing Research Design or Stop](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-2) | An adequate answer from existing evidence; a justified research design; a hold identifying the input that prevents selection; or a justified choice of no new study, with the unresolved claim, limits and conditions for reconsideration explicit. |
 
 The complete repertoire supplies guidance for obtaining research results, not already obtained results. If a needed field-specific result, permission or evidence is missing, name that gap and return it to its owner. A protocol or collected information alone does not establish the research result.
 
@@ -278,7 +278,7 @@ The [GH-2 worked application](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#app-sy
 
 Use the example to understand the comparison. For procurement, substitute your offers, configuration and evidence; have the responsible chooser record the resulting decision. [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a159---request-and-use-a-bounded-result-from-another-practice) helps request a missing specialist result when it could change the choice.
 
-After selection, obtain the realization result through [SYSE.3](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse3---develop-the-recursive-realization-network), configuration identity through [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity), and the required evidence and release decision through [SYSE.10](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse10---assess-research-model-and-trial-results-for-an-engineering-decision), [SYSE.4](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse4---select-an-engineering-challenge-and-qualify-evidence-use) and [SYSE.14](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse14---make-a-release-decision-for-named-engineering-work-or-use) as those questions arise. If the integration or commissioning method is itself inadequate, use [ME.1](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me1---choose-and-reopen-the-project-method-of-interest) to investigate it. Once the arrangement and operating conditions are established, OPS.5-OPS.7 in the complete Operations Management first edition address admission, exceptional-case continuation and local priority or commitment revision.
+After selection, obtain the realization result through [SYSE.3](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse3---develop-the-recursive-realization-network), configuration identity through [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity), and the required evidence and release decision through [SYSE.10](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse10---assess-research-model-and-trial-results-for-an-engineering-decision), [SYSE.4](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse4---select-an-engineering-challenge-and-qualify-evidence-use) and [SYSE.14](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse14---make-a-release-decision-for-named-engineering-work-or-use) as those questions arise. If the integration or commissioning method is itself inadequate, use [ME.1](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me1---choose-and-reopen-the-project-method-of-interest) to investigate it. Once the arrangement and operating conditions are established, OPS.5-OPS.7 in the complete Operations Management DPF address admission, exceptional-case continuation and local priority or commitment revision.
 
 Pause only the decision that depends on a missing input. Keep the conclusions whose grounds still hold.
 
@@ -399,7 +399,7 @@ The team's next choice can be made through MDPE.7. Add another contribution when
 
 An engineer will take part in release work in the next quarter. The work may require challenging AI output, tracing configuration impacts, recognizing critical errors and coordinating specialists across unfamiliar physical and software variants. What should the engineer develop?
 
-**Start with a hypothesis about the future work, then obtain representative observations.** The case uses demand, diagnosis and profile Methods from the [complete Human Capability Development first edition](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents). It does not yet provide enough evidence to select a development target.
+**Start with a hypothesis about the future work, then obtain representative observations.** The case uses demand, diagnosis and profile Methods from the [Human Capability Development DPF](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents). It does not yet provide enough evidence to select a development target.
 
 In the original case the person is Engineer-E27 and the prospective work is ReleaseWork-R9 in 2026-Q4. These labels identify the case; the reasoning starts with what that person will need to do.
 
@@ -482,7 +482,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-8 September 2026, complete Semantic Integration Engineering.
+9 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
