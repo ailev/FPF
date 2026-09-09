@@ -100,7 +100,7 @@ Use Explanation Design when someone needs to recover a connection: why an outcom
 
 A formally adequate account can remain difficult for a particular recipient to reconstruct. A fluent, engaging account can expose a relation clearly while leaving that relation unsupported. The practical problem is to connect subject adequacy with recipient-relative recoverability without treating either as proof of the other.
 
-The familiar contrast between formal explanation and empirical craft is a useful starting question. It does not establish that every text-producing practice has exactly two disciplines, that formal work has no empirical component, or that craft has no articulated rules. Explanation Design brings together their relevant contributions around one explaining practice. It asks both what warrants a connection and what enables this recipient to recover it for this purpose. Questions about available attention, preparation, access, assistance and later learning determine different design and assurance moves.
+Explanation Design brings together the relevant contributions of formal explanation and empirical craft around one explaining practice. It asks both what warrants a connection and what enables this recipient to recover it for this purpose. Questions about available attention, preparation, access, assistance and later learning determine different design and assurance moves.
 
 A recipient who only needs an already understood fact can use it directly. Creating a scientific explanation, selecting a management policy, securing agreement and establishing a human learning effect may supply or receive explanation work, but each retains its own question and evidence. A satisfying exchange alone settles none of them.
 
@@ -146,7 +146,7 @@ The analyst can add and divide but asks why the branch counts matter. EXD.2 cons
 
 Now the analyst says, “I want each branch to have equal influence regardless of its size.” EXD.4 treats this as a changed question. EXD.1 revises the selected weighting, and the explanation returns “Mean of branch means, each branch weighted equally: 5.5.” It retains 6.75 for the original question. Whether equal branch influence is the appropriate management policy remains a decision question. The exchange can close with these qualified answers.
 
-A different contribution needs a different move. If the analyst still intends equal weight per individual but divides the two branch means by two, the question has stayed fixed and the aggregation relation needs repair. If instructional use warrants a learner contribution, EXD.5 asks what the denominator counts, preserves the initial answer, supplies targeted feedback and uses a changed calculation as a retry. If dialogue is unavailable, the written explanation can state both weighting rules and the condition selecting each. An explicit choice need not be delayed by another clarification.
+A different contribution needs a different move. If the analyst still intends equal weight per individual but divides the sum of the two branch means by two, the question has stayed fixed and the aggregation relation needs repair. If instructional use warrants a learner contribution, EXD.5 asks what the denominator counts, preserves the initial answer, supplies targeted feedback and uses a changed calculation as a retry. If dialogue is unavailable, the written explanation can state both weighting rules and the condition selecting each. An explicit choice need not be delayed by another clarification.
 
 EXD.6 can compare a proposed repair with the current explanation. Adding the missing sum relation changes the account; rearranging those same claims changes form; supplying a hint changes assistance. If the current account already lets the analyst use the distinction, retaining it is a useful result. The case is a worked construction with explicit arithmetic criteria. It supplies no observation about human attention, learning or a population effect.
 
@@ -239,7 +239,7 @@ A learner asks why averaging two group means gave the wrong result. Group A has 
 
 A useful question statement is: “Why do the group sizes matter when we give every individual equal weight?” The account reconstructs the group sums, 2 × 3 = 6 and 6 × 8 = 48, and divides 54 by eight to obtain 6.75. If the missing connection is that count multiplied by mean reconstructs sum, the explanation must expose it.
 
-The recipient then says, “For my report, I want each branch to count equally, regardless of how many people it has.” The target now concerns a different aggregation rule. The explainer asks, “Should doubling a branch's headcount increase its influence in this summary?” The recipient answers, “No; the two branches should still have equal influence.”
+The recipient then says, “For my report, I want each branch to count equally, regardless of how many people it has.” This explicitly selects a different aggregation rule, so the explainer can answer the revised question directly.
 
 The revised question is the equally weighted mean of the branch means. Its answer is 5.5. Close with the label and condition: “Mean of branch means, each branch weighted equally: 5.5.” The earlier 6.75 remains correct for the average across individuals. The management justification for choosing one summary still belongs to the report's decision.
 
@@ -627,8 +627,6 @@ The following constructed exchange uses two groups. A contains 2 and 4, with mea
 | Recipient: “Why is my average of 3 and 8 wrong?” | The live question concerns the difference between averaging two means and averaging all individuals. |
 | Explainer: “For the average across all eight people, reconstruct the totals: 2 × 3 = 6 and 6 × 8 = 48. Then 54 / 8 = 6.75. Averaging the two means gives each group half the influence.” | Supplies the mathematical connection and the condition under which the stated answer applies. |
 | Recipient: “But for my branch report I want each branch to count equally, regardless of its number of people.” | Introduces a purpose and weighting rule that differ from the initial task. |
-| Explainer: “So a bigger branch should have the same influence as a smaller one in this summary?” | Checks the action-changing interpretation with one diagnostic. |
-| Recipient: “Yes. I want the two branch means to have equal influence.” | Supports the revised aggregation target. |
 | Explainer: “Then the mean of the branch means is (3 + 8) / 2 = 5.5. Label it as giving each branch equal weight. The 6.75 figure is the mean across individuals.” | Answers the revised question and retains the earlier result with its own condition. |
 | Recipient: “I will label 5.5 as the equally weighted branch-mean summary.” | Displays a usable distinction for the stated report. It does not settle whether that policy is best for the management decision. |
 
@@ -691,7 +689,7 @@ The current *Social Explainable AI* chapters on [Practices, §5.3](https://link.
 
 [Fichtel et al., 2025, §§5–6](https://aclanthology.org/2025.sigdial-1.1/) found that enhanced prompting elicited more co-constructive behavior in a bounded Llama 3.1 70B study without a significant mean objective-understanding advantage. Keep that limit when designing human–AI explanatory interaction. More interaction is not an effectiveness measure.
 
-At the same local opportunity to respond, another derivation preserves the old answer while a discriminating weighting question can change the next answer. This comparison explains the proposed move in the worked case. Reopen it when actual recurring interactions expose a different diagnostic or repair need.
+At the same local opportunity to respond, repeating the pooled-mean derivation answers the old question. Using the recipient's explicit change of weighting rule supplies the requested branch-mean answer and preserves the earlier result under its original condition. This comparison explains the proposed move in the worked case. Reopen it when actual recurring interactions expose a different diagnostic or repair need.
 
 ### EXD.4:12 - Relations
 
@@ -799,7 +797,7 @@ The learner's product becomes usable evidence for targeted support and correctio
 
 ### EXD.5:10 - Architectural Rationale
 
-This pattern owns explanation-specific product and prompt construction. Human Capability Development supplies broader task design, feedback, assistance and progression. The connection is by the learner's product and its discrepancy; it does not require importing a whole curriculum into every explanatory exchange.
+This pattern owns explanation-specific product and prompt construction. Human Capability Development supplies broader task design, feedback, assistance and progression. The learner's product and its discrepancy connect that broader instructional work to the explanatory contribution.
 
 ### EXD.5:11 - SoTA-Echoing
 
@@ -859,7 +857,7 @@ Use the construction that addresses the live difficulty: clarify the question, a
 
 When comparing forms, keep the selected claims and receiving conditions comparable. When coordinated changes are needed, compare the whole proposed repair but limit attribution accordingly. A claim inventory can help identify what both candidates express; it is not a measure of recovered structure.
 
-FPF C.11.CRC supplies configuration-relative contribution comparison and C.11 the marginal-choice question. For Method descriptions, use ME.22's actual comparison. For instructional material, use HCD.19's representative-reader work and diagnosis. Their supplied results can answer the comparison without inventing another general evaluation cycle.
+FPF C.11.CRC supplies configuration-relative contribution comparison and C.11 the marginal-choice question. For Method descriptions, use ME.22's actual comparison. For instructional material, use HCD.19's representative-reader work and diagnosis. Their supplied results can answer the comparison.
 
 #### EXD.6:4.3 - Obtain only the evidence that can change the choice
 
@@ -952,7 +950,7 @@ The serious alternative is to select the most fluent, extensive or visually attr
 
 # Use profiles
 
-The profiles reuse the Preface's subject, account, expression, recipient and assurance distinctions and the six Methods. Each changes the receiving use, supplied contributions and evidence question. They add no new Method address or ranking of recipient types.
+The profiles reuse the Preface's subject, account, expression, recipient and assurance distinctions and the six Methods. Each changes the receiving use, supplied contributions and evidence question.
 
 ## Instructional explanation
 
@@ -1051,7 +1049,7 @@ FPF remains the external foundational framework. This edition uses the September
 
 The positive research exercise cited in the Preface is *Modeling as a Basis of Communication and Leadership*, Guide R2, Tasks 4, in the R1–R3 pedagogical companion edition used on 9 September 2026. The companion guide is supplied separately under the title *Modeling as a Basis of Communication and Leadership*. If that guide is unavailable, the public RMP.1/.2/.8 entries still supply the stated research return; do not infer the guide's exact exercise from them.
 
-The source choices above are use-specific. Reopen a receiving claim when its premise or evidence no longer fits, a necessary source becomes unavailable, or the proposed use asks for a stronger effect. Preserve independently supported accounts and explicit conditional answers. Refresh does not require repeating the entire field's history whenever one task or form changes.
+The source choices above are use-specific. Reopen a receiving claim when its premise or evidence no longer fits, a necessary source becomes unavailable, or the proposed use asks for a stronger effect. Preserve independently supported accounts and explicit conditional answers.
 
 # Name and citation
 

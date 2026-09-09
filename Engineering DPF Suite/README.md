@@ -28,7 +28,7 @@ You can read this way yourself, use a pattern in a working meeting, or ask an AI
 
 ## Choose a DPF
 
-The public folder contains twelve published DPFs with 212 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains thirteen published DPFs with 227 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -38,6 +38,7 @@ The public folder contains twelve published DPFs with 212 pattern bodies. Start 
 | Choose, explain, test or improve a way of working, or develop a pattern language from source knowledge. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 24 patterns | An explicit method, a useful description or support arrangement, evidence about fit, transfer and practical value, or a source-based contribution to a method description in pattern-language form. |
 | Change how an organization contributes, assigns work and enables people and other performers to act. | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A compared organizational arrangement, clarified assignments and authority, a supported change, or a decision about its consequences. |
 | Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
+| Set a direction under uncertainty and relate feasible options to bounded commitments. | [Strategy](STRATEGY-PRINCIPLES-FRAMEWORK.md) - 15 patterns | A strategic frame, conditional direction, option comparison, recommendation or authorized commitment; a decision about conflicting work, changed assumptions or strategic practice. A sufficient answer can finish without an experiment or a new commitment. |
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
 | Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 20 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
 | Preserve or restore required equipment functioning, and manage the policies, support and programme that make maintenance useful. | [Maintenance Engineering and Management](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 16 patterns | A qualified condition account, supported policy or intervention recommendation, feasible protected work and return to use, or a justified information, programme, Method or practice decision. Advice can be complete before repair. |
