@@ -14,6 +14,8 @@ A **DPF**, or **Domain Principle Framework**, collects methods for a field as a 
 
 [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the common concepts used across fields. The DPFs bring in the field's methods, competing approaches, examples and source evidence. This combination lets a team discuss technical choices, ways of working and organizational consequences in a shared language.
 
+**Current language limitation:** Some passages still leave the required action or its conditions unclear, or use unexplained abbreviations. First consult any definitions or prerequisite patterns cited there; if the instruction remains ambiguous, ask for clarification before applying or reproducing it.
+
 ## Start with the problem in front of you
 
 Describe the situation in ordinary words. For example:
@@ -42,7 +44,7 @@ The public folder contains ten published DPFs with 190 pattern bodies. Start wit
 | Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 20 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
 | Derive and develop one person's capability for representative later work. | [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) - 19 patterns | A supported demand, target or profile; a compared development programme; representative practice and support; performance, transfer or retention evidence; a continuing-development decision, or an instructional-material evaluation through its separate profile. |
 | Construct a useful development opportunity, or advise a person, organization or other developing subject. | [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded inquiry, characterized change, candidate direction with its supports, joint-reachability result, retained opportunity, or qualified advising engagement. PSD supplies the actual comparison and recommendation when those are needed. |
-| Qualify and conduct a research inquiry, examine and return its knowledge contribution, or retain and improve its Methods. | [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded question or useful stop, selected design, operationalization, trace, warranted claim, credibility decision, corpus synthesis, exact revision/return, or supported Method retention or improvement. |
+| Decide whether research is needed, conduct it, examine its conclusions or improve its methods. | [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) - 9 patterns | An answer from existing evidence or a justified research plan; a protocol and record of research performed; an analysis, credibility judgement or corpus synthesis with its limits; a revised claim or question for another practice; or a choice to retain or improve the research method. |
 | Connect separately governed meanings for a receiving use, qualify a model, handle semantic change or maintain shared modules. | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 12 patterns | A bounded integration result, adequate model reuse or construction, affected-use repair or revalidation, or a sufficient interface agreement or modular-commons arrangement. |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
@@ -79,6 +81,18 @@ Inspect the answer against the pattern and your project evidence. You and the ot
 | A programme of study, exercises and feedback to build your abilities | An instructional Guide or a separately designed development programme. The Reference is organized for lookup while you work. |
 
 The README introduces the Suite. The Reference helps you find and combine methods. Full pattern bodies remain the place to inspect what a method asks you to do.
+
+## Suite scope and membership
+
+Engineering DPF Suite brings together domain pattern languages for developing engineered systems and the work, organizations and capabilities needed for them. It serves practitioners choosing and improving methods across these fields, using FPF's shared concepts.
+
+**Current scope decision, effective 9 September 2026.** Under this purpose, the Suite includes the DPF series named in [Published DPFs](#published-dpfs), together with the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) series. This section and the declared list are the current Suite identity and membership account. Each product keeps its own field boundary, readers, methods and dated editions. The list links available editions; the future-publication catalogue records planned additions.
+
+Include a DPF when its accepted product boundary and published pattern language supply a useful contribution to this common purpose, its relevant FPF dependencies are stated, and readers can reach its admitted edition and conditions of use. Record inclusion by updating this declared list when that product decision takes effect. A first accepted publication can implement the product and Suite-inclusion decisions together. Subsequent editions are admitted under the product's own rules; changing an edition or its availability leaves the product's Suite membership in place.
+
+Review the scope when new practitioner needs, changed foundations or a product's limitations alter its contribution. A limitation calls for an explicit warning and a decision to repair, remove or replace the affected contribution. A dated removal ends membership; preserve the earlier fact for readers of older editions. If a product series ends or changes identity, its former membership ends and the replacement needs an inclusion decision.
+
+Adding, removing or revising products preserves this Suite while its common purpose, inclusion rules and identity conditions remain. A change outside that scope identifies another Suite. If the shared purpose can no longer be served, decide whether to restore the collection or retire it; an empty or one-product interval needs an explicit restoration or retirement decision. State any continuing maintenance or future-availability commitment separately from this scope decision.
 
 ## Publication scope
 
