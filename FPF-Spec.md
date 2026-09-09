@@ -444,7 +444,7 @@ Use FPF as a reference model and pattern language, not as a linear textbook. Sta
 
 This readme is a thin public practical-use rendering of FPF for engineers, researchers, managers, reviewers, and AI-assisted project workers deciding what FPF can help them do now. It foregrounds the project questions most likely to pay off and deliberately coarsens, omits, or defers the full pattern language, source publications, source-use history, and relation structure. When a claim becomes important, use the Preface and Table of Contents as locators, then inspect the exact definition, constraint, test, method, evidence rule, or assurance rule needed for that claim in the cited pattern body; do not treat this readme as the specification.
 
-Begin with the project object at stake and the current question about it. FPF often calls an object a holon when it is being treated as a whole with parts: a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework admitted under part-whole treatment.
+Begin with the project object at stake and the current question about it. In FPF, a holon is an object whose actual construction supports treatment as a whole with parts and as a possible part of a larger whole. Examples, when they meet the conditions in `A.1`, include a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework.
 
 Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, then continue through the object or relation it recovers. If the recovered wording is a claim-bearing function use, apply `A.6.F` and its selected subject pattern. Do not choose a branch from the trigger word alone. Once the object and question are named, ask which structure, claim, decision, evidence, description, Work, or improvement relation is current.
 
@@ -582,12 +582,12 @@ The keys only help navigation. Compare cards by the situation and intended resul
 
 #### RESULT-TO-NEXT-MOVE — Route an obtained result to the next probe or option
 
-- **Situation:** A DPF or project calls something information gain, learning progress, novelty, or a former cue and wants it to change the next probe or option.
+- **Situation:** A DPF or project calls something information gain, learning progress, or novelty, or has articulated a result from an earlier cue, and wants to use it to choose the next probe or option.
 - **Question:** What result actually exists, and which downstream question, if any, is current?
 - **First useful result or honest blocker:** The direct result plus the first needed reliance disposition, characterization, possibility-space claim, configuration-relative comparison, `ChoiceResult`, or missing basis.
 - **Mantra:** Name the result; split ambiguous learning claims; keep each with its direct pattern. Move only to the current question: relied-on evidence, characterization or possibility space, realizable configuration comparison, or live choice. Stop when the present question is answered.
 - **Start with:** Use `E.10.LRN` only to recover a result hidden by *learning*; otherwise its direct pattern. Then use `A.10` only for actual reliance, `C.17`/`C.18` only for characterization/space change, `C.11.CRC` only for a missing finite configuration comparison, and `C.11` only for a live choice.
-- **Stop or return:** Stop before every non-current question. Observation, objective, former cue, and characterization retain their identities; this card creates no generic signal, cue, qualification, or choice.
+- **Stop or return:** Stop before every non-current question. Observations, objectives, and characterizations retain their identities. Route the result articulated from a cue through its direct pattern; if its `A.16.1` cue pack remains current as a source or provenance, retain it separately.
 
 #### ACTUAL-TEMPORAL-STRUCTURE — Recover what actually obtains before testing coordination
 
@@ -645,10 +645,10 @@ The keys only help navigation. Compare cards by the situation and intended resul
 
 #### CONSEQUENCE-BEARERS — Find omitted Systems before closing a decision
 
-- **Situation:** A change has one plausible receiver, but the list may omit other physical or operational wholes that can change.
-- **Question:** Which other Systems may undergo a relevant change, through what supported relation or still-modal path, and what should the receiver do next?
+- **Situation:** A consequence account for a decision or investigation may omit physical or operational wholes beyond its candidate bearer.
+- **Question:** Which other Systems may undergo a relevant change, through what supported relation or still-modal path, and what next step follows for the decision or investigation?
 - **First useful result or honest blocker:** A bounded consequence account with its focus, bearers or intended referents, obtaining or modal paths, changed characteristics, support, uncertainty, and material limit. A useful constraint, alternative, or explicit unknown can complete the answer; further discovery needs a worthwhile obtainable contribution.
-- **Mantra:** Name the focus and receiver; trace obtaining relations and modal paths separately; challenge the boundary; recover real holons; qualify each change; keep the sides distinct; return the useful answer and its limit. Select further inquiry by its individual and combined contribution and burden.
+- **Mantra:** Name the focus and receiving decision or investigation; trace obtaining relations and modal paths separately; challenge the boundary; recover real holons; qualify each change; keep each bearer's changes and conditions distinct; return the useful answer with its limit. Select further inquiry by individual and combined contribution and burden.
 - **Start with:** `A.1.CSD`; use `A.1.SCR` only when a candidate's systemhood is load-bearing, and leave through the direct evidence, causality, comparison, domain, or value pattern only when that stronger question is current.
 - **Stop or return:** Stop at the smallest account that changes or holds open the named decision or investigation. Return when the focus, configuration, horizon, whole, relation support, bearer, observation, or receiving use changes.
 
@@ -679,11 +679,11 @@ There are three common ways to use FPF:
 2. Mixed team: use it to keep specialists, managers, safety leads, and AI assistants aligned around the same work.
 3. AI-assisted: attach or index the specification, ask for plain-language project help first, and use pattern names only when they make the answer easier to check.
 
-Stronger AI does not remove the need for FPF. AI can generate fluent options quickly, but projects still need to decide what counts as evidence, which option is being compared, who may rely on an answer, when a claim is stale, what remains only a guess, and what work is actually authorized. FPF helps make those boundaries explicit before a confident answer becomes an expensive mistake.
+FPF can help with the evidence and decision questions that remain as AI becomes more capable. AI can generate fluent options quickly, but projects still need to decide what counts as evidence, which option is being compared, who may rely on an answer, when a claim is stale, what remains only a guess, and what work is actually authorized. FPF helps make those boundaries explicit before a confident answer becomes an expensive mistake.
 
 Core ideas in plain language:
 
-- first name the project object under concern; when it is treated as a whole with parts, FPF calls it a holon;
+- first name the project object under concern; FPF calls it a holon when its actual construction supports treatment as a whole with parts and as a possible part of a larger whole; use `A.1` to check a particular candidate;
 - local teams may use local meanings; boundary-crossing work makes the translation relation explicit;
 - the project object itself, its description, a dashboard about it, a decision about it, and the work done to change it are not the same;
 - architecture is structure of that holon or project object in a context, not the diagram, document, approval, or plan about it;
@@ -714,7 +714,7 @@ When the immediate question is whether dated Work actually occurred or whether a
 
 Use this guide when the team has recovered or is explicitly proposing one project system-of-interest but can no longer show how a local result supports the expected outside change, release or runtime use, architecture, Work and change of that system, creator systems, and recursive build-the-builder branches. Open `A.1.STM` to locate the first unsupported result, select the particular pattern contribution that answers that claim, and state one next question or action or an exact stop.
 
-This is a readable continuation, not an additional practical-use card, result kind, `SystemThinkingMap`, project-network result, mandatory traversal, WorkPlan, or calendar order. If the actual versus intended project system-of-interest or its project designation is unclear, apply `A.15.6` first to distinguish actual project Work, intended material, and project designation. Apply `A.1.SCR` to the recovered exact entity only when recognition under `U.System` remains load-bearing for the named decision.
+Trace the dependencies backward from the release, runtime use, or outside change that matters now, stopping at the first unsupported answer. If the actual versus intended project system-of-interest or its project designation is unclear, apply `A.15.6` first to distinguish actual project Work, intended material, and project designation. Apply `A.1.SCR` to the recovered exact entity only when recognition under `U.System` remains load-bearing for the named decision.
 
 ## One-Minute Example
 
@@ -27040,7 +27040,7 @@ Recover the direct subject selected by the working concern. Use the pattern whos
 
 Use this branch only while the next decision still depends on selecting or reopening the problem, direct project subject, solution form, Method relation, or development-platform contribution. If one already identified Work, Method, System, transformation, structure, episteme, capability, population, relation, or other subject answers the current question, use its direct pattern and stop rather than completing a project template.
 
-**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. It introduces no project-focus kind, project record, project-partition object, relation kind, or actual project occurrence. If options are still being invented, expanded, or reframed, use C.18 and return only after a current `OptionSet` exists; do not manufacture a winner to enter this branch.
+**Project-focus decision** is Plain wording for one conforming C.11 `ChoiceResult` over an already-current `OptionSet`. It introduces no project-focus kind, project record, project-partition object, relation kind, or actual project occurrence. If options are still being invented, expanded, or reframed, complete that work under the Method that governs the project question. If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. If the hard work is open-ended invention, expansion, or reframing, apply `C.18`. Return only after a current `OptionSet` exists; do not manufacture a winner to enter this branch.
 
 When the result must persist, identify one ordinary C.2.1 episteme through all three identity discriminators:
 
@@ -27057,10 +27057,12 @@ The minimally useful result carries the full C.11 choice discipline through five
 1. the observed situation, sought outside difference, and already-available bounded problem options in the current `OptionSet`;
 2. affected entities and interests, materially relevant alternatives, and one explicit comparison basis: a `PreferenceOrder` or `EvaluativeMeasure`, plus the current `BeliefState` and `OutcomeModel` and any decision-relevant dependence layer;
 3. the selected option's direct-subject disposition: one exact System, Method, capability, Work, episteme, population, relation, arrangement, or other admitted subject when that choice changes the decision, or an explicit unresolved-subject disposition;
-4. the identified `DecisionSubject` and `DecisionSubjectGranularity`, one explicit `ChoiceRule`, and the probe-worthiness account: `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and the applicable `ValueOfInformation` or `ValueOfComputation`, or an explicit reason that no feasible probe remains worth its cost; and
+4. the identified `DecisionSubject` and `DecisionSubjectGranularity`, one explicit `ChoiceRule`, and, when an inquiry alternative is live under C.11, its probe-worthiness account using `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, and the applicable `ValueOfInformation` or `ValueOfComputation`; and
 5. one explicit `ChoiceResult`—`choose now`, `reject current set`, `probe again`, or `reroute`—with the receiving decision or use, evidence horizon, principal uncertainty, next question, and observation that reopens the choice.
 
-An unresolved direct subject does not force a false selection. A `choose now` result may select a bounded problem whose option explicitly leaves that disposition unresolved and names the next question; otherwise return `probe again` with the exact next probe or `reroute` to the pattern that now owns the question. If the current set itself still needs reframing, reroute to C.18.
+Keep any inquiry limitation or reason needed by the decision or its recipient in the same result; inactive inquiry adds no placeholder or omission account.
+
+An unresolved direct subject does not force a false selection. A `choose now` result may select a bounded problem whose option explicitly leaves that disposition unresolved and names the next question; otherwise return `probe again` with the exact next probe or `reroute` to the pattern that now owns the question. If the current set itself still needs reframing, return to the option-formation step at the start of this branch.
 
 Stop when the lawful `ChoiceResult` and the reason it is lawful are recoverable. Changing the selected problem, `OptionSet`, comparison or acceptance basis, direct-subject disposition, `ChoiceRule`, `ChoiceResult`, or receiving decision changes the identity-bearing `U.ClaimGraph` and therefore identifies another episteme even when the chooser remains the same. Another supporting item, evaluation, or publication does not reidentify the focus episteme unless claim content, `EntityOfConcern`, or effective scheme also changes.
 
@@ -27085,7 +27087,7 @@ Inspect the account through the lightest optional view that changes the decision
 
 The development lemniscate is a didactic view of recurrent dependency and feedback among these questions. It is not a universal Method, lifecycle, calendar sequence, Work occurrence, level stack, or organization. For a mantra or diagram, state whether the order shown is teaching order, logical dependency, Method unfolding, planned Work order, observed Work order, or feedback; one order establishes none of the others.
 
-Return ordinary prose and add a small map only when it changes the decision. The account may be distributed across existing artifacts and may remain partly unresolved. A missing chooser, granularity, current option set, comparison basis, lawful choice result, direct-subject disposition, performer basis, pressure link, authority claim, or receiving decision is a named stop or reroute—not an invitation to fill a project template. An actual project occurrence still enters section 4.1 and receives its identity only as admitted composite `U.Work`.
+Return ordinary prose and add a small map only when it changes the decision. The account may be distributed across existing artifacts and may remain partly unresolved. A missing chooser, granularity, current option set, comparison basis, lawful choice result, direct-subject disposition, or receiving decision is a named stop or reroute—not an invitation to fill a project template. A missing performer basis or authority claim leaves only a selected claim that depends on it unresolved. An actual project occurrence still enters section 4.1 and receives its identity only as admitted composite `U.Work`.
 
 #### A.15.6:4.1 - Recover an actual project as composite `U.Work`
 
@@ -27227,7 +27229,7 @@ The five project qualifications add only what this use needs. A local C.2.1 clai
 
 Apply section 4.1a to the project system-of-interest. The plan and upgrade decision designate the already existing `PumpUnit-3`; direct Work-to-pump and Work-to-change facts separately say how the pump matters. Classification under a local `SystemOfInterestSystemRole` and any assignment occurrence require their own tests. A proposed controller remains plan content until its identity rule first holds; production completion, later operation, classification, and assignment are separate claims.
 
-Apply section 4.3 separately to the pump, calibration, and controller-production cases. The pump case follows pump condition through repair and test while later pumping use stays outside closure. The calibration case follows `TestRig-2` and the calibration facts used by qualification. The controller-production case closes only when the applicable Work, change, inception, completion or readiness, evidence, and decision facts support that result. Any Work-realized change separately names the performer System with its A.13 basis, F.6 attribution, Work, changed referent, and the relation connecting Work to change.
+Apply section 4.3 separately to the pump, calibration, and controller-production cases. The pump case follows pump condition through repair and test while later pumping use stays outside closure. The calibration case follows `TestRig-2` and the calibration facts used by qualification. The controller-production case closes only when the applicable Work, change, inception, completion or readiness, evidence, and decision facts support that result. Any Work-realized change separately names the performer System with its A.13 basis, Work, changed referent, and the relation connecting Work to change, plus F.6 attribution only when the receiving question explicitly asks under which assignment the Work was performed.
 
 Apply section 4.2 to the process question. `BearingDiagnosisMethod-4` is the reusable way. An A.22-selected enactment-review structure may organize independently admitted Work and the obtaining relations that state which Method each occurrence enacts, but it neither composes the Methods nor proves pump change. If event data links the work order, pump, controller, test rig, measurements, and several Work occurrences, keep those object relations visible; select a grouping or query only for the question being answered.
 
@@ -27296,7 +27298,7 @@ The examples include engineering, medicine, and learning to resist software-docu
 | Project-result field | Entities, values, conditions, choices, measurements, verdicts, decisions, relation occurrences, changed referents, and claim-bearing epistemes are grouped as one intrinsic result of the project. | Ask what the result is and what it is a result of or for. Keep that subject in the kind or claim already established for it, then choose one WMR outcome. If no positive assertion is available, return one non-assertability result marked `factually unsupported`, `missing-information`, or `missing-governor`; only the last is an ontology blocker. |
 | Network-is-project | A network of transformation-flow structures is treated as the project, workflow actor, or work-breakdown structure. | Keep the `E.18.NET` structure non-agentive and include Work in the project only through obtaining `A.15.1` work-parthood. |
 | Probe-is-constructor | The `A.6.RCD:4.2` conjunction row or a reference scheme is treated as if it supplied constructor semantics. | A simple one-case claim may use recoverable constructor semantics without a separately materialized substrate document. Pin the substrate for nontrivial, interoperable, proof-bearing, or reusable derivation; otherwise return `missing-substrate` only for the stronger unavailable claim. |
-| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS or network, a Method, a record, or the changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, establish the performer System with its A.13 basis, F.6 attribution, Work, changed referent, and the relation that connects Work to the change; a short account may omit an unused assignment identifier. Otherwise invent no actor, assignment, Method, or Work. |
+| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS or network, a Method, a record, or the changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, establish the performer System with its A.13 basis, Work, changed referent, and the relation that connects Work to the change, plus F.6 attribution only when the receiving question explicitly asks under which assignment the Work was performed; a short account may omit an unused assignment identifier. Otherwise invent no actor, assignment, Method, or Work. |
 
 ### A.15.6:9 - Consequences
 
@@ -27369,7 +27371,7 @@ Taken together, these sources support the Solution's actions: admit composite pr
 **First useful result.** Give a short answer with three visible parts:
 
 1. **Decision now:** take this next action because this current fact and the Method's limits make it the best supported choice.
-2. **Performer:** name the System that will perform it. If another System made the choice, name the chooser separately.
+2. **Performer:** name the intended System performer. If another System made the choice, name the chooser separately.
 3. **Stop and feedback:** say when to stop, fall back, or look again, and which resulting observation can inform the next choice.
 
 For a reversible local choice, ordinary project language is enough. Create a durable claim-bearing episteme only when another use needs to cite, compare, audit, or rely on the answer. The answer does not itself perform or predict the action, and this pattern adds no universal action, situation, or next-step kind.
@@ -27380,7 +27382,7 @@ For a reversible local choice, ordinary project language is enough. Create a dur
 - A case worker is handling an open case. New evidence may make the displayed case state stale, while policy and authority still bound the allowed response. The question is whether to refresh, take the safe fallback, compare several live actions, or stop.
 - A robotic maintenance system receives a recommendation during inspection. A sensor state has changed since the recommendation was produced. The question is whether the recommendation remains usable, needs refresh, or must give way to a safe response.
 
-**What goes wrong if missed.** A plan, policy, score, case file, recommender, dashboard, trace, or pattern body is treated as the chooser. Every cue is forced into a heavy decision record, or every adjustment is called improvisation. The team may also invent an option set after the real issue has become stale information, missing authority, missing capability, or no current Work at all.
+**What goes wrong if missed.** A plan, policy, score, case file, recommender output, dashboard, trace, or pattern body is treated as the chooser. Every cue is forced into a heavy decision record, or every adjustment is called improvisation. The team may also invent an option set after the real issue has become stale information, missing authority, missing capability, or no current Work at all.
 
 **What this buys.** The user gets one practical next action without losing the domain Method, current Work, deciding System, performer, authority, and stop or feedback condition. Familiar recognition, quick adaptation, explicit comparison, candidate generation, and tool-call planning remain different branches rather than one universal procedure.
 
@@ -27429,13 +27431,13 @@ Usually, one current Work occurrence may enact the domain Method and, when this 
 
 A domain Method may instead be an admitted composite containing the steering Method as a submethod. That requires the identity of both Methods and an exact composition relation under `A.3.1` and `B.1.5` or another direct composition rule. Method composition still does not prove that a particular Work occurrence enacted the submethod.
 
-Reading this pattern, consulting a MethodDescription, following a plan, or receiving a recommendation establishes none of those Method, composition, or enactment claims.
+Reading this pattern, consulting a MethodDescription, following a plan, or receiving a recommendation does not by itself establish those Method, composition, or enactment claims.
 
 #### A.15.7:4.2 - Run the seven-step steering Method
 
 1. **Confirm current Work or close this entry.** Name the ongoing Work occurrence at the grain that changes the decision. When the performed-Work claim matters, first use A.13 to identify the actual performer, then let A.15.1 independently admit the dated occurrence from its performance history, enacted domain Method, time, and required containing-System relation. If this steering account must also identify the assignment under which the Work was performed, check that assignment separately through F.6; F.6 identifies neither performer nor assignment, and a failed check leaves the Work intact. If Work has not begun, stop using this pattern: use `A.15.2` for intended-work content, `A.15.5` for work-entry readiness, or `C.11` only when a known chooser must compare an already formed `OptionSet`. Do not turn intended Work into a current occurrence or every small action into separate Work.
 2. **Use only action-guiding information about current facts.** Name the relevant observation, participant response, available material, resource or safety limit, commitment, case fact, or time pressure. Recover the source and time conditions that can change its use. A missing timestamp or the age of a record alone does not defeat still-applicable information. When a changed condition or missing required support defeats a relied-on claim, retain the other qualified information and name the affected limit. Use `C.11.DUA` to compare a feasible, timely refresh with a supported narrower action, the declared safe fallback or stopping. Obtain the needed evidence for the selected use; do not act on an unsupported premise because refresh is costly. A directly checkable live cue needs an ordinary observation sentence, not a universal situation record or evidence dossier.
-3. **Recover both Method positions.** State the domain Method and its relevant allowances and stops. State the steering Method only when it is actually used, and choose the separately grounded co-enactment or admitted-submethod account in §4.1. A description, plan, policy, score, case model, recommender, or dashboard may inform the decision; it neither acts nor decides.
+3. **Recover both Method positions.** State the domain Method and its relevant allowances and stops. State the steering Method only when it is actually used, and choose the separately grounded co-enactment or admitted-submethod account in §4.1. A description, plan, policy, score, case model, recommender output, or dashboard may inform the decision; it neither acts nor decides.
 4. **Form the smallest honest set of available actions.** Include only actions allowed now by the domain Method and named constraints. If the Method already requires one action and no material branch remains, follow it and stop using this pattern. If no acceptable action is known, use a subject-specific generation Method; use `C.18` only when an open-ended candidate archive and front are actually needed. Do not hide invention inside choice.
 5. **Use the lightest truthful choice mode.** State the cue, comparison, quick forecast, value concern, or mandatory criterion that can change the answer. A reliable cue may select a familiar response after an applicability and consequence check. An unfamiliar or consequential case may require diagnosis, adaptation, or a quick mental or physical forecast. When several live alternatives genuinely require comparison, pass the chooser, current `OptionSet` and comparison basis to `C.11`. Include an inquiry question only when it is live under C.11's conditions; an already supported choice needs no invented probe or omission account.
 6. **Keep choosing, authority, and acting separate.** Name the deciding System and the intended performer. If the choice depends on permission, responsibility, commitment, capability, or authority, establish that exact relation instead of inferring it from a system-role label or recommendation score. If the required relation does not obtain or cannot be grounded, return to the System that must supply it or stop.
@@ -27447,11 +27449,11 @@ Reading this pattern, consulting a MethodDescription, following a plan, or recei
 | --- | --- | --- |
 | The domain Method already requires one action | Follow the Method or its selected description directly. | The required action and its existing stop; no steering or decision wrapper. |
 | One familiar live cue points to one response and a quick consequence check passes | Use the recognition branch in this pattern. | One decision, intended performer, live cue, and nearest return to ongoing Work. |
-| Several admissible actions remain and comparison can change the choice | Use `C.11`; add `A.19` kernels only when their comparison or selection result matters. | A `ChoiceResult` that fits the applicable constraints, then return here for performer and feedback. |
+| Several admissible actions remain and comparison can change the choice | Use `C.11`; add `A.19` kernels only when their comparison or selection result matters. | A `ChoiceResult` under the applicable constraints. Return a fixed action here for performer and feedback; keep any retained tie-set explicit, and follow a `reject current set`, `probe again`, or `reroute` result to its stated next question. |
 | The available actions are absent or inadequate | Use a subject-specific generation Method; use `C.18` only for an actual open-ended archive/front question. | New candidates or an honest failure to generate; no premature choice. |
 | The action is fixed but calls to tools or services must be planned | Use `C.24`. | A call plan and checkpoint return; the call plan is not the underlying choice. |
-| A changed condition or missing required support defeats an action-guiding claim | Keep the other qualified information; compare feasible, worthwhile refresh with a supported narrower action, the named safe fallback or stopping under §4.2. | No action rests on the unsupported premise. Age or a missing administrative time field alone does not invalidate an applicable claim. |
-| Safety, authority, capability, applicability, or current Work is unresolved | Use the pattern that defines or tests the missing claim—for example, `A.2.2` for capability, `A.15.1` for performed Work, and `A.15.5` only for work-entry readiness; keep safety, authority, and applicability with the pattern that defines them. | No fabricated action, permission, capability, Work, or Method change. |
+| A changed condition or missing required support defeats an action-guiding claim | Keep the other qualified information; compare feasible, worthwhile refresh with a supported narrower action, the named safe fallback or stopping under §4.2. | Qualified information supports the selected continuation, with the affected limit stated. Age or a missing administrative time field alone does not invalidate an applicable claim. |
+| Safety, authority, capability, applicability, or current Work is unresolved | Use the pattern that defines or tests the missing claim—for example, `A.2.2` for capability, `A.15.1` for performed Work, and `A.15.5` only for work-entry readiness; keep safety, authority, and applicability with the pattern that defines them. | The missing claim grounded under its own rule, or a named unresolved claim with return or stop; no action, permission, capability, Work, or Method change is inferred from the unresolved claim. |
 
 #### A.15.7:4.4 - Keep the first result light
 
@@ -27483,13 +27485,13 @@ If the organization's admitted case-handling Method already includes this steeri
 
 #### A.15.7:5.4 - AI recommendation
 
-An AI model proposes the next inspection action, but a sensor condition changed after the model's input window closed. The model and recommendation remain separate from the deciding and performing Systems. The responsible deciding System refreshes the input, tests the recommendation under the current Method and safety constraints, uses a safe fallback, or stops. A confident score establishes neither currentness, authority, capability, nor the action.
+An AI system using a model proposes the next inspection action, but a sensor condition changed after the model's input window closed. The model and recommendation remain separate from the deciding and performing Systems. The responsible deciding System refreshes the input, tests the recommendation under the current Method and safety constraints, uses a safe fallback, or stops. A confident score establishes neither currentness, authority, capability, nor the action.
 
 ### A.15.7:6 - Bias-Annotation
 
 - **Optimization bias:** do not force every responsive choice into a fully enumerated optimization problem.
 - **Human-only bias:** deciding and performing Systems may be people, teams, robots, AI systems, organizations, or other equipped or combined arrangements.
-- **Automation bias:** a recommender, score, dashboard, or case file informs a decision only through current and applicable claims; it does not become the chooser.
+- **Automation bias:** a recommender output, score, dashboard, or case file informs a decision only through current and applicable claims; it does not become the chooser.
 - **Improvisation romanticism:** responsiveness remains bounded by the domain Method, actual constraints, and stop conditions.
 - **Record inflation:** durable records are optional and use-driven; a direct observation sentence can be enough.
 
@@ -27529,7 +27531,7 @@ An AI model proposes the next inspection action, but a sensor condition changed 
 
 ### A.15.7:10 - Rationale
 
-The missing contribution is not a new action ontology. It is a reusable Method for a common working question: what should this deciding System do next during current Work, given current facts and the Method that still bounds the Work? Keeping that Method separate from the domain Method preserves two independently testable claims while allowing either co-enactment or an admitted composite.
+This pattern supplies a reusable Method for a common working question: what should this deciding System do next during current Work, given current facts and the Method that still bounds the Work? Keeping that Method separate from the domain Method preserves two independently testable claims while allowing either co-enactment or an admitted composite.
 
 The pattern begins before late-stage option comparison and ends before tool-call planning or performed-action recording. That placement keeps the first result small and makes explicit comparison, generation, planning, evidence, and assurance conditional rather than universal burdens.
 
@@ -27540,7 +27542,7 @@ The pattern begins before late-stage option comparison and ends before tool-call
 | Recent peer-reviewed reviews: [high-risk decision-making](https://pmc.ncbi.nlm.nih.gov/articles/PMC10564111/) (2023) and [recognition-primed decision-making in sport](https://pmc.ncbi.nlm.nih.gov/articles/PMC9252097/) (2022) | Distinguish direct recognition, diagnosis or adaptation, quick simulation, rule-based response, analytic comparison, and adaptive response in different situations. | **Adopt the plurality of choice modes.** Do not turn one occupational model into a universal law; use the lightest truthful mode for the current case. |
 | Mature representation standard: [OMG CMMN 1.1](https://www.omg.org/spec/CMMN/1.1/About-CMMN) (2016) | Represents discretionary, event-centered case work whose later actions can depend on changing case information. | **Use as a representation contrast, not as current universal practice.** A notation or case file does not identify the deciding System, establish authority, or supply this Method. |
 | Current beta input: [OMG Essence 2.0 Beta 2](https://www.omg.org/spec/Essence/2.0/Beta2) (beta, March 2026) | Offers a current proposal for describing and composing engineering-method elements. | **Use only as neighboring beta Method Engineering.** Its beta status and method-description purpose do not make it a stable next-action doctrine. |
-| Method Engineering lineage and recent review: the [2010 situational Method Engineering review](https://www.jucs.org/jucs_16_3/situational_method_engineering_state.html) and a [2023 review](https://doi.org/10.1016/j.procir.2024.06.001) | Show established and recent ways to construct or adapt Methods for a situation. | **Keep as neighboring Method Engineering.** Constructing or describing a Method is not the same Work as choosing the next action during its enactment. |
+| Method Engineering lineage and recent review: the [2010 situational Method Engineering review](https://www.jucs.org/jucs_16_3/situational_method_engineering_state.html) and a [2023 review](https://doi.org/10.1016/j.procir.2024.06.001) | Show established and recent ways to construct or adapt Methods for a situation. | **Keep as neighboring Method Engineering.** Constructing or describing a Method and choosing the next action during its enactment are distinct activities; their Work identities require their own A.15.1 basis. |
 | Current FPF `A.15.1`, `C.11`, `C.24`, and `G.11` | Separates performed Work, fixed-option choice, downstream call planning, and refresh of a changed basis. | **Adopt directly.** Place this pattern between current Work/Method recovery and only the branch that becomes current. |
 
 **Qualification and smallest reopen.** These sources were checked for the uses above on 2026-08-26. Reopen only the row and the recognition, adaptation, currentness, or case-handling passage whose action guidance changes. A newer example, a new decision model, or a status change with no practical effect does not reopen the whole pattern.

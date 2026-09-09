@@ -25,7 +25,7 @@ Use the Readme when you recognize a difficulty but do not yet know the PatternID
 | [Preface](#preface) | Understand how the contributions connect, why their boundaries matter, and which combined results the repertoire can support. |
 | [Authoritative Pattern Bodies](#sie1---bound-the-receiving-use-and-semantic-contract) | Use the twelve SIE bodies under their own entry conditions; PatternID order is not a lifecycle. |
 | [Cross-Pattern Application](#cross-pattern-application) | Inspect AP242/QIF, semiconductor identity, quality/provenance, high-change-provider, and semantic-commons cases. |
-| [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check package anatomy, availability, sources, Guide returns, owners, and edition limits. |
+| [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check package anatomy, availability, sources, neighboring modeling work, owners, and edition limits. |
 
 ## Part I - Semantic Integration Engineering Methods
 
@@ -375,8 +375,8 @@ A quality engineer asks which QIF inspection plan and result concern feature `F`
 | receiver/use | quality engineer preparing an evidence return for one configuration-bound review; query by revision/configuration, feature, and effectivity |
 | answer claims | AP242 feature identifier and configuration/effectivity claim; QIF plan, characteristic, and result identifiers; relation disposition; source edition; timestamp; provenance; unmatched/incompatible status |
 | preserved distinctions | product feature versus inspection characteristic; definition versus performed result; revision versus configuration; applicability/effectivity; source identifier and issuer; plan versus result |
-| tolerated loss | display may coarsen source-local labels after exact identifiers and relations remain available; no unmatched feature or incompatible characteristic may be converted into a positive relation |
-| currentness and latency | AP242 source must be the released configuration current for the review; QIF result must satisfy the review's stated observation window; query latency must fit the review workflow |
+| tolerated loss | display may coarsen source-local labels after exact identifiers and relations remain available; no unmatched feature or incompatible characteristic may become a positive relation. For this constructed evidence-return review, the receiver permits the qualified row set with unresolved local-extension and unknown-unit branches shown separately; the partial answer supplies available qualified evidence while leaving those branches unresolved |
+| currentness and latency | for this constructed review at time T, the receiver requires the released AP242 configuration applicable to the review, QIF observations from T minus 24 hours through T, and a query response within two seconds. These are stipulated receiving-contract criteria for this demonstration |
 | authority | Systems Engineering owns release, configuration, and effectivity; the quality authority owns acceptance; source owners define their models; SIE may qualify mappings but authorizes neither decision |
 | tests | known match; unmatched feature; changed revision; incompatible characteristic; stale QIF result; missing provenance; source timeout |
 | stop/reopen | stop on unresolved configuration/effectivity, source edition, feature identity, permission, or acceptance rule; reopen when a relied-on AP242/QIF edition, review use, or protected condition changes |
@@ -840,7 +840,7 @@ In the AP242/QIF application, the lexical candidate `feature ↔ characteristic`
 | Candidate row | Direct relation judgment | Use qualification and disposition |
 | --- | --- | --- |
 | AP242 feature `F-17` ↔ QIF characteristic `C-17` | not identity and not class equivalence; the QIF plan asserts that `C-17` concerns the identified product feature under configuration/effectivity `R/E` | accepted-for-use as a directed `inspection-characteristic-concerns-feature` relation only after `SIE.5` qualifies the feature endpoint; no reverse substitution |
-| AP242 feature type `hole` ↔ QIF characteristic type `diameter` | a diameter characteristic can characterize some holes, but the types are neither equal nor simply broader/narrower | accepted-with-loss only for navigation from the selected plan row; forbidden as a global type crosswalk |
+| AP242 feature type `hole` ↔ QIF characteristic type `diameter` | a diameter characteristic can characterize some holes, but the types are neither equal nor simply broader/narrower | accepted-for-use for navigation from a selected plan row with a qualified feature endpoint to its linked hole feature and diameter characteristic. Return their separate source identifiers and types with the plan relation; forbidden as a global type crosswalk |
 | AP242 feature `F-22` ↔ QIF characteristic `C-99` | the candidate arose from a shared local label; effectivity and plan evidence do not support the relation | rejected; the interface returns unmatched rather than joining |
 | legacy feature class ↔ current QIF characteristic class | one local extension lacks an authoritative definition | unresolved and stopped for dependent mapping; return to the extension owner |
 
@@ -1768,7 +1768,7 @@ The team stops asking whether “the integration” passed one test. Each claim 
 
 #### SIE.10:5.1 - Positive AP242/QIF Subset Validation
 
-The constructed AP242/QIF package is frozen with named AP242/QIF source occurrences, correspondence set, identity dispositions, claim-composition rules, mapping specification, hybrid realization, and review interface.
+The constructed AP242/QIF package is frozen with named AP242/QIF source occurrences, correspondence set, identity dispositions, claim-composition rules, mapping specification, hybrid realization, and review interface. It uses SIE.1:5's stipulated receiving contract: the preceding 24-hour observation window, two-second response limit, and permission to return qualified evidence while showing unresolved local-extension and unknown-unit branches separately.
 
 | Layer | Constructed probe and result |
 | --- | --- |
@@ -1778,11 +1778,11 @@ The constructed AP242/QIF package is frozen with named AP242/QIF source occurren
 | identity/authority | Known feature identifier relation passes at revision/configuration/effectivity grain; obsolete revision and unresolved local ID stop their dependent branches. Engineering and quality authority remain external. |
 | claim composition | Compatible AP242 definition/effectivity and QIF plan/result claims retain sources; contradictory result status returns conflict; incompatible intervals remain non-comparable. Passes for qualified branches. |
 | transformation | Known mapping, one-to-many characteristic, unit conversion, unmatched feature, unknown unit, stale result, missing provenance, and source-timeout cases return the specified branches. One unknown-unit row stops. |
-| realization/interface | Stable semantic metadata is available; volatile source data is queried under captured occurrence times. Timeout returns incomplete only under the contract; challenge paths resolve to premises. Conditional pass. |
-| provenance/currentness/quality | Every accepted output row recovers sources, rules, and times; the released configuration and observation window meet the review contract. Undefined extension rows remain excluded. |
+| realization/interface | Stable semantic metadata is available; volatile source data is queried under captured occurrence times. The constructed one-second response meets the two-second limit. Timeout returns incomplete only under the contract; challenge paths resolve to premises. Conditional pass. |
+| provenance/currentness/quality | Every accepted output row recovers sources, rules, and times. The configuration matches the released review basis; QIF observations six hours before T meet the 24-hour window, while a 25-hour control returns stale. Undefined-extension rows remain visibly unresolved outside the qualified set. |
 | receiving workflow | The quality engineer retrieves a known result, recognizes unmatched/incompatible/conflict states, and stops on unresolved configuration or identity. Passes for the bounded subset. |
 
-The whole-use disposition is **narrow**: the qualified row set excluding the undefined local extension and unknown-unit branch is usable for the stated evidence-return workflow. The account does not accept the inspection result or release the configuration. A definition or unit-table repair reopens only the affected rows and receiving tests.
+The whole-use disposition is **narrow** under the stated contract: the qualified row set is usable for the evidence-return workflow, while the undefined local-extension and unknown-unit branches remain separately visible and unresolved. The receiver's permission covers this partial evidence answer. The account does not accept the inspection result or release the configuration. A definition or unit-table repair reopens only the affected rows and receiving tests.
 
 #### SIE.10:5.2 - A Decisive Defect and a Changed Receiving Meaning
 
@@ -2118,7 +2118,7 @@ Two manufacturers and a service partner exchange service observations using a sh
 | Local modules | Retain product-specific distinctions and identify their relation to the shared core. |
 | Correspondences | State the qualified relations between local and shared classes; different meanings remain visible. |
 | Content decision | The agreed maintainers decide changes to the shared module within its stated scope. |
-| Release decision | The designated release responsibility publishes an identified edition and its dependency conditions. |
+| Release decision | The participant authorized to release the module publishes an identified edition and its dependency conditions. |
 | Contact | A reachable participant receives questions, communicates decisions, and helps route disputes. |
 | Source authority | Each manufacturer retains the authority for its product descriptions and issued source claims. |
 
@@ -2138,7 +2138,7 @@ SIE.11 follows the changed classification need to the actual queries. Two consum
 - The service partner changes its receiving question to module-replacement planning. It adopts `equip:DriveModuleServiceable`, updates the relevant correspondence and query, and verifies that Y is included and X excluded. The receiving owner accepts that scoped result; SIE.10 validates its integration premises.
 - Manufacturer A retains its spare-drive query against `equip:DriveReplaceable`. Its required meaning and the qualified X/Y results remain unchanged, so it retains matching evidence for that use. Adopting the new class is not a prerequisite for continuing this query.
 
-The designated release responsibility publishes the identified module edition with those definitions, dependency conditions, and migration information. Contact supplies the notice; the content decision, product-source claims, and receiving decisions keep the separate remits shown above. The two completed consumer results do not establish migration by every other user.
+The participant authorized to release the module publishes the identified edition with those definitions, dependency conditions, and migration information. Contact supplies the notice; the content decision, product-source claims, and receiving decisions keep the separate remits shown above. The two completed consumer results do not establish migration by every other user.
 If the two manufacturers require incompatible local criteria, the commons can retain scoped local modules and their qualified correspondences. No broader equivalence is asserted merely to make the shared diagram simpler.
 
 #### SIE.12:5.2 - A Sufficient Interface Agreement
@@ -2240,7 +2240,7 @@ The application uses the repertoire as follows:
 
 | Contribution | Constructed application result |
 | --- | --- |
-| `SIE.1` | A contract names the engineer and workflow, the exact answer columns, effectivity and freshness rules, permitted unmatched rows, authority boundary, negative cases, and stop conditions. |
+| `SIE.1` | The constructed contract in SIE.1:5 names the engineer, workflow, answer columns and effectivity. It supplies the 24-hour QIF observation window and two-second response limit and permits qualified evidence with separately visible unresolved local-extension and unknown-unit branches. Authority, negative cases and stops remain explicit. |
 | `SIE.2` | A source inventory records AP242:2025 edition 4 at stage 90.92, “to be revised”, the applicable QIF edition, source models, identifiers, configuration/effectivity meanings, owners, and unresolved local extensions. |
 | `SIE.3`, when needed | Qualify an existing model, or extend it to distinguish an inspection requirement from an observation of the applicable configured feature. The plan and an observation of another configuration provide counterexamples. |
 | `SIE.4` | Correspondence rows distinguish product feature, inspection characteristic, plan applicability, configuration, and result relations; unsupported equivalence and incompatible-feature rows remain explicit. |
@@ -2249,9 +2249,9 @@ The application uses the repertoire as follows:
 | `SIE.7` | Executable rules select the released configuration, map accepted endpoint relations, preserve identifiers, reject unsupported joins, and trace every output row to its premises. |
 | `SIE.8` | A virtual or hybrid realization is selected against freshness, access, latency, provenance, and recovery rather than because a graph store is preferred. |
 | `SIE.9` | The receiving interface returns matched, unmatched, incompatible, stale, and source-error branches with their interpretations and provenance. |
-| `SIE.10` | Layered tests cover carrier/schema, source semantics, correspondence, identity/effectivity, composition, transformations, provenance/currentness, quality, and the representative query. |
+| `SIE.10` | Layered tests cover carrier/schema, source semantics, correspondence, identity/effectivity, composition, transformations, provenance/currentness, quality, and the representative query. SIE.10:5.1 applies the stated freshness, response and partial-answer criteria while keeping excluded branches visible. |
 
-The constructed package returns a bounded validated row set plus explicit unmatched or incompatible results. It stops if configuration/effectivity or feature identity is unresolved, a load-bearing source edition cannot be qualified, a conflict is hidden, or the receiving query fails. It supplies evidence to the applicable `SYSE.7`, `SYSE.13`, `SYSE.14`, or quality owner; it does not choose the released revision or accept the inspection result.
+The constructed package returns the contract-permitted qualified row set, with unmatched or incompatible results and the unresolved local-extension and unknown-unit branches visible separately. It stops if configuration/effectivity or feature identity is unresolved, a load-bearing source edition cannot be qualified, a conflict is hidden, or the receiving query fails. It supplies evidence to the applicable `SYSE.7`, `SYSE.13`, `SYSE.14`, or quality owner; it does not choose the released revision or accept the inspection result.
 
 ## APP-SIE-02 - Semiconductor identity and traceability
 
@@ -2356,16 +2356,16 @@ The source contributions guide particular actions and qualifications. Each body 
 
 The foundation source cut was qualified on 4 September 2026. The model, evolution, and commons contributions were qualified on 8 September using LOT, the maintained LOT4KG description, OWL 2, and the selected OBO principles. LOT4KG's site cites an under-review manuscript and contains mixed date metadata; its inspected activities supply method guidance rather than proof of a final peer-reviewed edition or measured advantage. The earlier [2024 joint-methodology proposal](https://2024.eswc-conferences.org/wp-content/uploads/2024/05/77770275.pdf) is historical background; its future-work account does not describe the maintained method's current evolution activities. The public ISO/IEC 21838-1:2021 description and stage 90.20 systematic review since 15 July 2026 delimit its use here; no full-standard conformance is claimed. Reopen only choices affected by changed relied-on content or use conditions.
 
-## Guide reconstruction return
+## Related modeling and engineering work
 
-The snapshot-bound R0/R5–R11 reconstruction remains a source record. Current SIE results answer integration-specific questions where the corresponding use is needed.
+Use SIE for the contribution that makes separately governed meanings usable together. The following working questions locate that contribution and the decisions that remain with neighboring practices.
 
-| Reconstruction address | Current SIE return | Boundary retained |
+| Working question | SIE contribution | Boundary retained |
 | --- | --- | --- |
-| `ONTOLOGY-ENGINEERING` atoms in R0 and R5 | `SIE.2` recovers source meanings, `SIE.3` qualifies or develops model content for an integration use, and `SIE.4` supplies correspondences | generic terminology, ontology, formal science, and local modeling remain with their direct owners |
-| `MODELING` atoms in R0 | `SIE.2`, `SIE.3`, `SIE.4`, `SIE.7`, and `SIE.10` apply when the model supplies a named semantic-integration result | local model construction and research remain outside SIE |
-| `FORMAL-MODELING` atoms in R0/R5/R6 | exact formal apparatus may become a source, mapping, or validation premise | formal modeling itself is not an SIE lifecycle |
-| `R8.8:3`, `R8.8:8`, `R8.8:9`, `R8.8:12` | SIE can return a qualified semantic interface, mapping package, identity/claim result, or affected-use result | SYSE keeps engineering descriptions, configuration, release, assurance, and digital-thread decisions; Data Engineering keeps pipeline operation |
+| Terminology and ontology across source models | `SIE.2` recovers source meanings, `SIE.3` qualifies or develops model content for an integration use, and `SIE.4` supplies correspondences | generic terminology, ontology, formal science, and local modeling remain with their direct owners |
+| A model needed for a receiving integration answer | `SIE.2`, `SIE.3`, `SIE.4`, `SIE.7`, and `SIE.10` apply when the model supplies a named semantic-integration result | local model construction and research remain outside SIE |
+| Formal apparatus needed by a semantic mapping or validation | exact formal apparatus may become a source, mapping, or validation premise | formal modeling itself is not an SIE lifecycle |
+| Connected engineering descriptions and changed lifecycle information | SIE can return a qualified semantic interface, mapping package, identity/claim result, or affected-use result | SYSE keeps engineering descriptions, configuration, release, assurance, and digital-thread decisions; Data Engineering keeps pipeline operation |
 
 ## FPF, neighboring practice, and authority boundaries
 
@@ -2391,6 +2391,6 @@ The five applications are constructed method demonstrations, not evidence of a p
 
 ## Publication boundary
 
-The pattern bodies are the authoritative working references for the twelve Methods. The Readme, Preface, applications, Table of Contents, and boundary account help readers find and combine them. The generated all-in-one carrier is a read-only projection of this source and those bodies.
+This publication combines twelve authoritative pattern bodies with the shared reader account. The bodies govern their Methods; the Readme, Preface, applications, Table of Contents, and boundary account help readers find and combine them.
 
 Use an instructional Guide for sequenced learning and memory formation. Use the Engineering DPF Suite Reference for cross-framework discovery. Neither publication replaces the pattern bodies or supplies a missing SIE result.

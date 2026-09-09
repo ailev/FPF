@@ -49,7 +49,7 @@ An AI agent can therefore help choose the **next justified move** without preten
 
 ### Engineering DPF Suite
 
-The table lists 17 DPFs in the current Suite plan. **Published - N patterns** gives the number of pattern bodies in the linked publication; **Planned publication** marks a selected DPF whose text is not yet available here. Each published DPF has a full pattern index.
+The table lists 18 DPFs in the current Suite plan. **Published - N patterns** gives the number of pattern bodies in the linked publication; **Planned publication** marks a selected DPF whose text is not yet available here. Each published DPF has a full pattern index.
 
 | Domain pattern language | Publication status | What it covers or is planned to cover |
 | --- | --- | --- |
@@ -70,6 +70,7 @@ The table lists 17 DPFs in the current Suite plan. **Published - N patterns** gi
 | **Embodied Rhythmics DPF** | Planned publication | rhythmic organization; rhythmic specifications and representations; enactment and comparison of variants; configuration of a performing whole; reference, phase, tempo and layers; and response, continuation and development. |
 | [**Semantic Integration Engineering DPF**](./Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Published - 12 patterns | making separately governed meanings and representations usable together; semantic-model reuse and construction; cross-source correspondences, identities and claims; extraction and transformation; interfaces and validation; response to semantic change; and maintenance of shared semantic modules. Includes ontology and knowledge-graph engineering Methods. |
 | [**Research Method Practice DPF**](./Engineering%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Published - 9 patterns | qualifying a research question or answering it from existing sources; comparing approaches and selecting a design; operationalization and sampling; records and provenance; claim analysis and criticism; reproducibility, replication and triangulation; corpus synthesis; revision and return of knowledge contributions; and retention or improvement of research Methods. |
+| [**Explanation Design DPF**](./Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Published - 6 patterns | explanatory questions and their subject grounds; worked examples and their limits; coordinated expression; responsive dialogue; targeted feedback and another learner attempt; and worthwhile repair for the recipient and task. Includes instructional, technical and advisory, and human–AI profiles. |
 
 **Platform Engineering** is included in Systems Engineering, with common Methods and subject profiles. **Development Opportunity Construction and Development-Direction Advising** now has its own DPF. PSD supplies its generic comparison and recommendation Methods; HCD supplies human capability-development and programme-comparison Methods.
 

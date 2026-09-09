@@ -14,8 +14,6 @@ A **DPF**, or **Domain Principle Framework**, collects methods for a field as a 
 
 [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the common concepts used across fields. The DPFs bring in the field's methods, competing approaches, examples and source evidence. This combination lets a team discuss technical choices, ways of working and organizational consequences in a shared language.
 
-**Current language limitation:** Some passages still leave the required action or its conditions unclear, or use unexplained abbreviations. First consult any definitions or prerequisite patterns cited there; if the instruction remains ambiguous, ask for clarification before applying or reproducing it.
-
 ## Start with the problem in front of you
 
 Describe the situation in ordinary words. For example:
@@ -30,7 +28,7 @@ You can read this way yourself, use a pattern in a working meeting, or ask an AI
 
 ## Choose a DPF
 
-The public folder contains eleven published DPFs with 206 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twelve published DPFs with 212 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -47,12 +45,15 @@ The public folder contains eleven published DPFs with 206 pattern bodies. Start 
 | Construct a useful development opportunity, or advise a person, organization or other developing subject. | [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded inquiry, characterized change, candidate direction with its supports, joint-reachability result, retained opportunity, or qualified advising engagement. PSD supplies the actual comparison and recommendation when those are needed. |
 | Decide whether research is needed, conduct it, examine its conclusions or improve its methods. | [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) - 9 patterns | An answer from existing evidence or a justified research plan; a protocol and record of research performed; an analysis, credibility judgement or corpus synthesis with its limits; a revised claim or question for another practice; or a choice to retain or improve the research method. |
 | Connect separately governed meanings for a receiving use, qualify a model, handle semantic change or maintain shared modules. | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 12 patterns | A bounded integration result, adequate model reuse or construction, affected-use repair or revalidation, or a sufficient interface agreement or modular-commons arrangement. |
+| Help someone follow why an outcome occurred, how a calculation works, or why a recommendation follows. | [Explanation Design](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) - 6 patterns | A useful explanatory question, an account with its grounds, a worked example, coordinated text and diagrams, a repaired exchange, or a supported choice about improving an explanation. Includes instructional, technical and advisory, and human–AI profiles. |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
 When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. The [instructional-material questions](ENGINEERING-DPF-SUITE-REFERENCE.md#evaluate-instructional-material-for-its-intended-use) lead to evaluation-specification construction and material evaluation; the [research preparation and trace questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-research-executable-and-inspect-its-course) lead to the RMP publication's operationalization and research-trace methods. When combining methods, match the result one supplies to what another needs and check their conditions of use. It also gives direct entries for [settling an HCD Method's supported use](ENGINEERING-DPF-SUITE-REFERENCE.md#develop-a-practice-or-a-persons-capability) and [analyzing a research claim or choosing a relevant credibility examination](ENGINEERING-DPF-SUITE-REFERENCE.md#analyze-a-claim-or-examine-its-credibility). For retaining or changing a research Method and returning its consequences, use [the research-Method entry](ENGINEERING-DPF-SUITE-REFERENCE.md#retain-or-improve-a-research-method).
 
 For equipment and maintenance questions, use the [maintenance question index](ENGINEERING-DPF-SUITE-REFERENCE.md#maintain-equipment-and-manage-maintenance) or the [PS17 advice-to-selected-work example](ENGINEERING-DPF-SUITE-REFERENCE.md#can-we-recommend-a-repair-before-it-is-ready-to-begin). Engineering and management here cover both the technical maintenance result and its policy, support, programme and coordination; they do not make every asset-management decision a maintenance task.
+
+For an explanation that someone must understand and use, start with the [explanation questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-an-explanation-understandable-and-usable). They distinguish the grounds for an account, its expression, the help a recipient needs and whether further repair is worthwhile.
 
 ## Looking for development recommendations?
 

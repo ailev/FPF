@@ -3,7 +3,7 @@
 > A domain pattern language for choosing, constructing, describing, testing, and improving Methods and their supporting arrangements.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 5 September 2026
+- **Version:** 9 September 2026
 - **Status:** Eternal alpha: a working framework with source-grounded guidance and bounded worked applications. The PLUS-ME production account is prospective guidance, not a report of recurring successful production.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -30,7 +30,7 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 | [Preface](#preface) | Understand the distinctions that keep Method, description, Work, support, evidence, and culture connected without collapsing them. |
 | [PLUS-ME profile](#plus-me--pattern-language-unfolding-situational-method-engineering) | Understand the production and situated-use profile, its source choices, worked application, costs and alternatives. |
 | [Production MethodDescription](#production-methoddescription--engineer-a-source-grounded-methoddescription-in-pattern-language-form) | Use the bounded reusable action, source-profile variation, results and stops without inferring performed Work or Method parts. |
-| [Cross-Pattern Application](#cross-pattern-application) | Follow a release case from an ambiguous methodology label to a bounded architecture decision and separate support results. |
+| [Cross-Pattern Application](#cross-pattern-application) | Follow the release case to a bounded architecture decision and separate support results, or compare explanations of a pattern language for a named reader and use. |
 | [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check scope, example forms, source limits, external-result use, edition identity, and reopen conditions. |
 
 **Part I - Method Focus, Architecture History, Repertoire, Situational Criteria, and Recovery**
@@ -141,12 +141,17 @@ the authoritative moves, worked cases, stops, and evidence limits.
 
 - **Situation:** A Method or candidate account exists, yet people cannot find the current edition, distinguish
   status, see the claims needed by their action, relate complementary representations, tailor a branch, use a
-  tool safely, give feedback, or stop before support overreaches.
-- **Question:** Which Method claims does each user need for the action at hand? When different actions need
-  different representations, how do their claims correspond, conflict, or need to remain separate? What is the
-  smallest support configuration that lets named users retrieve, compare, or tailor Method material, obtain
-  enactment support, and give feedback as required?
-- **First useful result or honest blocker:** A MethodDescription for named uses, or improved candidate content.
+  tool safely, give feedback, or stop before support overreaches. An accurate explanation can still leave a
+  needed relation unclear to its reader; two usable explanations can also merit a bounded comparison.
+- **Question:** Which Method claims does each user need for the action at hand? Which content or presentation
+  change would help this reader recover the needed relation, and is that change worth making? When different
+  actions need different representations, how do their claims correspond, conflict, or need to remain separate?
+  What is the smallest support configuration that lets named users retrieve, compare, or tailor Method material,
+  obtain enactment support, and give feedback as required?
+- **First useful result or honest blocker:** A MethodDescription for named uses, improved candidate content,
+  or a supported choice to retain or change an explanation. For an explanation comparison, distinguish changes
+  to the claims from changes to their expression, keeping the reader, intended use, preparation and available
+  help comparable. Retain a sufficient current explanation when no worthwhile change is established.
   For one action, obtain its needed result from the pattern that governs it. For different Method-related
   actions, use ME.9 to relate their representation selections. Keep one complete C.37 claim group per action:
   it states what the user can select for that action and on what basis. Then show how those selections relate
@@ -157,10 +162,15 @@ the authoritative moves, worked cases, stops, and evidence limits.
   fact or decision and how its absence prevents the action. This may concern, for example, what the representation
   is, how its claims relate to another selection, whether the user may rely on them, or whether the needed
   collection, access, capability, performed Work or task result has been established.
-- **Start with:** `ME.8` for use-bounded description content. Use `C.37` or a direct pattern and stop when one
-  action needs no Method-specific cross-use profile. Use `ME.9` when a current MethodDescription or candidate
-  account needs complementary use-bounded rows related across different Method actions, and `ME.10` when named
-  users must obtain and use the material through a configured support arrangement.
+- **Start with:** `ME.8` for use-bounded description content.
+  Use [ME.22](#me22---compare-method-descriptions-by-content-and-representation) when a content or form comparison
+  can change which explanation to retain. ME.8 supplies Method claims; ME.23 supplies the independent questions
+  and relations that explain the arrangement of a pattern language. The
+  [worked comparison](#compare-explanations-of-a-pattern-language) shows the distinction.
+  Use `C.37` or a direct pattern and stop when one action needs no Method-specific cross-use profile.
+  Use `ME.9` when a current MethodDescription or candidate account needs complementary use-bounded rows related
+  across different Method actions, and `ME.10` when named users must obtain and use the material through a
+  configured support arrangement.
 - **Stop or return:** Stop when the named action works or the defect preventing it is known. Distinguish the
   Method being described from its descriptions and representations, their editions or collections, and the
   Systems and support configuration through which users obtain them. A C.37 claim group states one selection
@@ -233,7 +243,7 @@ If you use this framework, please cite:
 
 ```text
 Levenchuk, Anatoly. Method Engineering Principles Framework.
-5 September 2026.
+9 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -2564,6 +2574,10 @@ Ask the reader to obtain the first useful result, not to rate which document loo
 - the source returns needed to support or correct it; and
 - the observed burden when time, source openings, attempts or other relevant effort were actually recorded.
 
+When the question is how much selected structure the reader can extract, use [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation). Identify the expressed account, its publication form and the reader, with selected relations, correctness criterion, prior knowledge, operations, help, access and budget qualified for this comparison. A qualitative account of recovered and missing relations often suffices. A number needs a declared structural scale and fixed units or denominator, not counts of words or arrows.
+
+Keep a design estimate separate from an actual recovery observation or a mapped formal estimate. A response establishes recovery in that trial, not a maximum or population reliability. State what changed in content, what changed in expression, and what preparation, actual help or a source return supplied. Familiar relations can count; a reader's independent correction of false or absent instruction is not credited to the expression. Missing basis is not zero. A successful changed-condition return supports its own condition rather than increasing the original amount.
+
 These are candidate observations, not one universal score. Select those that can change this comparison. A source-opening count does not measure comprehension; shorter reading does not prove lower total effort; recognizing a prescribed action does not establish its correct enactment.
 
 Choose readers and allocation to variants in proportion to the claim. A fresh probe withholds the other answers and the author's preferred conclusion when they would teach the task. Repeated-reader comparisons retain learning and order effects instead of calling the reader fresh. In AI probes, keep the model, supplied context and available tools recoverable when they affect inference. Generalizing from a few AI answers to human performance is another unanswered question.
@@ -2577,6 +2591,8 @@ A good return revisits the dependent claim rather than repeating the whole task 
 #### ME.22:4.5 - Return a bounded revision result
 
 State the inspected variants, the content/form contrasts they actually support, observations, losses, uncertainty and next decision. Distinguish a demonstrated local difference, no distinguishing result in this probe, an unavailable contrast and a confounded comparison.
+
+Compare extraction effort and receiving value separately from structural amount through C.11.CRC and C.11. Retain the sufficient incumbent when the proposed change supplies no worthwhile gain.
 
 Return a content correction to ME.8, a contradicted maintained claim to ME.12, and selection evidence to C.37 or ME.9. Use ME.11 for representative enactment evidence and ME.14 for a Method-worth decision. A causal claim needs its own justified research design and inference basis; neither this table nor an attractive explanation supplies it.
 
@@ -2661,6 +2677,7 @@ The serious cheaper alternative is direct claim inspection plus the existing rep
 ### ME.22:12 - Relations
 
 - ME.8 supplies the description and receiving use; A.6.3.RT supplies representation-preservation and loss.
+- C.2.8 supplies the optional structural-recovery characteristic; C.11.CRC and C.11 keep extraction cost and marginal usefulness distinct.
 - C.37 and ME.9 consume bounded evidence for one-action selection and cross-use representation profiles.
 - ME.12 receives a contradicted-claim correction; ME.15 distinguishes description revision from Method variation.
 - ME.11 supplies actual trial evidence; ME.13 and ME.14 separately judge transfer/fit and practical worth.
@@ -4704,6 +4721,8 @@ A changed fact can change a continuation judgement under the same frame. A chang
 
 Use all twelve substantive E.8 functions for the connected account: working situation, problem, forces, selected solution, grounding, bias, practical checks, recurring failure, consequences, Architectural Rationale, source comparison and relations. E.11.PFP governs where readers reach those answers. An inherited answer can be cited precisely; shared whole conditions and profile-specific consequences still need an explanation.
 
+If a language is claimed to expose more structure to its reader, use ME.22 with [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) for that specific comparison. Select the dependencies, alternatives or stops the reader needs, and distinguish new content from a different expression of the same claims. Identify the actual preparation, help and source returns. More patterns or links do not establish more extractable structure, and a larger amount does not establish that the language is worth its reading burden. Keep the direct description or smaller language when it suffices.
+
 Distinguish relations across scales. A specialization narrows conditions while retaining the relevant general claims. A bounded-use projection selects claims for a reader. Reuse can connect several profiles. Method composition establishes actual parts. A publication group provides navigation. There is no fixed maximum number of scales, and overlap does not establish a mathematical lattice; use C.29 only for that qualified representation.
 
 ### ME.23:5 - Archetypal Grounding
@@ -4781,7 +4800,7 @@ Against the cheaper direct description in the worked case, the language adds ind
 - ME.21 supplies semantic allocation; ME.5/ME.7 and ME.8 supply Method qualification and description.
 - E.8 and E.11.PFP govern body and whole-account form; C.2.1 governs retained account identity.
 - B.1.5 governs actual Method composition; A.22 and A.22.CGUS govern selected and unfolding structures.
-- ME.22 supplies a bounded description comparison when representation claims matter.
+- ME.22 supplies a bounded description comparison when content or representation claims matter, using C.2.8 when structural recovery is the selected question.
 - ME.24 tests reconstruction and affected refresh; ME.20 supports situated use without requiring production.
 - ME.9 and C.37 retain representation selection; ME.15 retains Method-variant and non-variant maintenance.
 
@@ -5495,6 +5514,60 @@ Stop only the enactment-support task or claim whose mandatory criterion fails or
 
 The application establishes no causal effect, Method identity for any candidate account, effective composite Method, universal lifecycle, cross-domain transfer, general holder capability, selected A.22 support structure, AI-provider use or feedback return inside the support test, positive release Work, or broad cultural continuation. It supplies only the bounded support-use facts and pattern stops stated above.
 
+## Compare explanations of a pattern language
+
+An engineer has a use-bounded description of an admitted Method for checking a claim against its source. The engineer now asks why
+the surrounding language separates source allocation, coherence checking and reconstruction: should those
+three entries become one review procedure? This is a constructed comparison. The engineer knows ordinary
+procedures and can consult the complete framework, but has no private authoring notes.
+
+Use [ME.8](#me8---author-a-methoddescription-for-named-uses) for the claims describing the checking Method.
+[ME.23](#me23---architect-a-problem-first-methoddescription-pattern-language) supplies the different answer
+about the language arrangement: its entries serve independent questions, with different useful results and
+source returns. The existing arrangement is candidate A. The author proposes a shorter paragraph, B, and a
+table, C, for the same receiving question.
+
+**B — Selected explanation in prose.** Use ME.21 to identify which source contributions were carried into the
+language. Use ME.12 when a maintained claim contradicts its basis. Use ME.24 when a promised source contribution
+cannot be recovered.
+
+Choose the entry for the missing result and return to the affected question and its basis. Grouping these
+entries does not establish parts of one Method; a MethodDescription still concerns its own admitted Method.
+
+**C — The same selected claims in a table.**
+
+| Current question | Contribution to obtain |
+| --- | --- |
+| Which source contributions were carried into the language? | ME.21's source-allocation answer. |
+| A maintained claim contradicts its basis. What needs correction? | ME.12's coherence answer. |
+| A promised source contribution cannot be recovered. What is missing? | ME.24's reconstruction answer. |
+
+Choose the entry for the missing result and return to the affected question and its basis. Grouping these
+entries does not establish parts of one Method; a MethodDescription still concerns its own admitted Method.
+
+**Make the comparison.** [ME.22](#me22---compare-method-descriptions-by-content-and-representation) separates
+the available contrasts. B selects and rewrites content from A; A against B does not isolate a layout effect.
+C rearranges B's selected claims while retaining its common conditions. B against C can therefore address that
+presentation difference. The full ME.23 account remains available for conditions or questions beyond this
+selected explanation.
+
+For the stated task, the answer must preserve the reason for separate entries and select the first missing
+result. With an adequate allocation and one contradictory maintained claim, direct ME.12 use is enough.
+In a changed case, an argument needed for a new recheck becomes unavailable. Return the affected current-use
+claim and source relation, preserving the earlier answer and independently supported contributions. If the
+question becomes publication authorization, obtain that separately applicable result.
+
+A reading comparison would keep the engineer's preparation, task, source access, tools and permitted help
+comparable and retain the initial answer before giving a corrective cue. Record reading or source-return
+effort only when it is observed. A shorter paragraph or a table alone establishes no reduction in total
+effort, and a correct response establishes neither learning nor the effectiveness of the described Method.
+
+The source comparison supports the selected claims and their returns. It supplies no observed advantage of B
+or C for this reader. Retain the existing explanation unless an obtainable comparison can establish a
+worthwhile change. If a needed relation is absent, restore that content with ME.8 or the applicable language
+answer before crediting a new form. If the promise is instruction, use the corresponding HCD or NSTD
+contribution and its evidence conditions.
+
 # Framework Boundary and Refresh
 
 ## Intended use and ordinary non-use
@@ -5541,13 +5614,15 @@ The [author/publisher's catalogue](https://system-school.ru/books) provides disc
 
 ## FPF dependency and compatibility
 
-**Depended-on state.** This edition selects **First Principles Framework (FPF) — Core Conceptual Specification, Version September 2026**, status **Normative kernel, eternal alpha**, at the current-pattern state of **2026-09-05**, except for the ME.2 G.11 use explicitly migrated below. The exact depended-on units are the FPF PatternIDs cited in this edition's Table of Contents dependencies and in each pattern's SoTA and Relations sections. Read `Current FPF` in each imported body as this selected dependency basis, including that bounded exception, not an instruction to substitute whichever revision is newest when the reader opens it.
+**Depended-on state.** This edition selects **First Principles Framework (FPF) — Core Conceptual Specification, Version September 2026**, status **Normative kernel, eternal alpha**, at the current-pattern state of **2026-09-05**, with the bounded ME.2 G.11 and ME.22/.23 C.2.8 dependencies stated below. The exact depended-on units are the FPF PatternIDs cited in this edition's Table of Contents dependencies and in each pattern's SoTA and Relations sections. Read `Current FPF` in each imported body as this selected dependency basis, including those bounded dependencies, not an instruction to substitute whichever revision is newest when the reader opens it.
 
 **Direct uses.** The dependency supplies transdisciplinary Method and episteme identities; use-bounded representation selection and co-use; direct relation and selected-structure governors; evidence and causal-use boundaries; Work, WorkPlan, performer, capability, permission, publication, comparison, selection, currentness, and cultural-continuation results. Each ME pattern names the exact subset it consumes. `C.37` retains authority over one receiver/action claim groups, their direct-result, reliance, receiving-result, exposure/loss, disposition, and return positions. ME.9 retains only the MethodDescription or candidate-account profile that relates those complete rows across Method uses; ME.10 retains only the Method-material task-set and support-configuration specialization. Common episteme, view, mathematical-lens, publication, structure, collection, and representation-use results remain with their FPF governors.
 
 **Compatibility and migration.** This Method Engineering edition remains an account bound to the stated FPF state. A later compatible FPF change leaves unaffected ME results reusable. A changed relied-on Solution, predicate, kind, relation, or result form reopens only the consuming ME pattern and this dependency relation; migrate that dependency explicitly and issue a revised edition or migration account before claiming compatibility. Until that explicit revision, the stated dependency remains in force.
 
 **Bounded dependency migration — ME.2 currentness.** For ME.2's G.11 use, this edition selects the currentness result in [FPF's September 2026 use-specific assurance and currentness edition](https://github.com/ailev/FPF), `FPF@2026-09-07-EA03-ASSURANCE-CURRENTNESS`. It replaces the 2026-09-05 G.11 basis only for ME.2's repertoire-currentness question: continued applicability can be sufficient without refresh Work or a waiver; changed relied-on premises reopen the affected use, and actual evidence, permission and qualification windows remain binding. The repository is the discovery route to that supplying edition and G.11, not permission to substitute a later revision. ME.2's G.2/G.5 uses, C.37 and all other unaffected FPF dependencies retain the basis stated above. FPF remains external. Reopen this dependency only when the supplied G.11 result or ME.2's receiving claim, conditions or use changes.
+
+**Bounded dependency — description structure in ME.22/.23.** These two methods select [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) from the September 2026 FPF publication of 9 September 2026 when the comparison concerns selected structure a reader can extract from a method account or pattern-language explanation. C.2.8 governs the expressed episteme, expressing publication form and reader or observer, qualified by the comparison conditions and its own scale. ME.22 retains the smallest content/form contrasts and actual evidence; ME.23 retains the direct-description or smaller-language alternative. Extraction effort, receiving usefulness and Method effectiveness remain separate questions. Other dependencies retain their stated basis. Reopen this bounded dependency when the supplied characteristic or its receiving comparison changes.
 
 **Authority direction.** FPF does not depend on this DPF for the validity of its transdisciplinary results. A transdisciplinary discovery returns to FPF for its own architecture, review, and edition decision; Method Engineering keeps only the specialist remainder. Domain DPF results remain optional specialist returns with their producer's scope, evidence, authority, and stop.
 
@@ -5582,7 +5657,7 @@ the needed specialist result.
 
 ## Edition return
 
-**Method Engineering Principles Framework, 5 September 2026** designates the authored twenty-four-pattern framework episteme: its Readme, Table of Contents, Preface with the PLUS-ME profile and bounded production-MethodDescription, six Parts, the H/L/W worked application, the imported EC-417 cross-pattern application, framework boundary, and the exact pattern-body and application sources selected by the deterministic assembly. The edition name designates that claim-bearing framework account; a file is one carrier of it.
+**Method Engineering Principles Framework, 9 September 2026** designates the authored twenty-four-pattern framework episteme: its Readme, Table of Contents, Preface with the PLUS-ME profile and bounded production-MethodDescription, six Parts, the H/L/W worked application, the imported EC-417 cross-pattern application, framework boundary, and the exact pattern-body and application sources selected by the deterministic assembly. The edition name designates that claim-bearing framework account; a file is one carrier of it.
 
 `METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md` is one generated all-in-one Markdown presentation carrier for the edition. The carrier presents the selected reader form. Publication occurrence, actual access or use, currentness beyond the stated dependency and source windows, Suite membership, another product's availability, source authority, and Work authority each need their own basis.
 
