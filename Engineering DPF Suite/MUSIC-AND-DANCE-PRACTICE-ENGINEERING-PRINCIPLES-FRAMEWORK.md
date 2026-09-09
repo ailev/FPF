@@ -3752,7 +3752,7 @@ interaction, or cultural decision.
 | `MUSIC-COMPARE`, `DANCE-OBSERVE`, `TOCA-TEACHING`, and `RECOGNITION-METHOD-ABSENCE` in the maintained source register | Direct comparison, observation, teaching, and current missing-recognition boundaries. | They do not together constitute one universal recognition-development Method or scene-recognition result. |
 
 Use contextual inference as a working explanation only while it predicts observations better than relevant rivals.
-Check that a proposed FPF result is available for current use before relying on it.
+
 
 ### MDPE.23:7 - Relations
 
@@ -3764,9 +3764,14 @@ Check that a proposed FPF result is available for current use before relying on 
   transfer limits. Capability neither authorises nor performs selection.
 - `MDPE.6` and `MDPE.17` can use recognition evidence when changed-condition use or receiving enactment depends on
   noticing the relevant difference.
-- Current FPF supplies general capability, evidence, representation, and context distinctions. The proposed general
-  recognition-of-applicability and context-recovery result remains an external dependency whose availability for
-  current use must be checked.
+- When capability development is selected, [FPF E.23.CDI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23cdi---developing-capability-for-a-named-work-family)
+  guides the baseline, target, limiting contribution, protected conditions and representative transfer check.
+  Direct Music and Dance Methods still supply the intervention.
+- When a previously demonstrated response fails after conditions change and competing explanations would change
+  the next teaching or support decision, use [FPF E.23.CAE](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23cae---capability-access-and-expression-differential-probe).
+  Compare a qualified reference condition with a controlled change without further teaching; distinguish whether
+  the response is selected as applicable, accessible, expressed and enacted, while retaining surviving explanations.
+  The probe supplies observations for the later choice; it neither selects the intervention nor establishes a memory mechanism.
 
 ### MDPE.23:End
 

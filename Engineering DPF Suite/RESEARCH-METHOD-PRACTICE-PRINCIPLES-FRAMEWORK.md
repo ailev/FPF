@@ -1689,7 +1689,7 @@ Apply these assurance questions to the declared claim and Method; they do not pr
 - [ ] Missing or inaccessible evidence is distinguished from evidence against the claim.
 - [ ] The result states its supported, narrowed, defeated or unresolved scope without converting resource limits into stronger support.
 - [ ] The criticism account describes examinations actually made and retains the limits needed for the receiving use.
-- [ ] A defeated premise receives the precise question, design, operationalization, trace or owner return.
+- [ ] If a premise fails, the practitioner states the specific clarification or correction needed and sends that question to the responsible practice identified in §4.6.
 - [ ] A remaining credibility threat does not itself commission testing.
 - [ ] The receiving practice retains its criteria, protection, access and decision authority.
 

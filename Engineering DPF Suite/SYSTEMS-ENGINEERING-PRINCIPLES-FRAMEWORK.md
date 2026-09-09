@@ -7452,14 +7452,6 @@ qualified expert estimates for enacted engineering practice, prevalence, and eff
 
 ## SYSE.4 - Select an Engineering Challenge and Qualify Evidence Use
 
-> **Primary working result:** either an engineering-assurance plan for a future challenge or an
-> engineering-assurance account for evidence that already exists. The plan names one claim whose use matters to a
-> decision, one challenge or evidence need, the conditions and configuration that bound it, and the earlier answer
-> the practitioner must reassess if reliance changes. The account additionally names dated Work and its direct
-> result, the descriptive `A.10` evidence/provenance path, current validity limits, changed reliance, and the affected
-> earlier answer. Both results are claim-bearing epistemes. When challenge Work remains future, a separate
-> `A.15.2` WorkPlan coordinates it. Establish target-claim support, performed tests, evidence currentness, and decision authority through
-> their direct results and relations.
 
 ### SYSE.4:1 - Problem frame
 

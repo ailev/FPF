@@ -2809,8 +2809,6 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: selecting v
 - [ ] Progression changes one recoverable feature or uses comparable branches, with a pause, restoration, or backoff rule.
 - [ ] Support withdrawal does not remove a resource constitutive of intended later Work without explicitly changing the target question.
 - [ ] Apparent failure is differentiated from access, applicability, expression, adaptation, enactment, support, and task-design failures when material.
-- [ ] Weeks 8, 17, 25, and 34 remain a design example with continuing practice history, not an optimum or retention proof.
-- [ ] The final core probe remains thirty minutes; only its named fifteen-minute fragment lacks AI, while supplied tables and calculator remain.
 - [ ] Planned or observed episodes make no unsupported causal, universal-interval, transfer, or retention claim.
 
 ### HCD.10:8 - Common Anti-Patterns and How to Avoid Them

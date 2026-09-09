@@ -228,7 +228,7 @@ The worked [PumpWorks application](#app-ops-01--pumpworks-continuing-control-ser
 - **Question:** Which reusable moves fit this Work family, result and horizon, at what burden and with what evidence?
 - **First useful result or honest blocker:** An OPS.17 repertoire with selected uses, conditional alternatives, evidence gaps and reasons to reconsider each consequential claim.
 - **Start with:** OPS.17. Compare actual operations with current practice and a simpler adequate response, using protected conditions before trade-offs.
-- **Stop or return:** Use ME.15 for a consequential Method-variant question. A supported repertoire comparison or traceable candidate account can finish with its actual gaps; select a further trial question or evidence acquisition only for an attainable contribution worth its whole burden. A tool update may change support while leaving the method unchanged.
+- **Stop or return:** Use ME.15 for a consequential Method-variant question. In the operating note, record the comparison supported by current evidence, or the proposed way of working, its origins and the operating effects that remain unverified. Select a further trial question or evidence acquisition only for an attainable contribution worth its whole burden. A tool update may change support while leaving the method unchanged.
 
 ### OPS-QUALITY — Decide continuation, containment, acceptance or recovery from the right evidence
 
@@ -3289,7 +3289,7 @@ Before Method admission, the difficulty is sharper. The candidate account may be
 | plan and occurrence | A prospective plan makes observation possible, while only actual Work can supply occurrence evidence. |
 | local evidence and wider use | One bounded trial can settle a local choice while leaving transfer, general reliability, practical worth, and causality unresolved. |
 | change and lineage | A reusable semantic change can require a Method variant, while a changed tool, description, support, or departure may leave Method identity unchanged. |
-| speed and assurance | A small trial can reduce delay, while missing authority or a consumed protection condition must stop it. |
+| speed and assurance | A small trial can reduce delay, but it must stop if the required authority is missing or a protection condition no longer holds. |
 | one decision and many observations | Service, flow, human condition, finance, burden, side effects, and missing evidence can all matter without becoming one score. |
 
 ### OPS.16:4 - Solution
@@ -3611,7 +3611,7 @@ Reconsider a method when a relied-on condition changes, its operating result det
 
 Use ME.15 when the reusable semantics change: inputs, operations, applicability or result may define a Method variant. Keep changes to the description, supporting tool and one local departure distinguishable. Preserve evidence only for the claims and conditions it still supports. A combination of previously admitted methods needs its own evidence where their interaction changes the claimed result.
 
-Finish the present comparison or lineage from the qualified evidence, estimates and judgement available for the receiving decision. Retain the adequate incumbent or bounded candidate account with its actual gap when no further inquiry can make a worthwhile attainable contribution. Use ME.7 for the status of a proposed whole and ME.14 for its practical worth. Maintaining an account or choosing a repertoire supplies no additional Method admission, compatibility, empirical fit or transfer evidence, or permission for operating use.
+Use the available qualified evidence, estimates and judgement to complete the comparison needed by the decision maker, or to document the proposed method's origins and unresolved claims. Retain the adequate incumbent or bounded candidate account with its actual gap when no further inquiry can make a worthwhile attainable contribution. Use ME.7 for the status of a proposed whole and ME.14 for its practical worth. Maintaining an account or choosing a repertoire supplies no additional Method admission, compatibility, empirical fit or transfer evidence, or permission for operating use.
 
 When an unresolved operating effect could change the decision, compare the attainable contribution of a new trial question or evidence acquisition with its whole burden: design, performance, interpretation, delay and displaced operating Work. Select it only when that contribution is obtainable and worth the burden. For a selected trial, return the effect to observe, protected conditions, authority, stop and comparison basis. When the question concerns competing explanations, include the observation that could distinguish them. ME.11 can guide that trial. The repertoire choice itself establishes neither that the candidate was performed nor that it improved service.
 
