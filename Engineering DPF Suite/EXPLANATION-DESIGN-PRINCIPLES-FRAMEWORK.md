@@ -51,7 +51,7 @@ Use a public unit for orientation or source access. Search the complete pattern 
 - **Situation:** A text gives a conclusion but omits the derivation, causal grounds or rationale the recipient needs.
 - **Question:** What supports this particular connection under these conditions?
 - **First useful result or honest blocker:** The selected warranted account, or the exact missing subject question.
-- **Start with:** [Obtain and Carry the Subject Explanation](#obtain-and-carry-the-subject-explanation).
+- **Start with:** [Obtain and Carry the Subject Explanation](#exdpreface3---obtain-and-carry-the-subject-explanation).
 - **Stop or return:** Carry a sufficient account into its receiving use; return unsupported claims to the relevant subject practice while preserving useful conditional answers.
 
 ### EXD-EXAMPLE — The recipient cannot connect the rule to an instance
@@ -94,7 +94,7 @@ An explanation that already meets the receiving need may require no redesign. Th
 
 # Preface
 
-## The practice and the problem it solves
+## EXD.Preface:1 - The practice and the problem it solves
 
 Use Explanation Design when someone needs to recover a connection: why an outcome occurred, how a calculation follows, how something works, why one recommendation follows from its grounds, or how a selected arrangement answers its working problem. The governed practice includes preparing an explanation and performing an exchange in which the recipient contributes. Its first useful result is an account whose relevant connection and conditions the recipient can use, or an exact return identifying the missing subject contribution.
 
@@ -104,7 +104,7 @@ Explanation Design brings together the relevant contributions of formal explanat
 
 A recipient who only needs an already understood fact can use it directly. Creating a scientific explanation, selecting a management policy, securing agreement and establishing a human learning effect may supply or receive explanation work, but each retains its own question and evidence. A satisfying exchange alone settles none of them.
 
-## The distinctions that change the work
+## EXD.Preface:2 - The distinctions that change the work
 
 The **subject** is what the explanation concerns. The **question** selects the connection sought; the **purpose** explains why that question matters here. The **account** supplies the selected claims, relations and conditions. Its **expression** is the prose, formula, table, diagram, demonstration or combination through which it is available. The **recipient** interprets and may contribute under particular preparation, access, assistance and effort conditions.
 
@@ -124,7 +124,7 @@ This structural characterization is relational. The same text may make a connect
 
 Formal computational epiplexity has its own model and computational bound. Moving from it to a claim about human understanding requires a justified correspondence. The practical use of C.2.8 here does not require estimating a person's understanding in bits. Subject warrant, extraction effort, retention, transfer, usefulness and agreement remain separately answerable.
 
-## Obtain and Carry the Subject Explanation
+## EXD.Preface:3 - Obtain and Carry the Subject Explanation
 
 Recover the account that supports the connection the recipient needs. It may be a mathematical definition and derivation, a causal finding, a Method account or a recommendation's rationale. Select its relevant claims while preserving answer-changing conditions, alternatives and limits. The minimum useful account can be very short.
 
@@ -138,7 +138,7 @@ The research return can itself produce useful progress. The research exercise in
 
 This entry carries supplied subject results into explanation work. The six constructive Methods address remaining explanatory difficulties; a duplicate general Method for creating every possible subject explanation would obscure where the warrant comes from.
 
-## A worked exchange and its consequential returns
+## EXD.Preface:4 - A worked exchange and its consequential returns
 
 An analyst asks why the average of two branch means, 5.5, was rejected. The branches contain the eight observations just described. The report initially requires the mean across individual observations. Establishing that question with EXD.1 makes the required rule explicit.
 
@@ -150,7 +150,7 @@ A different contribution needs a different move. If the analyst still intends eq
 
 EXD.6 can compare a proposed repair with the current explanation. Adding the missing sum relation changes the account; rearranging those same claims changes form; supplying a hint changes assistance. If the current account already lets the analyst use the distinction, retaining it is a useful result. The case is a worked construction with explicit arithmetic criteria. It supplies no observation about human attention, learning or a population effect.
 
-## Why these Methods form a useful language
+## EXD.Preface:5 - Why these Methods form a useful language
 
 Question formation and dialogue have different first useful results. EXD.1 establishes or revises what needs explaining, including during preparation without a live partner. EXD.4 uses an actual contribution to decide the next explanatory move or a sufficient close. Keeping both direct entries supports prepared text and responsive interaction.
 
@@ -160,7 +160,7 @@ Their useful relations do not force a pipeline. An example can expose an ambigui
 
 The conceptual synthesis learns from Narrativization and Narrative Studies: connect source-faithful construction, cognition and production craft through their actual contributions. It does not import a narrative genre requirement. A derivation can explain without becoming a story, and a story's memorability does not establish the warrant of its explanation.
 
-## Assurance, limits and practical consequences
+## EXD.Preface:6 - Assurance, limits and practical consequences
 
 Recognize a promising explanation when its question, needed connection and use conditions are explicit enough to choose a constructive move. Assure the particular result with the relevant criterion: verify the mathematical derivation; check whether the recipient reconstructed the selected relation; inspect a recommendation's actual premises; or examine a later unaided task when that is the claimed outcome.
 
@@ -221,7 +221,7 @@ When interaction is unavailable, prepare from the known audience and task. State
 
 #### EXD.1:4.3 - Form the question that the subject can answer
 
-State the target relation, relevant conditions and the needed answer. A short sentence usually suffices: “For these eight values, why does equal weight per individual require weighting the group means by their counts?” Obtain its subject basis through [Obtain and Carry the Subject Explanation](#obtain-and-carry-the-subject-explanation).
+State the target relation, relevant conditions and the needed answer. A short sentence usually suffices: “For these eight values, why does equal weight per individual require weighting the group means by their counts?” Obtain its subject basis through [Obtain and Carry the Subject Explanation](#exdpreface3---obtain-and-carry-the-subject-explanation).
 
 If the requested connection lacks a warranted account, return that exact subject question. A causal claim may need an investigation; a recommendation may need another premise; a mathematical answer may need a definition or proof. Keep the question available while that work proceeds. Polished wording cannot close a missing warrant.
 
@@ -300,7 +300,7 @@ At the same practical grain, “Why is 5.5 wrong?” and “Which unit receives 
 
 ### EXD.1:12 - Relations
 
-[EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) uses and revises the question during an exchange. [The supplied-account entry](#obtain-and-carry-the-subject-explanation) obtains the answer's subject relations and conditions.
+[EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) uses and revises the question during an exchange. [The supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation) obtains the answer's subject relations and conditions.
 
 FPF [A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact-communicative-work-kind-occurrences-and-records) supplies communicative-use distinctions where that analysis is needed. [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) characterizes what a particular observer can recover from an account and form under selected conditions; it does not choose the question's purpose.
 
@@ -336,7 +336,7 @@ The example must therefore do two jobs together: make the needed connection reco
 
 #### EXD.2:4.1 - Select the relation and a discriminating instance
 
-Recover the current question through [EXD.1](#exd1---establish-and-revise-the-explanatory-question) when necessary. Obtain the definition, derivation, causal account or rationale through the [supplied-account entry](#obtain-and-carry-the-subject-explanation).
+Recover the current question through [EXD.1](#exd1---establish-and-revise-the-explanatory-question) when necessary. Obtain the definition, derivation, causal account or rationale through the [supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation).
 
 State what the recipient must connect. In a pooled mean, each group mean multiplied by its count reconstructs the group sum; the group sums and counts combine separately. Select small values that preserve this relation while exposing a likely competing rule. Unequal counts and unequal group means distinguish pooling individuals from giving groups equal influence.
 
@@ -423,7 +423,7 @@ At comparable calculation complexity, the unequal-count case distinguishes rules
 
 [EXD.1](#exd1---establish-and-revise-the-explanatory-question) selects the target question. [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) coordinates the expression of the worked correspondence. [EXD.5](#exd5---guide-a-recipients-own-explanation) guides a recipient's product and correction; [EXD.6](#exd6---compare-explanations-and-choose-a-worthwhile-repair) selects a worthwhile example change or retains a sufficient one.
 
-The [instructional profile](#instructional-explanation) preserves the HCD task, feedback and assistance returns. The [supplied-account entry](#obtain-and-carry-the-subject-explanation) retains the subject warrant.
+The [instructional profile](#instructional-explanation) preserves the HCD task, feedback and assistance returns. The [supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation) retains the subject warrant.
 
 ### EXD.2:End
 
@@ -579,7 +579,7 @@ Explanatory dialogue needs a constructive link between the recipient's contribut
 
 #### EXD.4:4.1 - Offer a contribution tied to the current question
 
-Use the available question and qualified subject account. If the target is uncertain, [EXD.1](#exd1---establish-and-revise-the-explanatory-question) helps identify the consequential distinction. [Obtain and Carry the Subject Explanation](#obtain-and-carry-the-subject-explanation) supplies the subject return.
+Use the available question and qualified subject account. If the target is uncertain, [EXD.1](#exd1---establish-and-revise-the-explanatory-question) helps identify the consequential distinction. [Obtain and Carry the Subject Explanation](#exdpreface3---obtain-and-carry-the-subject-explanation) supplies the subject return.
 
 Offer a claim with the ground, condition or correspondence that makes the next inference possible. Choose the grain from the task and the recipient's usable preparation. A short derivation can be one contribution; a demonstration may need one meaningful intermediate point. A fixed number of sentences or turns cannot determine that grain.
 
@@ -693,7 +693,7 @@ At the same local opportunity to respond, repeating the pooled-mean derivation a
 
 ### EXD.4:12 - Relations
 
-[EXD.1](#exd1---establish-and-revise-the-explanatory-question) supplies and revises the question. [The supplied-account entry](#obtain-and-carry-the-subject-explanation) provides the subject basis and its return.
+[EXD.1](#exd1---establish-and-revise-the-explanatory-question) supplies and revises the question. [The supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation) provides the subject basis and its return.
 
 FPF [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) qualifies structural recovery at an identifiable point in the exchange by the account, expression, observer and conditions. Changes after help receive their changed conditions. Human capability development supplies task-specific assistance, criterion-bearing feedback and retry when the receiving purpose is instructional.
 

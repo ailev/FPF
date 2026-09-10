@@ -213,7 +213,7 @@ The recurring difficulty is that a change proposal can name a desirable organiza
 
 The language offers related Methods that can be used in different combinations. Its seventeen patterns retain separate entries because an organization concept, an effective assignment, an operating contribution, a consequence comparison and a revised arrangement answer different questions. The [pattern selection and result relations](#pattern-selection-and-result-relations) identify those first results. To recognize a useful entry, start with a concrete difficulty in work; obtain the stronger evidence and authority only for the claim or action that will rely on them.
 
-## From a bounded change to continuing organization development
+## OCE.Preface:1 - From a bounded change to continuing organization development
 
 Continuing organization development concerns how an organization can keep making worthwhile contributions as its situation changes. OCE supplies the deliberate change of organization relations and capability within that broader work. Strategy can change the intended direction; Operations can reveal an unworkable commitment; human learning can supply a needed capability; product or platform engineering can change what support is possible. Each contribution retains its own result and professional basis.
 
@@ -230,25 +230,25 @@ Keep the subject of development explicit:
 
 Use these distinctions to connect development contributions: later work can expose a learning need, improved support can make existing capability usable, and criticism of an OCE case can improve the Method. The relevant result crosses between practices only when it changes the receiving question.
 
-## Actual, formal, and possible claims remain distinct
+## OCE.Preface:2 - Actual, formal, and possible claims remain distinct
 
 Sources differ in what they can establish. Use a chart, policy, position description, process map, interview, Work trace or service record for the bounded claim it supports. Check whether the asserted organization relation actually holds in the relevant situation and time window.
 
 An organization concept describes possible relations; choosing it does not establish them. A WorkPlan describes intended change Work. Support claims about performed Work, changed relations, organization capability, participation, adoption, implementation outcomes, organization results, retention and culture with the evidence each claim needs.
 
-## Several structures and several views can coexist
+## OCE.Preface:3 - Several structures and several views can coexist
 
 For the current decision, select the structure and direct relation you need to inspect. Relevant structures may concern contributions, Work, assignments, authority, resource access, information use, material transfer, service provision, coordination, capability, providers or culture. They need not be isomorphic. Do not call every connected arrangement a graph; a mathematical graph is one possible lens after its nodes, edges, relation meanings and intended use are selected.
 
 Project, process, and case views can expose different claims about the same Work. A project viewpoint foregrounds commitments, allocations, and decision slots; a process viewpoint recurring contributions and controls; a case viewpoint changing evidence, exceptions, and next decisions.
 
-## Pattern relations do not prescribe a lifecycle
+## OCE.Preface:4 - Pattern relations do not prescribe a lifecycle
 
 `OCE.1 → OCE.2 → OCE.3` shows the result dependencies when the change focus, current-organization account and concept alternatives must all be developed. It is not a calendar sequence. A current account can be repaired while a repertoire is refreshed; a known concept can enter downstream design without repeating every earlier result; changed evidence reopens only defeated claims.
 
 Use the smallest pattern whose result can change the decision. Follow a prescribed sequence when the selected Method requires it. The PumpWorks application is a worked example, the Table of Contents gives reading order, and a return to another practice asks for a needed specialist result.
 
-## How the contributions connect
+## OCE.Preface:5 - How the contributions connect
 
 The patterns connect organization design and realization with consequence comparison, revision, Method development and continuation of OCE practice. The [Table of Contents](#table-of-contents) identifies the specific question addressed by each pattern.
 
@@ -258,7 +258,7 @@ Use `OCE.10` for a participation or adoption gap in the target organization's wo
 
 Continuing organization development can combine these contributions with Strategy, Operations, Administration, human learning, research and product engineering. A comparison can remain useful when a proposed revision cannot proceed. An authorized revision still needs realization and later observation.
 
-## Conditions for using the contributions together
+## OCE.Preface:6 - Conditions for using the contributions together
 
 A combination must fit the actual organization and interval in which its results are needed. Preparing participants, practising, installing support, running old and new arrangements together, reviewing exceptions, observing consequences and recovering service can all consume the same person's time or depend on the same provider. Individually plausible contributions can therefore be unavailable together. Establish the joint feasibility of the selected contributions with the participants whose work or support is required, including capability, access, authority and protection conditions that hours alone cannot express. When change work overlaps with a continuing service, use OCE.11 to recover the complete overlap with the affected participants and service owner.
 
@@ -268,7 +268,7 @@ The same joint question applies to relations as well as resources. A repository 
 
 When an interval, support, protection or authority condition changes, reconsider the combinations that depend on it. The change need not invalidate an independent organization account, comparison or retained Method. This permits continued useful work while a defeated branch waits for the result it needs.
 
-## Architectural Rationale
+## OCE.Preface:7 - Architectural Rationale
 
 OCE is organized around recurring organization-change difficulties and the results that answer them. FPF supplies the shared distinctions for Systems, relations, capability, Work, evidence, Methods, comparison and choice. The OCE contribution is to use them in organization-change work: generate organization concepts, design contribution and position arrangements, establish assignments and enabling relations, realize a contribution while service continues, examine consequences, revise the organization, and continue the practice of doing that work. Using FPF and direct sources alone is sufficient for a question they already answer; the connected OCE language makes the recurring domain work available without reconstructing it each time.
 
@@ -285,7 +285,7 @@ The separation among patterns follows consequential choices in practice:
 
 A fixed change-stage model is useful when a selected Method actually requires that sequence. The language as a whole instead preserves direct entries, conditional returns and simultaneous work. Its Parts group reading, and its pattern relations explain how one result can support another. Neither relation imposes a complete route on every use.
 
-## Applying the language in different settings
+## OCE.Preface:8 - Applying the language in different settings
 
 The shared questions about contribution, actual work, relations, realization and consequences stay available as the setting narrows. The existing applications show which assumptions must change:
 
@@ -297,13 +297,13 @@ The shared questions about contribution, actual work, relations, realization and
 
 These applications use shared Methods with changed conditions; they do not establish transfer of a clinical, engineering or governance result between the settings. The [practitioner-population application](#app-oce-04---oce-practice-across-a-practitioner-population) changes the subject again: it concerns OCE continuation across practitioners, including observations outside one organization's control. It needs evidence about their actual cases and opportunities, rather than treating the population as one organization or capability holder.
 
-## Practical gains, costs and limits
+## OCE.Preface:9 - Practical gains, costs and limits
 
 The practical gain is a more precise next change: retain what works, identify the relation that prevents the intended contribution, obtain its missing professional result, or stop an unsupported action. The consequence comparison keeps an observed local improvement visible beside transferred burden. Revision can change the failing relation without discarding the whole arrangement. The cost is work to recover current conditions, involve knowledgeable participants, compare serious alternatives and observe use. Even a small intervention can consume scarce learning, support and recovery time.
 
 The sources and cases bring perspectives with different limits. A sponsor can see formal milestones while workers experience hidden coordination or displaced work. Available records can omit dissenting, departed or peripheral participants and people without permitted evidence access. Ask whose missing account could change the diagnosis or comparison, and preserve uncertainty when it cannot be obtained. Healthcare implementation research, software service practice and technical-product examples require qualification when used in another setting. The constructed applications illustrate the Methods; they supply no estimate of OCE's comparative effectiveness or enduring organizational improvement.
 
-## Questions before relying on a combined result
+## OCE.Preface:10 - Questions before relying on a combined result
 
 For the current use, ask:
 

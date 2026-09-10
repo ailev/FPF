@@ -98,7 +98,7 @@ This complete first edition helps operations practitioners, service and producti
 
 If none matches, use the Table of Contents and search the pattern questions. When an OPS body does not establish the needed result, return that exact gap or use a qualified direct source. When another practice owns the result, return to that practice rather than widening Operations Management.
 
-For one live decision, open its direct pattern and reuse the inputs you already have. The [Preface](#preface) explains why the Methods have different results, when to combine them, and how their shared conditions can change the decision. Its [Architectural Rationale](#architectural-rationale) compares serious alternatives to this arrangement. Read the [conditions on a whole combination](#conditions-on-a-whole-combination) when several otherwise useful operating moves compete for the same service, resources or authority; a single-pattern use needs no preliminary tour of the framework.
+For one live decision, open its direct pattern and reuse the inputs you already have. The [Preface](#preface) explains why the Methods have different results, when to combine them, and how their shared conditions can change the decision. Its [Architectural Rationale](#opspreface12---architectural-rationale) compares serious alternatives to this arrangement. Read the [conditions on a whole combination](#opspreface10---conditions-on-a-whole-combination) when several otherwise useful operating moves compete for the same service, resources or authority; a single-pattern use needs no preliminary tour of the framework.
 
 The worked [PumpWorks application](#app-ops-01--pumpworks-continuing-control-service-operation) shows a supported decision and the conditions that can reverse it. The hospital and software probes then change the subjects, acceptance evidence and professional inputs. Their numbers are constructed examples; use your operation's facts and conditions for an actual decision.
 
@@ -268,7 +268,7 @@ Operations Management begins when the current question is how to coordinate cont
 
 The framework begins before optimization. OPS.1–OPS.4 identify the operation and commitments, select views for the current questions, distinguish subjects from records and maintain a usable current account. OPS.5–OPS.7 guide admission, case continuation and local priority or existing commitments. OPS.8–OPS.11 connect those decisions to queues, constraints, capacity and interacting structures. OPS.12–OPS.18 add human-condition interventions, credible service commitments, operating-financial comparisons, decision-specific accounts, evidence-bounded Method improvement, Method-repertoire choices and quality/reliability control. OPS.19 reconciles simultaneous operating results across cases and scales. OPS.20 tests deliberate continuation or change of Operations practice in a bounded practitioner population.
 
-## Start from a difficulty in continuing operation
+## OPS.Preface:1 - Start from a difficulty in continuing operation
 
 A production coordinator can have a busy cell while promised orders remain unfulfilled. A service lead can see an improving completed-case average while difficult requests remain open. A software team can generate changes faster while qualified review, incident recovery and delivery to users fall behind. In each situation, the question is what the operation can do next while preserving the results people already depend on.
 
@@ -276,43 +276,43 @@ Use OPS when continuing Work needs an admission, continuation, coordination, ser
 
 The recurring difficulty is that a locally reasonable move can lose its purpose at the receiving boundary. Starting more work can consume the time needed to finish existing commitments. A completed test may still lack the configuration correspondence needed for release. A cheaper method may shift unpaid checking to another participant. Calling all of these situations a flow problem leaves some decisive questions unanswered; ignoring their resource and timing relations can make the proposed service impossible.
 
-## Competing demands on one operation
+## OPS.Preface:2 - Competing demands on one operation
 
 Operations practitioners choose among consequences that are useful on different subjects and horizons. Earlier service may cost more. A larger ready buffer can protect a scarce resource while increasing waiting and holding burden. A small batch can expose defects sooner while consuming more setup. A Method trial can improve later practice while using the same expertise that current incident recovery needs. OPS keeps those differences visible long enough for the responsible participants to make the choice.
 
 Three conditions shape that choice throughout the repertoire. First, only usable capacity at the required time can support a promise; nominal hours, equipment counts and available money answer different questions. Second, existing commitments and protected human, service and specialist conditions limit which alternatives are feasible. Third, the evidence must fit the claim: a load bound, observed event, forecast and causal explanation support different decisions. Within the feasible alternatives, the responsible decision maker can state a preference for earlier service, lower payment, greater resilience or another relevant gain. The framework supplies no common score that converts every consequence into the same value.
 
-## Work, descriptions, structures, and records remain distinct
+## OPS.Preface:3 - Work, descriptions, structures, and records remain distinct
 
 Work is admitted under its own conditions. Project, programme, process, case, queueing, and control views describe or coordinate Work for different questions; they do not create rival Work kinds. A selected actual structure consists of its actual constituents and obtaining relations. A board, diagram, mathematical graph, event log, case file, model, or dashboard is a representation or record with a bounded use.
 
 Name the actual structure that changes the decision: transformation-flow, queue/resource-dependency, commitment, event, case-state, control, or another exact structure. Do not call every connected arrangement a graph. A graph is one mathematical lens after its nodes, edges, semantics, and receiving use are selected.
 
-## Demand, commitments, subjects, and units remain distinct
+## OPS.Preface:4 - Demand, commitments, subjects, and units remain distinct
 
 Demand can enter before Work is admitted. A commitment has parties, content, conditions, horizon, authority, status, and evidence limits. A subject can be a customer, case subject, physical item, release candidate, incident, material, service relation, account, or another exact entity. A Work item, case, batch, transaction, physical item, result, and commitment are not one “flow unit” by default.
 
 Every counted unit needs an identity rule and receiving use. Every measure and queue policy inherits that unit. The foundation patterns therefore make identity and relation gaps visible before later flow, constraint, capacity, quality, or financial decisions use them.
 
-## Several management views can coexist on the same Work
+## OPS.Preface:5 - Several management views can coexist on the same Work
 
 A project view can expose time-bounded commitments, WorkPlan content, decisions, dates, allocations, and closure. A process view can expose recurring Method, inputs, results, order, and controls. A case view can expose changing subject state, new facts, exceptions, permissible next Work, and closure. A queueing view can expose membership, waiting, order or service relation, and resource demand. A control-structure view can expose observation, actuation, reference, supervision, feedback, and unlike rates.
 
 These views need not be isomorphic. Co-use requires subject and grain correspondence, governing commitments, state correspondence, handoff or coexistence conditions, update and decision rules, conflicts, and stops. The Table of Contents order is a reader route, not a claim that actual Work must follow these views or patterns in order.
 
-## Shared attention is stronger than visibility and weaker than consensus
+## OPS.Preface:6 - Shared attention is stronger than visibility and weaker than consensus
 
 A current operating account carries qualified claims about exact subjects and commitments for named decisions. It includes evidence and provenance, uncertainty and disagreement, permissions and authority, next decisions or permissible Work, and refresh or expiry conditions. Different participants may use different views while preserving subject and claim correspondence.
 
 One source of truth is not required. A visible dashboard is not sufficient. The useful result is that participants can recover what is claimed, by whom or from which source, for which horizon and decision, with which uncertainty and authority, and what must happen next.
 
-## The control branch is conditional
+## OPS.Preface:7 - The control branch is conditional
 
 Observer, controller, plant, supervisor, observation, actuation, feedback, and rate distinctions enter an Operations decision only when they change its coordination choice. Current FPF supplies generic control relations, selected control-structure views, and rate/dynamics claim discipline. Operations retains the decision-specific operating System, commitments, current state, intervention, authority and evidence for that intervention, and service or production consequences.
 
 A controller product, loop diagram, feedback label, or control room does not make every operation a control loop. A selected control view establishes neither feedback closure, rate adequacy, stability, safety, authority, evidence sufficiency, nor an Operations Method.
 
-## Pattern relations do not prescribe an operating lifecycle
+## OPS.Preface:8 - Pattern relations do not prescribe an operating lifecycle
 
 `OPS.1 → OPS.2`, `OPS.1 → OPS.3`, `OPS.2 + OPS.3 → OPS.4`, `OPS.2 + OPS.3 + OPS.4 → OPS.5`, `OPS.5 → OPS.6`, and `OPS.6 → OPS.7` are useful result dependencies only where a matching current input changes the receiving decision. They are not a mandatory calendar sequence. A subject account can be repaired while a view is selected; a stale claim can be refreshed without reopening the operating System; admission can start from current OPS.1–OPS.4 inputs; an already admitted case can enter OPS.6 directly; and a temporal or consequence question can enter OPS.7 when its evidence and authority exist.
 
@@ -326,7 +326,7 @@ OPS.19 opens only when several otherwise valid operating results conflict across
 
 Use the smallest pattern whose result can change the current decision. Stop when the result is sufficient or when the next needed result belongs to another specialist practice or remains unsupported by the current evidence and authority.
 
-## Use the Methods together where their results meet
+## OPS.Preface:9 - Use the Methods together where their results meet
 
 OPS is a repertoire of related Methods. The Parts group their descriptions for reading; they do not declare one composite Method that every operation must perform. The useful connection is a result needed by another decision. Keep that result's subject, conditions, horizon and evidence when reusing it, and obtain only the missing contribution. The following combinations illustrate where more than one result matters.
 
@@ -340,7 +340,7 @@ OPS is a repertoire of related Methods. The Parts group their descriptions for r
 
 OPS.11 connects any of these uses to an actual coupling that can defeat it: for example, resource access granted for another interval or test evidence for another configuration. OPS.4 keeps the necessary claims recoverable for the participating decision makers. Neither requires building a complete enterprise model. The detailed input and return conditions remain in the cited bodies' Solutions and Relations.
 
-## Conditions on a whole combination
+## OPS.Preface:10 - Conditions on a whole combination
 
 When several operating moves are to be used together, judge their combined demands against the same actual operation and interval. OPS.10:4.2–4.4 supplies the resource and timing questions; OPS.12:4.4 supplies the comparison by affected group; OPS.13:4.2–4.4 preserves service and commitment conditions; OPS.14:4.4 preserves payment timing; OPS.17:4.4 and OPS.19:4.4–4.7 resolve consequential co-use conflicts. The whole chosen arrangement must fit the resources actually available, preserve each protected condition, comply with applicable rules and use evidence adequate for the claims on which it relies.
 
@@ -354,7 +354,7 @@ PumpWorks makes the whole condition tangible. In its stated repeat scenario, two
 
 If a shared condition changes, reopen each combination that relied on it and the specific local result made stale by the change. Keep independent results whose subjects and conditions still match. A new resource window can alter admission and a service offer while leaving a valid subject account and a useful readiness rule available.
 
-## Check the combined decision and its result
+## OPS.Preface:11 - Check the combined decision and its result
 
 Recognizing that one local gain can damage another result is enough to find a useful entry. Relying on a combined decision requires answers to the following substantive questions. Use the selected bodies' existing answers when they match; investigate a question only where its missing or changed answer can affect this use.
 
@@ -366,7 +366,7 @@ Recognizing that one local gain can damage another result is enough to find a us
 
 The cases document three consequential misreadings of combined use. Moving incomplete matters out of the ready queue improves that queue's appearance while leaving the recipient's waiting unresolved; OPS.8 retains the earlier waiting origin. Reporting only completed requests can hide due but still-open commitments; OPS.15 reconstructs the receiving population. Extending the rig operator's duty can improve utilization while consuming protected recovery and incident coverage; OPS.12 and OPS.19 change the operating arrangement. These are reasons to inspect the receiving result and affected people in an actual case, not reasons to add every possible measure to every decision.
 
-## Architectural Rationale
+## OPS.Preface:12 - Architectural Rationale
 
 The repertoire is organized around questions that can close separately. Admission can be decided while a later Work occurrence is still unperformed. A capacity bound can be established while service agreement remains open. An account can be correct while a quality response is undecided. A local Method change can be supported while wider retention remains unknown. Giving each result a direct entry makes those useful stopping points available and lets changed facts reopen only their real consumers.
 
@@ -383,7 +383,7 @@ Other arrangements are serious alternatives at a suitable scope.
 
 The control branch follows the same choice. FPF supplies control relations, views and temporal-claim discipline; OPS supplies the operating reason to use them and the resulting intervention question. A production controller, a service supervisor and a human decision maker can participate in different relations. Their presence does not require one feedback model for the whole operation. Prefer the simpler coordination account when no control relation changes the decision.
 
-## Apply the repertoire in production and service settings
+## OPS.Preface:13 - Apply the repertoire in production and service settings
 
 The framework has one cross-domain Operations scope. Its three applications are worked uses, not separate factory, healthcare or software profiles. They inherit the same distinction among demand, commitment, Work, accepted result and evidence, the same conditional entry rule, and the same whole-combination condition. What changes is the operating subject, the practical gain, the necessary professional premises and the evidence that can support the result.
 
@@ -395,7 +395,7 @@ The framework has one cross-domain Operations scope. Its three applications are 
 
 Coordinator, performer, service recipient, resource provider and acceptance authority name participants through their contribution or authority in the case. The same participant can coordinate a case and accept its result when both responsibilities and the necessary authority are established. A coordinator working with a fixed roster can use OPS to expose a collision and propose a feasible timing or admission change within existing authority. A decision to redesign positions or the organization's assignment arrangement needs the corresponding organization-change result; a permitted operating allocation stays with OPS. These distinctions help the practitioner find who can make the needed operating decision.
 
-## Gains, burden and limits of combined use
+## OPS.Preface:14 - Gains, burden and limits of combined use
 
 The combined use makes an operating choice explainable: which result it protects, which demand waits, which resource or authority is missing, what another participant must supply, and what observation will change the decision. It supports a truthful refusal or narrower service offer as well as a new start. Its costs are the observations, correspondence work, coordination and occasionally specialist analysis needed to make those claims. Reuse a current account or direct rule when it already answers the question; a larger model earns its effort only through a decision, assurance or recovery use.
 
@@ -403,7 +403,7 @@ The examples favor operations where cases, commitments, resource windows and res
 
 The three constructed applications demonstrate the reasoning and its branches. They do not establish comparative effectiveness across domains, future service probabilities, clinical or engineering outcomes, causal superiority of a Method, or sustained population retention. A result that needs any of those claims requires evidence for that use. The [source and refresh account](#source-use-and-currentness) identifies what to reconsider when a professional premise changes.
 
-## What this complete first edition covers and leaves outside
+## OPS.Preface:15 - What this complete first edition covers and leaves outside
 
 The twenty patterns cover independently enterable questions about operating focus, views, subjects, current state, admission, continuation, priority, queues, constraints, capacity and structural coordination. They connect that work to affected people, supported promises, operating and financial consequences, useful accounts, bounded Method improvement, Method-repertoire selection, quality/reliability responses, reconciliation of simultaneous operating results, and deliberate cultural continuation.
 

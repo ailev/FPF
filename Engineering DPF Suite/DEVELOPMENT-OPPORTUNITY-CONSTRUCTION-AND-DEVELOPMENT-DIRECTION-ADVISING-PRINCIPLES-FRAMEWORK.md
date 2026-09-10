@@ -103,7 +103,7 @@ Read the direct body's working situation, Solution, case and assurance limit bef
 
 A development question can arise before a goal, programme, adviser, or preferred intervention exists. A person may be unsure what contribution to develop; an organization may have a fashionable solution but no worthwhile receiving problem; an adviser may have sound technical inputs but no adequate service relationship. Use this language to construct a bounded opportunity or obtain responsible development-direction advice. Start with the result already available and the question it needs to answer. Stop when the next useful result or exact missing premise is clear.
 
-## Two independently usable branches
+## DOCA.Preface:1 - Two independently usable branches
 
 **Development Opportunity Construction** investigates what could change, why it would matter to a recipient, and which support configuration could make that contribution possible. It can return a conditional direction, a qualified opportunity, a retained possibility or a precise gap. It needs no adviser.
 
@@ -115,7 +115,7 @@ Consider Mira, the engineer-manager in APP-DOCA-01. She is considering supported
 
 If Mira asks a career adviser for help, the adviser needs suitable competence, participation and information-use conditions. Employer funding does not itself authorize disclosure of private assessment notes. Even with an adequate service boundary, the missing transfer result limits the stronger advice while a qualified direction or conditional set can remain useful. A request or probe needs its own attainable contribution and whole-burden justification. Mira's direction choice remains separate. HCD.2 can then compare programmes for the selected stake; any requested programme advice and the authorized programme choice are further distinct results. Learning Product practice realizes the chosen programme's instructional part as a Guide. The application shows these uses with explicit assumptions, including a direct programme-level entry that invents no prior personal opportunity history.
 
-## From an available result to a useful return
+## DOCA.Preface:2 - From an available result to a useful return
 
 A direction needs more than an attractive label. DOCA.1 bounds the inquiry; DOCA.1.CHR makes the subject's relevant characteristics, current readings, intended changes and unknowns explicit. DOCA.2 varies uses, technologies, characteristics and supports. DOCA.3 asks what worthwhile receiving problem the proposed contribution would answer. DOCA.4 keeps that contribution with the configuration needed to obtain it.
 
@@ -123,7 +123,7 @@ Enter at the first missing result. A team with a sound inquiry can search withou
 
 This division preserves useful work at several stopping points. An inquiry can end with a better question. A direction can remain useful while one permission or support result is missing. A retained path can name a later possibility without asserting that its first step happened. The person or arrangement with the relevant authority retains each choice and intervention.
 
-## Qualify the combination as well as its ingredients
+## DOCA.Preface:3 - Qualify the combination as well as its ingredients
 
 Joining results requires three judgements: each result is adequately qualified; it fits the receiving subject, configuration, use and horizon; and the proposed combination meets its shared conditions. A sound result for another data class or support arrangement may fail the second judgement. Individually feasible directions can fail the third.
 
@@ -133,7 +133,7 @@ In DOCA.5's constructed eight-week case, directions A and B each require the sam
 
 All pairs can fit while the whole set does not. In a separate arithmetic illustration, three non-shareable seven-hour activities each draw on one eighteen-hour budget. Every pair needs fourteen hours; all three need twenty-one. The deficit rules out that combination under those premises. It does not choose an optimal subset. APP-DOCA-02's six-plus-six versus eight-hour case shows another shared-capacity conflict in an organization inquiry.
 
-## Compare a later step from its own starting point
+## DOCA.Preface:4 - Compare a later step from its own starting point
 
 DOCA.6's constructed ninety-day review-support case distinguishes an independent improvement from a later enabling possibility:
 
@@ -147,7 +147,7 @@ The index-to-retrieval increment is ten minutes per case, one extra maintenance 
 
 An enabling relation needs engineering evidence that the later configuration can actually reuse the index and its supports. Keep custody, representative verification, quality, access and joint feasibility explicit. If the index has been realized, use that actual arrangement as the next baseline and retain its incurred setup history. A reversible arrangement does not recover spent time. If the retrieval connection fails, an independently qualified manual-support contribution can remain useful.
 
-## Respond to a change without rewriting the past
+## DOCA.Preface:5 - Respond to a change without rewriting the past
 
 [DOCA.8](#doca8---requalify-changed-development-opportunities) starts from the changed premise and the opportunity or service claim that used it. Obtain the smallest affected qualification and preserve independently supported uses.
 
@@ -157,7 +157,7 @@ A service conflict can require a different adviser or referral while an independ
 
 Preserve what was previously returned and distinguish a correction, a later recommendation, the recipient's actual choice and an implemented change. PSD.14 supplies the affected advice-follow-up contribution. Professional and operational owners retain their actual duties and authority. For an accessible source moved without a relevant meaning or use change, repairing the reference can be enough; this is not an instruction to reconstruct every opportunity.
 
-## Architectural Rationale
+## DOCA.Preface:6 - Architectural Rationale
 
 Construction and Advising belong together because their users can reuse and join contributions about the same opportunity while needing different entrances and completion results. An adviser can receive a qualified construction result; a self-directed inquiry can use the construction language without establishing a professional engagement. The shared account makes their conditions visible at the point of use.
 
@@ -171,7 +171,7 @@ The present relations are specific. DOCA.1.CHR supplies characterization used in
 
 A useful narrower profile can inherit applicable guidance and explain its changed situation, contribution, conditions and evidence needs. More than one level of narrowing is possible, and a contribution can serve several profiles. State whether the actual relation is bounded-use projection, specialization, composition, reuse or result dependence. A mathematical view needs its own selected elements and relation; overlapping membership alone supplies neither an order nor the bounds required for a lattice.
 
-## Source synthesis, costs and limits
+## DOCA.Preface:7 - Source synthesis, costs and limits
 
 The shared answer combines opportunity inquiry with result-specific qualification. DOCA adapts ISO 56007's public scope for opportunity and idea work before solution development: broaden the inquiry, examine the receiving problem and keep the proposed contribution prospective. A full paid-standard interpretation or effectiveness claim needs additional evidence. ISO 56008 supplies a bounded organization-measurement comparator; it does not furnish measurements for people, AI or facilities. OECD mission-portfolio work contributes retention, dependencies, adaptation and termination under uncertainty, while actual strategy and funding decisions remain external.
 

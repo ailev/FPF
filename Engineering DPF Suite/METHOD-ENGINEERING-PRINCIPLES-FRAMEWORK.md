@@ -28,8 +28,8 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 | [Method Engineering Principles Framework Readme](#method-engineering-principles-framework-readme) | Start from a recognizable Method-related difficulty and choose one direct pattern or a small cooperating set. |
 | [Citation](#citation) | Cite this framework or one pattern with its author, title, release date, and publication address. |
 | [Preface](#preface) | Understand the distinctions that keep Method, description, Work, support, evidence, and culture connected without collapsing them. |
-| [PLUS-ME profile](#plus-me--pattern-language-unfolding-situational-method-engineering) | Understand the production and situated-use profile, its source choices, worked application, costs and alternatives. |
-| [Production MethodDescription](#production-methoddescription--engineer-a-source-grounded-methoddescription-in-pattern-language-form) | Use the bounded reusable action, source-profile variation, results and stops without inferring performed Work or Method parts. |
+| [PLUS-ME profile](#mepreface7---plus-me--pattern-language-unfolding-situational-method-engineering) | Understand the production and situated-use profile, its source choices, worked application, costs and alternatives. |
+| [Production MethodDescription](#mepreface73---production-methoddescription--engineer-a-source-grounded-methoddescription-in-pattern-language-form) | Use the bounded reusable action, source-profile variation, results and stops without inferring performed Work or Method parts. |
 | [Cross-Pattern Application](#cross-pattern-application) | Follow the release case to a bounded architecture decision and separate support results, or compare explanations of a pattern language for a named reader and use. |
 | [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check scope, example forms, source limits, external-result use, edition identity, and reopen conditions. |
 
@@ -205,7 +205,7 @@ the authoritative moves, worked cases, stops, and evidence limits.
 - **Situation:** Unlike sources partly agree, and recurring users need a language that preserves the useful actions, conditions, differences and source returns.
 - **Question:** What should be recovered and allocated, which claims belong together, and can the resulting language reconstruct what its receiving use needs?
 - **First useful result or honest blocker:** One justified allocation, bounded description comparison, useful language relation or reconstruction/refresh result; or the source, Method identity, missing condition or unbounded coverage claim that prevents it.
-- **Start with:** The [production MethodDescription](#production-methoddescription--engineer-a-source-grounded-methoddescription-in-pattern-language-form) for the connected account. Enter ME.21, ME.23 or ME.24 at the missing result; use ME.4 for documentary recovery and ME.22 for an actual content/representation comparison question.
+- **Start with:** The [production MethodDescription](#mepreface73---production-methoddescription--engineer-a-source-grounded-methoddescription-in-pattern-language-form) for the connected account. Enter ME.21, ME.23 or ME.24 at the missing result; use ME.4 for documentary recovery and ME.22 for an actual content/representation comparison question.
 - **Stop or return:** Stop with a sufficient direct source or one-Method description. Preserve candidate status and independently supported results; return only affected claims unless the dependency boundary cannot be recovered.
 
 ### ME-CARD-01 — Develop a Method and its supporting arrangements without losing the receiving problem
@@ -258,7 +258,7 @@ is needed.
 
 This edition fixes its transdisciplinary dependency in [FPF dependency and compatibility](#fpf-dependency-and-compatibility). The depended-on FPF patterns retain authority over common identities, relations, evidence, structures, Work, comparison, publication, currentness, and cultural claims; this framework retains only Method Engineering moves that change specialist action. Domain Methods, evidence, quantities, legal and safety authority, and consequences remain with the practice that owns them. The patterns return results to engineering, management, learning, music and dance, administration, finance, or another receiving practice without taking over that practice's decision.
 
-## Method, MethodDescription, WorkPlan, and Work remain distinct
+## ME.Preface:1 - Method, MethodDescription, WorkPlan, and Work remain distinct
 
 A Method is a reusable way of doing. A MethodDescription is an episteme about one admitted Method. A candidate
 Method account can be improved, compared, and tested while its candidate status remains explicit. A WorkPlan is
@@ -270,7 +270,7 @@ it in a repository, and then reports that the Method exists and was enacted. Eac
 Tools, prompts, repositories, providers, capability, permission, authority, descriptions, support structures,
 and results likewise keep their own identities.
 
-## Several structures and several views can coexist
+## ME.Preface:2 - Several structures and several views can coexist
 
 A Method decision may depend on a Method composition structure, a Method unfolding, simultaneous Work, an
 allocation structure, a subject-and-support arrangement, a description structure, or cultural relations. These
@@ -283,7 +283,7 @@ dates, allocations, authorities, and decision slots. A process viewpoint may exp
 coordination correspondences. A case viewpoint may expose the changing evidence, exception, and next decision.
 The views do not create three Work occurrences, identify three Methods, or make a WorkPlan into performed Work.
 
-## Reader route and result dependencies do not prescribe Work order
+## ME.Preface:3 - Reader route and result dependencies do not prescribe Work order
 
 The publication begins with focus and recovery because later decisions need a truthful subject. It then moves
 through individual qualification and architecture, description and support, and trial and change. This order
@@ -295,7 +295,7 @@ Use the smallest entry whose result can change the decision. Follow a dependency
 actually consumes it. Stop early when an individual qualification, non-Method return, exact gap, or bounded
 repair already resolves the working difficulty.
 
-## Status, evidence, and assurance decisions are preserved
+## ME.Preface:4 - Status, evidence, and assurance decisions are preserved
 
 Identification, qualification, selection, trial, and effectiveness are different claims. A candidate account
 does not become a Method because it is coherent, selected for trial, represented well, supported by a tool, or
@@ -305,7 +305,7 @@ used in Work. A successful occurrence establishes only the observations and resu
 practical worth against current alternatives. The results can disagree. A Method can be coherent yet poorly fit,
 fit one situation yet fail transfer, or produce a useful result whose burden makes another alternative preferable.
 
-## What this publication foregrounds and leaves outside
+## ME.Preface:5 - What this publication foregrounds and leaves outside
 
 The framework foregrounds choosing and recovering the Method Engineering subject; qualifying candidates and
 comparing architectures; authoring and comparing descriptions and configuring enactment support; obtaining actual
@@ -319,7 +319,7 @@ their direct Methods and authorities. Open a neighbouring DPF only when its spec
 Method Engineering framework does not assume that a sibling edition is available merely because its discipline
 is named.
 
-## Why these Method Engineering questions stay separate
+## ME.Preface:6 - Why these Method Engineering questions stay separate
 
 A practitioner often receives a proposed Method as a package: a procedure, a diagram, a tool, a training course and a success story. The costly failure is to change the whole package without knowing which contribution is missing. Method Engineering separates the questions because their useful results and grounds differ. A truthful description may still describe an unsuitable Method; a suitable Method may have poor support; a well-supported trial may still leave practical worth unresolved.
 
@@ -329,11 +329,11 @@ This separation is also a protection against familiar biases. Source prestige do
 
 The cost is maintaining several answers and their dependencies instead of one undifferentiated success claim. Keep them separate only where a difference changes selection, action or reconsideration. ME.1 supplies the smallest subject; ME.5–ME.7 supply qualification and architecture; ME.8–ME.10 supply description and support; ME.11–ME.17 separate evidence, judgments and maintenance. ME.19 can explain why a professional architecture differentiated without treating that history as a justification of its present worth.
 
-## PLUS-ME — Pattern-Language Unfolding Situational Method Engineering
+## ME.Preface:7 - PLUS-ME — Pattern-Language Unfolding Situational Method Engineering
 
 PLUS-ME is a profile of the broader, representation-neutral Method Engineering framework. Use it when recurring Method Engineering questions benefit from connected pattern-language knowledge, or when that knowledge must be produced and maintained from unlike sources. It is not a requirement to describe every Method as patterns. ME.22's content/representation comparison is a general Method Engineering contribution and can be used outside this profile.
 
-### Situation, problem and first gain
+### ME.Preface:7.1 - Situation, problem and first gain
 
 A Method engineer has a handbook, current research, an existing pattern library and a returned account of local practice. They partly agree, but neither chapter boundaries nor a ready-made process tells the engineer which reusable actions, conditions and unresolved claims should survive. Later, a new fact can change the useful next question or the basis of an earlier answer.
 
@@ -341,7 +341,7 @@ The first gain can be very small: one justified source allocation, one descripti
 
 Several forces remain in tension: source fidelity and a usable synthesis; reusable knowledge and situation-specific judgment; enough preserved context and affordable reading; local repair and hidden cross-pattern dependence. The profile keeps serious alternatives visible. A direct description or small synthesis note may be cheaper. A stable source-processing sequence may be appropriate. Neither is excluded by the ability to unfold use under changing conditions.
 
-### Production and situated use are different contributions
+### ME.Preface:7.2 - Production and situated use are different contributions
 
 The production side engineers source-grounded Method-description knowledge in pattern-language form. ME.4 recovers documentary contributions; ME.21 reconciles and allocates them; ME.23 architects the useful language; ME.24 challenges promised coverage and localizes refresh. ME.5/ME.8 supply Method qualification and one-Method description content when needed. ME.22 is used when an actual revision question requires separating content and form.
 
@@ -351,7 +351,7 @@ The profile account concerns this arrangement of knowledge and uses. Its materia
 
 A body may describe one Method, part of a description, or a neighboring evidence or maintenance question. Several bodies can concern the same Method; one source contribution can support several bodies. A source chapter, pattern, action row or publication Part is not automatically a part Method. Use ME.5/ME.7 and B.1.5 for an actual whole-and-part claim. Real smaller Methods can be parts when the whole-forming relations support that account; a holonic interpretation is not supplied by layout alone.
 
-### Production MethodDescription — Engineer a source-grounded MethodDescription in pattern-language form
+### ME.Preface:7.3 - Production MethodDescription — Engineer a source-grounded MethodDescription in pattern-language form
 
 The subject of this description is one reusable production Method: use role-qualified source contributions and current suppliers to engineer actionable Method-description knowledge as a pattern language, retain the grounds of its allocation, and challenge and refresh its promised source coverage. The result can contain several one-Method descriptions and neighboring contributions. Call that whole result one MethodDescription only when its exact subject and substantive claims satisfy A.3.2.
 
@@ -378,7 +378,7 @@ F.0.1/F.1/F.0.2 govern source meaning, selection and conceptual synthesis. ME.21
 
 **Enactment boundary.** A prospective action description is not a dated Work occurrence or a WorkPlan. An account of an actual production attempt identifies its performers, conditions, support and observed results. During ongoing Work, A.15.7 supplies a separate next-action decision that names the chooser and performer. ME.11 can obtain trial evidence; ME.13 and ME.14 separately judge transfer and worth. The constructed application below makes the description inspectable but does not supply those empirical results.
 
-### Unfolding a use, including a changed situation
+### ME.Preface:7.4 - Unfolding a use, including a changed situation
 
 A practitioner recognizes the current difficulty, asks which result is missing and tests the conditions for the contribution that could supply it. An available earlier result may already suffice. New observations can change a current judgment, expose another missing result or make the present use stop. This is ordinary ME.20 use without an obligatory formal graph.
 
@@ -388,7 +388,7 @@ Changing facts within the same use frame requires a fresh applicable judgment. C
 
 This differs from relying on one up-front assembled method package, but it is not a claim that all earlier SME required that package. Intention-sensitive, evolutionary and continuous-composition lines already provide important alternatives. PLUS-ME's particular choice is the relation between source-grounded pattern knowledge, independently qualified Method semantics and situated result use.
 
-### Worked connected application — H, L and W
+### ME.Preface:7.5 - Worked connected application — H, L and W
 
 This is a constructed application, not a report of completed empirical validation. A Method engineer wants a small language for reviewing and adapting a Method description.
 
@@ -408,7 +408,7 @@ ME.20 continues from this newly missing result. If only source availability chan
 
 A useful answer to this case preserves the first action, condition and stop, distinguishes the three source roles, makes no invented part Method, and localizes reconsideration without losing another dependent use. A rehearsal of these answers tests the explanation. It does not measure production cost, human performance, transfer or causal superiority.
 
-### Practical checks, recurring failures and costs
+### ME.Preface:7.6 - Practical checks, recurring failures and costs
 
 Recognition and assurance answer different questions. First identify the missing result and a plausible contribution. Then check only the claims on which the actual use relies, with the evidence and independence that their conclusion needs. Do not treat finding the right heading, obtaining a graph path or reading all patterns as assurance.
 
@@ -420,7 +420,7 @@ Source familiarity, preference for a neat architecture and enthusiasm for patter
 
 The practical benefit is reusable source decisions and more local reconsideration. The burden is additional initial reading and maintenance of the few dependencies needed for return. In one bounded comparison with two clean-context AI readers, both the full situated-use body and a truthful entry-only alternative supported the required continuation. After a changed condition, the full-body reader reused its return guidance without another source opening; the entry-only reader reconstructed that boundary from two further source passages. This is a local reconstruction benefit, not a measured total-effort, correctness or human-performance advantage. The full body also requires its upfront reading and maintenance. Whole-production effectiveness remains unestablished. Use a simpler account when maintaining the language does not repay its burden.
 
-### Architectural Rationale and source comparison
+### ME.Preface:7.7 - Architectural Rationale and source comparison
 
 Method Engineering keeps SME's situation dependence and deliberate construction of reusable ways of working. PLUS-ME changes neither premise. It selects one profile in which patterns expose problems, forces, actionable contributions and useful relations, while Method identity and composition remain separately governed. The reuse unit is therefore not indiscriminately a source slice: it can be an independently qualified smaller Method, a description contribution or a neighboring non-Method answer.
 
@@ -441,7 +441,7 @@ The following sources supply specific questions and alternatives, not a proof th
 
 The selected alternative is a profile within Method Engineering because its general qualification, architecture, representation and assurance questions remain shared. A separate framework would need a different justified field promise. A prose-only synthesis remains a serious lower-maintenance option; a fixed route remains legitimate under stable conditions. Reopen the profile choice when current supply removes a distinct result, reconstruction fails for a promised use, source conditions change, or the maintenance burden defeats the practical gain.
 
-### Relations and scope of the whole account
+### ME.Preface:7.8 - Relations and scope of the whole account
 
 General Method Engineering remains directly available through ME.1–ME.19, with ME.22 available for non-pattern description comparisons. ME.20 supplies situated use; ME.21/ME.23/ME.24 add the production questions explained here. The documentary branch of ME.4 supplies both ordinary single-source and plural-source recovery.
 

@@ -102,7 +102,7 @@ The framework offers strategic Methods and teaching cases. It supplies no partic
 
 # Preface
 
-## Problem frame - Direction and commitment under changing conditions
+## STR.Preface:1 - Problem frame - Direction and commitment under changing conditions
 
 This language serves people making or advising strategic choices for an organization, a public service, a professional practice or another bounded System. It helps when a material change, uncertainty, new possibility or conflicting commitment makes the current direction worth reconsidering, or when a worthwhile contribution still has to be found.
 
@@ -112,19 +112,19 @@ Keep the Method for obtaining the subject's contribution separate from the Metho
 
 Use a direct decision, operating or professional Method when it already answers the whole question. Strategy is useful where the connection among direction, business model, capability, uncertainty and commitments remains unresolved. Advising, engineering, management and development keep their own professional questions and Methods.
 
-## Problem - From attractive intentions to responsible choices
+## STR.Preface:2 - Problem - From attractive intentions to responsible choices
 
 An appealing future can conceal an unaffordable present arrangement. A forecast can conceal a consequential unknown. A list of initiatives can lack a coherent contribution, while an annual planning cycle can continue long after enough evidence supports a smaller choice. Even a complete-looking option can leave unexplained how its promised result would be obtained.
 
 The opposite failure is paralysis: uncertainty is treated as a reason to require another study before every action. The language instead asks which attainable result can change the decision and whether it is worth its full burden. A sufficient answer is useful even when a broader ambition remains unresolved.
 
-## Forces - What the comparison must hold together
+## STR.Preface:3 - Forces - What the comparison must hold together
 
 Several tensions shape strategic work. Current obligations compete with development; flexibility has carrying costs; multiple feasible futures can favour different choices; and affected people may bear consequences that the decision holder does not experience. Evidence can arrive too late to help. Advice can be useful without granting authority.
 
 Keep these differences visible. One numerical score cannot by itself settle conflicting values, an unmet protected condition or an unavailable permission. A local improvement can also consume the very shared resource that makes the whole strategy feasible.
 
-## Solution - Connect the results the question needs
+## STR.Preface:4 - Solution - Connect the results the question needs
 
 The four Parts group related problems for finding and reading. They are not semantic parents, levels of an organization or a prescribed order of work.
 
@@ -140,25 +140,25 @@ Results connect by the content needed for the next question. A lead about a new 
 
 An adequate PSD uncertainty or robustness result can likewise be reused without repeating its analysis. A missing data permission blocks the dependent use, not every option. A material joint-capacity conflict can reopen a commitment while leaving its framing and independent evidence intact.
 
-## Recognition and assurance - Understand the move, then support the claim
+## STR.Preface:5 - Recognition and assurance - Understand the move, then support the claim
 
 Ordinary descriptions let a reader recognize a direction, option, trial or cultural practice. Recognition alone does not establish feasibility, actual performance, authority, evidence strength or cultural persistence.
 
 Use the direct source and professional guidance for the claim that matters. Keep observed conditions, estimates, hypotheses, recommendations, plans, decisions and performed work distinct. Stronger claims need their own support; missing stronger evidence need not erase a smaller independently supported result.
 
-## Archetypal grounding - Three unlike applications
+## STR.Preface:6 - Archetypal grounding - Three unlike applications
 
 [SensorCo](#app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection) follows one strategic question through the language. Its four-day preparation competes with a viable device improvement; the twelve-month direction remains open. The later ninety-versus-eighty-day conflict is a different question. A reduced seventy-eight-day proposal preserves reserve and a separately costed fallback but does not establish capability or authorize its whole scope.
 
 [The professional-practice case](#app-str-02---a-professional-considering-a-new-practice) tests personal choice, livelihood and eight available hours against a twelve-hour proposal. STR.5's personal example begins earlier, before the contribution has been selected; STR.6's diagnostic example follows a search for an unknown obtaining way and stops at its exact evidence gap. [The public-service case](#app-str-03---a-public-service-under-deep-uncertainty) tests a protected access condition that a favourable average cannot cancel. These constructed cases show use and limits, not empirical effectiveness.
 
-## Bias-Annotation - Whose contribution and whose burden?
+## STR.Preface:7 - Bias-Annotation - Whose contribution and whose burden?
 
 Corporate language can privilege commercial return, executive authority and measurable effects. A personal or public-service use may have different purposes and decision holders. Preserve those differences instead of copying SensorCo's criterion.
 
 Available evidence and visible participants can hide an affected group, tacit work or unpriced burden. Recover what can change the decision, including a competent objection, without turning every strategic question into unlimited discovery.
 
-## Conformance Checklist - Correct use of the connected language
+## STR.Preface:8 - Conformance Checklist - Correct use of the connected language
 
 - The strategic subject, receiving question, horizon and holder of the actual choice are clear.
 - An unsettled problem, a direction and an explained obtaining way remain different results; a sufficient result permits direct entry.
@@ -173,7 +173,7 @@ Available evidence and visible participants can hide an affected group, tacit wo
 
 These questions connect the pattern-specific answers. Reuse a qualified local result when the combination does not change its conditions; inspect the whole configuration when shared constraints can invalidate otherwise adequate parts.
 
-## Common Anti-Patterns and How to Avoid Them
+## STR.Preface:9 - Common Anti-Patterns and How to Avoid Them
 
 **Strategy as a forecast deck.** A single expected future replaces comparison. Use discriminating futures only where their differences change the choice.
 
@@ -185,13 +185,13 @@ These questions connect the pattern-specific answers. Reuse a qualified local re
 
 **Culture by publication.** A template or archive is treated as ordinary enactment. Ask what people actually transmit, recognize, select and retain.
 
-## Consequences - What changes in practice?
+## STR.Preface:10 - Consequences - What changes in practice?
 
 Participants can stop with a useful bounded answer, preserve meaningful alternatives and commit only what the present basis supports. A qualified negative result can save work; a small preparation can keep a larger choice open; and a timely signal can change one commitment without discarding independent results.
 
 The language requires comparison effort, source qualification and attention to shared conditions. It does not remove uncertainty or guarantee a superior outcome. Some questions remain blocked by unavailable evidence, capability or authority, and a worthwhile current course can coexist with that limit.
 
-## Architectural Rationale - Why a connected repertoire?
+## STR.Preface:11 - Architectural Rationale - Why a connected repertoire?
 
 One linear strategic-planning cycle would simplify teaching but would force unnecessary stages on direct questions and hide simultaneous work. Fifteen independent checklists would improve retrieval but lose the dependence among contribution, capability, whole cost and commitment. The selected repertoire keeps direct entry and the explicit relations needed for a connected answer.
 
@@ -203,7 +203,7 @@ Search and choice also differ. Finding a worthwhile contribution can finish with
 
 The same reasoning preserves a separate method and culture question. A method can be worthwhile but unused; an archive can be available without transmitting a practice. Neither an annual method refresh nor a universal culture programme follows from using this framework.
 
-## SoTA-Echoing - Current contributions, bounded transfers
+## STR.Preface:12 - SoTA-Echoing - Current contributions, bounded transfers
 
 The language combines source contributions because they change these working choices, not because their labels form a complete theory of strategy. Current scenario and deep-uncertainty methods inform discriminating futures, robustness and timely adaptation. Dynamic-capability and entrepreneurial-judgement work keeps agility, affordable loss and capability commitments conditional. Experimentation and set-based design research informs worthwhile inquiry and selective retention.
 
@@ -211,7 +211,7 @@ The Guides R7, R10 and R11 contribute discovery of worthwhile results and obtain
 
 These sources support particular Methods and choices, not an empirical claim that the whole language improves every organization. Historical anchors remain history where a later contribution is the current line for the question. Reopen a source-dependent choice when new evidence or changed conditions challenge that actual transfer.
 
-## Relations - Reuse exact results without transferring authority
+## STR.Preface:13 - Relations - Reuse exact results without transferring authority
 
 FPF is the common conceptual and Method basis. The four Parts are publication groupings; the STR patterns form a connected domain repertoire used in different combinations.
 

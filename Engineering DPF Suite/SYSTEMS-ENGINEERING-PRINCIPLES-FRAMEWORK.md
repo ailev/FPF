@@ -123,8 +123,8 @@ exists. Use the patterns to recover the actual result dependency; do not turn th
 project sequence.
 
 The [Preface](#preface) explains how the common engineering Methods, Platform Engineering and the selected
-software profile fit together. Use [Architectural Rationale](#architectural-rationale) when choosing or adapting
-that combination, and [Check the combined engineering answer](#check-the-combined-engineering-answer) when
+software profile fit together. Use [Architectural Rationale](#sysepreface9---architectural-rationale) when choosing or adapting
+that combination, and [Check the combined engineering answer](#sysepreface10---check-the-combined-engineering-answer) when
 several contributions must support one decision. These explanations reuse the full patterns and the existing
 applications; the Table of Contents remains the direct route to any individual Method.
 
@@ -320,7 +320,7 @@ alternatives, deciding engineering architecture, coordinating specialist returns
 builder Systems, developing the platform used by practitioners, maintaining configuration and release evidence,
 choosing changes to the project system-of-interest, its System-family option, the builder arrangement, or both for evolvability, and continuing engineering Methods.
 
-## Choose a useful result and combine its needed contributions
+## SYSE.Preface:1 - Choose a useful result and combine its needed contributions
 
 Use SYSE when local engineering answers leave an important connection unresolved: a component works but the
 intended use is unsupported, an architecture is attractive but its realization is missing, or a test result
@@ -346,7 +346,7 @@ Common Systems Engineering becomes useful when the question crosses those local 
 receiving use. Stop when the bounded answer is sufficient; a missing premise holds only the conclusion or
 action that depends on it.
 
-## One System can appear in several engineering structures
+## SYSE.Preface:2 - One System can appear in several engineering structures
 
 An engineered System can be the project focus, a part of a using or containing System, the bearer of functions,
 the result of realization Work, one configuration in a product family, a participant in operation, and the subject
@@ -360,7 +360,7 @@ and the conditions that matter to the current use. Call a System a suprasystem o
 planned use, realization, operation, maintenance, misuse, and change to Systems that can bear benefit, harm, or
 another engineering consequence.
 
-## Use and System concepts stay linked
+## SYSE.Preface:3 - Use and System concepts stay linked
 
 A concept of use says how actual or intended Systems participate in an operating situation and what effects are
 expected. A System concept says what engineered System arrangement could participate that way. Either can expose
@@ -374,7 +374,7 @@ interface choices explicit. Then use `SYSE.6` to compare the candidates
 for the current engineering use, record the selected result, and state the evidence and conditions that would
 reopen the choice.
 
-## Realization is recursive and continuous
+## SYSE.Preface:4 - Realization is recursive and continuous
 
 Concept and architecture Work can continue during realization. Agents change engineered Systems by
 performing Work with Methods. Those Agents rely on
@@ -393,7 +393,7 @@ configuration, or evolution can remain partly independent even when a higher-lev
 Use `SYSE.18` to coordinate commitments, interfaces, configurations, decisions, and evidence while respecting
 those limits on the integrating project's control.
 
-## Common platform work and software-specific Methods
+## SYSE.Preface:5 - Common platform work and software-specific Methods
 
 Platform Engineering concerns an enabling arrangement for named practitioner work. Its common language asks
 what task should improve, how a supported interaction works, how interfaces and contributions change, where
@@ -452,7 +452,7 @@ Methods. A software path still needs application behavior, security and other sp
 by this selection. Obtain missing professional results from the relevant practitioners and merge, release,
 production-acceptance or organization-change decisions from their authorized holders.
 
-## Configuration and evidence travel with continuing change
+## SYSE.Preface:6 - Configuration and evidence travel with continuing change
 
 Engineering identity is decision-relative but not arbitrary. A product-family item, actual unit, installed
 configuration, software realization, description edition, baseline, variant, state, and effectivity range can
@@ -471,7 +471,7 @@ A source change is not automatically a world-side System change. A changed model
 MethodDescription, architecture description, or supplier claim first changes an episteme. `SYSE.19` traces the
 claims and engineering decisions that relied on it and revalidates only the affected uses.
 
-## A Method has several structures; Work can be simultaneous
+## SYSE.Preface:7 - A Method has several structures; Work can be simultaneous
 
 An engineering Method can be described through several non-isomorphic structures. Its constructive composition
 asks which Methods or method parts make up a larger Method. Its unfolding asks which results and dependencies
@@ -494,7 +494,7 @@ practitioner population. One team choice or one successful project does not prov
 cultural change.
 Claims of later enactment and engineering consequences need their appropriate observations. A qualified current account or supported continuation may instead finish on existing evidence; a new study is selected only when its attainable contribution warrants its whole burden. Keep the deciding and affected Systems explicit.
 
-## How project Work contributes to engineering culture
+## SYSE.Preface:8 - How project Work contributes to engineering culture
 
 A gadget release, a subsystem architecture decision, a platform improvement, or an assurance account is a
 bounded project result. The Systems Engineering Discipline is a continuing cultural phenomenon: Method variants,
@@ -507,7 +507,7 @@ their current difficulty. Open `SYSE.21` only when the receiving question is del
 Systems Engineering Method variant across a named practitioner population. Open the FPF cultural-evolution
 patterns when the claim is transdisciplinary rather than Systems-Engineering-specific.
 
-## Architectural Rationale
+## SYSE.Preface:9 - Architectural Rationale
 
 The common language connects use, architecture, realization and evidence at the engineering decisions that
 need them together. A proposed System can have an attractive functional organization yet lack a viable
@@ -553,7 +553,7 @@ measurement validity require different procedures. A new source or an unlike use
 common move should change that move's scope or the affected profile, while the other usable contributions
 remain available.
 
-## Check the combined engineering answer
+## SYSE.Preface:10 - Check the combined engineering answer
 
 Recognizing a situation, finding a Method and constructing a candidate answer do not establish that the
 System is usable or that a change is authorized. The worked applications show how to obtain and limit an
@@ -604,7 +604,7 @@ engineering answer with a bounded next move. The cost
 is the work of reconciling contributions and obtaining the missing evidence; an isolated direct result
 should not acquire that cost unless its receiving use needs the combination.
 
-## Scope and specialist boundaries
+## SYSE.Preface:11 - Scope and specialist boundaries
 
 The framework groups its common-engineering patterns in five connected problem families (Parts I–V): project focus, use, and joint
 problem/System-family development; architecture and professional contributions; obtaining engineering results,

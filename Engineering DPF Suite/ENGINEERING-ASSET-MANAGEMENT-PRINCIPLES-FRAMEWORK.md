@@ -114,7 +114,7 @@ Cite: Anatoly Levenchuk, *Engineering Asset Management Principles Framework*, re
 
 # Preface
 
-## The working problem and practical gain
+## EAM.Preface:1 - The working problem and practical gain
 
 Engineering asset management concerns the value obtained through engineered assets over time. A practitioner may need to compare the continued use of one pump, choose an interacting set of renewals, reconsider a service contribution, or improve the practice that makes those decisions. Asset count does not determine which of these questions is present.
 
@@ -126,7 +126,7 @@ An *asset* is considered here for the value its use can contribute. The governed
 
 The Russian plain designation is *управление техническими активами*. The English name makes the engineered-asset scope visible. Enterprise Asset Management is a serious overlapping professional usage that includes maintenance, information and cross-functional practice. It is neither confined to software nor to large enterprises. Here the Engineering qualification states this language's subject; portfolio management names only one of its questions.
 
-## Forces and working distinctions
+## EAM.Preface:2 - Forces and working distinctions
 
 A decision needs enough scope to include an answer-changing dependency and enough restraint to remain usable. A longer horizon can expose renewal and residual value while increasing uncertainty. Equal financial units help comparison but cannot turn a service obligation or unsupported engineering claim into an acceptable option. Local efficiency can move cost, work or loss of service to someone else.
 
@@ -136,7 +136,7 @@ A recommendation also differs from authorization. An analyst can answer a commit
 
 Use the detail that can change the answer. Existing evidence can be sufficient. Where a missing result matters, ask what an attainable inquiry could resolve and include obtaining, interpreting and maintaining its evidence, delay, disruption and displaced work in its burden. [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands) supplies the general guidance for that choice.
 
-## Architectural Rationale
+## EAM.Preface:3 - Architectural Rationale
 
 The sixteen contributions are related by the results they supply, rather than by one lifecycle diagram. Four publication parts help navigation; they are not stages.
 
@@ -154,7 +154,7 @@ Maintenance can fully answer a maintained-functioning question for one asset or 
 
 This division avoids three losses. A portfolio-only language would exclude the D comparison. A maintenance-only language would leave its common-horizon value question unanswered. A universal financial score would conceal ineligible service, engineering or authority conditions. A complete enterprise application is one possible support, not the definition of the practice.
 
-## Recognition, assurance and ordinary stops
+## EAM.Preface:4 - Recognition, assurance and ordinary stops
 
 Recognition begins with the working cue: an estimate for the wrong unit, an alarm presented as a diagnosis, a forecast treated as a mandate, two feasible jobs that fail together, or a promised benefit treated as achieved. The relevant pattern identifies a useful first move.
 
@@ -164,7 +164,7 @@ The checklists ask whether those contributions can be recovered; they do not sup
 
 The two common applications demonstrate conditional economic and allocation reasoning. They do not establish real pump reliability, hydraulic behaviour, investment performance or equipment-work permission. A practitioner must obtain the actual inputs and authority required by the intended use.
 
-## Predictable mistakes, consequences and bias
+## EAM.Preface:5 - Predictable mistakes, consequences and bias
 
 Starting from “replace this asset” can remove a viable maintenance or service alternative before comparison. Ranking condition scores can spend money on a less useful programme. Comparing purchase prices over unequal horizons can hide operating burden and remaining service value. Adding a generic risk allowance to costs that already include the same response can count them twice.
 
@@ -174,7 +174,7 @@ The process can still privilege those who fund or request a project. Identify wh
 
 Using the language adds some comparison and coordination burden. Its benefit is a decision whose scope, conditions and consequences the recipient can understand. Retaining a supported option or correcting a small information mismatch can be the useful outcome. The appropriate depth depends on the decision, possible consequences and attainable evidence.
 
-## Current sources and what they support
+## EAM.Preface:6 - Current sources and what they support
 
 The GFMAM Asset Management Landscape, third edition (2024), and IAM's *Asset Management — an Anatomy*, version 4 (2024), locate this work within broad professional asset-management practice. This framework turns selected concerns into explicit practitioner operations and examples; those publications do not establish the effectiveness of these particular Methods.
 

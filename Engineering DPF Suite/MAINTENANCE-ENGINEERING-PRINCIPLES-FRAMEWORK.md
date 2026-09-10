@@ -128,7 +128,7 @@ Cite: Anatoly Levenchuk, *Maintenance Engineering and Management Principles Fram
 
 # Preface
 
-## The working problem and practical gain
+## MNT.Preface:1 - The working problem and practical gain
 
 A useful maintenance result connects knowledge of a System's condition to the functioning that someone needs. The practitioner may be an engineer choosing policy, a technician preparing an intervention, a planner coordinating access, an operator receiving control or a programme lead comparing fleet history. Their questions are related, but their results differ.
 
@@ -144,7 +144,7 @@ For one pump, selecting maintenance policy or an intervention to preserve or res
 
 The adjacent Engineering Asset Management Principles Framework concerns engineered assets, asset Systems and portfolios. Related [Enterprise Asset Management](https://www.sap.com/resources/what-is-eam) terminology also includes substantial physical-asset, maintenance, information and cross-functional practice; it does not mean software alone. The two field expressions do not make every external source's scope identical. A particular receiving question identifies which asset-management contribution is needed. Asset existence and use over time are distinct from how engineering Work is organized; no universal sequence of engineering stages follows.
 
-## Organizing the Methods around different results
+## MNT.Preface:2 - Organizing the Methods around different results
 
 The sixteen patterns are grouped into four publication Parts:
 
@@ -159,7 +159,7 @@ A typical condition-to-intervention route starts with an interpreted condition f
 
 Other questions use different connections. [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity)'s maintenance history supports [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) only where events and exposure are comparable. [MNT.14](#mnt14---compare-and-refresh-maintenance-methods) compares a Method's practical worth; [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture) examines whether variants are transmitted and enacted in the practice population. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) handles common conditions that separate successful job decisions cannot establish.
 
-## What the principal objects mean in practice
+## MNT.Preface:3 - What the principal objects mean in practice
 
 A maintained System is the equipment or other System whose contribution is at issue. A part is an actual constituent; a part number can describe many such individuals. A configuration is the relevant actual arrangement and values over an interval; a configuration description carries claims about it.
 
@@ -169,7 +169,7 @@ A policy is the reusable selection of task and applicability conditions. A parti
 
 These distinctions matter where they change action. Ordinary equipment and maintenance language is enough elsewhere; a routine repair need not acquire an ontology form. FPF supplies the general recognition, evidence, comparison, permission and assurance Methods. MNT adds the failure, task, support, operating and restoration reasoning that those general contributions do not decide by themselves.
 
-## Competing values and the whole-use constraints
+## MNT.Preface:4 - Competing values and the whole-use constraints
 
 Maintenance balances failure consequences with intervention burden and disturbance. Earlier detection is useful only if its interpretation and response can improve the result. More stock, inspection or data can help, but also consume resources or displace more valuable work. A programme decision includes whose downtime, effort and exposure are counted.
 
@@ -177,7 +177,7 @@ Two whole-use constraints are especially visible in the applications. [MNT.7](#m
 
 Where a protective or administrative requirement is disputed, assess its merits as well as preserving its present force. Identify the protected party, relevant harm and evidence, the baseline and incremental protection, the full burden and displaced harms, and who can amend it. Harmful retention or tightening deserves the same scrutiny as harmful relaxation. The existence of a rule does not prove its proportionality; disagreement with it does not cancel its authority.
 
-## Architectural Rationale
+## MNT.Preface:5 - Architectural Rationale
 
 The language follows recurring differences in maintenance decisions. Policy is reusable across cases; diagnosis and intervention choice concern the present case. Support and operation can defeat a technically plausible repair. Protection governs a selected act. Intervention, functioning and permission produce different claims. History, fleet learning and practice continuation work across longer horizons and populations.
 
@@ -191,7 +191,7 @@ Systems Engineering contributes configuration and enabling-arrangement results. 
 
 This arrangement has a cost: users sometimes need to reconcile several qualified results. It is worth that cost when the distinctions prevent an incorrect maintenance or operating decision. A direct equipment procedure or an already adequate specialist answer is preferable when it fully answers the current question. A specialist profile may be preferable when a jurisdiction or equipment family needs substantially different authoritative content.
 
-## Applying and checking the whole language
+## MNT.Preface:6 - Applying and checking the whole language
 
 Begin by asking what the recipient needs now. Reuse enough identification and evidence to answer that question; select more work only when it can change the answer or satisfies an operative requirement. Continue into physical intervention only when that work is selected and its conditions are met.
 
@@ -201,7 +201,7 @@ The direct checklists ask questions about their own result. They are not sixteen
 
 The main text-invited mistakes are reading the Parts as stages, treating a closed work order as restored service, taking a prediction score as maintenance value and mistaking a published Method for its adoption. The relevant corrections are embedded in [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention)–[MNT.11](#mnt11---certify-hand-back-and-authorize-resumed-use), [MNT.14](#mnt14---compare-and-refresh-maintenance-methods) and [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture) rather than delegated to a generic warning.
 
-## Assumptions, costs and limits
+## MNT.Preface:7 - Assumptions, costs and limits
 
 The principal examples concern industrial equipment and draw some bounded protection and human-performance lessons from aviation. They do not establish a universal transfer to software services, nuclear facilities or every other maintenance setting. An application needs the equipment's failure and operating basis and its actual current protection rules.
 
@@ -209,7 +209,7 @@ The language favours explicit supported claims. That can reveal an uncertainty t
 
 All application names, observations, quantities and outcomes in this edition are constructed. They make the reasoning inspectable; they are not evidence that the framework has improved an actual plant. A measured-effect claim requires its own population, comparator, observation and causal basis.
 
-## Shared source synthesis and useful neighbours
+## MNT.Preface:8 - Shared source synthesis and useful neighbours
 
 The selected line combines mechanism-sensitive task choice, evidence interpreted for its receiving decision, feasible support and action-specific protection. The serious alternatives are taxonomy-only guidance, technology ranking and task-completion-only control. The patterns show the particular differences in action and the limits that the selected line preserves.
 

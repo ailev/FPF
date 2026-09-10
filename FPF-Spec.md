@@ -35,27 +35,27 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 
 | ID & Title | Status | Concise content reminder |
 | --- | --- | --- |
-| What This Specification Is And How To Use It | full text | Distinguishes non-exhaustive direct examples, selected cross-pattern cards, Preface, ToC, direct pattern bodies, ordinary use, reliance-bearing support, exact first results, and three coupled flows. |
-| FPF As A Project, Not Only A Pattern List | full text | Places the evolving Core beside companion explanations, domain frameworks, local practice frameworks, publication carriers, and tools without merging their authority. |
-| Why FPF Exists | full text | Explains why difficult multi-participant work needs explicit distinctions, options, evidence, decisions, and return paths. |
-| Creativity And Assurance Mature Together | full text | Connects plural option generation, evidence, assurance, currentness, and bounded decisions without making them one lifecycle. |
-| Local Closure Inside An Open World | full text | Shows how a decision gains local closure by naming the actual source, scope, model-use organization, situation, comparison basis, or other subject-defined boundary it uses, together with its reopen condition. |
-| FPF As An Evolutionary Architecture For Thought | full text | Treats the framework as evolving reasoning architecture whose components, relations, and evaluations change together. |
-| Architectural Characteristics Of Thought | full text | Names the characteristics that make reasoning inspectable, composable, evolvable, falsifiable, and usable. |
-| Beyond Bias Hunting | full text | Replaces negative error catalogues with constructive reasoning objects and direct solution moves. |
-| Thinking Through Writing | full text | Explains when cards, records, tables, characteristic spaces, term sheets, patterns, and DRRs become useful thinking instruments rather than paperwork. |
-| Thinking-Oriented Architecture, Not A Descriptive Upper Ontology | full text | Distinguishes FPF's work of improving reasoning from cataloguing every entity that may exist. |
-| The Bitter Lesson Stance | full text | Prefers general scalable search and learning while retaining explicit constraints, evidence, and bounded use. |
-| From Flat Documents To Multi-View Truth | full text | Separates EntityOfConcern, descriptions, views, publication carriers, and reader uses while preserving return to source structure. |
-| Architecture As Structure Of Holons | full text | Explains architecture as selected structures of a holon in context rather than the diagram or document that describes them. |
-| Boundary Statements | full text | Shows where language carries commitments, admissibility, evidence, gates, and other boundary claims. |
-| Raising Semantic Precision | full text | Explains ontology-first restoration from overloaded wording to explicit kinds, relations, slots, and admissible uses. |
-| Big FPF Storylines | full text | Follows a report-review inquiry through qualified evidence, a shared-resource shortfall and the remaining comparison; explains Architectural Rationale, direct entry, profiles, shared source synthesis, alternatives, costs and changed-condition reuse. |
-| Transdisciplinarity As A Meta-Theory Of Thinking | full text | Shows how shared distinctions can connect disciplines without flattening their bounded meanings. |
-| The Culinary Architecture Of Collective Thought | full text | Uses an assembly analogy to explain why familiar ingredients still need an explicit architecture and quality discipline. |
-| The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
-| Purpose, Scope, And Non-Goals | full text | States FPF's intended use, tool independence, and boundaries against domain encyclopedia or one prescribed methodology. |
-| How To Continue After The readme | full text | Sends the reader from a practical-use card to the direct pattern, then to exact result, receiving use, stop, or return. |
+| FPF.Preface:1 - What This Specification Is And How To Use It | full text | Distinguishes non-exhaustive direct examples, selected cross-pattern cards, Preface, ToC, direct pattern bodies, ordinary use, reliance-bearing support, exact first results, and three coupled flows. |
+| FPF.Preface:2 - FPF As A Project, Not Only A Pattern List | full text | Places the evolving Core beside companion explanations, domain frameworks, local practice frameworks, publication carriers, and tools without merging their authority. |
+| FPF.Preface:3 - Why FPF Exists | full text | Explains why difficult multi-participant work needs explicit distinctions, options, evidence, decisions, and return paths. |
+| FPF.Preface:4 - Creativity And Assurance Mature Together | full text | Connects plural option generation, evidence, assurance, currentness, and bounded decisions without making them one lifecycle. |
+| FPF.Preface:5 - Local Closure Inside An Open World | full text | Shows how a decision gains local closure by naming the actual source, scope, model-use organization, situation, comparison basis, or other subject-defined boundary it uses, together with its reopen condition. |
+| FPF.Preface:6 - FPF As An Evolutionary Architecture For Thought | full text | Treats the framework as evolving reasoning architecture whose components, relations, and evaluations change together. |
+| FPF.Preface:7 - Architectural Characteristics Of Thought | full text | Names the characteristics that make reasoning inspectable, composable, evolvable, falsifiable, and usable. |
+| FPF.Preface:8 - Beyond Bias Hunting | full text | Replaces negative error catalogues with constructive reasoning objects and direct solution moves. |
+| FPF.Preface:9 - Thinking Through Writing | full text | Explains when cards, records, tables, characteristic spaces, term sheets, patterns, and DRRs become useful thinking instruments rather than paperwork. |
+| FPF.Preface:10 - Thinking-Oriented Architecture, Not A Descriptive Upper Ontology | full text | Distinguishes FPF's work of improving reasoning from cataloguing every entity that may exist. |
+| FPF.Preface:11 - The Bitter Lesson Stance | full text | Prefers general scalable search and learning while retaining explicit constraints, evidence, and bounded use. |
+| FPF.Preface:12 - From Flat Documents To Multi-View Truth | full text | Separates EntityOfConcern, descriptions, views, publication carriers, and reader uses while preserving return to source structure. |
+| FPF.Preface:13 - Architecture As Structure Of Holons | full text | Explains architecture as selected structures of a holon in context rather than the diagram or document that describes them. |
+| FPF.Preface:14 - Boundary Statements | full text | Shows where language carries commitments, admissibility, evidence, gates, and other boundary claims. |
+| FPF.Preface:15 - Raising Semantic Precision | full text | Explains ontology-first restoration from overloaded wording to explicit kinds, relations, slots, and admissible uses. |
+| FPF.Preface:16 - Big FPF Storylines | full text | Follows a report-review inquiry through qualified evidence, a shared-resource shortfall and the remaining comparison; explains Architectural Rationale, direct entry, profiles, shared source synthesis, alternatives, costs and changed-condition reuse. |
+| FPF.Preface:17 - Transdisciplinarity As A Meta-Theory Of Thinking | full text | Shows how shared distinctions can connect disciplines without flattening their bounded meanings. |
+| FPF.Preface:18 - The Culinary Architecture Of Collective Thought | full text | Uses an assembly analogy to explain why familiar ingredients still need an explicit architecture and quality discipline. |
+| FPF.Preface:19 - The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
+| FPF.Preface:20 - Purpose, Scope, And Non-Goals | full text | States FPF's intended use, tool independence, and boundaries against domain encyclopedia or one prescribed methodology. |
+| FPF.Preface:21 - How To Continue After The readme | full text | Sends the reader from a practical-use card to the direct pattern, then to exact result, receiving use, stop, or return. |
 
 **Part A - Kernel Architecture Cluster**
 
@@ -814,7 +814,7 @@ GitHub repository: https://github.com/ailev/FPF
 
 # **Preface** (non-normative)
 
-## What This Specification Is And How To Use It
+## FPF.Preface:1 - What This Specification Is And How To Use It
 
 This document is the Core Conceptual Specification of the First Principles Framework (FPF). It defines a standards-style pattern language for explicit, reviewable, improvable conceptual work in engineering, research, management, governance, and mixed human and AI projects.
 
@@ -844,7 +844,7 @@ The FPF `readme` section presents the semantic practical-use cards maintained th
 
 When several cards seem plausible, compare them by the situation they recognize, the difference between their first results, and their stop or reconsideration conditions. That comparison may remain in the conversation. Before selecting a pattern, inspect its Problem frame, Problem, Forces, Solution, Consequences, and ordinary non-use boundary. Once one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest useful result or an honest blocker. If the expected subject result is absent, keep an honest interim result and leave that expectation open. Keep an ordinary reversible judgement conversational; introduce an exact assertion, result basis, method, work, or reliance support only when that distinction changes the truth or a named later reliance needs it. Name a dependent use only when an actual continuation or later reliance is current. Use `E.11.PUR` when applicability, recommendation, coordination, or ordering among candidate pattern uses is the current question.
 
-### Four ordinary starts before a PatternID
+### FPF.Preface:1.1 - Four ordinary starts before a PatternID
 
 Sometimes the obstacle is not choosing among pattern titles. A familiar phrase already hides the project object that the next claim needs. The four direct starts below are independent: use the one whose situation is current, take its smallest useful result, and stop. They are not a lifecycle or a form to complete.
 
@@ -890,7 +890,7 @@ The large areas of the specification can be read as one conceptual architecture.
 
 That orientation list is only for lookup. The exact rules remain in the pattern bodies.
 
-## FPF As A Project, Not Only A Pattern List
+## FPF.Preface:2 - FPF As A Project, Not Only A Pattern List
 
 FPF is a project for improving how difficult reasoning is written, checked, taught, used by humans, and used by AI agents. The Core Specification is the normative center of that project, but it is not the whole project.
 
@@ -908,7 +908,7 @@ Those companion explanations, tools, project-local adaptations, and examples can
 
 This separation protects both sides. The Core can stay tool-agnostic and pattern-centered. Companions and tools can be vivid, practical, and domain-rich without turning every example into a new norm. The Preface therefore speaks about FPF as a whole project while keeping the boundary clear: patterns define or constrain, companions teach, tools implement, project-local adaptations apply, and examples show.
 
-## Why FPF Exists
+## FPF.Preface:3 - Why FPF Exists
 
 Many projects do not fail because nobody had an idea. They fail because the idea changes kind as it travels.
 
@@ -920,7 +920,7 @@ The practical ambition is simple: keep difficult reasoning alive long enough to 
 
 For humans, FPF gives a shared working memory for complex reasoning. For AI agents, FPF gives typed constraints, named distinctions, and checkable written forms so generated text can be tested against the kind of work it claims to perform. For organizations, FPF gives a way to make reasoning transfer across teams without pretending that all teams use the same local meanings.
 
-## Creativity And Assurance Mature Together
+## FPF.Preface:4 - Creativity And Assurance Mature Together
 
 Many frameworks choose a side. Some optimize for assurance: audit trails, evidence, safety gates, confidence, compliance, and sign-off. Others celebrate creativity: exploration, novelty, pivots, abduction, and open-ended search. FPF is built to keep both rails alive at once.
 
@@ -942,7 +942,7 @@ In a laboratory, an anomaly is not merely noise. It may be a prompt for candidat
 
 This is one of FPF's central payoffs: a team can be inventive without losing its audit trail, and conservative without closing down imagination too early.
 
-## Local Closure Inside An Open World
+## FPF.Preface:5 - Local Closure Inside An Open World
 
 FPF assumes an open world. New evidence can arrive. A better mathematical model may appear. A source publication, source-use record, or telemetry relation may become stale. A competitor may change the state of the art. A user need may shift. A new concern may reveal that the same system should be described differently.
 
@@ -963,7 +963,7 @@ This is why FPF patterns often look strict. The strictness is local. It lets a p
 
 Local closure also does not license ceremony. Before a method, route, or review makes an action mandatory, ask whether a materially plausible result can change a named substantive decision within the nearest substantive horizon, whether the action realizes an already selected result, or whether removing it changes an assurance or recovery condition on which the use relies. This contribution is necessary but does not by itself make a proposed inquiry obtainable or worth requiring. Use `A.11.OP` for that screen and its boundary with direct duties and assurance. When the demand's worth remains open, `C.11.DUA` compares its attainable contribution and whole burden; a current local choice uses `C.11`. The result can be a qualified answer on the present basis.
 
-## FPF As An Evolutionary Architecture For Thought
+## FPF.Preface:6 - FPF As An Evolutionary Architecture For Thought
 
 A team can organize its reasoning so that a changed model, new finding, or departing colleague leaves other useful results recoverable. Its participants, reusable Methods, shared descriptions, and actual Work each have a structure and a different way of changing. FPF helps the team keep those differences visible while improving the arrangement.
 
@@ -983,7 +983,7 @@ FPF applies the same idea to reasoning:
 
 The result is not one final answer. It is a way to keep producing, comparing, selecting, publishing, and improving answers without losing traceability or semantic integrity.
 
-## Architectural Characteristics Of Thought
+## FPF.Preface:7 - Architectural Characteristics Of Thought
 
 If FPF is an architecture for thought, then thought has architecture characteristics. Some of them are familiar quality words, but FPF treats them as characteristics of reasoning arrangements that can be improved, damaged, compared, or inspected.
 
@@ -1008,7 +1008,7 @@ If FPF is an architecture for thought, then thought has architecture characteris
 
 The table is not a checklist for every project. It shows the kind of quality FPF is trying to preserve in reasoning itself. A project may enter through architecture, naming, evidence, mathematics, or comparison, but the deeper benefit is that the reasoning becomes more auditable, evolvable, and usable.
 
-## Beyond Bias Hunting
+## FPF.Preface:8 - Beyond Bias Hunting
 
 Critical-thinking practice often focuses on cognitive biases: confirmation bias, availability bias, planning fallacy, fixation, groupthink, and many others. That work is useful. It gives names to predictable failures in human judgment.
 
@@ -1020,7 +1020,7 @@ That is why FPF's discipline around wording and descriptions should not make FPF
 
 This changes the tone of FPF. It is not a list of warnings. It is a design language for better reasoning. The user should come away not only knowing what not to say, but knowing what to build next: an architecture question note, problem card, comparison frame, characteristic space, evidence-readiness note, naming card, repaired paragraph, modeling note, option portfolio, or improvement loop.
 
-## Thinking Through Writing
+## FPF.Preface:9 - Thinking Through Writing
 
 FPF relies on written forms because serious reasoning needs objects that can be inspected. In everyday work, much reasoning stays inside conversation, memory, chat logs, sketches, or tool outputs. That is often enough for one short exchange. Addressable records become useful when reasoning is to survive delegation, review, reuse, publication, AI assistance, or time.
 
@@ -1040,7 +1040,7 @@ This is especially important for AI use. An AI assistant can generate fluent pro
 
 Thinking through writing is not paperwork. It is how thought becomes durable enough to challenge, improve, and responsibly act on.
 
-## Thinking-Oriented Architecture, Not A Descriptive Upper Ontology
+## FPF.Preface:10 - Thinking-Oriented Architecture, Not A Descriptive Upper Ontology
 
 FPF shares one ambition with upper ontologies: it tries to make reasoning travel across domains. But its primary task is different.
 
@@ -1058,7 +1058,7 @@ This is the difference between a catalogue and an instrument. A catalogue can te
 
 The ontology therefore serves action guidance. FPF does not replace domain ontologies, mathematics, standards, or evidence. It gives them a place in project reasoning so they can be used without collapsing local meanings or publication forms.
 
-## The Bitter Lesson Stance
+## FPF.Preface:11 - The Bitter Lesson Stance
 
 FPF also carries a Bitter-Lesson-compatible stance. In AI, software, and open-ended engineering, systems that can use more search, more data, more compute, and more general learning often outperform brittle hand-coded procedure scripts when the domain changes or scale grows.
 
@@ -1076,7 +1076,7 @@ Some uses need a specified procedure: safety, regulation, legal compliance, repr
 
 This stance helps with human and AI work alike. A team can use general agents, search, simulation, model refresh, or state-of-the-art harvesting without surrendering safety. The freedom lives inside constraints, budgets, evidence, and typed checks.
 
-## From Flat Documents To Multi-View Truth
+## FPF.Preface:12 - From Flat Documents To Multi-View Truth
 
 Traditional document practice often treats one file as "the truth". Contemporary projects rarely fit that shape. A product, organization, architecture, safety case, research program, model, or AI-agent arrangement may need many descriptions for different concerns.
 
@@ -1098,7 +1098,7 @@ This is also how FPF can work with distributed and AI-generated representations.
 
 A narrative or explanatory rendering is one such publication shape. Its source relation remains inspectable when it states what selected source structure it used, what it preserved, what it deliberately coarsened, abstracted, omitted, or lost, which viewpoint it uses, the source-return condition, and any unresolved neighboring assertion with its subject-pattern locator. If the rendering begins from an architecture description or view, that source basis may already be a coarsened account of actual, expected, or candidate structures; the rendering keeps that earlier loss visible. Narrative readability does not turn a rendering into evidence, assurance, permission, architecture, or the described object itself.
 
-## Architecture As Structure Of Holons
+## FPF.Preface:13 - Architecture As Structure Of Holons
 
 FPF treats architecture as structure of a holon in a context, not as a diagram, document, approval, promise, or implementation plan.
 
@@ -1114,7 +1114,7 @@ Assess how hard a holon is to understand, change, control, reuse or improve unde
 
 Extractable structural information is a reader-relative characteristic of a publication, assessed for the intended reader's preparation and available budget. It applies, for example, to a pattern's text, an explanation in a guide or an architecture description. Epiplexity formalizes structural information extractable from data by computationally bounded observers ([Finzi et al.](https://arxiv.org/html/2601.03220v2), §3); `C.29:4.2c` governs the use of that mathematical lens. `A.6.3.NAR` supplies the source-to-narrative relation for narrative publications. What counts as an improvement depends on the named object and intended use.
 
-## Boundary Statements
+## FPF.Preface:14 - Boundary Statements
 
 Most of the time, teams can use fast compressed speech. "The service guarantees it." "The model is synced." "The dashboard proves it." "The interface is stable." "The process is compliant." In ordinary conversation, people often infer enough to continue.
 
@@ -1133,7 +1133,7 @@ If those jobs remain bundled, the sentence becomes hard to check. Later disagree
 
 FPF's boundary discipline, especially around the `A.6` family, repairs such cases by separating claim kinds. A contract line, interface statement, API schema, compliance note, or safety-case sentence can be unpacked into definition, admissibility, commitment, evidence, work effect, publication, and decision components as needed. The point is not to force every document into a heavy form. The point is to keep boundary language from changing system behavior without an inspectable claim.
 
-## Raising Semantic Precision
+## FPF.Preface:15 - Raising Semantic Precision
 
 FPF does not expect people to start with perfect terminology. Early thinking is often compressed, metaphorical, and useful. That is not a failure. It becomes a problem only when the compressed phrase begins to govern action, evidence, architecture, publication, decision, work, assurance, or mathematical modeling.
 
@@ -1150,11 +1150,11 @@ This is why `E.10` is a trigger scan rather than a synonym list. `E.10.ARCH` dis
 
 The success condition is not "the text now sounds precise". The success condition is that after removing overread, the working reader still has a useful move: use the claim within its declared limit, repair it further, apply the related pattern that defines or constrains the remaining claim, or block the claim until the missing record, relation, evidence, or subject-pattern application is supplied.
 
-## Big FPF Storylines
+## FPF.Preface:16 - Big FPF Storylines
 
 FPF connects ways of asking a question, developing an answer, testing its support and using it in further work. The connection matters when one sound local result leaves the next participant unable to act: the measurement concerns a different population, a candidate needs unavailable support, or a useful explanation omits the condition under which it holds. Start with that receiving question and use only the contributions needed to answer it.
 
-### Follow one question through several contributions
+### FPF.Preface:16.1 - Follow one question through several contributions
 
 Consider a constructed example. A team is deciding how to help engineers review technical reports. A purchased assistant and a locally operated assistant remain candidates. The local candidate appears faster on the small set tried so far. The current question is whether that is enough to begin relying on the proposed review arrangement.
 
@@ -1170,7 +1170,7 @@ This example ends with three usable results: a qualified reading of the existing
 
 Inquiry can stop earlier. A laboratory may need to explain why several performances differ before it has any preferred intervention. `A.3.1.MR` helps recover a candidate reusable way from the performance evidence; a counterexample can leave the candidate unresolved and identify what to observe next. The useful result is then a sharper hypothesis and discriminating observation. Choosing or deploying a solution becomes current only when the research question and evidence make that next move useful.
 
-### Architectural Rationale
+### FPF.Preface:16.2 - Architectural Rationale
 
 The organization supports several useful scales. A practitioner may apply one pattern, use several contributions together, or develop a recurring domain Method described by many patterns. A professional DPF supplies the domain difficulties, mechanisms, evidence and judgement; a local LPF supplies the arrangements of a particular practice. A narrower profile can reuse several broader contributions and explain its changed conditions. Further useful narrowing remains possible. Pattern reuse, Method composition, specialization and publication grouping therefore need their own stated relations. The depth of a heading or the number of patterns gives the reader no substitute for those explanations.
 
@@ -1182,7 +1182,7 @@ A shared vocabulary alone is another useful alternative when classification is t
 
 This architecture also explains the separation between descriptions and their subjects. An alternative can be considered before it is realized; the same Method can be described in prose, diagrams or another suitable medium; several views can answer different questions about the same system. `A.3.2` governs an exact MethodDescription claim, and the `E.17` family governs the relevant view and publication uses. This allows a representation to improve without treating every publication change as a change to the described Method or system.
 
-### Shared sources and the choices they support
+### FPF.Preface:16.3 - Shared sources and the choices they support
 
 FPF uses source traditions for particular answers and states the adopted contribution in the subject pattern. The following connections explain why several families work together. The direct bodies retain the precise source editions, stronger technical conditions and refresh triggers.
 
@@ -1194,7 +1194,7 @@ Open-ended search and sequential decision research explain why exploration is ke
 
 The synthesis is use-specific: construction explains what whole is proposed, measurement makes a relevant observation interpretable, assurance qualifies reliance, and search preserves alternatives or asks for another result. A successor source matters when it changes one of those answers. `G.11` returns the affected use to that source; `E.19` and `E.23` support preservation and improvement of the resulting pattern content. This lets stronger knowledge change the framework without requiring every unaffected practitioner result to be obtained again.
 
-### What to examine when adapting the arrangement
+### FPF.Preface:16.4 - What to examine when adapting the arrangement
 
 For a combined use, ask whether the outputs still answer the receiving questions, whether shared workload and resource assumptions are compatible, which missing premise changes the result, and what remains usable if that premise changes. Keep the whole-set condition where that combination is explained and use the relevant direct pattern for its technical test. The 15-hour example shows why locally acceptable contributions can still require a different joint decision.
 
@@ -1202,7 +1202,7 @@ The examples here assume readers who can supply subject expertise and recognize 
 
 Using the arrangement costs attention and, when later reliance needs them, addressable source and result records. Its practical gain is that a new participant can find why a result was used, what it enables and what would change the answer. Stop when the current question has that useful answer or an explicit missing premise. Keep unresolved questions available for later inquiry rather than adding a pattern use merely to complete a familiar sequence.
 
-## Transdisciplinarity As A Meta-Theory Of Thinking
+## FPF.Preface:17 - Transdisciplinarity As A Meta-Theory Of Thinking
 
 Modern complexity lives at the junction of traditions. A manufacturing engineer, software architect, safety engineer, finance analyst, ML researcher, and operations manager may use the same words for different project entities and different words for the same project entity. They may also use different forms of proof, different measures of quality, and different standards for acting.
 
@@ -1212,7 +1212,7 @@ The key move is local-first meaning. A term belongs to a context before it trave
 
 This is how a single framework can help in architecture, biology, manufacturing, AI-agent systems, safety assurance, management, education, and research without pretending those domains are the same. FPF does not flatten domains. It gives them governed interfaces for reasoning together.
 
-## The Culinary Architecture Of Collective Thought
+## FPF.Preface:18 - The Culinary Architecture Of Collective Thought
 
 Many FPF ideas sound familiar. Evolution, exploration and exploitation, evidence, roles, boundaries, architecture, comparison, naming, and improvement are not new ingredients. A thoughtful reader may ask why FPF formalizes so many "obvious" ideas.
 
@@ -1238,7 +1238,7 @@ For a small well-known problem solved by one expert, FPF may feel heavier than i
 
 FPF does not replace expert judgment. It gives expert judgment a shared architecture so it can compound rather than evaporate.
 
-## The Intellect Stack As A Pedagogical Map
+## FPF.Preface:19 - The Intellect Stack As A Pedagogical Map
 
 The phrase "Intellect Stack" names a learning map of capabilities. In this specification it is pedagogy, not a prescribed sequence or a new ontology.
 
@@ -1256,7 +1256,7 @@ This stack is not a universal project sequence. It is a way to notice missing ca
 
 The learning value is that FPF can be taught as a set of capabilities, not only as a list of pattern ids.
 
-## Purpose, Scope, And Non-Goals
+## FPF.Preface:20 - Purpose, Scope, And Non-Goals
 
 FPF's purpose is to help people and AI agents produce reasoning that survives use: reasoning that can be aligned, reviewed, improved, published, delegated, refreshed, and reopened without losing the EntityOfConcern it was about.
 
@@ -1275,7 +1275,7 @@ FPF's non-goals are short:
 
 Its positive scope is broader than those refusals. FPF is a compact language for keeping hard work honest enough to act on and alive enough to improve.
 
-## How To Continue After The readme
+## FPF.Preface:21 - How To Continue After The readme
 
 Start with the `readme` when you are deciding whether FPF can help a working project. Read this Preface when you want the ideas that make the first practical entries fit together. Use the Table of Contents when you need to locate a pattern family. Then use the direct pattern body whose Problem frame and Solution govern the claim, relation, publication use, architecture, evidence, decision, work, name, mathematical lens, option portfolio, or improvement object you actually have. Begin with its action- or judgement-guiding content; recover a `MethodDescription`, admitted Method, or exact `ClaimGraph` only when the current claim or named reliance needs that distinction.
 
@@ -3340,9 +3340,9 @@ The assignment proves neither circulation capability over every operating region
 An engineering team uses RFC 9110 while designing an HTTP service. Keep these claims separate:
 
 1. `DesignTeam-2` independently counts under `ProtocolDesignerSystemRole` in the current slice when its signature criterion is satisfied.
-2. One design-assignment occurrence may obtain as an instance of a declared `U.SystemRoleAssignment` species.
+2. For this hypothetical assignment-bound case, suppose the practice has declared `ProtocolDesignSystemRoleAssignment` under `U.SystemRoleAssignment` according to A.2.1, and `DesignAssignment-1` is one obtaining occurrence with holder `DesignTeam-2` and assigned kind `ProtocolDesignerSystemRole`.
 3. The RFC publication is the source episteme in the direct source-use or external-rule relation selected by the design claim.
-4. Recover `DesignTeam-2` as the exact actual performer through A.13, then let A.15.1 independently admit the dated design Work. Because this case expressly says the Work was performed under the exact design assignment, F.6 afterward establishes that relation through the same obtaining A.13 assignment; F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
+4. In this hypothetical case, recover `DesignTeam-2` as the exact actual performer through A.13 with that same obtaining `DesignAssignment-1`, then let A.15.1 independently admit the dated design Work. Suppose this Work was performed under `DesignAssignment-1`; F.6 afterward establishes that relation to this same assignment. F.6 identifies neither assignment nor performer, and failed attribution would leave the Work intact. The Work may separately produce a MethodDescription or SystemDescription only through the applicable production claim.
 
 
 #### A.2:5.4 - The Same Label in Two Local Practices
@@ -3381,7 +3381,7 @@ An external notation may call one relation position `role`. Apply E.10.ROLE and 
 5. Add an assignment only when an occurrence of a declared assignment species actually obtains.
 6. State each claim about state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, or reliance through the pattern that defines or constrains it.
 7. Evaluate every subkind proposal from independently obtained aligned judgments; never use the proposed edge as a membership premise.
-8. For cross-local use, keep both kinds and their assignments distinct and establish only the C.3.3 kind relation, F.9 local-sense relation, and bounded-use claim actually needed.
+8. For cross-local use, compare the C.3 definitions first. Reuse the same kind when its distinction continues; when two kinds are present, keep both kinds distinct and establish only the exact C.3.3 kind relation, any needed F.9 local-sense relation, and bounded-use claim actually consumed. In either branch, establish assignments independently; reusing the kind neither creates assignments nor licenses their substitution or merger.
 9. If the source uses *role* for another object, apply E.10.ROLE and continue with the recovered subject pattern; stop at `missing-governor` when no relation is yet admitted.
 
 ### A.2:8 - Conformance Checklist
@@ -3401,7 +3401,7 @@ An external notation may call one relation position `role`. Apply E.10.ROLE and 
 | `CC-A2.11` | Same spelling across local practices, sources, or editions does not decide kind identity; continuity and actual relations are explicit. |
 | `CC-A2.12` | Relation-position or ordinary contribution wording creates no system-role kind or assignment by itself. |
 | `CC-A2.13` | A proposed decomposition is resolved through exact relations among kinds or neighboring subject patterns, not `partOf` over a system-role kind. |
-| `CC-A2.14` | Cross-local use keeps both kinds distinct, cites the exact C.3.3 kind relation and any F.9 local-sense relation, and states the bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver; a Bridge Card is not a use licence. |
+| `CC-A2.14` | Cross-local use compares the C.3 definitions first and reuses the same kind when its distinction continues; when two kinds are present, it keeps both kinds distinct, cites the exact C.3.3 kind relation and any needed F.9 local-sense relation, and states the bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver. Assignment occurrences remain independently governed in either branch; a Bridge Card is not a use licence. |
 | `CC-A2.15` | A selected model-use structure appears only in the receiving claim it changes; it neither classifies nor assigns a system and never enters a generic relation as an optional participant. |
 
 ### A.2:9 - Common Anti-Patterns
@@ -3440,7 +3440,7 @@ The architecture therefore keeps these levels separate:
 3. any directly declared `U.SystemRoleAssignment` occurrence;
 4. direct neighboring relations for state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, reliance, description, and publication.
 
-Fields in a `SystemRoleKindDescription` belong to the description episteme. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure is the exact relation structure governed by A.2.7, not role mereology.
+Fields in a `SystemRoleKindDescription` belong to the description episteme. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure for relations among system-role kinds is the exact relation structure governed by A.2.7. Resolve the other proposed “parts” through their subject patterns (§4.6), not role mereology.
 
 Semantic locality needs no universal context participant. C.3's candidate domain, operative membership distinction, boundary probes, and continuity rule recover the kind. A practice or source reference locates the definition and warns where comparison may be needed; it is not an identity participant. An assignment species declares only its real participants. A receiving assertion or use can cite a selected model-use structure when that structure actually changes interpretation.
 
@@ -73973,7 +73973,7 @@ It is the only allowed heading *inside* a pattern whose section token is non‑n
 
 - `PatternRef` uses one PatternID to name a pattern that continues across editions of the framework identified by the surrounding text. In the assembled publication being checked, it resolves to one complete H2 body, one matching `:End`, and a truthful ToC status for that PatternID. A reference intended to select the body published in one edition also names that framework edition. A structural checker may verify and report publication conformance but does not establish the pattern's identity, status, or authority.
 - `PlannedCatalogEntry` names an explicit future catalogue commitment. It has no current pattern semantics, governing force, prerequisite force, or addressable body; a useful prose mention **MUST** say `planned` or `future`, and a current semantic dependency **MUST** cite existing content that supplies the needed definition, constraint, test, method, or other rule, or state the current gap.
-- `SectionRef` names one exact heading path inside one current pattern. Authors and tooling **MUST** read the complete section identifier before examining any substring.
+- `SectionRef` names one exact heading path inside one current pattern or one framework publication unit declared under `E.11.PFP`. Authors and tooling **MUST** read the complete section identifier and its declared scope before examining any substring. For example, `STR.Preface:1` returns to the Strategy Preface; it does not declare a pattern named `STR.Preface`.
 - `LocalDeclaredId` names an exact declaration within one pattern, such as a conformance clause, component, interface row, or predicate. Its scope is local unless an explicit stable anchor or a separate promotion decision establishes wider use.
 - `LocalAlias` names an explicitly declared compatibility alias and resolves to its declared canonical local target.
 - `PatternFamilySelector` selects a navigable pattern family using canonical spelling `<base>.*`. It requires a current base pattern and at least one current matching member and **MUST NOT** stand in for one exact governing target.
@@ -74054,7 +74054,7 @@ Use the twelve substantive functions in the canonical template as authoring ques
 
 The `Solution` explains the actual organization and use of the described Methods: their contributions, relations, and the results that make a next move possible. `Architectural Rationale` explains why that organization and those choices serve the declared use, which serious alternatives were considered, their trade-offs, and the conditions under which another choice becomes preferable. Preserve shared source explanations there when users need them to understand or adapt several patterns together.
 
-The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
+The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Its Preface subsection headings identify the framework, publication unit and ordinal path through `E.11.PFP:4.7.1`, so an isolated excerpt remains locatable without being classified as a pattern body. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
 
 #### E.8:4.2 - Stylistic Principles (S-0 … S-19)
 
@@ -80648,6 +80648,25 @@ There is no fixed number of generality scales. For example, a reader can move fr
 
 A pattern can participate in several profiles, and a profile can draw on several contributions. Describe this structure through the relations that hold. If a mathematical view is useful, apply `C.29`: select the elements and relation being modeled. A partial order needs its order properties; a lattice additionally needs the required bounds for every relevant pair. Multiple parentage or overlapping membership alone establishes neither. Keep that mathematical representation distinct from the Methods and their subject-side relations.
 
+##### E.11.PFP:4.7.1 - Make a Preface section recognizable on its own
+
+A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading inside the Preface therefore carries the framework's public reference code, the publication-unit key `Preface`, and its complete ordinal section path:
+
+```text
+## <FrameworkCode>.Preface:<n> - <Title>
+### <FrameworkCode>.Preface:<n>.<m> - <Title>
+```
+
+For example, `## STR.Preface:1 - Problem frame - Direction and commitment under changing conditions` identifies the first section of the Strategy Preface. `### ME.Preface:7.3 - Production MethodDescription` identifies a nested section in the Method Engineering Preface. Use the framework's declared public code; name the framework as well when quoting outside a context that identifies it. The enclosing Preface H1 retains its product-declared title and established ToC entry.
+
+Number sibling sections in reading order, starting at 1, and carry the complete parent path into nested headings. Each nesting level adds one heading level and one ordinal. These ordinals locate sections in this Preface; their titles state the content functions. An account can combine several E.8 functions in one section or explain one function across several sections. Keep that useful arrangement instead of adding twelve empty sections to match numbers. The rule introduces no limit on useful conceptual scales; physical Markdown heading depth remains a carrier constraint.
+
+`STR.Preface` names a publication unit. Its section addresses are `SectionRef` uses under E.8, not declarations of additional patterns: the pattern index continues to contain the individually declared pattern bodies. Apply the same self-identifying construction to a profile account or other support unit when it needs its own section addresses, using its product-declared unit key. A profile explained inside the Preface retains its Preface section path; that text position does not decide the profile's semantic relations.
+
+The prefix lets a reader distinguish a whole-language Problem frame from the Problem frame of one pattern before choosing what to read or cite. Visible names and numbers also survive copying and printing, where a hidden anchor cannot help.
+
+The visible address and title use the ASCII ` - ` separator. Build each clickable fragment from the complete rendered heading according to the target Markdown carrier's rules, including punctuation removal and duplicate handling. When a heading changes, update its direct links in the publication, source templates and public consumers together. Check that the link resolves to the intended heading, then read that target for the answer the link promises. Keep the visible address usable for search and non-clickable copies. HTML anchors are optional carrier facilities, not a substitute for a self-identifying visible heading.
+
 ### E.11.PFP:5 - Archetypal Grounding
 
 **DPF with non-ascending pattern addresses.** A Systems Engineering DPF edition orders `SYSE.1`, `SYSE.16`, `SYSE.17`, and `SYSE.2` because that sequence helps readers. Its ToC rows and H2 bodies follow the same order. The `§` column reports each current position; it is not part of the PatternID. A later move changes the rows and bodies together without renumbering a continuing pattern. A citation outside the carrier says `Systems Engineering DPF, SYSE.16`; one intended to recover the earlier body also names the edition.
@@ -80706,6 +80725,7 @@ A pattern can participate in several profiles, and a profile can draw on several
 | CC-PFP.15 Navigation remains usable | The ToC represents Readme and Preface in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
 | CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The account connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Headings or locators alone do not establish this content. |
 | CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice has the conditions required by C.29. |
+| CC-PFP.18 Whole-account sections addressable | Every Preface subsection exposes its framework code, Preface unit and complete ordinal path; nested paths and heading levels agree. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries. |
 
 ### E.11.PFP:8 - Common Anti-Patterns and How to Avoid Them
 
