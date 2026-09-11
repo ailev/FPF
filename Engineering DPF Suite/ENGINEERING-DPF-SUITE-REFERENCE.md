@@ -28,6 +28,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Keep an operation working](#keep-an-operation-working) | Operating subjects, admission, cases, priority, queues, buffers, constraints, capacity, human conditions, service commitments, accounts, quality, simultaneous work and culture. |
 | [Explain resource use, costs and operating accounts](#explain-resource-use-costs-and-operating-accounts) | Resource demand, capacity, shared costs, profit and cash, forecasts, targets, margin differences, customer economics and accounting incentives. |
 | [Model financial positions and effects](#model-financial-positions-and-effects) | Parties and groups, rights and duties, contractual events, conditional flows, actual effects and financial-service use. |
+| [Value investments, arrange finance and manage liquidity](#value-investments-arrange-finance-and-manage-liquidity) | Cash and working capital, cost of capital, investments, valuation, options, financing, covenants, payouts, restructuring, exposure, treasury action and financial advice. |
 | [Fulfil an administrative request](#fulfil-an-administrative-request-and-improve-its-handling) | Participants, permissions, effective dates, provision, exceptions, obligations, records, controls, provider contributions and administrative burden. |
 | [Maintain equipment and manage maintenance](#maintain-equipment-and-manage-maintenance) | Maintenance policy, failure and condition, diagnosis, spares, outage, protection, work, restored functioning, hand-back, history, fleet, Methods, simultaneous work and culture. |
 | [Choose how to use and change engineered assets](#choose-how-to-use-and-change-engineered-assets) | One asset, asset systems, portfolio, continued use, renewal, replacement, service, whole cost, risk, shared constraints, timing, realized outcomes and asset-management practice. |
@@ -283,6 +284,61 @@ Financial Domain Modeling helps a financial practitioner, business modeler or se
 | How does this financial service help the participant? | [FDM.5 - Trace a Financial Service to a Participant's Result](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md#fdm5---trace-a-financial-service-to-a-participants-result) | A connection from the service output to its use and the participant's result, such as admission or financial benefit. |
 
 Use [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) when separately governed meanings or identities need reconciliation. Financial Domain Modeling supplies the financial interpretation; the relevant decision practice uses it.
+
+### Value investments, arrange finance and manage liquidity
+
+[Corporate Finance](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) provides methods for valuing investments, arranging finance, preserving liquidity and managing financial exposure.
+
+Choose the question you need to answer, then open the linked method and check its conditions of use.
+
+**Part A - Cash and decision accounts**
+
+| Working question | Start with | Result |
+| --- | --- | --- |
+| What financial choice are we making, for which corporation and time horizon? | [FIN.1 - Frame the Corporate Finance Decision, Corporation, Jurisdiction, and Time](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin1---frame-the-corporate-finance-decision-corporation-jurisdiction-and-time) | A usable financial question, with the corporation, time horizon and constraints identified. |
+| Will money be available when payments fall due? | [FIN.2 - Recover Cash, Liquidity, and Commitments](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin2---recover-cash-liquidity-and-commitments) | A dated cash forecast and any funding requirement at the relevant payment dates. |
+| How can stock, collections or payment terms improve cash availability? | [FIN.3 - Manage Working Capital and Cash Conversion](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin3---manage-working-capital-and-cash-conversion) | A comparison of working-capital changes with their operating and commercial consequences. |
+| Which accounts and forecasts does this financial decision need? | [FIN.4 - Prepare Accounts and Forecasts for the Finance Decision](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin4---prepare-accounts-and-forecasts-for-the-finance-decision) | The required financial view, with material differences between the supplied accounts reconciled. |
+
+**Part B - Investment and value**
+
+| Working question | Start with | Result |
+| --- | --- | --- |
+| What cost-of-capital estimate matches the cash flows being valued? | [FIN.5 - Estimate Cost of Capital and Financing Constraints](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin5---estimate-cost-of-capital-and-financing-constraints) | A required-return estimate matched to the cash flows and claims in the valuation. |
+| What does this capital project add compared with its alternative? | [FIN.6 - Value Capital Projects](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin6---value-capital-projects) | Incremental project cash flows and their value on matching valuation grounds. |
+| What is this asset, business or ownership interest worth? | [FIN.7 - Value Assets and the Corporation](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin7---value-assets-and-the-corporation) | A valuation of the identified asset or claim at the stated date, with its assumptions and limits. |
+| What is the value of being able to wait, expand or abandon? | [FIN.8 - Value Options under Uncertainty](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin8---value-options-under-uncertainty) | A value for the specified option under its exercise, uncertainty and financing conditions. |
+| Which investments, acquisition or divestment should we compare under limited capital? | [FIN.9 - Compare Capital Investments and Allocations](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin9---compare-capital-investments-and-allocations) | A comparison of feasible capital allocations, their interactions and incremental value. |
+
+**Part C - Financing, distributions and recovery**
+
+| Working question | Start with | Result |
+| --- | --- | --- |
+| Which financing terms fit the corporation's funding need? | [FIN.10 - Design Financing Instruments and Terms](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin10---design-financing-instruments-and-terms) | A comparison of arrangements by proceeds, future payments, rights and conditions of access. |
+| What mix of debt and equity is feasible and useful? | [FIN.11 - Select Capital Structure](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin11---select-capital-structure) | A proposed financing mix compared under cash, tax, control, access and distress conditions. |
+| Could covenants or refinancing remove access to funds? | [FIN.12 - Preserve Covenant Headroom and Financing Flexibility](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin12---preserve-covenant-headroom-and-financing-flexibility) | The applicable covenant or funding test, remaining headroom and available responses. |
+| How much capital should we retain or return to owners? | [FIN.21 - Decide How Much Capital to Retain or Return](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin21---decide-how-much-capital-to-retain-or-return) | A comparison of retention, dividends or repurchases, with an amount and form supported by the funding conditions. |
+| What recovery routes remain when ordinary repayment is inadequate? | [FIN.22 - Compare Financial Restructuring and Recovery Routes](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin22---compare-financial-restructuring-and-recovery-routes) | A comparison of viable restructuring routes and the recoveries of affected claimants. |
+
+**Part D - Exposure and treasury action**
+
+| Working question | Start with | Result |
+| --- | --- | --- |
+| How would changes in prices, rates, payments or funding access affect the corporation? | [FIN.13 - Identify and Measure Financial Exposures](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin13---identify-and-measure-financial-exposures) | A financial exposure traced to the relevant claims and operations, with its decision-relevant consequences. |
+| Should we hedge or transfer this financial exposure? | [FIN.14 - Design Hedges and Financial Risk Transfer](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin14---design-hedges-and-financial-risk-transfer) | A comparison of protection, cost, residual risk and cash demands. |
+| How do we carry out and verify this permitted treasury action? | [FIN.15 - Execute Treasury and Liquidity Decisions](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin15---execute-treasury-and-liquidity-decisions) | The verified financial effect of the selected action, or the execution problem still to resolve. |
+
+**Part E - Advice, renewal and continuing practice**
+
+| Working question | Start with | Result |
+| --- | --- | --- |
+| How do we turn financial analysis into usable advice? | [FIN.16 - Prepare a Finance Recommendation and Return It for a Decision](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) | A recommended financial move with its reasons, assumptions and conditions. |
+| What must be updated after a financial premise changes? | [FIN.17 - Refresh Financial Models and Data](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin17---refresh-financial-models-and-data) | The affected model, projection or conclusion updated for its use, or a supported decision to leave it unchanged. |
+| Should we retain or change the method used for this financial question? | [FIN.18 - Develop and Refresh Corporate-Finance Methods](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin18---develop-and-refresh-corporate-finance-methods) | A choice among method variants based on the financial result they can improve and the effort required. |
+| How do we reconcile conflicting investment, financing and treasury commitments? | [FIN.19 - Reconcile Simultaneous Corporate-Finance Work Across Claims and Horizons](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin19---reconcile-simultaneous-corporate-finance-work-across-claims-and-horizons) | A comparison of ways to organize the work and resolve the conflicting commitments. |
+| How can useful financial practices continue or harmful routines change? | [FIN.20 - Deliberately Continue and Change Corporate-Finance Culture](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin20---deliberately-continue-and-change-corporate-finance-culture) | A continuation or change decision informed by how the practice is learned, selected and retained. |
+
+For questions about costs or operating accounts, use the [management-accounting questions](#explain-resource-use-costs-and-operating-accounts). For the parties, rights or contractual flows behind a financial result, use the [financial-modeling questions](#model-financial-positions-and-effects).
 
 ### Fulfil an administrative request and improve its handling
 

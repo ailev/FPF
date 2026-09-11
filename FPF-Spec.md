@@ -191,12 +191,13 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | B.3.5 | **Working-Model Relations & Grounding (CT2R-LOG)** | Stable | Use when a direct readable relation is already selected and you must decide whether an elected assurance profile needs a current support account. Keep collection-specific belonging and structural parthood separate; use the branch's current construction trace or other permitted support and declare its validation posture. If no profile is elected, keep the direct relation and stop. *Query:* "Do I need an additional assurance account for this already selected direct relation, and what current support does its branch require?" | **Builds on:** B.3, E.14, C.13. |
 | B.4 | **Canonical Evolution Loop** | Stable | *Keywords:* evolution loop, DesignRunTag feedback, observe-notice-stabilize-route, drift repair, knowledge refinement, method refinement, open-ended evolution. *Queries:* "How does FPF evolve a system or episteme without design-reality drift?", "Where do knowledge and method instantiation sit in the canonical loop?", "Where does pre-abductive routing sit?" | **Builds on:** A.4, A.12. **Refined by:** B.4.1. **Carries embedded slices for:** knowledge instantiation and method instantiation. |
 | B.4.1 | **Observe -> Notice -> Stabilize -> Route** | Stable | *Keywords:* routed cue set, route plurality, route selection, pre-abductive seam, task-family specialization route. *Queries:* "How do under-articulated cues become routed before endpoint claim publication?", "When should a cue become a routed cue set instead of an abductive prompt?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
-| B.5 | **Canonical Reasoning Cycle** | Stable | *Keywords:* reasoning, problem-solving, Abduction-Deduction-Induction, scientific method. *Queries:* "How does FPF model problem-solving?", "What is the canonical reasoning cycle?" | **Builds on:** A.10. **Prerequisite for:** `B.5.*` family members. |
+| B.5 | **Canonical Reasoning Cycle** | Candidate | Use when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. State what you want to understand or make possible; reuse an adequate result or choose the missing reasoning contribution. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
 | B.5.1 | **Explore → Shape → Evidence → Operate** | Stable | *Keywords:* development state cycle, open-ended progression, state machine, Explore, Shape, Evidence, Operate. *Queries:* "What states can project work and its records pass through in FPF?" | **Builds on:** B.5. |
 | B.5.2 | **Abductive Loop** | Stable | *Keywords:* abduction, explanatory prompt, candidate hypotheses, plausibility filters, origin trace, route-to-hypothesis. *Queries:* "How does FPF model abductive hypothesis generation?", "What is the abductive loop?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
 | B.5.2.0 | **`U.AbductivePrompt`** | Stable | *Keywords:* abductive prompt, prompt species, rival-set discipline, threshold crossing, explanation-ready cue. *Queries:* "When is a routed cue ready to enter abduction?", "What prompt species does FPF distinguish before hypothesis work begins?" | **Builds on:** B.4.1, A.16, C.2.2a. **Coordinates with:** A.6.P, A.6.A, C.16.Q. **Used by:** B.5.2. |
 | B.5.2.1 | **Creative Abduction with NQD** | Stable | *Keywords:* creative abduction, NQD binding, Γ_nqd.generate, Creativity-CHR, Q-front, declared Q components, retained exploration/archive evidence, Novelty@context, ΔDiversity_P, E/E-LOG, DecisionSubject note. *Queries:* "How do I make abductive idea generation instrumented instead of ad-hoc?", "How does B.5.2 delegate generation to C.18 and pool policy to C.19?", "Why does creative abduction return a front/evidence set rather than one bundled winner?" | **Builds on:** B.5.2, A.17, A.18, C.17, C.18, C.19. **Coordinates with:** B.4, C.11, G.5. |
 | B.5.3 | **Domain-Concept Bridge** | Stable | *Keywords:* domain vocabulary, source-local meaning, F.17 cell, basis relation, direct relation, bounded use and loss. *Queries:* "Which exact source expression and local claim are current?", "Which FPF value or relation does this use require?", "What obtaining relation, direction, loss boundary, and receiving use may be claimed?" | **Builds on:** A.2, A.6.5, C.3, E.24.UK, F.0.1, F.1, F.2, F.3, F.5, F.8, F.17. **Coordinates with:** E.10.ROLE, F.9. |
+| B.5.4 | **Recognize a Reusable Concept in a Concrete Situation** | Candidate | Use when you understand a concept's explanation but cannot yet connect it to an unfamiliar situation. Identify the participants and relations, construct their correspondence, and obtain an interpretation with a consequence that guides the next action. | **Coordinates with:** B.5, C.3, C.29 and A.7.1. |
 
 **Part C - Kernel Extension Specifications**
 
@@ -228,7 +229,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.6 | **Proof and Inference Use Calculus (LOG-CAL)** | Planned | *Keywords:* proof use, inference rule, typed guard, claim entailment, proof obligation, reasoning support. *Queries:* "What inference is licensed here?", "When is a proof claim separate from evidence?", "Which typed rule supports this conclusion?" | **Builds on:** C.3, C.2.1, A.10, B.3. **Coordinates with:** B.3.5, C.23, G.8, A.6.B. |
 | **Cluster C.II – Domain‑Specific Patterns** | | | | |
 | C.9 | **Agency Characteristic Profile** | Planned | *Keywords:* agency, autonomy, responsibility threshold, decision capacity, intervention capacity, agentive role. *Queries:* "What agency claim is being made?", "When does a system or role holder count as agentive enough for this decision?", "How should autonomy be characterized without minting a new agent kind?" | **Builds on:** A.13, A.17, A.18, A.19, C.16, A.10. **Coordinates with:** B.3, C.11, C.24, D.2. |
-| C.11 | **Decision Theory (Decsn-CAL)** | Stable | *Keywords:* decision theory, DecisionSubject, OptionSet, comparison basis, ChoiceRule, ChoiceResult, question order, probe-worthiness, non-shared comparison frame, ValueOfInformation, ValueOfComputation, choose now, reject current set, probe again, reroute. *Queries:* "When should one choose now versus probe again?", "What must be explicit before a choice among already-available options is lawful?", "When does a missing finite configuration comparison go first to C.11.CRC?" | **Builds on:** A.6.P, A.6.5, A.13, A.18, A.19. **Coordinates with:** C.11.DUA, C.11.CRC, planned C.9, C.26, C.18, C.19, C.24, G.5. |
+| C.11 | **Decision Theory (Decsn-CAL)** | Stable | *Keywords:* decision theory, DecisionSubject, OptionSet, comparison basis, ChoiceRule, ChoiceResult, question order, probe-worthiness, non-shared comparison frame, ValueOfInformation, ValueOfComputation, choose now, reject current set, probe again, reroute. *Queries:* "When should one choose now versus probe again?", "What must be explicit before a choice among already-available options is lawful?", "When does a missing finite configuration comparison go first to C.11.CRC?" | **Builds on:** A.6.P, A.6.5, A.13, A.18, A.19. **Coordinates with:** C.11.DUA, C.11.CRC, planned C.9, C.26, C.38, C.39, C.40, C.18, C.19, C.24, G.5. |
 | C.11.CRC | **Configuration-Relative Contribution Comparison** | Stable | *Keywords:* finite change, current configuration S0, candidate configuration S1, result and resource vectors, interactions, constraints, uncertainty, transition, option effects, marginal contribution. *Queries:* "What does this realizable finite change contribute relative to what we have now?", "Which coordinates, interactions, constraints, uncertainty, transition, and future options matter?", "When can the comparison claim return to C.11?" | **Builds on:** C.2.1, A.10, A.19, C.16, C.27, C.28, C.29. **Supplies:** one finite comparison claim to C.11. **Coordinates with:** C.18, C.19, B.3, A.15, and direct field calculations. |
 | C.11.DUA | **Decision-Useful Advice and Evidence Demands** | Stable | Use when advice turns uncertainty or a requirement into costly, infeasible or questionable work for its recipient. Recover the receiving question and demand; distinguish present support, feasible continuation and worthwhile inquiry; appraise disputed requirements and their force; complete the useful answer with only the explanation its use needs. *Queries:* "Will more evidence change this decision?", "What can we reasonably do now?", "Is the requirement itself worth its burden?" | **Uses:** A.10, C.11, C.11.CRC, C.19.2. **Coordinates with:** C.18, C.28, D.4 and domain methods. **Used by:** F.19, E.19, E.11.PUA. |
 | **Cluster C.III – Meta‑Infrastructure CALs** | | | | |
@@ -243,7 +244,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.18.1 | **Scaling‑Law Lens Binding (SLL)** | Stable | *Keywords:* scaling law, scale variables (S), compute‑elasticity, data‑elasticity, resolution‑elasticity, exponent class, knee, diminishing returns. *Queries:* "How to make search scale‑savvy?", "Where to declare scale variables and expected elasticities?" | **Builds on:** C.16, C.17, C.18. **Coordinates with:** C.19, G.5, G.9, G.10. |
 | C.19 | **Explore-Exploit Live-Pool Governor** | Stable | *Keywords:* explore-exploit, already-live candidate pool, pool-policy result, governing lens, widen, keep frontier, narrow to subset, sunset line, change trigger, selector-facing declaration, publication face, publication occurrence, audience availability. *Queries:* "How should one govern a still-live candidate pool?", "When does fresh generation or possibility-space change return to C.18?", "When do a finite configuration comparison, local choice, or selector-facing declaration leave C.19 for C.11.CRC, C.11, or G.5?" | **Builds on:** C.18, C.16, A.19.CPM, A.19.SelectorMechanism, B.3. **Coordinates with:** E.10.LRN, A.10, C.11.CRC, C.11, C.24, G.5, E.17, E.24.PUB, C.17, G.9, G.11. |
 | C.19.1 | **Bitter‑Lesson Preference (BLP)** | Stable | BLP comparison and waiver discipline for scalable general methods versus bounded specialization, including `E.23` method-family choice and cost/risk posture. | **Builds on:** C.19, C.24, B.3. **Coordinates with:** E.23, G.5, G.8, G.9, G.11, A.0. |
-| C.19.2 | **Use-Bounded Apparatus Application** | Stable | *Keywords:* use-bounded apparatus application, one selected apparatus, configuration or adaptation work, setup cost, declared result and guarantee, reuse horizon. *Queries:* When can one existing apparatus be applied without opening option search? When must generation or choice become current? | **Coordinates with:** C.18, C.19, C.19.1, C.22.1, E.23, C.11 when a live eligible set exists, A.15.1, A.15.2. **Specialized by:** A.7.1. |
+| C.19.2 | **Use-Bounded Apparatus Application** | Stable | *Keywords:* use-bounded apparatus application, one selected apparatus, configuration or adaptation work, setup cost, declared result and guarantee, reuse horizon. *Queries:* When can one existing apparatus be applied without opening option search? When must generation or choice become current? | **Coordinates with:** C.39 for a missing obtaining explanation; C.40 for feasible variation and examination; C.18 for generation accounts and archive/front stewardship; C.19, C.19.1, C.22.1, E.23, C.11 when a live eligible set exists, A.15.1, A.15.2. **Specialized by:** A.7.1. |
 | C.20 | **Composition of `U.Discipline` (Discipline-CAL)** | Stable | *Keywords:* discipline construction, practice-and-knowledge whole, DisciplinePartOfRelation, exact constituents, whole-forming claims, assembly, reidentification, composition-grounded characteristic. *Queries:* "When is an apparent field one durable discipline rather than a label or collection?", "Which exact parts and obtaining relations form the whole?", "What preserves or ends its identity through change?" | **Builds on:** A.1, A.6.REL, A.14, C.13, A.17, A.18, E.24.UK. **Coordinates with:** C.2.1, A.3.1, B.1.5, A.15.1, A.22, B.2, C.21, A.19.CPM, F.9, G.5. |
 | C.21 | **Discipline‑CHR - Field Health & Structure** | Stable | *Keywords:* discipline, field health, reproducibility, standardisation, alignment, disruption. *Queries:* "How to measure the health of a scientific field?", "What is reproducibility rate?". | **Builds on:** C.16, C.2, A.2.6, B.3. **Coordinates with:** C.20, G.2. |
 | C.22 | **Task Typing and TaskSignature Assignment (Problem-CHR)** | Stable | Constitutes one selector-facing `TaskSignature` as a C.2.1 episteme and species of `U.Signature`; when a receiving use is current, separately relates the exact problem-side episteme, exact TaskSignature, and exact receiving-use episteme through `TaskSignatureAssignmentRelation`. Keeps CHR typing, unknowns, scope, evidence-use relations, currentness, and required crossings visible without adding a generic setting, carrier, or organization as a constituent or assignment participant. *Queries:* "When is a stable problem-side episteme ready for a selector-facing TaskSignature?", "Which typed fields and unknowns belong in its exact edition?", "How do I relate the problem-side episteme, TaskSignature, and receiving use without preselecting a method?" | **Builds on:** A.6.0, C.16, G.0. **Coordinates with:** C.22.1, C.22.2, C.23, G.4, G.5. |
@@ -291,6 +292,8 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.36 | **Cultural Evolution and Cultural-Evolution Engineering** | Stable | Use when a culture, style, tradition, or other shared practice changes—for example, as variants are taught, copied, recognized, selected, retained, mediated, or lost—or when a project needs to influence those relations without mistaking a label, platform, archive, or popularity score for the changing practice. A qualified current account or supported continuation can finish without a new intervention or study. Unresolved generic development or evolution wording enters through E.10.DEV first; return here only for the recovered cultural-population or discipline-facing case. | **Builds on:** A.1, A.2.1, A.3.1, A.15, C.18, C.19, C.20, C.23, E.18.1, F.9, F.17, F.18, G.5, G.11. **Coordinates with:** E.10.DEV, E.10.MOVE, E.10.ROLE, C.36.P, E.10, E.10.ARCH, C.30, C.16, C.11, A.10, B.3. |
 | C.37 | **Use-Bounded Representation Selection and Co-Use** | Stable | Use when one person, team, organization, or other consuming System must take one exact action or make one exact decision and several differently governed diagrams, tables, models, records, plans, descriptions, views, notations, or other results may each support only part of that use. Recover every candidate under its direct pattern, separate optional first evidence-use classification, bounded reliance, and the receiving result, state exposure and loss, and select, decline, or leave unresolved. An immediate sufficient choice needs no new record; retain its complete basis once when a later receiving use needs it. Co-use means only use by the same receiver for that one action. | **Builds on:** C.2.1. **Coordinates with:** A.2.4, A.10, C.11, E.17.0, C.29, E.24.PUB, A.6.3.RT, A.22, C.13, C.2.P.DR, and the direct subject and receiving-result patterns. |
 | C.38 | **Construct Comparable Ways to Obtain One Result** | Stable | Use when labels such as *build*, *buy*, *reuse*, *provider*, *internal*, *outsource*, or *AI* do not yet describe comparable complete ways to obtain the same result. Fix one result, use, situation, horizon, and acceptance basis; construct at least two materially different complete-enough ways on one parity basis; keep supported, proposed, and unknown premises visible; then hand the finite set to C.11 without claiming actual Work, provision, acceptance, or availability. | **Builds on:** the direct pattern for the sought result, A.10, and C.2.1 when a standalone comparison is needed. **Coordinates with:** A.15.9, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, C.11, C.32, and direct domain realization and assurance Methods. |
+| C.39 | **Find and Develop a Way to Obtain a Result** | Draft | Use when you can state the needed local result but cannot yet explain an adequate way to obtain it. Reuse a sufficient existing Method or result and stop. Otherwise, trace a professional operation on target material and develop the missing connection; return one explained candidate, or the precise unresolved contribution with a useful next move or stop. | **Uses:** professional Methods, F.0.1 and F.1. **Coordinates with:** C.38 for same-result comparison, C.40 for material development, and C.11 for a local choice. A.10, A.3.1 and A.3.2 apply when stronger evidence or Method claims are needed. |
+| C.40 | **Develop Branching Search from Reusable Material** | Draft | Use when you have usable material and need to learn what a feasible variation makes possible. Its eventual contribution may already be selected or remain open. Perform the change, examine the difference and retain material needed for the next use. Return the variation with a justified continuation or stop. Enter C.40:4.3 directly when problems and ways need development together. | **Uses:** professional variation and examination Methods. **Coordinates with:** C.39 for a missing obtaining explanation, C.38 for finite comparison, C.18 for archive and front claims, C.19 for live-pool policy, and C.11 for local choice. |
 | C.36.P | **Cultural-Evolution Wording-Use Precision Restoration** | Stable | Recovers the FPF object hidden by culture, style, tradition, genre, scene, practice, technique, platform, regime, attractor, or developmental-machinery wording; returns a recovered cultural case to C.36 or the direct governing pattern. Generic development, evolution, or lineage ambiguity uses E.10.DEV first. | **Builds on:** E.10, E.10.ARCH, E.10.DEV, C.36, F.17, F.18, F.9. **Coordinates with:** E.10.MOVE, A.3.1, A.3.2, A.15, C.18, C.19, G.5, G.11. |
 
 **Part D - Multi-scale Ethics and Conflict Optimization**
@@ -433,6 +436,14 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | I.2 | **Expanded Entry Disambiguation Cases** | Stable | *Keywords:* first entry, disambiguation, compact index, expanded comparison. *Queries:* "Which first pattern fits when the compact index is not enough?", "When may I stop at the compact index?" | **Builds on:** E.11. **Coordinates with:** E.10, F.17. |
+
+[fpf-b5-4-ref]: #b54---recognize-a-reusable-concept-in-a-concrete-situation
+[fpf-a15-9-ref]: #a159---request-and-use-a-bounded-result-from-another-practice
+[fpf-b5-5-1-ref]: #b551---a-counterexample-becomes-a-constructive-mathematical-question
+[fpf-b5-4-1-1-ref]: #b5411---propose-a-first-model
+[fpf-f0-2-5-5-ref]: #f0255---compare-causal-accounts-on-one-sensor-case
+[fpf-a6-3-rt-4-1-ref]: #a63rt41---ordinary-representation-move
+[fpf-c28-4-4-ref]: #c2844---identification-result
 
 # First Principles Framework (FPF) Readme
 
@@ -689,7 +700,7 @@ Core ideas in plain language:
 - architecture is structure of that holon or project object in a context, not the diagram, document, approval, or plan about it;
 - serious architecture work can move from problem pressure to candidate structures, selected structures, decisions, method and work, actual structures, and feedback;
 - when the current question is which reusable way of doing changes, produces, derives, selects, controls, or preserves the project object under stated conditions, inspect `A.3.1 U.Method`; a strategy name, procedure text, program, plan, dated run, mechanism, or evidence record does not answer that method question by its label or form;
-- when one already-selected method, model, formalism, assurance technique, ontology, or other apparatus is current and its setup/application cost must earn one declared use, inspect `C.19.2`; it defines and tests one bounded application to a separately identified problem-facing result and guarantee. Open `C.18` only when an adequate candidate must be generated or reframed, and `C.11` only when two or more eligible alternatives make a real local choice current;
+- to decide whether setting up and applying a selected apparatus, such as a model, is worth the cost for one use, inspect `C.19.2`; it tests the bounded application against the required result and guarantee. Use `C.39` when a missing obtaining explanation must be developed, or `C.40` when usable material needs variation and examination. Use `C.18` for archive or front claims, and `C.11` when two or more eligible alternatives make a local choice current;
 - when a clear engineering claim produces a wrong action, identity, dependence, obtaining, responsibility, or projection consequence, inspect `A.7.1`; when current FPF uses produce incompatible consequences for the same receiving claim and scope, inspect `A.7.2`. In either case, keep the method episteme, admitted performer, dated work, the claim-specific result returned by the applicable pattern, and one result episteme distinct: the local disposition is a value in that result, not its kind, and `A.7.2` need not converge;
 - when an accepted C.22.2 `ProblemCard` episteme must remain usable while the project selects a method, prepares or performs work, interprets a result, branches, stops, or returns after a changed assumption, inspect `E.18.1 P2W Problem-to-Work Carry-Through`; it carries the accepted problem-side distinctions into one next value or relation returned by the pattern that answers the current question rather than prescribing one universal workflow;
 - when route-like positions, relations, or constraints change which continuation remains possible, inspect `E.18.3`: begin with the concrete thing being transformed, two recognizable places or states, the proposed connection or guard, and the current continuation question. An ordinary provisional explanation may answer it or stop with the exact missing predicate or occurrence rule, missing case fact, or unavailable information. Recover exact A.22/E.18 qualification and a separate demonstrative-slice claim only when qualification, comparison, publication, or stronger reliance is current; if no branch, connection, or constraint changes the continuation question, keep an ordinary route description;
@@ -2351,8 +2362,6 @@ The external sources therefore change recognition and the tests applied to the w
 
 **Plain name.** Find the system that acts or is intended to change.
 
-**Mint or reuse.** This pattern introduces no U-kind, relation kind, result kind, or application-record kind. `A.1.SCR` is a PatternID. It tests one exact `U.Entity` under the already admitted `U.System` kind only when a current engineering decision depends on systemhood.
-
 ### A.1.SCR:0 - Practitioner entry
 
 **Use this when.** Use this pattern when a decision depends on which exact system acts, is intended to change, carries a capability, persists through a lifecycle, or is being considered or designated as the project system-of-interest—and the proposed subject is still unclear. Ask: **Which exact system acts or is intended to change here, and what decision depends on treating it as a system?**
@@ -2445,7 +2454,7 @@ When the decision still depends on systemhood, recover all six A.1 constructive 
 | Composition-grounded whole-level characteristic | Which characteristic follows from the actual assembly rather than from a label, plan, measurement, or one constituent? |
 | Possible participation in a larger constructive assembly | Which boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy the applicable governed construction rule? |
 
-Then apply the already admitted `U.System` condition: the whole has an actual physical or operational organization through which it can causally participate in Work or transformation while preserving identity. A system-role assignment, capability, Work occurrence, plan, codebase, or description may provide evidence for these conditions.
+Then apply the already admitted `U.System` condition: the whole has an actual physical or operational organization through which it can causally participate in Work or transformation while preserving identity.
 
 #### A.1.SCR:4.4 - Return one decision-bearing result
 
@@ -2492,7 +2501,7 @@ Infer no project designation from system recognition, affectedness, familiar wor
 
 #### A.1.SCR:4.8 - Use physical grounding without cross-kind identity
 
-Ask what physically or operationally exists, where its boundary lies, and what preserves or ends its identity. This pressure helps test a proposed system reading and reject description-only substitutes. It does not identify a system with a local system-role kind, system-role assignment, capability, Work, transformation, Method, plan, evidence, or description. Do not import BORO categories, unrestricted composition, or a new 4D record.
+Ask what physically or operationally exists, where its boundary lies, and what preserves or ends its identity. This pressure helps test a proposed system reading and reject description-only substitutes.
 
 ### A.1.SCR:5 - Archetypal Grounding — Seven Heterogeneous Worked Cases
 
@@ -2512,21 +2521,22 @@ Each row states whether the A.1.SCR trigger actually fires. The rows are example
 
 #### A.1.SCR:5.1 - Scale-free and difficult-noun recognition stress
 
-Use the same six A.1 constructive components and acting-eligibility condition for every exact entity below. The table supplies bounded fixtures, not shortcuts or a system taxonomy. `true` means the supplied inputs determine satisfaction; `false` means a required component fails; `unknown` names the missing input and blocks system-dependent reliance. Evaluation creates no kind membership or neighboring claim. For the sixth component, each positive fixture below states one local larger-assembly condition and the exact fixture fact that meets it. These fixture conditions are inputs to this evaluation, not universal rules, new relation kinds, or grounds for any neighboring claim in the third column.
+Apply the same six A.1 constructive components and acting-eligibility condition to each exact entity below. The table supplies bounded fixtures. `true` means the supplied inputs determine satisfaction; `false` means a required component fails; `unknown` names the missing input and blocks system-dependent reliance. For the sixth component, each positive fixture states one local larger-assembly condition and the fact that satisfies it. Establish other claims needed by the current decision under their subject patterns.
 
-| Exact `U.Entity` evaluated under `U.System` | Fixture result | Claims that remain separate |
+| Exact `U.Entity` evaluated under `U.System` | Fixture result | Case-specific fact or next use |
 | --- | --- | --- |
-| `Pump #37` | `true` by reference to A.1:5.1: constituents, assembly, reidentification, whole-level pumping characteristics, larger-system compatibility, and acting eligibility pass. | Capability, assignment, inspection Work, Method, causal participation, and transformation. |
-| `Raven-17` | `true` in this bounded fixture: its skeletal, muscular, respiratory, nervous, wing, and feather constituents stand in obtaining biological part and organization relations; continuity of the same living raven through ordinary material turnover reidentifies it; flight and homeostasis are whole-level characteristics. The construction rule stated here for the larger `Aviary-3` admits a living bird constituent only when it can cross the 1.5 m gate, remain within the 5 kg perch load, and retain organism identity through entry and exit; the fixture gives `Raven-17` a 1.2 m span, 1.1 kg mass, and the same-living-raven continuity rule, so those conditions pass. Its physical organization is acting-eligible. | Capability or causal interaction may be current; no work-facing assignment, Method, or Work follows. |
-| `Engineer-4` | `true` in this bounded fixture: the exact embodied person has nervous, sensorimotor, metabolic, and musculoskeletal constituents under obtaining organism relations; continuity of the same living person through ordinary cellular turnover and changes of job, clothing, or tools reidentifies `Engineer-4`, while replacement by another person does not; coordinated perception, movement, and self-regulation are whole-level characteristics. The construction rule stated here for the larger `BridgeInspectionTeam-2026` admits an exact person constituent only when the person can use the team's spoken `Channel-BR4` and `Harness-H2` interfaces without changing personal identity; the fixture states that `Engineer-4` can use both interfaces and remains the same person across the required clothing and tool changes, so those conditions pass. The physical organization is acting-eligible. | Job title, capability, assignment, Method, dated Work, causal participation, and transformation each need a subject pattern. |
-| runtime whole `DispatchAgent-12` | `true` only in this bounded runtime fixture: one runtime process, authoritative state carrier, control loop, and tool adapters stand in obtaining control, data, and tool-link relations; continuity of the declared process boundary and authoritative-state lineage reidentifies the same running instance, while a separately initialized lineage does not; dispatch behaviour is whole-level. The construction rule stated here for the larger `DispatchPlatform-DP4` admits one runtime whole only when its input boundary implements `DispatchInput-v3`, its adapters implement `ToolPort-v2`, and an allowed reconnect preserves the same authoritative-state lineage; the fixture supplies those two interface matches and that lineage-preserving reconnect, so the conditions pass. The operational organization is acting-eligible. Code or a model file is another object. | The word *agent* establishes no capability, assignment, Method, tool-call Work, or transformation. |
-| `InspectionRobot-R7` | `true` in this bounded fixture: its chassis, sensors, controller, power unit, and drives stand in obtaining mounting, power, and control relations; the maintenance rule preserves identity across allowed component replacement but not replacement of the whole; sensing and motion are whole-level characteristics. The construction rule stated here for the larger `PlantInspectionCell-7` admits one robot constituent only when mount `M-R7`, 48 V power, and `InspectBus-v2` control interfaces all match and allowed component replacement preserves robot identity; this fixture supplies all three matches and the stated maintenance identity rule, so the conditions pass. Its physical/computational organization is acting-eligible. | Inspection capability, contact, assignment, Method, Work, and workpiece change remain separate. |
-| `BridgeInspectionTeam-2026`; near miss: roster episteme `BridgeInspectionRoster-2026` | `true` for the coordinated organization in this bounded fixture: named inspectors, equipment, and coordinating artifacts stand in obtaining membership, assignment, and coordination relations; the charter-and-coordination continuity rule reidentifies the team through permitted member substitution; inspection capability is whole-level. The construction rule stated here for the larger `BridgeRenewalOrganization-2026` admits one coordinated team constituent only when its charter boundary exposes `InspectionReportPort-BI` and `EquipmentHandover-BI` and permitted member substitution preserves team identity; the fixture supplies both obtaining interfaces and the charter continuity rule, so the conditions pass. Independently grounded work-facing participation supports acting eligibility. `false` for `BridgeInspectionRoster-2026`: the episteme lists names but supplies no obtaining assembly or whole-level acting characteristic, so the proposed system reading for that exact roster and boundary fails. | The team's assignments and Work are independently grounded; the roster gains no capability, Method, Work, causal position, or transformation from its content. |
-| exact Moon; neighboring tide case follows `CoastalBasin-5` | `true` for the Moon in this bounded fixture: its crust, mantle, and core are exact constituents under obtaining material-part and gravitational-cohesion relations; continuity of the same gravitationally coherent astronomical body through ordinary surface impacts and mass exchange reidentifies it; orbital and gravitational characteristics are whole-level. The construction rule stated here for the larger `EarthMoonOrbitalAssembly-1` admits one astronomical body constituent only when a direct dynamics account gives it a bound Earth-orbiting position and the body's boundary and identity survive the ordinary impact and mass-exchange range; the fixture independently supplies that bound-orbit fact and the stated identity rule for the exact Moon, so the conditions pass. Its physical organization is acting-eligible. That direct dynamics fact, not systemhood, may separately give it an actor-side position. `CoastalBasin-5` is instead identified by its shoreline, inlet, depth range, and persistence rule for the tide-related change; this row does not decide that bearer's systemhood, and generic *water* identifies neither one referent nor a system. | Moon systemhood, causal participation, and the basin's tide-related transformation are separately governed; none implies a `TransformerSystemRole` classification, a system-role assignment, Method, or Work. |
-| `SutureControl-M17`, beside `SuturingCapability@Surgeon-4` | `true` in this bounded fixture: `NeuralController-17`, `ExocortexAid-3`, and `SensorimotorCircuit-4` are exact constituents under obtaining part and control relations; continuity of the learned-control profile through the allowed component-replacement rule reidentifies the whole; coordinated suture-control behaviour is whole-level. The construction rule stated here for the larger `Surgeon-4-plus-tools` assembly admits this control whole only when its boundary exposes matching `NeuralLink-N17`, `AidControlPort-A3`, and `SensorimotorLoop-S4` interfaces and allowed replacement preserves the learned-control profile; the fixture supplies all three interface matches and that profile-continuity fact, so the conditions pass. Its physical or operational organization is acting-eligible. | Capability, surgeon, system-role kind or assignment, training Method or Work, evidence, evaluation, and physical change remain distinct; no `U.Mastery` is admitted. |
-| `GameSessionWhole-GS204`, beside Work, interval, and record readings | `true` in this bounded fixture: `Player-A-GS204`, `Player-B-GS204`, `ClientRuntime-A-GS204`, `ClientRuntime-B-GS204`, `ServerRuntime-GS204`, `AuthoritativeStateCarrier-GS204`, and two named client-server links are exact constituents under obtaining part/link relations and the stated session assembly; authoritative-state continuity plus the reconnect/terminal-close rule reidentifies the whole; interactive game-state evolution is whole-level. The construction rule stated here for the larger `GameServiceAssembly-6` admits one session whole only when both links implement `GameLink-v4`, the server exposes `SessionAuthority-v2`, and reconnect keeps the same authority lineage until terminal close; the fixture supplies those link, authority, and lineage facts, so the conditions pass. Its operational organization is acting-eligible. | Performer systems, assignments, play Work, interval, record, release, Method, causal interaction, and transformations remain distinct. |
-| `InternetAccessArrangement-CA17`, beside promise, permission, state, bearer, Work, and evidence readings | `true` in this bounded fixture: `CustomerTerminal-CA17`, `Gateway-7`, `ProviderEdge-CA17`, `LinkCarrier-CA17`, and `RouteController-CA17` are exact constituents under obtaining part/link relations and one operational assembly; circuit/account continuity plus allowed failover reidentifies the arrangement; end-to-end packet exchange is whole-level. The construction rule stated here for the larger `ProviderDeliveryAssembly-CA17` admits this arrangement only when the terminal, gateway, provider-edge, carrier, and route-controller interfaces keep the same circuit/account through allowed failover and jointly meet availability at least 99.9%, latency at most 60 ms, and throughput at least 100 Mb/s; the fixture supplies those interface, continuity, and measured-threshold facts, so the conditions pass. Its operational organization is acting-eligible. A bare access-availability state has no constituents or assembly and fails only if substituted as the exact proposed whole; its bearer and state claim remain separately governed. | A.6.P remains the pattern for promise, permission, provider/consumer participation, status, capability, Method, intended or dated Work, evidence, fulfilment, and acceptance. `Gateway-7` remains a separately identified constituent and bearer; no `U.Access`, generic access relation, assignment, Work, or transformation follows. |
-Across all rows, first preserve the exact entity named by the proposed system reading. Do not replace it with a neighboring person, capability, Work occurrence, interval, record, endpoint, state, or bearer before A.1 evaluation.
+| `Pump #37` | `true` by reference to A.1:5.1: constituents, assembly, reidentification, whole-level pumping characteristics, larger-system compatibility, and acting eligibility pass. |  |
+| `Raven-17` | `true`: its skeletal, muscular, respiratory, nervous, wing, and feather constituents stand in obtaining biological part and organization relations; continuity of the same living raven through ordinary material turnover reidentifies it; flight and homeostasis are whole-level characteristics. The construction rule stated here for the larger `Aviary-3` admits a living bird constituent only when it can cross the 1.5 m gate, remain within the 5 kg perch load, and retain organism identity through entry and exit; the fixture gives `Raven-17` a 1.2 m span, 1.1 kg mass, and the same-living-raven continuity rule, so those conditions pass. Its physical organization is acting-eligible. |  |
+| `Engineer-4` | `true`: the exact embodied person has nervous, sensorimotor, metabolic, and musculoskeletal constituents under obtaining organism relations; continuity of the same living person through ordinary cellular turnover and changes of job, clothing, or tools reidentifies `Engineer-4`, while replacement by another person does not; coordinated perception, movement, and self-regulation are whole-level characteristics. The construction rule stated here for the larger `BridgeInspectionTeam-2026` admits an exact person constituent only when the person can use the team's spoken `Channel-BR4` and `Harness-H2` interfaces without changing personal identity; the fixture states that `Engineer-4` can use both interfaces and remains the same person across the required clothing and tool changes, so those conditions pass. The physical organization is acting-eligible. |  |
+| runtime whole `DispatchAgent-12` | `true` for this runtime whole: one runtime process, authoritative state carrier, control loop, and tool adapters stand in obtaining control, data, and tool-link relations; continuity of the declared process boundary and authoritative-state lineage reidentifies the same running instance, while a separately initialized lineage does not; dispatch behaviour is whole-level. The construction rule stated here for the larger `DispatchPlatform-DP4` admits one runtime whole only when its input boundary implements `DispatchInput-v3`, its adapters implement `ToolPort-v2`, and an allowed reconnect preserves the same authoritative-state lineage; the fixture supplies those two interface matches and that lineage-preserving reconnect, so the conditions pass. The operational organization is acting-eligible. Code or a model file is another object. |  |
+| `InspectionRobot-R7` | `true`: its chassis, sensors, controller, power unit, and drives stand in obtaining mounting, power, and control relations; the maintenance rule preserves identity across allowed component replacement but not replacement of the whole; sensing and motion are whole-level characteristics. The construction rule stated here for the larger `PlantInspectionCell-7` admits one robot constituent only when mount `M-R7`, 48 V power, and `InspectBus-v2` control interfaces all match and allowed component replacement preserves robot identity; this fixture supplies all three matches and the stated maintenance identity rule, so the conditions pass. Its physical/computational organization is acting-eligible. |  |
+| `BridgeInspectionTeam-2026`; near miss: roster episteme `BridgeInspectionRoster-2026` | `true` for the coordinated organization: named inspectors, equipment, and coordinating artifacts stand in obtaining membership, assignment, and coordination relations; the charter-and-coordination continuity rule reidentifies the team through permitted member substitution; inspection capability is whole-level. The construction rule stated here for the larger `BridgeRenewalOrganization-2026` admits one coordinated team constituent only when its charter boundary exposes `InspectionReportPort-BI` and `EquipmentHandover-BI` and permitted member substitution preserves team identity; the fixture supplies both obtaining interfaces and the charter continuity rule, so the conditions pass. Independently grounded work-facing participation supports acting eligibility. `false` for `BridgeInspectionRoster-2026`: the episteme lists names but supplies no obtaining assembly or whole-level acting characteristic, so the proposed system reading for that exact roster and boundary fails. | The team's assignments and Work are independently grounded. |
+| exact Moon; neighboring tide case follows `CoastalBasin-5` | `true` for the Moon: its crust, mantle, and core are exact constituents under obtaining material-part and gravitational-cohesion relations; continuity of the same gravitationally coherent astronomical body through ordinary surface impacts and mass exchange reidentifies it; orbital and gravitational characteristics are whole-level. The construction rule stated here for the larger `EarthMoonOrbitalAssembly-1` admits one astronomical body constituent only when a direct dynamics account gives it a bound Earth-orbiting position and the body's boundary and identity survive the ordinary impact and mass-exchange range; the fixture independently supplies that bound-orbit fact and the stated identity rule for the exact Moon, so the conditions pass. Its physical organization is acting-eligible. That direct dynamics fact, not systemhood, may separately give it an actor-side position. `CoastalBasin-5` is instead identified by its shoreline, inlet, depth range, and persistence rule for the tide-related change; this row does not decide that bearer's systemhood, and generic *water* identifies neither one referent nor a system. | Use the dynamics account for the Moon's causal participation; identify `CoastalBasin-5` as the subject of the tide-related change. |
+| `SutureControl-M17`, beside `SuturingCapability@Surgeon-4` | `true`: `NeuralController-17`, `ExocortexAid-3`, and `SensorimotorCircuit-4` are exact constituents under obtaining part and control relations; continuity of the learned-control profile through the allowed component-replacement rule reidentifies the whole; coordinated suture-control behaviour is whole-level. The construction rule stated here for the larger `Surgeon-4-plus-tools` assembly admits this control whole only when its boundary exposes matching `NeuralLink-N17`, `AidControlPort-A3`, and `SensorimotorLoop-S4` interfaces and allowed replacement preserves the learned-control profile; the fixture supplies all three interface matches and that profile-continuity fact, so the conditions pass. Its physical or operational organization is acting-eligible. | Evaluate the proposed `SutureControl-M17` whole; use the subject-pattern exit in :0 for a claim about the surgeon's capability. |
+| `GameSessionWhole-GS204`, beside Work, interval, and record readings | `true`: `Player-A-GS204`, `Player-B-GS204`, `ClientRuntime-A-GS204`, `ClientRuntime-B-GS204`, `ServerRuntime-GS204`, `AuthoritativeStateCarrier-GS204`, and two named client-server links are exact constituents under obtaining part/link relations and the stated session assembly; authoritative-state continuity plus the reconnect/terminal-close rule reidentifies the whole; interactive game-state evolution is whole-level. The construction rule stated here for the larger `GameServiceAssembly-6` admits one session whole only when both links implement `GameLink-v4`, the server exposes `SessionAuthority-v2`, and reconnect keeps the same authority lineage until terminal close; the fixture supplies those link, authority, and lineage facts, so the conditions pass. Its operational organization is acting-eligible. | Identify the play Work, interval or session record separately when that is the selected subject; this fixture tests the operational session whole. |
+| `InternetAccessArrangement-CA17`, beside promise, permission, state, bearer, Work, and evidence readings | `true`: `CustomerTerminal-CA17`, `Gateway-7`, `ProviderEdge-CA17`, `LinkCarrier-CA17`, and `RouteController-CA17` are exact constituents under obtaining part/link relations and one operational assembly; circuit/account continuity plus allowed failover reidentifies the arrangement; end-to-end packet exchange is whole-level. The construction rule stated here for the larger `ProviderDeliveryAssembly-CA17` admits this arrangement only when the terminal, gateway, provider-edge, carrier, and route-controller interfaces keep the same circuit/account through allowed failover and jointly meet availability at least 99.9%, latency at most 60 ms, and throughput at least 100 Mb/s; the fixture supplies those interface, continuity, and measured-threshold facts, so the conditions pass. Its operational organization is acting-eligible. A bare access-availability state has no constituents or assembly and fails only if substituted as the exact proposed whole; its bearer and state claim remain separately governed. | Use `A.6.P` for service/access recovery. `Gateway-7` remains a separately identified constituent and bearer. |
+
+Across all rows, first preserve the exact entity named by the proposed system reading.
 
 ### A.1.SCR:6 - Bias-Annotation
 
@@ -2581,18 +2591,15 @@ Extent-sensitive identity remains useful because it forces the practitioner to s
 
 ### A.1.SCR:11 - SoTA-Echoing
 
-> **Informative.** These sources provide bounded pressure on the practitioner route. A.1 and the named subject patterns remain authoritative for kinds, relations, and pass conditions.
+> **Informative.** These external comparisons inform the practitioner route. A.1 and the named subject patterns remain authoritative for kinds, relations, and pass conditions.
 
-| Source | Useful pressure for this pattern | Disposition | A.1.SCR action, stop, or limit affected |
-| --- | --- | --- | --- |
-| R5 *Systems Thinking* and R6 *Systems Modeling* guides, current and historical forms | Systems practice keeps a project system-of-interest and its outside use visible before internal design, but source wording often slides among the system, its function, role, service, bearer, and project designation. | **Adopt decision-first attention; adapt the designation; reject lexical identity.** | A.1.SCR:0 and 4.1 first name the exact decision and proposed entity. Section 4.7 requires a separate plan or decision for project-system designation and requires A.1.STM for a still-missing outside-use dependency; outside-before-inside does not become part of the A.1 kind criterion. |
-| R5/R6 scale-free physical-action and nonliving-actor passages | The same recognition question must work for engineered, living, artificial, human, collective, and natural wholes without treating intelligence, employment, or biology as the admission test. | **Adopt the scale-free test; reject anthropomorphic and family-specific shortcuts.** | A.1.SCR:4.3 applies the same six A.1 components and acting-eligibility condition. Section 5.1 replays that test across all families, then leaves capability, causal position, assignment, Method, Work, and transformation to their subject patterns. |
-| R5/R6 mastery, session, internet-access, and service passages | Each phrase carries a useful proposed physical or operational whole alongside rival capability, Work, interval, record, promise, permission, state, bearer, and service-delivery readings. The source traditions do not agree on one default referent. | **Adapt the proposed-system readings; reject word-induced systemhood and service normalization.** | A.1.SCR:4.2 takes a subject-pattern exit first; 4.6 begins unresolved service/access wording in A.6.P; sections 5 and 5.1 preserve each rival reading and evaluate only the exact `U.Entity` named by the proposed-system branch. Missing referent or construction facts stop the system-dependent use. |
-| Florio and Linnebo, [*Introduction to Constructional Ontology*](https://philarchive.org/rec/FLOITC-3), 2024 | Construction choices affect identity and require constructors, inputs, and construction-sensitive distinctions. | **Adapt as a conditional recognition and stopping test.** | Only the system-dependent branch in A.1.SCR:4.3 recovers constituents, obtaining relations, assembly, reidentification, whole-level characteristics, and larger-assembly applicability. Missing information about a required component returns `unknown`; the source does not authorize a new candidate kind or a classification ritual. |
-| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012 | Possible transformations depend on substrate attributes and constructor conditions, not on a written task alone. | **Adapt larger-assembly applicability; reject actuality from description.** | A.1.SCR:4.3 and 5.1 require the governed applicability and compatibility facts used by the current fixture. A plan, Method description, constructor label, or task proves neither assembly, acting participation, Work, nor transformation. |
-| Partridge, [*BORO Ontology*](https://borosolutions.net/boro-ontology), C-FORS 2025 | Four-dimensional identity pressure asks what exists through change and across extent. | **Reject wholesale categories; retain the identity probe.** | A.1.SCR:4.8 asks for the exact entity, boundary, reidentification, and construction facts while forbidding identity between a system and its system-role kind, capability, Work, or description merely from shared extent. No unrestricted composition or BORO category is imported. |
+| External source | Contribution used here | A.1.SCR use and boundary |
+| --- | --- | --- |
+| Florio and Linnebo, [*Introduction to Constructional Ontology*](https://philarchive.org/rec/FLOITC-3), 2024 | Construction choices affect identity and require constructors, inputs, and construction-sensitive distinctions. | Only the system-dependent branch in A.1.SCR:4.3 applies the six-component test. Return `unknown` when missing information prevents determining either satisfaction or failure. |
+| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012 | Possible transformations depend on substrate attributes and constructor conditions. | At A.1.SCR:4.3 and 5.1, test whether facts about the proposed assembly satisfy the applicability and compatibility conditions of a governed larger-assembly construction rule. |
+| Partridge, [*BORO Ontology*](https://borosolutions.net/boro-ontology), C-FORS 2025 | Four-dimensional identity pressure asks what exists through change and across extent. | Use A.1.SCR:4.8 for the entity and kind distinctions; shared extent alone does not establish identity. |
 
-The conditional method assembled here—state the decision, close with an exact subject assertion when possible, apply the complete A.1 test only when systemhood remains load-bearing, and use the Method described in A.1.STM for a recognized project subject only when the outside-use dependency is still missing—is a scoped FPF synthesis of these pressures, not an external consensus claim. Reopen the synthesis if A.1 changes its constructive criterion, A.6.P changes the service/access recovery boundary, A.15.6 changes project designation, or later cross-domain evidence defeats the scale-free decision method or one of its explicit stops.
+The conditional method is an FPF synthesis.
 
 ### A.1.SCR:12 - Relations
 
@@ -3023,18 +3030,15 @@ A.1.STM consumes only the returned recognition result. It does not repeat the si
 
 ### A.1.STM:11 - SoTA-Echoing
 
-> **Informative.** These sources provide bounded pressure on use of the long attention map. The named subject patterns remain authoritative for kinds, relations, participants, and pass conditions.
+> **Informative.** These source contributions inform use of the long attention map. The named subject patterns remain authoritative for kinds, relations, participants, and pass conditions.
 
-| Source | Useful pressure for this pattern | Disposition | A.1.STM action, stop, or limit affected |
-| --- | --- | --- | --- |
-| R5 *Systems Thinking* and R6–R8 systems guides, across their current and historical forms | Systems practice starts with the use or change sought outside the project system-of-interest, then justifies its boundary and internal organization, while allowing evidence and iteration to reopen those hypotheses. | **Adopt outside-before-inside; adapt system-of-interest to a separate project designation; reject function, role, or name as identity.** | A.1.STM:3 places outside use and project-system boundary before architecture, and :5 reopens both when operation contradicts them. The designation supplies neither A.1 systemhood nor a system-role assignment, and *project system-of-interest* carries no target- or goal-derived semantics. |
-| Rival R5–R9 mantra formulations and the seminar long/local-mantra account | The useful constant is sustained attention from a final use to distant support, entry at the first unsupported answer, backward justification, forward actuality, and return—not one canonical sentence or step sequence. | **Adopt the attention and training function; synthesize the variants; reject algorithm, fixed sequence, and default CGUS readings.** | A.1.STM:0 chooses the map by the final result; :3 separates backward reasoning from forward facts; :4 opens one subject pattern and returns its result. The reminder is neither the `Solution`, a Method, WorkPlan, calendar order, nor an admitted demonstrative structure. |
-| R5/R6 recursive-builder practice and their `CreatorGraph` renderings, read with current E.18 and E.18.NET | Build-the-builder reasoning must consider operation, production, identity inception, later change, feedback, and builder branches together, but the picture alone supplies no members or relations. | **Adapt recursion to independently identified TFS or nested-network members; reject creator-graph ontology and universal edges.** | The `Joint network and builders` region, Solution steps 2, 5, and 6, and the pump worked use require exact cross-member occurrences and endpoint bindings. Shared identity, a `creates` label, or temporal adjacency does not admit a network or connect two members. |
-| Guide whole-project and local-focus contrasts, read with current A.15.6, E.18, and E.18.NET | A project team needs both the longer project dependency and a bounded local concern, but the guide picture does not by itself distinguish project Work, network selection, case subject, closure, and later use. | **Adapt to a minimal subject- or claim-centred case result; reject project=network, case=slice, and dossier readings.** | Solution step 2 and the pump worked use name the exact subject or claim, only the references and direct claims needed now, a separately governed closure basis, and one downstream receiving use that remains outside the closed case. Project-level reasoning may continue into that later member without reopening the closed case as a record. |
-| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012, read with current A.3.4, A.15.PROD, and E.18 | Required behavior and possible production or change depend on exact substrates, conditions, and constructor-side facts; a task or description is not an actual occurrence. | **Adopt the possibility/actuality pressure; adapt it to FPF subject patterns; reject actuality from requirement, Method, or Work alone.** | The runtime and making/changing regions, forward trace, and worked use distinguish one continuing changed referent, production participation, identity inception, later use, and system-side participation. A not-yet-existing system is not transformed, and required behavior proves no actual change. |
-| R5/R6 function, role, service, access, and “our system” variants | Familiar words can point to a system, capability, role, Work, Method, promise, state, bearer, arrangement, or another directly governed object; they do not agree on one default referent or universal contribution relation. | **Adopt the need to keep the long dependency visible; adapt every local claim to its exact subject predicate and retain the pattern only as a locator; reject lexical defaults and generic contribution.** | The `Local contribution` region and neighboring subject results require the exact subject and supported production, installation, participation, release, use, causal, evidence, or other relation. Service/access wording first undergoes A.6.P recovery; a missing direct link stops the long-map claim. |
+| Source | Contribution to the pattern | A.1.STM use and boundary |
+| --- | --- | --- |
+| E.18 and E.18.NET | Build-the-builder reasoning must consider operation, production, identity inception, later change, feedback, and builder branches together, while independently identifying the TFS or nested-network members and relations behind any diagram. | The `Joint network and builders` region, Solution steps 2, 5, and 6, and the pump worked use require exact cross-member occurrences and endpoint bindings. Shared identity, a `creates` label, or temporal adjacency does not admit a network or connect two members. |
+| A.15.6, E.18, and E.18.NET | A project team needs both the longer project dependency and a bounded local concern, with separate claims for project Work, network selection, case subject, closure, and later use. | Solution step 2 and the pump worked use name the exact subject or claim, only the references and direct claims needed now, a separately governed closure basis, and one downstream receiving use that remains outside the closed case. Project-level reasoning may continue to that later use without reopening the closed case. |
+| Deutsch, [*Constructor Theory*](https://arxiv.org/abs/1210.7439), 2012, read with current A.3.4, A.15.PROD, and E.18 | Possible production or change depends on substrate attributes and constructor conditions. | The runtime and making/changing regions, forward trace, and worked use distinguish one continuing changed referent, production participation, identity inception, later use, and system-side participation. Do not infer actual production or change from a requirement, Method, or Work alone. A not-yet-existing system is not transformed. |
 
-The reconciliation of long-mantra attention, subject-qualified results or blockers, minimal case closure, and E.18.NET recursion is a scoped FPF synthesis of these pressures, not an external consensus claim.
+The combination used by this attention map is an FPF synthesis.
 
 ### A.1.STM:12 - Rationale
 
@@ -9012,40 +9016,21 @@ The pattern is representation-agnostic because a method can be described through
 
 ### A.3.3:1 - Problem frame
 
-Use this pattern when a project needs one reusable claim about **how the state of an exact EntityOfConcern can change**: a state space, a transition law, an observation relation, and the conditions under which prediction, simulation, calibration, conformance, drift, or gating claims may be relied on.
+Use this pattern when you need a reusable account of how a particular subject's state can change: which differences the state must retain, the law relating earlier and later state, and the conditions in which that law applies.
 
-Use it when the working question is:
+**First useful move.** Name the changing subject, the state coordinates and their meanings, and the transition law in one ordinary sentence. For example: “In this two-substance mixture, the remaining masses in kilograms change from (a,b) to (a/2,b/4) after each treatment cycle; the instrument reports a+b.” The first question is whether the observed total contains enough information to predict the next total. Section 5.6 works out the answer.
 
-* which EntityOfConcern has changing state, distinguishing an obtaining assignment occurrence from a separately identified A.2.5 assignment-state relation when that distinction is current;
-* which characteristics and local meanings define the state space;
-* which transition law states how those coordinates evolve;
-* which observations or work-derived traces can be compared with the law;
-* over which operating region, claim scope, qualification window, parameter regime, or scale band the claim applies; and
-* whether a prediction can be used for comparison, gating, assurance, planning, or control.
+If the ordinary statement is sufficient for the current comparison, stop. Add the observation, calibration or assurance account when the receiving use needs it. Before making a prediction, conformance or gate-use claim, name the exact applicability window and any observation relation that use requires; stop that use if a required condition is unavailable.
 
-A passive System can be the changing entity. When an agency, dated Work, or F.6 attribution claim is current, establish its basis independently.
+The practical gain is a prediction based on sufficient state information, with an explicit way to compare it with observations. A model fitted to the wrong state can lose a distinction that changes the answer.
 
-**Primary governed object.** A.3.3 examines one already identified claim-bearing `U.Episteme` candidate and judges whether that same individual belongs to the dependent kind `U.Dynamics`. Positive membership requires its exact C.2.1 `EntityOfConcern` to be the thing whose state is modelled and its ClaimGraph, interpreted under its effective `U.ReferenceScheme`, to declare both a state space and a state-transition law for that subject. The same episteme retains its C.2.1 identity.
-
-**E.24.UK settlement.** `U.Dynamics` remains a dependent durable U-kind under `U.Episteme`. It is the reusable state-space and transition-law episteme. Components such as `stateSpace`, `transitionLaw`, `observationRelation`, and `calibrationOrParameterSource` remain ClaimGraph content or references inside the dynamics episteme unless another governing pattern independently identifies one of them.
-
-**First useful move.** In one ordinary sentence, name the exact changing subject, the state coordinates and their meanings, the rule that relates earlier and later state, where that rule applies, and the applicable stop conditions. If that is enough for the current comparison, stop. Add observation, calibration, evidence, temporal, mathematical-lens, assurance, or gate machinery only when the proposed receiving use needs it. Before making a prediction, conformance, or gate-use claim, name the exact applicability window and any observation relation that use requires; stop that use if a required condition is unavailable.
-
-**What goes wrong if missed.** Procedure text becomes "the dynamics", telemetry becomes a law, one observed run becomes a prediction, a dashboard becomes a state space, a description or selected graph is mistaken for the dynamics episteme, or a simulation becomes permission to act.
-
-**What this buys in practice.** Practitioners can compare predictions with traces, decide whether stale predictions may still be used, separate Methods and MethodDescriptions from laws of change, and decide where characteristic, scope, temporal, mathematical-lens, evidence, assurance, or gate patterns must take over.
-
-**Not this pattern when.** If the source only states a semantic way of doing, use `A.3.1`. If one episteme substantively describes that admitted Method, use `A.3.2`. If the question is an independently selected organization of exact constituents and obtaining relations, use `A.22`. If the source states one actual bounded change established by the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification, use `A.3.4`. A possible, predicted, simulated, or probable transition remains claim content. If it states planned work or dated work, use `A.15.2` or `A.15.1`. If it states a mechanism algebra, use `A.6.1` and `E.20`. If it states only freshness, rhythm, inertia, delay, window, or currentness as a positive temporal aspect, use `C.27.TA`; if it states adequacy or supported use of an authored temporal claim, use `C.27`. If it states only evidence or assurance, use `A.10` or `B.3`.
+This pattern identifies the episteme that states the model's state space and transition law. Section 4.1 gives its membership rule. For a known model and a settled calculation, use the domain calculation directly. When the question instead concerns a procedure, an actual event or another receiving use, use the conditional contributions in :4.3.
 
 ### A.3.3:2 - Problem
 
-Without a first-class `U.Dynamics`, state-change claims collapse into nearby but different claims:
+A time series describes observations but leaves the next state to be explained. A control instruction selects an action but may leave its physical effect unspecified. Even a declared law can give an inadequate prediction when its chosen state hides a consequential difference, as the two-substance case shows.
 
-1. **Recipe becomes law.** Teams put procedure text, a control diagram, a workflow diagram, or a method description where a state-transition law should be.
-2. **Trace becomes law.** Dated work logs, telemetry, and incident sequences are treated as if past events defined what must happen.
-3. **Dashboard becomes state space.** Metric lists appear without characteristics, units, scales, topology, geometry, invariants, or operating region.
-4. **Prediction becomes authority.** A model output is used for a gate, release, safety, or work decision without a use-specific account of applicability, horizon, error or uncertainty, currentness, observation, and assurance.
-5. **Domain vocabulary blocks transfer.** Physics, control, finance, reliability, operations, knowledge dynamics, and architecture all talk about change differently; FPF needs one kernel pattern that preserves their differences without inventing separate ontologies.
+A usable account must therefore connect the changing subject, the state distinctions, the transition law and the observations. Its applicability and support must be sufficient for the particular prediction or decision, which may demand more than the initial model comparison.
 
 ### A.3.3:3 - Forces
 
@@ -9054,7 +9039,7 @@ Without a first-class `U.Dynamics`, state-change claims collapse into nearby but
 | Universality and domain richness | One kernel pattern must cover ODEs, PDEs, Markov kernels, queues, discrete events, Bayesian updates, enterprise characteristic evolution, and architecture-quality change without flattening the domain-specific model. |
 | Model and world | `U.Dynamics` is an episteme, while evidence comes from dated work, telemetry, observation, and source relations. |
 | Continuous, discrete, stochastic, and hybrid forms | Time references, update rules, likelihood models, and disturbances differ; the state-space and transition-law declaration must keep them explicit. |
-| Prediction and intervention | A law can inform planning, diagnosis, simulation, model-predictive control, or assurance, but it does not itself assign work authority or responsibility. |
+| Prediction and intervention | The same law can support exploration, while a control action may require additional validation and assurance. |
 | Mathematical power and transfer risk | Mathematical form can make prediction precise, but transfer across domains, scales, or representations needs `C.29` and sometimes `A.6.0`. |
 | Freshness and gate pressure | Predictions are attractive when observation is slow or expensive; gate use still needs stated currentness and applicability conditions. |
 
@@ -9068,9 +9053,8 @@ The C.2.1 ClaimGraph, exact `EntityOfConcern`, and effective `U.ReferenceScheme`
 
 `U.Dynamics` can be deterministic or stochastic, continuous, discrete, or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another exact EntityOfConcern. If several subjects are jointly modelled, the exact C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject.
 
-A semantic way of doing belongs to `U.Method`; an episteme describing one admitted Method belongs to `U.MethodDescription`; a dated performed occurrence belongs to `U.Work` only after independent A.15.1 admission; an episteme coordinating possible future Work belongs to `U.WorkPlan` under A.15.2; an actual bounded change belongs to `U.Transformation`; an episteme declaring an operation family and its laws belongs to `U.Mechanism` under A.6.1; a selected organization belongs to A.22 `U.Structure`; and evidence, publication, result, reliance, assurance, gate, and authorization claims remain with their subject patterns.
 
-If empirical grounding is claimed, state the exact C.2.1 `EpistemeEmpiricalGroundingRelation`. A calibration source, observation record, dated calibration Work, evaluation result, A.10 evidence-provenance path, or B.3 assurance claim remains separately identified and does not become an intrinsic grounding field of `U.Dynamics`.
+If empirical grounding is claimed, state the exact C.2.1 `EpistemeEmpiricalGroundingRelation`.
 
 #### A.3.3:4.2 - Dynamics statement
 
@@ -9098,23 +9082,22 @@ Dynamics statement:
 
 These rows are an optional aid for the minimum claim content and separately governed references needed by the current use. C.2.1 identifies the candidate episteme.
 
-#### A.3.3:4.3 - Working distinction table
+#### A.3.3:4.3 - Conditional contributions to the work
 
-| Current claim | Governing pattern |
+Use a contribution below when its question arises while constructing or using the state-law account.
+
+| Question now requiring an answer | Contribution |
 | --- | --- |
-| state space and transition law for changing state | `A.3.3 U.Dynamics` |
-| semantic way of doing | `A.3.1 U.Method` |
-| claim-bearing episteme whose exact EntityOfConcern is one admitted Method and whose claims substantively describe that Method; text, code, diagram, model, proof script, or protocol may represent those claims | `A.3.2 U.MethodDescription` for membership; `C.29` and publication patterns for representation or availability when current |
-| planned dated work | `A.15.2 U.WorkPlan` |
-| dated work occurrence and actuals | `A.15.1 U.Work` |
-| mechanism algebra, admissible operation, or law-governed application over a subject kind | `A.6.1 U.Mechanism` and `E.20` |
-| formal object, invariant, postulate set, or mathematical substrate | `A.6.0`, `C.29`, or the direct mathematical pattern |
-| observation, trace, conformance result, source, or provenance used as evidence | `A.10` and direct evidence-related patterns |
-| assurance case, trust calculus, or safety argument | `B.3` or the direct assurance pattern |
-| gate passage, release, authority, or permission to act | `A.20`, `A.21`, or the direct gate or authority pattern |
-| actual bounded change identified by exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification | `A.3.4 U.Transformation` |
-| freshness, delay, rhythm, currentness, inertia, cadence, or validity window as a positive temporal aspect | `C.27.TA` |
-| adequacy or supported use of an authored temporal claim | `C.27` |
+| Which reusable way is being identified, and does the episteme describe that way? | A.3.1 identifies the `U.Method`; A.3.2 tests whether an episteme substantively describes that admitted Method. |
+| Does a proposed whole Method have the claimed parts and whole behavior? | B.1.5 establishes the exact part Methods, obtaining `methodPartOf` relations, whole-forming claims and constraints, whole semantics, boundary and reidentification. |
+| What work is planned, or what was actually performed? | A.15.2 identifies the `U.WorkPlan` episteme coordinating possible future Work; A.15.1 independently admits dated performed `U.Work` and establishes its actuals. |
+| Is one actual bounded change established? | A.3.4 requires the exact changed referent, temporal extent under its continuity rule or formal ordering boundary, boundary conditions, actual characteristic-state and obtaining direct-relation facts, and continuity or reidentification. |
+| Which independently selected organization of constituents and obtaining relations is being used? | A.22 identifies that Structure, including a selected transformation-flow organization. |
+| Which operation or law-governed application is admissible over the subject kind? | A.6.1 identifies the `U.Mechanism` episteme declaring the operation family, laws and admissibility conditions. Use E.20 when introducing or revising a mechanism definition in FPF. |
+| Which mathematical substrate or transferred representation supports the model? | Use the direct mathematical Method; use A.6.0 when the model needs a reusable formal-substrate declaration. Section :4.7 specifies the C.29 transfer question. |
+| Which observations or source claims support the model or comparison? | A.10 supplies the evidence-provenance account; :4.5 states how observations are compared with the law. |
+| Which temporal aspect, such as freshness, delay or a validity window, does the use require, and is the authored temporal claim adequate? | C.27.TA supplies the temporal-aspect description; C.27 assesses the authored temporal claim. |
+| What assurance or decision does reliance on the prediction require? | B.3 supplies assurance and A.20 supplies a needed internal-constraint result. Use A.21 for a gate decision or the applicable decision pattern for another decision. Apply :4.6's prediction-use conditions. |
 
 #### A.3.3:4.4 - State-space and transition-law fields
 
@@ -9146,7 +9129,9 @@ U.Dynamics membership view {
 
 `transitionLaw`, `observationRelation`, `constraintsOrInvariants`, and `calibrationOrParameterSourceIfReliedOn` are ClaimGraph content or exact references inside the `U.Dynamics` episteme unless another governing pattern independently identifies one as an episteme, source, relation, or structure.
 
-`observationRelation` separates state from what can be measured, sampled, logged, estimated, or inferred. Identity observation is allowed only when the claim says the state coordinate is directly observed. Any exact measurement result, observation record, dated Work, provenance path, empirical-grounding relation, or assurance claim remains under its subject pattern.
+`observationRelation` specifies how the model connects its state to the observed quantity. For a deterministic observation, give the map `y = h(x)`, where `x` is the model state and `y` the observed quantity. Identity observation (`h(x) = x`) is allowed only when the claim says the state coordinate is directly observed.
+
+When proposing an exact deterministic one-step law on measured or aggregated coordinates, check whether two admitted states with the same current values of those coordinates, time and inputs can give different next coordinate values. Such a pair disproves that proposed law. Section 5.6 shows how to recover the missing predictive information or give a bounded answer.
 
 #### A.3.3:4.5 - Evidence, prediction, conformance, drift, and calibration
 
@@ -9168,85 +9153,73 @@ Calibration Work and its domain result may support a later dynamics episteme who
 
 #### A.3.3:4.6 - Prediction use in comparison or gating
 
-A prediction used for comparison, release, gate, assurance, or work preparation states the exact dynamics edition, predicted Coordinates, operating region, horizon, time step, parameter regime, source-currentness condition, and relevant error or uncertainty. The direct consumer's policy then states which observation, validation, sensitivity, robustness, stability, or normalization-composition conditions that use requires.
+A prediction used for comparison, release, gate, assurance, or work preparation states the exact dynamics edition, predicted Coordinates, operating region, horizon, and relevant error or uncertainty. State any time step, parameter regime or source-currentness condition on which the prediction or receiving use depends. The direct consumer's policy then states which observation, validation, sensitivity, robustness, stability, or normalization-composition conditions that use requires.
 
-A fresh observation may replace or check the prediction when the policy calls for it. A non-expansive bound, another sensitivity bound, or commutation with a normalization step is required only when the named use relies on that property. If the required conditions are absent or fail, the prediction cannot carry that use; state currentness through `C.27.TA`, use `C.27` for authored temporal-claim adequacy, and use A.20, A.21, G.4, or the direct authority pattern for the actual decision.
+A fresh observation may replace or check the prediction when the policy calls for it. A non-expansive bound, another sensitivity bound, or commutation with a normalization step is required only when the named use relies on that property. If the required conditions are absent or fail, the prediction cannot carry that use. State a needed currentness claim through `C.27.TA`. Use `C.27` when a separate authored temporal-claim adequacy question remains. Obtain a needed internal-constraint result through A.20; use A.21 for a gate decision or the applicable decision pattern for another decision.
 
-#### A.3.3:4.7 - A.3.4, C.27.TA, C.27, and C.29 boundaries
+#### A.3.3:4.7 - Apply or transfer a dynamics model
 
-`A.3.4` governs one actual bounded change identified by the exact changed referent, maximal continuous temporal extent or exact formal ordering boundary, boundary conditions, actual characteristic-state and obtaining direct-relation facts, and continuity or reidentification. A dynamics episteme can model a possible change, predict a probable transition, simulate a trajectory, constrain a candidate, or assert that change is expected; none becomes an actual `U.Transformation` until that subject-side occurrence basis obtains.
+Stay in A.3.3 when the transition law or observation relation uses accepted local dynamics under one explicit semantic basis and applicability boundary.
 
-`C.27.TA` names positive temporal aspects: freshness, delay, rhythm, currentness, inertia, cadence, trajectory, recovery timing, stabilization timing, and validity window. `C.27` judges adequacy or supported use of authored temporal claims that use those aspects. A `Dyn2TemporalClaimAdequacyCard` or temporal classification is not itself a law of change.
+Use C.29 when the law's use depends on a contested transfer, cross-domain analogy, learned or speculative mathematical lens, scale change, abstraction, quotienting or reusable explanation across contexts. Establish the preserved and lost structure, operating region or scale window, applicable rival, lens-use boundary and stop condition. Then state the resulting dynamics law and its observation, constraint and calibration conditions here. The direct prediction consumer still determines reliance under :4.6.
 
-Stay in `A.3.3` when `transitionLaw` or `observationRelation` uses accepted local dynamics, Markov kernels, ODEs, simulations, queueing theory, control theory, or domain theory under one explicit semantic basis and applicability boundary.
+#### A.3.3:4.8 - Recover an ambiguous source claim
 
-Use `C.29` when the law depends on contested transfer, cross-domain analogy, learned or speculative mathematical lens, scale change, abstraction, quotienting, or reusable explanation across contexts. The `C.29` output states preserved structure, lost structure, operating-region or scale window, rival lens when current, lens-use boundary value, and stop condition. `A.3.3` remains the governing pattern for state space, transition law, observation, constraints, and calibration semantics.
-
-#### A.3.3:4.8 - Method, mechanism, and governing-pattern constellation boundary
-
-A source label such as `process`, `algorithm`, `dynamics`, `workflow`, `model`, `controller`, or `simulator` may point to linked slot positions under `E.10.ARCH`. Recover the relevant slots first, then split the linked values:
-
-* `U.Method` for the semantic way of doing;
-* `U.MethodDescription` for the claim-bearing episteme that substantively describes one admitted Method, while C.29 and publication patterns keep its representation, form, carrier, and availability separate;
-* `U.Dynamics` for the state-space and transition-law episteme;
-* `U.Mechanism` for the episteme declaring an operation family and its laws under A.6.1; actual applications remain separate;
-* `U.WorkPlan` for the episteme coordinating possible future Work, and `U.Work` for a dated performed occurrence independently admitted by A.15.1;
-* `TransformationFlowStructure` for selected flow structure when the source is describing a flow-shaped arrangement of transformations;
-* evidence, gate, authority, and assurance values when those claims are current.
-
-For a composite-Method claim, B.1.5 must independently recover exact part Methods, obtaining `methodPartOf` relations, whole-forming claims and constraints, whole semantics, boundary and reidentification.
-
-Do not infer dual typing from a shared source or label. One episteme can meet A.3.2 only by describing one admitted Method, and one episteme can meet A.3.3 only by carrying the state-space and transition-law claims above; neither membership establishes the other. No current FPF governor admits one individual as both the A.3.1 semantic way of doing and the A.3.3 state-change episteme; reopen that question only if a later direct admission rule states both memberships without letting either classification supply the other's facts.
+When a source label such as “process” or “model” leaves the asserted relation unclear, recover one concrete claim before assigning a kind. Establish U.Dynamics membership on the episteme under :4.1 and a Method claim on the semantic way of doing under A.3.1. When an episteme is also claimed to describe that Method, apply A.3.2's membership rule independently. Section 4.3 supplies the other conditional contributions; use E.10.ARCH if the represented relation remains unresolved.
 
 ### A.3.3:5 - Archetypal Grounding
 
 #### A.3.3:5.1 - Reactor control
 
-A reactor team models temperature and concentration under a nonlinear ODE with disturbances. One claim-bearing reactor-model episteme is `U.Dynamics`. Its ClaimGraph declares the nonlinear ODE as `transitionLaw`, the exact temperature-and-concentration state space as `stateSpace`, the observation relation, disturbances, and the operating region and applicability window, or cites exact references that supply those declarations. The control policy is `U.Method`; a claim-bearing episteme represented by the controller code may be `U.MethodDescription` only when it passes A.3.2 for that Method, while the code representation, dated controller runs, and mechanism claims stay with their governing patterns. Thermocouple readings become evidence only through `A.10` or the direct evidence pattern.
+A reactor team models temperature and concentration with a nonlinear ODE and disturbances. Identify the reactor as the changing subject, specify the two state coordinates, and declare the ODE, disturbances and applicable operating region. The resulting episteme meets :4.1 when those state-space and law claims are present under its reference scheme.
 
-Side-by-side split:
+For a thermocouple comparison, the observation relation selects temperature from the modeled state. Align the observed and predicted temperatures over the comparison window, then use the tolerance and validation conditions required by :4.6. Changes to a control policy change the model's input; selecting and describing that policy uses the Method contributions in :4.3.
 
-| Filled question | `U.Dynamics` value | `U.Transformation` value |
-| --- | --- | --- |
-| Subject and its relation | the model episteme's exact C.2.1 EntityOfConcern is the reactor temperature-and-concentration state subject interpreted under the declared scheme and operating-region claim | the exact catalyst bed is the continuing changed subject of one actual regeneration occurrence |
-| Identification basis | state-space coordinates plus nonlinear transition-law claim graph, observation relation, disturbances, operating region, and applicability window | exact catalyst bed; maintenance temporal extent and regeneration boundary; boundary conditions; actual fouling, flow, pressure, and catalyst-condition facts before, during, and after that boundary; continuity or reidentification rule for the bed and this one occurrence |
-| Use | possible, predicted, simulated, or probable state change; conformance, drift, and gate input only when the receiving use's required conditions are satisfied (§4.6) | actual bounded-change claim on the recovered subject-side occurrence basis |
-| Kept outside | method, controller code, dated runs, evidence, and gate authority | reusable law of state change, method description, work occurrence, evidence relation, and permission to act |
+If the question concerns an actual regeneration of the catalyst bed, recover that event's boundary, observed bed conditions and continuity or reidentification under A.3.4. A proposed trajectory remains available for prediction; the actual-change claim needs the occurrence facts.
 
 #### A.3.3:5.2 - Reliability and operations
 
-A service platform models backlog, arrival rate, and incident recovery with a queueing or birth-death model. The model can predict whether an SLO is feasible, but the service promise remains `U.PromiseContent`, and release or gate use needs the gate pattern.
+A service platform models backlog, arrival rate and incident recovery with a queueing or birth-death model. Compare its predicted behavior with the stipulated service objective under the model's operating assumptions. If that comparison is used for a release decision, apply :4.6.
 
 #### A.3.3:5.3 - Evolutionary architecture
 
-An architecture group tracks latency, coupling, operational cost, and change lead time across releases. An episteme about that architecture can be `U.Dynamics` when its `ClaimGraph` declares a state space over those characteristics and a discrete-time transition map as the transition law. Architecture moves, selected structures, and views stay with architecture patterns; work occurrences and measurements stay with work and evidence patterns.
+An architecture group tracks latency, coupling, operational cost, and change lead time across releases. An episteme about that architecture can be `U.Dynamics` when its `ClaimGraph` declares a state space over those characteristics and a discrete-time transition map as the transition law.
 
 #### A.3.3:5.4 - Knowledge dynamics
 
-A claim portfolio uses belief, evidence weight, source currentness, and contestability as state coordinates. An episteme declaring a Bayesian or likelihood update as the transition law over that claim-state space is `U.Dynamics`. The content reported by the studies, reviews, and source records can support or challenge a specified claim for a specified use through declared evidence-use relations.
+A claim portfolio uses belief, evidence weight, source currentness, and contestability as state coordinates. An episteme declaring a Bayesian or likelihood update as the transition law over that claim-state space is `U.Dynamics`. Identify which incoming observation changes a belief coordinate under the update rule. Name the source content used to support or challenge the specified claim for that update.
 
 #### A.3.3:5.5 - Natural physical evolution
 
 A `U.Dynamics` episteme can model the Moon's motion around Earth using an orbital state space and transition law.
 
+#### A.3.3:5.6 - When the observed total is not enough to predict
+
+A team wants to predict how much of two removable substances will remain after treatment. For this worked model, let `a_n` and `b_n` be their nonnegative remaining masses in kilograms after `n` cycles. Assume that each cycle leaves half of the first substance and a quarter of the second, with no new material added:
+
+`a_(n+1) = a_n/2`, `b_(n+1) = b_n/4`.
+
+The instrument reports only their total, `y_n = a_n + b_n`. The model's state is `(a_n, b_n)`; its observation relation maps that pair to the total. The states `(1, 0)` and `(0, 1)` both give `y_0 = 1 kg`, but their next totals are `1/2 kg` and `1/4 kg`. No deterministic law using only the current total can reproduce the next total for every admitted state.
+
+Retain the two masses when they are available. If only totals are observed, two successive exact readings recover the composition in this model: solve `a_0 + b_0 = y_0` and `a_0/2 + b_0/4 = y_1`, giving `a_0 = 4y_1 - y_0` and `b_0 = 2y_0 - 4y_1`. These masses must be nonnegative. Substitution into the next-cycle law gives `y_2 = (3/4)y_1 - (1/8)y_0`; the same recurrence applies at every later cycle. The prediction now uses one previous total as well as the current one. Equivalently, take that pair of totals as the predictive state.
+
+If only the initial total is available, the model still gives a range: for integer `n ≥ 0`, `y_0/4^n ≤ y_n ≤ y_0/2^n`. Each extreme is attained by putting all the initial mass in one substance. Use this range when it answers the working question; otherwise obtain information about the composition. If the two substances instead have the same known retention factor `r` with `0 ≤ r ≤ 1`, the total alone obeys `y_(n+1) = r y_n`. Thus whether aggregation preserves the needed law depends on the modeled operations.
+
+The calculation assumes exact readings and fixed retention factors. Applying it to treatment data requires accounting for measurement error and establishing the retention law over the intended operating range. [Lin and Lu, §§2.1–2.2](https://arxiv.org/html/1908.07725v5) explain the broader state/observation and model-reduction problem; the two-substance case here supplies an elementary construction.
+
 ### A.3.3:6 - Bias-Annotation
 
-Typical biases:
+Available measurements can determine the chosen state too early. In :5.6, a convenient total conceals the composition that determines the next total. Compare states that share the proposed observation before treating it as sufficient for prediction.
 
-* **recipe-as-law bias**: procedure text or controller code is treated as the law of change;
-* **trace-as-law bias**: logs or one observed run are treated as reusable dynamics;
-* **dashboard-as-state-space bias**: visible metrics substitute for declared characteristics, units, scales, and comparability relations;
-* **prediction-as-authority bias**: model output is treated as permission, gate passage, or safety proof;
-* **mathematical-prestige bias**: equations, learned predictors, and simulations are accepted without applicability window, observation relation, and transfer boundary;
-* **semio-bias**: the pattern drifts into arguments about descriptions of dynamics while losing the modelled subject, state space, and transition law.
+A familiar equation or a well-fitting simulation can also encourage extrapolation beyond its established conditions. Keep the observation relation and applicable region visible when interpreting its result. The physical and organizational examples require their own domain laws and validation.
 
 ### A.3.3:7 - Conformance Checklist
 
 **CC-A3.3-1 (Membership and identity).** A.3.3 judges one already identified `U.Episteme`. That same individual is `U.Dynamics` only when its exact C.2.1 `EntityOfConcern` is the changing subject and its ClaimGraph, under its effective `U.ReferenceScheme`, declares both a state space and a transition law. A.3.3 adds no second identity.
 
-**CC-A3.3-2 (Semantic locality without a container).** Local meanings and characteristic names are interpreted under the effective `U.ReferenceScheme`; units, operating region, time base, approximation regime, claim scope when needed, qualification window and source-currentness condition remain explicit claim content or separately governed values. Its C.2.1 identity is determined by ClaimGraph, EntityOfConcern, and effective U.ReferenceScheme.
+**CC-A3.3-2 (Local meanings and applicability).** Interpret characteristic names under the effective `U.ReferenceScheme`. State units, operating region, time base, approximation regime, claim scope when needed, qualification window and source-currentness condition as claim content or their separately governed values.
 
-**CC-A3.3-3 (EntityOfConcern).** The changing EntityOfConcern is named. It may, for example, be a physical holon, service, organization, episteme, claim portfolio, architecture, resource bundle, or other EntityOfConcern with modeled state.
+**CC-A3.3-3 (EntityOfConcern).** Name the changing EntityOfConcern. Joint modeling uses the independently identified joint subject required by :4.1.
 
 **CC-A3.3-4 (State space).** The state space enumerates characteristics with units, scales, comparability rules, and any needed topology, geometry, aggregation policy, or invariantization rule.
 
@@ -9256,73 +9229,66 @@ Typical biases:
 
 **CC-A3.3-7 (Constraints and applicability).** Constraints, invariants, operating region, approximation regime, parameter range, horizon, and scale window are stated before prediction or gate use.
 
-**CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or ordered work occurrences. A reusable planning or control way that uses dynamics is `U.Method`; only a separately identified claim-bearing episteme that passes A.3.2 is its `U.MethodDescription`.
+**CC-A3.3-8 (Control or planning procedure).** When a reusable planning or control way uses the dynamics, identify that Method under A.3.1. Apply A.3.2 to an episteme claimed to describe it; the dynamics membership test remains :4.1.
 
-**CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, Work occurrences, work logs, and telemetry remain claims about their exact Work, record, evidence use, measurement, or source use under the applicable subject patterns. Calibration Work and its domain result may support a later dynamics episteme with its own C.2.1 identity; a continuing edition relation obtains only when C.2.1's separate predicate does.
+**CC-A3.3-9 (Observed facts and calibration).** Attach resource actuals, timestamps and observations to the Work, measurement or source they describe. Relate them to the dynamics through :4.5. Apply its C.2.1 identity and edition conditions when calibration changes the model.
 
 **CC-A3.3-10 (Prediction use).** Predicted Coordinates used for comparison or gating state the exact model edition, domain, horizon, currentness, error or uncertainty, and every observation, validation, sensitivity, stability, or normalization-composition condition required by that consumer's policy. No universal non-expansiveness or commutation test substitutes for the direct decision rule.
 
-**CC-A3.3-11 (Temporal boundary).** Positive temporal aspects stay with `C.27.TA`; adequacy or supported use of authored temporal claims stays with `C.27`; reusable transition laws stay with `A.3.3`.
+**CC-A3.3-11 (Temporal use).** State temporal aspects through C.27.TA and establish the adequacy required of an authored temporal claim through C.27, as specified in :4.3.
 
-**CC-A3.3-12 (C.29 boundary).** Contested, cross-domain, learned, speculative, scale-changing, or transferable mathematical-lens use is assigned to `C.29`; `A.3.3` keeps the dynamics semantics.
+**CC-A3.3-12 (Representation transfer).** Apply :4.7 when representation transfer changes the law's permitted use, and carry the resulting conditions into the dynamics account.
 
-**CC-A3.3-13 (Source-label repair).** `Process`, `workflow`, `algorithm`, `model`, `controller`, `simulator`, and `dynamics` wording must not be repaired to `U.Dynamics` until the current slot is recovered: method, method description, work plan, dated work, selected transformation-flow structure, transition-law claim graph, evidence relation, or another governed value.
+**CC-A3.3-13 (Source-label repair).** Recover the relation asserted by an ambiguous source label under :4.8 before applying a membership predicate.
 
-**CC-A3.3-14 (Actual-transformation boundary).** Possible, predicted, simulated, or probable change remains claim content. An actual `U.Transformation` requires the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification.
+**CC-A3.3-14 (Actual change).** When an actual transformation is claimed, establish A.3.4's occurrence basis specified in :4.3. A predicted or simulated trajectory describes change under the model's premises.
 
 ### A.3.3:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Repair |
+| Recognizable failure | Repair |
 | --- | --- |
-| Inferring a transition law from procedural form alone | Put the semantic way of doing in `U.Method`; identify the claim-bearing episteme that the procedure text represents as `U.MethodDescription` only when it passes A.3.2; keep representation and publication separate; and put the state-space/law episteme in `U.Dynamics`. |
-| Telemetry used as a law without a declared state space and transition rule | Keep telemetry as a separately identified observation or source record `O`; include exact Work-side facts `W` only when Work is actually current, then derive `trace(W, O, D)` through the declared observation relation and compare it with the law. |
-| Using dashboard labels in place of declared state characteristics | Recover characteristics, units, scales, comparability relations, operating region, and invariants. |
-| Using a simulation result as release approval without the gate decision | Keep simulation as prediction; use `A.20`, `A.21`, `A.10`, or `B.3` for gate, evidence, and assurance claims. |
-| Using a model beyond its established applicability | State the applicability window and lowering condition; use `C.27.TA` for currentness and `C.29` for transfer. |
-| Inferring dynamics from a workflow diagram's layout alone | Recover whether the diagram describes a method, method description, work plan, dated work occurrence, selected transformation-flow structure, evidence relation, mechanism, or transition-law claim graph. |
-| Relying on a learned prediction without its domain and error conditions | State training domain, observation relation, uncertainty, error policy, and applicability window before using prediction. |
+| Inferring a transition law from procedure text or a workflow diagram's layout | Recover the actual assertion under :4.8, then test for both a state space and a transition law under :4.1. |
+| Treating telemetry as a law | Declare the proposed law, derive the observed coordinates through :4.5 and compare its consequences with the telemetry. |
+| Using dashboard labels as state coordinates without their meanings | Recover the characteristics, units, scales and comparability rules, and check whether the chosen coordinates retain the needed predictive information. |
+| Treating a simulation as release approval | Check its predicted result against the receiving decision's conditions in :4.6, then obtain that decision. |
+| Extrapolating beyond established model conditions | State the applicable region, source-currentness condition and lowering condition; use :4.7 if the use requires transfer. |
+| Relying on a learned prediction without its domain and error conditions | State its training domain, observation relation, error or uncertainty policy and applicability window before reliance. |
 
 ### A.3.3:9 - Consequences
 
-| Benefit | Cost or caution |
-| --- | --- |
-| Prediction, simulation, conformance, drift, and calibration claims become reviewable. | The project must name state-space characteristics and observation relations rather than relying on dashboard labels. |
-| Methods, method descriptions, mechanisms, work, flow structures, and dynamics stop substituting for each other. | Source labels like `process`, `workflow`, and `model` often need `E.10.ARCH` recovery before typed assignment. |
-| Gate and release use rejects a prediction when it fails the conditions specified for that use, including required freshness and mathematical conditions. | Some attractive predictions become inadmissible until observation or proof is supplied. |
-| Dynamics can cover physical, organizational, epistemic, software, architectural, and resource examples under one FPF kind. | Domain-specific laws still need their own notation, assumptions, and evidence disciplines. |
-| Mathematical-lens transfer is visible rather than hidden inside equations. | `C.29` may be needed when the dynamics model crosses contexts, scales, or representation regimes. |
+An explicit state and transition law lets the practitioner calculate a possible trajectory and compare it with observations through a declared relation. A failed comparison can then change a particular state choice, parameter, observation account or applicability condition.
 
-#### A.3.3:9.1 - Quick use cards
-
-* **Dynamics predicts.** It is a state-space and transition-law episteme.
-* **Observations support comparison.** Compare predictions with separately identified measurements, logs, and actuals through the declared observation relation.
-* **Method guides.** A method may use dynamics.
-* **State space first.** Declare state-space characteristics to make the dynamics claim reviewable.
-* **Observation matters.** A law without observation relation cannot be compared with traces.
-* **Prediction is not authority.** Gate and release claims need their governing patterns.
+The work costs more than collecting measurements: the model needs interpretable characteristics and a supported law. A bounded prediction may be sufficient; a more consequential use may require additional observation, calibration or validation under :4.6.
 
 ### A.3.3:10 - Rationale
 
-FPF needs `U.Dynamics` for practical questions about how a state changes when the world evolves, a model is simulated, evidence arrives, a resource pool fluctuates, or an architecture changes. Those questions need a law of change.
-
-The pattern is deliberately broad because state-change reasoning appears in physics, control, software operations, reliability, strategy, architecture, and knowledge work. The shared kernel is the distinction between state-space, transition law, observation relation, applicability window, and related governed claim families such as method, work, evidence, assurance, and gate use. An actual transformation remains a different world-side occurrence: its exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification are governed by `A.3.4`.
+The needed prediction determines which state distinctions have to remain recoverable. The transition law expresses how those distinctions evolve, while the observation relation says which part of that state the available measurements reveal. Keeping these contributions explicit makes both successful prediction and a failure caused by lost information explainable, across different domain laws.
 
 ### A.3.3:11 - SoTA-Echoing
 
-| Source line | Source refs | Adopt, adapt, or reject | Effect in this pattern |
-| --- | --- | --- | --- |
-| Current constructor-theory and process-theory work | Gogioso, Wang-Mascianica, Waseem, Scandolo, and Coecke, "Constructor Theory as Process Theory", EPTCS 397, 2023, arXiv:2401.05364; Deutsch and Marletto, "Constructor theory of time", arXiv:2505.08692v3, revised 2026-06-05. | Adapt: dynamics, transformations, tasks, and processes are kept close without collapsing law, method, mechanism, and work. | `U.Dynamics` remains a law-of-change episteme; `A.3.4` admits an actual transformation only from the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification; possible, predicted, simulated, or probable change and every work or authority claim remain separate. |
-| Current data-driven predictive-control work | de Jong, Breschi, Schoukens, and Lazar, "Koopman Data-Driven Predictive Control with Robust Stability and Recursive Feasibility Guarantees", arXiv:2405.01292; Shang, Cortes, and Zheng, "On the Exponential Stability of Koopman Model Predictive Control", arXiv:2511.02008. | Adopt: prediction, lifted state, stability, recursive feasibility, and prediction error need explicit state-space, model, horizon, and constraint declarations. | `stateSpace`, `transitionLaw`, `applicabilityWindow`, `constraintsOrInvariants`, and prediction-use conditions are mandatory before comparison or gate use. |
-| Current stochastic predictive-control work | Knaup and Tsiotras, "Recursively Feasible Stochastic Model Predictive Control for Time-Varying Linear Systems Subject to Unbounded Disturbances", arXiv:2410.11107. | Adopt: stochasticity, unbounded disturbances, time variation, feasibility, and chance constraints must not be hidden behind one model label. | `stochasticity`, `inputsOrDisturbances`, tolerance policy, and applicability window are explicit fields. |
-| Current digital-twin validation pressure | Russell Bernal, Petterson, Alarcon Granadeno, Murphy, Mason, and Cleland-Huang, "Validating Terrain Models in Digital Twins for Trustworthy sUAS Operations", arXiv:2508.16104. | Adapt: model validation depends on operational context, observation limits, granularity, uncertainty, and real-world use conditions. | Observation relation, evidence relation, operating region, and source-currentness condition remain separate from the dynamics law. |
-| Historical state-space, declarative, and imperative contrasts | Classical state-space control, early declarative programming, workflow slogans, and process-model slogans. | Reject as current SoTA by themselves; retain only as lineage and recognition cues. | The pattern repairs by FPF kind, state-space declaration, and slot relation rather than by programming-paradigm or process-slogan labels. |
+**Choose a predictive description for the question being asked.** In :5.6 the available observation is the total mass, but the next total depends on its hidden composition. Compare the descriptions under the same fixed retention law and exact-reading premises:
+
+| Available description | What it answers | Added effort and limit |
+| --- | --- | --- |
+| One present total | Bounds the next total between one quarter and one half of the present total. | Cheapest when that interval settles the question; it cannot select one exact next value under unequal retention. |
+| The two component masses | Determines the next state and total directly. | Requires observing or otherwise establishing the composition. |
+| Two consecutive exact totals | Recovers the two masses, then predicts by the derived second-order recurrence. | Replaces a composition observation with a second timed reading; noisy readings require an error account. |
+
+For a present total of 1 kg, the interval [0.25, 0.5] kg already settles whether the next total is at most 0.6 kg. It leaves an at-most-0.4 kg question unresolved. Acquire composition or a sufficiently informative history only when that remaining uncertainty matters. Equal retention restores a one-total transition law, so the extra state or reading becomes unnecessary.
+
+[Lin and Lu, §§2.1–2.2](https://arxiv.org/html/1908.07725v5) supplies the methodological comparison line: selected observables can discard information that reappears as memory in a reduced description. Its exact projection identity still requires closure choices for a usable reduced model; its statistical treatment uses a stationary-process setting. The elementary calculation above is an authored construction. It selects the state–observation distinction in :4.1–:4.2 and the question-dependent choice in :5.6, with a measurable cost: additional coordinates or observations only when the cheaper description is insufficient.
+
+**Strengthen support when the use changes.** For data-driven predictive control, [de Jong and colleagues, §§I–IV, especially III and Theorem IV.2](https://arxiv.org/html/2405.01292v1), compare iterated one-step lifted models with directly learned multi-step predictors. They choose the latter to avoid propagating one-step prediction errors across the horizon, at the cost of learning horizon-dependent prediction matrices and observables. Their constrained controller adds an interpolated initial state and terminal ingredients; recursive feasibility depends on the stated terminal-set assumption and a feasible preceding problem. These are contributions to a particular control problem.
+
+Accordingly, :4.6 makes the intended consumer specify the prediction conditions and properties it relies on. A control decision that relies on recursive feasibility must establish the relevant model, constraints and feasibility conditions. An ordinary comparison can finish with the state, law, observation and applicability information sufficient for its question. The extra cost of a stronger guarantee is incurred by the use that needs it.
+
+Reopen the chosen description when the observation error, retention law, horizon or question changes enough to defeat its information or error bound. Reopen a control use when its measured prediction errors or operating conditions defeat the assumptions supporting its selected guarantee.
 
 ### A.3.3:12 - Relations
 
-* **Builds on:** `C.2.1` for the same episteme's identity and any exact empirical-grounding or edition relation; `A.19` and `C.16` for characteristics, units and measurement meanings when current; `A.2.6` for an exact `U.ClaimScope`; and direct source or publication machinery only when those claims are current.
-* **Coordinates with:** `A.3.1 U.Method`; `A.3.2 U.MethodDescription`; `B.1.5` for composite Method construction; `A.22` for an independently selected Structure; `A.1.1` only when an independently selected bounded-model-use structure or obtaining model-use relation changes the receiving use; `A.3.4 U.Transformation`; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.6.1 U.Mechanism`; `E.20`; `C.27.TA`; `C.27`; `C.29`; `A.10`; `B.3`; `A.20`; `A.21`; and architecture patterns when dynamics describes architecture-characteristic change.
-* **Separates from:** services and promise content; PBS and SBS structural breakdowns; causal-use claims; gate authority; assurance arguments; publication-use claims.
-* **Uses for precision restoration:** `F.19` for a connected wording repair. If source labels still hide whether the claim is law, method, method description, mechanism, work, evidence, authority, or dynamics, use the applicable `E.10`, `E.10.ARCH`, or `C.2.P.DR` pattern; use `F.18` for a durable reusable name.
+C.2.1 supplies episteme identity, empirical-grounding and edition conditions. A.19 and C.16 supply characteristic and measurement construction; A.2.6 supplies a claim scope when the use relies on one.
+
+When an independently selected bounded-model-use structure or obtaining model-use relation changes the receiving use, A.1.1 supplies that account. The other conditional contributions are specified at :4.3; :4.7 governs mathematical transfer into a dynamics use.
 
 ### A.3.3:End
 
@@ -22741,7 +22707,7 @@ Use this pattern when a source, carrier, result episteme, credential, dashboard,
 
 **What this buys.** A source-to-use account that can be replayed, contested, refreshed, narrowed, or handed to the pattern that defines or tests an additional claim, while keeping the claim, carrier, performed work, local result, result episteme, provenance, currentness, reliance, assurance, and action distinct.
 
-**Not this pattern when.** A.10 does not establish measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, Work, or decision results. It does not establish representation correspondences. Use the pattern that defines or tests each result, A.15.1 and A.6.1 for performed Work and actual bindings, C.2.1 for the result episteme, G.11 for currentness, C.29 for mathematical representation, and B.3 only when an actual named assurance claim is current.
+**Not this pattern when.** A.10 does not establish measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, Work, or decision results. It does not establish representation correspondences. Use the pattern that defines or tests each result, A.15.1 and A.6.1 for performed Work and actual bindings, C.2.1 for the result episteme, G.11 for currentness, and B.3 only when an actual named assurance claim is current. Use A.6.3.RT for a same-EntityOfConcern representation transition, or the applicable direct transition pattern for another transition. Use C.29 only for an unresolved mathematical-lens choice, transfer or reliance question.
 
 Use A.2.4 first when only the first evidence-use or status-use classification of an episteme is at issue. Enter A.10 when carrier identity, source recovery, provenance, currentness, rival explanations, or bounded reliance must remain replayable.
 
@@ -23005,7 +22971,7 @@ Examples:
 
 - an observational cohort path cites the observation and measurement Work plus `observationalOrNaturalBehaviorData`; an intervention-effect statement still needs a C.28 identification or design result;
 - a randomized estimate path cites assignment and Work evidence, its identification or design result, estimate, uncertainty, and limits;
-- a prospective counterfactual-sampling path may cite the realizability result with its decision Method, construction, bound, or obstruction, but claims no performed sampling or data;
+- a prospective counterfactual-sampling path may cite the realizability result, its decision Method, the sampling construction or obstruction required by its status, and any unresolved question; counterfactual-quantity bounds use a separate identification result, and the prospective path claims no performed sampling or data;
 - a performed counterfactual-sampling path cites independently admitted dated sampling Work and the resulting sample or data; add precise assignment-bound attribution only when the receiving support claim uses it. Only the complete Work/data path may support `realizedCounterfactualSamplingData`;
 - a simulation path cites model output, assumptions, validation, and bounded model use; it does not become realized or interventional evidence by relabeling;
 - a target-trial emulation path cites its `TargetTrialMappingResult`, including the observational source, protocol-to-data mappings, gaps, residual-confounding assessment, and sensitivity mappings; reporting completeness alone establishes neither identification nor low bias;
@@ -40953,101 +40919,284 @@ Ask: if the selected route were denied, would the publication still contain enou
 
 ## B.5 - Canonical Reasoning Cycle
 
-### B.5:1 - **Problem Frame**
+> **Type:** Method-description pattern
+> **Status:** Candidate
+> **Normativity:** Normative unless marked informative
 
-While preceding patterns define claim-and-use-qualified assurance (B.3) and the structure of holons (A.1, A.14), they do not specify the reasoning that connects a new hypothesis, its consequences and empirical evaluation. A framework for thinking must provide more than just a filing system for conclusions; it must offer a repeatable, rigorous method for arriving at them, especially when confronting novel, complex, or ill-defined problems.
+### B.5:1 - Problem frame
 
-### B.5:2 - **Problem**
+Use this pattern when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. They may need to formulate a better question, construct something, prove a claim, explain an observation, or test a consequence. Reasoning is the broader activity; this pattern governs the choice and connection of those contributions in an inquiry.
 
-Without a formal, shared reasoning cycle, teams and individuals fall into predictable cognitive traps that stall progress and hide risks:
+**First useful move.** State what you want to understand or make possible. Ask whether an available result already answers that question. If it does not, name the missing result and try one operation that could obtain it. Return what that operation established and the next question, if one remains.
 
-1.  **Analysis Paralysis:** Teams get stuck endlessly debating existing assumptions, running deductions within a closed world of known facts without a mechanism to introduce genuinely new ideas.
-2.  **Blind Empiricism:** Teams engage in unstructured, expensive trial-and-error, running tests and gathering data (induction) without a clear, falsifiable hypothesis to guide their efforts.
-3.  **Innovation Gap:** In the face of a problem where existing knowledge is insufficient, there is no formal "permission" or process to generate a creative, plausible guess—the essential first step of any breakthrough.
+For example: “We need the highest component temperature, but our model reports a mean. Two states with the same mean can have different maxima. Next, determine which temperature differences this arrangement admits.” This already redirects the inquiry before another model fit.
 
-These pathologies lead to wasted resources, circular debates, and a failure to solve the very problems that require first-principles thinking.
+The practical gain is a useful answer or a better-founded next question. A correct answer to an inadequate formulation can otherwise consume the inquiry's effort.
 
-### B.5:3 - **Forces**
+Use a known calculation, proof, observation or qualified Method directly when it already answers the question. A separate cycle description adds nothing in that case. Detailed mathematical techniques, physical modeling and domain validation remain with their disciplines.
+
+### B.5:2 - Problem
+
+A hypothesis-led inquiry has a productive structure: propose an explanation, derive consequences and compare them with observations. Trouble begins when this structure is made the only permissible form of reasoning. Constructing a mathematical object, finding a counterexample, exploring a phenomenon or discovering that the intended quantity is not recoverable can change the question before an explanatory hypothesis is appropriate.
+
+A second difficulty survives even when result production becomes cheap. More proofs, simulations or candidate designs do not by themselves say which questions matter, what an argument explains, or which construction should be developed. The inquiry needs ways to inspect and change its own formulation and repertoire while retaining adequate results.
+
+### B.5:3 - Forces
 
 | Force | Tension |
-| :--- | :--- |
-| **Rigor vs. Innovation** | How can we encourage creative, "out-of-the-box" hypotheses while maintaining formal discipline and verifiability? |
-| **Certainty vs. Progress** | How can we act and learn systematically when faced with incomplete information and uncertainty? |
-| **Theory vs. Practice** | How do we ensure that abstract models and formal deductions are continuously anchored to real-world evidence and empirical validation? |
-| **Systematic Flow** | How do we transform problem-solving from a chaotic, ad-hoc art into a repeatable, auditable, and teachable science? |
+| --- | --- |
+| Purpose and discovery | A question directs effort, while a useful result may reveal a better question. |
+| Construction and justification | A new object or conjecture opens possibilities; its properties and applicability still need the appropriate argument. |
+| Abstraction and use | A simpler representation saves effort, while its lost distinctions can decide the intended use. |
+| Rigor and affordability | Formalization, computation and observation can expose errors, but their whole burden must serve the question. |
+| Current result and future possibilities | A sufficient answer deserves a stop; a retained construction may enable a different worthwhile inquiry. |
 
-### B.5:4 - **Solution**
+### B.5:4 - Solution
 
-FPF establishes the **Abductive–Deductive–Inductive Loop** as its canonical reasoning cycle. This cycle gives formal primacy to **abduction** (hypothesis generation) as the engine of innovation, while using deduction and induction as the rigorous mechanisms for testing and refining those hypotheses.
+Choose reasoning by the result the current question needs. The abductive–deductive–inductive loop remains the canonical route for **hypothesis-led empirical inquiry**: propose a conjecture, derive consequences that make a test interpretable, and compare them with relevant observations. Construction, exploratory observation and question formation can precede, interrupt or follow that route. A mathematical inquiry may finish with a construction, counterexample or proof.
 
-Use the cycle for hypothesis-led inquiry: propose a conjecture, derive the consequences that make a test interpretable, then compare those consequences with relevant evidence. These are three distinct, sequential contributions to that inquiry. A sufficient bounded result can finish at an intermediate contribution; a new test or another iteration requires a live question and an obtainable, worthwhile contribution. Actual domain proof, validation and operational requirements continue to govern the uses that need them.
+#### B.5:4.1 - Form or recover the question
 
-#### B.5:4.1 - Abduction (Hypothesis Generation)
+Say what an answer would help someone understand, construct, explain, decide or investigate. An epistemic aim, such as exposing an obstruction or finding a more informative theory, can justify inquiry without an immediate product application. Recover an adequate existing answer before commissioning new work.
 
-*   **Core Question:** "What is the most plausible new explanation or solution?"
-*   **Description:** This is the creative, inventive leap. When faced with an anomaly, a design challenge, or an unanswered question, the first step is to propose a new `U.Episteme`—a new requirement, a new component, a new causal link—that *might* solve the problem. This act is not guaranteed to be correct; it is a conjecture. Publish the conjecture with its present supports, rivals, limitations and allowed use. Its abductive origin assigns no assurance level; B.3.3 governs any claim/use-specific assurance assignment. Abduction is the only phase that introduces genuinely novel ideas into the model. This formalizes the process described in the **Abductive Loop** (Pattern B.5.2).
+Separate the subject from its description, the intended result from a convenient proxy, and established premises from assumptions. Use ordinary language, a sketch or a small mathematical example at the precision needed to expose the difficulty.
 
-#### B.5:4.2 - Deduction (Consequence Derivation)
+When the current formulation is inadequate, vary a consequential element. Useful operations include:
 
-*   **Core Question:** "If this hypothesis is true, what logically follows?"
-*   **Description:** This is the phase of rigorous analysis. Given the new hypothesis, we use the formal models and calculi of FPF to deduce its logical consequences. What are its testable predictions? Does it create internal contradictions with other parts of the model? How does it propagate through the system? This phase can contribute **Verification Assurance (VA)** for a consequence under the stated premises. Deduction makes implications precise; it does not establish that the premises hold in the actual system. Use a formal-verifiability measure only with the bearer, scale and interpretation that the receiving assurance argument needs.
+- change the quantity or distinction that the answer must preserve;
+- restrict or widen a domain, scale, boundary or assumption;
+- construct a small case that defeats the current claim;
+- introduce a new object, relation, operation or representation and ask what it makes expressible;
+- ask what observation or argument would distinguish the remaining possibilities.
 
-#### B.5:4.3 - Induction (Empirical Evaluation)
+Keep a changed formulation when it changes the construction, evidence, explanation, comparison or next action.
 
-*   **Core Question:** "Do the predicted consequences match reality?"
-*   **Description:** This is the phase of testing and learning from evidence. The predictions derived in the deductive phase are compared against real-world data from experiments, simulations, or observations. This phase can contribute **Validation Assurance (LA)** when the data, measurement and test conditions support the receiving claim. A successful test may corroborate that claim within its coverage; a failed prediction can support revision or rejection. Judge the contribution through B.3 and B.3.3 instead of inferring greater reliability or a higher level merely from a test having passed. Reopen abduction when the result leaves an explanatory question that needs rival hypotheses.
+C.22.2 helps make a problem-side claim and its next use inspectable. C.29 helps when choosing a mathematical lens or its mapping is the live question. Use their supplied actions at those boundaries; an ordinary mathematical problem need not acquire a separate card.
 
-#### B.5:4.4 - **Didactic Note for Managers: The "Propose → Analyze → Test" Cycle**
->
-> The Abductive-Deductive-Inductive loop is not an abstract philosophical concept; it is the formal name for the problem-solving cycle that all successful R&D and engineering teams instinctively use.
->
-> | Phase | Simple Name | What Your Team Does | FPF's Contribution |
-> | :--- | :--- | :--- | :--- |
-> | **Abduction** | **Propose** | Brainstorms a new feature, architecture, or fix. | Provides the B.5.2 discipline for a qualified conjecture, its rivals and grounds. |
-| **Deduction** | **Analyze** | Thinks through the implications, runs simulations, checks for conflicts. | Provides models and logical arguments for inspectable consequences under stated premises. |
-| **Induction** | **Test** | Builds a prototype, runs A/B tests, gathers user feedback. | Connects observations to the tested predictions and the claims they actually support. |
->
-> By making this cycle explicit, FPF transforms problem-solving from a chaotic art into a repeatable, auditable science. It gives teams a shared map for navigating from an unknown problem to a validated solution.
+When you can follow a concept's explanation but cannot yet interpret the situation through it, use [B.5.4][fpf-b5-4-ref] to construct and test the correspondence. Return with the interpreted participants and relations, then choose the reasoning contribution the question needs.
 
-### B.5:5 - **Conformance Checklist**
+##### B.5:4.1.1 - Propose a first model
 
-To ensure the reasoning cycle is applied consistently and rigorously, the following criteria are normative:
 
-*   **CC-B5.1 (Abductive Primacy):** Any discipline that introduces a new, non-derivable claim or design element into a working model **MUST** document it as an abductive step. The resulting claim or design element **SHALL** retain its conjectural status, grounds and limitations. An assurance level, when needed by a receiving use, **SHALL** follow B.3.3 rather than be assigned from its abductive origin.
-*   **CC-B5.2 (Deductive Mandate):** An abductively generated hypothesis **SHALL NOT** be subjected to inductive testing (Validation Assurance) until its key logical consequences have been derived and documented through a deductive process.
-*   **CC-B5.3 (Inductive Grounding):** A positive support claim based on an inductive test **MUST** link the actual result to the derived prediction and establish its relevance, coverage and limitations for the receiving claim. Passing a test **SHALL NOT** by itself assign an assurance level; an elected B.3.3 profile retains its applicable evidence criteria.
-*   **CC-B5.4 (Cycle Closure):** The actual outcome of an inductive test (whether corroboration or refutation) **MUST** be recorded through an evidence carrier (Pattern A.10). If a further iteration relies on that result, it **MUST** use the recorded result with its scope and limitations. Recording a sufficient result does not itself require another iteration.
-*   **CC-B5.5 (State Machine Alignment):** When the B.5.1 development cycle is used, abduction commonly contributes to *Exploration*, deduction to *Shaping*, and empirical evaluation to *Evidence*. Actual transitions **MUST** meet their applicable project and domain conditions. A completed reasoning contribution or sufficient bounded use is not by itself a project-state transition or an assurance level.
+When the situation has no usable model yet, begin with the contrast the answer must resolve. Inspect one case or the actual arrangement. Describe what happens and which proposed change or comparison matters. Separate observations from the explanation you are about to try.
 
-**Common Anti-Patterns and How to Avoid Them**
+1. **Choose what must remain distinguishable.** Identify participants, states or quantities whose differences could change the answer. Use observed differences and possible interventions to propose a boundary: what can vary separately, what connects those parts, and what surrounding conditions affect them? Keep a distinction when you can explain its consequence for the question.
+2. **Propose how they are connected.** Draw or state a dependency and explain how it could produce the observed behavior. Use the relevant subject account to identify the interaction and what it preserves or changes. If that account is unfamiliar, use §4.3 to recover its concept of use. Mark the assumptions that let you omit other interactions or treat a quantity as fixed. For a physical model, use physical knowledge to choose the law that the mathematical account will express.
+3. **Obtain a cheap consequence.** Follow the proposed relation far enough to answer a useful part of the question. A direction of change, limiting case or rough bound may suffice before parameter fitting or detailed computation. Show which premise makes that consequence follow.
+4. **Challenge a consequential choice.** Ask what observation, omitted interaction or changed condition could defeat the answer. Compare a plausible alternative when the observations leave materially different explanations. Revise the model or obtain the missing observation when that difference matters.
 
-| Anti-Pattern | Manager's View: What It Looks Like | How FPF Prevents It |
-| :--- | :--- | :--- |
-| **The "Solution in Search of a Problem"** | A team builds a technically impressive feature (deduction/induction) but cannot clearly state what user problem it solves. | **CC-B5.1** forces the process to start with an abductive hypothesis that is explicitly framed as a solution to a stated problem or anomaly. |
-| **The "Ready, Fire, Aim" Approach** | A team jumps directly from an idea to expensive prototyping and testing, without a clear model of what they expect to happen. | **CC-B5.2** mandates a deductive analysis phase *before* inductive testing. This ensures that every test is designed to confirm or refute a specific, well-defined prediction. |
-| **The "Data Dredging" Exercise** | A team gathers massive amounts of data and looks for correlations, hoping a solution will emerge. | The cycle requires a hypothesis *first*. Data is gathered to test that hypothesis, not in the hope of stumbling upon one. This makes the process more focused and cost-effective. |
+Return the provisional model and what follows under its assumptions. If a missing domain account or formal construction prevents the next contribution, use A.15.9 to request that specific help from the working description. Section 5.6 shows this entry before a heat-transfer calculation has been formulated.
 
-### B.5:6 - **Consequences**
+#### B.5:4.2 - Perform the contribution that is missing
 
-| Benefits | Trade-offs / Mitigations |
-| :--- | :--- |
-| **Encourages Innovation:** By formally sanctioning abduction, the framework creates a safe and structured space for creative problem-solving and the introduction of novel ideas. | **Abduction is not algorithmic:** The framework cannot tell you *how* to generate a good hypothesis. *Mitigation:* It provides the structure to capture and test hypotheses, and can be used in conjunction with creative methodologies (e.g., TRIZ, design thinking) that specialize in hypothesis generation. |
-| **Improves Problem-Solving Efficiency:** The cycle provides a clear, repeatable workflow that prevents teams from getting stuck in analysis paralysis or wasting resources on unfocused testing. It ensures that effort is always directed toward falsifying or corroborating a clear claim. | **Requires Iterative Mindset:** The cycle is inherently iterative. Teams must be prepared for hypotheses to be refuted and for the need to restart the cycle. *Mitigation:* FPF's architecture (e.g., cheap state transitions) is designed to make this iteration low-cost. |
-| **Creates a Transparent Rationale:** The cycle produces a complete, auditable trail of how a solution was developed: which hypotheses were proposed, what their consequences were, and how they fared against empirical evidence. This "intellectual provenance" is invaluable for future maintenance, audits, and learning. | - |
-| **Aligns with Scientific and Engineering Best Practices:** The cycle is a formalization of the scientific method (conjecture and refutation) and modern engineering design cycles (e.g., Deming's PDCA loop). | - |
+The following are common alternatives, not an exhaustive classification or a sequence to complete.
 
-### B.5:7 - **Rationale**
+| Missing result | Useful operation | What the result can establish |
+| --- | --- | --- |
+| An object, procedure or structure with desired properties | Construct it from stated elements and permitted operations; test examples and counterexamples; prove the relevant properties or expose the obstruction. | A construction, existence or impossibility result under its mathematical premises. |
+| A consequence or a mathematical justification | Make premises explicit and derive the consequence. Identify the step that carries the argument and the conditions on which it depends. | The implication or theorem within the stated domain and inference rules. |
+| An explanation of an anomaly, opportunity or probe result | Use B.5.2 to generate serious rival conjectures and compare their explanatory fit, constraints and prospects for criticism. | A qualified explanatory conjecture, with its grounds and unresolved rivals. |
+| A better description of an insufficiently understood phenomenon | Make a purposeful observation or exploratory measurement; vary a condition and inspect what becomes distinguishable. | Observations and possible regularities that can generate or change questions. |
+| An empirical consequence of a conjecture | Derive the expected contrast, obtain relevant observations and compare the actual result with it. | Bounded corroboration, a discrepancy or a qualified basis for rejecting or revising the claim. |
 
-FPF is designed to be an "operating system for thought," and this reasoning cycle is its central processing unit. By elevating abduction to a first-class citizen, FPF acknowledges a fundamental truth about complex problem-solving: progress does not come from simply rearranging known facts (deduction) or finding patterns in data (induction). It comes from the creative act of proposing a new way of seeing the world—a new hypothesis. Deduction and induction are the indispensable tools we use to discipline and validate this creativity.
+Construction and deduction can work together: an auxiliary object can make a proof possible, and a theorem can suggest a new construction. Novelty does not belong exclusively to one inference type.
 
-The cycle connects conjecture, logical consequence and empirical evaluation without collapsing their different contributions. A recipient can use a qualified conjecture, an established consequence or an empirical result for the question it answers. B.3.3 determines what that contribution warrants for a particular claim and use; further inquiry addresses a remaining question rather than completing an assurance ladder.
+For a hypothesis-led test, derive the consequences needed to interpret the test before treating its outcome as corroboration. Keep the prediction, observations, measurement conditions and inference recoverable. A simulation establishes a result of the simulated model; applying it to the physical target needs a supported model–world correspondence.
 
-### B.5:8 - **Relations**
+An exploratory finding can supply a hypothesis. Its subsequent empirical assessment must account for how that hypothesis was obtained and for the dependence or selection involved. Use the domain's appropriate design and inference; merely relabeling the same data as a later test does not create independent evidence.
 
-*   **Integrates:** `B.5.1 Explore → Shape → Evidence → Operate`, `B.5.2 Abductive Loop`.
-*   **Supplies contributions to:** `B.3.3 Assurance Subtypes & Levels`, which judges support for the particular claim and use; the reasoning phases assign no levels by themselves.
-*   **Enables:** The refinement phase of the `B.4 Canonical Evolution Loop`.
-*   **Operationalizes:** The core FPF mission of transforming ideas into reliable, evidence-backed holons.
+A bounded result may be sufficient at any of these contributions. Assurance belongs to the particular claim and receiving use under B.3 and B.3.3, including the applicable domain proof or validation obligations.
+
+#### B.5:4.3 - Make the result understandable for its use
+
+Explain what was obtained, why the decisive step works, and where the result can be used. For a mathematical argument, recover the statement and domain, the construction or lemma doing the essential work, and a load-bearing assumption whose change would alter the answer. The needed depth depends on whether the receiver will apply, criticize, extend or teach the argument.
+
+When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question. Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application already supported by the source. The first result is a usable explanation of that application, or the particular missing premise or operation that prevents it. Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires.
+
+To compare theories or ways of using them, ask the same question of each account. Preserve each source's meanings while comparing what is given, what operations are allowed and what answer follows. If the results differ, identify whether the difference comes from the question, assumptions, mathematical structure, inference or proposed physical mechanism. If one account answers a different question, state that complementary use. Choose or change an account for the distinction the receiving work needs. Use C.29 for a proposed mathematical-lens transfer or local candidate choice; domain prediction and intervention claims still need their applicable Methods and evidence.
+
+When the correspondence between a formal account and its intended use is the difficulty, reconstruct one small instance. Name the variables and their domains, the given inputs, the assumptions and permitted operations, and the statement the calculation or proof establishes. Relate the decisive quantities and conditions to the intended use. A source's worked case can supply this reconstruction; recover the omitted step if the receiver cannot yet carry it out.
+
+Challenge the correspondence with a case that could change the answer. Look for a formally admissible answer that the intended use excludes, or two situations identified by the representation that require different answers. If this exposes a mismatch, repair the domain, constraint, quantity or correspondence, or use the existing result for a weaker question that it does answer. A relaxation can remain useful as a bound even when its optimizer cannot be enacted. The worked case below makes both uses explicit.
+
+For a physical application, connect the mathematical objects and quantities to the phenomenon, measurement and operating conditions. Ask which approximation, omitted interaction, scale or uncertainty could change the conclusion. A rigorous derivation from a model and evidence that the model applies answer different questions.
+
+Use the explanation to test the formulation: does the result answer the intended question, or only the conveniently formalized one? If a distinction was lost, determine whether the use can tolerate that loss, whether a bound suffices, or whether another representation is needed.
+
+#### B.5:4.4 - Settle the question or change the next inquiry
+
+Return the result at its supported scope. Stop when it answers the current use. Continue only for a remaining question whose possible answers could change understanding or action and whose investigation is worthwhile under the available conditions. Account for the effort of learning, obtaining, explaining, checking and maintaining the result as well as calculation cost.
+
+When the result exposes a limitation, identify what must change:
+
+- **The answer or construction for the same question:** repair it or investigate a serious alternative.
+- **The formulation:** revise the target, assumptions or boundary and state which earlier results still apply.
+- **The available Methods or ways of constructing candidates:** compare retaining, modifying or extending that repertoire. E.23 supplies improvement under an appropriate evaluation; C.18 applies when generation rules, retained alternatives or the effective space of possibilities are the question.
+- **A participant's ability to contribute:** distinguish the capability question from missing access or support; use E.23.CAE and E.23.CDI where their conditions hold.
+
+Use E.10.DEV if “development” hides the intended subject and C.36 for an actual cultural-generation, transmission or selection question.
+
+Retain a construction or unresolved alternative when a named future inquiry makes keeping it worthwhile. C.17 can characterize novelty, value and diversity on a declared basis; C.18 distinguishes the archive from a comparison front and a new point from a change in admissible possibilities.
+
+#### B.5:4.5 - Organize human and AI contributions around the work
+
+Calculation, conjecture, proof, explanation, criticism and question formation may be performed with different combinations of people, AI and other tools. Choose that allocation from their actual capabilities, available support, constraints and the evidence needed for the receiving use. Revisit it when those conditions change.
+
+When the question depends on a result from another practice, use [A.15.9][fpf-a15-9-ref] to use the available answer or select a worthwhile missing contribution. State the working question, available inputs, result needed and intended use in terms the receiver can check. If the formal formulation is itself missing, ask the mathematician, physicist or supported AI for that formulation and its correspondence to the working question.
+
+For an engineer, derive the needed capability from representative later work: what must this person be able to understand, ask, construct, criticize or arrange with the assistance that will actually be available? The answer can include interpreting a proof's central idea or recognizing that a measured proxy omits the intended quantity, even when a tool performs most calculations. It can also justify deeper mathematical study when constructing or modifying the theory is the required contribution.
+
+When assessing that capability, use representative work under the declared support and inspect the person's relevant contribution. A completed AI-assisted report alone leaves that contribution underdetermined.
+
+### B.5:5 - Archetypal Grounding
+
+#### B.5:5.1 - A counterexample becomes a constructive mathematical question
+
+
+An engineer models pairwise incompatibilities with a finite simple undirected graph and asks, “Does connectedness let us divide the vertices into two groups with every edge crossing between groups?”
+
+A triangle is a counterexample: putting the first two adjacent vertices in different groups forces the third to conflict with one of them. This refutes the universal statement but leaves a useful question: **which obstruction prevents such a partition, and can we construct either the partition or a witness of failure?**
+
+Build the tree by keeping an ordered waiting list. The neighbours of a vertex are the vertices joined to it by an edge.
+
+1. Choose any unseen vertex as a root, mark it seen, give it depth 0 and put it on the waiting list.
+2. Remove the first waiting vertex. For each of its unseen neighbours, mark that neighbour seen, record the removed vertex as its parent, give it the parent's depth plus 1, and append it to the waiting list. A vertex already seen keeps its first parent and depth.
+3. Repeat step 2 until the list is empty. If an unseen vertex remains, start a new root and repeat; this covers disconnected components and isolated vertices.
+
+This is breadth-first search: a discovered vertex waits behind the vertices already waiting. The recorded parent edges form a tree in each component. Assign even-depth vertices to one group and odd-depth vertices to the other. If every graph edge joins opposite parities, these groups give the partition. If an edge joins equal parities, write each endpoint's chain of parents back to the root. Keep the two paths up to their common vertex of greatest depth, discarding the shared part beyond it. The retained paths have an even total length; the extra edge closes a simple odd cycle. An odd cycle cannot alternate between two groups all the way around. Thus the procedure returns either a two-colouring or an odd-cycle witness.
+
+For a worked traversal, take vertices A–F and edges AB, AC, BD, CE, DF and EF. Start at A and inspect neighbours alphabetically. The waiting list changes as follows; the processed vertex is the parent of each newly found vertex in that row.
+
+| Processed vertex | Newly found vertices and depth | Waiting list after processing |
+| --- | --- | --- |
+| A | B, C at depth 1 | B, C |
+| B | D at depth 2 | C, D |
+| C | E at depth 2 | D, E |
+| D | F at depth 3 | E, F |
+| E | None; F was already seen | F |
+| F | None | Empty |
+
+A has depth 0, so the groups are {A,D,E} and {B,C,F}; each of the six edges crosses between them. Now add DE. Its endpoints both have depth 2. Their parent paths D–B–A and E–C–A, joined by DE, give the five-edge cycle D–B–A–C–E–D. The added edge therefore prevents the requested two-group partition.
+
+The decisive idea is parity plus a tree-path construction, not the enumeration of many successful examples. The result answers a mathematical question without an empirical test. To use it for allocation, separately establish that vertices represent the relevant items and edges the actual pairwise incompatibilities. If three-way constraints matter, that application question must change.
+
+The concrete practice targets are to explain the obstruction, construct a partition or failure witness for another finite graph, and handle disconnected components. Assess those capabilities on a changed graph with the references and assistance permitted in the intended work.
+
+#### B.5:5.2 - A physical question changes the representation
+
+In a constructed engineering case, a cabinet contains two components. The intended question concerns the hottest component, but a proposed lumped model reports only their arithmetic mean temperature.
+
+Let the modeled component temperatures be T1 and T2, with mean m = (T1 + T2)/2. The states (20,80) and (50,50), in degrees Celsius, both give m = 50. Their maxima are 80 and 50. A stipulated threshold of 60 therefore gives different classifications. On a state set containing both pairs, no function of m alone can recover the maximum or that classification.
+
+A constructive repair retains the signed contrast d = (T1 − T2)/2. Then T1 = m + d, T2 = m − d, and max(T1,T2) = m + |d|. If an independently supported bound |d| ≤ Δ holds for the physical conditions, m + Δ is an upper bound within that model. Otherwise the contrast has to be estimated or measured, or the inference restricted.
+
+The next physical inquiry is concrete: which temperature differences are possible under the actual loading, coupling and time window; how well does one temperature represent each component; and what measurements and error bounds cover the hottest relevant region? Compare a direct measurement, a two-state model and a qualified conservative bound by the evidence each requires and the decision each can support. Use existing adequate physical knowledge before selecting another experiment.
+
+The mathematical argument exposes the lost information. For physical use, justify the two-temperature approximation. A more accurate fit to the same mean cannot settle that lost distinction. The first useful return is the changed quantity and representation question plus the physical premise that would distinguish the continuations.
+
+#### B.5:5.3 - The hypothesis-led route remains short
+
+A service has unexplained latency spikes. B.5.2 supplies a qualified backup-interaction conjecture and serious rivals. Derive an observable contrast between backup and comparison intervals, accounting for traffic and other relevant conditions. If the requisite observations exist, compare them under the domain's inference Method. If they do not, the result can finish as a qualified conjecture and a specified missing test.
+
+A separately qualified operational workaround may already answer the immediate service question. Using it does not require pretending that the causal explanation is established or rerunning a sufficient result through every reasoning contribution.
+
+#### B.5:5.4 - A relaxed problem supports a different use
+
+A planner must choose whole jobs for one worker's four-hour window. At most one A-job is available; it takes three hours and has stipulated value 5. At most two B-jobs are available; each takes two hours and has stipulated value 3. For this constructed problem the values and durations add, and the question is which choice satisfying the stated availability and time limits has greatest value. The reader needs elementary algebra and can enumerate the few integer choices.
+
+Let x and y count A- and B-jobs. The intended constraints are x in {0,1}, y in {0,1,2}, and 3x + 2y <= 4; maximize V = 5x + 3y. An AI-assisted calculation instead allows real x and y with 0 <= x <= 1 and 0 <= y <= 2. It returns x = 1, y = 0.5, V = 6.5.
+
+Recover what that calculation establishes. From the relaxed time constraint, y <= (4 - 3x)/2, so V <= 6 + 0.5x <= 6.5. The returned real-valued pair attains this bound. This is an optimum of the relaxation. The proposed half B-job is excluded by the intended whole-job condition.
+
+For the whole-job question, x = 0 permits at most y = 2 and value 6. With x = 1, the remaining hour permits y = 0 and value 5. Two B-jobs therefore attain the integer optimum 6. The human or tool doing this reasoning can check both feasibility and the comparison directly.
+
+The relaxation still answers a useful question: can any permitted whole-job choice reach value 7? Every integer choice is also feasible for the relaxation, whose proved upper bound is 6.5, so the answer is no. Choosing a realizable assignment needs the integer result; ruling out value 7 needs only the upper bound. With five hours instead, the same argument gives V <= 7.5 + 0.5x <= 8. The choice x = 1, y = 1 attains value 8 in both formulations. The planner can use that relaxed optimum as the whole-job answer because this returned choice satisfies the integer conditions.
+
+Here the human–AI division follows the contribution being sought. A planner can use assisted optimization while being able to state what counts as a whole job, recover the constraints actually solved, and distinguish an attainable choice from an upper bound. If the required work is to develop the optimization Method, its construction and proof become additional capability targets. An exercise can change the time window or divisibility condition and ask the learner to choose the formulation and explain which result answers the question.
+
+#### B.5:5.5 - Understand which composition a theory permits
+
+A practitioner wants one input to feed two operations. Let `X`, `Y` and `Z` be distinct atomic types, with available operations `f: X → Y` and `g: X → Z`. A cartesian account supplies copying, `Δ_X(x) = (x,x)`. The composite `(f × g) ∘ Δ_X` returns `(f(x),g(x))` from one input.
+
+Compare an account generated only by `f`, `g`, identities, serial composition, tensoring and exchange of factors. Here `f ⊗ g` runs the two operations on separately supplied inputs, `X ⊗ X`. Every permitted generator preserves the number of atomic factors; composition and tensoring preserve that property. Therefore those operations cannot construct `X → Y ⊗ Z`. The missing contribution is a second input or an additional copying operation.
+
+The receiving work determines whether copying its input is admissible. The comparison exposes that requirement before selecting an implementation. [Baez and Stay, §2.3](https://arxiv.org/pdf/0903.0340), supplies the cartesian/monoidal distinction; the generated-operation case above makes its use explicit.
+
+#### B.5:5.6 - Choose a first physical model before commissioning a calculation
+
+An engineer is asked whether a stronger external fan can bring an overheating component below 65 °C. In this constructed case, inspection finds the component attached to a metal case through a pad; the fan blows over the outside of the case.
+
+Begin by tracing where heat is generated and how it could leave. The pad suggests a path from component to case, followed by transfer to the surrounding air. Keep the component, the case at the attachment and the air distinguishable: they can have different temperatures, and the proposed fan change acts at the case–air part of that path. Treating the whole device as one temperature would hide the difference relevant to this decision.
+
+Try a steady heat-transfer account first. Assume constant component heating and approximate all generated heat as passing through the pad to the case, with an unchanged linear conductance along that path. The physical premise is that, for a fixed conductance, carrying the same heat per second requires the same temperature difference. [OpenStax, University Physics volume 2, §1.6, equation 1.9](https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer) explains that relation for a uniform conducting layer. Approximating this assembly by such a path is the engineer's model choice; inspect bypass paths and contact behavior when assessing it.
+
+Model the case as losing heat only to that air through temperature-driven transfer. At equal case and air temperatures this outward transfer is zero, so a steady case receiving positive heat must remain warmer than the air. The fan increases exchange with the air; air temperature is the ideal lower limit for the case in this model. The same [OpenStax section, introduction and “Convection”](https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer) explains the temperature-difference dependence and fan-driven exchange.
+
+Suppose the steady readings are 80 °C at the component, 25 °C at the case attachment and 20 °C in the surrounding air. Take these values as exact for the first conditional calculation. The component–case difference is 55 °C. Under the proposed model it remains 55 °C when only external cooling changes. Even ideal cooling of the case to the 20 °C air therefore leaves the component at 75 °C. Improving only this part of the heat path cannot meet the 65 °C target under those assumptions.
+
+This result redirects the design question toward the component–case path, a new direct heat path or reduced heating. It also identifies what could invalidate the estimate: direct airflow onto the component changes the assumed path, while temperature-dependent heating or conductance changes the fixed-difference argument. For the real device, check measurement uncertainty and those assumptions before relying on the bound. A useful specialist request is now: 'Given this assembly and load, can the component stay below 65 °C after improving its contact to the case; which additional observations would settle that?' The engineer can request that model and calculation without first specifying its equations.
+
+### B.5:6 - Bias-Annotation
+
+The examples favor discrete construction and a simple physical representation. Other fields may need probabilistic, interpretive, historical or other arguments with different criticism demands. Select the contribution by the actual question and discipline.
+
+Easy-to-produce outputs can dominate attention. Recover the intended epistemic or practical purpose when speed, proof count, a convenient measurement or the current favorite tool starts determining which question is asked.
+
+### B.5:7 - Conformance Checklist
+
+- **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, intended useful result and selected reasoning contribution. A conjecture SHALL retain its grounds, rivals and limits; a construction and its asserted properties SHALL remain distinguishable.
+- **CC-B5.2 — Interpretable hypothesis-led testing.** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and account for how the tested hypothesis was obtained.
+- **CC-B5.3 — Claim-specific support.** A support claim SHALL identify the actual argument or result, its relevance, scope and limitations. An assurance level, when needed, SHALL follow B.3.3 and the applicable domain criteria.
+- **CC-B5.4 — Result and continuation.** For a performed empirical test, the practitioner SHALL keep its actual outcome, including a failed or inconclusive result, recoverable through A.10. A further inquiry SHALL use the actual result with its limitations and name the remaining question; a sufficient answer may finish the use.
+- **CC-B5.5 — Development-state use.** When B.5.1 is used, an actual transition SHALL meet its project and domain conditions. A reasoning result alone does not establish a development-state transition.
+- **CC-B5.6 — Application and change.** The practitioner SHALL distinguish a mathematical result from its physical application and a change of answer, question, Method or capability when that distinction changes the intended use.
+
+### B.5:8 - Common Anti-Patterns and How to Avoid Them
+
+| Recognizable failure | Repair |
+| --- | --- |
+| Repeatedly improve the fit of a model that omits the intended quantity. | Test the representation against a small action-changing counterexample; recover the missing distinction or qualify a sufficient bound. |
+| Treat exploratory regularities as if they were independently predicted and tested. | Preserve their origin and use a design and inference that account for the selection and dependence. |
+| Produce an argument whose receiver cannot identify what the crucial step establishes. | Explain the construction, decisive inference and a load-bearing assumption at the depth the receiving use needs. |
+| Generate more answers after the important question has changed. | State the changed formulation and which prior results still answer it before selecting further production. |
+
+### B.5:9 - Consequences
+
+The Method preserves cheap use of adequate results while making constructive and question-changing work available. It connects mathematical reasoning, physical interpretation and epistemic criticism without imposing one proof or empirical regime on them.
+
+The cost is attention to purpose, premises and continuation. Keep that effort proportional: one counterexample or a short explanation can settle the question. A difficult theorem or consequential physical inference can demand specialist work and substantially stronger evidence.
+
+### B.5:10 - Architectural Rationale
+
+Inquiry connects different kinds of useful results. A construction supplies an object or procedure; a deduction establishes an implication; a conjecture offers an explanation; observations supply evidence about a phenomenon. Their value depends on what question they answer and what further use their support permits. Treating every result as an explanatory hypothesis would obscure these differences.
+
+Question formation belongs here because the result of one reasoning contribution can alter the premises or aim of the next. Detailed object identity, mathematical-lens use, evidence, search and capability development retain their own Methods. Their results can enter an inquiry without turning each PatternID into a required stage.
+
+### B.5:11 - SoTA-Echoing
+
+**Which reasoning remains useful as result production becomes cheaper?** Adapt Tao's [*Mathematics in the age of AI* (2026), §§2–8](https://arxiv.org/html/2608.16753v1): select the contribution by mathematical and practical purposes, rather than problem-output count alone. Compared with continuing the same production task faster, §§4.1 and 4.4 make a changed question or repertoire available. This accepts the cost of purpose and interpretation work when it can change the next inquiry. Tao's strong-capability premise is conditional.
+
+**What makes a produced proof useful to its receiver?** Adapt [Klowden and Tao (2026), §§4.2, 4.4, 6.3–6.4](https://arxiv.org/html/2603.26524v1): §4.3 retains the intended statement and decisive explanatory structure alongside formal justification. Formal correctness remains sufficient for some formal questions; extending or applying the result needs more.
+
+**Must reasoning always begin with an explanatory hypothesis?** Reject that exclusive route while retaining hypothesis-led inquiry where it fits. Adapt [Rodin (2023), §§3–6](https://arxiv.org/html/2301.08131v1): operations constructing mathematical objects and propositions about them have connected but different roles. Section 4.2 and the graph case make those operations usable.
+
+**How can an inquiry begin before equations are available?** Adapt the qualitative entry described by Etkina and Brookes in [the ISLE method explanation](https://www.islephysics.net/why-isle.html): observations can lead to proposed mechanisms, consequences and discriminating tests before quantitative formalization. Section 4.1.1 makes a first provisional account available; section 5.6 works an engineering model choice. ISLE supplies an instructional method in a supported learning setting.
+
+Reopen these choices when a better method at comparable effort changes the attainable result, a receiving use needs a different explanation or criticism regime, or changed tools alter the useful division of contributions.
+
+### B.5:12 - Relations
+
+- **B.5.2** supplies the explanation-led abductive Method; **B.5.1** coordinates development states when that separate question is current.
+- **C.22.2** supplies an inspectable problem formulation and next use. **C.29** supplies mathematical-lens selection and correspondence, including preserved and lost structure.
+- **A.15.9** supplies bounded use or acquisition of another practice's result, including help with a missing formulation.
+- **B.3, B.3.3 and A.10** govern claim-and-use-specific assurance and evidence reliance.
+- **C.17, C.18 and C.19** supply novelty/value/diversity characterization, archive/front and possibility-space distinctions, and live-pool treatment when those questions arise.
+- **E.23, E.23.CAE and E.23.CDI** distinguish object improvement, capability-expression questions and development of a named capability holder. **E.10.DEV** recovers ambiguous development claims; **C.36** governs the cultural-evolution question.
+- **B.4** can use these reasoning results in an actual evolution inquiry. A sufficient reasoning result does not itself require another evolution cycle.
+
+[fpf-b5-4-ref]: B.5.4-Recognize-a-Reusable-Concept-in-a-Concrete-Situation.md#b54---recognize-a-reusable-concept-in-a-concrete-situation
+
+[fpf-a15-9-ref]: A.15.9-Request-and-Use-a-Bounded-Result-from-Another-Practice.md#a159---request-and-use-a-bounded-result-from-another-practice
 
 ### B.5:End
 
@@ -41253,7 +41402,7 @@ This pattern biases authors toward visible candidate plurality, explicit plausib
 
 ### B.5.2:10 - Rationale
 
-The Canonical Reasoning Cycle needs a disciplined beginning that is neither over-formalized nor mystical. `B.5.2` supplies that beginning. It keeps hypothesis generation explicit, connects it to typed prompt publications, and prepares the output for later assurance work without pretending that early plausibility is already evidence.
+For the hypothesis-led empirical inquiry described in B.5, B.5.2 supplies explanation-led abduction before deduction and induction. It keeps hypothesis generation explicit, connects it to typed prompt publications, and prepares the output for later assurance work without pretending that early plausibility is already evidence.
 
 ### B.5.2:11 - SoTA-Echoing
 
@@ -41261,7 +41410,7 @@ Contemporary inquiry practice in science, engineering, design, and diagnosis tre
 
 ### B.5.2:12 - Relations
 
-- **Is the first reasoning phase within:** `B.5 Canonical Reasoning Cycle`.
+- **Supplies explanation-led abduction within:** B.5's hypothesis-led empirical inquiry, before deduction and induction.
 - **Typically operates during:** `B.5.1 Exploration`.
 - **Consumes:** `U.AbductivePrompt` publications from `B.5.2.0`, often reached through `B.4.1` and `A.16`.
 - **Produces:** hypothesis-bearing `U.Episteme` publications with explicit conjectural content, supports, fragilities and allowed use; no automatic `AssuranceLevel:L0`.
@@ -41900,6 +42049,127 @@ This pattern implements open-ended parsimony: FPF can use many domain vocabulari
 
 ### B.5.3:End
 
+## B.5.4 - Recognize a Reusable Concept in a Concrete Situation
+
+
+
+> **Type:** Method-description pattern
+> **Status:** Candidate
+> **Normativity:** Normative unless marked informative
+
+### B.5.4:1 - Problem frame
+
+**Use this when** you understand a concept's explanation but cannot yet connect it to an unfamiliar situation. You need to interpret what is happening before you can explain it, construct a model or choose the next observation.
+
+Begin with the question this interpretation should help answer. Identify what you can point to or describe, recover the relations a candidate concept requires, and construct their correspondence in this case. The first useful result is an interpretation with a consequence that guides the next action.
+
+This requires an accessible domain account and enough background to understand it. If the concept itself is unfamiliar, obtain that explanation first. If the interpretation is settled and only a calculation remains, use the appropriate calculation Method.
+
+### B.5.4:2 - Problem
+
+A familiar textbook question supplies cues that an encountered situation may lack. Knowing what polarization means can coexist with being unable to use it while looking at water. Even recognizing the material leaves the surface, directions and relations to be identified.
+
+The missing contribution is the passage from the encountered situation to a usable interpretation. A correct interpretation should make a difference to an explanation, prediction, construction or action.
+
+### B.5.4:3 - Forces
+
+- A concept directs attention toward particular relations, while the first description of a situation can obscure them.
+- A sketch can expose a correspondence; a premature equation can leave its variables uninterpreted.
+- A familiar example helps learning, while changed conditions reveal which relations the learner can recover.
+- A useful interpretation depends on domain knowledge, whose acquisition may cost more than the immediate recognition work.
+
+### B.5.4:4 - Solution
+
+1. **Name the question.** Say what the interpretation should enable: reducing glare, explaining a changed reading, arranging compatible activities or choosing an observation. This determines which distinctions matter.
+2. **Describe the situation at a useful scale.** Indicate the relevant region, objects, time and conditions. Separate available observations from your proposed explanation. Try another boundary or viewpoint when the first description hides an interaction.
+3. **Recover the candidate concept through its relations.** Consult its explanation, examples and conditions. Identify its participants, how they are related, and a consequence that distinguishes its application from a plausible alternative. Use the domain account to supply knowledge omitted by a short definition.
+4. **Construct the correspondence.** Point to what supplies each participant here and explain the relations between them. Use a sketch, gesture, annotated observation or short account. If mathematics helps, connect each variable or mathematical object to its interpretation and identify consequential simplifications.
+5. **Derive and examine a consequence.** Work out what should follow in this situation. Vary one relevant condition and compare the resulting prediction with an available observation, counterexample or inexpensive trial. Where competing interpretations support the same sufficient action, keep that bounded answer.
+6. **Return to the question.** Give the explanation, construction, action or next observation now supported. When a consequence fails, revisit the object boundary, relation, condition, representation or candidate concept that produced it. Identify the missing domain contribution if the available account cannot resolve the question.
+
+The result can be an interpreted sketch and a next action. Record the reasoning when another participant or later use needs to recover it.
+
+For capability assessment, separate the correctness of a supplied interpretation from the reader's ability to select and construct it. Give a consequentially changed situation before supplying its decisive conceptual cue; retain the references and assistance allowed in the intended work.
+
+### B.5.4:5 - Archetypal Grounding
+
+#### B.5.4:5.1 - Glare from water
+
+You want to reduce glare in an image. Identify air, water, a selected interface patch, incoming light and the direction from that patch to the camera. Draw the local normal and incidence plane. For unpolarized illumination of a smooth dielectric interface at Brewster incidence, reflected light is polarized perpendicular to that plane. Rotating a linear polarizer before the camera changes the transmitted reflected contribution. This is the domain relation supplied by [Feynman, I.33, §33-4](https://www.feynmanlectures.caltech.edu/I_33.html#Ch33-S4).
+
+The interpretation tells you what to adjust. Moving the viewpoint changes incidence; ripples change local normals, so a single planar sketch may need several patches. Inspect a changed view and determine whether the proposed adjustment still follows.
+
+#### B.5.4:5.2 - Recognize a conflict relation before colouring a graph
+
+A laboratory must place three tests in two simultaneous-run slots. Its operating conditions say that A and B need the same exclusive fixture throughout a run; B and C need the same exclusive power unit; A and C can run together. There are no other constraints in this constructed case.
+
+Represent tests by vertices and a pairwise inability to share a slot by an edge. The observations supply edges AB and BC. The construction in [B.5:5.1][fpf-b5-5-1-ref] produces slots {A,C} and {B}; reading the result back means that neither exclusive resource is double-booked.
+
+Now change the conditions: A and C also require the same observer throughout a run. This adds edge AC. The triangle needs three slots under these conditions; two-colouring no longer supplies an arrangement.
+
+Consider instead three tests with independent fixtures whose shared resource is a 5 A supply. Each draws 2 A. Any pair can run together, but all three exceed the supply's capacity. A graph with no pairwise conflict edges loses that group constraint. Retain the currents and the slot-wise capacity inequality when constructing the arrangement.
+
+### B.5.4:6 - Bias-Annotation
+
+Answer-bearing demonstrations favour recognition from familiar wording. Obtain a changed situation when independent selection matters. Representation familiarity can also encourage premature graph, table or equation use; compare the represented relations with the constraint that actually changes the answer.
+
+When a teacher, colleague or AI supplies the decisive interpretation, retain that contribution in any account of what the learner performed.
+
+### B.5.4:7 - Conformance Checklist
+
+- The concrete question determines which distinctions matter.
+- The interpretation identifies the participants, relations and applicable conditions in the encountered situation.
+- A consequence connects the interpretation to an explanation, construction or action.
+- A consequential change is interpreted using the retained relation and its conditions.
+- The domain account, prerequisites and permitted assistance are accessible to the intended reader.
+- An independent-recognition claim is supported by an appropriately uncued attempt.
+
+### B.5.4:8 - Common Anti-Patterns and How to Avoid Them
+
+**Definition recitation.** Return to what supplies the definition's participants and relations in this case, then derive a consequence.
+
+**Representation chosen before the constraint.** Compare what the representation preserves with what the use needs. In the laboratory case, pairwise compatibility leaves aggregate current to be handled separately.
+
+**A demonstrated answer credited as independent recognition.** Use the demonstration for learning. For assessment, obtain a changed case with the assistance permitted in later work.
+
+### B.5.4:9 - Consequences
+
+The practitioner obtains an interpretation they can use and revise. A mismatch becomes a particular question about an object, relation, condition or domain account. A later calculation receives identified quantities; a model receives interpretable elements; further inquiry receives a discriminating observation.
+
+The cost is constructing and examining the correspondence. This work can be small when the relevant relations are already clear.
+
+### B.5.4:10 - Rationale
+
+Concepts become useful through their relations to a situation. Recovering these relations and following a consequence connects interpretation to action. Reversing that passage after a failed consequence makes the interpretation correctable. A sketch and an equation can serve this work differently; their usefulness depends on the distinctions they expose.
+
+### B.5.4:11 - SoTA-Echoing
+
+The working question is how to interpret a particular situation when a usable concept account is available but its concrete participants are still missing. For this entry, use the concept-led correspondence in steps 3–4 as a specialization of the broader first-model route in [B.5:4.1.1][fpf-b5-4-1-1-ref]. The broader route remains useful when the relevant relation itself has to be proposed.
+
+Compare the two routes on :5.2 using the same operating conditions, an explanation of graph colouring, and a sketch plus the resource checks. B.5 first asks which tests and resources must remain distinguishable, then asks the engineer to propose their connection. An exclusive-resource conflict supplies AB and BC; a cheap consequence supplies {A,C}/{B}; challenging an omitted interaction can expose the shared-current constraint. That route can solve the case.
+
+Here the reader's stated difficulty lies inside that “propose their connection” move. Steps 3–4 work back from the understood relation: an edge joins two participants that cannot share a slot. Fill the two participants with A and B, and identify the fixture whose exclusive use makes the relation hold; repeat for B and C and check A with C. This supplies both the graph and the reason for each edge before colouring. In the 5 A variant, the same correspondence question asks what the empty graph represents: permission for each pair. Comparing it with the required permission for the whole group exposes the missing sum, 2 + 2 + 2 > 5. Both routes yield the same correct schedule; this specialization supplies the concrete relation and its operating-condition check inside the broader instruction.
+
+The selected trade-off is more explicit participant-by-participant work where the broader instruction leaves that work to the reader. It uses the same domain account and case data; retain it only while constructing the correspondence is the difficulty. When the reader already has that correspondence, :1 returns directly to the calculation. When no usable relation has been selected, B.5's first-model route retains the wider search. These case comparisons establish the additional instruction and its consequence; comparative learning speed and transfer remain empirical questions.
+
+[Sirnoorkar, Bergeron and Laverty (2023), §III](https://journals.aps.org/prper/pdf/10.1103/PhysRevPhysEducRes.19.010118) supplies the target-to-representation, internal-reasoning and interpretation-back account used in steps 4–6. Its discussion of problem assessment, model construction and interpretation makes the broader modeling route a substantive alternative. The adaptation here unfolds the target-to-representation work from the relations in an already understood concept. Its empirical basis is two physics problem-solving cases; the scheduling comparison above is a constructed comparison of the instructions.
+
+[Kashyap and Singh (2026), §II and case B](https://journals.aps.org/prper/abstract/10.1103/j6lc-c5q8) shows redrawing alongside spatial reinterpretation and continuing grounding errors in electrostatics problem solving. Adapt that contribution in step 2 and :5.1: change a viewpoint when it can reveal a needed relation, then check the relation's physical conditions.
+
+Reconsider this choice if an intended reader cannot fill a decisive relation from the available concept account, or if the broader modeling instruction supplies the same recoverable correspondence with less effort. Change the affected instruction or its prerequisite; a comparison showing that the explicit recovery adds no useful contribution would remove the reason to use this specialization. The optics law remains supplied by the linked Feynman account, and the laboratory consequences follow from their stipulated operating conditions.
+
+### B.5.4:12 - Relations
+
+- C.3 supplies kind recovery, classification applicability and judgment when a classification question arises.
+- C.29 helps select and interpret a mathematical representation, including its preserved and lost structure.
+- B.5 connects the interpreted question to construction, inference, observation and a useful continuation.
+- A.7.1 supplies consequence-guided ontological repair when a working claim gives a defeated engineering result.
+
+[fpf-b5-5-1-ref]: B.5-Canonical-Reasoning-Cycle.md#b551---a-counterexample-becomes-a-constructive-mathematical-question
+[fpf-b5-4-1-1-ref]: B.5-Canonical-Reasoning-Cycle.md#b5411---propose-a-first-model
+
+### B.5.4:End
+
 # Part C - Kernel Extension Specifications
 
 | §                                            | Pattern                        | Tag | Scope & Exports                                                      |
@@ -42025,56 +42295,32 @@ KD-CAL turns the coarse legacy semiotic picture into **holonic composition** ove
 
 **Plain name.** Episteme constitution.
 
-**Mint or reuse.** This pattern reuses `U.Episteme`, `U.ClaimGraph`, `U.Entity`, `U.ReferenceScheme`, `U.Holon`, `U.Signature`, `RelationSignature`, and `SlotSpec`. It introduces the direct relation names `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`. It also defines the reusable non-entity value `C.2.1 ClaimAddress` for one intrinsically identified claim inside one exact episteme edition and states the `U.EpistemeRef` resolution rule it consumes. Each named `...RelationSignature` below is the relation-facing use of one declaration episteme for which the `A.6.0` membership predicate obtains; `A.6.0` therefore recognizes that same individual as a `U.Signature`, not as another identity. The signature-local SlotKinds named below identify participant meanings only inside their stated signatures. An episteme itself has no slots, and repeated slot spelling in another signature establishes no shared SlotKind by spelling alone.
+**Use this pattern when.** You need to identify or compare a body of knowledge: what it claims, the exact entity those claims concern, and the rules under which they are interpreted. A pump specification with a changed pressure threshold carries different claims. Publishing the same claims about the same pump under the same interpretation in another file preserves the episteme.
 
-**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes those claims interpretable as claims about that entity. `EpistemeConstitutionRelation` is the core direct relation of the episteme ontic. Empirical grounding, viewpoint, view, scope, model use, edition succession, description, publication, carrier, and mathematical representation remain neighboring objects and relations.
+**First useful move.** Ask: what is claimed; what exact entity are the claims about; and what designation and interpretation rules make those claims readable about that entity? Include measurement, comparison or evaluation rules where the claims use them. If identity is all the task needs, stop after those answers. Otherwise name the concrete receiving use and open only the corresponding branch in :4.0. An unresolved uncertainty or choice is needed only when the use involves a real inquiry or decision.
 
-**Use this pattern when.** Use C.2.1 when one body of claims about one exact subject, interpreted under one effective reference scheme, must be identified or compared. In ordinary words, identify what this body of knowledge says, what it says about, and which shared rules make that saying interpretable.
+**One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes the claims interpretable about that entity. Changing any of these three discriminators identifies another episteme.
 
-Changed claims, a changed subject, or a changed interpretation identify another episteme. Changed empirical grounding, viewpoint or view use, publication, form, carrier, or representation can leave the episteme unchanged; update the neighboring object or relation that actually changed.
+**Primary working reader and viewpoint.** The engineer or researcher comparing, revising, teaching, grounding or publishing that knowledge object. The working concern is to reidentify it through those uses and locate a change when it occurs.
 
-A theory, model, specification, proof, or diagnosis can therefore be an episteme when the selected object is that claim-bearing whole. A diagram or dashboard has two branches: use C.2.1 when the selected claim-bearing whole satisfies the constitution test above; when the current object is instead its layout, file, display, or correspondence to something else, treat it as a publication form, carrier, or C.29 representation rather than as the episteme.
+**Primary governed object and architecture.** One `U.Episteme` and its `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation` and `EpistemeEditionRelation`. The EntityOfConcern of the episteme is the entity its claims concern; for a pump specification, it is the pump, while C.2.1 governs the specification's identity.
 
-**Primary working reader.** An engineer or researcher who needs to identify a knowledge object and use it without mistaking its subject, file, view, evidence, or publication for that knowledge object.
+**What goes wrong if missed.** A shared filename hides changed claims, subject or interpretation; or a changed display is reported as a changed model. **What this buys.** The practitioner can identify the changed knowledge object or update only the relation affected by a new grounding, view or publication use.
 
-**Primary working concern.** Keep one claim-bearing object reidentifiable through empirical grounding, viewing, revision, and publication, and detect when changed claims, subject, or interpretation identify another episteme.
+A theory, model, specification, proof or diagnosis can be an episteme when the selected object is that claim-bearing whole. A diagram can carry such claims too. When the task concerns its layout or the calculations available through its notation, use the publication or representation branch in :4.0.
 
-**Primary viewpoint.** The practitioner using, comparing, revising, or publishing that knowledge object while keeping its identity and neighboring relations distinct.
-
-**Primary governed object.** One `U.Episteme`: the claim-bearing knowledge holon being identified or compared.
-
-**Architecture in scope.** C.2.1 also governs that episteme's `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`; it coordinates with the subject patterns of viewpoint, view, scope, model use, description, publication, form, carrier, and representation.
-
-**Terminology guard.** The EntityOfConcern **of an episteme** is the exact entity its claims concern. It is not the same field as the primary governed object **of this pattern**.
-
-**First useful move.** Ask three ordinary questions: what is claimed, what exact entity are the claims about, and what designation and interpretation rules make those claims readable about that entity? Where the claims use measurement, comparison, or evaluation rules, name those applicable rules too. Those answers identify the episteme. If identity is all the task needs, stop there. Otherwise name the concrete receiving use—such as comparison, preservation, teaching, publication, inquiry, or decision—and add only the neighboring object or direct relation needed for its next visible sentence or action. Name an unresolved uncertainty or choice only when a real inquiry or decision has one.
-
-**What goes wrong if missed.** A file or diagram becomes "the model"; a subject label drifts while the same episteme name is retained; the holon through which claims are empirically inspected, or the viewpoint from which claims are selected, is copied into episteme identity without justification; or a revised publication is mistaken for a changed knowledge object.
-
-**What this buys.** Epistemes can be compared, revised, grounded, viewed, published, and used recursively while ordinary prose stays short. The complete distinction among the episteme, its direct relations, and their assertion, publication, and representation objects remains recoverable without making users restate every object for every claim.
-
-**Not this pattern when.** Use the direct subject pattern when the current question concerns the system, work, method, relation occurrence, or other entity described by an episteme. Use `A.1` for constructive recognition of a candidate under an admitted holon kind, `C.3.2` for a local-kind membership judgment, and `E.24.UK` for FPF U-kind admission. Use `E.17` and `E.24.PUB` for publication, `A.10` and `B.3` for evidence or assurance, `C.29` for a mathematical representation, and `E.10`, `C.2.P`, or `F.18` for precision restoration or naming. C.2.1 governs episteme identity, including the identity of a separately current classification assertion.
+**Not this pattern when.** To inspect or change the pump, perform work, or apply a method, use that subject's direct pattern. Open C.2.1 when the identity of the claims describing it matters. A separately inspected classification assertion has its own claim content, subject and scheme; its governing criterion remains under `A.1` or `C.3.2`, with `E.24.UK` used for public U-kind admission.
 
 ### C.2.1:1 - Problem Frame
 
-FPF treats an episteme as a holon, not as a document class or a filled record. A pump-maintenance specification, a clinical model, a theorem, a learned classifier description, and a curriculum model can all be epistemes when each is a claim-bearing whole about an exact EntityOfConcern under an effective reference scheme. Their carriers, notations, and admissible operations differ, but that difference does not remove the shared ontology question: what makes this one episteme, and what changes its identity?
+FPF treats an episteme as a holon, not as a document class or a filled record. It is a claim-bearing whole about an exact EntityOfConcern under an effective reference scheme. Carriers, notations, and admissible operations can differ; the identity question is what makes this one episteme and what changes it.
 
-The episteme ontic coordinates these distinct objects without collapsing them:
 
-1. the `U.Episteme` knowledge holon;
-2. direct relation occurrences that constitute, ground, or connect editions of that holon;
-3. declaration epistemes whose C.2.1 identity is fixed independently, whose same individual has `U.Signature` membership under `A.6.0`, and whose relation-facing `RelationSignature` use declares reusable participant SlotSpecs for one exact relation kind;
-4. assertion epistemes that claim a direct relation predicate obtains and description epistemes whose EntityOfConcern is one explicitly individuated occurrence;
-5. publication occurrences that make one selected episteme edition available for a bounded audience and use;
-6. publication forms that express the selected edition for that publication use;
-7. `U.PresentationCarrier` entities that bear those forms;
-8. C.29 mathematical representations that correspond to independently recovered objects for an explicit modeling or reasoning use.
+The core constructive question is whether an exact `U.ClaimGraph`, exact `U.Entity`, and effective `U.ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
 
-The core constructive question is not which fields a card contains. It is whether an exact `U.ClaimGraph`, exact `U.Entity`, and effective `U.ReferenceScheme` stand in the relation that makes the claim content interpretable and evaluable as claims about that entity. When they do, their selected organization yields a whole-level epistemic characteristic: the resulting holon can be used as one defeasible or deductive body of knowledge. That characteristic is not supplied by any one participant alone.
+Any exact `U.Entity` can participate as the EntityOfConcern. An episteme can therefore concern another episteme or itself without changing the constitution relation.
 
-Any exact `U.Entity` can participate as the EntityOfConcern. An episteme can therefore concern a system, work, method, relation occurrence, another episteme, or itself without changing the constitution relation. Episteme recursion does not introduce a second meta-episteme ontology.
-
-Contemporary work on formal languages as cognitive tools, material and diagrammatic reasoning, distributed representations, and tool-assisted reasoning explains why representation regimes matter. C.2.1 preserves that insight by keeping representation and admitted operations explicit when current. It does not let notation, latent geometry, tool output, or a publication form determine episteme identity.
+Different representation regimes can support different operations. Make the representation and its admitted operations explicit when the current use needs them. Identify the episteme by its claim content, EntityOfConcern, and effective ReferenceScheme.
 
 ### C.2.1:2 - Problem
 
@@ -42103,9 +42349,9 @@ The familiar Symbol-Concept-Object triangle can still introduce the difference a
 
 ### C.2.1:4 - Solution
 
-Identify each `U.Episteme` through `EpistemeConstitutionRelation`: first state what it says, what exact entity it concerns, and the scheme under which those claims are read. Then name what the reader will do with that episteme. Add a neighboring relation only when the reader's next sentence or action requires it. Keep declaration epistemes, assertions, descriptions, names, references, publication occurrences, publication forms, carriers, and representations distinct under their direct patterns.
+Identify each `U.Episteme` through `EpistemeConstitutionRelation`: first state what it says, what exact entity it concerns, and the scheme under which those claims are read. Then name what the reader will do with that episteme. Add a neighboring relation only when the reader's next sentence or action requires it. The conditional branches below supply the relevant direct relation and its test.
 
-**Local episteme mantra.** *Name the claims, what they concern, and the scheme that gives those claims their reference. Stop if identity is all the task needs. Otherwise name the concrete receiving use and add only the neighboring object or relation needed for its next sentence or action. Ask for an unresolved question only in a real inquiry or decision. Update episteme identity only when claim content, EntityOfConcern, or effective reference scheme changes; otherwise update the affected neighboring relation, publication occurrence, publication form, or carrier under its direct pattern.*
+**Local episteme mantra.** *Name the claims, what they concern, and the scheme that gives those claims their reference. Stop if identity is all the task needs. Otherwise name the concrete receiving use and add only the neighboring object or relation needed for its next sentence or action. Ask for an unresolved question only in a real inquiry or decision. Update episteme identity only when claim content, EntityOfConcern, or effective reference scheme changes; otherwise update the affected relation or object under its direct pattern.*
 
 The mantra is a recall aid, not a work plan. The application method and stop conditions are carried by sections 4.1-4.9; section 4.10 is a later reference for relation and neighboring-object distinctions.
 
@@ -42119,7 +42365,7 @@ Begin with the three questions that identify the episteme. They are identity que
 | What exact entity do those claims concern? | one identified `U.Entity` participating as the EntityOfConcern |
 | Under which designation and interpretation rules are the claims read, and, where the claims use them, which measurement, comparison, or evaluation rules apply? | the effective `U.ReferenceScheme` |
 
-If the task needs only the episteme's identity—for example, to cite, catalogue, compare, teach, or reconstruct it—stop after the three answers. Otherwise state the concrete receiving use. Ask for an unresolved uncertainty or choice only when that use is a real inquiry or decision; comparison, preservation, teaching, and publication need no invented decision question.
+If the task needs only the episteme's identity, stop after the three answers. Otherwise state the concrete receiving use. Ask for an unresolved uncertainty or choice only when that use is a real inquiry or decision.
 
 Open a row below only when its first column names the reader's next sentence or action. Each positive answer adds an independently governed object or direct relation; none adds another slot or identity discriminator to the episteme.
 
@@ -42139,9 +42385,10 @@ Open a row below only when its first column names the reader's next sentence or 
 | A decision or evaluation will accept, reject, or withhold reliance because of evidence. | the exact evidence-use relation; evidence storage alone is insufficient | `A.10` for ordinary evidence reliance; `B.3` only for an actual named assurance claim |
 | Reviewers must inspect or revise a classification judgment as an independent claim-bearing object. | one classification assertion episteme about the exact candidate, plus the exact governing criterion | C.2.1:4.2.3 with `A.1` or `C.3.2`; `E.24.UK` only for public U-kind admission |
 | A reader must assert that a later episteme revises, refines, or supersedes an earlier one. | one exact `EpistemeEditionRelation` occurrence | C.2.1:4.5 |
+| An account must assert that particular Work occurred. | identify the actual performer and admit the dated Work independently; if the account also attributes it to an assignment, test that attribution separately | `A.13` and `A.15.1`; `F.6` only for the stated attribution |
 | A publisher must make one selected episteme edition available to a declared audience for a bounded use. | the publication occurrence, publication form, and `U.PresentationCarrier` as distinct objects | `E.17` and `E.24.PUB` |
-| A user will calculate, infer, navigate, or inspect through a notation, diagram, mathematical structure, or tool representation whose available operations matter. | the exact C.29 representation, correspondence, representation scheme, and any current transition relation | `C.29` and the selected representation-transition pattern |
-| One receiving System must select, decline, or co-use candidate results of different kinds as representations for the same exact action or decision. | one C.37 use-bounded representation-selection account; keep each direct subject result, optional A.2.4 first-use classification, A.10 reliance path when material, and receiving result separately governed | `C.37`; the direct subject and receiving-result patterns remain authoritative |
+| A user will calculate, infer, navigate, or inspect through a representation whose available operations matter. | the representation scheme, operations and correspondence needed for that use | the applicable representation pattern; `A.6.3.RT` for a same-EntityOfConcern transition; `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |
+| One receiving System must select, decline, or co-use candidate results of different kinds as representations for the same exact action or decision. | one C.37 use-bounded representation-selection account; keep each direct subject result, optional A.2.4 first-use classification, A.10 reliance path when material, and receiving result separately governed | `C.37` |
 
 
 Stop when no row describes the next sentence or action. A readable sentence naming the claims, EntityOfConcern, and effective reference scheme is then enough. Do not complete the table as a record. Use section 4.10 only when a later sentence or action actually needs the full relation and neighboring-object reference.
@@ -42194,7 +42441,7 @@ The SlotKinds belong only to this declaration. An actual claim graph, EntityOfCo
 
 `EpistemeConstitutionRelation` obtains exactly when the effective reference scheme supplies a coherent designation and interpretation of the claim graph as claims about the exact EntityOfConcern, and the three participants are constitutively organized as one claim-bearing whole whose claims can in principle be evaluated under that scheme. Merely placing three designations in a card does not make the relation obtain.
 
-The relation occurrence is participant-determined by the exact `<ClaimGraph, EntityOfConcern, ReferenceScheme>` triple. The same triple cannot constitute two distinct `U.Episteme` instances under the shared C.2.1 identity rule. Recognition of that individual as a dependent episteme kind adds a membership judgment under the dependent kind's subject pattern, not another constitution occurrence or discriminator. A tuple may represent the triple under `C.29`, but tuple order and storage keys contribute nothing to identity.
+The relation occurrence is participant-determined by the exact `<ClaimGraph, EntityOfConcern, ReferenceScheme>` triple. The same triple cannot constitute two distinct `U.Episteme` instances under the shared C.2.1 identity rule. Recognition of that individual as a dependent episteme kind adds a membership judgment under the dependent kind's subject pattern, not another constitution occurrence or discriminator. A tuple may represent the triple, but tuple order and storage keys contribute nothing to identity.
 
 The episteme and the relation occurrence are not identical. The relation is the obtaining organization among the three participants. The episteme is the knowledge holon constructively identified through that organization and its whole-level claim-bearing characteristic.
 
@@ -42281,10 +42528,10 @@ The grounding holon need not be identical to the EntityOfConcern. One method-des
 | view | the same episteme individual recognized as `U.View` when an exact `EpistemeViewpointConformanceRelation` to at least one exact viewpoint episteme obtains | conformance, source-to-receiving construction, current-use selection, publication, form, and carrier remain different relations or objects |
 | bounded model use | optional relation to one `BoundedModelUseStructure : U.Structure` under A.1.1 | model-use organization can qualify interpretation without becoming a universal identity component |
 | justification structure | exact `JustificationGraph` content | a justification structure organizes inferential dependencies without becoming claim content |
-| evidence use or assurance for a claim | for ordinary bounded reliance, the exact A.10 evidence-provenance relation and local `RelianceDisposition`; when an actual named assurance claim is current, the exact B.3 `AssuranceResult` or its non-positive disposition | evidence and assurance can support, narrow, or stop use without changing episteme identity or making the EntityOfConcern obtain; consequence alone creates no B.3 claim |
+| evidence use or assurance for a claim | for ordinary bounded reliance, the exact A.10 evidence-provenance relation and local `RelianceDisposition`; when an actual named assurance claim is current, the exact B.3 `AssuranceResult` or its non-positive disposition | evidence and assurance can support, narrow, or stop reliance on the claim while the episteme's identity remains fixed |
 | publication | exact publication occurrence and publication form under E.17 and E.24.PUB | making an edition available does not constitute or reidentify it |
 | presentation carrier | any exact `U.PresentationCarrier` under E.17 and E.24.PUB | bearing a publication form or rendered expression does not constitute or reidentify the episteme |
-| representation and admissible operations | representation scheme currently used for the exact represented episteme, its selected elements, and the C.29 correspondence or transition relations | a change of scheme or admitted operations can change the available work without becoming the represented ontology |
+| representation and admissible operations | the representation scheme, selected elements and operations used for the represented episteme, with any required correspondence or transition governed through :4.0 | a change of scheme or admitted operations can change the available work |
 
 Names ending in `Slot` are admissible here only as SlotKinds inside the exact `RelationSignature` governed by the neighboring direct relation pattern. A card or other episteme form carries participant designations in ordinary fields; it does not acquire SlotKinds by using similar field labels. None of those neighboring SlotSpecs belongs to `EpistemeConstitutionRelationSignature`.
 
@@ -42324,17 +42571,16 @@ When a card or other form designates the participants of one direct relation, it
 
 In a relational assertion, the claim graph designates the actual participants and states affirmative or negative polarity for the direct predicate. The direct pattern defines that predicate and the occurrence-identity rule; current case facts determine whether the predicate is satisfied or failed. A forecast, scenario, counterfactual, permission, or another claim family names its exact direct governor rather than using one common catch-all field. Only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately state supported, refuted, or unresolved reliance. An affirmative assertion may designate an occurrence only after the case facts satisfy the predicate and the direct identity rule individuates that occurrence; a negative assertion creates no failed world-side occurrence. In a relation-occurrence description episteme, the EntityOfConcern is that exact already individuated occurrence. The assertion and description retain their own C.2.1 identities. Their forms do not by themselves supply case facts or the occurrence-identity rule, or establish obtaining; evidence supporting the case conclusion and any constitutive contribution are governed separately by the relevant evidence and direct-relation rules.
 
-Keep the direct verbs with their objects. A designator designates an already recoverable referent. A governed reference resolves to that referent under an effective reference scheme. An assertion or description episteme carries claims and participant designations. A C.29 representation stands in an explicit correspondence to what it represents. A publication occurrence makes a selected episteme edition available; a publication form expresses that edition for the use; a presentation carrier bears the form.
+A designator designates an already recoverable referent. A governed reference resolves to that referent under an effective reference scheme.
 
-Plain **published episteme** means one already identified `U.Episteme` that currently participates as the selected edition in an exact publication occurrence. It is a contingent publication use, not a durable `U.EpistemePublication` kind and not a second identity for the episteme. The episteme keeps the same C.2.1 identity before, during, and after that availability relation.
+For publication, `E.17` and `E.24.PUB` govern the occurrence that makes a selected edition available to a declared audience for a bounded use, the form that expresses it, and the `U.PresentationCarrier` that bears the form. Plain **published episteme** names the episteme's contingent participation in that occurrence. Its C.2.1 identity stays fixed before, during and after that availability relation.
 
-A publication occurrence makes one selected episteme edition available to a declared audience for a declared bounded use. A publication form expresses that edition for the publication use. A `U.PresentationCarrier` bears the form. These are three different direct relations governed by `E.17` and `E.24.PUB`; an assertion that any one obtains is a separate episteme. C.2.1 governs the identity of the selected `U.Episteme`; it does not replace the participants, predicates, or occurrence rules of those publication relations.
 
 One completed inspection card shows why the distinctions matter. Its filled claims can identify one episteme; its reusable layout can be a publication form; its paper sheet or file can be a presentation carrier; and a publication occurrence can make the selected card episteme edition available to the maintenance team. None of those uses makes the others identical.
 
-When rendering is current, a system performs rendering work and the exact work-participation, transformation, or A.6.1 binding current in that case relates the work to its affected entities. Rendering work, rendered entity, publication occurrence, form, carrier, and episteme retain their own identities. Republishing unchanged claims with another form or carrier creates no new episteme edition; changed claim content, subject, or effective scheme identifies another episteme without requiring a claim about when any entity first existed.
+Republishing the same claims about the same subject under the same effective scheme with another form or carrier preserves the episteme. Changed claim content, subject or effective scheme identifies another episteme. If the account also needs the rendering Work, use the conditional Work branch in :4.0.
 
-Under `C.29`, a tuple can represent the identity triple and a graph or hypergraph can represent claim, justification, dependency, or relation structure. `U.ClaimGraph` and `JustificationGraph` remain graph-valued epistemic structures. Their nodes and edges remain representation elements. An explicit correspondence can relate one selected representation element to an independently recovered object, but it neither identifies the two nor makes the representation element a participant of the represented direct relation.
+A tuple can represent the identity triple and a graph or hypergraph can represent claim, justification, dependency, or relation structure. Use `C.29` for an unresolved mathematical-lens choice, transfer or reliance question. `U.ClaimGraph` and `JustificationGraph` remain graph-valued epistemic structures. Their nodes and edges remain representation elements. An explicit correspondence can relate one selected representation element to an independently recovered object, but it neither identifies the two nor makes the representation element a participant of the represented direct relation.
 
 #### C.2.1:4.7 - Preserve description and meta-description recursion
 
@@ -42356,7 +42602,7 @@ Description and specification use remain distinct. A Description episteme is adm
 | claim scope changes | update the exact `U.ClaimScope` and its A.2.6 membership semantics; do not infer another episteme automatically |
 | selected bounded model-use or multi-view structure changes | update the exact collection or structure relation and re-evaluate affected interpretation claims; do not infer another episteme or view family automatically |
 | publication form, carrier, rendering, audience, bounded use, or publication occurrence changes | establish the exact E.24.PUB change only; publication is not view membership or episteme succession |
-| mathematical or tool representation changes | apply C.29 and the selected representation-transition relation |
+| mathematical or tool representation changes | use `A.6.3.RT` for a same-EntityOfConcern representation transition, or the applicable direct transition pattern for another transition; use `C.29` only for an unresolved mathematical-lens choice, transfer or reliance question |
 
 #### C.2.1:4.9 - Hand episteme transformations to their subject patterns
 
@@ -42364,7 +42610,7 @@ Description and specification use remain distinct. A Description episteme is adm
 
 A.6.2-A.6.4 define episteme-to-episteme morphing, source-to-receiving viewing construction, and retargeting. Identify every source and receiving episteme independently under C.2.1 before testing the exact transformation relation. Each transformation pattern states which identity discriminator is preserved or changed and names the exact correspondence, reinterpretation, or retargeting relation on which it relies. When a possible Bridge between exact F.17 cells is current, use F.9 to test whether that relation obtains. If the morphism relies on that Bridge for a proposed use, state a separate C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity in its ClaimGraph, then use A.10 for ordinary evidence reliance or B.3 only when an actual named assurance claim is current; none of those facts makes the morphism application occur. Categorical function, mapping, or tuple notation creates no direct relation occurrence.
 
-For an A.6.3 source-to-receiving viewing construction, the two identified epistemes may retain the same EntityOfConcern while claim content or effective scheme is restricted. `E.17.0` alone judges whether the receiving episteme conforms to an exact viewpoint and therefore has dependent `U.View` membership. Direct authoring or query generation can yield a candidate episteme without an A.6.3 construction, and neither route creates a multi-view family. For retargeting, the EntityOfConcern changes and the case names the exact domain correspondence, retargeting rule, or relation on which it relies. An F.9 Bridge is additional only when the case separately asserts a semantic relation between exact F.17 local senses from different semantic contexts and the F.9 predicate obtains. For a representation transition, the represented episteme may remain unchanged while the C.29 representation scheme and admitted operations change.
+For an A.6.3 source-to-receiving viewing construction, the two identified epistemes may retain the same EntityOfConcern while claim content or effective scheme is restricted. `E.17.0` alone judges whether the receiving episteme conforms to an exact viewpoint and therefore has dependent `U.View` membership. Direct authoring or query generation can yield a candidate episteme without an A.6.3 construction, and neither route creates a multi-view family. For retargeting, the EntityOfConcern changes and the case names the exact domain correspondence, retargeting rule, or relation on which it relies. An F.9 Bridge is additional only when the case separately asserts a semantic relation between exact F.17 local senses from different semantic contexts and the F.9 predicate obtains. For a same-EntityOfConcern representation transition, use A.6.3.RT; the represented episteme may remain unchanged while the representation scheme and admitted operations change.
 
 #### C.2.1:4.10 - Relation and neighboring-object reference
 
@@ -42386,7 +42632,7 @@ For an A.6.3 source-to-receiving viewing construction, the two identified episte
 | publication occurrence | the occurrence that makes one selected episteme edition available to a declared audience for a declared bounded use | `E.17` and `E.24.PUB` |
 | publication form | the arrangement, notation, or rendering convention that expresses the selected episteme edition for that publication use | `E.17` and `E.24.PUB` |
 | `U.PresentationCarrier` | the exact physical or digital carrier that bears the publication form | `E.17` and `E.24.PUB` |
-| mathematical representation | a C.29 representation used for an explicit modeling or reasoning purpose | `C.29` |
+| mathematical representation | a mathematical representation used for the stated modeling or reasoning purpose | the applicable mathematical or representation pattern; `C.29` only for an unresolved mathematical-lens question |
 
 This reference table keeps the neighboring objects and relations visible after the application method. Ordinary prose names only the current object and its direct relation. A sentence such as “Model M concerns Pump P under Scheme S” is sufficient until another use needs explicit empirical grounding, a classification assertion, occurrence identity, edition continuity, publication, or representation correspondence.
 
@@ -42418,7 +42664,6 @@ For a description use, keep these values recoverable:
 | `claimScopeRef`, when current | designation of the exact `U.ClaimScope` under A.2.6 | claim-use qualifier |
 | `modelUseStructureRef`, when current | designation of one independently selected `BoundedModelUseStructure : U.Structure` | optional interpretation qualifier, not a context root |
 
-When a filled card used to describe the entity has recoverable claim content, EntityOfConcern, and effective reference scheme, it is one episteme carrying these values. Its reusable layout can be a publication form, and the exact sheet or file that bears that layout can be a `U.PresentationCarrier`. The episteme, form, and carrier are not direct relation occurrences, and none makes a viewpoint, scope, or model-use relation obtain.
 
 Use `E.10.D2` to keep the EntityOfConcern, its Description episteme, and specification use distinct. A Description episteme is admitted for specification use only when its claims are checkable and a named harness or validation relation can test them. Preserve or update a selected viewpoint only for the named describing use whose reliance depends on it. The suffix `Spec`, formal notation, approval appearance, or publication in a repository does not grant that use.
 
@@ -42461,7 +42706,7 @@ Use A.20 only when the proposition is an internal constraint, A.10 only when an 
 
 A system may perform exact retargeting work. Identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted episteme, and actual change facts separately. The arrow itself performs no work, and the mathematical statement `r : X -> Y` infers no bare result or universal production relation.
 
-Examples include retargeting from an episteme about a physical cabinet to one about a selected functional `U.Structure`, or from observations to a learned model, when the independently identified source and receiving entities really differ. For `Cab-7` as the cabinet and `Route-A` as the selected functional structure, an independently stated behaviour-test result can supply q's current-case basis; the judgement is `satisfies` only when that result meets q's named conditions. The source expression `Realises(Cab-7, Route-A)` has no current direct relation governor here and therefore stops at A.6.RCD `missing-governor`; it contributes nothing to that judgement. A Fourier representation change is not automatically retargeting: use C.29 first to decide whether the signal remains the EntityOfConcern and only its representation changes. This test prevents mathematical notation from deciding ontology.
+Examples include retargeting from an episteme about a physical cabinet to one about a selected functional `U.Structure`, or from observations to a learned model, when the independently identified source and receiving entities really differ. For `Cab-7` as the cabinet and `Route-A` as the selected functional structure, an independently stated behaviour-test result can supply q's current-case basis; the judgement is `satisfies` only when that result meets q's named conditions. The source expression `Realises(Cab-7, Route-A)` has no current direct relation governor here and therefore stops at A.6.RCD `missing-governor`; it contributes nothing to that judgement. For a Fourier representation change, identify the endpoint subjects under C.2.1. If the same signal remains the EntityOfConcern, use A.6.3.RT or the applicable representation-transition pattern. Use C.29 when a mathematical-lens choice, transfer or reliance question remains.
 
 ### C.2.1:8 - Multi-view description and publication  *(normative)*
 
@@ -42481,19 +42726,21 @@ These cases ground the pattern in practice; only a case that names an obtaining 
 
 #### C.2.1:9.1 - Physical engineering
 
-A pump-maintenance specification has a claim graph about exact pump `P` under a reference scheme that resolves part names, states, units, and measurement procedures. Those three participants identify the episteme. For test bench `B`, exact covered claim subgraph `C_B` contains the discharge-pressure-tolerance and leakage claims. Its claim-to-world mapping names the direct pressure-measurement and leakage-inspection relations involving `B`; a maintenance-interval claim outside `C_B` is not grounded by those measurements. The grounding relation over `(E,B)`, with `covered=C_B`, continues for the maximal interval during which every required mapping obtains. If that coverage continues while an evidence archive or inspection-work log becomes unavailable, only a separately governed support, warrant, confidence, or evidence-use assertion may change. A publication occurrence makes the episteme available through a rendered checklist form borne by an exact carrier. For each maintenance or inspection Work recorded by checklist marks, use A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently. If the checklist account must also identify the assignment under which that Work was performed, check that relation separately through F.6. A separately current assertion that `P` satisfies the constructive `U.System` criterion is another episteme about `P`; renaming or republishing the governing FPF pattern does not change `P` or create its systemhood.
+A pump-maintenance specification has a claim graph about exact pump `P` under a reference scheme that resolves part names, states, units, and measurement procedures. Those three participants identify the episteme. For test bench `B`, exact covered claim subgraph `C_B` contains the discharge-pressure-tolerance and leakage claims. Its claim-to-world mapping names the direct pressure-measurement and leakage-inspection relations involving `B`; a maintenance-interval claim outside `C_B` is not grounded by those measurements. The grounding relation over `(E,B)`, with `covered=C_B`, continues for the maximal interval during which every required mapping obtains. If that coverage continues while an evidence archive or inspection-work log becomes unavailable, only a separately governed support, warrant, confidence, or evidence-use assertion may change. A publication occurrence makes the episteme available through a rendered checklist form borne by an exact carrier. When checklist marks assert particular maintenance or inspection Work, use :4.0's Work branch; assignment attribution is added only when the checklist account requires it. A separately current assertion that `P` satisfies the constructive `U.System` criterion is another episteme about `P`; renaming or republishing the governing FPF pattern does not change `P` or create its systemhood.
 
 The classification assertion changes only when its own claim content or reference scheme changes. Pump continuity is judged instead under the `A.1` reidentification rule; a changed or unchanged assertion does not establish that continuity.
 
 #### C.2.1:9.2 - Medicine
 
-A diagnostic model concerns one patient-state entity or one admitted patient cohort under a scheme that defines observations, measurements, and diagnostic interpretations. For each precise clinical Work claim, use A.13 to identify the actual performer and A.15.1 to admit the dated occurrence independently. If the clinical account must also identify the assignment under which the Work was performed, check that relation separately through F.6. The assignment neither participates in nor performs the Work, and a failed check leaves Work intact. Neither the Systems nor assignments are absorbed into the model's EntityOfConcern. Each `EpistemeEmpiricalGroundingRelation` identifies the exact covered diagnostic-claim subgraph, grounding holon, mapping to the required current observation, measurement, or test relations, and maximal continuous interval of complete coverage; it grounds no unlisted claim. If a threshold revision changes claim content or the effective reference scheme, that changed discriminator identifies another episteme; moving the unchanged model to another screen changes only the exact publication or representation object that actually changed.
+A diagnostic model concerns one patient-state entity or one admitted patient cohort under a scheme that defines observations, measurements, and diagnostic interpretations. Each `EpistemeEmpiricalGroundingRelation` identifies the exact covered diagnostic-claim subgraph, grounding holon, mapping to the required current observation, measurement, or test relations, and maximal continuous interval of complete coverage; it grounds no unlisted claim. If a threshold revision changes claim content or the effective reference scheme, that changed discriminator identifies another episteme; moving the unchanged model to another screen changes only the exact publication or representation object that actually changed.
 
 #### C.2.1:9.3 - Competence claims, teaching Work, and learner-facing views
 
-When claim-bearing *learning*, *teaching*, *taught*, or *learned* wording still hides the changed subject or returned result, use `E.10.LRN` first and return each recovered claim to its direct pattern. A curriculum model concerns an exact competence structure under a scheme that relates exact assessment or performance evidence to competence claims. Teaching, coaching, practice-support, assessment, and learner inquiry may designate different Methods or dated Work occurrences. Recover those objects separately; none is the competence structure or the holder's capability. “Was taught” foregrounds an intervention received, while “learned to perform X” ordinarily foregrounds a capability claim and leaves teacher, self-directed inquiry, practice, tools, peers, and environment underdetermined. One exact admitted course-cohort holon or one exact admitted learning-environment holon may participate in a separate grounding occurrence without becoming the competence structure.
+A curriculum model concerns an exact competence structure under a scheme that relates assessment or performance evidence to competence claims. If *taught* or *learned* wording leaves the changed subject or result unclear, use `E.10.LRN` to recover the claim first: receiving an intervention and acquiring a capability call for different evidence.
 
-A learner-facing episteme is a `U.View` when it conforms to an exact learner-facing viewpoint under `E.17.0`. If it was constructed from the source curriculum-model episteme, use `A.6.3` to state that separate viewing relation. For lesson-session or receiving-episteme authoring or construction Work, use A.13 to identify each actual performer and A.15.1 to admit each dated occurrence independently. If an account must also identify the assignment under which that Work was performed, check it separately through F.6. A lesson, public construction, recalled text, score, or observed performance has only the result established by its direct result pattern. If a later claim relies on that result, use `A.10` separately to classify the named bounded reliance; none of those items by itself establishes authorship, capability, transfer, or retention. None is required merely to identify the learner-facing episteme from its claims, exact subject, and effective scheme.
+A learner-facing episteme is a `U.View` when it conforms to an exact learner-facing viewpoint under `E.17.0`. If its construction from the source curriculum model matters to the account, `A.6.3` supplies that viewing relation. Changing the selected competence claims changes the receiving episteme; changing only its display preserves it.
+
+If empirical grounding is needed, name the covered competence claims and their mappings to the relevant assessment or performance relations involving an exact admitted course-cohort or learning-environment holon, as required by :4.3. A later capability, transfer or retention claim uses `A.10` for its bounded reliance on the relevant result. If particular teaching, assessment or construction Work must be asserted, open :4.0's Work branch. The identity-only use finishes with the model's claims, exact subject and effective scheme.
 
 #### C.2.1:9.4 - Episteme about an episteme
 
@@ -42508,23 +42755,35 @@ Episteme `E1` is the exact source used to produce candidate edition `E2`. The ap
 If the same Work instead retargets the claims to another EntityOfConcern, translates them under a rule that the policy classifies as a derivative, or reconstructs similar content without using E1 as source, the edition predicate fails even when the Method is named “revision.” Work, Method, provenance, change facts, evaluation, and evidence remain outside the two-participant relation. Later repackaging or publication establishes neither another episteme nor edition continuity.
 
 #### C.2.1:9.6 - Grounded identity across two observations
-A morning-observation episteme concerns observed object `M` under one reference scheme; an evening-observation episteme concerns observed object `E` under another. The exact direct identity or reidentification pattern for the observed entity must define the predicate and identity rule. The physically testable trajectory and observations supply the current case facts; they may satisfy or fail that predicate but the pattern itself establishes neither result. A separate identity-assertion episteme states affirmative or negative polarity, and exact evaluation or evidence-use relations make supported, refuted, or unresolved reliance inspectable. Only after positive case facts satisfy the predicate may its identity rule individuate an occurrence for designation. If no current direct governor is recoverable, keep reliance unresolved and return an exact missing-relation blocker naming `M`, `E`, the required predicate and use, and the missing governor. Even after both designations resolve to the same exact entity, the two observation epistemes need not merge: their claim graphs or effective reference schemes can keep their C.2.1 identities different. A shared label or grounding holon alone establishes neither world-side identity nor episteme identity.
+A morning-observation episteme concerns an object designated `M`; an evening-observation episteme concerns an object designated `E` under another reference scheme. To decide whether the observations concern the same continuing object, recover the domain's criterion for that continuation and use its motion and observation account to construct and test the connection. State the identification with the premises and evidence that support it. When the observations leave competing connections possible, retain that ambiguity; when they fit none of the proposed connections, reconsider the observations or model. The finite case below supplies its continuation, motion and observation premises explicitly.
+
+The two observation epistemes can retain different identities after the object is identified: they can make different time-indexed claims or use different reference schemes. C.2.1:4.2.3 permits the identifying claim in ordinary language. If a later use needs a separately designated relation occurrence, apply A.6.REL with the direct relation pattern's obtaining predicate and occurrence-identity rule. A missing relation definition then blocks that occurrence-dependent use. It does not erase a conditional identification already established under stated premises; an unspecified object-continuation criterion, by contrast, leaves the identification itself unresolved.
+
+**Construct a bounded identifying result.** Consider two persistent point objects whose motion is modeled independently on one axis; paths may cross. Each object is observed exactly once at each end of a one-second interval, with exact positions expressed in one common coordinate frame. Initially object A is at 0 cm and B at 10 cm. The later observations R and S are at 1 cm and 9 cm. The motion account bounds speed by 2 cm/s, so each object's displacement is at most 2 cm.
+
+There are two complete associations. A–R with B–S requires displacements of 1 cm each and is admissible; straight paths supply a joint realization. A–S with B–R requires 9 cm each and fails the bound. Under these premises, R is the later observation of A, and S of B. The earlier and later observation claims concern the same respective objects while retaining their different time-indexed content.
+
+Change the speed bound to 10 cm/s. Both associations now have admissible straight-path realizations. The observations leave the correspondence unresolved; a further discriminating observation or motion constraint is needed.
+
+In [Rodin's astronomical reconstruction](https://philsci-archive.pitt.edu/12116/1/vh.pdf), the connecting trajectory is supplied through theory and observations. In the HoTT reconstruction, MS and ES are represented as terms of a point-object type Pt; `p : MS =_Pt ES` expresses the identifying construction as a term of their identity type.
 
 #### C.2.1:9.7 - Readable wiring diagram as a proxy
 
-Wiring-model episteme `E1` concerns exact harness `H` under reference scheme `S1`, which resolves connector designators, pin identities, and connection predicates. A system performs exact diagram-redrawing work; any operation application, binding, or declared result position is governed separately by A.6.1. If only layout changes in a C.29 wiring-diagram representation, identify the exact representation transition and preserved connector, pin, and connection correspondence; `E1` remains the same. If instead only an exact publication form, carrier, or rendering changes, identify that E.17/E.24.PUB object and relation; `E1` again remains the same. If a connection claim is omitted or the legend changes the effective reference scheme, the changed claim graph or scheme identifies episteme `E2`. These three branches are settled by the changed object and C.2.1 discriminators; diagram-redrawing work and an A.6.1 result position establish none of them by themselves.
+Wiring-model episteme `E1` concerns exact harness `H` under reference scheme `S1`, which resolves connector designators, pin identities, and connection predicates. If only layout changes in a wiring-diagram representation, identify the exact representation transition and preserved connector, pin, and connection correspondence; `E1` remains the same. If instead only an exact publication form, carrier, or rendering changes, identify that E.17/E.24.PUB object and relation; `E1` again remains the same. If a connection claim is removed from `E1`'s ClaimGraph or the legend changes the effective reference scheme, the changed claim content or scheme identifies episteme `E2`.
 
-For the `C.29` lens-use statement, the target phenomenon is the connectivity of `H`; the candidate mathematical object is the wiring-diagram representation under its stated diagram scheme; the mapping resolves connector marks and pin marks to the independently identified connectors and pins. A layout-only transition preserves connector identity, pin identity, and connection predicates. An omitted connection loses one predicate, while a changed legend loses the earlier mark-to-connector reference. The diagram remains admissible for maintenance diagnosis only while the connections on which that diagnosis depends are preserved and recoverable; stop that use or return to the source relation structure when they are not. This representation statement does not prove that the diagram is the harness, that visual similarity preserves claims, or that a higher readability score preserves episteme identity.
+The wiring-diagram representation under its stated diagram scheme represents the connectivity of `H`; its mapping resolves connector marks and pin marks to the independently identified connectors and pins. A layout-only transition preserves connector identity, pin identity, and connection predicates. If the diagram omits a connection that remains in `E1`'s ClaimGraph, that representation loses one connection predicate. If a revised legend no longer resolves an earlier mark to its connector, that mark-to-connector reference is lost. The diagram remains admissible for maintenance diagnosis only while the connections on which that diagnosis depends are preserved and recoverable; stop that use or return to the source relation structure when they are not.
 
-A readability score can therefore improve while diagnosable connectivity becomes worse. When that score is used as the practical value, apply `E.13`: name the intended diagnostic value, the readability proxy, and what became worse. Use `C.29` and `A.6.3.RT` for the representation transition and its preserved or lost structure; under the C.2.1 identity rule, a changed claim graph or effective reference scheme identifies another episteme.
+A readability score can improve while the diagram makes the connections needed for diagnosis harder to recover. When that score is used as the practical value, apply `E.13`: name the intended diagnostic value, the readability proxy, and what became worse. Use the representation branch in :4.0 for the transition and its preserved or lost structure.
 
 #### C.2.1:9.8 - Trained or probe-derived representation and tool-using inference
 
-When *learned representation* is load-bearing and its subject is not already explicit, use `E.10.LRN` to separate training Work, trained model edition, system-side phenomenon, probe-training Work, decoded rendering, representation relation, and any later inference or capability claim. For any asserted inference or tool-call Work, use A.13 to identify the actual language-model or tool-using performer and A.15.1 to admit the dated occurrence independently. Add F.6 only if the account must also identify the assignment under which that Work was performed. That Work is not the earlier model-training occurrence or the resulting trained model.
+A distributed activation pattern observed during inference is a system-side phenomenon. A trained probe or decoded rendering can represent it for a declared use under `C.29` and `A.6.3.RT`. To identify a probe report as an episteme, recover what it claims about that exact phenomenon and the interpretation scheme that gives those claims meaning. Decodability or a readable label alone leaves that identity question unanswered. Use `E.10.LRN` when *learned representation* still leaves the subject or result unclear.
 
-First recover a distributed activation pattern as an exact system-side phenomenon observed during the inference Work. A probe's trained decoder or decoded rendering may represent that phenomenon for a declared use under `C.29` and `A.6.3.RT`; causal influence, decodability, or a readable label does not by itself make the activation pattern or its representation a `U.Episteme`. A probe result or decoded rendering is admitted as an episteme only when recoverable claim content concerns an exact EntityOfConcern under an effective reference scheme. Training loss, probe accuracy, recovered claim content, tool-use success, and deployed-system capability remain different results with different evidence.
+For a claim about particular inference or tool-call Work, open :4.0's Work branch. If a trace participates at an exact `A.6.1` result position, state that binding. When the trace carries claims about the call, identify its episteme through those claims, that Work as subject, and the effective scheme. A question about when the trace first existed separately opens :4.9.
 
-Keep the other entities and claims separate through their exact direct relations. A tool-call trace may fill an exact A.6.1 result position or another declared participant position for the call work. If a receiving claim additionally asks when that trace first existed, apply the shared 4.9 boundary; otherwise its result position and work history add no inception claim. If the trace itself carries claims about that work, it may also be identified as another episteme through the C.2.1 triple. An answer entity identified at an exact declared result position and a separately identified evaluation-report episteme can have different kinds and EntitiesOfConcern; neither is a generic work result by wording alone. Tool availability, a successful call, or a high evaluation score establishes neither claim truth nor empirical grounding. When tool integration changes or degrades reasoning, locate the change in the enacted method, inference work, call work, operation binding, representation use, evidence relation, or empirical-grounding occurrence. Reidentify an episteme only when its claim content, EntityOfConcern, or effective reference scheme changed.
+An answer may carry a proposed solution, while an evaluation report states whether it passes a named test. To rely on the solution, inspect the support relevant to its claim; to assert empirical grounding, test :4.3's exact covered-claim mappings. A successful call or score does not supply those mappings.
+
+When a changed tool regime changes inference behavior, locate the changed method, Work or representation and the evidence used to assess it. Update the grounding occurrence if its coverage predicate changes. Reidentify an episteme only when claim content, EntityOfConcern or effective reference scheme changes.
 
 ### C.2.1:10 - Bias-Annotation  *(informative)*
 
@@ -42568,7 +42827,7 @@ Finally, the pattern has a claim-bearing-holon bias. Decodability alone does not
 | Published-episteme kind | Temporary participation in publication is treated as a second durable episteme kind. | Keep the episteme identity and state the exact publication occurrence; use Plain `published episteme` only for that contingent use. |
 | View as formatting, generation, or publication | A filtered table, diagram, query result, or published face is called a view because of appearance, construction history, or carrier, and a heading or edge is treated as cross-view correspondence. | Identify the receiving episteme under C.2.1 and apply `E.17.0` conformance for `U.View` membership. Add A.6.3 only for an actual source-to-receiving construction. Apply the exact direct subject-relation governor to correspondence; if none is recoverable, return an exact blocker naming the participants, required predicate and use, and missing governor. |
 | Bridge as use verdict | An obtaining Bridge, its predicate profile, or a card is treated as proving that one comparison, translation, publication, or other use is suitable, authorized, or already performed. | Keep the Bridge under F.9. State the proposed use in a separate ordinary C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity; use A.10 for ordinary evidence reliance, B.3 only for an actual named assurance claim, and the direct pattern for any receiving object that actually exists. |
-| Mathematical identity leak | A tuple key or graph node identity becomes episteme identity. | Keep C.29 representation identity separate and use the C.2.1 identity triple. |
+| Mathematical identity leak | A tuple key or graph node identity becomes episteme identity. | Keep representation identity separate and use the C.2.1 identity triple. |
 
 ### C.2.1:13 - Consequences  *(informative)*
 
@@ -42586,25 +42845,23 @@ Separating the episteme from its constitution relation is equally important. The
 
 ### C.2.1:14.1 - SoTA-Echoing
 
-| Source and status | Adopted move | Rejected overread | Practical effect in C.2.1 |
-| --- | --- | --- | --- |
-| [Catarina Dutilh Novaes, *Formal Languages in Logic* (2012)](https://www.cambridge.org/core/books/formal-languages-in-logic/7D1DD805F7B3C70A0C32F2F6A66BE3DD), conceptual lineage | Treat a formal language as a cognitive tool whose notation and admissible operations affect reasoning. | A notation, calculus, or formal-language file does not thereby identify the episteme or its EntityOfConcern. | The semantic-triangle case keeps the effective reference scheme and C.29 representation operations explicit while episteme identity remains independently governed. |
-| [Sybille Krämer, "Why notational iconicity is a form of operational iconicity" (2017)](https://benjamins.com/catalog/ill.15.17kra), diagrammatic-reasoning lineage | Preserve the operational consequences of spatial and material notation. | Visual arrangement does not make diagram elements actual relation participants and does not prove that a view preserves source claims. | The wiring-diagram and view cases use an explicit representation correspondence or viewing relation rather than relying on visual similarity. |
-| [Lambros Malafouris, *People Are STRANGE* (2026)](https://mitpress.mit.edu/9780262553902/people-are-strange/), current continuation of Material Engagement Theory | Use changing boundaries under material engagement as pressure on grounding: when an engagement changes what can be inspected or inferred, FPF still identifies the exact holon in the current grounding occurrence. | A material setting, carrier, or tool is not automatically the episteme's EntityOfConcern or grounding holon. | The pump and learning cases name one exact grounding holon and the direct grounding relation structure instead of absorbing the surrounding setting into episteme identity. |
-| [Florio and Linnebo, *Introduction to Constructional Ontology* (2024)](https://www.utwente.nl/en/eemcs/fois2024/resources/papers/florio-linnebo-introduction-to-constructional-ontology.pdf) and [Borgo and Righetti, *Towards Applied Constructional Ontology* (2025)](https://doi.org/10.3233/FAIA250480), current constructional-ontology line | Adapt the separation among accepted inputs, the construction by which a whole emerges, and the resulting identity rule as a stress discipline for episteme constitution. | `EpistemeConstitutionRelation` is not imported as a constructor object or work occurrence, and C.2.1 does not import a universal staged ontology. | Sections 4.1 and 4.2 make the exact claim graph, EntityOfConcern, reference scheme, and their constitutive organization explicit in the constitution test; a tuple, card, or carrier cannot substitute for that construction or its identity rule. |
-| [Andrei Rodin, *Venus Homotopically* (2016)](https://philsci-archive.pitt.edu/12116/), constructive identity-grounding lineage | Adapt the use of observations, theoretical background, and a physically testable trajectory to make an identity judgment across different presentations inspectable. | Shared wording, one label, or one grounding referent does not by itself prove identical EntityOfConcern, episteme, or substitutable claim content. | The two-observation case in 9.6 separates the world-side identity assertion from both observation epistemes and keeps their C.2.1 identities independently testable. |
-| [Chris Partridge, *BORO Ontology* (2025)](https://borosolutions.net/boro-ontology), bounded four-dimensional extensional comparator | Use extensional identity as a stress test when a grounding relation can cease and later recur: a demonstrated temporal gap distinguishes the occurrences. | C.2.1 does not import unrestricted composition, collapse work with participating systems, or attribute constructional input identity to BORO. | Section 4.3 uses the maximal continuous grounding interval as the recurrence discriminator, while evidence availability or absence alone neither proves nor disproves a temporal gap. |
-| [W3C PROV-O Recommendation (2013)](https://www.w3.org/TR/prov-o/), stable provenance lineage | Keep an entity, an activity that uses or generates it, and revision or derivation metadata distinct. | `wasRevisionOf`, a provenance edge, or an activity named revision does not establish FPF edition continuity. | `EpistemeEditionRelation` uses provenance and source-use facts only inside the applicable continuity test; the earlier and later epistemes remain its two participants. |
-| [W3C RDF 1.2 Concepts, Candidate Recommendation Snapshot of 7 April 2026](https://www.w3.org/TR/2026/CR-rdf12-concepts-20260407/), current representation standard | Distinguish an asserted triple, an unasserted triple term, and a reifier used for statements about a proposition. | An RDF triple, reifier, graph edge, or annotation is not the direct relation occurrence merely by representation. | The relation-object boundary keeps assertion episteme, relation-occurrence description episteme, graph representation, and direct relation obtaining separate. |
-| [Almeida, Guizzardi, Sales, and Fonseca, *gUFO: A Gentle Foundational Ontology for Semantic Web Knowledge Graphs* (March 2026)](https://arxiv.org/abs/2603.20948), current preprint | Use its typology and reification patterns for relational aspects as a current comparison case when deciding whether an explicit relation pattern is needed. | C.2.1 does not import a universal relator, situation, or graph-reifier ontology; each direct relation pattern defines or constrains its participants, obtaining condition, and occurrence-identity rule. | Constitution, grounding, and edition relations receive separate rules rather than one record-shaped reification scheme. |
-| [Anthropic, *A global workspace in language models* (6 July 2026)](https://www.anthropic.com/research/global-workspace), current primary research summary with linked paper | Recognize that learned internal representations can causally mediate reasoning while remaining distinct from produced text. | A latent activation, probe label, or readable internal trace is not automatically a claim-bearing episteme. | Case 9.8 keeps the observed system-side activation phenomenon, its probe representation, decoded rendering, and any claim-bearing probe episteme distinct; C.2.1 admission still requires recoverable claim content, an exact EntityOfConcern, and an effective reference scheme. |
-| [Cheng et al., *Teaching Thinking Models to Reason with Tools* (May 2026)](https://arxiv.org/abs/2605.06326), current preprint | Keep tool use, reasoning trajectories, evaluation, and their failure modes explicit because tool integration can change or degrade reasoning behavior. | Tool availability, a tool trace, or an evaluation harness does not by itself establish claim truth, grounding, or episteme identity. | Case 9.8 separates enacted inference and call work, the exact work-to-trace relation or A.6.1 binding current in that case, answer and evaluation epistemes, representation use, evidence, and empirical grounding; a changed tool regime reopens only the exact changed objects and relations. |
+**When does grounding cease?** For the pump case in :9.1, a compact record with one evidence-status flag is useful for finding the latest available report. If that flag also defines grounding, an unavailable archive would end the grounding occurrence even while the required measurements continue; an available pressure report could also be mistaken for coverage of the unrelated maintenance-interval claim. The questions about current empirical coverage and its continuity require more information.
 
-These sources discipline different parts of the same working problem; they do not jointly define `U.Episteme`. Constructional ontology disciplines the separation among accepted constituents, constitutive organization, and resulting identity without turning the relation into work. Rodin disciplines evidence-backed identity across different observations, while the bounded BORO comparison stresses temporal recurrence without supplying FPF construction rules. Formal-language and material-engagement work explains why representation and grounding matter. RDF 1.2 remains a representation standard, while gUFO remains an ontology comparator for relational aspects; neither graph terms nor reifiers establish the direct relation occurrence. PROV-O motivates keeping the earlier episteme, revision work, exact source-to-revision use, actual change or local inception claim, and later episteme distinct while C.2.1 keeps only the two epistemes as participants of the edition relation. Current learned-representation and tool-integration research makes the same separations necessary for computational epistemes. In every case, C.2.1 retains the minimum-current-object rule: add only the object and direct relation needed by the receiving use, without collapsing either into the episteme or its carrier.
+Sections :4.3 and :4.8 therefore select explicit covered claims, their mappings and the maximal continuous interval of complete coverage. This costs claim-to-world mapping and continuity evidence when that relation is asserted. It allows the practitioner to keep grounding continuous through an archive outage, withhold reliance when coverage is unknown, and recognize another occurrence after a demonstrated break and restoration. The cheaper evidence-status record remains sufficient for the question of report availability. Reopen the grounding account when a required mapping fails, its covered claims change, or the purported evidence no longer establishes continuity.
+
+**When is a revision an edition of this knowledge object?** [PROV-O, 2013 Recommendation, `wasRevisionOf`](https://www.w3.org/TR/2013/REC-prov-o-20130430/#wasRevisionOf), provides a usable provenance assertion: derivation as a revised version retaining substantial original content. It is economical for exchanging a producer's revision assertion. C.2.1's :9.5 asks the additional domain question of which changes count as continuation of this episteme family. A translation can retain substantial content while that family's policy classifies it as a derivative.
+
+Section :4.5 therefore uses provenance as a case fact and tests an explicit continuity policy over the two episteme identities, source use, preserved features, permitted changes and failure conditions. The cost is recovering the policy and the changed features; the gain is a decision that distinguishes the accepted correction from translation, retargeting or independent reconstruction under the same policy. A trusted revision assertion can be consumed for a use that accepts its producer's criterion. A use requiring the local edition judgment must test the local criterion. Reopen that judgment when the source-use facts, policy or required preserved features change.
+
+**When may observations be identified as concerning the same object?** [Rodin's reconstruction, §§2–7](https://philsci-archive.pitt.edu/12116/1/vh.pdf), makes a theoretically supported connection between observations part of the identifying construction. Section :9.6 applies that contribution in an authored finite case. The two association candidates require displacements of either 1 cm or 9 cm. The 2 cm/s premise selects one; the 10 cm/s premise admits both.
+
+For this ordinary conditional identification, :4.2.3/:9.6 select the explicit domain criterion, motion premises and discriminating observations. Requiring a separately governed relation occurrence first would add a declaration dependency without changing that calculation. The occurrence account is worth its additional cost when a later assertion must designate that exact occurrence; then `A.6.REL` supplies its predicate and identity requirements. A changed speed bound reopens the identification itself, whereas a missing occurrence rule blocks only the occurrence-dependent use.
+
+These comparisons select different information for different questions. The three identity answers suffice for identifying the episteme; empirical coverage, edition continuity and occurrence designation are added for the respective uses above.
 
 ### C.2.1:15 - Relations  *(overview)*
 
-- **Builds on:** `A.1` for holon recognition, `A.6.REL` for direct relation occurrences, `A.6.0` for independent same-individual `U.Signature` membership and relation-facing `RelationSignature` use, `A.6.5` for declaration-local SlotSpecs and participant designations, `A.7` for entity-description distinction, and `C.29` for mathematical representation.
+- **Builds on:** `A.1` for holon recognition, `A.6.REL` for direct relation occurrences, `A.6.0` for independent same-individual `U.Signature` membership and relation-facing `RelationSignature` use, `A.6.5` for declaration-local SlotSpecs and participant designations, `A.7` for entity-description distinction, and `C.29` for mathematical-lens use.
 - **Coordinates with:** `A.3.2` for `U.MethodDescription` membership without a second episteme identity; `C.3.2` for local-kind membership judgments; `E.24.UK` for ontology-level U-kind admission; `E.10.D2` for Description and specification-use discipline, including selection that creates neither conformance nor membership; `A.6.1` for typed operation positions and exact current application bindings; `A.6.2`, `A.6.3`, and `A.6.4` for morphing, source-to-receiving viewing construction, and retargeting; `A.6.3.RT` for representation transitions; `E.17.0` for conformance of fixed E to fixed P and `U.View` membership; `C.13` and `A.22` for separately current multi-view collections and structures; the pattern for the exact direct subject relation, or an exact missing-relation blocker naming the participants, required predicate, use, and missing defining or constraining pattern; `F.9` for exact Bridge semantics when a claim concerns a bounded cross-context use; `E.13` when a visible representation-quality proxy is used as practical epistemic value; `A.2.6` for claim scope; `A.1.1` for bounded model-use structure; `A.10` and `B.3` for evidence and assurance; `A.14` only when a phase or separately selected edition collection is current; `C.2.P`, `A.3.1`, and `A.3.4` when source use, revision method, or actual change is current in edition-continuity evaluation; C.2.1:4.9 only when a local claim separately asks when a new entity began; `E.17` for multi-view publication forms and uses; `E.24.PUB` for publication occurrences, forms, and carriers; and `G.11` for currentness.
 - **Used by:** every pattern that identifies, describes, classifies through an explicit assertion, compares, grounds, transforms, views, publishes, or refers to a `U.Episteme`.
 
@@ -47247,7 +47504,7 @@ If that first output still cannot be stated, the local comparison is unfinished 
 
 **When advice still hides the decision.** Use `C.11.DUA` when a recommendation or evidence demand still needs its receiving question, demanded work or requirement merits recovered. Return here when a current chooser and options support a local choice. An already adequate choice uses this pattern directly.
 
-**Typical reroutes.** `C.38` when labels or fragments still need to become complete ways of obtaining the same result; `C.18` when the real question is open-ended invention or reframing; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice; `A.18` for Scale and Coordinate bindings or `A.19` for a declared CharacteristicSpace or reusable predicate when that support question itself becomes primary.
+**Typical reroutes.** `C.38` when labels or fragments still need to become complete ways of obtaining the same result; `C.39` when a way to obtain the result still needs explanation; `C.40` when usable material needs feasible variation and examination; `C.18` when generation-account or archive/front claims are needed; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice; `A.18` for Scale and Coordinate bindings or `A.19` for a declared CharacteristicSpace or reusable predicate when that support question itself becomes primary.
 
 **Common neighboring-pattern mistakes.** Do not use `C.11` to hide search work inside "decision", to hide candidate-pool policy inside one local choice, or to hide execution planning inside one generic rationality account. Do not treat declaring selector-facing set-result content, or later making that result available, as if either were the same question as deciding.
 
@@ -47273,7 +47530,7 @@ Without one explicit place for choice calculus, search, candidate-pool policy, a
 
 | Force | Tension |
 | --- | --- |
-| Choice doctrine versus candidate formation and generation | `C.11` must govern choice among already-available options without swallowing `C.38` formation of complete ways or `C.18` open-ended search and generation. |
+| Choice doctrine versus candidate formation and generation | `C.11` must govern choice among already-available options without taking over their formation or development. |
 | Evidential, causal, and subjunctive dependence | The pattern must stay usable with classical decision language while making room for causal and success-first repairs where correlation is not enough. |
 | Decide now versus probe more | The chooser may need to stop and choose now, or spend more effort on information and computation first. The theory must make that trade legible. |
 | Decision subject versus narrower agent language | The chooser may be one person, one team, one organization, or another collectivity-bearing system. The pattern must not silently force all cases into one narrow `Agent` reading. |
@@ -47315,7 +47572,7 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 
 2. **Freeze the current option set.**
    State the already-available options being compared now as one `OptionSet`.
-   If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. If the hard work is open-ended invention, expansion, or reframing, apply `C.18`.
+   If the rows are only labels or fragments and the question is several complete ways to obtain the same result, stop here and apply `C.38`. Use `C.39` when a way to obtain the result still needs explanation, or `C.40` when usable material needs feasible variation and examination. Use `C.18` when generation-account or archive/front claims are needed.
 
 3. **Make the comparison basis explicit.**
    State one `PreferenceOrder` or one `EvaluativeMeasure`, plus one `BeliefState` and one `OutcomeModel`.
@@ -47475,7 +47732,9 @@ The comparison should close as `probe again` only when all of the following are 
 The comparison should close as `reroute` when the record shows that the decision question has changed:
 
 - to `C.38` when labels or fragments must first become complete-enough ways of obtaining the same result;
-- to `C.18` when the option set itself is under open-ended invention or reframing;
+- to `C.39` when a way to obtain the result still needs explanation;
+- to `C.40` when usable material needs feasible variation and examination;
+- to `C.18` when the question concerns the generation account or archive/front stewardship;
 - to `C.19` when the question is now how broadly to keep exploring or exploiting one candidate pool;
 - to `C.24` when one choice result already exists and the next task is now sequencing, enactment, or execution-path probe work;
 - to `G.5` when the next task is declaring or naming selector-facing selected-set content; when that result already exists, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and audience availability.
@@ -47617,7 +47876,7 @@ Use `C.11` while the question remains: from this current `OptionSet`, what shoul
 Reroute immediately when the question changes:
 
 - If the current rows are labels or fragments and the hard question is how several complete ways could obtain the same result, leave this pattern and work in `C.38` first.
-- If the hard question is still what options should exist at all, or whether the current option set needs open-ended expansion or reframing, leave this pattern and work in `C.18` first.
+- If a way to obtain the result still needs explanation, use `C.39`. If usable material needs feasible variation and examination, use `C.40`. Use `C.18` when the question concerns the generation account or archive/front stewardship.
 - If the options already exist but the question is how broadly to keep exploring or exploiting the candidate pool, leave this pattern and work in `C.19`, where the next useful output is one explicit pool-policy result rather than one local `ChoiceResult`.
 - If one option is already chosen and the question is how to sequence, budget, or enact that choice, leave this pattern and work in `C.24`, where the next useful output is one enactment-facing call plan or `CheckpointReturn`.
 - If the question has shifted from deciding to declaring or naming selector-facing selected-set content, leave this pattern and work in `G.5`. Its next useful output may be a `Shortlist` or `RankedShortlist` when alternatives remain for later choice, a `JointUseSet` when every named member is included for one bounded use, a narrowed handoff, abstain, or escalation. None is one more local `ChoiceResult`. If that result already exists and the current question is presentation or availability to an audience, use `E.17` for the source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
@@ -47747,7 +48006,7 @@ If those conditions are still missing, the pattern has not yet answered the choi
 
 **Show.** A finished result here should therefore read like one decision record, not one research-theory aside: "Team-level chooser; three current plans; risk reduction preferred; calibration uncertainty still live; one extra calibration run remains feasible and could still overturn the current ranking; its expected gain justifies `CostToProbe`, including the one-day delay; `ChoiceResult = probe again with calibration run`." Or, after that probe is no longer worth doing: "`ChoiceResult = choose plan B now because the remaining calibration gain no longer justifies one more day of delay`."
 
-**Show.** `C.38` is the place for turning labels or fragments into complete ways of obtaining one result, `C.18` is the place for open-ended invention of new plans, `C.19` is the place for broader exploration policy over the plan pool, and `C.24` is the place for the run sheet and execution order after the choice is made.
+**Show.** Use `C.38` if the team must turn labels or fragments into complete ways of obtaining one result. Use `C.39` if a plan still lacks an explanation of how to obtain that result, or `C.40` if the team can vary a plan and needs to examine the difference. Use `C.18` when the team needs a generation account or archive/front claim; `C.19` for exploration policy over the plan pool; and `C.24` for the run sheet and execution order after choice.
 
 #### C.11:5.2 - Episteme grounding
 
@@ -47793,9 +48052,9 @@ The family map also remains plural: causal, success-first, active-inference, and
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| `CC-C11.1` | The pattern **SHALL** state that `C.11` governs choice among already-available options rather than formation of comparable ways or open-ended candidate generation. | Keeps `C.38` and `C.18` outside and prevents candidate-construction or search takeover. |
+| `CC-C11.1` | The pattern **SHALL** state that `C.11` governs choice among already-available options rather than formation of comparable ways or open-ended candidate generation. | Keeps candidate construction and development outside local choice. |
 | `CC-C11.2` | The pattern **SHALL** keep `DecisionSubject` as the default chooser term, and **SHALL NOT** use `Agent` as the generic chooser term unless one explicit agency claim is governed by `A.13`; measured characteristic and evidence claims use `A.17` for Characteristic identity and arity, `A.18` for Scale and Coordinate bindings, `A.19` for the declared space and reusable predicate, `C.16` for the measurement account, and `A.10` for bounded reliance on the evidence. | Prevents unwanted narrowing of the chooser. |
-| `CC-C11.3` | The pattern **SHALL** state the boundary among `C.11`, `C.38`, `C.18`, `C.19`, `C.24`, and `G.5` explicitly in the body. | Prevents collapse of choice doctrine, same-result way formation, open-ended generation, candidate-pool policy, planning, and selector-facing result declaration. |
+| `CC-C11.3` | The pattern **SHALL** state the boundary among `C.11`, `C.38`, `C.39`, `C.40`, `C.18`, `C.19`, `C.24`, and `G.5` explicitly in the body. | Separates choice from candidate construction and development, the generation or archive/front account, pool policy, planning, and selector-facing result declaration. |
 | `CC-C11.4` | `Solution` **SHALL** state one inspectable decision procedure from `DecisionSubject` and `OptionSet` through comparison basis, dependence layer, applicable probe-worthiness test, one explicit `ChoiceRule`, and one emitted `ChoiceResult`. | Keeps `C.11` as one operational answer to the choice question rather than one survey of schools. |
 | `CC-C11.5` | The pattern **SHALL** name one minimal decision inventory including `DecisionSubject`, `DecisionSubjectGranularity`, `OptionSet`, `PreferenceOrder`, `EvaluativeMeasure`, `BeliefState`, `OutcomeModel`, `ChoiceRule`, `ChoiceResult`, `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation`. | Keeps the calculus objectual rather than slogan-like. |
 | `CC-C11.6` | Load-bearing inventory terms used in the pattern text **SHALL** receive local plain glosses or equivalent operational clarification inside the body. | Prevents the core terminology from remaining implicit or displaced into outside basis carriers. |
@@ -47815,7 +48074,7 @@ One quick usability test helps here: if the closing line does not state one lawf
 
 | Anti-pattern | Symptom | Why it fails | How to avoid / repair |
 | --- | --- | --- | --- |
-| Candidate-formation or search takeover | The text starts constructing complete ways or generating options as if that work were already part of decision doctrine. | `C.11` loses its decision-theory EntityOfConcern and silently absorbs `C.38` or `C.18`. | State the option set as already existing; use `C.38` for same-result way formation and `C.18` for open-ended generation. |
+| Candidate-formation or search takeover | The text starts constructing complete ways or generating options as if that work were already part of decision doctrine. | The choice rule has no stable option set to compare. | State the existing option set. Use `C.38` for same-result way formation, `C.39` for a missing explanation of how to obtain the result, or `C.40` for feasible variation and examination. Add `C.18` when a generation account or archive/front claim is needed. |
 | Policy collapse | Exploration or exploitation governance over a candidate pool is written as if it were identical with choosing among current options. | Choice doctrine and candidate-pool policy become indistinguishable. | `C.19` remains explicit as the neighboring pattern for selection policy and exploration governance. |
 | Planning collapse | Sequencing, replanning, and enactment budgeting are written as if they were already part of the choice calculus. | Planning-side question moves out of `C.24` by accident. | Execution order and operational budgeting remain in `C.24`, even when `C.11` says more probing is rational. |
 | Inventory without decision rule | The current comparison names many objects and schools but never shows how to move from a live option set through one `ChoiceRule` to one `ChoiceResult`. | The pattern becomes one cleaned-up survey rather than one decision discipline. | State one explicit decision-record shape: chooser, option set, comparison basis, dependence layer, applicable probe-worthiness test, one explicit doctrine, and one emitted result. |
@@ -47890,7 +48149,8 @@ Worked-slice discipline from these rows:
 ### C.11:12 - Relations
 
 - **Builds on:** `A.6.P`, `A.6.5`, `A.10`, `A.13`, `A.18`, `A.19`; **coordinates with:** `E.10.LRN` for learning-word recovery, `C.11.CRC` for a missing finite configuration-relative comparison claim, `C.17` for bounded characterization
-- **Read next when this question leaves local choice:** `C.38` for forming complete ways of obtaining one result, `C.18` for open-ended candidate generation and reframing, `C.19` for one explicit pool-policy result over exploration or exploitation governance, `C.24` for one enactment-facing call plan or `CheckpointReturn`, `G.5` for the selector-facing result kind that is actually current—retained alternatives, all-member joint use, narrowed handoff, abstain, or escalation—and `C.28` when the choice result depends on causal-use support
+- **Read next when candidate work is needed:** `C.38` for forming complete ways of obtaining one result, `C.39` for a missing explanation of how to obtain it, or `C.40` for feasible variation and examination of usable material. Use `C.18` when generation-account or archive/front claims are needed.
+- **Other neighboring questions:** `C.19` for one explicit pool-policy result over exploration or exploitation governance; `C.24` for one enactment-facing call plan or `CheckpointReturn`; `G.5` for the selector-facing result kind that is actually current—retained alternatives, all-member joint use, narrowed handoff, abstain, or escalation; and `C.28` when the choice result depends on causal-use support
 - **Keeps outside:** candidate generation, pool-wide exploration or exploitation policy, selector-facing set-result declaration, publication availability, and execution sequencing
 - **Aligns with:** classical evidential decision theory, causal decision theory, success-first or subjunctive repair, bounded-resource metareasoning and probe-cost doctrine, `C.28` causal-use question/rung/support vocabulary, active-inference-adjacent decision work, quantum-like contextual repair where context or order effects are real, and multilevel mathematical-lens pressure at the minimal-floor level only
 
@@ -47903,7 +48163,7 @@ Decision repair sequence:
 1. State the current `DecisionSubject`, `OptionSet`, comparison basis, and `ChoiceRule`.
 2. Ask whether the apparent QL issue changes the local choice result: choose now, reject current set, probe again, or reroute.
 3. If the issue is question order, incompatible questions, response-replicability tension, non-shared comparison frames, or CbD-style variable identity / joint-availability trouble inside the current option set, keep the QL repair inside C.11.
-4. If the current option set itself is suspect, incomplete, generated by the wrong frame, or still needs expansion/reframing/search, leave C.11. Use `C.18` for option generation, reframing, and archive/front stewardship; `C.19` for live-pool policy; `A.19` for the declared CharacteristicSpace or reusable predicate; or `B.5.2` for abductive hypothesis formation, according to the question that needs repair.
+4. If the current option set itself is suspect, incomplete, generated by the wrong frame, or still needs expansion/reframing/search, leave C.11. Use `C.39` for a missing explanation of how to obtain the result or `C.40` for feasible variation and examination of usable material. Use `C.18` when a generation account or archive/front claim is needed; `C.19` for live-pool policy; `A.19` for the declared CharacteristicSpace or reusable predicate; or `B.5.2` for abductive hypothesis formation, according to the question that needs repair.
 5. If the issue changes boundary state, bridge/export faithfulness, coordinated-work evidence, measurement admissibility, or viability envelope, apply the pattern governing that claim.
 6. Emit one `ChoiceResult` and one next question; do not leave the QL branch as a theory label.
 
@@ -47916,7 +48176,7 @@ When the question leaves local choice, apply the subject pattern instead of stre
 | Coordinated work evidences a state no report faithfully carries | `A.15` plus evidence patterns, with `C.26.2` only for the remaining low-recoverability distributed-state reading |
 | Measurement, metric, survey, or score frame changes the represented state | `C.16` plus evidence patterns |
 | Viability envelope, adaptation cost, or boundary-maintenance decision is load-bearing | `C.25` for a quality bundle with several differently typed contributors; `C.26.3` for a multi-characteristic viability envelope under disturbance when a candidate intervention, boundary condition, adaptation cost, or failure mode matters. Add `C.26` for a remaining probe/export/frame/coarsening question only when an exact contextual-model obstruction still changes what may be inferred or done after the ordinary patterns have carried their part. |
-| Current option set is suspect, incomplete, frame-generated, or still being expanded/reframed/searched | Before applying C.11, use `C.18` for option generation, reframing, and archive/front stewardship; `C.19` for live-pool policy; `A.19` for the declared CharacteristicSpace or reusable predicate; or `B.5.2` for abductive hypothesis formation, according to the question that needs repair. |
+| Current option set is suspect, incomplete, frame-generated, or still being expanded/reframed/searched | Use `C.39` for a missing explanation of how to obtain the result or `C.40` for feasible variation and examination of usable material. Use `C.18` when a generation account or archive/front claim is needed; `C.19` for live-pool policy; `A.19` for the declared CharacteristicSpace or reusable predicate; or `B.5.2` for abductive hypothesis formation, according to the question that needs repair. |
 
 Useful outputs:
 
@@ -50576,6 +50836,8 @@ For this example's current question, the field names `C.30` as the next applicab
 
 When loop-engineering practice generates many candidates—for example, agent prompts, harness variants, workflow variants, or framework seeds—use `C.18` to record generation, archive, front, descriptors, telemetry, retained exploration value, lineage, and the next applicable pattern. This does not say that the loop improved. Use `E.23` only when one retained object version is changed and re-evaluated through repeated passes under a declared object-under-improvement evaluation; use `G.9` for parity between variants and `G.5` when a selected-set result must be declared.
 
+When the missing work is to change usable material and examine the resulting variation, `C.40` supplies that development and warranted continuation, with or without an already selected contribution. Its directly accessible coupled problem-and-solution entry, `C.40:4.3`, adds meaningful problem construction and target-tested transfer when those operations are needed. The record below describes generation; filling it does not perform these operations.
+
 ```text
 OpenEndedVariantGenerationRecord@Project:
   problemCardRef?:
@@ -51450,7 +51712,7 @@ Use this pattern when one practical result matters and a relevant method, model,
 
 The first useful move is to name the practical use, result kind, claimed guarantee, constraints, and reuse horizon, then ask whether the next adaptation and application work can reach a useful result within the available budget. This keeps a small, adequate path small while letting repeated or high-consequence use justify richer configuration.
 
-**Not this pattern when.** If candidate material does not yet exist, use `C.18` to generate or reframe it. If the live question is a local choice over an existing option set, `C.11` is the pattern for that choice. If the real blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
+**Not this pattern when.** If an adequate way to obtain the result is still unexplained, use `C.39`. If usable material needs feasible variation and examination, use `C.40`. Use `C.18` when the question concerns the generation account or archive/front stewardship. If the live question is a local choice over an existing option set, use `C.11`. If the blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
 
 The primary working reader is an engineer, method or model selector, or technical lead. That reader position is not a system-role kind or assignment. This pattern is a `U.MethodDescription` episteme whose claims describe one admitted `U.Method`. When an admitted `U.System` performs dated configuration or application `U.Work` using that Method, first recover the performer's A.13 core and independently admit the Work under A.15.1. Add F.6 afterward only when the present use needs precise assignment-bound attribution. Show an assignment identifier, species, participants, and attribution detail only when that use relies on them, attribution is ambiguous, or the source wording must be repaired. The problem-facing result remains with the pattern that defines or tests it.
 
@@ -51494,7 +51756,7 @@ The intended reader may also be the person-system that performs the Work, but re
 
 **One current apparatus.** When one direct-kind apparatus is already selected and still has a credible path to the declared result and guarantee, create no `OptionSet` and no `ChoiceResult`. Compare the smallest next adaptation/configuration work with the useful-result threshold, plan when needed, perform the work, and inspect the result.
 
-**Candidate generation or reframing.** When no adequate current object is available and the live question is to invent, expand, retain, or reframe candidates, use `C.18`. This pattern may supply the declared use and eligibility basis, but candidate-generation work is not a choice result.
+**Candidate generation or reframing.** If no adequate current object is available, use `C.39` to develop a missing explanation of how to obtain the result, or `C.40` to vary usable material and examine the difference. Use `C.18` when generation-account or archive/front claims are needed. The declared use and eligibility basis can guide that work.
 
 **Local choice.** Only when two or more already-available eligible alternatives, or another genuine local-choice question over a live set, are current, use `C.11` for `OptionSet`, `ChoiceRule`, probing, and `ChoiceResult`.
 
@@ -51518,7 +51780,7 @@ These four dispositions form the complete current `C.11` result set. “Configur
 #### C.19.2:4.4 - Perform the bounded application
 
 1. State the practical use, direct result kind, claimed guarantee, constraints, horizon, and current apparatus state.
-2. If one apparatus is already selected, test its credible adaptation path without inventing choice. If candidates are missing, use `C.18` first.
+2. If one apparatus is already selected, test its credible adaptation path without inventing choice. If candidates are missing, use `C.39` for an unexplained way to obtain the result or `C.40` for feasible variation and examination of usable material. Add `C.18` only when a generation account or archive/front claim is needed.
 3. Name available alternatives by their direct kinds and apply the shared eligibility predicate.
 4. For each current path, state the smallest adaptation/configuration work and the useful-result threshold: what must be learned, evidenced, integrated, or reviewed before the path can improve the use.
 5. Compare available time and budget, prior exposure, post-threshold efficiency, transfer, retention, interoperability, downside, reversibility, and expected reuse using values supplied by their subject patterns. Do not compress them into an undeclared scalar.
@@ -51572,7 +51834,7 @@ The main bias is prestige-by-apparatus: richer form, newer tooling, or familiar 
 |---|---|
 | Configure everything because the basis is rich. | Name the useful-result threshold and retain only setup work with expected return. |
 | Invent a rival to make the method look comparative. | Use the one-apparatus path until candidate or choice work is genuinely current. |
-| Call candidate generation a choice. | Use `C.18 for generation/reframing`; let `C.11` operate only on an existing eligible set. |
+| Call candidate generation a choice. | Use `C.39` to explain a missing way or `C.40` to vary and examine usable material; let `C.11` operate on the existing eligible set. Add `C.18` when the generation account or archive/front claim matters. |
 | Treat the apparatus-choice `ChoiceResult` as an application plan or the problem-facing result. | Keep selected object, plan, dated work, application note, and domain result separate. |
 | Let a `U.MethodDescription` episteme, its described Method, a plan, option row, publication, or reader position perform Work. | State in ordinary language that an admitted System performs dated Work using the Method. Recover its A.13 core and independently admit the Work under A.15.1; add F.6 only when the present use needs precise assignment-bound attribution. Expand assignment and attribution detail only when that use needs it, attribution is ambiguous, or the source wording must be repaired. |
 | Rank heterogeneous candidates under one hidden “depth” score. | Preserve direct kinds and compare only declared use-bearing dimensions without hidden scalarization. |
@@ -51600,7 +51862,7 @@ These sources change the positive method: the user starts from a result, may obt
 
 ### C.19.2:12 - Relations
 
-- **Coordinates with:** `C.18` for candidate generation, reframing, and archive/front stewardship; `C.19` for explore/exploit policy over still-live candidate pools; `C.19.1` for scale-amenable bearer preference; `C.22.1` for adaptation signatures; `E.23` for repeated improvement; and `C.31.ASAP` for architecture-scale preference.
+- **Coordinates with:** `C.39` for a missing explanation of how to obtain the result; `C.40` for feasible variation and examination; `C.18` for the generation account and archive/front stewardship; `C.19` for explore/exploit policy over still-live candidate pools; `C.19.1` for scale-amenable bearer preference; `C.22.1` for adaptation signatures; `E.23` for repeated improvement; and `C.31.ASAP` for architecture-scale preference.
 - **Uses conditionally:** `C.11` only when an actual local-choice question over a live eligible set exists. It consumes, but does not extend, the four `ChoiceResult` dispositions.
 - **Hands off enactment to:** `A.15.2` for work plans, `A.15.1` for dated work, and `C.24` only for tool-call enactment planning. The direct domain pattern contains the defining content for the practical result.
 - **Description-level specialization:** `A.7.1` narrows the method claims stated here for consequence-guided ontology analysis. It retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, separation among plan, Work, and result, stop, and reopen. It retains the candidate and choice branch only when that branch is actually triggered. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.
@@ -55342,7 +55604,7 @@ The following anchors support the pattern's operational modeling moves.
 
 ### C.26:12b - C.29 mathematical-lens use relation
 
-> `C.26` is a C.29-compatible specialization for quantum-like modeling. It carries a pre-filled adequacy profile for QL work: preserved structure includes order, probe, and contextual-probability effects when supported; lost structure includes physical quantum ontology; the canonical stop condition remains `QL-NQ`. A QL-lite note does not inherit a blank full `MathLensUse.FullCard`. A full C.29-compatible profile is needed only when the QL claim is decision-bearing, reusable, publication-bearing, assurance-bearing, bridge-bearing, or formal-model-bearing.
+> `C.26` is a C.29-compatible specialization for quantum-like modeling. It carries a pre-filled adequacy profile: preserved structure includes order, probe and contextual-probability effects when supported; lost structure includes physical quantum ontology; the canonical stop condition remains `QL-NQ`. A QL-lite note retains its lightweight use. Apply C.29:4.4's reliance rule when more is needed: a conditional comparison or reusable explanation within the same assumptions may stay small; reliance as an adequate phenomenon model for prediction, a consequential decision, model adoption, benchmark/assurance input, Bridge-dependent use or transfer to further cases needs the full applicable account. Reuse the supplied C.26 profile and adequate existing validation rather than filling a blank FullCard.
 
 ### C.26:End
 
@@ -57093,9 +57355,9 @@ Distortions to watch for:
 
 **Intent.** Help a practitioner decide what a causal-looking claim is supported to say, under which limits, and which narrower statement remains when the support is insufficient.
 
-**Primary EntityOfConcern.** One exact causal-use question. The claim, estimand or contrast, evidence paths, identification result, estimate, sampling-realizability result, performed sampling and resulting data, simulation result, support result, and downstream decision remain separately identified.
+**Primary EntityOfConcern.** The causal-use question raised by a concrete claim: what would change under an intervention, what explains an observed difference, or what can be said about a counterfactual.
 
-**Not a physical ontology.** This pattern does not define causation in the world or replace domain science. It supplies a practical interface for using causal evidence and models without promoting association, simulation, or a graph label into a stronger causal claim.
+**Scope.** Use the domain's causal models, intervention and outcome definitions, and scientific evidence to determine which statement is supported and under which limits.
 
 ### C.28:0 - Use This When
 
@@ -57110,11 +57372,10 @@ Use `C.28` when a result is offered as support for a causal effect, intervention
 
 The cue opens a question, not a verdict. Ask what claim is being supported and what use of the evidence depends on that support.
 
-**Not this pattern when.** If no causal statement or causal evidential reliance is current, stay with the direct pattern: `C.16` for measurement, `C.27` for temporal change, `A.10` for an evidence path, `C.11` for choice, `C.19` for live-pool policy, `C.24` for call planning, `D.5` for bias or fairness audit, or `G.9` for ordinary parity.
+**Not this pattern when.** If the task only reports a measurement, temporal change or model output without causal reliance, continue with that direct task. Section :4.11 locates the relevant neighboring pattern when a return is needed.
 
-**Activation condition.** C.28 is needed when causal support changes the statement relied on by a downstream publication, choice, deployment, audit, assurance, policy evaluation, or benchmark. C.28 decides only the causal-support boundary. The downstream pattern still decides whether to publish, choose, deploy, certify, assure, or abstain.
 
-**Simulation boundary at entry.** A report that only describes simulator output and makes no causal use exits to ordinary model or simulation handling. Simulator output offered as support for an effect, counterfactual, policy, fairness, benchmark, or evidence claim stays in C.28 and must name the model, assumptions, validation, supported causal use, and unsupported use.
+**Simulation at entry.** “The simulator produced these traces” can finish as a model-output report. “These traces support what would happen under policy P” opens C.28: identify the model, assumptions, validation and the causal use they support.
 
 #### C.28:0.1 - What Goes Wrong If Missed
 
@@ -57127,20 +57388,21 @@ The cue opens a question, not a verdict. Ask what claim is being supported and w
 
 #### C.28:0.2 - What This Buys
 
-The cheap result states the question, rung, available support components, the common validity threat that matters now, the causal statement supported, the statement not supported, and the next useful step. Heavy profiles appear only when identification, estimation, counterfactual-sampling realizability, actual sampling evidence, transport, target-trial emulation, causal policy evaluation, representation learning, or fairness work is actually current.
+The first result is a supported statement with its limits and the next useful step. Section :4.0 locates additional support components by the question each answers; open a specialist profile only when its result is needed.
 
 #### C.28:0.3 - First-Minute Questions
 
-1. What exact causal-use question is being asked, and which claim-bearing episteme states it?
-2. Is the intended statement observational, interventional, or counterfactual?
-3. What is actually available: an evidence path and empirical data regime, an identification or bound result, an estimate, a prospective counterfactual-sampling realizability result, dated sampling Work plus resulting data, or a simulation result?
-4. Which common validity problem could overturn the use: intervention definition or consistency, time order, confounding, overlap, interference, selection or missingness, measurement, or transport?
-5. What causal statement or evidential reliance is supported now, and what stronger statement is not?
-6. Does the downstream pattern have enough basis to make its own decision, or should it abstain, downgrade, or request more evidence?
+1. What is the concrete claim, and what causal question must be answered to rely on it?
+2. Is the requested statement about an observed association, an intervention, or a counterfactual?
+3. What observations, experiments, model assumptions or derived results are available?
+4. Which live threat could overturn the conclusion: for example, confounding, time order, missing comparison cases, interference, measurement error or transfer to another population?
+5. What statement is supported under those conditions, and what further evidence or calculation would change it?
 
 #### C.28:0.4 - First Output
 
-The first output may be only this triage:
+**Ordinary first result.** Suppose the available comparison says that self-selected teams using method A completed more tasks than teams not using it, while task difficulty and prior team capability were not controlled. Report the observed association; the claim that A caused the improvement remains unsupported by that comparison. The next useful question is whether a design or existing evidence can distinguish the method's effect from those rival explanations.
+
+This sentence-level result can finish the task. When the triage must be reused, its local form is:
 
 ```text
 CausalUseTriageRecord:
@@ -57155,7 +57417,7 @@ CausalUseTriageRecord:
   nextCausalUseAction
 ```
 
-`supportedUse` means the causal statement or evidential reliance supported under the named limits. It is not a permission or command. `unsupportedUse` states the nearby stronger causal statement or reliance that the evidence does not support.
+`supportedUse` states the causal statement or evidential reliance supported under the named limits. `unsupportedUse` states the nearby stronger statement or reliance left unsupported by that evidence.
 
 ```text
 nextCausalUseAction =
@@ -57176,11 +57438,9 @@ nextCausalUseAction =
 
 Triage may be the final result when it blocks the overclaim and names the narrower statement. Do not open a durable object merely because a causal word appears.
 
-**Adjacent simulation examples.** “The simulator produced these traces” with no causal reliance returns `keepNonCausalSimulationUse`. “The simulated traces support what would happen under policy P” remains inside C.28 and needs `simulationResultRef`, model assumptions, validation, supported use, and unsupported use.
 
 ### C.28:1 - Problem Frame
 
-FPF already has patterns for measurement, temporal claims, evidence, assurance, choice, exploration, call planning, fairness, parity, and mathematical lenses. Each keeps its own result. Causal support cuts across them, so a small shared interface is needed.
 
 The practical question is “what does this evidence support us to say about this causal question, and what would overturn that conclusion?”
 
@@ -57216,7 +57476,7 @@ Use the smallest result that answers the current question:
 
 #### C.28:4.0 - Public contract and support components
 
-C.28 uses references to actual objects. It introduces no universal kind for a causal-use question, estimand, or potential-outcome contrast.
+When a question or result must be referenced, recover its content and use the corresponding contract:
 
 - `CausalUseQuestionRef` identifies the exact question content, normally a C.2.1 episteme.
 - `CausalEstimandRef` identifies the mathematical target or the episteme that describes it under its direct pattern.
@@ -57351,7 +57611,7 @@ CausalUseSupportResult:
   reopenCondition
 ```
 
-Its identity and reference follow C.2.1. The result states causal support only. A downstream pattern may cite it as one basis and then make its own decision. `undecided` supplies no causal conclusion; the downstream pattern decides whether to abstain, seek evidence, or use a non-causal result.
+Its identity and reference follow C.2.1. A receiving decision consumes it under :4.9.
 
 #### C.28:4.3 - Common causal-validity screen
 
@@ -57378,7 +57638,8 @@ CommonCausalThreatScreen:
 
 #### C.28:4.4 - Identification result
 
-Identification answers whether the estimand can be expressed or bounded from the available data and assumptions. The conclusion must be replayable:
+
+Identification answers whether the estimand can be expressed or bounded from the available data and assumptions. The bounds for nonidentified counterfactual queries in [Raghavan and Bareinboim, 2026, §5](https://arxiv.org/html/2602.23541v1) belong to this identification problem. The conclusion must be replayable:
 
 ```text
 CausalIdentificationResult:
@@ -57404,9 +57665,15 @@ An `identified` label without an identifying expression or derivation is incompl
 
 **Replayable nonidentified case.** In a treatment cohort, unmeasured severity affects both treatment and outcome, and no valid adjustment set, instrument, proxy, or useful bound is available. `unmeasured_severity_obstruction_3` is the failure witness. The result is `nonidentified`; reporting an adjusted number does not change that status.
 
+**Replayable sensor case: observation and intervention.** Let `H` denote binary high load and `S` a binary alarm. Stipulate `P(H=1)=0.5`, `P(S=1|H=1)=0.9` and `P(S=1|H=0)=0.1`. Bayes' rule gives `P(H=1|S=1)=0.9` and `P(H=1|S=0)=0.1`. These are observational questions about the stated joint distribution.
+
+For the query `P(H=1|do(S=0))`, additionally specify a structural model: H is determined by an exogenous random input; S is a noisy measurement of H with separate independent noise; S has no influence on H. Replacing the S mechanism by the constant zero preserves the H mechanism and its input distribution, giving `P(H=1|do(S=0))=0.5`. This derivation is an identified model-based result under those assumptions. The [corrected Pearl, Glymour and Jewell primer, p.55](https://bayes.cs.ucla.edu/PRIMER/mueller-edits-questions-pearl-etal-2016-primer-errata-pages-august2019.pdf) explains the mechanism-replacement operation.
+
+If the alarm controls cooling, specify the intervention time and the subsequent load mechanism before answering a later-load question. [F.0.2:5.5][fpf-f0-2-5-5-ref] uses this distinction when comparing source theories for an explanation.
+
 #### C.28:4.5 - Counterfactual sampling realizability
 
-Use this result to answer whether a declared target distribution can be sampled under current constraints. It is prospective: it does not say that sampling was planned, performed, or yielded data.
+Use this result to answer whether a declared target distribution can be sampled under current constraints. [Raghavan and Bareinboim, 2025, Definition 3.4 and Theorem 3.5](https://proceedings.iclr.cc/paper_files/paper/2025/file/e59c4efcaed615db8911fecb84c1d51b-Paper-Conference.pdf) give a construction-or-failure decision for their graph and available-action setting. The result is prospective: it does not say that sampling was planned, performed, or yielded data.
 
 ```text
 CounterfactualSamplingRealizabilityResult:
@@ -57423,20 +57690,20 @@ CounterfactualSamplingRealizabilityResult:
   decisionMethodRef
   decisionDerivationRef?
   positiveSamplingConstructionRef?  # required when realizable
-  boundResultRef?                   # required when bounded
+
   obstructionOrFailureWitnessRef?   # required when nonrealizable
-  status: realizable | bounded | nonrealizable | unclear
+  status: realizable | nonrealizable | unclear
   supportedUse
   unsupportedUse
 ```
 
-A `realizable` result cites the sampling construction that the decision Method accepts. A `bounded` result cites its bound. A `nonrealizable` result exposes the obstruction or failure witness. `unclear` names what remains unresolved. “Realized counterfactual sampling” never means observing incompatible outcomes for one unit in one realized world.
+A `realizable` result cites the sampling construction that the decision Method accepts for the exact target and constraints. A `nonrealizable` result exposes the obstruction or failure witness. `unclear` names what remains unresolved. Bounds on a counterfactual probability belong to the identification result at :4.4; they constrain what can be inferred about that probability, while this result asks how draws from the target distribution can be obtained. “Realized counterfactual sampling” never means observing incompatible outcomes for one unit in one realized world.
 
 If the team plans to draw samples, use a separate A.15.2 WorkPlan. If sampling occurs, recover every precise performer's A.13 core and independently admit the dated Work under A.15.1. Add F.6 only when the sampling claim also needs precise assignment-bound attribution. If the samples are used as evidence, cite the resulting data through an A.10 evidence path. Actual sampling support requires both the dated Work and resulting data or evidence ref; neither `realizable` nor a WorkPlan can stand in for them. Identification from those data, when claimed, is another `CausalIdentificationResult`.
 
 #### C.28:4.6 - Applied profiles
 
-**Target trial.**
+**Target trial.** The [TARGET Statement, 2025](https://www.bmj.com/content/390/bmj-2025-087179) supplies reporting guidance for an observational study explicitly emulating a target trial. Use it for the protocol-to-data account below, with causal validity checked separately.
 
 ```text
 TargetTrialProtocolRecord:
@@ -57496,13 +57763,13 @@ CausalEstimateResult:
   unsupportedUse
 ```
 
-At least one identification or explicit design-based basis is required before the estimate supports a causal use. Orthogonal scores, nuisance models, and cross-fitting belong in `methodSpecificDetailRefs` only when a DML Method is selected. `estimationConsistencyResultRef` points to the consistency result defined by the selected estimation Method or its direct evaluation pattern; C.28 introduces no universal consistency-result kind.
+At least one identification or explicit design-based basis is required before the estimate supports a causal use. Orthogonal scores, nuisance models, and cross-fitting belong in `methodSpecificDetailRefs` only when a [DML Method](https://academic.oup.com/ectj/article/21/1/C1/5056401) is selected. `estimationConsistencyResultRef` points to the consistency result defined by the selected estimation Method or its direct evaluation pattern.
 
 **Counterfactual fairness.** Before D.5 uses a counterfactual-fairness support result, its C.28 components cite the identification result and the extra assumptions needed to connect the available data to that counterfactual question. When the fairness conclusion depends on an estimate, they also cite the estimate and its `estimationConsistencyResultRef`. Without those conditions, return `bounded` or `unsupported`; more data, even an unlimited amount of the same data, does not repair missing counterfactual identification or an inconsistent estimator. Associative or interventional fairness claims use their own rung and do not inherit this stronger branch by label.
 
 **Non-DML estimate.** A randomized trial cites `random_assignment_identification_4`, `trial_data_8`, `DifferenceInMeansMethod_2`, `standard_error_result_5`, and its attrition sensitivity check. It needs no orthogonal-score, nuisance-model, or cross-fitting fields. The estimate supports only the declared population, outcome, assignment, and follow-up window.
 
-**Transport.**
+**Transport.** For the first-moment population-measure problem under covariate shift, use [Boughdiri, Berenfeld, Josse and Scornet, *A Unified Framework for the Transportability of Population-Level Causal Measures*, 2025, §§2–4](https://proceedings.neurips.cc/paper_files/paper/2025/hash/795679e4056817ee71d37680939e980f-Abstract-Conference.html) with its internal trial-validity, overlap and selected exchangeability conditions. Other endpoint changes need their own identifying result.
 
 ```text
 CausalTransportabilityResult:
@@ -57573,7 +57840,8 @@ The record states which interventions and queries the learned or abstracted vari
 
 #### C.28:4.7 - Graph and calculus names
 
-Use specialist names only when the result depends on them:
+Use specialist names only when the result depends on them. For a counterfactual graphical-model derivation, use the conditions and calculus in [Correa and Bareinboim, 2025](https://proceedings.mlr.press/v267/correa25a.html) and cite the actual derivation used:
+
 
 ```text
 CausalGraphRepresentationKind =
@@ -57645,36 +57913,34 @@ Additional evidence is worth planning only when it can change a material causal 
 - `unsupported`: the claimed causal statement or reliance is not supported;
 - `undecided`: the available work does not establish a causal conclusion.
 
-The result never authorizes publication, choice, deployment, certification, fairness approval, or assurance. The downstream pattern cites it as one basis, considers its own other conditions, and makes its own decision. Practical guidance such as “report association only” states the remaining evidence boundary; it is not a permission issued by C.28.
+When another pattern uses the result for a decision, it checks whether the named support and limits answer its question and applies its own remaining decision conditions. For `undecided`, it chooses whether to seek evidence, abstain or use an available non-causal result. “Report association only” limits the evidential claim; any decision to publish, choose or deploy remains with the receiving pattern.
 
 #### C.28:4.10 - Causal action policy class
 
-Use this classification only when policy use changes the causal question:
+Use `CausalActionPolicyClass` only when the action-selection regime changes the causal question. Identify the decision variables, horizon and natural mechanism; say whether the question compares one specified rule or an admissible family. Keep that rule or family with the question. When both behavior and evaluation policies occur, identify which one the field summarizes.
 
-```text
-CausalActionPolicyClass =
-  naturalBehaviorPolicy |
-  interventionalPolicy |
-  counterfactualPolicy |
-  mixedPolicy
-```
+The mechanism distinctions follow [Maiti and Bareinboim, *Sequential Causal Games*, Definitions 2.3, 2.5, 2.7–2.8](https://causalai.net/r145.pdf). Let `X°` be the natural action and `Z` the allowed pre-action information. Order actions causally; `Z` excludes descendants of the current or later action variables.
 
-`unknown` is an unresolved classification, not a fifth member. Omit the field when the distinction changes no support, comparison, or downstream decision.
-
-#### C.28:4.10a - Naming and ontology settlement
-
-The public `...Ref` names above are local reference contracts, not newly admitted universal kinds. Recover the actual object before choosing a reference:
-
-| Wording cue | Recover |
+| Value | Operative distinction |
 | --- | --- |
-| “causal question” | the exact question content and its C.2.1 episteme |
-| “estimand” | the mathematical target or the episteme that describes it |
-| “causal evidence” | evidence paths, empirical data regimes, and the separate identification, estimate, sampling-realizability, performed-sampling, resulting-data, simulation, and transport results actually used |
-| “policy optimality” | policy class, off-policy result, support result, limits, and the downstream choice decision |
-| “fairness evidence” | causal question and support result here; `BiasAuditReport@Context` and audit decision in D.5 |
-| “what would have happened” | a sampling-realizability result, performed sampling with resulting data, an identified or bounded estimate, simulation, or an unsupported claim—named separately |
+| `naturalBehaviorPolicy` | Leave the natural action mechanism in place. |
+| `interventionalPolicy` | Replace it by a rule `X = g(Z)`, including a fixed action or declared randomized rule. The current natural proposal is not an additional input. |
+| `counterfactualPolicy` | Permit a replacement `X = g(Z, X°)` after observing the natural proposal. This family includes the identity and natural-proposal-independent special cases. |
+| `mixedPolicy` | Use a declared combination of natural and interventional choices, corresponding to the available-class union in Definition 2.8. State the component choices and their selection rule or distribution. |
 
-Do not create a universal object merely to preserve a familiar token. Do not replace plain practitioner sentences with a list of ontology fields when the shorter sentence carries the same distinction and stop condition.
+For this interface, when a concrete rule is represented in the wider counterfactual family, record its simpler natural or interventional case when that reduction holds throughout the stated scope. Keep `mixedPolicy` when the specified combination matters. If selection itself requires the current natural proposal, expose that counterfactual dependence. For a family comparison, retain the declared available family and any restrictions. Thus the scalar is an informative summary of the supplied rule or family, not a disjoint ontology of policies.
+
+**Authored three-rule replay.** For binary `X°`, compare:
+
+| Rule | Outputs for `X° = 0, 1` | Concrete classification |
+| --- | --- | --- |
+| Follow the natural action | `0, 1` | `naturalBehaviorPolicy` |
+| Replace it by zero | `0, 0` | `interventionalPolicy` |
+| Replace it by `1 - X°` | `1, 0` | `counterfactualPolicy` |
+
+The last evaluation needs the natural proposal and its relation to outcomes; a fixed-action evaluation does not answer it. A mixed example chooses with equal probability, using an independent coin, between following the natural mechanism and replacing its action by zero. Retain both component choices and their probabilities.
+
+`unknown` records unresolved classification, not another member. Omit the field when it changes no support, comparison or receiving decision.
 
 #### C.28:4.11 - Neighbor selection
 
@@ -57690,10 +57956,6 @@ Do not create a universal object merely to preserve a familiar token. Do not rep
 | bias or fairness audit | `D.5` | causal question, rung, estimand, support result, and the additional counterfactual-identification and estimation-consistency conditions when that branch is current |
 | method dispatch | `G.5` | causal method-use classification and support refs |
 | benchmark parity | `G.9` | rung, estimand, support-component, transport, and support-result parity |
-
-#### C.28:4.12 - Non-Goals
-
-C.28 does not define physical causation, choose one causal school for every domain, certify a graph by naming it, replace domain intervention or outcome definitions, replace measurement/evidence/fairness/choice/assurance/parity patterns, or authorize a downstream action. It also does not require a durable card or specialist profile when triage already blocks the overclaim.
 
 #### C.28:4.13 - Cheap downgrade library
 
@@ -57713,7 +57975,7 @@ Keep a causal-use record only when it changes the supported causal statement, bl
 
 #### C.28:4.15 - Publication-unit boundary
 
-When only wording inside one publication unit is unclear, use the publication and wording patterns. Open C.28 only when the wording is relied on causally. A publication decision remains with the publication pattern even after C.28 returns a support result.
+When only wording inside one publication unit is unclear, use the publication and wording patterns. Open C.28 only when the wording is relied on causally.
 
 #### C.28:4.16 - Causal-laundering cases
 
@@ -57752,20 +58014,20 @@ Watch for causal prestige, simulation laundering, metric proxy substitution, gra
 
 ### C.28:7 - Conformance Checklist
 
-1. One exact causal-use question remains identifiable from entry to result; question, claim, estimand, evidence, and records are not treated as one object.
-2. C.28 introduces no universal causal-use-question, estimand, or potential-outcome-contrast kind; it uses local refs to actual objects instead.
+1. The concrete claim and exact causal-use question remain identifiable from entry to the supported statement and its limits.
+2. Every reference required by the current use resolves to the exact question, target or result defined at :4.0; a sentence-level triage can finish without such references.
 3. Data regime, identification, estimate, sampling realizability, performed sampling evidence, simulation, and transport remain distinct and may be combined.
-4. A support result states evidence support only; every publication, choice, deployment, fairness, or assurance decision remains with its direct pattern.
+4. A downstream decision uses the causal-support result within its stated limits and checks its remaining conditions under the receiving pattern, as required by :4.9.
 5. An identified result cites an expression or derivation; a bounded result cites a bound; a nonidentified result cites an obstruction or witness.
 6. A causal estimate cites an identification or explicit design-based result. Method-family details appear only when that Method is selected.
 7. The common threat screen routes every live ordinary threat or lowers the result; it is not a mandatory dossier.
 8. Non-causal simulator reporting and simulation-supported causal use take different routes at first entry.
-9. A sampling-realizability result cites its decision Method, any derivation used, and the construction, bound, or obstruction required by its status; it claims no Work or data.
+9. A sampling-realizability result cites its decision Method, any derivation used, and the sampling construction or obstruction required by its status; `unclear` names the unresolved question. Counterfactual-quantity bounds remain in the separate identification result. A prospective result claims no Work or data.
 10. Performed counterfactual-sampling support cites independently admitted dated Work and resulting data or evidence; it cites exact assignment-bound attribution only when the receiving support claim uses it. A WorkPlan or `realizable` label cannot satisfy this branch.
-11. Evidence design cites each precise performer's A.13 core and the independent A.15.1 Work result; it cites F.6 only when exact assignment-bound attribution is current, rather than copying assignment mechanics.
+11. Before execution, evidence design cites a MethodDescription or WorkPlan only when used. When it cites performed Work, it identifies each precise performer under A.13 and the dated occurrence independently under A.15.1. Performed counterfactual sampling used as evidence also cites the resulting data through A.10. F.6 is required only when that account uses exact assignment-bound attribution.
 12. Transport identifies every changed population/domain/environment/data-generating-regime endpoint separately from semantic schemes.
 13. A counterfactual-fairness escalation exposes its additional identification assumptions and, when an estimate is used, estimation consistency before D.5 consumes it.
-14. `CausalActionPolicyClass` has the same four members in definition, examples, and consumers; unresolved classification is not a member.
+14. `CausalActionPolicyClass` identifies the specified rule or available family through :4.10's mechanism and information conditions; reductions, combinations and unresolved classifications stay explicit. Consumers use the same meaning and omit an unused field.
 15. Every specialist field changes support, a downstream decision basis, evidence work, or a reopen condition.
 16. A target-trial mapping result identifies the observational source and every protocol-to-data mapping, gap, residual-confounding assessment, and sensitivity mapping needed for its bounded use.
 17. Every retained specialist result that can independently change support can enter `CausalSupportComponentRefs`; when it shapes further evidence, the evidence-design record can cite the same result without copying it.
@@ -57796,31 +58058,22 @@ The pattern makes unsupported causal claims easier to lower while keeping ordina
 
 Temporal change, a higher metric, a convincing graph, or a plausible simulator can all be useful without supporting a causal effect. Conversely, observational data can support a causal estimate when an explicit identification result closes the inferential gap. C.28 therefore separates the question from the components that support it and separates that evidential conclusion from downstream authority.
 
-The integrated contract is deliberately plural: SCM and graphical methods, potential outcomes, target-trial practice, design-based identification, causal ML, transport, causal representation learning, causal RL, and causal fairness may supply different specialist results. None is installed as the universal method.
 
-### C.28:11 - SoTA and lineage
+### C.28:11 - SoTA-Echoing
 
-**Qualification window.** This comparison was reviewed through 2026-08-21. Reopen it when a current contribution is materially superseded, TARGET guidance changes, a specialist branch changes the minimum replay fields, or direct consumers need a different support-result contract.
+**Which question does the available model answer?** In :4.4, the same observed alarm distribution gives `P(H=1 | S=0)=0.1`, while replacing the alarm mechanism gives `P(H=1 | do(S=0))=0.5` under the stipulated no-feedback model. Reusing the observational answer is cheaper but answers the wrong question when the user proposes to set the output. Mechanism replacement, as explained in [Pearl, Glymour and Jewell's corrected primer, p.55](https://bayes.cs.ucla.edu/PRIMER/mueller-edits-questions-pearl-etal-2016-primer-errata-pages-august2019.pdf), supplies the operation used in the second derivation.
 
-| Status and live problem | Contribution used | Adopted, adapted, or rejected FPF move |
-| --- | --- | --- |
-| Lineage: seeing, doing, imagining, and identification | Pearl hierarchy and identification tradition, [On Pearl's Hierarchy and the Foundations of Causal Inference](https://causalai.net/r60.pdf) | Retain the three-rung distinction and no unsupported climb. This is history and foundation, not proof that one graphical school covers every domain. |
-| Current counterfactual theory | Correa and Bareinboim, 2025, [Counterfactual Graphical Models](https://proceedings.mlr.press/v267/correa25a.html) | Name graph form and calculus when the derivation depends on them. Do not make the formalism part of ordinary triage or treat a graph label as a result. |
-| Current reporting practice | TARGET Statement, BMJ 2025, [Reporting of observational studies explicitly emulating a target trial](https://www.bmj.com/content/390/bmj-2025-087179) | Retain causal question and estimand, assumptions, protocol-to-data mapping, estimate and precision, and sensitivity reporting. Reject the overread that complete reporting is identification or low risk of bias. |
-| Current bounded transport research | NeurIPS 2025, [Causal Effect Estimation under Covariate Shift](https://proceedings.neurips.cc/paper_files/paper/2025/hash/795679e4056817ee71d37680939e980f-Abstract-Conference.html) | Keep identification and estimation under a named shift explicit. This does not replace the broader endpoint and assumption requirements for other transport problems. |
-| Current sampling-realizability decision | Raghavan and Bareinboim, ICLR 2025, [Counterfactual Realizability](https://proceedings.iclr.cc/paper_files/paper/2025/hash/e59c4efcaed615db8911fecb84c1d51b-Abstract-Conference.html) | **Adopt:** make realizability a replayable prospective result with its decision Method and construction, bound, or obstruction. Keep realizability separate from a WorkPlan, dated Work, or data. |
-| Current Layer-3 identification and bounds | Raghavan and Bareinboim, 2026, [Causal Identification from Counterfactual Data: Completeness and Bounding Results](https://arxiv.org/abs/2602.23541) | **Adopt as composition, not collapse:** realized counterfactual data may feed a separate identification or bound result. Producing those data still needs dated Work and an evidence path to the result; realizability alone supplies neither data nor identification. |
-| Lineage and current domain practice: potential outcomes | Rubin 1974 and later target-trial practice | Retain estimand, contrast, assignment/time zero, follow-up, outcome, and analysis plan. Use `PotentialOutcomeContrastRef`, not an unadmitted U-kind. |
-| Conditional estimator family | Chernozhukov et al. 2018, [Double/debiased machine learning](https://academic.oup.com/ectj/article/21/1/C1/5056401) | Use orthogonal scores and cross-fitting only for a selected DML Method. Reject their use as universal estimation fields. |
-| Current counterfactual-fairness limit | Ma et al., CLeaR 2026, [Consistent End-to-End Estimation for Counterfactual Fairness](https://proceedings.mlr.press/v323/ma26a.html) | **Adopt:** a supported counterfactual-fairness use exposes additional counterfactual-identifiability assumptions and estimation consistency. Infinite data does not repair either omission; D.5 receives a bounded or unsupported result when they are absent. |
-| Lineage: causal representation | Schölkopf et al., [Toward Causal Representation Learning](https://is.mpg.de/en/publications/scholkopfetal21) | Retain intervention validity, invariance, abstraction fidelity, query preservation, and shift checks when learned causal variables are used. This broad source is lineage, not a claim that one representation is current-best for every domain. |
-| Lineage: sequential causal policy | Maiti and Bareinboim, [Sequential Causal Games](https://causalai.net/r145.pdf), plus causal bandit and data-fusion work | Retain natural, interventional, counterfactual, and mixed policy distinctions and keep history, overlap, and transport visible. Do not infer policy optimality from replay reward. |
-| 2026 domain-specific representation and policy alternatives | Mandyam et al., [CANDOR](https://proceedings.mlr.press/v333/mandyam26a.html), and Balashankar et al., [Domain Faithfulness through Counterfactually Robust Learning](https://proceedings.mlr.press/v323/balashankar26a.html) | **Reject as shared-interface additions:** imperfect counterfactual annotations, healthcare policy evaluation, subgroup rules, and representation/training choices materially affect their domain Methods, diagnostics, and supported use, but add no missing universal C.28 field. Keep them in method-specific detail and reopen only if a cross-domain result exposes a new minimum support distinction. |
-| Lineage: fairness and accuracy | Plecko and Bareinboim, [Fairness-Accuracy Trade-Offs: A Causal Perspective](https://causalai.net/r107.pdf) | Retain the causal estimand and trade-off question, but do not use this lineage alone as current counterfactual-fairness support. The 2026 identification and consistency conditions above now bound D.5 consumption. |
+This comparison selects :0.3's question distinction and :4.4's requirement for an identifying expression or derivation. The added cost is stating the causal mechanism and assumptions needed for the requested intervention, instead of relying on the joint distribution alone. If the requested statement is observational, its existing answer suffices. If the alarm initiates cooling, the later-load question requires the changed mechanism and time order; reopen the earlier intervention result.
 
-**Why this combination is retained.** The 2025 realizability result answers whether samples can be produced; the 2026 completeness and bounding result answers what can be identified from realized Layer-3 data; the 2026 fairness result states extra conditions for one consequential downstream use. Keeping those results separate preserves their different questions while allowing explicit composition. The domain-specific 2026 lines improve selected Methods but do not dominate the small shared interface. This is the current non-dominated contract for a practitioner who needs a cheap causal stop plus replayable specialist results.
+**What supports a counterfactual-fairness conclusion?** The analysis by [Ma, Melnychuk, Frauen and Feuerriegel, 2026](https://proceedings.mlr.press/v323/ma26a.html) identifies two failures in counterfactual-fairness baselines: missing counterfactual-identifiability assumptions and inconsistent counterfactual estimation. Their analysis uses identification up to a measure-preserving indeterminacy and a compatible consistency condition. More of the same data does not generally supply either missing condition.
 
-**Synthesis boundary.** No source above establishes the whole C.28 architecture. The orthogonal support components, common threat screen, small support-result interface, support/authority split, and cross-pattern consumer contract are a bounded FPF synthesis. Validate them through filled cases and consumer replay; reopen when they hide a real causal distinction, impose unused apparatus, or fail a practitioner.
+For a receiving fairness audit, an improved metric or a large dataset therefore leaves a different question from the counterfactual guarantee. Section :4.6 selects a separate identification result and, when the conclusion uses an estimate, its Method's consistency result before D.5 consumes the support. The additional work is justified by that stronger question; an associative disparity report can finish at its own rung. The source supplies this failure analysis and a method-specific remedy, so the consumed guarantee retains its assumptions and scope. Reopen the support when those assumptions, the estimator or the fairness question changes.
+
+**How much interface is useful?** A domain analyst's ordinary causal report can already state a question, assumptions, result and limitations. For the self-selected-team comparison in :0.4, that short report is sufficient: C.28's thin path returns the association and the live confounding question. Requiring the complete specialist profiles would add target, model and result declarations unused by that conclusion.
+
+When several receiving uses need the same conclusion, the alternative is repeatedly extracting its question and limits from a larger report. Sections :4.0–:4.2 instead provide references to the independently used results and one common support conclusion. This costs explicit identification of those results and their conditions. It can avoid copying an identification derivation, estimate or sampling construction into each receiver. Use that structure when the receiving work needs it; reuse an existing result directly when it already supplies the required information.
+
+These are bounded selections for the illustrated questions. They preserve cheap prose, expose a mathematical difference when it changes the answer, and require stronger support for a stronger fairness claim. Reopen the selected form if it hides a live causal distinction or requires information that the receiving use does not consume.
 
 ### C.28:12 - Relations
 
@@ -57838,6 +58091,8 @@ The integrated contract is deliberately plural: SCM and graphical methods, poten
 
 `C.29` may describe a mapping as abstraction-like, quotient-like, coarse-graining-like, simulation-like, or macro-model-like. It does not decide causal support. When intervention, policy, counterfactual, causal explanation, or causal decision use is current, apply C.28; otherwise record no causal-use claim or the exact blocker.
 
+[fpf-f0-2-5-5-ref]: F.0.2-Conceptual-Synthesis-across-Source-Ontologies.md#f0255---compare-causal-accounts-on-one-sensor-case
+
 ### C.28:End
 
 ## C.29 - Mathematical Lens Use
@@ -57848,197 +58103,119 @@ The integrated contract is deliberately plural: SCM and graphical methods, poten
 
 **Plain-name.** Mathematical lens use.
 
-**Primary EntityOfConcern.** C.29 concerns a declared mathematical-lens use for a stated phenomenon, EntityOfConcern, relation, claim, or structure-bearing situation. The use names the mathematical object, formalism, learned representation, simulation object, local formal position, or mathematical family; the mapping mode; the preserved structure; the lost structure; the visible payoff or obstruction; the declared lens use; any justified blocked overread; and the stop or return condition. Such a use can be stated or cited in FPF-governed wording, pattern examples, method notes, review records, `PublicationUnit`s, decision-facing text, comparison-facing text, bridge-facing text, and assurance-input text. Include a blocked overread only when it passes F.19's plausible-reader test.
+**Primary EntityOfConcern.** The use of a mathematical representation to answer a stated working question, with an explicit correspondence to the phenomenon and limits on the resulting inference.
 
-**Object designation, declaration, and representation discipline.** `CandidateMathObject` is the C.29-local field or designation for the mathematical object selected in one declared mathematical-lens-use claim or note; that object retains its direct kind. The field identifies the selected object for the mathematical representation, explicit correspondence, and preserved/lost-structure account; it does not assert a world-side participant meaning, participation, or use relation. `U.Signature(profile=FormalSubstrate)` in `A.6.0` is a separate formal-declaration episteme use: it declares vocabulary, laws, imports, and applicability and is neither the `CandidateMathObject` designation nor a position in the selected representation. A direct use relation may be asserted only after a separate direct relation settlement supplies its participant meanings, obtaining predicate, applicability, and identity rule. `A.6.1` governs mechanism import or realization when that exact declaration is used in a mechanism; `E.18.1` governs P2W carry-through when accepted problem-side material needs the declaration for later work. The same mathematical object may be designated in several epistemes or uses, but the subject pattern is selected by the exact governed object and claim, not by a source-local head word.
+**Use this when.** Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when an existing representation is being relied on beyond what its correspondence supports.
 
-**Relation-ontology boundary.** A formula, query, path, graph, diagram, name, assertion, or definition can represent or state a claim or derivation; it does not make a relation obtain, admit a relation kind, or supply occurrence identity. Resolve those questions first through `A.6.P`, `A.6.RCD`, and the direct subject settlement. Use C.29 only for the selected representation, its explicit correspondence, and the preserved and lost structure.
+**What goes wrong if missed.** The reader either misses a useful mathematical construction or carries a result into a situation where a needed assumption or distinction has been lost.
 
-**Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-pattern notes. For claim-bearing mathematical-lens use, they state which declared mathematical-lens use is bounded as usable, when to stop or return, and which neighboring FPF pattern defines or constrains any non-lens claim being made. Project approval, work, evidence, assurance, decision, or release use must be recorded through the subject pattern for that use.
+**What this buys.** A concrete mathematical question, a representation that makes it tractable, and a consequence that changes what to calculate, observe, compare or rule out.
 
-**Use this when.** Use this pattern when a mathematical object, formalism, simulation object, learned representation, or mathematical family is being used to make a project claim more inspectable, or when the lack of such a lens hides preserved structure, lost structure, invariants, obstruction, approximation, or stop condition.
+**Not this pattern when.** An adequate local equation, algorithm or domain model already answers the question and no separate representation or transfer issue remains. Complete that work without a C.29 note. A one-off metaphor used only for orientation also needs no card.
 
-**What goes wrong if missed.** Mathematical prestige starts acting as evidence, mechanism, architecture, causal proof, assurance, benchmark result, or release confidence; or a useful lens is avoided because no one states what it preserves and what it loses.
+### C.29:0 - First mathematical move
 
-**What this buys.** The practitioner can use mathematics as a bounded lens: name the object, mapping, preserved and lost structure, visible payoff, declared use, neighboring subject pattern, and the condition for stopping or returning to the source.
+Ask what you need to find out. Choose the smallest mathematical object that could answer it; say how its elements and operations correspond to the working situation. Identify the structure needed for the inference, the distinctions omitted, and the assumptions on which the result depends. Derive a consequence, then decide what it changes and what would defeat its use.
 
-**Not this pattern when.** If the current claim is evidence, assurance, causal use, measurement construction, architecture adequacy, work, gate passage, decision, formal signature, mechanism import, or publication use, use the subject pattern and keep C.29 only to the mathematical-lens use portion.
+For waiting work, a queue candidate turns “slow flow” into questions about arrivals, service and waiting. For a proposed dense state array, counting its entries can already rule out an implementation. For a familiar local calculation such as `V = IR` under its accepted conditions, use the equation directly: the calculation does not require a lens-use record.
 
-**No new `U.*` from C.29 local lens-use outputs.** `MathLensUse.OneLine`, `MathLensUse.MiniCard`, `MathLensUse.FullCard`, `MathLensUse.Card@Context`, `MathLensUseOutputRef`, and `CC-C29-*` are C.29-local instruments. They do not mint `U.MathLens`, `U.MathLensUseRecord`, `LensKind`, `MathLensUseCompliance`, or a durable record family. Durable names, kinds, or records require an accepted FPF naming and kind decision through `F.18`, `C.3`, `F.8`, and `E.9`.
-
-### C.29:0 - First-use card
-
-Use this card before the full card. It is enough for the first use pass unless publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is being made.
-
-| First question | Required answer before claim-bearing lens use |
-|---|---|
-| Is the mathematical phrase changing the next lens-use action, or only helping recognition? | If no action changes, keep ordinary prose or write `NoMathLensUseNeededNote`. |
-| What phenomenon is being seen through the lens? | Name `TargetPhenomenon` in problem-owning language. |
-| What concrete mathematical object, formal position, learned representation, simulation object, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
-| What structure is preserved? | Name `PreservedStructure`. |
-| What structure is lost or deliberately ignored? | Name `LostStructure`; empty loss needs equivalence or isomorphism justification. |
-| When should this lens use narrow, stop, or return to another source or pattern? | Name `StopCondition`; a declared lens use requires that concrete condition. |
-
-Start with the useful lens decision: choose, apply, bound, replace, or remove a mathematical lens when the mathematical structure changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next lens-use repair. If no next lens-use action changes, keep ordinary prose or write `NoMathLensUseNeededNote`. If state, transition, measurement, causal use, bridge semantics, temporal adequacy, assurance, selector, benchmark, or release is the claim being made, apply the governing FPF pattern and keep C.29 to the mathematical-lens use part.
+If no concrete object can yet be chosen, retain the working cue and the next observation or construction as a candidate. A family label remains a discovery cue until a concrete object and correspondence are supplied. Recording options in :4.4 serve later inspection or reuse of the result; the mathematical operation comes first.
 
 ### C.29:1 - Problem frame
 
-FPF already uses mathematical structures in several local patterns. `A.6.P` asks for stable relation-precision structure during relation precision restoration; `A.3.3` governs dynamics; `A.19` governs characteristic spaces and structural overlays; `C.18.1` and `C.19.1` govern scale-law and Bitter-Lesson claims; `C.26` contains the separation of a quantum-like lens from physical quantum ontology; `F.9` governs cross-context bridges and loss.
+A mathematical representation can make a working question answerable by retaining only the structure that matters to it. The same reduction can invalidate another question. A queue may expose flow restrictions while omitting rework or failures; an aggregate state may support one bound but lose the information needed for an exact trajectory.
 
-The positive need is as important as the guard. In working projects, first-principles mathematical thinking starts from the smallest declared structure that can make a next lens-use action derivable, inspectable, or honestly blocked. A queue can expose waiting and bottlenecks, a state space can expose variables and transitions, a graph can expose dependencies, a metric-space distance or topology can expose comparability limits, a symmetry can expose invariants, a variational principle or constrained optimization functional can expose an extremal condition, constrained variation space, boundary condition, conservation link, or trade-off, an information or probability measure can expose uncertainty, a resource bound can expose realizability limits, and an obstruction can expose where a transfer or simplification stops.
-
-The missing FPF rule is general but narrow: when FPF-governed wording, a pattern example, method note, review record, `PublicationUnit`, or neighboring-pattern note uses or plausibly needs a mathematical object, formalism, or family for explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable application, the `C.29` application records the useful first-principles modeling structure and its boundary. It names the candidate mathematical object or family, what structure is preserved, what structure is lost, what invariant, lens-bounded distinction, obstruction, diagnostic boundary, or constructive limit becomes visible, which `LensUseBoundaryValue` value is declared for that use, and where the mathematical-lens use stops.
-
-A C.29 application is justified when a mathematical object is used for explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable transfer, or when a stable working problem is under-lensed and a cheap candidate lens could expose useful structure for the next lens-use action. Mathematical appearance alone is not enough.
-
-The first lens-use action is not a full-card demand. It is a first-principles entry decision: choose the smallest mathematical structure that changes the next lens-use action, keep ordinary prose when no mathematical structure changes the action, or apply the governing FPF pattern when the claim being made is outside the declared lens use. The result records what the lens preserves, what it loses, what it makes visible, what remains blocked, and where the use stops.
-
-Selected compact formulation:
+C.29 addresses this representation choice and its use across a stated correspondence. It begins either with a working problem that needs a useful construction or with a proposed representation whose consequence needs to be derived, limited or rejected. Domain theory supplies the mathematical laws and application conditions.
 
 > **A useful mathematical lens is compression with invariants and declared losses.**
 
-This compact line is retained as a Plain-register orientation, not as a substitute for the card. It keeps the useful metaphor of a **lens**: a mathematical object can make a hidden structure visible, but only by carrying some structure and dropping other structure. The first practitioner questions are: **what survives the transfer, what is lost, what can now be done, and where does the lens stop?**
+The practical questions are: what survives the transfer, what is lost, what follows, and where does that inference stop?
 
 #### C.29:1.1 - First-minute working situation
 
-A practitioner applying FPF faces a working situation where ordinary prose can hide useful structure, or where a mathematical phrase is already doing work:
-
-- waiting, backlog, bottleneck, or throughput can call for a queue or flow lens;
-- state change, stabilization, control pressure, or forecast can call for state-space or dynamics vocabulary;
-- dependency, interface, composition, or transfer failure can call for graph, hypergraph, category, operad, or compositional vocabulary;
-- similarity, distribution shift, population movement, or shape change can call for metric-space distance, topology, embedding, or optimal-transport vocabulary;
-- scale transition, coarse behavior, universality, knee, or scaling pressure can call for coarse-graining, RG, or scaling-law vocabulary;
-- probe effects, order effects, context effects, or incompatible frames can call for quantum-like or contextual-probability vocabulary.
-
-The useful first-minute intuition is “find the structure that would improve the next lens-use action, then name the limits.” A vivid phrase can remain when the `C.29` output records what the lens makes visible, what it does not license, and the exact subject assertion plus subject-pattern locator for any causal, evidence, bridge, dynamics, scale, measurement, assurance, or release claim.
-
-Without a general lens-use discipline, the reader cannot tell whether the phrase is a bounded structure-preserving representation, an analogy-only prompt, an ungrounded ontology import, a local domain model, or prestige language.
+A production manager sees waiting work but cannot tell whether an extra station would help. The first task is to distinguish an arrival restriction, a service bottleneck and a batching effect. The candidate queue has to make at least one of those distinctions calculable or observable. The discovery cues in :4.2b help choose an object; they are not a required tour of mathematical families.
 
 #### C.29:1.2 - Minimum scenario and anti-case set
 
-**Positive scenario.** A production line is represented as a queueing network. The lens preserves flow, bottlenecks, service rates, and waiting times; it loses human meaning, contractual obligations, rare failure modes, and causal interventions not represented by the network. Stop or change the lens when its assumptions fail or the use depends on one of those losses.
+**Positive scenario.** In :4.4's two-station queue, the departure recurrence distinguishes a five-minute latency reduction from a change in sustained output. The next observation focuses on the slower station. Changed service time or finite-buffer blocking withdraws the affected calculation; actual capacity reliance requires checking the model against the line.
 
 **Anti-case.** “The organization is a quantum system” is written without a candidate mathematical object, probe distinction or readout distinction, preserved structure, lost structure, `LensUseBoundaryValue`, or stop condition. The `C.29` result is either a downgrade to local metaphor or a repaired use through `C.29` and, where relevant, `C.26`.
 
 **Under-lensed anti-case.** “The work stream has dynamics” or “this portfolio is a network” is used for a diagnosis that affects prediction, comparison, repair, or stop conditions, but no mathematical object changes what can be predicted, compared, diagnosed, repaired, or stopped. The repair is to choose a cheap candidate lens that exposes useful structure, or keep the sentence as ordinary prose.
 
-**False-positive scenario.** A Markov kernel appears inside accepted local reliability modeling. If no contested lens-transfer, publication, assurance, bridge, or reusable explanation claim is being made, the claim stays under `A.3.3` and does not require a C.29 output.
+**False-positive scenario.** A Markov kernel appears inside accepted local reliability modeling. When no separate representation or transfer question is open, complete the A.3.3 result without a C.29 output. If such a question arises, use the reliance rule in :4.4.
 
 #### C.29:1.3 - Intended FPF use-value
 
-`C.29` gives a cheap-output choice before any full card or boundary table. Its first job is to help the working reader introduce, choose, repair, bound, or decline a mathematical lens by selecting the cheapest honest output: no C.29 output, a candidate note, a one-line repair, a mini-card, a full card when high-reliance use requires it, or a neighboring-pattern note when the claim being made is outside declared mathematical-lens use. Use it only when the mathematical lens affects a claim or next lens-use action; ordinary local math and decorative prose stay outside C.29. A successful `C.29` result makes useful mathematical compression available to FPF as a disciplined modeling action while reducing ontology smuggling, prestige vocabulary, loss-free transfer, causal laundering, bridge duplication, evidence laundering, and assurance laundering.
+The useful result is an answer, bound, obstruction, diagnostic split or next observation that the working reader could not recover from the prior account. Keep the correspondence and limitations inspectable when someone will reuse that result. A more elaborate record is useful only for the information its receiving use needs.
 
 ### C.29:2 - Problem
 
-Accepted FPF mathematical-lens use criteria are distributed and local:
+A broad name such as “graph”, “field”, “dynamics” or “quantum-like” does not yet identify the mathematical object or yield a consequence. Conversely, a valid derivation inside a model may be transferred to a case whose necessary structure the representation does not preserve.
 
-- `A.6.P` governs relation precision restoration, but not every mathematical-object transfer.
-- `A.3.3` governs state, transition, observation, validity, constraints, and calibration for dynamics, but not all mathematical representation choices.
-- `A.19` governs characteristic spaces, structural overlays, comparability, normalization, and bridge-aware state comparison, but not the adequacy of all mathematical lenses.
-- `C.18.1` and `C.19.1` govern scale-law and BLP claims, but not non-scale mathematical lenses.
-- `C.26` is the local precedent for mathematical-lens detachment, but only for quantum-like modeling.
-- `F.9` governs cross-context semantic bridges, but does not decide whether a mathematical object, formalism, or learned representation is adequate inside one context or as a domain-transferring lens.
-
-There are two symmetric failure modes.
-
-The first failure mode is mathematical under-lensing: a working situation needs a mathematical lens that changes prediction, comparison, diagnosis, repair, or stop conditions, but the record contains only ordinary prose, familiar school math, or a broad family name such as graph, field, space, score, trend, dynamics, or quantum-like without a useful invariant, obstruction, state variable, mapping, scale behavior, rival lens, or action-changing payoff.
-
-The second failure mode is mathematical overread:
-
-> a mathematical phrase begins as a helpful representation and then silently becomes ontology, evidence, causality, comparability, assurance, or use-boundary claim.
+The practitioner therefore needs both construction and criticism: make the relevant structure explicit, perform the mathematical operation, and test whether its result answers the original question under the stated conditions.
 
 ### C.29:3 - Forces
 
 | Force | Tension |
 |---|---|
 | **Compression vs truthfulness** | A useful mathematical lens compresses many cases by pairing compression with declared losses. |
-| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use, declared loss, and neighboring-pattern application. |
-| **SoTA openness vs metaphysical safety** | Vanchurin-like and Sandberg-like material enters as current lens prompts, not final ontology. |
-| **General pattern vs local precision** | `C.29` stays non-duplicative with `A.6.P`, `F.9`, `C.26`, `C.28`, `A.3.3`, and `A.19`; its contribution is coordination around declared mathematical-lens use. |
-| **Didactic usability vs formal rigor** | The first user needs one small card; expert use needs lens mapping mode, invariant claims, loss, `LensUseBoundaryValue`, rival lenses, and stop conditions. |
-| **Evocative metaphor vs ontology guard** | “Lens,” “structure survives transfer,” and “where the lens stops” help readers think, while fields named by value recover FPF claim-bearing use or use-boundary claim. |
-| **Transfer reach vs domain fit** | Category, RG, variational, quantum-like, and learning lenses are useful because they transfer across domains; that same transfer reach makes misuse easy. |
+| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use and declared loss. |
+| **First-use effort vs later scrutiny** | A first calculation may need only a stated correspondence and assumptions; consequential reuse needs a recoverable argument, losses and validation. |
+| **Transfer reach vs domain fit** | Cross-domain transfer can expose useful structure. Establish the correspondence and material losses for the receiving question before relying on the transferred lens. |
 
 ### C.29:4 - Solution - selected answer
 
-#### C.29:4.1 - Selected answer in one paragraph
+#### C.29:4.1 - Construct and test the correspondence
 
-`C.29 — Mathematical Lens Use` is the general FPF discipline for mathematical lenses used in explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer. It handles two first-use cases, with the positive case first: an under-lensed situation where the next lens-use action can benefit from a cheap first candidate lens; and an existing candidate lens proposed for application, repair, bounding, replacement, or rejection. Its job is to help the reader introduce, choose, apply, limit, replace, or remove a mathematical lens so that a useful next lens-use action survives. A mathematical lens is usable for a declared use when it compresses a phenomenon by preserving declared structure, exposing useful invariants, and producing lens-bounded predictions, distinctions, obstructions, or diagnostic boundaries inside a bounded context. It is blocked for an undeclared or out-of-bound use when it imports source-domain ontology, hides loss under metaphor, treats source prestige as evidence, or licenses claims outside its declared scale, context, validation, bridge, causal, or assurance boundary.
-
-`C.29` does not mint `MathLens`, `U.MathLens`, `LensKind`, or any universal FPF lens object. In this pattern, “mathematical lens” names a declared use of a mathematical object, formalism, learned representation, simulation object, or mathematical family under declared mapping, preserved structure and lost structure, `LensUseBoundaryValue`, declared lens use, and stop condition; the target phenomenon and any claim outside that declared lens use keep their own FPF kinds.
-
-Naming boundary: C.29 governs mathematical-lens use claims. It does not mint mathematical-lens kinds, and it does not govern or create the EntityOfConcern named by a neighboring claim-bearing episteme, Bridge, evidence relation, causal-use relation, assurance score, measurement construction, dynamics semantics, decision record, work record, explanation rendering, comparative review unit, representation transition, coarsened rendering, selector, benchmark, or scale audit. Its outputs are local lens-use outputs unless another accepted FPF pattern names a durable FPF kind.
+1. **State the working question.** Name the quantity, relation, distinction or possibility that would change the next action. Recover the intended use and the precision or range it needs.
+2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
+3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
+4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism.
+5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
+6. **Choose the resulting action and its limit.** Use the result within its assumptions, collect a discriminating observation, compare a relevant rival, narrow the question or reject the representation. Test the material loss and changed premises. When another person or later use needs the account, retain the smallest sufficient record under :4.4.
 
 #### C.29:4.2 - Mathematical Lens Use Principle
 
-> **Mathematical Lens Use Principle.**
-> A mathematical lens is usable for a declared use when it compresses a phenomenon by preserving declared structure, exposing useful invariants, and producing lens-bounded predictions, distinctions, obstructions, or diagnostic boundaries inside a bounded context. It is blocked for an undeclared or out-of-bound use when it imports source-domain ontology, hides loss under metaphor, treats source prestige as evidence, or licenses claims outside its declared scale, context, validation, bridge, causal, or assurance boundary.
+A mathematical lens is useful for a stated question when its correspondence preserves the structure needed for an actual consequence and makes the material losses explicit. A proof under mathematical assumptions establishes that consequence inside the model. Reliance on the phenomenon additionally requires the correspondence and application conditions to hold; prediction and other model-bearing uses require their validation under :4.5a.
 
-Compact plain form:
+Plain phrases such as “what survives transfer” can guide recognition. For a used result, make the actual correspondence, preserved structure, loss and stopping condition recoverable. Include a blocked overread only when it passes F.19's plausible-reader test.
 
-> **A useful mathematical lens is compression with invariants and declared losses.**
+#### C.29:4.2a - When mathematicalization pays
 
-Register policy: **Tech exactness below, Plain metaphor above.** Plain phrases such as “structures that survive transfer,” “what the lens makes visible,” and “where the lens stops” are acceptable as recognition aids. When a sentence makes an FPF-kind, relation, evidence, use-boundary claim, causal, assurance, bridge, gate, work, decision, or pattern-application commitment, the corresponding `C.29` output recovers the fields named by value and subject patterns.
+Introduce a representation when it changes what can be derived, compared, observed, constructed or ruled out for the working question. An adequate ordinary calculation may already supply the answer. If no useful consequence or next inquiry follows, keep ordinary prose or the domain result; no C.29 output is required.
 
-Zero and first-principles compatibility note: `E.1` and `E.2` govern the mission and pillar authority. `C.29` serves them by making mathematical first-principles lens use inspectable for one declared use: candidate mathematical object, preserved structure, lost structure, visible payoff, bounded lens-use action, neighboring-pattern boundary, and stop condition. It does not replace pillar authority, neighboring subject patterns, ordinary FPF reasoning, or the `E.9` design-rationale record for normative changes.
+#### C.29:4.2b - Discover a candidate from the working cue
 
-Mathematics is not a prerequisite for FPF use. Ordinary prose is enough when no mathematical structure changes the next lens-use action. C.29 earns its place only when a mathematical object, formalism, learned representation, simulation object, or mathematical family changes explanation, decision, prediction, comparison, publication, bridge, assurance input, reusable transfer, or the next lens-use repair.
+Choose the row that fits the problem, or use a closer domain construction. The menu is informative; when a listed construction is used, its named mathematical elements and conditions must be supplied. The shared test is :4.1, not membership in this list.
 
-Plain and Tech bridge:
+| Working cue | Candidate structure and first mathematical work | Conditions that can change the use |
+| --- | --- | --- |
+| Waiting, backlog, throughput | Queue or flow network: identify stations, routing, arrivals, service and waiting; derive a capacity bound or waiting relation. | Check discipline, batching, rework, finite buffers and station availability before applying the result. |
+| State change, trajectory, stabilization or control | State space, Markov model, ODE or control model: name state, transition law and constraints; add an observation map when the receiving use needs it. | A.3.3 supplies dynamics semantics; C.27.TA and C.27 apply to the temporal aspect and temporal-use claim being made. |
+| Conditional independence or computational-boundary cue | Probabilistic graph, Markov blanket or active-inference model: state variables, conditional-independence assumptions, observation/action partition and model boundary. | Recover a separately claimed physical interface, component or agency condition through its direct pattern. |
+| Dependency, interface, composition or change of algebra | Graph, hypergraph, category, operad, optic or semiring: state edge/slot meanings, objects, morphisms, identities, interface conditions and composition laws; test the required composition or transform. | Classical, tropical, Fourier–Laplace or Legendre transforms can change the retained law. F.9 supplies cross-context semantic correspondence when needed. |
+| Local-to-global flow or balance | Boundary operator, exterior derivative, divergence or Stokes-like construction: name domain, boundary, field/form/flow, local operator, boundary conditions and source or conservation balance. | The chosen domain law and regularity assumptions must support the global inference. |
+| Local rule with no global extension | Cohomology, closed/exact distinction or another obstruction: identify the cycle/cocycle, equivalence class, local closure and failed global witness. | Use the obstruction to delimit this transfer; the failure does not select the rival model or identify a cause. |
+| Sameness under transformations | Group action, symmetry, invariant or equivariant representation: identify transformations, action on variables and preserved quantity; derive a conservation link only under its theorem's assumptions. | State coordinate details and distinctions lost; a physical conservation claim needs its domain basis. |
+| Extremum, trade-off, potential or dual view | Variational, Lagrangian/Hamiltonian, action, energy, free-energy, loss, value or entropy functional; constrained optimization or Legendre/convex duality. Name variation space, constraints, boundary conditions and stationarity/extremum or dual transform. | A system's actually following that extremum is a separate dynamics or causal question. |
+| Similarity, distribution shift, population or shape movement | Metric, topology, order, embedding, coupling or optimal transport: define neighborhood/distance or transport plan, conserved mass and cost; calculate the comparison. | State what is transported and lost. C.16 supplies a used measurement/comparability construction; a policy effect or fairness claim needs its own argument. |
+| Scale transition, coarse behavior, universality or knee | Coarse-graining, RG or fixed-point view: name scale variable/window, coarse-graining rule, fixed point or attractor, basin/regularity assumptions and invariant or exponent. | Return to the microdescription when an omitted distinction matters. C.18.1, C.19.1 and C.31.ASAP supply the separately claimed scale-law, method preference and architecture preference results. |
+| Self-reference or a universal evaluator | Diagonal, self-application or fixed-point construction: specify encoding, evaluator/self-map, tested universal claim and exact obstruction. | A recursive-looking loop alone does not establish a no-go result. |
+| Uncertainty, missing observation or next sample | Probability/information measure, Bayesian workflow, BED/OED, active learning or Bayesian optimization: state variables, priors/likelihood, utility or information criterion, design/acquisition variable and estimation method. | Check prior-data conflict, predictive mismatch, estimation cost, uncertainty and robustness to model/noise error; use the result within its validation boundary. |
+| Recoverable structure under a resource bound | MDL, epiplexity or another code/measure: name source episteme/trace, observer, admissible model/coding scheme and execution bound; distinguish selected structure from residual description. | Apply the correspondence and observation/postulate boundary in :4.2c; return to source when the discarded structure matters. |
+| Learning update, curvature or optimization trajectory | Information geometry or a learning-dynamics model: specify update variables, metric/noise relation and the property being calculated. | Establish the mapping to the particular learning process before using the result beyond the formal model. |
+| Nonlinear dynamics needing a tractable observable | Koopman/operator, DMD or system-identification construction: select observables, operator and approximation; derive the forecast or diagnostic consequence. | Finite closure and predictive/control validity need checking; A.3.3 and C.27 supply the actual dynamics and temporal-use conditions. |
+| Learned scientific representation or surrogate solver | Neural operator, latent representation, embedding or world model: specify function/state/field mapping, observation map, training or simulation regime and resolution policy. | Apply :4.5a's learned-lens and validation conditions, including generalization scope and approximation loss. |
+| Intervention, policy effect or counterfactual | SCM, causal graph or micro-to-macro causal abstraction: specify assignment/intervention, outcome and preserved or approximated intervention/counterfactual structure. | C.28 supplies identification and causal-use justification; an associative graph or latent manifold may not answer this question. |
+| Probe, order or context effect with incompatible frames | Quantum-like or contextual-probability model: identify the contextual obstruction that still changes inference or action after the ordinary subject patterns. | Apply C.26's adequacy conditions. A physical quantum claim additionally needs the relevant physics and observations. |
+| Storage, computational or realizability limit | Count actual represented objects and operations; apply a resource bound or constructive/impossibility argument. | Recompute for the actual alternative representation. A valid rejection of one implementation does not yet supply a feasible replacement. |
 
-| Plain reader question | Tech recovery |
-|---|---|
-| What structure helps? | `CandidateMathObject` or `CandidateLensFamily` in a `LensCandidateNote`. |
-| How does it represent the phenomenon? | `LensMappingMode`. |
-| What survives? | `PreservedStructure`. |
-| What disappears or is deliberately ignored? | `LostStructure`. |
-| Why trust this use? | `LensUseBoundaryValue`, validation overlay when validation use is being claimed, and governing evidence and assurance patterns when their claims are being made. |
-| What can the reader now do? | `NextLensUseAction` or `declaredLensUse`. |
-| When must this use stop or return? | `StopCondition`; include `blockedLensOverread?` only when it passes F.19's plausible-reader test. |
-
-State and transition semantics stay with `A.3.3`; temporal aspects stay with `C.27.TA`; characteristic spaces and overlays stay with `A.19`; temporal-use adequacy stays with `C.27`; scale-law and general method-scale preference claims stay with `C.18.1` and `C.19.1`; architecture scale-preference claims stay with `C.31.ASAP`; causal-use question and verdict stay with `C.28`.
-
-#### C.29:4.2a - Mathematicalization Utility Principle
-
-A mathematical lens is worth introducing only when it changes the working reader's next lens-use action by making at least one first-principles modeling structure visible:
-
-- a declared signature, structure, state variable, transition, or observation map;
-- a symmetry, invariant, conservation-like constraint, equivalence, or composition rule;
-- a local-global relation, boundary relation, scale variable, coarse-graining rule, scale window, or correspondence condition;
-- a variational principle, action, energy, free-energy, loss, or value functional, Euler-Lagrange or stationarity condition, constrained optimization target, dual view, objective vector, or resource trade-off;
-- an uncertainty, probability, information, typicality, approximation, sensitivity, or validation boundary;
-- an algorithmic, constructive, resource, realizability, implementation, or adversarial limit;
-- a bottleneck, obstruction, impossibility, consistency boundary, or failed transfer in the candidate-model space;
-- a rival-lens distinction that changes model choice;
-- a causal, intervention, or counterfactual preservation question governed by `C.28`;
-- a bridge or export loss, governed by `F.9` when semantic correspondence between local senses is needed;
-- a measurement or comparability condition governed by `C.16`.
-
-If no next lens-use action changes, keep the text as ordinary prose, downgrade it to a didactic metaphor, or return `NoMathLensUseNeededNote`. A lens that merely makes prose more impressive is not a successful `C.29` result.
-
-#### C.29:4.2b - First-principles lens-family use
-
-`C.29` admits first-principles use only when the principle family changes what the working reader can derive, inspect, compare, observe, or honestly block. The family name is never enough. Each row below is a discovery and recovery discipline: it tells the reader what must be named before claim-bearing mathematical-lens use is bounded for use.
-
-| First-principles family | Use when the working problem asks | Required `C.29` recovery | Stop or neighboring-pattern application |
-|---|---|---|---|
-| Boundary, exterior derivative, Stokes-like local-to-global relation | How local increments, flows, sources, interfaces, or balances compose into a global claim. | Name the domain, boundary, field, form, or flow, derivative, divergence, or curl-like operator, boundary condition, and what is conserved, sourced, or lost at the boundary. | Does not make all boundary language one mechanism; measurement, evidence, and bridge claims are governed by `C.16`, `A.10`, or `F.9`. |
-| Cohomology, closed/exact distinction, topological obstruction | Why a local rule cannot be made global, or why a transfer or composition is blocked. | Name the cycle or cocycle-like object, equivalence class or obstruction, local closure condition, failed exactness witness or failed global witness, and the blocked claim. | Useful obstruction is a `LostStructure` or `StopCondition`; it is not a causal explanation without `C.28` and evidence. |
-| Symmetry, invariance, equivariance, Noether-like conservation | Which transformations leave the relevant claim unchanged, or which conservation-like quantity follows from an invariance. | Name the transformation family, action on the described variables, invariant or conserved quantity, assumptions, and distinctions intentionally lost. | Does not transfer physical conservation, coordinate-free truth, or causal mechanism without domain evidence relation and dynamics semantics. |
-| Variational principle, action, energy, free-energy, loss, or value functional, Legendre or convex duality | Whether a behavior, representation, design, or trade-off follows from stationarity, extremum, dual variables, or potential transformation. | Name the functional, constrained variation space, constraints, boundary conditions, stationarity or extremum condition, dual transform, and what the dual view makes visible. | Does not imply the target literally optimizes that functional unless `A.3.3`, `A.10`, or `C.28` governs the dynamics semantics, evidence relation, or causal use. |
-| RG, coarse-graining, fixed point, basin, universality | Why different microdescriptions can share one macropattern, or when a scale claim stops. | Name the scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, invariant or exponent, and lost microstructure. | Scale-law adequacy and general method scale-preference claims are governed by `C.18.1` and `C.19.1`; architecture scale-preference claims are governed by `C.31.ASAP`; no micro-mechanism identity is licensed. |
-| Diagonal, self-reference, fixed-point theorem, no-go family | Whether a universal evaluator, complete language, self-model, closure rule, or governance rule is blocked by self-application. | Name the encoding, evaluator or self-map, diagonal or fixed-point construction, universal claim being tested, and the impossibility or closure boundary named by value. | Does not prove every recursive-looking case is a no-go theorem; assurance or governance claims are governed by `B.3`, `E.19`, or the local domain pattern. |
-| Composition, category, operad, optic, semiring or limit transform | Whether composition, interface, view, transformation, or algebraic law is the useful preserved structure. | Name objects, morphisms or relations, composition law, identity or interface condition, preserved algebraic law, failed transfer, and any limit transform such as classical or tropical or Fourier-Laplace or Legendre. | Bridge semantics and Bridge-dependent substitution safety are governed by `F.9`; C.29 only records the declared lens use and its loss. |
-| Probability, information, observation, acquisition | Which uncertainty, information, typicality, readout, or next observation changes the next lens-use action. | Name the random variables or distributions, utility or information criterion, observation or probe design variable, model assumptions, estimation method, validation boundary, and robustness note. | Measurement, evidence, experiment planning, causal-use verdicts, and assurance stay with `C.16`, `A.10`, `C.28`, `A.15`, and `B.3`. |
-| Bounded-observer structural information, MDL, epiplexity, compression, or description-recoverability lens | Whether a bounded observer can recover enough selected structure from an architecture description, relation trace, generated graph, reusable-structure accounting result, or other source episteme to change the next lens-use action. | Name the source episteme or trace, observer boundary, candidate information measure or coding scheme, mapping mode, preserved selected structure, lost structure, visible payoff, observation or postulate boundary, and source-return condition. | Does not make epiplexity or compression an architecture characteristic, quality score, selector result, evidence relation, assurance result, OOD guarantee, or causal proof. Architecture, structural-view, reuse-accounting, measurement, evidence, assurance, and bridge claims are governed by `C.30`, `C.30.ASV`, `C.30.AD`, `C.31`, `C.31.RSA`, `C.16`, `A.10`, `B.3`, or `F.9` when those claims are being made. |
-
-This table is normative as a recovery guide, not as a mandatory taxonomy. A local project may name a closer family, but it must recover the same claim-bearing structure: `CandidateMathObject` for the candidate family, preserved structure, lost structure, visible payoff, lens-use boundary value, and stop condition.
-
-P2W and formal-declaration boundary: when one of these families is used in a P2W carry-through from accepted problem-side material into later work, `C.29` still records only the declared mathematical-lens use. A declared formal relation can make mathematical-to-mathematical exactness or near-sameness visible; it does not by itself declare a `FormalSubstrate` signature, `PrincipleFrame`, mechanism, observation-bound world claim, evidence relation, causal-use relation, Bridge-declared lens use, or work. Use `A.6.0` for the `U.Signature(profile=FormalSubstrate)` declaration, `A.6.1` when mechanism import or realization is being claimed, and `E.18.1` when accepted problem-side material needs a formal declaration for later FPF use.
+For a first candidate, compare with ordinary prose, direct observation or the accepted domain model before a broader survey. When the question is a tradition-scale source synthesis, use G.2; C.29 needs only the candidate or rival relevant to this working question.
 
 #### C.29:4.2c - Bounded-observer structural-information lens
 
-Use this subcase when a mathematical lens estimates, compresses, codes, compares, or otherwise exposes how much selected structure a bounded observer can recover from a description, relation trace, generated graph, model, or reusable-structure accounting result. Typical examples include MDL-like two-part codes, epiplexity-style extracted-structure estimates, compression-complexity comparisons, and information-functionals over relation graphs. The EntityOfConcern remains the declared mathematical-lens use, not the architecture, not the description, and not the observer.
+Use this subcase when a mathematical lens estimates, compresses, codes, compares, or otherwise exposes how much selected structure a bounded observer can recover from a description, relation trace, generated graph, model, or reusable-structure accounting result. Typical examples include MDL-like two-part codes, epiplexity-style extracted-structure estimates, compression-complexity comparisons, and information-functionals over relation graphs.
 
 `C.2.8` defines extractable structural information for the episteme, expressing form and observer under stated conditions. When this lens output is used to estimate that characteristic, state how its mathematical objects, admissible models, selected structure and resource bound correspond to those conditions. A comparison that uses an adequate domain method directly needs no mathematical lens.
 
@@ -58069,7 +58246,7 @@ When the target is a physical, organizational, or project-world situation, the r
 
 #### C.29:4.2d - Architecture-local lens descriptions
 
-Architecture work may use C.29-local descriptions for graph, flow, control, structural-information, RG or coarse-graining, and multilevel-learning or frustration lenses. These names are C.29 output descriptions, not architecture ontology, not proof, and not durable FPF kinds by themselves.
+Architecture work may use C.29-local descriptions for graph, flow, control, structural-information, RG or coarse-graining, and multilevel-learning or frustration lenses.
 
 | Local C.29 description | Candidate mathematical object | Visible payoff | Stop condition |
 | --- | --- | --- | --- |
@@ -58138,59 +58315,17 @@ Declared lens use: triage, explanation, candidate generation, rival-lens compari
 
 #### C.29:4.3 - Use boundary
 
-This boundary prevents `C.29` from being over-applied.
+Use C.29 for a consequential choice or transfer of mathematical representation. Ordinary equations, data structures and accepted domain models remain usable directly when no such issue is open. A separate causal, measurement, dynamics, semantic-bridge or other claim uses its subject pattern under :4.4.6.
 
-**Use `C.29` when** a mathematical object, formalism, learned representation, simulation object, or mathematical family is used as a lens for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer over a physical, organizational, epistemic, social, computational, scientific, or methodological phenomenon, or when a phenomenon, decision, explanation, comparison, model-selection, diagnosis, or method-choice problem is stable enough that the first useful lens-use action is to choose a cheap candidate lens that makes relevant structure visible.
+Use **structure-preserving representation** in discoverability-bearing prose unless equivalence or identity is explicitly the justified mapping mode.
 
-**Do not use `C.29` as the subject pattern when:**
+#### C.29:4.4 - Record the result for its receiving use
 
-- the mathematics is ordinary local domain theory already governed by a domain pattern;
-- the phrase is a purely didactic analogy that is not reused for decisions, evidence, assurance, publication, bridge, comparison, or transfer;
-- the question under repair is causal-use question, causal-use justification, or verdict, which is governed by `C.28`;
-- the question under repair is measurement construction, scale construction, direct comparability, or evidence-stub adequacy, which is governed by `C.16`;
-- the question under repair is cross-context meaning or Bridge-dependent substitution safety, which is governed by `F.9`;
-- the question under repair is dynamics semantics without a separate lens-transfer claim, which is governed by `A.3.3`;
-- the question under repair is a `CharacteristicSpace` overlay with no domain-transfer, prediction, assurance, publication, or reusable explanation claim, which stays under `A.19`.
-- the use under repair makes a different kind of claim: use `C.11` for a `ChoiceResult` or local choice record; `G.5` for selected-set result declaration; `G.9` for parity or benchmark result claims; `A.15`, `A.15.2`, and `A.15.1` for a selected Method, `U.WorkPlan`, performed `U.Work`, or work-result record; `E.17` for a source-backed publication face and return to source and `E.24.PUB` for publication occurrence and availability; or `A.15.4` for work-relevant appearance-based reliance repair.
-- the use under repair is an explanation-facing rendering, bounded comparative review unit, same-EntityOfConcern representation-scheme transition, or controlled semantic coarsening; those claims stay with `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, or `A.6.3.CSC`, with C.29 fields carrying only mathematical-lens use when the mathematical lens affects the stated declared lens use.
-- the claim being made is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for use; temporal-claim adequacy stays with `C.27`.
+First complete or delimit the mathematical move in :4.1. Record its question, concrete object, correspondence, retained and lost structure, consequence and next action when another reader or later reliance needs them. Choose the smallest sufficient form below; a form does not replace a missing construction, derivation or observation.
 
-This boundary keeps mathematical-lens use from becoming a shadow record for neighboring work.
+**One reliance rule.** A conditional derivation, diagnostic comparison or reusable explanation may remain a MiniCard when it retains the same object, assumptions, correspondence, loss and narrow use, and its consequence is used to understand the model or choose the next inquiry. A FullCard is required when the result is relied on as an adequate model of the phenomenon for prediction, an operational or consequential decision, model adoption, benchmark or assurance input, Bridge-dependent reliance, or transfer as a reusable model to further cases. It then needs the applicability, rival and validation information relevant to that reliance. Publication or repetition of the same conditional explanation alone does not change its class.
 
-Lexical rule: use **structure-preserving representation** rather than **structure-preserving identification** in discoverability-bearing prose, unless equivalence or identity is explicitly the declared `LensMappingMode`.
-
-#### C.29:4.4 - Output choice before the full card
-
-Begin with action guidance, not with the full card.
-
-First action choices: keep ordinary prose, introduce a cheap candidate lens, name the `CandidateMathObject` or formal position that fits the stated use more directly, add visible payoff, add loss, choose the principal rival lens, add validation regime, narrow an existing claim, downgrade an overclaim, or apply the applicable FPF pattern to any non-lens claim being made.
-
-Memory hook: a successful C.29 application can raise or lower the mathematical claim-bearing use. It can introduce a first candidate lens, keep ordinary domain prose, remove a mathematical lens, repair relation wording through `A.6.P`, declare a `CharacteristicSpace` through `A.19`, use `C.16` for measurement and comparability, apply `F.9` for bridge semantics, ask the `C.28` causal-use question, restore work or source responsibility through `A.15`, or apply `C.27` for temporal-use adequacy.
-
-No-lens cheap output: name the `ProblemStructureCue`, choose the cheapest candidate lens family that makes it visible, test whether that lens changes the next lens-use action, and if no action changes, keep ordinary prose or collect more observations before using mathematical-lens wording.
-
-First neighboring-pattern map:
-
-| Claim-bearing question | Govern there first | C.29 remainder |
-|---|---|---|
-| relation-precision structure, relation kind, or structure-preserving relation wording | `A.6.P` and local relation patterns; `A.6.RCD` only for the exact residual needed claim after existing direct relations fail | mathematical-lens use only if a mathematical object changes the stated use; C.29 correspondence does not admit or make the relation obtain |
-| state variables, transition law, observation map, constraints, or calibration | `A.3.3` and `A.19` | preserved structure and lost structure and lens stop condition |
-| measurement construction, scale, unit, polarity, or comparability | `C.16` | lens-use boundary value for measurement-dependent use |
-| scale law, universality, knee, exponent, general method-scale preference, or architecture scale preference | `C.18.1` or `C.19.1` for scale-law and general method BLP claims; `C.31.ASAP` for architecture scale-preference claims over a declared alternative set, scale variable, and scale window | scale-bounded mathematical-lens use |
-| cross-context meaning, bridge use, or Bridge-dependent substitution use | `F.9` | mathematical structure used inside the bridge claim |
-| causal, intervention, policy, or counterfactual use | `C.28` | whether the lens preserves, approximates, or blocks causal-use structure |
-| evidence, provenance, source currentness, assurance, release, selector, or benchmark use | `A.10`, `B.3`, or relevant `G.*` pattern | declared mathematical-lens use as one input only |
-
-Subject-pattern boundary: `C.29` coordinates the declared mathematical-lens use across relation-precision structure, state spaces, characteristic spaces, measurement, dynamics, scale, bridge, causal, evidence, assurance, selector, and benchmark patterns. It does not replace any one of them.
-
-1. **Find the claim-bearing phrase.** Mark the mathematical phrase named by value that affects explanation, decision, prediction, comparison, publication, bridge, assurance-input, or reusable transfer.
-2. **Choose the smallest output class that preserves honesty.** The output-class decision happens before any full-card fields.
-3. **Name the concrete mathematical object or structure.** Family labels such as `category theory`, `field`, `graph`, `quantum`, `RG`, or `geometry` are entry prompts, not adequate `CandidateMathObject` values for the stated use by themselves.
-4. **State the lens mapping mode.** Use the least committing honest `C.29`-local lens mapping mode: analogy-only prompt, representation, empirical fit, simulation, quotient, abstraction, coarse-graining, embedding, homomorphism, isomorphism, functor-like transfer, cross-context lens-transfer candidate, or accepted local theory. If cross-context meaning, Bridge-dependent substitution, CL, sense cells, or bridge use is being claimed, `F.9` governs that claim; the C.29 fields record only mathematical-lens use for the declared transfer.
-5. **State preserved structure and lost structure.** This is the central repair action.
-6. **State what becomes visible.** Name the invariant, obstruction, fixed point, symmetry, conservation law, diagnostic boundary, lens-bounded distinction, model-selection consequence, or other payoff.
-7. **State the declared lens use and stop or return condition.** Say what the declared lens use now carries, name the next action, and identify the governing FPF pattern that defines or constrains any claim outside that use. Include a blocked overread only when it passes F.19's plausible-reader test.
-8. **If the claim does not pass, repair rather than merely fail.** Downgrade, narrow, switch to a principal rival lens, add `LensUseBoundaryValue` or validation regime, split any non-lens claim to its governing FPF pattern, or remove the mathematical phrase from claim-bearing use.
+Keep adequate existing domain/model documentation and refer to it; FullCard means a recoverable full account, not recopying that information into a blank form. Reassess the same rule whenever the intended use or reliance changes.
 
 Application output classes:
 
@@ -58198,10 +58333,10 @@ Application output classes:
 |---|---|---|---|
 | `NoMathLensUseNeeded` | No C.29 output; keep the ordinary local result or Plain orientation | Accepted local mathematics or didactic language makes no separate lens-use claim requiring resolution. | Finish with the local result. A short `NoMathLensUseNeededNote` is useful only when a proposed or disputed lens use needs an explanation; it is not a certificate required for ordinary local mathematics. |
 | `LensCandidateNote` | `MathLensUse.LensCandidateNote` | A problem whose next lens-use action can depend on a mathematical lens is stable enough for a first candidate lens, but no adequate mathematical object has been named yet. | `TargetPhenomenon`, `ProblemStructureCue`, `CandidateLensFamily`, optional `CandidateMathObject?`, `WhyThisLensCouldHelp`, `ExpectedVisiblePayoff`, `ObservableOrControllableCue?`, `NextLensUseAction`, `OrdinaryRivalOrFallback`, `StopCondition`, `NextMathLensUseOutput`. |
-| `OneLine` | `MathLensUse.OneLine` | An under-specified phrase affects explanation, decision, prediction, comparison, publication, bridge, assurance input, or reusable transfer and needs repair before reuse. | `TargetPhenomenon`, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `VisiblePayoff`, `NextLensUseAction`, optional `ObservationOrReadoutNeeded?`, `OrdinaryRivalOrFallback`, `StopCondition`. |
-| `MiniCard` | `MathLensUse.MiniCard` | The lens is declared usable for a reusable explanation, local decision, comparison, or method-selection claim. | `OneLine` content plus `InvariantsExposed`, `LensUseBoundaryValue`, `declaredLensUse`, optional `blockedLensOverread?`, principal rival, and `RivalLensRelation?` when another mathematical lens changes the bounded lens-use action. |
-| `FullCard` | `MathLensUse.FullCard` | Publication, bridge, assurance input, benchmark, model selection, prediction, formal pattern claim, or repeated cross-case use is being made. | Full `MathLensUse.Card@Context` plus any conditional overlays. |
-| `NeighborGoverningPatternNote` | `NeighborGoverningPatternNote` | The claim being made is causal use, bridge or substitution, measurement construction, scale construction, direct comparability, evidence-stub adequacy, dynamics semantics, temporal adequacy, decision result, selected method, work plan, performed work, evidence trust, assurance, explanation rendering, comparative review, representation transition, coarsening, scale law, release, selector, or benchmark. | Name the governing FPF pattern and apply `C.28`, `F.9`, `C.16`, `A.3.3`, `C.27`, `C.11`, `A.15`, `A.15.1`, `A.15.2`, `A.15.4`, `A.10`, `B.3`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `C.18.1`, `C.19.1`, or a relevant G pattern. The C.29 application keeps only the declared lens-use result. |
+| `OneLine` | `MathLensUse.OneLine` | A concrete object and correspondence can support a bounded first inspection or repaired phrase; adequacy for further reliance remains open. | `TargetPhenomenon`, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `VisiblePayoff`, `NextLensUseAction`, optional `ObservationOrReadoutNeeded?`, `OrdinaryRivalOrFallback`, `StopCondition`. |
+| `MiniCard` | `MathLensUse.MiniCard` | Conditional derivation, diagnostic comparison, choice of a next inquiry, or reusable explanation within the same declared assumptions and losses. | `OneLine` content plus `InvariantsExposed`, `LensUseBoundaryValue`, `declaredLensUse`, optional `blockedLensOverread?`, principal rival, and `RivalLensRelation?` when another mathematical lens changes the bounded action. |
+| `FullCard` | `MathLensUse.FullCard` | Reliance on the result as an adequate phenomenon model under the rule above. | Full `MathLensUse.Card@Context`, using existing references where adequate, plus the applicable overlays and receiving subject-pattern result. |
+| `NeighborGoverningPatternNote` | `NeighborGoverningPatternNote` | The next action concerns a separately governed question. | Name that question and follow its receiving action in :4.4.6. |
 
 Micro-template examples:
 
@@ -58214,16 +58349,16 @@ MathLensUse.LensCandidateNote@ArchitectureP2W := {
   CandidateLensFamily: boundary and variational heat-flow lens,
   CandidateMathObject?: temperature field with boundary-condition relation and optional energy functional,
   WhyThisLensCouldHelp: the lens can expose whether the useful distinction is a preserved heat-flow invariant, a boundary-condition mismatch, or a deformation factor outside the model,
-  ExpectedVisiblePayoff: decide whether the next honest output is a C.29 one-line lens use, an A.6.0 FormalSubstrate signature declaration, or an E.18.1 P2W carry-through use of the accepted problem-side distinction,
+  ExpectedVisiblePayoff: a net heat-flow imbalance would require stored-energy change; a balanced total alone would still leave the spatial gradient needed for the deformation question unresolved,
   ObservableOrControllableCue?: boundary temperatures, heat-flow observations, reference-plane assignment, deformation readout,
-  NextLensUseAction: write `MathLensUse.OneLine` only after mapping, preserved structure, lost structure, and stop condition are nameable; apply `A.6.0` only when `U.Signature(profile=FormalSubstrate)` must be declared; apply `E.18.1` only when the accepted problem-side distinction must be used in later FPF work,
+  NextLensUseAction: define the fixture control volume and heat paths; compare measured inflow and outflow, then obtain spatial temperatures and mechanical constraints before deriving deformation,
   OrdinaryRivalOrFallback: ordinary deformation narrative plus local measurement note,
-  StopCondition: keep the candidate note until mapping, preservation, loss, and stop conditions support a one-line use; return to the ordinary deformation narrative if the candidate lens does not change the next action,
+  StopCondition: keep this as a candidate until the heat balance and temperature-to-deformation correspondence are specified; return to the deformation question when omitted gradients or constraints can change its answer,
   NextMathLensUseOutput: MathLensUse.OneLine or NeighborGoverningPatternNote
 }
 ```
 
-This filled slice is a C.29 first-use output. Declare a formal signature through `A.6.0` and complete P2W carry-through through `E.18.1` when those claims are being made. Use `A.15` for method/Work alignment, `A.15.2` for a work plan, `A.15.1` for performed Work, and `A.15.4` for work-relevant appearance-based reliance repair. Evidence, causal-use, and assurance claims use `A.10`, `C.28`, and `B.3`, respectively.
+The heat balance is the proposed first mathematical operation. A formal vocabulary/law declaration uses A.6.0 only when that separate declaration is needed; carrying accepted problem-side distinctions into later work uses E.18.1. The receiving conditions are stated in :4.4.6.
 
 
 ```text
@@ -58257,21 +58392,30 @@ MathLensUse.OneLine example := {
 }
 ```
 
+**Worked conditional queue comparison.** A production manager asks whether speeding station A would raise the line's output, or whether the next investigation should focus on B. Use an authored, stipulated case: identical jobs arrive at `a_n = 10n` minutes, starting with `n = 0`, and pass through A then B. Both stations have one server, first-come-first-served non-preemptive service, no failures or rework, and an unbounded intermediate queue in the model. For a finite run the same calculation applies while its actual buffer does not fill. Transfer time is zero. A takes 10 minutes per job; B takes 15. The line starts empty.
+
+The mathematical object is a deterministic two-station tandem queue. A job represents one part; an arrival is its release to A; service is uninterrupted processing at the named station; a departure from A is the arrival at B. This preserves order, routing, occupied service time and interstation waiting. Variable product mix, stoppages, rework and finite-buffer blocking are omitted. The network correspondence and the importance of blocking are introduced in [Wu's queueing-network lecture, slides 9 and 23–24](https://web.mit.edu/1.041/spring2023/lectures/L10-queuing-network-models-2023sp.pdf); the following deterministic numbers and derivation are constructed here.
+
+A job can start only after it has arrived and the previous job has left that station. With previous departures initialized to zero, its departure times therefore obey:
+
 ```text
-MathLensUse.MiniCard example := {
-  TargetPhenomenon: production-line throughput and latency,
-  CandidateMathObject: queueing network with stated stations and service-rate assumptions,
-  LensMappingMode: representation,
-  PreservedStructure: flow, bottlenecks, service rates, waiting times,
-  LostStructure: human meaning, contractual obligations, rare failure modes, causal interventions not represented by the network,
-  InvariantsExposed: bottleneck station and queue-length sensitivity under stated assumptions,
-  LensUseBoundaryValue: accepted local theory plus local observations,
-  declaredLensUse: throughput and latency reasoning inside the declared line model,
-  PrincipalRivalLens?: direct empirical dashboard readout,
-  RivalLensRelation?: complementary,
-  StopCondition: stop or narrow throughput and latency use when the stated service-rate assumptions fail or omitted rare failures affect it; apply C.28 when an intervention claim is needed
-}
+d_A(n) = max(a_n, d_A(n−1)) + 10
+d_B(n) = max(d_A(n), d_B(n−1)) + 15
+d_A(−1) = d_B(−1) = 0
 ```
+
+| Job n | Arrival a_n, min | Departure A, min | Departure B, min | Total latency, min |
+| --- | --- | --- | --- | --- |
+| 0 | 0 | 10 | 25 | 25 |
+| 1 | 10 | 20 | 40 | 30 |
+| 2 | 20 | 30 | 55 | 35 |
+| 3 | 30 | 40 | 70 | 40 |
+
+The recurrence gives `d_A(n) = 10n + 10` and `d_B(n) = 15n + 25`: after its first arrival B remains occupied. The output spacing is 15 minutes, hence the long-run rate is 4 jobs/hour. The station-capacity bound is `min(6, 4) = 4` jobs/hour, attained in this stipulated run. Latency is `d_B(n) − a_n = 25 + 5n` minutes. It keeps growing; the calculation supplies no finite steady-state mean delay.
+
+Now halve A's service time to 5 minutes while leaving the arrivals and B unchanged. The same recurrence gives `d_A(n) = 10n + 5` and `d_B(n) = 15n + 20`. The rate is still 4 jobs/hour; each job's latency falls by 5 minutes but still grows with n. The useful distinction is between a shorter initial traversal and a higher sustained output rate. The next inquiry is therefore to observe B's service, interruptions and queue growth, and test whether its assumed restriction describes this line. An observed-output dashboard is the ordinary fallback and a complementary check; output counts alone do not derive the two station-change scenarios.
+
+**Use and return.** This is a MiniCard-level conditional derivation and comparison, reusable with the same premises. It directs observation, not a capacity commitment about an unvalidated line. Actual prediction, equipment selection or operational reliance uses :4.4's full applicable account and :4.5a's validation. Keeping A's original 10-minute service, if an omitted inspection adds 5 minutes to every B service, B's service becomes 20 minutes: `d_B(n) = 20n + 30`, the rate is 3 jobs/hour and latency is `30 + 10n`. Withdraw the 4-job/hour and `25 + 5n` results. If finite storage instead blocks A, reconstruct the blocked-service recurrence before reusing the schedule.
 
 ```text
 MathLensUse.OneLine := {
@@ -58306,9 +58450,7 @@ MathLensUse.LensCandidateNote := {
 }
 ```
 
-`MathLensUse.LensCandidateNote` is a cheap first-candidate lens selection note. Its successful next outputs are `NoMathLensUseNeededNote`, `MathLensUse.OneLine`, or a named neighboring subject-pattern note. It is not evidence, assurance, a bridge, a decision record, a selector result, a literature survey, or a full lens-use card.
-
-Name guard for this note: `ProblemStructureCue` is a recognition cue, not a FPF signature; `CandidateLensFamily` is a family prompt, not a kind; `NextLensUseAction` is action guidance, not a work record; `NextMathLensUseOutput` is the next C.29 output class, not a new record family.
+`MathLensUse.LensCandidateNote` is a cheap first-candidate lens selection note. Its successful next outputs are `NoMathLensUseNeededNote`, `MathLensUse.OneLine`, or a named neighboring subject-pattern note.
 
 Do not use `MathLensUse.OneLine` with an empty `CandidateMathObject`. If the candidate object has not yet been named, use `MathLensUse.LensCandidateNote` first, keep ordinary prose, or write a `NeighborGoverningPatternNote` when a non-lens claim is being made.
 
@@ -58316,18 +58458,8 @@ Cheap stop: if the mathematical phrase does not affect any claim beyond orientat
 
 #### C.29:4.4.1 - Output set and declared-use boundary
 
-When a C.29 result is needed, choose its form below. The ordinary non-use branch requires no C.29 output.
+Use the single output/reliance rule in :4.4. The form states the mathematical account; a used empirical, causal, semantic-bridge, assurance or decision result additionally needs its subject-pattern basis in :4.4.6.
 
-| Output | Meaning |
-|---|---|
-| `NoMathLensUseNeededNote` | An optional short explanation resolving a proposed or disputed lens use that is unnecessary here. Accepted local mathematics or didactic language alone requires no note. |
-| `MathLensUse.LensCandidateNote` | Cheap first-candidate note for an under-lensed problem whose next lens-use action can depend on a mathematical lens; not evidence and not a full lens-use card. |
-| `MathLensUse.OneLine` | Target, mathematical object, lens mapping mode, preserved structure, lost structure, visible payoff, next lens-use action, optional observation or readout needed, ordinary rival or fallback, and stop condition. |
-| `MathLensUse.MiniCard` | One-line plus invariant or payoff, `LensUseBoundaryValue`, declared lens use, stop condition, optional grounded overread, and rival-lens relation when disagreement changes the next lens-use action. |
-| `MathLensUse.FullCard` | Full card for publication, bridge, assurance input, model selection, benchmark, prediction, or reusable explanation. |
-| `NeighborGoverningPatternNote` | A named neighboring FPF pattern defines or constrains the causal, bridge, evidence, scale, dynamics, temporal, decision, work, explanation, comparison, representation, measurement, or assurance claim being made; the C.29 application records only the declared lens-use result. |
-
-Positive warning: a successful `C.29` output makes the mathematical lens honest for its declared use. Any empirical truth, causal-use, bridge, assurance, release, decision, or benchmark claim still needs its governing FPF pattern.
 
 `LensMappingMode`, `LensUseBoundaryValue`, and declared lens use are separate fields.
 
@@ -58352,46 +58484,21 @@ Positive warning: a successful `C.29` output makes the mathematical lens honest 
 | SoTA-echo candidate | structured exploration and lens-use testing | accepted FPF law, assurance, release, or foundation claim |
 | mechanized proof | formal property under assumptions | real-world adequacy unless assumptions and evidence hold and any needed semantic Bridge is established |
 
-State the declared lens use in `declaredLensUse` and its stopping or return boundary in `StopCondition`. Elegance, familiarity, source prestige, and mapping type supply no substitute for that declaration. Include `blockedLensOverread?` only when it passes F.19's plausible-reader test. Any empirical truth, causal-use, bridge, assurance, release, decision, or benchmark claim remains a separate neighboring-pattern claim.
+State the declared lens use in `declaredLensUse` and its stopping or return boundary in `StopCondition`. Elegance, familiarity, source prestige, and mapping type supply no substitute for that declaration. Include `blockedLensOverread?` only when it passes F.19's plausible-reader test.
 
 #### C.29:4.4.2 - From lens to local action
 
-Local action change from a mathematical lens is limited to these cases unless a neighboring pattern defines or constrains the needed non-C.29 use:
+A consequence can direct a new observation, make a bounded comparison possible, expose a bottleneck or obstruction, or reject a candidate representation. State which of these happens and why. If the requested result is a plan, decision or other neighboring result, supply the mathematical consequence to that result under :4.4.6.
 
-1. observe or measure a newly named variable or relation;
-2. compare only under a declared structure and loss boundary;
-3. diagnose a bottleneck, obstruction, mismatch, invariant, or failed transfer;
-4. choose or reject a principal rival lens for this local use;
-5. narrow, downgrade, or block a tempting overread;
-6. apply the governing FPF pattern when a claim being made exceeds the declared lens use.
+**Worked local bottleneck: dense-state storage.** A proposed dense pure-state representation for 50 qubits contains `2^50` complex amplitudes. At a stipulated 16 bytes per amplitude, its array alone requires `16 × 2^50 = 2^54` bytes, or `16,777,216 GiB`. A 64 GiB implementation cannot hold it. Counting the representation's elements and multiplying by storage per element identifies this bottleneck before implementation.
 
-Each item closes either as a local C.29 output or as a named neighboring-pattern application. If the needed result is a work plan, choice result, selector output, benchmark, or evidence record, publish that neighboring result in its subject pattern rather than from this list.
+Recover the requested observable or property, then reconsider which structure must be represented. A restricted case, another representation or a justified approximation may change the resource demand; estimating each actual candidate's storage and work can change the choice. When a particular representation change has been chosen, [A.6.3.RT:4.1][fpf-a6-3-rt-4-1-ref] supplies the conversion and preserved/lost-content check. Until a suitable domain algorithm is supplied, the present result is rejection of the dense implementation and a specific representation question. Ordinary storage arithmetic alone needs no lens card.
 
 #### C.29:4.4.3 - No-lens entry: choosing a first candidate lens
 
 Use this when the next lens-use action can benefit from a mathematical lens but no adequate mathematical object has been named. The output is `MathLensUse.LensCandidateNote`, not `MathLensUse.OneLine` and not a full card. State the `ProblemStructureCue`, choose one cheap `CandidateLensFamily`, say what it could make visible, name the `ObservableOrControllableCue?` when available, state the `NextLensUseAction`, compare it with the `OrdinaryRivalOrFallback`, and stop if no action changes. If the cue is still pre-articulation and no stable `ProblemStructureCue` can be named, do not mathematize it; preserve cue plurality through `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, or the relevant language-state pattern before applying `C.29`.
 
-Candidate guidance rows are examples for first recognition. Use the row that fits the working cue, or state a closer local cue using the same fields.
-
-| `ProblemStructureCue` | Cheap `CandidateLensFamily` | First bounded lens-use action and stop |
-|---|---|---|
-| waiting, backlog, bottleneck, or throughput | queue or flow network | Observe arrivals, work in progress, service time, wait time, and bottleneck candidate; do not infer obligation, motivation, or managerial authority from the queueing lens alone. |
-| state change, trajectory, stabilization, or control pressure | state-space, dynamics, Markov, ODE, or control lens | Name state, transition law, observation map, and validity window; use `A.3.3` for dynamics semantics, `C.27.TA` for temporal aspects, and `C.27` for temporal-use claims when those claims are being made. |
-| conditional-independence boundary, active-inference boundary, Markov blanket, or computational-boundary cue | probabilistic graphical model, Markov-blanket, information-theoretic, active-inference, or contextual-probability lens | Name variables or states, conditional-independence assumption, observation and action partition, model-use boundary, and stop condition; physical boundary, interface module, component, description, and agency-threshold claims remain with their direct patterns. |
-| dependency, interface, composition, or transfer failure | graph, hypergraph, category, operad, or compositional lens | Expose edges, edge meaning, slots, interfaces, composition law, and failed transfer; use `F.9` when cross-context meaning or Bridge-dependent substitution is being claimed. |
-| local-to-global boundary relation, conservation across a boundary, or source balance or sink balance | Stokes-like, exterior-derivative, divergence, flux, or boundary-operator lens | Name the domain, boundary, local rule, boundary condition, and conserved or sourced quantity; do not infer mechanism, evidence, or bridge safety without the relevant subject pattern. |
-| local rule that cannot become a global solution, or a transfer blocked by topology | cohomology, closed/exact distinction, obstruction, or failed-extension lens | Name the local closure condition, global witness that fails, obstruction class or equivalent diagnostic boundary, and the blocked claim. |
-| comparison, similarity, distribution shift, population movement, or shape change | metric-space distance, topology, embedding, or optimal-transport lens | Declare what distance, neighborhood, order, embedding, coupling, or transport cost preserves and what it loses; use `C.16` for comparability and measurement construction when those claims are being made. |
-| scale transition, coarse behavior, universality, knee, fixed point, or basin-of-attraction cue | coarse-graining, RG, fixed-point, or scaling-law lens | Name scale variable, scale window, coarse-graining rule, fixed point or attractor, basin condition or regularity condition, and invariants; use `C.18.1` for scale-law adequacy, `C.19.1` when general method scale-preference or BLP preference is being claimed, and `C.31.ASAP` when an architecture scale-preference claim is being made. |
-| invariance under transformations, coordinate changes, or conservation-like claim | symmetry, group action, Noether-like, invariant, or equivariant representation | Identify the transformations, invariant or conserved quantity, assumptions, distinctions preserved, and coordinate details lost; do not import physical conservation without evidence. |
-| extremal behavior, trade-off, dual view, potential, or cost relation or resource relation | variational, Lagrangian or Hamiltonian, action, energy, or free-energy, Legendre, convex-duality, or constrained-optimization lens | Name the functional, variation space, constraints, boundary conditions, stationarity or extremum condition, dual transform, and what the dual view makes visible. |
-| self-reference, universal evaluator, complete-language claim, closure paradox, or impossible total method | diagonal, fixed-point theorem, no-go, or self-application lens | Name the encoding, evaluator or self-map, diagonal construction, universal claim tested, and closure or impossibility boundary named by value; do not turn every loop into a no-go theorem. |
-| uncertainty, information value, missing observation, active probe, or next sample choice | probabilistic, information-theoretic, BED, OED, active-learning, or Bayesian-optimization lens | Name the variables or distributions, utility or information criterion, design variable, acquisition candidate, model assumptions, estimation method, validation boundary, and robustness note. |
-| intervention, policy effect, or counterfactual question | SCM, causal graph, or causal abstraction lens | Name the causal object, intervention or assignment, outcome readout, and whether counterfactual structure is preserved, approximated, or not claimed; keep causal-use question and verdict with `C.28`. |
-| learned scientific representation, latent state, surrogate solver, or operator view | neural operator, latent representation, surrogate solver, or world-model lens | Add the observation map, data or training regime, validation slice, generalization claim, uncertainty or approximation note, and stop condition. |
-| probe effects, order effects, context effects, incompatible frames, or measurement-as-intervention | quantum-like or contextual-probability lens | Use `C.26` for quantum-like adequacy of claims about order effects, probe effects, or context effects when a named contextual-model obstruction still changes inference or action after the ordinary subject patterns; block physical quantum ontology unless separate physics evidence is supplied. |
-
-`MathLensUse.LensCandidateNote` is local first-candidate guidance. It does not replace `G.2` SoTA synthesis, tradition mapping, or broad lens-family review. Use `G.2` when the work being done is tradition-scale source synthesis; use `C.29` when the local need is to choose one cheap candidate lens that changes the next lens-use action. The cheap observation and control check does not apply `C.16` or `A.10` by default; it only asks what the user can observe, read out, assign, vary, or validate now. Measurement construction, evidence relation, intervention-use claim, or validation is still governed by the subject pattern when that claim is being made.
+Use the single discovery menu in :4.2b. Compare one candidate with the ordinary fallback; broaden the search only when this comparison leaves a material question unresolved. Asking what can be observed or varied does not by itself require a measurement or experiment record; apply its subject pattern when constructing that result.
 
 #### C.29:4.4.4 - First honest C.29 entry cases
 
@@ -58401,106 +58508,65 @@ For E.11-style first-entry recognition, distinguish the working entry case befor
 |---|---|---|
 | Pre-articulation cue | Something feels structurally wrong, but it is not yet a claim and no stable `ProblemStructureCue` can be named. | Do not impose a mathematical lens. Use `C.2.LS`, `A.16`, `A.16.1`, `B.4.1`, `B.5.2.0`, or the relevant language-state pattern first; apply C.29 only when the problem structure is stable enough. |
 | No lens or under-lensed problem | A problem situation is stable enough for mathematical help, but no `CandidateMathObject` has been named. | Use `MathLensUse.LensCandidateNote`: `ProblemStructureCue` -> `CandidateLensFamily` -> `NextLensUseAction`. |
-| Under-specified lens | A phrase such as field-like, graph-like, or quantum-like appears, but no object, mapping, preservation, or loss is stated. | Write `MathLensUse.OneLine` or downgrade to ordinary prose. |
-| Useful lens with overread | The lens is useful, but the text turns it into ontology, evidence, causality, assurance, bridge, or release authority. | Use `MathLensUse.MiniCard` or `MathLensUse.FullCard` and name blocked use plus neighboring subject pattern. |
+| Under-specified lens | A phrase such as field-like, graph-like, or quantum-like appears, but no object, mapping, preservation, or loss is stated. | Keep a `LensCandidateNote` while the object is missing. Use `OneLine` only after the object and correspondence can be supplied; otherwise keep ordinary prose. |
+| Useful lens with overread | A useful conditional result is presented for a use its assumptions or correspondence do not support. | Narrow the claim and use the corresponding class in :4.4, or establish the fuller reliance through its required basis and receiving subject pattern. |
 | Ordinary local math | A Markov kernel, ODE, graph data structure, or accepted domain theory appears inside its local domain use. | Stay with the local pattern and finish its result without a C.29 note or card. A separate proposed or disputed transfer retains the explanation, lost-condition examination, and validation required by that use. |
 | Wrong first pattern | The reader reaches for `C.26`, `F.9`, `C.28`, `C.16`, or `A.3.3` before knowing whether mathematical-lens use is being made, or reaches for `C.29` when a neighbor already governs. | Name the first subject pattern and state what `C.29` contributes, if anything. |
 
 #### C.29:4.4.5 - False-positive bank and entry stops
 
-Do not use a C.29 output for these non-use cases unless a separate lens-transfer, publication, assurance, bridge, comparison, or reusable-explanation claim is being made:
+An ordinary ODE in physics, a Markov kernel in local stochastic dynamics, a graph data structure, an A.19 distance/topology/order/embedding, a category-theoretic proof internal to its domain, or a one-off teaching metaphor needs no C.29 output merely because mathematics appears. The same applies to Markov-blanket wording used only to recognize a physical interface or boundary already recovered through its subject pattern.
 
-- ordinary ODE inside accepted physics or local engineering model;
-- Markov kernel inside accepted stochastic dynamics;
-- Markov-blanket wording used only as a recognition cue for a physical interface, interface module, component, boundary description, or viability source after the subject pattern has recovered the claim;
-- graph used as a local data structure;
-- metric-space distance, topology, order, product, subspace, or embedding declared inside `A.19` `CharacteristicSpace` with no domain-transfer claim;
-- category-theoretic proof internal to a domain where that formalism is the local theory;
-- one-off pedagogical metaphor not reused for decision, evidence, assurance, publication, bridge, comparison, or transfer.
+Enter C.29 when a separate representation or transfer issue affects the result: unexplained waiting may need a queue construction; an important comparison may need a distance with explicit losses; transferring the same graph between contexts may need both mathematical correspondence and F.9 semantics. A learned representation used for scientific explanation needs :4.5a's observation and validation conditions. A scale claim needs the applicable scale-law or preference argument in :4.4.6.
 
-False-negative bank and pre-articulation boundary: use `C.29` even when no polished mathematical buzzword appears if the working problem has a structure that changes a next lens-use action and ordinary prose is currently hiding it.
-
-| Entry situation | `C.29` applicability | Cheap action |
-|---|---|---|
-| “Something is off, but we cannot yet say whether it is flow, priority, meaning, or evidence.” | The cue is not stable enough for `ProblemStructureCue`. | Stay in language-state work first; enter `C.29` when the cue is stable enough for `ProblemStructureCue`. |
-| “We have many tasks waiting, but cannot see where flow slows.” | Queue or flow structure can expose bottleneck and WIP boundary. | Use `MathLensUse.LensCandidateNote` for queue or flow; estimate arrivals, service, waiting, and bottleneck. |
-| “This comparison feels important, but distance is unclear.” | Metric-space distance, topology, embedding, or transport adequacy is being claimed. | Name what comparison preserves and loses before using the comparison. |
-| “We transfer a structure between contexts because it looks the same.” | Mathematical-lens use and possible bridge loss need an account. | Name preserved structure and lost structure and use `F.9` when cross-context meaning or Bridge-dependent substitution is being claimed. |
-| “A latent space is used as a scientific explanation.” | A learned lens is being used for scientific explanation. | Name observation map, validation slice, generalization boundary, and stop causal or ontology overread. |
-| “The method scales because the mathematics is elegant.” | Scale-law adequacy or BLP preference claim is being made. | Name scale variable or scale window; use `C.18.1` for scale-law adequacy, `C.19.1` for general method scale-preference or BLP preference, and `C.31.ASAP` for architecture scale preference. |
-
-Entry guidance states when `C.29` is the first subject pattern and when another pattern is first:
-
-| Entry situation | First subject pattern | Tempting wrong first pattern |
-|---|---|---|
-| mathematical-lens use inside a phrase such as "market is a field" | `C.29` | `C.26`, `F.9`, or `A.3.3` before declared lens use is checked |
-| explanation-facing rendering that uses a mathematical lens | `E.17.EFP`; `C.29` only for the mathematical-lens use part when that lens affects explanation use | `C.29` as the first pattern for every explanation |
-| bounded comparative review unit with a mathematical comparison construction | `E.17.ID.CR`; `C.29` only for declared lens use or rival-lens relation | `C.29` as the comparison or adjudication record |
-| same-EntityOfConcern representation-scheme transition | `A.6.3.RT`; `C.29` only if the transition imports a contested or use-affecting mathematical lens | `C.29` for every table, diagram, geometry, or notation shift |
-| coarsened rendering useful only under narrower declared lens use and source-bearing reopen | `A.6.3.CSC`; `C.29` only if the coarsening depends on mathematical abstraction or coarse-graining | `C.29` as source-bearing return or bridge relation |
-| within-context representation adequacy | `C.29` | `F.9` when no cross-context meaning claim is being made |
-| quantum-like dashboard or probe-order claim | `C.26` plus `C.29` compatibility | physical quantum ontology |
-| graph state space | `A.19` or `A.3.3` unless lens transfer is explicit | `C.29` for every graph word |
-| category bridge across contexts | `F.9` for bridge semantics; `C.29` only for the declared mathematical-lens-use account | duplicate bridge semantics inside `C.29` |
-| prediction, rate, trajectory, recovery, convergence, or rhythm claim | `C.27` when temporal adequacy is being claimed; `C.29` only for declared lens use | treating a mathematical prediction cue as enough for temporal-use adequacy |
-| decorative scale language | no `C.18.1` or `C.19.1` unless scale behavior is being claimed | scale-law review for every scale word |
-
-C.29 entry stops are: no C.29 output needed, `MathLensUse.LensCandidateNote` used to select a first candidate, `MathLensUse.OneLine` used, or a neighboring subject pattern applied.
+If the cue is still “something is off” and no stable structural question can be named, keep the language-state work open under :4.4.3. An inconclusive candidate, a rejected lens, an ordinary local answer and a receiving subject-pattern result are all useful stopping points.
 
 #### C.29:4.4.6 - Subject-pattern boundary table
 
-A `C.29` application uses this subject-pattern discipline so mathematical-lens use stays in the C.29 discipline rather than becoming a second authority over neighboring claims.
+Use this table when the mathematical result contributes to a separately governed question. Name that question and the first receiving action; cite the existing result when it already supplies the needed basis.
 
-Positive claim kind:
+`CandidateMathObject` names the mathematical object used in the representation. State its correspondence and preserved and lost structure in the accompanying account.
 
-> A C.29 application gives a pattern-local adequacy discipline for claims that use a mathematical object, formalism, learned representation, simulation object, or mathematical family as a mathematical lens for a stated use. The application asks for candidate mathematical object, lens mapping mode, preserved and lost structure, visible invariant or distinction, `LensUseBoundaryValue` or validation regime, declared lens use, any justified blocked overread, and stop or return condition.
+For a relation claim with clear participants and meaning, apply the current direct relation pattern's rule and use its result. If the rule needs an unavailable case fact, identify that fact and leave the claim unresolved pending it. Use `A.6.P` when the relation or participant meaning remains unclear; use `A.6.RCD` only after recovery when no current direct predicate can state the needed claim. Explicitly identify an obtaining relation occurrence under its direct identity rule only when a receiving claim or operation must distinguish that occurrence.
 
-Boundary application rule: when the claim being made is a choice result, work plan, evidence relation, assurance tuple, explanation rendering, comparative review unit, representation shift, temporal claim, bridge, causal-use claim, measurement claim, scale-law claim, selector, or benchmark, the `NeighborGoverningPatternNote` names the governing FPF pattern and project-side record. A C.29 application can contribute a lens-bounded prediction, distinction, obstruction, diagnostic boundary, or rival-lens note that the governing record can cite; it does not create that neighboring record.
-
-Mathematical object or learned representation read as world structure: if a model state, embedding, simulator, category, graph, tensor object, vector-store relation, or learned representation is being used as a mathematical lens for a phenomenon, C.29 records only the declared mathematical-lens use. The output must name `TargetPhenomenon`, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue` or validation boundary, declared lens use, and `StopCondition`. Measurement, evidence, assurance, dynamics, causal-use, formal-substrate, characteristic-space, publication, benchmark, selector, work, gate, release, or decision claims remain with the subject pattern named in the table below.
-
-
+Use `A.6.0`'s FormalSubstrate profile when a separate declaration of vocabulary, laws, imports and applicability is needed. Apply `A.6.1` for mechanism import or realization of that declaration, and `E.18.1` when accepted problem-side material needs the declaration carried into later work. The same mathematical object may be designated in several epistemes or uses; select the subject pattern for the actual object and claim.
 
 | Object or claim being made | Governing FPF pattern | C.29 contribution |
 |---|---|---|
 | mathematical-lens use | `C.29` | Names the C.29 discipline: candidate mathematical object, lens mapping mode, preserved structure and lost structure, invariant or distinction, `LensUseBoundaryValue`, declared lens use, any justified blocked overread, and stop or return condition. |
 | durable reusable names beyond pattern-local fields | `F.18` | Cite when `MathLensUse` names become durable beyond C.29-local use. |
 | broad wording and epistemic precision restoration | `F.19`, `E.10`, `C.2.P` | Use F.19 for ordinary precise-plain-language repair, E.10 for cues and unresolved wording, and C.2.P for unresolved epistemic meaning. |
-| relation precision, arity, polarity, needed-claim derivation, and slot structure | `A.6.P`, `A.6.RCD`, `A.6.5` | Apply the direct relation and derivation governors first. C.29 applies only if a mathematical object represents the settled claim or derivation and changes the stated lens use. |
+| relation precision, arity, polarity, needed-claim derivation, and slot structure | The direct relation pattern; `A.6.P` for unresolved relation or participant meaning; `A.6.RCD` for a needed claim with no suitable current predicate; `A.6.5` for reusable typed participant declarations | C.29 applies only if a mathematical object represents the settled claim or derivation and changes the stated lens use. |
 | object, description, and carrier distinction | `A.7` | Do not identify the phenomenon directly with the mathematical object. |
-| dynamics state space and transition law | `A.3.3` | Assess imported or contested lens use; do not govern dynamics semantics. |
-| `CharacteristicSpace`, slots, topology, order, and metric-space distance overlays | `A.19` | Apply only when an overlay becomes a domain-transferring or publication-bearing lens. |
-| Decision, selector-result, benchmark-result, or publication-availability claim | `C.11` for a `ChoiceResult` or local choice record; `G.5` for selected-set result declaration; `G.9` for parity or benchmark result use; `E.17` for a source-backed publication face and return to source; and `E.24.PUB` for the publication occurrence and availability | Can contribute a lens-bounded prediction, distinction, obstruction, diagnostic boundary, or rival-lens note; it does not make the decision, result, or publication claim. |
+| dynamics state space and transition law; temporal aspect | `A.3.3`; `C.27.TA` for the temporal aspect | Supply the imported or contested representation and its losses to the stated dynamics/temporal question. |
+| `CharacteristicSpace`, slots, topology, order, and metric-space distance overlays | `A.19` | C.29 applies only when an overlay becomes a domain-transferring or publication-bearing lens. |
+| local choice among available options | `C.11` | Supply the bounded mathematical result or rival-lens note to the option comparison; use `C.11` for the `ChoiceResult` or local choice record. |
 | selected method, method-family selection, `U.WorkPlan`, performed `U.Work`, work-result record, or work-relevant appearance-based reliance repair | `A.15`, `A.15.1`, `A.15.2`, `A.15.4` | Can contribute method-relevant lens use; method, plan, performed Work, and any result record stay with their direct patterns, while A.15.4 only repairs reliance on a misleading appearance. |
 | evidence relation, source currentness, provenance, evidence carrier, or model card or datasheet used as evidence | `A.10` | States `LensUseBoundaryValue` only; evidence relations and provenance remain A.10 matters. |
 | assurance, readiness, reliability, release confidence, safety, trust, or engineering justification | `A.15.5` for work-entry readiness; `A.10` for evidence reliance; `B.3` only for an actual named assurance claim; the direct domain pattern for other readiness, reliability, release, safety, trust, or engineering-justification claims, plus relevant G patterns when their claims are made | Treats declared lens use as possible input only; mathematical elegance does not raise assurance. |
 | measurement construction, scale, unit, or comparability, or evidence-stub adequacy | `C.16` | States measurement-dependent `LensUseBoundaryValue` only; measurement construction, scale, unit, or polarity, direct comparability, and evidence-stub adequacy stay with `C.16`. |
 | explanation-facing rendering or generated explanation use | `E.17.EFP` | States mathematical-lens use for the mathematical explanation used inside the rendering; explanation-use discipline stays with `E.17.EFP`. |
 | bounded comparative review unit | `E.17.ID.CR` | States declared lens use for a mathematical comparison construction or rival lens when that construction affects the comparative review use. |
-| same-EntityOfConcern representation-scheme transition | `A.6.3.RT` | Applies only if the representation shift imports a contested or use-affecting mathematical lens. |
-| coarsened rendering with narrower declared lens use and source-bearing reopen | `A.6.3.CSC` | Applies only if the coarsening depends on mathematical abstraction, quotienting, or coarse-graining. |
+| same-EntityOfConcern representation-scheme transition | `A.6.3.RT` | C.29 applies only if the representation shift imports a contested or use-affecting mathematical lens. |
+| coarsened rendering with narrower declared lens use and source-bearing reopen | `A.6.3.CSC` | C.29 applies only if the coarsening depends on mathematical abstraction, quotienting, or coarse-graining. |
 | cross-context meaning, bridge kind, direction, CL, loss, and substitution | `F.9` | Reference the Bridge and its separate bounded-use claim; keep Bridge semantics in `F.9`. |
 | causal-use question or verdict | `C.28` | Block causal overread or cite a `C.28` application or `CausalUseSupportResultRef`. |
 | forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, temporal window, or rate-change used as sufficient for a use | `C.27` | Can state a prediction-relevant or distinction-relevant mathematical-lens use; temporal-claim adequacy stays with `C.27`. |
 | scale-law and Bitter-Lesson preference claims | `C.18.1`, `C.19.1`, `C.31.ASAP` | Cite scale-window, scale-law, BLP, or architecture scale-preference evidence when scale behavior, general method scale preference, or architecture scale preference is being claimed. |
 | quantum-like modeling | `C.26` | Treat `C.26` as C.29-compatible specialization, not as full-card inheritance for every QL-lite note. |
-| Selector and benchmark results, parity and SoTA packs, and model-selection publications | `G.5`, `G.9`, `G.2`, `G.10`, `E.17`, and `E.24.PUB` when publication is current | Use `G.5` and `G.9` for selector and benchmark result content, `G.2` and `G.10` for SoTA-pack and shipping claims, `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for an actual publication occurrence and availability. A `MathLensUse.*` card can contribute declared lens use for a selector or benchmark input only. |
+| selected-set result declaration, parity or benchmark result use, source harvesting and synthesis, Part-G shipping, or publication | `G.5`, `G.9`, `G.2`, `G.10`, `E.17`, and `E.24.PUB` | Use `G.5` for selected-set result declaration, `G.9` for parity or benchmark result use, `G.2` for source harvesting and synthesis, `G.10` for shipping Part-G outputs, `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for an actual publication occurrence and availability. Supply the bounded mathematical result or rival-lens note with its declared use as input. |
 
 #### C.29:4.5 - `MathLensUse.Card@Context` shape
 
-`MathLensUse.Card@Context` is a pattern-local card in `C.29`. It is not `U.MathLensUseCard`, `U.LensUseRecord`, or any universal `U.*` kind.
-
-Namespace note: `MathLensUse.Card@Context`, `MathLensUseOutputRef`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, `MathLensUse.FullCard`, and `CC-C29-*` are `C.29`-local instruments unless they cite existing FPF kinds or refs. `MathLensUseOutputRef` references the applicable `C.29` output for the stated use; it is not a demand for `MathLensUse.FullCard`. Do not mint generic suffixes such as `SystemMathLensUse`, `MathLensUseQuality`, or `MathLensUseCompliance`. Durable cross-pattern `MathLensUse.*` names, records, or refs require explicit minting or reuse plus naming, kind, and design-rationale decisions through `F.8`, `F.18`, `C.3`, and `E.9`; otherwise they remain pattern-local labels.
+The full card collects the account needed for a declared reliance under :4.4. `MathLensUseOutputRef` may reference any applicable C.29 output; its use does not require a FullCard. Local naming conditions are in :6.1a.
 
 Read `MathLensUse.Card@Context` through three aspects:
 
 | Aspect | Fields or refs | Boundary |
 |---|---|---|
-| Selected mathematical representation and lens mapping | `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `InvariantsExposed` | Names the selected mathematical object and the representation or correspondence used for the C.29 account; does not assert world-side participation, identify the phenomenon with the mathematical object, or replace an `A.6.0` FormalSubstrate signature. |
-| Use boundary and validation | `LensUseBoundaryValue`, `ValidationUseOverlayRef?`, `LearnedLensOverlayRef?`, failure case, uncertainty or approximation note | States the lens-use boundary value for this lens use; does not create an evidence relation, benchmark result, assurance, or release confidence. |
+| Selected mathematical representation and lens mapping | `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `InvariantsExposed` | Names the selected mathematical object and the representation or correspondence used for the C.29 account. |
+| Use boundary and validation | `LensUseBoundaryValue`, `ValidationUseOverlayRef?`, `LearnedLensOverlayRef?`, failure case, uncertainty or approximation note | States the lens-use boundary value for this lens use. |
 | FPF use and boundaries | `declaredLensUse`, `StopCondition`, `blockedLensOverread?`, `BridgeRefSet?`, `CausalUseDisposition?`, `AssuranceUseDisposition?`, `ExportPolicyRef?` | States what the reader may do, when to stop or return, and which governing FPF patterns define or constrain neighboring claims. |
-
-Validity boundary: mathematical validity of the object under its assumptions is not the same as representational adequacy to the phenomenon; representational adequacy is not empirical validation for a use; empirical validation is not a causal-use verdict; a causal-use verdict is not assurance, release confidence, decision sufficiency, or benchmark superiority.
 
 ```text
 MathLensUse.FullCard base fields:
@@ -58548,7 +58614,7 @@ MathLensUse.FullCard conditional fields := {
 
 #### C.29:4.5a - Conditional overlays
 
-The base card stays light. These overlays are used only when their corresponding use is being made. Ordinary C.29 use does not fill this block; it escalates here only when the claim is already publication-facing, assurance-input, benchmark, bridge, model-selection, prediction, scientific or model, learned-lens, or causal-use facing.
+Apply overlays for the actual reliance selected in :4.4. A conditional calculation within a stipulated model still states and checks its mathematical assumptions; a claim that the model is adequate for the phenomenon additionally requires the validation account below. A learned representation needs the learned-lens information even when the exploration remains small.
 
 ```text
 MathLensUse.ValidationUseOverlay@Context :=
@@ -58564,7 +58630,7 @@ MathLensUse.ValidationUseOverlay@Context :=
 ⟩
 ```
 
-Use the validation overlay when the lens is used for prediction, publication, assurance input, benchmark use, model selection, or scientific claim or model claim. `LensUseBoundaryValue` alone is then insufficient. Keep the neighboring notions separate: verification is proof or formal checking under stated assumptions; validation is fit for a declared use and regime; calibration aligns model parameters or readouts with observations; explanation states why the lens makes a distinction intelligible. The C.29 output does not let any one of these four labels silently stand in for the others.
+Use the validation overlay for the FullCard reliance in :4.4: prediction about the phenomenon, an operational or consequential decision, adoption of a model, benchmark/assurance input, Bridge-dependent model reliance, or transfer as a reusable phenomenon model. This includes a scientific claim of model adequacy. A published explanation of a conditional derivation needs its derivation and assumptions, not an empirical-adequacy claim invented for it. `LensUseBoundaryValue` alone is insufficient for the stronger reliance. Keep the neighboring notions separate: verification is proof or formal checking under stated assumptions; validation is fit for a declared use and regime; calibration aligns model parameters or readouts with observations; explanation states why the lens makes a distinction intelligible. The C.29 output does not let any one of these four labels silently stand in for the others.
 
 ```text
 MathLensUse.LearnedLensOverlay@Context :=
@@ -58611,7 +58677,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | no `CandidateMathObject` | If the problem still needs a mathematical lens for the next lens-use action, first name the `ProblemStructureCue` and write a `MathLensUse.LensCandidateNote` with the cheapest candidate lens family and next lens-use action; downgrade to ordinary prose or remove the mathematical claim only when no candidate lens changes action. |
 | no `LensMappingMode` | Choose a lens mapping mode or downgrade to analogy-only prompt. |
 | no `PreservedStructure` | Remove the claim-bearing mathematical phrase. |
-| no `LostStructure` | Add a loss note, downgrade, or justify an equivalence or isomorphism claim through the subject pattern. |
+| no `LostStructure` | Add a loss note, or justify a lossless equivalence or isomorphism claim through the subject pattern. |
 | no invariant, obstruction, distinction, or payoff | Keep the phrase as didactic recognition cue or orientation-only. |
 | no `LensBoundedPredictionOrDistinction` where decision, prediction, or model selection is being claimed | Block decision or assurance use; downgrade to analogy-only if no declared lens-use consequence is named. |
 | evidence is analogy-only | Block decision, publication-as-established-model, assurance, release, and causal use unless evidence relation, validation regime, causal-use relation, or assurance result is supplied by its subject pattern. |
@@ -58622,228 +58688,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | assurance or release use | Apply the direct release pattern, `A.10` for evidence reliance, `B.3` only for an actual named assurance claim, or relevant G patterns for their claims; block unsupported assurance or release use. |
 | `StopCondition` is generic | Name the condition for narrowing or stopping, a no-lens exit, or source-return trigger. Include a blocked overread only when it passes F.19's plausible-reader test. |
 
-#### C.29:4.6 - Field meanings
-
-| Field | Meaning selected for `C.29` | Boundary guard |
-|---|---|---|
-| `TargetPhenomenon` | Plain entry prompt naming the phenomenon or situation to be understood. | Not a `U.Kind`, not by itself the exact EntityOfConcern designation of a claim-bearing episteme, and not by itself a publication-side designation or claim about that phenomenon. |
-| `entityOfConcernRef?` | EntityOfConcern reference named by value when the lens appears inside a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. | Required only when the lens appears in a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. |
-| `BoundedContext` | Context in which the lens is claimed to work. | Cite `F.9` when the use needs semantic correspondence between local senses. |
-| `CandidateMathObject` | Concrete mathematical object, structure, formal position, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
-| `LensMappingMode` | `C.29`-local lens mapping mode. | Stays separate from `F.9` BridgeKind, `A.6.P` `RelationKind`, `C.3` kind, and domain relation kinds; cross-context transfer uses `F.9` when bridge semantics are being claimed. |
-| `PreservedStructure` | Structure preserved by the lens in the declared use. | No preserved structure means the mathematical phrase cannot justify the stated use. |
-| `LostStructure` | Structure the lens drops, abstracts away, or does not preserve. | Empty loss requires explicit equivalence or isomorphism justification through the subject pattern. |
-| `InvariantsExposed` | Invariant, obstruction, fixed point, symmetry, conservation law, diagnostic boundary, or other payoff. | If no payoff is visible, downgrade to recognition cue. |
-| `ObservableOrControllableCue?` | Cheap cue naming what can be observed, read out, assigned, varied, or validated before a candidate lens can change action. Examples include arrivals, work in progress, service time, wait time, edge meaning, intervention assignment, outcome readout, observation map, validation slice, scale variable, or scale point. | Not a measurement construction, evidence record, causal-use result, or validation verdict. Apply `C.16`, `A.10`, `C.28`, or `A.3.3` when those claim types are being made. |
-| `ObservationOrReadoutNeeded?` | Optional one-line note naming the observable, readout, assignment, outcome, validation slice, or scale point still needed before the stated bounded lens-use action is justified. | If the account of this missing item makes a measurement, evidence, causal, dynamics, or validation claim, apply the neighboring pattern that governs that claim. |
-| `LensBoundedPredictionOrDistinction?` | Required when prediction, decision, method selection, model selection, or publication-as-model is being claimed. | Not required for orientation-only use. |
-| `DynamicsRef?`, `TransitionLawRef?` | References to dynamics defined by `A.3.3` when dynamics semantics are being claimed. | `C.29` does not define dynamics. |
-| `ObservationMapRef?` | Probe, readout, or observation map when observation makes the declared lens use bounded enough for the stated claim. | Required when learned or measurement-dependent lens use is being made. |
-| `ScaleWindow?`, `CoarseGrainingRule?` | Scale range and coarse-graining or compression rule when scale behavior, macro description or effective description, universality, coarse behavior, latent compression, or renormalized description is being claimed. | `C.18.1` and `C.19.1` govern scale-law and BLP evidence; the C.29 output states only how the lens remains adequate inside the declared window. |
-| `SourceReturnCondition?` | Condition under which the reader must return from the compressed or coarse description to the source-domain variables, observations, cases, or mechanisms. | Required only when abstraction, coarse-graining, compression, latent representation, or macro-modeling drops source-domain distinctions that could matter to the stated use. |
-| `PublicationUseClassification?` | Optional note for publication-facing use: `orientationOnly`, `explanationFacing`, `comparisonInput`, `decisionInputCandidate`, `benchmarkInput`, `assuranceInputCandidate`, or `reusableModelPublication`. | Does not publish, release, benchmark, assure, or decide anything by itself; the governing publication, benchmark, evidence, decision, and assurance patterns still govern those claims. |
-| `OutputChangeCondition?` | Condition under which this C.29 output must be narrowed, demoted, replaced, retired from claim-bearing use, or handed to a neighboring FPF pattern. | Not a process log or standing state-family record; it states a result boundary for the lens use being made. |
-| OrdinaryRivalOrFallback | Ordinary prose, accepted local theory, direct measurement, or simpler neighboring-pattern application the reader would use without this lens. | Required for cheap outputs; prevents prestige bias before broad rival review. |
-| `PrincipalRivalLens?` | Default ordinary or most relevant rival lens. | Preferred over a broad literature survey. |
-| `RivalLensSet?` | Broader comparison set only when publication, selection, or claim-bearing comparison is being made. | Not a `G.5` selector, benchmark harness, or parity result. |
-| `RivalLensRelation?` | Declared relation between the lens in this use and the principal rival or rival set being compared. Allowed local relation values include `ordinaryFallback`, `complementary`, `sameUseLowerCost`, `morePreservedStructureHigherCost`, `lowerErrorOnDeclaredEvaluationCriterion`, `clearerExplanationForDeclaredReader`, `bridgeNeedsF9`, `causalUseNeedsC28`, `differentScaleWindow`, `differentLossProfile`, `incomparableForCurrentUse`, `blockedByStopCondition`, and `unresolved`. Examples: a queueing lens and a causal lens can be complementary for different lens-use actions; a latent manifold and a causal graph can conflict when latent axes are read causally; an RG-like lens and a micro-dynamics lens can have different scale windows. | Names disagreement only; a C.29 output is not a winning-lens choice, literature review, selector result, benchmark result, or parity result. Any superiority claim names the evaluation criterion, reader, cost, scale window, or subject pattern that makes the comparison bounded for use. |
-| `LensUseBoundaryValue` | Local finite lens-use boundary field. | Not evidence, an EvidenceGraph, a PathId, or an assurance score. |
-| `BridgeRefSet?` | Reference to `F.9` Bridge material when semantic correspondence between local senses is needed. | Bridge semantics stay with `F.9`. |
-| `CausalUseDisposition?` | One of `noCausalUseClaim`, `causalUseBlocked`, `C28ApplicationRef`, or `CausalUseSupportResultRef`. | No causal-reference shortcut; no causal verdict from `C.29`. |
-| `AssuranceUseDisposition?` | One of `noAssuranceUseClaim`, `assuranceUseBlocked`, `evidenceInputOnly`, `A10Ref`, or `B3ApplicationRef`. | No assurance verdict from mathematical elegance. |
-| `declaredLensUse` | Declared lens use in this C.29 application. | Matches evidence and validation regime. |
-| `blockedLensOverread?` | Optional tempting neighboring use that is blocked or governed by another subject pattern; include it only when it passes F.19's plausible-reader test. | Names the neighboring pattern when that neighboring claim is being made. `groundedLensOverread?` is an alias for this same optional value. |
-| `StopCondition` | Condition for narrowing, stopping, returning to source material, or applying the direct pattern for a neighboring claim. | States the concrete boundary of the declared lens use. |
-| `ExportPolicyRef?` | Governed reuse or export policy when publication or downstream reuse is being claimed. | Not required for local orientation or mini-card use. |
-
-### C.29:5 - Neighboring-pattern boundaries
-
-Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern application note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first bounded lens-use action for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 subject-pattern table instead of copying generic boundary prose into the neighboring pattern:
-
-- `A.6.P` handles relation precision restoration.
-- `A.3.3` handles dynamics semantics.
-- `A.19` handles characteristic spaces, overlays, normalization, and comparability.
-- `F.9` handles cross-context semantics and Bridge loss.
-- `C.18.1` and `C.19.1` handle scale-law and BLP claims.
-- `C.26` handles one specific quantum-like lens family.
-- `C.28` handles causal-use question and verdict.
-- `A.10` and `B.3` handle evidence and assurance.
-- `C.11`, `A.15`, `A.15.1`, `A.15.2`, and `A.15.4` handle choice results, method and work separation, work plans, performed work, and work-relevant appearance-based reliance repair.
-- `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, and `A.6.3.CSC` handle explanation-facing renderings, bounded comparative review units, same-EntityOfConcern representation-scheme transitions, and controlled semantic coarsening.
-- `C.27.TA` handles temporal aspects; `C.27` handles temporal-claim adequacy.
-
-Use the C.29 discipline when the question under repair is: **Is this mathematical lens adequate for this declared use, and where does it stop?**
-
-### C.29:6 - Naming, ontology, and epistemic precision-restoration account
-
-#### C.29:6.1 - Name
-
-Name: `C.29 — Mathematical Lens Use`.
-
-Local namespace: `MathLensUse` = **Mathematical Lens Use**. The pattern-local card and reference namespace uses `MathLensUse`; checklist IDs use `CC-C29-*`.
-
-The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. Plain prose can still say that a useful mathematical lens compresses many cases while preserving declared distinctions; claim-bearing use is recovered through `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`.
-
-#### C.29:6.1a - C.29-local naming guard
-
-`MathLensUse.*` instruments are `C.29`-local unless separately admitted. They are not `U.*` kinds, not durable FPF record families, and not substitutes for `U.Kind`, `KindSignature`, `KindBridge`, `BridgeCard`, `EvidenceGraph`, `ChoiceResult`, `U.WorkPlan`, `U.Work`, or assurance records.
-
-Do not mint `LensKind`, `MathLensKind`, `MathLensUseQuality`, `MathLensUseCompliance`, or `MathLensUseRecord` from `C.29` use.
-
-When one `C.29` application needs a mathematical-lens name to become reusable outside that application, use `F.18` local-first naming; when it quantifies over a class of described entities, use `C.3` Kind-CAL; when it creates or reuses a durable concept or record family, use `F.8` minting or reuse and `E.9` design-rationale discipline.
-
-#### C.29:6.2 - Tempting wrong names rejected
-
-| Tempting name | Reason rejected |
-|---|---|
-| `Mathematical Ontology Principle` | Smuggles the metaphysical claim `C.29` rejects. |
-| `Single-Foundation Math Stance` | Would collapse plural lens families into one foundation claim; C.29 instead tests each selected family by declared mapping, local use, and recoverable loss. |
-| `Math Metaphor Adequacy` | Too narrow and too vague; the selected answer is structure-preserving representation, not mere metaphor. |
-| `Quantum-Like Generalization` | Misplaces the general pattern under one special lens. |
-| `Category-Theoretic Bridge Pattern` | Over-privileges category theory; C.29 is broader. |
-
-#### C.29:6.3 - Ontology guard selected for FPF
-
-> A physical, organizational, or epistemic phenomenon is not directly identified with a mathematical object; it is represented through a mathematical object by an explicitly declared mapping that preserves some structures and loses others.
-
-#### C.29:6.4 - C.2.P recoveries applied
-
-| Earlier wording risk | Recovered wording in `C.29` |
-|---|---|
-| `source` or `target` | Use source material, cited source-use row, `entityOfConcernRef`, governing FPF pattern, `BridgeRefSet`, or pattern reference named by value as appropriate. |
-| raw source intake as evidence | Recovered as source text and source-use rows, not authority. Selected content is integrated through `C.29:13a`, `C.29:13`, and the field rows and checklist rows for its claim being made. |
-| `structure-preserving identification` | Rewritten to `structure-preserving representation or mapping` unless direct equivalence is explicitly the `LensMappingMode`. |
-| Source compound fields that merge dynamics reference and transition-law reference | Rewritten as separate `DynamicsRef?` and `TransitionLawRef?` fields. |
-| Procedure-like pattern-control language | Rewritten as `pattern application`, `Disposition`, `BridgeRefSet`, `C28ApplicationRef`, or `CausalUseSupportResultRef` only when that neighboring-pattern application or causal-use record ref is being cited. |
-| `ExportPolicy` | Split into `declaredLensUse`, `StopCondition`, optional `blockedLensOverread?`, and optional `ExportPolicyRef?`. |
-| free intensity qualifier | Replace with named adequacy fields, evidence relation, scale construction, comparability construction, lens-use boundary value, and stop-condition wording. |
-| `model`, `lens`, `math` as prestige heads | Recovered as `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, and `LensUseBoundaryValue`. |
-| Causal or assurance implications | Recovered as `CausalUseDisposition?` and `AssuranceUseDisposition?`, with `C.28`, `A.10`, `B.3`, and G-patterns as neighboring governors. |
-
-### C.29:7 - Archetypal Grounding
-
-| Archetype | Candidate lens | Preservation | Loss | Output and stop condition |
-|---|---|---|---|---|
-| Production line as queueing network | Queueing network | flow, service rates, bottlenecks, waiting time | human motivation, contractual duties, rare events not modeled | `MathLensUse.MiniCard`; admits throughput and latency reasoning; narrow or stop when the stated assumptions fail or the use depends on an omitted feature. |
-| Team backlog as queue | Queueing lens | work arrival, work in progress, service time, waiting time | obligation, motivation, priority legitimacy, skill learning | `MathLensUse.OneLine` or mini-card; admits bottleneck reasoning; moral or managerial authority, when claimed, needs its own basis. |
-| Manager sees slow throughput but has no lens | Queue or flow candidate note | possible arrivals, work in progress, service bottleneck, waiting time | motivation, duty, priority legitimacy, full team ontology | Start with `MathLensUse.LensCandidateNote`; use `MathLensUse.OneLine` or mini-card only after the candidate queue or flow lens changes the next lens-use inspection. |
-| Measurement comparison as declared distance or scoring choice | Metric-space distance, embedding, or scoring-function lens | comparability, distance, proximity, clustering, threshold structure | evidence relation, causal mechanism, value judgment | `MathLensUse.OneLine` or mini-card; admits comparison design and sensitivity checks, not truth or priority by itself. |
-| Stabilizing system as state-space dynamics | State-space or transition lens | state variables, transition relation, attractor, control handle when the neighboring relation is named by value | unobserved motivation, obligation, causal mechanism beyond the model | `MathLensUse.OneLine` or mini-card; admits state inspection or transition inspection, not full dynamics ontology. |
-| Research field as citation graph or category-like network | Graph or categorical structure | adjacency, composition, interface, failed transfer, citation or transformation patterns | semantic truth, evidence relation, social meaning | First inspect adjacency, composition, interface, or failed transfer; `MathLensUse.MiniCard` plus `F.9` when the use needs semantic correspondence between local senses; never substitute graph proximity for truth or evidence. |
-| Quantum-like dashboard | Quantum-like probe and order lens | order effects, probe effects, incompatible frames when actually present | physical quantum ontology | `C.26` with C.29-compatible stop condition `QL-NQ`; not a full-card cost for QL-lite notes. |
-| RG-like scale-law claim | Coarse-graining or fixed-point lens | scale variable, coarse-graining rule, invariants across scales | micro-mechanism identity and universal applicability | `C.29` plus `C.18.1` or `C.19.1`; stops outside scale window. |
-| Learned operator as scientific lens | Learned operator, latent space, surrogate solver | trained input-output structure, resolution behavior when validated | causal mechanism, out-of-domain generalization, unobserved variables | Learned-lens overlay; validation regime and stop condition required. |
-
-Worked micro-cases by failure mode:
-
-| Failure mode | Reader sees | C.29 repair |
-|---|---|---|
-| No-lens repair | "Throughput is slow, but we have no model." | Start with a queue or flow `MathLensUse.LensCandidateNote`; observe arrivals, work in progress, service time, wait time, and bottleneck candidate before using `MathLensUse.OneLine` or mini-card. |
-| Under-specified-lens repair | "The market is a field." | Write `MathLensUse.OneLine` only if the candidate mathematical object, mapping, preserved structure, lost structure, payoff, and stop condition can be stated; otherwise remove the phrase or keep it as ordinary metaphor. |
-| Overread repair | "The latent manifold explains reality." | Use the learned-lens overlay, name observation map and validation slice, and stop causal or ontology overread unless an exact causal or ontological predicate is defined and current facts satisfy it. |
-| Wrong-neighbor repair | "The same graph appears in two contexts, so the meanings are the same." | Apply `F.9` for Bridge semantics; keep `C.29` only for mathematical-lens use. |
-| Local-math non-use | Accepted Markov kernel inside local dynamics. | Stay in `A.3.3`; return `NoMathLensUseNeededNote` if useful; do not use C.29 merely because local mathematics appears. |
-| Speculative SoTA stress | Vanchurin-style universe-as-learning. | Treat as candidate-lens stress, not accepted physics, foundation, assurance, or release input. |
-
-Vanchurin-style universe-as-learning is not an ordinary first grounding archetype. Keep it in the validation harness and SoTA use as a candidate stress test: it can teach overclaim control and adapt-not-adopt discipline, but it does not ground accepted physics, assurance, quantitative law, or routine lens use.
-
-### C.29:8 - Bias-Annotation
-
-| Bias risk | C.29 correction |
-|---|---|
-| **Mathematical prestige bias** | Require `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`. |
-| **Physics envy** | Physical source-domain ontology does not transfer without separate proof or evidence and subject pattern. |
-| **Category-theory monoculture** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
-| **Speculation laundering** | Vanchurin enters as candidate lens or SoTA-echo, not accepted fact. |
-| **Over-formalization** | Low-consequence analogy can remain local prose; reusable or decision-bearing lens needs a `MathLensUse.*` card. |
-| **Dry ontology drift** | Keep Plain explanations where they improve recognition, but recover claim-bearing commitments through fields named by value or a named neighboring pattern. |
-| **Scale blindness** | Require `ScaleWindow?`; coordinate scale claims with `C.18.1` or `C.19.1`. |
-| **Causal laundering** | If the lens licenses causal claims, apply `C.28`; MathLensUse cannot supply causal use by itself. |
-| **Assurance laundering** | Mathematical elegance does not raise `R`; evidence and assurance use apply `A.10`, `B.3`, and relevant G patterns. |
-| **Pattern-as-actor wording** | A pattern is presented as the actual actor writing, deciding, raising assurance, authorizing work, or creating project records. Use `F.19` to recover the capable participant and separate the claim-bearing text, project-side records, governing FPF pattern, and its application; retain ordinary metonymy when that participant and relation remain recoverable. |
-
-### C.29:9 - Conformance Checklist
-
-`C.29` checklist verifies the output-choice discipline without replacing the `Solution`. Candidate-lens guidance belongs in `C.29:4.4.3` or worked grounding, not in this checklist; the checklist verifies only that the cheapest honest output and next lens-use action remain visible.
-
-| ID | Requirement | Purpose |
-|---|---|---|
-| `CC-C29-0 Use condition` | Use C.29 only when a mathematical object, formalism, family, learned representation, or simulation object is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer, or when a stable problem needs a first candidate lens that could change the next lens-use action. | Keeps local analogies lightweight. |
-| `CC-C29-1 Output class selected before full card` | Select no-C.29-output-needed, `LensCandidateNote`, one-line, mini-card, full-card, or `NeighborGoverningPatternNote` output before presenting full-card fields. | Prevents card-before-problem bureaucracy. |
-| `CC-C29-2 Named mathematical object` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
-| `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is being claimed, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
-| `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and do not use it as `F.9` BridgeKind, `A.6.P` relation kind, or `A.6.RCD` derivation/admission result. Formula, query, path, graph, diagram, assertion, and definition remain representation or claim-side objects; if bridge semantics are claimed, apply `F.9`. | Prevents hidden bridge, relation-kind, occurrence-identity, or ontology conversions. |
-| `CC-C29-4 Preserved structure` | State what structure the lens preserves. | Makes transfer testable. |
-| `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the subject pattern. | Prevents map-territory collapse. |
-| `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
-| `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` is used for claim-bearing lens use, recover the concrete `CandidateMathObject` for the candidate family, preserved structure, lost structure, visible payoff, lens-use boundary value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
-| `CC-C29-6b Bounded-observer structural-information lens` | When MDL, epiplexity, compression, graph information, or description-recoverability changes the next lens-use action, recover `TargetPhenomenon`, source episteme or trace, bounded observer, candidate measure or code, mapping mode, preserved and lost selected structure, visible payoff, observation or postulate boundary, source-return condition, lens-use boundary value, and stop condition. | Prevents C.29 from turning recoverable-structure estimates into architecture ontology, quality, selector, evidence, assurance, OOD, or causal claims. |
-| `CC-C29-6c Architecture-local lens descriptions` | When `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another architecture-local lens description is used for claim-bearing lens use, recover declared scope or scale window, candidate mathematical object, mapping mode, preserved structure, lost structure, source-return condition, next lens-use action, and stop condition; apply the neighboring patterns that define or constrain architecture, scale-preference, measurement, evidence, assurance, selected-set, and decision claims. | Prevents architecture lens descriptions from becoming architecture ontology, RG proof, global-optimizer proof, scale preference, evidence, assurance, selector, or decision authority. |
-| `CC-C29-7 Lens-bounded prediction or distinction` | When decision, prediction, model selection, or publication-as-model is being claimed, state at least one lens-bounded prediction, distinction, obstruction, or diagnostic boundary, or downgrade to analogy-only prompt. | Prevents decorative formalism. |
-| `CC-C29-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is being claimed, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
-| `CC-C29-8a Neighboring claim distribution` | If the output being made is a choice result, method or work record, evidence relation, assurance claim, explanation rendering, comparative review unit, representation shift, coarsened rendering, temporal claim, selector, benchmark, or publication-facing use, name the governing FPF pattern and project-side record. | Prevents C.29 from absorbing neighboring claims. |
-| `CC-C29-9 Scale window` | If scale, universality, knees, exponents, or coarse-graining are being claimed, declare the scale range and use `C.18.1` for scale-law adequacy, `C.19.1` for general method scale preference, and `C.31.ASAP` for architecture scale preference when the respective claim is made. | Prevents universalization. |
-| `CC-C29-9a Temporal use boundary` | If the claim being made is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for a use, cite `C.27` or state that temporal adequacy is not being claimed. | Prevents mathematical prediction cues from replacing temporal-claim adequacy. |
-| `CC-C29-10 Rival lens discipline` | Use a principal rival or default ordinary lens by default; require a broader rival set only for selection, publication, or claim-bearing comparison. When a rival relation is being claimed, name the declared relation value and any evaluation criterion, cost, reader, scale window, or neighboring pattern that makes the comparison bounded for use. | Prevents unnecessary literature-review work and unnamed lens-superiority claims. |
-| `CC-C29-10a Validation regime` | If the lens is used for prediction, publication, assurance input, benchmark, model selection, or scientific claim or model claim, add validation regime, evaluation slice, uncertainty or approximation note, failure case, domain of applicability, and output-change condition when needed. | Keeps prediction-bearing and model-bearing uses SoTA-aligned. |
-| `CC-C29-10b Source-use relation` | If a source changes C.29 declared lens use, name its `SourceUseRelation` with source material reference, declared C.29 output or lens-use boundary, source-use disposition, source-currentness or supersession condition, and output-change condition. Include a blocked source-prestige overread only when it passes F.19's plausible-reader test. | Separates the source-use relation from source-use disposition and makes its governing slots recoverable. |
-| `CC-C29-10c Source-currentness and return condition` | If source material, source-use family, source-use decision, or a neighboring subject pattern changes the declared lens-use boundary for this output, state `SourceReturnCondition?` or `OutputChangeCondition?` and narrow, demote, replace, retire, or block the claim-bearing use. | Keeps SoTA currentness and neighboring-pattern currentness tied to the declared C.29 output rather than to source prestige or process evidence. |
-| `CC-C29-11 LensUseBoundaryValue` | Label `LensUseBoundaryValue` as analogy-only prompt, diagnosticOnly, formal derivation, simulation, empirical fit, accepted domain theory, SoTA-echo candidate, or mechanized proof, with a matching declared-use boundary. | Prevents evidence laundering. |
-| `CC-C29-12 No ontology smuggling` | Do not import source-domain ontology without separate proof or evidence and subject pattern. | Protects FPF from metaphysical collapse. |
-| `CC-C29-13 Stop condition` | State the condition for narrowing, stopping, returning to source material, or applying a neighboring pattern. | Makes closure locally visible. |
-| `CC-C29-14 Bridge discipline` | Cross-context mathematical transfer cites `F.9` when semantic correspondence between local senses is needed; Bridge and C.29 fields agree without duplicate writing. | Keeps semantics bounded. |
-| `CC-C29-15 Causal-use discipline` | Causal-use claims apply `C.28`; C.29 cannot carry a causal-use verdict by itself. | Blocks causal laundering. |
-| `CC-C29-16 Assurance discipline` | Assurance, release, reliability, and engineering-justification claims apply their direct subject patterns: `A.10` for evidence reliance, `B.3` only for an actual named assurance claim, the direct domain pattern for the release, reliability, or engineering-justification result, and relevant G patterns for their claims. | Prevents elegance from raising assurance directly. |
-| `CC-C29-17 C.2.P recovery` | Broad heads, source wording or target wording, mapping wording, pattern-application wording, and Plain metaphors are recovered to FPF kinds named by value, fields, neighboring patterns, or explicit non-transfer dispositions. | Keeps the pattern from minting parallel ontology. |
-| `CC-C29-18 Plain and Tech balance` | A Plain sentence can remain when it aids recognition; if it makes ontology, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary commitment, that commitment is recovered through the Tech fields or neighboring pattern. | Preserves didactic usefulness without shadow semantics. |
-| `CC-C29-19 Non-use and false-positive bank` | The pattern includes non-use examples for ordinary local domain equations, local graph data structures, A.19 overlays, local category proofs, and one-off metaphors. | Prevents C.29-everywhere. |
-| `CC-C29-20 Repair matrix` | Failed checks map to repair outputs: downgrade, narrow, add loss, add evidence or validation, choose a rival lens, apply a neighbor, block an unsupported use, or stop and return. | Keeps C.29 as a repair pattern. |
-| `CC-C29-21 Validation harness` | Stable-pattern review requires the small harness cases in §11a or an accepted equivalent validation record. | Makes repeated validation visible without turning the harness into a benchmark mandate. |
-
-### C.29:10 - Common Anti-Patterns and How to Avoid Them
-
-| Anti-pattern | What it looks like | Repair |
-|---|---|---|
-| **Map-territory collapse** | “The organization is a quantum system.” | “A quantum-like lens models order, probe, or contextual-probability effects; no physical quantum ontology is licensed.” |
-| **Prestige substitution** | “Use category theory” without naming objects, morphisms, functors, preservation, or loss. | Name the categorical structure, preserved composition or interface, and failed transfer. |
-| **Family-name as object** | `field`, `graph`, `category`, `RG`, or `quantum` appears as if the family name were enough. | Name the concrete object, structure, formal position, or downgrade to Plain recognition. |
-| **C.29-everywhere** | Every measurement template, score, graph, kernel, ODE, equation, or local formal object is treated as requiring `C.29`. | Require lens-transfer, publication, assurance, bridge, comparison, or reusable-explanation use. |
-| **Card-before-problem** | The author fills fields before stating the working phrase and first repair. | Begin with the phrase, stated use, output class, and first repair output. |
-| **Local-theory over-escalation** | Accepted local dynamics or domain equations are treated as needing C.29 by default. | Keep them under the local domain pattern or `A.3.3` unless a separate lens-transfer claim, publication use, assurance input, bridge, comparison, or reusable-explanation use is being made. |
-| **False exactness** | Equivalence, isomorphism, or representation is declared by value when only analogy, fit, or simulation exists. | Downgrade `LensMappingMode` or justify the declared relation named by value through the subject pattern. |
-| **RG-as-vibe** | “Everything is coarse-graining” with no scale window, coarse-graining rule, or fixed point. | Declare scale variable, coarse-graining rule, invariants, and rival micro-models. |
-| **Elegant-math override** | A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while a general method scale-preference claim or architecture scale-preference claim is being made. | Use BLP scale-audit when a general method scale-preference claim is being made; use C.31.ASAP when an architecture scale-preference claim is being made; otherwise mark the lens as local and bounded by `C.29` stop condition. |
-| **Familiar math misses needed structure** | A graph, linear trend, average, two-characteristic chart, or score is used because it is familiar while the working problem needs uncertainty, topology, dynamics, causal structure, scale law, distribution geometry, or operator view. | Name the working problem cue; choose a lens family that exposes the missing structure, or keep the simple math as local orientation only and block transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable-explanation use. |
-| **Vanchurin over-adoption** | “FPF now says physics is learning.” | Mark as candidate lens; retain open questions and evidence limits. |
-| **Invariant-free metaphor** | “Market is a field” with no invariant, transition law, observation map, or `LensUseBoundaryValue`. | Downgrade to local metaphor or build a `MathLensUse.OneLine` or mini-card. |
-| **Loss-free bridge** | Mathematical structure is exported across semantic contexts as a Bridge without `F.9`, loss notes, counter-example, or declared lens use. | Use `F.9` Bridge plus MathLensUse `LostStructure` and `StopCondition`. |
-| **Duplicate bridge writing** | C.29 repeats sense cells, CL, substitution scope, and Bridge-declared lens use. | Use `F.9` to establish Bridge semantics; cite Bridge from the C.29 output. |
-| **LensMappingMode as BridgeKind** | A local `LensMappingMode` value is used to skip `F.9`. | Do not define a bridge-valued `LensMappingMode`; use a local transfer class only for declared lens use and apply `F.9` to cross-context meaning, Bridge-dependent substitution, CL, sense cells, or Bridge-declared lens use. |
-| **Causal laundering** | Lens fit is treated as proof of intervention effect. | Apply `C.28` and evidence design, or block causal use. |
-| **Assurance laundering** | Elegant formalism is treated as release confidence. | Use the direct release pattern, `A.10` for evidence reliance, and `B.3` only for an actual named assurance claim; C.29 can be evidence input only when `LensUseBoundaryValue` and validation regime are declared. |
-| **LensUseBoundaryValue laundering** | `SoTA-echo candidate` sounds like authority. | Restrict to exploration or lens-use tests unless validation and neighboring evidence patterns define or constrain prediction, decision, causal use, bridge substitution, assurance, or ontology. |
-| **RivalLensSet as literature review** | The C.29 application produces a survey instead of naming the rival lens being compared. | Use `PrincipalRivalLens?` by default; add `RivalLensRelation?` when disagreement changes the next lens-use action; broaden to `RivalLensSet?` only when publication, selection, or claim-bearing comparison is being made. |
-| **StopCondition boilerplate** | The card says only “does not prove everything.” | State the concrete stop, no-lens exit, or source-return condition; include a blocked overread only when it passes F.19's plausible-reader test. |
-| **Neighbor absorption** | C.29 repeats `F.9`, `C.28`, `A.3.3`, `A.19`, `C.11`, `A.15`, `A.10`, `B.3`, `C.16`, `C.27`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, or assurance semantics. | Apply the subject-pattern table and cite the neighboring pattern. |
-| **Plain metaphor carrying law** | “What survives transfer” becomes an unstated Tech claim. | Recover the commitment through `C.2.P` fields or keep it as ordinary Plain recognition only. |
-| **C.29 local-kind inflation** | `MathLensUse.Card` is treated as a universal `U.*` object or durable FPF record. | Keep it pattern-local; durable cross-pattern records require explicit minting or reuse, naming, kind, and design-rationale decision through `F.8`, `F.18`, `C.3`, and `E.9`. |
-
-### C.29:11 - Consequences
-
-| Benefit | Cost or handling |
-|---|---|
-| FPF gains a general discipline for mathematical lens use while mathematical lenses stay tied to declared structure, declared loss, and declared lens use. | Adds one new pattern; neighboring-pattern applications govern evidence, causal, bridge, assurance, work, decision, publication, and FPF-kind-governance uses. |
-| Existing specialized lenses such as `C.26` become easier to explain as special cases. | `C.26` needs only relation wording, not a rewrite of its core. |
-| Authors get a small checklist before using terms such as field, quantum, category, RG, manifold, graph, or information geometry. | Some quick analogies will be downgraded to local prose; this is intended. |
-| Vanchurin-like speculative work can enter as candidate-lens stress tests. | Requires strict Adapt-not-Adopt marking. |
-| Cross-domain transfer becomes auditable through preserved structure and lost structure and stop conditions. | More upfront statement effort; reduces downstream epistemic precision repair. |
-| `C.29` can stay readable rather than becoming a dry ontology form. | Requires a Plain and Tech discipline: Plain metaphors can guide recognition, but Tech fields govern claim-bearing uses. |
-
-### C.29:11a - Validation harness for stable-pattern review and material refresh
-
-For stable-pattern review or material refresh of `C.29`, run a small C.29 validation harness. The harness is not a benchmark mandate and not a tool requirement. It is a repeatable validation check that the pattern yields correct first outputs, avoids false positives, preserves neighboring-pattern writing boundaries, and keeps the first useful lens-use action visible.
-
-This subsection governs steward-side validation, not the ordinary C.29 user application. A working user applies the output-choice discipline and chooses the cheapest honest output; they do not run the harness merely to decide between ordinary prose, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `NeighborGoverningPatternNote`.
+#### C.29:4.5c - Reopen a used result
 
 C.29 output-change conditions:
 
@@ -58851,7 +58696,7 @@ C.29 output-change conditions:
 |---|---|
 | validation slice fails, degrades, or no longer matches the stated regime | Change `LensUseBoundaryValue` to the updated boundary value, update the failure case, narrow the declared lens use, or block prediction-facing use. |
 | a principal rival lens changes the next lens-use action | Add `PrincipalRivalLens?` and `RivalLensRelation?`, or replace the lens for that use. |
-| the lens becomes decision-facing, publication-facing, assurance-input, benchmark, model-selection, prediction, or repeated cross-case claim input | Use `MathLensUse.FullCard` and the applicable overlay or governing FPF pattern. |
+| the intended use or reliance changes | Reapply :4.4's single rule. Keep a conditional explanation small when its conditions and use are unchanged; use FullCard plus the relevant validation/receiving result for phenomenon-model or consequential reliance. |
 | source-use relation becomes outdated, contradicted, or demoted to background only | Change the `SourceUseRelation`, update the lens-use boundary value, or retire the lens from claim-bearing use. |
 | bridge, causal, measurement, scale, temporal, evidence, assurance, selector, or benchmark claim is being made | Name the governing neighboring pattern and keep C.29 to the declared lens-use part. |
 | abstraction, compression, coarse-graining, or latent representation drops a distinction now needed for the declared use | Add `SourceReturnCondition?`, narrow the use, or block the compressed-lens claim. |
@@ -58865,6 +58710,7 @@ Smallest source-return and output-change conditions:
 | a neighboring subject pattern changes the declared lens-use boundary for measurement, evidence, causal use, assurance, Bridge semantics, scale law, selector, benchmark, decision, or work | Keep C.29 only for the declared lens-use part and apply the changed subject pattern to the neighboring claim before the C.29 output is reused. |
 | the same lens family starts carrying validation, causal-use, evidence, assurance, selector, benchmark, release, or work claim | Add the subject-pattern application, or narrow the C.29 result to lens-bounded prediction, distinction, obstruction, diagnostic boundary, or stop condition only. |
 | preserved structure or lost structure can no longer be replayed from the source-domain variables, observations, cases, mechanism, or episteme | Add `SourceReturnCondition?`, restate `PreservedStructure` and `LostStructure`, lower the output class, or block the compressed-lens claim. |
+
 
 AI-assisted thin-echo result rule:
 
@@ -58887,99 +58733,8 @@ C.29 edge-case boundary results:
 | mathematical notation shift only | Use `A.6.3.RT` unless mathematical-lens use changes the declared use. |
 | coarsened explanation | Use `A.6.3.CSC` for source-bearing return, narrowed use, and coarsened rendering; cite C.29 only for abstraction adequacy. |
 
-Harness shape:
 
-| Field | Meaning |
-|---|---|
-| `CaseId` | Stable case id. |
-| `InputPhrase` | The phrase or claim a cold user might write. |
-| `ExpectedFirstPattern` | `C.29`, a neighboring pattern, or no C.29 output needed. |
-| `ExpectedMathLensUseOutputClass` | `NoMathLensUseNeeded`, `LensCandidateNote`, `OneLine`, `MiniCard`, `FullCard`, or `NeighborGoverningPatternNote`. |
-| `RequiredFields` | Minimal fields or overlays required. |
-| `NeighborPatternRefs` | Neighboring subject patterns named by value when their claims are being made. |
-| `ExpectedRepair` | Downgrade, narrow, add loss, add evidence or validation, choose a rival lens, apply a neighbor, or block an unsupported use. |
-| `ExpectedStopCondition` | Concrete narrowing, stop, source-return, or neighboring-pattern condition. |
-| `ExpectedNonUseDecision` | Present only for false-positive cases. |
-
-Minimum harness cases:
-
-| Case | Expected result |
-|---|---|
-| “organization is quantum” | `C.26` plus `C.29` compatibility only if order or probe effects are being claimed; otherwise downgrade to metaphor; physical quantum ontology blocked. |
-| Markov kernel in accepted local reliability model | `A.3.3`; no full `MathLensUse.FullCard` unless lens-transfer, publication, assurance, bridge, or reusable explanation is being claimed. |
-| category-like research field | `C.29` mini-card and possibly `F.9`; semantic truth and evidence relation explicitly lost. |
-| RG-like scale law | `C.29` plus `C.18.1`; scale window and coarse-graining rule required. |
-| Vanchurin-style universe-as-learning | candidate lens only; not accepted physics; stop condition blocks ontology. |
-| queueing production line | positive mini-card; throughput and latency reasoning admitted; human meaning, contractual obligations, and unmodeled rare events remain explicit losses; stop or narrow when assumptions fail or those losses affect the use. |
-| team backlog behaves like a queue | mini-card admits waiting and bottleneck reasoning; motivation and duty remain explicit losses; return or change lens when those losses prevent the next action. |
-| same graph formalism in two contexts | `F.9` governs any needed semantic correspondence between local senses; `C.29` governs declared lens use. |
-| latent manifold or neural operator as scientific model | learned-lens overlay requires observation map, data or training regime, validation regime, generalization claim, uncertainty note, and stop condition. |
-
-Reader-fit checks for stable-pattern review or material refresh:
-
-| Reader | Required result |
-|---|---|
-| engineer-manager | Can decide local metaphor, one-line, or mini-card without using the full card by default. |
-| researcher | Can state preserved structure, lost structure, and stop condition without turning the pattern into a philosophy-of-mathematics essay. |
-| FPF steward | Can identify the subject pattern for causal, evidence, bridge, scale, measurement, dynamics, temporal, decision, work, explanation, comparison, representation, or assurance claim before accepting a C.29 claim. |
-| SoTA author | Can mark a source as adopt, adapt, reject, or candidate stress test without laundering speculative work into accepted FPF law. |
-| AI-assisted reader | Recovers `C.29` or the neighboring subject pattern from the query, and does not answer from a thin echo such as `field-like`, `quantum-like`, or `category-like` alone. |
-
-### C.29:12 - Rationale
-
-#### C.29:12.1 - Why this improves FPF
-
-The selected first-principles position in `C.29` is operational, not metaphysical. It treats first-principles mathematical thinking as local construction discipline: declare the smallest structure, rule, invariant, resource condition, observation, or consistency boundary from which the next lens-use action follows or is blocked. In that sense, a `C.29` application puts mathematical construction before adequacy control: the reader can introduce a queue, graph, state space, measure, topology, algebraic structure, variational quantity, simulation object, or learned representation when that structure improves the work, and then record the mapping, preserved structure, lost structure, lens-use boundary value, and stop condition.
-
-First-principles mathematical structures can come from several families without turning any one family into an FPF-wide foundation: signatures, logics, axioms, type or abstraction distinctions, symmetries, invariants, compositional structure, local-global relations, scale relations, boundary conditions, variational principles, action, energy, free-energy, loss, or value functionals, constrained optimization structure, probability, information, typicality, algorithmic construction, resource bounds, implementation constraints, consistency boundaries, causal or intervention-preservation questions, operator or function-space mappings, and declared observation maps. Each use still needs declared mapping, preserved structure, lost structure, validation regime or lens-use boundary value, and stop condition.
-
-This fits FPF because FPF already commits to state explicitness, bounded contexts, evidence and assurance, cross-context bridges, open-ended evolution, SoTA alignment, notational independence, and avoidance of ornamental formalism.
-
-`C.29` makes an existing discipline explicit: when FPF uses a `CandidateMathObject`, local formalism, learned representation, simulation object, or mathematical family as a mathematical lens for a stated use, the `C.29` application declares what that use preserves, what it loses, what it makes visible, which rival lenses still change the next lens-use action, and where its declared lens use stops.
-
-The compact Plain line remains useful because it points to a real heuristic: good mathematical lenses are not decoration; they are compact ways of seeing structures that survive transfer. The Plain line stays readable, while the card and checklist record the FPF commitments named by value.
-
-#### C.29:12.2 - Alternatives rejected
-
-| Alternative | Why rejected |
-|---|---|
-| Keep only local math-lens hooks | Leaves no general conformance pattern; `C.26`-style guardrails do not transfer to non-QL lenses. |
-| Add only a paragraph to `A.6.P` | Overloads relational precision restoration with general modeling adequacy. |
-| Add only a paragraph to `F.9` | Bridge discipline is about cross-context semantics; C.29 also governs within-context mathematical representation. |
-| Treat Vanchurin as a new FPF foundation | Too speculative and ontology-bearing; selected source-use disposition is candidate-lens stress test only. |
-| Treat Sandberg thread as a foundations list | Useful recognition cue, but not a proof source, closed taxonomy, or FPF law. |
-| Require a fixed list of permitted lens families | Would make first repair depend on list membership instead of declared structure, loss, and declared lens use. |
-| Make mechanized proof mandatory for every C.29 output | Too narrow. Mechanized proof can be one `LensUseBoundaryValue` value, but adequacy can also rest on accepted domain theory, formal derivation, simulation, or empirical fit. |
-
-#### C.29:12.3 - Pillar impact analysis
-
-| Pillar | Impact |
-|---|---|
-| `P‑1 Cognitive Elegance` | Positive: first-principles structure becomes visible without ornamental formalism; one lens-use card replaces many prestige metaphors while example rows stay subordinate to declared fields and declared lens use. |
-| `P‑2 Didactic Primacy` | Positive: first-minute use starts with the useful question "what structure changes the next lens-use action?", then Plain wording remains backed by recoverable Tech fields. |
-| `P-3 Scalable Formality` | Positive: admits maturation from ordinary cue to candidate lens, one-line repair, formal derivation, validation regime, or evidence-backed domain theory. |
-| `P‑4 Open‑Ended Kernel` | Positive if placed in Part C, not Kernel; avoids making any mathematical family or foundation a kernel axiom. |
-| `P‑5 FPF Layering` | Positive: `C.29` becomes a modular parent pattern or coordinator for specific mathematical lenses while neighboring patterns keep their own authority. |
-| `P‑6 Lexical Stratification` | Positive: separates Plain "lens" from technical `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `StopCondition`, and evidence fields. |
-| `P‑7 Pragmatic Utility` | Positive if every mathematical-lens use result changes a lens-bounded prediction, distinction, obstruction, model choice, diagnostic boundary, or stop condition. |
-| `P‑8 Cross‑Scale Consistency` | Positive: scale windows, coarse-graining, local-global relations, composition, dynamics, symmetry, and boundary conditions become declared rather than assumed. |
-| `P-9 State Explicitness` | Positive: state, observation, dynamics, measurement, lens-use boundary value, and stop-condition fields cite `A.3.3`, `A.19`, `C.16`, and `A.10` when those claims are being made. |
-| `P‑10 Open‑Ended Evolution` | Positive: new lens families and first-principles modeling structures can be added without destabilizing Core. |
-| `P‑11 SoTA Alignment` | Positive: admits current mathematical modeling, applied category theory, scientific machine learning, causal abstraction, learning-dynamics research, and plural foundations without over-adopting them. |
-
-#### C.29:12.4 - Principle-taxonomy balance
-
-| Pillar | C.29 effect |
-|---|---|
-| `Gov` | New mathematical-lens use norms require `E.9` design-rationale discipline and SoTA discipline when they alter FPF norms. |
-| `Arch` | Wrong subject-pattern assignment is blocked; `C.29` coordinates but does not replace neighboring patterns. |
-| ontology and episteme distinction | Representation, mapping, preservation, loss, and `LensUseBoundaryValue` are explicit. |
-| `Prag` | A useful lens produces a useful prediction, distinction, obstruction, or stop condition; otherwise it remains didactic prose. |
-| `Did` | The card gives a small first-use check while experts can inspect field meanings named by value. |
-
-### C.29:13 - SoTA-Echoing
-
-SoTA source use for `C.29` is accepted only when it changes action guidance. A citation that only decorates the file does not establish `C.29` use.
+#### C.29:4.5d - When a source changes the used result
 
 `C.29` separates source-use relations from source-use disposition. `Adopt`, `Adapt`, `Reject`, and candidate-stress-test disposition say what FPF does with the source; `SourceUseRelation` says what work the source may perform inside a C.29 application.
 
@@ -58987,7 +58742,7 @@ Local `SourceUseRelation` slot discipline:
 
 - source material reference or locator;
 - declared C.29 output, lens-use boundary, or `LensUseBoundaryValue` affected by that source;
-- source-use disposition: adopt, adapt, reject, candidate stress test, recognition cue, source identity locator, checked source-text carrier, or historical background only;
+- source-use disposition for the substantive use: adopt, adapt, reject, candidate stress test or recognition cue;
 - currentness, supersession, contradiction, narrowing, or demotion condition;
 - output-change condition for the C.29 result;
 - stop or return condition, and any blocked overread that passes F.19's plausible-reader test.
@@ -59002,91 +58757,220 @@ Local `SourceUseRelation` slot discipline:
 | `proofUnderAssumptions` | Justify a formal property under stated assumptions. | A formal proof can support a real-world-adequacy claim only when its assumptions, observations, and evidence relation are also established, together with any needed semantic Bridge. |
 | `negativeExample` | Expose failure, obstruction, non-transfer, counterexample, or stop condition. | Scope the result to the demonstrated failure and its return condition. |
 | `rivalLensSource` | Name a principal rival lens or relation that changes the bounded lens-use action being made. | Keep the principal-rival choice bounded to the current lens-use action. Undertake a literature review, or establish a selector or benchmark result, only for that separately current question. |
-| `sourceIdentityLocator` | Preserve source identity by value when a source is being cited or traced. | Use a separate source-use relation and adequacy basis when the claim needs substantive support. |
-| `historicalBackgroundOnly` | Explain lineage or terminology. | For present-day prediction, decision, Bridge, causal, assurance, or FPF-kind-governance use, establish a current source-use relation and apply its subject pattern. |
 
-The selected SoTA lines contribute the following guidance:
 
-| SoTA line | Selected action-guidance effect | Disposition |
+#### C.29:4.6 - Field meanings
+
+| Field | Meaning selected for `C.29` | Boundary guard |
 |---|---|---|
-| Applied category theory and compositionality | Use category-theoretic material for composition, interfaces, views, transformations, and transport discipline. Require named structure, preserved composition or interface, lost structure, and failed transfer. | **Adapt.** Useful for composition and interface questions when those structures matter to the stated use. |
-| Obstructions to compositionality | Treat failures and obstructions as first-class `LostStructure` and `StopCondition` material. | **Adapt.** A lens can be useful because it names where transfer fails. |
-| Plural foundations of mathematics | Allow multiple structural families with local adequacy, declared mapping, and declared loss. | **Adopt.** Source-use relation: plural-foundations source-use decision. |
-| Geometric deep learning, invariance, and equivariance | Use symmetry, group action, invariance, and equivariant representation as lens-discovery cues when generic feature lists hide the relevant sameness under transformations. Ask which transformations are declared as preserved or invariant, which distinctions are preserved, and which coordinate details can be lost. | **Adapt as lens-discovery source.** Not evidence for domain law, causal mechanism, or coordinate-free truth. |
-| Optimal transport and distribution geometry | Use transport plans, couplings, Wasserstein-like geometry, and declared movement cost as lens-discovery cues for population, distribution, shape, shift, or allocation questions. Ask what is transported, under which cost, and what structure or mass is lost. | **Adapt as lens-discovery source.** Not evidence for causality, fairness, mechanism, or policy effect. |
-| Model reporting and responsible modeling practice | Intended use, evaluation conditions, limitations, validation regime, failure cases, uncertainty, and domain of applicability become C.29 validation fields for prediction, publication, assurance-input, benchmark, model-selection, and scientific or model uses. | **Adapt.** Turns reporting practice into fields and repair actions. |
-| Causal and approximate causal abstraction | When abstraction, quotient, coarse-graining, simulation, or macro-modeling is being claimed, ask whether intervention and counterfactual structure is preserved, approximated, or not claimed; use `C.28` for causal-use question and verdict when causal use is being claimed. Approximate abstraction is a source-backed lens-use note, not a softened causal-use grant. | **Adapt.** No C.29 output is causal authority. |
-| Causal representation learning | Use causal-representation work as a discovery guard for latent variables, learned factors, interventions, assignments, and invariance across environments. If a latent lens is being read causally, keep causal-use question and verdict with `C.28`. | **Adapt as lens-discovery source.** Blocks “latent means causal”; does not make representation learning a causal verdict. |
-| Scientific machine learning as hybrid first-principles and data-driven modeling | Treat first-principles structures as plural and domain-bound: conservation laws, constitutive relations, boundary conditions, symmetries, known dynamics, numerical stability, uncertainty, and data-driven approximation can each discipline a lens. Require the C.29 user to name the concrete structure and validation boundary rather than saying "science says so." | **Adapt.** Reinforces the first-principles position without making any one SciML family the FPF foundation. |
-| Variational principles and constrained extrema | Use action, energy, free-energy, loss, value, entropy, or resource functionals as first-principles lenses only when the constrained variation space, constraints, boundary conditions, stationarity or extremum condition, conserved or dual quantities, and neighboring dynamics applications and evidence applications are named. | **Adapt as first-principles lens-discovery source.** Does not imply the target literally optimizes the declared functional; dynamics, evidence, causal-use, and assurance claims are governed by neighboring patterns. |
-| Physics-informed ML and learned scientific representations | Use physics-informed losses, governing equations, neural operators, surrogate solvers, and learned representations only with observation map, training or simulation regime, resolution or discretization policy, generalization claim, validation slice, uncertainty or approximation note, and stop condition. | **Adapt.** Contributes learned-lens overlay fields; does not license out-of-regime solver replacement, causal mechanism, or unobserved-state truth. |
-| Scientific and physics foundation models | Treat foundation-model claims in scientific domains as learned-lens stress tests: broad pretraining, in-context dynamics inference, zero-shot or transfer claims, and cross-domain simulation all require declared training regime, task family, validation regime, uncertainty, failure cases, and output-change condition. | **Adapt as SoTA pressure.** A foundation-model result can suggest a candidate lens or benchmark question; it is not accepted FPF law and not a universal first-principles source. |
-| Koopman, operator-theoretic dynamics, and system identification | Use observables, operator representations, dynamic-mode decomposition, and sparse identification as discovery cues for nonlinear dynamics. Name the state, observable or readout, forecast or control use being tested, and the governing dynamics or temporal-use pattern. | **Adapt as lens-discovery source.** Does not prove a real mechanism, dynamics semantics, evidence, or temporal-use adequacy. |
-| Probabilistic programming, Bayesian workflow, and model criticism | Use priors, likelihood assumptions, posterior predictive checks, prior-data conflict, model mismatch, and uncertainty as lens-use cues. Ask what the probabilistic lens makes visible, what assumptions it imports, and where prediction or explanation stops. | **Adapt as lens-discovery and criticism source.** Not a truth verdict, evidence verdict, or assurance result by itself. |
-| Modern Bayesian experimental design, OED, active sensing, and adaptive sampling | Use modern BED and OED, expected-information-gain estimation, acquisition-function, active-learning, Bayesian-optimization, and robustness results to ask which observation, probe, assignment, fidelity, or sample would change the lens's next lens-use action. Require declared utility, design variable, model assumptions, computational tractability, model-misspecification or robustness note, and validation boundary before using the result for prediction, decision, experiment planning, evidence, causal-use verdict, or assurance. | **Adapt as current lens-discovery source.** Not a measurement construction, evidence record, causal-use result, experiment plan, or assurance claim by itself. |
-| Uncertainty, approximation, sensitivity, and robustness practice | Prediction or scientific or model use requires approximation or uncertainty note, known failure or counterexample, and domain of applicability. | **Adapt.** Prevents empirical-fit overread. |
-| Vanchurin 2026 | Use as structure-dense candidate lens and overclaim stress-test: learning dynamics, coarse-graining, effective geometry, gauge, metric-tensor, or distance language, variational or thermodynamic optimality. | **Adapt, not adopt.** Not central SoTA authority and not accepted physics. |
-| Sandberg structural-sameness examples | Use as recognition examples for invariants, obstructions, dualities, fixed points, symmetries, and conservation-like structures. | **Adopt as recognition cue and examples, not proof authority.** |
+| `TargetPhenomenon` | Plain entry prompt naming the phenomenon or situation to be understood. | |
+| `entityOfConcernRef?` | EntityOfConcern reference named by value when the lens appears inside a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. | Required only when the lens appears in a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. |
+| `BoundedContext` | Context in which the lens is claimed to work. | Cite `F.9` when the use needs semantic correspondence between local senses. |
+| `CandidateMathObject` | Concrete mathematical object, structure, formal position, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
+| `LensMappingMode` | `C.29`-local lens mapping mode. | Cross-context transfer uses `F.9` when bridge semantics are being claimed. |
+| `PreservedStructure` | Structure preserved by the lens in the declared use. | No preserved structure means the mathematical phrase cannot justify the stated use. |
+| `LostStructure` | Structure the lens drops, abstracts away, or does not preserve. | Empty loss requires explicit equivalence or isomorphism justification through the subject pattern. |
+| `InvariantsExposed` | Invariant, obstruction, fixed point, symmetry, conservation law, diagnostic boundary, or other payoff. | If no payoff is visible, downgrade to recognition cue. |
+| `ObservableOrControllableCue?` | Cheap cue naming what can be observed, read out, assigned, varied, or validated before a candidate lens can change action. Examples include arrivals, work in progress, service time, wait time, edge meaning, intervention assignment, outcome readout, observation map, validation slice, scale variable, or scale point. | When making a measurement, evidence, causal or dynamics claim, apply its corresponding pattern in :4.4.6. |
+| `ObservationOrReadoutNeeded?` | Optional one-line note naming the observable, readout, assignment, outcome, validation slice, or scale point still needed before the stated bounded lens-use action is justified. | If the account of this missing item makes a measurement, evidence, causal, dynamics, or validation claim, apply the neighboring pattern that governs that claim. |
+| `LensBoundedPredictionOrDistinction?` | The derived consequence used for a conditional comparison, prediction, choice or model claim. | State whether the consequence holds inside stipulated premises or is relied on for the phenomenon; apply :4.4 and :4.5a accordingly. |
+| `DynamicsRef?`, `TransitionLawRef?` | References to dynamics defined by `A.3.3` when dynamics semantics are being claimed. | `C.29` does not define dynamics. |
+| `ObservationMapRef?` | Probe, readout, or observation map when observation makes the declared lens use bounded enough for the stated claim. | Required when learned or measurement-dependent lens use is being made. |
+| `ScaleWindow?`, `CoarseGrainingRule?` | Scale range and coarse-graining or compression rule when scale behavior, macro description or effective description, universality, coarse behavior, latent compression, or renormalized description is being claimed. | `C.18.1` and `C.19.1` govern scale-law and BLP evidence; the C.29 output states only how the lens remains adequate inside the declared window. |
+| `SourceReturnCondition?` | Condition under which the reader must return from the compressed or coarse description to the source-domain variables, observations, cases, or mechanisms. | Required only when abstraction, coarse-graining, compression, latent representation, or macro-modeling drops source-domain distinctions that could matter to the stated use. |
+| `PublicationUseClassification?` | Optional note for publication-facing use: `orientationOnly`, `explanationFacing`, `comparisonInput`, `decisionInputCandidate`, `benchmarkInput`, `assuranceInputCandidate`, or `reusableModelPublication`. | Apply :4.4 and :4.4.6 for the stated use. |
+| `OutputChangeCondition?` | Condition under which this C.29 output must be narrowed, demoted, replaced, retired from claim-bearing use, or handed to a neighboring FPF pattern. |  |
+| OrdinaryRivalOrFallback | Ordinary prose, accepted local theory, direct measurement, or simpler neighboring-pattern application the reader would use without this lens. | Required for cheap outputs; prevents prestige bias before broad rival review. |
+| `PrincipalRivalLens?` | Default ordinary or most relevant rival lens. | Preferred over a broad literature survey. |
+| `RivalLensSet?` | Broader comparison set when a selection or superiority question requires more than the principal rival. | Publication alone does not create a selector or benchmark question; use its receiving pattern when that result is needed. |
+| `RivalLensRelation?` | Declared relation between the lens in this use and the principal rival or rival set being compared. Allowed local relation values include `ordinaryFallback`, `complementary`, `sameUseLowerCost`, `morePreservedStructureHigherCost`, `lowerErrorOnDeclaredEvaluationCriterion`, `clearerExplanationForDeclaredReader`, `bridgeNeedsF9`, `causalUseNeedsC28`, `differentScaleWindow`, `differentLossProfile`, `incomparableForCurrentUse`, `blockedByStopCondition`, and `unresolved`. Examples: a queueing lens and a causal lens can be complementary for different lens-use actions; a latent manifold and a causal graph can conflict when latent axes are read causally; an RG-like lens and a micro-dynamics lens can have different scale windows. | Any superiority claim names the evaluation criterion, reader, cost, scale window, or subject pattern that makes the comparison bounded for use. |
+| `LensUseBoundaryValue` | Local finite lens-use boundary field. |  |
+| `BridgeRefSet?` | Reference to `F.9` Bridge material when semantic correspondence between local senses is needed. | Bridge semantics stay with `F.9`. |
+| `CausalUseDisposition?` | One of `noCausalUseClaim`, `causalUseBlocked`, `C28ApplicationRef`, or `CausalUseSupportResultRef`. | No causal-reference shortcut; no causal verdict from `C.29`. |
+| `AssuranceUseDisposition?` | One of `noAssuranceUseClaim`, `assuranceUseBlocked`, `evidenceInputOnly`, `A10Ref`, or `B3ApplicationRef`. | No assurance verdict from mathematical elegance. |
+| `declaredLensUse` | Declared lens use in this C.29 application. | Matches evidence and validation regime. |
+| `blockedLensOverread?` | Optional tempting neighboring use that is blocked or governed by another subject pattern; include it only when it passes F.19's plausible-reader test. | Names the neighboring pattern when that neighboring claim is being made. `groundedLensOverread?` is an alias for this same optional value. |
+| `StopCondition` | Condition for narrowing, stopping, returning to source material, or applying the direct pattern for a neighboring claim. | States the concrete boundary of the declared lens use. |
+| `ExportPolicyRef?` | Governed reuse or export policy when publication or downstream reuse is being claimed. | Not required for local orientation or mini-card use. |
 
-#### C.29:13.1 - Sandberg Thread and Structural Sameness Examples
+### C.29:6 - Naming, ontology, and epistemic precision-restoration account
 
-Adopt the Sandberg thread as a recognition cue, with two distinct source-use functions retained: the original X post is the **source identity locator**, while the Axis of Ordinary `Math` section is the checked text carrier used here.
+#### C.29:6.1 - Name
 
-The source examples are not a proof source and not an exhaustive taxonomy. They are a checked example carrier for `InvariantsExposed`: generalized Stokes and boundary-exterior derivative duality; de Rham, cohomology, and topological obstruction; CLT as RG or fixed-point viewpoint; Lawvere-style diagonal family; Noether and symmetry-conservation; and Legendre, potential-duality, and tropical-limit family.
+Name: `C.29 — Mathematical Lens Use`.
 
-Plain register: the thread illustrates mathematical compression that makes hidden structure visible. Tech register: every FPF use still needs `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`.
+Local namespace: `MathLensUse` = **Mathematical Lens Use**. The pattern-local card and reference namespace uses `MathLensUse`; checklist IDs use `CC-C29-*`.
 
-Do not adopt the thread as a proof source, peer-reviewed taxonomy, or authority for all mathematical details.
+The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. Plain prose can still say that a useful mathematical lens compresses many cases while preserving declared distinctions; claim-bearing use is recovered through `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`.
 
-#### C.29:13.2 - Vanchurin 2026 as candidate lens
+#### C.29:6.1a - C.29-local naming guard
 
-Adopt and adapt the following as a candidate lens family:
+`MathLensUse.*` instruments are `C.29`-local unless separately admitted.
 
-> **learning dynamics → coarse-graining → effective geometry → gauge fields, metric-tensor fields, or distance-like structure → variational or thermodynamic optimality**
 
-Use this source as the case for why FPF needs a lens-use card: the source discusses many mathematical structures, but its claims are broad and speculative. The candidate-lens stress-test value comes through trainable variables, local update rules, Legendre transforms, thermodynamic potentials, gauge-field, metric-tensor-field, and distance-language claims, memory and processing trade-offs, and RG-like re-optimization of compressed representations.
+When one `C.29` application needs a mathematical-lens name to become reusable outside that application, use `F.18` local-first naming; when it quantifies over a class of described entities, use `C.3` Kind-CAL; when it creates or reuses a durable concept or record family, use `F.8` minting or reuse and `E.9` design-rationale discipline.
 
-The Plain lesson is “this is a useful candidate lens, not a new FPF cosmology.” Selected lens use:
+#### C.29:6.3 - Ontology guard selected for FPF
 
-**Adoption stance: Adapt, not Adopt.**
+> A physical, organizational, or epistemic phenomenon is not directly identified with a mathematical object; it is represented through a mathematical object by an explicitly declared mapping that preserves some structures and loses others.
 
-Adapt:
+### C.29:7 - Archetypal Grounding
 
-- learning dynamics as a general language of change,
-- resource constraints as a possible source of effective laws,
-- coarse-graining as a mechanism for simple macrodescriptions,
-- thermodynamic or variational potentials as links between cost, memory, processing, and geometry,
-- RG-like re-optimization as a scale-transition discipline.
+| Archetype | Candidate lens | Preservation | Loss | Output and stop condition |
+|---|---|---|---|---|
+| Production line as queueing network | Queueing network | flow, service and waiting under stated premises | station failures, rework and blocking if omitted | MiniCard for the conditional comparison in :4.4; FullCard with validation when the same result is used for actual capacity or latency reliance. Withdraw the affected result when its premises fail. |
+| Team backlog as queue | Queueing lens | work arrival, work in progress, service time, waiting time | obligation, motivation, priority legitimacy, skill learning | `MathLensUse.OneLine` or mini-card; admits bottleneck reasoning; moral or managerial authority, when claimed, needs its own basis. |
+| Manager sees slow throughput but has no lens | Queue or flow candidate note | possible arrivals, work in progress, service bottleneck, waiting time | motivation, duty, priority legitimacy, full team ontology | Start with `MathLensUse.LensCandidateNote`; use `MathLensUse.OneLine` or mini-card only after the candidate queue or flow lens changes the next lens-use inspection. |
+| Measurement comparison as declared distance or scoring choice | Metric-space distance, embedding, or scoring-function lens | comparability, distance, proximity, clustering, threshold structure | evidence relation, causal mechanism, value judgment | `MathLensUse.OneLine` or mini-card; admits comparison design and sensitivity checks, not truth or priority by itself. |
+| Stabilizing system as state-space dynamics | State-space or transition lens | state variables, transition relation, attractor, control handle when the neighboring relation is named by value | unobserved motivation, obligation, causal mechanism beyond the model | `MathLensUse.OneLine` or mini-card; admits state inspection or transition inspection, not full dynamics ontology. |
+| Research field as citation graph or category-like network | Graph or categorical structure | adjacency, composition, interface, failed transfer, citation or transformation patterns | semantic truth, evidence relation, social meaning | First inspect adjacency, composition, interface, or failed transfer; `MathLensUse.MiniCard` plus `F.9` when the use needs semantic correspondence between local senses; never substitute graph proximity for truth or evidence. |
+| Quantum-like dashboard | Quantum-like probe and order lens | order effects, probe effects, incompatible frames when actually present | physical quantum ontology | `C.26` with C.29-compatible stop condition `QL-NQ`; not a full-card cost for QL-lite notes. |
+| RG-like scale-law claim | Coarse-graining or fixed-point lens | scale variable, coarse-graining rule, invariants across scales | micro-mechanism identity and universal applicability | `C.29` plus `C.18.1` or `C.19.1`; stops outside scale window. |
+| Learned operator as scientific lens | Learned operator, latent space, surrogate solver | trained input-output structure, resolution behavior when validated | causal mechanism, out-of-domain generalization, unobserved variables | Learned-lens overlay; validation regime and stop condition required. |
 
-Do not adopt as FPF norm:
+Worked micro-cases by failure mode:
 
-- “the universe really is a neural network,”
-- “physics has already been proven from learning,”
-- “quantum, GR, or gauge theory reduce to a learning rule or learning dynamics” as established fact.
+| Failure mode | Reader sees | C.29 repair |
+|---|---|---|
+| No-lens repair | "Throughput is slow, but we have no model." | Start with a queue or flow `MathLensUse.LensCandidateNote`; observe arrivals, work in progress, service time, wait time, and bottleneck candidate before using `MathLensUse.OneLine` or mini-card. |
+| Under-specified-lens repair | "The market is a field." | Write `MathLensUse.OneLine` only if the candidate mathematical object, mapping, preserved structure, lost structure, payoff, and stop condition can be stated; otherwise remove the phrase or keep it as ordinary metaphor. |
+| Overread repair | "The latent manifold explains reality." | Use the learned-lens overlay, name observation map and validation slice, and stop causal or ontology overread unless an exact causal or ontological predicate is defined and current facts satisfy it. |
+| Wrong-neighbor repair | "The same graph appears in two contexts, so the meanings are the same." | Apply `F.9` for Bridge semantics; keep `C.29` only for mathematical-lens use. |
+| Local-math non-use | Accepted Markov kernel inside local dynamics. | Stay in `A.3.3`; return `NoMathLensUseNeededNote` if useful; do not use C.29 merely because local mathematics appears. |
+| Speculative SoTA stress | A proposed metric/noise coupling is carried from a learning model to a physical or biological system. | Use :13.2's candidate conditions; identify variables and assumptions and test the correspondence before using the transferred result. |
 
-Known limitations from the checked source-use disposition remain material for mathematical-lens use: non-Abelian gauge fields are not treated as an established FPF result; thermodynamic RG flow is not treated as a quantitative FPF law; quantitative predictions require explicit learning-algorithm specification.
+A speculative learning-dynamics model can be tried as a candidate with a concrete mathematical object and a testable correspondence. The bounded source use is in :13.2.
 
-#### C.29:13.3 - Plural foundations source-use decision
+### C.29:8 - Bias-Annotation
 
-Adopt the plural-foundations source-use decision: several structural families can be reusable across domains, and their adequacy depends on declared mapping, local use, mutual interpretability, and recoverable loss.
+| Bias risk | C.29 correction |
+|---|---|
+| **Mathematical prestige bias** | Require `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`. |
+| **Physics envy** | Physical source-domain ontology does not transfer without separate proof or evidence and subject pattern. |
+| **Category-theory monoculture** | Use category-theoretic material only when composition, interfaces, views, transformations, or transport structure matters to the stated use; otherwise choose the local lens family that exposes the working cue. |
+| **Speculation laundering** | Keep the metric/noise-coupling use in :13.2 conditional on its actual model assumptions and correspondence. |
+| **Over-formalization** | Apply :4.4's consequence/reliance rule; reusing or publishing a conditional explanation alone does not require a full empirical-model account. |
+| **Scale blindness** | Require `ScaleWindow?`; coordinate scale claims with `C.18.1` or `C.19.1`. |
+| **Causal laundering** | If the lens licenses causal claims, apply `C.28`; MathLensUse cannot supply causal use by itself. |
+| **Assurance laundering** | Mathematical elegance does not raise `R`; evidence and assurance use apply `A.10`, `B.3`, and relevant G patterns. |
 
-Source-use relation: Rodin supplies source material for the positive decision that several structurally useful families recur across domains. C.29 records this as local adequacy discipline: select the family that fits the declared use, state the mapping, and publish recoverable loss.
+### C.29:9 - Conformance Checklist
 
-Rodin and P2W micro-slice — fill-in OneLine template. Before claim-bearing lens use, name the concrete `CandidateMathObject`, select the `LensMappingMode`, and state the use-specific `PreservedStructure` and `LostStructure`:
+Use this checklist after constructing or delimiting the result in :4.1. Its conditions concern the actual correspondence, consequence and receiving use; a completed form alone does not satisfy them.
 
-```text
-MathLensUse.OneLine@RodinP2W:
-  TargetPhenomenon: accepted problem-side distinction that may need later formal declaration
-  CandidateMathObject: one selected formal structure or structural family
-  LensMappingMode: exact formal equivalence, interpretation, homomorphism, or near-sameness candidate
-  PreservedStructure: the invariant, composition law, obstruction, boundary relation, or formal relation that survives the lens use
-  LostStructure: world-facing detail, measurement condition, causal condition, bridge loss, or implementation detail not preserved by the formal relation
-  VisiblePayoff: the reader can decide whether a formal declaration is needed before mechanism, method, or work reasoning
-  NextLensUseAction: apply `A.6.0` if a `U.Signature(profile=FormalSubstrate)` declaration is needed; apply `E.18.1` if accepted problem-side material must be used through P2W in later FPF work
-  StopCondition: return to the subject pattern when the needed claim concerns observation-bound world adequacy, causal use, an evidence relation, Bridge-declared lens use, or work-start conditions; use the formal result within its stated preservation and loss
-```
+| ID | Requirement | Purpose |
+|---|---|---|
+| `CC-C29-0 Use condition` | Use C.29 only when a mathematical object, formalism, family, learned representation, or simulation object is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer, or when a stable problem needs a first candidate lens that could change the next lens-use action. | Keeps local analogies lightweight. |
+| `CC-C29-1 Mathematical move before record` | State the question, choose a concrete object, establish its correspondence and losses, and derive or delimit the consequence before selecting the sufficient record under :4.4. | Keeps recording subordinate to the mathematical work. |
+| `CC-C29-2 Named mathematical object` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
+| `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is being claimed, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
+| `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and the concrete correspondence. If bridge semantics are claimed, apply `F.9`. | Makes the correspondence and any needed semantic Bridge explicit. |
+| `CC-C29-4 Preserved structure` | State what structure the lens preserves. | Makes transfer testable. |
+| `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the subject pattern. | Prevents map-territory collapse. |
+| `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
+| `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` is used for claim-bearing lens use, recover the concrete `CandidateMathObject` for the candidate family, preserved structure, lost structure, visible payoff, lens-use boundary value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
+| `CC-C29-6b Bounded-observer structural-information lens` | When MDL, epiplexity, compression, graph information, or description-recoverability changes the next lens-use action, recover `TargetPhenomenon`, source episteme or trace, bounded observer, candidate measure or code, mapping mode, preserved and lost selected structure, visible payoff, observation or postulate boundary, source-return condition, lens-use boundary value, and stop condition. | Makes the selected structure, observer and use limit recoverable. |
+| `CC-C29-6c Architecture-local lens descriptions` | When `MLU.Description@RGArchitecture`, `MLU.Description@MultilevelLearningFrustration`, or another architecture-local lens description is used for claim-bearing lens use, recover declared scope or scale window, candidate mathematical object, mapping mode, preserved structure, lost structure, source-return condition, next lens-use action, and stop condition; apply the neighboring patterns that define or constrain architecture, scale-preference, measurement, evidence, assurance, selected-set, and decision claims. | Makes scope, lost structure and source return explicit. |
+| `CC-C29-7 Lens-bounded prediction or distinction` | State the actual consequence or obstruction, its premises and the use selected under :4.4. For phenomenon prediction or consequential reliance, supply the required applicability and validation account. | Makes the result and its reliance boundary inspectable. |
+| `CC-C29-8 State, observation, and evidence separation` | If state, observation, probe, readout, or evidence is being claimed, apply `A.3.3`, `A.19`, `C.16`, or `A.10` as needed. | Prevents passive-read and dashboard mistakes. |
+| `CC-C29-8a Receiving use` | When the lens result contributes to a separately governed question, identify that question and follow :4.4.6's receiving action. | Connects the lens result to its receiving use. |
+| `CC-C29-9 Scale window` | If scale, universality, knees, exponents, or coarse-graining are being claimed, declare the scale range and use `C.18.1` for scale-law adequacy, `C.19.1` for general method scale preference, and `C.31.ASAP` for architecture scale preference when the respective claim is made. | Prevents universalization. |
+| `CC-C29-9a Temporal use boundary` | If the claim being made is about forecast, rate, trajectory, rhythm, recovery, convergence, stabilization, speed, temporal window, or rate-change as sufficient for a use, cite `C.27` or state that temporal adequacy is not being claimed. | Prevents mathematical prediction cues from replacing temporal-claim adequacy. |
+| `CC-C29-10 Rival lens discipline` | Start with the principal rival or ordinary fallback; broaden only when the actual selection or superiority question requires it. Name the comparison criterion, cost, reader, scale window or receiving pattern that makes the claim testable. | Keeps the comparison proportionate to the intended use. |
+| `CC-C29-10a Validation regime` | Apply :4.4's reliance rule and :4.5a. Phenomenon-model reliance requires validation regime, evaluation slice, uncertainty/approximation, failure case, applicability and any output-change condition. A conditional derivation states its assumptions and loss without claiming empirical adequacy. | Matches validation cost to the actual reliance. |
+| `CC-C29-10b Source-use relation` | If a source changes C.29 declared lens use, name its `SourceUseRelation` with source material reference, declared C.29 output or lens-use boundary, source-use disposition, source-currentness or supersession condition, and output-change condition. Include a blocked source-prestige overread only when it passes F.19's plausible-reader test. | Separates the source-use relation from source-use disposition and makes its governing slots recoverable. |
+| `CC-C29-10c Source-currentness and return condition` | If source material, source-use family, source-use decision, or a neighboring subject pattern changes the declared lens-use boundary for this output, state `SourceReturnCondition?` or `OutputChangeCondition?` and narrow, demote, replace, retire, or block the claim-bearing use. | Keeps SoTA currentness and neighboring-pattern currentness tied to the declared C.29 output rather than to source prestige or process evidence. |
+| `CC-C29-11 LensUseBoundaryValue` | Label `LensUseBoundaryValue` as analogy-only prompt, diagnosticOnly, formal derivation, simulation, empirical fit, accepted domain theory, SoTA-echo candidate, or mechanized proof, with a matching declared-use boundary. | Prevents evidence laundering. |
+| `CC-C29-12 No ontology smuggling` | Do not import source-domain ontology without separate proof or evidence and subject pattern. | |
+| `CC-C29-13 Stop condition` | State the condition for narrowing, stopping, returning to source material, or applying a neighboring pattern. | Makes closure locally visible. |
+| `CC-C29-14 Bridge discipline` | Cross-context mathematical transfer cites `F.9` when semantic correspondence between local senses is needed; Bridge and C.29 fields agree without duplicate writing. | Keeps semantics bounded. |
+| `CC-C29-15 Causal-use discipline` | Causal-use claims apply `C.28`; C.29 cannot carry a causal-use verdict by itself. | Blocks causal laundering. |
+| `CC-C29-16 Assurance discipline` | Assurance, release, reliability, and engineering-justification claims apply their direct subject patterns: `A.10` for evidence reliance, `B.3` only for an actual named assurance claim, the direct domain pattern for the release, reliability, or engineering-justification result, and relevant G patterns for their claims. | Prevents elegance from raising assurance directly. |
+| `CC-C29-17 Meaning recovery` | If wording obscures the object, claim or participants needed for the current lens use, rewrite it so the reader can identify them and take the next lens-use action. Use `C.2.P` only when an unresolved epistemic distinction still prevents selecting or using the relevant pattern. If the meaning cannot be recovered, state the unresolved point and stop the dependent use. Keep ordinary wording when it already supplies the needed meaning. | Makes the statement and its next use recoverable. |
+| `CC-C29-18 Plain and Tech balance` | A Plain sentence can remain when it aids recognition; if it makes ontology, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary commitment, that commitment is recovered through the Tech fields or neighboring pattern. | Preserves didactic usefulness without shadow semantics. |
+| `CC-C29-20 Repair failed conditions` | For each failed required condition, apply :4.5b and state the resulting repair, narrowed use, return or stop. | Makes the next corrective action or stop explicit. |
 
-Read the slice by the exact governed object and claim. `C.29` governs the `CandidateMathObject` designation, the selected mathematical representation and explicit correspondence, and the preserved and lost structure stated for that bounded mathematical-lens-use claim or note. It does not assert a world-side participation or direct use relation; such a relation requires a separate direct relation settlement with participant meanings, an obtaining predicate, applicability, and an identity rule. `A.6.0` governs the separate formal-declaration episteme when a `U.Signature(profile=FormalSubstrate)` declaration of vocabulary, laws, imports, and applicability must be written. `E.18.1` governs P2W carry-through of the accepted problem-side distinction into the next declared FPF use. If the claim becomes measurement, evidence, causal use, Bridge semantics, mechanism realization, or work, apply `C.16`, `A.10`, `C.28`, `F.9`, `A.6.1`, or `A.15` to that claim being made. Use `A.15.5` when the needed result is work-entry readiness.
+### C.29:10 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | What it looks like | Repair |
+|---|---|---|
+| **Map-territory collapse** | “The organization is a quantum system.” | “A quantum-like lens models order, probe, or contextual-probability effects; no physical quantum ontology is licensed.” |
+| **Prestige substitution** | “Use category theory” without naming objects, morphisms, functors, preservation, or loss. | Name the categorical structure, preserved composition or interface, and failed transfer. |
+| **Family-name as object** | `field`, `graph`, `category`, `RG`, or `quantum` appears as if the family name were enough. | Name the concrete object, structure, formal position, or downgrade to Plain recognition. |
+| **C.29-everywhere** | Every measurement template, score, graph, kernel, ODE, equation, or local formal object is treated as requiring `C.29`. | Require lens-transfer, publication, assurance, bridge, comparison, or reusable-explanation use. |
+| **Card-before-problem** | Fields are filled before the question or mathematical operation is known. | State the question, construct the correspondence and derive or delimit its consequence before choosing a record. |
+| **Local-theory over-escalation** | Accepted local dynamics or domain equations are treated as needing C.29 by default. | Keep them under the local domain pattern or `A.3.3` unless a separate lens-transfer claim, publication use, assurance input, bridge, comparison, or reusable-explanation use is being made. |
+| **False exactness** | Equivalence, isomorphism, or representation is declared by value when only analogy, fit, or simulation exists. | Downgrade `LensMappingMode` or justify the declared relation named by value through the subject pattern. |
+| **RG-as-vibe** | “Everything is coarse-graining” with no scale window, coarse-graining rule, or fixed point. | Declare scale variable, coarse-graining rule, invariants, and rival micro-models. |
+| **Elegant-math override** | A specialized or elegant mathematical lens is selected over a more general or scale-amenable alternative because of elegance or prestige while a general method scale-preference claim or architecture scale-preference claim is being made. | Use BLP scale-audit when a general method scale-preference claim is being made; use C.31.ASAP when an architecture scale-preference claim is being made; otherwise mark the lens as local and bounded by `C.29` stop condition. |
+| **Familiar math misses needed structure** | A graph, linear trend, average, two-characteristic chart, or score is used because it is familiar while the working problem needs uncertainty, topology, dynamics, causal structure, scale law, distribution geometry, or operator view. | Name the working problem cue; choose a lens family that exposes the missing structure, or keep the simple math as local orientation only and block transfer, decision, evidence, assurance, publication, bridge, comparison, or reusable-explanation use. |
+| **Vanchurin over-adoption** | “FPF now says physics is learning.” | Mark as candidate lens; retain open questions and evidence limits. |
+| **Invariant-free metaphor** | “Market is a field” with no invariant, transition law, observation map, or `LensUseBoundaryValue`. | Downgrade to local metaphor or build a `MathLensUse.OneLine` or mini-card. |
+| **Loss-free bridge** | Mathematical structure is exported across semantic contexts as a Bridge without `F.9`, loss notes, counter-example, or declared lens use. | Use `F.9` Bridge plus MathLensUse `LostStructure` and `StopCondition`. |
+| **Duplicate bridge writing** | C.29 repeats sense cells, CL, substitution scope, and Bridge-declared lens use. | Use `F.9` to establish Bridge semantics; cite Bridge from the C.29 output. |
+| **LensMappingMode as BridgeKind** | A local `LensMappingMode` value is used to skip `F.9`. | Do not define a bridge-valued `LensMappingMode`; use a local transfer class only for declared lens use and apply `F.9` to cross-context meaning, Bridge-dependent substitution, CL, sense cells, or Bridge-declared lens use. |
+| **Causal laundering** | Lens fit is treated as proof of intervention effect. | Apply `C.28` and evidence design, or block causal use. |
+| **Assurance laundering** | Elegant formalism is treated as release confidence. | Use the direct release pattern, `A.10` for evidence reliance, and `B.3` only for an actual named assurance claim; C.29 can be evidence input only when `LensUseBoundaryValue` and validation regime are declared. |
+| **LensUseBoundaryValue laundering** | `SoTA-echo candidate` sounds like authority. | Restrict to exploration or lens-use tests unless validation and neighboring evidence patterns define or constrain prediction, decision, causal use, bridge substitution, assurance, or ontology. |
+| **RivalLensSet as literature review** | A broad survey is produced before a material rival question has been named. | Start with the principal rival and its action-changing difference; broaden only when the actual selection or superiority question requires it. |
+| **StopCondition boilerplate** | The card says only “does not prove everything.” | State the concrete stop, no-lens exit, or source-return condition; include a blocked overread only when it passes F.19's plausible-reader test. |
+| **Plain metaphor carrying law** | “What survives transfer” becomes an unstated Tech claim. | Recover the commitment through `C.2.P` fields or keep it as ordinary Plain recognition only. |
+| **C.29 local-kind inflation** | `MathLensUse.Card` is treated as a universal `U.*` object or durable FPF record. | Keep it pattern-local; durable cross-pattern records require explicit minting or reuse, naming, kind, and design-rationale decision through `F.8`, `F.18`, `C.3`, and `E.9`. |
+
+### C.29:11 - Consequences
+
+| Benefit | Cost or handling |
+|---|---|
+| Authors get a small checklist before using terms such as field, quantum, category, RG, manifold, graph, or information geometry. | Some quick analogies will be downgraded to local prose; this is intended. |
+| A proposed metric/noise relation can suggest a candidate learning model. | Its correspondence and application conditions still need testing before reliance. |
+| Cross-domain transfer becomes auditable through preserved structure and lost structure and stop conditions. | More upfront statement effort; reduces downstream epistemic precision repair. |
+
+### C.29:12 - Rationale
+
+The useful compression is question-relative. The same two-station recurrence distinguishes output rate from latency; it also reveals why increasing arrival pressure cannot yield a bounded long-run delay in that model. A reader who already has the adequate domain construction, correspondence and limitations can use it directly. C.29 is helpful when one of those parts must be recovered before the representation can answer the question.
+
+The cost is explicit construction and a check of material losses. A queue calculation, geometric transformation or learned model still needs its own mathematical Method. C.29's discovery cues help locate a candidate; its reliance rule determines which missing application information must be supplied for the result's use.
+
+### C.29:13 - SoTA-Echoing
+
+**Question and selected line.** How should a practitioner choose and bound a mathematical representation before relying on its result? Adopt problem-first domain modeling as the first-use Method: recover the question and required precision, choose an adequate construction from known structure and available data, compute its consequence, and check the application conditions. Adapt C.29 as assistance with missing correspondence, loss and transfer conditions, not a preliminary hierarchy of forms.
+
+**Same-case comparison.** Use :4.4's queue question: does halving A's service time increase sustained output? Give both approaches the same arrivals, station times, routing and service assumptions, and a reader who can use maxima, a short recurrence and minutes-per-hour arithmetic. Give both the same bounded work allowance: a four-job prefix, the two specified service-time variations and their use limits. Neither approach receives a trained surrogate, extra observations or a larger literature review.
+
+| Usable approach | First action and result | Effort and selection |
+| --- | --- | --- |
+| Direct queue Method with problem-specific assumptions and explanation | Construct departure times from arrival and server availability; compare the original and faster-A schedules. It gives the 4-job/hour rate and the five-minute latency difference, with the explicit no-blocking and constant-service conditions. | The recurrence, two variations and application limits use the stated calculation allowance. Select this direct construction; when its account is adequate, no extra C.29 output is needed. |
+| Generic representation-selection account with C.29 recording | If it starts by choosing and filling a form, it still has to obtain the same recurrence before answering the question. The field hierarchy supplies no different capacity result. | Reject recording as the first move. In :4.1, start with the working question and actual construction; :4.4 permits the same short conditional account and references existing documentation. |
+| Reuse of only “the line produces 4 jobs/hour” for another line or a capacity commitment | The missing step is to recover what a job, station and service interval represent, and whether constant service and no blocking still hold. In the original example, adding the omitted inspection at B changes the result to 3 jobs/hour. | Retain C.29's explicit correspondence/loss return when that information is absent. It costs a return to the source model and application conditions; if the domain account already does this, use it rather than repeat it. |
+
+The first action-changing difference from an output-first procedure is the departure construction, not a more complete form. The retained transfer check can change a reused conclusion or leave reliance unresolved, but it is also part of competent domain modeling. C.29 supplies a reusable entry for that missing work; it is not selected over an already adequate domain Method.
+
+**Source comparison and limits.** [Meng et al., §2.1.2](https://link.springer.com/article/10.1007/s44379-025-00016-0) compares conventional PDE solvers with physics-informed learning through confidence in equations, precision, cost and incomplete knowledge. Adapt that choice discipline, not a claim that the PDE Methods solve this queue. Known equations and a small exact computation favor the direct construction here; missing dynamics or a costly many-query problem can instead make a learned or hybrid candidate worth testing.
+
+[Dietrich and Schilders, §§2 and 5](https://link.springer.com/article/10.1007/s00591-025-00399-4) explain problem-specific combinations of structure and data and the limits of generalization, robustness and physical consistency. This supports :4.1's application conditions, :4.2b's plural discovery and :4.5a's learned-model checks; it does not establish a universal best representation.
+
+[Mitchell et al., §4](https://arxiv.org/html/1810.03993v2) supplies tailored reporting for trained models, their context and stakeholders. Adapt intended use, evaluation conditions and limitations for actual model reliance. Reject a universal FullCard requirement inferred from model reporting: :4.4 allows the conditional explanation to remain small and strengthens the account when reliance changes.
+
+**Trade-off and reopening.** The selected line spends effort on the mathematical operation and only the application information needed by the receiving use. It gives up the uniform appearance of a full form for every example. Reopen the choice when an actual competing construction gives the needed result with lower effort or loss, when observations defeat a relied-on premise, or when the intended reliance changes. A measured learning-speed or error-rate advantage for C.29's complete recording hierarchy over good domain practice has not been established.
+
+#### C.29:13.1 - Structural-sameness recognition examples
+
+Sandberg's examples, available in the [Math section of *Links for 2026-05-12*](https://axisofordinary.substack.com/p/links-for-2026-05-12), suggest several discovery cues used in :4.2b: Stokes and boundary/exterior-derivative relations; de Rham and cohomological obstruction; a CLT fixed-point view; Lawvere-style diagonal constructions; Noether's symmetry/conservation relation; and Legendre, potential-duality and tropical-limit viewpoints. Use the example to find a candidate, then return to the chosen mathematical result and its assumptions before relying on it.
+
+In the CLT-as-RG or fixed-point viewpoint, the Gaussian is an attractive fixed point for finite-variance distributions under the usual normalization; other stable laws are other fixed points under suitable normalization.
+
+
+#### C.29:13.2 - Metric/noise coupling as a candidate lens
+
+[Vanchurin, *Geometric Learning Dynamics*, v3, §§2–6](https://arxiv.org/html/2504.14728v3) studies learning dynamics with a trainable-space metric and noise covariance. Its `g ∝ κ^α` regimes and proposed interpolation provide a candidate for a question about how that coupling changes an update process. The stationary-entropy-production construction has its stated loss constraint; the Schrödinger-like case additionally depends on a discrete shift symmetry.
+
+For that question, specify the trainable variables, update/loss model, covariance and metric, then test the chosen relation and time-scale assumptions. Compare with the ordinary update model under the same data and intended use. Retain only a conditional candidate until the correspondence and validation support further reliance. The paper's proposed physical and biological interpretations do not by themselves establish that correspondence for a particular system. Its §6 explicitly leaves rigorous phase-transition analysis open.
+
+#### C.29:13.3 - Plural mathematical structures
+
+[Rodin's plural-foundations discussion](https://arxiv.org/abs/2301.08131) supports considering several interpretable structural families rather than selecting by a foundational label. Its role here is a discovery prompt. The actual construction still has to preserve the law needed by the working question under :4.1.
+
+When a mathematical equivalence, interpretation or homomorphism supports later formal work, name the exact objects, correspondence and preserved law. Use A.6.0 when a separate formal vocabulary/law declaration is needed, and E.18.1 when accepted problem-side material must be carried into later work. The object and receiving conditions are stated in :4.4.6.
 
 #### C.29:13.4 - Applied category theory
 
@@ -59098,120 +58982,61 @@ In `C.29`, category-theoretic material is used through the same local adequacy f
 
 Adapt the obstructions and failures-of-compositionality perspective into `LostStructure` and `StopCondition`: a lens can be useful precisely because it exposes where transfer fails, not only where it succeeds. In plain language, a good lens does not only say "this transfer holds"; it also names the boundary where transfer stops.
 
-### C.29:13a - Source locators and source-use guard
+### C.29:13a - References
 
-Decision grounds and governing inheritance remain recoverable by value, and SoTA rows shape action guidance rather than decorate the file. The source locators and the source-use relation of each external source are retained here.
+The comparison above selects the first-use Method. The references below provide further source returns for the particular discovery cues and model conditions in :4.2b/:4.5a; they do not rank those families for a working problem.
 
-#### Source locators and governing-use rows
+| Source | Locator |
+| --- | --- |
+| `SAND-THREAD-MATH-LINKS-2026-05-12` | [Links for 2026-05-12, Math section](https://axisofordinary.substack.com/p/links-for-2026-05-12) |
+| `VAN-GEOM-LEARNING-2025/2026` | [Geometric Learning Dynamics, v3, 14 March 2026](https://arxiv.org/html/2504.14728v3) |
+| `RODIN-2023` | `https://arxiv.org/abs/2301.08131` |
+| `FONG-SPIVAK-2018/2019` | `https://arxiv.org/abs/1803.05316`; Cambridge page: `https://www.cambridge.org/core/books/an-invitation-to-applied-category-theory/D4C5E5C2B019B2F9B8CE9A4E9E84D6BC` |
+| `GDL-BRONSTEIN-2021` | `https://arxiv.org/abs/2104.13478` |
+| `PEYRE-CUTURI-2019` | `https://arxiv.org/abs/1803.00567` |
+| `PUCA-ETAL-2023` | `https://arxiv.org/abs/2307.14461` |
+| `MODEL-CARDS-2018/2019` | `https://arxiv.org/abs/1810.03993` |
+| `DATASHEETS-2018/2021` | `https://arxiv.org/abs/1803.09010`; CACM page: `https://cacm.acm.org/research/datasheets-for-datasets/` |
+| `CAUSAL-CONSISTENCY-2017` | `https://arxiv.org/abs/1707.00819` |
+| `CAUSAL-ABSTRACTION-2019` | `https://arxiv.org/abs/1812.03789`; AAAI page: `https://ojs.aaai.org/index.php/AAAI/article/view/4117` |
+| `APPROX-CAUSAL-ABSTRACTION-2019/2020` | `https://arxiv.org/abs/1906.11583`; PMLR page: `https://proceedings.mlr.press/v115/beckers20a.html` |
+| `CAUSAL-ABSTRACTION-JMLR-2025` | `https://jmlr.org/beta/papers/v26/23-0058.html` |
+| `SCHOLKOPF-ETAL-2021` | `https://arxiv.org/abs/2102.11107`; DOI `10.1109/JPROC.2021.3058954` |
+| `PINN-2019` | DOI `10.1016/j.jcp.2018.10.045` |
+| `PIML-2021` | DOI `10.1038/s42254-021-00314-5` |
+| `DEEPONET-2021` | DOI `10.1038/s42256-021-00302-5` |
+| `FNO-2020/2021` | `https://arxiv.org/abs/2010.08895` |
+| `SCIML-DIETRICH-SCHILDERS-2025` | DOI `10.1007/s00591-025-00399-4`; `https://link.springer.com/article/10.1007/s00591-025-00399-4` |
+| `PIML-SURVEY-2025` | DOI `10.1007/s44379-025-00016-0`; `https://link.springer.com/article/10.1007/s44379-025-00016-0` |
+| `NEURAL-OPERATORS-NRP-2024` | DOI `10.1038/s42254-024-00712-5`; `https://www.nature.com/articles/s42254-024-00712-5` |
+| `PHYSICS-FOUNDATION-MODEL-2025` | `https://arxiv.org/abs/2509.13805` |
+| `KOOPMAN-SINDY-DMD-2016` | SINDy DOI `10.1073/pnas.1517384113`; DMD DOI `10.1137/1.9781611974508` |
+| `BAYES-WORKFLOW-PPL-2018/2020` | Probabilistic programming arXiv `https://arxiv.org/abs/1809.10756`; Bayesian Workflow arXiv `https://arxiv.org/abs/2011.01808` |
+| `MODERN-BED-2023/2024` | `https://arxiv.org/abs/2302.14545`; DOI `10.48550/arXiv.2302.14545` |
+| `MODERN-OED-2024/2026` | `https://arxiv.org/abs/2407.16212`; Cambridge Core DOI `10.1017/S0962492924000023` |
+| `BO-AL-ADAPTIVE-SAMPLING-2024` | DOI `10.1007/s11831-024-10064-z`; `https://link.springer.com/article/10.1007/s11831-024-10064-z` |
+| `EIG-DENSITY-APPROX-2024/2026` | `https://arxiv.org/abs/2411.08390`; DOI `10.48550/arXiv.2411.08390` |
+| `ROBUST-GBOED-2025` | `https://arxiv.org/abs/2511.07671`; DOI `10.48550/arXiv.2511.07671` |
+| `OBERKAMPF-ROY-2010` | Cambridge page: `https://www.cambridge.org/core/books/verification-and-validation-in-scientific-computing/contents/9399D588DE8B3D49E392CF0436D5A67D` |
+| `NRC-VVUQ-2012` | DOI `10.17226/13395`; `https://nap.nationalacademies.org/catalog/13395/assessing-the-reliability-of-complex-models-mathematical-and-statistical-foundations` |
+| `GNEITING-RAFTERY-2007` | DOI `10.1198/016214506000001437` |
 
-| Source id | Source item | What it contributes | Use in `C.29` |
-|---|---|---|---|
-| `FPF-CORE-2026` | Current FPF Core Specification, especially `E.9`, `E.10`, `F.19`, `C.2.P`, `A.6.P`, `A.3.3`, `A.19`, `A.10`, `A.15`, `A.15.1`, `A.15.2`, `A.15.4`, `B.3`, `C.11`, `C.16`, `C.18.1`, `C.19.1`, `C.26`, `C.27`, `C.28`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`, `G.5`, `G.9`. | Governs `C.29` adequacy, lexical precision repair, epistemic precision repair, pattern placement, bridge discipline, decision boundaries, work boundaries, evidence boundaries, assurance boundaries, explanation boundaries, comparison boundaries, representation boundaries, state boundaries, measurement boundaries, dynamics boundaries, temporal boundaries, causal-use boundary, and evidence and assurance escalation. | **Governing inheritance.** `C.29` applications satisfy E.9. Use F.19 for ordinary wording; apply C.2.P when phrase-local episteme material, publication material, or source-use material needs epistemic precision restoration. |
-| `SAND-THREAD-MATH-LINKS-2026-05-12` | Accessible mirror of Sandberg thread, lines headed “Math,” linking to the original X post. | Recognition examples of structural sameness: generalized Stokes, CLT as RG or fixed-point interpretation, Lawvere-style diagonal family, Noether, Legendre transforms. | **Adopt as recognition cue and examples, not proof authority.** Direct X content was not treated as a formal source. |
-| `VAN-GEOM-LEARNING-2025/2026` | Vitaly Vanchurin, **Geometric Learning Dynamics**, arXiv:2504.14728 v3, last revised 2026-03-14 and accepted for publication in Biological Cybernetics. | Candidate lens family: geometric learning dynamics over the relation between metric tensor, noise covariance, and learning regime; useful as a replayable source for metric-tensor, noise-covariance, and learning-dynamics lens selection. | **Adapt, not adopt.** Use as SoTA-echo candidate lens or stress test for `CandidateMathObject`, `LensMappingMode`, preserved structure and lost structure, validation boundary, and stop condition; do not accept the physical or biological interpretation as FPF law. |
-| `RODIN-2023` | Andrei Rodin, **One Mathematic(s) or Many? Foundations of Mathematics in Today's Mathematical Practice**, arXiv:2301.08131. | Contributes plural-foundations source material and mutual-interpretability caution. | **Adopt** as source material for multiple structural families checked through local adequacy, declared mapping, and recoverable loss. |
-| `FONG-SPIVAK-2018/2019` | Brendan Fong and David I. Spivak, **Seven Sketches in Compositionality** and **An Invitation to Applied Category Theory**, arXiv:1803.05316 and book publication context. | Contributes applied category theory as one useful family for composition, interfaces, views, transformations, and bridges. | **Adopt and adapt** for examples and transport discipline when those structures matter to the stated use. |
-| `GDL-BRONSTEIN-2021` | Bronstein et al., **Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges**, arXiv:2104.13478. | Contributes lens-discovery cues through symmetry, invariance, equivariance, group action, geometric structure, and graph structure. | **Adapt as discovery source.** Helps find a candidate lens; does not supply domain evidence, causal mechanism, or validation by itself. |
-| `PEYRE-CUTURI-2019` | Gabriel Peyré and Marco Cuturi, **Computational Optimal Transport**, arXiv:1803.00567 and Foundations and Trends in Machine Learning publication context. | Contributes distribution-geometry discovery cues through transport plans, couplings, Wasserstein-like distances, movement cost, and shape or population shift. | **Adapt as discovery source.** Helps formulate comparison and movement questions; does not supply causal, fairness, mechanism, or policy-effect evidence by itself. |
-| `PUCA-ETAL-2023` | Puca, Hadzihasanovic, Genovese, Coecke, **Obstructions to Compositionality**, arXiv:2307.14461. | Contributes source material for making failures and obstructions to compositional transfer explicit. | **Adapt** into `LostStructure`, `StopCondition`, and checks that not every transfer preserves the needed structure. |
-| `MODEL-REPORTING-2018/2021` | Mitchell et al., **Model Cards for Model Reporting**; Gebru et al., **Datasheets for Datasets**. | Contributes intended-use, evaluation-condition, limitation, dataset-context, and out-of-scope-use declarations for model and data-bearing lenses. | **Adapt.** Use for `declaredLensUse`, `StopCondition`, validation regime, limitation notes, domain-of-applicability fields, and optional `blockedLensOverread?` when it passes F.19's plausible-reader test; establish evidence or assurance separately. |
-| `CAUSAL-ABSTRACTION-2017/2019` | Rubenstein et al., **Causal Consistency of Structural Equation Models**; Beckers and Halpern, **Abstracting Causal Models**. | Contributes the question of whether abstraction, quotient, macro-model, or coarse-graining preserves intervention and counterfactual structure. | **Adapt.** Contributes to `MathLensUse.CausalAbstractionCheck`; causal-use question and verdict still belongs to `C.28`. |
-| `APPROX-CAUSAL-ABSTRACTION-2019/2020` | Beckers, Eberhardt, and Halpern, **Approximate Causal Abstraction** and **Approximate Causal Abstractions**, arXiv:1906.11583 and PMLR 2020. | Contributes the distinction between approximate and exact micro-to-macro causal abstraction, including discrepancy between micro-model and macro-model causal descriptions and uncertainty in probabilistic causal models. | **Adapt.** Justifies the `approximated` value in `MathLensUse.CausalAbstractionCheck`; causal-use question and verdict still belongs to `C.28`. |
-| `CAUSAL-ABSTRACTION-JMLR-2025` | **Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability**, JMLR 2025. | Contributes generalized mechanism transformation, graded faithfulness, and abstraction checks for learned systems, including where representation mappings become too flexible to license explanation or causal use. | **Adapt.** Strengthens the abstraction-preservation question; causal-use question and verdict still belongs to `C.28`. |
-| `SCHOLKOPF-ETAL-2021` | Scholkopf et al., **Towards Causal Representation Learning**, Proceedings of the IEEE 2021, arXiv:2102.11107. | Contributes distinctions among learned latent representations, causal variables, interventions, assignments, environment invariance, and causal-use claims. | **Adapt as discovery source.** Helps detect when `C.28` applies; does not make a latent representation causal by itself. |
-| `SCIML-NEURAL-OPERATORS-2019/2021` | Raissi, Perdikaris, and Karniadakis on PINNs; Karniadakis et al. on physics-informed machine learning; Lu et al. on DeepONet; Li et al. on Fourier neural operators. | Contributes learned-lens obligations: observation map, data or training regime, discretization or resolution policy, generalization claim, validation regime, uncertainty, and stop condition. | **Adapt.** Use as source material for the lightweight learned-lens overlay; do not promote a full SciML specialization or assume out-of-domain generalization. |
-| `SCIML-DIETRICH-SCHILDERS-2025` | Dietrich and Schilders, **Scientific machine learning**, Mathematische Semesterberichte 2025, DOI `10.1007/s00591-025-00399-4`. | Contributes the hybrid first-principles and data-driven framing: conservation laws, constitutive relations, boundary conditions, physical consistency, operator learning, probabilistic approaches, uncertainty, robustness, and validation limits. | **Adapt.** Reinforces plural first-principles discipline and validation boundaries; does not make SciML a universal FPF foundation. |
-| `PIML-SURVEY-2025` | **When physics meets machine learning: a survey of physics-informed machine learning**, Machine Learning for Computational Science and Engineering 2025, DOI `10.1007/s44379-025-00016-0`. | Contributes physics-informed learning as integration of prior physics knowledge with data-driven models for data efficiency, generalization, and plausibility, including Lagrangian or Hamiltonian mechanics, energy conservation, physics-informed losses, and physics-informed optimization as current first-principles lens families. | **Adapt.** Strengthens the learned-lens and variational-principle use; does not make physics-informed wording sufficient evidence or assurance. |
-| `NEURAL-OPERATORS-NRP-2024` | **Neural operators for accelerating scientific simulations and design**, Nature Reviews Physics 2024, DOI `10.1038/s42254-024-00712-5`. | Contributes neural operators as learned mappings between functions over continuous domains, often constrained by physics and domain structure, with generalization and validation boundaries. | **Adapt.** Contributes operator lens discovery and function-space lens discovery and validation-regime prompts; does not license out-of-regime solver replacement. |
-| `PHYSICS-FOUNDATION-MODEL-2025` | **Towards a Physics Foundation Model**, arXiv:2509.13805. | Contributes SoTA pressure around broad pretraining, in-context dynamics inference, cross-domain simulation, zero-shot transfer, and long-horizon prediction. | **Adapt as candidate and stress-test.** Does not make a foundation model accepted physics, causal-use verdict, assurance, or a universal first-principles source. |
-| `KOOPMAN-SINDY-DMD-2016` | Brunton, Proctor, and Kutz, **Discovering governing equations from data by sparse identification of nonlinear dynamical systems**; Kutz et al., **Dynamic Mode Decomposition: Data-Driven Modeling of Complex Systems**. | Contributes operator and system-identification discovery cues through observables, dynamic-mode decomposition, sparse identification, forecast use, and control-oriented representation. | **Adapt as discovery source.** Does not make the identified operator a real mechanism or validate temporal-use claims by itself. |
-| `BAYES-WORKFLOW-PPL-2018/2020` | van de Meent et al., **An Introduction to Probabilistic Programming**; Gelman et al., **Bayesian Workflow**. | Contributes probabilistic-model discovery and criticism cues through priors, likelihood assumptions, posterior predictive checks, prior-data conflict, model mismatch, uncertainty, and iterative model revision. | **Adapt as discovery and criticism source.** Does not make posterior fit truth, evidence, or assurance by itself. |
-| `MODERN-BED-2023/2024` | Rainforth, Foster, Ivanova, and Bickford Smith, **Modern Bayesian Experimental Design**, arXiv:2302.14545; accepted/published in Statistical Science context. | Contributes current BED as utility-driven and computationally constrained, with recent methods for tractable expected information gain, sequential or adaptive design, and practical deployment limits. | **Adapt as current discovery source.** Does not make C.29 a measurement-construction, evidence, causal-use, or experiment-planning pattern. |
-| `MODERN-OED-2024/2026` | Huan, Jagalur, and Marzouk, **Optimal experimental design: Formulations and computations**, Acta Numerica 2024; arXiv:2407.16212 v2 2026. | Contributes broad current OED framing: design variables, utility criteria, computational methods, sequential design, complex models, and prediction-oriented data acquisition. | **Adapt as current discovery source.** C.29 may ask what data acquisition would make the lens usable, but neighboring patterns define or constrain experiments, evidence, causal-use verdict, and work planning. |
-| `BO-AL-ADAPTIVE-SAMPLING-2024` | Di Fiore, Nardelli, and Mainini, **Active Learning and Bayesian Optimization: A Unified Perspective to Learn with a Goal**, Archives of Computational Methods in Engineering 2024, DOI `10.1007/s11831-024-10064-z`. | Contributes active learning, Bayesian optimization, and adaptive sampling as goal-driven acquisition schemes, not as generic "collect more data" advice. | **Adapt as current discovery source.** Use only for the candidate observation, probe, or acquisition action; do not import selector, evidence, or assurance authority. |
-| `EIG-DENSITY-APPROX-2024/2026` | Li, Baptista, and Marzouk, **Expected information gain estimation via density approximations: Sample allocation and dimension reduction**, arXiv:2411.08390 v3 2026. | Contributes current computational caution: EIG estimation itself can require density approximation, sample-allocation, and dimension-reduction choices before it is usable. | **Adapt as computational-tractability source.** A claimed information-gain lens needs estimation and approximation fields when the computation is required for the declared lens use. |
-| `ROBUST-GBOED-2025` | Barlas, Sloman, and Kaski, **Robust Experimental Design via Generalised Bayesian Inference**, arXiv:2511.07671. | Contributes robustness prompts for model misspecification, outliers, and incorrect noise assumptions through generalized Bayesian OED or Gibbs Bayesian OED and Gibbs expected information gain. | **Adapt as robustness source.** If model misspecification is plausible, the C.29 output records the robustness note; it does not turn robustness into evidence or assurance by itself. |
-| `VVUQ-UQ-PREDICTION-2010/2012/2007` | Oberkampf and Roy, **Verification and Validation in Scientific Computing**; National Research Council, **Assessing the Reliability of Complex Models**; Gneiting and Raftery, **Strictly Proper Scoring Rules, Prediction, and Estimation**. | Contributes validation, uncertainty, prediction scoring, calibration caution, sensitivity or robustness notes, and domain-of-applicability boundaries. | **Adapt.** Prediction, publication-as-model, benchmark, model-selection, or assurance-input uses need validation or uncertainty fields; source prestige does not supply those fields. |
-
-**Source locators and recoverability.**
-
-| Source id | Locator(s) | Recoverability and use in `C.29` |
-|---|---|---|
-| `SAND-THREAD-X-2026-05-12` | Original X post locator: `https://x.com/anderssandberg/status/2053757849918939364` | **Source identity locator.** Keep the X link because the source being mirrored matters. Do not rely on direct X content as proof text unless the post content is actually retrievable in the checking environment. |
-| `SAND-THREAD-MATH-LINKS-2026-05-12` | Accessible mirror or quotation carrier: `https://axisofordinary.substack.com/p/links-for-2026-05-12`, section headed `Math`, linking to the X post above. | **Checked source-text carrier.** Supplies the recognition examples: generalized Stokes and boundary-exterior derivative duality; de Rham, cohomology, and topological obstruction; CLT as RG viewpoint or fixed-point viewpoint; Lawvere-style diagonal family; Noether and symmetry-conservation; Legendre, duality, and tropical-limit family. |
-| `VAN-GEOM-LEARNING-2025/2026` | `https://arxiv.org/abs/2504.14728`; arXiv v3 revised 2026-03-14; accepted in Biological Cybernetics | **Candidate-lens source.** Supplies a replayable geometric-learning-dynamics source for metric tensor, noise covariance, learning-regime, and validation-boundary questions. Use as SoTA-echo stress test for lens selection and stop condition; do not use as accepted physics, biological mechanism, evidence, assurance, or FPF law. |
-| `RODIN-2023` | `https://arxiv.org/abs/2301.08131` | **Plural-foundations source.** Contributes multiple interpretable mathematical foundations or families checked through local adequacy, declared mapping, and recoverable loss. |
-| `FONG-SPIVAK-2018/2019` | `https://arxiv.org/abs/1803.05316`; Cambridge page: `https://www.cambridge.org/core/books/an-invitation-to-applied-category-theory/D4C5E5C2B019B2F9B8CE9A4E9E84D6BC` | **Applied-category-theory source.** Contributes category theory as one useful organizer for composition, interfaces, views, transformations, and bridges when those structures matter to the stated use. |
-| `GDL-BRONSTEIN-2021` | `https://arxiv.org/abs/2104.13478` | **Geometric-deep-learning discovery source.** Contributes symmetry, invariance, equivariance, group action, graph structure, and geometric structure cues for candidate-lens discovery; not evidence that a domain law, causal mechanism, or validation claim holds. |
-| `PEYRE-CUTURI-2019` | `https://arxiv.org/abs/1803.00567` | **Optimal-transport discovery source.** Contributes transport plans, couplings, Wasserstein-like geometry, costed movement, and distribution, population, shape, shift, or allocation comparison; not causal, fairness, mechanism, or policy-effect evidence by itself. |
-| `PUCA-ETAL-2023` | `https://arxiv.org/abs/2307.14461` | **Obstruction source.** Contributes source material for making failures of transfer explicit; feeds `LostStructure`, `StopCondition`, and the rule that not every functor-like transfer preserves the needed structure. |
-| `MODEL-CARDS-2018/2019` | `https://arxiv.org/abs/1810.03993` | **Model-reporting source.** Supplies intended-use, evaluation-slice, limitation, and out-of-scope-use structure for model-bearing lenses; does not make reported model use bounded by itself. |
-| `DATASHEETS-2018/2021` | `https://arxiv.org/abs/1803.09010`; CACM page: `https://cacm.acm.org/research/datasheets-for-datasets/` | **Dataset-documentation source.** Supplies provenance, composition, collection, recommended use, and limitation prompts when a lens depends on data or dataset-derived representation. |
-| `CAUSAL-CONSISTENCY-2017` | `https://arxiv.org/abs/1707.00819` | **Causal-abstraction source.** Contributes a check for whether SEM descriptions at different granularities agree about intervention effects; feeds the intervention-preservation question without giving `C.29` causal authority. |
-| `CAUSAL-ABSTRACTION-2019` | `https://arxiv.org/abs/1812.03789`; AAAI page: `https://ojs.aaai.org/index.php/AAAI/article/view/4117` | **Causal-abstraction source.** Contributes distinctions among transformations, abstractions, and named abstraction classes; used only to require explicit `C.28` application when causal use is being claimed. |
-| `APPROX-CAUSAL-ABSTRACTION-2019/2020` | `https://arxiv.org/abs/1906.11583`; PMLR page: `https://proceedings.mlr.press/v115/beckers20a.html` | **Approximate causal-abstraction source.** Contributes `approximated` intervention and counterfactual preservation value in the lightweight causal-abstraction check; does not let `C.29` decide causal-use question and verdict without `C.28`. |
-| `CAUSAL-ABSTRACTION-JMLR-2025` | `https://jmlr.org/beta/papers/v26/23-0058.html` | **Current causal-abstraction source.** Contributes generalized mechanism-transformation and graded-faithfulness checks for learned systems; keeps causal-use question and verdict with `C.28`. |
-| `SCHOLKOPF-ETAL-2021` | `https://arxiv.org/abs/2102.11107`; DOI `10.1109/JPROC.2021.3058954` | **Causal-representation discovery source.** Contributes the question whether a learned latent representation has intervention, assignment, outcome, and environment-invariance evidence relation before causal use; causal-use question and verdict are governed by `C.28` when causal use is being claimed. |
-| `PINN-2019` | DOI `10.1016/j.jcp.2018.10.045` | **Physics-informed ML source.** Contributes validation, training-regime, governing-equation, and inverse-problem and forward-problem distinctions for learned mathematical lenses. |
-| `PIML-2021` | DOI `10.1038/s42254-021-00314-5` | **Physics-informed machine-learning survey source.** Contributes physics-informed learning as a broad learned-lens family requiring problem, prior-knowledge, validation, and uncertainty boundaries. |
-| `DEEPONET-2021` | DOI `10.1038/s42256-021-00302-5` | **Neural-operator source.** Contributes operator-learning as a learned mathematical lens over function spaces; requires training domain, observation map, generalization claim, and stop condition. |
-| `FNO-2020/2021` | `https://arxiv.org/abs/2010.08895` | **Neural-operator source.** Contributes resolution and PDE-family generalization checks; does not license out-of-regime solver replacement without validation. |
-| `SCIML-DIETRICH-SCHILDERS-2025` | DOI `10.1007/s00591-025-00399-4`; `https://link.springer.com/article/10.1007/s00591-025-00399-4` | **Current SciML survey source.** Contributes hybrid first-principles and data-driven framing, physical consistency, operator learning, probabilistic approaches, uncertainty, robustness, and validation limits. |
-| `PIML-SURVEY-2025` | DOI `10.1007/s44379-025-00016-0`; `https://link.springer.com/article/10.1007/s44379-025-00016-0` | **Current physics-informed ML survey source.** Contributes prior-physics integration as data-efficiency, generalization, and plausibility cues; not evidence or assurance by itself. |
-| `NEURAL-OPERATORS-NRP-2024` | DOI `10.1038/s42254-024-00712-5`; `https://www.nature.com/articles/s42254-024-00712-5` | **Neural-operator review source.** Contributes function-space lens obligations and operator lens obligations, physics constraints and domain constraints, and validation boundaries for scientific simulation and design. |
-| `PHYSICS-FOUNDATION-MODEL-2025` | `https://arxiv.org/abs/2509.13805` | **Physics-foundation-model candidate source.** Contributes candidate and stress-test handling of broad scientific foundation-model claims; does not make those claims accepted FPF law. |
-| `KOOPMAN-SINDY-DMD-2016` | SINDy DOI `10.1073/pnas.1517384113`; DMD DOI `10.1137/1.9781611974508` | **Operator-dynamics and system-identification discovery source.** Contributes observable, dynamic-mode-decomposition, or sparse-identification lens choices for nonlinear dynamics; dynamics semantics, evidence, and temporal-use adequacy still require `A.3.3`, `A.10`, or `C.27` when those claims are being made. |
-| `BAYES-WORKFLOW-PPL-2018/2020` | Probabilistic programming arXiv `https://arxiv.org/abs/1809.10756`; Bayesian Workflow arXiv `https://arxiv.org/abs/2011.01808` | **Probabilistic-model discovery and criticism source.** Contributes prior, likelihood, posterior predictive, prior-data conflict, model mismatch, uncertainty, and revision cues; does not make probabilistic fit a truth, evidence, or assurance result by itself. |
-| `MODERN-BED-2023/2024` | `https://arxiv.org/abs/2302.14545`; DOI `10.48550/arXiv.2302.14545` | **Modern Bayesian experimental design source.** Contributes current BED as utility-driven and computationally constrained, with tractable EIG, sequential/adaptive design, and deployment limits; neighboring patterns still govern measurement construction, evidence, causal-use verdict, and work planning. |
-| `MODERN-OED-2024/2026` | `https://arxiv.org/abs/2407.16212`; Cambridge Core DOI `10.1017/S0962492924000023` | **Modern optimal experimental design source.** Contributes broad OED formulations and computations for complex models; C.29 uses it only to ask what acquisition would make a candidate lens usable. |
-| `BO-AL-ADAPTIVE-SAMPLING-2024` | DOI `10.1007/s11831-024-10064-z`; `https://link.springer.com/article/10.1007/s11831-024-10064-z` | **Adaptive-sampling source.** Contributes goal-driven acquisition and the BO and active-learning relation; does not create selector, evidence, or assurance authority. |
-| `EIG-DENSITY-APPROX-2024/2026` | `https://arxiv.org/abs/2411.08390`; DOI `10.48550/arXiv.2411.08390` | **EIG computation source.** Contributes density-approximation, sample-allocation, and dimension-reduction caution for expected-information-gain claims. |
-| `ROBUST-GBOED-2025` | `https://arxiv.org/abs/2511.07671`; DOI `10.48550/arXiv.2511.07671` | **Robust experimental-design source.** Contributes generalized-Bayesian robustness checks for model misspecification, outliers, and incorrect noise assumptions. |
-| `OBERKAMPF-ROY-2010` | Cambridge page: `https://www.cambridge.org/core/books/verification-and-validation-in-scientific-computing/contents/9399D588DE8B3D49E392CF0436D5A67D` | **Verification-and-validation source.** Contributes separation of verification, validation, uncertainty, calibration, and prediction-use boundaries. |
-| `NRC-VVUQ-2012` | DOI `10.17226/13395`; `https://nap.nationalacademies.org/catalog/13395/assessing-the-reliability-of-complex-models-mathematical-and-statistical-foundations` | **VVUQ source.** Contributes uncertainty-quantification and reliability-limit fields for complex model use. |
-| `GNEITING-RAFTERY-2007` | DOI `10.1198/016214506000001437` | **Prediction-scoring source.** Contributes proper-scoring and prediction-evaluation fields when a lens claims predictive use. |
-
-### C.29:13b - Source-use boundary notes
-
-1. `VAN-GEOM-LEARNING-2025/2026` is a replayable candidate-lens source for geometric learning dynamics. Its useful FPF contribution is the metric-tensor, noise-covariance, and learning-dynamics lens family and the stress it puts on `CandidateMathObject`, `LensMappingMode`, preserved and lost structure, validation boundary, and stop condition.
-2. Vanchurin-style physical or biological interpretations remain claims from the cited source unless a local C.29 output and neighboring evidence, causal-use, validation, or assurance pattern bound the use. C.29 does not promote those interpretations to FPF law.
-3. `SAND-THREAD-MATH-LINKS-2026-05-12` is a recognition cue, not a mathematical proof source or FPF law.
-4. CLT-as-RG or fixed-point wording is retained only as a structural modeling viewpoint. A safe formulation is: under the usual normalization, the Gaussian is an attractive fixed point for finite-variance distributions; other stable laws are other fixed points under suitable normalization.
-5. The ontology guard is structure-preserving representation through an explicitly declared mapping.
-
-### C.29:14 - Informative taxonomy seed
-
-Use this recognition menu only to identify a possible lens family and likely neighboring-pattern applications. After selecting a row, state the local C.29 fields that make the lens adequate or stop the use.
-
-| Lens family | What it catches | FPF use | Common stop condition | Likely neighboring patterns |
-|---|---|---|---|---|
-| **Boundary, Stokes, and cohomology** | Boundary operators, exterior-derivative or divergence-like local-to-global relations, flows, closed/exact distinctions, and topological obstructions. | Use when local rules, interfaces, flows, or balances must be related to a global claim or blocked global extension. | Does not license all boundary phenomena as the same physical mechanism; evidence, measurement, and bridges remain neighboring work. | `F.9`, `A.19`, `C.16`, `A.10` |
-| **Obstruction-first and failed-transfer lens** | Impossibility, incompatibility, failed composition, blocked transfer, missing invariant, or diagnostic boundary. | Use when the useful mathematical result marks where a transfer, comparison, model, or simplification stops. | Does not make the rival claim true or the failure cause known without the neighboring-pattern result named by value. | `F.9`, `A.6.P`, `A.10`, `E.19` |
-| **Symmetry, invariance, equivariance, and Noether** | Group actions, invariants, equivariant representations, conservation-like constraints, and geometric-deep-learning regularities. | If the problem depends on sameness under transformations or a conservation-like claim, ask which transformations are declared as preserved or invariant, what remains invariant, and which distinctions are lost. | Does not transfer physical conservation law, causal mechanism, or coordinate-free truth without domain evidence. | `A.10`, `C.16`, `A.19`, domain pattern |
-| **Variational, action, optimization, and Legendre** | Action, energy, free-energy, loss, value, entropy, or resource functionals; stationarity, extrema, dual variables, potentials, and Legendre or convex duality. | Use when the useful lens is an extremal condition, constrained variation space, boundary condition, dual view, or trade-off. | Does not imply the target literally optimizes unless dynamics and evidence-provenance claims are governed by their neighboring patterns. | `A.3.3`, `C.28`, `A.10`, `G.6` |
-| **Diagonal, self-reference, and no-go** | Self-application, universal evaluators, closure limits, diagonal constructions, and impossibility boundaries. | Use when the payoff is to block a tempting universal claim or expose a closure boundary. | Does not prove every recursive-looking case is a diagonal or no-go case. | `B.3`, `E.19`, local domain pattern |
-| **RG, coarse-graining, fixed point, and universality** | Why different micromodels yield one macropattern; fixed points, basins, scale windows, universality classes, or stable-law-like alternatives. | Use for scale transitions, abstraction, domain compression, and macropattern claims that require a declared scale variable and coarse-graining rule. | Does not assert micro-mechanism identity or universal applicability outside `ScaleWindow`. | `C.18.1`, `C.19.1`, `A.3.3` |
-| **Category, compositionality, optics, and semiring-limit** | Composition, interfaces, views, transformations, algebraic laws, limit transforms, and cases where changing algebra changes what is preserved. | Multi-view architecture, bridges, system composition, and classical or tropical or Fourier-Laplace or Legendre-style transform cues. | Does not imply all target objects are categories or that every functor-like transfer preserves the needed structure. | `F.9`, `A.6.P`, `A.19` |
-| **Information geometry and learning dynamics** | Update, curvature, optimization trajectory. | Adaptive systems, learning agents, epistemic dynamics. | Does not license “everything is learning” ontology. | `A.3.3`, `A.10`, `C.28` |
-| **Optimal transport and distribution geometry** | Transport plans, Wasserstein-like geometry, couplings, costed movement between distributions, populations, shapes, or allocations. | Use when the question is how one distribution, population, shape, or allocation can move toward another under declared costs and losses. | Does not license causality, fairness, mechanism, or policy effect by itself. | `C.16`, `A.10`, `C.28`, `D.5` |
-| **Operator learning, SciML, and latent representations** | Learned function-to-function operators, neural operators, surrogate solvers, embeddings, and world-model representations. | Use when the first useful lens is an operator over functions, states, or fields; name the observation map, training or simulation regime, validation slice, and generalization boundary. | Does not license out-of-domain solver replacement, causal mechanism, or unobserved state truth without validation and the neighboring-pattern result named by value. | `A.10`, `C.16`, `A.3.3`, `C.28` |
-| **Koopman and operator-theoretic dynamics** | Observables or coordinates where nonlinear dynamics can be represented by an operator, often approximately linear. | Use when nonlinear dynamics need a tractable forecast, control, or diagnostic representation; name the observable or readout and the forecast or control use being tested. | Does not prove a real linear mechanism or temporal-use adequacy; dynamics semantics, evidence, and temporal claims stay with `A.3.3`, `A.10`, and `C.27`. | `A.3.3`, `A.10`, `C.27` |
-| **Causal representation and causal abstraction** | Causal graphs, SCMs, causal representation learning, micro-to-macro mappings, quotient models, and intervention-preservation questions. | If the user asks what to change to get an effect, test causal graph, SCM, or causal abstraction as the candidate lens, not correlation graph or latent manifold by default. | `C.29` can state declared lens use only; causal-use question and verdict, intervention claims, and counterfactual reliance stay with `C.28`. | `C.28`, `A.10`, `A.3.3` |
-| **Quantum-like and contextual probability** | Probe effects, incompatible frames, order effects. | Dashboards, workshops, surveys, measurement-as-intervention. | Quantum-like is not physical quantum unless separate physics evidence is supplied. | `C.26`, `C.16`, `F.9` |
 
 ### C.29:15 - Relations
 - **Extractable structural information:** `C.2.8` defines the characteristic and observer conditions consumed by a structural-information estimate. C.29 supplies the particular mathematical-lens correspondence and its limits.
-- **Architecture lens boundary:** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.29 lens outputs for preserved structure, lost structure, structural information, epiplexity, scale mapping, residual mapping, or source-return. C.29 does not decide the architecture and does not supply evidence, assurance, gate, or quality authority.
-- **Structural-information adequacy boundary:** `C.33`, `C.34`, and `C.35` may cite C.29 outputs when mathematical-lens results expose captured structure, preserved structure, lost structure, or discovery adequacy. The C.29 output stays local to lens use; it is not architecture adequacy, candidate admission, measurement, eval, evidence, assurance, or project decision authority.
+- **Architecture lens boundary:** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.29 lens outputs for preserved structure, lost structure, structural information, epiplexity, scale mapping, residual mapping, or source-return.
+- **Structural-information adequacy boundary:** `C.33`, `C.34`, and `C.35` may cite C.29 outputs when mathematical-lens results expose captured structure, preserved structure, lost structure, or discovery adequacy.
 
 - **Builds on:** `A.1.1`, `A.6.P`, `A.6.RCD`, `A.3.3`, `A.19`, `A.10`, `A.15`, `B.3`, `C.16.P`, `C.16`, `E.17.EFP`, `E.17.ID.CR`, `A.6.3.RT`, `A.6.3.CSC`, `F.9`.
 - **Constrained by:** `E.8`, `E.10`, `F.19`, `C.2.P`, `E.19`.
-- **Design-rationale input:** `E.9` design-rationale discipline and the source-use rows in `C.29:13a`.
-- **Contributes to:** `E.2` pillar-impact analysis when a pillar argument relies on mathematical first-principles structure; only declared mathematical-lens use is in scope, with no amendment to pillar content, priority, or constitutional authority.
+
+
 
 - **Coordinates with:** `A.6.0`, `A.6.1`, `E.18.1`, `C.11`, `A.15.1`, `A.15.2`, `A.15.4`, `C.18.1`, `C.19.1`, `C.26`, `C.27.TA`, `C.27`, `C.28`, `C.31.ASAP`, `G.5`, `G.9`, `G.2`, `G.10`.
 - **Specialization relation:** `C.26` is selected as a C.29-compatible specialization for quantum-like modeling, with affordability qualifications.
-- **Neighboring claims stay with their subject patterns.** Use `F.9` for bridges; `C.28` for causal use; `A.3.3` for dynamics semantics; `A.19` and `C.16` for characteristic-space and measurement construction; `A.10` and `B.3` for evidence and assurance; `C.11` for decision records; `A.15` for method/Work alignment, `A.15.2` for plans, and `A.15.1` for performed Work; `A.15.4` for reliance on a misleading appearance; `E.17.*` for explanation and comparative-review publication use; `A.6.3.RT` and `A.6.3.CSC` for representation transition and coarsening; `C.27.TA`, `C.27`, `C.18.1`, `C.19.1`, and `C.31.ASAP` for temporal-aspect, temporal-claim adequacy, scale-law, method scale-preference, and architecture scale-preference claims; and Part G for selector and benchmark work. C.29 records only the declared mathematical-lens use and the subject-pattern boundary for the claim being made.
+The conditional receiving questions and first contributions are collected in :4.4.6.
+
+[fpf-a6-3-rt-4-1-ref]: A.6.3.RT-Representation-Scheme-Transition.md#a63rt41---ordinary-representation-move
 
 ### C.29:End
 
@@ -68853,7 +68678,7 @@ Reopen this source use when newer representation, provenance, view, or decision 
 
 **Cheap non-use.** Stop if a direct domain Method already returns the complete useful comparison for this result and use, if one mandatory path leaves no real comparison decision, or if a complete `OptionSet` already exists and only `C.11` is needed.
 
-**Not this pattern when.** Use `A.15.9` for one missing or unqualified bounded result from another practice; `C.18` for open-ended generation or reframing; `C.19` for live-pool exploration policy; `C.32` for architecture-candidate synthesis; `A.15.8` for one actual-Work or present-WorkPlan support configuration; and the direct domain Method for realization, production, provision, contracting, acceptance, or use.
+**Not this pattern when.** Use `A.15.9` for one missing or unqualified bounded result from another practice; `C.39` for a missing obtaining explanation; `C.40` for developing and examining material, including its coupled entry when problems and ways must change together; `C.18` for archive, front or possibility-space claims; `C.19` for live-pool exploration policy; `C.32` for architecture-candidate synthesis; `A.15.8` for one actual-Work or present-WorkPlan support configuration; and the direct domain Method for realization, production, provision, contracting, acceptance, or use.
 
 ### C.38:2 - Problem
 
@@ -68883,7 +68708,7 @@ Fix one result, receiving use, situation, horizon, and acceptance basis. Constru
 
 1. **Fix one result question.** Name the sought result by its direct governed kind, the receiver and use, applicable configuration or situation, horizon, acceptance conditions, deciding System, authority boundary, and commitment the decision may make. If rows seek a System, performed service, capability, access relation, and episteme interchangeably, split the questions before comparing.
 2. **Recover available inputs and exact gaps.** Use already-available subject and specialist results only where they fit the same question. Apply `A.15.9` only when one bounded result from another practice is missing or needs qualification. That request or return is an input to a way, not the whole way and not the choice.
-3. **Construct at least two materially different complete ways.** Use labels only as prompts. For each surviving way, describe the relevant proposed or already-available Agents, Work, Methods, Systems, values, provision or access relations, enabling branches, and conditions through which the same result could become available. Mark every decision-bearing premise as supported now, proposed, or unknown. Merge labels that resolve to the same decision-changing contents; split ways under one label when a content difference can change the choice. If no second way can be supported, return the missing-alternative or search gap rather than fabricating a peer.
+3. **Construct at least two materially different complete ways.** Use labels only as prompts. For each surviving way, describe the relevant proposed or already-available Agents, Work, Methods, Systems, values, provision or access relations, enabling branches, and conditions through which the same result could become available. Mark every decision-bearing premise as supported now, proposed, or unknown. Merge labels that resolve to the same decision-changing contents; split ways under one label when a content difference can change the choice. If no second way can be supported, return the missing-alternative or search gap rather than fabricating a peer. When the gap is an unexplained obtaining operation, use `C.39` for a candidate explanation or the precise unresolved contribution. Its sufficient-one-way result does not complete this comparison.
 4. **Use one decision-changing parity basis.** Ask the same bounded questions of every way: result and availability condition; performers, Work, Methods, and means; production, transfer, provision, access, custody, or ownership; fit, interfaces, integration, and configuration; evidence, uncertainty, and assurance; support, maintenance, change, exit, and recovery; capability consequences; resources; and consequences for affected Systems. Omit a group only when it cannot change this choice. Keep a decision-reversing unknown as a visible gap.
 5. **Restore comparability without forcing totality.** Keep the result, receiving use, acceptance conditions, situation, configuration boundary, evidence horizon, and burden categories shared. Use ordinary comparison when the ordering is direct. Use `A.19.CPM` and `A.19.SelectorMechanism` only when evidence gates, partial orders, incomparability, abstention, or set-valued retention matter. Do not hide protected conditions inside an unexplained score.
 6. **Freeze and hand off a finite option set.** Put only complete-enough whole ways into the current `OptionSet`, with gaps that the chooser can see. Then apply `C.11` for local choice. Its result may choose one way or a retained tie-set, reject the current set, probe again, or reroute. `C.38` does not choose by implication and does not gain the chooser's authority.
@@ -68996,7 +68821,7 @@ A use conforms only when the checks needed by its claimed comparison pass:
 - **Universal arrangement schema.** A local parity view becomes a mandatory ontology, graph, taxonomy, or workflow for every domain.
 - **Modal-to-actual leap.** A possible-future row is treated as capability, authority, Work, provision, purchase, delivery, acceptance, or availability.
 - **Score before parity.** Numbers conceal different assumptions, missing burdens, or protected conditions.
-- **Endless generation.** Open-ended candidate invention is kept inside `C.38` instead of moving to `C.18` and `C.19`.
+- **Endless generation.** Open-ended candidate invention is kept inside `C.38`. Use `C.39` for a missing obtaining explanation or `C.40` for feasible variation and examination; add `C.18` for archive/front claims and `C.19` for live-pool policy only when those contributions are needed.
 - **Choice by formatting.** The most detailed or first row is treated as selected before `C.11`.
 - **Domain takeover.** The common Method absorbs architecture, procurement, contracting, finance, legal, artistic, operational, or assurance decisions.
 - **Duplicate account.** A domain Method already returns the full comparison, but a second generic episteme is added anyway.
@@ -69027,11 +68852,348 @@ A source changes this pattern only when it exposes a defect in the current move 
 
 - **Builds on:** the direct pattern for the sought result; `A.10` for evidence and bounded reliance on actual premises; `A.19.CPM` and `A.19.SelectorMechanism` only for comparison mechanisms that are actually needed; and `C.2.1` when a standalone comparison episteme must persist.
 - **Hands to:** `C.11` only after a finite complete-enough `OptionSet` exists. `C.11` owns choose, reject, probe-again, and reroute results.
-- **Coordinates with:** `C.18` for open-ended generation or reframing; `C.19` for pool policy; `C.32` for architecture-candidate synthesis; `A.22` and `C.30` only when a separate Structure or architecture question is current; and direct domain Methods for realization, production, provision, acceptance, assurance, and use.
+- **Coordinates with:** `C.39` for a missing obtaining explanation; `C.40` for material development and its conditional coupled problem-and-solution entry; `C.18` for archive, front and possibility-space claims; `C.19` for pool policy; `C.32` for architecture-candidate synthesis; `A.22` and `C.30` only when a separate Structure or architecture question is current; and direct domain Methods for realization, production, provision, acceptance, assurance, and use.
 - **Question-change boundary with A.15.9:** use `A.15.9` only for one missing or unqualified bounded result from another practice inside a way. Stay in `C.38` when the question is several complete ways to obtain the same receiving result. A contribution request or return is never the whole way by implication.
 - **Keeps outside:** universal arrangement kinds, graphs, taxonomies, schemas, workflows, authority transfer, open-ended search, local choice, and all actual Work or obtaining relations inferred only from possible-future rows.
 
 ### C.38:End
+
+## C.39 - Find and Develop a Way to Obtain a Result
+
+> **Type:** Method pattern
+> **Status:** Draft
+> **Normativity:** Normative unless explicitly marked informative.
+
+### C.39:1 - Problem frame
+
+Use this when you can say what result is needed but cannot yet explain an adequate way to obtain it. A diagnostic team may need to explain recurring errors, while a recording workshop needs to preserve the timing between a movement and its sound. “Use AI”, “get a specialist” and “synchronize” name possibilities without supplying the missing actions.
+
+The primary concern is the obtaining way being sought: how actions, available inputs and relevant conditions could bring about the needed result. Begin by stating the sought change and what would distinguish its attainment. Reuse a suitable existing Method where one is available. Otherwise recover a neighboring practice's actual operations, try tracing them on target material, and develop the missing connection.
+
+The first useful result can be one sufficiently explained candidate, a recovered applicable Method, or a precise unsolved contribution and a worthwhile next question. This transdisciplinary search guidance does not replace the professional knowledge needed to establish whether a proposed way works.
+
+Do not start this search when a qualified existing way already answers the current use. Use C.38 when several complete-enough ways are available but need the same-result comparison. Use C.40 when an operation is available and the missing work is to perform and examine variations. If the intended result itself is too unclear to distinguish success from failure, clarify that local question first; a settled ultimate purpose is unnecessary for a sufficiently clear local contribution.
+
+### C.39:2 - Problem
+
+A desired result and a plausible label leave a gap. A found source can describe something successful without showing how to reproduce the relevant contribution under different conditions. Conversely, a useful description may be rejected because its vocabulary differs from the receiving practice.
+
+The practitioner needs to construct and examine the obtaining explanation. Listing more sources does not do that work. Detailing every constituent action can also waste effort: a single unknown connection may decide feasibility, while an already qualified operation needs no further reconstruction.
+
+### C.39:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| A useful explanation versus a promising name | A familiar technique can guide retrieval while concealing its required inputs and limits. |
+| Reuse versus invention | An existing Method can finish the question cheaply; a genuinely missing connection still needs constructive work. |
+| Transfer versus source fidelity | The receiving problem may require adaptation, but changing a source's claim to fit the target supplies no evidence. |
+| Sufficient understanding versus endless refinement | A constituent gap matters when it can change the whole result, feasibility or burden. |
+| A candidate versus a demonstrated result | An explanation can support the next inquiry before actual applicability or realization is established. |
+
+### C.39:4 - Solution
+
+Recover how a relevant practice obtains its result, locate what fails or is missing on the receiving material, and construct only the connecting explanation needed for the next useful decision.
+
+#### C.39:4.1 - State the local result and try the cheap exit
+
+Say what should change or become available, for whom or for which use, and which observation would distinguish an adequate result. Include a constraint when violating it would defeat that use. “Improve the recording” is too broad if the live question is whether movement and sound remain within a stated timing tolerance.
+
+Look first for an applicable Method or an already available result that answers this question. Inspect the operation and its qualifications, not just its title. Use that answer when it is sufficient; there is no requirement to invent a second way, perform an experiment or produce another account.
+
+An available partial result may also let the work stop. If only the next inquiry must be chosen, do not demand the explanation needed for full deployment.
+
+#### C.39:4.2 - Follow a neighboring practice to the missing connection
+
+Search through the sought result or unresolved change. In a useful source, recover:
+
+- the input on which an operation acts;
+- what the operation does and what it obtains;
+- the conditions and support for that contribution; and
+- the difference between the source situation and the receiving use that could defeat the transfer.
+
+Follow the described operations on one available piece of target material, by inspection or an appropriately permitted small application. Stop at the first needed input, operation, relation or result that the account does not supply. An inspected trace is not a performed application.
+
+For example, a fault-investigation Method can compare error and non-error cases under comparable conditions. On the target records, “compare cases” may fail before comparison begins because the inspection cases cannot yet be connected to their setups. That missing connection is more useful to pursue than the broad request “find a diagnostic technology”.
+
+#### C.39:4.3 - Construct an explained candidate
+
+Propose an action that could provide the missing connection. Explain what it would use, what it would change or return, and why that result would permit the next operation. Trace the proposed way through to the sought result; expose a remaining unsupported link instead of smoothing it over.
+
+Keep the source-supported operation, the proposed correspondence and the new inference distinguishable. Name an answer that could defeat the inference. If the proposed setup link uses a field that was not recorded, it cannot justify the intended comparison. The next question is then about recoverable setup information, another linking way or a narrower result.
+
+A failed correspondence may justify another source, a changed connecting action or a changed local question. It does not establish that the source Method is useless in its own conditions or that the receiving problem has no solution.
+
+#### C.39:4.4 - Refine only what can change the answer
+
+Follow a constituent contribution further when its unresolved obtaining way could change the whole's result, feasibility or burden. State that effect before opening another search. A qualified existing operation can remain intact while one missing connection is developed.
+
+Choose the next level by the decision it enables, not by a fixed decomposition depth. Stop when the explanation is sufficient for that decision. If it is not, return the exact missing operation or support question and what observation would allow reconsideration.
+
+Compare further inquiry with using the adequate current answer, narrowing the sought result and stopping. Include the effort and displaced work. A technically interesting uncertainty need not be resolved when none of its attainable answers would change the current decision.
+
+#### C.39:4.5 - Return what the search actually obtained
+
+For a small use, a few sentences can state the candidate way, its supported and proposed parts, its decisive unresolved condition, and the useful continuation. Keep source and target conditions available where later use depends on them; no special record is required.
+
+One explained way can finish this search. If several complete-enough ways now need comparison, C.38 supplies that different result. If the proposed way can be varied and those variations need examination, use C.40. A useful receiving result can also finish without either continuation.
+
+For an assurance-bearing use, distinguish a candidate obtaining account from an admitted U.Method under A.3.1 and its MethodDescription under A.3.2. A written sequence does not establish formal Method composition, actual Work, capability or permission. Use the corresponding subject rule only when that stronger claim is needed.
+
+### C.39:5 - Archetypal Grounding
+
+#### C.39:5.1 - Explain recurring inspection errors
+
+In this constructed case, the requested result is a source-traceable account distinguishing rival explanations of recurring errors. An existing service Method compares readings with configured limits and reports exceptions; it cannot answer the new explanation question. A stipulated neighboring fault-investigation Method compares error and non-error cases under sufficiently similar conditions.
+
+Following that Method on the permitted local records reveals that timestamps alone do not establish a shared setup. The team proposes connecting cases to equipment, shift and setup records before comparing them. This could prevent a setup difference from being attributed to the inspected object. The connecting inference fails if the relevant setup cannot be recovered.
+
+The resulting candidate is: recover setup-linked cases, compare eligible error/non-error cases under the specialist Method, and return what the comparison supports and leaves unresolved. Result checking can use an existing qualified operation. The precise remaining question is whether the permitted records can recover enough comparable setups.
+
+That one explained candidate and its gap suffice to decide whether a bounded records inquiry is worthwhile. There is no diagnosis yet. A separate delivery or service comparison can later consider who could perform the investigation and its full burden; this search neither grants data reuse nor establishes that investigator's availability.
+
+#### C.39:5.2 - Preserve a performance's timing relation
+
+A workshop wants to use a recording for timing feedback. Its constructed acceptance condition permits at most three milliseconds of movement–sound mismatch. If an available qualified recording Method already preserves that relation under these conditions, the workshop uses it and stops.
+
+Suppose instead that the available picture and sound tracks have separate time readings. A supplied synchronization account aligns one event visible and audible in both tracks. The workshop follows that operation on the supplied marker readings:
+
+| Marker | Picture time, ms | Sound time, ms |
+| --- | --- | --- |
+| Start | 0 | 40 |
+| Middle | 10000 | 10042 |
+| End | 20000 | 20045 |
+
+Subtracting the initial 40 ms leaves mismatches of 0, 2 and 5 ms. Thus aligning the first event does not meet the stipulated limit at the last one.
+
+The workshop first adjusts the constant shift using all three markers. Their offsets are 40, 42 and 45 ms; centering the smallest and largest gives 42.5 ms. Subtracting that shift leaves residuals of -2.5, -0.5 and 2.5 ms, each within the stipulated marker tolerance. A different constant shift therefore supplies a candidate correction without introducing a changing time correspondence.
+
+The search returns that constant-shift candidate and the precise support question: does it preserve the required relation over the interval used for feedback, and can an available qualified editing operation apply it? A suitable calibration result or a narrower qualified interval can close the gap. Fitting the three markers does not establish adequacy between them or an achieved corrected recording. All numbers and professional inputs here are constructed, not device-performance evidence.
+
+### C.39:6 - Bias-Annotation
+
+Familiar sources and impressive labels attract attention before their operations are inspected. Search by the needed change and include a serious ordinary way. A preferred analogy should face the target condition most likely to defeat it; otherwise the explanation becomes a story selected after the preferred answer.
+
+### C.39:7 - Conformance Checklist
+
+- The sought local result and a distinction between attainment and failure are recoverable.
+- An adequate existing Method or result can finish the use without invented alternatives.
+- Source operations and target differences are inspected before transfer is asserted.
+- A proposed connection explains its inputs, contribution and defeating condition.
+- Further refinement is tied to a result-, feasibility- or burden-changing gap.
+- The returned explanation, unresolved support and actual realization remain distinguishable.
+- The next inquiry has a use that can warrant its effort, or the search stops.
+
+### C.39:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Repair |
+| --- | --- |
+| “Use AI” stands in for an obtaining way. | Explain the missing operation on the receiving material and what could defeat it. |
+| Finding a similar case is treated as applicability. | Inspect the action and conditions, then examine the proposed target correspondence. |
+| A decomposition tree stands in for explanation. | Follow only the unresolved contribution that can change the whole answer. |
+| A sufficient way is kept open until a second rival appears. | Finish this search; enter same-result comparison only when that question is live. |
+| A candidate correction is described as an achieved result. | State the candidate and missing support separately, as in the timing case. |
+
+### C.39:9 - Consequences
+
+The reader obtains a usable next action before qualification or comparison has a complete candidate to consume. Source recovery and explanation take effort, but decision-relevant refinement limits unnecessary reconstruction. Some searches end with a precise gap or a narrower result; this Method supplies no guarantee of invention.
+
+### C.39:10 - Architectural Rationale
+
+Unknown-way search and same-result comparison can finish at different points. One explained way or a decisive missing contribution can answer this question, while C.38 needs materially different complete-enough ways on a shared basis. Joining them would make sufficient one-way results harder to recognize.
+
+Material development also has a different immediate operation. C.40 can begin with a known editing or generation action and return an examined variation. It uses this Method only when an obtaining operation is missing. Neither relation imposes a universal order of search stages.
+
+### C.39:11 - SoTA-Echoing
+
+For the question “How can an unexplained way become usable enough for the next decision?”, the selected line is source-guided constructive explanation with target-condition testing and bounded refinement. Trace a relevant professional operation on target material, make the missing connecting action explicit, and refine the explanation while that refinement can change the next decision. This exposes what label generation or source retrieval alone can leave hidden. One sufficiently explained way can finish the search.
+
+The alternative is retrieval of an already adequate Method; it wins when it returns the whole answer more cheaply. The [Puranam, Sen and Workiewicz v1 abstract](https://arxiv.org/abs/2505.00603v1) supplies bounded evidence for separating retrieval of a strategic analogy from matching its causal structure. **Adapt** that separation in section 4.2; **reject** treating successful retrieval as target support. The reported comparison concerns human participants and GPT-4 on the study's strategic-analogy tasks.
+
+Reopen this line when a current direct Method supplies the entire use with less effort, when target applications expose a missing constructive operation, or when the explanation burden exceeds what the next decision can use.
+
+### C.39:12 - Relations
+
+- C.38 constructs comparable whole ways for one result after sufficient obtaining content is available.
+- C.40 develops and examines material variations; it returns here for a missing obtaining operation.
+- F.0.1 resolves an action-changing source-local meaning; F.1 selects sources whose contributions can change the answer.
+- A.10 governs a stronger evidence or reliance claim. A.3.1 and A.3.2 distinguish a Method from its description when that distinction is current.
+- C.11 supports a local choice about the next inquiry or use. The direct professional Method supplies realization and its subject-specific checks.
+
+### C.39:End
+
+## C.40 - Develop Branching Search from Reusable Material
+
+> **Type:** Method pattern
+> **Status:** Draft
+> **Normativity:** Normative unless explicitly marked informative.
+
+### C.40:1 - Problem frame
+
+Use this when you have something that can be developed and need to learn what a feasible variation makes possible. A sound workshop can alter its own recording; an investigation team can change a view of permitted records; a coding team can develop a working program. The eventual contribution may already be selected or remain unsettled.
+
+The primary concern is the material being developed and the warranted continuation from an examined change. Material can be an editable construction, a working Method with its inputs, or a retained intermediate result. A promising label or score is not enough to perform the next variation.
+
+Change something feasible, examine the resulting difference, and keep the actual material and conditions needed for a useful continuation. The first result is an examined variation with a justified continuation or stop. This transdisciplinary guidance relies on the professional operation that actually changes and examines the material.
+
+Use the directly accessible coupled problem-and-solution entry in section 4.3 when problems and ways need development together. Ordinary variation does not require inventing a new problem. Reuse a sufficient existing result or way without entering either search. If the missing operation is how to obtain a local result at all, C.39 supplies that constructive explanation; a settled ultimate goal is not the discriminator.
+
+### C.40:2 - Problem
+
+Search can become an inventory of interesting possibilities without any performed development. It can also discard everything that loses today's comparison, including material that makes a useful next attempt possible.
+
+The opposite excess is endless novelty or indiscriminate retention. A changed object, a higher score or success in a source problem does not by itself justify more work. Productive branching needs feasible operations, examination under the current question and an affordable continuation. Coupled search additionally needs validly constructed problems and target-tested transfer.
+
+### C.40:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Present comparison versus useful continuation | A currently inferior variation may expose a useful next question. |
+| Fixed contribution versus changing possibilities | The same material can be developed for today's result or before its later use is settled. |
+| Diversity versus burden | Further variations, retention and recovery all consume resources. |
+| Source success versus target use | A useful way may fail when the receiving conditions change. |
+| Reusable material versus another person's capability | A retained artifact can be shared without transferring the skill or permission needed to use it. |
+
+### C.40:4 - Solution
+
+Perform a feasible change, examine what it produced, and use that result to choose a worthwhile continuation. Preserve enough of the material and its conditions to make that continuation possible.
+
+#### C.40:4.1 - Make one small development pass
+
+1. **Recover usable material and the local question.** Identify the actual editable or executable input and the conditions for using it. State the difference you can examine and any selected receiving contribution. Keep an original when comparison or recovery requires it.
+2. **Select and perform a feasible variation.** Use the available professional operation to change, recombine or use the material differently. State what is changed and what remains protected. If the operation is unknown, use C.39 for that local contribution. An unperformed variation remains a proposal with its missing prerequisite.
+3. **Examine the resulting difference.** Compare what was intended with what can now be observed or otherwise established under the relevant Method. Include a useful unexpected difference. Distinguish a result that helps one question and fails another.
+4. **Preserve the material needed for the justified next use.** Keep the changed artifact or result and the inputs, settings or explanation needed to continue. Retain a failed or mixed result when it changes the next question. A descriptor or favourable evaluation alone may not let another participant reproduce or develop the result.
+5. **Choose continuation, retention or stop.** Ask what another attainable result could change, what producing and carrying it would cost, and what work that would displace. Continue only the branches that warrant that burden. A sufficient result or a lack of worthwhile continuation can close the search.
+
+Several variations can share one pass when they answer the same local question and their outcomes remain distinguishable. No population size, fixed branching factor, archive, new hypothesis or exhaustive trial of every variant is required.
+
+#### C.40:4.2 - Continue without losing the question or the material
+
+For a selected contribution, examine variations against its requirements while retaining an intermediate result only for a stated useful continuation. A lower present score can coexist with that reason; retention does not make the variation the preferred option.
+
+Before a receiving contribution is selected, examine a local change that is already intelligible: for example, what reversing a playable recording does, or what a complete time-ordered view exposes. A newly suggested use becomes a question to investigate, not evidence of demand or value. Stop if no continuation warrants its burden.
+
+Preserve the actual permissions, confidentiality limits, means and participant capabilities relevant to the next use. A colleague who receives the recording or code may still lack the skill or right needed for the proposed continuation. Retaining material is different from funding further work or preserving an exercisable option.
+
+#### C.40:4.3 - Coupled problem-and-solution search
+
+Enter here directly when several problems and available ways need joint development. Use the material-changing and examination operations in section 4.1 where needed; do not repeat a completed pass merely to enter this branch.
+
+1. **State the actual problems and ways.** For each problem, identify the required result, protected conditions and observed limit. Distinguish a receiving need from an experimental challenge or conjectured opportunity. If an existing way adequately answers the fixed target problem, use it and stop.
+2. **Construct a few meaningful changed problems.** Change a relevant condition, recipient, demanded result or available means. Explain the change and how its validity and difficulty can be examined. Reject an invalid construction; leave unexamined tractability unknown. A new recipient name establishes no demand, and current inability establishes no permanent impossibility.
+3. **Recover or develop ways worth trying.** Use the applicable professional operation and section 4.1's variation–examination work. A missing obtaining explanation goes to C.39 for that contribution. Consider only attempts whose attainable result can warrant their full burden.
+4. **Examine transfer at the target.** Apply a source way, or a justified adaptation, to target material and test the target's own requirements. Keep successful, failed, mixed and unperformed transfers distinct. A source success cannot substitute for the target observation.
+5. **Use the outcome to change the next question.** Recover a missing target condition, narrow the demanded result, revise the operation, construct another warranted problem, or stop the unsupported transfer. Keep the source way's earlier qualified uses when the new result does not invalidate them.
+
+The additional result is the examined problem–way combinations, their target-transfer outcomes and the next answer-changing question. It is not merely a larger list of challenges or automatic selection of a final course.
+
+#### C.40:4.4 - Use stronger claims only when they matter
+
+A few explained variations need no formal archive or front. Use C.18 when retained exploration value, lineage, possibility-space change or a non-dominated front is claimed. That account records the relevant relations; it does not perform generation.
+
+C.19 supplies continuation policy for a still-live search pool, while C.11 supplies a local choice. C.38 supplies comparison of complete-enough ways for one result. None converts material retention into current selection or permission to use the result.
+
+For assurance-bearing use, identify the material, performed operation or still-proposed operation, examination basis and receiving conditions precisely enough for the claim. An observed difference, its evaluation, a proposed explanation and a claimed later effect need their own support.
+
+### C.40:5 - Archetypal Grounding
+
+#### C.40:5.1 - Develop a recording with or without a composition in view
+
+A constructed workshop has a permitted 100 ms percussion clip, a qualified editor operation for reversing it and playback suitable for examining the resulting sound. The original and editable copy are available. The exercise protects the sample format and permits modification for this workshop.
+
+The practitioner reverses a copy, plays both versions and inspects their envelopes. In the supplied observations, the original has a sharp early peak near 10 ms; the reversal swells toward a peak near 90 ms. The changed recording and reversal setting, rather than the description “interesting sound”, are the reusable result.
+
+If the selected purpose is a sharply marked beat, the reversal fails that immediate use. The workshop can still retain it cheaply for a specified next attempt at a swelling transition; it need not call it the better beat. If no composition is selected, the same examined change can support a question about transition material. It establishes no audience demand or future musical success.
+
+For a target requiring a peak within the first 20 ms, the unchanged reversal fails. Trimming or otherwise adapting it is a new performed operation to examine against the target's duration and sound requirements, not a successful transfer by assertion. If a qualified existing clip already meets the target, use it. Another participant needs the file, its usable settings and the capability and permission for the next operation.
+
+The observations and resources in this case are stipulated teaching inputs. They demonstrate the distinctions, not a field test of the search Method.
+
+#### C.40:5.2 - Develop an investigation view
+
+A constructed investigation uses six separately permitted synthetic records and a supplied specialist rule that admits comparisons within the same known setup. An available operation groups those records and can report unmatched cases:
+
+| Case | Outcome | Setup | Time |
+| --- | --- | --- | --- |
+| E1 | Error | S1 | 09:00 |
+| N1 | Acceptable | S1 | 09:05 |
+| E3 | Error | Unknown | 09:40 |
+| E2 | Error | S2 | 10:00 |
+| N2 | Acceptable | S2 | 10:05 |
+| N3 | Acceptable | Unknown | 11:15 |
+
+A matched-pair view returns E1–N1 and E2–N2. A performed output variation also retains E3 and N3 with their times and missing-reference flags. Its additional review burden is five minutes in the supplied estimate. Retaining that small output is worthwhile for the specific next question of whether setup records at 09:40 and 11:15 can recover the missing conditions. It has not diagnosed the errors.
+
+If the receiving contribution is unsettled, a complete time-ordered view supplies another small pass: it exposes one unmatched case between the known setups and one after the last known setup. An operator-support use suggested by that result still needs a recipient and need inquiry. The local examination does not have to wait for that answer.
+
+#### C.40:5.3 - Let a mixed transfer change the target question
+
+The target investigation has a supplied professional requirement: comparison cases must share both setup and temperature regime. From that requirement, the practitioner formulates the local problem: recover error/non-error pairs meeting both restrictions and expose where the records cannot support a comparison. Whether the available records can support such comparisons is initially unknown. The permitted synthetic target records are T1/error/S1/warm, T2/acceptable/S1/cool, T3/error/S2/warm and T4/acceptable/S2/warm.
+
+The source setup-only rule would pair T1–T2 and T3–T4. Examining the target condition rejects the first pair. Using an available filter to add temperature to the grouping returns one eligible pair, T3–T4, and no eligible S1 pair.
+
+The mixed transfer changes the next problem: a bounded S2/warm comparison may continue if useful; an S1 explanation needs comparable target cases or a narrower demanded result. Repeating the old pairing cannot fill that gap. Keep the failed S1 transfer and its condition alongside the successful grouping result. Neither grouping establishes a cause, and neither failure invalidates the original same-setup use where its conditions remain qualified.
+
+This is coupled development because the target condition changes the usable way and the examined result changes the next problem. Simply copying the source success or renaming the beneficiary would not perform those operations.
+
+### C.40:6 - Bias-Annotation
+
+A strong incumbent can suppress useful intermediates, while novelty can attract effort without a receiving use. Examine what each variation actually permits next and include retention and opportunity costs. Keep the target's own conditions visible when enthusiasm for a source success would otherwise decide the transfer.
+
+### C.40:7 - Conformance Checklist
+
+- Usable material and a feasible changing operation are available, or the missing prerequisite remains explicit.
+- A performed variation, its examined difference and a proposed later use are distinguishable.
+- Fixed-contribution and unsettled-contribution uses do not require one another.
+- Retained material and conditions make the stated continuation possible at a warranted burden.
+- Coupled use constructs meaningful problems and judges transfer on the target's own conditions.
+- A mixed or failed transfer changes the next problem or way question as its evidence permits.
+- A sufficient existing way, adequate result or unwarranted continuation supplies a usable stop.
+- Archive, front, selection, capability and permission claims keep their separate meanings.
+
+### C.40:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Repair |
+| --- | --- |
+| Cataloguing possibilities is called generation. | Perform the feasible material change and examine its result, or state the missing operation. |
+| Every search must invent a new goal. | Develop material for the selected contribution when that is the actual use. |
+| Only today's winner is retained. | Keep a lesser intermediate when a specific attainable continuation warrants its burden. |
+| Everything novel is retained. | Compare further use, cheap retention and stopping against actual costs and displaced work. |
+| A source success certifies a target. | Apply and examine the way under target conditions; retain the actual failed or mixed result. |
+| A file transfer is called a capability transfer. | Recover the receiving participant's means, skill and permission separately. |
+
+### C.40:9 - Consequences
+
+Useful intermediate results can support later attempts without being promoted to current winners or final opportunities. The cost is generation, examination and recoverable retention. Coupled development can expose a better next problem, but trying every transfer can consume more than it returns. Small justified passes and sufficient-result exits limit that burden.
+
+### C.40:10 - Architectural Rationale
+
+The common operation is changing material, examining the difference and choosing a warranted continuation. These development steps serve both a selected contribution and exploration before a destination is settled; the examination question changes with the intended use.
+
+Coupled development adds problem construction and target-tested transfer to that common work. Its directly accessible entry lets the practitioner develop problems and ways together without repeating an already completed material-development pass.
+
+C.39 remains separate because an obtaining explanation can finish before any variation is feasible. An archive or a continuation policy likewise has a useful independent result, but neither supplies the changing operation.
+
+### C.40:11 - SoTA-Echoing
+
+| Practice question and selected line | Serious alternative, mutation and limit | Reopen condition |
+| --- | --- | --- |
+| How can retained material support a useful next attempt before its ultimate contribution is settled? The selected line is examined variation with warranted intermediate retention. | **Adapt** the branching-discovery argument in Stanley and Lehman's [Why Greatness Cannot Be Planned](https://link.springer.com/book/10.1007/978-3-319-15524-1) (2015, especially chapters 3–6) in sections 4.1–4.2. The historical argument supplies an action-changing alternative to keeping only the present winner; its anecdotes do not establish universal institutional policy or inevitable progress. A sufficient attainable objective remains a serious cheaper choice. | Reopen if actual receiving use shows that retention cannot support the named continuation or a cheaper direct Method supplies the whole result. |
+| Can branching serve a fixed contribution rather than require new-problem generation? | [Darwin Gödel Machine v3, section 3](https://arxiv.org/html/2505.22954v3#S3) supplies a concrete evaluator-guided countercase: coding-agent variants branch from retained predecessors under supplied task evaluation. **Adapt** non-incumbent continuation to section 4.2; **reject** a universal ban on objectives. This computational evidence does not demonstrate human or organizational search effectiveness. | Reopen when the selected material cannot be changed or examined as assumed, or when incumbent-only development is sufficient at lower burden. |
+| What extra operation makes changing problems and cross-problem reuse productive? | [POET v3, sections 3 and 6](https://arxiv.org/html/1901.01753v3) supplies the paired environment/agent and target-transfer construction. **Adapt** meaningful problem variation and target examination in section 4.3; fixed-problem branching remains sufficient where no changed problem is needed. **Reject** universal numeric thresholds, oldest-member removal and treating a person's capability as a copyable policy vector. The paper is a computational instantiation, not proof of transdisciplinary effect. | Reopen when the proposed target problem is invalid, target examination is unavailable, or the coupled entry needs a different operative core. |
+
+The best-known line selected for these bounded questions combines the actual shared operations with conditional problem construction and target testing. Later generator, representation and transfer-scheduling variants do not make one implementation universal. A broader claim of present algorithmic superiority would require its own current comparison.
+
+### C.40:12 - Relations
+
+- C.39 develops a missing obtaining explanation for a local contribution; it is not a compulsory preliminary stage.
+- C.18 distinguishes archive, front, lineage and possibility-space claims about the developed material.
+- C.19 governs resource-bearing continuation of a live pool; C.11 governs a local choice.
+- C.38 constructs a finite same-result comparison from complete-enough ways.
+- C.17 characterizes generative novelty and value when those claims are needed; the applicable professional Method supplies the actual variation and examination.
+- A.10 governs stronger reliance on observations or transfer support. Problem, capability, permission and actual Work claims use their direct subject rules rather than an archive label.
+
+### C.40:End
 
 ## C.36.P - Cultural-Evolution Wording-Use Precision Restoration
 
@@ -77323,7 +77485,7 @@ Recheck a source line only when a newer edition changes a distinction used by th
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative.
 
-**At a glance.** After the normal `F.19` reading and compact `E.10` routing, `E.10.DEV` repairs claim-bearing *development* and *evolution* wording by naming the changed or represented subject, the continuity or membership rule, posture, any direction or value claim, and the direct pattern that defines or tests the result.
+**At a glance.** `E.10.DEV` repairs claim-bearing *development* and *evolution* wording by naming the changed or represented subject, the continuity or membership rule, posture, any direction or value claim, and the direct pattern that defines or tests the result.
 
 **Use this when.** After the normal `F.19` reading and compact `E.10` routing, use this pattern only while claim-bearing development, develop, progress, growth, maturation, adaptation, evolution, evolve, or lineage wording still hides what changed, what stayed identifiable, whether success or direction is asserted, whether the claim is actual or modelled, or which direct owner must be used—and resolving that ambiguity changes the claim or next action.
 
@@ -77335,13 +77497,11 @@ Recheck a source line only when a newer edition changes a distinction used by th
 
 **Not this pattern when.** Use the direct subject owners to choose an intervention, assess capability, explain biological or cultural mechanisms, build a dynamics model, select a programme, compare opportunities, or decide what to do next. `E.10.DEV` recovers the meaning needed to reach them. Use `E.10.LRN` first when the unresolved expression is specifically learning, teaching, training, model fitting, inference, or information acquisition. Use `E.10.MOVE` when trajectory, route, path, or movement posture remains the action-changing ambiguity.
 
-**Architecture boundary.** Shared development or evolution wording supplies no basis for a universal development or evolution Method or process, lifecycle, stage scale, role, result kind, evidence rule or bundle, population ontology, programme, or guidance product. Each substantive construct uses its subject pattern's admission rules; framework admission uses `E.4.PFAD`.
-
 ### E.10.DEV:1 - Problem Frame
 
 The same umbrella wording is used for unlike subjects. For example, a person develops a capability; an organization changes its working arrangement; an organism matures; a population evolves through membership and lineage relations; a model predicts a state history; an engineering search changes an archive or front; and a practitioner proposes a development programme. The claims may share readable language while differing in identity, evidence, method, and practical operation.
 
-The repair should make the first useful subject claim visible without forcing every reader through a development dossier. It preserves the source word when useful and returns each substantive question to the pattern that owns it.
+The repair should make the first useful subject claim visible. It preserves the source word when useful and returns each substantive question to the pattern that owns it.
 
 ### E.10.DEV:2 - Problem
 
@@ -77370,13 +77530,12 @@ Without a shared recovery move:
 Recover the current claim from the subject and use rather than from the umbrella word.
 
 1. **Bound the wording span.** Open only the expression whose interpretation changes a claim, inference, or action.
-2. **Name the changed or represented subject.** Identify the exact System, capability, organization, campaign, population, lineage, archive or front arrangement, model, plan subject, episteme, or other direct subject.
+2. **Name the exact changed or represented subject.**
 3. **State continuity or membership.** Name only the identity, reidentification, membership, generation, lineage, edition, or retention rule needed by this use.
-4. **Separate neighboring objects.** Keep actual change, intervention Work, Method, plan, result episteme, evidence, representation, and later effect distinct.
-5. **Expose direction or value only when claimed.** Name the objective, characteristic, scale, polarity, viewpoint, and evidence needed by the receiving use. The word *development* does not establish improvement.
-6. **State posture.** Mark the claim's posture—for example, actual, observed, reconstructed, predicted, simulated, proposed, recommended, or planned.
-7. **Choose one direct branch.** Split the sentence when it carries several independently actionable claims.
-8. **Stop after recovery.** The allowed recovery outcomes are the repaired claim, ordinary non-use, quote-only use, missing information, direct owner, or exact architecture gap. State the next use or stop for the selected outcome.
+4. **Expose direction or value only when claimed.** Name the objective, characteristic, scale, polarity, viewpoint, and evidence needed by the receiving use. The word *development* does not establish improvement.
+5. **State posture.** Mark the claim's posture—for example, actual, observed, reconstructed, predicted, simulated, proposed, recommended, or planned.
+6. **Choose one direct branch.** Split the sentence when it carries several independently actionable claims.
+7. **Stop after recovery.** The allowed recovery outcomes are the repaired claim, ordinary non-use, quote-only use, missing information, direct owner, or exact architecture gap. State the next use or stop for the selected outcome.
 
 #### E.10.DEV:4.1 - Optional DevelopmentEvolutionWordingRecoveryLine
 
@@ -77404,14 +77563,14 @@ DevelopmentEvolutionWordingRecoveryLine:
 | --- | --- |
 | One identified entity actually changed under conditions | Use `A.3.4`, `A.3.4.P`, `B.4`, and `C.27.TA` as applicable. A sequence, record, intervention, or expected result does not establish the actual transformation or identity-through-change claim. |
 | One holder has or changed capability for a named Work family | Use current `A.2.2` for the capability and A.10 for relied-on evidence. When a prior result now fails, transfers poorly, or varies with conditions and a distinction among envelope and support, applicability, access or activation, adaptation, enactment, and capability-claim revision can change the next question, use current `E.23.CAE` only for that differential. Its disposition is not a `ChoiceResult`, authorization, trajectory selection, or selected development Work. Candidate `E.23.CDI` may govern a separate capability-development Method only after its own admission and a separate applicable steering or choice result selects capability development. Keep provider Work, representative later Work, transfer, effect, and causal contribution separate. |
-| An organization, campaign, producing arrangement, or product-development arrangement changed | Identify the actual kind and its direct owner, then the Work, Methods, authority, interfaces, capabilities, evidence, and effects needed by the claim. Use System or programme classification when that owner's rules establish it. Use `A.3.4`, `C.30`, `C.32.MWA`, A.15 family, current OCE contributions, and the owning DPF as applicable. Establish any success claim under its declared basis. |
-| An episteme, problem formulation, body of knowledge, or MethodDescription changed | Identify the exact episteme and edition or ClaimGraph, its EntityOfConcern and effective ReferenceScheme, source return, evidence use, and currentness; use `C.2.1`, `C.22.2` for the problem formulation, `A.3.2` only for an exact one-Method description, `A.6.3.RT`, A.10, and `G.11` as applicable. Revision Work or publication does not by itself establish truth, a changed Method, or a developed holder. |
-| A cultural population or discipline generated, transmitted, reconstructed, recognized, selected, retained, or lost variants | Use `C.36` and `C.36.P`. Preserve the population or practice boundary, period, variants, relations, intervention, and evidence. |
+| An organization, campaign, producing arrangement, or product-development arrangement changed | Identify the actual kind and its direct owner. Use the applicable DPF or domain Method to establish which working relations changed and under what conditions. Recover the Work, Methods, authority, interfaces, capabilities, evidence, and effects needed by the claim. Use System or programme classification when that owner's rules establish it. Use `A.3.4` for actual change, `C.30` for an architecture question, and the A.15 family for Work or planning. When several structures need a proposed practice-architecture synthesis, candidate `C.32.MWA` supplies a first move: distinguish obtaining from future practice and state the architecture question. Keep current-law claims with admitted owners. Establish any success claim under its declared basis. |
+| An episteme, problem formulation, body of knowledge, or MethodDescription changed | Use `C.2.1` to identify each compared episteme by its claim content, EntityOfConcern, and effective ReferenceScheme; name the editions and changed content needed by the comparison. Stop when this answers the receiving use. Use `C.22.2` when a reviewable problem-side formulation is needed, `A.3.2` for a separate MethodDescription membership question, and `A.6.3.RT` for a needed same-EntityOfConcern representation transition. Add a source return, A.10 evidence-use result, or `G.11` currentness check only when the receiving claim or use needs that contribution. |
+| A cultural population or discipline generated, transmitted, reconstructed, recognized, selected, retained, or lost variants | Use `C.36` for the cultural claim. Use `C.36.P` only when cultural wording remains unclear. Preserve the population or practice boundary, period, variants, relations, intervention, and evidence. |
 | A non-cultural population or lineage evolved | Recover only the dimensions on which this claim or its use relies. Possible dimensions include population or lineage identity, membership, generation, reproduction or inheritance, variation, selection, retention or loss, environment, distribution, posture, and evidence. Use an admitted domain owner for their meaning and requirements; otherwise return the named non-cultural population or lineage architecture gap. Do not substitute `C.36` or one-holder `B.4`. |
 | An engineering search changed its archive, front, pool, generator policy, or possibility space | Use `C.17`–`C.19`, `G.5`, and `G.11`. Archive or front history is not population evolution unless the population relations independently obtain. |
-| A model predicts or simulates development or evolution | Use `A.3.3`, `A.19`, `C.29`, and `C.27`; name model edition, state or position space, transition law, observation relation, validity boundary, and posture. Model output is not actual change. |
-| A practitioner proposes development opportunities or a programme | Use `C.22.2`, `C.11.CRC`, `C.11`, A.15.2, and the owning domain Method. Recommendation, choice, WorkPlan, performed Work, and observed effect remain different results. |
-| The current expression means learning, teaching, training, model fitting, inference, or information acquisition | Use `E.10.LRN`, then the direct subject pattern. Learning neither absorbs nor classifies every development branch. |
+| A model predicts or simulates development or evolution | Use `A.3.3` for the dynamics account; name the model edition, state or position space, transition law, validity boundary and posture, plus an observation relation when the use requires it. Use `A.19` for a needed CharacteristicSpace declaration, `C.29` for an unresolved mathematical representation or transfer question, and `C.27` for a separate temporal-claim adequacy question. Model output is not actual change. |
+| A practitioner proposes development opportunities or a programme | Choose the return for the unresolved question. If an opportunity cue still needs a reviewable problem-side formulation, use `C.22.2`. If a decision needs the contribution of a realizable finite change from the current configuration, use `C.11.CRC` under a declared comparison basis; reuse a sufficient current comparison. For a local choice with a current chooser and `OptionSet`, use `C.11`. When intended future Work must be planned, use `A.15.2` to describe it in a WorkPlan about an existing subject. Use the applicable domain Method for the development content. Stop when the needed result is sufficient. |
+| The current expression means learning, teaching, training, model fitting, inference, or information acquisition | Use the direct subject pattern; use `E.10.LRN` only when a learning-related wording question remains. |
 | The wording is ordinary or quoted and supports no FPF inference | Preserve it and stop. Recover a branch only if a later use relies on the stronger claim. |
 
 #### E.10.DEV:4.3 - Coordination with trajectory wording
@@ -77426,11 +77585,15 @@ Both routes must converge on the same direct subject claim or exact gap. Neither
 
 ### E.10.DEV:5 - Worked Slices
 
-#### E.10.DEV:5.1 - Different objects of development in R11
+#### E.10.DEV:5.1 - Different objects of development
 
-Source sentences from the R11 seminar guide *Development for Advanced*, section R11.5:9, in the source edition identified in `E.10.DEV:11`: «Но объект развития надо назвать. Рабочее развитие улучшает внешнюю систему, продукт, процесс или организацию. Личное развитие меняет самого человека. Исследовательское развитие меняет знания и постановки.»
+Constructed wording for repair: `Our development programme improves the product, develops Mira as an engineer, and advances our research.`
 
-Repair the umbrella into the claims the current use needs. Working development may concern actual change to an external System, product, process, or organization and the Work intended to produce it. Personal development may concern a person's capability for a named Work family, actual changes, and evidence. Research development may concern an exact episteme or problem formulation, its edition or ClaimGraph, source return, and evidence. These claims may coexist, but their holders, continuity, horizons, indicators, Work, results, and costs of error remain separate.
+Return a **missing-information result** to the programme author. First ask whether the sentence describes proposed work or work already performed and, separately, whether each effect is intended or observed. Then ask:
+
+- **Product:** Which product and characteristic should or did change? What comparison makes that change an improvement, under which conditions?
+- **Mira:** Which engineering Work family and conditions does the capability claim concern? For an observed increase, obtain the comparable qualification results through :5.2 before retaining that claim.
+- **Research:** Which claim or problem formulation is meant? What revision is proposed or observed, and under what criterion does it count as an advance?
 
 #### E.10.DEV:5.2 - Human capability without candidate borrowing
 Source wording: `Mira developed as an engineer.`
@@ -77441,7 +77604,7 @@ For the capability reading, recover the named Work family, supported envelope, q
 
 Source wording: `The organization evolved after the platform rollout.`
 
-Identify the rollout as intervention Work. For the separate organization-change claim, recover the organization; changes in its roles, assignments, interfaces, routines, or capabilities; observed organization Work and effects; period; evidence; and any cultural relations. Establish the claim under current OCE contributions and direct FPF owners. State any benefit under its declared basis and supporting evidence.
+Identify the rollout as intervention Work. For the separate organization-change claim, identify the organization and the changed working relations. Use the applicable organizational DPF or domain Method to establish which working relations changed and under what conditions, with `A.3.4` for the actual change and the direct patterns for the other claimed relations. Recover the roles, assignments, interfaces, routines, capabilities, observed organization Work and effects, period, evidence, or cultural relations on which that claim depends. State any benefit under its declared basis and supporting evidence.
 
 #### E.10.DEV:5.4 - Population and archive countercase
 
@@ -77451,7 +77614,7 @@ Split the claims. Recover the population relations actually relied on—for exam
 
 #### E.10.DEV:5.5 - Model and plan postures
 
-`The model predicts rapid development` is a model-edition and state-transition claim under `A.3.3`, `A.19`, `C.27`, and `C.29`. `The programme proposes rapid development` is a recommendation or WorkPlan claim under the direct choice and A.15 owners. Preserve each claim's predicted or proposed posture. Any claim that actual development occurred needs the applicable direct owner's evidence.
+For `The model predicts rapid development`, use the model branch in :4.2 to identify the model edition and predicted state transition. For `The programme proposes rapid development`, identify the proposed claim and use its question-specific return in :4.2. Preserve each claim's predicted or proposed posture. Any claim that actual development occurred needs the applicable direct owner's evidence.
 
 #### E.10.DEV:5.6 - Development trajectory
 
@@ -77476,10 +77639,10 @@ Start by asking what developed and what *improved* means. If the intended result
 4. Are intervention Work, Method, plan, result, evidence, representation, and later effect separated where current?
 5. Is any direction or value claim tied to the basis the use needs?
 6. Is the claim's posture explicit, using the distinctions needed by its direct owner?
-7. Does the repair reach one of the six outcomes in Step 8: the repaired claim, ordinary non-use, quote-only use, missing information, direct owner, or exact architecture gap?
+7. Does the repair reach one of the six outcomes in Step 7: the repaired claim, ordinary non-use, quote-only use, missing information, direct owner, or exact architecture gap?
 8. Is candidate or planned posture preserved? A candidate pattern supplies current FPF law only after admission; a current plan may be the subject of a claim while its intended result remains planned.
 9. For *development trajectory*, did the second child open only for a remaining independent ambiguity?
-10. Does each substantive claim return to its direct owner, consistently with the architecture boundary above?
+10. Does each substantive claim return to its direct owner?
 
 ### E.10.DEV:8 - Common Anti-Patterns and Repairs
 
@@ -77509,34 +77672,30 @@ The reusable transdisciplinary problem is recovering the claim carried by the wo
 
 **Practice question.** When *development* or *evolution* carries a claim that can change action, what bounded recovery returns a usable direct claim?
 
-**Selected best-known line.** Use subject-first lexical recovery: identify the changed or represented subject and its continuity or membership basis; separate Work, Method, plan, result, and evidence; make direction, value, and posture explicit; then return to the direct owner or an exact gap. This adopts FPF precision restoration, adapts it for unlike holder, population, model, plan, archive, and episteme cases, and rejects any move from shared wording to one shared substance.
-
-| Serious line | Posture here | Practical gain | Limit retained |
-| --- | --- | --- | --- |
-| Subject-, continuity-, posture-, and value-first recovery | Adopt | One short recovery can end in an ordinary use, a direct claim, missing information, or an exact gap. | It supplies no domain mechanism, intervention, lifecycle, or evidence bundle. |
-| Warning-only or ambiguity-label treatment | Reject as the working line | It is cheap to state. | It leaves the practitioner to rediscover the direct owners and gives no positive first result. |
-| Transformation-first treatment | Retain only after actual one-holder change is established | It is strong for an obtaining bounded transformation. | Applying it by default to every development expression can misclassify plans, models, capabilities, populations, archives, and epistemes. |
-| Learning-first or cultural-evolution-first treatment | Retain as direct local branches | Each has an existing practitioner route. | Either one underfits the unlike cases and should not classify the umbrella wording. |
-| Universal development process, stage scale, maturity ladder, or lifecycle | Reject | It would give one familiar shell. | The cases do not share one holder mechanism, operation, result contract, evidence ecology, or success direction. |
-
-**Effort and deliberate cost.** An already explicit subject takes the cheap exit. An ambiguous claim needs only the recovery still required to find its direct owner; the separate transformation, learning, cultural, capability, archive, modelling, and programme sources supply the substantive rules. The effort depends on which claim and source information remain unresolved. The deliberate cost is that recovery can expose missing information or an exact architecture gap.
-
-**What changes in practice.** The practitioner names the changed or represented subject, states posture and any claimed direction, and reaches a direct claim owner or an exact gap. Familiar development and evolution wording can remain, with a clear next use or stop.
-
-| Source line | Source role and contribution used here | Boundary retained and smallest reopen |
+| Available approach | When it fits | Practical effect and effort |
 | --- | --- | --- |
-| Current `E.10`, `A.3.4.P`, `E.10.LRN`, and `C.36.P` | Governing local source: adopt trigger-as-recovery, direct subject ownership, cheap exit, and the cultural branch; adapt them into one generic entry for development or evolution wording. | They do not license one shared development substance or replace direct owners. Reopen only the affected route when one changes its entry, result, or owner boundary. |
-| Current `A.2.2`, `E.23.CAE`, `A.3.3`, `B.4`, `C.17`–`C.19`, `C.27.TA`, `C.29`, and `C.36` | Governing direct-owner sources: separate capability, an applicable observation-only expression differential, dynamics, one-holder change, archive or front, temporal, representation, and cultural-population claims. | The differential emits no choice or selected development Work; no common holder mechanism, evidence rule, or lifecycle is inferred. Reopen only the direct branch whose owner changes its result contract. |
-| R11, *Development for Advanced*, seminar-guide edition for 1 February 2026, repository source blob `3dc4d26ad018c4587ee3ab55b849a1fe8068d25c`, sections R11.5:9 and R11.5:12 | Source-case role: supplies unlike working, personal, and research objects of development and the evolutionary-architecture trajectory under changing constraints. | The guide wording is not FPF ontology or external proof of a common mechanism. Reopen the worked use only if that source edition's claim meaning changes. |
-| R9, *Person Engineering*, May 2026 repository source blob `d46b2a700026620e76f528325d88a940e5c80a96`, sections R9.1:1 and R9.2:1 | Domain-source role: supplies the human capability and learning branch and the explicit contrast with collective and other agent development. | Its provider, teaching, human, and learning Methods remain domain claims. Reopen only the affected branch if the relied subject or method boundary changes. |
+| Subject-first recovery | The subject, continuity or membership, posture, or value basis remains unclear. | Ask only the missing questions needed to state the claim and choose its direct pattern. Stop with the named missing information or architecture gap if it cannot be recovered. |
+| Transformation-first interpretation | Actual change of one continuing entity has already been established. | Use the applicable transformation or change pattern in :4.2 directly. |
+| Learning or cultural-evolution branch | A remaining wording ambiguity concerns learning or cultural evolution. | Use E.10.LRN for the learning wording or C.36.P for the cultural-evolution wording. |
 
+**FPF source contributions**
+
+| Source | Contribution used here |
+| --- | --- |
+| `E.10` | Use lexical cues only for an unresolved FPF wording question; take the direct subject exit once the claim is clear. |
+| `A.3.4.P` | Recover the object or claim hidden by change wording. |
+| `E.10.LRN` | Recover meaning still hidden by learning-related wording. |
+| `C.36.P` | Recover cultural-evolution wording that remains unclear. |
+| E.23.CAE, when the capability branch needs a differential | Use its qualified capability-access/expression differential result: controlled observations, dispositions, surviving rivals and limits. Development Work requires a separate applicable steering or choice result. |
+
+Reopen only the affected route when its supplying pattern changes the entry, result or boundary used here.
 
 ### E.10.DEV:12 - Relations
 
 - **Selected by:** `E.10` when development or evolution wording remains action-changing because the subject, continuity or membership, posture, direction or value basis, or direct owner is not yet recoverable.
 - **Builds on:** `F.19`, `E.10`, `E.10.ARCH`, `A.3.4.P`, `A.2.2`, current `E.23.CAE`, `A.3.3`, `B.4`, `C.17`–`C.19`, `C.27.TA`, `C.29`, and `C.36`.
-- **Coordinates with:** current `E.23.CAE` only when the recovered capability branch needs its observation or disposition differential; `E.10.MOVE` for a remaining trajectory or path posture; `E.10.LRN` for learning-word recovery; `C.36.P` for the cultural branch; A.15 for Work or WorkPlan; candidate `E.23.CDI` only after its own admission and a separate applicable steering or choice result; and each direct holder or domain owner selected by the repaired claim.
-- **Keeps outside:** domain ontology, governed by the selected subject owners, and framework admission under `E.4.PFAD`. The architecture boundary above governs this lexical recovery.
+- **Coordinates with:** current `E.23.CAE` only when the recovered capability branch needs its observation or disposition differential; `E.10.MOVE` for a remaining trajectory or path posture; `E.10.LRN` for learning-word recovery; `C.36.P` for remaining cultural-evolution wording; A.15 for Work or WorkPlan; candidate `E.23.CDI` only after its own admission and a separate applicable steering or choice result; and each direct holder or domain owner selected by the repaired claim.
+- **Keeps outside:** domain ontology, governed by the selected subject owners, and framework admission under `E.4.PFAD`.
 
 ### E.10.DEV:End
 
@@ -77789,15 +77948,11 @@ That evidence overturns the initial disposition. Remove the demonstrated-continu
 
 #### E.10.MOVE:5.10 - Trajectory under changing constraints
 
-Source sentence from the R11 seminar guide *Development for Advanced*, section R11.5:12, edition for 1 February 2026, source blob `3dc4d26ad018c4587ee3ab55b849a1fe8068d25c`: «Для семинара это важный предшественник: архитекторы уже умеют мыслить не одним окончательным состоянием, а траекторией под изменяющимися ограничениями.» Working English gloss: “For the seminar this is an important predecessor: architects already know how to think not in one final state, but as a trajectory under changing constraints.”
+Constructed wording for repair: `Our architecture follows a trajectory under changing constraints.`
 
-Read the complete source span through `F.19` first. Keep the contrast with one final state only when a plausible intended reader has independent local grounds to expect that reading and rejecting it changes understanding or action. Otherwise state the positive claim directly—for example, “architects already know how to reason about a sequence of architecture changes under changing constraints.” When an FPF inference relies on the sentence, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual architecture editions, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner. For a C.29 curve or ordered rendering, name its correspondence to the architecture and the losses allowed by that use; establish transformation and evidence claims under their direct owners.
+Read the sentence through `F.19` first. If it means only that the team expects to revise the architecture as constraints change, state that proposed action directly. When an FPF inference relies on the trajectory claim, recover the exact architecture or system subject, the changing constraints and reference window, whether the sentence concerns actual architecture editions, a proposed evolution policy, or a modelled sequence, and the direct architecture, transformation, or model owner. For a C.29 curve or ordered rendering, name its correspondence to the architecture and the losses allowed by that use; establish transformation and evidence claims under their direct owners.
 
-If the intended claim is only that evolutionary-architecture practice supports incremental changes under changing constraints, preserve the ordinary domain-practice wording and named source. Use A.3.1 and A.3.2 only when the receiving claim depends on an independently admitted Method or MethodDescription.
-
-R11 is used here as a didactic source case of evolutionary architecture under changing constraints. For source refresh, reopen the worked slice only if the source claim meaning changes.
-
-Overlap example: `The development trajectory improved.` Start with `E.10.DEV` to recover the developed subject and the basis of *improved*. Open this branch only when a separately relied-on ordered path, model, plan, or representation remains. A direct capability or organization-change claim may close without a second pass.
+Overlap example: `The development trajectory improved.` Start with `E.10.DEV` to recover the developed subject and the basis of *improved*. Open this branch only when a separately relied-on ordered path, model, plan, or representation remains. Stop when the recovered direct claim answers the question.
 
 ### E.10.MOVE:6 - Bias-Annotation
 
@@ -77874,7 +78029,7 @@ The comparison separates direct-claim recovery, cue preservation, and imported s
 | Zhu, Reinecke, and Mitra, [*Language Scent: Exploring Cross-Language Information Navigation*](https://arxiv.org/abs/2604.03604v2), arXiv v2, 2026-08-06 | Analogy for cue preservation: the study concerns query-language selection and proximal cues, with a laboratory study of 16 multilingual speakers. It motivates testing whether a familiar cue helps the current reader; the in-situ wording decision still uses `F.19`. | Cross-language navigation is the study's scope. Reopen the adopted cue hypothesis if broader evidence shows that a cue obscures the governed value or impedes the intended reader use. |
 | Steve Tendon, [*The Book of TameFlow: Theory of Constraints Applied to Knowledge-Work Management*](https://leanpub.com/tameflow), publisher's contents accessed 2026-09-02; historical source context: Tendon, [*Constraints Everywhere*](https://tameflow.com/blog/2020-08-09/constraints-everywhere/), 2020 | The book supplies `MOVE` (Minimal Outcome-Value Effort) and Full-Kitting; the historical article distinguishes forward-looking preparation from current execution. These ground the source-practice distinctions among effort, outcome or value, constraint, and pre-entry preparation. | This line is scoped to knowledge-work management and is not a universal move or readiness ontology. Reopen if the used source meanings or FPF work, readiness, or gate patterns change their result boundaries. |
 
-The selected line is FPF's direct-claim recovery. The external sources contribute a domain comparison, a cue-preservation hypothesis, and imported practice meanings; the R11 worked case is in §5.10.
+The selected line is FPF's direct-claim recovery. The external sources contribute a domain comparison, a cue-preservation hypothesis, and imported practice meanings; the constructed architecture case is in §5.10.
 
 ### E.10.MOVE:12 - Relations
 
@@ -79678,6 +79833,8 @@ When following a pattern exposes a costly, infeasible or apparently unhelpful de
 An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses it. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand. Only when the selected `Solution` actually describes a Method and that distinction changes the claim, use A.3.1 to identify the admitted `U.Method` and A.3.2 to test `U.MethodDescription` membership of the pattern episteme. Name a System, system-role classification, assignment, plan, dated Work, result, or `U.Transformation` only when that object is part of the current claim. Assignment never substitutes for the acting System, Work, authority, or responsibility.
 
 When those identities do matter, keep them separate: the pattern episteme is not the acting System or Work; a selected or project-tailored Method is not automatically a WorkPlan; intended work is not performed Work; a result, evidence for it, and a later use are different values. This conditional distinction introduces no universal workflow, causal chain, production relation, TFS, or record requirement.
+
+Before Method selection, distinguish the missing operation. Use `C.39` when a sufficiently clear local result lacks an adequate obtaining explanation; it can finish with one explained candidate or the precise unresolved contribution. Use `C.40` when usable material needs variation, examination and warranted continuation, whether or not its ultimate contribution is settled; its `C.40:4.3` entry adds problem construction and target-tested transfer when those are needed together. A sufficient existing Method or result exits directly, and ordinary use of a selected pattern requires neither search.
 
 If the working question is still represented only by a pre-method-selection `TaskSignature`, use that signature to constrain method search; do not treat it as the task, plan, or Work occurrence. Use OEE or NQD to retain Method or architecture candidates before selection, and use `G.5` to declare a selected-set result. For publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability. Use `A.3.1` to identify a selected Method and `A.15` for planning and Work. Open these distinctions only when candidate retention, selection, result declaration, publication, planning, or performed Work is current.
 
@@ -93774,7 +93931,7 @@ Conceptual synthesis must preserve source-local meanings while returning a posit
 3. **Choose a bounded source cut.** Apply `F.1`. Include the sources needed for the intended use, known rival explanations, action-changing counterexamples, transfer limits, and material non-fit. State why each selected source can change the decision.
 4. **Compare what changes action.** Compare concepts, relation participants, explanations, contexts, assumptions, source roles, counterexamples, losses, and validity limits. Treat lexical or model correspondences as proposals to inspect, not as conclusions.
 5. **Write one first result.** Write a provisional synthesis claim when a positive shared contribution is warranted; a contrast claim when the proposed unification is not warranted for the named use; or an unresolved-inquiry claim when a named source gap prevents either substantive answer.
-6. **Give the result a stable local locator and name its receiving decision.** Keep ordinary `C.2.1` claim identity. Add a stable locator within the authoring source, such as `SE-CS-03`, so later text can cite the same result together with that source edition. Name the content, placement, or pattern-allocation decision that will consider it. The locator does not identify the episteme and the file does not make the decision.
+6. **Give the result a stable local locator and name its receiving decision.** Keep ordinary `C.2.1` claim identity. Add a stable locator within the authoring source, such as `SE-CS-03`, so later text can cite the same result together with that source edition. Name the content, placement, or pattern-allocation decision that will consider it.
 7. **Record the receiving disposition.** When the named decision is made, its decision record states whether this result is used as proposed, revised into a newly identified claim, not used for the named purpose, or reopened for further comparison. Cite the result locator and source edition. A result awaiting that decision remains a proposal; silence or a citation is not acceptance.
 8. **Keep the source use revisable.** Identify the source claims and editions relied on, why each matters to this result, what was deliberately left local or rejected, and which change reopens the comparison.
 
@@ -93820,21 +93977,27 @@ A DPF may need a reliable current domain ontology so practitioners can recognize
 
 #### F.0.2:5.1 - Systems Engineering use and system concept
 
-A Systems Engineering DPF author must decide what a practitioner should do when a proposed system concept is internally attractive but its connection to outside use is unclear. The bounded source cut contains three exact editions:
+A Systems Engineering DPF author must decide what a practitioner should do when a proposed system concept is internally attractive but its connection to outside use is unclear. The author compares a proposed outside-before-inside instruction with the receiving ontology and an external systems-engineering account:
 
-| Source edition and locator | Source-local claim used in this comparison | Role and limit |
+| Input to the comparison | Claim used in this comparison | Role and limit |
 | --- | --- | --- |
-| A. Levenchuk, *Guide to Systems Modeling* (*Руководство по системному моделированию*), eleventh version revised May 2026, §§R6.3:3 `Concept of use` and R6.3:4 `Concept of system and architecture` | A use concept is a linked, revisable outside-facing description set. A carrier may also contain system-concept, architecture, commercial, or normative claims; a shared carrier or title establishes neither physical parthood among the described systems nor allocation of a function to one of them. | Proposed contribution and near misses. The guide does not decide the receiving FPF or DPF ontology. |
-| `FPF 8`, patterns `A.14`, `A.6.F`, and `C.2.1` | Episteme membership, parthood, function or effect claims, function bearing, and the identity of a claim-bearing episteme are separate questions with their own conditions. | Receiving-ontology boundary. These patterns do not supply the applied Systems Engineering move. |
-| SEBoK v2.14, *Applying the Systems Approach*, permanent revision `78074`, 18 May 2026, `Application Principles` | Apply the systems approach concurrently, iteratively, and recursively across systems-of-interest and system-element levels. | Current comparison for iteration and recursion. Its lifecycle and requirements framing does not establish one fixed use-concept form or one containing-system hierarchy. |
+| Proposed outside-before-inside instruction | Begin with the system's behavior in its operating environment and only then work inward toward alternative constructions. These linked descriptions remain revisable. | Authoring proposal to test and refine. |
+| `FPF 8`, patterns `A.14`, `A.6.F`, and `C.2.1` | Parthood, function or effect claims, function bearing, and the identity of a claim-bearing episteme are separate questions with their own conditions. | Receiving-ontology boundary. |
+| [SEBoK v2.14, *Applying the Systems Approach*, permanent revision `78074`](https://sebokwiki.org/w/index.php?title=Applying_the_Systems_Approach&oldid=78074), 18 May 2026, `Application Principles` | Apply activities concurrently with attention to their dependencies. Iterate between needs and candidate solutions. | Comparison for dependency-aware concurrent and iterative work; the sequence is tailored to the problem situation. |
 
-The cut is sufficient for the present decision because these pinned claims expose the action-changing difference. No relied-on clause from ISO/IEC/IEEE 15288:2023 or the INCOSE Handbook fifth edition is pinned in this slice, so adding their titles alone would not add decision-relevant content. Reopen the cut when an accessible clause is pinned and can change the receiving decision.
 
-A lexical crosswalk can now appear to improve: map *environment*, *using system*, *containing system*, *use concept*, and *system concept* into one hierarchy and the visible match or coverage rate rises. The receiving decision gets worse. Ownership, use, interaction, affectedness, parthood, and function bearing become indistinguishable, so the author can no longer compare a change to the project System with a change to an external System, interface, or Work arrangement. The better proxy therefore hides the practical distinction that the synthesis is meant to preserve.
 
-The author records the **provisional synthesis** branch at local locator `SE-CS-USE-01` with this exact claim: **“For one Systems Engineering concept decision, develop the outside-facing use claim and the inside-facing system-concept claim together; state the decision-changing subjects and direct relations; and reopen either claim when architecture or realization evidence defeats it. Do not infer one containing System, fixed lifecycle, or mandatory carrier form.”** The result retains the guide's use-and-concept link, SEBoK's concurrent, iterative, and recursive application, and FPF's separate relation conditions.
+A lexical crosswalk that maps both *using system* and *containing system* to one *parent system* entry erases the use-versus-parthood distinction. The author can then no longer compare changing the project system's construction with changing how an external system uses it.
 
-A later Systems Engineering DPF content decision cites `SE-CS-USE-01` and records whether it uses, revises, splits, or rejects the proposed contribution. In this worked case, it records `used as revised`: the applied use-and-system-concept move stays in the Systems Engineering DPF, while general claim, parthood, and function-bearing rules stay in FPF. Reopen `SE-CS-USE-01` when one of the named source editions changes the linked action or boundary, a counterexample shows that the proposal cannot guide the decision, or the receiving decision changes its intended use.
+The comparison concerns **priority within an iterative process**. Starting from an internal construction can narrow the alternatives before the outside behavior and operating conditions are known. Begin with the outside-use question. Once the information needed for a particular design question is explicit, explore construction and feasibility while refining the use account; leave a dependent construction choice open while its decisive use conditions remain unknown.
+
+The author records the **provisional synthesis** branch at local locator `SE-CS-USE-01` with this claim: **“For one Systems Engineering concept decision, first establish the proposed outside behavior, operating conditions and system-of-interest sufficiently to compare internal constructions. Develop and test candidate constructions against that use; refine both accounts as new information arrives, and reopen the use, boundary or construction when realization evidence defeats it. State the subjects and direct relations that change the decision.”** This retains the proposal's outside-before-inside priority, reconciled with dependency-aware concurrent and iterative work.
+
+**Replay the clock choice.** A team begins comparing gear arrangements for a clock. In this constructed case, asking where and how the clock will be used reveals a requirement for millisecond timing beside a rocket engine, with vibration and 30 g acceleration. The next result is an explicit timing-and-environment use hypothesis; the team compares and tests constructions against it before selecting one. Timing accuracy and vibration resistance can be investigated in parallel once their required operating conditions are stated. If feasibility evidence defeats the proposed clock use, revise that use or the system concept and compare again.
+
+A key/lock case changes another premise: investigating the intended change from a locked to an unlocked door shifts the system-of-interest from the key to the lock, with the key treated as a subsystem in that decomposition. Recover the selected boundary before comparing mechanical, electronic or biometric realizations. The retained function stays visible while the construction alternatives change.
+
+In this worked case, the later Systems Engineering DPF content decision cites `SE-CS-USE-01` with this source edition and records `used as proposed`. The applied use-and-system-concept move stays in the Systems Engineering DPF; general claim, parthood and function-bearing rules stay in FPF. Reopen `SE-CS-USE-01` when a source changes the linked action or boundary, a counterexample shows that the proposal cannot guide the decision, or the receiving decision changes its intended use.
 
 #### F.0.2:5.2 - Organization change contrast
 
@@ -93848,14 +94011,27 @@ A cross-disciplinary data framework proposes one shared classification relation 
 
 An engineer consults a handbook and its later edition only to recover the current pump tolerance. The later edition gives the needed claim, and no ontological difference changes the authoring decision. The engineer records direct source reliance and stops without conceptual synthesis.
 
+#### F.0.2:5.5 - Compare causal accounts on one sensor case
+
+
+An author is deciding whether an explanation may treat inference about a hidden condition and changing an observed output as the same operation. Recover the source-local operations first. [Parr and Pezzulo (2021), Introduction and The Generative Model](https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2021.772641/full), describes hidden-state inference together with policy-conditioned transitions and preferred outcomes. [Pearl, Glymour and Jewell's corrected primer, p.55](https://bayes.cs.ucla.edu/PRIMER/mueller-edits-questions-pearl-etal-2016-primer-errata-pages-august2019.pdf), supplies intervention by replacement of a generating mechanism.
+
+Use the [binary load/alarm case in C.28:4.4][fpf-c28-4-4-ref]. Under exact inference from the same stipulated joint distribution, either account obtains a high-load probability of 0.9 after an alarm and 0.1 after an ordinary low reading. In the separately specified intervention model, setting the alarm output low leaves the load mechanism unchanged, so the high-load probability is 0.5.
+
+An active-inference action can be compared with that intervention after its state-transition and observation consequences are specified. An action that changes only the output agrees on this load prediction. An action that initiates cooling requires the later load transition and its time order in both models. Comparing which action to select also needs the objectives or preferences used in selection.
+
+The comparison establishes this contrast: the same joint distribution supplies the stated observational inference, while agreement about an action requires a correspondence between the specified mechanisms.
+
+The receiving explanation decision can adopt this contrast and keep the two questions explicit. Reopen the comparison when the receiving question, source account, inference approximation or action mechanism changes.
+
 ### F.0.2:6 - Bias-Annotation
 
-**Scope.** This pattern is limited to one bounded synthesis question in which differences between source concepts can change an FPF or DPF content decision. It is not a general method for literature review, ontology alignment, source selection, evidence, assurance, or framework admission.
+**Scope.** This pattern is limited to one bounded synthesis question in which differences between source concepts can change an FPF or DPF content decision.
 
 | Lens | Boundary |
 | --- | --- |
-| **Gov** | No source decides that the synthesis belongs in the receiving framework. The author proposes a result; a later content decision records what to use. |
-| **Arch** | Keep each source claim, the synthesis result, and the later placement decision distinct; a locator or carrier is not any of them. |
+| **Gov** | The author proposes a result; a later content decision records what to use. |
+| **Arch** | Give each source claim, synthesis result and later placement decision its own recoverable content. |
 | **Onto/Epist** | Similar wording, a correspondence, or framework fit establishes neither sameness nor truth. A missing load-bearing source produces an unresolved inquiry, not a negative domain claim. |
 | **Prag** | Use the cheap exit when direct source use answers the question. Keep the comparison bounded, and open `G.2` only when its broader source pack changes the intended use. |
 | **Did** | Show the source-local claims and the action-changing difference in ordinary prose. Give readers source editions and locators they can follow; do not make local storage coordinates carry the explanation. |
@@ -93905,19 +94081,21 @@ Costs and trade-offs:
 
 Conceptual synthesis is the middle move between preserving local meaning and publishing a unified term or subject-pattern contribution. It cannot be reduced to lexical alignment because a correspondence does not decide what the receiving framework should claim. It cannot be reduced to literature review because a source inventory does not state the practitioner action. It should not require a full `G.2` pack because many authoring decisions need only one bounded comparison.
 
-The three result branches keep the method constructive without forcing agreement. A provisional synthesis opens a positive contribution, a contrast preserves a decision-relevant difference, and an unresolved inquiry turns a real source limitation into a defined next action. Ordinary `C.2.1` claim identity keeps those results separately revisable without introducing a `ConceptualSynthesisAccount` kind or making their carrier ontological.
+The three result branches keep the method constructive without forcing agreement. A provisional synthesis opens a positive contribution, a contrast preserves a decision-relevant difference, and an unresolved inquiry turns a real source limitation into a defined next action. Ordinary `C.2.1` claim identity keeps those results separately revisable.
 
 ### F.0.2:11 - SoTA-Echoing
 
 | Current practice line and sources | Adopted or adapted move | Effect in `F.0.2` | Limit kept visible |
 | --- | --- | --- | --- |
-| Ontology matching: OAEI 2025 campaign and results; Giglou et al., *LLMs4OM* (2024, arXiv:2404.10317); Qiang et al., *OAEI-LLM* (2024, arXiv:2409.14038) and its 2025 TBox extension | Adopt inspectable candidate correspondences, source-local identity, benchmark or expert checking, and an explicit missing-mapping boundary. | Correspondence proposals enter the comparison, and a missing load-bearing source can lead to an unresolved-inquiry claim. | Matching confidence or an LLM answer establishes neither sameness, truth, nor permission to merge. |
-| Ontology interoperability engineering: Qiang, *An Ecosystem for Ontology Interoperability* (2025, arXiv:2507.12311) | Adapt the separation among ontology design, matching, versioning, and deployment validation. | Alignment, receiving-ontology design, revision, and later use remain separate moves and claims. | This current preprint concerns a data-integration ecosystem; it does not by itself decide transdisciplinary pattern contributions. |
-| Theory synthesis: Jaakkola, *Designing conceptual articles: four approaches* (2020, DOI 10.1007/s13162-020-00161-0); Okoli, *Developing Theory from Literature Reviews with Theoretical Concept Synthesis* (2022, DOI 10.2139/ssrn.3452134) | Adopt one synthesis question, explicit source roles, comparison of concepts, relations, explanations, and contexts, and a positive integrated contribution rather than a summary or gap list. | The bounded method returns a practitioner-facing provisional contribution when the comparison warrants one. | Article form supplies neither FPF claim identity, Bridge semantics, pattern placement, admission, nor assurance. |
-| Framework synthesis: Carroll et al., *Best fit framework synthesis: refining the method* (2013, DOI 10.1186/1471-2288-13-37); Brunton, Oliver, and Thomas, *Innovations in framework synthesis as a systematic review method* (2020, DOI 10.1002/jrsm.1399) | Adapt use of a receiving framework together with explicit treatment of non-fit and source heterogeneity. | Rival explanations, contrast, non-fit, and revision of the receiving framework remain live in the Solution. | Fit to an initial framework is not assurance and must not hide a decisive source difference. |
-| Current cross-domain confirmation: Soliani et al., *Conceptual framework development: a systematic review and an integrative methodological pathway* (2026 preprint, DOI 10.1590/SciELOPreprints.15335) | Use as current confirmation that question delimitation, evidence gathering, concept extraction, relation organization, and internal verification remain recurring work across fields. | Supports the order of the bounded synthesis method. | The preprint is neither sole authority nor a reason to copy its carrier or stage count. |
+| Ontology matching: OAEI 2025 campaign and results; Giglou et al., *LLMs4OM* (2024, arXiv:2404.10317); Qiang et al., *OAEI-LLM* (2024, arXiv:2409.14038) and its 2025 TBox extension | Adopt inspectable candidate correspondences, source-local identity, benchmark or expert checking, and an explicit missing-mapping boundary. | Correspondence proposals enter the comparison, and a missing load-bearing source can lead to an unresolved-inquiry claim. | Inspect the source meanings and intended use behind a proposed match; benchmark correspondence quality leaves that conceptual comparison to the author. |
+| Ontology interoperability engineering: Qiang, *An Ecosystem for Ontology Interoperability* (2025, arXiv:2507.12311) | Adapt the separation among ontology design, matching, versioning, and deployment validation. | Alignment, receiving-ontology design, revision, and later use remain separate moves and claims. | The proposed lifecycle concerns data integration; applying its moves to framework authoring requires a correspondence between the actual tasks and receiving decisions. |
+| Theory synthesis: Jaakkola, *Designing conceptual articles: four approaches* (2020, DOI 10.1007/s13162-020-00161-0); Okoli, *Developing Theory from Literature Reviews with Theoretical Concept Synthesis* (2022, DOI 10.2139/ssrn.3452134) | Adopt one synthesis question, explicit source roles, comparison of concepts, relations, explanations, and contexts, and a positive integrated contribution rather than a summary or gap list. | The bounded method returns a practitioner-facing provisional contribution when the comparison warrants one. | These methods organize conceptual-article contributions. A practitioner-facing adaptation must also supply the action and first useful result for the receiving problem. |
+| Framework synthesis: Carroll et al., *Best fit framework synthesis: refining the method* (2013, DOI 10.1186/1471-2288-13-37); Brunton, Oliver, and Thomas, *Innovations in framework synthesis as a systematic review method* (2020, DOI 10.1002/jrsm.1399) | Adapt use of a receiving framework together with explicit treatment of non-fit and source heterogeneity. | Rival explanations, contrast, non-fit, and revision of the receiving framework remain live in the Solution. | Preserve and examine data that do not fit the initial framework; that non-fit may require changing the proposed explanation. |
 
-The current best-known line is plural: ontology matching is strong at proposing inspectable correspondences, while theory and framework synthesis are strong at producing a positive contribution and handling fit and non-fit. `F.0.2` combines those complementary moves and adds FPF claim identity, local-meaning discipline, pattern placement, cheap exit, and later-use boundaries. Revisit this comparison when matching practice, conceptual-synthesis methods, or heterogeneous use exposes a better result branch or a missing action.
+
+For the authoring question in :5.1, a correspondence-only answer can identify similar terms but leaves the outside-before-inside contribution undecided. A full `G.2` pack adds a reusable corpus, claim sheets, inventories, alignments and downstream handoffs; these become worth their cost when later questions need that broader result. The bounded method instead retains source-local claims, compares the decision-changing difference and produces one result for the named decision.
+
+Jaakkola's question and source-role discipline, Okoli's extraction and iterative synthesis, and Carroll–Brunton's treatment of non-fit inform steps 1–5 of that bounded route. These contributions organize the comparison; the particular working case selects what can be integrated and what must remain different. The accepted trade-off is limited coverage for a smaller first result. Reopen the source cut when a known rival or counterexample can change that result, and open `G.2` when the receiving work needs its broader reusable outputs.
 
 ### F.0.2:12 - Relations
 
@@ -93926,7 +94104,9 @@ The current best-known line is plural: ontology matching is strong at proposing 
 - **Coordinates with:** `F.2`-`F.8`, `F.14`, `F.17`, and `F.18` when the next authoring question requires harvesting, clustering, Concept-Set, naming, or UTS work.
 - **Coordinates with:** `G.2` as the optional broad harvesting method. Identified claims and provenance from a `G.2` pack may supply inputs here; the pack does not replace the receiving comparison.
 - **Coordinates with:** `E.4.DPF` for DPF entry and result placement, `E.10.ARCH` for DPF-local wording entries under the shared restoration method, and `G.11` for source-currentness and refresh work.
-- **Boundary:** Domain claims produced through this method remain in the subject FPF pattern or named DPF selected by the later content decision. `F.0.2` introduces no domain doctrine, new root kind, generic synthesis-to-use relation, admission result, assurance result, publication result, or mandatory carrier.
+- **Boundary:** Domain claims produced through this method remain in the subject FPF pattern or named DPF selected by the later content decision.
+
+[fpf-c28-4-4-ref]: C.28-CausalUse-CAL-Causal-Use-Questions-Causality-Ladder-Rungs-Identification-and-Realizability.md#c2844---identification-result
 
 ### F.0.2:End
 
@@ -107459,7 +107639,7 @@ When a shipped result consumes C.28, refresh planning watches the causes that ca
 
 | Sentinel | Affected result | Refresh pins |
 | --- | --- | --- |
-| sampling-realizability shift | `CounterfactualSamplingRealizabilityResult` | target distribution, decision Method and any derivation, physical, ethical, operational, and history constraints, required construction, bound, or obstruction, status, supported use, and unsupported use |
+| sampling-realizability shift | `CounterfactualSamplingRealizabilityResult` | target distribution, decision Method and any derivation, physical, ethical, operational, and history constraints, required sampling construction or obstruction, unresolved questions, status, supported use, and unsupported use |
 | performed sampling or resulting-data shift | dated sampling Work plus A.10 evidence path and empirical data regime | WorkPlan when used; actual performer identified through A.13; dated Work independently admitted through A.15.1; Method and window; resulting sample or data; provenance and currentness. Add F.6 with the same A.13 assignment only if the refresh decision needs to say exactly under which assignment the Work was performed. F.6 identifies neither performer nor assignment; a missing or failed attribution leaves the Work intact. A realizability result cannot substitute. |
 | identification or bound shift | `CausalIdentificationResult` | data-regime refs, assumptions, identifying derivation, bound or failure witness, sensitivity |
 | estimate shift | `CausalEstimateResult` | identification or design basis, data, estimator Method, diagnostics, uncertainty, sensitivity, and any live estimation-consistency result |
