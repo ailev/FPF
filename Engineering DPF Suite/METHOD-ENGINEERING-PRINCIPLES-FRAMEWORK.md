@@ -3,7 +3,7 @@
 > A domain pattern language for choosing, constructing, describing, testing, and improving Methods and their supporting arrangements.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 9 September 2026
+- **Version:** 11 September 2026
 - **Status:** Eternal alpha: a working framework with source-grounded guidance and bounded worked applications. The PLUS-ME production account is prospective guidance, not a report of recurring successful production.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -28,8 +28,8 @@ Search the Keywords & Search Queries column for the difficulty, subject, or resu
 | [Method Engineering Principles Framework Readme](#method-engineering-principles-framework-readme) | Start from a recognizable Method-related difficulty and choose one direct pattern or a small cooperating set. |
 | [Citation](#citation) | Cite this framework or one pattern with its author, title, release date, and publication address. |
 | [Preface](#preface) | Understand the distinctions that keep Method, description, Work, support, evidence, and culture connected without collapsing them. |
-| [PLUS-ME profile](#mepreface7---plus-me--pattern-language-unfolding-situational-method-engineering) | Understand the production and situated-use profile, its source choices, worked application, costs and alternatives. |
-| [Production MethodDescription](#mepreface73---production-methoddescription--engineer-a-source-grounded-methoddescription-in-pattern-language-form) | Use the bounded reusable action, source-profile variation, results and stops without inferring performed Work or Method parts. |
+| [PLUS-ME profile](#plus-me--pattern-language-unfolding-situational-method-engineering) | Understand the production and situated-use profile, its source choices, worked application, costs and alternatives. |
+| [Production MethodDescription](#production-methoddescription--engineer-a-source-grounded-methoddescription-in-pattern-language-form) | Use the bounded reusable action, source-profile variation, results and stops without inferring performed Work or Method parts. |
 | [Cross-Pattern Application](#cross-pattern-application) | Follow the release case to a bounded architecture decision and separate support results, or compare explanations of a pattern language for a named reader and use. |
 | [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check scope, example forms, source limits, external-result use, edition identity, and reopen conditions. |
 
@@ -232,7 +232,7 @@ and worth separately. Maintain variants by reusable semantics. Separate bounded 
 continuation across a population. Stop at the first useful result and reopen from changed evidence.
 
 The connected reader route is `ME.1`, `ME.19`, `ME.2`, `ME.18`, `ME.3`, `ME.4`, `ME.5`–`ME.10`, and
-`ME.11`–`ME.17`. It follows [R7](#guide-source-r7)’s account connecting Method, description, Work, capability, instrument, variant, and culture.
+`ME.11`–`ME.17`. It connects questions about the Method, its descriptions, performed Work, capability, instruments, variants and culture.
 The route explains the subject and its result dependencies; one project can use only the results it needs,
 in the Work order its situation requires. This is one selected example, not a catalogue or prescribed workflow.
 Use the Table of Contents or search when the current difficulty does not match it.
@@ -243,7 +243,7 @@ If you use this framework, please cite:
 
 ```text
 Levenchuk, Anatoly. Method Engineering Principles Framework.
-9 September 2026.
+11 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -595,15 +595,13 @@ The cost is a short recovery of Work, views, statuses, and non-Method alternativ
 
 The focus determines which claims are admissible in later Method use. Preserving the difference among a Method, family, local grouping, relation focus, and non-Method subject prevents downstream qualification or architecture prose from silently upgrading an unsupported object.
 
-[R7](#guide-source-r7) supplies a connected Method/Work/description/capability/tool synthesis. [R10](#guide-source-r10) supplies the sharper example that project, process, and case management can be viewpoints on the same Work. ME.1 retains both contributions by using views to discover questions while grounding focus in the actual subjects and relations.
+ME.1 connects questions about Methods, their descriptions, Work, capability, tools, variants and Method change. Project, process and case management can provide different viewpoints on the same Work. The pattern uses those views to discover questions, then identifies the subjects and relations that the project decision concerns; a view label alone establishes neither a new Work nor a Method.
 
 ### ME.1:11 - SoTA-Echoing
 
 | Source | Retained contribution | Use boundary |
 | --- | --- | --- |
 | Current FPF `A.15.6`, `C.11`, `A.3.1`, and `G.5` | Project-relative subject recovery, bounded choice, Method identity, and family/selector discipline. | These patterns do not choose the Method Engineering focus for the project. |
-| [R7](#guide-source-r7) Methodology guide, especially R7.2 and R7.5 | Connected treatment of Method, Work, descriptions, mastery, tools, variants, and Method change. | Maintained synthesis supplies questions and examples, not current project identity evidence. |
-| [R10](#guide-source-r10) Systems Management, R10.7:1–2 | Project, process, and case management as different viewpoints and views on Work. | A view can expose a question but does not create Work or a Method. |
 | Gericke, Eckert, and Stacey, [Elements of a design method](https://doi.org/10.1017/dsj.2022.23) | Method-ecosystem and element distinctions that help locate a candidate focus. | Source elements are prompts, not FPF kinds or Method parts. |
 | Bender, [embedded-analytics process selection](https://doi.org/10.1007/s10257-024-00675-1) | Current context-specific selection evidence. | One application population does not establish a universal focus taxonomy. |
 
@@ -649,7 +647,7 @@ Do not use a project-local grouping label as a professional-family fact. Do not 
 
 ### ME.19:1 - Problem Frame
 
-Professional Method histories combine source editions, institutions, tools, regulation, local Work, deliberate redesign, diffusion, fashion, retention, and loss. [R7](#guide-source-r7)'s evolutionary language usefully prompts questions about variants and selection. Process-tracing research adds discipline for within-case sequence, rivals, and diagnostic observations.
+An account of professional Method change relates variants recorded in successive sources to changes in institutions, tools, regulation and local Work. It examines deliberate redesign, diffusion, fashion, retention and loss. Questions about variants and selection help develop competing accounts. Process-tracing research supplies methods for examining the sequence within a case, rival explanations and diagnostic observations.
 
 For causal reliance on either contribution, use C.28. A plausible sequence can support description and hypothesis while leaving an interventional claim unsupported. The pattern therefore separates differentiation, causal support, and current choice.
 
@@ -807,13 +805,12 @@ The cost is explicit result separation and threat screening. Some elegant origin
 
 Differentiation history, causal support, and present choice have different subjects and truth conditions. A dated sequence can be accurate while its causal explanation is unsupported; an unsupported causal claim can coexist with a useful non-causal design constraint; and neither supplies present authority.
 
-[R7](#guide-source-r7)'s evolutionary synthesis is retained as a connected source of variant, transmission, fashion, retention, and loss questions. Process-tracing sources strengthen rival and diagnostic-observation discipline. C.28 states what support a causal use needs, keeping a plausible narrative separate from identification or estimation.
+The pattern connects questions about variant generation, transmission, fashion, retention and loss. Evolutionary analogies and search-frequency examples can suggest hypotheses and rivals; their causal use depends on diagnostic observations. Process-tracing sources strengthen that inquiry. C.28 states what support a causal use needs, keeping a plausible narrative separate from identification or estimation.
 
 ### ME.19:11 - SoTA-Echoing
 
 | Source | Retained contribution | Use boundary |
 | --- | --- | --- |
-| [R7](#guide-source-r7) Methodology guide, especially R7.5:15 and R7.5:19 | Variant generation, transmission, fashion, retention, loss, and evolutionary prompts. | Analogies and search-frequency examples generate hypotheses and rivals; they are not diagnostic or causal evidence. |
 | Stacey et al., [Methods as a form of engineering knowledge](https://doi.org/10.1017/dsj.2025.9) | Attention to Method knowledge, variation, loss, and engineering context. | Conceptual history supplies no project causal verdict or current architecture authority. |
 | Collier, [Understanding Process Tracing](https://doi.org/10.1017/S1049096511001429) | Within-case descriptive sequencing, rivals, and diagnostic observations. | Does not replace identification, estimation, transport, or FPF ontology. |
 | Mahoney, [The Logic of Process Tracing Tests](https://doi.org/10.1177/0049124112437709) | Weak, necessary-condition, and strongly discriminating test logic. | Grades observations; it does not make the whole chain certain. |
@@ -983,7 +980,7 @@ The cost is a smaller catalogue. Some lineages remain partial, and the newest so
 
 A repertoire becomes reusable when its users can distinguish statuses and trace provenance. Source lineage can explain where an edition, account, or variant came from, but it cannot answer whether a Method exists, whether two Methods form a family or whole, whether one caused an outcome, or whether the latest variant is preferable. Those questions have different subjects and governors.
 
-[R7](#guide-source-r7)'s connected Method, Work, description, variant, capability, and tool distinctions prevent source organization from becoming ontology. The Method Engineering literature supplies strong search and reuse practices; FPF supplies the status and relation boundaries needed to carry their contributions across projects.
+The repertoire distinguishes Methods, performed Work, descriptions, variants, capability and tools, including cases where several representations concern the same Method. These distinctions keep a source document's organization from determining the kind of thing each passage describes. Method Engineering literature supplies search and reuse practices; FPF supplies the status and relation boundaries needed to use their contributions across projects.
 
 ### ME.2:11 - SoTA-Echoing
 
@@ -992,7 +989,6 @@ A repertoire becomes reusable when its users can distinguish statuses and trace 
 | Henderson-Sellers and Ralyté, [Situational Method Engineering: State-of-the-Art Review](https://opus.lib.uts.edu.au/handle/10453/13456) | Method-base lineage, reusable source material, situational construction, and explicit Method Engineering traditions. | Source-local fragments and construction terms do not determine FPF kinds, family membership, or composition. |
 | Gericke, Eckert, and Stacey, [Elements of a design method](https://doi.org/10.1017/dsj.2022.23) | Method ecosystem, core idea, representation, procedure, intended use, tool, and adaptation questions. | The elements guide source recovery; they are not an imported ontology or universal repertoire schema. |
 | Current FPF `G.2`, `G.5`, and `G.11` | Refreshable SoTA sourcing when needed, truthful family or local set results, and edition/currentness discipline. | These patterns do not identify repertoire Methods or turn co-listing and lineage into selection, family, or merit. |
-| [R7](#guide-source-r7) Methodology guide | Connected treatment of Methods, descriptions, Work, variants, capability, tools, and several representations. | The guide supplies problem-owning synthesis, not current project identity or lineage evidence. |
 
 Reopen when a relied-on source contribution, its support or its applicability changes, a missing position becomes available, an `A.3.1` result changes a subject's status, a family or lineage relation gains or loses support, or the named comparison requires an alternative outside the current relevance boundary. Age or edition succession alone establishes none of these changes.
 
@@ -1380,7 +1376,7 @@ The cost is more explicit subject placement and fewer easy rankings. Some criter
 
 A fit claim is bounded by a particular use, subject, situation, evidence basis, and time. Criteria are inputs to that later claim, not the claim itself. Returning every condition to its actual subject prevents a well-written description from standing in for capability, a provider arrangement from standing in for a Method, or one management view from standing in for the Work.
 
-Method Content Theory and the design-method ecosystem line are complementary because they ask different source-side questions. [R7](#guide-source-r7) keeps Method, Work, description, mastery, tool, culture, and variants connected without identifying them. [R10](#guide-source-r10)'s project, process, and case views show why several descriptions of the same Work may expose different requirements while creating no new Work or Method.
+Method Content Theory and the design-method ecosystem line are complementary because they ask different source-side questions. This pattern connects situational criteria for Methods, Work, descriptions, capability, tools, culture and variants while keeping their subjects distinct. Project, process and case views show why several descriptions of the same Work may expose different requirements without establishing new Work or Methods.
 
 ### ME.3:11 - SoTA-Echoing
 
@@ -1390,7 +1386,7 @@ Method Content Theory and the design-method ecosystem line are complementary bec
 | Gericke, Eckert, and Stacey, [Elements of a design method](https://doi.org/10.1017/dsj.2022.23) | Intended use, scope, representation, procedure, tool, ecosystem, and adaptation conditions. | The conceptual elements complement rather than replace Method Content Theory and FPF subject placement. |
 | Tsai, Zdravkovic, and Söder, [situational Method Engineering in a digital business ecosystem](https://doi.org/10.1007/s10270-022-01068-z) | Empirical action-research evidence for situational requirements, construction, and selection in an ecosystem. | One action-research setting does not establish a universal criterion set or cross-domain fit. |
 | Bender, [context-specific embedded-analytics process selection](https://doi.org/10.1007/s10257-024-00675-1) | Context-specific requirement and selection questions with practical constraints. | The application population and source-local process terms do not determine Method identity or general applicability. |
-| Current FPF `A.3.1` and `A.15.6`, with [R7](#guide-source-r7) and [R10](#guide-source-r10) | Method identity/applicability, project-relative subject recovery, and the connected Method/Work/view/description/capability distinction. | Criteria change none of those identity facts, and project/process/case views create neither Work nor Methods. |
+| Current FPF `A.3.1` and `A.15.6` | Method identity and applicability; project-relative subject recovery. | Criteria describe the desired contribution and conditions; they do not establish the identity of a Method or project subject. |
 
 Reopen when a source model changes a decision-bearing prompt, a later evaluation exposes a criterion whose subject or decision level was wrong, a recurring architecture failure can be prevented by one affordable criterion, or the situation family, receiving result, variation, evidence window, performer, support, authority, or burden regime changes.
 
@@ -1398,7 +1394,7 @@ Reopen when a source model changes a decision-bearing prompt, a later evaluation
 
 - ME.1 or an equivalent result supplies the Method, family/local-grouping, or relation focus. ME.2 may supply inspectable alternatives and source limits. When equivalent content already exists, ME.1 and ME.2 need not be applied first.
 - `A.3.1` governs Method identity and applicability. ME.3 criteria identify or admit no Method.
-- [R7](#guide-source-r7) and `A.15.6` keep Method, Work, description, capability, tool/support, subject, and viewpoints distinct while situational criteria are built.
+- `A.15.6` supplies project-subject distinctions. When building situational criteria, distinguish the Method, Work, description, capability, tool or support arrangement, and viewpoint.
 - ME.5 qualifies one identified Method or candidate account against applicable rows without turning the criteria into admission or whole fit.
 - ME.6 compares combined Method, Work, allocation, support, authority, description, subject, capability, or cultural structures when several-structure relations change the decision.
 - `C.11` or the applicable domain decision Method may consume later qualification and architecture results. The ME.3 criteria set itself selects nothing.
@@ -1800,7 +1796,7 @@ Do not repeat ME.5. If the only question is whether a named relation or Method c
 
 ### ME.6:1 - Problem Frame
 
-[R7](#guide-source-r7) presents a connected account of Methods, Work, descriptions, capability, tools, variants, and simultaneous contribution at several grains. [R10](#guide-source-r10) shows that project, process, and case management can produce different views of one Work. Together they warn against one universal stack: several useful structures can coexist without lining up one-for-one.
+The pattern considers Methods, Work, descriptions, capability, tools, variants and simultaneous contributions at several scales. Project, process and case management can produce different views of one Work. Several useful structures can coexist without aligning one-for-one.
 
 A project still needs decisions. It must choose which provisional results may be used, which Work may overlap, where authority stays, which support arrangement is acceptable, and where burden moves. The comparison must preserve the several structures while remaining small enough to act on.
 
@@ -1943,16 +1939,14 @@ The cost is explicit recovery of several structures and their truth statuses. So
 
 ### ME.6:10 - Rationale
 
-Method organization, dated Work, subject arrangement, allocation, descriptions, provider support, and cultural continuation answer different questions. Treating them as isomorphic loses either useful simultaneous contribution or real dependency. Selecting only decision-changing structures preserves [R7](#guide-source-r7)'s connected synthesis without turning it into one stack.
+Method organization, dated Work, subject arrangement, allocation, descriptions, provider support and cultural continuation answer different questions. Treating them as isomorphic loses either useful simultaneous contribution or real dependency. Select the structures that can change the decision and compare their relations in the receiving case.
 
-[R10](#guide-source-r10)'s project/process/case example adds a practical test: when several views concern the same Work, their labels do not create architecture alternatives. The alternatives begin only where proposed direct relations differ.
+Project, process and case views provide a practical test: when several views concern the same Work, their labels do not create architecture alternatives. The alternatives begin where proposed direct relations differ.
 
 ### ME.6:11 - SoTA-Echoing
 
 | Source | Retained contribution | Use boundary |
 | --- | --- | --- |
-| [R7](#guide-source-r7) Methodology guide | Simultaneous multigrain contribution, Method/Work/description/capability/tool distinctions, and several representations. | Stack and tree metaphors are prompts; use exact structures and relations in the receiving case. |
-| [R10](#guide-source-r10) Systems Management, R10.7:1–2 | Complementary project, process, and case viewpoints on one Work. | View plurality supplies no new Work, Method, or architecture alternative. |
 | Current FPF `C.32.MWA`, `C.30`, `A.22`, and `B.1.5` | Several-structure synthesis, architecture truth, selected structure, and Method composition. | ME.6 supplies the specialist Method-architecture comparison and bounded decision. |
 
 Reopen when a representative use exposes another non-isomorphic structure that can reverse the decision, a moved burden remains systematically hidden, or an alternative cannot be realized without changing the selected relation set.
@@ -2486,7 +2480,7 @@ MethodDescriptions combine action, purpose, inputs and results, variation, evide
 
 ### ME.9:11 - SoTA-Echoing
 
-[R10](#guide-source-r10) contributes the distinction among project, process, and case viewpoints on one Method-related Work. Their claims matter for the named action and require their own conformance results; they do not define three Methods.
+Project, process and case management can produce views of the same Method-related Work from different viewpoints. Each view must satisfy its own viewpoint; select its claims for the named action. The different views do not establish three Methods.
 
 | Source | Adopted or adapted contribution | Boundary and practitioner implication |
 | --- | --- | --- |
@@ -5590,27 +5584,11 @@ when its inputs already exist.
 
 ## Source use and currentness
 
-[R7](#guide-source-r7) supplies the connected Method, description, Work, capability, instrument, variant, and culture synthesis at the source scope recovered for this framework. [R10](#guide-source-r10) supplies the project, process, and case viewpoints on one Work. These bounded uses do not claim coverage of every Guide contribution or of a later expanded corpus. Such a promise requires its own source-local recovery and reconstruction; it is not a prerequisite to an independently supported Method Engineering result.
+The framework combines questions about Methods, their descriptions, performed Work, capability, instruments, variants and culture. Project, process and case management can provide different viewpoints on the same Work. This synthesis uses those views to expose different questions while keeping the Work and its participating Methods distinct.
 
 Direct Method Engineering sources contribute situation-responsive construction, Method content and ecosystems, representation, verification, validation, evaluation, efficacy, effectiveness, professional Method evolution, organizational introduction, and transmission cases. Their findings remain limited to the studied firm, ecosystem, telecom enterprise, OEM, workshop family, Method family, or institutional publication record. Claims of universal transfer, causal effect, long-term retention, or superiority need further evidence. Each pattern states the exact source use and reopening condition for its claims.
 
 Refresh only the affected pattern when a governing FPF distinction changes, a direct source changes practitioner action or case facts, a worked case can no longer support its branch, or replay exposes a missing independently useful Method Engineering move. A new source does not reopen the entire framework by default. ME.24 follows the changed premise through affected claims and uses; unknown dependency reach widens the question rather than licensing a claim that everything else is unaffected.
-
-### Guide source R7
-
-Anatoly Levenchuk (Анатолий Левенчук), *Руководство по методологии для инженеров-менеджеров* (Methodology guide for engineer-managers). The selected text is the retained numbered pedagogical-companion Markdown revision of **24 May 2026**, including the May 2026 continuation of the tenth rewrite described in its introduction. Its source mapping names the 2025 guide input `Methodology2025_guide_with_assignments_22apr25.docx`; that input and the later Markdown adaptation are not interchangeable editions.
-
-Locate the selected text as `R7-Methodology.md` in the retained source collection identified below; its SHA-256 is `5b800cc9774ee8dfc674fa7fc2dd8269483f89bfad1f5f9e3125678d5480e3ec`. The adopted spans are R7.2:4, R7.2:8, R7.2:10–12, R7.4:3, R7.5:1–5, R7.5:14–15 and R7.5:19–20. These keys locate the connected Method/Work/description account, representations, tools, variation and evolution questions; each ME pattern limits the contribution it uses.
-
-### Guide source R10
-
-Anatoly Levenchuk (Анатолий Левенчук), *Системный менеджмент* (Systems Management). The selected text is the retained numbered pedagogical-companion Markdown revision of **24 May 2026**, whose source mapping names `Системный менеджмент_с_заданиями_final_17may23.docx`. The 2023 input and retained Markdown adaptation remain distinct editions.
-
-Locate the selected text as `R10-SystemsManagement.md` in the retained source collection; its SHA-256 is `c3cc6cc7aedb801d7697f17f06375e2798b0677a5f93bbd16ccd2d310503f97d`. The adopted spans are R10.7:1, *Практика управления проектами*, and R10.7:2, *Практики управления процессами и управления кейсами*: project, process and case viewpoints can expose different claims about one Work.
-
-### Access to the selected Guide texts
-
-The [author/publisher's catalogue](https://system-school.ru/books) provides discovery routes for *Методология 2025* and *Системный менеджмент 2023*. It is not an archive of the selected Markdown adaptations. Those exact texts are retained under `GuidesProject/R5-R10-pedagogical-companion-md/current-editing-md/`, with their input mapping in the collection's `MANIFEST.md`; they are not bundled with this publication, and unrestricted public access to these retained copies is not established. For source replay, obtain lawful access to the named revision and use the section keys above. A later book or course text requires an affected-source comparison before replacing this basis.
 
 ## FPF dependency and compatibility
 

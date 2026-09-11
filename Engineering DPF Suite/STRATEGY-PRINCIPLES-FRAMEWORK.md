@@ -33,15 +33,15 @@ Search the Keywords & Search Queries column for the working difficulty or result
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 5 | [STR.5 - Generate Strategic Directions](#str-5) | — | *Keywords:* direction, unsettled contribution, strategic filter, beneficiaries, exclusions. *Queries:* "What could be worthwhile when no contribution is settled?" "Which proposals fit this direction?" Distinguish a provisional problem/contribution from a direction and its conditional filter. | STR.3/4 where material; DOCA.2/3 for leads and problem/contribution; adequate DOCA.4/5 results |
-| 6 | [STR.6 - Generate Option Families](#str-6) | — | *Keywords:* options, families, unknown Method, complete ways, diversity, stepping stones. *Queries:* "How can we find a credible way to obtain this contribution?" "Which alternatives are worth retaining?" Recover or construct explained whole candidates with exact gaps and carrying costs. | STR.5/8; FPF C.38, C.18 where their claims apply |
+| 6 | [STR.6 - Generate Option Families](#str-6) | — | *Keywords:* options, families, unknown Method, material development, diversity, stepping stones, target transfer. *Queries:* "How can we find a credible way to obtain this contribution?" "What can this reusable material become?" "What changes when a way meets another problem?" Recover explained whole candidates or examined continuations with gaps and carrying costs. | STR.5/8; FPF C.38, C.18 where their claims apply |
 | 7 | [STR.7 - Design Bounded Experiments and Preserve Option Diversity](#str-7) | — | *Keywords:* experiment, inquiry, evidence value, exposure, stop. *Queries:* "Will another test change this choice enough to justify its burden?" "Can current evidence settle it?" Design only a worthwhile bounded discriminating inquiry. | STR.6/8; FPF C.11, C.11.DUA; PSD.10 |
-| 8 | [STR.8 - Relate Capabilities, Dependencies, Business Models, and Initiatives](#str-8) | — | *Keywords:* capability, business model, dependencies, initiative, provider. *Queries:* "What must actually work to deliver this contribution?" "Is the gap in skill, access, organization or means?" Connect the promise to exact feasible or missing contributions. | STR.5/6; exact OCE/HCD/SYSE/OPS results; FPF E.18.NET for a needed cross-flow network |
+| 8 | [STR.8 - Relate Capabilities, Dependencies, Business Models, and Initiatives](#str-8) | — | *Keywords:* capability, business model, dependencies, initiative, provider. *Queries:* "What must actually work to deliver this contribution?" "Is the gap in skill, access, organization or means?" Connect the promise to feasible or missing contributions. | STR.5/6; OCE/HCD/SYSE/OPS results; FPF E.18.NET for a needed cross-flow network |
 
 **Part III - Compare and Commit Within Authority**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 9 | [STR.9 - Compare Robustness and Option Value](#str-9) | — | *Keywords:* robustness, regret, option value, reversal, whole cost. *Queries:* "Which option remains useful across these conditions?" "What would reverse this preference?" Compare the same question and horizon with explicit flexibility costs. | STR.6/8; PSD.12; FPF C.11.CRC when comparison is missing |
+| 9 | [STR.9 - Compare Robustness and Option Value](#str-9) | — | *Keywords:* robustness, nonlinear exposure, regret, option value, reversal, whole cost. *Queries:* "Which option remains useful across these conditions?" "What can the central estimate conceal?" "What would reverse this preference?" Compare the same question and horizon with explicit flexibility costs. | STR.6/8; PSD.12; FPF C.11.CRC when comparison is missing |
 | 10 | [STR.10 - Compare Commitments and Affected-System Consequences](#str-10) | — | *Keywords:* commitment, consequences, affected Systems, protected limits. *Queries:* "What do we expose or sacrifice by committing?" "Who bears the effects?" Compare whole commitments without compensating away a binding condition. | STR.8/9; PSD.9/11; FPF A.1.CSD, C.11.DUA where needed |
 | 11 | [STR.11 - Select Strategy, Portfolio Commitments, and Assumptions](#str-11) | — | *Keywords:* choice, portfolio, retained alternatives, joint use, authorization. *Queries:* "What is actually selected and funded?" "Can a small preparation leave the larger direction open?" Separate recommendation, membership use and bounded commitment. | STR.9/10; PSD.10; FPF C.11, G.5 for the applicable set use |
 
@@ -51,8 +51,8 @@ Search the Keywords & Search Queries column for the working difficulty or result
 | :--- | :--- | :--- | :--- | :--- |
 | 12 | [STR.12 - Observe Signals and Pivot, Pause, Stop, or Continue](#str-12) | — | *Keywords:* signals, reconsideration, pivot, pause, stop, continue. *Queries:* "What does this observation change?" "Who may respond and by when?" Distinguish warning, renewed judgement and an authorized response. | STR.11; PSD.14; FPF A.10.1 for multiple changed-source uses |
 | 13 | [STR.13 - Develop and Refresh Strategy Methods](#str-13) | — | *Keywords:* methods for strategy work, practical worth, variants, provenance, reuse. *Queries:* "Which search or comparison Method is worth using here?" "Did the Method change or only its description?" Maintain the strategic repertoire; use STR.6 for the subject’s missing obtaining way. | ME.14/15; FPF G.5, G.11 for applicable selection/refresh |
-| 14 | [STR.14 - Reconcile Simultaneous Strategic Work Across Horizons and Scales](#str-14) | — | *Keywords:* simultaneous work, horizons, shared capacity, moved burden. *Queries:* "Can these commitments coexist?" "What does this local improvement displace?" Reconcile whole configurations while keeping different developing subjects and authorities distinct. | STR.8–STR.11; FPF C.32.MWA, C.11.CRC; exact realization results |
-| 15 | [STR.15 - Deliberately Continue and Change Strategy Culture](#str-15) | — | *Keywords:* culture, transmission, enactment, recognition, selection, memory. *Queries:* "What strategic practice is actually being continued or lost?" "Would a template change the real relation?" Support a bounded continuation, intervention or stop. | FPF C.36; STR.13; exact OCE/HCD contributions when needed |
+| 14 | [STR.14 - Reconcile Simultaneous Strategic Work Across Horizons and Scales](#str-14) | — | *Keywords:* simultaneous work, horizons, shared capacity, moved burden. *Queries:* "Can these commitments coexist?" "What does this local improvement displace?" Reconcile whole configurations while keeping different developing subjects and authorities distinct. | STR.8–STR.11; FPF C.32.MWA, C.11.CRC; realization results |
+| 15 | [STR.15 - Deliberately Continue and Change Strategy Culture](#str-15) | — | *Keywords:* culture, transmission, enactment, recognition, selection, memory. *Queries:* "What strategic practice is actually being continued or lost?" "Would a template change the real relation?" Support a bounded continuation, intervention or stop. | FPF C.36; STR.13; OCE/HCD contributions when needed |
 
 # Strategy Principles Framework Readme
 
@@ -64,16 +64,16 @@ These are selected examples, not a catalogue or coverage boundary. Bring the act
 
 - **Situation:** A relied-on price, capability or source claim changes.
 - **Question:** Which part of the current strategic answer depends on it?
-- **First useful result or honest blocker:** A named affected premise and a bounded continue, qualify, reconsider or no-impact conclusion; or the exact missing dependence or evidence.
+- **First useful result or honest blocker:** A named affected premise and a bounded continue, qualify, reconsider or no-impact conclusion; or the missing dependence or evidence.
 - **Start with:** [STR.2](#str-2).
 - **Stop or return:** Stop when this use has a sufficient disposition. Use A.10.1 if a source change requires discovering several actual receiving uses; it does not choose the strategy.
 
 ### STR-ENTRY-02 - Find a contribution or a way to obtain it
 
-- **Situation:** A person or organization needs a change but has no settled contribution, or knows the contribution but lacks a credible way to obtain it.
-- **Question:** What is missing: a worthwhile receiving result, or an explained obtaining way?
-- **First useful result or honest blocker:** For an unsettled contribution, a qualified or provisional problem/contribution account with the question that can change it; for an unknown way, explained candidates with their support and exact gaps.
-- **Start with:** [STR.5](#str-5) when the contribution is unsettled; [STR.6](#str-6) when a clear contribution still lacks an obtaining way.
+- **Situation:** A person or organization needs a change but has no settled contribution, knows the contribution but lacks a credible obtaining way, or has reusable material to develop into future options.
+- **Question:** Is the missing step qualifying a receiving result, explaining an obtaining way, or developing and examining usable material?
+- **First useful result or honest blocker:** A qualified or provisional problem/contribution account; explained candidates with gaps; or an examined variation with reusable material and a justified next question. These are different returns.
+- **Start with:** [STR.5](#str-5) for the receiving-problem question; [STR.6](#str-6) section 4.2 for an unknown obtaining way, section 4.4 for material development with or without a settled contribution, or section 4.5 when problems and ways must change together.
 - **Stop or return:** Reuse an adequate direction or Method. Stop at the result needed for the next decision, including a precise missing contribution. Use [STR.13](#str-13) if the strategy practitioner's search or comparison Method itself needs improvement.
 
 ### STR-CARD-01 - Move from disrupted assumptions to a bounded commitment with invalidation signals
@@ -88,7 +88,7 @@ Name the decision and changed premise. Compare plausible futures and feasible op
 
 [SensorCo's connected application](#app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection) begins with a viable device-only business and a possible new service contribution. Framing does not choose the direction. Several futures help only because they change the comparison. The four-day preparation can provide enough costing to reject a trial; inquiry is not compulsory.
 
-If a feasible, worthwhile trial remains, STR.7 bounds its question and exposure, STR.8 identifies the exact capability and permission dependencies, and STR.14 reconciles shared work. STR.9 and STR.10 compare the relevant options and commitments. STR.11 keeps the recommendation separate from the Board's four-day authorization and the still-open twelve-month direction. STR.12 identifies observations that can change a later decision in time.
+If a feasible, worthwhile trial remains, STR.7 bounds its question and exposure, STR.8 identifies the capability and permission dependencies, and STR.14 reconciles shared work. STR.9 and STR.10 compare the relevant options and commitments. STR.11 keeps the recommendation separate from the Board's four-day authorization and the still-open twelve-month direction. STR.12 identifies observations that can change a later decision in time.
 
 Reuse adequate results and enter only the missing contribution. A data-use determination cannot be replaced by an experiment. Sufficient complete costing against the service option can finish the inquiry. A larger attractive configuration does not authorize work beyond the present commitment.
 
@@ -98,11 +98,12 @@ Each pattern starts with a recognizable working situation, the useful result and
 
 Start with a known result when it is adequate for the same subject, configuration, horizon and receiving question. Follow a relation only when its missing contribution changes your answer. Read the Preface for the shared distinctions and architectural rationale; direct use does not require reading it first.
 
-The framework offers strategic Methods and teaching cases. It supplies no participant's authority, operational capability, financing or professional determination. Constructed examples are not evidence of field validation.
+The framework offers strategic Methods and teaching cases. Constructed examples are not evidence of field validation.
 
 # Preface
 
 ## STR.Preface:1 - Problem frame - Direction and commitment under changing conditions
+
 
 This language serves people making or advising strategic choices for an organization, a public service, a professional practice or another bounded System. It helps when a material change, uncertainty, new possibility or conflicting commitment makes the current direction worth reconsidering, or when a worthwhile contribution still has to be found.
 
@@ -114,11 +115,13 @@ Use a direct decision, operating or professional Method when it already answers 
 
 ## STR.Preface:2 - Problem - From attractive intentions to responsible choices
 
+
 An appealing future can conceal an unaffordable present arrangement. A forecast can conceal a consequential unknown. A list of initiatives can lack a coherent contribution, while an annual planning cycle can continue long after enough evidence supports a smaller choice. Even a complete-looking option can leave unexplained how its promised result would be obtained.
 
 The opposite failure is paralysis: uncertainty is treated as a reason to require another study before every action. The language instead asks which attainable result can change the decision and whether it is worth its full burden. A sufficient answer is useful even when a broader ambition remains unresolved.
 
 ## STR.Preface:3 - Forces - What the comparison must hold together
+
 
 Several tensions shape strategic work. Current obligations compete with development; flexibility has carrying costs; multiple feasible futures can favour different choices; and affected people may bear consequences that the decision holder does not experience. Evidence can arrive too late to help. Advice can be useful without granting authority.
 
@@ -126,21 +129,23 @@ Keep these differences visible. One numerical score cannot by itself settle conf
 
 ## STR.Preface:4 - Solution - Connect the results the question needs
 
-The four Parts group related problems for finding and reading. They are not semantic parents, levels of an organization or a prescribed order of work.
+
+The four Parts group related problems for finding and reading. They offer a reading order; actual work follows the questions and available results described below.
 
 Part I helps locate the strategic concern and uncertainty. STR.1 identifies the subject, decision and scope; STR.2 relates a material change to its actual premise; STR.3 frames the uncertainty and problem; STR.4 constructs futures that discriminate among choices. A changed source can finish at STR.2 without a new scenario exercise.
 
-Part II develops directions, possible obtaining ways and their support. STR.5 finds or qualifies a worthwhile contribution and makes a sufficiently developed direction usable as a conditional filter. STR.6 recovers or constructs explained whole options and retains useful possibilities. STR.7 selects and designs only worthwhile bounded experiments; STR.8 connects the promised contribution to capabilities, dependencies, business models and initiatives. Existing evidence can make another experiment unnecessary.
+Part II develops directions, possible obtaining ways and their support. STR.5 finds or qualifies a worthwhile contribution and makes a sufficiently developed direction usable as a conditional filter. STR.6 recovers or constructs explained whole options, develops reusable material and retains useful possibilities. Its material-development entry can precede a settled receiving contribution; its coupled entry examines ways against changed problems. STR.7 selects and designs only worthwhile bounded experiments; STR.8 connects the promised contribution to capabilities, dependencies, business models and initiatives. Existing evidence can make another experiment unnecessary.
 
-Part III connects comparison to a responsible choice. STR.9 compares robustness and option value; STR.10 examines actual commitments and affected-System consequences; STR.11 separates retained alternatives, intended joint use, advice and authorized commitments. A comparison does not allocate work, and a small authorization need not settle the larger direction.
+Part III connects comparison to a responsible choice. STR.9 compares robustness, nonlinear exposure and option value, using a qualified PSD.12 response test only when needed; STR.10 examines actual commitments and affected-System consequences; STR.11 separates retained alternatives, intended joint use, advice and authorized commitments. A comparison does not allocate work, and a small authorization need not settle the larger direction.
 
 Part IV supports revisiting and sustaining strategic practice. STR.12 turns qualified signals into bounded follow-up; STR.13 compares and maintains the strategy practitioner's Methods; STR.14 reconciles simultaneous work across horizons and scopes; STR.15 addresses actual cultural continuation and deliberate influence. Enter these directly when that is the problem, rather than repeating Parts I–III.
 
-Results connect by the content needed for the next question. A lead about a new recipient may first need a qualified problem/contribution account before STR.5 can form a direction. A direction can then support STR.6's search for whole obtaining ways. If the contribution or way is already sufficient, start from that result. If search exposes a different receiving problem, return that question rather than forcing it into the old option family. These are conditional uses, not a compulsory sequence.
+Results connect by the content needed for the next question. A lead about a new recipient may first need a qualified problem/contribution account before STR.5 can form a direction. A direction can then support STR.6's search for whole obtaining ways. Available material and a known operation can instead support direct development in STR.6 before the contribution is settled. Where problems and ways change together, the target result determines the next problem or way question. If the contribution or way is already sufficient, start from that result. If search exposes a different receiving problem, return that question rather than forcing it into the old option family. These are conditional uses, not a compulsory sequence.
 
 An adequate PSD uncertainty or robustness result can likewise be reused without repeating its analysis. A missing data permission blocks the dependent use, not every option. A material joint-capacity conflict can reopen a commitment while leaving its framing and independent evidence intact.
 
 ## STR.Preface:5 - Recognition and assurance - Understand the move, then support the claim
+
 
 Ordinary descriptions let a reader recognize a direction, option, trial or cultural practice. Recognition alone does not establish feasibility, actual performance, authority, evidence strength or cultural persistence.
 
@@ -148,11 +153,13 @@ Use the direct source and professional guidance for the claim that matters. Keep
 
 ## STR.Preface:6 - Archetypal grounding - Three unlike applications
 
+
 [SensorCo](#app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection) follows one strategic question through the language. Its four-day preparation competes with a viable device improvement; the twelve-month direction remains open. The later ninety-versus-eighty-day conflict is a different question. A reduced seventy-eight-day proposal preserves reserve and a separately costed fallback but does not establish capability or authorize its whole scope.
 
-[The professional-practice case](#app-str-02---a-professional-considering-a-new-practice) tests personal choice, livelihood and eight available hours against a twelve-hour proposal. STR.5's personal example begins earlier, before the contribution has been selected; STR.6's diagnostic example follows a search for an unknown obtaining way and stops at its exact evidence gap. [The public-service case](#app-str-03---a-public-service-under-deep-uncertainty) tests a protected access condition that a favourable average cannot cancel. These constructed cases show use and limits, not empirical effectiveness.
+[The professional-practice case](#app-str-02---a-professional-considering-a-new-practice) tests personal choice, livelihood and eight available hours against a twelve-hour proposal. STR.5's personal example begins earlier, before the contribution has been selected; STR.6's diagnostic example follows a search for an unknown obtaining way and stops at its evidence gap. Its separate synthetic-record extension develops material for a selected contribution, explores it before a contribution is chosen, and tests a transfer under changed conditions. [The public-service case](#app-str-03---a-public-service-under-deep-uncertainty) tests a protected access condition that a favourable average cannot cancel. These constructed cases show use and limits, not empirical effectiveness.
 
 ## STR.Preface:7 - Bias-Annotation - Whose contribution and whose burden?
+
 
 Corporate language can privilege commercial return, executive authority and measurable effects. A personal or public-service use may have different purposes and decision holders. Preserve those differences instead of copying SensorCo's criterion.
 
@@ -160,8 +167,9 @@ Available evidence and visible participants can hide an affected group, tacit wo
 
 ## STR.Preface:8 - Conformance Checklist - Correct use of the connected language
 
+
 - The strategic subject, receiving question, horizon and holder of the actual choice are clear.
-- An unsettled problem, a direction and an explained obtaining way remain different results; a sufficient result permits direct entry.
+- An unsettled problem, a direction, an explained obtaining way and an examined exploratory intermediate remain different results; a sufficient result permits direct entry.
 - A serious feasible rival, including continuation or stop, is not omitted to favour novelty.
 - Evidence and comparisons concern the same options, configuration and conditions.
 - Further inquiry has an attainable decision contribution worth its full burden.
@@ -175,6 +183,7 @@ These questions connect the pattern-specific answers. Reuse a qualified local re
 
 ## STR.Preface:9 - Common Anti-Patterns and How to Avoid Them
 
+
 **Strategy as a forecast deck.** A single expected future replaces comparison. Use discriminating futures only where their differences change the choice.
 
 **Experiment by default.** More activity is treated as learning. Compare the attainable answer, whole burden and a sufficient decision on current evidence.
@@ -187,11 +196,13 @@ These questions connect the pattern-specific answers. Reuse a qualified local re
 
 ## STR.Preface:10 - Consequences - What changes in practice?
 
+
 Participants can stop with a useful bounded answer, preserve meaningful alternatives and commit only what the present basis supports. A qualified negative result can save work; a small preparation can keep a larger choice open; and a timely signal can change one commitment without discarding independent results.
 
 The language requires comparison effort, source qualification and attention to shared conditions. It does not remove uncertainty or guarantee a superior outcome. Some questions remain blocked by unavailable evidence, capability or authority, and a worthwhile current course can coexist with that limit.
 
 ## STR.Preface:11 - Architectural Rationale - Why a connected repertoire?
+
 
 One linear strategic-planning cycle would simplify teaching but would force unnecessary stages on direct questions and hide simultaneous work. Fifteen independent checklists would improve retrieval but lose the dependence among contribution, capability, whole cost and commitment. The selected repertoire keeps direct entry and the explicit relations needed for a connected answer.
 
@@ -205,19 +216,35 @@ The same reasoning preserves a separate method and culture question. A method ca
 
 ## STR.Preface:12 - SoTA-Echoing - Current contributions, bounded transfers
 
+
 The language combines source contributions because they change these working choices, not because their labels form a complete theory of strategy. Current scenario and deep-uncertainty methods inform discriminating futures, robustness and timely adaptation. Dynamic-capability and entrepreneurial-judgement work keeps agility, affordable loss and capability commitments conditional. Experimentation and set-based design research informs worthwhile inquiry and selective retention.
 
 The Guides R7, R10 and R11 contribute discovery of worthwhile results and obtaining Methods, method plurality, continuous organization development, different developing subjects, revisable comparison grounds and the preservation of useful reasoning. R11 sharpens several inherited moves; it does not originate all of them. The [source-use account](#source-use-and-currentness) names the adopted contributions, serious alternatives and limits.
 
 These sources support particular Methods and choices, not an empirical claim that the whole language improves every organization. Historical anchors remain history where a later contribution is the current line for the question. Reopen a source-dependent choice when new evidence or changed conditions challenge that actual transfer.
 
-## STR.Preface:13 - Relations - Reuse exact results without transferring authority
+## STR.Preface:13 - Relations - Obtain the professional results the decision needs
 
-FPF is the common conceptual and Method basis. The four Parts are publication groupings; the STR patterns form a connected domain repertoire used in different combinations.
 
-Development Opportunity Construction and Development Direction Advising (DOCA) can supply contrasting leads, a qualified or provisional problem/contribution account, directions or reachability, according to the missing result. Its direct Methods do not require an advisory engagement; reuse an adequate supplied result. Problem Structuring and Decision Support (PSD) can supply a formulation, values, uncertainty, comparison or follow-up; Strategy retains direction and commitment. Organization Change Engineering (OCE), Operations Management (OPS), Human Capability Development (HCD), Systems Engineering (SYSE) and financial or other professional work supply their exact missing results, not generic completion certificates.
+FPF is the common conceptual and Method basis. Use the professional practice that can answer the unresolved question on which the strategic choice depends.
 
-A supplied pattern is guidance, not evidence that its result exists in the case. A result transfers only within its subject, conditions, evidence limits and receiving use. Return to the direct owner when that basis is missing; do not start every neighbouring practice for every strategic question.
+Development Opportunity Construction and Development Direction Advising (DOCA) helps find contrasting leads, explain whose problem a proposed contribution addresses, develop a direction or assess whether and how it could be reached. A provisional problem explanation can be a useful result while its support remains incomplete. These Methods can be used directly, with or without an advisory engagement.
+
+Problem Structuring and Decision Support (PSD) can provide a formulation of the decision problem, an account of the participants' values, an uncertainty analysis, a comparison of options or follow-up of an earlier choice. Use the PSD answer as an input when recommending or choosing a direction or commitment.
+
+For a proposed diagnostic service, the following questions illustrate different professional contributions. Obtain only those that can change the strategic decision.
+
+| Question the strategic choice depends on | Professional result to obtain or reuse |
+| --- | --- |
+| Can the promised service and incident response coexist with current commitments? | An Operations Management (OPS) account of the required service, usable capacity, staffing and response window. |
+| Can the organization deliver and accept the whole contribution, including an exception response? | An Organization Change Engineering (OCE) result for the selected arrangement. OCE.9 establishes the contribution and exception path under its permitted conditions, or identifies what remains unavailable. |
+| Can the intended practitioner perform meaningfully unfamiliar diagnostic work with the available support? | A Human Capability Development (HCD) result about that person's performance. HCD.12 qualifies transfer from the earlier work to the unfamiliar task; the result retains the actual assistance and conditions. |
+| Can the product or platform supply the required technical result? | A Systems Engineering (SYSE) or other qualified engineering result for the relevant configuration, function and acceptance conditions. |
+| What does the whole proposal cost and return, and can its payments be met when due? | A qualified financial comparison including provision, support, displaced work, the timing of payments and receipts, and funding conditions. |
+
+For example, missing out-of-hours incident cover in SensorCo's service proposal calls for the service, staffing and cost answers needed to compare the offer. A functioning platform leaves that support question open. STR.8 explains how to locate such a missing contribution; the professional work obtains the answer about the proposed service.
+
+A framework explains how to obtain or qualify a result. The strategic decision needs the applicable professional answer about its actual subject, conditions and horizon, with the limits of the supporting evidence. Check whether an existing answer supplies that contribution; if it does, reuse it. Otherwise ask the responsible practitioner for the missing answer, keeping any dependent commitment conditional.
 
 # Part I - Locate the Strategic Concern and Uncertainty
 
@@ -269,13 +296,15 @@ Then ask what happens if the decision is not made now. A real deadline may arise
 
 #### STR.1:4.2 - Identify the developing subject and the affected contribution
 
-Name the actual organization, segment, partnership arrangement or person whose direction may change. If people use the same word for different subjects, resolve only the distinction that changes the choice. A product's design can change while the organization remains able to supply its existing service; conversely, an unchanged product may require a different organization capability.
+Name the actual organization, segment, partnership arrangement or person whose direction may change. If participants use the same word but it is unclear whether their accounts concern the same object, establish what each expression refers to, what identifies that object and what would count as its completion or change before treating their accounts as views of one subject. Resolve only the distinction that changes the choice. A product's design can change while the organization remains able to supply its existing service; conversely, an unchanged product may require a different organization capability.
+
+When considering a next-day repair service, the dispatcher may report a customer visit complete once the journey ends, while the customer needs the equipment restored. Before relying on that completion report, distinguish the journey from the repair and use the result the promised service requires.
 
 Distinguish that subject from the means and participants whose development it may need. A more changeable product may still wait months for organizational approval; a trained specialist may still lack access or support. Ask which contribution or working condition limits the proposed direction. The answer can be a small change to how existing work is supported, not replacement of the whole organization.
 
 Inspect one level beyond the proposed boundary when a dependency could reverse the answer. Ask who supplies the capability, who receives the contribution and who bears the consequences. Include the relevant relationship without automatically making every supplier or customer part of the strategic subject.
 
-Where System identity or its boundary is genuinely unresolved, FPF A.1.SCR supplies the System-question recovery. An organizational chart, a product name or a strategy document is not enough to settle that identity. When ordinary naming already identifies the subject unambiguously, proceed without a separate ontology exercise.
+Where System identity or its boundary is unresolved, FPF A.1.SCR supplies the System-question recovery. An organizational chart, a product name or a strategy document is not enough to settle that identity. When ordinary naming already identifies the subject unambiguously, proceed without a separate ontology exercise.
 
 #### STR.1:4.3 - Distinguish the answer sought now from the later choice
 
@@ -299,9 +328,9 @@ Do not settle a value conflict by hiding it in the boundary. If two participants
 
 A usable frame lets the recipient answer five connected questions in ordinary language: whose strategy; which contribution and change; what answer is sought; for which horizon and receiving decision; and who can make the choice or supply a missing condition.
 
-For a consequential engagement, also state the current protected contribution, the exclusion that could otherwise mislead a reader and the observation that would reopen the frame. This is a content requirement for that use, not a prescribed form with a field for every possible concern.
+For a consequential engagement, also state the current protected contribution, the exclusion that could otherwise mislead a reader and the observation that would reopen the frame.
 
-Return an exact gap if the question cannot yet be bounded. “We do not know which body can authorize withdrawal from the service contract” leaves a specific next action. “Strategy is unclear” does not. Continue only to the missing result. A formed question needs no scenario exercise, experiment or commitment merely to count as complete.
+If the question cannot yet be bounded, state what prevents it. “We do not know which body can authorize withdrawal from the service contract” identifies the missing answer; “strategy is unclear” leaves the recipient to find the question again. Continue only as far as that missing answer requires. Stop when the recipient can use the bounded question for the intended next step.
 
 ### STR.1:5 - Archetypal Grounding
 
@@ -325,9 +354,8 @@ The opening question is now complete enough to begin the needed analysis. The ev
 
 A self-directed practitioner asks whether to develop a new paid service. They have eight hours per week after current commitments. An adviser offers a direction, but the practitioner alone can choose how to allocate those hours.
 
-The bounded question is whether to retain the current practice, replace a named activity or undertake a smaller exploration over the next three months without impairing the obligations that protect their livelihood. A programme that assumes six hours of study plus six hours of client development does not fit the supplied availability. That feasibility question can be answered next; there is no reason to start with a full market-scenario programme.
+The bounded question is whether to retain the current practice, replace a named activity or undertake a smaller exploration over the next three months without impairing the obligations that protect their livelihood. Six hours of study plus six hours of client development require twelve hours a week, four more than the available eight. That excludes the programme as currently specified while leaving the framed alternatives open.
 
-This transfer changes the purposes and authority. Personal consent and livelihood replace a corporate Board's investment mandate. The frame supplies no health or capability assessment.
 
 ### STR.1:6 - Bias-Annotation
 
@@ -381,7 +409,7 @@ Framing is separate from uncertainty analysis because a clear question may alrea
 
 STR.2 traces a changed observation to the premise and strategic use it affects. STR.3 compares materially different framings. STR.5 constructs directions once that contribution is needed; STR.11 distinguishes the eventual supported recommendation from authorized commitment.
 
-FPF A.1.SCR helps recover an unresolved System question. PSD.1 supplies generic engagement and authority-boundary work; DOCA.7 helps govern a distinct development-advising relationship. Reuse their results when they answer the actual question. None of those references supplies project-specific authority by itself.
+FPF A.6.P helps recover the concrete objects and claims hidden by shared wording; A.1.SCR helps recover an unresolved System question when that separate question matters. PSD.1 supplies generic engagement and authority-boundary work; DOCA.7 helps govern a distinct development-advising relationship. Reuse their results when they answer the actual question.
 
 ### STR.1:End
 
@@ -395,7 +423,7 @@ FPF A.1.SCR helps recover an unresolved System question. PSD.1 supplies generic 
 
 Use this pattern when a price, customer behaviour, capability, constraint, strategic objective or relied-on source has changed and someone asks, “Does this change our strategy?” The strategy practitioner connects the change to the premise and choice it can actually affect.
 
-Begin with the old premise and the changed fact, claim or comparison basis, not a list of all strategic topics. Ask which direction, option or commitment would be different if the premise no longer held. The first useful result is a bounded impact judgment: continue, qualify the premise, reopen the affected choice or return the exact missing evidence.
+Begin with the old premise and the changed fact, claim or comparison basis, not a list of all strategic topics. Ask which direction, option or commitment would be different if the premise no longer held. The first useful result is a bounded impact judgment: continue, qualify the premise, reopen the affected choice or return the missing evidence.
 
 The gain is proportionate reconsideration. A material change receives attention where it matters, while unrelated decisions remain usable. A new presentation, publication date or source address does not by itself require a strategy exercise.
 
@@ -441,7 +469,7 @@ Ask which decision relied on the premise and how. Inspect the actual proposal, c
 
 For one already known use, complete that direct comparison. When a changed source may have several partly unknown uses, use FPF A.10.1 to discover actual reliance within a stated receiving-use boundary. It distinguishes source-based discovery from inspection of receivers that may use the premise without a citation. STR.2 then supplies the strategic judgment for the affected uses; it does not repeat the general source-discovery method.
 
-A practical boundary might be “the two renewal decisions and the service proposal due at this Board meeting”. It need not be the company's entire information estate. A no-impact conclusion cannot reach beyond the uses for which its evidence is adequate.
+A practical boundary might be “the two renewal decisions and the service proposal due at this Board meeting”. A no-impact conclusion cannot reach beyond the uses for which its evidence is adequate.
 
 #### STR.2:4.3 - Compare the consequence, not merely the signal
 
@@ -457,13 +485,13 @@ Use an existing forecast, cost calculation or qualified professional determinati
 
 State the effect in the language of the receiving choice. For example: “Do not use the old price in the proposed expansion comparison; current contracted service remains funded under the supplied conditions.” This is more useful than marking the entire strategy red.
 
-When another participant needs to rely on the return, include the observation, the affected premise, the decision and consequence, the evidence limit and the next necessary action. Do not create a common register if the direct result already answers the request.
+When another participant needs to rely on the return, include the observation, the affected premise, the decision and consequence, the evidence limit and the next necessary action.
 
 Keep recommendation and authority separate. Finding that a premise failed can justify advising a pause; it does not grant the analyst permission to cancel an obligation. A service owner may have an established stopping authority, while a Board retains the choice of a new direction. STR.12 connects a later signal to those actions.
 
 #### STR.2:4.5 - Preserve unaffected work and stop
 
-Stop when the bounded receiving question has a supported disposition or an exact limitation. Follow another dependency only if its result or action could change. A mention of the affected proposal is not enough.
+Stop when the bounded receiving question has a supported disposition or a limitation. Follow another dependency only if its result or action could change. A mention of the affected proposal is not enough.
 
 State a useful reopening observation where uncertainty remains: a signed customer term, completed cost component, relevant delivery confirmation or an agreed observation of capacity. The observation needs a receiving decision and useful timing; it is not a request to monitor every available indicator.
 
@@ -628,7 +656,7 @@ Check whether existing evidence already answers it. When new inquiry would be us
 
 #### STR.3:4.5 - Return the formulation and the useful next branch
 
-Return the strategic question, material rival formulations, shared and disputed premises, supported claims and exact unresolved questions. State why each retained contrast changes the next work. Ordinary notes are enough when they preserve this reasoning for the recipient.
+Return the strategic question, material rival formulations, shared and disputed premises, supported claims and unresolved questions. State why each retained contrast changes the next work. Ordinary notes are enough when they preserve this reasoning for the recipient.
 
 Use STR.4 when different future conditions change the choice; STR.5 when a different contribution calls for new directions; or STR.9 when a sufficient option set and comparison basis already exist. If a known constraint excludes the proposed commitment under every retained formulation, return that constraint and any viable narrower action. Reframing need not become a scenario workshop.
 
@@ -730,7 +758,7 @@ Do not undertake a scenario exercise when a sufficient current comparison or a j
 
 ### STR.4:2 - Problem
 
-Several beautifully named futures can imply the same action. Their narrative variety hides the absence of decision-useful diversity. Another set may be genuinely different but combine incompatible assumptions, such as unrestricted customer-data reuse and a restriction that makes that reuse unavailable.
+Several beautifully named futures can imply the same action. Their narrative variety hides the absence of decision-useful diversity. Another set may be different but combine incompatible assumptions, such as unrestricted customer-data reuse and a restriction that makes that reuse unavailable.
 
 A particularly tempting error turns a preferred future into the baseline and treats the others as deviations. The preferred direction then appears resilient because the scenario set was built around its success. Counting scenarios or assigning equal probabilities does not repair the bias.
 
@@ -768,6 +796,12 @@ Then challenge the account. Could the proposed sequence occur within the time av
 
 If one uncertain mechanism carries the choice, request its qualified domain answer or retain conditional branches. The scenario's explanatory role does not substitute for that answer.
 
+When another participant's choice can change the comparison, connect each serious own move to that participant's possible responses. State who chooses, what they can observe before choosing, the actions then available, and the supported or hypothetical preferences and constraints. Include the timing and means of any further response of your own. Reuse an adequate current response account; no separate interaction model is needed when such responses cannot change the present choice.
+
+Obtain the qualified game-theoretic or other behavioral result needed for this mechanism. Use a sufficient direct result without building another model account; use PSD.5 when complementary or conflicting model contributions need to be chosen and connected for this question. In a finite sequential model with complete and perfect information, backward induction can resolve later choices before earlier ones. Its relevant common-knowledge and sequential-rationality assumptions must apply: each mover compares outcomes by their own preferences at each possible decision, including contingencies outside the proposed outcome path. Retain materially different tied continuations unless a justified tie-breaking rule resolves them. Return the resulting conditional action profile with its premises, not just a preferred final score.
+
+A declaration alone does not establish the response. If preferences, information, available actions or behavior remain unknown, keep the consequential response branches or request the missing determination. A modelled best response is not an observation or assurance that the participant will behave that way. Simultaneous moves or incomplete information need their appropriate Method, not this sequential calculation by analogy.
+
 #### STR.4:4.4 - Test diversity by its strategic consequences
 
 Compare the conditions against the serious directions or option families. Ask which one becomes preferable, inadmissible, too late or dependent on a different capability. Keep a scenario when that difference matters. Combine redundant stories unless their different mechanisms require different observation or response.
@@ -778,7 +812,7 @@ Look for a consequential failure common to the options. If every expanding direc
 
 #### STR.4:4.5 - Return the usable set and its limits
 
-For each scenario, retain the conditions, mechanism, consequential assumptions and implication for the strategic question. Also state what the set leaves outside. A short comparison with explanatory paragraphs can carry this result; a bespoke scenario repository is unnecessary.
+For each scenario, retain the conditions, mechanism, consequential assumptions and implication for the strategic question. Also state what the set leaves outside. A short comparison with explanatory paragraphs can carry this result.
 
 Name the observations that would make a condition more or less relevant, and whether they could arrive in time to change the decision. STR.12 can later connect actual observation to reconsideration and authorized action. A scenario signal is not yet a standing monitoring assignment.
 
@@ -811,6 +845,26 @@ A procurement notice that only delays one customer by a week does not establish 
 An adviser presents “rapid digitalization” and “AI everywhere” as different futures for a professional's next-year practice. Both assume the same clients, available time, tools and willingness to pay; neither changes a direction or inquiry. Their names add no useful diversity.
 
 If one instead introduces a client requirement for human accountability that changes the delivery arrangement, the distinction becomes material. The practitioner retains that condition and its basis, rather than collecting more titles.
+
+#### STR.4:5.3 - A provider's promise can leave its later choice unchanged
+
+An independent workshop is considering integration with a provider's interface. In this constructed case, it can continue its current arrangement or integrate; after observing integration, the provider can maintain or restrict that interface. Assume these are the complete alternatives for the question, actions and preferences are known to both participants, prior moves are observed, and the sequential-rationality and common-knowledge assumptions of the model apply.
+
+The indices below only order each participant's own outcomes. They are not money, probabilities or comparable value between participants.
+
+| Complete path in the current arrangement | Workshop's preference index | Provider's preference index |
+| --- | ---: | ---: |
+| Continue the current arrangement | 0 | 1 |
+| Integrate; provider maintains the interface | 6 | 2 |
+| Integrate; provider restricts the interface | −2 | 4 |
+
+Begin with the provider's later decision. Under these premises, restriction is preferable to maintenance for the provider: 4 exceeds 2. The workshop therefore compares integration's induced −2 with continuation's 0, not with the favourable 6. A prior announcement that the provider will maintain the interface leaves its available actions and the stipulated preferences unchanged. Taking that announcement as a fixed future would reverse the workshop's answer without establishing the premise.
+
+Now consider a different arrangement. Qualified technical and rights determinations establish that an independently usable interface can be transferred before integration, removing this provider restriction action throughout the required window. A separately supplied full-consequence account, including the transfer's burden and lost useful freedom, orders the resulting workshop/provider outcomes at 5 and 2. That conditional arrangement can support integration instead of continuation under the model. It remains a candidate until the provider agrees, the transfer is effective, the necessary permissions obtain and the other dependent conditions are met.
+
+An announced future transfer or an installed client does not establish those conditions. If restriction remains possible, examine the original response again. If the provider's preferences or information are unknown, restriction remains a relevant conditional case rather than a prediction of its behavior. Neither a favorable calculation nor the workshop's authority establishes the provider's agreement or a usable interface.
+
+STR.9 compares the options with their induced responses. STR.10 compares the changed arrangement with its actual burden and authority conditions. Reuse a sufficient current response account instead of rebuilding this example for an already answered decision.
 
 ### STR.4:6 - Bias-Annotation
 
@@ -856,13 +910,15 @@ Causal explanation and decision discrimination do different work. The former mak
 
 For **choice when model or future agreement is unavailable**, adapt the robust-decision line discussed by [Lempert and colleagues in 2024](https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2024.1380054/full): preserve consequential conditional information and examine failures across futures. This changes section 4.4's shared-failure question and section 4.5's qualified return. Its climate-assessment setting supplies methodological support with a transfer limit; it does not establish probabilities for SensorCo.
 
+**Could another participant's response defeat our move?** Use backward induction only where its finite, complete/perfect-information model and rationality assumptions fit the question. Muhamet Yildiz's 2012 notes, reused in [MIT's Fall 2025 course](https://ocw.mit.edu/courses/14-12-economic-applications-of-game-theory-fall-2025/lists/lecture-notes/), explain the later-to-earlier comparison and commitment contrasts in [chapter 9, sections 9.1–9.5](https://ocw.mit.edu/courses/14-12-economic-applications-of-game-theory-fall-2025/mit14_12f12_chapter9_f12.pdf), with subgame and information-structure limits in [chapter 11, section 11.1](https://ocw.mit.edu/courses/14-12-economic-applications-of-game-theory-fall-2025/mit14_12f12_chapter11_f12.pdf). This established Method informs section 4.3 and the provider case; current teaching reuse is not empirical evidence that real participants obey the model. A sufficient existing response account is the lower-effort alternative. Different information or behavioral premises require an appropriate qualified result.
+
 Reopen this choice of method when a new mechanism defeats coherence, a new condition changes action, a sufficient forecast becomes available or maintaining the set costs more than its attainable decision contribution.
 
 ### STR.4:12 - Relations
 
 STR.3 supplies decision-relevant formulations when framing is unresolved. STR.4's conditions can change STR.5's directions, STR.6's option families and STR.9's robustness comparison. None requires completing these patterns in number order.
 
-STR.8 and STR.14 address capability and joint-work conditions exposed by a scenario. STR.12 uses timely observations to support later reconsideration. FPF C.17 supports a claimed difference relative to a stated basis; PSD.10 supports an uncertainty representation when the scenario's qualification needs it.
+STR.8 and STR.14 address capability and joint-work conditions exposed by a scenario. STR.12 uses timely observations to support later reconsideration. FPF C.17 supports a claimed difference relative to a stated basis; PSD.5 connects complementary or conflicting model contributions when that account is needed, and PSD.10 supports an uncertainty representation when the scenario's qualification needs it. A direct game-theoretic or behavioral determination remains with its appropriate professional Method.
 
 ### STR.4:End
 
@@ -878,7 +934,7 @@ STR.8 and STR.14 address capability and joint-work conditions exposed by a scena
 
 Use this pattern when the current direction no longer answers the strategic concern, when promising ideas do not yet express different contributions, or when something should change but the worthwhile contribution is still unknown. Ask where the person or organization could contribute, to whom, and through what capability and resource logic.
 
-A strategic direction explains a contribution to pursue and the reasons for pursuing it. It guides later choices as a conditional filter: which proposals fit, which do not, and which need a missing answer. Its working result here is a set of genuinely different proposed directions, with enough substance to compare or develop them. If the receiving problem is still unconfirmed, the first useful return can instead be a provisional problem and contribution with the question that would confirm, change or reject it. That is not yet a complete direction, and neither result is a funded programme.
+A strategic direction explains a contribution to pursue and the reasons for pursuing it. It guides later choices as a conditional filter: which proposals fit, which do not, and which need a missing answer. Its working result here is a set of different proposed directions, with enough substance to compare or develop them. If the receiving problem is still unconfirmed, the first useful return can instead be a provisional problem and contribution with the question that would confirm, change or reject it. That is not yet a complete direction, and neither result is a funded programme.
 
 The practical gain is to distinguish “what might be worth pursuing” from a list of attractive activities. A new platform, training programme and customer visit may support one direction; listing them separately does not produce three directions.
 
@@ -1052,9 +1108,9 @@ DOCA.2 supplies contrasting development leads when the contribution is still uns
 
 ### STR.6:1 - Problem frame
 
-Use this pattern when a strategic direction is clear enough to explore but no credible way of obtaining its contribution is yet known, or when the available list mixes slogans, tools, partial initiatives and possible courses of action. Start from the contribution one option must obtain. Recover or construct explained ways to obtain it, then make them complete enough for the receiving comparison.
+Use this pattern when a strategic direction is clear enough to explore but no credible way of obtaining its contribution is yet known, when the available list mixes slogans, tools, partial initiatives and possible courses of action, or when reusable exploratory material needs development into future options. For a selected contribution, recover sufficient existing ways or fill the missing obtaining explanation in section 4.2. When an operation and usable material are already available, enter section 4.4 directly, with or without a settled receiving contribution: make an examinable change and preserve what could support a further use.
 
-An option family groups possible courses that share a strategic contribution while differing in a choice-relevant way: for example provision arrangement, scope, timing or reversibility. The working result is a set of complete-enough alternatives, explicit gaps and justified retained possibilities. It gives the next comparison something real to compare without committing to every candidate.
+An option family groups possible courses that share a strategic contribution while differing in a choice-relevant way: for example provision arrangement, scope, timing or reversibility. The working result is a set of complete-enough alternatives, explicit gaps and justified retained possibilities, or an examined intermediate with the next receiving question still open. A complete-enough family gives the next comparison something real to compare without committing to every candidate.
 
 A viable current course can belong in the comparison. A promising intermediate possibility can be retained for a later use without being ready for today's choice. These are different reasons for keeping an option.
 
@@ -1076,13 +1132,13 @@ Existing means can make an option affordable, while a new user need or better me
 
 ### STR.6:4 - Solution
 
-Construct whole alternatives within a stated strategic question. Preserve the difference between candidates fit for the present comparison, intermediate possibilities retained for a reason and courses actually selected for joint use.
+Construct whole alternatives for a stated strategic question, or develop reusable material until its next contribution can be examined. Preserve the difference between candidates fit for the present comparison, intermediate possibilities retained for a reason and courses actually selected for joint use.
 
 #### STR.6:4.1 - Define the family by its receiving contribution
 
 Use a direction from STR.5 or another sufficient source. State the result, recipient, situation, horizon and conditions that an option in this family must address. Recover continuing obligations and the decision the family will inform.
 
-Make the common basis real. A platform, an available service and a person's capability are not the same result. If each is only part of obtaining the desired customer contribution, put it inside a whole option. If the proposals genuinely pursue different contributions, retain different families and explain the higher-level strategic question under which they can later be compared.
+Make the common basis real. A platform, an available service and a person's capability are not the same result. If each is only part of obtaining the desired customer contribution, put it inside a whole option. If the proposals pursue different contributions, retain different families and explain the higher-level strategic question under which they can later be compared.
 
 #### STR.6:4.2 - Find and explain complete ways
 
@@ -1092,7 +1148,7 @@ If the way is unknown, search through the result and missing change, including n
 
 Propose the missing connecting action and explain why it could close that gap. Separate the source-supported operation from the new inference and name a plausible answer that would defeat the inference. A useful candidate might connect existing records before a known comparison can discriminate rival explanations. It remains a proposed Method until its own support is established; an analogy is not proof that it works here.
 
-Follow an unresolved constituent contribution further only when a difference in how it is obtained could change the whole way's result, feasibility or burden. The answer may be an existing professional Method, an external contribution or another bounded construction question. Stop detailing where qualified existing results suffice for the next decision, or return the exact missing Method or support question. This is no fixed-depth decomposition exercise, and nesting a description does not by itself establish formal Method composition. If the search changes which contribution is worthwhile, return that finding to STR.5.
+Follow an unresolved constituent contribution further only when a difference in how it is obtained could change the whole way's result, feasibility or burden. The answer may be an existing professional Method, an external contribution or another bounded construction question. Stop detailing where qualified existing results suffice for the next decision, or return the missing Method or support question. If the search changes which contribution is worthwhile, return that finding to STR.5.
 
 Describe how each serious option could obtain the contribution. Name the proposed performer and means, how the result reaches its user, what makes it acceptable and what happens when ordinary provision fails. Include access, support, recovery and exit when their omission could change the choice.
 
@@ -1112,9 +1168,18 @@ Separate retaining an explanation from retaining a capability to act. Keeping re
 
 #### STR.6:4.4 - Retain diversity for a stated future use
 
+When a useful next possibility requires developing material, begin with something that can actually be changed: for example an editable design, a working operation with its inputs, or a retained intermediate result. Recover the conditions and permitted use needed for that change. An already selected contribution guides the examination; an unsettled receiving contribution does not prevent a bounded exploration of the material.
+
+1. Choose a feasible variation, recombination or different use and apply the relevant professional operation. State what it changes and what can be examined. If that operation is unknown, return to the bounded obtaining question in section 4.2; a proposed variation is not its performed result.
+2. Examine the resulting difference against the question and protected conditions. Keep intended properties separate from observed ones. A useful unexpected difference can support another continuation even when the variant is worse for today's comparison.
+3. Preserve the actual reusable material and the settings, inputs or explanation needed for the justified next use. Include a failed or mixed result when it changes the next question. Preserve the original material when comparison or recovery needs it.
+4. Compare further work, inexpensive retention and stopping against the full burden and displaced work. Keep only the continuations that warrant that burden; there is no obligation to test every variant.
+
+The first result is an examined variation and a usable continuation, or a justified stop. If the variation suggests a different receiving problem, return that question to STR.5 or the needed DOCA.3 inquiry. Until the contribution is qualified, the retained material is not yet a complete option family. Use section 4.5 when constructing problems and trying ways across them are both needed. An adequate existing way can be reused without entering either search.
+
 Keep a possibility when its difference can matter to a plausible later choice, reveal a useful new region of the search or support another attainable option. State that reason and the conditions under which it expires. A stepping stone is a possibility retained because it may enable a later contribution; it need not be today's best option.
 
-Distinguish three questions before using an archive or front claim. What is worth retaining for exploration? Which candidates are currently non-dominated under a stated comparison? What should the chooser select? FPF C.18 governs the archive and front records when those exact claims matter; C.17 supports a claimed difference; C.11 governs local choice. A front does not answer the other two questions.
+Distinguish three questions before using an archive or front claim. What is worth retaining for exploration? Which candidates are currently non-dominated under a stated comparison? What should the chooser select? FPF C.18 governs the archive and front records when those claims matter; C.17 supports a claimed difference; C.11 governs local choice. A front does not answer the other two questions.
 
 For ordinary small-set work, explain the alternatives and retention reasons directly. Do not claim a formal archive, front or dominance result merely because the notes have several rows. Nor does a retained set become a jointly funded portfolio.
 
@@ -1124,13 +1189,19 @@ Stop carrying a possibility when its plausible continuation no longer warrants t
 
 A new beneficiary, result, constraint, means or useful characteristic may make the old family boundaries inadequate. Identify what changed and regenerate only the affected alternatives. Keep the reason the earlier set was adequate for its earlier question.
 
+Enter coupled problem-and-way search directly when several working problems and available ways need development together. State each problem's required result and protected conditions. Construct a few meaningful changes in the recipient, operating conditions, demanded result or available means; explain why each changed problem is valid and how its difficulty can be examined. A conjectured opportunity still needs its receiving problem qualified.
+
+Recover or develop ways through section 4.4. Where a way from one problem could help another, apply it, or a justified adaptation, to material from the target problem. Examine the target's own required result and conditions. Keep successful, failed and mixed transfers distinct; a source success does not settle the target.
+
+Use that result to choose the next problem or way change: recover a missing target condition, narrow the requested result, revise the operation or stop the unsupported transfer. Return the examined problem–way combinations and the next answer-changing question. Try only transfers whose attainable contribution warrants their burden. If an existing way already answers the fixed target problem adequately, use it without generating more problems.
+
 Searching more densely within a fixed set of characteristics is different from changing what results and differences count. Use C.18's possibility-space distinctions when the project makes an open-ended-search claim. In ordinary work, the practical consequence is simpler: a newly relevant customer-local result can warrant a new family rather than a lower score for the old cross-customer offering.
 
 #### STR.6:4.6 - Return the set with its truthful next use
 
-Return the complete-enough options for the present comparison, the gaps that limit each, and any separately retained possibilities with their reasons and carrying conditions. State whether the candidates are alternatives or are intended to be examined for joint use. Selection and work commitments follow their own comparison and authority.
+Return the complete-enough options for the present comparison, the gaps that limit each, and any separately retained possibilities with their reasons and carrying conditions. An exploratory return may instead be the examined material, what it supports and the next problem question; do not invent a complete family when its contribution remains unsettled. State whether the candidates are alternatives or are intended to be examined for joint use. Selection and work commitments follow their own comparison and authority.
 
-Use STR.9 for robustness and option value, STR.10 for commitment consequences, or STR.7 for a proposed inquiry whose worth is unresolved. A missing required right can block one option without blocking the remaining comparison. If no complete alternative can answer the contribution, return the exact gap or reopen STR.3/STR.5 rather than manufacturing a token rival.
+Use STR.9 for robustness and option value, STR.10 for commitment consequences, or STR.7 for a proposed inquiry whose worth is unresolved. A missing required right can block one option without blocking the remaining comparison. If no complete alternative can answer the contribution, return the gap or reopen STR.3/STR.5 rather than manufacturing a token rival.
 
 Stop generation when the current set supports the named next decision and further differences would not justify their construction cost. Reopen only for a change that can alter that use.
 
@@ -1176,9 +1247,53 @@ The team therefore refines this one constituent contribution: can the permitted 
 - A SensorCo diagnostic specialist would link the permitted records, compare suitable error and non-error cases against the rival explanations, and return a source-traceable account of what is supported, excluded and unresolved. A qualified check, response to missing records and closure of the bounded engagement belong in this way.
 - A qualified customer-local investigator would perform that linking and comparison without exporting the records; SensorCo would supply the needed interpretation of its record fields, and the participants would check the same promised account and resolve or report exceptions. Availability, responsibilities and complete burden remain to be established.
 
-The first result is these two explained candidates and the exact gap about recoverable setup conditions, not a diagnosis, available capability or authorized investigation. That gap can support comparison of a bounded records inquiry with other ways, narrowing the requested result or stopping; STR.7 determines whether additional inquiry is worthwhile when that is unresolved. A negative records answer limits these candidates rather than proving that no diagnostic Method exists.
+The first result is these two explained candidates and the gap about recoverable setup conditions, not a diagnosis, available capability or authorized investigation. That gap can support comparison of a bounded records inquiry with other ways, narrowing the requested result or stopping; STR.7 determines whether additional inquiry is worthwhile when that is unresolved. A negative records answer limits these candidates rather than proving that no diagnostic Method exists.
 
 The team does not rank this diagnostic account, a year of service and a software licence as equivalent deliveries. They may later be compared as directions under a common purpose with their different contributions explicit. Finding the diagnostic possibility neither changes the service family's existing four-day preparation limit nor grants data reuse rights.
+
+#### STR.6:5.4 - Developing the diagnostic material
+
+The following constructed replays extend the diagnostic question in section 5.3. They use separately permitted synthetic records, an available linking operation and an available operation for changing the output view. The exercise has its own bounded allocation; the customer's earlier purpose-limited records and the service family's four-day preparation are not inputs or permissions for it. The examples illustrate the search actions, not a qualified diagnostic product.
+
+The linking operation groups cases by a recoverable setup reference and can report unmatched records separately. For this small source question, a stipulated specialist account establishes which setup groups are comparable. Missing setup references remain unknown.
+
+| Case | Inspection outcome | Setup | Time |
+| --- | --- | --- | --- |
+| E1 | Error | S1 | 09:00 |
+| N1 | Acceptable | S1 | 09:05 |
+| E3 | Error | Unknown | 09:40 |
+| E2 | Error | S2 | 10:00 |
+| N2 | Acceptable | S2 | 10:05 |
+| N3 | Acceptable | Unknown | 11:15 |
+
+##### STR.6:5.4.1 - Develop a variation for the selected contribution
+
+The diagnostic contribution remains selected. The team applies two output variants to the six records. A returns the comparable error/acceptable pairs E1–N1 and E2–N2. B returns those pairs and retains E3 and N3 with their source times and missing-reference flags. The difference can be inspected in the output; it is not a claim that either variant explains the errors.
+
+A supplied planning estimate gives B five minutes more review work than A. Retaining B's small output and its linking rule is nevertheless worthwhile for one identified continuation: determining whether setup records for 09:40 and 11:15 can recover the missing conditions. The preserved material makes that question specific. It does not make B preferable for every comparison or allocate the later records inquiry. Another practitioner also needs permitted inputs and the capability to carry out that inquiry.
+
+If the existing pairs already provide an adequate specialist answer to the current question and the missing intervals cannot change it, use that answer. Do not construct B merely to enlarge the retained set.
+
+##### STR.6:5.4.2 - Develop material before choosing its receiving contribution
+
+Suppose instead that no diagnostic or other customer contribution has been selected. The team has the same permitted synthetic material and a current question about what a different view reveals. It changes a matched-pair-only view into a complete time-ordered view with missing-reference flags. The new view preserves the two previously omitted cases; 09:40 lies between the known S1 and S2 records, while 11:15 follows the last known setup.
+
+The team retains the view, inputs and settings because they permit a bounded investigation of record completeness. That examined difference suggests a possible operator-support contribution, which goes to STR.5 for its recipient, need and value question. It establishes neither a customer demand nor a cause of inspection errors. The search could also finish with no worthwhile continuation; a settled ultimate destination is not needed for this limited result.
+
+##### STR.6:5.4.3 - Change the problem and examine transfer
+
+A target question now asks for a comparison under changed temperature conditions. Its supplied specialist account requires the same setup and temperature regime for comparable cases.
+
+| Target case | Inspection outcome | Setup | Temperature regime |
+| --- | --- | --- | --- |
+| T1 | Error | S1 | Warm |
+| T2 | Acceptable | S1 | Cool |
+| T3 | Error | S2 | Warm |
+| T4 | Acceptable | S2 | Warm |
+
+Reusing the setup-only grouping would pair T1 with T2 and T3 with T4, but the first pair fails the target condition. The team uses the available filtering operation to add the temperature regime to the grouping. This proposed adaptation returns one eligible pair, T3–T4, and no eligible pair for S1. The operation's availability does not qualify the whole adapted diagnostic way.
+
+The mixed result changes the next problem. A bounded comparison of S2 in the warm regime can continue if it answers a useful question. The broader S1 explanation instead needs comparable target cases or a narrower demanded result. Because the temperature regimes differ, T1–T2 cannot support the required same-condition comparison. The team retains that failed transfer with its condition and asks only the missing target question worth pursuing. It has neither diagnosed the errors nor shown that the original linking way is useless in its source conditions.
 
 ### STR.6:6 - Bias-Annotation
 
@@ -1188,12 +1303,14 @@ Generation can also overfit to the current comparison characteristics. Invite a 
 
 ### STR.6:7 - Conformance Checklist
 
-- Each family states its common contribution and receiving decision.
-- Search returns an explained Method with its support and limits, distinguishes any new connecting inference, or names the exact missing-Method question.
+- Each family states its common contribution and receiving decision; an exploratory intermediate preserves the unsettled receiving question.
+- Search returns an explained Method with its support and limits, distinguishes any new connecting inference, or names the missing-Method question.
 - Options are complete enough to expose material delivery, support, resource and exit differences.
 - Supported, proposed and unknown premises remain distinguishable.
 - The same consequential burden questions are asked of comparable options.
 - Shared dependencies and conditions of exercise are visible.
+- Material development distinguishes the performed variation, examined difference and usable continuation from a proposal or retained description.
+- A cross-problem transfer is judged on the target conditions and changes the next problem or way question only as its result supports.
 - Retained possibilities have a reason, carrying cost and relevant expiry or reopen condition.
 - Archive value, non-domination, selection and actual joint commitments are not conflated.
 - A sufficient set, precise gap or justified stop can finish the work without another experiment.
@@ -1228,15 +1345,17 @@ Grouping by contribution makes comparisons fair without requiring every strategi
 
 For **finding an unknown way**, adapt R7's *Theory of Strategizing*: recover the desired change, seek an existing or neighboring Method, explain a candidate obtaining relation and refine it only far enough for the receiving decision. R11.4:19–20 and R11.10:1/:5–6 sharpen the separation between problem discovery, way generation, comparison and execution. Sections 4.2 and 5.3 make that search usable without treating every idea as supported or requiring novelty when an adequate Method exists. Neighboring search is a useful source of candidates, not a claim that all Methods necessarily originate outside the practice.
 
+For **developing material into further possibilities**, adapt the branching actions in R7/R10 and distinguish two computational demonstrations: [DGM's fixed-task branching, v3 §3](https://arxiv.org/html/2505.22954v3#S3), and [POET's problem generation and target-tested transfer, v3 §§3 and 6](https://arxiv.org/html/1901.01753v3). Sections 4.4–4.5 use actual variation, examination and usable continuation, with a separate entry when problems and ways change together. These are domain adaptations, not evidence that a computational demonstration validates human creativity. Scores and archive policies do not perform generation, and neither source makes novelty a guarantee of a useful strategic result.
+
 For **comparable completeness**, adopt C.38's same-result formation where label-based options are incomplete, and use a sufficient direct domain comparison when it is cheaper. This changes section 4.2 and the two whole SensorCo ways. C.18 supplies the separate archive/front semantics when those claims are actually made. R7's stepping-stone and continuing-development contribution, sharpened by R11's search-memory distinctions, informs section 4.4's retained intermediate possibilities; it does not require funding them.
 
 Reopen this combination when a carrying cost, shared dependency, exercise delay or changed result makes the retained diversity less useful than a narrower set, or when early commitment would destroy a worthwhile attainable continuation.
 
 ### STR.6:12 - Relations
 
-STR.5 supplies a direction or receives a newly exposed problem/contribution question; STR.6 returns explained option families, precise obtaining gaps and qualified retention reasons. STR.13 is used when the Method for performing the strategic search itself needs improvement, not merely because the subject's delivery Method is unknown. STR.8 answers a missing support question, STR.9 compares robustness and flexibility, STR.10 compares commitments, and STR.14 examines simultaneous demands. STR.7 is used only for a worthwhile proposed experiment or retention decision.
+STR.5 supplies a direction or receives a newly exposed problem/contribution question; DOCA.3 supplies the needed problem inquiry. STR.6 returns explained option families, precise obtaining gaps, examined exploratory material or target-transfer results with qualified continuation reasons. STR.13 is used when the Method for performing the strategic search itself needs improvement, not merely because the subject's delivery Method is unknown. STR.8 answers a missing support question, STR.9 compares robustness and flexibility, STR.10 compares commitments, and STR.14 examines simultaneous demands. STR.7 is used only for a worthwhile proposed experiment or retention decision.
 
-FPF C.38 supplies whole same-result candidate formation. C.17 characterizes a supported difference, C.18 governs archive/front claims, and C.11 governs local choice. G.5 declares a selected-set result when that exact downstream use is needed; none of these results alone commits resources.
+FPF C.38 supplies whole same-result candidate formation. C.17 characterizes a supported difference, C.18 governs archive/front claims, and C.11 governs local choice. G.5 declares a selected-set result when that downstream use is needed; none of these results alone commits resources.
 
 ### STR.6:End
 
@@ -1270,7 +1389,7 @@ Preserving several possibilities can protect future choice but incurs carrying c
 
 ### STR.7:4 - Solution
 
-Compare inquiry with the feasible alternatives before designing a trial. For a worthwhile experiment, make the decision link, full burden and protected boundary operational. Return the design, a sufficient non-experiment answer or the exact obstacle.
+Compare inquiry with the feasible alternatives before designing a trial. For a worthwhile experiment, make the decision link, full burden and protected boundary operational. Return the design, a sufficient non-experiment answer or the obstacle.
 
 #### STR.7:4.1 - State the decision and the claim the experiment could change
 
@@ -1296,11 +1415,29 @@ Name the serious rival to experimenting now. It may be continued operation, a sm
 
 Keep retention separate from testing. Preserving a short account of an unchosen direction is different from paying to retain its capability, contract or interface. STR.6 supplies the retention reason and exercise conditions; STR.9 can compare the resulting flexibility. A stepping stone can remain untested until its next contribution warrants work.
 
-When formal archive, pool treatment or selected-set claims are current, use C.18, C.19 or G.5 for the corresponding result. Their search policy or membership does not authorize an experiment.
+If the question requires an explicit policy for a still-live collection of exploration lines, use C.19 to decide which remain worth exploring, which warrant retention without new tests and which no longer warrant a place in that collection. State the chosen policy, its intended contribution and comparison basis, and the change that would justify reconsideration. This answers the continuing search-policy question; sections 4.1–4.2 compare the worth of one proposed experiment.
 
 #### STR.7:4.4 - Design the smallest experiment that can supply the useful answer
 
+Start from the needed observation and work backwards to what must actually be offered, used or performed. Choose a form that preserves those conditions with the least full burden. A minimum viable test is the smallest sufficient way to obtain that answer, not necessarily a smaller version of the final product. These examples distinguish different questions, not successive maturity levels:
+
+| Question the result must answer | A possible test construction | What its result can support |
+| --- | --- | --- |
+| Will these people take the offered next step? | Show a comprehensible offer or demonstration and provide an observable opportunity to accept or decline that step. | A response to that offer under those conditions. Viewing or joining a waiting list alone does not establish paid or continued use. |
+| Will they use or pay for the proposed service under these terms? | Provide a limited real service, using competent manual work where that is permitted, and observe use, payment and delivery effort. | The service with that actual support. Human delivery does not establish the cost or performance of a future automated arrangement. |
+| Can the proposed technical mechanism perform the required work? | Exercise that mechanism under the relevant conditions, or use qualified evidence that answers the same claim. | Performance within the tested or qualified conditions. A human substituting for the mechanism cannot establish that mechanism's performance. |
+
+Remove a feature or substitute a simpler component only while the required observation and its interpretation remain possible. Retain the work needed to collect the observation, protect participants and close the activity. Explain what participants will receive and who may handle their information; do not sell simulated performance as a delivered capability.
+
 Use the appropriate domain design to connect observations to the bounded claim. State the participants or systems exposed, contribution being tried, conditions of use, observations, interpretation and limits. Specify comparison or control conditions when the inference requires them; merely naming a pilot does not establish a causal effect.
+
+When the decision specifically needs the effect of changing an offer or feature, one possible design is a concurrent randomized comparison. Construct it as follows, with competent domain and statistical support where the inference needs it:
+
+1. State the change and comparator, the people or systems to which the answer must apply, the outcome and any material harms. Choose a meaningful difference and observation period from the receiving decision. Keep the other conditions compatible with the intended comparison.
+2. Define the units to be assigned, then allocate eligible units to the variants by a random procedure under stated probabilities before exposure. Keep a unit's assignment consistent unless the design explicitly handles switching. Repeated visits by one person are not automatically independent units; interaction between participants or competition for shared resources can require a different design. Sending each offer to half the recipients does not establish random assignment.
+3. Specify the sample size needed for decision-relevant precision, whether it is attainable, the outcome calculation, missing-observation treatment and analysis or stopping rule before inspecting the effects. Retain assignment, actual exposure and outcome evidence for both variants, including departures from the plan. Check whether observed group sizes and missingness are compatible with the allocation and collection design; resolve a material unexplained discrepancy before relying on the effect. Judge the resulting difference with its uncertainty and supported population, configuration and period.
+
+This construction starts a controlled comparison; it does not make every pilot an A/B test or supply a qualified causal estimate by itself. C.28 governs that stronger use. Use another qualified design or an adequate existing result when it answers the question better, and return an unattainable inference rather than exposing participants to an uninformative test.
 
 Before dependent activity, identify who may authorize participation, access, spending and changes to existing provision. Set the resource ceiling, duration or stopping event, exception response and withdrawal or restoration conditions. The ceiling includes the work needed to close the experiment responsibly.
 
@@ -1310,7 +1447,7 @@ Keep missing conditions explicit. If the design cannot be completed until permit
 
 #### STR.7:4.5 - Return the design or sufficient stop
 
-Return the supported comparison and selected next contribution. If no experiment is worthwhile, finish with the usable answer and its material limits; no empty experiment form is needed.
+Return the supported comparison and selected next contribution. If no experiment is worthwhile, finish with the usable answer and its material limits.
 
 If a design is proposed, the authorized chooser can approve its bounded scope or return it. Actual execution belongs to the capable participants and applicable professional methods. After execution, compare the obtained observations with the claim and decision specified, retaining deviations and limits. STR.12 supports reconsideration of the affected commitment; completing the inquiry does not cancel continuing service or recovery duties.
 
@@ -1336,7 +1473,7 @@ The result branches are concrete:
 
 A trial could later test the two consenting customers' use and payment under their agreed terms and the specified delivery arrangement. It cannot establish general market demand or substitute for a required data-use determination. The four preparation days also do not approve the later eighteen-person-day development configuration.
 
-#### STR.7:5.2 - A small positive design with a genuinely bounded claim
+#### STR.7:5.2 - A small experiment design with a bounded claim
 
 Consider a separate constructed professional-practice case. A practitioner already has the capability to provide a diagnostic consultation and eight discretionary hours this week after current obligations. Two prospective clients have agreed to consider one paid session each. Their ability to enter that agreement, permitted inputs and the practitioner's scope are supplied conditions of this example.
 
@@ -1347,6 +1484,16 @@ Before starting, state the bounded claim: each participating client will choose 
 If both deliveries meet these conditions, the result supports considering the same limited offer next month. If delivery exceeds the allowance, revise the format or decline continuation; willingness to pay does not fix capacity. If inputs prevent delivery, return that limitation rather than reporting a successful test. Two sessions support only these bounded claims, not a population conversion rate.
 
 The rival is using those four hours to improve diagnostic guidance for existing clients. This test is sensible only if the bounded answer can improve the coming offer enough to justify that sacrifice. It is not a universal recommendation to every professional.
+
+#### STR.7:5.3 - A demonstration, a manual service or a working mechanism?
+
+In this constructed case, a small research service is considering a daily briefing of public reports. The immediate decision is whether to offer the same manually supported format for one further week, not whether to finance automation. Two clients have agreed to consider the pilot under stated prices and terms. Permitted inputs, competent staff and authority for the bounded offer are supplied premises.
+
+A video can show the proposed format and invite a response, but the decision needs evidence of actual delivery and a later order on the stated paid terms. The team therefore proposes five daily briefings for each client, produced manually, followed by a real opportunity to order the same format for the next week. It observes delivery against the agreed content, staff effort and acceptance or refusal of that next offer. If no next offer was made, the repeat-order question remains unanswered.
+
+The proposal allows ten staff hours over seven days: two for preparation, five for delivery, one for interpretation and two for participant follow-up and closure. Stop taking on further activity while the remaining allowance still covers closure. The rival is ten hours of improving existing clients' guidance; proceed only if the attainable answer warrants that sacrifice. Neither unused time nor permission alone establishes that worth.
+
+If both clients receive the agreed briefings within the allowance and order again on the stated terms, the result supports considering this small manual offer with its measured burden. It does not establish population demand or automated delivery. If the actual decision instead requires briefings produced without staff research, a manual service cannot answer it. Use a qualified result about the proposed mechanism or design a bounded technical test; do not add software merely to make the original customer-use test look more complete.
 
 ### STR.7:6 - Bias-Annotation
 
@@ -1362,6 +1509,7 @@ A low sponsor cost can conceal unpaid participant labour or exposure. Ask who be
 - Full burden, displaced work and the serious rival remain visible.
 - Retention of a possibility is distinct from testing or selecting it.
 - A proposed design states exposure, authority, resource and time limits, interpretation and responsible closure.
+- The chosen test form supplies the needed observation; substituted components remain visible in the result's limits.
 - Results apply only within their supported conditions.
 - A sufficient current answer or negative result can finish without another experiment.
 
@@ -1393,13 +1541,17 @@ Design, authorization, performance and inference remain separate because each ca
 
 For **accountable experimentation**, adapt the [OECD's 2024 policy brief](https://doi.org/10.1787/7b246309-en) and [2025 discussion of policy experimentation](https://www.oecd.org/en/publications/oecd-science-technology-and-innovation-outlook-2025_5fe57b90-en/full-report/tools-for-agility-actionable-strategic-intelligence-and-policy-experimentation_288971cb.html). Their attention to authority, capacity, evaluation and later disposition changes section 4.4's bounded design and section 4.5's separate continuation. Policy cases inform this adaptation; they do not replace domain participation or assurance methods.
 
+For **constructing a purpose-fit test**, adapt the question-first move in Ries's *The Lean Startup* (2011, Part Two introduction and chapters 5–6) and his [MVP guide](https://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html), alongside current [GOV.UK prototyping guidance](https://www.gov.uk/service-manual/design/making-prototypes). Section 4.4 works backwards from the needed observation and varies what must actually function; section 5.3 makes that choice usable. Reducing a final product's feature list is a weaker default when the remaining features cannot answer the question. A qualified existing result remains cheaper when it suffices. The startup accounts are historical illustrations, not general effectiveness estimates; the government guidance distinguishes prototype interaction from production readiness in its service-design setting. Neither supplies a technical performance or participation result for this experiment. Reopen when the inference needs different fidelity, exposure or support.
+
+For **attributing a change to an intervention**, adapt the concurrent comparison in Ries's chapter 7, with [NIST's randomized-design guidance](https://www.itl.nist.gov/div898/handbook/pri/section3/pri331.htm). Section 4.4 makes allocation an actual random procedure, not a label for successive customer groups. The [2023 review by Larsen and colleagues](https://arxiv.org/html/2212.11366), especially sections 1.2 and 4–6, qualifies inference through the experimental unit, observation horizon, analysis and interference. Its online-experiment Methods need their stated assumptions; the book's reported successes do not establish general effectiveness. Reopen the design when those conditions no longer support the required effect claim.
+
 C.11.DUA supplies the full-burden comparison against a sufficient answer or cheaper continuation. This preserves a useful experiment when it can change a consequential choice, while avoiding work whose plausible results would not improve the use. Reopen when evidence, exposure or attainable means change that comparison.
 
 ### STR.7:12 - Relations
 
-STR.6 supplies option and retention questions; STR.9 and STR.10 compare flexibility and commitment consequences. STR.7 adds the strategic inquiry-worth and bounded-design contribution. STR.11 keeps authorization separate, and STR.12 uses the actual result in reconsideration.
+STR.6 supplies option and retention questions; STR.9 and STR.10 compare flexibility and commitment consequences. STR.7 adds the strategic inquiry-worth and bounded-design contribution. STR.11 distinguishes retained alternatives, selected joint use and authorized commitments; STR.12 uses the actual result in reconsideration.
 
-PSD.10 supplies qualified uncertainty when needed. FPF C.11 governs local choice and C.11.DUA the burden of evidence demands. C.18, C.19 and G.5 govern archive, pool-policy and selected-set questions only when those results are current; the direct experimental and domain methods retain their evidence and performance claims.
+PSD.10 supplies qualified uncertainty when needed. FPF C.11 governs local choice and C.11.DUA the burden of evidence demands. C.19 supplies the continuing exploration-policy result described in section 4.3. The direct experimental and domain methods supply their qualified evidence and performance results.
 
 ### STR.7:End
 
@@ -1443,15 +1595,29 @@ For a commercial direction, connect the customer contribution to willingness and
 
 Reuse an adequate existing model or professional result. If the proposed ways seek different results or omit different burdens, STR.6 and FPF C.38 can restore their comparability before this dependence question proceeds.
 
+When the strategic choice depends on growth in a continuing customer or participant base, construct one period of the proposed sustaining loop:
+
+1. Define who counts as active and the period's start and end. Reconcile the closing base from the opening base, entries and exits under that same definition. Repeated visits are not new participants, and one person reached through two channels is not two entrants. Keep reactivation, within-period departure or a changed membership definition explicit when it changes the result. Compare rates only after their populations and periods match.
+2. Explain what would supply the next entrants or continued use. Follow the proposed connection from existing participants, purchases, referrals or funded acquisition to the next contribution. Distinguish invitations from actual new participants and an observed association from an established effect. Retain the time needed for the loop, the reachable population and any delivery limit; a referral coefficient without a cycle time does not determine growth per month.
+3. Place the material acquisition, provision and support payments alongside the receipts that could fund the next round, at their actual or forecast dates. Use a qualified financial account where needed. A future customer contribution is not money available before it is collected; a positive lifetime margin does not by itself make repeated acquisition affordable. Include other funding and its conditions explicitly rather than attributing it to customer-funded growth.
+
+Use the smallest calculation or explanation that can settle the dependence question. Reuse a sufficient existing account; otherwise compare continuation with the proposed change over the periods needed to expose a material delay or feedback. Keep forecasts and their assumptions separate from the observed reconciliation. The first result is an explained sustaining path or a precise missing condition, not a promise of indefinite growth. A direction that does not depend on growth needs no growth model.
+
 #### STR.8:4.2 - Trace the complete contribution and its exception
 
 Work backward from the usable result to the input, work and means needed to obtain it. Then follow a plausible exception forward: an unavailable source, failed device, late provider or result the receiver cannot accept.
 
 Ask who supplies, interprets, checks, accepts or returns the contribution where that distinction changes feasibility. Name an effective permission, access condition or support window when it can defeat the path. A diagram is useful if it makes these relations easier to understand; creating one is not the result sought.
 
+When service, access or completion wording hides the dependency, state exactly which result has been established and which subsequent contribution it supports. Use FPF A.6.P to recover an ambiguous object or claim, then use the rule governing that claim. A working credential, permission for this use, successful provisioning and the performed analysis answer different questions. Name what the participant must supply and what would make that contribution usable; a role label or closed supplying case does not establish the receiver's usable result. Stop distinguishing when the next action is clear.
+
 Keep material dependence different from chronology. Two contributions may have to coexist, one may be an input to another, or several may compete for a shared person. Their order in a presentation does not determine the order of work. Ordinary explanation is sufficient for a small strategic account.
 
-Use FPF E.18.NET only when the question needs a network of at least two independently identified transformation-flow structures or nested networks, connected by exact relation occurrences across their boundaries. It supplies selection of the needed network for that question. One transformation-flow structure stays with E.18; a relation claim returns to the pattern that governs that relation. Precision about an ordinary dependency does not itself require network selection.
+A strategic choice may depend on how work in one flow supplies something usable in another. For example, can a proposed coffee service use the stock supplied by a roastery? Use FPF E.18.NET when answering this question needs a network of at least two independently identified transformation-flow structures, or nested networks of them, with at least one established relation across their boundaries.
+
+In E.18.NET's worked café case, roastery production and café brewing have independently identified structures, separate work and change schedules. Delivery and acceptance facts establish the supply relation from the roastery's dispatch position to the café's accepted-stock position. Selecting these members and this relation, with the applicable boundary and position constraints, lets the practitioner identify which accepted stock can enter the brewing flow. That is a concrete supply condition for the café's service proposal. Establish the relation under the pattern that governs its predicate; E.18.NET supplies selection of the network needed for the question.
+
+By contrast, grinding, dosing and wetting can be positions within one identified brewing structure. Examining that internal portion uses E.18; adding detail does not create a second flow. Keep the relation pattern's conclusion separate from any missing information needed to select the network, and carry both into the feasibility answer.
 
 #### STR.8:4.3 - Diagnose the missing condition at the right subject
 
@@ -1485,7 +1651,7 @@ Ask the supplying practice for its smallest useful result. The request should na
 
 After the result returns, update only the affected direction, option or commitment. A supported capability under one configuration remains qualified by that configuration; a successful demonstration with unusual assistance does not establish ordinary delivery without it.
 
-Stop when the strategic comparison has the feasibility answer it needs or the exact external gap is known. Reopen when the contribution, participant, means, permitted use, support or shared resource condition changes enough to alter that answer.
+Stop when the strategic comparison has the feasibility answer it needs or the external gap is known. Reopen when the contribution, participant, means, permitted use, support or shared resource condition changes enough to alter that answer.
 
 ### STR.8:5 - Archetypal Grounding
 
@@ -1521,7 +1687,21 @@ Only four internal preparation days are presently authorized in the connected ca
 
 A professional can already perform the relevant analysis, but their proposed arrangement grants no access to the inputs and no time to use the result. An additional course would not repair that condition. The next question concerns permitted access and work allocation.
 
-If access is then obtained and genuinely unfamiliar work exposes a performance gap, learning or transfer assessment becomes relevant. The earlier access diagnosis was not wrong merely because a different gap appears later.
+In a constructed SensorCo extension, a capable analyst has a working credential for current-service observations, and the account-provisioning request is closed. The proposed trial needs a separately permitted use. Those facts establish neither that use permission nor a completed trial. The StrategyTeam identifies the intended beneficiary, data use, scope and period, and asks the authority governing that use to settle the permission question. FPF A.2.8.PER supplies the distinction between a current grant and work that actually exercises it. Failure to recover a grant does not by itself establish a prohibition. The separately authorized four-day internal costing and trial-specification preparation can continue under its existing conditions; it does not authorize the trial use.
+
+Different descriptions can also concern one permission. Suppose the analyst describes what one identified grant permits and the administrator describes when that same grant expires. Both accounts point to the same act that granted the permission and the same beneficiary, permitted-use specification, scope and effective period, with that grant continuing under its governing policy. Their different concerns do not create two grants. Matching labels or visible attributes alone would not make separately instituted grants identical; a renewal or changed identity condition requires the question to be reconsidered.
+
+If permission is then established but the technical path to the required trial inputs is unavailable, the missing contribution is provisioning under those conditions. A second permission request or another course would not fix that path. Successful provisioning in turn makes the inputs available; it does not perform the analysis or establish that its result is usable. The team can now request the analyst's actual contribution with the receiving question and acceptance condition, preserving any remaining allocation or support gap.
+
+If genuinely unfamiliar work then exposes a performance gap, learning or transfer assessment becomes relevant. The earlier access diagnosis was not wrong merely because a different gap appears later.
+
+#### STR.8:5.4 - A growing customer base does not fund the next round yet
+
+In this constructed subscription-service case, one hundred customers are active at the beginning of the month. Twenty-four new customers enter and ten customers leave during the month; all use the same membership definition, with no other entries or exits. The closing base is 100 + 24 - 10 = 114. Fourteen percent growth describes this month's change, not a forecast that it will recur.
+
+For a proposed further group, a qualified forecast gives twelve currency units of acquisition payment per customer now and fifteen units of later receipts net of provision and support payments, collected sixty days later. This first round has separate funding. The proposal is to fund another acquisition round after thirty days solely from those customer receipts. At that date there is no other available cash after current obligations and protected reserves.
+
+The expected three-unit contribution per customer does not fund the thirty-day round: its receipts arrive later. The useful return is the missing financing or timing condition. STR.8 can compare a permitted earlier receipt, a later round or another supported funding arrangement; it does not assume one has been obtained. STR.9 compares the full resulting options when that account is sufficient, and STR.11 keeps the actual commitment separately authorized. The present service continues under its own adequate support.
 
 ### STR.8:6 - Bias-Annotation
 
@@ -1532,12 +1712,13 @@ Enterprise examples can also make formal reorganization seem inevitable. Compare
 ### STR.8:7 - Conformance Checklist
 
 - The proposed contribution, recipient and sustaining logic are clear.
+- A growth-dependent direction has an explained population and funding loop with matching periods and material delays; an adequate existing account is reused.
 - Material obtaining and exception relations identify what each participant must supply.
 - Actual support, proposed arrangements and unknowns remain distinct.
 - Method, person, organization, access and technical-result gaps receive different treatment when action depends on the difference.
 - A small increment reaches a useful contribution, not merely a completed support task.
 - Shared demands include continuing work and necessary protection.
-- The return identifies the exact missing professional result and the dependent action it limits.
+- The return identifies the missing professional result and the dependent action it limits.
 - Feasibility claims retain their configuration, evidence and authority boundaries.
 
 ### STR.8:8 - Common Anti-Patterns and How to Avoid Them
@@ -1568,13 +1749,15 @@ Different subjects develop through different contributions. A product can change
 
 For **diagnosing development at the right subject**, adapt R11.5:4–6 and R11.9:22–23's distinctions among product change, organizational use, learning and enabling means, while retaining R7/R10's continuing-development perspectives. This changes section 4.3's separate repairs. OCE.9's whole contribution and exception path and HCD.12's bounded unfamiliar-work transfer provide the more specific operational methods. A course or platform completion is the serious insufficient default, because it can leave the receiving contribution unavailable.
 
+For **explaining whether customer growth can sustain the proposed direction**, adapt Ries's *The Lean Startup* (2011), chapter 10. Section 4.1 constructs the next-period population and funding path; section 5.4 separates observed growth from affordable repetition. This is more useful than choosing a sticky, viral or paid label when the actual loop or its timing is missing. [Roberts's 2023 financial-decision text, section 6.4](https://finance.wharton.upenn.edu/~mrrobert/resources/FDM/fdm-20230823.pdf), exposes the cash-flow, working-capital and discounting assumptions hidden in simplified customer-lifetime value. Use its financial qualification where the comparison needs it, not as a universal growth target or a requirement for a detailed model. The startup cases do not establish growth effectiveness; equal margins or referral coefficients do not establish equal calendar-time growth. Reopen when retention, acquisition, payment timing or delivery conditions change.
+
 Reopen the diagnosis or method choice when representative work exposes another limiting condition, when a dependency changes or when an adequate lower-burden configuration becomes available.
 
 ### STR.8:12 - Relations
 
-STR.5 and STR.6 supply the direction or option being examined. STR.8 returns the feasibility relations and exact gaps used by STR.9, STR.10 and STR.11. STR.14 reconciles their simultaneous demands.
+STR.5 and STR.6 supply the direction or option being examined. STR.8 returns the feasibility relations and gaps used by STR.9, STR.10 and STR.11. STR.14 reconciles their simultaneous demands. STR.12 supplies comparable observations when a sustaining claim depends on measured customer behaviour.
 
-OCE.9 realizes an organization-capability increment under its entry conditions; HCD.12 tests a person's transfer when prior performance and meaningful novelty are established. Engineering, Operations, Finance and other professional practices retain their exact results and authority. FPF E.18.NET supplies network selection only for a question involving independently identified transformation-flow structures or nested networks and exact cross-boundary relations, as in section 4.2. E.18 retains one flow structure, and each relation claim retains its governing pattern.
+FPF A.6.P recovers an under-specified dependency claim; A.2.8.PER distinguishes the needed permission result from actual exercise. Use those contributions only for the question that remains unresolved. OCE.9 realizes an organization-capability increment under its entry conditions; HCD.12 tests a person's transfer when prior performance and meaningful novelty are established. Engineering, Operations, Finance and other professional practices retain their results and authority. For the cross-flow supply question illustrated in section 4.2, FPF E.18.NET selects the needed network of independently identified flow structures or nested networks and established cross-boundary relations. E.18 covers one flow structure and its internal portions; each relation claim is established under its governing pattern.
 
 ### STR.8:End
 
@@ -1620,6 +1803,10 @@ Distinguish an option excluded by a current condition from one with a low expect
 
 Use a qualified PSD.12 robustness account when it already covers the relevant configuration and variation. Strategy adds the effect on direction, commitment timing, capability and future exercise. A result for another horizon or a smaller configuration does not automatically answer this comparison.
 
+When another participant's response can change the result, use STR.4's qualified response account for each candidate move. A common comparison basis can contain the same conditional response rule applied to different own moves, producing different responses. Do not hold the other participant's action fixed merely to make the columns look alike. Compare the induced outcomes, timing, full burden and protected limits; retain conditional results where the response premise is unresolved.
+
+In STR.4:5.3, this changes integration's relevant outcome from promised maintenance to the provider's induced restriction. An effective prior interface transfer is a different arrangement to compare, not evidence that the original promise already prevents restriction. Ordinary comparisons under exogenous conditions remain sufficient when other participants' responses cannot alter the choice.
+
 #### STR.9:4.2 - Choose the criterion that answers the actual decision
 
 State what the chooser is trying to protect or improve. Expected-value comparison can be useful with defensible probabilities and a suitable value model. Under deep uncertainty, conditional performance, worst-case loss, regret or an acceptable region may serve better.
@@ -1628,7 +1815,7 @@ These criteria answer different questions. Worst-case comparison emphasizes the 
 
 Keep material value disagreement explicit. A scalar can help only when its trade-offs are warranted for this use. Do not invent equal scenario probabilities, silently normalize unlike consequences or change the criterion after seeing the winner.
 
-For a dominance claim, specify the compared characteristics, their preferred directions, conditions and evidence. Being no worse on every relevant coordinate and better on at least one can support dominance under that rule. A weighted winner, higher average, missing demand and actual dominance are not equivalent. Non-dominated candidates still require a selection judgement.
+For a dominance claim, specify the compared characteristics, their preferred directions, conditions and evidence. Being no worse on every relevant coordinate and better on at least one can support dominance under that rule. A weighted-score win or a higher average does not establish dominance. Where a required consequence estimate is missing, leave the coordinate comparison unresolved. Non-dominated candidates still require a selection judgement.
 
 #### STR.9:4.3 - Compare the whole finite change with the current configuration
 
@@ -1636,11 +1823,17 @@ Ask what would actually be added, removed or substituted. Include transition, su
 
 Use FPF C.11.CRC, *Configuration-Relative Contribution Comparison*, when this finite comparison is missing. It makes the current configuration, changed configuration, result and resource coordinates, interactions and option effects explicit. Reuse a sufficient existing account instead of making a second one.
 
+When money is material, identify the offer or obligation behind each claimed change: who would pay or receive what, when, and under which demand and acceptance conditions over the chosen horizon. Use an adequate OPS.14 operating account for a bounded operating choice, or the qualified financial result needed for another use. Reconcile shared receipts, avoidable payments and displaced contributions once for each whole configuration. Disjoint feature lists or unchanged salaries do not establish those differences. Keep a missing estimate unresolved and reuse a sufficient account instead of commissioning another.
+
+Before using a rate or priority score to compare whole financial results, recover its underlying quantity, denominator, interval and completion conditions through OPS.15. Determine any material delay loss from the actual changed receipts, payments or foregone contribution under the compared timing; postponing one receipt does not charge its entire value anew for every delayed period.
+
 Compare an attainable addition with what is already there, not with an empty or ideal organization. Include the cost of obtaining the comparison separately from the cost of realizing its preferred option. Information that opens a later choice is not yet operating revenue or delivered benefit.
 
 #### STR.9:4.4 - Find holding regions and meaningful reversals
 
 Challenge a decisive assumption at the lowest effort that can expose its failure. Vary demand, cost, availability, model assumptions or a justified value judgement where those changes can alter the result. Test joint changes when shared causes, thresholds or interactions matter; changing one input at a time can miss them.
+
+Separate the uncertain input, such as future demand, from the response created by a particular service or resource arrangement. If a central-input estimate could hide a material nonlinear response, use PSD.12 section 4.3.1's paired test or reuse a sufficient qualified analysis. Carry back the response values, tested domain, threshold result and limits on extrapolation. Equal test weights supply no event probabilities, and the same demand can affect two arrangements differently.
 
 State where the option remains acceptable, where a rival becomes preferable and where the comparison is unsupported. Include a condition that defeats all present options when one is material. The least bad candidate is not necessarily admissible.
 
@@ -1651,6 +1844,8 @@ A new beneficiary, criterion or horizon may define a different comparison rather
 For a staged or retained option, name who could exercise it, the observation needed, its expiry and the time required to respond. Determine what must remain available and what carrying it displaces.
 
 Compare the retained flexibility with a serious immediate-commitment or continuation alternative. Include monitoring, coordination, switching and temporary exposure where they matter. An informative signal arriving after a contract becomes irreversible cannot preserve that decision.
+
+When a failure condition suggests narrower exposure, specify what would actually limit the obligation or loss: changed admission terms, available support or a smaller complete service scope. Compare that arrangement through section 4.3. Keep an unqualified protection as a missing premise. A four-day preparation budget limits that preparation, not the service obligations of a later agreement.
 
 Financial option valuation belongs to its qualified method and inputs. This pattern can compare reversibility and future choices without fabricating a monetary option price. A retained archive entry preserves reasoning; maintaining a working fallback can require an additional real contribution.
 
@@ -1672,13 +1867,15 @@ Two prospective customers may discuss a bounded paid service trial next quarter 
 
 The current comparison concerns those four days and their contribution to the twelve-month question. It does not compare an already successful service business with an assumed failing device business.
 
+For the exit comparison, assume that orderly exit and device continuation both satisfy the protected-service requirement under the three conditions below. The supplied comparison for this twelve-month decision includes the exposure avoided, net disposal proceeds, the best attainable use of released resources and any later consequence material to the choice. Under the Board's criterion, exit's supported advantages are outweighed by the continuing device contribution forgone and the full customer-transition burden.
+
 | Condition at the relevant horizon | Comparison with device-only continuation and diagnostic work | Supported return |
 | --- | --- | --- |
 | Commoditization continues and an accountable-service opportunity remains attainable | Preparation can establish whether a relevant service arrangement is economically plausible; diagnostics improve the viable current direction but do not answer that question | Prefer the bounded preparation at the Board's accepted four-day sacrifice; keep the twelve-month service direction open |
 | Purchasing freezes throughout the horizon, preventing a useful paid trial | The preparation no longer has the stated opportunity to inform this choice; device continuation supports existing obligations | Prefer device-only continuation and retain the four days for diagnostics |
 | Data reuse is restricted | A permitted customer-local service might still be possible, while cross-customer licensing requires its own right | Continue preparation only if an attainable determination leaves a relevant permitted option; otherwise prefer device continuation |
 
-The criterion is the Board's supplied trade-off, not a universal demand for experimentation. The third row is conditional rather than automatically pro-service. Licensing is not currently selectable without its required reuse right. Exit is not preferable under the supplied inputs because device continuation can meet existing obligations without the transition burden; that result changes if continuation becomes infeasible.
+The criterion is the Board's supplied trade-off, not a universal demand for experimentation. The third row is conditional rather than automatically pro-service. Licensing is not currently selectable without its required reuse right. Under the supplied whole-consequence comparison, continuation is preferable to exit. Reopen that comparison if an exit benefit, transition burden, continuing contribution or protected-service condition changes enough to reverse it; continuation need not become infeasible for exit to become preferable.
 
 A complete cost calculation can also close the service question. If no relevant permitted configuration can cover delivery cost at attainable customer terms, the recommendation is device continuation without a trial. If a cost component is missing, the comparison remains unresolved.
 
@@ -1697,7 +1894,45 @@ If the responsible chooser minimizes the worst waiting time, A is preferable: 12
 
 Neither calculation changes the stipulated waiting-time estimates or selects the public value rule. The practitioner returns the consequence of each rule for the responsible judgement. If B failed the protected-access condition, its smaller regret would not make it eligible. The example demonstrates a comparison distinction, not a public-policy prescription or a validated forecast.
 
+#### STR.9:5.3 - SensorCo: two improvements can share one receipt
+
+Consider a constructed later costing comparison, separate from the current four-day preparation and its authority. It concerns a device-health report offer, an alert offer and their combination for one prospective customer over the same twelve months.
+
+Assume that either offer, or both together, would produce one incremental payment of 10,000 currency units at month 12 under the stated acceptance and payment conditions. The customer pays for one service, not for the number of independently developed features. The complete future additional payments within the horizon are 6,000 for reports, 5,000 for alerts and 11,000 for both. Existing receipts and payments remain unchanged, and the supplied account establishes no other material displaced contribution. Funding when payments fall due, resources and permitted service conditions are assumed available for this calculation; the arithmetic does not establish them.
+
+| Compared future arrangement | Incremental receipt | Future additional payments | Incremental net cash over twelve months |
+| --- | ---: | ---: | ---: |
+| Continue without either new offer | 0 | 0 | 0 |
+| Reports only | 10,000 | 6,000 | 4,000 |
+| Alerts only | 10,000 | 5,000 | 5,000 |
+| Reports and alerts | 10,000 | 11,000 | −1,000 |
+
+Adding the two standalone net returns would give 9,000 by counting the same possible receipt twice. Under these assumptions, alerts have the strongest net-cash result. That is a conditional financial comparison, not the full strategic preference, an authorized service commitment or realized revenue.
+
+Now change one premise: a qualified customer basis supports a further 8,000 payable only for the combined offer, with the other cash consequences unchanged. Its receipt becomes 18,000 and its net cash 7,000, reversing the financial ranking. If that extra payment is unsupported, keep it as an unresolved premise rather than adding it or silently setting it to zero. Combining improvements is not intrinsically bad; their actual joint contribution decides this comparison.
+
+A supporting rate needs the same care. In a separate constructed account, two distinct results each pay 100 units on completion and take two and four hours sequentially on the same resource, with no other delay. Together they yield 200 over six hours, or 33⅓ units per hour, not the sum of their standalone rates, 75. By contrast, independent streams paying 100 and 50 in the same one-hour interval can jointly yield 150 in that interval. Recover the quantities, conditions and interval before aggregating.
+
+These are undiscounted cash comparisons under supplied conditions. Earlier funding requirements and any material financing, timing or later effects still need the qualified account appropriate to the actual choice. The current preparation can obtain missing costing or customer answers without claiming that this later comparison has already occurred.
+
+#### STR.9:5.4 - SensorCo: a central workload can hide the service exposure
+
+This constructed extension examines the proposed 78-engineer-day first-month configuration, not the earlier four-day preparation decision. Fix its service scope, team and thirty-day window. A stipulated operating model gives total engineer-day demand, including the protected eight-engineer-day incident reserve, when zero, one or two additional trial requests arrive. These three request conditions are the model's stated test domain; none has an assigned probability.
+
+| Additional trial requests | Total required engineer-days, including reserve |
+| --- | ---: |
+| 0 | 78 |
+| 1 | 79 |
+| 2 | 84 |
+
+The PSD.12 paired comparison gives a central response of 79 engineer-days and an endpoint mean of 81 engineer-days, a two-engineer-day gap. This is not an expected workload. More importantly, the two-request response exceeds the actual 80-engineer-day capacity by four engineer-days. The central case's apparent fit therefore does not establish that the service scope can be supported under all three conditions. Removing the protected reserve is not an admissible repair.
+
+One proposed response is to limit trial admissions to one and defer additional requests. That only narrows exposure if the actual customer terms permit deferral, the remaining service is a useful complete contribution, and the required admission and support arrangement is feasible. Those premises are not supplied here. The return is these three unanswered questions, alongside the failed two-request condition, not an asserted workload cap or a selected service commitment.
+
+The Board can use permitted preparation to clarify that narrower arrangement and its full cost if this can change the choice. Existing device continuation remains a serious alternative. The earlier preparation authorization neither establishes the response model nor funds or limits a future service promise. A sufficient current capacity and terms account would be reused without another test.
+
 ### STR.9:6 - Bias-Annotation
+
 
 A favoured strategy can determine the scenario set, weights and baseline before the comparison begins. Give its serious rival the same horizon, burden categories and evidential treatment.
 
@@ -1740,7 +1975,9 @@ The current configuration matters because a strategic addition interacts with wh
 
 **How should strategy compare commitments under deep uncertainty?** Adapt the robust-decision and adaptive-pathway line discussed in [Lempert and colleagues' 2024 analysis](https://www.frontiersin.org/journals/climate/articles/10.3389/fclim.2024.1380054/full). Its use of consequential lower-confidence information changes sections 4.2–4.5: expose failure regions and feasible flexibility instead of optimizing against an unsupported single future. The serious rival is a qualified expected-value comparison, retained when its model and probabilities suffice. The source concerns climate assessment and methods, not evidence that one corporate strategy will succeed.
 
-PSD.12 supplies the operational tests of holding regions, reversals and adaptive limits. Adopt those tests for the same comparison rather than repeating them. C.11.CRC supplies the finite configuration-relative contribution when an isolated score or marginal-rate argument misses interactions and indivisibility. This changes section 4.3 and the separate treatment of SensorCo's preparation, capacity and fallback costs.
+PSD.12 supplies the operational tests of holding regions, reversals and adaptive limits, including the bounded paired-response check when a central input conceals nonlinear exposure. Adopt those tests for the same comparison rather than repeating them. C.11.CRC supplies the finite configuration-relative contribution when an isolated score or marginal-rate argument misses interactions and indivisibility. This changes section 4.3 and the separate treatment of SensorCo's preparation, capacity and fallback costs.
+
+For an operating gain's financial contribution, OPS.14 follows accepted demand through the actual incremental receipts, payments, timing and displaced use; OPS.15 recovers the quantities and event meanings behind an account. Adopt those bounded Methods when shared customer payments or unlike rates make an isolated initiative return misleading. An adequate existing financial account remains the cheaper alternative. The constructed cash comparison demonstrates the distinction, not a general financial advantage of one service design.
 
 Reopen the method choice when defensible probabilities or better model evidence change the appropriate comparison, when a serious omitted option appears or when the timing and cost of future exercise defeat the flexibility claim.
 
@@ -1748,7 +1985,7 @@ Reopen the method choice when defensible probabilities or better model evidence 
 
 STR.6 supplies complete options and retention reasons; STR.8 supplies capability and dependency limits. STR.9 returns a qualified comparison to STR.10 and STR.11 and a decision-linked inquiry question to STR.7 when needed. STR.12 later relates actual observations to the stated reversal conditions.
 
-PSD.12 supplies robustness and sensitivity results within their declared scope. FPF C.11.CRC supplies a missing finite contribution comparison; C.11 governs local choice. C.18's archive/front distinctions keep retained exploration value separate from the current comparison and selection.
+OPS.14 supplies a bounded operating-financial consequence account; OPS.15 supplies the decision-specific quantities and aggregation when their meaning is unresolved. A different financial purpose retains its qualified professional Method. PSD.12 supplies robustness and sensitivity results within their declared scope. FPF C.11.CRC supplies a missing finite contribution comparison; C.11 governs local choice. C.18's archive/front distinctions keep retained exploration value separate from the current comparison and selection.
 
 ### STR.9:End
 
@@ -1792,6 +2029,10 @@ Separate preparation from execution and a bounded trial from continuing provisio
 
 Compare each candidate against the current arrangement and the same receiving decision. Include continued provision, a narrower commitment, deferral or withdrawal when it is a serious alternative. State when waiting itself creates a loss or new duty.
 
+Distinguish the authority to choose an arrangement, a declaration, an actual duty and the means that could make later conduct credible. Where an individual duty is material, use FPF A.2.8 to establish its bearer, governed conduct, scope, period and actual governing basis. A duty can obtain even though breach remains possible. Determine separately whether available actions, information or incentives actually change, for whom and over which window.
+
+When a proposed commitment changes later responses, compare that changed arrangement with the uncommitted alternative. Include its complete burden and lost useful freedom, and establish the actual means, scope, agreement and permissions before relying on them. Neither early commitment nor maximum flexibility is preferable by default.
+
 #### STR.10:4.2 - Find who or what can bear a material consequence
 
 Trace what the proposed action, failure, recovery or exit could change. Begin with the directly involved people and systems, then examine a plausible route beyond the familiar stakeholder list when it could alter the decision.
@@ -1826,11 +2067,13 @@ For a retained fallback, identify the enabling contribution and the sacrifice ma
 
 A temporary trial also needs responsible closure. Ending inquiry does not cancel an obligation already incurred. Prefer a smaller commitment when it preserves the worthwhile contribution and avoids exposure that the present basis cannot justify.
 
+In STR.4:5.3, the provider's announcement leaves its restriction action available, while the qualified prior-transfer alternative removes that action for the needed window. Compare the latter's full consequences without treating a favorable model result as an effective transfer. The workshop's authority does not supply the other party's agreement; a recorded duty does not itself make the interface usable.
+
 #### STR.10:4.6 - Return the supported commitment comparison
 
-Return the serious commitments, their consequence profiles, protected conditions, admitted sacrifices, relevant reversibility and exact gaps. State which commitment is preferable under the given basis, which is unavailable and what could change that result.
+Return the serious commitments, their consequence profiles, protected conditions, admitted sacrifices, relevant reversibility and gaps. State which commitment is preferable under the given basis, which is unavailable and what could change that result.
 
-The next useful result may be a recommendation, a request for one professional determination, a proposed requirement revision or a sufficient stop. STR.11 supports the authorized choice when that is the remaining question. The consequence account itself does not spend money, alter permissions or promise a service.
+The next useful result may be a recommendation, a request for one professional determination, a proposed requirement revision or a sufficient stop. STR.11 supports the authorized choice when that is the remaining question.
 
 Reopen when the configuration, affected bearer, obligation, evidence, time window or governing condition changes enough to affect the commitment.
 
@@ -1846,7 +2089,7 @@ The team's comparison distinguishes the immediate four-day service preparation f
 | --- | --- | --- |
 | Four internal days to complete costing and specify a possible trial | Already funded; no new purchase or customer-data use; postpones a four-day device-diagnostic improvement | Can be compared as a bounded information contribution while leaving the twelve-month service direction open |
 | Original pilot, platform and learning/support proposal | 16 + 8 + 6 additional person-days; with service and reserve the total is 90 | Exceeds the 80-day capacity; separate budgets do not make the whole commitment available |
-| Smaller proposed development configuration | 8 + 6 + 4 additional person-days; total 78 with service and reserve | Fits that time ceiling, but still needs the exact capability, permission, customer and financing conditions for dependent work |
+| Smaller proposed development configuration | 8 + 6 + 4 additional person-days; total 78 with service and reserve | Fits that time ceiling, but still needs the capability, permission, customer and financing conditions for dependent work |
 
 The four preparation days are part of the smaller configuration's eight-day preparation/use envelope, not an additional four to add to 78. The current Board decision authorizes only those four internal days. The eighteen-day development demand remains a possible later configuration, not a present service promise.
 
@@ -1939,7 +2182,7 @@ The working result is an explicit, bounded strategic choice with its relied-on p
 
 Assumptions are premises on which the choice relies. Adopting them for a bounded decision does not make them true. Selecting a direction likewise does not make every initiative under it funded or feasible.
 
-The practical gain is that participants can tell what to do now, what remains open and what answer is needed before further action. Do not reconstruct an adequate choice when only ordinary realization remains. Missing professional evidence or permissions still constrain their dependent commitments; this pattern neither creates them nor transfers another holder's authority.
+The practical gain is that participants can tell what to do now, what remains open and what answer is needed before further action. Do not reconstruct an adequate choice when only ordinary realization remains. Missing professional evidence or permissions still constrain their dependent commitments.
 
 ### STR.11:2 - Problem
 
@@ -1955,7 +2198,7 @@ Several contributions may be worth using together but compete for shared resourc
 
 ### STR.11:4 - Solution
 
-Select only the result supported by the current comparison and authority. State its exact scope, keep retained possibilities separate from joint use, and connect the commitment to the premises that would change it.
+Select only the result supported by the current comparison and authority. State its scope, keep retained possibilities separate from joint use, and connect the commitment to the premises that would change it.
 
 #### STR.11:4.1 - Recover the chooser and the result the choice must produce
 
@@ -1986,17 +2229,17 @@ Distinguish the set's intended use before calling it a portfolio:
 
 These meanings are not four compulsory stages. A sufficient direct choice may need no set declaration.
 
-When a downstream recipient needs an exact selected-set declaration, G.5 supplies that result. Its *DeclareSetResult* branch can use already identified members and a current choice or inclusion basis; it does not rerun selection or force non-method members into a method registry. Its *Shortlist*, *RankedShortlist* and *JointUseSet* distinctions concern the declared membership and use, not funding or actual performance.
+When a downstream recipient needs an explicit selected-set declaration, use G.5's *DeclareSetResult* branch with already identified members and a current choice or inclusion basis. State the intended use, inclusion conditions, ordering and supporting basis. Its *Shortlist*, *RankedShortlist* and *JointUseSet* results distinguish, respectively, the retained alternatives, ordered alternatives and all-member joint use in the table.
 
 Before selecting joint use, inspect shared capacity, dependence, incompatible conditions and displaced work. STR.8 and STR.14 supply missing support and reconciliation. Several individually attractive options do not become a feasible joint configuration by appearing in adjacent rows.
 
 #### STR.11:4.4 - Bound the commitment in practical terms
 
-State what is selected, for what purpose and horizon, what resources or conduct it binds, and what remains excluded or conditional. Name who provides or allocates the resources and who authorizes the dependent action. This pattern's recommendation does not perform those allocations.
+State what is selected, for what purpose and horizon, what resources or conduct it binds, and what remains excluded or conditional. Name who provides or allocates the resources and who authorizes the dependent action.
 
 Keep the scope legible to the people who will use it. If preparation is selected, say what it may obtain and what execution it does not include. If a continuing obligation is created, include its support and exit conditions. Preserve protected current work and the cost of keeping a fallback available.
 
-Use ordinary existing decision notes when they carry the needed reasoning. A new strategy card or record system is unnecessary. Retain enough detail that a later participant will not infer a larger commitment or stronger evidence than the choice supports.
+Use ordinary existing decision notes when they carry the needed reasoning. Retain enough detail that a later participant will not infer a larger commitment or stronger evidence than the choice supports.
 
 #### STR.11:4.5 - Make assumptions and reconsideration usable
 
@@ -2010,7 +2253,7 @@ Keep the serious rival and the reason it was not chosen. A preserved fallback ne
 
 Return the recommendation or actual decision under its correct name, with the comparison basis, scope, conditions and next permitted contribution. State who still needs to supply a financing, capability, permission or other result before a larger move.
 
-The immediate question is complete when the recipient can understand the selected result and act within its actual bounds, or when the exact impasse is clear. Completion need not select a full long-term strategy. Reopen only a condition that can change the choice or its usable scope.
+The immediate question is complete when the recipient can understand the selected result and act within its actual bounds, or when the impasse is clear. Completion need not select a full long-term strategy. Reopen only a condition that can change the choice or its usable scope.
 
 ### STR.11:5 - Archetypal Grounding
 
@@ -2180,6 +2423,15 @@ Ask whether the evidence changes a relied-on premise, its applicability, the com
 
 Use an adequate existing interpretation. Seek further evidence only when its attainable contribution to this decision warrants its complete burden and delay, under C.11.DUA. A sufficiently adverse whole-cost result can justify stopping further inquiry; uncertainty does not create an obligation to run an experiment.
 
+If the decision needs to compare what proportion of customers or participants took a defined step, and the existing account is insufficient, construct an interpretable reading from the permitted evidence:
+
+1. Name the event and counted unit. A visit, account, person and paying organization can give different answers. State what counts as the event, such as a first paid order, rather than treating every recorded interaction as success.
+2. Group units by a relevant common entry rule, such as registration during a named month; this is a cohort. Choose a common period after each unit's entry, such as its first twenty-eight days. Preserve material differences in offer, eligibility, channel and exposure. The same reporting date does not give newer and older entrants equal observation time.
+3. Recover the numerator and denominator under that definition. For a proportion of customers placing an order, count each qualifying customer once in the numerator and retain all customers required by the denominator, including known non-purchasers. Unfinished follow-up or missing records cannot be silently counted as no order or removed to improve the fraction. Reconcile the counts with their source events and transformations where the present reliance needs that check.
+4. Report both counts and the fraction, the observation period and material gaps. Compare like-defined readings; return the limitation where the groups are not comparable. A larger total can coexist with a smaller fraction. Totals still matter when the receiving question concerns workload, cash or an authorized limit.
+
+This gives a descriptive comparison, not an effect attributed to the changed product. Different monthly groups can also differ because of selection or surrounding conditions. C.16 supplies measurement interpretation and comparability; C.28 governs a causal use. If the decision needs that stronger answer, use a qualified existing result or consider a bounded comparison under STR.7. An observed equality or a difference not distinguished from uncertainty does not establish practical sameness: the uncertainty must be small enough for the difference that matters to this decision.
+
 When a changed source requires discovering and revalidating several actual receiving uses, use A.10.1 for that bounded work. For one known dependence, the direct source-reliance and subject Method may suffice. Citation alone does not establish dependence.
 
 #### STR.12:4.4 - Compare the warranted responses
@@ -2212,7 +2464,7 @@ Suppose the completed costing adequately includes support, travel, incidents and
 
 In a different continuation, suppose the required permissions and later trial allocation have actually been established. The agreed rule requires the service owner to suspend the dependent trial if the qualified forecast before the next month's allocation exceeds eighty engineer-days while preserving the eight-day protected service reserve.
 
-The capacity owner supplies that forecast before allocation. The service owner interprets it under the agreed rule and suspends the affected trial; the Board reconsiders its scope, timing or rival. The forecast concerns next month's planned shared workload. The service owner's authority covers suspension of this trial, not redirection of the whole company. Independent device commitments and protected service continue under their existing authority.
+The capacity owner supplies a qualified forecast before allocation that exceeds eighty engineer-days with the eight-day reserve preserved. The service owner applies the agreed suspension rule to the affected trial; the Board reconsiders its scope, timing or rival. The forecast concerns next month's planned shared workload. The service owner's authority covers suspension of this trial, not redirection of the whole company. Independent device commitments and protected service continue under their existing authority.
 
 If the same capacity issue is discovered during the original four-day preparation, there is no authorized trial to suspend. The result is an infeasible proposed allocation and a bounded return to the Board. Recovering the actual commitment changes the correct response.
 
@@ -2230,6 +2482,20 @@ A professional has reserved two hours for an exploratory conversation. A general
 
 A qualified inspection finds no dependence on that forecast. The person can continue the conversation within its original scope. This is a bounded no-impact conclusion, not a claim that all future client-development choices are unaffected.
 
+#### STR.12:5.4 - More paid customers need not mean a better conversion result
+
+A service is considering further spending on a revised onboarding offer. Its dashboard shows paid-customer counts rising from twenty to forty-five. The analyst recovers the registration groups and actual first orders instead of treating that increase as the effect of onboarding. Assume that the permitted records establish each customer's identity, entry and first-order date, with complete follow-up where stated.
+
+| Registration group | Registered customers | Customers with a first paid order | Observation basis |
+| --- | --- | --- | --- |
+| January | 100 | 20 | Each customer's first 28 days |
+| February | 300 | 45 | Each customer's first 28 days |
+| March | 200 | 12 so far | Each customer's first 7 days only |
+
+The observed twenty-eight-day proportions are 20% and 15%. More customers paid in February, but a smaller proportion of that registration group paid within the defined period. March's 6% after seven days is not its twenty-eight-day result. Without the older groups' seven-day readings, it cannot supply that shorter-period comparison either.
+
+Suppose February also used a different acquisition channel. These records do not isolate the onboarding change's effect, prove that it is harmful, or establish the result for future customers. The analyst withdraws the claimed effect and returns the supported counts, proportions and uncertainty about that stronger inference. If an effect estimate is necessary for the next commitment, an adequate existing causal result or a worthwhile controlled comparison can supply it. The current descriptive correction can finish without another trial; the funding decision still needs its own comparison and authority.
+
 ### STR.12:6 - Bias-Annotation
 
 Visible metrics can displace quieter changes in access, participant experience or affected interests. Begin with the receiving decision and its material conditions, not the available dashboard.
@@ -2240,6 +2506,7 @@ Sunk effort can favour continuation, while fear of being late can favour prematu
 
 - The actual recommendation, commitment and performance are distinguished.
 - The signal has a qualified subject, interval, meaning and uncertainty.
+- A behavioural proportion has a recoverable counted unit, numerator, denominator and follow-up period; its comparison retains material group differences.
 - Its material receiving premise or decision is identified.
 - Warning, reconsideration and authorized response remain distinct.
 - Observation and response can occur within the relevant decision window.
@@ -2274,15 +2541,18 @@ A revisable strategy need not be constantly revised. Preserving a qualified deci
 
 ### STR.12:11 - SoTA-Echoing
 
-**How can a signal support timely adaptation without deciding the response by itself?** Adapt the distinction between switch points and observable triggers in [Lynch and colleagues' 2025 RAD analysis](https://www.usgs.gov/publications/rad-resist-accept-direct-switch-points-and-triggers-adaptation-planning). Its ecological adaptation cases inform sections 4.2–4.4's separation of observed indication, changed judgement and feasible response. They do not validate corporate trigger values or transfer environmental decision authority to a strategy team. A periodic review remains the serious simpler alternative where the decision window and exposure permit it; an existing authorized control rule remains preferable for its direct operating question.
+**How can a signal support timely adaptation without deciding the response by itself?** Adapt the distinction between switch points and observable triggers in [Lynch and colleagues' 2025 RAD analysis](https://www.usgs.gov/publications/rad-resist-accept-direct-switch-points-and-triggers-adaptation-planning). Its ecological adaptation cases inform sections 4.2–4.4's separation of observed indication, changed judgement and feasible response. They do not establish corporate trigger values. A periodic review remains the serious simpler alternative where the decision window and exposure permit it; an existing authorized control rule remains preferable for its direct operating question.
 
 **What should change after observation?** Adopt PSD.14's qualified, scoped decision-support return rather than reopening the whole strategy after every source change. Sections 4.1, 4.3 and 4.5 preserve actual dependence and separate recommendation, later choice and performance. R11's revisable problem and filter sharpen the distinction between a new observation and a changed selection basis in section 5.2. Revisit the arrangement when its signals, access, interpretation delay or response authority no longer support the receiving decision.
+
+**How can a growth report distinguish volume from behaviour?** Adapt Ries's *The Lean Startup* (2011, chapter 7) by constructing comparable entry groups and reporting their counts as well as proportions in sections 4.3 and 5.4. A gross total alone is a weaker answer to a conversion question, although it may answer a capacity or payment question. The source's historical cohort examples do not remove time or selection confounding. [Microsoft's 2020 sample-ratio-mismatch account](https://www.microsoft.com/en-us/research/articles/diagnosing-sample-ratio-mismatch-in-a-b-testing/) supplies a concrete warning: filtering and missing units can reverse an experiment's apparent result. Retain its data-quality question, not a universal platform threshold or reporting workflow. Reopen interpretation when the counted unit, group membership, follow-up coverage or collection process changes.
 
 ### STR.12:12 - Relations
 
 - **STR.1–STR.3** receive a changed strategic subject, assumption or problem formulation only where the signal changes that contribution.
 - **STR.9–STR.11** supply the comparison and actual commitment to reconsider; their adequate independent results can remain usable.
 - **PSD.14** supplies an applicable follow-up arrangement and qualified decision-support return.
+- **C.16 and C.28** distinguish measurement construction and comparability from support for a causal use; **STR.7** supplies a bounded experiment design when further evidence is worthwhile.
 - **C.11.DUA** bounds any proposed further evidence demand by attainable decision usefulness and whole burden.
 - **A.10 and A.10.1** govern actual source reliance and, when needed, discovery of multiple affected uses; they do not choose the strategic response.
 - **STR.13** receives a material method-learning question, while direct operating, emergency and organization-change Methods retain their work.
@@ -2361,11 +2631,13 @@ Use ME.14 to return a situated keep, revise, replace, branch or stop, or a retai
 
 Identify whether the proposed change alters reusable operations, dependencies, entry or stop rules, or only their description, representation or support. A clearer sentence is not automatically a new Method; a reordered decision rule can be a real semantic change even if its description needs only one sentence.
 
-For a proposed variant, preserve the parent or source account, the retained and changed semantics, the reason for derivation and intended situations. Keep a candidate identified as a candidate until its own required basis is established. Neither parent admission nor parent evidence automatically transfers to the child.
+For a proposed variant, preserve the earlier way or source account, what is retained and changed, why it was changed and the intended situations. State which evidence for the earlier way still applies and what remains unsupported for the changed one. A traceable entry can preserve the proposal as a candidate and complete the present maintenance task.
 
-For a non-variant change, name the actual object, the affected claim or edition and the needed maintenance action. Repair an ambiguous instruction where the ambiguity occurs and inspect its affected uses. Do not rename the method to conceal a description problem or redesign the whole repertoire for one corrected reference.
+When later users need to distinguish an identified FPF U.Method from a candidate proposal, use ME.15's independent admission step under A.3.1. Here admission means establishing a reusable way of doing, the kinds of participants it is for, its applicability and preconditions, intended result or preserved condition, and limits or stops. Establish that basis for the changed way itself or retain its candidate status. ME.14 answers the separate practical question of whether using or changing the way is worthwhile for this strategic decision.
 
-Use the relevant Method Engineering contribution when construction, coherence, fit or admission is itself unresolved. A practical-worth judgement supplies none of those automatically, and none alone supplies practical worth.
+For a non-variant change, name the actual object, the affected claim or edition and the needed maintenance action. Repair an ambiguous instruction where the ambiguity occurs and inspect its affected uses.
+
+Obtain the relevant Method Engineering result when the open question is how to construct the method, whether its operations are coherent or whether it fits the intended conditions. Keep that answer distinct from section 4.2's comparison of its practical worth.
 
 #### STR.13:4.4 - Preserve a repertoire that supports the next use
 
@@ -2492,9 +2764,9 @@ Maintaining meaning and evidence separately from visible artifacts lets descript
 
 The same engineer may cover incidents, prepare a platform and help trial participants. A strategy team may assume that a purchased tool creates an organization capability. A long-term direction may depend on a future provider while the present service cannot wait. None of these conflicts is resolved merely by putting initiatives in successive columns on a roadmap.
 
-Strategy is the wider practice. This pattern governs reconciliation of strategic commitments across the different structures that supply their contributions. It connects ways of doing, overlapping work, developing subjects, means, capabilities and decision rights without treating them as one hierarchy or lifecycle.
+Strategy is the wider practice. This pattern reconciles strategic commitments when their work, means or decision rights cannot be considered independently. Relate who performs the work, how they do it, what they change or use and which contributions and decisions make the combined work possible.
 
-The practical gain is a usable common configuration: what can continue together, what must change in scope or timing, which contribution is displaced and which exact external condition remains unresolved. A bounded reconciliation can finish without redesigning the organization.
+The practical gain is a usable common configuration: what can continue together, what must change in scope or timing, which contribution is displaced and which external condition remains unresolved. A bounded reconciliation can finish without redesigning the organization.
 
 **Do not use this pattern** for one clear scheduling question or a single missing capability result whose direct owner can already answer it. Use ordinary operations, resource planning, Method or organization-change guidance when that is sufficient. Do not redraw every structure because one local estimate changed.
 
@@ -2517,9 +2789,9 @@ The description can conceal the conflict. A model of the future service is read 
 
 ### STR.14:4 - Solution
 
-Recover the concrete conflict and the unlike structures that change its answer. Compare genuinely different configurations, including continuation or stopping, and preserve the actual authority and realization conditions of the selected response.
+Recover the concrete conflict and the unlike structures that change its answer. Compare different configurations, including continuation or stopping, and preserve the actual authority and realization conditions of the selected response.
 
-Use an adequate C.32.MWA synthesis when available. When several non-matching structures themselves need reconciliation, its method supplies the common architecture account. Strategy adds the direction, horizon and commitment consequences; a drawing or synthesis does not perform the later work.
+For example, the order required by a trial method must fit the proposed work schedule and the availability of capable participants, while current service continues. C.32.MWA helps build one coherent account from these different relations when no single account settles the conflict. Reuse an adequate synthesis when available; relate its answer to the strategic direction, horizon and commitments.
 
 #### STR.14:4.1 - Anchor the conflict in actual or proposed work
 
@@ -2527,16 +2799,20 @@ Name the strategic subject, receiving decision, useful contribution, relevant ho
 
 For actual practice, recover the qualified occurrence and conditions that support the claim. For a possible arrangement, state the proposed configuration, its assumptions and what would realize and later test it. A plausible plan is not evidence of successful performance.
 
-Choose only the structures that can alter this answer. Typical distinctions are:
+Recover the relations that can change the conflict's answer. The following questions illustrate different relations to examine; use those relevant to the case.
 
-- Methods that specify different ways of obtaining results;
-- work that overlaps, depends on earlier work or shares scarce means;
-- the product, organization, person or platform whose change is at stake;
-- descriptions and models used to reason about those subjects;
-- capability, access and provider contributions needed for performance;
-- decisions held by different participants.
+| Question | Relation to recover |
+| --- | --- |
+| How is the required result obtained? | The parts of the way of working and any required order among its actions. |
+| Which work interferes with other work? | Actual or planned work that overlaps, depends on another result or competes for the same person's time or other means. |
+| What is being changed? | The work's relation to the product, organization, person or platform it changes. |
+| What does the description represent? | The plan or model's correspondence to the work or subject being described, including a material condition it omits. |
+| What makes performance possible? | The participant's needed capability and access, and the provider contribution on which the work depends. |
+| Who can change the commitment? | Each decision holder's authority over the scope, timing, resources or permitted use at issue. |
 
-The same person can participate in several kinds of work. A method order can constrain one dependency without ordering every concurrent activity.
+In SensorCo, the proposed trial needs preparation before customer use and interpretation, but current incident response must remain available during that work. The same engineers contribute to both. The trial's order of actions and the staffing plan therefore answer different questions: what must precede customer use, and whether the required people can cover the overlapping demands. Compare them together.
+
+Preserve these relations when comparing a narrower trial, changed timing or a qualified substitute. A sequence-only roadmap would hide the continuing incident demand, while a monthly total can hide the critical-day collision examined in section 5.1.
 
 #### STR.14:4.2 - Trace the joint contribution and its binding conditions
 
@@ -2544,7 +2820,7 @@ For each material commitment, identify what it must obtain, when it is needed, w
 
 Compare the same time window and units before adding quantities. A monthly person-day total can expose overload but conceal a critical-day collision, unavailable skill or forbidden use. Recover those conditions when they can change feasibility.
 
-Keep the holders distinct. The customer can control data access, the service owner can protect operating limits, the platform provider can supply a means, and a learner can need qualified capability. A strategy decision cannot replace their actual contributions.
+Distinguish authority over operating conditions, provision of means and capability gaps. The customer can control data access, the service owner can protect operating limits, the platform provider can supply a means, and a learner can need qualified capability. A strategy decision cannot replace their actual contributions.
 
 Ask what a description leaves out. A roadmap may show milestones but omit overlapping support; an organization chart may show responsibility but not available performance. Add the missing relation to the decision account rather than treating the picture as the practice.
 
@@ -2562,11 +2838,11 @@ Distinguish a feasible smaller whole from an unfinished fragment. A two-customer
 
 Return the supported configuration and trade-off to the holders of the relevant decisions. They may alter scope, allocate work, change an authorized sequence, retain the current course or reject the proposal. State the actual decision separately from the recommendation and from conditions that remain pending.
 
-A sum within capacity supports only that arithmetic result under its assumptions. It does not establish financing, participant agreement, capability, permission, value or safety. Obtain the exact missing professional result when the receiving choice depends on it, rather than requesting every neighbouring discipline by default.
+A sum within capacity supports only that arithmetic result under its assumptions. It does not establish financing, participant agreement, capability, permission, value or safety. Obtain the missing professional result when the receiving choice depends on it, rather than requesting every neighbouring discipline by default.
 
-Use OCE for a selected organization-capability change and OPS for actual service operation. Use the applicable human-capability and platform or systems-engineering contribution when those are the missing conditions. These owners retain their own work and authority.
+Use OCE for a selected organization-capability change and OPS for actual service operation. Use the applicable human-capability and platform or systems-engineering contribution when those are the missing conditions. The practitioners responsible for those contributions retain their own work and authority.
 
-If no feasible authorized configuration exists, name the exact conflict and its effect on the strategic choice. Deferral or a viable rival can be preferable to launching incomplete work.
+If no feasible authorized configuration exists, name the conflict and its effect on the strategic choice. Deferral or a viable rival can be preferable to launching incomplete work.
 
 #### STR.14:4.5 - Close the reconciliation and name its reconsideration condition
 
@@ -2602,7 +2878,7 @@ Two of the six platform days preserve device-compatible interfaces and maintenan
 
 The two unallocated days are not counted again as guaranteed incident reserve. They also do not prove that each critical day's staffing or required skill is available. The capacity owner must resolve any such material collision before a dependent allocation.
 
-In a constructed timing variant of the larger proposal, the only analyst qualified for the initial customer interpretation has eight working hours available on Tuesday. Current service needs six; the interpretation needs four on that same day. The customer cannot yet accept a later result, and no qualified substitute is available. The proposal demands ten hours from an eight-hour day even though its monthly total remains seventy-eight. Two unallocated engineer-days elsewhere in the month do not supply qualified Tuesday hours.
+In a constructed timing variant of the seventy-eight-day configuration, the only analyst qualified for the initial customer interpretation has eight working hours available on Tuesday. Current service needs six; the interpretation needs four on that same day. The customer cannot yet accept a later result, and no qualified substitute is available. The proposal demands ten hours from an eight-hour day even though its monthly total remains seventy-eight. Two unallocated engineer-days elsewhere in the month do not supply qualified Tuesday hours.
 
 The capacity owner returns this timing conflict before the dependent trial-use allocation. A changed customer deadline or a qualified substitute could permit a revised schedule; without either, defer that use and reconsider the service proposal. The monthly arithmetic, protected reserve and costed fallback remain valid. The collision concerns later customer interpretation, not the separately authorized four-day internal preparation.
 
@@ -2642,7 +2918,7 @@ Roadmaps can also overemphasize sequential progress. Preserve real precedence wh
 - Local gains expose displaced work and moved burden.
 - A smaller configuration still supplies a complete useful result.
 - Recommendation, actual allocation and pending professional results remain distinct.
-- A resolved conflict or exact blocker closes the bounded question.
+- A resolved conflict or blocker closes the bounded question.
 
 ### STR.14:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2762,7 +3038,7 @@ Locate the tension that changes action: unsupported confidence receives recognit
 
 Consider different explanations when their consequences would change the response. Non-use may reflect poor practical worth, a misleading instruction, missing access, lack of capability or an actual selection practice. Do not diagnose unwillingness merely from a missing result.
 
-If the method's worth is unresolved, use STR.13. If a description or source use is the issue, repair that exact contribution under its direct guidance. If time, capability or organizational support is missing, obtain the exact contribution rather than assuming that another message about values will supply it.
+If the method's worth is unresolved, use STR.13. If a description or source use is the issue, repair that contribution under its direct guidance. If time, capability or organizational support is missing, obtain the contribution rather than assuming that another message about values will supply it.
 
 A sufficient account can justify continuation. An independently adequate archive can remain useful even while the meeting's recognition practice needs attention.
 
@@ -2792,7 +3068,7 @@ Return the bounded current account, supported continuation or change, material u
 
 Use existing ordinary records where they suffice. A C.36 case or intervention card is useful when the receiving work needs those several claims kept together; it is not mandatory for every conversation.
 
-Retain the reasons and conditions that future users need, including useful criticisms and alternatives. State when a changed population, source, tool, recognition practice or observed use would require reconsideration. Close the present question without manufacturing an experiment, permanent monitoring service or culture score.
+Retain the reasons and conditions that future users need, including useful criticisms and alternatives. State when a changed population, source, tool, recognition practice or observed use would require reconsideration. Close the present question.
 
 ### STR.15:5 - Archetypal Grounding
 
@@ -2808,7 +3084,7 @@ The team can now distinguish useful retention from the recognition and later sel
 
 Compare three responses. Keep the useful archive and current discussion arrangement; add a template reminder; or change the decision discussion so the chair asks which qualified premise supports the preferred commitment and which serious rival remains. The third directly addresses the observed omission, while requiring discussion time and an authorized change in how contributions are considered.
 
-Suppose the Board chooses that bounded change for its next two strategy discussions. The chair will invite a qualified uncertainty statement, retain a material counterargument with its receiving decision, and recognize a useful correction rather than a confident number alone. This does not make every objection a veto or transfer the Board's choice to the analyst.
+Suppose the Board chooses that bounded change for its next two strategy discussions. The chair will invite a qualified uncertainty statement, retain a material counterargument with its receiving decision, and recognize a useful correction rather than a confident number alone.
 
 Before use, establish the time, participation and permitted handling of discussion material. The proposed observation asks whether the relevant premise and rival actually reach the next decision and how they are treated. It does not count template completion as enactment.
 
@@ -2921,7 +3197,11 @@ Two of the six customers are willing to discuss a bounded paid trial next quarte
 
 The Board's supplied criterion is to protect current service and its incident reserve, then seek a repeat paid contribution less exposed to generic-inspection price competition. It is willing to postpone a four-day device-diagnostic improvement for an attainable answer that could change the service decision. The criterion and trade-off belong to this case, not every Strategy use.
 
-STR.3 therefore frames a choice about a differentiated contribution under decision-relevant uncertainty. Device-only continuation remains the serious present rival. Licensing is not selectable before the required right exists. Exit is not preferable under these inputs because continuation can meet obligations without the added customer-transition burden.
+STR.3 therefore frames a choice about a differentiated contribution under decision-relevant uncertainty. Device-only continuation remains the serious present rival. Licensing is not selectable before the required right exists.
+
+For the exit comparison, assume that orderly exit and device continuation both satisfy the protected-service requirement under the three conditions below. The supplied comparison for this twelve-month decision includes the exposure avoided, net disposal proceeds, the best attainable use of released resources and any later consequence material to the choice. Under the Board's criterion, exit's supported advantages are outweighed by the continuing device contribution forgone and the full customer-transition burden.
+
+Continuation is therefore preferable to exit under these assumptions. Reopen that comparison if an exit benefit, transition burden, continuing contribution or protected-service condition changes enough to reverse it. Exit can become preferable while continuation remains feasible.
 
 ### Use different futures because they change the comparison
 
@@ -2933,7 +3213,7 @@ STR.4 and STR.9 compare the same twelve-month question under three plausible con
 | Purchasing freezes for the full horizon | Sustains existing contracts without service-development work. | No customer can undertake a paid trial in time to inform this choice. | If established before preparation, continue device-only and retain the four days for diagnostics. |
 | Customer-data reuse is restricted | Continues under its existing permitted uses. | A customer-local service may remain possible if its required use is permitted. | Continue preparation only while an attainable permission determination leaves a useful service option; otherwise prefer device-only. Cross-customer licensing is not a substitute for missing permission. |
 
-This is a qualified comparison, not a forecast of three actual events. STR.5 retains genuinely different directions and their filters. STR.6 forms complete options within them rather than treating “AI,” “training” and “platform” as competing strategies.
+This is a qualified comparison, not a forecast of three actual events. STR.5 retains different directions and their filters. STR.6 forms complete options within them rather than treating “AI,” “training” and “platform” as competing strategies.
 
 A customer-local service can have an internal delivery option and a provider-assisted option with different support and access dependencies. Keeping a useful description of an unselected possibility is distinct from funding its trial. A new contribution or constraint can change the option space, not merely rescore old members.
 
@@ -2965,7 +3245,7 @@ The team recommends four internal preparation days while retaining device-only c
 
 The Board separately selects and authorizes those four days from the eight-day preparation/use envelope. It does not authorize all eighteen proposed development days, trial execution, wider service obligations or capital commitment. The twelve-month direction remains open.
 
-STR.11 retains the PSD.10 limits in the decision: customer interest is not forecast revenue, incomplete costing is not a complete comparison, and missing licensing rights do not become available at approval. Future realization and financing decisions consume only the bounded commitment and the unresolved conditions it actually carries.
+STR.11 retains the PSD.10 limits in the decision: customer interest is not forecast revenue, incomplete costing is not a complete comparison, and missing licensing rights do not become available at approval.
 
 ### Reconsider in time and preserve independent work
 
@@ -2973,7 +3253,7 @@ STR.12 connects two illustrative signals to different returns.
 
 A qualified next-month workload forecast above eighty engineer-days, with the eight-day reserve preserved, must arrive before allocation. If the dependent trial has later been authorized and the agreed suspension rule applies, the service owner suspends it within that authority and the Board reconsiders scope. During the original preparation, there is no trial to suspend; the team returns the infeasible proposed allocation.
 
-If sufficient complete costing rules out a worthwhile service configuration during preparation, it can end the trial inquiry and support device-only continuation. If the cost gap emerges only after an authorized trial, it blocks expansion and returns the preference to the Board. A missing necessary cost component leaves the comparison unresolved rather than supplying that negative conclusion.
+If sufficient complete costing rules out a worthwhile service configuration during preparation, it can end the trial inquiry and support device-only continuation. If that sufficient adverse cost result is obtained only after an authorized trial, it blocks expansion and returns the preference to the Board. A missing necessary cost component leaves the comparison unresolved rather than supplying that negative conclusion.
 
 These are case-specific conditions, not an automatic pivot rule. Changed permission, finance or affected-party conditions can also matter. Independent device commitments and protected service continue where their basis remains adequate.
 
@@ -2983,17 +3263,17 @@ STR.13 asks whether the scenario-and-staged-option method is worth retaining for
 
 Suppose the team retains rejected directions and the Board receives qualified uncertainty, while recognition in the relevant discussions still favours confident sales claims. STR.15 can finish with that bounded account and a decision to keep the useful archive. A proposed change in how the Board considers premises and rivals needs its own authority, participant conditions and later observation. Publishing another template does not establish changed culture.
 
-The connected case therefore produces several useful results without one universal cycle owner: a frame, a qualified comparison, a four-day commitment, a conditional larger configuration, exact external-result needs and timely reconsideration.
+The connected case therefore produces several useful results without one universal cycle owner: a frame, a qualified comparison, a four-day commitment, a conditional larger configuration, external-result needs and timely reconsideration.
 
 ## APP-STR-02 - A professional considering a new practice
 
 A self-directed professional has eight hours a week after current obligations. A proposed new paid practice needs six hours of study and six hours of client development. An adviser may supply qualified DOCA directions and their limits; the person retains the choice and their hours.
 
-The first useful Strategy question can be commitment rather than opportunity construction. STR.5–STR.10 compare the current practice, a smaller exploration, a substitution for named existing work and deferral. Twelve additional hours do not fit within eight; calling study an investment does not supply time or income.
+The first useful Strategy question can be commitment rather than opportunity construction. STR.5–STR.10 compare the current practice, a smaller exploration, a substitution for named existing work and deferral. The specified programme requires twelve additional hours a week, exceeding the available eight by four.
 
-A two-hour exploration is not automatically worthwhile. If available evidence already shows that it cannot answer the live market question, the person can postpone it. If a bounded conversation can produce a useful first answer within permitted scope, its design must include preparation and closure, not only time with a prospective client.
+Compare a two-hour exploration with using existing information or postponing it. For example, a conversation with one prospective client may help clarify whether that client has the problem the proposed service would address. Its design must fit the permitted scope and include preparation and closure within the available time. The person can use the existing answer or postpone the exploration if the attainable answer would not improve this choice.
 
-The result can be a smaller authorized personal commitment or a supported stop. Corporate shareholder value cannot replace livelihood, learning opportunity, consent or non-monetary purposes. A career recommendation also supplies no professional health or capability assessment. Obtain such a result only if this actual decision needs it, under its direct conditions.
+The result can be a smaller authorized personal commitment or a supported stop. Use the person's livelihood, learning aims and other purposes, including non-monetary ones, in the comparison. The person decides whether to accept the commitment.
 
 ## APP-STR-03 - A public service under deep uncertainty
 
@@ -3001,7 +3281,7 @@ A municipal service faces uncertain demand for two delivery channels. Its respon
 
 STR.3 distinguishes uncertain consequences from a disagreement about whose access may be sacrificed. STR.9 compares service configurations under the same demand conditions; STR.10 preserves the protected limit. A temporary or inexpensive pilot excluding the most dependent users is not made acceptable by its average benefit.
 
-For a separate numerical illustration, assume both A and B satisfy access protection. Their waiting-time estimates across two demand conditions are A: ten and twelve; B: four and sixteen. Minimizing worst waiting time favours A, with twelve instead of sixteen. Maximum regret instead favours B: A's regrets are six and zero, while B's are zero and four. Neither rule changes the supplied estimates or obtains authority.
+For a separate numerical illustration, assume both A and B satisfy access protection. Their waiting-time estimates across two demand conditions are A: ten and twelve; B: four and sixteen. Minimizing worst waiting time favours A, with twelve instead of sixteen. Maximum regret instead favours B: A's regrets are six and zero, while B's are zero and four. Neither rule changes the supplied estimates.
 
 The responsible body must make its actual criterion and choice explicit. Existing evidence may support continuing one channel with a reversible addition; a larger survey cannot decide the protected-value question. STR.12 then names the observation, receiving decision and capable authorized responder in time for a meaningful adjustment.
 
@@ -3022,7 +3302,7 @@ The source contributions below support particular actions, not independent confi
 | Which alternatives should survive exploration? | [Toche, Pellerin and Fortin, 2020](https://doi.org/10.1017/dsj.2020.16), and [Al Handawi and colleagues, 2024](https://research.chalmers.se/en/publication/542239), inform selective retention and meaningful narrowing in STR.6–STR.9. | Immediate commitment saves carrying cost. Design research and a simulated component comparison do not establish universal strategic superiority. |
 | How can a trial remain accountable? | [OECD, 2024](https://doi.org/10.1787/7b246309-en), and its [2025 STI Outlook chapter](https://www.oecd.org/en/publications/oecd-science-technology-and-innovation-outlook-2025_5fe57b90-en/full-report/tools-for-agility-actionable-strategic-intelligence-and-policy-experimentation_288971cb.html), inform bounded experimentation and later disposition. | A temporary pilot is not automatically permissible. Participation, rights, funding and professional determinations retain their own conditions. |
 
-### Guide contributions and exact returns
+### Guide contributions and source passages
 
 R7, *Methodology*, in the original *Methodology in the intelligence stack* and *Theory of Strategizing / The concept of strategizing*, distinguishes using a known Method from searching when the desired result or obtaining way is unclear. It contributes explanatory way construction and decision-relevant refinement as well as plurality, useful intermediate possibilities and several work horizons. STR.5 and STR.6 adapt those moves without imposing novelty or a fixed decomposition depth on a sufficient existing use.
 
@@ -3032,11 +3312,11 @@ R11, *Development for Advanced*, in its 4 September 2026 source account, sharpen
 
 These are source-language practitioner syntheses, not field validation of Strategy. Their historical illustrations, programme claims and date-sensitive technology examples are not imported as present facts. The strategic actions needed for this edition are explained here and in the bodies. A stronger claim depending on an original Guide passage requires the matching source and its context; this standalone publication does not include the full Guides or establish their independent availability.
 
-### Direct framework and professional returns
+### Framework guidance and professional results
 
 Use the named FPF pattern for its actual common contribution: A.10/10.1 for reliance and changed uses; C.11 and C.11.DUA for choice and worthwhile evidence; C.11.CRC for a finite configuration comparison; C.38 for complete comparable ways; C.17–C.19 for applicable characterization and search distinctions; C.32.MWA for unlike-structure synthesis; C.36 for culture; and G.5/G.11 for their selected-set and refresh questions. These references do not require all their apparatus in every Strategy use.
 
-The Engineering DPF Suite provides separately identifiable companion publications. Its [Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) helps find the exact contribution; it is not another Strategy body or permission to act.
+The Engineering DPF Suite's [Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) helps locate the framework and pattern for the professional question.
 
 - [Development Opportunity Construction and Development Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md): DOCA.2 supplies contrasting leads; DOCA.3 separates and qualifies the worthwhile problem and proposed contribution, including provisional or negative returns. Reuse adequate DOCA.4/5 direction and reachability results or the DOCA.7 advising boundary when that is the missing contribution.
 - [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md): use the particular framing, values, uncertainty, consequence, robustness, recommendation or follow-up result. PSD.10's uncertainty limits remain operative in the SensorCo choice.
@@ -3045,7 +3325,7 @@ The Engineering DPF Suite provides separately identifiable companion publication
 - [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) and [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md): obtain the specific product, platform, operating-capacity or service result.
 - [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md): ME.14 and ME.15 supply situated Method worth and variant/reuse maintenance for STR.13's strategy-practitioner repertoire. Those judgements do not themselves obtain the subject's customer contribution.
 
-The exact DOCA, PSD and OCE contributions used here follow their 5 September 2026 source publications; later editions require checking the affected meaning and use, not automatic rejection or substitution. Other named contributions carry the specific pattern and result conditions stated in their receiving STR bodies. The adjacent file links are suite-relative: a standalone copy of Strategy does not contain the companions.
+The DOCA, PSD and OCE contributions used here follow their 5 September 2026 source publications. When using a later edition, check whether the contribution's meaning and use conditions still fit. Other named contributions carry the specific pattern and result conditions stated in their receiving STR bodies. The adjacent file links are suite-relative: a standalone copy of Strategy does not contain the companions.
 
 Financial, legal, safety or other professional conclusions may be available without a published sibling DPF. Use an adequate qualified result and actual permission where required. An absent product title is not a blocker; an absent necessary determination can be.
 

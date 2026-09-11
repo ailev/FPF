@@ -4,7 +4,7 @@ Construct a development opportunity, or enter development-direction advice with 
 
 Anatoly Levenchuk, with AI-assisted development and review.
 
-Amended release: 5 September 2026.
+Amended release: 11 September 2026.
 
 This framework is already in use and is continuously revised.
 
@@ -2472,7 +2472,7 @@ For a concrete currentness episode, suppose an adviser needs to know whether “
 
 The [predecessor opportunity-construction description](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#construct-a-bounded-development-opportunity), [advising profile](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#development-direction-advising) and [source-responsibility account](#predecessor-source-account-access) remain distinct sources, with their public expressions and access limits identified below. Their construction moves are carried by DOCA.1–DOCA.6, their actual engagement conditions by DOCA.7, and their affected-opportunity return by DOCA.8. Generic recommendation and follow-up continue to return to PSD. The new text alone does not supersede an earlier publication or erase its historical uses.
 
-The [Foundations programme](#foundations-programme-source-access) and [comparison](#foundations-programme-source-access) illustrate programme-level entry without an invented personal opportunity history. The [Guide Reconstruction baseline](#guide-source-access) and [R11 Guide](#guide-source-access) illustrate how a learner's narrative differs from a compact pattern body. This edition does not reproduce those products. Their examples do not supply a particular person's capability, programme fit or learning result; return those questions to the direct practices and evidence.
+The [Foundations programme](#foundations-programme-source-access) and [comparison](#foundations-programme-source-access) illustrate a programme design considered before a particular person's development question. A learner-oriented narrative can arrange explanations and practice for learning; a compact pattern body helps a practitioner select a move for a working difficulty. For a particular person's capability, programme fit or learning result, use the relevant direct practices and observations.
 
 Broader career-design exercises, motivation and learning-science accounts, real-options valuation, investment allocation, complete professional certification, legal/safety compliance and domain implementation are not reproduced here. Their omission is not permission to bypass them when a receiving claim needs them. Return that exact question to its actual current owner. Candidate E.23.CDI remains a possible-future contribution, not an available supplier.
 
@@ -2525,15 +2525,9 @@ Obtain the applicable source from the Learning Product maintainer when its full 
 
 ### Foundations programme source access
 
-**ThinkingFoundations + EngineeringFoundations** is the programme source; **Основания выбора и сравнение программ** is its supporting programme-choice and comparison account, with a source-inspection basis of 2 September 2026. They illustrate programme-level entry without an invented personal opportunity history. Their full working texts are not included here and no verified public retrieval route is supplied.
+**ThinkingFoundations + EngineeringFoundations** is the programme source; **Основания выбора и сравнение программ** is its supporting programme-choice and comparison account, with a source-inspection basis of 2 September 2026. They illustrate a programme design considered before a particular person's development question. Their full working texts are not included here and no verified public retrieval route is supplied.
 
 For that illustration's complete design and comparison, request both sources from the programme's responsible designer or maintainer. For an actual person's programme question, obtain the compatible HCD.2 comparison and the person's relevant starting conditions, later tasks, support and participation. The illustration supplies none of those individual premises. A different adequate programme comparison can enter the same advice or choice question directly.
-
-### Guide source access
-
-**Развитие для развитых**, by Anatoly Levenchuk, is the R11 Guide associated with the seminar of 1 February 2026. **Current-Baseline Reconstruction of R0 and R5–R11** is a source-to-guidance reconstruction account, not a replacement Guide. DOCA uses them to illustrate development explanations, source returns and the difference between learner-oriented narrative and compact pattern guidance.
-
-The exact working Guide and reconstruction account are not reproduced here, and no verified public retrieval route to those full sources is supplied. Request the required Guide passage or reconstruction result from the responsible Guide maintainer, stating which contribution and receiving use need it. Until that result is available, use the complete DOCA and supplying-pattern instructions actually obtained; do not infer an uninspected Guide mapping, a learner's capability or learning effectiveness. A later accepted Guide contribution can reopen only the uses it changes.
 
 ### Predecessor source-account access
 

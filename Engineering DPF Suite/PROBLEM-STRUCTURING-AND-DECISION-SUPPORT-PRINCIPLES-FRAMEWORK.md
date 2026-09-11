@@ -147,6 +147,7 @@ Problem Structuring and Decision Support also supports the maintenance of the Me
 
 ## PSD.Preface:1 - Start from the missing result
 
+
 A *pattern* describes a recurring difficulty and a useful way to respond. A *Method* is a reusable way of doing the work; a workshop appointment, diagram or software package is not that way merely because it carries a familiar name. Open the pattern that can change the current answer. If an adequate result already exists, use it within its conditions instead of restarting the inquiry.
 
 Some questions are contested. People can disagree about what is wrong, who bears a consequence, what counts as useful service or which evidence should matter. Preserve differences that change action. Making them explicit does not require every position to have equal evidential support, and a shared sentence does not establish unanimous endorsement.
@@ -154,6 +155,7 @@ Some questions are contested. People can disagree about what is wrong, who bears
 Other questions are already sufficiently formed. They can enter directly at a missing alternative, specialist premise, comparison or recommendation. A person exploring an opportunity can stop even earlier, without asking another performer for advice.
 
 ## PSD.Preface:2 - How the results connect
+
 
 Problem structuring makes a difficult situation investigable. It can change which question is worth answering, whose consequences are considered, what counts as the problem and which interventions become plausible. Decision support uses suitably qualified formulations, alternatives, value accounts and evidence to help a receiving decision. A problem formulation can be a complete useful return before a recommendation is possible; a well-formed question can also enter comparison directly.
 
@@ -167,6 +169,7 @@ Formulations and models inform the alternative construction in [PSD.8](#psd-8). 
 
 ## PSD.Preface:3 - Keep unlike contributions distinct
 
+
 A concern map can preserve what different participants mean. A hydraulic model can estimate a stated physical consequence. A value account can explain which differences matter to the receiving decision. These accounts can inform one another, but none becomes the represented situation or acquires the other's evidential authority.
 
 Likewise, human capability and transfer, organization arrangements, AI evaluation, legal conditions and safety are different questions. This framework helps specify the result needed from each practice and how its absence affects advice. It does not supply those practices' conclusions. Qualify a source's contribution for the subject and configuration of the advice; similar wording does not establish that its result applies elsewhere.
@@ -174,6 +177,7 @@ Likewise, human capability and transfer, organization arrangements, AI evaluatio
 State what each result supports. A description may explain a proposed arrangement; a claim that its relations already hold needs evidence about that arrangement. A score may inform a choice, which remains with the authorized chooser. Advice for a particular client needs results qualified for that case; an available Method alone does not supply them.
 
 ## PSD.Preface:4 - Qualify the whole combination for the receiving question
+
 
 Use the questions in [PSD.6, Combine contributions through explicit joins](#psd644---combine-contributions-through-explicit-joins) for the combination you actually propose. Each supplying result must be qualified for its own claim, fit the receiving subject, configuration, service meaning and horizon, and meet the conditions of joint use. State any conversion that needs additional work: a concern may suggest an objective, but its frequency of mention supplies no value weight; a scenario can condition analysis, but its presence supplies no probability.
 
@@ -187,15 +191,17 @@ The common practical tension is between obtaining a timely usable answer and pre
 
 ## PSD.Preface:5 - Complete a bounded answer in an open situation
 
+
 Useful inquiry does not require certainty about everything. It requires knowing what the present answer covers, what it leaves open and what could change it. A partial comparison, a retained pair of alternatives, a narrowly qualified recommendation or an exact request can complete the current question.
 
 Keep protected conditions outside a compensating score when their governing source requires that protection. If the requirement's justification is in question, use [PSD.9 §4.4](#psd-9) and C.11.DUA: compare its protective contribution with its full burden. State separately what change is justified, whether the requirement remains in force, and how it could be amended.
 
-If plausible variation in the estimates or value judgements used by a comparison or recommendation could change its conclusion, test that variation at proportionate effort through [PSD.12](#psd-12). Report whether and under what conditions the conclusion changes. State when a weight or probability is assumed. A missing premise should block only the claims that need it; independent content can remain useful.
+If plausible variation in the estimates or value judgements used by a comparison or recommendation could change its conclusion, test that variation at proportionate effort through [PSD.12](#psd-12). Report whether and under what conditions the conclusion changes. When the response at a central input can hide a consequential nonlinear difference, PSD.12 section 4.3.1 supplies a small paired-response check. Its constructed equal weights are not actual event probabilities. State when a weight or probability is assumed. A missing premise should block only the claims that need it; independent content can remain useful.
 
 A recommendation belongs to the advising activity. Prepare it for the recipient's intended use; leave the later choice and any authorization to the actors entitled to make them. Plans, performed work and observed effects need their own basis. This separation protects the recipient's agency and makes a later change intelligible: the new evidence may narrow advice without rewriting what was previously chosen or done.
 
 ## PSD.Preface:6 - Architectural Rationale
+
 
 The language joins problem structuring and decision support through their results because a technically sound answer can address an inadequate question, and an insightful reframing can leave the recipient with no usable comparison. Keeping the contributions individually addressable lets a practitioner repair the missing connection without repeating adequate work. It also preserves a direct inquiry result when no later recommendation is required.
 
@@ -213,6 +219,7 @@ The scope also includes improving and continuing this practice. A better way to 
 
 ### PSD.Preface:6.1 - The development-direction profile and neighboring results
 
+
 The [development-direction advising profile](#psd-advising-development-direction-advising) is a bounded use of the shared PSD contributions. Its difference is consequential: advice concerns a developing subject whose capability, support configuration, horizon and professional relationship can change what is supportable. A sponsor may differ from the person whose private assessment matters; human transfer evidence differs from an organization's arrangement comparison and from an AI configuration's evaluation. The profile's [guidance on evidence about the developing subject](#psd-advising-recover-only-the-relevant-holder-premises), [comparison guidance](#psd-advising-compare-for-this-receiving-use), [worked uses](#psd-advising-worked-uses-and-stopping-points), and [recognition and assurance account](#psd-advising-recognition-assurance-and-practical-gain) supply those narrower answers. Its professional source account retains the actual service boundaries; they do not become entry requirements for every PSD inquiry.
 
 The independently published [Development Opportunity Construction and Development-Direction Advising framework](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) offers directly addressed contributions when the missing result concerns development opportunities themselves. DOCA.3 constructs a worthwhile receiving problem and proposed contribution; DOCA.5 checks whether a development direction and its required supports can be achieved together; DOCA.7 bounds the distinct advising relationship. A qualified opportunity can enter PSD.8, and a bounded service can use the needed PSD comparison or recommendation. Use PSD.3 to examine a contested problem formulation. Use the contribution that is missing; a formed PSD question with adequate inputs needs no preceding DOCA traversal. The complete opportunity MethodDescription and advising profile included here retain their narrative uses.
@@ -222,6 +229,7 @@ The [direct-practice boundary account](#what-remains-with-another-practice) iden
 PSD therefore supplies a repertoire and explanations of its connected uses. A claim that a selected combination is one composite Method needs the whole action, identified part Methods, permitted variations and joins specified in PSD.6. A Part groups reading material; a profile narrows use; a result dependency states what one contribution needs from another. Those relations do different work. Reconsider the organization of the language when its field boundary, a profile's independently useful result, or a recurring contribution changes.
 
 ### PSD.Preface:6.2 - Why the source lines are combined
+
 
 Problem-structuring methods give the framework a substantive answer before optimization begins: make rival interpretations and their practical consequences available for inquiry. Smith and Shaw's [2019 characterization](https://doi.org/10.1016/j.ejor.2018.05.003) and Kogetsidis's [2025 application review](https://doi.org/10.1108/IJOA-08-2024-4746) support a diverse continuing practice, with exploratory and published-application limits. The framing comparisons used in PSD.3 add the need to make contextual changes visible. PSD uses these contributions to construct materially different formulations and stop when they are sufficient for the inquiry or decision they serve. It rejects both a sponsor's brief as an unquestioned final frame and endless collection of perspectives that changes no next action. The exact comparison and its source limits remain in [PSD.3, SoTA-Echoing](#psd311---sota-echoing).
 
@@ -237,11 +245,13 @@ Reconsider the affected arrangement when a simpler Method supplies the same usef
 
 ## PSD.Preface:7 - Whose conditions and evidence shape the answer
 
+
 The sponsor's first question, the participants who can attend, and the analyst's familiar models all affect what is made visible. Record whose concerns are attributed, which affected people or consequences remain unrepresented, and how a material correction can reach the result. PSD.2 and PSD.7 provide that work. More participation does not make all claims equally supported, and a dissenting position has only the practical or institutional effect justified in the case. Domain rules determine a right, duty or protected condition.
 
 The worked applications emphasize institutional investment and development advice. They are constructed teaching cases, and the source studies have their own populations, professional settings and access limits. A practitioner transferring the guidance must qualify local meanings, communication access, evidence and service conditions that can alter use. Method familiarity, fluent AI output, participant confidence and publication visibility can all be mistaken for support of a different claim. The relevant pattern's evidence and bias questions help locate that claim; no single confidence measure qualifies the whole inquiry.
 
 ## PSD.Preface:8 - Questions before relying on a combined return
+
 
 The opening and direct entries help recognize the first useful action. Assurance asks whether the result is supported for its intended reliance. Use the checklists in the patterns actually selected, and reuse their qualified answers when the subject, content, receiving use and conditions remain the same. For the combination, answer the following questions:
 
@@ -255,6 +265,7 @@ The opening and direct entries help recognize the first useful action. Assurance
 These questions address failures shown in the applications: one service phrase hiding unlike concerns, an unjustified conversion of qualitative meaning into a score, and a partial comparison presented as a whole recommendation. Correct the particular meaning, obtain the missing contribution or narrow the return. Answer the questions in the working account the recipient needs; actual performance and later effects require their own evidence.
 
 ## PSD.Preface:9 - Let practice change without making every case start over
+
 
 A corrected concern, altered access condition or new model configuration can change the current result. Identify the claims that depend on the change and ask the responsible practitioner to reconsider them. Obtain and interpret the relevant observation before choosing a response; the mere arrival of a notice is not evidence that the new configuration is safe or effective.
 
@@ -2438,7 +2449,7 @@ A consequence comparison connects proposed actions to values through qualified c
 
 Start with one claim: what exactly should remain true, under which changes? Vary the decision-bearing conditions within a justified range and inspect where the claim survives or fails. The gain is a bounded statement of stability and a useful next question, not the adjective “robust” applied to an entire project.
 
-The governed object is that robustness account. **Sensitivity** describes how a result changes with inputs, assumptions, or models. **Robustness** says whether a declared performance, admissibility, or comparison condition continues to hold across specified variation. A sensitive magnitude can leave the preferred set unchanged; an insensitive average can hide a decisive threshold crossing.
+The governed object is that robustness account. **Sensitivity** describes how a result changes with inputs, assumptions, or models. **Robustness** says whether a declared performance, admissibility, or comparison condition continues to hold across specified variation. A sensitive magnitude can leave the preferred set unchanged; an insensitive average can hide a decisive threshold crossing. Section 4.3.1 supplies a small paired-response test when the response at a central input can conceal such a difference.
 
 **Do not use this pattern** when a current robustness result already covers the exact comparison and changes now in question. Use direct model validation for whether a model is adequate in the first place, and the authorized choice owner for the actual decision or probe. Stability inside a model does not validate the model or authorize action.
 
@@ -2490,7 +2501,21 @@ Keep empirical variability, model uncertainty, and value disagreement distinguis
 
 A computational result is limited by the tested region and procedure. An analytical inequality may establish a whole region under its assumptions; a finite sample usually establishes only sampled behavior unless a further guarantee is justified. State that difference.
 
+##### PSD.12:4.3.1 - Compare a central response with two equally displaced inputs
+
+Use this small test when the response to a varying input may make a central estimate misleading. It needs a response account suitable for the stated comparison, not an assumed probability distribution.
+
+1. Name the input and the response it affects. Fix the arrangement, affected subject, time window, other relevant conditions, response unit and preferred direction. Choose a central input `x` and displacement `h > 0` so that `x-h`, `x` and `x+h` lie within the account's admissible domain. Equal input differences and averaging the responses must be meaningful on their respective scales; numerical labels alone do not suffice.
+2. Obtain the three comparable response values from the qualified model or suitable observations. For response `r`, calculate the endpoint mean and its difference from the central response: `D = (r(x-h) + r(x+h))/2 - r(x)`. The equal weights define this constructed test. Calling the mean a real-world expectation requires a separately qualified probability model.
+3. Interpret `D` on the declared response coordinate. A positive difference means the endpoint mean exceeds the central response: worse for a loss, better for a benefit whose higher value is preferred. For a target-valued response, use its declared preference rule. Zero means no midpoint gap at these three points; it does not prove linearity or robustness over an interval. Examine each tested response against any independently justified threshold as well.
+4. Widen the displacement or test another consequential condition only when it could change the receiving decision and the model's domain permits it. Report the tested values and gaps; do not turn one finite comparison into a regional convexity, derivative or global robustness claim.
+
+If the response account or scale is inadequate, return that specific limit. A clearly conditional calculation or qualitative comparison may remain useful; requesting more observations is a separate worth question, not an automatic next step.
+
+When a harmful response suggests changing exposure, formulate the actual alternative arrangement and compare its whole contribution through `C.11.CRC`. Include the means, carrying burden and displaced work required to maintain a proposed protection. A stated spending limit alone does not enforce a consequence limit. `C.16` governs quantity and scale use; `C.29` governs a needed mathematical-representation correspondence and its transfer limits. The robustness account remains the result here.
+
 #### PSD.12:4.4 - Map holding regions and reversals
+
 
 Report which condition holds in each relevant region, where alternatives exchange order, where a threshold is crossed, and where the comparison becomes unsupported. Include boundaries and ties when they can change the return.
 
@@ -2548,7 +2573,24 @@ A different declared test asks whether modeled service loss is at most 4 hours i
 
 The account returns the reversal boundary, the limited threshold result, the unresolved probability and value premises, and S's candidate gap. Reachable assistance, wider property consequences, and protected conditions still require their direct results. None of the calculations authorizes a pump investment.
 
+##### PSD.12:5.1.1 - A separate constructed delay-response question
+
+Keep the preceding probability and value-reversal question separate. For this new illustration, fix a thirty-day service window and one access interruption. A stipulated model supplies the service-loss hours for F and M at three access delays; lower service loss is preferred. Each arrangement and all other modeled conditions stay fixed while delay varies.
+
+| Access delay in days | F: service-loss hours | M: service-loss hours |
+| --- | ---: | ---: |
+| 0 | 2 | 1 |
+| 1 | 2.5 | 3 |
+| 2 | 3 | 9 |
+
+With `x = 1` day and `h = 1` day, M's central response is 3 hours, its endpoint mean is `(1 + 9)/2 = 5` hours, and `D = 2` hours. F's central response and endpoint mean are both 2.5 hours, so its `D = 0`. F has no midpoint gap at these three points; this does not establish a linear response between them.
+
+Under the separately declared four-hour service-loss criterion, M's two-day response of 9 hours fails. F satisfies that criterion at the three stated points only. Neither endpoint mean is an expected real loss without a probability basis, and a central response below four hours does not settle the endpoint test.
+
+The useful return is the finite response difference, M's failure condition and the remaining model and coverage limits. F's additional investment and the feasibility of any alternative access protection still need their whole-configuration comparison. If the stipulated model lacks support for real use, retain the calculation as conditional or illustrative; do not report an established pump-performance result. No additional observations or investment are authorized by it.
+
 #### PSD.12:5.2 - What would change a development recommendation?
+
 
 In the illustrative ninety-day organization case, I is internal development with covered service duties and H is a mixed human–tool arrangement. The earlier supplier bounds, 12–18 and 8–20 service-loss hours, do not establish a robust ordering.
 
@@ -2581,6 +2623,7 @@ Winner-protection bias selects narrow ranges or convenient criteria. Scenario-co
 - [ ] Binding conditions are not silently relaxed as parameters. A disputed requirement's merits return remains separate from its present force and from the robustness result.
 - [ ] Tests address relevant interactions, structural differences, and omitted alternatives.
 - [ ] Sampled behavior, analytical region claims, and unsupported extrapolation are distinguished.
+- [ ] A paired-response test states its admissible inputs, comparable response scale, construction weights, preferred direction and exact finite result; no midpoint gap or constructed mean is overread as global robustness or an actual expectation.
 - [ ] Holding regions, ties, reversals, failures, and gaps are reported at their actual scope.
 - [ ] Information priorities concern attainable decision-changing results and include cost or feasibility limits.
 - [ ] Adaptive claims account for observation, lead time, response feasibility, and later authority.
@@ -2611,6 +2654,7 @@ A decision-support result is strengthened by exposing its reversal conditions, n
 | --- | --- | --- | --- | --- | --- |
 | How can a comparison remain useful when future conditions or models are unsettled? | Stress-test declared performance and comparison claims across justified conditions; examine feasible adaptation where it matters. | Optimize one forecast or call an unspecified staged policy robust. | **Adapt:** :4.1–:4.4 and :4.6 return bounded holding and failure regions. Extra scenario and response analysis is accepted when a single forecast or assumed flexibility can conceal failure. | Lempert et al.'s [2024 DMDU analysis](https://doi.org/10.3389/fclim.2024.1380054) supplies the current robust-decision line; the [2019 DAPP chapter](https://doi.org/10.1007/978-3-030-05252-2_4) supplies pathway, timing, and failure-condition distinctions. Their applied domains do not supply universal thresholds, scenario probabilities, or local authority. | Reopen when an omitted condition, implementation lead time, or response constraint defeats the stated region. |
 | Which sensitivity result should guide further inquiry? | Link local and joint sensitivity to the decision boundary and the value of attainable information. | Use output variance or a one-factor chart as a universal research priority. | **Adapt:** :4.3–:4.5 distinguish magnitude sensitivity, reversal, and probe value. More computation is justified only when the added question can change the bounded return; actual probe choice remains separate. | Borgonovo et al.'s [2026 review](https://doi.org/10.1016/j.ejor.2025.05.023) is the synthesis candidate for sensitivity and information acquisition. Its formal approaches need their own model assumptions; `C.11` retains the local choice and probe-worthiness result. | Reopen when the feasible probe, decision window, dependency model, or costs change. |
+| What can a central-input response conceal? | Compare the central response with a symmetric endpoint mean and test consequential thresholds separately. | Rely on the central response alone or infer a whole-region property from three points. | **Adapt:** :4.3.1 and :5.1.1 make a finite nonlinear-response check usable without inventing probabilities. | Taleb and West's [2023 finite-difference and convexity account, §III-C and Appendix B](https://arxiv.org/html/2209.14631v2), supplies the distinction between a finite comparison and stronger smoothness, regional or probability claims. Its clinical models do not validate a decision-support response model. | Reopen when the response model, scale, supported domain, subject or decision threshold changes. |
 | What if the value model, rather than the forecast, is incomplete? | Test relations across the models compatible with the expressed preferences. | Treat one fitted weight vector as uniquely known. | **Adapt:** :4.1–:4.4 retain value-dependent reversals instead of calling preference uncertainty factual noise. The deliberate trade-off is a possibly larger retained set. | Greco, Słowiński, and Wallenius's [2025 MCDA review](https://doi.org/10.1016/j.ejor.2024.07.038) supplies robust ordinal regression as a best-known-line candidate for this question, not a requirement to use one algorithm or to collapse participants' values. | Reopen when elicitation or a legitimately governed value decision changes the compatible model set. |
 
 ### PSD.12:12 - Relations
@@ -2618,6 +2662,8 @@ A decision-support result is strengthened by exposing its reversal conditions, n
 - `PSD.11` may supply the consequence comparison and its evidence for the same configuration and horizon. Evidence enables this test but does not establish its result.
 - `PSD.13` may consume robust regions, reversals, and information priorities as evidence for its recommendation. This neither entails the recommendation nor transfers the later choice authority.
 - `A.10` governs bounded evidence reliance; direct domain and modeling practices govern the validity of claims, models, ranges, and tests. Changed actual source uses receive their direct revalidation rather than a blanket robustness assertion.
+- `C.16` governs quantities, scales and response comparability; `C.29` governs a needed mathematical representation and its correspondence limits. Neither supplies domain validation merely through the calculation.
+- `C.11.CRC` compares a proposed finite change to the arrangement, including the feasibility and burden of maintaining a protection. A sensitivity result does not itself change that arrangement.
 - `C.11` governs an actual local choice and the worth of another probe. Information priority, probe selection, WorkPlan, performed inquiry, and observed effect remain distinct results.
 - Candidate formation, value elicitation, model repair, and follow-up remain their own questions when the test exposes a gap there. Missing or incompatible inputs require a qualified direct result or an exact stop, not an invented prerequisite lifecycle.
 

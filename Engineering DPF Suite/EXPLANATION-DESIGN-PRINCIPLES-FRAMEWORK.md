@@ -4,7 +4,7 @@ Help a recipient recover and use a warranted connection by choosing the question
 
 Anatoly Levenchuk, with AI-assisted development and review.
 
-First edition: 9 September 2026.
+Release date: 11 September 2026.
 
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
@@ -134,7 +134,7 @@ When a required connection lacks a warrant, return the exact missing question. A
 
 Select a supplying practice by the actual subject. Method Engineering supplies Method content and the rationale for a pattern language. Problem Structuring and Decision Support supplies recommendation grounds; Development Opportunity Construction and Development Direction Advising supplies the advising engagement's conditions. Human Capability Development supplies representative instructional tasks, criterion-bearing feedback and task-specific assistance. Structure-to-Narrative Rendering supplies a connective account when that form is useful. Research Method Practice supplies the research return when a scientific explanation still needs construction or criticism.
 
-The research return can itself produce useful progress. The research exercise in *Modeling as a Basis of Communication and Leadership*, Tasks 4, moves from a puzzling observation to a question, two or three rival hypotheses, criticism before experiment and an initial report. Further empirical work is selected when it can change the answer. The hypothesis count belongs to that exercise. The RMP methods qualify a research question, choose a design or sufficient-evidence stop, and revise the affected claims. Communicating an available account does not replace these positive subject contributions.
+The research return can itself produce useful progress. For example, a research exercise can move from a puzzling observation to a question, two or three rival hypotheses, criticism before experiment and an initial report. Select further empirical work when it can change the answer. The RMP methods qualify a research question, choose a design or sufficient-evidence stop, and revise the affected claims. Communicating an available account does not replace these subject contributions.
 
 This entry carries supplied subject results into explanation work. The six constructive Methods address remaining explanatory difficulties; a duplicate general Method for creating every possible subject explanation would obscure where the warrant comes from.
 
@@ -1045,9 +1045,7 @@ FPF remains the external foundational framework. This edition uses the September
 | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md), 5 September 2026 | PSD.13 supplies decisive recommendation grounds, alternatives and reconsideration. | A relied-on premise, alternative or preference changes. |
 | [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md), amended release 5 September 2026 | DOCA.7 supplies the advising engagement's conditions, including resources and authority. | An engagement condition or the recommendation's feasibility changes. |
 | [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md), nine-pattern edition, 8 September 2026 | RMP.1/.2/.8 supply qualified questions, research-design or sufficient-evidence choice, and revision of the affected account. | The subject question, rival explanation, evidence or receiving reliance changes. |
-| [Narrativization and Narrative Studies](../Narrativization-and-Narrative-Studies-Principles-Framework.md), 9 September 2026 | Its Preface and NSTD.6/.8 inform the synthesis of source, cognitive and production contributions and the bounded narrative-form choice. | A relied-on contribution or the explanation's narrative use changes. |
-
-The positive research exercise cited in the Preface is *Modeling as a Basis of Communication and Leadership*, Guide R2, Tasks 4, in the R1–R3 pedagogical companion edition used on 9 September 2026. The companion guide is supplied separately under the title *Modeling as a Basis of Communication and Leadership*. If that guide is unavailable, the public RMP.1/.2/.8 entries still supply the stated research return; do not infer the guide's exact exercise from them.
+| [Narrativization and Narrative Studies](https://github.com/ailev/FPF/blob/main/Narrativization-and-Narrative-Studies-Principles-Framework.md), 9 September 2026 | Its Preface and NSTD.6/.8 inform the synthesis of source, cognitive and production contributions and the bounded narrative-form choice. | A relied-on contribution or the explanation's narrative use changes. |
 
 The source choices above are use-specific. Reopen a receiving claim when its premise or evidence no longer fits, a necessary source becomes unavailable, or the proposed use asks for a stronger effect. Preserve independently supported accounts and explicit conditional answers.
 
@@ -1055,7 +1053,7 @@ The source choices above are use-specific. Reopen a receiving claim when its pre
 
 ## Citation
 
-Anatoly Levenchuk. *Explanation Design Principles Framework*. First edition, 9 September 2026. Cite a particular Method by its EXD.1–EXD.6 address and title, together with this edition. The framework's [FPF publication repository](https://github.com/ailev/FPF) is the public discovery route.
+Anatoly Levenchuk. *Explanation Design Principles Framework*. Release of 11 September 2026. Cite a particular Method by its EXD.1–EXD.6 address and title, together with this edition. The framework's [FPF publication repository](https://github.com/ailev/FPF) is the public discovery route.
 
 ## Naming settlement
 

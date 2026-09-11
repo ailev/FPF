@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 10 September 2026
+- **Version:** 11 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -26,6 +26,8 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Evaluate instructional material](#evaluate-instructional-material-for-its-intended-use) | Worksheets, explanations, learning routes, evaluation specifications, reader tasks, assistance and material repair. |
 | [Make an explanation understandable and usable](#make-an-explanation-understandable-and-usable) | Explanatory questions and grounds, examples, text and diagrams, dialogue, learner explanations and worthwhile repair. |
 | [Keep an operation working](#keep-an-operation-working) | Operating subjects, admission, cases, priority, queues, buffers, constraints, capacity, human conditions, service commitments, accounts, quality, simultaneous work and culture. |
+| [Explain resource use, costs and operating accounts](#explain-resource-use-costs-and-operating-accounts) | Resource demand, capacity, shared costs, profit and cash, forecasts, targets, margin differences, customer economics and accounting incentives. |
+| [Model financial positions and effects](#model-financial-positions-and-effects) | Parties and groups, rights and duties, contractual events, conditional flows, actual effects and financial-service use. |
 | [Fulfil an administrative request](#fulfil-an-administrative-request-and-improve-its-handling) | Participants, permissions, effective dates, provision, exceptions, obligations, records, controls, provider contributions and administrative burden. |
 | [Maintain equipment and manage maintenance](#maintain-equipment-and-manage-maintenance) | Maintenance policy, failure and condition, diagnosis, spares, outage, protection, work, restored functioning, hand-back, history, fleet, Methods, simultaneous work and culture. |
 | [Choose how to use and change engineered assets](#choose-how-to-use-and-change-engineered-assets) | One asset, asset systems, portfolio, continued use, renewal, replacement, service, whole cost, risk, shared constraints, timing, realized outcomes and asset-management practice. |
@@ -75,6 +77,8 @@ Use Strategy when a worthwhile contribution or obtaining way remains unsettled, 
 | Which uncertainty or plausible future could change our choice? | [STR.3 - Frame Uncertainty and the Strategic Problem](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-3), [STR.4 - Construct Several Scenarios](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-4) | Useful framings and discriminating futures, with their evidence limits. Reuse an adequate PSD uncertainty result. |
 | We have a lead but no settled contribution. What could be worthwhile? | [STR.5 - Generate Strategic Directions](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-5) | A qualified or provisional problem/contribution account and its discriminating question, or a conditional direction filter when the contribution is sufficiently understood. Reuse an adequate direction. |
 | The contribution is clear, but how could we obtain it and which options should remain open? | [STR.6 - Generate Option Families](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-6) | Explained whole options with their support and exact gaps, including worthwhile continuation or withdrawal alternatives and the cost of preserving them. Reuse an adequate obtaining Method; an unexplained or unsupported way is not established capability. |
+| We have a design, working procedure or intermediate result worth developing. What can we try before its contribution is settled? | [STR.6 - Generate Option Families](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-6), section 4.4 | An examined variation, reusable material for the next attempt and a reason to continue or stop. |
+| Can a way that worked for one problem help with a changed problem? | [STR.6 - Generate Option Families](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-6), section 4.5 | A result checked against the changed problem's requirements, with the next adaptation, problem revision or stop. Earlier uses retain their stated conditions. |
 | Would an experiment help enough, and what would make the option feasible? | [STR.7 - Design Bounded Experiments and Preserve Option Diversity](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-7), [STR.8 - Relate Capabilities, Dependencies, Business Models, and Initiatives](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-8) | A justified bounded experiment or a sufficient no-experiment answer; the capability, permission and other contributions that the option actually needs. Missing permission stops dependent use. |
 | How robust are the options, and what can we responsibly recommend or commit to? | [STR.9 - Compare Robustness and Option Value](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-9), [STR.10 - Compare Commitments and Affected-System Consequences](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-10), [STR.11 - Select Strategy, Portfolio Commitments, and Assumptions](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-11) | A consequence-qualified comparison, retained alternatives or a recommendation. The authorized decision holder separately bounds any commitment. |
 | Which signal should reopen the decision, or which Method for strategy work still fits? | [STR.12 - Observe Signals and Pivot, Pause, Stop, or Continue](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-12), [STR.13 - Develop and Refresh Strategy Methods](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-13) | A timely follow-up decision or a supported choice among the strategy practitioner's search, comparison or revision Methods, reopened only where changed conditions matter. Use STR.6 for the subject's missing obtaining way. |
@@ -247,6 +251,38 @@ Use the [Operations Management DPF](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.m
 | Which Operations practice should this population continue or change? | [OPS.20 - Deliberately Continue and Change Operations Culture](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-20) | A supported decision about continuing or changing the practice; further observation only when its attainable contribution justifies the effort. |
 
 The [archive case](#how-can-two-archive-services-share-staff-without-losing-their-commitments) combines only the OPS contributions needed for one allocation question. The remaining patterns are available for their own working conditions; their availability does not add them silently to that case.
+
+### Explain resource use, costs and operating accounts
+
+Management Accounting helps a controller, accountant or manager explain how work uses resources and how that use appears in money, forecasts and performance accounts. Begin with the decision or account that needs a better explanation. A small model of the relevant work can be sufficient.
+
+| Working question | Start with | Result |
+| --- | --- | --- |
+| What resources will the proposed work consume, and what will they cost? | [MA.1 - Build the Resource-Consumption and Cost Model](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) | A resource-consumption and cost model with the detail needed for the operating decision. |
+| Do released hours mean available capacity or lower payments? | [MA.2 - Explain the Cost and Use of Capacity](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) | An account distinguishing paid capacity, usable capacity, reserve and payment consequences. |
+| How should shared costs be assigned for this use? | [MA.3 - Assign Shared Costs for the Stated Use](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma3---assign-shared-costs-for-the-stated-use) | An allocation suited to the stated use, with its tracing and capacity assumptions. |
+| Why do operating results, reported profit and cash differ? | [MA.4 - Reconcile Operating, Reporting and Cash Accounts](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma4---reconcile-operating-reporting-and-cash-accounts) | A reconciliation that preserves the meaning of operating, reporting and cash accounts. |
+| How should the operating forecast change with demand or supply? | [MA.5 - Construct and Update an Operating Forecast](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast) | An updated forecast with its assumptions, scenarios and consequential supply thresholds. |
+| Is this number a forecast, a target, a request or an authorization? | [MA.6 - Separate Forecasts, Targets and Resource Requests](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma6---separate-forecasts-targets-and-resource-requests) | Separate expectations, targets and resource requests, with the authorized amount distinguished. |
+| What explains this cost or margin difference? | [MA.7 - Explain a Cost or Margin Difference](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma7---explain-a-cost-or-margin-difference) | An explanation that separates volume, mix, usage and price contributions, with limits on causal claims. |
+| How do customer or product economics change over time? | [MA.8 - Account for Customer and Product Economics Over Time](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma8---account-for-customer-and-product-economics-over-time) | An account of acquisition, retention, support and scale over the relevant horizon; finance supplies a needed valuation. |
+| What behavior does this account or target encourage? | [MA.9 - Examine the Behavioral Effects of an Account](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma9---examine-the-behavioral-effects-of-an-account) | An account of consequences and distortions, such as inventory building or hidden forecast changes. |
+
+[Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) uses these accounts for operating comparisons. A forecast can inform a resource decision while the authorization remains a separate result.
+
+### Model financial positions and effects
+
+Financial Domain Modeling helps a financial practitioner, business modeler or service designer establish whose financial position a model describes, what events can change it and how a service contributes to a participant's result. Its five methods connect parties, rights and obligations, contractual flows, actual effects and service use.
+
+| Working question | Start with | Result |
+| --- | --- | --- |
+| What financial position does this record describe? | [FDM.1 - Recover the Financial Position Behind a Record](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md#fdm1---recover-the-financial-position-behind-a-record) | The relevant rights, duties and record claims for the stated party. |
+| Which party or group has this financial position? | [FDM.2 - Choose the Party and Group Boundaries](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md#fdm2---choose-the-party-and-group-boundaries) | Boundaries that distinguish the debtor, entity or group and the cash it can use. |
+| Which contractual events and payments can follow? | [FDM.3 - Derive Contractual Events and Conditional Flows](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md#fdm3---derive-contractual-events-and-conditional-flows) | A schedule of contractual events and conditional flows, distinguished from actual flows. |
+| What did the approval, posting or payment actually change? | [FDM.4 - Establish What a Financial Action Changed](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md#fdm4---establish-what-a-financial-action-changed) | The established financial effect and any remaining obligation under the applicable rules. |
+| How does this financial service help the participant? | [FDM.5 - Trace a Financial Service to a Participant's Result](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md#fdm5---trace-a-financial-service-to-a-participants-result) | A connection from the service output to its use and the participant's result, such as admission or financial benefit. |
+
+Use [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) when separately governed meanings or identities need reconciliation. Financial Domain Modeling supplies the financial interpretation; the relevant decision practice uses it.
 
 ### Fulfil an administrative request and improve its handling
 
@@ -628,7 +664,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-10 September 2026.
+11 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 

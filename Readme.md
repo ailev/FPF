@@ -1,4 +1,4 @@
-# First Principles Framework (FPF)
+# First Principles Framework (FPF) Ecosystem
 
 > **AI-native declarative pattern languages for engineering work.** FPF gives engineers and AI agents a shared, precise language for Systems, Methods, architecture, Work, evidence, verification, decisions, improvement, and communication.
 
@@ -10,7 +10,7 @@
 
 **Status:** normative kernel and evolving ecosystem; eternal alpha—already used in working projects and development programs while continuing to change.
 
-FPF is no longer only one Core specification. This repository contains the transdisciplinary **FPF Core**, the **Engineering DPF Suite**, and a separate **Narrativization and Narrative Studies DPF**. Together they form an ecosystem of FPF-grounded pattern languages for difficult work across engineering, research, management, education, and other domains.
+This repository publishes the transdisciplinary **FPF Core**, the **Engineering DPF Suite**, and the **Narrativization and Narrative Studies DPF**. This Readme helps you choose among these publications. The [Readme inside FPF Core](./FPF-Spec.md#first-principles-framework-fpf-readme) gives practical examples of using Core; the [Suite Readme](./Engineering%20DPF%20Suite/README.md) helps you choose and combine its DPFs.
 
 FPF is designed for two complementary uses:
 
@@ -49,7 +49,7 @@ An AI agent can therefore help choose the **next justified move** without preten
 
 ### Engineering DPF Suite
 
-The table lists 18 DPFs in the current Suite plan. **Published - N patterns** gives the number of pattern bodies in the linked publication; **Planned publication** marks a selected DPF whose text is not yet available here. Each published DPF has a full pattern index.
+The table lists 20 DPFs in the current Suite plan. **Published - N patterns** gives the number of pattern bodies in the linked publication; **Planned publication** marks a selected DPF whose text is not yet available here. Each published DPF has a full pattern index.
 
 | Domain pattern language | Publication status | What it covers or is planned to cover |
 | --- | --- | --- |
@@ -63,6 +63,8 @@ The table lists 18 DPFs in the current Suite plan. **Published - N patterns** gi
 | [**Maintenance Engineering and Management DPF**](./Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Published - 16 patterns | maintenance policy; condition evidence and diagnosis; support readiness; intervention recommendations and protected work; verification and return to use; maintenance information; programme coordination; Method improvement; simultaneous Work; and maintenance culture. |
 | [**Human Capability Development DPF**](./Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Published - 19 patterns | human capability needed for later Work; demand and capability profiles; target practice; development interventions; assessment, transfer and retention; providers and support; development portfolios; qualification; and characterization and evaluation of instructional material. |
 | [**Strategy DPF**](./Engineering%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md) | Published - 15 patterns | finding worthwhile contributions and ways to obtain them; direction under uncertainty; options and scenarios; capabilities, dependencies and initiatives; investments and business models; commitments; and decisions to revise, pivot, pause or stop. |
+| [**Management Accounting DPF**](./Engineering%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) | Published - 9 patterns | cost models for resource use and capacity; allocation of shared costs; reconciliation of operating results, financial reports and cash; forecasts, targets and resource requests; explanation of margin changes; customer and product economics; and behavioral effects of accounting measures. |
+| [**Financial Domain Modeling DPF**](./Engineering%20DPF%20Suite/FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) | Published - 5 patterns | financial positions, rights and obligations; boundaries of parties and groups; contractual events and payment flows; effects of approvals, postings and payments; and the contribution of a financial service to a participant's result. |
 | **Corporate Finance DPF** | Planned publication | financing, liquidity and working capital; capital allocation and valuation; cost of capital and capital structure; financial exposure; and consequences for other organizational decisions. |
 | **Corporate Governance DPF** | Planned publication | ownership and voting rights; board responsibilities; executive oversight; conflicts of interest and minority treatment; disclosure; audit, control and corporate accountability. |
 | [**Engineering Asset Management DPF**](./Engineering%20DPF%20Suite/ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) | Published - 16 patterns | value, service, cost, risk and capacity over the lives of engineered assets; continued use, renewal, replacement and other changes for one asset, interacting asset systems or portfolios; shared constraints, timing and asset-management practice. |

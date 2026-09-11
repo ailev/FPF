@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 10 September 2026
+- **Version:** 11 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -28,7 +28,7 @@ You can read this way yourself, use a pattern in a working meeting, or ask an AI
 
 ## Choose a DPF
 
-The public folder contains fifteen published DPFs with 258 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains seventeen published DPFs with 272 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -41,6 +41,8 @@ The public folder contains fifteen published DPFs with 258 pattern bodies. Start
 | Find a worthwhile contribution or an obtaining way, and relate direction, options and bounded commitments under uncertainty. | [Strategy](STRATEGY-PRINCIPLES-FRAMEWORK.md) - 15 patterns | A qualified or provisional problem/contribution account, conditional direction, explained options with their support and gaps, comparison, recommendation or authorized commitment; a decision about conflicting work, changed assumptions or strategic practice. A sufficient answer can finish without an experiment or a new commitment. |
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
 | Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 20 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
+| Explain how work uses resources and how that use appears in money, forecasts and performance accounts. | [Management Accounting](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A resource and cost model, capacity account, cost allocation, reconciliation, forecast, margin explanation or assessment of accounting incentives. |
+| Establish whose financial position is described, what can change it and how a financial service contributes to a participant's result. | [Financial Domain Modeling](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) - 5 patterns | A model of parties, rights and obligations; conditional contractual flows; an established financial effect; or a connection between a service and its use. |
 | Handle an administrative request, resolve a difficult case, or improve the arrangement providing the service. | [Organization Administration](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) - 15 patterns | Usable provision, a resolved exception, reconciled obligations and records, or a choice about controls, provider contributions and administrative burden. |
 | Preserve or restore required equipment functioning, and manage the policies, support and programme that make maintenance useful. | [Maintenance Engineering and Management](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 16 patterns | A qualified condition account, supported policy or intervention recommendation, feasible protected work and return to use, or a justified information, programme, Method or practice decision. Advice can be complete before repair. |
 | Compare continued use, renewal, replacement or other changes for one asset, an interacting system or a portfolio. | [Engineering Asset Management](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 16 patterns | An applicable asset account, supported alternatives or programme recommendation, feasible timing, an asset decision, or a choice about improving asset-management arrangements, methods or culture. |
@@ -55,6 +57,8 @@ The word *engineering* includes physical equipment, factories, laboratories, bui
 When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). It provides a detailed question index and worked cases, including [direct software-platform questions](ENGINEERING-DPF-SUITE-REFERENCE.md#resolve-a-software-platform-difficulty) for measurement, alerts, release exposure, recovery and repetitive work. The [instructional-material questions](ENGINEERING-DPF-SUITE-REFERENCE.md#evaluate-instructional-material-for-its-intended-use) lead to evaluation-specification construction and material evaluation; the [research preparation and trace questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-research-executable-and-inspect-its-course) lead to the RMP publication's operationalization and research-trace methods. When combining methods, match the result one supplies to what another needs and check their conditions of use. It also gives direct entries for [settling an HCD Method's supported use](ENGINEERING-DPF-SUITE-REFERENCE.md#develop-a-practice-or-a-persons-capability) and [analyzing a research claim or choosing a relevant credibility examination](ENGINEERING-DPF-SUITE-REFERENCE.md#analyze-a-claim-or-examine-its-credibility). For retaining or changing a research Method and returning its consequences, use [the research-Method entry](ENGINEERING-DPF-SUITE-REFERENCE.md#retain-or-improve-a-research-method).
 
 For preserving or restoring equipment functioning, use the [maintenance question index](ENGINEERING-DPF-SUITE-REFERENCE.md#maintain-equipment-and-manage-maintenance) or the [PS17 advice-to-selected-work example](ENGINEERING-DPF-SUITE-REFERENCE.md#can-we-recommend-a-repair-before-it-is-ready-to-begin). To compare continued use, renewal, replacement or withdrawal by value, cost, risk and service, use the [asset-management question index](ENGINEERING-DPF-SUITE-REFERENCE.md#choose-how-to-use-and-change-engineered-assets). EAM provides both a [single-asset comparison](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#eam-asset---compare-continued-use-and-change-for-one-asset) and a [programme choice under shared constraints](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#eam-combination---choose-asset-work-under-shared-constraints). Choose by the result your question needs; either practice can concern one asset or many.
+
+For a cost model, operating forecast or reconciliation of profit and cash, use the [management-accounting questions](ENGINEERING-DPF-SUITE-REFERENCE.md#explain-resource-use-costs-and-operating-accounts). For parties, rights, contractual events or the effects of financial actions, use the [financial-modeling questions](ENGINEERING-DPF-SUITE-REFERENCE.md#model-financial-positions-and-effects).
 
 For an explanation that someone must understand and use, start with the [explanation questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-an-explanation-understandable-and-usable). They distinguish the grounds for an account, its expression, the help a recipient needs and whether further repair is worthwhile.
 
@@ -93,7 +97,7 @@ The README introduces the Suite. The Reference helps you find and combine method
 
 Engineering DPF Suite brings together domain pattern languages for developing engineered systems and the work, organizations and capabilities needed for them. It serves practitioners choosing and improving methods across these fields, using FPF's shared concepts.
 
-**Current scope decision, effective 10 September 2026.** Under this purpose, the Suite includes the DPF series named in [Published DPFs](#published-dpfs), together with the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) series. This section and the declared list are the current Suite identity and membership account. Each product keeps its own field boundary, readers, methods and dated editions. The list links available editions; the future-publication catalogue records planned additions.
+**Current scope decision, effective 11 September 2026.** Under this purpose, the Suite includes the DPF series named in [Published DPFs](#published-dpfs), together with the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) series. This section and the declared list are the current Suite identity and membership account. Each product keeps its own field boundary, readers, methods and dated editions. The list links available editions; the future-publication catalogue records planned additions.
 
 Include a DPF when its accepted product boundary and published pattern language supply a useful contribution to this common purpose, its relevant FPF dependencies are stated, and readers can reach its admitted edition and conditions of use. Record inclusion by updating this declared list when that product decision takes effect. A first accepted publication can implement the product and Suite-inclusion decisions together. Subsequent editions are admitted under the product's own rules; changing an edition or its availability leaves the product's Suite membership in place.
 
@@ -115,7 +119,7 @@ To cite the collection:
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite.
-10 September 2026.
+11 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 

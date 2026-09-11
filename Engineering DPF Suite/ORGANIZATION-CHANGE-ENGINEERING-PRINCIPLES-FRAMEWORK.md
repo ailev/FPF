@@ -3,7 +3,7 @@
 > A domain pattern language for changing an organization's contributions, working relations, and capability while its work continues.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 5 September 2026
+- **Version:** 11 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -196,7 +196,7 @@ If you use this framework, please cite:
 
 ```text
 Levenchuk, Anatoly. Organization Change Engineering Principles Framework.
-5 September 2026.
+11 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -1234,10 +1234,11 @@ Keeping the position separate from `U.SystemRoleAssignment` also preserves cases
 
 #### OCE.5:11.2 - Source Contributions and Boundaries
 
+An organization position can persist across holders, carry several expected contributions and remain vacant. Determine which position is in force from the organization's rules for establishing and continuing it.
+
 | Source line | Retained contribution | Use boundary |
 | --- | --- | --- |
 | Current FPF `A.2.1`, `A.2.2`, `A.6.REL`, `A.10`, `A.13`, and `A.15.1` | Role-kind classification, assignment, capability, relation obtaining, evidence, performer, and Work remain separately governed. | FPF does not currently define the organization-dependent institutional position. |
-| [R5/R10](#guide-source-keys) contribution-position synthesis | Position can persist across holders, carry several expected contributions, remain vacant, and depend on organization establishment. | Use the owning organization’s actual establishment and continuation basis to determine which local position is in force. |
 | Rogiers and Collings, [job-deconstruction paradoxes](https://doi.org/10.5465/amp.2022.0236) | Task- and project-based alternatives can add adaptability, while deconstructing jobs creates persistent human and organization paradoxes rather than a universal replacement for positions. | Make the local position-versus-direct-arrangement choice using the organization’s contribution and institutional conditions. |
 | Grote et al., [contribution-based engineering role modeling](https://doi.org/10.1109/ISSE65546.2025.11370103) | Deriving contribution bundles from required process contributions and stakeholder evidence can expose gaps hidden by titles. | Test transfer beyond the bounded engineering cases; establish local positions and assignments under the owning organization’s rules. |
 | Albert, [organization-structure perspectives](https://doi.org/10.1007/s41469-023-00152-y) | Activity grouping, decision representation, and legal-entity perspectives can give different evidence about a position's place. | Use the perspective as evidence, then recover the position’s establishment basis and any separate authority relation. |
@@ -2839,7 +2840,7 @@ The practice question is how to obtain enough consequence evidence to change an 
 
 The [Magenta Book (HM Treasury, May 2026)](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html), especially §§2.2.1–2.2.2 and §3.4, supports intended-user and decision-timing questions, proportionate designs and explicit explanatory limits. Sections 4.3–4.5 adapt that line: reuse suitable evidence, expose rivals and request specialist attribution when it changes the use. Obtain the local measurement result and organization decision authority from their respective owners.
 
-**Adopt the domain consequence question.** R10 Systems Management and R11 Development for the Advanced distinguish desired results, observations of drift, sacrificed work and different development contributions. The PumpWorks and hospital cases carry those distinctions into an OCE comparison; the fuller Guide source keys remain the return for the narratives.
+**Compare the consequences of change.** Distinguish desired results, observed drift, sacrificed Work and different development contributions. The PumpWorks and hospital cases show how those distinctions affect an OCE comparison.
 
 **Reject** unchanged KPI reporting when it omits a decision-changing burden, and reject universal causal study as the price of a descriptive result. At comparable effort, qualifying the two relevant contrasts in PumpWorks yields a more useful next question than broad reporting. More demanding evidence is deliberately retained when its answer can change a high-consequence claim. Reopen the selected comparison when a changed population, procedure, configuration, applicable rival design or later consequence defeats its basis.
 
@@ -3073,7 +3074,7 @@ Separating comparison, authority, effectivity and realization lets a practitione
 
 The practice question is how to revise an organization after consequences or changed conditions defeat a current premise. The selected line combines explicit alternatives and losses, actual authority, practical support and evidence-driven revision. A serious alternative is to continue a staged rollout toward its original target, treating feedback only as a request for more implementation effort.
 
-**Adopt and adapt the domain line.** R10 Systems Management, R10.5:7 and R10.10:5, separates desired world results from Methods and connects authority, support, first real work, sacrificed alternatives and later improvement. R11 Development for the Advanced, R11.5:13–17, keeps organization revision distinct from direction, platform, learning and research contributions. Sections 4.1–4.6 and the PumpWorks case carry these moves. Fixed adoption calendars, compulsory software and a universal corporate decision owner are not imported.
+**Connect revision to the desired result.** Separate the result sought in the world from the Methods used to obtain it. Relate authority, support, the first performed Work, sacrificed alternatives and later improvement. Distinguish organization revision from contributions to direction, platform, learning and research. Sections 4.1–4.6 and the PumpWorks case show these moves.
 
 **Adapt proportionate evaluation use.** The [MRC update (Skivington et al., 2021)](https://doi.org/10.1136/bmj.n2061) and [Magenta Book (HM Treasury, May 2026)](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html) support revisiting explanations and evidence needs when the receiving decision changes. Section 4.4 retains stronger causal inquiry where it matters without making it a prerequisite for every bounded revision. Obtain local authority and the direct service, clinical or employment result from their qualified owners.
 
@@ -3258,7 +3259,7 @@ The cost is disciplined status and evidence work. Popular interventions can rema
 
 Organization-change Methods address changing organization relations, affected people and Systems, distributed authority, continuing service, and heterogeneous intervention evidence. These conditions change what practitioners must do. Use Method Engineering and FPF for general questions of Method identity, architecture, qualification, trial, fit, worth, variants, introduction, and culture.
 
-[R7](#guide-source-keys) preserves the connected Method, Work, description, capability, instrument, role, variant, and culture account. [R10](#guide-source-keys) shows project, process, and case management as different viewpoints on one Work rather than rival Methods. OCE.15 keeps both connections.
+Recover the relations among the Method, performed Work, descriptions, capability, instruments, roles, variants and culture. Project, process and case management can offer different viewpoints on the same Work. OCE.15 uses both connections to develop the organization-change Method repertoire.
 
 ### OCE.15:11 - SoTA-Echoing
 
@@ -3271,7 +3272,7 @@ Organization-change Methods address changing organization relations, affected pe
 | Powell et al., [ERIC strategies](https://doi.org/10.1186/s13012-015-0209-1) | Discrete implementation strategies can be candidate contributions. | Determine the required sequence, local fit, and effects for the selected contributions. |
 | Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) and Reardon et al., [CFIR User Guide](https://doi.org/10.1186/s13012-025-01450-7) | A determinant framework requires project-specific boundary and construct operationalization. | CFIR is not designed to develop an innovation or specify the implementation process and is not a universal OCE Method. |
 | Proctor et al., [implementation outcomes](https://doi.org/10.1007/s10488-010-0319-7) and [ten-year review](https://doi.org/10.1186/s13012-023-01286-z) | Implementation outcomes need named referents and remain distinct from service, client, and organization results. | Causal relations among strategies, mechanisms, implementation outcomes, and downstream outcomes remain weakly established. |
-| Current Method Engineering Principles Framework; [R7/R10](#guide-source-keys) | General Method results, connected conceptual synthesis, and several viewpoints on one Work. | OCE.15 consumes the named ME results and adds only organization-change semantics and use. |
+| Current Method Engineering Principles Framework | General Method results, connected conceptual synthesis, and several viewpoints on one Work. | OCE.15 consumes the named ME results and adds only organization-change semantics and use. |
 
 Reopen when a source or representative use exposes a materially different domain contribution, framework function, mechanism, situation change, outcome boundary, bundle interaction, or candidate-development need, or when Method Engineering makes an OCE move redundant.
 
@@ -3679,7 +3680,7 @@ This makes diagnosis by case comparison practical. A preserved result under a ne
 
 The practice question is how to respond when an apparent OCE practice fails to continue. The selected line is case-based recognition followed by a mechanism-matched, condition-qualified response and later observation. The serious alternative is a common communication or training package applied to every apparent non-use. It is cheaper to schedule, but cannot distinguish a deficient example from missing permission or a valid refusal of an obsolete move.
 
-**Adopt and adapt the domain line.** R7 Methodology, R7.5:13–15 and :19 and R7.6:12/:14, supports recovering operative Methods across carriers and practitioners. R11 Development for the Advanced, R11.9:7–8, :12–15 and :22–24, adds repeated work in unlike settings. Sections 4.1–4.2 and the two cases carry that contribution. Do not import fixed hours, status ladders, biological analogies or label popularity as evidence of mastery or persistence. The fuller narratives are discoverable through the framework's Guide source keys.
+**Recover the practice being continued.** Identify operative Methods across descriptions, instruments and practitioners, and examine repeated Work in unlike settings. Sections 4.1–4.2 and the two cases show how exposure, support, use and continuation can differ.
 
 **Adapt current implementation inquiry.** The [NPT coding manual (May et al., 2022)](https://doi.org/10.1186/s13012-022-01191-x) and [NPT-derived strategy synthesis (May et al., 2025)](https://doi.org/10.1186/s13012-025-01444-5) are best-known-line contributors for matching implementation work to an identified difficulty. They change sections 4.3–4.5: ask about understanding, participation, support and appraisal before selecting a response. The synthesis used 63 health/social-care studies and interpretive coding; it supplies no comparative effectiveness result for OCE practitioners.
 
@@ -3849,23 +3850,9 @@ Choose the next pattern from the result needed, not from a presumed lifecycle. O
 
 ## Source use and currentness
 
-### Guide source keys
+### Source use and conceptual synthesis
 
-These keys identify Anatoly Levenchuk's numbered working manuscripts cited as consulted on 2 September 2026. The text identities below recover the registered manuscripts at that consultation date. The English titles are descriptive translations; a publication date is not established for the R5, R7 and R10 working texts. R11 identifies the working Guide registered on 1 September 2026.
-
-The notation names sections within those manuscripts: for example, R7.5:13 means item 13 of section R7.5. The SHA-256 values identify the exact text files needed for an edition comparison.
-
-No verified public location for these exact manuscripts is supplied here. To examine a Guide passage or compare a changed edition, obtain the matching numbered manuscript from its author or source holder using the title and text identity below. Without that manuscript, the source-level comparison remains unavailable; withhold only a conclusion that depends on it. The self-contained OCE moves and independently available sources retain their stated use conditions. Establish local authority and performed-change claims from their own rules and evidence.
-
-| Key | Source identity | Reading scope and qualification |
-| --- | --- | --- |
-| R5 | Руководство по системному мышлению — Guide to Systems Thinking. Numbered working manuscript, SHA-256 `e626bd678d4966e4096155450f5437ea356afc72e7029ea8d627c6af92a37d7d`. | Especially R5.6:7.A, “Характеризация роли”. It distinguishes role and organization-position questions; it does not establish a local position, its institutional force or a holder's authority. |
-| R7 | Руководство по методологии для инженеров-менеджеров — Guide to Methodology for Engineers and Managers. Numbered working manuscript, SHA-256 `5b800cc9774ee8dfc674fa7fc2dd8269483f89bfad1f5f9e3125678d5480e3ec`. | Especially R7.3:11; R7.5:13–15 and :19; R7.6:12 and :14. Recover operative Methods across words, carriers and practitioners; distinguish exposure, support, use and continuation. Culture analogies, popularity, hours and ranks supply no evidence of mastery or universal sequence. |
-| R10 | Системный менеджмент — Systems Management. Numbered working manuscript, SHA-256 `c3cc6cc7aedb801d7697f17f06375e2798b0677a5f93bbd16ccd2d310503f97d`. | R10.3:6 for roles/positions, R10.7:1–2 for project/process/case viewpoints, R10.5:7 for desired results and sacrificed alternatives, and R10.10:1–5 for leadership, authority, practical support and revision. The 2002 strategy/tactic-tree discussion is a historical anchor. Fixed rollout periods, compulsory software and one universal corporate owner are not imported; local authority and actual outcomes remain separate. |
-| R11 | Развитие для развитых — Development for the Advanced. Numbered working Guide developed from the 2026 seminar, registered 1 September 2026, SHA-256 `7f2b9561cba1d32a4f9682bb4414ade9d31ee4ab166549b4e8f5f7ea0d0c076f`. | R11.5:13–17 and R11.9:1, :7–8, :12–15 and :22–24 connect observations, several development scales, work-linked learning and later use outside direct supervisory control. The synthesis supplies neither an enacted intervention nor a universal duration, qualification ladder, transfer or effect claim. |
-
-A later Guide edit reopens only an OCE claim that depends on the changed content. Compare that change with the identified manuscript before carrying its contribution into the receiving OCE use.
-[R7](#guide-source-keys) helps recover a Method across different descriptions, instruments, practitioners, and variants while distinguishing it from performed Work and capability. [R10](#guide-source-keys) relates project, process, and case viewpoints on the same Work to assignments, participation, and development of organization capability. [R11](#guide-source-keys) connects learning, professional work, organization and platform development, and inquiry at different scales while distinguishing their results.
+Recover a Method across descriptions, instruments, practitioners and variants while distinguishing it from performed Work and capability. Project, process and case viewpoints on the same Work can inform assignments, participation and development of organization capability. Learning, professional Work, organization and platform development, and inquiry can contribute at different scales; distinguish their results when choosing or revising a change.
 
 Each pattern's SoTA-Echoing section identifies the direct sources used for its moves, the retained contribution, and the source's limits. The summaries below highlight contributions that span several decisions or impose a significant reliance boundary.
 
@@ -3876,8 +3863,6 @@ For coordinated architectures, OCE.7 adapts the contingent line developed in [Jo
 OCE.15 uses the [change-intervention review by Hagl and colleagues](https://doi.org/10.1016/j.hrmr.2023.101000) and the [implementation-framework review by Wang and colleagues](https://doi.org/10.1186/s13012-023-01296-x) to retain different intervention contributions and implementation functions. [Nilsen's 2015 taxonomy](https://doi.org/10.1186/s13012-015-0242-0) supplies a historical distinction among framework functions; [ERIC's 2015 catalogue](https://doi.org/10.1186/s13012-015-0209-1) supplies candidate implementation strategies. The [2025 CFIR User Guide](https://doi.org/10.1186/s13012-025-01450-7) strengthens situation-specific determinant inquiry; a determinant account still leaves the intervention Method to be selected or constructed. [The ten-year review of implementation outcomes](https://doi.org/10.1186/s13012-023-01286-z) also limits inference from adoption or implementation success to later service and organization results. OCE.15 supplies the domain problem, mechanism hypothesis, participants and conditions to Method Engineering for its qualification work.
 
 For engagement and continuation, the [ADKAR](https://www.prosci.com/methodology/adkar) and [Kotter](https://www.kotterinc.com/methodology/8-steps/) provider accounts used in this edition are serious repertoire comparators. They contribute targeted support, enabling action and reinforcement; Kotter's account also describes evolution from steps into accelerators. In the OCE case, practitioners still need to establish which organization relations obtain, whose authority applies and what service recovery or capability evidence supports the intended action. Provider descriptions are not independent evidence that one school is more effective.
-
-These contributions form a source-grounded design synthesis. Their combined use is not an empirical ranking of all organization-change schools. R5, R7, R10 and R11 provide connected problem accounts and source paths; they do not independently confirm the studies they discuss. Their public source keys above preserve the exact retained loci and excluded universal durations, training ladders and authority assumptions.
 
 For OCE.8, Naikar et al. and Waterson et al. contribute distributed sociotechnical and responsibility/recovery questions. Vaccaro et al.'s findings support comparison with the best applicable solo arrangement when synergy matters. NASA and Lagomarsino et al. contribute human/automation/robotic allocation and dynamic-reallocation questions. ISO 6385:2016 contributes ergonomic requirements and ISO 10218-1/-2:2025 industrial-robot safety requirements; check the editions and requirements applicable to the proposed work. The voluntary NIST AI RMF 1.0 contributes third-party, monitoring, incident, recovery, override, and change-management questions; check later revisions before relying on those contributions. Aksin and Masini plus Goth et al. bound shared-service configuration and cost claims. The local choice still needs authority and a whole-arrangement comparison, followed by separate provision and enactment evidence. Require a human in the loop only when the direct authority, safety, or performance basis warrants it.
 

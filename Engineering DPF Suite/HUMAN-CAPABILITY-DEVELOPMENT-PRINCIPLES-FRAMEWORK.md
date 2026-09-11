@@ -3,7 +3,7 @@
 HCD is a pattern language for deriving human capability demand from later Work, designing and sustaining development arrangements, judging human contribution, transfer and retention, and evaluating instructional material under stated audience, task, support and time conditions.
 
 > **Author:** Anatoly Levenchuk with AI-assisted development and review.
-> **Version:** 9 September 2026 — nineteen-pattern edition
+> **Version:** 11 September 2026 — nineteen-pattern edition
 > **Status:** Eternal alpha: used in working development projects and open to continuing correction.
 > **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 > **Publication:** [FPF repository](https://github.com/ailev/FPF). [Citation](#citation).
@@ -5026,7 +5026,7 @@ The missing values remain separate:
 | occurrence-bound result record | Any record-dependent inference | Relate a current result episteme to the admitted occurrence and result; do not require it where qualified direct observations suffice. |
 | representative occurrence-bound observations | Qualified current demand, a diagnostic target, and a current profile comparison | Obtain holder- and condition-compatible observations or a named qualified representative set covering performed Method, configuration, work products, quality and critical errors, AI/support posture, specialist returns, variants, and evidence window. |
 
-The current `SYSE.21` MethodDescription and its constructed PumpWorks demonstration may shape questions but are not the missing `XRI-21` supplier result. The HCD carrier, accepted source decision, R9 synthesis, target repertoire, plan, curriculum, course completion, platform score, or orphan record cannot fill any row by label.
+Use the current `SYSE.21` MethodDescription and its constructed PumpWorks demonstration to shape questions. Keep the `XRI-21` supplier result and the other row-specific observations open until they are available for Engineer-E27; the constructed examples establish no such observations.
 
 Current returns are therefore conclusion-specific: HCD.1 preserves the prospective demand hypothesis and returns `demand-evidence-blocked` for qualified current demand; HCD.3 returns `diagnostic-evidence-missing` and selects no training; HCD.4 retains only prospective target claims and returns `profile-decision-blocked`. Recovering one missing value changes only the conclusions that consume it.
 
@@ -5144,7 +5144,7 @@ The HCD.15–HCD.17 applied-learning source uses were qualified on **1 September
 | Brynjolfsson, Li, and Raymond ([2025; `AI-02`](https://doi.org/10.1093/qje/qjae044)); Dell'Acqua and colleagues ([2026; `AI-03`](https://doi.org/10.1287/orsc.2025.21838)); Bastani and colleagues ([2025; `AI-04`](https://doi.org/10.1073/pnas.2422633122)) | HCD.16 separates deployed equipped performance, rare-outage same-job signals, task-frontier error, assisted practice and later unassisted performance. These populations and tasks do not establish an adult release-engineering Method, general AI benefit or harm, other-Work transfer, or long retention. |
 | Bauer and colleagues ([2024; `BEH-08`](https://doi.org/10.1016/j.nlm.2024.107994)); Mertens and colleagues ([2022; `MOT-06`](https://doi.org/10.1073/pnas.2107346118)) with Maier and colleagues' [publication-bias critique](https://doi.org/10.1073/pnas.2200300119) | HCD.16 can reopen one used mechanism, population, condition or pooled-effect claim and retain `further probe`; it prescribes neither clinical counterconditioning nor public-policy nudging. |
 | Singh and colleagues ([2021; `SOC-06`](https://doi.org/10.1098/rstb.2020.0050)) through current C.36 | HCD.17 distinguishes generation, transmission, receiving use, recognition, selection, memory, retention and loss. The review supplies no HCD intervention recipe, authority or population capability. |
-| [`SRC-DOMAIN-CULTURAL-CONTINUATION-CASES-2001-2026`](https://github.com/ailev/FPF/blob/main/_change-campaigns/dpf-systems-modeling-systems-engineering-systems-management-operations-management/DPF-ARCHITECTURE-CAMPAIGN/comparison/SOURCE-REGISTRY.md#src-domain-cultural-continuation-cases-2001-2026), including [CDIO version history](https://cdio.org/content/version-history-and-references) | Formal generation, edition, institutional selection, carrier and reported-use claims may be stated at their evidence boundary. They do not establish provider or learner enactment, population retention, improved capability or effectiveness. |
+| The [CDIO version history](https://cdio.org/content/version-history-and-references), [Agile Manifesto history](https://agilemanifesto.org/history.html), [OMG Essence editions](https://www.omg.org/spec/Essence) and Google SRE’s [account of community-driven software adoption](https://sre.google/resources/practices-and-processes/community-driven-software-adoption/) | These histories describe creation, revision, institutional selection, publication and reported use of particular methods or standards. Use each account for the events and participants it describes. To assess whether a learning provider or learner performs a practice, retains it or improves capability, examine that practice and its results in the relevant setting. |
 
 
 HCD.18/.19 use the [material profile's source-informed comparisons](#source-informed-choices-and-limits), with their specific source roles, limits and reopens in the bodies. Their task-based evaluation and ordinal anchors are professional adaptations, not a validated universal score. The M0/M1 walkthrough preserves actual prepared-agent responses; its constructed task facts, material revisions, author-side diagnostic replay and missing target-human observations remain explicit.
@@ -5175,7 +5175,7 @@ An assisting AI or other System may contribute Work or evidence when its capabil
 
 ## Edition return
 
-**Human Capability Development Principles Framework — Nineteen-pattern edition, 9 September 2026** designates this shared account and instructional-material profile, its Table of Contents and presentation carrier, and exactly nineteen authoritative bodies in reader order: HCD.1, HCD.3, HCD.4, HCD.2, HCD.5, HCD.6, HCD.7, HCD.8, HCD.9, HCD.10, HCD.11, HCD.12, HCD.13, HCD.14, HCD.15, HCD.16, HCD.17, HCD.18 and HCD.19.
+**Human Capability Development Principles Framework — Nineteen-pattern edition, 11 September 2026** designates this shared account and instructional-material profile, its Table of Contents and presentation carrier, and exactly nineteen authoritative bodies in reader order: HCD.1, HCD.3, HCD.4, HCD.2, HCD.5, HCD.6, HCD.7, HCD.8, HCD.9, HCD.10, HCD.11, HCD.12, HCD.13, HCD.14, HCD.15, HCD.16, HCD.17, HCD.18 and HCD.19.
 
 The designation identifies the complete HCD pattern set and reader carrier. The Engineering DPF Suite includes this HCD framework alongside its other DPFs and common foundations. Actual use, provider operation, performed development Work, achieved capability, cultural continuation and causal effectiveness require the corresponding observations and decisions described here.
 
@@ -5183,7 +5183,7 @@ The designation identifies the complete HCD pattern set and reader carrier. The 
 
 **Author:** Anatoly Levenchuk with AI-assisted development and review.
 
-**Version:** 9 September 2026 — nineteen-pattern edition
+**Version:** 11 September 2026 — nineteen-pattern edition
 
 **Status:** Eternal alpha: used in working development projects and open to continuing correction.
 
@@ -5195,7 +5195,7 @@ Eternal alpha identifies a framework open to continuing correction and developme
 
 ## Citation
 
-Levenchuk, Anatoly, with AI-assisted development and review. *Human Capability Development Principles Framework*. Version: 9 September 2026 — nineteen-pattern edition. [FPF repository](https://github.com/ailev/FPF).
+Levenchuk, Anatoly, with AI-assisted development and review. *Human Capability Development Principles Framework*. Version: 11 September 2026 — nineteen-pattern edition. [FPF repository](https://github.com/ailev/FPF).
 
 For a particular pattern, name the framework and PatternID; include the version date above when the citation must recover the body published in this version.
 

@@ -1,7 +1,7 @@
 # Organization Administration Principles Framework
 
 **Author:** Anatoly Levenchuk, with AI-assisted development and review\
-**Release date:** 10 September 2026\
+**Release date:** 11 September 2026\
 **Status:** Eternal alpha — an evolving framework, revised as methods and evidence improve.
 
 ADM helps administrators examine administrative requests, give justified refusals and provide usable results under the organization's rules. Its fifteen patterns also help improve the arrangements supporting this work by connecting organizational rules, participants, permissions, work and records. Establish any permission required for the action being taken; specialist decisions remain with the people authorized to make them.
@@ -188,7 +188,7 @@ A single portal or ledger is a possible implementation. It can reduce duplicate 
 
 ## ADM.Preface:6 - Sources, evidence and changed conditions
 
-The administrative laboratory discussions contribute concrete failures and distinctions: an enabling service versus the enabled work, an organizational relation versus a record, and an opaque refusal versus an actionable condition. R10's administration discussion develops the service and participant-burden question. These are source arguments and reported situations; they do not establish that every proposed administrative method has already worked in organizations.
+The administrative laboratory discussions contribute concrete failures and distinctions: an enabling service versus the enabled work, an organizational relation versus a record, and an opaque refusal versus an actionable condition. The framework connects the service to the participant's work and examines the burden of obtaining it. Its proposed methods and constructed cases explain how to address these questions; assess a particular service's performance from its actual use.
 
 The Readme selects a few first questions from this field; the Preface connects institutional conditions, case handling, provider contributions and participant accounts. These entries shorten the full pattern instructions and omit case-specific rule details and specialist tests. Return to the relevant Solution before applying a branch whose conditions matter. The pattern bodies retain ordinary correction, established refusal, unresolved evidence and failure recovery as different outcomes.
 
@@ -331,11 +331,11 @@ A department-first boundary can be adequate when one provider already supplies t
 
 ### ADM.1:11 - SoTA-Echoing
 
-The practice question is how to define an administrative result at enough scope to help the participant without absorbing the whole business task. The selected line adapts the laboratory and R10 enabling-service distinction and adopts OPS.3's separation of cases, work and descriptions. It uses C.32.MWA when competing structures change the answer.
+The practice question is how to define an administrative result at enough scope to help the participant without absorbing the whole business task. Keep the enabling administrative service distinct from the participant's business work, and use OPS.3 to distinguish cases, work and descriptions. Use C.32.MWA when competing structures change the answer.
 
 The serious default is a department or catalogue item whose completion defines success. GOV.UK's whole-problem service guidance is a useful comparator because it expands attention to the user's needed outcome while cautioning against an oversized service. Here that contribution changes §§4.1–4.3: start from the needed condition, follow the relevant provider joins, and keep the business outcome separate. At the same first-pass effort, one condition sentence can expose a missing result that a ticket label conceals; a wider service inquiry is accepted only when that distinction changes action.
 
-The July laboratory, especially 11:56–14:59 and 20:37–30:49, supplies reported situations and conceptual distinctions. R10 §R10.11 supplies the administration/service argument. They support the working question and selected synthesis, not a universal causal claim about service improvement. The GOV.UK guidance supplies a service-design comparison rather than local administrative authority.
+The July laboratory, especially 11:56–14:59 and 20:37–30:49, supplies reported situations and conceptual distinctions used in this synthesis. The GOV.UK guidance supplies a service-design comparison. The organization's rules determine local administrative authority; observations of the service are needed to judge an improvement claim.
 
 Reconsider this selection if actual cases show that the stated condition fails to distinguish administrative completion from the enabled result, or if a smaller existing service instruction gives the same needed boundary more reliably.
 
@@ -993,7 +993,7 @@ Conditional connections are sufficient. A settled case need not visit every spec
 
 ### ADM.5:11 - SoTA-Echoing
 
-The working question is how to make an administrative service repeatable while keeping institutional decisions and actual provision connected. The June laboratory's service-development/use distinction and the qualified ADM source pack supply the domain problem; R10.11 supplies the enabling-service and participant-burden perspective. They are arguments and reported situations, not measured ADM effectiveness.
+The working question is how to make an administrative service repeatable while keeping institutional decisions and actual provision connected. The June laboratory and ADM source pack distinguish developing a service from using it. Part of this question is how the service supports the participant's intended work and what effort it requires from them. The laboratory material supplies reported situations; assess service effectiveness from its actual use.
 
 The selected synthesis uses the actual [OPS.5–6][OPS] instructions for admission and continuation during handling, with ADM's explicit evidence, authority and usable-result joins. [CMMN 1.1][CMMN], §§4.1–4.3, supplies a serious case-model alternative: work toward an outcome can use evolving information and discretionary planning. Its model does not supply the local eligibility policy, appoint the decider or establish real provision.
 
@@ -1618,7 +1618,7 @@ Authorization, provider action and beneficiary effect are connected but distinct
 
 ### ADM.9:11 - SoTA-Echoing
 
-The working question is how administrative handling reaches the participant's usable condition, including recovery after ambiguous provider effects. The May and July laboratories supply the access and enabling-service failures; R10.11 supplies the participant-burden question.
+The working question is how administrative handling reaches the participant's usable condition, including recovery after ambiguous provider effects. The May and July laboratories supply the access and enabling-service failures. Include the participant's effort in obtaining the service when judging whether provision is usable.
 
 The selected instruction uses [SYSE.26][SYSE], §§4.1–4.5: begin with the user's undertaking, distinguish progress from result and uncertainty, recover the same attempt before a consequential replay, and keep support connected to failed use. ADM adds the explicit institutional grant, promised condition and beneficiary correspondence.
 
@@ -1786,7 +1786,7 @@ The obligation, performance and record have different change conditions. Their c
 
 ### ADM.10:11 - SoTA-Echoing
 
-The working question is how to determine fulfillment across participant accounts without confusing instructions, effects and records. The July laboratory and R10's relevant accounting discussion supply the administrative problem. Partridge and colleagues' [accounting][PARTRIDGE-A] and [agentology][PARTRIDGE-B] arguments support preserving participant-relative meanings around an established common subject.
+The working question is how to determine fulfillment across participant accounts without confusing instructions, effects and records. The July laboratory supplies the administrative problem. Use an account suited to the decision while preserving accounts needed for other purposes. Partridge and colleagues' [accounting][PARTRIDGE-A] and [agentology][PARTRIDGE-B] arguments support preserving participant-relative meanings around an established common subject.
 
 The selected synthesis combines that representational contribution with [OPS.15][OPS]'s comparable-observation question, [SIE.4–6][SIE]'s meaning and identity work, and [SYSE.26][SYSE]'s recovery of uncertain provider effects. The substantive fulfillment rule remains an explicit local input.
 
@@ -1945,7 +1945,7 @@ The administrative result is connected through contribution, evidence, permissio
 
 ### ADM.11:11 - SoTA-Echoing
 
-The working question is how separate providers supply one administrative condition without losing the institutional decisions and failure responsibilities between them. The June laboratory and R10.11 supply the service-development and participant-burden problem.
+The working question is how separate providers supply one administrative condition without losing the institutional decisions and failure responsibilities between them. The June laboratory distinguishes developing this service arrangement from using it. Judge the arrangement also by the effort it requires from the participant.
 
 The selected synthesis uses the actual [SYSE.8][SYSE] provider-arrangement distinctions, [OPS.8][OPS]'s receiving-action readiness and [OPS.13][OPS]'s separation of forecasts, objectives and commitments. [GOV.UK Service Standard point 2][GOVUK] contributes a whole-user-problem comparison by analogy; it supplies no local authority or provider commitment.
 
@@ -2443,7 +2443,7 @@ Administrative consequences attach to different subjects: the recipient's condit
 
 ### ADM.15:11 - SoTA-Echoing
 
-The working question is whether an administrative arrangement supplies its institutional result with acceptable consequences for the affected participants. The May laboratory's T+N discussion and the dependent ADM source pack contribute the delay question and its reliability and burden conditions. [OPS.15:4.2–4.3][OPS] supplies the operational start, end, source and uncertainty discipline used in §4.3. R10.11 supplies the enabling-service and participant-burden concern. The historical aspiration of immediate administration is not adopted as a universal objective.
+The working question is whether an administrative arrangement supplies its institutional result with acceptable consequences for the affected participants. The May laboratory's T+N discussion and the dependent ADM source pack contribute the delay question and its reliability and burden conditions. [OPS.15:4.2–4.3][OPS] supplies the operational start, end, source and uncertainty discipline used in §4.3. Compare delay, reliability and participant burden for the work the service enables. The historical aspiration of immediate administration is not adopted as a universal objective.
 
 The selected method uses [OPS.12–15][OPS] for burden, commitments, financial comparison and observation, together with [OCE.13][OCE] for bounded consequence claims and actual causal-use limits. The TameFlow sources contribute through those qualified operational instructions rather than a universal profit or single-metric rule.
 
@@ -2620,7 +2620,7 @@ Changes to rules, instructions, providers, records and technical systems have di
 
 ### ADM.16:11 - SoTA-Echoing
 
-The working question is how an administrative arrangement changes without losing the conditions that govern open work. The laboratories, R10.11 and the qualified ADM source pack supply the rule/execution, service-change and participant-burden problem.
+The working question is how an administrative arrangement changes without losing the conditions that govern open work. The laboratories and ADM source pack distinguish changes to rules, service instructions and performed work. Evaluate the changed service by the work it enables and the burden it places on participants.
 
 The selected synthesis uses [SYSE.29][SYSE]'s actual-use, coexistence, receiving-result and retirement instructions, with ADM's explicit grants, obligations, case cohorts and competent transition decision. [ME.15][ME] preserves the distinction between a method variant and changes to description, support or other governed objects.
 
@@ -2652,7 +2652,7 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 
 Use the following source states when checking a source change or reconstructing this edition's basis. The applied-instruction table and source arguments below name the exact sections, contributions and limits used. The hashes identify the source texts used.
 
-ADM relies on the cited FPF relation, permission, evidence and structure distinctions and on the named OPS, OCE, SIE, SYSE and ME instructions for their stated receiving uses. Those texts remain external to ADM. Removing a needed contribution or changing its meaning can invalidate the corresponding ADM instruction or return; it reopens that use. R10 and the OPS source interpretations supply the separately qualified source arguments below.
+ADM relies on the cited FPF relation, permission, evidence and structure distinctions and on the named OPS, OCE, SIE, SYSE and ME instructions for their stated receiving uses. Those texts remain external to ADM. Removing a needed contribution or changing its meaning can invalidate the corresponding ADM instruction or return; it reopens that use.
 
 | External source text | SHA-256 of the relied-on source state |
 | --- | --- |
@@ -2666,9 +2666,6 @@ ADM relies on the cited FPF relation, permission, evidence and structure distinc
 | [Semantic Integration Engineering][SIE] | `24caed612eaec96e21b59062bf6c8e6df081b75485b4a3eea00c8756c4845a31` |
 | [Systems Engineering][SYSE] | `d82c411414e50a001fa9f018b1b8c1039e701435e8cf1b6d8242b229ffed7b87` |
 | [Method Engineering][ME] | `c7f791f9f6f7ef9899f287335204a2727e35a4bf4a54b611e174c9f79dd5076c` |
-| [R10, maintained text][R10-CURRENT] | `c3cc6cc7aedb801d7697f17f06375e2798b0677a5f93bbd16ccd2d310503f97d` |
-| [R10, converted original][R10-ORIGINAL] | `5c9dbe0de408b1ee016ff012e9bcc611ee3684174bc938f93a4fabfdf3cf65fe` |
-| [Operations Management source interpretations][OPS-SOURCES] | `8059a04515f6cad36ddb99cfbc1efa8e6f9b912129216586a14c5d6d9632ac9e` |
 
 A changed source file calls for comparison of the relied-on sections. Unchanged contributions remain usable within their conditions. If a needed external instruction or its source cannot be recovered, retain the exact missing contribution and continue only the questions that do not depend on it. A citation supplies neither the organization's rule nor permission to act.
 
@@ -2705,25 +2702,21 @@ The dated laboratory transcripts and ADM-Lab synthesis are working source materi
 - **Administration laboratory, 17 June 2023.** The transcript, especially 44:18–56:43 and 62:15–78:22, separates developing a service from using it and connects substantive judgments, execution and exception resolution. This supports the Preface's design/handling distinction, ADM.2's competent return and ADM.5–6's reusable instruction and exception resolution. ADM.11 and ADM.13–16 extend the corresponding provider, record, control and transition questions.
 - **ADM-Lab source pack v0.1, 15 July 2026.** The synthesis, especially §§13–21 and 23–27, qualifies the earlier discussions. Section 15 supports the same-subject/participant-account comparison; §§20.1–20.2 propose the T+N delay question and qualify speed by reliability and participant burden. ADM.15 uses OPS.15:4.2–4.3 to make the selected start, usable end, source and time uncertainty recoverable. This is a dependent synthesis and authorial clarification, not independent corroboration.
 
-### R10 - Systems Management
+### Enabling provision and decision accounts
 
-**Anatoly Levenchuk, Systems Management (Системный менеджмент, in Russian).** Section R10.11 and the relevant accounting discussion in R10.7:11, in the maintained text and converted original identified above, supply the enabling-service, participant-burden and decision-accounting questions. The present use is limited to those passages; it does not adopt every financial prescription or make R12 a prerequisite.
-
-For public reading, see [Administration as an operator of the internal organizational platform](https://docs.aisystant.com/ru/professional/systems-management/administration-practice/administration-as-an-operator-of-the-intra-company-organizational-platform). That online guide has its own arrangement and can change; the R10 section numbers and source hashes identify the texts used for this edition.
-
-The administrative contribution is to make the organizational condition support the participant's intended work and to examine the burden of obtaining that support. The accounting contribution is to choose an account that answers the operating decision while retaining the accounts required for other purposes. ADM.1, ADM.9 and ADM.15 make the enabling result and participant burden explicit; the financial qualification used here is stated below.
+The administrative contribution is to make the organizational condition support the participant's intended work and to examine the burden of obtaining that support. The accounting contribution is to choose an account that answers the operating decision while retaining accounts required for other purposes. ADM.1, ADM.9 and ADM.15 make the enabling result and participant burden explicit; [OPS.14–15][OPS] supply the financial comparison and observation methods used here.
 
 ### Accounting representations and TameFlow
 
 - **Partridge and colleagues, Thoroughly Modern Accounting: Shifting to a de re Conceptual Pattern for Debits and Credits, 2018.** Published in *Advances in Conceptual Modeling, ER 2018*, LNCS 11158, pp. 134–148; [public bibliographic record and abstract][PARTRIDGE-A], DOI 10.1007/978-3-030-01391-2_20. The consulted preprint, PDF pp. 9–10 and 13–14, figures 7–8, supports the comparison of participant-relative and common representations and transaction direction. ADM.4 and ADM.10 adapt the representational contribution after event identity is established, while fulfillment remains governed by the actual obligation. The record identifies the work; its full-text download is restricted.
 - **Partridge and colleagues, Ontology then Agentology, 2018.** The [paper][PARTRIDGE-B], especially PDF pp. 5–8, table 2 and figures 2–4, distinguishes the common represented subject from an actor's position and meaning. ADM.2 and ADM.4 retain the useful correspondence. The conceptual examples do not establish empirical superiority of one database or require adopting the complete source ontology.
-- **Tendon and Doiron, Tame your Work Flow, 2020; Tendon, The Book of TameFlow, version 17 January 2022.** The consulted 2020 book, chapters 6–8 and 21, and the consulted 2022 book, chapters 15–16 and chapter 17 pp. 267–276, supply historical operating arguments about readiness, commitment, financial contribution and recurring problems. ADM.11 and ADM.15–16 use the qualified OPS instructions rather than universal single-metric, fixed-cost or cultural-effect claims. The [OPS source interpretations][OPS-SOURCES] retain the qualified financial reuse; no fresh whole-book claim is made for their other financial sources. Public returns are the publisher's [Tame your Work Flow catalogue page](https://leanpub.com/workflow) and [The Book of TameFlow page](https://leanpub.com/tameflow). The first is retired from sale; the second presents the continuing edition. These pages identify the works; the chapter and page locators above refer to the consulted editions.
+- **Tendon and Doiron, Tame your Work Flow, 2020; Tendon, The Book of TameFlow, version 17 January 2022.** The consulted 2020 book, chapters 6–8 and 21, and the consulted 2022 book, chapters 15–16 and chapter 17 pp. 267–276, supply historical operating arguments about readiness, commitment, financial contribution and recurring problems. ADM.11 and ADM.15–16 use the qualified OPS instructions rather than universal single-metric, fixed-cost or cultural-effect claims. [OPS.14–15][OPS] supply the financial comparison and observation methods used here. Public returns are the publisher's [Tame your Work Flow catalogue page](https://leanpub.com/workflow) and [The Book of TameFlow page](https://leanpub.com/tameflow). The first is retired from sale; the second presents the continuing edition. These pages identify the works; the chapter and page locators above refer to the consulted editions.
 
-### Operations Management source interpretation
+### Using operational accounts
 
-The Operations Management source interpretation used here reads R10.7:11 as a demand for an account suited to the operating decision, relating workload and capacity to financial consequences and refreshing assumptions when the decision changes. It preserves several accounts for their respective purposes. Its practitioner return is [OPS.14–15][OPS].
+Use an account suited to the operating decision, relate workload and capacity to financial consequences, and refresh assumptions when the decision changes. Preserve other accounts for their respective purposes. [OPS.14–15][OPS] describe the corresponding comparison and observation methods.
 
-For ADM.15, use the relevant receipts, payments, time and participant burdens on the declared comparison basis. This qualified reuse supplies no universal monetary objective, no rule that all allocated cost is useless, and no general equivalence between ROI or ROMI and a customer-value-to-acquisition-cost ratio. A cash comparison uses its declared incremental receipts and payments; a broader investment or customer-value claim requires the applicable finance or accounting method. The source hash above identifies the relied-on interpretation.
+For ADM.15, use the relevant receipts, payments, time and participant burdens on the declared comparison basis. This qualified reuse supplies no universal monetary objective, no rule that all allocated cost is useless, and no general equivalence between ROI or ROMI and a customer-value-to-acquisition-cost ratio. A cash comparison uses its declared incremental receipts and payments; a broader investment or customer-value claim requires the applicable finance or accounting method.
 
 ## Bounded current comparisons
 
@@ -2746,8 +2739,6 @@ For ADM.15, use the relevant receipts, payments, time and participant burdens on
 [OCE]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
 [SIE]: SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md
 [SYSE]: SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md
-[R10-CURRENT]: #r10---systems-management
-[R10-ORIGINAL]: #r10---systems-management
 [PARTRIDGE-A]: https://biblio.ugent.be/publication/8577441
 [PARTRIDGE-B]: https://www.scitepress.org/papers/2018/66063/66063.pdf
 [GOVUK]: https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem
@@ -2757,6 +2748,5 @@ For ADM.15, use the relevant receipts, payments, time and participant burdens on
 [CMMN]: https://www.omg.org/spec/CMMN/1.1/PDF
 [XACML]: https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html
 [ME]: METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md
-[OPS-SOURCES]: #operations-management-source-interpretation
 [ISO]: https://www.iso.org/standard/62542.html
 [SSC]: https://forschung.hs-ansbach.de/de/publikationen/1447-shared-service-centers-sscs-and-administrative-cost-reduction-a-systematic-review-and-research-agenda

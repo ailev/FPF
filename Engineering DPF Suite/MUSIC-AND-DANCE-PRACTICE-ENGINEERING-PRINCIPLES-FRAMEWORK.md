@@ -3,7 +3,7 @@
 > A domain pattern language for creating, performing, transmitting, and deliberately developing music and dance practices and the environments that sustain them.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 5 September 2026
+- **Version:** 11 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -229,7 +229,7 @@ If you use this framework, please cite:
 
 ```text
 Levenchuk, Anatoly. Music and Dance Practice Engineering Principles Framework.
-5 September 2026.
+11 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -2223,10 +2223,11 @@ or configured whole enacts it in representative Work.
 
 ### MDPE.10:6 - Sources and Epistemic Boundaries
 
+Capability development connects learning support, practice and transfer. Assess what the performer can do in the intended later Work and which conditions the assessment covers.
+
 | Source or maintained result | Contribution used here | Boundary |
 | --- | --- | --- |
 | FPF `E.23.CDI` and `A.2.2` | General holder–Work–limitation–intervention–transfer Method and holder-dependent capability identity. | They do not supply Music-or-Dance material, body, rhythm, instrument, partner, ensemble, context, or performance filling. |
-| R9, Person Engineering guide source | Learning service, development, practice, transfer, and evidence questions. | Guide wording is not FPF ontology, one universal curriculum, or evidence of any holder's capability. |
 | Timing examples in the [Dance profile](#mdpepreface72---dance-making-movement-usable-for-its-participants) and the local Balboa cases | Layered timing, contact, weight, partner feedback, and variation for Dance capability design. | Method-design input only; no named-holder capability or mandatory lesson order. |
 | Heald, Lengyel, and Wolpert, [COIN sensorimotor model](https://doi.org/10.1038/s41586-021-04129-3) | Separation of motor-memory creation or updating from context-dependent expression; graded mixtures under inferred context. | Tested in human sensorimotor adaptation; other performance and learning uses remain hypotheses requiring discriminating probes. |
 | Heald, Lengyel, and Wolpert, [Contextual inference in learning and memory](https://doi.org/10.1016/j.tics.2022.10.004) | Context dependence across conditioning, episodic memory, economic decision-making, and motor learning motivates cross-domain tests. | It does not establish one COIN computation for every memory, reasoning task, or learner. |
@@ -3716,9 +3717,10 @@ interaction, or cultural decision.
 
 ### MDPE.23:6 - Sources and Epistemic Boundaries
 
+Compare development Methods by their expected gain, burden, protected conditions and transfer. Test the recognition capability in representative later Work, using a Music or Dance distinction, a recognizer and a suitable task.
+
 | Source or maintained result | Contribution used here | Boundary |
 | --- | --- | --- |
-| R9 contributions `R9-GC-06`, `R9-GC-09` and current FPF capability results | Compare development Methods by gain, burden, protected conditions, and transfer; test in representative later Work. | They do not supply the Music or Dance distinction, recognizer, direct training Method, or domain transfer task. |
 | [Heald, Lengyel, and Wolpert, *Contextual inference underlies the learning of sensorimotor repertoires*](https://doi.org/10.1038/s41586-021-04129-3) and [*Contextual inference in learning and memory*](https://doi.org/10.1016/j.tics.2022.10.004) | Context-sensitive creation, expression, and updating of memories; discriminating return and cue-variation probes. | The first model is sensorimotor; one identical computation for every memory and every agent remains an open hypothesis. |
 | Context-dependent recall and transfer (unpublished source note) | Multidance switching and blending cases, rival explanations, and human and ML probes. | The intake supplies hypotheses and source leads, not a general Method or an established cross-domain result. |
 | Balboa, Brushes, Pulse, and P-Center (unpublished source note) | Continuous carrier, articulation, several timing centres, partner feedback, and interleaved recognition tasks. | It does not prove one universal exercise order or transfer to all performers. |
