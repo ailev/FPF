@@ -84,7 +84,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | A.3.1 | **`U.Method`: Reusable Way of Doing with Explicit Applicability** | Stable | Use when a project must identify one reusable way of doing or untangle a claim described as Method specialization. It distinguishes a Method meeting several kind criteria, a Method kind having several broader kinds, one Method contributing to several whole Methods, and refinement or replacement comparisons. Other questions—for example parameter variation, family grouping, fallback, dispatch, descriptions, performed Work, capability, provider contribution, or cultural change—return to the pattern that defines or tests them. *Queries:* "Is this one Method or two?", "Does this Method meet these kind criteria?", "Does this Method contribute to more than one whole Method?", "What is preserved and changed in this refinement or replacement claim?" | **Builds on:** A.1, A.1.1, A.3. **Coordinates with:** A.3.2, A.6.RCD, A.6.1, A.6.5, A.6.REL, A.15.1, A.15.2, A.22, B.1.5, C.2.1, C.2.P.DR, C.3.1, C.3.2, E.20, F.9, G.5. |
 | A.3.1.MR | **Candidate-Method Recovery from Work Evidence** | Stable | Use when several observed Work occurrences or named sources may show a reusable way but Method identity remains a candidate. Returns one source-traceable account per candidate, real rivals and relevant gaps—or an honest record-only result. A useful distinguishing question is retained when it can change recovery or receiving use; completion requires no irrelevant follow-up study. | **Builds on:** C.2.1, A.3.1, A.15.1, A.10. **Coordinates with:** A.3.2, A.15.6, C.32.MWA, specialist ME.18. |
 | A.3.2 | **`U.MethodDescription`: Description Episteme for a Way of Doing** | Stable | *Keywords:* method-description membership, claim-bearing episteme, exact `U.Method` EntityOfConcern, substantive way-of-doing claim, same method versus equivalent descriptions, representation versus publication versus plan versus Work. *Queries:* "When does an episteme qualify as `U.MethodDescription`?", "Do these descriptions concern the same method, and are their claims equivalent?", "How do I keep a recipe or code artifact separate from enactment?" | **Builds on:** C.2.1, A.3.1, E.24.UK. **Coordinates with:** A.1.1 only when bounded model use is current, A.6.1, A.6.5, A.15.1, A.15.2, A.22, B.1.5, C.29, E.24.PUB, F.9. |
-| A.3.3 | **U.Dynamics: State-Space and Transition-Law Episteme** | Stable | *Keywords:* dynamics, state space, transition law, observation relation, prediction, simulation, calibration. *Queries:* "How do I model a reusable law of state change?", "When is a process label a dynamics episteme rather than method, work, or transformation?" | **Builds on:** A.1.1, A.19. **Coordinates with:** A.3.1, A.3.2, A.3.4, A.15.1, A.15.2, A.6.1, C.27, C.27.TA, C.29, A.10, B.3, A.20, A.21. |
+| A.3.3 | **U.Dynamics: State-Space and Transition-Law Episteme** | Stable | *Keywords:* dynamics, state construction, configuration, constraints, initial data, transition law, permitted alternatives, probability law, observation relation, predictive memory, prediction, simulation, calibration. *Queries:* "How do I construct the state and a reusable law of change?", "Which distinctions must a prediction retain?", "Do possible execution orders have probabilities?", "When is a process label a dynamics episteme rather than method, work, or transformation?" | **Builds on:** A.1.1, A.19. **Coordinates with:** A.3.1, A.3.2, A.3.4, A.15.1, A.15.2, A.6.1, C.27, C.27.TA, C.29, C.16, A.10, B.3, A.20, A.21. |
 | A.3.4 | **`U.Transformation`: Bounded Change Under Conditions** | Stable | *Keywords:* actual bounded change, changed referent, occurrence boundary, actual subject facts, continuity and reidentification, transformation composition. *Queries:* "What actual change occurred?", "Which referent, boundary, and subject facts identify it?", "When may several transformations compose, and when must the claim stop at a missing-governor or missing-substrate blocker?" | **Builds on:** A.1, A.6.RCD, C.2.1, A.7. **Coordinates with:** A.3, A.6.REL, E.24, E.24.UK, F.18, A.14, C.13, A.22, A.3.1, A.3.2, A.3.3, A.6.1, A.15.1, A.15.2, A.15.PROD, E.18, C.27.TA, C.27, C.29. |
 | A.3.4.P | **Transformation Ontic Precision Restoration** | Stable | Repairs change-situation wording by grounding any actual `U.Transformation` in its changed referent, boundary, actual subject facts, and continuity rule; distinguishing performed-work or other direct actor-side claims from differently typed influence sources; and routing flow structure, method, work, representation, evidence, publication, and other neighboring claims through exact governors. | **Builds on:** A.3.4, E.10, E.10.ARCH, E.24, A.6.5, E.8. **Coordinates with:** E.18, E.18.2, C.29, A.3.1, A.3.2, A.3.3, A.6.0, A.6.1, E.20, A.15.1, A.15.2, A.6.F, A.6.M, C.30.ASV, C.27.TA, C.27, A.10, C.2.P.DR, C.2.1, E.17, E.10.MOVE. |
 | ***Cluster A.III - Time & Evolution*** | | | | |
@@ -148,8 +148,8 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | A.16.0 | **`U.LanguageStateMoveTrajectory` - Optional trajectory-account normal form over the language-state `U.CharacteristicSpace`** | Stable | *Keywords:* trajectory account, lineage, fork, merge, supersedes, responsibility transfer, heavy history. *Queries:* "When do I publish a language-state trajectory account?", "How does FPF record lineage and branch history?" | **Builds on:** A.16, C.2.2a, E.17, E.18. **Used by:** A.16.1, A.16.2, B.4.1, B.5.2.0. **Coordinates with:** E.10.MOVE when move-like wording is not a language-state trajectory-account claim. |
 | A.16.1 | **`U.PreArticulationCuePack`** | Stable | *Keywords:* cue pack, pre-articulation, early publication, cue nucleus, primary witness, candidate route cues. *Queries:* "What is a PreArticulationCuePack?", "How do I preserve early cues before `RoutedCueSet` publication?" | **Builds on:** A.16, C.2.2a, C.2.LS. **Coordinates with:** B.4.1, A.16.2. |
 | A.16.2 | **Reopen / SketchBackoff / Respecify** | Stable | *Keywords:* reopen, backoff, respecify, retire, retreat, branch withdrawal, authority withdrawal. *Queries:* "How do I admissibly reopen or back off a language-state publication?", "How do I retire a branch without silent deletion?" | **Builds on:** A.16, A.16.0, C.2.2a. **Coordinates with:** A.6.P, B.4.1. |
-| A.17 | **A.CHR-NORM — Canonical “Characteristic” & rename (Dimension/Axis → Characteristic)** | Stable | *Keywords:* characteristic, measurement, property, attribute, dimension, axis. *Queries:* "What is the correct term for a measurable property?", "How to define a metric?" | **Prerequisite for:** A.18, A.19, C.16. |
-| A.18 | **A.CSLC-KERNEL — Minimal CSLC in Kernel (Characteristic/Scale/Level/Coordinate)** | Stable | *Keywords:* CSLC, Characteristic, Scale, Level, Coordinate, polarity, ordinal vs cardinal scale, one-characteristic-one-scale rule, lawful comparability, no illegal averaging, measurement interpretability. *Queries:* "What must be declared before a value is interpretable?", "When can two measurements be compared?", "Why can ordinal labels not be averaged?" | **Builds on:** A.17. **Coordinates with:** C.16, A.19, A.19.CN, G.0, B.3. **Prerequisite for:** measurement, scoring, comparison, aggregation, and CHR mechanism patterns. |
+| A.17 | **A.CHR-NORM — Canonical “Characteristic” & rename (Dimension/Axis → Characteristic)** | Stable | *Keywords:* characteristic, measurement, property, attribute, dimension, axis, scale order, preference, quantity calculation, scoring. *Queries:* "What is the correct term for a measurable property?", "How to define a metric?", "Does a higher measured value mean better?", "Is a calculated quantity an evaluative score?" | **Prerequisite for:** A.18, A.19, C.16. |
+| A.18 | **A.CSLC-KERNEL — Minimal CSLC in Kernel (Characteristic/Scale/Level/Coordinate)** | Stable | *Keywords:* CSLC, Characteristic, Scale, Level, Coordinate, scale order, use-dependent preference, ordinal vs cardinal scale, one-characteristic-one-scale rule, lawful comparability, no illegal averaging, measurement interpretability. *Queries:* "What must be declared before a value is interpretable?", "When can two measurements be compared?", "Why can ordinal labels not be averaged?", "When do I need a conversion, a measurement model or an evaluative ScoringMethod?" | **Builds on:** A.17. **Coordinates with:** C.16, A.19, A.19.CN, G.0, B.3. **Prerequisite for:** measurement, scoring, comparison, aggregation, and CHR mechanism patterns. |
 | A.19 | **CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)** | Stable | *Keywords:* CharacteristicSpace, U.Dynamics.stateSpace, state trajectories, declared Characteristics and Scales, subspace, embedding, product, structural overlays, coordinatewise comparability; system-role–Method–Work assertions stay outside A.19. *Queries:* "How do I declare the state space a dynamics model moves through?", "How do Characteristics become a multi-coordinate state space?", "What stays inside A.19 and what belongs to a consumer pattern?" | **Builds on:** E.24, A.6.5, A.17, A.18, A.2.6, C.16. **Coordinates with:** A.19.CPM, A.19.SelectorMechanism, A.19.CHR, G.4, F.9, A.10, G.11, C.2.1, A.15. **Prerequisite for:** CHR mechanisms and dynamics models that quantify over trajectories. |
 | A.19.ECS | **Evaluation CharacteristicSpace Construction** | Stable | Guides an author in constructing or repairing an evaluation `CharacteristicSpace` specification for one evaluated object kind and use, including working reader, qualification window, discriminating cases, coordinate and scale meanings, evidence and missingness, result form and calibration, protected trade-offs and comparison, statuses, neighbouring exits, and stop, reopen, `E.22`, and `E.23` conditions. | **Builds on:** A.17-A.19, C.16, F.18. **Coordinates with:** E.22, E.23, C.25, E.21, E.9.DA, E.2.DA, E.8.ECSPF, F.19. |
 | A.19.SPR | **State-Family Precision Restoration** | Stable | Repairs state, status, posture, readiness, stance, currentness, and close state-family wording by recovering bearer, state frame or governing pattern, value set, admissible use, blocked overread, and reopen condition. | **Builds on:** E.10, E.10.ARCH, A.19, A.3.3, C.2.2a, `A.16.*`, A.10, B.3, A.20, A.21, C.27, C.29, E.17, E.9.DA, E.21, F.18. **Coordinates with:** A.17, A.18, C.16, C.16.P, C.16.Q, A.6.P, C.2.P, C.30.P, E.8, E.19, E.11. |
@@ -192,6 +192,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | B.4 | **Canonical Evolution Loop** | Stable | *Keywords:* evolution loop, DesignRunTag feedback, observe-notice-stabilize-route, drift repair, knowledge refinement, method refinement, open-ended evolution. *Queries:* "How does FPF evolve a system or episteme without design-reality drift?", "Where do knowledge and method instantiation sit in the canonical loop?", "Where does pre-abductive routing sit?" | **Builds on:** A.4, A.12. **Refined by:** B.4.1. **Carries embedded slices for:** knowledge instantiation and method instantiation. |
 | B.4.1 | **Observe -> Notice -> Stabilize -> Route** | Stable | *Keywords:* routed cue set, route plurality, route selection, pre-abductive seam, task-family specialization route. *Queries:* "How do under-articulated cues become routed before endpoint claim publication?", "When should a cue become a routed cue set instead of an abductive prompt?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
 | B.5 | **Canonical Reasoning Cycle** | Candidate | Use when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. State what you want to understand or make possible; reuse an adequate result or choose the missing reasoning contribution. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
+| B.5.MPC | **Connect Physical, Mathematical and Computational Reasoning** | Draft | Use when a physical question remains unanswered because the needed physical, mathematical or computational contributions do not yet connect. Start with an available contribution, recover its conditions, obtain a sufficient consequence and interpret it for the physical use. *Queries:* "Which missing contribution prevents the next move?", "What changes when a quantity, command or physical premise changes?", "How can people and AI agents divide this work?" | **Coordinates with:** B.5, A.3.3, C.16, A.6.3.RT, C.29, C.29.1, C.29.2, C.29.3, C.39 and C.40. |
 | B.5.1 | **Explore → Shape → Evidence → Operate** | Stable | *Keywords:* development state cycle, open-ended progression, state machine, Explore, Shape, Evidence, Operate. *Queries:* "What states can project work and its records pass through in FPF?" | **Builds on:** B.5. |
 | B.5.2 | **Abductive Loop** | Stable | *Keywords:* abduction, explanatory prompt, candidate hypotheses, plausibility filters, origin trace, route-to-hypothesis. *Queries:* "How does FPF model abductive hypothesis generation?", "What is the abductive loop?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
 | B.5.2.0 | **`U.AbductivePrompt`** | Stable | *Keywords:* abductive prompt, prompt species, rival-set discipline, threshold crossing, explanation-ready cue. *Queries:* "When is a routed cue ready to enter abduction?", "What prompt species does FPF distinguish before hypothesis work begins?" | **Builds on:** B.4.1, A.16, C.2.2a. **Coordinates with:** A.6.P, A.6.A, C.16.Q. **Used by:** B.5.2. |
@@ -236,7 +237,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.13 | **Constructional Mereology (Compose‑CAL)** | Stable | *Keywords:* mereology, part-whole, composition, sum, set, slice, construction account. *Queries:* "How can I show, without creating it by notation, how already identified constituents and relations assemble a whole, form a collection, or distinguish an aspect?", "What is Compose-CAL?". | **Builds on:** A.14 and direct part-relation patterns. **Coordinates with:** C.2.1. **Is used by:** A.1, B.3.5, and subject patterns needing a compact construction account. |
 | **Cluster C.IV – Composite & Macro‑Scale** | | | | |
 | C.14 | **System-of-Systems and Infrastructure Calculus (M-Sys-CAL)** | Planned | *Keywords:* system-of-systems, infrastructure, inter-system dependency, service network, infrastructure boundary, operational coupling. *Queries:* "How to model a complex infrastructure such as a power grid?", "Which cross-system dependency changes the claim?", "When is this a system-of-systems rather than one system?" | **Builds on:** planned C.1, B.2.2, A.22, C.30, B.1.6. **Coordinates with:** C.30.ILC, planned C.5, D.2, G.6, B.3. |
-| C.16 | **Measurement & Metrics Characterization (MM‑CHR)** | Stable | *Keywords:* measurand, measurement subject, Characteristic, Scale, Level/Coordinate, Unit, polarity, method, model, calibration, dated measurement work, actual bindings, input/output quantities, uncertainty, measurement result, C.2.1 result episteme, comparability, provenance, bounded later use. *Queries:* "How do I recover a complete measurement chain from a reading, score, rating, sensor indication, dashboard value, or claimed comparison?", "How do I distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision?", "When should ambiguous measurement wording go first to C.16.P, comparison or selection go to A.19, and provenance go to A.10/G.6?" | **Builds on:** A.17, A.18; uses A.15.1/A.6.1 for dated work and actual bindings and C.2.1 for the result episteme. **Coordinates with:** C.16.P, A.19, C.28, A.10, G.6, G.11, B.3, G.4, C.11, C.29. **Used by:** patterns that consume typed measurement-result epistemes, including G.4 and B.1.6. |
+| C.16 | **Measurement & Metrics Characterization (MM‑CHR)** | Stable | *Keywords:* measurand, measurement subject, Characteristic, Scale, Level/Coordinate, Unit, Scale order, measurement-model construction, indication-producing procedure, method, model, calibration, dated measurement work, actual bindings, input/output quantities, uncertainty, measurement result, C.2.1 result episteme, comparability, provenance, bounded later use. *Queries:* "How do I construct a measurement relation and find what an indication can resolve?", "How do I recover a complete measurement chain from a reading, score, rating, sensor indication, dashboard value, or claimed comparison?", "How do I distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision?", "When should ambiguous measurement wording go first to C.16.P, comparison or selection go to A.19, and provenance go to A.10/G.6?" | **Builds on:** A.17, A.18; uses A.15.1/A.6.1 for dated work and actual bindings and C.2.1 for the result episteme. **Coordinates with:** C.16.P, A.19, C.28, A.10, G.6, G.11, B.3, G.4, C.11, C.29. **Used by:** patterns that consume typed measurement-result epistemes, including G.4 and B.1.6. |
 | C.16.P | **Characteristic and Scale Precision Restoration** | Stable | Repairs overloaded characteristic, scale, coordinate, metric, score, indicator, threshold, comparison, and scalar-quality wording before C.16/A.17-A.19/C.25/C.29/E.21 or another governing pattern is applied. | **Builds on:** E.10, E.10.ARCH, A.17, A.18, C.16, A.19, C.25, C.29, E.21, F.18, A.6.P. **Coordinates with:** C.16.Q, A.19.ECS, evidence, assurance, gate, decision, causal-use, benchmark, and publication patterns governing those claims. |
 | C.16.Q | **Quality-Term Precision Restoration** | Stable | Repairs overloaded quality and evaluative-characterization wording by using the evaluative form already defined for the chosen endpoint or a bounded transitional quality-term repair form with a named bearer, evaluation frame, sense family, admissible normal form, and the rule that defines the endpoint. | **Builds on:** E.10, E.10.ARCH, C.16.P, C.16, C.25, E.21, A.17, A.18, A.19, A.7, C.2.1, E.8, F.9, F.18. **Coordinates with:** A.6.P, A.6.A, A.16, B.4.1, B.5.2.0, A.10, B.3, F.9.1. |
 | C.17 | **Characterising Generative Novelty and Value** | Stable | *Keywords:* qualitative-first evaluation, named comparison basis, Novelty, Use-Value, ConstraintFit, bounded quantitative result, evidence, uncertainty, incomparability. *Queries:* "What is this bearer new relative to, and useful for which objective or must-criterion?", "When is a qualitative answer enough, and when does a quantified result need a declared corpus, Method, Scale, evidence, and uncertainty?", "When does learning wording go first to E.10.LRN, possibility-space change to C.18, or finite configuration comparison to C.11.CRC?" | **Builds on:** A.17, A.18, A.19, A.19.ECS, C.16, C.2.1, A.1.1, A.10, B.3. **Coordinates with:** E.10.LRN, C.18, C.19, G.5, C.11.CRC, C.11, F.9, F.18, B.4, G.11, A.15.1, F.6, A.3.1, A.3.2. |
@@ -261,7 +262,10 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.27 | **Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Change** | Stable | *Keywords:* temporal claim adequacy, temporal claim, state reading, rate reading, temporal trend, rate-change, intervention-sensitive temporal change, effort window, resistance/inertia, rhythm/cadence, throughput, recovery, braking, coasting, stabilization, dynamic benchmark. *Queries:* "When does a speed, rhythm, throughput, or recovery claim need temporal adequacy?", "How do I separate state, rate, and intervention-sensitive rate-change?", "When is faster improvement not enough for benchmark, quality, viability, or QL claims?" | **Builds on:** C.16, A.3.3, B.1.4, B.1.6. **Coordinates with:** C.27.TA, A.3.4, C.18.1, C.19, C.22.1, C.24, C.25, C.26, C.26.3, G.9, A.10, B.3. |
 | C.27.TA | **Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness** | Stable | *Keywords:* temporal aspect, time window, freshness, currentness, rhythm, cadence, validity window, recovery timing. *Queries:* "Which time relation matters for this claim or object?", "How do I state freshness, rhythm, latency, or validity window without turning it into evidence, work, or dynamics law?" | **Builds on:** A.3.4, A.3.3, C.27, E.24. **Coordinates with:** A.10, B.3, A.15.1, A.15.2, A.20, A.21, C.16, C.29, E.18, G.11. |
 | C.28 | **CausalUse-CAL: Causal-Use Questions, Identification, and Realizability** | Stable | *Keywords:* causal-use question, causality ladder, association, intervention, counterfactual, Pearl Causal Hierarchy, Structural Causal Model, causal diagram, causal estimand, identification, counterfactual sampling realizability, causal support components, CausalUseSupportResult, target trial, causal fairness, off-policy causal evaluation, causal-RL evaluation. *Queries:* "Can I say this caused that?", "Is this intervention claim supported?", "What evidence supports a counterfactual claim?", "When does a fairness metric need causal support?", "Is simulation enough for a counterfactual claim?", "Which pattern handles causal benchmark parity?", "When should causal language be downgraded to association, measurement, temporal, QL, or local prose?" | **Builds on:** A.10, B.3, C.11, C.19, C.24, C.26, C.27, D.5, G.5, G.9. **Coordinates with:** A.2.4, A.3.2, A.6, A.15, C.16, G.11. |
-| C.29 | **Mathematical Lens Use** | Stable | *Keywords:* mathematical lens, structure-preserving representation, lens mapping mode, preserved structure, lost structure, invariants, stop condition, scale window, coarse-graining, rival lens, `LensUseBoundaryValue`, validation boundary, learned lens, ontology smuggling. *Queries:* "When does a mathematical analogy become an admissible FPF lens?", "What structure is preserved by this lens?", "Where must this math transfer stop?", "How do I use mathematical structure without importing ontology?" | **Builds on:** A.1.1, A.6.P, A.6.RCD, A.3.3, A.19, A.10, A.15, B.3, C.16, E.17.EFP, E.17.ID.CR, A.6.3.RT, A.6.3.CSC, F.9. **Constrained by:** E.8, E.10, C.2.P, E.19. **Decision basis:** E.9 and C.29:13a. **Coordinates with:** C.11, A.15.1, A.15.4, C.18.1, C.19.1, C.26, C.27, C.28, G.5, G.9, G.2, G.10. |
+| C.29 | **Mathematical Lens Use** | Stable | Use when a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when a result is being carried beyond the representation's supported use. Construct the correspondence, derive a consequence and return its meaning and limits to the working question. *Queries:* "Which mathematical construction answers this question?", "What does it preserve or lose?", "What changes in the project if this consequence holds?" | **Builds on:** A.1.1, A.6.P, A.6.RCD, A.3.3, A.19, A.10, A.15, B.3, C.16, E.17.EFP, E.17.ID.CR, A.6.3.RT, A.6.3.CSC and F.9. **Related Methods:** C.29.1, C.29.2 and C.29.3. **Coordinates with:** B.5.MPC, C.26, C.28 and C.39. |
+| C.29.1 | **Mathematical Result Transfer** | Draft | Use when an operation or result must be carried from one mathematical account to another. Compare performing then mapping with mapping then performing, test representative choice and recover a transferable consequence, a bound or a repair. *Queries:* "Does this summary preserve the operation and its permissions?", "Can two represented cases give different answers?", "Does the receiving answer correspond to a feasible source action?" | **Coordinates with:** C.29 for the representation question, B.5 for construction and argument recovery, A.3.3 for retained state, and A.6.3.RT for expression under a scheme. |
+| C.29.2 | **Computational Formulation** | Draft | Use when the required answer or available computing means are known, but the state, operations and obtaining procedure are not yet connected. Construct a computation, establish the claimed result and estimate the resources its use consumes. *Queries:* "How can these relations yield the newly requested unknown?", "Which representation makes the computation feasible?", "What accuracy or probability guarantee does this procedure provide?" | **Coordinates with:** C.29.1 for result transfer, C.29.3 for realization, A.3.3 for state, A.6.3.RT for notation, and C.39/C.40 for a missing construction. |
+| C.29.3 | **Computational Realization** | Draft | Use when a computation and a candidate executing system are available but their connection is unsettled. Relate preparation, system operation and readout; compare the interpreted result with the required equality, bound or behavior. *Queries:* "What does this command make the system do?", "Do range, timing or shared state invalidate the result?", "Do correct individual outputs compose into the required joint result?" | **Coordinates with:** C.29.2 for computation, A.6.1 for realization, A.3.3 for state, C.16 for observation, and B.5.MPC for the joint physical question. |
 | C.30 | **Grounded Architecture and Selected-Structure Adequacy** | Stable | *Keywords:* grounded architecture, ArchitectureOf@Context, selected structure, architecture claim, architecture question card, candidate architecture use, architecture-description boundary, artifact-as-architecture guard. *Queries:* "How do I recover a grounded architecture claim?", "Which selected structure changes the architecture move?", "When does candidate synthesis go to C.32 rather than C.30?" | **Builds on:** A.22, C.2.1, A.6.3, A.7, E.17.0, E.17, E.10.D2, F.18. **Coordinates with:** C.30.AD, C.30.ASV, A.6.F, C.30.TFS-REL, C.30.LCA, C.30.ILC, C.32, C.32.MLAO, C.32.CONWAY, C.32.PAD, C.32.ADR, C.32.ADA, C.29, C.16, C.25, C.28, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.10, B.3, A.20, A.21, A.15. |
 | C.30.AD | **Architecture Description Adequacy** | Stable | *Keywords:* architecture description, ArchitectureDescription@Context, architecture description use card, architecture structural view, viewpoint, correspondence, source return, specification-use boundary, candidate-description boundary. *Queries:* "When is an architecture description the EntityOfConcern under repair?", "How do I keep views, viewpoints, selected structures, and publication boundaries distinct?", "Where do described candidate palettes and residual frames go?" | **Builds on:** C.30, C.30.ASV, A.22, A.7, A.6.3, E.17.0, E.17.1, E.17.2, E.17, C.2.P, E.10, E.10.ARCH. **Coordinates with:** C.30.P, C.30.TFS-REL, C.30.LCA, C.30.ILC, C.32, C.32.MLAO, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.6.F, A.6.M, C.29, C.16, C.16.P, A.10, B.3, A.20, A.21, A.15, C.28, E.8, F.18. |
 | C.30.AD.BA | **Built-Asset Architecture Description and Reference Designation** | Stable | Built-asset architecture-description use for BIM, IFC, asset registers, digital-twin views, handover tables, and ISO/IEC 81346-style reference designations without turning descriptions into assets, evidence, gates, work, or decisions. | **Builds on:** C.30, C.30.AD, C.30.ASV, A.22, E.17. **Coordinates with:** A.6.F, A.6.M, C.30.TFS-REL, C.30.LCA, C.30.ILC, A.10, B.3, A.20, A.21, C.11, C.28. |
@@ -529,13 +533,13 @@ The ordinary examples show difficulties that one direct pattern use can usually 
 - **Start with:** `C.16`.
 - **Stop or return:** Stop when the value supports the present comparison. Return when the subject, method, calibration, time stance, uncertainty, or use changes.
 
-### MATHEMATICAL-MODELING — Use a mathematical lens only when it changes action
+### MATHEMATICAL-MODELING — Obtain a useful consequence from a representation
 
-- **Situation:** A formula, formalism, simulation object, or learned representation is proposed to clarify a project question.
-- **Question:** What is mapped to what, which structure is kept or lost, how is the lens calibrated, what rival or ordinary fallback exists, and what decision changes?
-- **First useful result or blocker:** A bounded lens use with its mapping, retained and lost structure, calibration, rival, practical payoff, and no-lens exit, or the exact missing basis.
-- **Start with:** `C.29`.
-- **Stop or return:** Stop without the lens when no decision changes. Return when the mapped subject, preserved structure, calibration, evidence, rival, or use changes.
+- **Situation:** A working question needs a mathematical construction, or a proposed representation may omit something that changes the answer.
+- **Question:** Which object and correspondence make the question answerable, and which conditions permit using its result?
+- **First useful result or blocker:** A calculation, bound, construction, obstruction or distinguishing observation, with its interpretation; alternatively, the missing relation or operation.
+- **Start with:** `C.29:4.1`. Use an adequate local equation or algorithm directly when no representation question remains.
+- **Stop or return:** Stop when the consequence answers the present use. Return when a changed assumption, lost distinction or execution condition changes that consequence. Validate correspondence to a phenomenon when the intended reliance requires it under `C.29:4.5a`.
 
 When the direct pattern is already known, open it rather than forcing the question into an example: `E.11.PFP` for framework publication, `E.11.DSG` for the DPF Suite Reference when a question spans several DPFs, `A.15.6` when *project*, *process*, or *case* hides the subject, `A.1.1` for model-use organization, `C.22.PFR` for an actual-problem claim, and `A.6.REL` for an obtaining relation. These are locators, not more selectable examples.
 
@@ -544,6 +548,31 @@ When the direct pattern is already known, open it rather than forcing the questi
 These cards offer a non-exhaustive set of optional routes for extended work with a pattern language, each selectable by its situation and intended result and composable only from contributions current in the actual case.
 
 The keys only help navigation. Compare cards by the situation and intended result, then open the direct patterns needed in the actual case. Skip a contribution whose question is not current, and stop at the first useful result or blocker.
+
+#### UNFAMILIAR-THEORY - Make an unfamiliar theory usable
+
+- **Situation:** A theory offers a construction or result you need, but its notation and objects differ from the representation used by your project.
+- **Question:** How can you obtain the theory's result and use it with the project's representation?
+- **First useful result or blocker:** A reproduced construction and interpreted consequence, or a specific missing operation, premise or correspondence that directs the next inquiry.
+- **Mantra:** Recover the question the theory helps answer. Work through the construction that produces its objects and results. Reconstruct the decisive argument. Where the receiving question uses another representation, compare the operations on both sides. Return the consequence to the project; use what suffices or formulate the missing next contribution.
+- **Start with:** `B.5:4.2` for construction recovery and `B.5:4.3` for the argument. Use `A.6.3.RT` when constructing or changing an expression under a representation scheme, `C.29.1` for operation-preserving transfer, and `C.39` when you cannot yet explain how to obtain the needed result.
+- **Stop or return:** A supplied result can enter where it is needed. Stop when its interpreted consequence answers the working question. If a premise changes, follow its effect through the construction or argument instead of repeating unaffected work.
+
+#### PHYSICAL-RESULT - Connect physics, mathematics and computation
+
+- **Situation:** A team has physical, mathematical and programming knowledge, but cannot connect the contributions needed to produce a physical result.
+- **Question:** Which missing contribution prevents the next engineering move?
+- **First useful result or blocker:** An interpreted calculation, proposed realization or located failure in the physical account, computation or execution.
+- **Mantra:** State the physical change sought. Construct the state and continuation needed to reason about it. Formulate the mathematical question and interpret its variables and operations. Obtain a result or computational procedure. Connect input preparation, system actions and output reading. Return to the physical question and repair the failed contribution.
+- **Start with:** `B.5.MPC` to connect available contributions and select the missing one. `C.29` constructs mathematical correspondence; `C.29.1` tests result transfer; `C.29.2` constructs computation; `C.29.3` connects it to an executing system. Subject engineering supplies physical laws and mechanisms.
+- **Stop or return:** Reuse ready contributions. Stop when the result suffices for the present decision. Reopen the contribution whose changed condition invalidates its use.
+
+##### Expansion for PHYSICAL-RESULT
+
+**Divide the work.** Give the next participant the result, what it denotes and the assumptions needed to use it. For the robot in `B.5.MPC:5.1`, the physical contribution supplies the motion model; the mathematical contribution relates distance to motor increments; the computational contribution produces an integer command and its rounding bound; the realization contribution checks what that command makes the controller do. People and AI agents can take these contributions according to their capabilities.
+
+Use `A.3.3` to construct a missing state account and `C.16` for a needed measurement relation. These are dependencies between results. A ready model or computation can be reused at its point of need. Slip can reopen the motion model, overflow the command representation, and changed timing the execution arrangement. A calculated displacement remains conditional on the model until actual motion is established.
+
 
 #### ARCHITECTURE — Carry an outside need through structure and feedback
 
@@ -9018,11 +9047,11 @@ The pattern is representation-agnostic because a method can be described through
 
 Use this pattern when you need a reusable account of how a particular subject's state can change: which differences the state must retain, the law relating earlier and later state, and the conditions in which that law applies.
 
-**First useful move.** Name the changing subject, the state coordinates and their meanings, and the transition law in one ordinary sentence. For example: “In this two-substance mixture, the remaining masses in kilograms change from (a,b) to (a/2,b/4) after each treatment cycle; the instrument reports a+b.” The first question is whether the observed total contains enough information to predict the next total. Section 5.6 works out the answer.
+**First useful move.** Name the changing subject and what you want to find about its change. If the state and law are already available, state their meanings in one ordinary sentence; otherwise construct them through :4.4.1. For example: “In this two-substance mixture, the remaining masses in kilograms change from (a,b) to (a/2,b/4) after each treatment cycle; the instrument reports a+b.” The first question is whether the observed total contains enough information to predict the next total. Section 5.6 works out the answer.
 
 If the ordinary statement is sufficient for the current comparison, stop. Add the observation, calibration or assurance account when the receiving use needs it. Before making a prediction, conformance or gate-use claim, name the exact applicability window and any observation relation that use requires; stop that use if a required condition is unavailable.
 
-The practical gain is a prediction based on sufficient state information, with an explicit way to compare it with observations. A model fitted to the wrong state can lose a distinction that changes the answer.
+The practical gain is a model that supports the needed prediction or comparison, or identifies the missing distinction or rule. A model fitted to the wrong state can lose a difference that changes the answer.
 
 This pattern identifies the episteme that states the model's state space and transition law. Section 4.1 gives its membership rule. For a known model and a settled calculation, use the domain calculation directly. When the question instead concerns a procedure, an actual event or another receiving use, use the conditional contributions in :4.3.
 
@@ -9051,7 +9080,7 @@ A usable account must therefore connect the changing subject, the state distinct
 
 The C.2.1 ClaimGraph, exact `EntityOfConcern`, and effective `U.ReferenceScheme` remain the episteme's identity discriminators. A.3.3 adds no context field or second dynamics identity. A `U.ClaimScope`, operating region, applicability window, qualification interval, parameter regime, or scale band enters only through the exact claim that uses it and its subject pattern; changing one can change claim content without becoming an ambient container.
 
-`U.Dynamics` can be deterministic or stochastic, continuous, discrete, or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another exact EntityOfConcern. If several subjects are jointly modelled, the exact C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject.
+`U.Dynamics` can declare a deterministic transition, permitted alternatives, a probability law over continuations, or a combination of these. Its time description can be continuous, discrete or hybrid. It can make state-change claims about physical systems, software services, organizations, epistemes, claim portfolios, resource states, architecture characteristics, or another exact EntityOfConcern. If several subjects are jointly modelled, the exact C.2.1 EntityOfConcern must itself be an independently identified collection, system, or other admitted subject.
 
 
 If empirical grounding is claimed, state the exact C.2.1 `EpistemeEmpiricalGroundingRelation`.
@@ -9068,7 +9097,8 @@ Dynamics statement:
   StateSpace:
   TransitionLaw:
   TimeReference:
-  Stochasticity:
+  TransitionChoices:
+  ProbabilityLawIfSpecified:
   InputsOrDisturbances:
   ObservationRelation:
   ConstraintsOrInvariants:
@@ -9112,7 +9142,8 @@ U.Dynamics membership view {
     stateSpace: state-space declaration over FPF characteristics
     transitionLaw: state-transition claim
     timeReference: continuous | discrete | hybrid
-    stochasticity: deterministic | stochastic
+    transitionChoices: permitted continuations and conditions selecting among them
+    probabilityLawIfSpecified?: conditional probability law over continuations
     inputsOrDisturbances?: CharacteristicSet
     observationRelation?: claim or exact relation reference
     constraintsOrInvariants?: claim content
@@ -9132,6 +9163,19 @@ U.Dynamics membership view {
 `observationRelation` specifies how the model connects its state to the observed quantity. For a deterministic observation, give the map `y = h(x)`, where `x` is the model state and `y` the observed quantity. Identity observation (`h(x) = x`) is allowed only when the claim says the state coordinate is directly observed.
 
 When proposing an exact deterministic one-step law on measured or aggregated coordinates, check whether two admitted states with the same current values of those coordinates, time and inputs can give different next coordinate values. Such a pair disproves that proposed law. Section 5.6 shows how to recover the missing predictive information or give a bounded answer.
+
+For a proposed stochastic one-step law on aggregated coordinates, compare the next-observation distributions from the states it merges under the same time and inputs. If those distributions differ, the current aggregate omits predictive information. Retain a more informative state, condition a distribution over hidden states on the available history, or use a bound sufficient for the question. Equality for every merged group supports the aggregated one-step law under those conditions; longer use must preserve the later outputs and conditions it needs. Section :5.8 separates this question from long-run averaging.
+
+##### A.3.3:4.4.1 - Construct the state and allowed continuations
+
+1. **Start with the question and participants.** Name what can change, which result is needed and the conditions being considered. From the relevant subject account, identify the interacting participants and which of their differences can affect that result.
+2. **Describe allowed configurations.** State how the participants may be arranged and which values are compatible. Separate constraints on configurations from interactions that drive change. Use independent coordinates when they simplify the work; retain an implicit constraint when eliminating it is difficult or would hide a needed relation.
+3. **Recover the information needed for continuation.** Separate changing state from parameters held fixed by the model and externally supplied inputs. Determine the initial data required by the proposed law. A position may also need its velocity; a computation may need its instruction position and saved local values. For a field, name its argument domain and value quantities, then obtain the needed initial and boundary data from its law and the modeled arrangement.
+4. **Construct the transition.** Use the subject's laws or operation rules to relate admitted states under the inputs. Work a small case. Check that the proposed continuation respects the constraints. If a constraint leaves the next state unresolved, supply the missing interaction or operation rule, or retain the alternatives it permits.
+5. **Interpret the alternatives.** State who or what can select a continuation and under which conditions. Use a probability law when one is supplied or supported for that use. Counting possible continuations establishes their number; probabilities require a rule assigning them weights. The distinction changes the result in :5.9.
+6. **Test the description and choose the return.** Apply the state-sufficiency comparison above to the prediction or observation needed now. Return the state and transition account, a sufficient range or conditional conclusion, or the state distinction, law, input or observation still needed. Use C.11.DUA when choosing whether further information is worth obtaining.
+
+The construction can finish before a complete dynamics model exists: a useful result may identify the missing physical interaction or computational rule. Section :4.1 admits `U.Dynamics` only when the episteme substantively states both the state space and the transition law.
 
 #### A.3.3:4.5 - Evidence, prediction, conformance, drift, and calibration
 
@@ -9207,6 +9251,36 @@ If only the initial total is available, the model still gives a range: for integ
 
 The calculation assumes exact readings and fixed retention factors. Applying it to treatment data requires accounting for measurement error and establishing the retention law over the intended operating range. [Lin and Lu, §§2.1–2.2](https://arxiv.org/html/1908.07725v5) explain the broader state/observation and model-reduction problem; the two-substance case here supplies an elementary construction.
 
+#### A.3.3:5.7 - A constraint changes the state description
+
+Two endpoints move in a plane and are connected by a rigid link of length `l > 0`. Four Cartesian coordinates obey `(x2-x1)^2+(y2-y1)^2=l^2`. One configuration description uses three coordinates: place the first endpoint at `(X,Y)` and the second at `(X+l*cos(phi),Y+l*sin(phi))`, with `phi` taken modulo a full turn. The construction makes the length constraint hold. To predict motion under an ordinary second-order mechanical law, also supply the required velocities and the forces or other interactions.
+
+Change the question to longitudinal vibration of an elastic link. Fixed `l` has removed the extension that matters. Replace it with variable length `r`, keep its rate of change when required, and obtain the restoring interaction from the physical model. A rigid-link calculation remains useful for its earlier premise; the elastic question needs another state and law. [Tong, Classical Dynamics, §2.3](https://www.damtp.cam.ac.uk/user/tong/dynamics/dynhtml/S2.html) supplies the generalized-coordinate method; the two-endpoint comparison here applies it.
+
+In another practice, two queues share a fixed total of `N` items. Retain `q1` and recover `q2=N-q1`, with `0<=q1<=N`. If external arrivals are admitted, the state must retain the changing total or both queue sizes. The source of the constraint changes, while the construction still identifies which values can vary independently.
+
+#### A.3.3:5.8 - A long-run average can coexist with predictive memory
+
+Consider a three-state Markov model with this transition matrix. A readout reports 0 for A or B and 1 for C.
+
+| Present state | Next A | Next B | Next C |
+| --- | --- | --- | --- |
+| A | 0.7 | 0.2 | 0.1 |
+| B | 0.1 | 0.2 | 0.7 |
+| C | 0.2 | 0.3 | 0.5 |
+
+A present readout of 0 merges states with next-1 probabilities 0.1 and 0.7. The readout alone therefore leaves predictive information unresolved. The stationary distribution is `(19/54,13/54,22/54)`. At stationarity, after readouts `1,0`, the current A/B weights are `2/5,3/5`, so the next-1 probability is `23/50`. After `0,0`, those weights are `73/105,32/105`, giving `99/350`. A decision that changes above probability 0.4 takes different actions after these histories. Keeping only the present 0 and the stationary A/B mixture gives `11/32` and loses that difference.
+
+Condition on the available history or retain the resulting predictive distribution. With no information beyond the current 0, the range `[0.1,0.7]` may already answer a weaker question. The full finite chain is irreducible and aperiodic, and its long-run proportion of readout 1 converges to `22/54`. That long-run result leaves the history-dependent prediction above intact. The finite-chain results are given in [Cambridge's Markov Chains notes, §§9-10](https://www.statslab.cam.ac.uk/~rrw1/markov/M.pdf); the matrix and conditional calculations here are an authored example.
+
+#### A.3.3:5.9 - Possible execution orders do not supply a probability law
+
+Two participants A and B each read shared integer `x` into a local saved value, then write that saved value plus one. Each read or write is atomic, and each participant's read precedes its write. Initially `x=0`. To follow the permitted reads and writes, use `x`, each participant's position in its two-step procedure and any value already read.
+
+There are six interleavings that preserve those local orders. Only `readA,writeA,readB,writeB` and its A/B reversal finish at 2. The other four finish at 1: both reads occur before either write, so each participant later writes 1. This enumeration identifies allowed histories that defeat the intended two-increment result.
+
+The six histories have no assigned execution probabilities. Inferring a probability of 2/3 for a lost increment from these counts requires a scheduler model that justifies equal likelihood for the six histories. To obtain the intended result for every allowed history, serialize the read-and-write pairs or supply an indivisible increment operation. If that repair introduces waiting, separately check the progress condition required by the use.
+
 ### A.3.3:6 - Bias-Annotation
 
 Available measurements can determine the chosen state too early. In :5.6, a convenient total conceals the composition that determines the next total. Compare states that share the proposed observation before treating it as sufficient for prediction.
@@ -9221,9 +9295,9 @@ A familiar equation or a well-fitting simulation can also encourage extrapolatio
 
 **CC-A3.3-3 (EntityOfConcern).** Name the changing EntityOfConcern. Joint modeling uses the independently identified joint subject required by :4.1.
 
-**CC-A3.3-4 (State space).** The state space enumerates characteristics with units, scales, comparability rules, and any needed topology, geometry, aggregation policy, or invariantization rule.
+**CC-A3.3-4 (State space).** The state description identifies the participants and variable meanings, their allowed combinations, and the information required by the law. Characteristics retain their units, Scales and comparability rules; topology, geometry or coordinate transformations are supplied when the use needs them. Use :4.4.1 when this description must be constructed.
 
-**CC-A3.3-5 (Transition law).** The transition law states a relation, map, kernel, equation, rule, learned predictor, or simulation rule suitable for the declared time base and stochasticity.
+**CC-A3.3-5 (Transition law).** The law states a relation, map, kernel, equation, rule, learned predictor or simulation rule for the declared time base. Its permitted alternatives, conditions selecting among them and any supplied probability law remain recoverable under :4.4.1.
 
 **CC-A3.3-6 (Observation relation).** Evidence use states how exact Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. Direct observation is declared rather than assumed.
 
@@ -9283,6 +9357,10 @@ For a present total of 1 kg, the interval [0.25, 0.5] kg already settles whether
 Accordingly, :4.6 makes the intended consumer specify the prediction conditions and properties it relies on. A control decision that relies on recursive feasibility must establish the relevant model, constraints and feasibility conditions. An ordinary comparison can finish with the state, law, observation and applicability information sufficient for its question. The extra cost of a stronger guarantee is incurred by the use that needs it.
 
 Reopen the chosen description when the observation error, retention law, horizon or question changes enough to defeat its information or error bound. Reopen a control use when its measured prediction errors or operating conditions defeat the assumptions supporting its selected guarantee.
+
+**Construct before reducing.** Tong's [generalized-coordinate construction, §2.3](https://www.damtp.cam.ac.uk/user/tong/dynamics/dynhtml/S2.html) supplies a way to represent configurations satisfying constraints. His [field-theory discussion, §1.1.2](https://www.damtp.cam.ac.uk/user/tong/qft/qfthtml/S1.html) shows that the interpretation and time order of a field law determine its initial data. Section :4.4.1 adopts the common sequence from participants and constraints to predictive information; the particular forces, field equations and solving Methods remain subject contributions. Retaining an implicit constraint can be preferable to eliminating it when the elimination obscures the relation being investigated.
+
+The deterministic comparison in :5.6 and stochastic comparison in :5.8 ask which distinctions prediction needs. Long-run averaging answers a separate question about repeated evolution. In :5.9, a range over allowed executions is available before their probabilities are known. Choose the transition representation that answers the present question with the information available.
 
 ### A.3.3:12 - Relations
 
@@ -14947,7 +15025,7 @@ This pattern is worth splitting out because same-entity textual re-expression is
 
 Use this pattern when practical content must survive a change of representation scheme or reasoning medium: prose to table, table to diagram, diagram to structured notation, a model to a different inspectable rendering, or another declared representation change. In plain language: **change the representation while preserving what matters for this use**.
 
-Start with the content that must survive and the target representation that will make it more usable. Produce the target, compare it with the source, and state what was preserved, foregrounded, rearranged, lost, or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
+Start with the content that must survive and the action the new representation should support. The source can be givens, constraints and a partial construction while the answer is still unknown. Under an available scheme, make the target, compare it with the source, and state what was preserved, foregrounded, rearranged, lost or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
 
 Plain starting vocabulary:
 
@@ -14955,8 +15033,8 @@ Plain starting vocabulary:
 | --- | --- |
 | `source material` | The source claims, table, prose, diagram, model, record, publication, or other material being re-represented. In an exact case, distinguish the source episteme from its form, carrier, world-side concern, and additional inputs. |
 | `content to survive` | The claims, relations, commitments, uncertainty, source pins, or distinctions the target representation must still support for the declared use. |
-| `target representation` | The table, diagram, notation, structured record, or other representation chosen for the receiving task. Its visible form or carrier does not by itself identify a receiving episteme. |
-| `representation scheme` | The declared regime under which claim content is represented and interpreted for this use. |
+| `target representation` | The table, diagram, symbolic expression, sequence of signs or other representation made for the receiving task. Its visible form or carrier does not by itself identify a receiving episteme. |
+| `representation scheme` | The conventions for forming and interpreting expressions in this use. Different expressions can use the same scheme. |
 | `reasoning medium` | What the representation lets a user inspect, compare, infer, traverse, or replay more or less easily. |
 | `representation delta` | What changed in shape, notation, salience, topology, ordering, interaction, or another representation factor. |
 | `loss and recoverability` | What becomes harder to see or is omitted, and how the user can recover it when it matters. |
@@ -14971,7 +15049,7 @@ Plain starting vocabulary:
 
 **Ordinary use.** For inspection, comparison, source-finding, technical discussion, or reversible planning preparation, the target representation and compact note are normally enough.
 
-**Reliance-facing use.** Open the exact episteme-construction branch when the target must travel independently, be cited or disputed, cross a scheme boundary for consequential use, be considered for admission as receiving episteme `Y` in a generated or decode-mediated case, or meet an exact-identity requirement from a named public, evidence, or assurance receiver. Then recover exact source episteme `X`, receiving episteme `Y`, and viewing construction `v : X -> Y`, together with the source chain, scheme relation, loss/recoverability, evidence, or assurance actually needed for that use.
+**Reliance-facing use.** Open the exact episteme-construction branch when the target must travel independently, be cited or disputed, cross a scheme boundary for consequential use, be considered for admission as receiving episteme `Y` in a generated or decode-mediated case, or meet an exact-identity requirement from a named public, evidence, or assurance receiver. Then recover exact source episteme `X`, receiving episteme `Y`, and viewing construction `v : X -> Y`, together with the source claims and relations on which `v` depends, and the scheme relation, loss/recoverability, evidence, or assurance actually needed for that use.
 
 **Later-specific occurrence.** Open `RepresentationSchemeTransitionRelation@Context` only when actual representation-transformation Work and the exact six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
 
@@ -14994,7 +15072,7 @@ Without a dedicated representation-scheme-transition pattern:
 - **Legibility vs recoverability.** A clearer target helps only if users can recover the source content and distinctions needed by the declared use.
 - **Useful foregrounding vs unsupported strengthening.** Tables, diagrams, notation, and interactive views can expose structure while also making added links look source-given.
 - **Representation change vs ontology change.** New notation or geometry can make structure visible; visibility does not establish world-side structure or a new EntityOfConcern.
-- **Progressive exactness.** Ordinary conversions should stay easy, while externally relied-on or decode-mediated cases retain exact identity, source-chain, loss, and evidence discipline.
+- **Progressive exactness.** Ordinary conversions should stay easy, while externally relied-on or decode-mediated cases retain exact identity, source dependencies, loss, and evidence discipline.
 - **Recoverability before decode ambition.** Directly inspectable cases establish the normal entry; latent cases need explicit decoding access and evidence for their use.
 
 ### A.6.3.RT:4 - Solution — preserve practical content across a representation change
@@ -15003,13 +15081,18 @@ Without a dedicated representation-scheme-transition pattern:
 
 Produce the useful target first:
 
-1. Name the user action the new representation should help: compare, inspect, traverse, calculate, communicate, or replay.
-2. Point to the source material and name the claims, relations, commitments, uncertainty, or source pins that must survive.
-3. Choose the target representation and say why it is better suited to that action.
-4. Produce the smallest target that supports the action.
-5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted, or harder to recover; and which visible links or interpretations were added by the representation.
-6. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
-7. Close with admissible use, non-admissible use, and a concrete return trigger and destination.
+1. Name the user action the new representation should help: compare, inspect, traverse, calculate, communicate or replay. Identify the user's familiarity with the notation when that changes what they can do with it.
+2. Point to the source material. Recover the givens, constraints and partial construction, including the claims, commitments, uncertainty and source references that must survive. Keep unknowns identifiable as unknowns.
+3. Choose an available scheme and a target representation suited to that action. Identify the formation and interpretation rules needed for this use; a familiar notation can be named without reproducing its grammar.
+4. Make the smallest target that supports the action. Arrange its parts so they can be used together: for example, keep a shared element recognizable in two groupings, or align a sequence of signs with a temporal reference. Explain any meaning-bearing mark, position or timing whose interpretation is not already clear from the selected conventions.
+5. Compare target and source. Mark what is preserved and foregrounded; what is rearranged, omitted or harder to recover; and which visible links or interpretations were added by the representation.
+6. Try the intended operation when a short trial can decide whether the expression is useful. Apply the relevant mathematical, physical or other subject Method. Use the result to judge or repair the expression.
+7. State the representation and reasoning-medium delta only as far as it changes use or blocks a likely overread.
+8. Close with admissible use, non-admissible use, and a concrete return trigger and destination.
+
+The first result is the expression and its representation note. If working with the expression establishes a new claim, its construction or argument supplies the source for representing that claim. Do not describe the new conclusion as content preserved from the original givens; sharing an EntityOfConcern does not establish that preservation.
+
+Choose another available scheme when the current one cannot express a needed distinction. If new signs or rules are needed, develop the scheme through notation-design work. The scheme's description can use A.6.0 for a reusable vocabulary, laws and applicability, and A.6.1 for declared operations when those are needed. Those declarations describe the designed rules. RT uses the selected rules to construct particular expressions.
 
 Use this compact note for ordinary work:
 
@@ -15108,7 +15191,8 @@ Use detailed vocabulary only when it changes the next representation decision or
 
 - **semiotic mode** — the meaning-bearing relation doing the main work, such as structural likeness, trace, conventional code, model-mediated correspondence, or decode-mediated recovery;
 - **factor delta** — the representation-factor change material to review;
-- **source-relation chain** — the exact source claims and relations on which an exact `v` depends, or the ordinary source trail to which a user returns;
+- **source dependencies of `v`** — the identified source claims and relations on which the construction depends, including which are needed jointly for each part of it and any required precedence between those parts. This dependency structure can branch or join;
+- **source-return references** — links or other locators used to reopen source material for omitted detail or a changed question;
 - **decode-mediated case** — a case whose receiving interpretation depends on a declared decoding or access relation;
 - **actionability shift** — an apparent change in what users think they can do, which is not work authority, gate status, or permission; and
 - **recoverability evidence** — evidence that omitted content can be recovered well enough for the declared use.
@@ -15129,7 +15213,7 @@ Recurring move shapes include tabulation, diagramming, structured-notation shift
 
 In ordinary language, say what changed and why it helps: “the table foregrounds row comparison”, “the diagram foregrounds dependency shape”, or “the notation foregrounds explicit argument positions”. Add salience, topology, actionability, calibration, interactivity, or semiotic-mode detail only when it materially changes use or misuse risk.
 
-#### A.6.3.RT:4.5 - Preservation, loss, decode, and chains
+#### A.6.3.RT:4.5 - Preservation, loss, decode, and composition
 
 ##### A.6.3.RT:4.5.a - Preservation and conservativity
 
@@ -15151,13 +15235,13 @@ State which distinctions, inspection possibilities, uncertainty cues, or local q
 
 ##### A.6.3.RT:4.5.c - Decode-mediated entry
 
-A latent or decode-mediated case stays bounded until it has source material for the same concern, a decoding or access relation, recoverability evidence for the intended use, admissible and non-admissible use, remaining user action, and source return. When exact reliance is claimed, recover exact source episteme `X`, receiving episteme `Y`, construction `v`, and the exact source-relation chain.
+A latent or decode-mediated case stays bounded until it has source material for the same concern, a decoding or access relation, recoverability evidence for the intended use, admissible and non-admissible use, remaining user action, and source return. When exact reliance is claimed, recover exact source episteme `X`, receiving episteme `Y`, construction `v`, and the source dependencies of `v` defined in §4.2.
 
 A latent region, activation pattern, embedding, probe result, decoded rendering, publication form, or carrier may help locate the case but fills no episteme endpoint. Missing recovery evidence keeps the result exploratory, report-only, or blocked.
 
 ##### A.6.3.RT:4.5.d - Composition and reopen rule
 
-Repeated same-regime normalization may be idempotent; heterogeneous representation shifts are generally order-sensitive. Check a chain pairwise and carry accumulated loss instead of pretending each step resets it. Keep the source and target, content under test, scheme delta, preserved and withdrawn commitments, loss/recovery, and remaining action recoverable at every step.
+Repeated same-regime normalization may be idempotent; heterogeneous representation shifts are generally order-sensitive. For an ordered sequence of representation shifts, compare the source and target of each shift and carry forward the loss from earlier shifts. Keep the source and target, content under test, scheme delta, preserved and withdrawn commitments, loss/recovery, and remaining action recoverable at every step.
 
 Reopen the affected account when source content, endpoint identity, recovery assumptions, pins or provenance, correspondence or counter-witness disposition, primary semiotic mode, intended publication or receiving use, or accumulated loss changes. A changed EntityOfConcern requires A.6.4; a changed target-side claim uses the pattern that defines that exact claim.
 
@@ -15197,6 +15281,30 @@ Reopen the affected account when source content, endpoint identity, recovery ass
 The first result needs no endpoint dossier. The note says the service, window, count, recurrence, and pins can be inspected together; those claims survive; prose order is lost; no causal or severity claim is added; use is inspection; and any question about an omitted qualifier or causality returns to the source note and traces.
 
 An independently cited target includes the recurrence caption. If the table is independently cited or disputed, exact source episteme `LatencyFinding-X` and receiving episteme `LatencyTable-Y` concern `Service-S-during-W` under effective schemes `ServiceTelemetryScheme-4` and `TabularTelemetryScheme-2`. `TabulateLatency : LatencyFinding-X -> LatencyTable-Y` is the exact construction; it states claim construction, endpoint-scheme relation, same exact EntityOfConcern, preservation, omission and recoverability, prohibited strengthening, applicability, inspection-only use, and return to the source note and traces. The visible table form and file carrier are not `Y`.
+
+#### A.6.3.RT:5.1.a - A diagram used in a geometric construction
+
+Suppose the task is to construct an equilateral triangle on a nonzero segment AB in the Euclidean plane. The geometric construction permits two circles: one with centre A through B, and one with centre B through A. Their intersection C and the joins AC and BC supply the intermediate construction. The geometry supplies the justification for these steps, including the intersection's existence.
+
+To examine the intermediate relations together, draw the circles and triangle using the usual point, line and circle conventions. Label A, B and C consistently and retain the same segment when examining it in either of these groupings:
+
+| Part of the diagram being examined | Shared segments |
+| --- | --- |
+| Radii of the circle with centre A | AB and AC |
+| Radii of the circle with centre B | BA and BC |
+| Sides of triangle ABC | AB, BC and CA |
+
+The diagram makes the shared parts available to the argument. Equal radii give AB = AC and BA = BC; together these establish that ABC is equilateral. The geometric argument establishes that conclusion. RT returns the labelled representation and the comparison with its source instructions and intermediate relations.
+
+The note preserves the two circle constructions and segment identities, names their joint inspection as the gain, and returns to the construction's premises if an intersection or equality is disputed. Drawing measurements are not premises of the proof. The construction and drawing can develop together; a completed proof is not needed before making a useful representation.
+
+#### A.6.3.RT:5.1.b - Syllables against a hand-cycle reference
+
+In a learned solkattu convention, syllables express a rhythmic phrase and hand gestures mark its cycle positions. Take a three-beat cycle, with four pulses per beat, marked by clap, little finger and ring finger. The pulse stays constant.
+
+Represent four successive `ta ki ṭa` groups with respectively four, three, two and one pulses per syllable. Keep the hand cycle while voicing them. This arrangement makes phrase duration comparable with the recurring twelve-pulse reference. Arithmetic gives 12 + 9 + 6 + 3 = 30 pulses. Rhythmic composition selects a six-pulse preparation so the phrase ends at the third cycle boundary: 6 + 30 = 36. The preparation can itself be voiced as `ta ki ṭa` with two pulses per syllable.
+
+RT coordinates the given duration assignments with the hand reference. Composition and arithmetic determine the entry and ending; a performer can then use the resulting phrase. The representation note retains duration assignments, pulse constancy and cycle position, and returns to them when the ending no longer aligns. The utterance and gestures can both represent rhythmic content and realize rhythm. Actual fluency or learning requires observation when either is the question.
 
 #### A.6.3.RT:5.2 - Positive later-specific table-to-diagram occurrence
 
@@ -15299,7 +15407,7 @@ Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4. If the
 
 #### A.6.3.RT:7.1 - Ordinary and exact checks
 
-1. **CC-RT-1 — Useful ordinary entry.** A user can name content to survive, choose a target representation, produce it, and compare it with the source before supplying exact endpoint identities.
+1. **CC-RT-1 — Useful ordinary entry.** A user can recover the source content, choose an available scheme, make a target suited to the next action, and compare it with the source before supplying exact endpoint identities. Givens, unknowns and a partial construction can support this first result.
 2. **CC-RT-2 — Same concern and right family.** The target still concerns the same thing; representation scheme or reasoning medium is the primary change rather than wording, narrative, explanation, carrier work, retargeting, bridge use, or controlled coarsening.
 3. **CC-RT-3 — Delta and source comparison.** Preserved and foregrounded content, rearrangement, loss, recoverability, and apparent links not licensed by the source are visible.
 4. **CC-RT-4 — Use and return.** Admissible and non-admissible use plus a practical source-return trigger are clear.
@@ -15311,12 +15419,15 @@ Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4. If the
 10. **CC-RT-10 — Occurrence, Work, and description stay distinct.** The participant tuple identifies the occurrence; Work and production claims remain separate; the transition-description episteme has the occurrence as EntityOfConcern and its own C.2.1 identity.
 11. **CC-RT-11 — Occurrence identity.** Only a changed participant reidentifies the occurrence; repeat Work, evidence, publication, layout, carrier, description edition, or C.29 output does not.
 12. **CC-RT-12 — Reuse is local.** When the source or target, delta, dependency, loss, use, evidence, or return changes, reopen only the affected part of the account.
+13. **CC-RT-13 — Construction and subject result.** The expression uses identified rules and supports the named operation. A trial is required only when it can decide usefulness. A new subject conclusion keeps its construction or argument as its source; notation-scheme design and the subject Method remain distinct from making the expression.
 
 #### A.6.3.RT:7.2 - Counterexample replay
 
 | Case | Required result |
 | --- | --- |
 | Ordinary entry | A service note can become a useful comparison table and loss note without first inventing `X`, `Y`, `v`, Work, publication, or assurance records. |
+| Constructive use | Givens and an intermediate geometric construction can become a diagram used in an argument. RT compares the diagram with those inputs; geometry establishes any new conclusion. |
+| Scheme limit | If the selected conventions cannot express a required distinction, choose another scheme or design the missing rules before claiming a usable expression under them. |
 | Preserve vs retarget | Exact RT requires equal EntityOfConcern; a changed concern requires A.6.4 even when labels overlap. |
 | Same scheme | If scheme and reasoning medium are unchanged and only wording changes, use A.6.3.CR. |
 | Different scheme | Scheme difference alone establishes neither `v`, correspondence, Work, Bridge, nor the six-participant occurrence. |
@@ -15345,7 +15456,7 @@ Probe run P-8 is tied to model-state log M-12 and evaluation bundle EV-4. If the
 
 - Ordinary users can obtain a useful target representation without a six-participant record.
 - Representation and reasoning-medium changes become explicit rather than rhetorical.
-- Exact same-EntityOfConcern, scheme, source-chain, loss, and occurrence identity remain available for consequential use.
+- Exact same-EntityOfConcern, scheme, source dependencies, loss, and occurrence identity remain available for consequential use.
 - Recoverability and decode dependence become reviewable instead of hiding behind cleaner output.
 - Work, View membership, publication, evidence, assurance, bridge, and ontology claims remain separate.
 
@@ -15359,16 +15470,33 @@ Costs and trade-offs:
 
 Representation changes are neither always cosmetic nor always new ontology. The reusable move is to preserve practical content for a use, expose the changed reasoning medium, and keep loss and return honest. Exact `v : X -> Y` is the stronger claim-level description when needed; the six-participant occurrence is later-specific evidence about actual transition Work, not the entrance fee for changing prose into a table.
 
+An expression can help obtain a result by keeping relevant parts available for joint inspection or manipulation. This benefit depends on its arrangement, the permitted operations and the user's preparation. Comparing the expression with its source protects the givens while the subject Method develops the construction or argument. E.5.2 keeps the meaning portable when another notation is used; portability leaves the effort and available reasoning operations to be compared.
+
 ### A.6.3.RT:11 - SoTA-Echoing
 
-| Source and currentness use | Adopted move | Rejected overread | Practical effect in RT |
-| --- | --- | --- | --- |
-| Stefan Hallerstede and John Hatcliff, “A mechanized semantics for component-based systems in the HAMR AADL runtime” (2025), DOI `10.1016/j.scico.2025.103312`; Jason Belt et al., “Model-driven development for the seL4 microkernel using the HAMR framework” (2023), DOI `10.1016/j.sysarc.2022.102789`, including the applied unmanned-aircraft case. | Prefer explicit source and target semantics, machine-checkable translation, named preserved properties, and an exercised analysis, verification, or generation path over language or diagram status. | An architecture-language label, visual model, code generator, verified platform, or standard conformance by itself proves lossless same-concern continuity, whole-system validity, or downstream authority. | Grounds technical model-to-analysis and model-to-implementation cases: state the exact source/target meanings, translation, checked property, residual loss, bounded use, and return. |
-| Jonatan Reyes, Mina Massoumi, Anil Ufuk Batmaz, and Marta Kersten-Oertel, “Shades of Uncertainty: How AI Uncertainty Visualizations Affect Trust in Alzheimer's Predictions” (2026), current preprint `arXiv:2602.01264`; two bounded studies with 37 general participants and 10 experts. | Record audience- and encoding-sensitive changes in confidence, perceived reliability, and recognition of limits. | A vivid or continuous display is automatically more truthful, action-ready, or settled cross-domain evidence. | Supplies bounded reopen pressure for uncertainty loss, audience/use, and non-admissible action; it does not establish a universal RT rule. |
-| Chinh Hoang and Mohammad Rashedul Hasan, “The Abstraction Gap in Vision-Language Causal Reasoning” (2026), current preprint `arXiv:2605.28779`; a new CAGE benchmark report. | Separate fluent target text from faithful causal-chain preservation. | Readability establishes causal fidelity, evidence, ontology, or a settled universal theory of representation change. | Supplies a benchmarked fluency-versus-causal-chain warning for the source-comparison and report-only boundary of generated or decoded explanations. |
-| Atticus Geiger et al., “Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability” (JMLR 26, 2025), together with Denis Sutter, Julian Minder, Thomas Hofmann, and Tiago Pimentel, “The Non-Linear Representation Dilemma: Is Causal Abstraction Enough for Mechanistic Interpretability?” (2025). | Use explicit mapping/intervention evidence and graded faithfulness, while keeping assumptions and counter-pressure visible. | An alignment map, probe score, geometry, or feature cluster alone establishes faithful abstraction. | Decode-mediated use names access relation, evidence, recovery limit, admissible use, and return. |
+**Practice question.** How can a practitioner change a representation so that it supports the next operation while retaining the source distinctions on which that operation depends?
 
-These sources address different domains. Their common lesson is practical: a changed representation can change what users see and infer, while clarity, notation, geometry, or decoded prose supplies no ontology, evidence force, gate status, or work authority by itself.
+**Selected answer and alternative.** Adopt comparison directed by the receiving use: identify the source and target meanings, make the target, inspect the relations the use needs, and expose loss and return. Adapt operative-expression construction to the same comparison. A serious default is conversion followed by a syntax, format-conformance or readability check. That default is sufficient for a carrier-only change when an established semantic contract already covers the required preservation. It is insufficient when the conversion can change the represented claim.
+
+Compare the answers with the same source, target, reader preparation and requested operation. For example, `A then (B or C)` and `(A then B) or C` use the same labels and can both be well formed. Checking the represented dependency finds that only the first requires A before either continuation. The comparison in §4.1 asks the reader to inspect that dependency; a format or readability check can leave it unexamined. The selected answer spends effort on the distinction that changes the next action. It accepts that additional comparison cost rather than promising a cheaper conversion. Reuse an applicable semantic-preservation result when one already answers the receiving question.
+
+Preparing an operative expression adds a second useful choice. In §5.1.a, keeping the same segments identifiable as radii and triangle sides supports the geometric argument; in §5.1.b, coordinating syllables with the hand cycle supports the rhythmic construction. A polished copy with those relationships hard to recover can preserve individual labels while remaining unsuitable for the operation. The cases justify trying the intended operation when that trial can decide usefulness, with its subject rules and preparation stated. They do not rank one medium above all others.
+
+**How the choice shapes RT.** Section 4.1 combines target construction with source comparison and a conditional trial of the intended operation. Section 4.3 states the source and target semantics for a stronger preservation claim; §4.5 exposes loss and decoding assumptions. CC-RT-1 and CC-RT-13 check these moves, and §5 shows their use. This choice rejects syntax, visual appeal or decoder fluency as sufficient evidence of semantic preservation. Technical translation or causal-intervention claims require the semantics and tests appropriate to those claims; the ordinary comparison in §4.1 remains available when the practitioner needs none of them.
+
+**Reopen this choice** if a target accepted by this procedure loses a dependency, timing relation or uncertainty distinction needed by the declared use; if a changed decoding assumption defeats the claimed recovery; or if an alternative preserves those distinctions and supports the same operation with less preparation or comparison effort. Revisit the affected branch and source comparison.
+
+
+| Source and role in the comparison | Adopted move | Rejected overread | Practical effect in RT |
+| --- | --- | --- | --- |
+| Danielle Macbeth, [“Seeing How It Goes: Paper-and-Pencil Reasoning in Mathematical Practice”](https://doi.org/10.1093/philmat/nkr006), 2011, especially pp. 16-18 and 31-42; Catarina Dutilh Novaes, *Formal Languages in Logic: A Philosophical and Cognitive Analysis*, 2012, §§3.2, 5.2 and 6.1. Conceptual basis for the selected operative-expression line. | Prepare expressions, preserve common parts across useful groupings, and connect manipulation with interpretation and learned capabilities. | An expression is only a secondary illustration, or a semantically equivalent notation offers the same reasoning operations and effort to every user. | Grounds target construction and the Euclidean example. These arguments support the operation; they supply no measured learning gain for this pattern. |
+| David P. Nelson, *Solkattu Manual: An Introduction to the Rhythmic Language of South Indian Music*, 2008, exercise 7. Constructive case supporting the vocal-gestural application of that line. | Coordinate syllable durations with a learned hand cycle and construct a phrase ending at a cycle boundary. | A symbolic or calculated alignment establishes a particular performer's fluency. | Supplies the duration assignments and six-pulse preparation in §5.1.b; the representation and the performance have separately assessable uses. |
+| Stefan Hallerstede and John Hatcliff, “A mechanized semantics for component-based systems in the HAMR AADL runtime” (2025), DOI `10.1016/j.scico.2025.103312`; Jason Belt et al., “Model-driven development for the seL4 microkernel using the HAMR framework” (2023), DOI `10.1016/j.sysarc.2022.102789`, including the applied unmanned-aircraft case. Candidate basis for explicit semantic preservation in technical translations. | Prefer explicit source and target semantics, machine-checkable translation, named preserved properties, and an exercised analysis, verification, or generation path over language or diagram status. | An architecture-language label, visual model, code generator, verified platform, or standard conformance by itself proves lossless same-concern continuity, whole-system validity, or downstream authority. | Grounds technical model-to-analysis and model-to-implementation cases: state the exact source/target meanings, translation, checked property, residual loss, bounded use, and return. |
+| Jonatan Reyes, Mina Massoumi, Anil Ufuk Batmaz, and Marta Kersten-Oertel, “Shades of Uncertainty: How AI Uncertainty Visualizations Affect Trust in Alzheimer's Predictions” (2026), current preprint `arXiv:2602.01264`; two bounded studies with 37 general participants and 10 experts. Evidence that uncertainty encoding and audience can change reported confidence and perceived reliability. | Record audience- and encoding-sensitive changes in confidence, perceived reliability, and recognition of limits. | A vivid or continuous display is automatically more truthful, action-ready, or settled cross-domain evidence. | Supports revisiting the comparison when a different encoding or audience changes the interpretation of uncertainty. The two studies do not establish a universal RT rule. |
+| Chinh Hoang and Mohammad Rashedul Hasan, “The Abstraction Gap in Vision-Language Causal Reasoning” (2026), current preprint `arXiv:2605.28779`; a CAGE benchmark report used as failure evidence for fluency-only comparison. | Separate fluent target text from faithful causal-chain preservation. | Readability establishes causal fidelity, evidence, ontology, or a settled universal theory of representation change. | Supplies a benchmarked fluency-versus-causal-chain warning for the source-comparison and report-only boundary of generated or decoded explanations. |
+| Atticus Geiger et al., “Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability” (JMLR 26, 2025), together with Denis Sutter, Julian Minder, Thomas Hofmann, and Tiago Pimentel, [“The Non-Linear Representation Dilemma: Is Causal Abstraction Enough for Mechanistic Interpretability?”](https://proceedings.neurips.cc/paper_files/paper/2025/hash/dbb98528c9870377f3f0d133aae6050b-Abstract-Conference.html) (NeurIPS 2025). The first supplies a mapping-and-intervention approach; the second supplies a counterexample to unrestricted alignment. | Adopt explicit mapping and intervention tests, bounded by assumptions about information encoding. Sutter et al. show that sufficiently powerful alignment maps can fit an algorithm even when the model cannot perform its task. Mapping accuracy therefore needs to be judged together with what the map itself computes. | An alignment score alone establishes that the model implements the proposed algorithm. | In §4.5.c, state the decoding relation and the recovery it supports for the intended use. When that use asserts a model's mechanism, reopen the claim if the fitted map supplies the computation attributed to the model. |
+
+The domain studies support the named comparisons within their stated tasks and evidence. RT adopts their source-comparison questions and adapts the burden to the receiving use; it leaves the subject's construction, intervention, learning and reliance claims to their own methods.
 
 
 
@@ -15399,7 +15527,7 @@ Add the following only when the shortcut's claim requires it:
 | Admissible use | Which use remains admissible—for decision, explanation, triage, comparison, or action selection? |
 | Return | Which dispute, stronger-use demand, evidence gap, or recovery failure sends the user back to the fuller representation? |
 
-For a shortcut with the declared QL cue, use a fuller C.26 record only when it is reusable, formal, empirical, high-stakes, or tied to comparative performance or tractability. Do not describe ordinary compression, low-bit implementation, diagramming, or representation learning as quantum-like without a claim-bearing formal cue.
+For a shortcut with the declared QL cue, apply C.26:12b to the receiving use. A conditional comparison or explanation under the same assumptions can retain its sufficient account. Prediction, model adoption or a comparative-performance claim needs the applicable adequacy account; reuse existing support and obtain only the missing contribution. Reuse or formal notation alone does not require a fuller record. Do not describe ordinary compression, low-bit implementation, diagramming, or representation learning as quantum-like without a claim-bearing formal cue.
 
 ### A.6.3.RT:12b - C.29 mathematical-lens use relation
 
@@ -29546,13 +29674,13 @@ In summary, projects lacking a canonical terminology for metrics risk miscommuni
 
 -   **F2 – Arity clarity.** Some characteristics apply to a single entity (e.g. its mass or length), while others inherently relate multiple entities (e.g. distance between two points, coupling between modules, agreement between judges). If arity isn’t explicit, claims and calculations become corrupted.
 
--   **F3 – Scale integrity.** Different kinds of scales permit different operations – e.g. you can average temperatures (ratio scale) but not ranks or grades (ordinal scale) without losing meaning. If one mixes values without regard to scale type or units, the result is nonsense (**pseudo-arithmetic**).
+-   **F3 – Scale integrity.** Different kinds of scales permit different operations – e.g. you can average temperatures on a common interval or ratio scale but not ranks or grades (ordinal scale) without losing meaning. If one mixes values without regard to scale type or units, the result is nonsense (**pseudo-arithmetic**).
 
--   **F4 – Composition discipline.** In complex evaluations, multiple measurements may need to be combined. Without a disciplined approach, people might perform ad-hoc math on apples and oranges (adding scores from unrelated characteristics, etc.). A proper pattern must require any combination to go through a defined monotonic **ScoringMethod** (e.g. a weighted formula) instead of arbitrary aggregation.
+- **F4 - Combining measurements.** A measurement model relates quantities to obtain another quantity; a ScoringMethod combines values into a score for a declared evaluation. Each calculation needs its applicable relation and Scale operations. A common numerical encoding alone supplies neither.
 
 -   **F5 – Transdisciplinarity.** The measurement framework should work for **any domain**. The same conceptual scaffold must serve physical science (e.g. lab temperature readings), software engineering (e.g. module cohesion ratings), and even subjective assessments (e.g. figure-skating scores) without bias. One vocabulary, many CG‑frames.
 
--   **F6 – Open-endedness.** As systems evolve, their performance or quality metrics also evolve. Rigid stage labels (“Phase 1, Phase 2…”) don’t capture iterative improvement. The pattern should favor an **open-ended state-space** view (revisiting states via checklists, as in an RSG – **RoleStateGraph** with re-entry) over any fixed stage sequence with “terminal” stages.
+- **F6 - Revisable state descriptions.** Development can change the Characteristics and state distinctions that matter. The description should support the changes, returns and further questions needed by the practice, including revision of its state space or transition law.
 
 ### A.17:4 - Solution
 
@@ -29564,15 +29692,15 @@ To enforce this solution, the following rules apply:
 
 -   **A17-R2 (Entity vs. relation subtype).** Each Characteristic **MUST** declare its intended _arity_. An **Entity-Characteristic** applies to exactly one bearer (e.g. _Temperature_ of a reactor, _Evolvability_ of a software module), whereas a **Relation-Characteristic** applies to an ordered tuple of two or more bearers (e.g. _Distance_ between two sensors, _Coupling_ between modules, _Agreement_ among reviewers). The arity is part of the definition and **must be explicit** wherever it’s not obvious from naming.
 
--   **A17-R3 (Characteristic space).** Any set of defined Characteristics spans a multi-dimensional **CharacteristicSpace**. Movement or evolution is then described as trajectories through this space (with states revisited or refined over time), rather than as a linear stage sequence through preset phases. This ensures measurements feed into open-ended state modeling rather than locking into “end states.”
+- **A17-R3 (Characteristic space).** When several Characteristics form a declared space, identify their slots, Scales and admissible values under A.19. State the constraints and additional structure required by its use. A.3.3 constructs the state and transition account when the question concerns modeled change.
 
 -   **A17-R4 (Lexical guardrails).** Normative text **SHALL** use only the canonical measurement terms: **Characteristic, Scale, Level, Value, Coordinate, Score, Normalization, Unit**. Synonyms like _axis_, _dimension_, _metric_, _grade_, _property_, etc., are **forbidden in formal usage**. (They may appear in narrative explanations or user-facing documentation _only if_ clearly defined as aliases for the canonical terms.) Authors **MUST** not use deprecated terms in identifiers or formal statements, and any didactic alias should be introduced with an explicit mapping to the official term. These lexical rules uphold clarity and are further detailed in **E.10 LEX‑BUNDLE**.
 
-- **A17-R5 (Symbol policy).** **Γ** reserved for holonic composition; **𝒢 : Coordinate→Score** for metric‑level ScoringMethod; **MUST NOT** be conflated; documents **SHALL NOT** reuse Γ for ScoringMethod. **If an ordered Scale is declared, polarity SHALL be fixed; 𝒢 MUST be monotone** w.r.t. that polarity.
+- **A17-R5 (Symbol policy).** **Γ** is reserved for holonic composition; **𝒢** denotes a ScoringMethod from Coordinates to a Score. Documents **SHALL NOT** reuse Γ for a ScoringMethod.
 
-- **A17-R6 (Declared polarity).** Every ordered Scale **SHALL** declare one of: **↑‑better**, **↓‑better**, or **non‑applicable** (for purely nominal scales). For interval/ratio scales, polarity fixes the intended order of comparison.
+- **A17-R6 (Scale order and preference).** For an ordered Scale, use its order to compare values of the Characteristic: a higher temperature value means hotter. A use that ranks values by desirability **SHALL** declare its preference rule, such as higher-is-better, lower-is-better, a target or range, or another ordering. Describing or comparing magnitudes requires no preference rule.
 
-- **A17-R7 (Monotonicity against polarity).** If a template declares an **ordering polarity** on its Scale (↑ better / ↓ better), then **𝒢 MUST be monotone** w\.r.t. that polarity: higher‑is‑better (resp. lower‑is‑better) in coordinates **implies** ≥ (resp. ≤) in scores.
+- **A17-R7 (Scoring against preference).** A ScoringMethod **SHALL** state how its score order represents the declared preference. Where one input is higher-is-better or lower-is-better, improving that input while holding the others fixed **MUST NOT** worsen the score, for admissible inputs under the stated conditions. Target-based preference is checked against its declared target or loss rule; the preferred direction may change across the target. A quantity calculation or unit conversion uses its measurement relation and Scale rules under A.18/C.16.
 
 - **A17-R8 (Arity declaration).** Authors **SHALL** mark a Characteristic as **`U.EntityCharacteristic`** (applies to exactly one bearer) or **`U.RelationCharacteristic`** (applies to a relation of cardinality ≥ 2). Examples: *Cohesion* → entity‑level; *Coupling* → relation‑level.
 
@@ -29582,21 +29710,21 @@ To enforce this solution, the following rules apply:
 
 #### A.17:4.1 - CharacteristicSpace & Change Reasoning *(Normative/Clarifying)*
 
-**R17 — CharacteristicSpace declaration.** When an agent reasons about **change**, it **SHALL** name the **CharacteristicSpace** (the set of Characteristics, with Scales, units, and topology assumptions) in which motion is considered.
+**R17 - State-space use.** When a change model uses a CharacteristicSpace, declare its Characteristics, Scales, units and admitted combinations under A.19. Add topology, distance or another structure when the inference relies on it.
 
-**R18 — RSG framing, not lifecycle.** Change narratives **SHALL** be framed as movement on a **reachable‑states graph (RSG)** with **checklists** that certify state acquisition; **“lifecycle”** staging is **deprecated**. *(A.17 conforms to the open‑ended evolution stance of the Kernel.)*
+**R18 - Allowed changes and state recognition.** For a model of change, state the allowed continuations and their conditions through A.3.3. Use a state predicate or checklist when the receiving use needs to recognize a condition. A.2.5 governs the particular case of a condition on an assignment to a system role; a gate or assurance use supplies its own required support.
 
 **I7 — Vector interpretation.** A **U.Coordinate** vector may collect multiple coordinates for multi‑Characteristic reasoning; composition into a single Score, if desired, is an **explicit new 𝒢** on that vector.
 
 ### A.17:5 - Archetypal Grounding (System & Episteme Examples)
 
-**In a physical system (`U.System`):** Consider a **Distance** Characteristic defined for a pair of physical objects. For example, two machines in a factory have a Distance of 3.5 meters between them. Here _Distance_ is a Relation-Characteristic (applies to the pair), with an associated Scale (e.g. a ratio scale in meters), and the measured 3.5 m is a **Coordinate** on that scale. If we instead look at an **Engine Temperature** Characteristic (unary), a particular engine might have a Temperature of 350 K at some moment – _Temperature_ (the Characteristic) is clearly separated from how it’s measured (Scale in Kelvin) and the reading (350, a Coordinate on that scale).
+**In a physical system (`U.System`):** Consider a **Distance** Characteristic defined for a pair of physical objects. For example, two machines in a factory have a Distance of 3.5 meters between them. Here _Distance_ is a Relation-Characteristic (applies to the pair), with an associated Scale (e.g. a ratio scale in meters), and the measured 3.5 m is a **Coordinate** on that scale. If we instead look at an **Engine Temperature** Characteristic (unary), a particular engine might have a Temperature of 350 K at some moment – _Temperature_ (the Characteristic) is clearly separated from how it’s measured (Scale in Kelvin) and the reading (350, a Coordinate on that scale). A value of 360 K is hotter than 350 K. Whether it is preferable depends on the intended operation: heating and cooling can prefer opposite changes while using the same temperature Scale.
 
 **In an epistemic context (`U.Episteme`):** Consider a **Formality** Characteristic to rate a documentation episteme's rigor. We might define an ordinal Scale with named Levels such as _Informal_, _Semi-formal_, _Formal_. A given specification document can then be said to have _High Formality_ – meaning it occupies the “Formal” **Level** on the Formality Scale. Here _Formality_ (Characteristic) captures _what_ we measure about the document, while the tiered Scale (with qualitative levels) expresses _how_ we categorize it. Because we use an ordinal scale, we can rank documents by Formality, but we would not average “Semi-formal” and “Formal” (avoiding meaningless arithmetic on an ordinal metric). In another knowledge context example, one could define a Characteristic **Reliability** for a knowledge source with a percentage Scale from 0 to 100%. An article’s reliability might be 85% – which is only interpretable by knowing it refers to “Reliability” on a 0–100% Scale (i.e. a specific Coordinate on that Characteristic’s scale).
 
 ### A.17:6 - Bias-Annotation
 
-This pattern is deliberately **domain-neutral** and introduces no bias toward any particular discipline or measurement type. By enforcing a uniform lexicon, A.17 actually mitigates bias: it prevents **disciplinary jargon** from creeping into core definitions (ensuring, for instance, that a software metric isn’t given a vague custom term when it’s fundamentally a Characteristic). The **Didactic lens** is served: using one precise name per concept improves clarity for all audiences. There is a slight initial cost in re-labeling legacy terms (e.g. renaming “dimensions” to Characteristics), but this is offset by the long-term **Cognitive Elegance (P‑1)** – the framework becomes easier to learn and less prone to misinterpretation. No single domain’s terminology dominates, and the pattern explicitly supports both quantitative (physics-like) and qualitative (judgment-based) measurements, reflecting **Pragmatic neutrality**. The requirement of open-ended state-space thinking aligns with **P‑10 (Open-Ended Evolution)**, ensuring we don’t bake in lifecycle biases that assume development must terminate at a final stage. In summary, A.17 imposes a disciplined vocabulary that is broad enough for all fields and free of hidden assumptions, thereby avoiding subtle ontological or cultural biases in the measurement model.
+A shared term can conceal different measured aspects. When adapting a disciplinary term, recover its bearer or tuple, Characteristic and Scale before reusing a value. Quantitative and qualitative measurements retain the different operations their Scales allow. Development may require revising the selected Characteristics and the model relating their changes; A.3.3 supplies that construction.
 
 ### A.17:7 - Conformance Checklist
 
@@ -29610,11 +29738,11 @@ When authoring or reviewing FPF-compliant metrics, use the following checklist t
 
 4.  **Scale-appropriate operations:** Are you only performing comparisons or calculations that make sense for the declared scale type? (No averaging of ranks, no mixing of units – ensure **ordinal** Characteristics aren’t treated like numbers, and **interval/ratio** values respect zero and units.)
 
-5.  **No implicit aggregation:** If multiple measurement readings are combined, is there a defined **ScoringMethod** (with monotonic logic) that produces a **Score**? Avoid any ad-hoc “overall score” that simply adds or averages raw values from different Characteristics.
+5. **Calculation or scoring:** Does a quantity calculation use a stated relation with compatible quantities and Scale operations? If values are combined into an overall Score, does the ScoringMethod state the preference it represents and preserve the declared preference in its score order?
 
 6.  **Canonical terminology in use:** Are you using the terms _Characteristic_, _Scale_, _Level/Value_, _Coordinate_, _Score_, _ScoringMethod_, _Unit_ in all formal descriptions? Confirm that no deprecated synonyms (axis, dimension, etc.) appear in technical content or identifiers (they can appear in Plain explanations only with proper reference to the canonical term).
 
-7.  **Open-ended progression:** (If applicable) When modeling progress or change using metrics, have you considered using a state-space of Characteristics rather than a fixed sequence of phases? This check is to encourage leveraging the open-ended nature of CharacteristicSpaces, especially in evolutionary or iterative processes.
+7. **State use:** When Characteristics describe modeled change, are their admitted combinations and the transition law sufficient for the question under A.3.3? If a state condition is being recognized, is its predicate and required support determined by that receiving use?
 
 _(Failure to satisfy the above indicates a violation of this pattern’s intent. The **LEX-BUNDLE** rules in E.10 provide automated checks for term usage, and MM-CHR templates enforce explicit Characteristic/Scale definitions.)_
 
@@ -29630,19 +29758,21 @@ By instituting **Characteristic** as the single term and enforcing the CSLC stru
 
 -   **Cross-domain comparability:** All measurements, regardless of domain, follow the same **CSLC** rails. This means a temperature in Kelvin and a reliability score in percent can each be traced through Characteristic → Scale → Coordinate. They can’t be directly compared unless designed to be, which is _good_: any composite scoring must be done via an explicit **SCP** mapping to a common **Score** scale. The pattern thus enables interoperability (through well-defined Score bridges) while preventing illegitimate comparisons.
 
--   **Consistent evolution framing:** By retiring the idea of a bespoke fixed stage sequence for every process and instead viewing changes as movement in a CharacteristicSpace, the pattern aligns metric thinking with state-based reasoning (e.g. as used in dynamic models). There is no artificial “final state” for improvement – a system can always evolve to a new coordinate without violating a declared state model. This open-ended view encourages continuous improvement and refinement, echoing FPF’s emphasis on evolutionary development.
+- **Revisable change accounts:** Characteristic meanings and Scales remain explicit as a state model changes. Revising a constraint, input or law can change which states are reachable; adding a Characteristic can supply predictive information that an earlier description omitted.
 
 There are few downsides. One consequence is that modelers must learn the canonical terms and possibly refactor existing documentation (a short-term effort). Also, enforcing scale integrity means quick-and-dirty aggregate scores are not allowed unless justified via a SCP – this introduces a healthy “pause” to ensure composite metrics are well-founded. Overall, the benefits in clarity and correctness far outweigh the overhead. Teams gain a _lingua franca_ for metrics, and the risk of metric abuse (mixing apples and oranges) is significantly reduced.
 
 ### A.17:9 - Rationale
 
+The distinction between Scale order and preference follows the different questions they answer. [VIM3 §1.27](https://jcgm.bipm.org/vim/en/1.27.html) orders quantity values by magnitude. Evaluation adds a judgement about which values are desirable for a use. [VIM3 §1.22](https://jcgm.bipm.org/vim/en/1.22.html) supplies the separate notion of a relation between quantities. FPF adopts these measurement distinctions and places use-dependent preference with A.19.ECS and the applicable comparison or scoring Method.
+
 The Canonical Characteristic pattern is a direct response to recurring measurement pitfalls. By insisting on “one precise name per concept”, it upholds **Strict Distinction (A.7)**, ensuring that the framework never treats two different ideas as one. For instance, earlier practice might label both a requirement category and its score as “dimension,” causing confusion; with A.17, the _aspect_ is a Characteristic and its _score_ is separate, so each idea has its place. This clarity is pedagogically vital (**P‑2 Didactic Primacy**): readers and contributors immediately know what a term means and how to interpret any value associated with it.
 
 The solution also draws on fundamentals of measurement theory (Stevens’ levels of measurement) to prevent misuse. By encoding scale types and unit handling into our patterns, we avoid the “pseudo-quantitative” fallacies – no more averaging things like _risk levels_ or adding up _grades_ as if they were true numbers. In effect, A.17 puts a safeguard around **P‑1 Cognitive Elegance and P‑7 Ontological Parsimony**: we use a minimal, universal set of measurement constructs, and we avoid bloating the conceptual space with domain-specific or redundant terms. One canonical set of terms also makes the framework more teachable and **composable across contexts**, since patterns and projects aren’t inventing new synonyms that others must decipher.
 
-Importantly, distinguishing Entity vs Relation Characteristics future-proofs the reasoning model. It enforces a modeling rigor seen in domains like physics (where properties vs. relations are carefully distinguished) and brings it to architecture and knowledge domains. This rigor supports advanced reasoning in FPF – for example, **A.3.3 (Dynamics)** can treat system state variables as a well-defined set of Characteristics, and assurance patterns can trace **evidence metrics** unambiguously to the exact aspect measured. It also means any attempt to compare or combine metrics has to be explicit (via ScoringMethods), which inherently improves **transparency and auditability** (a key FPF goal).
+Distinguishing entity and relation Characteristics keeps the bearer of a measurement recoverable. A.3.3 can use the declared Characteristics to describe a state; an assurance argument can name the aspect for which it uses a measurement. Quantity calculations use their mathematical relation and applicability conditions; evaluative scores additionally need the preference that the scoring method represents. This lets a reader distinguish a derived physical value from a judgement about that value.
 
-Finally, retiring fixed-stage vocabulary in favor of state-space trajectories aligns with FPF’s **open-ended evolution** principle. It acknowledges that improvement is not a predefined path but a navigable space. This shift in mindset (from fixed stages to checklisted state transitions) removes an implicit bias that systems _ought_ to reach a “final” maturity stage – instead, it keeps the door open for perpetual refinement, which is philosophically aligned with continuous learning and adaptation.
+The question determines the required state description. A model may need repeated states, several continuations or a stopping condition. Development can revise that model and open new questions. A state-recognition checklist serves a use that needs such recognition; it does not supply the transition law.
 
 In summary, A.17 is the linchpin that turns a loose collection of measurement practices into a **coherent, principle-driven system**. It rationalizes the language, thereby rationalizing thought: by speaking in one clear voice about measurements, FPF ensures that every number in the system can be trusted to answer “value of what, on what scale, relative to what context.” This rationale is reflected in improved model integrity and cross-domain trust in the meaning of metrics.
 
@@ -29680,7 +29810,7 @@ In FPF’s kernel, the **CSLC pattern** (CG‑frame–Scale–Level–Coordinate
 
 -   In **ordinal settings** (e.g. expertise levels _Novice < Skilled < Expert_), one can **rank** values but not meaningfully add or average them. Treating ordinal labels like numbers (e.g. averaging _Novice=1, Expert=3_) produces invalid results.
 
--   In **cardinal settings** (e.g. seconds, meters, degrees Kelvin), arithmetic operations do make sense – but only if units are respected and zero is meaningful (for ratio scales). If we strip away units or mix scales (seconds vs. minutes), we again get nonsense.
+-   In **cardinal settings** (e.g. seconds, meters, kelvins), arithmetic operations do make sense – but only if units are respected and zero is meaningful (for ratio scales). If we strip away units or mix scales (seconds vs. minutes), we again get nonsense.
 
 Without a strict Standard, one team might treat “High” and “Medium” as having a numeric gap, another might average **4** (on a 5-star scale) with **4** (as 4 seconds) because both are “4”. **Inconsistent practices make cross-domain reasoning impossible.** We need a kernel-level solution that _fixes_: (a) the **aspect being measured**, (b) the **scheme by which it’s measured**, and (c) the **type of scale structure** (ordinal vs. metric), _and_ that ensures each reported value is bound to that scheme. At the same time, the Standard should _not_ force artificial numeric detail where it isn’t applicable (e.g. we shouldn’t assign meaningless numbers to purely qualitative tiers just to satisfy a structure).
 
@@ -29706,7 +29836,7 @@ Concretely, the parts of this clause are defined as follows:
 
 -   **Characteristic:** the aspect or feature being measured (the “CG‑frame” along which comparison is made). It answers “_What are we measuring?_” – e.g. _Distance, Temperature, Quality, Reliability_.
 
--   **Scale:** the organized set of possible values that the Characteristic can take, including the type of scale (_ordinal_, _interval_, or _ratio_), the measurement **Unit** (if applicable), and any bounds or structure. The Scale defines “_How do we measure it?_” – e.g. “meters on a linear scale from 0 up to 1000” or “ratings 1 through 5 with ordering only”.
+-   **Scale:** the organized set of possible values that the Characteristic can take, including the type of scale (_nominal_, _ordinal_, _interval_, or _ratio_), the measurement **Unit** (if applicable), and any bounds or structure. The Scale defines “_How do we measure it?_” – e.g. “meters on a linear scale from 0 up to 1000” or “ratings 1 through 5 with ordering only”.
 
 -   **Coordinate:** a concrete measured value that locates the subject on the chosen scale. This could be a number (for a numeric scale) or a category label (for an ordinal scale). It answers “_What is the result?_” – e.g. 7.4 (meters), or _Expert_ (level).
 
@@ -29727,6 +29857,12 @@ Finally, the solution ensures **tier optionality**: If a domain uses named Level
 - `OutcomeMapRef` is warranted only when the text needs one declared map from the current set result into one outcome-side or effect-side declared space/ref.
 - When `OutcomeMapRef` is cited for one atlas-like or cross-scale reading, keep the source set result and the projected outcome-side declared space/ref visible together so the map stays support for the view rather than a replacement default.
 
+#### A.18:4.2 - Scale order, preference and calculation
+
+For a magnitude comparison, interpret values under the Characteristic and Scale, including the meaning of their order and units. For a judgement about which value is better, state the preference for that use: higher, lower, a target or range, or another declared rule. A nominal Scale supplies labels without an intrinsic order; a receiving use can still express a preference among them. A descriptive measurement needs no preferred direction.
+
+A mathematical relation can combine quantities into another quantity, as a measurement model does in C.16. Identify that relation, its conditions and the Scale of the resulting quantity. A unit conversion expresses the same quantity on another compatible Scale. A ScoringMethod instead supplies a Score for a declared evaluation and follows A.17-R7's preference rule. For example, multiplying resistance by current gives voltage; ranking designs by cost and reliability requires a choice of preference.
+
 ### A.18:5 - Archetypal Grounding (System & Episteme Examples)
 
 **In a physical scenario (`U.System`):** Consider an athlete’s long jump. We define a Characteristic **Jump Distance** with a Scale “meters (m)” ranging from 0 upward (ratio scale with meters as the unit). When the athlete jumps and lands at 7.45 m, we record a **Coordinate** of _7.45 m_ for the Jump Distance Characteristic. Here, Jump Distance is the Characteristic, the meter-scale is the declared Scale, and _7.45 m_ is the value (Coordinate). Because this is a cardinal measurement, we can meaningfully say one jump is 1.5 m longer than another, etc. Now consider another metric in the system: **Battery Health** of a device, which might be categorized qualitatively. We could define an ordinal Scale with Levels like _Good, Fair, Poor_ for the Battery Health Characteristic. If a particular device is rated “Poor”, that is a Coordinate on the Battery Health scale (with _Poor_ as the Level name). No arithmetic is done on these labels, but we can order devices by health (Good > Fair > Poor). Both examples illustrate the one-characteristic-one-scale rule: the jump’s distance is not combined with any other aspect; the battery’s health is evaluated on its own defined scale.
@@ -29735,7 +29871,7 @@ Finally, the solution ensures **tier optionality**: If a domain uses named Level
 
 ### A.18:6 - Bias-Annotation
 
-The CSLC-Kernel pattern is designed to be **maximally inclusive of different measurement types** while imposing just enough structure to ensure consistency. It does not privilege any particular domain or modality of measurement: a subjective 5-star rating is treated with the same formal rigor as a physical length in meters. In terms of the FPF principle lenses, this pattern consciously balances the **Architectural/Ontological** needs (clear structure for data) with the **Pragmatic/Didactic** needs (flexibility and clarity for users). There is little risk of cross-domain bias here because the pattern explicitly supports both extremes (ordinal and ratio, qualitative and quantitative). By remaining **method-agnostic**, it avoids bias toward certain validation techniques – e.g. it doesn’t assume every measurement comes from an instrument (it could come from expert judgment just as well). One might argue the pattern enforces a somewhat formal approach to what could be informal measures (forcing definition of scale and characteristic), but this formalism is lightweight and is precisely what makes the metric interpretable. In summary, A.18 embodies **neutrality**: it’s a container that fits any content as long as that content is well-labeled. It reinforces **P‑2 (Didactic Primacy)** by making all metrics self-explanatory in terms of what and how, and respects **P‑1 (Cognitive Elegance)** by using a minimal, uniform scheme. No cultural or disciplinary assumptions are baked in – an anthropologist’s “Cultural Significance” scale can live alongside an engineer’s “Voltage” scale with equal status. The pattern’s requirement for declaring polarity (“higher is better” vs “lower is better” vs target range) further avoids bias in interpretation – it prevents the assumption that “more is always better,” which might be untrue in many contexts (e.g. for error rates, lower is better). All these considerations ensure that A.18 introduces no hidden skew; it merely provides a fair playing field for all metrics.
+The CSLC structure supports physical measurements and human assessments by keeping the Characteristic, Scale and reading distinguishable. The chosen measurement procedure supplies the domain assumptions. Scale order describes the Characteristic; an evaluation states which values it prefers for its use. This separation allows a descriptive reading to remain interpretable when the evaluation changes.
 
 ### A.18:7 - Conformance Checklist
 
@@ -29743,7 +29879,7 @@ When defining a new metric template or using measurements, practitioners **SHALL
 
 1.  **One characteristic, one scale:** Each metric **template** binds exactly **one Characteristic** to exactly **one Scale**. If you find a metric trying to cover multiple things at once, split it into separate metrics.
 
-2.  **Polarity declared:** For any **ordered** Scale (ordinal/interval/ratio), the **polarity** (“higher‑is‑better”, “lower‑is‑better”, “targeted optimum (symmetric or asymmetric around a declared target)”) **SHALL** be declared at the **template** that binds a Characteristic to a Scale. State whether higher values are better, lower are better, or if an optimal range/target exists. (For example: \*“higher is better” for a performance score, \*“lower is better” for error count, or _“target 37 °C” for body temperature where deviation in either direction is worse_.) This ensures that anyone comparing two values knows which way is “up.”
+2. **Order and preference:** Is the Scale's order interpretable for the Characteristic? When the use judges which value is preferable, is that preference stated? A descriptive magnitude comparison requires only the measurement interpretation. A target-based evaluation states its target and how deviations are compared.
 
 3.  **Unit and level clarity:** If the Scale is quantitative, specify the **Unit** (e.g. _seconds, meters, %_) and make sure all values include or assume that unit. If the Scale has named Levels, list them clearly and use them consistently. Do **not** use the same label to mean different things on different scales, and avoid using unit terms in Characteristic names (the unit belongs with the scale).
 
@@ -29751,10 +29887,10 @@ When defining a new metric template or using measurements, practitioners **SHALL
 
 5.  **No bare numbers:** Never present a raw number or value without its context of Characteristic and Scale. If someone sees “42” in your output, they should _also_ see or know “42 of what, measured how.” A reader who is not aware of the metric’s template should not be left guessing what a given value signifies. In practice, this means labeling reports and data with the metric name or identifier so that values can be traced back to their meaning.
 
-6.  **Template bridges for cross-metric comparison:** If you intend to compare or aggregate measurements from **different templates** (different Characteristics/Scales), ensure an explicit **ScoringMethod** or conversion is defined. For example, if you need to combine a “usability score” (0–5 stars) with a “security score” (0–100%), you might define a new **Score** that maps both onto a common 0–10 scale via monotonic functions. Without such a bridge, do not directly mix metrics – keep them separate in analysis. This guarantees that any cross-metric reading has a well-founded basis.
+6. **Cross-template operations:** For a conversion, recover the relation between compatible Scales, including units. For a quantity calculation, recover the model and its conditions under C.16. For an evaluative combination, state the ScoringMethod and preference under A.17-R7. For example, converting 0.5 minutes to 30 seconds preserves duration; combining cost and reliability into a score needs an evaluation rule.
 
 7.  **Level optionality respected:** If your Characteristic doesn’t naturally have tiers, don’t force it to have **Level** names (you can leave the Level concept unused). Conversely, if your Characteristic is commonly described in categories, it’s fine to define Levels for clarity. The key is to use the Level field intentionally: either not at all (for truly continuous measures) or in a fixed, **non-overlapping** way (for discrete categories). Do not use “Level” for something that behaves like a continuous value (it would be confusing to assign a label where a number would do, or vice versa).
-8. **Comparability test:** Two Coordinates are comparable iff same Characteristic+Scale (incl. unit, polarity). Otherwise — Score‑level only after a declared SCP to a bounded range.
+8. **Comparability test:** For a direct magnitude comparison, use the same Characteristic and Scale, with compatible measurement conditions under C.16. A declared conversion can establish that common basis. A preference judgement additionally uses its declared preference; changing that preference alone does not change the measurement Scale.
 
 _(The above serve as normative checkpoints. Many of these are automatically supported by using the standard metric templates in software: e.g. the system will enforce one Characteristic per template, require a unit for ratio scales, etc. The **Lexical rules** from A.17/E.10 are assumed: use canonical names and notations for all parts of the metric.)_
 
@@ -29764,17 +29900,17 @@ Adopting the minimal CSLC Standard in the kernel yields a number of benefits:
 
 -   **Universal interpretability:** Every measurement is intrinsically self-describing. One cannot have a “mystery number” floating around; by design you must know it’s _X (Coordinate) on Y Scale of Z Characteristic_. This dramatically reduces miscommunication in reports and data exchange. An engineer and an analyst can share a metric knowing they interpret it the same way, because the context travels with the value. Level is optional when scale is tiered or discreet.
 
--   **Safe comparison and aggregation:** Values can only be compared when they belong to the same Characteristic and Scale (or when an authorized SCP converts them). This prevents the common error of comparing apples to oranges. When cross-comparison is needed, the pattern funnels us into creating a proper normalization, which improves the soundness of composite scores. Essentially, it’s now impossible to accidentally average an uptime percentage with a user satisfaction rating, for example, without explicitly defining how to map one to the other.
+- **Interpretable comparison and calculation:** A magnitude comparison retains the Characteristic, Scale and measurement conditions that make the values comparable. A valid unit conversion preserves that basis across presentations. A derived quantity uses its measurement model; a composite Score adds the evaluation rule. Readers can therefore question a scoring choice separately from the measurement it uses.
 
 -   **Flexibility across domains:** The pattern is **transdisciplinary**. It doesn’t matter if the measurement is temperature in Kelvin, length in inches, code complexity in “abstract points,” or user satisfaction on a five-level Likert scale – all are handled uniformly. This makes it easier to plug new patterns for new domains into FPF, since they don’t need special rules for their metrics; they just instantiate the CSLC template in their context.
 
 -   **Ordinal and cardinal handled with equal rigor:** By explicitly classifying scales, the pattern gives ordinal data the respect it deserves (no pretending it’s numeric) and gives ratio data the formal context it needs (units, zero, etc.). This balance means both qualitative assessments and quantitative measurements live side by side, each with their constraints respected. Domains that lean heavily on categorical ratings benefit from the **Level** concept (with no pressure to assign fake numbers), and domains that use real measurements benefit from unit enforcement and type-aware computations.
 
--   **Clarity in multi-factor scoring:** The prohibition of implicit multi-characteristic measures means that any “overall” score or index has to be constructed out of known pieces. This tends to improve the transparency of complex scoring schemes. If an organization wants to create a single index from 5 different metrics, A.18 forces them to introduce a defined ScoringMethod function that combines those 5 Coordinates into one Score, with declared monotonicity and bounds. The consequence is that composite metrics become auditable and debatable (you can examine the weighting or formula) rather than opaque sums.
+- **Interpretable multi-factor scoring:** A ScoringMethod exposes how its input Coordinates contribute to the Score. Its preference, score order and applicable bounds allow the reader to examine the weighting or formula and judge whether it represents the intended evaluation.
 
 -   **Methodological neutrality (and innovation):** Because the kernel imposes no method for obtaining the values – only how to frame them once obtained – patterns and tool builders are free to innovate in how they measure things. The Standard just ensures that once they do, everyone else can understand and use the results correctly. This separation of concerns (what vs. how) accelerates multi-disciplinary collaboration: a social scientist’s observational scale can feed into a systems model without any confusion, as long as it’s couched in the CSLC terms.
 
-On the downside, **users must do a bit more upfront work** to define their metrics. The pattern’s requirements (declare Characteristic, define Scale, etc.) mean one cannot simply say “we’ll track a risk score” without further detail. In practice, this is a _desirable_ trade-off: the extra effort (perhaps a few minutes to set up a metric template) prevents far greater confusion down the line. Another possible trade-off is **multiplicity of scales** – the pattern allows the same Characteristic to have multiple scales (in different contexts or versions), which might fragment data if not managed (e.g. two teams measuring “Performance” on different scales). However, it also provides the remedy: make the difference explicit and, if needed, build a conversion ScoringMethod. This explicitness is actually beneficial, as it highlights when “Performance (0–5)” is not directly comparable to “Performance (Percentage)”. In short, any fragmentation is out in the open and can be dealt with via alignment or bridging.
+Defining a Characteristic, Scale and measurement method takes work that can be reused. When an existing definition answers the question, use it. When two presentations differ, determine whether a unit conversion supplies a common measurement basis or a different model is needed. Introduce a ScoringMethod when the intended result is an evaluative Score.
 
 Overall, A.18’s consequences are overwhelmingly positive: **measurements become first-class, well-understood citizens of the model.** The cost is a slight increase in definition effort and discipline, which is a small price for coherence. Once this pattern is in place, neighboring patterns in Parts B, C, and D that reason about metrics can rely on it. For example, trust calculations (Part D) can assume that any metric they consume has a known scale and meaning, and knowledge dynamics algorithms (Part B or C) can safely combine evidence knowing the comparisons are valid. The minimal CSLC Standard is thus a foundational enabler for robust, cross-domain assurance in FPF.
 
@@ -29784,7 +29920,7 @@ The rationale behind A.18 is to enforce _semantic clarity_ at the data level, th
 
 -   **Transdisciplinarity:** We include both ordinal and cardinal mechanisms so that no discipline’s metrics are left out. This was informed by observing multi-disciplinary teams: e.g., in a single project, a human factors specialist might rate usability (ordinal) while an engineer measures throughput (ratio). A.18 gives them a common language and prevents one from misusing the other’s data. It embodies the idea that _universal structure enables local freedom_: everyone’s metric can plug in, as long as they specify it properly.
 
--   **Comparability vs. freedom:** The pattern strikes a balance by tying comparability to explicit commonality. If two metrics truly measure the same `U.Characteristic` on the same Scale by the same measurement procedure, then of course you can compare them. If they differ, the framework doesn’t stop you from defining them (freedom), but it does stop you from _conflating_ them inadvertently. The introduction of **polarity** declarations is a direct response to this tension: it adds a small declaration requirement (must declare “higher is better” etc.) but yields big pay-off in avoiding mis-ordered interpretations and enabling safe composite scoring (monotonic ScoringMethods).
+- **Comparability vs. freedom:** Measurement comparison needs a common interpretation of the Characteristic, Scale and measurement conditions. A unit conversion can establish that interpretation across compatible presentations. Preference answers a further question: which result serves the intended use? The same temperature Scale supports identifying the hotter sample, choosing a cooling intervention or maintaining a target. Only the latter uses add a preferred direction or target rule.
 
 -   **Ordinal vs. cardinal separation:** The rationale here is guided by measurement theory: we want to preserve information content. Treating ordinal data with only order operations preserves all its information; doing more (like adding them) injects false information. The pattern’s strictness on scale types forces modelers to be honest about what their data can and cannot do. This not only prevents errors but also encourages **best practices** (e.g. if you find you desperately want to average an ordinal score, perhaps you should refine it into an interval scale in your methodology). The outcome is a framework that respects both the **qualitative** and **quantitative** realms appropriately, aligning with **FPF’s Pillar of Pragmatism** – use formalism where it’s justified, but not beyond its limits.
 
@@ -29800,11 +29936,11 @@ In essence, A.18 is the _infrastructure of meaning_ for metrics. It may appear a
 
 -   **Core foundation for metrics:** This pattern underpins the **Measurement & Metrics Characterization spec (C.MM‑CHR)** – the pattern that implements metric storage and computation. In MM-CHR, every `U.DHCMethodRef` and `U.Measure` follows the CSLC format defined by A.18. By lifting CSLC rules to the kernel, we ensure all FPF patterns (like **KD-CAL** for knowledge dynamics, **Sys-CAL** for systems, or any custom CAL/CHR) share a common approach to metrics. A.18 also informs **A.19 CharacteristicSpace**, **A.19.CHR**, and **C.16 MM-CHR**, which carry measurable property templates and composite characterizations.
 
--   **Enables dynamic reasoning:** A.18’s insistence on well-defined Scales allows patterns like **A.3.3 `U.Dynamics`** (system dynamics models) to incorporate measurement dimensions as state variables without ambiguity. For example, a `stateSpace` in a dynamics model can be explicitly defined as a set of Characteristics (each with units and ranges), making simulations and traces dimensionally consistent. If A.18 were not in place, one model might treat “performance” as a 1–5 score and another as a probability – combining them would be incoherent. With A.18, such differences must be reconciled via a ScoringMethod or kept separate, preserving coherence in multi-model analyses.
+- **Supports dynamic reasoning:** A.3.3 uses Characteristics and Scales to specify state variables. Linking a five-level performance rating to a probability needs a justified model or correspondence between their meanings. A ScoringMethod is appropriate when the result is an evaluative Score.
 
 -   **Coordinates with assurance patterns:** Many patterns in Part B and D (for trust, assurance, and ethics) involve **scores** and **metrics**. For instance, **B.3** (Assurance Levels) computes overall assurance from evidence scores; A.18 ensures those input scores are well-defined and comparable (e.g. all are 0–1 or all are percentages, with polarity noted). **D.4** (Trust-Aware Calculus) might combine trust metrics across domains – again, A.18 provides the common ground so that a “trust score” coming from an operational metric and one coming from a social rating can be normalized and compared meaningfully. In summary, any pattern that aggregates or uses measurements is constrained (in a positive way) by A.18’s rules. They “plug into” this framework.
 
--   **Constrained by lexical rules:** This pattern’s content is part of the formal lexicon governance. It works within **E.10 LEX-BUNDLE**, which means the terms _Characteristic, Scale, Coordinate, Level,_ etc., are controlled vocabulary. A.18 localizes some generic requirements from A.17 (for example, A.17 mandates polarity in principle; A.18 requires it be declared per template in practice). It also aligns with external standards: by having explicit scale types and units, it dovetails with ISO/IEC measurement terminology and allows straightforward mapping to frameworks like **ISO 80000 (quantities and units)** and **Stevens’s scale types**. This relation to standards is deliberate – it eases **F.9 (Alignment Bridge)** construction to external ontologies by having a clean internal schema (A.18 provides that schema). In effect, A.18 is where FPF’s internal consistency meets external compatibility, ensuring our measurement semantics can relate to those outside FPF when needed.
+- **Lexical and external correspondence:** E.10 governs the measurement vocabulary; A.18 applies A.17's distinction between measurement interpretation and use-dependent preference to CSLC templates. Defined scale types and units make the terms used in quantity measurement recoverable for an F.9 correspondence with external measurement standards.
 
 ### A.18:End
 
@@ -29877,7 +30013,7 @@ FPF already standardizes what is characterized through A.17 and how one characte
 ### A.19:3 - Problem (Informative)
 
 - **P1 - Feature-vector drift.** A list of values with implicit units, scales, subject/input arity, or partial-input handling cannot support a sound state or comparison claim.
-- **P2 - Lifecycle bias.** Without a declared space, system change is narrated as one-way stages instead of typed trajectories and separately governed state or classification claims.
+- **P2 - Hidden change conditions.** Stage labels can conceal the state differences and allowed returns needed by the current model. Declare those meanings and transitions when the use relies on them.
 - **P3 - Semantic-locality collapse.** Different claim scopes, context slices, reference schemes, or reference planes may use different coordinate sets or meanings. Treating one umbrella context label as their common identity makes projection and comparison unverifiable.
 - **P4 - Relational characteristics.** A multi-entity characteristic loses arity and direction when flattened into an intrinsic scalar.
 - **P5 - Hidden predicate semantics.** A threshold label or criterion-description edition can conceal the actual input variable, Coordinate projection, Scale, Boolean operator, cut, polarity, and normalization or coordinate-mapping basis.
@@ -40999,6 +41135,16 @@ The following are common alternatives, not an exhaustive classification or a seq
 | A better description of an insufficiently understood phenomenon | Make a purposeful observation or exploratory measurement; vary a condition and inspect what becomes distinguishable. | Observations and possible regularities that can generate or change questions. |
 | An empirical consequence of a conjecture | Derive the expected contrast, obtain relevant observations and compare the actual result with it. | Bounded corroboration, a discrepancy or a qualified basis for rejecting or revising the claim. |
 
+**Recover a construction before trying to execute it.** Use this continuation when the source names a desired object or property but you cannot yet obtain the result needed by the question.
+
+1. Identify the starting objects or data that are available. State what must be produced and which property the receiving use needs.
+2. Find the source's operations for producing or combining those objects. For each needed operation, recover its inputs, application conditions and output. Keep a statement that an object exists with certain properties as an existence claim; seek a way to obtain an instance when the next use requires one.
+3. Work backward from the desired result to the required intermediate results and starting inputs. Preserve joint dependencies and alternative ways where the source supplies them. A missing operation is a question for the source or the relevant specialist; a rule you propose is an addition to be tried and justified.
+4. Work a small instance from the available inputs, applying each recovered operation when its conditions hold. If the notation prevents the operation, use A.6.3.RT to prepare and compare a more usable expression. For a mathematical account, use its formation and equality rules; identify where a proposed identification changes the operations or property being used.
+5. Establish the needed property by the appropriate argument or test. Return the construction and what follows under its premises, or the input, rule or unsupported transition that still prevents the result. Stop when this supplies the receiving use.
+
+For example, a stand specification calls for a portable display. Its assembly rules allow a compatible upright to be joined to a base and a compatible panel to be attached to that upright. Those rules yield the assembly order and the connections to check. Portability remains a requirement to check on the resulting design. If the supplied panel does not fit, the next contribution is a compatible panel, an adapter with its connection rules, or another assembly design. The construction result here is the assembly design; whether the erected stand is stable needs its physical-design argument.
+
 Construction and deduction can work together: an auxiliary object can make a proof possible, and a theorem can suggest a new construction. Novelty does not belong exclusively to one inference type.
 
 For a hypothesis-led test, derive the consequences needed to interpret the test before treating its outcome as corroboration. Keep the prediction, observations, measurement conditions and inference recoverable. A simulation establishes a result of the simulated model; applying it to the physical target needs a supported model–world correspondence.
@@ -41009,7 +41155,16 @@ A bounded result may be sufficient at any of these contributions. Assurance belo
 
 #### B.5:4.3 - Make the result understandable for its use
 
-Explain what was obtained, why the decisive step works, and where the result can be used. For a mathematical argument, recover the statement and domain, the construction or lemma doing the essential work, and a load-bearing assumption whose change would alter the answer. The needed depth depends on whether the receiver will apply, criticize, extend or teach the argument.
+Explain what was obtained, why the decisive step works, and where the result can be used. The needed depth depends on whether the receiver will apply, criticize, extend or teach the argument.
+
+**Recover the argument needed for that use.** Begin with the conclusion or proposed change the receiver needs to understand.
+
+1. Read the claim with its domain and conditions. For a mathematical statement, recover the meanings of its objects and quantifiers.
+2. Work backward from that conclusion through the intermediate claims or constructions it uses. At each needed transition, identify the premises, the operation or inference, and what it establishes. Follow a shared premise wherever the conclusion depends on it; keep jointly needed premises together.
+3. Reconstruct a transition the receiver cannot follow from the source's definitions, rules or worked cases. Obtain the missing explanation or specialist contribution when those do not suffice. A conditional argument can be useful while one premise remains to be established; state that premise and the consequence its failure would have for this use.
+4. If a premise or requested result changes, carry that change through the dependent steps and derive what still follows. Stop at a sufficient argument for the receiving use or a named unsupported transition. An unchanged, adequately supported part can be reused; a full reproof is needed only when the question calls for it.
+
+For instance, a team expects to recover a drawing because a backup exists. Recovering that conclusion requires the needed data in a readable format and an available way to decode it. If the backup is encrypted and its key is unavailable, the next question concerns access to that key or another copy of the drawing. Repeating the fact that a backup exists leaves that prerequisite unresolved.
 
 When beginning with an unfamiliar theory, reconstruct its concept of use for one working question. State what the practitioner wants to explain, predict, construct or decide; which objects and relations the theory lets them describe; what information and operations the application needs; and how its result answers that question. Use a source application when it answers the question. Otherwise propose a small application from the theory's stated objects and operations, work it through and test the correspondence. Keep that constructed trial distinguishable from an application already supported by the source. The first result is a usable explanation of that application, or the particular missing premise or operation that prevents it. Use the intended application to choose what to learn next. Study the construction deeply enough to perform or change the contribution the work requires.
 
@@ -41136,6 +41291,18 @@ Suppose the steady readings are 80 °C at the component, 25 °C at the case atta
 
 This result redirects the design question toward the component–case path, a new direct heat path or reduced heating. It also identifies what could invalidate the estimate: direct airflow onto the component changes the assumed path, while temperature-dependent heating or conductance changes the fixed-difference argument. For the real device, check measurement uncertainty and those assumptions before relying on the bound. A useful specialist request is now: 'Given this assembly and load, can the component stay below 65 °C after improving its contact to the case; which additional observations would settle that?' The engineer can request that model and calculation without first specifying its equations.
 
+#### B.5:5.7 - Recover an argument, then change its starting point
+
+A reader can use elementary algebra and wants to understand and adapt the claim that the sum of the first n positive odd integers is n squared, for a nonnegative integer n. Let S(n) denote that sum, with S(0) = 0.
+
+Work backward from the formula. It is enough to establish its initial value and how it changes when one term is added. The next odd integer after the first n terms is 2n + 1, so S(n + 1) = S(n) + 2n + 1. The proposed value has the same change: (n + 1) squared - n squared = 2n + 1. Both start at zero. Repeating that step establishes S(n) = n squared for every finite n.
+
+A square of n by n unit cells makes the same step visible. Add one row of n cells and an adjoining column of n + 1 cells; the resulting square has side n + 1. The added cells give 2n + 1. Counting the cells and the algebraic recurrence explain the same increase in different expressions.
+
+Now the requested sum has n terms beginning at 3: 3 + 5 + ... + (2n + 1). Recover which premise changed. These are the first n + 1 positive odd integers with the initial 1 removed. The retained argument therefore gives S(n + 1) - 1 = (n + 1) squared - 1 = n squared + 2n. For four terms, 3 + 5 + 7 + 9 = 24; the old n-squared formula would give 16.
+
+The reusable contribution is the initial-value and increment argument. It lets the reader obtain the changed sum by identifying the changed range and reusing the already established result. A different progression would require recovering its increment before selecting another formula.
+
 ### B.5:6 - Bias-Annotation
 
 The examples favor discrete construction and a simple physical representation. Other fields may need probabilistic, interpretive, historical or other arguments with different criticism demands. Select the contribution by the actual question and discipline.
@@ -41144,12 +41311,14 @@ Easy-to-produce outputs can dominate attention. Recover the intended epistemic o
 
 ### B.5:7 - Conformance Checklist
 
+
 - **CC-B5.1 — Question and contribution.** The practitioner SHALL identify the question, intended useful result and selected reasoning contribution. A conjecture SHALL retain its grounds, rivals and limits; a construction and its asserted properties SHALL remain distinguishable.
 - **CC-B5.2 — Interpretable hypothesis-led testing.** Before claiming empirical corroboration, the practitioner SHALL derive the consequences needed to interpret the test and account for how the tested hypothesis was obtained.
 - **CC-B5.3 — Claim-specific support.** A support claim SHALL identify the actual argument or result, its relevance, scope and limitations. An assurance level, when needed, SHALL follow B.3.3 and the applicable domain criteria.
 - **CC-B5.4 — Result and continuation.** For a performed empirical test, the practitioner SHALL keep its actual outcome, including a failed or inconclusive result, recoverable through A.10. A further inquiry SHALL use the actual result with its limitations and name the remaining question; a sufficient answer may finish the use.
 - **CC-B5.5 — Development-state use.** When B.5.1 is used, an actual transition SHALL meet its project and domain conditions. A reasoning result alone does not establish a development-state transition.
 - **CC-B5.6 — Application and change.** The practitioner SHALL distinguish a mathematical result from its physical application and a change of answer, question, Method or capability when that distinction changes the intended use.
+- **CC-B5.7 - Recoverability for the receiving use.** When recovering a construction or argument, the practitioner SHALL identify the required inputs and the operations or inferences needed by that use. A missing rule or unsupported transition SHALL remain explicit. A conclusion reused after a premise changes SHALL state which argument or construction still supports it.
 
 ### B.5:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -41157,7 +41326,7 @@ Easy-to-produce outputs can dominate attention. Recover the intended epistemic o
 | --- | --- |
 | Repeatedly improve the fit of a model that omits the intended quantity. | Test the representation against a small action-changing counterexample; recover the missing distinction or qualify a sufficient bound. |
 | Treat exploratory regularities as if they were independently predicted and tested. | Preserve their origin and use a design and inference that account for the selection and dependence. |
-| Produce an argument whose receiver cannot identify what the crucial step establishes. | Explain the construction, decisive inference and a load-bearing assumption at the depth the receiving use needs. |
+| Produce an argument whose receiver cannot identify what the crucial step establishes. | Work backward from the needed conclusion and recover the decisive transition and its premises. If a premise changes, follow its effect through the argument. |
 | Generate more answers after the important question has changed. | State the changed formulation and which prior results still answer it before selecting further production. |
 
 ### B.5:9 - Consequences
@@ -41176,9 +41345,9 @@ Question formation belongs here because the result of one reasoning contribution
 
 **Which reasoning remains useful as result production becomes cheaper?** Adapt Tao's [*Mathematics in the age of AI* (2026), §§2–8](https://arxiv.org/html/2608.16753v1): select the contribution by mathematical and practical purposes, rather than problem-output count alone. Compared with continuing the same production task faster, §§4.1 and 4.4 make a changed question or repertoire available. This accepts the cost of purpose and interpretation work when it can change the next inquiry. Tao's strong-capability premise is conditional.
 
-**What makes a produced proof useful to its receiver?** Adapt [Klowden and Tao (2026), §§4.2, 4.4, 6.3–6.4](https://arxiv.org/html/2603.26524v1): §4.3 retains the intended statement and decisive explanatory structure alongside formal justification. Formal correctness remains sufficient for some formal questions; extending or applying the result needs more.
+**What makes a produced proof useful to its receiver?** Adapt [Klowden and Tao (2026), §§4.2, 4.4, 6.3–6.4](https://arxiv.org/html/2603.26524v1): recover the intended statement and the explanatory structure that enables reuse. Section 4.3 explains how to recover the needed transitions and follow a changed premise through their dependencies. Formal correctness suffices for some formal questions; application or extension can require this further account. Compared with rechecking the whole proof, the selected recovery spends effort on the receiver's unresolved use. The paper provides a conceptual rationale for this recovery; the odd-sum example applies it to a small argument.
 
-**Must reasoning always begin with an explanatory hypothesis?** Reject that exclusive route while retaining hypothesis-led inquiry where it fits. Adapt [Rodin (2023), §§3–6](https://arxiv.org/html/2301.08131v1): operations constructing mathematical objects and propositions about them have connected but different roles. Section 4.2 and the graph case make those operations usable.
+**Must reasoning always begin with an explanatory hypothesis?** Retain hypothesis-led inquiry where it fits and adapt [Rodin (2023), §§3–6](https://arxiv.org/html/2301.08131v1) for constructive work: recover object-forming operations as well as propositions about their results. Section 4.2 recovers inputs and rules before performing a construction; the graph case shows construction and justification together. An existence statement may answer the question of existence. When the next use needs an instance or procedure, recovering its construction supplies a further result. This accepts the cost of reconstructing only the needed operations, while leaving the choice of mathematical foundation to the question and subject practice.
 
 **How can an inquiry begin before equations are available?** Adapt the qualitative entry described by Etkina and Brookes in [the ISLE method explanation](https://www.islephysics.net/why-isle.html): observations can lead to proposed mechanisms, consequences and discriminating tests before quantitative formalization. Section 4.1.1 makes a first provisional account available; section 5.6 works an engineering model choice. ISLE supplies an instructional method in a supported learning setting.
 
@@ -41189,6 +41358,7 @@ Reopen these choices when a better method at comparable effort changes the attai
 - **B.5.2** supplies the explanation-led abductive Method; **B.5.1** coordinates development states when that separate question is current.
 - **C.22.2** supplies an inspectable problem formulation and next use. **C.29** supplies mathematical-lens selection and correspondence, including preserved and lost structure.
 - **A.15.9** supplies bounded use or acquisition of another practice's result, including help with a missing formulation.
+- **A.6.3.RT** prepares and compares an expression when its representation hinders the needed operation. The construction or argument obtained through that expression remains the result of the applicable subject Method.
 - **B.3, B.3.3 and A.10** govern claim-and-use-specific assurance and evidence reliance.
 - **C.17, C.18 and C.19** supply novelty/value/diversity characterization, archive/front and possibility-space distinctions, and live-pool treatment when those questions arise.
 - **E.23, E.23.CAE and E.23.CDI** distinguish object improvement, capability-expression questions and development of a named capability holder. **E.10.DEV** recovers ambiguous development claims; **C.36** governs the cultural-evolution question.
@@ -41199,6 +41369,439 @@ Reopen these choices when a better method at comparable effort changes the attai
 [fpf-a15-9-ref]: A.15.9-Request-and-Use-a-Bounded-Result-from-Another-Practice.md#a159---request-and-use-a-bounded-result-from-another-practice
 
 ### B.5:End
+
+## B.5.MPC - Connect Physical, Mathematical and Computational Reasoning
+
+> **Type:** Method pattern
+> **Status:** Draft
+> **Normativity:** Normative unless marked informative
+
+### B.5.MPC:1 - Problem frame
+
+**Use this when** a physical question needs contributions from mathematics and computation, and their results do not yet form an interpretable answer together. You may be choosing a robot command, determining whether a gear arrangement can turn, or organizing entry to a room with a finite stock of cards. The difficulty is to connect what the physical arrangement does, what the mathematical result establishes, and what the procedure and its execution actually produce.
+
+Begin with the difference the answer should help you understand or make possible. Take one available contribution and explain what it would have to mean, and what else would have to hold, for that contribution to answer the question. Work the first missing connection far enough to obtain a consequence or locate the next missing contribution. For a motion command, this might already reveal that the supplied count concerns motor revolutions while the distance model concerns wheel revolutions.
+
+The result is a connected solution, a useful conditional consequence or bound, or a particular missing connection that directs the next inquiry. This pattern specializes B.5's choice and connection of inquiry contributions for this joint physical, mathematical and computational difficulty. It governs the reasoning that connects those contributions. Physical laws, mathematical constructions, algorithm design and the engineering of an executing arrangement supply their respective subject content.
+
+A practitioner needs enough preparation to recover the question, follow the meanings of the important quantities and operations, and recognize where specialist help is needed. The worked cases explain their elementary algebra, graph and counting constructions. A more demanding application can require additional physical theory, mathematics, computation or measurement expertise; obtain that contribution with its explanation when it is missing.
+
+Use an already adequate calculation, implementation or operating procedure directly when its connection to the intended physical use is settled. A proof or bound can answer a physical design question before implementation is worthwhile. For an actual performance claim, add the observations, measurement relation and evidence needed for that claim; a conditional construction alone answers only what follows under its assumptions.
+
+### B.5.MPC:2 - Problem
+
+Individually correct contributions can fail to support a joint result. A physical model may concern accumulated wheel rotation, a mathematical variable may represent orientation modulo one turn, and a program may accept an absolute target. Each account can be consistent while their composition loses the displacement that the user requested.
+
+The same difficulty occurs without numerical approximation. A graph can correctly encode a chosen contact list, and a program can correctly colour that graph, while the contact list omits an actual mesh. A count invariant can be proved while the proposed admission procedure creates two independent stocks of cards. Improving the proof or the program leaves the missing physical correspondence untouched.
+
+A simple division into “physics first, mathematics second, implementation last” also fails when a later contribution exposes an earlier omission. The interface may require initial state that the first model discarded. A measurement may distinguish fewer cases than the calculation assumes. A mathematical obstruction may make further computation unnecessary. The practitioner needs a way to construct the dependencies, use an available contribution at its point of need, and return a failure to the contribution that can change it.
+
+### B.5.MPC:3 - Forces
+
+| Force | Working tension |
+| --- | --- |
+| Shared answer and distinct expertise | Specialists can work independently on contributions, while their results must concern compatible participants, assumptions and operations. |
+| Useful simplification and physical interpretation | Omitting detail can make a problem tractable; an omitted distinction can determine the requested action. |
+| Constructive freedom and justified consequence | New models, expressions and procedures can open a useful route; their decisive properties require the relevant physical or mathematical grounds. |
+| Abstract result and executing means | A computation can be correct for its stated inputs while the proposed apparatus cannot prepare, represent or execute those inputs. |
+| Reuse and change | Existing results save work, but their use depends on the premises and interpretations that the new question consumes. |
+| Explanation and available effort | A person or team needs enough understanding to use and question contributions without reconstructing every discipline before an ordinary decision. |
+
+### B.5.MPC:4 - Solution
+
+Construct the answer by connecting the contributions it actually needs. For each connection, identify the supplied result, the receiving operation and the condition that makes the result usable there. Follow those meanings through a small instance. If the connection is missing, construct it, obtain it from a suitable contributor, or return the particular missing result that prevents the next move.
+
+The long mantra keeps the whole question available while attention moves between contributions:
+
+**Orient by the physical question → propose the relevant physical account → construct a mathematical question and its interpretation → obtain a result and, where needed, a computation → connect its execution and observations to the intended quantities → return the consequence to the physical question → choose the useful action or the next missing contribution.**
+
+The arrows recall result dependencies. They do not prescribe the order in which people must discover, receive or develop every contribution. A ready theorem, algorithm, measurement or physical mechanism can be the first available input.
+
+#### B.5.MPC:4.1 - Recover the physical difference the answer should resolve
+
+Identify the thing or situation being understood or changed. Say which difference would make an answer useful: a displacement within a stated tolerance, the possibility of coupled rotation, a capacity bound during entry, or another consequence the work needs. Include the relevant boundary and operating conditions when changing them could change the answer.
+
+Then recover what is already available. An engineer may have a trusted motion model but an unfamiliar command interface. A mathematician may have an odd-cycle theorem and ask which physical arrangements its obstruction describes. A room attendant may have a reliable card procedure and want to extend it to a second entrance. Enter through that available contribution and recover only the other results needed to answer the question.
+
+Use B.5:4.1 when the question itself needs formation or revision. B.5.4 helps recognize the participants and relations of an explained concept in a concrete situation. If the receiving use is still unclear, work one small consequence of the available result and ask what it would let someone decide or do. Retain a theoretical question when its answer could enable a worthwhile construction, explanation or later inquiry.
+
+#### B.5.MPC:4.2 - Propose the physical account and the observations it needs
+
+Identify the participants, interactions and configurations that could determine the requested difference. Give separately used quantities their participants and reference conditions: the robot's distance to a wall before motion, its distance afterwards and its displacement are three quantities, even though each is called a distance. Start from the arrangement and relevant subject knowledge. For a rolling robot, distinguish wheel, motor, transmission and ground contact. For gears, distinguish an actual contact from proximity in a drawing. For admission cards, distinguish a material card, its holder, the room boundary and the permitted transfers.
+
+State the applicable physical or operating rules. Explain why a rule supplies the needed relation and where it is an assumption. Wheel rotation yields a distance relation only under the chosen rolling and geometry conditions. Exclusive possession of a card supports an admission limit only when the entrance procedure connects possession to entry and return. A.3.3 helps construct configurations, retained state and allowed continuations; the subject practice supplies the laws and mechanisms those continuations use.
+
+Choose a sufficient account for the present question. A direction or impossibility result may need less physical detail than a trajectory, speed or load calculation. Make an omitted interaction explicit when it could defeat the inference: slip changes wheel travel, a moving gear carrier changes relative rotation, and uncontrolled entry breaks the visitor-to-card association.
+
+When observations supply an input or test a consequence, construct the relation between the sought quantity and the indication. Use C.16:5.3 and C.16:5.4 for the measurement method and model. Motor counts can indicate motor rotation under an encoder account; using them to establish travel additionally consumes the transmission and ground-contact account. If the available indication cannot distinguish the cases needed by the question, obtain a different observation, use an adequate bound, or change the question.
+
+Return a proposed physical account and its consequences under stated conditions. An unknown interaction or calibration is a useful missing contribution when it determines which mathematical question can be constructed.
+
+#### B.5.MPC:4.3 - Construct an interpretable mathematical question and expression
+
+Choose mathematical objects and operations that retain the distinctions needed by the physical question. State what their important elements mean. For instance, let a vertex denote one particular gear, an edge denote a specified mesh, and a colour denote the sign of rotation when viewed from one common side. A colour number has meaning through that interpretation.
+
+Construct the relation that connects the physical rules to the mathematical constraints. Derive a distance per motor increment from wheel circumference and transmission ratio; derive an opposite-colour constraint from the external-contact rule; derive a count invariant from a fixed stock and its permitted transfers. C.29:4.1 supplies the general correspondence-and-return method. When an operation or a compressed representation must preserve a result, use C.29.1 to compare performing the source operation and then transferring its result with transferring the inputs and then performing the receiving operation.
+
+Work the distinction that could defeat the representation. A wheel orientation repeats after one turn; accumulated travel can continue to increase. A graph of opposite-direction contacts answers a different question from a graph in which an edge merely means “these parts are connected.” If two physical cases receive one mathematical representation but require different answers, retain their distinguishing information, restrict the cases or seek a weaker consequence.
+
+Keep the relation available when the question changes. Identify which quantities are now given and which must be obtained, then derive the computational direction that serves that question. Under a model `d = v*T` and `v = k*u`, where u is a motor command setting, positive k, u and T permit `T = d/(k*u)` for a duration question or `u = d/(k*T)` for a command question. Obtain k and the range in which the speed model applies from the physical account. The device's word “power” needs its interface meaning; u is not assumed to be physical power in watts. A resulting command outside the supported range returns a realizability question.
+
+For a conditional example, let u be dimensionless and let `k = 0.2 m/s`. A distance `d = 1 m` at `u = 0.5` takes `T = 10 s`. Changing the requested duration to `T = 5 s` requires `u = 1`. If the available range is `0 < u <= 0.8`, the shortest duration under this model is `1 / (0.2 * 0.8) = 6.25 s`. Returning that bound lets the requester change the deadline or seek a different realization.
+
+An equality constrains the quantities in this model. A program assignment changes a stored value according to its execution rules. Construct the needed assignments or solver from the relation after selecting the givens and unknowns; C.29.2 supplies that formulation Method.
+
+Make an expression that supports the next operation. Use A.6.3.RT:4.1 to express the givens and constraints under an available scheme and compare the result with its source. Put units and participant names where their absence permits the wrong operation. Keep a shared quantity recognizable across expressions, such as the same wheel revolution in the transmission ratio and circumference relation.
+
+Notation can contribute to obtaining the result. A table can expose mutually exclusive card states; a graph can make a closed contact path traceable; a labelled equation can reveal the missing subtraction of an initial position. The subject Method supplies the construction or inference performed with those expressions. If the available scheme cannot express the needed distinction, change the scheme or obtain notation-design work before treating its expressions as adequate.
+
+#### B.5.MPC:4.4 - Obtain a sufficient consequence or construct its computation
+
+Choose the result the use needs: a value, distribution, statistic, bound or property of ongoing behavior. A witness can establish one feasible arrangement; a counterexample can refute a general claim; a proof can establish an obstruction; a bound can settle a threshold decision. Compute an exact numerical answer only when that answer contributes to the use.
+
+When a procedure is needed, construct its inputs, retained state, elementary operations and output interpretation. Explain how it obtains the mathematical result and why it terminates, or which property it preserves during continued interaction. C.29.2 supplies this formulation work; the relevant algorithmic or mathematical Method supplies the actual construction and its argument. B.5:4.2 and B.5:4.3 help recover a construction or a decisive proof step that the available explanation leaves inaccessible.
+
+Trace one instance with its meanings intact. In a two-colouring procedure, a waiting list records vertices still to be processed, while parent links can reconstruct a failed closed path. In a motion calculation, the integer is a count of a particular kind of increment. In an admission procedure, taking a free card changes a finite state and determines whether an entry may proceed.
+
+For a numerical approximation, carry the error that can affect the physical use. Separate rounding of a computed command from uncertainty in radius, calibration or physical response. For a resource claim, include the cost of obtaining the input, representing it and interpreting the output when those costs matter. Counting one graph-edge inspection as one operation is useful under an adjacency-list cost model; it does not estimate the effort of discovering the actual contacts.
+
+Use a supplied proof or computation when its premises, meaning and relevant resource conditions fit. If a necessary construction remains unknown, state the missing operation and what it must connect. C.39 supplies the search for or development of a missing way. A conditional answer or a less demanding bound can finish the current question while that larger construction remains open.
+
+#### B.5.MPC:4.5 - Connect the computation to preparation, execution and observation
+
+Begin with the abstract input and explain how the proposed arrangement represents it. Then identify the system actions that perform the operations and the observation or final state from which the result is read. Use C.29.3 for this realization comparison.
+
+Compare two routes for the same input:
+
+~~~text
+abstract input → stated computation → abstract result
+abstract input → prepared system → system operation → interpreted result
+~~~
+
+The comparison asks whether the second route returns the equality, bound, statistical agreement or behavioral property that the receiving use needs. Input preparation and output interpretation can use different relations. Preparing a motor command and reading robot displacement are different operations; counting free cards and authorizing one transfer use different aspects of the same arrangement.
+
+Recover range, units, initial state, ordering and completion conditions at the point where they affect that comparison. A signed command field cannot carry every positive integer. A command meaning “add this displacement” differs from one meaning “reach this position.” A material card available for transfer cannot simultaneously be assigned to another visitor.
+
+Include the timing and retained physical state that the comparison consumes. When a controller is paused for debugging, determine which physical processes continue and which command remains active. Observe or replay the operation with the timing it needs, or interpret the changed run under its changed conditions. Establish the event that completes the requested physical action; program termination, a command acknowledgement and motor stopping can occur at different times. For an observation, include a settling interval or other preparation when the measurement relation requires it.
+
+For a design question, use the stated model of the executing arrangement and return a conditional realization. For a claim about what happened, obtain the corresponding observations and their interpretation. A command receipt can establish that a command was accepted while leaving its successful physical completion open.
+
+Use an existing adequate implementation directly when this comparison is already settled for the receiving use. A manual procedure, analog apparatus or controlled material transfer can supply an execution. Its adequacy follows from its permitted operations and interpretation, not from whether it contains digital software.
+
+#### B.5.MPC:4.6 - Keep joint requirements and alternative routes distinguishable
+
+Recover dependencies by asking, for each needed result, “What results and conditions make this operation possible, and what other operation could supply the same receiving need?” Keep the answer with the actual derivation, diagram or working explanation. A short case may need only a sentence; a shared design may need an explicit dependency diagram.
+
+An **AND dependency** means that contributions are needed together for the stated inference. The robot's distance per motor increment uses the effective wheel radius, transmission ratio and increments per motor revolution together. Replacing any one can change the command.
+
+An **OR alternative** is a different sufficient way to obtain the result needed by the receiving use. A proved upper bound and an exact computation can be alternatives for deciding whether a limit can be exceeded. Each route retains its own assumptions. Two different approximations do not become sufficient alternatives merely because both return a number.
+
+For a conditional physical consequence, one useful small rendering is:
+
+~~~text
+applicable physical account
+AND mathematical interpretation
+AND (sufficient direct consequence OR sufficient interpreted computation)
+→ consequence for the physical question
+~~~
+
+The computational branch additionally depends on a procedure and an adequate realization for any claimed execution. A claim about observed physical behavior adds the observations and measurement relation it consumes. These are different claims and can end the work at different places.
+
+Keep a shared premise attached to every contribution that consumes it. Both an analytical calculation and a numerical simulation can depend on the same no-slip assumption. Switching between them does not remove that dependency. Conversely, when an upper bound already answers the decision, the exact optimizer need not be obtained.
+
+Enter a ready result at the place where it is used. Recover its inputs and conditions backward, then continue forward with its consequence. When a missing input blocks one route, compare another sufficient route using the available inputs. Do not combine an output from one route with the assumptions of another without establishing their compatibility.
+
+A failed connection can send the inquiry back to its physical account, mathematical construction, notation, procedure, realization or question. Locate the first disagreement that changes the receiving result, revise the responsible contribution and revisit its dependents. B.5:4.3 supplies argument recovery; C.29.1, C.29.2 and C.29.3 supply the transfer, formulation and realization methods respectively. Retain unaffected contributions whose conditions and meanings still hold.
+
+#### B.5.MPC:4.7 - Return the consequence and choose what to do with it
+
+Explain the result in the original physical terms. A count becomes a modeled displacement; an odd cycle becomes a set of contacts that prevents the stipulated nonzero rotation; a card invariant becomes a bound on occupancy under the entry rules. State what the result enables and the condition that changes that use.
+
+When the consequence is insufficient, make the next contribution specific. “Determine whether these two wheels slip differently under this load” can direct physical work. “Find a representation that retains accumulated turns” can direct mathematical formulation. “Establish whether this interface interprets the number as an increment or an absolute target” can direct realization work. The uncertainty itself can be the result if locating it prevents further work on the wrong question.
+
+Distinguish the consequence of an obstruction. A mathematical contradiction blocks a construction under its stated premises. A physical restriction blocks an intervention under the applicable laws. An expensive computation can remain mathematically possible while unavailable within the resources of this use. Their repairs can require different questions, arrangements or Methods.
+
+Stop when the supported result answers the intended use. When development is the purpose, work one consequential variation far enough to reveal a new construction, obstruction or missing operation. Explain which additional action or longer inquiry it could enable. B.5:4.4, C.39 and C.40 supply the corresponding question and repertoire development; continued work is justified by that use.
+
+#### B.5.MPC:4.8 - Divide human and AI contributions by the result they must supply
+
+Allocate work around the dependencies above. A contributor can supply a physical account, a mathematical construction, a proof, a computation, a proposed realization or an explanation of the connection. State the working question, available inputs, missing result and intended use when obtaining help through A.15.9. Ask for the formulation itself when the equation has not yet been constructed.
+
+Retain enough understanding at each receiving point to use and question its input. The receiver of a motion count should be able to identify its unit, the rotation it counts, its sign and its dependence on the motion model. The receiver of a two-colouring result should be able to connect the returned labels or odd-cycle witness to the actual contact list. The receiver of an occupancy bound should be able to identify the material and procedural conditions that preserve the stock.
+
+That understanding can be held by one person or distributed across people and AI with an effective way to obtain a missing explanation. Arrange a capable contribution for each consequential connection. A completed report alone does not establish that this capability is available when a premise changes.
+
+Choose depth from the later work. Using a stable formula may require interpretation and checks at the connection. Changing the formula requires understanding its derivation. Designing a new algorithm or physical theory requires the additional specialist capability. When assessing a person's preparation, examine their contribution on representative work with the assistance that will actually be available. Include a change of the requested result or a relevant premise when later work requires that adaptation. Ask the practitioner to recover the retained relation, the new unknown and the dependent physical operation.
+
+### B.5.MPC:5 - Archetypal Grounding
+
+The following are constructed cases under stated assumptions. They show how the coordinating Method obtains a jointly interpretable consequence. Physical motion, an assembled gear mechanism and an operating admission system require their corresponding physical arrangements and evidence.
+
+#### B.5.MPC:5.1 - Construct a robot command from a motion question
+
+An engineer wants a robot to advance by 1 m along a straight guide. The guide keeps its direction fixed. For this calculation, the effective rolling radius of the driven wheel is 0.05 m; rolling occurs without slip; the transmission makes ten motor revolutions for one wheel revolution; and successful execution advances the motor by one thousand commanded increments per motor revolution. Positive motor motion is defined to produce forward travel. The initial question is a conditional command design under those assumptions.
+
+First construct the relation from the participants. One wheel revolution rolls through its circumference, 2π × 0.05 m. The motor makes ten revolutions during that wheel revolution, so that travel corresponds to 10 × 1,000 = 10,000 motor increments. Let N be the signed number of motor increments completed after the command begins. The modeled displacement s is:
+
+~~~text
+wheel revolutions = N / (1,000 × 10)
+s = [N / (1,000 × 10)] × 2π × 0.05 m
+distance per motor increment = 0.0000314159265359 m
+~~~
+
+The factors expose the two distinct revolutions and the command unit. A statement that the wheel turns through 2π radians would give orientation change for one turn; the present N retains accumulated turns because the receiving quantity is accumulated travel.
+
+Invert this relation for the target displacement:
+
+~~~text
+N_ideal = 1 m / (2π × 0.05 m) × 10 × 1,000
+        = 31,830.9886183791 motor increments
+N_command = nearest integer to N_ideal = 31,831
+~~~
+
+The computational procedure reads the target distance and the three parameters, computes the ideal count and rounds it to the nearest integer. Use enough numerical precision to determine that integer; if arithmetic uncertainty straddles a rounding boundary, refine the calculation or retain the resulting command uncertainty.
+
+Now supply the realization input. The interface accepts signed relative motor-increment commands in the range −32,768 to 32,767. It performs a command to completion before reporting successful completion. Thus 31,831 is representable and its unit and relative-command meaning agree with the calculation. A different interface would require its own preparation relation.
+
+Read the completed command back through the physical model:
+
+~~~text
+s_command = 31,831 / 10,000 × 2π × 0.05 m
+          = 1.00000035756417 m
+
+maximum error from rounding to the nearest increment
+          = 0.5 / 10,000 × 2π × 0.05 m
+          = 0.0000157079632679 m
+~~~
+
+The rounding bound concerns discretization of the command. It leaves slip, effective-radius error and unsuccessful motor execution outside that numerical bound. If the engineering question is actual travel within a tolerance, those contributions determine whether this command is adequate. For example, motor counts alone cannot discriminate successful rolling from wheel rotation with slip; a displacement measurement needs its own relation to position.
+
+The joint result is the command 31,831 and its modeled consequence under the physical and interface conditions. Physics supplies the rolling and transmission account. Mathematics supplies the relation, its inversion and the error bound. Computation supplies the integer and range check. The coordination connects their meanings and returns the supported displacement.
+
+The same interface's largest positive relative command represents about 1.0294056648 m under this model. If the requested distance and tolerated error require a larger positive count, use another realization or a procedure using several commands whose combination is justified. If the wheel radius, the count's meaning or the use of initial position changes, reconstruct the affected relation before reusing the command. Those changes can affect the physical parameter, mathematical expression and command preparation together; recover the disagreement and its dependent contributions as in :4.6.
+
+#### B.5.MPC:5.2 - Use two-colouring to answer a gear question
+
+A designer asks whether every gear in a connected arrangement can rotate while all specified meshes remain engaged. The supplied idealized account has parallel, fixed axes, external gear contacts and positive pitch radii. View every rotation from the same side. At each external mesh, the two gears have opposite signs of angular velocity. Contact geometry and tooth compatibility are additional physical conditions; this first question concerns the consistency of rotation directions.
+
+Construct a finite undirected graph. A vertex represents one gear and an edge represents one of the stipulated external meshes. Assign colour 0 to one rotation direction and colour 1 to the other. An edge requires different colours at its endpoints. This expression makes the physical question a mathematical one: can the vertices be assigned two colours while satisfying every edge?
+
+The graph records actual contact, not geometric closeness on the page. A drawing with crossing lines does not add a mesh between the gears at that crossing. If an actual contact is absent from the list, the result answers only the incomplete list.
+
+Obtain either a colouring or a witness of failure by the following procedure.
+
+1. Choose an uncoloured vertex as a root. Give it colour 0, depth 0 and no parent; place it on a waiting list.
+2. Remove the first vertex from the list and inspect its neighbours. Give each uncoloured neighbour the opposite colour, record the removed vertex as its parent, give the neighbour depth one greater and append it to the list.
+3. For an already coloured neighbour, compare colours. If they agree, use that edge and the two parent paths to construct the odd-cycle witness explained below, and return it.
+4. Continue until the list is empty. Start another root if an uncoloured vertex remains. If every edge joins different colours, return the colouring.
+
+A vertex is added to the waiting list only once. Each recorded parent has smaller depth, so parent paths reach their root. A finite graph therefore yields a result after all relevant vertices and edges have been examined, or after a contradiction has been found. With adjacency lists, constant-cost access to a vertex's recorded data, and constant-cost insertion and removal in the FIFO waiting queue, the work is proportional to the number of vertices plus edges.
+
+Work a square contact cycle with gears A, B, C and D and contacts AB, BC, CD and DA. Starting at A gives A colour 0; B and D colour 1; and C colour 0. Every contact joins opposite colours. The groups {A,C} and {B,D} therefore give compatible direction choices. Reversing both groups gives the other choice. Four equal pitch circles can be placed with centres at the corners of a square of side twice the pitch radius to obtain those contact incidences; tooth engagement and motion under load still require the corresponding mechanical design.
+
+Now work three gears with contacts AB, BC and CA. Starting at A gives B and C colour 1. Edge BC then joins equal colours. Its endpoints' parent paths B–A and C–A, together with BC, give the three-edge closed path B–A–C–B. Alternating directions around three external contacts asks B to have both directions at once.
+
+The same reasoning constructs a failure witness in a larger graph. For a same-colour edge, follow its endpoints' parent paths until their nearest common vertex. Discard the shared path beyond that vertex. The retained paths have even total length because the endpoints have the same depth parity. The extra edge closes a simple odd cycle. Alternating two colours cannot satisfy every edge of an odd cycle. Conversely, if the procedure finishes without such an edge, its returned colours satisfy every listed constraint.
+
+The physical interpretation can be made quantitative without hiding the direction question. Let rᵢ be a gear's pitch radius and ωᵢ its signed angular velocity. Ideal external meshing with fixed axes gives:
+
+~~~text
+rᵢωᵢ + rⱼωⱼ = 0 at each mesh
+qᵢ = rᵢωᵢ, so qⱼ = −qᵢ
+~~~
+
+For a two-colouring, choose any nonzero value q for one colour and −q for the other, then set ωᵢ = qᵢ/rᵢ. This satisfies those kinematic equations. For an odd cycle, following the equations around the cycle gives q = −q and hence q = 0. In a connected graph all gears then have zero angular velocity. Thus the odd cycle excludes the requested nonzero coupled rotation under the stipulated contact model; a stationary arrangement remains compatible with the equations.
+
+Return the cycle as the particular set of physical contacts responsible for the obstruction. Removing one actual contact from the triangle leaves a chain and permits alternating directions. Deleting only its graph edge leaves the physical obstruction in place. An internal gear contact or a moving carrier changes the contact rule and requires a revised physical account before the colouring test is reused.
+
+A compatible direction assignment answers this bounded question. It does not establish adequate torque, tooth phasing, freedom from interference or motion under the intended load. For those questions, retain the graph result and obtain the missing mechanical contribution. The common Method supplies the contact interpretation, the connection to the computational witness and the return to the design. The gear account and graph argument supply the substantive rules that make that return possible.
+
+#### B.5.MPC:5.3 - Maintain an admission bound through material tokens
+
+A demonstration room should contain at most three visitors. Initially the room is empty and three distinct material cards are available. An attendant gives a free card to one visitor before entry. That visitor keeps it while inside and returns it after leaving. A new visitor waits for a card when none is free.
+
+For this case, every entrance and exit follows the procedure, each card is exclusively assigned to one visitor at a time, and cards are neither lost nor duplicated. The material arrangement makes exclusive acquisition possible: taking the available card removes that same card from the free stock. A photograph or printed copy of the card is not accepted for entry.
+
+First consider a moment when every assigned card is held by a visitor inside and every other card is free. The one-card-per-visitor rule gives:
+
+~~~text
+occupancy = 3 − number of free cards
+~~~
+
+During admission and return, cards can also be held by visitors outside. A visitor may already hold a card while waiting to enter; a departed visitor may still be walking to its return point. To preserve the physical meaning during those intervals, distinguish four states for each card:
+
+| State | Physical interpretation |
+| --- | --- |
+| Free | The card is available for a new admission. |
+| Reserved | The card is held by a visitor who has not yet entered. |
+| Inside | The card is held by its visitor inside the room. |
+| Awaiting return | Its visitor has left, but the card is not yet free. |
+
+Let F, R, I and E count cards in those four states. Every card occupies exactly one state, so F + R + I + E = 3. Under the visitor-to-card rule, occupancy = I. Therefore:
+
+~~~text
+occupancy = I = 3 − F − R − E
+occupancy ≤ 3 − F ≤ 3
+~~~
+
+The transition procedure has four ordinary operations: issue one free card to a waiting visitor; admit that card's visitor; let the visitor leave with the card; and return the departed visitor's card to the free stock. Their state changes are Free → Reserved → Inside → Awaiting return → Free. A cancelled admission can return a Reserved card directly to Free while its visitor remains outside.
+
+Each operation moves one existing card between states. Issuing a card requires a free card; entering requires its exclusive reservation; returning it requires that its visitor is already outside. Those conditions preserve the total stock and the association between visitors inside and Inside cards. The argument establishes the capacity bound for every sequence of those permitted operations, including overlapping visits.
+
+Work two entries followed by one exit:
+
+| Operation just completed | F | R | I | E | Occupancy |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Initial arrangement | 3 | 0 | 0 | 0 | 0 |
+| Issue card A | 2 | 1 | 0 | 0 | 0 |
+| Visitor A enters | 2 | 0 | 1 | 0 | 1 |
+| Issue card B | 1 | 1 | 1 | 0 | 1 |
+| Visitor B enters | 1 | 0 | 2 | 0 | 2 |
+| Visitor A leaves | 1 | 0 | 1 | 1 | 1 |
+| Return card A | 2 | 0 | 1 | 0 | 1 |
+
+Counting free cards gives an upper bound on occupancy during handover and return. It gives the exact occupancy when R = E = 0. That distinction changes what an observer may infer from the same stock. The admission rule can preserve the bound without an exact instantaneous occupancy readout.
+
+Connect the abstract transition rule to the physical means. Exclusive possession realizes consumption of a free token. Carrying it through entry preserves the visitor association. Returning it only after exit prevents its use for a fourth visitor while the first three remain inside. If a visitor passes their card to someone outside while staying inside, the allowed-transition premise fails: the reused card no longer represents one occupied or reserved place.
+
+A second entrance needs access to the same total stock. A copied stock of three additional accepted cards permits six simultaneous admissions, even if both attendants follow their local rule correctly. A shared pool of the original three cards preserves the common bound. Partitioning those same cards, for example two at one entrance and one at the other, also preserves it. The partition can make a visitor wait at one entrance while a card is free at the other; redistribution then needs a transfer of an existing free card.
+
+The useful result is a conditional admission design and an interpretation of its observable stock. Its computational contribution is a finite-state procedure that answers whether an admission can proceed and maintains the relevant count. People and material transfers can execute it without a digital program. The invariant does not establish fair waiting, fast entry or detection of every procedural violation; those are different questions with their own needed contributions.
+
+The coordinating Method makes the physical card and room-boundary rules, mathematical invariant and executing procedure agree. This is also why changing the stock or the return rule changes the joint result even when the counting arithmetic remains correct.
+
+### B.5.MPC:6 - Bias-Annotation
+
+| Likely bias | Consequence for this work | Corrective action |
+| --- | --- | --- |
+| Familiar equations dominate the physical account | The practitioner begins with a calculable proxy and loses the requested quantity. | Name two physical cases that require different answers and determine whether the proposed variables distinguish them. |
+| Successful computation dominates interpretation | A number or certificate is accepted without its meaning in the physical arrangement. | Interpret the decisive count, edge or token transfer and recover the premise connecting it to the receiving action. |
+| Diagram familiarity hides physical assumptions | A graph edge is treated as a real contact, or its meaning changes across an example. | Construct the contact or interaction list from the subject account and label the relation that each edge represents. |
+| Digital implementation is treated as the default | Material or manual realizations are overlooked even when they answer the question. | Compare their input preparation, permitted operations and result interpretation with the computational need. |
+| A precise answer hides an uncertain premise | Small numerical error is reported while model or measurement uncertainty can dominate the result. | Carry the uncertain physical premise into the returned consequence or obtain the measurement that can settle it. |
+| Contributor identity substitutes for usable grounds | An expert or AI report is trusted beyond what its stated assumptions and explanation support. | Recover the connection consumed by this use and obtain the missing explanation or evidence from a capable contributor. |
+
+These biases can affect one person as well as a team. Apply the correction at the missing subject operation, correspondence or observation.
+
+### B.5.MPC:7 - Conformance Checklist
+
+Use these checks on the claimed joint result and its explanation. They establish conformance to this Method's stated use; physical validity and any stronger assurance claim require their applicable subject evidence.
+
+| Check | Content to inspect |
+| --- | --- |
+| CC-MPC.1 — Receiving question | The explanation identifies the physical difference to be resolved and what the supported answer enables. |
+| CC-MPC.2 — Physical premises | Participants, interactions and operating conditions are sufficient to recover the mathematical question; consequential assumptions remain distinguishable from observations. |
+| CC-MPC.3 — Interpretable construction | Important quantities, structures and operations have meanings that survive the construction, and a lost distinction either leaves the use intact or changes the returned result. |
+| CC-MPC.4 — Obtained consequence | The proof, construction, bound or computation is actually supplied for the stated case, with the decisive argument and its conditions. A missing operation is named as missing. |
+| CC-MPC.5 — Executing arrangement | Any realization claim connects preparation, system operations and result reading. Range, units, initial state and ordering are recovered wherever they change the inference. |
+| CC-MPC.6 — Joint and alternative dependencies | Jointly needed contributions remain together; alternative routes each satisfy the receiving need under their own conditions. A shared premise remains shared across alternatives. |
+| CC-MPC.7 — Notation in use | The expression supports the needed operation under explained or familiar rules; new subject conclusions are justified by that operation rather than presented as mere re-expression of givens. |
+| CC-MPC.8 — Supported return | The consequence is interpreted in the physical question with the bounds and uncertainties its use consumes. Conditional design and observed performance remain distinguishable. |
+| CC-MPC.9 — Useful continuation | The explanation ends with an adequate use, a specific missing contribution or a justified next question. A change returns to its affected contribution and dependents. |
+
+A short sufficient calculation can satisfy these questions without separate records for each row. A shared or consequential result retains enough of the derivation, interpretation and evidence for its receiver to inspect the connections.
+
+### B.5.MPC:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Failure visible in the worked cases | Repair |
+| --- | --- | --- |
+| Substitute the right number into the wrong command | A count of relative motor increments is treated as an absolute wheel-position target. | Recover the interface's counted participant, unit and initial-state use; construct the input it actually accepts. |
+| Check only the middle calculation | The robot arithmetic is correct while rolling or successful completion remains unsupported for an actual-travel claim. | Add the physical and observation contributions consumed by that stronger claim, or return the conditional design. |
+| Treat a sufficient abstraction as complete physical design | A gear colouring is taken to establish torque or mechanical compatibility. | State the bounded direction consequence and obtain the missing mechanical account when the decision requires it. |
+| Repair the drawing while leaving the arrangement unchanged | An odd-cycle edge is deleted from the contact graph but the gears remain meshed. | Change the actual contact or revise the contact rule with its physical basis, then reconstruct the graph consequence. |
+| Count reservations as occupants | Three cards outside the free pool are reported as three visitors inside during handover. | Retain Reserved and Awaiting-return states, or report the resulting occupancy bound. |
+| Preserve local rules while duplicating a shared resource | Each entrance has its own three-card stock and both are used for one room. | Use one total stock or a partition of it; transfer existing free cards when balancing entrances. |
+| Traverse every contribution before using a sufficient result | A proof already excludes a design, yet simulation and implementation continue as compulsory stages. | Return the proved physical obstruction under its assumptions and choose a revised design question. |
+| Ask a contributor for an unexplained answer | The receiver gets a count, proof or program whose needed meaning cannot be recovered. | Request the particular interpretation, decisive argument or operating condition required by the next use. |
+
+### B.5.MPC:9 - Consequences
+
+The practitioner can assemble a useful answer from contributions obtained at different times and from different people, AI systems or established sources. The resulting explanation identifies how the answer concerns the physical situation and which premise or operation would change it. That makes a partial result useful: a bound can settle a decision, an odd cycle can locate a design obstruction, and an unresolved command meaning can direct one precise request.
+
+The method also changes what work is commissioned. Instead of asking for another undifferentiated simulation or report, a team can ask for the missing physical relation, retained state, constructive algorithm, measurement or realization. An already adequate contribution remains available when an unrelated part changes.
+
+This connection work has a cost. Recovering an unfamiliar source, learning notation or obtaining a physical premise can take more effort than calculating the displayed answer. Spend that effort where it changes the receiving use. The method provides no automatic completeness claim for physics, mathematics or computing; it makes the needed subject contribution and its remaining boundary visible.
+
+### B.5.MPC:10 - Architectural Rationale
+
+#### B.5.MPC:10.1 - Why the connection is a Method in its own right
+
+The receiving physical question joins several operations whose local success has different meanings. Derivation establishes what follows within a mathematical account. A physical explanation supports the choice of that account for a phenomenon. A procedure obtains a represented result; its realization connects that procedure to available system behavior. Coordinating these operations requires preserving their result dependencies while selecting a useful next contribution.
+
+The robot makes the need concrete. Circumference, transmission ratio, integer rounding and signed-command semantics are separately intelligible. The useful command exists only when they refer to compatible motion and counts. A.3.3 can help recover state, C.29 can construct and transfer the mathematical consequence, and C.16 can interpret an observation. Their contributions enter the joint question through the dependencies explained in :4; none by itself chooses all the other subject content.
+
+B.5 provides the general inquiry method: recover the question, perform the missing contribution, make its result understandable, and settle or revise the inquiry. This specialization adds the recurring connections among physical account, mathematical interpretation, computational formulation and executing arrangement. The relation is specialization of inquiry coordination and composition with the constituent Methods. A mathematical Method does not become the parent of a physical modeling Method merely because its result is used there.
+
+An alternative is to use a fixed forward sequence. That is convenient when every input is new and later stages expose no earlier gap. It becomes wasteful when a ready theorem supplies the answer, and inadequate when command semantics require an earlier state distinction. The dependency method retains a forward traversal but also supports backward recovery, direct entry and returns after changed conditions.
+
+Another alternative is to let each specialist check only their own output. That can be sufficient when all receiving correspondences are already established. Where they are unresolved, a correct local output can remain unusable by the next contributor. Give the connection itself an explicit receiving question and a capable contributor.
+
+#### B.5.MPC:10.2 - What the sources contribute to the synthesis
+
+Rodin's *Axiomatic Architecture of Scientific Theories* develops a constructive account of axiomatization in which object-forming activity matters alongside propositions. That supports asking how the needed object is obtained and which operations its theory permits. In :4.3–4.4, this becomes recovery of an actual construction. Physical interpretation still requires its subject account; the mathematical construction does not establish that a proposed physical interaction occurs. See [Rodin, 2020, §§4.2.2–4.2.3](https://philsci-archive.pitt.edu/17600/1/bde.pdf).
+
+Fong and Spivak make preservation under composition explicit: a functor preserves identities and composition between categories. The use here is the comparison of corresponding operations, supplied by C.29.1. It explains why relabelling objects alone cannot establish a transfer. A physical approximation may instead need a bound or another qualified relation; the coordinating Method does not require every connection to be a functor. See [*Seven Sketches in Compositionality*, §3.3.2](https://arxiv.org/pdf/1803.05316).
+
+Horsman, Stepney, Wagner and Kendon distinguish the representation of a physical system from the preparation and interpretation needed to use a physical process for computation. Their account supports :4.5's two routes and the distinction between refining an abstract description and realizing it. It also permits input preparation and result reading to differ. The present Method adapts that comparison to a receiving physical question and to useful bounds, rather than adopting their account as a universal definition of all computation. See [*When Does a Physical System Compute?*, 2014, §§VI–VIII](https://arxiv.org/abs/1309.7979).
+
+Turing's 1936 construction of a universal computing machine provides a historical demonstration that an executor can interpret an encoded description of another machine's procedure. That helps distinguish the rule description, its interpreter and the realized operation. The finite interpreter in C.29.2:5.1 provides a small entry to that distinction. Use C.29.2 for the computation-specific cost account when a resource limit matters; :4.4 carries that cost and the computation's meaning into the joint use. See [Turing, *On Computable Numbers*, §6](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf).
+
+These contributions answer different construction questions. The synthesis is to hold their input and result meanings together for a physical use, inspect their joint and alternative dependencies, and let a failed connection determine the next contribution. It preserves mathematical, empirical and realization grounds at the points where they are needed.
+
+#### B.5.MPC:10.3 - Why notation and understanding remain part of the work
+
+An expression can help a practitioner perform a construction. Macbeth's account of paper-and-pencil reasoning explains how a diagram or inscription can participate in the reasoning, including by allowing the same content to be analysed in more than one way. Dutilh Novaes examines formal languages as cognitive tools whose use depends on learned abilities to read and manipulate signs. These accounts support the operative expression step in :4.3. They do not establish that a notation improves every task or that a human learning effect transfers unchanged to AI. See [Macbeth, 2011](https://doi.org/10.1093/philmat/nkr006) and [Dutilh Novaes, 2012, §§3.2, 5.2 and 6.1](https://doi.org/10.1017/CBO9781139108010).
+
+For this Method, the practical consequence is precise. Naming the same count N in several expressions is useful only while its participant and operation remain recoverable. A gear graph helps reason about closed contact paths because its edge meaning and traversal rules are available. The four card states distinguish occupancy from reservation throughout entry and exit, where an undifferentiated “not free” count gives only a bound. These are changes to what the expression helps someone do, not merely choices of appearance.
+
+A second alternative is to make one formal language carry the whole inquiry. This can help when a mature language expresses the required physical, mathematical and execution distinctions and its users can work with it. If it cannot express a necessary distinction, use another representation or develop the language. Retaining interpretable correspondences allows several forms to contribute without assuming that one form already covers the whole problem.
+
+Levenchuk's [2012 robotics account](https://ailev.livejournal.com/1034484.html) describes difficulty combining familiar speed calculations, several distance quantities, program expressions and physical timing. It motivates changing the question while retaining the interpreted relations in :4.3, and examining the timing of observation and execution in :4.5. The account is a historical report of a particular learning situation. The resulting Method here is a conceptual synthesis.
+
+AI can reduce the cost of obtaining a calculation, candidate proof or explanation while leaving the choice and interpretation of the receiving question open. Klowden and Tao discuss the difference between a formally checked statement, its intended meaning and the understanding that enables further use. Section :4.8 turns that distinction into a contribution question: who can recover the decisive connection and adapt it when the premise changes? This is a capability to arrange, not an assertion that every participant must reproduce every proof. See [*Mathematical Methods and Human Thought in the Age of AI*, 2026, §4](https://arxiv.org/html/2603.26524v1).
+
+#### B.5.MPC:10.4 - Why a sufficient answer can also open a better question
+
+Deutsch's discussion of foundational theories treats their connections as sources of criticism across areas, rather than relying on a theory's foundational status to settle another question. This motivates examining how a claim about computation constrains a physical proposal and how physical knowledge constrains an executing arrangement. The specific correspondences still require their arguments. See [Deutsch's interview on *The Beginning of Infinity*](https://beginningofinfinity.org/interview/).
+
+The same connection work can generate a worthwhile next problem. The robot account raises which observations distinguish rolling from slip. The gear witness raises which physically available contact change removes the obstruction. The card bound raises whether redistribution can reduce waiting while preserving the shared stock. Each continuation identifies an additional possible action and a construction or uncertainty that matters to it.
+
+A sufficient answer remains a legitimate stopping point when the current use is complete. When inquiry development is selected, retain the useful connection and work a consequential change to the question or apparatus. A general invitation to keep exploring supplies less direction than the particular obstruction or newly available operation.
+
+### B.5.MPC:11 - SoTA-Echoing
+
+For the declared coordination question, the selected answer is the explicit combination of physical interpretation, operation-preserving mathematical use, computational formulation and realization comparison. The sources below supply particular advances and alternatives. The combined Method and the three constructed cases are conceptual synthesis; they do not establish a measured advantage for every discipline, reader or team.
+
+| Practice question | Selected line, comparison and change to this Method | Limits and condition for reconsidering the choice |
+| --- | --- | --- |
+| How should a discrepancy between a physical prediction and an indication be investigated? | Dounas-Frazer and Lewandowski's 2018 account of experimental modeling distinguishes the model of the physical system from the model of the measuring system and distinguishes changing either model from changing either apparatus. **Adopt** these separate contributions in :4.2 and the return in :4.6. Compared with fitting one model directly to raw readings, this exposes whether the observation relation itself needs repair. [Source, §2](https://arxiv.org/pdf/1805.10334). | The source develops a framework for experimental-physics modeling; it supplies neither every physical law nor the whole joint Method. Reconsider the selected return when another diagnosis better distinguishes the live causes or when the current physical question needs no measurement. |
+| What makes a mathematical result usable after changing its representation or receiving operation? | Fong and Spivak's preservation-under-composition account supplies a precise comparison where category-theoretic structure is applicable. **Adapt** it through C.29.1 and :4.3 to the equality, bound or behavioral relation actually needed. Compared with transferring a result because formulas look alike, this exposes a failed operation or a lost distinction. [Source, §3.3.2](https://arxiv.org/pdf/1803.05316). | Mathematical preservation does not establish the physical account. Use a less elaborate direct argument when it supplies the same comparison; reconsider the chosen relation when the receiving operation or tolerated loss changes. |
+| What connects a valid computation to an available physical execution? | Horsman and colleagues explicitly compare abstract evolution with preparation, physical evolution and interpretation. **Adopt and adapt** this construction in :4.5. Abstract refinement and a successful software trace remain useful alternatives for their own questions, but leave input range, material exclusivity or physical result reading open when those are the unresolved connection. [Source, §§VI–VIII](https://arxiv.org/abs/1309.7979). | This is a specific account of physical computation, not a universal criterion established for every use. Reconsider the selected realization when its actual operations or observation rules change; reuse it directly when the receiving conditions remain supported. |
+| When should notation be changed during the reasoning? | The operative-notation accounts discussed in :10.3, together with Zhang and colleagues' *How Notations Evolve* (2026), support relating meaningful distinctions to the expressive and perceptible differences of a notation. **Adapt** that question in :4.3: construct an expression and try the operation it should support. Compared with assessing the appeal of isolated symbols, this can expose an omitted count meaning or an unusable compound expression. [Contemporary study](https://glassmanlab.seas.harvard.edu/papers/notationsCHI26.pdf). | The historical analysis supports notation-design questions; it does not demonstrate that these particular expressions improve human or AI performance. Reconsider the scheme when the intended operation cannot be performed or a meaningful difference cannot be recovered at acceptable effort. |
+| What understanding is still needed when proof and calculation can be obtained from AI? | Klowden and Tao's 2026 discussion separates proof production and formal verification from interpretation and the understanding used to extend an argument. **Adapt** that distinction in :4.8: obtain the needed contribution and retain capability to recover its receiving connection. Compared with accepting a polished answer or requiring every receiver to reproduce its full derivation, this targets the understanding the next work actually consumes. [Source, §4](https://arxiv.org/html/2603.26524v1). | The source combines observations, arguments and forecasts; it establishes no universal allocation of human and AI work. Reconsider the allocation when support, capabilities, required adaptation or consequences change. |
+
+The source-supported distinctions remain useful even when their historical origin is older than a current tool. Their selection here depends on the defects and constructive differences in these comparisons. Further disciplinary development can supply better constructions, representations or realization Methods without replacing the need to interpret their joint result.
+
+### B.5.MPC:12 - Relations
+
+| Relation | Concrete contribution |
+| --- | --- |
+| **Specializes B.5 — Canonical Reasoning Cycle** | Retains question formation, selection of a missing contribution, result understanding and sufficient-result closure; adds the joint physical, mathematical and computational connections and their dependencies. |
+| **Uses B.5.4 — Recognize a Reusable Concept in a Concrete Situation** | Supplies recognition of an explained concept's participants and relations when the physical situation has not yet been interpreted through it. |
+| **Uses C.29 — Mathematical Lens Use** | Constructs the mathematical account and returns its consequence to the working question. |
+| **Uses C.29.1 — Mathematical Result Transfer** | Constructs the correspondence and tests the operations and distinctions needed to carry a result between mathematical accounts. |
+| **Uses C.29.2 — Computational Formulation** | Constructs the computational state, operations and obtaining procedure, with the result argument and resource account that its use needs. |
+| **Uses C.29.3 — Computational Realization** | Compares input preparation, system operation and readout with the required result, and returns a failed connection to its repair. |
+| **Uses A.3.3 — U.Dynamics** | Supports the construction of configurations, retained state and allowed continuations when the receiving prediction or operation requires them. It uses the supplied subject laws and interaction rules. |
+| **Uses C.16 — Measurement and Metrics Characterization** | Constructs and interprets the measurement relation connecting the sought quantity, apparatus influences and indication. This contribution is needed when the joint consequence consumes an observation. |
+| **Uses A.6.3.RT — Representation-Scheme Transition** | Constructs an operative expression under an available scheme and compares its content and use with the source. The applicable subject Method supplies any new conclusion obtained with that expression. |
+| **Uses A.6.1 for realization semantics** | Keeps a declared operation, its realization relation and the performance of a Method distinguishable when those claims matter to the executing arrangement. |
+| **Uses A.15.9 for a needed contribution from another practice** | Helps obtain the specific result, explanation or formulation that the next operation needs, with its receiving use made explicit. |
+| **Coordinates with C.39 and C.40** | Searches for a missing way and develops the problem or Method repertoire when the existing connections expose a worthwhile construction question. |
+| **Uses C.11.DUA for a decision about further effort** | Compares whether additional calculation, observation, explanation or checking can change the receiving action enough to justify its cost. |
+| **Uses B.3 and B.3.3 for stronger assurance questions** | Qualifies evidence and assurance for the particular claim and use when a conditional consequence or ordinary construction no longer suffices. |
+
+### B.5.MPC:End
 
 ## B.5.1 - Explore → Shape → Evidence → Operate
 
@@ -48897,29 +49500,29 @@ Model-based engineering likewise separates a readable structural model from the 
 > **Status:** Stable
 > **Type:** Pattern
 
-**Use this pattern when.** Use C.16 when a value, sensor indication, score, rating, dashboard reading, or comparison is being treated as a measurement without a recoverable measurand, Characteristic, Scale, method, model, calibration basis, dated work, attributed value, uncertainty, time stance, or comparability basis.
+**Use this pattern when.** Use C.16 to make a reading interpretable or to construct the model needed for a proposed measurement. Start with what is being measured and how the procedure relates it to an indication.
 
 **What goes wrong if missed.** Raw output, indication, actual subject state, measurement result, diagnosis, and criterion verdict collapse into one number; model and calibration assumptions disappear; uncertainty is laundered away; and a dashboard or evidence link is mistaken for work, result, assurance, or decision authority.
 
-**What this buys.** One executable measurement account: exact measurand or subject, Characteristic and Scale, Unit and polarity when current, method, model, calibration, input and output quantities, uncertainty propagation, dated work with actual bindings, one measurement result, one C.2.1 result episteme, and bounded provenance and later use.
+**What this buys.** A measurement model that connects indications to what is being measured, or a stated ambiguity that changes what to do next. For a performed measurement, the resulting account identifies the attributed values, uncertainty, conditions and work needed to interpret them.
 
 ### C.16:1 - Intent (Normative)
 
 **Name.** *Measurement & Metrics Characterization (MM‑CHR).*
 
-**Use this when.** Use C.16 when a reading, score, rating, sensor indication, dashboard value, or claimed comparison must be made interpretable as a measurement. The working question is: what exact subject or measurand was measured, for which Characteristic and Scale, by which method and model, under which calibration and time stance, with what attributed value and uncertainty?
+**Use this when.** A reading needs interpretation, or a proposed measurement needs a model. Ask what quantity or Characteristic is sought, how the procedure produces an indication, and what can be inferred from it under the measurement conditions.
 
-**What changes in practice.** Instead of carrying a number and a source link, the practitioner recovers a complete measurement chain: reusable specification, exact measurand, method, model, calibration basis, input and output quantities, dated measurement work, direct bindings, measurement result, one result episteme, and provenance. A reader can then tell what the reading supports and what still requires a diagnostic, criterion, assurance, causal, acceptance, or decision pattern.
+**What changes in practice.** The practitioner constructs or recovers the relation that makes a reading informative about the subject. This can reveal an influence to include, an ambiguity to preserve, or an arrangement to change. When reporting a performed measurement, connect the attributed values and their uncertainty to the method, model, calibration and work that obtained them. A later diagnosis or decision uses that interpreted result.
 
 **Not this pattern when.** Use A.17 for the Characteristic, A.18 for scale-operation legality, C.16.P while measurement wording is still ambiguous, A.19.CPM for comparison, A.19.SelectorMechanism for selection, C.28 for causal use, A.10/G.6 for provenance, B.3 for assurance, G.4 for an acceptance declaration, G.11 for currentness, and C.11 for a decision result. C.16 supplies none of those results by implication.
 
 **Local designators.** `MeasurementSpecification`, `MeasurementMethod`, `MeasurementModel`, `MeasurementWork`, `MeasurementResult`, and `MeasurementResultEpisteme` name exact objects in one case; they are not new public U-kinds or universal relation types. `MeasurementMethod` is one exact `U.Method`; `MeasurementWork` is one dated `U.Work`; `MeasurementResultEpisteme` is one C.2.1 episteme.
 
-**Compatibility with the retained measurement family.** `U.DHCMethod` remains the durable measurement-definition value that fixes the Characteristic, Scale, unit and polarity and cites the exact method and model. `U.Measure` remains the durable reading claim: when persisted, it is the C.2.1 result episteme that states the C.16 measurement result. `U.Unit` carries quantity-kind and conversion semantics when the Scale requires them. `U.EvidenceStub` is only a compact locator into A.10/G.6 provenance; it is not the measurement result, an evidence carrier, a work record, or a relation that establishes measurement.
+**Compatibility with the retained measurement family.** `U.DHCMethod` remains the durable measurement-definition value that fixes the Characteristic, Scale and applicable unit and cites the method and model. A preference rule belongs to the evaluation that uses the result, when one is being made. `U.Measure` remains the durable reading claim: when persisted, it is the C.2.1 result episteme that states the C.16 measurement result. `U.Unit` carries quantity-kind and conversion semantics when the Scale requires them. `U.EvidenceStub` is only a compact locator into A.10/G.6 provenance; it is not the measurement result, an evidence carrier, a work record, or a relation that establishes measurement.
 
 ### C.16:2 - Scope and result boundary (Normative)
 
-C.16 governs the measurement-specific result algebra:
+C.16 covers construction and use of measurement models. For a performed measurement, it keeps the following parts of the result account recoverable:
 
 - one measurand or otherwise exact measurement subject;
 - one Characteristic and one Scale, with Level or Coordinate and Unit when applicable;
@@ -48944,13 +49547,15 @@ The failure becomes visible when two readings are compared, when a detector outp
 - **Repeatability vs occurrence identity.** A reusable method and operation declaration do not establish that measurement work occurred or that actual participants were bound.
 - **Result vs later interpretation.** A value attributed to a measurand is not by itself a diagnosis, conformance verdict, causal conclusion, assurance claim, or decision.
 
-### C.16:5 - Solution — recover one complete measurement chain (Normative)
+### C.16:5 - Solution - Construct and interpret a measurement (Normative)
 
-Start with one ordinary direct sentence:
+To develop a measurement model, begin with §§5.1-5.4. A proposed relation can supply a conditional calculation or expose an ambiguity before any measurement is performed. An existing model that answers the question can be used directly.
+
+When interpreting a performed measurement, recover one ordinary direct sentence:
 
 > Dated measurement work `W` applied method `M` to measurand `x`, using model `f`, calibration basis `K`, and actual input bindings `X`, and obtained output quantity value `y` with stated uncertainty `u`; episteme `E` states that measurement result under its declared Characteristic, Scale, unit, time stance, and interpretation basis.
 
-If any noun in that sentence cannot be grounded, return that exact gap rather than filling it with a generic result or evidence relation.
+If a fact needed for that interpretation is unavailable, state which conclusion remains undetermined and what information could resolve it.
 
 #### C.16:5.1 - Name the measurand and measurement subject
 
@@ -48960,13 +49565,13 @@ If any noun in that sentence cannot be grounded, return that exact gap rather th
 
 **M‑SUB‑3.** Distinguish the measurand from the actual subject state. A measurement result attributes values under a method and model; it does not make the physical, social, architectural, or epistemic state identical to the result episteme.
 
-#### C.16:5.2 - Fix Characteristic, Scale, unit, polarity, and time stance
+#### C.16:5.2 - Fix Characteristic, Scale, unit and time stance
 
 **M‑CSLC‑1.** One `U.DHCMethod` binds exactly one Characteristic to exactly one Scale. A discrete reading names its Level; another reading names its Coordinate or value on that Scale.
 
 **M‑CSLC‑2.** When units apply, name the quantity kind and presentation Unit. Conversions are admissible only when they preserve the quantity kind and the Scale supports the operation. Nominal and ordinal labels do not acquire interval or ratio arithmetic by being encoded as numbers.
 
-**M‑CSLC‑3.** An ordered Scale declares polarity: higher-is-better, lower-is-better, or target-is-best. Polarity guides later interpretation; it is not an acceptance criterion or decision rule.
+**M‑CSLC‑3.** Use the Scale's order to interpret the Characteristic: a higher temperature value means hotter. When a later evaluation asks which value is preferable, state its preference under A.17/A.18. A measurement or magnitude comparison needs no preferred direction.
 
 **M‑CSLC‑4.** State the time stance: instantaneous or as-observed at `T`, aggregated over window `W`, or another exact temporal basis. A later value does not silently replace an earlier result.
 
@@ -48974,11 +49579,21 @@ If any noun in that sentence cannot be grounded, return that exact gap rather th
 
 **M‑METH‑1.** `MeasurementMethod` is one exact `U.Method`. Its `U.MethodDescription` may state generic participants, parameters, effects, and measurement conditions; it contains no actual-participant slots and does not claim that measurement occurred.
 
-**M‑MODEL‑1.** `MeasurementModel` states how input quantities and influence quantities determine or constrain the output quantity. It names the model edition, assumptions, corrections, and domain of validity. A formula, software function, or signature is only a representation or declaration of that model until its exact governed object is recovered.
+**M‑MODEL‑1.** `MeasurementModel` relates input values and relevant influences to the values attributed to the measurand. In quantity measurement, these are input, influence and output quantities. Identify the model version, assumptions, corrections and domain of validity. Recover what its formula, software function or other expression represents. Section :5.3.1 supplies the construction when that relation is missing or unsuitable.
 
 **M‑CAL‑1.** Name the calibration basis required for the use: reference standard or comparison basis, dated calibration work and result when current, calibration coefficients or corrections, applicable interval, and uncertainty contribution. A calibration certificate or ledger row cites these facts; it does not establish them by being stored.
 
 **M‑WORK‑1.** `MeasurementWork` is one exact dated `U.Work`. First recover every actual performer's A.13 core for the measurement action, including the same obtaining assignment; then independently admit the Work under A.15.1 from its performance history, at least one obtaining `enactsMethod` relation, temporal extent, and at least one obtaining locally declared containing-system relation. Add F.6 afterward only when the measurement claim also needs precise assignment-bound attribution. Name the exact measurand through its direct subject relation or an A.6.1 operation-application binding. Name another enacted Method, resource, or concrete participant only when the measurement claim uses its independently obtaining relation or binding. A plan, compatible signature, method description, instrument type, or retained reference establishes none of those actual facts.
+
+##### C.16:5.3.1 - Construct the measurement relation
+
+1. **Start with what is being measured and why.** Specify the subject, Characteristic, conditions and required range of interpretation under §§5.1-5.2. Separate what is already known from values the proposed measurement must resolve.
+2. **Follow how the indication is produced.** Describe the procedure connecting the subject to the indication. Recover the measurement principle, applicable calibration relation, or combination of both that connects the quantities. Include intermediate conversions when they change the answer. Physical laws, assessment models and instrument-specific relations come from the relevant subject knowledge; B.5:4.2 helps recover their construction.
+3. **Include influential conditions.** Consider how the apparatus interacts with the subject, what it samples or averages, and its resolution and operating range. Include an influence when its omission could change the interpretation needed for this use. Explain a correction through the relation that gives its direction and magnitude. Retain an unknown influential quantity as unknown, using available bounds or distributions when justified.
+4. **Determine what the relation resolves.** With actual or proposed indications, derive the compatible sought values and their uncertainty under §5.4. If different sought values can produce the same indication, identify that ambiguity. Work a small case or limiting case to expose an omitted influence, inconsistent units or a failed inversion.
+5. **Choose the useful return.** Supply the interpreted value, interval or conditional result when it answers the question. Otherwise identify which change could resolve the remaining ambiguity: refine the relation, change the measurement arrangement, obtain an applicable calibration or narrow the conclusion. Choose further observation by the distinction it can resolve and the work it demands, using C.11.DUA when that choice needs deliberation.
+
+When an observed discrepancy matters, compare its plausible sources in the subject account, measurement relation and actual arrangement. Change the contribution that can alter the answer; sometimes removing an unwanted influence from the arrangement is more useful than modeling it in greater detail. A model-development result states the relation and what it would establish. A claim about a performed measurement also identifies the work and obtained result under §§5.3-5.5.
 
 #### C.16:5.4 - Recover input quantities, output quantity, and uncertainty
 
@@ -49073,6 +49688,24 @@ The carrier, dashboard, ledger, criterion clause, and evidence path may represen
 
 **Architecture coupling.** The measurand is the exact ordered module pair under a declared dependency census window, not either module alone. The Characteristic is Coupling on an ordinal Scale. The method description defines generic dependency classes; dated work binds the actual codebase edition and pair. The result episteme states the Level and basis. A later release decision may rely on it, but the dashboard tile and decision record do not establish the census work.
 
+#### C.16:8.3.1 - A voltmeter changes the voltage it reads
+
+The sought quantity is the open-circuit voltage E of a source. Model the source as an ideal voltage E in series with resistance R_s; the connected voltmeter has input resistance R_m. The meter closes the circuit. Ohm's law gives current I=E/(R_s+R_m), and the indication is V=I R_m. The measurement relation is therefore E=V(1+R_s/R_m).
+
+For E=10 V and R_s=R_m=1 megohm, the indication is 5 V. The known resistance ratio recovers the open-circuit value as 10 V. The difference comes from the measurement interaction.
+
+If both E and R_s are unknown, one indication leaves several pairs compatible with it. For V=5 V, R_m=1 megohm and an available bound 0.8≤R_s≤1.2 megohm, the conditional voltage interval is 9≤E≤11 V. That interval may answer the question. When a narrower answer is needed, a second indication with a different known input resistance supplies another equation, provided the source stays unchanged and the circuit model still applies. Repeating the original arrangement supplies the same relation and leaves this ambiguity.
+
+These calculations use an ideal circuit. For an obtained measurement result, include uncertainty in the indications and resistances and any model inadequacy that affects the use.
+
+#### C.16:8.3.2 - Interpreting an assessment of independent performance
+
+The sought quantity p is the fraction of a population able to perform a specified action independently under stated conditions. An applicable assessment calibration supplies a, the probability of a positive test when the capability is present, and b, the probability when it is absent. Partitioning the population by that capability gives the expected positive fraction q=ap+b(1-p).
+
+With a=0.9 and b=0.1, the relation is q=0.1+0.8p. An observed positive fraction 0.7 gives the estimate p=0.75 under this model. Sampling uncertainty, uncertainty in the calibrated rates and their applicability determine how precisely that estimate can be used. When a=b, the expected positive fraction is independent of p, so this test supplies no such distinction.
+
+Now allow hints during the assessment. The earlier a and b may no longer describe the procedure. With the changed rates unknown, the positive fraction alone no longer determines p. If the independent-performance claim is still needed, return to that performance condition or obtain a calibration applicable to the changed procedure. The model explains which inference is available; it uses the subject's account of the capability and its assessment.
+
 ### C.16:9 - Bias-Annotation
 
 | Bias | Symptom | Correction |
@@ -49085,9 +49718,11 @@ The carrier, dashboard, ledger, criterion clause, and evidence path may represen
 
 ### C.16:10 - Conformance Checklist (Normative)
 
+For a proposed model, apply the subject, scale, model and applicable calibration checks. Apply work and result checks when asserting a performed measurement, and later-use checks when making that later claim.
+
 1. **Subject:** one exact measurand or measurement subject is named, with correct entity or relation arity.
-2. **CSLC:** Characteristic, Scale, Level or Coordinate, Unit when current, polarity, and time stance are explicit.
-3. **Method/model:** the exact `U.Method`, MethodDescription boundary, measurement model edition, inputs, output quantity, assumptions, and validity domain are recoverable.
+2. **CSLC:** Characteristic, Scale, Level or Coordinate, applicable Unit and time stance are interpretable. Add a preference rule only for a use that judges which values are preferable.
+3. **Method/model:** the method, model version, inputs, output quantity, assumptions and validity domain are recoverable. When the relation had to be constructed, §5.3.1 explains how the procedure produces the indication and what sought values it can distinguish. Keep a proposed model separate from a claim of performed measurement.
 4. **Calibration:** applicable calibration work/result, reference basis, coefficients or corrections, validity interval, and uncertainty contribution are cited when required.
 5. **Work:** every actual performer has the A.13 core; the dated `U.Work` is independently admitted under A.15.1; F.6 is added afterward only when precise assignment-bound attribution is current. The exact measurand relation or A.6.1 binding is present; further enacted Methods, resources, or participant bindings are present only when the measurement claim uses them.
 6. **Result:** one C.16 measurement result attributes value or values to the measurand with uncertainty and relevant information; one C.2.1 episteme states it.
@@ -49130,7 +49765,11 @@ Recheck the affected source-use decision before relying on it after 2027-07-30 o
 | [QUDT Schema 3.4.0, June 2026 catalogue](https://www.qudt.org/catalog/qudt-catalog.html) — **Bridge-only** for citable quantity-kind, unit, dimension, and datatype identifiers. | A C.16 record may cite a QUDT identifier after the F-pattern Bridge establishes the correspondence; `M-CSLC-2` still governs admissible C.16 use. | A shared URI does not prove same measurand, Scale, model, calibration regime, or direct comparability. | Reopen only the cited Bridge mapping, `M-CSLC-2`, and checklist items 2 and 8 when the mapped QUDT graph or identifier changes. |
 | [W3C/OGC SOSA/SSN Recommendation 19 October 2017](https://www.w3.org/TR/vocab-ssn/) — **Bridge-only** for sensor, observation, procedure, feature-of-interest, and observed-property terms. The [2023 Edition First Public Working Draft of 16 September 2025](https://www.w3.org/TR/vocab-ssn-2023/) is watch-only until it reaches a governing publication status. | A Bridge may align an external observation/procedure record with C.16's measurand, method, work, indication, and result boundaries; it never replaces `M-WORK-1` or `M-RES-1/2`. | An SOSA/SSN observation graph does not by itself establish FPF work identity, actual bindings, measurement result, result episteme, or later use. | Reopen only the affected SOSA/SSN Bridge, `M-WORK-1`, the external-record case that uses it, and checklist items 5–7 when the Recommendation changes or the 2023 Edition advances with a conflicting normative separation. |
 
-Lineage and domain examples not listed here are informative comparators, not decision-governing sources. A source refresh is local: replay the row's named rule, case, and checklist items, then widen only if that replay reveals a contradiction elsewhere.
+**Constructing and revising the model.** GUM-6:2020, §§7, 9-10 and 12, supplies the distinction between the measurement principle, effects of implementation and adequacy for use. Section :5.3.1 turns that distinction into a construction and an ambiguity test. The circuit and assessment cases work this instruction using their stated subject models.
+
+[Dounas-Frazer and Lewandowski (2018), §2](https://arxiv.org/pdf/1805.10334), distinguishes models of the phenomenon and measurement equipment and allows revision of either model or either physical arrangement. C.16 adopts those different returns. Its stopping question is the intended use of the measurement: a sufficient interval can end the work, while a consequential discrepancy can require further investigation. B.5 and C.11.DUA supply the wider inquiry and choice.
+
+Other lineage and domain examples are informative comparators. A source change reopens the contribution that relies on it; extend that comparison when a changed premise also affects another use.
 
 ### C.16:15 - Relations - Placement *(Informative)*
 **Architecture measurement boundary.** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.16 readings only after the characteristic, bearer, scale, coordinate, value, unit when relevant, and admissible use are declared. C.16 readings do not become architecture characteristics, decision criteria, eval programs, evidence, gates, or decision authority by themselves.
@@ -49161,7 +49800,7 @@ Use C.16 first when the live object is a sensor reading, survey response, dashbo
 
 Recover the ordinary measurement chain first:
 
-1. name the exact measurand or subject, Characteristic, Scale, value or Level, Unit, polarity, and time stance;
+1. name the measurand or subject, Characteristic, Scale, value or Level, applicable Unit and time stance; identify preference only when the use evaluates the result;
 2. separate reusable method and model from dated work and actual bindings;
 3. name input quantities, output quantity, calibration basis, uncertainty propagation, and one measurement-result episteme;
 4. distinguish emitted output, indication, actual subject state, measurement result, result episteme, diagnosis, criterion verdict, and decision; and
@@ -55011,7 +55650,7 @@ If a viewpoint matters, record one `U.ViewpointRef` that resolves to the `U.View
 
 When evaluation Work is claimed, recover the actual performer System through A.13 and let A.15.1 independently admit the dated Work with its enacted Method. Cite the same obtaining A.13 assignment occurrence, its declared species, and F.6 only when the receiving use consumes precise assignment-bound attribution. Name a non-performing participant by its evaluation relation and position. Keep these neighboring values separate from the QL-use fields.
 
-This pattern is not a physics claim. In FPF, `quantum-like` names a detached mathematical and representational lens, comparable in use to probability, calculus, optimization, or state-space modeling. It is cheap as a QL-lite note and expensive only when the claim becomes reusable law, assurance evidence, empirical superiority, formal reconstruction, or ontology.
+This pattern is not a physics claim. In FPF, `quantum-like` names a detached mathematical and representational lens, comparable in use to probability, calculus, optimization, or state-space modeling. A QL-lite note can supply a small recognition or conditional comparison. Choose additional mathematical or empirical support from what the receiving use needs the claim to establish, following :12b.
 
 Unifying principle: use QL to make the first correct move cheaper.
 
@@ -55089,7 +55728,7 @@ The team may approve a release from a dashboard whose publication and operationa
 | Force | Tension |
 | --- | --- |
 | Ordinary FPF patterns first | `C.11`, `A.6`, `F.9`, `A.15`, `C.25`, `C.16`, `A.10`, `B.3`, `C.18`, `C.19`, and `A.19` already govern the corresponding ordinary questions. QL wording must add only the remaining state, probe, or export cue. |
-| Lightweight use vs claims requiring additional evidence | A local diagnostic note should be cheap; reusable guidance, assurance, physical claims, or superiority claims need heavier evidence and explicit neighboring-pattern selection. |
+| Lightweight use vs claims requiring additional evidence | A recognition or conditional comparison can remain small. A prediction, model-adoption or comparative-performance claim may need support that the earlier use did not require; reuse adequate existing support. |
 | Useful math vs misleading vocabulary | Quantum-like formalisms help with order, contextual probability, incompatible probes, instruments, and open information systems; popular quantum words easily overclaim. |
 | Representation cost vs representation loss | A cheaper state representation may be the right engineering move, but only if the source, shortcut, loss, admissible use, and reopen condition stay visible. |
 | Recognition vs assurance | Working readers need fast entry; the assurance section needs enough typed fields to prevent the lens from taking over neighboring pattern work, impossible-copy overread, and hidden ontology. |
@@ -55106,7 +55745,7 @@ Application sequence:
 4. Apply the ordinary subject patterns and retain C.26 only if one named contextual-model obstruction survives and changes the admissible inference or action.
 5. Fill the QL-lite card if that cue survives; otherwise return to the ordinary subject pattern without QL wording.
 6. Emit one practical result: use the ordinary pattern only, add a QL-lite note, select one C.26 child pattern as the applicable pattern body, add evidence and assurance, or drop the QL wording.
-7. Escalate only when the claim becomes reusable, assurance-bearing, formal, empirical-superiority-bearing, or ontology-bearing.
+7. Identify what the result will be used to establish. Add the applicable account when prediction, model adoption, comparative performance, assurance or another relied-on conclusion needs it. A reusable conditional explanation within the same assumptions can remain small; apply :12b and reuse adequate existing support.
 
 C.26 ordinary output: produce one of these, then stop or select the neighboring applicable pattern body:
 
@@ -55121,21 +55760,22 @@ Keep the entry cost proportional to the use. A QL situation does not begin with 
 | --- | --- | --- |
 | Recognition note | The reader only needs to see that an ordinary FPF pattern plus a QL cue may prevent a representational mistake. | Five-field QL-lite note, local stop, and next action. |
 | Decision-bearing record | The QL reading changes a boundary, bridge, work, measurement, viability, or representation decision. | Typed fields for carrier, window, rival, loss, minimal admissible output, admissible use, non-admissible use, and neighboring-pattern handoff. |
-| Assurance record | The claim becomes reusable law, audit and evidence support, release-facing support, empirical-superiority claim, formal reconstruction, or ontology-bearing claim. | Evidence graph, measurement relation or assurance relation, source-support relation, rival-model comparison, and explicit escalation outside QL-lite. |
+| Assurance account | A receiving question needs a justified prediction, model-adequacy, comparative-performance or other assurance conclusion that the current explanation does not support. | The mathematical argument, observations, measurement relation, comparison or assurance result needed for that claim. Reuse adequate existing contributions; select the remaining subject work. |
 
 Do not make the decision-bearing or assurance record the ordinary entry cost. The everyday pattern move is a small recognition note plus a bounded action.
 
-Affordability by working-reader situation:
+Choose detail by the receiving question:
 
-| Working-reader situation | Use |
+| Receiving question | Useful account |
 | --- | --- |
-| Practitioner or architect | Three-to-five-field recognition note plus decision diff. |
-| FPF pattern author | Full card, examples, neighboring-pattern selection, and local anti-cases. |
-| Checking reader | Pattern-application check plus false-positive and false-negative tests. |
-| Assurance or audit reader | Full evidence record with `B.3`, `A.10`, and `C.16` integration. |
-| Research or formalization reader | M3 or M4 formal model, rival models, and empirical or theoretical support. |
+| Recognize a possible probe, frame or export mistake | A short explanation of the cue and the action it changes. |
+| Derive or reuse a conditional consequence | The assumptions, construction and comparison needed to recover that consequence. |
+| Predict behavior or adopt a model for a consequential use | The model-adequacy account required by :12b for that use, using existing validation where adequate. |
+| Claim an advantage over an alternative | A comparable baseline, result quality, cost and mathematical or empirical support for the stated advantage. |
+| Establish a mathematical property | The definitions, assumptions, argument and limits needed for the mathematical claim. Empirical premises require their own support when the use consumes them. |
+| Answer an assurance question | The applicable `B.3` and `A.10` contributions, and `C.16` when a measurement relation is needed. |
 
-Do not require a practitioner or architect to produce a researcher-level record when the claim is only recognition or local-working support condition.
+Apply the same selection when writing, checking or reusing a pattern. The role of the reader does not determine the form or amount of support. Use `C.11.DUA` when deciding whether additional work can improve the receiving decision enough to justify its cost.
 
 Checking discipline:
 
@@ -55147,7 +55787,7 @@ Checking discipline:
 | "No quantum-like unless mathematically formalized." | Allow QL-lite when it prevents local false reading and no formal claim is made. |
 | "Everything with feedback is QL." | Apply `C.16`, `C.25`, or `A.15` first to ordinary feedback, control, and metric-gaming cases. |
 
-Cluster maxim: quantum-like wording does not raise assurance load by default. Assurance load rises only when the claim itself is reused, contested, evidence-bearing, release-facing, high-impact, comparative, formal, or ontology-bearing.
+Cluster maxim: retain the support adequate for the receiving question. Add assurance work when a consequential unresolved premise requires it; reuse, publication or a formal notation alone does not change what has to be established.
 
 Pattern-local-note dependency rule: when an existing FPF pattern cites `C.26` or a `C.26.*` child, the pattern's ordinary action guidance and conformance text remain primary. The citation means only: if a residual QL cue remains after the ordinary FPF pattern has carried its part, use this lens for that residue. It does not make every citing-pattern case depend on the full C.26 record or on every child-pattern semantic.
 
@@ -55198,10 +55838,10 @@ Grounding and viewpoint: no EpistemeEmpiricalGroundingRelation is yet establishe
 Mistake prevented: dashboard result would be read as passive release-readiness evidence.
 Probe effect: publication changed team behavior during W.
 Decision diff: do not use dashboard alone for release; add independent work traces.
-Stop: not a reusable QL model, not assurance evidence, not physical quantum claim.
+Stop: this note locates how dashboard publication changed the work being assessed. Resolve the resulting readiness question with the applicable work and measurement Methods.
 ```
 
-This is enough for `QLP-0` / `QLP-1` ordinary working use unless the claim is reused, externalized, contested, assurance-facing, comparative, formal, or ontology-bearing.
+This supplies the stated `QLP-0` / `QLP-1` recognition and working use. Reuse it within those assumptions. For another conclusion, identify the additional premise or comparison it needs and apply :12b; publication of the note alone requires no new assurance account.
 
 Use the `C.11` mini-output discipline across the cluster: finish with one choice result or governed follow-up.
 
@@ -55314,13 +55954,13 @@ Math reveal sequence:
 | --- | --- | --- |
 | M0 - no math | Everyday FPF use. | Plain-language QL-lite note: false passive read, output, admissible use, and stop. |
 | M1 - structural sketch | A reader needs to see why ordinary comparison or export fails. | Diagram or table: probes, frames, carriers, export loss, unsupported comparison. |
-| M2 - toy formalization | Pattern example, education, or contested architecture claim. | Small finite-state, matrix, or instrument-like toy model, explicitly non-authoritative. |
-| M3 - decision-bearing formal model | Reusable guidance or high-impact decision. | Declared assumptions, rival models, validation/evidence, and failure conditions. |
-| M4 - formal assurance / research claim | `QLP-3` assurance or reusable-law claim. | Full formal reconstruction, baseline, proof/data, source constraints, and limitations. |
+| M2 - small formal construction | Work a conditional consequence or examine a disputed step on a small model. | A finite-state, matrix or instrument-like construction, with the conclusion and assumptions it actually establishes. |
+| M3 - decision-bearing formal model | A decision relies on a model's adequacy beyond the small conditional construction. | The assumptions, alternatives and validation needed by that decision, with their failure conditions. |
+| M4 - formal assurance or research claim | The requested assurance or research conclusion requires a fuller formal account. | The reconstruction, proof or data comparison needed for the named claim, including its assumptions and limitations. |
 
 Most C.26 use should stay at M0 or M1.
 
-Evidence-use class is escalation by consequence, not an admission gate. `QLP-0` or `QLP-1` is the ordinary entry class for quick QL-lite use; `QLP-2` / `QLP-3` appears only when the claim is reused, contested, decision-bearing, assurance-facing, high-impact, or made part of reusable pattern action guidance or conformance text.
+Select the evidence-use class from the question the result must answer. `QLP-0` and `QLP-1` cover recognition and working support. `QLP-2` and `QLP-3` supply the additional comparison or assurance needed by a receiving decision. The classes identify useful contributions; they do not require collecting them again when an adequate account is available. Mathematical formality and evidence use are separate choices.
 
 Evidence-use class scales by use:
 
@@ -55329,7 +55969,7 @@ Evidence-use class scales by use:
 | `QLP-0` recognition | Example, teaching case, or local recognition prompt. | Claim, example, ordinary FPF pattern, QL cue, and local stop. |
 | `QLP-1` local working use | Local architecture discussion, triage, or provisional design reasoning. | `QLP-0` content plus evidence carrier, time window, uncertainty/confidence statement, and stop/reroute condition. |
 | `QLP-2` decision-bearing use | Boundary decision, bridge/export use, viability move, work claim, or representation shortcut changes what the team should do. | `QLP-1` content plus rival explanations, export/loss note when live, minimal admissible output, selected applicable pattern body, admissible use, and non-admissible use. |
-| `QLP-3` assurance or reusable guidance use | The claim is used for assurance, audit, durable pattern action guidance or conformance text, reusable relation, name, or measure, or high-stakes decision support. | `QLP-2` content plus `A.10` evidence paths and a `B.3` assurance result for the named QL target claim and receiving use, `C.16` template if measured, documented bridge and loss relation when relied on, source-support relation, and explicit local stop or inherited-boundary note. |
+| `QLP-3` assurance use | A named receiving question requires an assurance conclusion about the QL claim, its empirical adequacy or comparative advantage. | Retain the applicable `QLP-2` comparison and use the `A.10` and `B.3` support needed for that conclusion. Add a `C.16` measurement relation or a Bridge/loss account where the conclusion relies on it. Existing adequate support remains usable; state the limits that affect its use. |
 
 #### C.26:4.4 - Recognition case matrix
 
@@ -55447,7 +56087,7 @@ The pattern may under-admit some mathematically valid QL models when the author 
 | CC-C26.6 | The text inherits `QL-NQ` and does not repeat global physical-quantum exclusions as local guidance. |
 | CC-C26.7 | If a representation shortcut is used, the coarsening card names source, shortcut, loss, admissible use, non-admissible use, and reopen trigger. |
 | CC-C26.8 | A speed, compression, linearity, or tractability claim declaration names baseline representation and cost, changed representation, mechanism, claimed gain, loss budget or error budget, ordinary alternatives, evidence source or formal source, and reopen trigger. |
-| CC-C26.9 | If the claim becomes reusable, assurance-bearing, measurement-like, relation-minting, high-stakes, or superiority-claiming, the text escalates beyond QL-lite. |
+| CC-C26.9 | The support matches the receiving claim and reliance described in :12b. A prediction, model-adoption, assurance or comparative-performance conclusion receives its needed account; a conditional explanation reused under the same assumptions retains its sufficient account. |
 | CC-C26.10 | The text does not mint `U.Probe`, generic `U.State`, `U.DistributedState`, `U.Lens`, a new boundary kind, or a social-substance kind. |
 | CC-C26.11 | A cold reader can tell what changes in practice in the first minute. |
 | CC-C26.12 | Every quality ascription or model claim carried by C.26 names the exact bearer or C.2.1 claim-bearing episteme, effective `U.ReferenceScheme`, probe/model frame, comparison frame, `U.ClaimScope`, and the separately obtaining grounding relation or its explicit absence. |
@@ -55498,7 +56138,7 @@ Use these as quick applicability tests. A good C.26 use leaves one practical out
 | Summary compresses an architecture decision for executives. | `A.6.3.CSC` first; no QL unless a state-representation shortcut has QL residue. | Treating the summary as full architecture state. | Use for orientation only; return to source for release or design lock. |
 | Diagram translates the same system into graph form. | `A.6.3.RT` first; no QL unless incompatible representation, probe, or export cue remains. | Calling any diagram a QL state model. | Declare representation-scheme change, reasoning-medium change, and source tether. |
 | Low-bit model approximates expensive simulation. | Modeling, approximation, compression, or implementation pattern first; QL only if the shortcut claim depends on QL state, probe, or frame admissibility. | Treating low-bit or linear form as QL activation. | Name baseline, shortcut, loss budget or error budget, ordinary alternatives, and reopen trigger. |
-| Assurance load is raised only because the word "quantum-like" appears. | Keep QL-lite unless decision, release, audit, reusable-law, comparative, formal, or ontology-bearing claim exists. | Escalating because of vocabulary alone. | Keep recognition or local-working support condition, or retire QL if ordinary patterns now carry the residue. |
+| Assurance load is raised because a QL explanation is published, reused or written formally. | Identify the receiving conclusion and what support it needs under :12b. | Making a fuller record without resolving a consequential question. | Reuse the adequate account; add only the missing mathematical, empirical or assurance contribution needed for the new use. |
 | Author claims QL is faster or better than a classical method. | Require baseline, metric, mechanism, evidence or formal argument, loss/use declaration, ordinary alternatives, and reopen trigger. | Accepting superiority rhetoric. | Either write the claim declaration or remove the speed/superiority claim. |
 
 QL findings can also inform design options to test under the ordinary subject patterns:
@@ -58105,7 +58745,7 @@ These are bounded selections for the illustrated questions. They preserve cheap 
 
 **Primary EntityOfConcern.** The use of a mathematical representation to answer a stated working question, with an explicit correspondence to the phenomenon and limits on the resulting inference.
 
-**Use this when.** Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when an existing representation is being relied on beyond what its correspondence supports.
+**Use this when.** Use C.29 when choosing or transferring a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when an existing representation is being relied on beyond what its correspondence supports. The related Methods in C.29.1, C.29.2 and C.29.3 respectively construct a result transfer, a computation and its realization. Enter the Method whose contribution is missing; B.5.MPC connects these contributions to a physical question.
 
 **What goes wrong if missed.** The reader either misses a useful mathematical construction or carries a result into a situation where a needed assumption or distinction has been lost.
 
@@ -58171,9 +58811,27 @@ The practitioner therefore needs both construction and criticism: make the relev
 1. **State the working question.** Name the quantity, relation, distinction or possibility that would change the next action. Recover the intended use and the precision or range it needs.
 2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
-4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism.
-5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
+4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism. Use C.29.1 when preservation of an operation or identification of source cases needs to be established.
+5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. For a missing computational formulation or procedure, use C.29.2; for an unsettled connection to an executing system, use C.29.3. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
 6. **Choose the resulting action and its limit.** Use the result within its assumptions, collect a discriminating observation, compare a relevant rival, narrow the question or reject the representation. Test the material loss and changed premises. When another person or later use needs the account, retain the smallest sufficient record under :4.4.
+
+##### C.29:4.1.1 - Transfer the result through the operations
+
+A source operation or result is available, and you need to use it through another representation. Use **C.29.1 - Mathematical Result Transfer** to recover the operation and its permissions, compare performing then mapping with mapping then performing, and test whether choosing another represented source case changes the answer.
+
+Its Solution constructs a transferable consequence, a justified bound or a specific repair of the correspondence. It also separates a receiving operation that gives a useful relaxation from one whose result can be realized as a source action. The reservation and route-cost entries in :7.1–:7.2 lead to its worked constructions.
+
+##### C.29:4.1.2 - Construct a computation for the question
+
+The needed answer is identified, but the available representation and operations do not yet explain how to obtain it. Use **C.29.2 - Computational Formulation** to select the distinctions retained in computational state, construct a procedure or solver formulation, establish the claimed result and estimate the cost that matters to its use.
+
+Its Solution starts from either a question or available computational means. Worked cases develop an interpreter, a bounded root calculation, a memory-limited quantum-state representation, two questions about the same circuit, and a probability estimate. The result is a usable computation under stated conditions or the missing construction that prevents it.
+
+##### C.29:4.1.3 - Realize the computation and read its result
+
+A computation is available, but how a concrete system performs it is unsettled. Use **C.29.3 - Computational Realization** to connect input preparation, system actions and result interpretation, then compare the required result with the interpreted execution. For a design calculation, the comparison uses the supplied system model; a claim about an actual run uses its observations.
+
+The result is a conditional realization, an interpreted result or a located failure in preparation, operation or readout. Digital, analog, stochastic and manual arrangements can enter through the same question. Its robot, analog addition and admission-card cases show repairs of range, scale and shared-state conditions. B.5.MPC coordinates these results with the physical account, mathematical construction and receiving action.
 
 #### C.29:4.2 - Mathematical Lens Use Principle
 
@@ -58841,6 +59499,26 @@ Worked micro-cases by failure mode:
 
 A speculative learning-dynamics model can be tried as a candidate with a concrete mathematical object and a testable correspondence. The bounded source use is in :13.2.
 
+#### C.29:7.1 - Preserve a reservation operation
+
+A display that retains on-hand quantity n but omits reserved quantity r merges (n,r)=(1,0) and (1,1), although only the first permits another reservation. **C.29.1:5.1** constructs the available quantity `F(n,r)=n-r`, compares reservation before and after mapping, and establishes the shared permission condition. It returns a quantity that supports the reservation question while retaining separate totals when another question needs them.
+
+#### C.29:7.2 - A route summary changes the cost question
+
+Routes costing 1 and 4 can have the same endpoints without having the same cost. **C.29.1:5.2** shows why the cost of a chosen route cannot be assigned to their common endpoint summary, then constructs a different answer: the minimum over admissible routes. A shared continuation preserves that minimum; a continuation available only after the more expensive prefix defeats minimizing the first stage alone. The repair retains the continuation condition or compares compatible complete routes.
+
+#### C.29:7.3 - Make calculation rules available as data
+
+The same executor can perform different integer calculations when their instructions are supplied as data. **C.29.2:5.1** constructs its state and instruction rules, obtains 8 and 7 from two orders applied to input 3, and gives separate arguments for the result, termination and cost. Adding jumps, interaction or larger stored integers returns to the corresponding behavior or resource question.
+
+#### C.29:7.4 - A correct distance calculation meets a finite command range
+
+A calculated count of 63,662 motor increments cannot be sent as a positive signed 16-bit command. **C.29.3:5.1** derives the count from a stated motion model, shows the wrapped command's contrary motion, and tests splitting the count under relative and absolute command meanings. It returns a command procedure with its supported range and motion conditions; B.5.MPC:5.1 shows the joint physical, mathematical and computational reasoning.
+
+#### C.29:7.5 - Realize a capacity bound with a shared stock of cards
+
+Three unique admission cards can support a three-visitor bound when their possession and transfer rules control entry. **C.29.3:5.3** follows free, reserved, inside and awaiting-return states. The free-card count gives a sufficient occupancy bound during handover; an occupancy equality additionally needs the intermediate states. A second entrance must share or partition the same stock. The worked construction shows how copying the stock defeats the bound and how controlled transfers restore it.
+
 ### C.29:8 - Bias-Annotation
 
 | Bias risk | C.29 correction |
@@ -58862,10 +59540,12 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 |---|---|---|
 | `CC-C29-0 Use condition` | Use C.29 only when a mathematical object, formalism, family, learned representation, or simulation object is used for explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer, or when a stable problem needs a first candidate lens that could change the next lens-use action. | Keeps local analogies lightweight. |
 | `CC-C29-1 Mathematical move before record` | State the question, choose a concrete object, establish its correspondence and losses, and derive or delimit the consequence before selecting the sufficient record under :4.4. | Keeps recording subordinate to the mathematical work. |
+| `CC-C29-1a Computational construction` | When the mathematical result needs a computational construction, use C.29.2 to obtain the procedure, its interpretation, the argument supporting its claimed result and the relevant cost estimate. | Lets the reader construct or locate the missing computation. |
+| `CC-C29-1b Realization correspondence` | When the result depends on an unsettled execution correspondence, use C.29.3 to connect preparation, system operations and readout and establish the required result relation. | Lets the reader use or repair the proposed execution. |
 | `CC-C29-2 Named mathematical object` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
 | `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is being claimed, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
 | `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and the concrete correspondence. If bridge semantics are claimed, apply `F.9`. | Makes the correspondence and any needed semantic Bridge explicit. |
-| `CC-C29-4 Preserved structure` | State what structure the lens preserves. | Makes transfer testable. |
+| `CC-C29-4 Preserved structure` | State what structure the lens preserves. When the result uses a transferred operation, establish the needed preservation through C.29.1. When it uses a representative, establish that the choice leaves the required answer unchanged. | Makes the claimed preservation usable in the inference. |
 | `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the subject pattern. | Prevents map-territory collapse. |
 | `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
 | `CC-C29-6a First-principles family recovery` | When a first-principles lens-family row from `C.29:4.2b` is used for claim-bearing lens use, recover the concrete `CandidateMathObject` for the candidate family, preserved structure, lost structure, visible payoff, lens-use boundary value, and stop condition or neighboring-pattern application for that family. | Prevents family names such as boundary, cohomology, symmetry, variational, RG, diagonal, composition, probability, information, or structural-information compression from replacing actual MathLensUse recovery. |
@@ -58974,13 +59654,21 @@ When a mathematical equivalence, interpretation or homomorphism supports later f
 
 #### C.29:13.4 - Applied category theory
 
-Adopt applied category theory as one major organizer for cross-domain transfer, especially composition, interfaces, views, transformations, and bridges. Retain the concrete source examples: databases, electric circuits, and dynamical systems as application families; adjoint functors, enriched categories, and toposes as categorical structures that organize transfer.
+Adopt the operation-preservation discipline explained by [Fong and Spivak, §3.3.2](https://arxiv.org/pdf/1803.05316): a functor maps objects and arrows while preserving identities and composition. C.29.1 makes the corresponding comparison available before a result is reused, including operation permissions, representative independence and weaker bounds. The authors' §2.5.3 also shows how composition and choice compute route costs; C.29.1:5.2 uses an authored case to expose when an omitted continuation condition defeats that reduction.
 
-In `C.29`, category-theoretic material is used through the same local adequacy fields as any other lens: stated use, named structure, preserved composition or interface, lost structure, failed transfer, and neighboring-pattern applications. It is especially useful when composition, interfaces, views, transformations, or bridges matter to the bounded lens-use action.
+Applied category theory remains one organizer for composition, interfaces and transfer. The book's databases, electric circuits and dynamical systems provide source applications; adjoint functors, enriched categories and toposes provide further constructions to study when the question needs them. The trade-off is the work of defining the objects and operations and establishing their laws. When an ordinary domain calculation already provides the correspondence and consequence, use it directly. A failed comparison can instead identify the next required distinction or construction.
 
 #### C.29:13.5 - Obstructions to compositionality
 
 Adapt the obstructions and failures-of-compositionality perspective into `LostStructure` and `StopCondition`: a lens can be useful precisely because it exposes where transfer fails, not only where it succeeds. In plain language, a good lens does not only say "this transfer holds"; it also names the boundary where transfer stops.
+
+#### C.29:13.6 - Computation and its physical realization
+
+[Turing 1936, §6](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf) constructs a machine that interprets encoded machine descriptions. C.29.2 adopts the rules-as-data construction. Its finite interpreter obtains results from the listed instructions; Turing's broader universality result uses his machine-simulation construction.
+
+[Horsman, Stepney, Wagner and Kendon 2014, §§VI–VIII](https://arxiv.org/abs/1309.7979) connect abstract computation with physical preparation, evolution and interpretation. C.29.3 adopts this comparison and explains its current extensions to digital, analog and stochastic realizations. Its source discussion distinguishes the resulting computational claim, the system model and performed execution.
+
+These Methods and their worked constructions are conceptual synthesis. Algorithm design, numerical analysis, learning, coding and distributed computation supply further construction techniques, guarantees and cost analysis when the working question needs them.
 
 ### C.29:13a - References
 
@@ -59023,6 +59711,11 @@ The comparison above selects the first-use Method. The references below provide 
 
 
 ### C.29:15 - Relations
+- **Construction and argument recovery:** B.5 recovers the inputs, operations and dependencies needed to obtain or understand a result. C.29 tests which consequence can be carried through the proposed mathematical correspondence.
+
+- **Related Methods:** C.29.1 constructs mathematical result transfer; C.29.2 constructs a computation; C.29.3 connects computation to concrete execution. Each has its own working entry. They can be composed when one result supplies another's input; a computational question can also begin with an already adequate mathematical representation.
+- **Joint reasoning:** B.5.MPC connects the physical account, mathematical question, computation and realization, starting from whichever contribution is available and returning to the contribution whose conditions fail. A.3.3 supplies state and continuation semantics; A.6.1 supplies the realization relation; C.39 helps find or develop a missing operation.
+
 - **Extractable structural information:** `C.2.8` defines the characteristic and observer conditions consumed by a structural-information estimate. C.29 supplies the particular mathematical-lens correspondence and its limits.
 - **Architecture lens boundary:** `C.32.P2S`, `C.32.PAD`, and `C.32.ADA` may cite C.29 lens outputs for preserved structure, lost structure, structural information, epiplexity, scale mapping, residual mapping, or source-return.
 - **Structural-information adequacy boundary:** `C.33`, `C.34`, and `C.35` may cite C.29 outputs when mathematical-lens results expose captured structure, preserved structure, lost structure, or discovery adequacy.
@@ -59039,6 +59732,1147 @@ The conditional receiving questions and first contributions are collected in :4.
 [fpf-a6-3-rt-4-1-ref]: A.6.3.RT-Representation-Scheme-Transition.md#a63rt41---ordinary-representation-move
 
 ### C.29:End
+
+## C.29.1 - Mathematical Result Transfer
+
+> **Type:** Method pattern
+> **Status:** Draft
+> **Normativity:** Normative unless marked informative
+
+### C.29.1:1 - Problem frame
+
+**Use this when** you have two mathematical accounts of a working situation, or a proposed change of representation, and want to carry a result from one to the other. The difficulty is whether the correspondence preserves the operation, distinction or condition on which that result depends. A stock total is to support reservations; route summaries are to support cost calculations; new coordinates are to make a coupled calculation easier.
+
+Mathematical Lens Use, C.29, covers choosing a mathematical account and returning its consequence to a working question. Within that broader use, this pattern develops transfer of a mathematical result: construct the correspondence, compare the relevant operations, and obtain a consequence that survives the change. The work is to establish when a result obtained in one account can serve as an answer or premise in the other.
+
+**What changes in practice.** Instead of accepting a familiar formula because the symbols look similar, you identify what its inputs represent and show why the intended conclusion follows after the change. The first useful result can be an equality, a sufficient bound, or two allowed cases that the representation merges although they require different answers. That last result tells you what to retain or which question to weaken.
+
+For example, one item on hand can be unreserved or already reserved. Both situations have stock total one, but only one permits another reservation. The pair immediately exposes why total stock cannot by itself decide availability. You can then construct available stock as on-hand stock minus reserved stock and compare the reservation updates in the two accounts.
+
+**Ordinary non-use boundary.** Use a familiar result directly when the correspondence and its conditions are already established for the present use. A symbol rename or conversion under an established notation rule normally needs only A.6.3.RT. If the mathematical object or result is still missing, construct it in the relevant mathematical practice; C.29 helps choose the account and B.5 helps organize the missing reasoning. Transfer cannot provide an absent theorem by itself. If the mathematical relation is established but its physical interpretation or execution remains unresolved, use B.5.MPC to connect those contributions.
+
+Be able to identify what the source quantities mean and follow the operation being transferred, or obtain its explanation from a suitable mathematical contributor. The worked cases explain their elementary constructions.
+
+Enter here with an available proof, calculation, model, summary or proposed mapping. There is no preliminary requirement to repeat lens selection or fill a full lens card.
+
+### C.29.1:2 - Problem
+
+A useful change of representation alters which distinctions are visible and which operations are easy. That is also why it can alter an answer.
+
+Agreement on object names or on a few numerical examples does not establish agreement of operations. An update can change the source while leaving a proposed summary unchanged. A summary can combine histories that permit different next steps. A transformed equation can be correct on represented inputs but be applied to other inputs that have no source counterpart. Even an exact change of coordinates can be followed by a lossy projection that no longer answers the original question.
+
+To reuse the result, the practitioner constructs the correspondence, recovers the result's dependencies, and compares the operations in the direction of use. When exact transfer fails, the same work should reveal whether an added distinction, a smaller domain or a weaker conclusion is sufficient.
+
+The central question is: **what can be concluded in the receiving account, and returned to the working question, from the correspondence that has actually been established?**
+
+### C.29.1:3 - Forces
+
+| Force | Working tension |
+|---|---|
+| Easier calculation vs retained distinctions | A smaller representation may make calculation possible while removing the variable or history needed by the answer. |
+| Reuse vs reconstruction | Reusing a proof saves work, but only its applicable assumptions and preserved steps support the transferred conclusion. |
+| Forward consequence vs returned action | Every source action may have a receiving representation while some receiving actions have no source realization. |
+| Exactness vs useful approximation | Equality is convenient; a justified bound may answer the question with less retained information. |
+| Local comparison vs extended use | One update can agree while later composition fails because the summary omits a condition for the next operation. |
+| General method vs subject knowledge | The transfer comparison recurs across mathematics and applications; the particular algebra, order, geometry or physical law still comes from its subject. |
+| Recoverable reasoning vs recording cost | Another user needs the correspondence and qualifications that affect the result, but a short derivation often carries them without a separate form. |
+
+### C.29.1:4 - Solution
+
+**Recover the intended conclusion and its source → construct the correspondence → compare the relevant operations and their conditions → determine what merged cases can still answer → derive the exact or bounded consequence → return it, or repair the particular lost connection.**
+
+The arrows show dependencies. An existing map or proof can supply several steps. A counterexample can send the work back to the choice of representation. A sufficient bound can end the inquiry before an exact answer is constructed.
+
+#### C.29.1:4.1 - Recover the result and the direction in which it will be used
+
+Start with the receiving question. Say what is to be determined and what difference the answer makes: whether another reservation is allowed, the cost of a chosen route, the least possible route cost, or a temperature bound at a specified time. These questions can concern the same objects and require different retained information.
+
+Recover the source result together with the ingredients that produced it:
+
+- the allowed inputs and the meaning of their quantities;
+- the operations or relations used in the inference;
+- the premises and operation conditions on which the conclusion depends.
+
+Use an existing derivation when these ingredients are available. If an explanation gives only a final formula, recover the missing construction or argument through B.5:4.2 and B.5:4.3. The transfer comparison begins once the required source step is clear enough to reproduce.
+
+Then name the direction of use. There are several common possibilities.
+
+| Intended use | Correspondence to establish |
+|---|---|
+| Represent a source result in another account | Source inputs and steps have receiving counterparts, with the needed conclusion preserved. |
+| Calculate in another account and answer about a source input | The receiving calculation, applied to that input's representation, returns the sought source quantity or a justified bound on it. |
+| Choose a receiving solution and carry it back as an action | The selected receiving solution has an allowed source counterpart, and the returned counterpart has the claimed properties. |
+| Transfer a theorem to an entire receiving domain | The theorem's premises and inference steps survive, and the domain claimed in the conclusion is covered. |
+
+The last two uses are stronger than merely mapping source cases forward. Keeping the direction explicit prevents an answer about a relaxed problem from becoming an unsupported action recommendation.
+
+#### C.29.1:4.2 - Construct the correspondence from the required distinctions
+
+Choose a source domain X and a receiving domain Y. Construct a map F from the allowed source cases to their receiving representations. Explain its action in the working terms before relying on its notation: F(n,r) = n − r retains available stock and forgets the separate totals; a route endpoint summary forgets which route was taken.
+
+A correspondence can use several maps. An operation may take one kind of input and return another, so its input map and output map can differ. For an operation with several inputs, say how each input is mapped and which combinations are permitted. Where the intended account relates one case to several possible representations, use that relation explicitly. Selecting one representation for each source case defines another construction; establish that the selection supports the intended conclusion.
+
+Construct the correspondence by asking what the receiving question needs. Identify a candidate variable, relation or operation that carries that information. Compute its value on source cases. Determine which cases it combines. Try to express the receiving operation using only what remains. If the expression still depends on an omitted quantity, either retain that quantity or establish why it cancels for this use.
+
+For a change of coordinates, construct the inverse when returning a complete source state is intended. For a summary, identify the source cases compatible with each receiving value. A many-to-one map can answer a particular question exactly even though it cannot reconstruct the whole source state.
+
+Keep the domain visible. A division requires a nonzero denominator; a square-root substitution may impose a sign choice; a route may exist only for certain endpoints or histories. A map justified on one part of X supports conclusions on that part. A receiving value outside F(X), the set of represented source cases, needs a further argument before it is used as a source possibility.
+
+The first result of this step is a usable correspondence with an explained meaning. It may be a formula, a small table, a diagram, or an already defined mathematical map. Its form follows the work.
+
+#### C.29.1:4.3 - Compare performing and representing in both orders
+
+For a source operation U and a proposed receiving operation V, carry out two constructions on the same allowed input:
+
+1. Perform U in the source account, then represent its output.
+2. Represent the source input, then perform V in the receiving account.
+
+With input map F and output map G, the exact comparison is:
+
+~~~
+G(U(x)) = V(F(x)).
+~~~
+
+Read this as an equality of the outcomes relevant to the question. The letters can denote numbers, states, paths or other mathematical objects. For a state update with the same representation before and after, G is F. Use different maps when input and output representations differ.
+
+Derive the equality from the definitions or use an applicable preservation theorem. Numerical examples can discover an error or make the relation understandable. For a general claim, establish the comparison throughout its declared domain. Exhaustive enumeration can establish a claim about a specified finite domain when every permitted case has been included.
+
+Also compare where each operation is available. For a forward representation of a source operation, every source step used by the claim has a defined receiving counterpart. If the receiving account is to decide whether a particular source step is allowed, its answer agrees with the source condition for the represented case. If a receiving action is to be returned to the source, construct an allowed source action with the required outcome.
+
+An equality on inputs where both sides happen to be defined leaves those availability questions open. This matters in reservations and in routes with restricted continuations.
+
+For a sequence of operations, follow the intermediate representations. If each step has the required correspondence and passes an allowed intermediate result to the next, composing the equalities transfers the sequence. If a later operation depends on a distinction discarded earlier, the stepwise construction exposes where the summary has become insufficient.
+
+An invertible coordinate change offers a constructive route. Given F and its inverse, define the receiving update by V = F ∘ U ∘ F⁻¹ on the represented domain. This definition yields the commuting comparison there. If V was proposed independently, compare it with this expression. A bijection between states alone does not determine whether that proposed update agrees.
+
+#### C.29.1:4.4 - Determine whether a merged representation defines the answer
+
+Suppose the source question has answer q(x), and you want a receiving function g with:
+
+~~~
+q(x) = g(F(x)).
+~~~
+
+Such a g is well-defined on F(X) exactly when all allowed source cases having the same representation give the same answer:
+
+~~~
+F(x₁) = F(x₂)  implies  q(x₁) = q(x₂).
+~~~
+
+If g exists, both source answers equal g of the same receiving value. Conversely, if the source answer is the same for every case represented by y, define g(y) to be that common answer. Choosing another representative then changes nothing.
+
+Use this as a construction, not only as a test. First try to rewrite q in terms of the retained variables. If the unwanted variables disappear, derive the resulting g. If they remain, look for two permitted source cases with the same representation and different q values. That pair proves that the requested answer cannot be recovered from that representation alone. One such pair is enough to refute the proposed function. Failure to find a pair is not a proof of independence.
+
+For an update, ask whether cases sharing the current summary have the same required next summary. For a summary that is also to decide availability, compare the operation conditions across those cases. For a prediction after several steps, compare what the permitted continuations can do. The relevant comparison follows the requested result; it does not require preserving every property of the original object.
+
+Distinguish defining a value on a merged class from changing the question. “The cost of this route” requires the chosen route's cost. “The least cost among these routes” deliberately combines several costs by taking a minimum. The second is a new, potentially useful function; it does not make the first independent of its representative.
+
+#### C.29.1:4.5 - Derive the consequence in the strength that survives
+
+Derive the receiving consequence from the comparison.
+
+For an exact calculation, substitute the represented inputs and derive the receiving output. When returning an answer, express it in the quantity originally asked for. For a transported derivation, identify which premises and inference steps are covered. For example, an identity built from compositions of the compared operations gives the corresponding receiving identity on represented inputs. If a proof also uses order, division or an existence premise, establish how that contribution applies in the receiving account. A quantified claim depends on the cases over which it ranges.
+
+A map that combines source cases can erase differences; equality of their images does not establish equality of the original cases. A receiving domain can contain cases outside the map's image; a result proved only for represented cases does not cover those additional cases. Use an inverse, a separate argument, or a narrower conclusion when the receiving claim requires it.
+
+When the exact queried value is not determined, construct the values compatible with the retained information. For a represented value y, these arise from source cases satisfying F(x) = y and the stated premises. Prove a lower bound L(y), an upper bound U(y), or another relation that holds for all those cases. The resulting interval can answer a threshold question even when it cannot identify one value.
+
+For a decision q ≤ b:
+
+- an upper bound U(y) ≤ b establishes the decision for every compatible case;
+- a lower bound L(y) > b rules it out for every compatible case;
+- a bound spanning b leaves the decision unresolved.
+
+These are consequences of the bound, so retain its domain, units and relevant time or parameter range. A bound for a sampled instant does not by itself answer what happened between samples.
+
+A relaxation offers another useful transfer. Let S be the allowed source solutions, let T be receiving solutions, and suppose every solution in S has an image in T with the same cost. If the receiving account permits additional solutions, minimizing there can give a lower bound on the source minimum. When the minima exist:
+
+~~~
+min over T of receiving cost ≤ min over S of source cost.
+~~~
+
+The reason is that the receiving search includes a cost-preserving image of every source option. Maximization gives an upper bound under the analogous assumptions. An optimal receiving solution that has no source counterpart still supports the bound; it does not supply a feasible source plan. A returned plan requires an allowed source witness.
+
+Where the comparison is approximate, derive the error relation for the needed operation and propagate it through later steps. For example, if a later scalar operation h satisfies |h(a) − h(b)| ≤ K|a − b|, with K ≥ 0, on the relevant interval, an input error at most ε contributes at most Kε at its output. Any additional error introduced by computing h is added to that contribution. Merely adding the errors of successive steps without accounting for amplification can understate the final error.
+
+#### C.29.1:4.6 - Return a sufficient result or repair the failed correspondence
+
+Return the conclusion together with the assumptions that change its use. A short calculation can contain the complete transfer. When another person or later use needs to recover the reasoning, preserve the source result, correspondence, comparison and conclusion in the smallest adequate form. C.29:4.4 supplies recording options when a receiving use calls for them.
+
+If the comparison fails, use the failure to choose the next construction.
+
+| What the comparison reveals | Useful next move |
+|---|---|
+| An omitted variable changes the needed answer | Retain that variable, or retain a derived quantity sufficient for the question. |
+| The receiving operation admits a step unavailable in the source | Retain its enabling condition, restrict the receiving operation, or use the enlarged problem only for the bound it supports. |
+| Two representatives give different values | Change the representation or ask for a class property, such as a minimum or interval, and establish that new property's use. |
+| Agreement holds only on part of the domain | State and use that restriction if it includes the intended cases; otherwise seek another correspondence. |
+| A missing source premise prevents the comparison | Recover or establish that premise before repairing the receiving calculation. |
+| A sound bound is too broad for the decision | Find which retained uncertainty spans the threshold and obtain a discriminating premise or observation. |
+
+After a repair, repeat the affected comparison and the later steps that depend on it. Keep conclusions whose premises and correspondences remain applicable.
+
+Stop when the exact consequence or bound answers the working question. A located failure can also settle the immediate question: “This summary cannot determine availability; retain reserved stock or use available stock.” If the missing contribution is a physical model, a measurement relation, a numerical method or a new proof, name that contribution and return to its practice. B.5.MPC handles the wider coordination when several of those contributions must agree.
+
+### C.29.1:5 - Archetypal Grounding
+
+The following constructions use stated mathematical models. Their conclusions show what follows from those models and correspondences. Applying them to an actual store, transport arrangement or thermal system also depends on the relevant accounting, compatibility or physical premises.
+
+#### C.29.1:5.1 - Transfer a reservation update to available stock
+
+**Situation and question.** A reservation account stores on-hand quantity n and reserved quantity r. Both are integers, with 0 ≤ r ≤ n. One reservation is allowed when n − r ≥ 1. While this operation is performed, there are no deliveries, shipments or cancellations. The question is whether a smaller display can both decide that operation's availability and calculate its effect.
+
+The source reservation update is:
+
+~~~
+U(n,r) = (n,r+1), defined when n−r ≥ 1.
+~~~
+
+Start with the proposed display H(n,r) = n, labelled “available.” The allowed states (1,0) and (1,1) have the same display, one. In (1,0), another reservation is allowed; in (1,1), it is not. Thus availability is not a function of H alone. Moreover, a permitted reservation leaves H unchanged, whereas the amount still reservable decreases.
+
+The first result is that the total on hand omits a distinction needed by the reservation question. H remains useful as the on-hand total.
+
+Construct the repaired display F(n,r) = a = n − r. Define its receiving reservation operation by V(a) = a − 1 for integer a ≥ 1. Now compare both orders:
+
+~~~
+F(U(n,r)) = F(n,r+1) = n−(r+1)
+          = (n−r)−1 = V(F(n,r)).
+~~~
+
+The operation conditions also agree: U is defined exactly when F(n,r) ≥ 1, which is the condition for V. After an allowed update, 0 ≤ r + 1 ≤ n and a − 1 ≥ 0, so the result remains inside each account's domain.
+
+For n = 5 and r = 2, the source becomes (5,3), and the display moves from 3 to 2. After k reservations, the same reasoning gives available stock a − k, for integer 0 ≤ k ≤ a. Each intermediate reservation is allowed; the next reservation at k = a is not.
+
+**Returned result.** Available stock is sufficient to decide and update this reservation operation. It does not determine n and r separately: (5,2) and (7,4) both give a = 3. If the next question asks how many items are reserved, retain that distinction. If the next operation is shipment or cancellation, recover its definition and compare it separately. Correct transfer of the reservation equation does not establish that a physical stock count is accurate.
+
+#### C.29.1:5.2 - Separate route cost, minimum cost and a relaxation bound
+
+**Situation and assumptions.** Two routes p and q go from A to B, with costs 1 and 4. A route r goes from B to C, with cost 2. These are the only elementary routes considered, costs add when routes are composed, and initially either p or q may be followed by r. The question is the least cost from A to C.
+
+First examine a coarser, different question: whether A can reach B. Both p and q answer yes. A summary that records only their endpoints can answer this reachability question. It cannot define “the cost of the route” by choosing a representative: choosing p gives 1 and choosing q gives 4.
+
+To answer the least-cost question, construct a different operation. Take the minimum over alternatives, and add the cost of a permitted continuation. In the stated case:
+
+~~~
+cost(p followed by r) = 1 + 2 = 3
+cost(q followed by r) = 4 + 2 = 6
+
+min(1+2,4+2) = min(1,4)+2 = 3.
+~~~
+
+The equality holds because the same continuation is available after both alternatives and adds the same amount. For arbitrary finite costs a and b and common continuation cost c, adding c preserves their order, so min(a+c,b+c) = min(a,b)+c. This explains why the lower-cost prefix can be retained for this continuation. The source witness p followed by r has cost 3.
+
+**Change the compatibility premise.** Now r is allowed only after q; taking p consumes a permission needed for r. The two arrivals at B have the same location but different permitted continuations. The allowed complete route is q followed by r, with cost 6.
+
+The arithmetic min(1,4)+2 = 3 still holds. Its use as the attainable minimum fails because its selected prefix p cannot be followed by r. Equality of locations did not preserve route composition.
+
+Repair the state at B by retaining whether the continuation permission remains. Let p arrive at (B,0) and q at (B,1). Only (B,1) has the r transition to C. Minimizing over the allowed complete routes in this expanded account yields 4 + 2 = 6. Returning q followed by r supplies an allowed source witness.
+
+There is also a useful result from the coarser account. If it deliberately ignores the permission restriction, its feasible route set contains the real feasible routes. Costs of retained routes remain unchanged. Its minimum 3 is therefore a lower bound on the true minimum, here 6. The bound rules out a source route costing at most 2. It cannot establish that a source route costing at most 4 exists; that would need an allowed witness.
+
+**Returned result.** Endpoint reachability, the cost of a selected route and the minimum over compatible routes are different questions. Retain history only insofar as it changes future compatibility or cost. When a coarser account is cheaper to use, its lower bound may still answer the receiving question without constructing the optimal source route.
+
+#### C.29.1:5.3 - Change temperature coordinates, then choose what can be forgotten
+
+**Situation and physical meaning.** Consider two bodies with equal, constant heat capacity C > 0, each represented by one uniform temperature, T₁ or T₂. The bodies exchange heat only with each other. For one chosen sampling interval, stipulate a heat transfer from body 1 to body 2 of Q = αC(T₁ − T₂), with fixed 0 ≤ α ≤ 1/2. Negative Q means transfer in the opposite direction. Temperature differences use kelvins; temperature values below are expressed in degrees Celsius.
+
+This is a supplied discrete model. Equal heat capacities and the opposite heat changes give:
+
+~~~
+T₁' = T₁ − Q/C = (1−α)T₁ + αT₂
+T₂' = T₂ + Q/C = αT₁ + (1−α)T₂.
+~~~
+
+The range of α makes each new temperature a convex combination of the old temperatures, without reversing which body is warmer. The model does not prescribe the continuous temperature history inside an interval.
+
+The working question is whether the warmer body's modeled temperature is at most 60 °C after two intervals. Direct iteration is possible. A coordinate change can also expose which information the answer needs.
+
+Construct the coordinates:
+
+~~~
+m = (T₁+T₂)/2
+d = (T₁−T₂)/2
+
+T₁ = m+d
+T₂ = m−d.
+~~~
+
+The inverse recovers both temperatures. Thus (m,d) loses no distinction between admitted temperature pairs. Substitute the source updates and compare:
+
+~~~
+m' = (T₁'+T₂')/2 = (T₁+T₂)/2 = m
+d' = (T₁'−T₂')/2 = (1−2α)(T₁−T₂)/2 = (1−2α)d.
+~~~
+
+The receiving operation preserves the mean and scales the contrast. It is a simpler expression of the same discrete update. Equal heat capacities explain the physical significance of the preserved mean: the two heat changes cancel. The warmer temperature is M = max(T₁,T₂) = m + |d|.
+
+Now consider discarding d and retaining only m. The identity update m' = m is still exact, but the warmer temperature is no longer determined. The states (0,100) and (50,50) both have m = 50. For α = 1/4, the first becomes (25,75), then (37.5,62.5); the second stays at (50,50). They give opposite answers to the 60 °C threshold question after two intervals. Mean preservation alone is insufficient.
+
+For α = 1/4, the contrast halves each interval. Starting from (20,80) gives this trajectory:
+
+| Sampling instant | T₁ in °C | T₂ in °C | m in °C | d in K | M in °C |
+|---|---:|---:|---:|---:|---:|
+| Initial | 20 | 80 | 50 | −30 | 80 |
+| After one interval | 35 | 65 | 50 | −15 | 65 |
+| After two intervals | 42.5 | 57.5 | 50 | −7.5 | 57.5 |
+
+**A bound on the contrast suffices after two intervals.** Suppose the individual temperatures are unknown, but m = 50 °C and |d₀| ≤ 30 K are known. Repeatedly applying the receiving update yields dₖ = 2⁻ᵏd₀. Therefore:
+
+~~~
+50 °C ≤ Mₖ ≤ 50 °C + 2⁻ᵏ × 30 K.
+~~~
+
+Temperature differences are added to a temperature on the same scale. At k = 1 the upper bound is 65 °C, leaving the 60 °C question unresolved. At k = 2 it is 57.5 °C, so every compatible initial pair has warmer temperature at most 60 °C at that sampling instant. No choice of a representative pair is needed.
+
+If an exact maximum is wanted, retaining (m,|d|) is sufficient under this symmetric update. The sign of d is needed only for questions distinguishing which body is warmer. Retain the distinction needed by the question, rather than restoring both coordinates automatically.
+
+**Returned result and return condition.** The bound answers the stated question at the second sampling instant under the supplied model. It does not assert that the bodies were always below 60 °C: the initial pair (20,80) was not. Unequal heat capacities, external heat exchange or a changed transfer rule require a new update and a new comparison. Establishing that this discrete model predicts an actual pair of bodies requires physical and measurement work; B.5.MPC connects that work to the mathematical result.
+
+### C.29.1:6 - Bias-Annotation
+
+**Bias toward convenient summaries.** Aggregates are easy to display and compute. Test them against the receiving question by constructing cases with the same aggregate and different answers. In the thermal case, the mean is sufficient for mean evolution and insufficient for the maximum.
+
+**Bias toward familiar structure.** A recognized matrix, graph or algebra can make a proposed correspondence feel established. Recover the represented participants and operation conditions before applying its theorem. The route graph needs permission state when permission changes continuation.
+
+**Bias toward exact answers.** Insisting on reconstruction of every source detail can hide a cheaper sufficient answer. Derive a bound over all compatible cases and compare it with the decision threshold. Conversely, report unresolved cases when that bound spans the threshold.
+
+**Bias from machine-generated fluency.** An AI can produce a plausible mapping and a correct algebraic simplification while omitting the premise that connects them. Ask a contributor for the domain, operation comparison and returned conclusion. Use subject expertise to assess an unfamiliar proof; a persuasive explanation does not settle its premises.
+
+
+### C.29.1:7 - Conformance Checklist
+
+These checks concern a claimed use of mathematical transfer. Recognition of a promising representation starts the work; the comparison and argument establish what conclusion it supports. Select the checks that apply to the claimed use.
+
+| ID | Check and action |
+|---|---|
+| CC-C29.1-1 | The account SHALL state the receiving question and direction of use. If the same result is used as both a bound and a source action, explain the additional source witness for the latter. |
+| CC-C29.1-2 | The transfer argument SHALL identify the source inputs, relevant operations and premises, including operation conditions that affect the conclusion. Recover a missing source rule before relying on its transfer. |
+| CC-C29.1-3 | The account SHALL define the correspondence on the domain used by the conclusion and explain the meaning of its relevant values. A conclusion outside the represented domain needs a further argument. |
+| CC-C29.1-4 | An exact operation-transfer claim SHALL be supported by the comparison in C.29.1:4.3 over its stated domain. Include availability or return conditions when the receiving use depends on them. |
+| CC-C29.1-5 | An answer defined through a merged representation SHALL have the representative-independence argument in C.29.1:4.4, or be qualified as a bound or set of possible answers. A conflicting permitted pair requires repair of that proposed answer. |
+| CC-C29.1-6 | A bound or approximation claim SHALL explain why it covers the allowed cases, the direction of its inequality and the subsequent error propagation needed by the receiving use. |
+| CC-C29.1-7 | A returned receiving solution claimed to be feasible in the source SHALL identify an allowed source counterpart with the stated properties. A relaxation optimum alone supplies no such counterpart. |
+| CC-C29.1-8 | The returned conclusion SHALL retain its answer-changing assumptions and distinguish the result obtained from the further work still needed. A physical application includes the physical premises; a changed premise reopens the dependent comparison. |
+
+A complete argument about a mathematical model establishes its stated conditional consequence. Confidence that an observed system satisfies the premises, or that an implementation performs the operation, comes from the corresponding subject work.
+
+### C.29.1:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | How it changes the answer | Repair |
+|---|---|---|
+| “The numbers match in both formulas.” | Matching sampled values can conceal different domains or operations. | Derive the comparison for the claimed domain, or limit the conclusion to the cases established. |
+| Naming an on-hand total “available” | The name conceals reserved stock; the same display permits and forbids a reservation. | Construct n − r and compare the update and its condition. |
+| Choosing a convenient representative | The chosen route's cost is assigned to a summary that also represents other costs. | Establish independence or define the intended class operation, such as minimum over compatible routes. |
+| Transferring arithmetic while dropping availability | The cost 1 + 2 is correct for a route composition that is unavailable. | Restore the permission or history needed for composition; otherwise use the relaxed minimum only as a bound. |
+| Reversing a many-to-one map without justification | Equal receiving values are treated as identical source states or as a unique source action. | Retain a distinguishing quantity or construct an allowed source witness for the specific result. |
+| Treating one preserved quantity as a complete state | Correct mean evolution is used to infer an unresolved maximum. | Express the query in retained variables and bound or restore the missing contrast. |
+| Rejecting every inexact transfer | A sufficient threshold bound is discarded because it is not a reconstructed value. | Compare the justified bound with the actual decision. |
+| Treating physical interpretation as another algebraic equality | A correct thermal derivation is taken to validate its exchange law for actual bodies. | State the model's physical premises and establish their application through physical and measurement work. |
+
+### C.29.1:9 - Consequences
+
+**Useful consequences.** A transferred result comes with the correspondence that makes it usable. A failed transfer becomes a specific mathematical finding: two merged cases disagree, an operation lacks a counterpart, a domain is uncovered, or a bound is insufficient. Each finding suggests a repair that is narrower than discarding the whole account.
+
+The method also makes productive simplification possible. Available stock omits separate totals while preserving reservation behavior. A route relaxation omits compatibility while providing a lower bound. Mean and contrast simplify a thermal update, and a bounded contrast suffices for a later threshold decision.
+
+**Costs.** Recovering operation conditions and proving a comparison can take more effort than repeating a calculation in the source account. For a small one-off calculation, direct derivation may be cheaper. A useful summary can also require richer state than expected when later operations depend on history.
+
+**Remaining limits.** The pattern does not supply the domain theorem, physical law, numerical algorithm or implementation correctness that a transfer uses. It can expose a missing premise and make that next contribution precise.
+
+### C.29.1:10 - Architectural Rationale
+
+#### C.29.1:10.1 - Why operations, conditions and questions are considered together
+
+A result is produced by a particular construction under particular premises. Mapping the named objects alone leaves open what happens to that construction. Comparing the two orders exposes the mathematical obligation at the point where it matters.
+
+Operation conditions belong to this comparison because partial operations are common in practice. A reservation consumes availability. A route continuation consumes or requires permission. Removing the condition can enlarge the receiving problem even while preserving the arithmetic of every allowed source step.
+
+The receiving question determines which preservation is useful. Reconstructing a complete state, preserving a selected query and obtaining a bound have different mathematical requirements. Making that choice early avoids both retaining unnecessary detail and losing a decisive distinction.
+
+#### C.29.1:10.2 - Why representative independence is constructive
+
+When a summary merges cases, the key question is whether the desired answer is constant among those cases. This yields both a proof method and a method of discovery. Rewriting the query can construct its receiving form; a conflicting pair can identify the information the summary lacks.
+
+An invertible coordinate change supports complete reconstruction of a source state within its domain. Many useful transfers need less. Requiring an inverse for available stock would defeat the purpose of the summary. Conversely, a map's usefulness for one query does not establish that nothing has been lost. Query-specific preservation states the useful result without that stronger claim.
+
+This also explains why changing the question can be a mathematical repair. The cost of a represented route may be undefined while the minimum over the represented routes is well-defined. That new minimum still needs its own composition and feasibility argument.
+
+#### C.29.1:10.3 - Why the method allows inequalities and returns
+
+Exact preservation is one strong route to result reuse. Sound inclusion and bounds are another. If an account covers more possibilities than the source, a claim holding for all those possibilities also holds for the covered source possibilities. An apparent bad case in the larger account may require refinement before it becomes a source counterexample.
+
+The method uses that asymmetry to retain useful consequences. A relaxation bound can settle a cost threshold even when the relaxed optimizer cannot be returned. A temperature interval can settle a sampled threshold without identifying both temperatures.
+
+Returns therefore follow the failed dependency. The practitioner can refine a state, restrict a domain, recover a premise or ask a weaker question. The unaffected mathematical work remains available.
+
+#### C.29.1:10.4 - Why expression construction and joint reasoning remain distinct
+
+A.6.3.RT helps construct an expression under a representation scheme. Defining m and d is such an expression move. Deriving their inverse and update equations establishes the mathematical transfer addressed here. The notation makes that derivation easier to perform and inspect; it does not determine its truth.
+
+C.29 supplies the broader choice and use of a mathematical account. B.5.MPC connects a mathematical result with physical interpretation, computation and execution when the working question requires all of them. This pattern contributes the mathematical comparison inside that work and can also be used independently.
+
+A human or AI contributor can construct the correspondence, derive an identity or search for a conflicting pair. The receiving practitioner still needs enough of the domain, operation and conclusion to use the result or request the missing argument. B.5:4.5 and B.5.MPC:4.8 explain how to divide such contributions without losing the shared question.
+
+### C.29.1:11 - SoTA-Echoing
+
+The working problem is reuse of mathematical consequences across accounts at a cost justified by the receiving question. Two established lines supply complementary methods: preservation of operations, and coverage of possible results by a sound abstraction.
+
+| Source and applicable contribution | Comparison at comparable effort | Adopt, adapt and limit |
+|---|---|---|
+| Brendan Fong and David I. Spivak, *Seven Sketches in Compositionality* (consulted 2018 version), §3.3.2 and §2.5.3. Functors preserve identities and composition; the route constructions distinguish composition from choice among alternatives. [Primary text](https://arxiv.org/pdf/1803.05316). | Comparing corresponding operations is stronger than analogy by shared shape. A categorical formulation repays its setup when many objects and composable maps recur; a short elementary derivation can be cheaper for one reservation update. | **Adopt** preservation of the relevant operations. **Adapt** it as the two-order construction and route comparison in C.29.1:4.3 and C.29.1:5.2. Use categorical machinery when the objects and laws warrant it; this pattern does not require every working account to be presented as a category. |
+| Patrick Cousot, *Abstract Interpretation: From 0, 1, To ∞*, §2. Its abstract operations cover the possible concrete results represented by their inputs. [Author's text](https://pcousot.github.io/publications/CSV-2023-cousot.pdf). | Exact reconstruction retains more information; a sound abstraction can establish a property with less information but can leave a question undecided. Testing selected cases is cheaper in some settings but does not establish coverage of all permitted cases. | **Adopt** coverage as the reason a bounded abstract result supports a concrete conclusion. **Adapt** that reasoning to C.29.1:4.5's compatible cases and bounds. General abstract-domain construction and program-analysis algorithms remain in their mathematical and computational practice. |
+
+The pattern's synthesis is the practitioner sequence connecting these obligations to the intended answer: construct the map, compare operations and availability, establish independence or coverage, and return the consequence. The reservation, permission-sensitive route and thermal constructions derive their own claims from their stated premises. The cited sources supply reusable mathematical lines, not evidence that a particular physical or organizational application satisfies those premises.
+
+A direct proof in the original account remains a serious alternative. Prefer it when it is simpler than establishing and maintaining a transfer. Reconsider a chosen summary when a new query needs a distinction it omits, when composition introduces a new condition, or when a tighter justified bound changes the decision. Reopen the mathematical work affected by that change.
+
+### C.29.1:12 - Relations
+
+| Pattern | Direct contribution and use |
+|---|---|
+| **C.29 - Mathematical Lens Use** | Supplies selection of a mathematical account and the general correspondence-and-return method. C.29.1 specializes its operation-transfer contribution. C.29:4.4 supplies recording options for a use that needs a recoverable account. |
+| **B.5 - Canonical Reasoning Cycle** | B.5:4.2 and B.5:4.3 recover or construct the source contribution and its argument. B.5:4.4 uses the consequence or revises the question when a transfer exposes a missing premise. |
+| **A.6.3.RT - Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition** | Constructs expressions and relates representation schemes. This pattern establishes the operation, representative and result comparisons used to carry a mathematical consequence through such a change. |
+| **B.5.MPC - Connect Physical, Mathematical and Computational Reasoning** | Uses this mathematical transfer within a connected physical account, mathematical construction and computation. It supplies the wider coordination when physical premises, execution or observation remain unresolved. |
+| **A.3.3 - U.Dynamics: State-Space and Transition-Law Episteme** | Supplies state and change descriptions when the transferred operation is an update or a prediction. The transfer here compares a proposed summary with that specified evolution; choosing the physical evolution remains subject work. |
+| **C.16 - Measurement & Metrics Characterization (MM‑CHR)** | Supplies the measurement construction when obtaining a discriminating observation is the selected repair. A mathematical bound on values compatible with an indication still depends on the applicable measurement relation. |
+
+### C.29.1:End
+
+## C.29.2 - Computational Formulation
+
+> **Type:** Method pattern
+> **Status:** Draft
+> **Normativity:** Normative when this Method is selected; worked cases retain their stated assumptions.
+
+### C.29.2:1 - Problem frame
+
+**Use this when.** You know what a mathematical answer would mean, but the available expression, data and operations do not yet explain how to obtain it. An equation may characterize a solution without giving a procedure; a proposed procedure may need information its stored state has discarded; or a short calculation may expand into an unaffordable representation.
+
+The practical question is: **What should be represented, and how will the available computation obtain an interpretable answer?** Begin with the distinction the answer must make. For example, if an executor must accept either “increment, then double” or “double, then increment”, storing only the two operation names loses a distinction: on input 3 the required answers are 8 and 7. Ordered instructions and a current position make that distinction operable.
+
+**The object being developed** is a computational construction for a stated question: represented quantities or state, computational rules, and a way of obtaining and interpreting the requested result. *Computational formulation* names this work. The construction may leave evaluation order to a solver or describe a stochastic or continuing process. Its account can be a short derivation, pseudocode or a program with an explanation; these are ways to communicate the construction, not additional required records.
+
+**Intended reader.** A practitioner who can state the working question and read its subject mathematics, and who needs to recover, construct or commission the computation. Elementary arithmetic and following a sequence of instructions suffice for the first case. A numerical or quantum-modeling case additionally supplies its relevant mathematical assumptions locally; developing a production solver still needs that discipline's preparation.
+
+Computational thinking is the wider practice. This pattern covers formulation: represented inputs and state, computational rules, a way to obtain and interpret the output, and the argument and resource account needed for its use. Algorithm design, numerical analysis, programming-language design, learning and distributed computation supply deeper construction methods. This body is not a complete repertoire for those disciplines.
+
+**Family relation.** C.29 groups methods for constructing, transferring and realizing interpretable mathematical accounts. C.29.2 contributes a computational formulation by composition and result use; it does not inherit every step or recording option of C.29. C.29.1 supplies a needed result-transfer argument. C.29.3 connects a computation with a system that prepares, performs and exposes its result. Enter this pattern directly when the working question is already available.
+
+**First useful result.** Return a formulation with an applicable way to obtain and interpret the requested result under stated conditions, or a demonstrated obstruction and the particular construction still needed. A justified restriction, error bound or resource rejection may finish the current question.
+
+**Ordinary non-use.** Use an already adequate local calculation or implementation directly when its inputs, operations and result are understood. Open C.29.1 for an unsettled transfer between accounts, C.29.3 for an unsettled execution correspondence, or the relevant subject method when that is the only missing contribution.
+
+### C.29.2:2 - Problem
+
+Knowing a condition that the answer satisfies does not always tell a practitioner how to get that answer. Writing `y = argmin f(x)` specifies a selection problem; it supplies a computation only together with a way to represent and search or otherwise solve the admitted problem. Conversely, a running procedure may return a value without establishing that it satisfies the requested condition.
+
+Three failures make this gap expensive:
+
+- A representation identifies cases that require different answers. No later procedure using only that representation can recover the missing distinction without another input.
+- An operation such as “solve”, “update” or “sample” hides the very construction that is unavailable. Giving it a name does not make it elementary or obtainable.
+- A procedure is assessed under the wrong semantics or cost model. Exact integers, fixed-width words and rounded values have different operations; a single arithmetic instruction may manipulate a growing number of bits.
+
+The repair is to connect the requested answer to an actual construction, then follow the construction's meaning and costs. It need not start by writing software. A hand calculation, an invariant or a storage count can locate the decisive obstacle first.
+
+### C.29.2:3 - Forces
+
+| Force | Choice the practitioner must make |
+| --- | --- |
+| Answer specification and obtaining a result | Preserve what counts as an answer while finding operations that can actually produce one. |
+| Sufficient state and affordable representation | Retain distinctions needed by later steps without storing the whole history by default. |
+| Familiar algorithm and problem-specific structure | Reuse an understood construction when applicable; exploit special structure when its gain warrants another argument. |
+| Exactness and useful approximation | Match error to the receiving question instead of treating every real number as exactly available or every approximation as adequate. |
+| Transparent procedure and resource efficiency | A simple construction can be a good first answer or reference calculation even when a different implementation is needed at scale. |
+| Abstract operations and executing capabilities | Let available system operations inform formulation while keeping their physical correspondence separately established. |
+
+### C.29.2:4 - Solution
+
+Establish how the computation obtains the requested result and why that result has the required meaning. Read the following steps as connected work with returns: an unaffordable state, an unavailable operation or a failed argument can change an earlier choice. Begin with any contribution already available.
+
+#### C.29.2:4.1 - Specify the answer before selecting its representation
+
+State the admitted inputs and the answer the receiver needs. Say whether the result is a value, a witness satisfying a condition, a bound, an approximation or a continuing response to inputs. These are illustrative result forms; choose the one used by the task.
+
+Distinguish the answer condition from the proposed calculation. For a value, ask how it will be obtained. For a witness, ask how candidates will be constructed and tested. For a negative answer, ask what establishes that no admitted witness was missed. A search that eventually finds a witness need not decide the cases in which none exists.
+
+Make an approximation requirement operational. `|y_hat - y| <= epsilon` means an absolute error bound on the requested quantity; relative error uses a different comparison and needs care near zero. A probability guarantee must state what is random and the event whose probability is bounded. Neither a small residual in a different equation nor a favorable average automatically supplies the required result.
+
+For stochastic computation, distinguish a requested distribution, samples from it and an estimated statistic. Those outputs require different constructions and resources. For an approximate distribution, name the events, statistics or distance over which accuracy is required. A distribution's definition does not by itself supply a sampler; a sample average needs an argument connecting it with the requested population quantity.
+
+Identify an input distinction that would change the answer. If two such inputs have the same proposed representation, retain the missing information, add an obtainable input, restrict the admitted cases, or obtain agreement to answer a weaker question. C.29.1 develops the preservation argument when that comparison is itself the difficulty.
+
+#### C.29.2:4.2 - Choose represented state and operations together
+
+Choose data in which the relevant next operation can be expressed. Explain what each stored value means, how an input initializes it, and how a returned value will be interpreted. The same mathematical quantity may be represented by an integer, an interval, a symbolic expression or another subject-appropriate object; the operations must match that choice.
+
+Construct the state from what the continuation needs. In a sequential procedure this often includes a control position and intermediate values. For each proposed next step, ask what it reads, changes and preserves. If two histories reach the same stored state but require different continuations, recover the omitted condition or summary. Use A.3.3 for the underlying state-and-continuation construction; keeping every past observation is only one possible repair.
+
+Specify the meaning of an elementary operation at the level used by the argument. An exact integer addition is different from modular word addition. A comparison of exact rational numbers is different from comparing rounded observations. If an operation is available only through another procedure, expose that dependency when its conditions or cost can change this computation.
+
+A formulation can specify equations or constraints without choosing an evaluation order. Identify the supplied quantities or boundary conditions, admissible solutions and the output the receiver needs. An applicable solver or modeled computational process must connect those relations to obtaining a result; its execution order may remain an implementation choice. When restructuring the equations, preserve the required solutions under the stated conditions and retain expressions that recover requested quantities removed from the computational state. If no such construction is available, the equations still characterize answers and the missing way remains a task under :4.3.
+
+The available operations can also be the starting contribution. A collaborator working under C.29.3 may supply preparable inputs, controllable changes, readable outputs and their limits for a candidate system. Use those capabilities to propose computational states and operations that can answer a useful question; do not force them into an unsuitable instruction set. Keep the physical model and the experimental or conditional basis of that contribution visible. A new computational model or language needs meanings for its expressions as well as formation rules. A.6.3.RT helps construct expressions under available notation rules; designing missing rules is separate notation or language-design work.
+
+#### C.29.2:4.3 - Obtain the computational construction
+
+If a known construction answers the question, recover its inputs, operative rules or steps and assumptions from its explanation and use it. B.5 supports that recovery. Check that the available operations can perform those steps and that their result has the required interpretation. A library or solver can supply the construction, but its accepted input class, result guarantee and failure behavior must fit the present use.
+
+When the connection is not yet known, work on the missing operation rather than rewriting the output condition:
+
+1. Calculate a small instance with enough detail to see what is being produced.
+2. Identify what remains to be obtained after one available operation. Try to express that remainder using the same kind of problem or a known subproblem.
+3. Retain the intermediate information needed to join the contributions. If an operation overwrites a value still needed later, save it or change the ordering.
+4. State how the joined result satisfies the original answer condition, then try a case that changes a material assumption.
+
+This is a way to expose and develop a construction, not a universal algorithm-discovery guarantee. Recurrence construction, search, optimization, numerical discretization and other techniques have their own subject methods. Use C.39 to find or develop a missing way; use C.40 when a workable change-and-test operation is already available and branching search is the live difficulty.
+
+For a still-missing contribution, return a substantive task: the available inputs and operations, the result or intermediate relation needed, the conditions it must preserve, and what would count as a useful solution. “Find a better algorithm” is usually too weak. After a dense-state rejection, for example: “Given this circuit family and this requested observable, provide a representation and update/readout procedure with a justified error bound and a peak-memory estimate below the stated budget; do not materialize the full amplitude array in a hidden conversion.”
+
+#### C.29.2:4.4 - Explain the result and progress
+
+For a proposed computation, follow a small case from supplied inputs through the available construction to the interpreted output. Show the changing values or solved relations, and expose operation order when it affects the result. This catches missing state, ambiguous instruction order and an output interpreted under the wrong convention.
+
+Then supply the argument appropriate to the claimed range. For a loop, find a statement relating the current state to the work already completed and the answer still sought. Show that initialization establishes it, each iteration preserves it, and the stopping condition makes the desired conclusion follow. This statement is the loop invariant. Separately explain why the loop reaches that condition, for example through a nonnegative integer that decreases at every iteration. For a recursive construction, explain its initial cases, the smaller calls and how their results give the caller's answer.
+
+These are useful proof forms, not compulsory syntax for every computation. A direct finite composition may need only substitution through its operations. A randomized procedure needs its probability argument. For an estimated statistic, state the sampling assumptions and connect the claimed error or uncertainty to the sample count. For a continuing interaction, state the preservation or response property required and the assumptions under which progress is claimed; global termination may be the wrong requirement.
+
+Keep the extent of the conclusion honest. A trace establishes that traced case. A proof using exact arithmetic establishes the stated abstract procedure under exact arithmetic. A finite precision implementation or an executing device requires the relevant additional comparison. Tests can expose failures and support selected empirical claims; a few passing tests do not prove an unrestricted input claim.
+
+#### C.29.2:4.5 - Resolve accuracy and computational limits that affect the use
+
+A well-defined mathematical object need not have the finite representation or uniform procedure being assumed. Ask what information the input representation actually provides and which operations are effective on it. Replacing “all real numbers” by finite strings, an evaluation oracle or a family of increasingly accurate approximations changes the computational problem. If a computability or impossibility claim matters, obtain the applicable subject argument rather than inferring it from a failed attempt.
+
+For a finite search domain with an effective test, explicit enumeration can provide a terminating baseline. It may be too expensive, but it separates an obtainable procedure from an open construction. For an unbounded search, failure to find an answer in the allotted time leaves a different result; it does not establish nonexistence.
+
+For numerical work, connect the stopping test to error in the requested output. Locate relevant errors in input representation, algorithmic approximation, arithmetic and output conversion. Allocate tolerance among them only under a justified rule for combining their effects. Physical-model and measurement uncertainty remain separate inputs from the relevant modeling and C.16 methods; numerical convergence does not settle them.
+
+If finite precision can reverse a decisive comparison, increase precision, use a justified enclosure, reformulate the test or return that comparison as unresolved. If an iteration no longer changes its stored state, a limit of the ideal iteration does not show that the implementation will reach the requested tolerance. Return to the representation or stopping rule. Narrow the claim only when the narrower answer remains useful and the change is explicit.
+
+#### C.29.2:4.6 - Calculate costs from the chosen representation
+
+Begin with the resource that can decide the choice. For a stored array, derive how many elements the representation requires and how much storage each element occupies:
+
+`payload storage = element count × bytes per element`.
+
+For several simultaneously live arrays, add their payloads and the workspace, indices, temporary copies and other storage used by the proposed algorithm. Peak memory concerns what must coexist, not the total amount ever allocated. A payload lower bound may already reject a design; a payload that fits is not yet a complete fit argument.
+
+In a model of discrete operations, count how often each operation is performed and what each performance costs. State the size parameters. An instruction count with one unit per arithmetic operation answers a different question from bit operations on growing integers, memory transfers or elapsed time on a particular machine. Explain the dominant term before using asymptotic notation. A bound for one representation is not a lower bound for every algorithm solving the mathematical problem.
+
+A computation described by continuous dynamics may need a cost relation for duration and accuracy rather than an instruction count; obtain the relevant estimate with C.29.3.
+
+Include input conversion, preparation computation and output production when they can dominate the result. Precomputation can be worthwhile across many uses, but say how many uses amortize it. A compact internal state does not make an explicitly requested exponential-size output cheap to enumerate.
+
+When resources fail, change one of the actual causes: represented structure, stored precision, retained data, procedure, admitted problem class, requested answer or proposed execution resources. Recompute for the chosen alternative. An exact structural reduction, a lossy approximation and a different cost model are different changes. C.29.1 supplies a needed consequence-transfer argument; C.29.3 assesses whether the resulting execution arrangement supports the selected computation.
+
+#### C.29.2:4.7 - Return the sufficient result and its next use
+
+Return the formulation and its obtaining construction when available, with enough representation and output meaning to use them, the conditions of the argument, and the resource or accuracy limit that can change the decision. Reuse an existing explanation where it supplies these connections.
+
+If a contribution is absent, identify it at the failing connection. A missing state distinction returns to formulation; an unavailable algorithm returns to its construction; an unsupported numerical bound returns to the numerical method; an execution mismatch returns to C.29.3, which may in turn supply a reason to revise this formulation. The iteration can change both model and executing arrangement.
+
+A conditional procedure, a restricted result or an obstruction can be sufficient. Keep “no procedure obtained”, “this representation exceeds the budget”, “no algorithm exists in the stated model”, and “the implementation failed on this case” as different conclusions, each with its own basis.
+
+### C.29.2:5 - Archetypal Grounding
+
+The cases construct an interpreter, a bounded numerical approximation, a resource-sensitive representation, two computations from one system of relations, and a probability estimate with an error guarantee. Their conclusions follow under the stated mathematical and physical premises.
+
+#### C.29.2:5.1 - Make calculation rules available as data
+
+**Question.** A team must change an integer calculation without changing the executor. The input is an integer `x0` and a finite sequence `P` consisting of `n` instructions chosen from `increment` and `double`, followed by one `stop`. Other sequences are outside this procedure's admitted input class.
+
+**Construction.** Store the ordered sequence and use mutable state `(p, x)`: the position of the next instruction and the current integer. Positions start at zero. The meaning of the output is the left-to-right composition of the arithmetic instructions applied to `x0`.
+
+```text
+p := 0
+x := x0
+while P[p] != stop:
+    if P[p] == increment:
+        x := x + 1
+    else:                         # the admitted alternative is double
+        x := 2*x
+    p := p + 1
+return x
+```
+
+This explains the elementary operations and their order. A parser or caller admitting other strings must validate the sequence or define the additional cases; it must not silently interpret an unknown instruction as doubling.
+
+| Instructions and input | Initial state | After first operation | After second operation | Read at stop |
+| --- | --- | --- | --- | --- |
+| `increment, double, stop`; `x0 = 3` | `(0,3)` | `(1,4)` | `(2,8)` | `8` |
+| `double, increment, stop`; `x0 = 3` | `(0,3)` | `(1,6)` | `(2,7)` | `7` |
+
+**Argument.** After `p` arithmetic steps, `x` is the result of applying exactly the first `p` instructions to `x0`, and `0 <= p <= n`. Initialization gives the empty composition. Each branch applies the next specified operation and advances the position, preserving that statement. While an arithmetic instruction remains, `n-p` decreases by one and cannot be negative. At `p=n` the next instruction is `stop`, so the returned integer is the requested composition. With `P = [stop]`, the same procedure returns `x0` immediately.
+
+**Cost changes with representation.** Counting one step for each arithmetic instruction and the final `stop` gives `n+1` instruction steps, apart from validation and input/output costs. That does not make arbitrary-size arithmetic constant-time. Represent the magnitude in binary and retain the sign separately. Let `b0` be the binary length of `|x0|`, counting zero as one bit. Each operation increases the magnitude's length by at most one, so the current magnitude needs at most `b0+n` bits, plus one sign bit. The position and stored program need additional space.
+
+With simple materialized binary arithmetic that scans or copies the current digits, an arithmetic step on `b` bits costs at most proportional to `b`. Summing the growing lengths gives an arithmetic-work upper bound proportional to `n*b0 + n^2` for that implementation, before any separately material program-access costs. A representation that treats doubling differently requires another estimate. On a fixed-width integer implementation, enough increments or doublings can instead overflow; the exact-integer argument then requires a range restriction or a different realization.
+
+**What became possible.** The executor can perform any calculation in this finite instruction class by receiving another sequence. [Turing's 1936 construction, §§5–7](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf), makes encoded computation rules available to an interpreter; this small case uses that constructive idea. Turing's universal-machine result concerns a much richer simulation construction. Adding jumps or continuing input to this case changes its progress and cost questions and requires their own argument.
+
+#### C.29.2:5.2 - Turn a root condition into a bounded approximation
+
+**Question and representation.** Return a rational approximation `y` to the positive root of `z^2 = 2` with `|y - sqrt(2)| <= 0.001`. The equation characterizes the root. The requested rational output still needs a way to compute it. Use exact rational arithmetic in this construction.
+
+The initial interval is `[l,u] = [1,2]` because `1^2 <= 2 <= 2^2`. For nonnegative arguments squaring is increasing, so a comparison of the midpoint's square with 2 determines which half still contains the root.
+
+```text
+l := 1
+u := 2
+epsilon := 1/1000
+while u - l > 2*epsilon:
+    m := (l + u)/2
+    if m*m < 2:
+        l := m
+    else:
+        u := m
+return (l + u)/2
+```
+
+**Meaning and argument.** The preserved statement is `1 <= l <= sqrt(2) <= u <= 2`. The square comparison preserves it, and every iteration halves the interval width. After `k` iterations that width is `2^(-k)`. The returned midpoint therefore differs from the root by at most `2^(-k-1)`. Choosing the first `k` for which this is at most `epsilon` supplies both the stopping rule and a finite bound on the iteration count for every positive requested tolerance.
+
+| Halvings | Retained interval |
+| --- | --- |
+| 0 | `[1, 2]` |
+| 1 | `[1, 1.5]` |
+| 2 | `[1.25, 1.5]` |
+| 3 | `[1.375, 1.5]` |
+| 8 | `[1.4140625, 1.41796875]` |
+| 9 | `[1.4140625, 1.416015625]` |
+
+After nine halvings, return `1449/1024 = 1.4150390625`. Its error is at most `1/1024 = 0.0009765625`, which satisfies the requirement. The interval argument establishes the bound without requiring a previously calculated decimal expansion of the root.
+
+**Resource and accuracy consequences.** There are nine midpoint-square comparisons in this case. For finer tolerances, the dyadic numerators and denominators grow; a count of comparisons alone does not include the growing cost of exact squaring. A finite precision version must preserve the bracket decisions and avoid a midpoint that rounds to an endpoint while the tolerance remains unmet. Output rounding also consumes accuracy. These are returns to arithmetic and representation choices, not evidence that the exact rational construction failed.
+
+For a costly general continuous function, an established bracketed method using interpolation may save function evaluations. Bisection remains useful when a simple interval argument and predictable reduction are worth the extra evaluations. For a function not known to be continuous, a sign change alone does not justify this root argument. A demand for an exact finite decimal expansion of this irrational root changes the answer format to an impossible one; an exact symbolic expression or a rational approximation is a different, obtainable request.
+
+#### C.29.2:5.3 - Count a dense state before allocating it
+
+**Question.** Can a proposed dense numerical pure-state array for 50 qubits fit in a 64 GiB memory budget? The representation stores one complex amplitude for each binary string of length 50. There are two choices at each position, hence `2^50` entries. Stipulate 16 bytes per stored complex value: two 8-byte components.
+
+The payload alone is:
+
+`16 × 2^50 = 2^54 = 18,014,398,509,481,984 bytes`,
+
+or `16 PiB = 16,777,216 GiB`, where `1 GiB = 2^30 bytes` and `1 PiB = 2^50 bytes`. Since `64 GiB = 2^36 bytes`, the payload exceeds the budget by a factor of `2^18 = 262,144`. Workspace, copies and indexing cannot reduce this payload requirement. This rejects the proposed dense allocation without building the simulator.
+
+**The count is tied to a representation.** It says nothing by itself about the cost of every way of answering a quantum-modeling question. Using 8 bytes per amplitude halves the payload to 8 PiB and still fails this budget; it also changes numerical precision. Discarding small amplitudes requires an error argument for the requested output. Calling the representation sparse supplies no bound on the number of retained entries or on growth during its operations.
+
+**Construct a restricted alternative.** Suppose the admitted states are products of 50 normalized single-qubit pure states, every operation is a single-qubit unitary gate, and the requested output is the probability that a named qubit is read as 1. Store the 50 pairs `(alpha_i, beta_i)` instead of the full array. The corresponding joint amplitude for bit string `s` is the product, over positions `i`, of `alpha_i` when `s_i=0` and `beta_i` when `s_i=1`.
+
+Initialize each pair from its supplied single-qubit state. For a gate with unitary 2-by-2 matrix `U` on qubit `i`, replace just that pair by `U*(alpha_i,beta_i)`, retaining the old two values while computing both new ones. The tensor-product rule preserves the product form, and unitarity preserves the pair's normalization. For normalized pairs, return `|beta_i|^2`. The payload is now `50 × 2 × 16 = 1,600 bytes`, with additional algorithm and representation overhead to be counted separately.
+
+Starting with all pairs `(1,0)`, apply the Hadamard operation `(a,b) -> ((a+b)/sqrt(2),(a-b)/sqrt(2))` to the first pair. It becomes `(1/sqrt(2),1/sqrt(2))`, and the requested probability for the first qubit is `1/2`. The construction uses a fixed number of complex operations per gate and stores only the pairs. Its structural factorization is exact under the admitted model; stored numerical coefficients still require their precision account.
+
+An entangling gate can invalidate that representation. The two-qubit state with nonzero amplitudes `1/sqrt(2)` at `00` and `11` and zeros at `01` and `10` cannot be one product: nonzero `alpha_0*alpha_1` and `beta_0*beta_1` would make all four factors nonzero, contradicting a zero cross term. The product procedure must therefore reject that extension or receive a richer representation and update algorithm. Even in the product class, requesting all `2^50` amplitudes explicitly restores an exponential output count.
+
+**First result and next contribution.** The original dense proposal is ruled out. The factorized procedure answers the separately stated restricted question; it is not a replacement for an unspecified general circuit. To continue, recover the actual input-state and gate family, requested observable or samples, and tolerated error, then obtain and cost an applicable domain algorithm. The general method supplied the count and the construction question; quantum simulation supplies the representations and update/readout algorithms.
+
+#### C.29.2:5.4 - Obtain different computations from the same circuit relations
+
+**Model and questions.** An ideal resistor and capacitor are connected in series to a voltage source. Let `i` flow toward the capacitor's positive plate, `v_R` be the resistor's voltage drop in that direction, and `v_C` the capacitor voltage. Use `R = 10 ohm`, `C = 0.1 F` and these relations:
+
+```text
+v_s = v_R + v_C
+v_R = R*i
+i = C*dv_C/dt
+```
+
+The equalities do not assign a computational direction. One question supplies the source voltage and asks for current; another supplies a desired current and asks for the source voltage. Keep the component relations while changing which quantities are given and which must be obtained.
+
+**Voltage given: construct the trajectory and its readouts.** Take constant `v_s = 12 V` and the initial condition `v_C(0) = 2 V`. Substitute the first two relations into the third:
+
+`dv_C/dt = (v_s - v_C)/(R*C)`.
+
+The reduced differential state is `v_C`. Retain `v_R = v_s - v_C` and `i = (v_s - v_C)/R` as readout expressions, so eliminating those variables from the state does not remove the requested outputs.
+
+Here `tau = R*C = 1 s`. Put `z = v_s - v_C`; then `dz/dt = -z/tau` and `z(0) = 10 V`. Thus `z(t) = (10 V)*exp(-t/tau)`: differentiation gives `dz/dt = -z/tau`, and substitution at zero gives the prescribed initial value. Recover the original quantities as `v_C = 12 V - z`, `v_R = z` and `i = z/R`. At `t = tau*ln(2)`, the exponential is `1/2`, so the returned quantities are `v_C = 7 V`, `v_R = 5 V` and `i = 0.5 A`.
+
+**Current given: choose another computational dependency.** Now require `i(t) = 0.5 A` and keep `v_C(0) = 2 V`; the source voltage is to be found. The same relations give `dv_C/dt = i/C = 5 V/s`, hence `v_C(t) = 2 V + (5 V/s)*t`. Then `v_R = R*i = 5 V` and `v_s(t) = 7 V + (5 V/s)*t`. At `t = 0.1 s`, return `v_C = 2.5 V`, `v_R = 5 V` and the required `v_s = 7.5 V`.
+
+Release the earlier condition `v_s = 12 V` when making `v_s` an unknown. Keeping it would contradict the new question already at `t=0`, where the relations require `v_s = 7 V`. This change chooses another computation from the model; whether a source can deliver the resulting waveform is a C.29.3 question.
+
+**Structural reduction and numerical choice are separate.** The substitutions remove algebraic unknowns and retain their reconstruction formulas under `R,C > 0`. They do not select a time-stepping algorithm. The closed form is adequate for the constant-voltage question above. A numerical variant could instead take a forward Euler step:
+
+`v_C_next = v_C + h*(v_s - v_C)/(R*C)`.
+
+With `h = 0.1 s`, its first step gives `v_C_next = 3 V`, from which the readouts are `v_R = 9 V` and `i = 0.9 A`. The closed form gives `v_C(0.1 s) = 12 V - (10 V)*exp(-0.1) ≈ 2.95162582 V`; this step's voltage error is about `0.04837418 V`. Selecting a step rule and size therefore needs the requested accuracy. The exact elimination of `v_R` and `i` did not cause that time-discretization error.
+
+**Consistent initialization is another problem.** In the voltage-given question, the prescribed `v_C(0)=2 V` and `v_s(0)=12 V` force `v_R(0)=10 V`, `i(0)=1 A` and `dv_C/dt(0)=10 V/s`. An initializer's guess `i(0)=0 A` may be replaced while finding these values. Making `i(0)=0 A` an additional required condition instead contradicts the relations. The capacitor's prescribed initial voltage represents an initial physical condition in this model. A starting guess guides numerical search; the resulting numerical approximation is assessed against the initial constraints and required accuracy.
+
+For a larger differential-algebraic model, obtain the needed consistent-initialization, tearing or index-reduction Method from that discipline. Return the actual equations, givens, initial constraints and requested readouts with the unresolved question. A numerical initialization failure alone does not establish that the constraints are inconsistent; the contradiction in this small case follows from the displayed algebra.
+
+#### C.29.2:5.5 - Construct a probability estimate with a specified error guarantee
+
+**Question and available operation.** Estimate a fixed unknown probability p from independent binary observations X_1,...,X_n with the same probability p of 1. Require the procedure's probability of an error of at least 0.05 to be at most 0.05, for every p in [0,1]. The sampling operation and its independence are premises supplied to this construction; C.29.3 examines their realization.
+
+**State and procedure.** Retain two integer counters: observations read j and ones observed s, initially zero. For each observation x, set s = s+x and j = j+1. After the selected n observations, return p_hat = s/n. The invariant is that s counts the ones in the first j observations. Thus the counters obtain the sample mean without retaining every observation.
+
+**Choose n from the guarantee.** For a binary observation, E[X]=p and Var(X)=p*(1-p) ≤ 1/4. Independence gives E[p_hat]=p and Var(p_hat) ≤ 1/(4*n). On the event |p_hat-p| ≥ epsilon, the squared error is at least epsilon². Therefore
+
+~~~text
+epsilon² * P(|p_hat-p| ≥ epsilon)
+    ≤ E[(p_hat-p)²]
+    = Var(p_hat)
+    ≤ 1/(4*n).
+
+P(|p_hat-p| ≥ epsilon) ≤ 1/(4*n*epsilon²).
+~~~
+
+Taking n = 2,000 makes the bound 0.05 at epsilon = 0.05. The guarantee concerns repeated executions under the sampling model; it is not a posterior probability assigned to p after seeing one estimate. For instance, s=1,100 returns 0.55, while the guarantee still belongs to the stated procedure.
+
+This construction consumes 2,000 observations and counter updates. Each counter needs 11 bits to represent values through 2,000; the output can be retained as the rational s/2,000. Include the cost of obtaining an observation when that cost matters. This conservative bound already supplies a finite construction; a sharper concentration argument can reduce the required observations when that saving is worth obtaining.
+
+**Change the sampling premise.** If every read repeats one sampled bit B, then p_hat=B for every n. At p=0.5, its error is always 0.5, so the requested guarantee fails. More reads of that retained bit do not repair the construction. Obtain a sampling operation with the required independence, or recompute the error bound from the dependence actually supplied.
+
+### C.29.2:6 - Bias-Annotation
+
+| Bias | Correction that changes the work |
+| --- | --- |
+| Formula familiarity | Separate a condition on answers from the operations that obtain them; an existing executable construction can close the gap. |
+| Digital-machine default | Treat supported physical operations as possible formulation inputs, while requiring a meaningful computational interpretation. |
+| Exact-arithmetic default | Name representable values and operation semantics before transferring a proof to finite precision. |
+| Successful-example confidence | Preserve the traced result but obtain the argument needed for a larger input claim. |
+| Cheap-operation assumption | Recount when operand length, data movement or requested output size grows. |
+| Representation inevitability | Reject the failed representation at its demonstrated scope; test a concrete alternative rather than claiming the problem is impossible. |
+
+### C.29.2:7 - Conformance Checklist
+
+Apply these checks to the computational claim being made.
+
+| Check | What must be recoverable |
+| --- | --- |
+| Answer and scope | The input class, required answer and any accuracy or interaction condition; an output characterization is distinguishable from its obtaining procedure. |
+| Represented distinctions | Input meaning, computational state and output interpretation, including a retained distinction that a later operation needs. |
+| Available operations | What each consequential operation does and where any non-elementary construction comes from. |
+| Obtaining construction | An executable ordering, an applicable solver for declared relations, another specified computational behavior, or a substantive missing-construction task. |
+| Argument | A proposed computation has a worked case and the argument needed for its claimed range, including termination or response properties when claimed. An obstruction has an argument establishing its scope. |
+| Accuracy | The error relation or probability guarantee used by the receiver and the arithmetic, approximation, sampling and interpretation conditions that support it. |
+| Resources | The relevant element/operation counts, per-element or per-operation costs, size parameters and material preparation/readout costs. |
+| Result boundary | A qualified answer, restriction or obstruction; no unsupported promotion of one trace, failed representation or simulated execution. |
+| Return | The failed connection and the contribution that can change it, without requiring further work after a sufficient result. |
+
+### C.29.2:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Repair |
+| --- | --- |
+| “Solve the constraints” is the algorithm | Supply an applicable solver or construct the search/update procedure, with its input class and result guarantee. |
+| Store only the current answer estimate | Recover the control position, bounds, pending work or other information the next operation actually needs. |
+| A branch chooses an exactly known sign of an arbitrary real value | Explain how that sign is obtainable from the available representation; use a justified enclosure or return the unresolved comparison. |
+| The invariant holds, so the loop finishes | Supply the separate progress argument or state the continuing behavior actually intended. |
+| A tiny equation residual proves a tiny answer error | Connect residual to output error under the applicable conditioning or other subject argument. |
+| One matrix operation costs one step | Expand the operation count and storage for the actual matrix dimensions and representation. |
+| The dense array fails, so no simulation is possible | Retain the dense-allocation rejection; examine the needed output and an applicable alternative algorithm. |
+| A smaller numeric type is an exact compression | State the changed precision and establish the error consequence. |
+| A reference simulator defines what the physical system did | Retain the computational result and use C.29.3 for preparation, execution and result-reading correspondence. |
+
+### C.29.2:9 - Consequences
+
+The practitioner can now tell whether the computation answers the question, answers a useful restricted question, or still lacks a particular construction. Procedure recovery can expose missing information before implementation, and a representation-level estimate can reject an infeasible design before substantial resource use.
+
+The cost is making the answer-producing connection explicit. For an ordinary small calculation this may take only a few lines. A large or delicate problem can require substantial algorithmic and numerical work; this pattern helps identify that work and connect its results, but does not remove it. Retaining a simple reference procedure may cost extra implementation effort while providing an intelligible comparison for an optimized candidate.
+
+### C.29.2:10 - Architectural Rationale
+
+**Why formulate around the answer and operations together?** Starting with a data structure is convenient when it already supports the required query. Otherwise it can discard the needed distinction or force an unnecessarily expensive computation. Starting only with an answer predicate has the opposite defect: it can hide unavailable operations. Connecting the two makes each choice answerable to the same use.
+
+**Why recover a known construction before inventing another?** Its procedure and argument may already resolve the question at low cost. A new representation or specialized algorithm becomes worthwhile when a concrete input property, repeated use, precision requirement or resource limit changes the result. A direct formula, a library routine, exhaustive enumeration and a new algorithm are genuine alternatives; none wins merely by looking more formal or sophisticated.
+
+**Why keep a simple procedure when a faster one exists?** A small exact baseline exposes meaning and can provide expected results for selected implementation tests. Bisection's interval reduction is easy to inspect; a more elaborate solver can reduce expensive evaluations. The choice depends on the present cost of evaluation and the needed guarantee. A reference calculation is not required if an already adequate construction supplies those answers.
+
+**Why separate computability, correctness and feasibility?** A finite procedure can be correct yet exceed available memory. A fast implementation can return the wrong interpretation. A failed search can leave computability open. Distinguishing these questions makes the return useful: obtain a construction, repair its argument, choose another representation, or change the execution arrangement.
+
+**Why allow formulation to return from realization?** Available physical operations may suggest a better computational model, and a mismatch may reveal that an assumed primitive or output is unavailable. The connected use therefore permits revising the formulation and the proposed executing arrangement together. The formulation still needs an interpretable result and a justified computational claim; the physical comparison remains a separate contribution.
+
+### C.29.2:11 - SoTA-Echoing
+
+**Practice question.** What is the strongest usable way to turn a stated mathematical result into a computation at the effort warranted by the task? The selected line is to reuse an applicable construction when possible, make its input/output meaning and argument explicit, and compare alternatives using the accuracy and resources that can change the answer. There is no single best algorithm across the input classes in this pattern.
+
+#### C.29.2:11.1 - Meaning and correctness before a larger claim
+
+The current [Dafny tutorial, “Loop Invariants” and “Termination”](https://dafny.org/latest/OnlineTutorial/guide#loop-invariants), demonstrates constructing a preserved relation to the answer and proving progress separately. **Adapt** that practice in :4.4 and :5.1: a short manual argument can establish the finite interpreter's stated semantics; a few traces cannot establish its whole input class. Mechanized checking is a serious alternative when program complexity or assurance needs justify its specification and proof effort. Reopen the choice when the procedure or required assurance becomes too large for the retained argument.
+
+#### C.29.2:11.2 - Choose numerical methods by their guarantees and costs
+
+The [SciPy bisection documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.bisect.html) states the bracketing premises and its absolute-plus-relative termination criterion. **Adopt** explicit tolerance selection in :4.5; library defaults need not match the receiver's requirement.
+
+[The documented Brent routine](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.brentq.html) is a serious alternative combining bracketing, bisection and interpolation. **Adapt** the choice in :5.2: retain bisection for its simple bound and small exact case, while considering Brent's method when function evaluations are costly. The deliberate trade-off is a simpler argument for potentially more evaluations. Reopen for a changed function class, tolerance, evaluation cost or finite precision failure.
+
+#### C.29.2:11.3 - Cost the represented objects, not the problem label
+
+[Qiskit Aer's simulator documentation](https://qiskit.github.io/qiskit-aer/stubs/qiskit_aer.AerSimulator.html) supplies a concrete current comparator: dense state-vector storage, alternative simulation representations, and controls that discard matrix-product-state coefficients. **Adopt** representation-sensitive counting in :4.6 and **reject** treating a truncation setting as an accuracy guarantee for an arbitrary observable. The :5.3 payload arithmetic and restricted product-state construction expose the relevant gain directly. The suitable general simulator remains unselected until the state family, operations, output and error are known. Reopen the calculation when those conditions or the actual algorithm change.
+
+#### C.29.2:11.4 - Let executing capabilities change the formulation
+
+[Kalita, Butler, Stepney and Kendon, *Novel models of computation from novel physical substrates: a bosonic example*, v1 (2026), §§1, 3–4](https://arxiv.org/html/2603.24531v1), develop computational concepts, a language and reference implementation from a physical-model contribution. Their bosonic example includes probability distributions in the computational meaning. **Adapt** the reverse entry in :4.2 and the return in :4.7 instead of requiring every device to implement a preselected model. This is a research Method candidate with a bosonic illustration. Section 4.7.1 explicitly leaves physical implementation for later work; its simulation does not establish device execution.
+
+[Stepney, *Co-designing the computational model and the computing substrate* (2019), §§4–5](https://eprints.whiterose.ac.uk/id/document/1547865), proposes jointly exploring model and substrate rather than fixing one permanently. **Adapt** that reciprocal return while retaining a settled model when it already answers the use. Joint design costs a larger search; undertake it when a capability or mismatch can change the useful computation. The paper's demonstrated reservoir-characterization work does not establish the proposed general co-design process. Reopen for a useful operation excluded by the chosen model or a formulation whose required operation cannot be realized.
+
+#### C.29.2:11.5 - Keep structural reformulation and numerical solution distinct
+
+[ModelingToolkit's model-building reference, “System simplification” and “Exploring the results of simplification”](https://docs.sciml.ai/ModelingToolkit/stable/API/model_building/), describes reformulating equations and recovering eliminated variables through stored expressions. **Adopt** that pairing in :4.2 and :5.4. Hand substitution suffices for the small circuit; a symbolic compiler becomes useful when model size or changing equations make that work substantial.
+
+[Its initialization tutorial](https://docs.sciml.ai/ModelingToolkit/stable/tutorials/initialization/) distinguishes required conditions from guesses and shows how changing the givens can require releasing a retained constraint. **Adapt** that distinction when parameters or initial quantities become unknowns. Consistency of an initial system and numerical success in finding its solution are different questions.
+
+[Dyad's transient-analysis documentation](https://help.juliahub.com/dyad/stable/analyses/transient.html) separates the initial-value problem from algorithm and tolerance choices. **Adopt** that separation: structural reduction supplies a computational problem and recoverable outputs; numerical analysis supplies an appropriate solution method and accuracy argument. Reopen the affected choice when equations, initial constraints, requested outputs or accuracy change.
+
+### C.29.2:12 - Relations
+
+- **Member of C.29:** supplies the computational formulation used when the mathematical account does not yet provide a way to obtain its consequence. Direct entry is available.
+- **Uses C.29.1 when needed:** establishes the result-preservation or bounded-transfer claim for a representation reduction or changed operation.
+- **Exchanges results with C.29.3:** supplies represented inputs, operations, output interpretation and computational conditions; receives execution limits or available capabilities that can revise them.
+- **Uses B.5:** recovers an available construction and its argument from an explanation, and revises dependent reasoning when premises change.
+- **Uses A.3.3:** constructs sufficient state and permitted continuations, including control and retained history when required.
+- **Uses A.6.3.RT:** constructs expressions under available notation rules and checks the content of a representation change. Notation- or language-design methods supply missing rules.
+- **Uses C.39 and C.40 by their entry conditions:** obtains a missing way, or develops branching search when a workable change-and-test operation is available.
+- **Uses subject Methods:** algorithm design, numerical analysis, symbolic computation and other computational disciplines supply their specific constructions, proofs and cost models. C.16 and physical-modeling methods supply measurement and empirical conditions when the requested result depends on them.
+- **Coordinates with A.3.1, A.6.1, B.1.5 and B.1.6:** Method identity, an explicitly needed operation declaration, composition of identified Methods and resource accounting for performed Work remain under those patterns. A description of a procedure is not a claim that its execution occurred.
+- **Uses C.2.1, A.10 and B.3 for the corresponding claims:** C.2.1 governs episteme identity, A.10 governs evidence use, and B.3 governs assurance of the particular result and reliance being asserted.
+
+### C.29.2:End
+
+## C.29.3 - Computational Realization
+
+> **Type:** Method pattern
+> **Status:** Draft
+> **Normativity:** Normative unless marked informative
+
+### C.29.3:1 - Problem frame
+
+**Use this when** a computation is available, but the proposed executing arrangement has not yet been connected to its inputs, operations and interpretable results. A motor interface may accept a different number from the one calculated. A circuit may produce a voltage whose scale differs from the input scale. A material admission procedure may preserve a count only while several people share the same stock of cards.
+
+Start with one input the work needs. Explain how it is prepared in the proposed system, which actions perform the computation and how the result is read. Compare the interpreted result with what the abstract computation requires. A failed input preparation, such as a command outside the interface's range, can already determine a useful repair.
+
+The first result is a realization design under stated conditions, an interpreted result from an execution, or a particular failed connection with a proposed correction. The method helps construct and use that connection. The engineering of a circuit, controller, physical apparatus or administrative arrangement supplies the mechanisms that perform the computation.
+
+The reader should understand the intended computation and be able to obtain explanations of the system's relevant operations. The examples supply their arithmetic, elementary electrical account and card rules. More demanding uses need the corresponding knowledge of hardware, numerical methods, physical models or concurrent operation.
+
+Use an adequate existing implementation directly when its inputs, behavior and result interpretation already meet the receiving need. Use C.29.2 when the computational procedure itself must be constructed. Use B.5.MPC when the open question also concerns which physical account and mathematical question can answer the original problem.
+
+### C.29.3:2 - Problem
+
+An abstract operation can be well defined while its proposed execution changes the question. The integer 63,662 can be the right calculated command and be delivered as -1,874 by an overflowing signed field. A circuit can correctly average two voltages while its user reads that average as their sum. Two attendants can each follow the same capacity rule while admitting twice the intended number of visitors through duplicated stocks.
+
+The failure can occur before execution, during intermediate actions or when the result is interpreted. More arithmetic at the middle of the calculation leaves those failures in place. A successful trace of one input can also leave another required input outside the representable range, or omit an interleaving that breaks a shared-state assumption.
+
+A practitioner needs to construct the correspondences, establish the property needed by the receiving use and locate which part to change when the interpreted execution fails to supply that property. The useful comparison can concern a value, a bound, a probability distribution or a property maintained throughout an interaction.
+
+### C.29.3:3 - Forces
+
+| Force | Working tension |
+| --- | --- |
+| Abstract freedom and available means | A mathematical input or operation may have no preparation or execution in the proposed arrangement. |
+| Useful abstraction and intermediate behavior | One logical step can be convenient for reasoning while its physical implementation has consequential intermediate states. |
+| Input meaning and output meaning | The same carrier can represent different quantities at different points; preparation and readout need their own interpretations. |
+| A demonstrated case and a stated range | A small case exposes mistakes, while a claim covering many inputs needs an argument or evidence that covers them. |
+| Precision and useful consequence | Exact equality may be unnecessary; an unexplained error can still defeat a threshold decision. |
+| Fixed computation and adaptable arrangement | Changing an interface can preserve a computation; changing its formulation can sometimes use the available arrangement more effectively. |
+
+### C.29.3:4 - Solution
+
+Build and compare two routes from an input to the result required by the use:
+
+~~~text
+input → abstract computation → required result
+
+input → prepared system
+      → system actions
+      → interpreted result
+~~~
+
+The second route must supply the result relation needed by the receiving work. This can be equality, a bound, agreement of output distributions or a property of continuing behavior. Input preparation and output interpretation can differ.
+
+**Recover the needed result → prepare a representable input → construct the executing actions → interpret the output or behavior → compare the routes → repair the failed connection → use the sufficient result.**
+
+Enter at an already available contribution. A known device behavior can guide a revised formulation; a settled implementation can supply an operation within a larger computation.
+
+#### C.29.3:4.1 - Determine what the receiving work needs
+
+State the inputs and the consequence to be supplied. For a terminating computation, identify the output and its meaning. For continued interaction, identify the property that must hold across the relevant histories: for example, whether another admission is permitted without exceeding capacity.
+
+Choose the comparison accordingly. An integer command can require equality of counts. A physical readout can support an interval containing the computed value. A concurrent procedure can need a bound that holds during every permitted intermediate state.
+
+For a sampling computation, identify the requested distribution or statistic and the discrepancy that the receiving use can tolerate. Individual draws from two adequate samplers can differ. If the computation supplies an estimate to a larger learning or control method, determine what accuracy that method needs from the estimate.
+
+Keep the computational result and its later physical use distinguishable. A controller can calculate a command, and an actuator can then change a physical system. The calculation and the resulting movement consume different premises. In the robot example below, the interface must realize the intended count; interpreting that count as travel additionally uses the motion model.
+
+Use the available premises for a conditional design. An assertion about a performed execution uses the observations and operating circumstances needed to establish that assertion. Additional testing is selected for what it could change in the receiving decision, through C.11.DUA.
+
+#### C.29.3:4.2 - Construct input preparation
+
+Explain how a required input is set in the system. Identify the physical or operational state that represents it: a stored value, an applied signal, an arranged material stock or another prepared condition.
+
+Determine the admitted range and the relevant distinctions. A signed field has a finite range. A voltage input has units and a reference. A stock of three exclusive cards differs from two independent stocks of three. Recover initial state when the input is interpreted relative to it.
+
+Apply the preparation to the required input. If it cannot be represented, choose among changing the encoding, changing the arrangement, restricting the input set or revising the computation. A large integer can sometimes be represented by several smaller values, but their execution must preserve the intended composition.
+
+State rounding or other preparation loss in the same quantity that the receiving comparison uses. Retain a sufficient bound when it answers the question. Locate a lost distinction before deciding that a more precise number will restore it.
+
+#### C.29.3:4.3 - Construct the actions that execute the operations
+
+For each operation whose realization is unresolved, identify what the system does and how its state changes. Connect sequences through the state they leave for the next operation.
+
+When one logical operation spans several physical actions, examine the intervening states. Reserving a card, crossing a room boundary and returning the card are separate events. A visitor can be outside while the card is unavailable. Either show that the intervening behavior preserves the needed result, or change the model or the arrangement.
+
+For shared operation, determine how the same resource or state is accessed. Exclusive possession means that each card can be held by only one participant at a time. Independent copies of an available-card count require a different coordination mechanism. The applicable engineering or administrative method supplies that mechanism.
+
+For repeated or timed operation, include completion, reset and ordering where they affect the result. Two relative increments add only when both are executed under the intended rule. Repeating an absolute target ordinarily asks for the same target again. An ongoing physical process can require a temporal model rather than a sequence of instantaneous assignments.
+
+A physical evolution can itself perform the computation. Determine which initial preparation, controls and interval make its readout useful. A sampler may use a stationary law; a finite-time estimator may use a transient. Choose the evolution and reading rule for the requested result.
+
+A.3.3 supplies the construction of state and permitted continuations. A.6.1:4.6 supplies the realization relation when a reusable operation declaration needs it. Their contributions leave the particular circuit, physical interaction or operating procedure to its subject method.
+
+#### C.29.3:4.4 - Construct result interpretation
+
+Identify the state or indication that the receiver can actually obtain, and explain how it yields the computational result. Give its scale, reference, timing and aggregation rule wherever those change the answer. When several observations yield an estimate, include their dependence in the sampling argument; the number of readings alone does not determine the estimate's uncertainty.
+
+Derive this interpretation from the executing relation. An input scale need not be the output scale. In the analog example below, each input uses one volt for ten units, while the output uses one volt for twenty units.
+
+Check whether different possible outcomes have become indistinguishable to the readout. Counting unavailable cards can bound occupancy without determining it. A command acknowledgment can establish receipt without establishing completed motion. In each case, return the consequence the indication supports.
+
+Use C.16 when reading the result requires a measurement model. Instrument loading, calibration, finite resolution or disturbances enter that model when they change the inference. A bound or another suitable indication can answer the question without reconstructing an inaccessible exact value.
+
+#### C.29.3:4.5 - Compare the routes over the claimed scope
+
+Work a small input through both routes with its meanings intact. Then establish why the required relation holds over the input range or histories for which the result will be used.
+
+For a finite case, a complete case analysis can suffice. For an invariant, show it in the initial state and show how every permitted operation preserves it. For an approximate result, propagate the relevant losses to the quantity used by the receiver. For a sampler or statistical estimator, compare the relevant distributions or estimation properties. Use the mathematical, numerical or empirical method appropriate to that claim.
+
+For example, a required binary sampler gives output 1 with probability 0.5. Suppose the device model gives probability p between 0.49 and 0.51 under the intended preparation. The absolute discrepancy in that probability is at most 0.01, so it meets a tolerance of 0.02. Comparing two individual draws cannot establish or refute that distributional result. Estimating p from a finite run requires the sampling assumptions and uncertainty calculation appropriate to those observations.
+
+When the requested result contains several random components, compare their joint behavior. Suppose the target is a pair of independent fair bits. Preparing one fair bit B and returning (B,B) gives the right distribution at each output separately. But the target assigns probability 1/2 to unequal outputs; this system assigns probability 0. Using two independent draws gives each of the four pairs probability 1/4 and restores the requested result. The realization must provide that joint sampling behavior. When its observations are dependent, use the actual joint law or change how the second component is obtained.
+
+Choose changed cases from consequential features of the arrangement: an endpoint of the command range, a different initial state, an overlapping action or a possible indication error. These cases help locate failures. A sampled success supports the tested case; the broader argument supplies the broader conclusion.
+
+Separate three possible outcomes:
+
+- The interpreted execution supplies the required result under the stated conditions.
+- It supplies a weaker result, such as an interval or occupancy bound, that may still answer the receiving question.
+- A connection fails or remains unknown, and its location determines the next construction, observation or restriction.
+
+#### C.29.3:4.6 - Repair the connection and its dependents
+
+Return to the part that changes the answer. Repair input preparation when a value cannot be represented. Repair the execution when permitted actions violate the intended operation. Repair readout when the available indication has been given the wrong meaning. Revise the physical or computational model when its retained state cannot express the relevant behavior.
+
+Compare repairs by the result the work needs. Restricting a command range may be sufficient for one device. Splitting commands may preserve a larger range at the cost of extra execution time. Include the preparation, conversion, repeated execution and readout consumed by the proposed repair when comparing its cost with the available alternatives. A stronger sensor may be unnecessary when a conservative bound already settles the action.
+
+Revisit contributions that consume the changed value, meaning or condition. Retain independent results whose assumptions still hold. B.5.MPC connects this local repair to the wider physical, mathematical and computational question.
+
+When adapting the formulation and the apparatus together could improve the result, compare both directions. Ask which physical operations are available, how they can be interpreted computationally, and which change to the arrangement would make the useful operation easier or more reliable. C.29.2 develops the resulting formulation. Designing a new computational model or notation can require a substantial further method; name that task when the present construction reaches it.
+
+#### C.29.3:4.7 - Return the result at the strength obtained
+
+Give the usable realization, input conditions, interpreted consequence and the change that would require reconsideration. Preserve the derivation or operating explanation at the depth needed by its receiver; a short calculation may be enough.
+
+A conditional design can finish before a device is built. An observed execution can establish a result for its actual conditions. An identified incompatibility can stop an unsuitable implementation and open another. Further information or assurance is obtained when the receiving use requires its contribution.
+
+### C.29.3:5 - Archetypal Grounding
+
+These constructed cases expose different realization failures. They establish consequences of the stated models; using an actual apparatus also requires the relevant physical and operating knowledge.
+
+#### C.29.3:5.1 - Carry a calculated count through a finite command interface
+
+A robot's supplied motion model uses rolling without slip, effective wheel radius 0.05 m, ten motor revolutions per wheel revolution and one thousand commanded increments per motor revolution. Positive motor increments produce forward travel. Successful execution completes the requested relative increment.
+
+For a requested distance d, calculate and round:
+
+~~~text
+N = nearest integer to ((d / (2π × 0.05 m)) × 10 × 1000)
+modeled displacement = N / 10000 × 2π × 0.05 m
+~~~
+
+One metre gives 31,831 increments and a modeled displacement of approximately 1.0000003576 m. Rounding contributes at most half an increment, approximately 0.0000157080 m. This bound concerns command discretization under the supplied motion relation.
+
+The interface accepts signed 16-bit values from -32,768 to 32,767. The one-metre input is representable. Two metres require 63,662 increments, which cannot be prepared as one positive value in that field.
+
+Suppose the interface wraps modulo 65,536 and interprets the result as signed. Then:
+
+~~~text
+63,662 − 65,536 = -1,874
+modeled displacement ≈ -0.0588734463 m
+~~~
+
+The calculation of the desired count remains correct; input preparation changes the delivered count. An interface that rejects the value would produce a different failure, so the actual interface behavior matters.
+
+One repair uses two completed commands of 31,831. Under the relative-addition rule, their total is 63,662 and their modeled displacement is approximately 2.0000007151 m. The preparation now supplies two representable values, and the execution argument uses addition across their completed displacements.
+
+If a command means "reach this absolute count," repeating 31,831 leaves the same target. For an absolute interface, reconstruct the target from the initial count and check that the resulting target is representable. B.5.MPC supplies the wider comparison when the motion model or the count's physical meaning also changes.
+
+A range restriction is another useful repair. The largest positive relative command corresponds to approximately 1.0294056648 m under this model. Whether that restriction is adequate depends on the requested motion. A deadline can make two commands unsuitable even when their displacements add.
+
+The result is a command procedure with a stated input range and composition rule. For actual travel, determine whether the commands were completed and use a measurement or physical relation that accounts for consequential slip and effective radius.
+
+#### C.29.3:5.2 - Read an analog sum with the output scale it needs
+
+An existing analog channel is intended to supply the sum of two numbers x and y in the range 0 to 10. Its input preparation sets voltages:
+
+~~~text
+Vx = x / 10 volts
+Vy = y / 10 volts
+~~~
+
+Each source is connected through an equal resistor R to one common node. The supplied electrical model has ideal voltage sources, equal resistances, settled behavior and a readout drawing negligible current. The resistor-current relation and current balance at the node give:
+
+~~~text
+(Vx − Vout) / R + (Vy − Vout) / R = 0
+Vout = (Vx + Vy) / 2
+~~~
+
+The arrangement physically produces an average voltage. To obtain the intended sum, derive its readout:
+
+~~~text
+decoded result = 20 × [Vout expressed in volts]
+               = x + y
+~~~
+
+For x = 8 and y = 6, preparation gives 0.8 V and 0.6 V. The node gives 0.7 V. Decoding returns 14. Reusing the input scale, ten units per volt, would return 7.
+
+The abstract and physical routes now agree. Input preparation and output interpretation use different factors because the intervening operation halves the voltage sum.
+
+Now allow each prepared input voltage an error of at most 0.001 V. Suppose the readout indication has an additional error of at most 0.002 V under the same circuit model. The worst-case error in the indicated output is:
+
+~~~text
+0.5 × 0.001 V + 0.5 × 0.001 V + 0.002 V = 0.003 V
+decoded-result error ≤ 20 × 0.003 = 0.06
+~~~
+
+An absolute tolerance of 0.1 is therefore met under these bounds. A tolerance of 0.01 is not established by them. Better input setting or readout, a different realization, or a weaker receiving requirement would need comparison. The bound is deterministic; no cancellation or probability distribution has been assumed.
+
+If the instrument loads the node or the resistor values differ, the stated averaging relation needs revision. Those changes belong in the circuit and measurement account, through C.16 where appropriate. The common realization method supplies the preparation/execution/readout comparison and the receiving error calculation. Electrical design supplies the physical law and actual component behavior.
+
+#### C.29.3:5.3 - Preserve a bound during material admission operations
+
+A demonstration room has a capacity of three visitors. It starts empty with three distinct cards in a free stock. One card is issued to a visitor before entry; the visitor retains it inside and returns it after exit. Every entry follows this rule, each visitor inside holds one card, each card is exclusively assigned, and cards are not lost or duplicated.
+
+The computation is the continuing admission decision and preservation of the capacity bound. People and material transfers execute its finite-state procedure.
+
+A card can be Free, Reserved outside, Inside with its visitor, or Awaiting return after exit. Let F, R, I and E count those states. The fixed stock gives:
+
+~~~text
+F + R + I + E = 3
+occupancy = I
+occupancy = 3 − F − R − E ≤ 3 − F ≤ 3
+~~~
+
+Issuing a card changes Free to Reserved. Entry changes Reserved to Inside. Exit changes Inside to Awaiting return. Return changes Awaiting return to Free. Cancellation can return a Reserved card to Free while its visitor remains outside.
+
+Every operation moves one existing card between states. Entry requires its exclusive reservation. Return requires that its visitor is outside. These conditions preserve both the stock and the association between visitors inside and Inside cards. They establish the capacity bound throughout permitted histories, including overlapping admissions.
+
+After two cards have been issued, one visitor may be inside and the other waiting outside. Then F = 1, R = 1, I = 1 and E = 0. The count of unavailable cards is 2, while occupancy is 1. Reading occupancy as 3 − F would be wrong. That count is an upper bound until R = E = 0.
+
+A second entrance can share the same stock or receive a partition of it, such as two cards at one entrance and one at the other. Both preserve the total of three. Giving the second entrance three copied cards instead permits six simultaneous admissions, despite each attendant following their local procedure.
+
+Partitioning can cause waiting at one entrance while a card is free at the other. Moving an existing free card preserves the total; creating another accepted card changes it. This separates the capacity property from the additional question of useful service across entrances.
+
+The result is a conditional admission arrangement, its preserved bound and a qualified reading of the free stock. The administrative method supplies controlled entry, exclusive possession and return. The mathematical construction makes explicit which physical and procedural properties the computation consumes.
+
+### C.29.3:6 - Bias-Annotation
+
+| Bias | Action-changing consequence | Correction |
+| --- | --- | --- |
+| A correct program is taken to settle its execution | A valid count is changed by preparation or readout. | Follow a required input through the actual encoding and interpretation. |
+| Input and output are assumed to use one scale | The analog sum is read as half its value. | Derive the output interpretation from the executing relation. |
+| Logical atomicity is projected onto physical actions | Reservations and unfinished returns are counted as occupants. | Represent the intermediate states or establish why they leave the required property intact. |
+| Local success hides a shared resource | Two locally correct stocks exceed one room's capacity. | Recover the common stock or state and how each participant changes it. |
+| Numerical precision dominates the account | Command-rounding error hides a larger physical uncertainty. | Express the consequential losses in the receiving quantity before selecting a refinement. |
+
+### C.29.3:7 - Conformance Checklist
+
+Apply the checks to the particular realization and use. Their answers can remain in the working calculation, diagram or operating explanation.
+
+| Check | What must be recoverable |
+| --- | --- |
+| CC-C29.3.1 - Required result | The computation, admitted inputs and receiving equality, bound or continuing property. |
+| CC-C29.3.2 - Input preparation | A way to prepare each claimed input, with its range, initial state and consequential loss. |
+| CC-C29.3.3 - Executing actions | System actions and state changes that perform the operations, including relevant intermediate states and shared access. |
+| CC-C29.3.4 - Interpretation | The obtainable state or indication and the relation that turns it into the result used. |
+| CC-C29.3.5 - Scope of comparison | A constructed case and the argument or evidence supporting the claimed input or behavior scope. |
+| CC-C29.3.6 - Changed conditions | Which preparation, execution or interpretation must be reconsidered when range, timing, ordering or uncertainty changes. |
+| CC-C29.3.7 - Usable outcome | A sufficient realization or interpreted consequence, or a named incompatibility with the next repair. The strength of the claim matches its grounds. |
+
+### C.29.3:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Why it fails here | Repair |
+| --- | --- | --- |
+| Send an unrepresentable answer | A signed field wraps or rejects a value that is valid in the calculation. | Change the encoding or realization, or restrict the admitted input. |
+| Split a command without recovering composition | Two absolute targets do not add like relative increments. | Explain the state and rule connecting the completed commands. |
+| Read the carrier by its familiar scale | The circuit's physical average uses a different decoding from its inputs. | Derive and use the receiving scale. |
+| Infer exact occupancy from unavailable cards | Some assigned cards are outside during reservation or return. | Use the four-state account or retain the upper bound. |
+| Treat one successful run as every required run | An untested endpoint or interleaving can change the result. | Supply the argument or evidence that covers the declared use. |
+| Require a new trial for an adequate conditional design | The trial may leave the design decision unchanged. | Finish with the sufficient conditional consequence; obtain further information when its use warrants it. |
+
+### C.29.3:9 - Consequences
+
+The practitioner can locate an implementation failure without replacing every part of the reasoning. The desired count, arithmetic and motion model can remain useful while input encoding changes. A readout can be repaired while the circuit remains intact. A shared-stock rule can preserve capacity while another method improves waiting time.
+
+The comparison also clarifies the division of work. One contributor supplies the computation, another the executing mechanism, and another the needed measurement relation. Their results join through the preparation and interpretation that the receiving use consumes.
+
+Constructing those connections can cost more than the displayed calculation. Reuse settled implementations and sufficient bounds. A new device, computational model or concurrency mechanism can require substantial specialist work beyond the common method.
+
+### C.29.3:10 - Architectural Rationale
+
+#### C.29.3:10.1 - Why realization needs its own method
+
+Mathematical result transfer compares accounts and their operations. Computational formulation constructs a procedure for the requested result. Realization begins with that procedure and asks how an executing arrangement supplies it. Its new work is preparation, physical or operational execution, readout and comparison under the conditions of use.
+
+A.6.1 provides the declaration and realization relation. It leaves the design and interpretation of a particular executing arrangement to the method that uses the relation. C.29.3 supplies that constructive work within the mathematical-use family. The method can be entered directly with an available computation.
+
+Checking a program alone is useful when its execution environment is already established. It is insufficient for the unresolved interface, readout and shared-stock cases here. The present comparison follows only connections on which the receiving result depends.
+
+#### C.29.3:10.2 - Preparation, execution and interpretation
+
+[Horsman and colleagues (2014)](https://arxiv.org/abs/1309.7979) distinguish abstract computation from its use through physical preparation, evolution and representation. Adopt their comparison as the basis for :4. The practical extension here is to return the equality, bound or behavior needed by the work, and to repair the particular connection that defeats it.
+
+That account is one theory of physical computation. The method uses its constructive comparison without settling every philosophical classification of computing systems. For the declared use, establish whether the interpreted execution supplies the required result under the stated conditions, using :4.5.
+
+The examples explain why both directions matter. Input preparation asks what state can be made; output interpretation asks what result can be obtained from the state or indication. They can have different scales, ranges and physical means.
+
+#### C.29.3:10.3 - Realization and the surrounding physical activity
+
+A computation can contribute to physical control while the controlled system continues to evolve. [Horsman, Stepney, Clarke and Kendon (2026), §§3.3–3.4 and 5.3](https://arxiv.org/html/2604.16162v1) distinguish the compute cycle within control from the broader physical control cycle. Adopt that distinction in :4.1 and the requirement to include consequential timing in :4.3.
+
+The robot calculation supplies a command; the command's execution and its relation to travel supply further claims. In the card arrangement, the abstract admission rule is carried through reservation, crossing and return. The physical conditions that maintain those relations must remain understandable.
+
+#### C.29.3:10.4 - Changing model and means together
+
+A fixed computation can be a useful constraint on the device design. A fixed device can instead suggest more suitable computational operations. [Stepney (2019), §§4–5](https://eprints.whiterose.ac.uk/id/eprint/147381/) proposes combining these directions in model-and-substrate co-design.
+
+[Kalita and colleagues (2026), §§1 and 3–4](https://arxiv.org/html/2603.24531v1) develop the reverse direction through a bosonic-device example: capabilities of the physical system inform a computational model and language. Adapt this source contribution as the formulation return in :4.6. Developing such a language requires its own constructive repertoire; a return from realization identifies that work rather than completing it.
+
+The analog example shows a small instance of the same design freedom. Keeping the averaging circuit and changing its encoding or decoding can supply a useful addition operation. The physical relation constrains which interpretation works.
+
+Thermodynamic sampling and optical ML hardware extend this design choice to computations based on distributions or iterative physical evolution. [Melanson et al. (2025)](https://www.nature.com/articles/s41467-025-59011-x) demonstrate sampling and matrix inversion on a small stochastic circuit. [Kalinin et al. (2025)](https://www.nature.com/articles/s41586-025-09430-z) co-design an optical/electronic fixed-point computation with its learning model. Their different result and execution forms motivate the choices in :4.1–4.5. The detailed sampler, model-training and device-construction Methods supply the corresponding specialist work.
+
+### C.29.3:11 - SoTA-Echoing
+
+The selected answer combines a physical-realization comparison with scope-sensitive result use and a return to formulation when the available means suggest a different construction. The examples are authored conceptual synthesis under their stated models.
+
+| Working question | Source contribution and selected use | Comparison and limit |
+| --- | --- | --- |
+| How does an abstract result become obtainable through a physical arrangement? | **Adopt** preparation, evolution and interpretation from Horsman et al. (2014), as used in :4.2–4.5. | Compared with abstract refinement alone, the comparison exposes input and readout failures. The theory's general classification claims are outside this method's required conclusion. |
+| How does computation participate in physical control? | **Adapt** the compute-cycle/control-cycle distinction from Horsman et al. (2026) in :4.1 and :4.3. | The preprint sharpens the timing and output question. Its broader claim about all control systems is not needed to establish these worked cases. |
+| Should the device or the computational model change? | **Adapt** Stepney's 2019 co-design proposal and Kalita et al.'s 2026 substrate-to-model construction as the two-way return in :4.6. | A fixed-model implementation remains preferable when it meets the use at lower cost. The bosonic example demonstrates a particular methodology; it establishes no general performance advantage for every substrate. |
+| How is a stochastic program realized? | **Adapt** the distinction between a target stochastic program, its compiled kernels and its interpreted readout from [Amico et al. (2026), III and V](https://arxiv.org/html/2608.01615v1), in :4.1 and :4.5. | Comparing local operations, composed output laws and receiving-task results can reveal different failures. The preprint's compilation demonstrations do not establish a general hardware energy advantage. |
+| Must physical evolution reach equilibrium? | **Adapt** the finite-time approximation choice from [Thermodynamic natural gradient descent (2026), Results](https://www.nature.com/articles/s44335-025-00049-x), in :4.3. | A useful inner estimate can support the learning update before equilibrium. The reported thermodynamic timing is estimated; select the interval by the receiving computation's requirements. |
+| How much additional checking is useful? | **Use** C.11.DUA to compare what a further observation, proof or trial could change. | A conditional design can be sufficient. An actual-performance or wider-range claim needs the grounds that its receiving use consumes. |
+
+Reconsider the realization when a required input, observation relation, execution condition or receiving tolerance changes. A new substrate or computational model can also change which preparation, operations and interpretation are worth developing.
+
+### C.29.3:12 - Relations
+
+| Relation | Contribution to the work |
+| --- | --- |
+| C.29 - Mathematical Lens Use | Provides the general correspondence-and-return method and discovery of this realization difficulty. |
+| C.29.1 - Mathematical Result Transfer | Compares operations between accounts when the computational representation itself changes. |
+| C.29.2 - Computational Formulation | Supplies or revises the interpreted procedure that the arrangement is intended to perform. |
+| B.5.MPC - Connect Physical, Mathematical and Computational Reasoning | Connects the local realization to the physical question, mathematical construction and useful consequence. |
+| A.3.3 - U.Dynamics | Constructs the state and permitted continuations needed to reason about intermediate or repeated operation. |
+| A.6.1 - U.Mechanism | Supplies operation-declaration and realization semantics when those relations are asserted. |
+| A.6.3.RT - Representation-Scheme Transition | Helps change the representation of preparation, operations and readout under an available scheme while preserving the content needed for use. |
+| C.16 - Measurement and Metrics Characterization | Supplies the measurement relation and the interpretation limits of a physical indication. |
+| C.11.DUA - Decision-Useful Advice and Evidence Demands | Selects further assurance or information by the receiving decision and its cost. |
+
+### C.29.3:End
 
 ## C.30 - Grounded Architecture and Selected-Structure Adequacy
 
@@ -71287,6 +73121,8 @@ The name comparison covers `FPFEditionRebuildabilityRecord`, `FPFEditionAssembly
 | `LIVE-WORK-STEERING` | Ordinary practical entry |
 | `METHOD-RECOVERY` | Ordinary practical entry |
 | `PROFESSIONAL-RESULT` | Ordinary practical entry |
+| `UNFAMILIAR-THEORY` | Practical-Use Card |
+| `PHYSICAL-RESULT` | Practical-Use Card |
 | `ARCHITECTURE` | Practical-Use Card |
 | `PRACTICE-ARCHITECTURE` | Practical-Use Card |
 | `WORKING-DOCUMENTS` | Practical-Use Card |
@@ -71301,9 +73137,11 @@ The name comparison covers `FPFEditionRebuildabilityRecord`, `FPFEditionAssembly
 | `SOTA-PORTFOLIO` | Practical-Use Card |
 | `SYSTEM-DELIMITATION` | Practical-Use Card |
 
-This is the one FPF declaration consumed by Readme authoring, assembly, and validation; do not maintain another ordinary-entry or card list. It declares nine ordinary examples and thirteen cross-pattern cards, not the scope or limit of FPF help. The Readme must say that FPF and the applicable DPF or LPF can answer a much wider range of questions and must return a reader whose question fits no example to the Table of Contents, another finding aid, or the direct patterns.
+This is the one FPF declaration consumed by Readme authoring, assembly, and validation; do not maintain another ordinary-entry or card list. It declares nine ordinary examples and fifteen cross-pattern cards, not the scope or limit of FPF help. The Readme must say that FPF and the applicable DPF or LPF can answer a much wider range of questions and must return a reader whose question fits no example to the Table of Contents, another finding aid, or the direct patterns.
 
 The selection answers the declared current reader-use questions and passes the no-mantra comparison; it does not claim observation of reader behaviour and does not reproduce the historical fifteen seminar cards or the predecessor twenty-key list. Distinct predecessor questions remain recoverable without keeping one selectable entry for each topic: `CAPABILITY-DEVELOPMENT` is carried by `PRACTICE-ARCHITECTURE` and `IMPROVEMENT`; `COSTLY-ACTION` is carried by `OPTION-COMPARISON`; `DESCRIPTION-USE` is carried by `WORKING-DOCUMENTS`; and `DPF-AUTHORING` is carried by `SOTA-PORTFOLIO`.
+
+`UNFAMILIAR-THEORY` connects recovering a construction and argument with transfer to the project's representation. `PHYSICAL-RESULT` connects physical modeling, mathematics, computation and realization, including returns when one contribution changes. Their mantras retain those dependencies while the direct patterns supply the operations.
 
 `TIME`, `CAUSAL-USE`, `MEASUREMENT`, and `MATHEMATICAL-MODELING` are ordinary examples because each starts with one direct pattern and can stop at its first useful result without a cross-pattern mantra; no `MODELING-FOR-ACTION` card joins them. `LIVE-WORK-STEERING` and `METHOD-RECOVERY` are ordinary examples for the same reason: each begins at one direct pattern and may stop at its first useful result or blocker. `PROFESSIONAL-RESULT` is also ordinary: it starts with `A.15.9`, tests an already-available result before any new request, and can stop at bounded reuse, the smallest missing-result request, or a blocker without a cross-pattern mantra.
 
@@ -71429,7 +73267,7 @@ Mini-map:
 | CC-FPF.10 Common form reused | The selected public form satisfies `E.11.PFP` for the compact product-declared opening, distinct exact title and Readme H1, Readme and Preface entries in the established ToC grammar, one logical index, practical entries, and any choice-relevant cue. This pattern retains FPF-specific sources, units, body order, carrier and route selection, and builder regressions for the established compact-front line shape and native ToC grammar. |
 | CC-FPF.11 Existing rebuildability record sufficient | One `FPFEditionRebuildabilityRecord` carries the exact selected source, publication-unit, publication-form, presentation-carrier, access-route, relation, projection, and refresh references. Add another manifest, field, or record only after showing a genuinely missing FPF value. |
 | CC-FPF.12 Deterministic source assembly | The all-in-one edition candidate uses the exact predecessor, selected edition record, matching `FPFEditionRebuildabilityRecord`, selected complete pattern sources, and explicit replacement or insertion boundaries. One selection drives both index and bodies; source correspondence is reported; every unselected predecessor span is unchanged; any identity, source, index/body, boundary, or preservation mismatch stops construction before an acceptance or publication claim. Repository filenames, commands, helper options, and template syntax remain in maintainer documentation or tool help rather than this reusable rule. |
-| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme says that its nine ordinary examples and thirteen cross-pattern cards are non-exhaustive. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. Authoring, assembly, and validation consume this declaration as the sole source for key, card, and coverage assignments. |
+| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme says that its nine ordinary examples and fifteen cross-pattern cards are non-exhaustive. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. Authoring, assembly, and validation consume this declaration as the sole source for key, card, and coverage assignments. |
 
 ### E.4.FPF:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -73556,78 +75394,94 @@ very decay it prevents.
 ## E.5.2 - Notational Independence
 
 ### E.5.2:1 - Problem frame
-FPF concepts must travel across academic disciplines, modelling tools,
-and future notations we cannot yet foresee. If a normative pattern binds
-its *meaning* to one diagram style, file syntax, or markup dialect, the
-concept ages as soon as the notation does.
+
+Use this pattern when expressing FPF content or using another expression to carry that content. Keep the conceptual meaning recoverable while choosing an expression that supports the intended work. A diagram, calculus or sequence of learned signs may help a reader reason or construct a result. A single expression needs an explanation of its interpretation; a semantic mapping is needed when expressions are compared or one is translated, substituted or relied on as carrying the other's content.
+
+A **representation scheme** supplies conventions for forming and interpreting expressions. A particular table, drawing, formula or vocal phrase is an **expression** read under those conventions.
+
+FPF concepts must travel across disciplines, tools and future notations. If their meaning can only be recovered from one diagram style, file syntax or markup dialect, other users must reconstruct it before they can apply the pattern.
 
 ### E.5.2:2 - Problem
-*Semantic lock‑in*: when a definition relies on a particular glyph set or
-diagram grammar, alternative communities either translate it—risking
-drift—or ignore FPF altogether.
+A definition can depend on unstated conventions of one glyph set or diagram grammar. Translation then changes its claims or leaves them unclear. Treating every visual form as an illustration creates a different failure: a useful construction or reasoning operation disappears from the description when it is carried by the expression itself.
 
 ### E.5.2:3 - Forces
 
 | Force | Tension |
 |-------|---------|
-| **Expressiveness** | Diagrams and formal grammars aid precision ↔ they should never become the definition itself. |
-| **Longevity** | A 20‑year horizon ↔ notation life‑cycles of 3‑5 years. |
-| **Cross‑discipline adoption** | Mathematicians prefer algebraic syntax; engineers prefer schematics. |
+| **Expressiveness** | An expression may support reasoning and construction; its meaning must remain recoverable in another suitable notation. |
+| **Continuity of use** | Framework claims need to remain recoverable as representation conventions and the tools used to read them change. |
+| **Reader preparation** | An expression can make an operation convenient for a reader trained in its conventions, while another reader needs more preparation or a different expression for that task. |
 
-### E.5.2:4 - Solution — Notational Independence Guard‑Rail *(conceptual; semantics over syntax; not a notation mandate)*
+### E.5.2:4 - Solution - Keep meaning portable while choosing a useful expression
 
-1. **Semantics primacy**
-   Normative content **SHALL** define concepts in linguistic form first
-   (plain English + mathematics if needed). Visual or syntax examples
-   are secondary illustrations.
+1. **Explain the meaning and operative use.**
+   Normative content **SHALL** state the concepts, claims and conditions needed for its use, using prose and mathematics as appropriate. Explain the interpretation of meaning-bearing signs and relations. A diagram, calculus or learned vocal-gestural expression may carry a reasoning or construction step. When it does, explain the operation and its prerequisites locally or cite the guidance for that subject. The pattern about that subject or the applicable Method governs the reasoning or construction. The reader obtains the subject result by applying that Method. When changing representation scheme or reasoning medium, use A.6.3.RT to construct and compare the representation.
 
-2. **Equivalence clause**
-   When an official alternate notation exists, the pattern must state:
-   *“Representation A and Representation B are semantically equivalent
-   under mapping M.”*
+2. **State the semantic mapping.**
+   When expressions are compared or one is translated, substituted or relied on as carrying the other's content, their semantic mapping **SHALL** be stated. Name the source expression and the expression being compared with it. Name their representation schemes when the rules matter to interpretation. State the correspondences for the claims and conditions needed by the intended use. If a relevant distinction is lost, state the loss and limit the equivalence claim accordingly. A meaning-preserving mapping leaves open what operations a reader can perform with each expression, with what preparation and effort.
 
-3. **Reference indirection**
-   If the Core cites a diagram, it does so by *conceptual role*
-   (“reference boundary schematic”) rather than by file or syntax name.
+3. **Reference the conceptual role.**
+   If the Core cites a diagram, refer to its conceptual role, such as a boundary schematic, rather than making a file or syntax name part of the concept.
 
-4. **Conceptual prefix neutrality**
-   FPF **conceptual prefixes** (e.g., `U.`, `Γ_`, `ut:`, `tv:`, `ev:`, `mero:`) are  **cognitive namespaces**, not syntax tokens. Core patterns **MUST NOT**  tie their meaning to any concrete serialisation or URI scheme for these prefixes; any expansions are **illustrative only** and live in Tooling or Pedagogy.
+4. **Keep conceptual prefixes neutral.**
+   Use E.10.P for the prefix registry and required anchors. A conceptual label's meaning **MUST NOT** depend on its expansion into a serialized name or URI. If a tool supplies such an expansion, describe the relation between the conceptual label and the tool's name or URI in Tooling or Pedagogy, and mark it informative.
 
-5. **Cards and other "forms"**
-Cards, tables and other "forms" are specified in the FPF Core only as conceptual models, not as data models; they do not require data-related or lint-specific notation. Conformance checklists and guards are also conceptual. Argumentation such as "this will ease machine checking" is forbidden; no machine checking is intended in the Core. Machine checks and linters live only in Tooling.
+5. **Keep conceptual forms distinct from tooling formats.**
+   Cards, tables, conformance checklists and guards in the Core specify conceptual content and relations. Their data models, machine-checking formats and linters belong in Tooling. Core forms require no data-related or lint-specific notation. Ease of machine checking does not justify a Core concept or rule.
+
+The first result is an expression whose meaning can be recovered, with an explanation of any reasoning or construction step it supports. Include a semantic mapping when the use compares it with another expression or depends on the content it carries from that expression.
+
+If a claim changes, compare again with the named source expression; repair the correspondence or narrow the claimed equivalence and permitted use. Use A.6.3.RT to construct and compare a replacement when the intended operation is difficult or unavailable. If the representation scheme cannot express a needed distinction, select another scheme or redesign the scheme before claiming that the distinction is preserved.
 
 ### E.5.2:5 - Archetypal Grounding (System / Episteme)
 
-| Scenario | `U.System` example | `U.Episteme` example |
-|----------|-------------------|----------------------|
-| Definition | Boundary of a pump is expressed in prose plus set notation; a diagram is illustrative. | F‑G‑R assurance components defined textually; a triple‑store serialisation is illustrative. |
-| Alternate rendering | Same pump semantics rendered in a lattice diagram or a tabular sheet remain valid. | R‑scores plotted in a heatmap or listed in a tabular serialisation remain equivalent. |
+A pattern describes a pump boundary by specifying which components belong to the pump. A table records each component's membership; a diagram places the same components inside or outside a closed line. The line denotes the selected boundary, with no claim about physical distance or drawing scale.
+
+The table's reading convention assigns membership through a field value; the diagram's convention assigns it through enclosure. The table and diagram are the two expressions being compared. Their semantic mapping relates entries to labelled components and membership values to placement relative to the line. Both expressions preserve the membership claims. The diagram can help the user examine connections across the boundary; that operation depends on the represented connections and their interpretation. The boundary's meaning remains available if the table or another notation replaces the diagram.
+
+For an episteme example, F-G-R assurance components can be described in prose and represented in a diagram. Explain which element and relation denotes each component and connection. A triple-store serialization stores this content using tooling conventions; its storage names do not define the components.
+
+An R-score table can also be rendered as a heatmap. State which score or interval each colour denotes. If several scores share a colour, retain the values or limit the equivalence claim to the displayed intervals.
+
+A project instruction permits a motor to start only while both the clamp-closed and pressure-present signals are true. A local sketch replaces this with `clamp closes -> pressure arrives -> motor starts`, where each arrow means only that one event precedes the next. The sketch shows an event order but omits the required overlap: it does not rule out the clamp reopening before pressure arrives. Compare the source condition with the sketch's timing relations. Show that motor start falls within the overlap of the two true signals, or limit the sketch to showing a proposed event order and use the source instruction to decide whether starting is permitted. This comparison is needed because the sketch is used in place of the instruction.
 
 ### E.5.2:6 - Conformance Checklist
 
 | ID | Requirement |
 |----|-------------|
-| **CC‑NI.1** | A Core pattern **MUST NOT** embed semantics that hinge on one specific notation. |
-| **CC‑NI.2** | Illustrative renderings **SHALL** be marked “informative”. |
-| **CC‑NI.3** | When multiple official renderings exist, the pattern **MUST** declare the semantic mapping between them. |
-| **CC‑NI.4** | If a **conceptual prefix** appears in Core, its expansion (if shown) **SHALL** be marked *informative* and **MUST NOT** be required to interpret the semantics. |
+| **CC‑NI.1** | A Core pattern **MUST** make its concepts, claims and conditions recoverable independently of one specific notation. The interpretation of meaning-bearing signs and relations is stated. |
+| **CC‑NI.2** | An illustrative expression **SHALL** be marked “informative”. When an expression carries a reasoning or construction step, explain that operation and its prerequisites locally or refer to the guidance that defines them. |
+| **CC‑NI.3** | When expressions are compared, translated, substituted or relied on as carrying the same content, the semantic mapping **MUST** identify the compared expressions, their interpretation rules where needed, the claims and conditions preserved, and any use-relevant loss or limit. The mapping claim does not assert equal user capability or effort. |
+| **CC‑NI.4** | A conceptual prefix follows E.10.P's registry and anchor rules. If its expansion into a serialized name or URI is shown, that expansion **SHALL** be marked *informative* and **MUST NOT** be required to interpret the concept. |
 
 ### E.5.2:7 - Consequences
 
-| Benefits | Trade‑offs / Mitigations |
-|----------|-------------------------|
-| Ensures FPF survives notation turnover. | Authors invest time describing mappings; mitigated by reusable mapping templates. |
-| Lowers entry barrier for domains using different diagram traditions. | Excessive illustrations can bloat pages; guidance in Pedagogical Companion limits scope. |
+The explanation and mapping let a reader follow named claims between the compared expressions. Stated losses show where a substitution needs a narrower use or a repair, as in the heatmap and timing examples.
+
+Authors must explain the correspondences needed for that use. Keep the comparison to the expressions and distinctions the use requires; reuse an existing mapping when it already covers the expressions, interpretation rules and claims needed for the present use. Readers may also need preparation for an expression's operation. State those prerequisites or refer to the guidance that supplies them, as required by §4.
 
 ### E.5.2:8 - Rationale
-Language and diagrams are tools, not truths. By elevating semantics over
-syntax, FPF maintains **P‑1 Cognitive Elegance** and **P‑2 Didactic
-Primacy** while safeguarding **P‑5 FPF Layering**: tooling layers can
-add new renderers without Core edits.
+A notation can preserve meaning while changing which operations a reader can perform readily. Explaining interpretation, comparing expressions when needed, and retaining their operative use supports **P-1 Cognitive Elegance** and **P-2 Didactic Primacy**. Keeping conceptual meaning in the Core and implementation formats in Tooling preserves **P-5 FPF Layering**.
+
+**SoTA question and choice.** How can framework content remain understandable across notations while an expression also supports reasoning or construction? Adopt recoverable interpretation of concepts, claims and conditions. Adapt the portability rule to expressions that carry an operation: explain their use and prerequisites, and compare the content whenever another expression is used as equivalent.
+
+A serious alternative is a prose-first rule that treats diagrams and written calculi as secondary illustrations. It keeps verbal definitions accessible, but can exclude an operation from the normative account when the operation is performed through the expression. Reject that blanket restriction. For example, in the Euclidean construction in A.6.3.RT:5.1.a, the same segment participates as a radius and as a triangle side. The prepared expression helps the reader combine those relations. Its role needs an explanation of that operation, beyond a caption describing the picture.
+
+A second alternative is to require one canonical notation. This can provide shared interpretation and manipulation rules within a practice whose readers have learned them. Retain that option for such a practice. Extending it across FPF would also require readers in other practices to acquire those conventions, even when another expression supports their task. Compare these choices for the same content, operation and reader preparation. The selected rule accepts the cost of explaining local conventions and mapping compared expressions in exchange for allowing the expression suited to the work. It claims no universal advantage in learning time or performance.
+
+**Effect on this pattern.** Section 4, item 1 and CC-NI.2 require guidance for an operation-bearing expression. Item 2 and CC-NI.3 require comparison when content is carried between expressions; the pump and timing cases in §5 show preservation and consequential loss. The heatmap case limits a coarsened expression's use. These moves keep interpretation and usable operations together; subject Methods still supply the reasoning or construction.
+
+**Source roles and limits.** Macbeth's [paper-and-pencil analysis](https://doi.org/10.1093/philmat/nkr006) (2011, especially pp. 16-18 and 31-42) supplies the constructive argument from prepared expressions and shared parts. Dutilh Novaes's *Formal Languages in Logic* (2012, §§3.2, 5.2 and 6.1) supplies the account of learned manipulation and interpretation; her discussion on p. 202 makes temporary disregard of meaning neither necessary nor sufficient for a cognitive gain. These are conceptual grounds for the selected line and its reader-dependent limits. They provide neither a universal notation-design procedure nor a comparative estimate of learning or performance across all readers and notations.
+
+**Reopen the choice** if interpretation and mapping satisfy this rule yet a needed claim or operation remains unrecoverable, or if a canonical-notation alternative supports the same work for the intended readers with less total preparation and explanation. Reconsider the affected requirement. An incorrectly prepared expression instead calls for the local repair or source return in §4.
 
 ### E.5.2:9 - Relations
 * **Parent umbrella:** `pat:constitution/guard‑rails` (E.5)
-* **Constrains:** every normative Core pattern and official alternate rendering
+* **Constrains:** the expression of normative Core content, including project-local expressions used as carrying that content; the semantic-mapping requirement follows the comparison or intended reliance.
+* **Uses:** A.6.3.RT when changing representation scheme or reasoning medium; C.2.8 and C.37 when recovery or use must be assessed.
+* **Conceptual prefixes:** E.10.P supplies the policy, registry and anchor requirements; E.5.2 keeps interpretation independent of tooling-specific expansion.
+* **Subject reasoning and construction:** the pattern about the represented subject or the relevant Method governs the operation.
+* **Method descriptions:** use `U.MethodDescription` only when A.3.2 applies: the episteme concerns one admitted Method and makes substantive claims about that way of doing.
 * **Instantiates pillars:** P‑1, P‑2, P‑5
 
 ### E.5.2:End
@@ -103645,6 +105499,8 @@ CharacteristicCard := ⟨
   Micro‑examples (R‑anchors: Path/PathSlice cited; lane tags where applicable)
 ⟩
 ```
+
+`Polarity` gives the preferred direction for `IntendedDownstreamUse`: ↑ means higher-is-better, ↓ lower-is-better, and ⊥ no preferred direction assigned. Use ⊥ for a descriptive measurement. A target, range or other preference that has no single direction uses the applicable evaluation predicate and its Method; the Scale retains its measurement meaning under A.17/A.18.
 
 Where `RoleDecl := ⟨ roleLabel, GoverningPatternId, EditionPins?, PolicyPins? ⟩` (wiring-only; the value of `GoverningPatternId` names the FPF pattern that governs the role declaration semantics).
 
