@@ -193,6 +193,8 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | B.4.1 | **Observe -> Notice -> Stabilize -> Route** | Stable | *Keywords:* routed cue set, route plurality, route selection, pre-abductive seam, task-family specialization route. *Queries:* "How do under-articulated cues become routed before endpoint claim publication?", "When should a cue become a routed cue set instead of an abductive prompt?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
 | B.5 | **Canonical Reasoning Cycle** | Candidate | Use when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. State what you want to understand or make possible; reuse an adequate result or choose the missing reasoning contribution. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
 | B.5.MPC | **Connect Physical, Mathematical and Computational Reasoning** | Draft | Use when a physical question remains unanswered because the needed physical, mathematical or computational contributions do not yet connect. Start with an available contribution, recover its conditions, obtain a sufficient consequence and interpret it for the physical use. *Queries:* "Which missing contribution prevents the next move?", "What changes when a quantity, command or physical premise changes?", "How can people and AI agents divide this work?" | **Coordinates with:** B.5, A.3.3, C.16, A.6.3.RT, C.29, C.29.1, C.29.2, C.29.3, C.39 and C.40. |
+| B.5.RC | **Recover a Construction from Its Description** | Draft | Use when a description points to a result you need but leaves you unable to obtain it from available inputs. Recover producing operations and their prerequisites, work a small case forward, and establish the property needed for the next use or locate the missing contribution. *Queries:* "What must be available before this operation?", "How do these parts produce the required object?", "Which gap prevents the construction?" | **Coordinates with:** B.5 and B.5.RA for reasoning, A.6.3.RT for expression, C.29.1/C.29.2 for mathematical transfer and computational formulation, and C.39 for a missing method. |
+| B.5.RA | **Recover an Argument for Its Next Use** | Draft | Use when an argument or reported result is available but its reasoning remains unclear for an intended application, criticism, explanation or revision. Recover the main reason and the needed inferential transitions, then use the conclusion under its conditions or identify the decisive gap. *Queries:* "Why does this step follow?", "What does this lemma contribute to the whole argument?", "Does this reasoning support the use I need?" | **Coordinates with:** B.5 and B.5.RC for inquiry and construction, B.5.MPC for joint reasoning, and C.2.8/C.37 for recipient understanding and representation choice. |
 | B.5.1 | **Explore → Shape → Evidence → Operate** | Stable | *Keywords:* development state cycle, open-ended progression, state machine, Explore, Shape, Evidence, Operate. *Queries:* "What states can project work and its records pass through in FPF?" | **Builds on:** B.5. |
 | B.5.2 | **Abductive Loop** | Stable | *Keywords:* abduction, explanatory prompt, candidate hypotheses, plausibility filters, origin trace, route-to-hypothesis. *Queries:* "How does FPF model abductive hypothesis generation?", "What is the abductive loop?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
 | B.5.2.0 | **`U.AbductivePrompt`** | Stable | *Keywords:* abductive prompt, prompt species, rival-set discipline, threshold crossing, explanation-ready cue. *Queries:* "When is a routed cue ready to enter abduction?", "What prompt species does FPF distinguish before hypothesis work begins?" | **Builds on:** B.4.1, A.16, C.2.2a. **Coordinates with:** A.6.P, A.6.A, C.16.Q. **Used by:** B.5.2. |
@@ -41135,7 +41137,7 @@ The following are common alternatives, not an exhaustive classification or a seq
 | A better description of an insufficiently understood phenomenon | Make a purposeful observation or exploratory measurement; vary a condition and inspect what becomes distinguishable. | Observations and possible regularities that can generate or change questions. |
 | An empirical consequence of a conjecture | Derive the expected contrast, obtain relevant observations and compare the actual result with it. | Bounded corroboration, a discrepancy or a qualified basis for rejecting or revising the claim. |
 
-**Recover a construction before trying to execute it.** Use this continuation when the source names a desired object or property but you cannot yet obtain the result needed by the question.
+**Recover a construction before trying to execute it.** Use this continuation when the source names a desired object or property but you cannot yet obtain the result needed by the question. B.5.RC expands the method below with worked cases and explanations of shared prerequisites, alternative constructions and missing operations.
 
 1. Identify the starting objects or data that are available. State what must be produced and which property the receiving use needs.
 2. Find the source's operations for producing or combining those objects. For each needed operation, recover its inputs, application conditions and output. Keep a statement that an object exists with certain properties as an existence claim; seek a way to obtain an instance when the next use requires one.
@@ -41157,7 +41159,7 @@ A bounded result may be sufficient at any of these contributions. Assurance belo
 
 Explain what was obtained, why the decisive step works, and where the result can be used. The needed depth depends on whether the receiver will apply, criticize, extend or teach the argument.
 
-**Recover the argument needed for that use.** Begin with the conclusion or proposed change the receiver needs to understand.
+**Recover the argument needed for that use.** Begin with the conclusion or proposed change the receiver needs to understand. B.5.RA develops both the main reason for the result and the local transitions needed to use it.
 
 1. Read the claim with its domain and conditions. For a mathematical statement, recover the meanings of its objects and quantifiers.
 2. Work backward from that conclusion through the intermediate claims or constructions it uses. At each needed transition, identify the premises, the operation or inference, and what it establishes. Follow a shared premise wherever the conclusion depends on it; keep jointly needed premises together.
@@ -41802,6 +41804,389 @@ The source-supported distinctions remain useful even when their historical origi
 | **Uses B.3 and B.3.3 for stronger assurance questions** | Qualifies evidence and assurance for the particular claim and use when a conditional consequence or ordinary construction no longer suffices. |
 
 ### B.5.MPC:End
+
+## B.5.RC - Recover a Construction from Its Description
+
+> **Type:** Method pattern
+> **Status:** Draft
+> **Normativity:** Normative unless marked informative
+
+### B.5.RC:1 - Problem frame
+
+Use this pattern when a description points to a result you need, but you cannot yet recover how to obtain it from what is available. You may be reading a mathematical construction, an assembly method or a way to transform data. The difficulty is in the connection between starting material, allowed operations and the required result.
+
+Here, a **construction** is a way of obtaining an object by applying operations to given objects. In a mathematical construction, those operations form mathematical objects. In an assembly method, they may produce a design or a physical assembly; identify which result the description promises. The relevant practice supplies the operations and their application conditions.
+
+**First useful move:** name the result needed for the next use, then find the operation that could produce it and what that operation requires. Follow those requirements back to available starting material. Work a small instance forward to recover the missing connection.
+
+This method needs access to the description and enough subject knowledge to interpret its objects and rules. Use an adequate known construction directly. If the task is to invent a method where no usable account is available, use C.39 for that development; a missing operation discovered here can become its input.
+
+### B.5.RC:2 - Problem
+
+A reader can recognize the name of a result and repeat its desired properties while remaining unable to construct it. The source may compress several operations into one verb, leave a prerequisite implicit or describe a property without giving a procedure that produces an instance.
+
+Execution then fails at the first unprovided intermediate result. Guessing a plausible step can make the example work while changing the method being recovered. Repeating the requirement leaves the difficulty in place.
+
+The useful result is a recovered construction that can be performed for the intended case, or a localized missing contribution that makes the next source return, specialist request or method-development move possible.
+
+### B.5.RC:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Required result and available means | Working backward keeps the desired result in view; working forward reveals what the available operations can actually produce. |
+| Source fidelity and useful invention | Filling a gap may solve the task, but the added operation then needs its own justification and must remain distinguishable from what the source supplied. |
+| Properties and ways of obtaining an object | A property can guide construction or follow from it. The next use determines whether an existence result suffices or an instance must be obtained. |
+| Shared prerequisites and execution order | Several steps may use the same object, and one step may need several results together. A simple list can hide either relation. |
+| Small case and reusable method | A small case exposes missing operations cheaply; broader use depends on which conditions and operations survive the change of case. |
+
+### B.5.RC:4 - Solution
+
+Recover the construction in two connected directions: from the required result toward its prerequisites, then from the available inputs toward a result. Keep the needed property in view throughout. The following actions form a useful working order; return to an earlier action when a missing condition changes the construction.
+
+#### B.5.RC:4.1 - Fix the result and starting situation
+
+Say what the next user needs to obtain and what they will do with it. Recover the conditions that distinguish a usable result: for example, a triangle on a supplied side, a display design that uses the supplied fittings, or data in the format required by a calculation.
+
+Identify the starting objects and information already available. Distinguish an object supplied by the task from one the construction must produce. If a property alone answers the question, keep that smaller task. When an instance is needed, locate the operation that could obtain one.
+
+Choose a small case that retains the troublesome dependency. A case that omits the unfamiliar operation cannot resolve how that operation works.
+
+#### B.5.RC:4.2 - Recover the operations
+
+Read the description for ways of forming, transforming or combining the objects. For each operation needed by the case, recover:
+
+- what it takes as input;
+- the conditions under which it can be used;
+- what it produces.
+
+This information can appear in a definition, diagram, earlier construction or convention used by the source. A verb such as “combine” is enough only when its operation is already recoverable. Otherwise ask which parts are combined and how.
+
+In a mathematical account, include the formation and equality rules that the construction uses. A rule for forming an object and a claim about its properties do different work: the first supplies an object for a later operation, while the second may justify applying that operation. Both can be needed.
+
+Use the rules of the account being recovered. For a physical assembly, a joining operation may require compatible fittings and available components. For a mathematical expression, using one value at two places depends on the rules of that expression. Recover the relevant condition where the construction actually relies on it.
+
+#### B.5.RC:4.3 - Follow prerequisites backward
+
+Start with an operation that produces the required result. Ask what must be available just before it can be applied. Repeat for any prerequisite not yet supplied.
+
+Keep **joint prerequisites** together: drawing a segment between two points requires both points. Keep **alternative constructions** separate: either one complete construction or another may produce an acceptable result. Where several later steps use an intermediate object, retain that shared dependency instead of silently creating several unrelated objects.
+
+Stop tracing a branch when it reaches an available input or an understood subconstruction whose starting inputs are available. The resulting dependency structure may have shared parts and alternatives. Draw it when that helps retain them; the structure does not have to be expressed as a graph.
+
+If tracing returns to a result that it already requires, examine the source. It may describe an iterative construction with a starting value and stopping rule, a simultaneous problem with a separate solving method, or an omitted prerequisite. Recover that method or prerequisite before treating the circular description as executable steps.
+
+A missing operation gives a focused question: “How is this intermediate object obtained under these conditions?” Return to the relevant source passage or specialist with that question. When you propose an operation yourself, treat it as a contribution to the construction and establish the conditions for using it.
+
+#### B.5.RC:4.4 - Work the small case forward
+
+Begin with the available inputs. Apply an operation when its prerequisites and conditions hold, retaining the output needed by later operations. At an unfamiliar transition, write, draw or perform enough of it to see what changes.
+
+If the construction uses a notation you can read but cannot operate with, use A.6.3.RT to prepare a usable expression under its rules. If interpreting the notation itself remains the difficulty, obtain that missing preparation. A more legible expression helps only when it preserves the relation required by the operation.
+
+Where an operation admits several outputs, select one that permits the intended continuation. If the source only guarantees that some suitable object exists, determine whether its account also provides a way to obtain the instance your next use needs.
+
+Retain the difference between the construction being described and the particular trial. One successful trial can reveal the method and expose a gap. A claim about a whole class of inputs additionally needs the argument or other subject support appropriate to that claim.
+
+#### B.5.RC:4.5 - Establish the useful property and continue
+
+Recover why the constructed object has the property the next use requires. An auxiliary construction can make the argument possible; an established property can permit the next construction step. Use B.5.RA when the argument is present but its reasoning remains unclear.
+
+The useful stopping point can be:
+
+- the required object and a sufficient account of the property being used;
+- a conditional construction whose unresolved condition matters to the next decision;
+- an identified missing input or operation, with enough context to obtain it.
+
+Select the support needed for that next use under C.11.DUA and the relevant subject method. A design calculation, mathematical proof and trial assembly answer different questions. If an existing result already supplies the needed support, use it.
+
+An explanation to a collaborator should let them continue from the recovered result or address the localized gap. Use the working drawing, expression or conversation when it already carries that information.
+
+### B.5.RC:5 - Archetypal Grounding
+
+#### B.5.RC:5.1 - Recovering an equilateral-triangle construction
+
+A reader has two distinct points A and B in the Euclidean plane and needs an equilateral triangle on side AB. The description says to draw two circles, each centred at an endpoint and passing through the other endpoint, and use an intersection as the third vertex.
+
+The reader recovers three operations: draw a circle with the given centre and radius; select a common point of the two circles; join two given points by a segment. The third vertex requires both circles. The final triangle requires that vertex together with A and B. The two circles share the segment length AB as radius.
+
+For a small case, place A at (0,0) and B at (2,0). The circles have equations x²+y²=4 and (x−2)²+y²=4. Subtracting gives x=1, and substitution gives y²=3. Thus the two common points are (1,√3) and (1,−√3). Selecting C=(1,√3) supplies the vertex above AB. Joining A to C and B to C completes the construction.
+
+The property follows from how C was obtained: AC and BC are radii of circles of radius AB, so AC=BC=AB. The coordinate calculation also supplies the intersection in the Euclidean-plane account used for this case. A description formulated under a different set of construction rules must obtain that intersection under those rules.
+
+The recovered dependency is reusable for another positive side length. The value of the coordinates changes, while the two equal-radius circles and the common-point construction retain their roles. If A and B coincide, the initial requirement of a nondegenerate triangle fails; that case needs distinct endpoints before this construction can begin.
+
+The Euclidean account supplies the circle and segment operations and their justification.
+
+#### B.5.RC:5.2 - Recovering a display-stand assembly design
+
+A specification asks for a portable display. It supplies a base, an upright and a panel, together with these rules: the upright can be joined to the base when their fittings match; the panel can be attached to the mounted upright when their fittings match.
+
+Working backward from an assembled display yields a mounted upright and a compatible panel. Recovering the mounted upright yields the base, upright and their fitting condition. Working forward gives the assembly order: join base and upright, then attach the panel.
+
+Inspection of the supplied parts reveals that the panel fitting differs from the upright fitting. The method has localized the obstruction. Available continuations include obtaining a compatible panel, developing an adapter with usable connection rules, or choosing another assembly design. “Assemble the display” alone does not select among them.
+
+Suppose a compatible panel is supplied. The recovered design now connects the three components in the required order. Portability is still assessed against the actual carrying requirement, and stability against the loading and support conditions. Those engineering questions can change the design, but they are distinct from the recovered answer about how its parts connect.
+
+The first useful result is the assembly design or the fitting mismatch that prevents it. Physically assembling and testing the stand are subsequent work selected by the intended use.
+
+### B.5.RC:6 - Bias-Annotation
+
+A fluent description can hide an unfamiliar operation behind a familiar verb. Keep attention on what the operation takes, permits and produces. Conversely, a highly formal description can make an existence claim look like an executable recipe; use the next task to decide whether a witness or construction procedure is needed.
+
+Examples can also narrow the apparent method. The circles in :5.1 and fittings in :5.2 supply different subject operations. The common move is recovering and using their prerequisites, including the property needed for continuation.
+
+### B.5.RC:7 - Conformance Checklist
+
+For the construction being recovered:
+
+1. The needed result and its next use are clear enough to select a useful small case.
+2. Starting objects are distinguished from the intermediate objects to be produced.
+3. Each operation needed by the case has recoverable inputs, application conditions and output.
+4. Joint prerequisites, shared objects and alternative constructions retain their different effects.
+5. The forward construction reaches a useful result or locates the input or operation that prevents it.
+6. The property claimed of that result has the support its use requires; a broader claim retains its broader support question.
+7. An invented addition is identifiable as an addition, and the next collaborator can use the result or act on the gap.
+
+Apply these questions to the work already done. Write a separate account only when its recipient needs one.
+
+### B.5.RC:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure in the working situation | Repair |
+| --- | --- |
+| Repeating “construct an object with property P” when the obtaining operation is missing | Recover the last producing operation and trace its prerequisites to available inputs. |
+| Flattening a construction into a list that loses a shared object or a joint condition | Preserve those dependencies and perform each operation only when its inputs are available together. |
+| Filling an omitted operation with a plausible guess and attributing it to the source | Name the addition and establish how it works, or return to the source for the missing operation. |
+| Treating a successful small case as a result for all inputs | Recover which conditions carry the general argument and which belong only to the trial. |
+| Continuing source reconstruction after the intended use is already possible | Use the recovered construction; reopen only for a further question that requires more. |
+
+### B.5.RC:9 - Consequences
+
+The practitioner can turn a compressed account into an obtainable result and a meaningful division of further work. A specialist request can name the missing operation and its inputs rather than ask for a second explanation of the entire source.
+
+Recovery may expose a gap in the source or in the reader's preparation. It also costs more than directly using a construction already understood. The stopping rule preserves that cheaper route and allows a useful conditional result.
+
+### B.5.RC:10 - Architectural Rationale
+
+Backward recovery and forward construction answer complementary questions. The backward direction reveals what the desired result requires. The forward direction tests whether the available inputs and operations can supply it. Either direction alone can leave a gap: a plausible plan may lack an executable step, while available operations may produce objects irrelevant to the question.
+
+The method follows the construction's dependency structure. One intermediate object can support several later steps, and several objects can be required jointly. Preserving these relations makes the construction intelligible and helps divide its execution among people and AI agents. The receiving operation determines what a collaborator needs to supply.
+
+Construction and reasoning about properties remain connected. In the triangle case, the construction creates a common point and the circle properties establish equal sides. In the stand case, fitting conditions permit assembly, while load and carrying requirements can lead to design revision. This relation warrants cooperating methods for construction recovery and argument recovery.
+
+B.5 coordinates these contributions within inquiry. C.39 develops a missing method, C.29.2 develops a computational formulation, and A.6.3.RT prepares an operative expression. Their results can supply a missing step here; the source-recovery question does not by itself select every neighbouring method.
+
+### B.5.RC:11 - SoTA-Echoing
+
+**Constructive and propositional accounts.** Rodin's [One Mathematic(s) or Many? Foundations of Mathematics in Today's Mathematical Practice](https://arxiv.org/html/2301.08131v1), especially its discussion of Euclid's operations and problems, treats object-forming procedures and reasoning about their properties as connected contributions to mathematical practice. This pattern adopts that connection in :4.2–:4.5. It leaves the choice of mathematical foundations to the account being used. A propositional existence result remains sufficient when that is the required result; obtaining a particular instance calls for the corresponding construction.
+
+**Problem reduction.** Rodin's [Kolmogorov's Calculus of Problems and Its Legacy](https://philomatica.org/wp-content/uploads/2023/07/kolmoeng.pdf), in the 2023 author manuscript's discussion of reductions among problems, supplies an earlier account of solving one problem through solutions to others. The present method uses that idea for prerequisite recovery, including joint and alternative contributions. It does not require the reader to adopt intuitionistic logic for every subject.
+
+**Bounded method choice.** For a compressed construction whose result is needed now, compare a linear paraphrase of the source with backward prerequisite recovery followed by a small forward construction. The triangle case requires two circles together; the stand case exposes the unmatched fitting before a complete display exists. The second method is selected because it makes those dependencies actionable. If the source already provides an executable construction understood by the reader, direct use is cheaper. The recovered procedure and the stand example are the present synthesis; the source accounts do not establish an empirical learning gain for this generic method. Reconsider the backward-then-forward approach when, for the same unfamiliar construction and reader preparation, another recovery method supplies the missing operation more reliably at comparable effort.
+
+### B.5.RC:12 - Relations
+
+- **B.5:** selects construction recovery as one contribution to inquiry and connects its result with further reasoning.
+- **B.5.RA:** recovers the argument for a property that construction or later use needs.
+- **B.5.MPC:** uses recovered constructions while connecting physical, mathematical and computational reasoning.
+- **A.6.3.RT:** prepares a usable expression under a notation scheme when the representation obstructs an operation.
+- **C.29.1 and C.29.2:** supply mathematical result transfer and computational formulation when those are the missing constructions.
+- **C.39:** develops a missing way of working from the localized problem.
+- **C.11.DUA:** selects the additional checking or information worth obtaining for the intended use.
+
+### B.5.RC:End
+
+## B.5.RA - Recover an Argument for Its Next Use
+
+> **Type:** Method pattern
+> **Status:** Draft
+> **Normativity:** Normative unless marked informative
+
+### B.5.RA:1 - Problem frame
+
+Use this pattern when you have an argument or a reported result but cannot yet understand why it supports the conclusion you want to use. You may need to apply the result, criticize it, explain its decisive step or decide which part survives a proposed change.
+
+The **argument** is the reasoning that connects premises to a conclusion. It may use a mathematical construction, a calculation or a subject inference from observations. The relevant practice supplies the permitted inference and the grounds for its premises.
+
+**First useful move:** state what you want to do with the conclusion, then recover the main reason offered for it. Follow the needed intermediate claims until you can explain the decisive transition and its conditions.
+
+The reader needs the subject preparation assumed by the source, or access to the missing explanation. Use an adequately understood result directly when its conditions already fit the task. A request to understand the argument can stop before re-proving every established result it uses. A separate obligation to validate the entire proof or underlying observations selects the corresponding checking work.
+
+### B.5.RA:2 - Problem
+
+An argument can be present without being usable by its reader. A reader may recognize each term yet miss why a lemma was introduced, where two premises must be used together, or how a local calculation establishes the general conclusion.
+
+Reading each sentence fluently or checking isolated inferences leaves the overall method uncertain. Reading only the overview can hide a decisive unsupported transition. Either failure prevents useful transfer: the practitioner cannot tell what to use, which condition matters or where to ask for help.
+
+The useful result is enough recovered reasoning to perform the intended use, or a localized gap whose resolution would make that use possible. This may be a conditional conclusion when a needed premise remains open.
+
+### B.5.RA:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Local inference and overall method | Individual transitions can be understood while the purpose of a construction or the route to the conclusion remains obscure. |
+| Understanding and checking | Understanding may reuse established results; validating a whole argument can require additional work under a different question. |
+| Useful compression and hidden dependence | A lemma can make a long argument manageable, but the reader must know what it supplies and which conditions it uses. |
+| Conditional result and unresolved premise | Useful consequences may follow before every premise is established, provided the next use preserves the condition. |
+| Source recovery and new reasoning | Repairing a gap can open a valid use, while attribution must distinguish the supplied argument from the reader's addition. |
+
+### B.5.RA:4 - Solution
+
+Recover the reasoning at both the level of its main contributions and the transitions needed for the next use. Move between these levels when a local step changes your understanding of the whole argument.
+
+#### B.5.RA:4.1 - State the use and read the claim
+
+Name what the result would let you do: calculate a quantity, choose between alternatives, criticize a conclusion, adapt an argument or explain it to someone else. This determines how far recovery needs to go.
+
+Read the conclusion with its objects, domain and conditions. In a mathematical statement, recover the quantifiers: which objects are arbitrary, which may be chosen, and on what a chosen object may depend. In an empirical argument, recover what observations and inference support which population, conditions or phenomenon.
+
+Locate the source's definitions when a word or symbol admits different readings that would change this use. If a formal statement accompanies an informal one, compare the part of their meanings on which the intended application depends. For example, whether zero is allowed among “natural numbers” can change the statement.
+
+#### B.5.RA:4.2 - Recover the main reason
+
+Read for the difficulty the argument overcomes and the contribution that overcomes it. Ask why a construction, lemma, decomposition or comparison appears where it does.
+
+Express the main reason in a short explanation: what is established first, what that makes possible, and how the remaining step reaches the conclusion. This may involve a reduction to an easier problem, an invariant, an exhaustive case distinction or another subject method. Use the method actually present in the source.
+
+The first explanation is a working interpretation. Check it against the decisive steps. If it cannot explain why those steps are needed, revise it rather than retaining an attractive summary unrelated to the argument.
+
+#### B.5.RA:4.3 - Recover the dependencies of the conclusion
+
+Work backward from the conclusion through the claims or constructions it uses. At each needed transition, identify its premises, the inference or operation, and the result.
+
+Keep jointly needed premises together. Preserve an independently sufficient alternative as a separate way to reach the conclusion. Track a shared premise wherever a later step uses it; repeated uses of one assumption do not provide independent support for that assumption.
+
+Distinguish a premise supplied for the argument, a result established earlier and a temporary assumption used inside a subargument. Recover the point at which a temporary assumption is discharged and what then follows. If this logical form is unfamiliar, obtain the relevant explanation before treating the subargument's assumption as an established fact.
+
+Use established results at the level needed for the task. If the question concerns what a lemma permits, its statement and conditions may suffice. If the question concerns how to alter the lemma's proof, recover its internal reasoning.
+
+#### B.5.RA:4.4 - Explain the transition that is still missing
+
+For a transition you cannot follow, recover the relevant definition, rule, earlier result or construction. Apply it to the participants at that transition. Say why these premises license this result and which condition is doing the work.
+
+A useful self-explanation supplies this relation. “I understand this line” reports confidence; a paraphrase repeats the claim. Neither supplies the omitted inference when that is the difficulty.
+
+Work a small instance when it helps reveal the operation or dependence. Then return to the stated scope: the instance may illustrate a general step, while the general conclusion still depends on the argument for all cases in its domain.
+
+If the source's resources do not close the gap, ask for the missing step with its premises and desired result. A proposed repair is new reasoning until it is justified. Keep the consequence conditional when a premise remains unresolved and conditional use is sufficient.
+
+Where the missing step constructs an auxiliary object, use B.5.RC. Where it makes a statistical, causal or other subject inference, use that subject's method and conditions.
+
+#### B.5.RA:4.5 - Use the recovered reasoning and stop at a useful result
+
+Perform the use named in :4.1. Apply the result under its conditions, explain the decisive step, identify a consequential criticism, or name what must be recovered before the use is possible.
+
+Make the conclusion no stronger than the recovered reasoning supports. If recovering the argument reveals an open premise, state its effect on the intended use. When several sufficient arguments are available, an unresolved branch may be bypassed through a branch whose premises and reasoning are adequate.
+
+If a premise or requested conclusion changes, follow the affected reasoning and derive what still follows through B.5's revision continuation. The recovered dependencies supply the starting point for that work. An unchanged, adequately supported part can be reused.
+
+C.11.DUA governs whether more checking or information is worth obtaining for this decision. Understanding an argument, verifying its correctness and establishing its real-world premises can require different work. Select further work from the unresolved question. When the work is divided among agents, give the next contributor the premises at the missing transition, the result needed there and the intended use. On return, connect the supplied reasoning to the argument's main reason. Use the explanation or working notation that makes the continuation possible.
+
+### B.5.RA:5 - Archetypal Grounding
+
+#### B.5.RA:5.1 - Understanding why the sum of odd numbers is a square
+
+Consider this compressed argument: “The sum of the first n positive odd numbers is n²: the sum and the square start at zero, and both increase by 2n+1 when n increases by one.” The statement concerns every nonnegative integer n. A reader recognizes the formula but needs to explain the steps compressed in that reason.
+
+Write S(0)=0 and S(n+1)=S(n)+(2n+1). The main reason is that both the sum and the square start at zero and grow by the same amount when n increases by one. The algebraic identity (n+1)²−n²=2n+1 supplies that connection.
+
+Recover the general transition. Assuming S(n)=n² for an arbitrary nonnegative integer n gives:
+
+S(n+1)=S(n)+2n+1=n²+2n+1=(n+1)².
+
+The temporary assumption is the induction hypothesis. It supports the successor step. Together with S(0)=0, that step establishes the statement for every nonnegative integer by induction.
+
+For n=3, the sum is 1+3+5=9. Adding the next odd number, 7, gives 16. This instance makes the equal-increment operation visible. The argument's reach comes from the arbitrary n, the base value and the induction rule.
+
+A square drawing gives another way to follow the increment: grow an n-by-n square with a row of n cells and a column of n+1 cells. That adds 2n+1 cells. The drawing and algebra expose the same increment under the counting interpretation.
+
+The reader can now explain the role of the initial value and successor step. If the next task instead asks for the sum of n odd terms beginning at 3, the changed range opens a revision: use the established sum through the (n+1)th odd number and remove the first term, giving S(n+1)−1=n²+2n. For four terms, 3+5+7+9=24. The reusable contribution is the recovered relation between range, initial value and increment.
+
+If the original question asked only for 1+3+5, direct addition would already supply the result. Recovering the general argument earns its effort when explanation, general use or revision needs it.
+
+#### B.5.RA:5.2 - Understanding a drawing-recovery argument
+
+A team needs to open an archived engineering drawing for reuse. Someone argues that the drawing is recoverable because three backup copies exist.
+
+Recover the method behind that conclusion. For the encrypted-backup route, the needed contributions are readable stored data, an available way to decrypt it and a decoder for the drawing format. Their joint use produces a readable drawing. Having more copies addresses loss of stored data, while all three may still share one decryption key.
+
+Suppose the key is unavailable. The backup count leaves the decoding route incomplete. The next useful question is whether the key can be recovered or another usable copy obtained. The recovered argument identifies that missing prerequisite.
+
+Now suppose a separate plaintext copy in a readable format is available. That gives a different route to the drawing and permits the team to continue without recovering the encryption key for this use. The original encrypted route remains conditional.
+
+The result is a usable recovery choice or a focused request for a missing contribution. A later claim that the opened drawing describes the present equipment requires its own comparison; the file-opening argument answers the immediate recovery question.
+
+### B.5.RA:6 - Bias-Annotation
+
+Familiar vocabulary and a correct-looking calculation can create confidence before the reasoning has been recovered. Conversely, checking every line can consume attention while leaving the role of a lemma unexplained. Use the local transition and the main reason together.
+
+AI-generated formal proofs make the distinction consequential: a checked formal derivation supplies a result under its formal definitions, while the intended statement and the explanatory structure needed for reuse may still need recovery. The relevant comparison is the one that can change the contemplated use.
+
+### B.5.RA:7 - Conformance Checklist
+
+For the argument and use being recovered:
+
+1. The intended use and the conclusion's domain and conditions are recoverable.
+2. The explanation states the main reason for the result and connects it to the decisive steps.
+3. The needed transitions identify their premises, inference or operation and result.
+4. Joint premises, sufficient alternatives, shared assumptions and temporary assumptions retain their different roles.
+5. The reader can perform the intended use or identify the missing transition or premise that prevents it.
+6. A small instance supports the explanation at its stated scope; a general conclusion has its corresponding reasoning.
+7. Further checking is selected for an unresolved question, and adequately supported parts remain reusable.
+
+These are questions about the recovered reasoning. Their answers may already be evident in the working explanation or application.
+
+### B.5.RA:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure in the working situation | Repair |
+| --- | --- |
+| Paraphrasing successive claims while the inference remains missing | Apply the relevant definition, rule or earlier result to the transition's actual premises. |
+| Checking local steps while failing to explain why a lemma or construction appears | Recover the difficulty that contribution resolves and connect it to the conclusion. |
+| Treating several uses of one premise as several independent grounds | Keep the common prerequisite visible and examine its role in the needed branches. |
+| Promoting a temporary assumption to an established premise | Recover the subargument and the conclusion obtained when that assumption is discharged. |
+| Using one example to claim that the general statement has been proved | Recover the argument that covers the stated domain; retain the example as an illustration of it. |
+| Demanding a complete reproof when the task only needs an established result under its stated conditions | Use that result at the needed level; open its internals when the new question requires them. |
+
+### B.5.RA:9 - Consequences
+
+A recovered argument can support application, explanation, criticism and later revision. Work can be divided around meaningful intermediate results, and a request for help can name the transition that remains obscure.
+
+The method can reveal that the source's conclusion exceeds its support or that the reader lacks a prerequisite. It cannot supply every missing subject method. Its economical stopping points are a sufficient argument for the use, a useful conditional conclusion or a localized gap.
+
+### B.5.RA:10 - Architectural Rationale
+
+A source orders its text for exposition; the argument relates premises, intermediate contributions and conclusions. Understanding therefore needs more than following the paragraph order. Backward dependency recovery identifies what the desired conclusion uses, while recovery of the main reason explains why those contributions were chosen.
+
+Local and overall understanding constrain each other. In :5.1, the equal-increment idea explains the role of the recurrence, and the induction step establishes the general result. In :5.2, the recovery route explains why the key and format matter, and their availability determines which route can be used. A fluent summary that cannot support these transitions is insufficient for the intended use.
+
+This common method concerns recovery of reasoning already offered for a result. B.5 coordinates the broader inquiry; B.5.RC recovers an auxiliary construction; a subject method supplies an unfamiliar inference. To explain the result to someone else, select the reasoning and representation that make their intended use possible. C.2.8 helps characterize what that recipient can extract under stated preparation and access.
+
+Recovery also makes revision possible. The changed premise can be followed through the contributions that use it, while independent arguments remain available. Revision has its own task and result; recovering the original argument supplies the dependency information it needs.
+
+### B.5.RA:11 - SoTA-Echoing
+
+**Local and overall proof comprehension.** Mejía-Ramos and colleagues distinguish understanding terms, logical status and justifications from understanding a proof's main idea, components, transfer and examples. Their [2017 account of developing and validating proof-comprehension tests](https://sites.math.rutgers.edu/~jpmejia/files/Mejia_TUES_method.pdf), §2.2, develops the earlier 2012 model and makes the dimensions operational for particular undergraduate proofs. This pattern adopts the combination of local transitions and overall method in :4.2–:4.4. The published assessment results concern those proof-reading settings, while the generic recovery procedure here is a synthesis.
+
+**Self-explanation.** Hodds, Alcock and Inglis's work is accompanied by the [Loughborough guide for mathematics lecturers](https://www.lboro.ac.uk/media/media/schoolanddepartments/mathematics-education-centre/downloads/SE-booklet-guide.pdf). It explains why relating claims to prior knowledge and to other claims differs from confidence reports or paraphrase. This contribution informs :4.4. The evidence reported there concerns undergraduate mathematical proof comprehension; it does not establish the effectiveness of this whole method for every practice or AI agent.
+
+**Later assessment work.** The [PRIUM framework](https://doi.org/10.1007/s11858-024-01628-1), Cooley and colleagues (2024), develops proof-comprehension assessment through questions about definitions, statements and their relationships, with revision informed by discrepancies between intended questions and student answers. That is an assessment contribution to consider when demonstrated comprehension is required. The present method supplies the recovery work; it does not require a departmental assessment programme for an ordinary use.
+
+**AI-assisted reasoning.** Klowden and Tao's [Mathematical Methods and Human Thought in the Age of AI](https://arxiv.org/html/2603.26524v1), especially §4.4, distinguishes a verified formal statement from the intended statement and from the explanatory reasoning around a proof. This pattern adopts the intended-use comparison and the recovery of the method behind the result. The essay provides a contemporary conceptual argument, rather than an experiment validating this procedure.
+
+**Recoverable methods beyond answer production.** The [Math and AI declaration](https://mathandai.org/) raises the risk that rapid answer production can outpace understanding and development of methods. It is a position statement. This pattern takes the resulting recovery question: which reasoning can the next practitioner actually use? Human or AI production does not settle that question; the returned argument and its use do.
+
+**Bounded method choice.** Compare line-by-line paraphrase, full proof validation and use-directed recovery on the same short argument. Paraphrase can retain the odd-sum formula while missing the equal-increment reason. Full validation answers correctness, but may spend effort inside already usable lemmas. Recovering the main reason together with the needed transitions gives the explanation or changed-use basis sought here. Select it when that is the unresolved task; retain full validation when correctness of the complete argument is the required conclusion. The drawing-recovery case extends the dependency method to a practical inference without treating mathematical proof as the sole form of reasoning. Reconsider this recovery approach if prepared readers repeatedly cannot recover why the decisive inference works, while another explanation or reading method enables the same use with comparable effort.
+
+### B.5.RA:12 - Relations
+
+- **B.5:** coordinates inquiry and the revision that can follow recovery of an argument.
+- **B.5.RC:** obtains an auxiliary construction that a decisive transition requires.
+- **B.5.MPC:** connects arguments and constructions across physical, mathematical and computational contributions.
+- **B.3 and B.3.3:** govern confidence and assurance questions when the intended reliance requires them.
+- **C.11.DUA:** selects additional checking and information for the decision at hand.
+- **C.2.8 and C.37:** characterize recipient-accessible structure and support selection of representations.
+
+
+### B.5.RA:End
 
 ## B.5.1 - Explore → Shape → Evidence → Operate
 
@@ -58763,13 +59148,13 @@ If no concrete object can yet be chosen, retain the working cue and the next obs
 
 ### C.29:1 - Problem frame
 
-A mathematical representation can make a working question answerable by retaining only the structure that matters to it. The same reduction can invalidate another question. A queue may expose flow restrictions while omitting rework or failures; an aggregate state may support one bound but lose the information needed for an exact trajectory.
+A mathematical representation can make a working question answerable by exposing the relations needed for an inference. It may combine source cases into a summary, change coordinates without losing distinctions, or embed the source in a larger mathematical domain. Each construction supports different uses. A queue may expose flow restrictions while omitting rework; an extension of the rational numbers to the reals makes limits available while retaining rational arithmetic.
 
 C.29 addresses this representation choice and its use across a stated correspondence. It begins either with a working problem that needs a useful construction or with a proposed representation whose consequence needs to be derived, limited or rejected. Domain theory supplies the mathematical laws and application conditions.
 
-> **A useful mathematical lens is compression with invariants and declared losses.**
+> **A useful mathematical lens makes a needed inference possible through an explained correspondence.**
 
-The practical questions are: what survives the transfer, what is lost, what follows, and where does that inference stop?
+Ask what the correspondence preserves, omits or introduces, which operations it supports, and how the resulting conclusion answers the working question.
 
 #### C.29:1.1 - First-minute working situation
 
@@ -58799,8 +59184,8 @@ The practitioner therefore needs both construction and criticism: make the relev
 
 | Force | Tension |
 |---|---|
-| **Compression vs truthfulness** | A useful mathematical lens compresses many cases by pairing compression with declared losses. |
-| **Plural mathematical foundations vs FPF simplicity** | The intended gain is access to modern plural foundations and applied mathematics, with each selected lens tied to a stated use and declared loss. |
+| **Useful representation vs justified return** | A summary, coordinate change or larger mathematical domain can simplify an inference. Returning its result requires the correspondence and conditions that support the source question. |
+| **Plural mathematical foundations vs FPF simplicity** | Different foundations and constructions open different operations; choose them for the question and explain the needed correspondence. |
 | **First-use effort vs later scrutiny** | A first calculation may need only a stated correspondence and assumptions; consequential reuse needs a recoverable argument, losses and validation. |
 | **Transfer reach vs domain fit** | Cross-domain transfer can expose useful structure. Establish the correspondence and material losses for the receiving question before relying on the transferred lens. |
 
@@ -58811,7 +59196,7 @@ The practitioner therefore needs both construction and criticism: make the relev
 1. **State the working question.** Name the quantity, relation, distinction or possibility that would change the next action. Recover the intended use and the precision or range it needs.
 2. **Choose a concrete mathematical object.** Specify its elements, variables, relations, operations and constraints. Use the least costly adequate local theory or construction. A family name is a discovery cue; if no object is yet available, keep a candidate and name the next observation or construction.
 3. **Establish the correspondence.** Say what each relevant element or operation represents and in what direction the inference is used. Distinguish an analogy, a fitted representation, a simulation and an exact structure-preserving map. State the assumptions, scale and context that the correspondence requires.
-4. **Determine what the inference retains and loses.** Identify the invariant, order, composition, dependence, boundary or other structure on which the intended result relies. Identify the omitted distinctions that could change that result. An empty loss claim requires a justified equivalence or isomorphism. Use C.29.1 when preservation of an operation or identification of source cases needs to be established.
+4. **Determine what the correspondence preserves, omits or introduces.** Identify the structure on which the intended result relies and any omitted distinction that could change it. Establish the preservation claimed for the needed operations. If the receiving domain adds objects or operations, determine which of their results answer the source question. C.29.1 constructs these comparisons, including cases with no loss of source distinctions and cases where a receiving solution has no source counterpart.
 5. **Do the mathematical work.** Calculate, derive, construct or demonstrate the obstruction. For a missing computational formulation or procedure, use C.29.2; for an unsettled connection to an executing system, use C.29.3. Return the result through the correspondence to the working question. A statement that a queue “exposes bottlenecks” is not yet the bottleneck calculation.
 6. **Choose the resulting action and its limit.** Use the result within its assumptions, collect a discriminating observation, compare a relevant rival, narrow the question or reject the representation. Test the material loss and changed premises. When another person or later use needs the account, retain the smallest sufficient record under :4.4.
 
@@ -59335,7 +59720,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | no `CandidateMathObject` | If the problem still needs a mathematical lens for the next lens-use action, first name the `ProblemStructureCue` and write a `MathLensUse.LensCandidateNote` with the cheapest candidate lens family and next lens-use action; downgrade to ordinary prose or remove the mathematical claim only when no candidate lens changes action. |
 | no `LensMappingMode` | Choose a lens mapping mode or downgrade to analogy-only prompt. |
 | no `PreservedStructure` | Remove the claim-bearing mathematical phrase. |
-| no `LostStructure` | Add a loss note, or justify a lossless equivalence or isomorphism claim through the subject pattern. |
+| no `LostStructure` account | Describe the omitted source distinctions. If none are lost for this use, explain why the relevant distinctions and operations are preserved. C.29.1 supplies the comparison. |
 | no invariant, obstruction, distinction, or payoff | Keep the phrase as didactic recognition cue or orientation-only. |
 | no `LensBoundedPredictionOrDistinction` where decision, prediction, or model selection is being claimed | Block decision or assurance use; downgrade to analogy-only if no declared lens-use consequence is named. |
 | evidence is analogy-only | Block decision, publication-as-established-model, assurance, release, and causal use unless evidence relation, validation regime, causal-use relation, or assurance result is supplied by its subject pattern. |
@@ -59427,7 +59812,7 @@ Local `SourceUseRelation` slot discipline:
 | `CandidateMathObject` | Concrete mathematical object, structure, formal position, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
 | `LensMappingMode` | `C.29`-local lens mapping mode. | Cross-context transfer uses `F.9` when bridge semantics are being claimed. |
 | `PreservedStructure` | Structure preserved by the lens in the declared use. | No preserved structure means the mathematical phrase cannot justify the stated use. |
-| `LostStructure` | Structure the lens drops, abstracts away, or does not preserve. | Empty loss requires explicit equivalence or isomorphism justification through the subject pattern. |
+| `LostStructure` | Source structure the representation omits or does not preserve. | When none is lost for the stated use, name the preserved distinctions and operations and the reason preservation holds. A receiving domain may still contain additional objects; use C.29.1 to establish what can be returned. |
 | `InvariantsExposed` | Invariant, obstruction, fixed point, symmetry, conservation law, diagnostic boundary, or other payoff. | If no payoff is visible, downgrade to recognition cue. |
 | `ObservableOrControllableCue?` | Cheap cue naming what can be observed, read out, assigned, varied, or validated before a candidate lens can change action. Examples include arrivals, work in progress, service time, wait time, edge meaning, intervention assignment, outcome readout, observation map, validation slice, scale variable, or scale point. | When making a measurement, evidence, causal or dynamics claim, apply its corresponding pattern in :4.4.6. |
 | `ObservationOrReadoutNeeded?` | Optional one-line note naming the observable, readout, assignment, outcome, validation slice, or scale point still needed before the stated bounded lens-use action is justified. | If the account of this missing item makes a measurement, evidence, causal, dynamics, or validation claim, apply the neighboring pattern that governs that claim. |
@@ -59459,7 +59844,7 @@ Name: `C.29 — Mathematical Lens Use`.
 
 Local namespace: `MathLensUse` = **Mathematical Lens Use**. The pattern-local card and reference namespace uses `MathLensUse`; checklist IDs use `CC-C29-*`.
 
-The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. Plain prose can still say that a useful mathematical lens compresses many cases while preserving declared distinctions; claim-bearing use is recovered through `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition`.
+The stable name is `Mathematical Lens Use` because `C.29` governs a declared use and its use boundary. A mathematical lens may summarize, re-express or extend an account. For a recorded use, `CandidateMathObject`, `LensMappingMode`, `PreservedStructure`, `LostStructure`, `LensUseBoundaryValue`, and `StopCondition` describe the correspondence and its limits.
 
 #### C.29:6.1a - C.29-local naming guard
 
@@ -59607,7 +59992,7 @@ Use this checklist after constructing or delimiting the result in :4.1. Its cond
 
 ### C.29:12 - Rationale
 
-The useful compression is question-relative. The same two-station recurrence distinguishes output rate from latency; it also reveals why increasing arrival pressure cannot yield a bounded long-run delay in that model. A reader who already has the adequate domain construction, correspondence and limitations can use it directly. C.29 is helpful when one of those parts must be recovered before the representation can answer the question.
+The useful representation is question-relative. The two-station recurrence distinguishes output rate from latency while omitting details of the work. An embedding can instead retain the source distinctions and introduce mathematical objects useful for an inference. C.29.1:5.4 uses a real-number construction to obtain a rational approximation, then examines a request that requires a rational solution. These uses depend on different return conditions. A reader with an adequate construction, correspondence and limitations can use them directly; C.29 helps recover whichever contribution is missing.
 
 The cost is explicit construction and a check of material losses. A queue calculation, geometric transformation or learned model still needs its own mathematical Method. C.29's discovery cues help locate a candidate; its reliance rule determines which missing application information must be supplied for the result's use.
 
@@ -60028,6 +60413,25 @@ If an exact maximum is wanted, retaining (m,|d|) is sufficient under this symmet
 
 **Returned result and return condition.** The bound answers the stated question at the second sampling instant under the supplied model. It does not assert that the bodies were always below 60 °C: the initial pair (20,80) was not. Unequal heat capacities, external heat exchange or a changed transfer rule require a new update and a new comparison. Establishing that this discrete model predicts an actual pair of bodies requires physical and measurement work; B.5.MPC connects that work to the mathematical result.
 
+#### C.29.1:5.4 - Return a rational result from a real-number construction
+
+A calculation accepts positive rational settings x and needs `|x² − 2| ≤ 0.01`. If a rational candidate is already supplied, substituting it can settle this question. The following construction uses an available positive real root of `x² = 2` to obtain a rational candidate.
+
+The inclusion of the rationals in the reals retains their equality, order, addition and multiplication. The larger domain also contains limits of rational sequences that have no rational limit. This supplies new mathematical objects without merging distinct rational inputs. The needed return is still a rational setting satisfying the original inequality.
+
+Compute rational bounds:
+
+~~~text
+1.414² = 1.999396 < 2
+1.415² = 2.002225 > 2
+~~~
+
+Squaring is increasing on the positive reals, so the root lies between those endpoints. Choose the rational setting `x = 1.414` and check the requested result: `|x² − 2| = 0.000604 ≤ 0.01`. The returned setting and its error calculation answer the original question. C.29.2 develops a procedure when obtaining such bounds requires one.
+
+Now change the requirement to a rational setting with `x² = 2`. Suppose `x = p/q` is in lowest terms, with integers p and nonzero q. Then `p² = 2q²`, so p is even. Substituting `p = 2r` shows that q is also even, contradicting lowest terms. The real root therefore has no rational counterpart. Return that obstruction; the requester can retain a tolerance or change the allowed number domain.
+
+The extension supports a useful approximation and an existence argument in the larger domain. Which result can be returned depends on the requested property and the allowed source settings.
+
 ### C.29.1:6 - Bias-Annotation
 
 **Bias toward convenient summaries.** Aggregates are easy to display and compute. Test them against the receiving question by constructing cases with the same aggregate and different answers. In the thermal case, the mean is sufficient for mean evolution and insufficient for the maximum.
@@ -60115,14 +60519,15 @@ A human or AI contributor can construct the correspondence, derive an identity o
 
 ### C.29.1:11 - SoTA-Echoing
 
-The working problem is reuse of mathematical consequences across accounts at a cost justified by the receiving question. Two established lines supply complementary methods: preservation of operations, and coverage of possible results by a sound abstraction.
+The working problem is reuse of mathematical consequences across accounts at a cost justified by the receiving question. Established mathematical lines supply complementary methods: preservation of operations, coverage of possible results by a sound abstraction, and extension to a domain in which a needed construction is available.
 
 | Source and applicable contribution | Comparison at comparable effort | Adopt, adapt and limit |
 |---|---|---|
 | Brendan Fong and David I. Spivak, *Seven Sketches in Compositionality* (consulted 2018 version), §3.3.2 and §2.5.3. Functors preserve identities and composition; the route constructions distinguish composition from choice among alternatives. [Primary text](https://arxiv.org/pdf/1803.05316). | Comparing corresponding operations is stronger than analogy by shared shape. A categorical formulation repays its setup when many objects and composable maps recur; a short elementary derivation can be cheaper for one reservation update. | **Adopt** preservation of the relevant operations. **Adapt** it as the two-order construction and route comparison in C.29.1:4.3 and C.29.1:5.2. Use categorical machinery when the objects and laws warrant it; this pattern does not require every working account to be presented as a category. |
 | Patrick Cousot, *Abstract Interpretation: From 0, 1, To ∞*, §2. Its abstract operations cover the possible concrete results represented by their inputs. [Author's text](https://pcousot.github.io/publications/CSV-2023-cousot.pdf). | Exact reconstruction retains more information; a sound abstraction can establish a property with less information but can leave a question undecided. Testing selected cases is cheaper in some settings but does not establish coverage of all permitted cases. | **Adopt** coverage as the reason a bounded abstract result supports a concrete conclusion. **Adapt** that reasoning to C.29.1:4.5's compatible cases and bounds. General abstract-domain construction and program-analysis algorithms remain in their mathematical and computational practice. |
+| A. Yu. Khrennikov, *Введение в квантовую теорию информации* (2008), pp. 66–68. The passage constructs real numbers and a Hilbert space by completion. | Keeping only the starting domain avoids extra objects but can leave a needed limit unavailable. Completion retains an embedded copy of the starting domain and supplies those limits; returning a source result still requires its allowed form. | **Adapt** this explanatory contrast in C.29.1:5.4's rational-setting construction. The example and its parity argument are this pattern's worked synthesis. In physical modeling, relate the resulting mathematical quantities to the preparations and observations for which the model is used. |
 
-The pattern's synthesis is the practitioner sequence connecting these obligations to the intended answer: construct the map, compare operations and availability, establish independence or coverage, and return the consequence. The reservation, permission-sensitive route and thermal constructions derive their own claims from their stated premises. The cited sources supply reusable mathematical lines, not evidence that a particular physical or organizational application satisfies those premises.
+The pattern's synthesis is the practitioner sequence connecting these obligations to the intended answer: construct the map, compare operations and availability, establish independence or coverage, and return the consequence. The reservation, route, thermal and rational-setting constructions derive their claims from their stated premises. The cited sources supply reusable mathematical lines, not evidence that a particular physical or organizational application satisfies those premises.
 
 A direct proof in the original account remains a serious alternative. Prefer it when it is simpler than establishing and maintaining a transfer. Reconsider a chosen summary when a new query needs a distinction it omits, when composition introduces a new condition, or when a tighter justified bound changes the decision. Reopen the mathematical work affected by that change.
 
