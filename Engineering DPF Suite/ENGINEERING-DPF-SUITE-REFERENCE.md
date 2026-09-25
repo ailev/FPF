@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 24 September 2026
+- **Version:** 25 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -24,6 +24,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Resolve a software-platform difficulty](#resolve-a-software-platform-difficulty) | User-task measurement, reliability objectives, alerts, release exposure, recovery, repetitive work and the first missing input. |
 | [Connect separately governed meanings](#connect-separately-governed-meanings-and-representations) | Semantic integration, model reuse or construction, source editions, correspondence, identity, provenance, transformation, interface, validation, semantic change and modular commons. |
 | [Improve a method or an organization](#improve-a-method-or-an-organization) | Method requirements, repertoire, source recovery and reconciliation, description comparison, PLUS-ME, pattern-language production and refresh, organizational change. |
+| [Select and use checklists](#select-and-use-checklists-without-losing-the-work-question) | Consequential omissions, question meaning, truthful answers, shared results, changed premises and checker qualification. |
 | [Work with rhythmic relations](#work-with-rhythmic-relations-in-performance-and-learning) | Continuing movement and articulation; timing; syllables and scores; variants; cues and layers; practice, transfer and observation. |
 | [Model and change bodily movement](#model-and-change-the-bodily-contribution-to-movement) | Experience and observation, bodily distinctions, effort, coordination, changing support and concurrent action. |
 | [Develop a practice or a person's capability](#develop-a-practice-or-a-persons-capability) | Music and dance development; human-capability demand, target, profile, programme, practice, support, assessment, transfer, retention, revision, continuing development, repertoire and culture. |
@@ -190,6 +191,21 @@ Method Engineering keeps the way of working, its descriptions and its support as
 | What happened, and should the change be revised? | [OCE.13 - Observe and Compare Organization-Change Consequences](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce13---observe-and-compare-organization-change-consequences), [OCE.14 - Decide Whether and How to Revise the Organization from Qualified Results](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce14---decide-whether-and-how-to-revise-the-organization-from-qualified-results) | A consequence comparison and a supported decision to retain or revise the organization, within the applicable authority. |
 
 For a research Method and the knowledge claims that depend on it, use the [research-specific retention and improvement entry](#retain-or-improve-a-research-method).
+
+### Select and use checklists without losing the work question
+
+Use Checklist Principles Framework when consequential questions are missed, entries lose their meaning, or local passes leave the shared result uncertain. Choose the contribution needed now; an adequate existing question set, form or answer can be reused.
+
+| Your question | Open | What you can obtain |
+| --- | --- | --- |
+| Which questions would reveal a consequential omission? | [CHK.1 - Select Checklist Questions for a Work Result](CHECKLIST-PRINCIPLES-FRAMEWORK.md#chk1---select-checklist-questions-for-a-work-result) | A bounded question set with its subjects, grounds and useful coverage. Use one direct question when it suffices; return an unsupported criterion to domain inquiry. |
+| Can we adapt or split the form without changing what an answer means? | [CHK.2 - Construct a Checklist Template That Preserves Its Questions](CHECKLIST-PRINCIPLES-FRAMEWORK.md#chk2---construct-a-checklist-template-that-preserves-its-questions) | A reusable form and a filled example whose subject, question, answer and grounds remain recoverable. Retain an existing form that already serves the use. |
+| Why is the list skipped, prefilled or used without a needed participant? | [CHK.3 - Fit a Checklist to Its Occasion of Use](CHECKLIST-PRINCIPLES-FRAMEWORK.md#chk3---fit-a-checklist-to-its-occasion-of-use) | A usable occasion with access to observations and a truthful response, or the specific missing capability or support to obtain. |
+| What can we answer now, and what should change? | [CHK.4 - Use a Checklist to Answer Questions and Act on the Results](CHECKLIST-PRINCIPLES-FRAMEWORK.md#chk4---use-a-checklist-to-answer-questions-and-act-on-the-results) | Supported or unresolved answers and a separate next-action decision. A mismatch may prompt revision of the subject, description or use. Reuse prior answers while their grounds still apply. |
+| Do the local answers support the result we need together? | [CHK.5 - Reconcile Checklist Results Across Shared Work](CHECKLIST-PRINCIPLES-FRAMEWORK.md#chk5---reconcile-checklist-results-across-shared-work) | A shared conclusion with its gaps and affected dependencies. Distinguish missing coordination from missing observations; a direct conversation can suffice. |
+| Could this criterion or checker miss the difference that matters? | [CHK.6 - Qualify Checklist Criteria and Checking Means](CHECKLIST-PRINCIPLES-FRAMEWORK.md#chk6---qualify-checklist-criteria-and-checking-means) | A bounded qualification, counterexample or unresolved basis for using the check. Reuse a qualification whose conditions still apply. |
+
+The [recurring-omission application](CHECKLIST-PRINCIPLES-FRAMEWORK.md#from-a-recurring-omission-to-a-useful-aid) connects question selection and use with [ME.11's representative trial](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work) and [ME.14's worth comparison](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives). Compare the aid with a simpler sufficient arrangement, including effort moved elsewhere. For shared work, the [workshop application](CHECKLIST-PRINCIPLES-FRAMEWORK.md#shared-work-with-uncertain-criteria-and-changed-premises) connects local answers with [OPS.4's shared operating account](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants); a resource conflict still needs a feasible coordination decision.
 
 ### Work with rhythmic relations in performance and learning
 

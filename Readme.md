@@ -81,7 +81,7 @@ The [Notational Engineering publication](./Foundational%20Thinking%20DPF%20Suite
 ### Engineering DPF Suite
 
 
-The table lists the 23 published DPFs in the Suite. **Published - N patterns** gives the number of pattern bodies in the linked publication. Each DPF has a full pattern index.
+The table lists the 24 published DPFs in the Suite. **Published - N patterns** gives the number of pattern bodies in the linked publication. Each DPF has a full pattern index.
 
 | Domain pattern language | Publication status | What it covers |
 | --- | --- | --- |
@@ -108,6 +108,7 @@ The table lists the 23 published DPFs in the Suite. **Published - N patterns** g
 | [**Semantic Integration Engineering DPF**](./Engineering%20DPF%20Suite/SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Published - 12 patterns | making separately governed meanings and representations usable together; semantic-model reuse and construction; cross-source correspondences, identities and claims; extraction and transformation; interfaces and validation; response to semantic change; and maintenance of shared semantic modules. Includes ontology and knowledge-graph engineering Methods. |
 | [**Research Method Practice DPF**](./Engineering%20DPF%20Suite/RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) | Published - 9 patterns | qualifying a research question or answering it from existing sources; comparing approaches and selecting a design; operationalization and sampling; records and provenance; claim analysis and criticism; reproducibility, replication and triangulation; corpus synthesis; revision and return of knowledge contributions; and retention or improvement of research Methods. |
 | [**Explanation Design DPF**](./Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) | Published - 6 patterns | explanatory questions and their subject grounds; worked examples and their limits; coordinated expression; responsive dialogue; targeted feedback and another learner attempt; and worthwhile repair for the recipient and task. Includes instructional, technical and advisory, and human–AI profiles. |
+| [**Checklist DPF**](./Engineering%20DPF%20Suite/CHECKLIST-PRINCIPLES-FRAMEWORK.md) | Published - 6 patterns | selecting useful questions; preserving their meaning in reusable forms; fitting the occasion; obtaining grounded answers; connecting local checks to shared work; and qualifying criteria and checking means in human, AI and mixed work. |
 
 **Platform Engineering** is included in Systems Engineering, with common Methods and subject profiles. **Development Opportunity Construction and Development-Direction Advising** now has its own DPF. PSD supplies its generic comparison and recommendation Methods; HCD supplies human capability-development and programme-comparison Methods.
 
