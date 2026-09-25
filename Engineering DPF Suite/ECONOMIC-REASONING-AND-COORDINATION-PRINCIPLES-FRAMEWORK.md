@@ -24,7 +24,7 @@ This framework belongs to the [Engineering DPF Suite](https://github.com/ailev/F
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [ECO.1 - Recover the Basis for an Economic Calculation](#eco1---recover-the-basis-for-an-economic-calculation) | Stable | prices; weights; exchange; opportunity cost. What does this economic comparison actually compare? | Existing MA/FIN accounts; ECO.3 if an exchange remains missing. |
-| 2 | [ECO.2 - Use Price Signals to Revise Resource Use](#eco2---use-price-signals-to-revise-resource-use) | Stable | price change; substitution; marginal use. What adjustment do the available terms support? | ECO.1 for disputed prices; functional and operating feasibility. |
+| 2 | [ECO.2 - Reconsider Resource Use in Response to Price Signals](#eco2---reconsider-resource-use-in-response-to-price-signals) | Stable | price change; substitution; marginal use. What response do the available terms support? | ECO.1 for disputed prices; functional and operating feasibility. |
 | 3 | [ECO.3 - Discover an Exchange between Different Plans](#eco3---discover-an-exchange-between-different-plans) | Stable | entrepreneurial discovery; different plans; exchange. What useful combination can the parties actually realize? | ECO.1 for calculation; ECO.4 for complementary commitments. |
 
 ## Part II - Commitments and adaptation
@@ -41,13 +41,13 @@ This framework belongs to the [Engineering DPF Suite](https://github.com/ailev/F
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [ECO.7 - Coordinate Use and Renewal of a Shared Resource](#eco7---coordinate-use-and-renewal-of-a-shared-resource) | Stable | shared resource; renewal; access; collective rules. Can separate uses and contributions preserve the resource? | Physical and operating resource account; ECO.8/.9 for wider coordination and rule change. |
 | 2 | [ECO.8 - Join Direct Cooperation with a Wider Economic Order](#eco8---join-direct-cooperation-with-a-wider-economic-order) | Stable | direct cooperation; extended order; Method vertical. Which coordination mechanism fits each relation? | The actual cooperation and exchange relations; ECO.7 for a shared constraint. |
-| 3 | [ECO.9 - Change Economic Rules through Their Working Practices](#eco9---change-economic-rules-through-their-working-practices) | Stable | institutional change; cultural evolution; capability. What working contribution must a changed rule preserve or create? | Current practice and change pressure; C.36 cultural continuation; HCD/MDPE capability. |
+| 3 | [ECO.9 - Decide Whether and How to Change Economic Rules through Their Working Practices](#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices) | Stable | institutional change; cultural evolution; capability. Should this rule be retained or changed, and what working contribution is needed? | Current practice and change pressure; C.36 cultural continuation; HCD/MDPE capability. |
 
 ## Part IV - Efficiency and demand
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [ECO.10 - Trace Resource Savings through Changes in Demand](#eco10---trace-resource-savings-through-changes-in-demand) | Stable | Jevons; rebound; efficiency; demand; counterfactual. Does a unit saving change total resource use? | Unit-resource relation and counterfactual; ECO.2/.3 for changed prices and uses. |
+| 1 | [ECO.10 - Trace Efficiency Savings through Demand Responses (Rebound Effects)](#eco10---trace-efficiency-savings-through-demand-responses-rebound-effects) | Stable | Jevons; rebound; efficiency; demand; counterfactual. Does a unit saving change total resource use? | Unit-resource relation and counterfactual; ECO.2/.3 for changed prices and uses. |
 
 # Economic Reasoning and Coordination Principles Framework Readme
 
@@ -83,7 +83,7 @@ Change the case: a reusable interface and another qualified supplier become avai
 - **Situation:** Several local groups have workable allocations, but their combined use now threatens the resource or excludes other legitimate users.
 - **Question:** Which shared constraint and coordination relation must their local arrangements retain?
 - **First useful result or blocker:** A feasible allocation with an effective adaptation route, or the incompatibility that remains.
-- **Start with:** Use [ECO.7](#eco7---coordinate-use-and-renewal-of-a-shared-resource) to connect withdrawal, renewal and access. Use [ECO.8](#eco8---join-direct-cooperation-with-a-wider-economic-order) when the local arrangements need a wider coordination relation. Use [ECO.9](#eco9---change-economic-rules-through-their-working-practices) to compare preserving, modifying and replacing the rules through the practices and capabilities each alternative needs.
+- **Start with:** Use [ECO.7](#eco7---coordinate-use-and-renewal-of-a-shared-resource) to connect withdrawal, renewal and access. Use [ECO.8](#eco8---join-direct-cooperation-with-a-wider-economic-order) when the local arrangements need a wider coordination relation. Use [ECO.9](#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices) to compare preserving, modifying and replacing the rules through the practices and capabilities each alternative needs.
 
 For example, a lower canal inflow can invalidate the previous daily allowances. Correct arithmetic for each group's old allocation does not answer the joint constraint. The receiving result is a physically possible allocation with an effective way to adopt and adapt it, or a clearly identified incompatibility.
 
@@ -96,7 +96,7 @@ Now suppose the physical supply recovers, but a new digital access procedure exc
 - **Situation:** A process needs less energy or money per useful result, making several continuations possible.
 - **Question:** Should the gain reduce burden, expand valuable activity, retain capacity or help meet a resource cap?
 - **First useful result or blocker:** A conditional total-use comparison or a threshold that changes the choice.
-- **Start with:** Use [ECO.10](#eco10---trace-resource-savings-through-changes-in-demand) to distinguish the technical saving from the economic response and to find a consequential threshold. [ECO.2](#eco2---use-price-signals-to-revise-resource-use) helps revise resource use when prices change. [ECO.3](#eco3---discover-an-exchange-between-different-plans) helps when the released means make another useful exchange possible. A shared cap or access rule can bring in [ECO.7](#eco7---coordinate-use-and-renewal-of-a-shared-resource) or [ECO.9](#eco9---change-economic-rules-through-their-working-practices).
+- **Start with:** Use [ECO.10](#eco10---trace-efficiency-savings-through-demand-responses-rebound-effects) to distinguish the technical saving from the economic response and to find a consequential threshold. [ECO.2](#eco2---reconsider-resource-use-in-response-to-price-signals) helps revise resource use when prices change. [ECO.3](#eco3---discover-an-exchange-between-different-plans) helps when the released means make another useful exchange possible. A shared cap or access rule can bring in [ECO.7](#eco7---coordinate-use-and-renewal-of-a-shared-resource) or [ECO.9](#eco9---decide-whether-and-how-to-change-economic-rules-through-their-working-practices).
 
 Halving energy per unit allows twice the original output at the same energy use, within a fixed simple boundary. It does not predict that output will double. Compare the attainable uses and their value; ordinary operation may already constrain demand, while lower cost can also make new uses practical.
 
@@ -331,7 +331,7 @@ MA.1 constructs the resource-and-cost account; FIN.6 compares investments using 
 
 ### ECO.1:End
 
-## ECO.2 - Use Price Signals to Revise Resource Use
+## ECO.2 - Reconsider Resource Use in Response to Price Signals
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -370,7 +370,7 @@ Compare the attainable net effects over the relevant period, including transitio
 
 For a small reversible change, an applicable current offer and adequate functional account may suffice. For a dedicated plant or long commitment, ask which uncertainty about persistence, access or substitution could reverse the decision. Seek only the information that can change that commitment, or retain a conditional plan.
 
-A price rise can arise from supply loss, demand growth, altered quality, taxes or market power. Identifying the cause matters when it changes the chosen response; otherwise the current attainable terms can already justify using less or substituting. Return the adjustment and the event that would reopen it, in the ordinary working plan.
+A price rise can arise from supply loss, demand growth, altered quality, taxes or market power. Identifying the cause matters when it changes the chosen response; otherwise the current attainable terms can already justify using less or substituting. Return the chosen response and the event that would reopen it, in the ordinary working plan.
 
 ### ECO.2:5 - Archetypal Grounding
 
@@ -978,14 +978,14 @@ ECO.2/.3 supply price response and exchange construction. ECO.7 supplies shared-
 
 ### ECO.8:End
 
-## ECO.9 - Change Economic Rules through Their Working Practices
+## ECO.9 - Decide Whether and How to Change Economic Rules through Their Working Practices
 
 > **Type:** Method pattern
 > **Status:** Stable
 
 ### ECO.9:1 - Problem frame
 
-Use this pattern when a rule for access, exchange, contribution or adaptation should change, but it is unclear what useful coordination would be lost or what practice would replace it. Begin with the difficulty in actual work and the contribution the current rule supplies. Compare preserving, modifying and replacing that contribution under attainable transition conditions.
+Use this pattern when a change to a rule for access, exchange, contribution or adaptation is being considered, but it is unclear what useful coordination would be lost or what practice would replace it. Begin with the difficulty in actual work and the contribution the current rule supplies. Compare preserving, modifying and replacing that contribution under attainable transition conditions.
 
 The result is a reasoned rule change, a bounded trial, a justified decision to keep the rule, or an unresolved condition. Immediate protection from an established harm need not wait for a complete history of the institution.
 
@@ -1015,7 +1015,7 @@ Trace interactions with the rules and practices that the alternative actually de
 
 Use C.36 to distinguish making a variant, transmitting it, selecting among variants and retaining the contribution over repeated use. A single project's decision can change a local arrangement; wider adoption remains a separate process.
 
-#### ECO.9:4.3 - Choose the next change at the scale its grounds support
+#### ECO.9:4.3 - Choose the next action at the scale its grounds support
 
 Compare the attainable gains, transition burdens and costs of waiting. An established urgent failure can justify an immediately available protective action. A proposed revision that needs another party's agreement or an authorized decision becomes effective only through that route; urgency alone does not change existing commitments. An uncertain mechanism with reversible consequences may be tested through a limited trial; a costly irreversible change may need a different comparison. C.11.DUA governs whether more inquiry can improve this choice.
 
@@ -1073,7 +1073,7 @@ ECO.7/.8 identify shared-resource and cross-order problems that can motivate a r
 
 # Part IV - Efficiency and demand
 
-## ECO.10 - Trace Resource Savings through Changes in Demand
+## ECO.10 - Trace Efficiency Savings through Demand Responses (Rebound Effects)
 
 > **Type:** Method pattern
 > **Status:** Stable

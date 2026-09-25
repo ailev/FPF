@@ -20,7 +20,7 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [FIN.1 - Frame the Corporate Finance Decision, Corporation, Jurisdiction, and Time](#fin1---frame-the-corporate-finance-decision-corporation-jurisdiction-and-time) | | financial question; corporation; jurisdiction; horizon | FDM and C.11.DUA when needed |
-| 2 | [FIN.2 - Recover Cash, Liquidity, and Commitments](#fin2---recover-cash-liquidity-and-commitments) | | cash gap; liquidity; cash forecast; drawable facility | FIN.4; FDM when needed |
+| 2 | [FIN.2 - Assess Liquidity and Funding Needs by Date](#fin2---assess-liquidity-and-funding-needs-by-date) | | cash gap; liquidity; cash forecast; drawable facility | FIN.4; FDM when needed |
 | 3 | [FIN.3 - Manage Working Capital and Cash Conversion](#fin3---manage-working-capital-and-cash-conversion) | | working capital; inventory; customer advance; cash conversion | FIN.2; MA and OPS when needed |
 | 4 | [FIN.4 - Prepare Accounts and Forecasts for the Finance Decision](#fin4---prepare-accounts-and-forecasts-for-the-finance-decision) | | profit to cash; finance projection; pro forma; forecast | MA and FDM when needed |
 
@@ -31,7 +31,7 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 | 5 | [FIN.5 - Estimate Cost of Capital and Financing Constraints](#fin5---estimate-cost-of-capital-and-financing-constraints) | | discount rate; WACC; equity return; financing constraints | FIN.4; FIN.10 when needed |
 | 6 | [FIN.6 - Value Capital Projects](#fin6---value-capital-projects) | | capital project; NPV; opportunity cost; payback | FIN.4–5; FIN.8 when needed |
 | 7 | [FIN.7 - Value Assets and the Corporation](#fin7---value-assets-and-the-corporation) | | enterprise value; equity value; DCF; comparables | FIN.4–5; FIN.8 when needed |
-| 8 | [FIN.8 - Value Options under Uncertainty](#fin8---value-options-under-uncertainty) | | real option; defer; expand; abandon; binomial | FIN.5; FDM when needed |
+| 8 | [FIN.8 - Value Financial and Real Options](#fin8---value-financial-and-real-options) | | real option; defer; expand; abandon; binomial | FIN.5; FDM when needed |
 | 9 | [FIN.9 - Compare Capital Investments and Allocations](#fin9---compare-capital-investments-and-allocations) | | capital rationing; acquisition; divestment; synergy; price | FIN.6–8; FIN.10–12 and FIN.21 when needed |
 
 **Part C - Financing, distributions and recovery**
@@ -49,7 +49,7 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 15 | [FIN.13 - Identify and Measure Financial Exposures](#fin13---identify-and-measure-financial-exposures) | | currency; rates; credit; counterparty; financial exposure | FIN.4; FDM when needed |
-| 16 | [FIN.14 - Design Hedges and Financial Risk Transfer](#fin14---design-hedges-and-financial-risk-transfer) | | hedge; forward; swap; partial receipt; residual risk | FIN.13; FIN.2 and FIN.8 when needed |
+| 16 | [FIN.14 - Decide Whether and How to Hedge or Transfer Financial Risk](#fin14---decide-whether-and-how-to-hedge-or-transfer-financial-risk) | | hedge; forward; swap; partial receipt; residual risk | FIN.13; FIN.2 and FIN.8 when needed |
 | 17 | [FIN.15 - Execute Treasury and Liquidity Decisions](#fin15---execute-treasury-and-liquidity-decisions) | | treasury execution; payment; short-term investment; settlement | Selected financial decision; FDM when needed |
 
 **Part E - Advice, renewal and continuing practice**
@@ -58,7 +58,7 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 | :--- | :--- | :--- | :--- | :--- |
 | 18 | [FIN.16 - Prepare a Finance Recommendation and Return It for a Decision](#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) | | recommendation; conditional advice; evidence demand | Selected FIN results; C.11.DUA when needed |
 | 19 | [FIN.17 - Refresh Financial Models and Data](#fin17---refresh-financial-models-and-data) | | model refresh; changed data; revised forecast | The affected FIN result |
-| 20 | [FIN.18 - Develop and Refresh Corporate-Finance Methods](#fin18---develop-and-refresh-corporate-finance-methods) | | method choice; forecast comparison; trial; model improvement | The direct financial method; C.11.DUA when needed |
+| 20 | [FIN.18 - Choose Whether and How to Change Corporate-Finance Methods](#fin18---choose-whether-and-how-to-change-corporate-finance-methods) | | method choice; forecast comparison; trial; model improvement | The direct financial method; C.11.DUA when needed |
 | 21 | [FIN.19 - Reconcile Simultaneous Corporate-Finance Work Across Claims and Horizons](#fin19---reconcile-simultaneous-corporate-finance-work-across-claims-and-horizons) | | concurrent finance work; shared cash; multiple horizons | C.32.MWA; direct FIN methods when needed |
 | 22 | [FIN.20 - Deliberately Continue and Change Corporate-Finance Culture](#fin20---deliberately-continue-and-change-corporate-finance-culture) | | finance culture; forecast use; practice retention | C.36; MA.9 and C.11.DUA when needed |
 
@@ -75,7 +75,7 @@ These are constructed examples, not market offers or a required sequence. Use th
 - **Situation:** An operating account establishes that an order is feasible and brings 1,200 on day 28 against incremental payments of 440 on day 0 and 100 on day 7. The whole-business baseline, after all other flows, has cash of 500 at each relevant date.
 - **Question:** Which available arrangement funds the order while preserving the required cash?
 - **First useful result or blocker:** The liquidity calculation finds a day-7 gap of 40 before any positive reserve. A response is usable only if its money arrives in time and its later payments remain fundable.
-- **Start with:** [FIN.2](#fin2---recover-cash-liquidity-and-commitments) for the dated cash account, then [FIN.3](#fin3---manage-working-capital-and-cash-conversion) for the customer-advance alternative or [FIN.10](#fin10---design-financing-instruments-and-terms) for financing terms. Use [FIN.15](#fin15---execute-treasury-and-liquidity-decisions) for the selected permitted action.
+- **Start with:** [FIN.2](#fin2---assess-liquidity-and-funding-needs-by-date) for the dated cash account, then [FIN.3](#fin3---manage-working-capital-and-cash-conversion) for the customer-advance alternative or [FIN.10](#fin10---design-financing-instruments-and-terms) for financing terms. Use [FIN.15](#fin15---execute-treasury-and-liquidity-decisions) for the selected permitted action.
 - **Stop or return:** Complete the comparison with a supported choice of an arrangement whose receipts are available in time and whose repayments are fundable, or identify the specific missing condition. Return when collection, reserve, fees, draw access or repayment changes.
 
 The order requires 26–29 rig-hours. The supplied operating plan has 20 usable hours plus an available ten-hour block costing 240. Materials cost 200 and supplier service costs 100. Materials and the block require 440 on day 0; the supplier's 100 is due on day 7. Those adequate operating and accounting results give the 540 of incremental payments and a favorable contribution of 660. Finance can use them directly.
@@ -102,7 +102,7 @@ On these conditions, the advance provides one more unit of gain and a larger buf
 In FIN.7's constructed case, operating enterprise value is 100. Debt with market value 30 remains in the acquired company, and included excess cash of 10 is freely transferable after closing. With no other claim adjustment, standalone equity value is 100 − 30 + 10 = 80. That is the interest value FIN.9 uses to compare with the equity price.
 
 The buyer-specific benefits have present value 30, while integration and other incremental costs have present value 15, on the same date, currency and after-tax basis. At price 100, buyer value is 80 + 30 − 15 − 100 = −5. At price 90, it is +5.
-The +5 is a conditional financial result. [FIN.2](#fin2---recover-cash-liquidity-and-commitments) uses the purchase payments and their dates in the buyer's cash account. The acquired cash of 10 becomes available after closing and cannot fund a payment due before then. If the buyer needs external funds, [FIN.10](#fin10---design-financing-instruments-and-terms) compares obtainable terms by net proceeds, availability and later payments. A material change to debt and equity mix calls for [FIN.11](#fin11---select-capital-structure); a relied-on borrowing restriction calls for [FIN.12](#fin12---preserve-covenant-headroom-and-financing-flexibility). These results can change whether the purchase is available and what financing effects enter the valuation. Count any such effect once on a matching basis.
+The +5 is a conditional financial result. [FIN.2](#fin2---assess-liquidity-and-funding-needs-by-date) uses the purchase payments and their dates in the buyer's cash account. The acquired cash of 10 becomes available after closing and cannot fund a payment due before then. If the buyer needs external funds, [FIN.10](#fin10---design-financing-instruments-and-terms) compares obtainable terms by net proceeds, availability and later payments. A material change to debt and equity mix calls for [FIN.11](#fin11---select-capital-structure); a relied-on borrowing restriction calls for [FIN.12](#fin12---preserve-covenant-headroom-and-financing-flexibility). These results can change whether the purchase is available and what financing effects enter the valuation. Count any such effect once on a matching basis.
 
 [FIN.16](#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) combines the value comparison with those funding results for the buyer's decision. It can return a price-conditioned recommendation or the funding condition preventing action. If the expected benefits change, [FIN.17](#fin17---refresh-financial-models-and-data) returns their consequences to FIN.9; if the acquired debt or cash differs from the valued interest, return to FIN.7 before retaining the +5 conclusion. Using the recommendation for action still depends on the assumed consents and ability to realize benefits.
 
@@ -111,12 +111,12 @@ The +5 is a conditional financial result. [FIN.2](#fin2---recover-cash-liquidity
 - **Situation:** A customer owes 100 foreign units on day 30. A physical forward requires delivery of 100 foreign units for 90 home units that day, but the customer pays only 60.
 - **Question:** What does the hedge protect, and what must treasury now fund?
 - **First useful result or blocker:** At spot 0.95 home per foreign unit, buying the missing 40 costs 38 home units. If funded and settled, current net home cash is 52 and the unpaid customer claim of 40 foreign units remains.
-- **Start with:** [FIN.14](#fin14---design-hedges-and-financial-risk-transfer) for the combined receipt and hedge; [FIN.13](#fin13---identify-and-measure-financial-exposures) if the underlying exposure or remaining claim is unclear.
+- **Start with:** [FIN.14](#fin14---decide-whether-and-how-to-hedge-or-transfer-financial-risk) for the combined receipt and hedge; [FIN.13](#fin13---identify-and-measure-financial-exposures) if the underlying exposure or remaining claim is unclear.
 - **Stop or return:** Settle through [FIN.15](#fin15---execute-treasury-and-liquidity-decisions) only with the required funding and authority. Reassess the remaining claim and future protection after actual performance.
 
 With the full customer receipt, the forward exchanges the 100 foreign units for 90 home units. FIN.14's partial-receipt case keeps the customer's outstanding claim separate from the forward's unchanged delivery obligation. The receipt supplies 60, so treasury must obtain the other 40. Buying them at 0.95 requires 38 home units; purchase and forward settlement together give 90 − 38 = 52 of net home cash.
 
-That net amount does not supply the money needed before the currency purchase. [FIN.2](#fin2---recover-cash-liquidity-and-commitments) checks usable funds at that time. In FIN.15's continuation, only 20 home units are usable, leaving a funding need of 18. Treasury needs a funded purchase or must return the execution problem through the provider's supported recovery and the relevant decision authority. Entering a purchase instruction does not establish delivery.
+That net amount does not supply the money needed before the currency purchase. [FIN.2](#fin2---assess-liquidity-and-funding-needs-by-date) checks usable funds at that time. In FIN.15's continuation, only 20 home units are usable, leaving a funding need of 18. Treasury needs a funded purchase or must return the execution problem through the provider's supported recovery and the relevant decision authority. Entering a purchase instruction does not establish delivery.
 
 After actual purchase and forward settlement, FIN.15 reconciles the amounts and dates. The unpaid customer claim of 40 remains unless a separate event changes it. [FIN.17](#fin17---refresh-financial-models-and-data) carries the partial payment into the cash and exposure accounts; FIN.13 and FIN.14 use the remaining claim, its expected collection and existing protection to decide whether future protection needs changing.
 
@@ -285,7 +285,7 @@ FIN.2–22 supply the selected financial answers. [C.11][CHOICE] helps choose am
 
 ### FIN.1:End
 
-## FIN.2 - Recover Cash, Liquidity, and Commitments
+## FIN.2 - Assess Liquidity and Funding Needs by Date
 
 **Type:** Method
 
@@ -712,7 +712,7 @@ FIN.5 supplies required returns and FIN.4 relevant projections. FIN.8 assesses e
 
 ### FIN.7:End
 
-## FIN.8 - Value Options under Uncertainty
+## FIN.8 - Value Financial and Real Options
 
 **Type:** Method
 
@@ -1258,7 +1258,7 @@ FIN.2 assesses cash consequences, FIN.14 compares protection and FIN.15 handles 
 
 ### FIN.13:End
 
-## FIN.14 - Design Hedges and Financial Risk Transfer
+## FIN.14 - Decide Whether and How to Hedge or Transfer Financial Risk
 
 **Type:** Method
 
@@ -1518,7 +1518,7 @@ Every relied-on FIN result can be refreshed through this method. FIN.18 handles 
 
 ### FIN.17:End
 
-## FIN.18 - Develop and Refresh Corporate-Finance Methods
+## FIN.18 - Choose Whether and How to Change Corporate-Finance Methods
 
 **Type:** Method
 
@@ -1753,7 +1753,7 @@ The pattern bodies state the adopted contribution and comparison. These locators
 [OCE]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
 [EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
 [CHOICE]: ../FPF-Spec.md#c11---decision-theory-decsn-cal
-[DUA]: ../FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands
+[DUA]: ../FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden
 [MWA]: ../FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures
 [CULT]: ../FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering
 [FPF]: https://github.com/ailev/FPF

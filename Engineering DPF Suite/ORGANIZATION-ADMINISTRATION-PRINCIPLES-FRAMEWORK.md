@@ -21,21 +21,21 @@ ADM helps administrators examine administrative requests, give justified refusal
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| A.1 | [ADM.1 - Frame the Work Being Enabled](#adm1---frame-the-work-being-enabled) | Stable | What is this request for?; trip complete; business result; service boundary | [OPS.3][OPS] and [C.32.MWA][MWA] for a disputed work or structure boundary. |
-| A.2 | [ADM.2 - Establish the Relevant Participants and Relations](#adm2---establish-the-relevant-participants-and-relations) | Stable | Who receives?; who decides?; assignment; counterparty; authority | [A.6.REL][REL]; an adequate assignment may come from [OCE.6][OCE]. |
-| A.3 | [ADM.3 - Determine What Changed and When It Takes Effect](#adm3---determine-what-changed-and-when-it-takes-effect) | Stable | Effective date; future appointment; suspension; record correction | [A.6.REL][REL]; ADM.2 when the relevant relation is unclear. |
-| A.4 | [ADM.4 - Reconcile Participant-Relative Accounts](#adm4---reconcile-participant-relative-accounts) | Stable | Payer and recipient; same transfer; different records; conflicting claims | [SIE.4–6][SIE] for unresolved cross-source meaning or identity; ADM.3 when effectivity matters. |
+| A.1 | [ADM.1 - Frame the Administrative Condition Needed for the Work](#adm1---frame-the-administrative-condition-needed-for-the-work) | Stable | What is this request for?; trip complete; business result; service boundary | [OPS.3][OPS] and [C.32.MWA][MWA] for a disputed work or structure boundary. |
+| A.2 | [ADM.2 - Establish the Relevant Participants and Relations for an Administrative Action](#adm2---establish-the-relevant-participants-and-relations-for-an-administrative-action) | Stable | Who receives?; who decides?; assignment; counterparty; authority | [A.6.REL][REL]; an adequate assignment may come from [OCE.6][OCE]. |
+| A.3 | [ADM.3 - Determine What Changed in Administrative Relations and When It Takes Effect](#adm3---determine-what-changed-in-administrative-relations-and-when-it-takes-effect) | Stable | Effective date; future appointment; suspension; record correction | [A.6.REL][REL]; ADM.2 when the relevant relation is unclear. |
+| A.4 | [ADM.4 - Reconcile Participant-Relative Administrative Accounts](#adm4---reconcile-participant-relative-administrative-accounts) | Stable | Payer and recipient; same transfer; different records; conflicting claims | [SIE.4–6][SIE] for unresolved cross-source meaning or identity; ADM.3 when effectivity matters. |
 
 **Part B - Design the Repeated Case, Resolve Exceptions and Supply the Result**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| B.1 | [ADM.5 - Design the Reusable Administrative Case](#adm5---design-the-reusable-administrative-case) | Stable | Repeated request; service instruction; approval and provision; ordinary correction | ADM.1–3 for unsettled inputs; ADM.6–10 for the needed handling actions; [OPS.5–6][OPS]. |
+| B.1 | [ADM.5 - Design Reusable Instructions for Administrative Requests](#adm5---design-reusable-instructions-for-administrative-requests) | Stable | Repeated request; service instruction; approval and provision; ordinary correction | ADM.1–3 for unsettled inputs; ADM.6–10 for the needed handling actions; [OPS.5–6][OPS]. |
 | B.2 | [ADM.6 - Resolve an Administrative Exception](#adm6---resolve-an-administrative-exception) | Stable | Opaque refusal; missing authority; conflicting requirement; competent return | ADM.7–9 for the missing claim, permission or provision; [OPS.6][OPS] for situated continuation. |
-| B.3 | [ADM.7 - Check the Claim Needed for This Decision](#adm7---check-the-claim-needed-for-this-decision) | Stable | Evidence reuse; wrong test; insufficient evidence; unavailable checker | [A.10][A10] for source-to-use recovery; [SYSE.28][SYSE] when check placement needs design. |
-| B.4 | [ADM.8 - Establish and Exercise the Required Permission](#adm8---establish-and-exercise-the-required-permission) | Stable | Standing grant; spending authority; read versus download; conflicting restriction | [A.2.8.PER][PER]; ADM.2–3 for participant or effective-time questions. |
+| B.3 | [ADM.7 - Check the Claim Needed for This Administrative Decision](#adm7---check-the-claim-needed-for-this-administrative-decision) | Stable | Evidence reuse; wrong test; insufficient evidence; unavailable checker | [A.10][A10] for source-to-use recovery; [SYSE.28][SYSE] when check placement needs design. |
+| B.4 | [ADM.8 - Establish and Exercise the Required Permission for an Administrative Action](#adm8---establish-and-exercise-the-required-permission-for-an-administrative-action) | Stable | Standing grant; spending authority; read versus download; conflicting restriction | [A.2.8.PER][PER]; ADM.2–3 for participant or effective-time questions. |
 | B.5 | [ADM.9 - Provide a Usable Administrative Result](#adm9---provide-a-usable-administrative-result) | Stable | Approved but unusable; failed access; partial effect; safe recovery | ADM.8 for an unresolved permission; [SYSE.26][SYSE] when supported interaction or recovery needs design. |
-| B.6 | [ADM.10 - Reconcile What Was Owed, Performed and Recorded](#adm10---reconcile-what-was-owed-performed-and-recorded) | Stable | Unconfirmed payment; obligation; fulfillment; record correction; gross and net | ADM.3–4 for time and correspondence; ADM.7–9 for a needed check, permission or provision; [OPS.15][OPS]. |
+| B.6 | [ADM.10 - Reconcile Administrative Obligations, Performance and Records](#adm10---reconcile-administrative-obligations-performance-and-records) | Stable | Unconfirmed payment; obligation; fulfillment; record correction; gross and net | ADM.3–4 for time and correspondence; ADM.7–9 for a needed check, permission or provision; [OPS.15][OPS]. |
 
 **Part C - Engineer the Administrative Arrangement**
 
@@ -43,14 +43,14 @@ ADM helps administrators examine administrative requests, give justified refusal
 | :--- | :--- | :--- | :--- | :--- |
 | C.1 | [ADM.11 - Join Providers Around the Administrative Result](#adm11---join-providers-around-the-administrative-result) | Stable | Provider handoff; local completion; receiving prerequisites; failed join | [SYSE.8][SYSE] and [OPS.8][OPS]; ADM.2–3 and ADM.8 for institutional inputs; [SYSE.24][SYSE] for a complete obtaining choice. |
 | C.2 | [ADM.13 - Keep Administrative Records Fit for Their Uses](#adm13---keep-administrative-records-fit-for-their-uses) | Stable | Earlier decision; correction history; retention; disposal; authorized retrieval | ADM.3–4; [A.10][A10] and [SIE.4–6][SIE] for source, meaning and identity questions. |
-| C.3 | [ADM.14 - Connect a Control to Its Purpose and Competent Decision](#adm14---connect-a-control-to-its-purpose-and-competent-decision) | Stable | Control purpose; rule owner; wrong proxy; qualified check; remedy | [SYSE.9][SYSE] and [SYSE.28][SYSE]; ADM.6–8 for case use; ADM.15 for consequences. |
+| C.3 | [ADM.14 - Connect an Administrative Control to Its Purpose and Competent Decision](#adm14---connect-an-administrative-control-to-its-purpose-and-competent-decision) | Stable | Control purpose; rule owner; wrong proxy; qualified check; remedy | [SYSE.9][SYSE] and [SYSE.28][SYSE]; ADM.6–8 for case use; ADM.15 for consequences. |
 
 **Part D - Assess and Change the Arrangement**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | D.1 | [ADM.15 - Judge Administrative Consequences](#adm15---judge-administrative-consequences) | Stable | Usable result; mistaken refusal; pre-entry failure; T+N; shifted effort | ADM.1 and ADM.7–10; [OPS.12–15][OPS] and [OCE.13][OCE] for the relevant consequence question. |
-| D.2 | [ADM.16 - Change an Administrative Arrangement Without Losing Open Cases](#adm16---change-an-administrative-arrangement-without-losing-open-cases) | Stable | Old and new terms; transition authority; open claim; retention; independent handling | ADM.13–15; [SYSE.29][SYSE] for technical transition; [ME.15][ME] for method variants; [ME.17][ME] for Method Engineering culture. |
+| D.2 | [ADM.16 - Decide Whether and How to Change an Administrative Arrangement Without Losing Open Cases](#adm16---decide-whether-and-how-to-change-an-administrative-arrangement-without-losing-open-cases) | Stable | Old and new terms; transition authority; open claim; retention; independent handling | ADM.13–15; [SYSE.29][SYSE] for technical transition; [ME.15][ME] for method variants; [ME.17][ME] for Method Engineering culture. |
 
 **Source return**
 
@@ -64,7 +64,7 @@ ADM helps administrators examine administrative requests, give justified refusal
 
 Organization Administration connects the condition someone needs for their work with the people, rules and providers that can supply it. A correct eligibility result can be reused by a permission decision; that decision gives a provider the bounds of the action; evidence of the actual effect lets the participants determine what was supplied and what remains owed. A failure or changed condition returns to the particular question it affects.
 
-ADM-E2, ADM-E3 and ADM-E7 are ordinary practical entries showing these connections. They are selected examples, not a catalogue or a sequence for every request. An ordinary request with adequate inputs can use its existing instruction directly. For a small ambiguity, [ADM.1 - Frame the Work Being Enabled](#adm1---frame-the-work-being-enabled) may suffice: arranged transport and accommodation can be complete even when the traveller's negotiations fail. The next negotiating decision belongs to the person responsible for that work.
+ADM-E2, ADM-E3 and ADM-E7 are ordinary practical entries showing these connections. They are selected examples, not a catalogue or a sequence for every request. An ordinary request with adequate inputs can use its existing instruction directly. For a small ambiguity, [ADM.1 - Frame the Administrative Condition Needed for the Work](#adm1---frame-the-administrative-condition-needed-for-the-work) may suffice: arranged transport and accommodation can be complete even when the traveller's negotiations fail. The next negotiating decision belongs to the person responsible for that work.
 
 Use the Table of Contents for other questions. You can ask an assisting agent to explain a pattern or comment on your case in ordinary language, without framework jargon. In `ADM.15:4.3`, `15` identifies the pattern and `4.3` its section; the Parts and `§` positions give publication order.
 
@@ -76,12 +76,12 @@ Use the Table of Contents for other questions. You can ask an assisting agent to
 
 - **First useful result or blocker:** An answer about the supplied eligibility basis, followed by the applicable service response; when the institutional conditions hold, usable authorized access or the unresolved provision task.
 
-- **Start with:** [ADM.3 - Determine What Changed and When It Takes Effect](#adm3---determine-what-changed-and-when-it-takes-effect) for the date question. Use [ADM.2 - Establish the Relevant Participants and Relations](#adm2---establish-the-relevant-participants-and-relations) if the beneficiary, deciding person, grant or provider responsibility is unclear.
+- **Start with:** [ADM.3 - Determine What Changed in Administrative Relations and When It Takes Effect](#adm3---determine-what-changed-in-administrative-relations-and-when-it-takes-effect) for the date question. Use [ADM.2 - Establish the Relevant Participants and Relations for an Administrative Action](#adm2---establish-the-relevant-participants-and-relations-for-an-administrative-action) if the beneficiary, deciding person, grant or provider responsibility is unclear.
 
 - **Stop or return:** Apply the service rule to an established positive or negative condition. Send only an actual unresolved basis to the source or person able to resolve it; keep adequate earlier results.
 
 1. **Match the basis to the intended use.** In the constructed archive case, the supplied appointment begins on 1 October and the rule requires an effective appointment. It therefore does not satisfy that condition for 25 September. A directory entry made earlier does not advance the effective date. This negative result settles the question about this appointment; another inquiry is needed only if a different basis is actually claimed or another relevant condition remains unresolved.
-2. **Pass the established conditions to provision.** Change the requested use to 2 October. Suppose the appointment now covers the work, an accepted identity result exists, and the custodian has granted reading of document D that day. [ADM.8 - Establish and Exercise the Required Permission](#adm8---establish-and-exercise-the-required-permission) supplies the bounds for the actual performer and action. It does not substitute an appointment or a working credential for the read grant.
+2. **Pass the established conditions to provision.** Change the requested use to 2 October. Suppose the appointment now covers the work, an accepted identity result exists, and the custodian has granted reading of document D that day. [ADM.8 - Establish and Exercise the Required Permission for an Administrative Action](#adm8---establish-and-exercise-the-required-permission-for-an-administrative-action) supplies the bounds for the actual performer and action. It does not substitute an appointment or a working credential for the read grant.
 3. **Find the failed provider contribution.** If the researcher cannot open D, [ADM.9 - Provide a Usable Administrative Result](#adm9---provide-a-usable-administrative-result) uses the grant and failed attempt to direct recovery. In its case, the provider corrects an account mapping and the researcher then opens D. That result supports the named use; an administrator's successful login would not establish the same fact. A permitted alternative reading channel may suffice, while a download falls outside a read-only grant.
 4. **Return a changed condition to the decision it affects.** If recovery moves use to 4 October, the 2 October grant no longer answers the permission question. If two otherwise ready cases instead need the same specialist's two-hour window and each requires two hours, [ADM.11 - Join Providers Around the Administrative Result](#adm11---join-providers-around-the-administrative-result) exposes the four-hour demand. The responsible parties must change timing, priorities or qualified provision before promising both. The valid appointments and grants need not be reconstructed unless that change affects their conditions.
 
@@ -93,13 +93,13 @@ Use the Table of Contents for other questions. You can ask an assisting agent to
 
 - **First useful result or blocker:** A correspondence between the participant accounts and a supported fulfillment conclusion, or the particular unknown effect that the provider must recover.
 
-- **Start with:** [ADM.4 - Reconcile Participant-Relative Accounts](#adm4---reconcile-participant-relative-accounts) when meanings or event identity differ. If those are already adequate, proceed directly to the outstanding effect or fulfillment question.
+- **Start with:** [ADM.4 - Reconcile Participant-Relative Administrative Accounts](#adm4---reconcile-participant-relative-administrative-accounts) when meanings or event identity differ. If those are already adequate, proceed directly to the outstanding effect or fulfillment question.
 
 - **Stop or return:** Retain both correct accounts of one event. Correct a record through its authorized procedure, supply established missing performance under the applicable permission, or preserve an unknown effect before a potentially duplicate action.
 
 1. **Determine what each account asserts.** An outgoing payment and an incoming receipt can describe one transfer from different positions. An issued instruction, a credited amount and discharge of an obligation are different facts. ADM.4 establishes the correspondence using the participants, event evidence, amount, time and relevant local meanings; the shared word “paid” cannot supply it.
-2. **Ask for the fact that can change the next action.** In the constructed case of 1,000 units owed, 600 are confirmed credited and a second instruction for 400 has an unknown effect. [ADM.7 - Check the Claim Needed for This Decision](#adm7---check-the-claim-needed-for-this-decision) isolates the missing claim: whether that second attempt credited the intended account. Another receipt upload or a changed status label would not answer it. ADM.9 sends the original attempt reference through the provider's recovery channel.
-3. **Use the recovered effect under the actual terms.** [ADM.10 - Reconcile What Was Owed, Performed and Recorded](#adm10---reconcile-what-was-owed-performed-and-recorded) applies the supplied rule that credited amounts discharge the corresponding obligation. Confirmed credit of the 400 establishes full fulfillment. Confirmed failure before credit leaves 400 outstanding and permits the applicable authorized continuation. Continued uncertainty establishes neither full fulfillment nor a definitely unpaid 400.
+2. **Ask for the fact that can change the next action.** In the constructed case of 1,000 units owed, 600 are confirmed credited and a second instruction for 400 has an unknown effect. [ADM.7 - Check the Claim Needed for This Administrative Decision](#adm7---check-the-claim-needed-for-this-administrative-decision) isolates the missing claim: whether that second attempt credited the intended account. Another receipt upload or a changed status label would not answer it. ADM.9 sends the original attempt reference through the provider's recovery channel.
+3. **Use the recovered effect under the actual terms.** [ADM.10 - Reconcile Administrative Obligations, Performance and Records](#adm10---reconcile-administrative-obligations-performance-and-records) applies the supplied rule that credited amounts discharge the corresponding obligation. Confirmed credit of the 400 establishes full fulfillment. Confirmed failure before credit leaves 400 outstanding and permits the applicable authorized continuation. Continued uncertainty establishes neither full fulfillment nor a definitely unpaid 400.
 4. **Preserve the history needed for correction.** A provider report arriving on 12 September can establish that credit occurred on 10 September. [ADM.13 - Keep Administrative Records Fit for Their Uses](#adm13---keep-administrative-records-fit-for-their-uses) preserves the earlier grounds, later evidence and their correspondence. Correcting the account neither repeats the credit nor changes its event time. A new fee or allocation dispute returns to the terms and competent interpretation it affects.
 
 ### ADM-E7 — A new policy starts while earlier cases remain open
@@ -110,13 +110,13 @@ Use the Table of Contents for other questions. You can ask an assisting agent to
 
 - **First useful result or blocker:** A decision by the authorized policy owner and usable handling for the affected cases, or the missing policy, provider or evidence contribution; adequate evidence may instead support retaining the arrangement.
 
-- **Start with:** [ADM.16 - Change an Administrative Arrangement Without Losing Open Cases](#adm16---change-an-administrative-arrangement-without-losing-open-cases), using the actual retention or change question and one case whose treatment could differ.
+- **Start with:** [ADM.16 - Decide Whether and How to Change an Administrative Arrangement Without Losing Open Cases](#adm16---decide-whether-and-how-to-change-an-administrative-arrangement-without-losing-open-cases), using the actual retention or change question and one case whose treatment could differ.
 
 - **Stop or return:** Finish the selected change with the promised provision and continued support for the earlier cases that still need it; identify any unresolved cases and their next responsible action. A new form, successful data import or quiet old queue does not settle a grant, obligation or required historical use.
 
 1. **Use consequences to select the change, not merely a closure count.** [ADM.15 - Judge Administrative Consequences](#adm15---judge-administrative-consequences) separates usable provision, correct and mistaken refusal, unresolved effects and work shifted to applicants. Its access-service case has 70 closures among 80 registered requests, but only 60 confirmed provisions; twenty additional requests failed before registration. Such an account can justify correcting an established defect without waiting for a general effectiveness study. A proposed policy change still needs its own grounds and competent decision.
 2. **Apply the adopted transition to the fact that selects the regime.** In ADM.16's constructed allowance case, journeys authorized before 1 November retain receipt-based terms; later authorizations use the allowance. A journey authorized on 28 October, performed on 3 November and claimed on 6 November therefore keeps the earlier terms. A recorded election before disbursement can select the permitted variant only with the confirmation required by the adopted rule. Unknown authorization or election facts remain specific questions, not guesses from the form version.
-3. **Turn that decision into usable handling.** [ADM.5 - Design the Reusable Administrative Case](#adm5---design-the-reusable-administrative-case) consumes the policy and transition conditions to specify the minimum request, necessary checks, competent decision, provider action, completion evidence and exceptions. ADM.11 obtains the provider contributions and resolves their joins. If a control gives the wrong response, [ADM.14 - Connect a Control to Its Purpose and Competent Decision](#adm14---connect-a-control-to-its-purpose-and-competent-decision) distinguishes a defective test or implementation from a policy requiring authorized change.
+3. **Turn that decision into usable handling.** [ADM.5 - Design Reusable Instructions for Administrative Requests](#adm5---design-reusable-instructions-for-administrative-requests) consumes the policy and transition conditions to specify the minimum request, necessary checks, competent decision, provider action, completion evidence and exceptions. ADM.11 obtains the provider contributions and resolves their joins. If a control gives the wrong response, [ADM.14 - Connect an Administrative Control to Its Purpose and Competent Decision](#adm14---connect-an-administrative-control-to-its-purpose-and-competent-decision) distinguishes a defective test or implementation from a policy requiring authorized change.
 4. **Establish usable handling and preserve unresolved effects.** For the changed provision, perform the bounded trial or rehearsal required before widening reliance: include an old-regime case, a new-regime case and the consequential election or unknown-payment branch. The recipient must obtain the promised result; a converted record is only one input. For an unchanged use, reuse adequate existing observations. A new staff exercise is needed only if its result can change the assignment or support decision. ADM.9/.10 recover an earlier payment effect before another payment or conversion that could duplicate it. ADM.13 retains the grounds needed for active disputes and legitimate historical use. Ending new requests through an old form does not by itself authorize disposal of those records.
 
 The [Preface](#preface) explains the common boundaries and the wider provider relationships. When ordinary handling cannot resolve a missing rule, authority or effect, [ADM.6 - Resolve an Administrative Exception](#adm6---resolve-an-administrative-exception) sends an answerable question to the competent participant while preserving independent permitted work.
@@ -205,7 +205,7 @@ Revisit the affected result when the requested action, participant, rule, effect
 
 # Part A - Identify the Work and the Organizational Condition
 
-## ADM.1 - Frame the Work Being Enabled
+## ADM.1 - Frame the Administrative Condition Needed for the Work
 
 **Type:** Architectural\
 **Status:** Stable
@@ -350,7 +350,7 @@ OPS.3 supplies the general case/work/description distinction. C.32.MWA supplies 
 
 ### ADM.1:End
 
-## ADM.2 - Establish the Relevant Participants and Relations
+## ADM.2 - Establish the Relevant Participants and Relations for an Administrative Action
 
 **Type:** Architectural\
 **Status:** Stable
@@ -506,7 +506,7 @@ A.6.REL supplies relation obtaining and conditional occurrence identity. A.2.8.P
 
 ### ADM.2:End
 
-## ADM.3 - Determine What Changed and When It Takes Effect
+## ADM.3 - Determine What Changed in Administrative Relations and When It Takes Effect
 
 **Type:** Architectural\
 **Status:** Stable
@@ -688,7 +688,7 @@ A.6.REL supplies the relation's obtaining, continuity and conditional occurrence
 
 ### ADM.3:End
 
-## ADM.4 - Reconcile Participant-Relative Accounts
+## ADM.4 - Reconcile Participant-Relative Administrative Accounts
 
 **Type:** Architectural\
 **Status:** Stable
@@ -861,7 +861,7 @@ The responsible handler uses the correspondence with the applicable service or s
 
 # Part B - Design the Repeated Case, Resolve Exceptions and Supply the Result
 
-## ADM.5 - Design the Reusable Administrative Case
+## ADM.5 - Design Reusable Instructions for Administrative Requests
 
 **Type:** Architectural
 
@@ -1178,7 +1178,7 @@ ADM.5 is used when the recurring instruction itself needs repair. [OPS.6][OPS] s
 
 ### ADM.6:End
 
-## ADM.7 - Check the Claim Needed for This Decision
+## ADM.7 - Check the Claim Needed for This Administrative Decision
 
 **Type:** Architectural
 
@@ -1334,7 +1334,7 @@ ADM.10 uses effect evidence to reconcile an obligation and performance. [A.10][A
 
 ### ADM.7:End
 
-## ADM.8 - Establish and Exercise the Required Permission
+## ADM.8 - Establish and Exercise the Required Permission for an Administrative Action
 
 **Type:** Architectural
 
@@ -1649,7 +1649,7 @@ The handler applies an existing service instruction from ADM.5 where one is need
 
 ### ADM.9:End
 
-## ADM.10 - Reconcile What Was Owed, Performed and Recorded
+## ADM.10 - Reconcile Administrative Obligations, Performance and Records
 
 **Type:** Architectural
 
@@ -2136,7 +2136,7 @@ ADM.5 specifies what an ordinary case returns, and ADM.16 preserves required rec
 
 ### ADM.13:End
 
-## ADM.14 - Connect a Control to Its Purpose and Competent Decision
+## ADM.14 - Connect an Administrative Control to Its Purpose and Competent Decision
 
 **Type:** Architectural
 
@@ -2474,7 +2474,7 @@ ADM.1 distinguishes the enabled work and administrative condition. ADM.7–10 su
 
 ### ADM.15:End
 
-## ADM.16 - Change an Administrative Arrangement Without Losing Open Cases
+## ADM.16 - Decide Whether and How to Change an Administrative Arrangement Without Losing Open Cases
 
 **Type:** Architectural
 
@@ -2692,7 +2692,7 @@ The cited methods retain their own scope. Use the named contribution when it ans
 
 | Source | Contribution used here |
 | --- | --- |
-| [FPF A.6.REL — Relation Obtaining and Individuated Relation Occurrences][REL], §§4.2–4.7 | Readable relation use; obtaining versus assertion; occurrence identity only for a receiving use that needs to distinguish episodes; relation change versus description change. ADM.2–4 apply these distinctions to the actual administrative rule and facts. |
+| [FPF A.6.REL — Relation Obtaining and Individuation: Distinguish Occurrences When Needed][REL], §§4.2–4.7 | Readable relation use; obtaining versus assertion; occurrence identity only for a receiving use that needs to distinguish episodes; relation change versus description change. ADM.2–4 apply these distinctions to the actual administrative rule and facts. |
 | [FPF A.2.8.PER — Granted Permission, Exercise and Non-Prohibition][PER], §§4.1 and 4.3–4.6 | Keep a grant, its exercise and a non-prohibition finding distinct; apply a matching conflict rule or adequate resolving decision before returning a genuine gap. ADM.2 and ADM.8 apply these distinctions to the named administrative action. |
 | [Operations Management][OPS], OPS.3–6, OPS.8 and OPS.12–15 | OPS.3–4 distinguish operating subjects and usable claims; OPS.5–6 supply admission and continuation. OPS.8 supplies receiving-action readiness and operational joins. OPS.12–15 supply burden, promises, financial comparison and observations for the actual decision. Administrative eligibility, authority and fulfillment rules remain explicit inputs. |
 | [FPF A.10 — Evidence Graph Referring][A10], §§4.1–4.2 and 4.5–4.6; [B.3 — Trust and Assurance Calculus][B3], §§4.1–4.2 | A.10 recovers the exact claim, source and bounded reliance without supplying the domain result. B.3 is used only for an actual named assurance claim; consequence alone does not create one. ADM.7 retains these limits. |
@@ -2748,7 +2748,7 @@ For ADM.15, use the relevant receipts, payments, time and participant burdens on
 
 [Goth, Catala-Perez and Hedderich's 2025 shared-service cost review][SSC] is used through its author-institution abstract. Its qualified concern about weak or unclear company-wide financial baselines limits a general administrative-cost-reduction claim in ADM.15. The full article was not read; the finding does not establish that shared services never save cost.
 
-[REL]: ../FPF-Spec.md#a6rel---relation-obtaining-and-individuated-relation-occurrences
+[REL]: ../FPF-Spec.md#a6rel---relation-obtaining-and-individuation-distinguish-occurrences-when-needed
 [PER]: ../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition
 [MWA]: ../FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures
 [EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
@@ -2761,7 +2761,7 @@ For ADM.15, use the relevant receipts, payments, time and participant burdens on
 [GOVUK]: https://www.gov.uk/service-manual/service-standard/point-2-solve-a-whole-problem
 [NIST]: https://pages.nist.gov/800-63-4/sp800-63.html
 [A10]: ../FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph
-[B3]: ../FPF-Spec.md#b3---trust-and-assurance-calculus
+[B3]: ../FPF-Spec.md#b3---is-this-claim-supported-for-this-use--trust-and-assurance-calculus
 [CMMN]: https://www.omg.org/spec/CMMN/1.1/PDF
 [XACML]: https://docs.oasis-open.org/xacml/3.0/xacml-3.0-core-spec-os-en.html
 [ME]: METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md

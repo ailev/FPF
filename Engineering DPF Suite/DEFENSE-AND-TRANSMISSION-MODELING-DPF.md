@@ -25,7 +25,7 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 | 1 | [DTM.1 - Distinguish Dependence, Cooperation and Parasitic Use](#dtm1---distinguish-dependence-cooperation-and-parasitic-use) | Stable | useful dependence; who benefits; whose harm; copied description versus method | FPF A.6.P.RI, C.36, D.3/D.4 |
 | 2 | [DTM.2 - Build a Transmission Law from Exposure and Uptake](#dtm2---build-a-transmission-law-from-exposure-and-uptake) | Stable | contact is not adoption; reinforcement; reconstruction; source and recipient | DTM.1; MMP.7/.11 |
 | 3 | [DTM.3 - Couple Change Within Carriers to Spread Between Them](#dtm3---couple-change-within-carriers-to-spread-between-them) | Stable | learning changes spread; partner composition; mean hides differences | DTM.2; MMP.18 |
-| 4 | [DTM.4 - Find Conditions for Invasion, Persistence and Return](#dtm4---find-conditions-for-invasion-persistence-and-return) | Stable | threshold; persistence; return after intervention; initial conditions | DTM.2/.3; mathematical analysis |
+| 4 | [DTM.4 - Find Conditions for Variant Invasion, Persistence and Return](#dtm4---find-conditions-for-variant-invasion-persistence-and-return) | Stable | threshold; persistence; return after intervention; initial conditions | DTM.2/.3; mathematical analysis |
 
 ## Part II — Competition, coexistence and diversion
 
@@ -39,8 +39,8 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 8 | [DTM.8 - Distinguish and Combine the Targets of Protective Action](#dtm8---distinguish-and-combine-the-targets-of-protective-action) | Stable | contact; established activity; consequence; restoration; feasible protection | DTM.1–3; FPF C.32.MWA |
-| 9 | [DTM.9 - Model Damage and Feedback from a Protective Response](#dtm9---model-damage-and-feedback-from-a-protective-response) | Stable | costly response; memory; differential sensitivity; protection backfires | DTM.3/.4/.6/.8; MMP.18; FPF C.30.LCA |
+| 8 | [DTM.8 - Compare Protective Actions against Continuing or Spreading Activity by Target and Remaining Effects](#dtm8---compare-protective-actions-against-continuing-or-spreading-activity-by-target-and-remaining-effects) | Stable | contact; established activity; consequence; restoration; feasible protection | DTM.1–3; FPF C.32.MWA |
+| 9 | [DTM.9 - Model Damage and Feedback from Protective Responses to Continuing or Spreading Activity](#dtm9---model-damage-and-feedback-from-protective-responses-to-continuing-or-spreading-activity) | Stable | costly response; memory; differential sensitivity; protection backfires | DTM.3/.4/.6/.8; MMP.18; FPF C.30.LCA |
 
 # Defense and Transmission Modeling DPF Readme
 
@@ -735,7 +735,7 @@ MMP.18 provides general coupling and reduction methods. C.32.MWA preserves disti
 
 ### DTM.3:End
 
-## DTM.4 - Find Conditions for Invasion, Persistence and Return
+## DTM.4 - Find Conditions for Variant Invasion, Persistence and Return
 
 **Type:** Method
 **Status:** Stable
@@ -1440,7 +1440,7 @@ Use an established subject fault-analysis or control method when it already reso
 
 # Part III — Protective action and its consequences
 
-## DTM.8 - Distinguish and Combine the Targets of Protective Action
+## DTM.8 - Compare Protective Actions against Continuing or Spreading Activity by Target and Remaining Effects
 
 **Type:** Method
 **Status:** Stable
@@ -1605,7 +1605,7 @@ Compared with one generic suppression target, the four-target account can show w
 
 ### DTM.8:End
 
-## DTM.9 - Model Damage and Feedback from a Protective Response
+## DTM.9 - Model Damage and Feedback from Protective Responses to Continuing or Spreading Activity
 
 **Type:** Method
 **Status:** Stable

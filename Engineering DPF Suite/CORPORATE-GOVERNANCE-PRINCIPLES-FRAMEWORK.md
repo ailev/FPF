@@ -27,16 +27,16 @@ The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FP
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [CGOV.1 - Frame the Corporate Matter and Its Governing Rules](#cgov1---frame-the-corporate-matter-and-its-governing-rules) | Stable | corporation; group; proposed act; governing rules. Which corporation must act, and which rules change the answer? | Applicable corporate rules; CGOV.2/.3 when relevant rights or authority remain unresolved. |
 | 2 | [CGOV.2 - Distinguish Shareholding, Voting Power, and Control](#cgov2---distinguish-shareholding-voting-power-and-control) | Stable | shareholding; votes; economic interest; control; denominator. Which rights do these holdings carry for this matter? | CGOV.1 for the matter; FPF A.6.REL for the distinct relations. |
-| 3 | [CGOV.3 - Establish Appointment, Removal, and Decision Authority](#cgov3---establish-appointment-removal-and-decision-authority) | Stable | appointment; removal; delegation; reserved matter; signing. Who may perform this act, and under which conditions? | CGOV.1/.2 where the matter or rights are unresolved; applicable corporate powers. |
+| 3 | [CGOV.3 - Establish Authority for Corporate Appointments, Removals, and Decisions](#cgov3---establish-authority-for-corporate-appointments-removals-and-decisions) | Stable | appointment; removal; delegation; reserved matter; signing. Who may perform this act, and under which conditions? | CGOV.1/.2 where the matter or rights are unresolved; applicable corporate powers. |
 
 ## Part II - Governing contributions and conflicts
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [CGOV.4 - Design Board and Executive Contributions](#cgov4---design-board-and-executive-contributions) | Stable | board; executive; contribution design; information; monitoring. Who should prepare, challenge, decide and follow the matter? | CGOV.3 for powers; OCE.4 for contribution design and OCE.5 where positions need design. |
-| 2 | [CGOV.5 - Configure Committees and Independent Oversight](#cgov5---configure-committees-and-independent-oversight) | Stable | committee; remit; oversight; independence; resources. What arrangement can supply the required oversight contribution? | CGOV.3/.4 for powers and contributions; OCE.4 for arrangement design. |
+| 2 | [CGOV.5 - Choose an Arrangement for Independent Corporate Oversight, with or without a Committee](#cgov5---choose-an-arrangement-for-independent-corporate-oversight-with-or-without-a-committee) | Stable | committee; remit; oversight; independence; resources. What arrangement can supply the required oversight contribution? | CGOV.3/.4 for powers and contributions; OCE.4 for arrangement design. |
 | 3 | [CGOV.6 - Expose Conflicts and Related-Party Interests](#cgov6---expose-conflicts-and-related-party-interests) | Stable | conflict of interest; related party; duty; participation. Which interest affects this matter and what changes in its handling? | CGOV.1/.3 for the matter and duties; FPF A.6.REL for participants and conditions. |
-| 4 | [CGOV.7 - Arrange Independent Review and a Disinterested Decision](#cgov7---arrange-independent-review-and-a-disinterested-decision) | Stable | independent review; valuation; eligibility; quorum. What review is needed, and who can make the decision? | CGOV.6 for the conflict; CGOV.8 for information; CGOV.11 for the subsequent corporate act. |
+| 4 | [CGOV.7 - Arrange Independent Review and a Disinterested Corporate Decision](#cgov7---arrange-independent-review-and-a-disinterested-corporate-decision) | Stable | independent review; valuation; eligibility; quorum. What review is needed, and who can make the decision? | CGOV.6 for the conflict; CGOV.8 for information; CGOV.11 for the subsequent corporate act. |
 
 ## Part III - Information, control, assurance and decision
 
@@ -44,18 +44,18 @@ The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FP
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [CGOV.8 - Provide Corporate Information under Applicable Rights and Duties](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) | Stable | disclosure; information rights; confidentiality; timely access. What must this recipient receive, and has provision occurred? | CGOV.1/.3 for the corporate basis; ADM.2 for permission questions where needed. |
 | 2 | [CGOV.9 - Establish and Operate Internal Control](#cgov9---establish-and-operate-internal-control) | Stable | internal control; exposure; operation; response; effectiveness. How does this control change the exposure, and can it operate? | CGOV.3 for authority; OPS.18 where an operating-control contribution is needed. |
-| 3 | [CGOV.10 - Obtain and Use a Scoped Audit or Assurance Conclusion](#cgov10---obtain-and-use-a-scoped-audit-or-assurance-conclusion) | Stable | audit; assurance; professional conclusion; independence; scope. Does this report support the conclusion needed here? | CGOV.8 for provision; specialist engagement methods and applicable standards. |
+| 3 | [CGOV.10 - Obtain and Use a Scoped Audit or Assurance Conclusion for Corporate Governance](#cgov10---obtain-and-use-a-scoped-audit-or-assurance-conclusion-for-corporate-governance) | Stable | audit; assurance; professional conclusion; independence; scope. Does this report support the conclusion needed here? | CGOV.8 for provision; specialist engagement methods and applicable standards. |
 | 4 | [CGOV.11 - Make and Record a Corporate Decision](#cgov11---make-and-record-a-corporate-decision) | Stable | corporate decision; deliberation; eligible participation; vote; resolution; record. How do authorized participants perform this decision? | CGOV.1/.3 and any needed CGOV.6–CGOV.10 results; PSD.13 may supply advice. |
 
 ## Part IV - Rights, consequences and renewal
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [CGOV.12 - Protect Minority Rights and Enable Contest or Exit](#cgov12---protect-minority-rights-and-enable-contest-or-exit) | Stable | minority; protection; contest; exit; deadline. What right can the holder exercise, and what must be done before it expires? | CGOV.2/.3/.8 for relevant rights, powers and information; the applicable remedy or transaction method. |
+| 1 | [CGOV.12 - Protect Corporate Minority Holders' Rights and Enable Contest or Exit](#cgov12---protect-corporate-minority-holders-rights-and-enable-contest-or-exit) | Stable | minority; protection; contest; exit; deadline. What right can the holder exercise, and what must be done before it expires? | CGOV.2/.3/.8 for relevant rights, powers and information; the applicable remedy or transaction method. |
 | 2 | [CGOV.13 - Monitor Corporate Performance and Require an Account](#cgov13---monitor-corporate-performance-and-require-an-account) | Stable | performance; undertaking; accountability; denominator; response. What happened, who must account, and what response is permitted? | CGOV.3/.11 for powers and undertakings; OCE.13 when organization-change comparison is needed. |
-| 3 | [CGOV.14 - Change Governing Instruments and Arrangements](#cgov14---change-governing-instruments-and-arrangements) | Stable | constitution; amendment; adoption; registration; effectivity. Which acts make the proposed arrangement effective and usable? | CGOV.3/.11 for powers and corporate acts; OCE.14 for a substantive arrangement revision. |
-| 4 | [CGOV.15 - Develop and Refresh Corporate-Governance Methods](#cgov15---develop-and-refresh-corporate-governance-methods) | Stable | method change; preparation; alternatives; variant; reuse. Which change in the way of governing answers the recurring difficulty? | ME.6 when architectural alternatives need comparison; ME.15 for variants; FPF C.11.DUA for optional inquiry. |
-| 5 | [CGOV.16 - Reconcile Constituent and Encompassing Governance Work](#cgov16---reconcile-constituent-and-encompassing-governance-work) | Stable | constituent work; encompassing work; vertical; capability; simultaneous enactment. Why can a competent local action fail its contribution to the whole? | FPF B.1.5.EW for constituent/encompassing enactment; relevant corporate decision or operating method. |
+| 3 | [CGOV.14 - Decide Whether and How to Change Corporate Governing Instruments and Arrangements](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements) | Stable | constitution; amendment; adoption; registration; effectivity. Which acts make the proposed arrangement effective and usable? | CGOV.3/.11 for powers and corporate acts; OCE.14 for a substantive arrangement revision. |
+| 4 | [CGOV.15 - Decide Whether and How to Change Corporate-Governance Methods](#cgov15---decide-whether-and-how-to-change-corporate-governance-methods) | Stable | method change; preparation; alternatives; variant; reuse. Which way of governing answers the recurring difficulty, and what should be retained or changed? | ME.6 when architectural alternatives need comparison; ME.15 for variants; FPF C.11.DUA for optional inquiry. |
+| 5 | [CGOV.16 - Reconcile Constituent and Encompassing Corporate Governance Work](#cgov16---reconcile-constituent-and-encompassing-corporate-governance-work) | Stable | constituent work; encompassing work; vertical; capability; simultaneous enactment. Why can a competent local action fail its contribution to the whole? | FPF B.1.5.EW for constituent/encompassing enactment; relevant corporate decision or operating method. |
 | 6 | [CGOV.17 - Deliberately Continue and Change Corporate-Governance Culture](#cgov17---deliberately-continue-and-change-corporate-governance-culture) | Stable | culture; succession; transmission; access; assistance; receiving work; retention. How can participants obtain and use the governing method? | FPF C.36 and C.36.RP for cultural relations and continuation; CGOV.16 for a missing constituent contribution. |
 
 # Corporate Governance Principles Framework Readme
@@ -71,7 +71,7 @@ You can ask an assisting agent: “Explain this and give me your comments in ord
 - **Situation:** A director is asked to sign a commitment, and an existing delegation may already be sufficient.
 - **Question:** Who can authorize this act, and who can sign it?
 - **First useful result or blocker:** The authority answer for the proposed act, including any distinct approval or signing condition.
-- **Start with:** [CGOV.3](#cgov3---establish-appointment-removal-and-decision-authority). Use the existing delegation and its conditions; [CGOV.1](#cgov1---frame-the-corporate-matter-and-its-governing-rules) helps if the corporation or proposed act remains unclear.
+- **Start with:** [CGOV.3](#cgov3---establish-authority-for-corporate-appointments-removals-and-decisions). Use the existing delegation and its conditions; [CGOV.1](#cgov1---frame-the-corporate-matter-and-its-governing-rules) helps if the corporation or proposed act remains unclear.
 - **Stop or return:** Stop when the authority question is answered. If the assignment includes making the decision, continue through [CGOV.11](#cgov11---make-and-record-a-corporate-decision) or the established delegated procedure. An unmet condition limits that act; it does not automatically suspend unrelated preparation.
 
 ### CGOV-CONFLICTED-MATTER - Bring an interested-party transaction to a corporate decision
@@ -79,32 +79,32 @@ You can ask an assisting agent: “Explain this and give me your comments in ord
 - **Situation:** A supplier transaction has favourable expert advice, but a director has an interest in the supplier and shareholders need information.
 - **Question:** Which contributions must come together so that eligible participants can decide the actual proposal?
 - **First useful result or blocker:** A usable answer to the unresolved authority, conflict or information question; an actual corporate decision when that is the assignment and its conditions can be met.
-- **Start with:** [CGOV.1](#cgov1---frame-the-corporate-matter-and-its-governing-rules) to identify the act; use [CGOV.6](#cgov6---expose-conflicts-and-related-party-interests) for the interest and its consequences, [CGOV.7](#cgov7---arrange-independent-review-and-a-disinterested-decision) for warranted independent review and eligible participation, [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) for information provision, and [CGOV.11](#cgov11---make-and-record-a-corporate-decision) for deliberation and decision. Existing sufficient contributions can be reused.
+- **Start with:** [CGOV.1](#cgov1---frame-the-corporate-matter-and-its-governing-rules) to identify the act; use [CGOV.6](#cgov6---expose-conflicts-and-related-party-interests) for the interest and its consequences, [CGOV.7](#cgov7---arrange-independent-review-and-a-disinterested-corporate-decision) for warranted independent review and eligible participation, [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) for information provision, and [CGOV.11](#cgov11---make-and-record-a-corporate-decision) for deliberation and decision. Existing sufficient contributions can be reused.
 - **Stop or return:** Stop the affected decision when its participation or other required condition fails. Return only the missing contribution; preparation may remain possible. The connected example below explains the distinction.
 
 Suppose the supplied rules reserve the transaction to the board, exclude the interested director from deliberation and voting, and require both remaining directors to approve. They also require a shareholder summary before the decision. Those are this case's inputs, not universal corporate rules.
 
-The conflict account identifies the participation conditions. The information account specifies what the summary must convey and what confidential detail can be withheld. A specialist's valuation helps the directors judge terms under its assumptions. If another independent report would add no needed contribution and no rule requires it, [CGOV.7](#cgov7---arrange-independent-review-and-a-disinterested-decision) does not make commissioning one a prerequisite.
+The conflict account identifies the participation conditions. The information account specifies what the summary must convey and what confidential detail can be withheld. A specialist's valuation helps the directors judge terms under its assumptions. If another independent report would add no needed contribution and no rule requires it, [CGOV.7](#cgov7---arrange-independent-review-and-a-disinterested-corporate-decision) does not make commissioning one a prerequisite.
 
 Now separate a preparatory commitment from a proposed live deployment. The case permits preparation but requires a technical release for deployment. The board may authorize preparation after the corporate conditions are met; the favourable valuation supplies neither the corporate act nor the technical release. If a director cannot participate, the existing advice remains usable while the decision awaits a permitted participation arrangement. If shareholder disclosure lacks a material assumption, repair that disclosure rather than commission a replacement valuation.
 
-After a decision, use [CGOV.13](#cgov13---monitor-corporate-performance-and-require-an-account) to follow the undertaking and any required conditions. [CGOV.14](#cgov14---change-governing-instruments-and-arrangements) is useful when the governing arrangement itself needs amendment.
+After a decision, use [CGOV.13](#cgov13---monitor-corporate-performance-and-require-an-account) to follow the undertaking and any required conditions. [CGOV.14](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements) is useful when the governing arrangement itself needs amendment.
 
 ### CGOV-RECEIVING-WORK - Restore useful participation after a change of directors
 
 - **Situation:** New directors have attended induction, but an important assumption still fails to enter the board's decision.
 - **Question:** What prevents the contribution from being obtained and used in deliberation?
 - **First useful result or blocker:** A correction directed at the missing contribution, carried into receiving work when implementation is the assignment.
-- **Start with:** [CGOV.16](#cgov16---reconcile-constituent-and-encompassing-governance-work) when the connection between the failed contribution and the larger work is unclear. Use [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) to establish how participants can obtain and use the contribution, distinguishing reasoning, access and transmission difficulties. [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) supplies information provision; [CGOV.15](#cgov15---develop-and-refresh-corporate-governance-methods) helps when the way of preparing or discussing matters must change.
+- **Start with:** [CGOV.16](#cgov16---reconcile-constituent-and-encompassing-corporate-governance-work) when the connection between the failed contribution and the larger work is unclear. Use [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) to establish how participants can obtain and use the contribution, distinguishing reasoning, access and transmission difficulties. [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) supplies information provision; [CGOV.15](#cgov15---decide-whether-and-how-to-change-corporate-governance-methods) helps when the way of preparing or discussing matters must change.
 - **Stop or return:** Close a request for diagnosis with the supported diagnosis. For implementation, continue to the contribution's use under the applicable conditions. Return to the failed connection when timely access, assistance or changed preparation still leaves the work unusable.
 
 A new director can interpret a forecast when given the papers, but a portal change delivers them after the vote. Restore timely access under the existing powers. More instruction does not repair that access failure.
 
 Change the case: the papers now arrive on time, but the director treats income conditional on an unconfirmed customer renewal as secured. An explanation can be repeated, yet the relevant assumption is missed in a different proposal. The next move changes to targeted explanation and practice with varied proposals, using permitted specialist help. The receiving test is whether the director can use that dependency in the board's deliberation. Repeating the example establishes a narrower result.
 
-This use has a vertical as well as a sequence. Identifying an assumption can be part of explaining a forecast while that explanation is part of deliberation on a corporate decision. The board's question determines which assumption matters; the director's ability to interpret it limits the contribution to the whole. Specialist analysis can help, while the director retains the participation and judgement required by the governing rules. [CGOV.16](#cgov16---reconcile-constituent-and-encompassing-governance-work) explains how to recover this connection.
+This use has a vertical as well as a sequence. Identifying an assumption can be part of explaining a forecast while that explanation is part of deliberation on a corporate decision. The board's question determines which assumption matters; the director's ability to interpret it limits the contribution to the whole. Specialist analysis can help, while the director retains the participation and judgement required by the governing rules. [CGOV.16](#cgov16---reconcile-constituent-and-encompassing-corporate-governance-work) explains how to recover this connection.
 
-If the existing preparation method repeatedly hides assumptions until commitment, [CGOV.15](#cgov15---develop-and-refresh-corporate-governance-methods) helps change the operations within the available powers. [CGOV.14](#cgov14---change-governing-instruments-and-arrangements) enters only when the change also requires an instrument or arrangement to be made effective. Use [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) to follow how participants obtain, use and retain the method across succession. A better description, a training event, performed participation and long-term retention are different possible results.
+If the existing preparation method repeatedly hides assumptions until commitment, [CGOV.15](#cgov15---decide-whether-and-how-to-change-corporate-governance-methods) helps change the operations within the available powers. [CGOV.14](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements) enters only when the change also requires an instrument or arrangement to be made effective. Use [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) to follow how participants obtain, use and retain the method across succession. A better description, a training event, performed participation and long-term retention are different possible results.
 
 # Preface
 
@@ -139,11 +139,11 @@ The Parts organize the repertoire for reading. They are neither stages that ever
 | III — Information, control, assurance and decision | Use CGOV.8–CGOV.10 to provide or qualify needed information, controls and professional conclusions; use CGOV.11 to make the corporate decision. | Advice and operating findings enter judgement under their limits; the corporate act has its own participation and exercise conditions. |
 | IV — Rights, consequences and renewal | Use CGOV.12 to protect or exercise rights, CGOV.13 to follow undertakings and CGOV.14–CGOV.17 to change arrangements or methods, reconcile constituent work and continue governance practice. | An actual defect determines the correction; an ordinary completed matter need not activate every renewal method. |
 
-Begin where the required inputs are already available. A routine commitment within an established delegation can use the ordinary delegated procedure. A question about a committee's remit can begin with [CGOV.5](#cgov5---configure-committees-and-independent-oversight). An audit opinion offered as support for a forecast can begin with [CGOV.10](#cgov10---obtain-and-use-a-scoped-audit-or-assurance-conclusion).
+Begin where the required inputs are already available. A routine commitment within an established delegation can use the ordinary delegated procedure. A question about a committee's remit can begin with [CGOV.5](#cgov5---choose-an-arrangement-for-independent-corporate-oversight-with-or-without-a-committee). An audit opinion offered as support for a forecast can begin with [CGOV.10](#cgov10---obtain-and-use-a-scoped-audit-or-assurance-conclusion-for-corporate-governance).
 
 Keep the result's kind visible through the connection. An account of authority identifies a power and its conditions. A proposal recommends an arrangement. An effective appointment, consent or amendment changes what can be done. A performed decision exercises a power. Subsequent execution implements what was decided. These results can be closely related without being interchangeable.
 
-Results also have different recipients. Shareholders may have information and contest rights while a board retains a decision power. An executive may provide analysis and carry out an authorized undertaking. Professional conclusions retain their scope when supplied to the board. [CGOV.4](#cgov4---design-board-and-executive-contributions), [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties), [CGOV.11](#cgov11---make-and-record-a-corporate-decision) and [CGOV.12](#cgov12---protect-minority-rights-and-enable-contest-or-exit) explain the corresponding work.
+Results also have different recipients. Shareholders may have information and contest rights while a board retains a decision power. An executive may provide analysis and carry out an authorized undertaking. Professional conclusions retain their scope when supplied to the board. [CGOV.4](#cgov4---design-board-and-executive-contributions), [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties), [CGOV.11](#cgov11---make-and-record-a-corporate-decision) and [CGOV.12](#cgov12---protect-corporate-minority-holders-rights-and-enable-contest-or-exit) explain the corresponding work.
 
 ### CGOV.Preface:3.1 - A vertical of work being performed
 
@@ -153,7 +153,7 @@ In a constructed case, four eligible directors participate: two vote in favour, 
 
 An explanation has a similar connection. A financial analyst supplies a conditional forecast. A director's interpretation of the assumption contributes to deliberation, while deliberation contributes to deciding the corporate matter. If the director can repeat the numbers but cannot identify the assumption, competent analysis and a correctly convened meeting can coexist with the missing intermediate capability.
 
-[CGOV.16](#cgov16---reconcile-constituent-and-encompassing-governance-work) uses FPF B.1.5.EW to recover these connections in both directions. Earlier information delivery is also needed, but its earlier-result dependency is different from these constituent actions. An audit running alongside a meeting is separate work unless the claimed constituent connection can actually be established.
+[CGOV.16](#cgov16---reconcile-constituent-and-encompassing-corporate-governance-work) uses FPF B.1.5.EW to recover these connections in both directions. Earlier information delivery is also needed, but its earlier-result dependency is different from these constituent actions. An audit running alongside a meeting is separate work unless the claimed constituent connection can actually be established.
 
 A DPF describes only part of the needed vertical. Reading, calculation, analysis, explanation and communication may be divided among people and tools. Information access and other required support must be available. Allocate help according to the contribution needed, while retaining any participation and judgement the applicable rules assign to a particular person or organ. [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) addresses how those contributions become obtainable in practice. The texts alone do not provide the capabilities or resources.
 
@@ -165,15 +165,15 @@ SensorCo proposes a service pilot with a supplier in which one director has a ma
 
 An operational rule additionally requires a technical release before live plant control. Preparation and an offline simulation are permitted before that release. Finance has supplied a funding and consequence account for preparation, and an adviser recommends proceeding.
 
-1. [CGOV.1](#cgov1---frame-the-corporate-matter-and-its-governing-rules) separates the preparatory commitment from live deployment. Existing rights and delegation information answers the relevant [CGOV.2](#cgov2---distinguish-shareholding-voting-power-and-control)–[CGOV.3](#cgov3---establish-appointment-removal-and-decision-authority) questions.
-2. [CGOV.6](#cgov6---expose-conflicts-and-related-party-interests) determines the director's disclosure and participation conditions. [CGOV.7](#cgov7---arrange-independent-review-and-a-disinterested-decision) connects any warranted independent contribution with eligible decision participants; the case supplies no requirement for another supplier report merely because a relationship exists.
-3. Use [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) to provide the required summary to its recipients, preserving its material content and confidentiality conditions. The financial account retains its preparation-only scope. An audit question, if one arises, returns to [CGOV.10](#cgov10---obtain-and-use-a-scoped-audit-or-assurance-conclusion).
+1. [CGOV.1](#cgov1---frame-the-corporate-matter-and-its-governing-rules) separates the preparatory commitment from live deployment. Existing rights and delegation information answers the relevant [CGOV.2](#cgov2---distinguish-shareholding-voting-power-and-control)–[CGOV.3](#cgov3---establish-authority-for-corporate-appointments-removals-and-decisions) questions.
+2. [CGOV.6](#cgov6---expose-conflicts-and-related-party-interests) determines the director's disclosure and participation conditions. [CGOV.7](#cgov7---arrange-independent-review-and-a-disinterested-corporate-decision) connects any warranted independent contribution with eligible decision participants; the case supplies no requirement for another supplier report merely because a relationship exists.
+3. Use [CGOV.8](#cgov8---provide-corporate-information-under-applicable-rights-and-duties) to provide the required summary to its recipients, preserving its material content and confidentiality conditions. The financial account retains its preparation-only scope. An audit question, if one arises, returns to [CGOV.10](#cgov10---obtain-and-use-a-scoped-audit-or-assurance-conclusion-for-corporate-governance).
 4. With these conditions met, the two eligible directors deliberate and approve the preparatory commitment through [CGOV.11](#cgov11---make-and-record-a-corporate-decision). They preserve the outcome in the form required by the supplied procedure. Live deployment remains conditional on the technical release.
 5. Use [CGOV.13](#cgov13---monitor-corporate-performance-and-require-an-account) to follow the authorized undertaking and the condition that can change its continuation. The responsible participant can require an account and perform a permitted response when performance diverges.
 
 The worked result is the authorization of bounded preparation, conditional on the stated steps having been performed. It is not authorization of deployment. If a required director cannot participate, the corporate decision waits for a permitted arrangement; the usable financial analysis and permitted preparation of materials remain. If the assignment was only to identify the conflict conditions, its result can stop after step 2.
 
-A shareholder's protected challenge can proceed through [CGOV.12](#cgov12---protect-minority-rights-and-enable-contest-or-exit) without treating every challenge as a veto. A genuine arrangement defect can require [CGOV.14](#cgov14---change-governing-instruments-and-arrangements). These branches show why the language is a repertoire with connected results rather than one compulsory lifecycle.
+A shareholder's protected challenge can proceed through [CGOV.12](#cgov12---protect-corporate-minority-holders-rights-and-enable-contest-or-exit) without treating every challenge as a veto. A genuine arrangement defect can require [CGOV.14](#cgov14---decide-whether-and-how-to-change-corporate-governing-instruments-and-arrangements). These branches show why the language is a repertoire with connected results rather than one compulsory lifecycle.
 
 ## CGOV.Preface:5 - Bias, limitations and consequences
 
@@ -213,7 +213,7 @@ A company-wide assessment or governance code can be a suitable starting point wh
 
 Generic Organization Change Engineering methods already help design contributions and revise arrangements. Corporate methods add the action-changing rights, powers, participant eligibility, conflict and effectivity conditions. Generic inquiry, measurement, Method Engineering and cultural-evolution contributions remain with FPF or their supplying DPF; they are used where they answer the question.
 
-Method renewal and cultural continuation remain distinct. Use [CGOV.15](#cgov15---develop-and-refresh-corporate-governance-methods) to change or maintain a way of working under corporate conditions. Use [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) to follow how participants obtain and use it, including assistance, access and succession. A changed method can provide something new to transmit; a transmission failure can reveal a method's limit. Neither result requires a constitutional change unless its actual conditions do.
+Method renewal and cultural continuation remain distinct. Use [CGOV.15](#cgov15---decide-whether-and-how-to-change-corporate-governance-methods) to change or maintain a way of working under corporate conditions. Use [CGOV.17](#cgov17---deliberately-continue-and-change-corporate-governance-culture) to follow how participants obtain and use it, including assistance, access and succession. A changed method can provide something new to transmit; a transmission failure can reveal a method's limit. Neither result requires a constitutional change unless its actual conditions do.
 
 Profiles may be useful for a recurring setting, such as a controlled subsidiary or a particular board structure. The present language explains those differences through supplied conditions and cases; it does not declare every company type a new Method. A profile becomes useful when it preserves a recurring combination and explains the changed operations or results. The Part structure alone establishes no specialization or Method composition.
 
@@ -468,7 +468,7 @@ FIN.11 compares financing mixes and can use the consequences of a proposed right
 
 ### CGOV.2:End
 
-## CGOV.3 - Establish Appointment, Removal, and Decision Authority
+## CGOV.3 - Establish Authority for Corporate Appointments, Removals, and Decisions
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -683,7 +683,7 @@ OCE.4 provides contribution-design operations; OCE.5 helps when a stable positio
 
 ### CGOV.4:End
 
-## CGOV.5 - Configure Committees and Independent Oversight
+## CGOV.5 - Choose an Arrangement for Independent Corporate Oversight, with or without a Committee
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -905,7 +905,7 @@ PSD.9 can represent legitimate value disagreements without resolving corporate e
 
 ### CGOV.6:End
 
-## CGOV.7 - Arrange Independent Review and a Disinterested Decision
+## CGOV.7 - Arrange Independent Review and a Disinterested Corporate Decision
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -1262,7 +1262,7 @@ OPS.18 supplies operating-quality and reliability interventions. ADM supplies th
 
 ### CGOV.9:End
 
-## CGOV.10 - Obtain and Use a Scoped Audit or Assurance Conclusion
+## CGOV.10 - Obtain and Use a Scoped Audit or Assurance Conclusion for Corporate Governance
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -1537,7 +1537,7 @@ CGOV.12 preserves affected minority protections. CGOV.13 follows implementation 
 
 # Part IV - Rights, consequences and renewal
 
-## CGOV.12 - Protect Minority Rights and Enable Contest or Exit
+## CGOV.12 - Protect Corporate Minority Holders' Rights and Enable Contest or Exit
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -1832,18 +1832,18 @@ C.11.DUA guides discretionary inquiry by the difference its result can make to a
 
 ### CGOV.13:End
 
-## CGOV.14 - Change Governing Instruments and Arrangements
+## CGOV.14 - Decide Whether and How to Change Corporate Governing Instruments and Arrangements
 
 > **Type:** Method
 > **Status:** Stable
 
 ### CGOV.14:1 - Problem frame
 
-Use this pattern when a corporation's governing instruments, powers or arrangements must change. A delegation may no longer fit the scale of commitments; a committee's remit may omit a needed contribution; or a change in law, ownership or corporate purpose may require a different rule.
+Use this pattern when a corporation is considering a change to its governing instruments, powers or arrangements. A delegation may no longer fit the scale of commitments; a committee's remit may omit a needed contribution; or a change in law, ownership or corporate purpose may require a different rule.
 
-Start by identifying the rule or arrangement that must change and what currently gives it effect. Determine who can change it, whose rights must be preserved, and what makes the new arrangement effective. Then perform the required acts and provide the means for using the result.
+Start by identifying the rule or arrangement in question and what currently gives it effect. Compare retaining it, repairing its operation and changing it. For a selected arrangement change, determine who can change it, whose rights must be preserved, and what makes the new arrangement effective. Then perform the required acts and provide the means for using the result.
 
-The full result is a changed governing instrument or arrangement effective to the stated extent, with its application and remaining implementation conditions understood. An authorized proposal awaiting consent, registration, appointment or another necessary act is an earlier result. State what remains possible under the current arrangement while that act is outstanding.
+For a selected change, the full result is a changed governing instrument or arrangement effective to the stated extent, with its application and remaining implementation conditions understood. An authorized proposal awaiting consent, registration, appointment or another necessary act is an earlier result. State what remains possible under the current arrangement while that act is outstanding.
 
 If a sufficient rule already exists and only its execution has failed, repair that execution. A workload allocation within unchanged powers belongs to ordinary operations. Use this method for the corporate conditions of an arrangement change; obtain a competent legal answer where the applicable basis is unresolved.
 
@@ -1881,9 +1881,11 @@ The current amendment rules govern adoption. A proposed reduction in the require
 
 Use a sufficient current answer directly. Where a material rule is ambiguous or disputed, obtain the competent interpretation for that question and retain the resulting limits on action.
 
-#### CGOV.14:4.3 - Choose the change and make its transition workable
+#### CGOV.14:4.3 - Choose the response and make any transition workable
 
 Compare the live alternatives at the scope of the difficulty. Retaining the current arrangement, repairing its operation and adopting a different arrangement can have different costs and consequences. Reuse OCE.14 when its comparison of organizational revisions supplies the needed analysis.
+
+If retaining the current arrangement or repairing its operation answers the difficulty, return that choice and any needed execution repair. Continue below only for a selected arrangement change.
 
 For the selected change, explain the new powers or contributions, protected conditions, required means and affected pending matters. Determine how current delegations, unfinished decisions and relevant records will be treated. Preserve obligations whose discharge or alteration needs a separate act.
 
@@ -1975,7 +1977,7 @@ The [G20/OECD Principles, chapter V](https://www.oecd.org/en/publications/g20-oe
 
 [Companies House guidance on constitution changes](https://www.gov.uk/make-changes-to-your-limited-company/constitution-and-articles-of-association) distinguishes adoption and the relevant document-submission duties. Its [event-driven filings guidance, section 6.1](https://www.gov.uk/government/publications/life-of-a-company-event-driven-filings/life-of-a-company-part-2-event-driven-filings#change-of-constitution) specifically makes registration a condition of an objects amendment's effect. Adopt the question about each act's role; do not generalize that condition to every instrument or jurisdiction.
 
-OCE.14, Revise the Organization from Qualified Results, compares revisions with authority, transition costs and unrealized work retained. Reuse that contribution when a substantive arrangement choice is needed. A known, permitted small amendment may require little comparison; a redistribution of protected powers can require substantially more. Neither effort alone establishes the change's legal effect or practical benefit.
+OCE.14, Decide Whether and How to Revise the Organization from Qualified Results, compares revisions with authority, transition costs and unrealized work retained. Reuse that contribution when a substantive arrangement choice is needed. A known, permitted small amendment may require little comparison; a redistribution of protected powers can require substantially more. Neither effort alone establishes the change's legal effect or practical benefit.
 
 ### CGOV.14:12 - Relations
 
@@ -1987,7 +1989,7 @@ CGOV.13 follows the consequence and required response. CGOV.16 helps recover con
 
 ### CGOV.14:End
 
-## CGOV.15 - Develop and Refresh Corporate-Governance Methods
+## CGOV.15 - Decide Whether and How to Change Corporate-Governance Methods
 
 > **Type:** Method
 > **Status:** Stable
@@ -2164,7 +2166,7 @@ ME.6 compares materially different arrangements of contributions. Use ME.15 for 
 
 ### CGOV.15:End
 
-## CGOV.16 - Reconcile Constituent and Encompassing Governance Work
+## CGOV.16 - Reconcile Constituent and Encompassing Corporate Governance Work
 
 > **Type:** Method pattern
 > **Status:** Stable

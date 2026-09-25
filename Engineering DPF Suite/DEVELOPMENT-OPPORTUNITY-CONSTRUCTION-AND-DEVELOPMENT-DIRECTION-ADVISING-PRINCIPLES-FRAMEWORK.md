@@ -36,7 +36,7 @@ Find the question that needs an answer. PatternIDs are stable addresses within t
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 3 | [DOCA.2 - Search Neighboring Uses, Technologies, Characteristics, and Supports](#doca2---search-neighboring-uses-technologies-characteristics-and-supports) | Released; evolving | search, neighboring uses, supports, plural leads. What materially different opportunity have we not considered? | A bounded inquiry; direct sources; C.18 and C.19 only for their actual archive or live-pool questions. |
+| 3 | [DOCA.2 - Search Neighboring Uses, Technologies, Characteristics, and Supports for Development Opportunities](#doca2---search-neighboring-uses-technologies-characteristics-and-supports-for-development-opportunities) | Released; evolving | search, neighboring uses, supports, plural leads. What materially different opportunity have we not considered? | A bounded inquiry; direct sources; C.18 and C.19 only for their actual archive or live-pool questions. |
 | 4 | [DOCA.3 - Construct a Worthwhile Problem and Proposed Contribution](#doca3---construct-a-worthwhile-problem-and-proposed-contribution) | Released; evolving | worthwhile problem, receiver, promise, acceptance. What receiving contribution would make this lead matter? | PSD.3 for competing formulations; FPF A.2.3 for promise meaning; receiver and domain evidence. |
 | 5 | [DOCA.4 - Construct Development Directions with Their Support Configurations](#doca4---construct-development-directions-with-their-support-configurations) | Released; evolving | directions, finite change, support, pattern contribution. What configuration could make the intended contribution possible? | C.11.CRC; HCD, OCE and other holder practices; DOCA.5 for joint reachability. |
 
@@ -44,7 +44,7 @@ Find the question that needs an answer. PatternIDs are stable addresses within t
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 6 | [DOCA.5 - Qualify Dependencies and Bound Joint Reachability](#doca5---qualify-dependencies-and-bound-joint-reachability) | Released; evolving | joint conditions, shared resources, transition, conditional branch. Can these individually plausible ingredients hold together? | A.15.9; C.11.CRC; qualified direct feasibility and permission results. |
+| 6 | [DOCA.5 - Qualify Development-Direction Dependencies and Bound Joint Reachability](#doca5---qualify-development-direction-dependencies-and-bound-joint-reachability) | Released; evolving | joint conditions, shared resources, transition, conditional branch. Can these individually plausible ingredients hold together? | A.15.9; C.11.CRC; qualified direct feasibility and permission results. |
 | 7 | [DOCA.6 - Maintain an Opportunity Portfolio and Preserve Stepping Stones](#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) | Released; evolving | retention, stepping stones, stage baselines, burden. Which later possibilities are worth keeping available for reconsideration? | C.18; C.19 for live-pool treatment; C.11.CRC for stage-specific comparison; DOCA.8 for change. |
 
 **Part IV — Bound advice and requalify change**
@@ -137,7 +137,7 @@ If Mira asks a career adviser for help, the adviser needs suitable competence, p
 
 A direction needs more than an attractive label. DOCA.1 bounds the inquiry; DOCA.1.CHR makes the subject's relevant characteristics, current readings, intended changes and unknowns explicit. DOCA.2 varies uses, technologies, characteristics and supports. DOCA.3 asks what worthwhile receiving problem the proposed contribution would answer. DOCA.4 keeps that contribution with the configuration needed to obtain it.
 
-Enter at the first missing result. A team with a sound inquiry can search without repeating intake. A practitioner with a qualified direction can examine its joint conditions through [DOCA.5](#doca5---qualify-dependencies-and-bound-joint-reachability). [DOCA.6](#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) can retain useful possibilities and conditional enabling relations without selecting a programme or committing resources. If responsible advice is wanted, use the actual missing service or PSD contribution. A request for a specialist result is fulfilled by an adequate return, not by sending the request.
+Enter at the first missing result. A team with a sound inquiry can search without repeating intake. A practitioner with a qualified direction can examine its joint conditions through [DOCA.5](#doca5---qualify-development-direction-dependencies-and-bound-joint-reachability). [DOCA.6](#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) can retain useful possibilities and conditional enabling relations without selecting a programme or committing resources. If responsible advice is wanted, use the actual missing service or PSD contribution. A request for a specialist result is fulfilled by an adequate return, not by sending the request.
 
 This division preserves useful work at several stopping points. An inquiry can end with a better question. A direction can remain useful while one permission or support result is missing. A retained path can name a later possibility without asserting that its first step happened. The person or arrangement with the relevant authority retains each choice and intervention.
 
@@ -749,7 +749,7 @@ For organization and campaign cases, [ISO 56008:2024](https://www.iso.org/standa
 
 # Part II — Construct opportunities
 
-## DOCA.2 - Search Neighboring Uses, Technologies, Characteristics, and Supports
+## DOCA.2 - Search Neighboring Uses, Technologies, Characteristics, and Supports for Development Opportunities
 
 > **Type:** DPF pattern
 >
@@ -1169,7 +1169,7 @@ Start by describing one finite change from the actual situation, together with t
 
 A *direction* here is a prospective change in contribution, capability, use, or enabling conditions over a declared horizon. Its description is not an obtaining arrangement, selected programme, WorkPlan, performed Work, or choice. A person exploring their own development can use it without asking for advice.
 
-**Ordinary non-use boundary.** Reuse adequate directions when only reachability or comparison remains. If the receiving problem or contribution is still missing, use `DOCA.3`; do not complete a training or tool configuration around an unexamined need. If a domain practice owns the whole configuration question, use it directly. Once one organization result, use, and acceptance premise are stable and whole obtaining arrangements are the decision, [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---configure-humanai-robotic-and-provider-work-arrangements) supplies that comparison and its authorized return.
+**Ordinary non-use boundary.** Reuse adequate directions when only reachability or comparison remains. If the receiving problem or contribution is still missing, use `DOCA.3`; do not complete a training or tool configuration around an unexamined need. If a domain practice owns the whole configuration question, use it directly. Once one organization result, use, and acceptance premise are stable and whole obtaining arrangements are the decision, [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result) supplies that comparison and its authorized return.
 
 ### DOCA.4:2 - Problem
 
@@ -1407,7 +1407,7 @@ Finite changes and stage-specific baselines make hidden burden visible. They let
 
 # Part III — Qualify reachability and retain options
 
-## DOCA.5 - Qualify Dependencies and Bound Joint Reachability
+## DOCA.5 - Qualify Development-Direction Dependencies and Bound Joint Reachability
 
 > **Type:** DPF pattern
 >
@@ -2162,7 +2162,7 @@ An ordinary return can be short:
 
 Make the changed contribution and its scope available to the person or practice using it, under the actual disclosure and service conditions. Preserve the earlier opportunity or recommendation as an account of what was returned under the earlier basis. Record a correction where needed without silently rewriting that history.
 
-When an actual recommendation or follow-up question is affected, use [PSD.14 — Prepare and Use a Decision Follow-up Arrangement](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd14---prepare-and-use-a-decision-follow-up-arrangement). It distinguishes the observation, interpretation, earlier advice, established decision, and implementation, and supplies the affected decision-support return. Use PSD.13 for a later recommendation when one is actually needed.
+When an actual recommendation or follow-up question is affected, use [PSD.14 — Arrange Decision Follow-up or Reassess Advice After a Change](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd14---arrange-decision-follow-up-or-reassess-advice-after-a-change). It distinguishes the observation, interpretation, earlier advice, established decision, and implementation, and supplies the affected decision-support return. Use PSD.13 for a later recommendation when one is actually needed.
 
 A recommendation, its delivery, and its acknowledgement establish neither the recipient's choice nor an implemented change. If an operational action must change, recover the applicable authorized decision or protection rule. If the receiving choice is unknown, say so rather than treating the old advice as a standing instruction.
 
@@ -2351,7 +2351,7 @@ Suppose Mira asks a distinct career-development adviser for help. Using DOCA.7, 
 
 PSD receives the formed direction question and qualified available inputs. While mentor capacity and transfer remain unresolved, its useful return can retain conditional directions with those limits. A request or recommended probe follows only when its obtainable contribution warrants the whole burden; the missing premises do not establish a winner. In a later scene, assume the required capacity and comparison results have arrived and the authorized choice inputs are adequate. Mira explicitly chooses the personal-development direction A under its stated resource and evidence limits. That choice is a new case fact; neither the opportunity table nor the advice made it for her.
 
-[HCD.2 — Compose and Compare Capability-Development Programmes for Later Work](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-2) now receives the selected development stake, compatible profile, later tasks, participation and qualified support. In this constructed continuation, the HCD practitioner supplies a programme-comparison account for two feasible candidates under those conditions:
+[HCD.2 — Compose and Compare Human Capability-Development Programmes for Later Work](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-2) now receives the selected development stake, compatible profile, later tasks, participation and qualified support. In this constructed continuation, the HCD practitioner supplies a programme-comparison account for two feasible candidates under those conditions:
 
 | Programme candidate | Qualified resource and support position | Expected contribution and limit |
 | --- | --- | --- |
@@ -2399,7 +2399,7 @@ DOCA.2 varies more than vendors. DOCA.3 tests what receiving problem would make 
 | Provider | Could a specialist service supply the missing contribution? | The provider must supply qualified output, availability, response, dependency and withdrawal conditions; purchase intent is not an operating service. |
 | Platform/support | Could data provenance, a simpler interface or a maintained reference make current detection usable? | Systems/Platform Engineering supplies architecture and realizability; OPS supplies continuing operating and support conditions. |
 
-When one same-result arrangement comparison is already the whole question, go directly to [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---configure-humanai-robotic-and-provider-work-arrangements). The broader DOCA search does not become a required preface.
+When one same-result arrangement comparison is already the whole question, go directly to [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result). The broader DOCA search does not become a required preface.
 
 ### Joint limits and a useful return
 
@@ -2508,7 +2508,7 @@ For a concrete currentness episode, suppose an adviser needs to know whether “
 
 ### Direct frameworks, predecessor sources, and honest omissions
 
-[Problem Structuring and Decision Support](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) supplies its direct generic inquiry, comparison, recommendation and follow-up contributions. [Human Capability Development](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) supplies personal demand, programme and evidence contributions. [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---configure-humanai-robotic-and-provider-work-arrangements) supplies whole-arrangement construction and comparison when that same-result question is current. Their use is claim-specific; a bibliography entry is not proof of dependency or client adequacy.
+[Problem Structuring and Decision Support](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) supplies its direct generic inquiry, comparison, recommendation and follow-up contributions. [Human Capability Development](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) supplies personal demand, programme and evidence contributions. [OCE.8](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result) supplies whole-arrangement construction and comparison when that same-result question is current. Their use is claim-specific; a bibliography entry is not proof of dependency or client adequacy.
 
 The [predecessor opportunity-construction description](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#construct-a-bounded-development-opportunity), [advising profile](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#development-direction-advising) and [source-responsibility account](#predecessor-source-account-access) remain distinct sources, with their public expressions and access limits identified below. Their construction moves are carried by DOCA.1–DOCA.6, their actual engagement conditions by DOCA.7, and their affected-opportunity return by DOCA.8. Generic recommendation and follow-up continue to return to PSD. The new text alone does not supersede an earlier publication or erase its historical uses.
 
@@ -2536,7 +2536,7 @@ The complete [FPF Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF
 
 | FPF PatternID | Source heading to locate |
 | --- | --- |
-| A.2.3 | `U.PromiseContent` (Promise Content) |
+| A.2.3 | `U.PromiseContent` — Promised Outcomes and Acceptance Criteria |
 | A.3.1 | U.Method: Reusable Way of Doing with Explicit Applicability |
 | A.3.2 | U.MethodDescription: Description Episteme for a Way of Doing |
 | A.10.1 | Revalidate Affected Uses When a Relied-on Source Changes |
@@ -2549,7 +2549,7 @@ The complete [FPF Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF
 | C.40 | Develop Branching Search from Reusable Material |
 | C.40.CD | Develop Problems and Ways of Solving Them Together |
 | E.10.DEV | Recovering What Development or Evolution Means in the Current Claim |
-| G.11 | Telemetry-Driven Refresh and Decay Orchestrator |
+| G.11 | Decide Whether and How to Refresh (Telemetry and Decay) |
 
 Use the complete relevant pattern and its conditions, not just the matched title. In particular, A.10.1 supplies bounded changed-source discovery and actual-use qualification; DOCA.8 requires a subject basis before asserting restored qualification, but may finish with a supported limit or compatible reference repair. It does not require a second result record or an unused common summary. A different edition or wording requires comparison of the relied-on contribution when that difference could affect the receiving use.
 

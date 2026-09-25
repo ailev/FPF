@@ -27,7 +27,7 @@ Management Accounting helps a controller, accountant or manager explain how work
 | 6 | [MA.6 - Separate Forecasts, Targets and Resource Requests](#ma6---separate-forecasts-targets-and-resource-requests) |  | Expected, targeted, requested and authorized; budget bias | MA.5 for the expectation; MA.1–2 for resource conversion. |
 | 7 | [MA.7 - Explain a Cost or Margin Difference](#ma7---explain-a-cost-or-margin-difference) |  | Variance; mix; volume; usage; price; causal explanation | MA.1–4 for comparable meanings; the relevant response method. |
 | 8 | [MA.8 - Account for Customer and Product Economics Over Time](#ma8---account-for-customer-and-product-economics-over-time) |  | Cohort; acquisition; retention; support; scale; time horizon | MA.1–5; FDM for missing financial terms; finance for valuation. |
-| 9 | [MA.9 - Examine the Behavioral Effects of an Account](#ma9---examine-the-behavioral-effects-of-an-account) |  | Unit-cost target; inventory building; hidden forecast; incentive | MA.1–8 for consequences; OCE for a wider organizational change. |
+| 9 | [MA.9 - Examine the Behavioral Effects of Management Accounting Information](#ma9---examine-the-behavioral-effects-of-management-accounting-information) |  | Unit-cost target; inventory building; hidden forecast; incentive | MA.1–8 for consequences; OCE for a wider organizational change. |
 
 # Management Accounting Readme
 
@@ -57,7 +57,7 @@ The calculations below are constructed cases under supplied operating, contractu
 - **Situation:** A positive reported result coexists with falling cash, and a lower unit-cost figure may be encouraging additional production.
 - **Question:** Which differences belong to the accounts' meanings, and which actual action or use of the account may need to change?
 - **First useful result or blocker:** A reconciled explanation of the accounts; if their use is the problem, a supported change to that use or the unresolved behavioral explanation.
-- **Start with:** [MA.4 - Reconcile Operating, Reporting and Cash Accounts](#ma4---reconcile-operating-reporting-and-cash-accounts). Use [MA.9 - Examine the Behavioral Effects of an Account](#ma9---examine-the-behavioral-effects-of-an-account) directly when the monetary meanings are adequate and the unresolved question concerns behavior.
+- **Start with:** [MA.4 - Reconcile Operating, Reporting and Cash Accounts](#ma4---reconcile-operating-reporting-and-cash-accounts). Use [MA.9 - Examine the Behavioral Effects of Management Accounting Information](#ma9---examine-the-behavioral-effects-of-management-accounting-information) directly when the monetary meanings are adequate and the unresolved question concerns behavior.
 - **Stop or return:** A sufficient reconciliation can finish the request. A funding decision needs the whole timed cash position; changing rewards or authority needs the responsible organizational decision.
 
 1. **Put the views on their actual event and policy bases.** MA.4's case starts with zero inventory, receivables and payables and includes only the transactions described below. Producing 100 units costs 200 in materials and 300 in resource supply, all paid; sixty units sell for 600, of which 400 is received and 200 remains receivable. Under the supplied full-production-cost policy, cost of sales is 300, closing inventory 200 and the reported result 300. Cash movement is −100.
@@ -1181,7 +1181,7 @@ MA.1–4 supply resource and account meanings, MA.5 the conditional outlook and 
 
 ### MA.8:End
 
-## MA.9 - Examine the Behavioral Effects of an Account
+## MA.9 - Examine the Behavioral Effects of Management Accounting Information
 
 **Type:** Architectural
 
@@ -1319,7 +1319,7 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 [FDM]: FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md
 [EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
 [IMA2019]: https://prodcm.imanet.org/-/media/IMA/Files/Home/Insights-and-Trends/Thought-Leadership/Strategic-Cost-Management/Developing-an-Effective-MC-Model_SMA.ashx
-[DUA]: ../FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands
+[DUA]: ../FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden
 [MEAS]: ../FPF-Spec.md#c16---measurement--metrics-characterization-mmchr
 [IAS2]: https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/
 [BB]: https://bbrt.org/wp-content/uploads/bb_principles.pdf

@@ -31,11 +31,11 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF ecosy
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.16 - Choose a Construction from Its Required Maps](#math16---choose-a-construction-from-its-required-maps) | Usable, evolving | universal property; product; coproduct; pullback; function object; currying. What maps should a new object support, and how can that requirement select a construction? | MATH.2 for quotients; MATH.5 for generator extensions; MATH.7 for reversible representations; C.29 for interpretation in another subject. |
-| 2 | [MATH.17 - Construct Spaces of Operations and Operations on Them](#math17---construct-spaces-of-operations-and-operations-on-them) | Usable, evolving | operations as objects; admissible functions; closure; higher-order operation; transformation law. How can a rule be constructed, combined or changed while retaining the consequence its use needs? | MATH.16 for function objects; MATH.1/.2 for retained steps or identification; MATH.18 for interpretation between accounts; C.29 for a working-method application. |
-| 3 | [MATH.1 - Build a Structure of Composable Paths](#math1---build-a-structure-of-composable-paths) | Usable, evolving | generators; paths; endpoints; identity; associativity. Which elementary steps can be composed? When do different sequences need to remain distinct? | MATH.2 when paths will be identified; C.29 when the construction represents another subject. |
-| 4 | [MATH.2 - Form a Quotient That Preserves Operations](#math2---form-a-quotient-that-preserves-operations) | Usable, evolving | quotient; congruence; equivalence; partial operation; refinement. Can these objects be treated as the same without losing a later operation or result? | MATH.1 when paths first need construction; MATH.6 for a counterexample to the proposed identification. |
-| 5 | [MATH.5 - Extend a Generator Assignment to a Homomorphism](#math5---extend-a-generator-assignment-to-a-homomorphism) | Usable, evolving | generators; relations; homomorphism; free structure; extension. How can a choice on generators determine an operation-preserving map on everything they generate? | MATH.1 for paths; MATH.2 when an extension must descend to a quotient. |
+| 1 | [MATH.16 - Choose a Mathematical Construction from Its Required Maps (Universal Property)](#math16---choose-a-mathematical-construction-from-its-required-maps-universal-property) | Usable, evolving | universal property; product; coproduct; pullback; function object; currying. What maps should a new object support, and how can that requirement select a construction? | MATH.2 for quotients; MATH.5 for generator extensions; MATH.7 for reversible representations; C.29 for interpretation in another subject. |
+| 2 | [MATH.17 - Construct Mathematical Spaces of Operations and Operations on Them](#math17---construct-mathematical-spaces-of-operations-and-operations-on-them) | Usable, evolving | operations as objects; admissible functions; closure; higher-order operation; transformation law. How can a rule be constructed, combined or changed while retaining the consequence its use needs? | MATH.16 for function objects; MATH.1/.2 for retained steps or identification; MATH.18 for interpretation between accounts; C.29 for a working-method application. |
+| 3 | [MATH.1 - Build a Mathematical Structure of Composable Paths](#math1---build-a-mathematical-structure-of-composable-paths) | Usable, evolving | generators; paths; endpoints; identity; associativity. Which elementary steps can be composed? When do different sequences need to remain distinct? | MATH.2 when paths will be identified; C.29 when the construction represents another subject. |
+| 4 | [MATH.2 - Treat Objects as the Same While Preserving Operations (Quotient)](#math2---treat-objects-as-the-same-while-preserving-operations-quotient) | Usable, evolving | quotient; congruence; equivalence; partial operation; refinement. Can these objects be treated as the same without losing a later operation or result? | MATH.1 when paths first need construction; MATH.6 for a counterexample to the proposed identification. |
+| 5 | [MATH.5 - Extend a Generator Assignment While Preserving Operations (Homomorphism)](#math5---extend-a-generator-assignment-while-preserving-operations-homomorphism) | Usable, evolving | generators; relations; homomorphism; free structure; extension. How can a choice on generators determine an operation-preserving map on everything they generate? | MATH.1 for paths; MATH.2 when an extension must descend to a quotient. |
 | 6 | [MATH.7 - Transport a Mathematical Structure Through a Bijection](#math7---transport-a-mathematical-structure-through-a-bijection) | Usable, evolving | bijection; transport; inverse map; isomorphism; domain of operation. How can a useful operation, law and answer be carried through a change of representation? | MATH.2 when identification is proposed instead of a bijection; C.29 for interpretation in another subject. |
 | 7 | [MATH.18 - Compare Mathematical Accounts through Interpretations](#math18---compare-mathematical-accounts-through-interpretations) | Usable, evolving | interpretation; primitive operation; preservation; reflection; round trip; equivalence. Which constructions, equations and maps transfer between two mathematical descriptions, and what can be recovered? | MATH.5 for generated interpretations; MATH.7 for bijective transport; MATH.2 for quotients; MATH.17 for transformations of operations. |
 
@@ -46,8 +46,8 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF ecosy
 | 1 | [MATH.19 - Construct a Proof through Intermediate Claims](#math19---construct-a-proof-through-intermediate-claims) | Stable | lemma; backward and forward reasoning; generalization; proof dependency. Which intermediate claim connects the available premises to the desired conclusion? | B.5.RA for recovery of a supplied argument; MATH.4 for induction; MATH.6 for a separating case; MATH.12 for obtaining an object from the proof. |
 | 2 | [MATH.4 - Construct a Witness by Induction](#math4---construct-a-witness-by-induction) | Usable, evolving | induction; recursive witness; base and step; representation. How can a proof supply an object for every finite input? Does the construction respect equivalent representations? | MATH.2 when a recursive construction must respect identification; MATH.12 for extracting constructions from other proof rules. |
 | 3 | [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof) | Usable, evolving | constructive proof; witness; function; pair; branch; finite search; computation. Which data-producing operation does a proof supply, and what is needed to execute it? | B.5.RA for an unfamiliar argument; MATH.4 for induction; C.29.2/.3 for formulation or execution questions. |
-| 4 | [MATH.6 - Construct a Countermodel](#math6---construct-a-countermodel) | Usable, evolving | counterexample; countermodel; quantifiers; finite scope; encoding. What concrete structure refutes the claim? What does an unsuccessful bounded search leave unresolved? | B.5.RA if the claim's argument needs recovery; MATH.2 when the counterexample defeats an identification. |
-| 5 | [MATH.20 - Bound an Unknown by Comparable Constructions](#math20---bound-an-unknown-by-comparable-constructions) | Stable | bound; inequality; enclosure; relaxation; attainability; residual and error. Which comparison can answer the question before the whole unknown is obtained? | MATH.19 for an intermediate inequality; MATH.6 for a failed bound; MATH.21 for convergent approximation; FPF for choosing further work. |
+| 4 | [MATH.6 - Refute a Mathematical Claim with a Countermodel](#math6---refute-a-mathematical-claim-with-a-countermodel) | Usable, evolving | counterexample; countermodel; quantifiers; finite scope; encoding. What concrete structure refutes the claim? What does an unsuccessful bounded search leave unresolved? | B.5.RA if the claim's argument needs recovery; MATH.2 when the counterexample defeats an identification. |
+| 5 | [MATH.20 - Bound a Mathematical Unknown by Comparable Constructions](#math20---bound-a-mathematical-unknown-by-comparable-constructions) | Stable | bound; inequality; enclosure; relaxation; attainability; residual and error. Which comparison can answer the question before the whole unknown is obtained? | MATH.19 for an intermediate inequality; MATH.6 for a failed bound; MATH.21 for convergent approximation; FPF for choosing further work. |
 
 ## Part C - Change a construction and develop its theory
 
@@ -56,8 +56,8 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF ecosy
 | 1 | [MATH.11 - Construct an Invariant from Transformation Rules](#math11---construct-an-invariant-from-transformation-rules) | Usable, evolving | invariant; transformation rule; preservation equation; coefficient; reachability. How can a preserved expression be constructed and used to obtain a formula or exclude a target? | MATH.2 for identification; MATH.7 for transport; C.29 for a consequence about the modeled subject. |
 | 2 | [MATH.13 - Derive a Consequence from a Symmetry](#math13---derive-a-consequence-from-a-symmetry) | Usable, evolving | symmetry; uniqueness; fixed point; orbit; conservation; numerical update. What does a transformation preserve, and which conclusion actually follows from that symmetry? | MATH.8 for the full orbit construction; MATH.9 for compatible choice; MATH.10 for admissible variation. |
 | 3 | [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry) | Usable, evolving | group action; solution orbit; stabilizer; repetitions; representatives. Which solutions can be generated from one solution, and how much of the solution set does this cover? | MATH.13 for an unresolved symmetry consequence; MATH.9 when one compatible representative is required. |
-| 4 | [MATH.9 - Construct a Choice Rule That Respects Symmetry](#math9---construct-a-choice-rule-that-respects-symmetry) | Usable, evolving | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
-| 5 | [MATH.10 - Derive a Condition from an Admissible Variation](#math10---derive-a-condition-from-an-admissible-variation) | Usable, evolving | admissible variation; stationary point; boundary minimum; constraint; first variation. Which change is allowed, what condition follows, and is it enough for a minimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
+| 4 | [MATH.9 - Determine Whether and How a Choice Rule Can Respect Symmetry](#math9---determine-whether-and-how-a-choice-rule-can-respect-symmetry) | Usable, evolving | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
+| 5 | [MATH.10 - Improve a Mathematical Candidate or Derive a Necessary Condition by Admissible Variation](#math10---improve-a-mathematical-candidate-or-derive-a-necessary-condition-by-admissible-variation) | Usable, evolving | admissible variation; improving change; stationary point; boundary minimum; constraint; first variation. Which change is allowed, can it improve the candidate, and what condition follows? Does that condition establish an optimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
 | 6 | [MATH.21 - Construct an Object through Convergent Approximations](#math21---construct-an-object-through-convergent-approximations) | Stable | limit; completeness; compatible approximation; uniform convergence; error control. How can finite approximations construct an object while retaining the next operation? | MATH.20 for bounds; MATH.19 for convergence and interchange arguments; MATH.2 for classes of representations; computational methods for effective obtaining. |
 | 7 | [MATH.22 - Change Axioms and Trace Their Consequences](#math22---change-axioms-and-trace-their-consequences) | Stable | axiom change; theory; interpretation; model; independence; proof repair. Which constructions and consequences survive when assumptions change? | MATH.18 for interpretations; MATH.19 for replacement proofs; MATH.6 for countermodels; MATH.23 for a further conjecture. |
 | 8 | [MATH.23 - Develop a Conjecture by Changing a Construction](#math23---develop-a-conjecture-by-changing-a-construction) | Stable | conjecture; construction variation; proof and refutation; generalization; next problem. How can a change or obstruction yield a precise useful claim and an attainable next operation? | MATH.19 for proof construction; MATH.6 for refutation; MATH.22 for theory change; B.5.QD/C.40.CD for continued inquiry. |
@@ -87,7 +87,7 @@ You can ask an assisting agent: “Explain this and comment on my proposal witho
 - **Situation:** A rule works for one input, but splitting the work or combining its results changes the answer.
 - **Question:** What must each contribution retain, how should contributions combine, and why will the result still answer the original question?
 - **First useful result or blocker:** A composable summary with a stated use. For an arithmetic mean of finitely many real values, return each group's sum and count; add these pairs and divide the total sum by the total count.
-- **Start with:** [MATH.23](#math23---develop-a-conjecture-by-changing-a-construction) to develop the question; [MATH.2](#math2---form-a-quotient-that-preserves-operations) to choose compatible identification; [MATH.17](#math17---construct-spaces-of-operations-and-operations-on-them) to work on the combining operation; [MATH.19](#math19---construct-a-proof-through-intermediate-claims) for the argument.
+- **Start with:** [MATH.23](#math23---develop-a-conjecture-by-changing-a-construction) to develop the question; [MATH.2](#math2---treat-objects-as-the-same-while-preserving-operations-quotient) to choose compatible identification; [MATH.17](#math17---construct-mathematical-spaces-of-operations-and-operations-on-them) to work on the combining operation; [MATH.19](#math19---construct-a-proof-through-intermediate-claims) for the argument.
 - **Stop or return:** Use the proved rule within its assumptions. A new statistic, allowed transformation or arithmetic implementation can invalidate a retained-information or proof step; return to that step.
 
 #### Worked connection for MP-COMBINE-RESULTS
@@ -140,15 +140,15 @@ The same question can have several satisfactory mathematical descriptions. A lis
 
 ### MATH.Preface:3.1 - Form objects, operations and representations
 
-[MATH.16](#math16---choose-a-construction-from-its-required-maps) starts one step earlier, when several constructions seem plausible. Describe the maps the new object must support, then compare arbitrary allowed ways of supplying or processing its data. The resulting universal property distinguishes, for example, carrying both components from accepting either input, and arbitrary pairs from compatible pairs. It can also specify an object that represents a prepared function. A known construction can then supply the object and its maps.
+[MATH.16](#math16---choose-a-mathematical-construction-from-its-required-maps-universal-property) starts one step earlier, when several constructions seem plausible. Describe the maps the new object must support, then compare arbitrary allowed ways of supplying or processing its data. The resulting universal property distinguishes, for example, carrying both components from accepting either input, and arbitrary pairs from compatible pairs. It can also specify an object that represents a prepared function. A known construction can then supply the object and its maps.
 
-[MATH.1](#math1---build-a-structure-of-composable-paths) starts with permitted elementary connections and constructs finite paths, identities and composition. Retaining a path can preserve the order and history that its final effect forgets. [MATH.5](#math5---extend-a-generator-assignment-to-a-homomorphism) starts with assigned values for generators and obtains values for their composites while preserving the operations.
+[MATH.1](#math1---build-a-mathematical-structure-of-composable-paths) starts with permitted elementary connections and constructs finite paths, identities and composition. Retaining a path can preserve the order and history that its final effect forgets. [MATH.5](#math5---extend-a-generator-assignment-while-preserving-operations-homomorphism) starts with assigned values for generators and obtains values for their composites while preserving the operations.
 
-When several descriptions should count as the same input, [MATH.2](#math2---form-a-quotient-that-preserves-operations) tests whether the required operation is independent of the representative. For a partially available operation, its availability can matter as much as its output. A failed test supplies a distinction to restore.
+When several descriptions should count as the same input, [MATH.2](#math2---treat-objects-as-the-same-while-preserving-operations-quotient) tests whether the required operation is independent of the representative. For a partially available operation, its availability can matter as much as its output. A failed test supplies a distinction to restore.
 
 [MATH.7](#math7---transport-a-mathematical-structure-through-a-bijection) addresses a reversible change of representation. It constructs the operations in the new representation and carries results back. Renaming the elements while keeping an unsuitable operation can change the problem; the transported operation supplies the repair.
 
-[MATH.17](#math17---construct-spaces-of-operations-and-operations-on-them) makes the rules themselves available for construction and change. Select allowable operations, determine whether their composition stays allowable, then construct an operation that transforms them. Its required law follows the intended use: repeating a composite and repeating its stages separately can yield different answers.
+[MATH.17](#math17---construct-mathematical-spaces-of-operations-and-operations-on-them) makes the rules themselves available for construction and change. Select allowable operations, determine whether their composition stays allowable, then construct an operation that transforms them. Its required law follows the intended use: repeating a composite and repeating its stages separately can yield different answers.
 
 [MATH.18](#math18---compare-mathematical-accounts-through-interpretations) compares descriptions with different primitives, allowed maps or equality. Construct the needed interpretations, establish what transfers, and inspect the return. A partial interpretation can be enough for one consequence; equivalence requires the corresponding comparisons in both directions.
 
@@ -161,17 +161,17 @@ These methods can be used separately. They also connect: form expressions from g
 
 [MATH.4](#math4---construct-a-witness-by-induction) obtains a witness by following the construction of a finite input. A step may require a stronger intermediate result or another parameter. [MATH.12](#math12---extract-a-construction-from-a-proof) recovers functions, pairs, projections and branch information from proof steps, including non-inductive steps. It distinguishes the operations that produce data from a proof that some suitable data exists.
 
-[MATH.6](#math6---construct-a-countermodel) constructs a case in which the assumptions hold and the proposed conclusion fails. Such a case can reveal a missing premise, a misplaced quantifier or an overly narrow search. [MATH.11](#math11---construct-an-invariant-from-transformation-rules) instead solves for a function preserved by the allowed transformations. Its value can exclude a target or determine an accumulated quantity. Equal values leave any required reachability construction to be supplied.
+[MATH.6](#math6---refute-a-mathematical-claim-with-a-countermodel) constructs a case in which the assumptions hold and the proposed conclusion fails. Such a case can reveal a missing premise, a misplaced quantifier or an overly narrow search. [MATH.11](#math11---construct-an-invariant-from-transformation-rules) instead solves for a function preserved by the allowed transformations. Its value can exclude a target or determine an accumulated quantity. Equal values leave any required reachability construction to be supplied.
 
-[MATH.20](#math20---bound-an-unknown-by-comparable-constructions) obtains a useful comparison before the whole unknown is available. A feasible path bounds a shortest length from above; inequalities covering all paths can bound it from below. The method constructs the comparison, propagates its direction through the needed operations and tightens the part that leaves a consequential gap. It can return enough for the next decision without completing an optimization.
+[MATH.20](#math20---bound-a-mathematical-unknown-by-comparable-constructions) obtains a useful comparison before the whole unknown is available. A feasible path bounds a shortest length from above; inequalities covering all paths can bound it from below. The method constructs the comparison, propagates its direction through the needed operations and tightens the part that leaves a consequential gap. It can return enough for the next decision without completing an optimization.
 
 An argument and an obtaining procedure can support each other. Given a finite list, a terminating test and a proof that some listed element passes, testing the entries obtains a witness. If the searched range becomes infinite, the finite-search argument must be reconsidered. The available result may remain a logical conclusion or a procedure for each finite portion.
 
 ### MATH.Preface:3.3 - Change a construction and develop its theory
 
-[MATH.13](#math13---derive-a-consequence-from-a-symmetry) establishes how a transformation of the data relates to transformations of admissible candidates and answers. That relation can transfer a solution, constrain a unique answer or expose an impossible choice requirement. [MATH.8](#math8---generate-a-solution-family-by-symmetry) constructs the resulting orbit, removes repetitions and separates one orbit from all solutions. [MATH.9](#math9---construct-a-choice-rule-that-respects-symmetry) constructs a choice compatible with the transformations when the input's own symmetries permit one.
+[MATH.13](#math13---derive-a-consequence-from-a-symmetry) establishes how a transformation of the data relates to transformations of admissible candidates and answers. That relation can transfer a solution, constrain a unique answer or expose an impossible choice requirement. [MATH.8](#math8---generate-a-solution-family-by-symmetry) constructs the resulting orbit, removes repetitions and separates one orbit from all solutions. [MATH.9](#math9---determine-whether-and-how-a-choice-rule-can-respect-symmetry) constructs a choice compatible with the transformations when the input's own symmetries permit one.
 
-When candidates satisfy constraints, [MATH.10](#math10---derive-a-condition-from-an-admissible-variation) constructs changes that stay within them and calculates what those changes do to a criterion. The result may be an improving candidate or a necessary condition. A minimum requires the corresponding additional argument. In a physical-action calculation the requested condition can be stationarity.
+When candidates satisfy constraints, [MATH.10](#math10---improve-a-mathematical-candidate-or-derive-a-necessary-condition-by-admissible-variation) constructs changes that stay within them and calculates what those changes do to a criterion. The result may be an improving candidate or a necessary condition. A minimum requires the corresponding additional argument. In a physical-action calculation the requested condition can be stationarity.
 
 Symmetry and variation can simplify the same problem while answering different questions. One establishes a relation among transformed problems and solutions; the other investigates admissible changes and their effect on a criterion. Preserve the conclusion supplied by each.
 
@@ -320,7 +320,7 @@ For evaluating alternatives, reuse FPF's characteristic, comparison and improvem
 
 # Part A - Choose and relate constructions
 
-## MATH.16 - Choose a Construction from Its Required Maps
+## MATH.16 - Choose a Mathematical Construction from Its Required Maps (Universal Property)
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -572,7 +572,7 @@ The elementary examples use ordinary equality and functions. If the work changes
 
 ### MATH.16:End
 
-## MATH.17 - Construct Spaces of Operations and Operations on Them
+## MATH.17 - Construct Mathematical Spaces of Operations and Operations on Them
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -775,7 +775,7 @@ A direct formula is sufficient when one operation settles the task. The structur
 
 ### MATH.17:End
 
-## MATH.1 - Build a Structure of Composable Paths
+## MATH.1 - Build a Mathematical Structure of Composable Paths
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -959,7 +959,7 @@ Section 3.2.2, pp.84-85, supplies the later option of imposing path equations; M
 
 ### MATH.1:End
 
-## MATH.2 - Form a Quotient That Preserves Operations
+## MATH.2 - Treat Objects as the Same While Preserving Operations (Quotient)
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -1162,7 +1162,7 @@ The serious alternative is an equivalence relation chosen only by a shared prope
 
 ### MATH.2:End
 
-## MATH.5 - Extend a Generator Assignment to a Homomorphism
+## MATH.5 - Extend a Generator Assignment While Preserving Operations (Homomorphism)
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -2514,7 +2514,7 @@ Reopen the chosen method when a needed proof rule has no available computational
 
 ### MATH.12:End
 
-## MATH.6 - Construct a Countermodel
+## MATH.6 - Refute a Mathematical Claim with a Countermodel
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -2709,7 +2709,7 @@ Direct construction, a supplied counterexample and a proof are meaningful altern
 
 ### MATH.6:End
 
-## MATH.20 - Bound an Unknown by Comparable Constructions
+## MATH.20 - Bound a Mathematical Unknown by Comparable Constructions
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -3604,7 +3604,7 @@ Reopen when the action, data, solution relation, equality procedure or requested
 
 ### MATH.8:End
 
-## MATH.9 - Construct a Choice Rule That Respects Symmetry
+## MATH.9 - Determine Whether and How a Choice Rule Can Respect Symmetry
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -3858,7 +3858,7 @@ Reopen when the input attributes, action, permitted answer, demanded regularity 
 
 ### MATH.9:End
 
-## MATH.10 - Derive a Condition from an Admissible Variation
+## MATH.10 - Improve a Mathematical Candidate or Derive a Necessary Condition by Admissible Variation
 
 > **Type:** Method
 > **Status:** Usable, evolving

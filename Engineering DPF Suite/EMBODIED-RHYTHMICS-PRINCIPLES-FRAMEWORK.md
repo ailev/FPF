@@ -26,8 +26,8 @@ The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FP
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [RHY.1 - Locate the Rhythmic Difficulty in a Performed Activity](#rhy1---locate-the-rhythmic-difficulty-in-a-performed-activity) | Stable | pulse; accent; timing complaint. What should change in this passage? | A recognizable performed activity; RHY.2–.4 when the contrast exposes their question. |
 | 2 | [RHY.2 - Select the Changes and Relations Needed to Understand a Rhythm](#rhy2---select-the-changes-and-relations-needed-to-understand-a-rhythm) | Stable | onset; duration; movement; grouping. Which changes and relations must the account preserve? | The receiving rhythmic question; FPF A.22 for selecting a structure. |
-| 3 | [RHY.3 - Preserve a Continuous Carrier while Shaping Articulation](#rhy3---preserve-a-continuous-carrier-while-shaping-articulation) | Stable | continuous motion; sustain; accent. How can an articulation retain the continuing contribution? | RHY.2 when the needed contribution is unclear; relevant performing technique. |
-| 4 | [RHY.4 - Distinguish and Align the Timing Events That Participants Use](#rhy4---distinguish-and-align-the-timing-events-that-participants-use) | Stable | timing center; attack; weight arrival; partner cue. Which events must align for this task? | RHY.2 for the selected events; RHY.10 when shared correction is needed. |
+| 3 | [RHY.3 - Shape Rhythmic Articulation while Preserving Needed Continuity](#rhy3---shape-rhythmic-articulation-while-preserving-needed-continuity) | Stable | continuous motion; sustain; accent. How can an articulation retain the continuing contribution? | RHY.2 when the needed contribution is unclear; relevant performing technique. |
+| 4 | [RHY.4 - Distinguish and Align Timing Events in Rhythmic Performance](#rhy4---distinguish-and-align-timing-events-in-rhythmic-performance) | Stable | perceptual center (P-center); attack; weight arrival; partner cue. Which events and timing relation does this task need? | RHY.2 for the selected events; RHY.10 when shared correction is needed. |
 
 ## Part II - Represent, compare and vary
 
@@ -42,7 +42,7 @@ The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FP
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [RHY.9 - Arrange Rhythmic Actions and Timing Cues](#rhy9---arrange-rhythmic-actions-and-timing-cues) | Stable | performer; instrument; cue; action allocation. Who or what supplies each rhythmic contribution? | Available actions; MDPE.3 when the whole music-or-dance configuration needs change. |
+| 1 | [RHY.9 - Arrange Rhythmic Actions and Timing Cues](#rhy9---arrange-rhythmic-actions-and-timing-cues) | Stable | performer; instrument; cue; action allocation. How can rhythmic actions and timely, usable cues coexist? | Available actions; MDPE.3 when the whole music-or-dance configuration needs change. |
 | 2 | [RHY.10 - Establish a Shared Rhythmic Reference and Coordinate Phase, Tempo, and Correction](#rhy10---establish-a-shared-rhythmic-reference-and-coordinate-phase-tempo-and-correction) | Stable | shared reference; phase; tempo; correction. How should participants establish and regain coordination? | RHY.4/.9 when timing events or contributions are unresolved. |
 | 3 | [RHY.11 - Coordinate Simultaneous Rhythmic Layers](#rhy11---coordinate-simultaneous-rhythmic-layers) | Stable | simultaneous layers; voice and gesture; interference. How can contributions continue together? | RHY.9/.10 for allocation and reference; separate constituent capability when required. |
 
@@ -52,7 +52,7 @@ The framework belongs to the [Engineering DPF Suite](https://github.com/ailev/FP
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [RHY.12 - Develop Rhythmic Capability through Representative Practice](#rhy12---develop-rhythmic-capability-through-representative-practice) | Stable | representative practice; whole phrase; balance; assistance. What practice addresses this failure? | Human performing technique; HCD.6/.9/.10 when task, feedback or practice schedule needs design. |
 | 2 | [RHY.13 - Test Transfer, Retention, and Support Dependence of Rhythmic Capability](#rhy13---test-transfer-retention-and-support-dependence-of-rhythmic-capability) | Stable | transfer; retention; support dependence. What can the performer now do under the needed condition? | An adequately specified task and available comparison; HCD.12/.13 for human probe design. |
-| 3 | [RHY.14 - Observe and Compare Rhythmic Enactment and Response](#rhy14---observe-and-compare-rhythmic-enactment-and-response) | Stable | observation; matching; omission; movement; response. What does the available observation establish? | The receiving decision; FPF C.16 and A.19.CPM for measurement and comparison conditions. |
+| 3 | [RHY.14 - Observe and Compare Rhythmic Performance and Response](#rhy14---observe-and-compare-rhythmic-performance-and-response) | Stable | observation; matching; omission; movement; response. What does the available observation establish? | The receiving decision; FPF C.16 and A.19.CPM for measurement and comparison conditions. |
 
 # Embodied Rhythmics Principles Framework Readme
 
@@ -545,7 +545,7 @@ A.22 supplies the general structure distinction; C.27.TA qualifies a temporal cl
 
 ### RHY.2:End
 
-## RHY.3 - Preserve a Continuous Carrier while Shaping Articulation
+## RHY.3 - Shape Rhythmic Articulation while Preserving Needed Continuity
 
 > **Type:** Method
 > **Status:** Stable
@@ -689,7 +689,7 @@ MDPE.3 configures a performing whole. B.1.5.EW distinguishes constituent and enc
 
 ### RHY.3:End
 
-## RHY.4 - Distinguish and Align the Timing Events That Participants Use
+## RHY.4 - Distinguish and Align Timing Events in Rhythmic Performance
 
 > **Type:** Method
 > **Status:** Stable
@@ -1002,7 +1002,7 @@ Toussaint's *The Geometry of Musical Rhythm* (2020) supplies economical symbolic
 
 RHY.2 supplies the rhythmic distinctions. RHY.6 translates the selected content; RHY.7 compares structures and RHY.8 constructs variants. RHY.12–RHY.13 address learning and transfer rather than treating representation choice as proof of capability.
 
-Notational Engineering's NOT.1, NOT.3 and NOT.8 supply general selection, operative interpretation and temporal or embodied reading. NOT.6 coordinates complementary forms. Mathematical Thinking's MATH.2, **Form a Quotient That Preserves Operations**, supplies the formal construction when a cyclic comparison deliberately identifies several presentations.
+Notational Engineering's NOT.1, NOT.3 and NOT.8 supply general selection, operative interpretation and temporal or embodied reading. NOT.6 coordinates complementary forms. Mathematical Thinking's MATH.2, **Treat Objects as the Same While Preserving Operations (Quotient)**, supplies the formal construction when a cyclic comparison deliberately identifies several presentations.
 
 ### RHY.5:End
 
@@ -2312,7 +2312,7 @@ HCD.12 and HCD.13 supply human transfer, retention and support-comparison method
 
 ### RHY.13:End
 
-## RHY.14 - Observe and Compare Rhythmic Enactment and Response
+## RHY.14 - Observe and Compare Rhythmic Performance and Response
 
 > **Type:** Method
 > **Status:** Stable

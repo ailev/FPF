@@ -33,7 +33,7 @@ To cite this edition: Anatoly Levenchuk, *Physical Thinking DPF*, [FPF ecosystem
 | 2 | [PHY.5 - Choose an Effective Physical Description by Scales and Couplings](#phy5---choose-an-effective-physical-description-by-scales-and-couplings) | Usable, evolving | scale separation; coupling; memory; fluctuation; transient; effective description. Which physical effects can be omitted for the consequence and duration of interest? | MMP.9 for mathematical elimination; PHY.6/.8 when evolution or collective preparation matters. |
 | 3 | [PHY.6 - Construct Physical Evolution from Balances and Response Laws](#phy6---construct-physical-evolution-from-balances-and-response-laws) | Usable, evolving | participants; exchange; balance; constitutive response; preparation; boundary condition. Which physical laws and conditions close the proposed evolution? | C.29.BB for balances; MMP.10 for coupled equations; C.29.2 for computational formulation. |
 | 4 | [PHY.7 - Obtain Motion from a Physical Variational Principle](#phy7---obtain-motion-from-a-physical-variational-principle) | Usable, evolving | physical action; admissible history; constraints; boundary freedom; variation. What physical grounds permit a variational construction, and what motion follows? | MATH.10 for mathematical variation; PHY.6 for the direct balance alternative. |
-| 5 | [PHY.8 - Infer Macroscopic Behavior from Microscopic Alternatives](#phy8---infer-macroscopic-behavior-from-microscopic-alternatives) | Usable, evolving | microstates; preparation; ensemble; correlation; fluctuation; relaxation. Which physical distribution and dynamics support a collective prediction? | MMP.7 for probability composition; MMP.9 for reduction; PHY.6 for the required physical evolution. |
+| 5 | [PHY.8 - Infer Macroscopic Physical Behavior from Microscopic Alternatives](#phy8---infer-macroscopic-physical-behavior-from-microscopic-alternatives) | Usable, evolving | microstates; preparation; ensemble; correlation; fluctuation; relaxation. Which physical distribution and dynamics support a collective prediction? | MMP.7 for probability composition; MMP.9 for reduction; PHY.6 for the required physical evolution. |
 
 ## Part B - Compare, observe and act
 
@@ -80,7 +80,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 - **Situation:** A simpler collective law may answer a late-time question while losing a response needed soon after preparation.
 - **Question:** Which microscopic behavior survives into the requested observable, and does the proposed reduction retain it accurately enough?
 - **First useful result or blocker:** A collective prediction with an adequate error for the requested time, or the state or preparation that must remain.
-- **Start with:** [PHY.8](#phy8---infer-macroscopic-behavior-from-microscopic-alternatives) for the microscopic alternatives and preparation; PHY.6 connects their transport and transitions into evolution; PHY.5 chooses which physical response a reduced account may omit.
+- **Start with:** [PHY.8](#phy8---infer-macroscopic-physical-behavior-from-microscopic-alternatives) for the microscopic alternatives and preparation; PHY.6 connects their transport and transitions into evolution; PHY.5 chooses which physical response a reduced account may omit.
 - **Stop or return:** Use a sufficient conditional prediction. A changed time, observable or preparation returns to the part of the account that supplied it.
 
 #### From persistent motion to a justified diffusion calculation
@@ -95,7 +95,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 
 The ideal point preparation leaves probability atoms at x=±v*t for particles that have not yet reversed; these density equations are understood in the distributional sense. PHY.8 connects their solution to the observable needed here: mean-square displacement at a specified time. The current carries directional persistence even though the mean position stays zero.
 
-**3. Decide whether the faster response can be omitted.** PHY.5 compares the observation time with the current's relaxation time `1/(2*alpha)` and checks the spatial variation. When the reduction is justified, [MMP.9](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp9---derive-a-reduced-evolution-model) supplies the mathematical reduction: replace the relaxed current by `j approximately -D*partial_x n`, with `D=v²/(2*alpha)`, to obtain a diffusion equation. The question still decides whether its consequence is accurate enough.
+**3. Decide whether the faster response can be omitted.** PHY.5 compares the observation time with the current's relaxation time `1/(2*alpha)` and checks the spatial variation. When the reduction is justified, [MMP.9](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp9---derive-a-reduced-mathematical-model-of-state-evolution) supplies the mathematical reduction: replace the relaxed current by `j approximately -D*partial_x n`, with `D=v²/(2*alpha)`, to obtain a diffusion equation. The question still decides whether its consequence is accurate enough.
 
 For v=2 cm/s and alpha=1/s, PHY.8's full account gives
 
@@ -160,7 +160,7 @@ These choices can occur in theory construction as well as in an applied project.
 
 [PHY.7](#phy7---obtain-motion-from-a-physical-variational-principle) offers another construction when a physically justified variational principle applies. The interactions, allowed comparisons and boundary freedoms determine what is varied. Mathematical variation then derives a consequence. A direct balance remains sufficient in many cases; applying an action formalism to every problem adds work without a corresponding gain.
 
-[PHY.8](#phy8---infer-macroscopic-behavior-from-microscopic-alternatives) constructs collective predictions from physically admissible alternatives and their weighting grounds. It retains correlations, preparation and the difference between sampling a distribution and following physical evolution. A distribution or sufficient bound can remain useful when a particular moment or equilibrium approximation is unavailable.
+[PHY.8](#phy8---infer-macroscopic-physical-behavior-from-microscopic-alternatives) constructs collective predictions from physically admissible alternatives and their weighting grounds. It retains correlations, preparation and the difference between sampling a distribution and following physical evolution. A distribution or sufficient bound can remain useful when a particular moment or equilibrium approximation is unavailable.
 
 ### PHY.Preface:3.2 - Compare, observe and construct another use
 
@@ -1206,7 +1206,7 @@ The worked calculations are constructed consequences of their stated classical d
 
 ### PHY.7:End
 
-## PHY.8 - Infer Macroscopic Behavior from Microscopic Alternatives
+## PHY.8 - Infer Macroscopic Physical Behavior from Microscopic Alternatives
 
 > **Type:** Method
 > **Status:** Usable, evolving

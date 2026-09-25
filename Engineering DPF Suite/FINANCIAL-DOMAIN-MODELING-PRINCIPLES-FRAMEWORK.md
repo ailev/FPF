@@ -20,8 +20,8 @@ Financial Domain Modeling helps a financial practitioner, business modeler or se
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | --- | --- | --- | --- | --- |
 | 1 | [FDM.1 - Recover the Financial Position Behind a Record](#fdm1---recover-the-financial-position-behind-a-record) |  | Right, duty and record; score; loan position | A.2.8 and A.2.8.PER; FDM.2 for a disputed party. |
-| 2 | [FDM.2 - Choose the Party and Group Boundaries](#fdm2---choose-the-party-and-group-boundaries) |  | Debtor; entity; fund; founder group; guarantee; usable cash | FDM.1 for positions; SIE.5–6 for identity and composition. |
-| 3 | [FDM.3 - Derive Contractual Events and Conditional Flows](#fdm3---derive-contractual-events-and-conditional-flows) |  | Principal; maturity amount; conditional payment; schedule; actual flow | FDM.1–2 for terms and parties; actual effects use FDM.4. |
+| 2 | [FDM.2 - Choose Party and Group Boundaries for Financial Modeling](#fdm2---choose-party-and-group-boundaries-for-financial-modeling) |  | Debtor; entity; fund; founder group; guarantee; usable cash | FDM.1 for positions; SIE.5–6 for identity and composition. |
+| 3 | [FDM.3 - Derive Events and Conditional Flows from Financial Contract Terms](#fdm3---derive-events-and-conditional-flows-from-financial-contract-terms) |  | Principal; maturity amount; conditional payment; schedule; actual flow | FDM.1–2 for terms and parties; actual effects use FDM.4. |
 | 4 | [FDM.4 - Establish What a Financial Action Changed](#fdm4---establish-what-a-financial-action-changed) |  | Approval; instruction; posting; payment; effect; residual obligation | FDM.1–3; applicable institutional rule and event evidence. |
 | 5 | [FDM.5 - Trace a Financial Service to a Participant's Result](#fdm5---trace-a-financial-service-to-a-participants-result) |  | Score use; admission; financial benefit; service output | FDM.1–4 when financial meaning or effect is missing; relevant decision practice. |
 
@@ -43,9 +43,9 @@ The examples below show how the five methods connect a financial question to a u
 
 A scoring team has improved its output and wants to describe the benefit to a borrower. [FDM.5](#fdm5---trace-a-financial-service-to-a-participants-result) locates the decision that uses the score. If an established rule gives the same decision and terms for the old and new score, improved accuracy alone establishes no change in this borrower's financial outcome. That answer can finish the question. A different proposed benefit, such as less information-gathering effort, needs its own comparison.
 
-Suppose instead that an adequately authorized decision arrangement uses the score to change a lending decision. [FDM.1](#fdm1---recover-the-financial-position-behind-a-record) identifies the resulting rights and obligations under the supplied terms; [FDM.2](#fdm2---choose-the-party-and-group-boundaries) resolves a disputed lender or borrower identity if necessary. The score, agreement and usable funds answer different questions about the service. An actual agreement's formation conditions determine which duties exist before funding.
+Suppose instead that an adequately authorized decision arrangement uses the score to change a lending decision. [FDM.1](#fdm1---recover-the-financial-position-behind-a-record) identifies the resulting rights and obligations under the supplied terms; [FDM.2](#fdm2---choose-party-and-group-boundaries-for-financial-modeling) resolves a disputed lender or borrower identity if necessary. The score, agreement and usable funds answer different questions about the service. An actual agreement's formation conditions determine which duties exist before funding.
 
-The constructed loan supplies valid formation and terms under which successful funding of 100 creates a funded position with 105 due on day 30. [FDM.3](#fdm3---derive-contractual-events-and-conditional-flows) derives the contractual flows for each party. [FDM.4](#fdm4---establish-what-a-financial-action-changed) determines what actually occurred and changed. If a payment of 60 is established, all 60 applies to the due amount, and no further interest or fees arise, 45 remains due. A record still showing 105 unpaid must be reconciled with that effect; the original contractual amount remains 105. If the evidence establishes only an instruction to pay 60, the reduction remains unresolved. Correct subtraction cannot settle whether payment occurred.
+The constructed loan supplies valid formation and terms under which successful funding of 100 creates a funded position with 105 due on day 30. [FDM.3](#fdm3---derive-events-and-conditional-flows-from-financial-contract-terms) derives the contractual flows for each party. [FDM.4](#fdm4---establish-what-a-financial-action-changed) determines what actually occurred and changed. If a payment of 60 is established, all 60 applies to the due amount, and no further interest or fees arise, 45 remains due. A record still showing 105 unpaid must be reconciled with that effect; the original contractual amount remains 105. If the evidence establishes only an instruction to pay 60, the reduction remains unresolved. Correct subtraction cannot settle whether payment occurred.
 
 FDM.5 uses these effect results to explain what the service supplied. Funding can make the agreed proceeds usable even if the equipment bought with them later fails to arrive. The contribution account then identifies the failed delivery step without erasing the funding result. Whether the financed work produces a later business benefit is a further question. A wider outcome claim can therefore be narrowed while the supported service contribution is retained.
 
@@ -59,7 +59,7 @@ The return depends on the failure: ambiguous terms return to FDM.1 or FDM.3, a d
 - **Start with:** FDM.2 for the payment boundary, then FDM.1 and FDM.3 for support terms and FDM.4 for what occurred.
 - **Stop or return:** Finish when the payment question is answered; revise affected availability or support assumptions when an event or term changes.
 
-X owes 100 on day 7 and has 20 of unrestricted cash available then, after all other receipts and obligations. Y holds 150, and the two entities share a founder. [FDM.2](#fdm2---choose-the-party-and-group-boundaries) distinguishes the founder-group view from X's payment question. Under these supplied facts, X has an 80 shortfall; adding the two balances does not make Y's funds available to X.
+X owes 100 on day 7 and has 20 of unrestricted cash available then, after all other receipts and obligations. Y holds 150, and the two entities share a founder. [FDM.2](#fdm2---choose-party-and-group-boundaries-for-financial-modeling) distinguishes the founder-group view from X's payment question. Under these supplied facts, X has an 80 shortfall; adding the two balances does not make Y's funds available to X.
 
 Now suppose a support arrangement requires Y to transfer 80 before day 7. FDM.1 establishes the relevant obligation and its parties; FDM.3 derives the conditions and timing that would make the support useful. If the arrangement instead guarantees payment only after X's failure and a valid demand, that is a different conditional route. It cannot be counted as an already available day-7 transfer. If the timing terms are insufficient, the model returns that unresolved condition.
 
@@ -262,7 +262,7 @@ A.2.8 governs the individual-duty question, A.2.8.PER the permission question an
 
 ### FDM.1:End
 
-## FDM.2 - Choose the Party and Group Boundaries
+## FDM.2 - Choose Party and Group Boundaries for Financial Modeling
 
 **Type:** Architectural
 
@@ -392,7 +392,7 @@ SIE.5 supplies unresolved identity work and SIE.6 composition. Use [C.32.MWA][MW
 
 ### FDM.2:End
 
-## FDM.3 - Derive Contractual Events and Conditional Flows
+## FDM.3 - Derive Events and Conditional Flows from Financial Contract Terms
 
 **Type:** Architectural
 
@@ -834,9 +834,9 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 [MA5]: MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast
 [EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
 [ADM]: ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md
-[DUTY]: ../FPF-Spec.md#a28---ucommitment-deontic-commitment-relation
+[DUTY]: ../FPF-Spec.md#a28---ucommitment--individual-duties-to-act-or-refrain
 [PER]: ../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition
-[ACT]: ../FPF-Spec.md#a29--uspeechact-communicative-work-kind-occurrences-and-records
+[ACT]: ../FPF-Spec.md#a29--uspeechact--communicative-work-and-its-intended-use
 [MWA]: ../FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures
 [FIBO]: https://spec.edmcouncil.org/fibo/index.html
 [ACTUS]: https://www.actusfrf.org/techspecs

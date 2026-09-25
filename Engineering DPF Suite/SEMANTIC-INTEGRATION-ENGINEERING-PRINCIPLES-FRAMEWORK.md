@@ -34,7 +34,7 @@ Use the Readme to follow several methods through a receiving-use problem. Use th
 | 1 | [SIE.1 - Bound the Receiving Use and Semantic Contract](#sie1---bound-the-receiving-use-and-semantic-contract) | Eternal alpha | What exact receiving use, semantic loss boundary, authority, and validation obligation govern this integration? | FPF C.37; ME.3; direct receiver and source-owner results |
 | 2 | [SIE.2 - Recover and Qualify Source Semantics and Authority](#sie2---recover-and-qualify-source-semantics-and-authority) | Eternal alpha | What does each load-bearing source mean, under which edition, effectivity, authority, and access conditions? | SIE.1 or equivalent contract; FPF F.0.1, F.0.2; direct source owners |
 | 3 | [SIE.3 - Construct or Reuse a Semantic Model for a Named Use](#sie3---construct-or-reuse-a-semantic-model-for-a-named-use) | Eternal alpha | Does an available model answer the receiving questions, or what semantic extension is needed? | SIE.1 or equivalent use; relevant SIE.2 source meanings; domain participants |
-| 4 | [SIE.4 - Establish Use-Qualified Cross-Source Correspondences](#sie4---establish-use-qualified-cross-source-correspondences) | Eternal alpha | Which exact endpoint relation, difference, or incompatibility is warranted and usable here? | SIE.2; supplied SIE.3 result when required; FPF F.9 |
+| 4 | [SIE.4 - Judge Cross-Source Correspondences and Their Permitted Uses](#sie4---judge-cross-source-correspondences-and-their-permitted-uses) | Eternal alpha | Which exact endpoint relation, difference, or incompatibility is warranted and usable here? | SIE.2; supplied SIE.3 result when required; FPF F.9 |
 | 5 | [SIE.5 - Resolve Cross-Source Identity without Erasing Identifier Authority](#sie5---resolve-cross-source-identity-without-erasing-identifier-authority) | Eternal alpha | Do these source endpoints concern the same entity at the required grain and interval, or another relation? | SIE.2; conditional SIE.4; direct MDM/domain authority inputs |
 | 6 | [SIE.6 - Fuse Source-Qualified Claims without Erasing Conflict](#sie6---fuse-source-qualified-claims-without-erasing-conflict) | Eternal alpha | How can source claims be composed while preserving scope, authority, uncertainty, conflict, and non-comparability? | SIE.2, SIE.4; SIE.5 when identity is load-bearing; FPF C.2.1, A.10 |
 | 7 | [SIE.7 - Specify Semantic Extraction and Transformation Mappings](#sie7---specify-semantic-extraction-and-transformation-mappings) | Eternal alpha | Which executable rules preserve the accepted correspondences, identities, claim branches, and losses? | SIE.2, SIE.4; conditional SIE.5 and SIE.6; FPF A.6.3.RT |
@@ -62,7 +62,7 @@ The [Preface](#preface) explains the repertoire and its [architectural rationale
 
 In [APP-SIE-01](#app-sie-01---ap242-and-qif-product-lifecycle-query), the engineer asks for the QIF plan and result concerning feature `F` in released revision/configuration `R` at effectivity `E`. SIE.1 makes those inputs and the acceptable answer branches explicit. [SIE.2](#sie2---recover-and-qualify-source-semantics-and-authority) then supplies the source editions, local definitions, identifier schemes, and authority needed to interpret them. If the available model cannot distinguish a planned inspection from an observation of that configured feature, [SIE.3](#sie3---construct-or-reuse-a-semantic-model-for-a-named-use) develops that missing distinction and tests it against those cases. An adequate existing model can be reused.
 
-Those meanings allow [SIE.4](#sie4---establish-use-qualified-cross-source-correspondences) to state a directed relation: inspection characteristic `C-17` concerns product feature `F-17` under the plan and configuration. [SIE.5](#sie5---resolve-cross-source-identity-without-erasing-identifier-authority) qualifies the feature endpoint at the required grain and effectivity. The relation permits navigation between the records; it does not make a characteristic identical to a product feature. A shared label without the supporting plan and effectivity remains an unmatched candidate. [SIE.6](#sie6---fuse-source-qualified-claims-without-erasing-conflict) uses these premises to combine definition, plan, and observation claims while retaining their sources and any conflict.
+Those meanings allow [SIE.4](#sie4---judge-cross-source-correspondences-and-their-permitted-uses) to state a directed relation: inspection characteristic `C-17` concerns product feature `F-17` under the plan and configuration. [SIE.5](#sie5---resolve-cross-source-identity-without-erasing-identifier-authority) qualifies the feature endpoint at the required grain and effectivity. The relation permits navigation between the records; it does not make a characteristic identical to a product feature. A shared label without the supporting plan and effectivity remains an unmatched candidate. [SIE.6](#sie6---fuse-source-qualified-claims-without-erasing-conflict) uses these premises to combine definition, plan, and observation claims while retaining their sources and any conflict.
 
 [SIE.7](#sie7---specify-semantic-extraction-and-transformation-mappings) turns the accepted relations into selection and transformation rules. The rules select the supplied released configuration, preserve both source identifiers, and expose an unknown unit or unmatched feature. [SIE.8](#sie8---choose-virtual-materialized-or-hybrid-semantic-realization) uses those required behaviours when comparing ways to supply the result; [SIE.9](#sie9---connect-a-receiving-use-through-a-semantic-interface) makes their meanings, timestamps, provenance, and failure branches available in the engineer's query.
 
@@ -76,7 +76,7 @@ The constructed application permits a qualified row set with unresolved local-ex
 - **Start with:** [SIE.2](#sie2---recover-and-qualify-source-semantics-and-authority) and [SIE.6](#sie6---fuse-source-qualified-claims-without-erasing-conflict) for unsettled meanings and comparison; [SIE.8](#sie8---choose-virtual-materialized-or-hybrid-semantic-realization) when those premises are supplied and realization is the remaining question.
 - **Stop or return:** Exclude prohibited copying. Return an infeasible complete answer for a permitted narrower result or an access-owner decision. Reopen the affected meaning and interface when a provider changes the quantity it reports.
 
-In the constructed provider case of [APP-SIE-04](#app-sie-04---high-change-provider-availability-without-a-materialized-graph) and SIE.6, Provider A reports 12 on hand and Provider B reports 9 available to promise. SIE.2 recovers the reservation and horizon rules behind the quantities. [SIE.3](#sie3---construct-or-reuse-a-semantic-model-for-a-named-use) can reuse a model that keeps both measures, providers, units, times, and horizons distinct. [SIE.4](#sie4---establish-use-qualified-cross-source-correspondences) supplies the qualified product-family relation. SIE.6 retains separate provider claims: the numbers do not support a common “21 available” total. For the question “Who can supply 8 now?”, A's reservation check and B's promise horizon must also support the receiving use.
+In the constructed provider case of [APP-SIE-04](#app-sie-04---high-change-provider-availability-without-a-materialized-graph) and SIE.6, Provider A reports 12 on hand and Provider B reports 9 available to promise. SIE.2 recovers the reservation and horizon rules behind the quantities. [SIE.3](#sie3---construct-or-reuse-a-semantic-model-for-a-named-use) can reuse a model that keeps both measures, providers, units, times, and horizons distinct. [SIE.4](#sie4---judge-cross-source-correspondences-and-their-permitted-uses) supplies the qualified product-family relation. SIE.6 retains separate provider claims: the numbers do not support a common “21 available” total. For the question “Who can supply 8 now?”, A's reservation check and B's promise horizon must also support the receiving use.
 
 Both providers prohibit replication. That prohibition is sufficient for SIE.8 to reject a copied availability store. If the question asks which remaining arrangement to use, compare query-time retrieval and any permitted hybrid with their latency, provenance, failure behaviour, and common resource demands. Develop only serious remaining alternatives. Obtain further evidence when its possible contribution to the choice justifies the burden and displaced work.
 
@@ -96,7 +96,7 @@ In [APP-SIE-05](#app-sie-05---a-modular-equipment-classification-commons), two m
 
 SIE.3 uses those cases to make the meanings distinguishable. Under the constructed SIE.12 agreement, the authorized maintainers keep `equip:DriveReplaceable` for the earlier meaning and introduce `equip:DriveModuleServiceable` for the new one. Both definitions and their editions remain recoverable. Source owners continue to supply the product descriptions on which membership depends.
 
-SIE.11 follows each consumer's question. The service partner adopts the new class for module-replacement planning, so [SIE.4](#sie4---establish-use-qualified-cross-source-correspondences) revisits its correspondences and the query uses the revised relation. [SIE.10](#sie10---validate-a-semantic-integration-result-for-its-receiving-use) checks the integration premises, including the result that admits Y and excludes X. Manufacturer A still needs its spare-drive query under the earlier meaning and can retain matching evidence. The release supplies the access, dependencies, migration information, and notice those uses need. These two completed outcomes leave other consumers' migration to be established where it matters.
+SIE.11 follows each consumer's question. The service partner adopts the new class for module-replacement planning, so [SIE.4](#sie4---judge-cross-source-correspondences-and-their-permitted-uses) revisits its correspondences and the query uses the revised relation. [SIE.10](#sie10---validate-a-semantic-integration-result-for-its-receiving-use) checks the integration premises, including the result that admits Y and excludes X. Manufacturer A still needs its spare-drive query under the earlier meaning and can retain matching evidence. The release supplies the access, dependencies, migration information, and notice those uses need. These two completed outcomes leave other consumers' migration to be established where it matters.
 
 ## Citation
 
@@ -162,7 +162,7 @@ The package references any SIE.3 model qualification on which it relies. Preserv
 
 ## SIE.Preface:5 - Use the repertoire at the scale of the missing result
 
-The [package anatomy](#package-anatomy-and-direct-result-relations) states what must be inspectable when the promised result is a whole semantic interface package. Use the Methods whose results are missing or whose qualifications need reopening. With a supplied use contract and qualified source meanings, [SIE.4](#sie4---establish-use-qualified-cross-source-correspondences) can return one warranted correspondence or an incompatibility and stop. With an existing interface and its premises, [SIE.10](#sie10---validate-a-semantic-integration-result-for-its-receiving-use) can identify a failed receiving-use obligation without rebuilding that interface. Reuse an available result when its subject, source editions, use, and conditions still match; reopen the contribution whose premise changed.
+The [package anatomy](#package-anatomy-and-direct-result-relations) states what must be inspectable when the promised result is a whole semantic interface package. Use the Methods whose results are missing or whose qualifications need reopening. With a supplied use contract and qualified source meanings, [SIE.4](#sie4---judge-cross-source-correspondences-and-their-permitted-uses) can return one warranted correspondence or an incompatibility and stop. With an existing interface and its premises, [SIE.10](#sie10---validate-a-semantic-integration-result-for-its-receiving-use) can identify a failed receiving-use obligation without rebuilding that interface. Reuse an available result when its subject, source editions, use, and conditions still match; reopen the contribution whose premise changed.
 
 Some relations need separate answers even when one practitioner handles them. A correspondence supplies a relation between meanings; [SIE.5](#sie5---resolve-cross-source-identity-without-erasing-identifier-authority) supplies a cross-source identity disposition when the answer depends on the same entity at a particular grain and interval. [SIE.6](#sie6---fuse-source-qualified-claims-without-erasing-conflict) then qualifies the composition of source claims. Identity can hold while claims conflict, and claims can be compared without merging their subjects. [SIE.7](#sie7---specify-semantic-extraction-and-transformation-mappings) specifies executable behavior from those premises; [SIE.8](#sie8---choose-virtual-materialized-or-hybrid-semantic-realization) compares ways of supplying it; [SIE.9](#sie9---connect-a-receiving-use-through-a-semantic-interface) carries the qualified result into the receiver's work. Their results constrain one another, while a defect can return to any supplying pattern.
 
@@ -717,7 +717,7 @@ Reopen the comparison if one required answer depends on a selected query or infe
 
 ### SIE.3:End
 
-## SIE.4 - Establish Use-Qualified Cross-Source Correspondences
+## SIE.4 - Judge Cross-Source Correspondences and Their Permitted Uses
 
 > **Type:** Method pattern
 > **Status:** Eternal alpha
@@ -1170,7 +1170,7 @@ Reopen when a source claim, identity premise, authority rule, interval, uncertai
 > **Status:** Eternal alpha
 > **Normativity:** Normative method guidance within SIE; examples are constructed and non-normative.
 >
-> **Primary working result:** an `ExecutableSemanticMappingSpecification@Use` that states source and target schemes, accepted correspondence, identity, and claim-composition premises, extraction and transformation rules, selection and cardinality, units and codes, conditions, defaults, errors, information loss, trace, examples, and tests.
+> **Primary working result:** an `ExecutableSemanticMappingSpecification@Use` that states source and target schemes, accepted correspondence premises and any relied-on identity or claim-composition premises, extraction and transformation rules, selection and cardinality, units and codes, conditions, defaults, errors, information loss, trace, examples, and tests.
 
 ### SIE.7:1 - Problem Frame
 
@@ -1199,13 +1199,13 @@ When these objects collapse, semantic review happens after implementation and ca
 
 ### SIE.7:4 - Solution
 
-Specify semantic mapping rules separately from their implementation. Bind every rule to a receiving-use contract, exact source and target schemes, and accepted correspondence, identity, and claim-composition premises. Make selection, cardinality, conversions, defaults, errors, loss, trace, and tests explicit. Require implementations to preserve these behaviors or return a named discrepancy.
+Specify semantic mapping rules separately from their implementation. Bind every rule to a receiving-use contract, exact source and target schemes, accepted correspondence premises, and any identity or claim-composition premise on which that rule depends. Make selection, cardinality, conversions, defaults, errors, loss, trace, and tests explicit. Require implementations to preserve these behaviors or return a named discrepancy.
 
 #### SIE.7:4.1 - Pattern-Use Unfolding
 
 1. **Name the output claim and receiver.** State the target field or proposition, its meaning, grain, interval/effectivity, and the action it supports.
 2. **Bind source and target schemes.** Reference exact `SIE.2` source rows and target interface/model definitions, editions, profiles, units, codes, identifiers, and access assumptions.
-3. **Bind semantic premises.** Reference accepted `SIE.4` correspondence rows, every load-bearing `SIE.5` identity disposition, and the `SIE.6` composition or conflict branch. Stop on an unresolved required premise.
+3. **Bind semantic premises.** Reference accepted `SIE.4` correspondence rows and every load-bearing `SIE.5` identity disposition. Reference a `SIE.6` composition or conflict result when the rule depends on that result. Stop on an unresolved required premise; do not require identity or claim-composition work that cannot change the rule.
 4. **Specify selection and extraction.** State source records, predicates, joins, windows, configuration/effectivity filters, ordering, and behavior for missing or duplicate inputs.
 5. **Specify transformation.** State direction, construction, decomposition, aggregation, unit/code conversion, normalization, derivation, and required external lookup. Name the authority for any conversion or code table.
 6. **Specify cardinality and identity preservation.** State one-to-one, one-to-many, many-to-one, or conditional behavior; keep source identifiers and disposition references when rows combine or split.
@@ -1220,7 +1220,7 @@ Specify semantic mapping rules separately from their implementation. Bind every 
 | --- | --- |
 | rule and use | stable rule identifier, receiver, output claim, grain, interval/effectivity |
 | schemes | source/target assets, models/schemas, editions/profiles, fields/types/relations, units/codes |
-| semantic inputs | correspondence rows, identity dispositions, composition/conflict result and their conditions |
+| semantic inputs | accepted correspondence rows and any relied-on identity dispositions or composition/conflict results, with their conditions |
 | extraction | selection, joins, filters, windows, effectivity, duplicates, missing-input behavior |
 | transformation | direction, construction/decomposition/aggregation, conversions, lookups, derivation |
 | cardinality and identifiers | source-target multiplicity, split/merge behavior, source-ID and premise preservation |
@@ -1260,7 +1260,7 @@ Positive examples cover one known configuration/feature/characteristic/result ch
 
 - [ ] Every rule names a receiving output claim and use.
 - [ ] Source and target schemes, editions/profiles, meanings, units, codes, and identifiers are exact.
-- [ ] Accepted correspondence, identity, and composition premises are referenced rather than re-decided in code.
+- [ ] Accepted correspondence premises and any relied-on identity or composition premises are referenced rather than re-decided in code.
 - [ ] Selection, joins, filters, windows, effectivity, duplicates, and missing inputs are explicit.
 - [ ] Transformations, conversions, external lookups, and their authority are explicit.
 - [ ] Cardinality, split/merge behavior, and source-identifier preservation are specified.
@@ -1309,7 +1309,7 @@ Reopen when an input or target scheme changes, a correspondence/identity/composi
 
 - `SIE.1` supplies the output claims, accepted loss, service conditions, tests, and stop.
 - `SIE.2` supplies exact source and target semantics, editions, identifiers, units/codes, provenance, and gaps.
-- `SIE.4`, `SIE.5`, and `SIE.6` supply the semantic premises the rules reference.
+- `SIE.4` supplies accepted correspondence premises; `SIE.5` and `SIE.6` supply identity and composition results when a rule relies on them.
 - `SIE.8` consumes rule behavior and implementation conditions to compare realization alternatives.
 - `SIE.9` exposes the rule outputs and error branches to the receiver.
 - `SIE.10` tests both specification semantics and implementation conformance. Data Engineering owns pipeline construction, operation, observability, reliability, and recovery.

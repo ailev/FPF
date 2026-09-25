@@ -27,12 +27,12 @@ Use a public unit for orientation or source access. Search the complete pattern 
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [EXD.1 - Establish and Revise the Explanatory Question](#exd1---establish-and-revise-the-explanatory-question) |  | *Keywords:* question, purpose, contrast, changed condition. *Queries:* "Which question needs an explanation?" "Did the question change, or is the inference wrong?" Establish or revise the useful question and return a missing premise or choice. | FPF A.2.9; EXD.4 |
+| 1 | [EXD.1 - Establish and Revise What a Recipient Needs Explained](#exd1---establish-and-revise-what-a-recipient-needs-explained) |  | *Keywords:* question, purpose, contrast, changed condition. *Queries:* "Which question needs an explanation?" "Did the question change, or is the inference wrong?" Establish or revise the useful question and return a missing premise or choice. | FPF A.2.9; EXD.4 |
 | 2 | [EXD.2 - Build and Bound an Explanatory Example](#exd2---build-and-bound-an-explanatory-example) |  | *Keywords:* worked example, correspondence, analogy, counterexample. *Queries:* "How does this instance show the rule?" "Where does the correspondence stop?" Construct a discriminating instance and its consequential boundary. | EXD.1; HCD.6 |
-| 3 | [EXD.3 - Coordinate the Expression of an Explanation](#exd3---coordinate-the-expression-of-an-explanation) |  | *Keywords:* prose, table, diagram, demonstration, access, cognitive load. *Queries:* "What should each form contribute?" "Is the repair missing content, a clearer expression or help?" Coordinate forms for the receiving reconstruction. | EXD.1; FPF C.37, C.2.8 |
+| 3 | [EXD.3 - Coordinate the Expression of an Explanation](#exd3---coordinate-the-expression-of-an-explanation) |  | *Keywords:* prose, table, diagram, demonstration, access, cognitive load. *Queries:* "What should each form contribute?" "Is the repair missing content, a clearer expression or help?" Use one sufficient form or coordinate complementary forms for the receiving reconstruction. | EXD.1; FPF C.37, C.2.8 |
 | 4 | [EXD.4 - Co-Construct and Repair an Explanation in Dialogue](#exd4---co-construct-and-repair-an-explanation-in-dialogue) |  | *Keywords:* dialogue, feedback, changed question, diagnosis, close. *Queries:* "What does this contribution change?" "Should I clarify, repair, return a premise or close?" Adapt the next explanatory move to the actual contribution. | EXD.1; FPF A.2.9 |
-| 5 | [EXD.5 - Guide a Recipient's Own Explanation](#exd5---guide-a-recipients-own-explanation) |  | *Keywords:* learner explanation, error, feedback, assistance, retry. *Queries:* "Which relation did the learner use?" "What correction and retry address that relation?" Obtain and interpret a recipient product with its actual help. | EXD.1, EXD.2; HCD.9, HCD.10 |
-| 6 | [EXD.6 - Compare Explanations and Choose a Worthwhile Repair](#exd6---compare-explanations-and-choose-a-worthwhile-repair) |  | *Keywords:* structural recovery, reader, effort, incumbent, marginal improvement. *Queries:* "What can this recipient reconstruct at these conditions?" "Which smallest repair is worth its burden?" Compare the actual contribution or retain a sufficient explanation. | EXD.1; FPF C.2.8, C.11.CRC, C.11; ME.22, HCD.19 |
+| 5 | [EXD.5 - Guide a Recipient's Own Explanation](#exd5---guide-a-recipients-own-explanation) |  | *Keywords:* learner explanation, self-explanation, error, feedback, assistance, retry. *Queries:* "Which relation did the learner use?" "What correction and retry address that relation?" Obtain and interpret a recipient product with its actual help. | EXD.1, EXD.2; HCD.9, HCD.10 |
+| 6 | [EXD.6 - Compare Explanations for the Recipient's Use and Decide Whether a Repair Is Worthwhile](#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile) |  | *Keywords:* structural recovery, reader, effort, incumbent, marginal improvement. *Queries:* "What can this recipient reconstruct at these conditions?" "Which smallest repair is worth its burden?" Compare the actual contribution or retain a sufficient explanation. | EXD.1; FPF C.2.8, C.11.CRC, C.11; ME.22, HCD.19 |
 
 # Readme
 
@@ -52,7 +52,7 @@ You can ask an assisting agent to explain or apply these methods in the language
 
 **First useful result or blocker:** A revised answer to the changed question, a repaired relation under the same question, or the subject input needed to resolve a disputed premise.
 
-**Start with:** [EXD.4 - Co-Construct and Repair an Explanation in Dialogue](#exd4---co-construct-and-repair-an-explanation-in-dialogue), using the recipient's actual contribution. Return to [EXD.1 - Establish and Revise the Explanatory Question](#exd1---establish-and-revise-the-explanatory-question) if it changes what the answer must explain.
+**Start with:** [EXD.4 - Co-Construct and Repair an Explanation in Dialogue](#exd4---co-construct-and-repair-an-explanation-in-dialogue), using the recipient's actual contribution. Return to [EXD.1 - Establish and Revise What a Recipient Needs Explained](#exd1---establish-and-revise-what-a-recipient-needs-explained) if it changes what the answer must explain.
 
 **Stop or return:** Close when the recipient can use the needed relation. Understanding a recommendation does not require agreeing with it; return a different preference to the decision rather than extending the explanation.
 
@@ -71,7 +71,7 @@ The same return matters in advising. “Why does this assignment fit my present 
 
 **First useful result or blocker:** A targeted repair, a sufficient explanation to retain, or the missing subject or reader evidence that prevents choosing between the alternatives.
 
-**Start with:** [EXD.6 - Compare Explanations and Choose a Worthwhile Repair](#exd6---compare-explanations-and-choose-a-worthwhile-repair), fixing what the recipient needs to recover and the criterion for using it.
+**Start with:** [EXD.6 - Compare Explanations for the Recipient's Use and Decide Whether a Repair Is Worthwhile](#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile), fixing what the recipient needs to recover and the criterion for using it.
 
 **Stop or return:** Keep a sufficient explanation when no worthwhile contribution is missing. Repair an explicit false claim from its subject basis; obtain reader evidence when the unresolved question concerns recoverability and the observation can change the choice.
 
@@ -114,7 +114,7 @@ These distinctions support concrete diagnoses:
 | Assistance | A hint directs attention to the unit counted by the denominator. | Preserve the help when interpreting the response. |
 | Required outcome | The task changes from following today's calculation to doing a new one next week. | Select later evidence at the required assistance and delay conditions. |
 
-[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) characterizes extractable structural information for an expressed account, its expressing form and an observer under selected conditions. For an explanation, state which relations the recipient should recover, what counts as a correct reconstruction, and which preparation, operations, help, access and budget matter. The question is “How much of the selected structure can this recipient recover at these conditions?” A useful local answer can identify correctly reconstructed relations and consequential omissions. A numeric comparison needs a justified scale and comparable conditions.
+[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) characterizes extractable structural information for an expressed account, its expressing form and an observer under selected conditions. For an explanation, state which relations the recipient should recover, what counts as a correct reconstruction, and which preparation, operations, help, access and budget matter. The question is “How much of the selected structure can this recipient recover at these conditions?” A useful local answer can identify correctly reconstructed relations and consequential omissions. A numeric comparison needs a justified scale and comparable conditions.
 
 This structural characterization is relational. The same text may make a connection available to an expert and leave a novice unable to reconstruct it at the same effort. Repetition may assist access or retention while introducing no new relation into the account. A familiar relation still belongs to the recoverable structure; recoverability is not a novelty score. For human recipients, attention and memory inform the use conditions and selected outcome.
 
@@ -173,7 +173,7 @@ In practice the language changes where repair is directed and when work stops. I
 
 # Patterns
 
-## EXD.1 - Establish and Revise the Explanatory Question
+## EXD.1 - Establish and Revise What a Recipient Needs Explained
 
 
 ### EXD.1:1 - Problem frame
@@ -300,7 +300,7 @@ At the same practical grain, “Why is 5.5 wrong?” and “Which unit receives 
 
 [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) uses and revises the question during an exchange. [The supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation) obtains the answer's subject relations and conditions.
 
-FPF [A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact-communicative-work-kind-occurrences-and-records) supplies communicative-use distinctions where that analysis is needed. [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) characterizes what a particular observer can recover from an account and form under selected conditions; it does not choose the question's purpose.
+FPF [A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact--communicative-work-and-its-intended-use) supplies communicative-use distinctions where that analysis is needed. [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) characterizes what a particular observer can recover from an account and form under selected conditions; it does not choose the question's purpose.
 
 ### EXD.1:End
 
@@ -334,7 +334,7 @@ The example must therefore do two jobs together: make the needed connection reco
 
 #### EXD.2:4.1 - Select the relation and a discriminating instance
 
-Recover the current question through [EXD.1](#exd1---establish-and-revise-the-explanatory-question) when necessary. Obtain the definition, derivation, causal account or rationale through the [supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation).
+Recover the current question through [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) when necessary. Obtain the definition, derivation, causal account or rationale through the [supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation).
 
 State what the recipient must connect. In a pooled mean, each group mean multiplied by its count reconstructs the group sum; the group sums and counts combine separately. Select small values that preserve this relation while exposing a likely competing rule. Unequal counts and unequal group means distinguish pooling individuals from giving groups equal influence.
 
@@ -419,7 +419,7 @@ At comparable calculation complexity, the unequal-count case distinguishes rules
 
 ### EXD.2:12 - Relations
 
-[EXD.1](#exd1---establish-and-revise-the-explanatory-question) selects the target question. [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) coordinates the expression of the worked correspondence. [EXD.5](#exd5---guide-a-recipients-own-explanation) guides a recipient's product and correction; [EXD.6](#exd6---compare-explanations-and-choose-a-worthwhile-repair) selects a worthwhile example change or retains a sufficient one.
+[EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) selects the target question. [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) coordinates the expression of the worked correspondence. [EXD.5](#exd5---guide-a-recipients-own-explanation) guides a recipient's product and correction; [EXD.6](#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile) selects a worthwhile example change or retains a sufficient one.
 
 The [instructional profile](#instructional-explanation) preserves the HCD task, feedback and assistance returns. The [supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation) retains the subject warrant.
 
@@ -477,7 +477,7 @@ Provide usable labels and correspondences through the actual available channel. 
 
 #### EXD.3:4.4 - Inspect the specific gain and loss
 
-Try the intended inference or comparison under the stated conditions. [EXD.6](#exd6---compare-explanations-and-choose-a-worthwhile-repair) helps choose a bounded comparison when its result can change which expression is retained.
+Try the intended inference or comparison under the stated conditions. [EXD.6](#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile) helps choose a bounded comparison when its result can change which expression is retained.
 
 Keep content, expression and help changes identifiable. A promising arrangement can be retained provisionally on a stated design reason; an observed advantage requires the corresponding evidence. Restore an omitted condition or return to the source when the representation invites a different claim. Stop adding forms when one arrangement is sufficient.
 
@@ -541,9 +541,9 @@ FPF C.37 and ME.22 preserve the general selection and content/form comparison. I
 
 ### EXD.3:12 - Relations
 
-[EXD.2](#exd2---build-and-bound-an-explanatory-example) supplies a worked correspondence and boundary. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) can expose the local expression difficulty during use. [EXD.6](#exd6---compare-explanations-and-choose-a-worthwhile-repair) compares a candidate with a sufficient incumbent.
+[EXD.2](#exd2---build-and-bound-an-explanatory-example) supplies a worked correspondence and boundary. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) can expose the local expression difficulty during use. [EXD.6](#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile) compares a candidate with a sufficient incumbent.
 
-[FPF C.37](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37---use-bounded-representation-selection-and-co-use) governs representation selection and co-use. [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) characterizes selected structural recovery under explicit conditions. The [instructional profile](#instructional-explanation) qualifies human learning and assistance uses.
+[FPF C.37](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37---select-and-use-representations-for-one-action) governs representation selection and co-use. [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) characterizes selected structural recovery under explicit conditions. The [instructional profile](#instructional-explanation) qualifies human learning and assistance uses.
 
 ### EXD.3:End
 
@@ -577,7 +577,7 @@ Explanatory dialogue needs a constructive link between the recipient's contribut
 
 #### EXD.4:4.1 - Offer a contribution tied to the current question
 
-Use the available question and qualified subject account. If the target is uncertain, [EXD.1](#exd1---establish-and-revise-the-explanatory-question) helps identify the consequential distinction. [Obtain and Carry the Subject Explanation](#exdpreface3---obtain-and-carry-the-subject-explanation) supplies the subject return.
+Use the available question and qualified subject account. If the target is uncertain, [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) helps identify the consequential distinction. [Obtain and Carry the Subject Explanation](#exdpreface3---obtain-and-carry-the-subject-explanation) supplies the subject return.
 
 Offer a claim with the ground, condition or correspondence that makes the next inference possible. Choose the grain from the task and the recipient's usable preparation. A short derivation can be one contribution; a demonstration may need one meaningful intermediate point. A fixed number of sentences or turns cannot determine that grain.
 
@@ -701,9 +701,9 @@ At the same local opportunity to respond, repeating the pooled-mean derivation a
 
 ### EXD.4:12 - Relations
 
-[EXD.1](#exd1---establish-and-revise-the-explanatory-question) supplies and revises the question. [The supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation) provides the subject basis and its return.
+[EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) supplies and revises the question. [The supplied-account entry](#exdpreface3---obtain-and-carry-the-subject-explanation) provides the subject basis and its return.
 
-FPF [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) qualifies structural recovery at an identifiable point in the exchange by the account, expression, observer and conditions. Changes after help receive their changed conditions. Human capability development supplies task-specific assistance, feedback tied to the task criterion and retry when the receiving purpose is instructional.
+FPF [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) qualifies structural recovery at an identifiable point in the exchange by the account, expression, observer and conditions. Changes after help receive their changed conditions. Human capability development supplies task-specific assistance, feedback tied to the task criterion and retry when the receiving purpose is instructional.
 
 ### EXD.4:End
 
@@ -753,7 +753,7 @@ Where the learner lacks a necessary component, supply that component and make th
 
 #### EXD.5:4.3 - Locate the error and support its correction
 
-Compare the product with the selected criterion. Distinguish a wrong relation, an absent prerequisite, an expression difficulty and a changed question. A learner using the mean of branch means may be correct after the question changes to equal branch influence; [EXD.1](#exd1---establish-and-revise-the-explanatory-question) and [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) handle that return.
+Compare the product with the selected criterion. Distinguish a wrong relation, an absent prerequisite, an expression difficulty and a changed question. A learner using the mean of branch means may be correct after the question changes to equal branch influence; [EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) and [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) handle that return.
 
 For an error under a fixed question, guide the learner to identify the wrong relation, explain why it fails here, construct the corrected relation and describe its use. Provide the missing ground or component when needed. Tie the feedback to the task criterion: “Your denominator counts two groups, while this question counts eight individuals” identifies the discrepancy.
 
@@ -817,13 +817,13 @@ This pattern owns explanation-specific product and prompt construction. Human Ca
 
 ### EXD.5:12 - Relations
 
-[EXD.2](#exd2---build-and-bound-an-explanatory-example) supplies the instance and boundary. [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) coordinates a visual or symbolic product. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) interprets a contribution that changes the target or repair. [EXD.6](#exd6---compare-explanations-and-choose-a-worthwhile-repair) selects a worthwhile prompt or explanation change.
+[EXD.2](#exd2---build-and-bound-an-explanatory-example) supplies the instance and boundary. [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) coordinates a visual or symbolic product. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) interprets a contribution that changes the target or repair. [EXD.6](#exd6---compare-explanations-for-the-recipients-use-and-decide-whether-a-repair-is-worthwhile) selects a worthwhile prompt or explanation change.
 
 The [instructional profile](#instructional-explanation) names HCD's task, feedback, assistance and material-evaluation returns and the evidence needed for later learning claims.
 
 ### EXD.5:End
 
-## EXD.6 - Compare Explanations and Choose a Worthwhile Repair
+## EXD.6 - Compare Explanations for the Recipient's Use and Decide Whether a Repair Is Worthwhile
 
 
 ### EXD.6:1 - Problem frame
@@ -950,9 +950,9 @@ The serious alternative is to select the most fluent, extensive or visually attr
 
 ### EXD.6:12 - Relations
 
-[EXD.1](#exd1---establish-and-revise-the-explanatory-question) establishes the receiving question. [EXD.2](#exd2---build-and-bound-an-explanatory-example), [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) and [EXD.5](#exd5---guide-a-recipients-own-explanation) construct candidate repairs. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) exposes changes during the exchange.
+[EXD.1](#exd1---establish-and-revise-what-a-recipient-needs-explained) establishes the receiving question. [EXD.2](#exd2---build-and-bound-an-explanatory-example), [EXD.3](#exd3---coordinate-the-expression-of-an-explanation) and [EXD.5](#exd5---guide-a-recipients-own-explanation) construct candidate repairs. [EXD.4](#exd4---co-construct-and-repair-an-explanation-in-dialogue) exposes changes during the exchange.
 
-[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation), [C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) and [C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) retain their defining questions. The [source and dependency account](#sources-and-dependencies) names the actual ME and HCD receiving uses.
+[FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover), [C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) and [C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) retain their defining questions. The [source and dependency account](#sources-and-dependencies) names the actual ME and HCD receiving uses.
 
 ### EXD.6:End
 
@@ -1043,9 +1043,9 @@ FPF remains the external foundational framework. This edition uses the September
 
 | Supplier and selected edition | Receiving contribution | Reopen the affected use when |
 | --- | --- | --- |
-| [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation), September 2026, 9 September text | Structural recovery for account, expression and observer under selected conditions in the Preface and EXD.3/.6. | The characteristic or its interpretation, recipient, criterion, assistance or comparison conditions changes. |
-| [FPF C.37](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37---use-bounded-representation-selection-and-co-use), same selected text | Bounded representation selection and co-use in EXD.3. | The contribution of a selected form or its receiving conditions changes. |
-| [FPF A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact-communicative-work-kind-occurrences-and-records), same selected text | Communicative Work remains distinct from the resulting account and its expression in EXD.1/.4. | A receiving claim depends on a changed communicative act or unsupported participant inference. |
+| [FPF C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover), September 2026, 9 September text | Structural recovery for account, expression and observer under selected conditions in the Preface and EXD.3/.6. | The characteristic or its interpretation, recipient, criterion, assistance or comparison conditions changes. |
+| [FPF C.37](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c37---select-and-use-representations-for-one-action), same selected text | Bounded representation selection and co-use in EXD.3. | The contribution of a selected form or its receiving conditions changes. |
+| [FPF A.2.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a29--uspeechact--communicative-work-and-its-intended-use), same selected text | Communicative Work remains distinct from the resulting account and its expression in EXD.1/.4. | A receiving claim depends on a changed communicative act or unsupported participant inference. |
 | [FPF A.6.3.NAR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a63nar---structure-to-narrative-rendering), same selected text | Select and connect source relations with a recoverable source return when narrative rendering contributes. | The source relation, connective claim or narrative purpose changes. |
 | [FPF C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) and [C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal), same selected text | Contribution comparison and worthwhile marginal choice in EXD.6. | The incumbent, candidate contribution, receiving value or burden changes. |
 | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md), 9 September 2026 | ME.8/.23 supply Method content and language rationale; ME.22 supplies description comparison; ME.21/.12/.24 retain their distinct source-allocation, coherence and reconstruction questions in the technical case. | The supplied rationale, promised source contribution or available basis changes. |
@@ -1065,7 +1065,7 @@ Anatoly Levenchuk. *Explanation Design Principles Framework*. Use the release da
 
 ## Naming settlement
 
-This local naming settlement concerns this six-pattern Domain Principle Framework and its three use profiles. Its subject rule is [FPF E.4.DPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e4dpf---domain-principle-framework-authoring-and-publication-or-access-carrier-assembly); its naming methods are [F.18](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f18---local-first-unification-naming-protocol) and [F.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f17---unified-term-sheet).
+This local naming settlement concerns this six-pattern Domain Principle Framework and its three use profiles. Its subject rule is [FPF E.4.DPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e4dpf---domain-and-local-principle-frameworks-whether-and-how-to-author-and-publish); its naming methods are [F.18](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f18---local-first-unification-naming-protocol) and [F.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f17---make-a-settled-naming-decision-recoverable-for-reuse-unified-term-sheet).
 
 **NameCard EXD-NAME-01.** The governed value is the Explanation Design DPF specified by this edition's Preface, six EXD Methods and Use profiles. Its kind is Domain Principle Framework as constrained by E.4.DPF. Its Tech designation is **Explanation Design Principles Framework**; its Plain designation is **Explanation Design**. **EXD** is the local pattern-address prefix.
 
@@ -1077,7 +1077,7 @@ Reopen the name when its actual use systematically hides performed interaction, 
 
 ## Public term row
 
-The [F.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f17---unified-term-sheet) public row below makes the single local naming settlement available for reuse. Public citation of the framework and its prefix needs this one stable designation; the six ordinary action titles do not require six additional term families. This is the bounded F.14 admission reason. The row's claim content consists of the identity, sense, basis, use and currentness claims stated here; the row and the naming settlement are distinct epistemes about the same governed framework.
+The [F.17](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#f17---make-a-settled-naming-decision-recoverable-for-reuse-unified-term-sheet) public row below makes the single local naming settlement available for reuse. Public citation of the framework and its prefix needs this one stable designation; the six ordinary action titles do not require six additional term families. This is the bounded F.14 admission reason. The row's claim content consists of the identity, sense, basis, use and currentness claims stated here; the row and the naming settlement are distinct epistemes about the same governed framework.
 
 | Row field | Value |
 | --- | --- |

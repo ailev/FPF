@@ -29,19 +29,19 @@ To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF ecos
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [CMP.1 - Construct a Computational Reduction and Carry Its Consequence](#cmp1---construct-a-computational-reduction-and-carry-its-consequence) | Usable, evolving | reduction; solver reuse; input conversion; answer recovery; computability; complexity. Can this problem be solved through another one, and in which direction does a limit transfer? | C.29.2 for the required answer and computational model; MATH.17/.18 for composition and interpretation. |
+| 1 | [CMP.1 - Solve One Problem through Another or Transfer a Limit (Computational Reduction)](#cmp1---solve-one-problem-through-another-or-transfer-a-limit-computational-reduction) | Usable, evolving | reduction; solver reuse; input conversion; answer recovery; computability; complexity. Can this problem be solved through another one, and in which direction does a limit transfer? | C.29.2 for the required answer and computational model; MATH.17/.18 for composition and interpretation. |
 | 2 | [CMP.2 - Derive a Recursive Procedure from a Problem Decomposition](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) | Usable, evolving | recursion; decomposition; induction; sufficient return; termination. What must smaller problems return so that their answers construct the required whole? | MATH.4/.12 for inductive or extracted constructions; C.29.2 for the computational formulation. |
-| 3 | [CMP.3 - Share and Schedule Repeated Subcomputations](#cmp3---share-and-schedule-repeated-subcomputations) | Usable, evolving | memoization; dynamic programming; sharing; dependency order; effects; storage. Which subcomputations are the same for this use, and what must be retained? | CMP.2 for the recurrence; CMP.10 for representation and operation costs. |
-| 4 | [CMP.4 - Construct Search with Justified Exclusions](#cmp4---construct-search-with-justified-exclusions) | Usable, evolving | search; branch and bound; pruning; witness; completeness; interruption. Which alternatives can be excluded while preserving the requested answer? | MATH.20 for bounds; CMP.5 for relaxation; MMP.10 for a subject constraint formulation when needed. |
-| 5 | [CMP.5 - Improve a Candidate through a Relaxed Problem](#cmp5---improve-a-candidate-through-a-relaxed-problem) | Usable, evolving | relaxation; feasible recovery; upper and lower bounds; approximation. How can an easier problem improve or bound an answer to the original problem? | MATH.20 for comparison; CMP.4 for bounded search; CMP.8 for controlled approximation. |
-| 6 | [CMP.6 - Derive an Iterative Update from Local Information](#cmp6---derive-an-iterative-update-from-local-information) | Usable, evolving | local search; iterative update; neighborhood; step choice; noisy feedback; stopping. What does an admissible local change improve, and what follows on stopping? | MATH.10/.20/.21 for variation, bounds or convergence; CMP.7 for learning that needs an update. |
+| 3 | [CMP.3 - Share and Schedule Repeated Subcomputations](#cmp3---share-and-schedule-repeated-subcomputations) | Usable, evolving | memoization; dynamic programming; sharing; dependency order; effects; storage; recomputation. Which repeated subcomputations can share an answer, in what order, and what should be retained or recomputed within the memory limit? | CMP.2 for the recurrence; CMP.10 for representation and operation costs. |
+| 4 | [CMP.4 - Construct Computational Search with Justified Exclusions](#cmp4---construct-computational-search-with-justified-exclusions) | Usable, evolving | search; branch and bound; pruning; witness; completeness; interruption. Which alternatives can be excluded while preserving the requested answer? | MATH.20 for bounds; CMP.5 for relaxation; MMP.10 for a subject constraint formulation when needed. |
+| 5 | [CMP.5 - Bound an Optimum or Recover a Feasible Candidate through a Relaxed Problem](#cmp5---bound-an-optimum-or-recover-a-feasible-candidate-through-a-relaxed-problem) | Usable, evolving | relaxation; feasible recovery; upper and lower bounds; approximation. How can an easier problem improve or bound an answer to the original problem? | MATH.20 for comparison; CMP.4 for bounded search; CMP.8 for controlled approximation. |
+| 6 | [CMP.6 - Derive an Iterative Computational Update from Local Information](#cmp6---derive-an-iterative-computational-update-from-local-information) | Usable, evolving | local search; iterative update; neighborhood; step choice; noisy feedback; stopping. What does an admissible local change improve, and what follows on stopping? | MATH.10/.20/.21 for variation, bounds or convergence; CMP.7 for learning that needs an update. |
 | 7 | [CMP.7 - Construct a Learner from Examples and Feedback](#cmp7---construct-a-learner-from-examples-and-feedback) | Usable, evolving | learning algorithm; rule class; inductive restriction; feedback; training fit; generalization. Which rule should examples select, and what supports its further use? | CMP.4/.6 for selection or updating; MMP.7 for a modeled data source; C.11.DUA for consequential additional inquiry. |
 
 ## Part B - Control error and computational cost
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [CMP.8 - Construct an Approximate Computation with Controlled Error](#cmp8---construct-an-approximate-computation-with-controlled-error) | Usable, evolving | approximation; scaling; discretization; finite stopping; rounding; conditioning. How can a permitted error reduce computation without changing the claimed answer? | MATH.20/.21 for bounds and convergence; CMP.3/.10 for shared computation and representation. |
+| 1 | [CMP.8 - Construct an Approximate Computation with Controlled Error](#cmp8---construct-an-approximate-computation-with-controlled-error) | Usable, evolving | approximation; scaling; discretization; finite stopping; rounding; conditioning. How can a permitted error reduce computation while retaining the answer quality needed next? | MATH.20/.21 for bounds and convergence; CMP.3/.10 for shared computation and representation. |
 | 2 | [CMP.9 - Construct a Randomized Estimator or Sampling Procedure](#cmp9---construct-a-randomized-estimator-or-sampling-procedure) | Usable, evolving | randomized algorithm; sampling; estimator; proposal; dependence; stopping time. Which random procedure supplies the required law or finite-run estimate? | A supplied probability target, with MMP.7 where modeled; CMP.10 for access and storage. |
 | 3 | [CMP.10 - Choose a Computational Representation for Its Access and Update Operations](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) | Usable, evolving | data structures; representation; queries; updates; conversion; arithmetic; memory. Which representation makes the required operations affordable? | CMP.2/.3 for compositional summaries and shared work; MATH for preserved structure. |
 | 4 | [CMP.11 - Derive a Computational Lower Bound from Indistinguishable Inputs](#cmp11---derive-a-computational-lower-bound-from-indistinguishable-inputs) | Usable, evolving | lower bound; adversary; indistinguishable inputs; decision tree; communication; error. What must every algorithm in this model observe or communicate? | MATH.19/.20 for argument and bound; CMP.1 for reduction; C.29.2 for the cost model. |
@@ -50,7 +50,7 @@ To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF ecos
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [CMP.12 - Construct an Interpreter and a Meaning-Preserving Translation](#cmp12---construct-an-interpreter-and-a-meaning-preserving-translation) | Usable, evolving | interpreter; compiler; semantics; binding; environment; control; observable behavior. How does an expression execute, and what must its translation preserve? | MATH.5/.17/.18 for expression composition and interpretation; C.29.3 when realizing the primitives. |
+| 1 | [CMP.12 - Construct an Interpreter or a Meaning-Preserving Translation](#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) | Usable, evolving | interpreter; compiler; semantics; binding; environment; control; observable behavior. How does an expression execute, and what must its translation preserve? | MATH.5/.17/.18 for expression composition and interpretation; C.29.3 when realizing the primitives. |
 | 2 | [CMP.13 - Construct a Computational Abstraction for the Property Being Asked](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) | Usable, evolving | abstract interpretation; reachable states; sound approximation; fixed point; refinement. Which cheaper computation supports this property, and can its counterexample occur? | MATH.2/.18 for identification and interpretation; CMP.3/.4 for scheduling and exploration. |
 | 3 | [CMP.14 - Compose Interacting Computations through Their Required Observations](#cmp14---compose-interacting-computations-through-their-required-observations) | Usable, evolving | concurrent algorithm; shared state; protocol; atomicity; interference; progress. Which interactions preserve the required whole behavior? | CMP.3/.10/.12 for dependencies, representation and semantics; C.29.3 for implementation assumptions. |
 
@@ -71,7 +71,7 @@ You can ask an assisting agent: “Explain this and give me your comments in the
 - **Situation:** Expressions have been translated to a machine with different arithmetic, and a few successful tests do not settle the permitted input range.
 - **Question:** Under which input conditions does the translated program preserve the required result?
 - **First useful result or blocker:** A source-to-target correspondence with an established input condition, or a concrete mismatch or unresolved condition preventing that claim.
-- **Start with:** [CMP.12 - Construct an Interpreter and a Meaning-Preserving Translation](#cmp12---construct-an-interpreter-and-a-meaning-preserving-translation). If the correspondence depends on a property of possible executions, use [CMP.13 - Construct a Computational Abstraction for the Property Being Asked](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) to obtain that premise.
+- **Start with:** [CMP.12 - Construct an Interpreter or a Meaning-Preserving Translation](#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation). If the correspondence depends on a property of possible executions, use [CMP.13 - Construct a Computational Abstraction for the Property Being Asked](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) to obtain that premise.
 - **Stop or return:** Use a sufficient correspondence on its established scope. Changed inputs or machine operations reopen the affected premise. An abstract warning alone is not a demonstrated failing execution.
 
 For example, the source computes `(x + 1) * (x - 2)` with unbounded integers. The target uses unsigned 8-bit arithmetic, wrapping modulo 256. CMP.12 specifies evaluation and translation: evaluate each operand in order, pop the right operand before the left, and append the expression's result without changing an existing stack prefix. At `x = 5`, both executions produce 18. That test does not establish correspondence for other inputs.
@@ -87,7 +87,7 @@ The same connection can supply a premise about control, binding, errors or effec
 - **Situation:** A finite selection problem is expensive; changing from one best selection to every best selection can invalidate a shortcut.
 - **Question:** How can construction, sharing, bounds and retained information preserve the answer now required?
 - **First useful result or blocker:** An answer-producing procedure with justified exclusions and sufficient reconstruction information, or the specific resource limit it cannot meet.
-- **Start with:** [CMP.2](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition), then [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations) when subproblems repeat. A useful bound from [CMP.5](#cmp5---improve-a-candidate-through-a-relaxed-problem) can justify exclusions in [CMP.4](#cmp4---construct-search-with-justified-exclusions).
+- **Start with:** [CMP.2](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition), then [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations) when subproblems repeat. A useful bound from [CMP.5](#cmp5---bound-an-optimum-or-recover-a-feasible-candidate-through-a-relaxed-problem) can justify exclusions in [CMP.4](#cmp4---construct-computational-search-with-justified-exclusions).
 - **Stop or return:** Stop at the answer sufficient for the work. Changed data, completeness or permitted error reopen the choices that depended on them; a faster value computation need not retain every witness.
 
 First specify whether the result is a value, one selection attaining it, all such selections, or an allowed approximation. [CMP.2 - Derive a Recursive Procedure from a Problem Decomposition](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) constructs subproblems with enough returned information to assemble that answer. [CMP.3 - Share and Schedule Repeated Subcomputations](#cmp3---share-and-schedule-repeated-subcomputations) uses their identity and dependencies to decide what can be computed once, when it is needed, and what must remain available for reconstruction.
@@ -102,7 +102,7 @@ CMP.Preface:4 supplies a small connected case. Each distinct item may be selecte
 
 Let `R(i,b)` be the best value using the first `i` items within capacity `b`. CMP.2 separates exclusion of the next item from its feasible inclusion. CMP.3 shares each resulting `(i,b)` subproblem. The final values for capacities 0 through 5 are `0, 0, 3, 5, 7, 8`; B+C attains 8. Keeping only two rows can save value-storage, but recovering a selection still needs choices or justified recomputation. CMP.10 chooses a representation for those actual accesses and retained distinctions. The table uses order `nW` updates for `n` items and integer capacity `W`; that is not a polynomial bound in the number of bits encoding `W`.
 
-If exploring alternatives remains expensive, [CMP.5 - Improve a Candidate through a Relaxed Problem](#cmp5---improve-a-candidate-through-a-relaxed-problem) permits fractional items to obtain an upper bound. A plus one third of B gives the fractional optimum `26/3`. Since original values are integers, they cannot exceed 8. B+C reaches 8, so the optimum is already settled. [CMP.4 - Construct Search with Justified Exclusions](#cmp4---construct-search-with-justified-exclusions) consumes such a bound to exclude alternatives; it does not treat an arbitrary relaxed candidate as an upper bound.
+If exploring alternatives remains expensive, [CMP.5 - Bound an Optimum or Recover a Feasible Candidate through a Relaxed Problem](#cmp5---bound-an-optimum-or-recover-a-feasible-candidate-through-a-relaxed-problem) permits fractional items to obtain an upper bound. A plus one third of B gives the fractional optimum `26/3`. Since original values are integers, they cannot exceed 8. B+C reaches 8, so the optimum is already settled. [CMP.4 - Construct Computational Search with Justified Exclusions](#cmp4---construct-computational-search-with-justified-exclusions) consumes such a bound to exclude alternatives; it does not treat an arbitrary relaxed candidate as an upper bound.
 
 Now add D with cost 4 and value 8, and request **every** optimal selection. Both D and B+C must survive. The old bound concerned a different item set: D plus one quarter of A gives the new fractional optimum `39/4`, so its integer upper bound is 9 and does not alone settle optimality. The updated recurrence gives optimum 8. At its final state both the exclude-D and include-D branches attain 8; following both recovers the two selections.
 
@@ -161,11 +161,11 @@ C.29.2 in FPF supplies the computational formulation: what is represented, what 
 
 ### CMP.Preface:3.1 - Construct an algorithm
 
-[CMP.1](#cmp1---construct-a-computational-reduction-and-carry-its-consequence) connects a new computational problem to a solver for another one. Its conversion and answer recovery also determine the direction in which an impossibility or resource result can travel. [CMP.2](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) constructs a recursive procedure by choosing smaller problems, sufficient returned information and a reason for progress. [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations) turns repeated subcomputations into a shared dependency structure, choosing evaluation order and what to store or recompute.
+[CMP.1](#cmp1---solve-one-problem-through-another-or-transfer-a-limit-computational-reduction) connects a new computational problem to a solver for another one. Its conversion and answer recovery also determine the direction in which an impossibility or resource result can travel. [CMP.2](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) constructs a recursive procedure by choosing smaller problems, sufficient returned information and a reason for progress. [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations) turns repeated subcomputations into a shared dependency structure, choosing evaluation order and what to store or recompute.
 
-[CMP.5](#cmp5---improve-a-candidate-through-a-relaxed-problem) obtains a tractable relaxation and connects its bound or solution back to the original problem. [CMP.4](#cmp4---construct-search-with-justified-exclusions) uses such bounds, or other justified conditions, to exclude search branches without losing the requested result. A feasible candidate can be useful before search finishes; its quality claim depends on the remaining alternatives and available bound.
+[CMP.5](#cmp5---bound-an-optimum-or-recover-a-feasible-candidate-through-a-relaxed-problem) obtains a tractable relaxation and connects its bound or solution back to the original problem. [CMP.4](#cmp4---construct-computational-search-with-justified-exclusions) uses such bounds, or other justified conditions, to exclude search branches without losing the requested result. A feasible candidate can be useful before search finishes; its quality claim depends on the remaining alternatives and available bound.
 
-[CMP.6](#cmp6---derive-an-iterative-update-from-local-information) constructs an admissible iterative change from local information. The neighborhood and progress argument decide what stopping establishes. [CMP.7](#cmp7---construct-a-learner-from-examples-and-feedback) constructs the procedure that selects or updates a rule from examples and feedback. It separates that procedure from the resulting rule and separates successful optimization from what the rule supports on further cases. Search or iterative updating can supply its obtaining operation.
+[CMP.6](#cmp6---derive-an-iterative-computational-update-from-local-information) constructs an admissible iterative change from local information. The neighborhood and progress argument decide what stopping establishes. [CMP.7](#cmp7---construct-a-learner-from-examples-and-feedback) constructs the procedure that selects or updates a rule from examples and feedback. It separates that procedure from the resulting rule and separates successful optimization from what the rule supports on further cases. Search or iterative updating can supply its obtaining operation.
 
 ### CMP.Preface:3.2 - Control error and computational cost
 
@@ -177,7 +177,7 @@ These methods can change the construction in Part A. A prohibitive shared table 
 
 ### CMP.Preface:3.3 - Interpret, transform and compose computations
 
-[CMP.12](#cmp12---construct-an-interpreter-and-a-meaning-preserving-translation) constructs an evaluator or a translation by specifying expression meaning, binding, primitive operations and control. The preservation relation follows what the receiving computation can observe. [CMP.13](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) constructs a cheaper abstract computation for a selected property, with operations that justify its conclusions and a way to reconstruct or refine an apparent counterexample. [CMP.14](#cmp14---compose-interacting-computations-through-their-required-observations) constructs the shared-state or communication behavior needed when computations interact, including the assumptions under which progress follows.
+[CMP.12](#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) constructs an evaluator or a translation by specifying expression meaning, binding, primitive operations and control. The preservation relation follows what the receiving computation can observe. [CMP.13](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) constructs a cheaper abstract computation for a selected property, with operations that justify its conclusions and a way to reconstruct or refine an apparent counterexample. [CMP.14](#cmp14---compose-interacting-computations-through-their-required-observations) constructs the shared-state or communication behavior needed when computations interact, including the assumptions under which progress follows.
 
 The returned operations can themselves become objects of further work: an algorithm can interpret another algorithm's description, a translator can transform it, and an abstract procedure can inspect its possible behavior. Mathematical Thinking supplies constructions of operations and interpretations. CMP adds effective execution and its consequences under the chosen computational model.
 
@@ -274,7 +274,7 @@ The three Parts group the presentation. The fourteen bodies form a repertoire of
 
 # Part A - Construct an algorithm
 
-## CMP.1 - Construct a Computational Reduction and Carry Its Consequence
+## CMP.1 - Solve One Problem through Another or Transfer a Limit (Computational Reduction)
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -868,7 +868,7 @@ The working choice in :4.3–4.5 is between retaining all needed intermediate an
 
 ### CMP.3:End
 
-## CMP.4 - Construct Search with Justified Exclusions
+## CMP.4 - Construct Computational Search with Justified Exclusions
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -1043,7 +1043,7 @@ For :4.2–4.6, compare justified exclusions with simpler exhaustive exploration
 
 ### CMP.4:End
 
-## CMP.5 - Improve a Candidate through a Relaxed Problem
+## CMP.5 - Bound an Optimum or Recover a Feasible Candidate through a Relaxed Problem
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -1214,7 +1214,7 @@ For :4.2–4.5, compare relaxation and recovery with a direct algorithm, a cheap
 
 ### CMP.5:End
 
-## CMP.6 - Derive an Iterative Update from Local Information
+## CMP.6 - Derive an Iterative Computational Update from Local Information
 
 > **Type:** Method
 > **Status:** Usable, evolving
@@ -2276,7 +2276,7 @@ The same course's [communication-complexity treatment](https://cs.uwaterloo.ca/~
 
 # Part C - Interpret, transform and compose computations
 
-## CMP.12 - Construct an Interpreter and a Meaning-Preserving Translation
+## CMP.12 - Construct an Interpreter or a Meaning-Preserving Translation
 
 > **Type:** Method
 > **Status:** Usable, evolving

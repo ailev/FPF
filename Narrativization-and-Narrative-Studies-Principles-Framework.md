@@ -16,14 +16,14 @@ Use the practical entries to find a useful route, the Preface to understand how 
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [NSTD.1 - Source-Structure Intake and Narrative Purpose](#nstd1---source-structure-intake-and-narrative-purpose) | Stable | source selection; reader purpose; omitted relation | A.6.3.NAR |
-| 2 | [NSTD.2 - Structure-to-Sequence Ordering](#nstd2---structure-to-sequence-ordering) | Stable | chronology; reveal; causality; proof order; teaching order | NSTD.1; A.6.3.NAR; A.22.CGUS when selected |
-| 3 | [NSTD.3 - Source Mechanism, Event Model, and Coherence](#nstd3---source-mechanism-event-model-and-coherence) | Stable | event connection; missing cause; coherence; mechanism | NSTD.1; NSTD.2 |
-| 4 | [NSTD.4 - Voice, Focalization, and Agency](#nstd4---voice-focalization-and-agency) | Stable | narrator; viewpoint; focalization; acting participant | A.2; A.13 for precise claims |
-| 5 | [NSTD.5 - Engagement, Attention, and Motivation](#nstd5---engagement-attention-and-motivation) | Stable | curiosity; suspense; attention; motivation; persuasion | NSTD.1; NSTD.4; relevant ethics content |
+| 1 | [NSTD.1 - Choose a Narrative's Purpose and the Source Structures It Must Preserve](#nstd1---choose-a-narratives-purpose-and-the-source-structures-it-must-preserve) | Stable | source selection; reader purpose; omitted relation | A.6.3.NAR |
+| 2 | [NSTD.2 - Choose a Narrative Order That Keeps Needed Source Relations Recoverable](#nstd2---choose-a-narrative-order-that-keeps-needed-source-relations-recoverable) | Stable | chronology; reveal; causality; proof order; teaching order | NSTD.1; A.6.3.NAR; A.22.CGUS when selected |
+| 3 | [NSTD.3 - Repair Missing or Unsupported Narrative Connections (Coherence and Event Models)](#nstd3---repair-missing-or-unsupported-narrative-connections-coherence-and-event-models) | Stable | event connection; missing cause; coherence; mechanism; event model; dependency | NSTD.1; NSTD.2 |
+| 4 | [NSTD.4 - Choose Narrative Voice and Focalization while Keeping Agency Claims Grounded](#nstd4---choose-narrative-voice-and-focalization-while-keeping-agency-claims-grounded) | Stable | narrator; viewpoint; focalization; acting participant | A.2; A.13 for precise claims |
+| 5 | [NSTD.5 - Choose Narrative Engagement Devices for the Intended Experience or Use](#nstd5---choose-narrative-engagement-devices-for-the-intended-experience-or-use) | Stable | curiosity; suspense; attention; motivation; persuasion | NSTD.1; NSTD.4; relevant ethics content |
 | 6 | [NSTD.6 - Declared-Use Narrative Rendering Quality Evaluation](#nstd6---declared-use-narrative-rendering-quality-evaluation) | Stable | reader recovery; structural information; quality; candidate evaluation | C.2.8; A.19.ECS; C.16 |
 | 7 | [NSTD.7 - Automated Narrativization and Story Planning](#nstd7---automated-narrativization-and-story-planning) | Stable | generation; content plan; schema; source fidelity; repair | NSTD.1–.6; C.35 for architecture use |
-| 8 | [NSTD.8 - Learning-Route Narrative Rendering and Reconstruction Return](#nstd8---learning-route-narrative-rendering-and-reconstruction-return) | Stable | learning route; prerequisite; reconstruction; retrieval; transfer | NSTD.1–.6; relevant learning sources |
+| 8 | [NSTD.8 - Design a Narrative Learning Route for Reconstruction and Use](#nstd8---design-a-narrative-learning-route-for-reconstruction-and-use) | Stable | learning route; prerequisite; reconstruction; retrieval; transfer | NSTD.1–.6; relevant learning sources |
 
 ## Reference sections
 
@@ -175,7 +175,7 @@ This DPF depends on FPF's general distinctions and adds narrative-domain methods
 
 # Patterns
 
-## NSTD.1 - Source-Structure Intake and Narrative Purpose
+## NSTD.1 - Choose a Narrative's Purpose and the Source Structures It Must Preserve
 
 > **Type:** DPF pattern body
 
@@ -509,7 +509,7 @@ Uses `A.6.3.NAR` to define the Core narrative relation, `A.16.1` when the first 
 
 ### NSTD.1:End
 
-## NSTD.2 - Structure-to-Sequence Ordering
+## NSTD.2 - Choose a Narrative Order That Keeps Needed Source Relations Recoverable
 
 > **Type:** DPF pattern body
 
@@ -753,7 +753,7 @@ Uses `A.6.3.NAR`, `A.6.3.CSC`, `C.2.8` for structural amount, `C.33` for archite
 
 ### NSTD.2:End
 
-## NSTD.3 - Source Mechanism, Event Model, and Coherence
+## NSTD.3 - Repair Missing or Unsupported Narrative Connections (Coherence and Event Models)
 
 > **Type:** DPF pattern body
 
@@ -1002,7 +1002,7 @@ Uses `A.6.3.NAR`, `NSTD.2`, `C.28`, `A.10`, `B.3`, `C.2.8` for structural amount
 
 ### NSTD.3:End
 
-## NSTD.4 - Voice, Focalization, and Agency
+## NSTD.4 - Choose Narrative Voice and Focalization while Keeping Agency Claims Grounded
 
 > **Type:** DPF pattern body
 
@@ -1240,7 +1240,7 @@ Uses `A.6.3.NAR`, `A.13`, `A.2`, `A.2.1`, `A.2.2`, `A.19.ECS`, `C.16`, `D.1` thr
 
 ### NSTD.4:End
 
-## NSTD.5 - Engagement, Attention, and Motivation
+## NSTD.5 - Choose Narrative Engagement Devices for the Intended Experience or Use
 
 > **Type:** DPF pattern body
 
@@ -1533,7 +1533,7 @@ Narrative rendering quality for declared use is not one property. A narrative ca
 
 Construct and use one narrative rendering quality evaluation characteristic space for one declared use. Reuse a sufficient current specification and result when their object, question and conditions still match.
 
-For the structural-amount question, `NarrativeRenderingEpiplexity` specializes [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation): the structure this reader or observer can extract. Its three bearers are the receiving narrative episteme, the publication form expressing it, and the specified reader or observer. The selected source structure, correctness criterion, usable prior knowledge, operations, help, access and budget qualify this tuple. An unambiguous rendering reference can identify the account and expression. Use the existing epiplexity basis, scale and evidence fields below to retain the qualifications needed for the comparison; they do not create another bearer or record kind.
+For the structural-amount question, `NarrativeRenderingEpiplexity` specializes [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover): the structure this reader or observer can extract. Its three bearers are the receiving narrative episteme, the publication form expressing it, and the specified reader or observer. The selected source structure, correctness criterion, usable prior knowledge, operations, help, access and budget qualify this tuple. An unambiguous rendering reference can identify the account and expression. Use the existing epiplexity basis, scale and evidence fields below to retain the qualifications needed for the comparison; they do not create another bearer or record kind.
 
 Begin with named additional and missing relations when a qualitative comparison answers the question. If a number is useful, count correctly recovered selected semantic relations at a declared grain, optionally as `n/N` for a fixed nonempty selected set. Each unit preserves participants, predicate, polarity, modality and action-changing conditions. Repeated words, headings or arrows do not add units. Retain which relations were recovered: equal counts can differ in suitability for the next use. A different ordinal or nonnegative structural weighting needs its own explicit structural meaning; a utility weighting is another score. A formal bit estimate needs the mapping in `C.2.8`, not merely the name epiplexity.
 
@@ -1671,7 +1671,7 @@ Missingness and lowering rules:
 | A relevant source-selection rationale or reader-use hypothesis cannot be recovered | `SourceStructureSelectionFit` no higher than `2` for that use; return the selection question to `NSTD.1`. Lower `TemporalPostureAndRoleFit` only if its time or participant distinctions are also missing. Leave structural amount unassigned only when its own selection, correctness or observer basis is unavailable; a missing optional field alone does not erase a recoverable basis. |
 | Source-return condition absent | `SourceReturnReadiness` no higher than `2`. |
 | Constraint-governed unfolding structure is selected but the rendering declares only a sequence, route card, story line, or lesson chain | `DemonstrativeSliceRecoverability` no higher than `2`; return to `NSTD.1`, `NSTD.2`, and `A.22.CGUS` or the local governing pattern before treating the narrative as a rendering of the wider structure. |
-| Artistic, literary, simplified, or dramatic wording changes source recovery without owner routing | `LanguageStatePrecisionAndCoarseningFit` no higher than `2`; return to `C.2.LS`, `A.6.3.CSC`, `E.17.EFP`, `E.10`, `A.6.P`, or `C.16.Q` before treating style repair as improvement. |
+| Literary, simplified or dramatic wording hides or distorts a source relation, precision distinction or coarsening limit needed for the declared use | `LanguageStatePrecisionAndCoarseningFit` no higher than `2` for that use. Identify the missing relation or limit and repair it directly when its meaning is determined. Use `C.2.LS`, `A.6.3.CSC`, `E.17.EFP`, `E.10`, `A.6.P` or `C.16.Q` for the particular unresolved language-state, coarsening, explanation or precision question; then re-evaluate the present rendering. |
 | Only an intended effect or seed is available, without an identifiable narrative account | No narrative version is yet available for this evaluation. Develop the cue through `A.16.1`, `NSTD.1` or `NSTD.2`, or evaluate the cue for its own use. |
 | An intended persuasive use conceals a material uncertainty, risk or alternative needed for the reader's choice | `EngagementBoundedness` no higher than `3`; restore that condition or alternative through `NSTD.5`. If a consequential value or harm question remains, identify the affected party and question and use the applicable `D.1`–`D.5` contribution. An ordinary curiosity device alone requires no additional ethics work. |
 | Generated account has not yet been accepted for use | Evaluate the available candidate and retain the grounds and limits of each result. Use `NSTD.7` for generation repair; use `C.35` only when the result is intended to inform architecture work. |
@@ -1692,7 +1692,7 @@ Default narrative rendering quality characteristics:
 | `EventMechanismSupport` | Can the reader reconstruct events, mechanisms, dependencies, or state changes when required? | Reopen `NSTD.3`; add mechanism support or lower causal language. |
 | `ViewpointAgencyDiscipline` | Does viewpoint reveal source structure without false agency, capability, responsibility, or permission? | Reopen `NSTD.4`; split protagonist, actant, role, agency, and ethics owners. |
 | `EngagementBoundedness` | Does engagement serve the intended effect while preserving source relations and the conditions needed for the reader's choice? | Reopen `NSTD.5`; restore the missing condition, revise the device or keep a sufficient simpler account. |
-| `LanguageStatePrecisionAndCoarseningFit` | Does the chosen plain, technical, literary, compressed, didactic, or cue-like language state fit the declared use without hiding relation precision, quality sense, source loss, or route authority? | Publish the language-state facet profile when threshold-bearing, use `A.6.3.CSC` for narrowed-use coarsening, `E.17.EFP` for explanation-facing retelling, `A.16.1`/`A.16.2` for cue or backoff, and `E.10`, `A.6.P`, or `C.16.Q` for precision restoration. |
+| `LanguageStatePrecisionAndCoarseningFit` | Does the chosen plain, technical, literary, compressed, didactic, or cue-like language state fit the declared use without hiding relation precision, quality sense, source loss, or route authority? | Repair the missing relation or limit. Use the relevant pattern for a remaining question: `C.2.LS` for a threshold-bearing language-state profile, `A.6.3.CSC` for narrowed-use coarsening, `E.17.EFP` for explanation-facing retelling, `A.16.1`/`A.16.2` for cue or backoff, and `E.10`, `A.6.P` or `C.16.Q` for precision restoration. |
 | `EthicsEvidenceAssuranceRouting` | When a consequential value, harm, evidence, assurance or policy claim is made, are its grounds and limits available for the intended use? | Identify the unresolved question, then use the corresponding `D.1`–`D.5`, `A.10`, `B.3` or professional contribution. A generic owner name does not answer the question. |
 | `MediumAndPublicationFit` | Does the carrier fit the reader and use without changing the claim? | Route publication or audience-unit questions to `E.17`, `E.17.AUD`, or `NSTD.8`. |
 | `SourceReturnReadiness` | Does the narrative tell readers when and where to return to the source basis or relevant method? | Add the missing return condition or destination, or narrow the supported use. |
@@ -1807,7 +1807,7 @@ This pattern blocks proxy-as-quality drift: readability, fluency, liking, engage
 | Anti-pattern | What fails | Repair |
 | --- | --- | --- |
 | Fluency benchmark value as quality | Smoothness replaces structure recovery. | Inspect the selected relations and evidence. Return a missing basis or repair a demonstrated loss through `NSTD.1` through `NSTD.3`; fluency alone establishes neither a high nor a low amount. |
-| Style repair as precision repair | A nicer wording pass is treated as sufficient while relation kind, quality sense, language-state threshold, or coarsening loss remains hidden. | Lower `LanguageStatePrecisionAndCoarseningFit`; apply the selected FPF precision, coarsening, explanation, or language-state owner before assigning value movement to style gains. |
+| Style repair as precision repair | A nicer wording pass is treated as sufficient while relation kind, quality sense, language-state threshold, or coarsening loss remains hidden. | Lower `LanguageStatePrecisionAndCoarseningFit` for the unresolved defect. Clarify it directly when its meaning is determined, or use the relevant precision, coarsening, explanation or language-state pattern for the remaining question. Re-evaluate the repaired rendering before claiming improvement. |
 | Prompt loop as improvement | The worker keeps regenerating more engaging drafts without a named object version, allowed change slice, protected trade-offs, or re-evaluation. | Open `E.22` when needed, route the repair to `E.23`, and re-evaluate the changed version through `NSTD.6`; otherwise retain it as a candidate without claiming improvement. |
 | Evaluation theft | Quality result is used as evidence, assurance, or gate. | Keep `NSTD.6` as evaluation; route wider use to `A.10`, `B.3`, or gate owner. |
 | Evaluating a different object | A judgement about one narrative is used to rate its generator, source archive or whole course. | Select the evaluation for that object. A script or generated draft can still be assessed as a narrative when it expresses one. |
@@ -2091,7 +2091,7 @@ Uses `G.2`, `C.35`, `A.6.3.NAR`, `C.2.8` for structural amount, `C.33` for archi
 
 ### NSTD.7:End
 
-## NSTD.8 - Learning-Route Narrative Rendering and Reconstruction Return
+## NSTD.8 - Design a Narrative Learning Route for Reconstruction and Use
 
 > **Type:** DPF pattern body
 

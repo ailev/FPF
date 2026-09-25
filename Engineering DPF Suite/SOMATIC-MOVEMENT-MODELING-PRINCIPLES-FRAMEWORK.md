@@ -22,9 +22,9 @@ Original framework text: © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creative
 | --- | --- | --- | --- | --- |
 | 1 | [SOM.1 - Model the Bodily Contribution to a Movement](#som1---model-the-bodily-contribution-to-a-movement) | Stable | bodily correction; sensation and action; failed movement; external conditions | FPF A.6.P.RI, B.5.EA, B.1.5.EW; SOM.2–5 when their contribution is needed |
 | 2 | [SOM.2 - Make a Bodily Change Distinguishable](#som2---make-a-bodily-change-distinguishable) | Stable | cannot feel the difference; direction; support; contrast | SOM.1; HCD.6.1 |
-| 3 | [SOM.3 - Regulate Effort in Discernible Steps](#som3---regulate-effort-in-discernible-steps) | Stable | effort increment; release; control; feedback | SOM.1, SOM.2; HCD.9 |
+| 3 | [SOM.3 - Regulate Bodily Effort in Discernible Steps](#som3---regulate-bodily-effort-in-discernible-steps) | Stable | effort increment; release; control; feedback | SOM.1, SOM.2; HCD.9 |
 | 4 | [SOM.4 - Build and Recall a Coordinated Bodily Change](#som4---build-and-recall-a-coordinated-bodily-change) | Stable | serial control interrupts movement; combined action; recall; attention | SOM.1–3 as needed; HCD.6, HCD.10 |
-| 5 | [SOM.5 - Adapt Coordination to Changing Support and Load](#som5---adapt-coordination-to-changing-support-and-load) | Stable | transition fails; changing support; load; transfer | SOM.1–4 as needed; HCD.6, HCD.9, HCD.10 |
+| 5 | [SOM.5 - Adapt Bodily Coordination to Changing Support and Load](#som5---adapt-bodily-coordination-to-changing-support-and-load) | Stable | transition fails; changing support; load; transfer | SOM.1–4 as needed; HCD.6, HCD.9, HCD.10 |
 
 # Somatic Movement Modeling DPF Readme
 
@@ -57,7 +57,7 @@ The following entries show connected uses across several patterns. Follow a bran
 - **Situation:** The action works on either side of a support change but fails during the transition.
 - **Question:** Which changing relation must be learned together with the continuing action?
 - **First useful result or blocker:** A usable part of the transition with its conditions, or an identified missing response, cue or observation.
-- **Start with:** [SOM.5](#som5---adapt-coordination-to-changing-support-and-load): retain the support change, find a performable portion, extend it and join the portions in motion before restoring the whole action. Use SOM.1 when the proposed relation fails, and SOM.2–4 for a missing distinction, regulation or combination.
+- **Start with:** [SOM.5](#som5---adapt-bodily-coordination-to-changing-support-and-load): retain the support change, find a performable portion, extend it and join the portions in motion before restoring the whole action. Use SOM.1 when the proposed relation fails, and SOM.2–4 for a missing distinction, regulation or combination.
 - **Stop or return:** Endpoint success and paused or slowed preparation do not establish the required transition. Obtain domain instruction when a suitable response remains unknown.
 
 # Preface
@@ -372,7 +372,7 @@ SOM.1 selects the distinction worth learning and keeps its effect open to invest
 
 ### SOM.2:End
 
-## SOM.3 - Regulate Effort in Discernible Steps
+## SOM.3 - Regulate Bodily Effort in Discernible Steps
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -560,7 +560,7 @@ SOM.1 selects the combination from the movement; SOM.2 and SOM.3 prepare missing
 
 ### SOM.4:End
 
-## SOM.5 - Adapt Coordination to Changing Support and Load
+## SOM.5 - Adapt Bodily Coordination to Changing Support and Load
 
 > **Type:** Method pattern
 > **Status:** Stable

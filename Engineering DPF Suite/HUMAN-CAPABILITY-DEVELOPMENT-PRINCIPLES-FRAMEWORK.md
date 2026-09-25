@@ -30,24 +30,24 @@ Use the Readme when you have a working difficulty but do not yet know the direct
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [HCD.1 — Derive Human Capability Demand from Representative Later Work](#hcd-1) |  | What must this exact human contribute in representative later Work, and what evidence makes the demand current? | FPF A.15.1, E.23.CDI; direct later-Work and target-domain evidence |
-| 2 | [HCD.3 — Diagnose the Limiting Capability, Misconception, or Behaviour](#hcd-3) |  | Which smallest changeable human limitation is supported, or which non-training branch owns the next result? | HCD.1 or equivalent qualified input; FPF E.23.CAE |
+| 2 | [HCD.3 — Diagnose Whether a Capability, Misconception, or Behaviour Limits Work](#hcd-3) |  | Which smallest changeable human limitation is supported, or which non-training branch owns the next result? | HCD.1 or equivalent qualified input; FPF E.23.CAE |
 | 3 | [HCD.4 — Architect a Balanced Human Capability Profile Across Simultaneous Work](#hcd-4) |  | What should be preserved, investigated, deferred, or returned across simultaneous capability claims? | HCD.1 or equivalent qualified input; FPF C.32.MWA, C.11 |
-| 4 | [HCD.2 - Compose and Compare Capability-Development Programmes for Later Work](#hcd-2) |  | Which feasible development programmes can serve this person's later Work, and how do their complete contributions and burdens compare? | HCD.1, HCD.3 and HCD.4 values or qualified equivalents; FPF C.11.CRC |
-| 5 | [HCD.5 - Select Capability-Development Methods](#hcd-5) |  | Which development Method plausibly fits the target action, starting attempt, mechanism, task, provider, risk, and evidence need? | Qualified target and starting evidence; HCD.2 when a programme candidate is current |
+| 4 | [HCD.2 - Compose and Compare Human Capability-Development Programmes for Later Work](#hcd-2) |  | Which feasible development programmes can serve this person's later Work, and how do their complete contributions and burdens compare? | HCD.1, HCD.3 and HCD.4 values or qualified equivalents; FPF C.11.CRC |
+| 5 | [HCD.5 - Select Human Capability-Development Methods](#hcd-5) |  | Which development Method plausibly fits the target action, observed or proposed entry conditions, mechanism, task, provider, risk, and evidence need? | Qualified target and starting evidence; HCD.2 when a programme candidate is current |
 | 6 | [HCD.6 - Design Representative Practice Tasks](#hcd-6) |  | Which sufficiently whole practice task exposes the target action and critical errors while enabling feedback and correction? | HCD.5 Method requirements; target-domain criteria and safe-task constraints |
-| 7 | [HCD.6.1 - Make a Needed Distinction Discernible in Practice](#hcd-6-1) |  | How can a learner notice a needed difference, use it and distinguish it from a misleading cue? | Subject distinction and action criteria; learner access and starting capability; HCD.6 whole-task use |
-| 8 | [HCD.7 - Arrange Providers, Access, Tools, and AI Support](#hcd-7) |  | Which exact provider, source, tool, AI, environment, and checking contributions are actually available when needed? | Selected programme, Method or practice contributions; actual access and capacity evidence |
-| 9 | [HCD.8 - Build the Recursive Capability-Development Arrangement](#hcd-8) |  | Should a missing development contribution be obtained or built, and what operating test establishes it? | One exact HCD.7 gap; direct provider, environment and domain-owner results |
+| 7 | [HCD.6.1 - Help a Learner Discern a Needed Distinction in Practice](#hcd-6-1) |  | How can a learner notice a needed difference, use it and distinguish it from a misleading cue? | Subject distinction and action criteria; learner access and starting capability; HCD.6 whole-task use |
+| 8 | [HCD.7 - Arrange Providers, Access, Tools, and AI Support for Human Capability Development](#hcd-7) |  | Which exact provider, source, tool, AI, environment, and checking contributions are actually available when needed? | Selected programme, Method or practice contributions; actual access and capacity evidence |
+| 9 | [HCD.8 - Obtain or Build Missing Human Capability-Development Support with Bounded Recursion](#hcd-8) |  | Should a missing development contribution be obtained or built, and what operating test establishes it? | One exact HCD.7 gap; direct provider, environment and domain-owner results |
 | 10 | [HCD.9 - Perform Deliberate Practice with Feedback](#hcd-9) |  | What did this person first attempt, which help and feedback arrived, what changed, and what should be tried next? | HCD.5 Method, HCD.6 task, HCD.7/HCD.8 support and provider results |
-| 11 | [HCD.10 - Vary, Space, Interleave, and Progress Practice](#hcd-10) |  | Which task, timing, retrieval, source, support, mixing, or challenge condition should change across the next episodes? | HCD.9 attempt history; intended later conditions; E.23.CAE when a failure differential matters |
-| 12 | [HCD.11 — Assess Performance in Representative Work](#hcd-11) |  | What did this person contribute under the required conditions, and what bounded capability claim does the evidence support? | HCD.1 or equivalent demand frame; qualified target-domain criteria |
-| 13 | [HCD.12 — Test Transfer to Unfamiliar Work](#hcd-12) |  | Which contribution survives a material unfamiliar change, and what requires adaptation or help? | HCD.11 or equivalent prior performance; E.23.CAE when a differential is needed |
-| 14 | [HCD.13 — Test Retention and Tool Dependence](#hcd-13) |  | What remains after this delay and practice history, and what depends on support? | Qualified earlier performance; E.23.CAE for an applicable apparent-loss differential |
-| 15 | [HCD.14 — Revise the Development Arrangement from Evidence](#hcd-14) |  | Which development component should change from this evidence, and how will the revision be tested? | Compatible HCD.11, HCD.12 or HCD.13 evidence; qualified development Method |
+| 11 | [HCD.10 - Choose Whether and How to Vary, Space, Interleave, or Progress Practice](#hcd-10) |  | Should task, timing, retrieval, source, support, mixing, or challenge conditions change across the next episodes, and how? | HCD.9 attempt history; intended later conditions; E.23.CAE when a failure differential matters |
+| 12 | [HCD.11 — Assess Human Performance in Representative Work](#hcd-11) |  | What did this person contribute under the required conditions, and what bounded capability claim does the evidence support? | HCD.1 or equivalent demand frame; qualified target-domain criteria |
+| 13 | [HCD.12 — Test Transfer to Unfamiliar Work or Learning from a New Source](#hcd-12) |  | Which contribution survives a material unfamiliar change, or what can this person do after access to a new source, with what help? | HCD.11 or equivalent prior performance for transfer; qualified preparation and source conditions for new-source learning; E.23.CAE when a differential is needed |
+| 14 | [HCD.13 — Test Human Capability Retention and Dependence on Tools or Other Support](#hcd-13) |  | What remains after this delay and practice history, and what depends on support? | Qualified earlier performance; E.23.CAE for an applicable apparent-loss differential |
+| 15 | [HCD.14 — Revise the Human Capability-Development Arrangement from Evidence](#hcd-14) |  | Which development component should change from this evidence, and how will the revision be tested? | Compatible HCD.11, HCD.12 or HCD.13 evidence; qualified development Method |
 | 16 | [HCD.15 — Sustain Continuing Human Capability Development](#hcd-15) |  | Which continuing arrangement should respond when this person's later Work or development evidence changes? | Compatible HCD.14 or equivalent evidence; E.23.CDI and direct later-Work, provider, access and support results |
-| 17 | [HCD.16 — Develop and Refresh Human Capability-Development Methods](#hcd-16) |  | Which exact HCD Method claim should be adopted, revised, branched, retired, or probed for this repertoire use? | Exact admitted Method or status-preserved candidate and claim; ME.15/ME.16 and qualified human-development evidence |
-| 18 | [HCD.17 — Deliberately Continue and Change Human Capability-Development Culture](#hcd-17) |  | Which observable HCD cultural relation should this bounded population continue or change, and what later observation decides? | HCD.14/HCD.16 or equivalent direct input; C.36, truthful Method status, bounded population and authority evidence |
-| 19 | [HCD.18 - Construct a Characterization and Evaluation Specification for Instructional Material](#hcd-18) |  | Which task-based specification can distinguish useful material support, limiting defects, and the evidence needed for this audience and use? | A.19.ECS; instructional-material profile; qualified task, subject and assistance conditions |
+| 17 | [HCD.16 — Keep Human Capability-Development Method Claims Current](#hcd-16) |  | Which exact HCD Method claim should be retained, adopted, revised, branched, retired, or probed for this repertoire use? | Exact admitted Method or status-preserved candidate and claim; ME.15/ME.16 and qualified human-development evidence |
+| 18 | [HCD.17 — Deliberately Continue and Change Human Capability-Development Culture](#hcd-17) |  | Which observable HCD cultural relation should this bounded population continue or change, and what evidence supports that decision? | HCD.14/HCD.16 or equivalent direct input; C.36, truthful Method status, bounded population and authority evidence |
+| 19 | [HCD.18 - Select or Construct a Characterization and Evaluation Specification for Instructional Material](#hcd-18) |  | Which task-based specification can distinguish useful material support, limiting defects, and the evidence needed for this audience and use? | A.19.ECS; instructional-material profile; qualified task, subject and assistance conditions |
 | 20 | [HCD.19 - Evaluate Instructional Material through Representative Reader Work and Diagnose Its Repair](#hcd-19) |  | What does this material supply to actual reader work, what limits its use, and what repair or evidence changes the conclusion? | Compatible material-evaluation specification; E.23 for improvement; NSTD.6/.8 when narrative use is live |
 
 # Human Capability Development Principles Framework Readme
@@ -68,14 +68,14 @@ You can ask an assisting agent to explain or apply these methods in the language
 
 **First useful result or blocker:** A comparable, feasible arrangement or task fragment; otherwise the target, resource or support constraint that prevents the comparison.
 
-**Start with:** [HCD.2 - Compose and Compare Capability-Development Programmes for Later Work](#hcd-2) when the intended work, target and starting conditions are available. Its personal and learning-product branches need different inputs.
+**Start with:** [HCD.2 - Compose and Compare Human Capability-Development Programmes for Later Work](#hcd-2) when the intended work, target and starting conditions are available. Its personal and learning-product branches need different inputs.
 
 **Stop or return:** Stop with the comparison needed for the present decision. Return a missing support contribution to its provider, a changed intended outcome to its owner, or a non-training cause to the practice that can address it. Programme comparison does not authorize launch.
 
-1. **Establish whose contribution the proposal concerns.** For one person, [HCD.1 - Derive Human Capability Demand from Representative Later Work](#hcd-1) supplies the required contribution and its basis. [HCD.3 - Diagnose the Limiting Capability, Misconception, or Behaviour](#hcd-3) distinguishes a human development target from a tool, access, assignment or other limitation. Where simultaneous work competes for development effort, [HCD.4 - Architect a Balanced Human Capability Profile Across Simultaneous Work](#hcd-4) supplies the priorities and contributions to protect. HCD.2 consumes those results in comparing feasible alternatives. For a future audience whose individual learners are not yet known, it instead returns learning-product design values or candidate fragments.
+1. **Establish whose contribution the proposal concerns.** For one person, [HCD.1 - Derive Human Capability Demand from Representative Later Work](#hcd-1) supplies the required contribution and its basis. [HCD.3 - Diagnose Whether a Capability, Misconception, or Behaviour Limits Work](#hcd-3) distinguishes a human development target from a tool, access, assignment or other limitation. Where simultaneous work competes for development effort, [HCD.4 - Architect a Balanced Human Capability Profile Across Simultaneous Work](#hcd-4) supplies the priorities and contributions to protect. HCD.2 consumes those results in comparing feasible alternatives. For a future audience whose individual learners are not yet known, it instead returns learning-product design values or candidate fragments.
 2. **Make the alternatives comparable through complete tasks.** In the constructed [programme-design application](#application-return-to-a-programme-and-instrument-designer), three compositions each use 340 learner hours over 34 weeks. A change from ten to six hours per week leaves 204 hours: each original proposal exceeds the allowance by 136 hours. HCD.2 asks what work, practice and evidence would be removed or replaced. Merely multiplying allocations by 0.6 does not show that the promised outcomes survive.
-3. **Construct the missing development contribution.** Retain the detailed task fragment already available for one option and construct the smallest comparable fragment for another, using the same intended output and audience assumptions. [HCD.5 - Select Capability-Development Methods](#hcd-5) selects how to develop the target action from the starting evidence, or proposes conditional choices from stated entry assumptions for a future audience; [HCD.6 - Design Representative Practice Tasks](#hcd-6) turns that choice into a whole task, criterion, permitted help and relevant variation. If the learner cannot yet notice a distinction required by the task, [HCD.6.1 - Make a Needed Distinction Discernible in Practice](#hcd-6-1) helps design an accessible contrast and use the learner’s response to guide the next attempt. Return the noticed distinction to the whole task; recognizing it does not establish the ability to perform that task. These results let HCD.2 compare what the options actually provide.
-4. **Test the support needed at the time of use.** [HCD.7 - Arrange Providers, Access, Tools, and AI Support](#hcd-7) uses those tasks to establish actual feedback, assessment, access and capacity. The example's 240 teaching hours divided among twelve participants is a planning allocation, not twenty hours of individual contact each. Doubling participants with unchanged individual checking demand doubles that checking work. [HCD.8 - Build the Recursive Capability-Development Arrangement](#hcd-8) enters only for a missing contribution that must be obtained or built. Return its cost and operating limits to the comparison.
+3. **Construct the missing development contribution.** Retain the detailed task fragment already available for one option and construct the smallest comparable fragment for another, using the same intended output and audience assumptions. [HCD.5 - Select Human Capability-Development Methods](#hcd-5) selects how to develop the target action from the starting evidence, or proposes conditional choices from stated entry assumptions for a future audience; [HCD.6 - Design Representative Practice Tasks](#hcd-6) turns that choice into a whole task, criterion, permitted help and relevant variation. If the learner cannot yet notice a distinction required by the task, [HCD.6.1 - Help a Learner Discern a Needed Distinction in Practice](#hcd-6-1) helps design an accessible contrast and use the learner’s response to guide the next attempt. Return the noticed distinction to the whole task; recognizing it does not establish the ability to perform that task. These results let HCD.2 compare what the options actually provide.
+4. **Test the support needed at the time of use.** [HCD.7 - Arrange Providers, Access, Tools, and AI Support for Human Capability Development](#hcd-7) uses those tasks to establish actual feedback, assessment, access and capacity. The example's 240 teaching hours divided among twelve participants is a planning allocation, not twenty hours of individual contact each. Doubling participants with unchanged individual checking demand doubles that checking work. [HCD.8 - Obtain or Build Missing Human Capability-Development Support with Bounded Recursion](#hcd-8) enters only for a missing contribution that must be obtained or built. Return its cost and operating limits to the comparison.
 
 A useful substitution may emerge from this fragment comparison. It does not yet establish that a complete 204-hour programme exists. Changing the intended outcome is another possible decision, which must be explicit before comparing a narrower offer.
 
@@ -87,14 +87,14 @@ A useful substitution may emerge from this fragment comparison. It does not yet 
 
 **First useful result or blocker:** A bounded performance conclusion and, when needed, a targeted change to the task or assistance; an unresolved transfer, delay or support question remains separate.
 
-**Start with:** [HCD.11 - Assess Performance in Representative Work](#hcd-11), using the attempt and its actual conditions. If practice is being conducted, [HCD.9 - Perform Deliberate Practice with Feedback](#hcd-9) preserves the first attempt, supplied help, feedback, correction and retry that assessment needs.
+**Start with:** [HCD.11 - Assess Human Performance in Representative Work](#hcd-11), using the attempt and its actual conditions. If practice is being conducted, [HCD.9 - Perform Deliberate Practice with Feedback](#hcd-9) preserves the first attempt, supplied help, feedback, correction and retry that assessment needs.
 
 **Stop or return:** Stop when the available evidence is sufficient for the intended reliance or local revision. Obtain another observation only for a consequential unresolved claim whose evidence can be obtained at worthwhile cost.
 
 1. **Separate the successful product from the person's contribution.** In the constructed [APP-HCD-02](#app-hcd-02---constructed-performance-transfer-retention-and-revision), a teacher initially helps Learner-L17 reject a release proposal supported by the wrong firmware evidence. That correction is assisted. Two later fresh attempts show L17 detecting the mismatch before a teacher or AI cue, supporting a narrower independent configuration-checking conclusion.
-2. **Change the condition relevant to the next use.** [HCD.12 - Test Transfer to Unfamiliar Work](#hcd-12) uses unfamiliar work when transfer matters. A compatible release case requires two hours per change plus one hour per batch of at most four changes. Ten changes need `20 + 3 = 23` hours and fit a 24-hour allowance. At 22 hours, ten no longer fit; nine need `18 + 3 = 21`. L17's corrected nine-change answer after feedback supports helped resource adaptation while preserving the earlier configuration result.
-3. **Repair the development contribution exposed by that result.** [HCD.14 - Revise the Development Arrangement from Evidence](#hcd-14) can replace a cue-led resource exercise with cases requiring both a justified proposal and a justified refusal. It need not discard sound arithmetic or configuration practice. [HCD.10 - Vary, Space, Interleave, and Progress Practice](#hcd-10) uses the attempt history to select a consequential variation, separated return, competing task or assistance change; these are different choices, not a fixed progression.
-4. **Open a delay or support question only when it affects reliance.** [HCD.13 - Test Retention and Tool Dependence](#hcd-13) compares performance after a delay and under changed support with suitable earlier conditions. One delayed attempt with AI also removed cannot isolate the effect of delay from the effect of removing AI. Keep intervening practice and remaining tools visible. An immediate local repair need not wait for this separate investigation.
+2. **Change the condition relevant to the next use.** [HCD.12 - Test Transfer to Unfamiliar Work or Learning from a New Source](#hcd-12) uses unfamiliar work when transfer matters. A compatible release case requires two hours per change plus one hour per batch of at most four changes. Ten changes need `20 + 3 = 23` hours and fit a 24-hour allowance. At 22 hours, ten no longer fit; nine need `18 + 3 = 21`. L17's corrected nine-change answer after feedback supports helped resource adaptation while preserving the earlier configuration result.
+3. **Repair the development contribution exposed by that result.** [HCD.14 - Revise the Human Capability-Development Arrangement from Evidence](#hcd-14) can replace a cue-led resource exercise with cases requiring both a justified proposal and a justified refusal. It need not discard sound arithmetic or configuration practice. [HCD.10 - Choose Whether and How to Vary, Space, Interleave, or Progress Practice](#hcd-10) uses the attempt history to select a consequential variation, separated return, competing task or assistance change; these are different choices, not a fixed progression.
+4. **Open a delay or support question only when it affects reliance.** [HCD.13 - Test Human Capability Retention and Dependence on Tools or Other Support](#hcd-13) compares performance after a delay and under changed support with suitable earlier conditions. One delayed attempt with AI also removed cannot isolate the effect of delay from the effect of removing AI. Keep intervening practice and remaining tools visible. An immediate local repair need not wait for this separate investigation.
 
 ### HCD-CONTINUATION - Keep a useful arrangement while its conditions change
 
@@ -109,7 +109,7 @@ A useful substitution may emerge from this fragment comparison. It does not yet 
 **Stop or return:** Continue what remains adequate. Return a missing allocation to its owner; retain an unresolved comparison when its proposed investigation is not feasible. A change to one use does not by itself establish a population-wide effect.
 
 1. **Locate what changed and what can be retained.** The constructed [APP-HCD-03](#app-hcd-03---constructed-continuation-method-repertoire-and-culture) preserves practice in tracing a release claim to its supporting evidence and referring safety or maintenance questions to the relevant specialist, while proposing a replacement for one cue-led correction exercise. HCD.15 uses that result to specify relevant cases, help, responsible providers and reopening conditions for the person. Until the needed learner and provider time is allocated, the affected practice cannot be arranged; the useful prior result remains available.
-2. **Carry evidence to the method claim only when it fits.** [HCD.16 - Develop and Refresh Human Capability-Development Methods](#hcd-16) can use compatible observations from continuing development to retain a supported use or narrow a claim. In the example, retain the method for practising evidence tracing and specialist referral through attempts, feedback, correction and retry. The available result supports performance with help; its contribution to independent learning remains unresolved. The proposed comparison needs three learner hours and two provider hours; only half a provider hour is available. Its useful return is the narrower claim and unresolved comparison. A later resource window may make the probe worthwhile; selecting it supplies no result.
+2. **Carry evidence to the method claim only when it fits.** [HCD.16 - Keep Human Capability-Development Method Claims Current](#hcd-16) can use compatible observations from continuing development to retain a supported use or narrow a claim. In the example, retain the method for practising evidence tracing and specialist referral through attempts, feedback, correction and retry. The available result supports performance with help; its contribution to independent learning remains unresolved. The proposed comparison needs three learner hours and two provider hours; only half a provider hour is available. Its useful return is the narrower claim and unresolved comparison. A later resource window may make the probe worthwhile; selecting it supplies no result.
 3. **Distinguish a group's continuation question.** [HCD.17 - Deliberately Continue and Change Human Capability-Development Culture](#hcd-17) asks about the specified transmission, receiving use, recognition or retention of practice within a population. Its example observes receiving trainers using a teaching sequence after combined preparation and coaching. Reducing trainer coaching changes that basis: a feasible, authorized comparison can support a branch proposal, while the trainers' later use and the learners' performance remain separate observations. The person's performance conclusion alone does not answer this cultural question.
 
 ### HCD-MATERIAL - Find what instructional material supports and what to repair
@@ -120,7 +120,7 @@ A useful substitution may emerge from this fragment comparison. It does not yet 
 
 **First useful result or blocker:** A compatible evaluation specification, or a supported diagnosis of the material's contribution, limiting defect and repair reach.
 
-**Start with:** [HCD.19 - Evaluate Instructional Material through Representative Reader Work and Diagnose Its Repair](#hcd-19) when a compatible specification exists. Otherwise use [HCD.18 - Construct a Characterization and Evaluation Specification for Instructional Material](#hcd-18) to connect the promised task, audience, permitted help, criteria and evidence to the intended decision.
+**Start with:** [HCD.19 - Evaluate Instructional Material through Representative Reader Work and Diagnose Its Repair](#hcd-19) when a compatible specification exists. Otherwise use [HCD.18 - Select or Construct a Characterization and Evaluation Specification for Instructional Material](#hcd-18) to connect the promised task, audience, permitted help, criteria and evidence to the intended decision.
 
 **Stop or return:** Stop with the supported use or repair conclusion and any evidence gap that limits it. Repair the affected material through E.23; use human-performance methods only for a claim about the person's contribution or learning.
 
@@ -475,7 +475,7 @@ The selected line does not establish one universal demand, transfer trajectory, 
 ### HCD.1:End
 
 <a id="hcd-3"></a>
-## HCD.3 — Diagnose the Limiting Capability, Misconception, or Behaviour
+## HCD.3 — Diagnose Whether a Capability, Misconception, or Behaviour Limits Work
 
 > **Type:** Human Capability Development practitioner diagnostic pattern
 
@@ -990,7 +990,7 @@ The selected line does not establish a universal capability state space, thresho
 ### HCD.4:End
 
 <a id="hcd-2"></a>
-## HCD.2 - Compose and Compare Capability-Development Programmes for Later Work
+## HCD.2 - Compose and Compare Human Capability-Development Programmes for Later Work
 
 > **Type:** Human Capability Development practitioner programme-composition pattern
 > **Status:** Candidate
@@ -1255,7 +1255,7 @@ This comparison adds design and evidence work, but it is non-dominated for the s
 ### HCD.2:End
 
 <a id="hcd-5"></a>
-## HCD.5 - Select Capability-Development Methods
+## HCD.5 - Select Human Capability-Development Methods
 
 > **Type:** Human Capability Development practitioner method-selection pattern
 > **Status:** Candidate
@@ -1510,7 +1510,7 @@ The selected line costs more than matching labels to a catalogue, but it preserv
 - **`HCD.11`–`HCD.13`:** supply stronger same-holder performance, transfer, retention, and support-dependence evidence; HCD.5's mechanism claim does not substitute for those results.
 - **`HCD.14`:** may revise the selected Method when compatible evidence changes the target, mechanism, fit, support, or result expectation.
 - **Target-domain, clinical, safety, legal, employment, privacy, organization, provider, and specialist practices:** retain correctness, risk, participation, authority, and competence decisions.
-- **Explanation Design:** when the selected activity needs an explanation, [EXD.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-the-explanatory-question) establishes the question, [EXD.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd2---build-and-bound-an-explanatory-example) constructs an example that exposes the relevant relation and its limits, and [EXD.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd5---guide-a-recipients-own-explanation) guides the learner's own explanation and correction. Use the needed contribution within HCD.6 task design or HCD.9 practice; HCD.10–HCD.13 retain progression and the performance, transfer and retention questions.
+- **Explanation Design:** when the selected activity needs an explanation, [EXD.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-what-a-recipient-needs-explained) establishes the question, [EXD.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd2---build-and-bound-an-explanatory-example) constructs an example that exposes the relevant relation and its limits, and [EXD.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd5---guide-a-recipients-own-explanation) guides the learner's own explanation and correction. Use the needed contribution within HCD.6 task design or HCD.9 practice; HCD.10–HCD.13 retain progression and the performance, transfer and retention questions.
 - **Learning-product practices:** may enact a selected explanation, task, feedback interaction, plan, or schedule for a declared audience; the product does not make the Method effective for a person by publication.
 
 ### HCD.5:End
@@ -1788,7 +1788,7 @@ The selected line costs more domain and case-design effort than renaming exercis
 ### HCD.6:End
 
 <a id="hcd-6-1"></a>
-## HCD.6.1 - Make a Needed Distinction Discernible in Practice
+## HCD.6.1 - Help a Learner Discern a Needed Distinction in Practice
 
 > **Type:** Method pattern
 > **Status:** Stable
@@ -1949,7 +1949,7 @@ NOT.8 can help represent a temporal or embodied distinction; RHY supplies the rh
 ### HCD.6.1:End
 
 <a id="hcd-7"></a>
-## HCD.7 - Arrange Providers, Access, Tools, and AI Support
+## HCD.7 - Arrange Providers, Access, Tools, and AI Support for Human Capability Development
 
 > **Type:** Human Capability Development practitioner support-arrangement pattern
 > **Status:** Candidate
@@ -2205,7 +2205,7 @@ The selected line costs more coordination than naming providers and adding hours
 ### HCD.7:End
 
 <a id="hcd-8"></a>
-## HCD.8 - Build the Recursive Capability-Development Arrangement
+## HCD.8 - Obtain or Build Missing Human Capability-Development Support with Bounded Recursion
 
 > **Type:** Human Capability Development practitioner capability-building pattern
 > **Status:** Candidate
@@ -2744,7 +2744,7 @@ The selected line costs more observation and traceability than counting hours an
 ### HCD.9:End
 
 <a id="hcd-10"></a>
-## HCD.10 - Vary, Space, Interleave, and Progress Practice
+## HCD.10 - Choose Whether and How to Vary, Space, Interleave, or Progress Practice
 
 > **Type:** Human Capability Development practitioner practice-progression pattern
 > **Status:** Candidate
@@ -3018,7 +3018,7 @@ The selected line costs more than copying a schedule, but it preserves the targe
 ### HCD.10:End
 
 <a id="hcd-11"></a>
-## HCD.11 — Assess Performance in Representative Work
+## HCD.11 — Assess Human Performance in Representative Work
 
 > **Type:** Human Capability Development practitioner method pattern
 > **Status:** Current practitioner preview
@@ -3193,7 +3193,7 @@ Use C.16 for an actual measurement claim, including its scale, method and compar
 ### HCD.11:End
 
 <a id="hcd-12"></a>
-## HCD.12 — Test Transfer to Unfamiliar Work
+## HCD.12 — Test Transfer to Unfamiliar Work or Learning from a New Source
 
 > **Type:** Human Capability Development practitioner method pattern
 > **Status:** Current practitioner preview
@@ -3372,7 +3372,7 @@ Target-domain Methods govern the actual response and correctness criteria. A lea
 ### HCD.12:End
 
 <a id="hcd-13"></a>
-## HCD.13 — Test Retention and Tool Dependence
+## HCD.13 — Test Human Capability Retention and Dependence on Tools or Other Support
 
 > **Type:** Human Capability Development practitioner method pattern
 > **Status:** Current practitioner preview
@@ -3559,7 +3559,7 @@ Target-domain criteria and specialist results remain necessary for correctness. 
 ### HCD.13:End
 
 <a id="hcd-14"></a>
-## HCD.14 — Revise the Development Arrangement from Evidence
+## HCD.14 — Revise the Human Capability-Development Arrangement from Evidence
 
 > **Type:** Human Capability Development practitioner method pattern
 > **Status:** Current practitioner preview
@@ -3961,7 +3961,7 @@ HCD.2 owns whole-programme comparison. OPS owns operation of current Work. OCE o
 ### HCD.15:End
 
 <a id="hcd-16"></a>
-## HCD.16 — Develop and Refresh Human Capability-Development Methods
+## HCD.16 — Keep Human Capability-Development Method Claims Current
 
 > **Type:** Human Capability Development practitioner method pattern
 > **Status:** Current practitioner preview
@@ -4437,7 +4437,7 @@ OCE.10 governs participation and target working culture when the organizational 
 ### HCD.17:End
 
 <a id="hcd-18"></a>
-## HCD.18 - Construct a Characterization and Evaluation Specification for Instructional Material
+## HCD.18 - Select or Construct a Characterization and Evaluation Specification for Instructional Material
 
 > **Type:** Human Capability Development practitioner evaluation-specification construction pattern
 > **Status:** Candidate
@@ -4528,7 +4528,7 @@ For each proposed characteristic, try two possible material conditions. If both 
 
 Declare the characteristic's bearer and grain. A false arrow in one diagram, a missing operation across an explanation–exercise chain, and a whole-route omission have different reach. A local defect does not inherit the whole book's grain merely because the evaluator opened the whole book.
 
-When the decision depends on how much selected structure a reader can extract, select [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation). Identify the material episteme, its expressing publication form and the reader or observer; fix the selected relations and correctness basis, usable preparation, operations, help, access and budget only as precisely as this comparison needs. These conditions qualify the three bearers. A material reference may identify the account and expression without new paperwork. Explanatory sufficiency and overall material adequacy remain different questions.
+When the decision depends on how much selected structure a reader can extract, select [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover). Identify the material episteme, its expressing publication form and the reader or observer; fix the selected relations and correctness basis, usable preparation, operations, help, access and budget only as precisely as this comparison needs. These conditions qualify the three bearers. A material reference may identify the account and expression without new paperwork. Explanatory sufficiency and overall material adequacy remain different questions.
 
 Make the selected set complete for the declared decision. A short diagnostic can legitimately borrow two profile questions, but then its conclusion is a bounded diagnosis, not a complete material evaluation. Do not call an omitted required property “not applicable” merely because it is inconvenient to observe.
 
@@ -4767,7 +4767,7 @@ Separate three support facts:
 
 When source contribution matters, ask the reader to identify what the material supplied and what they brought from prior knowledge. This report can help interpretation but is not by itself causal proof. Check it against the material and the response. The reader may not notice a familiar inference they supplied.
 
-For a selected [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) structural-recovery question, keep the correctly recovered relations and their attribution at these conditions. Familiar knowledge may enable decoding; correcting false or absent instruction from memory does not give the material credit for that correction. A response can correctly report what the material asserts without establishing that assertion's subject truth. Compare claims and forms separately when a revised material changes content. One response is a bounded recovery observation, not a maximum extractable amount or a learning result.
+For a selected [C.2.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) structural-recovery question, keep the correctly recovered relations and their attribution at these conditions. Familiar knowledge may enable decoding; correcting false or absent instruction from memory does not give the material credit for that correction. A response can correctly report what the material asserts without establishing that assertion's subject truth. Compare claims and forms separately when a revised material changes content. One response is a bounded recovery observation, not a maximum extractable amount or a learning result.
 
 After preserving the first response, provide the declared feedback. Record its content and timing relative to the response. Keep a teacher's answer-bearing explanation distinct from a prompt that merely asks the reader to inspect an available criterion. Both may be appropriate support, but they permit different conclusions about independent work.
 
@@ -5206,24 +5206,24 @@ HCD.* is the Human Capability Development PatternID namespace. Numbers are stabl
 | PatternID | Current reader availability | Honest return |
 | --- | --- | --- |
 | HCD.1 | Available: derive human capability demand from representative later Work. | Demand account, prospective hypothesis, outside-HCD return or discriminated evidence blocker. |
-| HCD.3 | Available: diagnose a limiting capability, misconception or behaviour. | Qualified intervention target or non-training return. |
+| HCD.3 | Available: diagnose whether a capability, misconception or behaviour limits Work. | Qualified intervention target or non-training return. |
 | HCD.4 | Available: architect a balanced profile across simultaneous Work. | Profile comparison, recommendation, unresolved question, bounded choice or exact blocker. |
 | HCD.2 | Available: compose and compare capability-development programmes for later Work. | Same-holder programme comparison, exact missing input, or learning-product design return when the person is not yet known; no programme choice. |
 | HCD.5 | Available: select a capability-development Method. | Bounded Method selection or shortlist, non-training return, or exact missing input; no effectiveness claim. |
 | HCD.6 | Available: design representative practice tasks. | Criterion-bearing task set with whole action, support, critical errors, correction, meaningful variation and resource fit. |
 | HCD.6.1 | Available: make a needed distinction discernible in practice. | Accessible contrast, action using the distinction and a learner response that guides correction, variation or whole-task use. |
 | HCD.7 | Available: arrange providers, access, tools and AI support. | Enabled contribution arrangement with competence, access, capacity, checking and fallback, or the exact gap. |
-| HCD.8 | Available: build the recursive capability-development arrangement. | Obtain/build decision, bounded provider or environment preparation, representative operating test, or first unsupported dependency. |
+| HCD.8 | Available: obtain or build missing capability-development support with bounded recursion. | Obtain/build decision, bounded provider or environment preparation, representative operating test, or first unsupported dependency. |
 | HCD.9 | Available: perform deliberate practice with feedback. | Focused-practice episode preserving first attempt, help, feedback, correction, retry and next focus. |
-| HCD.10 | Available: vary, space, interleave and progress practice. | Condition-sensitive next episodes with timing, retrieval, sources, support, challenge, observation and response rule kept distinct. |
+| HCD.10 | Available: choose whether and how to vary, space, interleave or progress practice. | Condition-sensitive next episodes with timing, retrieval, sources, support, challenge, observation and response rule kept distinct. |
 | HCD.11 | Available: assess performance in representative Work. | Observed contribution and bounded capability inference, or a distinct evidence or assessment gap. |
-| HCD.12 | Available: test transfer to unfamiliar Work. | Transferred contribution, adaptation need and tested limits, with new-source learning separate. |
-| HCD.13 | Available: test retention and tool dependence. | Condition-qualified retention, independent-core and support-dependence findings or unresolved comparison. |
+| HCD.12 | Available: test transfer to unfamiliar Work or learning from a new source. | Transferred contribution, adaptation need and tested limits, with new-source learning separate. |
+| HCD.13 | Available: test retention and dependence on tools or other support. | Condition-qualified retention, independent-core and support-dependence findings or unresolved comparison. |
 | HCD.14 | Available: revise the development arrangement from evidence. | Specific revision hypothesis, test, cost, protected conditions and conditional update. |
 | HCD.15 | Available: sustain continuing Human Capability Development. | Holder-specific continuing arrangement with triggers, contributions, evidence, burden, authority, re-entry and stops, or an exact blocker. |
-| HCD.16 | Available: develop and refresh HCD Methods. | Exact Method/candidate, supported bounded use and limits, narrowed claim, unresolved comparison or real protection stop; a justified change or obtainable worthwhile inquiry may select `adopt`, `revise`, `branch`, `retire` or `further probe`. |
+| HCD.16 | Available: keep HCD Method claims current. | Exact Method/candidate, supported bounded use and limits, narrowed claim, unresolved comparison or real protection stop; a justified change or obtainable worthwhile inquiry may select `adopt`, `revise`, `branch`, `retire` or `further probe`. |
 | HCD.17 | Available: deliberately continue and change HCD culture. | Truthful enacted/candidate account and bounded `continue`, `revise`, `branch`, `replace`, `stop` or `unknown`; current grounds can suffice, and a new intervention is conditional on its useful attainable contribution. |
-| HCD.18 | Available: construct a characterization and evaluation specification for instructional material. | Task-derived denominator, selected properties and scales, evidence and missingness, contrasts, result meanings and continuation; or a compatible specification to use directly. |
+| HCD.18 | Available: select or construct a characterization and evaluation specification for instructional material. | Task-derived denominator, selected properties and scales, evidence and missingness, contrasts, result meanings and continuation; or a compatible specification to use directly. |
 | HCD.19 | Available: evaluate instructional material through representative reader work and diagnose its repair. | Qualified material contribution, complete selected-coordinate disposition, limiting defect and repair reach, actual assistance and affected-use test; or a precise evidence or criterion gap. |
 
 The constructed human-development and cultural cases supply no evidence that the described development Work occurred, a provider operated, a person developed, or a culture changed. HCD.19 separately reports a bounded prepared-agent material walkthrough under its stated conditions.
@@ -5240,7 +5240,7 @@ The constructed human-development and cultural cases supply no evidence that the
 | HCD.2 programme comparison | Authorized chooser; HCD.5–HCD.8 for elaborating a chosen programme | The comparison informs a separate choice. After that choice, complete or revise the selected programme's Methods, tasks and support. Comparison alone establishes no commitment, launch or effect. |
 | HCD.5 selected Method and evidence plan | HCD.6, HCD.7 and HCD.9 | Proposed mechanism, target action, task, support and observation requirements. Selection is not evidence that the Method works. |
 | HCD.6.1 contrast and learner response | HCD.6 whole task; HCD.9 correction and HCD.10 next-episode design | Make a required difference accessible and choose the next action from what the learner noticed. Preserve supplied help and the separate execution capability; one successful response does not establish learning or transfer. |
-| [EXD.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-the-explanatory-question), [EXD.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd2---build-and-bound-an-explanatory-example) or [EXD.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd5---guide-a-recipients-own-explanation) | HCD.6 task design or HCD.9 practice, when explanation is the selected contribution | A qualified question, discriminating example or guided learner explanation, with the subject grounds and assistance conditions retained. HCD keeps the practice, progression and learning-evidence questions. |
+| [EXD.1](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd1---establish-and-revise-what-a-recipient-needs-explained), [EXD.2](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd2---build-and-bound-an-explanatory-example) or [EXD.5](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd5---guide-a-recipients-own-explanation) | HCD.6 task design or HCD.9 practice, when explanation is the selected contribution | A qualified question, discriminating example or guided learner explanation, with the subject grounds and assistance conditions retained. HCD keeps the practice, progression and learning-evidence questions. |
 | HCD.6 representative task and HCD.7 enabled support, with HCD.8 only when an exact contribution had to be obtained or built | HCD.9 | Practice object, criteria, permitted support, actual access and operating contribution. A design, booking or completed provider course is not a performed learner attempt. |
 | HCD.9 focused-practice episode and attempt history | HCD.10 and HCD.11 | Evidence for the next practice-condition decision or for bounded performance assessment. Correction after feedback remains distinct from an independent attempt. |
 | HCD.10 condition-sensitive progression | HCD.9, HCD.11 and later evidence uses | Next episode conditions and response rules only. Spacing, retrieval, transfer, retention and effectiveness do not follow from dates or design labels. |
@@ -5319,7 +5319,7 @@ FPF supplies System and holder recognition, capability, Method and MethodDescrip
 
 `E.23.CDI` governs the independent-System holder condition and later capability-development evidence under its own entry conditions. `E.23.CAE` supplies an observation-first differential where applicability, access, adaptation, enactment, and actual capability change must be separated. `C.32.MWA` prevents source layouts from becoming profile architecture. `C.11.CRC` governs finite comparison inside HCD.2, while `C.11` governs a bounded current-option choice. Compatible FPF changes leave unaffected HCD results reusable; changed relied-on distinctions reopen only their consumers.
 
-For HCD.18, HCD.19 and the instructional-material profile, this edition selects [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation) from the September 2026 FPF publication of 9 September 2026. It supplies the structural-recovery characteristic of the expressed episteme, its publication form and the reader or observer under specified comparison conditions. Use its own qualitative comparison or structural scale; the profile's material-use values, learning and burden claims keep their own meanings and evidence. Other FPF dependencies retain the basis above. Reopen this bounded dependency when the supplying definition or the receiving structural question changes.
+For HCD.18, HCD.19 and the instructional-material profile, this edition selects [`C.2.8 U.ExtractableStructuralInformation`](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---uextractablestructuralinformation--structure-this-reader-can-recover) from the September 2026 FPF publication of 9 September 2026. It supplies the structural-recovery characteristic of the expressed episteme, its publication form and the reader or observer under specified comparison conditions. Use its own qualitative comparison or structural scale; the profile's material-use values, learning and burden claims keep their own meanings and evidence. Other FPF dependencies retain the basis above. Reopen this bounded dependency when the supplying definition or the receiving structural question changes.
 
 A.19.ECS supplies general evaluation-specification construction to HCD.18. E.22 supplies comparison and E.23 improvement for a material result when those questions are live. General characterization and scale meanings remain with A.17, A.18 and C.16. Material evaluation does not alter the human-evidence or authority boundaries of the other HCD bodies.
 
