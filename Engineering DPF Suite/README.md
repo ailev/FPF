@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 25 September 2026
+- **Version:** 26 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -32,13 +32,13 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty-four published DPFs with 372 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-four published DPFs with 375 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
 | What you are trying to do | Published DPF | A result it can help you obtain |
 | --- | --- | --- |
-| Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 49 patterns | A system boundary, architecture decision, comparison of ways to obtain a result, integration plan, or justified release decision. It also covers general Platform Engineering, a substantial software delivery and reliability profile, and eight Methods for tool-using LLM systems. |
+| Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 52 patterns | A system boundary, architecture decision, comparison of ways to obtain a result, integration plan, or justified release decision. It also covers general Platform Engineering, a substantial software delivery and reliability profile, and eleven Methods for engineering agent work and support, with human and technical realizations. |
 | Choose, explain, test or improve a way of working, or develop a pattern language from source knowledge. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 26 patterns | An explicit method, a mathematical comparison or construction of a changed way of working, a useful description or support arrangement, evidence about fit, transfer and practical value, or a source-based contribution to a method description in pattern-language form. |
 | Change how an organization contributes, assigns work and enables people and other performers to act. | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 17 patterns | A compared organizational arrangement, clarified assignments and authority, a supported change, or a decision about its consequences. |
 | Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
@@ -85,7 +85,7 @@ For a practice whose spread or protective response changes the work, use the [de
 
 For a checklist that misses a consequential question or yields reassuring entries without adequate grounds, use the [checklist questions](ENGINEERING-DPF-SUITE-REFERENCE.md#select-and-use-checklists-without-losing-the-work-question). The [Checklist applications](CHECKLIST-PRINCIPLES-FRAMEWORK.md#applications) connect local checking with shared work, change and Method improvement.
 
-For an agent that has useful guidance or tools but fails to use them, open the [tool-using LLM family](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#tool-using-llm-systems-make-the-available-contribution-enter-the-task). Its fixed-model first case starts with controller construction and configuration testing; training and multiple agents are optional. The [connected Reference answer](ENGINEERING-DPF-SUITE-REFERENCE.md#make-an-available-contribution-work) compares support, execution and capability across agent work, timely bodily action and reusable calculation. Its [conditional-structure description](ENGINEERING-DPF-SUITE-REFERENCE.md#agent-contribution-conditions) and [separate demonstration](ENGINEERING-DPF-SUITE-REFERENCE.md#agent-contribution-demonstration) show how changed facts alter available continuations.
+For a person or technical agent choosing how to obtain a result, open the [agent engineering family](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#tool-using-llm-systems-make-the-available-contribution-enter-the-task). Its first use compares complete ways to calculate 347 × 6 and reaches the used answer; repeated assistance, input or control failures enter their corresponding constructors. The [connected Reference answer](ENGINEERING-DPF-SUITE-REFERENCE.md#make-an-available-contribution-work-in-the-whole-task) then works support-selection diagnostics and a comparison of manual, rule and learning arrangements, alongside prediction, timely bodily action and reusable calculation. Its bounded structure descriptions and separate demonstrations explain conditional availability after those practical uses.
 
 ## Looking for development recommendations?
 

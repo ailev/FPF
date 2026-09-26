@@ -6,13 +6,17 @@ When a referenced publication is present in this folder, resolve its pattern ref
 
 ## Choose what to read
 
-Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find it directly. Otherwise use `Readme.md` to choose a Suite or independent DPF. Each Suite folder has a `README.md` for first use and a named Reference for connecting contributions: `Foundational Thinking DPF Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md` or `Engineering DPF Suite/ENGINEERING-DPF-SUITE-REFERENCE.md`. Search for alternative formulations of the question; include English terms when the user's language differs from the sources.
+Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find its body directly. Otherwise search the available publications together, using terms for the difficulty and needed result. Include English technical terms when the user's language differs from the sources. You can find an individual method or a connected application without first choosing a Suite, Reference or pattern file.
+
+Establish which publications are available for this search. The full distribution includes FPF, both DPF Suites and their References, and the independent Narrativization DPF; a downloaded subset or one attached document offers less. The public `Readme.md` and Suite `README.md` files identify the publications. A missing search result means that this search has not found an answer in its available sources. Broaden the terms or obtain the relevant publication when the present question remains unanswered.
+
+Inspect a promising passage with its enclosing heading. A pattern body supplies its method; a Reference answer can explain how several contributions work together; a README or contents row helps locate that explanation. Open the substantive source and the conditions needed for the present use. When exploring the repertoire without a useful search phrase, browse the existing contents and FPF Part headings, then read selected full entries. The full ToC retains technical terms and dependencies for more precise searches.
 
 To perform a selected method, read its description, applicability conditions, and the related patterns needed for that use. To use a particular technique, read its section together with the conditions it depends on. Apply it to the facts and constraints of the task.
 
 Explain results and give feedback in the language of the project's work. Preserve the source distinctions that affect the answer. Cite the patterns and locations used. State assumptions, missing evidence, use limits, and the need for human judgement where they affect the decision. Let the current question determine the next step.
 
-When a question needs several methods, use a relevant connected example or Practical-Use Card. Follow the intermediate results: what each method returns, which operation uses it, and what changed condition sends the work back. A mantra helps retain that connection. Read the supplying patterns and start at the contribution whose inputs are available.
+When a question needs several methods, use a relevant connected example or Practical-Use Card. Follow the intermediate results: what each method returns, which operation uses it, and what changed condition sends the work back. A mantra helps retain that connection. Read the supplying patterns and start at the contribution whose inputs are available. If one method's result leaves the larger work unresolved, search the same publications for that larger result together with the method's ID or useful terms. Continue through the connected account only where it supplies a contribution the work still needs. An adequate earlier result or a sufficient individual method can end the lookup.
 
 Also recover the relevant Method vertical: what larger work is being performed through this action now, what constituent performances it needs, and which conditions must hold together. Use B.1.5.EW when this is unclear and B.1.5.RS for a proposed constituent replacement. A DPF can describe only part of the needed vertical. Retain already available capabilities, expose missing intermediate coordination or support, and check joint demands on shared resources. Use CGUS conditions when these facts change which continuation is available. Explain the connection in the language of the work; a formal stack diagram is optional.
 
@@ -37,13 +41,23 @@ IDs also occur in contents tables and cross-references. Match a heading at the s
 
 ## Search and read
 
-Use `rg` (ripgrep), or the environment's equivalent search tool with regular expressions. Run these commands with this folder as the working directory, or prepend its actual path to the file arguments.
+Use `rg` (ripgrep), or the environment's equivalent search tool with regular expressions. Run these commands with the public distribution folder as the working directory, or prepend its actual path to the file arguments. In a source repository, limit the search to the selected public publications; campaign notes and historical drafts are not the public corpus.
 
-Find Reference entries for “obtain a needed engineering result: build or buy”:
+Inspect the available Markdown files once to establish the search scope:
 
 ```sh
-rg -n -i -C 2 'buy|build|obtain the result' -- "Engineering DPF Suite/ENGINEERING-DPF-SUITE-REFERENCE.md"
+rg --files --no-ignore -g '*.md' .
 ```
+
+For the illustrative question “obtain a needed engineering result: build or buy”, search across that scope:
+
+```sh
+rg -n -i -C 2 --no-ignore -g '*.md' -- 'build or buy|obtain a needed engineering result|obtain climate control' .
+```
+
+This query can return a pattern, a contents row and a connected Reference case. Compare the question each passage answers, open its enclosing section and retain the useful result or return condition. If the output is too large, use the same query with `-l` instead of `-n -C 2` to list matching files, then inspect promising passages. Reformulate an unsuccessful query; a lexical match alone does not establish fit, and no match does not establish that the method is absent.
+
+A browser or retrieval system can serve the same search when it covers the declared publications, including Reference answers. If it exposes only one file or titles, state that limit and extend access when the question requires it.
 
 Locate the file and the start and end lines of the selected pattern:
 
