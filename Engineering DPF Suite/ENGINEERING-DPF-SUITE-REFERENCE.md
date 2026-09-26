@@ -58,6 +58,9 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Move attention while continuing the whole action](#how-can-attention-move-while-the-whole-action-continues) | Timely observation, concurrent methods, missed events, bodily coordination, teacher support and independent use. |
 | [Can protective review work with our capacity?](#can-protective-review-work-with-the-capacity-we-have) | Expected errors, interception, usable review time, other commitments and a feasible combined response. |
 | [Share a method and retain the means to develop it?](#how-can-we-share-a-method-without-losing-the-means-to-develop-it) | An AI-assisted practice, different receiving capabilities, limited specialist time, continued development and changed selection conditions. |
+| [Make an available contribution work in the whole task](#make-an-available-contribution-work) | Available knowledge that is not used, fixed-model repair, prediction, reusable tools, informative experience, timely bodily cues, changed support and lasting benefit. |
+| [Available continuations for the agent](#agent-contribution-conditions) | Formal conditional-structure description: constituents, obtaining descriptive relations, constraints, case facts and separate availability judgements. |
+| [A changed source changes the continuation](#agent-contribution-demonstration) | A separate demonstrative episteme compares initial and changed-edition availability while keeping the selected structure fixed. |
 | [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
 | [Citation](#citation) | Cite this Reference or a particular pattern application. |
 
@@ -891,6 +894,244 @@ Reading the model, interpreting its quantities and judging its use can be consti
 The same distinction matters for a shared technical reference: its descriptions can be copied without exhausting them, while question answering and revision work can exhaust the maintainers' time. Arrange the question-answering and revision work needed for continued use. A support agreement is one result; continuing production of useful methods is another.
 
 Finish with the supported continuation or change, the contributions it needs and the uncertainty it leaves. A local successful attempt establishes neither wider uptake nor a lasting cultural improvement. If that stronger conclusion matters, obtain the corresponding observations; otherwise use the present result.
+
+
+<a id="make-an-available-contribution-work"></a>
+
+## Make an available contribution work in the whole task
+
+**The knowledge or support is available, but the work still fails. What should change?** Begin with the result that another person or activity must actually use. A report can be fluent while its claimed effect never happened; a learner can know a correction yet miss the moment to perform it.
+
+The first useful answer identifies a missing or misused contribution, a presently usable continuation, or the exact condition preventing one. Use an adequate existing answer and stop when the receiving result suffices. A recurring difficulty can justify changing the arrangement or developing a capability; neither training nor a larger workflow is the default.
+
+For the formal teaching question, the [conditional-structure description](#agent-contribution-conditions) makes the alternatives and their case judgements explicit. A [separate demonstration](#agent-contribution-demonstration) shows how a changed source changes availability while the structure remains fixed.
+
+### A reminder for returning to the whole task
+
+> Keep the required result and the work being performed together in view; locate the contribution that is missing; distinguish missing knowledge, access, timely observation and ability to act; use what already suffices, obtain what is missing and check its use in the whole; for a recurring difficulty, compare changed support, changed execution and developed capability; test the chosen change now, after the relevant interval and under changed conditions; retain necessary observations and checks; stop at a usable result or return the exact missing condition.
+
+Use this reminder when resuming the question; use the expansion and cases below to choose a particular move. The reminder repeats dependencies already explained there. It does not establish a performance advantage, supply a missing observation or make every branch compulsory.
+
+### Expand the question that matters now
+
+| Current difficulty | Contribution to obtain and use | Stop or return |
+| --- | --- | --- |
+| Nobody has noticed why the apparently good result fails in use. | [B.5.PI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5pi---initiate-inquiry-from-ongoing-work) follows an ordinary handover or demonstration; [A.15.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1511---make-applicable-methods-noticeable-in-work) makes a useful comparison and response possible. [B.1.5.EW](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) recovers the encompassing work and what must continue simultaneously. | Identify the missing contribution, including a constituent ability, shared capacity or timely observation. A full procedure description does not supply those performances. |
+| A current contribution may already suffice. | [A.15.9](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a159---use-or-request-a-bounded-result-from-another-practice) or [SYSE.9](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse9---use-or-request-specialist-engineering-results) obtains a bounded result with its source and applicability. [SYSE.42](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse42---execute-a-proposed-llm-tool-call-and-use-its-result) brings a proposed tool call's qualified return or actual effect into the receiving task. | Stop at the sufficient usable result; return missing intent, evidence, access or domain meaning precisely. |
+| Delayed consequences could change today's action. | [MMP.8.SD](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) constructs the decision model; [MMP.17](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp17---construct-a-surrogate-for-selected-model-responses) and, if learning is selected, [CMP.7](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) supply a qualified approximation. [SYSE.10](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse10---assess-research-model-and-trial-results-for-an-engineering-decision) bounds reliance. [A.15.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a157---situation-responsive-work-steering-and-next-action-selection) or [C.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11---decision-theory-decsn-cal) uses the comparison; [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure) binds it into execution. | Return a defeated current-state or error premise to the model/observation supplier. A predicted effect does not replace [SYSE.42](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse42---execute-a-proposed-llm-tool-call-and-use-its-result)'s actual execution. |
+| Repeated work suggests another arrangement. | [C.38](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c38---construct-comparable-ways-to-obtain-one-result) and [C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) compare complete alternatives; [E.23.CDI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23cdi---developing-capability-for-a-named-work-family) frames a selected development intervention. [SYSE.43](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse43---maintain-external-memory-for-continuing-llm-work) changes retained context, [SYSE.44](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse44---divide-and-recombine-work-across-llm-agents) divides contributions, [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure) changes control, [SYSE.48](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse48---construct-and-maintain-reusable-tools-and-skills-for-llm-work) constructs an operator, and [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) trains parameters. | Select only the needed alternative and its suppliers. Unavailable training leaves feasible fixed-model repairs open. |
+| The needed operator or informative experience does not exist. | [SYSE.48](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse48---construct-and-maintain-reusable-tools-and-skills-for-llm-work) constructs a reusable operation with [ME.21](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me21---reconcile-and-allocate-source-contributions-for-method-use), [ME.10](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me10---configure-an-enactment-support-arrangement-adding-a-method-base-when-needed), [ME.15](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me15---maintain-method-variants-provenance-and-reuse) and the actual interface primitives. [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-llm-work) constructs discriminating tasks and feedback, using [SYSE.33](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse33---provide-reconstructible-software-development-and-test-environments) for provision/reset. | The operator or experience must enter a receiving use. Unknown result or feedback meaning returns to its domain supplier. |
+| The change appears to help. | [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) compares actual result, necessary access/use, restraint, effects and effort. Add delayed and changed-condition observations when the reliance includes persistence or adaptation. | Return failed contributions to their constructors. An unknown intervening update can leave attribution unresolved while current performance remains observable. |
+| A person's recognition, coordination or interpretation is missing. | [HCD.7](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd7---arrange-providers-access-tools-and-ai-support-for-human-capability-development) supplies feasible help; [HCD.12](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd12--test-transfer-to-unfamiliar-work-or-learning-from-a-new-source) and [HCD.13](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd13--test-human-capability-retention-and-dependence-on-tools-or-other-support) test the selected transfer and retention claims. [SOM.2](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som2---make-a-bodily-change-distinguishable), [SOM.4](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som4---build-and-recall-a-coordinated-bodily-change), [SOM.5](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som5---adapt-bodily-coordination-to-changing-support-and-load), [RHY.9](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy9---arrange-rhythmic-actions-and-timing-cues) and [RHY.13](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy13---test-transfer-retention-and-support-dependence-of-rhythmic-capability) supply bodily contrast, coordinated performance, timely cue and support-sensitive tests. | Keep experienced sensation, observed motion and technical telemetry distinct. A generated explanation supplies no bodily response. |
+| A successor must obtain and adapt the contribution. | [ME.10](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me10---configure-an-enactment-support-arrangement-adding-a-method-base-when-needed) and [ME.15](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me15---maintain-method-variants-provenance-and-reuse) retain usable discovery and repertoire meaning; [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) preserves explanation and renewal across participants. | A changed source or lost support reopens affected uses. Retain independently useful contributions and an available fallback. |
+
+The MMP and CMP links open their existing source pattern bodies; they add no Suite member. In every row, the supplier's full conditions apply.
+
+These are conditional questions, not a project sequence. A design comparison, today's next action and development for later work are different decisions. Obtaining a contribution, performing several actions simultaneously, supporting a performer and describing a proposed Method composition are also different relations. A hyperlink or workflow arrow does not establish any of them.
+
+### Case A: an agent must obtain an actual engineering result
+
+These are constructed teaching cases with supplied contracts and stipulated observations, not reports of deployed-agent performance. The task is to change a test-system configuration, return its observed state in a usable report and preserve enough information to resume after interruption.
+
+An ordinary handover reveals that a persuasive report contains a predicted state rather than one read from the target. The domain owner supplies the permissible change, interface contract and acceptance condition. [SYSE.42](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse42---execute-a-proposed-llm-tool-call-and-use-its-result) grounds target and argument values, executes the permitted operation and uses the actual return. A response for another target fails the use even when its format is valid.
+
+A lost reply preserves the outstanding attempt. The agent uses the interface's same-attempt recovery before replay; without a supported recovery observation, the effect remains unresolved. [SYSE.43](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse43---maintain-external-memory-for-continuing-llm-work) retains the relevant source edition, observations and unresolved action, distinguishing a remembered successful state from current state.
+
+If a source review and calculation can be separated usefully, [SYSE.44](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse44---divide-and-recombine-work-across-llm-agents) combines their returns with compatible premises. A changed source edition reopens only affected calculations. Agreement between agents that copied the same source is not independent confirmation.
+
+#### A1. Consume the returned premise while the model stays fixed
+
+The agent repeatedly retrieves an already usable maintenance procedure. The trace shows that the controller never marks the outstanding premise as supplied. An engineer can change the surrounding software but has no training access.
+
+[SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure) constructs per-attempt state for the missing premise, qualified source/applicability, unresolved execution attempt and remaining budget. A usable procedure return supplies the premise and enters the existing action step. Another identical lookup needs a missing or defeated premise or justified refresh; otherwise the controller proceeds to the required current-target observation or returns the exact gap.
+
+The model endpoint/settings, instruction templates, tool contracts, permissions and persistent memory policy/store remain fixed. Changed input selection follows the new routing. This changes execution; it does not establish model learning.
+
+[SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) compares the incumbent and revised controller on ordinary progress, genuinely missing information, a changed applicable rule and interrupted effects. Record receiving-result correctness, useful restraint, needed and redundant calls, unresolved effects and total effort. A repair that suppresses fresh access fails even if it saves calls.
+
+When the claim includes persistence, compare four occasions: the initial repeated-lookup failure; immediate use of the repaired controller; an equivalent fresh task after the service's normal restart interval with the same recoverable configuration and intended support; and a separate source change requiring a new precondition. In the last case, the agent must obtain and use the reachable new rule. An unavailable source instead warrants an exact missing-condition return.
+
+Keep delayed and shifted final cases outside tuning. Record configuration, support actually available, evaluator basis and intervening updates at each occasion. A hidden provider update prevents a controller-only persistence attribution; newly retained support changes the performing arrangement. The required observations are specified here, not asserted as measured successes.
+
+#### A2. Let delayed consequences change the next choice
+
+Three service workers each supply one unit of capacity per interval. The domain owner permits two update alternatives: restart all workers in one interval, or one worker per interval over three intervals. It supplies a maximum backlog of two units, a later clearing period and a preference for earlier completion when the limit is met.
+
+[MMP.8.SD](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp8sd---construct-a-sequential-decision-model-from-information-and-consequences) constructs observation/action order, remaining update work and the transition `q_next = max(0, q + demand - active_capacity)`. Demand is observed before choosing; a later observation can change a later choice. This teaching model assumes constant demand for the displayed comparison and starts with zero backlog.
+
+| Observed demand per interval | All-at-once capacity over three intervals | Rolling capacity | Modeled peak backlog: all / rolling | Supported choice under the supplied criterion |
+| --- | --- | --- | --- | --- |
+| 1 | 0, 3, 3 | 2, 2, 2 | 1 / 0 | Both satisfy the limit; the shorter all-at-once update can be chosen. |
+| 2.5 | 0, 3, 3 | 2, 2, 2 | 2.5 / 1.5 | All-at-once exceeds two; rolling remains a candidate, with its later clearing obligation. |
+
+At demand 2.5, rolling leaves backlog 1.5 after its third interval. Restored capacity three clears 0.5 per interval, so the supplied clearing period must accommodate three further intervals under these assumptions. The update's completion and backlog clearance are different results.
+
+The exact recurrence is the simpler calculation. If a fitted or LLM-generated surrogate replaces it, [MMP.17](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp17---construct-a-surrogate-for-selected-model-responses) and [CMP.7](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp7---construct-a-learner-from-examples-and-feedback) must supply its target, construction and consequential error. A separately justified peak-response error at most 0.2 relative to this model still rejects 2.5 and admits 1.5. An interval crossing two leaves that constrained choice unresolved: return to the exact recurrence, obtain a relevant observation, take an independently supported narrower action, or stop.
+
+Agreement with the model does not establish agreement with the service. [SYSE.10](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse10---assess-research-model-and-trial-results-for-an-engineering-decision) bounds that reliance; [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure) binds current conditions and the error return; [C.24](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c24---plan-tool-or-service-calls-for-a-fixed-action-cagent-tools-cal) plans the selected action and [SYSE.42](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse42---execute-a-proposed-llm-tool-call-and-use-its-result) performs it. If an actual restart reveals another service rate, return through [MMP.14](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp14---find-and-repair-a-mathematical-models-failed-predictions) to the affected observation and transition. Do not relabel the earlier forecast as an observed effect.
+
+#### A3. Construct informative experience before changing the controller
+
+Lost acknowledgements are expensive to reproduce on the real service. [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-llm-work) constructs a small fixture that separates missing effect from missing reply. The interface contract supplies the result: requested target/version, at most one effect per attempt, no completion from an acknowledgement alone, and no blind replay of an unresolved effect.
+
+Fixture state contains target/version, attempt identity and effect count. Operations apply an effect, suppress a reply, acknowledge without applying, or return a delayed observation. [SYSE.33](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse33---provide-reconstructible-software-development-and-test-environments) supplies isolated initialization and exercised reset. These are executed synthetic states, not observations of the real service.
+
+Paired tasks vary target, initial version and reply/effect condition. Already-satisfied tasks require no mutation; impossible transitions require a bounded return. A contract-derived check reads actual fixture state and effect count.
+
+Deliberately make a generator and its generated verifier equate acknowledgement with success. The acknowledgement-only case leaves the target unchanged and defeats that shared premise. A duplicate-effect challenge reaches the requested version yet fails the effect-count condition. A fluent narrative cannot override either result.
+
+Qualified traces return to [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure)'s fixed-model repair. A wrapper under [SYSE.48](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse48---construct-and-maintain-reusable-tools-and-skills-for-llm-work) or training under [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) is an optional separate construction. [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) uses separately prepared final cases and actual interface conformance before extending reliance. If the real service lacks the fixture's attempt lookup, return that transfer gap while retaining still-valid normal-result exercises.
+
+### Case B: a timely cue must enter a coordinated bodily action
+
+A learner can make a familiar correction when prompted but loses rhythm or partner contact while inspecting body parts serially. The teacher supplies appropriate technique and practice conditions. The target is a coordinated action; independent noticing, if required, is a separate target.
+
+[B.1.5.EW](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) recovers what must continue together. [SOM.1](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som1---model-the-bodily-contribution-to-a-movement) connects felt change, controllable action and externally observed movement. [SOM.2](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som2---make-a-bodily-change-distinguishable) constructs a contrast for a missing bodily distinction; [SOM.4](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som4---build-and-recall-a-coordinated-bodily-change) assembles and recalls the combination; [SOM.5](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som5---adapt-bodily-coordination-to-changing-support-and-load) keeps a support transition within the continuing action. [RHY.9](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy9---arrange-rhythmic-actions-and-timing-cues) places the cue early enough for the learner to use it without stopping the passage.
+
+[HCD.7](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd7---arrange-providers-access-tools-and-ai-support-for-human-capability-development) establishes who can actually observe and respond. When independent recognition is the target, [HCD.12](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd12--test-transfer-to-unfamiliar-work-or-learning-from-a-new-source) tests a changed situation without supplying the decisive cue. [HCD.13](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd13--test-human-capability-retention-and-dependence-on-tools-or-other-support) separates delayed retention from withdrawal of support and accounts for intervening practice, fatigue and cueing. [RHY.13](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy13---test-transfer-retention-and-support-dependence-of-rhythmic-capability) supplies the rhythmic transfer/retention question. A useful permanent aid can remain part of the intended arrangement.
+
+[A.6.P.RI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a6pri---recover-agent-relative-references-for-action) keeps whose left, sensation and observation explicit. [A.12](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a12---acting-side-externalization-and-reflexive-split-identify-who-acts-on-what) distinguishes regulator and changed body part only when those participants and relations are established. An LLM assistant can help formulate a question or interpret a report; its account supplies neither sensation nor motor response.
+
+The useful result can be a supported coordinated action, independent performance under tested conditions, or a precise missing observation/response. Removing a needed cue changes the conditions; it does not by itself prove that the learner lost knowledge. Agent-controller repair and human motor learning keep their separate mechanisms.
+
+### Case C: make a repeated calculation obtainable and adaptable
+
+A team repeatedly asks a specialist to normalize measurements, calculate and explain the result's limit. One failure used an old unit convention; successors also receive numbers without knowing when the equation applies. [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) makes that interpretation and renewal need visible.
+
+[C.38](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c38---construct-comparable-ways-to-obtain-one-result) and [C.11.CRC](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11crc---configuration-relative-contribution-comparison) compare direct specialist help, a reusable implementation with retained interpretation, and development of other performers. [ME.21](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me21---reconcile-and-allocate-source-contributions-for-method-use) recovers the stable contribution; [SYSE.48](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse48---construct-and-maintain-reusable-tools-and-skills-for-llm-work) constructs it from verified conversion and calculation primitives.
+
+Measurements, explicit units and equation edition become parameters. Customer-specific constants and guessed conventions are removed. The specialist supplies the equation and allowed region. One metre and 100 centimetres must normalize equally; a new applicable measurement must yield the qualified result; an unknown unit or unsupported regime must return its precise condition.
+
+[SYSE.26](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse26---design-a-supported-platform-use-path) and [SYSE.27](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse27---evolve-platform-interfaces-and-contribution-paths) preserve the contract and compatibility. [ME.10](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me10---configure-an-enactment-support-arrangement-adding-a-method-base-when-needed) makes the supported operator and example reachable. The next agent must discover it, invoke it through [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure) and [SYSE.42](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse42---execute-a-proposed-llm-tool-call-and-use-its-result), and use the result with its units and conditions. A discovery miss returns to discovery; it is not evidence of bad arithmetic.
+
+[ME.15](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me15---maintain-method-variants-provenance-and-reuse) distinguishes changed Method meaning from a technical edition. [SYSE.48](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse48---construct-and-maintain-reusable-tools-and-skills-for-llm-work) consolidates only demonstrated overlap and withdraws an edition whose equation assumption is defeated. Unaffected primitives and direct specialist help can remain useful. [A.15.8](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a158---work-performance-configuration-and-recovery-testing) probes consequential support loss; HCD supplies any selected development of the recipient's interpretation.
+
+The case may end with direct help when construction and maintenance cost more than they contribute. Publishing code alone does not establish continued practice, independent human understanding or model-parameter learning.
+
+<a id="agent-contribution-conditions"></a>
+
+### Available continuations when an agent has a usable procedure
+
+Use this bounded structure description to answer **which of Continue, Obtain and Repair has its stated conditions in the supplied case?** It applies the formal branch of [A.22.CGUS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22cgus---which-continuations-are-available--constraint-governed-unfolding-structure-cgus) to an illustrative agent task. An ordinary task can stop with the preceding explanation; this unit makes the structural and case distinctions replayable.
+
+Call the selected structure **G** within this unit. Its identity is the following constituent set, four obtaining descriptive relations, three applied constraints and selection-use frame. The permitted descriptive action is to display availability and the first missing or defeated condition. Stop when that question is answered; obtain a missing case fact from its stated supplier. The display neither executes nor authorizes a continuation.
+
+#### Constituents and local loci
+
+Each row declares one locus local to G, binds the identically labelled constituent and states its role. These are descriptions and candidate continuations, not records of performed work.
+
+| Local locus and constituent | Exact content and contribution to the question |
+| --- | --- |
+| **T** | Task requirement: use the currently applicable procedure designated by N to change target X from version 1 to version 2, preserve at-most-one state-changing effect, and return an observation of X's actual final state. |
+| **K** | Controller-design description for T: consume an applicable procedure, require a current target observation and available combined observation/action capacity, then use SYSE.42; reopen a premise whose applicability changes and preserve any uncertain attempt. |
+| **N** | Needed-contribution description: the procedure currently applicable to T, including its required current-state observation. A case can leave the applicability of the possessed edition unknown or defeated without changing this need. |
+| **Q** | Acquisition proposal: ask the authoritative procedure service for the current edition and applicability of the contribution designated by N; use the reply in K's outstanding premise. |
+| **R** | Repair proposal: change K's transition so that an applicable returned contribution is consumed and a defeated premise is reopened; qualify the revision with the bounded experience of Case A3 while model parameters stay fixed. |
+| **Continue** | Candidate continuation: use the procedure described by K for T, under constraint C below. |
+| **Obtain** | Candidate continuation: enact Q to supply the unresolved or defeated applicability contribution, under constraint O. |
+| **Repair** | Candidate continuation: construct and test the controller revision described by R, under constraint R-test. |
+
+#### Obtaining relations selected by G
+
+The following local predicates concern written descriptive content. Their meanings, participant order and basis are part of this scheme. They introduce no reusable relation signature or global ontology.
+
+| Occurrence | Predicate and participants in order | Why it obtains in this illustrative content |
+| --- | --- | --- |
+| **rKT: K addresses T** | addresses(controller-design description, task requirement): the first description explicitly identifies the second as the task whose execution it organizes. Participants: first K, second T. | K explicitly says “for T” and supplies its consumption, observation and execution design for that requirement. |
+| **rNT: N is required by T** | requiredContribution(contribution description, task requirement): the second description explicitly requires the contribution designated by the first. Participants: first N, second T. | T explicitly requires the currently applicable procedure designated by N. |
+| **rQN: Q seeks N** | seeks(acquisition proposal, contribution description): the proposal identifies the contribution description as what its acquisition is to supply. Participants: first Q, second N. | Q explicitly asks the named service for the current edition and applicability of the contribution designated by N. |
+| **rRK: R targets K** | targets(repair proposal, controller-design description): the proposal explicitly identifies the description whose realization it proposes to revise. Participants: first R, second K. | R explicitly selects K's consume/reopen transition as its repair target. |
+
+These relations obtain because the descriptions have that content. They do not assert an acquisition, repair or state change has occurred. A missing selected relation leaves this formal identity provisional; the ordinary explanation can remain usable. The case facts below do not manufacture the relations.
+
+#### Constraints and potential continuations
+
+The domain/interface supplier defines what counts as an applicable procedure, current target observation, sufficient combined ability/resources/timing, resolved prior effect and permitted acquisition. The four constructed cases below stipulate values for those meanings. All required polarities are affirmative; a predicate such as “an applicability contribution is needed” already contains its stated missing-or-defeated meaning.
+
+| Constraint and candidate | Applicable predicates or obtaining basis | Dependent selected occurrences |
+| --- | --- | --- |
+| **C / Continue** | **a:** the possessed procedure edition is applicable to T now. **o:** the required current target observation is available. **c:** observation and action can be performed together with the required shared resources and timing. **e:** the prior-effect condition is resolved so this continuation does not blindly repeat an uncertain effect. Require all four. | rKT and rNT. |
+| **O / Obtain** | **n:** applicability is unresolved or defeated, so this contribution is needed. **s:** Q's authoritative source is reachable in the relevant interval. **p:** Q is permitted. **u:** that acquisition is useful and fits the available interval. Require all four. | rQN and rNT. |
+| **R-test / Repair** | **f:** the repeated consume/reopen failure is present. **x:** controller-change access is available for this construction. **h:** qualified construction experience is available. Require these three and the obtaining rRK relation with ordered participants R, K. | rRK and rKT. |
+
+Individual ability does not establish c. Training access is not one of Repair's conditions. A constructed repair's availability also does not establish that it will fix a shared-capacity defect.
+
+All three candidates remain in G's potential topology. They are alternatives under the constraints, not stages. The case results exhibit Continue and Obtain in different cases and Repair while operational progress is blocked or unknown. After obtaining a new contribution, re-evaluate the affected facts; no unqualified temporal edge or mandatory next action is added to G.
+
+#### Case inputs and their scope
+
+The source of the following case values is this explicitly constructed teaching scenario. They are stipulated about the current procedure, target, performing arrangement and proposals; they are not empirical observations. The written constituent and relation definitions above remain the descriptive basis in every case.
+
+W0–W3 name four alternative comparison windows. Each window holds its stated facts fixed only until a named fact changes; they are not calendar intervals or a dated execution trace. The initial-to-changed-edition comparison changes the applicability facts while preserving G. W2 and W3 are additional contrasts.
+
+“S” means satisfied, “N” not satisfied, “?” unknown. A missing fact stays unknown. The applicable test is defined for each candidate in all four cases, including when its outcome is unknown.
+
+| Case and window | Stipulated facts and about-subject basis |
+| --- | --- |
+| **Initial / W0** | The possessed procedure applies: a=S. The target observation, combined performance and resolved-effect condition are supplied: o=c=e=S. Applicability needs no acquisition: n=N. Q's reachability, permission and usefulness/timing are unspecified: s=p=u=?. No repeated consume/reopen failure: f=N. Controller-change access and qualified construction experience are unspecified: x=h=?. |
+| **Changed edition / W1** | The authoritative procedure has changed and defeats the old edition: a=N and n=S. Q's source is reachable, Q is permitted, and its acquisition is useful within the available interval: s=p=u=S. Continue's other conditions remain supplied: o=c=e=S. No repeated controller failure: f=N; x=h=? remain unspecified. |
+| **Interrupted return / W2** | The return does not establish applicability: a=? and n=S. Q's source is unavailable in the interval: s=N; p=u=? remain unspecified. The other execution conditions remain supplied: o=c=e=S. A repeated consume/reopen failure, controller-change access and qualified fixture experience are supplied: f=x=h=S. |
+| **Combined performance fails / W3** | Applicability is supplied: a=S and n=N. The observation and resolved-effect condition are supplied: o=e=S. Individual observation/action abilities are supplied, but shared timing/resources are defeated: c=N. Q's remaining conditions are unspecified: s=p=u=?. Repair's construction conditions remain as in W2: f=x=h=S. |
+
+For an actual use, replace these stipulated facts with applicable evidence from the procedure source, target observation, resource/timing account, permission holder and construction experience. This changes the case result. It does not turn the teaching stipulation into evidence about the deployed system.
+
+#### Separate judgements and derived current sets
+
+Each row below is one candidate judgement. Its constraint identifies the applicable test and affirmative polarity; its case/window identifies every input and about-subject basis in the preceding table; its dependencies identify the selected obtaining occurrences in the constraint table. The rRK basis is separately the obtaining descriptive relation, not a condition value inferred from a label.
+
+Apply this stated rule: an invalid or internally inconsistent case/test returns **Error** for the affected judgement; otherwise any required N yields **Disabled**, all required S plus required obtaining relations yield **Enabled**, and remaining unknown values yield **Unknown**. Inspect all facts relevant to the claim before using a decisive N. No error is stipulated in these four cases.
+
+| Judgement | Case, window and applicable basis | Evaluated outcomes / obtaining basis | Result and reason |
+| --- | --- | --- | --- |
+| **J0-C** | Initial, W0, C; rKT/rNT | a=o=c=e=S | **Enabled:** the procedure, observation, combined performance and effect conditions are supplied. |
+| **J0-O** | Initial, W0, O; rQN/rNT | n=N; s=p=u=? | **Disabled:** no missing applicability contribution warrants Q; unspecified later predicates do not override that defeated need. |
+| **J0-R** | Initial, W0, R-test; rRK/rKT | f=N; x=h=?; rRK obtains from R,K content | **Disabled:** the selected repeated-failure trigger is absent. |
+| **J1-C** | Changed edition, W1, C; rKT/rNT | a=N; o=c=e=S | **Disabled:** the old procedure edition no longer applies. |
+| **J1-O** | Changed edition, W1, O; rQN/rNT | n=s=p=u=S | **Enabled:** a contribution is needed and reachable; this acquisition is explicitly permitted, useful and timely. |
+| **J1-R** | Changed edition, W1, R-test; rRK/rKT | f=N; x=h=?; rRK obtains | **Disabled:** source change alone supplies no repeated controller failure. |
+| **J2-C** | Interrupted return, W2, C; rKT/rNT | a=?; o=c=e=S | **Unknown:** procedure applicability is not established. |
+| **J2-O** | Interrupted return, W2, O; rQN/rNT | n=S; s=N; p=u=? | **Disabled:** the source cannot supply the contribution in this interval. |
+| **J2-R** | Interrupted return, W2, R-test; rRK/rKT | f=x=h=S; rRK obtains | **Enabled:** the targeted fixed-model repair has its trigger, access and qualified construction experience. |
+| **J3-C** | Combined performance fails, W3, C; rKT/rNT | a=o=e=S; c=N | **Disabled:** individually available acts cannot meet the combined timing/resource condition. |
+| **J3-O** | Combined performance fails, W3, O; rQN/rNT | n=N; s=p=u=? | **Disabled:** applicability is known; another acquisition does not address the failed combined condition. |
+| **J3-R** | Combined performance fails, W3, R-test; rRK/rKT | f=x=h=S; rRK obtains | **Enabled:** the construction exercise remains available; no claim that it repairs the capacity defect follows. |
+
+The current sets are derived from those judgements, not from the displayed order:
+
+| Window and judgement sources | Enabled set | Disabled set | Unknown set | Stop, return and recheck |
+| --- | --- | --- | --- | --- |
+| W0: J0-C/O/R | Continue | Obtain, Repair | Empty | Display Continue. Actual execution needs its own qualified conditions and authority. Recheck changed procedure, target, combined performance or effect state. |
+| W1: J1-C/O/R | Obtain | Continue, Repair | Empty | Display Q as available. After a qualified return, rejudge applicability and Continue's other current conditions. Recheck Q's access, permission or timing if they change. |
+| W2: J2-C/O/R | Repair | Obtain | Continue | Return source availability to its provider and applicability to its authoritative source. Repair remains possible but supplies no missing current fact by itself. |
+| W3: J3-C/O/R | Repair | Continue, Obtain | Empty | Return the failed combined condition to its engineering owner; retain the independently available repair exercise. Recheck c only from a changed arrangement or applicable evidence. |
+
+A new currentness fact normally changes only the affected judgement and set. Changing a selected constituent, obtaining relation, constraint or selection-use frame reidentifies G; changing a locus binding or potential-continuation row reopens CGUS membership. If a case contains conflicting applicability statements, stop that judgement as Error and obtain a corrected case basis.
+
+This whole-structure description exposes all three potential continuations and their current results. It does not describe the eight Methods' internal algorithms, a B.1.5 Method whole, dated Work, learning effectiveness, human motor learning or a transformation-flow network. Those omissions preserve the narrower availability question; they would be insufficient for a claim about performed or authorized work.
+
+
+<a id="agent-contribution-demonstration"></a>
+
+### A changed source changes the available continuation
+
+This separate demonstrative episteme teaches one contrast about **G**, the exact structure identified in [Available continuations when an agent has a usable procedure](#agent-contribution-conditions). Under [C.2.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c21---uepisteme-constitution-empirical-grounding-and-edition-relations), its identity is the following claim content, that G as EntityOfConcern, and the effective reference scheme stated here. The page and this displayed sequence carry the claims; neither is G.
+
+**Claim content.** In W0, J0-C enables Continue while J0-O and J0-R disable Obtain and Repair. In W1, the changed source defeats the possessed procedure's applicability, so J1-C disables Continue. The supplied reachability, permission, usefulness and interval conditions let J1-O enable Obtain; J1-R still disables Repair. G's constituent set, selected relations, applied constraints and use frame are unchanged.
+
+**Reference scheme.** T, K, N, Q, R, Continue and Obtain resolve to their exact local bindings in the structure description; Repair remains the third candidate there. rKT, rNT, rQN and rRK retain the defined descriptive predicates and ordered participants. C, O and R-test resolve to the constraint table. W0/W1 and J0/J1 resolve to the stipulated case inputs, affirmative-polarity evaluations and judgement rule in that same description. S, N and ? are the stated satisfied, not-satisfied and unknown values. These references make the claims inspectable about G without implying observations of a deployed agent.
+
+| Read the same structure under two case inputs | What changes | What remains |
+| --- | --- | --- |
+| **Initial W0:** the possessed procedure applies and the other execution conditions are supplied. | Continue is enabled; there is no missing applicability contribution to obtain. | Q still seeks N, R still targets K, and both remain potential continuations under their constraints. |
+| **Changed edition W1:** the old applicability premise is defeated; Q is reachable, permitted, useful and timely. | Continue becomes disabled and Obtain enabled. The reason is the changed case evidence, not a new controller or structure. | The required task, descriptive relations and constraints retain their meanings. |
+
+The displayed comparison is not an instruction to execute Continue and then Obtain. It compares availability under two supplied conditions. A successful acquisition would supply a new case fact; only a new judgement could enable Continue, and the actual target action would still need its own execution and observation.
+
+The [full description](#agent-contribution-conditions) also exposes W2 and W3, omitted from the foreground table. In W2, applicability is unknown and acquisition is blocked, but a qualified fixed-model repair remains available. In W3, individually available acts fail their combined resource/timing condition while the repair exercise remains available. Those branches prevent the two-row teaching slice from implying that obtaining information always resolves a failure.
+
+Try the contrast by changing only one premise. If W1's permission becomes unknown while its other Obtain conditions stay satisfied, Obtain becomes Unknown; if permission is defeated, it becomes Disabled. The relation Q seeks N still obtains. If instead R no longer targets K, the selected descriptive relation and G's identity basis change; this is not merely a new source-currentness fact.
+
+This slice omits the eight Methods' internal operations, a B.1.5 Method whole, dated Work, training effectiveness, human motor learning and a transformation-flow network. Its declared use is to teach the stated potential-versus-current-availability contrast. The body of Case B supplies the separate human mechanisms; it is not another run of K.
 
 
 ## Combine results and handle a missing input
