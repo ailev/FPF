@@ -38,13 +38,15 @@ For use with an agent, follow [Using FPF](../USING-FPF.md). Copy this whole fold
 
 This is the public constitution and membership account for the Foundational Thinking DPF Suite. The following product series belong to it as of the date above.
 
+Each size covers the full linked Markdown file, including spaces and markup. 1 M = 1,000,000 Unicode characters; each line break counts as one.
+
 | Product series | Publication status | Useful contribution |
 | --- | --- | --- |
-| [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | Published - 20 patterns | Construct objects, operations and arguments; derive and use consequences. |
-| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 14 patterns | Formulate questions, infer unknowns, construct causal comparisons, choose useful observations, construct continuing decisions, and change or combine models while retaining the needed answer. |
-| [Physical Thinking DPF](PHYSICAL-THINKING-DPF.md) | Published - 10 patterns | Construct physical accounts, derive their consequences, build observations and revise physical assumptions. |
-| [Computational Thinking DPF](COMPUTATIONAL-THINKING-DPF.md) | Published - 14 patterns | Construct and transform algorithms; connect their meaning, representations, resource requirements and interactions. |
-| [Notational Engineering DPF](NOTATIONAL-ENGINEERING-DPF.md) | Published - 8 patterns | Design, interpret, transform and coordinate expressions, including temporal and embodied notation. |
+| [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | Published - 20 patterns, 0.477 M characters | Construct objects, operations and arguments; derive and use consequences. |
+| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 14 patterns, 0.473 M characters | Formulate questions, infer unknowns, construct causal comparisons, choose useful observations, construct continuing decisions, and change or combine models while retaining the needed answer. |
+| [Physical Thinking DPF](PHYSICAL-THINKING-DPF.md) | Published - 10 patterns, 0.303 M characters | Construct physical accounts, derive their consequences, build observations and revise physical assumptions. |
+| [Computational Thinking DPF](COMPUTATIONAL-THINKING-DPF.md) | Published - 14 patterns, 0.324 M characters | Construct and transform algorithms; connect their meaning, representations, resource requirements and interactions. |
+| [Notational Engineering DPF](NOTATIONAL-ENGINEERING-DPF.md) | Published - 8 patterns, 0.219 M characters | Design, interpret, transform and coordinate expressions, including temporal and embodied notation. |
 | [Foundational Thinking DPF Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) | Published | Choose and connect available contributions, understand their organization and locate a missing contribution. |
 
 Computational Thinking develops algorithmics within computer science; numerical computation is one of its applications. Notational Engineering develops the expression conventions that make operations interpretable and usable. Current editions and this Reference are published together in this Suite folder.

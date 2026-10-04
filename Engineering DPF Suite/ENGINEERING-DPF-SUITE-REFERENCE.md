@@ -13,77 +13,190 @@ Use this Reference while working on a problem. The question index points to a pa
 
 If you are new to the Suite, the [README](README.md) explains what a DPF is, what is available, and how to begin with colleagues or an AI assistant. Here, open the nearest question, then read the relevant pattern's Problem frame, Solution and example. The pattern's full conditions apply to your case.
 
+Section addresses use `Engineering.Reference:n` and nested numbers. They identify sections of this Reference, not patterns. The contents links follow the heading hierarchy; a complete section includes its child sections up to the next heading of the same or a higher level. Earlier heading links remain available.
+
 ## Contents
 
-| Section | Questions and search terms |
-| --- | --- |
-| [Find a starting pattern](#find-a-starting-pattern) | System or method? Architecture, alternatives, evidence, organizational change, development advice, music and dance. What useful result should I obtain first? |
-| [Begin before anyone asks for help](#begin-before-anyone-asks-for-help) | Ordinary work, successful adaptations, an unformulated objection, early cues, useful questions and attainable continuations. |
-| [An on-time handover takes repeated reconstruction](#why-examine-a-handover-that-arrives-on-time) | Receiving use, naming conventions, provisional diagnosis, an available subject answer, support and a justified stop. |
-| [Choose a strategic direction and commitment](#choose-a-strategic-direction-and-bounded-commitment) | Changed premises, uncertainty, directions, option families, worthwhile experiments, capability, robustness, authority, signals, simultaneous work and strategic practice. |
-| [Organise search alongside current service](#how-can-a-team-organise-search-while-keeping-current-service-workable) | Complete arrangements, shared scarce support, commercial and technical answers, trial conditions and receiving work. |
-| [Resolve a software-platform difficulty](#resolve-a-software-platform-difficulty) | User-task measurement, reliability objectives, alerts, release exposure, recovery, repetitive work and the first missing input. |
-| [Connect separately governed meanings](#connect-separately-governed-meanings-and-representations) | Semantic integration, model reuse or construction, source editions, correspondence, identity, provenance, transformation, interface, validation, semantic change and modular commons. |
-| [Improve a method or an organization](#improve-a-method-or-an-organization) | Method requirements, repertoire, source recovery and reconciliation, description comparison, PLUS-ME, pattern-language production and refresh, organizational change. |
-| [Select and use checklists](#select-and-use-checklists-without-losing-the-work-question) | Consequential omissions, question meaning, truthful answers, shared results, changed premises and checker qualification. |
-| [Work with rhythmic relations](#work-with-rhythmic-relations-in-performance-and-learning) | Continuing movement and articulation; timing; syllables and scores; variants; cues and layers; practice, transfer and observation. |
-| [Model and change bodily movement](#model-and-change-the-bodily-contribution-to-movement) | Experience and observation, bodily distinctions, effort, coordination, changing support and concurrent action. |
-| [Develop a practice or a person's capability](#develop-a-practice-or-a-persons-capability) | Music and dance development; human-capability demand, target, profile, programme, practice, support, assessment, transfer, retention, revision, continuing development, repertoire and culture. |
-| [Evaluate instructional material](#evaluate-instructional-material-for-its-intended-use) | Worksheets, explanations, learning routes, evaluation specifications, reader tasks, assistance and material repair. |
-| [Make an explanation understandable and usable](#make-an-explanation-understandable-and-usable) | Explanatory questions and grounds, examples, text and diagrams, dialogue, learner explanations and worthwhile repair. |
-| [Keep an operation working](#keep-an-operation-working) | Operating subjects, admission, cases, priority, queues, buffers, constraints, capacity, human conditions, service commitments, accounts, quality, simultaneous work and culture. |
-| [Explain resource use, costs and operating accounts](#explain-resource-use-costs-and-operating-accounts) | Resource demand, capacity, shared costs, profit and cash, forecasts, targets, margin differences, customer economics and accounting incentives. |
-| [Model financial positions and effects](#model-financial-positions-and-effects) | Parties and groups, rights and duties, contractual events, conditional flows, actual effects and financial-service use. |
-| [Value investments, arrange finance and manage liquidity](#value-investments-arrange-finance-and-manage-liquidity) | Cash and working capital, cost of capital, investments, valuation, options, financing, covenants, payouts, restructuring, exposure, treasury action and financial advice. |
-| [Coordinate economic plans, exchanges and shared resources](#coordinate-economic-plans-exchanges-and-shared-resources) | Calculation, price response, discovery, commitments, private information, dependence, shared resources, local and wider orders, institutional change and rebound. |
-| [Model dependence, spread and protective action](#model-dependence-spread-and-protective-action) | Continuation and usefulness, exposure and uptake, reconstruction, interacting variants, selection, diversion, protective targets and response feedback. |
-| [Continue and change a shared practice](#continue-and-change-a-shared-practice) | Acquisition, reconstruction, onward transmission, support, method development and a warranted no-change result. |
-| [Build a useful cultural or community contribution](#build-a-useful-cultural-or-community-contribution) | Useful offer, first exchange, voluntary participation, organising, rules, provision, value, continuation, shared decisions, repertoire and collective voice. |
-| [Make corporate decisions and sustain governing contributions](#make-corporate-decisions-and-sustain-governing-contributions) | Rights, powers, governing roles, committees, conflicts, information, control, assurance, corporate acts, minority protection, accountability and governance practice. |
-| [Fulfil an administrative request](#fulfil-an-administrative-request-and-improve-its-handling) | Participants, permissions, effective dates, provision, exceptions, obligations, records, controls, provider contributions and administrative burden. |
-| [Maintain equipment and manage maintenance](#maintain-equipment-and-manage-maintenance) | Maintenance policy, failure and condition, diagnosis, spares, outage, protection, work, restored functioning, hand-back, history, fleet, Methods, simultaneous work and culture. |
-| [Choose how to use and change engineered assets](#choose-how-to-use-and-change-engineered-assets) | One asset, asset systems, portfolio, continued use, renewal, replacement, service, whole cost, risk, shared constraints, timing, realized outcomes and asset-management practice. |
-| [Qualify a research question or design](#qualify-a-research-question-or-choose-a-design) | Research boundary, supplied-source stop, criticism-bearing design, evidence-sufficient stop, exact design hold. |
-| [Make research executable and inspect its course](#make-research-executable-and-inspect-its-course) | Operationalization, protocol, observation and source choices, research trace, inherited records, reconstruction, loss and access. |
-| [Analyze a claim or examine its credibility](#analyze-a-claim-or-examine-its-credibility) | Supported claims, consequential criticism, adequate supplied analysis, credibility threats, relevant examinations and qualified answers. |
-| [Retain or improve a research Method](#retain-or-improve-a-research-method) | Method, description or implementation difficulty; supported retention or correction; worthwhile evidence; effects on research results. |
-| [Prepare a service trial or continue with devices?](#should-sensorco-prepare-a-service-trial-or-continue-with-devices) | Viable continuation, four preparation days, enough evidence, data permission, protected reserve, fallback and qualified shared capacity. |
-| [Buy, commission or build greenhouse control?](#how-should-we-obtain-climate-control-for-a-greenhouse) | Make or buy, AI assistance, integration, operating support, supplier access, fallback, real procurement evidence. |
-| [Develop people, obtain expertise or change the arrangement?](#what-should-a-small-engineering-team-develop-obtain-or-delegate) | Recruitment, training, providers, human and AI work, platforms, assignments, organizational choice. |
-| [Connect contributions, concerns and consequences across a whole project](#connect-contributions-concerns-and-consequences-across-a-whole-project) | Professional roles and actual contributions, local and whole results, independent acceptance, shared laboratory, organization change, capability, authority, provision and affected people. |
-| [Set a target and judge a miss after conditions change](#how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) | Meaningful aims, comparison, honest forecasts, usable resources, dated funding, changed work, joint results and effective assessment consequences. |
-| [When simpler administration leaves less engineering time](#how-can-simpler-administration-leave-less-time-for-engineering) | Shifted burden, professional remedies, complete provision, capacity, introduction work, financial consequences and revision. |
-| [Share staff without losing existing commitments?](#how-can-two-archive-services-share-staff-without-losing-their-commitments) | Ready work, queues and buffers, shared staff, usable hours, variable load, constraint diagnosis, coordinated decisions. |
-| [Recommend a repair before it is ready?](#can-we-recommend-a-repair-before-it-is-ready-to-begin) | Sufficient advice, spare applicability, operating capacity, whole outage, selected intervention, functioning and return to use. |
-| [Recommend a development direction](#how-do-we-recommend-a-development-direction) | Advising, opportunities, comparison, uncertainty, exploration, programme choice, personal aims alongside continuing work, human and organizational development. |
-| [Scale a dance event after a successful showcase?](#should-we-scale-a-partner-dance-event-after-one-successful-showcase) | Rehearsal, unfamiliar partners, transfer, performance conditions, teaching method, support environment. |
-| [What does this engineer need to develop?](#what-does-an-engineer-need-to-develop-for-future-release-work) | Future work, representative observations, critical errors, capability, misleading training diagnoses, balanced development. |
-| [Connect AP242 and QIF for one configuration-bound inspection question](#how-can-ap242-and-qif-answer-one-configuration-bound-inspection-question) | Semantic integration, source editions, correspondence, identity, provenance, transformation, interface, validation. |
-| [Keep constituent contributions available in the whole action](#what-must-be-available-through-the-method-vertical) | Simultaneous enactment, constituent abilities, shared resources, external support and limits of a local test. |
-| [Connect movement learning and its teaching](#when-does-learning-a-movement-also-require-developing-its-teaching) | Bodily contribution, practice, available help, learning to teach, related development projects and concurrent enactment. |
-| [Move attention while continuing the whole action](#how-can-attention-move-while-the-whole-action-continues) | Timely observation, concurrent methods, missed events, bodily coordination, teacher support and independent use. |
-| [Can protective review work with our capacity?](#can-protective-review-work-with-the-capacity-we-have) | Expected errors, interception, usable review time, other commitments and a feasible combined response. |
-| [Learn to recover and change a way of working](#learn-to-recover-and-change-a-way-of-working) | Records, candidate explanations, a first attempt, self-checking, individual feedback, construction and changed conditions. |
-| [Share a method and retain the means to develop it?](#how-can-we-share-a-method-without-losing-the-means-to-develop-it) | An AI-assisted practice, different receiving capabilities, limited specialist time, explanation, teacher feedback, continued development and changed selection conditions. |
-| [Obtain an aesthetic distinction](#obtain-a-distinction-that-explains-recognizable-character) | Style, resemblance, controlled transformations, competing relations, perceptual availability and limits of separation. |
-| [Construct form for its intended use](#construct-an-expressive-variant-for-the-intended-use) | Industrial design, narrative stylistics, research stimuli, bodily and temporal expression, function, response and further use. |
-| [Make an available contribution work in the whole task](#make-an-available-contribution-work-in-the-whole-task) | Choose and perform a complete way now; distinguish support benefit from selection; compare recurring repairs, prediction, reusable tools, informative experience and human capability development. |
-| [Available continuations for the agent](#agent-contribution-conditions) | Formal conditional-structure description: constituents, obtaining descriptive relations, constraints, case facts and separate availability judgements. |
-| [A changed source changes the continuation](#agent-contribution-demonstration) | A separate demonstrative episteme compares initial and changed-edition availability while keeping the selected structure fixed. |
-| [Explore a situation through goals and dependencies](#explore-a-situation-through-goals-and-dependencies) | Build and question an actors-and-goals model; choose a view; interpret qualitative results; discover conflicting assignments; revise the model and the work. |
-| [They understand or agree; why does the needed work still not follow?](#they-understand-or-agree-why-does-the-needed-work-still-not-follow) | Examine reasons, conditions and the basis of a disputed requirement; prepare an organizational decision with relevant advisers, and connect an agreed start to a useful first handover; revise or decline an inadequate proposal. |
-| [Interpret a source and revise what follows](#interpret-a-source-and-revise-what-follows) | Hermeneutics, interpretation, герменевтика, интерпретация; local meaning, changed evidence or question, revised conclusions, source history and sufficient reading. |
-| [Compose independently maintained corpora](#how-can-independently-maintained-corpora-supply-one-usable-working-environment) | Release selection, shared definitions, local amendments, complete reading, adapters, independent change and consumer adoption. |
-| [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
-| [Citation](#citation) | Cite this Reference or a particular pattern application. |
+- [Engineering.Reference:1 - Find a starting pattern](#engineeringreference1---find-a-starting-pattern) — System or method? Architecture, alternatives, evidence, organizational change, development advice, music and dance. What useful result should I obtain first?
+  - [Engineering.Reference:1.1 - Begin before anyone asks for help](#engineeringreference11---begin-before-anyone-asks-for-help) — Ordinary work, successful adaptations, an unformulated objection, early cues, useful questions and attainable continuations.
+  - [Engineering.Reference:1.2 - Understand a problem and prepare a recommendation](#engineeringreference12---understand-a-problem-and-prepare-a-recommendation)
+  - [Engineering.Reference:1.3 - Choose a strategic direction and bounded commitment](#engineeringreference13---choose-a-strategic-direction-and-bounded-commitment) — Changed premises, uncertainty, directions, option families, worthwhile experiments, capability, robustness, authority, signals, simultaneous work and strategic practice.
+  - [Engineering.Reference:1.4 - Engineer a system or a platform](#engineeringreference14---engineer-a-system-or-a-platform)
+  - [Engineering.Reference:1.5 - Resolve a software-platform difficulty](#engineeringreference15---resolve-a-software-platform-difficulty) — User-task measurement, reliability objectives, alerts, release exposure, recovery, repetitive work and the first missing input.
+  - [Engineering.Reference:1.6 - Connect separately governed meanings and representations](#engineeringreference16---connect-separately-governed-meanings-and-representations) — Semantic integration, model reuse or construction, source editions, correspondence, identity, provenance, transformation, interface, validation, semantic change and modular commons.
+  - [Engineering.Reference:1.7 - Improve a method or an organization](#engineeringreference17---improve-a-method-or-an-organization) — Method requirements, repertoire, source recovery and reconciliation, description comparison, PLUS-ME, pattern-language production and refresh, organizational change.
+  - [Engineering.Reference:1.8 - Select and use checklists without losing the work question](#engineeringreference18---select-and-use-checklists-without-losing-the-work-question) — Consequential omissions, question meaning, truthful answers, shared results, changed premises and checker qualification.
+  - [Engineering.Reference:1.9 - Obtain and use an aesthetic distinction](#engineeringreference19---obtain-and-use-an-aesthetic-distinction)
+  - [Engineering.Reference:1.10 - Work with rhythmic relations in performance and learning](#engineeringreference110---work-with-rhythmic-relations-in-performance-and-learning) — Continuing movement and articulation; timing; syllables and scores; variants; cues and layers; practice, transfer and observation.
+  - [Engineering.Reference:1.11 - Model and change the bodily contribution to movement](#engineeringreference111---model-and-change-the-bodily-contribution-to-movement) — Experience and observation, bodily distinctions, effort, coordination, changing support and concurrent action.
+  - [Engineering.Reference:1.12 - Develop a practice or a person's capability](#engineeringreference112---develop-a-practice-or-a-persons-capability) — Music and dance development; human-capability demand, target, profile, programme, practice, support, assessment, transfer, retention, revision, continuing development, repertoire and culture.
+  - [Engineering.Reference:1.13 - Evaluate instructional material for its intended use](#engineeringreference113---evaluate-instructional-material-for-its-intended-use) — Worksheets, explanations, learning routes, evaluation specifications, reader tasks, assistance and material repair.
+  - [Engineering.Reference:1.14 - Make an explanation understandable and usable](#engineeringreference114---make-an-explanation-understandable-and-usable) — Explanatory questions and grounds, examples, text and diagrams, dialogue, learner explanations and worthwhile repair.
+  - [Engineering.Reference:1.15 - Keep an operation working](#engineeringreference115---keep-an-operation-working) — Operating subjects, admission, cases, priority, queues, buffers, constraints, capacity, human conditions, service commitments, accounts, quality, simultaneous work and culture.
+  - [Engineering.Reference:1.16 - Explain resource use, costs and operating accounts](#engineeringreference116---explain-resource-use-costs-and-operating-accounts) — Resource demand, capacity, shared costs, profit and cash, forecasts, targets, margin differences, customer economics and accounting incentives.
+  - [Engineering.Reference:1.17 - Model financial positions and effects](#engineeringreference117---model-financial-positions-and-effects) — Parties and groups, rights and duties, contractual events, conditional flows, actual effects and financial-service use.
+  - [Engineering.Reference:1.18 - Value investments, arrange finance and manage liquidity](#engineeringreference118---value-investments-arrange-finance-and-manage-liquidity) — Cash and working capital, cost of capital, investments, valuation, options, financing, covenants, payouts, restructuring, exposure, treasury action and financial advice.
+  - [Engineering.Reference:1.19 - Coordinate economic plans, exchanges and shared resources](#engineeringreference119---coordinate-economic-plans-exchanges-and-shared-resources) — Calculation, price response, discovery, commitments, private information, dependence, shared resources, local and wider orders, institutional change and rebound.
+  - [Engineering.Reference:1.20 - Model dependence, spread and protective action](#engineeringreference120---model-dependence-spread-and-protective-action) — Continuation and usefulness, exposure and uptake, reconstruction, interacting variants, selection, diversion, protective targets and response feedback.
+  - [Engineering.Reference:1.21 - Continue and change a shared practice](#engineeringreference121---continue-and-change-a-shared-practice) — Acquisition, reconstruction, onward transmission, support, method development and a warranted no-change result.
+  - [Engineering.Reference:1.22 - Build a useful cultural or community contribution](#engineeringreference122---build-a-useful-cultural-or-community-contribution) — Useful offer, first exchange, voluntary participation, organising, rules, provision, value, continuation, shared decisions, repertoire and collective voice.
+  - [Engineering.Reference:1.23 - Make corporate decisions and sustain governing contributions](#engineeringreference123---make-corporate-decisions-and-sustain-governing-contributions) — Rights, powers, governing roles, committees, conflicts, information, control, assurance, corporate acts, minority protection, accountability and governance practice.
+  - [Engineering.Reference:1.24 - Fulfil an administrative request and improve its handling](#engineeringreference124---fulfil-an-administrative-request-and-improve-its-handling) — Participants, permissions, effective dates, provision, exceptions, obligations, records, controls, provider contributions and administrative burden.
+  - [Engineering.Reference:1.25 - Maintain equipment and manage maintenance](#engineeringreference125---maintain-equipment-and-manage-maintenance) — Maintenance policy, failure and condition, diagnosis, spares, outage, protection, work, restored functioning, hand-back, history, fleet, Methods, simultaneous work and culture.
+  - [Engineering.Reference:1.26 - Choose how to use and change engineered assets](#engineeringreference126---choose-how-to-use-and-change-engineered-assets) — One asset, asset systems, portfolio, continued use, renewal, replacement, service, whole cost, risk, shared constraints, timing, realized outcomes and asset-management practice.
+  - [Engineering.Reference:1.27 - Qualify a research question or choose a design](#engineeringreference127---qualify-a-research-question-or-choose-a-design) — Research boundary, supplied-source stop, criticism-bearing design, evidence-sufficient stop, exact design hold.
+  - [Engineering.Reference:1.28 - Make research executable and inspect its course](#engineeringreference128---make-research-executable-and-inspect-its-course) — Operationalization, protocol, observation and source choices, research trace, inherited records, reconstruction, loss and access.
+  - [Engineering.Reference:1.29 - Analyze a claim or examine its credibility](#engineeringreference129---analyze-a-claim-or-examine-its-credibility) — Supported claims, consequential criticism, adequate supplied analysis, credibility threats, relevant examinations and qualified answers.
+  - [Engineering.Reference:1.30 - Retain or improve a research Method](#engineeringreference130---retain-or-improve-a-research-method) — Method, description or implementation difficulty; supported retention or correction; worthwhile evidence; effects on research results.
+- [Engineering.Reference:2 - Why examine a handover that arrives on time?](#engineeringreference2---why-examine-a-handover-that-arrives-on-time) — An on-time handover takes repeated reconstruction. Receiving use, naming conventions, provisional diagnosis, an available subject answer, support and a justified stop.
+- [Engineering.Reference:3 - Should SensorCo prepare a service trial or continue with devices?](#engineeringreference3---should-sensorco-prepare-a-service-trial-or-continue-with-devices) — Viable continuation, four preparation days, enough evidence, data permission, protected reserve, fallback and qualified shared capacity.
+- [Engineering.Reference:4 - How should we obtain climate control for a greenhouse?](#engineeringreference4---how-should-we-obtain-climate-control-for-a-greenhouse) — Buy, commission or build greenhouse control? Make or buy, AI assistance, integration, operating support, supplier access, fallback, real procurement evidence.
+- [Engineering.Reference:5 - What should a small engineering team develop, obtain, or delegate?](#engineeringreference5---what-should-a-small-engineering-team-develop-obtain-or-delegate) — Develop people, obtain expertise or change the arrangement? Recruitment, training, providers, human and AI work, platforms, assignments, organizational choice.
+- [Engineering.Reference:6 - Connect contributions, concerns and consequences across a whole project](#engineeringreference6---connect-contributions-concerns-and-consequences-across-a-whole-project) — Professional roles and actual contributions, local and whole results, independent acceptance, shared laboratory, organization change, capability, authority, provision and affected people.
+  - [Engineering.Reference:6.1 - Recover the needed contribution from the whole result](#engineeringreference61---recover-the-needed-contribution-from-the-whole-result)
+  - [Engineering.Reference:6.2 - Resolve the conflict at the relation that failed](#engineeringreference62---resolve-the-conflict-at-the-relation-that-failed)
+  - [Engineering.Reference:6.3 - Carry the reasoning into a project that changes the organization](#engineeringreference63---carry-the-reasoning-into-a-project-that-changes-the-organization)
+  - [Engineering.Reference:6.4 - Establish and exercise the arrangement](#engineeringreference64---establish-and-exercise-the-arrangement)
+  - [Engineering.Reference:6.5 - Reconsider the affected choice when conditions change](#engineeringreference65---reconsider-the-affected-choice-when-conditions-change)
+- [Engineering.Reference:7 - How should we set a target and judge a miss after conditions change?](#engineeringreference7---how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) — Meaningful aims, comparison, honest forecasts, usable resources, dated funding, changed work, joint results and effective assessment consequences.
+  - [Engineering.Reference:7.1 - Construct the ambition from the receiving work](#engineeringreference71---construct-the-ambition-from-the-receiving-work)
+  - [Engineering.Reference:7.2 - Join the ambition to provision and dated money](#engineeringreference72---join-the-ambition-to-provision-and-dated-money)
+  - [Engineering.Reference:7.3 - Respond when the work changes and the new outlook is unwelcome](#engineeringreference73---respond-when-the-work-changes-and-the-new-outlook-is-unwelcome)
+  - [Engineering.Reference:7.4 - Interpret the miss without losing accountability or the joint result](#engineeringreference74---interpret-the-miss-without-losing-accountability-or-the-joint-result)
+- [Engineering.Reference:8 - How can simpler administration leave less time for engineering?](#engineeringreference8---how-can-simpler-administration-leave-less-time-for-engineering) — Shifted burden, professional remedies, complete provision, capacity, introduction work, financial consequences and revision.
+  - [Engineering.Reference:8.1 - Recover the work hidden by the service request](#engineeringreference81---recover-the-work-hidden-by-the-service-request)
+  - [Engineering.Reference:8.2 - Compare the support and engineering work together](#engineeringreference82---compare-the-support-and-engineering-work-together)
+  - [Engineering.Reference:8.3 - Follow released capacity to money and its receiving use](#engineeringreference83---follow-released-capacity-to-money-and-its-receiving-use)
+  - [Engineering.Reference:8.4 - Establish provision and revise the contribution that fails](#engineeringreference84---establish-provision-and-revise-the-contribution-that-fails)
+- [Engineering.Reference:9 - How can two archive services share staff without losing their commitments?](#engineeringreference9---how-can-two-archive-services-share-staff-without-losing-their-commitments) — Ready work, queues and buffers, shared staff, usable hours, variable load, constraint diagnosis, coordinated decisions.
+- [Engineering.Reference:10 - Can we recommend a repair before it is ready to begin?](#engineeringreference10---can-we-recommend-a-repair-before-it-is-ready-to-begin) — Sufficient advice, spare applicability, operating capacity, whole outage, selected intervention, functioning and return to use.
+- [Engineering.Reference:11 - How do we recommend a development direction?](#engineeringreference11---how-do-we-recommend-a-development-direction) — Advising, opportunities, comparison, uncertainty, exploration, programme choice, personal aims alongside continuing work, human and organizational development.
+  - [Engineering.Reference:11.1 - Pursue a personal development aim while shared work continues](#engineeringreference111---pursue-a-personal-development-aim-while-shared-work-continues)
+  - [Engineering.Reference:11.2 - Recommend a programme before the learners are known](#engineeringreference112---recommend-a-programme-before-the-learners-are-known)
+- [Engineering.Reference:12 - Should we scale a partner dance event after one successful showcase?](#engineeringreference12---should-we-scale-a-partner-dance-event-after-one-successful-showcase) — Rehearsal, unfamiliar partners, transfer, performance conditions, teaching method, support environment.
+- [Engineering.Reference:13 - What does an engineer need to develop for future release work?](#engineeringreference13---what-does-an-engineer-need-to-develop-for-future-release-work) — Future work, representative observations, critical errors, capability, misleading training diagnoses, balanced development.
+- [Engineering.Reference:14 - How can AP242 and QIF answer one configuration-bound inspection question?](#engineeringreference14---how-can-ap242-and-qif-answer-one-configuration-bound-inspection-question) — Semantic integration, source editions, correspondence, identity, provenance, transformation, interface, validation.
+- [Engineering.Reference:15 - Can protective review work with the capacity we have?](#engineeringreference15---can-protective-review-work-with-the-capacity-we-have) — Expected errors, interception, usable review time, other commitments and a feasible combined response.
+- [Engineering.Reference:16 - Learn to recover and change a way of working](#engineeringreference16---learn-to-recover-and-change-a-way-of-working) — Records, candidate explanations, a first attempt, self-checking, individual feedback, construction and changed conditions.
+  - [Engineering.Reference:16.1 - Start with what happened](#engineeringreference161---start-with-what-happened)
+  - [Engineering.Reference:16.2 - Build a rule for the receiving team](#engineeringreference162---build-a-rule-for-the-receiving-team)
+  - [Engineering.Reference:16.3 - Change a condition that matters](#engineeringreference163---change-a-condition-that-matters)
+  - [Engineering.Reference:16.4 - Try the reasoning on editorial work](#engineeringreference164---try-the-reasoning-on-editorial-work)
+  - [Engineering.Reference:16.5 - Return to work you know](#engineeringreference165---return-to-work-you-know)
+  - [Engineering.Reference:16.6 - Arrange useful feedback](#engineeringreference166---arrange-useful-feedback)
+  - [Engineering.Reference:16.7 - Sources and further practice](#engineeringreference167---sources-and-further-practice)
+- [Engineering.Reference:17 - How can we share a method without losing the means to develop it?](#engineeringreference17---how-can-we-share-a-method-without-losing-the-means-to-develop-it) — An AI-assisted practice, different receiving capabilities, limited specialist time, explanation, teacher feedback, continued development and changed selection conditions.
+  - [Engineering.Reference:17.1 - Obtain an explanation and another teacher's contribution](#engineeringreference171---obtain-an-explanation-and-another-teachers-contribution)
+  - [Engineering.Reference:17.2 - When the conditions change](#engineeringreference172---when-the-conditions-change)
+- [Engineering.Reference:18 - How can aesthetic form contribute to the work we need?](#engineeringreference18---how-can-aesthetic-form-contribute-to-the-work-we-need)
+  - [Engineering.Reference:18.1 - Obtain a distinction that explains recognizable character](#engineeringreference181---obtain-a-distinction-that-explains-recognizable-character) — Obtain an aesthetic distinction. Style, resemblance, controlled transformations, competing relations, perceptual availability and limits of separation.
+  - [Engineering.Reference:18.2 - Construct an expressive variant for the intended use](#engineeringreference182---construct-an-expressive-variant-for-the-intended-use) — Construct form for its intended use. Industrial design, narrative stylistics, research stimuli, bodily and temporal expression, function, response and further use.
+  - [Engineering.Reference:18.3 - Industrial design: a recognizable handle that still admits the hand](#engineeringreference183---industrial-design-a-recognizable-handle-that-still-admits-the-hand)
+  - [Engineering.Reference:18.4 - Narrative style: transfer the relation and expose an impossible separation](#engineeringreference184---narrative-style-transfer-the-relation-and-expose-an-impossible-separation)
+  - [Engineering.Reference:18.5 - Expressive material as a discriminating research presentation](#engineeringreference185---expressive-material-as-a-discriminating-research-presentation)
+  - [Engineering.Reference:18.6 - Bodily and temporal distinctions in expressive action](#engineeringreference186---bodily-and-temporal-distinctions-in-expressive-action)
+  - [Engineering.Reference:18.7 - When the needed expression requires new means](#engineeringreference187---when-the-needed-expression-requires-new-means)
+  - [Engineering.Reference:18.8 - Keep scale, purpose and the supported conclusion explicit](#engineeringreference188---keep-scale-purpose-and-the-supported-conclusion-explicit)
+- [Engineering.Reference:19 - Make an available contribution work in the whole task](#engineeringreference19---make-an-available-contribution-work-in-the-whole-task) — Choose and perform a complete way now; distinguish support benefit from selection; compare recurring repairs, prediction, reusable tools, informative experience and human capability development.
+  - [Engineering.Reference:19.1 - A reminder for returning to the whole task](#engineeringreference191---a-reminder-for-returning-to-the-whole-task)
+  - [Engineering.Reference:19.2 - Expand the question that matters now](#engineeringreference192---expand-the-question-that-matters-now)
+  - [Engineering.Reference:19.3 - Choose and perform a way to complete the current task](#engineeringreference193---choose-and-perform-a-way-to-complete-the-current-task)
+  - [Engineering.Reference:19.4 - A reminder for the current continuation](#engineeringreference194---a-reminder-for-the-current-continuation)
+  - [Engineering.Reference:19.5 - Case A: an agent must obtain an actual engineering result](#engineeringreference195---case-a-an-agent-must-obtain-an-actual-engineering-result)
+  - [Engineering.Reference:19.6 - Understand a collaborator before choosing the next contribution](#engineeringreference196---understand-a-collaborator-before-choosing-the-next-contribution)
+    - [Engineering.Reference:19.6.1 - Construct alternatives from the contribution that is at risk](#engineeringreference1961---construct-alternatives-from-the-contribution-that-is-at-risk)
+    - [Engineering.Reference:19.6.2 - Choose an observation by the work it can change](#engineeringreference1962---choose-an-observation-by-the-work-it-can-change)
+    - [Engineering.Reference:19.6.3 - Revise the account and perform the changed continuation](#engineeringreference1963---revise-the-account-and-perform-the-changed-continuation)
+    - [Engineering.Reference:19.6.4 - Adapt the observation to the participant and the claim](#engineeringreference1964---adapt-the-observation-to-the-participant-and-the-claim)
+  - [Engineering.Reference:19.7 - Develop the arrangement across attempts](#engineeringreference197---develop-the-arrangement-across-attempts)
+    - [Engineering.Reference:19.7.1 - A reminder for development across attempts](#engineeringreference1971---a-reminder-for-development-across-attempts)
+    - [Engineering.Reference:19.7.2 - A1. Consume the returned premise while the model stays fixed](#engineeringreference1972---a1-consume-the-returned-premise-while-the-model-stays-fixed)
+    - [Engineering.Reference:19.7.3 - A2. Let delayed consequences change the next choice](#engineeringreference1973---a2-let-delayed-consequences-change-the-next-choice)
+    - [Engineering.Reference:19.7.4 - A3. Construct informative experience before changing the controller](#engineeringreference1974---a3-construct-informative-experience-before-changing-the-controller)
+  - [Engineering.Reference:19.8 - Case B: a timely cue must enter a coordinated bodily action](#engineeringreference198---case-b-a-timely-cue-must-enter-a-coordinated-bodily-action)
+  - [Engineering.Reference:19.9 - Case C: make a repeated calculation obtainable and adaptable](#engineeringreference199---case-c-make-a-repeated-calculation-obtainable-and-adaptable)
+  - [Engineering.Reference:19.10 - Available continuations when an agent has a usable procedure](#engineeringreference1910---available-continuations-when-an-agent-has-a-usable-procedure) — Formal conditional-structure description: constituents, obtaining descriptive relations, constraints, case facts and separate availability judgements.
+    - [Engineering.Reference:19.10.1 - Constituents and local loci](#engineeringreference19101---constituents-and-local-loci)
+    - [Engineering.Reference:19.10.2 - Obtaining relations selected by G](#engineeringreference19102---obtaining-relations-selected-by-g)
+    - [Engineering.Reference:19.10.3 - Constraints and potential continuations](#engineeringreference19103---constraints-and-potential-continuations)
+    - [Engineering.Reference:19.10.4 - Case inputs and their scope](#engineeringreference19104---case-inputs-and-their-scope)
+    - [Engineering.Reference:19.10.5 - Separate judgements and derived current sets](#engineeringreference19105---separate-judgements-and-derived-current-sets)
+  - [Engineering.Reference:19.11 - A changed source changes the available continuation](#engineeringreference1911---a-changed-source-changes-the-available-continuation) — A separate demonstrative episteme compares initial and changed-edition availability while keeping the selected structure fixed.
+  - [Engineering.Reference:19.12 - Which configured continuation has its conditions now?](#engineeringreference1912---which-configured-continuation-has-its-conditions-now)
+    - [Engineering.Reference:19.12.1 - Descriptive relations selected by Gc](#engineeringreference19121---descriptive-relations-selected-by-gc)
+  - [Engineering.Reference:19.13 - A lost input and a smaller budget change different continuations](#engineeringreference1913---a-lost-input-and-a-smaller-budget-change-different-continuations)
+  - [Engineering.Reference:19.14 - Can development proceed while current work is blocked?](#engineeringreference1914---can-development-proceed-while-current-work-is-blocked)
+    - [Engineering.Reference:19.14.1 - Descriptive relations selected by Gd](#engineeringreference19141---descriptive-relations-selected-by-gd)
+  - [Engineering.Reference:19.15 - Available construction is different from a qualified result](#engineeringreference1915---available-construction-is-different-from-a-qualified-result)
+- [Engineering.Reference:20 - Explore a situation through goals and dependencies](#engineeringreference20---explore-a-situation-through-goals-and-dependencies) — Build and question an actors-and-goals model; choose a view; interpret qualitative results; discover conflicting assignments; revise the model and the work.
+  - [Engineering.Reference:20.1 - Let the question determine what to model](#engineeringreference201---let-the-question-determine-what-to-model)
+  - [Engineering.Reference:20.2 - Connect provision to the reasons on both sides](#engineeringreference202---connect-provision-to-the-reasons-on-both-sides)
+  - [Engineering.Reference:20.3 - Show the part of the model needed for the current question](#engineeringreference203---show-the-part-of-the-model-needed-for-the-current-question)
+  - [Engineering.Reference:20.4 - Turn a working question into an analysis, then recover its meaning](#engineeringreference204---turn-a-working-question-into-an-analysis-then-recover-its-meaning)
+  - [Engineering.Reference:20.5 - Use surprising results to discover a different problem](#engineeringreference205---use-surprising-results-to-discover-a-different-problem)
+  - [Engineering.Reference:20.6 - Stop with a usable answer and preserve the right return](#engineeringreference206---stop-with-a-usable-answer-and-preserve-the-right-return)
+  - [Engineering.Reference:20.7 - Language, analysis and evidence have different limits](#engineeringreference207---language-analysis-and-evidence-have-different-limits)
+- [Engineering.Reference:21 - They understand or agree; why does the needed work still not follow?](#engineeringreference21---they-understand-or-agree-why-does-the-needed-work-still-not-follow) — Examine reasons, conditions and the basis of a disputed requirement; prepare an organizational decision with relevant advisers, and connect an agreed start to a useful first handover; revise or decline an inadequate proposal.
+  - [Engineering.Reference:21.1 - Recover the question and develop the reasons](#engineeringreference211---recover-the-question-and-develop-the-reasons)
+  - [Engineering.Reference:21.2 - Examine the proposed means and affected concerns](#engineeringreference212---examine-the-proposed-means-and-affected-concerns)
+  - [Engineering.Reference:21.3 - Examine a disputed basis for requiring work](#engineeringreference213---examine-a-disputed-basis-for-requiring-work)
+    - [Engineering.Reference:21.3.1 - Reporting: a claimed extension of authority](#engineeringreference2131---reporting-a-claimed-extension-of-authority)
+    - [Engineering.Reference:21.3.2 - An asserted earlier undertaking](#engineeringreference2132---an-asserted-earlier-undertaking)
+    - [Engineering.Reference:21.3.3 - An ordinary request outside the offer](#engineeringreference2133---an-ordinary-request-outside-the-offer)
+  - [Engineering.Reference:21.4 - Find the contribution that is still missing](#engineeringreference214---find-the-contribution-that-is-still-missing)
+  - [Engineering.Reference:21.5 - Connect the returned result to its use](#engineeringreference215---connect-the-returned-result-to-its-use)
+  - [Engineering.Reference:21.6 - Purchase case: agreement survives the loss of support](#engineeringreference216---purchase-case-agreement-survives-the-loss-of-support)
+    - [Engineering.Reference:21.6.1 - Revise the proposed data use before arranging the trial](#engineeringreference2161---revise-the-proposed-data-use-before-arranging-the-trial)
+    - [Engineering.Reference:21.6.2 - Carry the chosen conditions into the trial and launch](#engineeringreference2162---carry-the-chosen-conditions-into-the-trial-and-launch)
+  - [Engineering.Reference:21.7 - Internal-change case: distinguish choosing the action from performing it](#engineeringreference217---internal-change-case-distinguish-choosing-the-action-from-performing-it)
+    - [Engineering.Reference:21.7.1 - Prepare the decision with the people whose judgement matters](#engineeringreference2171---prepare-the-decision-with-the-people-whose-judgement-matters)
+    - [Engineering.Reference:21.7.2 - Make the agreed start visible and obtain the first result](#engineeringreference2172---make-the-agreed-start-visible-and-obtain-the-first-result)
+  - [Engineering.Reference:21.8 - A working mantra and the continuations it leaves open](#engineeringreference218---a-working-mantra-and-the-continuations-it-leaves-open)
+- [Engineering.Reference:22 - How can a team organise search while keeping current service workable?](#engineeringreference22---how-can-a-team-organise-search-while-keeping-current-service-workable) — Complete arrangements, shared scarce support, commercial and technical answers, trial conditions and receiving work.
+  - [Engineering.Reference:22.1 - The result sought and the work that must continue](#engineeringreference221---the-result-sought-and-the-work-that-must-continue)
+  - [Engineering.Reference:22.2 - Compare complete ways to obtain the same answer](#engineeringreference222---compare-complete-ways-to-obtain-the-same-answer)
+  - [Engineering.Reference:22.3 - Make the selected arrangement effective and preserve the experiment's limits](#engineeringreference223---make-the-selected-arrangement-effective-and-preserve-the-experiments-limits)
+  - [Engineering.Reference:22.4 - Return the result with the work required to use it](#engineeringreference224---return-the-result-with-the-work-required-to-use-it)
+  - [Engineering.Reference:22.5 - Source use and ordinary stopping point](#engineeringreference225---source-use-and-ordinary-stopping-point)
+- [Engineering.Reference:23 - Interpret a source and revise what follows](#engineeringreference23---interpret-a-source-and-revise-what-follows) — Hermeneutics, interpretation, герменевтика, интерпретация; local meaning, changed evidence or question, revised conclusions, source history and sufficient reading.
+  - [Engineering.Reference:23.1 - Read the provision against its exception](#engineeringreference231---read-the-provision-against-its-exception)
+  - [Engineering.Reference:23.2 - Carry the corrected reading into the design](#engineeringreference232---carry-the-corrected-reading-into-the-design)
+  - [Engineering.Reference:23.3 - Change the question while keeping the source](#engineeringreference233---change-the-question-while-keeping-the-source)
+  - [Engineering.Reference:23.4 - Follow changed wording into practice](#engineeringreference234---follow-changed-wording-into-practice)
+  - [Engineering.Reference:23.5 - Select the contribution that can answer the receiving question](#engineeringreference235---select-the-contribution-that-can-answer-the-receiving-question)
+  - [Engineering.Reference:23.6 - Return a usable answer and stop at its proper scope](#engineeringreference236---return-a-usable-answer-and-stop-at-its-proper-scope)
+- [Engineering.Reference:24 - How can independently maintained corpora supply one usable working environment?](#engineeringreference24---how-can-independently-maintained-corpora-supply-one-usable-working-environment) — Compose independently maintained corpora. Release selection, shared definitions, local amendments, complete reading, adapters, independent change and consumer adoption.
+  - [Engineering.Reference:24.1 - Start with the receiving operation](#engineeringreference241---start-with-the-receiving-operation)
+  - [Engineering.Reference:24.2 - Preserve the source and distinguish its representations](#engineeringreference242---preserve-the-source-and-distinguish-its-representations)
+  - [Engineering.Reference:24.3 - Derive a composition from actual use](#engineeringreference243---derive-a-composition-from-actual-use)
+  - [Engineering.Reference:24.4 - Keep local changes explicit about what they do](#engineeringreference244---keep-local-changes-explicit-about-what-they-do)
+  - [Engineering.Reference:24.5 - Decide what must be present now](#engineeringreference245---decide-what-must-be-present-now)
+  - [Engineering.Reference:24.6 - Make both readers perform the promised operation](#engineeringreference246---make-both-readers-perform-the-promised-operation)
+  - [Engineering.Reference:24.7 - Preserve meaning through a translation or adapter chain](#engineeringreference247---preserve-meaning-through-a-translation-or-adapter-chain)
+  - [Engineering.Reference:24.8 - Separate distributed editing, accepted release and adoption](#engineeringreference248---separate-distributed-editing-accepted-release-and-adoption)
+  - [Engineering.Reference:24.9 - Provide the selected environment and use its answer](#engineeringreference249---provide-the-selected-environment-and-use-its-answer)
+  - [Engineering.Reference:24.10 - Keep an open read coherent while another generation is prepared](#engineeringreference2410---keep-an-open-read-coherent-while-another-generation-is-prepared)
+  - [Engineering.Reference:24.11 - Reconsider the affected reliance and feed discovery back into composition](#engineeringreference2411---reconsider-the-affected-reliance-and-feed-discovery-back-into-composition)
+  - [Engineering.Reference:24.12 - What to exercise before relying on this arrangement](#engineeringreference2412---what-to-exercise-before-relying-on-this-arrangement)
+- [Engineering.Reference:25 - Combine results and handle a missing input](#engineeringreference25---combine-results-and-handle-a-missing-input) — Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision.
+  - [Engineering.Reference:25.1 - What must be available through the Method vertical?](#engineeringreference251---what-must-be-available-through-the-method-vertical) — Keep constituent contributions available in the whole action. Simultaneous enactment, constituent abilities, shared resources, external support and limits of a local test.
+  - [Engineering.Reference:25.2 - When does learning a movement also require developing its teaching?](#engineeringreference252---when-does-learning-a-movement-also-require-developing-its-teaching) — Bodily contribution, practice, available help, learning to teach, related development projects and concurrent enactment.
+  - [Engineering.Reference:25.3 - How can attention move while the whole action continues?](#engineeringreference253---how-can-attention-move-while-the-whole-action-continues) — Timely observation, concurrent methods, missed events, bodily coordination, teacher support and independent use.
+  - [Engineering.Reference:25.4 - When the way of working is itself the problem](#engineeringreference254---when-the-way-of-working-is-itself-the-problem)
+  - [Engineering.Reference:25.5 - When source material should change a pattern language](#engineeringreference255---when-source-material-should-change-a-pattern-language)
+  - [Engineering.Reference:25.6 - When several management views describe the same work](#engineeringreference256---when-several-management-views-describe-the-same-work)
+  - [Engineering.Reference:25.7 - When the case or a relied-on source changes](#engineeringreference257---when-the-case-or-a-relied-on-source-changes)
+- [Engineering.Reference:26 - Citation](#engineeringreference26---citation) — Cite this Reference or a particular pattern application.
 
-The question index is designed for lookup while work is under way. Use the [Suite README's publication table](README.md#published-dpfs) to see the available DPFs and their pattern counts. Each row below identifies a working question, the relevant pattern and the result it can help you obtain. Open the linked body for its full conditions.
+<a id="find-a-starting-pattern"></a>
 
-## Find a starting pattern
+## Engineering.Reference:1 - Find a starting pattern
 
 Choose the row that matches the question you need to answer. Several patterns in one row are alternatives or complementary contributions; their own working conditions determine which you need.
 
-### Begin before anyone asks for help
+<a id="begin-before-anyone-asks-for-help"></a>
+
+### Engineering.Reference:1.1 - Begin before anyone asks for help
 
 A team can keep delivering through recurring adjustments, or regard unusable outputs as ordinary, without requesting a review. [B.5.PI - Initiate Inquiry from Ongoing Work](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5pi---initiate-inquiry-from-ongoing-work) starts with an ordinary handover, demonstration or explanation of a consequential choice. Follow one result into its intended use and recover what was needed to obtain it. A comparison can yield a question, a retained early cue or a reasoned continuation without change; no anomaly label or PatternID is needed beforehand.
 
@@ -91,7 +204,9 @@ The connected move is to make a comparison possible, preserve what the familiar 
 
 Use an existing subject answer directly when it suffices. If the way of working itself needs development, [ME.1 and ME.3](#improve-a-method-or-an-organization) recover the method and its situational requirements. [Research Method Practice](#qualify-a-research-question-or-choose-a-design) enters only if the unresolved question needs research; [human capability development](#develop-a-practice-or-a-persons-capability) enters when a person needs to learn a contribution. A cue without a feasible response is not completed assistance. The [handover case](#why-examine-a-handover-that-arrives-on-time) shows the return to ordinary work.
 
-### Understand a problem and prepare a recommendation
+<a id="understand-a-problem-and-prepare-a-recommendation"></a>
+
+### Engineering.Reference:1.2 - Understand a problem and prepare a recommendation
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -104,7 +219,9 @@ Use an existing subject answer directly when it suffices. If the way of working 
 | When should earlier advice be reconsidered? | [PSD.14 - Arrange Decision Follow-up or Reassess Advice After a Change](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-14) | Observation and interpretation responsibilities for needed follow-up, or a qualified advice update with its affected premises and limits. |
 | How do we find and advise on a development opportunity? | [DOCA.1 - Bound the Development-Opportunity Inquiry](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca1---bound-the-development-opportunity-inquiry), [DOCA.7 - Bound the Development-Direction Advising Engagement](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca7---bound-the-development-direction-advising-engagement), [DOCA.8 - Requalify Changed Development Opportunities](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md#doca8---requalify-changed-development-opportunities) | A useful inquiry, qualified terms for development advice, or a requalified opportunity after its premises change. Enter at the missing result; PSD retains comparison and recommendation. |
 
-### Choose a strategic direction and bounded commitment
+<a id="choose-a-strategic-direction-and-bounded-commitment"></a>
+
+### Engineering.Reference:1.3 - Choose a strategic direction and bounded commitment
 
 Use Strategy when a worthwhile contribution or obtaining way remains unsettled, or when direction, options and commitments must be related under changing conditions. Bring an adequate direction, Method, comparison or specialist result; enter only the contribution your decision still needs.
 
@@ -127,7 +244,9 @@ For a connected case, [SensorCo's service-trial decision](#should-sensorco-prepa
 
 When a personal development aim must fit continuing shared work, [connect the aim, practice, observation and actual commitments](#pursue-a-personal-development-aim-while-shared-work-continues).
 
-### Engineer a system or a platform
+<a id="engineer-a-system-or-a-platform"></a>
+
+### Engineering.Reference:1.4 - Engineer a system or a platform
 
 When the whole engineering result could come from developing people, obtaining expertise or changing the arrangement, use the [small-team comparison](#what-should-a-small-engineering-team-develop-obtain-or-delegate).
 
@@ -144,7 +263,9 @@ When the whole engineering result could come from developing people, obtaining e
 | Which engineering work can overlap, and which results are prerequisites? | [SYSE.20 - Reconcile Overlapping Engineering Work and Required Order](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse20---reconcile-overlapping-engineering-work-and-required-order) | An account of interacting engineering work and dependencies, with a bounded choice to retain or change the arrangement, further inquiry, or the unresolved question. |
 | How can engineering practices continue and improve across people and time? | [SYSE.21 - Decide Whether and How to Change Systems Engineering Culture](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse21---decide-whether-and-how-to-change-systems-engineering-culture) | An account of actual practice, alternatives for its continuation or change, and the observations needed to judge them. |
 
-### Resolve a software-platform difficulty
+<a id="resolve-a-software-platform-difficulty"></a>
+
+### Engineering.Reference:1.5 - Resolve a software-platform difficulty
 
 When independently released components conflict or their joint use is uncertain, [SYSE.53](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse53---resolve-a-usable-composition-of-independently-released-components) derives the composition problem and returns a supported selection, explained conflict or missing premise. The [corpus application](#how-can-independently-maintained-corpora-supply-one-usable-working-environment) continues that result into local amendments, complete readers and adoption of updates.
 
@@ -162,7 +283,9 @@ For example, a deployed address-form change has passed its bounded deployment te
 
 If the form then hides a required address component, the authorized response restricts exposure and verifies recovery under the actual data-compatibility conditions. Wider release remains a separate decision. Neither an alerting project nor a full platform redesign is a prerequisite for returning this bounded result.
 
-### Connect separately governed meanings and representations
+<a id="connect-separately-governed-meanings-and-representations"></a>
+
+### Engineering.Reference:1.6 - Connect separately governed meanings and representations
 
 Use the [Semantic Integration Engineering DPF](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) when one receiving use must combine claims, identifiers, classifications, models or records whose meanings and authority remain governed by different sources. Start with the result your use lacks; adequate supplied inputs permit direct entry into a later Method.
 
@@ -187,7 +310,9 @@ Use Data Engineering for pipeline construction and operation, the relevant maste
 
 For example, a changed supplier promise describes future availability while an application still interprets it as stock on hand. SIE.11 starts from that changed meaning and the application's reliance; a JSON schema that still passes does not settle the affected use. SIE.3 helps when the model cannot express the distinction. Use SIE.12 when independent users must maintain shared modules. If a single interface agreement answers the receiving user's question, complete that agreement and stop.
 
-### Improve a method or an organization
+<a id="improve-a-method-or-an-organization"></a>
+
+### Engineering.Reference:1.7 - Improve a method or an organization
 
 Method Engineering keeps the way of working, its descriptions and its support as separate questions, and leaves the choice of representation open. The optional [PLUS-ME profile](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mepreface7---plus-me--pattern-language-unfolding-situational-method-engineering) helps when recurring users need connected pattern-language knowledge or when that knowledge must be produced from sources.
 
@@ -221,7 +346,9 @@ When a local improvement must serve a larger result, [Make an available contribu
 
 For a research Method and the knowledge claims that depend on it, use the [research-specific retention and improvement entry](#retain-or-improve-a-research-method).
 
-### Select and use checklists without losing the work question
+<a id="select-and-use-checklists-without-losing-the-work-question"></a>
+
+### Engineering.Reference:1.8 - Select and use checklists without losing the work question
 
 Use Checklist Principles Framework when consequential questions are missed, entries lose their meaning, or local passes leave the shared result uncertain. Choose the contribution needed now; an adequate existing question set, form or answer can be reused.
 
@@ -236,7 +363,9 @@ Use Checklist Principles Framework when consequential questions are missed, entr
 
 The [recurring-omission application](CHECKLIST-PRINCIPLES-FRAMEWORK.md#from-a-recurring-omission-to-a-useful-aid) connects question selection and use with [ME.11's representative trial](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work) and [ME.14's worth comparison](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives). Compare the aid with a simpler sufficient arrangement, including effort moved elsewhere. For shared work, the [workshop application](CHECKLIST-PRINCIPLES-FRAMEWORK.md#shared-work-with-uncertain-criteria-and-changed-premises) connects local answers with [OPS.4's shared operating account](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops4---keep-current-operating-state-recoverable-across-participants); a resource conflict still needs a feasible coordination decision.
 
-### Obtain and use an aesthetic distinction
+<a id="obtain-and-use-an-aesthetic-distinction"></a>
+
+### Engineering.Reference:1.9 - Obtain and use an aesthetic distinction
 
 A recognizable character, expressive effect or audience response can matter inside another practice. These entries keep obtaining a style distinction and constructing an expressive variant independently available.
 
@@ -250,7 +379,9 @@ A recognizable character, expressive effect or audience response can matter insi
 
 The account applies existing construction, contrast and receiving-use methods. A response to a form does not establish its productive method, general effectiveness or continuing availability.
 
-### Work with rhythmic relations in performance and learning
+<a id="work-with-rhythmic-relations-in-performance-and-learning"></a>
+
+### Engineering.Reference:1.10 - Work with rhythmic relations in performance and learning
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -271,7 +402,9 @@ The account applies existing construction, contrast and receiving-use methods. A
 
 The [partnered-variation route](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy-card-01--make-a-variation-work-with-a-partner) shows how several results support one performance. The [receiving-practice route](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy-card-03--make-a-rhythmic-practice-available-to-its-next-users) uses FPF C.36.RP and MDPE.17–.19 for availability, transmission and continuation; rhythmic performance alone does not establish that a practice will persist.
 
-### Model and change the bodily contribution to movement
+<a id="model-and-change-the-bodily-contribution-to-movement"></a>
+
+### Engineering.Reference:1.11 - Model and change the bodily contribution to movement
 
 Use Somatic Movement Modeling with a familiar movement technique and appropriate physical limits, or with a teacher who supplies that support. It connects what the performer experiences, what they can regulate and what the movement actually achieves.
 
@@ -286,7 +419,9 @@ For a correction that works in preparation but disrupts the action, the [COORDIN
 
 HCD supplies learning design, feedback, progression and assessment; RHY supplies rhythmic relations when they matter. SOM supplies the bodily modeling and regulation between those contributions and the receiving technique. A local improvement still has to work with the other actions required at the same time.
 
-### Develop a practice or a person's capability
+<a id="develop-a-practice-or-a-persons-capability"></a>
+
+### Engineering.Reference:1.12 - Develop a practice or a person's capability
 
 When constituent actions are possible but the whole action fails, examine [what must remain available through the Method vertical](#what-must-be-available-through-the-method-vertical). If directing attention to one contribution loses another, follow [continuing the whole action while attention moves](#how-can-attention-move-while-the-whole-action-continues).
 
@@ -326,7 +461,9 @@ Use HCD.16 to complete the appraisal with the conclusion supported by the availa
 
 The [Human Capability Development DPF](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) contains 29 patterns: HCD.1–HCD.17 and nested HCD.6.1 address personal development; HCD.18–HCD.19 address instructional-material evaluation; HCD.20–HCD.27 construct and support individual and shared learning arrangements; and HCD.28 connects these contributions into a whole learning product for a future audience. A pattern supplies guidance and a result form; it does not establish that development work occurred, capability changed, a provider operated, or an authorized person made a programme, employment or release decision.
 
-### Evaluate instructional material for its intended use
+<a id="evaluate-instructional-material-for-its-intended-use"></a>
+
+### Engineering.Reference:1.13 - Evaluate instructional material for its intended use
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -335,7 +472,9 @@ The [Human Capability Development DPF](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-F
 
 These two methods judge instructional material. For a person's performance, transfer or retention, use HCD.11–HCD.13 above. An ordinary professional reference is evaluated for its lookup use unless it also promises instruction.
 
-### Make an explanation understandable and usable
+<a id="make-an-explanation-understandable-and-usable"></a>
+
+### Engineering.Reference:1.14 - Make an explanation understandable and usable
 
 Use Explanation Design when someone needs to follow a connection and use it: why an outcome occurred, how a derivation works, or why a recommendation follows from its grounds. Start with the question that is unresolved now.
 
@@ -351,7 +490,9 @@ Use Explanation Design when someone needs to follow a connection and use it: why
 
 The [use profiles](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#use-profiles) adapt these methods to instruction, technical and advisory work, and human–AI interaction. For evaluation of instructional material as a whole, use the HCD.18 and HCD.19 entries above. A learner's later performance, transfer or retention calls for the corresponding HCD method and its conditions.
 
-### Keep an operation working
+<a id="keep-an-operation-working"></a>
+
+### Engineering.Reference:1.15 - Keep an operation working
 
 Use the [Operations Management DPF](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) when the current question concerns continuing work, admission, cases, priority, queues, constraints, capacity, service, operating evidence, quality, simultaneous work, method improvement, cultural continuation, meaningful aims or performance interpretation.
 
@@ -388,7 +529,9 @@ Use the [Operations Management DPF](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.m
 
 The [archive case](#how-can-two-archive-services-share-staff-without-losing-their-commitments) combines only the OPS contributions needed for one allocation question. The remaining patterns are available for their own working conditions; their availability does not add them silently to that case.
 
-### Explain resource use, costs and operating accounts
+<a id="explain-resource-use-costs-and-operating-accounts"></a>
+
+### Engineering.Reference:1.16 - Explain resource use, costs and operating accounts
 
 Management Accounting helps a controller, accountant or manager explain how work uses resources and how that use appears in money, forecasts and performance accounts. Begin with the decision or account that needs a better explanation. A small model of the relevant work can be sufficient.
 
@@ -406,7 +549,9 @@ Management Accounting helps a controller, accountant or manager explain how work
 
 [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) uses these accounts for operating comparisons. A forecast can inform a resource decision while the authorization remains a separate result. The [repair cooperative case](#how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) connects these accounts to the construction of a meaningful aim and later performance interpretation through OPS.21–22.
 
-### Model financial positions and effects
+<a id="model-financial-positions-and-effects"></a>
+
+### Engineering.Reference:1.17 - Model financial positions and effects
 
 Financial Domain Modeling helps a financial practitioner, business modeler or service designer establish whose financial position a model describes, what events can change it and how a service contributes to a participant's result. Its five methods connect parties, rights and obligations, contractual flows, actual effects and service use.
 
@@ -420,7 +565,9 @@ Financial Domain Modeling helps a financial practitioner, business modeler or se
 
 Use [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) when separately governed meanings or identities need reconciliation. Financial Domain Modeling supplies the financial interpretation; the relevant decision practice uses it.
 
-### Value investments, arrange finance and manage liquidity
+<a id="value-investments-arrange-finance-and-manage-liquidity"></a>
+
+### Engineering.Reference:1.18 - Value investments, arrange finance and manage liquidity
 
 [Corporate Finance](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) provides methods for valuing investments, arranging finance, preserving liquidity and managing financial exposure.
 
@@ -475,7 +622,9 @@ Choose the question you need to answer, then open the linked method and check it
 
 For questions about costs or operating accounts, use the [management-accounting questions](#explain-resource-use-costs-and-operating-accounts). For the parties, rights or contractual flows behind a financial result, use the [financial-modeling questions](#model-financial-positions-and-effects).
 
-### Coordinate economic plans, exchanges and shared resources
+<a id="coordinate-economic-plans-exchanges-and-shared-resources"></a>
+
+### Engineering.Reference:1.19 - Coordinate economic plans, exchanges and shared resources
 
 Economic Reasoning and Coordination connects calculation, exchange construction, commitments and institutional change. It uses existing financial and operating results while adding the questions about how participants' plans, choices and constraints affect one another.
 
@@ -494,7 +643,9 @@ Economic Reasoning and Coordination connects calculation, exchange construction,
 
 For a new service, the [connected venture example](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco-venture---turn-a-useful-idea-into-a-feasible-service-arrangement) joins discovering an exchange, recovering its economic grounds, forming commitments and arranging adaptation. If tooling becomes reusable and another supplier is available, the dependence changes; ordinary purchasing can then suffice. A supplier's separately performed work is linked by an agreement, while interpreting that agreement can be a constituent operation in the buyer's venture work.
 
-### Model dependence, spread and protective action
+<a id="model-dependence-spread-and-protective-action"></a>
+
+### Engineering.Reference:1.20 - Model dependence, spread and protective action
 
 Use Defense and Transmission Modeling when a practice or variant keeps spreading, changes the conditions of its own continuation, or provokes a response whose consequences are unclear. Begin with the affected work and participants. A biological analogy does not establish the mechanism of an engineering or cultural case.
 
@@ -507,7 +658,9 @@ Use Defense and Transmission Modeling when a practice or variant keeps spreading
 
 Use the [connected DTM entries](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#defense-and-transmission-modeling-dpf-readme) when several of these results are needed together. The [review-capacity example](#can-protective-review-work-with-the-capacity-we-have) shows why a modeled protective effect still needs an operating contribution.
 
-### Continue and change a shared practice
+<a id="continue-and-change-a-shared-practice"></a>
+
+### Engineering.Reference:1.21 - Continue and change a shared practice
 
 A working method may become easier to copy while the ability to explain, alter or teach it becomes harder to obtain. Or a capable group may reasonably decline a proposed change. Begin with the work and the contribution that could make a difference.
 
@@ -520,7 +673,9 @@ Use [ME.16](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method
 The [shared-method example](#how-can-we-share-a-method-without-losing-the-means-to-develop-it) follows these dependencies.
 
 
-### Build a useful cultural or community contribution
+<a id="build-a-useful-cultural-or-community-contribution"></a>
+
+### Engineering.Reference:1.22 - Build a useful cultural or community contribution
 
 Start with the change people need. A discussion group, a useful resource, learning and a dependable service can call for different contributions. The [Community Building Readme](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#community-building-readme) offers three practical entries; its [Preface](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#preface) explains how to connect the methods. People may also develop and use a practice independently.
 
@@ -545,7 +700,9 @@ Start with the change people need. A discussion group, a useful resource, learni
 
 The [common applications](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#applications) connect these methods for professional repairers, a voluntary garden, independent carriers of a practice and a customer community, with the specialist contributions each case needs.
 
-### Make corporate decisions and sustain governing contributions
+<a id="make-corporate-decisions-and-sustain-governing-contributions"></a>
+
+### Engineering.Reference:1.23 - Make corporate decisions and sustain governing contributions
 
 Use corporate governance to establish relevant rights and powers, arrange governing contributions and perform corporate acts. Financial attractiveness, a recommendation and corporate authority answer different questions. The [connected interested-party example](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md#cgov-conflicted-matter---bring-an-interested-party-transaction-to-a-corporate-decision) follows advice, disclosure and eligible participation into a decision; start with already sufficient contributions when they are available.
 
@@ -573,7 +730,9 @@ A financial recommendation can inform the authorized participants' judgement; it
 
 Putting a corporate decision into effect may still require resources and support. Use [OPS.11](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-11) for unresolved dependencies among operating contributions. Use [ADM.9](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm9---provide-a-usable-administrative-result) when a required administrative condition, such as permitted access, is not yet usable. Allocating cases within existing responsibilities and powers remains an operating question. A change to organizational responsibilities or decision rights calls for the appropriate organizational change; neither additional participants nor a new case alone implies that change.
 
-### Fulfil an administrative request and improve its handling
+<a id="fulfil-an-administrative-request-and-improve-its-handling"></a>
+
+### Engineering.Reference:1.24 - Fulfil an administrative request and improve its handling
 
 | Your question | Start with | First useful result |
 | --- | --- | --- |
@@ -599,7 +758,9 @@ When participant accounts cannot be reconciled because their meanings or object 
 
 Use [SYSE.24](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse24---choose-how-the-project-will-obtain-a-needed-engineering-result) to compare complete ways to obtain an administrative result; ADM.2, ADM.3, ADM.11 and ADM.14 supply the relevant institutional conditions. For the supporting platform, use SYSE.26 to design the user/provider interaction, SYSE.28 to place a control where it can check or enforce the relevant rule, and SYSE.29 for technical migration or retirement. ADM.16 contains the administrative instruction for changing case handling; use [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) when the reusable method or its variants need development.
 
-### Maintain equipment and manage maintenance
+<a id="maintain-equipment-and-manage-maintenance"></a>
+
+### Engineering.Reference:1.25 - Maintain equipment and manage maintenance
 
 An alarm, delayed repair or fleet result can lead to different questions. Open the Method for the result you need now, using evidence that is already adequate for it. The [six ordinary maintenance entries](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#practical-entries) offer direct starts; the [full pattern index](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents) remains available when none fits.
 
@@ -626,7 +787,9 @@ A maintenance question can concern one pump or a fleet: it seeks a maintenance p
 
 Stop when the requested result is adequate. Selected equipment work still needs its applicable procedures, competent means, protection and authority. The MNT cases are constructed teaching examples, not field validation, equipment instructions or permission.
 
-### Choose how to use and change engineered assets
+<a id="choose-how-to-use-and-change-engineered-assets"></a>
+
+### Engineering.Reference:1.26 - Choose how to use and change engineered assets
 
 The [Engineering Asset Management DPF](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) helps compare value, service, costs and risks over the lives of engineered assets. The question can concern one pump, an interacting asset system or a portfolio. Its sixteen patterns support the questions below; enter with the result you need and the inputs already available.
 
@@ -662,7 +825,9 @@ Use the [qualified returns from related practice](ENGINEERING-ASSET-MANAGEMENT-P
 
 The worked cases state their supplied service requirements, engineering possibilities, finance assumptions and decision authority. In an actual project, obtain those inputs from the responsible practice and decision makers. A pattern's method helps produce or examine a result; the case's inputs remain assumptions of that case.
 
-### Qualify a research question or choose a design
+<a id="qualify-a-research-question-or-choose-a-design"></a>
+
+### Engineering.Reference:1.27 - Qualify a research question or choose a design
 
 The [Research Method Practice DPF](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#table-of-contents) supplies `RMP.1`–`RMP.9`. Start here to decide whether a request needs research and to choose a criticism-bearing design or an honest stop. The following sections cover [operationalization and the actual trace](#make-research-executable-and-inspect-its-course), [claim analysis and relevant credibility work](#analyze-a-claim-or-examine-its-credibility), and [retaining or improving a research Method](#retain-or-improve-a-research-method). Supplied inputs allow direct entry at the question you need to answer.
 
@@ -674,7 +839,9 @@ The [Research Method Practice DPF](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK
 
 The complete repertoire supplies guidance for obtaining research results, not already obtained results. If a needed field-specific result, permission or evidence is missing, name that gap and return it to its owner. A protocol or collected information alone does not establish the research result.
 
-### Make research executable and inspect its course
+<a id="make-research-executable-and-inspect-its-course"></a>
+
+### Engineering.Reference:1.28 - Make research executable and inspect its course
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -683,7 +850,9 @@ The complete repertoire supplies guidance for obtaining research results, not al
 
 Operationalization specifies intended work; the trace accounts for actual work and retained material. They can develop together. A trace can identify a lost comparison without making that comparison available.
 
-### Analyze a claim or examine its credibility
+<a id="analyze-a-claim-or-examine-its-credibility"></a>
+
+### Engineering.Reference:1.29 - Analyze a claim or examine its credibility
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -699,7 +868,9 @@ For example, a model reproduces its reported output, but the available compariso
 
 When the needed result is what an evidence corpus jointly warrants, open [RMP.7 - Synthesize a Research Evidence Corpus](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-7). For deciding whether to retain or revise an identified claim or model contribution and returning the evidence its recipient needs, open [RMP.8 - Use Research Results to Retain or Revise an Episteme's Claims and Return Bounded Evidence](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-8). They can use compatible supplied results. Stop after RMP.5 or RMP.6 when its answer already resolves the current question.
 
-### Retain or improve a research Method
+<a id="retain-or-improve-a-research-method"></a>
+
+### Engineering.Reference:1.30 - Retain or improve a research Method
 
 Actual research work, criticism, a changed tool or new receiving conditions can raise a Method question. First distinguish the reusable Method from its description, implementation, available capability and the particular analysis or claim. A disappointing finding or software release alone does not establish that the Method failed.
 
@@ -715,7 +886,9 @@ Use [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-con
 
 Return changed operations to RMP.3, affected records to RMP.4, a changed analysis or open credibility choice to RMP.5 or RMP.6, and changed synthesis to RMP.7. Reopen only the contribution actually affected; return an affected claim or model to [RMP.8](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-8). A correction confined to an analysis or claim stays with RMP.5 or RMP.8. Reopen RMP.1 only when the Method difficulty meets its research-membership conditions. The decision to change a Method, its actual introduction and evidence of its effects remain different results.
 
-## Why examine a handover that arrives on time?
+<a id="why-examine-a-handover-that-arrives-on-time"></a>
+
+## Engineering.Reference:2 - Why examine a handover that arrives on time?
 
 In this constructed case, the maintenance team delivers its schedule on time. During an ordinary handover, the preparer follows one equipment entry into the receiver's use. Twelve names have been manually translated because the incoming abbreviations differ from those used at the site. Nobody had regarded this successful compensation as a problem.
 
@@ -729,7 +902,9 @@ If the receiver needs an explanation of the building distinction, obtain an expl
 
 Return to the receiving work: can the receiver identify the equipment, and which entries still depend on unavailable context? If the receiver instead demonstrates that both conventions were already understood and retyping changed only typography, withdraw the identity diagnosis. The remaining question is whether removing that effort is worthwhile. If the relevant records cannot be inspected now, retain the dependency as an early cue and name the missing access; do not claim a validated replacement. A justified continuation without change is an acceptable result.
 
-## Should SensorCo prepare a service trial or continue with devices?
+<a id="should-sensorco-prepare-a-service-trial-or-continue-with-devices"></a>
+
+## Engineering.Reference:3 - Should SensorCo prepare a service trial or continue with devices?
 
 SensorCo's device and service contracts remain viable for the next twelve months. Its strategy team is comparing device-only continuation with a new integrated service. Six interested customers and two trial discussions are not paid demand. [The complete constructed Strategy case](STRATEGY-PRINCIPLES-FRAMEWORK.md#app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection) supplies the assumptions and alternatives.
 
@@ -743,7 +918,9 @@ A later shared-work comparison has eighty internal person-days. Service, reserve
 
 The useful return now is the bounded preparation decision and its unresolved conditions. Independent preparation can proceed within its authority; missing data permission stops the dependent use. Use [STR.12](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-12) when an observed change calls for reconsideration.
 
-## How should we obtain climate control for a greenhouse?
+<a id="how-should-we-obtain-climate-control-for-a-greenhouse"></a>
+
+## Engineering.Reference:4 - How should we obtain climate control for a greenhouse?
 
 An equipment company needs climate control for a new greenhouse. It could buy a ready controller, commission a custom controller, develop one internally with AI assistance, or combine a ready controller with its own supervisory layer.
 
@@ -766,7 +943,9 @@ After selection, obtain the realization result through [SYSE.3](SYSTEMS-ENGINEER
 
 Pause only the decision that depends on a missing input. Keep the conclusions whose grounds still hold.
 
-## What should a small engineering team develop, obtain, or delegate?
+<a id="what-should-a-small-engineering-team-develop-obtain-or-delegate"></a>
+
+## Engineering.Reference:5 - What should a small engineering team develop, obtain, or delegate?
 
 A startup wants better engineering results and a stronger ability to compete. It is considering staff development, recruitment, providers, a method or platform change, and a different allocation of work among people, AI and robots.
 
@@ -790,11 +969,15 @@ Obtain a strategy, finance, legal, safety, maintenance or other specialist answe
 
 Before dependent work begins, establish its required capability, assignment, permission and authority, and the evidence for protected conditions. Once the operating arrangement exists, OPS.5–OPS.7 can address its narrower admission, case-continuation and priority questions.
 
-## Connect contributions, concerns and consequences across a whole project
+<a id="connect-contributions-concerns-and-consequences-across-a-whole-project"></a>
+
+## Engineering.Reference:6 - Connect contributions, concerns and consequences across a whole project
 
 Use this answer when capable specialists produce locally satisfactory results, yet the project cannot obtain a usable whole, or when the organization must change how it obtains those contributions. **Start with the result someone needs to use; recover the work and relations that make it obtainable; then compare the arrangements and their consequences.** A useful first return can be the exact missing contribution and who can supply it. A sufficient specialist answer can already settle the question.
 
-### Recover the needed contribution from the whole result
+<a id="recover-the-needed-contribution-from-the-whole-result"></a>
+
+### Engineering.Reference:6.1 - Recover the needed contribution from the whole result
 
 In this constructed case, an instrument maker must demonstrate that two modules work together under an agreed acceptance condition. Two teams design the modules. A shared laboratory provides a rig and specialist, and the stipulated acceptance rule requires judgement independent of the design work. Both modules pass their local tests, but their fastening interfaces have incompatible dimensions. The local results therefore leave the intended integrated use unsupported.
 
@@ -815,7 +998,9 @@ Follow the result through its receiving use:
 
 Follow the relations within the work as well as its timing. While a specialist interprets a trace, that interpretation can contribute to judging an interface claim within preparation of the whole acceptance package. The integrated-use question determines what the trace must establish. Meanwhile, booking the laboratory enables the test without itself performing the test or the acceptance judgement. A test description, the ability to use it, actual test Work and the resulting report supply different parts of this account.
 
-### Resolve the conflict at the relation that failed
+<a id="resolve-the-conflict-at-the-relation-that-failed"></a>
+
+### Engineering.Reference:6.2 - Resolve the conflict at the relation that failed
 
 One person may design and integrate if the combined work fits their capability, assignment and available time. Under this case's independent-acceptance rule, that designer cannot also supply the required independent judgement. A senior technician proposed as a replacement test performer must fit the actual test and its admission conditions; seniority alone supplies no substitution basis. FPF [E.10.ROLE](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e10role---recovering-what-role-means-in-the-current-claim) and [A.2.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a27---systemrolekindrelationstructure---relations-among-system-role-kinds) help unpack “combined role”: which assignments may share a holder, which require different holders, and how the Methods or work combine. Use these relations instead of treating role labels as parts of the person or project.
 
@@ -825,7 +1010,9 @@ Participants can also disagree for different reasons. The department head wants 
 
 Professional concerns help discover relevant characteristics, but inspect the actual concern. A low quoted test price can coexist with higher total cost after preparation, transport, support and displaced work. Specify which cost and period the comparison uses. Keep a protected technical condition distinct from a preference that the authorized parties can trade. [OCE.12](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce12---distribute-leadership-contributions-in-organization-change) develops the explanation, challenge and negotiation needed to obtain participation in organizational change, including the changes to assignments and support that discussion alone cannot supply.
 
-### Carry the reasoning into a project that changes the organization
+<a id="carry-the-reasoning-into-a-project-that-changes-the-organization"></a>
+
+### Engineering.Reference:6.3 - Carry the reasoning into a project that changes the organization
 
 Suppose the instrument maker repeatedly relies on the same manager to reconstruct missing inputs, find a laboratory interval and obtain an acceptance return. Management now wants the engineering organization to obtain that complete contribution with less exceptional intervention. This is a second project. Its changed system is the engineering organization; its result is a workable arrangement for obtaining contributions across the module teams, laboratory and acceptance work. The instrument remains the subject of the offering project. The integrator's ability to interpret a trace is a further question for human capability development.
 
@@ -837,7 +1024,9 @@ Apply [OCE.7](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce7---coo
 
 The engineering and organization decision-makers each decide within their authority. The product decision retains the module and test boundaries; the organization decision selects how the integration contribution and exception return will work. Reopen the pair if the shared test burden defeats the protected service commitment, or when the two-release horizon ends. The laboratory provider still has to make the resource decision on which this choice depends. If it cannot, the preferred arrangement remains unsupported.
 
-### Establish and exercise the arrangement
+<a id="establish-and-exercise-the-arrangement"></a>
+
+### Engineering.Reference:6.4 - Establish and exercise the arrangement
 
 Use [OCE.4](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce4---design-an-organizations-contribution-architecture) to design the contribution path for the selected arrangement. Specify who supplies the identified package, who uses it, what makes it usable, how an unsupported claim returns for correction, and which timing and support conditions must hold. Keep separate specialist, evidence and acceptance decisions where the work requires them. If a continuing position must remain identifiable through vacancy or holder replacement, [OCE.5](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce5---define-organization-positions) supplies its institutional basis and expected contribution. A direct assignment can suffice when no such position identity matters.
 
@@ -851,7 +1040,9 @@ Use [OCE.9](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce9---reali
 
 Observe later work under the conditions the organization needs to rely on. If reduced dependence on the initiating manager matters, include an episode without that manager reconstructing the path. Retain any allowed specialist help. A successful facilitated attempt supports what happened with that help; it does not establish the less dependent capability. The operating owner accepts the continuing service and support consequences. Completing the organization project does not discharge outstanding instrument or laboratory commitments.
 
-### Reconsider the affected choice when conditions change
+<a id="reconsider-the-affected-choice-when-conditions-change"></a>
+
+### Engineering.Reference:6.5 - Reconsider the affected choice when conditions change
 
 Withdraw the laboratory interval. The prior service plan no longer supplies the intended test in that period. Return the consequence to the provider and service owner while an alternative interval, provider, test arrangement or agreed date remains possible. Carry any changed engineering conditions back to the engineer: a different test can change what its evidence supports. Preserve unaffected module work and compatible evidence.
 
@@ -863,13 +1054,17 @@ Compare an available daytime interval or quieter arrangement, using [SYSE.2](SYS
 
 Finish this inquiry when the next useful result, its receiving use and obtainable contribution are clear enough to act, or when the exact missing condition and return are known. Ordinary coordination can suffice without an organization-change project.
 
-## How should we set a target and judge a miss after conditions change?
+<a id="how-should-we-set-a-target-and-judge-a-miss-after-conditions-change"></a>
+
+## Engineering.Reference:7 - How should we set a target and judge a miss after conditions change?
 
 A repair cooperative wants customers' equipment back in useful service, with accepted quality, agreed dates and enough means to keep operating. A manager proposes a completion target; Finance needs an honest forecast; the person allocating technicians needs a resource decision. Later, a missed target must inform an assessment. Treating one number as all four answers can make the work look coherent while its participants cannot act on it.
 
 Use [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-21) to construct the aim and comparison when they are missing, [MA.5–6](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast) to obtain and preserve the conditional outlook, [OPS.13](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-13) to establish actual service commitments, and [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-22) to interpret the later result. Start with an adequate supplied contribution wherever one exists. The connection is: **choose the useful change and its comparison; keep the outlook honest; make the response jointly possible; examine the actual result and response; revise the affected aim or arrangement.**
 
-### Construct the ambition from the receiving work
+<a id="construct-the-ambition-from-the-receiving-work"></a>
+
+### Engineering.Reference:7.1 - Construct the ambition from the receiving work
 
 All quantities, evidence and authorities in this example are stipulated. Twelve identified customers have equipment that could usefully return to service this month through the cooperative's standard repair. Five have booked. Seven have qualified offers; an adequate nonoverlapping demand account supports three further acceptances under current conditions. The forecast is therefore eight, with the remaining acceptances uncertain. The twelve opportunities include those eight; they are not additional demand.
 
@@ -879,7 +1074,9 @@ Eight, ten, twelve and fourteen now have different grounds. Eight describes the 
 
 The cooperative does not use a peer league table here: another team's mix, starting position and shared support have not been shown comparable. It can retain other observations without making each a new improvement target. A different operation could reasonably choose a range, a qualified milestone or observation without a numerical quota; OPS.21 explains those alternatives.
 
-### Join the ambition to provision and dated money
+<a id="join-the-ambition-to-provision-and-dated-money"></a>
+
+### Engineering.Reference:7.2 - Join the ambition to provision and dated money
 
 The base team has 36 usable hours after separately protected continuing service. The stated work includes six setup hours plus three hours per standard repair, including completion and acceptance work. One obtainable staffed block adds eight usable hours for 180 monetary units. Using the operating capacity account, [MA.1](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) give:
 
@@ -900,7 +1097,9 @@ The ten-repair alternative needs no extra block: payments are 800, the earlier c
 
 Suppose clarification now yields twelve accepted orders. Customers agree to an advance totaling 300 within the same total price of 1,200 and pay before the outflows. The actual responsible participants authorize and provide the staffed block. Cash after the proposed outflows would be 130, with 900 still to arrive on day 25 and ending cash of 1,030. The advance changes timing, not total revenue. MA.5 now supports an expectation of twelve under the stated demand and resource conditions; the earlier expectation of eight remains available on its earlier grounds. The parties can establish the corresponding promises under OPS.13. None of these changes is obtained by renaming the ambition a forecast.
 
-### Respond when the work changes and the new outlook is unwelcome
+<a id="respond-when-the-work-changes-and-the-new-outlook-is-unwelcome"></a>
+
+### Engineering.Reference:7.3 - Respond when the work changes and the new outlook is unwelcome
 
 Before materials are bought, inspection shows that three of the twelve repairs need five hours each rather than three. The same count now requires 6 + 9 × 3 + 3 × 5 = 48 hours. Only 44 are available before the promised dates, and another block cannot arrive in that window.
 
@@ -912,7 +1111,9 @@ Now introduce a management conflict. The local review treats any downward foreca
 
 In this cooperative the manager may change the local review and recognition rule, while a separate committee retains decisions about pay. Using [OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization), the manager changes the operative local instruction: retain the ambition and honest current outlook together; judge reporting on its grounds and timeliness; examine the response and actual result before assigning recognition. The next review actually uses the forecast of ten to arrange the deferred work. This establishes the stipulated local change, not a change to the committee's pay rule. If the manager lacked that power, the proposed rule change would have to reach its holder; an adviser or meeting facilitator could not supply the authority.
 
-### Interpret the miss without losing accountability or the joint result
+<a id="interpret-the-miss-without-losing-accountability-or-the-joint-result"></a>
+
+### Engineering.Reference:7.4 - Interpret the miss without losing accountability or the joint result
 
 Suppose the ten repairs are accepted with the required quality evidence. Two known needs remain for the later window. OPS.22 starts from those facts and the original basis. The result is ten against an ambition of twelve, not a retrospectively perfect ten against ten. The three complex repairs added six hours to the original plan. The evidence supports timely warning, an agreed revision and a feasible response that retained the two outstanding cases. The miss and the useful response both belong in the assessment.
 
@@ -924,11 +1125,15 @@ Apply the interpretation in both directions. If later evidence instead shows tha
 
 The useful whole is a connected set of independently usable methods. A well-formed target can enter directly at the forecast or provision question; an assessment can begin with adequate existing observations. A budget, spending ceiling or external reporting date can remain wherever its function is needed. The test is whether the actual aims, accounts, decisions and consequences let participants improve the receiving work, including when the information is unwelcome.
 
-## How can simpler administration leave less time for engineering?
+<a id="how-can-simpler-administration-leave-less-time-for-engineering"></a>
+
+## Engineering.Reference:8 - How can simpler administration leave less time for engineering?
 
 Use this answer when a support service reports a saving while the people it serves struggle to complete their work. Start with one affected job and follow it from the needed business result through the support it requires. Compare complete feasible arrangements, including the work of introducing and maintaining them. A satisfactory existing arrangement can be retained.
 
-### Recover the work hidden by the service request
+<a id="recover-the-work-hidden-by-the-service-request"></a>
+
+### Engineering.Reference:8.1 - Recover the work hidden by the service request
 
 In this constructed case, a company has committed to twenty field-service jobs in a month. Engineers complain about travel administration. The travel desk proposes self-service booking because it would reduce its handling time. The operations manager owns the twenty-job commitment, the travel-service owner governs its handling, and the budget holder authorizes additional spending. Their decisions must fit together.
 
@@ -940,7 +1145,9 @@ Suppose accounting also rejects the proposed booking arrangement because it does
 
 A rule owner can settle interpretation or authorize a change within their authority. A qualified specialist can design the check; the platform provider can implement it. One person may perform several of these contributions if qualified and assigned. The requesting engineer's need for speed does not supply the missing permission, and the specialist's valid objection does not by itself supply a workable alternative.
 
-### Compare the support and engineering work together
+<a id="compare-the-support-and-engineering-work-together"></a>
+
+### Engineering.Reference:8.2 - Compare the support and engineering work together
 
 Use [SYSE.24](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse24---choose-how-the-project-will-obtain-a-needed-engineering-result) to compare retaining current handling, self-service and a provider-supported arrangement. Include what remains with the company. In this example, the specialist has supplied a suitable checking procedure for each candidate. Its implementation and actual use still need to be established.
 
@@ -958,7 +1165,9 @@ The supported service needs a further six engineer-hours and two desk-hours to i
 
 [MA.1 and MA.2](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) construct the resource and supply account when it is missing. [OPS.10.2](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops102---construct-and-revise-a-feasible-deadline-schedule) is needed when particular deadlines, calendar gaps or shared people make the aggregate hours insufficient to settle feasibility. Here calendar feasibility was supplied explicitly.
 
-### Follow released capacity to money and its receiving use
+<a id="follow-released-capacity-to-money-and-its-receiving-use"></a>
+
+### Engineering.Reference:8.3 - Follow released capacity to money and its receiving use
 
 Suppose salaries and existing travel payments stay unchanged. The supported service adds a setup payment of 300 and a fee of six per job, all payable before this month's work. [OPS.14](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-14) compares the payments and receipts that change: 300 + 20 × 6 = **420 more paid this month**, with no additional receipt yet established. The released hours remain a capacity benefit; unchanged salary payments provide no cash saving.
 
@@ -984,7 +1193,9 @@ Check funding for each plan by date. Current handling of twenty-one needs author
 
 Once setup has actually been paid, a later continuation decision considers the future differences still avoidable; preserve the historical payment in the account of the original adoption.
 
-### Establish provision and revise the contribution that fails
+<a id="establish-provision-and-revise-the-contribution-that-fails"></a>
+
+### Engineering.Reference:8.4 - Establish provision and revise the contribution that fails
 
 If the supported arrangement is selected, use its real permissions, funding and provider agreement to implement the handling instruction. [ADM.5 and ADM.11](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md#adm5---design-reusable-instructions-for-administrative-requests) connect request, qualified checking, decision, provider action, recipient use and recovery. If introducing it changes organizational responsibility or authority, [OCE.4–OCE.6](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce4---design-an-organizations-contribution-architecture) supply that design and establishment. Existing adequate assignments can be used directly.
 
@@ -996,7 +1207,9 @@ The same inquiry can help a software team whose new deployment tools move infras
 
 Finish when the responsible participants can choose and perform the next supported action, or when the precise contribution preventing it is identified. Return a changed rule to its competent owner, changed workload to the resource arrangement, and changed payments to the financial account. This lets a repair improve the whole work without concealing the new difficulty it creates.
 
-## How can two archive services share staff without losing their commitments?
+<a id="how-can-two-archive-services-share-staff-without-losing-their-commitments"></a>
+
+## Engineering.Reference:9 - How can two archive services share staff without losing their commitments?
 
 In this constructed case, a public archive must decide how to allocate work for the next two weeks. Central copy-search assignments and local reference requests use the same archivists. The pilot's central-priority rule permits interruptions of local work. One proposal retains central coordination but replaces automatic interruption with confirmed search intervals.
 
@@ -1021,7 +1234,9 @@ The operating return is therefore a proposed release rule, a conditional twelve-
 
 Once the applicable policy and resource basis are adequate, OPS.5–OPS.7 can answer the narrower admission, case-continuation and priority questions. After authorized use, compare the accepted results of both services with their commitments, retaining the same acceptance and delay definitions.
 
-## Can we recommend a repair before it is ready to begin?
+<a id="can-we-recommend-a-repair-before-it-is-ready-to-begin"></a>
+
+## Engineering.Reference:10 - Can we recommend a repair before it is ready to begin?
 
 Yes, when the evidence supports the recommendation even though a condition for performing it is still missing. In the [constructed PS17 application](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#cross-pattern-applications), the requested result is a bearing-replacement recommendation. [MNT.6 - Diagnose Condition and Choose a Maintenance Response](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt6---diagnose-condition-and-choose-a-maintenance-response) compares the supported responses. [MNT.5 - Prepare Maintenance Service Capability, Spares, Tools, and Authority](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) identifies the missing specialist return on the spare's applicability. The advice is complete; actual replacement cannot begin.
 
@@ -1029,7 +1244,9 @@ If intervention is then selected and the applicability return arrives, [MNT.7 - 
 
 The selected work proceeds only under [MNT.8 - Isolate, Make Safe, and Authorize the Maintenance Intervention](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention)'s applicable protection and permission. [MNT.9 - Perform and Record the Maintenance Intervention](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt9---perform-and-record-the-maintenance-intervention) records what was actually performed and the resulting configuration; [MNT.10 - Verify Restored Functioning after Maintenance](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt10---verify-restored-functioning-after-maintenance) qualifies the required functioning; [MNT.11 - Hand Back and Authorize Resumed Use after Maintenance, with Certification Where Required](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt11---hand-back-and-authorize-resumed-use-after-maintenance-with-certification-where-required) handles control and resumed-use authority. These are separate claims, not a compulsory sequence for an advice request. Long-horizon recurrence remains unresolved. Stop at the adequate requested result, and reopen only the question whose evidence or operating conditions changed.
 
-## How do we recommend a development direction?
+<a id="how-do-we-recommend-a-development-direction"></a>
+
+## Engineering.Reference:11 - How do we recommend a development direction?
 
 An engineer asks what to develop next; a company asks which capability to build; a programme author asks what participants should learn within a limited time. Each needs advice about development, but the facts and methods that make an option feasible differ.
 
@@ -1053,7 +1270,9 @@ For a four-month development programme, for example, establish the later work pa
 
 The recommendation goes to the person or organization making the choice. Missing evidence about one option can limit that option while a supported alternative remains usable. If a further observation is more valuable than choosing now, explain what it should distinguish and return the probe.
 
-### Pursue a personal development aim while shared work continues
+<a id="pursue-a-personal-development-aim-while-shared-work-continues"></a>
+
+### Engineering.Reference:11.1 - Pursue a personal development aim while shared work continues
 
 A person may want to develop while a team needs reliable work now. Connect the desired contribution to its receiving use, the work and support that can obtain it, and an observation that can still change the next action. If the contribution is unsettled, [STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-5) helps relate personal interests, attainable capability and sustaining resources to a real receiving situation. A course or role title is a lead to examine.
 
@@ -1084,7 +1303,9 @@ An objective describes what is wanted; a forecast says what is expected under st
 Continue the arrangement while its purpose and conditions remain supported. Reopen the contribution that the observation actually challenges: the account of the work, a performed action, learning or support, evaluation, an obligation, or the direction itself. Check that the revision fits the joint work and its continuing commitments. A local correction can finish this question without reconstructing every goal.
 
 
-### Recommend a programme before the learners are known
+<a id="recommend-a-programme-before-the-learners-are-known"></a>
+
+### Engineering.Reference:11.2 - Recommend a programme before the learners are known
 
 Start with [PSD.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-1): the present recipient is the programme author, and the decision concerns a learning product for a future audience. Use [HCD.28](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-28) when whole-product variants need construction or revision. It connects subject content, practice, material and support under the audience and resource conditions.
 
@@ -1103,7 +1324,9 @@ If participant time falls to six hours a week, the limit becomes 204 hours. All 
 
 The author can receive advice about further design now. Because future learners are not yet identified, HCD.2 returns a learning-product design request. HCD.28 guides that design work for the audience. Once a particular participant's later Work, starting performance or profile, support conditions, feasible programme candidates, and finite resources are known, HCD.2 can compare those candidates for that person; an authorized chooser still makes the programme choice. PSD remains available for the author's present A/B/C comparison and advice. Launch, actual learning, retention and transfer need their respective decisions and evidence.
 
-## Should we scale a partner dance event after one successful showcase?
+<a id="should-we-scale-a-partner-dance-event-after-one-successful-showcase"></a>
+
+## Engineering.Reference:12 - Should we scale a partner dance event after one successful showcase?
 
 A salsa team has an exciting rehearsed showcase and is considering a larger festival slot. The intended use is social dance among unfamiliar partners.
 
@@ -1124,7 +1347,9 @@ If this team chooses a probe, arrange the permitted observation with the intende
 
 The team's next choice can be made through MDPE.7. Add another contribution when the case raises its question.
 
-## What does an engineer need to develop for future release work?
+<a id="what-does-an-engineer-need-to-develop-for-future-release-work"></a>
+
+## Engineering.Reference:13 - What does an engineer need to develop for future release work?
 
 An engineer will take part in release work in the next quarter. The work may require challenging AI output, tracing configuration impacts, recognizing critical errors and coordinating specialists across unfamiliar physical and software variants. What should the engineer develop?
 
@@ -1143,7 +1368,9 @@ HCD.4 compares current and target capabilities across simultaneous work. Preserv
 
 Keep the demand hypothesis while gathering the next discriminating observation. Select a target when the causes are distinguished, and select a profile when its decision inputs are adequate. Programme design and claims about training effectiveness or achieved capability need their own methods and evidence.
 
-## How can AP242 and QIF answer one configuration-bound inspection question?
+<a id="how-can-ap242-and-qif-answer-one-configuration-bound-inspection-question"></a>
+
+## Engineering.Reference:14 - How can AP242 and QIF answer one configuration-bound inspection question?
 
 In this constructed case, a quality engineer asks: “For released product-definition revision and configuration `R`, which QIF inspection plan and result concern feature `F` at effectivity `E`?” AP242 and QIF use different models and identifiers. The useful result is not a universal merged model; it is an inspectable answer package for this query.
 
@@ -1165,7 +1392,9 @@ The bounded positive return is a validated row set for `R`, `F` and `E`, plus ex
 
 Pass the resulting semantic premise to the applicable Systems Engineering and quality decisions. It does not choose the released revision, decide plan applicability, accept an inspection result, prove the integration is deployed, or show that a pipeline is reliable. Real work must substitute the actual source assets, local extensions, configurations, inspection records, authority and tests; this case demonstrates the method and its stopping boundaries.
 
-## Can protective review work with the capacity we have?
+<a id="can-protective-review-work-with-the-capacity-we-have"></a>
+
+## Engineering.Reference:15 - Can protective review work with the capacity we have?
 
 A service uses an automated method whose outputs can contain errors. In this constructed case, its operators are considering fewer automated runs and a review of the remaining results. The question is whether the combined action can reduce erroneous deliveries without consuming capacity needed for other work. All rates and times below are stipulated for the example, not measured performance.
 
@@ -1179,7 +1408,9 @@ The next move depends on what can change. [OPS.19 - Reconcile Simultaneous Opera
 
 Reading an output, detecting a fault and protecting the service can be constituent contributions to the same review work. Operating coordination also considers other work that competes for those minutes. This distinguishes a Method vertical from concurrent resource use. A plan to add reviews establishes neither the needed capability nor the later effect; evidence about the error and detection mechanisms can require returning to the subject model.
 
-## Learn to recover and change a way of working
+<a id="learn-to-recover-and-change-a-way-of-working"></a>
+
+## Engineering.Reference:16 - Learn to recover and change a way of working
 
 Use this practice when you know your own work and want to learn how to explain, compare and change its method. You will work from short records, propose a way for another team to work, and revise it when a condition changes. You need to be able to read the records and do simple arithmetic; a calculator is welcome. The workshop and editorial records below are constructed practice material. All the facts needed for the exercises are supplied here.
 
@@ -1187,7 +1418,9 @@ For each attempt, read the situation and task, save your answer, then read the d
 
 If a transition remains difficult, work through its explanation and correction before adding another difficulty. You may stop with a useful partial answer and a specific question. There is no requirement to finish every exercise in one sitting. If you have already seen a solution, use it as a worked example; a claim that you can reconstruct a method independently needs an attempt on other suitable material. Keep any help visible when interpreting the result of an attempt.
 
-### Start with what happened
+<a id="start-with-what-happened"></a>
+
+### Engineering.Reference:16.1 - Start with what happened
 
 You want another team to work as reliably as an experienced workshop employee who prepares kits. The employee has not yet explained the method. You have two records:
 
@@ -1206,7 +1439,9 @@ You can finish this recovery with two candidate accounts, each stating a possibl
 
 **Correct your answer.** If you treated one account as established, find the sentence that adds an unobserved fact and restate it as a possible explanation. If you only listed events, add a possible repeatable rule and show which events support it. If you stopped all further work pending an interview, distinguish explaining the old practice from proposing a future one. Explain what your colleague can use now and which claim remains unresolved.
 
-### Build a rule for the receiving team
+<a id="build-a-rule-for-the-receiving-team"></a>
+
+### Engineering.Reference:16.2 - Build a rule for the receiving team
 
 Two new dispatchers now look independently at the common stock. With three parts available, each sees enough for an order of two. The team needs assignments backed by available parts, without promising any part twice. For this exercise, A has priority over B. The process owner permits comparison of possible arrangements; introduction into actual work would need its own decision.
 
@@ -1224,7 +1459,9 @@ This is a design for new work. It uses the observations without claiming that th
 
 **Correct your answer.** If you proposed checking more carefully, keep the valid arithmetic and add the action that changes what can be promised next. If you proposed a tool, identify the operation that prevents another promise from intervening, or name that missing capability. A different arrangement can be suitable if it preserves the required result and its support is available. Rewrite your instruction so that a colleague can follow both requests and explain why B waits.
 
-### Change a condition that matters
+<a id="change-a-condition-that-matters"></a>
+
+### Engineering.Reference:16.3 - Change a condition that matters
 
 Keep your instruction from the previous attempt. First predict what it does under each changed condition; then read the corresponding discussion.
 
@@ -1240,7 +1477,9 @@ The count explains the distinction. With no receipts or losses, free parts plus 
 
 **Correct your revision.** Name the changed condition, the action that relied on it and the result the next person can now obtain. If you rewrote everything, recover an independent result that can be retained. If you changed nothing, show how the proposal prevents the competing promise. If you only wrote "coordinate with the other manager", state the decision needed: compulsory use of the common record, authority to change the work, a separate stock, or a narrower promise of coverage.
 
-### Try the reasoning on editorial work
+<a id="try-the-reasoning-on-editorial-work"></a>
+
+### Engineering.Reference:16.4 - Try the reasoning on editorial work
 
 Read this material and make an attempt before opening the discussion below. You can do this yourself; a helper is optional. If you have solved a similar problem before, use the exercise as practice without treating it as an unfamiliar task.
 
@@ -1268,7 +1507,9 @@ The question about the truth of the observations needs evidence about those obse
 
 **Correct your answer.** If you required a complete recheck, identify the claim or condition that makes each repeated operation necessary. If you allowed reuse just because a change was called cosmetic, show the comparison that establishes what actually changed. Preserve the supported arithmetic and identify the evidence needed for the new question. Explain your correction before trying another available version. The editorial rule was supplied here: using it does not establish that you discovered it independently.
 
-### Return to work you know
+<a id="return-to-work-you-know"></a>
+
+### Engineering.Reference:16.5 - Return to work you know
 
 Choose one difficulty in familiar work and use records you can legitimately access. Use several occurrences if your purpose is to recover a repeatable method; one episode can support a hypothesis. You can make this learning attempt without changing the live work or obtaining confidential material.
 
@@ -1278,7 +1519,9 @@ Use a connected account, a calculation or a small table to make your reasoning i
 
 After discussing or rereading your answer, make the correction yourself. Preserve the first attempt so that you can distinguish what you did unaided from what the discussion supplied. Choose the next task around the operation that still needs practice, rather than repeating a whole exercise by default.
 
-### Arrange useful feedback
+<a id="arrange-useful-feedback"></a>
+
+### Engineering.Reference:16.6 - Arrange useful feedback
 
 For self-checking, compare your reasoning with the explained answers above. For individual feedback, a helper examines your attempt and responds to the transition you made: how you selected facts, explained the practice, compared alternatives or changed a proposal. Memorizing the stock rule or matching the author's phrasing is a different result.
 
@@ -1303,13 +1546,17 @@ If the helper becomes unavailable, you can retain self-study and a saved attempt
 
 [HCD.9](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-9) guides practice with feedback and correction; [HCD.10](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-10) helps choose variations for the missing operation. The duplicate cancellation changes an action condition, the additional channel changes coverage, and the editorial case changes the subject. [HCD.12](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-12) distinguishes learning with a new source from applying an already demonstrated ability under changed conditions. Use the actual task and assistance when judging what an attempt shows.
 
-### Sources and further practice
+<a id="sources-and-further-practice"></a>
+
+### Engineering.Reference:16.7 - Sources and further practice
 
 Anatoly Levenchuk's *Guide to Methodology for Engineers and Managers* (Russian: «Руководство по методологии для инженеров-менеджеров», R7) explains how to make methods explicit, examine one's own work, and introduce methods through explanation and practice. If you have access to the guide, its explanations and project exercises offer further practice. The tasks above are complete without it. An equivalent exercise and workable help already available to you may be a better use of your time.
 
 FPF A.3.1.MR explains recovery of candidate methods; C.39 supplies construction and change for a receiving use. [ME.8](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me8---author-a-methoddescription-or-candidate-method-account-for-named-uses) helps make an account usable for its intended action. When a proposal is to enter real work, [ME.16](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method-into-practice-and-decide-what-to-keep-or-change) addresses introduction and what to keep or change. The exercises supply practice with these contributions; successful use in your work needs its own grounds.
 
-## How can we share a method without losing the means to develop it?
+<a id="how-can-we-share-a-method-without-losing-the-means-to-develop-it"></a>
+
+## Engineering.Reference:17 - How can we share a method without losing the means to develop it?
 
 Six engineering teams use an analysis assistant. Existing review makes its routine outputs usable. A new assignment requires changing a model assumption and explaining the resulting construction; only two shared specialists can currently supply that contribution. Should the practice developer promote the assistant to more teams? The following facts are stipulated for this example, not measured effects of an intervention.
 
@@ -1329,7 +1576,9 @@ If the probe yields a useful construction, retain the assumption, operations, ex
 
 Reading the model, interpreting its quantities and judging its use can be constituent methods enacted together in one review. Teaching another reviewer, maintaining the assistant and operating the shared service have their own work and support relations. A method vertical, a provider arrangement and a population of users need not have the same structure.
 
-### Obtain an explanation and another teacher's contribution
+<a id="obtain-an-explanation-and-another-teachers-contribution"></a>
+
+### Engineering.Reference:17.1 - Obtain an explanation and another teacher's contribution
 
 A specialist can make today's answer usable by supplying a relation absent from the shared material. If later teams need that help, the practice developer must obtain it for their use: through continued specialist provision, a revised explanation with teaching support, or another workable arrangement. Developing teaching is worthwhile only when that contribution matters to the next work.
 
@@ -1357,7 +1606,9 @@ For the six teams, obtain the grounds and consequential contrast for their own m
 
 When this work changes a shared repertoire, [CB.14](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb14---develop-and-maintain-a-shared-repertoire-of-practice) connects the returned explanation to its receiving use and agreement about correction and maintenance. Retain the required expert help until the replacement can supply its contribution. A later case that defeats the subject explanation returns to method or research work; loss of an otherwise adequate teacher or source reopens provision.
 
-### When the conditions change
+<a id="when-the-conditions-change"></a>
+
+### Engineering.Reference:17.2 - When the conditions change
 
 | Changed condition | Consequence for the next move |
 | --- | --- |
@@ -1373,7 +1624,9 @@ Finish with the supported continuation or change, the contributions it needs and
 
 
 
-## How can aesthetic form contribute to the work we need?
+<a id="how-can-aesthetic-form-contribute-to-the-work-we-need"></a>
+
+## Engineering.Reference:18 - How can aesthetic form contribute to the work we need?
 
 A product can be recognizable and awkward to handle. A story can attract attention without making its subject understandable. A movement can look continuous while feeling effortful to its performer. These differences matter when choosing what to change next.
 
@@ -1386,7 +1639,9 @@ There are two independent entries:
 
 A competent direct correction or an already adequate example can settle a small task. Use the fuller comparison when an unresolved difference could change the construction or its use. An author's exploration can be its own receiving activity; every aesthetic purpose need not be a customer, educational or commercial purpose.
 
-### Obtain a distinction that explains recognizable character
+<a id="obtain-a-distinction-that-explains-recognizable-character"></a>
+
+### Engineering.Reference:18.1 - Obtain a distinction that explains recognizable character
 
 Suppose several handles look like members of one product family, yet their catalogue description says only “restrained and modern.” Start with the decision the distinction must support. Recognizing a resemblance, designing another member, recovering how the family was produced and establishing historical authorship require different grounds. A visual similarity can help the first two without establishing the last two.
 
@@ -1404,7 +1659,9 @@ When the question is how much change is permissible, vary one declared coordinat
 
 [C.40, §4.11](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40411---build-the-representation-together-with-its-changes) helps make the material and its change operations usable. It distinguishes an unexpressible result from an expressible result unreachable through the available operations or missed by search and examination. Use that distinction when “try another variant” cannot produce the contrast. Recognition of an output still does not recover the operations that produced it. Retain a construction as an additional result only when its means and conditions are available.
 
-### Construct an expressive variant for the intended use
+<a id="construct-an-expressive-variant-for-the-intended-use"></a>
+
+### Engineering.Reference:18.2 - Construct an expressive variant for the intended use
 
 Start with the contribution the form should make. A handle may need a calm character during daily use; a narrative may need a moment of unresolved expectation before a clear explanation; an artwork may explore an impression without resolving it. Translate the purpose into a construction hypothesis. A continuous contour and fewer accents might contribute to calmness. A delayed disclosure might contribute to suspense. Neither relation is established merely by naming it.
 
@@ -1427,7 +1684,9 @@ The return to construction depends on where the proposed contribution failed. If
 
 [C.40.CU, §§4.4–4.6](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40cu44---construct-alternative-ways-of-obtaining-the-useful-result) carries a response into an obtainable use, examines the critical joins and distinguishes a supported demonstration from another performer's ability to reproduce it. In a customer encounter, [MKT.5](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt5---develop-and-align-a-customer-experience-concept) supplies the connected experience design. The cases below make the editable form and its receiving contribution concrete.
 
-### Industrial design: a recognizable handle that still admits the hand
+<a id="industrial-design-a-recognizable-handle-that-still-admits-the-hand"></a>
+
+### Engineering.Reference:18.3 - Industrial design: a recognizable handle that still admits the hand
 
 This is a constructed case, including its numerical requirements and trial responses. It explains a decision; it reports no product test or participant experiment.
 
@@ -1455,7 +1714,9 @@ Suppose the available process cannot produce B's tapered junction. A model that 
 
 Use [SYSE.2](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse2---develop-linked-use-and-system-concepts) for the linked use and system concepts, or [SYSE.6](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse6---decide-and-reopen-the-engineering-architecture) when a sufficiently stable architecture choice is the question. [SYSE.22](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse22---coevolve-engineering-problems-and-system-family-options) becomes useful when the manufacturing return changes the problem and solution family together. It is not a mandatory entry for every industrial aesthetic choice.
 
-### Narrative style: transfer the relation and expose an impossible separation
+<a id="narrative-style-transfer-the-relation-and-expose-an-impossible-separation"></a>
+
+### Engineering.Reference:18.4 - Narrative style: transfer the relation and expose an impossible separation
 
 This case is constructed too. Subject knowledge supplies a main water path A and a parallel bypass B. Closing A while B remains open does not stop the flow; closing both does. The explanatory task is to help a beginner understand why one intervention can leave the outcome unchanged.
 
@@ -1487,7 +1748,9 @@ If the reader continues with interest but cannot recover the mechanism, return t
 
 The result is a narrative construction joined to an explanation and a task that could examine its use. No reader outcome has been observed in this case. A writer can use the construction without claiming an effect; a claim that the narrative improves learning requires the corresponding comparison.
 
-### Expressive material as a discriminating research presentation
+<a id="expressive-material-as-a-discriminating-research-presentation"></a>
+
+### Engineering.Reference:18.5 - Expressive material as a discriminating research presentation
 
 Research can contribute material to aesthetic work. A perceptible arrangement can, in turn, propose a useful research distinction. The sequences 1,1,4,1,1,4 and 1,4,1,4,1,1 contain the same numbers with the same frequencies. Grouping the first into two copies of 1,1,4 exposes a repetition absent from the second. Finite comparison establishes that structure; its attractiveness establishes no physical cause. A researcher can return the proposed grouping to a domain question about what repeats and why. Direct calculation can settle this case without any aesthetic work.
 
@@ -1517,7 +1780,9 @@ If the color change also makes one shape hard to distinguish, visibility remains
 
 The connection is specific: graphic construction supplies attainable variants; [C.40.CU, §4.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c40cu43---build-the-contrast-that-can-change-the-next-move) relates compatible accounts to different possible returns; [RMP.2, §4.4](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-2) connects the question, material, professional operation and consequential criticism. The observed return then qualifies a research claim or changes the next presentation. A pleasing graphic and a discriminating graphic need not be the same graphic.
 
-### Bodily and temporal distinctions in expressive action
+<a id="bodily-and-temporal-distinctions-in-expressive-action"></a>
+
+### Engineering.Reference:18.6 - Bodily and temporal distinctions in expressive action
 
 A teacher may supply two attainable versions of a familiar, comfortable arm gesture. Both begin and end at the same positions over four beats. One traverses the movement evenly; the other pauses and makes a later, quicker transition. This is a proposed contrast, not a safe technique prescribed by this text. Use an available movement and appropriate physical limits, with qualified instruction where needed.
 
@@ -1529,7 +1794,9 @@ Present both variants under conditions in which the relevant transition can be o
 
 Changed tempo, support or partnering can defeat a relation that worked alone. Return the precise failure to [rhythmic transfer](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy13---test-transfer-retention-and-support-dependence-of-rhythmic-capability), somatic modeling or capability development while retaining any adequate contribution. [MDPE.21](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe21---design-how-a-music-or-dance-style-is-produced-and-reproduced) supplies the music-and-dance question of producing and reproducing a style. An observed solo resemblance does not supply partner coordination or the means for another performer to acquire the method.
 
-### When the needed expression requires new means
+<a id="when-the-needed-expression-requires-new-means"></a>
+
+### Engineering.Reference:18.7 - When the needed expression requires new means
 
 The valve story offers the sequence its author selected. Suppose the explanatory purpose now requires a reader to choose either valve first and inspect combinations. The required contribution is an available counterfactual action with a subject-correct response. A more animated linear story cannot by itself provide it.
 
@@ -1539,7 +1806,9 @@ Try the proposed means in the receiving task. If the model computes correctly bu
 
 For continuing use by others, [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) connects acquisition, available means and renewal. A copied finished work can preserve an experience while leaving its productive method unavailable. Keep the editable material and support needed for the changes that future users actually need.
 
-### Keep scale, purpose and the supported conclusion explicit
+<a id="keep-scale-purpose-and-the-supported-conclusion-explicit"></a>
+
+### Engineering.Reference:18.8 - Keep scale, purpose and the supported conclusion explicit
 
 | What varies? | What to retain for the next use |
 | --- | --- |
@@ -1557,19 +1826,25 @@ The transformation approach is a way to obtain and test distinctions, not a univ
 
 A constructed variant and a logically discriminating comparison establish that those constructions are available on the stated assumptions. A reader's successful attempt would establish a different result; an empirical claim about preference, learning, capability or lasting use needs the corresponding observations. Finish with the result actually obtained, the receiving decision it changes and the condition that would warrant reconsidering it.
 
-## Make an available contribution work in the whole task
+<a id="make-an-available-contribution-work-in-the-whole-task"></a>
+
+## Engineering.Reference:19 - Make an available contribution work in the whole task
 
 **Which available way should I use to obtain this result now, and what should change when my decisions repeatedly waste effort or miss needed support?** Start with the result someone must use, its conditions and the complete available ways to obtain it. A capable person can still benefit from a calculator; an agent with a good answer can still fail to use it.
 
 The first useful result is a supported choice followed by the performed operation and used answer, or a worthwhile probe or exact missing condition that prevents that choice. The [current-task explanation](#agent-current-continuation) works this through with 347 × 6 and a service update. The [development explanation](#agent-development-across-attempts) then distinguishes a poor assistance decision from a bad call, lost input and ignored return, and compares complete repairs. An adequate existing way ends the current question. New support or capability development needs its own reason.
 
-### A reminder for returning to the whole task
+<a id="a-reminder-for-returning-to-the-whole-task"></a>
+
+### Engineering.Reference:19.1 - A reminder for returning to the whole task
 
 > Keep the required result and its conditions in view; when the way is unsettled, compare complete available ways, including setup, checking and use, and choose on the evidence and preferences that matter; inquire only when the answer can change that choice enough to justify its burden; perform the selected self, supported or mixed operation and use its result in the whole; distinguish missing knowledge, access, timely observation and ability to act; for a recurring difficulty, compare changed support, changed execution and developed capability; test the chosen change now, after the relevant interval and under changed conditions; retain necessary observations and checks; stop at a usable result or return the exact missing condition.
 
 Use this reminder to resume the explanation, then open the question that matters. It recalls the dependencies worked below; it neither supplies missing evidence nor makes every branch compulsory. The [procedure-availability description](#agent-contribution-conditions), [current-continuation description](#agent-continuation-conditions) and [development description](#agent-development-conditions) answer narrower formal questions after the connected cases.
 
-### Expand the question that matters now
+<a id="expand-the-question-that-matters-now"></a>
+
+### Engineering.Reference:19.2 - Expand the question that matters now
 
 | Current difficulty | Contribution to obtain and use | Stop or return |
 | --- | --- | --- |
@@ -1590,7 +1865,9 @@ These are conditional questions, not a project sequence. A design comparison, to
 
 <a id="agent-current-continuation"></a>
 
-### Choose and perform a way to complete the current task
+<a id="choose-and-perform-a-way-to-complete-the-current-task"></a>
+
+### Engineering.Reference:19.3 - Choose and perform a way to complete the current task
 
 **Six lots contain 347 items each. What total should we report?** In this constructed case, a previous comparable check supports the person's mental decomposition 350 × 6 − 3 × 6. No record of intermediate operations is required. Paper and a local calculator are available but must be taken out; the network is unavailable. The preference is to meet the correctness requirement with the least additional setup and working burden. These are supplied teaching conditions, not measurements of people's speed or error rates.
 
@@ -1606,13 +1883,17 @@ If the device's ability to show the entered expression is unknown and that fact 
 
 Repeated lost carries can justify a better layout or procedure. Later unaided multiplication is a different result: [E.23.CDI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23cdi---developing-capability-for-a-named-work-family) and HCD supply practice, feedback and the later capability test. A correct calculator answer alone establishes neither that acquisition nor its absence. A person, the equipped performing arrangement, the tool and a record retain their distinct contributions.
 
-### A reminder for the current continuation
+<a id="a-reminder-for-the-current-continuation"></a>
+
+### Engineering.Reference:19.4 - A reminder for the current continuation
 
 > Keep the required result and current situation in view; when the way is unsettled, compare complete available ways and choose on supported performance, available means, checking and total burden, or obtain the worthwhile missing premise first; distinguish uncertainty from missing access, permission and actual effect; use a qualified assistance rule where it applies, and obtain the contribution it calls for; spend further reasoning only where it can change the choice within the remaining means; assemble the next context with its decisive grounds and unresolved effects; perform the supported move and use the actual return; reopen only the defeated premise, and stop at the usable result or exact missing condition.
 
 The service case below adds an actual world change. Its current choice still ends in a used result; the following development explanation supplies the evidence and reusable rules when those choices repeatedly go wrong.
 
-### Case A: an agent must obtain an actual engineering result
+<a id="case-a-an-agent-must-obtain-an-actual-engineering-result"></a>
+
+### Engineering.Reference:19.5 - Case A: an agent must obtain an actual engineering result
 
 These are constructed teaching cases with supplied contracts and stipulated observations, not reports of deployed-agent performance. The task is to change a test-system configuration, return its observed state in a usable report and preserve enough information to resume after interruption.
 
@@ -1624,13 +1905,17 @@ If a source review and calculation can be separated usefully, [SYSE.44](SYSTEMS-
 
 <a id="agent-collaborator-inference"></a>
 
-### Understand a collaborator before choosing the next contribution
+<a id="understand-a-collaborator-before-choosing-the-next-contribution"></a>
+
+### Engineering.Reference:19.6 - Understand a collaborator before choosing the next contribution
 
 **We supplied the same brief. Why are we preparing different results?** Start from the contribution that must fit the whole and the message or action that puts it in doubt. Construct the few alternative explanations that would change what you do next, then obtain evidence only when it can improve that choice enough to repay the interruption. The useful result is a better-grounded explanation, division or next action. A sufficient returned contribution can end the question without a detailed model of its author.
 
 This applies to uncertainty about a participant's understanding or intended continuation. If a source has actually changed, supply the current source and reopen the affected work through SYSE.44. If the next operation is already determined by an inspectable program rule, inspect that rule. With a settled division and usable returns, continue the work.
 
-#### Construct alternatives from the contribution that is at risk
+<a id="construct-alternatives-from-the-contribution-that-is-at-risk"></a>
+
+#### Engineering.Reference:19.6.1 - Construct alternatives from the contribution that is at risk
 
 Recover the required meaning and the observation before diagnosing the participant. Ask which difference in their interpretation, available information or planned action could produce that observation and make the receiving contribution fail. For each plausible account, say what you would explain, request or do differently if it held. Keep accounts together when their distinction changes no available action. These hypotheses concern the present continuation. [A.3.3.PI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a33pi---retain-the-information-needed-for-prediction) explains how to recover a consequential distinction hidden by an otherwise identical description, retain alternatives and update them from an observation.
 
@@ -1640,7 +1925,9 @@ The collaborator writes: “Case 17: reserve 0.8; I can continue checking.” On
 
 Return to the initial message with that common input unchanged. The expression “reserve 0.8” is consistent with confusing a capacity/demand ratio with surplus, but it could also be an imprecise label from someone who understands the margin. The planned “check” could revisit the original source or merely recalculate the copied table. The first uncertainty changes the explanation; the second changes the division of work.
 
-#### Choose an observation by the work it can change
+<a id="choose-an-observation-by-the-work-it-can-change"></a>
+
+#### Engineering.Reference:19.6.2 - Choose an observation by the work it can change
 
 Ask what you would expect to observe under each retained account. A useful question, small work sample or permitted observation makes those predictions differ at a point relevant to the receiving result. An assurance such as “I understand” fits both calculation accounts too easily. Repeating a person's own words may test recall while leaving their use of those words unknown. Prefer a return that exercises the disputed meaning or exposes the proposed operation.
 
@@ -1650,7 +1937,9 @@ Compare the question with explaining the convention directly, specifying the sou
 
 If only one short calculation remains, requesting its complete, checkable return may finish the work directly. If an explicit explanation and division are cheaper and adequate under all remaining accounts, use them. When the partner is unavailable or the distinction cannot be observed in time, choose a supported continuation under the unresolved alternatives or state the missing condition. The example's two questions are not a form that every collaboration must complete.
 
-#### Revise the account and perform the changed continuation
+<a id="revise-the-account-and-perform-the-changed-continuation"></a>
+
+#### Engineering.Reference:19.6.3 - Revise the account and perform the changed continuation
 
 Suppose the row says `80 / 100 = 0.8`, “positive reserve, pass.” That defeats the shortened-label account for this current return. Explain why the ratio must be reduced by one, giving `0.8 - 1 = -0.2`, then obtain an application to another relevant row before relying on the remaining calculations. For a supplied capacity 120 and demand 100, `120 / 100 - 1 = 0.2` passes the same numerical rule. A correct second row supports this bounded application. The receiving engineering checks still govern the finished comparison.
 
@@ -1660,7 +1949,9 @@ An unclear reply may leave both interpretation accounts possible. Obtain a small
 
 Use the qualified observation through [A.15.7](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a157---situation-responsive-work-steering-and-next-action-selection) to choose the present action, and through [SYSE.44](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse44---divide-and-recombine-work-across-llm-agents) to prepare the contribution and check its join. Preserve a supported calculation while repairing its interpretation or source contribution. Stop when the needed result is usable or all remaining accounts support the same action. A later contradictory return can reopen the question. Inferred intent supplies neither permission to act nor the commitment on which another participant's work may depend.
 
-#### Adapt the observation to the participant and the claim
+<a id="adapt-the-observation-to-the-participant-and-the-claim"></a>
+
+#### Engineering.Reference:19.6.4 - Adapt the observation to the participant and the claim
 
 With a technical agent given the same brief, inspect a returned expression, cited source or observable proposed operation. A forecast that it will reuse copied values can be revised from those returns without access to private reasoning. If the actual interface or program determines the operation, its documented behavior or a permitted test may settle the question more directly. Explaining a convention to a person and changing an agent's input or program are different interventions; observe whether the selected intervention produces the required contribution in that realization.
 
@@ -1670,7 +1961,9 @@ For a different task, recover its own disputed meaning and what a useful return 
 
 <a id="agent-development-across-attempts"></a>
 
-### Develop the arrangement across attempts
+<a id="develop-the-arrangement-across-attempts"></a>
+
+### Engineering.Reference:19.7 - Develop the arrangement across attempts
 
 Continue the service update: obtain the supported change, at most one effect and a report of actual state. Before that operation, the agent must use the applicable interface procedure, including how to look up an unresolved attempt. The optional contribution varied below is **documentation access for that decision**. The execution interface, current-state observations, permissions and required controls remain available in every regime. Removing them would defeat the world-change task rather than isolate this lookup decision.
 
@@ -1731,13 +2024,17 @@ If a later comparison selects [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK
 
 Development returns a changed arrangement and bounded decision evidence, or a precise failure to its constructor. Useful construction can proceed while the current update lacks a live contribution; synthetic success does not establish receiving-service transfer. The example connects evidence → current choice/use → diagnosed misallocation → compared repair → construction → diagnostic qualification. It is not a compulsory cycle through the family.
 
-### A reminder for development across attempts
+<a id="a-reminder-for-development-across-attempts"></a>
+
+#### Engineering.Reference:19.7.1 - A reminder for development across attempts
 
 > Start from a recurring wrong decision and the result its receiver needs; recover performance without optional support, with supplied support and with the agent's own choice where that contrast answers the question; use the trace to distinguish selection, invocation, lost material and ignored return; compare complete changes to memory, input, procedure, tools, division or learned capability against their stability, recurrence and whole cost; retain current observation, execution, verification and control wherever the result needs them; construct the selected change and any missing informative experience; test on independent cases whether the decision and used result improve, including older useful behavior and the relevant delay or shift; retain what helped and stop development when its expected gain no longer warrants the burden.
 
 The following variations develop the controller, prediction and experience contributions used in that explanation. A trace selects the affected question; these constructions are not a required sequence.
 
-#### A1. Consume the returned premise while the model stays fixed
+<a id="a1-consume-the-returned-premise-while-the-model-stays-fixed"></a>
+
+#### Engineering.Reference:19.7.2 - A1. Consume the returned premise while the model stays fixed
 
 The agent repeatedly retrieves an already usable maintenance procedure. The trace shows that the controller never marks the outstanding premise as supplied. An engineer can change the surrounding software but has no training access.
 
@@ -1751,7 +2048,9 @@ When the claim includes persistence, compare four occasions: the initial repeate
 
 Keep delayed and shifted final cases outside tuning. Record configuration, support actually available, evaluator basis and intervening updates at each occasion. A hidden provider update prevents a controller-only persistence attribution; newly retained support changes the performing arrangement. The required observations are specified here, not asserted as measured successes.
 
-#### A2. Let delayed consequences change the next choice
+<a id="a2-let-delayed-consequences-change-the-next-choice"></a>
+
+#### Engineering.Reference:19.7.3 - A2. Let delayed consequences change the next choice
 
 Three service workers each supply one unit of capacity per interval. The domain owner permits two update alternatives: restart all workers in one interval, or one worker per interval over three intervals. It supplies a maximum backlog of two units, a later clearing period and a preference for earlier completion when the limit is met.
 
@@ -1768,7 +2067,9 @@ The exact recurrence is the simpler calculation. If a fitted or LLM-generated su
 
 Agreement with the model does not establish agreement with the service. [SYSE.10](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse10---assess-research-model-and-trial-results-for-an-engineering-decision) bounds that reliance; [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure) binds current conditions and the error return; [C.24](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c24---plan-tool-or-service-calls-for-a-fixed-action-cagent-tools-cal) plans the selected action and [SYSE.42](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse42---execute-a-proposed-llm-tool-call-and-use-its-result) performs it. If an actual restart reveals another service rate, return through [MMP.14](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp14---find-and-repair-a-mathematical-models-failed-predictions) to the affected observation and transition. Do not relabel the earlier forecast as an observed effect.
 
-#### A3. Construct informative experience before changing the controller
+<a id="a3-construct-informative-experience-before-changing-the-controller"></a>
+
+#### Engineering.Reference:19.7.4 - A3. Construct informative experience before changing the controller
 
 Lost acknowledgements are expensive to reproduce on the real service. [SYSE.49](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse49---construct-informative-tasks-and-feedback-environments-for-llm-work) constructs a small fixture that separates missing effect from missing reply. The interface contract supplies the result: requested target/version, at most one effect per attempt, no completion from an acknowledgement alone, and no blind replay of an unresolved effect.
 
@@ -1780,7 +2081,9 @@ Deliberately make a generator and its generated verifier equate acknowledgement 
 
 Qualified traces return to [SYSE.47](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse47---construct-and-revise-an-llm-agents-execution-procedure)'s fixed-model repair. A wrapper under [SYSE.48](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse48---construct-and-maintain-reusable-tools-and-skills-for-llm-work) or training under [SYSE.45](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse45---train-an-llm-policy-from-qualified-interaction-experience) is an optional separate construction. [SYSE.46](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse46---test-a-tool-using-llm-configuration-in-representative-work) uses separately prepared final cases and actual interface conformance before extending reliance. If the real service lacks the fixture's attempt lookup, return that transfer gap while retaining still-valid normal-result exercises.
 
-### Case B: a timely cue must enter a coordinated bodily action
+<a id="case-b-a-timely-cue-must-enter-a-coordinated-bodily-action"></a>
+
+### Engineering.Reference:19.8 - Case B: a timely cue must enter a coordinated bodily action
 
 A learner can make a familiar correction when prompted but loses rhythm or partner contact while inspecting body parts serially. The teacher supplies appropriate technique and practice conditions. The target is a coordinated action; independent noticing, if required, is a separate target.
 
@@ -1792,7 +2095,9 @@ A learner can make a familiar correction when prompted but loses rhythm or partn
 
 The useful result can be a supported coordinated action, independent performance under tested conditions, or a precise missing observation/response. Removing a needed cue changes the conditions; it does not by itself prove that the learner lost knowledge. Agent-controller repair and human motor learning keep their separate mechanisms.
 
-### Case C: make a repeated calculation obtainable and adaptable
+<a id="case-c-make-a-repeated-calculation-obtainable-and-adaptable"></a>
+
+### Engineering.Reference:19.9 - Case C: make a repeated calculation obtainable and adaptable
 
 A team repeatedly asks a specialist to normalize measurements, calculate and explain the result's limit. One failure used an old unit convention; successors also receive numbers without knowing when the equation applies. [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) makes that interpretation and renewal need visible.
 
@@ -1808,13 +2113,17 @@ The case may end with direct help when construction and maintenance cost more th
 
 <a id="agent-contribution-conditions"></a>
 
-### Available continuations when an agent has a usable procedure
+<a id="available-continuations-when-an-agent-has-a-usable-procedure"></a>
+
+### Engineering.Reference:19.10 - Available continuations when an agent has a usable procedure
 
 Use this bounded structure description to answer **which of Continue, Obtain and Repair has its stated conditions in the supplied case?** It applies the formal branch of [A.22.CGUS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22cgus---which-continuations-are-available--constraint-governed-unfolding-structure-cgus) to an illustrative agent task. An ordinary task can stop with the preceding explanation; this unit makes the structural and case distinctions replayable.
 
 Call the selected structure **G** within this unit. Its identity is the following constituent set, four obtaining descriptive relations, three applied constraints and selection-use frame. The permitted descriptive action is to display availability and the first missing or defeated condition. Stop when that question is answered; obtain a missing case fact from its stated supplier. The display neither executes nor authorizes a continuation.
 
-#### Constituents and local loci
+<a id="constituents-and-local-loci"></a>
+
+#### Engineering.Reference:19.10.1 - Constituents and local loci
 
 Each row declares one locus local to G, binds the identically labelled constituent and states its role. These are descriptions and candidate continuations, not records of performed work.
 
@@ -1829,7 +2138,9 @@ Each row declares one locus local to G, binds the identically labelled constitue
 | **Obtain** | Candidate continuation: enact Q to supply the unresolved or defeated applicability contribution, under constraint O. |
 | **Repair** | Candidate continuation: construct and test the controller revision described by R, under constraint R-test. |
 
-#### Obtaining relations selected by G
+<a id="obtaining-relations-selected-by-g"></a>
+
+#### Engineering.Reference:19.10.2 - Obtaining relations selected by G
 
 The following local predicates concern written descriptive content. Their meanings, participant order and basis are part of this scheme. They introduce no reusable relation signature or global ontology.
 
@@ -1842,7 +2153,9 @@ The following local predicates concern written descriptive content. Their meanin
 
 These relations obtain because the descriptions have that content. They do not assert an acquisition, repair or state change has occurred. A missing selected relation leaves this formal identity provisional; the ordinary explanation can remain usable. The case facts below do not manufacture the relations.
 
-#### Constraints and potential continuations
+<a id="constraints-and-potential-continuations"></a>
+
+#### Engineering.Reference:19.10.3 - Constraints and potential continuations
 
 The domain/interface supplier defines what counts as an applicable procedure, current target observation, sufficient combined ability/resources/timing, resolved prior effect and permitted acquisition. The four constructed cases below stipulate values for those meanings. All required polarities are affirmative; a predicate such as “an applicability contribution is needed” already contains its stated missing-or-defeated meaning.
 
@@ -1856,7 +2169,9 @@ Individual ability does not establish c. Training access is not one of Repair's 
 
 All three candidates remain in G's potential topology. They are alternatives under the constraints, not stages. The case results exhibit Continue and Obtain in different cases and Repair while operational progress is blocked or unknown. After obtaining a new contribution, re-evaluate the affected facts; no unqualified temporal edge or mandatory next action is added to G.
 
-#### Case inputs and their scope
+<a id="case-inputs-and-their-scope"></a>
+
+#### Engineering.Reference:19.10.4 - Case inputs and their scope
 
 The source of the following case values is this explicitly constructed teaching scenario. They are stipulated about the current procedure, target, performing arrangement and proposals; they are not empirical observations. The written constituent and relation definitions above remain the descriptive basis in every case.
 
@@ -1873,7 +2188,9 @@ W0–W3 name four alternative comparison windows. Each window holds its stated f
 
 For an actual use, replace these stipulated facts with applicable evidence from the procedure source, target observation, resource/timing account, permission holder and construction experience. This changes the case result. It does not turn the teaching stipulation into evidence about the deployed system.
 
-#### Separate judgements and derived current sets
+<a id="separate-judgements-and-derived-current-sets"></a>
+
+#### Engineering.Reference:19.10.5 - Separate judgements and derived current sets
 
 Each row below is one candidate judgement. Its constraint identifies the applicable test and affirmative polarity; its case/window identifies every input and about-subject basis in the preceding table; its dependencies identify the selected obtaining occurrences in the constraint table. The rRK basis is separately the obtaining descriptive relation, not a condition value inferred from a label.
 
@@ -1910,7 +2227,9 @@ This whole-structure description exposes all three potential continuations and t
 
 <a id="agent-contribution-demonstration"></a>
 
-### A changed source changes the available continuation
+<a id="a-changed-source-changes-the-available-continuation"></a>
+
+### Engineering.Reference:19.11 - A changed source changes the available continuation
 
 This separate demonstrative episteme teaches one contrast about **G**, the exact structure identified in [Available continuations when an agent has a usable procedure](#agent-contribution-conditions). Under [C.2.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c21---uepisteme-constitution-empirical-grounding-and-edition-relations), its identity is the following claim content, that G as EntityOfConcern, and the effective reference scheme stated here. The page and this displayed sequence carry the claims; neither is G.
 
@@ -1934,7 +2253,9 @@ This slice omits the selected Methods' internal operations, a B.1.5 Method whole
 
 <a id="agent-continuation-conditions"></a>
 
-### Which configured continuation has its conditions now?
+<a id="which-configured-continuation-has-its-conditions-now"></a>
+
+### Engineering.Reference:19.12 - Which configured continuation has its conditions now?
 
 Use this bounded description when the [current-task explanation](#agent-current-continuation) is understood and a reader needs to inspect the conditions of **Use, Obtain, Deliberate and RebuildContext** separately. It describes **Gc**, one illustrative A.22.CGUS structure, by the constituents, obtaining descriptive relations, constraints and use frame below. Its permitted descriptive action is to report availability and its missing or defeated condition. Stop at that answer or return a missing case fact to its supplier. It does not choose among every conceivable action.
 
@@ -1949,7 +2270,9 @@ Use here means following the configured policy-dependent way. Case 0's direct ar
 | **Ec** | Effort proposal to resolve Tc's outstanding comparison with an applicable evaluator, preserving the required completion effort. |
 | **Use; Obtain; Deliberate; RebuildContext** | Four candidate continuations: use the supported configured way; carry out Qc; perform Ec's comparison; reconstruct Cc's lost input. Each has its own constraint below. |
 
-#### Descriptive relations selected by Gc
+<a id="descriptive-relations-selected-by-gc"></a>
+
+#### Engineering.Reference:19.12.1 - Descriptive relations selected by Gc
 
 | Selected occurrence | Predicate and ordered participants | Obtaining descriptive basis |
 | --- | --- | --- |
@@ -1983,7 +2306,9 @@ For each candidate, inspect its complete conjunction and relation basis. Invalid
 
 <a id="agent-continuation-demonstration"></a>
 
-### A lost input and a smaller budget change different continuations
+<a id="a-lost-input-and-a-smaller-budget-change-different-continuations"></a>
+
+### Engineering.Reference:19.13 - A lost input and a smaller budget change different continuations
 
 This separate C.2.1 demonstrative episteme has **Gc**, as identified in the preceding description, as its EntityOfConcern. Its claim is that changed applicability, input or remaining effort changes particular availability judgements while the selected descriptive structure remains fixed. Its ReferenceScheme binds Tc/Pc/Cc/Qc/Ec, the four continuations, rPT/rCPT/rQT/rET, condition letters and Wc/C0–C4 to the exact definitions above. Each row below supplies one candidate's test, case basis, required values and reason; the description supplies its affirmative polarity, participant meanings, source bounds and dependent occurrences.
 
@@ -2016,7 +2341,9 @@ The displayed values are stipulated, not observed agent performance. New case fa
 
 <a id="agent-development-conditions"></a>
 
-### Can development proceed while current work is blocked?
+<a id="can-development-proceed-while-current-work-is-blocked"></a>
+
+### Engineering.Reference:19.14 - Can development proceed while current work is blocked?
 
 This description identifies **Gd**, a bounded A.22.CGUS structure for the [development explanation](#agent-development-across-attempts). Its question is which of **PerformCurrent, ConstructRevision and QualifyRevision** has its stated conditions in the supplied case. Display that availability and its exact gap, then stop or obtain the missing condition. This use concerns a revision intended for the receiving service, including its transfer basis; a sandbox-only exercise answers a different question.
 
@@ -2029,7 +2356,9 @@ This description identifies **Gd**, a bounded A.22.CGUS structure for the [devel
 | **Ld** | Transfer account relating Fd's state/effect predicates and outcome lookup to the actual interface required for Td. |
 | **PerformCurrent; ConstructRevision; QualifyRevision** | Three candidate continuations: perform the current supported way; construct Rd; independently qualify the constructed candidate for the receiving use. |
 
-#### Descriptive relations selected by Gd
+<a id="descriptive-relations-selected-by-gd"></a>
+
+#### Engineering.Reference:19.14.1 - Descriptive relations selected by Gd
 
 | Selected occurrence | Predicate and ordered participants | Obtaining descriptive basis |
 | --- | --- | --- |
@@ -2061,7 +2390,9 @@ Use S/N/U with the meanings above. Invalid or inconsistent input returns Error f
 
 <a id="agent-development-demonstration"></a>
 
-### Available construction is different from a qualified result
+<a id="available-construction-is-different-from-a-qualified-result"></a>
+
+### Engineering.Reference:19.15 - Available construction is different from a qualified result
 
 This separate C.2.1 demonstrative episteme concerns **Gd**, the exact structure just described. It claims that current work can stay blocked while construction becomes available, and that bad feedback, unknown transfer and completed construction change different continuations. Its ReferenceScheme resolves Td/Hd/Rd/Fd/Ld, the three continuations, four relation occurrences, condition letters, S/N/U and Wd/D0–D3 to that description. The table gives every candidate judgement, with its case/window, applicable constraint, condition values and reason. The description supplies the ordered participants, affirmative polarity, subject and source basis, and dependent occurrences.
 
@@ -2084,13 +2415,17 @@ D0 permits construction while performance lacks its live contribution. D1 defeat
 
 Changing feedback truth, a live contribution or candidate availability changes the case. Changing the selected relation, constraint or question requires identifying the changed structure. A sandbox exercise that makes no receiving-transfer claim may remain useful under its own conditions; it cannot waive t in this receiving-use structure. Gd does not measure the repair's gain, select the best development arrangement or resolve current permission. Those answers come from the connected explanation, the actual suppliers and their evidence.
 
-## Explore a situation through goals and dependencies
+<a id="explore-a-situation-through-goals-and-dependencies"></a>
+
+## Engineering.Reference:20 - Explore a situation through goals and dependencies
 
 Use this account when a proposed change looks useful from one participant's position, but you cannot explain what it would require or change for the others. It develops an early inquiry using participants' intentions, provision and alternatives. The result may be a comparison, a newly discovered difficulty or a precise question for investigation. A diagram is useful when it makes those relationships easier to inspect; a list of goals alone supplies no analysis.
 
 The connected contributions are [PSD.2](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd2---recover-participants-concerns-and-affected-systems-for-a-decision-support-inquiry) for whose concerns enter, [PSD.5](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd5---construct-complementary-situation-and-option-models) for what the model can answer, [PSD.8](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd8---generate-decision-alternatives) for alternatives, and [PSD.11:4.2.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd11421---construct-and-question-a-qualitative-consequence-network) for qualitative analysis. Enter at the unresolved question and retain usable answers. If a current direct calculation or an already qualified comparison settles it, use that result.
 
-### Let the question determine what to model
+<a id="let-the-question-determine-what-to-model"></a>
+
+### Engineering.Reference:20.1 - Let the question determine what to model
 
 Begin with an episode, proposal or unexplained result. Ask who needs an answer, what they could do with it and which difference would change that action. Obtain relevant participants' accounts where possible; otherwise use attributable interviews, documents and observations, retaining unanswered questions for those who know the work. Participation in constructing the model can help correct it, but attendance does not establish agreement with a proposal.
 
@@ -2100,7 +2435,9 @@ Include drivers because the guidance affects finding a place; attendants because
 
 Keep the questions distinct. What would make the displayed count trustworthy? Can the work supply it when needed? How would the alternatives affect cost and the concerns behind reputation? A model of intentions can expose these questions before it has the technical estimates needed to answer all of them.
 
-### Connect provision to the reasons on both sides
+<a id="connect-provision-to-the-reasons-on-both-sides"></a>
+
+### Engineering.Reference:20.2 - Connect provision to the reasons on both sides
 
 Separate a desired state, an action, a required entity and a quality. “Current guidance is available” states a desired result. “Walk each floor and enter a corrected count” prescribes work. The count is information used in producing the display. Accuracy concerns whether that information represents the occupied and available spaces well enough for the intended guidance. A completed round does not by itself establish that accuracy.
 
@@ -2116,7 +2453,9 @@ Now recover the internal relationships that explain the alternatives. Current gu
 
 For each arrow, state whether it means a necessary condition, a sufficient alternative, a favorable or adverse contribution, or a quality of something. Accuracy can help reputation without guaranteeing it: the manager also relates reputation to protection of parked cars. An arrow saying that protection matters does not establish that it is provided.
 
-### Show the part of the model needed for the current question
+<a id="show-the-part-of-the-model-needed-for-the-current-question"></a>
+
+### Engineering.Reference:20.3 - Show the part of the model needed for the current question
 
 A view showing only participants and external provision helps locate a missing supplier. Opening the manager's and attendant's internal reasons exposes why the count is needed and what work supports it. Opening the supplier's proposed arrangement becomes useful when installation or later maintenance can change the answer.
 
@@ -2124,7 +2463,9 @@ In iStar these are the strategic dependency view, strategic rationale view and s
 
 For this car park, an overview can show “attendant supplies count”. To examine availability during a shift, open the checking task and its staffing conditions. To compare whole cost, obtain the relevant cost account; opening more circles does not calculate it. The [iStar 2.0 Guide, §§2–8](https://arxiv.org/html/1605.07767v3) supplies the notation, distinctions and integrity rules when an actual iStar model is wanted. This prose walkthrough uses those distinctions without claiming to be a solver-ready model.
 
-### Turn a working question into an analysis, then recover its meaning
+<a id="turn-a-working-question-into-an-analysis-then-recover-its-meaning"></a>
+
+### Engineering.Reference:20.4 - Turn a working question into an analysis, then recover its meaning
 
 Define one alternative precisely enough to tell which work and assumptions change. Alternative A retains the existing displays and uses manual correction. Alternative B installs the proposed replacement and uses its automatic counts. For the initial comparison, suppose staffing for A is available and the supplier has described a technically plausible B, while B's installation interval and whole cost remain unknown. Do not compare A in its troublesome current state with B in an unexplained ideal state.
 
@@ -2146,7 +2487,9 @@ Return an answer in the language of the original inquiry:
 
 This comparison does not yet justify the investment. It identifies what the proposal can improve and which missing facts can change the choice. Obtain a bounded installation and whole-cost answer if its expected contribution warrants the work; otherwise retain the conditional comparison or defer the choice. The answer is not “B has more satisfied goals”.
 
-### Use surprising results to discover a different problem
+<a id="use-surprising-results-to-discover-a-different-problem"></a>
+
+### Engineering.Reference:20.5 - Use surprising results to discover a different problem
 
 Suppose the first model gave A an unqualified favorable result because it represented the round but omitted other assignments. Ask what must be true for that result to hold. Inspecting the rota now reveals that the same attendant must be at the security desk from 10:00 to 10:15, while the modeled correction requires leaving it for a round from 10:00 to 10:10. No substitute is assigned. These stipulated facts defeat the simultaneous arrangement.
 
@@ -2162,7 +2505,9 @@ A different candidate might change the update interval or the information promis
 
 Keep the unsuccessful combination and the reason it failed so that the next attempt does not repeat it. In a formal backward analysis, ask which supported conditions and judgements produce the incompatibility. A solver's failure can concern its encoding, restrictions or current assumptions; it is not a proof that the real organization has no remedy.
 
-### Stop with a usable answer and preserve the right return
+<a id="stop-with-a-usable-answer-and-preserve-the-right-return"></a>
+
+### Engineering.Reference:20.6 - Stop with a usable answer and preserve the right return
 
 The manager now has a useful result: replacement is not yet justified by the conditional service comparison; the original staffing proposal cannot provide both services; and the revised allocation has supplied them in the stipulated interval. The immediate allocation question and the longer investment question have different owners and inputs. A repaired rota can settle the first without settling the second. A completed cost comparison does not itself allocate a checker.
 
@@ -2172,14 +2517,18 @@ When a new fact arrives, identify which assumption, relation or judgement change
 
 When the analysis itself is difficult, try a small interpretable question whose expected result can be explained from the modeled relationships. Inspect unreached intentions and omitted providers before taking coverage for granted. The authors' later suggestions include extreme hypothetical settings and realistic alternatives as ways to question a model. Such settings are diagnostic questions, not feasible plans or a compulsory checklist. Preparation in the chosen language and help interpreting a model may be needed; neither a completed diagram nor this walkthrough establishes independent modeling capability.
 
-### Language, analysis and evidence have different limits
+<a id="language-analysis-and-evidence-have-different-limits"></a>
+
+### Engineering.Reference:20.7 - Language, analysis and evidence have different limits
 
 The iStar Guide defines a language; the [PoEM 2009 treatment](https://www.cs.toronto.edu/~jenhork/Papers/Horkoff_PoEM_2009l.pdf) develops interactive modeling and forward evaluation. The [ER 2010 procedure](https://www.cs.toronto.edu/~jenhork/Papers/ER_Horkoff.pdf) adds formal backward search with human judgements and backtracking under stated structural restrictions. The manual backward question used here is an adaptation, not an implementation of that algorithm. If a named solver is used, select compatible language and analysis versions and preserve their restrictions, rather than applying older propagation tables to iStar 2.0 without a justified mapping.
 
 The [subsequent systematic-versus-ad-hoc study](https://www.cs.toronto.edu/~jenhork/Papers/PoEM10_Horkoffetal.pdf) gives reasons to attend to interpretation, coverage and training. It does not establish that a systematic procedure uniquely produces better understanding or more useful new questions. Use the model and its analysis for the contribution they can actually supply, then establish the domain evidence and decisions needed for reliance.
 
 
-## They understand or agree; why does the needed work still not follow?
+<a id="they-understand-or-agree-why-does-the-needed-work-still-not-follow"></a>
+
+## Engineering.Reference:21 - They understand or agree; why does the needed work still not follow?
 
 Use this entry when an unclear or disputed proposal, apparent understanding or agreement leaves the next contribution uncertain. A buyer may understand an offer yet have good reasons to decline it. An operator may agree with a change yet lack an input, permission, time or a way to perform the required action. Find the question that matters to the participants, then choose a contribution that answers it and can be used in the receiving work.
 
@@ -2189,7 +2538,9 @@ The first useful answer can be a supported comparison, a revised proposal, an in
 
 If the needed method and its conditions are already clear, use it directly. Open only a question whose answer can change the work. When the question has become which of several complete available ways to choose, how to perform the selected way or how to improve recurring assistance decisions, continue with [Make an available contribution work in the whole task](#make-an-available-contribution-work-in-the-whole-task).
 
-### Recover the question and develop the reasons
+<a id="recover-the-question-and-develop-the-reasons"></a>
+
+### Engineering.Reference:21.1 - Recover the question and develop the reasons
 
 Recover a recent or representative episode before choosing how to intervene. Establish who did what, what resulted and which work used or lacked that result. Keep an observation such as a late report distinct from an explanation such as repeated entry causing the delay. “We dislike this system” is a complaint; “we need a checked report before allocating the next shift” names a desired result. Whether to pursue it through a new system remains a decision. Recover a missing participant or concern when it could change that decision.
 
@@ -2205,7 +2556,9 @@ Change the contribution when the decision question changes. Once a buyer has acc
 
 These questions can be pursued in conversation, asynchronously or by several participants. A demonstration may clarify an explanation while exposing a new concern; colleagues may compare options while a data owner examines permission. Connect the answers required by the chosen action before relying on them; they need not arise in one order.
 
-### Examine the proposed means and affected concerns
+<a id="examine-the-proposed-means-and-affected-concerns"></a>
+
+### Engineering.Reference:21.2 - Examine the proposed means and affected concerns
 
 Name the purpose stated by the participant responsible for the receiving work. A supervisor may need a checked report to allocate work, while a supplier proposes obtaining named error histories to prepare it. Ask which part of the proposed action supplies the needed result and which part creates the objection. If a hidden motive is suspected, retain it as a hypothesis with its grounds. Agreement or disagreement alone does not establish it.
 
@@ -2221,7 +2574,9 @@ State what is being declined and which obligations remain. A buyer can decline a
 
 Use this reasoning for the conflict that can change the action. An ordinary requested explanation or an adequately supported permissible action needs no new ethics dossier. [D.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#d2---recognize-ethical-concerns-across-levels-and-scopes-multilevel-ethics) helps recognise a concern when that is the missing question; [D.5](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#d5---bias-audit-and-ethical-assurance) addresses a separate ethical-assurance claim. Recognising a concern, judging a proposed use and obtaining permission are different results.
 
-### Examine a disputed basis for requiring work
+<a id="examine-a-disputed-basis-for-requiring-work"></a>
+
+### Engineering.Reference:21.3 - Examine a disputed basis for requiring work
 
 Use this when participants understand the requested work but disagree about why one of them may require it of another. A broken tool can prevent permissible work. A clear request can exceed the requester's authority. A history of unfulfilled undertakings can undermine reliance on a new one. Ask which ground the person is giving: another explanation of the work's value will not by itself repair any of these conditions. More than one question may need an answer.
 
@@ -2235,7 +2590,9 @@ Return the answer to the work. Name what can now be requested, decided or perfor
 
 This change of subject is informed by Dietz and Mulder's [Enterprise Ontology](https://doi.org/10.1007/978-3-030-38854-6), §§8.2.1 and 8.2.6: participants can question the norms of their interaction, and an attempted revision can leave an earlier commitment unchanged. [Enterprise Design Fundamentals](https://doi.org/10.1007/978-3-031-83262-8), §6.2.6, also distinguishes disputes about the requested product from disputes about rightness or sincerity. The applicable arrangement supplies the particular authority and revision conditions; these distinctions do not impose one transaction protocol on every conversation.
 
-#### Reporting: a claimed extension of authority
+<a id="reporting-a-claimed-extension-of-authority"></a>
+
+#### Engineering.Reference:21.3.1 - Reporting: a claimed extension of authority
 
 Use the reporting agreement developed in the purchase case below: the operations manager may release specified current-entry fields for the trial, while named error histories retain their separate protection. Now suppose a manager says, "I am responsible for reporting, so send the supplier the named histories." The worker accepts the need for a checked handover but disputes that conclusion. Ask which provision extends this manager's reporting authority to that disclosure. Under the stated agreement, responsibility for reporting does not supply the missing extension.
 
@@ -2243,7 +2600,9 @@ The current-entry extract remains an available proposal: the operations manager 
 
 Change the premise. The manager says that a later amendment authorized the export. Obtain the amendment, establish who could make it effective, and check its purpose, people, fields and period. A verified applicable amendment changes the permission question; compare the changed use and affected concerns before selecting the continuation. If the amendment cannot be established, its claimed extension remains unresolved. Continue the earlier limited handover only while its own authority, resources and receiving conditions still hold. If the dispute concerns who may amend the agreement, return that exact question through the agreement's decision procedure; an office name alone does not settle it. A proposal to adopt an amendment is not evidence that it already took effect.
 
-#### An asserted earlier undertaking
+<a id="an-asserted-earlier-undertaking"></a>
+
+#### Engineering.Reference:21.3.2 - An asserted earlier undertaking
 
 Suppose a purchaser tells a service team, "You already promised today's extract." The only available message is a draft offer marked as awaiting the service owner's approval. In this constructed arrangement, only that owner can commit the team, and an approved work order specifying the delivery institutes its duty. The draft does not establish that duty. Other communications may exist, so neither the purchaser's assertion nor the missing approval settles whether a commitment was made. Ask for the approved order or another basis recognized by the arrangement.
 
@@ -2251,13 +2610,17 @@ While that question is open, do not plan the dependent report as though the asse
 
 Now an approved order covering this team, extract and day is found. The duty's basis is established, but the team reports unavailable capacity. The question becomes restoration or a permitted change to delivery. Under the case's rule, a capacity shortage does not cancel the order; revising the delivery time requires the service owner's and purchaser's agreement. Proposing a delay does not yet revise the order; if agreement fails, its duty remains while the delivery problem and its consequences still need handling. Use [MKT.7](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt7---continue-restore-or-end-a-customer-relationship) to address an owed service contribution and its consequences; the purchase case below follows a missing input through the reporting work. Confirmation of a duty is not confirmation that the extract will arrive.
 
-#### An ordinary request outside the offer
+<a id="an-ordinary-request-outside-the-offer"></a>
+
+#### Engineering.Reference:21.3.3 - An ordinary request outside the offer
 
 In a constructed pizzeria case, the offer covers food and the restaurant has made no undertaking to obtain footwear. A customer asks the waiter to buy sandals and claims that being a customer entitles them to that service. Clarifying the offer identifies the unsupported extension: the customer may ask, but this arrangement gives no footwear obligation. The waiter can decline without persuading the customer to prefer a narrower offer. Help finding a shop is optional. If both already understand this boundary, a brief answer suffices.
 
 A separate concierge offer changes the inquiry. Read its actual scope and any undertaking made under it; neither the word customer nor the restaurant setting decides the result. If an authorized concierge promise has already created a duty, use the preceding undertaking-and-revision reasoning. The initial freedom to decline a service cannot establish release from that later duty.
 
-### Find the contribution that is still missing
+<a id="find-the-contribution-that-is-still-missing"></a>
+
+### Engineering.Reference:21.4 - Find the contribution that is still missing
 
 Name the participants and what each must obtain or do. In a reporting-system purchase, the buyer needs a justified choice, the data owner controls retrieval, the operations manager decides the permitted release, an operator needs to prepare a checked report and the receiving supervisor uses it to allocate work. These participants can understand the same proposal while making different decisions. One person's willingness does not supply another person's authority, available time or contribution.
 
@@ -2277,7 +2640,9 @@ Select the contribution from the difficulty:
 
 These are examples of contributions selected by the difficulty, not a complete catalogue or required sequence. A person who performs adequately with permitted help may already meet the work's need. Independence becomes a development target when the receiving work requires it. Missing data or permission can stop a capable person's work without changing that capability.
 
-### Connect the returned result to its use
+<a id="connect-the-returned-result-to-its-use"></a>
+
+### Engineering.Reference:21.5 - Connect the returned result to its use
 
 For each connection, say what result the receiver needs, what contribution supplies it and which conditions must hold. State what the explanation or demonstration leaves untested. A buyer's corrected explanation gives colleagues a proposition they can examine; the group still makes its own comparison and authorised commitment. A practice retry can show a corrected action with stated assistance; a launch still needs that assistance to be allowed and available. A provider's commitment backed by access and capacity can establish a support arrangement; delivery must then make the promised input available, and the receiver must use it. Observe what was produced and how it was used before concluding that the promised result was obtained. Keep observed improvement, its causal explanation and a claim of acquired capability distinct.
 
@@ -2289,7 +2654,9 @@ Availability does not by itself choose between several complete ways to obtain o
 
 If no adequately explained way is available, [C.39](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c39---find-and-develop-a-way-to-obtain-a-result), currently a Draft, offers guidance for recovering a relevant practice's operations and constructing the missing connection on the receiving material. Its explained candidate still needs the domain support required for the intended use. A known operation blocked only by missing permission returns to the permission owner.
 
-### Purchase case: agreement survives the loss of support
+<a id="purchase-case-agreement-survives-the-loss-of-support"></a>
+
+### Engineering.Reference:21.6 - Purchase case: agreement survives the loss of support
 
 An organisation is considering an integrated reporting system for three shifts after a failed handover. An operator wants to avoid repeated entry; the next shift needs a timely, usable report; the purchaser must justify the whole cost; and the data owner controls access. These are constructed teaching conditions. The attempts and changes below are stipulated to explain the decisions.
 
@@ -2297,7 +2664,9 @@ Begin with the consequences of the reported difficulty. Which handover is delaye
 
 Once the buyer accepts this reason for change, establish what would distinguish an adequate option: report fitness, whole cost, correction of disputed entries and support across shifts. Compare the proposed system with retaining the present arrangement, repairing the handover without that purchase or obtaining a reporting service. Include the complete work and consequences for the affected participants. A demonstration can show what the system produces from an approved sample, what remains manual and what depends on integration or help. If the buyer understands the proposal but judges its value insufficient, obtain the reason and reconsider the proposal or end the purchase inquiry. Teaching the buyer to repeat a preferred answer would not resolve that disagreement.
 
-#### Revise the proposed data use before arranging the trial
+<a id="revise-the-proposed-data-use-before-arranging-the-trial"></a>
+
+#### Engineering.Reference:21.6.1 - Revise the proposed data use before arranging the trial
 
 Suppose the supplier proposes exporting the last week's named operator-error histories to the purchaser, receiving supervisor and supplier. The data owner permits internal retrieval, and one operator appears to agree in a manager's presence. Before treating that as a usable trial arrangement, recover the purpose and the authority for each proposed use.
 
@@ -2319,7 +2688,9 @@ Recommend the limited extract on that basis. The operations manager must still d
 
 If the representative's remit or the agreement's application to these employees is unknown, obtain that premise or defer; do not fill it with assumed agreement. If allocation needs an omitted identity, recover that receiving requirement and compare a suitably bounded disclosure with its value and permission grounds. A separate investigation that lets each operator inspect and correct the last week's attributed records may need the named records for its authorized investigator. That changes the receiver, purpose and permitted use. It can justify a named-history option under those premises, not the original export to the supplier. Calling that export “customer success” changes none of these relations.
 
-#### Carry the chosen conditions into the trial and launch
+<a id="carry-the-chosen-conditions-into-the-trial-and-launch"></a>
+
+#### Engineering.Reference:21.6.2 - Carry the chosen conditions into the trial and launch
 
 If the limited extract resolves the data-use objection, the next question is whether the proposed arrangement can supply a checked handover in the required window. General enthusiasm for the system does not answer that implementation question. Reuse the buyer's reasons and the ethical comparison; arrange a trial that can resolve the remaining uncertainty.
 
@@ -2335,11 +2706,15 @@ If the consultant was instead doing reconciliation that N must now perform, the 
 
 [MKT.6](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt6---jointly-shape-a-useful-result-and-help-achieve-it) connects implementation to representative use, actual assistance and revision when conditions change. Operators and support providers contribute their knowledge to the plan. Arrange with those responsible for assignments to allocate or reserve the required operator and support time, and obtain the required access from its owners. Account for work displaced by those allocations and observe the receiving reporting work before concluding that the implementation is useful. Early enthusiasm or one assisted success leaves those questions open. A feasible pause, narrower use or useful ending can be the result.
 
-### Internal-change case: distinguish choosing the action from performing it
+<a id="internal-change-case-distinguish-choosing-the-action-from-performing-it"></a>
+
+### Engineering.Reference:21.7 - Internal-change case: distinguish choosing the action from performing it
 
 A process owner proposes changing the handover rule without buying a new system. The proposed rule requires an evidence-based check before releasing the report, with unresolved entries identified for the next supervisor who allocates work. Before interpreting operator P's continued use of the old routine, establish which contribution is disputed or missing.
 
-#### Prepare the decision with the people whose judgement matters
+<a id="prepare-the-decision-with-the-people-whose-judgement-matters"></a>
+
+#### Engineering.Reference:21.7.1 - Prepare the decision with the people whose judgement matters
 
 The owner wants advice from a former operations colleague outside the organization. Ask what this adviser needs to understand and arrange a permitted sample, without disclosing the protected operator histories. Using [OCE.12:4.3.3](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce12433---prepare-a-proposal-for-decision-and-first-use), explain how the proposed handover would work and ask which consequence concerns them. The adviser suspects that the checklist creates a second reporting obligation. Their experience gives a reason to examine that claim; it supplies neither authority over P's work nor a decision for the owner.
 
@@ -2353,7 +2728,9 @@ The process owner can choose an allowed cue and allocate checking time; the oper
 
 If P disputes a use the agreement does not settle, or the representative's remit is unknown, obtain the missing decision basis instead of diagnosing a human limitation. If the protected conditions and required service cannot both be met, describe the conflict and return it to whoever can revise the relevant arrangement. State the reporting obligation and allowed interim work while that question remains unresolved.
 
-#### Make the agreed start visible and obtain the first result
+<a id="make-the-agreed-start-visible-and-obtain-the-first-result"></a>
+
+#### Engineering.Reference:21.7.2 - Make the agreed start visible and obtain the first result
 
 Suppose the reporting use and protection above are settled and the responsible participants accept the revised arrangement. The process owner allocates the twenty-minute operator interval, the operations manager permits the limited report release, and a capable colleague has separate time to help. One person organizes this first use; the next supervisor remains responsible for the receiving allocation decision. Their shared brief identifies the accepted report, allowed cue and help, source access, timing and response to an unresolved entry. The relevant participants hear or read one another's confirmed contributions. An absent shift receives the same decision and returns any condition needed for its handover. A launch meeting is useful only insofar as it supplies that shared understanding; it does not supply an unanswered agreement.
 
@@ -2377,7 +2754,9 @@ In the constructed first handover, P uses the permitted cue, checks the entries 
 
 Change a premise after agreement but before a later start. A maintenance planner now identifies a real decision that depended on the retired tracker. The earlier assumption of no receiving need is false for that use. Ask which information the planner needs and whether access to the existing report can supply it with suitable interpretation and timing. If it can, obtain that arrangement and the affected parties' response. If the extra five-minute task remains necessary, the twenty-minute window is insufficient: obtain a feasible allocation, change the promised scope or defer the affected start. Communicate the revised decision to those relying on it. Repeating the launch announcement or dismissing this as resistance would leave a contribution missing. Keep earlier valid explanation, checking evidence and unrelated commitments within their existing conditions.
 
-### A working mantra and the continuations it leaves open
+<a id="a-working-mantra-and-the-continuations-it-leaves-open"></a>
+
+### Engineering.Reference:21.8 - A working mantra and the continuations it leaves open
 
 To recall the broader choice of contribution:
 
@@ -2420,9 +2799,13 @@ For advertising, detailed sales or customer-learning work, continue in the [Mark
 
 Stop when the current receiving question has an adequate answer, including a warranted refusal or deferral. Reopen the affected result or continuation when its source, required capability, permission, support, shared capacity or use changes. Preserve other warranted results and obtain only the contribution now needed.
 
-## How can a team organise search while keeping current service workable?
+<a id="how-can-a-team-organise-search-while-keeping-current-service-workable"></a>
 
-### The result sought and the work that must continue
+## Engineering.Reference:22 - How can a team organise search while keeping current service workable?
+
+<a id="the-result-sought-and-the-work-that-must-continue"></a>
+
+### Engineering.Reference:22.1 - The result sought and the work that must continue
 
 A service provider wants to discover whether a new integration can make a useful customer offer. Its current service must continue, and the proposed search needs time from the same operating specialists. A successful demonstration would leave two questions open: whether a customer can use the result, and whether an ordinary receiving team can supply it without the search team's exceptional help.
 
@@ -2430,7 +2813,9 @@ For this constructed case, the responsible owner wants a decision in two weeks: 
 
 [STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-5) helps determine which useful contribution is worth pursuing; [STR.8](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-8) connects it to the means, dependencies and contribution needed to sustain it. [SYSE.2](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse2---develop-linked-use-and-system-concepts) and SYSE.8 construct the use and offering/provider questions. [MKT.12](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt-12) investigates the commercial decision; [MKT.13](MARKETING-PRINCIPLES-FRAMEWORK.md#mkt-13) preserves the boundary between a supported attempt and ordinary repeatability. If an adequate answer already exists, use it and stop the unnecessary search.
 
-### Compare complete ways to obtain the same answer
+<a id="compare-complete-ways-to-obtain-the-same-answer"></a>
+
+### Engineering.Reference:22.2 - Compare complete ways to obtain the same answer
 
 [OCE.8](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result) compares whole arrangements under one result and period. The current arrangement and a small sufficient repair remain serious alternatives. The three alternatives below address this case.
 
@@ -2446,7 +2831,9 @@ Assume the current team can supply its normal obligations and the named search i
 
 Suppose the current team already has the technical capability and experimental access. Establishing the separate group or completing the external provider's access agreement would take longer than the two-week window. This leaves current-team search as the option to complete for this window; the other arrangements remain candidates for a later decision with a different preparation period.
 
-### Make the selected arrangement effective and preserve the experiment's limits
+<a id="make-the-selected-arrangement-effective-and-preserve-the-experiments-limits"></a>
+
+### Engineering.Reference:22.3 - Make the selected arrangement effective and preserve the experiment's limits
 
 Suppose the relevant owner supplies the four hours during the required interval and chooses the current-team arrangement. If an incident consumes that specialist's allocated interval, the trial pauses while the supported current-service response proceeds; dependent trial work resumes only after the needed time and access are supplied again. [OCE.6](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) establishes the consequential assignments and enabling relations. Capability, assignment and access each need their own adequate basis. [OCE.11](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce11---coordinate-organization-change-work-with-continuing-service) connects the search with continuing service, including limits on overlap, recovery and hand-back. The trial starts only when its dependent conditions obtain.
 
@@ -2456,7 +2843,9 @@ For a changed operating way, [OPS.16](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK
 
 Name the first observation that can change the receiving decision. In this case, it may be that the customer cannot use the integration under the permitted data conditions, or that useful performance requires continuing specialist intervention. An interview, technical trial and operating observation answer those different questions. Do not substitute the number of prototypes or meetings for the answer.
 
-### Return the result with the work required to use it
+<a id="return-the-result-with-the-work-required-to-use-it"></a>
+
+### Engineering.Reference:22.4 - Return the result with the work required to use it
 
 Assume a limited demonstration succeeds, but depends on manual correction by the search team's specialist. Engineering returns the demonstrated function, known limitations and missing construction. Marketing preserves the qualified customer response and the conditions of the trial offer. Operations receives the actual correction and support demand. The owner defers production handover and asks engineering whether removing the manual correction could justify another bounded investigation. The qualified commercial response remains available for that decision.
 
@@ -2464,19 +2853,25 @@ Before any handover, identify who can receive and use the result, what preparati
 
 If the specialist's access disappears or current-service incidents consume the protected interval, return to the affected arrangement. [OCE.14](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce144---solution) distinguishes supplying an unrealised selection, correcting an operating defect and revising an organisation relation that no longer fits. A useful technical finding can survive suspension of the current search arrangement. Recompare the whole only when the changed condition affects parity or the available alternatives.
 
-### Source use and ordinary stopping point
+<a id="source-use-and-ordinary-stopping-point"></a>
+
+### Engineering.Reference:22.5 - Source use and ordinary stopping point
 
 The distinction between commercial search and executing a known model, and the danger of transferring an unsupported pilot, are used with the source limits explained in MKT.13. Historical treatments of ambidextrous organisations supply candidate ideas; their cases do not establish that a separate unit is always superior. The operative construction here is the explicit comparison and provision supplied by OCE, STR, OPS and the product's engineering methods. Marketing contributes its commercial question and qualified return.
 
 For a small supported correction that the current team can carry out without a special search arrangement, use the existing operating continuation. For an unknown contribution, stop with the qualified missing answer or a justified next inquiry. The team obtains a bounded search result together with the work and conditions needed to use it, while preserving its current service obligations.
 
-## Interpret a source and revise what follows
+<a id="interpret-a-source-and-revise-what-follows"></a>
+
+## Engineering.Reference:23 - Interpret a source and revise what follows
 
 A specification says an operation is “complete”, but a later example shows a delay. What has completed, and does the correction change your recommendation? Start with the question the source must answer. Recover its local meaning, obtain the passage or observation that distinguishes consequential readings, and revise the particular conclusion that used the defeated premise. If the source and its example already answer the question, use that answer.
 
 This application connects source reading, reasoning revision and the work that receives the answer. The cases are constructed; the relevant provisions and observations are supplied below. They assume ordinary preparation for the receiving work, access to the named material and the ability to obtain a qualified contribution when a subject question exceeds that preparation. “Hermeneutics” and “interpretation” are useful search terms; Russian searches may use “герменевтика” and “интерпретация”. The working question determines whether you need local meaning, historical inquiry, semantic integration, explanation or another contribution.
 
-### Read the provision against its exception
+<a id="read-the-provision-against-its-exception"></a>
+
+### Engineering.Reference:23.1 - Read the provision against its exception
 
 An engineer is choosing where a screen should read a customer's changed delivery instruction. The screen must not return a value older than the latest write completed before its read begins. The current specification, edition 3, contains these passages:
 
@@ -2497,7 +2892,9 @@ When a source argues for a conclusion, [B.5.RA](https://github.com/ailev/FPF/blo
 
 A textual interpretation and an observed behavior claim still need different support. The specification establishes what this edition describes. A permitted run in a selected implementation might establish that this run returned the previous value after completion. If the run contradicts the specification, retain that discrepancy and investigate the relevant implementation or description; do not quietly rewrite the source's meaning to make the two agree. Conversely, the worked example above is supplied case material, not an observation of a deployed service.
 
-### Carry the corrected reading into the design
+<a id="carry-the-corrected-reading-into-the-design"></a>
+
+### Engineering.Reference:23.2 - Carry the corrected reading into the design
 
 Use [B.5.RR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5rr---revise-reasoning-after-a-premise-or-question-changes) to follow the changed premise into its dependent conclusion. Withdraw the recommendation to obtain immediate freshness from the reporting copy. Retain the separately supported conclusion that the update has committed in the primary store. A note saying “reporting can lag” is incomplete if the design recommendation still selects it for the screen's freshness requirement.
 
@@ -2519,7 +2916,9 @@ For the immediate question “Where do the June records disagree?”, both readi
 
 A later request to establish that the original comparison is complete makes the difference consequential. Under the first reading, April results are outside the requested comparison; under the second, omitting them leaves it incomplete. Obtain a contemporaneous scope instruction that resolves which inspection period the note required. Until that contribution is available, retain the June comparison and leave fulfilment of the original instruction unresolved. If the work instead adopts a new instruction specifying the period, use it for that new task without presenting it as the recovered meaning of the earlier note.
 
-### Change the question while keeping the source
+<a id="change-the-question-while-keeping-the-source"></a>
+
+### Engineering.Reference:23.3 - Change the question while keeping the source
 
 Returning to the completion case, the requester asks: “What did we require for the acceptance exercise on 3 May?” The edition 3 text and the design answer drawn from it have not changed. The question has: it concerns an earlier agreed condition.
 
@@ -2531,7 +2930,9 @@ The engineer can now return two distinct results: the current source-reading and
 
 For documentary recovery, [ME.4](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me4---recover-methods-and-decision-relevant-contributions-from-documentary-packages-and-corpora) explains how to obtain a bounded contribution from a package. A historical or qualitative research claim needs the source criticism appropriate to its method under [RMP.5](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-5). Give the qualified contributor the dated question, sources available, receiving use and unresolved distinction. Ask for the supported answer and limits, or the exact missing source. A description of a research method supplies neither the contemporary record nor the specialist's completed judgement.
 
-### Follow changed wording into practice
+<a id="follow-changed-wording-into-practice"></a>
+
+### Engineering.Reference:23.4 - Follow changed wording into practice
 
 Consider a reporting policy that says teams “may submit a preliminary estimate”, followed a year later by a training aid saying teams “must submit an estimate”. A participant reports that a preliminary figure was then treated as a delivery commitment.
 
@@ -2554,7 +2955,9 @@ The source set can itself be consequential. Reading every accessible policy and 
 
 Inspect who set the inclusion rules, who could contribute and which categories were available. If a feedback form offered only “the estimate was late” and “the estimate was inaccurate”, completed forms cannot reveal a proposal to separate forecasts from commitments. Obtain a way for affected participants to express that third formulation when it can change the inquiry. [PSD.4](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd4---set-and-reopen-the-problem-boundary) governs this boundary choice. An omission is a reason to examine the boundary, not by itself evidence of deliberate concealment. If wider evidence is unavailable, return the documentary comparison with the wider practice or influence claim unresolved.
 
-### Select the contribution that can answer the receiving question
+<a id="select-the-contribution-that-can-answer-the-receiving-question"></a>
+
+### Engineering.Reference:23.5 - Select the contribution that can answer the receiving question
 
 The same word “interpret” can point to different work. The following cases show what changes with the question; they are alternatives to select, not steps to complete on every reading.
 
@@ -2566,7 +2969,9 @@ The same word “interpret” can point to different work. The following cases s
 
 **An expression needs a rule or a performance.** Given integer values a = 2 and b = 3 and an explicit convention that “+” denotes addition, a + b denotes 5. Use that supplied convention directly. When the interpretation rules themselves need constructing, [NOT.3](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md#not3---give-expressions-an-operative-interpretation) supplies that work. When the question is how to execute expressions or preserve their meaning through translation, [CMP.12](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) supplies the computational construction. Choosing a useful new convention does not establish the convention of an unfamiliar old source. Similarly, reading a rhythmic representation can identify intended positions without giving the performer the coordination to realize them; [RHY.5](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy5---choose-a-rhythmic-representation-for-the-intended-work) keeps the representation and its performance conditions connected. [NSTD.5](https://github.com/ailev/FPF/blob/main/Narrativization-and-Narrative-Studies-Principles-Framework.md#nstd5---choose-narrative-engagement-devices-for-the-intended-experience-or-use) helps choose narrative devices for the intended experience while preserving the source relations or fictional premises the account is meant to retain. Emotional force does not by itself support a factual claim. For a worked expressive construction and its changed conditions, use the [aesthetic-form application](#how-can-aesthetic-form-contribute-to-the-work-we-need).
 
-### Return a usable answer and stop at its proper scope
+<a id="return-a-usable-answer-and-stop-at-its-proper-scope"></a>
+
+### Engineering.Reference:23.6 - Return a usable answer and stop at its proper scope
 
 For the completion case, the short useful return is: “Edition 3 defines completion as a committed write in the primary store and allows reporting delay. Our immediate-freshness recommendation therefore changes to the permitted primary read under its stated contract. The earlier acceptance requirement is a separate recovered condition; its past fulfilment still needs contemporary observations.”
 
@@ -2576,13 +2981,17 @@ The first plausible reading helps recognize a question. Comparing it with the op
 
 Use the direct route when the source's definition and example already settle the receiving question. Pursue alternatives, a wider source set or further testing only when the obtainable distinction can change the answer or its use enough to justify the work. For a developing question and changing body of material, use the [corpus-access methods](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#table-of-contents). When the next contribution depends on understanding a collaborator's activity, the [collaborator application](#understand-a-collaborator-before-choosing-the-next-contribution) develops the inquiry and changed continuation.
 
-## How can independently maintained corpora supply one usable working environment?
+<a id="how-can-independently-maintained-corpora-supply-one-usable-working-environment"></a>
+
+## Engineering.Reference:24 - How can independently maintained corpora supply one usable working environment?
 
 Use this application when several independently maintained bodies of knowledge must support the same work, and downloading or indexing them leaves a consequential composition, reading or update question unresolved. A method account can depend on an older definition, a local correction can change the advice, and two readers can expose different portions of the same named publication. The useful result is a selected, reconstructible source composition that the intended reader can actually use, or a precise conflict or missing contribution.
 
 Begin with the [whole-task explanation](#make-an-available-contribution-work-in-the-whole-task): identify the receiving result and compare complete available ways to obtain it. The following case develops the corpus-specific connections. It is not a required tour through every supplier. If one already available source supplies the complete answer at a sufficient edition, read it and use the answer.
 
-### Start with the receiving operation
+<a id="start-with-the-receiving-operation"></a>
+
+### Engineering.Reference:24.1 - Start with the receiving operation
 
 A library maintainer must prepare an inspectable basis for choosing how to provide a small knowledge environment. A colleague will read complete relevant sections, follow their sources and reconstruct the selected editions. The proposed environment has an ordinary local reader and a reader reached through a constrained service.
 
@@ -2592,7 +3001,9 @@ The first question is what the colleague must be able to obtain and use. For thi
 
 Use [KCAE.USE](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#kcaeuse---choose-an-access-arrangement-for-the-work) to choose the access arrangement when that choice is unsettled. Use [KCAE.SEARCH](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#kcaesearch---continue-a-search-as-the-question-develops) to find a missing contribution and KCAE.ASSESS to determine what the candidate supports. A candidate can be inspected before anyone decides to include it in a maintained package.
 
-### Preserve the source and distinguish its representations
+<a id="preserve-the-source-and-distinguish-its-representations"></a>
+
+### Engineering.Reference:24.2 - Preserve the source and distinguish its representations
 
 For each selected release, keep the issuer, title, edition and content identity needed for the intended reconstruction, together with the available original and its acquisition conditions. A URL says where a copy is obtained; it need not identify the release. A source can move to another address without changing, while a familiar address can begin serving different content.
 
@@ -2602,7 +3013,9 @@ Keep packaging, provision, actual use and authority distinct. A package may cont
 
 An integrity check can support equality with an expected content identity; it does not establish the truth of the publication or the publisher's authority. A signature or distribution claim needs its own trusted basis. For this ordinary internal arrangement, state the actual issuer and integrity checks performed and their limits. Add stronger supply or preservation mechanisms only for a named reliance that needs them.
 
-### Derive a composition from actual use
+<a id="derive-a-composition-from-actual-use"></a>
+
+### Engineering.Reference:24.3 - Derive a composition from actual use
 
 [SYSE.53](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse53---resolve-a-usable-composition-of-independently-released-components) begins with the consuming relations. Do not turn every citation into a mandatory installation dependency. In this case, two independently released accounts contribute to one argument. Their uses of a definition must be compatible in that argument; a third historical source is consulted only to explain the origin of a term.
 
@@ -2622,7 +3035,9 @@ For the B2 conflict, retaining B1 can preserve today's adequate result. Obtainin
 
 The unlike [plugin and renderer case](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse5351---a-renderer-update-meets-a-shared-type) exercises the same Method with type identity and qualified file exchange. The common operation is deriving the shared requirement and supported separation; a corpus label does not supply either.
 
-### Keep local changes explicit about what they do
+<a id="keep-local-changes-explicit-about-what-they-do"></a>
+
+### Engineering.Reference:24.4 - Keep local changes explicit about what they do
 
 The colleague's local note is part of the working composition, but need not rewrite the upstream publication. Attribute it to its author and exact base edition, and distinguish four operations:
 
@@ -2637,7 +3052,9 @@ Suppose the upstream procedure requires an independent X judgement and the local
 
 When A2 becomes available, first identify whether the note's relied-on passage and meaning changed. An annotation may remain useful with an updated reference; a refinement or replacement can need fresh qualification. Keep a recoverable base and the intended local operation so that an upstream update does not silently erase or duplicate the change. SIE.11 traces affected semantic uses; ME.15 retains the Method variant's provenance and reuse conditions.
 
-### Decide what must be present now
+<a id="decide-what-must-be-present-now"></a>
+
+### Engineering.Reference:24.5 - Decide what must be present now
 
 Classify inputs by the current operation, rather than giving each source a permanent importance label.
 
@@ -2652,7 +3069,9 @@ For an offline working session, the local route can remain sufficient if every r
 
 The [missing-input explanation](#combine-results-and-handle-a-missing-input) governs the continuation: keep the usable earlier result, stop only the dependent action, and state the missing return. Do not require every optional source before allowing any work.
 
-### Make both readers perform the promised operation
+<a id="make-both-readers-perform-the-promised-operation"></a>
+
+### Engineering.Reference:24.6 - Make both readers perform the promised operation
 
 The receiving operation is “read this identified section completely, with its source and continuation,” not “get some relevant text.” [KCAE.DELIVER](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#kcaedeliver---put-sufficient-source-material-within-the-readers-reach) supplies the sufficiency question. [SYSE.27](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse27---evolve-platform-interfaces-and-contribution-paths) develops the supported interface and any needed adapter.
 
@@ -2670,7 +3089,9 @@ Suppose the underlying service can return only a short fragment from whatever is
 
 Trace request, state, result, failure and continuation through the whole implementation. [CMP.12](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp12---construct-an-interpreter-or-a-meaning-preserving-translation) and [CMP.14](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cmp14---compose-interacting-computations-through-their-required-observations) help construct and compare that computation. Matching operation names or successful boot alone does not establish the required behavior. A simulated service can probe selected failures only to the extent that its model represents them.
 
-### Preserve meaning through a translation or adapter chain
+<a id="preserve-meaning-through-a-translation-or-adapter-chain"></a>
+
+### Engineering.Reference:24.7 - Preserve meaning through a translation or adapter chain
 
 A reader may need another notation or language. [NOT.5](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md#not5---translate-between-notations-while-tracking-lost-distinctions) identifies which distinctions a translation preserves or loses; SIE.7 supplies a qualified semantic mapping for its intended use.
 
@@ -2680,7 +3101,9 @@ For a chain “original → extraction → translation → service response,” 
 
 Use SIE.8 to decide whether a view should be produced on demand, retained or combined with a retained source. Select that arrangement for the actual access, latency, change and reconstruction needs. The mere availability of a conversion tool is not a reason to replace an adequate original reader.
 
-### Separate distributed editing, accepted release and adoption
+<a id="separate-distributed-editing-accepted-release-and-adoption"></a>
+
+### Engineering.Reference:24.8 - Separate distributed editing, accepted release and adoption
 
 Two maintainers can edit different parts of the same source. Their version-control or collaboration system may preserve contributions and expose a textual conflict. It does not settle a semantic conflict between a changed definition and an unchanged dependent method.
 
@@ -2690,7 +3113,9 @@ The maintainer then evaluates the new release against the consumer's actual reli
 
 If the local replacement and an upstream edit both change the same applicability condition, retain the disagreement and resolve it before claiming the new composition supports the old task. Continue independent work that does not rely on that condition.
 
-### Provide the selected environment and use its answer
+<a id="provide-the-selected-environment-and-use-its-answer"></a>
+
+### Engineering.Reference:24.9 - Provide the selected environment and use its answer
 
 Return the selected releases, local layer, instance bindings, source locations, required qualifications and reader operations to [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity). Use SYSE.30 for a needed repeatable software construction and [SYSE.33](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse33---provide-reconstructible-software-development-and-test-environments) for the selected environment's actual provision. The constructor still has to acquire the inputs and exercise the reading behavior.
 
@@ -2700,7 +3125,9 @@ In the constructed continuation, the colleague reads the complete relevant sourc
 
 Instruction authority needs its own receiving rule. Treat corpus text as material to interpret unless the current user or governing practice authorizes a particular instruction. A newly installed document must not silently change an agent's tool permissions or governing instructions.
 
-### Keep an open read coherent while another generation is prepared
+<a id="keep-an-open-read-coherent-while-another-generation-is-prepared"></a>
+
+### Engineering.Reference:24.10 - Keep an open read coherent while another generation is prepared
 
 An accepted new source composition can be prepared without switching an already open read halfway through a section. Bind that read to one generation. Make the new generation available to new reads once its required sources and views are ready, while retaining the old generation only for the uses and period that remain permitted.
 
@@ -2708,7 +3135,9 @@ An accepted new source composition can be prepared without switching an already 
 
 Current permission remains a condition. If access to the old source is revoked, the reader must stop or return an authorized alternative even when its bytes are cached. Retaining old content and being entitled to serve it are different facts. If an old generation cannot be reconstructed, disclose that limit rather than silently redirecting its continuation.
 
-### Reconsider the affected reliance and feed discovery back into composition
+<a id="reconsider-the-affected-reliance-and-feed-discovery-back-into-composition"></a>
+
+### Engineering.Reference:24.11 - Reconsider the affected reliance and feed discovery back into composition
 
 Content, addresses and reader implementations can change independently:
 
@@ -2723,7 +3152,9 @@ Discovery can also change the required source set. Suppose testing continuation 
 
 Keep the known source and successful local reading available while the service-dependent conclusion is open. Return the exact missing behavior or authority when no supported next step can supply it.
 
-### What to exercise before relying on this arrangement
+<a id="what-to-exercise-before-relying-on-this-arrangement"></a>
+
+### Engineering.Reference:24.12 - What to exercise before relying on this arrangement
 
 Recognition can begin with a familiar symptom: a search result ends before the exception, an update breaks a common definition, or a local note has lost its base. Assurance requires the particular sources and operations that support the intended conclusion.
 
@@ -2733,7 +3164,9 @@ These constructed cases describe what a later installation should demonstrate. T
 
 The practical change is that a failed corpus update or reading request produces a useful next result: a qualified source, corrected requirement, explicit local amendment, supported adapter behavior or deliberate adoption decision. Existing complete sources and successful reads remain usable within their unchanged conditions.
 
-## Combine results and handle a missing input
+<a id="combine-results-and-handle-a-missing-input"></a>
+
+## Engineering.Reference:25 - Combine results and handle a missing input
 
 
 Keep the project question visible. Each additional method should supply a result that helps answer it. FPF contributes general reasoning methods; the domain practice supplies its thresholds, specialized methods and evidence. Identify who will use the result and who can make the final decision.
@@ -2744,7 +3177,9 @@ For example, a controller choice may need a fallback-safety conclusion, while a 
 
 Begin with the first missing contribution, using earlier results whose conditions still hold. Before continuing, identify what the next action actually needs. A required missing input stops that action and its dependent continuation; keep the earlier usable result. If the missing input belongs only to an alternative or a stronger conclusion, continue the supported branch. State the missing result, the decision it prevents, and what new evidence, source, permission or other changed condition would allow that decision to be reconsidered.
 
-### What must be available through the Method vertical?
+<a id="what-must-be-available-through-the-method-vertical"></a>
+
+### Engineering.Reference:25.1 - What must be available through the Method vertical?
 
 A DPF describes reusable ways of working. Performing one of them needs the relevant constituent abilities, available resources and coordination, as well as a place in the encompassing work. The descriptions can cover one or several grains of that vertical. Reading them supplies neither the missing capability nor the shared resource.
 
@@ -2761,7 +3196,9 @@ Follow the result into a useful next move. Retain attained abilities; obtain sup
 
 [A.22.CGUS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22cgus---which-continuations-are-available--constraint-governed-unfolding-structure-cgus) uses these conditions to distinguish available, unavailable and unknown continuations. A suitable practice branch can remain available when full performance is not. A temporal arrow or a nested flow position alone does not express the constituent connection. The pattern's ordinary question is useful without constructing a formal diagram.
 
-### When does learning a movement also require developing its teaching?
+<a id="when-does-learning-a-movement-also-require-developing-its-teaching"></a>
+
+### Engineering.Reference:25.2 - When does learning a movement also require developing its teaching?
 
 Start with the movement that the person wants to use, and the conditions in which it must work. An unsuccessful attempt can reflect an unavailable bodily contribution, a problem with the technique or an external condition. [HCD.3](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd3--diagnose-whether-a-capability-misconception-or-behaviour-limits-work) examines what limits the performance. [SOM.1](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md#som1---model-the-bodily-contribution-to-a-movement) helps relate a proposed bodily correction to the performer's experience, available regulation and observed movement. Retain an effective change to the tool or conditions when it serves the task without additional bodily learning.
 
@@ -2775,7 +3212,9 @@ Learning to organize practice, preparing the bodily contribution, learning a swi
 
 The next useful result is a suitable practice with the help it needs, a way to obtain or develop the missing teaching contribution, or a named gap that stops only the dependent work. Test each result in its receiving use.
 
-### How can attention move while the whole action continues?
+<a id="how-can-attention-move-while-the-whole-action-continues"></a>
+
+### Engineering.Reference:25.3 - How can attention move while the whole action continues?
 
 Use this route when an instruction such as “watch the contact”, “feel the support” or “notice the changed condition” is understandable, but following it leaves another necessary action unattended. The useful result is a workable way to obtain and use the information during the whole action, or a specific missing contribution. Keep a familiar effective routine when it already serves the purpose.
 
@@ -2795,7 +3234,9 @@ Now suppose a required event can occur and disappear while the learner is attend
 
 The same construction question can arise in automated work, but a sensor, event-handling mechanism or learned policy needs its own technical construction and evidence. Attention need not visit every Method level in sequence: the required work must remain supplied while observations and corrections change.
 
-### When the way of working is itself the problem
+<a id="when-the-way-of-working-is-itself-the-problem"></a>
+
+### Engineering.Reference:25.4 - When the way of working is itself the problem
 
 Use Method Engineering to examine the method, its descriptions and support. A pattern, a DPF and an instructional Guide can describe methods for different uses. An exact MethodDescription explains how one already identified Method is performed. Choose the representation for the work at hand: finding a method, understanding it, comparing alternatives or supporting performance. Use [ME.22](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me22---compare-method-descriptions-by-content-and-representation) when a revision changes the content or presentation and that distinction affects which version to retain. Actual performance supplies the results against which a method can be tested.
 
@@ -2803,7 +3244,9 @@ For connected Method Engineering questions, [ME.20](METHOD-ENGINEERING-PRINCIPLE
 
 When a mathematical property could change the way work is divided or ordered, use [ME.6.MC](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me6mc---compare-method-arrangements-through-a-mathematical-model) to compare the arrangements and [ME.25](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me25---transform-a-method-using-a-mathematical-construction) to construct the changed procedure. The [distributed-calculation example](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-model-and-change---use-a-mathematical-construction-to-change-how-work-is-divided) follows a preserved mathematical answer into a proposed division of work, compares its burden, then revises the summaries when the recipient needs another statistic. Mathematical equivalence alone does not establish practical improvement.
 
-### When source material should change a pattern language
+<a id="when-source-material-should-change-a-pattern-language"></a>
+
+### Engineering.Reference:25.5 - When source material should change a pattern language
 
 Suppose a handbook, a research paper and an existing repertoire partly agree, but a recurring user still cannot recover a condition needed to act. The optional PLUS-ME [production MethodDescription](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mepreface73---production-methoddescription--engineer-a-source-grounded-methoddescription-in-pattern-language-form) explains how to turn those sources and current supply into usable Method-description knowledge in pattern-language form. It describes prospective performance without establishing a decomposition into part Methods; use ME.7/B.1.5 when a receiving use depends on that relation. Trial evidence is still needed to judge how that Method performs in practice.
 
@@ -2811,13 +3254,17 @@ Begin at the missing result. [ME.4](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#m
 
 For example, a handbook permits reusing a review after a display-only change, while a paper adds that the reviewed claims, question and qualification window must still match. ME.21 keeps that condition with the checking guidance already supplied by [ME.12](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me12---verify-method-and-methoddescription-coherence). If the language says only “reuse for display changes”, ME.24 identifies the missing condition and returns a description repair. Later, loss of access to an argument required for a new recheck can block that recheck while an earlier supported result retains its historical basis.
 
-### When several management views describe the same work
+<a id="when-several-management-views-describe-the-same-work"></a>
+
+### Engineering.Reference:25.6 - When several management views describe the same work
 
 Project, process and case management can answer different questions about the same work. [A.15.6](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a156---recover-what-project-process-or-case-wording-refers-to) and [E.17.0](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e170---viewpoint-and-view-recognition-for-multi-view-describing) help recover that work and select useful views. Reconcile them at the shared work and decisions. A conflict between descriptions may need a description repair; a real conflict between contributions needs a working-arrangement decision.
 
 For an operating plan that depends on another service's resources, evidence or permission, use [OPS.11 - Coordinate Interacting Operating Structures](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-11) to identify the concrete dependency and obtain compatible decisions from those responsible. Start with the proposed change and only the dependencies that can alter it. A change to organizational design belongs with OCE.
 
-### When the case or a relied-on source changes
+<a id="when-the-case-or-a-relied-on-source-changes"></a>
+
+### Engineering.Reference:25.7 - When the case or a relied-on source changes
 
 Find which conclusion used the changed premise. Reconsider that conclusion and its dependent decisions, keeping the results whose evidence and applicability still hold. Check the publication date and exact pattern when wording or source currentness matters.
 
@@ -2825,7 +3272,9 @@ For a change to semantic integration, use [SIE.11](SEMANTIC-INTEGRATION-ENGINEER
 
 Finish the lookup when you have an answer usable for the current decision, or a specific missing contribution that determines the next work. For the Suite's composition and publication availability, return to the [README](README.md#choose-a-dpf).
 
-## Citation
+<a id="citation"></a>
+
+## Engineering.Reference:26 - Citation
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
@@ -2833,3 +3282,5 @@ GitHub repository: https://github.com/ailev/FPF
 ```
 
 Add the version shown above and the section title when citing a worked answer. For an applied method, also cite its DPF, PatternID, title and publication date. Retain a permanent link or copy when the exact wording matters.
+
+## Engineering.Reference:End
