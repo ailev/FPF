@@ -4570,9 +4570,12 @@ relies.
 
 Use `A.10` directly when ordinary evidence reliance needs no Systems Engineering specialization. Use `C.28` for
 causal, interventional, or counterfactual support; `C.11` when deciding whether one further probe is worth its
-cost before a local choice; a specialist experimental-design Method for a set or sequence of experiments; and
-`SYSE.4` for an assurance conclusion or release-facing consequence. Scientific and specialist practices retain
-their own research Methods.
+cost before a local choice; and a specialist experimental-design Method for a set or sequence of experiments.
+For an ordinary assessment that must explain an extension or combination, use the inference construction in
+[SYSE.4:4.4](#syse444---recover-performed-work-direct-results-and-evidence-use) and the combination rules in
+[SYSE.4:4.6](#syse446---combine-evidence-only-for-the-decision-question), as applied in :4.1.1 below. Their use
+here needs no assurance conclusion. Use the wider `SYSE.4` Method when assurance or a release-facing consequence
+is the actual question. Scientific and specialist practices retain their own research Methods.
 
 #### SYSE.10:0.1 - Terms and Distinctions
 
@@ -4620,7 +4623,7 @@ A decision-usable assessment answers seven questions:
 2. What claim about which subject, configuration, environment, use, interval, scale, and criterion is at issue?
 3. What theory, model, observation, prior result, or other source is current, and what are its transfer limits?
 4. Which Agent performed the dated Work that produced each result, which Method did that Work apply, and which inputs, tools, and physical or simulated subject did it use?
-5. What evidence relation connects the result to the claim, with what polarity, uncertainty, and unsupported use?
+5. Why does the result support or challenge this claim, and which extension or joint premises does that inference need?
 6. What could overturn the reliance—for example, a rival explanation, shared assumption, configuration mismatch,
    failed trial, or affected-System consequence?
 7. What decision effect follows—for example, a changed choice or constraint, another probe, postponement, redesign,
@@ -4684,12 +4687,16 @@ separately applies `C.11` to choose a current option or record a next-probe resu
    performing Agent, enacted Method, tools, resources, subject configuration, inputs, controls, disturbances,
    result production, calibration, measurement interval, uncertainty, and missing data to the degree the claim
    needs.
-6. **Construct the evidence use.** For each relied-on result, state the target claim, polarity, the actual grounding
-   subject when one is part of the claim, source scheme, scope, relevance window, provenance, supported use, and unsupported use.
-   Use `C.28` separately when the claim is causal or counterfactual.
-7. **Compare and criticize.** Seek possible defeaters such as shared assumptions, implementation-to-model gaps,
-   configuration mismatch, rival explanations, contradictory or negative results, selection effects, failed
-   transfer, extrapolation, and affected-System evidence omitted by the original study.
+6. **Explain the inference and construct the evidence use.** Start with the result's own claim and show why it
+   bears on the receiving engineering claim. Reuse a sufficient direct result or specialist argument with its
+   conditions. Where the receiving claim extends or combines results, construct the missing connection through
+   :4.1.1. Retain the target, polarity, actual grounding subject when relevant, source scheme, scope, relevance
+   window, provenance and unsupported use. Use `C.28` for a causal or counterfactual step.
+7. **Compare and criticize.** Try to make the relied-on results hold while the receiving claim fails. Examine
+   the consequential extension or joint premise, including shared assumptions, implementation-to-model gaps,
+   configuration mismatch, rival explanations, contradictory results, selection effects, extrapolation and
+   affected-System evidence omitted by the original study. Keep an unsupported inference distinct from
+   evidence that actually contradicts the claim.
 8. **Record the assessment and decision effect.** State what is supported, contradicted, narrowed, or unresolved;
    the reliance limit; residual uncertainty; and the stronger blocked claim. Then state the resulting engineering
    action—for example, choose, narrow, postpone, redesign, seek evidence, or stop. The assessment itself supplies
@@ -4703,6 +4710,49 @@ This is an `A.22.CGUS` learning unfolding, not a lifecycle. Evidence-producing W
 occur in another order. A physical trial can precede simulation during reverse engineering; operating evidence
 can reopen theory and architecture; a formal check and bench trial can address different claims concurrently.
 
+#### SYSE.10:4.1.1 - Explain What Makes the Results Sufficient
+
+Use the developed inference and combination instructions in `SYSE.4:4.4` and `SYSE.4:4.6` for the part of this
+assessment that is missing. The receiving result remains an engineering claim assessment. These instructions
+do not require the other assurance activities when no assurance claim is being made.
+
+**Work backward from the needed claim.** Recover what the receiving decision actually requires. A temperature
+claim and a compressor-cycling claim may both be necessary; evidence for one cannot compensate for the other.
+Identify which available result addresses each necessary premise or operating case. When several arguments
+instead offer alternative grounds for the same claim, determine whether any one is sufficient. A source may
+generate a candidate, explain a phenomenon or report an association without supplying the support this decision
+needs. Keep that useful contribution in its own role.
+
+**Follow each contribution forward.** State what its Method and performed Work directly establish under their
+own conditions. Then explain the consequential step to the receiving claim. For an exact qualified measurement
+against the same criterion, the comparison itself may finish the assessment. A sufficient specialist argument
+can be cited with its applicability and limits; neither a second diagram nor a new trial is required.
+
+An extension needs its actual reason. For example, a prediction about an installed controller needs a justified
+correspondence between the model's inputs and the installed configuration. A component limit needs a reason
+that interactions and operating conditions preserve it in the whole System. Follow `A.1.1` for model
+applicability and `C.28` for causal support when those contributions are missing. State which premise has
+support and which remains an assumption, why that assumption is allowable for this use, and which inference
+loses support if that premise is false. An assumption cannot substitute for evidence required by the receiving rule. Unknown units,
+configuration or timing cannot be repaired by relabeling the result.
+
+**Explain the join.** Check that the necessary results apply together: the same configuration and operating
+cases, compatible definitions and units, and no omitted interaction on which the conclusion depends. Use the
+domain's combination rule and its qualifications. Bounds on consecutive parts of one path can bound its total
+only when they cover that whole path under compatible conditions; component averages or confidence ratings do
+not supply those bounds. Do not add uncertain quantities or multiply confidence values without the appropriate
+measurement or probability relation. Two accounts copied from one trace do not add an independent observation.
+Preserve shared premises so that a correction can reach every dependent use.
+
+**Challenge the reason and return the surviving claim.** Could every listed result still be true while the
+required claim is false? An untested operating region, unrepresented interaction or different interpretation of
+the same word may expose that possibility. Resolve an action-changing challenge using the available domain
+results or keep the whole claim unresolved while retaining supported parts. A failed bridge removes its support;
+it establishes a contrary physical claim only with further grounds. When several necessary premises are
+established and their joining rule suffices, return the bounded assessment and its decision effect. Stop there
+unless a separately selected inquiry could change that use. Section :5.2 works this join, and :5.3 changes one
+premise without discarding the independent result.
+
 #### SYSE.10:4.2 - Record the Result
 
 Use one claim-and-decision sentence for a small reversible choice. For several evidence bases or consequential
@@ -4714,7 +4764,7 @@ reliance, record:
 | source basis | Source epistemes and editions, currentness, hypotheses, explanations, heuristics, prior observations, rival accounts, and transfer limits. |
 | Method and Work | Evidence-producing Method, discrimination question, planned or dated Work, performer, tools and resources, inputs, controls, disturbances, subject configuration, and result production. |
 | model or representation use | Modeled subject, purpose, assumptions, omissions, parameters, boundary conditions, computation or inference, verification, calibration, validation, uncertainty, sensitivity, extrapolation, and `C.29` correspondence when relevant. |
-| observations and evidence | Observed occurrence or state, measurement Method and result, uncertainty and interval; target claim, polarity, grounding subject, scope, provenance, relevance window, supported and unsupported use. |
+| observations and evidence | Observed occurrence or state, measurement Method and result, uncertainty and interval; the reason it bears on the target claim, consequential extension or joint premises and their grounds; polarity, grounding subject, scope, provenance, relevance window, supported and unsupported use. |
 | criticism | Rival explanations, common assumptions, contradictions, negative results, configuration or implementation mismatch, selection effects, transfer limits, and omitted affected-System evidence. |
 | assessment and decision effect | Supported, contradicted, narrowed, and unresolved claims; reliance limit; residual uncertainty; blocked stronger claim; and the choice, constraint, redesign, postponement, or stop that changes. |
 | further evidence and reopen | Stopping reason and later change that reopens the assessment. When further evidence is chosen, the compatible `C.11` or specialist experimental-design result; if that required result is unavailable, name it and the dependent use on hold. |
@@ -4726,7 +4776,9 @@ evidence graphs—instead of copying them. Keep the assessment tied to the recei
 
 Engineers stop asking whether a model is *validated* or a test *passed* in the abstract. They ask which claim
 about which configuration is supported for which use, which nearby claim remains unsupported, and how the
-decision changes.
+decision changes. A usable assessment explains the step from each relied-on result to the claim and why the
+necessary contributions hold together. It can therefore retain a valid result while withdrawing a conclusion
+that depended on a failed transfer or shared premise.
 
 Different inputs change different parts of the decision. For example, a theory can generate an alternative, a
 heuristic can guide search, a simulation result can reject an infeasible region, a failed trial can expose an
@@ -4751,25 +4803,85 @@ The project uses several unlike results:
 | Modelica simulation | Plant and controller traces over selected weather, load, and tariff situations. | Rejects several storage-dispatch candidates and supports one timing range; does not provide observed physical performance or cover unmodeled installation effects. |
 | software-in-the-loop checks | Repeatable results for controller logic, state transitions, and selected properties. | Supports correspondence for the tested software edition; does not establish hardware timing, sensor behavior, actuator response, or building benefit. |
 | controller-in-the-loop trial | Measurements from controller hardware, sensor emulation, inverter interface, and selected fault injections. | Supports timing, I/O, fallback, and selected cycling claims for the bench configuration; does not establish installed hydraulic, acoustic, or occupant effects. |
-| installed-plant trial | Calibrated temperature, power, state, and fault observations during a bounded low-ambient interval. | Supports the first increment inside the observed and modeled envelope; does not establish seasonal reliability, another compressor variant, or every tariff policy. |
+| installed-plant trial | Calibrated temperature, power, state, and fault observations during a bounded low-ambient interval. | Supplies observations and configuration grounds for the first increment's assessment; the receiving claim still needs the inference and joint conditions below. It does not establish seasonal reliability, another compressor variant, or every tariff policy. |
 | independent criticism | Compressor-map and maintenance-access checks by relevant specialists. | Exposes an out-of-envelope map region and an inaccessible recovery action; neither result alone decides release. |
 
-The simulation initially appears to support the timing claim, but the model assumes two sensor updates per
-second while the selected installed configuration supplies one update every two seconds after filtering. The
-project does not reuse that simulation for the installed timing claim. It updates the model account, changes the
-estimator, repeats the controller-in-the-loop trial, and narrows the first increment's operating envelope.
+#### SYSE.10:5.1 - Finish with an Exact Sufficient Result
 
-An AI Agent produces fault scenarios and a trace summary. One scenario invents an interface state absent from
-the source configuration. The summary is useful for finding source traces, but the project relies only on claims
-connected to those traces, the actual configuration, and checking Work. The AI Agent's confidence score is not
-validation, assurance, acceptance, or release.
+Suppose the immediate question is whether the completed one-hour trial met its declared 40–45 °C
+supply-water criterion. Its qualified measurement result gives 41.0–44.0 °C with a conservative 0.2 °C
+uncertainty bound covering that recorded interval and the named setup. The resulting 40.8–44.2 °C range lies
+inside the criterion. The engineer can finish: “The temperature criterion was met in this recorded trial under
+its qualified measurement conditions; use that result in the increment assessment.” This does not yet assess
+another operating interval or the cycling criterion. Repeating the measurement or creating a full account adds
+no required contribution to this direct question.
 
-The assessment supports integration inside the stated plant, sensor, compressor-map, charge-state, and
-environment envelope; rejects reliance on the old timing simulation; and leaves seasonal cycling, the
-high-storage-charge region, and another compressor variant unresolved. The architecture decision uses this
-assessment, while `SYSE.4` separately determines the assurance result and any permission needed before
-commissioning. Later operating observations reopen only the claims and choices that relied on the changed
-envelope.
+#### SYSE.10:5.2 - Construct the Missing Join for the Increment
+
+Now consider the stronger receiving claim: the named increment can keep supply water within 40–45 °C and
+space compressor restarts by at least ten minutes over the selected low-ambient and tariff-response use.
+For this constructed example, professional qualification supplies the following results. The numerical limits
+are stipulated case inputs, not reported heat-pump performance or general design limits.
+
+Let E be the common qualified envelope: the named plant, compressor, controller binary and interfaces;
+the selected low-ambient loads and tariff transitions; storage charge from 20% to 60%; and the specified
+continuous operating interval without power reset or override of the restart limiter. The engineer receives:
+
+- **M17, a qualified model-based prediction:** supply water remains within 40.6–43.6 °C throughout E provided
+  the sensed-state age at physical actuation is at most 1.0 s. The prediction treatment already includes the
+  relevant numerical, input, parameter, model-discrepancy and transfer uncertainties. Its evidence and
+  applicability argument are available; a numerically verified solver alone would not supply this result.
+- **S6, B12 and P5, qualified timing and installation results:** sensor acquisition and filtering contribute
+  at most 0.5 s of state age; execution and command delivery add at most 0.2 s; command-to-physical-actuation
+  adds at most 0.2 s. The reports use consecutive endpoints on the same event path, include the relevant
+  waiting and integration effects, and bound those intervals for the same E. Installation checks connect the
+  actual binary, sensor, interface and plant configuration to those named in M17. These are conservative
+  bounds, not averages or percentiles from incompatible runs.
+- **L4, a separately qualified limiter result:** consecutive actual compressor restarts remain at least ten
+  minutes apart throughout E. Its clock, logic, interface and override conditions are established separately;
+  its conclusion does not depend on M17's temperature prediction or the sensor update rate.
+
+Combine the timing results before using M17. Because the three timing segments cover the complete event path under
+the same conditions, their bounds give a state-age bound of 0.5 + 0.2 + 0.2 = **0.9 s**. This use of conservative
+bounds needs complete path coverage and simultaneous applicability; it does not require statistical
+independence. The result satisfies M17's 1.0 s premise. The installed configuration correspondence and E then
+permit the prediction to support the temperature claim: its 40.6–43.6 °C range lies within 40–45 °C. L4 supplies
+the different necessary cycling premise. Their common applicability lets the engineer support the conjunction
+of these two criteria for the stated use. M17 and L4 are complementary grounds, not two votes for one claim.
+
+The engineer returns that bounded technical recommendation to the deciding Agent. The argument deliberately
+depends on the supplied professional qualifications; the addition above does not derive a measurement Method
+or validate the model. The results leave seasonal reliability, higher storage charge, another compressor and
+unexamined installation or maintenance consequences outside the supported claim. Specialist criticism of an
+inaccessible recovery action still matters to its own integration or assurance question. Passing these two
+criteria does not settle every condition of integration, commissioning or permission.
+
+If an available specialist assessment already supplies this complete inference for the same configuration,
+criteria and E, use that assessment and its limits directly. Section :4.1.1 is needed only for the missing
+connection; it does not demand reconstructing an adequate argument in a second form.
+
+#### SYSE.10:5.3 - Change the Premise and Keep the Independent Result
+
+The selected sensor configuration now supplies one update every two seconds after filtering, whereas M17's
+qualified configuration used two updates per second. The applicable sensor-age bound becomes 2.0 s. With
+the unchanged downstream bounds, the available whole-path bound is **2.4 s**, which no longer establishes
+M17's premise of at most 1.0 s. The model's old temperature prediction remains a result for its old conditions;
+it no longer supports the current installed temperature claim. This loss of support does not show that the
+actual water temperature violates 40–45 °C.
+
+Retain the valid downstream timing results and L4's independently established restart limit. The conjunction
+needed for the original favorable recommendation is unresolved because its temperature premise is missing;
+the passing cycling result cannot compensate. Copied plots of M17 or additional summaries of its traces do
+not repair that premise. The engineer returns this precise limitation and withholds the favorable assessment
+for the changed increment. Choosing a supported narrower use, changing the estimator, obtaining a suitable
+model result or repeating a controller-in-the-loop trial is a separate engineering or inquiry choice. Only a
+selected, feasible and worthwhile continuation under `C.11` or the specialist Method creates further Work.
+Its returned result can then reopen the affected assessment; an empty evidence field creates no experiment.
+
+An AI Agent also proposes fault scenarios and a trace summary. One proposed scenario invents an interface
+state absent from the configuration. Reject that proposal for this use. The summary can help locate traces,
+but the assessment relies on their actual results and justified connections. A generated confidence score
+neither supplies the missing state-age premise nor decides assurance, acceptance or release.
 
 ### SYSE.10:6 - Bias Annotation
 
@@ -4796,8 +4908,11 @@ the observations that would reopen it.
       different objects or relations.
 - [ ] Source editions, Work, performer, Method, model assumptions, physical grounding, observations, measurement
       uncertainty, and transfer limits are recoverable to the degree the reliance needs.
-- [ ] Each evidence use states its target claim, polarity, scope, provenance, relevance window, supported use, and
-      unsupported use; causal reliance uses `C.28`.
+- [ ] Each evidence use explains why the result bears on the target claim and retains polarity, scope, provenance,
+      relevance window and unsupported use; causal reliance uses `C.28`.
+- [ ] An extended or combined claim has its consequential premises, joining rule and applicability grounds;
+      supported parts remain usable when the whole is unresolved. A sufficient direct result or specialist
+      argument can finish the assessment without duplicate reconstruction.
 - [ ] Rival explanations, common assumptions, contradictions, negative results, configuration mismatch, and
       affected-System evidence have been sought in proportion to the decision consequence.
 - [ ] The assessment states what is supported, contradicted, narrowed, or unresolved and how the decision changes;
@@ -4813,7 +4928,7 @@ the observations that would reopen it.
 | “The model is validated” | State the modeled subject, purpose, configuration, comparison basis, result, uncertainty, unsupported use, and currentness. |
 | Treat simulation as physical evidence | Keep model behavior separate from observations of the actual configuration; seek physical evidence only for claims that need it. |
 | Treat test pass as acceptance or release | Separate test Work, criterion result, evidence use, acceptance rule, assurance, permission, and release decision. |
-| Count reports or climb one universal test ladder | Examine independence, shared assumptions, claim match, and decision value; use `C.11` or specialist experimental design for further Work. |
+| Count reports or climb one universal test ladder | Distinguish complementary premises from alternative arguments and copied sources. Explain the joint conditions and domain combination rule; use `C.11` or specialist experimental design only for selected further Work. |
 | Hide a failed or negative trial | Record the result, validity limits, and alternatives it changes. |
 | Accept a benchmark or AI confidence as general capability | State the task, population, configuration, Method, measure, result, checking Work, and transfer boundary. |
 | Demand certainty before a reversible action | Use a stated reliance limit, accepted uncertainty, reversible choice, observation, and reopen condition. |
@@ -4847,25 +4962,58 @@ subtype of the other.
 
 ### SYSE.10:11 - SoTA and Source Use
 
-When using research to make an engineering decision, distinguish the physical phenomenon, model, computation, hypothesis, experiment, observation, evidence, candidate and decision. Return what the investigation supports for that decision and state the conditions of reliance. Select a specialized research line when it can change the practitioner move under consideration.
+**Receiving question.** With the available qualified results in :5, what technical recommendation can the
+engineer return for the two increment criteria, and what changes when the sensor premise changes? Compare a
+specialist assessment centred on credible model prediction with the bounded combination of heterogeneous
+results in :4.1.1. Keep the same configuration, criteria, evidence access and required professional preparation.
 
+A serious model-based answer is supplied by Riedmaier, Danquah, Schick and Diermeyer,
+[*Unified Framework and Survey for Model Verification, Validation and Uncertainty Quantification*](https://link.springer.com/article/10.1007/s11831-020-09473-7)
+(published online 2020; journal volume 2021), §§2.5, 3.3 and 8.1–8.4. **Adapt** its use-specific prediction,
+uncertainty treatment and selection among VV&UQ approaches. Validation conditions and application conditions
+may differ; credible prediction must account for that difference. Its approach already has conditional
+applicability and trade-offs. A generic validation label is not the alternative being compared.
 
-| Source line | Retained contribution | Limit and guard |
+| Same receiving conditions | Specialist model-based answer | Assessment through :4.1.1 |
 | --- | --- | --- |
-| Current FPF `C.11:4.2.2–4.2.4` and [Huan, Jagalur, and Marzouk 2024/2026](https://arxiv.org/abs/2407.16212) | An authorized Agent applies `C.11` to choose on the current comparison basis and, when further inquiry is a live alternative, compare a feasible local probe using budget, cost and its value to the decision. The result can select a current option, reject the set, choose a probe, or reroute; current OED distinguishes the design of experiment sets and sequential policies through utility, design variables, model assumptions, computation, and robustness. | Assessment Work guided by `SYSE.10` produces an engineering claim assessment; when further evidence is chosen, it uses a compatible `C.11` or specialist experimental-design result. `C.29` can govern a mathematical-lens use, but neither a lens nor this assessment is an experiment plan. |
-| [Riedmaier et al. 2021](https://doi.org/10.1007/s11831-020-09473-7) and [Schwarzburg et al. 2024](https://doi.org/10.1017/dsj.2024.14) | Decision-specific model use requires verification, validation, uncertainty quantification, extrapolation attention and consideration of model history, competence, access and decision risk. | No one VV&UQ Method is universal; the 2024 practitioner sample is small and non-probability. Confidence is not truth, physical adequacy, decision correctness or complete reliability. |
-| [Papalambros et al. 2025, Yilmaz et al. 2015, and Koen 2003](https://www.cambridge.org/core/journals/design-science/article/design-science-why-what-and-how-revisited/75E30B42E451F82466818FDD4525D6EF) | Heuristics can be context-dependent strategies for intentional variation and candidate generation; current field synthesis retains their engineering relevance. | Koen is historical and philosophical; the 2015 experiment is one short task; the 2025 source is a retrospective. No heuristic family becomes universal law or proof of effectiveness. |
-| [Lehner et al. 2025](https://doi.org/10.1007/s10270-025-01264-7) | Digital-twin engineering uses heterogeneous model transformations, code generation and interpretation across design, implementation and operation. | The mapped literature is manufacturing- and transport-heavy with heterogeneous maturity; it establishes neither one twin ontology nor physical evidence by synchronization. |
-| [Hernández et al. 2023, Norheim et al. 2024, and Kosenkov et al. 2025](https://doi.org/10.1007/s00766-023-00396-w) | Requirements and compliance Work persist under continuous software and cyber-physical development through collaboration, traceability, monitoring, models and changing descriptions. | The evidence is software-heavy and uses *requirements* in several senses. It neither restores a requirements phase nor shows that legal interpretation, independent assurance or physical evidence disappear. |
-| [Mohanani et al. 2022, Binamungu and Maro 2023, Fakhoury et al. 2024, and Wang et al. 2025](https://doi.org/10.1016/j.jss.2023.111749) | BDD, test-driven interaction and requirements-driven testing can connect selected software intents, scenarios and executable checks; template fixation and incomplete automation remain material. | Software cases do not turn tests into obligations, outside-use effects, acceptance, compliance or complete assurance; industry evidence and full automation remain limited. |
-| [Krajcer et al. 2026](https://doi.org/10.1017/dsj.2026.10060) and [Mirzaei et al. 2026](https://doi.org/10.1017/dsj.2026.10054) | Current evidence supports task-specific AI acceleration or widening alongside losses in engagement, confidence, opacity, bias and diversity; critical evaluation and integration remain necessary. | The experiment concerns novice UX students and one tool family; the review aggregates heterogeneous design-thinking studies. Neither establishes transfer across engineering profiles or holder replacement. |
-| [Becker et al. 2025 with the 2026 METR update, Agarwal et al. 2026, and Pradas Gomez et al. 2025](https://metr.org/blog/2026-02-24-uplift-update/) | AI already participates in bounded software and engineering-design Work, with task-, quality-, prior-use- and integration-dependent results. | The sources do not establish universal productivity, complete engineering autonomy, independent problem selection, authority transfer, or correctness of generated evidence. |
+| An applicable specialist assessment already covers both required criteria and their joint conditions. | Use that complete result and its limits. | Use the same result; another argument or record adds no required contribution. |
+| M17 supplies the temperature prediction while timing, installation and limiter results are separately qualified as in :5.2. | Retain the qualified prediction. A complete increment recommendation also needs the applicable timing/configuration connection and the cycling result; an existing specialist integration argument may already supply them. | Reuse those same contributions and construct only the missing join: the 0.9 s bound establishes M17's timing premise, the installation result establishes correspondence, and L4 supplies the other necessary criterion. |
+| The sensor-age premise changes as in :5.3. | Reconsider prediction applicability; the old model result cannot settle the changed claim. | Withdraw the dependent temperature assessment and the favorable conjunction, retain the independent restart result, and return the missing premise to the deciding Agent. |
 
-Treat “current SoTA” as claim- and use-specific. A newer paper does not automatically supersede a still-useful
-Method; it must change the relied-on claim, alternative, validity boundary or engineering move. Conversely, an
-old standard, famous framework or official procedure does not remain current merely because it is widely cited.
-Use expert judgment with an explicit epistemic status when direct comparative evidence is unavailable and the
-cost of obtaining it would exceed the decision value.
+**Choice and accepted cost.** Use a sufficient specialist answer directly. Otherwise use this assessment to
+explain the remaining connection between unlike qualified results and the receiving engineering claim. It
+makes a partial technical result, a missing joint premise and their decision effect recoverable without first
+requiring a new model of every contribution. A competent specialist may already provide exactly that argument;
+in that case the answers coincide and a separate account has no demonstrated benefit.
+
+When direct comparative evidence is unavailable and obtaining it would cost more than its value to the decision,
+use qualified expert judgement with an explicit epistemic status, assumptions and limits.
+
+The narrower construction retains real dependence on domain qualification. It does not calculate M17's error
+model, establish the timing bounds or prove L4's behavior. When those results are missing, obtain the applicable
+technical contribution or return the gap. Count its acquisition, specialist access, computation, integration
+and later maintenance burden whichever assessment form is chosen. The worked comparison explains a
+conditional construction; it supplies no measured project saving or general superiority of one Method.
+
+Two further source contributions change the stop or the permitted inference:
+
+- Schwarzburg et al., [*On the factors influencing confidence in models and simulations for decision-making:
+  a survey*](https://www.cambridge.org/core/journals/design-science/article/on-the-factors-influencing-confidence-in-models-and-simulations-for-decisionmaking-a-survey/2ABC108661F76142864AC7C54443C06D)
+  (2024), §§5.2–5.3: **retain the distinction** between reported confidence and qualified support. Its forty-response
+  convenience sample and exploratory constructs concern confidence in use. They do not turn confidence into a
+  physical temperature bound. This limits the confidence-score shortcut in :5.3; it is not a calibrated rule
+  for combining the case's results.
+- Huan, Jagalur and Marzouk, [*Optimal experimental design: Formulations and computations*, v2](https://arxiv.org/abs/2407.16212v2)
+  (2024 article; 2026 corrected version), abstract: **adapt the scope distinction** among design criteria,
+  computation and non-myopic sequential design policies. Use current `C.11:4.2`, step 5, for a worthwhile next
+  local inquiry; return a coupled experiment programme to a specialist Method. This changes :4.1 step 9 and
+  the continuation in :5.3. The abstract supplies this boundary, not the full numerical design procedure.
+
+Reopen the selected assessment arrangement when the receiving claim exceeds an available result's qualified
+domain, a necessary contribution or joining rule changes, or a sufficient specialist answer becomes available
+with less total reconstruction. Reopen the technical VV&UQ choice when a changed application or uncertainty
+question defeats its assumptions; the bounded assessment cannot repair that defect by changing labels. A new
+publication matters when it changes one of these contributions or limits, not merely because it is newer.
 
 ### SYSE.10:12 - Relations
 
@@ -4881,8 +5029,10 @@ cost of obtaining it would exceed the decision value.
 - `C.16`, `C.16.P`, and `A.18` govern measurement, characteristics, scales, units, uncertainty, and admissible
   operations. `A.10`, `G.6`, and `G.11` govern evidence use, provenance, and currentness; `C.28` governs causal
   and counterfactual support.
-- `B.3`, `A.21`, `G.4`, and the applicable acceptance and permission patterns govern assurance, gates, and
-  consequence-bearing reliance. An engineering claim assessment emits none of those results.
+- `SYSE.4:4.4` supplies the explanation of a consequential inference and `SYSE.4:4.6` the distinction among
+  joint premises, alternative arguments and shared evidence. This assessment can use those instructions
+  without making an assurance claim. `B.3`, `A.21`, `G.4`, and the applicable acceptance and permission
+  patterns govern the separate assurance, gate and consequence-bearing results.
 - Assessment Work can produce evidence for `SYSE.6`, `SYSE.4`, or `SYSE.19` only when the claim, configuration,
   horizon, and receiving decision match. Evidence neither authorizes nor entails those decisions.
 - Results from engineering Work—for example realization, integration, operation, configuration change, specialist
