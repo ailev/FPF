@@ -32,7 +32,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty-seven published DPFs with 428 pattern bodies (12.131 M characters in their full publication files). Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-seven published DPFs with 428 pattern bodies (12.136 M characters in their full publication files). Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -40,7 +40,7 @@ Each size covers the full linked Markdown file, including spaces and markup. 1 M
 
 | What you are trying to do | Published DPF | A result it can help you obtain |
 | --- | --- | --- |
-| Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 53 patterns, 1.489 M characters | A system boundary, architecture decision, comparison of ways to obtain a result, usable composition of independently released components, integration plan, or justified release decision. It also covers general Platform Engineering, a substantial software delivery and reliability profile, and eleven Methods for engineering agent work and support, with human and technical realizations. |
+| Bring about or change an engineered system, from its intended use to working integration and continued development. | [Systems Engineering](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 53 patterns, 1.494 M characters | A system boundary, architecture decision, comparison of ways to obtain a result, usable composition of independently released components, integration plan, or justified release decision. It also covers general Platform Engineering, a substantial software delivery and reliability profile, and eleven Methods for engineering agent work and support, with human and technical realizations. |
 | Choose, explain, test or improve a way of working, or develop a pattern language from source knowledge. | [Method Engineering](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 26 patterns, 0.910 M characters | An explicit method, a mathematical comparison or construction of a changed way of working, a useful description or support arrangement, evidence about fit, transfer and practical value, or a source-based contribution to a method description in pattern-language form. |
 | Change how an organization contributes, assigns work and enables people and other performers to act. | [Organization Change Engineering](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 17 patterns, 0.733 M characters | A compared organizational arrangement, clarified assignments and authority, a supported change, or a decision about its consequences. |
 | Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns, 0.719 M characters | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |

@@ -6562,9 +6562,9 @@ clinical environment, electrical bench, or ship facility. The software selection
 | practitioner-experience account | An episteme carrying evidence-backed claims about, for example, effort, delay, error, rework, recovery, autonomy, or result quality for named Work. A satisfaction result supports only the claim and population it measured. |
 | platform readiness assessment and platform-use assessment | The readiness assessment uses evidence available before the relying Work. The use assessment uses later observations of that Work and the platform's actual participation or provision. They are different epistemes with different evidence windows. |
 
-The platform System, provider Agent, practitioner Agent, capability, promise content, Method, MethodDescription,
-dated Work, participation or provision relation, condition, result, and evidence remain distinct. When a source
-says *service*, recover which of these objects or relations its current claim needs.
+When a source says *service*, recover its claim—for example, a capability, promised result, performed
+provision, or participation in Work. Name the holder or participants and supporting evidence. A promise alone
+does not establish performed provision.
 
 ### SYSE.12:1 - Problem Frame
 
@@ -6642,7 +6642,10 @@ provision relations, and evidence separately, then reassess the platform from ob
 6. **Generate and choose among real alternatives.** Build a `C.11` option set from feasible complete
    arrangements. Candidates may retain the current arrangement, change a capability or relation, compose existing
    Systems, obtain or build a part, branch for a profile, preserve a bypass, or retire a harmful arrangement. Name
-   the deciding Agent, authority, accepted losses, and questions outside that authority.
+   the deciding Agent, authority, accepted losses, and questions outside that authority. Compare them for the
+   same practitioner result and period of reliance, including continuing provider, maintenance, and recovery
+   Work as well as practitioner effort. Use `SYSE.24` when the obtaining comparison is unresolved and `SYSE.25`
+   when the improvement mechanism needs investigation.
 7. **Perform selected platform-development Work.** When step 6 selects a change, record the performing Agents,
    assignments when relevant, Methods, temporal extents, results, actual transformations, resulting configuration,
    and evidence. A decision record does not change the platform. When the current arrangement is retained,
@@ -6691,11 +6694,27 @@ The actual engineering platform includes the model-build System, bench, and evid
 C4. A support Agent provides recovery Work but is not made a part of the platform merely by supporting it. A
 platform description records the structure; it is not the platform System.
 
-The engineers compare five alternatives: retain manual reconciliation, add configuration-and-evidence links,
-replace the bench, obtain bounded evidence-provision Work from another provider, or keep automation bypassed by
-the manual fallback. The Agent authorized to make the platform decision selects the linking change because it
-preserves the current integration Methods and fallback while reducing a known source of mismatch. The decision
-record does not change the platform.
+For the next controller-integration campaign, each candidate must return evidence tied to the same model,
+controller and bench configurations, preserve access to that evidence, and permit recovery after an interrupted
+assembly. The competent incumbent records and checks the correspondence manually. It can still produce the
+required result; the observed missed link and repeated copying across revisions are reasons to compare a repair.
+
+The engineers compare retaining that arrangement, strengthening its manual correspondence check, adding
+configuration-and-evidence links, replacing the bench, and obtaining bounded evidence-provision Work from
+another provider. Strengthening the manual check avoids maintaining new bindings but leaves reconciliation in
+each attempt. The linking option carries identifiers from their originating configurations into the assembled
+evidence; it removes repeated copying but requires a provider to maintain the bindings when formats or
+configurations change. Bench replacement would require requalification; no identified bench limitation makes
+that work necessary for this repair.
+Outside provision is competitive only if it returns the same configuration-linked evidence with the required
+access and recovery; otherwise the engineers still perform the join. Manual fallback remains part of the
+linking option.
+
+The authorized Agent chooses the bounded linking change because revisions recur during this campaign and
+preserving correspondence at evidence creation addresses the observed failure. The Agent accepts continuing
+binding-maintenance and recovery Work. Retaining the manual arrangement could be preferable for an infrequent
+job with adequate checks and support. This choice predicts a useful repair; its total burden advantage remains
+to be assessed. The decision record does not change the platform.
 
 A platform-engineering team configures identifier bindings, repository links, and recovery hooks. This dated Work
 is distinct from the actual transformation of the continuing platform from C4 to C5 and from the evidence that
@@ -6715,10 +6734,18 @@ platform participation in those Work occurrences; they do not assign the enginee
 supplier's fixture-fabrication Work uses another arrangement, so the same participation claim does not apply
 there.
 
-The later use assessment records that evidence assembly for controller integration fell from the stated local
-baseline of six person-hours to two and a half, while a repository outage took 45 minutes to recover and the
-export gap remained. These constructed observations support only this case. They can change later platform
-decisions, but they cannot retroactively justify the earlier controller-integration reliance.
+The later use assessment records that the engineers' evidence-assembly effort for controller integration fell
+from the stated local baseline of six person-hours to two and a half, while a repository outage took 45 minutes
+to recover and the export gap remained. The provider's continuing binding-maintenance effort has not yet been
+measured on the same basis. Thus the observations support the local assembly saving, not a claim that total
+Work fell. Assess that claim using comparable provider and practitioner Work over the selected campaign; the
+45-minute outage duration alone is not a measure of recovery effort.
+
+If obtaining those observations is not worth its cost for the next decision, leave the total-burden claim open
+and decide from the supported result and accepted maintenance obligation. A later finding that provider Work
+outweighs the assembly saving reopens the improvement claim; it does not erase the verified links or completed
+integration. These constructed observations support only this case and can change later platform decisions.
+They cannot retroactively justify the earlier controller-integration reliance.
 
 **Countercase.** A repository and continuous-integration server are installed, but no practitioner Work,
 participation, provision, or engineering result is observed. Record the installed Systems and the proposed
@@ -6740,8 +6767,8 @@ the best available case evidence and state its epistemic status.
 
 - [ ] Practitioner Agents or population, Work, Method, result, configuration, interval, and receiving decision are
       named.
-- [ ] Platform System, provider Agent, practitioner Agent, capability, promise, MethodDescription, Method, Work,
-      participation or provision relation, condition, result, and evidence remain distinct.
+- [ ] Source-local *service* wording is interpreted for the claim being made, such as capability, provision,
+      or participation.
 - [ ] Capability holders and envelopes are supported, and each direct relation states its participants and
       conditions.
 - [ ] Alternatives include retaining the current arrangement, a bounded change, a branch or bypass, and stopping
@@ -6782,15 +6809,43 @@ configuration, evidence, use, and evolution for that Work.
 
 ### SYSE.12:11 - SoTA and Source Use
 
+**Which enabling arrangement should support this engineering Work, and what justifies retaining or changing it?**
+For ordinary internal software provision, the DORA/CNCF approach of developing a platform around users' tasks
+is a sufficient starting answer when its provider capabilities and supported use already cover the Work.
+It develops a small useful offering with users, composes existing provision, and learns from task outcomes.
+Adopt that answer within its conditions.
 
-| Source line | Adopted contribution | Limit retained |
+For Work spanning software tools, physical facilities and separately performed provider Work, this pattern
+selects an authored synthesis: carry that task-oriented development into the actual enabling arrangement,
+qualify each relied-on capability and relation, and separate readiness before use from later observations.
+Its gain is a supported decision about which Work the arrangement can enable: a bench, repository and support
+provider can contribute different qualified results, and a missing export or changed maintenance burden
+reopens only dependent claims.
+The accepted cost is identifying those dependencies and maintaining their qualifications. This is a
+constructive answer for mixed engineering Work, not evidence that it outperforms qualified direct provision.
+
+The serious local alternative is to retain competent provision or repair its manual interaction without
+developing a shared platform capability. It avoids new binding, interface and support obligations and can win
+for infrequent or highly variable Work. The synthesis earns its added effort when repeated coordination or
+cross-provider dependencies change the relying decision. If the direct source treatment or incumbent already
+carries those distinctions adequately, reuse it.
+
+| Source and comparison role | Disposition and practical consequence | Limit |
 | --- | --- | --- |
-| DORA, [*State of AI-assisted Software Development*](https://dora.dev/research/2025/dora-report/), version 2025.2, pp. 66–73 and 114–131, with the [p. 70 correction](https://dora.dev/research/2025/errata/) | Platform user experience, task-outcome feedback, extensibility, practitioner independence, and coexistence of gains with instability. | Technology-work survey and qualitative evidence does not establish a cross-domain platform organization or causal dominance. |
-| Tolio, Monostori, Váncza and Sauer, [*Platform-based manufacturing*](https://doi.org/10.1016/j.cirp.2023.04.091), CIRP Annals 72(2) (2023), 697–723 | Manufacturing platforms include networks, physical and digital Systems, data spaces, and user/provider decisions. | A manufacturing ecosystem is not an internal developer platform or one universal provider arrangement. |
-| Eichenwald et al., [*Production system ontology for continuous Capability-based Engineering*](https://doi.org/10.1016/j.procir.2024.03.018), Procedia CIRP 128 (2024), 387–392; Ghanjaoui et al., [*Model-based assembly process planning for flexible aircraft cabin architectures*](https://doi.org/10.1007/s13272-024-00773-3) (2024), §§1–3 and 5–6; Meixner et al., [*Variability Modeling of Products, Processes, and Resources in Cyber-Physical Production Systems Engineering*](https://arxiv.org/abs/2402.09882) (2024), §§2.1 and 5–7 | Product, process, resource, capability, and architecture links provide physical-engineering Work and evidence demands. | Proposed ontologies and small cases do not establish one platform architecture or toolchain. |
-| Bantwal and Fatahi Valilai, [*Integrated engineering change management framework for efficient information flow to product design systems*](https://doi.org/10.1007/s00170-025-17175-2) (2026), §§2.3–2.4, 3–6 | A bounded engineering-change case connects product descriptions, supply constraints, CAD/CAE, ERP/PLM, and validation. | One proposed brake-caliper case is neither field prevalence nor one generic consistency Method. |
+| DORA, [Platform engineering capability guide](https://dora.dev/capabilities/platform-engineering/), updated 12 January 2026; “How to implement quality internal platforms,” especially “Design for extensibility.” A direct software-practice candidate. | **Adopt** task-oriented product development, a minimum useful offering, clear task feedback and extensibility. This selects the narrow improvement and supported interaction reached through `SYSE.25–26`; extensibility returns to `SYSE.27`'s interface and contribution work. | Guidance for internal software platforms does not qualify a laboratory or manufacturing Method. |
+| [CNCF Platforms White Paper](https://tag-app-delivery.cncf.io/whitepapers/platforms/), “What is a platform,” “Attributes of platforms,” “Attributes of platform teams,” and “Enabling platform teams.” A provider-composition candidate. | **Adopt** a thin, composable offering over capable providers and supported user entry. **Adapt** the division of provision in :4.1 steps 2–4: the pump bench, repository and recovery Agent remain identifiable contributors. | The cloud-native arrangement is a supported alternative, not a required organization for every engineering profile. |
+| DORA, [State of AI-assisted Software Development](https://dora.dev/research/2025/dora-report/), v2025.2, platform chapter pp. 66–72 and methodology pp. 113–131, with the [p. 70 correction](https://dora.dev/research/2025/errata/). Evidence limiting a one-sided benefit claim. | **Adopt** the need to examine task experience alongside delivery instability; **reject** an inference of universal causal benefit from the reported associations. This supports :4.1 step 9 and the separate burden/recovery observations in :5. | Survey and qualitative evidence does not compare all engineering arrangements or establish a cross-domain platform organization. |
+| Tolio, Monostori, Váncza and Sauer, [Platform-based manufacturing](https://doi.org/10.1016/j.cirp.2023.04.091), CIRP Annals 72(2) (2023), 697–723; §§1–2.3, 6.1.1 and 6.3.1–6.3.3. A manufacturing alternative and transfer limit. | **Adapt** its different provider/participant arrangements, input-interpretation burden, traceability and data-use conditions into the alternatives in :4.1 step 6. In :5, outside provision must return usable, configuration-linked evidence; intermediation alone does not supply that result. | Standardized input can exclude needed variation. A manufacturing network does not supply the professional Method or qualification of each physical operation. |
 
-Engineering platforms support Work in different domains. Technology and manufacturing sources describe different arrangements; this pattern retains their common question of what support the named practitioner Work needs. Reopen when a later comparative source changes that relation or an application profile establishes a different first result.
+In :4.1 step 6, this means comparing complete arrangements for the same result and period, including continuing
+provider Work. The case in :5 selects identifier links while accepting their maintenance obligation and keeps
+a measured practitioner saving separate from an unmeasured total-burden claim. `SYSE.24` supplies the
+obtaining comparison; this pattern joins its result to capability, participation and evidence timing.
+
+Reopen the affected choice when a changed input or provider breaks the relied-on correspondence or access,
+when comparable continuing burden reverses the accepted trade-off, or when a supported alternative supplies
+the same result with fewer obligations. Reopen the cross-profile synthesis only when a new use or comparative
+source defeats the particular dependency or evidence distinction being carried across profiles.
 
 ### SYSE.12:12 - Relations
 
@@ -15005,17 +15060,19 @@ complete obtaining arrangement is compared, including internal work, provider co
 burden. Neither a standard's process scope nor NASA's programme setting settles a local supplier, contract
 or release decision.
 
-`SYSE.12`'s [source comparison](#syse1211---sota-and-source-use) relates
-software-work evidence to manufacturing-platform and product/process/resource accounts. Their useful shared
-contribution is the relation between an enabling System and named practitioner work. Their surveys, proposed
-models and bounded engineering-change cases do not establish one provider organization or universal platform
-architecture. This is why the common Methods compare task results and support conditions, while a profile
-supplies the professional operations and evidence that differ.
+`SYSE.12`'s [source comparison](#syse1211---sota-and-source-use) relates task-oriented software-platform
+practice and qualified software-work evidence to manufacturing arrangements with different participants,
+physical means and information-use conditions. It qualifies their contribution to the named practitioner Work;
+professional operations and their qualification remain profile-specific.
 
-DORA and CNCF's platform lines, detailed below, add task-oriented product feedback, supported interfaces and
-contextual investment. The language adapts these contributions against the alternative of measuring adoption
-or installing a portal as the improvement itself. Its software profile then combines locally described
-build, environment, data, deployment and observation Methods with exact source procedures where appropriate.
+DORA and CNCF's platform lines, detailed below, provide a direct task-and-product treatment of internal
+software provision, including composition over existing capability providers. `SYSE.12` adopts that answer
+where it fits and compares it with retaining competent local provision. For mixed physical and software Work,
+its authored synthesis adds the capability, provider and evidence qualifications needed by the relying
+decision, accepting their maintenance cost. The pump case compares that cost with repeated manual
+reconciliation; its observed user saving leaves total burden open. The software profile then combines locally
+described build, environment, data, deployment and observation Methods with exact source procedures where
+appropriate.
 SLSA's procedure addresses consumer verification under a configured trust basis; artifact verification does
 not establish application correctness. Runtime deployment must be performed and observed, and release needs
 its authorized decision. The source table keeps these contributions and limits visible; one branded
