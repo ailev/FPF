@@ -7987,9 +7987,7 @@ whose authority, on what evidence, or under which conditions.
 Begin with one question: may an identified description, software package, or actual System in a stated
 configuration enter named Work or use—for example, realization, integration, trial, deployment, delivery, or
 service? A release decision relates that subject to a permitted next use under stated conditions; a generic status
-label does not. Recover each object needed by the case: the trigger, proposed change, technical choice, governing
-authority and permission, release decision, later Work and actual transformation, resulting configuration, and
-the records and evidence about them.
+label does not.
 
 The first useful result is a **bounded engineering release decision**. It states what may enter the named Work or
 use, for which units and conditions, what evidence and authority support the decision, what remains blocked, and
@@ -8072,6 +8070,16 @@ Recurring tensions include:
 Develop one bounded release decision around the named next Work or use. Carry forward only the configuration,
 consequence, authority, permission, and evidence claims that can change that decision.
 
+Use an established professional release result or qualified software-delivery result directly when it already
+answers this subject's next-use question with the required evidence and permissions. When a needed connection
+is absent, construct that addition: for example, connect an installed unit's evidence and a separate service
+permission to the current choice. An existing change account may carry the result.
+
+Compare a focused addition to the existing records with a workflow that maintains those connections. Hold the
+release subject, next use and required assurance constant; include the work of checking the connection now and
+keeping it valid after corrections. Repeated releases may justify maintained integration. One bounded decision
+may justify a checked addition without a new standing workflow.
+
 #### SYSE.14:4.1 - Perform the Move
 
 1. **Bound the release question.** State the identified description, software package, or actual System under
@@ -8152,9 +8160,9 @@ protection change. The configuration basis from `SYSE.13` distinguishes four gro
 | S009–S010 | IO-B; database says *installed*, but current calibration and cold-start evidence are absent. | Trial or service release is not supported by the current evidence. |
 
 The original request asked for release to all ten units. The engineering team retained three real options:
-withhold the change; release it to monitored service on S006–S008; or extend a trial to S006–S010. The last option
-failed the stated calibration-evidence threshold. Withholding avoided change risk but left an observed cold-start
-failure mode uncorrected on the three eligible units.
+withhold service release on the changed units; admit S006–S008 to monitored service; or extend a trial to
+S006–S010. The last option failed the stated calibration-evidence threshold. Withholding avoids exposure to
+the changed configuration but keeps the three otherwise eligible units out of service for now.
 
 The release board acts as the deciding Agent and has authority for this service-release decision. An independent
 safety team acts as the permission-granting Agent; its permission covers only S006–S008, the named temperature
@@ -8167,11 +8175,29 @@ for S006–S008 restored that evidence. A maintenance observation showed restore
 under one load and temperature interval; it added evidence for S006 only and established neither safety nor the
 state of S007–S008.
 
+For this illustrative comparison, assume the chamber tests cover the proposed temperature envelope and support
+correction of the observed cold-start failure without loss of the required control response. They support an
+expected benefit on S006–S008, with uncertainty about field behaviour remaining. Staff and a practicable way
+to detect a recurrence and stop the affected unit are available throughout the monitoring interval.
+
+The board gives priority to restoring needed cold-start-capable service while preserving the required control
+response. Its rule prefers monitored service to withholding when that response and the separate permission
+are supported and recurrence can be detected and contained. On the same evidence, withholding avoids the
+remaining change risk and monitoring work but forgoes that service. The board accepts the monitoring burden
+and residual field uncertainty for this bounded interval. If monitoring is unavailable or the required control
+response lacks support, this rule favours withholding; permission alone cannot settle the choice.
+
 The release decision therefore admits S006–S008 to monitored service under the stated conditions. S005 and
 S009–S010 remain withheld pending calibration and cold-start evidence; S001–S004 remain outside hardware
 compatibility. The next Work is monitored service, not another installation inferred from the decision. A sensor
 replacement, firmware change, calibration-source change, cold-start failure, or operating-envelope change
 reopens only the affected unit and claim.
+
+The engineer adds the service decision to the existing change account and links the unit evidence and separate
+permission. For this single subset release, the team chooses that checked addition over configuring a workflow
+to maintain the same connections automatically. It accepts manual revalidation after an affected record changes.
+Recurring releases could justify the maintained workflow; either approach needs the same choice, evidence and
+permission. Neither a package's software approval nor its installation record already answers this service question.
 
 The decision can supply bounded evidence to `SYSE.4`, whose assurance Work may still find an unsupported claim or
 return a blocker. The release decision itself establishes no assurance conclusion.
@@ -8195,8 +8221,8 @@ judgement with an explicit epistemic status when broader field evidence is unava
 
 - [ ] One release subject, release kind, receiving Work or use, deciding Agent, and current option set are stated.
 - [ ] The configuration basis concerns the same actual Systems, descriptions, conditions, and release question.
-- [ ] Trigger, change candidate, technical choice, authority, permission, release decision, performed Work, actual
-      transformation, configuration, evidence, assurance, status, and transfer remain distinct.
+- [ ] The decision uses each approval or completion status only for what it establishes. Any required permission,
+      claimed installation or resulting configuration has its own support.
 - [ ] Consequence tracing reaches affected Systems and direct relations, not only files, departments, or links.
 - [ ] Every relied-on authority, permission, and evidence result has the subject, scope, interval, and source
       needed by the decision.
@@ -8245,19 +8271,39 @@ reconsideration.
 
 ### SYSE.14:11 - SoTA and Source Use
 
-During release Work, distinguish the request, criticism, technical decision, permission, release, implementation, effectivity, status and transfer. Relate them so that the decision states which later Work or use it permits. Engineering can continue beyond a release.
+**Working question:** How should an engineer obtain a justified release for named Work or use without adding
+approval and record-keeping work that cannot change that decision?
 
+The selected line reuses an adequate professional release process or qualified software-delivery path and
+constructs only a missing connection needed by the receiving decision. A competent CM process can already
+relate affected-function contributions, implementation costs, dependencies, effectivity and release. A software
+path can combine peer review, automated feedback, recorded authorization and additional scrutiny for material
+risk. Use either result directly when it covers the same release subject and next use; :4 makes this the
+ordinary entry rather than requiring a second release account.
 
-| Source line | Retained contribution | Limit and guard |
+The authored connection matters when those results do not yet answer the receiving question. In :5, installed
+software and package approval do not decide whether the identified controllers should enter monitored service.
+Steps 2, 5–8 connect unit-qualified evidence and independent permission to the board's explicit comparison.
+The case shows why monitored service is preferred to withholding under the stated illustrative evidence,
+priority and accepted burden. Eligibility alone leaves that preference unresolved.
+
+A workflow that maintains these connections and returns the same bounded decision is a serious alternative
+to constructing it from existing records. Compare both for the same service question and assurance needs.
+The case accepts manual checking and revalidation for one subset release, retaining the result in the existing
+account. An integrated workflow can become preferable when repeated releases justify its construction and
+upkeep. Neither path reduces the required evidence or permission. This is an explicit trade-off, not measured
+superiority of a manual case or a universal argument against release automation.
+
+| Source answer considered | Disposition in this Method | Scope and limit |
 | --- | --- | --- |
-| Frank B. Watts, *Configuration Management for Senior Managers* (2015), historical practitioner lineage | Manufacturing cases distinguish request screening, technical release, effectivity, implementation, status accounting, field change, delay, and collision. | Central departments, phase spine, paper forms, sanctions, and universal metrics are not retained. |
-| [Beibl and Krause 2024](https://doi.org/10.1017/pds.2024.253) | Interviews at one automotive manufacturer show different affected-component and downstream-change problems in development, production, and customer-owned contexts. | One company supports recurrence and viewpoint differences, not a universal Method or prevalence claim. |
-| [Gangl, Gollmann, and Gruchmann 2024](https://doi.org/10.1016/j.procir.2024.01.090) | One automotive case shows that change continues beyond released engineering data into master-data changes and plant implementation. | One company and one comparator do not establish a universal sequence. |
-| [DORA, “Streamlining change approval,” updated 2025-10-30](https://dora.dev/capabilities/streamlining-change-approval/) | For routine software changes, current guidance favours peer review and automated feedback while retaining stronger scrutiny for detected high-risk changes. | The evidence is software-specific and partly correlational; it does not remove physical configuration, independent assurance, permission, or domain release authority. |
-| [Zampetti et al. 2022](https://doi.org/10.1145/3571854) | Interviews and survey evidence show mixed continuous and periodic builds, simulation, hardware-in-the-loop, deployment, feedback, and hardware/software expertise. | Limited generalizability; no single pipeline, cadence, or complete automation is implied. |
+| Frank B. Watts, *Configuration Management for Senior Managers* (2015), request evaluation, technical release and change implementation | **Adopt** early contributions from affected functions, alternatives and implementation costs; **adapt** the technical-release/incorporation distinction to the named next use in :4.1 and :5. A professional arrangement that already supplies the bounded result is sufficient. | This historical practitioner treatment includes coordination, online processing and limited signatures. Its specific departmental and payback rules, and its claim that release ends technical uncertainty, are not conditions of this Method. |
+| [DORA, Streamlining change approval](https://dora.dev/capabilities/streamlining-change-approval/), updated 2025-10-30, especially implementation and improvement guidance | **Adapt** peer review, automated feedback and risk-sensitive scrutiny for the software path admitted by :4 and the direct-use case in :5. Retain recorded authorization and consequential cross-team trade-offs. | The page points to the 2019 research; its maintenance date is not new empirical evidence. Software guidance alone does not qualify physical effectivity or the separate service permission in the controller case. A path that supplies those results can suffice. |
+| [Beibl and Krause 2024](https://doi.org/10.1017/pds.2024.253), §§1–5, changes from development, production and customer-owned viewpoints | **Adapt** consequence tracing to the receiving context in :4.1 step 4, including testing windows and downstream work. This limits transfer of a release arrangement between contexts. | The observations come from one manufacturer. They supply a context-sensitive constraint on the comparison, not a complete release Method, universal prevalence or a preferred release frequency. |
+| [Zampetti et al. 2022](https://doi.org/10.1145/3571854), mixed cyber-physical delivery practices and challenges | **Adapt** the combination of software feedback, physical qualification and specialist contributions when constructing the alternative release path. Keep their needed results connected while allowing different cadences. | The qualified cases support heterogeneous simulation, hardware-in-the-loop and deployment arrangements. They establish neither one universal pipeline nor equivalence between software feedback and physical release evidence. |
 
-Use source scope and expert judgement rather than treating standards authority, academic visibility, vendor
-promotion, or self-reported adoption as evidence of actual prevalence or effectiveness.
+Reopen the affected selection when the release's units or next use change, a relied-on result loses its scope
+or permission, or recurring connection work makes a maintained alternative worthwhile. A better source Method
+changes the relying step only where it supplies the same required result under applicable conditions.
 
 ### SYSE.14:12 - Relations
 
