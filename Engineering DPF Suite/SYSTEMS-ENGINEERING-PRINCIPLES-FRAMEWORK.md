@@ -1040,10 +1040,6 @@ relation—answers the question. If the project system-of-interest designation i
 | constructive organization | Selected actual or proposed parts, bearers, modules, interfaces, and connections. Establish its parthood and connection relations independently of functional contribution. |
 | engineering-use account | The episteme returned here: selected Systems, relations, structures, conditions, evidence, unsupported assumptions, and reopen conditions for one use decision. |
 
-Relations commonly hidden by *environment* include parthood, interaction, ownership, location, authority,
-access, permission, service provision, use, and consequence. Name the relation that actually bears on the
-decision.
-
 ### SYSE.16:1 - Problem Frame
 
 Engineering choices—such as choices about System functions, architecture, interfaces, offerings, assurance,
@@ -1087,6 +1083,11 @@ Recover the smallest set of Systems, structures, relations, and conditions that 
 well-grounded. Begin with the actual System or intended-system designator selected as the project system-of-interest and a named use situation; stop when the account
 exposes a material mismatch, alternative, evidence gap, or reopen condition.
 
+Reuse an adequate existing account or direct relation result for the same decision and conditions.
+Use the bounded recovery below when a missing connection prevents that answer. If the operating situations
+themselves need development or agreement, use a suitable scenario or concept-of-operations Method;
+obtain any missing specialist result from its domain before relying on it.
+
 #### SYSE.16:4.1 - Perform the Move
 
 1. **Bound the use and decision.** State the actual System or intended-system designator selected as the project system-of-interest,
@@ -1122,8 +1123,8 @@ exposes a material mismatch, alternative, evidence gap, or reopen condition.
 8. **Return the decision-changing result.** Supply the mismatch, alternative, evidence need, or qualified
    assumption to the receiving engineering Work. Leave unrelated surroundings out.
 
-The numbered presentation is an `A.22.CGUS` learning unfolding, not a Work sequence. Work such as observation,
-concept development, architecture development, or trial can overlap with changes in outside Systems and recur.
+The numbered steps explain the Method. Determine Work order from the actual dependencies. Observation,
+concept development, architecture development and trials can overlap and recur while outside Systems change.
 
 #### SYSE.16:4.2 - Record the Result
 
@@ -1164,16 +1165,22 @@ The decision-sized engineering-use account distinguishes these structures and re
   through the feeder. A signal channel transmits demand-response information. The plant transfers thermal energy
   to the hydronic loop, and the loop and radiators transfer it to room air. Envelope heat transfer and occupant
   control actions also change room temperature.
-- **Constructive organization.** The feeder, hydronic connections, sensors, controller interface, signal channel,
-  and cabinet clearance are the selected bearers and interfaces for this decision. Their constructive relations
-  do not follow from the functional-flow description.
-- **Maintenance supply, access, and Work.** Under `MaintenanceCommitment-14`, maintenance company `HeatCare-7` commits to supply `ControllerInspectionResult-14` to building operator `BuildingOperator-1` before the controller-configuration decision. The building operator grants `HeatCare-7` plant-room access during stated windows. Technician `T-4` is the intended Agent for `ControllerInspectionWork-14`; that Work has not occurred. If it occurs, the Work produces the inspection result, `HeatCare-7` supplies the result to `BuildingOperator-1`, and the operator receives it for the controller-configuration decision. The commitment, access grant, intended assignment, capability claim, planned Work, result production, supply, and receipt remain separately supported claims.
+- **Constructive organization.** The feeder, sensors and controller cabinet are physical bearers. The account
+  also identifies the hydronic connections, proposed controller interface and signal channel. Required clearance
+  around the cabinet is a spatial condition on its location and maintenance access. Establish the part and
+  connection relations independently of the functional-flow description.
+- **Maintenance supply, access, and Work.** Under `MaintenanceCommitment-14`, maintenance company `HeatCare-7` commits to supply `ControllerInspectionResult-14` to building operator `BuildingOperator-1` before the controller-configuration decision. The building operator grants `HeatCare-7` plant-room access during stated windows. Technician `T-4` is the intended Agent for `ControllerInspectionWork-14`; that Work has not occurred. If it occurs, the Work produces the inspection result, `HeatCare-7` supplies the result to `BuildingOperator-1`, and the operator receives it for the controller-configuration decision.
 - **Systems that may bear consequences.** Residents in a nearby building may experience increased low-frequency
   noise during night cycling. A model supports this possible consequence; no night measurement yet establishes
   an observed effect.
 - **Unsupported assumptions.** Sensor latency and occupant override behaviour are unknown at the required load. A
   planned insulation change may alter the thermal model. Cabinet clearance is supported by a drawing but has not
   been checked in the plant room.
+
+For the cabinet-location choice, the next result is confirmation of the required and available clearance under
+the installation and access conditions. If those conditions already determine the required clearance, the team
+can answer that spatial question directly. If occupant and grid-control behaviour leave the operating situation
+unsettled, develop the relevant scenarios before relying on that use.
 
 The account changes three next decisions. The Agent applying `SYSE.17` uses the possible acoustic-exposure and
 maintenance-access consequences. The Agent applying `SYSE.8` uses the maintenance commitment, provider and access
@@ -1227,8 +1234,8 @@ Engineering alternatives become comparable in the use that gives them meaning. I
 bearers and receiving Systems, outside changes gain reopen conditions, and System or offering concepts no longer
 rely on an unexplained environment label.
 
-The cost is maintaining several selected structures and their correspondence. That cost is smaller than
-preserving one stable diagram after its hidden assumptions have ceased to obtain.
+The cost is maintaining the selected structures, conditions and their correspondence. A bounded account
+accepts incomplete coverage of other uses; broaden the work when an omitted situation can change the decision.
 
 ### SYSE.16:10 - Rationale
 
@@ -1239,17 +1246,31 @@ architecture, offering, assurance, configuration, or continuing development.
 
 ### SYSE.16:11 - SoTA and Source Use
 
-Functional, constructive, interface, use and continuing-development views can expose different Systems and conditions relevant to a use decision. The method relates those descriptions to the Systems and relations the decision concerns.
+**Working question:** Which Method should an engineer use when different relations hidden inside an
+"environment" label prevent one use decision?
 
+The selected answer depends on what is missing. Use an adequate existing account or the direct relation
+Method when it settles the question. Use this bounded recovery when the needed result depends on connecting
+several Systems, relations and conditions. A developed concept-of-operations (ConOps) Method is an
+alternative when operational situations or agreement about intended use still need to be constructed.
+It develops and challenges scenarios; identifying a few relations cannot supply that broader result.
 
-| Source line | Retained contribution | Limit and guard |
-| --- | --- | --- |
-| [Naikar et al. 2023](https://doi.org/10.1080/00140139.2023.2281898) | Work domain, activity, strategies, social organization, cooperation, and Agent capabilities as coupled design questions in distributed human–AI settings. | Conceptual synthesis with an illustrative application; cognitive work analysis is one candidate Method, not a universal procedure. |
-| [Polojärvi, Palmer, and Dunford 2023](https://doi.org/10.1002/sys.21664) | A review of sociotechnical Systems Engineering shows both broad social–technical usage and more precise specialist traditions. | The review proposes no single normative definition and does not show that technical Systems Engineering replaces social, legal, political, or ergonomics Methods. |
-| Current FPF `A.1.SCR`, `A.22`, `A.6.F`, `A.6.M`, `C.28`, and `E.18.NET` | Actual-System recognition, selected-structure discipline, function and bearer repair, module and interface discipline, causal qualification, and transformation-flow structure. | These transdisciplinary moves do not supply the engineering-use return or redefine the subject relations used here. |
+The bounded connection accepts limited coverage in exchange for concentrating the account on one decision.
+It still needs the applicable evidence and specialist contributions. Section :4 makes this choice at entry;
+steps 1–6 recover the missing connections, and steps 7–8 return changed conditions to the affected decision.
+The thin :4.2 result is sufficient only within that use. In :5, cabinet location returns a spatial-evidence
+question, whereas unsettled occupant/grid behaviour returns scenario development. An adequate earlier answer
+can be reused in either branch.
 
-Reopen only a source-dependent claim that newer evidence can change. Assess enacted prevalence and effectiveness
-separately from the publication of a newer standard, notation, or framework.
+| Source answer and comparison role | Disposition, operative contribution and limit |
+| --- | --- |
+| Current FPF `A.22:4.1`, with the direct subject patterns named in :12: a supplying Method and a direct-use alternative | **Adopt** independent constituent, relation, constraint and use identification. **Adapt** that selection to the engineering decision in steps 1–6 and the :4.2 account. A spatial condition keeps its own meaning even when the same decision also needs a bearer or interface. The engineering-use account connects these selections to the receiving decision. |
+| [NASA Systems Engineering Handbook, §4.1.1.2.2–4.1.1.2.5](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/): a developed professional alternative | **Adapt** elicitation, operational scenarios and agreement about use when those results are missing at :4's entry. Follow significant nominal and off-nominal situations into interfaces and operator/support contributions. The handbook's mission-specific organization is not imposed on every thin account. |
+
+Reopen the Method choice when
+a sufficient account becomes available, an omitted condition defeats the receiving use, the question expands
+to other scenarios, or a supported alternative offers a preferable combination of coverage and effort.
+Retain qualified evidence for unaffected claims while revising the dependent conclusions.
 
 ### SYSE.16:12 - Relations
 
