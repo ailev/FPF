@@ -6597,9 +6597,10 @@ same useful result also changes the selection. A newer source or a faster tool a
   uses it.
 - A compatible `SYSE.12` result supplies pre-use platform capability and condition claims. Later participation or
   provision Work produces later evidence and cannot justify the earlier input retroactively.
-- A compatible `SYSE.18` result supplies an obtaining coordination relation and its commitments and limits. It
-  supplies no constituent output or borrowed authority. `SYSE.13` supplies configuration and effectivity claims
-  for the same Systems and use.
+- A compatible `SYSE.18` decision identifies the selected constituent arrangement and its unresolved
+  dependencies. Rely on an obtaining commitment or observed coordination only when the accompanying evidence
+  supports that claim; the decision alone supplies neither. `SYSE.13` supplies configuration and effectivity
+  claims for the same Systems and use. Constituent outputs and the receiving Agent's authority need their own basis.
 - `A.15.1`, `A.2.1`, and `A.3.1` distinguish Work, assignment, and enacted Method. `A.3.4` distinguishes actual
   transformations, and `A.15.PROD` governs claimed result production.
 - `C.11.CRC` constructs a finite contribution comparison when a proposed change's contribution relative to the
@@ -6984,8 +6985,9 @@ to different Agents. The integrating Agent cannot command every change that can 
 
 Begin with the shared use and the actual constituent Systems that can defeat it. For each constituent, state how
 it affects that use, who can decide the relevant change, what authority that Agent has, and which configuration,
-interface, commitment, evidence, or withdrawal condition the decision relies on. Then compare only the
-coordination alternatives that the relevant Agents can actually decide.
+interface, commitment, evidence, or withdrawal condition the decision relies on. Then compare arrangements for the same use, separating changes already within authority from proposals
+that require another Agent's decision. A useful current decision can authorize preparation or retain the existing
+arrangement while a particular dependency remains unresolved.
 
 The first useful result is a **bounded constituent-integration decision**. It states the selected coordination alternative,
 the deciding Agent's authority, decisions required from other Agents, accepted losses, unsupported dependencies,
@@ -7062,34 +7064,124 @@ and choose one bounded coordination alternative within the deciding Agent's auth
 
 #### SYSE.18:4.1 - Perform the Move
 
-1. **Name the shared use and decision.** State the result, use interval, conditions, constituent Systems, and the
-   Agent authorized to make the current integration decision.
-2. **Identify actual constituent Systems by consequence.** Include a System only when a stated consequence of
-   its condition or behavior—for example, participation, a supplied result, failure, change, or withdrawal—can
-   alter the shared use. Keep a future candidate as an intended System referent in plan or decision content until
-   it exists and can be recognized.
-3. **State the relied-on relation.** For each constituent, say in ordinary language how its behavior, state, result,
-   or availability changes the shared use. Then apply the pattern that governs the actual relation—for example, a
-   transformation, performed Work, commitment, capability, transfer, interface, availability, or evidence relation.
-   Use a separate predicate for each unlike claim.
-4. **Recover decisions and authority.** For every choice that can alter the use, identify the deciding Agent,
-   assignment when relevant, direct authority or permission, conflict, and escalation. Compare the actual decision
-   centres and feedback; neither centralization nor decentralization is beneficial by label.
-5. **Check commitments, interfaces, configurations, and evidence.** Record each commitment, later Work, delivered
-   result, interface description, actual exchange, and fulfilment evidence as its own claim. State the relevant
-   conditions used by the decision—for example, notice, withdrawal, capacity, timing, recovery, or currentness.
-6. **Generate feasible coordination alternatives.** Consider alternatives such as retaining the arrangement,
-   changing an interface or commitment, adding a mediating System, buffer, or fallback, replacing a constituent for
-   this use, narrowing the use, or stopping. Preserve alternatives that require decisions from different Agents.
-7. **Choose within actual authority.** Record the selected alternative, deciding Agent, authority, accepted losses,
-   decisions still required elsewhere, unsupported dependencies, authorized next Work, and any evidence still
-   needed for reliance on the selected arrangement.
-8. **Perform and observe only when authorized.** If integration Work occurs, identify the performing Agent, Method,
-   dated Work, actual transformation or newly obtaining relation, resulting configuration, and evidence. Use a
-   representative occurrence to support only the coordination claim actually observed.
+1. **Bound the shared use.** State the result, operating conditions, interval and decision to be made. Identify
+   the losses that this decision may accept and the conditions it must preserve. Begin with an adequate current
+   account when one exists; use this Method only for the missing or changed connection.
+2. **Recover constituents by consequence.** Follow the result back to the Systems whose participation, failure,
+   change or withdrawal could defeat it. State what each contributes or constrains and why that matters here.
+   Preserve an observed participant whose identity is still unknown; distinguish that uncertainty from an
+   unknown existence claim or a future intended System.
+3. **Trace the relied-on connection.** Follow one representative use through the constituent results and
+   interfaces. Match what the receiving operation needs with what the supplying System can provide, under the
+   same configuration and conditions. Section :4.1.1 explains how to turn a mismatch into a design question.
+4. **Recover the relevant decisions.** Identify who can change each decisive condition, what authority or
+   permission obtains, and which other uses constrain that choice. An unresolved authority claim can leave
+   comparison possible while preventing authorization of the corresponding change.
+5. **Construct alternatives around the mismatch.** Change the receiving operation, supplied result, interface,
+   allocation, timing or means of recovery that produces the failure. Keep a sufficient existing arrangement
+   among the alternatives. For another Agent's proposed change, identify the needed decision and the consequence
+   if it is refused or delayed; :4.1.2 explains the comparison.
+6. **Select a bounded continuation.** Compare admissible alternatives for the same result and interval. State
+   what the selected arrangement gains, what it gives up and which unresolved condition limits the decision.
+   Reuse sufficient analysis. Select further inquiry by what it could change and its attainable cost and delay,
+   using `SYSE.9` and `C.11.DUA` when needed. A required permission or physical qualification still governs use.
+7. **Make the decision usable by its participants.** Explain the choice, consequences and remaining freedom to
+   the people who must decide or perform the affected work. Resolve a consequential mismatch of understanding
+   through :4.1.3. Record the decision within the deciding Agent's authority, required outside decisions,
+   accepted losses, next Work and reconsideration conditions.
+8. **Follow authorized enactment and selective change.** When integration Work occurs, retain its performer,
+   Method, actual change, configuration and evidence. Observe the shared use at the scope needed for the
+   receiving claim. Section :4.1.4 connects changed conditions to the decision that relied on them.
 
 Constituent operation, engineering, governance, and integration can be simultaneous; only stated dependencies
-and temporal relations establish order.
+and temporal relations establish order. Finish when the current decision and its useful continuation are
+supported. An integration decision need not wait for the later installation or operating observation.
+
+##### SYSE.18:4.1.1 - Find the condition that breaks the shared use
+
+Start at the required result and work backward to its necessary contributions, then follow a concrete occurrence
+forward. At an interface, identify the supplying and receiving Systems, what passes between them, and the
+condition that makes it usable. For a timed contribution, distinguish when it is produced, received, acted on
+and needed. Compatible message formats can still carry a late, stale or inapplicable result.
+
+Compare needs and provision on the same basis. A receiving operation may need six hours after a notice while
+its provider promises only four hours before an outage. The missing two hours then becomes a specific question:
+can the provider give earlier notice, can the receiver respond sooner, or can another arrangement support the
+use during the interval? Those proposals alter different things and require different decisions. A notice
+commitment is evidence about an obligation; observations and qualification establish what response can be
+relied on under the stated conditions.
+
+Include a constituent's competing uses when they consume the same capacity or determine its availability.
+Two individually sufficient offers may be incompatible when they reserve the same resource at the same time.
+Use `SYSE.13` for configuration correspondence, `SYSE.9` for a needed specialist result and `SYSE.20` when the
+issue is joint Work or resource use. Retain a compatible supplied result rather than repeating its production.
+If the necessary condition cannot be established, carry that precise dependency into the comparison.
+
+##### SYSE.18:4.1.2 - Compare arrangements that could actually supply the use
+
+Generate an alternative by naming the changed connection and following its consequences to the whole result.
+For a proposed buffer, derive the quantity to be held over the unsupported interval, where it goes, when it is
+available and how normal operation resumes. For a replacement provider, follow the new result through the
+receiving operation, including transfer and qualification. For a changed commitment, establish what its bearer
+would have to decide and perform. Narrowing the use is a different offered result; its loss needs acceptance
+by whoever may decide that scope.
+
+Separate three questions for each proposal: would the arrangement satisfy the required use under its stated
+premises; can its necessary changes be authorized and supplied in time; and does its benefit warrant the
+whole burden? A technically workable proposal awaiting another Agent's agreement can remain a conditional
+alternative. It cannot serve as an already available fallback. Conversely, a requested change refused by one
+Agent does not preclude an admissible change within another's authority.
+
+Eliminate a proposal from the present operating choice when it violates a protected condition. Compare the
+remaining arrangements on the same horizon, including acquisition, transition, operation and later reversal
+where they matter. Keep unlike losses explicit. A weighted score is useful only with an applicable comparison
+rule; it cannot turn missing permission or an unacceptable physical consequence into a compensable cost.
+`SYSE.6:4` supplies the fuller comparison when the choice fixes project-shaping structures across later work.
+Here the additional question is which independent decisions and commitments make each arrangement possible.
+
+Preserve a tie or conditional result when the present basis cannot settle the choice. Name the particular
+outside decision, professional result or affordable inquiry that could settle it. If no attainable answer is
+needed for the current useful decision, stop with that decision and its limit. Prefer a sufficient unchanged
+arrangement over a new one whose extra burden buys no needed result.
+
+##### SYSE.18:4.1.3 - Explain the technical choice and resolve its effect on others
+
+Take the proposed arrangement to the affected decision makers and practitioners with its reason: the shared
+result, the condition currently defeating it, the alternatives considered and the change proposed for their
+own contribution. Ask them to apply it to a representative occurrence and a relevant failure or change. What
+would each do, what input would they rely on, and what would they return to the next participant?
+
+Compare these accounts at the consequential joins. If one participant interprets an acknowledgement as a
+promise of capacity while another means only receipt of a message, repair that misunderstanding before relying
+on the exchange. If everyone understands but a provider cannot reserve the resource, the missing result is
+provision or a different arrangement. If a participant lacks the professional means to perform the action,
+obtain that contribution or revise the proposal. More explanation alone cannot supply either resource or skill.
+
+Keep a substantive objection available to change the technical choice. Resolve the local decision within
+established authority; obtain another participant's decision for the part they control. Use the relevant
+negotiation, organization or governance Method when that becomes the unresolved question. Agreement to discuss
+a proposal remains different from commitment to perform it. The explanation can finish when the affected
+participants can use the same conditions and identify their own decisions, actions and return conditions;
+it need not make every participant an expert in every constituent System.
+
+##### SYSE.18:4.1.4 - Follow changes through the connection that depended on them
+
+Select observations for the reliance being made. A description-consistency result can support comparison of
+models. A claim that the configured Systems coordinate in operation needs corresponding operating evidence;
+`SYSE.11` supplies the integration and qualification Method. Reuse adequate evidence at its actual scope.
+Record a later observed-coordination claim separately from the earlier decision and each commitment's fulfilment.
+
+When a constituent changes, identify which relied-on condition changes and follow its receiving uses. Revised
+notice time can invalidate a buffer's duration even when the buffer's measured capacity remains valid. A new
+interface version can require qualification of an exchange without reopening unrelated ownership decisions.
+Continue through affected dependencies until a compatible result or explicit gap bounds the consequence.
+Retain unaffected claims and independent work.
+
+For a selected fallback, establish the trigger, deciding authority, available means and bounded result before
+relying on it. If continuing constituent evolution requires repeated selection during operation, arrange the
+needed observations and decision authority with the operating practice. Automating that selection adds its
+own qualification question. A single successful exercise does not establish the ability to manage every later
+configuration or unannounced withdrawal.
 
 #### SYSE.18:4.2 - Record the Result
 
@@ -7099,7 +7191,7 @@ and temporal relations establish order.
 | constituent Systems and relations | Actual Systems, configurations, other uses, reasons for inclusion, and one direct relation or stated gap for every relied-on contribution or constraint. |
 | decisions and authority | Ownership and other governing relations, deciding Agents, assignments when relevant, authority, permissions, conflicts, escalation, and decision-centre boundaries. |
 | commitments and interoperability | Commitments with bearers and conditions; interfaces, capacities, timings, actual exchange or use evidence, notice, withdrawal, and failure-recovery conditions. |
-| alternatives and choice | Considered feasible coordination alternatives; selected alternative and selection basis; deciding authority, accepted losses, outside decisions, unsupported dependencies, and next Work. |
+| alternatives and choice | Arrangements compared for the same result and interval; decisive conditions, whole burden and accepted losses; selected or conditional continuation, outside decisions, unsupported dependencies and next Work. |
 | later integration, when current | Performing Agent, Method, dated Work, actual change or newly obtaining relation, resulting configuration, representative observation, and evidence limits. |
 | decision use and reopen | Decision contribution supplied to next Work; separately supported observed-coordination claim when available; fallback, gaps, and conditions for reopening each affected claim. |
 
@@ -7109,49 +7201,101 @@ constituent commitment was fulfilled.
 
 #### SYSE.18:4.3 - What Changes in Practice
 
-Engineers stop using *system of systems* as an explanation. They can name which Systems matter, what each Agent
-can decide, what the integration Agent can change, which dependencies remain unsupported, and what observation
-is needed before the shared use may rely on the changed arrangement.
+Engineers can explain why a proposed arrangement could support the shared use, compare the available ways to
+repair a failed connection, and identify which decisions and professional results each way still needs. The
+receiving practitioner gets the reason for the choice and the condition that would change it. An unsupported
+dependency has a specific consequence and next question; an already sufficient arrangement can be retained.
 
 ### SYSE.18:5 - Worked Case: Emergency Discharge Across Four Independently Governed Systems
 
-Emergency discharge in one district depends on four actual Systems:
+This illustrative case concerns a district's planned emergency-discharge provision. The quantities, permissions
+and engineering qualifications below are stipulated inputs for comparing arrangements; they are not field
+measurements or a flood-control design supplied by this pattern.
 
-- a flood-pump station, whose configuration and release are decided by the station-owner organization;
-- an upstream gate System, whose schedules and overrides are decided by the river-control agency;
-- a municipal drainage network, whose capacity commitments and outage notices are decided by the municipal
-  operator organization; and
-- an emergency-dispatch System, whose regional agency decides which acknowledgement and escalation Methods
-  are used.
+Four existing Systems affect the use: a flood-pump station, an upstream gate, a municipal drainage network and
+an emergency-dispatch System. Their respective owner, river-control agency, municipal operator and regional
+dispatch agency control different decisions. The station integrator may install qualified station-side
+equipment and use an already agreed dispatch escalation. It cannot change the gate envelope or the municipal
+operator's commitments. The use requires accommodation of up to **50 m³/h** while preserving the supplied
+hydraulic, discharge-quality and gate limits.
 
-The four Systems contribute to one use. Company membership and whole–part relations require separate evidence.
-The current configuration and interface evidence supports pumping, gate scheduling, network reception, and
-dispatch acknowledgement under stated loads and conditions. Four separate commitments bind named Agents under
-conditions concerning station configuration, the gate envelope, drainage capacity, and dispatch availability. Later
-Work and delivered results require their own evidence.
+The municipal operator commits to notice received at the station at least four hours before a planned
+interruption of drainage reception. The station's qualified fallback is ready no later than six hours after
+receipt of that notice; this bound includes
+dispatch acknowledgement and mobilization. The agreed dispatch response is already included in those six
+hours, so invoking escalation cannot be counted as a second time saving. Unannounced outages require a
+different contingency and lie outside this particular decision.
 
-A tabletop exercise exposes one material mismatch: the municipal operator commits to four hours of outage notice,
-while the station fallback needs six. The integration Agent has authority over a station-side buffer and the existing dispatch escalation condition.
-The municipal operator retains authority over the notice commitment.
+#### SYSE.18:5.1 - Derive and compare the alternatives
 
-The current options are to accept the two-hour gap, add a temporary buffer, request a changed municipal
-commitment, narrow the discharge use, or stop the increment. The integration decision selects a temporary
-two-hour buffer plus dispatch escalation while leaving the municipal commitment unchanged. The decision records
-the external commitment request as a separate possible improvement, not as an accomplished change.
+The decisive timeline starts at receipt of the notice. Municipal reception remains available through hour 4;
+the fallback can receive the flow from hour 6. The unsupported interval is therefore hours 4–6. With no other
+outflow during that interval, **50 m³/h × 2 h = 100 m³** must be held. This is a storage-volume requirement,
+not yet a qualified buffer design. For a varying flow, the corresponding quantity is the accumulated net
+inflow over the unsupported interval.
 
-An integration team later installs a mobile buffer System. Identify the installation Work, installed buffer,
-installation evidence, and newly obtaining buffer-availability relation separately. A representative exercise
-supports that the buffer absorbs the stated two-hour load and that dispatch acknowledges and escalates under the
-tested condition. The observation is limited to that load and interval; constituent commitments keep their
-previous values.
+A supplier offers an existing mobile buffer with **120 m³ of usable storage**, qualified for the stated
+medium and connection. The supplied hydraulic assessment supports its inlet rate, location and recovery
+path; the 120 m³ is available storage after its required reserves. It can be installed before the required
+date within the station integrator's delegated budget. The fallback has qualified spare capacity to empty it
+after hour 6 without losing the continuing 50 m³/h service. These are necessary specialist and provision
+inputs; the volume calculation supplies none of them.
 
-Before installation, the decision identifies the next Work within the integrating Agent's authority. After the
-exercise, a separate current observed-coordination claim can inform `SYSE.11`. A change in a relied-on relation,
-condition, configuration, or use reopens only the affected claim and decision.
+The same decision compares the following arrangements for the same service interval:
 
-**When the full pattern is unnecessary.** Use ordinary architecture, configuration, integration, and Work
-patterns when one Agent has authority over every configuration, release, commitment, and operating decision that
-can change the integration result.
+| Arrangement | Result under the stated premises | Authority, availability and burden | Present disposition |
+| --- | --- | --- | --- |
+| Retain the four-hour notice with no buffer | Leaves 100 m³ without an allowed destination | Immediately available; violates the required result | Excluded for this use. |
+| Obtain six-hour notice | Could remove the unsupported interval with the current fallback | Municipal operator controls the change and cannot commit before the required date | Keep as a possible later improvement; it is unavailable for the current reliance. |
+| Shorten fallback mobilization to four hours | Could remove the same interval | Current qualified Method needs six hours; no adequate shorter Method is supplied | Return the specific development or qualification need; do not assume faster dispatch solves it. |
+| Install the qualified 120 m³ buffer | Holds the required 100 m³ and retains 20 m³ of additional usable capacity | Within the integrator's authority and date; adds hire, installation, inspection and later removal | Feasible for the declared use. |
+| Narrow the offered discharge provision | May reduce the required storage or avoid the interval | The receiving authority has not accepted the lost coverage | A different result requiring a scope decision. |
+| Stop the proposed service increment | Makes no unsupported service promise | Leaves the receiving need unmet | Retain if no admissible arrangement can be supplied. |
+
+The buffer is selected for preparation because it is the only currently supplied arrangement in this comparison
+that meets the required use by the date. Its extra cost and maintenance are accepted within the delegated
+budget. The selection makes no claim that buffering is generally cheapest or superior to earlier notice.
+An available six-hour notice agreement could reverse that choice by avoiding the buffer's burden.
+
+#### SYSE.18:5.2 - Connect the decision to performance and a changed condition
+
+The integrator explains the timeline and choice to station, municipal and dispatch participants. In their
+walkthrough, dispatch initially describes acknowledgement as confirmation of the fallback's readiness. The
+station team points to the six-hour mobilization: acknowledgement starts and tracks that work; readiness has
+its own confirmation. They correct the receiving instruction and retain the agreed escalation for a missed
+acknowledgement. The municipality's four-hour commitment remains unchanged.
+
+The decision now authorizes the installation and its necessary qualification. It does not yet establish
+installed availability. In the example's later performance, the team installs the buffer and completes the
+required checks; a representative exercise under the stated load supports storage, transition to the fallback
+and recovery. `SYSE.11` can use that configuration-specific evidence. The earlier decision, installation Work,
+actual availability and observed coordination remain separately identifiable.
+
+Now suppose the municipal operator proposes changing notice to **two hours**, with every other case premise
+unchanged. The fallback still needs six hours from receipt. Required storage would become
+**50 m³/h × 4 h = 200 m³**. The existing buffer's 120 m³ qualification survives, but it does not establish
+support for this changed use. The integrator reopens the arrangement and the municipal decision; it cannot
+authorize that operator's notice change. It may seek a larger qualified provision, an accepted narrower use
+or another adequate arrangement. Until one is supplied, the changed service claim remains unsupported.
+Unrelated gate limits and the original arithmetic remain usable within their original conditions.
+
+If a subsequent occasion retains the original notice, flow, configuration and permissions, an adequate current
+account can support the same bounded decision without another modelling project or exercise. Recheck a changed
+or expired qualification when the receiving reliance requires it.
+
+#### SYSE.18:5.3 - A different mismatch needs a different remedy
+
+An order-fulfilment service uses an independent stock provider and payment provider. A compatible message
+format does not settle whether a stock response reserves an item until payment completes. Following one order
+exposes the dependency: stock may disappear between the response and the sale. Queueing the response does not
+create a reservation. Compare obtaining a time-bounded reservation from the stock provider, a supported
+confirmation-and-compensation arrangement, or a narrower service promise. Each needs its own operational
+semantics, authority and evidence. If those means are absent, this Method returns that precise gap; the
+drainage buffer offers no transferable guarantee of transactional correctness.
+
+**When the full pattern is unnecessary.** Use ordinary architecture, configuration, integration and Work
+patterns when one Agent controls every decision that can change the integration result. Reuse an adequate
+constituent-coordination decision when the present use and its relied-on conditions are unchanged.
 
 ### SYSE.18:6 - Bias Annotation
 
@@ -7173,8 +7317,12 @@ centralized arrangements can each help or harm; the label decides nothing.
 - [ ] Every deciding Agent, assignment when relevant, authority, permission, conflict, and escalation is stated.
 - [ ] Interface syntax is supplemented by configuration-bound exchange and use evidence where interoperability is
       claimed.
-- [ ] The selected alternative remains within the deciding Agent's authority and names outside decisions and
-      unsupported dependencies.
+- [ ] Alternatives address the same receiving result or expose an accepted scope change; the comparison
+      preserves protected conditions, competing uses, whole burden and unresolved premises.
+- [ ] The selected continuation remains within the deciding Agent's authority and names outside decisions and
+      unsupported dependencies. A conditional alternative is not relied on as an available fallback.
+- [ ] Affected practitioners can recover the choice and its reasons for their own action; a material objection,
+      missing resource or missing professional means receives its appropriate continuation.
 - [ ] Any claimed coordination change identifies performing Agent, Method, dated Work, actual change or relation,
       configuration, representative observation, and evidence limits.
 - [ ] The decision episteme, performed Work, world-side change, and observed-coordination claim are identified and
@@ -7213,17 +7361,37 @@ bounded integration possible.
 
 ### SYSE.18:11 - SoTA and Source Use
 
-| Source line | Retained contribution | Limit and guard |
-| --- | --- | --- |
-| [Papadopoulos, Tortola, and Geyer 2024](https://doi.org/10.1080/13597566.2024.2334470) and [Baldwin et al. 2024](https://doi.org/10.1111/psj.12518) | Several interdependent decision centres should be compared through their setting, operations, outcomes, and feedback over time. | The reviews report broad terminology, beneficial and harmful outcomes, and long-term evidence gaps; they establish no universally better governance arrangement. |
-| [Raz et al. 2024](https://doi.org/10.1109/JSYST.2024.3409231) | Connect mission tasks, constituent capabilities, candidate configurations, consistency, and bounded alternative evaluation. | One simplified defence-funded demonstration establishes neither a universal ontology nor cross-domain effectiveness. |
-| [Swickline, Mazzuchi, and Sarkani 2024](https://doi.org/10.1002/sys.21727) | Preserve separately maintained model sources while forming a larger behaviour and structure description. | One SysML/Cameo Method and lunar-rover case supplies description Work, not physical integration or universal architecture. |
-| [Ashfaq et al. 2026](https://doi.org/10.1016/j.jss.2025.112661) | A systematic review retains several runtime-composition problems, solution families, tools, and evaluations for dynamic software-intensive Systems. | Software-intensive scope and unresolved sociotechnical alignment prevent a universal integration Method. |
-| [SEBoK, “Applying the Systems Approach,” 2026 revision](https://sebokwiki.org/w/index.php?title=Applying_the_Systems_Approach&oldid=78074) | Concurrent, iterative, and recursive use of Systems Engineering across several Systems of interest. | Older lifecycle and requirements framing and component stop rules are not retained as this pattern's structure. |
+The professional question is how to choose a workable shared-use arrangement when constituent changes and
+resources are controlled independently. This pattern selects a bounded comparison of consequences, feasible
+configurations and independent decisions. It preserves useful current arrangements and develops only the
+connection needed for the decision. The selection is conditional on that scope, not a claim of universal
+effectiveness.
 
-This is a bounded expert synthesis, not evidence of field prevalence or causal superiority. Reopen a used source
-claim when later systematic comparison changes its decision-centre, outcome, feedback, integration, or transfer
-boundary.
+A serious alternative is a formal mission-configuration analysis. [Raz et al. 2024](https://doi.org/10.1109/JSYST.2024.3409231),
+sections III–V, connect a mission description, spatial and temporal feasibility, and analysis of candidate
+configurations. That connected construction is useful when several allocations and shared resources make
+informal comparison unreliable. Their example is notional and the analytical choice remains domain-specific.
+Section :4.1.2 retains feasibility before preference; it adds the independent authorization and provision needed
+for the present engineering use.
+
+For the four-System case, both approaches can expose the two-hour interval. The short timeline and comparison
+already settle the current bounded choice with the supplied engineering results. A new formal model would add
+construction and maintenance without a demonstrated change to this decision. The accepted loss is weaker
+coverage of many interacting configurations. Reopen this depth choice when multiple concurrent demands,
+alternative constituent allocations or coupled changes defeat the inspectability of the small comparison.
+Use the fuller analysis where its result can change the choice; a model still requires compatible source data
+and its outputs do not grant a participant's permission.
+
+The following contributions answer different parts of the problem:
+
+| Source and question | Contribution used here | Retained boundary |
+| --- | --- | --- |
+| [Baldwin et al. 2024](https://doi.org/10.1111/psj.12518), context–operations–outcomes–feedbacks framework; [Papadopoulos, Tortola and Geyer](https://doi.org/10.1080/13597566.2024.2334470), online 2024, issue 2025 | Compare interacting decision centres, outcomes and adjustment, rather than preferring centralization or decentralization by label; :4.1.3–:4.1.4 retain the affected participants and returns. | Governance reviews do not supply a hydraulic design or guarantee beneficial distributed governance. |
+| [Swickline, Mazzuchi and Sarkani 2024](https://doi.org/10.1002/sys.21727), model-federation contribution | Where constituent descriptions are separately maintained, preserve their source responsibility and compare compatible configuration claims before using them together. | The SysML/Cameo treatment supplies description integration; it does not establish installed interoperability. Use it for a material description problem, not as a prerequisite for the timeline case. |
+| [Ashfaq et al. 2026](https://doi.org/10.1016/j.jss.2025.112661), runtime-composition review | Repeated operational reconfiguration needs its own arrangement and evaluation; :4.1.4 keeps that question distinct from one integration decision. | The computational literature contains several approaches and transfer gaps. Neither its prevalence findings nor a simulation establish field suitability or authorize autonomous changes. |
+
+Reconsider a used claim when a relevant source correction, stronger comparative result or observed use failure
+changes its configuration, authority, outcome or transfer premise. Preserve useful unaffected contributions.
 
 ### SYSE.18:12 - Relations
 
