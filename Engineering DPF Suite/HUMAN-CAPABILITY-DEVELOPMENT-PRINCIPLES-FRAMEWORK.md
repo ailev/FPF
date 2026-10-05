@@ -1823,7 +1823,7 @@ Keep three observations separate: what the learner noticed or produced during pr
 #### HCD.6:4.3 - Separate Demonstration, First Attempt, and Help
 
 
-A demonstration or worked explanation should expose the intermediate action the learner will later need: the cue noticed, Method selected, competing alternatives, calculation or transformation, check, remaining uncertainty, and next move. It should not rely on a final answer whose reasoning remains hidden.
+Use the target contribution and the learner's preparation to decide what the demonstration or worked explanation must show. A behavioural model can show the response, timing or coordination to practise. When the learner needs help understanding a choice or relation, expose the relevant reasoning, such as the cue noticed, Method selected, alternatives, calculation or transformation, check, uncertainty or next move. Provide an attempt in which the learner can use the supplied material. If they cannot yet notice or use the relevant difference, HCD.9:4.4 guides the choice of an explanation, contrast or other support.
 
 For a first practice attempt, retain or supply worked support when it helps the person learn the target action. The learner may complete a partially worked task or repeat an operation before a new condition is useful. State what the learner performs and what the support supplies.
 
@@ -2030,7 +2030,7 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: representat
 - [ ] The result recipient, decision or operation, required work product, and next move are visible.
 - [ ] Human, reference, tool, AI, peer, teacher, specialist, environment, permission, and authority contributions remain distinct.
 - [ ] Permitted help is stated before each attempt, and answer-bearing cues are removed only where the target requires it.
-- [ ] A demonstration, when used, exposes intermediate reasoning rather than only the final answer.
+- [ ] Demonstrations and worked explanations expose the action or reasoning the learner needs; the practice set provides an opportunity to observe use of that help.
 - [ ] Help and repetition fit the current practice purpose. When recognition, selection or adaptation is the target, the set includes a condition change that can expose that contribution.
 - [ ] The set includes warranted refusal and supported continuation when that distinction belongs to the target.
 - [ ] Feedback names the affected criterion and next action. Same-case correction is distinguished from a later changed-case observation of recognition or adaptation.
@@ -2056,7 +2056,7 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: representat
 
 The practitioner gains tasks that make a selected human action observable and correctable without pretending to be full production Work. Meaningful variations expose applicability, source compatibility, resource limits, and the difference between warranted refusal and supported continuation.
 
-The cost is domain and provider work. Someone must qualify the facts and hazards, prepare cases, expose intermediate reasoning, review attempts, and prepare the variations needed to distinguish recognition or adaptation from answer recall. A task may return unfinished when correctness, access, safe conditions, or feedback capacity is absent.
+The cost is domain and provider work. Someone must qualify the facts and hazards, prepare cases, arrange any demonstrations or explanations the learner needs, review attempts, and prepare the variations needed to distinguish recognition or adaptation from answer recall. A task may return unfinished when correctness, access, safe conditions, or feedback capacity is absent.
 
 ### HCD.6:10 - Rationale
 
