@@ -4811,7 +4811,7 @@ Evidence-producing Work may overlap, iterate, or occur in another order. A physi
 during reverse engineering; operating evidence can reopen theory and architecture; a formal check and bench trial
 can address different claims concurrently.
 
-#### SYSE.10:4.1.1 - Explain What Makes the Results Sufficient
+##### SYSE.10:4.1.1 - Explain What Makes the Results Sufficient
 
 Use the developed inference and combination instructions in `SYSE.4:4.4` and `SYSE.4:4.6` for the part of this
 assessment that is missing. The receiving result remains an engineering claim assessment. These instructions
@@ -6261,7 +6261,7 @@ correct discrepancies and assess the resulting configuration using evidence that
 Fabrication, software integration, preparation of the trial environment and assessment construction may overlap.
 Reliance still requires the particular input to be established before the Work or decision that uses it.
 
-#### SYSE.11:4.1.1 - Choose the Joint Change and Integration Progression
+##### SYSE.11:4.1.1 - Choose the Joint Change and Integration Progression
 
 **Derive the boundary from the behavior.** Follow the needed behavior through the available architecture and
 interaction account: what receives the demand, what acts, what it acts on, and what feedback or external
@@ -6303,7 +6303,7 @@ an existing strategy already makes these choices adequately, use it directly. Wh
 interface or new operating condition defeats its rationale, revise the affected grouping or order before
 continuing; the calendar alone cannot authorize the next step.
 
-#### SYSE.11:4.1.2 - Correct a Discrepancy and Establish Progress
+##### SYSE.11:4.1.2 - Correct a Discrepancy and Establish Progress
 
 Compare the observed interaction with the expected behavior under the identified configuration and test
 conditions. If they agree, establish the progression condition and continue. If they disagree, contain the
@@ -6329,7 +6329,7 @@ window, reconsider the boundary, substitute or fallback under its own supported 
 that expose the same unmodelled interaction reopen the architecture or strategy, rather than just adding
 another repetition of the same test.
 
-#### SYSE.11:4.1.3 - Turn Integration Evidence into a Bounded Use Assessment
+##### SYSE.11:4.1.3 - Turn Integration Evidence into a Bounded Use Assessment
 
 Give SYSE.10 the required behavior, actual resulting configuration, qualified observations and specialist
 results, the grounds linking them, and the intended use and interval. If one sufficient result already covers
@@ -14310,7 +14310,7 @@ In a constructed service-update diagnostic, the optional contribution is documen
 | Situation | No optional lookup | Source operation supplied | Agent chooses support under the current rule |
 | --- | --- | --- | --- |
 | E: sufficient applicable premise | Completes correctly. | Completes, with acquisition that adds no premise. | Completes after two redundant lookups. |
-| R: decisive premise missing | Returns the missing fact; completion is unsupported. | Binds and performs the source call, uses the fact and completes. | Skips the available call, guesses and fails. |
+| R: decisive premise missing | Reports which required fact is missing; completion is unsupported. | Binds and performs the source call, uses the fact and completes. | Skips the available call, guesses and fails. |
 | T: sufficient premise, irrelevant offered source | Completes correctly. | Rejects the irrelevant return and completes from its premise. | Repeats the irrelevant lookup twice, then completes from the premise. |
 
 The stipulated R trace locates missed assistance selection, because the usable call was skipped. If the call had been chosen with a wrong target, repair invocation instead; if the returned fact disappeared from the next input, repair input preparation; if it remained visible but control sent the task back to retrieval, repair the procedure. E and T reveal unnecessary work despite correct answers. Count required effect verification and a sufficient-result stop as well as calls and completion.
