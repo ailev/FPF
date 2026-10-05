@@ -35720,10 +35720,10 @@ For example, an extended Indicatorize may add an optional justification result w
 
 ### A.19.UINDM:10 - Rationale
 
-Indicatorization is separated because it is a different kind of commitment than scoring or comparison:
+Indicatorization is separated because it answers a different question from scoring or comparison:
 
-* Indicatorization commits to **which coordinates are allowed to matter** under policy.
-* Scoring/aggregation/comparison commit to **how** allowed coordinates are transformed, folded, or ordered under admissibility gates.
+* Indicatorization determines **which coordinates may be used** under the indicator-selection policy.
+* Scoring, aggregation, and comparison determine **how** those coordinates are transformed, combined, or ordered under their admissibility conditions.
 
 By making indicatorization selection‑only, UINDM avoids “semantic alchemy” (changing meanings while claiming to merely “pick indicators”) and supports the CHR suite’s broader discipline: explicit spec refs, explicit crossings, and explicit handling of uncertainty via tri‑state guards.
 
@@ -60627,7 +60627,7 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 
 - a route is scheduled by an opaque heuristic, so nobody can see which budget is being burned or what should stop it;
 - unresolved choice or pool-policy work is smuggled into a plan;
-- a route description is mistaken for a Method, a plan for performed Work, or a successful probe for committed rollout; and
+- a route description is mistaken for a Method, a plan for performed Work, or a successful probe for a decision to adopt and execute the route; and
 - replanning loses the basis that fixed the action and its conditions.
 
 #### C.24:0.2 - What this buys
@@ -60635,7 +60635,7 @@ Do not use it to generate candidates, keep a live pool, choose among unresolved 
 - one small, tool-neutral plan that cites the accepted action basis;
 - visible budgets, stop conditions, and replan triggers before calls are made;
 - one replayable call-trace reference after Work occurs; and
-- one bounded checkpoint when more route probing is justified but commitment is not.
+- one bounded checkpoint stating whether to probe again or seek a decision to adopt the proposed route.
 
 **Primary working object.** One `ATC.CallPlan : U.WorkPlan`. Each step selects a `U.Method`. A route description may help locate or constrain that Method, but remains a separate `U.MethodDescription`. Actual calls are dated `U.Work` and remain outside this planning result.
 
@@ -60718,7 +60718,7 @@ We need a tool-neutral way to produce or revise one call plan under explicit bud
 | Force | Tension |
 | --- | --- |
 | General method vs local shortcut | A scalable approach may improve with data or compute, while a narrow route may be safer or cheaper in the present task. |
-| Exploration vs delivery | A bounded probe may reduce uncertainty, while service and cost limits require commitment or stop. |
+| Exploration vs delivery | A bounded probe may reduce uncertainty, while service and cost limits require a decision to adopt a route or stop. |
 | Assurance vs autonomy | A named high-consequence use may need a bounded assurance result, while ordinary planning should not inherit assurance apparatus. |
 | Description vs enactment | A callable route description helps planning, but it is not the Method, plan, call, or evidence of performance. |
 
@@ -60764,7 +60764,9 @@ When the grounded action basis fixes the intended action but its usable route is
 
 If another probe could still change which option survives the `OptionSet`, the budget remains a C.11 probe budget and planning returns there. If changed live facts or domain-Method limits could change an A.15.7 action, return there instead. If a prescribed action loses its applicable prescription, return to the domain Method before further route planning. If the action or option remains fixed and only route shape or rollout order is uncertain, the probe uses enactment budget and its checkpoint belongs here.
 
-A successful probe is not a commitment. Commitment needs the named `commitTrigger`, enough residual budget, and any separately required safety or assurance condition.
+`commitTrigger` states the condition for considering a checkpoint decision to end route probing and adopt an identified `CallPlan` for the fixed action. Name the proposed plan and the work it schedules in `recommendedNextAction` or in the accompanying explanation. When the trigger holds, the responsible planner considers that transition using the probe evidence, residual budget, and any required safety or assurance result; the planner may adopt the plan, require a further bounded probe, or stop. Satisfying the trigger alone does not make that decision.
+
+Adopting the plan settles which route to use. Permission to perform its calls remains subject to the applicable work-entry conditions, and actual performance is separate `U.Work`. Where an autonomy budget governs the route, use the checkpoint decision and guard or override path in `E.16-S1.A`; the trigger grants no wider budget or scope.
 
 #### C.24:4.3 - Planning laws
 
@@ -60841,7 +60843,7 @@ This is enough for an ordinary plan. Do not fill the heavier branches merely to 
 
 #### C.24:4.7 - Closure and worked cases
 
-Close as a `CallPlan` when route order and budgeted enactment are the current question. Close as a `CheckpointReturn` after a bounded route probe, when one further route probe remains justified. Return to the domain prescription, A.15.7 or C.11 when the corresponding action basis reopens; return to the applicable neighboring pattern when pool treatment, selector declaration, readiness, execution, or publication becomes the current question.
+Close as a `CallPlan` when route order and budgeted enactment are the current question. Close as a `CheckpointReturn` after a bounded route probe, stating whether to probe again, seek the checkpoint decision to adopt the proposed plan, or stop. Return to the domain prescription, A.15.7 or C.11 when the corresponding action basis reopens; return to the applicable neighboring pattern when pool treatment, selector declaration, readiness, execution, or publication becomes the current question.
 
 **Domain-prescribed action before Work.**
 
@@ -60890,6 +60892,8 @@ The plan claims no call occurred. If the first call is performed, recover its da
 
 **Unfamiliar route.**
 
+In this constructed repair case, `ci_route_choice_09` fixes the action: produce a candidate patch and run the targeted tests. The proposed `ci_patch_plan_09` orders `EditCandidateMethod_2` and `TargetedTestMethod_7`, needs at most 25 minutes, and stops for replanning if the reproduction changes or the tests fail twice. Before adopting that plan, the maintainer probes whether the failure can be reproduced reliably enough to guide the patch. For this case, `MinimalReproductionMethod_5` requires the same failure in two consecutive runs on the fixed repository revision, with the trace and reproduction evidence collected on that revision. One such run has completed. The enactment budget covers both this route probing and the planned repair.
+
 ```text
 CheckpointReturn:
   actionBasis:
@@ -60897,17 +60901,19 @@ CheckpointReturn:
   objectiveOrTaskFamily = unfamiliar_ci_failure
   testedMethodRefs = [LogTraceMethod_2, MinimalReproductionMethod_5]
   evidenceRefs = [trace_result_1, reproduction_result_1]
-  burnedBudget = 1_probe_cycle
-  residualBudget = 2_probe_cycles
-  recommendedNextAction = run_minimal_reproduction_once_more
+  burnedBudget = 15_minutes
+  residualBudget = 30_minutes
+  recommendedNextAction = repeat_minimal_reproduction_then_return_for_checkpoint_decision_on_ci_patch_plan_09
   commitTrigger = reproduction_is_stable_and_required_evidence_is_current
 ```
+
+If the repeat establishes the trigger, the maintainer decides whether to end route probing and adopt `ci_patch_plan_09`: produce the patch, then run its targeted tests. The maintainer checks the time remaining after that repeat against the plan's 25-minute need and the applicable safety or assurance conditions. If the plan is adopted, the repair agent may start its first call only with the required work-entry permission. The checkpoint itself records neither that permission nor a performed call.
 
 **Two vendor routes with one token.** Vendor A and Vendor B both publish a route called `search`. `vendor_a_search_v2` states scheme `VendorA API`, edition `2026-07`, intended use `repository text search`, and selected Method `RepositoryTextSearchMethod_3`. `vendor_b_search_v5` states scheme `VendorB agent tools`, edition `2026-08`, intended use `web source retrieval`, and selected Method `WebSourceRetrievalMethod_8`. The shared token identifies neither binding; the description fields do. An executable adapter, if used, remains distinct from the Method it implements, and its execution remains separate Work.
 
 **Scale comparison, when current.** The cheap C.19.1 probe for `BatchSearchMethod_3` and `IndexedSearchMethod_6` returns `bounded scale comparison` for the same repository-search task and `10k–100k files` window. The comparison then uses elapsed time and missed-match rate from `repo_search_benchmark_12`, including uncertainty and cost limits, and warrants a preference for `IndexedSearchMethod_6` only inside that window. If one Method is evidenced only on small text files and the other only on large mixed repositories, the comparison returns `no scale-based preference`. A project may separately cite a local policy or `BLP-waiver`; neither changes the empirical result.
 
-**Near misses.** A route label with no recovered Method remains probe material. A plan with no Work is still intent. A trace row does not prove performer, assignment, Method, or service acceptance. A successful probe without a commit trigger is not rollout.
+**Near misses.** A route label with no recovered Method remains probe material. A plan with no Work is still intent. A trace row does not prove performer, assignment, Method, or service acceptance. A satisfied `commitTrigger` with no checkpoint decision leaves the proposed route unadopted.
 
 **Transfer examples.** The same result shape works for research assistance, program repair, and lab automation. The Methods and safety conditions differ; the plan/checkpoint boundary does not.
 
@@ -75177,7 +75183,7 @@ When a filled field changes, repair the smallest declaration or claim record tha
 
 ### C.32.PAD:10 - Rationale
 
-C.32.PAD exists because candidate synthesis and architecture decision are different work moments. C.32 builds the option space; PAD commits the project to a current architecture option or bounded exception and records the method and work consequences of that commitment.
+Using `C.32`, practitioners synthesize candidate architecture configurations. Using `C.32.PAD`, the architect selects an option or bounded exception for the project work and states the resulting Method-use instructions and work consequences.
 
 The pattern keeps four layers apart: an obtaining C.30 `ArchitectureRelation` over one architecture-bearing holon and selected `U.Structure`; any `ArchitectureClaim` that states actual, negative, unresolved, candidate, required, desired, or expected content about the holon, relation, or structure; `ArchitectureDecisionRelation@Project`, which connects composite project Work to the selected option and declared work consequences; and `ArchitectureDecisionDescription@Project`, which can be published in ADR-like or other forms and whose project use requires the exact composite `U.Work` and an independently obtaining use relation defined by its own pattern. Optional system-of-interest, local-kind, System-classification, assignment-species, assignment-occurrence, architecture-influence, and network references retain their A.15.6, A.2 and A.2.1, C.32.CONWAY, E.18.NET, and C.30.TFS-REL subject patterns. This lets FPF reuse its existing architecture, description, Method, work, evidence, assurance, measurement, publication, project, and network patterns instead of creating a separate architecture-decision ontology for those facts.
 
@@ -87088,12 +87094,12 @@ If evidence is being read as engineering justification, gate passage, deontic pe
 
 ##### E.10:0.2c.27 - `authority`, `permission`, `approval`, `commitment`, `obligation`
 
-These are deontic claims or claims carrying an authority-reference relation, not visual or rhetorical properties.
+Use this entry when the recovered claim concerns a duty, permission, approval, or authority relation. The word alone does not establish that claim. For `commit`, `committed`, or `commitment` used for a decision, model choice, or version-control operation, recover that operation under its own rule. Use `E.10.MOVE` only while a route or work-entry transition remains unclear.
 
-Recover:
+Recover the values required by that claim:
 - the beneficiary System or reference required by the selected predicate; if source wording says *role*, apply `E.10.ROLE` and cite a local system-role kind and classification or an obtaining `U.SystemRoleAssignment` occurrence only when that permission or authority predicate actually uses it;
 - speech act or issuing act;
-- commitment record under `A.2.8` for obligation, recommendation-as-duty, or prohibition;
+- individual duty under `A.2.8` for obligation, recommendation-as-duty, or prohibition: its actual bearer, duty content, modality, scope and time, constitutive rule, and required instituting facts; keep any assertion or record about the duty separate from that relation;
 - exact `A.2.8.PER` strong grant, weak non-prohibition/non-violation finding, exercise relation, or permission-conflict finding;
 - policy claim and policy/currentness frame;
 - authority relation;
@@ -88839,7 +88845,7 @@ The governed-value ref and kind ref are both present or both absent. `BlockedOve
 After `E.10` selects this pattern, use these cue groups to find the appropriate recovery branch while an action-changing ambiguity remains:
 
 - `move`, `step`, `action`, `application`, `solution`, and `next action`;
-- `readiness`, `ready`, `full kit`, `work entry`, `committed`, and `launch-ready`;
+- `readiness`, `ready`, `full kit`, `work entry`, and `launch-ready`; `commit`, `committed`, `commit checkpoint`, or `commitTrigger` when they hide a route-adoption or work-entry transition;
 - `movement`, `direction`, or `shift` used for an expected evaluation-result change;
 - `route`, `workflow`, `process`, `path`, `trajectory`, `loop`, or `flow` used for an unresolved claim about a path, ordering, or what it represents; use the direct exits below;
 - imported source wording such as TameFlow `MOVE`.
