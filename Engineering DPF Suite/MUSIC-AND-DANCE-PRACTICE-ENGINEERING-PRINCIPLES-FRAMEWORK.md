@@ -3654,7 +3654,7 @@ instead of inventing a source or blocking every bounded action.
 ## MDPE.23 - Develop and Test Music-or-Dance Recognition Capability
 
 > **Pattern type:** Music-and-Dance recognition-capability pattern
-> **Public result:** demonstrated recognition in representative changed conditions, or a decision to change the distinction, signal, representation, or intended recognizing population
+> **Public result:** a supported choice for developing recognition, or demonstrated recognition within the receiving use's conditions and limits; revise the distinction, signal, representation or intended population when the available basis requires it
 
 ### MDPE.23:0 - Use This When
 
@@ -3674,7 +3674,7 @@ The first useful result states:
 - what task shows recognition;
 - which cues are legitimate and which would leak the answer;
 - the direct perceptual, bodily, musical, dance, or machine-learning Method used to develop capability; and
-- the changed conditions in which transfer will be tested.
+- the relevant conditions of later use and the existing or newly obtained observations needed for the present claim.
 
 Use direct ear-training, rhythm-training, movement-perception, partner-sensing, somatic, style-comparison,
 perceptual-learning, judging, curation, or machine-recognition Methods for their own results. Use this pattern for
@@ -3730,9 +3730,9 @@ selection decision.
 
 ### MDPE.23:2 - Solution
 
-Use a recognition-capability development unfolding. It is an order for learning and testing Work, not a hierarchy
-of Methods. Perception, bodily regulation, memory access, interaction, and action can function simultaneously during
-one recognition task.
+Connect development, observation and receiving use. Begin from what existing observations establish, and select
+the missing development or worthwhile comparison. Perception, bodily regulation, memory access, interaction and
+action can function simultaneously during one recognition task.
 
 #### MDPE.23:2.1 - Name the holder, task, and receiving use
 
@@ -3765,11 +3765,9 @@ or abandonment of the proposed distinction.
 
 #### MDPE.23:2.3 - Establish a baseline with plausible rivals
 
-Test before more teaching. Include same/different or alternative cases that prevent answer-by-label. Record accuracy
-or another task result, response time when it matters, confidence, abstention, and the errors that would change the
-project decision.
+Use an adequate existing observation when it already identifies the contribution needed for the next teaching or receiving-use decision. When a live uncertainty could change that decision, choose an attainable baseline comparison whose information warrants its burden. Same/different or alternative cases can expose answer-by-label. Observe the task result and only the timing, uncertainty or error distinctions that affect the decision. A known access failure calls for access repair; a missing lesson need not wait for another test.
 
-Compare at least these rival explanations when relevant:
+Consider a rival when it could change the next action. Common possibilities include:
 
 - the holder cannot perceive the signal;
 - the signal is available but the category or boundary is unclear;
@@ -3804,21 +3802,15 @@ The COIN model treats sensorimotor adaptation as contextual inference over sever
 also reports context dependence, but one common computational account for all kinds of memory remains an open
 hypothesis. Use the hypothesis when it changes a cheap discriminating probe.
 
-When a learned response disappears:
+When a previously demonstrated response becomes unavailable, compare the live explanations with the next action they would justify. Lost support, changed demand, fatigue, inaccessible cues and context-dependent expression can call for different responses. If the available observation already selects an adequate repair, use it. If several explanations still permit the same worthwhile next action, proceed under that stated uncertainty.
 
-1. return briefly to the earlier successful context without reteaching;
-2. check whether the response reappears;
-3. vary one cue, partner, material, venue, task, or transition at a time;
-4. compare blocked and interleaved tasks and an unfamiliar but relevant setting; and
-5. record recovery, interference, unintended intrusion, deliberate transfer, and delayed retention separately.
+Choose a context comparison only when its attainable result could change teaching, support or the warranted receiving use enough to justify the effort and delay. A brief return to earlier successful conditions without reteaching may help; alternatively, hold those conditions fixed while changing one suspected cue. Compare practice order or an unfamiliar setting only when switching or generalization is the unresolved question. These are alternative probes, not a required sequence.
 
-Immediate return in the old context supports a retrieval or context-classification problem over simple capability
-loss. Finding no context effect supports a different explanation. Use either result in the next development decision; retain the current Method when it remains adequate.
+Interpret the actual response with the changed conditions and support preserved. Reappearance shows availability in that condition; it does not establish the COIN mechanism or exclude other explanations. Failure to reappear may leave several explanations unresolved. Retain only distinctions needed for the decision, such as recovery, interference or a still-unobserved transfer. Return the supported teaching or use choice, with the uncertainty that changes it, and stop when that question is answered. MDPE.17:3.4 develops the same proportionate context comparison for transmission.
 
 #### MDPE.23:2.6 - Test transfer without the teaching answer
 
-Use held-out examples and changed conditions representative of later Work. The test should preserve the target
-relation while changing irrelevant cues. Include a delayed test when retention matters.
+When the receiving decision needs a transfer claim, use matching existing evidence or held-out examples and changed conditions representative of later Work. Preserve the target relation while changing irrelevant cues. Include a delayed observation when retention matters to that use. A current teaching choice can instead close with the supported next action and its limits; it need not commission every stronger capability test.
 
 For a human recognizer, ask for the smallest response that establishes the target capability without demanding a
 different performance capability. For machine recognition, hold out performers, recordings, devices, venues, or
@@ -3826,6 +3818,7 @@ styles according to the intended use and inspect error distributions rather than
 
 Return one of these useful results:
 
+- a supported next development choice, with uncertainty that affects its use;
 - demonstrated recognition within named transfer limits;
 - recognition that remains dependent on a named cue or context;
 - evidence that access or representation, rather than learning, is limiting;
@@ -3841,11 +3834,11 @@ Return one of these useful results:
 >   recognizer, or sampled population; later use].
 > - **Recognition task:** [discriminate, identify, locate, predict, recognize applicability, or act].
 > - **Grounded distinction:** [world-side difference; legitimate indications; representation and omissions].
-> - **Cue controls and baseline:** [matched rivals, answer leakage removed, error pattern].
+> - **Available recognition basis:** [existing observations or selected comparison; relevant cues, help, errors and limits].
 > - **Development Method:** [direct perceptual, musical, dance, bodily, partner, or machine-learning Method].
-> - **Context probe, if a previously demonstrated response fails and the comparison can change the next development action:** [earlier successful conditions, controlled return or change, observed recovery or interference, remaining rival explanation].
-> - **Transfer test:** [held-out examples, changed conditions, delayed test if relevant].
-> - **Result:** [demonstrated capability and limits, context dependence, changed distinction, or missing basis].
+> - **Context probe, if a previously demonstrated response fails and a comparison that could change the next action is worth its burden:** [earlier successful conditions, controlled return or change, observed recovery or interference, remaining rival explanation].
+> - **Transfer or retention basis, when needed for the claim:** [matching existing evidence or selected new observation and its conditions].
+> - **Result:** [supported development choice, demonstrated capability within its limits, changed distinction, or unresolved basis; distinguish these claims].
 > - **Next use:** [performance development, observation, changed-condition use, transmission, or selection design].
 
 ### MDPE.23:4 - Worked Cases
@@ -3958,10 +3951,10 @@ interaction, or cultural decision.
 | --- | --- | --- |
 | Holder and task are named | “The audience should recognize the style.” | Name the sampled people or Agent, recognition task, context, response, and later use. |
 | Distinction is grounded | A label or representation becomes the thing recognized. | Name the world-side sound, movement, rhythm, interaction, or relation and how it is accessed. |
-| Recognition differs from performance | A wrong movement is treated as proof of failed perception. | Test the smallest recognition response separately, then test performance capability if needed. |
+| Recognition differs from performance | A wrong movement is treated as proof of failed perception. | Use existing evidence or a small separating response when that distinction changes the next action; address performance through MDPE.10 where needed. |
 | Cue leakage is controlled | The teacher, costume, file name, or fixed order gives the answer. | Match irrelevant cues, fade prompts, randomise order, and use held-out examples. |
 | Variation serves transfer | More contexts are added without a receiving use. | Vary conditions expected in later Work or needed to distinguish rival explanations. |
-| An apparent loss receives a useful context probe | Reappearance in the old context is called relearning. | When a previously demonstrated response fails and the distinction changes the next development action, return to its earlier successful conditions or vary one relevant cue. |
+| A context probe answers a worthwhile question | Reappearance in the old context is called relearning. | When the distinction can change the next development action enough to warrant a comparison, return to earlier successful conditions or vary one relevant cue. Preserve uncertainty about the mechanism. |
 | Human and machine claims retain their kinds | Classifier accuracy becomes cultural understanding. | State the task, holder, data, conditions, error distribution, and non-use boundary. |
 | Recognition differs from selection | A capable recognizer is treated as authorised judge or curator. | Pass capability evidence to `MDPE.13`; establish authority and selection separately. |
 | The distinction can be changed | Repetition continues despite ambiguous or inaccessible categories. | Revise the signal, representation, boundary, population, or intended use; abandon the distinction when needed. |
@@ -3969,7 +3962,7 @@ interaction, or cultural decision.
 
 ### MDPE.23:6 - Sources and Epistemic Boundaries
 
-Compare development Methods by their expected gain, burden, protected conditions and transfer. Test the recognition capability in representative later Work, using a Music or Dance distinction, a recognizer and a suitable task.
+Compare development Methods by their expected gain, burden, protected conditions and receiving use. A claimed recognition capability needs compatible evidence about the recognizer's response to the relevant Music or Dance distinction; use an adequate result already available or obtain a worthwhile missing observation. A supported teaching choice need not wait for a stronger capability claim.
 
 | Source or maintained result | Contribution used here | Boundary |
 | --- | --- | --- |
@@ -3980,7 +3973,7 @@ Compare development Methods by their expected gain, burden, protected conditions
 | [Whitehead et al., *Capturing spontaneous interactivity*](https://doi.org/10.3389/fpsyg.2024.1465595) | Compare kinematic coordination measures with the improvising dancers' reports; their disagreement can change the recognition task or observation method. | These observations do not establish audience recognition of the proposed style distinction. |
 | [Dawou Tarraxo, TOCA Method: student book and teacher guide](https://tocamethod.com/) | A teaching approach combining touch, observation, control and awareness, with individual and partnered exercises and progressions. | This is one practice-specific teaching approach; its description alone does not demonstrate recognition or transfer by the current learners. |
 
-Use contextual inference as a working explanation only while it predicts observations better than relevant rivals.
+Prefer contextual inference over a live rival only when observations support that comparison. Otherwise retain it as a hypothesis where it helps identify a worthwhile comparison; a shared useful next action can proceed while the explanations remain unresolved.
 
 
 ### MDPE.23:7 - Relations
@@ -3996,8 +3989,8 @@ Use contextual inference as a working explanation only while it predicts observa
 - When capability development is selected, [FPF E.23.CDI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23cdi---developing-capability-for-a-named-work-family)
   guides the baseline, target, limiting contribution, protected conditions and representative transfer check.
   Direct Music and Dance Methods still supply the intervention.
-- When a previously demonstrated response fails after conditions change and competing explanations would change
-  the next teaching or support decision, use [FPF E.23.CAE](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23cae---capability-access-and-expression-differential-probe).
+- When a previously demonstrated response fails after conditions change, competing explanations would change
+  the next teaching or support decision, and an attainable comparison is worth its burden, use [FPF E.23.CAE](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23cae---capability-access-and-expression-differential-probe).
   Compare a qualified reference condition with a controlled change without further teaching; distinguish whether
   the response is selected as applicable, accessible, expressed and enacted, while retaining surviving explanations.
   The probe supplies observations for the later choice; it neither selects the intervention nor establishes a memory mechanism.
