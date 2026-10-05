@@ -9242,8 +9242,7 @@ comparison, and retention are current project questions. That designation is pro
 After the choice, the Method's enactment in engineering Work, any later Method-development Work, the
 Method-development Method, and the Agents and Systems involved retain separate relations.
 
-Also keep the choosing Agent separate from performing Agents, and keep Methods separate from descriptions, tools,
-Work, results, authority, capabilities, provider arrangements, and the actual System or intended-system designator selected as the project system-of-interest.
+Distinguish the Agent choosing the repertoire from the Agents performing Work with its Methods.
 
 ### SYSE.15:1 - Problem Frame
 
@@ -9299,6 +9298,11 @@ Choose and refresh engineering Methods from the results the project needs and ev
 Identify Methods before comparing them, preserve every relation that matters, and return capability, provider,
 platform, or cultural questions to their own decisions.
 
+Reuse an existing Method choice when its reasoning and qualified evidence remain sufficient for the same
+required result and conditions. Add only what an unresolved choice, interaction or realization gap needs. If the reusable way
+itself must be created or changed, obtain the relevant Method Engineering contribution before relying on it
+as an available Method.
+
 **Local mantra.** Start from a needed engineering result. Recover reusable Methods from sources and Work.
 Compare them under the same project conditions. Keep classification, whole–part structure, result use, and Work
 timing separate. Exercise the Methods together where interaction can reveal loss. Retain, replace, develop, or
@@ -9319,7 +9323,9 @@ leave a gap with evidence and a reopen condition.
    reusable way cannot yet be stated.
 4. **Compare the same result under the same conditions.** Hold the result, actual or intended System kind stated in the project-system choice account, use,
    configuration, evidence needs, and protected losses stable while varying the Method. A new tool, description,
-   assignment, or parameter is not automatically a new Method.
+   assignment, or parameter is not automatically a new Method. State the criterion that will prefer one
+   feasible option, including continuing with an adequate existing Method. Compare the work needed through
+   the receiving result, including material preparation, adaptation, review and integration costs.
 5. **Test whether specialization changes the work.** Compare a narrower engineering Method with the broader FPF
    or DPF move at comparable effort. Retain the specialization only when it changes what practitioners notice,
    decide, do, obtain, check, or use as a stop or return, and that difference is useful and warranted for this
@@ -9334,7 +9340,8 @@ leave a gap with evidence and a reopen condition.
    relevant costs or limits—for example, integration loss, rework, elapsed time, capability, platform constraints,
    or a protected characteristic that would otherwise be traded away silently.
 8. **Make the repertoire decision.** The authorized Agent records which Methods are retained now, retained as
-   alternatives, replaced, excluded for this use, proposed for development, or still unresolved. If a retained
+   alternatives, replaced, excluded for this use, proposed for development, or still unresolved. Explain the
+   selected disposition from the criterion and grounds, including the accepted burden or loss. If a retained
    Method lacks a capable Agent, provider, platform, or assignment, record that separate gap and send it to the
    appropriate capability, provider, platform, or obtaining-arrangement decision.
 9. **State evidence, currentness, and return conditions.** Give each relied-on claim its actual epistemic status—
@@ -9386,7 +9393,7 @@ authority remains with another Agent. The team starts from recurring results rat
 | --- | --- | --- |
 | Operating situations and protected room-temperature and equipment conditions | Recover operating situations, affected Systems, and required effects before choosing a controller concept. | Existing operating records cover normal weather; rare grid events remain an explicit gap. |
 | Plant-response prediction | Identify physical parameters and simulate the heat-pump, building, sensor, and controller interaction. | Earlier predictions omitted measured sensor latency. |
-| Controller implementation candidate | Generate a bounded code candidate, then perform an independent implementation review. | *Use AI* is not a Method; the reusable generation-and-review ways and their different results are stated separately. |
+| Controller implementation candidate | Implement the controller change from an existing template, or generate a bounded implementation candidate with AI. Independent implementation review remains a separate Method. | *Use AI* is not a Method. Recover the reusable implementation ways before comparing them; review supplies its own result. |
 | Integration observation | Exercise the actual controller interface and plant model on the hardware-in-the-loop bench. | Bench time is scarce; occupied-building trials require separate safety and release conditions. |
 | Configuration, assurance, and release decisions | Use the corresponding configuration, assurance, and release Methods for the identified controller and plant conditions. | None of these decisions follows from the V diagram or a green code check. |
 
@@ -9402,10 +9409,31 @@ sensor latency that destabilizes the candidate despite an acceptable simulation 
 withholds the candidate, and the controls engineer revises the physical model. Faster code generation did not
 shorten the limiting integration and assurance Work.
 
-The repertoire account retains operating-situation recovery, linked concept development, physical modeling,
-bounded implementation generation, independent review, hardware-in-the-loop trial, configuration, assurance,
-and release Methods. It retains an occupied-building trial only under the stated safety, plant-state, weather,
-and release conditions. The V diagram remains an overview. The phrase *AI workflow Method* remains unresolved.
+The next choice is how to produce a corrected implementation candidate for the revised latency model. The
+lead compares continuing with the team's established implementation from a controller template and using
+bounded AI generation. Both must serve the same controller interfaces and required response, and both feed
+the same independent review and hardware-in-the-loop qualification. Neither option resolves scarce bench time.
+
+For this illustrative comparison, assume a qualified controls engineer is available and the template's
+applicability to this correction is supported. The team already knows how to use it. The AI alternative is also
+available, but requires preparing its context, examining unfamiliar generated constructs and adapting them
+to the controller interfaces. The lead's qualitative estimate is that this additional preparation, review
+and integration work exceeds the generation effort saved for this correction.
+
+The lead's rule protects the required candidate quality and physical-evidence conditions, then prefers the
+option with lower total engineering effort for this correction. On the stated basis, the lead retains
+implementation from the existing template and defers AI generation. The accepted loss is slower initial
+code production in exchange for less preparation and checking of unfamiliar implementation choices.
+Independent review and latency-sensitive integration checks remain necessary for either option. A changed
+template, loss of the qualified engineer, or a better-supported AI alternative with lower full continuation
+cost reopens this choice. The corrected implementation still has to be produced and qualified.
+
+The repertoire account keeps operating-situation recovery and linked concept development for their named
+results, carrying forward the rare-grid-event gap. Physical modeling and hardware-in-the-loop trial remain
+needed to address the exposed latency interaction. Configuration, assurance and release still supply their
+separate decisions. The account retains an occupied-building trial only under the stated safety, plant-state,
+weather and release conditions. The V diagram remains an overview. The phrase *AI workflow Method* remains
+unresolved; the identified bounded generation Method is a deferred alternative.
 
 Scarce bench time leaves several possible repairs. The team can use `OPS.11.1` to compare available time with
 already assigned work and revise allocation under the existing authority. It can also compare trial Methods
@@ -9495,18 +9523,39 @@ universal methodology or cultural fact.
 
 ### SYSE.15:11 - SoTA and Source Use
 
-When choosing engineering Methods, distinguish the Methods, their descriptions and the Work performed by applying them. A framework or source bundle may contain several Method structures and other useful contributions; recover those needed by the project and improve the arrangement in response to observed loss. Research, modeling, realization, integration, configuration, platform, assurance and source-recovery Work can make different contributions to continuing engineering.
+**Working question:** How should an engineering lead choose and refresh the smallest sufficient repertoire
+for the project's recurring results, while preserving interactions and the conditions for performing the Work?
 
+The selected line starts with an adequate existing choice and adds only the missing comparison or connection.
+A developed situational Method Engineering approach is a serious alternative: it can select, adapt and connect
+reusable ways for the same project purpose. Use its result directly when it already answers the choice and
+realization questions. When the reusable way is missing, use the qualified Method Engineering contribution
+named in :12 to construct or improve it.
 
-| Source line | Retained contribution | Limit and guard |
+The narrower contribution here is useful when known Methods are hidden inside a heterogeneous framework or
+tool bundle. Steps 2–6 identify the ways and their distinct relations; steps 7–9 connect interaction evidence
+to a choice and return any separate realization gap. For this use, the team accepts making that comparison
+without constructing a new composite Method or adopting a source's entire apparatus. It still has to establish
+the relations and grounds it needs.
+
+The :5 choice works the trade-off: the same implementation result, quality and physical-evidence conditions
+govern both alternatives. The lead accepts slower initial code production to avoid greater estimated preparation,
+review and integration effort. The extra repertoire account earns its cost by changing the retained implementation
+Method and separating the remaining bench-time question. An unchanged adequate answer takes :4's direct route.
+
+| Source answer considered | Disposition and operative use | Scope and limit |
 | --- | --- | --- |
-| [Henderson-Sellers and Ralyté 2010](https://opus.lib.uts.edu.au/handle/10453/13456), [Tsai, Zdravkovic, and Söder 2023](https://doi.org/10.1007/s10270-022-01068-z), [Bender 2024](https://doi.org/10.1007/s10257-024-00675-1), and [Ralyté, Koutsopoulos, and Stirna 2025](https://doi.org/10.1007/s10270-025-01304-2) | Situational Method construction and adaptation candidates, plus separate consistency, fit, and practical-worth questions. | Much of the evidence concerns information systems, business processes, and modeling Methods; source-local fragments, roles, and artifacts do not transfer automatically to physical engineering. |
-| [ISO/IEC/IEEE 24774:2021](https://www.iso.org/standard/78981.html) and [OMG Essence](https://www.omg.org/spec/Essence) | Current process- and practice-description comparisons. | Institutional status and conformance do not prove Method identity, fit, composition, or worth. |
-| [DORA Continuous Integration](https://dora.dev/capabilities/continuous-integration/), [DORA Streamlining Change Approval](https://dora.dev/capabilities/streamlining-change-approval/), [DORA Platform Engineering](https://dora.dev/capabilities/platform-engineering/), and [Zampetti et al. 2022](https://doi.org/10.1145/3571854) | Bounded evidence for small changes, fast feedback, frequent integration, risk-sensitive approval, platform use, and mixed cyber-physical cadence. | Evidence is heterogeneous and predominantly software or technology Work; it does not prescribe one cadence or automation level for every engineered System. |
-| [Becker et al. 2025](https://arxiv.org/abs/2507.09089), [METR February 2026](https://metr.org/blog/2026-02-24-uplift-update/), [METR task-substitution note](https://metr.org/blog/2026-05-08-task-substitution-and-uplift/), [METR self-report study](https://metr.org/blog/2026-05-11-ai-usage-survey/), [Agarwal, He, and Vasilescu 2026](https://arxiv.org/abs/2601.13597), [Pradas Gomez et al. 2025](https://doi.org/10.1017/pds.2025.10045), and [Luke et al. 2026](https://doi.org/10.1017/pds.2026.10600) | Conflicting evidence that AI-capable Systems can change speed, value, quality, maintainability, task mix, and integration differently. | Software dominates the evidence; bounded studies and self-reports establish neither autonomous performance of all engineering Work nor transfer of authority. |
+| [Henderson-Sellers and Ralyté 2010](https://opus.lib.uts.edu.au/handle/10453/13456), §7.1–7.3; [Tsai, Zdravkovic and Söder 2023](https://doi.org/10.1007/s10270-022-01068-z), §§2.3–4.3, §5.2 and §6; [Bender 2024](https://doi.org/10.1007/s10257-024-00675-1), §§3.2–4.3 and §6 | **Adapt** requirements-led selection, situational alternatives and explicit dependencies in steps 1/3/4/6. The developed treatments can supply the construction returned by :12. | The 2010 survey is a historical anchor. The later DBE and business-process treatments demonstrate domain-specific choices; their modules, indicators and role meanings do not establish an engineering-wide repertoire or transfer automatically to physical Systems. |
+| [Ralyté, Koutsopoulos and Stirna 2025](https://doi.org/10.1007/s10270-025-01304-2), §§2.2–4.1 | **Adopt** the distinction among internal correctness, contextual fit and worthwhile use; **adapt** proportionate assessment in steps 4/7/8. A correct description still needs grounds for the project's choice, including training and use effort. | These are modeling-method recommendations. Their allowance for simpler early validation supports proportionate work; it does not qualify a physical controller or prove the benefit of this repertoire. |
+| [DORA continuous integration](https://dora.dev/capabilities/continuous-integration/), [change approval](https://dora.dev/capabilities/streamlining-change-approval/) and [platform engineering](https://dora.dev/capabilities/platform-engineering/); [Zampetti et al. 2022](https://doi.org/10.1145/3571854) | **Adapt** timely feedback and enabling capability while preserving different physical and software contributions in steps 6/7 and :5. The latency failure makes that connection consequential even when generation is faster. | The software guidance and heterogeneous cyber-physical cases support qualified contributions. They do not select one cadence, approval arrangement or automation level for every System. |
+| [Becker et al. 2025, v2 abstract](https://arxiv.org/abs/2507.09089v2); [METR self-report study, May 2026](https://metr.org/blog/2026-05-11-ai-usage-survey/) | **Adopt** the distinction between observed completion time and perceived or reported gain in steps 7/9. The early-2025 coding experiment reported a slowdown despite perceived speedup; the later survey measures reported gains. | The experiment's population and tools bound that observation; the 2026 convenience sample and counterfactual self-reports do not establish realized project productivity. Neither result selects the controller Method without its own comparison. |
+| [METR task-substitution note, May 2026](https://metr.org/blog/2026-05-08-task-substitution-and-uplift/); [Pradas Gomez et al. 2025](https://doi.org/10.1017/pds.2025.10045); [Luke et al. 2026](https://doi.org/10.1017/pds.2026.10600) | **Adapt** the distinction between task speed, changed task mix and useful value, and consider proposed human/tool/AI allocations against capability and workflow fit in steps 4/7/8. Section :5 compares the full continuation and retains its separate performers and authority. | The task-substitution argument is theoretical under simplifying assumptions. Conceptual allocation proposals, survey findings and one automotive organization's interview-based recommendations are different evidence kinds; they are not controlled measurements of the proposed arrangements' effectiveness. |
 
-A new source, tool, or AI release reopens only the Method choice, evidence claim, applicability condition, or
-protected loss that it can change. Novelty alone does not restore a discarded framework.
+Reopen the affected comparison when qualification no longer covers the required result, an interaction changes
+the protected outcome, realization conditions change, or a better applicable Method or different preparation
+and transition burden can reverse the choice. Use available qualified evidence; obtain further inquiry only
+when an attainable answer can change the warranted continuation. A new source or tool matters through that
+changed comparison.
 
 ### SYSE.15:12 - Relations
 
