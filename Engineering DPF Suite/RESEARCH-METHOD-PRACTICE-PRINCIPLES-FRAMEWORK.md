@@ -3296,7 +3296,7 @@ These are use probes and reader examples. They establish no performed study, act
 
 ## RMP.Reference:14 - Edition return
 
-**Research Method Practice Principles Framework — First Edition** designates this Readme, Table of Contents, Preface, five reading Parts, twelve ordinary practical entries, four connected applications, framework boundary and refresh account, and the complete RMP.1–RMP.9 bodies.
+**Research Method Practice Principles Framework — First Edition** designates this Readme, Table of Contents, Preface, five reading Parts, twelve ordinary practical entries, five connected applications, framework boundary and refresh account, and the complete RMP.1–RMP.9 bodies.
 
 The complete accepted nine-pattern repertoire preserves direct entry and useful completion. Disciplinary techniques, case-specific results and receiving decisions retain their actual owners; completeness here does not claim a comprehensive handbook for every research field.
 

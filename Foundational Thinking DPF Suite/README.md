@@ -43,7 +43,7 @@ Each size covers the full linked Markdown file, including spaces and markup. 1 M
 | Product series | Publication status | Useful contribution |
 | --- | --- | --- |
 | [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | Published - 20 patterns, 0.477 M characters | Construct objects, operations and arguments; derive and use consequences. |
-| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 14 patterns, 0.473 M characters | Formulate questions, infer unknowns, construct causal comparisons, choose useful observations, construct continuing decisions, and change or combine models while retaining the needed answer. |
+| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 15 patterns, 0.473 M characters | Formulate questions, infer unknowns, construct causal comparisons, choose useful observations, construct continuing decisions, and change or combine models while retaining the needed answer. |
 | [Physical Thinking DPF](PHYSICAL-THINKING-DPF.md) | Published - 10 patterns, 0.303 M characters | Construct physical accounts, derive their consequences, build observations and revise physical assumptions. |
 | [Computational Thinking DPF](COMPUTATIONAL-THINKING-DPF.md) | Published - 14 patterns, 0.324 M characters | Construct and transform algorithms; connect their meaning, representations, resource requirements and interactions. |
 | [Notational Engineering DPF](NOTATIONAL-ENGINEERING-DPF.md) | Published - 8 patterns, 0.219 M characters | Design, interpret, transform and coordinate expressions, including temporal and embodied notation. |

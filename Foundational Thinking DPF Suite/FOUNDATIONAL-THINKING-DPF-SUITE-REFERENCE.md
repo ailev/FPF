@@ -417,17 +417,17 @@ For learning, choose a task that calls for the missing operation and the help av
 
 ## Foundational.Reference:5 - Current repertoire and its limits
 
-The Suite publishes **66 pattern bodies in five DPFs**: twenty in MATH, fourteen in MMP, ten in PHY, fourteen in CMP and eight in NOT. These methods form a selected repertoire; their number does not establish completeness of the fields.
+The Suite publishes **67 pattern bodies in five DPFs**: twenty in MATH, fifteen in MMP, ten in PHY, fourteen in CMP and eight in NOT. These methods form a selected repertoire; their number does not establish completeness of the fields.
 
 | DPF | Published repertoire |
 | --- | --- |
 | [Mathematical Thinking](MATHEMATICAL-PRACTICE-DPF.md) - 20 patterns | Formation, operations and interpretations; proofs, witnesses, extraction and countermodels; bounds and convergent approximations; invariants, symmetry and variation; changed axioms and conjecture development. |
-| [Mathematical Modeling](MATHEMATICAL-MODELING-PRACTICE-DPF.md) - 14 patterns | Admissible formulations, structured unknown relations, information-dependent and continuing choices, probabilistic recording, inverse recovery, statistical inference, model criticism, intervention effects, counterfactual comparisons, observation design, reduced evolution, surrogates and coupled models. |
+| [Mathematical Modeling](MATHEMATICAL-MODELING-PRACTICE-DPF.md) - 15 patterns | Admissible formulations, structured unknown relations, information-dependent and continuing choices, probabilistic recording, inverse recovery, statistical inference, model criticism, intervention effects, counterfactual comparisons, observation design, reduced evolution, surrogates and coupled models. |
 | [Physical Thinking](PHYSICAL-THINKING-DPF.md) - 10 patterns | Physical similarity and analogues; limits from permitted transformations; restrictions on unknown laws; effective descriptions by scales and couplings; evolution from balances and response laws; motion from variational principles; macroscopic behavior and fluctuations from weighted microscopic alternatives; measuring interactions; and tests separating rival accounts. |
 | [Computational Thinking](COMPUTATIONAL-THINKING-DPF.md) - 14 patterns | Reduction, recursive construction, sharing, search, relaxation, local updates and learning; approximation, sampling, representation and lower bounds; interpretation, abstraction and interacting composition. |
 | [Notational Engineering](NOTATIONAL-ENGINEERING-DPF.md) - 8 patterns | Expression requirements, formation and binding, interpretation, transformation, translation with loss recovery, complementary representations, redesign around difficult operations, and temporal or embodied notation. |
 
-The collaborating Method Engineering methods are outside these 66: ME.6.MC compares method arrangements mathematically, and ME.25 constructs a changed working method through a mathematical transformation. Their [publication](../Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) belongs to the Engineering DPF Suite.
+The collaborating Method Engineering methods are outside these 67: ME.6.MC compares method arrangements mathematically, and ME.25 constructs a changed working method through a mathematical transformation. Their [publication](../Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) belongs to the Engineering DPF Suite.
 
 A new difficulty, source contribution, medium or working condition can require further methods or a specialized profile. Use a suitable source or existing specialist method when it already supplies the needed operation. When the current language cannot provide a promised result, identify the missing operation and revise the affected method or its connections.
 
