@@ -23850,7 +23850,7 @@ The primary reader is an FPF maintainer, architecture steward, or pattern author
 
 ### A.7.2:1 - Problem frame
 
-Neighboring FPF pattern epistemes and `U.MethodDescription` epistemes can state different premises about existence, constitution, identity, dependence, obtaining, representation, agency, or formal projection. A dated application of a system-role-assignment method clause may yield a decision claim that assignment Work or a policy-valid instituting act must occur before an individual commitment obtains, while an application of a relation-method clause may yield a claim that a signed chart constitutes that same assignment. Both texts may be internally clear, yet the application results can conflict about assignment constitution, duty, or responsibility for one maintenance action.
+Neighboring FPF pattern epistemes and `U.MethodDescription` epistemes can state different premises about existence, constitution, identity, dependence, obtaining, representation, agency, or formal projection. One dated application of a system-role-assignment clause may conclude that a relation does not obtain for its exact participants and scope because the instituting act required by its applicable rule has not occurred, while another concludes that the same relation obtains from a signed organization chart alone. Both texts may be internally clear, yet these application results conflict about assignment constitution in the same scope; duty and responsibility remain separately governed claims.
 
 The governed concern is one bounded reconciliation of exact FPF receiving claims and their practical consequences. The ordinary result can be compatibility, separation, non-composition, no-conflict stop, or unresolved escalation. Convergence is not mandatory.
 
@@ -23975,7 +23975,9 @@ Reopen when a source or receiving-claim edition changes, currentness changes, ne
 
 ### A.7.2:5 - Archetypal Grounding
 
-**Compatible repair.** One dated method application yields a claim that a policy-valid instituting act creates `MaintenanceCommitment-17`, an exact `U.Commitment` whose actual bearer is `MaintenanceSystem-4`; it does not thereby establish responsibility. Another application yields a claim that a signed organization chart is sufficient to make `MaintenanceAssignment-17 : MaintenanceCoordinatorAssignment` obtain. Reconciliation Work recovers both result claims, their method clauses, source uses, and reasoning-basis uses of `A7CP-01`, `A7CP-03`, `A7CP-05`, and `A7CP-06`. It repairs the assignment clause so the chart is evidence for an assignment assertion rather than constitution of the assignment. If responsibility is also claimed, it is tested independently under an admitted maintenance-responsibility predicate with actual participants, applicability, and identity; otherwise the exact missing governor is returned. The result is `reconciledCompatibility`: commitment, assignment, responsibility, performing system, and Work no longer substitute for one another, while unrelated evidence and publication law stays unchanged.
+**Compatible repair.** The receiving claim asks whether a `MaintenanceCoordinatorAssignment` obtains for holder `MaintenanceSystem-4` and assigned kind `MaintenanceCoordinatorKind` in scope `S`. Its independently admitted local rule requires a policy-valid assignment act and treats the signed organization chart as evidence only. The chart is present, but current facts establish that the required act did not occur. One dated application of the local rule concludes that the relation does not obtain; another application of a chart-sufficiency clause concludes that it obtains for the same participants and scope. Reconciliation Work recovers both result claims, their method clauses, source uses, and reasoning-basis uses of `A7CP-01`, `A7CP-03`, `A7CP-05`, and `A7CP-06`. It repairs the assignment clause to apply the local obtaining rule and use the chart as evidence for an assertion. Replaying both applications now yields the supported non-obtaining conclusion, without inventing an assignment occurrence. The result is `reconciledCompatibility` for that claim and scope.
+
+If the evidence does not establish whether the required act occurred, reliance on the obtaining claim remains unresolved. Under a different independently admitted rule, authorized signing may itself be the required act; establish that actual act instead of applying this case's evidential-only rule. A separate policy-valid act may create `MaintenanceCommitment-17`, borne by `MaintenanceSystem-4`; neither this commitment nor the assignment claim by itself establishes responsibility. Test any responsibility claim separately against its admitted maintenance-responsibility predicate, actual participants, applicability, and identity; if that governor is missing, return the exact missing governor.
 
 **Context split.** One dated application uses a pattern's `ComponentOf` clause for a pump assembly; another applies a maintenance-set pattern's belongs-to rule to a candidate item. Both result claims say “part”, but their subjects, receiving claims, constructions, and consequences differ. The result is `contextSplit`; neither source clause nor application result defeats the other.
 
@@ -25716,7 +25718,7 @@ ActingSideExternalization@Context:
   changedSubjectRef: one exact continuing referent identified by the identity rule that defines that referent
   actingEntityRef: exact U.Entity proposed for the acting side
   actingSystemRef?: U.System, fill only after actingEntityRef satisfies the complete A.1 U.System criterion
-  a1RecognitionDispositionOrBlockerRef?: required while actingSystemRef is unfilled
+  a1RecognitionDispositionOrBlockerRef?: required when this account needs an A.1 recognition result and actingSystemRef is unfilled
   actingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, only when one exact obtaining work-facing assignment is current
   actingSideParticipationRef?: one exact obtaining relation occurrence satisfying the predicate and participant meanings that define the participation, causal, or interaction claim
   transformationRef?: U.Transformation, fill only when A.3.4 identifies a bounded change of changedSubjectRef
@@ -25731,7 +25733,7 @@ ActingSideExternalization@Context:
 
 Identify `actingEntityRef` and `changedSubjectRef` as distinct participants in the claim. `changedSubjectRef` is a question-local position, not a U-kind or union ValueKind: its value retains its independently admitted kind and identity rule. A presentation carrier does not become a `U.Holon` by filling it. Fill `transformationRef` only when A.3.4 establishes a bounded change of that same continuing referent.
 
-Before calling the acting entity a `U.System`, apply the complete A.1 criterion. Until recognition is established, retain the entity and its `recognized | rejected | unknown` disposition or blocker, and leave `actingSystemRef` unfilled. Once recognized, that position names the same entity under `U.System`, not another actor. Tight coupling or membership in a larger holon does not merge the acting and changed positions.
+Before calling the acting entity a `U.System`, apply the complete A.1 criterion. When this account needs an A.1 recognition result and recognition is not established, retain the entity and its `recognized | rejected | unknown` disposition or blocker. Leave `actingSystemRef` unfilled until recognition is established; once recognized, that position names the same entity under `U.System`, not another actor. Tight coupling or membership in a larger holon does not merge the acting and changed positions.
 
 `ActingSideExternalization@Context` describes the relation frame; it does not define a U-kind or establish that a change occurred. Each neighboring claim has its own participants and defining or testing rule. Neither A.12 frame has a generic context, scope or qualifier position. Ask what the proposed qualifier changes:
 
@@ -25895,7 +25897,7 @@ The additional proposed claim is: "Lathe-3 transmits cutting force to Workpiece-
 
 | Check | Requirement |
 | --- | --- |
-| `CC-A12-1` | A self-action or passive change account names the proposed acting participant and changed subject separately. When the precise frame is used, it identifies one exact continuing `changedSubjectRef` by that referent’s identity rule and requires `actingEntityRef`; before A.1 recognition it keeps the exact disposition or blocker and leaves `actingSystemRef` unfilled, and after recognition that optional position identifies the same entity under `U.System`. A filled `transformationRef` identifies an A.3.4 bounded change of that same `changedSubjectRef`. `ReflexiveSplit@Context` carries only acting and changed part positions; a companion acting-side frame carries this recognition boundary when needed. |
+| `CC-A12-1` | A self-action or passive change account names the proposed acting participant and changed subject separately. When the precise frame is used, it identifies one exact continuing `changedSubjectRef` by that referent’s identity rule and requires `actingEntityRef`. Fill the optional `actingSystemRef` only after complete A.1 recognition; it identifies the same entity under `U.System`. When this account needs an A.1 recognition result and recognition is not established, keep the exact disposition or blocker. A filled `transformationRef` identifies an A.3.4 bounded change of that same `changedSubjectRef`. `ReflexiveSplit@Context` carries only acting and changed part positions; a companion acting-side frame carries this recognition boundary when needed. |
 | `CC-A12-2` | A Reflexive Split case identifies distinct exact entity parts or subsystems inside one containing holon, and each position has its independently obtaining direct part relation. Temporal phases keep their phase identity rules; assignments use A.2.1; parthood uses A.14 or the exact part-relation rule; descriptions use C.2.1; selected structures use A.22. None fills an A.12 part position merely by being nearby. |
 | `CC-A12-3` | A.12 does not create `U.Transformer`, `U.Boundary`, or `U.Interaction`. |
 | `CC-A12-4` | Bounded transformation claims require `A.3.4`; method and work claims require `A.15` and `A.15.1`. For an actual Work claim, establish each performer’s A.13 core before independent A.15.1 occurrence admission. The profile is conditional as stated in §4.1. |
@@ -26339,7 +26341,7 @@ It also corrects analysis and representation bias. A Characteristic, viewpoint, 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | **CC-GND-1** | A direct `ut:StructPartOf` assertion is usable without this assurance profile. When its publication elects B.3.5 or a named current requirement demands that profile, the assertion must use `validationMode=axiomatic` and link through `tv:groundedBy` to its applicable current C.2.1 `sum` or `slice` construction trace. The trace reports independently grounded participants, direct relation occurrences, the construction rule, and identity or reidentification conditions; it creates none of them. | Makes an elected assurance basis inspectable without making it the relation's truth-maker. |
-| **CC-GND-2** | For epistemic edges (`ut:EpiPartOf` and its sub-types), `tv:groundedBy` is optional; instead supply `ev:evidence` and set `validationMode in {axiomatic, postulate, inferential}`. | Harmonises evidence treatment for epistemic edges. |
+| **CC-GND-2** | For epistemic edges (`ut:EpiPartOf` and its sub-types), retain the independently established content-part basis. When a publication choice or named current requirement elects B.3.5, supply the support references and `validationMode` required by the applicable epistemic branch. Preserve any evidence reference independently required by the receiving use. | Harmonises evidence treatment for epistemic edges. |
 | **CC-GND-3** | The public query Standard remains `?x ut:PartOf+ ?y`; every result still depends on its direct relation semantics and identity. Alias, trace, or validation mode creates or reidentifies no occurrence. | Preserves one query surface without moving authority into assurance apparatus. |
 
 *Note.* Property names and trace semantics are defined in CT2R-LOG and Compose-CAL.
@@ -37361,6 +37363,8 @@ The constrained subject is normally:
 
 Another subject is admissible only when its own pattern defines a named internal constraint and states why this result form applies. An E.18 locus label alone supplies neither the subject nor the constraint.
 
+When a fact needed to determine applicability is missing, state the unresolved question, the missing fact, and the rule that will decide it. Assign `applicabilityValue` and construct the result below once applicability is established.
+
 Minimum result content:
 
 ```text
@@ -37389,13 +37393,13 @@ The legacy label `FlowConstraintValidity` may be retained only as a locator for 
 
 #### A.20:4.2 - Applicability, required set, and summary
 
-Before evaluation, name the constraints applicable to the current subject and case. Mark each as `required`, `optional`, or `notApplicable` and state why. The required set is complete only when every constraint that the current use depends on is named.
+Before evaluation, name the constraints applicable to the current subject and case. Mark each as `required`, `optional`, or `notApplicable` and state why. The required set is complete only when every constraint that the current use depends on is named and no unresolved applicability question could change that set.
 
 For one evaluated applicable constraint:
 
 - `satisfied` means the test established the named constraint for the stated case and window;
 - `violated` means the test established a counterexample or failed condition;
-- `unknown` means required facts, applicability facts, or witness content could not be determined;
+- `unknown` means required case facts or witness content could not be determined after applicability was established; unresolved applicability remains the preliminary question in section 4.1;
 - `error` means the selected evaluation could not complete correctly.
 
 When a consumer needs one local summary over the complete required set, use:
