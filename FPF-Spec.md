@@ -112,7 +112,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | A.6.3.CSC | **Controlled Semantic Coarsening: Shorten an Account for a Bounded Use** | Stable | Shorten a source account for a named present use: write a candidate, compare it with the source, preserve the distinctions needed now, expose loss or unsupported addition, block stronger downstream use, and state when to return. Open exact C.2.1 source and receiving epistemes and the A.6.3 construction only when independent reuse or consequential reliance makes them material; publication occurrence, form, and carrier remain separate under E.24.PUB. | **Builds on:** C.2.1, A.6.3. **Coordinates with:** A.6.3.CR, A.6.3.RT, A.6.3.NAR, E.17.EFP, E.24.PUB, E.17.ID.CR, F.9, F.9.1, A.15, A.6.4, A.20, A.21. |
 | A.6.3.CR | **ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression** | Stable | Textual re-expression, summary, report rewrite, translation, or filtering that preserves the same resolved EntityOfConcern, keeps source tether and omission/loss visible, and exits to explanation, representation change, retargeting, bridge, work, evidence, gate, or assurance patterns when those claims are being made. | **Builds on:** A.6.3, A.6.2, A.7, E.10.D2, E.17.0, E.17, F.9, F.18, E.10. **Coordinates with:** A.6.3.CSC, A.6.3.RT, E.17.EFP, E.17.ID.CR, A.6.4, B.5.2, A.15. |
 | A.6.3.RT | **Representation-Scheme Transition: Change Representation of the Same EntityOfConcern** | Stable | Move practical content into a target representation without hiding what changed: name the content to survive and the target/use, produce the smallest useful target, compare it with the source, and state preservation, representation/reasoning-medium delta, loss or unsupported additions, bounded use, and return. Open exact `X`, `Y`, and `v : X -> Y` only when a named reliance-facing receiver makes claim identity material; open `RepresentationSchemeTransitionRelation@Context` only when the historical transition Work and all six exact participants are material. *Queries:* "How do I turn prose, a table, or a diagram into another representation without losing what matters?", "What became easier to inspect, what was lost or added, and when must I return to the source?", "When do I need exact endpoints, and when is the historical transition occurrence itself material?" | **Builds on:** A.6.3, A.6.2, C.2.1; later occurrence uses A.1.1 and A.15.1. **Coordinates with:** A.6.3.CR, A.6.3.NAR, A.6.3.CSC, E.17.EFP, E.17.ID.CR, A.6.4, A.7, F.9, A.15, E.17.0, E.24.PUB, A.10, B.3, C.26, C.29, E.18, A.20, A.21. |
-| A.6.3.RT.OE | **Construct an Operative Expression** | Stable | Use when available content must be arranged in a notation so a calculation, inference, construction or coordination can be performed. Keep shared parts, grouping, scope and references usable; try the subject operation and repair the expression. *Queries:* "How can the same part connect two relations?", "Which grouping preserves the intended prerequisite?", "How do I coordinate a phrase with its temporal reference?" | **Coordinates with:** A.6.3.RT, E.5.2, B.5.RC, B.5.RA, B.5.RR, C.37, C.2.8 and the subject Method. |
+| A.6.3.RT.OE | **Construct an Operative Expression** | Stable | Use when content must be arranged so a calculation, inference, construction or coordination can be performed, or an exploratory comparison can reveal a still-unknown distinction. Keep shared parts, grouping, scope and references usable; try the subject operation and repair the expression. *Queries:* "What distinction does comparing these records reveal?", "How can the same part connect two relations?", "Which grouping preserves the intended prerequisite?", "How do I coordinate a phrase with its temporal reference?" | **Coordinates with:** A.6.3.RT, E.5.2, B.5.RC, B.5.RA, B.5.RR, B.5.WN, C.37, C.2.8 and the subject Method. |
 | A.6.3.NAR | **Structure-to-Narrative Rendering** | Stable | Turn selected source structure into a reader-useful sequence: choose the reader and use, select and order source structure, draft the shortest useful narrative, compare it with the source, and state preservation, loss, unsupported additions, bounded use, and return. Open exact `X`, `Y`, and `n : X -> Y` only when a named receiving use makes claim identity material; publicness alone does not. *Queries:* "How do I explain tangled structure as a sequence without replacing the source?", "What did this narrative preserve, omit, or add, and when must a reader return?", "When does a narrative need exact source and receiving episteme identity?" | **Specializes:** A.6.3. **Coordinates with:** A.6.3.CR, A.6.3.RT, A.6.3.CSC, A.6.4, E.17.EFP, C.33, C.34, C.35, G.2, E.24.PUB, E.17.0, G.11. |
 | A.6.4 | **EntityOfConcern Retargeting: Judge a Bounded Use Across Different Entities** | Stable | Use when exact source and receiving epistemes concern different exact entities. Identify their exact arrow `r`; state a separate C.2.1 bounded-use assertion `q` whose ClaimGraph contains the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity; then compare exact facts with `q` in a separate current-case judgement returning `satisfies`, `fails`, or `cannot decide`. For `cannot decide`, name the missing fact and reopen condition. Neighboring claims stay with the owners listed at right. *Queries:* "Do the endpoint epistemes concern different exact entities?", "What identifies `r`?", "What invariant, loss, use, conditions, and polarity does `q` state?", "Which exact facts determine the judgement?" | **Builds on:** A.6.0, A.6.2, A.6.3, C.2.1, C.29, A.6.3.RT, A.6.5, A.7, E.10.D2. **Coordinates with:** C.2, C.3, the direct domain pattern for the invariant, and F.9 only for a separately claimed local-sense Bridge; A.6.1, A.15, A.10, B.3, A.20, E.17, and E.24.PUB keep their neighboring claims. |
 | A.6.P | **Relational Precision Restoration — Recovering Direct Relations from Under-Specified Claims** | Stable | Recover the concrete subject, participants, obtaining condition, and receiving use from under-specified relation wording. For service/access language, first distinguish service provision, Method, promise, bare role wording, system-role kind or assignment, permission, bearer or proposed arrangement, Work, capability, status, evidence, fulfilment, acceptance, and missing governor; the word selects none. *Queries:* "What exact referent or relation does this phrase assert?", "Which E.10.ROLE branch does bare role wording select?", "Did service wording name Work, a Method, promise content, a bearer, an arrangement, status, or another direct claim?", "Does the repaired bearer claim really require A.1 evaluation?" | **Builds on:** A.6.REL, A.6.RCD, A.6.0, A.6.5, C.2.1, E.10, E.10.ARCH. **Coordinates with:** E.10.ROLE, A.1.SCR, A.1.STM, A.6.P.WMR, A.6.RSIR, A.6.B, A.3.4, A.10, C.29, E.17.0, E.24.PUB, F.9, F.18. |
@@ -207,6 +207,7 @@ Use Part and cluster headings to locate content. E.4 explains how Kernel, broade
 | B.4.1 | **Publish Candidate Routes for a Stabilized Cue (RoutedCueSet)** | Stable | Make possible continuations from a stabilized cue explicit, with their grounds and the missing facts that would distinguish them. Keep several routes live or state a justified selection; enter a downstream pattern only when its conditions hold. *Queries:* "Should this signal lead to intervention, inquiry or a requirement question?", "What would justify choosing one route?" | **Builds on:** A.16, A.16.1, C.2.2a. **Coordinates with:** B.5.2.0, C.16.Q, A.6.A, C.22.1. |
 | B.5 | **Choose the Next Reasoning Contribution (Canonical Reasoning Cycle)** | Candidate | Use when an engineer or researcher has a question, surprising result or promising construction, but the next useful contribution is unclear. State what you want to understand or make possible; reuse an adequate result or choose the missing reasoning contribution. | **Coordinates with:** B.5.1 for development states, B.5.2 for explanation-led abduction, B.5.4 for situational recognition, B.5.EA for an experiential distinction not yet expressible, C.29 for mathematical-lens use, and A.10 for evidence reliance. |
 | B.5.EA | **Articulate a Working Distinction from Experience** | Stable | Use when a participant recognizes something consequential in their experience but cannot yet express the distinction needed to continue. Return to an accessible episode, develop a correctable expression and use the resulting question or relation. | **Coordinates with:** B.5 and B.5.FM for reasoning and model construction; B.5.4 for situational recognition; B.5.RR for changed premises; C.11.DUA for worthwhile further work. |
+| B.5.WN | **Develop Lines of Thought with Working Notes** | Stable | Use when retained observations, reading or tentative thoughts do not yet help develop a question or argument. Formulate one thought with its grounds, make a consequential connection, follow what changes and leave a usable return. Keep a sufficient project record for ordinary continuation. *Queries:* "How can these notes develop an argument?", "What question emerges from this connection?", "What should remain for a later occasion?" | **Coordinates with:** B.5.EA, B.5.QD and B.5.RR for articulation, question development and revision; A.6.3.RT.OE for an operative expression; A.15.10/.11 for resumption and encounters; C.2.8 and C.11.DUA for usable recovery and worthwhile effort. |
 | B.5.MPC | **Connect Physical, Mathematical and Computational Reasoning** | Stable | Use when a physical question remains unanswered because the needed physical, mathematical or computational contributions do not yet connect. Start with an available contribution, recover its conditions, obtain a sufficient consequence and interpret it for the physical use. *Queries:* "Which missing contribution prevents the next move?", "What changes when a quantity, command or physical premise changes?", "How can people and AI agents divide this work?" | **Coordinates with:** B.5, A.3.3, C.16, A.6.3.RT, C.29, C.29.1, C.29.2, C.29.3, C.39 and C.40. |
 | B.5.MPC.R | **Repair a Physical-Mathematical-Computational Connection** | Stable | Use when a changed question or observed discrepancy breaks the joint physical answer. Locate the incompatible relation, interpretation, computation or execution; repair its contribution and carry the result back to the physical use. *Queries:* "Why is a correct calculation unusable here?", "What continues during a controller pause?", "Can these observations distinguish the physical cases?" | **Specializes:** the revision work in B.5 and B.5.MPC. **Uses:** B.5.RR, C.29.1, C.29.2, C.29.3, A.3.3, C.16, A.6.3.RT and A.15.9. |
 | B.5.RC | **Recover a Construction from Its Description** | Stable | Use when a description points to a result you need but leaves you unable to obtain it from available inputs. Recover producing operations and their prerequisites, work a small case forward, and establish the property needed for the next use or locate the missing contribution. *Queries:* "What must be available before this operation?", "How do these parts produce the required object?", "Which gap prevents the construction?" | **Coordinates with:** B.5 and B.5.RA for reasoning, A.6.3.RT for expression, C.29.1/C.29.2 for mathematical transfer and computational formulation, and C.39 for a missing method. |
@@ -16742,11 +16743,11 @@ When RT imports a contested or claim-bearing mathematical lens, RT still carries
 
 ### A.6.3.RT.OE:1 - Problem frame
 
-Use this pattern when the available content and notation do not yet give the practitioner an expression with which to perform the needed operation. A diagram contains the right objects but obscures their shared parts. An instruction groups alternatives differently from the work it should guide. A rhythmic phrase has known durations but its entry against a recurring cycle is hard to follow.
+Use this pattern when the available content and notation do not yet give the practitioner an expression with which to perform the needed operation. A diagram contains the right objects but obscures their shared parts. An instruction groups alternatives differently from the work it should guide. A rhythmic phrase has known durations but its entry against a recurring cycle is hard to follow. Two reports may suggest a difficulty before the practitioner has obtained the distinction or question needed to investigate it.
 
 An **operative expression** is an expression prepared for a specified use: calculating, comparing, inferring, constructing or coordinating an action. Its signs can be written, drawn, spoken or gestural. The selected notation supplies their formation and interpretation rules; the subject Method supplies the operation to perform.
 
-**First useful move.** Name one operation that should become possible, then identify the parts of the content that must be examined together for that operation. To compare the sides of a constructed triangle, keep each segment recognizable both as a triangle side and as a radius of the circle used to construct it.
+**First useful move.** Select one attainable operation, even provisionally, then identify the parts of the content that must be examined together. When the final question is unknown, compare two available cases or separate their observed events; use what this attempt reveals to develop that question. To compare the sides of a constructed triangle, keep each segment recognizable both as a triangle side and as a radius of the circle used to construct it.
 
 The result is a usable expression and the interpretation needed for its next use. A representation change can also need A.6.3.RT's comparison with the source. Any new subject result obtained while using the expression has its own construction or argument.
 
@@ -16787,6 +16788,18 @@ Recover the givens, constraints, unknowns and partial construction used by that 
 
 Use the subject Method to recover an absent operation or premise. B.5.RC and B.5.RA can help recover a construction or argument. An expression can expose the missing contribution and provide a useful stopping point.
 
+##### A.6.3.RT.OE:4.1.1 - Let a partial expression help obtain the question
+
+Sometimes the available material reveals a difficulty before it supplies a definite question. Start with an attainable operation on that material: place two reports together, arrange events by their stated times, separate an observation from its interpretation, or compare a proposed outcome with what is actually available. State what this attempt could distinguish. A provisional operation can be selected without pretending that the final inquiry is settled.
+
+Try the operation and inspect what its expression lets you see. An unanswered position can expose a missing observation. Two incompatible interpretations can reveal a conflated question. A row that cannot accommodate a second attempt can reveal that the chosen unit was too coarse. Change the arrangement when the available material warrants that change; obtain a missing contribution when rearrangement cannot supply it.
+
+Give the discovered distinction a meaning in the subject work. If "duration" covers receipt-to-result time in one report and equipment occupation in another, separate their endpoints before calculating a difference. The new labels become useful through those definitions and the observed events. A visually convincing pattern alone does not supply a causal explanation.
+
+Use the result to continue, revise the question or stop at the missing basis. B.5.QD and C.40.CD develop the next question when the expression's result changes what must be obtained. Preserve the earlier material that still has a supported interpretation. Replacing the first question does not require rewriting observations to fit the new one.
+
+The construction can stop with a useful distinction or an explicit question. Before a later operation consumes its unresolved part as a fact, supply the missing premise or withhold that dependent result.
+
 #### A.6.3.RT.OE:4.2 - Give recurring parts a stable interpretation
 
 Identify which elements must remain recognizable across the expression. Use the selected scheme's names, positions, types, units, binding rules or temporal references to keep them connected.
@@ -16796,6 +16809,14 @@ When one part belongs to different groupings, retain its identity through the ch
 When similar marks denote different parts, distinguish them before combining their relations. For a formula with a bound variable and a free variable, preserve the binding scopes when renaming. For a repeated rhythmic sign, its position can distinguish occurrences even when the syllable is unchanged.
 
 Use the amount of labeling the operation needs. Reuse familiar conventions; explain a local convention at its first consequential use.
+
+A table also needs an interpretation for its rows and columns. A row may represent a case or relation with several participants, rather than one object. A column can ask for an object, quantity, condition or judgement. Explain what its entries denote and which combinations are meaningful before relying on alignment.
+
+For example, suppose a local `BenchKind` admits physical test benches already identified as `U.System` individuals. A column headed "Bench" asks which of those benches a job used. The entry `B7` designates a particular bench; it is not the name of the domain kind. `BenchKind` is a classification distinction, hence an individual of `U.Kind` under C.3.1, while B7 is classified by that distinction. These upper-kind, domain-kind and particular-object claims answer different questions. A table of kinds could instead contain `BenchKind` itself; it would need a different column interpretation.
+
+Use those distinctions to catch an actual mismatch. Placing `BenchKind` in the job's Bench position would name a classifying distinction when the operation needs the used bench. Placing a duration there supplies a different kind of value. A "30" in an occupation-duration column still needs its unit and interval meaning. Domain membership and the relation to this job require their own grounds; a heading or a successful spreadsheet entry does not establish them.
+
+Retain such annotations where the distinction changes inference, comparison or transfer. Familiar domain wording can be enough for an experienced reader. A computational validator can enforce the declared checks only when its implemented rules match this interpretation.
 
 #### A.6.3.RT.OE:4.3 - Arrange the parts around the needed relation
 
@@ -16910,6 +16931,41 @@ The duration labels retain the whole phrase. These additional cues expose the po
 
 This case adapts Nelson's exercise 7. Reuse the pulse alignment when phrase and cycle change tempo together. Recompute it when a syllable duration in pulses, the cycle's pulse division or the phrase's entry relative to the cycle changes. A particular performer's fluency remains a question for actual performance.
 
+#### A.6.3.RT.OE:5.4 - Discover which duration an investigation needs
+
+A practitioner receives two reports: job Q41 took 55 minutes, whereas Q42 took 30. The present difficulty is an apparent slowdown. The available messages name receipt and usable-result times; a bench log names occupation intervals. The final explanation is unknown.
+
+Start by placing the reported durations together:
+
+| Job | Reported duration |
+| --- | ---: |
+| Q41 | 55 minutes |
+| Q42 | 30 minutes |
+
+This expression makes a numerical comparison easy but does not establish what the durations measure. Return to the messages and log. They supply the events below:
+
+| Job | Received | Bench occupied | Usable result available |
+| --- | --- | --- | --- |
+| Q41 | 09:05 | 09:30–10:00 | 10:00 |
+| Q42 | 11:00 | 11:00–11:30 | 11:30 |
+
+A row identifies one job; the occupation entry is an interval for that job. All times use the same day's clock and time basis. Aligning those events permits two different calculations. Q41 has 55 minutes from receipt to result, comprising 25 minutes before bench occupation and 30 minutes of occupation. Q42 has 30 minutes to its result and 30 minutes of occupation. The two jobs differ in the former duration but not the latter.
+
+The useful question changes: what accounts for Q41's pre-occupation interval, and is that interval consequential for the receiving work? The observations do not establish its cause. Buying a faster bench would be an unsupported remedy on this evidence. The expression has produced a useful distinction before supplying an explanation.
+
+Now Q43 is received at 13:00. Its first occupation, 13:00–13:30, produces an unusable result; its second, 13:50–14:20, produces the usable result. A single occupation interval per job would lose this construction. Retain one job with its two attempts:
+
+| Job and attempt | Bench occupied | Attempt outcome |
+| --- | --- | --- |
+| Q43, first attempt | 13:00–13:30 | Unusable result |
+| Q43, second attempt | 13:50–14:20 | Usable result |
+
+The row now identifies an attempt of a job. Receipt and usable-result events remain associated with Q43 as a whole. Time to the usable result is 80 minutes; total bench occupation is 60; the interval between attempts is 20. The unsuccessful first attempt counts toward occupation even though it did not supply the required result.
+
+The representation changed because the subject history required another distinction. Q41/Q42's earlier observations and calculations remain valid. The practitioner can now ask about repetition, the gap between attempts or the receiving deadline; the corresponding subject inquiry supplies the needed causal or decision grounds.
+
+These small tables are worked expressions for comparing the cases. If the log already provides the interpreted events and calculation, its existing view can be sufficient. A later transfer that separates a row from its job needs the return that recovers that relation. Retain the distinction in B.5.WN when it should support a future line of thought; ending the local investigation does not require a permanent note collection.
+
 ### A.6.3.RT.OE:6 - Bias-Annotation
 
 Under E.3's five Principle-Taxonomy lenses (Gov, Arch, Epist, Prag and Did), this pattern concerns expression construction for a stated operation under available conventions. It assumes that subject operations and notation rules can be obtained. It does not supply the full practice of notation invention, mathematical proof, composition or instruction.
@@ -16967,6 +17023,8 @@ Choose those additional cues when locating that relation is the current difficul
 
 **Vocal and gestural construction.** David P. Nelson, *Solkattu Manual: An Introduction to the Rhythmic Language of South Indian Music* (2008), printed pp. 17 and 19, supplies the notation comparison above and exercise 7's duration assignments, continuing hand cycle and six-pulse preparation. **Adapt** their coordination in :5.3; the added boundary cues are derived from those durations. The rhythmic Method and learned conventions supply the subject operation. The source's teaching advice and the constructed alignment give bounded support for this use; performance remains subject to its actual execution.
 
+**Exploratory expressions.** The two-column duration comparison in :5.4 preserves the reported numbers but leaves their meanings unresolved. The event table adds source-supported endpoints and permits the waiting/occupation distinction. Its fixed row convention then fails for Q43, whose two attempts require a different unit. Retain useful constraints while revising the one that excludes the relevant history. David Kirsh's [analysis of external representations in problem solving](https://link.springer.com/article/10.1007/s00146-010-0272-8) supports making operations possible through external arrangements; Shipman and Marshall's [analysis of premature formality](https://people.engr.tamu.edu/shipman/formality-paper/harmful.html) supports allowing structure to develop with the work. These are conceptual and historical grounds for the construction, not comparative efficacy evidence for the particular tables. The sufficient existing log remains the lower-burden alternative when it already supports the same operation.
+
 These are conceptual and practice-specific sources for the chosen construction, with the common sequence developed by synthesis. Reopen the choice when an available expression supports the same operation with less preparation, a local repair fails because notation rules are inadequate, or use reveals a consequential relation that the current expression hides.
 
 ### A.6.3.RT.OE:12 - Relations
@@ -16975,6 +17033,8 @@ These are conceptual and practice-specific sources for the chosen construction, 
 - **E.5.2** governs recoverable interpretation and portable conceptual meaning.
 - **B.5.RC and B.5.RA** recover a missing construction or argument.
 - **B.5.RR** carries a changed premise through the dependent reasoning.
+- **B.5.QD and C.40.CD** develop the next question when a result changes the inquiry; **B.5.WN** carries a thought through notes and later occasions when that continuation is needed.
+- **C.3.1** supplies the distinction between a domain kind, its individuals and the upper-kind claims used in a typed expression.
 - **C.37** selects representations that jointly support a working use.
 - **C.2.8** characterizes structure recoverable by a specified recipient under stated conditions.
 - **A.6.0 and A.6.1** describe reusable scheme vocabulary, rules or operations when those declarations are needed.
@@ -38339,6 +38399,8 @@ For example, a design review has two alternatives: accept the design or repair i
 
 That corrected card is already useful. It keeps both potential alternatives visible and refuses to invent the missing relation. Continue only if a named later use needs formal structure identity or replayable results.
 
+When retaining or handing over this card separately, include the two rules above or a usable return to them so the recipient can reconsider availability after the facts change.
+
 ##### A.22.CGUS:4.1.1 - Conditions through constituent and encompassing work
 
 When a continuation is a way of performing work, recover the constituent–whole relations in the relevant Method and Work structures that can change availability. Ask what constituent actions must be performable and what encompassing work is being done through them. B.1.5.EW supplies that recovery; knowing a Method's description does not supply the capability or resources to perform it.
@@ -44091,6 +44153,262 @@ B.5.FM develops a model from an available contrast. B.5.4 interprets a situation
 C.2.8 concerns the structure a reader can recover. C.11.DUA governs whether an additional inquiry is useful enough to undertake. These later questions use the articulated contribution under their own conditions.
 
 ### B.5.EA:End
+
+## B.5.WN - Develop Lines of Thought with Working Notes
+
+> **Type:** Method pattern
+> **Status:** Stable
+> **Normativity:** Normative
+
+### B.5.WN:1 - Problem frame
+
+Use this pattern when useful observations, reading or tentative thoughts recur across occasions, but keeping them has not yet made them available for developing a question or argument. You remember an interesting distinction without its grounds, find a relevant note without knowing why it matters, or repeatedly start an explanation whose missing connection remains hidden.
+
+This is a branch of reasoning practice: developing thought through addressable notes and meaningful relations between them. Its material is an evolving formulation, the grounds it uses and the connections through which another occasion of reasoning can continue it. A note can be handwritten, an addressable block or a separate file. The method concerns what the practitioner does with that material; storage and retrieval engineering remain further work when the available means are inadequate.
+
+**First useful move.** Take one available observation, source passage or rough note. Say what it lets you claim or ask, then compare that formulation with one relevant earlier thought. Write the consequential relation, including an unresolved difference when that is what the comparison produces.
+
+The first result can be a better question, a counterexample, a missing premise or a usable continuation. A final publication topic need not be known. An assigned topic also provides an entry: follow the part of its argument that the available material cannot yet support.
+
+Use a sufficient project record directly when it already supports the next action. A longer-lived note network is worthwhile when later comparison, recombination or development warrants the work of keeping it usable. Routine recording, factual retrieval and recovery of an already specified interrupted action can end without building such a network. Learning to reason independently and obtaining a useful argument with assistance are different purposes.
+
+### B.5.WN:2 - Problem
+
+Chronological capture preserves occasions but can hide relations between them. A topical folder can collect similar material without explaining what one contribution changes in another. Extensive linking can make navigation possible while leaving the actual inference unwritten.
+
+The opposite repair also fails: demanding a polished, correctly classified permanent note before its thought has developed removes the provisional material from which a question could emerge. The task is to give thought enough stable form to be compared and carried forward while allowing its meaning, connections and intended use to change.
+
+### B.5.WN:3 - Forces
+
+| Force | Tension |
+| --- | --- |
+| Capture and present work | A short cue can prevent loss, while recording and processing everything can displace the work that supplied it. |
+| Stable arrangement and changing thought | Familiar placement and addressable units reduce repeated setup; an inherited classification can suppress a newly useful distinction. |
+| Recombination and connected reasoning | A separable thought can enter several arguments; excessive fragmentation removes the premises needed to understand it. |
+| Retained observation and revised interpretation | Later understanding can improve a claim without changing what was originally observed. |
+| Deferred inquiry and timely reliance | An unanswered question can wait until useful; a premise consumed by today's decision cannot. |
+| Personal use and another reader | An abbreviated cue can serve its author now but fail after delay or transfer. |
+
+### B.5.WN:4 - Solution
+
+Develop the note through its use in reasoning. Recover its meaning, formulate the thought, test a meaningful connection, follow what that connection changes, and leave a usable way to return. These operations can recur in a different order as the work reveals another gap.
+
+**Recover a thought → make one useful connection → follow what it changes → leave a usable return.**
+
+A collection becomes useful through these continuations. Its size and number of links do not establish them.
+
+#### B.5.WN:4.1 - Enter through available material
+
+Begin where something is available: an observed episode, a passage, an objection to a draft, an existing question or a rough phrase. Recover enough of its context to tell what the thought concerns and why it attracted attention. If a cue no longer permits that recovery, return to the episode or source when available. Otherwise retain the uncertainty or discard the cue when no needed use depends on it.
+
+A short capture serves the current interruption. Develop it while its meaning is still recoverable when later work warrants retaining it. Ask what the next occasion would need to know. “Bench slow” may remind its author of a conversation today; later comparison needs the job, the observed intervals and which result was called slow. The useful repair supplies those distinctions, without expanding every cue into the same form.
+
+Keep a simple stable place and means of addressing notes. A known capture place, a source return and compatible small units can make comparison and rearrangement routine. Start with current material that matters. Processing an entire old archive is unnecessary when the present question can be developed without it.
+
+#### B.5.WN:4.2 - Formulate a thought with its grounds
+
+Write the claim, question or conjecture in terms you can use in reasoning. For a source-derived note, recover the source's question, conditions and actual contribution before stating what follows for your own work. Distinguish the source account from your inference. A useful paraphrase preserves the source's limits; a quotation still needs its context when that changes its meaning.
+
+Keep the reason with the thought. “These jobs have different total delays but equal bench occupation” needs the event choices and calculation that support it. “Delay comes from waiting” is a stronger explanation and needs another basis. Let the note retain the weaker result when that is what the material establishes.
+
+Choose a unit that can participate in a later argument. Split two thoughts when each needs independent use or revision. Keep a short derivation together when separating its steps would make the inference hard to recover. One sentence, one screen and one file are possible conveniences, not definitions of a thought.
+
+An unresolved question can have a stable address. Its address makes it referable; its formulation states what remains unknown. Where a later use depends on an earlier formulation, retain that formulation or an exact return to it before changing the note. An observed event, a claim about it and a project-specific restatement may require different change treatment.
+
+#### B.5.WN:4.3 - Make the connection do reasoning work
+
+Find an earlier thought that could change the new one or be changed by it. Search by the working problem and possible contribution as well as by subject vocabulary. A note about obtaining a usable result may matter in testing, review and delivery although their local words differ.
+
+Read the two thoughts with their grounds. Try the relevant operation:
+
+- compare their meanings and conditions before treating them as agreement or contradiction;
+- use one as a premise and attempt the inference the other needs;
+- use a contrary case to test a general claim;
+- carry a relation into another case and identify what makes that transfer applicable; or
+- expose an unresolved dependency that neither thought presently supplies.
+
+State the relation that survives this attempt. “Related to note N” can be enough for a familiar return; otherwise add the reason for the connection. For example, “This second attempt defeats the earlier assumption that one job has one occupation interval; the earlier two-job calculation is unchanged.” The relation now tells the later reader what to reconsider.
+
+A resemblance can propose a question before it supports an explanation. Keep that difference in the note. If two cases lack the same result, their causes may still differ. A consequential counterexample narrows or rejects the proposed relation; it need not erase the observations that prompted it.
+
+Use B.5.QD when the result changes the question and B.5.RR when a changed premise must be carried through dependent reasoning. Use the relevant subject method for the inference, experiment or construction itself. A new arrangement can make a missing premise visible without supplying it.
+
+#### B.5.WN:4.4 - Provide entries for future occasions
+
+Give a retained thought a route from a question in which it may help. A subject label can be useful, but an entry such as “apparent speed differences with different completion events” names a future reasoning use more directly than “bench notes”.
+
+A small overview can state how several notes currently connect. It can distinguish an established inference from a promising analogy and expose an open question. Revise that account when the relationships change. Its purpose is to make a line of reasoning findable and inspectable, not to establish a final taxonomy.
+
+A journal preserves sequence and contemporaneous context. A note network can expose relations across episodes. A project file holds what one undertaking uses. They may refer to the same observation. Keep one observation's identity and grounds recoverable across these uses; displaying it in several views creates no additional observation.
+
+Use the access arrangement actually available. A link that only the author can open does not supply another reader with the note. When a collection becomes too difficult to find or maintain, the relevant knowledge-access, notation or integration method can improve that arrangement. A working pair of notes does not require that engineering work in advance.
+
+#### B.5.WN:4.5 - Develop or defer the emerging question
+
+Follow a connection while it can yield a useful next result under the available means. The result may be a refined question rather than an answer. Ask what evidence or construction could now distinguish the live possibilities. Continue with that contribution, or leave the question in a form that a later occasion can use.
+
+Two kinds of return are useful. A known deferred intention can be recalled at its next occasion. A semantic entry can expose a relevant thought while following a different question, including when its author has forgotten that it exists. Saving the note supplies neither return automatically.
+
+For a deliberate deferral, retain the open question, the basis already obtained and what would make continuation worthwhile or necessary. Use a concrete reminder when there is a known occasion. Use a meaningful entry when the future occasion is not known. No invented deadline is needed merely to make an unfinished thought look managed.
+
+Compare deferral with the present reliance. If today's choice consumes the missing premise, obtain it, choose a supported alternative or withhold the dependent conclusion. If no current use consumes it, the question may remain open. This is the useful resemblance to lazy evaluation: work can wait until its result matters, provided the later use can recover the dependency and initiate the needed work.
+
+#### B.5.WN:4.6 - Compose an argument for a recipient
+
+When a project becomes useful or an assigned question needs an answer, select the notes that can contribute to it. State the proposed conclusion and arrange the reasons in the order the recipient needs. A visible outline can keep the whole argument available while one passage is being written.
+
+Turn the selected material into that argument. Supply missing transitions, examine contrary material, remove repetitions and distinguish a useful example from evidence for a general claim. A chain of links is not yet the written inference. Composition often exposes a premise that seemed present only because the author knew the collection.
+
+A project may develop copies or selected passages differently from the retained notes. Keep a source return where it matters; the new use need not rewrite every original formulation. Conversely, if new evidence defeats a retained claim still used elsewhere, return that change to the affected reasoning. Follow the actual dependency rather than synchronizing every sentence merely because it was copied.
+
+A useful collection can remain incomplete. An argument offered for reliance must supply the premises and inferential steps its conclusion needs, or state its bounded unresolved result. Use the subject method to obtain what is missing. Stop polishing the surrounding wording when an unsupported premise is the obstacle.
+
+#### B.5.WN:4.7 - Leave a usable continuation
+
+At a useful stopping point, leave the result that was obtained and the next live question or operation when one remains. The later user should be able to recover why that continuation follows. A completed argument, a narrowed question and a deliberately abandoned conjecture have different further uses.
+
+Retain long-lived notes when their future use warrants it. Processed fleeting cues and completed project material can have other dispositions. Apply the relevant retention, confidentiality and access rules before sharing or discarding material. The method supplies no authority to preserve or expose restricted information.
+
+For a handoff, select what the recipient needs to continue the particular reasoning: its present question, obtained result, consequential uncertainty, usable source returns and next contribution. Make abbreviated personal relations explicit where that reader cannot recover them. The whole private collection need not travel.
+
+Assess a stronger claim with the evidence it requires. A coherent note connection supports its stated inference. A reader's successful recovery supports that use under that reader's preparation and help. Independent capability, learning and improved production performance require their own assessment.
+
+### B.5.WN:5 - Archetypal Grounding
+
+#### B.5.WN:5.1 - From a duration note to a new cross-case question
+
+A practitioner is investigating reports that a bench is slow. Job Q41 is received at 09:05 and has a usable result at 10:00; the bench is occupied from 09:30 to 10:00. Q42 is received at 11:00, occupies the bench immediately and has a usable result at 11:30. The comparison developed in A.6.3.RT.OE distinguishes 55 versus 30 minutes until a result from equal 30-minute occupation.
+
+A rough cue says “same bench time, different speed”. Before its context disappears, the practitioner writes a usable thought:
+
+> **Compare the same beginning and result events.** Q41 and Q42 both occupy the bench for 30 minutes. Their receipt-to-result durations differ because Q41 begins occupation 25 minutes after receipt. These observations distinguish waiting from occupation; they do not explain why the wait occurred.
+
+The note returns to the two jobs' observed times. An entry for “apparent speed differences” makes it available beyond a folder devoted to this bench.
+
+Q43 later occupies the bench from 13:00 to 13:30 unsuccessfully, then from 13:50 to 14:20 successfully; its receipt is at 13:00. Time to the usable result is 80 minutes, occupation is 60 and the interval between attempts is 20. The practitioner adds:
+
+> **One job can require several attempts.** Relating one job directly to one occupation interval would lose Q43's history. Keep the attempt and its outcome available when comparing time to a usable result.
+
+The connection to the earlier note states the changed assumption. Q41/Q42's observations and calculation remain valid. The new distinction changes the construction needed for Q43. The practitioner places this note under an entry for time to a usable result, with a return from the earlier speed-comparison entry.
+
+In another project, all reviews are reported as completed, but the receiving comparison still lacks a common basis: the reviews evaluated different configurations. While asking whether completed activities supplied the usable result now needed, the practitioner follows the usable-result entry and retrieves the duration notes. Juxtaposition produces a new question:
+
+> **Which event makes a result available for its next use?** Ending the producing activity and obtaining a usable receiving result can differ. Investigate the required relation in each case; equal words such as “completed” do not establish it.
+
+This note is an own cross-case conjecture and question. Its links name the bench and review contributions and preserve their different grounds. It proposes an inquiry; it does not establish a common cause.
+
+Now change the review facts: all reviewers used a common valid basis, but the recipient has not opened their results. The missing-basis explanation fails in that case. The practitioner narrows the connection to the distinction between a result's availability and its actual use, retaining the original bench observations. If no current project needs this question, the semantic entry is a sufficient continuation. If a delivery decision needs it today, the project must establish which result is actually available before acting.
+
+#### B.5.WN:5.2 - Develop an assigned explanation from mathematical notes
+
+A writer must explain what can be inferred about sums of irrational real numbers. The writer already understands rational numbers and the usual proof that `sqrt(2)` is irrational. One note contains a proved statement: adding a rational number to an irrational number yields an irrational number. If the sum were rational, subtracting the rational addend would make the other addend rational.
+
+A rough second note asks whether adding two positive irrational numbers must also yield an irrational number. Keeping the quantifiers in the formulation makes a counterexample searchable. The writer tries `sqrt(2)` and `2 - sqrt(2)`. Both are positive. The second is irrational, since making it rational would make `sqrt(2)` rational by subtraction. Their sum is exactly 2.
+
+The new note retains the two values and that short justification. Its link to the first says: “The first proof requires a rational addend; replacing that condition by an irrational addend permits a rational sum.” Separating the counterexample from its positivity and irrationality grounds would make later use require reconstruction. A small connected note is sufficient.
+
+The assigned explanation also needs a case where two positive irrational addends have an irrational sum. Using `sqrt(2) + sqrt(2) = 2sqrt(2)` supplies it: if that sum were rational, division by the nonzero rational 2 would make `sqrt(2)` rational. The two cases now support the bounded answer that the sum can be rational or irrational. They do not classify products, limits or other operations.
+
+The writer's outline becomes: distinguish the rational-addend theorem; present the rational-sum counterexample; present the irrational-sum case; state the resulting limit of inference. Rewriting the notes into that order produces an explanation for the assigned question. The earlier theorem remains in the collection, with its actual condition.
+
+A later question about squares can enter through the same concern with what an operation preserves. The present note does not answer it. The writer either develops that question through the relevant mathematics or retains the possible connection for another occasion.
+
+#### B.5.WN:5.3 - Carry a developing question into operational case work
+
+An engineer has the notes in :5.1, including their corrected question about availability and actual use. They do not establish that every delay has the bench's cause. The engineer keeps an entry for “completed activity, receiving result still unavailable”.
+
+At an already authorized support handover, a case note says: “Nightly exports finish on time; the senior analyst removes duplicates every morning. The customer proposes buying faster workers.” Private row contents remain in the customer's system. The engineer's permitted work is to examine the support question, not to change that system.
+
+The engineer follows the entry and brings the earlier question to this episode: which result must “finished” supply to the analyst, and what work remains after that event? The comparison produces a new working note:
+
+> **A recorded completion can leave a receiving contribution to be performed.** Here the export has ended, but producing a usable report still includes duplicate reconciliation. Faster export has not yet been shown to remove that contribution. The bench and review cases helped pose this question; they do not identify the export's cause.
+
+The connection states its limited transfer. The support case remains the source of this observation. A return to that case lets the engineer distinguish the customer's proposal from the proposed explanation. The note also leaves a question: under which receiving protocol is reconciliation needed, and what contribution could replace the manual work?
+
+Now use the subject information available in this constructed case. The current manual distinguishes protocol v1, which requires manual receipt reconciliation, from v2, which permits idempotent resend after absence of a receipt has been confirmed. The installed protocol is unknown. The engineer's useful support result is a conditional explanation and a request for that configuration fact through the authorized local service. Neither the resemblance to the earlier cases nor the finished note selects automatic resend.
+
+A later signed configuration report says v2. The retained case question makes its contribution recognizable: it supplies the missing protocol fact. At the next permitted handover, the engineer reads the governing manual and the current case basis. Under the stipulated v2 rule, absence of the relevant receipt must still be confirmed before the proposed resend. The configuration result has answered one question; it has not performed that check or the action. The recipient receives the case-specific explanation and needed next contribution, not the engineer's entire note collection.
+
+Compare the full construction with the smaller incumbent. The ordinary case record already retains the duplicate episode, the protocol question and the eventual report. It is sufficient to resume this same support case; copying those facts into a second case ledger adds no needed capability. The longer-lived note contributes a separately developed question, its grounds and its limits across the bench, review and export occasions. Making that thought available costs the formulation and maintenance of the note and entry. When a practitioner can obtain the same question directly from the present record, no advantage of the additional network is established for that use. Keep the network contribution only for continuations that actually use it.
+
+Finally change the governing source. A new manual still describes v2 but additionally requires destination certification. The available report identifies v2 and says nothing about certification. Preserve that observation, the original duplicate episode and the question that connected them. Revise the conditional advice: the former basis is insufficient for this proposed resend. Obtain the certification contribution through an authorized route or withhold the action; the current protocol fact need not be collected again merely because another premise is missing.
+
+The note has helped construct and carry a question into work. The allowed encounter, configuration read, interpretation of the manual and controlled operational action remain actual contributions with their own conditions. A saved connection performs none of them by itself.
+
+#### B.5.WN:5.4 - Keep the simpler project record when it suffices
+
+An operator records a replacement part, installation time and required follow-up in an existing maintenance case. The next technician can find the current state and perform the scheduled check through that case. Copying those facts into a separate personal note network supplies no identified continuation.
+
+Use the case directly. If several cases later expose a recurring unexplained relation, formulate that question with returns to the relevant observations. The later inquiry can justify a connected note without replacing the operational record.
+
+### B.5.WN:6 - Bias-Annotation
+
+The method favors work in which thoughts can be expressed, compared and revisited. Tacit performance can supply observations, but written description does not by itself teach the performance. Source familiarity affects how much context a useful note needs.
+
+The examples are constructed reasoning cases. They establish their explicit calculations and inferences, not a measured advantage of one note system. Assistance may produce a useful formulation while leaving the user's own ability to formulate and connect unchanged.
+
+### B.5.WN:7 - Conformance Checklist
+
+- **CC-WN-1 — Recoverable thought.** A retained formulation states a usable claim or question and the grounds its next use needs.
+- **CC-WN-2 — Source and continuation.** Source meaning, observation and own inference remain distinguishable where reliance depends on them.
+- **CC-WN-3 — Consequential connection.** A connection supplies a reason, contrast, counterexample, transfer question or other stated contribution to reasoning.
+- **CC-WN-4 — Appropriate unit.** Separation supports independent use without losing a required inference.
+- **CC-WN-5 — Available return.** A relevant future occasion can find and interpret the retained contribution under its actual access conditions.
+- **CC-WN-6 — Changed condition.** Contrary evidence or a changed question revises affected reasoning while preserving still-valid observations and results.
+- **CC-WN-7 — Use-relative closure.** Deferral, a completed argument and a blocked reliance retain their distinct requirements.
+- **CC-WN-8 — Proportionate support.** Capture, connection and maintenance contribute enough to the intended use to warrant their burden.
+
+### B.5.WN:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure in these situations | Consequence | Repair |
+| --- | --- | --- |
+| Save a phrase after its context becomes unrecoverable | A later reader cannot identify the thought or its grounds. | Recover the source or episode, retain the uncertainty, or discard a cue whose loss defeats no required use. |
+| Add links without examining the relation | Navigation grows while the argument remains missing. | Perform the comparison or inference and state its result. |
+| Force every thought into one sentence | A claim loses the condition or derivation required for another use. | Keep the needed reasoning together; split only independently usable contributions. |
+| Turn a new interpretation into an old observation | The record seems to show something never observed. | Preserve the observation and change the dependent account. |
+| Keep a missing premise deferred while relying on its conclusion | The apparent continuation has no adequate basis. | Obtain the premise, choose a supported alternative or stop that reliance. |
+| Publish the note sequence as the argument | The recipient must invent transitions and supply missing grounds. | Select and rewrite for that recipient's question; repair the uncovered dependencies. |
+
+### B.5.WN:9 - Consequences
+
+A useful thought can remain available across occasions without a finished project or final classification. Connections become operations that develop reasoning, and composition can reveal what the collection still does not supply.
+
+The practitioner spends time on recoverable formulation, meaningful entries and occasional revision. The return depends on later use. A sufficient immediate record can remain the better choice when that further work has no identified contribution.
+
+### B.5.WN:10 - Architectural Rationale
+
+A retained expression and a line of reasoning have different continuity conditions. An observation can remain unchanged while an interpretation is corrected; a question can retain its address while its proposed answer changes; a project argument can select and rewrite only part of the collection.
+
+Stable addresses and compatible units make those changes manageable. The reasoning comes from the operations on their content and relations. The collection therefore supports inquiry without determining the subject truth or requiring a uniform lifecycle for every note.
+
+B.5.QD develops a question from a result, B.5.RR revises dependent reasoning, and A.6.3.RT.OE prepares an expression for an operation. The present method connects such work across retained formulations and later occasions, including the passage from a developing network to a recipient's argument.
+
+### B.5.WN:11 - SoTA-Echoing
+
+**Practice question.** How can retained material develop thought across occasions without making capture and organization the whole activity?
+
+**Selected line.** Adapt the connected practice in Sönke Ahrens, *How to Take Smart Notes*, revised and expanded edition (2022): source understanding and own formulation, meaningful connections, questions that develop through work, and composition that exposes missing argument. Chapter 2's overview, chapters 10–12's reading and connection work and chapter 13's development of a written contribution supply that account. The appendix qualifies historical practice: an addressable note can remain abbreviated or unresolved. Stable routine arrangements enable comparison without making substantive classification final.
+
+**Comparable alternatives.** Compare a sufficient chronological project record, a persistent note network and direct drafting for a fixed question. In :5.1 the project record already preserves the bench events and supports its immediate calculation. The additional note and problem-based entry cost formulation and maintenance; they make the later cross-case comparison available without requiring the writer to remember the bench episode. If no such continuation is needed, retain the project record alone. In :5.2 an assigned question starts the work directly; the existing theorem and two constructed cases suffice. Building a larger collection before writing would add no needed premise. In :5.3 the case record already supplies same-case resumption, while the connected note carries a question developed across unlike episodes. The comparison retains both the useful transfer and the no-network alternative; changed operational conditions still require their own qualification.
+
+Luhmann's 1981 account, [*Kommunikation mit Zettelkästen*](https://ckrybus.com/static/papers/luhmann1981.pdf), is a historical example of sustained practice. Andy Matuschak's [daily working log](https://notes.andymatuschak.org/Daily_working_log) and [writing strategy](https://notes.andymatuschak.org/Executable_strategy_for_writing) provide inspectable digital-practice alternatives. Their descriptions are method accounts, not controlled efficacy comparisons.
+
+**Decision and cost.** Adopt stable addressability and recoverable source returns when later reasoning uses them. Adapt note unity to independent use and connected inference, and retain temporary project views when their argument develops differently. Reject a universal promotion ladder or note-count target: neither selects the useful result in these cases. The accepted burden is selective formulation and connection in exchange for an available later continuation. The comparisons establish these constructed uses; learning and general productivity remain empirical questions.
+
+Reopen the arrangement when useful thoughts repeatedly remain unfindable, mandatory structure suppresses a needed distinction, maintenance exceeds the contribution to actual work, or a simpler available practice supports the same continuation with less effort.
+
+### B.5.WN:12 - Relations
+
+- **B.5.PI and B.5.EA** help initiate inquiry and articulate a working distinction from experience.
+- **B.5.QD** develops a new question from a result or construction; **B.5.QD.CF** examines conflicting assumptions when that is the obstacle.
+- **B.5.RA and B.5.RC** recover an argument or construction needed to understand and continue a source.
+- **B.5.RR** revises reasoning after a premise or question changes.
+- **A.6.3.RT.OE** constructs an expression for the next operation; **A.6.3.RT** preserves content through a representation change.
+- **A.15.10 and A.15.11** supply resumption of interrupted work and an occasion where a relevant contribution can be used.
+- **C.39.RO** develops a reusable operation when the successful local construction needs that further result.
+- **C.2.8** qualifies what a recipient can recover under stated preparation, access and assistance.
+
+### B.5.WN:End
 
 ## B.5.MPC - Connect Physical, Mathematical and Computational Reasoning
 
@@ -85137,11 +85455,8 @@ Recover the recurring problem–conditions–remedy relationship from the case. 
 
 Continue through the promised result and its material returns, not just the first repaired sentence. Keep independent uses distinct when they need different contributions. Stop elaborating when the intended reader can obtain the necessary operations and connections under the stated preparation and access, or when an explicit unresolved contribution limits the claim. More elementary detail is unnecessary when it changes no declared use. Apply the connected F.19 reading to the resulting explanation and its actual public presentation; that wording judgement does not establish the Method's subject-matter effectiveness.
 
-**Worked authoring repair.** A draft says, “Convert the supplied dates to ISO format.” The author knows that supplier North guarantees month/day/year and supplier South guarantees day/month/year, and has a converter that is correct for a supplied date order. The intended reader can run that converter but cannot infer the order of `03/04/2026` from its characters. The first missing instruction is the source-to-order selection, not conversion syntax.
+**Worked authoring repair.** The date-conversion case in §4.2.1.2 develops the missing source-to-order selection and then constructs the expression that makes it usable. The converter can perform its operation once the applicable source supplies the order; ambiguous characters alone supply no such interpretation. The case preserves both correct conversions and the changed-source stop while comparing the forms that carry this connection.
 
-The author makes the supplier guarantees and their scope available with the instruction, retains the supplier identity for each row, derives the order from the applicable guarantee, and passes the row and order to the converter. North's value becomes `2026-03-04`; South's becomes `2026-04-03`. The public explanation now supplies the connection the author previously made privately. A compact reminder for experienced users can point to this explanation, but must not invite them to guess a missing order.
-
-Now South changes to mixed orders without row-level information. The same reusable reasoning localizes the unsupported connection: North and the earlier qualified South files remain usable; ambiguous new South rows need trustworthy row-order information or correctly matched converted dates. Repeating the converter with both orders cannot choose between them. The author explains this boundary and the missing contribution instead of making the earlier rule unconditional. These are stipulated task conditions and a worked construction, not evidence that users have successfully learned the Method.
 
 **Divide a method account from pedagogical companions by the work each supplies.** A pattern can state a Method adequately for competent readers while a pedagogical companion provides the fuller teaching needed by a less prepared audience. Completeness is relative to the declared use and genuine suppliers; it does not require every beginner explanation in the pattern body. The pattern's contribution still includes its problem and frame, forces, operative distinctions and connections, conditions, grounds for important choices, and criteria and limits of the result. Keep or directly supply the worked and changed-condition reasoning that the declared use needs. A title list or imperative sequence is insufficient when a competent reader must invent why its steps connect.
 
@@ -85162,6 +85477,55 @@ This construction probe establishes only what that reader could recover and desi
 **Authoring examples.** A portfolio-comparison pattern can keep its general Method concise while a directly named common application supplies the alternatives, complete small calculation and changed-condition cases. The shared application must actually contain that work. A reminder to reuse a previous evaluation instead needs the same-question and still-applicable-evidence conditions beside the instruction; leaving them only in a distant rationale permits an unsupported reuse. A reader altering a construction may need its invariant and why the composition preserves it, even when an experienced operator can execute the unchanged construction from a brief reminder. These are different reading needs, not reasons to publish a separate authoritative Method for each audience.
 
 Use existing sections, examples and direct references to organize these paths. `E.11` governs discovery; it does not replace the required explanation with an entry card. `E.14` keeps practical use and assurance connected; it does not defer a condition needed before action. `E.17.EFP` governs faithfulness when selecting or expressing an account: a faithful partial expression can serve a bounded use, while changed claims or a narrower use need their own explicit treatment. No fixed number of reading levels, parallel versions, characters or model-specific editions is required.
+
+###### E.8:4.2.1.2 - Construct the expression that supports the reader's operation
+
+Use this move when the needed explanation is available but the author still has to decide what the reader should read, compare, remember, manipulate or carry forward. It also applies when arranging incomplete material is how the reader will discover the question. A representation can help produce a distinction that was not available before it was used. Its usefulness is not limited to storing a finished answer.
+
+Begin with the reader's operation and actual material. Try it with a sufficient existing expression before designing another one. Retain the reader's preparation and available help from §4.2.1.1. If the operation itself is missing, develop or obtain it; rearranging its name cannot supply it. A.6.3.RT.OE explains how to make an expression operative. Developing formation, interpretation or transformation rules is a separate notation-engineering task. The external [Notational Engineering DPF](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) offers optional methods for that work.
+
+**Construct the contrast before choosing the format.** Place together the pieces that the operation needs to distinguish or combine. They can still contain uncertain interpretations or an unanswered question. Attempt the comparison, grouping, substitution or inference. Where it fails, determine whether a missing fact, a missing operation or the arrangement of the expression prevents the result. Change the arrangement when it hides or confounds an available distinction. Obtain a missing fact when the receiving operation requires it. Preserve an unresolved question when it is the useful result of this attempt.
+
+The unit follows the operation. Two cases may need to remain adjacent to expose a difference; one thought may need to be independently movable without losing the reason it states; an instruction may need its prerequisite at the point of action. Start with these relations rather than a blank form inherited from another task. Stable labels and a small common structure can make repeated comparison possible. Retain those constraints while they help, and revise the particular one that suppresses a needed distinction.
+
+**Choose among expressions by what the reader does with them.** Continuous explanation can keep a causal argument or an unfamiliar inference together. A mantra can help retain an already developed connection during work; it cannot teach a missing operation merely by naming it. A table makes the same questions about several cases jointly inspectable. Its rows and columns need meaningful common interpretations, including the conditions under which values may be compared. A card makes a coherent contribution separately addressable and rearrangeable; explain what a connection between cards means. A diagram can expose a relation whose incidence, order or spatial organization matters; the appearance of an arrow does not establish a dependency or cause. An executable expression can perform a specified operation, provided its inputs, interpretation, execution context and failure behavior are supplied.
+
+These expressions may be combined. For example, a short explanation can establish a table's interpretation, the table can support comparison, and a reminder can later cue that same operation. Select only the contributions needed by the intended use. A list of all available formats creates no obligation to include them.
+
+**Expose the interpretation where it is used.** A column headed `Date` can leave its event, role and unit unresolved. A row can represent an observation, an attempted operation, a relation or a claim rather than one physical object. State the distinctions that affect the operation, including what an empty position means. A missing observation is not zero; a not-applicable question differs from an unanswered one. Use the domain's kinds, quantities and roles and the relevant FPF distinctions where they settle such a difference. Do not turn the whole upper ontology into columns.
+
+Distinguish content that must be available from content the practitioner must enter again. A visible value may be derived from a qualified source or retrieved from another record. Show that return when it matters, and require manual entry only for the contribution the person actually supplies. An illustrative table in a pattern is not automatically a record schema for every performance.
+
+**Place, retain and change the support.** Place an interpretation or prerequisite beside the first operation that depends on it. Place a reusable example where its intermediate result can be inspected. Keep assurance conditions available before consequential reliance even if their derivation is elsewhere. If a form will travel without the surrounding prose, carry the interpretation and source return needed in that separated use. A direct link can be sufficient when the recipient has the access and can recognize when to follow it.
+
+Compare the candidate with the best simpler expression by performing the same use at the same preparation. Retain a sufficient existing form when no worthwhile gain is shown. Remove a field or whole support when its contribution is unnecessary or supplied more effectively elsewhere, checking the use that previously depended on it. Rework instead of adding a second copy when the existing expression contains the right material in an unhelpful arrangement. Add a new support when an operation remains unavailable or requires avoidable reconstruction. Revisit this choice when the question, source, recipient or separation from context changes. An expert construction establishes what that construction makes available; evidence of reader success or lower effort requires an actual reading under stated conditions.
+
+**Worked choice: a date conversion and the form that teaches it.** The explanation in §4.2.1.1 requires a source-to-order selection before conversion. Supplier North guarantees month/day/year; South guarantees day/month/year for the files at issue. The intended reader can run a converter given a date order. The author's task here is to choose an expression that makes the selection, its reason and its limit usable.
+
+Begin with the tempting two-column arrangement:
+
+| Raw text | ISO date |
+| --- | --- |
+| `03/04/2026` | `2026-03-04` or `2026-04-03`? |
+
+The cell exposes an unresolved interpretation; selecting one output by appearance would invent information. The author asks what differs between the two legitimate conversions. The available supplier guarantees supply that difference. Rework the comparison:
+
+| Source of this row | Raw text | Interpretation supplied by the applicable guarantee | Converter result |
+| --- | --- | --- | --- |
+| North | `03/04/2026` | month/day/year | `2026-03-04` |
+| South | `03/04/2026` | day/month/year | `2026-04-03` |
+
+The unchanged raw characters and different results remain adjacent. The table expresses the source-to-interpretation relation which the two-column prototype lost. The surrounding explanation says how the applicable guarantee is obtained and why guessing from the characters is invalid. `Source` designates the supplier for this row; the interpretation is an input to conversion derived from that supplier's guarantee, not a newly observed property of the date. Neither the interpretation nor the output must be manually recopied by every user.
+
+A separate card for each row would make this small comparison harder to inspect together without supplying a needed rearrangement. A dependency diagram can explain the same selection when its connections become the difficult part, but adds no needed distinction to these two rows. The table and its short explanation therefore serve this example. For experienced users, “use the applicable source order; do not infer it from an ambiguous date” is a recall cue with a return to the explanation. It does not replace that explanation for someone learning the selection.
+
+Now change the receiving use. A work session contains only North files under one applicable guarantee, and the converter receives that fixed order from the session's qualified configuration. A repeated source and order entry in every manually completed row supplies nothing further to this session's conversion. Remove those repeated inputs from the local working view; retain the scope statement and its return to the guarantee. The two-column raw/result view is sufficient there. If a row is later exported alone or South material enters the session, that contextual supply no longer suffices: recover the row's source and applicable order before conversion. This is a conditional removal, not a claim that source identity never matters.
+
+In a different change, South starts using mixed orders and supplies no row-level interpretation. Preserve North's results and the earlier qualified South results. Mark the ambiguous new South row as unresolved; neither a fuller form nor running the converter twice chooses its meaning. Obtain trustworthy row-order information or correctly matched converted dates before relying on that result. The unknown blocks that conversion, not every other row.
+
+**Apply the construction to the pattern's own arrangement.** Keep the selection operation and its use-changing conditions in Solution. Keep the small comparison with the instruction that interprets it; a distant collection of unexplained forms would make the reader reconstruct the missing connection. The canonical sections and stable addresses organize publication and return. They need not become the author's order of discovery: rough notes can reveal the source-to-order problem before the first pattern body is composed. Once a pattern body is authored, §4.1 governs its canonical frame; the external notes are not a substitute for its unfinished content.
+
+The raw/result prototype, the source-qualified comparison and the reduced single-source view expose why different forms support the same conversion in different conditions. They are worked constructions, not observations of improved learning or production performance.
 
 ##### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
 
@@ -85796,7 +86160,7 @@ selected answer, trigger four systemic hazards:
 
 ### E.9:4 - Solution — state the decision before distributing it
 
-Write the `Decision` account first in ordinary precise language. Before a reader meets a DRR identity schema, method/work account, or catalogue of alternatives, they must be able to recover, in this order:
+Present the `Decision` account first in ordinary precise language. Before a reader meets a DRR identity schema, method/work account, or catalogue of alternatives, they must be able to recover, in this order:
 
 1. the working FPF problem and why it matters now;
 2. the selected answer stated positively;
@@ -85805,7 +86169,7 @@ Write the `Decision` account first in ordinary precise language. Before a reader
 5. the first substantive drafting action; and
 6. the nearest boundary, honest blocker, or reopen condition.
 
-That short account is the primary authoring source. Add exact method, work, application, episteme-identity, source-use, assessment, or authority distinctions only when the decision or a named later reliance depends on them.
+When the answer is still unsettled, use §4.2 to develop it through a working expression; the order above is the reader's entry to the resulting decision, not a requirement to guess the answer before inquiry. That short account, once supported, is the primary authoring source. Add exact method, work, application, episteme-identity, source-use, assessment, or authority distinctions only when the decision or a named later reliance depends on them.
 
 A nontrivial DRR keeps four conceptual components recoverable. These are the minimum decision kernel; the lightweight editorial variant remains available under `CC-DRR.5`.
 
@@ -85961,12 +86325,57 @@ The DRR names:
 
 Reusable process-source method is not limited to semio wording or pattern-authoring language. It may enter FPF only when it is separable from local process mechanics, improves FPF use, and has one exact evaluation pattern. After the method lands in FPF, process documents should cite the selected FPF pattern instead of keeping a parallel long-form rule.
 
+#### E.9:4.2 - Develop an unsettled decision through a working expression
+
+When the selected answer is still unknown, begin with the current difficulty and available material rather than manufacturing a Decision to fill the record. The opening instruction in §4 governs how the selected answer is presented to its reader. It does not require that deciding starts with an already selected answer.
+
+Use a provisional expression to bring a consequential relation into view: juxtapose two cases, arrange competing explanations, trace a dependency, or compare an intended use with the result currently available. E.8:4.2.1.2 and A.6.3.RT.OE supply the expression construction. Identify what the arrangement lets you infer and what remains unsupported. A question mark can make an unresolved interpretation visible; it supplies no premise for choosing one answer.
+
+Let the result change the decision question when it reveals that the original question conflated different work. Retain live alternatives only for the comparison they support. Replace a classification by format, tool or package name when the deciding difference concerns the operation or conditions of use. A working table can therefore be revised or discarded after it has produced the useful distinction. Its row count is not progress toward a decision.
+
+Before another author relies on the selected answer, resolve each premise that can change its selected obligation, or choose an explicitly bounded result whose remaining uncertainty does not defeat that obligation. State an honest stop where neither is available. Use the four kernel components and the applicable inspection content in §4.1 to inspect that closure. Material already recoverable in the account need not be copied into another answer column. A source pointer without the needed substantive contribution is not recoverable decision content.
+
+Keep this difference visible in the writing. “The source order for this row is unknown” can be a valid investigation result. “Convert this row using day/month/year” would require the missing premise. Conversely, a settled decision to stop such rows and request their interpretation can be supported even while their particular dates remain unknown. What remains open must be compared with the decision actually being made.
+
+The record carries the resulting problem, selection, reasons and consequences, not every discarded worksheet or the chronology of deciding. Retain a working expression when a later use needs its reasoning or recoverability; otherwise carry its useful result and source return into the decision. An incomplete exploration becomes neither an accepted decision nor an authorization merely by receiving a DRR heading.
+
 ### E.9:5 - Archetypal Grounding (System / Episteme)
 
 | Holon flavour | DRR analogue | Minimum kernel illustrated |
 |---------------|--------------|-----------------------------|
 | **`U.System`** (physical target) | The author applies `DRRMethod` during decision work on a pump-motor change; the selected-answer result specifies brushless DC and exact control/maintenance loci. | The C.2.1 DRR episteme records inefficiency/plant-use problem, alternatives, energy-versus-cost/authority rationale, selected loci, control-schema and supplier consequences, and validation obligation. |
 | **`U.Episteme`** (knowledge target) | The author applies `DRRMethod` during decision work on a theory revision; the selected-answer result specifies a new axiom and exact theory/teaching loci. | The DRR episteme records conflicting data, alternatives, explanatory/Pillar rationale, selected distribution, predictions, curriculum consequences, and downstream validation obligation. |
+
+#### E.9:5.1 - Decide what support a conversion pattern should carry
+
+An author is revising the actual date-conversion explanation in E.8:4.2.1.1. The explanation already supplies the essential rule: use the applicable supplier guarantee to choose the date order before running the converter. North guarantees month/day/year, South day/month/year for the files at issue. The same text, `03/04/2026`, accordingly yields March 4 or April 3. The intended practitioner can run a converter with a supplied order. The author can follow that reasoning but has not yet decided whether the public method should prescribe a table, a per-row card or prose alone.
+
+A first working note says: “Choose a standard date card; include source, raw value, order and converted value.” It proposes a form before establishing whether all four entries are independent user inputs or what their arrangement must let the reader do. Turning those words into a completed Decision would hide the open question.
+
+The author first constructs the raw/result expression and its unresolved cell shown in E.8:4.2.1.2. It keeps both possible results visible. Trying to select an output from the raw text alone fails. The supplier difference leads to the source-qualified comparison. This yields a more useful decision question: **which source-to-interpretation connection must the pattern explain, and which expression makes that connection usable without requiring unnecessary repeated entry?** The difference between required available content and manual entry is obtained from this operation; it is not a reason to drop the source information.
+
+The author now compares three concrete alternatives at the same practitioner preparation:
+
+| Alternative | What it supplies | What changes the decision |
+| --- | --- | --- |
+| Prose instruction and the current worked reasoning | The source-to-order selection and the mixed-order stop are already available. | It remains sufficient for a reader who can keep the small comparison in view; it does not prescribe a repeated record. |
+| A four-field card manually completed for every row | An addressable per-row account can travel separately. | Within one qualified session, copying the fixed order and derived result adds work; separated use may instead need the source and guarantee return. |
+| A source-qualified comparison in the explanation, with a use-relative working view | Both interpretations of the same raw text are inspectable together; the interpretation remains connected to its guarantee. | Its labels and context must remain recoverable if the table travels; a local single-source view may omit repeated displayed inputs only while the context actually supplies them. |
+
+The comparison does not demonstrate that every reader is faster with a table. It establishes different supported operations and context dependencies. The author selects the third alternative for the explanatory example, retains the first as a sufficient compact use, and rejects the universal manual-card requirement. The selected pattern account has to teach the conditions of reducing the view and restoring the missing context.
+
+A short decision account can now carry the useful result:
+
+- **Problem frame:** the existing conversion method is available, but authors lack the worked choice between explanatory comparison and a mandatory record for each conversion.
+- **Decision:** develop the expression-construction explanation in E.8:4.2.1.2, with the source-qualified comparison and a conditional reduced view. Preserve §4.2.1.1's source-to-order selection and honest stop. Do not prescribe a card for every row or change the converter's subject method.
+- **Rationale:** the different outputs for identical raw text require an interpretation supplied by the applicable source. A juxtaposed comparison teaches this relation. Re-entering a value already supplied by the session is a separate burden with no additional contribution to that local operation. Detached reuse changes that judgement.
+- **Consequences:** keep the guarantee's scope and source return beside the operation; restore row-level context for mixed or separated use. First draft the actual explanation and compared expressions at the named locus. Examine whether the intended reader can recover and apply the selection under the stated preparation. Do not claim observed learning, speed or universal usability from this construction.
+
+These paragraphs supply the bounded content decision; they are not answers copied into every inspection row. Its exact grounds are the existing E.8 explanation, the stipulated supplier guarantees and the performed comparison. The related conversion operation remains unchanged. No new date kind, source-independent interpretation or general record schema is selected. A changed supplier guarantee reopens the affected interpretation; an actual reader failure would reopen the explanation or its support.
+
+Now South changes to mixed orders without row-level information. The author can still settle the content decision to preserve the earlier results, represent the new unknown and stop that row's conversion pending a trustworthy interpretation. The missing date order does not prevent explaining that boundary. It does prevent selecting a particular converted date. If the proposed public method instead promised to convert every row without obtaining such information, the author would have to change that promise or stop the dependent decision.
+
+E.9's four components and inspection content remain stable aids for making the final selection recoverable. The provisional card is not preserved merely because it was the first form used. Its useful source-to-interpretation distinction survives in the selected account, while unnecessary per-row manual entries are removed. This exercises E.9 on its own use: working expressions help produce the question and selection; the decision record preserves the supported answer for its next author.
 
 ### E.9:6 - Bias-Annotation
 
