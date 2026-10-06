@@ -84515,7 +84515,7 @@ Concrete rules for each rail live in patterns **E.5.1 – E.5.4**.
 |------------|-------------------|----------------------|
 | GR‑1 | Definition of `U.System` never cites file formats or build scripts. | Definition of `U.Episteme` avoids naming specific proof engines. |
 | GR‑2 | Pump boundary invariant is true in plain text or any diagram. | F‑G‑R semantics hold in algebraic or graph notation alike. |
-| GR‑3 | A sizing helper imports Core invariants; Core never imports helper tutorials. | Learning guide cites R‑score; Core never cites guide. |
+| GR‑3 | A sizing helper imports Core invariants; Core never imports helper tutorials. | Learning guide cites R‑score; Core does not derive its semantics from the guide. |
 | GR‑4 | Bias audit removes thermo‑mechanical jargon from a “universal” pattern. | Audit replaces physics‑centric metaphors in a trust pattern. |
 
 ### E.5:6 - Conformance Checklist
@@ -84883,7 +84883,7 @@ Cross‑Scale Consistency**.
 |----|-------------|---------|
 | **CC‑BA.1** | Each Core pattern **SHALL** include a *Bias‑Annotation* listing the five lenses and any declared scope limitation. | Ensures explicit reflection on bias. |
 | **CC‑BA.2** | A pattern labelled “universal” **MUST NOT** privilege a single lens without justification or scoping note. | Preserves trans‑disciplinary integrity. |
-| **CC‑BA.3** | If scope is declared, the pattern **SHALL** reference the mapping or rationale that enables cross‑domain translation. | Keeps pathways open for other calculi. |
+| **CC‑BA.3** | If scope is declared, the pattern **SHALL** state its rationale. When cross-domain translation is claimed or required, it **SHALL** reference the mapping or rationale supporting that translation and state its limits. | Keeps pathways open for other calculi. |
 | **CC‑BA.4 Universality claim and applicable evidence** | A pattern labelled **“universal”** states the exact ClaimScope, population or bearer, qualification window, and intended use of that claim. When the claim is universal-core placement for a durable U-kind candidate admitted through **E.24.UK**, apply **A.8:3**'s complete cross-domain projection test. `Diversity_P` or `IlluminationSummary` supports that test only through its governing C.17, C.19, or direct pattern; it is not a standalone gate. | Keeps the claimed scope and its applicable evidence explicit. |
 
 ### E.5.4:7 - Consequences
@@ -88660,7 +88660,7 @@ Recover the current claim from its participants, subject, operation, result, and
 3. **Name the changed subject.** State whether the current claim concerns a person's capability, an episteme, a model and parameters, a probability distribution, a representation relation, an organization or population, a product, a Work occurrence, or another exact subject.
 4. **Separate Work, Method, and result.** Name inquiry, teaching, practice, training, optimization, inference, experiment, data acquisition, assessment, publication, or cultural-continuation Work only when it is current. Keep its performer, Method, inputs, and dated occurrence separate from the result attributed to another subject.
 5. **State the evidence and any material transfer boundary.** Name what was observed or assessed, for which task, population, configuration, window, support arrangement, and use. State an unsupported stronger claim only when independent local grounds make that reading plausible and the distinction changes use.
-6. **Select one direct branch.** Use the branch table below. When one sentence contains several branches, split it into several ordinary sentences and route each one separately.
+6. **Select one direct branch.** Use the branch table below. When one sentence contains several branches, keep the claims distinguishable and route each separately.
 7. **Stop after recovery.** Return the repaired claim and direct pattern, or an exact missing-information, missing-governor, quote-only, ordinary-use, or blocker result. Do not create a generic learning record, role kind, process, progress scale, or causal relation.
 
 #### E.10.LRN:4.1 - Direct branches
@@ -89248,7 +89248,7 @@ Restore the governed target before choosing replacement wording:
 1. Name the exact `GovernedTextSpan`, the `ClaimBeingMade`, and the `ObjectUnderWordingRepair`.
 2. Decide whether the wording is ordinary prose, a quotation, or wording relied on for an FPF-governed claim. Ordinary and quotation uses can close without inventing a technical target.
 3. When the phrase is `mantra move`, first ask which use is present. In a post-qualification A.22.CGUS demonstrative slice that shows pattern use, recover the exact E.11.PUA `PatternUsePracticeContinuationDescription@Context`: its proposed use, expected result and kind, PatternID and name, current condition, and continuation disposition. Keep `mantra move` only as bounded Plain wording for that shown continuation. A.22.CGUS supplies the structure and slice boundary; it does not create a universal displayed-row kind. For a Plain local mantra, name the bounded result and restore the move-like wording through that result's exact predicate or constraint. For a Plain long mantra, name the intended final result and the particular map location whose answer or stop is current, then state the exact answer or blocker and use the subject pattern only as a locator. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
-4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover `ExpectedEvaluationResultChange@Context` under `E.23`. That value is a coordinate-and-scale-qualified prediction episteme, not an operation, transition, movement, work occurrence, or proof of improvement.
+4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover the coordinate-and-scale-qualified prediction, its proposal basis, and protected tradeoffs under `E.23`. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. The prediction is not an operation, transition, movement, work occurrence, or proof of improvement.
 5. For every other governed use, name the exact recovered value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants. Add a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs that declaration. If the governed value is already clear, use its pattern directly.
 6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness claim or result, gate decision, publication relation, and performed Work do not become one value because the same word was used for them.
 7. Preserve `RemainingReaderUse`: the repair is complete only when a practitioner can still tell what can be inspected, selected, evaluated, planned, performed, or returned to next.
@@ -89346,7 +89346,7 @@ For *development trajectory*, open `E.10.DEV` first when the action-changing dou
 | `WordingUseDispositionValue` | Selected recovery |
 | --- | --- |
 | `boundedDemonstratedContinuation` | One E.11.PUA `PatternUsePracticeContinuationDescription@Context` shown inside a post-qualification demonstrative slice. A.22.CGUS supplies the structure and slice boundary, not a wrapper-row kind. Retain the complete bounded use and route any separate FPF-governed claim to its direct pattern. |
-| `evaluationResultChangePrediction` | One E.23 `ExpectedEvaluationResultChange@Context` with evaluation pattern, coordinate, scale, current result, one expected value, range, or closed direction, proposal basis, and protected tradeoffs. |
+| `evaluationResultChangePrediction` | An E.23 prediction about a later evaluation result, with evaluation pattern, coordinate, scale, current result, one expected value, range, or closed direction, proposal basis, and protected tradeoffs. Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. |
 | `directGovernedUse` | The exact governed value or relation, its kind, and its subject pattern. For a relation claim, name the admitted direct predicate and actual participants; include a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. The wording disposition itself contributes no project ontology. |
 | `importedSourceWording` | Preserve the source expression only as source wording; recover every FPF use under its direct pattern. |
 | `ordinaryProse` | Keep or lightly rewrite when no FPF-governed value is being asserted. |
@@ -89363,7 +89363,7 @@ A durable name states the recovered subject value or relation; it does not retai
 | Misleading durable name | Repair |
 | --- | --- |
 | `localMoveLocus` | Name the exact local value or relation and its subject pattern. Do not preserve `locus` as a cross-pattern grouping head. |
-| `ExpectedEvaluationMovement` | Use `ExpectedEvaluationResultChange@Context` only when the E.23 prediction positions are recoverable. |
+| `ExpectedEvaluationMovement` | Use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use and the prediction positions are recoverable. |
 | `FirstMoveRecord@Context` | Name the actual first result or relation governed by the direct pattern. |
 | `Pattern-Use Sequence` | Use `PatternUseCoordination@Context` for the coordination judgement, `PatternUseOrderingRelation@Context` for one justified pairwise precedence relation inside it, and `PatternUseSequence@Context` only for the bounded total-order specialization under a named receiving use. Keep conversational coordination or ordering unmaterialized when no later reliance needs an addressable object. |
 
@@ -89396,7 +89396,7 @@ ReopenCondition: the enclosing structure or slice boundary changes, the E.11.PUA
 
 Source sentence: "The repair should create an upward evaluation movement."
 
-If the claim predicts a later evaluation result, restore the evaluation pattern, coordinate, scale, current result, one expected scale value, range, or closed direction, candidate proposal basis, and protected tradeoffs. Write the result as `ExpectedEvaluationResultChange@Context`. If those positions are unavailable, keep a provisional prediction description or use E.22 and E.23 to obtain the missing prediction basis.
+If the claim predicts a later evaluation result, restore the evaluation pattern, coordinate, scale, current result, one expected scale value, range, or closed direction, candidate proposal basis, and protected tradeoffs. Keep an ordinary prediction description when it is sufficient; use `ExpectedEvaluationResultChange@Context` only when E.23's conditional account is needed for the receiving use. If those positions are unavailable, keep a provisional prediction description or use E.22 and E.23 to obtain the missing prediction basis.
 
 #### E.10.MOVE:5.3 - Next FPF use
 
@@ -89464,7 +89464,7 @@ The method deliberately foregrounds Onto/Epist distinctions and direct subject o
 | --- | --- | --- |
 | `CC-E10MOVE-1` | names the governed text span, claim being made, and object under wording repair before choosing a replacement. | Resolve the kind from the current claim and its direct pattern. |
 | `CC-E10MOVE-2` | assigns one wording-use disposition and does not treat that local enumeration as project ontology. | Demonstrated row, evaluation-result prediction, direct governed use, imported source wording, ordinary prose, and quotation cases remain distinct. |
-| `CC-E10MOVE-3` | names the exact recovered governed value, value kind, and non-semantic PatternID locator for the subject pattern whose content defines, constrains, or tests that value. For a relation claim, it names the admitted direct predicate and actual participants; it includes a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. | Confirm the recovered project value under its direct pattern. Any relied-on MethodDescription identity needs independent A.3.2 admission, as in §4.1. |
+| `CC-E10MOVE-3` | for an FPF-governed use, names the exact recovered governed value, value kind, and non-semantic PatternID locator for the subject pattern whose content defines, constrains, or tests that value. For a relation claim, it names the admitted direct predicate and actual participants; it includes a `RelationSignature` reference only when an admitted reusable typed declaration is current and the receiving use needs it. | Confirm the recovered project value under its direct pattern. Any relied-on MethodDescription identity needs independent A.3.2 admission, as in §4.1. |
 | `CC-E10MOVE-4` | blocks root `U.Move`. | No durable move kind is minted by wording pressure. |
 | `CC-E10MOVE-5` | preserves remaining reader use. | The repaired text still says what the practitioner can do or inspect next. |
 | `CC-E10MOVE-6` | splits change-situation wording from pattern-use or readiness wording. | `A.3.4.P` and `E.10.MOVE` are both used when both objects are current. |
