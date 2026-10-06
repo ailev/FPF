@@ -392,7 +392,7 @@ A human capability-demand account contains these result positions:
 | disposition | One conclusion-specific `qualified current demand`, `prospective demand hypothesis`, `outside-HCD return`, or `demand-evidence-blocked`. |
 | continuation | Compatible inputs that HCD.3, HCD.4, or a future programme comparison may consume, plus scope limits and reopen conditions. |
 
-A `demand-evidence-blocked` result records one row per absent consumed value:
+For each absent value consumed by the blocked conclusion, preserve the following content in a form suited to its receiving use:
 
 | Missing-value field | Required content |
 | --- | --- |
@@ -2444,7 +2444,7 @@ Construct one contribution allocation:
 | capacity | Preparation, delivery, checking, correction, coordination, fallback, and peak-load effort; competing uses and unavailable periods. |
 | evidence and fallback | Evidence that the provider and access are available for this use; failure signal; feasible fallback or exact missing result and retry condition. |
 
-One person or tool may fill several rows, but each row keeps its own competence, workload, and constraints. Several providers may jointly supply one result, but their interfaces and the person responsible for the final judgement remain explicit. A catalogue, contract, platform account, or calendar slot is evidence input; none establishes every row by itself.
+One person or tool may supply several contributions, but each keeps its own competence, workload, and constraints. Several providers may jointly supply one result, but their interfaces and the person responsible for the final judgement remain explicit. A catalogue, contract, platform account, or calendar slot is evidence input; none establishes every contribution by itself.
 
 #### HCD.7:4.3 - Test Competence, Access, Timing, and Capacity
 
@@ -2572,13 +2572,13 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: arranging a
 ### HCD.7:7 - Conformance Checklist
 
 - [ ] The human holder or learner class, participation basis, programme or practice, later-Work target, calendar, evidence uses, and receiving decision are explicit.
-- [ ] Every required explanation, preparation, access, feedback, checking, assessment, specialist, coordination, environment, and fallback contribution has its own row.
+- [ ] Every required explanation, preparation, access, feedback, checking, assessment, specialist, coordination, environment, and fallback contribution is identifiable with its recipient and conditions.
 - [ ] Provider competence, scope, authority, and independence are supported for the exact contribution rather than inferred from a role label.
 - [ ] Data, source, project, tool, AI, interface, privacy, confidentiality, accessibility, safety, legal, and organizational conditions are explicit where material.
 - [ ] Total capacity includes preparation, delivery, review, correction, coordination, disagreement, fallback, and competing work.
 - [ ] Peak periods, concurrency, feedback deadlines, and handoff times fit the actual provider windows.
 - [ ] Peer, teacher, assessor, specialist, organization, source, tool, and AI contributions remain distinct.
-- [ ] AI and tool rows state permitted work, prohibited data or use, human checks, checking capacity, attribution, and fallback.
+- [ ] AI and tool contributions state permitted work, prohibited data or use, human checks, checking capacity, attribution, and fallback.
 - [ ] Intended help, permitted help, actual availability, received help, joint performance, and independent performance are not conflated.
 - [ ] A fallback satisfies the same relevant competence, access, capacity, timing, and authority conditions or is reported as unavailable.
 - [ ] A class-level arrangement retains personal-fit and participation questions for the named learner.
